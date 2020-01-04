@@ -1320,7 +1320,6 @@ anEnumerator
 )
 ;
 }
-return
 observerList
 -
 >
@@ -1328,6 +1327,9 @@ GetObserverList
 (
 anEnumerator
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

@@ -273,6 +273,7 @@ nsObserverList
 )
 ;
 }
+MOZ_MUST_USE
 nsresult
 AddObserver
 (
@@ -283,6 +284,7 @@ bool
 aOwnsWeak
 )
 ;
+MOZ_MUST_USE
 nsresult
 RemoveObserver
 (
@@ -307,7 +309,7 @@ char16_t
 aSomeData
 )
 ;
-nsresult
+void
 GetObserverList
 (
 nsISimpleEnumerator

@@ -475,6 +475,7 @@ EndOfFile
 )
 ;
 }
+MOZ_MUST_USE
 bool
 ReadChar
 (
@@ -483,6 +484,7 @@ char
 aValue
 )
 ;
+MOZ_MUST_USE
 bool
 ReadChar
 (
@@ -501,6 +503,7 @@ char
 aValue
 )
 ;
+MOZ_MUST_USE
 bool
 ReadWord
 (
@@ -509,6 +512,7 @@ nsACString
 aValue
 )
 ;
+MOZ_MUST_USE
 bool
 ReadWord
 (
@@ -522,6 +526,7 @@ template
 typename
 T
 >
+MOZ_MUST_USE
 bool
 ReadInteger
 (
@@ -668,6 +673,7 @@ aInclude
 EXCLUDE_LAST
 )
 ;
+MOZ_MUST_USE
 bool
 ReadUntil
 (
@@ -684,6 +690,7 @@ aInclude
 EXCLUDE_LAST
 )
 ;
+MOZ_MUST_USE
 bool
 ReadUntil
 (

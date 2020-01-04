@@ -213,7 +213,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsObserverList
 :
 :
@@ -244,9 +244,6 @@ forget
 (
 anEnumerator
 )
-;
-return
-NS_OK
 ;
 }
 void

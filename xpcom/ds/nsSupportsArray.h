@@ -48,6 +48,7 @@ void
 )
 ;
 static
+MOZ_MUST_USE
 nsresult
 Create
 (
@@ -94,6 +95,7 @@ aResult
 )
 override
 ;
+MOZ_MUST_USE
 NS_IMETHOD
 QueryElementAt
 (
@@ -147,6 +149,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
+MOZ_MUST_USE
 NS_IMETHOD
 SetElementAt
 (
@@ -170,6 +173,7 @@ NS_OK
 NS_ERROR_FAILURE
 ;
 }
+MOZ_MUST_USE
 NS_IMETHOD
 AppendElement
 (
@@ -190,6 +194,7 @@ mCount
 )
 ;
 }
+MOZ_MUST_USE
 NS_IMETHOD
 RemoveElement
 (
@@ -199,6 +204,7 @@ aElement
 )
 override
 ;
+MOZ_MUST_USE
 NS_IMETHOD_
 (
 bool
@@ -360,6 +366,7 @@ return
 NS_OK
 ;
 }
+MOZ_MUST_USE
 NS_IMETHOD_
 (
 bool
@@ -374,6 +381,7 @@ aIndex
 )
 override
 ;
+MOZ_MUST_USE
 NS_IMETHOD_
 (
 bool
@@ -388,6 +396,7 @@ aIndex
 )
 override
 ;
+MOZ_MUST_USE
 NS_IMETHOD_
 (
 bool
@@ -407,6 +416,7 @@ aIndex
 )
 ;
 }
+MOZ_MUST_USE
 NS_IMETHOD_
 (
 bool
@@ -420,6 +430,7 @@ aElement
 )
 override
 ;
+MOZ_MUST_USE
 NS_IMETHOD
 DeleteLastElement
 (
@@ -442,6 +453,7 @@ NS_ERROR_FAILURE
 )
 ;
 }
+MOZ_MUST_USE
 NS_IMETHOD
 DeleteElementAt
 (
@@ -463,6 +475,7 @@ NS_ERROR_FAILURE
 )
 ;
 }
+MOZ_MUST_USE
 NS_IMETHOD_
 (
 bool
@@ -490,6 +503,7 @@ void
 )
 override
 ;
+MOZ_MUST_USE
 NS_IMETHOD
 Clone
 (
@@ -500,6 +514,7 @@ aResult
 )
 override
 ;
+MOZ_MUST_USE
 NS_IMETHOD_
 (
 bool
@@ -514,6 +529,7 @@ aIndex
 )
 override
 ;
+MOZ_MUST_USE
 NS_IMETHOD_
 (
 bool
@@ -527,6 +543,7 @@ aCount
 )
 override
 ;
+MOZ_MUST_USE
 NS_IMETHOD_
 (
 bool
