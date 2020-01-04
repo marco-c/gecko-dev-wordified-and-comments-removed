@@ -11482,11 +11482,6 @@ false
 JS_SetGlobalJitCompilerOption
 (
 cx
--
->
-runtime
-(
-)
 opt
 uint32_t
 (
@@ -11578,11 +11573,6 @@ setInt32
 JS_GetGlobalJitCompilerOption
 (
 cx
--
->
-runtime
-(
-)
 opt
 )
 )
