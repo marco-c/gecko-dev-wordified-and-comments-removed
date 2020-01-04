@@ -11399,6 +11399,13 @@ focusedWindow
 ;
 }
 else
+if
+(
+aType
+!
+=
+MOVEFOCUS_LASTDOC
+)
 {
 startContent
 =
