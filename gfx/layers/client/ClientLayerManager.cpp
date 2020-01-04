@@ -1071,8 +1071,14 @@ if
 (
 !
 mIsRepeatTransaction
-&
-&
+)
+{
++
++
+mPaintSequenceNumber
+;
+if
+(
 gfxPrefs
 :
 :
@@ -1081,10 +1087,6 @@ APZTestLoggingEnabled
 )
 )
 {
-+
-+
-mPaintSequenceNumber
-;
 mApzTestData
 .
 StartNewPaint
@@ -1092,6 +1094,7 @@ StartNewPaint
 mPaintSequenceNumber
 )
 ;
+}
 }
 }
 void
