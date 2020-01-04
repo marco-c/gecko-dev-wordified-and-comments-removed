@@ -813,6 +813,7 @@ GetFormat
 (
 )
 const
+override
 {
 return
 gfx
@@ -830,6 +831,7 @@ SupportsMoz2D
 (
 )
 const
+override
 {
 return
 false
@@ -846,6 +848,7 @@ DrawTarget
 BorrowDrawTarget
 (
 )
+override
 {
 return
 nullptr

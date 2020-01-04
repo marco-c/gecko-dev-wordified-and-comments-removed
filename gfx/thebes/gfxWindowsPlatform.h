@@ -371,6 +371,7 @@ gfxPlatformFontList
 CreatePlatformFontList
 (
 )
+override
 ;
 virtual
 already_AddRefed
@@ -414,6 +415,7 @@ gfxFont
 *
 aFont
 )
+override
 ;
 enum
 RenderMode
@@ -500,6 +502,7 @@ nsString
 &
 aListOfFonts
 )
+override
 ;
 nsresult
 UpdateFontList
@@ -525,6 +528,7 @@ char
 &
 aFontList
 )
+overide
 ;
 nsresult
 GetStandardFamilyName
@@ -537,6 +541,7 @@ nsAString
 &
 aFamilyName
 )
+override
 ;
 gfxFontGroup
 *
@@ -580,6 +585,7 @@ aStretch
 uint8_t
 aStyle
 )
+override
 ;
 virtual
 gfxFontEntry
@@ -603,6 +609,7 @@ aFontData
 uint32_t
 aLength
 )
+override
 ;
 virtual
 bool
@@ -621,6 +628,7 @@ aFontURI
 uint32_t
 aFormatFlags
 )
+override
 ;
 virtual
 bool
@@ -632,6 +640,7 @@ aResetReason
 =
 nullptr
 )
+override
 ;
 mozilla
 :
@@ -695,6 +704,7 @@ char
 *
 aPref
 )
+override
 ;
 void
 SetupClearTypeParams
@@ -1074,6 +1084,7 @@ LayersBackend
 &
 aBackends
 )
+override
 ;
 virtual
 void
@@ -1087,6 +1098,7 @@ size_t
 &
 size
 )
+override
 ;
 void
 SetDeviceInitData

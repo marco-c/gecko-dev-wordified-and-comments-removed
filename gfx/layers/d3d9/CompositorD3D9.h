@@ -205,6 +205,7 @@ CompositingRenderTarget
 *
 aSurface
 )
+override
 ;
 virtual
 CompositingRenderTarget

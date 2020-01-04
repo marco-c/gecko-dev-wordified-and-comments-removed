@@ -814,6 +814,7 @@ ISurfaceAllocator
 *
 aAllocator
 )
+override
 {
 }
 protected
@@ -914,6 +915,7 @@ GetSize
 (
 )
 const
+override
 {
 return
 gfx
@@ -997,6 +999,7 @@ ISurfaceAllocator
 *
 aAllocator
 )
+override
 {
 }
 IDirect3DDevice9

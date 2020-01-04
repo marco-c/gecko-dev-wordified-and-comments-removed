@@ -123,6 +123,7 @@ public
 MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 DrawTargetD2D
+override
 )
 DrawTargetD2D
 (
@@ -155,6 +156,7 @@ GetBackendType
 (
 )
 const
+override
 {
 return
 BackendType
@@ -171,12 +173,14 @@ SourceSurface
 Snapshot
 (
 )
+override
 ;
 virtual
 IntSize
 GetSize
 (
 )
+override
 {
 return
 mSize
@@ -187,6 +191,7 @@ void
 Flush
 (
 )
+override
 ;
 virtual
 void
@@ -220,6 +225,7 @@ DrawOptions
 (
 )
 )
+override
 ;
 virtual
 void
@@ -245,6 +251,7 @@ DrawOptions
 (
 )
 )
+override
 ;
 virtual
 void
@@ -270,6 +277,7 @@ aSigma
 CompositionOp
 aOperator
 )
+override
 ;
 virtual
 void
@@ -280,6 +288,7 @@ Rect
 &
 aRect
 )
+override
 ;
 virtual
 void
@@ -303,6 +312,7 @@ DrawOptions
 (
 )
 )
+override
 ;
 virtual
 void
@@ -320,6 +330,7 @@ IntPoint
 &
 aDestination
 )
+override
 ;
 virtual
 void
@@ -342,6 +353,7 @@ DrawOptions
 (
 )
 )
+override
 ;
 virtual
 void
@@ -372,6 +384,7 @@ DrawOptions
 (
 )
 )
+override
 ;
 virtual
 void
@@ -406,6 +419,7 @@ DrawOptions
 (
 )
 )
+override
 ;
 virtual
 void
@@ -436,6 +450,7 @@ DrawOptions
 (
 )
 )
+override
 ;
 virtual
 void
@@ -458,6 +473,7 @@ DrawOptions
 (
 )
 )
+override
 ;
 virtual
 void
@@ -489,6 +505,7 @@ aRenderingOptions
 =
 nullptr
 )
+override
 ;
 virtual
 void
@@ -511,6 +528,7 @@ DrawOptions
 (
 )
 )
+override
 ;
 virtual
 void
@@ -521,6 +539,7 @@ Path
 *
 aPath
 )
+override
 ;
 virtual
 void
@@ -531,12 +550,14 @@ Rect
 &
 aRect
 )
+override
 ;
 virtual
 void
 PopClip
 (
 )
+override
 ;
 virtual
 already_AddRefed
@@ -559,6 +580,7 @@ SurfaceFormat
 aFormat
 )
 const
+override
 ;
 virtual
 already_AddRefed
@@ -572,6 +594,7 @@ SourceSurface
 aSurface
 )
 const
+override
 ;
 virtual
 already_AddRefed
@@ -586,6 +609,7 @@ NativeSurface
 aSurface
 )
 const
+override
 ;
 virtual
 already_AddRefed
@@ -602,6 +626,7 @@ SurfaceFormat
 aFormat
 )
 const
+override
 ;
 virtual
 already_AddRefed
@@ -619,6 +644,7 @@ FillRule
 FILL_WINDING
 )
 const
+override
 ;
 virtual
 already_AddRefed
@@ -641,6 +667,7 @@ ExtendMode
 CLAMP
 )
 const
+override
 ;
 virtual
 already_AddRefed
@@ -652,6 +679,7 @@ CreateFilter
 FilterType
 aType
 )
+override
 ;
 virtual
 bool
@@ -659,6 +687,7 @@ SupportsRegionClipping
 (
 )
 const
+override
 {
 return
 false
@@ -672,6 +701,7 @@ GetNativeSurface
 NativeSurfaceType
 aType
 )
+override
 ;
 bool
 Init
