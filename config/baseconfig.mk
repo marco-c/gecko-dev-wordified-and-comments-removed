@@ -398,6 +398,13 @@ else
 TIERS
 :
 =
+(
+if
+(
+MOZ_ARTIFACT_BUILDS
+)
+artifact
+)
 pre
 -
 export
