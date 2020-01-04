@@ -4755,8 +4755,6 @@ screenRect
 width
 /
 alignmentX
-+
-1
 )
 ;
 float
@@ -4771,8 +4769,6 @@ screenRect
 height
 /
 alignmentY
-+
-1
 )
 ;
 screenRect
