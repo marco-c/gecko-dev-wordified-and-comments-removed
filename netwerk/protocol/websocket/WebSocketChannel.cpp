@@ -14398,14 +14398,14 @@ if
 mPingOutstanding
 )
 {
-if
+MOZ_ASSERT
 (
 mPingInterval
 |
 |
 mPingForced
 )
-{
+;
 LOG
 (
 (
@@ -14446,7 +14446,6 @@ nsITimer
 TYPE_ONE_SHOT
 )
 ;
-}
 }
 else
 {
