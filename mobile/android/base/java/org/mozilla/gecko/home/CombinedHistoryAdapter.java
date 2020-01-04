@@ -581,6 +581,12 @@ RECENT_TABS_SMARTFOLDER_INDEX
 if
 (
 countReliable
+&
+&
+panelStateChangeListener
+!
+=
+null
 )
 {
 panelStateChangeListener
