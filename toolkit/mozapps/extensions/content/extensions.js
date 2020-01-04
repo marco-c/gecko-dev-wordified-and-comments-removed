@@ -8944,13 +8944,15 @@ uninstall
 &
 &
 !
+(
 listitem
 .
-isPending
+opRequiresRestart
 (
 "
-uninstall
+UNINSTALL
 "
+)
 )
 )
 items
