@@ -2423,7 +2423,9 @@ loadUncachedFavicon
 context
 url
 iconURL
-0
+LoadFaviconTask
+.
+FLAG_BYPASS_CACHE_WHEN_DOWNLOADING_ICONS
 preferredSize
 onFaviconLoadedListener
 )
