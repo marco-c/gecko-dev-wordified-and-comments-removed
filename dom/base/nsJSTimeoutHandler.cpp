@@ -155,6 +155,9 @@ nsJSScriptTimeoutHandler
 ;
 nsJSScriptTimeoutHandler
 (
+JSContext
+*
+aCx
 nsGlobalWindow
 *
 aWindow
@@ -855,6 +858,9 @@ nsJSScriptTimeoutHandler
 :
 nsJSScriptTimeoutHandler
 (
+JSContext
+*
+aCx
 nsGlobalWindow
 *
 aWindow
@@ -934,6 +940,17 @@ mArgs
 SwapElements
 (
 aArguments
+)
+;
+nsJSUtils
+:
+:
+GetCallingLocation
+(
+aCx
+mFileName
+&
+mLineNo
 )
 ;
 }
@@ -1123,6 +1140,9 @@ nsIScriptTimeoutHandler
 >
 NS_CreateJSTimeoutHandler
 (
+JSContext
+*
+aCx
 nsGlobalWindow
 *
 aWindow
@@ -1191,6 +1211,7 @@ handler
 new
 nsJSScriptTimeoutHandler
 (
+aCx
 aWindow
 aFunction
 args
