@@ -768,7 +768,7 @@ true
 yield
 TelemetryController
 .
-testSetup
+setup
 (
 )
 ;
@@ -838,7 +838,7 @@ pingTypes
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -1116,7 +1116,7 @@ gSeenPings
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -1644,7 +1644,7 @@ OVERDUE_PINGS
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -1894,7 +1894,7 @@ receivedPings
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -1972,7 +1972,7 @@ clearPendingPings
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -2299,7 +2299,7 @@ clear
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -2536,7 +2536,7 @@ pingsOutsideQuota
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -2638,7 +2638,7 @@ reported
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -2888,7 +2888,7 @@ OVERSIZED_PING_ID
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;

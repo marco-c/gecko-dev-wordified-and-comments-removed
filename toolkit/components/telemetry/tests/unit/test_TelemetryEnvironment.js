@@ -4808,7 +4808,7 @@ expectedValue
 ;
 TelemetryEnvironment
 .
-testWatchPreferences
+_watchPreferences
 (
 PREFS_TO_WATCH
 )
@@ -5131,7 +5131,7 @@ gNow
 ;
 TelemetryEnvironment
 .
-testWatchPreferences
+_watchPreferences
 (
 PREFS_TO_WATCH
 )
@@ -7804,7 +7804,7 @@ gNow
 ;
 TelemetryEnvironment
 .
-testWatchPreferences
+_watchPreferences
 (
 PREFS_TO_WATCH
 )
@@ -8905,7 +8905,7 @@ MILLISECONDS_PER_MINUTE
 ;
 TelemetryEnvironment
 .
-testWatchPreferences
+_watchPreferences
 (
 PREFS_TO_WATCH
 )
@@ -9114,7 +9114,7 @@ gNow
 ;
 TelemetryEnvironment
 .
-testWatchPreferences
+_watchPreferences
 (
 PREFS_TO_WATCH
 )

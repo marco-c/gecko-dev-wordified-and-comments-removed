@@ -695,7 +695,7 @@ asyncSetup
 yield
 TelemetryController
 .
-testSetup
+setup
 (
 )
 ;
@@ -713,7 +713,7 @@ promisePingSetup
 =
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -1000,7 +1000,7 @@ shutdown
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -1066,7 +1066,7 @@ port
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -1707,7 +1707,7 @@ clearRequests
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -2156,7 +2156,7 @@ false
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -2198,7 +2198,7 @@ true
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;
@@ -2231,7 +2231,7 @@ false
 yield
 TelemetryController
 .
-testReset
+reset
 (
 )
 ;

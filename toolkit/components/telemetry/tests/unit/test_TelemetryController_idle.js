@@ -284,7 +284,7 @@ true
 yield
 TelemetryController
 .
-testSetup
+setup
 (
 )
 ;
