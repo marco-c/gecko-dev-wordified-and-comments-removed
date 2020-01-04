@@ -1588,6 +1588,12 @@ CanComposite
 void
 DidComposite
 (
+TimeStamp
+&
+aCompositeStart
+TimeStamp
+&
+aCompositeEnd
 )
 ;
 nsRefPtr

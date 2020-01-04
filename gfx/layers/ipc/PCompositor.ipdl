@@ -451,6 +451,10 @@ uint64_t
 id
 uint64_t
 transactionId
+TimeStamp
+compositeStart
+TimeStamp
+compositeEnd
 )
 ;
 /

@@ -110,7 +110,17 @@ AutoTimelineMarker
 h
 '
 '
+ObservedDocShell
+.
+h
+'
+'
 TimelineConsumers
+.
+h
+'
+'
+TimelineMarker
 .
 h
 '

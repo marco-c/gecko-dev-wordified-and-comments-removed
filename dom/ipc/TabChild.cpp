@@ -12486,6 +12486,14 @@ DidComposite
 (
 uint64_t
 aTransactionId
+const
+TimeStamp
+&
+aCompositeStart
+const
+TimeStamp
+&
+aCompositeEnd
 )
 {
 MOZ_ASSERT
@@ -12548,6 +12556,8 @@ manager
 DidComposite
 (
 aTransactionId
+aCompositeStart
+aCompositeEnd
 )
 ;
 }

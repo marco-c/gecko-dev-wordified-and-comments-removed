@@ -262,6 +262,14 @@ nsIWidgetListener
 :
 DidCompositeWindow
 (
+const
+TimeStamp
+&
+aCompositeStart
+const
+TimeStamp
+&
+aCompositeEnd
 )
 {
 }
