@@ -581,6 +581,11 @@ MaybeRejectWithNull
 (
 )
 ;
+void
+MaybeRejectWithUndefined
+(
+)
+;
 template
 <
 typename
