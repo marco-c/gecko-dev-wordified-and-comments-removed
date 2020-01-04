@@ -1239,7 +1239,7 @@ onDetachedFromWindow
 {
 super
 .
-onAttachedToWindow
+onDetachedFromWindow
 (
 )
 ;
