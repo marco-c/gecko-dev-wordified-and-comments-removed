@@ -87,6 +87,15 @@ h
 #
 include
 "
+gc
+/
+Policy
+.
+h
+"
+#
+include
+"
 jit
 /
 IonCode
@@ -2920,6 +2929,10 @@ char
 )
 ;
 FOR_EACH_PUBLIC_GC_POINTER_TYPE
+(
+INSTANTIATE_PUBLIC_TRACE_FUNCTIONS
+)
+FOR_EACH_PUBLIC_TAGGED_GC_POINTER_TYPE
 (
 INSTANTIATE_PUBLIC_TRACE_FUNCTIONS
 )

@@ -201,7 +201,7 @@ length
 +
 i
 )
-DefaultGCPolicy
+GCPolicy
 <
 T
 >
@@ -246,7 +246,7 @@ length
 +
 i
 )
-DefaultGCPolicy
+GCPolicy
 <
 T
 >

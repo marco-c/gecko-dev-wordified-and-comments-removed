@@ -373,7 +373,7 @@ template
 <
 >
 struct
-DefaultGCPolicy
+GCPolicy
 <
 nsJSObjWrapper
 *

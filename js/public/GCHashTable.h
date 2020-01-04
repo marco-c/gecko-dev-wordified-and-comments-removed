@@ -9,6 +9,15 @@ include
 "
 js
 /
+GCPolicyAPI
+.
+h
+"
+#
+include
+"
+js
+/
 HashTable
 .
 h
@@ -57,7 +66,7 @@ value
 )
 {
 return
-DefaultGCPolicy
+GCPolicy
 <
 Key
 >
@@ -69,7 +78,7 @@ key
 )
 |
 |
-DefaultGCPolicy
+GCPolicy
 <
 Value
 >
@@ -224,7 +233,7 @@ popFront
 )
 )
 {
-DefaultGCPolicy
+GCPolicy
 <
 Value
 >
@@ -249,7 +258,7 @@ value
 "
 )
 ;
-DefaultGCPolicy
+GCPolicy
 <
 Key
 >
@@ -1676,7 +1685,7 @@ popFront
 (
 )
 )
-DefaultGCPolicy
+GCPolicy
 <
 T
 >
@@ -1744,7 +1753,7 @@ popFront
 {
 if
 (
-DefaultGCPolicy
+GCPolicy
 <
 T
 >

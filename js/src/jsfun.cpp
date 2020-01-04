@@ -168,6 +168,15 @@ h
 #
 include
 "
+gc
+/
+Policy
+.
+h
+"
+#
+include
+"
 jit
 /
 InlinableNatives
