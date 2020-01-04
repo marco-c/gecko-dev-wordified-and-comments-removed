@@ -229,12 +229,11 @@ ValType
 :
 I64
 :
-MOZ_CRASH
-(
-"
-NYI
-"
-)
+return
+jit
+:
+:
+MIRType_Int64
 ;
 case
 ValType

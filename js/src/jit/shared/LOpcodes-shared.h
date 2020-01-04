@@ -43,6 +43,11 @@ Integer
 \
 _
 (
+Integer64
+)
+\
+_
+(
 Pointer
 )
 \
