@@ -832,6 +832,14 @@ ins
 )
 ;
 void
+visitPopcnt
+(
+MPopcnt
+*
+ins
+)
+;
+void
 visitAtan2
 (
 MAtan2

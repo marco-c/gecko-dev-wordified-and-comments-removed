@@ -683,6 +683,11 @@ ClzI
 \
 _
 (
+PopcntI
+)
+\
+_
+(
 SqrtD
 )
 \
