@@ -70,15 +70,6 @@ Preferences
 .
 h
 "
-#
-include
-"
-mozilla
-/
-StaticPtr
-.
-h
-"
 namespace
 mozilla
 {
@@ -3100,7 +3091,7 @@ forget
 ;
 }
 static
-StaticRefPtr
+RefPtr
 <
 GLContextWGL
 >
