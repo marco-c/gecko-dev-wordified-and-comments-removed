@@ -190,7 +190,6 @@ ResourceQueueDeallocator
 public
 nsDequeFunctor
 {
-virtual
 void
 *
 operator
@@ -201,6 +200,7 @@ void
 *
 aObject
 )
+override
 {
 delete
 static_cast
