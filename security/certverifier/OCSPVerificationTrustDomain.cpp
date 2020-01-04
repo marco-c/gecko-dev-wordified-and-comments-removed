@@ -138,6 +138,8 @@ DigestAlgorithm
 aAlg
 EndEntityOrCA
 aEEOrCA
+Time
+notBefore
 )
 {
 return

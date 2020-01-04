@@ -44,6 +44,8 @@ TrustDomain
 trustDomain
 EndEntityOrCA
 endEntityOrCA
+Time
+notBefore
 const
 der
 :
@@ -570,6 +572,7 @@ CheckSignatureDigestAlgorithm
 (
 DigestAlgorithm
 EndEntityOrCA
+Time
 )
 override
 {
@@ -634,6 +637,15 @@ pkixcheck_CheckSignatureAlgorithm
 CheckSignatureAlgorithm
 )
 {
+const
+Time
+now
+(
+Now
+(
+)
+)
+;
 const
 CheckSignatureAlgorithmTestParams
 &
@@ -756,6 +768,7 @@ EndEntityOrCA
 :
 :
 MustBeEndEntity
+now
 signedData
 signatureValueInput
 )

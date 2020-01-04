@@ -1027,6 +1027,7 @@ CheckSignatureDigestAlgorithm
 (
 DigestAlgorithm
 EndEntityOrCA
+Time
 )
 {
 return

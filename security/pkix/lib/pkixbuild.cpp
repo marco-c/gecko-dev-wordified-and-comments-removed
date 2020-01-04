@@ -836,14 +836,13 @@ uninitialized
 ;
 rv
 =
-CheckValidity
+ParseValidity
 (
 subject
 .
 GetValidity
 (
 )
-time
 &
 notBefore
 &

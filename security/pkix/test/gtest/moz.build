@@ -127,6 +127,11 @@ pkixcheck_CheckValidity_tests
 .
 cpp
 '
+'
+pkixcheck_ParseValidity_tests
+.
+cpp
+'
 #
 The
 naming
