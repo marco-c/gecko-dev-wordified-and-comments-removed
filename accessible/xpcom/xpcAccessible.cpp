@@ -343,8 +343,11 @@ nullptr
 ;
 if
 (
-!
-Intl
+IntlGeneric
+(
+)
+.
+IsNull
 (
 )
 )
@@ -358,11 +361,10 @@ aLastChild
 =
 ToXPC
 (
-Intl
+IntlGeneric
 (
 )
--
->
+.
 LastChild
 (
 )
