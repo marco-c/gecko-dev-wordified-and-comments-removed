@@ -135,6 +135,15 @@ CONFIG
 TK_CFLAGS
 '
 ]
+LDFLAGS
++
+=
+CONFIG
+[
+'
+XLDFLAGS
+'
+]
 OS_LIBS
 +
 =
