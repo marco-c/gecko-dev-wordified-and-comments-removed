@@ -41,7 +41,7 @@ COINIT
 T
 >
 class
-MOZ_RAII
+MOZ_NON_TEMPORARY_CLASS
 COMApartmentRegion
 {
 public
