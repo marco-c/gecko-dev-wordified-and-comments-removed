@@ -626,12 +626,9 @@ length
 )
 firstDollarIndex
 =
-callFunction
+GetFirstDollarIndex
 (
-std_String_indexOf
 replaceValue
-"
-"
 )
 ;
 }
