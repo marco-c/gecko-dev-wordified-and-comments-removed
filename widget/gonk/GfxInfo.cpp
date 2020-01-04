@@ -417,6 +417,9 @@ nsTArray
 GfxDriverInfo
 >
 &
+nsACString
+&
+aFailureId
 OperatingSystem
 *
 )
