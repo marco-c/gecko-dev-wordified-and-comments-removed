@@ -667,7 +667,7 @@ bool
 mFirstInitializationSegmentReceived
 ;
 bool
-mNewSegmentStarted
+mNewMediaSegmentStarted
 ;
 bool
 mActiveTrack
@@ -716,6 +716,12 @@ nsRefPtr
 MediaByteBuffer
 >
 mInitData
+;
+nsRefPtr
+<
+MediaByteBuffer
+>
+mPendingInputBuffer
 ;
 nsRefPtr
 <
