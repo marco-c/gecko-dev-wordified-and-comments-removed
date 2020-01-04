@@ -46,8 +46,6 @@ const
 FuncExport
 &
 fe
-bool
-usesHeap
 )
 ;
 extern
@@ -82,8 +80,6 @@ const
 FuncImport
 &
 fi
-bool
-usesHeap
 )
 ;
 extern
