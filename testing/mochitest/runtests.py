@@ -2978,11 +2978,6 @@ redirect
 html
 "
     
-urlOpts
-=
-[
-]
-    
 log
 =
 None
@@ -3058,6 +3053,13 @@ None
 self
 .
 start_script_args
+=
+[
+]
+        
+self
+.
+urlOpts
 =
 [
 ]
