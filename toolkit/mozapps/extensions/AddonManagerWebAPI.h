@@ -1,4 +1,10 @@
 #
+ifndef
+addonmanagerwebapi_h_
+#
+define
+addonmanagerwebapi_h_
+#
 include
 "
 nsPIDOMWindow
@@ -39,3 +45,5 @@ uri
 }
 ;
 }
+#
+endif

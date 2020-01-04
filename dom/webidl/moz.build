@@ -3776,6 +3776,11 @@ GENERATED_EVENTS_WEBIDL_FILES
 =
 [
 '
+AddonEvent
+.
+webidl
+'
+'
 AnimationPlaybackEvent
 .
 webidl
