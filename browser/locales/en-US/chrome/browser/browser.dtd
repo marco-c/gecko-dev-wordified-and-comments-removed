@@ -1239,6 +1239,16 @@ A
 <
 !
 ENTITY
+toggleReaderMode
+.
+key
+"
+R
+"
+>
+<
+!
+ENTITY
 fxaSignIn
 .
 label
