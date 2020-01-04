@@ -32,7 +32,7 @@ h
 #
 include
 "
-nsCSSPropertyID
+nsCSSProperty
 .
 h
 "
@@ -763,7 +763,7 @@ GetDesc
 (
 nsCSSFontDesc
 aDescID
-nsCSSPropertyID
+nsCSSProperty
 aPropID
 nsString
 &

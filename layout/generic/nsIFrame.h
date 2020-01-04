@@ -1631,7 +1631,7 @@ STYLE_STRUCT
 nscolor
 GetVisitedDependentColor
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 {

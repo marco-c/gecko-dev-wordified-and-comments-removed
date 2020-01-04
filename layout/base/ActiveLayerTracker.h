@@ -7,7 +7,7 @@ ACTIVELAYERTRACKER_H_
 #
 include
 "
-nsCSSPropertyID
+nsCSSProperty
 .
 h
 "
@@ -44,7 +44,7 @@ NotifyRestyle
 nsIFrame
 *
 aFrame
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 ;
@@ -64,7 +64,7 @@ NotifyAnimated
 nsIFrame
 *
 aFrame
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 const
 nsAString
@@ -82,7 +82,7 @@ NotifyAnimatedFromScrollHandler
 nsIFrame
 *
 aFrame
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsIFrame
 *
@@ -96,7 +96,7 @@ NotifyInlineStyleRuleModified
 nsIFrame
 *
 aFrame
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 const
 nsAString
@@ -114,7 +114,7 @@ IsStyleMaybeAnimated
 nsIFrame
 *
 aFrame
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 ;
@@ -128,7 +128,7 @@ aBuilder
 nsIFrame
 *
 aFrame
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 ;

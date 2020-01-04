@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsCSSPropertyID
+nsCSSProperty
 .
 h
 "
@@ -180,7 +180,7 @@ static
 void
 ValueFromString
 (
-nsCSSPropertyID
+nsCSSProperty
 aPropID
 Element
 *
@@ -211,7 +211,7 @@ aString
 )
 ;
 static
-nsCSSPropertyID
+nsCSSProperty
 PropertyFromValue
 (
 const

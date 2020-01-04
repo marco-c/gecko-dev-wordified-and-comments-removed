@@ -1199,7 +1199,7 @@ eCSSUnit_Enumerated
 for
 (
 const
-nsCSSPropertyID
+nsCSSProperty
 *
 props
 =

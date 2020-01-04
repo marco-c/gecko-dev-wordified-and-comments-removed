@@ -308,7 +308,7 @@ h
 #
 include
 "
-nsCSSPropertyIDSet
+nsCSSPropertySet
 .
 h
 "
@@ -25575,7 +25575,7 @@ ui
 struct
 TransitionPropInfo
 {
-nsCSSPropertyID
+nsCSSProperty
 property
 ;
 uint32_t
@@ -26282,7 +26282,7 @@ uint8_t
 GetWillChangeBitFieldFromPropFlags
 (
 const
-nsCSSPropertyID
+nsCSSProperty
 &
 aProp
 )
@@ -27230,7 +27230,7 @@ GetStringBufferValue
 )
 )
 ;
-nsCSSPropertyID
+nsCSSProperty
 prop
 =
 nsCSSProps
@@ -31909,7 +31909,7 @@ mWillChangeBitField
 NS_STYLE_WILL_CHANGE_SCROLL
 ;
 }
-nsCSSPropertyID
+nsCSSProperty
 prop
 =
 nsCSSProps
@@ -31952,7 +31952,7 @@ prop
 for
 (
 const
-nsCSSPropertyID
+nsCSSProperty
 *
 shorthands
 =
@@ -37735,7 +37735,7 @@ margin
 parentMargin
 )
 const
-nsCSSPropertyID
+nsCSSProperty
 *
 subprops
 =
@@ -38178,7 +38178,7 @@ coord
 ;
 {
 const
-nsCSSPropertyID
+nsCSSProperty
 *
 subprops
 =
@@ -38510,7 +38510,7 @@ width
 }
 {
 const
-nsCSSPropertyID
+nsCSSProperty
 *
 subprops
 =
@@ -38667,7 +38667,7 @@ NS_RGB
 ;
 static
 const
-nsCSSPropertyID
+nsCSSProperty
 borderColorsProps
 [
 ]
@@ -38914,7 +38914,7 @@ unit
 }
 {
 const
-nsCSSPropertyID
+nsCSSProperty
 *
 subprops
 =
@@ -39140,7 +39140,7 @@ side
 }
 {
 const
-nsCSSPropertyID
+nsCSSProperty
 *
 subprops
 =
@@ -39702,7 +39702,7 @@ padding
 parentPadding
 )
 const
-nsCSSPropertyID
+nsCSSProperty
 *
 subprops
 =
@@ -40134,7 +40134,7 @@ SetOutlineInitialColor
 }
 {
 const
-nsCSSPropertyID
+nsCSSProperty
 *
 subprops
 =
@@ -43057,7 +43057,7 @@ parentPos
 )
 static
 const
-nsCSSPropertyID
+nsCSSProperty
 offsetProps
 [
 ]
@@ -53960,7 +53960,7 @@ textShadowOffset
 }
 static
 const
-nsCSSPropertyID
+nsCSSProperty
 backgroundValues
 [
 ]
@@ -53972,7 +53972,7 @@ eCSSProperty_background_image
 ;
 static
 const
-nsCSSPropertyID
+nsCSSProperty
 borderValues
 [
 ]
@@ -53998,7 +53998,7 @@ eCSSProperty_border_bottom_left_radius
 ;
 static
 const
-nsCSSPropertyID
+nsCSSProperty
 paddingValues
 [
 ]
@@ -54012,7 +54012,7 @@ eCSSProperty_padding_left
 ;
 static
 const
-nsCSSPropertyID
+nsCSSProperty
 textShadowValues
 [
 ]
@@ -54051,7 +54051,7 @@ textShadowValues
 )
 ]
 ;
-nsCSSPropertyID
+nsCSSProperty
 properties
 [
 MOZ_ARRAY_LENGTH
@@ -54760,14 +54760,14 @@ ComputePropertiesOverridingAnimation
 const
 nsTArray
 <
-nsCSSPropertyID
+nsCSSProperty
 >
 &
 aProperties
 nsStyleContext
 *
 aStyleContext
-nsCSSPropertyIDSet
+nsCSSPropertySet
 &
 aPropertiesOverridden
 )
@@ -54811,7 +54811,7 @@ propEnd
 propIdx
 )
 {
-nsCSSPropertyID
+nsCSSProperty
 prop
 =
 aProperties
@@ -55090,7 +55090,7 @@ propEnd
 propIdx
 )
 {
-nsCSSPropertyID
+nsCSSProperty
 prop
 =
 aProperties

@@ -501,7 +501,7 @@ aSpacing
 SpacingMode
 &
 aSpacingMode
-nsCSSPropertyID
+nsCSSProperty
 &
 aPacedProperty
 nsAString

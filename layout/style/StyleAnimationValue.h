@@ -110,7 +110,7 @@ static
 bool
 Add
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 StyleAnimationValue
 &
@@ -141,7 +141,7 @@ static
 bool
 ComputeDistance
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 const
 StyleAnimationValue
@@ -160,7 +160,7 @@ static
 bool
 Interpolate
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 const
 StyleAnimationValue
@@ -197,7 +197,7 @@ static
 bool
 AddWeighted
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 double
 aCoeff1
@@ -220,7 +220,7 @@ static
 bool
 ComputeValue
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 mozilla
 :
@@ -254,7 +254,7 @@ static
 bool
 ComputeValues
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 mozilla
 :
@@ -291,7 +291,7 @@ static
 bool
 ComputeValues
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 mozilla
 :
@@ -328,7 +328,7 @@ static
 bool
 UncomputeValue
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 const
 StyleAnimationValue
@@ -343,7 +343,7 @@ static
 bool
 UncomputeValue
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 StyleAnimationValue
 &
@@ -358,7 +358,7 @@ static
 bool
 UncomputeValue
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 const
 StyleAnimationValue
@@ -373,7 +373,7 @@ static
 bool
 ExtractComputedValue
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsStyleContext
 *
@@ -1718,7 +1718,7 @@ eUnit_UnparsedString
 struct
 PropertyStyleAnimationValuePair
 {
-nsCSSPropertyID
+nsCSSProperty
 mProperty
 ;
 StyleAnimationValue

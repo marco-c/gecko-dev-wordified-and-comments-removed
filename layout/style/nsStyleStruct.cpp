@@ -10016,7 +10016,7 @@ aSVGViewportSize
 }
 }
 const
-nsCSSPropertyID
+nsCSSProperty
 nsStyleImageLayers
 :
 :
@@ -10043,7 +10043,7 @@ eCSSProperty_UNKNOWN
 ifdef
 MOZ_ENABLE_MASK_AS_SHORTHAND
 const
-nsCSSPropertyID
+nsCSSProperty
 nsStyleImageLayers
 :
 :
@@ -12778,7 +12778,7 @@ StyleTransition
 :
 SetUnknownProperty
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 const
 nsAString

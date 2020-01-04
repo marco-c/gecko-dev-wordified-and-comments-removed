@@ -306,12 +306,12 @@ nsCSSPropAliasList
 h
 '
 '
-nsCSSPropertyID
+nsCSSProperty
 .
 h
 '
 '
-nsCSSPropertyIDSet
+nsCSSPropertySet
 .
 h
 '

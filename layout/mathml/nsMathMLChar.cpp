@@ -9123,7 +9123,7 @@ ThebesContext
 (
 )
 ;
-nsCSSPropertyID
+nsCSSProperty
 colorProp
 =
 styleContext

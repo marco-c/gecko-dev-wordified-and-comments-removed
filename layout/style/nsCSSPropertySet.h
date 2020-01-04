@@ -1,9 +1,9 @@
 #
 ifndef
-nsCSSPropertyIDSet_h__
+nsCSSPropertySet_h__
 #
 define
-nsCSSPropertyIDSet_h__
+nsCSSPropertySet_h__
 #
 include
 "
@@ -25,7 +25,7 @@ h
 #
 include
 "
-nsCSSPropertyID
+nsCSSProperty
 .
 h
 "
@@ -37,11 +37,11 @@ limits
 h
 >
 class
-nsCSSPropertyIDSet
+nsCSSPropertySet
 {
 public
 :
-nsCSSPropertyIDSet
+nsCSSPropertySet
 (
 )
 {
@@ -53,7 +53,7 @@ Empty
 void
 AssertInSetRange
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 const
@@ -80,7 +80,7 @@ bounds
 void
 AddProperty
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 {
@@ -118,7 +118,7 @@ kBitsInChunk
 void
 RemoveProperty
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 {
@@ -159,7 +159,7 @@ kBitsInChunk
 bool
 HasProperty
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 const
@@ -268,7 +268,7 @@ bool
 Equals
 (
 const
-nsCSSPropertyIDSet
+nsCSSPropertySet
 &
 aOther
 )
@@ -374,7 +374,7 @@ aBit
 ;
 }
 static
-nsCSSPropertyID
+nsCSSProperty
 CSSPropertyAt
 (
 size_t
@@ -384,7 +384,7 @@ aBit
 )
 {
 return
-nsCSSPropertyID
+nsCSSProperty
 (
 aChunk
 *

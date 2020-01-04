@@ -440,7 +440,7 @@ bool
 aRelevantLinkVisited
 )
 ;
-nsCSSPropertyID
+nsCSSProperty
 GetTextFillColorProp
 (
 )
@@ -1139,7 +1139,7 @@ public
 nscolor
 GetVisitedDependentColor
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 ;

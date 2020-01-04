@@ -181,9 +181,9 @@ false
 bool
 Equals
 (
-nsCSSPropertyID
+nsCSSProperty
 aLhs
-nsCSSPropertyID
+nsCSSProperty
 aRhs
 )
 const
@@ -198,9 +198,9 @@ aRhs
 bool
 LessThan
 (
-nsCSSPropertyID
+nsCSSProperty
 aLhs
-nsCSSPropertyID
+nsCSSProperty
 aRhs
 )
 const
@@ -308,7 +308,7 @@ aRhs
 uint32_t
 SubpropertyCount
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 const
@@ -768,7 +768,7 @@ private
 struct
 PropertyAndIndex
 {
-nsCSSPropertyID
+nsCSSProperty
 mProperty
 ;
 size_t
@@ -802,7 +802,7 @@ mSortedPropertyIndices
 struct
 PropertyValuesPair
 {
-nsCSSPropertyID
+nsCSSProperty
 mProperty
 ;
 nsTArray
@@ -823,7 +823,7 @@ Comparator
 struct
 AdditionalProperty
 {
-nsCSSPropertyID
+nsCSSProperty
 mProperty
 ;
 size_t
@@ -900,7 +900,7 @@ mProperty
 struct
 KeyframeValueEntry
 {
-nsCSSPropertyID
+nsCSSProperty
 mProperty
 ;
 StyleAnimationValue
@@ -1259,7 +1259,7 @@ static
 PropertyValuePair
 MakePropertyValuePair
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 const
 nsAString
@@ -1441,7 +1441,7 @@ ComputedKeyframeValues
 >
 &
 aValues
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 ;
@@ -1667,7 +1667,7 @@ Keyframe
 aKeyframes
 SpacingMode
 aSpacingMode
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsTArray
 <
@@ -2302,7 +2302,7 @@ frame
 aKeyframes
 )
 {
-nsCSSPropertyIDSet
+nsCSSPropertySet
 propertiesOnThisKeyframe
 ;
 ComputedKeyframeValues
@@ -2730,7 +2730,7 @@ KeyframeUtils
 :
 IsAnimatableProperty
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 {
@@ -3420,7 +3420,7 @@ return
 false
 ;
 }
-nsCSSPropertyID
+nsCSSProperty
 property
 =
 nsCSSProps
@@ -3801,7 +3801,7 @@ static
 PropertyValuePair
 MakePropertyValuePair
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 const
 nsAString
@@ -4204,7 +4204,7 @@ PropertyOffsetComparator
 LessThan
 )
 ;
-nsCSSPropertyID
+nsCSSProperty
 lastProperty
 =
 eCSSProperty_UNKNOWN
@@ -5283,13 +5283,13 @@ nsIDocument
 aDocument
 )
 {
-nsCSSPropertyIDSet
+nsCSSPropertySet
 properties
 ;
-nsCSSPropertyIDSet
+nsCSSPropertySet
 propertiesWithFromValue
 ;
-nsCSSPropertyIDSet
+nsCSSPropertySet
 propertiesWithToValue
 ;
 auto
@@ -5299,7 +5299,7 @@ addToPropertySets
 &
 ]
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 double
 aOffset
@@ -6053,7 +6053,7 @@ ComputedKeyframeValues
 >
 &
 aValues
-nsCSSPropertyID
+nsCSSProperty
 aPacedProperty
 )
 {
@@ -6062,7 +6062,7 @@ pacedPropertyCount
 =
 0
 ;
-nsCSSPropertyIDSet
+nsCSSPropertySet
 pacedPropertySet
 ;
 bool
@@ -6277,7 +6277,7 @@ pacedPropertyCount
 propIdx
 )
 {
-nsCSSPropertyID
+nsCSSProperty
 prop
 =
 prevPacedValues

@@ -52,7 +52,7 @@ h
 #
 include
 "
-nsCSSPropertyID
+nsCSSProperty
 .
 h
 "
@@ -85,7 +85,7 @@ nsTArray
 h
 "
 class
-nsCSSPropertyIDSet
+nsCSSPropertySet
 ;
 class
 nsIFrame
@@ -378,7 +378,7 @@ const
 nsIFrame
 *
 aFrame
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 ;
@@ -399,7 +399,7 @@ const
 nsIFrame
 *
 aFrame
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 ;
@@ -411,7 +411,7 @@ const
 nsIFrame
 *
 aFrame
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 ;
@@ -470,7 +470,7 @@ const
 nsIFrame
 *
 aFrame
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 const
 AnimationPerformanceWarning
@@ -533,7 +533,7 @@ aStyleContext
 EffectSet
 &
 aEffectSet
-nsCSSPropertyIDSet
+nsCSSPropertySet
 &
 aPropertiesOverridden
 )

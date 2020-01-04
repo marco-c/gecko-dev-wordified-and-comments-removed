@@ -186,7 +186,7 @@ nsDOMCSSDeclaration
 GetPropertyValue
 (
 const
-nsCSSPropertyID
+nsCSSProperty
 aPropID
 nsAString
 &
@@ -326,7 +326,7 @@ nsDOMCSSDeclaration
 SetPropertyValue
 (
 const
-nsCSSPropertyID
+nsCSSProperty
 aPropID
 const
 nsAString
@@ -761,7 +761,7 @@ aReturn
 )
 {
 const
-nsCSSPropertyID
+nsCSSProperty
 propID
 =
 nsCSSProps
@@ -836,7 +836,7 @@ aReturn
 )
 {
 const
-nsCSSPropertyID
+nsCSSProperty
 propID
 =
 nsCSSProps
@@ -1003,7 +1003,7 @@ nsAString
 aPriority
 )
 {
-nsCSSPropertyID
+nsCSSProperty
 propID
 =
 nsCSSProps
@@ -1144,7 +1144,7 @@ aReturn
 )
 {
 const
-nsCSSPropertyID
+nsCSSProperty
 propID
 =
 nsCSSProps
@@ -1330,7 +1330,7 @@ nsDOMCSSDeclaration
 ParsePropertyValue
 (
 const
-nsCSSPropertyID
+nsCSSProperty
 aPropID
 const
 nsAString
@@ -1612,7 +1612,7 @@ nsDOMCSSDeclaration
 RemoveProperty
 (
 const
-nsCSSPropertyID
+nsCSSProperty
 aPropID
 )
 {

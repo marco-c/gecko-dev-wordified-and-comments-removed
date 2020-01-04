@@ -2800,14 +2800,14 @@ const
 ;
 static
 const
-nsCSSPropertyID
+nsCSSProperty
 kBackgroundLayerTable
 [
 ]
 ;
 static
 const
-nsCSSPropertyID
+nsCSSProperty
 kMaskLayerTable
 [
 ]
@@ -9530,7 +9530,7 @@ return
 mDuration
 ;
 }
-nsCSSPropertyID
+nsCSSProperty
 GetProperty
 (
 )
@@ -9613,7 +9613,7 @@ aDuration
 void
 SetProperty
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 {
@@ -9643,7 +9643,7 @@ aProperty
 void
 SetUnknownProperty
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 const
 nsAString
@@ -9729,7 +9729,7 @@ mDuration
 float
 mDelay
 ;
-nsCSSPropertyID
+nsCSSProperty
 mProperty
 ;
 nsCOMPtr

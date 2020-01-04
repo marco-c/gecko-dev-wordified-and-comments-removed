@@ -113,7 +113,7 @@ aSpacing
 SpacingMode
 &
 aSpacingMode
-nsCSSPropertyID
+nsCSSProperty
 &
 aPacedProperty
 nsAString
@@ -132,7 +132,7 @@ SpacingMode
 :
 distribute
 ;
-nsCSSPropertyID
+nsCSSProperty
 mPacedProperty
 =
 eCSSProperty_UNKNOWN

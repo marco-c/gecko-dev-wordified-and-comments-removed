@@ -110,7 +110,7 @@ h
 #
 include
 "
-nsCSSPropertyID
+nsCSSProperty
 .
 h
 "
@@ -141,7 +141,7 @@ struct
 JSContext
 ;
 class
-nsCSSPropertyIDSet
+nsCSSPropertySet
 ;
 class
 nsIDocument
@@ -938,7 +938,7 @@ AnimValuesStyleRule
 >
 &
 aStyleRule
-nsCSSPropertyIDSet
+nsCSSPropertySet
 &
 aSetProperties
 )

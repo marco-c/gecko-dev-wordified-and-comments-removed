@@ -56,7 +56,7 @@ h
 #
 include
 "
-nsCSSPropertyID
+nsCSSProperty
 .
 h
 "
@@ -322,21 +322,21 @@ endif
 void
 ValueAppended
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 ;
 void
 RemoveProperty
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 ;
 bool
 HasProperty
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 const
@@ -344,7 +344,7 @@ const
 void
 GetValue
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsAString
 &
@@ -355,7 +355,7 @@ const
 void
 GetAuthoredValue
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsAString
 &
@@ -379,7 +379,7 @@ mImportantVariables
 bool
 GetValueIsImportant
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 const
@@ -677,7 +677,7 @@ const
 bool
 TryReplaceValue
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 bool
 aIsImportant
@@ -814,7 +814,7 @@ aChanged
 bool
 HasNonImportantValueFor
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 const
@@ -1150,7 +1150,7 @@ delete
 void
 GetValue
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsAString
 &
@@ -1177,7 +1177,7 @@ aString
 bool
 AppendValueToString
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsAString
 &
@@ -1188,7 +1188,7 @@ const
 bool
 AppendValueToString
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsAString
 &
@@ -1204,7 +1204,7 @@ const
 void
 AppendPropertyAndValueToString
 (
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsAutoString
 &
@@ -1243,7 +1243,7 @@ nsCSSValue
 Serialization
 aSerialization
 const
-nsCSSPropertyID
+nsCSSProperty
 aTable
 [
 ]
@@ -1265,7 +1265,7 @@ nsCSSValue
 Serialization
 aSerialization
 const
-nsCSSPropertyID
+nsCSSProperty
 aTable
 [
 ]
@@ -1274,7 +1274,7 @@ const
 ;
 public
 :
-nsCSSPropertyID
+nsCSSProperty
 GetPropertyAt
 (
 uint32_t
@@ -1303,7 +1303,7 @@ eCSSPropertyExtra_variable
 ;
 }
 return
-nsCSSPropertyID
+nsCSSProperty
 (
 value
 )

@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsCSSPropertyID
+nsCSSProperty
 .
 h
 "
@@ -45,7 +45,7 @@ endif
 struct
 Record
 {
-nsCSSPropertyID
+nsCSSProperty
 mProperty
 ;
 nsDisplayItem

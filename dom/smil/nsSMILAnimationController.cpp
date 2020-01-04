@@ -2629,7 +2629,7 @@ kNameSpaceID_SVG
 }
 else
 {
-nsCSSPropertyID
+nsCSSProperty
 prop
 =
 nsCSSProps

@@ -479,7 +479,7 @@ list
 '
 properties
 in
-nsCSSPropertyID
+nsCSSProperty
 order
 "
 )

@@ -2379,7 +2379,7 @@ bool
 _retval
 )
 {
-nsCSSPropertyID
+nsCSSProperty
 prop
 =
 nsCSSProps
@@ -2579,10 +2579,10 @@ _prop
 \
 PR_BEGIN_MACRO
 \
-nsCSSPropertyID
+nsCSSProperty
 cssProp
 =
-nsCSSPropertyID
+nsCSSProperty
 (
 _prop
 )
@@ -2657,7 +2657,7 @@ nsCSSProps
 :
 PropertyParseType
 (
-nsCSSPropertyID
+nsCSSProperty
 (
 prop
 )
@@ -2711,7 +2711,7 @@ nsCSSProps
 :
 PropHasFlags
 (
-nsCSSPropertyID
+nsCSSProperty
 (
 prop
 )
@@ -2836,7 +2836,7 @@ void
 GetKeywordsForProperty
 (
 const
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 nsTArray
 <
@@ -3462,7 +3462,7 @@ char16_t
 aValues
 )
 {
-nsCSSPropertyID
+nsCSSProperty
 propertyID
 =
 nsCSSProps
@@ -3607,7 +3607,7 @@ subpropCount
 for
 (
 const
-nsCSSPropertyID
+nsCSSProperty
 *
 props
 =
@@ -3665,7 +3665,7 @@ subpropCount
 for
 (
 const
-nsCSSPropertyID
+nsCSSProperty
 *
 props
 =
@@ -3734,7 +3734,7 @@ bool
 _retval
 )
 {
-nsCSSPropertyID
+nsCSSProperty
 propertyID
 =
 nsCSSProps
@@ -3797,7 +3797,7 @@ static
 bool
 PropertySupportsVariant
 (
-nsCSSPropertyID
+nsCSSProperty
 aPropertyID
 uint32_t
 aVariant
@@ -3840,7 +3840,7 @@ VARIANT_LENGTH
 for
 (
 const
-nsCSSPropertyID
+nsCSSProperty
 *
 props
 =
@@ -4205,7 +4205,7 @@ bool
 _retval
 )
 {
-nsCSSPropertyID
+nsCSSProperty
 propertyID
 =
 nsCSSProps
@@ -4397,7 +4397,7 @@ char16_t
 aValues
 )
 {
-nsCSSPropertyID
+nsCSSProperty
 propertyID
 =
 nsCSSProps
@@ -5035,7 +5035,7 @@ bool
 _retval
 )
 {
-nsCSSPropertyID
+nsCSSProperty
 propertyID
 =
 nsCSSProps

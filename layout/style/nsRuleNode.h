@@ -73,7 +73,7 @@ nsStyleStruct
 h
 "
 class
-nsCSSPropertyIDSet
+nsCSSPropertySet
 ;
 class
 nsCSSValue
@@ -4155,14 +4155,14 @@ ComputePropertiesOverridingAnimation
 const
 nsTArray
 <
-nsCSSPropertyID
+nsCSSProperty
 >
 &
 aProperties
 nsStyleContext
 *
 aStyleContext
-nsCSSPropertyIDSet
+nsCSSPropertySet
 &
 aPropertiesOverridden
 )

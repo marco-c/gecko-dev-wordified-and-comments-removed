@@ -10944,7 +10944,7 @@ nsINode
 *
 aNode
 const
-nsCSSPropertyID
+nsCSSProperty
 aProp1
 const
 nsAString
@@ -10954,7 +10954,7 @@ bool
 *
 aChanged1
 const
-nsCSSPropertyID
+nsCSSProperty
 aProp2
 const
 nsAString
@@ -11359,7 +11359,7 @@ Declaration
 *
 aDeclaration
 const
-nsCSSPropertyID
+nsCSSProperty
 aProperty
 )
 {

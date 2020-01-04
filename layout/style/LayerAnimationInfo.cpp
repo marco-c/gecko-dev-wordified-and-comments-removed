@@ -103,10 +103,10 @@ flag
 }
 for
 (
-nsCSSPropertyID
+nsCSSProperty
 prop
 =
-nsCSSPropertyID
+nsCSSProperty
 (
 0
 )
@@ -117,7 +117,7 @@ eCSSProperty_COUNT
 ;
 prop
 =
-nsCSSPropertyID
+nsCSSProperty
 (
 prop
 +

@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsCSSPropertyID
+nsCSSProperty
 .
 h
 "
@@ -66,7 +66,7 @@ nsClassHashtable
 <
 nsGenericHashKey
 <
-nsCSSPropertyID
+nsCSSProperty
 >
 ImageValueArray
 >
@@ -133,7 +133,7 @@ ReplaceAll
 nsStyleContext
 *
 aContext
-nsCSSPropertyID
+nsCSSProperty
 aProp
 Lambda
 aFunc
@@ -331,7 +331,7 @@ Add
 nsStyleContext
 *
 aContext
-nsCSSPropertyID
+nsCSSProperty
 aProp
 css
 :
