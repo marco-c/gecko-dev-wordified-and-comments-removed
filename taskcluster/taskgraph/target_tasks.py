@@ -16,6 +16,10 @@ import
 absolute_import
 print_function
 unicode_literals
+from
+taskgraph
+import
+try_option_syntax
 _target_task_methods
 =
 {
@@ -194,15 +198,10 @@ graph
 "
 "
     
-from
-taskgraph
-.
-try_option_syntax
-import
-TryOptionSyntax
-    
 options
 =
+try_option_syntax
+.
 TryOptionSyntax
 (
 parameters
