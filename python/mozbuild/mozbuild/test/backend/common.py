@@ -171,6 +171,15 @@ ANDROID_TARGET_SDK
 16
 '
 )
+            
+(
+'
+MOZ_WIDGET_TOOLKIT
+'
+'
+android
+'
+)
         
 ]
     
