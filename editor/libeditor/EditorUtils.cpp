@@ -388,7 +388,7 @@ DOMIterator
 AppendList
 (
 const
-nsBoolDomIterFunctor
+BoolDomIterFunctor
 &
 functor
 nsTArray
