@@ -75,7 +75,7 @@ DEBUG
 define
 CRAZY_COORD
 (
-1000000
+10000000
 *
 60
 )
