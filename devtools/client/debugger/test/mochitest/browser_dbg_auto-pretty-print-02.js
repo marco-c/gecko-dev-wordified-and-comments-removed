@@ -224,6 +224,7 @@ gDebugger
 EVENTS
 .
 SOURCE_SHOWN
+2
 )
 ;
 gSources
@@ -579,17 +580,6 @@ pretty
 printing
 .
 "
-)
-;
-return
-waitForDebuggerEvents
-(
-gPanel
-gDebugger
-.
-EVENTS
-.
-SOURCE_SHOWN
 )
 ;
 }

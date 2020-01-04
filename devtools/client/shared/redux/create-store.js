@@ -141,8 +141,8 @@ middleware
 [
 task
 thunk
-waitUntilService
 promise
+waitUntilService
 ]
 ;
 if
