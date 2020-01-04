@@ -793,6 +793,10 @@ RemoveUserData
 (
 key1
 )
+.
+forget
+(
+)
 )
 ;
 UniquePtr
@@ -807,6 +811,10 @@ RemoveUserData
 (
 key2
 )
+.
+forget
+(
+)
 )
 ;
 UniquePtr
@@ -820,6 +828,10 @@ layer
 RemoveUserData
 (
 key3
+)
+.
+forget
+(
 )
 )
 ;

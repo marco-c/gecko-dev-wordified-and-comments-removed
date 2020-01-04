@@ -1117,7 +1117,7 @@ data
 )
 ;
 }
-UniquePtr
+nsAutoPtr
 <
 LayerUserData
 >
@@ -1131,7 +1131,7 @@ void
 aKey
 )
 {
-UniquePtr
+nsAutoPtr
 <
 LayerUserData
 >
@@ -11905,7 +11905,7 @@ return
 false
 ;
 }
-UniquePtr
+nsAutoPtr
 <
 LayerUserData
 >
@@ -11919,7 +11919,7 @@ void
 aKey
 )
 {
-UniquePtr
+nsAutoPtr
 <
 LayerUserData
 >
