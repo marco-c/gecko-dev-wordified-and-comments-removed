@@ -144,7 +144,7 @@ defines
 MOZ_ANDROID_MIN_SDK_VERSION
 '
 '
-14
+9
 '
 )
         
