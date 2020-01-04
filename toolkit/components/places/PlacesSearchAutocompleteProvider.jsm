@@ -504,6 +504,7 @@ getSuggestionController
 searchToken
 inPrivateContext
 maxResults
+userContextId
 )
 {
 let
@@ -533,6 +534,7 @@ engine
 searchToken
 inPrivateContext
 maxResults
+userContextId
 )
 ;
 }
@@ -559,6 +561,7 @@ engine
 searchToken
 inPrivateContext
 maxResults
+userContextId
 )
 {
 this
@@ -598,6 +601,7 @@ fetch
 searchToken
 inPrivateContext
 engine
+userContextId
 )
 ;
 this
@@ -966,6 +970,7 @@ getSuggestionController
 searchToken
 inPrivateContext
 maxResults
+userContextId
 )
 {
 if
@@ -1000,6 +1005,7 @@ getSuggestionController
 searchToken
 inPrivateContext
 maxResults
+userContextId
 )
 ;
 }

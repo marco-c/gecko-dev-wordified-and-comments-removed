@@ -33,6 +33,13 @@ Components
 .
 interfaces
 ;
+var
+Cu
+=
+Components
+.
+utils
+;
 function
 AutoCompleteInputBase
 (
