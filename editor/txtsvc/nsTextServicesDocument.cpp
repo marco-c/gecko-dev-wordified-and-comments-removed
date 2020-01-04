@@ -9246,9 +9246,17 @@ i
 ;
 int32_t
 e1s1
+=
+0
 e1s2
+=
+0
 e2s1
+=
+0
 e2s2
+=
+0
 ;
 OffsetEntry
 *
