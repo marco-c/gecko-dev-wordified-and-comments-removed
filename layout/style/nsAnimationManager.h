@@ -178,7 +178,7 @@ aTimeStamp
 {
 mEvent
 .
-animationName
+mAnimationName
 =
 aAnimationName
 ;

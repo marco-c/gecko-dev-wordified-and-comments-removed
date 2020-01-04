@@ -1027,7 +1027,7 @@ result
 ;
 }
 nsString
-animationName
+mAnimationName
 ;
 float
 elapsedTime
@@ -1052,11 +1052,11 @@ aEvent
 aCopyTargets
 )
 ;
-animationName
+mAnimationName
 =
 aEvent
 .
-animationName
+mAnimationName
 ;
 elapsedTime
 =
