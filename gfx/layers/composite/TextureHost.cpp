@@ -1497,11 +1497,7 @@ compositor
 >
 UnlockAfterComposition
 (
-mReadLock
-.
-forget
-(
-)
+this
 )
 ;
 }
@@ -4596,6 +4592,13 @@ mTextureHost
 return
 ;
 }
+mTextureHost
+-
+>
+ReadUnlock
+(
+)
+;
 if
 (
 mTextureHost

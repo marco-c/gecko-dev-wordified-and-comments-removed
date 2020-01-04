@@ -1627,11 +1627,6 @@ return
 nullptr
 ;
 }
-void
-CallNotifyNotUsed
-(
-)
-;
 protected
 :
 void
@@ -1668,6 +1663,11 @@ NotifyNotUsed
 (
 )
 ;
+void
+CallNotifyNotUsed
+(
+)
+;
 PTextureParent
 *
 mActor
@@ -1686,6 +1686,10 @@ mCompositableCount
 ;
 uint64_t
 mFwdTransactionId
+;
+friend
+class
+Compositor
 ;
 friend
 class
