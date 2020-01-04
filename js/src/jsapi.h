@@ -18967,9 +18967,9 @@ bool
 )
 JS_SetDefaultLocale
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 const
 char
 *
@@ -18983,9 +18983,9 @@ void
 )
 JS_ResetDefaultLocale
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 struct
@@ -19012,9 +19012,9 @@ void
 )
 JS_SetLocaleCallbacks
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 const
 JSLocaleCallbacks
 *
@@ -19030,9 +19030,9 @@ JSLocaleCallbacks
 )
 JS_GetLocaleCallbacks
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 namespace
