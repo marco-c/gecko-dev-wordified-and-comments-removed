@@ -3850,7 +3850,7 @@ case
 eResize
 :
 case
-NS_SCROLL_EVENT
+eScroll
 :
 stopEvent
 =

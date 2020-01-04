@@ -78,7 +78,7 @@ eWindowEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_SCROLL_EVENT
+eScroll
 eWindowEventFirst
 +
 61
