@@ -48875,20 +48875,6 @@ if
 isConstructor
 :
             
-needsUnwrap
-=
-True
-            
-needsUnwrappedVar
-=
-False
-            
-unwrappedVar
-=
-"
-obj
-"
-            
 if
 descriptor
 .
@@ -48917,6 +48903,23 @@ append
 desiredProto
 "
 )
+            
+else
+:
+                
+needsUnwrap
+=
+True
+                
+needsUnwrappedVar
+=
+False
+                
+unwrappedVar
+=
+"
+obj
+"
         
 elif
 descriptor
