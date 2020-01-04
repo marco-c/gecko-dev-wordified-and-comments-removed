@@ -125,11 +125,11 @@ AbstractThread
 >
 sMainThread
 ;
-ThreadLocal
-<
+MOZ_THREAD_LOCAL
+(
 AbstractThread
 *
->
+)
 AbstractThread
 :
 :

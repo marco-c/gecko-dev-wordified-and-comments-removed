@@ -263,11 +263,11 @@ AbstractThread
 {
 }
 static
-ThreadLocal
-<
+MOZ_THREAD_LOCAL
+(
 AbstractThread
 *
->
+)
 sCurrentThreadTLS
 ;
 const

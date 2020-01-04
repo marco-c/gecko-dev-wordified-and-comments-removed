@@ -258,14 +258,11 @@ namespace
 tasktracer
 {
 static
-mozilla
-:
-:
-ThreadLocal
-<
+MOZ_THREAD_LOCAL
+(
 TraceInfo
 *
->
+)
 sTraceInfoTLS
 ;
 static
@@ -596,6 +593,7 @@ SourceEvent
 )
 ;
 }
+;
 #
 undef
 CREATE_SOURCE_EVENT_NAME

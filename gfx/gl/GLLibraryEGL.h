@@ -2815,10 +2815,10 @@ fGetCurrentContext
 private
 :
 static
-ThreadLocal
-<
+MOZ_THREAD_LOCAL
+(
 EGLContext
->
+)
 sCurrentContext
 ;
 public

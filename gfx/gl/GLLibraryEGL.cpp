@@ -146,10 +146,10 @@ sEGLLibrary
 #
 ifdef
 MOZ_B2G
-ThreadLocal
-<
+MOZ_THREAD_LOCAL
+(
 EGLContext
->
+)
 GLLibraryEGL
 :
 :

@@ -100,10 +100,10 @@ aAddr
 ifdef
 MOZ_REPLACE_MALLOC
 static
-ThreadLocal
-<
+MOZ_THREAD_LOCAL
+(
 bool
->
+)
 mEnabledTLS
 ;
 static
