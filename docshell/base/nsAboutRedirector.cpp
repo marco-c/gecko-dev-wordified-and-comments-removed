@@ -492,6 +492,11 @@ nsIAboutModule
 :
 :
 HIDE_FROM_ABOUTABOUT
+|
+nsIAboutModule
+:
+:
+URI_CAN_LOAD_IN_CHILD
 }
 {
 "
