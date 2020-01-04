@@ -1091,16 +1091,6 @@ IsVideoDecoding
 )
 &
 &
-!
-VideoQueue
-(
-)
-.
-IsFinished
-(
-)
-&
-&
 VideoQueue
 (
 )
