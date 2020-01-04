@@ -198,7 +198,9 @@ DownloadsCommon
 .
 confirmUnblockDownload
 (
-DownloadsCommon
+Downloads
+.
+Error
 .
 BLOCK_VERDICT_MALWARE
 window
@@ -248,7 +250,9 @@ DownloadsCommon
 .
 confirmUnblockDownload
 (
-DownloadsCommon
+Downloads
+.
+Error
 .
 BLOCK_VERDICT_MALWARE
 window
