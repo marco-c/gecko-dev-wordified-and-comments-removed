@@ -444,7 +444,7 @@ ipc
 ;
 static
 const
-int
+size_t
 kMinTelemetryMessageSize
 =
 8192
