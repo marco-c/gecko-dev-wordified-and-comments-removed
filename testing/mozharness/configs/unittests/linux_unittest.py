@@ -1572,6 +1572,18 @@ s
 "
                 
 "
+-
+-
+utility
+-
+path
+=
+tests
+/
+bin
+"
+                
+"
 %
 (
 binary_path

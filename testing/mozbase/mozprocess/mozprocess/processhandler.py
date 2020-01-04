@@ -34,6 +34,16 @@ ProcessHandlerMixin
 '
 ProcessHandler
 '
+'
+LogOutput
+'
+           
+'
+StoreOutput
+'
+'
+StreamOutput
+'
 ]
 MOZPROCESS_DEBUG
 =
