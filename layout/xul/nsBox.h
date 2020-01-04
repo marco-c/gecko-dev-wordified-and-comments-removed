@@ -205,7 +205,7 @@ aBox
 ;
 virtual
 nsresult
-GetDebug
+GetXULDebug
 (
 bool
 &

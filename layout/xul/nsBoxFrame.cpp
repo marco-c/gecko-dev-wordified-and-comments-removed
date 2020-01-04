@@ -6612,7 +6612,7 @@ nsresult
 nsBoxFrame
 :
 :
-GetDebug
+GetXULDebug
 (
 bool
 &
