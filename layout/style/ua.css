@@ -897,6 +897,15 @@ rule
 :
 inherit
 ;
+-
+moz
+-
+column
+-
+fill
+:
+inherit
+;
 flex
 -
 direction
