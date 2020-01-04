@@ -2580,11 +2580,7 @@ parentGuid
 folderGuid
 index
 :
-PlacesUtils
-.
-bookmarks
-.
-DEFAULT_INDEX
+index
 }
 )
 ;
