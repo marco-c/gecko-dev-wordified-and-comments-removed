@@ -2667,9 +2667,6 @@ aWorkerPrivate
 aRunResult
 )
 ;
-if
-(
-!
 aWorkerPrivate
 -
 >
@@ -2678,14 +2675,7 @@ ModifyBusyCountFromWorker
 aCx
 false
 )
-)
-{
-JS_ReportPendingException
-(
-aCx
-)
 ;
-}
 aWorkerPrivate
 -
 >

@@ -1524,6 +1524,10 @@ aWorkerPrivate
 )
 override
 {
+AssertIsOnMainThread
+(
+)
+;
 return
 true
 ;
@@ -1542,6 +1546,10 @@ aDispatchResult
 )
 override
 {
+AssertIsOnMainThread
+(
+)
+;
 }
 bool
 WorkerRun

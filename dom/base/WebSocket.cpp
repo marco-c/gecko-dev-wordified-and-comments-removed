@@ -9881,6 +9881,10 @@ WorkerPrivate
 aWorkerPrivate
 )
 {
+AssertIsOnMainThread
+(
+)
+;
 return
 true
 ;
@@ -9898,6 +9902,10 @@ bool
 aDispatchResult
 )
 {
+AssertIsOnMainThread
+(
+)
+;
 }
 private
 :
