@@ -332,7 +332,6 @@ fn
     
 except
 WindowsError
-as
 e
 :
         
