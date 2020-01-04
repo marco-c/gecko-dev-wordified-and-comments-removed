@@ -2172,6 +2172,7 @@ MU_startupMigrator
 (
 aProfileStartup
 aMigratorKey
+aProfileToMigrate
 )
 {
 if
@@ -2389,6 +2390,7 @@ migratorKey
 migrator
 aProfileStartup
 skipSourcePage
+aProfileToMigrate
 ]
 ;
 this
