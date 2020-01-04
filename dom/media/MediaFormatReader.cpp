@@ -5791,10 +5791,6 @@ OnTaskQueue
 if
 (
 mShutdown
-|
-|
-!
-mInitDone
 )
 {
 return
@@ -5840,6 +5836,15 @@ mUpdateScheduled
 =
 false
 ;
+if
+(
+!
+mInitDone
+)
+{
+return
+;
+}
 if
 (
 UpdateReceivedNewData
