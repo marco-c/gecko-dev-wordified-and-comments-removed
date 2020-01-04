@@ -299,9 +299,13 @@ importFunction
 function
 (
 )
+{
+return
 "
 PASS
 "
+;
+}
 "
 foo
 "
@@ -315,9 +319,13 @@ function
 bar
 (
 )
+{
+return
 "
 PASS
 "
+;
+}
 )
 ;
 sandbox

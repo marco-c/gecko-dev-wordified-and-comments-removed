@@ -232,7 +232,11 @@ function
 XPCU_getScriptableHelper
 (
 )
+{
+return
 null
+;
+}
 contractID
 :
 classInfo
