@@ -3772,6 +3772,13 @@ GetOpenerWindowOuter
 (
 )
 ;
+void
+InitWasOffline
+(
+)
+;
+public
+:
 nsPIDOMWindowOuter
 *
 GetOpenerWindow
@@ -3784,13 +3791,6 @@ ErrorResult
 aError
 )
 ;
-void
-InitWasOffline
-(
-)
-;
-public
-:
 void
 GetOpener
 (
