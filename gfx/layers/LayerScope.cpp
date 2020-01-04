@@ -4833,7 +4833,7 @@ texturePacket
 aEffect
 -
 >
-mFilter
+mSamplingFilter
 )
 ;
 DumpRect
