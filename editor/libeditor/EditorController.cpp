@@ -10,6 +10,13 @@ h
 #
 include
 "
+EditorCommands
+.
+h
+"
+#
+include
+"
 mozilla
 /
 mozalloc
@@ -20,13 +27,6 @@ h
 include
 "
 nsDebug
-.
-h
-"
-#
-include
-"
-nsEditorCommands
 .
 h
 "
@@ -209,7 +209,7 @@ aCommandTable
 {
 NS_REGISTER_ONE_COMMAND
 (
-nsUndoCommand
+UndoCommand
 "
 cmd_undo
 "
@@ -217,7 +217,7 @@ cmd_undo
 ;
 NS_REGISTER_ONE_COMMAND
 (
-nsRedoCommand
+RedoCommand
 "
 cmd_redo
 "
@@ -225,7 +225,7 @@ cmd_redo
 ;
 NS_REGISTER_ONE_COMMAND
 (
-nsClearUndoCommand
+ClearUndoCommand
 "
 cmd_clearUndo
 "
@@ -233,7 +233,7 @@ cmd_clearUndo
 ;
 NS_REGISTER_ONE_COMMAND
 (
-nsCutCommand
+CutCommand
 "
 cmd_cut
 "
@@ -241,7 +241,7 @@ cmd_cut
 ;
 NS_REGISTER_ONE_COMMAND
 (
-nsCutOrDeleteCommand
+CutOrDeleteCommand
 "
 cmd_cutOrDelete
 "
@@ -249,7 +249,7 @@ cmd_cutOrDelete
 ;
 NS_REGISTER_ONE_COMMAND
 (
-nsCopyCommand
+CopyCommand
 "
 cmd_copy
 "
@@ -257,7 +257,7 @@ cmd_copy
 ;
 NS_REGISTER_ONE_COMMAND
 (
-nsCopyOrDeleteCommand
+CopyOrDeleteCommand
 "
 cmd_copyOrDelete
 "
@@ -265,7 +265,7 @@ cmd_copyOrDelete
 ;
 NS_REGISTER_ONE_COMMAND
 (
-nsCopyAndCollapseToEndCommand
+CopyAndCollapseToEndCommand
 "
 cmd_copyAndCollapseToEnd
 "
@@ -273,7 +273,7 @@ cmd_copyAndCollapseToEnd
 ;
 NS_REGISTER_ONE_COMMAND
 (
-nsSelectAllCommand
+SelectAllCommand
 "
 cmd_selectAll
 "
@@ -281,7 +281,7 @@ cmd_selectAll
 ;
 NS_REGISTER_ONE_COMMAND
 (
-nsPasteCommand
+PasteCommand
 "
 cmd_paste
 "
@@ -289,7 +289,7 @@ cmd_paste
 ;
 NS_REGISTER_ONE_COMMAND
 (
-nsPasteTransferableCommand
+PasteTransferableCommand
 "
 cmd_pasteTransferable
 "
@@ -297,7 +297,7 @@ cmd_pasteTransferable
 ;
 NS_REGISTER_ONE_COMMAND
 (
-nsSwitchTextDirectionCommand
+SwitchTextDirectionCommand
 "
 cmd_switchTextDirection
 "
@@ -305,7 +305,7 @@ cmd_switchTextDirection
 ;
 NS_REGISTER_FIRST_COMMAND
 (
-nsDeleteCommand
+DeleteCommand
 "
 cmd_delete
 "
@@ -313,7 +313,7 @@ cmd_delete
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsDeleteCommand
+DeleteCommand
 "
 cmd_deleteCharBackward
 "
@@ -321,7 +321,7 @@ cmd_deleteCharBackward
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsDeleteCommand
+DeleteCommand
 "
 cmd_deleteCharForward
 "
@@ -329,7 +329,7 @@ cmd_deleteCharForward
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsDeleteCommand
+DeleteCommand
 "
 cmd_deleteWordBackward
 "
@@ -337,7 +337,7 @@ cmd_deleteWordBackward
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsDeleteCommand
+DeleteCommand
 "
 cmd_deleteWordForward
 "
@@ -345,7 +345,7 @@ cmd_deleteWordForward
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsDeleteCommand
+DeleteCommand
 "
 cmd_deleteToBeginningOfLine
 "
@@ -353,7 +353,7 @@ cmd_deleteToBeginningOfLine
 ;
 NS_REGISTER_LAST_COMMAND
 (
-nsDeleteCommand
+DeleteCommand
 "
 cmd_deleteToEndOfLine
 "
@@ -361,7 +361,7 @@ cmd_deleteToEndOfLine
 ;
 NS_REGISTER_ONE_COMMAND
 (
-nsInsertPlaintextCommand
+InsertPlaintextCommand
 "
 cmd_insertText
 "
@@ -369,7 +369,7 @@ cmd_insertText
 ;
 NS_REGISTER_ONE_COMMAND
 (
-nsPasteQuotationCommand
+PasteQuotationCommand
 "
 cmd_pasteQuote
 "
@@ -392,7 +392,7 @@ aCommandTable
 {
 NS_REGISTER_FIRST_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_scrollTop
 "
@@ -400,7 +400,7 @@ cmd_scrollTop
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_scrollBottom
 "
@@ -408,7 +408,7 @@ cmd_scrollBottom
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_moveTop
 "
@@ -416,7 +416,7 @@ cmd_moveTop
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_moveBottom
 "
@@ -424,7 +424,7 @@ cmd_moveBottom
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_selectTop
 "
@@ -432,7 +432,7 @@ cmd_selectTop
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_selectBottom
 "
@@ -440,7 +440,7 @@ cmd_selectBottom
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_lineNext
 "
@@ -448,7 +448,7 @@ cmd_lineNext
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_linePrevious
 "
@@ -456,7 +456,7 @@ cmd_linePrevious
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_selectLineNext
 "
@@ -464,7 +464,7 @@ cmd_selectLineNext
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_selectLinePrevious
 "
@@ -472,7 +472,7 @@ cmd_selectLinePrevious
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_charPrevious
 "
@@ -480,7 +480,7 @@ cmd_charPrevious
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_charNext
 "
@@ -488,7 +488,7 @@ cmd_charNext
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_selectCharPrevious
 "
@@ -496,7 +496,7 @@ cmd_selectCharPrevious
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_selectCharNext
 "
@@ -504,7 +504,7 @@ cmd_selectCharNext
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_beginLine
 "
@@ -512,7 +512,7 @@ cmd_beginLine
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_endLine
 "
@@ -520,7 +520,7 @@ cmd_endLine
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_selectBeginLine
 "
@@ -528,7 +528,7 @@ cmd_selectBeginLine
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_selectEndLine
 "
@@ -536,7 +536,7 @@ cmd_selectEndLine
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_wordPrevious
 "
@@ -544,7 +544,7 @@ cmd_wordPrevious
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_wordNext
 "
@@ -552,7 +552,7 @@ cmd_wordNext
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_selectWordPrevious
 "
@@ -560,7 +560,7 @@ cmd_selectWordPrevious
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_selectWordNext
 "
@@ -568,7 +568,7 @@ cmd_selectWordNext
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_scrollPageUp
 "
@@ -576,7 +576,7 @@ cmd_scrollPageUp
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_scrollPageDown
 "
@@ -584,7 +584,7 @@ cmd_scrollPageDown
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_scrollLineUp
 "
@@ -592,7 +592,7 @@ cmd_scrollLineUp
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_scrollLineDown
 "
@@ -600,7 +600,7 @@ cmd_scrollLineDown
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_movePageUp
 "
@@ -608,7 +608,7 @@ cmd_movePageUp
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_movePageDown
 "
@@ -616,7 +616,7 @@ cmd_movePageDown
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_selectPageUp
 "
@@ -624,7 +624,7 @@ cmd_selectPageUp
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_selectPageDown
 "
@@ -632,7 +632,7 @@ cmd_selectPageDown
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_moveLeft
 "
@@ -640,7 +640,7 @@ cmd_moveLeft
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_moveRight
 "
@@ -648,7 +648,7 @@ cmd_moveRight
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_moveUp
 "
@@ -656,7 +656,7 @@ cmd_moveUp
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_moveDown
 "
@@ -664,7 +664,7 @@ cmd_moveDown
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_moveLeft2
 "
@@ -672,7 +672,7 @@ cmd_moveLeft2
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_moveRight2
 "
@@ -680,7 +680,7 @@ cmd_moveRight2
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_moveUp2
 "
@@ -688,7 +688,7 @@ cmd_moveUp2
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_moveDown2
 "
@@ -696,7 +696,7 @@ cmd_moveDown2
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_selectLeft
 "
@@ -704,7 +704,7 @@ cmd_selectLeft
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_selectRight
 "
@@ -712,7 +712,7 @@ cmd_selectRight
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_selectUp
 "
@@ -720,7 +720,7 @@ cmd_selectUp
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_selectDown
 "
@@ -728,7 +728,7 @@ cmd_selectDown
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_selectLeft2
 "
@@ -736,7 +736,7 @@ cmd_selectLeft2
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_selectRight2
 "
@@ -744,7 +744,7 @@ cmd_selectRight2
 ;
 NS_REGISTER_NEXT_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_selectUp2
 "
@@ -752,7 +752,7 @@ cmd_selectUp2
 ;
 NS_REGISTER_LAST_COMMAND
 (
-nsSelectionMoveCommands
+SelectionMoveCommands
 "
 cmd_selectDown2
 "

@@ -195,6 +195,11 @@ EditAggregateTransaction
 cpp
 '
 '
+EditorCommands
+.
+cpp
+'
+'
 EditorController
 .
 cpp
@@ -231,11 +236,6 @@ cpp
 '
 '
 nsEditor
-.
-cpp
-'
-'
-nsEditorCommands
 .
 cpp
 '
