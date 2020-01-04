@@ -3291,6 +3291,36 @@ crashtest
 '
 reftest
 '
+            
+'
+reftest
+-
+debug
+'
+:
+'
+reftest
+'
+            
+'
+jsreftest
+-
+debug
+'
+:
+'
+reftest
+'
+            
+'
+crashtest
+-
+debug
+'
+:
+'
+reftest
+'
         
 }
         
