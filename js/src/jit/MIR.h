@@ -28311,7 +28311,7 @@ def
 {
 setResultType
 (
-MIRType_Object
+MIRType_Value
 )
 ;
 }
