@@ -336,7 +336,7 @@ ScriptSourceObject
 RootedScriptSource
 ;
 typedef
-TraceableVector
+GCVector
 <
 JSFunction
 *
@@ -344,7 +344,7 @@ JSFunction
 FunctionVector
 ;
 typedef
-TraceableVector
+GCVector
 <
 PropertyName
 *
@@ -352,7 +352,7 @@ PropertyName
 PropertyNameVector
 ;
 typedef
-TraceableVector
+GCVector
 <
 Shape
 *
@@ -360,7 +360,7 @@ Shape
 ShapeVector
 ;
 typedef
-TraceableVector
+GCVector
 <
 JSString
 *

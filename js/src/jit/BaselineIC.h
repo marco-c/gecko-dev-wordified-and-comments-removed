@@ -91,7 +91,7 @@ include
 "
 js
 /
-TraceableVector
+GCVector
 .
 h
 "

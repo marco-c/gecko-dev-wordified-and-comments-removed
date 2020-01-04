@@ -596,7 +596,7 @@ lexdeps
 ;
 Rooted
 <
-TraceableVector
+GCVector
 <
 JSFunction
 *
@@ -731,7 +731,7 @@ prs
 -
 >
 context
-TraceableVector
+GCVector
 <
 JSFunction
 *

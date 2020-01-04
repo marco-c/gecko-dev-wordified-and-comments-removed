@@ -18,7 +18,7 @@ include
 "
 js
 /
-TraceableVector
+GCVector
 .
 h
 "
@@ -108,7 +108,7 @@ ValueVector
 js
 :
 :
-TraceableVector
+GCVector
 <
 JS
 :
@@ -122,7 +122,7 @@ IdVector
 js
 :
 :
-TraceableVector
+GCVector
 <
 jsid
 >
@@ -133,7 +133,7 @@ ScriptVector
 js
 :
 :
-TraceableVector
+GCVector
 <
 JSScript
 *

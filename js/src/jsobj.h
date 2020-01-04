@@ -54,7 +54,7 @@ include
 "
 js
 /
-HeapAPI
+GCVector
 .
 h
 "
@@ -63,7 +63,7 @@ include
 "
 js
 /
-TraceableVector
+HeapAPI
 .
 h
 "
@@ -107,7 +107,7 @@ js
 using
 PropertyDescriptorVector
 =
-TraceableVector
+GCVector
 <
 PropertyDescriptor
 >

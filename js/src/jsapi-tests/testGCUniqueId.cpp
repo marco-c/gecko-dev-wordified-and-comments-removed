@@ -19,6 +19,15 @@ h
 #
 include
 "
+js
+/
+GCVector
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests
@@ -446,7 +455,7 @@ ObjectVector
 js
 :
 :
-TraceableVector
+GCVector
 <
 JSObject
 *

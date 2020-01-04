@@ -4799,7 +4799,7 @@ PropertyNameVector
 js
 :
 :
-TraceableVector
+GCVector
 <
 PropertyName
 *
