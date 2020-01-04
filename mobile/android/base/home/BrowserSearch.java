@@ -3854,9 +3854,11 @@ hasSuggestions
 ;
 row
 .
-updateFromSearchEngine
+updateSuggestions
 (
+mSuggestionsEnabled
 engine
+mSearchTerm
 animate
 )
 ;
