@@ -198,6 +198,9 @@ ControlStatements
 DisableFormat
 :
 false
+SortIncludes
+:
+false
 .
 .
 .
