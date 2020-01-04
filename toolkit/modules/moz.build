@@ -160,6 +160,15 @@ PromiseTestUtils
 .
 jsm
 '
+'
+tests
+/
+xpcshell
+/
+TestIntegration
+.
+jsm
+'
 ]
 SPHINX_TREES
 [
@@ -321,6 +330,11 @@ jsm
 '
 '
 InlineSpellCheckerContent
+.
+jsm
+'
+'
+Integration
 .
 jsm
 '
