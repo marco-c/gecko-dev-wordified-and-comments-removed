@@ -342,7 +342,7 @@ virtual
 void
 SetInputListener
 (
-MediaStreamListener
+AudioDataListener
 *
 aListener
 )
@@ -356,7 +356,7 @@ virtual
 void
 RemoveInputListener
 (
-MediaStreamListener
+AudioDataListener
 *
 aListener
 )
@@ -396,10 +396,8 @@ WAITSTATE_WAKING_UP
 WaitState
 mWaitState
 ;
-RefPtr
-<
-MediaStreamListener
->
+AudioDataListener
+*
 mAudioInput
 ;
 TimeStamp
@@ -996,7 +994,7 @@ mStarted
 ;
 RefPtr
 <
-MediaStreamListener
+AudioDataListener
 >
 mAudioInput
 ;
