@@ -3266,8 +3266,11 @@ transform
 Tap
 (
 manager
+ScreenIntPoint
+(
 100
 100
+)
 mcc
 TimeDuration
 :
@@ -3302,8 +3305,11 @@ blockId
 TouchDown
 (
 manager
+ScreenIntPoint
+(
 100
 100
+)
 mcc
 -
 >
@@ -3393,8 +3399,11 @@ false
 TouchUp
 (
 manager
+ScreenIntPoint
+(
 100
 100
+)
 mcc
 -
 >
