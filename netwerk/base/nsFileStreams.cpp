@@ -3618,6 +3618,11 @@ SetFollowLinks
 true
 )
 ;
+if
+(
+mTargetFileExists
+)
+{
 tempResult
 -
 >
@@ -3625,6 +3630,7 @@ Normalize
 (
 )
 ;
+}
 }
 if
 (
