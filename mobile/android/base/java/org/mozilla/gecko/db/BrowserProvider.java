@@ -4862,6 +4862,12 @@ titleColumnIndex
 )
 ;
 }
+suggestedSitesCursor
+.
+close
+(
+)
+;
 final
 String
 suggestedLimitClause
