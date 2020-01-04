@@ -1382,15 +1382,6 @@ mFrameLoaderDestroyed
 (
 false
 )
-mBackgroundColor
-(
-gfxRGBA
-(
-1
-1
-1
-)
-)
 mAsyncPanZoomEnabled
 (
 false

@@ -2432,12 +2432,6 @@ bool
 force
 )
 ;
-SetBackgroundColor
-(
-nscolor
-color
-)
-;
 /
 *
 *
