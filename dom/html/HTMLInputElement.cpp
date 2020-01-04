@@ -18448,15 +18448,15 @@ if
 !
 IsSingleLineTextControl
 (
-mType
 false
+mType
 )
 &
 &
 IsSingleLineTextControl
 (
-oldType
 false
+oldType
 )
 )
 {
