@@ -4597,7 +4597,7 @@ ModuleGenerator
 :
 setFuncNames
 (
-CacheableCharsVector
+NameInBytecodeVector
 &
 &
 funcNames
