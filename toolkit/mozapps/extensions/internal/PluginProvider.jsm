@@ -2387,7 +2387,12 @@ for
 let
 tag
 of
-aTags
+pluginFor
+(
+this
+)
+.
+tags
 )
 paths
 .
