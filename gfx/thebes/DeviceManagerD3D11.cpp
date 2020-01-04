@@ -234,13 +234,6 @@ AppendElement
 D3D_FEATURE_LEVEL_10_0
 )
 ;
-mFeatureLevels
-.
-AppendElement
-(
-D3D_FEATURE_LEVEL_9_3
-)
-;
 }
 static
 inline
