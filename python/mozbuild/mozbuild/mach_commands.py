@@ -58,6 +58,10 @@ import
     
 MachCommandBase
     
+MachCommandConditions
+as
+conditions
+    
 MozbuildObject
     
 MozconfigFindException
@@ -6934,6 +6938,29 @@ install
 self
 )
 :
+        
+if
+conditions
+.
+is_android
+(
+self
+)
+:
+            
+from
+mozrunner
+.
+devices
+.
+android_device
+import
+verify_android_device
+            
+verify_android_device
+(
+self
+)
         
 ret
 =
