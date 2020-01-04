@@ -187,6 +187,10 @@ do_get_profile
 (
 )
 ;
+setEmptyPrefWatchlist
+(
+)
+;
 Services
 .
 prefs

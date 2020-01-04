@@ -653,6 +653,10 @@ XPCShell
 "
 )
 ;
+setEmptyPrefWatchlist
+(
+)
+;
 Services
 .
 prefs

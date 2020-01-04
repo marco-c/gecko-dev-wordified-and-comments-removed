@@ -292,6 +292,10 @@ do_get_profile
 (
 )
 ;
+setEmptyPrefWatchlist
+(
+)
+;
 do_test_pending
 (
 )

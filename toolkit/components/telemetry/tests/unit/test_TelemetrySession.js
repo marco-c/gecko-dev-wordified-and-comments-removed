@@ -2902,6 +2902,10 @@ APP_VERSION
 PLATFORM_VERSION
 )
 ;
+setEmptyPrefWatchlist
+(
+)
+;
 Services
 .
 prefs

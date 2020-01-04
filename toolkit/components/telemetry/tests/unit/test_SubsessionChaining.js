@@ -767,6 +767,10 @@ XPCShell
 "
 )
 ;
+setEmptyPrefWatchlist
+(
+)
+;
 Preferences
 .
 set

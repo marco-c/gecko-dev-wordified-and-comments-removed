@@ -638,6 +638,16 @@ testSetup
 (
 )
 ;
+if
+(
+runningInParent
+)
+{
+setEmptyPrefWatchlist
+(
+)
+;
+}
 let
 childPromise
 =
