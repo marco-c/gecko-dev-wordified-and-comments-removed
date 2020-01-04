@@ -869,6 +869,10 @@ friend
 class
 nsImageLoadingContent
 ;
+friend
+class
+PresShell
+;
 nsresult
 OnSizeAvailable
 (
