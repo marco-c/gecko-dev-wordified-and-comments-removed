@@ -271,6 +271,7 @@ null
 }
 try
 {
+final
 LoadFaviconResult
 result
 =
@@ -391,6 +392,7 @@ throws
 IOException
 URISyntaxException
 {
+final
 HttpURLConnection
 connection
 =
@@ -474,6 +476,7 @@ throws
 URISyntaxException
 IOException
 {
+final
 HashSet
 <
 String
@@ -534,6 +537,7 @@ return
 null
 ;
 }
+final
 HttpURLConnection
 connection
 =
@@ -542,6 +546,7 @@ connectTo
 faviconURI
 )
 ;
+final
 int
 status
 =
@@ -682,6 +687,7 @@ throws
 URISyntaxException
 IOException
 {
+final
 HttpURLConnection
 connection
 =
@@ -750,6 +756,7 @@ contentLength
 throws
 IOException
 {
+final
 int
 bufferSize
 ;
@@ -774,6 +781,7 @@ bufferSize
 DEFAULT_FAVICON_BUFFER_SIZE_BYTES
 ;
 }
+final
 IOUtils
 .
 ConsumedInputStream
