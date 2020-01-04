@@ -1277,10 +1277,6 @@ aBuilder
 nsIFrame
 *
 aFrame
-const
-nsIFrame
-*
-aStopAtAncestor
 )
 ;
 static

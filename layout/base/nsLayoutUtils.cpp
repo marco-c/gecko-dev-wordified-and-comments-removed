@@ -9352,10 +9352,6 @@ aBuilder
 nsIFrame
 *
 aFrame
-const
-nsIFrame
-*
-aStopAtAncestor
 )
 {
 return
@@ -9365,7 +9361,6 @@ aBuilder
 FindAnimatedGeometryRootFor
 (
 aFrame
-aStopAtAncestor
 )
 ;
 }
@@ -9439,13 +9434,6 @@ GetAnimatedGeometryRootForFrame
 (
 aBuilder
 viewportFrame
-aBuilder
--
->
-FindReferenceFrameFor
-(
-viewportFrame
-)
 )
 ;
 }
@@ -9454,12 +9442,6 @@ GetAnimatedGeometryRootForFrame
 (
 aBuilder
 f
-aItem
--
->
-ReferenceFrame
-(
-)
 )
 ;
 }
