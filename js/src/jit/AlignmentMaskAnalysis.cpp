@@ -455,7 +455,7 @@ toAsmJSLoadHeap
 )
 -
 >
-ptr
+base
 (
 )
 graph_
@@ -481,7 +481,7 @@ toAsmJSStoreHeap
 )
 -
 >
-ptr
+base
 (
 )
 graph_

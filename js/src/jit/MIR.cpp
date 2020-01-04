@@ -25211,7 +25211,7 @@ true
 if
 (
 !
-ptr
+base
 (
 )
 -
@@ -25225,7 +25225,7 @@ isConstant
 store
 -
 >
-ptr
+base
 (
 )
 -
@@ -25240,12 +25240,12 @@ true
 const
 MConstant
 *
-otherPtr
+otherBase
 =
 store
 -
 >
-ptr
+base
 (
 )
 -
@@ -25255,7 +25255,7 @@ toConstant
 )
 ;
 return
-ptr
+base
 (
 )
 -
@@ -25267,7 +25267,7 @@ toConstant
 >
 equals
 (
-otherPtr
+otherBase
 )
 ;
 }

@@ -845,6 +845,14 @@ access
 )
 const
 ;
+size_t
+foldableOffsetRange
+(
+bool
+accessNeedsBoundsCheck
+)
+const
+;
 private
 :
 GraphSpewer
