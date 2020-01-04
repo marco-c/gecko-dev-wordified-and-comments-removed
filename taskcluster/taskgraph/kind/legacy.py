@@ -826,6 +826,15 @@ build
 }
 )
     
+if
+'
+machine
+'
+not
+in
+treeherder_config
+:
+        
 treeherder_config
 [
 '
@@ -834,7 +843,7 @@ machine
 ]
 =
 \
-        
+            
 build_treeherder_config
 .
 get
