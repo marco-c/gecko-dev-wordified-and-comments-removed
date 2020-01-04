@@ -516,6 +516,11 @@ CSSVariableValues
 h
 '
 '
+HandleRefPtr
+.
+h
+'
+'
 IncrementalClearCOMRuleArray
 .
 h
