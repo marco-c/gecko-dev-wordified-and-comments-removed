@@ -1285,9 +1285,6 @@ do_GetService
 NS_STRINGBUNDLE_CONTRACTID
 )
 ;
-nsresult
-rv
-=
 sbs
 -
 >
@@ -1320,6 +1317,9 @@ hostPort
 IsEmpty
 (
 )
+&
+&
+bundle
 )
 {
 const
@@ -1432,10 +1432,7 @@ aPrincipal
 {
 if
 (
-NS_SUCCEEDED
-(
-rv
-)
+bundle
 )
 {
 nsXPIDLString
