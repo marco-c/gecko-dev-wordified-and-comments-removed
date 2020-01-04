@@ -7026,10 +7026,7 @@ value
 "
 )
 "
-test
-/
-myVar
-.
+get
 prop
 (
 )
@@ -7150,10 +7147,7 @@ value
 "
 )
 "
-test
-/
-myVar
-.
+set
 prop
 (
 val
