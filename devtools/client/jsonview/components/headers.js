@@ -373,14 +373,9 @@ className
 netInfoParamValue
 "
 }
-code
-(
-{
-}
 header
 .
 value
-)
 )
 )
 )
