@@ -6358,12 +6358,6 @@ rv
 rv
 )
 ;
-nsCOMPtr
-<
-nsISelection
->
-spellCheckSelection
-;
 return
 selcon
 -

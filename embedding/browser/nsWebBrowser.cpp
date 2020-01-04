@@ -6317,6 +6317,14 @@ kungFuDeathGrip
 mDocShell
 )
 ;
+mozilla
+:
+:
+Unused
+<
+<
+kungFuDeathGrip
+;
 if
 (
 aDocShell

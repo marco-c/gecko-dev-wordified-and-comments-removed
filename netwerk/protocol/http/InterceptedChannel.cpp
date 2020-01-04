@@ -668,12 +668,6 @@ NotifyController
 (
 )
 {
-nsCOMPtr
-<
-nsIOutputStream
->
-out
-;
 mChannel
 -
 >

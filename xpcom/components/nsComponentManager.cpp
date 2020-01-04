@@ -8754,12 +8754,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCOMPtr
-<
-nsIFile
->
-manifest
-;
 nsString
 path
 ;

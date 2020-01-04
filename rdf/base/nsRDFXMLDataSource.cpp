@@ -1611,12 +1611,6 @@ nsIChannel
 >
 channel
 ;
-nsCOMPtr
-<
-nsIRequest
->
-request
-;
 rv
 =
 NS_NewChannel

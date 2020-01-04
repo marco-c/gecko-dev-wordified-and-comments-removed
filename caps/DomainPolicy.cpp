@@ -643,12 +643,6 @@ DomainPolicyClone
 aClone
 )
 {
-nsCOMPtr
-<
-nsIDomainSet
->
-list
-;
 CopyURIs
 (
 aClone

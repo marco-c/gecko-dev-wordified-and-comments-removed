@@ -495,12 +495,6 @@ return
 int32_t
 currentIndex
 ;
-nsCOMPtr
-<
-nsIDOMElement
->
-selectItem
-;
 selection
 -
 >
