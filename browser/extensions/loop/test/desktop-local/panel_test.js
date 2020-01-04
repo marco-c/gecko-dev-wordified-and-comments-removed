@@ -3023,7 +3023,7 @@ pref
 "
 feedback
 .
-formURL
+manualFormURL
 "
 )
 {
