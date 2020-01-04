@@ -68,7 +68,6 @@ function
 checkPrivacyLevel
 (
 url
-isPinned
 )
 {
 let
@@ -91,11 +90,6 @@ canSave
 (
 {
 isHttps
-:
-isHttps
-isPinned
-:
-isPinned
 }
 )
 ;
@@ -114,7 +108,6 @@ filterSessionStorageData
 function
 (
 data
-isPinned
 )
 {
 let
@@ -141,7 +134,6 @@ if
 checkPrivacyLevel
 (
 host
-isPinned
 )
 )
 {
@@ -177,7 +169,6 @@ filterFormData
 function
 (
 data
-isPinned
 )
 {
 if
@@ -193,7 +184,6 @@ checkPrivacyLevel
 data
 .
 url
-isPinned
 )
 )
 {
@@ -241,7 +231,6 @@ this
 filterFormData
 (
 child
-isPinned
 )
 ;
 let
