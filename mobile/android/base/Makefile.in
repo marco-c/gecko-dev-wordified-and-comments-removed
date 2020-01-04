@@ -1516,16 +1516,6 @@ gecko
 .
 GeckoSmsManager
 \
-org
-.
-mozilla
-.
-gecko
-.
-gfx
-.
-NativePanZoomController
-\
 (
 NULL
 )

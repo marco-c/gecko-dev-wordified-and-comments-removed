@@ -124,7 +124,6 @@ NativePanZoomController
 (
 target
 view
-dispatcher
 )
 ;
 }
