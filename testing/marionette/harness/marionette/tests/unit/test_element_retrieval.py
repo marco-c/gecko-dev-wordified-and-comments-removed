@@ -1683,7 +1683,7 @@ cheese
 )
     
 def
-test_not_found
+test_not_found_from_element
 (
 self
 )
@@ -1852,7 +1852,7 @@ cheese
 )
     
 def
-test_not_found_implicit_wait
+test_not_found_implicit_wait_from_element
 (
 self
 )
