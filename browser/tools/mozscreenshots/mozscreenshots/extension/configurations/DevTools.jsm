@@ -161,10 +161,13 @@ options
 webconsole
 "
 "
-inspector
-"
-"
 jsdebugger
+"
+"
+styleeditor
+"
+"
+performance
 "
 "
 netmonitor
