@@ -889,6 +889,14 @@ this
 .
 openedPopup
 .
+view
+=
+AutoCompleteTreeView
+;
+this
+.
+openedPopup
+.
 invalidate
 (
 )
