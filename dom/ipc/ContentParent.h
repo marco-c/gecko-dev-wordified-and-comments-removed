@@ -1240,10 +1240,6 @@ static
 bool
 GetBrowserConfiguration
 (
-const
-nsCString
-&
-aURI
 BrowserConfiguration
 &
 aConfig
@@ -4370,10 +4366,6 @@ virtual
 bool
 RecvGetBrowserConfiguration
 (
-const
-nsCString
-&
-aURI
 BrowserConfiguration
 *
 aConfig

@@ -25218,10 +25218,6 @@ ContentParent
 :
 RecvGetBrowserConfiguration
 (
-const
-nsCString
-&
-aURI
 BrowserConfiguration
 *
 aConfig
@@ -25237,7 +25233,6 @@ XRE_IsParentProcess
 return
 GetBrowserConfiguration
 (
-aURI
 *
 aConfig
 )
@@ -25250,10 +25245,6 @@ ContentParent
 :
 GetBrowserConfiguration
 (
-const
-nsCString
-&
-aURI
 BrowserConfiguration
 &
 aConfig
@@ -25311,7 +25302,6 @@ GetSingleton
 >
 SendGetBrowserConfiguration
 (
-aURI
 &
 aConfig
 )

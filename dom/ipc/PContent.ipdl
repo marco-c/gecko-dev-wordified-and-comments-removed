@@ -5413,8 +5413,6 @@ process
 sync
 GetBrowserConfiguration
 (
-nsCString
-aUri
 )
 returns
 (
