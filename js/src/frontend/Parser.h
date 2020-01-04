@@ -2006,6 +2006,11 @@ TokenKind
 ttp
 )
 ;
+bool
+checkStatementsEOF
+(
+)
+;
 inline
 Node
 newName
@@ -2062,6 +2067,11 @@ cont
 ;
 Node
 evalBody
+(
+)
+;
+Node
+globalBody
 (
 )
 ;
