@@ -500,6 +500,12 @@ ClearCachedResources
 ;
 virtual
 void
+HandleMemoryPressure
+(
+)
+;
+virtual
+void
 RemoveTexture
 (
 TextureClient
