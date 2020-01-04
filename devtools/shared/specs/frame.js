@@ -5,8 +5,6 @@ strict
 ;
 const
 {
-Arg
-RetVal
 generateActorSpec
 }
 =
