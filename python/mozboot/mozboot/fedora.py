@@ -76,6 +76,12 @@ autoconf213
 '
 mercurial
 '
+            
+'
+python2
+-
+devel
+'
         
 ]
         
