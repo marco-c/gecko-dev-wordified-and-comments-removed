@@ -349,8 +349,6 @@ event
 status
 )
 ;
-return
-;
 }
 }
 }
