@@ -27,10 +27,6 @@ Logging
 .
 h
 "
-typedef
-char16_t
-nsStaticAtomStringType
-;
 #
 define
 NS_STATIC_ATOM
@@ -38,6 +34,7 @@ NS_STATIC_ATOM
 buffer_name
 atom_ptr
 )
+\
 {
 (
 nsStringBuffer
@@ -54,6 +51,7 @@ NS_STATIC_ATOM_BUFFER
 buffer_name
 str_data
 )
+\
 static
 nsFakeStringBuffer
 <
@@ -64,6 +62,7 @@ str_data
 >
 buffer_name
 =
+\
 {
 1
 sizeof
@@ -73,7 +72,7 @@ str_data
 *
 sizeof
 (
-nsStaticAtomStringType
+char16_t
 )
 MOZ_UTF16
 (
@@ -110,7 +109,7 @@ mRefCnt
 uint32_t
 mSize
 ;
-nsStaticAtomStringType
+char16_t
 mStringData
 [
 size
