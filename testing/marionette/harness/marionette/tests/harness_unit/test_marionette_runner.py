@@ -2227,14 +2227,8 @@ runner
     
 runner
 .
-_device
-runner
-.
 _appName
 =
-'
-fake_device
-'
 '
 fake_app
 '
@@ -2450,6 +2444,31 @@ call_count
 =
 =
 1
+            
+args
+kwargs
+=
+mocks
+[
+'
+active_tests
+'
+]
+.
+call_args
+            
+assert
+kwargs
+[
+'
+app
+'
+]
+=
+=
+runner
+.
+_appName
             
 runner
 .
