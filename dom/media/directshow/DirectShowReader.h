@@ -186,7 +186,7 @@ mMP3FrameParser
 ;
 #
 ifdef
-DEBUG
+DIRECTSHOW_REGISTER_GRAPH
 DWORD
 mRotRegister
 ;

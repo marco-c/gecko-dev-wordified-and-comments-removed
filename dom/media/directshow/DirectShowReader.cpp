@@ -139,7 +139,7 @@ GetLength
 )
 #
 ifdef
-DEBUG
+DIRECTSHOW_REGISTER_GRAPH
 mRotRegister
 (
 0
@@ -214,7 +214,7 @@ DirectShowReader
 ;
 #
 ifdef
-DEBUG
+DIRECTSHOW_REGISTER_GRAPH
 if
 (
 mRotRegister
@@ -460,7 +460,7 @@ rv
 ;
 #
 ifdef
-DEBUG
+DIRECTSHOW_REGISTER_GRAPH
 hr
 =
 AddGraphToRunningObjectTable
