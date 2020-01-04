@@ -1860,6 +1860,7 @@ self
 get
 (
 options
+request
 )
 ;
 let
@@ -1929,6 +1930,7 @@ request
 .
 bodyInputStream
 )
+request
 )
 ;
 body
@@ -1978,6 +1980,7 @@ self
 delete
 (
 options
+request
 )
 ;
 let

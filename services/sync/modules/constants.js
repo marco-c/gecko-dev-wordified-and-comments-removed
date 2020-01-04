@@ -565,6 +565,17 @@ reason
 .
 metarecord_upload_fail
 "
+ENGINE_BATCH_INTERRUPTED
+:
+"
+error
+.
+engine
+.
+reason
+.
+batch_interrupted
+"
 JPAKE_ERROR_CHANNEL
 :
 "
