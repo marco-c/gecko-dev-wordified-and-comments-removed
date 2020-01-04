@@ -93,6 +93,17 @@ MightMapInheritedStyleData
 )
 override
 ;
+bool
+GetDiscretelyAnimatedCSSValue
+(
+nsCSSProperty
+aProperty
+nsCSSValue
+*
+aValue
+)
+override
+;
 #
 ifdef
 DEBUG

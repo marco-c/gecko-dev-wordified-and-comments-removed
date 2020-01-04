@@ -1429,7 +1429,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 VARIANT_HK
 kAutoCompletionAlignJustifyContent
 CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+eStyleAnimType_Discrete
 )
 CSS_PROP_POSITION
 (
@@ -1444,7 +1444,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 VARIANT_HK
 kAutoCompletionAlignItems
 CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+eStyleAnimType_Discrete
 )
 CSS_PROP_POSITION
 (
@@ -1459,7 +1459,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 VARIANT_HK
 kAutoCompletionAlignJustifySelf
 CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+eStyleAnimType_Discrete
 )
 CSS_PROP_SHORTHAND
 (
@@ -5436,7 +5436,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 VARIANT_HK
 kAutoCompletionAlignJustifyContent
 CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+eStyleAnimType_Discrete
 )
 CSS_PROP_POSITION
 (
@@ -5451,7 +5451,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 VARIANT_HK
 kAutoCompletionAlignJustifySelf
 CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+eStyleAnimType_Discrete
 )
 CSS_PROP_POSITION
 (
@@ -5466,7 +5466,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 VARIANT_HK
 kAutoCompletionAlignJustifySelf
 CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+eStyleAnimType_Discrete
 )
 #
 ifndef
