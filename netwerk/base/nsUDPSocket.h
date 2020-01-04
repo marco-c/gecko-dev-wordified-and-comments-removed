@@ -214,6 +214,11 @@ bool
 aEnforce
 )
 ;
+void
+CloseSocket
+(
+)
+;
 mozilla
 :
 :
