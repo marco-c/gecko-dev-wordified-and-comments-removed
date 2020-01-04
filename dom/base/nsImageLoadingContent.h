@@ -357,6 +357,10 @@ bool
 aNotify
 ImageLoadType
 aImageLoadType
+bool
+aLoadStart
+=
+true
 nsIDocument
 *
 aDocument
