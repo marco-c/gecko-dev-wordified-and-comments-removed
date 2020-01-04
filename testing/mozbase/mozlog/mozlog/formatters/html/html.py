@@ -1241,6 +1241,25 @@ content
 else
 :
                     
+utf_encoded
+=
+unicode
+(
+content
+)
+.
+encode
+(
+'
+utf
+-
+8
+'
+'
+xmlcharrefreplace
+'
+)
+                    
 href
 =
 '
@@ -1248,7 +1267,7 @@ data
 :
 text
 /
-plain
+html
 ;
 charset
 =
@@ -1265,19 +1284,7 @@ base64
 .
 b64encode
 (
-str
-(
-content
-)
-.
-encode
-(
-'
-utf
--
-8
-'
-)
+utf_encoded
 )
                 
 links_html
