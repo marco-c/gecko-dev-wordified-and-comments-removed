@@ -469,7 +469,7 @@ UpdateCaretsHint
 aHint
 )
 {
-mCaretMode
+mLastUpdateCaretMode
 =
 GetCaretMode
 (
@@ -477,7 +477,7 @@ GetCaretMode
 ;
 switch
 (
-mCaretMode
+mLastUpdateCaretMode
 )
 {
 case
@@ -1878,7 +1878,7 @@ OnScrollEnd
 {
 if
 (
-mCaretMode
+mLastUpdateCaretMode
 !
 =
 GetCaretMode
@@ -1951,7 +1951,7 @@ OnScrollPositionChanged
 {
 if
 (
-mCaretMode
+mLastUpdateCaretMode
 !
 =
 GetCaretMode
@@ -1995,7 +1995,7 @@ OnReflow
 {
 if
 (
-mCaretMode
+mLastUpdateCaretMode
 !
 =
 GetCaretMode

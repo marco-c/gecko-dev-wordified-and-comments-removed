@@ -478,7 +478,7 @@ nsITimer
 mCaretTimeoutTimer
 ;
 CaretMode
-mCaretMode
+mLastUpdateCaretMode
 =
 CaretMode
 :
