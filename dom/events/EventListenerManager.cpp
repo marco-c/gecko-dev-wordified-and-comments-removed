@@ -1375,7 +1375,7 @@ eLegacyMutationEventFirst
 aEventMessage
 <
 =
-NS_MUTATION_END
+eLegacyMutationEventLast
 )
 {
 mMayHaveMutationListeners
@@ -5989,7 +5989,7 @@ listener
 mEventMessage
 <
 =
-NS_MUTATION_END
+eLegacyMutationEventLast
 )
 {
 return
@@ -6074,7 +6074,7 @@ listener
 mEventMessage
 <
 =
-NS_MUTATION_END
+eLegacyMutationEventLast
 )
 {
 if
