@@ -489,7 +489,7 @@ SOURCES
 '
 SharedMemoryBasic_mach
 .
-cpp
+mm
 '
 ]
 else
