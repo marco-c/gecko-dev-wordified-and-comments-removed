@@ -1415,14 +1415,11 @@ perf
                 
 )
             
-try
-:
-                
 test_results
 .
 add
 (
-                    
+                
 '
 \
 n
@@ -1434,7 +1431,7 @@ pcontext
 .
 output
 )
-                    
+                
 counter_results
 =
 (
@@ -1443,35 +1440,14 @@ counter_management
 results
 (
 )
-                                     
+                                 
 if
 counter_management
-                                     
+                                 
 else
 None
 )
-)
             
-except
-Exception
-:
-                
-logging
-.
-exception
-(
-"
-Unable
-to
-add
-results
-for
-cycle
-%
-d
-"
-%
-i
 )
             
 if
