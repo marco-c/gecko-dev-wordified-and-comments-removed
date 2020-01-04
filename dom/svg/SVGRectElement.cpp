@@ -649,6 +649,17 @@ IsRectilinear
 )
 )
 {
+MOZ_ASSERT
+(
+!
+aToNonScalingStrokeSpace
+-
+>
+IsSingular
+(
+)
+)
+;
 rect
 =
 aToNonScalingStrokeSpace

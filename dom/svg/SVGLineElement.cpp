@@ -733,6 +733,17 @@ if
 aToNonScalingStrokeSpace
 )
 {
+MOZ_ASSERT
+(
+!
+aToNonScalingStrokeSpace
+-
+>
+IsSingular
+(
+)
+)
+;
 Matrix
 nonScalingToUser
 =
