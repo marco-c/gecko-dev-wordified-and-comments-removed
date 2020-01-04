@@ -27496,6 +27496,14 @@ availWidth
 availHeight
 )
 ;
+if
+(
+mResizeState
+!
+=
+MOVING
+)
+{
 x
 =
 std
@@ -27518,6 +27526,7 @@ y
 availTop
 )
 ;
+}
 width
 =
 std
