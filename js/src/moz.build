@@ -4048,6 +4048,17 @@ mips64
 .
 cpp
 '
+'
+jit
+/
+mips64
+/
+Assembler
+-
+mips64
+.
+cpp
+'
 ]
 if
 CONFIG
