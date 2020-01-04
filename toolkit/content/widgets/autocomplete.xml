@@ -10811,6 +10811,7 @@ inherits
 "
 selected
 current
+type
 "
 /
 >
@@ -10843,6 +10844,7 @@ src
 =
 image
 selected
+type
 "
 /
 >
@@ -11041,6 +11043,7 @@ inherits
 "
 selected
 actiontype
+type
 "
 >
 <
@@ -15491,20 +15494,6 @@ false
 }
 }
 this
-.
-_typeIcon
-.
-setAttribute
-(
-"
-type
-"
-type
-)
-;
-this
-.
-_siteIcon
 .
 setAttribute
 (

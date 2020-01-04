@@ -190,7 +190,6 @@ type
 "
 )
 "
-action
 switchtab
 "
 "

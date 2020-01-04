@@ -208,8 +208,6 @@ type
 :
 "
 bookmark
--
-tag
 "
 typeImageVisible
 :
@@ -305,8 +303,6 @@ type
 :
 "
 bookmark
--
-tag
 "
 typeImageVisible
 :
@@ -352,8 +348,6 @@ type
 :
 "
 bookmark
--
-tag
 "
 typeImageVisible
 :
