@@ -234,6 +234,11 @@ Logging
 h
 '
 '
+LoggingConstants
+.
+h
+'
+'
 Matrix
 .
 h
@@ -260,11 +265,6 @@ h
 '
 '
 Point
-.
-h
-'
-'
-Preferences
 .
 h
 '
@@ -1003,11 +1003,6 @@ cpp
 '
 '
 PathRecording
-.
-cpp
-'
-'
-Preferences
 .
 cpp
 '
