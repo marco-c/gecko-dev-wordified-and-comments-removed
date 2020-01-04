@@ -262,7 +262,7 @@ const
 int
 DEFAULT_HEURISTIC_DORMANT_TIMEOUT_MSECS
 =
-60000
+10000
 ;
 namespace
 mozilla
