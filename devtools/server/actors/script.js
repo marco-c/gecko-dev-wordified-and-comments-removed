@@ -7939,7 +7939,7 @@ aFrame
 ;
 const
 {
-sourceActor
+originalSourceActor
 }
 =
 this
@@ -7959,9 +7959,9 @@ generatedLocation
 const
 url
 =
-sourceActor
+originalSourceActor
 ?
-sourceActor
+originalSourceActor
 .
 url
 :

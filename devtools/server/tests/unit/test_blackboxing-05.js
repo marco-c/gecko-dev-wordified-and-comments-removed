@@ -371,7 +371,7 @@ aEvent
 aPacket
 )
 {
-do_check_neq
+do_check_eq
 (
 aPacket
 .
@@ -379,8 +379,10 @@ frame
 .
 where
 .
+source
+.
 url
-BLACK_BOXED_URL
+SOURCE_URL
 "
 We
 shouldn
