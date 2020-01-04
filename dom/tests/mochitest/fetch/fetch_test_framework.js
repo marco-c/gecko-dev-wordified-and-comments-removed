@@ -52,16 +52,6 @@ set
 "
 dom
 .
-requestcache
-.
-enabled
-"
-true
-]
-[
-"
-dom
-.
 requestcontext
 .
 enabled
