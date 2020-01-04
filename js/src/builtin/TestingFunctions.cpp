@@ -1431,7 +1431,7 @@ vp
 )
 ;
 bool
-compartment
+zone
 =
 false
 ;
@@ -1476,10 +1476,10 @@ toString
 (
 )
 "
-compartment
+zone
 "
 &
-compartment
+zone
 )
 )
 return
@@ -1514,7 +1514,7 @@ zone
 )
 )
 ;
-compartment
+zone
 =
 true
 ;
@@ -1603,7 +1603,7 @@ gcBytes
 endif
 if
 (
-compartment
+zone
 )
 PrepareForDebugGC
 (
@@ -20623,7 +20623,7 @@ obj
 ]
 |
 '
-compartment
+zone
 '
 [
 '
@@ -20645,7 +20645,7 @@ given
 GC
 only
 its
-compartment
+zone
 .
 \
 n
@@ -20653,13 +20653,13 @@ n
 "
 If
 '
-compartment
+zone
 '
 is
 given
 GC
 any
-compartments
+zones
 that
 were
 scheduled
@@ -22073,7 +22073,7 @@ of
 obj
 '
 s
-compartment
+zone
 .
 \
 n

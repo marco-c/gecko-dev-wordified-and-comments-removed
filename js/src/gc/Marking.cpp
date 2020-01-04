@@ -10709,7 +10709,7 @@ case
 JSGC_MODE_GLOBAL
 :
 case
-JSGC_MODE_COMPARTMENT
+JSGC_MODE_ZONE
 :
 baseCapacity_
 =

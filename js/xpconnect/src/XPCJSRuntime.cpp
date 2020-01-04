@@ -3127,7 +3127,7 @@ fop
 JSFinalizeStatus
 status
 bool
-isCompartmentGC
+isZoneGC
 void
 *
 data
@@ -3458,7 +3458,7 @@ bool
 doSweep
 =
 !
-isCompartmentGC
+isZoneGC
 ;
 if
 (
@@ -16261,7 +16261,7 @@ sample
 break
 ;
 case
-JS_TELEMETRY_GC_IS_COMPARTMENTAL
+JS_TELEMETRY_GC_IS_ZONE_GC
 :
 Telemetry
 :

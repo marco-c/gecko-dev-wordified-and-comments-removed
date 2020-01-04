@@ -82,7 +82,7 @@ MOZ_RELEASE_ASSERT
 (
 desc
 .
-isCompartment_
+isZone_
 =
 =
 false

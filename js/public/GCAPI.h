@@ -65,7 +65,7 @@ JSGCMode
 JSGC_MODE_GLOBAL
 =
 0
-JSGC_MODE_COMPARTMENT
+JSGC_MODE_ZONE
 =
 1
 JSGC_MODE_INCREMENTAL
@@ -747,7 +747,7 @@ GCDescription
 )
 {
 bool
-isCompartment_
+isZone_
 ;
 JSGCInvocationKind
 invocationKind_
@@ -761,7 +761,7 @@ reason_
 GCDescription
 (
 bool
-isCompartment
+isZone
 JSGCInvocationKind
 kind
 gcreason
@@ -771,9 +771,9 @@ Reason
 reason
 )
 :
-isCompartment_
+isZone_
 (
-isCompartment
+isZone
 )
 invocationKind_
 (

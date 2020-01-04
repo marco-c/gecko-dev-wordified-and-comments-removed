@@ -31,7 +31,7 @@ BufferSize
 ;
 static
 bool
-IsCompartmentGCBuffer
+IsZoneGCBuffer
 [
 BufferSize
 ]
@@ -85,7 +85,7 @@ checkFinalizeStatus
 ;
 CHECK
 (
-checkFinalizeIsCompartmentGC
+checkFinalizeIsZoneGC
 (
 false
 )
@@ -198,7 +198,7 @@ checkFinalizeStatus
 ;
 CHECK
 (
-checkFinalizeIsCompartmentGC
+checkFinalizeIsZoneGC
 (
 false
 )
@@ -317,7 +317,7 @@ checkFinalizeStatus
 ;
 CHECK
 (
-checkFinalizeIsCompartmentGC
+checkFinalizeIsZoneGC
 (
 true
 )
@@ -411,7 +411,7 @@ checkFinalizeStatus
 ;
 CHECK
 (
-checkFinalizeIsCompartmentGC
+checkFinalizeIsZoneGC
 (
 true
 )
@@ -535,7 +535,7 @@ checkFinalizeStatus
 ;
 CHECK
 (
-checkFinalizeIsCompartmentGC
+checkFinalizeIsZoneGC
 (
 true
 )
@@ -711,7 +711,7 @@ checkFinalizeStatus
 ;
 CHECK
 (
-checkFinalizeIsCompartmentGC
+checkFinalizeIsZoneGC
 (
 true
 )
@@ -920,7 +920,7 @@ i
 CHECK
 (
 !
-IsCompartmentGCBuffer
+IsZoneGCBuffer
 [
 i
 ]
@@ -928,7 +928,7 @@ i
 ;
 CHECK
 (
-IsCompartmentGCBuffer
+IsZoneGCBuffer
 [
 FinalizeCalls
 -
@@ -1183,10 +1183,10 @@ true
 ;
 }
 bool
-checkFinalizeIsCompartmentGC
+checkFinalizeIsZoneGC
 (
 bool
-isCompartmentGC
+isZoneGC
 )
 {
 for
@@ -1206,13 +1206,13 @@ i
 )
 CHECK
 (
-IsCompartmentGCBuffer
+IsZoneGCBuffer
 [
 i
 ]
 =
 =
-isCompartmentGC
+isZoneGC
 )
 ;
 return
@@ -1229,7 +1229,7 @@ fop
 JSFinalizeStatus
 status
 bool
-isCompartmentGC
+isZoneGC
 void
 *
 data
@@ -1249,12 +1249,12 @@ FinalizeCalls
 =
 status
 ;
-IsCompartmentGCBuffer
+IsZoneGCBuffer
 [
 FinalizeCalls
 ]
 =
-isCompartmentGC
+isZoneGC
 ;
 }
 +

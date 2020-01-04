@@ -2720,7 +2720,7 @@ fop
 JSFinalizeStatus
 status
 bool
-isCompartment
+isZoneGC
 void
 *
 data
