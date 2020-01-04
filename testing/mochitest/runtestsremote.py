@@ -56,7 +56,7 @@ mochitest_options
 import
 MochitestArgumentParser
 import
-devicemanager
+mozdevice
 import
 mozinfo
 SCRIPT_DIR
@@ -1141,7 +1141,7 @@ remoteModulesDir
 )
             
 except
-devicemanager
+mozdevice
 .
 DMError
 :
@@ -1259,7 +1259,7 @@ remoteProfile
 )
         
 except
-devicemanager
+mozdevice
 .
 DMError
 :
@@ -1503,7 +1503,7 @@ remoteProfile
 )
         
 except
-devicemanager
+mozdevice
 .
 DMError
 :
@@ -1841,7 +1841,7 @@ deviceRoot
 )
         
 except
-devicemanager
+mozdevice
 .
 DMError
 :
@@ -2573,7 +2573,7 @@ options
 )
         
 except
-devicemanager
+mozdevice
 .
 DMError
 :
