@@ -345,6 +345,13 @@ cpp
 '
 gonk
 /
+SystemService
+.
+cpp
+'
+'
+gonk
+/
 UeventPoller
 .
 cpp
@@ -863,6 +870,13 @@ cpp
 fallback
 /
 FallbackSwitch
+.
+cpp
+'
+'
+fallback
+/
+FallbackSystemService
 .
 cpp
 '
