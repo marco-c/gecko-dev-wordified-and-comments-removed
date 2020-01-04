@@ -304,11 +304,6 @@ FetchDriver
 )
 ;
 nsresult
-ContinueFetch
-(
-)
-;
-nsresult
 HttpFetch
 (
 )
