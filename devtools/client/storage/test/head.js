@@ -843,6 +843,8 @@ of
 windows
 )
 {
+try
+{
 win
 .
 localStorage
@@ -859,6 +861,13 @@ clear
 (
 )
 ;
+}
+catch
+(
+ex
+)
+{
+}
 if
 (
 win
