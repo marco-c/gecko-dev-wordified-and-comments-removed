@@ -197,6 +197,11 @@ aName
 )
 const
 {
+if
+(
+mAppInfo
+)
+{
 nsAutoCString
 cname
 ;
@@ -215,6 +220,7 @@ aName
 )
 ;
 }
+}
 void
 AppVersion
 (
@@ -223,6 +229,11 @@ nsAString
 aVersion
 )
 const
+{
+if
+(
+mAppInfo
+)
 {
 nsAutoCString
 cversion
@@ -241,6 +252,7 @@ cversion
 aVersion
 )
 ;
+}
 }
 void
 PlatformName
@@ -270,6 +282,11 @@ aVersion
 )
 const
 {
+if
+(
+mAppInfo
+)
+{
 nsAutoCString
 cversion
 ;
@@ -287,6 +304,7 @@ cversion
 aVersion
 )
 ;
+}
 }
 protected
 :
