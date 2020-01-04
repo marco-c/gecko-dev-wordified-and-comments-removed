@@ -4552,7 +4552,7 @@ globalScope
 =
 nullptr
 ;
-UNWRAP_WORKER_OBJECT
+UNWRAP_OBJECT
 (
 WorkerGlobalScope
 global

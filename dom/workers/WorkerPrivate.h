@@ -232,6 +232,12 @@ MessagePortIdentifier
 class
 StructuredCloneHolder
 ;
+class
+WorkerDebuggerGlobalScope
+;
+class
+WorkerGlobalScope
+;
 }
 namespace
 ipc
@@ -265,12 +271,6 @@ WorkerControlRunnable
 ;
 class
 WorkerDebugger
-;
-class
-WorkerDebuggerGlobalScope
-;
-class
-WorkerGlobalScope
 ;
 class
 WorkerPrivate

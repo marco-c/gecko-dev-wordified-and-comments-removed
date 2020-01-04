@@ -380,7 +380,6 @@ ipc
 :
 PrincipalInfo
 ;
-BEGIN_WORKERS_NAMESPACE
 WorkerGlobalScope
 :
 :
@@ -2336,7 +2335,7 @@ inCertifiedApp
 )
 ;
 return
-DedicatedWorkerGlobalScopeBinding_workers
+DedicatedWorkerGlobalScopeBinding
 :
 :
 Wrap
@@ -2486,7 +2485,7 @@ options
 )
 ;
 return
-SharedWorkerGlobalScopeBinding_workers
+SharedWorkerGlobalScopeBinding
 :
 :
 Wrap
@@ -2616,7 +2615,7 @@ options
 )
 ;
 return
-ServiceWorkerGlobalScopeBinding_workers
+ServiceWorkerGlobalScopeBinding
 :
 :
 Wrap
@@ -4079,6 +4078,7 @@ aString
 ;
 }
 }
+BEGIN_WORKERS_NAMESPACE
 bool
 IsWorkerGlobal
 (
@@ -4096,7 +4096,7 @@ nullptr
 return
 NS_SUCCEEDED
 (
-UNWRAP_WORKER_OBJECT
+UNWRAP_OBJECT
 (
 WorkerGlobalScope
 object

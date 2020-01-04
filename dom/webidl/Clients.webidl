@@ -181,9 +181,6 @@ mozilla
 dom
 :
 :
-workers
-:
-:
 ServiceWorkerGlobalScope
 :
 :

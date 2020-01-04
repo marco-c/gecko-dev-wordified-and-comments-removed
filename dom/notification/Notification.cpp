@@ -4079,7 +4079,7 @@ scope
 =
 nullptr
 ;
-UNWRAP_WORKER_OBJECT
+UNWRAP_OBJECT
 (
 ServiceWorkerGlobalScope
 aGlobal
