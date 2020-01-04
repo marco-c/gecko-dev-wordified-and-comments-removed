@@ -1533,6 +1533,8 @@ query_harness_args
 (
 self
 extra_harness_config_options
+=
+None
 )
 :
         
