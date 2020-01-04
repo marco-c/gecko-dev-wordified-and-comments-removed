@@ -11925,7 +11925,7 @@ sharedActions
 UpdateRoomInfo
 (
 {
-description
+roomDescription
 :
 "
 fakeDescription
@@ -11945,7 +11945,7 @@ roomUrl
 fakeRoomData
 .
 roomUrl
-urls
+roomContextUrls
 :
 {
 fake

@@ -3941,7 +3941,7 @@ http
 /
 showcase
 "
-urls
+roomContextUrls
 :
 [
 {

@@ -1856,7 +1856,7 @@ http
 /
 showcase
 "
-urls
+roomContextUrls
 :
 [
 {

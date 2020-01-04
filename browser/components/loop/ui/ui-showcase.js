@@ -1302,7 +1302,7 @@ http
 /
 showcase
 "
-urls
+roomContextUrls
 :
 [
 {
