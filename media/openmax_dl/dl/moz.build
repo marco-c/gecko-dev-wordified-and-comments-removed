@@ -604,6 +604,15 @@ sp
 /
 src
 /
+omxSP_FFTInv_CCSToR_F32_Sfs_unscaled_s
+.
+S
+'
+'
+sp
+/
+src
+/
 omxSP_FFTInv_CCSToR_S32_Sfs_s
 .
 S

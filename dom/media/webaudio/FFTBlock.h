@@ -456,7 +456,7 @@ supports_neon
 )
 )
 {
-omxSP_FFTInv_CCSToR_F32_Sfs
+omxSP_FFTInv_CCSToR_F32_Sfs_unscaled
 (
 mOutputBuffer
 .
@@ -468,13 +468,6 @@ Elements
 f
 aDataOut
 mOmxIFFT
-)
-;
-AudioBufferInPlaceScale
-(
-aDataOut
-mFFTSize
-mFFTSize
 )
 ;
 }
