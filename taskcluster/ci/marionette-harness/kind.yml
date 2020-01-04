@@ -256,15 +256,7 @@ scripts
 marionette_harness_tests
 .
 py
-\
-n
 "
-#
-NOTE
-:
-remove
-trailing
-newline
 TOOLS_DISABLE
 :
 "
