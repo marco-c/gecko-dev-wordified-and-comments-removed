@@ -654,7 +654,7 @@ HTMLImageElement
 Sizes
 sizes
 )
-NS_IMPL_STRING_ATTR
+NS_IMPL_URI_ATTR
 (
 HTMLImageElement
 Lowsrc
