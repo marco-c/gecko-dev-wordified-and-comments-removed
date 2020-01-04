@@ -157,15 +157,9 @@ script
 type
 =
 "
-application
+text
 /
 javascript
-;
-version
-=
-1
-.
-8
 "
 >
 "
@@ -178,10 +172,12 @@ backgroundScript
 (
 )
 {
-var
+let
 detected_invalid_connect_params
 =
 0
+;
+let
 received_ports_number
 =
 0
@@ -266,7 +262,7 @@ expected_received_ports_number
 function
 assertInvalidConnectParamsException
 (
-e
+params
 )
 {
 try
@@ -421,7 +417,6 @@ params
 ;
 }
 }
-;
 browser
 .
 runtime
@@ -435,7 +430,7 @@ countReceivedPorts
 ;
 for
 (
-var
+let
 params
 of
 invalid_connect_params

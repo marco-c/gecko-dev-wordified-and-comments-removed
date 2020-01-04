@@ -157,17 +157,16 @@ script
 type
 =
 "
-application
+text
 /
 javascript
-;
-version
-=
-1
-.
-8
 "
 >
+"
+use
+strict
+"
+;
 function
 backgroundScript
 (
@@ -320,7 +319,7 @@ expected
 {
 for
 (
-var
+let
 key
 of
 Object
@@ -408,7 +407,7 @@ found
 )
 ;
 }
-var
+let
 TEST_URL
 =
 "
@@ -422,7 +421,7 @@ org
 /
 "
 ;
-var
+let
 THE_FUTURE
 =
 Date
@@ -435,7 +434,7 @@ now
 *
 60
 ;
-var
+let
 expected
 =
 {
@@ -562,6 +561,7 @@ org
 "
 }
 )
+;
 }
 )
 .

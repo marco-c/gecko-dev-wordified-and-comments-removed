@@ -159,17 +159,16 @@ script
 type
 =
 "
-application
+text
 /
 javascript
-;
-version
-=
-1
-.
-8
 "
 >
+"
+use
+strict
+"
+;
 add_task
 (
 function
@@ -196,7 +195,7 @@ function
 (
 )
 {
-var
+let
 expectedValues
 =
 {
@@ -216,7 +215,7 @@ outerHeight
 ;
 for
 (
-var
+let
 k
 in
 window
@@ -258,9 +257,11 @@ property
 k
 }
 )
+;
 }
 else
 {
+void
 window
 [
 k
@@ -291,6 +292,7 @@ property
 k
 }
 )
+;
 }
 }
 browser
@@ -307,6 +309,7 @@ testWindowProperties
 done
 "
 )
+;
 }
 +
 "
@@ -354,6 +357,7 @@ testWindowProperties
 done
 "
 )
+;
 yield
 extension
 .

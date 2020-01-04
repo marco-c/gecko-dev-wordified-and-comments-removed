@@ -159,15 +159,9 @@ script
 type
 =
 "
-application
+text
 /
 javascript
-;
-version
-=
-1
-.
-8
 "
 >
 "
@@ -736,7 +730,7 @@ test
 mochitest
 "
 ;
-var
+let
 savedTabId
 =
 -
@@ -748,7 +742,7 @@ checkType
 details
 )
 {
-var
+let
 expected_type
 =
 "
@@ -931,7 +925,7 @@ correct
 )
 ;
 }
-var
+let
 frameIDs
 =
 new
@@ -939,7 +933,7 @@ Map
 (
 )
 ;
-var
+let
 recorded
 =
 {
@@ -975,7 +969,7 @@ checkResourceType
 type
 )
 {
-var
+let
 key
 =
 type
@@ -1364,7 +1358,7 @@ checkType
 details
 )
 ;
-var
+let
 id
 =
 frameIDs
@@ -1523,7 +1517,7 @@ checkType
 details
 )
 ;
-var
+let
 id
 =
 frameIDs
@@ -1973,13 +1967,13 @@ loaded
 ;
 for
 (
-var
+let
 key
 in
 resourceTypes
 )
 {
-var
+let
 value
 =
 resourceTypes
@@ -2096,7 +2090,7 @@ the
 way
 otherwise
 .
-var
+let
 imgTools
 =
 SpecialPowers
@@ -2125,7 +2119,7 @@ Ci
 imgITools
 )
 ;
-var
+let
 cache
 =
 imgTools
