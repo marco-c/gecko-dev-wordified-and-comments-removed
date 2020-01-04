@@ -2840,7 +2840,7 @@ worker
 /
 getregistrations
 .
-sub
+https
 .
 html
 "
@@ -2862,7 +2862,7 @@ worker
 /
 getregistrations
 .
-sub
+https
 .
 html
 "
@@ -2884,7 +2884,7 @@ worker
 /
 getregistrations
 .
-sub
+https
 .
 html
 "
