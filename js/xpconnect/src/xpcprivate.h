@@ -1354,6 +1354,7 @@ mStrings
 ;
 class
 XPCJSRuntime
+final
 :
 public
 mozilla
@@ -2390,6 +2391,7 @@ XPCIncrementalReleaseRunnable
 class
 MOZ_STACK_CLASS
 XPCCallContext
+final
 :
 public
 nsAXPCNativeCallContext
@@ -3157,6 +3159,7 @@ nsXPCComponentsBase
 ;
 class
 XPCWrappedNativeScope
+final
 :
 public
 PRCList
@@ -4124,6 +4127,7 @@ XPC_FUNCTION_PARENT_OBJECT_SLOT
 1
 class
 XPCNativeMember
+final
 {
 public
 :
@@ -4525,6 +4529,7 @@ JS_HAZ_NON_GC_POINTER
 ;
 class
 XPCNativeInterface
+final
 {
 public
 :
@@ -4881,6 +4886,7 @@ mMembers
 ;
 class
 XPCNativeSetKey
+final
 {
 public
 :
@@ -4999,6 +5005,7 @@ mAddition
 ;
 class
 XPCNativeSet
+final
 {
 public
 :
@@ -5463,6 +5470,7 @@ is
 set
 class
 XPCNativeScriptableFlags
+final
 {
 private
 :
@@ -5809,6 +5817,7 @@ GET_IT
 ;
 class
 XPCNativeScriptableShared
+final
 {
 public
 :
@@ -5964,6 +5973,7 @@ mJSClass
 ;
 class
 XPCNativeScriptableInfo
+final
 {
 public
 :
@@ -6193,6 +6203,7 @@ mShared
 class
 MOZ_STACK_CLASS
 XPCNativeScriptableCreateInfo
+final
 {
 public
 :
@@ -6325,6 +6336,7 @@ mFlags
 ;
 class
 XPCWrappedNativeProto
+final
 {
 public
 :
@@ -6832,6 +6844,7 @@ mScriptableInfo
 ;
 class
 XPCWrappedNativeTearOff
+final
 {
 public
 :
@@ -9266,6 +9279,7 @@ mOuter
 ;
 class
 XPCJSObjectHolder
+final
 :
 public
 nsIXPConnectJSObjectHolder
