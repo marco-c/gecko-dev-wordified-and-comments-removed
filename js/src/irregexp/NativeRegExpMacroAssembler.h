@@ -136,6 +136,7 @@ backtrackStackBase
 class
 MOZ_STACK_CLASS
 NativeRegExpMacroAssembler
+final
 :
 public
 RegExpMacroAssembler
