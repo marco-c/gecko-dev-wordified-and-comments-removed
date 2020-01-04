@@ -21,6 +21,13 @@ Hal
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+dom
+;
 WindowOrientationObserver
 :
 :

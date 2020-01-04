@@ -935,6 +935,11 @@ FileList
 h
 '
 '
+FileReader
+.
+h
+'
+'
 FragmentOrElement
 .
 h
@@ -1255,6 +1260,11 @@ FileList
 cpp
 '
 '
+FileReader
+.
+cpp
+'
+'
 FragmentOrElement
 .
 cpp
@@ -1381,11 +1391,6 @@ cpp
 '
 '
 nsDOMClassInfo
-.
-cpp
-'
-'
-nsDOMFileReader
 .
 cpp
 '

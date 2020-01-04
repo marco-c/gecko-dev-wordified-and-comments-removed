@@ -405,7 +405,11 @@ h
 #
 include
 "
-nsDOMFileReader
+mozilla
+/
+dom
+/
+FileReader
 .
 h
 "
@@ -1757,7 +1761,7 @@ Init
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
-nsDOMFileReader
+FileReader
 Init
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
@@ -5156,7 +5160,7 @@ nsDOMSerializerConstructor
 kNS_FILEREADER_CID
 false
 nullptr
-nsDOMFileReaderConstructor
+FileReaderConstructor
 }
 {
 &
