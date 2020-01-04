@@ -3923,6 +3923,11 @@ MediaStreamEvent
 webidl
 '
 '
+MediaStreamTrackEvent
+.
+webidl
+'
+'
 MozCellBroadcastEvent
 .
 webidl
@@ -4120,11 +4125,6 @@ GENERATED_EVENTS_WEBIDL_FILES
 +
 =
 [
-'
-MediaStreamTrackEvent
-.
-webidl
-'
 '
 RTCDataChannelEvent
 .
