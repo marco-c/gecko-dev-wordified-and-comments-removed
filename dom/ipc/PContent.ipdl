@@ -1421,10 +1421,6 @@ parent
 opens
 PGMPService
 ;
-parent
-opens
-PVRManager
-;
 child
 opens
 PBackground
@@ -1945,6 +1941,16 @@ Endpoint
 PImageBridgeChild
 >
 bridge
+)
+;
+async
+InitVRManager
+(
+Endpoint
+<
+PVRManagerChild
+>
+endpoint
 )
 ;
 /
