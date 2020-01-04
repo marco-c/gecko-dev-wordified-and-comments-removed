@@ -96,12 +96,6 @@ class
 DOMMatrix
 ;
 class
-DOMPoint
-;
-class
-DOMPointInit
-;
-class
 DOMMatrixReadOnly
 :
 public
