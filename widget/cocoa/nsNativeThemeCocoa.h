@@ -601,7 +601,6 @@ const
 NSSize
 &
 aIconSize
-const
 NSString
 *
 aImageName
