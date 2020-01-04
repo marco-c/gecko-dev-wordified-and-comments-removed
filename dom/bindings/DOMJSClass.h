@@ -1323,6 +1323,9 @@ mBase
 DOMObjectType
 mType
 ;
+bool
+wantsInterfaceHasInstance
+;
 const
 prototypes
 :

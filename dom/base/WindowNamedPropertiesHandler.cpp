@@ -1226,6 +1226,7 @@ WindowProperties
 JSCLASS_IS_DOMIFACEANDPROTOJSCLASS
 )
 eNamedPropertiesObject
+false
 prototypes
 :
 :
