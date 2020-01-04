@@ -3385,6 +3385,17 @@ UnpackPDU
 DaemonSocketPDU
 &
 aPDU
+BluetoothHandsfreeWbsConfig
+&
+aOut
+)
+;
+nsresult
+UnpackPDU
+(
+DaemonSocketPDU
+&
+aPDU
 BluetoothHandsfreeVoiceRecognitionState
 &
 aOut
