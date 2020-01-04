@@ -224,7 +224,10 @@ BufferSource
 keyId
 )
 ;
-MediaKeyStatus
+[
+Throws
+]
+any
 get
 (
 BufferSource
