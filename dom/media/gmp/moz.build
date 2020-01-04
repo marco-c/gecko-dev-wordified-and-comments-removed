@@ -744,11 +744,15 @@ CONFIG
 OS_TARGET
 '
 ]
-=
-=
+in
+(
 '
 WINNT
 '
+'
+Darwin
+'
+)
 :
 DIRS
 +
