@@ -2432,12 +2432,6 @@ nsISupports
 >
 supports
 ;
-nsCOMPtr
-<
-nsIDOMHTMLElement
->
-beforeElement
-;
 if
 (
 NS_SUCCEEDED

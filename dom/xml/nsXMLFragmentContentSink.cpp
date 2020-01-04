@@ -684,15 +684,6 @@ bool
 aTerminated
 )
 {
-RefPtr
-<
-nsParserBase
->
-kungFuDeathGrip
-(
-mParser
-)
-;
 mParser
 =
 nullptr

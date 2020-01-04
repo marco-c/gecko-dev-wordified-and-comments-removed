@@ -13426,12 +13426,6 @@ return
 nullptr
 ;
 }
-nsCOMPtr
-<
-nsIRunnable
->
-r
-;
 if
 (
 IsFullPath

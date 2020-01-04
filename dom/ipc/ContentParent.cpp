@@ -5516,12 +5516,6 @@ HasOwnApp
 {
 RefPtr
 <
-TabParent
->
-tp
-;
-RefPtr
-<
 nsIContentParent
 >
 constructorSender

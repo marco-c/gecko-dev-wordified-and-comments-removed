@@ -14368,12 +14368,6 @@ nsAString
 aValue
 )
 {
-nsCOMPtr
-<
-nsIContent
->
-kungFuDeathGrip
-;
 mozAutoSubtreeModified
 subtree
 (

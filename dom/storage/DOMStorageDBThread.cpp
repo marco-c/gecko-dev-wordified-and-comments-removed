@@ -1826,12 +1826,6 @@ rv
 rv
 )
 ;
-nsCOMPtr
-<
-mozIStorageConnection
->
-connection
-;
 rv
 =
 service

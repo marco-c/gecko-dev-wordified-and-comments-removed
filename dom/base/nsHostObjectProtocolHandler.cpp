@@ -1049,12 +1049,6 @@ url
 owner
 specialDesc
 ;
-nsCOMPtr
-<
-nsIURI
->
-principalURI
-;
 uint64_t
 size
 =

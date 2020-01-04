@@ -914,12 +914,6 @@ return
 rv
 ;
 }
-nsCOMPtr
-<
-nsIFile
->
-file
-;
 rv
 =
 fileChannel

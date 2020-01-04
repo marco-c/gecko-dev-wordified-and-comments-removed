@@ -1693,12 +1693,6 @@ rv
 return
 rv
 ;
-nsCOMPtr
-<
-nsIOutputStream
->
-outstream
-;
 rv
 =
 NS_NewLocalFileOutputStream
