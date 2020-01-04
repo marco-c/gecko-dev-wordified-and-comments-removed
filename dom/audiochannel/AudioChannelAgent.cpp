@@ -1008,6 +1008,10 @@ this
 p
 "
 "
+audible
+=
+%
+d
 mute
 =
 %
@@ -1024,6 +1028,7 @@ d
 n
 "
 this
+aAudible
 config
 .
 mMuted
@@ -1184,11 +1189,16 @@ audible
 =
 %
 d
+reason
+=
+%
+d
 \
 n
 "
 this
 aAudible
+aReason
 )
 )
 ;
