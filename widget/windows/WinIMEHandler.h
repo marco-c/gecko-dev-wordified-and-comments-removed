@@ -214,8 +214,9 @@ endif
 private
 :
 static
-bool
-sPluginHasFocus
+nsWindow
+*
+sFocusedWindow
 ;
 static
 InputContextAction
@@ -223,6 +224,10 @@ InputContextAction
 :
 Cause
 sLastContextActionCause
+;
+static
+bool
+sPluginHasFocus
 ;
 #
 ifdef
