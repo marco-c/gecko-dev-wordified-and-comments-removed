@@ -79,6 +79,16 @@ uint8_t
 Assign
 (
 const
+nsACString
+&
+aString
+)
+;
+uint8_t
+*
+Assign
+(
+const
 SECItem
 *
 aItem
