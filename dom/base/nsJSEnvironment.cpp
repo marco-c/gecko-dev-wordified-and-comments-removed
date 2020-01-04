@@ -1757,13 +1757,13 @@ NS_IsMainThread
 )
 )
 ;
-JSContext
+JS
+:
+:
+RootingContext
 *
 rootingCx
 =
-nsContentUtils
-:
-:
 RootingCx
 (
 )

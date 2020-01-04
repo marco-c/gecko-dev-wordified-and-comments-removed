@@ -2053,9 +2053,6 @@ ErrorEventInit
 >
 init
 (
-nsContentUtils
-:
-:
 RootingCx
 (
 )

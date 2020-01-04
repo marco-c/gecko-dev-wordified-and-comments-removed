@@ -398,13 +398,13 @@ nsIStkProactiveCmd
 aStkProactiveCmd
 )
 {
-JSContext
+JS
+:
+:
+RootingContext
 *
 cx
 =
-nsContentUtils
-:
-:
 RootingCx
 (
 )

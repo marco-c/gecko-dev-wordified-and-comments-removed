@@ -297,9 +297,6 @@ JSObject
 >
 global
 (
-nsContentUtils
-:
-:
 RootingCx
 (
 )

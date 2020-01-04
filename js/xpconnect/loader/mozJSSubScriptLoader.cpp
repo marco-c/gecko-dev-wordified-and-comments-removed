@@ -1839,9 +1839,6 @@ retval
 RootedObject
 target_obj
 (
-nsContentUtils
-:
-:
 RootingCx
 (
 )

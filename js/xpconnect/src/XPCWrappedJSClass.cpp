@@ -2389,9 +2389,6 @@ wrapper
 RootedObject
 obj
 (
-nsContentUtils
-:
-:
 RootingCx
 (
 )

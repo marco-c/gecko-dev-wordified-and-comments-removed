@@ -10767,13 +10767,13 @@ body
 )
 ;
 }
-JSContext
+JS
+:
+:
+RootingContext
 *
 rootingCx
 =
-nsContentUtils
-:
-:
 RootingCx
 (
 )

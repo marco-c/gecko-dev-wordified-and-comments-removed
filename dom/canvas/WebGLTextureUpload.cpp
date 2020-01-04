@@ -1998,7 +1998,7 @@ Uint8ClampedArray
 >
 scopedArr
 (
-nsContentUtils
+dom
 :
 :
 RootingCx
