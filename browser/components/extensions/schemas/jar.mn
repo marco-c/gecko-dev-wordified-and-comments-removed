@@ -63,6 +63,15 @@ browser
 /
 schemas
 /
+bookmarks
+.
+json
+content
+/
+browser
+/
+schemas
+/
 tabs
 .
 json
