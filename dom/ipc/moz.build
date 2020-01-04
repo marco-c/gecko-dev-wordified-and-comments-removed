@@ -90,6 +90,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsIBrowser
+.
+idl
+'
+'
 nsIHangReport
 .
 idl

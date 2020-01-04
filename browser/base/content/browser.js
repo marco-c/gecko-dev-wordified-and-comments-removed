@@ -12097,6 +12097,11 @@ inBackground
 :
 false
 forceNotRemote
+relatedBrowser
+:
+args
+.
+browser
 }
 )
 ;
@@ -17507,6 +17512,9 @@ inBackground
 :
 false
 forceNotRemote
+relatedBrowser
+:
+browser
 }
 )
 ;
