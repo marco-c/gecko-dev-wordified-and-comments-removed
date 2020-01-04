@@ -282,6 +282,10 @@ nsBaseChannel
 NS_ReleaseOnMainThread
 (
 mLoadInfo
+.
+forget
+(
+)
 )
 ;
 }

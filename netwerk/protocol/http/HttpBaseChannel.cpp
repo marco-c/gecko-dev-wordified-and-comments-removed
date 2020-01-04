@@ -624,6 +624,10 @@ this
 NS_ReleaseOnMainThread
 (
 mLoadInfo
+.
+forget
+(
+)
 )
 ;
 CleanRedirectCacheChainIfNecessary

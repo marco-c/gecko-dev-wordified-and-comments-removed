@@ -11813,7 +11813,10 @@ else
 NS_ProxyRelease
 (
 target
+dont_AddRef
+(
 obj
+)
 )
 ;
 }
