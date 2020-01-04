@@ -10,7 +10,7 @@ tasks
 /
 tests
 /
-fx_unittest_base
+fx_desktop_unittest
 .
 yml
 '
@@ -47,7 +47,7 @@ chunks
 :
 total
 :
-2
+4
 suite
 :
 name

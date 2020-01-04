@@ -50,16 +50,12 @@ TC
 Linux64
 mochitest
 -
-gl
-M
-(
-gl
-)
+other
 '
 description
 :
 Mochitest
-webgl
+other
 run
 payload
 :
@@ -84,7 +80,7 @@ flavor
 :
 mochitest
 -
-gl
+other
 treeherder
 :
 groupName
@@ -98,7 +94,4 @@ tc
 M
 symbol
 :
-gl
-tier
-:
-2
+oth
