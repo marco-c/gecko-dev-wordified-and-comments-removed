@@ -8046,7 +8046,8 @@ enabledMessage
 "
 Restart
 with
-debugger
+developer
+tools
 open
 to
 view
