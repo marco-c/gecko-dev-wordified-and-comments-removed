@@ -191,6 +191,11 @@ setHorizontalScrollBarEnabled
 false
 )
 ;
+setFillViewport
+(
+true
+)
+;
 final
 Resources
 res
