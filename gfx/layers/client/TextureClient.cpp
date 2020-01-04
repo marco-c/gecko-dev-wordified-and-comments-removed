@@ -4584,6 +4584,9 @@ GetAsSurface
 (
 )
 {
+if
+(
+!
 Lock
 (
 OpenMode
@@ -4591,7 +4594,12 @@ OpenMode
 :
 OPEN_READ
 )
+)
+{
+return
+nullptr
 ;
+}
 RefPtr
 <
 gfx
@@ -4601,6 +4609,7 @@ DataSourceSurface
 >
 data
 ;
+{
 RefPtr
 <
 gfx
@@ -4649,6 +4658,7 @@ GetDataSurface
 (
 )
 ;
+}
 }
 }
 Unlock
