@@ -32,12 +32,6 @@ openAnimationInspectorNewUI
 (
 )
 ;
-yield
-waitForAllAnimationTargets
-(
-panel
-)
-;
 let
 timeline
 =

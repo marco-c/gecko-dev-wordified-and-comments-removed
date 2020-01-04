@@ -121,6 +121,7 @@ yield
 setStyle
 (
 animation
+panel
 "
 animationDuration
 "
@@ -136,6 +137,7 @@ yield
 setStyle
 (
 animation
+panel
 "
 animationIterationCount
 "
@@ -149,6 +151,7 @@ yield
 setStyle
 (
 animation
+panel
 "
 animationDelay
 "
@@ -335,6 +338,7 @@ function
 setStyle
 (
 animation
+panel
 name
 value
 isNewUI
@@ -405,6 +409,12 @@ value
 ;
 yield
 onAnimationChanged
+;
+yield
+waitForAllAnimationTargets
+(
+panel
+)
 ;
 if
 (

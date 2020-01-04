@@ -32,12 +32,6 @@ openAnimationInspectorNewUI
 (
 )
 ;
-yield
-waitForAllAnimationTargets
-(
-panel
-)
-;
 info
 (
 "
@@ -128,6 +122,7 @@ Delay
 \
 d
 .
+-
 ]
 +
 s
@@ -165,7 +160,7 @@ The
 tooltip
 shows
 the
-delay
+duration
 "
 )
 ;
