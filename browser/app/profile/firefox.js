@@ -6089,6 +6089,16 @@ flashBar
 pref
 (
 "
+findbar
+.
+highlightAll
+"
+true
+)
+;
+pref
+(
+"
 accessibility
 .
 loadedInLastSession
