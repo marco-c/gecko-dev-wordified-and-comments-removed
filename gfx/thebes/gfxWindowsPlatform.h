@@ -877,7 +877,7 @@ Atomic
 <
 size_t
 >
-sD3D11MemoryUsed
+sD3D11SharedTextures
 ;
 static
 mozilla
@@ -887,17 +887,7 @@ Atomic
 <
 size_t
 >
-sD3D9MemoryUsed
-;
-static
-mozilla
-:
-:
-Atomic
-<
-size_t
->
-sD3D9SharedTextureUsed
+sD3D9SharedTextures
 ;
 void
 GetDeviceInitData
