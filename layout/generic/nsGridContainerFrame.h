@@ -490,11 +490,6 @@ mCachedMinISize
 nscoord
 mCachedPrefISize
 ;
-bool
-mIsNormalFlowInCSSOrder
-:
-1
-;
 }
 ;
 #
