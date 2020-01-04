@@ -195,4 +195,16 @@ EGLNativeDisplayType
 3
 )
 #
+define
+LOCAL_WGL_ACCESS_READ_ONLY
+0x0000
+#
+define
+LOCAL_WGL_ACCESS_READ_WRITE
+0x0001
+#
+define
+LOCAL_WGL_ACCESS_WRITE_DISCARD
+0x0002
+#
 endif
