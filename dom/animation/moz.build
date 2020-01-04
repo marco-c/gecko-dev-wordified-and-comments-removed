@@ -192,6 +192,11 @@ PendingAnimationTracker
 .
 h
 '
+'
+PseudoElementHashEntry
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
