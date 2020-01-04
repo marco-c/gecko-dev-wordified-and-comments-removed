@@ -594,7 +594,6 @@ height
 35px
 "
 ;
-yield
 tooltip
 .
 setContent

@@ -350,7 +350,6 @@ content
 "
 )
 ;
-yield
 tooltip
 .
 setContent
