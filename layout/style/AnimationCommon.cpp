@@ -2282,11 +2282,6 @@ mHasPendingAnimationRestyle
 =
 true
 ;
-PostRestyleForAnimation
-(
-presContext
-)
-;
 }
 }
 void
