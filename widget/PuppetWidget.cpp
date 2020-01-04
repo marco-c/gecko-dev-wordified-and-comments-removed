@@ -3494,11 +3494,6 @@ mWantUpdates
 nsIMEUpdatePreference
 :
 :
-NOTIFY_SELECTION_CHANGE
-|
-nsIMEUpdatePreference
-:
-:
 NOTIFY_TEXT_CHANGE
 |
 nsIMEUpdatePreference
@@ -3753,14 +3748,6 @@ if
 (
 mIMEPreferenceOfParent
 .
-WantSelectionChange
-(
-)
-&
-&
-(
-mIMEPreferenceOfParent
-.
 WantChangesCausedByComposition
 (
 )
@@ -3772,7 +3759,6 @@ aIMENotification
 mSelectionChangeData
 .
 mCausedByComposition
-)
 )
 {
 mTabChild

@@ -301,6 +301,12 @@ aTextComposition
 const
 ;
 bool
+WasInitializedWithPlugin
+(
+)
+const
+;
+bool
 IsEditorHandlingEventForComposition
 (
 )
