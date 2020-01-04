@@ -123,8 +123,7 @@ nsISupports
 *
 *
 Ack
-status
-codes
+types
 reported
 when
 the
@@ -133,7 +132,6 @@ service
 acknowledges
 an
 incoming
-*
 message
 .
 *
@@ -324,7 +322,7 @@ WithData
 .
 *
 |
-status
+reason
 |
 is
 a
