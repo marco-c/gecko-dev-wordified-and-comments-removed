@@ -817,6 +817,14 @@ coverage
 -
 gcno
 #
+Mozharness
+naming
+MOZHARNESS_PACKAGE
+=
+mozharness
+.
+zip
+#
 Test
 package
 naming
