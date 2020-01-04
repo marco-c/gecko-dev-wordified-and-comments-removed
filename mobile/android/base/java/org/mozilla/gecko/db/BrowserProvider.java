@@ -5328,6 +5328,10 @@ final
 SuggestedSites
 suggestedSites
 =
+BrowserDB
+.
+from
+(
 GeckoProfile
 .
 get
@@ -5344,9 +5348,6 @@ BrowserContract
 PARAM_PROFILE
 )
 )
-.
-getDB
-(
 )
 .
 getSuggestedSites
@@ -5807,6 +5808,10 @@ final
 SuggestedSites
 suggestedSites
 =
+BrowserDB
+.
+from
+(
 GeckoProfile
 .
 get
@@ -5823,9 +5828,6 @@ BrowserContract
 PARAM_PROFILE
 )
 )
-.
-getDB
-(
 )
 .
 getSuggestedSites

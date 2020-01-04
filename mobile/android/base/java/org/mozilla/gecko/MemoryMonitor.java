@@ -1082,10 +1082,11 @@ DEFAULT_PROFILE
 }
 mDB
 =
-profile
+BrowserDB
 .
-getDB
+from
 (
+profile
 )
 ;
 }
