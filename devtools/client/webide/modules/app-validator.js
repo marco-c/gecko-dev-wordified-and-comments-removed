@@ -23,15 +23,7 @@ promise
 require
 (
 "
-devtools
-/
-shared
-/
-deprecated
--
-sync
--
-thenables
+promise
 "
 )
 ;
