@@ -294,6 +294,9 @@ args
 #
 endif
 class
+gfxASurface
+;
+class
 gfxPattern
 ;
 class

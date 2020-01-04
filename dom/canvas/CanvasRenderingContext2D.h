@@ -3518,6 +3518,12 @@ mIsCapturedFrameInvalid
 ;
 RefPtr
 <
+gfxASurface
+>
+mThebesSurface
+;
+RefPtr
+<
 mozilla
 :
 :

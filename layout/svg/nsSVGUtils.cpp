@@ -4224,7 +4224,7 @@ height
 if
 (
 !
-Factory
+gfxASurface
 :
 :
 CheckSurfaceSize
