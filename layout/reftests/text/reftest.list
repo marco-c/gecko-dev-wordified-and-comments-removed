@@ -764,6 +764,7 @@ space
 ref
 .
 html
+fails
 =
 =
 pre
@@ -782,6 +783,9 @@ wrap
 ref
 .
 html
+#
+bug
+1008019
 =
 =
 soft
