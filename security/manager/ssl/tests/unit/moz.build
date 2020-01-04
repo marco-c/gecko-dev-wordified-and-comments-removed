@@ -129,6 +129,9 @@ bad_certs
 ocsp_certs
 '
 '
+test_baseline_requirements
+'
+'
 test_cert_eku
 '
 '
