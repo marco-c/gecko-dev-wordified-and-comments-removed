@@ -2521,7 +2521,7 @@ if
 aBuilder
 -
 >
-IsForImageVisibility
+IsForFrameVisibility
 (
 )
 )
@@ -2529,7 +2529,7 @@ IsForImageVisibility
 presShell
 -
 >
-RebuildImageVisibilityDisplayList
+RebuildApproximateFrameVisibilityDisplayList
 (
 childItems
 )

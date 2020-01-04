@@ -791,7 +791,7 @@ aAllowCreateDisplayPort
 ;
 virtual
 void
-NotifyImageVisibilityUpdate
+NotifyApproximateFrameVisibilityUpdate
 (
 )
 =
@@ -799,7 +799,7 @@ NotifyImageVisibilityUpdate
 ;
 virtual
 bool
-GetDisplayPortAtLastImageVisibilityUpdate
+GetDisplayPortAtLastApproximateFrameVisibilityUpdate
 (
 nsRect
 *

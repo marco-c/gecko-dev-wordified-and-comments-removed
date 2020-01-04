@@ -4092,7 +4092,7 @@ IsForEventDelivery
 aBuilder
 -
 >
-IsForImageVisibility
+IsForFrameVisibility
 (
 )
 )

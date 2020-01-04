@@ -6823,7 +6823,7 @@ pref
 "
 layout
 .
-imagevisibility
+framevisibility
 .
 numscrollportwidths
 "
@@ -6835,7 +6835,7 @@ pref
 "
 layout
 .
-imagevisibility
+framevisibility
 .
 numscrollportheights
 "

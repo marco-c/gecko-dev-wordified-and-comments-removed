@@ -7142,7 +7142,7 @@ false
 presShell
 -
 >
-ScheduleImageVisibilityUpdate
+ScheduleApproximateFrameVisibilityUpdateNow
 (
 )
 ;

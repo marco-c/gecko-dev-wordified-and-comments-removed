@@ -5103,15 +5103,6 @@ aImpreciseTargetDest
 )
 ;
 static
-void
-UpdateImageVisibilityForFrame
-(
-nsIFrame
-*
-aImageFrame
-)
-;
-static
 bool
 GetContentViewerSize
 (

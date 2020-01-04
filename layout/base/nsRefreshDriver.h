@@ -625,6 +625,16 @@ aDocument
 )
 ;
 void
+ScheduleFrameVisibilityUpdate
+(
+)
+{
+mNeedToRecomputeVisibility
+=
+true
+;
+}
+void
 Disconnect
 (
 )
