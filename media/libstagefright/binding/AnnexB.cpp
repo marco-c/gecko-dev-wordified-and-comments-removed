@@ -1077,7 +1077,7 @@ aSample
 )
 {
 return
-false
+true
 ;
 }
 mozilla
@@ -1189,12 +1189,6 @@ MediaByteBuffer
 ;
 if
 (
-IsAVCC
-(
-aSample
-)
-&
-&
 HasSPS
 (
 aSample
