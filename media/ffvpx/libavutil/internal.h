@@ -1092,7 +1092,7 @@ _VC_CRT_MAJOR_VERSION
 &
 _VC_CRT_MAJOR_VERSION
 <
-12
+14
 #
 pragma
 comment
