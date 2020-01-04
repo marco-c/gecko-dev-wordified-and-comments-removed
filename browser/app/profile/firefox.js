@@ -539,7 +539,7 @@ https
 :
 /
 /
-services
+discovery
 .
 addons
 .
