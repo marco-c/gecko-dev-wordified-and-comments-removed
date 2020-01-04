@@ -115,7 +115,6 @@ overrides
 of
 generic
 strings
-*
 locale
 /
 AB_CD
@@ -157,7 +156,6 @@ locale
 netError
 .
 dtd
-*
 locale
 /
 AB_CD
@@ -199,7 +197,6 @@ locale
 appstrings
 .
 properties
-*
 locale
 /
 AB_CD

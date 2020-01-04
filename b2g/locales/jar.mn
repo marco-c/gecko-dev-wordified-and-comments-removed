@@ -127,7 +127,6 @@ locale
 appstrings
 .
 properties
-*
 locale
 /
 AB_CD
@@ -149,7 +148,6 @@ aboutCertError
 .
 dtd
 )
-*
 locale
 /
 AB_CD
