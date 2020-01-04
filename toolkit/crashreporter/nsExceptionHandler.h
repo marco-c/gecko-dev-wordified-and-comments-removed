@@ -678,6 +678,11 @@ nsACString
 crashPipe
 )
 ;
+void
+InitChildProcessTmpDir
+(
+)
+;
 #
 elif
 defined
