@@ -43,6 +43,7 @@ WorkerThread
 {
 public
 :
+explicit
 WorkerThreadWin32
 (
 MultiThreadedTaskQueue
