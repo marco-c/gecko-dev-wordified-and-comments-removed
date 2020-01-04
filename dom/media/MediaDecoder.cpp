@@ -3892,8 +3892,9 @@ NS_NewRunnableFunction
 promise
 -
 >
-MaybeRejectWithUndefined
+MaybeReject
 (
+NS_ERROR_DOM_ABORT_ERR
 )
 ;
 }
