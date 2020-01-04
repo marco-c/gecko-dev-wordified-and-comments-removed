@@ -9454,6 +9454,15 @@ rv
 if
 (
 aElement
+&
+&
+!
+mDocument
+-
+>
+IsLoadedAsData
+(
+)
 )
 {
 RefPtr
