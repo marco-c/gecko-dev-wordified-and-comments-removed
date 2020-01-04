@@ -321,8 +321,6 @@ nsISupportsWeakReference
 ]
 )
 notify
-:
-function
 (
 formElement
 aWindow
@@ -400,8 +398,6 @@ true
 ;
 }
 onPrefChange
-:
-function
 (
 )
 {
@@ -542,6 +538,7 @@ Ci
 .
 nsIContentFrameMessageManager
 )
+;
 }
 var
 LoginManagerContent
@@ -599,8 +596,6 @@ __formFillService
 ;
 }
 _getRandomId
-:
-function
 (
 )
 {
@@ -675,8 +670,6 @@ Map
 (
 )
 _takeRequest
-:
-function
 (
 msg
 )
@@ -789,8 +782,6 @@ request
 ;
 }
 _sendRequest
-:
-function
 (
 messageManager
 requestData
@@ -916,8 +907,6 @@ promise
 ;
 }
 receiveMessage
-:
-function
 (
 msg
 window
@@ -1120,8 +1109,6 @@ break
 }
 }
 _getLoginDataFromParent
-:
-function
 (
 form
 options
@@ -1235,8 +1222,6 @@ messageData
 ;
 }
 _autoCompleteSearchAsync
-:
-function
 (
 aSearchString
 aPreviousResult
@@ -2382,8 +2367,6 @@ options
 ;
 }
 loginsFound
-:
-function
 (
 {
 form
@@ -2430,8 +2413,6 @@ recipes
 ;
 }
 onUsernameInput
-:
-function
 (
 event
 )
@@ -2823,8 +2804,6 @@ pwFields
 ;
 }
 _getFormFields
-:
-function
 (
 form
 isSubmission
@@ -3793,8 +3772,6 @@ opener
 ;
 }
 _fillForm
-:
-function
 (
 form
 autofillForm
@@ -5332,8 +5309,6 @@ matchCount
 :
 0
 getValueAt
-:
-function
 (
 index
 )
@@ -5379,8 +5354,6 @@ username
 ;
 }
 getLabelAt
-:
-function
 (
 index
 )
@@ -5395,8 +5368,6 @@ index
 ;
 }
 getCommentAt
-:
-function
 (
 index
 )
@@ -5407,8 +5378,6 @@ return
 ;
 }
 getStyleAt
-:
-function
 (
 index
 )
@@ -5419,8 +5388,6 @@ return
 ;
 }
 getImageAt
-:
-function
 (
 index
 )
@@ -5431,8 +5398,6 @@ return
 ;
 }
 getFinalCompleteValueAt
-:
-function
 (
 index
 )
@@ -5447,8 +5412,6 @@ index
 ;
 }
 removeValueAt
-:
-function
 (
 index
 removeFromDB
