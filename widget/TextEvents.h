@@ -1294,7 +1294,7 @@ NS_COMPOSITION_COMMIT
 mMessage
 =
 =
-NS_COMPOSITION_COMMIT_AS_IS
+eCompositionCommitAsIs
 ;
 }
 bool
@@ -1319,7 +1319,7 @@ NS_COMPOSITION_COMMIT
 mMessage
 =
 =
-NS_COMPOSITION_COMMIT_AS_IS
+eCompositionCommitAsIs
 ;
 }
 bool
@@ -1338,7 +1338,7 @@ NS_COMPOSITION_COMMIT
 mOriginalMessage
 =
 =
-NS_COMPOSITION_COMMIT_AS_IS
+eCompositionCommitAsIs
 ;
 }
 }

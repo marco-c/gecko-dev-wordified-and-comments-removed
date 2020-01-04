@@ -21415,7 +21415,7 @@ case
 NS_COMPOSITION_CHANGE
 :
 case
-NS_COMPOSITION_COMMIT_AS_IS
+eCompositionCommitAsIs
 :
 widgetGUIEvent
 =

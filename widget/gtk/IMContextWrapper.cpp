@@ -6271,7 +6271,7 @@ aCommitString
 ?
 NS_COMPOSITION_COMMIT
 :
-NS_COMPOSITION_COMMIT_AS_IS
+eCompositionCommitAsIs
 ;
 mCompositionState
 =

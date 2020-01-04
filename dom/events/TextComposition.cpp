@@ -1043,7 +1043,7 @@ aCompositionEvent
 mMessage
 =
 =
-NS_COMPOSITION_COMMIT_AS_IS
+eCompositionCommitAsIs
 )
 {
 NS_ASSERTION
@@ -1056,7 +1056,7 @@ mRanges
 "
 mRanges
 of
-NS_COMPOSITION_COMMIT_AS_IS
+eCompositionCommitAsIs
 should
 be
 null
@@ -1083,7 +1083,7 @@ IsEmpty
 "
 mData
 of
-NS_COMPOSITION_COMMIT_AS_IS
+eCompositionCommitAsIs
 should
 be
 empty
@@ -1229,7 +1229,7 @@ case
 NS_COMPOSITION_CHANGE
 :
 case
-NS_COMPOSITION_COMMIT_AS_IS
+eCompositionCommitAsIs
 :
 case
 NS_COMPOSITION_COMMIT
@@ -2003,7 +2003,7 @@ mLastData
 {
 DispatchCompositionEventRunnable
 (
-NS_COMPOSITION_COMMIT_AS_IS
+eCompositionCommitAsIs
 EmptyString
 (
 )
@@ -2545,7 +2545,7 @@ case
 NS_COMPOSITION_CHANGE
 :
 case
-NS_COMPOSITION_COMMIT_AS_IS
+eCompositionCommitAsIs
 :
 case
 NS_COMPOSITION_COMMIT
@@ -2564,7 +2564,7 @@ if
 mEventMessage
 !
 =
-NS_COMPOSITION_COMMIT_AS_IS
+eCompositionCommitAsIs
 )
 {
 compEvent

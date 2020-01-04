@@ -7547,7 +7547,7 @@ WidgetCompositionEvent
 compositionCommitEvent
 (
 true
-NS_COMPOSITION_COMMIT_AS_IS
+eCompositionCommitAsIs
 this
 )
 ;
@@ -8319,7 +8319,7 @@ WidgetCompositionEvent
 compositionCommitEvent
 (
 true
-NS_COMPOSITION_COMMIT_AS_IS
+eCompositionCommitAsIs
 this
 )
 ;
