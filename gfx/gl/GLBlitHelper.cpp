@@ -510,7 +510,7 @@ else
 \
 n
 \
-prevision
+precision
 mediump
 float
 ;
