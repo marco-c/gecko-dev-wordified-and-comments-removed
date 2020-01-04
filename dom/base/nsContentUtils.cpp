@@ -35979,7 +35979,7 @@ MozMouseHittest
 )
 msg
 =
-NS_MOUSE_MOZHITTEST
+eMouseHitTest
 ;
 else
 return

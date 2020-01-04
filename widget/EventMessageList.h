@@ -193,7 +193,7 @@ eMouseEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_MOUSE_MOZHITTEST
+eMouseHitTest
 eMouseEventFirst
 +
 33

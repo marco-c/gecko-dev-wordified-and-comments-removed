@@ -4836,7 +4836,7 @@ WidgetMouseEvent
 hittest
 (
 true
-NS_MOUSE_MOZHITTEST
+eMouseHitTest
 this
 WidgetMouseEvent
 :
