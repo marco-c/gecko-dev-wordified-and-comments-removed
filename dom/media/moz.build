@@ -570,6 +570,11 @@ FileBlockCache
 h
 '
 '
+FlacFrameParser
+.
+h
+'
+'
 FrameStatistics
 .
 h
@@ -1098,6 +1103,11 @@ cpp
 '
 '
 FileBlockCache
+.
+cpp
+'
+'
+FlacFrameParser
 .
 cpp
 '
