@@ -586,8 +586,10 @@ aRv
 void
 AppendError
 (
-bool
-aDecoderError
+const
+MediaResult
+&
+aDecodeError
 )
 ;
 already_AddRefed
@@ -620,7 +622,9 @@ aResult
 void
 AppendDataErrored
 (
-nsresult
+const
+MediaResult
+&
 aError
 )
 ;

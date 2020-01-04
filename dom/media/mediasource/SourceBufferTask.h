@@ -45,6 +45,13 @@ TimeUnits
 .
 h
 "
+#
+include
+"
+MediaResult
+.
+h
+"
 namespace
 mozilla
 {
@@ -82,7 +89,7 @@ typedef
 MozPromise
 <
 AppendBufferResult
-nsresult
+MediaResult
 true
 >
 AppendPromise
