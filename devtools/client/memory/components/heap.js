@@ -263,6 +263,9 @@ count
 ;
 return
 {
+autoExpandDepth
+:
+0
 getParent
 :
 node
