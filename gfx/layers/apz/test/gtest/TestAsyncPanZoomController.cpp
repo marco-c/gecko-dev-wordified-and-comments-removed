@@ -18137,7 +18137,7 @@ AdvanceAnimationsUntilEnd
 (
 )
 ;
-EXPECT_EQ
+ASSERT_NEAR
 (
 50
 childApzc
@@ -18152,6 +18152,7 @@ GetScrollOffset
 )
 .
 y
+COORDINATE_EPSILON
 )
 ;
 EXPECT_EQ
