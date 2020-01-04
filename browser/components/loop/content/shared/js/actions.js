@@ -520,9 +520,6 @@ define
 createRoom
 "
 {
-nameTemplate
-:
-String
 }
 )
 CreatedRoom
