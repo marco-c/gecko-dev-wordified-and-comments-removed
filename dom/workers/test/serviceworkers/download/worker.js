@@ -127,6 +127,15 @@ fake_download
 bin
 "
 '
+'
+Content
+-
+Encoding
+'
+:
+'
+gzip
+'
 }
 }
 )
