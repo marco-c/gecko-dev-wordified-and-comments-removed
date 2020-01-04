@@ -337,9 +337,7 @@ updateButton
 (
 tab
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 }
@@ -859,9 +857,7 @@ updateButton
 (
 tab
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 }

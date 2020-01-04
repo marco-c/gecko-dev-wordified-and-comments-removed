@@ -769,9 +769,7 @@ activeStreams
 .
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 focus
 (

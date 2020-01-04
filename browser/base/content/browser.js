@@ -23143,9 +23143,7 @@ tooltipWindow
 =
 tooltipNode
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 tooltipWindow
 !
@@ -31470,9 +31468,7 @@ if
 (
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 !
 =
 window

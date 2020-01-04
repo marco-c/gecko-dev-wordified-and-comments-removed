@@ -240,9 +240,7 @@ contextData
 .
 menu
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 extension

@@ -185,9 +185,7 @@ window
 =
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (

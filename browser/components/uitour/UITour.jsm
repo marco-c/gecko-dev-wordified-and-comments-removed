@@ -2191,9 +2191,7 @@ window
 =
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (
@@ -4224,9 +4222,7 @@ tabBrowser
 =
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 gBrowser
 ;
@@ -4420,9 +4416,7 @@ aEvent
 .
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (
@@ -5589,9 +5583,7 @@ targetStyle
 =
 aElement
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 getComputedStyle
 (
@@ -10274,9 +10266,7 @@ aEvent
 .
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 annotationElements
@@ -11669,9 +11659,7 @@ win
 =
 aPanelEl
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 observer
 =

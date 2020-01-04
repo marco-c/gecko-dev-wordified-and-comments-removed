@@ -206,9 +206,7 @@ win
 =
 el
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 display

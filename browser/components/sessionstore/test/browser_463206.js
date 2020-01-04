@@ -114,9 +114,7 @@ true
 true
 aTextField
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 0
 )
 ;

@@ -119,9 +119,7 @@ is
 (
 tab
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 window
 "
 Tab
@@ -284,9 +282,7 @@ gCurrentTest
 finish
 gBrowser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 }

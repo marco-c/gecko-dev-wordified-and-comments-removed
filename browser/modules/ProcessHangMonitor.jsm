@@ -1469,9 +1469,7 @@ event
 .
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (

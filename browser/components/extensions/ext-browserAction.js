@@ -662,9 +662,7 @@ updateWindow
 (
 tab
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 }
@@ -1189,9 +1187,7 @@ updateWindow
 (
 tab
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 }

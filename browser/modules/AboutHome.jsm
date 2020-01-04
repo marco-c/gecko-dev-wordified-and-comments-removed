@@ -516,9 +516,7 @@ aMessage
 .
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 switch
 (

@@ -385,9 +385,7 @@ event
 .
 target
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 window
 .

@@ -377,9 +377,7 @@ tabbrowser
 =
 tab
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 gBrowser
 ;

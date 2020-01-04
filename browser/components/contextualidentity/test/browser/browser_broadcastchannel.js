@@ -76,9 +76,7 @@ tab
 ;
 tab
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 focus
 (

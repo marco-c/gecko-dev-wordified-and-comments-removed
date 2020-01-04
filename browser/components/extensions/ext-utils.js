@@ -464,9 +464,7 @@ window
 =
 viewNode
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 this
 .
@@ -1809,9 +1807,7 @@ gBrowser
 =
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 gBrowser
 ;
@@ -2034,9 +2030,7 @@ window
 =
 tab
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 browser
@@ -2582,9 +2576,7 @@ gBrowser
 =
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 gBrowser
 ;

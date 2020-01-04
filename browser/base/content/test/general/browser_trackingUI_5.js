@@ -786,9 +786,7 @@ testTrackingPage
 (
 tab
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 info
@@ -1009,9 +1007,7 @@ testTrackingPage
 (
 tab
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 info

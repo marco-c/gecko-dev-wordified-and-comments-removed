@@ -72,9 +72,7 @@ window
 =
 aContainer
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 this
 .
@@ -175,9 +173,7 @@ window
 =
 aContainer
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 this
 .

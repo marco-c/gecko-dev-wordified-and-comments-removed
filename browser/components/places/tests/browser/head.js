@@ -638,9 +638,7 @@ aOptions
 }
 aTree
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 }

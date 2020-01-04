@@ -229,9 +229,7 @@ window
 =
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 tabPrompt
@@ -462,9 +460,7 @@ window
 =
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 try
 {

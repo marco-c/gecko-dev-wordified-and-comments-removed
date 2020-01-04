@@ -764,9 +764,7 @@ browserWindow
 =
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 tab
@@ -857,9 +855,7 @@ aActiveStream
 .
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 if
 (
@@ -3661,9 +3657,7 @@ chromeWin
 =
 aBrowser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 notification
@@ -5587,9 +5581,7 @@ chromeWin
 =
 aBrowser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 tabbrowser
@@ -6419,9 +6411,7 @@ win
 =
 aBrowser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 notification

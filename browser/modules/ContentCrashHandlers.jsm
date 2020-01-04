@@ -543,9 +543,7 @@ gBrowser
 =
 browser
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 .
 gBrowser
 ;

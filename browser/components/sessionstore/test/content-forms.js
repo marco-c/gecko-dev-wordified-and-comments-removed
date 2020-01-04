@@ -191,9 +191,7 @@ true
 true
 input
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 0
 )
 ;

@@ -7629,9 +7629,7 @@ if
 (
 aContainer
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 !
 =
 this
@@ -7712,9 +7710,7 @@ if
 (
 aContainer
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 !
 =
 this
@@ -10393,9 +10389,7 @@ window
 =
 dragOverItem
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 direction
@@ -11888,9 +11882,7 @@ mozSourceNode
 |
 mozSourceNode
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 !
 =
 this
@@ -11947,9 +11939,7 @@ window
 =
 aItem
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 ;
 let
 draggedItem
@@ -12227,9 +12217,7 @@ _updateToolbarCustomizationOutline
 (
 aItem
 .
-ownerDocument
-.
-defaultView
+ownerGlobal
 )
 ;
 let
