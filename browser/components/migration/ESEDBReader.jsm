@@ -1522,7 +1522,7 @@ logPath
 {
 log
 .
-error
+info
 (
 "
 Created
