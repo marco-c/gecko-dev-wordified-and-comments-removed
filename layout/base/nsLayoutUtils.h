@@ -5690,6 +5690,15 @@ nsIFrame
 aFrame
 )
 ;
+static
+bool
+SupportsServoStyleBackend
+(
+nsIDocument
+*
+aDocument
+)
+;
 private
 :
 static
