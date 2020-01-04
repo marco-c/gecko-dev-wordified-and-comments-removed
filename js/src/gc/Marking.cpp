@@ -1677,6 +1677,12 @@ ModuleObject
 \
 D
 (
+ModuleEnvironmentObject
+*
+)
+\
+D
+(
 NestedScopeObject
 *
 )
