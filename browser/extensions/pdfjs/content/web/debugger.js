@@ -3927,7 +3927,7 @@ parameter
 and
 refresh
 (
-seperate
+separate
 multiple
 by
 commas
