@@ -799,7 +799,7 @@ type
 =
 PanelType
 .
-HISTORY
+DEPRECATED_HISTORY
 )
 {
 historyIndex
@@ -2254,7 +2254,7 @@ historyType
 =
 PanelType
 .
-HISTORY
+COMBINED_HISTORY
 .
 toString
 (

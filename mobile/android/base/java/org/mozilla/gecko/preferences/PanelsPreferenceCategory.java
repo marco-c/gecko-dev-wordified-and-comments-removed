@@ -1171,7 +1171,7 @@ HomeConfig
 .
 PanelType
 .
-HISTORY
+COMBINED_HISTORY
 )
 .
 equals
