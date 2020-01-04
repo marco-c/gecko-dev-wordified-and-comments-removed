@@ -1295,7 +1295,12 @@ GetImportantRule
 const
 {
 return
-mImportantRule
+mDeclaration
+-
+>
+GetImportantStyleData
+(
+)
 ;
 }
 void
@@ -1435,12 +1440,6 @@ RefPtr
 Declaration
 >
 mDeclaration
-;
-RefPtr
-<
-ImportantStyleData
->
-mImportantRule
 ;
 RefPtr
 <
