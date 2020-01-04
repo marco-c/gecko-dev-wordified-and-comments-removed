@@ -775,7 +775,7 @@ uint32_t
 mAppId
 ;
 bool
-mInBrowser
+mInIsolatedMozBrowser
 ;
 nsCOMPtr
 <

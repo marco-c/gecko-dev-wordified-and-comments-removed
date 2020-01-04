@@ -13605,6 +13605,9 @@ aTabContext
 >
 SetTabContext
 (
+OwnerIsMozBrowserFrame
+(
+)
 ownApp
 containingApp
 attrs

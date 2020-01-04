@@ -492,7 +492,7 @@ if
 !
 popupContext
 .
-isBrowserElement
+isMozBrowserElement
 (
 )
 &
@@ -500,7 +500,7 @@ isBrowserElement
 opener
 -
 >
-IsBrowserElement
+IsMozBrowserElement
 (
 )
 )

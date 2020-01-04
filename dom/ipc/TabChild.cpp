@@ -2566,7 +2566,7 @@ aChromeFlags
 &
 aContext
 .
-IsBrowserOrApp
+IsMozBrowserOrApp
 (
 )
 )
@@ -4085,7 +4085,7 @@ docShell
 {
 if
 (
-IsBrowserElement
+IsMozBrowserElement
 (
 )
 )
@@ -4105,7 +4105,7 @@ docShell
 >
 SetIsInIsolatedMozBrowserElement
 (
-IsBrowserElement
+IsIsolatedMozBrowserElement
 (
 )
 )
@@ -6493,7 +6493,7 @@ docShell
 ;
 if
 (
-IsBrowserOrApp
+IsMozBrowserOrApp
 (
 )
 )
@@ -6651,7 +6651,7 @@ MaybeRequestPreinitCamera
 {
 if
 (
-IsBrowserElement
+IsIsolatedMozBrowserElement
 (
 )
 )
@@ -11132,7 +11132,7 @@ true
 ;
 if
 (
-IsBrowserOrApp
+IsMozBrowserOrApp
 (
 )
 )

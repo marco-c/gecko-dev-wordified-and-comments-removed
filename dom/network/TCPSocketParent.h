@@ -305,7 +305,7 @@ GetAppId
 override
 ;
 bool
-GetInBrowser
+GetInIsolatedMozBrowser
 (
 )
 ;

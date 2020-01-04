@@ -284,7 +284,7 @@ contextArray
 j
 ]
 .
-IsBrowserElement
+IsIsolatedMozBrowserElement
 (
 )
 =

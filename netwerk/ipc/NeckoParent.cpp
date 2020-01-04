@@ -773,7 +773,7 @@ mInIsolatedMozBrowser
 :
 tabContext
 .
-IsBrowserElement
+IsIsolatedMozBrowserElement
 (
 )
 ;
@@ -817,7 +817,7 @@ UsingNeckoIPCSecurity
 &
 tabContext
 .
-IsBrowserElement
+IsIsolatedMozBrowserElement
 (
 )
 )

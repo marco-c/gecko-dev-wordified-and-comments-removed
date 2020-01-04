@@ -3754,14 +3754,14 @@ openerTabId
 ;
 context
 .
-isBrowserElement
+isMozBrowserElement
 (
 )
 =
 aTabOpener
 -
 >
-IsBrowserElement
+IsMozBrowserElement
 (
 )
 ;

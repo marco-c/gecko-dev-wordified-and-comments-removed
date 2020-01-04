@@ -299,7 +299,7 @@ bool
 TCPServerSocketParent
 :
 :
-GetInBrowser
+GetInIsolatedMozBrowser
 (
 )
 {
@@ -350,7 +350,7 @@ return
 tab
 -
 >
-IsBrowserElement
+IsIsolatedMozBrowserElement
 (
 )
 ;
@@ -641,7 +641,7 @@ SetAppIdAndBrowser
 GetAppId
 (
 )
-GetInBrowser
+GetInIsolatedMozBrowser
 (
 )
 )

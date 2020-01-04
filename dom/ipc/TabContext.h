@@ -52,13 +52,19 @@ AsIPCTabContext
 const
 ;
 bool
-IsBrowserElement
+IsMozBrowserElement
 (
 )
 const
 ;
 bool
-IsBrowserOrApp
+IsIsolatedMozBrowserElement
+(
+)
+const
+;
+bool
+IsMozBrowserOrApp
 (
 )
 const
@@ -181,6 +187,8 @@ aContext
 bool
 SetTabContext
 (
+bool
+aIsMozBrowserElement
 mozIApplication
 *
 aOwnApp
@@ -201,6 +209,9 @@ private
 :
 bool
 mInitialized
+;
+bool
+mIsMozBrowserElement
 ;
 nsCOMPtr
 <
@@ -255,6 +266,8 @@ aContext
 bool
 SetTabContext
 (
+bool
+aIsMozBrowserElement
 mozIApplication
 *
 aOwnApp
@@ -281,6 +294,7 @@ TabContext
 :
 SetTabContext
 (
+aIsMozBrowserElement
 aOwnApp
 aAppFrameOwnerApp
 aOriginAttributes

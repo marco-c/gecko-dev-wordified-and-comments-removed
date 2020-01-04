@@ -382,7 +382,7 @@ bool
 TCPSocketParent
 :
 :
-GetInBrowser
+GetInIsolatedMozBrowser
 (
 )
 {
@@ -433,7 +433,7 @@ return
 tab
 -
 >
-IsBrowserElement
+IsIsolatedMozBrowserElement
 (
 )
 ;
@@ -717,9 +717,9 @@ GetAppId
 )
 ;
 bool
-inBrowser
+inIsolatedMozBrowser
 =
-GetInBrowser
+GetInIsolatedMozBrowser
 (
 )
 ;
@@ -774,7 +774,7 @@ mSocket
 SetAppIdAndBrowser
 (
 appId
-inBrowser
+inIsolatedMozBrowser
 )
 ;
 mSocket
@@ -1070,7 +1070,7 @@ nsIScriptSecurityManager
 NO_APP_ID
 ;
 bool
-inBrowser
+inIsolatedMozBrowser
 =
 false
 ;
@@ -1126,12 +1126,12 @@ OwnAppId
 (
 )
 ;
-inBrowser
+inIsolatedMozBrowser
 =
 tab
 -
 >
-IsBrowserElement
+IsIsolatedMozBrowserElement
 (
 )
 ;
@@ -1157,7 +1157,7 @@ mSocket
 SetAppIdAndBrowser
 (
 appId
-inBrowser
+inIsolatedMozBrowser
 )
 ;
 mSocket
