@@ -1173,12 +1173,6 @@ false
 ;
 if
 (
-!
-this
-.
-_inCustomizationMode
-&
-&
 userData
 )
 {
@@ -1436,12 +1430,6 @@ profile
 {
 if
 (
-!
-this
-.
-_inCustomizationMode
-&
-&
 profileInfoEnabled
 )
 {
