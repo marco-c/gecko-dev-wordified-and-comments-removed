@@ -107,7 +107,7 @@ NotifyStatusChanged
 bool
 mConnected
 ;
-nsString
+BluetoothAddress
 mDeviceAddress
 ;
 RefPtr

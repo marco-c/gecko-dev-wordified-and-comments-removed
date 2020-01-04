@@ -807,7 +807,7 @@ mNrecEnabled
 PhoneType
 mPhoneType
 ;
-nsString
+BluetoothAddress
 mDeviceAddress
 ;
 nsString

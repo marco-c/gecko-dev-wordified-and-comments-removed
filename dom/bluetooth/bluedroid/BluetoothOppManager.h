@@ -174,7 +174,7 @@ bool
 SendFile
 (
 const
-nsAString
+BluetoothAddress
 &
 aDeviceAddress
 BlobParent
@@ -186,7 +186,7 @@ bool
 SendFile
 (
 const
-nsAString
+BluetoothAddress
 &
 aDeviceAddress
 Blob
@@ -435,7 +435,7 @@ void
 AppendBlobToSend
 (
 const
-nsAString
+BluetoothAddress
 &
 aDeviceAddress
 Blob
@@ -457,7 +457,7 @@ void
 ConnectInternal
 (
 const
-nsAString
+BluetoothAddress
 &
 aDeviceAddress
 )
@@ -481,7 +481,7 @@ aMessage
 bool
 mConnected
 ;
-nsString
+BluetoothAddress
 mDeviceAddress
 ;
 uint8_t
