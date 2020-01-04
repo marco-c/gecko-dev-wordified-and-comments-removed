@@ -1692,8 +1692,17 @@ service
 )
 ;
 #
-ifdef
+if
+defined
+(
 ANDROID
+)
+|
+|
+defined
+(
+MOZ_MULET
+)
 mProductSub
 .
 AssignLiteral
@@ -4058,7 +4067,7 @@ Mobile
 endif
 #
 ifdef
-FXOS_SIMULATOR
+MOZ_MULET
 {
 nsCString
 deviceType
