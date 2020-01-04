@@ -24,6 +24,11 @@ PlatformDecoderModule
 .
 h
 "
+#
+include
+<
+deque
+>
 namespace
 mozilla
 {
@@ -132,7 +137,10 @@ bool
 >
 MediaDataAndInputExhausted
 ;
-nsTArray
+std
+:
+:
+deque
 <
 MediaDataAndInputExhausted
 >
