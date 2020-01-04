@@ -6408,6 +6408,24 @@ tests
 )
 :
         
+assert
+len
+(
+tests
+)
+>
+0
+        
+assert
+len
+(
+self
+.
+test_handlers
+)
+>
+0
+        
 self
 .
 reset_test_stats
