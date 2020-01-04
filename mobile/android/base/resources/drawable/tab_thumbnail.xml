@@ -174,7 +174,9 @@ android
 radius
 =
 "
-3dp
+dimen
+/
+standard_corner_radius
 "
 /
 >
@@ -244,7 +246,9 @@ android
 radius
 =
 "
-3dp
+dimen
+/
+standard_corner_radius
 "
 /
 >
@@ -314,7 +318,9 @@ android
 radius
 =
 "
-3dp
+dimen
+/
+standard_corner_radius
 "
 /
 >
@@ -377,7 +383,9 @@ android
 radius
 =
 "
-3dp
+dimen
+/
+standard_corner_radius
 "
 /
 >
@@ -428,7 +436,9 @@ android
 radius
 =
 "
-3dp
+dimen
+/
+standard_corner_radius
 "
 /
 >
@@ -508,7 +518,9 @@ android
 radius
 =
 "
-3dp
+dimen
+/
+standard_corner_radius
 "
 /
 >
@@ -581,7 +593,9 @@ android
 radius
 =
 "
-3dp
+dimen
+/
+standard_corner_radius
 "
 /
 >

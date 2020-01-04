@@ -135,7 +135,9 @@ android
 radius
 =
 "
-4dp
+dimen
+/
+standard_corner_radius
 "
 /
 >
@@ -173,7 +175,9 @@ android
 radius
 =
 "
-4dp
+dimen
+/
+standard_corner_radius
 "
 /
 >
