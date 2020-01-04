@@ -1,13 +1,6 @@
 #
 include
 "
-SmsMessage
-.
-h
-"
-#
-include
-"
 SmsService
 .
 h

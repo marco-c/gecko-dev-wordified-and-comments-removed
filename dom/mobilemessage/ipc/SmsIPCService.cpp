@@ -39,13 +39,6 @@ h
 #
 include
 "
-SmsMessage
-.
-h
-"
-#
-include
-"
 nsJSUtils
 .
 h
