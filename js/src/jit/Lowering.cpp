@@ -10146,15 +10146,6 @@ MIRType
 Int64
 )
 ;
-ReorderCommutative
-(
-&
-lhs
-&
-rhs
-ins
-)
-;
 LSubI64
 *
 lir

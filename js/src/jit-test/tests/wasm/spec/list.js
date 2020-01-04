@@ -167,6 +167,17 @@ specTests
 push
 (
 "
+switch
+.
+wast
+"
+)
+;
+specTests
+.
+push
+(
+"
 unreachable
 .
 wast
