@@ -1,4 +1,10 @@
-dnl
+#
+!
+/
+bin
+/
+sh
+#
 This
 Source
 Code
@@ -12,7 +18,7 @@ of
 the
 Mozilla
 Public
-dnl
+#
 License
 v
 .
@@ -31,7 +37,7 @@ not
 distributed
 with
 this
-dnl
+#
 file
 You
 can
@@ -53,8 +59,8 @@ MPL
 0
 /
 .
-dnl
-dnl
+#
+#
 Welcome
 to
 the
@@ -71,7 +77,7 @@ on
 moving
 to
 a
-dnl
+#
 python
 based
 configure
@@ -84,7 +90,7 @@ of
 the
 old
 autoconf
-dnl
+#
 based
 configure
 is
@@ -95,7 +101,7 @@ configure
 .
 in
 .
-dnl
+#
 If
 you
 need
@@ -109,13 +115,13 @@ to
 the
 build
 system
-dnl
+#
 peers
 for
 now
 .
-dnl
-dnl
+#
+#
 Because
 adding
 a
@@ -129,7 +135,7 @@ going
 to
 conflict
 with
-dnl
+#
 existing
 configure
 files
@@ -144,7 +150,7 @@ automation
 work
 trees
 and
-dnl
+#
 because
 some
 automation
@@ -155,7 +161,7 @@ running
 autoconf
 and
 configure
-dnl
+#
 "
 manually
 "
@@ -170,7 +176,7 @@ that
 is
 processed
 by
-dnl
+#
 autoconf
 but
 doesn
@@ -184,7 +190,7 @@ macros
 The
 divert
 line
-dnl
+#
 below
 ensures
 the
@@ -196,11 +202,14 @@ output
 by
 autoconf
 .
+:
+"
 divert
 (
 0
 )
 dnl
+"
 #
 !
 /
