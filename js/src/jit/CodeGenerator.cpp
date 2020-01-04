@@ -51537,9 +51537,6 @@ isRecompiling
 )
 )
 ;
-if
-(
-!
 Invalidate
 (
 cx
@@ -51547,9 +51544,6 @@ script
 false
 false
 )
-)
-return
-false
 ;
 }
 if

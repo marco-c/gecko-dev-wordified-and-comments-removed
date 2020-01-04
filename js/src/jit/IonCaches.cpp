@@ -11507,7 +11507,6 @@ setInvalidatedIdempotentCache
 ;
 if
 (
-!
 outerScript
 -
 >
@@ -11515,15 +11514,14 @@ hasIonScript
 (
 )
 )
-return
-true
-;
-return
 Invalidate
 (
 cx
 outerScript
 )
+;
+return
+true
 ;
 }
 jsbytecode
