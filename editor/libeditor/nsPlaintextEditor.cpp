@@ -3640,7 +3640,7 @@ doc
 NS_ERROR_NOT_INITIALIZED
 )
 ;
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontSpazMySelection
 (
 this

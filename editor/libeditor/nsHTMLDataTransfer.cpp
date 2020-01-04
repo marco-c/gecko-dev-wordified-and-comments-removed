@@ -5510,7 +5510,7 @@ len
 )
 )
 {
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontSpazMySelection
 (
 this

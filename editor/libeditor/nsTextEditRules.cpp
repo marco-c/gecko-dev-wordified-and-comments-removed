@@ -1202,7 +1202,7 @@ NS_ENSURE_STATE
 mEditor
 )
 ;
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontSpazMySelection
 (
 mEditor
@@ -3120,7 +3120,7 @@ NS_ENSURE_STATE
 mEditor
 )
 ;
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontSpazMySelection
 (
 mEditor
@@ -4686,7 +4686,7 @@ br
 )
 )
 {
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontSpazMySelection
 (
 mEditor

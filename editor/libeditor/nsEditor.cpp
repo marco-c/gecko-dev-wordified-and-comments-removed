@@ -6232,7 +6232,7 @@ ret
 )
 ;
 {
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 conserveSelection
 (
 this
@@ -6599,7 +6599,7 @@ nullptr
 )
 ;
 {
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 conserveSelection
 (
 this

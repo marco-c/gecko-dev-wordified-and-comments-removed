@@ -608,7 +608,7 @@ cellOffset
 +
 +
 ;
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontChangeSelection
 (
 this
@@ -858,7 +858,7 @@ ePreviousColumn
 false
 )
 ;
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontChangeSelection
 (
 this
@@ -1883,7 +1883,7 @@ ePreviousRow
 false
 )
 ;
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontChangeSelection
 (
 this
@@ -2334,7 +2334,7 @@ ePreviousColumn
 false
 )
 ;
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontChangeSelection
 (
 this
@@ -3111,7 +3111,7 @@ ePreviousColumn
 false
 )
 ;
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontChangeSelection
 (
 this
@@ -3606,7 +3606,7 @@ ePreviousColumn
 false
 )
 ;
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontChangeSelection
 (
 this
@@ -3720,7 +3720,7 @@ nsIEditor
 eNext
 )
 ;
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontChangeSelection
 (
 this
@@ -4858,7 +4858,7 @@ ePreviousRow
 false
 )
 ;
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontChangeSelection
 (
 this
@@ -7011,7 +7011,7 @@ ePreviousColumn
 false
 )
 ;
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontChangeSelection
 (
 this
@@ -8081,7 +8081,7 @@ beginBatching
 this
 )
 ;
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontChangeSelection
 (
 this

@@ -7025,7 +7025,7 @@ NS_OK
 ;
 }
 }
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontSpazMySelection
 (
 mHTMLEditor
@@ -8403,7 +8403,7 @@ leftCheck
 rightCheck
 )
 {
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontSpazMySelection
 (
 mHTMLEditor
@@ -8546,7 +8546,7 @@ res
 res
 )
 ;
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontSpazMySelection
 (
 mHTMLEditor
@@ -8711,7 +8711,7 @@ if
 canConvert
 )
 {
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontSpazMySelection
 (
 mHTMLEditor
@@ -8920,7 +8920,7 @@ if
 canConvert
 )
 {
-nsAutoTxnsConserveSelection
+AutoTransactionsConserveSelection
 dontSpazMySelection
 (
 mHTMLEditor
