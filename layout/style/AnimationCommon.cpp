@@ -1942,15 +1942,6 @@ presContext
 return
 ;
 }
-if
-(
-!
-mStyleChanging
-)
-{
-return
-;
-}
 nsStyleContext
 *
 styleContext
@@ -2055,7 +2046,6 @@ PseudoElementType
 (
 )
 cascadeLevel
-mStyleChanging
 )
 ;
 }
@@ -2176,10 +2166,6 @@ RestyleType
 Layer
 )
 {
-mStyleChanging
-=
-true
-;
 presContext
 -
 >

@@ -2228,13 +2228,6 @@ mPresContext
 collection
 -
 >
-mStyleChanging
-=
-true
-;
-collection
--
->
 EnsureStyleRuleFor
 (
 )

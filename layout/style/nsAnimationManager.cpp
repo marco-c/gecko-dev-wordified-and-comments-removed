@@ -2140,13 +2140,6 @@ SwapElements
 newAnimations
 )
 ;
-collection
--
->
-mStyleChanging
-=
-true
-;
 for
 (
 size_t

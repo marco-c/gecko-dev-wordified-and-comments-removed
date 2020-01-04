@@ -620,10 +620,6 @@ mCheckGeneration
 (
 0
 )
-mStyleChanging
-(
-true
-)
 mHasPendingAnimationRestyle
 (
 false
@@ -1005,9 +1001,6 @@ nsPresContext
 *
 aPresContext
 )
-;
-bool
-mStyleChanging
 ;
 private
 :

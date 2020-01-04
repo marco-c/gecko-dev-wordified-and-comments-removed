@@ -851,9 +851,6 @@ Type
 aPseudoType
 CascadeLevel
 aCascadeLevel
-bool
-&
-aStyleChanging
 )
 {
 auto
@@ -907,7 +904,6 @@ RefreshDriver
 MostRecentRefresh
 (
 )
-aStyleChanging
 )
 ;
 elementsToRestyle
@@ -1748,9 +1744,6 @@ CascadeLevel
 aCascadeLevel
 TimeStamp
 aRefreshTime
-bool
-&
-aStyleChanging
 )
 {
 EffectSet
@@ -1879,10 +1872,6 @@ animationRule
 =
 nullptr
 ;
-aStyleChanging
-=
-false
-;
 nsCSSPropertySet
 properties
 ;
@@ -1910,7 +1899,6 @@ ComposeStyle
 (
 animationRule
 properties
-aStyleChanging
 )
 ;
 }

@@ -911,9 +911,6 @@ aStyleRule
 nsCSSPropertySet
 &
 aSetProperties
-bool
-&
-aStyleChanging
 )
 ;
 void
