@@ -253,7 +253,7 @@ static
 void
 ApplyCallbackTransform
 (
-WidgetTouchEvent
+WidgetEvent
 &
 aEvent
 const
