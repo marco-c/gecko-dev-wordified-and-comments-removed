@@ -2167,6 +2167,7 @@ _handle_linkables
 self
 context
 passthru
+generated_files
 )
 :
         
@@ -3473,6 +3474,15 @@ USE_LIBS
 has_linkables
 =
 True
+                
+generated_files
+.
+add
+(
+lib
+.
+lib_name
+)
                 
 if
 is_component
@@ -5251,6 +5261,7 @@ _handle_linkables
 (
 context
 passthru
+generated_files
 )
 :
             
