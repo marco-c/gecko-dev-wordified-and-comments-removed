@@ -5271,6 +5271,14 @@ kwargs
 )
 :
             
+if
+func
+in
+self
+.
+_imports
+:
+                
 self
 .
 _apply_imports
@@ -5278,6 +5286,14 @@ _apply_imports
 func
 glob
 )
+                
+del
+self
+.
+_imports
+[
+func
+]
             
 return
 new_func
