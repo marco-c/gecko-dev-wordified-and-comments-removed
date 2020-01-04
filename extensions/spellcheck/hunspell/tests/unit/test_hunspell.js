@@ -1577,7 +1577,7 @@ init
 (
 file
 0x1
-0444
+0o444
 Ci
 .
 nsIFileInputStream

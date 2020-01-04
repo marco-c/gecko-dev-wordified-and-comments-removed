@@ -197,7 +197,7 @@ Ci
 nsIFile
 .
 DIRECTORY_TYPE
-0744
+0o744
 )
 ;
 var
@@ -1252,7 +1252,7 @@ file
 create
 (
 type
-0755
+0o755
 )
 ;
 lst

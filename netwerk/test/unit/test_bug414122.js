@@ -106,7 +106,7 @@ dat
 "
 )
 PR_RDONLY
-0444
+0o444
 Ci
 .
 nsIFileInputStream

@@ -1108,7 +1108,7 @@ createUnique
 dest
 .
 NORMAL_FILE_TYPE
-0600
+0o600
 )
 ;
 var

@@ -400,7 +400,7 @@ create
 nsIFile
 .
 DIRECTORY_TYPE
-0777
+0o777
 )
 ;
 targetDir
@@ -410,7 +410,7 @@ create
 nsIFile
 .
 DIRECTORY_TYPE
-0777
+0o777
 )
 ;
 var
@@ -436,7 +436,7 @@ create
 nsIFile
 .
 NORMAL_FILE_TYPE
-0666
+0o666
 )
 ;
 var

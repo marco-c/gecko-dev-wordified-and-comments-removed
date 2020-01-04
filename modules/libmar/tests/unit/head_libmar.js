@@ -444,7 +444,7 @@ f
 .
 permissions
 =
-0664
+0o664
 ;
 }
 let

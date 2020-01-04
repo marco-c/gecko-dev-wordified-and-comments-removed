@@ -153,7 +153,7 @@ createUnique
 outFile
 .
 NORMAL_FILE_TYPE
-0600
+0o600
 )
 ;
 var
@@ -195,7 +195,7 @@ outFile
 0x08
 |
 0x20
-0600
+0o600
 0
 )
 ;

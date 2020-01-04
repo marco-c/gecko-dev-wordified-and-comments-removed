@@ -186,7 +186,7 @@ Ci
 nsILocalFile
 .
 DIRECTORY_TYPE
-0755
+0o755
 )
 ;
 var

@@ -2312,7 +2312,7 @@ create
 nsIFile
 .
 DIRECTORY_TYPE
-0777
+0o777
 )
 data
 .

@@ -247,7 +247,7 @@ init
 (
 file
 0x01
-0400
+0o400
 nsIFileInputStream
 .
 CLOSE_ON_EOF

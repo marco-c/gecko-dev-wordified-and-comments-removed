@@ -32,7 +32,7 @@ fileIOFlags
 const
 filePerms
 =
-0664
+0o664
 ;
 const
 fileData
