@@ -200,7 +200,7 @@ marionette
 absolute_url
 (
 '
-test_touchcaret
+test_carets_cursor
 .
 html
 '
