@@ -126,6 +126,11 @@ PermissionStatus
 .
 cpp
 '
+'
+PermissionUtils
+.
+cpp
+'
 ]
 EXTRA_COMPONENTS
 +
