@@ -3947,7 +3947,6 @@ loc
 ValidateForProgram
 (
 prog
-this
 "
 getUniform
 "
@@ -3968,7 +3967,6 @@ loc
 GetUniform
 (
 js
-this
 )
 ;
 }

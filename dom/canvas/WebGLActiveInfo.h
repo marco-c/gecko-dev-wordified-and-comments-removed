@@ -131,6 +131,12 @@ const
 nsCString
 mBaseMappedName
 ;
+bool
+IsSampler
+(
+)
+const
+;
 WebGLActiveInfo
 (
 WebGLContext
@@ -273,6 +279,13 @@ WebGLActiveInfo
 ;
 uint8_t
 ElemSizeFromType
+(
+GLenum
+elemType
+)
+;
+bool
+IsElemTypeSampler
 (
 GLenum
 elemType
