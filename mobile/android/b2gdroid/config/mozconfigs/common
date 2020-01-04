@@ -450,14 +450,6 @@ channel
 {
 MOZ_UPDATE_CHANNEL
 }
-ac_add_options
--
--
-enable
--
-android
--
-apz
 #
 Treat
 warnings
