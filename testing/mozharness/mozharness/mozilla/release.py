@@ -284,6 +284,22 @@ hgSshKey
 '
 ]
 )
+            
+self
+.
+release_config
+[
+'
+release_channel
+'
+]
+=
+rc
+[
+'
+releaseChannel
+'
+]
         
 else
 :
