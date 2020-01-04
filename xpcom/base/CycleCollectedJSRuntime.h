@@ -1428,8 +1428,10 @@ virtual
 void
 DispatchToMicroTask
 (
+already_AddRefed
+<
 nsIRunnable
-*
+>
 aRunnable
 )
 ;
