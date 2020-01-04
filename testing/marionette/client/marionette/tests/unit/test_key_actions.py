@@ -52,7 +52,7 @@ platformName
 =
 =
 '
-DARWIN
+Darwin
 '
 :
             
