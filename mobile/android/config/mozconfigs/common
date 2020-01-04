@@ -452,16 +452,6 @@ ac_add_options
 -
 with
 -
-android
--
-version
-=
-9
-ac_add_options
--
--
-with
--
 system
 -
 zlib
