@@ -188,7 +188,7 @@ const
 storageName
 )
 ;
-void
+nsresult
 FlushBuffer
 (
 )
@@ -198,6 +198,9 @@ mOverview
 ;
 bool
 mEntriesHeaderAdded
+;
+bool
+mCancel
 ;
 nsCOMPtr
 <
