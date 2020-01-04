@@ -111,6 +111,13 @@ h
 #
 include
 "
+LayerUserData
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

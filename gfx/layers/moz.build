@@ -292,6 +292,11 @@ LayerTreeInvalidation
 h
 '
 '
+LayerUserData
+.
+h
+'
+'
 opengl
 /
 Composer2D
