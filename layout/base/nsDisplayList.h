@@ -10468,14 +10468,14 @@ mForEventsOnly
 }
 ;
 class
-nsDisplayMixBlendMode
+nsDisplayBlendMode
 :
 public
 nsDisplayWrapList
 {
 public
 :
-nsDisplayMixBlendMode
+nsDisplayBlendMode
 (
 nsDisplayListBuilder
 *
@@ -10499,7 +10499,7 @@ ifdef
 NS_BUILD_REFCNT_LOGGING
 virtual
 ~
-nsDisplayMixBlendMode
+nsDisplayBlendMode
 (
 )
 ;
@@ -10612,9 +10612,9 @@ false
 NS_DISPLAY_DECL_NAME
 (
 "
-MixBlendMode
+BlendMode
 "
-TYPE_MIX_BLEND_MODE
+TYPE_BLEND_MODE
 )
 private
 :

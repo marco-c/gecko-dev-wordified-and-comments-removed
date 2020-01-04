@@ -10898,7 +10898,7 @@ new
 (
 aBuilder
 )
-nsDisplayMixBlendMode
+nsDisplayBlendMode
 (
 aBuilder
 this
