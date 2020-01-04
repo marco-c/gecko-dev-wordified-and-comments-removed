@@ -346,7 +346,7 @@ typename
 T
 >
 struct
-DefaultTracer
+DefaultGCPolicy
 <
 T
 *
@@ -385,7 +385,7 @@ typename
 T
 >
 struct
-DefaultTracer
+DefaultGCPolicy
 <
 RelocatablePtr
 <
