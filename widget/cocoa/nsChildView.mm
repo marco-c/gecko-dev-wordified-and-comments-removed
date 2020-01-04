@@ -32928,7 +32928,7 @@ WidgetMouseEvent
 geckoEvent
 (
 true
-NS_MOUSE_ACTIVATE
+eMouseActivate
 mGeckoChild
 WidgetMouseEvent
 :

@@ -265,7 +265,7 @@ case
 eMouseExitFromWidget
 :
 case
-NS_MOUSE_ACTIVATE
+eMouseActivate
 :
 case
 NS_MOUSE_OVER

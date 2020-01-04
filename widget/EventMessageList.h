@@ -172,7 +172,7 @@ eMouseEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_MOUSE_ACTIVATE
+eMouseActivate
 eMouseEventFirst
 +
 30
