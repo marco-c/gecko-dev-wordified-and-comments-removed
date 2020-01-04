@@ -29,15 +29,6 @@ console
 .
 log
 (
-{
-msg
-:
-'
-consoleAndBlobs
-'
-blob
-:
 b
-}
 )
 ;
