@@ -762,11 +762,10 @@ nsCSSValue
 }
 static
 inline
-void
+nsCSSProperty
 EnsurePhysicalProperty
 (
 nsCSSProperty
-&
 aProperty
 nsRuleData
 *
@@ -1070,8 +1069,7 @@ length
 }
 #
 endif
-aProperty
-=
+return
 props
 [
 index
@@ -1161,6 +1159,8 @@ CSS_PROPERTY_LOGICAL
 )
 )
 {
+iProp
+=
 EnsurePhysicalProperty
 (
 iProp
@@ -3350,6 +3350,8 @@ CSS_PROPERTY_LOGICAL
 )
 )
 {
+physicalProp
+=
 EnsurePhysicalProperty
 (
 physicalProp
