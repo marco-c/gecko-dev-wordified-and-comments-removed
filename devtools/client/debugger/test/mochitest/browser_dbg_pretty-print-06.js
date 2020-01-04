@@ -349,7 +349,7 @@ ok
 (
 error
 .
-rdpError
+error
 "
 Error
 came
@@ -364,7 +364,7 @@ ok
 (
 error
 .
-rdpError
+error
 .
 includes
 (
