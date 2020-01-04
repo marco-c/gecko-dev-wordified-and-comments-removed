@@ -223,9 +223,6 @@ const
 AudioInfo
 &
 aConfig
-TaskQueue
-*
-aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
@@ -235,17 +232,9 @@ mInfo
 (
 aConfig
 )
-mTaskQueue
-(
-aTaskQueue
-)
 mCallback
 (
 aCallback
-)
-mIsFlushing
-(
-false
 )
 {
 }
