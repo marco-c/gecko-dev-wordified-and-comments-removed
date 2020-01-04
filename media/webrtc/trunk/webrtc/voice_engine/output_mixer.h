@@ -414,6 +414,11 @@ AudioFrame
 audioFrame
 )
 ;
+int
+GetOutputChannelCount
+(
+)
+;
 private
 :
 OutputMixer
