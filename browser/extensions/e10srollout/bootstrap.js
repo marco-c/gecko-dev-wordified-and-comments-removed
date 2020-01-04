@@ -86,6 +86,13 @@ beta
 0
 .
 5
+"
+release
+"
+:
+1
+.
+0
 }
 ;
 const
