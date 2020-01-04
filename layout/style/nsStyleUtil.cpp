@@ -386,7 +386,7 @@ quoteChar
 )
 ;
 }
-bool
+void
 nsStyleUtil
 :
 :
@@ -432,7 +432,6 @@ in
 end
 )
 return
-true
 ;
 if
 (
@@ -481,7 +480,6 @@ char16_t
 )
 ;
 return
-true
 ;
 }
 aReturn
@@ -575,10 +573,18 @@ ch
 0x00
 )
 {
-return
-false
+aReturn
+.
+Append
+(
+char16_t
+(
+0xFFFD
+)
+)
 ;
 }
+else
 if
 (
 ch
@@ -710,9 +716,6 @@ ch
 ;
 }
 }
-return
-true
-;
 }
 static
 void

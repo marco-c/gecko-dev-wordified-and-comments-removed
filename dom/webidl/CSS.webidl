@@ -202,9 +202,6 @@ partial
 interface
 CSS
 {
-[
-Throws
-]
 static
 DOMString
 escape
