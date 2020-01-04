@@ -7239,9 +7239,6 @@ true
 addEnvironment
 :
 true
-overwrite
-:
-true
 }
 ;
 p
@@ -7250,7 +7247,7 @@ push
 (
 TelemetryController
 .
-addPendingPing
+submitExternalPing
 (
 getPingType
 (
@@ -7322,7 +7319,7 @@ push
 (
 TelemetryController
 .
-addPendingPing
+submitExternalPing
 (
 getPingType
 (
