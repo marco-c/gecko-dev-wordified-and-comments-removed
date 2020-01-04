@@ -274,11 +274,6 @@ Services
 appinfo
 .
 version
-Services
-.
-appinfo
-.
-platformVersion
 )
 ;
 writeUpdatesToXMLFile

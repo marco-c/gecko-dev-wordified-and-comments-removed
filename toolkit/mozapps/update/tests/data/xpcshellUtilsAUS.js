@@ -8667,8 +8667,6 @@ null
 null
 null
 null
-null
-null
 "
 true
 "
