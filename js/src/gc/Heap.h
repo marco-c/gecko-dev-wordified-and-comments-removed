@@ -3448,10 +3448,6 @@ prev
 =
 nullptr
 ;
-age
-=
-0
-;
 }
 private
 :
@@ -3482,7 +3478,7 @@ JS_BITS_PER_WORD
 char
 padding
 [
-20
+24
 ]
 ;
 #
@@ -3495,9 +3491,6 @@ numArenasFree
 ;
 uint32_t
 numArenasFreeCommitted
-;
-uint32_t
-age
 ;
 ChunkTrailer
 trailer
