@@ -119,16 +119,6 @@ DetailedPromise
 (
 )
 {
-MOZ_ASSERT
-(
-mResponded
-=
-=
-IsPending
-(
-)
-)
-;
 MaybeReportTelemetry
 (
 Failed

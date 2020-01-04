@@ -28,6 +28,9 @@ mozilla
 namespace
 dom
 {
+#
+ifndef
+SPIDERMONKEY_PROMISE
 class
 PromiseCallback
 :
@@ -617,6 +620,8 @@ mState
 ;
 }
 ;
+#
+endif
 }
 }
 #

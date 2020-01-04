@@ -54,6 +54,9 @@ mozilla
 namespace
 dom
 {
+#
+ifndef
+SPIDERMONKEY_PROMISE
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
 PromiseCallback
@@ -2248,5 +2251,7 @@ return
 nullptr
 ;
 }
+#
+endif
 }
 }
