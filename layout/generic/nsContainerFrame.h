@@ -785,10 +785,6 @@ StealFrame
 nsIFrame
 *
 aChild
-bool
-aForceNormal
-=
-false
 )
 ;
 nsFrameList
@@ -960,6 +956,14 @@ DestroyAbsoluteFrames
 nsIFrame
 *
 aDestructRoot
+)
+;
+bool
+MaybeStealOverflowContainerFrame
+(
+nsIFrame
+*
+aChild
 )
 ;
 void
