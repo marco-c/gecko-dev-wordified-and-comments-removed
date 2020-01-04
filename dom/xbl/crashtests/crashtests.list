@@ -38,6 +38,9 @@ skip
 -
 if
 (
+Android
+|
+|
 B2G
 )
 load
@@ -46,6 +49,9 @@ load
 1
 .
 html
+#
+bug
+1268050
 load
 336960
 -
