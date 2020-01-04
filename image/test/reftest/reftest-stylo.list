@@ -327,8 +327,15 @@ list
 bug
 783632
 #
+Disabled
+lots
+of
+intermittents
+here
+#
 BMP
 tests
+#
 skip
 -
 if
@@ -363,6 +370,7 @@ list
 #
 JPEG
 tests
+#
 include
 jpeg
 /
@@ -374,6 +382,7 @@ list
 #
 GIF
 tests
+#
 include
 gif
 /
@@ -422,6 +431,7 @@ list
 #
 Downscaling
 tests
+#
 include
 downscaling
 /
@@ -445,6 +455,7 @@ list
 #
 Lossless
 encoders
+#
 skip
 -
 if

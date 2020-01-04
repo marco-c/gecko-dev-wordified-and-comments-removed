@@ -28,6 +28,7 @@ variables
 enabled
 true
 )
+skip
 =
 =
 variables
@@ -48,6 +49,7 @@ cache
 01
 .
 html
+skip
 =
 =
 variables

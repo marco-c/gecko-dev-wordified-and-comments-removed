@@ -599,6 +599,7 @@ svg
 #
 bug
 1178062
+skip
 =
 =
 conditions
@@ -691,6 +692,7 @@ currentColor
 03
 .
 svg
+random
 =
 =
 data
@@ -715,6 +717,7 @@ filter
 01
 .
 xhtml
+random
 =
 =
 data
@@ -739,6 +742,7 @@ gradient
 01
 .
 xhtml
+random
 =
 =
 data
@@ -2369,7 +2373,7 @@ change
 03
 .
 svg
-fails
+random
 =
 =
 fragmentIdentifier

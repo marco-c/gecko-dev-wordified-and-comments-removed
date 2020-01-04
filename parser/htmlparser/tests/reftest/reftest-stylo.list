@@ -109,7 +109,7 @@ bug582940
 1
 .
 html
-fails
+random
 =
 =
 bug592656
@@ -389,7 +389,7 @@ bug673094
 1
 .
 html
-fails
+random
 =
 =
 bug696651
@@ -492,6 +492,7 @@ bug820508
 1
 .
 html
+skip
 =
 =
 view

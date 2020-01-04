@@ -176,7 +176,7 @@ backgr_fixed
 bg
 .
 html
-fails
+skip
 =
 =
 backgr_index
@@ -209,6 +209,7 @@ backgr_layers
 opacity
 .
 html
+random
 =
 =
 backgr_layers
@@ -1715,6 +1716,7 @@ dynamic
 1
 .
 html
+random
 =
 =
 table

@@ -676,7 +676,7 @@ webcam
 simulacrum
 .
 mjpg
-fails
+skip
 pref
 (
 image
@@ -685,11 +685,6 @@ mozsamplesize
 .
 enabled
 true
-)
-fuzzy
-(
-21
-256
 )
 =
 =
@@ -730,11 +725,6 @@ mozsamplesize
 .
 enabled
 true
-)
-fuzzy
-(
-92
-16
 )
 =
 =

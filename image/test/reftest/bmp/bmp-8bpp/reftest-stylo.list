@@ -359,6 +359,7 @@ square
 8bpp
 .
 bmp
+random
 =
 =
 rle
@@ -408,6 +409,7 @@ size
 8bpp
 .
 bmp
+random
 =
 =
 rle

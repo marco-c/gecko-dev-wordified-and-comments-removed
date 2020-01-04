@@ -1334,14 +1334,7 @@ sizing
 002
 .
 html
-fuzzy
--
-if
-(
-winWidget
-1
-36
-)
+random
 =
 =
 grid
@@ -1482,7 +1475,7 @@ intrinsic
 004
 .
 html
-fails
+skip
 =
 =
 grid

@@ -26,7 +26,7 @@ no
 attrs
 .
 html
-fails
+random
 HTTP
 =
 =
@@ -40,6 +40,7 @@ html
 data
 .
 html
+random
 HTTP
 =
 =
@@ -61,7 +62,7 @@ with
 type
 .
 html
-fails
+random
 =
 =
 page
@@ -78,7 +79,7 @@ as
 data
 .
 html
-fails
+random
 =
 =
 page
@@ -103,7 +104,7 @@ with
 type
 .
 html
-fails
+random
 =
 =
 connection
@@ -140,21 +141,7 @@ with
 type
 .
 html
-skip
--
-if
-(
-B2G
-|
-|
-Mulet
-)
-fails
--
-if
-(
-Android
-)
+random
 =
 =
 image
@@ -285,7 +272,7 @@ extension
 )
 .
 #
-fails
+random
 HTTP
 =
 =
@@ -527,7 +514,7 @@ for
 these
 to
 pass
-fails
+random
 =
 =
 svg

@@ -1497,7 +1497,7 @@ width
 1
 .
 xhtml
-fails
+skip
 =
 =
 mathml
@@ -6350,17 +6350,7 @@ E
 1
 .
 html
-test
--
-pref
-(
-dom
-.
-webcomponents
-.
-enabled
-true
-)
+skip
 =
 =
 shadow

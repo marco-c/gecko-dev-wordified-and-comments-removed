@@ -192,17 +192,6 @@ B2G
 B2G
 Desktop
 skip
--
-if
-(
-B2G
-|
-|
-Mulet
-|
-|
-Android
-)
 =
 =
 in

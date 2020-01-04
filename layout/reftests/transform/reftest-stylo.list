@@ -2106,6 +2106,7 @@ svg
 #
 Bug
 1122526
+skip
 =
 =
 animate
@@ -2130,6 +2131,7 @@ inherit
 1
 .
 html
+skip
 =
 =
 animate
@@ -2154,6 +2156,7 @@ inherit
 2
 .
 html
+skip
 =
 =
 animate

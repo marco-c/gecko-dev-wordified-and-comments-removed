@@ -327,16 +327,7 @@ image
 rect
 (
 )
-fails
-skip
--
-if
-(
-B2G
-|
-|
-Mulet
-)
+random
 =
 =
 background
@@ -2491,6 +2482,7 @@ B2G
 /
 B2G
 Desktop
+skip
 =
 =
 svg

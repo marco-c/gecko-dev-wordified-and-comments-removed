@@ -134,7 +134,7 @@ not
 readonly
 .
 html
-fails
+skip
 =
 =
 textarea
@@ -151,7 +151,7 @@ maxlength
 valid
 .
 html
-fails
+skip
 =
 =
 textarea

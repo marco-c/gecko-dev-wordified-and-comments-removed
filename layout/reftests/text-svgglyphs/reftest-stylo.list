@@ -787,7 +787,6 @@ opentype_svg
 enabled
 true
 )
-fails
 =
 =
 svg
@@ -865,17 +864,7 @@ glyph
 transform
 .
 svg
-pref
-(
-gfx
-.
-font_rendering
-.
-opentype_svg
-.
-enabled
-true
-)
+skip
 =
 =
 svg

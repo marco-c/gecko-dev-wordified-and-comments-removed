@@ -498,7 +498,7 @@ horiz
 table
 .
 xhtml
-fails
+random
 =
 =
 flexbox
@@ -2750,7 +2750,7 @@ rtl
 reverse
 .
 xhtml
-fails
+random
 =
 =
 flexbox
@@ -2771,7 +2771,7 @@ horiz
 002a
 .
 xhtml
-fails
+random
 =
 =
 flexbox
