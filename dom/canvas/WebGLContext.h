@@ -6170,6 +6170,10 @@ nsACString
 *
 const
 out_failReason
+nsACString
+*
+const
+out_failureId
 )
 ;
 bool
@@ -6181,6 +6185,10 @@ nsACString
 *
 const
 out_failReason
+nsACString
+*
+const
+out_failureId
 )
 ;
 bool
@@ -6221,6 +6229,10 @@ nsACString
 *
 const
 out_failReason
+nsACString
+*
+const
+out_failureId
 )
 ;
 bool
@@ -6244,6 +6256,10 @@ nsACString
 *
 const
 out_failReason
+nsACString
+*
+const
+out_failureId
 )
 ;
 void
@@ -6262,6 +6278,10 @@ nsACString
 *
 const
 out_failReason
+nsACString
+*
+const
+out_failureId
 )
 ;
 bool
