@@ -130,24 +130,10 @@ check_for_crashes
 (
 self
 browser_config
-profile_dir
+minidump_dir
 test_name
 )
 :
-        
-minidumpdir
-=
-os
-.
-path
-.
-join
-(
-profile_dir
-'
-minidumps
-'
-)
         
 found
 =
@@ -155,7 +141,7 @@ mozcrash
 .
 check_for_crashes
 (
-minidumpdir
+minidump_dir
                                            
 browser_config
 [
@@ -173,7 +159,7 @@ mozfile
 .
 remove
 (
-minidumpdir
+minidump_dir
 )
         
 if
@@ -309,6 +295,22 @@ test_config
 setup
 )
 :
+        
+minidump_dir
+=
+os
+.
+path
+.
+join
+(
+setup
+.
+profile_dir
+'
+minidumps
+'
+)
         
 counters
 =
@@ -927,6 +929,8 @@ run_browser
                     
 command_args
                     
+minidump_dir
+                    
 timeout
 =
 timeout
@@ -1348,9 +1352,7 @@ self
 check_for_crashes
 (
 browser_config
-setup
-.
-profile_dir
+minidump_dir
                                    
 test_config
 [
