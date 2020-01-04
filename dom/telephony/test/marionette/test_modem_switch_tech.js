@@ -253,7 +253,9 @@ then
 )
 =
 >
-gChangeModemTech
+Modem
+.
+changeTech
 (
 aSetting
 .
@@ -299,7 +301,9 @@ then
 )
 =
 >
-gChangeModemTech
+Modem
+.
+changeTech
 (
 "
 wcdma
