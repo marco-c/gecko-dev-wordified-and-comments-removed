@@ -36,6 +36,11 @@ yield
 initDebugger
 (
 TAB_URL
+{
+source
+:
+null
+}
 )
 ;
 let

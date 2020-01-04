@@ -148,6 +148,18 @@ false
 )
 ;
 let
+options
+=
+{
+source
+:
+TAB_URL
+line
+:
+1
+}
+;
+let
 [
 panel
 win
@@ -157,6 +169,7 @@ yield
 initDebugger
 (
 tab
+options
 )
 ;
 let

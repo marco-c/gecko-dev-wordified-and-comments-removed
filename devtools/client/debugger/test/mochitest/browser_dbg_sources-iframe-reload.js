@@ -104,11 +104,6 @@ panel
 yield
 initDebugger
 (
-"
-about
-:
-blank
-"
 )
 ;
 let

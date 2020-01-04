@@ -37,7 +37,11 @@ win
 initDebugger
 (
 TAB_URL
+{
+window
+:
 win
+}
 )
 )
 .
