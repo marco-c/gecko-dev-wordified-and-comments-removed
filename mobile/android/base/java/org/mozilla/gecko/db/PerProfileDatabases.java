@@ -265,12 +265,10 @@ isTest
 {
 if
 (
-TextUtils
-.
-isEmpty
-(
 profile
-)
+=
+=
+null
 )
 {
 profile

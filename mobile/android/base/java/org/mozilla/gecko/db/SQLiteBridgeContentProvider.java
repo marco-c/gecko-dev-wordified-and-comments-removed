@@ -625,12 +625,10 @@ profile
 {
 if
 (
-TextUtils
-.
-isEmpty
-(
 profile
-)
+=
+=
+null
 )
 {
 profile

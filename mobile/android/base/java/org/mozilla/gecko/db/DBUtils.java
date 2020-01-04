@@ -1267,12 +1267,10 @@ uri
 {
 if
 (
-TextUtils
-.
-isEmpty
-(
 profile
-)
+=
+=
+null
 )
 {
 return
