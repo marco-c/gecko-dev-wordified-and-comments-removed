@@ -47,3 +47,10 @@ eval
 test
 )
 ;
+else
+throw
+new
+TypeError
+(
+)
+;
