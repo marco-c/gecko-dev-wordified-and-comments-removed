@@ -33,7 +33,7 @@ react
 const
 {
 isGrip
-cropString
+getURLDisplayString
 }
 =
 require
@@ -139,7 +139,7 @@ grip
 )
 {
 return
-cropString
+getURLDisplayString
 (
 grip
 .

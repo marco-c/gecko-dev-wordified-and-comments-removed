@@ -33,7 +33,7 @@ react
 const
 {
 isGrip
-getFileName
+getURLDisplayString
 }
 =
 require
@@ -161,7 +161,7 @@ url
 return
 url
 ?
-getFileName
+getURLDisplayString
 (
 url
 )
