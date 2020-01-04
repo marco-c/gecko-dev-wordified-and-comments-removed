@@ -470,6 +470,12 @@ Abort
 )
 ;
 bool
+IsAborted
+(
+)
+const
+;
+bool
 IsFinished
 (
 )
