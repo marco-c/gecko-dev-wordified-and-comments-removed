@@ -2851,7 +2851,7 @@ case
 eMouseMove
 :
 case
-NS_POINTER_DOWN
+ePointerDown
 :
 case
 NS_POINTER_MOVE
@@ -17472,7 +17472,7 @@ case
 NS_POINTER_MOVE
 :
 case
-NS_POINTER_DOWN
+ePointerDown
 :
 {
 nsCOMPtr

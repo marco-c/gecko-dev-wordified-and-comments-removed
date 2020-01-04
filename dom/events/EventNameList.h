@@ -604,7 +604,7 @@ eBasicEventClass
 EVENT
 (
 pointerdown
-NS_POINTER_DOWN
+ePointerDown
 EventNameType_All
 ePointerEventClass
 )

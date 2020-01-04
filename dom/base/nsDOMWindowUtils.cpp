@@ -3167,7 +3167,7 @@ pointerdown
 {
 msg
 =
-NS_POINTER_DOWN
+ePointerDown
 ;
 }
 else
