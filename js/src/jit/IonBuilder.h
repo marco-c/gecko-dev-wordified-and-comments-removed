@@ -4357,14 +4357,6 @@ callInfo
 )
 ;
 InliningStatus
-inlineArrayBufferByteLength
-(
-CallInfo
-&
-callInfo
-)
-;
-InliningStatus
 inlinePossiblyWrappedArrayBufferByteLength
 (
 CallInfo
