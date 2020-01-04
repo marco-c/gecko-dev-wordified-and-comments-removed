@@ -133,6 +133,9 @@ TestEnumSet
 TestFloatingPoint
 '
 '
+TestFunction
+'
+'
 TestIntegerPrintfMacros
 '
 '
