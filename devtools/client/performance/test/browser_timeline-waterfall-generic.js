@@ -4,6 +4,11 @@ spawnTest
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 let
 {
 target
