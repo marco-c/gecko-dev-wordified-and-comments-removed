@@ -109,7 +109,7 @@ rate
 "
 )
 ;
-NS_WARN_IF_FALSE
+NS_ASSERTION
 (
 0
 <
