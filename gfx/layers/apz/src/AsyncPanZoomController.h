@@ -229,6 +229,9 @@ class
 StateChangeNotificationBlocker
 ;
 class
+CheckerboardEvent
+;
+class
 AsyncPanZoomController
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -1776,6 +1779,14 @@ mTestAsyncZoom
 ;
 bool
 mAsyncTransformAppliedToContent
+;
+private
+:
+UniquePtr
+<
+CheckerboardEvent
+>
+mCheckerboardEvent
 ;
 }
 ;
