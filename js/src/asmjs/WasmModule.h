@@ -527,9 +527,6 @@ uint8_t
 *
 deserialize
 (
-ExclusiveContext
-*
-cx
 const
 uint8_t
 *

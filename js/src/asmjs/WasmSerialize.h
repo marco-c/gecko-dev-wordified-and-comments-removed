@@ -323,9 +323,6 @@ uint8_t
 *
 DeserializeVector
 (
-ExclusiveContext
-*
-cx
 const
 uint8_t
 *
@@ -409,7 +406,6 @@ i
 .
 deserialize
 (
-cx
 cursor
 )
 )
@@ -612,9 +608,6 @@ uint8_t
 *
 DeserializePodVector
 (
-ExclusiveContext
-*
-cx
 const
 uint8_t
 *
@@ -1095,9 +1088,6 @@ uint8_t
 *
 deserialize
 (
-ExclusiveContext
-*
-cx
 const
 uint8_t
 *
@@ -1124,7 +1114,6 @@ cursor
 =
 DeserializePodVector
 (
-cx
 cursor
 &
 buildId_
