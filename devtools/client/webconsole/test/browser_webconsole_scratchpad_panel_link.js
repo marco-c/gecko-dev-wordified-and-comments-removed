@@ -439,9 +439,9 @@ ww
 activeWindow
 toolbox
 .
-frame
+win
 .
-ownerGlobal
+parent
 "
 Scratchpad
 '

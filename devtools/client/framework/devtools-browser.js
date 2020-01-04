@@ -3046,16 +3046,7 @@ if
 (
 toolbox
 .
-frame
-&
-&
-toolbox
-.
-frame
-.
-ownerDocument
-.
-defaultView
+win
 =
 =
 win

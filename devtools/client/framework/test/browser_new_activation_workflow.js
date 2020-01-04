@@ -189,15 +189,6 @@ selectAndCheckById
 id
 )
 {
-let
-doc
-=
-toolbox
-.
-frame
-.
-contentDocument
-;
 return
 toolbox
 .
@@ -215,6 +206,8 @@ function
 let
 tab
 =
+toolbox
+.
 doc
 .
 getElementById

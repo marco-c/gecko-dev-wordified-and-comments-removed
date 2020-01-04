@@ -622,7 +622,7 @@ stopPicker
 ;
 toolbox
 .
-frame
+win
 .
 focus
 (

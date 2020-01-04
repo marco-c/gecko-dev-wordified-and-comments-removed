@@ -210,9 +210,7 @@ doc
 =
 toolbox
 .
-frame
-.
-contentDocument
+doc
 ;
 let
 tab
@@ -502,9 +500,7 @@ doc
 =
 toolbox
 .
-frame
-.
-contentDocument
+doc
 ;
 let
 tab
