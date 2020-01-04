@@ -1547,9 +1547,9 @@ mozilla
 layers
 :
 :
-FrameMetrics
+ScrollMetadata
 >
-ComputeFrameMetrics
+ComputeScrollMetadata
 (
 Layer
 *
@@ -3454,9 +3454,9 @@ mozilla
 layers
 :
 :
-FrameMetrics
+ScrollMetadata
 >
-ComputeFrameMetrics
+ComputeScrollMetadata
 (
 Layer
 *
@@ -3482,7 +3482,7 @@ override
 return
 mHelper
 .
-ComputeFrameMetrics
+ComputeScrollMetadata
 (
 aLayer
 aContainerReferenceFrame
@@ -5397,9 +5397,9 @@ mozilla
 layers
 :
 :
-FrameMetrics
+ScrollMetadata
 >
-ComputeFrameMetrics
+ComputeScrollMetadata
 (
 Layer
 *
@@ -5425,7 +5425,7 @@ override
 return
 mHelper
 .
-ComputeFrameMetrics
+ComputeScrollMetadata
 (
 aLayer
 aContainerReferenceFrame

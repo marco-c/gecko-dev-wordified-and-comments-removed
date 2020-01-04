@@ -2100,7 +2100,11 @@ apzc
 >
 NotifyLayersUpdated
 (
-aMetrics
+aLayer
+.
+Metadata
+(
+)
 aState
 .
 mIsFirstPaint

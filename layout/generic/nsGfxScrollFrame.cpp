@@ -15908,12 +15908,12 @@ mWillBuildScrollableLayer
 }
 Maybe
 <
-FrameMetrics
+ScrollMetadata
 >
 ScrollFrameHelper
 :
 :
-ComputeFrameMetrics
+ComputeScrollMetadata
 (
 Layer
 *
@@ -16177,7 +16177,7 @@ Some
 nsLayoutUtils
 :
 :
-ComputeFrameMetrics
+ComputeScrollMetadata
 (
 mScrolledFrame
 mOuter

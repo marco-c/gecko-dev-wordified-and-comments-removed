@@ -2453,9 +2453,9 @@ mScrollClip
 ;
 UniquePtr
 <
-FrameMetrics
+ScrollMetadata
 >
-mBaseFrameMetrics
+mBaseScrollMetadata
 ;
 nsIntRegion
 mVisibleRegion
@@ -17290,12 +17290,12 @@ false
 newLayerEntry
 -
 >
-mBaseFrameMetrics
+mBaseScrollMetadata
 =
 scrollItem
 -
 >
-ComputeFrameMetrics
+ComputeScrollMetadata
 (
 ownLayer
 mParameters
@@ -17345,7 +17345,7 @@ LayoutUseContainersForRootFrames
 newLayerEntry
 -
 >
-mBaseFrameMetrics
+mBaseScrollMetadata
 =
 static_cast
 <
@@ -17357,7 +17357,7 @@ item
 )
 -
 >
-ComputeFrameMetrics
+ComputeScrollMetadata
 (
 ownLayer
 mParameters
@@ -20409,7 +20409,7 @@ return
 }
 AutoTArray
 <
-FrameMetrics
+ScrollMetadata
 2
 >
 metricsArray
@@ -20419,7 +20419,7 @@ if
 aEntry
 -
 >
-mBaseFrameMetrics
+mBaseScrollMetadata
 )
 {
 metricsArray
@@ -20430,7 +20430,7 @@ AppendElement
 aEntry
 -
 >
-mBaseFrameMetrics
+mBaseScrollMetadata
 )
 ;
 MOZ_ASSERT
@@ -20439,7 +20439,7 @@ MOZ_ASSERT
 aEntry
 -
 >
-mBaseFrameMetrics
+mBaseScrollMetadata
 -
 >
 GetMaskLayerIndex
@@ -20518,14 +20518,14 @@ mClip
 ;
 Maybe
 <
-FrameMetrics
+ScrollMetadata
 >
-metrics
+metadata
 =
 scrollFrame
 -
 >
-ComputeFrameMetrics
+ComputeScrollMetadata
 (
 aEntry
 -
@@ -20539,7 +20539,7 @@ clip
 if
 (
 !
-metrics
+metadata
 )
 {
 continue
@@ -20611,7 +20611,7 @@ if
 maskLayer
 )
 {
-metrics
+metadata
 -
 >
 SetMaskLayerIndex
@@ -20633,7 +20633,7 @@ metricsArray
 AppendElement
 (
 *
-metrics
+metadata
 )
 ;
 }
@@ -20643,7 +20643,7 @@ aEntry
 mLayer
 -
 >
-SetFrameMetrics
+SetScrollMetadata
 (
 metricsArray
 )
@@ -20854,7 +20854,7 @@ metricsCount
 aLayer
 -
 >
-GetFrameMetricsCount
+GetScrollMetadataCount
 (
 )
 )
@@ -20863,7 +20863,7 @@ return
 aLayer
 -
 >
-GetFrameMetrics
+GetScrollMetadata
 (
 metricsCount
 -

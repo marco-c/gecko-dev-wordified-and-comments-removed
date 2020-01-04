@@ -2101,11 +2101,11 @@ animations
 layer
 -
 >
-SetFrameMetrics
+SetScrollMetadata
 (
 common
 .
-metrics
+scrollMetadata
 (
 )
 )
@@ -4498,7 +4498,7 @@ i
 aLayer
 -
 >
-GetFrameMetricsCount
+GetScrollMetadataCount
 (
 )
 ;

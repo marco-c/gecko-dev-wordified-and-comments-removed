@@ -30,13 +30,6 @@ NULL_SCROLL_ID
 =
 0
 ;
-const
-FrameMetrics
-FrameMetrics
-:
-:
-sNullMetrics
-;
 void
 FrameMetrics
 :
@@ -63,5 +56,12 @@ mUsesContainerScrolling
 aValue
 ;
 }
+const
+ScrollMetadata
+ScrollMetadata
+:
+:
+sNullMetadata
+;
 }
 }

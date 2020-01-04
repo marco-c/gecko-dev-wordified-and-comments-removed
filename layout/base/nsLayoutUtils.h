@@ -600,6 +600,16 @@ FrameMetrics
 FrameMetrics
 ;
 typedef
+mozilla
+:
+:
+layers
+:
+:
+ScrollMetadata
+ScrollMetadata
+;
+typedef
 FrameMetrics
 :
 :
@@ -5422,8 +5432,8 @@ aScrollOrigin
 )
 ;
 static
-FrameMetrics
-ComputeFrameMetrics
+ScrollMetadata
+ComputeScrollMetadata
 (
 nsIFrame
 *

@@ -675,9 +675,9 @@ mozilla
 layers
 :
 :
-FrameMetrics
+ScrollMetadata
 >
-ComputeFrameMetrics
+ComputeScrollMetadata
 (
 mozilla
 :

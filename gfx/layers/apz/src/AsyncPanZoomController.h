@@ -387,9 +387,9 @@ void
 NotifyLayersUpdated
 (
 const
-FrameMetrics
+ScrollMetadata
 &
-aLayerMetrics
+aScrollMetadata
 bool
 aIsFirstPaint
 bool
@@ -1173,7 +1173,11 @@ GetSharedFrameMetricsCompositor
 ;
 protected
 :
+ScrollMetadata
+mScrollMetadata
+;
 FrameMetrics
+&
 mFrameMetrics
 ;
 mutable

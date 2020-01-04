@@ -531,7 +531,7 @@ mozilla
 layers
 :
 :
-FrameMetrics
+ScrollMetadata
 from
 "
 FrameMetrics
@@ -1425,10 +1425,10 @@ animations
 nsIntRegion
 invalidRegion
 ;
-FrameMetrics
+ScrollMetadata
 [
 ]
-metrics
+scrollMetadata
 ;
 nsCString
 displayListLog
