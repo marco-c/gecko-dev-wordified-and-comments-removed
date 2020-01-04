@@ -241,6 +241,17 @@ Plug
 Ins
 /
 RESPATH
+/
+b2g
+.
+icns
+RESPATH
+/
+LPROJ_ROOT
+.
+lproj
+/
+*
 #
 endif
 [
