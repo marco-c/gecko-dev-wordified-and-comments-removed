@@ -4157,6 +4157,7 @@ DEFINED_ON
 (
 x86
 x64
+arm
 )
 ;
 inline
@@ -4177,6 +4178,7 @@ DEFINED_ON
 (
 x86
 x64
+arm
 )
 ;
 inline
