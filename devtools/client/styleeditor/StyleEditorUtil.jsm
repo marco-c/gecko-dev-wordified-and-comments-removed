@@ -9,7 +9,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-_
+getString
 "
 "
 assert
@@ -137,7 +137,7 @@ PROPERTIES_URL
 )
 ;
 function
-_
+getString
 (
 name
 )
@@ -797,7 +797,7 @@ fp
 init
 (
 parentWindow
-_
+getString
 (
 key
 +
@@ -813,7 +813,7 @@ fp
 .
 appendFilters
 (
-_
+getString
 (
 key
 +
