@@ -75058,7 +75058,7 @@ fill
 "
 "
                 
-int32_t
+uint32_t
 index
 =
 GetArrayIndexFromId
@@ -75842,7 +75842,7 @@ fill
 "
 "
                 
-int32_t
+uint32_t
 index
 =
 GetArrayIndexFromId
@@ -76861,7 +76861,7 @@ fill
 "
 "
                 
-int32_t
+uint32_t
 index
 =
 GetArrayIndexFromId
@@ -77650,7 +77650,7 @@ fill
 "
 "
                 
-int32_t
+uint32_t
 index
 =
 GetArrayIndexFromId
@@ -78325,7 +78325,7 @@ fill
 "
 "
                 
-int32_t
+uint32_t
 index
 =
 GetArrayIndexFromId
@@ -79103,7 +79103,7 @@ fill
 "
 "
                 
-int32_t
+uint32_t
 index
 =
 GetArrayIndexFromId
