@@ -3466,6 +3466,14 @@ ShowInfo
 info
 )
 ;
+OpenURI
+(
+URIParams
+uri
+uint32_t
+flags
+)
+;
 CacheFileDescriptor
 (
 nsString

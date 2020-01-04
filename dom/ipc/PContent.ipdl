@@ -3702,6 +3702,8 @@ LoadURIExternal
 (
 URIParams
 uri
+PBrowser
+windowContext
 )
 ;
 /

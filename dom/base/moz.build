@@ -201,6 +201,11 @@ nsIObjectLoadingContent
 idl
 '
 '
+nsIRemoteWindowContext
+.
+idl
+'
+'
 nsIScriptChannel
 .
 idl
