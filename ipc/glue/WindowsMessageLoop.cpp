@@ -1967,7 +1967,7 @@ sCreateWindowExWStub
 {
 sUser32Interceptor
 .
-AddHook
+AddDetour
 (
 "
 CreateWindowExW
@@ -1997,7 +1997,7 @@ sCreateWindowExAStub
 {
 sUser32Interceptor
 .
-AddHook
+AddDetour
 (
 "
 CreateWindowExA
@@ -2027,7 +2027,7 @@ sCreateWindowWStub
 {
 sUser32Interceptor
 .
-AddHook
+AddDetour
 (
 "
 CreateWindowW
@@ -2057,7 +2057,7 @@ sCreateWindowAStub
 {
 sUser32Interceptor
 .
-AddHook
+AddDetour
 (
 "
 CreateWindowA
