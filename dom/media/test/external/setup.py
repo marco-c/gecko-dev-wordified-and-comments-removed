@@ -6,9 +6,9 @@ find_packages
 PACKAGE_VERSION
 =
 '
-0
+1
 .
-4
+0
 '
 deps
 =
@@ -82,7 +82,7 @@ setup
 name
 =
 '
-firefox
+external
 -
 media
 -
@@ -231,17 +231,24 @@ https
 :
 /
 /
-github
+hg
 .
-com
+mozilla
+.
+org
 /
-mjzffr
-/
-firefox
+mozilla
 -
+central
+/
+dom
+/
 media
--
-tests
+/
+test
+/
+external
+/
 '
       
 license
@@ -281,13 +288,13 @@ entry_points
 console_scripts
 ]
         
-firefox
+external
 -
 media
 -
 tests
 =
-harness
+external_media_harness
 :
 cli
     

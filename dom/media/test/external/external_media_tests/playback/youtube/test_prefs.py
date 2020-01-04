@@ -1,5 +1,5 @@
 from
-harness
+external_media_harness
 .
 testcase
 import
@@ -9,12 +9,14 @@ marionette_driver
 import
 Wait
 from
-media_tests
+external_media_tests
 .
 utils
 import
 verbose_until
 from
+external_media_tests
+.
 media_utils
 .
 youtube_puppeteer
