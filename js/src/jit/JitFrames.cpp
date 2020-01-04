@@ -10701,10 +10701,7 @@ initInstructionResults
 fallback
 )
 )
-js
-:
-:
-CrashAtUnhandlableOOM
+MOZ_CRASH
 (
 "
 Unable

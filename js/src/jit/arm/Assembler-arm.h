@@ -4435,10 +4435,14 @@ IsInRange
 offset
 )
 )
-CrashAtUnhandlableOOM
+MOZ_CRASH
 (
 "
 BOffImm
+offset
+out
+of
+range
 "
 )
 ;
