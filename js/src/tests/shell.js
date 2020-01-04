@@ -1156,11 +1156,6 @@ FAILED
 "
 ;
 var
-DEBUG
-=
-false
-;
-var
 DESCRIPTION
 ;
 var
