@@ -278,7 +278,7 @@ ZIP_IN
 ?
 =
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 (
@@ -288,7 +288,7 @@ WIN32_INSTALLER_IN
 ?
 =
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 (
@@ -365,7 +365,7 @@ MOZ_WIDGET_TOOLKIT
 MOZ_PKG_MAC_DSSTORE
 =
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 branding
@@ -374,7 +374,7 @@ dsstore
 MOZ_PKG_MAC_BACKGROUND
 =
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 branding
@@ -385,7 +385,7 @@ png
 MOZ_PKG_MAC_ICON
 =
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 branding
@@ -462,7 +462,7 @@ uninstall
 RM
 )
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 l10n
@@ -488,7 +488,7 @@ setup
 .
 exe
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 l10n
@@ -508,7 +508,7 @@ NSINSTALL
 D
 '
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 (
@@ -522,7 +522,7 @@ RM
 )
 '
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 (
@@ -551,7 +551,7 @@ stub
 exe
 '
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 (
@@ -569,7 +569,7 @@ chmod
 0755
 '
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 (
@@ -1282,7 +1282,7 @@ installer
 WIN32_INSTALLER_OUT
 =
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 (

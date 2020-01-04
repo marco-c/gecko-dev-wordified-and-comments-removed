@@ -210,7 +210,7 @@ endif
 PACKAGE_BASE_DIR
 =
 (
-_ABS_DIST
+ABS_DIST
 )
 PACKAGE
 =
@@ -571,11 +571,6 @@ PKG_JSSHELL
 (
 JSSHELL_BINS
 )
-)
-_ABS_DIST
-=
-(
-ABS_DIST
 )
 JARLOG_DIR
 =
@@ -1147,19 +1142,19 @@ s
 RPMBUILD_TOPDIR
 =
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 rpmbuild
 RPMBUILD_RPMDIR
 =
 (
-_ABS_DIST
+ABS_DIST
 )
 RPMBUILD_SRPMDIR
 =
 (
-_ABS_DIST
+ABS_DIST
 )
 RPMBUILD_SOURCEDIR
 =
@@ -1186,7 +1181,7 @@ rpm
 RPMBUILD_BUILDDIR
 =
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 .
@@ -1277,7 +1272,7 @@ rm
 -
 rf
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 (
@@ -1679,7 +1674,7 @@ TARGET_CPU
 MAIN_RPM
 )
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 ifdef
@@ -1730,7 +1725,7 @@ TARGET_CPU
 TESTS_RPM
 )
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 endif
@@ -1782,7 +1777,7 @@ TARGET_CPU
 SDK_RPM
 )
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 endif
@@ -2200,7 +2195,7 @@ fennec_ids
 .
 txt
 (
-_ABS_DIST
+ABS_DIST
 )
 &
 &
@@ -2222,7 +2217,7 @@ unaligned
 .
 apk
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 robocop
@@ -2567,7 +2562,7 @@ topsrcdir
 distdir
 '
 (
-_ABS_DIST
+ABS_DIST
 )
 '
 \
@@ -2582,7 +2577,7 @@ MOZ_APP_NAME
 \
 '
 (
-_ABS_DIST
+ABS_DIST
 )
 '
 else
@@ -3232,7 +3227,7 @@ dex
 into
 #
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 gecko
@@ -3240,7 +3235,7 @@ gecko
 ap_
 producing
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 gecko
@@ -3268,7 +3263,7 @@ unzip
 -
 o
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 gecko
@@ -3279,7 +3274,7 @@ ap_
 \
 rm
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 gecko
@@ -3294,7 +3289,7 @@ ZIP
 -
 r9D
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 gecko
@@ -3324,7 +3319,7 @@ MOZ_ENABLE_SZIP
 )
 )
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 gecko
@@ -3342,7 +3337,7 @@ ZIP
 -
 r9D
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 gecko
@@ -3400,7 +3395,7 @@ ZIP
 -
 0
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 gecko
@@ -3420,7 +3415,7 @@ rm
 -
 f
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 gecko
@@ -3431,14 +3426,14 @@ apk
 \
 cp
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 gecko
 .
 ap_
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 gecko
@@ -3453,7 +3448,7 @@ ZIP
 -
 j0
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 gecko
@@ -3477,14 +3472,14 @@ dex
 \
 cp
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 gecko
 .
 apk
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 gecko
@@ -3501,7 +3496,7 @@ apk
 RELEASE_JARSIGNER
 )
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 gecko
@@ -3519,7 +3514,7 @@ f
 v
 4
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 gecko
@@ -3571,7 +3566,7 @@ nodeps
 .
 ap_
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 gecko
@@ -3779,7 +3774,7 @@ classes
 .
 dex
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 classes
@@ -3812,7 +3807,7 @@ unaligned
 .
 apk
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 gecko
@@ -4010,7 +4005,7 @@ rm
 -
 rf
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 unpack
@@ -4022,7 +4017,7 @@ mkdir
 -
 p
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 unpack
@@ -4055,7 +4050,7 @@ MOZ_PKG_APPNAME
 -
 unpack
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 unpack
@@ -4068,7 +4063,7 @@ rsync
 a
 '
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 unpack
@@ -4100,7 +4095,7 @@ rsync
 a
 '
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 unpack
@@ -4133,7 +4128,7 @@ rsync
 a
 '
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 unpack
@@ -4173,7 +4168,7 @@ rsync
 a
 '
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 unpack
@@ -4196,7 +4191,7 @@ rm
 -
 rf
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 unpack
@@ -4469,7 +4464,7 @@ MOZ_SIGN_PREPARED_PACKAGE_CMD
 nsscmd
 '
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 bin

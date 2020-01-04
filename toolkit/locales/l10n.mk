@@ -418,7 +418,7 @@ ZIP_IN
 ?
 =
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 (
@@ -428,7 +428,7 @@ WIN32_INSTALLER_IN
 ?
 =
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 (
@@ -453,7 +453,7 @@ ZIP_OUT
 ?
 =
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 (
@@ -562,7 +562,7 @@ MOZ_WIDGET_TOOLKIT
 STAGEDIST
 =
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 l10n
@@ -584,7 +584,7 @@ else
 STAGEDIST
 =
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 l10n
@@ -626,7 +626,7 @@ mk
 PACKAGE_BASE_DIR
 =
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 l10n
@@ -1138,7 +1138,7 @@ PACKAGE_BASE_DIR
 =
 '
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 l10n
@@ -1421,7 +1421,7 @@ langpack
 LANGPACK_FILE
 =
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 (
@@ -1666,7 +1666,7 @@ NSINSTALL
 -
 D
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 (
@@ -1675,7 +1675,7 @@ PKG_PATH
 (
 cd
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 (
@@ -1717,7 +1717,7 @@ PACKAGE
 )
 to
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 (
@@ -1743,7 +1743,7 @@ NSINSTALL
 -
 D
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 (
@@ -1752,7 +1752,7 @@ PKG_INST_PATH
 (
 cd
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 (
@@ -1804,7 +1804,7 @@ PKG_INST_BASENAME
 exe
 to
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 (
@@ -1848,7 +1848,7 @@ mar
 path
 =
 (
-_ABS_DIST
+ABS_DIST
 )
 /
 update

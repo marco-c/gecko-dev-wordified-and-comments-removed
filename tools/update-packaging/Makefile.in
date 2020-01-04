@@ -264,7 +264,7 @@ subst
 DIST
 )
 (
-_ABS_DIST
+ABS_DIST
 )
 (
 INSTALLER_PACKAGE
