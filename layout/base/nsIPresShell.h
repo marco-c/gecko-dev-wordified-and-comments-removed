@@ -3013,6 +3013,7 @@ float
 GetResolution
 (
 )
+const
 {
 return
 mResolution

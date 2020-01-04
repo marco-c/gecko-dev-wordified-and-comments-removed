@@ -12224,6 +12224,7 @@ nsPresContext
 IsRootContentDocument
 (
 )
+const
 {
 if
 (

@@ -3050,6 +3050,7 @@ bool
 IsRootContentDocument
 (
 )
+const
 ;
 bool
 IsCrossProcessRootContentDocument
