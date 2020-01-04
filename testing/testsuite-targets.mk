@@ -3674,6 +3674,7 @@ test_archive
 1
 )
 \
+'
 (
 abspath
 (
@@ -3696,6 +3697,7 @@ PKG_BASENAME
 tests
 .
 zip
+'
 )
 package
 -
