@@ -542,8 +542,8 @@ endif
 #
 endif
 #
-ifndef
-MOZ_SYSTEM_ICU
+ifdef
+MOZ_ICU_DATA_ARCHIVE
 RESPATH
 /
 ICU_DATA_FILE
@@ -730,11 +730,6 @@ XP_WIN32
 BINPATH
 /
 AccessibleMarshal
-.
-dll
-BINPATH
-/
-IA2Marshal
 .
 dll
 #
