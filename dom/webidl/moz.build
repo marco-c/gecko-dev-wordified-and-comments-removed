@@ -2212,6 +2212,11 @@ StorageEvent
 webidl
 '
 '
+StorageManager
+.
+webidl
+'
+'
 StorageType
 .
 webidl

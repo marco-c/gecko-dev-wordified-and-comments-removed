@@ -43182,10 +43182,14 @@ do_GetService
 NS_CONTENTSECURITYMANAGER_CONTRACTID
 )
 ;
-NS_WARN_IF
+NS_WARNING_ASSERTION
 (
-!
 csm
+"
+csm
+is
+null
+"
 )
 ;
 if
