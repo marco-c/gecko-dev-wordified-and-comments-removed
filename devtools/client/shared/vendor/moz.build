@@ -97,6 +97,16 @@ modules
 =
 [
 ]
+modules
++
+=
+[
+'
+immutable
+.
+js
+'
+]
 #
 react
 -
