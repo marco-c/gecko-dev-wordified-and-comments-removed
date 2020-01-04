@@ -333,36 +333,6 @@ if
 isinstance
 (
 obj
-(
-JARManifest
-FinalTargetPreprocessedFiles
-)
-)
-:
-            
-defines
-=
-obj
-.
-defines
-or
-{
-}
-            
-if
-defines
-:
-                
-defines
-=
-defines
-.
-defines
-        
-if
-isinstance
-(
-obj
 JARManifest
 )
 and
@@ -387,7 +357,6 @@ self
 _consume_jar_manifest
 (
 obj
-defines
 )
         
 elif
@@ -416,6 +385,25 @@ bin
 '
 )
 :
+            
+defines
+=
+obj
+.
+defines
+or
+{
+}
+            
+if
+defines
+:
+                
+defines
+=
+defines
+.
+defines
             
 for
 path
@@ -760,7 +748,6 @@ _consume_jar_manifest
 (
 self
 obj
-defines
 )
 :
         
@@ -770,12 +757,22 @@ Preprocessor
 (
 )
         
+if
+obj
+.
+defines
+:
+            
 pp
 .
 context
 .
 update
 (
+obj
+.
+defines
+.
 defines
 )
         
@@ -927,6 +924,12 @@ FINAL_TARGET
 =
 install_target
             
+if
+obj
+.
+defines
+:
+                
 jar_context
 [
 '
@@ -934,6 +937,10 @@ DEFINES
 '
 ]
 =
+obj
+.
+defines
+.
 defines
             
 files
