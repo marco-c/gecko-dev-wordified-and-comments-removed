@@ -410,15 +410,7 @@ fi
 #
 taskcluster
 :
-elif
-test
--
-z
-"
-CCACHE_DIR
-"
-;
-then
+else
 #
 timeout
 after
@@ -512,9 +504,6 @@ placement
 availability
 -
 zone
-|
-|
-true
 )
 #
 region
