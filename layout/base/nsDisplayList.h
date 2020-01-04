@@ -5508,11 +5508,6 @@ nsIContent
 aCommonAncestor
 )
 ;
-void
-SortByCSSOrder
-(
-)
-;
 typedef
 bool
 (
