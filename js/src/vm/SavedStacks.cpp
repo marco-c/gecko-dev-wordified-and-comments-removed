@@ -345,9 +345,6 @@ LiveSavedFrameCache
 :
 trace
 (
-LiveSavedFrameCache
-*
-cache
 JSTracer
 *
 trc
@@ -356,9 +353,6 @@ trc
 if
 (
 !
-cache
--
->
 initialized
 (
 )
@@ -371,9 +365,6 @@ auto
 *
 entry
 =
-cache
--
->
 frames
 -
 >
@@ -383,9 +374,6 @@ begin
 ;
 entry
 <
-cache
--
->
 frames
 -
 >

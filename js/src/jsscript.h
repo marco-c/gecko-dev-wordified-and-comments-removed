@@ -466,12 +466,6 @@ length_
 ;
 class
 Binding
-:
-public
-JS
-:
-:
-Traceable
 {
 uintptr_t
 bits_
@@ -691,12 +685,6 @@ uintptr_t
 ;
 class
 Bindings
-:
-public
-JS
-:
-:
-Traceable
 {
 friend
 class

@@ -29,11 +29,6 @@ h
 "
 struct
 MyHeap
-:
-JS
-:
-:
-Traceable
 {
 explicit
 MyHeap
@@ -59,13 +54,9 @@ JSObject
 >
 weak
 ;
-static
 void
 trace
 (
-MyHeap
-*
-self
 JSTracer
 *
 trc
@@ -78,9 +69,6 @@ TraceWeakEdge
 (
 trc
 &
-self
--
->
 weak
 "
 weak

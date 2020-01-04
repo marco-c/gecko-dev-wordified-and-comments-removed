@@ -4570,12 +4570,6 @@ SystemAllocPolicy
 ;
 struct
 StackShape
-:
-public
-JS
-:
-:
-Traceable
 {
 UnownedBaseShape
 *

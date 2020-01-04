@@ -3406,12 +3406,6 @@ l
 ;
 class
 LiveSavedFrameCache
-:
-public
-JS
-:
-:
-Traceable
 {
 public
 :
@@ -3648,13 +3642,9 @@ FrameIter
 iter
 )
 ;
-static
 void
 trace
 (
-LiveSavedFrameCache
-*
-cache
 JSTracer
 *
 trc

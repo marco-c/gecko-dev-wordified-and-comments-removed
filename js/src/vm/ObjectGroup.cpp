@@ -7727,11 +7727,6 @@ DefaultHasher
 <
 AllocationSiteKey
 >
-public
-JS
-:
-:
-Traceable
 {
 ReadBarrieredScript
 script
@@ -7999,13 +7994,9 @@ proto
 )
 ;
 }
-static
 void
 trace
 (
-AllocationSiteKey
-*
-key
 JSTracer
 *
 trc
@@ -8015,9 +8006,6 @@ TraceRoot
 (
 trc
 &
-key
--
->
 script
 "
 AllocationSiteKey
@@ -8029,9 +8017,6 @@ TraceNullableRoot
 (
 trc
 &
-key
--
->
 proto
 "
 AllocationSiteKey

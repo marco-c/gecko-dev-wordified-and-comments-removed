@@ -215,12 +215,6 @@ testGCSuppressions
 )
 struct
 MyContainer
-:
-public
-JS
-:
-:
-Traceable
 {
 RelocatablePtrObject
 obj
@@ -242,13 +236,9 @@ nullptr
 )
 {
 }
-static
 void
 trace
 (
-MyContainer
-*
-self
 JSTracer
 *
 trc
@@ -256,9 +246,6 @@ trc
 {
 if
 (
-self
--
->
 obj
 )
 js
@@ -268,9 +255,6 @@ TraceEdge
 (
 trc
 &
-self
--
->
 obj
 "
 test
@@ -280,9 +264,6 @@ container
 ;
 if
 (
-self
--
->
 str
 )
 js
@@ -292,9 +273,6 @@ TraceEdge
 (
 trc
 &
-self
--
->
 str
 "
 test

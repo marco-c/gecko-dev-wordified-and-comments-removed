@@ -542,12 +542,6 @@ maybeGroup
 ;
 class
 Type
-:
-public
-JS
-:
-:
-Traceable
 {
 friend
 class
@@ -857,13 +851,9 @@ groupNoBarrier
 )
 const
 ;
-static
 void
 trace
 (
-Type
-*
-v
 JSTracer
 *
 trc
@@ -872,7 +862,7 @@ trc
 MarkTypeUnbarriered
 (
 trc
-v
+this
 "
 TypeSet
 :

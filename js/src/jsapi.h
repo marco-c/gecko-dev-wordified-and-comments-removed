@@ -9115,9 +9115,6 @@ JS
 {
 struct
 PropertyDescriptor
-:
-public
-Traceable
 {
 JSObject
 *
