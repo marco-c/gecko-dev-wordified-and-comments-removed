@@ -114,7 +114,6 @@ Promise
 (
 (
 resolve
-reject
 )
 =
 >
@@ -276,7 +275,6 @@ load
 function
 panelOnLoad
 (
-e
 )
 {
 iframe
@@ -480,7 +478,6 @@ Promise
 (
 (
 resolve
-reject
 )
 =
 >
@@ -1063,7 +1060,6 @@ Promise
 (
 (
 resolve
-reject
 )
 =
 >
@@ -1400,7 +1396,6 @@ unregister
 :
 function
 (
-channelID
 )
 {
 return

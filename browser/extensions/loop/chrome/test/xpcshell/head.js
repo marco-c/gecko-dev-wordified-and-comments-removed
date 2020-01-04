@@ -934,7 +934,6 @@ unregister
 :
 function
 (
-channelID
 )
 {
 return
@@ -990,7 +989,6 @@ defaultMsgHandler
 :
 function
 (
-msg
 )
 {
 this
@@ -1219,7 +1217,6 @@ close
 function
 (
 aCode
-aReason
 )
 {
 this

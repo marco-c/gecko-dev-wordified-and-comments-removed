@@ -2060,7 +2060,6 @@ _onClose
 function
 (
 aCode
-aReason
 )
 {
 this

@@ -29,6 +29,11 @@ l10n
 navigator
 .
 mozL10n
+|
+|
+document
+.
+mozL10n
 ;
 var
 sharedModels

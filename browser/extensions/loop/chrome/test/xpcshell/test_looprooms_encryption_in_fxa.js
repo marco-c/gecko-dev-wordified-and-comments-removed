@@ -1129,9 +1129,6 @@ test_get_rooms_saves_unknown_keys
 (
 )
 {
-let
-rooms
-=
 yield
 LoopRooms
 .
