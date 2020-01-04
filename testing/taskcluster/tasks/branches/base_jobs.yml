@@ -126,6 +126,12 @@ sim
 -
 sm
 -
+arm64
+-
+sim
+-
+sm
+-
 compacting
 -
 sm
