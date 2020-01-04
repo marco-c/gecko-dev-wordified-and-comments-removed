@@ -18291,6 +18291,11 @@ mPrincipal
 )
 )
 ;
+bool
+useDefaultEncoding
+=
+false
+;
 rv
 =
 ChannelFromScriptURLMainThread
@@ -18310,6 +18315,7 @@ ContentPolicyType
 (
 aWorkerType
 )
+useDefaultEncoding
 getter_AddRefs
 (
 loadInfo
