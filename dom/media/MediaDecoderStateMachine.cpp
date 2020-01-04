@@ -1704,6 +1704,10 @@ MediaDecoderStateMachine
 SameOriginMediaChanged
 )
 ;
+SameOriginMediaChanged
+(
+)
+;
 }
 bool
 MediaDecoderStateMachine
