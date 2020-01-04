@@ -1338,11 +1338,6 @@ MaybeFinishDecodeFirstFrame
 (
 )
 ;
-bool
-IsDecodingFirstFrame
-(
-)
-;
 void
 FinishDecodeFirstFrame
 (
@@ -1931,9 +1926,6 @@ MediaDecoderReader
 BufferedUpdatePromise
 >
 mBufferedUpdateRequest
-;
-bool
-mDecodingFirstFrame
 ;
 bool
 mSentLoadedMetadataEvent
