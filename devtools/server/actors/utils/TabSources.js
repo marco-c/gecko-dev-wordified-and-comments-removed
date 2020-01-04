@@ -2186,6 +2186,7 @@ originalLocation
 let
 source
 =
+(
 originalSourceActor
 .
 source
@@ -2194,6 +2195,7 @@ source
 originalSourceActor
 .
 generatedSource
+)
 ;
 return
 this

@@ -344,9 +344,9 @@ resume
 }
 )
 ;
-gDebuggee
+Cu
 .
-eval
+evalInSandbox
 (
 "
 var
@@ -450,6 +450,6 @@ foo
 \
 n
 "
+gDebuggee
 )
-;
 }
