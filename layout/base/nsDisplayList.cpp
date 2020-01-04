@@ -22632,9 +22632,11 @@ NeedsActiveLayer
 aBuilder
 )
 )
+{
 return
-LAYER_ACTIVE
+LAYER_ACTIVE_FORCE
 ;
+}
 return
 RequiredLayerStateForChildren
 (
@@ -30137,7 +30139,7 @@ aBuilder
 )
 {
 return
-LAYER_ACTIVE
+LAYER_ACTIVE_FORCE
 ;
 }
 const
