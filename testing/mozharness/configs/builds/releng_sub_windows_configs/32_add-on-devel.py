@@ -59,6 +59,18 @@ devel
 '
     
 '
+build_type
+'
+:
+'
+add
+-
+on
+-
+devel
+'
+    
+'
 enable_talos_sendchange
 '
 :
