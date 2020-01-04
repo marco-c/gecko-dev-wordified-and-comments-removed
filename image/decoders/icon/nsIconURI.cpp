@@ -834,6 +834,8 @@ get
 if
 (
 sizeValue
+>
+0
 )
 {
 mSize
