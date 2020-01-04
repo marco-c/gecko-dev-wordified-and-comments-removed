@@ -271,6 +271,13 @@ LongTap
 -
 >
 NoAction
+[
+label
+=
+"
+Release
+"
+]
 ;
 Scroll
 [
