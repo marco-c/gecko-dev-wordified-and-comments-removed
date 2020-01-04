@@ -259,6 +259,11 @@ Point
 h
 '
 '
+Preferences
+.
+h
+'
+'
 Quaternion
 .
 h
@@ -873,6 +878,11 @@ cpp
 '
 '
 PathRecording
+.
+cpp
+'
+'
+Preferences
 .
 cpp
 '
