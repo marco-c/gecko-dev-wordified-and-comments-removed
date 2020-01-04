@@ -111,6 +111,15 @@ int
 bpp
 )
 {
+png_debug
+(
+1
+"
+in
+png_init_filter_functions_neon
+"
+)
+;
 #
 ifdef
 PNG_ARM_NEON_API_SUPPORTED

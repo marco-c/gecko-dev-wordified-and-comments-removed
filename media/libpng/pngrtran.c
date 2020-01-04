@@ -900,12 +900,12 @@ if
 (
 output_gamma
 <
-70000
+1000
 |
 |
 output_gamma
 >
-300000
+10000000
 )
 png_error
 (
