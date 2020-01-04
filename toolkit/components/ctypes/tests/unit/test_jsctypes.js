@@ -18878,7 +18878,7 @@ a
 ]
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_eq
@@ -18904,7 +18904,7 @@ a
 ]
 ;
 }
-RangeError
+Error
 )
 ;
 do_check_eq
