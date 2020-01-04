@@ -600,6 +600,7 @@ of
 nsISupportsArray
 :
 extern
+MOZ_MUST_USE
 nsresult
 NS_NewISupportsArray
 (
