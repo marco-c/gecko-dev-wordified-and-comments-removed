@@ -1877,13 +1877,6 @@ return
 false
 ;
 }
-*
-out_failureReason
-=
-"
-FEATURE_FAILURE_D3D11_VR_BUFFER
-"
-;
 }
 RefPtr
 <
