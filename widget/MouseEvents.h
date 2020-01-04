@@ -602,7 +602,7 @@ WidgetMouseEvent
 (
 )
 :
-reason
+mReason
 (
 eReal
 )
@@ -650,7 +650,7 @@ aMessage
 aWidget
 aEventClassID
 )
-reason
+mReason
 (
 aReason
 )
@@ -714,7 +714,7 @@ aMessage
 aWidget
 eMouseEventClass
 )
-reason
+mReason
 (
 aReason
 )
@@ -846,7 +846,7 @@ WidgetMouseEvent
 false
 mMessage
 nullptr
-reason
+mReason
 context
 )
 ;
@@ -872,7 +872,7 @@ result
 ;
 }
 Reason
-reason
+mReason
 ;
 ContextMenuTrigger
 context
@@ -956,7 +956,7 @@ IsReal
 const
 {
 return
-reason
+mReason
 =
 =
 eReal
