@@ -1223,14 +1223,6 @@ bool
 aScrollToAnchor
 )
 ;
-bool
-IsBlockNode
-(
-nsIDOMNode
-*
-aNode
-)
-;
 virtual
 bool
 IsBlockNode

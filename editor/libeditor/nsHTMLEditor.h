@@ -2633,7 +2633,7 @@ aNode
 void
 NormalizeEOLInsertPosition
 (
-nsIDOMNode
+nsINode
 *
 firstNodeToInsert
 nsCOMPtr
