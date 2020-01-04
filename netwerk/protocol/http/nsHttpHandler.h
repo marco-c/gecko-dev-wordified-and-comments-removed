@@ -1621,6 +1621,13 @@ mSafeHintEnabled
 bool
 mParentalControlEnabled
 ;
+Atomic
+<
+bool
+Relaxed
+>
+mHandlerActive
+;
 uint32_t
 mTelemetryEnabled
 :
@@ -1633,11 +1640,6 @@ mAllowExperiments
 ;
 uint32_t
 mDebugObservations
-:
-1
-;
-uint32_t
-mHandlerActive
 :
 1
 ;
