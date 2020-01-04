@@ -4587,6 +4587,12 @@ string
 ;
 }
 }
+this
+.
+resize
+(
+)
+;
 }
 filterMessageNode
 :
