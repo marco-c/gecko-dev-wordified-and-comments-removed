@@ -3905,7 +3905,9 @@ SavedFrame
 >
 asyncStack_
 ;
-RootedString
+const
+char
+*
 asyncCause_
 ;
 bool
@@ -4221,11 +4223,13 @@ return
 asyncStack_
 ;
 }
-JSString
+const
+char
 *
 asyncCause
 (
 )
+const
 {
 return
 asyncCause_

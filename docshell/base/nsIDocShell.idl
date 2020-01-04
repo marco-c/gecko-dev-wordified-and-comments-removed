@@ -6925,7 +6925,7 @@ in
 jsval
 asyncStack
 in
-jsval
+string
 asyncCause
 )
 ;

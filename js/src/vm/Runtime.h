@@ -2510,14 +2510,9 @@ SavedFrame
 >
 asyncStackForNewActivations
 ;
-JS
-:
-:
-PersistentRooted
-<
-JSString
+const
+char
 *
->
 asyncCauseForNewActivations
 ;
 bool
