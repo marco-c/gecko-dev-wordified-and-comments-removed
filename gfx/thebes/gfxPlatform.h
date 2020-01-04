@@ -599,12 +599,6 @@ ShutdownLayersIPC
 (
 )
 ;
-static
-bool
-IPCAlreadyShutDown
-(
-)
-;
 virtual
 already_AddRefed
 <
