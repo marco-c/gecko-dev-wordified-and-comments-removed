@@ -180,7 +180,6 @@ NS_IDOCUMENT_VIEWER_PRINT_IID
 define
 NS_DECL_NSIDOCUMENTVIEWERPRINT
 \
-virtual
 void
 SetIsPrinting
 (
@@ -190,7 +189,6 @@ aIsPrinting
 override
 ;
 \
-virtual
 bool
 GetIsPrinting
 (
@@ -198,7 +196,6 @@ GetIsPrinting
 override
 ;
 \
-virtual
 void
 SetIsPrintPreview
 (
@@ -208,7 +205,6 @@ aIsPrintPreview
 override
 ;
 \
-virtual
 bool
 GetIsPrintPreview
 (
@@ -216,7 +212,6 @@ GetIsPrintPreview
 override
 ;
 \
-virtual
 mozilla
 :
 :
@@ -230,7 +225,6 @@ aDocument
 override
 ;
 \
-virtual
 void
 IncrementDestroyRefCount
 (
@@ -238,7 +232,6 @@ IncrementDestroyRefCount
 override
 ;
 \
-virtual
 void
 ReturnToGalleyPresentation
 (
@@ -246,7 +239,6 @@ ReturnToGalleyPresentation
 override
 ;
 \
-virtual
 void
 OnDonePrinting
 (
@@ -254,7 +246,6 @@ OnDonePrinting
 override
 ;
 \
-virtual
 bool
 IsInitializedForPrintPreview
 (
@@ -262,7 +253,6 @@ IsInitializedForPrintPreview
 override
 ;
 \
-virtual
 void
 InitializeForPrintPreview
 (
@@ -270,7 +260,6 @@ InitializeForPrintPreview
 override
 ;
 \
-virtual
 void
 SetPrintPreviewPresentation
 (
