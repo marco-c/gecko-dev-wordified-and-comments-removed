@@ -720,6 +720,12 @@ nsACString
 aUrl
 )
 ;
+LoadTainting
+GetTainting
+(
+)
+const
+;
 private
 :
 ~
