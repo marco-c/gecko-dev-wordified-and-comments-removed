@@ -2120,6 +2120,9 @@ config
 hg_user
 "
 ]
+force
+=
+True
 )
     
 def
