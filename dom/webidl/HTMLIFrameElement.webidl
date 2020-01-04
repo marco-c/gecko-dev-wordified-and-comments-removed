@@ -228,7 +228,7 @@ value
 ]
 readonly
 attribute
-DOMSettableTokenList
+DOMTokenList
 sandbox
 ;
 /

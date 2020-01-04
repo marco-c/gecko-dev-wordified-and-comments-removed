@@ -291,6 +291,11 @@ attribute
 DOMString
 referrerPolicy
 ;
+[
+PutForwards
+=
+value
+]
 readonly
 attribute
 DOMTokenList

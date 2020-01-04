@@ -725,11 +725,6 @@ DOMRequest
 webidl
 '
 '
-DOMSettableTokenList
-.
-webidl
-'
-'
 DOMStringList
 .
 webidl

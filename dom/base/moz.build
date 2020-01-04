@@ -1431,11 +1431,6 @@ nsDOMSerializer
 cpp
 '
 '
-nsDOMSettableTokenList
-.
-cpp
-'
-'
 nsDOMTokenList
 .
 cpp

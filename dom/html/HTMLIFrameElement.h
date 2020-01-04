@@ -30,7 +30,7 @@ h
 #
 include
 "
-nsDOMSettableTokenList
+nsDOMTokenList
 .
 h
 "
@@ -345,7 +345,7 @@ aError
 )
 ;
 }
-nsDOMSettableTokenList
+nsDOMTokenList
 *
 Sandbox
 (

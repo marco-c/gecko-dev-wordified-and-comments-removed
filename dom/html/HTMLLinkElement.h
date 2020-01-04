@@ -498,7 +498,7 @@ aRv
 )
 ;
 }
-nsDOMSettableTokenList
+nsDOMTokenList
 *
 Sizes
 (

@@ -257,6 +257,11 @@ attribute
 DOMString
 rel
 ;
+[
+PutForwards
+=
+value
+]
 readonly
 attribute
 DOMTokenList
@@ -293,7 +298,7 @@ value
 ]
 readonly
 attribute
-DOMSettableTokenList
+DOMTokenList
 sizes
 ;
 }

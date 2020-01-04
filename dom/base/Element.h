@@ -227,9 +227,6 @@ class
 nsContentList
 ;
 class
-nsDOMSettableTokenList
-;
-class
 nsDOMTokenList
 ;
 struct
@@ -3821,7 +3818,7 @@ nsAString
 aTarget
 )
 ;
-nsDOMSettableTokenList
+nsDOMTokenList
 *
 GetTokenList
 (

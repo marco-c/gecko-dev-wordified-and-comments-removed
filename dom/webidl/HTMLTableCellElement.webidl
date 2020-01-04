@@ -186,7 +186,7 @@ value
 ]
 readonly
 attribute
-DOMSettableTokenList
+DOMTokenList
 headers
 ;
 [

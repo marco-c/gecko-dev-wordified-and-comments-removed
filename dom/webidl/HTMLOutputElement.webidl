@@ -203,7 +203,7 @@ Constant
 ]
 readonly
 attribute
-DOMSettableTokenList
+DOMTokenList
 htmlFor
 ;
 readonly

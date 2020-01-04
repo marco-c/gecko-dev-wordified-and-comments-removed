@@ -651,7 +651,7 @@ h
 #
 include
 "
-nsDOMSettableTokenList
+nsDOMTokenList
 .
 h
 "

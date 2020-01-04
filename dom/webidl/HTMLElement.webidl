@@ -240,7 +240,7 @@ Constant
 ]
 readonly
 attribute
-DOMSettableTokenList
+DOMTokenList
 itemType
 ;
 [
@@ -259,7 +259,7 @@ Constant
 ]
 readonly
 attribute
-DOMSettableTokenList
+DOMTokenList
 itemRef
 ;
 [
@@ -270,7 +270,7 @@ Constant
 ]
 readonly
 attribute
-DOMSettableTokenList
+DOMTokenList
 itemProp
 ;
 [
@@ -362,7 +362,7 @@ value
 ]
 readonly
 attribute
-DOMSettableTokenList
+DOMTokenList
 dropzone
 ;
 [

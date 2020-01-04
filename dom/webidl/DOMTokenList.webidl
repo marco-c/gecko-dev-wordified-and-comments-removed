@@ -213,6 +213,13 @@ boolean
 force
 )
 ;
+[
+SetterThrows
+]
+attribute
+DOMString
+value
+;
 stringifier
 DOMString
 (

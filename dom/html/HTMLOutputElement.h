@@ -228,7 +228,7 @@ aGivenProto
 )
 override
 ;
-nsDOMSettableTokenList
+nsDOMTokenList
 *
 HtmlFor
 (
@@ -373,7 +373,7 @@ mDefaultValue
 ;
 RefPtr
 <
-nsDOMSettableTokenList
+nsDOMTokenList
 >
 mTokenList
 ;
