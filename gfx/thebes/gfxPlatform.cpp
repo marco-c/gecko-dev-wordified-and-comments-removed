@@ -5628,6 +5628,15 @@ if
 (
 !
 aTarget
+|
+|
+!
+aTarget
+-
+>
+IsValid
+(
+)
 )
 {
 return
