@@ -46,9 +46,11 @@ x86
 '
 workerType
 :
-linux64
+android
 -
-opt
+api
+-
+15
 routes
 :
 -
