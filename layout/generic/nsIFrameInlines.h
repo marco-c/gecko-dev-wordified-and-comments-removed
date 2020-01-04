@@ -204,7 +204,7 @@ bool
 nsIFrame
 :
 :
-IsAbsPosContaininingBlock
+IsAbsPosContainingBlock
 (
 )
 const

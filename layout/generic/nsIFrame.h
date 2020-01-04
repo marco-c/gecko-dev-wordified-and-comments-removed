@@ -7217,7 +7217,7 @@ const
 ;
 inline
 bool
-IsAbsPosContaininingBlock
+IsAbsPosContainingBlock
 (
 )
 const

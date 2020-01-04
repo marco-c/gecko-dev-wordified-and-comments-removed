@@ -12702,7 +12702,7 @@ mScrolledFrame
 kid
 -
 >
-IsAbsPosContaininingBlock
+IsAbsPosContainingBlock
 (
 )
 |
