@@ -109,6 +109,13 @@ nsIDOMSVGElement
 .
 h
 "
+#
+include
+"
+SVGContentUtils
+.
+h
+"
 class
 nsSVGAngle
 ;
@@ -569,14 +576,6 @@ GetCtx
 )
 const
 ;
-enum
-TransformTypes
-{
-eAllTransforms
-eUserSpaceToParent
-eChildToUserSpace
-}
-;
 virtual
 gfxMatrix
 PrependLocalTransformsTo
@@ -585,7 +584,7 @@ const
 gfxMatrix
 &
 aMatrix
-TransformTypes
+SVGTransformTypes
 aWhich
 =
 eAllTransforms

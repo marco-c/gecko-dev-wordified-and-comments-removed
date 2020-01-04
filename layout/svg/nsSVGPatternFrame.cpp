@@ -1611,9 +1611,6 @@ GetContent
 PrependLocalTransformsTo
 (
 tm
-nsSVGElement
-:
-:
 eUserSpaceToParent
 )
 ;

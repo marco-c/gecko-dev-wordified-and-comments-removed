@@ -1012,9 +1012,6 @@ PrependLocalTransformsTo
 gfxMatrix
 (
 )
-nsSVGElement
-:
-:
 eUserSpaceToParent
 )
 )
@@ -1156,9 +1153,6 @@ GetContent
 PrependLocalTransformsTo
 (
 matrix
-nsSVGElement
-:
-:
 eChildToUserSpace
 )
 ;
@@ -1264,9 +1258,6 @@ element
 PrependLocalTransformsTo
 (
 m
-nsSVGElement
-:
-:
 eUserSpaceToParent
 )
 ;

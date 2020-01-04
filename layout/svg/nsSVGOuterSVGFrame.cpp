@@ -4276,9 +4276,6 @@ content
 PrependLocalTransformsTo
 (
 identity
-nsSVGElement
-:
-:
 eChildToUserSpace
 )
 )

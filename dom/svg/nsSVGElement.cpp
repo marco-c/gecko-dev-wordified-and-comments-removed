@@ -6954,7 +6954,7 @@ const
 gfxMatrix
 &
 aMatrix
-TransformTypes
+SVGTransformTypes
 aWhich
 )
 const

@@ -240,9 +240,6 @@ pathElement
 PrependLocalTransformsTo
 (
 mMatrixForChildren
-nsSVGElement
-:
-:
 eUserSpaceToParent
 )
 ;
@@ -645,9 +642,6 @@ childContent
 PrependLocalTransformsTo
 (
 mMatrixForChildren
-nsSVGElement
-:
-:
 eUserSpaceToParent
 )
 ;
@@ -1178,9 +1172,6 @@ PrependLocalTransformsTo
 gfxMatrix
 (
 )
-nsSVGElement
-:
-:
 eUserSpaceToParent
 )
 ;

@@ -130,6 +130,11 @@ SVGAttrValueWrapper
 h
 '
 '
+SVGContentUtils
+.
+h
+'
+'
 SVGPreserveAspectRatio
 .
 h

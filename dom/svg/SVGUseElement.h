@@ -260,7 +260,7 @@ const
 gfxMatrix
 &
 aMatrix
-TransformTypes
+SVGTransformTypes
 aWhich
 =
 eAllTransforms
