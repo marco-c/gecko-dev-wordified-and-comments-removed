@@ -348,7 +348,7 @@ Inset
 ;
 enum
 class
-StyleClipShapeSizing
+StyleClipPathGeometryBox
 :
 uint8_t
 {

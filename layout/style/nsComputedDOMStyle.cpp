@@ -29681,7 +29681,7 @@ const
 StyleBasicShape
 *
 aStyleBasicShape
-StyleClipShapeSizing
+StyleClipPathGeometryBox
 aSizingBox
 )
 {
@@ -29718,7 +29718,7 @@ if
 aSizingBox
 =
 =
-StyleClipShapeSizing
+StyleClipPathGeometryBox
 :
 :
 NoBox
@@ -29746,7 +29746,7 @@ aSizingBox
 nsCSSProps
 :
 :
-kClipShapeSizingKTable
+kClipPathGeometryBoxKTable
 )
 boxString
 )
