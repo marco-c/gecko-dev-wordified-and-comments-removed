@@ -258,6 +258,13 @@ home_tab_menu_strip
 "
 gecko
 :
+titlebarFill
+=
+"
+true
+"
+gecko
+:
 activeTextColor
 =
 "
