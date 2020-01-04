@@ -2004,6 +2004,21 @@ e
 arg
 ]
             
+reason
+=
+self
+.
+_raw_options
+.
+get
+(
+reason
+)
+or
+reason
+.
+option
+            
 raise
 InvalidOptionError
 (
@@ -4445,27 +4460,10 @@ Option
                     
 reason
 =
-(
-self
-.
-_raw_options
-.
-get
-(
 possible_reasons
 [
 0
 ]
-)
-or
-                              
-possible_reasons
-[
-0
-]
-.
-option
-)
         
 if
 not
