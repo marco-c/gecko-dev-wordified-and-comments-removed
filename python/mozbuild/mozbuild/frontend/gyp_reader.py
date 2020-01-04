@@ -578,12 +578,7 @@ depth
 =
 encode
 (
-mozpath
-.
-dirname
-(
-path
-)
+chrome_src
 )
             
 params
