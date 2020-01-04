@@ -2284,14 +2284,14 @@ inPrivateBrowsing
 imgLoader
 :
 :
-PBSingleton
+PrivateBrowsingLoader
 (
 )
 :
 imgLoader
 :
 :
-Singleton
+NormalLoader
 (
 )
 ;

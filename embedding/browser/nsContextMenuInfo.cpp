@@ -1403,7 +1403,7 @@ il
 imgLoader
 :
 :
-Singleton
+NormalLoader
 (
 )
 ;

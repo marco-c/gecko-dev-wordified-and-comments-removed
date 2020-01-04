@@ -902,14 +902,14 @@ NS_DECL_NSIOBSERVER
 static
 imgLoader
 *
-Singleton
+NormalLoader
 (
 )
 ;
 static
 imgLoader
 *
-PBSingleton
+PrivateBrowsingLoader
 (
 )
 ;
