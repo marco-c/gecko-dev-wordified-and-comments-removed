@@ -1657,16 +1657,6 @@ Init
 (
 )
 ;
-layers
-:
-:
-CompositorLRU
-:
-:
-Init
-(
-)
-;
 mozilla
 :
 :
