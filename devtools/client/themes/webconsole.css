@@ -3575,9 +3575,7 @@ primary
 .
 devtools
 -
-plain
--
-input
+plaininput
 {
 flex
 :
@@ -3585,11 +3583,5 @@ flex
 1
 100
 %
-;
-border
--
-color
-:
-transparent
 ;
 }

@@ -213,7 +213,7 @@ classList
 push
 (
 "
-active
+checked
 "
 )
 ;
