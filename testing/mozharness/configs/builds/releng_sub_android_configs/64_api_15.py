@@ -10,9 +10,8 @@ base_name
 Android
 armv7
 API
-11
+15
 +
-b2gdroid
 %
 (
 branch
@@ -29,9 +28,7 @@ android
 -
 api
 -
-11
--
-b2gdroid
+15
 '
     
 '
@@ -41,9 +38,7 @@ build_type
 '
 api
 -
-11
--
-b2gdroid
+15
 -
 opt
 '
@@ -57,11 +52,15 @@ mobile
 /
 android
 /
-b2gdroid
-/
 config
 /
 mozconfigs
+/
+android
+-
+api
+-
+15
 /
 nightly
 '
@@ -81,7 +80,7 @@ tooltool
 -
 manifests
 /
-b2gdroid
+android
 /
 releng
 .
@@ -95,10 +94,4 @@ multi_locale_config_platform
 '
 android
 '
-    
-'
-enable_nightly_promotion
-'
-:
-True
 }

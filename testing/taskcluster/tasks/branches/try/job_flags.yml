@@ -168,7 +168,7 @@ android
 -
 api
 -
-11
+15
 :
 platforms
 :
@@ -184,7 +184,7 @@ tasks
 /
 builds
 /
-android_api_11
+android_api_15
 .
 yml
 android
@@ -207,7 +207,7 @@ tasks
 /
 builds
 /
-android_api_11_partner_sample1
+android_api_15_partner_sample1
 .
 yml
 linux
@@ -559,7 +559,7 @@ tasks
 /
 builds
 /
-android_api_11
+android_api_15
 .
 yml
 task

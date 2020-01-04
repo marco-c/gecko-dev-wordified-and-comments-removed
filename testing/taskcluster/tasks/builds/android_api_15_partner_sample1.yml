@@ -20,7 +20,7 @@ android
 -
 api
 -
-11
+15
 -
 partner
 -
@@ -44,7 +44,7 @@ TC
 Android
 armv7
 API
-11
+15
 +
 partner
 sample
@@ -56,7 +56,7 @@ description
 Android
 armv7
 API
-11
+15
 +
 partner
 sample
@@ -68,7 +68,7 @@ android
 -
 api
 -
-11
+15
 routes
 :
 -
@@ -89,7 +89,7 @@ android
 -
 api
 -
-11
+15
 -
 partner
 -
@@ -119,7 +119,7 @@ android
 -
 api
 -
-11
+15
 -
 partner
 -
@@ -155,7 +155,7 @@ android
 -
 api
 -
-11
+15
 -
 workspace
 '
@@ -227,7 +227,7 @@ android
 -
 api
 -
-11
+15
 -
 workspace
 :
@@ -303,7 +303,7 @@ MH_CUSTOM_BUILD_VARIANT_CFG
 :
 api
 -
-11
+15
 -
 partner
 -
@@ -482,7 +482,7 @@ android
 -
 armv7
 -
-api11
+api15
 -
 partner1
 #

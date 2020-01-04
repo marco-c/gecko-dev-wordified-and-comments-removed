@@ -20,7 +20,7 @@ android
 -
 api
 -
-11
+15
 -
 b2gdroid
 '
@@ -42,7 +42,7 @@ TC
 B2GDroid
 armv7
 API
-11
+15
 +
 '
 description
@@ -51,7 +51,7 @@ description
 B2GDroid
 armv7
 API
-11
+15
 +
 '
 workerType
@@ -60,7 +60,7 @@ android
 -
 api
 -
-11
+15
 routes
 :
 -
@@ -81,7 +81,7 @@ android
 -
 api
 -
-11
+15
 -
 b2gdroid
 '
@@ -109,7 +109,7 @@ android
 -
 api
 -
-11
+15
 -
 b2gdroid
 '
@@ -143,7 +143,7 @@ android
 -
 api
 -
-11
+15
 -
 workspace
 '
@@ -215,7 +215,7 @@ android
 -
 api
 -
-11
+15
 -
 workspace
 :
@@ -291,7 +291,7 @@ MH_CUSTOM_BUILD_VARIANT_CFG
 :
 api
 -
-11
+15
 -
 b2gdroid
 MH_BRANCH
@@ -374,7 +374,7 @@ b2gdroid
 -
 armv7
 -
-api11
+api15
 #
 Rather
 then

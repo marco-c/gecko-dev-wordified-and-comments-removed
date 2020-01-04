@@ -59,7 +59,7 @@ android
 -
 api
 -
-11
+15
 :
 platforms
 :
@@ -75,7 +75,7 @@ tasks
 /
 builds
 /
-android_api_11
+android_api_15
 .
 yml
 aries

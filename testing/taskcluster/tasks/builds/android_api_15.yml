@@ -36,7 +36,7 @@ TC
 Android
 armv7
 API
-11
+15
 +
 '
 description
@@ -45,7 +45,7 @@ description
 Android
 armv7
 API
-11
+15
 +
 '
 workerType
@@ -54,7 +54,7 @@ android
 -
 api
 -
-11
+15
 routes
 :
 -
@@ -75,7 +75,7 @@ android
 -
 api
 -
-11
+15
 '
 -
 '
@@ -101,7 +101,7 @@ android
 -
 api
 -
-11
+15
 '
 scopes
 :
@@ -133,7 +133,7 @@ android
 -
 api
 -
-11
+15
 -
 workspace
 '
@@ -205,7 +205,7 @@ android
 -
 api
 -
-11
+15
 -
 workspace
 :
@@ -281,7 +281,7 @@ MH_CUSTOM_BUILD_VARIANT_CFG
 :
 api
 -
-11
+15
 MH_BRANCH
 :
 {
@@ -359,7 +359,7 @@ android
 -
 armv7
 -
-api11
+api15
 #
 Rather
 then
