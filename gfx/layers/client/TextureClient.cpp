@@ -4157,6 +4157,10 @@ mIsLocked
 (
 false
 )
+mInUse
+(
+false
+)
 mAddedToCompositableClient
 (
 false
