@@ -88,6 +88,9 @@ nsIFile
 mDir
 ;
 nsCString
+mSuffix
+;
+nsCString
 mGroup
 ;
 nsCString

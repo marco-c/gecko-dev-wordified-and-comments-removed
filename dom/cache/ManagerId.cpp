@@ -110,6 +110,7 @@ GetInfoFromPrincipal
 (
 aPrincipal
 nullptr
+nullptr
 &
 quotaOrigin
 nullptr
