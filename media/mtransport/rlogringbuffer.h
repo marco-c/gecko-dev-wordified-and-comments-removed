@@ -175,6 +175,7 @@ string
 &
 log
 )
+;
 void
 Clear
 (
