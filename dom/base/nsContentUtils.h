@@ -4410,6 +4410,12 @@ DOMWindowDumpEnabled
 )
 ;
 static
+bool
+DoNotTrackEnabled
+(
+)
+;
+static
 mozilla
 :
 :
@@ -5494,6 +5500,10 @@ sDOMWindowDumpEnabled
 ;
 #
 endif
+static
+bool
+sDoNotTrackEnabled
+;
 static
 mozilla
 :
