@@ -1180,6 +1180,7 @@ success
 &
 params
 )
+{
 params
 .
 SetInt
@@ -1188,6 +1189,7 @@ SetInt
 1
 )
 ;
+}
 return
 success
 ;

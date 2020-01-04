@@ -56,10 +56,12 @@ context
 exited
 "
 )
+{
 run_next_test
 (
 )
 ;
+}
 }
 }
 ;

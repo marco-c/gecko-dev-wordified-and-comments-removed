@@ -260,12 +260,14 @@ entryInput
 =
 outEntryInput
 )
+{
 outEntryInput
 .
 close
 (
 )
 ;
+}
 }
 }
 }
@@ -452,6 +454,7 @@ available
 =
 0
 )
+{
 throw
 "
 Truncating
@@ -468,6 +471,7 @@ entry
 .
 "
 ;
+}
 var
 content
 =

@@ -453,11 +453,12 @@ ifr_bootstrap
 ;
 for
 (
-var
+let
 test
 in
 testframes
 )
+{
 document
 .
 body
@@ -476,6 +477,7 @@ test
 )
 )
 ;
+}
 /
 /
 clean
@@ -838,6 +840,7 @@ roundsLeft
 =
 1
 )
+{
 setTimeout
 (
 function
@@ -855,6 +858,7 @@ subdom
 0
 )
 ;
+}
 }
 if
 (

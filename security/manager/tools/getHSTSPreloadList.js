@@ -2286,6 +2286,7 @@ shouldRetry
 response
 )
 )
+{
 inHosts
 .
 push
@@ -2293,7 +2294,9 @@ push
 response
 )
 ;
+}
 else
+{
 outStatuses
 .
 push
@@ -2301,6 +2304,7 @@ push
 response
 )
 ;
+}
 if
 (
 inHosts
