@@ -33,9 +33,6 @@ namespace
 js
 {
 class
-TypedArrayObject
-;
-class
 StringBuffer
 ;
 namespace
@@ -47,12 +44,12 @@ BinaryToText
 JSContext
 *
 cx
-Handle
-<
-TypedArrayObject
+const
+uint8_t
 *
->
-code
+bytes
+size_t
+length
 StringBuffer
 &
 buffer
