@@ -404,6 +404,9 @@ enforceSecurity
 bool
 initialSecurityCheckDone
 ;
+bool
+isInThirdPartyContext
+;
 NeckoOriginAttributes
 originAttributes
 ;
