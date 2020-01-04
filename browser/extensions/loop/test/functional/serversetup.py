@@ -26,7 +26,17 @@ hanging_threads
 from
 config
 import
-*
+CONTENT_SERVER_PORT
+LOOP_SERVER_PORT
+LOOP_SERVER_URL
+\
+    
+FIREFOX_PREFERENCES
+hanging_threads
+.
+start_monitoring
+(
+)
 CONTENT_SERVER_COMMAND
 =
 [
@@ -84,7 +94,7 @@ CONTENT_SERVER_PORT
 )
 +
 \
-  
+    
 "
 /
 content
@@ -297,7 +307,7 @@ content_server_location
 is
 None
 :
-          
+            
 content_server_location
 =
 os
@@ -314,7 +324,7 @@ dirname
 (
 __file__
 )
-                                                 
+                                                   
 "
 .
 .

@@ -57,7 +57,7 @@ LoopTestServers
 from
 config
 import
-*
+FIREFOX_PREFERENCES
 class
 Test1BrowserCall
 (
@@ -496,12 +496,10 @@ arguments
 0
 ]
 '
-class
+anonid
 '
 '
-chat
--
-frame
+content
 '
 )
 ;
@@ -803,7 +801,7 @@ wait_for_element_displayed
 By
 .
 CSS_SELECTOR
-                                                        
+                                                
 selector
 20
 )
@@ -1350,13 +1348,11 @@ arguments
 0
 ]
 '
-class
+anonid
 '
               
 '
-chat
--
-frame
+content
 '
 )
             
