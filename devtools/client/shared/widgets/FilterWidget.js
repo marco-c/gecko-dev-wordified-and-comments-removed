@@ -115,18 +115,9 @@ utils
 "
 )
 ;
-loader
-.
-lazyGetter
-(
-this
-"
+const
 asyncStorage
-"
-(
-)
 =
->
 require
 (
 "
@@ -138,7 +129,6 @@ async
 -
 storage
 "
-)
 )
 ;
 loader
