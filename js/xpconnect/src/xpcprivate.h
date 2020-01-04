@@ -2375,6 +2375,9 @@ AsyncFreeSnowWhite
 >
 mAsyncSnowWhiteFreer
 ;
+bool
+mSlowScriptSecondHalf
+;
 mozilla
 :
 :
