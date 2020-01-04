@@ -13540,17 +13540,6 @@ enable_count_ctors
 )
 :
             
-if
-c
-.
-get
-(
-'
-enable_count_ctors
-'
-)
-:
-                
 self
 .
 info
@@ -13563,7 +13552,7 @@ ctors
 .
 "
 )
-                
+            
 self
 .
 _count_ctors

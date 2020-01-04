@@ -54,6 +54,14 @@ test
 '
         
 '
+generate
+-
+build
+-
+stats
+'
+        
+'
 update
 '
     
