@@ -78,13 +78,6 @@ js
 '
 marker
 -
-formatters
-.
-js
-'
-'
-marker
--
 utils
 .
 js
