@@ -252,17 +252,17 @@ dev
 '
         
 '
-libgtk2
-.
-0
+libgtk
+-
+3
 -
 dev
 '
         
 '
-libgtk
--
-3
+libgtk2
+.
+0
 -
 dev
 '
@@ -281,6 +281,14 @@ dev
         
 '
 libpulse
+-
+dev
+'
+        
+'
+libx11
+-
+xcb
 -
 dev
 '
@@ -306,11 +314,11 @@ dbus
 '
         
 '
-yasm
+xvfb
 '
         
 '
-xvfb
+yasm
 '
     
 ]
