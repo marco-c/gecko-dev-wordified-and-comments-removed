@@ -505,12 +505,14 @@ not_found
 depends
 (
 check
+var
 )
 advanced
 def
 postcheck
 (
 value
+raw_value
 )
 :
 if
@@ -518,8 +520,12 @@ value
 is
 not_found
 and
+(
 not
 allow_missing
+or
+raw_value
+)
 :
 from
 mozbuild
