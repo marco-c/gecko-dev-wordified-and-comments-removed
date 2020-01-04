@@ -1396,7 +1396,7 @@ aCreateSessionToken
 dom
 :
 :
-SessionType
+MediaKeySessionType
 aSessionType
 PromiseId
 aPromiseId
@@ -1517,7 +1517,7 @@ ToGMPSessionType
 dom
 :
 :
-SessionType
+MediaKeySessionType
 aSessionType
 )
 {
@@ -1530,7 +1530,7 @@ case
 dom
 :
 :
-SessionType
+MediaKeySessionType
 :
 :
 Temporary
@@ -1542,10 +1542,10 @@ case
 dom
 :
 :
-SessionType
+MediaKeySessionType
 :
 :
-Persistent
+Persistent_license
 :
 return
 kGMPPersistentSession
