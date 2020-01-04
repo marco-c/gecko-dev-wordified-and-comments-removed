@@ -586,6 +586,10 @@ aPrefs
 .
 mDelayAgnostic
 )
+mHasTabVideoSource
+(
+false
+)
 {
 #
 ifndef
