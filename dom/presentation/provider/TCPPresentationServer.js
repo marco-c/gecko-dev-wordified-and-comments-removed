@@ -3073,7 +3073,7 @@ this
 .
 _listener
 .
-_onOffer
+onOffer
 (
 new
 ChannelDescription
@@ -3129,7 +3129,7 @@ this
 .
 _listener
 .
-_onAnswer
+onAnswer
 (
 new
 ChannelDescription
