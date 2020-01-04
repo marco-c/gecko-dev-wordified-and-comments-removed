@@ -307,7 +307,7 @@ ServoComputedValues
 >
 computedValues
 =
-Servo_GetComputedValues
+Servo_ComputedValues_Get
 (
 aContent
 )
