@@ -2086,7 +2086,6 @@ function
 checkGrid
 (
 aSitesPattern
-aSites
 )
 {
 let
@@ -2119,9 +2118,6 @@ selectedBrowser
 length
 :
 length
-sites
-:
-aSites
 }
 function
 *
@@ -2141,16 +2137,9 @@ gGrid
 let
 sites
 =
-(
-args
-.
-sites
-|
-|
 grid
 .
 sites
-)
 .
 slice
 (
