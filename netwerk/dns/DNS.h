@@ -573,6 +573,17 @@ other
 )
 const
 ;
+bool
+operator
+<
+(
+const
+NetAddr
+&
+other
+)
+const
+;
 }
 ;
 class
