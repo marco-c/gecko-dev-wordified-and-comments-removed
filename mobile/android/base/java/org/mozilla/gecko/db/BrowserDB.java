@@ -125,6 +125,17 @@ drawable
 .
 BitmapDrawable
 ;
+import
+android
+.
+support
+.
+v4
+.
+os
+.
+CancellationSignal
+;
 public
 interface
 BrowserDB
@@ -265,6 +276,8 @@ int
 minLimit
 int
 maxLimit
+CancellationSignal
+cancellationSignal
 )
 ;
 public
