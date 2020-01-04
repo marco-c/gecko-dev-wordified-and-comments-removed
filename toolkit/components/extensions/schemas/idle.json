@@ -79,6 +79,15 @@ changes
 .
 "
 "
+permissions
+"
+:
+[
+"
+idle
+"
+]
+"
 types
 "
 :

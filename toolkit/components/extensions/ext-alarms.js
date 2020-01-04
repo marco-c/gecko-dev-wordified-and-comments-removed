@@ -491,9 +491,6 @@ registerSchemaAPI
 "
 alarms
 "
-"
-alarms
-"
 (
 extension
 context

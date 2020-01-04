@@ -960,9 +960,6 @@ registerSchemaAPI
 "
 cookies
 "
-"
-cookies
-"
 (
 extension
 context

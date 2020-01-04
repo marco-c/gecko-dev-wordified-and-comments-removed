@@ -10,9 +10,6 @@ registerSchemaAPI
 "
 idle
 "
-"
-idle
-"
 (
 extension
 context

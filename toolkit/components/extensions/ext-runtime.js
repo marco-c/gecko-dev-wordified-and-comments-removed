@@ -94,7 +94,6 @@ registerSchemaAPI
 "
 runtime
 "
-null
 (
 extension
 context

@@ -994,7 +994,6 @@ registerSchemaAPI
 "
 extension
 "
-null
 (
 extension
 context

@@ -75,6 +75,15 @@ data
 .
 "
 "
+permissions
+"
+:
+[
+"
+storage
+"
+]
+"
 types
 "
 :

@@ -450,9 +450,6 @@ registerSchemaAPI
 "
 notifications
 "
-"
-notifications
-"
 (
 extension
 context

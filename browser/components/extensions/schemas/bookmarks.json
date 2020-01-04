@@ -147,6 +147,15 @@ page
 .
 "
 "
+permissions
+"
+:
+[
+"
+bookmarks
+"
+]
+"
 types
 "
 :

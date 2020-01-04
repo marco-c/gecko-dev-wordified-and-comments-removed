@@ -148,7 +148,6 @@ registerSchemaAPI
 "
 test
 "
-null
 (
 extension
 context
