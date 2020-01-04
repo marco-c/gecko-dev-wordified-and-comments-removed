@@ -1240,6 +1240,14 @@ species
 )
 get
 :
+Symbol
+(
+Symbol
+.
+isConcatSpreadable
+)
+get
+:
 length
 get
 :
