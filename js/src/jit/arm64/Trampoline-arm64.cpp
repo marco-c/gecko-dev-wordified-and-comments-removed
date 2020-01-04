@@ -982,7 +982,7 @@ R1_
 }
 masm
 .
-call
+callJitNoProfiler
 (
 reg_code
 )

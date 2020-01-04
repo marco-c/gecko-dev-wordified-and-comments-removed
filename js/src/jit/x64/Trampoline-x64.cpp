@@ -1476,7 +1476,7 @@ uintptr_t
 ;
 masm
 .
-call
+callJitNoProfiler
 (
 reg_code
 )

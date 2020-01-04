@@ -1657,7 +1657,7 @@ uintptr_t
 ;
 masm
 .
-ma_callJitHalfPush
+callJitNoProfiler
 (
 r0
 )
