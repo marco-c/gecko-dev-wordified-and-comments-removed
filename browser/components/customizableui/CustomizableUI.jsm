@@ -583,9 +583,6 @@ null
 drawInTitlebar
 :
 null
-gUIStateBeforeReset
-:
-null
 }
 ;
 XPCOMUtils
