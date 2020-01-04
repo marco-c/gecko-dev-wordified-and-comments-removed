@@ -379,17 +379,6 @@ chrome
 /
 common
 /
-message_router
-.
-cc
-'
-'
-src
-/
-chrome
-/
-common
-/
 notification_service
 .
 cc
