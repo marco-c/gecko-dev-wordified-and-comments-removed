@@ -20114,12 +20114,6 @@ engineToRemove
 name
 ]
 ;
-notifyAction
-(
-engineToRemove
-SEARCH_ENGINE_REMOVED
-)
-;
 this
 .
 _saveSortedEngineList
@@ -20127,6 +20121,12 @@ _saveSortedEngineList
 )
 ;
 }
+notifyAction
+(
+engineToRemove
+SEARCH_ENGINE_REMOVED
+)
+;
 }
 moveEngine
 :
