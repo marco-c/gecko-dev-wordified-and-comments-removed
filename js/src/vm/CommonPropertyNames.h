@@ -505,6 +505,15 @@ default
 \
 macro
 (
+DefaultDerivedClassConstructor
+DefaultDerivedClassConstructor
+"
+DefaultDerivedClassConstructor
+"
+)
+\
+macro
+(
 defineProperty
 defineProperty
 "

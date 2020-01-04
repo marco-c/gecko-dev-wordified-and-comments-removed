@@ -21138,6 +21138,7 @@ JSFunction
 :
 INTERPRETED_NORMAL
 funAtom
+nullptr
 gc
 :
 :

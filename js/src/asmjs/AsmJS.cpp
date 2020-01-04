@@ -41843,6 +41843,7 @@ JSFunction
 :
 INTERPRETED
 name
+nullptr
 gc
 :
 :
@@ -47625,6 +47626,7 @@ JSFunction
 :
 INTERPRETED_NORMAL
 name
+nullptr
 gc
 :
 :

@@ -3654,13 +3654,17 @@ cx
 selfHostedName
 name
 nargs
+nullptr
+SingletonObject
 &
 fun
 )
 )
+{
 return
 false
 ;
+}
 funVal
 .
 setObject
