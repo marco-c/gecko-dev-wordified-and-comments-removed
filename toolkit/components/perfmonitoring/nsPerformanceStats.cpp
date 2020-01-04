@@ -3888,7 +3888,10 @@ GetPerformanceGroupsCallback
 JSContext
 *
 cx
-JSGroupVector
+js
+:
+:
+PerformanceGroupVector
 &
 out
 void
@@ -3931,7 +3934,10 @@ GetPerformanceGroups
 JSContext
 *
 cx
-JSGroupVector
+js
+:
+:
+PerformanceGroupVector
 &
 out
 )
@@ -4433,7 +4439,10 @@ StopwatchCommitCallback
 (
 uint64_t
 iteration
-JSGroupVector
+js
+:
+:
+PerformanceGroupVector
 &
 recentGroups
 void
@@ -4475,7 +4484,10 @@ StopwatchCommit
 (
 uint64_t
 iteration
-JSGroupVector
+js
+:
+:
+PerformanceGroupVector
 &
 recentGroups
 )
