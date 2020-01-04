@@ -548,6 +548,11 @@ UniquePtr
 h
 '
 '
+UniquePtrExtensions
+.
+h
+'
+'
 Variant
 .
 h
