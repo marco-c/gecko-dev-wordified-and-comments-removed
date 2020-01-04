@@ -11984,6 +11984,16 @@ ToReferenceFrame
 ;
 }
 virtual
+nsRect
+GetComponentAlphaBounds
+(
+nsDisplayListBuilder
+*
+aBuilder
+)
+override
+;
+virtual
 bool
 ComputeVisibility
 (
