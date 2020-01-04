@@ -841,15 +841,6 @@ VERTRES
 )
 ;
 int32_t
-widthDPI
-=
-GetDeviceCaps
-(
-aHdc
-LOGPIXELSX
-)
-;
-int32_t
 heightDPI
 =
 GetDeviceCaps
@@ -873,7 +864,7 @@ double
 printableWidthInDots
 )
 /
-widthDPI
+heightDPI
 ;
 mPrintableHeightInInches
 =
@@ -894,7 +885,7 @@ double
 printableWidthInDots
 )
 /
-widthDPI
+heightDPI
 ;
 mPrintableWidthInInches
 =
