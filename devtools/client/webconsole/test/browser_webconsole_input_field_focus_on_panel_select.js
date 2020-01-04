@@ -133,7 +133,7 @@ focused
 )
 ;
 yield
-openDebugger
+openInspector
 (
 )
 ;
