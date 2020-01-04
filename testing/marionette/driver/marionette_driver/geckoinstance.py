@@ -280,6 +280,24 @@ enabled
 "
 :
 False
+        
+"
+dom
+.
+ipc
+.
+cpows
+.
+forbid
+-
+unsafe
+-
+from
+-
+browser
+"
+:
+False
     
 }
     
