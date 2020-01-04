@@ -17,6 +17,9 @@ js
 namespace
 shell
 {
+struct
+RCFile
+;
 bool
 DefineOS
 (
@@ -30,6 +33,14 @@ HandleObject
 global
 bool
 fuzzingSafe
+RCFile
+*
+*
+shellOut
+RCFile
+*
+*
+shellErr
 )
 ;
 enum
