@@ -49,6 +49,7 @@ uint32_t
 GetParsedFrames
 (
 )
+const
 {
 ReentrantMonitorAutoEnter
 mon
@@ -64,6 +65,7 @@ uint32_t
 GetDecodedFrames
 (
 )
+const
 {
 ReentrantMonitorAutoEnter
 mon
@@ -79,6 +81,7 @@ uint32_t
 GetPresentedFrames
 (
 )
+const
 {
 ReentrantMonitorAutoEnter
 mon
@@ -94,6 +97,7 @@ uint32_t
 GetDroppedFrames
 (
 )
+const
 {
 ReentrantMonitorAutoEnter
 mon
@@ -135,8 +139,10 @@ aDropped
 =
 0
 )
+{
 return
 ;
+}
 ReentrantMonitorAutoEnter
 mon
 (
@@ -183,6 +189,7 @@ FrameStatistics
 )
 {
 }
+mutable
 ReentrantMonitor
 mReentrantMonitor
 ;
