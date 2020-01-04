@@ -439,7 +439,7 @@ initDelay
 const
 TELEMETRY_TEST_DELAY
 =
-100
+1
 ;
 const
 PING_TYPE_MAIN

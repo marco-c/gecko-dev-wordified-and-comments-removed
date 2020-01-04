@@ -612,7 +612,7 @@ initDelay
 const
 TELEMETRY_TEST_DELAY
 =
-100
+1
 ;
 const
 SCHEDULER_TICK_INTERVAL_MS
