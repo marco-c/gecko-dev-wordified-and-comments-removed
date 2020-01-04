@@ -1387,6 +1387,11 @@ WaitForCompositorRecycle
 (
 )
 ;
+void
+CancelWaitForCompositorRecycle
+(
+)
+;
 bool
 IsImmutable
 (
