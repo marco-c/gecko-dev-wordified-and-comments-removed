@@ -28,7 +28,7 @@ panel
 }
 =
 yield
-openAnimationInspectorNewUI
+openAnimationInspector
 (
 )
 ;
