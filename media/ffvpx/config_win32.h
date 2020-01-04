@@ -178,11 +178,6 @@ enable
 yasm
 -
 -
-disable
--
-avx2
--
--
 toolchain
 =
 msvc
@@ -245,11 +240,11 @@ C
 Optimizing
 Compiler
 Version
-19
+18
 .
 00
 .
-23506
+40629
 for
 x86
 "
@@ -458,7 +453,7 @@ HAVE_AVX
 #
 define
 HAVE_AVX2
-0
+1
 #
 define
 HAVE_FMA3
@@ -630,7 +625,7 @@ HAVE_AVX_EXTERNAL
 #
 define
 HAVE_AVX2_EXTERNAL
-0
+1
 #
 define
 HAVE_FMA3_EXTERNAL
