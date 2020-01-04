@@ -3626,7 +3626,7 @@ unsigned
 int
 match_positions
 [
-HB_MAX_CONTEXT_LENGTH
+MAX_CONTEXT_LENGTH
 ]
 ;
 if
@@ -5595,7 +5595,7 @@ c
 nesting_level_left
 !
 =
-HB_MAX_NESTING_LEVEL
+MAX_NESTING_LEVEL
 )
 )
 return_trace
