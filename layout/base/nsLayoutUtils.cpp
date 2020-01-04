@@ -14774,6 +14774,7 @@ ctm
 )
 ;
 }
+}
 if
 (
 aPreservesAxisAlignedRectangles
@@ -14800,7 +14801,6 @@ PreservesAxisAlignedRectangles
 (
 )
 ;
-}
 }
 Rect
 maxBounds
