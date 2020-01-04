@@ -621,6 +621,11 @@ WebGLExtensionElementIndexUint
 cpp
 '
 '
+WebGLExtensionEXTColorBufferFloat
+.
+cpp
+'
+'
 WebGLExtensionFragDepth
 .
 cpp
