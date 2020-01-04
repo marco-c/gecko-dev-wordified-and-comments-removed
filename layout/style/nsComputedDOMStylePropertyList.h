@@ -800,6 +800,11 @@ TextAlign
 )
 COMPUTED_STYLE_PROP
 (
+text_align_last
+TextAlignLast
+)
+COMPUTED_STYLE_PROP
+(
 text_combine_upright
 TextCombineUpright
 )
@@ -1112,11 +1117,6 @@ COMPUTED_STYLE_PROP
 (
 _moz_tab_size
 TabSize
-)
-COMPUTED_STYLE_PROP
-(
-text_align_last
-TextAlignLast
 )
 COMPUTED_STYLE_PROP
 (
