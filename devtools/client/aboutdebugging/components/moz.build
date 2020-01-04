@@ -82,6 +82,15 @@ tab
 js
 '
 '
+service
+-
+worker
+-
+target
+.
+js
+'
+'
 tab
 -
 header
