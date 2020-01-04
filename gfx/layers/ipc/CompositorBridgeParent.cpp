@@ -4378,6 +4378,10 @@ mPaused
 =
 false
 ;
+Invalidate
+(
+)
+;
 mCompositorScheduler
 -
 >
