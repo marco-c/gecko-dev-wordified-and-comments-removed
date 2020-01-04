@@ -11632,7 +11632,6 @@ nsString
 (
 aMessage
 )
-data
 cpows
 IPC
 :
@@ -11641,6 +11640,7 @@ Principal
 (
 aPrincipal
 )
+data
 )
 )
 {

@@ -9808,10 +9808,6 @@ const
 nsString
 &
 aMessage
-const
-ClonedMessageData
-&
-aData
 InfallibleTArray
 <
 CpowEntry
@@ -9826,6 +9822,10 @@ IPC
 Principal
 &
 aPrincipal
+const
+ClonedMessageData
+&
+aData
 )
 {
 if
@@ -12201,12 +12201,12 @@ PromiseFlatString
 (
 aMessage
 )
-data
 cpows
 Principal
 (
 aPrincipal
 )
+data
 )
 )
 {
