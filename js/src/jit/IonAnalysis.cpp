@@ -9367,6 +9367,14 @@ use
 isRegExpTester
 (
 )
+|
+|
+use
+-
+>
+isRegExpSearcher
+(
+)
 )
 continue
 ;

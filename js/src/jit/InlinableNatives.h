@@ -286,6 +286,11 @@ RegExpMatcher
 \
 _
 (
+RegExpSearcher
+)
+\
+_
+(
 RegExpTester
 )
 \
