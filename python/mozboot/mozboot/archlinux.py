@@ -391,7 +391,7 @@ aur_install
 *
 self
 .
-AUR_BROWSER_PACKAGES
+BROWSER_AUR_PACKAGES
 )
         
 self
