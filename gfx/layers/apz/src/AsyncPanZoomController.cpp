@@ -15993,9 +15993,7 @@ mScrollMetadata
 .
 SetScrollClip
 (
-aScrollMetadata
-.
-GetScrollClip
+Nothing
 (
 )
 )
