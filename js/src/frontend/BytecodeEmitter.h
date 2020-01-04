@@ -485,6 +485,7 @@ VarEmitOption
 InitializeVars
 DefineVars
 PushInitialValues
+AnnexB
 }
 ;
 struct
