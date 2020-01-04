@@ -271,7 +271,7 @@ BasicWaveFormCache
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 WebCore
 :
@@ -280,7 +280,7 @@ PeriodicWave
 >
 mSawtooth
 ;
-RefPtr
+nsRefPtr
 <
 WebCore
 :
@@ -289,7 +289,7 @@ PeriodicWave
 >
 mSquare
 ;
-RefPtr
+nsRefPtr
 <
 WebCore
 :
@@ -344,7 +344,7 @@ override
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 AudioContext
 >
@@ -354,7 +354,7 @@ void
 *
 mPromise
 ;
-RefPtr
+nsRefPtr
 <
 AudioNodeStream
 >
@@ -413,7 +413,7 @@ AudioContext
 (
 )
 ;
-void
+nsresult
 Init
 (
 )
@@ -1135,13 +1135,13 @@ mSampleRate
 AudioContextState
 mAudioContextState
 ;
-RefPtr
+nsRefPtr
 <
 AudioDestinationNode
 >
 mDestination
 ;
-RefPtr
+nsRefPtr
 <
 AudioListener
 >
@@ -1149,7 +1149,7 @@ mListener
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 WebAudioDecodeJob
 >
@@ -1158,7 +1158,7 @@ mDecodeJobs
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 Promise
 >
@@ -1192,7 +1192,7 @@ PannerNode
 >
 mPannerNodes
 ;
-RefPtr
+nsRefPtr
 <
 BasicWaveFormCache
 >

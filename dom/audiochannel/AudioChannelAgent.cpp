@@ -394,7 +394,7 @@ AUDIO_AGENT_CHANNEL_ERROR
 |
 aChannelType
 >
-AUDIO_AGENT_CHANNEL_PUBLICNOTIFICATION
+AUDIO_AGENT_CHANNEL_SYSTEM
 |
 |
 aChannelType
@@ -416,7 +416,7 @@ aWindow
 )
 {
 return
-NS_ERROR_FAILURE
+NS_OK
 ;
 }
 nsCOMPtr
@@ -466,6 +466,19 @@ topWindow
 )
 )
 ;
+if
+(
+NS_WARN_IF
+(
+!
+topWindow
+)
+)
+{
+return
+NS_OK
+;
+}
 mWindow
 =
 do_QueryInterface
@@ -490,8 +503,11 @@ GetOuterWindow
 }
 if
 (
+NS_WARN_IF
+(
 !
 mWindow
+)
 )
 {
 return
@@ -572,7 +588,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 AudioChannelService
 >
@@ -667,7 +683,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 AudioChannelService
 >
@@ -777,7 +793,7 @@ muted
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 AudioChannelService
 >
