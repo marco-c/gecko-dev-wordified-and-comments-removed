@@ -2064,7 +2064,7 @@ property
 name
 =
 "
-canClear
+hasTransactions
 "
 readonly
 =
