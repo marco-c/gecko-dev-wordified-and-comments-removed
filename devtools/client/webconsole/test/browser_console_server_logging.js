@@ -122,6 +122,7 @@ SEVERITY_LOG
 ]
 }
 )
+;
 hud
 .
 setFilterState
@@ -237,6 +238,9 @@ reckless
 Chrome
 \
 "
+"
++
+"
 new_ie
 :
 \
@@ -278,6 +282,7 @@ SEVERITY_LOG
 ]
 }
 )
+;
 hud
 .
 setFilterState
