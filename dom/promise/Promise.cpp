@@ -4449,8 +4449,8 @@ return
 false
 ;
 }
-AutoSafeJSContext
-cx
+AutoSlowOperation
+aso
 ;
 do
 {
@@ -4506,9 +4506,10 @@ return
 false
 ;
 }
-JS_CheckForInterrupt
+aso
+.
+CheckForInterrupt
 (
-cx
 )
 ;
 runtime

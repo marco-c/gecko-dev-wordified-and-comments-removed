@@ -4741,8 +4741,8 @@ Suppressed
 return
 ;
 }
-AutoSafeJSContext
-cx
+AutoSlowOperation
+aso
 ;
 nsTArray
 <
@@ -4881,9 +4881,10 @@ sCurrentObserver
 delete
 observers
 ;
-JS_CheckForInterrupt
+aso
+.
+CheckForInterrupt
 (
-cx
 )
 ;
 }
