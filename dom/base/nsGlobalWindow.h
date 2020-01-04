@@ -8385,7 +8385,10 @@ PreloadLocalStorage
 (
 )
 ;
-nsIntPoint
+mozilla
+:
+:
+DesktopIntPoint
 GetScreenXY
 (
 mozilla

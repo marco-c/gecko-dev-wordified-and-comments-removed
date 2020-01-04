@@ -2744,6 +2744,10 @@ mScreenManager
 return
 ;
 }
+CheckDPIChange
+(
+)
+;
 if
 (
 mWidget

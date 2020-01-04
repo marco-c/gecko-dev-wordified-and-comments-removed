@@ -852,7 +852,6 @@ GetDefaultScale
 (
 )
 ;
-;
 if
 (
 !
