@@ -2104,20 +2104,6 @@ h
         
 self
 .
-skipGen
-=
-desc
-.
-get
-(
-'
-skipGen
-'
-False
-)
-        
-self
-.
 notflattened
 =
 desc

@@ -36096,11 +36096,6 @@ elif
 not
 descriptor
 .
-skipGen
-and
-not
-descriptor
-.
 interface
 .
 isConsequential
@@ -43338,11 +43333,6 @@ interface
 isExternal
 (
 )
-and
-not
-descriptor
-.
-skipGen
 :
             
 if
@@ -89828,10 +89818,6 @@ True
 register
 =
 True
-                                                 
-skipGen
-=
-False
 )
         
 conditions
@@ -90054,10 +90040,6 @@ True
 register
 =
 True
-                                                 
-skipGen
-=
-False
 )
         
 conditions
@@ -90307,10 +90289,6 @@ True
 register
 =
 True
-                                                 
-skipGen
-=
-False
 )
         
 def
@@ -92510,10 +92488,6 @@ webIDLFile
 hasInterfaceOrInterfacePrototypeObject
 =
 True
-                                            
-skipGen
-=
-False
 )
         
 unionTypes
@@ -113157,10 +113131,6 @@ True
 isExposedInAnyWorker
 =
 True
-                                                            
-skipGen
-=
-False
 )
 ]
         
@@ -113285,10 +113255,6 @@ True
 isExposedInWorkerDebugger
 =
 True
-                                                            
-skipGen
-=
-False
 )
 ]
         
@@ -113413,10 +113379,6 @@ True
 isExposedInSystemGlobals
 =
 True
-                                                            
-skipGen
-=
-False
 )
 ]
         
