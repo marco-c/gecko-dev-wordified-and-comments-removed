@@ -854,9 +854,9 @@ SQLITE_VERSION
 =
 3
 .
-12
+13
 .
-2
+0
 FONTCONFIG_VERSION
 =
 2
@@ -23964,7 +23964,7 @@ MOZ_ANDROID_SDK
 .
 0
 .
-3
+1
 )
 ;
 ;
