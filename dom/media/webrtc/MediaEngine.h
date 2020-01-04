@@ -600,6 +600,9 @@ int32_t
 mMinFPS
 ;
 int32_t
+mFreq
+;
+int32_t
 GetWidth
 (
 bool
