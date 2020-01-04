@@ -3137,8 +3137,10 @@ const
 Rect
 &
 aRenderBounds
-bool
-aOpaque
+const
+nsIntRegion
+&
+aOpaqueRegion
 Rect
 *
 aClipRectOut

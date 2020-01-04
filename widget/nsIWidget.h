@@ -2431,8 +2431,9 @@ LayoutDeviceIntRect
 &
 aRect
 const
-bool
-aInitModeClear
+LayoutDeviceIntRect
+&
+aClearRect
 )
 =
 0

@@ -315,8 +315,10 @@ gfx
 Rect
 &
 aRenderBounds
-bool
-aOpaque
+const
+nsIntRegion
+&
+aOpaqueRegion
 gfx
 :
 :
