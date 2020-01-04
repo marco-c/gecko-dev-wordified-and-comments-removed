@@ -8500,7 +8500,7 @@ mirrors
 -
 connectivity
 "
-true
+false
 )
 ;
 pref
