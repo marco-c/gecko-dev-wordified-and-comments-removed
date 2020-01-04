@@ -1133,6 +1133,12 @@ unsigned
 value
 )
 ;
+bool
+IsStackPtrSync
+(
+)
+const
+;
 #
 define
 DEFINE_SETTERS
@@ -1548,6 +1554,14 @@ this
 kInstructionSize
 ;
 }
+const
+Instruction
+*
+skipPool
+(
+)
+const
+;
 const
 Instruction
 *

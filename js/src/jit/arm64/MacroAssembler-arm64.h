@@ -21205,12 +21205,6 @@ nextOffset
 (
 )
 ;
-armbuffer_
-.
-flushPool
-(
-)
-;
 syncStackPtr
 (
 )
