@@ -74,7 +74,14 @@ change
 unexpectedly
 .
 )
-fails
+fuzzy
+-
+if
+(
+cocoaWidget
+3
+3369
+)
 =
 =
 webkit
@@ -101,6 +108,9 @@ linear
 ref
 .
 html
+#
+bug
+1225372
 fails
 =
 =
@@ -163,7 +173,6 @@ linear
 ref
 .
 html
-fails
 =
 =
 webkit
@@ -186,7 +195,6 @@ linear
 ref
 .
 html
-fails
 =
 =
 webkit
@@ -209,7 +217,6 @@ linear
 ref
 .
 html
-fails
 =
 =
 webkit
