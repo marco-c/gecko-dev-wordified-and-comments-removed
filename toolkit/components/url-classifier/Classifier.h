@@ -165,6 +165,17 @@ nsCString
 aTables
 )
 ;
+void
+SetLastUpdateTime
+(
+const
+nsACString
+&
+aTableName
+uint64_t
+updateTime
+)
+;
 nsresult
 CacheCompletions
 (
