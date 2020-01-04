@@ -1002,15 +1002,6 @@ ShrinkShmemSectionHeap
 (
 )
 ;
-MOZ_ASSERT
-(
-mUsedShmems
-.
-empty
-(
-)
-)
-;
 }
 bool
 FixedSizeSmallShmemSectionAllocator
