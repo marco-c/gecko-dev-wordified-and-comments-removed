@@ -315,6 +315,11 @@ forceInitialBrowserRemote
 (
 )
 ;
+void
+forceInitialBrowserNonRemote
+(
+)
+;
 /
 *
 *

@@ -8476,6 +8476,12 @@ xulWin
 -
 >
 mPrimaryContentShell
+|
+|
+xulWin
+-
+>
+mPrimaryTabParent
 )
 ;
 *
