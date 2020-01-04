@@ -314,6 +314,16 @@ return
 mPaintWillResample
 ;
 }
+virtual
+void
+AddAnimationInvalidation
+(
+nsIntRegion
+&
+aRegion
+)
+{
+}
 protected
 :
 explicit

@@ -1081,6 +1081,9 @@ CompositableClient
 *
 mCompositableClient
 ;
+bool
+mWasPlaceholder
+;
 #
 ifdef
 GFX_TILEDLAYER_DEBUG_OVERLAY

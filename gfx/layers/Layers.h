@@ -4813,6 +4813,7 @@ IsLogEnabled
 ;
 }
 const
+virtual
 gfx
 :
 :
