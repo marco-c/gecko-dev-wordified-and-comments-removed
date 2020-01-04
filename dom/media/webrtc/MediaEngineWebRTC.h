@@ -1944,10 +1944,6 @@ mNullTransport
 (
 nullptr
 )
-mInputBufferLen
-(
-0
-)
 {
 MOZ_ASSERT
 (
@@ -2426,14 +2422,9 @@ NullTransport
 *
 mNullTransport
 ;
-size_t
-mInputBufferLen
-;
-UniquePtr
+nsTArray
 <
 int16_t
-[
-]
 >
 mInputBuffer
 ;
