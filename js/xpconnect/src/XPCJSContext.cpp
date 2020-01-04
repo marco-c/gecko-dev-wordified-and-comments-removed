@@ -3355,13 +3355,6 @@ mGCIsRunning
 =
 true
 ;
-XPCWrappedNativeScope
-:
-:
-MarkAllWrappedNativesAndProtos
-(
-)
-;
 if
 (
 !
