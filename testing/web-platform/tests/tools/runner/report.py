@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 argparse
 import
@@ -588,6 +592,7 @@ HTML
 )
     
 print
+(
 h
 .
 html
@@ -624,6 +629,7 @@ class
 "
 )
     
+)
 )
     
 Would
@@ -2305,6 +2311,7 @@ argv
 :
         
 print
+(
 "
 "
 "
@@ -2340,8 +2347,10 @@ json
 "
 "
 "
+)
     
 print
+(
 main
 (
 sys
@@ -2351,4 +2360,5 @@ argv
 1
 :
 ]
+)
 )

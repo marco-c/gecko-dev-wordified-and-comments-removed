@@ -712,6 +712,9 @@ templates
 .
 yaml
 '
+"
+r
+"
 )
 .
 read
@@ -731,6 +734,9 @@ name2dir
 .
 yaml
 '
+"
+r
+"
 )
 .
 read
@@ -755,6 +761,9 @@ spec
 .
 yaml
 '
+"
+r
+"
 )
 .
 read
@@ -834,6 +843,9 @@ load
 open
 (
 f
+"
+r
+"
 )
 .
 read
@@ -5818,6 +5830,9 @@ results
 .
 yaml
 '
+"
+r
+"
 )
 .
 read

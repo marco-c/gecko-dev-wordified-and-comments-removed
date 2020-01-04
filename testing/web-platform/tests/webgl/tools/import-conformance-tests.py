@@ -343,6 +343,9 @@ with
 open
 (
 test
+"
+r
+"
 )
 as
 test_file
