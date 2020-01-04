@@ -149,7 +149,7 @@ only
 '
 default
 =
-enabled_in_nightly
+True
 set_for_old_configure
 =
 True
