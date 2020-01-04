@@ -9086,6 +9086,10 @@ dirs
 AppendElement
 (
 file
+.
+forget
+(
+)
 )
 ;
 }

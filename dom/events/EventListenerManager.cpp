@@ -7486,9 +7486,13 @@ mInSystemGroup
 aList
 -
 >
-AppendObject
+AppendElement
 (
 info
+.
+forget
+(
+)
 )
 ;
 }

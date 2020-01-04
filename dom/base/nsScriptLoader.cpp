@@ -3722,6 +3722,10 @@ aUrls
 AppendElement
 (
 uri
+.
+forget
+(
+)
 )
 ;
 }

@@ -7510,6 +7510,10 @@ imagesToRefresh
 AppendElement
 (
 image
+.
+forget
+(
+)
 )
 ;
 }
