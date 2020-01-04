@@ -128,6 +128,11 @@ TestIntervalSet
 cpp
 '
 '
+TestMediaDataDecoder
+.
+cpp
+'
+'
 TestMediaEventSource
 .
 cpp
