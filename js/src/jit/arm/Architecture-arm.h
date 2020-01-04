@@ -799,7 +799,7 @@ invalid_freg
 }
 ;
 typedef
-FPRegisterID
+uint32_t
 Code
 ;
 typedef
@@ -820,7 +820,7 @@ char
 *
 GetDoubleName
 (
-Code
+Encoding
 code
 )
 {
@@ -945,7 +945,7 @@ char
 *
 GetSingleName
 (
-Code
+Encoding
 code
 )
 {
@@ -1084,7 +1084,7 @@ Total
 return
 GetName
 (
-Code
+Encoding
 (
 i
 )
@@ -1103,7 +1103,7 @@ name
 ;
 static
 const
-Code
+Encoding
 Invalid
 =
 invalid_freg
@@ -2070,16 +2070,9 @@ _isMissing
 )
 ;
 return
-Code
+Encoding
 (
 code_
-|
-(
-kind
-<
-<
-5
-)
 )
 ;
 }
@@ -2199,7 +2192,7 @@ FloatRegisters
 :
 GetDoubleName
 (
-Code
+Encoding
 (
 code_
 )
@@ -2211,7 +2204,7 @@ FloatRegisters
 :
 GetSingleName
 (
-Code
+Encoding
 (
 code_
 )
