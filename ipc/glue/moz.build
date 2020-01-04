@@ -182,6 +182,11 @@ IOThreadChild
 h
 '
 '
+IPCStreamUtils
+.
+h
+'
+'
 MessageChannel
 .
 h
@@ -673,6 +678,11 @@ IPCMessageUtils
 cpp
 '
 '
+IPCStreamUtils
+.
+cpp
+'
+'
 MessageChannel
 .
 cpp
@@ -918,6 +928,11 @@ IPDL_SOURCES
 [
 '
 InputStreamParams
+.
+ipdlh
+'
+'
+IPCStream
 .
 ipdlh
 '
