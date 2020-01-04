@@ -134,6 +134,15 @@ js
 DevToolsModules
 (
 '
+about
+-
+devtools
+-
+toolbox
+.
+js
+'
+'
 attach
 -
 thread
