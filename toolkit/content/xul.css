@@ -1386,6 +1386,8 @@ true
 "
 ]
 )
+%
+endif
 windowdragbox
 {
 -
@@ -1398,10 +1400,10 @@ dragging
 drag
 ;
 }
+toolbaritem
 toolbarbutton
 button
 textbox
-searchbar
 tab
 radio
 splitter
@@ -1420,8 +1422,6 @@ no
 drag
 ;
 }
-%
-endif
 toolbox
 {
 -
