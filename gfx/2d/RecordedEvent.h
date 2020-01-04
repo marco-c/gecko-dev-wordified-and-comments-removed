@@ -53,13 +53,13 @@ const
 uint16_t
 kMajorRevision
 =
-3
+4
 ;
 const
 uint16_t
 kMinorRevision
 =
-2
+0
 ;
 struct
 ReferencePtr
@@ -5014,6 +5014,7 @@ ARGTYPE_INTPOINT
 ARGTYPE_RECT
 ARGTYPE_INTRECT
 ARGTYPE_POINT
+ARGTYPE_MATRIX
 ARGTYPE_MATRIX5X4
 ARGTYPE_POINT3D
 ARGTYPE_COLOR
