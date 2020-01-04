@@ -375,6 +375,10 @@ const
 TimingParams
 &
 aTiming
+const
+KeyframeEffectParams
+&
+aOptions
 )
 :
 KeyframeEffectReadOnly
@@ -387,6 +391,7 @@ AnimationEffectTimingReadOnly
 aDocument
 aTiming
 )
+aOptions
 )
 {
 }
@@ -408,6 +413,10 @@ aTarget
 AnimationEffectTimingReadOnly
 *
 aTiming
+const
+KeyframeEffectParams
+&
+aOptions
 )
 :
 AnimationEffectReadOnly
@@ -421,6 +430,10 @@ aTarget
 mTiming
 (
 aTiming
+)
+mEffectOptions
+(
+aOptions
 )
 mInEffectOnLastAnimationTimingUpdate
 (
@@ -3420,6 +3433,9 @@ ConvertTarget
 aTarget
 )
 ;
+KeyframeEffectParams
+effectOptions
+;
 RefPtr
 <
 KeyframeEffectType
@@ -3432,6 +3448,7 @@ KeyframeEffectType
 doc
 target
 timingParams
+effectOptions
 )
 ;
 effect
@@ -5991,6 +6008,10 @@ const
 TimingParams
 &
 aTiming
+const
+KeyframeEffectParams
+&
+aOptions
 )
 :
 KeyframeEffectReadOnly
@@ -6004,6 +6025,7 @@ aDocument
 aTiming
 this
 )
+aOptions
 )
 {
 }

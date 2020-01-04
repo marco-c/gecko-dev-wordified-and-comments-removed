@@ -218,6 +218,11 @@ EffectSet
 h
 '
 '
+KeyframeEffectParams
+.
+h
+'
+'
 KeyframeUtils
 .
 h
