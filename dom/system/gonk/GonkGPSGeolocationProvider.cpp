@@ -2319,7 +2319,10 @@ d
 n
 "
 aKey
+uint32_t
+(
 rv
+)
 )
 ;
 return
@@ -2362,7 +2365,10 @@ d
 n
 "
 aKey
+uint32_t
+(
 rv
+)
 )
 ;
 return
