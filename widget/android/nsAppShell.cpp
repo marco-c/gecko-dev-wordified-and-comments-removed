@@ -1032,6 +1032,13 @@ Init
 (
 )
 ;
+nsWindow
+:
+:
+InitNatives
+(
+)
+;
 widget
 :
 :
