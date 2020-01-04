@@ -265,8 +265,6 @@ aPresShell
 nsStyleContext
 *
 aContext
-nsFrameState
-aFlags
 )
 ;
 NS_DECL_QUERYFRAME
