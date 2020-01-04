@@ -1687,9 +1687,9 @@ static
 void
 setNativeStackQuota
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 {
 const
@@ -1725,7 +1725,7 @@ endif
 ;
 JS_SetNativeStackQuota
 (
-rt
+cx
 MAX_STACK_SIZE
 )
 ;
@@ -1773,7 +1773,10 @@ reportWarning
 ;
 setNativeStackQuota
 (
+JS_GetContext
+(
 rt
+)
 )
 ;
 return

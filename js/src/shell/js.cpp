@@ -41625,7 +41625,10 @@ ZEAL_MODE
 endif
 JS_SetNativeStackQuota
 (
+JS_GetContext
+(
 rt
+)
 gMaxStackSize
 )
 ;
@@ -45415,7 +45418,7 @@ asmJSCacheOps
 ;
 JS_SetNativeStackQuota
 (
-rt
+cx
 gMaxStackSize
 )
 ;

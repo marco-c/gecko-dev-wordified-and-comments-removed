@@ -4469,7 +4469,7 @@ mRuntime
 ;
 JS_SetNativeStackQuota
 (
-mRuntime
+mContext
 128
 *
 sizeof

@@ -129,7 +129,10 @@ uint32_t
 ;
 setNativeStackQuota
 (
+JS_GetContext
+(
 rt
+)
 )
 ;
 return

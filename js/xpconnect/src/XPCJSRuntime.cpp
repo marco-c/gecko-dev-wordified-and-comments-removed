@@ -18421,7 +18421,7 @@ kDefaultStackQuota
 ;
 JS_SetNativeStackQuota
 (
-runtime
+cx
 kStackQuota
 kStackQuota
 -

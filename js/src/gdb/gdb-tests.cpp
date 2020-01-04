@@ -278,7 +278,7 @@ JSGC_MAX_BYTES
 ;
 JS_SetNativeStackQuota
 (
-runtime
+cx
 5000000
 )
 ;
