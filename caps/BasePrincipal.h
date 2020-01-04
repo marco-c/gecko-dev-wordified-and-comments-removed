@@ -64,6 +64,9 @@ namespace
 mozilla
 {
 class
+GenericOriginAttributes
+;
+class
 OriginAttributes
 :
 public
@@ -195,6 +198,15 @@ SyncAttributesWithPrivateBrowsing
 (
 bool
 aInPrivateBrowsing
+)
+;
+void
+SetFromGenericAttributes
+(
+const
+GenericOriginAttributes
+&
+aAttrs
 )
 ;
 protected
