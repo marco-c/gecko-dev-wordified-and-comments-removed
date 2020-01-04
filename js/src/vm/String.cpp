@@ -350,6 +350,9 @@ return
 size
 ;
 }
+template
+<
+>
 const
 char16_t
 JS
@@ -358,7 +361,7 @@ JS
 ubi
 :
 :
-Concrete
+TracerConcrete
 <
 JSString
 >

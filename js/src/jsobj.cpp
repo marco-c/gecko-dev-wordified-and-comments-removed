@@ -22492,6 +22492,9 @@ sizeOfAllThings
 )
 ;
 }
+template
+<
+>
 const
 char16_t
 JS
@@ -22500,7 +22503,7 @@ JS
 ubi
 :
 :
-Concrete
+TracerConcrete
 <
 JSObject
 >
