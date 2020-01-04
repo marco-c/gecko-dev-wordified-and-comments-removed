@@ -97,7 +97,7 @@ NONINLINABLE_AMOUNT
 43
 )
 ;
-neuter
+detachArrayBuffer
 (
 ab1
 "
@@ -199,7 +199,7 @@ NONINLINABLE_AMOUNT
 77
 )
 ;
-neuter
+detachArrayBuffer
 (
 ab2
 "
@@ -299,7 +299,7 @@ INLINABLE_INT8_AMOUNT
 13
 )
 ;
-neuter
+detachArrayBuffer
 (
 ab3
 "
@@ -399,7 +399,7 @@ INLINABLE_INT8_AMOUNT
 17
 )
 ;
-neuter
+detachArrayBuffer
 (
 ab4
 "

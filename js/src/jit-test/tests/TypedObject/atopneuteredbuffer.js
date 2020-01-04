@@ -79,7 +79,7 @@ Unit
 buffer
 )
 ;
-neuter
+detachArrayBuffer
 (
 buffer
 variant
@@ -102,7 +102,7 @@ Able
 to
 instantiate
 atop
-neutered
+detached
 buffer
 "
 )
@@ -124,7 +124,7 @@ Able
 to
 instantiate
 atop
-neutered
+detached
 buffer
 "
 )

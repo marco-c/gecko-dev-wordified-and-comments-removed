@@ -23,7 +23,7 @@ Int32Array
 buffer
 )
 ;
-neuter
+detachArrayBuffer
 (
 buffer
 "

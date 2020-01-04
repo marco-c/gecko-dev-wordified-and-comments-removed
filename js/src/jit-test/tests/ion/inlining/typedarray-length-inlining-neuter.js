@@ -45,7 +45,7 @@ q1
 (
 )
 ;
-neuter
+detachArrayBuffer
 (
 ab1
 "
@@ -100,7 +100,7 @@ q2
 (
 )
 ;
-neuter
+detachArrayBuffer
 (
 ab2
 "
@@ -155,7 +155,7 @@ q3
 (
 )
 ;
-neuter
+detachArrayBuffer
 (
 ab3
 "
@@ -210,7 +210,7 @@ q4
 (
 )
 ;
-neuter
+detachArrayBuffer
 (
 ab4
 "

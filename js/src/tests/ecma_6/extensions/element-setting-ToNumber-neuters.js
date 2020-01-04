@@ -34,7 +34,7 @@ assert
 assigning
 into
 memory
-neutered
+detached
 while
 converting
 the
@@ -85,12 +85,10 @@ ta1
 =
 {
 valueOf
-:
-function
 (
 )
 {
-neuter
+detachArrayBuffer
 (
 ab1
 "
@@ -131,12 +129,10 @@ ta2
 =
 {
 valueOf
-:
-function
 (
 )
 {
-neuter
+detachArrayBuffer
 (
 ab2
 "

@@ -42,7 +42,7 @@ index
 -
 argument
 conversion
-neuters
+detaches
 the
 ArrayBuffer
 being
@@ -94,7 +94,7 @@ function
 (
 )
 {
-neuter
+detachArrayBuffer
 (
 ab
 dataType
@@ -157,7 +157,7 @@ byteLength
 should
 have
 been
-neutered
+detached
 correctly
 "
 )
@@ -215,7 +215,7 @@ function
 (
 )
 {
-neuter
+detachArrayBuffer
 (
 ab
 dataType
@@ -278,7 +278,7 @@ byteLength
 should
 have
 been
-neutered
+detached
 correctly
 "
 )

@@ -24,7 +24,7 @@ constructors
 for
 (
 var
-neuterType
+detachType
 of
 [
 "
@@ -48,12 +48,12 @@ constructor
 (
 )
 ;
-neuter
+detachArrayBuffer
 (
 buf
 .
 buffer
-neuterType
+detachType
 )
 ;
 assertThrowsInstanceOf
@@ -78,10 +78,10 @@ ArrayBuffer
 (
 )
 ;
-neuter
+detachArrayBuffer
 (
 buffer
-neuterType
+detachType
 )
 ;
 assertThrowsInstanceOf

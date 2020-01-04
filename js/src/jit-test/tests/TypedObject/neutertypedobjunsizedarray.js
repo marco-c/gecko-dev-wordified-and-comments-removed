@@ -127,7 +127,7 @@ a
 66
 )
 ;
-neuter
+detachArrayBuffer
 (
 storage
 (

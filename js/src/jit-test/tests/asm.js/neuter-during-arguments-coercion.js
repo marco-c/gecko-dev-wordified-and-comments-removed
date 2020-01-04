@@ -119,12 +119,10 @@ set
 (
 {
 valueOf
-:
-function
 (
 )
 {
-neuter
+detachArrayBuffer
 (
 buffer
 "

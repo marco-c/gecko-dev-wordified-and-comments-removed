@@ -1,7 +1,7 @@
 for
 (
 var
-neuterArg
+detachArg
 of
 [
 '
@@ -38,10 +38,10 @@ DataView
 buf
 )
 ;
-neuter
+detachArrayBuffer
 (
 buf
-neuterArg
+detachArg
 )
 ;
 assertThrowsInstanceOf

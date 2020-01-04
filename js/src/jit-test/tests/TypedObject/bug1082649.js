@@ -60,7 +60,7 @@ g
 }
 )
 ;
-neuter
+detachArrayBuffer
 (
 storage
 (

@@ -42,7 +42,7 @@ i32
 =
 42
 ;
-neuter
+detachArrayBuffer
 (
 ab
 variant
@@ -98,7 +98,7 @@ i32
 =
 42
 ;
-neuter
+detachArrayBuffer
 (
 ab
 variant
@@ -154,7 +154,7 @@ i32
 =
 42
 ;
-neuter
+detachArrayBuffer
 (
 ab
 variant

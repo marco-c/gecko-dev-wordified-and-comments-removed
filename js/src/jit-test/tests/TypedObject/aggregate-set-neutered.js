@@ -112,7 +112,7 @@ y
 (
 )
 {
-neuter
+detachArrayBuffer
 (
 buf
 variant
@@ -130,7 +130,7 @@ TypeError
 setting
 into
 a
-neutered
+detached
 buffer
 is
 bad

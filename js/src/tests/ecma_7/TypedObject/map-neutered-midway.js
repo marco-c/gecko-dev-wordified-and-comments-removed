@@ -13,9 +13,15 @@ mapping
 from
 an
 array
-neutered
+whose
+buffer
+is
+detached
 midway
 through
+"
++
+"
 mapping
 "
 ;
@@ -93,7 +99,7 @@ count
 >
 0
 )
-neuter
+detachArrayBuffer
 (
 buf
 dataHandling
@@ -114,7 +120,7 @@ TypeError
 mapping
 of
 a
-neutered
+detached
 object
 worked
 ?

@@ -42,7 +42,7 @@ load
 (
 )
 ;
-neuter
+detachArrayBuffer
 (
 buffer
 "

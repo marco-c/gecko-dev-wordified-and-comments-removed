@@ -43,7 +43,7 @@ store
 (
 )
 ;
-neuter
+detachArrayBuffer
 (
 buffer
 "
