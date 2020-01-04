@@ -236,6 +236,10 @@ Init
 GMPDecryptorProxyCallback
 *
 aCallback
+bool
+aDistinctiveIdentifierRequired
+bool
+aPersistentStateRequired
 )
 =
 0

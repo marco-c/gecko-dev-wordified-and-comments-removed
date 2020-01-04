@@ -687,15 +687,6 @@ sCDMWrapper
 )
 )
 ;
-cdm
--
->
-Initialize
-(
-false
-false
-)
-;
 *
 aPluginAPI
 =
