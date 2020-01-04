@@ -241,7 +241,7 @@ f11a8df5a874
 )
 ]
 interface
-nsIWebSocketEventListener
+nsIWebSocketFrameListener
 :
 nsISupports
 {
@@ -288,7 +288,7 @@ ac21
 )
 ]
 interface
-nsIWebSocketEventService
+nsIWebSocketFrameService
 :
 nsISupports
 {
@@ -301,7 +301,7 @@ long
 long
 aInnerWindowID
 in
-nsIWebSocketEventListener
+nsIWebSocketFrameListener
 aListener
 )
 ;
@@ -314,7 +314,7 @@ long
 long
 aInnerWindowID
 in
-nsIWebSocketEventListener
+nsIWebSocketFrameListener
 aListener
 )
 ;
