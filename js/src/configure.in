@@ -32312,13 +32312,6 @@ AC_SUBST
 MOZILLA_OFFICIAL
 )
 dnl
-win32
-options
-AC_SUBST
-(
-MOZ_BROWSE_INFO
-)
-dnl
 Echo
 the
 CFLAGS
