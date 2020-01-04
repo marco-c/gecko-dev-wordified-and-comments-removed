@@ -1823,6 +1823,9 @@ NSString
 *
 mIMECompositionString
 ;
+uint32_t
+mIMECompositionStart
+;
 NSRange
 mMarkedRange
 ;
