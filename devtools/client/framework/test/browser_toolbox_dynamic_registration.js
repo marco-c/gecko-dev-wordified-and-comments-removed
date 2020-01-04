@@ -148,6 +148,11 @@ function
 )
 {
 }
+key
+:
+"
+t
+"
 }
 )
 ;
@@ -285,7 +290,7 @@ getAllBrowserWindows
 )
 {
 let
-command
+key
 =
 win
 .
@@ -294,8 +299,7 @@ document
 getElementById
 (
 "
-Tools
-:
+key_
 "
 +
 toolId
@@ -303,9 +307,9 @@ toolId
 ;
 ok
 (
-command
+key
 "
-command
+key
 for
 new
 tool
@@ -581,7 +585,7 @@ getAllBrowserWindows
 )
 {
 let
-command
+key
 =
 win
 .
@@ -590,8 +594,7 @@ document
 getElementById
 (
 "
-Tools
-:
+key_
 "
 +
 toolId
@@ -600,9 +603,9 @@ toolId
 ok
 (
 !
-command
+key
 "
-command
+key
 removed
 from
 every
