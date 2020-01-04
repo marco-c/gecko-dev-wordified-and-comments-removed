@@ -5300,7 +5300,7 @@ serviceworkerobject
 -
 scripturl
 .
-https
+sub
 .
 html
 "
@@ -5324,7 +5324,7 @@ serviceworkerobject
 -
 scripturl
 .
-https
+sub
 .
 html
 "
@@ -5348,7 +5348,7 @@ serviceworkerobject
 -
 scripturl
 .
-https
+sub
 .
 html
 "
