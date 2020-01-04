@@ -63,10 +63,6 @@ mozilla
 namespace
 dom
 {
-NS_IMPL_ISUPPORTS0
-(
-SVGTests
-)
 nsIAtom
 *
 *
