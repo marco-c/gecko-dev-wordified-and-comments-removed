@@ -261,5 +261,8 @@ error
 "
 opaque
 "
+"
+opaqueredirect
+"
 }
 ;
