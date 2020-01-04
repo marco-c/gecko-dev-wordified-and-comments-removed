@@ -104,7 +104,7 @@ mName
 EqualsLiteral
 (
 "
-PermissionDeniedError
+SecurityError
 "
 )
 )
@@ -115,14 +115,9 @@ AssignLiteral
 (
 "
 The
-user
-did
-not
-grant
-permission
-for
-the
 operation
+is
+insecure
 .
 "
 )

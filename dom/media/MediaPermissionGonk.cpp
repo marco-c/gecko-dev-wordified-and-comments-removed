@@ -1205,7 +1205,7 @@ callID
 NS_LITERAL_STRING
 (
 "
-PermissionDeniedError
+SecurityError
 "
 )
 )
