@@ -281,6 +281,16 @@ osversion
 10
 .
 10
+#
+Windows
+10
++
+uses
+the
+default
+toolbar
+.
+png
 %
 override
 chrome
@@ -538,7 +548,7 @@ skin
 /
 toolbar
 -
-win10
+win8
 .
 png
 os
@@ -572,7 +582,7 @@ skin
 /
 toolbar
 -
-win10
+win8
 .
 png
 os
@@ -711,7 +721,7 @@ skin
 /
 toolbar
 -
-win10
+win8
 2x
 .
 png
@@ -747,7 +757,7 @@ skin
 /
 toolbar
 -
-win10
+win8
 2x
 .
 png

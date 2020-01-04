@@ -259,11 +259,9 @@ chrome
 :
 /
 /
-browser
+loop
 /
 locale
-/
-loop
 /
 loop
 .
