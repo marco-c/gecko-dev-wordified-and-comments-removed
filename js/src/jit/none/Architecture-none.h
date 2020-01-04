@@ -47,6 +47,13 @@ SupportsUint32x4FloatConversions
 =
 false
 ;
+static
+MOZ_CONSTEXPR_VAR
+bool
+SupportsUint32x4Compares
+=
+false
+;
 class
 Registers
 {

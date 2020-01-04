@@ -899,6 +899,13 @@ false
 ;
 static
 MOZ_CONSTEXPR_VAR
+bool
+SupportsUint32x4Compares
+=
+false
+;
+static
+MOZ_CONSTEXPR_VAR
 Scale
 ScalePointer
 =
