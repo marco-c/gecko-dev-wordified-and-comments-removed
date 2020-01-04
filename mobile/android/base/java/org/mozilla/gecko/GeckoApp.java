@@ -11579,6 +11579,17 @@ apply
 }
 Override
 public
+PromptService
+getPromptService
+(
+)
+{
+return
+mPromptService
+;
+}
+Override
+public
 void
 onBackPressed
 (
