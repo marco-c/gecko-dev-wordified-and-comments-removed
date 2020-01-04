@@ -11178,6 +11178,13 @@ DependsOnPositioningAreaSize
 (
 mImage
 )
+|
+|
+mRepeat
+.
+DependsOnPositioningAreaSize
+(
+)
 ;
 }
 bool

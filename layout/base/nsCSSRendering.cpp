@@ -11868,6 +11868,10 @@ nsRect
 &
 aFillArea
 const
+nsSize
+&
+aRepeatSize
+const
 CSSIntRect
 &
 aSrc
@@ -13704,7 +13708,7 @@ x
 aDest
 .
 x
-aDest
+aRepeatSize
 .
 width
 )
@@ -13720,7 +13724,7 @@ y
 aDest
 .
 y
-aDest
+aRepeatSize
 .
 height
 )
@@ -13773,7 +13777,7 @@ yEnd
 y
 +
 =
-aDest
+aRepeatSize
 .
 height
 )
@@ -13792,7 +13796,7 @@ xEnd
 x
 +
 =
-aDest
+aRepeatSize
 .
 width
 )
@@ -25342,6 +25346,7 @@ mGradientData
 aDirtyRect
 aDest
 aFill
+aRepeatSize
 aSrc
 mSize
 )
@@ -26647,10 +26652,10 @@ destTile
 TopLeft
 (
 )
-nsSize
+destTile
+.
+Size
 (
-0
-0
 )
 aSrc
 )
