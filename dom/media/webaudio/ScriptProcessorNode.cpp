@@ -1717,13 +1717,7 @@ InitEvent
 (
 inputBuffer
 inputChannelCount
-context
--
->
-StreamTimeToDOMTime
-(
 mPlaybackTime
-)
 )
 ;
 aNode
