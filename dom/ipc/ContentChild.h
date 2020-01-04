@@ -2220,6 +2220,13 @@ const
 bool
 &
 aUserCancelled
+const
+mozilla
+:
+:
+LayoutDeviceIntPoint
+&
+aEndDragPoint
 )
 override
 ;

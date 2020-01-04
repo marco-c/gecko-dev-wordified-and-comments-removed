@@ -14523,6 +14523,9 @@ SendEndDragSession
 (
 true
 true
+LayoutDeviceIntPoint
+(
+)
 )
 ;
 }
