@@ -80,12 +80,8 @@ gimy
 "
 )
 ;
-assertThrowsInstanceOf
+assertEq
 (
-(
-)
-=
->
 RegExp
 (
 "
@@ -96,7 +92,9 @@ mygui
 )
 .
 flags
-SyntaxError
+"
+gimuy
+"
 )
 ;
 assertEq
@@ -142,7 +140,7 @@ global
 }
 )
 "
-y
+uy
 "
 )
 ;
@@ -186,7 +184,7 @@ true
 )
 )
 "
-gimy
+gimuy
 "
 )
 ;

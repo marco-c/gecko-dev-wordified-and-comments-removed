@@ -2431,6 +2431,9 @@ source
 sticky
 "
 "
+unicode
+"
+"
 lastIndex
 "
 ]
@@ -7077,6 +7080,9 @@ sticky
 "
 "
 source
+"
+"
+unicode
 "
 ]
 ;

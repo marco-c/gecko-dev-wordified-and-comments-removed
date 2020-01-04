@@ -45,6 +45,8 @@ bool
 multiline
 bool
 match_only
+bool
+unicode
 RegExpCompileData
 *
 data
@@ -65,6 +67,8 @@ alloc
 JSAtom
 *
 str
+bool
+unicode
 )
 ;
 template
@@ -631,6 +635,8 @@ CharT
 end
 bool
 multiline_mode
+bool
+unicode
 )
 ;
 RegExpTree
@@ -1058,6 +1064,9 @@ has_more_
 ;
 bool
 multiline_
+;
+bool
+unicode_
 ;
 bool
 simple_
