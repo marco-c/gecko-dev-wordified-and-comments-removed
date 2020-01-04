@@ -487,12 +487,6 @@ aLayer
 bool
 *
 aOutFoundRoot
-Maybe
-<
-ParentLayerIntRect
->
-&
-aClipDeferredToParent
 ClipPartsCache
 &
 aClipPartsCache
@@ -593,9 +587,6 @@ aFixedLayerMargins
 void
 AlignFixedAndStickyLayers
 (
-Layer
-*
-aLayer
 Layer
 *
 aTransformedSubtreeRoot

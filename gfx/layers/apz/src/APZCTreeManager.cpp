@@ -690,6 +690,9 @@ aPaintSequenceNumber
 )
 ;
 ForEachNode
+<
+ReverseIterator
+>
 (
 mRootNode
 .
@@ -5664,6 +5667,9 @@ aConstraints
 )
 {
 ForEachNode
+<
+ReverseIterator
+>
 (
 node
 .
@@ -5820,6 +5826,9 @@ AssertCurrentThreadOwns
 )
 ;
 ForEachNode
+<
+ReverseIterator
+>
 (
 mRootNode
 .
@@ -5991,6 +6000,9 @@ HitTestingTreeNode
 nodesToDestroy
 ;
 ForEachNode
+<
+ReverseIterator
+>
 (
 mRootNode
 .
@@ -6801,6 +6813,9 @@ HitTestingTreeNode
 target
 =
 DepthFirstSearchPostOrder
+<
+ReverseIterator
+>
 (
 mRootNode
 .
@@ -7379,6 +7394,9 @@ mTreeLock
 ;
 return
 DepthFirstSearch
+<
+ReverseIterator
+>
 (
 mRootNode
 .
@@ -7463,6 +7481,9 @@ aHitTestPoint
 )
 ;
 ForEachNode
+<
+ReverseIterator
+>
 (
 root
 [
@@ -8033,6 +8054,9 @@ HitTestingTreeNode
 resultNode
 =
 BreadthFirstSearch
+<
+ReverseIterator
+>
 (
 mRootNode
 .
@@ -8120,6 +8144,9 @@ HitTestingTreeNode
 resultNode
 =
 BreadthFirstSearch
+<
+ReverseIterator
+>
 (
 mRootNode
 .
@@ -8205,6 +8232,9 @@ HitTestingTreeNode
 resultNode
 =
 BreadthFirstSearch
+<
+ReverseIterator
+>
 (
 mRootNode
 .
@@ -8261,6 +8291,9 @@ GetApzc
 resultNode
 =
 BreadthFirstSearch
+<
+ReverseIterator
+>
 (
 mRootNode
 .
