@@ -44,7 +44,7 @@ mScriptCode
 ;
 unsigned
 char
-mEAW
+mUnused
 :
 3
 ;
