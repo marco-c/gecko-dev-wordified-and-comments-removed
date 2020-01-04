@@ -1190,6 +1190,13 @@ ASYNCHRONOUS
 0x01
 }
 ;
+static
+const
+uint64_t
+sInvalidAsyncContainerId
+=
+0
+;
 explicit
 ImageContainer
 (
@@ -1200,6 +1207,13 @@ Mode
 flag
 =
 SYNCHRONOUS
+)
+;
+explicit
+ImageContainer
+(
+uint64_t
+aAsyncContainerID
 )
 ;
 typedef
@@ -1649,6 +1663,9 @@ mRecycleBin
 ImageClient
 *
 mImageClient
+;
+uint64_t
+mAsyncContainerID
 ;
 nsTArray
 <
