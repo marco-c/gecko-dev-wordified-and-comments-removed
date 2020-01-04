@@ -200,11 +200,6 @@ WriteConsoleLog
 (
 )
 ;
-void
-OverrideDefaultLocaleIfNeeded
-(
-)
-;
 #
 ifdef
 XP_WIN
