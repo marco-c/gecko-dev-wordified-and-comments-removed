@@ -8519,15 +8519,6 @@ unlock
 mMutex
 )
 ;
-AutoSafeJSContext
-cx
-;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 for
 (
 uint32_t
@@ -8559,7 +8550,6 @@ index
 >
 Kill
 (
-cx
 )
 )
 {
