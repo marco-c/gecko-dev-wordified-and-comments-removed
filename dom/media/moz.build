@@ -598,11 +598,6 @@ MediaCache
 h
 '
 '
-MediaCallbackID
-.
-h
-'
-'
 MediaData
 .
 h
@@ -1131,11 +1126,6 @@ cpp
 '
 '
 MediaCache
-.
-cpp
-'
-'
-MediaCallbackID
 .
 cpp
 '
