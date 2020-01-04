@@ -13461,14 +13461,7 @@ T
 ProtoHandleGetter
 GetProto
 >
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
+bool
 CreateGlobal
 (
 JSContext
@@ -13579,7 +13572,7 @@ global
 )
 ;
 return
-nullptr
+false
 ;
 }
 JSAutoCompartment
@@ -13651,7 +13644,7 @@ aGlobal
 )
 {
 return
-nullptr
+false
 ;
 }
 }
@@ -13680,7 +13673,7 @@ classes
 )
 ;
 return
-nullptr
+false
 ;
 }
 JS
@@ -13724,7 +13717,7 @@ proto
 )
 ;
 return
-nullptr
+false
 ;
 }
 bool
@@ -13743,7 +13736,7 @@ succeeded
 )
 {
 return
-nullptr
+false
 ;
 }
 MOZ_ASSERT
@@ -13778,7 +13771,7 @@ unsuccessful
 )
 ;
 return
-proto
+true
 ;
 }
 class

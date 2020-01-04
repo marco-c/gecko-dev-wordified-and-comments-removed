@@ -3885,11 +3885,23 @@ DOM_INTERFACE_PROTO_SLOTS_BASE
 "
         
 if
+(
 self
 .
 descriptor
 .
 hasUnforgeableMembers
+and
+            
+not
+self
+.
+descriptor
+.
+isGlobal
+(
+)
+)
 :
             
 slotCount
@@ -19754,6 +19766,15 @@ self
 descriptor
 .
 hasUnforgeableMembers
+and
+not
+self
+.
+descriptor
+.
+isGlobal
+(
+)
 :
             
 assert
@@ -19765,14 +19786,6 @@ self
 descriptor
 .
 proxy
-or
-self
-.
-descriptor
-.
-isGlobal
-(
-)
 :
                 
 holderClass
@@ -22624,6 +22637,12 @@ InitUnforgeablePropertiesOnHolder
 descriptor
 properties
 failureCode
+                                      
+holderName
+=
+"
+unforgeableHolder
+"
 )
 :
     
@@ -22717,7 +22736,9 @@ if
 DefineUnforgeableAttributes
 (
 aCx
-unforgeableHolder
+{
+holderName
+}
 %
 s
 )
@@ -22738,6 +22759,10 @@ failureCode
 failureCode
 =
 failureCode
+        
+holderName
+=
+holderName
 )
     
 defineUnforgeableMethods
@@ -22755,7 +22780,9 @@ if
 DefineUnforgeableMethods
 (
 aCx
-unforgeableHolder
+{
+holderName
+}
 %
 s
 )
@@ -22776,6 +22803,10 @@ failureCode
 failureCode
 =
 failureCode
+        
+holderName
+=
+holderName
 )
     
 unforgeableMembers
@@ -22930,7 +22961,9 @@ if
 JS_DefinePropertyById
 (
 aCx
-unforgeableHolder
+{
+holderName
+}
 toPrimitive
                                        
 JS
@@ -22949,7 +22982,9 @@ JSPROP_PERMANENT
 JS_DefineProperty
 (
 aCx
-unforgeableHolder
+{
+holderName
+}
 "
 toJSON
 "
@@ -22982,6 +23017,10 @@ failureCode
 failureCode
 =
 failureCode
+            
+holderName
+=
+holderName
 )
 )
 )
@@ -23035,6 +23074,15 @@ have
 "
 "
 "
+    
+assert
+not
+descriptor
+.
+isGlobal
+(
+)
+;
     
 if
 not
@@ -23262,29 +23310,6 @@ obj
 aReflector
 "
     
-if
-descriptor
-.
-isGlobal
-(
-)
-:
-        
-copyFunc
-=
-"
-JS_CopyPropertiesFrom
-"
-    
-else
-:
-        
-copyFunc
-=
-"
-JS_InitializePropertiesFromCompatibleNativeObject
-"
-    
 copyCode
 .
 append
@@ -23329,9 +23354,7 @@ toObject
 if
 (
 !
-{
-copyFunc
-}
+JS_InitializePropertiesFromCompatibleNativeObject
 (
 aCx
 {
@@ -23356,10 +23379,6 @@ false
 "
 "
 "
-        
-copyFunc
-=
-copyFunc
         
 obj
 =
@@ -25210,6 +25229,42 @@ chromeProperties
 nullptr
 "
         
+failureCode
+=
+dedent
+(
+            
+"
+"
+"
+            
+aCache
+-
+>
+ReleaseWrapper
+(
+aObject
+)
+;
+            
+aCache
+-
+>
+ClearWrapper
+(
+)
+;
+            
+return
+false
+;
+            
+"
+"
+"
+)
+;
+        
 if
 self
 .
@@ -25218,64 +25273,33 @@ descriptor
 hasUnforgeableMembers
 :
             
-declareProto
+unforgeable
 =
-"
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-canonicalProto
-=
-\
-n
-"
-            
-assertProto
-=
+InitUnforgeablePropertiesOnHolder
 (
                 
-"
-MOZ_ASSERT
-(
-canonicalProto
-&
-&
-\
-n
-"
+self
+.
+descriptor
+self
+.
+properties
+failureCode
                 
 "
-IsDOMIfaceAndProtoClass
-(
-js
-:
-:
-GetObjectClass
-(
-canonicalProto
+aReflector
+"
 )
-)
+.
+define
+(
 )
 ;
-\
-n
-"
-)
         
 else
 :
             
-declareProto
-=
-"
-"
-            
-assertProto
+unforgeable
 =
 "
 "
@@ -25314,11 +25338,9 @@ chain
 )
 ;
             
-*
-{
-declareProto
-}
-              
+if
+(
+!
 CreateGlobal
 <
 {
@@ -25347,24 +25369,14 @@ aInitStandardClasses
                                              
 aReflector
 )
-;
-            
-if
-(
-!
-aReflector
 )
 {
               
-return
-false
-;
-            
-}
-            
 *
 {
-assertProto
+failureCode
+}
+            
 }
             
 /
@@ -25417,9 +25429,10 @@ chromeProperties
 )
 {
               
-return
-false
-;
+*
+{
+failureCode
+}
             
 }
             
@@ -25458,14 +25471,6 @@ descriptor
 .
 nativeType
             
-declareProto
-=
-declareProto
-            
-assertProto
-=
-assertProto
-            
 properties
 =
 properties
@@ -25473,16 +25478,14 @@ properties
 chromeProperties
 =
 chromeProperties
+            
+failureCode
+=
+failureCode
             
 unforgeable
 =
-CopyUnforgeablePropertiesToInstance
-(
-self
-.
-descriptor
-True
-)
+unforgeable
             
 slots
 =
