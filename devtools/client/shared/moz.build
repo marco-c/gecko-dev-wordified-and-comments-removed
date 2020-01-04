@@ -232,6 +232,13 @@ parser
 js
 '
 '
+observable
+-
+object
+.
+js
+'
+'
 options
 -
 view
