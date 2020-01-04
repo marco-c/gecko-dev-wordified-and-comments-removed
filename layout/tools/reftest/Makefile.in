@@ -127,6 +127,14 @@ gaia_lock_screen
 .
 js
 \
+(
+srcdir
+)
+/
+output
+.
+py
+\
 automation
 .
 py

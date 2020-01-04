@@ -2848,6 +2848,9 @@ maxTime
 startTime
 debuggerInfo
 symbolsPath
+outputHandler
+=
+None
 )
 :
 "
@@ -3218,6 +3221,11 @@ stackFixerFunction
 (
 line
 )
+if
+outputHandler
+is
+None
+:
 self
 .
 log
@@ -3241,6 +3249,12 @@ UTF
 ignore
 "
 )
+)
+else
+:
+outputHandler
+(
+line
 )
 if
 "
@@ -4082,6 +4096,9 @@ None
 valgrindSuppFiles
 =
 None
+outputHandler
+=
+None
 )
 :
 "
@@ -4420,6 +4437,9 @@ maxTime
 startTime
 debuggerInfo
 symbolsPath
+outputHandler
+=
+outputHandler
 )
 self
 .

@@ -1608,22 +1608,6 @@ suite
 "
 ]
         
-runreftest
-.
-log
-.
-removeHandler
-(
-runreftest
-.
-log
-.
-handlers
-[
-0
-]
-)
-        
 self
 .
 log_manager

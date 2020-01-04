@@ -58,6 +58,10 @@ run_test_harness
 as
 run_mulet_reftests
 from
+output
+import
+OutputHandler
+from
 remotereftest
 import
 RemoteReftestResolver
@@ -2354,6 +2358,21 @@ None
 )
 :
         
+outputHandler
+=
+OutputHandler
+(
+self
+.
+log
+options
+.
+utilityPath
+options
+.
+symbolsPath
+)
+        
 status
 =
 self
@@ -2396,6 +2415,10 @@ symbolsPath
 timeout
 =
 timeout
+                                        
+outputHandler
+=
+outputHandler
 )
         
 return
@@ -2878,19 +2901,6 @@ options
 .
 httpPort
 ]
-    
-auto
-.
-logFinish
-=
-"
-REFTEST
-TEST
--
-START
-|
-Shutdown
-"
     
 reftest
 =
