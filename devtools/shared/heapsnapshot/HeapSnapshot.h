@@ -328,6 +328,17 @@ StackFrameId
 outFrameId
 )
 ;
+public
+:
+static
+const
+size_t
+MAX_STACK_DEPTH
+=
+60
+;
+private
+:
 Maybe
 <
 uint64_t
