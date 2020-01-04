@@ -45,7 +45,9 @@ h
 #
 include
 "
-prprf
+mozilla
+/
+Snprintf
 .
 h
 "
@@ -1627,7 +1629,7 @@ bufp
 =
 exp
 ;
-PR_snprintf
+snprintf
 (
 bufp
 bufsz
@@ -1958,7 +1960,7 @@ bufp
 =
 exp
 ;
-PR_snprintf
+snprintf
 (
 bufp
 bufsz
