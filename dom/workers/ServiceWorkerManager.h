@@ -496,6 +496,9 @@ aDesc
 class
 ServiceWorkerInfo
 final
+:
+public
+nsIServiceWorkerInfo
 {
 private
 :
@@ -546,10 +549,8 @@ const
 ;
 public
 :
-NS_INLINE_DECL_REFCOUNTING
-(
-ServiceWorkerInfo
-)
+NS_DECL_ISUPPORTS
+NS_DECL_NSISERVICEWORKERINFO
 class
 ServiceWorkerPrivate
 *
