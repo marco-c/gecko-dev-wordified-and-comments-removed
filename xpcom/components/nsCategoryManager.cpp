@@ -1389,6 +1389,17 @@ Destroy
 (
 )
 {
+MOZ_ASSERT
+(
+NS_FAILED
+(
+UnregisterWeakMemoryReporter
+(
+gCategoryManager
+)
+)
+)
+;
 delete
 gCategoryManager
 ;
@@ -1473,7 +1484,7 @@ InitMemoryReporter
 (
 )
 {
-RegisterStrongMemoryReporter
+RegisterWeakMemoryReporter
 (
 this
 )
