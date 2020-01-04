@@ -1722,9 +1722,6 @@ attribute
 boolean
 mozFullScreenEnabled
 ;
-[
-Throws
-]
 readonly
 attribute
 Element

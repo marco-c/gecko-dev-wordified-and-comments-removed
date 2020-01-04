@@ -6340,12 +6340,6 @@ Element
 *
 GetMozFullScreenElement
 (
-mozilla
-:
-:
-ErrorResult
-&
-rv
 )
 =
 0
