@@ -156,9 +156,9 @@ virtual
 bool
 IsAcceptableChild
 (
-Accessible
+nsIContent
 *
-aPossibleChild
+aEl
 )
 const
 override
