@@ -16,6 +16,15 @@ yml
 '
 task
 :
+retries
+:
+0
+#
+Until
+bug
+1246176
+is
+fixed
 payload
 :
 maxRunTime
