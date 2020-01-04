@@ -2907,6 +2907,13 @@ CSS_KEY
 (
 sideways
 -
+lr
+sideways_lr
+)
+CSS_KEY
+(
+sideways
+-
 right
 sideways_right
 )

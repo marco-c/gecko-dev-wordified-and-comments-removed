@@ -50949,6 +50949,11 @@ sideways
 rl
 "
 "
+sideways
+-
+lr
+"
+"
 tb
 "
 "
@@ -50975,11 +50980,6 @@ auto
 "
 "
 1em
-"
-"
-sideways
--
-lr
 "
 ]
 }
