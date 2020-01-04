@@ -979,6 +979,13 @@ kNo_Hinting
 )
 ;
 }
+rec
+-
+>
+ignorePreBlend
+(
+)
+;
 }
 virtual
 void
