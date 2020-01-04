@@ -1350,4 +1350,6 @@ apt
 get
 autoclean
 rm
+-
+f
 0
