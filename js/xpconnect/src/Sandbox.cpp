@@ -7685,7 +7685,6 @@ frame
 >
 GetFilename
 (
-cx
 location
 )
 ;
