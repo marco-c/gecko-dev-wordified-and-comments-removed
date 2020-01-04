@@ -99,6 +99,13 @@ FakeIPC
 .
 cpp
 "
+#
+include
+"
+TestHarness
+.
+h
+"
 namespace
 mozilla
 {
