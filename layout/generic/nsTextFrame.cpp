@@ -4302,7 +4302,6 @@ aOffset
 mOffsetIntoTextRun
 aLength
 aBreakBefore
-mContext
 )
 )
 {
@@ -4394,7 +4393,6 @@ aOffset
 mOffsetIntoTextRun
 aLength
 aCapitalize
-mContext
 )
 ;
 }

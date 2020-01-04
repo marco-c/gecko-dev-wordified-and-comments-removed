@@ -486,9 +486,6 @@ aLength
 uint8_t
 *
 aBreakBefore
-gfxContext
-*
-aRefContext
 )
 ;
 class

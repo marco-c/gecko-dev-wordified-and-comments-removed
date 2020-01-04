@@ -490,9 +490,6 @@ aLength
 bool
 *
 aCapitalization
-gfxContext
-*
-aRefContext
 )
 ;
 virtual
@@ -506,9 +503,6 @@ aLength
 uint8_t
 *
 aBreakBefore
-gfxContext
-*
-aRefContext
 )
 ;
 void

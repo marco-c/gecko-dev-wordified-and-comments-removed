@@ -249,9 +249,6 @@ aLength
 bool
 *
 aCapitalization
-gfxContext
-*
-aRefContext
 )
 {
 if
@@ -332,9 +329,6 @@ aLength
 uint8_t
 *
 aBreakBefore
-gfxContext
-*
-aRefContext
 )
 {
 bool
@@ -348,7 +342,6 @@ SetPotentialLineBreaks
 aStart
 aLength
 aBreakBefore
-aRefContext
 )
 ;
 if
@@ -3224,7 +3217,6 @@ canBreakBeforeArray
 Elements
 (
 )
-aRefContext
 )
 ;
 if

@@ -2948,7 +2948,6 @@ canBreakBeforeArray
 Elements
 (
 )
-aRefContext
 )
 ;
 if
