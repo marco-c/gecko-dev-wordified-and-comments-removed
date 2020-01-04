@@ -238,7 +238,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -259,7 +259,7 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aDesiredSize
 aStatus
 )
@@ -464,10 +464,10 @@ return
 ;
 }
 ReflowInput
-kidReflowState
+kidReflowInput
 (
 aPresContext
-aReflowState
+aReflowInput
 frame
 LogicalSize
 (
@@ -481,7 +481,7 @@ maxSize
 )
 )
 ;
-kidReflowState
+kidReflowInput
 .
 mFlags
 .
@@ -489,7 +489,7 @@ mIsTopOfPage
 =
 true
 ;
-kidReflowState
+kidReflowInput
 .
 mFlags
 .
@@ -502,7 +502,7 @@ nsStyleSides
 &
 marginStyle
 =
-kidReflowState
+kidReflowInput
 .
 mStyleMargin
 -
@@ -554,7 +554,7 @@ Side
 side
 )
 =
-kidReflowState
+kidReflowInput
 .
 ComputedPhysicalMargin
 (
@@ -698,14 +698,14 @@ scale
 ;
 }
 }
-kidReflowState
+kidReflowInput
 .
 SetComputedWidth
 (
 maxWidth
 )
 ;
-kidReflowState
+kidReflowInput
 .
 SetComputedHeight
 (
@@ -731,7 +731,7 @@ ReflowChild
 frame
 aPresContext
 aDesiredSize
-kidReflowState
+kidReflowInput
 xc
 yc
 0
@@ -744,7 +744,7 @@ frame
 aPresContext
 aDesiredSize
 &
-kidReflowState
+kidReflowInput
 xc
 yc
 0
@@ -819,12 +819,12 @@ aDesiredSize
 Height
 (
 )
-aReflowState
+aReflowInput
 .
 AvailableWidth
 (
 )
-aReflowState
+aReflowInput
 .
 AvailableHeight
 (
@@ -835,7 +835,7 @@ AvailableHeight
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -848,7 +848,7 @@ ISize
 wm
 )
 =
-aReflowState
+aReflowInput
 .
 AvailableISize
 (
@@ -856,7 +856,7 @@ AvailableISize
 ;
 if
 (
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -873,7 +873,7 @@ BSize
 wm
 )
 =
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -920,12 +920,12 @@ d
 \
 n
 "
-aReflowState
+aReflowInput
 .
 AvailableWidth
 (
 )
-aReflowState
+aReflowInput
 .
 AvailableHeight
 (
@@ -936,7 +936,7 @@ AvailableHeight
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;
@@ -3515,7 +3515,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -3532,7 +3532,7 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aDesiredSize
 aStatus
 )
@@ -3540,7 +3540,7 @@ aStatus
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -3553,7 +3553,7 @@ wm
 GetIntrinsicISize
 (
 )
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -3564,7 +3564,7 @@ NS_UNCONSTRAINEDSIZE
 ?
 0
 :
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (

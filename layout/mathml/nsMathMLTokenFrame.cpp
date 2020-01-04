@@ -506,7 +506,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -559,7 +559,7 @@ PrincipalChildList
 ReflowOutput
 childDesiredSize
 (
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -584,7 +584,7 @@ GetWritingMode
 LogicalSize
 availSize
 =
-aReflowState
+aReflowInput
 .
 ComputedSize
 (
@@ -601,10 +601,10 @@ wm
 NS_UNCONSTRAINEDSIZE
 ;
 ReflowInput
-childReflowState
+childReflowInput
 (
 aPresContext
-aReflowState
+aReflowInput
 childFrame
 availSize
 )
@@ -614,7 +614,7 @@ ReflowChild
 childFrame
 aPresContext
 childDesiredSize
-childReflowState
+childReflowInput
 aStatus
 )
 ;
@@ -630,7 +630,7 @@ mBoundingMetrics
 }
 FinalizeReflow
 (
-aReflowState
+aReflowInput
 .
 mRenderingContext
 -
@@ -648,7 +648,7 @@ NS_FRAME_COMPLETE
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;

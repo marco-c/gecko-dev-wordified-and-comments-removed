@@ -552,7 +552,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 const
 mozilla
 :
@@ -600,7 +600,7 @@ aDesiredSize
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 const
 mozilla
 :
@@ -638,7 +638,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nscoord
 aX
 nscoord
@@ -672,7 +672,7 @@ aDesiredSize
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 nscoord
 aX
 nscoord
@@ -746,7 +746,7 @@ aPresContext
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsOverflowAreas
 &
 aOverflowRects

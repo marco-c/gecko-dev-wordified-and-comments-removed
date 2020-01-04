@@ -1007,7 +1007,7 @@ ScrollReflowInput
 const
 ReflowInput
 &
-mReflowState
+mReflowInput
 ;
 nsBoxLayoutState
 mBoxState
@@ -1047,7 +1047,7 @@ ReflowInput
 aState
 )
 :
-mReflowState
+mReflowInput
 (
 aState
 )
@@ -1099,7 +1099,7 @@ contentWidth
 aState
 -
 >
-mReflowState
+mReflowInput
 .
 ComputedWidth
 (
@@ -1122,7 +1122,7 @@ width
 aState
 -
 >
-mReflowState
+mReflowInput
 .
 ComputedPhysicalPadding
 (
@@ -1139,7 +1139,7 @@ contentHeight
 aState
 -
 >
-mReflowState
+mReflowInput
 .
 ComputedHeight
 (
@@ -1162,7 +1162,7 @@ height
 aState
 -
 >
-mReflowState
+mReflowInput
 .
 ComputedPhysicalPadding
 (
@@ -1178,7 +1178,7 @@ contentWidth
 aState
 -
 >
-mReflowState
+mReflowInput
 .
 ApplyMinMaxWidth
 (
@@ -1190,7 +1190,7 @@ contentHeight
 aState
 -
 >
-mReflowState
+mReflowInput
 .
 ApplyMinMaxHeight
 (
@@ -1205,7 +1205,7 @@ contentWidth
 aState
 -
 >
-mReflowState
+mReflowInput
 .
 ComputedPhysicalPadding
 (
@@ -1219,7 +1219,7 @@ contentHeight
 aState
 -
 >
-mReflowState
+mReflowInput
 .
 ComputedPhysicalPadding
 (
@@ -2189,7 +2189,7 @@ NS_FRAME_DESCENDANT_INTRINSIC_ISIZE_DEPENDS_ON_BSIZE
 aState
 -
 >
-mReflowState
+mReflowInput
 .
 ComputedBSize
 (
@@ -2202,7 +2202,7 @@ NS_UNCONSTRAINEDSIZE
 aState
 -
 >
-mReflowState
+mReflowInput
 .
 ComputedMinBSize
 (
@@ -2214,7 +2214,7 @@ ComputedMinBSize
 aState
 -
 >
-mReflowState
+mReflowInput
 .
 ComputedMaxBSize
 (
@@ -2262,7 +2262,7 @@ padding
 aState
 -
 >
-mReflowState
+mReflowInput
 .
 ComputedLogicalPadding
 (
@@ -2274,7 +2274,7 @@ availISize
 aState
 -
 >
-mReflowState
+mReflowInput
 .
 ComputedISize
 (
@@ -2293,7 +2293,7 @@ computedBSize
 aState
 -
 >
-mReflowState
+mReflowInput
 .
 ComputedBSize
 (
@@ -2305,7 +2305,7 @@ computedMinBSize
 aState
 -
 >
-mReflowState
+mReflowInput
 .
 ComputedMinBSize
 (
@@ -2317,7 +2317,7 @@ computedMaxBSize
 aState
 -
 >
-mReflowState
+mReflowInput
 .
 ComputedMaxBSize
 (
@@ -2618,13 +2618,13 @@ PresContext
 )
 ;
 ReflowInput
-kidReflowState
+kidReflowInput
 (
 presContext
 aState
 -
 >
-mReflowState
+mReflowInput
 mHelper
 .
 mScrolledFrame
@@ -2652,7 +2652,7 @@ GetPhysicalMargin
 wm
 )
 ;
-kidReflowState
+kidReflowInput
 .
 Init
 (
@@ -2663,7 +2663,7 @@ nullptr
 physicalPadding
 )
 ;
-kidReflowState
+kidReflowInput
 .
 mFlags
 .
@@ -2671,7 +2671,7 @@ mAssumingHScrollbar
 =
 aAssumeHScroll
 ;
-kidReflowState
+kidReflowInput
 .
 mFlags
 .
@@ -2679,14 +2679,14 @@ mAssumingVScrollbar
 =
 aAssumeVScroll
 ;
-kidReflowState
+kidReflowInput
 .
 SetComputedBSize
 (
 computedBSize
 )
 ;
-kidReflowState
+kidReflowInput
 .
 ComputedMinBSize
 (
@@ -2694,7 +2694,7 @@ ComputedMinBSize
 =
 computedMinBSize
 ;
-kidReflowState
+kidReflowInput
 .
 ComputedMaxBSize
 (
@@ -2707,11 +2707,11 @@ if
 aState
 -
 >
-mReflowState
+mReflowInput
 .
 IsBResizeForWM
 (
-kidReflowState
+kidReflowInput
 .
 GetWritingMode
 (
@@ -2719,7 +2719,7 @@ GetWritingMode
 )
 )
 {
-kidReflowState
+kidReflowInput
 .
 SetBResize
 (
@@ -2768,7 +2768,7 @@ mScrolledFrame
 presContext
 *
 aMetrics
-kidReflowState
+kidReflowInput
 wm
 LogicalPoint
 (
@@ -2800,7 +2800,7 @@ presContext
 *
 aMetrics
 &
-kidReflowState
+kidReflowInput
 wm
 LogicalPoint
 (
@@ -3806,7 +3806,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -3827,7 +3827,7 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aDesiredSize
 aStatus
 )
@@ -3842,7 +3842,7 @@ ScrollReflowInput
 state
 (
 this
-aReflowState
+aReflowInput
 )
 ;
 if
@@ -3903,7 +3903,7 @@ true
 if
 (
 !
-aReflowState
+aReflowInput
 .
 ShouldReflowAllKids
 (
@@ -4059,13 +4059,13 @@ state
 .
 mComputedBorder
 =
-aReflowState
+aReflowInput
 .
 ComputedPhysicalBorderPadding
 (
 )
 -
-aReflowState
+aReflowInput
 .
 ComputedPhysicalPadding
 (
@@ -4392,7 +4392,7 @@ FinishReflowWithAbsoluteFrames
 (
 aPresContext
 aDesiredSize
-aReflowState
+aReflowInput
 aStatus
 )
 ;
@@ -4453,7 +4453,7 @@ NS_FRAME_COMPLETE
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;

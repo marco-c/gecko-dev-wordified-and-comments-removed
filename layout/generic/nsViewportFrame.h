@@ -224,7 +224,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -251,11 +251,11 @@ aOverflowAreas
 override
 ;
 nsRect
-AdjustReflowStateAsContainingBlock
+AdjustReflowInputAsContainingBlock
 (
 ReflowInput
 *
-aReflowState
+aReflowInput
 )
 const
 ;
@@ -298,11 +298,11 @@ kFixedList
 protected
 :
 nsPoint
-AdjustReflowStateForScrollbars
+AdjustReflowInputForScrollbars
 (
 ReflowInput
 *
-aReflowState
+aReflowInput
 )
 const
 ;

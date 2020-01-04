@@ -672,7 +672,7 @@ aMetrics
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aReflowStatus
@@ -693,7 +693,7 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aMetrics
 aReflowStatus
 )
@@ -716,7 +716,7 @@ FirstChild
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -725,7 +725,7 @@ GetWritingMode
 LogicalSize
 availSize
 =
-aReflowState
+aReflowInput
 .
 AvailableSize
 (
@@ -736,7 +736,7 @@ LogicalMargin
 &
 bp
 =
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -826,7 +826,7 @@ lineWM
 if
 (
 !
-aReflowState
+aReflowInput
 .
 mLineLayout
 )
@@ -854,7 +854,7 @@ ReflowInput
 rs
 (
 aPresContext
-aReflowState
+aReflowInput
 kid
 kidAvailSize
 )
@@ -865,7 +865,7 @@ ll
 aPresContext
 nullptr
 &
-aReflowState
+aReflowInput
 nullptr
 nullptr
 )
@@ -898,12 +898,12 @@ true
 kidWritingMode
 nsSize
 (
-aReflowState
+aReflowInput
 .
 AvailableWidth
 (
 )
-aReflowState
+aReflowInput
 .
 AvailableHeight
 (
@@ -1119,7 +1119,7 @@ nsLineLayout
 *
 ll
 =
-aReflowState
+aReflowInput
 .
 mLineLayout
 ;
@@ -1152,7 +1152,7 @@ BeginSpan
 (
 this
 &
-aReflowState
+aReflowInput
 bp
 .
 IStart
@@ -1290,12 +1290,12 @@ aReflowStatus
 {
 if
 (
-aReflowState
+aReflowInput
 .
 mLineLayout
 )
 {
-aReflowState
+aReflowInput
 .
 mLineLayout
 -
@@ -1412,7 +1412,7 @@ true
 NS_FRAME_SET_TRUNCATION
 (
 aReflowStatus
-aReflowState
+aReflowInput
 aMetrics
 )
 ;
@@ -1884,7 +1884,7 @@ GetLogicalSkipSides
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 )
 const
 {

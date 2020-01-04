@@ -42,7 +42,7 @@ UpdateFontInflationDataISizeFor
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 ;
 static
@@ -119,7 +119,7 @@ UpdateISize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 ;
 enum

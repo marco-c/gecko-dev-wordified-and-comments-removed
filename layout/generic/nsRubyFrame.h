@@ -99,7 +99,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -180,7 +180,7 @@ aPresContext
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsRubyBaseContainerFrame
 *
 aBaseContainer

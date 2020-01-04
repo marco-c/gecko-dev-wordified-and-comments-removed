@@ -94,7 +94,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -115,7 +115,7 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aDesiredSize
 aStatus
 )
@@ -176,12 +176,12 @@ return
 nsSize
 maxSize
 (
-aReflowState
+aReflowInput
 .
 ComputedWidth
 (
 )
-aReflowState
+aReflowInput
 .
 ComputedHeight
 (
@@ -230,15 +230,15 @@ maxSize
 )
 ;
 ReflowInput
-kidReflowState
+kidReflowInput
 (
 aPresContext
-aReflowState
+aReflowInput
 frame
 logicalSize
 )
 ;
-kidReflowState
+kidReflowInput
 .
 SetComputedBSize
 (
@@ -255,7 +255,7 @@ ReflowChild
 frame
 aPresContext
 aDesiredSize
-kidReflowState
+kidReflowInput
 0
 0
 0
@@ -271,7 +271,7 @@ padding
 0
 )
 ;
-kidReflowState
+kidReflowInput
 .
 mStylePadding
 -
@@ -324,7 +324,7 @@ padding
 .
 right
 +
-kidReflowState
+kidReflowInput
 .
 mStyleBorder
 -
@@ -397,7 +397,7 @@ frame
 aPresContext
 aDesiredSize
 &
-kidReflowState
+kidReflowInput
 0
 0
 0
@@ -445,7 +445,7 @@ ReflowAbsoluteFrames
 (
 aPresContext
 aDesiredSize
-aReflowState
+aReflowInput
 fixedStatus
 )
 ;
@@ -470,7 +470,7 @@ incomplete
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -483,7 +483,7 @@ ISize
 wm
 )
 =
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
@@ -491,7 +491,7 @@ ComputedISize
 ;
 if
 (
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -508,7 +508,7 @@ BSize
 wm
 )
 =
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -524,7 +524,7 @@ aDesiredSize
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;

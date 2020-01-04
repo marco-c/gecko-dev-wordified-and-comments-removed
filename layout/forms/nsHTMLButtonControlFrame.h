@@ -126,7 +126,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -411,7 +411,7 @@ aButtonDesiredSize
 const
 ReflowInput
 &
-aButtonReflowState
+aButtonReflowInput
 nsIFrame
 *
 aFirstKid

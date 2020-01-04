@@ -394,7 +394,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -415,7 +415,7 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aDesiredSize
 aStatus
 )
@@ -438,12 +438,12 @@ d
 %
 d
 "
-aReflowState
+aReflowInput
 .
 AvailableWidth
 (
 )
-aReflowState
+aReflowInput
 .
 AvailableHeight
 (
@@ -480,12 +480,12 @@ aDesiredSize
 .
 SetSize
 (
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
 )
-aReflowState
+aReflowInput
 .
 ComputedSizeWithBorderPadding
 (
@@ -567,7 +567,7 @@ Height
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;

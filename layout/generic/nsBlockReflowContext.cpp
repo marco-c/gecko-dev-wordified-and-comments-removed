@@ -101,7 +101,7 @@ mPresContext
 (
 aPresContext
 )
-mOuterReflowState
+mOuterReflowInput
 (
 aParentRS
 )
@@ -684,7 +684,7 @@ done
 const
 ReflowInput
 *
-outerReflowState
+outerReflowInput
 =
 &
 aRS
@@ -740,7 +740,7 @@ GetWritingMode
 )
 )
 ;
-outerReflowState
+outerReflowInput
 =
 new
 ReflowInput
@@ -756,7 +756,7 @@ availSpace
 LogicalSize
 availSpace
 =
-outerReflowState
+outerReflowInput
 -
 >
 ComputedSize
@@ -770,11 +770,11 @@ GetWritingMode
 )
 ;
 ReflowInput
-innerReflowState
+innerReflowInput
 (
 prescontext
 *
-outerReflowState
+outerReflowInput
 kid
 availSpace
 )
@@ -815,7 +815,7 @@ if
 (
 ComputeCollapsedBStartMargin
 (
-innerReflowState
+innerReflowInput
 aMargin
 aClearanceFrame
 aMayNeedRetry
@@ -844,7 +844,7 @@ isEmpty
 WritingMode
 innerWM
 =
-innerReflowState
+innerReflowInput
 .
 GetWritingMode
 (
@@ -853,7 +853,7 @@ GetWritingMode
 LogicalMargin
 innerMargin
 =
-innerReflowState
+innerReflowInput
 .
 ComputedLogicalMargin
 (
@@ -882,7 +882,7 @@ parentWM
 }
 if
 (
-outerReflowState
+outerReflowInput
 !
 =
 &
@@ -896,7 +896,7 @@ ReflowInput
 *
 >
 (
-outerReflowState
+outerReflowInput
 )
 ;
 }
@@ -1065,7 +1065,7 @@ mWritingMode
 =
 aState
 .
-mReflowState
+mReflowInput
 .
 GetWritingMode
 (
@@ -1116,7 +1116,7 @@ nsFrame
 ListTag
 (
 stdout
-mOuterReflowState
+mOuterReflowInput
 .
 mFrame
 )
@@ -1387,7 +1387,7 @@ aFrameRS
 .
 mBlockDelta
 =
-mOuterReflowState
+mOuterReflowInput
 .
 mBlockDelta
 +
@@ -1430,7 +1430,7 @@ nscoord
 ;
 #
 endif
-mOuterReflowState
+mOuterReflowInput
 .
 mFloatManager
 -
@@ -1452,7 +1452,7 @@ aFrameRS
 aFrameReflowStatus
 )
 ;
-mOuterReflowState
+mOuterReflowInput
 .
 mFloatManager
 -
@@ -1754,7 +1754,7 @@ PlaceBlock
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 bool
 aForceFit
 nsLineBox
@@ -1773,7 +1773,7 @@ aReflowStatus
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -1806,7 +1806,7 @@ aBEndMarginResult
 .
 Include
 (
-aReflowState
+aReflowInput
 .
 ComputedLogicalMargin
 (
@@ -1895,7 +1895,7 @@ nsFrame
 ListTag
 (
 stdout
-mOuterReflowState
+mOuterReflowInput
 .
 mFrame
 )
@@ -2014,7 +2014,7 @@ DidReflow
 (
 mPresContext
 &
-aReflowState
+aReflowInput
 nsDidReflowStatus
 :
 :
@@ -2098,7 +2098,7 @@ mWritingMode
 )
 )
 ;
-aReflowState
+aReflowInput
 .
 ApplyRelativePositioning
 (
@@ -2116,7 +2116,7 @@ mFrame
 mPresContext
 mMetrics
 &
-aReflowState
+aReflowInput
 frameWM
 logPos
 mContainerSize

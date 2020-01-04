@@ -487,7 +487,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -508,7 +508,7 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aDesiredSize
 aStatus
 )
@@ -616,7 +616,7 @@ const
 WritingMode
 myWM
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -626,7 +626,7 @@ const
 nscoord
 contentBoxISize
 =
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
@@ -635,7 +635,7 @@ ComputedISize
 nscoord
 contentBoxBSize
 =
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -647,7 +647,7 @@ borderBoxISize
 =
 contentBoxISize
 +
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -673,7 +673,7 @@ borderBoxBSize
 =
 contentBoxBSize
 +
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -716,7 +716,7 @@ contentBoxBSize
 ;
 borderBoxBSize
 =
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -750,7 +750,7 @@ huh
 ReflowOutput
 wrappersDesiredSize
 (
-aReflowState
+aReflowInput
 )
 ;
 WritingMode
@@ -766,7 +766,7 @@ GetWritingMode
 LogicalSize
 availSize
 =
-aReflowState
+aReflowInput
 .
 ComputedSize
 (
@@ -783,10 +783,10 @@ wrapperWM
 NS_UNCONSTRAINEDSIZE
 ;
 ReflowInput
-wrapperReflowState
+wrapperReflowInput
 (
 aPresContext
-aReflowState
+aReflowInput
 outerWrapperFrame
 availSize
 )
@@ -794,7 +794,7 @@ availSize
 LogicalMargin
 wrapperMargin
 =
-wrapperReflowState
+wrapperReflowInput
 .
 ComputedLogicalMargin
 (
@@ -810,7 +810,7 @@ LogicalPoint
 wrapperOffset
 (
 myWM
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -827,7 +827,7 @@ IStart
 (
 myWM
 )
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -858,7 +858,7 @@ ReflowChild
 outerWrapperFrame
 aPresContext
 wrappersDesiredSize
-wrapperReflowState
+wrapperReflowInput
 myWM
 wrapperOffset
 dummyContainerSize
@@ -926,12 +926,12 @@ contentBoxBSize
 NS_CSS_MINMAX
 (
 contentBoxBSize
-aReflowState
+aReflowInput
 .
 ComputedMinBSize
 (
 )
-aReflowState
+aReflowInput
 .
 ComputedMaxBSize
 (
@@ -942,7 +942,7 @@ borderBoxBSize
 =
 contentBoxBSize
 +
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -1001,7 +1001,7 @@ outerWrapperFrame
 aPresContext
 wrappersDesiredSize
 &
-wrapperReflowState
+wrapperReflowInput
 myWM
 wrapperOffset
 borderBoxSize
@@ -1038,7 +1038,7 @@ outerWrapperFrame
 >
 BStart
 (
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -1097,7 +1097,7 @@ NS_FRAME_COMPLETE
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;

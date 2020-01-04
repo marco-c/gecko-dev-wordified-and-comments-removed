@@ -266,7 +266,7 @@ GetEffectiveComputedBSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nscoord
 aConsumed
 =
@@ -281,7 +281,7 @@ GetLogicalSkipSides
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 =
 nullptr
 )

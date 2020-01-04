@@ -331,7 +331,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -456,7 +456,7 @@ GetNextInFlow
 protected
 :
 struct
-InlineReflowState
+InlineReflowInput
 {
 nsIFrame
 *
@@ -477,7 +477,7 @@ mLineLayout
 bool
 mSetParentPointer
 ;
-InlineReflowState
+InlineReflowInput
 (
 )
 {
@@ -525,7 +525,7 @@ GetLogicalSkipSides
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 =
 nullptr
 )
@@ -541,8 +541,8 @@ aPresContext
 const
 ReflowInput
 &
-aReflowState
-InlineReflowState
+aReflowInput
+InlineReflowInput
 &
 rs
 ReflowOutput
@@ -562,8 +562,8 @@ aPresContext
 const
 ReflowInput
 &
-aReflowState
-InlineReflowState
+aReflowInput
+InlineReflowInput
 &
 rs
 nsIFrame
@@ -595,7 +595,7 @@ PullOneFrame
 nsPresContext
 *
 aPresContext
-InlineReflowState
+InlineReflowInput
 &
 rs
 bool
@@ -616,7 +616,7 @@ aFromChild
 nsIFrame
 *
 aPrevSibling
-InlineReflowState
+InlineReflowInput
 &
 aState
 )
@@ -715,7 +715,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -776,7 +776,7 @@ PullOneFrame
 nsPresContext
 *
 aPresContext
-InlineReflowState
+InlineReflowInput
 &
 rs
 bool

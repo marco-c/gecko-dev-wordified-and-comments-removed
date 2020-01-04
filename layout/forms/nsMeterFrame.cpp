@@ -495,7 +495,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -516,7 +516,7 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aDesiredSize
 aStatus
 )
@@ -615,7 +615,7 @@ ReflowBarFrame
 (
 barFrame
 aPresContext
-aReflowState
+aReflowInput
 aStatus
 )
 ;
@@ -623,12 +623,12 @@ aDesiredSize
 .
 SetSize
 (
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
 )
-aReflowState
+aReflowInput
 .
 ComputedSizeWithBorderPadding
 (
@@ -662,7 +662,7 @@ NS_FRAME_COMPLETE
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;
@@ -682,7 +682,7 @@ aPresContext
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -708,7 +708,7 @@ GetWritingMode
 LogicalSize
 availSize
 =
-aReflowState
+aReflowInput
 .
 ComputedSize
 (
@@ -725,10 +725,10 @@ wm
 NS_UNCONSTRAINEDSIZE
 ;
 ReflowInput
-reflowState
+reflowInput
 (
 aPresContext
-aReflowState
+aReflowInput
 aBarFrame
 availSize
 )
@@ -738,13 +738,13 @@ size
 =
 vertical
 ?
-aReflowState
+aReflowInput
 .
 ComputedHeight
 (
 )
 :
-aReflowState
+aReflowInput
 .
 ComputedWidth
 (
@@ -753,7 +753,7 @@ ComputedWidth
 nscoord
 xoffset
 =
-aReflowState
+aReflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -764,7 +764,7 @@ left
 nscoord
 yoffset
 =
-aReflowState
+aReflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -879,7 +879,7 @@ IsBidiLTR
 xoffset
 +
 =
-aReflowState
+aReflowInput
 .
 ComputedWidth
 (
@@ -896,7 +896,7 @@ vertical
 yoffset
 +
 =
-aReflowState
+aReflowInput
 .
 ComputedHeight
 (
@@ -907,7 +907,7 @@ size
 size
 -
 =
-reflowState
+reflowInput
 .
 ComputedPhysicalMargin
 (
@@ -917,7 +917,7 @@ TopBottom
 (
 )
 +
-reflowState
+reflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -938,7 +938,7 @@ size
 0
 )
 ;
-reflowState
+reflowInput
 .
 SetComputedHeight
 (
@@ -951,7 +951,7 @@ else
 size
 -
 =
-reflowState
+reflowInput
 .
 ComputedPhysicalMargin
 (
@@ -961,7 +961,7 @@ LeftRight
 (
 )
 +
-reflowState
+reflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -982,7 +982,7 @@ size
 0
 )
 ;
-reflowState
+reflowInput
 .
 SetComputedWidth
 (
@@ -993,7 +993,7 @@ size
 xoffset
 +
 =
-reflowState
+reflowInput
 .
 ComputedPhysicalMargin
 (
@@ -1004,7 +1004,7 @@ left
 yoffset
 +
 =
-reflowState
+reflowInput
 .
 ComputedPhysicalMargin
 (
@@ -1015,7 +1015,7 @@ top
 ReflowOutput
 barDesiredSize
 (
-reflowState
+reflowInput
 )
 ;
 ReflowChild
@@ -1023,7 +1023,7 @@ ReflowChild
 aBarFrame
 aPresContext
 barDesiredSize
-reflowState
+reflowInput
 xoffset
 yoffset
 0
@@ -1036,7 +1036,7 @@ aBarFrame
 aPresContext
 barDesiredSize
 &
-reflowState
+reflowInput
 xoffset
 yoffset
 0

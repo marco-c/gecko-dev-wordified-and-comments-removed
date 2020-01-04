@@ -2952,7 +2952,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -2973,7 +2973,7 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aDesiredSize
 aStatus
 )
@@ -3079,12 +3079,12 @@ SetSize
 (
 nsSize
 (
-aReflowState
+aReflowInput
 .
 ComputedWidth
 (
 )
-aReflowState
+aReflowInput
 .
 ComputedHeight
 (
@@ -3095,7 +3095,7 @@ ComputedHeight
 ReflowOutput
 kidDesiredSize
 (
-aReflowState
+aReflowInput
 )
 ;
 if
@@ -3152,12 +3152,12 @@ NS_FRAME_IS_DIRTY
 0
 ;
 ReflowInput
-kidReflowState
+kidReflowInput
 (
 aPresContext
-aReflowState
+aReflowInput
 kidFrame
-aReflowState
+aReflowInput
 .
 AvailableSize
 (
@@ -3172,11 +3172,11 @@ GetWritingMode
 ;
 if
 (
-aReflowState
+aReflowInput
 .
 IsBResizeForWM
 (
-kidReflowState
+kidReflowInput
 .
 GetWritingMode
 (
@@ -3196,7 +3196,7 @@ NS_FRAME_CONTAINS_RELATIVE_BSIZE
 )
 )
 {
-kidReflowState
+kidReflowInput
 .
 SetBResize
 (
@@ -3207,7 +3207,7 @@ true
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -3216,7 +3216,7 @@ GetWritingMode
 WritingMode
 kidWM
 =
-kidReflowState
+kidReflowInput
 .
 GetWritingMode
 (
@@ -3225,7 +3225,7 @@ GetWritingMode
 nsSize
 containerSize
 =
-aReflowState
+aReflowInput
 .
 ComputedPhysicalSize
 (
@@ -3234,7 +3234,7 @@ ComputedPhysicalSize
 LogicalMargin
 margin
 =
-kidReflowState
+kidReflowInput
 .
 ComputedLogicalMargin
 (
@@ -3258,7 +3258,7 @@ kidWM
 )
 )
 ;
-kidReflowState
+kidReflowInput
 .
 ApplyRelativePositioning
 (
@@ -3272,7 +3272,7 @@ ReflowChild
 kidFrame
 aPresContext
 kidDesiredSize
-kidReflowState
+kidReflowInput
 kidWM
 kidPt
 containerSize
@@ -3286,7 +3286,7 @@ kidFrame
 aPresContext
 kidDesiredSize
 &
-kidReflowState
+kidReflowInput
 kidWM
 kidPt
 containerSize
@@ -3442,7 +3442,7 @@ ISize
 wm
 )
 =
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
@@ -3450,7 +3450,7 @@ ComputedISize
 ;
 if
 (
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -3480,7 +3480,7 @@ BSize
 wm
 )
 +
-kidReflowState
+kidReflowInput
 .
 ComputedLogicalMargin
 (
@@ -3501,7 +3501,7 @@ BSize
 wm
 )
 =
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -3549,7 +3549,7 @@ prevCanvasFrame
 ReflowOverflowContainerChildren
 (
 aPresContext
-aReflowState
+aReflowInput
 aDesiredSize
 .
 mOverflowAreas
@@ -3562,7 +3562,7 @@ FinishReflowWithAbsoluteFrames
 (
 aPresContext
 aDesiredSize
-aReflowState
+aReflowInput
 aStatus
 )
 ;
@@ -3580,7 +3580,7 @@ aStatus
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;

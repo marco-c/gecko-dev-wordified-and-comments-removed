@@ -19,7 +19,7 @@ aRenderingContext
 const
 ReflowInput
 *
-aOuterReflowState
+aOuterReflowInput
 uint16_t
 aReflowDepth
 )
@@ -32,9 +32,9 @@ mRenderingContext
 (
 aRenderingContext
 )
-mOuterReflowState
+mOuterReflowInput
 (
-aOuterReflowState
+aOuterReflowInput
 )
 mLayoutFlags
 (
@@ -86,11 +86,11 @@ aState
 .
 mRenderingContext
 )
-mOuterReflowState
+mOuterReflowInput
 (
 aState
 .
-mOuterReflowState
+mOuterReflowInput
 )
 mLayoutFlags
 (

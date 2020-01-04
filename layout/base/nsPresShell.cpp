@@ -42276,7 +42276,7 @@ NS_UNCONSTRAINEDSIZE
 )
 ;
 ReflowInput
-reflowState
+reflowInput
 (
 mPresContext
 target
@@ -42289,7 +42289,7 @@ ReflowInput
 CALLER_WILL_INIT
 )
 ;
-reflowState
+reflowInput
 .
 mOrthogonalLimit
 =
@@ -42308,7 +42308,7 @@ rootFrame
 target
 )
 {
-reflowState
+reflowInput
 .
 Init
 (
@@ -42336,7 +42336,7 @@ hasUnconstrainedBSize
 mLastRootReflowHadUnconstrainedBSize
 )
 {
-reflowState
+reflowInput
 .
 SetBResize
 (
@@ -42371,7 +42371,7 @@ GetUsedPadding
 (
 )
 ;
-reflowState
+reflowInput
 .
 Init
 (
@@ -42386,7 +42386,7 @@ currentPadding
 }
 NS_ASSERTION
 (
-reflowState
+reflowInput
 .
 ComputedPhysicalMargin
 (
@@ -42436,7 +42436,7 @@ BSize
 wm
 )
 -
-reflowState
+reflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -42458,7 +42458,7 @@ computedBSize
 0
 )
 ;
-reflowState
+reflowInput
 .
 SetComputedBSize
 (
@@ -42468,7 +42468,7 @@ computedBSize
 }
 NS_ASSERTION
 (
-reflowState
+reflowInput
 .
 ComputedISize
 (
@@ -42482,7 +42482,7 @@ ISize
 wm
 )
 -
-reflowState
+reflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -42520,7 +42520,7 @@ status
 ReflowOutput
 desiredSize
 (
-reflowState
+reflowInput
 )
 ;
 target
@@ -42530,7 +42530,7 @@ Reflow
 (
 mPresContext
 desiredSize
-reflowState
+reflowInput
 status
 )
 ;

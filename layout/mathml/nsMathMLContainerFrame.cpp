@@ -3131,7 +3131,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -3174,7 +3174,7 @@ ReflowChild
 aChildFrame
 aPresContext
 aDesiredSize
-aReflowState
+aReflowInput
 0
 0
 NS_FRAME_NO_MOVE_FRAME
@@ -3263,7 +3263,7 @@ aChildFrame
 >
 ComputeTightBounds
 (
-aReflowState
+aReflowInput
 .
 mRenderingContext
 -
@@ -3358,7 +3358,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -3426,7 +3426,7 @@ childFrame
 ReflowOutput
 childDesiredSize
 (
-aReflowState
+aReflowInput
 aDesiredSize
 .
 mFlags
@@ -3445,7 +3445,7 @@ GetWritingMode
 LogicalSize
 availSize
 =
-aReflowState
+aReflowInput
 .
 ComputedSize
 (
@@ -3462,10 +3462,10 @@ wm
 NS_UNCONSTRAINEDSIZE
 ;
 ReflowInput
-childReflowState
+childReflowInput
 (
 aPresContext
-aReflowState
+aReflowInput
 childFrame
 availSize
 )
@@ -3475,7 +3475,7 @@ ReflowChild
 childFrame
 aPresContext
 childDesiredSize
-childReflowState
+childReflowInput
 childStatus
 )
 ;
@@ -3502,7 +3502,7 @@ DrawTarget
 *
 drawTarget
 =
-aReflowState
+aReflowInput
 .
 mRenderingContext
 -
@@ -3595,7 +3595,7 @@ mathMLFrame
 ReflowOutput
 childDesiredSize
 (
-aReflowState
+aReflowInput
 )
 ;
 GetReflowAndBoundingMetricsFor
@@ -3652,7 +3652,7 @@ NS_FRAME_COMPLETE
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;

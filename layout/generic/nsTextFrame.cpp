@@ -44100,7 +44100,7 @@ aMetrics
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -44121,7 +44121,7 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aMetrics
 aStatus
 )
@@ -44129,7 +44129,7 @@ aStatus
 if
 (
 !
-aReflowState
+aReflowInput
 .
 mLineLayout
 )
@@ -44149,15 +44149,15 @@ return
 ReflowText
 (
 *
-aReflowState
+aReflowInput
 .
 mLineLayout
-aReflowState
+aReflowInput
 .
 AvailableWidth
 (
 )
-aReflowState
+aReflowInput
 .
 mRenderingContext
 -
@@ -44172,7 +44172,7 @@ aStatus
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aMetrics
 )
 ;

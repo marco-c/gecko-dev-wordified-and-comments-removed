@@ -37,7 +37,7 @@ mozilla
 :
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 =
 0
@@ -52,7 +52,7 @@ mozilla
 :
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 =
 0

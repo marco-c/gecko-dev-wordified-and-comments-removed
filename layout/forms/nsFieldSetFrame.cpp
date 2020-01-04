@@ -1823,7 +1823,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -1844,14 +1844,14 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aDesiredSize
 aStatus
 )
 ;
 NS_PRECONDITION
 (
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
@@ -1893,7 +1893,7 @@ GetPrevInFlow
 ReflowOverflowContainerChildren
 (
 aPresContext
-aReflowState
+aReflowInput
 ocBounds
 0
 ocStatus
@@ -1924,7 +1924,7 @@ GetInner
 ;
 if
 (
-aReflowState
+aReflowInput
 .
 ShouldReflowAllKids
 (
@@ -2007,7 +2007,7 @@ wm
 LogicalSize
 innerAvailSize
 =
-aReflowState
+aReflowInput
 .
 ComputedSizeWithPadding
 (
@@ -2017,7 +2017,7 @@ innerWM
 LogicalSize
 legendAvailSize
 =
-aReflowState
+aReflowInput
 .
 ComputedSizeWithPadding
 (
@@ -2051,7 +2051,7 @@ nsLayoutUtils
 :
 IntrinsicForContainer
 (
-aReflowState
+aReflowInput
 .
 mRenderingContext
 inner
@@ -2091,7 +2091,7 @@ nsLayoutUtils
 :
 IntrinsicForContainer
 (
-aReflowState
+aReflowInput
 .
 mRenderingContext
 legend
@@ -2123,13 +2123,13 @@ bigger
 LogicalMargin
 border
 =
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
 )
 -
-aReflowState
+aReflowInput
 .
 ComputedLogicalPadding
 (
@@ -2145,19 +2145,19 @@ Maybe
 <
 ReflowInput
 >
-legendReflowState
+legendReflowInput
 ;
 if
 (
 legend
 )
 {
-legendReflowState
+legendReflowInput
 .
 emplace
 (
 aPresContext
-aReflowState
+aReflowInput
 legend
 legendAvailSize
 )
@@ -2171,7 +2171,7 @@ reflowLegend
 ReflowOutput
 legendDesiredSize
 (
-aReflowState
+aReflowInput
 )
 ;
 const
@@ -2184,7 +2184,7 @@ legend
 aPresContext
 legendDesiredSize
 *
-legendReflowState
+legendReflowInput
 wm
 LogicalPoint
 (
@@ -2362,7 +2362,7 @@ FinishReflowChild
 legend
 aPresContext
 legendDesiredSize
-legendReflowState
+legendReflowInput
 .
 ptr
 (
@@ -2438,10 +2438,10 @@ reflowInner
 )
 {
 ReflowInput
-kidReflowState
+kidReflowInput
 (
 aPresContext
-aReflowState
+aReflowInput
 inner
 innerAvailSize
 nullptr
@@ -2451,7 +2451,7 @@ ReflowInput
 CALLER_WILL_INIT
 )
 ;
-kidReflowState
+kidReflowInput
 .
 Init
 (
@@ -2459,7 +2459,7 @@ aPresContext
 nullptr
 nullptr
 &
-aReflowState
+aReflowInput
 .
 ComputedPhysicalPadding
 (
@@ -2468,7 +2468,7 @@ ComputedPhysicalPadding
 ;
 if
 (
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -2478,7 +2478,7 @@ ComputedBSize
 NS_UNCONSTRAINEDSIZE
 )
 {
-kidReflowState
+kidReflowInput
 .
 SetComputedBSize
 (
@@ -2488,7 +2488,7 @@ std
 max
 (
 0
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -2501,7 +2501,7 @@ mLegendSpace
 }
 if
 (
-aReflowState
+aReflowInput
 .
 ComputedMinBSize
 (
@@ -2510,7 +2510,7 @@ ComputedMinBSize
 0
 )
 {
-kidReflowState
+kidReflowInput
 .
 ComputedMinBSize
 (
@@ -2522,7 +2522,7 @@ std
 max
 (
 0
-aReflowState
+aReflowInput
 .
 ComputedMinBSize
 (
@@ -2534,7 +2534,7 @@ mLegendSpace
 }
 if
 (
-aReflowState
+aReflowInput
 .
 ComputedMaxBSize
 (
@@ -2544,7 +2544,7 @@ ComputedMaxBSize
 NS_UNCONSTRAINEDSIZE
 )
 {
-kidReflowState
+kidReflowInput
 .
 ComputedMaxBSize
 (
@@ -2556,7 +2556,7 @@ std
 max
 (
 0
-aReflowState
+aReflowInput
 .
 ComputedMaxBSize
 (
@@ -2569,7 +2569,7 @@ mLegendSpace
 ReflowOutput
 kidDesiredSize
 (
-kidReflowState
+kidReflowInput
 aDesiredSize
 .
 mFlags
@@ -2577,7 +2577,7 @@ mFlags
 ;
 NS_ASSERTION
 (
-kidReflowState
+kidReflowInput
 .
 ComputedPhysicalMargin
 (
@@ -2632,7 +2632,7 @@ ReflowChild
 inner
 aPresContext
 kidDesiredSize
-kidReflowState
+kidReflowInput
 wm
 pt
 dummyContainerSize
@@ -2655,7 +2655,7 @@ inner
 aPresContext
 kidDesiredSize
 &
-kidReflowState
+kidReflowInput
 wm
 pt
 containerSize
@@ -2717,7 +2717,7 @@ containerSize
 LogicalSize
 availSize
 =
-aReflowState
+aReflowInput
 .
 ComputedSizeWithPadding
 (
@@ -2771,7 +2771,7 @@ innerContentRect
 Deflate
 (
 wm
-aReflowState
+aReflowInput
 .
 ComputedLogicalPadding
 (
@@ -2968,7 +2968,7 @@ ISize
 wm
 )
 +
-aReflowState
+aReflowInput
 .
 ComputedLogicalPadding
 (
@@ -3007,7 +3007,7 @@ wm
 LogicalMargin
 offsets
 =
-legendReflowState
+legendReflowInput
 -
 >
 ComputedLogicalOffsets
@@ -3017,7 +3017,7 @@ ComputedLogicalOffsets
 ConvertTo
 (
 wm
-legendReflowState
+legendReflowInput
 -
 >
 GetWritingMode
@@ -3168,7 +3168,7 @@ FinishReflowWithAbsoluteFrames
 (
 aPresContext
 aDesiredSize
-aReflowState
+aReflowInput
 aStatus
 )
 ;
@@ -3179,7 +3179,7 @@ InvalidateFrame
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;

@@ -2096,7 +2096,7 @@ GetStateBits
 )
 ;
 ReflowInput
-parentReflowState
+parentReflowInput
 (
 aFrame
 -
@@ -2134,7 +2134,7 @@ Maybe
 <
 ReflowInput
 >
-cbReflowState
+cbReflowInput
 ;
 nsIFrame
 *
@@ -2189,7 +2189,7 @@ GetLogicalSize
 (
 )
 ;
-cbReflowState
+cbReflowInput
 .
 emplace
 (
@@ -2205,7 +2205,7 @@ rc
 cbSize
 )
 ;
-cbReflowState
+cbReflowInput
 -
 >
 ComputedPhysicalMargin
@@ -2219,7 +2219,7 @@ GetUsedMargin
 (
 )
 ;
-cbReflowState
+cbReflowInput
 -
 >
 ComputedPhysicalPadding
@@ -2233,7 +2233,7 @@ GetUsedPadding
 (
 )
 ;
-cbReflowState
+cbReflowInput
 -
 >
 ComputedPhysicalBorderPadding
@@ -2247,11 +2247,11 @@ GetUsedBorderAndPadding
 (
 )
 ;
-parentReflowState
+parentReflowInput
 .
-mCBReflowState
+mCBReflowInput
 =
-cbReflowState
+cbReflowInput
 .
 ptr
 (
@@ -2288,7 +2288,7 @@ valid
 "
 )
 ;
-parentReflowState
+parentReflowInput
 .
 SetComputedISize
 (
@@ -2307,7 +2307,7 @@ parentWM
 )
 )
 ;
-parentReflowState
+parentReflowInput
 .
 SetComputedBSize
 (
@@ -2326,7 +2326,7 @@ parentWM
 )
 )
 ;
-parentReflowState
+parentReflowInput
 .
 ComputedPhysicalMargin
 (
@@ -2340,7 +2340,7 @@ SizeTo
 0
 )
 ;
-parentReflowState
+parentReflowInput
 .
 ComputedPhysicalPadding
 (
@@ -2353,7 +2353,7 @@ GetUsedPadding
 (
 )
 ;
-parentReflowState
+parentReflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -2403,10 +2403,10 @@ viewport
 viewport
 -
 >
-AdjustReflowStateAsContainingBlock
+AdjustReflowInputAsContainingBlock
 (
 &
-parentReflowState
+parentReflowInput
 )
 .
 Size
@@ -2430,7 +2430,7 @@ nsMargin
 &
 parentBorder
 =
-parentReflowState
+parentReflowInput
 .
 mStyleBorder
 -
@@ -2464,7 +2464,7 @@ cbSize
 )
 ;
 ReflowInput
-reflowState
+reflowInput
 (
 aFrame
 -
@@ -2472,7 +2472,7 @@ aFrame
 PresContext
 (
 )
-parentReflowState
+parentReflowInput
 aFrame
 availSize
 &
@@ -2482,12 +2482,12 @@ lcbSize
 nsSize
 computedSize
 (
-reflowState
+reflowInput
 .
 ComputedWidth
 (
 )
-reflowState
+reflowInput
 .
 ComputedHeight
 (
@@ -2499,7 +2499,7 @@ computedSize
 width
 +
 =
-reflowState
+reflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -2524,7 +2524,7 @@ computedSize
 height
 +
 =
-reflowState
+reflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -2582,7 +2582,7 @@ if
 NS_AUTOOFFSET
 =
 =
-reflowState
+reflowInput
 .
 ComputedPhysicalOffsets
 (
@@ -2591,7 +2591,7 @@ ComputedPhysicalOffsets
 left
 )
 {
-reflowState
+reflowInput
 .
 ComputedPhysicalOffsets
 (
@@ -2603,7 +2603,7 @@ cbSize
 .
 width
 -
-reflowState
+reflowInput
 .
 ComputedPhysicalOffsets
 (
@@ -2611,7 +2611,7 @@ ComputedPhysicalOffsets
 .
 right
 -
-reflowState
+reflowInput
 .
 ComputedPhysicalMargin
 (
@@ -2623,7 +2623,7 @@ size
 .
 width
 -
-reflowState
+reflowInput
 .
 ComputedPhysicalMargin
 (
@@ -2637,7 +2637,7 @@ if
 NS_AUTOOFFSET
 =
 =
-reflowState
+reflowInput
 .
 ComputedPhysicalOffsets
 (
@@ -2646,7 +2646,7 @@ ComputedPhysicalOffsets
 top
 )
 {
-reflowState
+reflowInput
 .
 ComputedPhysicalOffsets
 (
@@ -2658,7 +2658,7 @@ cbSize
 .
 height
 -
-reflowState
+reflowInput
 .
 ComputedPhysicalOffsets
 (
@@ -2666,7 +2666,7 @@ ComputedPhysicalOffsets
 .
 bottom
 -
-reflowState
+reflowInput
 .
 ComputedPhysicalMargin
 (
@@ -2678,7 +2678,7 @@ size
 .
 height
 -
-reflowState
+reflowInput
 .
 ComputedPhysicalMargin
 (
@@ -2694,7 +2694,7 @@ parentBorder
 .
 left
 +
-reflowState
+reflowInput
 .
 ComputedPhysicalOffsets
 (
@@ -2702,7 +2702,7 @@ ComputedPhysicalOffsets
 .
 left
 +
-reflowState
+reflowInput
 .
 ComputedPhysicalMargin
 (
@@ -2713,7 +2713,7 @@ parentBorder
 .
 top
 +
-reflowState
+reflowInput
 .
 ComputedPhysicalOffsets
 (
@@ -2721,7 +2721,7 @@ ComputedPhysicalOffsets
 .
 top
 +
-reflowState
+reflowInput
 .
 ComputedPhysicalMargin
 (

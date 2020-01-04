@@ -300,7 +300,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -393,7 +393,7 @@ CalcBSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 ;
 nscoord
@@ -435,7 +435,7 @@ aPresContext
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 bool
 aIsTopOfPage
 nsTableCellFrame
@@ -805,7 +805,7 @@ aContext
 )
 ;
 void
-InitChildReflowState
+InitChildReflowInput
 (
 nsPresContext
 &
@@ -821,7 +821,7 @@ bool
 aBorderCollapse
 TableCellReflowInput
 &
-aReflowState
+aReflowInput
 )
 ;
 virtual
@@ -831,7 +831,7 @@ GetLogicalSkipSides
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 =
 nullptr
 )
@@ -867,7 +867,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsTableFrame
 &
 aTableFrame

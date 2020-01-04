@@ -1256,7 +1256,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -1273,7 +1273,7 @@ aPresContext
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 nsDidReflowStatus
 aStatus
 )
@@ -1291,7 +1291,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -1313,7 +1313,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -1538,7 +1538,7 @@ IsFrameTreeTooDeep
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 ReflowOutput
 &
 aMetrics
@@ -1564,13 +1564,13 @@ ShouldAvoidBreakInside
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 const
 {
 return
 !
-aReflowState
+aReflowInput
 .
 mFlags
 .
@@ -1680,7 +1680,7 @@ aFrame
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 ;
 static
@@ -2591,7 +2591,7 @@ mozilla
 :
 ReflowInput
 &
-aReflowState
+aReflowInput
 mozilla
 :
 :
@@ -2628,7 +2628,7 @@ mozilla
 :
 ReflowInput
 &
-mReflowState
+mReflowInput
 ;
 mozilla
 :

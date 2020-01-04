@@ -58,7 +58,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -148,7 +148,7 @@ GetAvailableContentBSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 ;
 virtual
@@ -386,7 +386,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aReflowStatus
@@ -409,7 +409,7 @@ ChooseColumnStrategy
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 bool
 aForceAuto
 nscoord
@@ -424,7 +424,7 @@ FindBestBalanceBSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsPresContext
 *
 aPresContext
@@ -460,7 +460,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus

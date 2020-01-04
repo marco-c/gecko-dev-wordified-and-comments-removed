@@ -286,7 +286,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -303,7 +303,7 @@ aPresContext
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 nsDidReflowStatus
 aStatus
 )
@@ -745,7 +745,7 @@ aPresContext
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 ReflowOutput
 &
 aDesiredSize

@@ -94,7 +94,7 @@ aFloatManager
 const
 ReflowInput
 *
-aOuterReflowState
+aOuterReflowInput
 const
 nsLineList
 :
@@ -207,7 +207,7 @@ aFrame
 const
 ReflowInput
 *
-aSpanReflowState
+aSpanReflowInput
 nscoord
 aLeftEdge
 nscoord
@@ -819,7 +819,7 @@ LineContainerFrame
 const
 {
 return
-mBlockReflowState
+mBlockReflowInput
 -
 >
 mFrame
@@ -834,7 +834,7 @@ LineContainerRS
 const
 {
 return
-mBlockReflowState
+mBlockReflowInput
 ;
 }
 const
@@ -949,7 +949,7 @@ mStyleText
 const
 ReflowInput
 *
-mBlockReflowState
+mBlockReflowInput
 ;
 nsLineLayout
 *
@@ -1246,7 +1246,7 @@ mLastFrame
 const
 ReflowInput
 *
-mReflowState
+mReflowInput
 ;
 bool
 mNoWrap
@@ -1623,7 +1623,7 @@ PerFrameData
 pfd
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 ;
 void

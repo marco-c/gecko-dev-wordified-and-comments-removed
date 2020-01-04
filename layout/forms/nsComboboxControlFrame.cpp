@@ -1784,13 +1784,13 @@ aPresContext
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 )
 {
 if
 (
 !
-aReflowState
+aReflowInput
 .
 ShouldReflowAllKids
 (
@@ -1820,7 +1820,7 @@ GetWritingMode
 LogicalSize
 availSize
 =
-aReflowState
+aReflowInput
 .
 AvailableSize
 (
@@ -1837,10 +1837,10 @@ wm
 NS_UNCONSTRAINEDSIZE
 ;
 ReflowInput
-kidReflowState
+kidReflowInput
 (
 aPresContext
-aReflowState
+aReflowInput
 mDropdownFrame
 availSize
 )
@@ -1848,13 +1848,13 @@ availSize
 nscoord
 forcedISize
 =
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
 )
 +
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -1865,7 +1865,7 @@ IStartEnd
 wm
 )
 -
-kidReflowState
+kidReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -1876,7 +1876,7 @@ IStartEnd
 wm
 )
 ;
-kidReflowState
+kidReflowInput
 .
 SetComputedISize
 (
@@ -1885,7 +1885,7 @@ std
 :
 max
 (
-kidReflowState
+kidReflowInput
 .
 ComputedISize
 (
@@ -1984,7 +1984,7 @@ dummyContainerSize
 ReflowOutput
 desiredSize
 (
-aReflowState
+aReflowInput
 )
 ;
 nsReflowStatus
@@ -1995,7 +1995,7 @@ ReflowChild
 mDropdownFrame
 aPresContext
 desiredSize
-kidReflowState
+kidReflowInput
 outerWM
 LogicalPoint
 (
@@ -2012,7 +2012,7 @@ mDropdownFrame
 aPresContext
 desiredSize
 &
-kidReflowState
+kidReflowInput
 outerWM
 LogicalPoint
 (
@@ -3547,7 +3547,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -3659,7 +3659,7 @@ selectedIndex
 ReflowDropdown
 (
 aPresContext
-aReflowState
+aReflowInput
 )
 ;
 RefPtr
@@ -3706,7 +3706,7 @@ forget
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -3798,7 +3798,7 @@ GetNondisappearingScrollbarWidth
 PresContext
 (
 )
-aReflowState
+aReflowInput
 .
 mRenderingContext
 wm
@@ -3808,7 +3808,7 @@ if
 (
 buttonISize
 >
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
@@ -3823,7 +3823,7 @@ buttonISize
 }
 mDisplayISize
 =
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
@@ -3838,7 +3838,7 @@ Reflow
 (
 aPresContext
 aDesiredSize
-aReflowState
+aReflowInput
 aStatus
 )
 ;
@@ -3869,7 +3869,7 @@ IStart
 wm
 )
 =
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -3883,7 +3883,7 @@ wm
 mDisplayISize
 -
 (
-aReflowState
+aReflowInput
 .
 ComputedLogicalBorderPadding
 (
@@ -3894,7 +3894,7 @@ IEnd
 wm
 )
 -
-aReflowState
+aReflowInput
 .
 ComputedLogicalPadding
 (
@@ -5414,7 +5414,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -5483,7 +5483,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -5492,7 +5492,7 @@ aStatus
 ReflowInput
 state
 (
-aReflowState
+aReflowInput
 )
 ;
 if
@@ -5526,7 +5526,7 @@ GetBSizeOfARow
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (

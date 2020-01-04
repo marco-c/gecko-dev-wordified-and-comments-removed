@@ -570,7 +570,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -613,7 +613,7 @@ DrawTarget
 *
 drawTarget
 =
-aReflowState
+aReflowInput
 .
 mRenderingContext
 -
@@ -642,13 +642,13 @@ nullptr
 ReflowOutput
 baseSize
 (
-aReflowState
+aReflowInput
 )
 ;
 ReflowOutput
 indexSize
 (
-aReflowState
+aReflowInput
 )
 ;
 nsIFrame
@@ -669,7 +669,7 @@ childFrame
 ReflowOutput
 childDesiredSize
 (
-aReflowState
+aReflowInput
 aDesiredSize
 .
 mFlags
@@ -690,7 +690,7 @@ GetWritingMode
 LogicalSize
 availSize
 =
-aReflowState
+aReflowInput
 .
 ComputedSize
 (
@@ -707,10 +707,10 @@ wm
 NS_UNCONSTRAINEDSIZE
 ;
 ReflowInput
-childReflowState
+childReflowInput
 (
 aPresContext
-aReflowState
+aReflowInput
 childFrame
 availSize
 )
@@ -720,7 +720,7 @@ ReflowChild
 childFrame
 aPresContext
 childDesiredSize
-childReflowState
+childReflowInput
 childStatus
 )
 ;
@@ -810,7 +810,7 @@ NS_FRAME_COMPLETE
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;
@@ -1590,7 +1590,7 @@ NS_FRAME_COMPLETE
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;

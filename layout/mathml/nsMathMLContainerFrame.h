@@ -304,7 +304,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -321,7 +321,7 @@ aPresContext
 const
 ReflowInput
 *
-aReflowState
+aReflowInput
 nsDidReflowStatus
 aStatus
 )
@@ -342,7 +342,7 @@ nsContainerFrame
 DidReflow
 (
 aPresContext
-aReflowState
+aReflowInput
 aStatus
 )
 ;
@@ -556,7 +556,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus

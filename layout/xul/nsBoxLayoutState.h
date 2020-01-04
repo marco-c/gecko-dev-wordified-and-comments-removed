@@ -63,7 +63,7 @@ nullptr
 const
 ReflowInput
 *
-aOuterReflowState
+aOuterReflowInput
 =
 nullptr
 uint16_t
@@ -206,12 +206,12 @@ mState
 const
 ReflowInput
 *
-OuterReflowState
+OuterReflowInput
 (
 )
 {
 return
-mOuterReflowState
+mOuterReflowInput
 ;
 }
 uint16_t
@@ -238,7 +238,7 @@ mRenderingContext
 const
 ReflowInput
 *
-mOuterReflowState
+mOuterReflowInput
 ;
 uint32_t
 mLayoutFlags

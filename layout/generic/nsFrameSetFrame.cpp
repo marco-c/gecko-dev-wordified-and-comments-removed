@@ -462,7 +462,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -638,7 +638,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -2729,7 +2729,7 @@ aPresContext
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 ReflowOutput
 &
 aDesiredSize
@@ -2738,7 +2738,7 @@ aDesiredSize
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -2786,7 +2786,7 @@ ISize
 wm
 )
 =
-aReflowState
+aReflowInput
 .
 AvailableISize
 (
@@ -2799,7 +2799,7 @@ BSize
 wm
 )
 =
-aReflowState
+aReflowInput
 .
 AvailableBSize
 (
@@ -3316,7 +3316,7 @@ aPresContext
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsPoint
 &
 aOffset
@@ -3329,10 +3329,10 @@ aCellIndex
 )
 {
 ReflowInput
-reflowState
+reflowInput
 (
 aPresContext
-aReflowState
+aReflowInput
 aChild
 LogicalSize
 (
@@ -3346,7 +3346,7 @@ aSize
 )
 )
 ;
-reflowState
+reflowInput
 .
 SetComputedWidth
 (
@@ -3360,7 +3360,7 @@ aSize
 .
 width
 -
-reflowState
+reflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -3372,7 +3372,7 @@ LeftRight
 )
 )
 ;
-reflowState
+reflowInput
 .
 SetComputedHeight
 (
@@ -3386,7 +3386,7 @@ aSize
 .
 height
 -
-reflowState
+reflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -3401,7 +3401,7 @@ TopBottom
 ReflowOutput
 metrics
 (
-aReflowState
+aReflowInput
 )
 ;
 metrics
@@ -3432,7 +3432,7 @@ ReflowChild
 aChild
 aPresContext
 metrics
-reflowState
+reflowInput
 aOffset
 .
 x
@@ -3851,7 +3851,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -3872,7 +3872,7 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aDesiredSize
 aStatus
 )
@@ -3911,7 +3911,7 @@ NS_FRAME_CONTAINS_RELATIVE_BSIZE
 GetDesiredSize
 (
 aPresContext
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;
@@ -3926,7 +3926,7 @@ Width
 )
 <
 =
-aReflowState
+aReflowInput
 .
 AvailableWidth
 (
@@ -3939,7 +3939,7 @@ Width
 (
 )
 :
-aReflowState
+aReflowInput
 .
 AvailableWidth
 (
@@ -3956,7 +3956,7 @@ Height
 )
 <
 =
-aReflowState
+aReflowInput
 .
 AvailableHeight
 (
@@ -3969,7 +3969,7 @@ Height
 (
 )
 :
-aReflowState
+aReflowInput
 .
 AvailableHeight
 (
@@ -4143,7 +4143,7 @@ UnSet
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;
@@ -4609,7 +4609,7 @@ ReflowPlaceChild
 (
 borderFrame
 aPresContext
-aReflowState
+aReflowInput
 offset
 borderSize
 )
@@ -4778,7 +4778,7 @@ ReflowPlaceChild
 (
 borderFrame
 aPresContext
-aReflowState
+aReflowInput
 offset
 borderSize
 )
@@ -4801,7 +4801,7 @@ ReflowPlaceChild
 (
 child
 aPresContext
-aReflowState
+aReflowInput
 offset
 size
 &
@@ -5637,7 +5637,7 @@ aDesiredSize
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;
@@ -7058,7 +7058,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -7075,14 +7075,14 @@ DISPLAY_REFLOW
 (
 aPresContext
 this
-aReflowState
+aReflowInput
 aDesiredSize
 aStatus
 )
 ;
 SizeToAvailSize
 (
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;
@@ -8098,7 +8098,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -8113,7 +8113,7 @@ nsHTMLFramesetBlankFrame
 ;
 SizeToAvailSize
 (
-aReflowState
+aReflowInput
 aDesiredSize
 )
 ;

@@ -545,7 +545,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -595,9 +595,9 @@ wasteful
 NS_ASSERTION
 (
 !
-aReflowState
+aReflowInput
 .
-mParentReflowState
+mParentReflowInput
 "
 should
 only
@@ -612,7 +612,7 @@ root
 ;
 NS_ASSERTION
 (
-aReflowState
+aReflowInput
 .
 ComputedWidth
 (
@@ -626,7 +626,7 @@ GetSize
 width
 &
 &
-aReflowState
+aReflowInput
 .
 ComputedHeight
 (
@@ -673,7 +673,7 @@ DoReflow
 WritingMode
 wm
 =
-aReflowState
+aReflowInput
 .
 GetWritingMode
 (
@@ -683,12 +683,12 @@ LogicalSize
 finalSize
 (
 wm
-aReflowState
+aReflowInput
 .
 ComputedISize
 (
 )
-aReflowState
+aReflowInput
 .
 ComputedBSize
 (
@@ -2523,7 +2523,7 @@ GetWritingMode
 )
 ;
 ReflowInput
-reflowState
+reflowInput
 (
 presContext
 kid
@@ -2543,7 +2543,7 @@ NS_UNCONSTRAINEDSIZE
 ReflowOutput
 desiredSize
 (
-reflowState
+reflowInput
 )
 ;
 nsReflowStatus
@@ -2551,7 +2551,7 @@ status
 ;
 NS_ASSERTION
 (
-reflowState
+reflowInput
 .
 ComputedPhysicalBorderPadding
 (
@@ -2567,7 +2567,7 @@ nsMargin
 )
 &
 &
-reflowState
+reflowInput
 .
 ComputedPhysicalMargin
 (
@@ -2607,7 +2607,7 @@ styled
 ;
 NS_ASSERTION
 (
-reflowState
+reflowInput
 .
 ComputedISize
 (
@@ -2628,7 +2628,7 @@ size
 "
 )
 ;
-reflowState
+reflowInput
 .
 SetComputedBSize
 (
@@ -2643,7 +2643,7 @@ ReflowChild
 kid
 presContext
 desiredSize
-reflowState
+reflowInput
 0
 0
 NS_FRAME_NO_MOVE_FRAME
@@ -2686,7 +2686,7 @@ kid
 presContext
 desiredSize
 &
-reflowState
+reflowInput
 0
 0
 NS_FRAME_NO_MOVE_FRAME

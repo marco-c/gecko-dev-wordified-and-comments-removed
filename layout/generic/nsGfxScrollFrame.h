@@ -2444,7 +2444,7 @@ aDesiredSize
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aStatus
@@ -4573,7 +4573,7 @@ aOnRight
 ;
 static
 void
-AdjustReflowStateForPrintPreview
+AdjustReflowInputForPrintPreview
 (
 nsBoxLayoutState
 &
@@ -4585,7 +4585,7 @@ aSetBack
 ;
 static
 void
-AdjustReflowStateBack
+AdjustReflowInputBack
 (
 nsBoxLayoutState
 &

@@ -103,7 +103,7 @@ nsLineBox
 aLine
 ReflowInput
 &
-aReflowState
+aReflowInput
 nsReflowStatus
 &
 aReflowStatus
@@ -118,7 +118,7 @@ PlaceBlock
 const
 ReflowInput
 &
-aReflowState
+aReflowInput
 bool
 aForceFit
 nsLineBox
@@ -190,7 +190,7 @@ mPresContext
 const
 ReflowInput
 &
-mOuterReflowState
+mOuterReflowInput
 ;
 nsIFrame
 *

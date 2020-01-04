@@ -603,9 +603,9 @@ aContainingBlockISize
 )
 ;
 struct
-ReflowStateFlags
+ReflowInputFlags
 {
-ReflowStateFlags
+ReflowInputFlags
 (
 )
 {
@@ -677,7 +677,7 @@ mIsFlexContainerMeasuringHeight
 1
 ;
 uint16_t
-mDummyParentReflowState
+mDummyParentReflowInput
 :
 1
 ;
@@ -810,7 +810,7 @@ aPercentBasis
 nsIAtom
 *
 aFrameType
-ReflowStateFlags
+ReflowInputFlags
 aFlags
 const
 nsMargin
@@ -888,7 +888,7 @@ SizeComputationInput
 const
 ReflowInput
 *
-mParentReflowState
+mParentReflowInput
 ;
 nsFloatManager
 *
@@ -901,7 +901,7 @@ mLineLayout
 const
 ReflowInput
 *
-mCBReflowState
+mCBReflowInput
 ;
 nsCSSFrameType
 mFrameType
@@ -2045,7 +2045,7 @@ mDiscoveredClearance
 int16_t
 mReflowDepth
 ;
-ReflowStateFlags
+ReflowInputFlags
 mFlags
 ;
 bool
@@ -2270,7 +2270,7 @@ aPresContext
 const
 ReflowInput
 &
-aParentReflowState
+aParentReflowInput
 nsIFrame
 *
 aFrame
@@ -3065,7 +3065,7 @@ aFrameType
 )
 ;
 void
-InitCBReflowState
+InitCBReflowInput
 (
 )
 ;
