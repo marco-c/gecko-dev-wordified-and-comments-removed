@@ -100,11 +100,6 @@ WidevineDecryptor
 cpp
 '
 '
-WidevineFileIO
-.
-cpp
-'
-'
 WidevineUtils
 .
 cpp
