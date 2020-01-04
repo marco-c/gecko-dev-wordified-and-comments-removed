@@ -34,13 +34,6 @@ UpdateRegExpStatics
 DontUpdateRegExpStatics
 }
 ;
-enum
-RegExpStaticsUse
-{
-UseRegExpStatics
-DontUseRegExpStatics
-}
-;
 bool
 ExecuteRegExpLegacy
 (
