@@ -1996,7 +1996,7 @@ thingp
 ;
 if
 (
-InternalGCMethods
+InternalBarrierMethods
 <
 T
 >
@@ -2346,7 +2346,7 @@ trc
 ;
 if
 (
-InternalGCMethods
+InternalBarrierMethods
 <
 T
 >
@@ -2500,7 +2500,7 @@ len
 {
 if
 (
-InternalGCMethods
+InternalBarrierMethods
 <
 T
 >
@@ -2593,7 +2593,7 @@ len
 {
 if
 (
-InternalGCMethods
+InternalBarrierMethods
 <
 T
 >

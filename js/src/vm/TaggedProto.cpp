@@ -34,7 +34,7 @@ namespace
 js
 {
 void
-InternalGCMethods
+InternalBarrierMethods
 <
 TaggedProto
 >
@@ -47,7 +47,7 @@ TaggedProto
 proto
 )
 {
-InternalGCMethods
+InternalBarrierMethods
 <
 JSObject
 *
@@ -65,7 +65,7 @@ toObjectOrNull
 ;
 }
 void
-InternalGCMethods
+InternalBarrierMethods
 <
 TaggedProto
 >
@@ -118,7 +118,7 @@ toObject
 :
 nullptr
 ;
-InternalGCMethods
+InternalBarrierMethods
 <
 JSObject
 *

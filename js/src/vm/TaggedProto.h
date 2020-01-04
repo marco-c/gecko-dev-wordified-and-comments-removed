@@ -231,7 +231,7 @@ template
 <
 >
 struct
-GCMethods
+GCPolicy
 <
 TaggedProto
 >
@@ -254,7 +254,7 @@ template
 <
 >
 struct
-InternalGCMethods
+InternalBarrierMethods
 <
 TaggedProto
 >
