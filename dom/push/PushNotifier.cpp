@@ -65,7 +65,7 @@ mozilla
 /
 dom
 /
-ContentParent
+BodyUtil
 .
 h
 "
@@ -76,7 +76,7 @@ mozilla
 /
 dom
 /
-FetchUtil
+ContentParent
 .
 h
 "
@@ -1153,7 +1153,7 @@ NS_OK
 nsresult
 rv
 =
-FetchUtil
+BodyUtil
 :
 :
 ConsumeText
@@ -1291,7 +1291,7 @@ rv
 ErrorResult
 error
 ;
-FetchUtil
+BodyUtil
 :
 :
 ConsumeJson

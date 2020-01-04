@@ -816,6 +816,11 @@ BlobSet
 h
 '
 '
+BodyUtil
+.
+h
+'
+'
 ChildIterator
 .
 h
@@ -1137,6 +1142,11 @@ cpp
 '
 '
 BarProps
+.
+cpp
+'
+'
+BodyUtil
 .
 cpp
 '
