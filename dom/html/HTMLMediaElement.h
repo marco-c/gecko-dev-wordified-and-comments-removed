@@ -2085,6 +2085,9 @@ HTMLMediaElement
 )
 ;
 class
+ChannelLoader
+;
+class
 MediaLoadListener
 ;
 class
@@ -2961,11 +2964,11 @@ MediaSource
 >
 mMediaSource
 ;
-nsCOMPtr
+RefPtr
 <
-nsIChannel
+ChannelLoader
 >
-mChannel
+mChannelLoader
 ;
 RefPtr
 <
