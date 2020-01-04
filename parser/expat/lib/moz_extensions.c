@@ -478,6 +478,11 @@ scanRef
 (
 enc
 ptr
++
+enc
+-
+>
+minBytesPerChar
 end
 next
 )
@@ -554,6 +559,11 @@ XmlPredefinedEntityName
 (
 enc
 ptr
++
+enc
+-
+>
+minBytesPerChar
 *
 next
 -
