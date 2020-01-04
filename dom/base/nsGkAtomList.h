@@ -6497,6 +6497,13 @@ ontypechange
 )
 GK_ATOM
 (
+onterminate
+"
+onterminate
+"
+)
+GK_ATOM
+(
 ontext
 "
 ontext

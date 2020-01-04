@@ -891,6 +891,8 @@ nsAString
 aSessionId
 uint16_t
 aState
+nsresult
+aReason
 )
 {
 if
@@ -908,6 +910,7 @@ nsString
 aSessionId
 )
 aState
+aReason
 )
 )
 )
@@ -1351,6 +1354,11 @@ sessionId
 aRequest
 .
 role
+(
+)
+aRequest
+.
+closedReason
 (
 )
 )

@@ -321,6 +321,8 @@ nsAString
 aSessionId
 uint8_t
 aRole
+uint8_t
+aClosedReason
 )
 {
 MOZ_ASSERT
@@ -344,6 +346,7 @@ nsString
 aSessionId
 )
 aRole
+aClosedReason
 )
 )
 ;
@@ -791,6 +794,8 @@ nsAString
 aSessionId
 uint16_t
 aState
+nsresult
+aReason
 )
 {
 nsCOMPtr
@@ -829,6 +834,7 @@ NotifyStateChange
 (
 aSessionId
 aState
+aReason
 )
 ;
 }

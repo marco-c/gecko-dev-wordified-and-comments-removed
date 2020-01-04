@@ -173,6 +173,9 @@ in
 unsigned
 short
 state
+in
+nsresult
+reason
 )
 ;
 /

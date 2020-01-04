@@ -171,6 +171,9 @@ sessionId
 uint8_t
 role
 ;
+uint8_t
+closedReason
+;
 }
 ;
 struct
@@ -223,6 +226,8 @@ nsString
 aSessionId
 uint16_t
 aState
+nsresult
+aReason
 )
 ;
 async

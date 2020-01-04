@@ -109,6 +109,10 @@ const
 uint16_t
 &
 aState
+const
+nsresult
+&
+aReason
 )
 override
 ;

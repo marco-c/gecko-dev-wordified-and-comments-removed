@@ -191,6 +191,10 @@ nsIPresentationSessionListener
 :
 STATE_CONNECTING
 )
+mReason
+(
+NS_OK
+)
 {
 MOZ_ASSERT
 (
@@ -445,10 +449,12 @@ UntrackFromService
 )
 ;
 void
-SetState
+SetStateWithReason
 (
 uint32_t
 aState
+nsresult
+aReason
 )
 {
 if
@@ -466,6 +472,10 @@ mState
 =
 aState
 ;
+mReason
+=
+aReason
+;
 if
 (
 mListener
@@ -481,6 +491,7 @@ NotifyStateChange
 (
 mSessionId
 mState
+aReason
 )
 ;
 NS_WARN_IF
@@ -521,6 +532,9 @@ mIsTransportReady
 ;
 uint32_t
 mState
+;
+nsresult
+mReason
 ;
 nsCOMPtr
 <
