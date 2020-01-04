@@ -7721,6 +7721,11 @@ CacheEntryTable
 *
 diskEntries
 ;
+if
+(
+memoryEntries
+&
+&
 sGlobalEntryTables
 -
 >
@@ -7730,13 +7735,6 @@ aContextKey
 &
 diskEntries
 )
-;
-if
-(
-memoryEntries
-&
-&
-diskEntries
 )
 {
 for
