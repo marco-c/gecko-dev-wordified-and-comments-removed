@@ -436,6 +436,8 @@ Append
 '
 )
 ;
+MOZ_FALLTHROUGH
+;
 default
 :
 escDirName
