@@ -6887,7 +6887,7 @@ aOpacity
 SVGContextPaint
 *
 aOuterContextPaint
-SVGTextContextPaint
+SVGContextPaintImpl
 :
 :
 Paint
@@ -7105,7 +7105,7 @@ aFrame
 SVGContextPaint
 *
 aOuterContextPaint
-SVGTextContextPaint
+SVGContextPaintImpl
 *
 aThisContextPaint
 )

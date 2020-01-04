@@ -183,7 +183,7 @@ class
 SVGContextPaint
 ;
 struct
-SVGTextContextPaint
+SVGContextPaintImpl
 ;
 namespace
 dom
@@ -674,8 +674,8 @@ typedef
 mozilla
 :
 :
-SVGTextContextPaint
-SVGTextContextPaint
+SVGContextPaintImpl
+SVGContextPaintImpl
 ;
 typedef
 mozilla
@@ -1312,7 +1312,7 @@ aFrame
 SVGContextPaint
 *
 aOuterContextPaint
-SVGTextContextPaint
+SVGContextPaintImpl
 *
 aThisContextPaint
 )

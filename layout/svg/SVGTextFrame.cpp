@@ -11576,7 +11576,7 @@ SetMatrix
 initialMatrix
 )
 ;
-SVGTextContextPaint
+SVGContextPaintImpl
 contextPaint
 ;
 DrawMode

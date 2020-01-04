@@ -305,7 +305,7 @@ mOuterContextPaint
 }
 ;
 struct
-SVGTextContextPaint
+SVGContextPaintImpl
 :
 public
 SVGContextPaint
