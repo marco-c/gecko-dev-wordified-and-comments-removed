@@ -180,6 +180,9 @@ SPWebAppService
 "
 SPPeriodicServiceWorkerUpdates
 "
+"
+SPCleanUpSTSData
+"
 ]
 ;
 this
