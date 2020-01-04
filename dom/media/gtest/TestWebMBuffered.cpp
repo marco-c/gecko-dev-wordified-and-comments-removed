@@ -51,8 +51,6 @@ gTimecodes
 {
 66000000
 160000000
-100000000
-133000000
 166000000
 200000000
 233000000
@@ -69,8 +67,6 @@ gEndOffsets
 {
 501
 772
-930
-1085
 1244
 1380
 1543
@@ -386,7 +382,7 @@ mapping
 Length
 (
 )
-8u
+6u
 )
 ;
 EXPECT_EQ
@@ -605,7 +601,7 @@ Length
 ASSERT_LE
 (
 arrayEntries
-8u
+6u
 )
 ;
 uint32_t
@@ -673,7 +669,7 @@ mapping
 Length
 (
 )
-8u
+6u
 )
 ;
 EXPECT_EQ
