@@ -296,12 +296,12 @@ view
 .
 styleDocument
 .
-body
+activeElement
 view
 .
 styleDocument
 .
-activeElement
+documentElement
 "
 Correct
 element

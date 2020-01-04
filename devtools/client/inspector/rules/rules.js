@@ -1506,11 +1506,7 @@ AutocompletePopup
 (
 this
 .
-styleWindow
-.
-parent
-.
-document
+styleDocument
 options
 )
 ;
