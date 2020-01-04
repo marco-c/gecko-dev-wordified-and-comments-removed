@@ -160,6 +160,16 @@ nsPrefetchNode
 node
 )
 ;
+void
+DispatchEvent
+(
+nsPrefetchNode
+*
+node
+bool
+aSuccess
+)
+;
 private
 :
 ~
@@ -258,6 +268,9 @@ mHaveProcessed
 ;
 bool
 mDisabled
+;
+bool
+mAggressive
 ;
 }
 ;
@@ -359,6 +372,9 @@ mRedirectChannel
 ;
 int64_t
 mBytesRead
+;
+bool
+mShouldFireLoadEvent
 ;
 }
 ;
