@@ -2369,7 +2369,7 @@ right
 )
 ;
 bool
-binaryArithTrySharedStub
+arithTrySharedStub
 (
 bool
 *
@@ -2382,6 +2382,17 @@ left
 MDefinition
 *
 right
+)
+;
+bool
+bitnotTrySpecialized
+(
+bool
+*
+emitted
+MDefinition
+*
+input
 )
 ;
 TypedObjectPrediction
