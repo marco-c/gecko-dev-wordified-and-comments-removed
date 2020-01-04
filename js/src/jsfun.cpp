@@ -4865,6 +4865,15 @@ lambdaParen
 &
 &
 funIsMethodOrNonArrowLambda
+&
+&
+!
+fun
+-
+>
+isSelfHostedBuiltin
+(
+)
 )
 {
 if
