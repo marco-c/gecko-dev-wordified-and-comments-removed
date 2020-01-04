@@ -439,14 +439,7 @@ Reset
 int
 destination_rate
 =
-std
-:
-:
-min
-(
 codec_rate_hz
-sample_rate_hz
-)
 ;
 if
 (
