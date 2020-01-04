@@ -994,6 +994,10 @@ menu
 shouldShow
 &
 &
+!
+isWindowPrivate
+&
+&
 showContainers
 )
 ;
