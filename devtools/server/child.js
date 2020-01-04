@@ -310,7 +310,9 @@ does
 not
 export
 '
+{
 setupChild
+}
 '
 )
 ;
