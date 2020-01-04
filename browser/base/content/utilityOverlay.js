@@ -3207,6 +3207,9 @@ true
 ignoreFragment
 :
 true
+replaceQueryString
+:
+true
 }
 )
 ;
