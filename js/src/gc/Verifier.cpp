@@ -171,6 +171,7 @@ js
 :
 :
 VerifyPreTracer
+final
 :
 public
 JS
