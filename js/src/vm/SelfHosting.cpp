@@ -13127,7 +13127,7 @@ SharedArrayBufferObject
 1
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 ArrayBufferByteLength
@@ -13135,6 +13135,7 @@ ArrayBufferByteLength
 intrinsic_ArrayBufferByteLength
 1
 0
+IntrinsicArrayBufferByteLength
 )
 JS_INLINABLE_FN
 (
