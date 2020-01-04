@@ -336,6 +336,10 @@ selected
 ;
 synthesizeKeyFromKeyTag
 (
+doc
+.
+getElementById
+(
 "
 toolbox
 -
@@ -343,7 +347,7 @@ options
 -
 key
 "
-doc
+)
 )
 ;
 is
@@ -368,6 +372,10 @@ key
 ;
 synthesizeKeyFromKeyTag
 (
+doc
+.
+getElementById
+(
 "
 toolbox
 -
@@ -375,7 +383,7 @@ options
 -
 key
 "
-doc
+)
 )
 ;
 is
@@ -423,6 +431,10 @@ selected
 ;
 synthesizeKeyFromKeyTag
 (
+doc
+.
+getElementById
+(
 "
 toolbox
 -
@@ -430,7 +442,7 @@ options
 -
 key2
 "
-doc
+)
 )
 ;
 is
@@ -455,6 +467,10 @@ key
 ;
 synthesizeKeyFromKeyTag
 (
+doc
+.
+getElementById
+(
 "
 toolbox
 -
@@ -462,7 +478,7 @@ options
 -
 key
 "
-doc
+)
 )
 ;
 is
@@ -485,6 +501,10 @@ reselected
 ;
 synthesizeKeyFromKeyTag
 (
+doc
+.
+getElementById
+(
 "
 toolbox
 -
@@ -492,7 +512,7 @@ options
 -
 key2
 "
-doc
+)
 )
 ;
 is
