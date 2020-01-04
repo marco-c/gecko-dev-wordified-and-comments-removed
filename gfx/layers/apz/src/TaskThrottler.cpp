@@ -79,6 +79,13 @@ NS_TIMER_CONTRACTID
 )
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 }
 TaskThrottler
 :
