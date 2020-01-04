@@ -1960,6 +1960,17 @@ stopPropagation
 (
 )
 ;
+if
+(
+e
+.
+button
+=
+=
+=
+0
+)
+{
 this
 .
 root
@@ -1972,6 +1983,7 @@ link
 this
 )
 ;
+}
 }
 }
 )
