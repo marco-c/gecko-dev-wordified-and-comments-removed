@@ -33,6 +33,12 @@ python2
 Run
 the
 script
+export
+MOZ_UPLOAD_DIR
+=
+"
+UPLOAD_DIR
+"
 AUTOMATION
 =
 1
