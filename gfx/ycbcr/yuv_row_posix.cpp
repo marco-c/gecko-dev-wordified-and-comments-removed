@@ -3433,6 +3433,8 @@ width
 source_dx
 )
 ;
+return
+;
 }
 ScaleYUVToRGB32Row_C
 (
@@ -4368,6 +4370,8 @@ rgb_buf
 width
 source_dx
 )
+;
+return
 ;
 }
 LinearScaleYUVToRGB32Row_C
