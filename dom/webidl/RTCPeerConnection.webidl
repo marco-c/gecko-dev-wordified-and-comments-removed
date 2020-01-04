@@ -781,13 +781,6 @@ MediaStream
 stream
 )
 ;
-void
-removeStream
-(
-MediaStream
-stream
-)
-;
 /
 /
 replaces
