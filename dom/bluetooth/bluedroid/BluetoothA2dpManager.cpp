@@ -1161,6 +1161,10 @@ sBtA2dpInterface
 =
 nullptr
 ;
+sBluetoothA2dpManager
+=
+nullptr
+;
 if
 (
 mRes
@@ -1198,6 +1202,10 @@ nullptr
 )
 ;
 sBtA2dpInterface
+=
+nullptr
+;
+sBluetoothA2dpManager
 =
 nullptr
 ;
