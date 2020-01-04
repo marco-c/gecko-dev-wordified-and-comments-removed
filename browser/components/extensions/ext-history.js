@@ -668,7 +668,10 @@ registerSchemaAPI
 "
 history
 "
+(
+extension
 context
+)
 =
 >
 {
