@@ -156,6 +156,9 @@ OverScroller
 '
 SurfaceTexture
 '
+'
+ViewConfiguration
+'
 ]
 SOURCES
 +
