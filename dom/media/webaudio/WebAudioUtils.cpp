@@ -24,6 +24,14 @@ h
 namespace
 mozilla
 {
+LazyLogModule
+gWebAudioAPILog
+(
+"
+WebAudioAPI
+"
+)
+;
 namespace
 dom
 {
