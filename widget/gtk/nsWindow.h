@@ -1717,6 +1717,11 @@ DispatchResized
 )
 ;
 void
+MaybeDispatchResized
+(
+)
+;
+void
 ReparentNativeWidgetInternal
 (
 nsIWidget
@@ -1765,6 +1770,9 @@ mIsDestroyed
 ;
 bool
 mListenForResizes
+;
+bool
+mNeedsDispatchResized
 ;
 bool
 mIsShown
