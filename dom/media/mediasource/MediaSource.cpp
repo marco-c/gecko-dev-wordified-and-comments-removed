@@ -480,7 +480,7 @@ IsEmpty
 )
 {
 return
-NS_ERROR_DOM_INVALID_ACCESS_ERR
+NS_ERROR_DOM_TYPE_ERR
 ;
 }
 nsContentTypeParser
@@ -1052,7 +1052,7 @@ aRv
 .
 Throw
 (
-NS_ERROR_DOM_INVALID_ACCESS_ERR
+NS_ERROR_DOM_TYPE_ERR
 )
 ;
 return
@@ -1811,7 +1811,7 @@ aRv
 .
 Throw
 (
-NS_ERROR_DOM_INVALID_ACCESS_ERR
+NS_ERROR_DOM_TYPE_ERR
 )
 ;
 }
