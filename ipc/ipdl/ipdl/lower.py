@@ -30157,6 +30157,12 @@ self
 side
 )
         
+intype
+.
+const
+=
+1
+        
 cxxtype
 =
 _cxxBareType
@@ -30746,6 +30752,15 @@ elems
 '
 )
         
+elemvar
+=
+ExprVar
+(
+'
+elem
+'
+)
+        
 write
 =
 MethodDefn
@@ -30761,48 +30776,10 @@ var
         
 forwrite
 =
-StmtFor
+StmtRangedFor
 (
-init
-=
-ExprAssn
-(
-Decl
-(
-Type
-.
-UINT32
-ivar
-.
-name
-)
-                                         
-ExprLiteral
-.
-ZERO
-)
-                           
-cond
-=
-ExprBinary
-(
-ivar
-'
-<
-'
-lenvar
-)
-                           
-update
-=
-ExprPrefixUnop
-(
-ivar
-'
-+
-+
-'
-)
+elemvar
+var
 )
         
 forwrite
@@ -30815,11 +30792,7 @@ self
 checkedWrite
 (
 eltipdltype
-ExprIndex
-(
-var
-ivar
-)
+elemvar
 msgvar
                               
 sentinelKey
