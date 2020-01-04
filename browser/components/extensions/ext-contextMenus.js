@@ -82,6 +82,7 @@ jsm
 var
 {
 EventManager
+IconDetails
 runSafe
 }
 =
@@ -251,7 +252,9 @@ root
 extension
 ;
 let
-url
+{
+icon
+}
 =
 IconDetails
 .
@@ -278,7 +281,7 @@ baseURI
 .
 resolve
 (
-url
+icon
 )
 ;
 if
