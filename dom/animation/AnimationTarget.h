@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_NonOwningAnimationTarget_h
+mozilla_AnimationTarget_h
 #
 define
-mozilla_NonOwningAnimationTarget_h
+mozilla_AnimationTarget_h
 #
 include
 "

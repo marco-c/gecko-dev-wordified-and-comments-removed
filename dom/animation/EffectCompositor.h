@@ -36,15 +36,6 @@ include
 "
 mozilla
 /
-NonOwningAnimationTarget
-.
-h
-"
-#
-include
-"
-mozilla
-/
 PseudoElementHashEntry
 .
 h
@@ -119,6 +110,9 @@ RestyleTracker
 ;
 struct
 AnimationPerformanceWarning
+;
+struct
+NonOwningAnimationTarget
 ;
 namespace
 dom

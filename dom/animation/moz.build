@@ -183,6 +183,11 @@ AnimationPerformanceWarning
 h
 '
 '
+AnimationTarget
+.
+h
+'
+'
 AnimationUtils
 .
 h
@@ -214,11 +219,6 @@ h
 '
 '
 KeyframeUtils
-.
-h
-'
-'
-NonOwningAnimationTarget
 .
 h
 '
