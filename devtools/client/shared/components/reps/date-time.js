@@ -119,7 +119,7 @@ preview
 timestamp
 )
 .
-toString
+toISOString
 (
 )
 ;
