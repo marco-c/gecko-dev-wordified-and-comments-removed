@@ -1088,7 +1088,6 @@ info
 getDisplayTitle
 (
 )
-false
 )
 ;
 Telemetry
