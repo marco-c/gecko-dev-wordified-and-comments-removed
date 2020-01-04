@@ -61,6 +61,14 @@ value
 .
 type
     
+t
+=
+t
+.
+strip_typedefs
+(
+)
+    
 if
 t
 .
@@ -267,6 +275,30 @@ template_argument
 0
 )
         
+self
+.
+is_table
+=
+self
+.
+entry_type
+.
+tag
+.
+startswith
+(
+'
+nsBaseHashtableET
+<
+'
+)
+        
+if
+self
+.
+is_table
+:
+            
 key_type
 =
 self
@@ -277,6 +309,15 @@ template_argument
 (
 0
 )
+        
+else
+:
+            
+key_type
+=
+self
+.
+entry_type
         
 self
 .
@@ -449,6 +490,12 @@ key_field_name
 ]
 )
             
+if
+self
+.
+is_table
+:
+                
 yield
 (
 '
@@ -487,7 +534,21 @@ self
 )
 :
         
+if
+self
+.
+is_table
+:
+            
 return
 '
 map
+'
+        
+else
+:
+            
+return
+'
+array
 '
