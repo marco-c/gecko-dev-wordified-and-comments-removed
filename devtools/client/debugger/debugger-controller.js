@@ -1767,8 +1767,13 @@ connect
 ;
 this
 .
-_onNavigate
+dispatch
 (
+actions
+.
+loadSources
+(
+)
 )
 ;
 }
