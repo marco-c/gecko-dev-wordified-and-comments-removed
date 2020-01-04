@@ -279,9 +279,9 @@ getTopSites
 ContentResolver
 cr
 int
-minLimit
+suggestedRangeLimit
 int
-maxLimit
+limit
 )
 ;
 public
