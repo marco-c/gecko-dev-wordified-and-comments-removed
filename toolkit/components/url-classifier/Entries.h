@@ -430,6 +430,8 @@ len
 '
 ;
 }
+#
+endif
 void
 ToHexString
 (
@@ -527,8 +529,6 @@ c
 ;
 }
 }
-#
-endif
 uint32_t
 ToUint32
 (

@@ -1139,9 +1139,6 @@ rv
 continue
 ;
 }
-#
-if
-DEBUG
 if
 (
 LOG_ENABLED
@@ -1197,8 +1194,6 @@ ToUint32
 )
 ;
 }
-#
-endif
 for
 (
 uint32_t
