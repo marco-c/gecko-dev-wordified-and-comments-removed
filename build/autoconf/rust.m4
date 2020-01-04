@@ -812,7 +812,7 @@ work
 .
 rust_target
 =
-i586
+i686
 -
 pc
 -
