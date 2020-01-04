@@ -477,6 +477,9 @@ ApplyAsyncContentTransformToTree
 Layer
 *
 aLayer
+bool
+*
+aOutFoundRoot
 )
 ;
 void
