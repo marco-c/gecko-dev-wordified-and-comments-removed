@@ -329,7 +329,7 @@ addon_signing
 ?
 AddonManager
 .
-SIGNEDSTATE_MISSING
+SIGNEDSTATE_SIGNED
 :
 AddonManager
 .
@@ -503,7 +503,7 @@ addon_signing
 ?
 AddonManager
 .
-SIGNEDSTATE_MISSING
+SIGNEDSTATE_SIGNED
 :
 AddonManager
 .
@@ -745,7 +745,7 @@ addon_signing
 ?
 AddonManager
 .
-SIGNEDSTATE_MISSING
+SIGNEDSTATE_SIGNED
 :
 AddonManager
 .
@@ -860,7 +860,7 @@ addon_signing
 ?
 AddonManager
 .
-SIGNEDSTATE_MISSING
+SIGNEDSTATE_SIGNED
 :
 AddonManager
 .
@@ -1310,7 +1310,7 @@ addon_signing
 ?
 AddonManager
 .
-SIGNEDSTATE_MISSING
+SIGNEDSTATE_SIGNED
 :
 AddonManager
 .
@@ -1417,7 +1417,7 @@ addon_signing
 ?
 AddonManager
 .
-SIGNEDSTATE_MISSING
+SIGNEDSTATE_SIGNED
 :
 AddonManager
 .
@@ -1820,7 +1820,7 @@ addon_signing
 ?
 AddonManager
 .
-SIGNEDSTATE_MISSING
+SIGNEDSTATE_SIGNED
 :
 AddonManager
 .
@@ -1945,7 +1945,7 @@ addon_signing
 ?
 AddonManager
 .
-SIGNEDSTATE_MISSING
+SIGNEDSTATE_SIGNED
 :
 AddonManager
 .
@@ -2133,7 +2133,7 @@ addon_signing
 ?
 AddonManager
 .
-SIGNEDSTATE_MISSING
+SIGNEDSTATE_SIGNED
 :
 AddonManager
 .
@@ -2452,7 +2452,7 @@ addon_signing
 ?
 AddonManager
 .
-SIGNEDSTATE_MISSING
+SIGNEDSTATE_SIGNED
 :
 AddonManager
 .
