@@ -1,6 +1,8 @@
 import
 mozversion
 import
+logging
+import
 os
 import
 sys
@@ -14,10 +16,6 @@ import
 utils
 import
 mozhttpd
-from
-mozlog
-import
-get_proxy_logger
 from
 talos
 .
@@ -61,11 +59,6 @@ realpath
 (
 __file__
 )
-)
-LOG
-=
-get_proxy_logger
-(
 )
 def
 useBaseTestDefaults
@@ -401,7 +394,7 @@ webserver
 "
 "
     
-LOG
+logging
 .
 info
 (
@@ -1091,7 +1084,7 @@ time
 )
 )
     
-LOG
+logging
 .
 debug
 (
@@ -1102,11 +1095,10 @@ testdate
 %
 d
 "
-%
 date
 )
     
-LOG
+logging
 .
 debug
 (
@@ -1117,7 +1109,6 @@ date
 %
 d
 "
-%
 int
 (
 time
@@ -1278,7 +1269,7 @@ Timer
 (
 )
         
-LOG
+logging
 .
 info
 (
@@ -1289,7 +1280,6 @@ suite
 %
 s
 "
-%
 title
 )
         
@@ -1316,7 +1306,7 @@ Timer
 (
 )
             
-LOG
+logging
 .
 info
 (
@@ -1326,7 +1316,6 @@ test
 %
 s
 "
-%
 testname
 )
             
@@ -1349,7 +1338,7 @@ test
 )
 )
             
-LOG
+logging
 .
 info
 (
@@ -1363,15 +1352,12 @@ s
 s
 )
 "
-                     
-%
-(
 testname
+                         
 testtimer
 .
 elapsed
 (
-)
 )
 )
     
@@ -1379,7 +1365,7 @@ except
 TalosRegression
 :
         
-LOG
+logging
 .
 error
 (
@@ -1391,7 +1377,6 @@ for
 %
 s
 "
-%
 testname
 )
         
@@ -1429,7 +1414,7 @@ stop
 (
 )
     
-LOG
+logging
 .
 info
 (
@@ -1442,7 +1427,6 @@ suite
 s
 )
 "
-%
 timer
 .
 elapsed
@@ -1555,6 +1539,26 @@ s
 "
 %
 exc
+)
+    
+utils
+.
+startLogger
+(
+'
+debug
+'
+if
+config
+[
+'
+debug
+'
+]
+else
+'
+info
+'
 )
     
 sys

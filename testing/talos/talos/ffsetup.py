@@ -21,6 +21,8 @@ re
 import
 tempfile
 import
+logging
+import
 mozfile
 from
 mozprocess
@@ -32,10 +34,6 @@ mozprofile
 profile
 import
 Profile
-from
-mozlog
-import
-get_proxy_logger
 from
 talos
 import
@@ -52,11 +50,6 @@ talos
 sps_profile
 import
 SpsProfile
-LOG
-=
-get_proxy_logger
-(
-)
 class
 FFSetup
 (
@@ -765,13 +758,16 @@ line
 )
 :
             
-LOG
+logging
 .
-process_output
+debug
 (
-browser
-.
-pid
+'
+BROWSER_OUTPUT
+:
+%
+s
+'
 line
 )
         
@@ -797,27 +793,9 @@ run
 (
 )
         
-LOG
-.
-process_start
-(
-browser
-.
-pid
-'
-'
-.
-join
-(
-command_args
-)
-)
-        
 try
 :
             
-exit_code
-=
 browser
 .
 wait
@@ -835,16 +813,6 @@ kill
 )
             
 raise
-        
-LOG
-.
-process_exit
-(
-browser
-.
-pid
-exit_code
-)
         
 results_raw
 =
@@ -872,7 +840,7 @@ results_raw
 )
 :
             
-LOG
+logging
 .
 info
 (
@@ -886,8 +854,7 @@ in
 browser
 output
 "
-                     
-%
+                         
 self
 .
 PROFILE_REGEX
@@ -895,7 +862,7 @@ PROFILE_REGEX
 pattern
 )
             
-LOG
+logging
 .
 info
 (
@@ -906,7 +873,6 @@ results
 %
 s
 "
-%
 results_raw
 )
             
@@ -958,7 +924,7 @@ not
 upload_dir
 :
             
-LOG
+logging
 .
 critical
 (
@@ -970,7 +936,7 @@ MOZ_UPLOAD_DIR
 was
 not
 "
-                         
+                             
 "
 set
 "
@@ -1056,7 +1022,7 @@ self
 )
 :
         
-LOG
+logging
 .
 info
 (
@@ -1071,8 +1037,7 @@ test
 .
 .
 '
-                 
-%
+                     
 self
 .
 test_config
@@ -1121,7 +1086,7 @@ _init_sps_profile
 (
 )
         
-LOG
+logging
 .
 info
 (
