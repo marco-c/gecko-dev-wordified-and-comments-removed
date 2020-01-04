@@ -103,3 +103,10 @@ prefix
 SCRIPT_DOWNLOAD_PATH
 }
 url
+chmod
++
+x
+basename
+{
+SCRIPT_PATH
+}
