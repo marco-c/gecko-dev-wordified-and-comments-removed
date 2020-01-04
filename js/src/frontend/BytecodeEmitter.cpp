@@ -19302,6 +19302,12 @@ return
 false
 ;
 }
+else
+{
+return
+true
+;
+}
 if
 (
 emitOption
