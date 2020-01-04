@@ -2353,7 +2353,7 @@ i32
 .
 add
 (
-call_import
+call
 imp
 )
 (

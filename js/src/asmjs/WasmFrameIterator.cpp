@@ -806,13 +806,13 @@ atom
 code_
 -
 >
-getFuncAtom
+getFuncDefAtom
 (
 cx
 codeRange_
 -
 >
-funcIndex
+funcDefIndex
 (
 )
 )
@@ -3553,7 +3553,7 @@ profilingLabel
 codeRange_
 -
 >
-funcIndex
+funcDefIndex
 (
 )
 )

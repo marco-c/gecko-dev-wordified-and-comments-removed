@@ -337,7 +337,7 @@ inc
 )
 (
 start
-2
+main
 )
 (
 export
@@ -443,7 +443,7 @@ const
 )
 (
 start
-0
+main
 )
 )
 (

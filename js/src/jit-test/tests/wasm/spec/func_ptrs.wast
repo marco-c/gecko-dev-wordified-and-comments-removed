@@ -991,8 +991,8 @@ i32
 )
 (
 table
-0
-1
+t1
+t2
 )
 (
 import

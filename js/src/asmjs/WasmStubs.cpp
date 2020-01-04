@@ -431,9 +431,9 @@ MacroAssembler
 &
 masm
 const
-FuncExport
+FuncDefExport
 &
-fe
+func
 )
 {
 masm
@@ -741,7 +741,7 @@ AlignBytes
 (
 StackArgBytes
 (
-fe
+func
 .
 sig
 (
@@ -760,7 +760,7 @@ for
 ABIArgValTypeIter
 iter
 (
-fe
+func
 .
 sig
 (
@@ -1491,9 +1491,9 @@ CallSiteDesc
 :
 Relative
 )
-fe
+func
 .
-funcIndex
+funcDefIndex
 (
 )
 )
@@ -1537,7 +1537,7 @@ argv
 ;
 switch
 (
-fe
+func
 .
 sig
 (

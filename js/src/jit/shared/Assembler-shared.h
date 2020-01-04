@@ -2682,7 +2682,7 @@ retAddr
 size_t
 framePushed
 uint32_t
-targetIndex
+funcDefIndex
 =
 wasm
 :
@@ -2690,7 +2690,7 @@ wasm
 CallSiteAndTarget
 :
 :
-NOT_INTERNAL
+NOT_DEFINITION
 )
 {
 wasm
@@ -2726,7 +2726,7 @@ wasm
 CallSiteAndTarget
 (
 callsite
-targetIndex
+funcDefIndex
 )
 )
 ;

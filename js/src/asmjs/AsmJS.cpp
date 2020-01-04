@@ -1282,7 +1282,7 @@ get
 ;
 }
 bool
-getFuncName
+getFuncDefName
 (
 JSContext
 *
@@ -1291,7 +1291,7 @@ const
 Bytes
 *
 uint32_t
-funcIndex
+funcDefIndex
 TwoByteName
 *
 name
@@ -1306,7 +1306,7 @@ p
 =
 asmJSFuncNames
 [
-funcIndex
+funcDefIndex
 ]
 .
 get
@@ -8373,7 +8373,7 @@ MaxSigs
 genData
 -
 >
-funcSigs
+funcDefSigs
 .
 resize
 (
@@ -10487,12 +10487,18 @@ if
 !
 mg_
 .
-addFuncExport
+addFuncDefExport
 (
 Move
 (
 fieldChars
 )
+mg_
+.
+numFuncImports
+(
+)
++
 func
 .
 index
@@ -10602,7 +10608,7 @@ functions
 ;
 mg_
 .
-initFuncSig
+initFuncDefSig
 (
 funcIndex
 sigIndex
@@ -27076,7 +27082,7 @@ mg
 (
 )
 .
-funcSig
+funcDefSig
 (
 existing
 -
@@ -42602,7 +42608,7 @@ mg
 (
 )
 .
-funcSig
+funcDefSig
 (
 func
 -
@@ -52407,7 +52413,7 @@ metadata
 .
 lookupAsmJSExport
 (
-ExportedFunctionToIndex
+ExportedFunctionToDefinitionIndex
 (
 fun
 )

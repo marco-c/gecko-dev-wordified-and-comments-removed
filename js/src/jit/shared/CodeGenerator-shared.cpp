@@ -7960,7 +7960,7 @@ wasm
 CalleeDesc
 :
 :
-Internal
+Definition
 :
 masm
 .
@@ -7969,7 +7969,7 @@ call
 desc
 callee
 .
-internalFuncIndex
+funcDefIndex
 (
 )
 )

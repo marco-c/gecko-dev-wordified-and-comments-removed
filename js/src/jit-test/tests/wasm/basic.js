@@ -6567,6 +6567,7 @@ f
 )
 (
 func
+a
 (
 call_import
 foo
@@ -6574,6 +6575,7 @@ foo
 )
 (
 func
+b
 (
 result
 i32
@@ -6587,8 +6589,8 @@ const
 )
 (
 table
-0
-1
+a
+b
 )
 (
 func
