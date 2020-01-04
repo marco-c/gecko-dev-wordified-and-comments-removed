@@ -3191,7 +3191,10 @@ cut
 c
 1
 -
+2
 4
+-
+5
 AC_DEFINE
 (
 _CRT_SECURE_NO_WARNINGS
@@ -13436,7 +13439,11 @@ CC_VERSION
 "
 =
 "
-180031101
+18
+.
+00
+.
+31101
 "
 ;
 then
