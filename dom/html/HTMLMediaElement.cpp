@@ -8065,6 +8065,10 @@ GetCurrentPrincipal
 (
 )
 )
+.
+get
+(
+)
 true
 nsString
 (

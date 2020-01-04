@@ -929,10 +929,8 @@ eAnywhere
 eOutsideUserSelectAll
 }
 ;
-already_AddRefed
-<
 nsINode
->
+*
 GetWSBoundingParent
 (
 )

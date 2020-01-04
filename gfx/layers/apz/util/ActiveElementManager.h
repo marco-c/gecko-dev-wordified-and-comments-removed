@@ -151,11 +151,15 @@ ResetTouchBlockState
 void
 SetActiveTask
 (
+const
+nsCOMPtr
+<
 dom
 :
 :
 Element
-*
+>
+&
 aTarget
 )
 ;

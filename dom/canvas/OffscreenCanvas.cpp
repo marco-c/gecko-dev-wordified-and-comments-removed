@@ -1030,6 +1030,16 @@ TransferToImageBitmap
 ErrorResult
 rv
 ;
+nsCOMPtr
+<
+nsIGlobalObject
+>
+globalObject
+=
+GetGlobalObject
+(
+)
+;
 RefPtr
 <
 ImageBitmap
@@ -1041,9 +1051,7 @@ ImageBitmap
 :
 CreateFromOffscreenCanvas
 (
-GetGlobalObject
-(
-)
+globalObject
 *
 this
 rv

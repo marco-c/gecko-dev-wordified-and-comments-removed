@@ -901,11 +901,15 @@ ActiveElementManager
 :
 SetActiveTask
 (
+const
+nsCOMPtr
+<
 dom
 :
 :
 Element
-*
+>
+&
 aTarget
 )
 {

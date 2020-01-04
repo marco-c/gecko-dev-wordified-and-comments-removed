@@ -1557,10 +1557,8 @@ return
 mThread
 ;
 }
-nsCOMPtr
-<
 nsIEventTarget
->
+*
 GetSTSThread
 (
 )

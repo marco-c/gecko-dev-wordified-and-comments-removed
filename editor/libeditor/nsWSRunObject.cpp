@@ -2734,10 +2734,8 @@ return
 res
 ;
 }
-already_AddRefed
-<
 nsINode
->
+*
 nsWSRunObject
 :
 :
@@ -2808,10 +2806,6 @@ parent
 }
 return
 wsBoundingParent
-.
-forget
-(
-)
 ;
 }
 nsresult
@@ -8354,14 +8348,8 @@ block
 &
 IsBlockNode
 (
-nsCOMPtr
-<
-nsINode
->
-(
 GetWSBoundingParent
 (
-)
 )
 )
 )
