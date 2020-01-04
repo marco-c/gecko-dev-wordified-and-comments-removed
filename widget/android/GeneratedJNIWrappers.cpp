@@ -10540,7 +10540,7 @@ char
 ThumbnailHelper
 :
 :
-SendThumbnail_t
+NotifyThumbnail_t
 :
 :
 name
@@ -10552,7 +10552,7 @@ char
 ThumbnailHelper
 :
 :
-SendThumbnail_t
+NotifyThumbnail_t
 :
 :
 signature
@@ -10563,7 +10563,7 @@ auto
 ThumbnailHelper
 :
 :
-SendThumbnail
+NotifyThumbnail
 (
 mozilla
 :
@@ -10576,7 +10576,16 @@ ByteBuffer
 :
 Param
 a0
-int32_t
+mozilla
+:
+:
+jni
+:
+:
+Object
+:
+:
+Param
 a1
 bool
 a2
@@ -10596,7 +10605,7 @@ jni
 :
 Method
 <
-SendThumbnail_t
+NotifyThumbnail_t
 >
 :
 :
