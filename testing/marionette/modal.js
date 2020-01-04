@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-var
+const
 {
 utils
 :
@@ -41,7 +41,7 @@ modal
 "
 ]
 ;
-var
+const
 isFirefox
 =
 (
