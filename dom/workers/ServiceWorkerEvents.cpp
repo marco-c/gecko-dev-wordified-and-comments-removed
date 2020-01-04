@@ -596,8 +596,10 @@ MOZ_ASSERT
 aInterceptedChannel
 )
 ;
+nsCOMPtr
+<
 nsIConsoleReportCollector
-*
+>
 reporter
 =
 aInterceptedChannel
