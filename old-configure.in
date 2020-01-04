@@ -1258,7 +1258,7 @@ ANDROID_VERSION
 in
 15
 )
-GONK_INCLUDES
+CPPFLAGS
 =
 "
 -
@@ -1398,6 +1398,7 @@ libnativehelper
 include
 /
 nativehelper
+CPPFLAGS
 "
 MOZ_NFC
 =
@@ -1424,7 +1425,7 @@ MOZ_SECUREELEMENT
 |
 18
 )
-GONK_INCLUDES
+CPPFLAGS
 =
 "
 -
@@ -1493,6 +1494,7 @@ media
 libstagefright
 /
 include
+CPPFLAGS
 "
 MOZ_RTSP
 =
@@ -1528,7 +1530,7 @@ MOZ_SECUREELEMENT
 ;
 19
 )
-GONK_INCLUDES
+CPPFLAGS
 =
 "
 -
@@ -1597,6 +1599,7 @@ media
 libstagefright
 /
 include
+CPPFLAGS
 "
 MOZ_B2G_CAMERA
 =
@@ -1637,7 +1640,7 @@ MOZ_AUDIO_OFFLOAD
 |
 22
 )
-GONK_INCLUDES
+CPPFLAGS
 =
 "
 -
@@ -1706,6 +1709,7 @@ media
 libstagefright
 /
 include
+CPPFLAGS
 "
 MOZ_AUDIO_OFFLOAD
 =
@@ -1841,7 +1845,6 @@ valgrind
 fxos
 -
 include
-GONK_INCLUDES
 CPPFLAGS
 "
 LDFLAGS
