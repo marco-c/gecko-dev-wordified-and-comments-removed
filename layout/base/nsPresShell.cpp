@@ -23021,7 +23021,12 @@ AsyncPanZoomEnabled
 }
 }
 return
-false
+gfxPlatform
+:
+:
+AsyncPanZoomEnabled
+(
+)
 ;
 }
 void
