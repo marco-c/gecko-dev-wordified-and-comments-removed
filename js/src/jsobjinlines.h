@@ -1543,7 +1543,9 @@ clasp
 }
 static
 MOZ_ALWAYS_INLINE
-void
+MOZ_WARN_UNUSED_RESULT
+JSObject
+*
 SetNewObjectMetadata
 (
 ExclusiveContext
@@ -1626,7 +1628,7 @@ cx
 )
 ;
 RootedObject
-hobj
+rooted
 (
 cx
 obj
@@ -1643,11 +1645,17 @@ compartment
 setNewObjectMetadata
 (
 cx
-hobj
+rooted
 )
+;
+return
+rooted
 ;
 }
 }
+return
+obj
+;
 }
 }
 inline
@@ -2274,6 +2282,8 @@ obj
 )
 ;
 else
+obj
+=
 SetNewObjectMetadata
 (
 cx

@@ -6952,8 +6952,7 @@ SavedStacksMetadataCallback
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 target
 )
 {
