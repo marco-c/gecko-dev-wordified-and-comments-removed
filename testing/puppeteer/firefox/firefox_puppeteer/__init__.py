@@ -13,7 +13,7 @@ use_class_as_property
 __version__
 =
 '
-50
+51
 .
 0
 .
