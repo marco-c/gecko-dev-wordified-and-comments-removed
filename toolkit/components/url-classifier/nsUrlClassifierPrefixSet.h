@@ -209,7 +209,7 @@ nsUrlClassifierPrefixSet
 static
 const
 uint32_t
-BUFFER_SIZE
+MAX_BUFFER_SIZE
 =
 64
 *
