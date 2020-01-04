@@ -5663,6 +5663,10 @@ USE_SKIA_GPU
 if
 (
 !
+mSkiaGlue
+&
+&
+!
 UseAcceleratedCanvas
 (
 )
