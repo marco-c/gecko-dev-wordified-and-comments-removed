@@ -43,6 +43,13 @@ nsISupportsImpl
 .
 h
 "
+#
+include
+"
+ThreadSafeRefcountingWithMainThreadDestruction
+.
+h
+"
 class
 Task
 ;
@@ -57,7 +64,7 @@ GeckoContentController
 {
 public
 :
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING_WITH_MAIN_THREAD_DESTRUCTION
 (
 GeckoContentController
 )
@@ -277,6 +284,13 @@ aY
 {
 }
 GeckoContentController
+(
+)
+{
+}
+virtual
+void
+ChildAdopted
 (
 )
 {

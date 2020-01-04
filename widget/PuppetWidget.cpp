@@ -57,7 +57,7 @@ mozilla
 /
 layers
 /
-CompositorChild
+APZChild
 .
 h
 "
@@ -2314,7 +2314,7 @@ mTabChild
 mTabChild
 -
 >
-SendSetTargetAPZC
+SetTargetAPZC
 (
 aInputBlockId
 aTargets
@@ -5339,7 +5339,7 @@ aDragMetrics
 mTabChild
 -
 >
-SendStartScrollbarDrag
+StartScrollbarDrag
 (
 aDragMetrics
 )
@@ -5982,7 +5982,7 @@ return
 mTabChild
 -
 >
-SendZoomToRect
+ZoomToRect
 (
 aPresShellId
 aViewId

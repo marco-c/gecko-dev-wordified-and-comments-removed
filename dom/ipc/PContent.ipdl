@@ -116,6 +116,10 @@ MPL
 /
 include
 protocol
+PAPZ
+;
+include
+protocol
 PBackground
 ;
 include
@@ -1638,6 +1642,9 @@ opens
 PBackground
 ;
 manages
+PAPZ
+;
+manages
 PBlob
 ;
 manages
@@ -2271,6 +2278,13 @@ ccLog
 async
 PTestShell
 (
+)
+;
+async
+PAPZ
+(
+TabId
+tabId
 )
 ;
 async
@@ -4465,6 +4479,10 @@ mozbrowsers
 sync
 AllocateLayerTreeId
 (
+ContentParentId
+cpId
+TabId
+tabId
 )
 returns
 (

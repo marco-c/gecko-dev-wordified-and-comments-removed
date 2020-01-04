@@ -233,6 +233,11 @@ nsRegion
 aRegion
 )
 ;
+sync
+TakeFocusForClickFromTap
+(
+)
+;
 async
 __delete__
 (
