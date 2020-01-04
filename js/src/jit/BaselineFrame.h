@@ -888,6 +888,13 @@ isEvalFrame
 )
 )
 ;
+MOZ_ASSERT
+(
+isFunctionFrame
+(
+)
+)
+;
 return
 (
 Value
