@@ -3460,10 +3460,7 @@ this
 allBookmarksFolderId
 ;
 }
-_confirmOpenInTabs
-:
-function
-PUIU__confirmOpenInTabs
+confirmOpenInTabs
 (
 numTabsToOpen
 aWindow
@@ -4063,7 +4060,7 @@ if
 (
 this
 .
-_confirmOpenInTabs
+confirmOpenInTabs
 (
 urlsToOpen
 .
@@ -4120,7 +4117,7 @@ if
 (
 this
 .
-_confirmOpenInTabs
+confirmOpenInTabs
 (
 urlsToOpen
 .
