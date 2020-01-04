@@ -18836,6 +18836,10 @@ mSpecularExponent
 (
 0
 )
+mSpecularConstantInt
+(
+0
+)
 {
 }
 bool
