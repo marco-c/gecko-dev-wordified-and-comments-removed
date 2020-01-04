@@ -332,7 +332,7 @@ config
 get
 (
 "
-developer_mode
+download_tooltool
 "
 )
 :
