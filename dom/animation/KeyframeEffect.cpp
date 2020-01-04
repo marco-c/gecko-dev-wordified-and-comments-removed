@@ -5255,17 +5255,6 @@ mAnimation
 =
 aAnimation
 ;
-RequestRestyle
-(
-EffectCompositor
-:
-:
-RestyleType
-:
-:
-Layer
-)
-;
 if
 (
 mAnimation
