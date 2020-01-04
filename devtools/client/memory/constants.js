@@ -23,3 +23,13 @@ take
 snapshot
 "
 ;
+actions
+.
+SELECT_SNAPSHOT
+=
+"
+select
+-
+snapshot
+"
+;

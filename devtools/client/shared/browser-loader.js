@@ -144,6 +144,8 @@ modules
 /
 devtools
 /
+client
+/
 shared
 /
 vendor

@@ -56,6 +56,16 @@ monospace
 endif
 }
 .
+theme
+-
+body
+{
+margin
+:
+0
+;
+}
+.
 devtools
 -
 monospace
