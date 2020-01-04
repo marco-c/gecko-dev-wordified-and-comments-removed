@@ -112,14 +112,12 @@ ElementPropertyTransition
 nsIDocument
 *
 aDocument
-dom
-:
-:
-Element
-*
+Maybe
+<
+OwningAnimationTarget
+>
+&
 aTarget
-CSSPseudoElementType
-aPseudoType
 const
 TimingParams
 &
@@ -137,7 +135,6 @@ KeyframeEffectReadOnly
 (
 aDocument
 aTarget
-aPseudoType
 aTiming
 )
 mStartForReversingTest
