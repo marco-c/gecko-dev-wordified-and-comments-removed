@@ -792,7 +792,7 @@ window
 .
 BrowserApp
 .
-selectOrOpenTab
+selectOrAddTab
 (
 "
 about
@@ -801,6 +801,7 @@ downloads
 "
 +
 hash
+null
 {
 startsWith
 :
