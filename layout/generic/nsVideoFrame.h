@@ -64,15 +64,11 @@ nsPresContext
 class
 nsDisplayItem
 ;
-typedef
-nsContainerFrame
-nsVideoFrameBase
-;
 class
 nsVideoFrame
 :
 public
-nsVideoFrameBase
+nsContainerFrame
 public
 nsIAnonymousContentCreator
 {
