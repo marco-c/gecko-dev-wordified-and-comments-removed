@@ -80,14 +80,6 @@ Accessible
 aAccessible
 )
 ;
-uint32_t
-GetEmbeddedObject
-(
-Accessible
-*
-aAccessible
-)
-;
 }
 }
 }
