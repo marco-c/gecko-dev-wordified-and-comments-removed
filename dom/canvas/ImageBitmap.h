@@ -241,6 +241,11 @@ Height
 )
 ;
 }
+void
+Close
+(
+)
+;
 already_AddRefed
 <
 gfx
