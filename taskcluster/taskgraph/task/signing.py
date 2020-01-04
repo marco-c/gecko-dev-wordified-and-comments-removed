@@ -7,11 +7,7 @@ unicode_literals
 import
 logging
 import
-json
-import
 os
-import
-time
 from
 .
 import
@@ -203,7 +199,6 @@ get
 kind
 '
 )
-                        
 =
 =
 '
