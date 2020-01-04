@@ -3401,7 +3401,9 @@ d
 )
 {
 }
+const
 double
+&
 getDouble
 (
 )
@@ -3447,7 +3449,9 @@ f
 )
 {
 }
+const
 float
+&
 getFloat
 (
 )

@@ -9455,7 +9455,7 @@ srcDest
 FloatRegister
 other
 bool
-handleNaN
+canBeNaN
 bool
 isMax
 )
@@ -9468,7 +9468,7 @@ srcDest
 FloatRegister
 other
 bool
-handleNaN
+canBeNaN
 bool
 isMax
 )
