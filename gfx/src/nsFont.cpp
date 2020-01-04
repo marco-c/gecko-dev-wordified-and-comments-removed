@@ -107,8 +107,6 @@ uint16_t
 aWeight
 int16_t
 aStretch
-uint8_t
-aDecoration
 nscoord
 aSize
 )
@@ -134,10 +132,6 @@ stretch
 =
 aStretch
 ;
-decorations
-=
-aDecoration
-;
 size
 =
 aSize
@@ -156,8 +150,6 @@ uint16_t
 aWeight
 int16_t
 aStretch
-uint8_t
-aDecoration
 nscoord
 aSize
 )
@@ -182,10 +174,6 @@ aWeight
 stretch
 =
 aStretch
-;
-decorations
-=
-aDecoration
 ;
 size
 =
@@ -224,6 +212,10 @@ synthesis
 NS_FONT_SYNTHESIS_WEIGHT
 |
 NS_FONT_SYNTHESIS_STYLE
+;
+decorations
+=
+0
 ;
 variantAlternates
 =
