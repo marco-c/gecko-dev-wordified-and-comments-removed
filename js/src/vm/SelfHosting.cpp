@@ -10332,7 +10332,7 @@ std_SIMD_Int32x4_extractLane
 simd_int32x4_extractLane
 2
 0
-SimdInt32x4
+SimdInt32x4_extractLane
 )
 JS_FN
 (
@@ -10369,7 +10369,7 @@ std_SIMD_Float32x4_extractLane
 simd_float32x4_extractLane
 2
 0
-SimdFloat32x4
+SimdFloat32x4_extractLane
 )
 JS_FN
 (
