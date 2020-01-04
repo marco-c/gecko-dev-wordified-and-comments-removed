@@ -367,7 +367,7 @@ is
 unimplemented
 ;
 use
-GetDomfile
+GetDomFileOrDirectory
 "
 )
 ;
@@ -396,7 +396,7 @@ is
 unimplemented
 ;
 use
-GetDomfile
+GetDomFileOrDirectory
 "
 )
 ;
@@ -425,7 +425,7 @@ is
 unimplemented
 ;
 use
-GetDomfiles
+GetDomFileOrDirectoryEnumerator
 "
 )
 ;
@@ -648,7 +648,7 @@ MOZ_ASSERT
 file
 )
 ;
-mDomfiles
+mFilesOrDirectories
 .
 AppendElement
 (
@@ -683,22 +683,22 @@ NS_IMETHODIMP
 nsFilePickerProxy
 :
 :
-GetDomfile
+GetDomFileOrDirectory
 (
 nsISupports
 *
 *
-aDomfile
+aValue
 )
 {
 *
-aDomfile
+aValue
 =
 nullptr
 ;
 if
 (
-mDomfiles
+mFilesOrDirectories
 .
 IsEmpty
 (
@@ -711,7 +711,7 @@ NS_OK
 }
 MOZ_ASSERT
 (
-mDomfiles
+mFilesOrDirectories
 .
 Length
 (
@@ -727,7 +727,7 @@ nsIDOMBlob
 >
 blob
 =
-mDomfiles
+mFilesOrDirectories
 [
 0
 ]
@@ -740,7 +740,7 @@ blob
 .
 forget
 (
-aDomfile
+aValue
 )
 ;
 return
@@ -895,7 +895,7 @@ NS_IMETHODIMP
 nsFilePickerProxy
 :
 :
-GetDomfiles
+GetDomFileOrDirectoryEnumerator
 (
 nsISimpleEnumerator
 *
@@ -912,7 +912,7 @@ enumerator
 new
 SimpleEnumerator
 (
-mDomfiles
+mFilesOrDirectories
 )
 ;
 enumerator

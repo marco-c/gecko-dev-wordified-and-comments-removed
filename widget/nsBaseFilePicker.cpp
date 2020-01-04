@@ -1512,12 +1512,12 @@ NS_IMETHODIMP
 nsBaseFilePicker
 :
 :
-GetDomfile
+GetDomFileOrDirectory
 (
 nsISupports
 *
 *
-aDomfile
+aValue
 )
 {
 nsCOMPtr
@@ -1550,7 +1550,7 @@ localFile
 )
 {
 *
-aDomfile
+aValue
 =
 nullptr
 ;
@@ -1602,7 +1602,7 @@ domFile
 .
 forget
 (
-aDomfile
+aValue
 )
 ;
 return
@@ -1613,12 +1613,12 @@ NS_IMETHODIMP
 nsBaseFilePicker
 :
 :
-GetDomfiles
+GetDomFileOrDirectoryEnumerator
 (
 nsISimpleEnumerator
 *
 *
-aDomfiles
+aValue
 )
 {
 nsCOMPtr
@@ -1662,7 +1662,7 @@ retIter
 .
 forget
 (
-aDomfiles
+aValue
 )
 ;
 return

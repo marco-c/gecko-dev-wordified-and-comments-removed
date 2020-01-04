@@ -864,7 +864,7 @@ null
 ;
 }
 get
-domfile
+domFileOrDirectory
 (
 )
 {
@@ -1079,7 +1079,7 @@ index
 ;
 }
 get
-domfiles
+domFileOrDirectoryEnumerator
 (
 )
 {

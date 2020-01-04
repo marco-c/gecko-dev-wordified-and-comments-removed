@@ -1887,7 +1887,7 @@ rv
 mFilePicker
 -
 >
-GetDomfiles
+GetDomFileOrDirectoryEnumerator
 (
 getter_AddRefs
 (
@@ -2051,7 +2051,7 @@ rv
 mFilePicker
 -
 >
-GetDomfile
+GetDomFileOrDirectory
 (
 getter_AddRefs
 (
