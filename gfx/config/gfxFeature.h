@@ -87,6 +87,16 @@ Direct2D
 "
 )
 \
+_
+(
+D3D11_ANGLE
+Feature
+"
+Direct3D11
+ANGLE
+"
+)
+\
 /
 *
 Add

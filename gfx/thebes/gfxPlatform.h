@@ -301,10 +301,6 @@ kMaxLenPrefLangList
 =
 32
 ;
-extern
-bool
-gANGLESupportsD3D11
-;
 #
 define
 UNINITIALIZED_VALUE
@@ -1314,16 +1310,6 @@ CanUseHardwareVideoDecoding
 (
 )
 ;
-virtual
-bool
-CanUseDirect3D11ANGLE
-(
-)
-{
-return
-false
-;
-}
 void
 GetCompositorBackends
 (
