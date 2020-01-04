@@ -271,11 +271,6 @@ GetFrameDelay
 (
 )
 ;
-void
-ClearCachedResources
-(
-)
-;
 ImageContainer
 :
 :
