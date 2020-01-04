@@ -667,7 +667,7 @@ initialY
 ;
 }
 }
-nsIntRect
+LayoutDeviceIntRect
 r
 (
 initialX
@@ -753,6 +753,10 @@ nsIWidget
 parentWidget
 nullptr
 r
+.
+ToUnknownRect
+(
+)
 &
 widgetInitData
 )
@@ -760,7 +764,7 @@ widgetInitData
 mWindow
 -
 >
-GetClientBoundsUntyped
+GetClientBounds
 (
 r
 )

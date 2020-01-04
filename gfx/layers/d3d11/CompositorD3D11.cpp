@@ -6911,13 +6911,13 @@ EnsureSize
 (
 )
 {
-IntRect
+LayoutDeviceIntRect
 rect
 ;
 mWidget
 -
 >
-GetClientBoundsUntyped
+GetClientBounds
 (
 rect
 )
@@ -6927,6 +6927,10 @@ mSize
 rect
 .
 Size
+(
+)
+.
+ToUnknownSize
 (
 )
 ;
