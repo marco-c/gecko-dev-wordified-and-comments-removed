@@ -246,9 +246,9 @@ anonRoot
 ref
 )
 ;
-}
 return
 ;
+}
 }
 else
 {
