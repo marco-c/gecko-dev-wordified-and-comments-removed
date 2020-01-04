@@ -389,6 +389,11 @@ FilterNodeD2D1
 cpp
 '
 '
+JobScheduler_win32
+.
+cpp
+'
+'
 PathD2D
 .
 cpp
