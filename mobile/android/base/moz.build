@@ -2188,6 +2188,13 @@ java
 '
 feeds
 /
+ContentNotificationsDelegate
+.
+java
+'
+'
+feeds
+/
 FeedAlarmReceiver
 .
 java
