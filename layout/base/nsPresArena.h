@@ -305,6 +305,16 @@ ClearArenaRefPtrs
 )
 ;
 void
+ClearArenaRefPtrs
+(
+mozilla
+:
+:
+ArenaObjectID
+aObjectID
+)
+;
+void
 AddSizeOfExcludingThis
 (
 mozilla
