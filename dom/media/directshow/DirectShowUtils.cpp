@@ -1216,6 +1216,9 @@ FAILED
 (
 CoCreateInstance
 (
+DirectShowReader
+:
+:
 CLSID_MPEG_LAYER_3_DECODER_FILTER
 nullptr
 CLSCTX_INPROC_SERVER

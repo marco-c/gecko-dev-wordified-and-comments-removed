@@ -127,6 +127,11 @@ aEndTime
 )
 override
 ;
+static
+const
+GUID
+CLSID_MPEG_LAYER_3_DECODER_FILTER
+;
 private
 :
 bool

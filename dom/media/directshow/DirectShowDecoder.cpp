@@ -15,6 +15,13 @@ h
 #
 include
 "
+DirectShowUtils
+.
+h
+"
+#
+include
+"
 MediaDecoderStateMachine
 .
 h
