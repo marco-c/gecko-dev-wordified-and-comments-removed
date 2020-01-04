@@ -5289,6 +5289,16 @@ max_velocity_inches_per_ms
 "
 )
 ;
+pref
+(
+"
+apz
+.
+fling_accel_interval_ms
+"
+750
+)
+;
 #
 endif
 pref
