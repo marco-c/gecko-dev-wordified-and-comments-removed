@@ -93,15 +93,6 @@ MPL
 0
 /
 .
-#
-DIRS
-+
-=
-[
-'
-locales
-'
-]
 FINAL_TARGET_FILES
 .
 features
