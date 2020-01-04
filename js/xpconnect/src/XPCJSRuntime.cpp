@@ -19243,10 +19243,6 @@ Runtime
 )
 )
 ;
-PushNullJSContext
-(
-)
-;
 CycleCollectedJSRuntime
 :
 :
@@ -19310,10 +19306,6 @@ Get
 Runtime
 (
 )
-)
-;
-PopNullJSContext
-(
 )
 ;
 }
