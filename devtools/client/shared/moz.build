@@ -300,6 +300,11 @@ prefs
 js
 '
 '
+scroll
+.
+js
+'
+'
 source
 -
 utils
