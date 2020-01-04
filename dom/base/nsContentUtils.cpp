@@ -18382,7 +18382,7 @@ InternalMutationEvent
 mutation
 (
 true
-NS_MUTATION_NODEREMOVED
+eLegacyNodeRemoved
 )
 ;
 mutation
