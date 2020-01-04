@@ -5515,7 +5515,7 @@ n
 (
 home
 -
-subpath
+regex
 \
 "
 /
@@ -5526,6 +5526,8 @@ Caches
 TemporaryItems
 /
 plugtmp
+.
+*
 \
 "
 )
