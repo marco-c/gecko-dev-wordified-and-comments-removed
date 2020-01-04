@@ -97,7 +97,7 @@ win64
 /
 mozconfig
 .
-vs2013
+vs2015
 .
 "
 topsrcdir

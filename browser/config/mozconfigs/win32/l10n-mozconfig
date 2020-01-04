@@ -101,7 +101,7 @@ win32
 /
 mozconfig
 .
-vs2013
+vs2015
 -
 win64
 else
