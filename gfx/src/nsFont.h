@@ -164,6 +164,9 @@ variantNumeric
 uint8_t
 variantPosition
 ;
+uint8_t
+variantWidth
+;
 uint16_t
 variantLigatures
 ;
