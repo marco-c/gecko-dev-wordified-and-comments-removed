@@ -12293,8 +12293,10 @@ LayersBackend
 LAYERS_CLIENT
 )
 ;
+RefPtr
+<
 ClientLayerManager
-*
+>
 manager
 =
 mPuppetWidget
