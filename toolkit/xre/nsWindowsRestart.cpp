@@ -1030,7 +1030,13 @@ n
 "
 lpMsgBuf
 ?
+static_cast
+<
+LPTSTR
+>
+(
 lpMsgBuf
+)
 :
 L
 "
