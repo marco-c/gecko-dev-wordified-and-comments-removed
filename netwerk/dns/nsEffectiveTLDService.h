@@ -153,8 +153,7 @@ return
 GetEffectiveTLDName
 (
 mData
--
->
+.
 strtab_index
 )
 ;
@@ -219,9 +218,7 @@ true
 void
 SetData
 (
-const
 ETLDEntry
-*
 entry
 )
 {
@@ -237,15 +234,13 @@ IsNormal
 {
 return
 mData
--
->
+.
 wild
 |
 |
 !
 mData
--
->
+.
 exception
 ;
 }
@@ -256,8 +251,7 @@ IsException
 {
 return
 mData
--
->
+.
 exception
 ;
 }
@@ -268,8 +262,7 @@ IsWild
 {
 return
 mData
--
->
+.
 wild
 ;
 }
@@ -293,9 +286,7 @@ idx
 }
 private
 :
-const
 ETLDEntry
-*
 mData
 ;
 #
