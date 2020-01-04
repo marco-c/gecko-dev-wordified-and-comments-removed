@@ -1228,6 +1228,9 @@ JSContext
 cx
 )
 ;
+bool
+suppressObjectMetadataCallback
+;
 js
 :
 :

@@ -1191,6 +1191,12 @@ oom
 RecompileInfoVector
 pendingRecompiles
 ;
+js
+:
+:
+AutoSuppressObjectMetadataCallback
+suppressMetadata
+;
 FreeOp
 *
 freeOp
@@ -1219,6 +1225,10 @@ cx
 zone
 (
 )
+)
+suppressMetadata
+(
+cx
 )
 {
 init
@@ -1258,6 +1268,10 @@ runtimeFromMainThread
 )
 )
 oom
+(
+zone
+)
+suppressMetadata
 (
 zone
 )

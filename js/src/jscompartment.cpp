@@ -5944,10 +5944,16 @@ hasObjectPendingMetadata
 )
 )
 {
-RootedObject
-obj
+AutoSuppressGC
+autoSuppressGC
 (
 cx_
+)
+;
+JSObject
+*
+obj
+=
 cx_
 -
 >
@@ -5963,7 +5969,6 @@ as
 PendingMetadata
 >
 (
-)
 )
 ;
 cx_

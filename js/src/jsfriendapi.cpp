@@ -577,8 +577,8 @@ JSObject
 proto
 )
 {
-AutoEnterAnalysis
-enter
+AutoSuppressObjectMetadataCallback
+suppressMetadata
 (
 cx
 )
