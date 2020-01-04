@@ -151,7 +151,7 @@ function
 (
 args
 touchId
-frame
+container
 elementManager
 callbacks
 touchProvider
@@ -183,7 +183,7 @@ elementManager
 convertWrappedArguments
 (
 args
-frame
+container
 )
 ;
 this
@@ -204,9 +204,9 @@ onError
 ;
 this
 .
-frame
+container
 =
-frame
+container
 ;
 if
 (
@@ -228,6 +228,8 @@ nextTouchId
 if
 (
 !
+container
+.
 frame
 .
 document
@@ -510,7 +512,7 @@ null
 ;
 this
 .
-frame
+container
 =
 null
 ;
@@ -696,6 +698,8 @@ pack
 keyModifiers
 this
 .
+container
+.
 frame
 )
 ;
@@ -728,6 +732,8 @@ pack
 ]
 keyModifiers
 this
+.
+container
 .
 frame
 )
@@ -763,7 +769,7 @@ pack
 ]
 this
 .
-frame
+container
 )
 ;
 let
@@ -970,7 +976,7 @@ pack
 ]
 this
 .
-frame
+container
 )
 ;
 c
@@ -1088,7 +1094,7 @@ pack
 ]
 this
 .
-frame
+container
 )
 ;
 c
@@ -1583,6 +1589,8 @@ let
 doc
 =
 this
+.
+container
 .
 frame
 .
@@ -2121,6 +2129,8 @@ let
 event
 =
 this
+.
+container
 .
 frame
 .
