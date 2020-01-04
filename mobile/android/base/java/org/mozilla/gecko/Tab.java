@@ -2563,6 +2563,14 @@ BOOKMARK_REMOVED
 }
 )
 ;
+ReadingListHelper
+.
+removeCachedReaderItem
+(
+pageUrl
+mAppContext
+)
+;
 }
 public
 void
