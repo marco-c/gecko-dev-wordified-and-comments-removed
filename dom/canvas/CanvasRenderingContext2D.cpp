@@ -5641,7 +5641,7 @@ CurrentState
 .
 clipsPushed
 .
-size
+Length
 (
 )
 ;
@@ -7895,7 +7895,7 @@ CurrentState
 .
 clipsPushed
 .
-size
+Length
 (
 )
 ;
@@ -13301,7 +13301,7 @@ CurrentState
 .
 clipsPushed
 .
-push_back
+AppendElement
 (
 mPath
 )
@@ -13367,7 +13367,7 @@ CurrentState
 .
 clipsPushed
 .
-push_back
+AppendElement
 (
 gfxpath
 )
