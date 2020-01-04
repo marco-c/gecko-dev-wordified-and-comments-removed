@@ -770,7 +770,14 @@ path
 =
 uri
 .
-path
+QueryInterface
+(
+Ci
+.
+nsIURL
+)
+.
+filePath
 ;
 if
 (
