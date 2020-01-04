@@ -1890,7 +1890,7 @@ mCollapsedResizer
 1
 ;
 bool
-mShouldBuildScrollableLayer
+mWillBuildScrollableLayer
 :
 1
 ;
