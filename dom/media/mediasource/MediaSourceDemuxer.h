@@ -581,6 +581,13 @@ mNextSample
 bool
 mReset
 ;
+const
+media
+:
+:
+TimeUnit
+mPreRoll
+;
 }
 ;
 }
