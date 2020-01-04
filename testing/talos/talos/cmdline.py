@@ -977,14 +977,7 @@ webserver
 help
 =
 "
-address
-of
-the
-webserver
-hosting
-the
-talos
-files
+DEPRECATED
 "
 )
     
@@ -1024,20 +1017,12 @@ machine
 "
                      
 "
-Creates
-a
-local
-webserver
-and
-doesn
+Doesn
 '
 t
 upload
 to
 the
-"
-                     
-"
 graph
 servers
 .

@@ -559,7 +559,7 @@ defined
 in
 dromaeo
 :
-page_load_test
+tests
 /
 dromaeo
 /

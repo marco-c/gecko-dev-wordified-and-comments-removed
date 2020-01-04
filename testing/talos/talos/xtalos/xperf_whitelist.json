@@ -171,7 +171,7 @@ talos
 }
 \
 \
-page_load_test
+tests
 \
 \
 tp5n
@@ -213,7 +213,7 @@ talos
 talos
 \
 \
-page_load_test
+tests
 \
 \
 tp5n
@@ -252,7 +252,7 @@ talos
 }
 \
 \
-page_load_test
+tests
 \
 \
 tp5n
@@ -296,7 +296,7 @@ talos
 talos
 \
 \
-page_load_test
+tests
 \
 \
 tp5n
