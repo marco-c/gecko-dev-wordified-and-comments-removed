@@ -19357,10 +19357,6 @@ ucmessage
 (
 nullptr
 )
-messageArgs
-(
-nullptr
-)
 exnType
 (
 0
@@ -19391,12 +19387,6 @@ const
 char16_t
 *
 ucmessage
-;
-const
-char16_t
-*
-*
-messageArgs
 ;
 int16_t
 exnType

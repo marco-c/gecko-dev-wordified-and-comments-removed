@@ -2161,6 +2161,11 @@ char
 *
 *
 message
+const
+char16_t
+*
+*
+messageArgs
 ErrorArgumentsType
 argumentsType
 JSErrorReport
