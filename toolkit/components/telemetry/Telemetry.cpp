@@ -4373,6 +4373,10 @@ kRecordingInitiallyDisabledIDs
 Telemetry
 :
 :
+FX_REFRESH_DRIVER_SYNC_SCROLL_FRAME_DELAY_MS
+Telemetry
+:
+:
 TELEMETRY_TEST_COUNT_INIT_NO_RECORD
 Telemetry
 :
