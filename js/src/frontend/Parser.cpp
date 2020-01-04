@@ -14882,8 +14882,6 @@ return
 false
 ;
 }
-else
-{
 if
 (
 tokenStream
@@ -14917,7 +14915,6 @@ strictScript
 =
 true
 ;
-}
 }
 }
 else
