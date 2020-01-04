@@ -497,7 +497,7 @@ isUserRestricted
 (
 GeckoAppShell
 .
-getContext
+getApplicationContext
 (
 )
 )
@@ -612,7 +612,7 @@ context
 =
 GeckoAppShell
 .
-getContext
+getApplicationContext
 (
 )
 ;
