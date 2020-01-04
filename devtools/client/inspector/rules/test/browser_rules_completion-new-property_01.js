@@ -3,11 +3,6 @@ use
 strict
 "
 ;
-const
-MAX_ENTRIES
-=
-10
-;
 var
 testData
 =
@@ -166,10 +161,12 @@ VK_BACK_SPACE
 f
 "
 "
-filter
+font
+-
+size
 "
-3
-MAX_ENTRIES
+19
+32
 ]
 [
 "
