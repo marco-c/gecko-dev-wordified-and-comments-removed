@@ -448,6 +448,11 @@ kKeyIsADTS
 '
 adts
 '
+kKeyAACAOT
+=
+'
+aaot
+'
 kKeyEncryptedSizes
 =
 '
