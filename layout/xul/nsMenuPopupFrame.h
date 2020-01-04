@@ -77,7 +77,6 @@ nsPopupState
 {
 ePopupClosed
 ePopupShowing
-ePopupPositioning
 ePopupOpening
 ePopupVisible
 ePopupShown
@@ -649,8 +648,6 @@ bool
 aIsMove
 bool
 aSizedToPopup
-bool
-aNotify
 )
 ;
 bool
@@ -1183,20 +1180,6 @@ return
 false
 ;
 }
-void
-ShowWithPositionedEvent
-(
-)
-{
-mPopupState
-=
-ePopupPositioning
-;
-mShouldAutoPosition
-=
-true
-;
-}
 virtual
 bool
 ReflowFinished
@@ -1387,9 +1370,6 @@ RefPtr
 nsXULPopupShownEvent
 >
 mPopupShownDispatcher
-;
-nsIntRect
-mUsedScreenRect
 ;
 nsSize
 mPrefSize
