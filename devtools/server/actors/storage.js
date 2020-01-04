@@ -2287,7 +2287,13 @@ startsWith
 )
 {
 return
+(
+"
+.
+"
++
 host
+)
 .
 endsWith
 (
@@ -3955,7 +3961,13 @@ startsWith
 )
 {
 return
+(
+"
+.
+"
++
 matchHost
+)
 .
 endsWith
 (
