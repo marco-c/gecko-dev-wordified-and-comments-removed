@@ -387,6 +387,9 @@ global
 contentAreaUtils
 .
 js
+#
+ifndef
+MOZ_FENNEC
 content
 /
 global
@@ -408,6 +411,8 @@ global
 customizeToolbar
 .
 xul
+#
+endif
 content
 /
 global
@@ -415,6 +420,9 @@ global
 devicestorage
 .
 properties
+#
+ifndef
+MOZ_FENNEC
 content
 /
 global
@@ -454,6 +462,8 @@ global
 findUtils
 .
 js
+#
+endif
 content
 /
 global

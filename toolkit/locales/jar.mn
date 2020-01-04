@@ -590,6 +590,9 @@ contentAreaCommands
 .
 properties
 )
+#
+ifndef
+MOZ_FENNEC
 locale
 /
 AB_CD
@@ -628,6 +631,8 @@ customizeToolbar
 .
 properties
 )
+#
+endif
 locale
 /
 AB_CD
@@ -685,6 +690,9 @@ dialogOverlay
 .
 dtd
 )
+#
+ifndef
+MOZ_FENNEC
 locale
 /
 AB_CD
@@ -704,6 +712,8 @@ editMenuOverlay
 .
 dtd
 )
+#
+endif
 locale
 /
 AB_CD
@@ -780,6 +790,9 @@ filepicker
 .
 properties
 )
+#
+ifndef
+MOZ_FENNEC
 locale
 /
 AB_CD
@@ -856,6 +869,8 @@ finddialog
 .
 properties
 )
+#
+endif
 locale
 /
 AB_CD
