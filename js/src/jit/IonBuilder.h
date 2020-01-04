@@ -6182,6 +6182,14 @@ abortMessage
 actionableAbortMessage_
 ;
 }
+void
+trace
+(
+JSTracer
+*
+trc
+)
+;
 private
 :
 MOZ_MUST_USE

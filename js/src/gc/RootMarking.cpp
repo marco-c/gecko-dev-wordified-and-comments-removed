@@ -2256,6 +2256,15 @@ trace
 trc
 )
 ;
+HelperThreadState
+(
+)
+.
+trace
+(
+trc
+)
+;
 if
 (
 !
