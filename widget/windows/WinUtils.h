@@ -1136,6 +1136,12 @@ GetMouseInputSource
 )
 ;
 static
+uint16_t
+GetMousePointerID
+(
+)
+;
+static
 bool
 GetIsMouseFromTouch
 (
