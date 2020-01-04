@@ -985,15 +985,6 @@ id
 =
 2
 ;
-state
-.
-connection
-.
-_addStream
-(
-stream
-)
-;
 return
 stream
 ;
