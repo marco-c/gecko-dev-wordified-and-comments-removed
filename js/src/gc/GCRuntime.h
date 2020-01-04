@@ -3950,8 +3950,8 @@ Zone
 *
 sweepZone
 ;
-unsigned
-sweepKindIndex
+AllocKind
+sweepKind
 ;
 bool
 abortSweepAfterCurrentGroup
