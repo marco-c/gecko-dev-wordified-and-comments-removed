@@ -87,13 +87,6 @@ is
 (
 url
 base
-+
-"
-&
-form
-=
-MOZSBR
-"
 "
 Check
 search
@@ -429,10 +422,6 @@ q
 pc
 =
 MOZI
-&
-form
-=
-MOZSBR
 "
 hidden
 :
