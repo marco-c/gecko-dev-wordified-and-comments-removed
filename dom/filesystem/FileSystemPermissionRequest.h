@@ -49,7 +49,7 @@ namespace
 dom
 {
 class
-FileSystemTaskBase
+FileSystemTaskChildBase
 ;
 class
 FileSystemPermissionRequest
@@ -68,7 +68,7 @@ static
 void
 RequestForTask
 (
-FileSystemTaskBase
+FileSystemTaskChildBase
 *
 aTask
 )
@@ -82,7 +82,7 @@ private
 explicit
 FileSystemPermissionRequest
 (
-FileSystemTaskBase
+FileSystemTaskChildBase
 *
 aTask
 )
@@ -105,7 +105,7 @@ mPermissionAccess
 ;
 RefPtr
 <
-FileSystemTaskBase
+FileSystemTaskChildBase
 >
 mTask
 ;

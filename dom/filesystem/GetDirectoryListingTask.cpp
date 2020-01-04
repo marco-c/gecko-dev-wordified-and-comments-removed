@@ -130,9 +130,9 @@ dom
 {
 already_AddRefed
 <
-GetDirectoryListingTask
+GetDirectoryListingTaskChild
 >
-GetDirectoryListingTask
+GetDirectoryListingTaskChild
 :
 :
 Create
@@ -179,12 +179,12 @@ aFileSystem
 ;
 RefPtr
 <
-GetDirectoryListingTask
+GetDirectoryListingTaskChild
 >
 task
 =
 new
-GetDirectoryListingTask
+GetDirectoryListingTaskChild
 (
 aFileSystem
 aTargetPath
@@ -266,10 +266,10 @@ forget
 )
 ;
 }
-GetDirectoryListingTask
+GetDirectoryListingTaskChild
 :
 :
-GetDirectoryListingTask
+GetDirectoryListingTaskChild
 (
 FileSystemBase
 *
@@ -288,7 +288,7 @@ nsAString
 aFilters
 )
 :
-FileSystemTaskBase
+FileSystemTaskChildBase
 (
 aFileSystem
 )
@@ -326,11 +326,11 @@ aFileSystem
 )
 ;
 }
-GetDirectoryListingTask
+GetDirectoryListingTaskChild
 :
 :
 ~
-GetDirectoryListingTask
+GetDirectoryListingTaskChild
 (
 )
 {
@@ -346,7 +346,7 @@ already_AddRefed
 <
 Promise
 >
-GetDirectoryListingTask
+GetDirectoryListingTaskChild
 :
 :
 GetPromise
@@ -383,7 +383,7 @@ forget
 ;
 }
 FileSystemParams
-GetDirectoryListingTask
+GetDirectoryListingTaskChild
 :
 :
 GetRequestParams
@@ -461,7 +461,7 @@ mFilters
 ;
 }
 void
-GetDirectoryListingTask
+GetDirectoryListingTaskChild
 :
 :
 SetSuccessRequestResult
@@ -665,7 +665,7 @@ return
 }
 }
 void
-GetDirectoryListingTask
+GetDirectoryListingTaskChild
 :
 :
 HandlerCallback
@@ -1053,7 +1053,7 @@ nullptr
 ;
 }
 void
-GetDirectoryListingTask
+GetDirectoryListingTaskChild
 :
 :
 GetPermissionAccessType

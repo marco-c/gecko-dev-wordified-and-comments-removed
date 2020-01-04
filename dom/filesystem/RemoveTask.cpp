@@ -108,9 +108,9 @@ dom
 {
 already_AddRefed
 <
-RemoveTask
+RemoveTaskChild
 >
-RemoveTask
+RemoveTaskChild
 :
 :
 Create
@@ -163,12 +163,12 @@ aTargetPath
 ;
 RefPtr
 <
-RemoveTask
+RemoveTaskChild
 >
 task
 =
 new
-RemoveTask
+RemoveTaskChild
 (
 aFileSystem
 aDirPath
@@ -250,10 +250,10 @@ forget
 )
 ;
 }
-RemoveTask
+RemoveTaskChild
 :
 :
-RemoveTask
+RemoveTaskChild
 (
 FileSystemBase
 *
@@ -268,7 +268,7 @@ bool
 aRecursive
 )
 :
-FileSystemTaskBase
+FileSystemTaskChildBase
 (
 aFileSystem
 )
@@ -320,11 +320,11 @@ aTargetPath
 )
 ;
 }
-RemoveTask
+RemoveTaskChild
 :
 :
 ~
-RemoveTask
+RemoveTaskChild
 (
 )
 {
@@ -340,7 +340,7 @@ already_AddRefed
 <
 Promise
 >
-RemoveTask
+RemoveTaskChild
 :
 :
 GetPromise
@@ -377,7 +377,7 @@ forget
 ;
 }
 FileSystemParams
-RemoveTask
+RemoveTaskChild
 :
 :
 GetRequestParams
@@ -498,7 +498,7 @@ param
 ;
 }
 void
-RemoveTask
+RemoveTaskChild
 :
 :
 SetSuccessRequestResult
@@ -542,7 +542,7 @@ success
 ;
 }
 void
-RemoveTask
+RemoveTaskChild
 :
 :
 HandlerCallback
@@ -617,7 +617,7 @@ nullptr
 ;
 }
 void
-RemoveTask
+RemoveTaskChild
 :
 :
 GetPermissionAccessType

@@ -61,7 +61,7 @@ class
 PBlobParent
 ;
 class
-FileSystemTaskBase
+FileSystemTaskChildBase
 :
 public
 PFileSystemRequestChild
@@ -70,7 +70,7 @@ public
 :
 NS_INLINE_DECL_REFCOUNTING
 (
-FileSystemTaskBase
+FileSystemTaskChildBase
 )
 void
 Start
@@ -129,7 +129,7 @@ mErrorValue
 protected
 :
 explicit
-FileSystemTaskBase
+FileSystemTaskChildBase
 (
 FileSystemBase
 *
@@ -138,7 +138,7 @@ aFileSystem
 ;
 virtual
 ~
-FileSystemTaskBase
+FileSystemTaskChildBase
 (
 )
 ;
