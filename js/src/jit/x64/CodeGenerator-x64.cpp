@@ -3715,6 +3715,7 @@ MOZ_ASSERT
 (
 numElems
 =
+=
 16
 "
 unexpected
@@ -3742,6 +3743,7 @@ Int16x8
 MOZ_ASSERT
 (
 numElems
+=
 =
 8
 "
