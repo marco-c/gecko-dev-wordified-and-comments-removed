@@ -183,11 +183,6 @@ NSSDialogService
 js
 '
 '
-PersistentNotificationHandler
-.
-js
-'
-'
 PresentationDevicePrompt
 .
 js

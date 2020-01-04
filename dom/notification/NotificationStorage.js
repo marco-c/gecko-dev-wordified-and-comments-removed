@@ -645,9 +645,6 @@ notification
 ;
 if
 (
-serviceWorkerRegistrationScope
-|
-|
 this
 .
 canPut

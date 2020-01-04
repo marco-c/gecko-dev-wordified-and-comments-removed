@@ -3291,13 +3291,6 @@ BINPATH
 /
 components
 /
-PersistentNotificationHandler
-.
-js
-BINPATH
-/
-components
-/
 PresentationDevicePrompt
 .
 js
