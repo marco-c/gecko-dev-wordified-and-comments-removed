@@ -463,12 +463,12 @@ abuffer
 )
 ;
 bool
-AskMediaCodecAndWait
+AllocateAudioMediaCodec
 (
 )
 ;
 bool
-AsyncAskMediaCodec
+AsyncAllocateVideoMediaCodec
 (
 )
 ;

@@ -798,7 +798,7 @@ mVideoListener
 mDecoder
 -
 >
-AsyncAskMediaCodec
+AsyncAllocateVideoMediaCodec
 (
 )
 ;

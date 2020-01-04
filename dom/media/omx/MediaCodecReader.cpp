@@ -6494,7 +6494,6 @@ CreateMediaCodec
 (
 mLooper
 mAudioTrack
-false
 isWaiting
 nullptr
 )
@@ -6519,7 +6518,6 @@ CreateMediaCodec
 (
 mLooper
 mVideoTrack
-true
 isWaiting
 mVideoListener
 )
@@ -6571,8 +6569,6 @@ aLooper
 Track
 &
 aTrack
-bool
-aAsync
 bool
 &
 aIsWaiting
@@ -6831,8 +6827,15 @@ endif
 }
 if
 (
-!
-aAsync
+aTrack
+.
+mType
+=
+=
+Track
+:
+:
+kAudio
 &
 &
 aTrack
@@ -6840,7 +6843,7 @@ aTrack
 mCodec
 -
 >
-AskMediaCodecAndWait
+AllocateAudioMediaCodec
 (
 )
 )
@@ -6892,7 +6895,15 @@ false
 else
 if
 (
-aAsync
+aTrack
+.
+mType
+=
+=
+Track
+:
+:
+kVideo
 )
 {
 if
@@ -6902,7 +6913,7 @@ aTrack
 mCodec
 -
 >
-AsyncAskMediaCodec
+AsyncAllocateVideoMediaCodec
 (
 )
 )
