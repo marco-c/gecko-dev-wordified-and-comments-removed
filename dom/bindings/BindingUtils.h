@@ -10486,6 +10486,7 @@ T
 class
 MOZ_RAII
 MozMapRooter
+final
 :
 private
 JS
