@@ -38,6 +38,8 @@ mock
 store
 "
 )
+.
+default
 ;
 const
 {
