@@ -271,8 +271,11 @@ consoleMsg
 initWithWindowID
 (
 message
-"
-"
+domDoc
+.
+location
+.
+href
 0
 0
 0
