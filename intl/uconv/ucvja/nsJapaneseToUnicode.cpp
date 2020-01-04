@@ -1650,6 +1650,8 @@ error1
 break
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 5
