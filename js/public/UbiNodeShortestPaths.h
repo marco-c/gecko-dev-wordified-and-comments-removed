@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Maybe
 .
 h
@@ -100,6 +109,7 @@ nullptr
 )
 {
 }
+MOZ_MUST_USE
 bool
 init
 (
@@ -1205,6 +1215,7 @@ template
 class
 Func
 >
+MOZ_MUST_USE
 bool
 forEachPath
 (
