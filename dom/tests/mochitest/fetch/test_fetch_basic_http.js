@@ -203,9 +203,6 @@ file_XHR_pass3
 .
 txt
 "
-|
-|
-isSWPresent
 )
 ok
 (
@@ -605,9 +602,6 @@ file_XHR_pass3
 .
 txt
 "
-|
-|
-isSWPresent
 )
 ok
 (
