@@ -1312,11 +1312,6 @@ ParseNode
 body
 )
 ;
-bool
-checkIsModule
-(
-)
-;
 void
 checkTypeSet
 (
