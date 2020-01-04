@@ -2258,6 +2258,9 @@ mFetchCacheMode
 bool
 mOnStartRequestCalled
 ;
+bool
+mOnStopRequestCalled
+;
 uint64_t
 mTransferSize
 ;
