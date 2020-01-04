@@ -99,6 +99,14 @@ assembler
 flags
 and
 includes
+if
+CONFIG
+[
+'
+LIBAV_FFT_ASFLAGS
+'
+]
+:
 ASFLAGS
 +
 =
@@ -125,6 +133,9 @@ libav
 %
 TOPSRCDIR
 ]
+USE_YASM
+=
+True
 if
 CONFIG
 [

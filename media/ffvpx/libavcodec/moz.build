@@ -117,7 +117,7 @@ if
 CONFIG
 [
 '
-FFVPX_AS
+FFVPX_ASFLAGS
 '
 ]
 :

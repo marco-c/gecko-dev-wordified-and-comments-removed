@@ -162,6 +162,17 @@ if
 CONFIG
 [
 '
+VPX_USE_YASM
+'
+]
+:
+USE_YASM
+=
+True
+if
+CONFIG
+[
+'
 VPX_X86_ASM
 '
 ]

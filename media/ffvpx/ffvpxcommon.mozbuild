@@ -129,10 +129,13 @@ if
 CONFIG
 [
 '
-FFVPX_AS
+FFVPX_ASFLAGS
 '
 ]
 :
+USE_YASM
+=
+True
 if
 CONFIG
 [
