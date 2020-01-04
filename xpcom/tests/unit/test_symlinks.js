@@ -612,6 +612,8 @@ longest
 a
 b
 )
+{
+return
 a
 .
 length
@@ -624,6 +626,7 @@ a
 :
 b
 ;
+}
 return
 dirs
 .
