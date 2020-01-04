@@ -410,7 +410,7 @@ cx
 targetWindow
 -
 >
-GetWrapperPreserveColor
+GetWrapper
 (
 )
 )
