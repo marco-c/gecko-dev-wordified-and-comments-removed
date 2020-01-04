@@ -73,6 +73,17 @@ views
 {
 if
 (
+!
+view
+.
+active
+)
+{
+continue
+;
+}
+if
+(
 fetchProperties
 !
 =
