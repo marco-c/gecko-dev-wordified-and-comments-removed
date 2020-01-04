@@ -996,12 +996,7 @@ array
 '
 "
 +
-result
-.
-getString
-(
 JSON_KEY_ERRORS
-)
 +
 "
 '

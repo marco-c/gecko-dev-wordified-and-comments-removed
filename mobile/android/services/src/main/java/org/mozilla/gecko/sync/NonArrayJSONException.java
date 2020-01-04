@@ -34,4 +34,17 @@ detailMessage
 )
 ;
 }
+public
+NonArrayJSONException
+(
+Throwable
+throwable
+)
+{
+super
+(
+throwable
+)
+;
+}
 }
