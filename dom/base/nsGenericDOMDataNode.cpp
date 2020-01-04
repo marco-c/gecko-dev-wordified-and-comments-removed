@@ -175,6 +175,13 @@ h
 #
 include
 "
+nsTextNode
+.
+h
+"
+#
+include
+"
 PLDHashTable
 .
 h
