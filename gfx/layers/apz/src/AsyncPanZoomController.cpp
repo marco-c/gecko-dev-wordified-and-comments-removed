@@ -6204,10 +6204,7 @@ ScreenIntPoint
 >
 layoutPoint
 =
-UntransformTo
-<
-ScreenPixel
->
+UntransformBy
 (
 transformScreenToGecko
 aPoint
@@ -8742,9 +8739,6 @@ const
 {
 return
 TransformVector
-<
-ScreenPixel
->
 (
 GetTransformToThis
 (
@@ -8777,9 +8771,6 @@ const
 {
 return
 TransformVector
-<
-ParentLayerPixel
->
 (
 GetTransformToThis
 (
@@ -8815,10 +8806,7 @@ ParentLayerIntPoint
 >
 point
 =
-UntransformTo
-<
-ParentLayerPixel
->
+UntransformBy
 (
 transformToThis
 aPoint

@@ -871,7 +871,7 @@ PointTyped
 <
 TargetUnits
 >
-TransformTo
+TransformBy
 (
 const
 gfx
@@ -917,7 +917,7 @@ IntPointTyped
 <
 TargetUnits
 >
-TransformTo
+TransformBy
 (
 const
 gfx
@@ -945,10 +945,7 @@ aPoint
 return
 RoundedToInt
 (
-TransformTo
-<
-TargetUnits
->
+TransformBy
 (
 aTransform
 gfx
@@ -980,7 +977,7 @@ RectTyped
 <
 TargetUnits
 >
-TransformTo
+TransformBy
 (
 const
 gfx
@@ -1029,7 +1026,7 @@ IntRectTyped
 <
 TargetUnits
 >
-TransformTo
+TransformBy
 (
 const
 gfx
@@ -1057,10 +1054,7 @@ aRect
 return
 RoundedToInt
 (
-TransformTo
-<
-TargetUnits
->
+TransformBy
 (
 aTransform
 gfx
@@ -1092,7 +1086,7 @@ IntRegionTyped
 <
 TargetUnits
 >
-TransformTo
+TransformBy
 (
 const
 gfx
@@ -1199,10 +1193,7 @@ TargetUnits
 >
 transformedStart
 =
-TransformTo
-<
-TargetUnits
->
+TransformBy
 (
 aTransform
 aAnchor
@@ -1217,10 +1208,7 @@ TargetUnits
 >
 transformedEnd
 =
-TransformTo
-<
-TargetUnits
->
+TransformBy
 (
 aTransform
 aAnchor
@@ -1252,7 +1240,7 @@ PointTyped
 TargetUnits
 >
 >
-UntransformTo
+UntransformBy
 (
 const
 gfx
@@ -1338,7 +1326,7 @@ IntPointTyped
 TargetUnits
 >
 >
-UntransformTo
+UntransformBy
 (
 const
 gfx
@@ -1438,7 +1426,7 @@ RectTyped
 TargetUnits
 >
 >
-UntransformTo
+UntransformBy
 (
 const
 gfx
@@ -1530,7 +1518,7 @@ IntRectTyped
 TargetUnits
 >
 >
-UntransformTo
+UntransformBy
 (
 const
 gfx

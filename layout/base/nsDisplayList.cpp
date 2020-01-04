@@ -6813,10 +6813,7 @@ AppUnitsPerDevPixel
 LayoutDeviceRect
 transformedDevPixelBorderBox
 =
-TransformTo
-<
-LayoutDevicePixel
->
+TransformBy
 (
 referenceFrameToRootReferenceFrame
 devPixelBorderBox

@@ -1408,10 +1408,7 @@ visible
 ParentLayerIntRegion
 visibleParentSpace
 =
-TransformTo
-<
-ParentLayerPixel
->
+TransformBy
 (
 ViewAs
 <
