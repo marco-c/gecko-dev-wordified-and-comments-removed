@@ -1949,16 +1949,6 @@ ConsoleCommand
 messageText
 :
 executeString
-category
-:
-"
-input
-"
-severity
-:
-"
-log
-"
 }
 )
 ;

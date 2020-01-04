@@ -129,6 +129,7 @@ props
 const
 {
 source
+type
 level
 }
 =
@@ -160,11 +161,6 @@ mozilla
 "
 ]
 ;
-if
-(
-source
-)
-{
 classes
 .
 push
@@ -172,12 +168,13 @@ push
 source
 )
 ;
-}
-if
+classes
+.
+push
 (
-level
+type
 )
-{
+;
 classes
 .
 push
@@ -185,7 +182,6 @@ push
 level
 )
 ;
-}
 return
 dom
 .
