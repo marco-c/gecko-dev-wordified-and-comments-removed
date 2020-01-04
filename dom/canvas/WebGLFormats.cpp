@@ -6533,9 +6533,6 @@ true
 false
 )
 ;
-#
-if
-ALLOW_ES3_FORMATS
 fnAllowES3TexFormat
 (
 FOO
@@ -6636,8 +6633,6 @@ false
 true
 )
 ;
-#
-endif
 #
 undef
 FOO
