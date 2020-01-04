@@ -372,7 +372,7 @@ assertEq
 aMethDesc
 .
 enumerable
-true
+false
 )
 ;
 aMethDesc
@@ -417,7 +417,7 @@ assertEq
 aGetDesc
 .
 enumerable
-true
+false
 )
 ;
 aGetDesc
@@ -475,7 +475,7 @@ assertEq
 aSetDesc
 .
 enumerable
-true
+false
 )
 ;
 aSetDesc
@@ -568,7 +568,7 @@ assertEq
 aStaticMethDesc
 .
 enumerable
-true
+false
 )
 ;
 assertEq
@@ -651,7 +651,7 @@ assertEq
 aStaticGetDesc
 .
 enumerable
-true
+false
 )
 ;
 aStaticGetDesc
@@ -726,7 +726,7 @@ assertEq
 aStaticSetDesc
 .
 enumerable
-true
+false
 )
 ;
 aStaticSetDesc
