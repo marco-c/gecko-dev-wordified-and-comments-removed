@@ -2639,7 +2639,7 @@ mObservesMutationsForPrint
 ;
 }
 virtual
-nsresult
+void
 SetIsActive
 (
 bool
