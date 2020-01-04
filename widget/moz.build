@@ -808,6 +808,11 @@ nsContentProcessWidgetFactory
 cpp
 '
 '
+nsDeviceContextSpecProxy
+.
+cpp
+'
+'
 nsDragServiceProxy
 .
 cpp

@@ -96,8 +96,9 @@ const
 nsAString
 &
 aTitle
-char16_t
-*
+const
+nsAString
+&
 aPrintToFileName
 int32_t
 aStartPage

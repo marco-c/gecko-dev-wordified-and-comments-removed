@@ -7425,11 +7425,8 @@ OnStartPrinting
 )
 ;
 }
-char16_t
-*
-fileName
-=
-nullptr
+nsAutoString
+fileNameStr
 ;
 bool
 isPrintToFile
@@ -7453,6 +7450,12 @@ if
 isPrintToFile
 )
 {
+char16_t
+*
+fileName
+=
+nullptr
+;
 mPrt
 -
 >
@@ -7464,6 +7467,10 @@ GetToFileName
 &
 fileName
 )
+;
+fileNameStr
+=
+fileName
 ;
 }
 nsAutoString
@@ -7597,7 +7604,7 @@ mPrintDC
 BeginDocument
 (
 docTitleStr
-fileName
+fileNameStr
 startPage
 endPage
 )
