@@ -4108,7 +4108,7 @@ nsBorderColors
 *
 mBorderColors
 ;
-RefPtr
+nsRefPtr
 <
 nsCSSShadowArray
 >
@@ -4775,7 +4775,7 @@ private
 nsString
 mListStyleType
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -4784,7 +4784,7 @@ CounterStyle
 >
 mCounterStyle
 ;
-RefPtr
+nsRefPtr
 <
 imgRequestProxy
 >
@@ -5337,7 +5337,7 @@ mGridTemplateColumns
 nsStyleGridTemplate
 mGridTemplateRows
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -6511,7 +6511,7 @@ mLineHeight
 nsStyleCoord
 mTextIndent
 ;
-RefPtr
+nsRefPtr
 <
 nsCSSShadowArray
 >
@@ -8606,7 +8606,7 @@ nsStyleBackground
 Position
 Position
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -8682,6 +8682,9 @@ uint8_t
 mIsolation
 ;
 uint8_t
+mTopLayer
+;
+uint8_t
 mWillChangeBitField
 ;
 nsAutoTArray
@@ -8727,7 +8730,7 @@ mTransformStyle
 uint8_t
 mTransformBox
 ;
-RefPtr
+nsRefPtr
 <
 nsCSSValueSharedList
 >
