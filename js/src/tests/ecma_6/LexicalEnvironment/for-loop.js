@@ -257,7 +257,7 @@ z
 )
 ;
 "
-TypeError
+SyntaxError
 )
 ;
 var
