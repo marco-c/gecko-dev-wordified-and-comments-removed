@@ -89,7 +89,7 @@ element
 addEventListener
 (
 "
-mouseover
+mousemove
 "
 this
 false
@@ -325,7 +325,7 @@ type
 {
 case
 "
-mouseover
+mousemove
 "
 :
 clearTimeout
@@ -674,7 +674,11 @@ case
 mouseout
 "
 :
-{
+case
+"
+popupshown
+"
+:
 if
 (
 aEvent
@@ -690,12 +694,6 @@ currentTarget
 break
 ;
 }
-}
-case
-"
-popupshown
-"
-:
 if
 (
 this
@@ -731,6 +729,7 @@ setTimeout
 )
 =
 >
+{
 this
 .
 panel
@@ -738,8 +737,9 @@ panel
 hidePopup
 (
 )
+;
+}
 delay
-this
 )
 ;
 }
