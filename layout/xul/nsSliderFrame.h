@@ -788,6 +788,9 @@ mUserChanged
 bool
 mScrollingWithAPZ
 ;
+bool
+mSuppressionActive
+;
 static
 bool
 gMiddlePref
