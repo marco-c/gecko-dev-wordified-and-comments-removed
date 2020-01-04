@@ -51,6 +51,10 @@ gdk_beep
 )
 STUB
 (
+gdk_cairo_create
+)
+STUB
+(
 gdk_color_free
 )
 STUB

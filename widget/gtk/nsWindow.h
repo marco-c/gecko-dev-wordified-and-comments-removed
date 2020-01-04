@@ -2077,6 +2077,10 @@ mBackShmImage
 ;
 #
 endif
+cairo_surface_t
+*
+mFallbackSurface
+;
 #
 ifdef
 ACCESSIBILITY
