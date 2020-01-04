@@ -394,9 +394,11 @@ defer
 let
 contextMenuId
 =
-outputNode
+HUD
 .
-parentNode
+ui
+.
+outputWrapper
 .
 getAttribute
 (

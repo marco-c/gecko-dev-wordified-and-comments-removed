@@ -291,9 +291,11 @@ removeAllRanges
 let
 contextMenuId
 =
-outputNode
+hud
 .
-parentNode
+ui
+.
+outputWrapper
 .
 getAttribute
 (
