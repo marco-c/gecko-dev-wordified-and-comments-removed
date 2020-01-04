@@ -64,8 +64,6 @@ Move
 enum
 class
 ValType
-:
-uint8_t
 {
 I32
 I64
