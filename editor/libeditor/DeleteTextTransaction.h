@@ -56,12 +56,12 @@ h
 class
 nsEditor
 ;
-class
-nsRangeUpdater
-;
 namespace
 mozilla
 {
+class
+RangeUpdater
+;
 class
 DeleteTextTransaction
 final
@@ -83,7 +83,7 @@ uint32_t
 aOffset
 uint32_t
 aNumCharsToDelete
-nsRangeUpdater
+RangeUpdater
 *
 aRangeUpdater
 )
@@ -150,7 +150,7 @@ mNumCharsToDelete
 nsString
 mDeletedText
 ;
-nsRangeUpdater
+RangeUpdater
 *
 mRangeUpdater
 ;

@@ -161,7 +161,7 @@ aEditor
 nsRange
 *
 aRange
-nsRangeUpdater
+RangeUpdater
 *
 aRangeUpdater
 )

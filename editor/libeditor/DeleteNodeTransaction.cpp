@@ -107,7 +107,7 @@ aEditor
 nsINode
 *
 aNode
-nsRangeUpdater
+RangeUpdater
 *
 aRangeUpdater
 )

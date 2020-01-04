@@ -59,12 +59,12 @@ nsEditor
 class
 nsINode
 ;
-class
-nsRangeUpdater
-;
 namespace
 mozilla
 {
+class
+RangeUpdater
+;
 class
 DeleteRangeTransaction
 final
@@ -83,7 +83,7 @@ aEditor
 nsRange
 *
 aRange
-nsRangeUpdater
+RangeUpdater
 *
 aRangeUpdater
 )
@@ -179,7 +179,7 @@ nsEditor
 *
 mEditor
 ;
-nsRangeUpdater
+RangeUpdater
 *
 mRangeUpdater
 ;

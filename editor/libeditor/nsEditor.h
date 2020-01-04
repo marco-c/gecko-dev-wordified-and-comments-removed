@@ -2701,7 +2701,10 @@ mozilla
 SelectionState
 mSavedSel
 ;
-nsRangeUpdater
+mozilla
+:
+:
+RangeUpdater
 mRangeUpdater
 ;
 uint32_t
@@ -2784,7 +2787,10 @@ AutoTransactionsConserveSelection
 ;
 friend
 class
-nsRangeUpdater
+mozilla
+:
+:
+RangeUpdater
 ;
 }
 ;
