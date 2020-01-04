@@ -64,6 +64,15 @@ include
 "
 mozilla
 /
+Maybe
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WeakPtr
 .
 h
@@ -827,7 +836,10 @@ nsTextInputListener
 >
 mTextListener
 ;
-nsAutoPtr
+mozilla
+:
+:
+Maybe
 <
 nsCString
 >

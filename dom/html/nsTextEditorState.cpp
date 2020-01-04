@@ -8297,9 +8297,10 @@ mValue
 )
 {
 mValue
-=
-new
-nsCString
+.
+emplace
+(
+)
 ;
 }
 nsString
