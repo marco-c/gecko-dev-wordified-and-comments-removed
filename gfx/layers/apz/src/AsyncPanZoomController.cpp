@@ -12197,10 +12197,7 @@ aVelocity
 c_str
 (
 )
-(
-float
-)
-estimatedPaintDurationMillis
+paintFactor
 )
 ;
 CSSMargin
