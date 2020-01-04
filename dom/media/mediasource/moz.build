@@ -93,6 +93,16 @@ MediaSourceDemuxer
 h
 '
 '
+SourceBufferAttributes
+.
+h
+'
+'
+SourceBufferTask
+.
+h
+'
+'
 TrackBuffersManager
 .
 h
