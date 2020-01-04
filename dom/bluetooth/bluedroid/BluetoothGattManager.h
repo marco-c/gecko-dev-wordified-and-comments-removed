@@ -654,6 +654,11 @@ BluetoothGattManager
 (
 )
 ;
+bool
+Init
+(
+)
+;
 void
 HandleShutdown
 (
