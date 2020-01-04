@@ -705,6 +705,12 @@ dist
 rm
 -
 f
+mkdir
+-
+p
+(
+D
+)
 cp
 <
 #
