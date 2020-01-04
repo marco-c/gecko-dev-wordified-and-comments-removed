@@ -329,9 +329,11 @@ type
 {
 SetContentType
 (
-nsCString
-(
 type
+-
+>
+ToCString
+(
 )
 )
 ;
