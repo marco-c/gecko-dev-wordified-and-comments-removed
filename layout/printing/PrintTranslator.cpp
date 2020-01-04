@@ -244,6 +244,9 @@ return
 false
 ;
 }
+if
+(
+!
 recordedEvent
 -
 >
@@ -251,7 +254,12 @@ PlayEvent
 (
 this
 )
+)
+{
+return
+false
 ;
+}
 ReadElement
 (
 aRecording

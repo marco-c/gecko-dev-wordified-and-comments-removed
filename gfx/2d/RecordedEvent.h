@@ -732,7 +732,7 @@ aType
 )
 ;
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -741,6 +741,9 @@ aTranslator
 )
 const
 {
+return
+true
+;
 }
 virtual
 void
@@ -1089,7 +1092,7 @@ aExistingData
 {
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -1218,7 +1221,7 @@ aRefPtr
 {
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -1345,7 +1348,7 @@ aFormat
 {
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -1484,7 +1487,7 @@ aPattern
 ;
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -1620,7 +1623,7 @@ aPattern
 ;
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -1767,7 +1770,7 @@ aPattern
 ;
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -1899,7 +1902,7 @@ aPattern
 ;
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -2061,7 +2064,7 @@ RecordedFillGlyphs
 )
 ;
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -2198,7 +2201,7 @@ aMask
 ;
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -2332,7 +2335,7 @@ aPattern
 ;
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -2445,7 +2448,7 @@ aRect
 {
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -2563,7 +2566,7 @@ aDest
 {
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -2671,7 +2674,7 @@ aPath
 {
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -2775,7 +2778,7 @@ aRect
 {
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -2872,7 +2875,7 @@ aDT
 {
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -3006,7 +3009,7 @@ aCopyBackground
 {
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -3118,7 +3121,7 @@ aDT
 {
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -3219,7 +3222,7 @@ aTransform
 {
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -3353,7 +3356,7 @@ aOptions
 {
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -3503,7 +3506,7 @@ aOp
 {
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -3644,7 +3647,7 @@ aOptions
 {
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -3748,7 +3751,7 @@ RecordedPathCreation
 )
 ;
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -3872,7 +3875,7 @@ aPath
 {
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -4018,7 +4021,7 @@ RecordedSourceSurfaceCreation
 )
 ;
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -4145,7 +4148,7 @@ aRefPtr
 {
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -4266,7 +4269,7 @@ RecordedFilterNodeCreation
 )
 ;
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -4380,7 +4383,7 @@ aRefPtr
 {
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -4518,7 +4521,7 @@ RecordedGradientStopsCreation
 )
 ;
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -4642,7 +4645,7 @@ aRefPtr
 {
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -4759,7 +4762,7 @@ aDT
 {
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -4933,7 +4936,7 @@ RecordedFontData
 )
 ;
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -5153,7 +5156,7 @@ mHasDesc
 ;
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -5314,7 +5317,7 @@ index
 {
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -5434,7 +5437,7 @@ aRefPtr
 {
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -5574,7 +5577,7 @@ aPattern
 ;
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -5808,7 +5811,7 @@ aSize
 ;
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator
@@ -5984,7 +5987,7 @@ aInputSurface
 {
 }
 virtual
-void
+bool
 PlayEvent
 (
 Translator

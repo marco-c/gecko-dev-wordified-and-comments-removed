@@ -499,6 +499,9 @@ char
 )
 )
 ;
+if
+(
+!
 mPrintTranslator
 -
 >
@@ -506,7 +509,12 @@ TranslateRecording
 (
 recording
 )
+)
+{
+return
+NS_ERROR_FAILURE
 ;
+}
 rv
 =
 mPrintDeviceContext

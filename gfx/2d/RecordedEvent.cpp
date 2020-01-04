@@ -2036,7 +2036,7 @@ return
 mDT
 ;
 }
-void
+bool
 RecordedDrawTargetCreation
 :
 :
@@ -2066,9 +2066,16 @@ mFormat
 ;
 if
 (
+!
 newDT
-&
-&
+)
+{
+return
+false
+;
+}
+if
+(
 mHasExistingData
 )
 {
@@ -2106,6 +2113,9 @@ dataRect
 )
 ;
 }
+return
+true
+;
 }
 void
 RecordedDrawTargetCreation
@@ -2458,7 +2468,7 @@ height
 "
 ;
 }
-void
+bool
 RecordedDrawTargetDestruction
 :
 :
@@ -2477,6 +2487,9 @@ RemoveDrawTarget
 (
 mRefPtr
 )
+;
+return
+true
 ;
 }
 void
@@ -2550,7 +2563,7 @@ Destruction
 "
 ;
 }
-void
+bool
 RecordedCreateSimilarDrawTarget
 :
 :
@@ -2582,6 +2595,16 @@ mSize
 mFormat
 )
 ;
+if
+(
+!
+newDT
+)
+{
+return
+false
+;
+}
 aTranslator
 -
 >
@@ -2590,6 +2613,9 @@ AddDrawTarget
 mRefPtr
 newDT
 )
+;
+return
+true
 ;
 }
 void
@@ -3070,7 +3096,7 @@ mTranslator
 ;
 }
 ;
-void
+bool
 RecordedFillRect
 :
 :
@@ -3102,6 +3128,9 @@ aTranslator
 )
 mOptions
 )
+;
+return
+true
 ;
 }
 void
@@ -3253,7 +3282,7 @@ aStringStream
 )
 ;
 }
-void
+bool
 RecordedStrokeRect
 :
 :
@@ -3286,6 +3315,9 @@ aTranslator
 mStrokeOptions
 mOptions
 )
+;
+return
+true
 ;
 }
 void
@@ -3461,7 +3493,7 @@ aStringStream
 )
 ;
 }
-void
+bool
 RecordedStrokeLine
 :
 :
@@ -3495,6 +3527,9 @@ aTranslator
 mStrokeOptions
 mOptions
 )
+;
+return
+true
 ;
 }
 void
@@ -3681,7 +3716,7 @@ aStringStream
 )
 ;
 }
-void
+bool
 RecordedFill
 :
 :
@@ -3719,6 +3754,9 @@ aTranslator
 )
 mOptions
 )
+;
+return
+true
 ;
 }
 RecordedFill
@@ -3853,7 +3891,7 @@ delete
 mGlyphs
 ;
 }
-void
+bool
 RecordedFillGlyphs
 :
 :
@@ -3907,6 +3945,9 @@ aTranslator
 )
 mOptions
 )
+;
+return
+true
 ;
 }
 RecordedFillGlyphs
@@ -4081,7 +4122,7 @@ aStringStream
 )
 ;
 }
-void
+bool
 RecordedMask
 :
 :
@@ -4118,6 +4159,9 @@ aTranslator
 )
 mOptions
 )
+;
+return
+true
 ;
 }
 RecordedMask
@@ -4246,7 +4290,7 @@ aStringStream
 )
 ;
 }
-void
+bool
 RecordedStroke
 :
 :
@@ -4285,6 +4329,9 @@ aTranslator
 mStrokeOptions
 mOptions
 )
+;
+return
+true
 ;
 }
 void
@@ -4429,7 +4476,7 @@ aStringStream
 )
 ;
 }
-void
+bool
 RecordedClearRect
 :
 :
@@ -4454,6 +4501,9 @@ ClearRect
 (
 mRect
 )
+;
+return
+true
 ;
 }
 void
@@ -4575,7 +4625,7 @@ height
 "
 ;
 }
-void
+bool
 RecordedCopySurface
 :
 :
@@ -4608,6 +4658,9 @@ mSourceSurface
 mSourceRect
 mDest
 )
+;
+return
+true
 ;
 }
 void
@@ -4722,7 +4775,7 @@ mSourceSurface
 "
 ;
 }
-void
+bool
 RecordedPushClip
 :
 :
@@ -4753,6 +4806,9 @@ LookupPath
 mPath
 )
 )
+;
+return
+true
 ;
 }
 void
@@ -4843,7 +4899,7 @@ mPath
 "
 ;
 }
-void
+bool
 RecordedPushClipRect
 :
 :
@@ -4868,6 +4924,9 @@ PushClipRect
 (
 mRect
 )
+;
+return
+true
 ;
 }
 void
@@ -4989,7 +5048,7 @@ height
 "
 ;
 }
-void
+bool
 RecordedPopClip
 :
 :
@@ -5013,6 +5072,9 @@ mDT
 PopClip
 (
 )
+;
+return
+true
 ;
 }
 void
@@ -5082,7 +5144,7 @@ PopClip
 "
 ;
 }
-void
+bool
 RecordedPushLayer
 :
 :
@@ -5128,6 +5190,9 @@ mMaskTransform
 mBounds
 mCopyBackground
 )
+;
+return
+true
 ;
 }
 void
@@ -5299,7 +5364,7 @@ mMask
 "
 ;
 }
-void
+bool
 RecordedPopLayer
 :
 :
@@ -5323,6 +5388,9 @@ mDT
 PopLayer
 (
 )
+;
+return
+true
 ;
 }
 void
@@ -5392,7 +5460,7 @@ PopLayer
 "
 ;
 }
-void
+bool
 RecordedSetTransform
 :
 :
@@ -5417,6 +5485,9 @@ SetTransform
 (
 mTransform
 )
+;
+return
+true
 ;
 }
 void
@@ -5556,7 +5627,7 @@ _32
 "
 ;
 }
-void
+bool
 RecordedDrawSurface
 :
 :
@@ -5591,6 +5662,9 @@ mSource
 mDSOptions
 mOptions
 )
+;
+return
+true
 ;
 }
 void
@@ -5729,7 +5803,7 @@ mRefSource
 "
 ;
 }
-void
+bool
 RecordedDrawFilter
 :
 :
@@ -5763,6 +5837,9 @@ mSourceRect
 mDestPoint
 mOptions
 )
+;
+return
+true
 ;
 }
 void
@@ -5889,7 +5966,7 @@ mNode
 "
 ;
 }
-void
+bool
 RecordedDrawSurfaceWithShadow
 :
 :
@@ -5925,6 +6002,9 @@ mOffset
 mSigma
 mOp
 )
+;
+return
+true
 ;
 }
 void
@@ -6158,7 +6238,7 @@ RecordedPathCreation
 )
 {
 }
-void
+bool
 RecordedPathCreation
 :
 :
@@ -6345,6 +6425,9 @@ AddPath
 mRefPtr
 path
 )
+;
+return
+true
 ;
 }
 void
@@ -6688,7 +6771,7 @@ size
 "
 ;
 }
-void
+bool
 RecordedPathDestruction
 :
 :
@@ -6707,6 +6790,9 @@ RemovePath
 (
 mRefPtr
 )
+;
+return
+true
 ;
 }
 void
@@ -6800,7 +6886,7 @@ mData
 ;
 }
 }
-void
+bool
 RecordedSourceSurfaceCreation
 :
 :
@@ -6849,6 +6935,9 @@ AddSourceSurface
 mRefPtr
 src
 )
+;
+return
+true
 ;
 }
 void
@@ -7062,7 +7151,7 @@ height
 "
 ;
 }
-void
+bool
 RecordedSourceSurfaceDestruction
 :
 :
@@ -7081,6 +7170,9 @@ RemoveSourceSurface
 (
 mRefPtr
 )
+;
+return
+true
 ;
 }
 void
@@ -7163,7 +7255,7 @@ RecordedFilterNodeCreation
 )
 {
 }
-void
+bool
 RecordedFilterNodeCreation
 :
 :
@@ -7202,6 +7294,9 @@ AddFilterNode
 mRefPtr
 node
 )
+;
+return
+true
 ;
 }
 void
@@ -7301,7 +7396,7 @@ mType
 "
 ;
 }
-void
+bool
 RecordedFilterNodeDestruction
 :
 :
@@ -7320,6 +7415,9 @@ RemoveFilterNode
 (
 mRefPtr
 )
+;
+return
+true
 ;
 }
 void
@@ -7413,7 +7511,7 @@ mStops
 ;
 }
 }
-void
+bool
 RecordedGradientStopsCreation
 :
 :
@@ -7454,6 +7552,9 @@ AddGradientStops
 mRefPtr
 src
 )
+;
+return
+true
 ;
 }
 void
@@ -7609,7 +7710,7 @@ mNumStops
 "
 ;
 }
-void
+bool
 RecordedGradientStopsDestruction
 :
 :
@@ -7628,6 +7729,9 @@ RemoveGradientStops
 (
 mRefPtr
 )
+;
+return
+true
 ;
 }
 void
@@ -7701,7 +7805,7 @@ Destroyed
 "
 ;
 }
-void
+bool
 RecordedSnapshot
 :
 :
@@ -7740,6 +7844,9 @@ AddSourceSurface
 mRefPtr
 src
 )
+;
+return
+true
 ;
 }
 void
@@ -7850,7 +7957,7 @@ delete
 mData
 ;
 }
-void
+bool
 RecordedFontData
 :
 :
@@ -7895,6 +8002,9 @@ mFontDetails
 fontDataKey
 fontResource
 )
+;
+return
+true
 ;
 }
 void
@@ -8164,7 +8274,7 @@ RecordedFontDescriptor
 )
 {
 }
-void
+bool
 RecordedFontDescriptor
 :
 :
@@ -8259,6 +8369,9 @@ AddScaledFont
 mRefPtr
 font
 )
+;
+return
+true
 ;
 }
 void
@@ -8460,7 +8573,7 @@ size
 )
 ;
 }
-void
+bool
 RecordedScaledFontCreation
 :
 :
@@ -8507,6 +8620,9 @@ AddScaledFont
 mRefPtr
 scaledFont
 )
+;
+return
+true
 ;
 }
 void
@@ -8619,7 +8735,7 @@ mGlyphSize
 )
 ;
 }
-void
+bool
 RecordedScaledFontDestruction
 :
 :
@@ -8638,6 +8754,9 @@ RemoveScaledFont
 (
 mRefPtr
 )
+;
+return
+true
 ;
 }
 void
@@ -8711,7 +8830,7 @@ Destroyed
 "
 ;
 }
-void
+bool
 RecordedMaskSurface
 :
 :
@@ -8750,6 +8869,9 @@ mRefMask
 mOffset
 mOptions
 )
+;
+return
+true
 ;
 }
 void
@@ -8934,7 +9056,7 @@ aValue
 )
 ;
 }
-void
+bool
 RecordedFilterNodeSetAttribute
 :
 :
@@ -9113,6 +9235,9 @@ Float
 break
 ;
 }
+return
+true
+;
 }
 void
 RecordedFilterNodeSetAttribute
@@ -9296,7 +9421,7 @@ mIndex
 "
 ;
 }
-void
+bool
 RecordedFilterNodeSetInput
 :
 :
@@ -9359,6 +9484,9 @@ mInputSurface
 )
 ;
 }
+return
+true
+;
 }
 void
 RecordedFilterNodeSetInput
