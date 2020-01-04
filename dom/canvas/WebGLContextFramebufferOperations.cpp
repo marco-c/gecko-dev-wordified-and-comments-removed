@@ -299,6 +299,15 @@ IsExtensionEnabled
 WebGLExtensionID
 :
 :
+EXT_color_buffer_float
+)
+|
+|
+IsExtensionEnabled
+(
+WebGLExtensionID
+:
+:
 EXT_color_buffer_half_float
 )
 |
