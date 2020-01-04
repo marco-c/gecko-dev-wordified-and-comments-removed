@@ -71,13 +71,13 @@ layout
 class
 RenderFrameChild
 ;
-class
-ShadowLayerForwarder
-;
 }
 namespace
 layers
 {
+class
+ShadowLayerForwarder
+;
 class
 LayerTransactionChild
 :
