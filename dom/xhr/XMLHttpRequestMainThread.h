@@ -2316,7 +2316,7 @@ State
 mState
 ;
 bool
-mFlagAsynchronous
+mFlagSynchronous
 ;
 bool
 mFlagAborted
