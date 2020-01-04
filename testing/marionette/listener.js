@@ -271,7 +271,7 @@ marionette
 /
 content
 /
-interactions
+interaction
 .
 js
 "
