@@ -3659,9 +3659,7 @@ context
 .
 setProperty
 (
-this
-.
-namespaceName
+path
 name
 normalized
 .
