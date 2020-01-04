@@ -222,6 +222,9 @@ nsITabChild
 interface
 nsICommandManager
 ;
+interface
+nsICommandParams
+;
 native
 TabChildRef
 (
@@ -6656,6 +6659,17 @@ doCommand
 in
 string
 command
+)
+;
+void
+doCommandWithParams
+(
+in
+string
+command
+in
+nsICommandParams
+aParams
 )
 ;
 /
