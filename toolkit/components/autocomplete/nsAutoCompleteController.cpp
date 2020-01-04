@@ -2527,6 +2527,10 @@ popup
 >
 Invalidate
 (
+nsIAutoCompletePopup
+:
+:
+INVALIDATE_REASON_DELETE
 )
 ;
 }
@@ -6133,6 +6137,10 @@ popup
 >
 Invalidate
 (
+nsIAutoCompletePopup
+:
+:
+INVALIDATE_REASON_NEW_RESULT
 )
 ;
 uint32_t
