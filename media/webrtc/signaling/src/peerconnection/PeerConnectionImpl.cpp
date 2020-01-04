@@ -6374,10 +6374,7 @@ rv
 =
 EnsureDataConnection
 (
-codec
--
->
-mChannels
+channels
 )
 ;
 if
