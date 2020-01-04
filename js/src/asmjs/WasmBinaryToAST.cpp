@@ -7162,7 +7162,7 @@ size
 ;
 CheckedInt
 <
-int32_t
+uint32_t
 >
 initialSize
 =
@@ -7225,7 +7225,7 @@ size
 ;
 CheckedInt
 <
-int32_t
+uint32_t
 >
 maxSize
 =
@@ -7250,7 +7250,7 @@ AstDecodeFail
 (
 c
 "
-initial
+maximum
 memory
 size
 too
