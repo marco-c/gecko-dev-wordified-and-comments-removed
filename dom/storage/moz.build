@@ -132,6 +132,11 @@ DOMStorageDBThread
 cpp
 '
 '
+DOMStorageDBUpdater
+.
+cpp
+'
+'
 DOMStorageIPC
 .
 cpp
