@@ -435,6 +435,13 @@ CreateFontInfoData
 (
 )
 ;
+void
+AddFamily
+(
+CFStringRef
+aFamily
+)
+;
 #
 ifdef
 MOZ_BUNDLED_FONTS
