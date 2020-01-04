@@ -25,11 +25,6 @@ jsm
 )
 ;
 const
-TIME_INTERVAL
-=
-500
-;
-const
 PWMGR_DLG
 =
 "
@@ -544,6 +539,9 @@ newUsername
 Correct
 username
 shown
+after
+the
+update
 "
 )
 ;
@@ -795,6 +793,9 @@ newPassword
 Correct
 password
 shown
+after
+the
+update
 "
 )
 ;
