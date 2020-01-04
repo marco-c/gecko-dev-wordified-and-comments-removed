@@ -1603,7 +1603,7 @@ Bind
 uint8_t
 *
 rawCode
-CodeOffset
+CodeOffsetLabel
 *
 label
 const
@@ -1707,7 +1707,7 @@ pe
 size_t
 labelToPatchOffset
 (
-CodeOffset
+CodeOffsetLabel
 label
 )
 {

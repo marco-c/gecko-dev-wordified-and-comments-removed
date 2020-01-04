@@ -5393,7 +5393,7 @@ type
 )
 )
 ;
-CodeOffset
+CodeOffsetLabel
 label
 ;
 switch
@@ -5607,7 +5607,7 @@ type
 )
 )
 ;
-CodeOffset
+CodeOffsetLabel
 label
 ;
 switch
@@ -5818,7 +5818,7 @@ output
 )
 )
 ;
-CodeOffset
+CodeOffsetLabel
 label
 =
 masm
@@ -5885,7 +5885,7 @@ output
 )
 )
 ;
-CodeOffset
+CodeOffsetLabel
 label
 =
 masm

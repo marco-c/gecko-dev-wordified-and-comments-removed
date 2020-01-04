@@ -1410,7 +1410,7 @@ vec
 {
 for
 (
-CodeOffset
+CodeOffsetLabel
 use
 :
 old
@@ -2741,7 +2741,7 @@ Value
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 MacroAssembler
 :
 :
@@ -2761,7 +2761,7 @@ reg
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 MacroAssembler
 :
 :
@@ -2905,7 +2905,7 @@ target
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 MacroAssembler
 :
 :

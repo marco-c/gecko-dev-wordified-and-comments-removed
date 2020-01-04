@@ -1450,7 +1450,7 @@ size
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 PushWithPatch
 (
 ImmWord
@@ -1474,7 +1474,7 @@ word
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 PushWithPatch
 (
 ImmPtr
@@ -2602,7 +2602,7 @@ valueReg
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 pushWithPatch
 (
 ImmWord
@@ -2632,7 +2632,7 @@ asUnsized
 (
 )
 ;
-CodeOffset
+CodeOffsetLabel
 label
 =
 movWithPatch
@@ -2650,7 +2650,7 @@ return
 label
 ;
 }
-CodeOffset
+CodeOffsetLabel
 movWithPatch
 (
 ImmWord
@@ -2675,7 +2675,7 @@ value
 )
 ;
 return
-CodeOffset
+CodeOffsetLabel
 (
 off
 .
@@ -2685,7 +2685,7 @@ getOffset
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 movWithPatch
 (
 ImmPtr
@@ -2713,7 +2713,7 @@ value
 )
 ;
 return
-CodeOffset
+CodeOffsetLabel
 (
 off
 .
@@ -4873,7 +4873,7 @@ append
 (
 AsmJSAbsoluteLink
 (
-CodeOffset
+CodeOffsetLabel
 (
 off
 .
@@ -18791,7 +18791,7 @@ loadInstructionPointerAfterCall
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 toggledJump
 (
 Label
@@ -18808,7 +18808,7 @@ label
 Always
 )
 ;
-CodeOffset
+CodeOffsetLabel
 ret
 (
 offset
@@ -18925,7 +18925,7 @@ getOffset
 void
 writePrebarrierOffset
 (
-CodeOffset
+CodeOffsetLabel
 label
 )
 {
@@ -19049,13 +19049,13 @@ offset
 }
 public
 :
-CodeOffset
+CodeOffsetLabel
 labelForPatch
 (
 )
 {
 return
-CodeOffset
+CodeOffsetLabel
 (
 nextOffset
 (
@@ -19078,7 +19078,7 @@ handler
 void
 patchAsmJSGlobalAccess
 (
-CodeOffset
+CodeOffsetLabel
 patchAt
 uint8_t
 *
@@ -21183,7 +21183,7 @@ AnyRegister
 output
 )
 ;
-CodeOffset
+CodeOffsetLabel
 toggledCall
 (
 JitCode
@@ -21283,7 +21283,7 @@ Relocation
 JITCODE
 )
 ;
-CodeOffset
+CodeOffsetLabel
 ret
 (
 offset

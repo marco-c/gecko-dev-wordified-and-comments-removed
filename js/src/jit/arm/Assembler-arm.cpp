@@ -4728,7 +4728,7 @@ Assembler
 :
 writeCodePointer
 (
-CodeOffset
+CodeOffsetLabel
 *
 label
 )
@@ -4747,7 +4747,7 @@ INVALID_OFFSET
 label
 -
 >
-bind
+use
 (
 off
 .
@@ -4766,7 +4766,7 @@ Bind
 uint8_t
 *
 rawCode
-CodeOffset
+CodeOffsetLabel
 *
 label
 const

@@ -4448,7 +4448,7 @@ CodeLocationLabel
 loc
 (
 this
-CodeOffset
+CodeOffsetLabel
 (
 offset
 )
@@ -5683,7 +5683,7 @@ CodeLocationLabel
 loopHeader
 (
 code
-CodeOffset
+CodeOffsetLabel
 (
 info
 .
@@ -5700,7 +5700,7 @@ CodeLocationLabel
 interruptCheck
 (
 code
-CodeOffset
+CodeOffsetLabel
 (
 info
 .
@@ -15761,7 +15761,7 @@ CodeLocationLabel
 invalidateEpilogue
 (
 ionCode
-CodeOffset
+CodeOffsetLabel
 (
 ionScript
 -

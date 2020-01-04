@@ -10149,7 +10149,7 @@ descriptor
 )
 )
 ;
-CodeOffset
+CodeOffsetLabel
 patchOffset
 ;
 IonICEntry
@@ -10180,7 +10180,7 @@ entry
 .
 setReturnOffset
 (
-CodeOffset
+CodeOffsetLabel
 (
 masm
 .
@@ -23393,7 +23393,7 @@ Label
 invalidated
 )
 {
-CodeOffset
+CodeOffsetLabel
 label
 =
 masm
@@ -51403,7 +51403,7 @@ i
 +
 )
 {
-CodeOffset
+CodeOffsetLabel
 label
 =
 sharedStubs_
@@ -64516,7 +64516,7 @@ done
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 label
 =
 masm

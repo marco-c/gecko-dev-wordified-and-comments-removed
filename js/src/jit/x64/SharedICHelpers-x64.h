@@ -95,7 +95,7 @@ inline
 void
 EmitCallIC
 (
-CodeOffset
+CodeOffsetLabel
 *
 patchOffset
 MacroAssembler
@@ -103,7 +103,7 @@ MacroAssembler
 masm
 )
 {
-CodeOffset
+CodeOffsetLabel
 offset
 =
 masm

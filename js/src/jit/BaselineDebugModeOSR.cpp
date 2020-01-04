@@ -5145,7 +5145,7 @@ pop
 BaselineFrameReg
 )
 ;
-CodeOffset
+CodeOffsetLabel
 noFrameRegPopOffset
 (
 masm

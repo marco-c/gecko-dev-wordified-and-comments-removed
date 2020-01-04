@@ -1557,7 +1557,7 @@ offset_
 }
 ;
 class
-CodeOffset
+CodeOffsetLabel
 {
 size_t
 offset_
@@ -1565,7 +1565,7 @@ offset_
 static
 const
 size_t
-NOT_BOUND
+NOT_USED
 =
 size_t
 (
@@ -1576,7 +1576,7 @@ size_t
 public
 :
 explicit
-CodeOffset
+CodeOffsetLabel
 (
 size_t
 offset
@@ -1588,13 +1588,13 @@ offset
 )
 {
 }
-CodeOffset
+CodeOffsetLabel
 (
 )
 :
 offset_
 (
-NOT_BOUND
+NOT_USED
 )
 {
 }
@@ -1606,7 +1606,7 @@ const
 {
 MOZ_ASSERT
 (
-bound
+used
 (
 )
 )
@@ -1616,7 +1616,7 @@ offset_
 ;
 }
 void
-bind
+use
 (
 size_t
 offset
@@ -1625,7 +1625,7 @@ offset
 MOZ_ASSERT
 (
 !
-bound
+used
 (
 )
 )
@@ -1636,14 +1636,14 @@ offset
 ;
 MOZ_ASSERT
 (
-bound
+used
 (
 )
 )
 ;
 }
 bool
-bound
+used
 (
 )
 const
@@ -1652,7 +1652,7 @@ return
 offset_
 !
 =
-NOT_BOUND
+NOT_USED
 ;
 }
 void
@@ -1664,7 +1664,7 @@ delta
 {
 MOZ_ASSERT
 (
-bound
+used
 (
 )
 )
@@ -1694,10 +1694,10 @@ delta
 class
 CodeLabel
 {
-CodeOffset
+CodeOffsetLabel
 patchAt_
 ;
-CodeOffset
+CodeOffsetLabel
 target_
 ;
 public
@@ -1711,7 +1711,7 @@ explicit
 CodeLabel
 (
 const
-CodeOffset
+CodeOffsetLabel
 &
 patchAt
 )
@@ -1725,11 +1725,11 @@ patchAt
 CodeLabel
 (
 const
-CodeOffset
+CodeOffsetLabel
 &
 patchAt
 const
-CodeOffset
+CodeOffsetLabel
 &
 target
 )
@@ -1744,7 +1744,7 @@ target
 )
 {
 }
-CodeOffset
+CodeOffsetLabel
 *
 patchAt
 (
@@ -1755,7 +1755,7 @@ return
 patchAt_
 ;
 }
-CodeOffset
+CodeOffsetLabel
 *
 target
 (
@@ -2234,7 +2234,7 @@ CodeLocationLabel
 JitCode
 *
 code
-CodeOffset
+CodeOffsetLabel
 base
 )
 {
@@ -2292,7 +2292,7 @@ void
 operator
 =
 (
-CodeOffset
+CodeOffsetLabel
 base
 )
 {
@@ -3226,7 +3226,7 @@ AsmJSHeapAccessVector
 struct
 AsmJSGlobalAccess
 {
-CodeOffset
+CodeOffsetLabel
 patchAt
 ;
 unsigned
@@ -3234,7 +3234,7 @@ globalDataOffset
 ;
 AsmJSGlobalAccess
 (
-CodeOffset
+CodeOffsetLabel
 patchAt
 unsigned
 globalDataOffset
@@ -3592,7 +3592,7 @@ AsmJSAbsoluteLink
 {
 AsmJSAbsoluteLink
 (
-CodeOffset
+CodeOffsetLabel
 patchAt
 AsmJSImmKind
 target
@@ -3608,7 +3608,7 @@ target
 )
 {
 }
-CodeOffset
+CodeOffsetLabel
 patchAt
 ;
 AsmJSImmKind
@@ -3756,7 +3756,7 @@ const
 CallSiteDesc
 &
 desc
-CodeOffset
+CodeOffsetLabel
 label
 size_t
 framePushed

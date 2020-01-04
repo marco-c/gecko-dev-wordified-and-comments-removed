@@ -263,7 +263,7 @@ bytes
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 MacroAssembler
 :
 :
@@ -290,7 +290,7 @@ word
 )
 ;
 }
-CodeOffset
+CodeOffsetLabel
 MacroAssembler
 :
 :
@@ -330,7 +330,7 @@ Register
 reg
 )
 {
-CodeOffset
+CodeOffsetLabel
 l
 =
 call
@@ -363,7 +363,7 @@ Label
 label
 )
 {
-CodeOffset
+CodeOffsetLabel
 l
 =
 call
@@ -395,7 +395,7 @@ AsmJSInternalCallee
 callee
 )
 {
-CodeOffset
+CodeOffsetLabel
 l
 =
 callWithPatch
@@ -1233,7 +1233,7 @@ const
 return
 selfReferencePatch_
 .
-bound
+used
 (
 )
 ;

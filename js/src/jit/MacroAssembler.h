@@ -1606,7 +1606,7 @@ rootType
 )
 ;
 inline
-CodeOffset
+CodeOffsetLabel
 PushWithPatch
 (
 ImmWord
@@ -1614,7 +1614,7 @@ word
 )
 ;
 inline
-CodeOffset
+CodeOffsetLabel
 PushWithPatch
 (
 ImmPtr
@@ -1725,7 +1725,7 @@ debugTrackedRegisters_
 endif
 public
 :
-CodeOffset
+CodeOffsetLabel
 call
 (
 Register
@@ -1733,7 +1733,7 @@ reg
 )
 PER_SHARED_ARCH
 ;
-CodeOffset
+CodeOffsetLabel
 call
 (
 Label
@@ -1826,7 +1826,7 @@ AsmJSInternalCallee
 callee
 )
 ;
-CodeOffset
+CodeOffsetLabel
 callWithPatch
 (
 )
@@ -2233,7 +2233,7 @@ JitCode
 code
 )
 ;
-CodeOffset
+CodeOffsetLabel
 selfReferencePatch_
 ;
 public
@@ -4577,7 +4577,7 @@ type
 Label
 done
 ;
-CodeOffset
+CodeOffsetLabel
 nopJump
 =
 toggledJump
@@ -6032,7 +6032,7 @@ AutoProfilerCallInstrumentation
 void
 appendProfilerCallSite
 (
-CodeOffset
+CodeOffsetLabel
 label
 )
 {
@@ -6060,7 +6060,7 @@ emitProfilingInstrumentation_
 ;
 Vector
 <
-CodeOffset
+CodeOffsetLabel
 0
 SystemAllocPolicy
 >
