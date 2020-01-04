@@ -124,9 +124,10 @@ arguments
 )
 setTimeout
 (
-function
 (
 )
+=
+>
 window
 .
 arguments

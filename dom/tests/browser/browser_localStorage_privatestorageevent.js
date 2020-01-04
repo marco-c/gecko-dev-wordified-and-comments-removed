@@ -117,9 +117,10 @@ true
 ;
 executeSoon
 (
-function
 (
 )
+=
+>
 callback
 (
 win
