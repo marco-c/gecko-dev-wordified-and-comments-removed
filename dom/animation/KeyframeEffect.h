@@ -920,6 +920,14 @@ aSetProperties
 )
 ;
 bool
+IsPropertyRunningOnCompositor
+(
+nsCSSProperty
+aProperty
+)
+const
+;
+bool
 IsRunningOnCompositor
 (
 )
@@ -933,6 +941,12 @@ aProperty
 bool
 aIsRunning
 )
+;
+bool
+CanThrottle
+(
+)
+const
 ;
 static
 bool
