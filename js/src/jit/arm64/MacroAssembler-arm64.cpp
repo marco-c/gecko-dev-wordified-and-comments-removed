@@ -1206,10 +1206,6 @@ start
 temp
 )
 ;
-asMasm
-(
-)
-.
 addPtr
 (
 ptr
@@ -1364,10 +1360,6 @@ asRawBits
 temp
 )
 ;
-asMasm
-(
-)
-.
 addPtr
 (
 value

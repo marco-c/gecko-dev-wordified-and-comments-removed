@@ -2460,15 +2460,6 @@ to
 )
 )
 ;
-MOZ_ASSERT
-(
-to
-.
-isMemoryOrEffectiveAddress
-(
-)
-)
-;
 masm
 .
 addPtr
@@ -2481,7 +2472,7 @@ disp
 (
 )
 )
-toAddress
+toOperand
 (
 to
 )
