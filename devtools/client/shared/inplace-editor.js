@@ -1673,6 +1673,12 @@ width
 }
 else
 {
+width
+=
+width
++
+2
+;
 this
 .
 input
