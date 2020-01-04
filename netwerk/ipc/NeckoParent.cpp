@@ -805,6 +805,7 @@ tabContext
 HasOwnApp
 (
 )
+)
 {
 continue
 ;
