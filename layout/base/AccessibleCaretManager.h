@@ -714,6 +714,10 @@ sCaretsScriptUpdates
 ;
 static
 bool
+sCaretsAllowDraggingAcrossOtherCaret
+;
+static
+bool
 sHapticFeedback
 ;
 }
