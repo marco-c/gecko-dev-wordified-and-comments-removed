@@ -223,14 +223,6 @@ insecure
 -
 requests
 ;
-sequence
-<
-DOMString
->
-child
--
-src
-;
 }
 ;
 dictionary
