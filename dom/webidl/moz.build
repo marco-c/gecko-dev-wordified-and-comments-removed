@@ -305,6 +305,11 @@ BarProp
 webidl
 '
 '
+BaseKeyframeTypes
+.
+webidl
+'
+'
 BatteryManager
 .
 webidl
@@ -1475,11 +1480,6 @@ KeyEvent
 webidl
 '
 '
-Keyframe
-.
-webidl
-'
-'
 KeyframeEffect
 .
 webidl
@@ -2006,11 +2006,6 @@ webidl
 '
 '
 ProfileTimelineMarker
-.
-webidl
-'
-'
-PropertyIndexedKeyframes
 .
 webidl
 '

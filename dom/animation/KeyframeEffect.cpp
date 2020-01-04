@@ -27,7 +27,7 @@ mozilla
 /
 dom
 /
-KeyframeEffectBinding
+BaseKeyframeTypesBinding
 .
 h
 "
@@ -38,7 +38,7 @@ mozilla
 /
 dom
 /
-PropertyIndexedKeyframesBinding
+KeyframeEffectBinding
 .
 h
 "
@@ -4301,7 +4301,7 @@ OffsetIndexedKeyframe
 binding_detail
 :
 :
-FastKeyframe
+FastBaseKeyframe
 mKeyframeDict
 ;
 nsTArray
@@ -6530,7 +6530,7 @@ isObject
 binding_detail
 :
 :
-FastPropertyIndexedKeyframes
+FastBasePropertyIndexedKeyframe
 keyframes
 ;
 if
@@ -6543,7 +6543,7 @@ Init
 aCx
 aValue
 "
-PropertyIndexedKeyframes
+BasePropertyIndexedKeyframe
 argument
 "
 false
@@ -8211,7 +8211,7 @@ previousEntry
 =
 nullptr
 ;
-ComputedKeyframe
+BaseComputedKeyframe
 keyframeDict
 ;
 keyframeDict
