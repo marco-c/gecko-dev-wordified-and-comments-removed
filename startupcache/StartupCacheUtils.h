@@ -82,8 +82,12 @@ NewBufferFromStorageStream
 nsIStorageStream
 *
 storageStream
+UniquePtr
+<
 char
-*
+[
+]
+>
 *
 buffer
 uint32_t
