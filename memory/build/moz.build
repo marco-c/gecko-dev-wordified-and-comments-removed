@@ -151,7 +151,7 @@ SOURCES
 '
 jemalloc_config
 .
-c
+cpp
 '
 '
 mozmemory_wrap

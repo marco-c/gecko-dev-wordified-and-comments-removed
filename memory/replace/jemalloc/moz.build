@@ -108,7 +108,7 @@ build
 /
 jemalloc_config
 .
-c
+cpp
 '
 '
 .
