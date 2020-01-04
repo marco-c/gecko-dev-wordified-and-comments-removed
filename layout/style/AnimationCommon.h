@@ -713,8 +713,6 @@ Tick
 void
 EnsureStyleRuleFor
 (
-TimeStamp
-aRefreshTime
 )
 ;
 void
@@ -1007,9 +1005,6 @@ nsPresContext
 *
 aPresContext
 )
-;
-TimeStamp
-mStyleRuleRefreshTime
 ;
 bool
 mStyleChanging
