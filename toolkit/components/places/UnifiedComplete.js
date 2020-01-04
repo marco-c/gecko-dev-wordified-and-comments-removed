@@ -6320,6 +6320,16 @@ function
 row
 )
 {
+if
+(
+this
+.
+_localMatchesCount
+=
+=
+0
+)
+{
 TelemetryStopwatch
 .
 finish
@@ -6328,6 +6338,7 @@ TELEMETRY_1ST_RESULT
 this
 )
 ;
+}
 let
 queryType
 =
