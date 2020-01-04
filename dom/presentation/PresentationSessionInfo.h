@@ -445,7 +445,7 @@ mControlChannel
 }
 ;
 class
-PresentationRequesterInfo
+PresentationControllingInfo
 final
 :
 public
@@ -458,7 +458,7 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIPRESENTATIONCONTROLCHANNELLISTENER
 NS_DECL_NSISERVERSOCKETLISTENER
-PresentationRequesterInfo
+PresentationControllingInfo
 (
 const
 nsAString
@@ -498,7 +498,7 @@ override
 private
 :
 ~
-PresentationRequesterInfo
+PresentationControllingInfo
 (
 )
 {
@@ -533,7 +533,7 @@ mServerSocket
 }
 ;
 class
-PresentationResponderInfo
+PresentationPresentingInfo
 final
 :
 public
@@ -548,7 +548,7 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIPRESENTATIONCONTROLCHANNELLISTENER
 NS_DECL_NSITIMERCALLBACK
-PresentationResponderInfo
+PresentationPresentingInfo
 (
 const
 nsAString
@@ -670,7 +670,7 @@ override
 private
 :
 ~
-PresentationResponderInfo
+PresentationPresentingInfo
 (
 )
 {
