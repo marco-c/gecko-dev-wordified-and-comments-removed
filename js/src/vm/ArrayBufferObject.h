@@ -545,6 +545,10 @@ OwnsState
 ownsState
 =
 OwnsData
+HandleObject
+proto
+=
+nullptr
 NewObjectKind
 newKind
 =
@@ -561,6 +565,10 @@ JSContext
 cx
 uint32_t
 nbytes
+HandleObject
+proto
+=
+nullptr
 NewObjectKind
 newKind
 =
