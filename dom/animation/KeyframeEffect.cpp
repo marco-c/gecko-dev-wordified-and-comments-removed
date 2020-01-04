@@ -5030,7 +5030,9 @@ CreateStyleContextForAnimationValue
 (
 nsCSSPropertyID
 aProperty
+const
 StyleAnimationValue
+&
 aValue
 nsStyleContext
 *
