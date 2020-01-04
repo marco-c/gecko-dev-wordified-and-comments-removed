@@ -54,6 +54,8 @@ public
 nsISpeechTask
 public
 nsIAudioChannelAgentCallback
+public
+nsSupportsWeakReference
 {
 friend
 class
