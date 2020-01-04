@@ -185,6 +185,14 @@ public
 static
 final
 int
+UNKNOWN_DEVICE
+=
+123
+;
+public
+static
+final
+int
 SERVICE_TEMPORARILY_UNAVAILABLE_DUE_TO_HIGH_LOAD
 =
 201

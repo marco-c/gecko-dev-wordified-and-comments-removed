@@ -11698,6 +11698,13 @@ java
 '
 fxa
 /
+FxAccountDevice
+.
+java
+'
+'
+fxa
+/
 login
 /
 BaseRequestDelegate
