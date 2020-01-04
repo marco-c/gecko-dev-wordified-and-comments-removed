@@ -68,9 +68,6 @@ ReturnTextureClientDeferred
 TextureClient
 *
 aClient
-TextureReadLock
-*
-aLock
 )
 override
 {
