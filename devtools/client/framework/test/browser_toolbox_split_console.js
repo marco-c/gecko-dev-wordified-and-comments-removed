@@ -90,7 +90,7 @@ showToolbox
 (
 target
 "
-inspector
+jsdebugger
 "
 )
 ;
@@ -101,7 +101,7 @@ gToolbox
 getPanel
 (
 "
-inspector
+jsdebugger
 "
 )
 .
@@ -271,9 +271,9 @@ info
 "
 useKeyWithSplitConsole
 on
-inspector
+debugger
 while
-inspector
+debugger
 is
 focused
 "
@@ -285,7 +285,7 @@ useKeyWithSplitConsole
 (
 keyElm
 "
-inspector
+jsdebugger
 "
 )
 ;
@@ -424,9 +424,9 @@ info
 "
 useKeyWithSplitConsole
 on
-jsdebugger
-while
 inspector
+while
+debugger
 is
 focused
 "
@@ -438,7 +438,7 @@ useKeyWithSplitConsole
 (
 keyElm
 "
-jsdebugger
+inspector
 "
 )
 ;

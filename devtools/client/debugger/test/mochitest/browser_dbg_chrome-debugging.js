@@ -69,14 +69,14 @@ jsm
 )
 ;
 var
-loader
+customLoader
 =
 new
 DevToolsLoader
 (
 )
 ;
-loader
+customLoader
 .
 invisibleToDebugger
 =
@@ -87,7 +87,7 @@ var
 DebuggerServer
 }
 =
-loader
+customLoader
 .
 require
 (
@@ -565,7 +565,7 @@ gNewChromeSource
 =
 null
 ;
-loader
+customLoader
 =
 null
 ;
