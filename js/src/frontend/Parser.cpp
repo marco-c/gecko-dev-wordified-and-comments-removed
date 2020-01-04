@@ -31979,6 +31979,16 @@ pos
 begin
 )
 ;
+if
+(
+!
+classMethods
+)
+return
+null
+(
+)
+;
 bool
 seenConstructor
 =
