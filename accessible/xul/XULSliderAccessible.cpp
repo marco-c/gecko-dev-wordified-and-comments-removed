@@ -83,6 +83,8 @@ mStateFlags
 |
 =
 eHasNumericValue
+|
+eNoXBLKids
 ;
 }
 role
@@ -482,18 +484,6 @@ nsGkAtoms
 curpos
 aValue
 )
-;
-}
-bool
-XULSliderAccessible
-:
-:
-CanHaveAnonChildren
-(
-)
-{
-return
-false
 ;
 }
 nsIContent

@@ -505,13 +505,6 @@ const
 override
 ;
 virtual
-bool
-CanHaveAnonChildren
-(
-)
-override
-;
-virtual
 void
 ActionNameAt
 (

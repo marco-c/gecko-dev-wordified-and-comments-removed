@@ -99,13 +99,6 @@ GetLevelInternal
 override
 ;
 virtual
-bool
-CanHaveAnonChildren
-(
-)
-override
-;
-virtual
 uint8_t
 ActionCount
 (

@@ -79,13 +79,6 @@ const
 override
 ;
 virtual
-bool
-CanHaveAnonChildren
-(
-)
-override
-;
-virtual
 double
 MaxValue
 (
