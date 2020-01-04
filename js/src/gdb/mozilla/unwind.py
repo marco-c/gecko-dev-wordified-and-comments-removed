@@ -1174,7 +1174,7 @@ get_tls_per_thread_data
 (
 )
         
-jitRuntime
+runtime
 =
 ptd
 [
@@ -1182,11 +1182,35 @@ ptd
 runtime_
 '
 ]
+        
+if
+runtime
+=
+=
+0
+:
+            
+return
+False
+        
+jitRuntime
+=
+runtime
 [
 '
 jitRuntime_
 '
 ]
+        
+if
+jitRuntime
+=
+=
+0
+:
+            
+return
+False
         
 execAllocators
 =
