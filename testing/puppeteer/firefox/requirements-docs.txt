@@ -13,4 +13,8 @@ puppeteer
 package
 -
 e
-.
+testing
+/
+puppeteer
+/
+firefox
