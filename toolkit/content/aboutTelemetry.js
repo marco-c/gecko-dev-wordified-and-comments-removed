@@ -5460,7 +5460,7 @@ render
 :
 function
 (
-aPing
+aPayload
 )
 {
 let
@@ -5487,9 +5487,7 @@ div
 let
 stats
 =
-aPing
-.
-payload
+aPayload
 .
 threadHangStats
 ;
@@ -8973,13 +8971,6 @@ render
 ping
 )
 ;
-ThreadHangStats
-.
-render
-(
-ping
-)
-;
 AddonDetails
 .
 render
@@ -9053,6 +9044,13 @@ payloadIndex
 ]
 ;
 }
+ThreadHangStats
+.
+render
+(
+payload
+)
+;
 let
 simpleMeasurements
 =
