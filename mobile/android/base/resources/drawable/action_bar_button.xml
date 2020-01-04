@@ -191,9 +191,11 @@ android
 drawable
 =
 "
+android
+:
 color
 /
-about_page_header_grey
+transparent
 "
 /
 >
