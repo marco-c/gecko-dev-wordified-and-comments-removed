@@ -17194,7 +17194,10 @@ rule
 new
 nsCSSKeyframeRule
 (
+Move
+(
 selectorList
+)
 declaration
 linenum
 colnum
