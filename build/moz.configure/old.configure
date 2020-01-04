@@ -785,11 +785,8 @@ path
 join
 (
 build_env
-[
-'
-TOPSRCDIR
-'
-]
+.
+topsrcdir
 '
 build
 '
@@ -2635,6 +2632,13 @@ oauth
 api
 -
 keyfile
+'
+'
+-
+-
+with
+-
+gradle
 '
 '
 -
