@@ -499,7 +499,7 @@ mFillRule
 StyleFillRule
 :
 :
-NonZero
+Nonzero
 |
 |
 styleContext
@@ -516,7 +516,7 @@ mFillRule
 StyleFillRule
 :
 :
-EvenOdd
+Evenodd
 )
 ;
 if
@@ -535,7 +535,7 @@ mFillRule
 StyleFillRule
 :
 :
-EvenOdd
+Evenodd
 )
 {
 fillRule

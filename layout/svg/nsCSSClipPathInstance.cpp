@@ -1423,7 +1423,7 @@ GetFillRule
 StyleFillRule
 :
 :
-NonZero
+Nonzero
 ?
 FillRule
 :

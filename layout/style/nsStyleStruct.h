@@ -10059,7 +10059,7 @@ mFillRule
 StyleFillRule
 :
 :
-NonZero
+Nonzero
 )
 {
 mPosition

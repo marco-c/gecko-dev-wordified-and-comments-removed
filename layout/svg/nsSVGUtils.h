@@ -1414,7 +1414,7 @@ mozilla
 StyleFillRule
 :
 :
-EvenOdd
+Evenodd
 ?
 FillRule
 :

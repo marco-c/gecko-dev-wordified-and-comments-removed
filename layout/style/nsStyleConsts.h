@@ -368,8 +368,8 @@ StyleFillRule
 :
 uint8_t
 {
-NonZero
-EvenOdd
+Nonzero
+Evenodd
 }
 ;
 enum
