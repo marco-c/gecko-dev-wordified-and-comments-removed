@@ -118,6 +118,13 @@ defined
 (
 __ANDROID__
 )
+&
+&
+!
+defined
+(
+__APPLE__
+)
 #
 define
 USE_CLOCK_API
