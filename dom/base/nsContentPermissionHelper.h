@@ -558,7 +558,7 @@ aWindow
 ;
 virtual
 bool
-RecvNotifyResult
+Recv__delete__
 (
 const
 bool
