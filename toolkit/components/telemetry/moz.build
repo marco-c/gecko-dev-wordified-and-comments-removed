@@ -163,6 +163,11 @@ Telemetry
 cpp
 '
 '
+TelemetryHistogram
+.
+cpp
+'
+'
 WebrtcTelemetry
 .
 cpp
