@@ -1415,7 +1415,7 @@ FallbackDestroyActors
 sImageBridgeChildSingleton
 -
 >
-SendWillStop
+SendWillClose
 (
 )
 ;
@@ -1477,7 +1477,7 @@ thread
 sImageBridgeChildSingleton
 -
 >
-SendStop
+Close
 (
 )
 ;

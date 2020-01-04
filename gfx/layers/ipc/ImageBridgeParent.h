@@ -418,14 +418,7 @@ override
 ;
 virtual
 bool
-RecvWillStop
-(
-)
-override
-;
-virtual
-bool
-RecvStop
+RecvWillClose
 (
 )
 override
@@ -652,7 +645,7 @@ override
 {
 return
 !
-mStopped
+mClosed
 ;
 }
 protected
@@ -690,7 +683,7 @@ bool
 mSetChildThreadPriority
 ;
 bool
-mStopped
+mClosed
 ;
 static
 std
