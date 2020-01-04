@@ -8288,17 +8288,6 @@ not
 testingModulesDir
 :
             
-ourDir
-=
-os
-.
-path
-.
-dirname
-(
-__file__
-)
-            
 possible
 =
 os
@@ -8307,7 +8296,7 @@ path
 .
 join
 (
-ourDir
+here
 os
 .
 path
