@@ -745,6 +745,14 @@ jitflags
 =
 all
 "
+                
+"
+-
+-
+timeout
+=
+970
+"
             
 ]
             
@@ -771,6 +779,12 @@ jit
 -
 test
 "
+            
+"
+run_timeout
+"
+:
+1000
         
 }
         
