@@ -106,6 +106,13 @@ h
 '
 agnostic
 /
+TheoraDecoder
+.
+h
+'
+'
+agnostic
+/
 VorbisDecoder
 .
 h
@@ -169,6 +176,13 @@ cpp
 agnostic
 /
 OpusDecoder
+.
+cpp
+'
+'
+agnostic
+/
+TheoraDecoder
 .
 cpp
 '
