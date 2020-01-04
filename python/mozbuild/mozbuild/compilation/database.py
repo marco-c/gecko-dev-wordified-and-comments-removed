@@ -631,12 +631,17 @@ else
         
 if
 canonical_suffix
-=
-=
+in
+(
 '
 .
 c
 '
+'
+.
+m
+'
+)
 :
             
 compiler
@@ -665,15 +670,13 @@ COMPILE_CFLAGS
 )
             
 if
-filename
-.
-endswith
-(
+canonical_suffix
+=
+=
 '
 .
 m
 '
-)
 :
                 
 cflags
@@ -690,12 +693,17 @@ COMPILE_CMFLAGS
         
 elif
 canonical_suffix
-=
-=
+in
+(
 '
 .
 cpp
 '
+'
+.
+mm
+'
+)
 :
             
 compiler
@@ -724,15 +732,13 @@ COMPILE_CXXFLAGS
 )
             
 if
-filename
-.
-endswith
-(
+canonical_suffix
+=
+=
 '
 .
 mm
 '
-)
 :
                 
 cflags
