@@ -1778,9 +1778,6 @@ downloads
 .
 properties
 )
-#
-ifndef
-MOZ_FENNEC
 locale
 /
 AB_CD
@@ -1804,6 +1801,9 @@ extensions
 .
 dtd
 )
+#
+ifndef
+MOZ_FENNEC
 locale
 /
 AB_CD
