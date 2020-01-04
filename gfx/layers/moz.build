@@ -2194,13 +2194,6 @@ cpp
 '
 composite
 /
-PaintCounter
-.
-cpp
-'
-'
-composite
-/
 PaintedLayerComposite
 .
 cpp
