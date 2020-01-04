@@ -1024,6 +1024,8 @@ return
 NS_OK
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 DBOperation
 :

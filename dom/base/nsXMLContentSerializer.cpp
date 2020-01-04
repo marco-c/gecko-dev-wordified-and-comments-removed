@@ -6694,6 +6694,8 @@ sawBlankOrTab
 =
 true
 ;
+MOZ_FALLTHROUGH
+;
 case
 '
 \

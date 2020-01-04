@@ -16107,6 +16107,8 @@ mPresContext
 break
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 NS_FORM_INPUT_BUTTON
@@ -16257,6 +16259,8 @@ NS_VK_LEFT
 isMovingBack
 =
 true
+;
+MOZ_FALLTHROUGH
 ;
 case
 NS_VK_DOWN
