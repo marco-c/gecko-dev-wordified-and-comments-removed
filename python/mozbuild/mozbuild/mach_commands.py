@@ -4143,6 +4143,9 @@ FasterMake
 '
 CompileDB
 '
+'
+ChromeMap
+'
 ]
         
 help

@@ -1758,6 +1758,7 @@ CppEclipse
 VisualStudio
 FasterMake
 CompileDB
+ChromeMap
 }
 Enable
 additional
