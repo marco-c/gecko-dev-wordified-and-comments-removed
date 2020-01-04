@@ -103,6 +103,7 @@ network
 readonly
 attribute
 long
+long
 threshold
 ;
 readonly
