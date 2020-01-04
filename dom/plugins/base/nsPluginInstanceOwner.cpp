@@ -3875,7 +3875,7 @@ case
 TextRangeType
 :
 :
-NS_TEXTRANGE_RAWINPUT
+eRawClause
 :
 type
 =

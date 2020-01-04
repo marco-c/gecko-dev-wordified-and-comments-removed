@@ -2442,7 +2442,7 @@ case
 TextRangeType
 :
 :
-NS_TEXTRANGE_RAWINPUT
+eRawClause
 :
 case
 TextRangeType
@@ -2681,7 +2681,7 @@ Length
 TextRangeType
 :
 :
-NS_TEXTRANGE_RAWINPUT
+eRawClause
 )
 ;
 if

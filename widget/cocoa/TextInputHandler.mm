@@ -17685,7 +17685,7 @@ return
 TextRangeType
 :
 :
-NS_TEXTRANGE_RAWINPUT
+eRawClause
 ;
 case
 NSUnderlineStyleThick

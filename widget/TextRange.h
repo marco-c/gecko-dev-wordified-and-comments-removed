@@ -430,7 +430,7 @@ eUninitialized
 eCaret
 =
 0x01
-NS_TEXTRANGE_RAWINPUT
+eRawClause
 =
 nsITextInputProcessor
 :
