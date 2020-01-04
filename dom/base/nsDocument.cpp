@@ -16727,9 +16727,8 @@ false
 }
 if
 (
-Hidden
-(
-)
+!
+mIsShowing
 )
 {
 return
