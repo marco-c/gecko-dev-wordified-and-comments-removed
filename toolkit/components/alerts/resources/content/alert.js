@@ -912,7 +912,7 @@ onAlertLoad
 const
 ALERT_DURATION_IMMEDIATE
 =
-12000
+20000
 ;
 let
 alertTextBox
