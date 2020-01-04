@@ -116,7 +116,7 @@ DIRS
 =
 [
 '
-locales
+locale
 '
 ]
 FINAL_TARGET_FILES
