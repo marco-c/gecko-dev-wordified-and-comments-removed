@@ -2292,13 +2292,6 @@ JS
 :
 MutableHandleValue
 vp
-JS
-:
-:
-HandleObject
-existing
-=
-nullptr
 )
 ;
 MOZ_MUST_USE
