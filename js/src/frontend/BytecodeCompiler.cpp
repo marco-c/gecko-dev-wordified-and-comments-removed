@@ -991,6 +991,15 @@ discardSource
 options
 .
 sourceIsLazy
+&
+&
+!
+cx
+-
+>
+lcovEnabled
+(
+)
 ;
 }
 bool
