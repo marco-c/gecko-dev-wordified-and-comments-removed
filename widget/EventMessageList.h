@@ -1282,7 +1282,7 @@ eSMILEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_SMIL_END
+eSMILEndEvent
 eSMILEventFirst
 +
 1
