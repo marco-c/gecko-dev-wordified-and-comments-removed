@@ -14979,6 +14979,11 @@ Intersect
 mScrollPort
 )
 ;
+if
+(
+wasUsingDisplayPort
+)
+{
 const
 nsPresContext
 *
@@ -15095,6 +15100,7 @@ Intersect
 rootCompBounds
 )
 ;
+}
 }
 }
 displayportBase
