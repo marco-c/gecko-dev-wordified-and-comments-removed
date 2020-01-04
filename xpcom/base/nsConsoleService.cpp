@@ -1283,10 +1283,6 @@ retiredMessage
 NS_ReleaseOnMainThread
 (
 retiredMessage
-.
-forget
-(
-)
 )
 ;
 }

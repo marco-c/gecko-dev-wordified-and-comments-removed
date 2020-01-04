@@ -3275,10 +3275,6 @@ forget
 NS_ReleaseOnMainThread
 (
 widget
-.
-forget
-(
-)
 )
 ;
 }

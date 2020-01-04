@@ -368,14 +368,13 @@ FinalizeStatements
 (
 )
 ;
+(
+void
+)
 NS_ProxyRelease
 (
 mCallingThread
 mOwner
-.
-forget
-(
-)
 )
 ;
 return

@@ -4099,10 +4099,6 @@ NS_ProxyRelease
 (
 mOwningThread
 mListener
-.
-forget
-(
-)
 )
 ;
 }

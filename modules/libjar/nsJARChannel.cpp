@@ -755,10 +755,6 @@ nsJARChannel
 NS_ReleaseOnMainThread
 (
 mLoadInfo
-.
-forget
-(
-)
 )
 ;
 nsJARProtocolHandler

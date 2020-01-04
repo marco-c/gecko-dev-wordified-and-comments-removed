@@ -16344,6 +16344,10 @@ mId
 NS_ProxyRelease
 (
 mOwningThread
+NS_ISUPPORTS_CAST
+(
+EventTarget
+*
 mPending
 [
 i
@@ -16353,6 +16357,11 @@ mRequest
 .
 forget
 (
+)
+.
+take
+(
+)
 )
 )
 ;

@@ -353,6 +353,11 @@ nsMemory
 cpp
 '
 '
+nsProxyRelease
+.
+cpp
+'
+'
 nsQuickSort
 .
 cpp
