@@ -471,9 +471,13 @@ get
 data
 (
 )
+{
+return
 this
 .
 _data
+;
+}
 set
 data
 (

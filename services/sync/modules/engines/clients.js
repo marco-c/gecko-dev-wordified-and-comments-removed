@@ -285,7 +285,11 @@ get
 enabled
 (
 )
+{
+return
 true
+;
+}
 get
 lastRecordUpload
 (
@@ -553,6 +557,7 @@ localID
 (
 value
 )
+{
 Svc
 .
 Prefs
@@ -566,6 +571,8 @@ GUID
 "
 value
 )
+;
+}
 get
 brandName
 (
@@ -654,6 +661,7 @@ localName
 (
 value
 )
+{
 Svc
 .
 Prefs
@@ -667,10 +675,14 @@ name
 "
 value
 )
+;
+}
 get
 localType
 (
 )
+{
+return
 Svc
 .
 Prefs
@@ -686,11 +698,14 @@ type
 desktop
 "
 )
+;
+}
 set
 localType
 (
 value
 )
+{
 Svc
 .
 Prefs
@@ -704,6 +719,8 @@ type
 "
 value
 )
+;
+}
 isMobile
 :
 function

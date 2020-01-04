@@ -564,9 +564,10 @@ Session
 {
 getBrowserState
 :
-function
 (
 )
+=
+>
 JSON
 .
 stringify
@@ -1732,9 +1733,10 @@ Session
 {
 getBrowserState
 :
-function
 (
 )
+=
+>
 JSON
 .
 stringify

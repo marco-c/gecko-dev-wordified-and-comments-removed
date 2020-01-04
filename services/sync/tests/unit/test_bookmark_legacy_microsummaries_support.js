@@ -695,9 +695,10 @@ null
 ;
 do_check_throws
 (
-function
 (
 )
+=
+>
 PlacesUtils
 .
 annotations
@@ -714,9 +715,10 @@ NS_ERROR_NOT_AVAILABLE
 ;
 do_check_throws
 (
-function
 (
 )
+=
+>
 PlacesUtils
 .
 annotations

@@ -268,9 +268,13 @@ get
 prefName
 (
 )
+{
+return
 "
 steam
 "
+;
+}
 }
 ;
 Service

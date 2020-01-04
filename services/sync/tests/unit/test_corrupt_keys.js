@@ -431,9 +431,10 @@ Session
 {
 getBrowserState
 :
-function
 (
 )
+=
+>
 JSON
 .
 stringify

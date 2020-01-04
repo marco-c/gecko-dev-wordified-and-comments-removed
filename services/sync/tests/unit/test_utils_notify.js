@@ -72,6 +72,8 @@ func
 function
 (
 )
+{
+return
 this
 .
 notify
@@ -104,11 +106,15 @@ return
 )
 (
 )
+;
+}
 throwy
 :
 function
 (
 )
+{
+return
 this
 .
 notify
@@ -141,6 +147,8 @@ throw
 )
 (
 )
+;
+}
 }
 ;
 let

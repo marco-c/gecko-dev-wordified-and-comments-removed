@@ -630,9 +630,13 @@ get
 prefName
 (
 )
+{
+return
 "
 history
 "
+;
+}
 _findDupe
 :
 function

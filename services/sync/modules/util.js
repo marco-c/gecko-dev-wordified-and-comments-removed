@@ -2050,10 +2050,9 @@ length
 .
 every
 (
-function
-(
 i
-)
+=
+>
 pp
 [
 i
@@ -2120,10 +2119,9 @@ length
 .
 every
 (
-function
-(
 i
-)
+=
+>
 pp
 [
 i
