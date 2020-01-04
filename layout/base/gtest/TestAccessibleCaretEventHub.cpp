@@ -2323,7 +2323,7 @@ MockAccessibleCaretEventHub
 LongTapState
 (
 )
-nsEventStatus_eConsumeNoDefault
+nsEventStatus_eIgnore
 )
 ;
 HandleEventAndCheckState
@@ -2382,7 +2382,7 @@ MockAccessibleCaretEventHub
 LongTapState
 (
 )
-nsEventStatus_eConsumeNoDefault
+nsEventStatus_eIgnore
 )
 ;
 mHub
