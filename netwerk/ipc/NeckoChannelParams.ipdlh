@@ -621,12 +621,6 @@ nsHttpResponseHead
 struct
 CorsPreflightArgs
 {
-bool
-withCredentials
-;
-PrincipalInfo
-preflightPrincipal
-;
 nsCString
 [
 ]

@@ -476,10 +476,6 @@ mRequireCORSPreflight
 (
 false
 )
-mWithCredentials
-(
-false
-)
 mReportCollector
 (
 new
@@ -10075,8 +10071,6 @@ httpInternal
 SetCorsPreflightParameters
 (
 mUnsafeHeaders
-mWithCredentials
-mPreflightPrincipal
 )
 ;
 if
@@ -12021,11 +12015,6 @@ nsCString
 >
 &
 aUnsafeHeaders
-bool
-aWithCredentials
-nsIPrincipal
-*
-aPrincipal
 )
 {
 ENSURE_CALLED_BEFORE_CONNECT
@@ -12039,14 +12028,6 @@ true
 mUnsafeHeaders
 =
 aUnsafeHeaders
-;
-mWithCredentials
-=
-aWithCredentials
-;
-mPreflightPrincipal
-=
-aPrincipal
 ;
 return
 NS_OK
