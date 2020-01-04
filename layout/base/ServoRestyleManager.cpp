@@ -1392,7 +1392,7 @@ ServoRestyleManager
 :
 RestyleForInsertOrChange
 (
-Element
+nsINode
 *
 aContainer
 nsIContent
@@ -1407,7 +1407,7 @@ ServoRestyleManager
 :
 ContentInserted
 (
-Element
+nsINode
 *
 aContainer
 nsIContent
@@ -1456,7 +1456,7 @@ ServoRestyleManager
 :
 RestyleForAppend
 (
-Element
+nsIContent
 *
 aContainer
 nsIContent
@@ -1471,7 +1471,7 @@ ServoRestyleManager
 :
 ContentAppended
 (
-Element
+nsIContent
 *
 aContainer
 nsIContent
@@ -1551,7 +1551,7 @@ ServoRestyleManager
 :
 ContentRemoved
 (
-Element
+nsINode
 *
 aContainer
 nsIContent

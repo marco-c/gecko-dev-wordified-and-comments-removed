@@ -957,7 +957,7 @@ public
 void
 ContentInserted
 (
-Element
+nsINode
 *
 aContainer
 nsIContent
@@ -975,7 +975,7 @@ aChild
 void
 ContentAppended
 (
-Element
+nsIContent
 *
 aContainer
 nsIContent
@@ -993,7 +993,7 @@ aFirstNewContent
 void
 ContentRemoved
 (
-Element
+nsINode
 *
 aContainer
 nsIContent
@@ -1007,7 +1007,7 @@ aFollowingSibling
 void
 RestyleForInsertOrChange
 (
-Element
+nsINode
 *
 aContainer
 nsIContent
@@ -1018,7 +1018,7 @@ aChild
 void
 RestyleForAppend
 (
-Element
+nsIContent
 *
 aContainer
 nsIContent
