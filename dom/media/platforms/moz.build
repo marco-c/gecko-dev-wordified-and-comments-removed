@@ -489,6 +489,13 @@ AndroidDecoderModule
 .
 cpp
 '
+'
+android
+/
+MediaCodecDataDecoder
+.
+cpp
+'
 ]
 FINAL_LIBRARY
 =
