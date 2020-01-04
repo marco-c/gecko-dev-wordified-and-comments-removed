@@ -9645,9 +9645,9 @@ nsWindow
 :
 UpdateAlpha
 (
-gfxPattern
+SourceSurface
 *
-aPattern
+aSourceSurface
 nsIntRect
 aBoundsRect
 )
