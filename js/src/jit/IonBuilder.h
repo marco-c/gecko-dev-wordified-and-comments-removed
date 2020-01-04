@@ -7076,9 +7076,6 @@ setImplicitlyUsedUnchecked
 bool
 NeedsPostBarrier
 (
-CompileInfo
-&
-info
 MDefinition
 *
 value

@@ -125,6 +125,7 @@ alloc
 MIRGraph
 *
 graph
+const
 CompileInfo
 *
 info
@@ -207,11 +208,13 @@ jitRuntime
 )
 ;
 }
+const
 CompileInfo
 &
 info
 (
 )
+const
 {
 return
 *
@@ -643,6 +646,7 @@ compartment
 ;
 protected
 :
+const
 CompileInfo
 *
 info_

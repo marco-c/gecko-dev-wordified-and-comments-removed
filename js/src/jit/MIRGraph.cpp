@@ -96,6 +96,7 @@ alloc
 MIRGraph
 *
 graph
+const
 CompileInfo
 *
 info
@@ -1007,6 +1008,7 @@ graph
 BytecodeAnalysis
 *
 analysis
+const
 CompileInfo
 &
 info
@@ -1101,6 +1103,7 @@ NewPopN
 MIRGraph
 &
 graph
+const
 CompileInfo
 &
 info
@@ -1184,6 +1187,7 @@ NewWithResumePoint
 MIRGraph
 &
 graph
+const
 CompileInfo
 &
 info
@@ -1306,6 +1310,7 @@ NewPendingLoopHeader
 MIRGraph
 &
 graph
+const
 CompileInfo
 &
 info
@@ -1401,6 +1406,7 @@ NewSplitEdge
 MIRGraph
 &
 graph
+const
 CompileInfo
 &
 info
@@ -1474,6 +1480,7 @@ NewAsmJS
 MIRGraph
 &
 graph
+const
 CompileInfo
 &
 info
@@ -1774,6 +1781,7 @@ MBasicBlock
 MIRGraph
 &
 graph
+const
 CompileInfo
 &
 info

@@ -1033,6 +1033,7 @@ loop
 "
 )
 ;
+const
 CompileInfo
 &
 info

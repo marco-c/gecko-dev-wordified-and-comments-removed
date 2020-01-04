@@ -897,6 +897,7 @@ jsbytecode
 osrPc
 (
 )
+const
 {
 return
 osrPc_
@@ -931,6 +932,7 @@ jsbytecode
 *
 pc
 )
+const
 {
 MOZ_ASSERT
 (

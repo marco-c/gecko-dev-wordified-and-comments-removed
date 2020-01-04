@@ -4137,9 +4137,6 @@ if
 (
 NeedsPostBarrier
 (
-info
-(
-)
 value
 )
 )
@@ -13691,9 +13688,6 @@ if
 (
 NeedsPostBarrier
 (
-info
-(
-)
 callInfo
 .
 getArg
