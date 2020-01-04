@@ -287,9 +287,8 @@ tab
 linkedBrowser
 )
 ;
-options
-.
-gBrowser
+yield
+BrowserTestUtils
 .
 removeTab
 (
