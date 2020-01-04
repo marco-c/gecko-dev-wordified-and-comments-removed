@@ -37,15 +37,6 @@ jsdebugger
 "
 devtools
 .
-errorconsole
-.
-enabled
-"
-:
-true
-"
-devtools
-.
 chrome
 .
 enabled
