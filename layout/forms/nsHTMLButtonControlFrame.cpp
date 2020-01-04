@@ -765,7 +765,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -977,11 +977,11 @@ aDesiredSize
 ;
 }
 static
-nsHTMLReflowState
+ReflowInput
 CloneReflowStateWithReducedContentBox
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aButtonReflowState
 const
@@ -1054,7 +1054,7 @@ adjustedHeight
 )
 ;
 }
-nsHTMLReflowState
+ReflowInput
 clone
 (
 aButtonReflowState
@@ -1091,7 +1091,7 @@ nsHTMLReflowMetrics
 &
 aButtonDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aButtonReflowState
 nsIFrame
@@ -1325,7 +1325,7 @@ wm
 0
 )
 ;
-nsHTMLReflowState
+ReflowInput
 adjustedButtonReflowState
 =
 CloneReflowStateWithReducedContentBox
@@ -1339,7 +1339,7 @@ wm
 )
 )
 ;
-nsHTMLReflowState
+ReflowInput
 contentsReflowState
 (
 aPresContext

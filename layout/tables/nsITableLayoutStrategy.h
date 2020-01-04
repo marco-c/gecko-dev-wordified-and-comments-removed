@@ -25,7 +25,7 @@ namespace
 mozilla
 {
 struct
-nsHTMLReflowState
+ReflowInput
 ;
 }
 class
@@ -34,12 +34,12 @@ nsITableLayoutStrategy
 public
 :
 using
-nsHTMLReflowState
+ReflowInput
 =
 mozilla
 :
 :
-nsHTMLReflowState
+ReflowInput
 ;
 virtual
 ~
@@ -85,7 +85,7 @@ void
 ComputeColumnISizes
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )

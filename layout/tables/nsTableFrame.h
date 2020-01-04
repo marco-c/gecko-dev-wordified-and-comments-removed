@@ -572,7 +572,7 @@ bool
 AncestorsHaveStyleBSize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aParentReflowState
 )
@@ -582,7 +582,7 @@ void
 CheckRequestSpecialBSizeReflow
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -592,7 +592,7 @@ void
 RequestSpecialBSizeReflow
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -643,7 +643,7 @@ nsPoint
 GetFirstSectionOrigin
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -765,7 +765,7 @@ const
 WritingMode
 aWM
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 )
@@ -1205,7 +1205,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -1221,7 +1221,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nscoord
@@ -1708,7 +1708,7 @@ nsTableFrame
 void
 InitChildReflowState
 (
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -1718,7 +1718,7 @@ LogicalSides
 GetLogicalSkipSides
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 =
@@ -1822,7 +1822,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -1883,7 +1883,7 @@ nscoord
 CalcBorderBoxBSize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -1894,7 +1894,7 @@ void
 CalcDesiredBSize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsHTMLReflowMetrics
@@ -1906,7 +1906,7 @@ void
 DistributeBSizeToRows
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nscoord

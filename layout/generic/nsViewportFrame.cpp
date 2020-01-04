@@ -1039,7 +1039,7 @@ ViewportFrame
 :
 AdjustReflowStateForScrollbars
 (
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 )
@@ -1178,7 +1178,7 @@ ViewportFrame
 :
 AdjustReflowStateAsContainingBlock
 (
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 )
@@ -1322,7 +1322,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -1471,7 +1471,7 @@ AvailableSize
 wm
 )
 ;
-nsHTMLReflowState
+ReflowInput
 kidReflowState
 (
 aPresContext
@@ -1617,7 +1617,7 @@ HasAbsolutelyPositionedChildren
 )
 )
 {
-nsHTMLReflowState
+ReflowInput
 reflowState
 (
 aReflowState

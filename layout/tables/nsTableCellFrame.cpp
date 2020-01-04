@@ -474,13 +474,13 @@ nsTableCellFrame
 NotifyPercentBSize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
 {
 const
-nsHTMLReflowState
+ReflowInput
 *
 cellRS
 =
@@ -573,7 +573,7 @@ NS_ROW_HAS_CELL_WITH_STYLE_BSIZE
 for
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 rs
 =
@@ -625,13 +625,13 @@ nsTableCellFrame
 NeedsToObserve
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
 {
 const
-nsHTMLReflowState
+ReflowInput
 *
 rs
 =
@@ -2517,7 +2517,7 @@ nsTableCellFrame
 GetLogicalSkipSides
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 )
@@ -3936,7 +3936,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -4181,7 +4181,7 @@ mSpecialBSizeReflow
 {
 const_cast
 <
-nsHTMLReflowState
+ReflowInput
 &
 >
 (
@@ -4249,7 +4249,7 @@ computedUnpaginatedBSize
 {
 const_cast
 <
-nsHTMLReflowState
+ReflowInput
 &
 >
 (
@@ -4285,7 +4285,7 @@ GetWritingMode
 (
 )
 ;
-nsHTMLReflowState
+ReflowInput
 kidReflowState
 (
 aPresContext

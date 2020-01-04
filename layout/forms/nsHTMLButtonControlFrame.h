@@ -124,7 +124,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -409,7 +409,7 @@ nsHTMLReflowMetrics
 &
 aButtonDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aButtonReflowState
 nsIFrame

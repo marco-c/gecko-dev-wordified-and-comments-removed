@@ -274,7 +274,7 @@ class
 EventStates
 ;
 struct
-nsHTMLReflowState
+ReflowInput
 ;
 namespace
 layers
@@ -1091,12 +1091,12 @@ T
 *
 ;
 using
-nsHTMLReflowState
+ReflowInput
 =
 mozilla
 :
 :
-nsHTMLReflowState
+ReflowInput
 ;
 using
 Visibility
@@ -5299,7 +5299,7 @@ nsHTMLReflowMetrics
 &
 aReflowMetrics
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -5317,7 +5317,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 nsDidReflowStatus
@@ -6099,7 +6099,7 @@ Sides
 GetSkipSides
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 =
@@ -6112,7 +6112,7 @@ LogicalSides
 GetLogicalSkipSides
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 =

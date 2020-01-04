@@ -25320,7 +25320,7 @@ blockHeight
 }
 aCoord
 =
-nsHTMLReflowState
+ReflowInput
 :
 :
 CalcLineHeight

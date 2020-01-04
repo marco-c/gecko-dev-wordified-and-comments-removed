@@ -32,7 +32,7 @@ namespace
 mozilla
 {
 struct
-nsHTMLReflowState
+ReflowInput
 ;
 }
 class
@@ -40,12 +40,12 @@ MOZ_STACK_CLASS
 nsBoxLayoutState
 {
 using
-nsHTMLReflowState
+ReflowInput
 =
 mozilla
 :
 :
-nsHTMLReflowState
+ReflowInput
 ;
 public
 :
@@ -61,7 +61,7 @@ aRenderingContext
 =
 nullptr
 const
-nsHTMLReflowState
+ReflowInput
 *
 aOuterReflowState
 =
@@ -204,7 +204,7 @@ mState
 }
 ;
 const
-nsHTMLReflowState
+ReflowInput
 *
 OuterReflowState
 (
@@ -236,7 +236,7 @@ nsRenderingContext
 mRenderingContext
 ;
 const
-nsHTMLReflowState
+ReflowInput
 *
 mOuterReflowState
 ;

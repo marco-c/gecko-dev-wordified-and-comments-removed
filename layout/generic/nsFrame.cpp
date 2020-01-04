@@ -5064,7 +5064,7 @@ nsIFrame
 GetSkipSides
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 )
@@ -22960,7 +22960,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 nsDidReflowStatus
@@ -23112,7 +23112,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -23151,7 +23151,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -23374,7 +23374,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -27248,7 +27248,7 @@ ComputedOffsetProperty
 )
 ;
 }
-nsHTMLReflowState
+ReflowInput
 :
 :
 ApplyRelativePositioning
@@ -28019,7 +28019,7 @@ nsFrame
 IsFrameTreeTooDeep
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsHTMLReflowMetrics
@@ -42348,7 +42348,7 @@ HasAbsolutelyPositionedChildren
 )
 )
 {
-nsHTMLReflowState
+ReflowInput
 reflowState
 (
 aState
@@ -42370,7 +42370,7 @@ ISize
 )
 NS_UNCONSTRAINEDSIZE
 )
-nsHTMLReflowState
+ReflowInput
 :
 :
 DUMMY_PARENT_REFLOW_STATE
@@ -42812,7 +42812,7 @@ GetWritingMode
 (
 )
 ;
-nsHTMLReflowState
+ReflowInput
 parentReflowState
 (
 aPresContext
@@ -42823,7 +42823,7 @@ LogicalSize
 parentWM
 parentSize
 )
-nsHTMLReflowState
+ReflowInput
 :
 :
 DUMMY_PARENT_REFLOW_STATE
@@ -42951,7 +42951,7 @@ ComputedPhysicalPadding
 )
 ;
 const
-nsHTMLReflowState
+ReflowInput
 *
 outerReflowState
 =
@@ -42989,7 +42989,7 @@ frame
 )
 ;
 const
-nsHTMLReflowState
+ReflowInput
 *
 parentRS
 ;
@@ -43047,7 +43047,7 @@ wm
 =
 NS_INTRINSICSIZE
 ;
-nsHTMLReflowState
+ReflowInput
 reflowState
 (
 aPresContext
@@ -43056,7 +43056,7 @@ parentRS
 this
 logicalSize
 nullptr
-nsHTMLReflowState
+ReflowInput
 :
 :
 DUMMY_PARENT_REFLOW_STATE
@@ -44860,7 +44860,7 @@ printf
 void
 nsAdaptorPrintReason
 (
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -45423,7 +45423,7 @@ nsIFrame
 *
 aFrame
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsHTMLReflowMetrics
@@ -45705,7 +45705,7 @@ DR_init_constraints_cookie
 nsIFrame
 *
 aFrame
-nsHTMLReflowState
+ReflowInput
 *
 aState
 nscoord
@@ -45738,7 +45738,7 @@ DR_init_constraints_cookie
 ;
 mValue
 =
-nsHTMLReflowState
+ReflowInput
 :
 :
 DisplayInitConstraintsEnter
@@ -45765,7 +45765,7 @@ MOZ_COUNT_DTOR
 DR_init_constraints_cookie
 )
 ;
-nsHTMLReflowState
+ReflowInput
 :
 :
 DisplayInitConstraintsExit
@@ -45862,7 +45862,7 @@ DR_init_type_cookie
 nsIFrame
 *
 aFrame
-nsHTMLReflowState
+ReflowInput
 *
 aState
 )
@@ -45883,7 +45883,7 @@ DR_init_type_cookie
 ;
 mValue
 =
-nsHTMLReflowState
+ReflowInput
 :
 :
 DisplayInitFrameTypeEnter
@@ -45906,7 +45906,7 @@ MOZ_COUNT_DTOR
 DR_init_type_cookie
 )
 ;
-nsHTMLReflowState
+ReflowInput
 :
 :
 DisplayInitFrameTypeExit
@@ -45990,7 +45990,7 @@ nsIFrame
 *
 aFrame
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 )
@@ -48751,7 +48751,7 @@ nsIFrame
 *
 aFrame
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 )
@@ -48766,7 +48766,7 @@ aReflowState
 )
 {
 const
-nsHTMLReflowState
+ReflowInput
 *
 parentRS
 =
@@ -49290,7 +49290,7 @@ nsIFrame
 *
 aFrame
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 DR_FrameTreeNode
@@ -49671,7 +49671,7 @@ nsIFrame
 *
 aFrame
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -51098,7 +51098,7 @@ true
 }
 void
 *
-nsHTMLReflowState
+ReflowInput
 :
 :
 DisplayInitConstraintsEnter
@@ -51106,7 +51106,7 @@ DisplayInitConstraintsEnter
 nsIFrame
 *
 aFrame
-nsHTMLReflowState
+ReflowInput
 *
 aState
 nscoord
@@ -51354,7 +51354,7 @@ treeNode
 ;
 }
 void
-nsHTMLReflowState
+ReflowInput
 :
 :
 DisplayInitConstraintsExit
@@ -51362,7 +51362,7 @@ DisplayInitConstraintsExit
 nsIFrame
 *
 aFrame
-nsHTMLReflowState
+ReflowInput
 *
 aState
 void
@@ -52020,7 +52020,7 @@ treeNode
 }
 void
 *
-nsHTMLReflowState
+ReflowInput
 :
 :
 DisplayInitFrameTypeEnter
@@ -52028,7 +52028,7 @@ DisplayInitFrameTypeEnter
 nsIFrame
 *
 aFrame
-nsHTMLReflowState
+ReflowInput
 *
 aState
 )
@@ -52095,7 +52095,7 @@ aState
 ;
 }
 void
-nsHTMLReflowState
+ReflowInput
 :
 :
 DisplayInitFrameTypeExit
@@ -52103,7 +52103,7 @@ DisplayInitFrameTypeExit
 nsIFrame
 *
 aFrame
-nsHTMLReflowState
+ReflowInput
 *
 aState
 void

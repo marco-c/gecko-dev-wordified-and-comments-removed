@@ -1821,7 +1821,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -2143,7 +2143,7 @@ wm
 ;
 Maybe
 <
-nsHTMLReflowState
+ReflowInput
 >
 legendReflowState
 ;
@@ -2437,7 +2437,7 @@ if
 reflowInner
 )
 {
-nsHTMLReflowState
+ReflowInput
 kidReflowState
 (
 aPresContext
@@ -2445,7 +2445,7 @@ aReflowState
 inner
 innerAvailSize
 nullptr
-nsHTMLReflowState
+ReflowInput
 :
 :
 CALLER_WILL_INIT
@@ -3025,7 +3025,7 @@ GetWritingMode
 )
 )
 ;
-nsHTMLReflowState
+ReflowInput
 :
 :
 ApplyRelativePositioning

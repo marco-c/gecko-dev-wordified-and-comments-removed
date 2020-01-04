@@ -1048,7 +1048,7 @@ nsSplittableFrame
 GetEffectiveComputedBSize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nscoord
@@ -1118,7 +1118,7 @@ nsSplittableFrame
 GetLogicalSkipSides
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 )

@@ -2334,7 +2334,7 @@ BasicTableLayoutStrategy
 ComputeColumnISizes
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )

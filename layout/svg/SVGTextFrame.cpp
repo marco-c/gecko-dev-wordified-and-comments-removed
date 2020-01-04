@@ -20181,7 +20181,7 @@ GetWritingMode
 (
 )
 ;
-nsHTMLReflowState
+ReflowInput
 reflowState
 (
 presContext

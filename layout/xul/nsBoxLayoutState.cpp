@@ -17,7 +17,7 @@ nsRenderingContext
 *
 aRenderingContext
 const
-nsHTMLReflowState
+ReflowInput
 *
 aOuterReflowState
 uint16_t

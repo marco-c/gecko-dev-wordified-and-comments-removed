@@ -543,7 +543,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -2522,7 +2522,7 @@ GetWritingMode
 (
 )
 ;
-nsHTMLReflowState
+ReflowInput
 reflowState
 (
 presContext

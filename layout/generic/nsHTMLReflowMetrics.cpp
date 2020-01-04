@@ -117,7 +117,7 @@ nsHTMLReflowMetrics
 nsHTMLReflowMetrics
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aState
 uint32_t

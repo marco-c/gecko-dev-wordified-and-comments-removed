@@ -1402,7 +1402,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -1554,7 +1554,7 @@ ShouldReflowAllKids
 )
 )
 ;
-nsHTMLReflowState
+ReflowInput
 state
 (
 aReflowState
@@ -1885,7 +1885,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -1975,7 +1975,7 @@ wm
 ;
 #
 endif
-nsHTMLReflowState
+ReflowInput
 state
 (
 aReflowState
@@ -5599,7 +5599,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 nsDidReflowStatus

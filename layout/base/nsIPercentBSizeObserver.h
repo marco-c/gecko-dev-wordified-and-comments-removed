@@ -15,7 +15,7 @@ namespace
 mozilla
 {
 struct
-nsHTMLReflowState
+ReflowInput
 ;
 }
 class
@@ -35,7 +35,7 @@ const
 mozilla
 :
 :
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -50,7 +50,7 @@ const
 mozilla
 :
 :
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )

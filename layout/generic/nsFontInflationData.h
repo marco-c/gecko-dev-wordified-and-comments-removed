@@ -15,12 +15,12 @@ class
 nsFontInflationData
 {
 using
-nsHTMLReflowState
+ReflowInput
 =
 mozilla
 :
 :
-nsHTMLReflowState
+ReflowInput
 ;
 public
 :
@@ -40,7 +40,7 @@ bool
 UpdateFontInflationDataISizeFor
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -117,7 +117,7 @@ void
 UpdateISize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )

@@ -454,7 +454,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nscoord
@@ -620,7 +620,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -1192,7 +1192,7 @@ SetSharedPageData
 mPageData
 )
 ;
-nsHTMLReflowState
+ReflowInput
 kidReflowState
 (
 aPresContext

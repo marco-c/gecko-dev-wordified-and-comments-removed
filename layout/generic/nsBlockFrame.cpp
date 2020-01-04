@@ -2531,7 +2531,7 @@ inflation
 nscoord
 lineHeight
 =
-nsHTMLReflowState
+ReflowInput
 :
 :
 CalcLineHeight
@@ -4925,7 +4925,7 @@ CalculateContainingBlockSizeForAbsolutes
 WritingMode
 aWM
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 LogicalSize
@@ -5040,7 +5040,7 @@ canvasFrame
 )
 {
 const
-nsHTMLReflowState
+ReflowInput
 *
 aLastRS
 =
@@ -5048,7 +5048,7 @@ aLastRS
 aReflowState
 ;
 const
-nsHTMLReflowState
+ReflowInput
 *
 lastButOneRS
 =
@@ -5395,7 +5395,7 @@ nsHTMLReflowMetrics
 &
 aMetrics
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -5526,7 +5526,7 @@ GetCtorCount
 #
 endif
 const
-nsHTMLReflowState
+ReflowInput
 *
 reflowState
 =
@@ -5560,7 +5560,7 @@ consumedBSize
 ;
 Maybe
 <
-nsHTMLReflowState
+ReflowInput
 >
 mutableReflowState
 ;
@@ -5704,7 +5704,7 @@ autoFloatManager
 (
 const_cast
 <
-nsHTMLReflowState
+ReflowInput
 &
 >
 (
@@ -7321,7 +7321,7 @@ nsBlockFrame
 ComputeFinalSize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsBlockReflowState
@@ -15450,7 +15450,7 @@ ContentSize
 wm
 )
 ;
-nsHTMLReflowState
+ReflowInput
 reflowState
 (
 aState
@@ -15866,7 +15866,7 @@ bStartMargin
 }
 Maybe
 <
-nsHTMLReflowState
+ReflowInput
 >
 blockHtmlRS
 ;
@@ -28616,7 +28616,7 @@ GetWritingMode
 (
 )
 ;
-nsHTMLReflowState
+ReflowInput
 floatRS
 (
 aState
@@ -28780,7 +28780,7 @@ wm
 ;
 #
 endif
-nsHTMLReflowState
+ReflowInput
 floatRS
 (
 aState
@@ -33557,7 +33557,7 @@ aLineTop
 )
 {
 const
-nsHTMLReflowState
+ReflowInput
 &
 rs
 =
@@ -33603,7 +33603,7 @@ bulletWM
 =
 NS_UNCONSTRAINEDSIZE
 ;
-nsHTMLReflowState
+ReflowInput
 reflowState
 (
 aState
@@ -34655,7 +34655,7 @@ frWM
 wm
 )
 ;
-nsHTMLReflowState
+ReflowInput
 reflowState
 (
 aState
@@ -34797,7 +34797,7 @@ nsBlockFrame
 ComputeFinalBSize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus

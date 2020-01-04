@@ -222,7 +222,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -253,7 +253,7 @@ override
 nsRect
 AdjustReflowStateAsContainingBlock
 (
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 )
@@ -300,7 +300,7 @@ protected
 nsPoint
 AdjustReflowStateForScrollbars
 (
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 )

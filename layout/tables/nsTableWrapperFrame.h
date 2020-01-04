@@ -333,7 +333,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -655,7 +655,7 @@ InitChildReflowState
 nsPresContext
 &
 aPresContext
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 )
@@ -855,7 +855,7 @@ nsIFrame
 *
 aChildFrame
 const
-nsHTMLReflowState
+ReflowInput
 &
 aOuterRS
 mozilla
@@ -863,7 +863,7 @@ mozilla
 :
 Maybe
 <
-nsHTMLReflowState
+ReflowInput
 >
 &
 aChildRS
@@ -881,7 +881,7 @@ nsIFrame
 *
 aChildFrame
 const
-nsHTMLReflowState
+ReflowInput
 &
 aChildRS
 nsHTMLReflowMetrics
@@ -907,7 +907,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 &
 aOuterRS
 nsIFrame

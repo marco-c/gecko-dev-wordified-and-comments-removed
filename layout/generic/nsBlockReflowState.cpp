@@ -109,7 +109,7 @@ nsBlockReflowState
 nsBlockReflowState
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsPresContext
@@ -3064,7 +3064,7 @@ nscoord
 FloatMarginISize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aCBReflowState
 nscoord
@@ -4289,7 +4289,7 @@ wm
 )
 )
 ;
-nsHTMLReflowState
+ReflowInput
 :
 :
 ApplyRelativePositioning

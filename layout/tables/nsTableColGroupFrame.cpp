@@ -1720,7 +1720,7 @@ nsTableColGroupFrame
 GetLogicalSkipSides
 (
 const
-nsHTMLReflowState
+ReflowInput
 *
 aReflowState
 )
@@ -1800,7 +1800,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -1914,7 +1914,7 @@ kidSize
 aReflowState
 )
 ;
-nsHTMLReflowState
+ReflowInput
 kidReflowState
 (
 aPresContext

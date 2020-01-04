@@ -983,7 +983,7 @@ nsHTMLReflowMetrics
 &
 aMetrics
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -1277,7 +1277,7 @@ aMetrics
 mFlags
 )
 ;
-nsHTMLReflowState
+ReflowInput
 childReflowState
 (
 aPresContext

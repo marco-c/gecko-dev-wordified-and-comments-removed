@@ -31,12 +31,12 @@ class
 nsBlockReflowContext
 {
 using
-nsHTMLReflowState
+ReflowInput
 =
 mozilla
 :
 :
-nsHTMLReflowState
+ReflowInput
 ;
 public
 :
@@ -46,7 +46,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 &
 aParentRS
 )
@@ -79,7 +79,7 @@ aIsAdjacentWithBStart
 nsLineBox
 *
 aLine
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -94,7 +94,7 @@ bool
 PlaceBlock
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 bool
@@ -140,7 +140,7 @@ bool
 ComputeCollapsedBStartMargin
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aRS
 nsCollapsingMargin
@@ -166,7 +166,7 @@ nsPresContext
 mPresContext
 ;
 const
-nsHTMLReflowState
+ReflowInput
 &
 mOuterReflowState
 ;

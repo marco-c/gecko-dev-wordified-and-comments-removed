@@ -771,7 +771,7 @@ void
 ComputeFinalBSize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -807,7 +807,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -1270,7 +1270,7 @@ void
 ComputeFinalSize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsBlockReflowState

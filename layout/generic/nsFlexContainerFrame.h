@@ -115,7 +115,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -206,7 +206,7 @@ nsHTMLReflowMetrics
 &
 aDesiredSize
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -271,7 +271,7 @@ nsIFrame
 *
 aChildFrame
 const
-nsHTMLReflowState
+ReflowInput
 &
 aParentReflowState
 const
@@ -292,7 +292,7 @@ aFlexItem
 bool
 aForceVerticalResizeForMeasuringReflow
 const
-nsHTMLReflowState
+ReflowInput
 &
 aParentReflowState
 )
@@ -307,7 +307,7 @@ FlexItem
 &
 aFlexItem
 const
-nsHTMLReflowState
+ReflowInput
 &
 aItemReflowState
 const
@@ -323,7 +323,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 nscoord
@@ -356,7 +356,7 @@ nscoord
 GetMainSizeFromReflowState
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 const
@@ -369,7 +369,7 @@ nscoord
 ComputeCrossSize
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 const
@@ -398,7 +398,7 @@ const
 FlexboxAxisTracker
 &
 aAxisTracker
-nsHTMLReflowState
+ReflowInput
 &
 aChildReflowState
 FlexItem
@@ -410,7 +410,7 @@ void
 MoveFlexItemToFinalPosition
 (
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 const
@@ -440,7 +440,7 @@ FlexboxAxisTracker
 &
 aAxisTracker
 const
-nsHTMLReflowState
+ReflowInput
 &
 aReflowState
 const

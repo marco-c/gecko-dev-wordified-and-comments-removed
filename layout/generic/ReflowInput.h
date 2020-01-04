@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_nsHTMLReflowState_h
+mozilla_ReflowInput_h
 #
 define
-mozilla_nsHTMLReflowState_h
+mozilla_ReflowInput_h
 #
 include
 "
@@ -880,13 +880,13 @@ const
 }
 ;
 struct
-nsHTMLReflowState
+ReflowInput
 :
 public
 nsCSSOffsetState
 {
 const
-nsHTMLReflowState
+ReflowInput
 *
 mParentReflowState
 ;
@@ -899,7 +899,7 @@ nsLineLayout
 mLineLayout
 ;
 const
-nsHTMLReflowState
+ReflowInput
 *
 mCBReflowState
 ;
@@ -2238,7 +2238,7 @@ mIsBResize
 aValue
 ;
 }
-nsHTMLReflowState
+ReflowInput
 (
 nsPresContext
 *
@@ -2262,13 +2262,13 @@ aFlags
 0
 )
 ;
-nsHTMLReflowState
+ReflowInput
 (
 nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 &
 aParentReflowState
 nsIFrame
@@ -2412,7 +2412,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 *
 aContainingBlockRS
 )
@@ -2992,7 +2992,7 @@ DisplayInitConstraintsEnter
 nsIFrame
 *
 aFrame
-nsHTMLReflowState
+ReflowInput
 *
 aState
 nscoord
@@ -3016,7 +3016,7 @@ DisplayInitConstraintsExit
 nsIFrame
 *
 aFrame
-nsHTMLReflowState
+ReflowInput
 *
 aState
 void
@@ -3032,7 +3032,7 @@ DisplayInitFrameTypeEnter
 nsIFrame
 *
 aFrame
-nsHTMLReflowState
+ReflowInput
 *
 aState
 )
@@ -3044,7 +3044,7 @@ DisplayInitFrameTypeExit
 nsIFrame
 *
 aFrame
-nsHTMLReflowState
+ReflowInput
 *
 aState
 void
@@ -3135,7 +3135,7 @@ nsIFrame
 *
 aPlaceholderFrame
 const
-nsHTMLReflowState
+ReflowInput
 *
 cbrs
 nsHypotheticalPosition
@@ -3154,7 +3154,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowState
+ReflowInput
 *
 cbrs
 const
