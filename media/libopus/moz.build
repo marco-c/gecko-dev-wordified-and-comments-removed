@@ -616,16 +616,8 @@ celt_pitch_xcorr_arm
 -
 gnu
 .
-%
 s
 '
-%
-CONFIG
-[
-'
-ASM_SUFFIX
-'
-]
 ]
 #
 -

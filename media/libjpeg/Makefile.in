@@ -59,9 +59,6 @@ AS
 (
 LIBJPEG_TURBO_AS
 )
-ASM_SUFFIX
-=
-asm
 include
 (
 topsrcdir

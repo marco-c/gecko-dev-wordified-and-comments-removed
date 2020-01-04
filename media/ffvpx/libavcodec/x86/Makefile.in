@@ -59,6 +59,3 @@ AS
 (
 FFVPX_AS
 )
-ASM_SUFFIX
-=
-asm

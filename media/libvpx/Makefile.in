@@ -66,11 +66,6 @@ AS
 (
 VPX_AS
 )
-ASM_SUFFIX
-=
-(
-VPX_ASM_SUFFIX
-)
 ifdef
 VPX_ARM_ASM
 ifdef
@@ -118,9 +113,7 @@ ASFILES
 .
 asm
 .
-(
-ASM_SUFFIX
-)
+s
 :
 %
 .
