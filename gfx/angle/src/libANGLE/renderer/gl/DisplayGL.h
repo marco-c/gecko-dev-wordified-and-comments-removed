@@ -95,10 +95,11 @@ attribs
 )
 override
 ;
-egl
+gl
 :
 :
-Error
+Context
+*
 createContext
 (
 const
@@ -122,13 +123,6 @@ egl
 AttributeMap
 &
 attribs
-gl
-:
-:
-Context
-*
-*
-outContext
 )
 override
 ;

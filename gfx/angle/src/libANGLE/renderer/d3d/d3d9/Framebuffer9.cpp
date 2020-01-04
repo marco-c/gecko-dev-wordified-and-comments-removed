@@ -163,6 +163,7 @@ renderer
 FramebufferD3D
 (
 data
+renderer
 )
 mRenderer
 (

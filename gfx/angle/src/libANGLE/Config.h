@@ -165,6 +165,9 @@ transparentGreenValue
 EGLint
 transparentBlueValue
 ;
+EGLint
+optimalOrientation
+;
 }
 ;
 class

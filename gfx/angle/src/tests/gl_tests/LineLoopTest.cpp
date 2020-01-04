@@ -604,6 +604,10 @@ LineLoopTest
 LineLoopUByteIndices
 )
 {
+ignoreD3D11SDKLayersWarnings
+(
+)
+;
 static
 const
 GLubyte
@@ -636,6 +640,10 @@ LineLoopTest
 LineLoopUShortIndices
 )
 {
+ignoreD3D11SDKLayersWarnings
+(
+)
+;
 static
 const
 GLushort
@@ -682,6 +690,10 @@ GL_OES_element_index_uint
 return
 ;
 }
+ignoreD3D11SDKLayersWarnings
+(
+)
+;
 static
 const
 GLuint
@@ -714,6 +726,10 @@ LineLoopTest
 LineLoopUByteIndexBuffer
 )
 {
+ignoreD3D11SDKLayersWarnings
+(
+)
+;
 static
 const
 GLubyte
@@ -789,6 +805,10 @@ LineLoopTest
 LineLoopUShortIndexBuffer
 )
 {
+ignoreD3D11SDKLayersWarnings
+(
+)
+;
 static
 const
 GLushort
@@ -878,6 +898,10 @@ GL_OES_element_index_uint
 return
 ;
 }
+ignoreD3D11SDKLayersWarnings
+(
+)
+;
 static
 const
 GLuint
@@ -957,6 +981,9 @@ ES2_D3D11
 (
 )
 ES2_OPENGL
+(
+)
+ES2_OPENGLES
 (
 )
 )
