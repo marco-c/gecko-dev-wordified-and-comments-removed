@@ -126,6 +126,11 @@ nsIBrowserProfileMigrator
 .
 idl
 '
+'
+nsIEdgeReadingListExtractor
+.
+idl
+'
 ]
 XPIDL_MODULE
 =
@@ -149,6 +154,11 @@ SOURCES
 +
 =
 [
+'
+nsEdgeReadingListExtractor
+.
+cpp
+'
 '
 nsIEHistoryEnumerator
 .

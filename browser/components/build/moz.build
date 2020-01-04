@@ -172,6 +172,9 @@ OS_LIBS
 =
 [
 '
+esent
+'
+'
 ole32
 '
 '
