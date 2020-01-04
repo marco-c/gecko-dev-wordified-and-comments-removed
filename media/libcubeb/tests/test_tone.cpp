@@ -123,6 +123,7 @@ user
 const
 void
 *
+inputbuffer
 void
 *
 outputbuffer
@@ -457,8 +458,10 @@ int
 main
 (
 int
+argc
 char
 *
+argv
 [
 ]
 )

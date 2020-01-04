@@ -1534,6 +1534,7 @@ data_cb
 (
 cubeb_stream
 *
+stm
 void
 *
 user_ptr
@@ -2833,8 +2834,10 @@ test_output_only_noop_data_cb
 (
 cubeb_stream
 *
+stm
 void
 *
+user_ptr
 const
 void
 *
@@ -2961,8 +2964,10 @@ test_drain_data_cb
 (
 cubeb_stream
 *
+stm
 void
 *
+user_ptr
 const
 void
 *

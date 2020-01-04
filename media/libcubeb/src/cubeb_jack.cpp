@@ -1513,6 +1513,9 @@ arg
 int
 i
 ;
+uint32_t
+rate
+;
 jack_latency_range_t
 latency_range
 ;
@@ -3663,6 +3666,7 @@ cbjack_get_backend_id
 (
 cubeb
 *
+context
 )
 {
 return
@@ -3677,6 +3681,7 @@ cbjack_get_max_channel_count
 (
 cubeb
 *
+ctx
 uint32_t
 *
 max_channels
@@ -3727,6 +3732,7 @@ cubeb
 *
 ctx
 cubeb_stream_params
+params
 uint32_t
 *
 latency_ms
@@ -3994,6 +4000,7 @@ cubeb_stream_params
 output_stream_params
 unsigned
 int
+latency_frames
 cubeb_data_callback
 data_callback
 cubeb_state_callback
@@ -4077,16 +4084,6 @@ return
 CUBEB_ERROR_INVALID_FORMAT
 ;
 }
-if
-(
-input_device
-|
-|
-output_device
-)
-return
-CUBEB_ERROR_NOT_SUPPORTED
-;
 *
 stream
 =
@@ -5459,6 +5456,7 @@ cbjack_stream_device_destroy
 (
 cubeb_stream
 *
+stream
 cubeb_device
 *
 device
