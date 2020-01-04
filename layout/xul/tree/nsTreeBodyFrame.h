@@ -202,8 +202,6 @@ nsIScrollbarMediator
 public
 nsIReflowCallback
 {
-public
-:
 typedef
 mozilla
 :
@@ -214,6 +212,18 @@ layout
 ScrollbarActivity
 ScrollbarActivity
 ;
+typedef
+mozilla
+:
+:
+image
+:
+:
+DrawResult
+DrawResult
+;
+public
+:
 explicit
 nsTreeBodyFrame
 (
@@ -982,7 +992,7 @@ mColumnsScrollFrame
 ;
 }
 ;
-void
+DrawResult
 PaintTreeBody
 (
 nsRenderingContext
@@ -1039,7 +1049,7 @@ friend
 class
 nsOverflowChecker
 ;
-void
+DrawResult
 PaintColumn
 (
 nsTreeColumn
@@ -1061,7 +1071,7 @@ nsRect
 aDirtyRect
 )
 ;
-void
+DrawResult
 PaintRow
 (
 int32_t
@@ -1084,7 +1094,7 @@ nsPoint
 aPt
 )
 ;
-void
+DrawResult
 PaintSeparator
 (
 int32_t
@@ -1105,7 +1115,7 @@ nsRect
 aDirtyRect
 )
 ;
-void
+DrawResult
 PaintCell
 (
 int32_t
@@ -1134,7 +1144,7 @@ nsPoint
 aPt
 )
 ;
-void
+DrawResult
 PaintTwisty
 (
 int32_t
@@ -1164,7 +1174,7 @@ nscoord
 aCurrX
 )
 ;
-void
+DrawResult
 PaintImage
 (
 int32_t
@@ -1221,7 +1231,7 @@ nscoord
 aCurrX
 )
 ;
-void
+DrawResult
 PaintCheckbox
 (
 int32_t
@@ -1245,7 +1255,7 @@ nsRect
 aDirtyRect
 )
 ;
-void
+DrawResult
 PaintProgressMeter
 (
 int32_t
@@ -1269,7 +1279,7 @@ nsRect
 aDirtyRect
 )
 ;
-void
+DrawResult
 PaintDropFeedback
 (
 const
@@ -1290,7 +1300,7 @@ nsPoint
 aPt
 )
 ;
-void
+DrawResult
 PaintBackgroundLayer
 (
 nsStyleContext
