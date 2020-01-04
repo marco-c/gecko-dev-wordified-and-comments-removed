@@ -691,11 +691,11 @@ new
 DecodedSurfaceProvider
 (
 aImage
+surfaceKey
 WrapNotNull
 (
 decoder
 )
-surfaceKey
 )
 )
 ;
@@ -943,11 +943,11 @@ new
 AnimationSurfaceProvider
 (
 aImage
+surfaceKey
 WrapNotNull
 (
 decoder
 )
-surfaceKey
 )
 )
 ;
