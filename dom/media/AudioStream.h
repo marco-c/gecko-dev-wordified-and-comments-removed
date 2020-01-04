@@ -1200,11 +1200,6 @@ AudioBufferWriter
 aWriter
 )
 ;
-void
-StartUnlocked
-(
-)
-;
 Monitor
 mMonitor
 ;
