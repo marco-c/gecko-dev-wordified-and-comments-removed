@@ -45579,6 +45579,14 @@ currentSet
 lifoAlloc
 )
 ;
+if
+(
+!
+acc
+)
+return
+nullptr
+;
 }
 for
 (
