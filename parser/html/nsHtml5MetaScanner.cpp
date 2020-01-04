@@ -385,6 +385,9 @@ nsHtml5MetaScanner
 :
 nsHtml5MetaScanner
 (
+nsHtml5TreeBuilder
+*
+tb
 )
 :
 readable
@@ -444,6 +447,10 @@ nullptr
 httpEquivState
 (
 NS_HTML5META_SCANNER_HTTP_EQUIV_NOT_SEEN
+)
+treeBuilder
+(
+tb
 )
 {
 MOZ_COUNT_CTOR
@@ -3106,6 +3113,7 @@ newStringFromBuffer
 strBuf
 0
 strBufLen
+treeBuilder
 )
 ;
 return
@@ -3135,6 +3143,7 @@ newStringFromBuffer
 strBuf
 0
 strBufLen
+treeBuilder
 )
 ;
 return
@@ -3270,6 +3279,7 @@ nsHtml5TreeBuilder
 extractCharsetFromContent
 (
 content
+treeBuilder
 )
 ;
 if

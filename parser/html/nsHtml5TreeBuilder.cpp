@@ -9781,6 +9781,9 @@ extractCharsetFromContent
 nsString
 *
 attributeValue
+nsHtml5TreeBuilder
+*
+tb
 )
 {
 int32_t
@@ -10452,6 +10455,7 @@ start
 end
 -
 start
+tb
 )
 ;
 }
@@ -10570,6 +10574,7 @@ nsHtml5TreeBuilder
 extractCharsetFromContent
 (
 content
+this
 )
 ;
 if

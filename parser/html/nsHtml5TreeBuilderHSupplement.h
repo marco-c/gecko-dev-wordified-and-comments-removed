@@ -141,6 +141,13 @@ requestSuspension
 )
 ;
 }
+void
+MarkAsBrokenFromPortability
+(
+nsresult
+aRv
+)
+;
 public
 :
 explicit

@@ -486,6 +486,9 @@ extractCharsetFromContent
 nsString
 *
 attributeValue
+nsHtml5TreeBuilder
+*
+tb
 )
 ;
 private

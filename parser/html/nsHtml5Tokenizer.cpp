@@ -1386,6 +1386,7 @@ newStringFromBuffer
 strBuf
 0
 strBufLen
+tokenHandler
 )
 ;
 }

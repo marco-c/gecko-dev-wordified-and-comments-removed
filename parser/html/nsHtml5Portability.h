@@ -163,6 +163,9 @@ int32_t
 offset
 int32_t
 length
+nsHtml5TreeBuilder
+*
+treeBuilder
 )
 ;
 static
