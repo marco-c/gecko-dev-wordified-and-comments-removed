@@ -893,6 +893,8 @@ aIsSession
 =
 true
 ;
+MOZ_FALLTHROUGH
+;
 case
 nsICookiePermission
 :

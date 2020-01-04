@@ -4029,6 +4029,8 @@ rv
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 0
 :
@@ -4105,6 +4107,8 @@ rv
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 3
 :
@@ -4152,6 +4156,8 @@ rv
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 5
 :
@@ -4362,6 +4368,8 @@ rv
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 4
 :
@@ -5275,6 +5283,8 @@ rv
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 7
 :
@@ -5724,6 +5734,8 @@ rv
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 8
 :
@@ -5817,6 +5829,8 @@ rv
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 HOSTS_SCHEMA_VERSION
 :
