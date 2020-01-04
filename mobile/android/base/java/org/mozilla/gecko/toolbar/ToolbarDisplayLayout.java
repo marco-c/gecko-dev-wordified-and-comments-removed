@@ -960,6 +960,11 @@ setTitle
 null
 )
 ;
+setContentDescription
+(
+null
+)
+;
 return
 ;
 }
@@ -1020,6 +1025,11 @@ setTitle
 builder
 )
 ;
+setContentDescription
+(
+null
+)
+;
 return
 ;
 }
@@ -1065,6 +1075,11 @@ strippedURL
 )
 ;
 }
+setContentDescription
+(
+strippedURL
+)
+;
 if
 (
 !
@@ -1079,11 +1094,6 @@ baseDomain
 setTitle
 (
 baseDomain
-)
-;
-setContentDescription
-(
-strippedURL
 )
 ;
 }

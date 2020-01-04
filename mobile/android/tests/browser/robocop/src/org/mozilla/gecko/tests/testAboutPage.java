@@ -44,7 +44,7 @@ loadAndPaint
 url
 )
 ;
-verifyUrlBarTitle
+verifyUrlInContentDescription
 (
 url
 )
@@ -63,7 +63,7 @@ loadUrlAndWait
 url
 )
 ;
-verifyUrlBarTitle
+verifyUrlInContentDescription
 (
 url
 )
@@ -132,7 +132,7 @@ unregisterListener
 (
 )
 ;
-verifyUrlBarTitle
+verifyUrlInContentDescription
 (
 mStringHelper
 .
