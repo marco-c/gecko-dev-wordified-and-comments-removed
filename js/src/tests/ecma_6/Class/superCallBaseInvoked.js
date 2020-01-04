@@ -291,17 +291,6 @@ testBase
 p
 )
 ;
-/
-/
-Object
-will
-have
-to
-wait
-for
-fixed
-builtins
-.
 ;
 if
 (
