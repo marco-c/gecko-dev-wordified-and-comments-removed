@@ -3125,7 +3125,10 @@ static
 void
 EnsureBlockDisplay
 (
-uint8_t
+mozilla
+:
+:
+StyleDisplay
 &
 display
 bool
@@ -3138,7 +3141,10 @@ static
 void
 EnsureInlineDisplay
 (
-uint8_t
+mozilla
+:
+:
+StyleDisplay
 &
 display
 )

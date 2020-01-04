@@ -1689,11 +1689,14 @@ _frame
 _expected
 )
 \
-NS_ASSERTION
+MOZ_ASSERT
 (
-NS_STYLE_DISPLAY_
-#
-#
+mozilla
+:
+:
+StyleDisplay
+:
+:
 _expected
 =
 =
@@ -1706,6 +1709,7 @@ StyleDisplay
 -
 >
 mDisplay
+\
 "
 internal
 error
@@ -2753,7 +2757,7 @@ PrincipalChildList
 DEBUG_VERIFY_THAT_FRAME_IS
 (
 rowFrame
-TABLE_ROW
+TableRow
 )
 ;
 if
@@ -2809,7 +2813,7 @@ PrincipalChildList
 DEBUG_VERIFY_THAT_FRAME_IS
 (
 cellFrame
-TABLE_CELL
+TableCell
 )
 ;
 if
@@ -3695,7 +3699,7 @@ aRowIndex
 DEBUG_VERIFY_THAT_FRAME_IS
 (
 rowFrame
-TABLE_ROW
+TableRow
 )
 ;
 if

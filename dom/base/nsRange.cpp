@@ -14594,7 +14594,10 @@ styleDisplay
 mDisplay
 =
 =
-NS_STYLE_DISPLAY_TABLE_CAPTION
+StyleDisplay
+:
+:
+TableCaption
 )
 {
 return
@@ -15297,7 +15300,10 @@ mDisplay
 )
 {
 case
-NS_STYLE_DISPLAY_TABLE_CELL
+StyleDisplay
+:
+:
+TableCell
 :
 if
 (
@@ -15322,7 +15328,10 @@ t
 break
 ;
 case
-NS_STYLE_DISPLAY_TABLE_ROW
+StyleDisplay
+:
+:
+TableRow
 :
 if
 (
@@ -15356,6 +15365,10 @@ n
 )
 ;
 }
+break
+;
+default
+:
 break
 ;
 }

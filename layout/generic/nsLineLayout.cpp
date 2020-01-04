@@ -4160,7 +4160,10 @@ disp
 mDisplay
 =
 =
-NS_STYLE_DISPLAY_INLINE_BLOCK
+StyleDisplay
+:
+:
+InlineBlock
 |
 |
 disp
@@ -4169,7 +4172,10 @@ disp
 mDisplay
 =
 =
-NS_STYLE_DISPLAY_INLINE_TABLE
+StyleDisplay
+:
+:
+InlineTable
 |
 |
 fType

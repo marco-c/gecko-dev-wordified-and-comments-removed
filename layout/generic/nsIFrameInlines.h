@@ -155,7 +155,13 @@ StyleDisplay
 mDisplay
 =
 =
-NS_STYLE_DISPLAY_TABLE_CAPTION
+mozilla
+:
+:
+StyleDisplay
+:
+:
+TableCaption
 &
 &
 GetParent
@@ -347,7 +353,10 @@ this
 )
 ;
 }
-uint8_t
+mozilla
+:
+:
+StyleDisplay
 nsIFrame
 :
 :

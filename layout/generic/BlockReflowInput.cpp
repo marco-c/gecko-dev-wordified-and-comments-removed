@@ -3650,7 +3650,10 @@ break
 }
 if
 (
-NS_STYLE_DISPLAY_TABLE
+StyleDisplay
+:
+:
+Table
 !
 =
 floatDisplay

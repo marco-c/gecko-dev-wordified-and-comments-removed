@@ -1097,7 +1097,10 @@ nsTableRowGroupFrame
 rgOrig
 =
 (
-NS_STYLE_DISPLAY_TABLE_HEADER_GROUP
+StyleDisplay
+:
+:
+TableHeaderGroup
 =
 =
 display
@@ -11785,7 +11788,10 @@ mDisplay
 )
 {
 case
-NS_STYLE_DISPLAY_TABLE_HEADER_GROUP
+StyleDisplay
+:
+:
+TableHeaderGroup
 :
 printf
 (
@@ -11797,7 +11803,10 @@ thead
 break
 ;
 case
-NS_STYLE_DISPLAY_TABLE_FOOTER_GROUP
+StyleDisplay
+:
+:
+TableFooterGroup
 :
 printf
 (
@@ -11809,7 +11818,10 @@ tfoot
 break
 ;
 case
-NS_STYLE_DISPLAY_TABLE_ROW_GROUP
+StyleDisplay
+:
+:
+TableRowGroup
 :
 printf
 (

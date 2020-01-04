@@ -2053,7 +2053,13 @@ childFrame
 {
 if
 (
-NS_STYLE_DISPLAY_TABLE_COLUMN
+mozilla
+:
+:
+StyleDisplay
+:
+:
+TableColumn
 =
 =
 childFrame

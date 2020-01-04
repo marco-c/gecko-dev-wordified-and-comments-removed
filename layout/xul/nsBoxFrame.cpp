@@ -5281,7 +5281,13 @@ StyleDisplay
 mDisplay
 !
 =
-NS_STYLE_DISPLAY_POPUP
+mozilla
+:
+:
+StyleDisplay
+:
+:
+Popup
 )
 {
 parent

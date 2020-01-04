@@ -331,7 +331,10 @@ GetDisplay
 )
 =
 =
-NS_STYLE_DISPLAY_INLINE
+StyleDisplay
+:
+:
+Inline
 )
 {
 return
