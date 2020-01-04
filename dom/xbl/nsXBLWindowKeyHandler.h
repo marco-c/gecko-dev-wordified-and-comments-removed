@@ -154,7 +154,15 @@ nullptr
 )
 ;
 void
-HandleEventOnCapture
+HandleEventOnCaptureInDefaultEventGroup
+(
+nsIDOMKeyEvent
+*
+aEvent
+)
+;
+void
+HandleEventOnCaptureInSystemEventGroup
 (
 nsIDOMKeyEvent
 *
