@@ -706,14 +706,6 @@ inputReadIndex
 writeIndex
 )
 {
-const
-int
-SliceSize
-=
-MinFFTSize
-/
-2
-;
 for
 (
 size_t
@@ -742,7 +734,6 @@ i
 processInBackground
 (
 this
-SliceSize
 )
 ;
 }
@@ -832,7 +823,6 @@ i
 process
 (
 source
-WEBAUDIO_BLOCK_SIZE
 )
 ;
 m_accumulationBuffer

@@ -96,8 +96,6 @@ const
 float
 *
 source
-size_t
-framesToProcess
 )
 ;
 void
@@ -106,8 +104,6 @@ processInBackground
 ReverbConvolver
 *
 convolver
-size_t
-framesToProcess
 )
 ;
 int
