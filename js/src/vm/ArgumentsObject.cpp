@@ -1170,10 +1170,16 @@ copy
 bool
 strict
 =
+!
 callee
 -
 >
-strict
+nonLazyScript
+(
+)
+-
+>
+hasMappedArgsObj
 (
 )
 ;

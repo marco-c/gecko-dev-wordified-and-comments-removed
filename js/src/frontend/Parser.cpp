@@ -5569,13 +5569,11 @@ setDefinitelyNeedsArgsObj
 ;
 if
 (
-pc
+!
+funbox
 -
 >
-sc
--
->
-needStrictChecks
+hasMappedArgsObj
 (
 )
 )

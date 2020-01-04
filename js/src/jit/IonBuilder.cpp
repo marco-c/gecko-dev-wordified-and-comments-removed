@@ -53743,13 +53743,12 @@ true
 ;
 MOZ_ASSERT
 (
-!
 script
 (
 )
 -
 >
-strict
+hasMappedArgsObj
 (
 )
 )

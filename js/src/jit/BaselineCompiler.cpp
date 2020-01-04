@@ -11559,15 +11559,7 @@ if
 script
 -
 >
-argumentsHasVarBinding
-(
-)
-|
-|
-script
--
->
-strict
+argumentsAliasesFormals
 (
 )
 )
