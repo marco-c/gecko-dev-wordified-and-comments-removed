@@ -912,15 +912,11 @@ aState
 void
 ExitState
 (
-State
-aState
 )
 ;
 void
 EnterState
 (
-State
-aState
 )
 ;
 void
