@@ -758,6 +758,13 @@ GetSelectionStartOffset
 (
 )
 ;
+void
+OnStartOffsetUpdatedInChild
+(
+uint32_t
+aStartOffset
+)
+;
 class
 CompositionEventDispatcher
 :

@@ -8459,6 +8459,7 @@ mContentCache
 AssignContent
 (
 aContentCache
+widget
 &
 aIMENotification
 )
@@ -8603,6 +8604,7 @@ mContentCache
 AssignContent
 (
 aContentCache
+widget
 &
 aIMENotification
 )
@@ -8660,6 +8662,7 @@ mContentCache
 AssignContent
 (
 aContentCache
+widget
 &
 aIMENotification
 )
@@ -8715,6 +8718,7 @@ mContentCache
 AssignContent
 (
 aContentCache
+widget
 &
 aIMENotification
 )
@@ -8768,6 +8772,7 @@ mContentCache
 AssignContent
 (
 aContentCache
+widget
 )
 ;
 return
@@ -8880,6 +8885,7 @@ mContentCache
 AssignContent
 (
 aContentCache
+widget
 &
 aIMENotification
 )

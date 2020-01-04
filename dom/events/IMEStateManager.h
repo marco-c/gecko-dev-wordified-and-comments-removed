@@ -209,6 +209,17 @@ StopIMEStateManagement
 )
 ;
 static
+void
+MaybeStartOffsetUpdatedInChild
+(
+nsIWidget
+*
+aWidget
+uint32_t
+aStartOffset
+)
+;
+static
 nsresult
 OnDestroyPresContext
 (
