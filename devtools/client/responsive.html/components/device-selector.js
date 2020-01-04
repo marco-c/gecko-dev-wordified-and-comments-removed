@@ -364,6 +364,10 @@ value
 :
 "
 "
+title
+:
+"
+"
 disabled
 :
 true
@@ -404,6 +408,10 @@ value
 device
 .
 name
+title
+:
+"
+"
 }
 device
 .
@@ -420,6 +428,10 @@ option
 value
 :
 OPEN_DEVICE_MODAL_VALUE
+title
+:
+"
+"
 }
 getStr
 (
@@ -468,6 +480,10 @@ value
 :
 "
 "
+title
+:
+"
+"
 disabled
 :
 true
@@ -509,6 +525,10 @@ value
 :
 "
 "
+title
+:
+"
+"
 disabled
 :
 true
@@ -535,6 +555,9 @@ className
 :
 selectClass
 value
+:
+selectedDevice
+title
 :
 selectedDevice
 onChange
