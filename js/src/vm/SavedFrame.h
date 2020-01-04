@@ -664,10 +664,13 @@ CheckedUnwrap
 obj
 )
 ;
-MOZ_ASSERT
+if
 (
+!
 unwrapped
 )
+return
+false
 ;
 return
 isSavedFrameAndNotProto
