@@ -217,7 +217,7 @@ FEATURES
 ]
 .
 length
-10
+8
 two
 recordings
 worth

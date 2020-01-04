@@ -353,9 +353,6 @@ true
 withAllocations
 :
 true
-withJITOptimizations
-:
-true
 }
 }
 events
