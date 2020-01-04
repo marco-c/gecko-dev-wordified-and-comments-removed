@@ -304,8 +304,10 @@ nsXBLBinding
 aResult
 nsTArray
 <
+nsCOMPtr
+<
 nsIURI
-*
+>
 >
 &
 aDontExtendURIs
