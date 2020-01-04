@@ -220,9 +220,7 @@ set_config
 '
 MOZ_BUILD_MOBILE_ANDROID_WITH_GRADLE
 '
-'
-1
-'
+True
 )
 gradle
 =

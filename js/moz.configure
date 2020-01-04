@@ -292,9 +292,7 @@ set_config
 '
 JS_STANDALONE
 '
-'
-1
-'
+True
 )
 add_old_configure_assignment
 (
@@ -357,9 +355,7 @@ set_config
 '
 JS_DISABLE_SHELL
 '
-'
-1
-'
+True
 )
 #
 Use
@@ -472,9 +468,7 @@ set_config
 '
 SPIDERMONKEY_PROMISE
 '
-'
-1
-'
+True
 )
 set_define
 (
@@ -673,9 +667,7 @@ set_config
 '
 JS_SHARED_LIBRARY
 '
-'
-1
-'
+True
 )
 add_old_configure_assignment
 (
@@ -1036,9 +1028,7 @@ set_config
 '
 MOZ_INSTRUMENTS
 '
-'
-1
-'
+True
 )
 set_define
 (
@@ -1200,9 +1190,7 @@ set_config
 '
 MOZ_PROFILING
 '
-'
-1
-'
+True
 )
 set_define
 (
@@ -1317,9 +1305,7 @@ set_config
 '
 MOZ_VTUNE
 '
-'
-1
-'
+True
 )
 set_define
 (

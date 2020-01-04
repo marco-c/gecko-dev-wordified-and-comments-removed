@@ -4152,9 +4152,7 @@ set_config
 '
 INTEL_ARCHITECTURE
 '
-'
-1
-'
+True
 )
 set_config
 (
@@ -4957,9 +4955,7 @@ set_config
 '
 NIGHTLY_BUILD
 '
-'
-1
-'
+True
 )
 set_define
 (
@@ -4995,9 +4991,7 @@ set_config
 '
 RELEASE_BUILD
 '
-'
-1
-'
+True
 )
 set_define
 (

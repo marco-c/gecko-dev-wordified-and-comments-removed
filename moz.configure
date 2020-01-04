@@ -236,9 +236,7 @@ set_config
 '
 E10S_TESTING_ONLY
 '
-'
-1
-'
+True
 )
 set_define
 (
@@ -315,9 +313,7 @@ set_config
 '
 MOZ_ARTIFACT_BUILDS
 '
-'
-1
-'
+True
 )
 return
 bool
@@ -371,9 +367,7 @@ set_config
 '
 COMPILE_ENVIRONMENT
 '
-'
-1
-'
+True
 )
 add_old_configure_assignment
 (
@@ -1326,9 +1320,7 @@ set_config
 '
 HAVE_YASM
 '
-'
-1
-'
+True
 )
 #
 Until
