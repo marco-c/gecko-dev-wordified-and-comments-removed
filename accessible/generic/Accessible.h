@@ -1231,15 +1231,6 @@ aLength
 UINT32_MAX
 )
 ;
-void
-TestChildCache
-(
-Accessible
-*
-aCachedChild
-)
-const
-;
 virtual
 nsIntRect
 Bounds
