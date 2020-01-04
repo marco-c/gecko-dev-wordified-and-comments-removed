@@ -172,9 +172,6 @@ include
 URIParams
 ;
 include
-BrowserConfiguration
-;
-include
 PPrintingTypes
 ;
 include
@@ -3607,8 +3604,6 @@ LoadURL
 (
 nsCString
 uri
-BrowserConfiguration
-config
 ShowInfo
 info
 )
