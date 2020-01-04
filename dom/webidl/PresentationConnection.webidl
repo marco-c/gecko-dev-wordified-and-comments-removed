@@ -164,10 +164,13 @@ presentation
 .
 enabled
 "
-CheckAnyPermissions
+Func
 =
 "
-presentation
+Navigator
+:
+:
+HasPresentationSupport
 "
 ]
 interface

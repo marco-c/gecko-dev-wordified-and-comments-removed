@@ -2893,10 +2893,13 @@ presentation
 .
 enabled
 "
-CheckAnyPermissions
+Func
 =
 "
-presentation
+Navigator
+:
+:
+HasPresentationSupport
 "
 SameObject
 ]
