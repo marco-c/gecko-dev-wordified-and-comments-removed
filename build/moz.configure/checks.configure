@@ -391,6 +391,7 @@ value
 instead
 .
 template
+advanced
 def
 check_prog
 (
@@ -401,6 +402,12 @@ allow_missing
 False
 )
 :
+from
+mozbuild
+.
+shellutil
+import
+quote
 option
 (
 env
@@ -481,8 +488,13 @@ lower
 lambda
 x
 :
+quote
+(
 x
-or
+)
+if
+x
+else
 '
 not
 found
@@ -524,7 +536,6 @@ depends
 check
 var
 )
-advanced
 def
 postcheck
 (
@@ -544,12 +555,6 @@ or
 raw_value
 )
 :
-from
-mozbuild
-.
-shellutil
-import
-quote
 die
 (
 '
