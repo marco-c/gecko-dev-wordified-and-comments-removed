@@ -6856,15 +6856,6 @@ consoleService
 &
 &
 errorObject
-&
-&
-!
-aDecoder
--
->
-HasDecoderError
-(
-)
 )
 {
 nsAutoString

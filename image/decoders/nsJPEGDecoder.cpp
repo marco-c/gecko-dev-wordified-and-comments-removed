@@ -531,7 +531,7 @@ Telemetry
 IMAGE_DECODE_SPEED_JPEG
 ;
 }
-void
+nsresult
 nsJPEGDecoder
 :
 :
@@ -595,12 +595,8 @@ setjmp_buffer
 )
 )
 {
-PostDecoderError
-(
-NS_ERROR_FAILURE
-)
-;
 return
+NS_ERROR_FAILURE
 ;
 }
 jpeg_create_decompress
@@ -673,6 +669,9 @@ m
 )
 ;
 }
+return
+NS_OK
+;
 }
 void
 nsJPEGDecoder
@@ -937,11 +936,6 @@ NS_ERROR_FAILURE
 }
 else
 {
-PostDecoderError
-(
-error_code
-)
-;
 mState
 =
 JPEG_ERROR

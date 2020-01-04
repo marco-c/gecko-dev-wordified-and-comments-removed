@@ -128,8 +128,7 @@ mSampleSize
 aSampleSize
 ;
 }
-virtual
-void
+nsresult
 InitInternal
 (
 )
