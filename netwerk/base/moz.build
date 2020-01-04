@@ -1270,11 +1270,6 @@ OfflineObserver
 cpp
 '
 '
-PollableEvent
-.
-cpp
-'
-'
 Predictor
 .
 cpp
