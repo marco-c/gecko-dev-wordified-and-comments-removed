@@ -5075,7 +5075,7 @@ implemented
 break
 ;
 case
-NS_NATIVE_IME_CONTEXT
+NS_RAW_NATIVE_IME_CONTEXT
 :
 retVal
 =

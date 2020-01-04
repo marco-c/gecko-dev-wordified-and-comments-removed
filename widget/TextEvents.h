@@ -1067,6 +1067,10 @@ aMessage
 aWidget
 eCompositionEventClass
 )
+mNativeIMEContext
+(
+aWidget
+)
 mOriginalMessage
 (
 eVoidEvent
@@ -1148,6 +1152,12 @@ RefPtr
 TextRangeArray
 >
 mRanges
+;
+widget
+:
+:
+NativeIMEContext
+mNativeIMEContext
 ;
 EventMessage
 mOriginalMessage
