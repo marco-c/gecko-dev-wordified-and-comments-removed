@@ -8,6 +8,15 @@ gecko
 home
 ;
 import
+android
+.
+support
+.
+annotation
+.
+NonNull
+;
+import
 org
 .
 mozilla
@@ -350,6 +359,7 @@ key
 )
 ;
 }
+NonNull
 public
 String
 getEngineIdentifier
