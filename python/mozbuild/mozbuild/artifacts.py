@@ -1310,25 +1310,6 @@ firefox
 .
 so
 '
-        
-mozpath
-.
-join
-(
-'
-firefox
-'
-buildconfig
-.
-substs
-.
-get
-(
-'
-ICU_DATA_FILE
-'
-)
-)
     
 }
     
@@ -1812,17 +1793,6 @@ libclearkey
 .
 dylib
 '
-                
-buildconfig
-.
-substs
-.
-get
-(
-'
-ICU_DATA_FILE
-'
-)
             
 ]
 )
@@ -2180,25 +2150,6 @@ firefox
 .
 exe
 '
-        
-mozpath
-.
-join
-(
-'
-firefox
-'
-buildconfig
-.
-substs
-.
-get
-(
-'
-ICU_DATA_FILE
-'
-)
-)
     
 }
     
