@@ -61,6 +61,13 @@ aboutdebugging
 js
 '
 '
+addon
+-
+target
+.
+js
+'
+'
 addons
 -
 controls
@@ -105,6 +112,8 @@ list
 js
 '
 '
+worker
+-
 target
 .
 js
