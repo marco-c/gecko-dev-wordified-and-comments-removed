@@ -1715,10 +1715,6 @@ else
 if
 (
 res
-!
-=
-=
-null
 )
 {
 return
