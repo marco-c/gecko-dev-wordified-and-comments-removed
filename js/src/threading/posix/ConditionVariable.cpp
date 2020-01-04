@@ -135,7 +135,7 @@ CLOCK_MONOTONIC
 ;
 static
 void
-timespecadd
+moz_timespecadd
 (
 struct
 timespec
@@ -742,7 +742,7 @@ struct
 timespec
 abs_ts
 ;
-timespecadd
+moz_timespecadd
 (
 &
 now_ts
