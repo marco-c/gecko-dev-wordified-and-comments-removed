@@ -279,7 +279,7 @@ el
 .
 style
 .
-marginLeft
+marginInlineStart
 "
 0px
 "
