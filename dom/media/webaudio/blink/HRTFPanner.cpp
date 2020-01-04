@@ -550,7 +550,9 @@ MOZ_ASSERT
 inputBus
 -
 >
-mDuration
+GetDuration
+(
+)
 =
 =
 WEBAUDIO_BLOCK_SIZE
@@ -578,7 +580,9 @@ ChannelCount
 outputBus
 -
 >
-mDuration
+GetDuration
+(
+)
 =
 =
 WEBAUDIO_BLOCK_SIZE
@@ -606,7 +610,9 @@ SetNull
 outputBus
 -
 >
-mDuration
+GetDuration
+(
+)
 )
 ;
 return
@@ -637,7 +643,9 @@ SetNull
 outputBus
 -
 >
-mDuration
+GetDuration
+(
+)
 )
 ;
 return
@@ -687,7 +695,9 @@ SetNull
 outputBus
 -
 >
-mDuration
+GetDuration
+(
+)
 )
 ;
 return
@@ -982,7 +992,9 @@ SetNull
 outputBus
 -
 >
-mDuration
+GetDuration
+(
+)
 )
 ;
 return
