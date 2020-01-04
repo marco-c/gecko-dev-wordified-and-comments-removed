@@ -223,13 +223,6 @@ allocationThreshold
 testChangeParam
 (
 "
-decommitThreshold
-"
-)
-;
-testChangeParam
-(
-"
 minEmptyChunkCount
 "
 )
@@ -259,13 +252,6 @@ testLargeParamValue
 (
 "
 highFrequencyHighLimit
-"
-)
-;
-testLargeParamValue
-(
-"
-decommitThreshold
 "
 )
 ;

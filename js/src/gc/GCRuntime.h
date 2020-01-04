@@ -3887,9 +3887,6 @@ ReleaseAcquire
 >
 numActiveZoneIters
 ;
-uint64_t
-decommitThreshold
-;
 bool
 cleanUpEverything
 ;
