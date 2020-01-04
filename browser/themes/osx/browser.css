@@ -14726,6 +14726,10 @@ stop
 -
 button
 {
+margin
+:
+0
+;
 list
 -
 style
@@ -14753,15 +14757,9 @@ png
 "
 )
 ;
-margin
-:
--
-2px
-0
-;
 padding
 :
-3px
+0
 9px
 ;
 margin
