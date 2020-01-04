@@ -526,6 +526,14 @@ MediaRawData
 aSample
 )
 ;
+nsresult
+DoDecode
+(
+MediaRawData
+*
+aSample
+)
+;
 CFDictionaryRef
 CreateDecoderSpecification
 (

@@ -145,6 +145,14 @@ aSample
 override
 ;
 nsresult
+DoDecode
+(
+MediaRawData
+*
+aSample
+)
+;
+nsresult
 InitializeSession
 (
 )
