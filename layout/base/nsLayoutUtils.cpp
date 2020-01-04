@@ -26442,7 +26442,6 @@ data
 .
 ForceBreak
 (
-aRenderingContext
 )
 ;
 return
@@ -26514,7 +26513,6 @@ data
 .
 ForceBreak
 (
-aRenderingContext
 )
 ;
 return

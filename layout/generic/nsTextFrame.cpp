@@ -39518,7 +39518,6 @@ aData
 >
 ForceBreak
 (
-aRenderingContext
 )
 ;
 }
@@ -39546,7 +39545,6 @@ aData
 >
 OptionallyBreak
 (
-aRenderingContext
 NSToCoordRound
 (
 provider
@@ -39565,7 +39563,6 @@ aData
 >
 OptionallyBreak
 (
-aRenderingContext
 )
 ;
 }
@@ -40313,7 +40310,6 @@ aData
 >
 ForceBreak
 (
-aRenderingContext
 )
 ;
 lineStart

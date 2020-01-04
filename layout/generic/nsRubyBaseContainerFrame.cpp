@@ -1029,7 +1029,6 @@ aData
 >
 OptionallyBreak
 (
-aRenderingContext
 )
 ;
 }
