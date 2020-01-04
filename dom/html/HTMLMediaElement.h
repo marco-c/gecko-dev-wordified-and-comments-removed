@@ -2020,12 +2020,6 @@ ComputedMuted
 )
 const
 ;
-nsSuspendedTypes
-ComputedSuspended
-(
-)
-const
-;
 protected
 :
 virtual
