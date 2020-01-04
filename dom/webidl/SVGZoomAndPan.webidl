@@ -139,6 +139,9 @@ apply
 .
 *
 /
+[
+NoInterfaceObject
+]
 interface
 SVGZoomAndPan
 {
