@@ -4144,7 +4144,7 @@ aResult
 mImage
 -
 >
-RequestDecode
+StartDecoding
 (
 )
 ;
