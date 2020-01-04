@@ -245,6 +245,7 @@ size
 -
 intStart
 )
+;
 if
 (
 resultLength
