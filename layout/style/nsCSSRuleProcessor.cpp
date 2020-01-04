@@ -308,6 +308,15 @@ include
 "
 mozilla
 /
+OperatorNewExtensions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TypedEnumBits
 .
 h
@@ -1139,6 +1148,7 @@ hdr
 ;
 new
 (
+KnownNotNull
 entry
 )
 RuleHashTableEntry
@@ -1240,6 +1250,7 @@ newEntry
 =
 new
 (
+KnownNotNull
 to
 )
 RuleHashTableEntry
@@ -1355,6 +1366,7 @@ hdr
 ;
 new
 (
+KnownNotNull
 entry
 )
 RuleHashTagTableEntry
@@ -1478,6 +1490,7 @@ newEntry
 =
 new
 (
+KnownNotNull
 to
 )
 RuleHashTagTableEntry
@@ -3785,6 +3798,7 @@ hdr
 ;
 new
 (
+KnownNotNull
 entry
 )
 AtomSelectorEntry
@@ -3874,6 +3888,7 @@ newEntry
 =
 new
 (
+KnownNotNull
 to
 )
 AtomSelectorEntry
@@ -15427,6 +15442,7 @@ hdr
 ;
 new
 (
+KnownNotNull
 entry
 )
 RuleByWeightEntry
