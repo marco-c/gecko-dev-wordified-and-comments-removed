@@ -3216,13 +3216,3 @@ mutedByDefault
 false
 )
 ;
-user_pref
-(
-"
-view_source
-.
-tab
-"
-true
-)
-;
