@@ -90,6 +90,9 @@ nsWeakPtr
 .
 h
 "
+class
+nsITCPDeviceInfo
+;
 namespace
 mozilla
 {
@@ -563,6 +566,17 @@ aAddress
 uint32_t
 &
 aIndex
+)
+;
+already_AddRefed
+<
+Device
+>
+GetOrCreateDevice
+(
+nsITCPDeviceInfo
+*
+aDeviceInfo
 )
 ;
 void
