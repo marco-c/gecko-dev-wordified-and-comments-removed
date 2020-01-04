@@ -39,6 +39,15 @@ h
 #
 include
 "
+js
+/
+Id
+.
+h
+"
+#
+include
+"
 vm
 /
 NativeObject
@@ -478,7 +487,10 @@ HashMap
 <
 jsid
 Binding
-JsidHasher
+DefaultHasher
+<
+jsid
+>
 ZoneAllocPolicy
 >
 Map
