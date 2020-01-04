@@ -1366,6 +1366,11 @@ SdpMediaSection
 :
 MediaType
 type
+SdpMediaSection
+:
+:
+Protocol
+proto
 SdpDirectionAttribute
 :
 :
