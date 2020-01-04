@@ -646,11 +646,11 @@ GetDuration
 (
 )
 ;
-virtual
 bool
 IsInfinite
 (
 )
+const
 ;
 virtual
 void
@@ -663,14 +663,12 @@ NotifyDataArrived
 (
 )
 ;
-virtual
 bool
 IsSeeking
 (
 )
 const
 ;
-virtual
 bool
 IsEndedOrShutdown
 (

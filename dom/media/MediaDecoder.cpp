@@ -2129,6 +2129,7 @@ MediaDecoder
 IsInfinite
 (
 )
+const
 {
 MOZ_ASSERT
 (
