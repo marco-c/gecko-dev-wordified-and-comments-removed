@@ -652,8 +652,6 @@ ReadOggChain
 void
 SetChained
 (
-bool
-aIsChained
 )
 ;
 ogg_packet
