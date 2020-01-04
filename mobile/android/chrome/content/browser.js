@@ -2515,16 +2515,6 @@ org
 xlink
 "
 ;
-const
-kDefaultCSSViewportWidth
-=
-980
-;
-const
-kViewportRemeasureThrottle
-=
-500
-;
 function
 fuzzyEquals
 (
