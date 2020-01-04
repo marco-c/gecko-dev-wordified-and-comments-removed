@@ -2104,21 +2104,6 @@ aIncrease
 )
 {
 }
-bool
-Dispatch
-(
-)
-{
-return
-WorkerControlRunnable
-:
-:
-Dispatch
-(
-nullptr
-)
-;
-}
 private
 :
 virtual
@@ -3686,21 +3671,6 @@ Killing
 )
 ;
 }
-bool
-Dispatch
-(
-)
-{
-return
-WorkerControlRunnable
-:
-:
-Dispatch
-(
-nullptr
-)
-;
-}
 private
 :
 virtual
@@ -4591,7 +4561,6 @@ runnable
 >
 Dispatch
 (
-aCx
 )
 ;
 }
@@ -7093,7 +7062,6 @@ mWorkerRunnable
 >
 Dispatch
 (
-nullptr
 )
 ;
 return
@@ -10820,7 +10788,6 @@ runnable
 >
 Dispatch
 (
-aCx
 )
 )
 {
@@ -11172,7 +11139,6 @@ runnable
 >
 Dispatch
 (
-aCx
 )
 )
 {
@@ -12053,7 +12019,6 @@ runnable
 >
 Dispatch
 (
-aCx
 )
 )
 {
@@ -12259,7 +12224,6 @@ runnable
 >
 Dispatch
 (
-aCx
 )
 )
 {
@@ -12274,11 +12238,6 @@ context
 options
 !
 "
-)
-;
-JS_ClearPendingException
-(
-aCx
 )
 ;
 }
@@ -12347,7 +12306,6 @@ runnable
 >
 Dispatch
 (
-aCx
 )
 )
 {
@@ -12361,11 +12319,6 @@ worker
 preferences
 !
 "
-)
-;
-JS_ClearPendingException
-(
-aCx
 )
 ;
 }
@@ -12423,7 +12376,6 @@ runnable
 >
 Dispatch
 (
-aCx
 )
 )
 {
@@ -12437,11 +12389,6 @@ worker
 languages
 !
 "
-)
-;
-JS_ClearPendingException
-(
-aCx
 )
 ;
 }
@@ -12525,7 +12472,6 @@ runnable
 >
 Dispatch
 (
-aCx
 )
 )
 {
@@ -12539,11 +12485,6 @@ memory
 parameter
 !
 "
-)
-;
-JS_ClearPendingException
-(
-aCx
 )
 ;
 }
@@ -12623,7 +12564,6 @@ runnable
 >
 Dispatch
 (
-aCx
 )
 )
 {
@@ -12637,11 +12577,6 @@ worker
 gczeal
 !
 "
-)
-;
-JS_ClearPendingException
-(
-aCx
 )
 ;
 }
@@ -12697,7 +12632,6 @@ runnable
 >
 Dispatch
 (
-aCx
 )
 )
 {
@@ -12710,11 +12644,6 @@ GC
 worker
 !
 "
-)
-;
-JS_ClearPendingException
-(
-aCx
 )
 ;
 }
@@ -12767,7 +12696,6 @@ runnable
 >
 Dispatch
 (
-aCx
 )
 )
 {
@@ -12780,11 +12708,6 @@ CC
 worker
 !
 "
-)
-;
-JS_ClearPendingException
-(
-aCx
 )
 ;
 }
@@ -12837,7 +12760,6 @@ runnable
 >
 Dispatch
 (
-aCx
 )
 )
 {
@@ -12853,11 +12775,6 @@ change
 event
 !
 "
-)
-;
-JS_ClearPendingException
-(
-aCx
 )
 ;
 }
@@ -13119,7 +13036,6 @@ runnable
 >
 Dispatch
 (
-aCx
 )
 )
 {
@@ -15809,7 +15725,6 @@ runnable
 >
 Dispatch
 (
-aCx
 )
 )
 {
@@ -15880,7 +15795,6 @@ runnable
 >
 Dispatch
 (
-aCx
 )
 )
 {
@@ -17069,7 +16983,6 @@ compiler
 >
 Dispatch
 (
-aCx
 )
 )
 {
@@ -19772,7 +19685,6 @@ runnable
 >
 Dispatch
 (
-nullptr
 )
 )
 {
@@ -22680,7 +22592,6 @@ runnable
 >
 Dispatch
 (
-aCx
 )
 )
 {
@@ -22975,7 +22886,6 @@ runnable
 >
 Dispatch
 (
-aCx
 )
 )
 {
@@ -23304,7 +23214,6 @@ runnable
 >
 Dispatch
 (
-aCx
 )
 )
 {

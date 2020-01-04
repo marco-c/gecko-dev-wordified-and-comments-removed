@@ -1887,15 +1887,6 @@ ReleaseNotificationRunnable
 notification
 )
 ;
-AutoJSAPI
-jsapi
-;
-jsapi
-.
-Init
-(
-)
-;
 if
 (
 !
@@ -1904,11 +1895,6 @@ r
 >
 Dispatch
 (
-jsapi
-.
-cx
-(
-)
 )
 )
 {
@@ -1931,11 +1917,6 @@ r
 >
 Dispatch
 (
-jsapi
-.
-cx
-(
-)
 )
 )
 ;
@@ -6383,9 +6364,6 @@ MOZ_ASSERT
 r
 )
 ;
-AutoSafeJSContext
-cx
-;
 if
 (
 !
@@ -6394,7 +6372,6 @@ r
 >
 Dispatch
 (
-cx
 )
 )
 {
@@ -7097,9 +7074,6 @@ error
 )
 )
 ;
-AutoSafeJSContext
-cx
-;
 if
 (
 !
@@ -7108,7 +7082,6 @@ r
 >
 Dispatch
 (
-cx
 )
 )
 {
@@ -9148,7 +9121,6 @@ r
 >
 Dispatch
 (
-aCx
 )
 ;
 return

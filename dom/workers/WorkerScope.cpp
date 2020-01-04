@@ -2693,15 +2693,6 @@ workerPrivate
 mPromiseProxy
 )
 ;
-AutoJSAPI
-jsapi
-;
-jsapi
-.
-Init
-(
-)
-;
 if
 (
 !
@@ -2710,11 +2701,6 @@ runnable
 >
 Dispatch
 (
-jsapi
-.
-cx
-(
-)
 )
 )
 {

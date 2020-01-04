@@ -101,9 +101,6 @@ NS_DECL_NSICANCELABLERUNNABLE
 bool
 Dispatch
 (
-JSContext
-*
-aCx
 )
 ;
 virtual
