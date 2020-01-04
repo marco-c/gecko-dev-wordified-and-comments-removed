@@ -1037,11 +1037,8 @@ tabs
 ]
 .
 icon
-faviconService
-.
-defaultFavicon
-.
-spec
+"
+"
 )
 ;
 Services
