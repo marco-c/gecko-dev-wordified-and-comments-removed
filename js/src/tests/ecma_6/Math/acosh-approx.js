@@ -2053,7 +2053,7 @@ cosh_data
 var
 sloppy_tolerance
 =
-1000
+8
 ;
 for
 (
