@@ -76,7 +76,7 @@ jsm
 "
 )
 ;
-let
+var
 PLACEHOLDER_IMG
 =
 "

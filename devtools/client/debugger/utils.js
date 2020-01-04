@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-const
+var
 XULUtils
 =
 {
@@ -98,7 +98,7 @@ CHARACTER_LIMIT
 =
 250
 ;
-const
+var
 SourceUtils
 =
 {

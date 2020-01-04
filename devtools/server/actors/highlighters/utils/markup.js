@@ -331,7 +331,7 @@ isXUL
 =
 isXUL
 ;
-let
+var
 installedHelperSheets
 =
 new

@@ -172,7 +172,7 @@ javascript
 [
 CDATA
 [
-let
+var
 {
 classes
 :

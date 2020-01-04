@@ -78,7 +78,7 @@ ARROW_LINE_MIN_DISTANCE
 =
 10
 ;
-let
+var
 MARKER_COUNTER
 =
 1

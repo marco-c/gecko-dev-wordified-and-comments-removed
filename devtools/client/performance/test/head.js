@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-const
+var
 {
 classes
 :
@@ -627,6 +627,11 @@ ui
 .
 experimental
 "
+;
+const
+FRAMERATE_GRAPH_HIGH_RES_INTERVAL
+=
+16
 ;
 waitForExplicitFinish
 (
@@ -2880,8 +2885,6 @@ res
 =
 =
 =
-win
-.
 FRAMERATE_GRAPH_HIGH_RES_INTERVAL
 )
 {

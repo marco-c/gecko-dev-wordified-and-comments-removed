@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-const
+var
 {
 classes
 :
@@ -21,7 +21,7 @@ Cr
 =
 Components
 ;
-const
+var
 loader
 =
 Cc
@@ -503,7 +503,7 @@ Context
 "
 ]
 ;
-const
+var
 FRAME_SCRIPT
 =
 "
@@ -5067,7 +5067,7 @@ directInject
 script
 =
 "
-let
+var
 func
 =
 function
@@ -6294,7 +6294,7 @@ returnFunc
 "
 +
 "
-let
+var
 marionetteScriptFinished
 =
 returnFunc
@@ -6302,7 +6302,7 @@ returnFunc
 "
 +
 "
-let
+var
 __marionetteFunc
 =
 function

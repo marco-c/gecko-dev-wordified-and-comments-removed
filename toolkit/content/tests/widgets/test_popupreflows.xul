@@ -159,7 +159,7 @@ script
 [
 CDATA
 [
-const
+var
 {
 classes
 :

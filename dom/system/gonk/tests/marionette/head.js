@@ -257,7 +257,7 @@ radioInterface
 constrctor
 )
 ;
-let
+var
 _pendingEmulatorShellCmdCount
 =
 0

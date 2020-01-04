@@ -5620,6 +5620,7 @@ jsterm
 let
 evalString
 =
+{
 let
 i
 =
@@ -5666,6 +5667,7 @@ temp
 +
 i
 ;
+}
 ;
 let
 options

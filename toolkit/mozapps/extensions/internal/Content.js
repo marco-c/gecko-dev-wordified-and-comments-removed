@@ -8,7 +8,7 @@ function
 (
 )
 {
-const
+var
 {
 classes
 :

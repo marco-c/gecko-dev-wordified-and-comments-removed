@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-const
+var
 {
 classes
 :
@@ -496,6 +496,17 @@ CanvasDebugger
 SourceNotFoundInJsDebugger
 "
 }
+;
+XPCOMUtils
+.
+defineConstant
+(
+this
+"
+EVENTS
+"
+EVENTS
+)
 ;
 const
 HTML_NS

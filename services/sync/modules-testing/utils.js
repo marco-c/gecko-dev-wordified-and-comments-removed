@@ -55,7 +55,7 @@ sumHistogram
 "
 ]
 ;
-const
+var
 {
 utils
 :

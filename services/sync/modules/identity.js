@@ -13,7 +13,7 @@ IdentityManager
 "
 ]
 ;
-const
+var
 {
 classes
 :

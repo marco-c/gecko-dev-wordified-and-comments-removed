@@ -25,7 +25,7 @@ n
 )
 ;
 }
-const
+var
 {
 classes
 :

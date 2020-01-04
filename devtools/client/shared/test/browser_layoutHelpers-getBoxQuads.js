@@ -1,4 +1,4 @@
-const
+var
 {
 utils
 :
@@ -7,7 +7,7 @@ Cu
 =
 Components
 ;
-let
+var
 {
 getAdjustedQuads
 }

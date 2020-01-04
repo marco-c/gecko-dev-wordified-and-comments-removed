@@ -74,7 +74,7 @@ jsm
 "
 )
 ;
-let
+var
 gPrefs
 =
 Cc
@@ -4212,7 +4212,7 @@ length
 )
 ;
 }
-let
+var
 dummyCacheListener
 =
 {

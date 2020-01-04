@@ -1,9 +1,9 @@
-const
+var
 BrowserElementIsPreloaded
 =
 true
 ;
-const
+var
 DoPreloadPostfork
 =
 function

@@ -82,7 +82,7 @@ WeakMap
 (
 )
 ;
-let
+var
 imageRendererMap
 =
 new

@@ -28,7 +28,7 @@ gBrowser
 .
 tabs
 ;
-let
+var
 rect
 =
 ele
@@ -40,7 +40,7 @@ getBoundingClientRect
 (
 )
 ;
-let
+var
 width
 =
 ele
@@ -53,7 +53,7 @@ ele
 .
 width
 ;
-let
+var
 left
 =
 ele
@@ -66,7 +66,7 @@ ele
 .
 left
 ;
-let
+var
 right
 =
 ele
@@ -79,7 +79,7 @@ ele
 .
 right
 ;
-let
+var
 isLeft
 =
 (
@@ -105,7 +105,7 @@ scrollbox
 msg
 )
 ;
-let
+var
 isRight
 =
 (
@@ -131,7 +131,7 @@ scrollbox
 msg
 )
 ;
-let
+var
 elementFromPoint
 =
 x
@@ -144,7 +144,7 @@ _elementFromPoint
 x
 )
 ;
-let
+var
 nextLeftElement
 =
 (
@@ -161,7 +161,7 @@ scrollbox
 1
 )
 ;
-let
+var
 nextRightElement
 =
 (
@@ -178,7 +178,7 @@ scrollbox
 1
 )
 ;
-let
+var
 firstScrollable
 =
 (

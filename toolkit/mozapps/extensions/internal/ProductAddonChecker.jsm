@@ -142,7 +142,7 @@ jsm
 "
 )
 ;
-let
+var
 logger
 =
 Log
@@ -1093,7 +1093,7 @@ return
 result
 ;
 }
-let
+var
 computeHash
 =
 Task
@@ -1223,7 +1223,7 @@ close
 }
 )
 ;
-let
+var
 verifyFile
 =
 Task

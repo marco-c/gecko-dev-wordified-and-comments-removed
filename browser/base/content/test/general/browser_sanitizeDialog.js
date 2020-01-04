@@ -19,7 +19,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 LoadContextInfo
 }
@@ -137,7 +137,7 @@ jsm
 "
 )
 ;
-let
+var
 tempScope
 =
 {
@@ -185,7 +185,7 @@ js
 tempScope
 )
 ;
-let
+var
 Sanitizer
 =
 tempScope
@@ -3992,7 +3992,7 @@ promiseClosed
 }
 )
 ;
-let
+var
 now_mSec
 =
 Date
@@ -4001,7 +4001,7 @@ now
 (
 )
 ;
-let
+var
 now_uSec
 =
 now_mSec

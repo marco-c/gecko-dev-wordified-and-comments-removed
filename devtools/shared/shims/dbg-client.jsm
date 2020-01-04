@@ -195,7 +195,7 @@ ObjectClient
 "
 ]
 ;
-let
+var
 client
 =
 require

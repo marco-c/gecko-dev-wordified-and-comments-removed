@@ -166,7 +166,7 @@ return
 dir
 ;
 }
-let
+var
 dir
 =
 FileUtils
@@ -560,7 +560,7 @@ XPCShell
 "
 )
 ;
-let
+var
 testserver
 =
 new
@@ -593,7 +593,7 @@ start
 (
 )
 ;
-let
+var
 root
 =
 testserver

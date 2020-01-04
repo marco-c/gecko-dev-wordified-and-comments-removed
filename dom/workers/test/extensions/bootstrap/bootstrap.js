@@ -1,11 +1,11 @@
-const
+var
 Ci
 =
 Components
 .
 interfaces
 ;
-const
+var
 Cu
 =
 Components

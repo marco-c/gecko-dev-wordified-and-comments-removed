@@ -10,7 +10,7 @@ n
 '
 )
 ;
-const
+var
 Cu
 =
 Components

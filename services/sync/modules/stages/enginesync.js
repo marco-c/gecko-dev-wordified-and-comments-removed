@@ -8,7 +8,7 @@ EngineSynchronizer
 "
 ]
 ;
-const
+var
 {
 utils
 :

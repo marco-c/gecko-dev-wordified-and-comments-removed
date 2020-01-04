@@ -193,6 +193,8 @@ parentEnv
 parent
 .
 parent
+.
+parent
 ;
 do_check_neq
 (

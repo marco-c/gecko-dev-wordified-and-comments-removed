@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-const
+var
 {
 classes
 :
@@ -615,7 +615,7 @@ resolve
 ;
 }
 ;
-let
+var
 wrapper
 =
 {
@@ -1926,7 +1926,7 @@ return
 null
 ;
 }
-let
+var
 mm
 =
 getBrowserMessageManager
