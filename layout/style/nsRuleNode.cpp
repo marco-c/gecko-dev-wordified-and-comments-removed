@@ -19858,13 +19858,11 @@ return
 len
 ;
 }
+static
 already_AddRefed
 <
 nsCSSShadowArray
 >
-nsRuleNode
-:
-:
 GetShadowData
 (
 const
@@ -19876,6 +19874,9 @@ nsStyleContext
 aContext
 bool
 aIsBoxShadow
+nsPresContext
+*
+aPresContext
 RuleNodeCacheConditions
 &
 aConditions
@@ -20027,7 +20028,7 @@ SETCOORD_LENGTH
 |
 SETCOORD_CALC_LENGTH_ONLY
 aContext
-mPresContext
+aPresContext
 aConditions
 )
 ;
@@ -20070,7 +20071,7 @@ SETCOORD_LENGTH
 |
 SETCOORD_CALC_LENGTH_ONLY
 aContext
-mPresContext
+aPresContext
 aConditions
 )
 ;
@@ -20133,7 +20134,7 @@ SETCOORD_CALC_LENGTH_ONLY
 |
 SETCOORD_CALC_CLAMP_NONNEGATIVE
 aContext
-mPresContext
+aPresContext
 aConditions
 )
 ;
@@ -20208,7 +20209,7 @@ SETCOORD_LENGTH
 |
 SETCOORD_CALC_LENGTH_ONLY
 aContext
-mPresContext
+aPresContext
 aConditions
 )
 ;
@@ -20280,7 +20281,7 @@ Item
 4
 )
 0
-mPresContext
+aPresContext
 aContext
 item
 -
@@ -21325,6 +21326,7 @@ GetListValue
 )
 aContext
 false
+mPresContext
 conditions
 )
 ;
@@ -48939,13 +48941,11 @@ SVG
 svg
 )
 }
+static
 already_AddRefed
 <
 nsStyleBasicShape
 >
-nsRuleNode
-:
-:
 GetStyleBasicShapeFromCSSValue
 (
 const
@@ -49991,10 +49991,8 @@ forget
 )
 ;
 }
+static
 void
-nsRuleNode
-:
-:
 SetStyleClipPathToCSSValue
 (
 nsStyleClipPath
@@ -50282,10 +50280,8 @@ sizingBox
 ;
 }
 }
+static
 bool
-nsRuleNode
-:
-:
 SetStyleFilterToCSSValue
 (
 nsStyleFilter
@@ -50459,6 +50455,7 @@ GetListValue
 )
 aStyleContext
 false
+aPresContext
 aConditions
 )
 ;
@@ -52527,6 +52524,7 @@ GetListValue
 )
 aContext
 true
+mPresContext
 conditions
 )
 ;
