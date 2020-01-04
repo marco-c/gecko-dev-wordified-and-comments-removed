@@ -463,6 +463,16 @@ location
 ;
 }
 public
+long
+getLastModified
+(
+)
+{
+return
+lastModified
+;
+}
+public
 String
 getFilename
 (
