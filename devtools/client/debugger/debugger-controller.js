@@ -85,7 +85,7 @@ EDITOR_UNLOADED
 "
 Debugger
 :
-EditorUnoaded
+EditorUnloaded
 "
 NEW_SOURCE
 :
