@@ -474,7 +474,7 @@ aFlags
 )
 ;
 nsresult
-BeginLayout
+BeginXULLayout
 (
 nsBoxLayoutState
 &

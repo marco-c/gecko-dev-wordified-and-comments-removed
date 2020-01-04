@@ -528,7 +528,7 @@ nsresult
 nsBox
 :
 :
-BeginLayout
+BeginXULLayout
 (
 nsBoxLayoutState
 &
@@ -2072,7 +2072,7 @@ box
 box
 -
 >
-BeginLayout
+BeginXULLayout
 (
 aState
 )
