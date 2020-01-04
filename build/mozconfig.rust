@@ -49,6 +49,17 @@ bin
 /
 rustc
 "
+CARGO
+=
+"
+topsrcdir
+/
+cargo
+/
+bin
+/
+cargo
+"
 #
 Enable
 rust
