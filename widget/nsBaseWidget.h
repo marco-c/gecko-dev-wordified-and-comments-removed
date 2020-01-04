@@ -152,6 +152,9 @@ gfxContext
 namespace
 mozilla
 {
+class
+CompositorVsyncDispatcher
+;
 #
 ifdef
 ACCESSIBILITY
@@ -765,12 +768,14 @@ nullptr
 )
 override
 ;
+mozilla
+:
+:
 CompositorVsyncDispatcher
 *
 GetCompositorVsyncDispatcher
 (
 )
-override
 ;
 void
 CreateCompositorVsyncDispatcher
