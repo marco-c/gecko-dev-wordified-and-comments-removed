@@ -1,9 +1,9 @@
 #
 ifndef
-MOZILLA_AVCPU_PERMS_H
+MOZILLA_AVUTIL_VISIBILITY_H
 #
 define
-MOZILLA_AVCPU_PERMS_H
+MOZILLA_AVUTIL_VISIBILITY_H
 #
 pragma
 GCC
@@ -18,6 +18,15 @@ include
 libavutil
 /
 cpu
+.
+h
+"
+#
+include
+"
+libavutil
+/
+log
 .
 h
 "
