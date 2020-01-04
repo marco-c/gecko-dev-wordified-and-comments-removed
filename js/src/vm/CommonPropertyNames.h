@@ -1030,6 +1030,15 @@ int32
 \
 macro
 (
+isEntryPoint
+isEntryPoint
+"
+isEntryPoint
+"
+)
+\
+macro
+(
 isExtensible
 isExtensible
 "
