@@ -195,6 +195,7 @@ Value
 >
 >
 &
+&
 aArguments
 ErrorResult
 &
@@ -245,6 +246,7 @@ JS
 Value
 >
 >
+&
 &
 aArguments
 )
@@ -373,6 +375,7 @@ JS
 Value
 >
 >
+&
 &
 aArguments
 )
@@ -1006,6 +1009,7 @@ Value
 >
 >
 &
+&
 aArguments
 ErrorResult
 &
@@ -1059,7 +1063,10 @@ return
 Init
 (
 aCx
+Move
+(
 aArguments
+)
 )
 ;
 }
@@ -1190,6 +1197,7 @@ Value
 >
 >
 &
+&
 aArguments
 )
 :
@@ -1222,7 +1230,10 @@ AssertIsOnWorkerThread
 Init
 (
 aCx
+Move
+(
 aArguments
+)
 )
 ;
 }
@@ -1310,6 +1321,7 @@ Value
 >
 >
 &
+&
 aArguments
 )
 {
@@ -1322,8 +1334,8 @@ this
 )
 ;
 mArgs
-.
-SwapElements
+=
+Move
 (
 aArguments
 )
@@ -1503,7 +1515,10 @@ nsJSScriptTimeoutHandler
 aCx
 aWindow
 aFunction
+Move
+(
 args
+)
 aError
 )
 ;
@@ -1671,7 +1686,10 @@ nsJSScriptTimeoutHandler
 aCx
 aWorkerPrivate
 aFunction
+Move
+(
 args
+)
 )
 ;
 return
