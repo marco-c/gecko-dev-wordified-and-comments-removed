@@ -83,6 +83,7 @@ aInput
 )
 {
 return
+(
 aInput
 .
 IsLeftButton
@@ -99,6 +100,18 @@ MouseInput
 :
 :
 MOUSE_UP
+)
+|
+|
+aInput
+.
+mType
+=
+=
+MouseInput
+:
+:
+MOUSE_DRAG_END
 ;
 }
 void

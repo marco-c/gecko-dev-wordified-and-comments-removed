@@ -2819,6 +2819,14 @@ mMessage
 =
 =
 eMouseUp
+|
+|
+aEvent
+.
+mMessage
+=
+=
+eDragEnd
 ;
 }
 template
@@ -5020,6 +5028,9 @@ mClass
 {
 case
 eMouseEventClass
+:
+case
+eDragEventClass
 :
 {
 WidgetMouseEventBase
