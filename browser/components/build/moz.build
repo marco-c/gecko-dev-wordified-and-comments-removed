@@ -172,6 +172,9 @@ OS_LIBS
 =
 [
 '
+esent
+'
+'
 ole32
 '
 '
@@ -182,6 +185,16 @@ shlwapi
 '
 '
 version
+'
+]
+DELAYLOAD_DLLS
++
+=
+[
+'
+esent
+.
+dll
 '
 ]
 #
