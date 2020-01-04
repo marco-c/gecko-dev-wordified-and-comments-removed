@@ -122,7 +122,7 @@ aRect
 )
 ;
 DrawResult
-PaintBorder
+PaintBorderAndBackground
 (
 nsDisplayListBuilder
 *

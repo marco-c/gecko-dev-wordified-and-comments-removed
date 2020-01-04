@@ -189,12 +189,6 @@ nsChangeHint_UpdateUsesOpacity
 <
 <
 25
-nsChangeHint_UpdateBackgroundPosition
-=
-1
-<
-<
-26
 }
 ;
 inline
@@ -616,9 +610,6 @@ nsChangeHint_UpdateComputedBSize
 |
 \
 nsChangeHint_UpdateUsesOpacity
-|
-\
-nsChangeHint_UpdateBackgroundPosition
 )
 inline
 nsChangeHint
@@ -661,9 +652,6 @@ nsChangeHint_BorderStyleNoneChange
 nsChangeHint_UpdateComputedBSize
 |
 nsChangeHint_UpdateUsesOpacity
-|
-\
-nsChangeHint_UpdateBackgroundPosition
 )
 )
 ;
