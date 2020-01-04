@@ -145,6 +145,9 @@ IPC_LOG
 #
 else
 static
+mozilla
+:
+:
 LazyLogModule
 sLogModule
 (
@@ -177,6 +180,13 @@ endif
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
+:
+:
+ipc
 ;
 using
 namespace

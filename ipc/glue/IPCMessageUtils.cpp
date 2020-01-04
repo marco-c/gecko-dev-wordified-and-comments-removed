@@ -32,6 +32,9 @@ aByteLength
 auto
 length
 =
+mozilla
+:
+:
 CheckedInt
 <
 int
