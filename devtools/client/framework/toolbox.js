@@ -8366,9 +8366,7 @@ rootForm
 {
 return
 new
-L10N
-.
-getFormatStr
+getPreferenceFront
 (
 this
 .
