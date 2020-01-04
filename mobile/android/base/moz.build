@@ -1802,6 +1802,13 @@ CustomTabsActivity
 java
 '
 '
+customtabs
+/
+GeckoCustomTabsService
+.
+java
+'
+'
 DataReportingNotification
 .
 java
