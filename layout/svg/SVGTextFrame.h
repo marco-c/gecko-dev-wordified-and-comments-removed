@@ -36,6 +36,15 @@ h
 #
 include
 "
+mozilla
+/
+SVGContextPaint
+.
+h
+"
+#
+include
+"
 gfxMatrix
 .
 h
@@ -44,13 +53,6 @@ h
 include
 "
 gfxRect
-.
-h
-"
-#
-include
-"
-gfxSVGGlyphs
 .
 h
 "
@@ -490,6 +492,7 @@ float
 GetFillOpacity
 (
 )
+const
 override
 {
 return
@@ -512,6 +515,7 @@ float
 GetStrokeOpacity
 (
 )
+const
 override
 {
 return
