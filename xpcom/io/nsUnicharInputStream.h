@@ -7,13 +7,6 @@ nsUnicharInputStream_h__
 #
 include
 "
-nsISimpleUnicharStreamFactory
-.
-h
-"
-#
-include
-"
 nsIUnicharInputStream
 .
 h

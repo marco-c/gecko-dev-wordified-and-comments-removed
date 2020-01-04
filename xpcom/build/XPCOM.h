@@ -455,13 +455,6 @@ h
 #
 include
 "
-nsISimpleUnicharStreamFactory
-.
-h
-"
-#
-include
-"
 nsIStreamBufferAccess
 .
 h

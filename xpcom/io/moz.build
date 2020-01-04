@@ -223,11 +223,6 @@ nsISeekableStream
 idl
 '
 '
-nsISimpleUnicharStreamFactory
-.
-idl
-'
-'
 nsIStorageStream
 .
 idl
