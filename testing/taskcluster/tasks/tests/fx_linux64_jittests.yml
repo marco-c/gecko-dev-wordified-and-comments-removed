@@ -55,7 +55,7 @@ name
 jittest
 flavor
 :
-jittests
+jittest
 -
 chunked
 treeherder
