@@ -1770,6 +1770,10 @@ isAboutReader
 |
 |
 !
+content
+|
+|
+!
 (
 content
 .
