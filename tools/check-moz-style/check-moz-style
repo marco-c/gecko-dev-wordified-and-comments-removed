@@ -770,6 +770,8 @@ def
 process_patch
 (
 patch_string
+cwd
+scm
 )
 :
 "
@@ -959,7 +961,20 @@ cpplint
 .
 process_file
 (
+os
+.
+path
+.
+join
+(
+scm
+.
+find_checkout_root
+(
+cwd
+)
 filename
+)
 error
 =
 error_for_patch
@@ -971,7 +986,7 @@ main
 :
 cpplint
 .
-use_webkit_styles
+use_mozilla_styles
 (
 )
 (
@@ -1082,6 +1097,8 @@ commit
 "
 ]
 )
+cwd
+scm
 )
 else
 :
@@ -1092,6 +1109,8 @@ scm
 create_patch
 (
 )
+cwd
+scm
 )
 sys
 .
