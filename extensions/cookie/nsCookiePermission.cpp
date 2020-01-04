@@ -592,6 +592,9 @@ val
 )
 mCookiesLifetimeSec
 =
+(
+int64_t
+)
 val
 *
 24
