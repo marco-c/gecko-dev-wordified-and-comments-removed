@@ -132,6 +132,7 @@ MARK
 SWEEP
 FINALIZE
 COMPACT
+DECOMMIT
 }
 ;
 template
@@ -3426,6 +3427,12 @@ join
 )
 ;
 }
+bool
+isRunningWithLockHeld
+(
+)
+const
+;
 bool
 isRunning
 (

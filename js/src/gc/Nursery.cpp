@@ -3074,7 +3074,7 @@ buffersToFree
 MOZ_ASSERT
 (
 !
-isRunning
+isRunningWithLockHeld
 (
 )
 )
