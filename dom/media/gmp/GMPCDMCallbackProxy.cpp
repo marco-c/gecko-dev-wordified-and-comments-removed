@@ -567,12 +567,6 @@ CDMProxy
 >
 mProxy
 ;
-dom
-:
-:
-PromiseId
-mPid
-;
 nsString
 mSid
 ;
