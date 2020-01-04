@@ -57,6 +57,12 @@ set
 '
 build
 '
+    
+'
+artifact
+-
+build
+'
 ]
 )
 JOB_KINDS
