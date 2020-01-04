@@ -99,12 +99,6 @@ aRegion
 layers
 :
 :
-ImageContainer
-*
-aContainer
-layers
-:
-:
 Image
 *
 *

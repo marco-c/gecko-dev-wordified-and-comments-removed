@@ -5278,7 +5278,7 @@ data
 VideoData
 :
 :
-Create
+CreateAndCopyData
 (
 info
 mImageContainer

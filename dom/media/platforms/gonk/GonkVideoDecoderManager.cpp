@@ -2515,10 +2515,9 @@ data
 VideoData
 :
 :
-Create
+CreateAndCopyIntoTextureClient
 (
 mConfig
-mImageContainer
 0
 0
 1
@@ -3032,7 +3031,7 @@ data
 VideoData
 :
 :
-Create
+CreateAndCopyData
 (
 mConfig
 mImageContainer

@@ -297,7 +297,7 @@ v
 VideoData
 :
 :
-Create
+CreateAndCopyData
 (
 mVideoInfo
 mImageContainer

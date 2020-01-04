@@ -750,7 +750,6 @@ VideoData
 CreateFromImage
 (
 mConfig
-mImageContainer
 offset
 presentationTimeUs
 aDuration

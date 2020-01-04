@@ -1842,11 +1842,10 @@ data
 VideoData
 :
 :
-Create
+CreateAndCopyData
 (
 info
 mImageContainer
-nullptr
 aFrameRef
 .
 byte_offset
@@ -1952,7 +1951,6 @@ VideoData
 CreateFromImage
 (
 info
-mImageContainer
 aFrameRef
 .
 byte_offset

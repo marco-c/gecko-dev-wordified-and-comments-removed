@@ -899,12 +899,6 @@ CreateFromImage
 mInfo
 .
 mVideo
-mDecoder
--
->
-GetImageContainer
-(
-)
 pos
 frame
 .
@@ -1331,7 +1325,7 @@ v
 VideoData
 :
 :
-Create
+CreateAndCopyData
 (
 mInfo
 .
