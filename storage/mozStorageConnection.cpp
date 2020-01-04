@@ -4032,6 +4032,10 @@ PR_smprintf_free
 msg
 )
 ;
+msg
+=
+nullptr
+;
 #
 endif
 srv
@@ -4054,8 +4058,6 @@ srv
 SQLITE_OK
 )
 {
-char
-*
 msg
 =
 :
@@ -4097,6 +4099,10 @@ PR_smprintf_free
 (
 msg
 )
+;
+msg
+=
+nullptr
 ;
 }
 #

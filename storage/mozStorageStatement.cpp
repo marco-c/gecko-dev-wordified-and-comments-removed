@@ -1633,14 +1633,14 @@ nullptr
 )
 {
 nsAutoCString
-name
+fakeName
 (
 "
 :
 "
 )
 ;
-name
+fakeName
 .
 AppendInt
 (
@@ -1651,7 +1651,7 @@ _name
 .
 Assign
 (
-name
+fakeName
 )
 ;
 }
