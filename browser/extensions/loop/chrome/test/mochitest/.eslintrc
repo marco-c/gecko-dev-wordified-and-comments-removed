@@ -97,6 +97,11 @@ checkFxAOAuthTokenData
 :
 false
 "
+cleanupPanel
+"
+:
+false
+"
 loadLoopPanel
 "
 :
