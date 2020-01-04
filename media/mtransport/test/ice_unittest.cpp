@@ -18430,7 +18430,7 @@ host_net
 TEST_F
 (
 WebRtcIceConnectTest
-TestSrflxCandPairingFilter
+DISABLED_TestSrflxCandPairingFilter
 )
 {
 if
