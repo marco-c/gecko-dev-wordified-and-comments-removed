@@ -671,11 +671,11 @@ Job
 aJob
 )
 {
-MutexAutoLock
+CriticalSectionAutoEnter
 lock
 (
 &
-mMutex
+mWaitingJobsSection
 )
 ;
 mWaitingJobs
@@ -714,11 +714,11 @@ kungFuDeathGrip
 this
 )
 ;
-MutexAutoLock
+CriticalSectionAutoEnter
 lock
 (
 &
-mMutex
+mWaitingJobsSection
 )
 ;
 tasksToSubmit
