@@ -11879,7 +11879,7 @@ Ci
 .
 nsIWebNavigation
 .
-LOAD_FLAGS_BYPASS_PROXY
+LOAD_FLAGS_NONE
 ;
 if
 (
@@ -11911,6 +11911,12 @@ Ci
 nsIWebNavigation
 .
 LOAD_FLAGS_BYPASS_CACHE
+|
+Ci
+.
+nsIWebNavigation
+.
+LOAD_FLAGS_BYPASS_PROXY
 ;
 }
 if
