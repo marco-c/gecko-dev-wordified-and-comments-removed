@@ -17838,9 +17838,6 @@ StylePosition
 >
 ComputedAlignContent
 (
-StyleDisplay
-(
-)
 )
 ;
 nsCSSValue
