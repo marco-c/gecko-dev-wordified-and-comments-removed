@@ -34,6 +34,9 @@ type
 "
 normal
 "
+visible
+=
+true
 }
 =
 {
@@ -87,6 +90,12 @@ this
 type
 =
 type
+;
+this
+.
+visible
+=
+visible
 ;
 }
 module
