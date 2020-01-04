@@ -671,8 +671,9 @@ nameContainer
 "
 )
 ;
-let
-propertyContainer
+this
+.
+valueContainer
 =
 createChild
 (
@@ -699,7 +700,9 @@ valueSpan
 =
 createChild
 (
-propertyContainer
+this
+.
+valueContainer
 "
 span
 "
@@ -816,7 +819,9 @@ priority
 ;
 appendText
 (
-propertyContainer
+this
+.
+valueContainer
 "
 ;
 "
@@ -1028,7 +1033,9 @@ target
 =
 =
 =
-propertyContainer
+this
+.
+nameContainer
 )
 {
 this
@@ -1100,7 +1107,9 @@ blurOnMultipleProperties
 false
 )
 ;
-propertyContainer
+this
+.
+valueContainer
 .
 addEventListener
 (
@@ -1127,7 +1136,9 @@ target
 =
 =
 =
-propertyContainer
+this
+.
+valueContainer
 )
 {
 this
