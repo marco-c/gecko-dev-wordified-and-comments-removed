@@ -724,9 +724,9 @@ reason
 override
 ;
 virtual
-PWebSocketFrameListenerParent
+PWebSocketEventListenerParent
 *
-AllocPWebSocketFrameListenerParent
+AllocPWebSocketEventListenerParent
 (
 const
 uint64_t
@@ -737,9 +737,9 @@ override
 ;
 virtual
 bool
-DeallocPWebSocketFrameListenerParent
+DeallocPWebSocketEventListenerParent
 (
-PWebSocketFrameListenerParent
+PWebSocketEventListenerParent
 *
 )
 override

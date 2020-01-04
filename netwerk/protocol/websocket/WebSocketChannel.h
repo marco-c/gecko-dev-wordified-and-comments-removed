@@ -196,7 +196,7 @@ class
 CallAcknowledge
 ;
 class
-WebSocketFrameService
+WebSocketEventService
 ;
 enum
 wsConnectingState
@@ -827,9 +827,9 @@ kLingeringCloseThreshold
 ;
 RefPtr
 <
-WebSocketFrameService
+WebSocketEventService
 >
-mFrameService
+mService
 ;
 int32_t
 mMaxConcurrentConnections
