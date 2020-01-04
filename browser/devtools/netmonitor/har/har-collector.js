@@ -26,10 +26,6 @@ all
 require
 (
 "
-sdk
-/
-core
-/
 promise
 "
 )

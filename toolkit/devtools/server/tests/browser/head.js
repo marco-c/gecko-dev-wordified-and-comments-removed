@@ -136,10 +136,6 @@ defer
 require
 (
 "
-sdk
-/
-core
-/
 promise
 "
 )
