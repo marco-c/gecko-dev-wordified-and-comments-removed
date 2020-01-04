@@ -5047,17 +5047,6 @@ self
 .
 marionette
 .
-set_context
-(
-"
-content
-"
-)
-           
-self
-.
-marionette
-.
 clear_imported_scripts
 (
 )
