@@ -179,7 +179,7 @@ Accessible
 TreeWalker
 :
 :
-NextChild
+Next
 (
 )
 {
@@ -370,7 +370,7 @@ mAnchorNode
 parent
 ;
 return
-NextChild
+Next
 (
 )
 ;

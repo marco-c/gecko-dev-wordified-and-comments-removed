@@ -92,7 +92,7 @@ TreeWalker
 ;
 Accessible
 *
-NextChild
+Next
 (
 )
 ;

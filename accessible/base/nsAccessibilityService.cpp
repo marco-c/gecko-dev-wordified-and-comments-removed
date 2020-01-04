@@ -3120,7 +3120,7 @@ child
 =
 walker
 .
-NextChild
+Next
 (
 )
 ;
