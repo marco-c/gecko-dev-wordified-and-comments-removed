@@ -20878,6 +20878,13 @@ length
 )
 ;
 namespace
+js
+{
+class
+ScriptSource
+;
+}
+namespace
 JS
 {
 class
@@ -20889,7 +20896,10 @@ AutoFilename
 {
 private
 :
-void
+js
+:
+:
+ScriptSource
 *
 ss_
 ;
@@ -20989,7 +20999,10 @@ filename
 void
 setScriptSource
 (
-void
+js
+:
+:
+ScriptSource
 *
 ss
 )
