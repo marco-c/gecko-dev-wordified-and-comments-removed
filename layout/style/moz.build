@@ -541,6 +541,11 @@ RuleProcessorCache
 h
 '
 '
+ServoBindings
+.
+h
+'
+'
 ServoStyleSet
 .
 h
@@ -970,6 +975,11 @@ cpp
 '
 '
 RuleProcessorCache
+.
+cpp
+'
+'
+ServoBindings
 .
 cpp
 '
