@@ -160,6 +160,7 @@ prototype
 function
 SteamEngine
 (
+name
 service
 )
 {
@@ -168,9 +169,7 @@ Engine
 call
 (
 this
-"
-Steam
-"
+name
 service
 )
 ;
@@ -418,6 +417,9 @@ engine
 new
 SteamEngine
 (
+"
+Steam
+"
 Service
 )
 ;
@@ -496,6 +498,9 @@ engine
 new
 SteamEngine
 (
+"
+Steam
+"
 Service
 )
 ;
@@ -578,6 +583,9 @@ engine
 new
 SteamEngine
 (
+"
+Steam
+"
 Service
 )
 ;
@@ -695,6 +703,9 @@ engine
 new
 SteamEngine
 (
+"
+Steam
+"
 Service
 )
 ;
@@ -796,6 +807,9 @@ engine
 new
 SteamEngine
 (
+"
+Steam
+"
 Service
 )
 ;
@@ -1026,6 +1040,9 @@ engine
 new
 SteamEngine
 (
+"
+Steam
+"
 Service
 )
 ;
@@ -1115,6 +1132,9 @@ engine
 new
 SteamEngine
 (
+"
+Steam
+"
 Service
 )
 ;
@@ -1303,6 +1323,9 @@ engine
 new
 SteamEngine
 (
+"
+Steam
+"
 Service
 )
 ;

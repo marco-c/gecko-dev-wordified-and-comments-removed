@@ -143,6 +143,7 @@ RotaryStore
 function
 RotaryStore
 (
+name
 engine
 )
 {
@@ -151,9 +152,7 @@ Store
 call
 (
 this
-"
-Rotary
-"
+name
 engine
 )
 ;
@@ -424,6 +423,7 @@ RotaryTracker
 function
 RotaryTracker
 (
+name
 engine
 )
 {
@@ -432,9 +432,7 @@ Tracker
 call
 (
 this
-"
-Rotary
-"
+name
 engine
 )
 ;
