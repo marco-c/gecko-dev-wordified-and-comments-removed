@@ -3835,7 +3835,7 @@ case
 eLoadError
 :
 case
-NS_FORM_SELECTED
+eFormSelect
 :
 case
 eFormChange

@@ -12775,7 +12775,7 @@ nsContentUtils
 IsCallerChrome
 (
 )
-NS_FORM_SELECTED
+eFormSelect
 )
 ;
 mHandlingSelectEvent

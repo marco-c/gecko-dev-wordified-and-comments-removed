@@ -392,7 +392,7 @@ eFormEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_FORM_SELECTED
+eFormSelect
 eFormEventFirst
 +
 3

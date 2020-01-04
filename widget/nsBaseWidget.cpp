@@ -12104,9 +12104,9 @@ NS_FOCUS_CONTENT
 ;
 _ASSIGN_eventName
 (
-NS_FORM_SELECTED
+eFormSelect
 "
-NS_FORM_SELECTED
+eFormSelect
 "
 )
 ;
