@@ -159,7 +159,7 @@ h
 if
 defined
 (
-__GLIBC__
+__linux__
 )
 #
 include
@@ -168,6 +168,13 @@ unistd
 .
 h
 >
+#
+if
+!
+defined
+(
+__BIONIC__
+)
 #
 include
 <
@@ -194,6 +201,8 @@ SYS_gettid
 )
 ;
 }
+#
+endif
 #
 endif
 #
