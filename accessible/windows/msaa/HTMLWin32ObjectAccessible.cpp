@@ -52,6 +52,11 @@ mHwnd
 aHwnd
 )
 {
+mStateFlags
+|
+=
+eNoKidsFromDOM
+;
 if
 (
 mHwnd
@@ -121,15 +126,6 @@ return
 !
 mHwnd
 ;
-}
-void
-HTMLWin32ObjectOwnerAccessible
-:
-:
-CacheChildren
-(
-)
-{
 }
 HTMLWin32ObjectAccessible
 :

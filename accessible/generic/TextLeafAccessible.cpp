@@ -56,6 +56,11 @@ mType
 =
 eTextLeafType
 ;
+mStateFlags
+|
+=
+eNoKidsFromDOM
+;
 }
 TextLeafAccessible
 :
@@ -153,13 +158,4 @@ mText
 return
 eNameOK
 ;
-}
-void
-TextLeafAccessible
-:
-:
-CacheChildren
-(
-)
-{
 }

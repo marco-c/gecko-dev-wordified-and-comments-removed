@@ -1051,6 +1051,11 @@ mGenericTypes
 =
 eTableRow
 ;
+mStateFlags
+|
+=
+eNoKidsFromDOM
+;
 }
 XULTreeGridRowAccessible
 :
@@ -1684,15 +1689,6 @@ EVENT_NAME_CHANGE
 this
 )
 ;
-}
-void
-XULTreeGridRowAccessible
-:
-:
-CacheChildren
-(
-)
-{
 }
 XULTreeGridCellAccessible
 :

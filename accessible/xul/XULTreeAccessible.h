@@ -748,13 +748,6 @@ XULTreeItemAccessible
 (
 )
 ;
-virtual
-void
-CacheChildren
-(
-)
-override
-;
 nsCOMPtr
 <
 nsITreeColumn

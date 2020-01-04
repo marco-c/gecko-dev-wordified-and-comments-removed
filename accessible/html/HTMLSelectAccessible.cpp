@@ -1282,6 +1282,11 @@ mGenericTypes
 =
 eCombobox
 ;
+mStateFlags
+|
+=
+eNoKidsFromDOM
+;
 nsIComboboxControlFrame
 *
 comboFrame
@@ -1399,15 +1404,6 @@ true
 return
 false
 ;
-}
-void
-HTMLComboboxAccessible
-:
-:
-CacheChildren
-(
-)
-{
 }
 void
 HTMLComboboxAccessible

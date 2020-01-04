@@ -10107,12 +10107,14 @@ IsContent
 (
 )
 )
+{
 CacheChildrenInSubtree
 (
 child
 aFocusedAcc
 )
 ;
+}
 }
 if
 (

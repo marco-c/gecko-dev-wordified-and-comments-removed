@@ -75,12 +75,6 @@ const
 ;
 protected
 :
-virtual
-void
-CacheChildren
-(
-)
-;
 void
 *
 mHwnd

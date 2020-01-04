@@ -104,13 +104,6 @@ LeafAccessible
 )
 {
 }
-virtual
-void
-CacheChildren
-(
-)
-override
-;
 }
 ;
 class

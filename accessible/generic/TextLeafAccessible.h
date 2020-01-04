@@ -110,15 +110,6 @@ mText
 }
 protected
 :
-virtual
-void
-CacheChildren
-(
-)
-override
-;
-protected
-:
 nsString
 mText
 ;

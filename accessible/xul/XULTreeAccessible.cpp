@@ -4387,6 +4387,11 @@ aTreeView
 aRow
 )
 {
+mStateFlags
+|
+=
+eNoKidsFromDOM
+;
 mColumn
 =
 nsCoreUtils
@@ -4612,15 +4617,6 @@ mCachedName
 name
 ;
 }
-}
-void
-XULTreeItemAccessible
-:
-:
-CacheChildren
-(
-)
-{
 }
 XULTreeColumAccessible
 :
