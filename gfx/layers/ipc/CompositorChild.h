@@ -256,8 +256,12 @@ override
 ;
 virtual
 bool
-RecvInvalidateAll
+RecvInvalidateLayers
 (
+const
+uint64_t
+&
+aLayersId
 )
 override
 ;

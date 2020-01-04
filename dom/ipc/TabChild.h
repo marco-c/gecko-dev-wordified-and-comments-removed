@@ -2214,6 +2214,11 @@ ClearCachedResources
 (
 )
 ;
+void
+InvalidateLayers
+(
+)
+;
 static
 inline
 TabChild

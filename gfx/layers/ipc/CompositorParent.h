@@ -1249,6 +1249,11 @@ RootLayerTreeId
 (
 )
 ;
+void
+InvalidateRemoteLayers
+(
+)
+;
 static
 CompositorParent
 *
