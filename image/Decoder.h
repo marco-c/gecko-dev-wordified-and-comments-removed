@@ -1006,6 +1006,12 @@ mFrameCount
 FrameTimeout
 mLoopLength
 ;
+gfx
+:
+:
+IntRect
+mFirstFrameRefreshArea
+;
 TimeDuration
 mDecodeTime
 ;

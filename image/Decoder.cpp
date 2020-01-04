@@ -1414,9 +1414,6 @@ RawAccessFrameRef
 ;
 }
 }
-nsIntRect
-refreshArea
-;
 if
 (
 aFrameNum
@@ -1491,7 +1488,7 @@ DisposalMethod
 RESTORE_PREVIOUS
 )
 {
-refreshArea
+mFirstFrameRefreshArea
 =
 previousFrameData
 .
@@ -1513,11 +1510,11 @@ SetRawAccessOnly
 (
 )
 ;
-refreshArea
+mFirstFrameRefreshArea
 .
 UnionRect
 (
-refreshArea
+mFirstFrameRefreshArea
 frame
 -
 >
@@ -1542,7 +1539,6 @@ mImage
 OnAddedFrame
 (
 mFrameCount
-refreshArea
 )
 ;
 }
@@ -2013,6 +2009,13 @@ mImageMetadata
 SetLoopLength
 (
 mLoopLength
+)
+;
+mImageMetadata
+.
+SetFirstFrameRefreshArea
+(
+mFirstFrameRefreshArea
 )
 ;
 }

@@ -363,10 +363,6 @@ OnAddedFrame
 (
 uint32_t
 aNewFrameCount
-const
-nsIntRect
-&
-aNewRefreshArea
 )
 ;
 void
@@ -622,11 +618,6 @@ uint32_t
 aWhichFrame
 )
 const
-;
-nsIntRect
-GetFirstFrameRect
-(
-)
 ;
 Pair
 <
