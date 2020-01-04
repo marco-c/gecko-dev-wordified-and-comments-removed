@@ -350,7 +350,7 @@ Screenshots
         
 self
 .
-remoteNSPR
+remoteMozLog
 =
 os
 .
@@ -362,7 +362,7 @@ options
 .
 remoteTestRoot
 "
-nspr
+mozlog
 "
 )
         
@@ -606,7 +606,7 @@ removeDir
 (
 self
 .
-remoteNSPR
+remoteMozLog
 )
         
 self
@@ -617,7 +617,7 @@ mkDir
 (
 self
 .
-remoteNSPR
+remoteMozLog
 )
         
 self
@@ -926,7 +926,7 @@ debug
 Pulling
 any
 remote
-nspr
+moz
 logs
 and
 screenshots
@@ -948,7 +948,7 @@ getDirectory
 (
 self
 .
-remoteNSPR
+remoteMozLog
 blobberUploadDir
 )
             
@@ -1038,7 +1038,7 @@ removeDir
 (
 self
 .
-remoteNSPR
+remoteMozLog
 )
         
 self
@@ -3302,7 +3302,7 @@ XPCOM_MEM_BLOAT_LOG
 browserEnv
 [
 "
-NSPR_LOG_FILE
+MOZ_LOG_FILE
 "
 ]
 =
@@ -3315,11 +3315,11 @@ join
             
 self
 .
-remoteNSPR
+remoteMozLog
             
 self
 .
-nsprLogName
+mozLogName
 )
         
 return
@@ -3370,10 +3370,10 @@ name
         
 self
 .
-nsprLogName
+mozLogName
 =
 "
-nspr
+moz
 -
 %
 s

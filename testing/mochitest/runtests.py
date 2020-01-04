@@ -233,7 +233,7 @@ dirname
 __file__
 )
 )
-NSPR_LOG_MODULES
+MOZ_LOG_MODULES
 =
 "
 "
@@ -3041,7 +3041,7 @@ None
         
 self
 .
-nsprLogs
+mozLogs
 =
 None
         
@@ -7926,9 +7926,9 @@ abort
         
 self
 .
-nsprLogs
+mozLogs
 =
-NSPR_LOG_MODULES
+MOZ_LOG_MODULES
 and
 "
 MOZ_UPLOAD_DIR
@@ -7941,28 +7941,17 @@ environ
 if
 self
 .
-nsprLogs
+mozLogs
 :
             
 browserEnv
 [
 "
-NSPR_LOG_MODULES
+MOZ_LOG_MODULES
 "
 ]
 =
-NSPR_LOG_MODULES
-            
-browserEnv
-[
-"
-GECKO_SEPARATE_NSPR_LOGS
-"
-]
-=
-"
-1
-"
+MOZ_LOG_MODULES
         
 if
 debugger
@@ -14715,7 +14704,7 @@ return
 if
 self
 .
-nsprLogs
+mozLogs
 :
             
 self
@@ -14723,7 +14712,7 @@ self
 browserEnv
 [
 "
-NSPR_LOG_FILE
+MOZ_LOG_FILE
 "
 ]
 =
@@ -14731,7 +14720,7 @@ NSPR_LOG_FILE
 {
 }
 /
-nspr
+moz
 -
 pid
 =
@@ -17016,7 +17005,7 @@ options
 if
 runner
 .
-nsprLogs
+mozLogs
 :
         
 with
@@ -17028,7 +17017,7 @@ ZipFile
 {
 }
 /
-nsprlogs
+mozLogs
 .
 zip
 "
@@ -17067,7 +17056,7 @@ glob
 {
 }
 /
-nspr
+moz
 *
 .
 log
