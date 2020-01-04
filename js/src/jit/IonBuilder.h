@@ -913,11 +913,6 @@ processThrow
 )
 ;
 ControlStatus
-processThrowSetConst
-(
-)
-;
-ControlStatus
 processContinue
 (
 JSOp
@@ -3286,6 +3281,11 @@ index
 ;
 bool
 jsop_notearg
+(
+)
+;
+bool
+jsop_throwsetconst
 (
 )
 ;
