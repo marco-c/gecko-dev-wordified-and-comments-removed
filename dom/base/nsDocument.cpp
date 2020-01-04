@@ -26672,12 +26672,6 @@ nsDocument
 :
 sProcessingStack
 ;
-bool
-nsDocument
-:
-:
-sProcessingBaseElementQueue
-;
 void
 nsDocument
 :
