@@ -1318,7 +1318,7 @@ eScriptEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_BEFORE_SCRIPT_EXECUTE
+eBeforeScriptExecute
 eScriptEventFirst
 )
 NS_EVENT_MESSAGE

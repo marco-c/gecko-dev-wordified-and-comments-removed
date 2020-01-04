@@ -12247,9 +12247,9 @@ ePopState
 ;
 _ASSIGN_eventName
 (
-NS_BEFORE_SCRIPT_EXECUTE
+eBeforeScriptExecute
 "
-NS_BEFORE_SCRIPT_EXECUTE
+eBeforeScriptExecute
 "
 )
 ;

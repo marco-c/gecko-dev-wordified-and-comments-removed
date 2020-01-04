@@ -814,7 +814,7 @@ eClipboardEventClass
 EVENT
 (
 beforescriptexecute
-NS_BEFORE_SCRIPT_EXECUTE
+eBeforeScriptExecute
 EventNameType_HTMLXUL
 eBasicEventClass
 )
