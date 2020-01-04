@@ -399,6 +399,10 @@ private
 void
 EnsureContainingContext
 (
+const
+Matrix
+&
+aTransform
 )
 const
 ;
@@ -418,6 +422,10 @@ mutable
 cairo_t
 *
 mContainingContext
+;
+mutable
+Matrix
+mContainingTransform
 ;
 Point
 mCurrentPoint
