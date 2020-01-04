@@ -1092,7 +1092,7 @@ ReferenceTypeDescr
 :
 :
 TYPE_ANY
-HeapValue
+GCPtrValue
 Any
 )
 \
@@ -1102,7 +1102,7 @@ ReferenceTypeDescr
 :
 :
 TYPE_OBJECT
-HeapPtrObject
+GCPtrObject
 Object
 )
 \
@@ -1112,7 +1112,7 @@ ReferenceTypeDescr
 :
 :
 TYPE_STRING
-HeapPtrString
+GCPtrString
 string
 )
 class
@@ -1659,7 +1659,7 @@ const
 ObjectOps
 objectOps_
 ;
-HeapPtrShape
+GCPtrShape
 shape_
 ;
 static
@@ -2794,7 +2794,7 @@ class
 StoreReference
 #
 #
-T
+_name
 {
 \
 private
@@ -2908,7 +2908,7 @@ class
 LoadReference
 #
 #
-T
+_name
 {
 \
 private

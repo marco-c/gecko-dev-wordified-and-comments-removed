@@ -312,7 +312,7 @@ trc
 ;
 protected
 :
-HeapPtrObject
+GCPtrObject
 memberOf
 ;
 JS

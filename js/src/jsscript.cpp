@@ -3048,7 +3048,7 @@ objects
 (
 )
 ;
-HeapPtrObject
+GCPtrObject
 *
 vector
 =
@@ -5718,7 +5718,7 @@ if
 nconsts
 )
 {
-HeapValue
+GCPtrValue
 *
 vector
 =
@@ -5816,7 +5816,7 @@ nobjects
 i
 )
 {
-HeapPtrObject
+GCPtrObject
 *
 objp
 =
@@ -7428,7 +7428,7 @@ func
 cx
 )
 ;
-HeapPtrFunction
+GCPtrFunction
 *
 innerFunctions
 =
@@ -13845,7 +13845,7 @@ baseLength
 padding
 )
 ;
-HeapPtrAtom
+GCPtrAtom
 *
 atoms
 =
@@ -13899,7 +13899,7 @@ atoms
 i
 ]
 )
-HeapPtrAtom
+GCPtrAtom
 (
 )
 ;
@@ -14567,7 +14567,7 @@ JS_STATIC_ASSERT
 (
 HAS_JSVAL_ALIGNMENT
 (
-HeapValue
+GCPtrValue
 )
 )
 ;
@@ -14575,8 +14575,8 @@ JS_STATIC_ASSERT
 (
 NO_PADDING_BETWEEN_ENTRIES
 (
-HeapValue
-HeapPtrObject
+GCPtrValue
+GCPtrObject
 )
 )
 ;
@@ -14584,8 +14584,8 @@ JS_STATIC_ASSERT
 (
 NO_PADDING_BETWEEN_ENTRIES
 (
-HeapPtrObject
-HeapPtrObject
+GCPtrObject
+GCPtrObject
 )
 )
 ;
@@ -14593,7 +14593,7 @@ JS_STATIC_ASSERT
 (
 NO_PADDING_BETWEEN_ENTRIES
 (
-HeapPtrObject
+GCPtrObject
 JSTryNote
 )
 )
@@ -14620,7 +14620,7 @@ JS_STATIC_ASSERT
 (
 NO_PADDING_BETWEEN_ENTRIES
 (
-HeapValue
+GCPtrValue
 BlockScopeNote
 )
 )
@@ -14647,7 +14647,7 @@ JS_STATIC_ASSERT
 (
 NO_PADDING_BETWEEN_ENTRIES
 (
-HeapPtrObject
+GCPtrObject
 BlockScopeNote
 )
 )
@@ -15406,7 +15406,7 @@ consts
 vector
 =
 (
-HeapValue
+GCPtrValue
 *
 )
 cursor
@@ -15464,7 +15464,7 @@ objects
 vector
 =
 (
-HeapPtrObject
+GCPtrObject
 *
 )
 cursor
@@ -19833,7 +19833,7 @@ nobjects
 0
 )
 {
-HeapPtrObject
+GCPtrObject
 *
 vector
 =
@@ -20784,13 +20784,13 @@ nconsts
 0
 )
 {
-HeapValue
+GCPtrValue
 *
 vector
 =
 Rebase
 <
-HeapValue
+GCPtrValue
 >
 (
 dst
@@ -20867,13 +20867,13 @@ nobjects
 0
 )
 {
-HeapPtrObject
+GCPtrObject
 *
 vector
 =
 Rebase
 <
-HeapPtrObject
+GCPtrObject
 >
 (
 dst
@@ -24208,7 +24208,7 @@ numInnerFunctions
 *
 sizeof
 (
-HeapPtrFunction
+GCPtrFunction
 )
 )
 ;
@@ -24575,7 +24575,7 @@ FreeVariable
 dummyAtom
 )
 ;
-HeapPtrFunction
+GCPtrFunction
 *
 functions
 =

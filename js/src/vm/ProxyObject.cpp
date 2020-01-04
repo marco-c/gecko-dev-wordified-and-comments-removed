@@ -447,7 +447,7 @@ value
 *
 reinterpret_cast
 <
-HeapValue
+GCPtrValue
 *
 >
 (

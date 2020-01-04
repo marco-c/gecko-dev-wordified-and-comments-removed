@@ -860,7 +860,7 @@ nextInSite
 (
 )
 ;
-HeapPtrNativeObject
+GCPtrNativeObject
 &
 dbgobj
 =

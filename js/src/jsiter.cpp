@@ -303,7 +303,7 @@ trc
 {
 for
 (
-HeapPtrFlatString
+GCPtrFlatString
 *
 str
 =
@@ -3404,7 +3404,7 @@ props_cursor
 =
 reinterpret_cast
 <
-HeapPtrFlatString
+GCPtrFlatString
 *
 >
 (
@@ -6758,7 +6758,7 @@ ni
 props_end
 )
 {
-HeapPtrFlatString
+GCPtrFlatString
 *
 props_cursor
 =
@@ -6769,7 +6769,7 @@ current
 (
 )
 ;
-HeapPtrFlatString
+GCPtrFlatString
 *
 props_end
 =
@@ -6782,7 +6782,7 @@ end
 ;
 for
 (
-HeapPtrFlatString
+GCPtrFlatString
 *
 idp
 =
@@ -6952,7 +6952,7 @@ else
 {
 for
 (
-HeapPtrFlatString
+GCPtrFlatString
 *
 p
 =

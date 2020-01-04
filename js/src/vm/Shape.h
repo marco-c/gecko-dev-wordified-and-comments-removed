@@ -989,7 +989,7 @@ flags
 uint32_t
 slotSpan_
 ;
-HeapPtrUnownedBaseShape
+GCPtrUnownedBaseShape
 unowned_
 ;
 ShapeTable
@@ -1836,7 +1836,7 @@ RelocationOverlay
 ;
 protected
 :
-HeapPtrBaseShape
+GCPtrBaseShape
 base_
 ;
 PreBarrieredId
@@ -1893,7 +1893,7 @@ attrs
 uint8_t
 flags
 ;
-HeapPtrShape
+GCPtrShape
 parent
 ;
 union
@@ -1901,7 +1901,7 @@ union
 KidsPointer
 kids
 ;
-HeapPtrShape
+GCPtrShape
 *
 listp
 ;
@@ -1964,7 +1964,7 @@ obj
 void
 insertIntoDictionary
 (
-HeapPtrShape
+GCPtrShape
 *
 dictp
 )
@@ -1979,7 +1979,7 @@ StackShape
 child
 uint32_t
 nfixed
-HeapPtrShape
+GCPtrShape
 *
 dictp
 )
@@ -2318,7 +2318,7 @@ this
 ;
 }
 const
-HeapPtrShape
+GCPtrShape
 &
 previous
 (
@@ -5990,7 +5990,7 @@ StackShape
 child
 uint32_t
 nfixed
-HeapPtrShape
+GCPtrShape
 *
 dictp
 )

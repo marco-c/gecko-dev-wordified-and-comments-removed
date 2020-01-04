@@ -411,7 +411,7 @@ HeapSlot
 =
 sizeof
 (
-HeapPtrObject
+GCPtrObject
 )
 "
 there

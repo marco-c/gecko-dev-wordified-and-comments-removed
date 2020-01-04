@@ -13409,7 +13409,7 @@ dbg
 *
 p
 ;
-HeapPtrNativeObject
+GCPtrNativeObject
 &
 dbgobj
 =
@@ -13650,7 +13650,7 @@ Object
 "
 )
 ;
-HeapPtrNativeObject
+GCPtrNativeObject
 &
 dbgobj
 =

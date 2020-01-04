@@ -56,7 +56,7 @@ numArgs
 uint32_t
 dataBytes
 ;
-HeapValue
+GCPtrValue
 callee
 ;
 JSScript
@@ -67,7 +67,7 @@ size_t
 *
 deletedBits
 ;
-HeapValue
+GCPtrValue
 args
 [
 1
@@ -87,7 +87,7 @@ args
 )
 ;
 }
-HeapValue
+GCPtrValue
 *
 begin
 (
@@ -98,7 +98,7 @@ args
 ;
 }
 const
-HeapValue
+GCPtrValue
 *
 begin
 (
@@ -109,7 +109,7 @@ return
 args
 ;
 }
-HeapValue
+GCPtrValue
 *
 end
 (
@@ -122,7 +122,7 @@ numArgs
 ;
 }
 const
-HeapValue
+GCPtrValue
 *
 end
 (
@@ -792,7 +792,7 @@ data
 numArgs
 )
 ;
-HeapValue
+GCPtrValue
 &
 lhs
 =

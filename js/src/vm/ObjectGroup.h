@@ -139,7 +139,7 @@ Class
 *
 clasp_
 ;
-HeapPtr
+GCPtr
 <
 TaggedProto
 >
@@ -192,7 +192,7 @@ isDynamic
 ;
 }
 const
-HeapPtr
+GCPtr
 <
 TaggedProto
 >
@@ -206,7 +206,7 @@ return
 proto_
 ;
 }
-HeapPtr
+GCPtr
 <
 TaggedProto
 >
@@ -800,7 +800,7 @@ Property
 {
 public
 :
-HeapId
+GCPtrId
 id
 ;
 HeapTypeSet

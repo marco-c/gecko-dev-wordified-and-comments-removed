@@ -15173,7 +15173,7 @@ js
 StoreReference
 #
 #
-_type
+_name
 :
 :
 Func
@@ -15194,7 +15194,7 @@ js
 LoadReference
 #
 #
-_type
+_name
 :
 :
 Func

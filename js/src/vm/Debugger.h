@@ -1583,7 +1583,7 @@ next
 }
 private
 :
-HeapPtrNativeObject
+GCPtrNativeObject
 object
 ;
 WeakGlobalObjectSet
@@ -1598,7 +1598,7 @@ debuggeeZones
 js
 :
 :
-HeapPtrObject
+GCPtrObject
 uncaughtExceptionHook
 ;
 bool
@@ -3480,7 +3480,7 @@ const
 js
 :
 :
-HeapPtrNativeObject
+GCPtrNativeObject
 &
 toJSObject
 (
@@ -3491,7 +3491,7 @@ inline
 js
 :
 :
-HeapPtrNativeObject
+GCPtrNativeObject
 &
 toJSObjectRef
 (
@@ -4827,7 +4827,7 @@ const
 js
 :
 :
-HeapPtrNativeObject
+GCPtrNativeObject
 &
 Debugger
 :
@@ -4849,7 +4849,7 @@ object
 js
 :
 :
-HeapPtrNativeObject
+GCPtrNativeObject
 &
 Debugger
 :

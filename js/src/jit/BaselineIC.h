@@ -53,6 +53,15 @@ h
 #
 include
 "
+gc
+/
+Barrier
+.
+h
+"
+#
+include
+"
 jit
 /
 BaselineICList
@@ -480,7 +489,7 @@ friend
 class
 ICStubSpace
 ;
-HeapPtrObject
+GCPtrObject
 obj_
 ;
 ICTypeUpdate_SingleObject
@@ -495,7 +504,7 @@ obj
 ;
 public
 :
-HeapPtrObject
+GCPtrObject
 &
 object
 (
@@ -602,7 +611,7 @@ friend
 class
 ICStubSpace
 ;
-HeapPtrObjectGroup
+GCPtrObjectGroup
 group_
 ;
 ICTypeUpdate_ObjectGroup
@@ -617,7 +626,7 @@ group
 ;
 public
 :
-HeapPtrObjectGroup
+GCPtrObjectGroup
 &
 group
 (
@@ -1835,7 +1844,7 @@ ICGetElemNativeStub
 {
 protected
 :
-HeapPtr
+GCPtr
 <
 T
 >
@@ -1899,7 +1908,7 @@ key
 }
 public
 :
-HeapPtr
+GCPtr
 <
 T
 >
@@ -2120,7 +2129,7 @@ T
 {
 protected
 :
-HeapPtrFunction
+GCPtrFunction
 getter_
 ;
 uint32_t
@@ -2158,7 +2167,7 @@ pcOffset
 ;
 public
 :
-HeapPtrFunction
+GCPtrFunction
 &
 getter
 (
@@ -2468,10 +2477,10 @@ friend
 class
 ICStubSpace
 ;
-HeapPtrObject
+GCPtrObject
 holder_
 ;
-HeapPtrShape
+GCPtrShape
 holderShape_
 ;
 ICGetElem_NativePrototypeSlot
@@ -2504,7 +2513,7 @@ holderShape
 ;
 public
 :
-HeapPtrObject
+GCPtrObject
 &
 holder
 (
@@ -2528,7 +2537,7 @@ holder_
 )
 ;
 }
-HeapPtrShape
+GCPtrShape
 &
 holderShape
 (
@@ -2599,10 +2608,10 @@ friend
 class
 ICStubSpace
 ;
-HeapPtrObject
+GCPtrObject
 holder_
 ;
-HeapPtrShape
+GCPtrShape
 holderShape_
 ;
 protected
@@ -2645,7 +2654,7 @@ holderShape
 ;
 public
 :
-HeapPtrObject
+GCPtrObject
 &
 holder
 (
@@ -2669,7 +2678,7 @@ holder_
 )
 ;
 }
-HeapPtrShape
+GCPtrShape
 &
 holderShape
 (
@@ -3788,7 +3797,7 @@ friend
 class
 ICStubSpace
 ;
-HeapPtrShape
+GCPtrShape
 shape_
 ;
 ICGetElem_Dense
@@ -3839,7 +3848,7 @@ shape_
 )
 ;
 }
-HeapPtrShape
+GCPtrShape
 &
 shape
 (
@@ -3979,7 +3988,7 @@ friend
 class
 ICStubSpace
 ;
-HeapPtrObjectGroup
+GCPtrObjectGroup
 group_
 ;
 ICGetElem_UnboxedArray
@@ -4030,7 +4039,7 @@ group_
 )
 ;
 }
-HeapPtrObjectGroup
+GCPtrObjectGroup
 &
 group
 (
@@ -4201,7 +4210,7 @@ ICStubSpace
 ;
 protected
 :
-HeapPtrShape
+GCPtrShape
 shape_
 ;
 ICGetElem_TypedArray
@@ -4235,7 +4244,7 @@ shape_
 )
 ;
 }
-HeapPtrShape
+GCPtrShape
 &
 shape
 (
@@ -4767,10 +4776,10 @@ friend
 class
 ICStubSpace
 ;
-HeapPtrShape
+GCPtrShape
 shape_
 ;
-HeapPtrObjectGroup
+GCPtrObjectGroup
 group_
 ;
 ICSetElem_DenseOrUnboxedArray
@@ -4816,7 +4825,7 @@ group_
 )
 ;
 }
-HeapPtrShape
+GCPtrShape
 &
 shape
 (
@@ -4826,7 +4835,7 @@ return
 shape_
 ;
 }
-HeapPtrObjectGroup
+GCPtrObjectGroup
 &
 group
 (
@@ -5058,7 +5067,7 @@ MAX_PROTO_CHAIN_DEPTH
 ;
 protected
 :
-HeapPtrObjectGroup
+GCPtrObjectGroup
 group_
 ;
 ICSetElem_DenseOrUnboxedArrayAdd
@@ -5089,7 +5098,7 @@ group_
 )
 ;
 }
-HeapPtrObjectGroup
+GCPtrObjectGroup
 &
 group
 (
@@ -5209,7 +5218,7 @@ mozilla
 :
 Array
 <
-HeapPtrShape
+GCPtrShape
 NumShapes
 >
 shapes_
@@ -5366,7 +5375,7 @@ idx
 *
 sizeof
 (
-HeapPtrShape
+GCPtrShape
 )
 ;
 }
@@ -5578,7 +5587,7 @@ ICStubSpace
 ;
 protected
 :
-HeapPtrShape
+GCPtrShape
 shape_
 ;
 ICSetElem_TypedArray
@@ -5654,7 +5663,7 @@ shape_
 )
 ;
 }
-HeapPtrShape
+GCPtrShape
 &
 shape
 (
@@ -5962,10 +5971,10 @@ ICInNativeStub
 public
 ICStub
 {
-HeapPtrShape
+GCPtrShape
 shape_
 ;
-HeapPtrPropertyName
+GCPtrPropertyName
 name_
 ;
 protected
@@ -5988,7 +5997,7 @@ name
 ;
 public
 :
-HeapPtrShape
+GCPtrShape
 &
 shape
 (
@@ -6012,7 +6021,7 @@ shape_
 )
 ;
 }
-HeapPtrPropertyName
+GCPtrPropertyName
 &
 name
 (
@@ -6080,10 +6089,10 @@ friend
 class
 ICStubSpace
 ;
-HeapPtrObject
+GCPtrObject
 holder_
 ;
-HeapPtrShape
+GCPtrShape
 holderShape_
 ;
 ICIn_NativePrototype
@@ -6103,7 +6112,7 @@ holderShape
 ;
 public
 :
-HeapPtrObject
+GCPtrObject
 &
 holder
 (
@@ -6113,7 +6122,7 @@ return
 holder_
 ;
 }
-HeapPtrShape
+GCPtrShape
 &
 holderShape
 (
@@ -6360,7 +6369,7 @@ friend
 class
 ICStubSpace
 ;
-HeapPtrPropertyName
+GCPtrPropertyName
 name_
 ;
 public
@@ -6405,7 +6414,7 @@ return
 extra_
 ;
 }
-HeapPtrPropertyName
+GCPtrPropertyName
 &
 name
 (
@@ -6517,7 +6526,7 @@ mozilla
 :
 Array
 <
-HeapPtrShape
+GCPtrShape
 NumShapes
 >
 shapes_
@@ -6601,7 +6610,7 @@ idx
 *
 sizeof
 (
-HeapPtrShape
+GCPtrShape
 )
 )
 ;
@@ -6750,7 +6759,7 @@ friend
 class
 ICStubSpace
 ;
-HeapPtrShape
+GCPtrShape
 shape_
 ;
 ICIn_Dense
@@ -6764,7 +6773,7 @@ shape
 ;
 public
 :
-HeapPtrShape
+GCPtrShape
 &
 shape
 (
@@ -7194,7 +7203,7 @@ mozilla
 :
 Array
 <
-HeapPtrShape
+GCPtrShape
 NumHops
 +
 1
@@ -7313,7 +7322,7 @@ index
 *
 sizeof
 (
-HeapPtrShape
+GCPtrShape
 )
 )
 ;
@@ -7728,7 +7737,7 @@ friend
 class
 ICStubSpace
 ;
-HeapValue
+GCPtrValue
 value_
 ;
 ICGetIntrinsic_Constant
@@ -7749,7 +7758,7 @@ ICGetIntrinsic_Constant
 ;
 public
 :
-HeapValue
+GCPtrValue
 &
 value
 (
@@ -8056,10 +8065,10 @@ ICStubSpace
 ;
 protected
 :
-HeapPtrObjectGroup
+GCPtrObjectGroup
 group_
 ;
-HeapPtrShape
+GCPtrShape
 shape_
 ;
 uint32_t
@@ -8082,7 +8091,7 @@ offset
 ;
 public
 :
-HeapPtrObjectGroup
+GCPtrObjectGroup
 &
 group
 (
@@ -8092,7 +8101,7 @@ return
 group_
 ;
 }
-HeapPtrShape
+GCPtrShape
 &
 shape
 (
@@ -8334,13 +8343,13 @@ MAX_PROTO_CHAIN_DEPTH
 ;
 protected
 :
-HeapPtrObjectGroup
+GCPtrObjectGroup
 group_
 ;
-HeapPtrShape
+GCPtrShape
 newShape_
 ;
-HeapPtrObjectGroup
+GCPtrObjectGroup
 newGroup_
 ;
 uint32_t
@@ -8378,7 +8387,7 @@ return
 extra_
 ;
 }
-HeapPtrObjectGroup
+GCPtrObjectGroup
 &
 group
 (
@@ -8388,7 +8397,7 @@ return
 group_
 ;
 }
-HeapPtrShape
+GCPtrShape
 &
 newShape
 (
@@ -8398,7 +8407,7 @@ return
 newShape_
 ;
 }
-HeapPtrObjectGroup
+GCPtrObjectGroup
 &
 newGroup
 (
@@ -8533,7 +8542,7 @@ mozilla
 :
 Array
 <
-HeapPtrShape
+GCPtrShape
 NumShapes
 >
 shapes_
@@ -8626,7 +8635,7 @@ idx
 *
 sizeof
 (
-HeapPtrShape
+GCPtrShape
 )
 )
 ;
@@ -8912,7 +8921,7 @@ friend
 class
 ICStubSpace
 ;
-HeapPtrObjectGroup
+GCPtrObjectGroup
 group_
 ;
 uint32_t
@@ -8955,7 +8964,7 @@ fieldOffset_
 }
 public
 :
-HeapPtrObjectGroup
+GCPtrObjectGroup
 &
 group
 (
@@ -9180,10 +9189,10 @@ friend
 class
 ICStubSpace
 ;
-HeapPtrShape
+GCPtrShape
 shape_
 ;
-HeapPtrObjectGroup
+GCPtrObjectGroup
 group_
 ;
 uint32_t
@@ -9242,7 +9251,7 @@ fieldOffset_
 }
 public
 :
-HeapPtrShape
+GCPtrShape
 &
 shape
 (
@@ -9252,7 +9261,7 @@ return
 shape_
 ;
 }
-HeapPtrObjectGroup
+GCPtrObjectGroup
 &
 group
 (
@@ -9615,13 +9624,13 @@ protected
 HeapReceiverGuard
 receiverGuard_
 ;
-HeapPtrObject
+GCPtrObject
 holder_
 ;
-HeapPtrShape
+GCPtrShape
 holderShape_
 ;
-HeapPtrFunction
+GCPtrFunction
 setter_
 ;
 uint32_t
@@ -9661,7 +9670,7 @@ return
 receiverGuard_
 ;
 }
-HeapPtrObject
+GCPtrObject
 &
 holder
 (
@@ -9671,7 +9680,7 @@ return
 holder_
 ;
 }
-HeapPtrShape
+GCPtrShape
 &
 holderShape
 (
@@ -9681,7 +9690,7 @@ return
 holderShape_
 ;
 }
-HeapPtrFunction
+GCPtrFunction
 &
 setter
 (
@@ -10856,10 +10865,10 @@ MAX_ARGS_SPREAD_LENGTH
 ;
 protected
 :
-HeapPtrFunction
+GCPtrFunction
 callee_
 ;
-HeapPtrObject
+GCPtrObject
 templateObject_
 ;
 uint32_t
@@ -10904,7 +10913,7 @@ ICCall_Scripted
 other
 )
 ;
-HeapPtrFunction
+GCPtrFunction
 &
 callee
 (
@@ -10914,7 +10923,7 @@ return
 callee_
 ;
 }
-HeapPtrObject
+GCPtrObject
 &
 templateObject
 (
@@ -11297,10 +11306,10 @@ ICStubSpace
 ;
 protected
 :
-HeapPtrFunction
+GCPtrFunction
 callee_
 ;
-HeapPtrObject
+GCPtrObject
 templateObject_
 ;
 uint32_t
@@ -11354,7 +11363,7 @@ ICCall_Native
 other
 )
 ;
-HeapPtrFunction
+GCPtrFunction
 &
 callee
 (
@@ -11364,7 +11373,7 @@ return
 callee_
 ;
 }
-HeapPtrObject
+GCPtrObject
 &
 templateObject
 (
@@ -11622,7 +11631,7 @@ void
 *
 native_
 ;
-HeapPtrObject
+GCPtrObject
 templateObject_
 ;
 uint32_t
@@ -11691,7 +11700,7 @@ return
 native_
 ;
 }
-HeapPtrObject
+GCPtrObject
 &
 templateObject
 (
@@ -12511,13 +12520,13 @@ protected
 uint32_t
 pcOffset_
 ;
-HeapPtrString
+GCPtrString
 expectedStr_
 ;
-HeapPtrString
+GCPtrString
 expectedSep_
 ;
-HeapPtrObject
+GCPtrObject
 templateObject_
 ;
 ICCall_StringSplit
@@ -12612,7 +12621,7 @@ templateObject_
 )
 ;
 }
-HeapPtrString
+GCPtrString
 &
 expectedStr
 (
@@ -12622,7 +12631,7 @@ return
 expectedStr_
 ;
 }
-HeapPtrString
+GCPtrString
 &
 expectedSep
 (
@@ -12632,7 +12641,7 @@ return
 expectedSep_
 ;
 }
-HeapPtrObject
+GCPtrObject
 &
 templateObject
 (
@@ -13596,10 +13605,10 @@ friend
 class
 ICStubSpace
 ;
-HeapPtrShape
+GCPtrShape
 shape_
 ;
-HeapPtrObject
+GCPtrObject
 prototypeObj_
 ;
 uint32_t
@@ -13622,7 +13631,7 @@ slot
 ;
 public
 :
-HeapPtrShape
+GCPtrShape
 &
 shape
 (
@@ -13632,7 +13641,7 @@ return
 shape_
 ;
 }
-HeapPtrObject
+GCPtrObject
 &
 prototypeObject
 (
@@ -14092,7 +14101,7 @@ friend
 class
 ICStubSpace
 ;
-HeapPtrArrayObject
+GCPtrArrayObject
 templateObject_
 ;
 ICRest_Fallback
@@ -14128,7 +14137,7 @@ MAX_OPTIMIZED_STUBS
 =
 8
 ;
-HeapPtrArrayObject
+GCPtrArrayObject
 &
 templateObject
 (

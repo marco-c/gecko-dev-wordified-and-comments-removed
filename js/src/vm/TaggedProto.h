@@ -535,7 +535,7 @@ TaggedProto
 public
 TaggedProtoOperations
 <
-HeapPtr
+GCPtr
 <
 TaggedProto
 >

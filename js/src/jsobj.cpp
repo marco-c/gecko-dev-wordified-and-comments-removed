@@ -22691,7 +22691,7 @@ denseElementsAreCopyOnWrite
 )
 )
 {
-HeapPtrNativeObject
+GCPtrNativeObject
 &
 owner
 =

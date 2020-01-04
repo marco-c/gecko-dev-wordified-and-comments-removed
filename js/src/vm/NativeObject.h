@@ -205,7 +205,7 @@ MOZ_ALWAYS_INLINE
 void
 Debug_SetValueRangeToCrashOnTouch
 (
-HeapValue
+GCPtrValue
 *
 vec
 size_t
@@ -744,7 +744,7 @@ flags
 SHARED_MEMORY
 ;
 }
-HeapPtrNativeObject
+GCPtrNativeObject
 &
 ownerObject
 (
@@ -761,7 +761,7 @@ isCopyOnWrite
 return
 *
 (
-HeapPtrNativeObject
+GCPtrNativeObject
 *
 )
 (
@@ -997,7 +997,7 @@ JSObject
 {
 protected
 :
-HeapPtrShape
+GCPtrShape
 shape_
 ;
 js

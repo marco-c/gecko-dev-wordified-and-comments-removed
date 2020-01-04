@@ -5278,12 +5278,12 @@ typename
 T
 >
 static
-HeapPtr
+GCPtr
 <
 T
 >
 *
-AsHeapPtr
+AsGCPtr
 (
 uintptr_t
 *
@@ -5293,7 +5293,7 @@ ptr
 return
 reinterpret_cast
 <
-HeapPtr
+GCPtr
 <
 T
 >
@@ -5309,7 +5309,7 @@ template
 class
 T
 >
-HeapPtr
+GCPtr
 <
 T
 >
@@ -5357,7 +5357,7 @@ uintptr_t
 ;
 return
 *
-AsHeapPtr
+AsGCPtr
 <
 T
 >
@@ -5373,7 +5373,7 @@ field
 ;
 }
 template
-HeapPtr
+GCPtr
 <
 Shape
 *
@@ -5393,7 +5393,7 @@ offset
 const
 ;
 template
-HeapPtr
+GCPtr
 <
 ObjectGroup
 *
@@ -5413,7 +5413,7 @@ offset
 const
 ;
 template
-HeapPtr
+GCPtr
 <
 JSObject
 *
@@ -5439,7 +5439,7 @@ T
 >
 static
 void
-InitHeapPtr
+InitGCPtr
 (
 uintptr_t
 *
@@ -5448,7 +5448,7 @@ uintptr_t
 val
 )
 {
-AsHeapPtr
+AsGCPtr
 <
 T
 *
@@ -5555,7 +5555,7 @@ GCType
 :
 Shape
 :
-InitHeapPtr
+InitGCPtr
 <
 Shape
 >
@@ -5582,7 +5582,7 @@ GCType
 :
 JSObject
 :
-InitHeapPtr
+InitGCPtr
 <
 JSObject
 >
@@ -5609,7 +5609,7 @@ GCType
 :
 ObjectGroup
 :
-InitHeapPtr
+InitGCPtr
 <
 ObjectGroup
 >

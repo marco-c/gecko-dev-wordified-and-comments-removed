@@ -13479,7 +13479,7 @@ js
 StoreReference
 #
 #
-T
+_name
 :
 :
 Func
@@ -13966,7 +13966,7 @@ js
 LoadReference
 #
 #
-T
+_name
 :
 :
 Func
@@ -14149,7 +14149,7 @@ true
 \
 }
 bool
-StoreReferenceHeapValue
+StoreReferenceAny
 :
 :
 store
@@ -14157,7 +14157,7 @@ store
 JSContext
 *
 cx
-HeapValue
+GCPtrValue
 *
 heap
 const
@@ -14228,7 +14228,7 @@ true
 ;
 }
 bool
-StoreReferenceHeapPtrObject
+StoreReferenceObject
 :
 :
 store
@@ -14236,7 +14236,7 @@ store
 JSContext
 *
 cx
-HeapPtrObject
+GCPtrObject
 *
 heap
 const
@@ -14319,7 +14319,7 @@ true
 ;
 }
 bool
-StoreReferenceHeapPtrString
+StoreReferencestring
 :
 :
 store
@@ -14327,7 +14327,7 @@ store
 JSContext
 *
 cx
-HeapPtrString
+GCPtrString
 *
 heap
 const
@@ -14364,12 +14364,12 @@ true
 ;
 }
 void
-LoadReferenceHeapValue
+LoadReferenceAny
 :
 :
 load
 (
-HeapValue
+GCPtrValue
 *
 heap
 MutableHandleValue
@@ -14386,12 +14386,12 @@ heap
 ;
 }
 void
-LoadReferenceHeapPtrObject
+LoadReferenceObject
 :
 :
 load
 (
-HeapPtrObject
+GCPtrObject
 *
 heap
 MutableHandleValue
@@ -14421,12 +14421,12 @@ setNull
 ;
 }
 void
-LoadReferenceHeapPtrString
+LoadReferencestring
 :
 :
 load
 (
-HeapPtrString
+GCPtrString
 *
 heap
 MutableHandleValue
@@ -14764,7 +14764,7 @@ TYPE_ANY
 js
 :
 :
-HeapValue
+GCPtrValue
 *
 heapValue
 =
@@ -14773,7 +14773,7 @@ reinterpret_cast
 js
 :
 :
-HeapValue
+GCPtrValue
 *
 >
 (
@@ -14803,7 +14803,7 @@ TYPE_OBJECT
 js
 :
 :
-HeapPtrObject
+GCPtrObject
 *
 objectPtr
 =
@@ -14812,7 +14812,7 @@ reinterpret_cast
 js
 :
 :
-HeapPtrObject
+GCPtrObject
 *
 >
 (
@@ -14840,7 +14840,7 @@ TYPE_STRING
 js
 :
 :
-HeapPtrString
+GCPtrString
 *
 stringPtr
 =
@@ -14849,7 +14849,7 @@ reinterpret_cast
 js
 :
 :
-HeapPtrString
+GCPtrString
 *
 >
 (
@@ -15043,7 +15043,7 @@ ReferenceTypeDescr
 TYPE_ANY
 :
 {
-HeapValue
+GCPtrValue
 *
 heapValue
 =
@@ -15052,7 +15052,7 @@ reinterpret_cast
 js
 :
 :
-HeapValue
+GCPtrValue
 *
 >
 (
@@ -15080,7 +15080,7 @@ ReferenceTypeDescr
 TYPE_OBJECT
 :
 {
-HeapPtrObject
+GCPtrObject
 *
 objectPtr
 =
@@ -15089,7 +15089,7 @@ reinterpret_cast
 js
 :
 :
-HeapPtrObject
+GCPtrObject
 *
 >
 (
@@ -15117,7 +15117,7 @@ ReferenceTypeDescr
 TYPE_STRING
 :
 {
-HeapPtrString
+GCPtrString
 *
 stringPtr
 =
@@ -15126,7 +15126,7 @@ reinterpret_cast
 js
 :
 :
-HeapPtrString
+GCPtrString
 *
 >
 (

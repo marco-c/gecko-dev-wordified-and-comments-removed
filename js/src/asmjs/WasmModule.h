@@ -1562,14 +1562,14 @@ BaselineScript
 *
 baselineScript
 ;
-HeapPtrFunction
+GCPtrFunction
 fun
 ;
 static_assert
 (
 sizeof
 (
-HeapPtrFunction
+GCPtrFunction
 )
 =
 =
@@ -1677,7 +1677,7 @@ RelocatablePtrArrayBufferObjectMaybeShared
 BufferPtr
 ;
 typedef
-HeapPtr
+GCPtr
 <
 WasmModuleObject
 *
@@ -1922,7 +1922,7 @@ owner
 }
 inline
 const
-HeapPtr
+GCPtr
 <
 WasmModuleObject
 *
@@ -2666,7 +2666,7 @@ class_
 ;
 inline
 const
-HeapPtr
+GCPtr
 <
 WasmModuleObject
 *

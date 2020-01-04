@@ -473,7 +473,7 @@ u
 js
 :
 :
-HeapPtrAtom
+GCPtrAtom
 atom_
 ;
 public
@@ -1549,7 +1549,7 @@ reinterpret_cast
 js
 :
 :
-HeapPtrObject
+GCPtrObject
 *
 >
 (
@@ -1590,7 +1590,7 @@ reinterpret_cast
 js
 :
 :
-HeapPtrObject
+GCPtrObject
 *
 >
 (
@@ -2637,7 +2637,7 @@ private
 js
 :
 :
-HeapPtrScript
+GCPtrScript
 &
 mutableScript
 (
@@ -2656,7 +2656,7 @@ return
 js
 :
 :
-HeapPtrScript
+GCPtrScript
 *
 )
 &
@@ -3338,7 +3338,7 @@ which
 *
 sizeof
 (
-HeapValue
+GCPtrValue
 )
 ;
 }
@@ -3362,7 +3362,7 @@ friend
 class
 JSFunction
 ;
-HeapValue
+GCPtrValue
 extendedSlots
 [
 NUM_EXTENDED_SLOTS

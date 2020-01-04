@@ -4905,7 +4905,7 @@ nDynamicSlots
 *
 sizeof
 (
-HeapValue
+GCPtrValue
 )
 temp
 fail
@@ -5384,7 +5384,7 @@ offset
 =
 sizeof
 (
-HeapValue
+GCPtrValue
 )
 )
 store32
@@ -5434,7 +5434,7 @@ offset
 =
 sizeof
 (
-HeapValue
+GCPtrValue
 )
 )
 store32
@@ -5475,7 +5475,7 @@ offset
 =
 sizeof
 (
-HeapValue
+GCPtrValue
 )
 )
 storePtr
