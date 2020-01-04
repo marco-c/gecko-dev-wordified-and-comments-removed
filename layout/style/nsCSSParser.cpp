@@ -24314,6 +24314,13 @@ isTreePseudo
 =
 false
 ;
+CSSEnabledState
+enabledState
+=
+EnabledState
+(
+)
+;
 CSSPseudoElementType
 pseudoElementType
 =
@@ -24334,12 +24341,7 @@ nsCSSPseudoClasses
 GetPseudoType
 (
 pseudo
-AgentRulesEnabled
-(
-)
-ChromeRulesEnabled
-(
-)
+enabledState
 )
 ;
 bool
