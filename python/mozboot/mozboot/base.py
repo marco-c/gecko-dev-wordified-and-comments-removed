@@ -501,9 +501,9 @@ StrictVersion
 '
 3
 .
-2
+5
 .
-4
+2
 '
 )
 MODERN_PYTHON_VERSION
