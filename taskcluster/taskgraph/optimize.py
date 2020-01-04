@@ -194,8 +194,7 @@ task
 has
 no
 dependency
-with
-label
+named
 '
 {
 }
