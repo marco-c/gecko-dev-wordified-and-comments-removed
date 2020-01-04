@@ -616,13 +616,13 @@ EXTRA_SUBJECT
 ;
 if
 (
-subject
-.
-equals
-(
 GPSScanner
 .
 SUBJECT_NEW_LOCATION
+.
+equals
+(
+subject
 )
 )
 {
