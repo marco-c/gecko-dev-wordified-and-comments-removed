@@ -1126,7 +1126,7 @@ install_from
 source
 self
 .
-distdir
+bindir
 )
     
 ArtifactSubCommand
