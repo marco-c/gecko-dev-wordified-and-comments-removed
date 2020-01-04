@@ -2181,13 +2181,6 @@ Wrapper
 cpp
 '
 '
-threading
-/
-ExclusiveData
-.
-cpp
-'
-'
 vm
 /
 ArgumentsObject
