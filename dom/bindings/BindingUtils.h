@@ -3315,9 +3315,6 @@ inline
 bool
 TryToOuterize
 (
-JSContext
-*
-cx
 JS
 :
 :
@@ -3538,7 +3535,6 @@ obj
 return
 TryToOuterize
 (
-cx
 rval
 )
 ;
@@ -4379,7 +4375,6 @@ value
 ?
 TryToOuterize
 (
-cx
 rval
 )
 :
@@ -4415,7 +4410,6 @@ obj
 return
 TryToOuterize
 (
-cx
 rval
 )
 ;
