@@ -351,6 +351,11 @@ PlacesDBUtils
 jsm
 '
 '
+PlacesRemoteTabsAutocompleteProvider
+.
+jsm
+'
+'
 PlacesSearchAutocompleteProvider
 .
 jsm
