@@ -423,6 +423,13 @@ ObsoleteBuiltinButtons
 =
 {
 "
+loop
+-
+button
+"
+:
+5
+"
 pocket
 -
 button
@@ -1016,6 +1023,11 @@ button
 "
 "
 home
+-
+button
+"
+"
+loop
 -
 button
 "
