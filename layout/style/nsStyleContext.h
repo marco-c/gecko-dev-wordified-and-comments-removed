@@ -851,16 +851,6 @@ STYLE_STRUCT_RESET
 undef
 STYLE_STRUCT_INHERITED
 bool
-HasSameCachedStyleData
-(
-nsStyleContext
-*
-aOther
-nsStyleStructID
-aSID
-)
-;
-bool
 HasCachedInheritedStyleData
 (
 nsStyleStructID
