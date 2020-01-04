@@ -9401,9 +9401,7 @@ hostType
 =
 this
 .
-_host
-.
-type
+hostType
 )
 {
 if
@@ -9463,9 +9461,7 @@ hostType
 =
 this
 .
-_host
-.
-type
+hostType
 |
 |
 !
@@ -10951,11 +10947,7 @@ win
 =
 this
 .
-frame
-.
-ownerDocument
-.
-defaultView
+win
 ;
 if
 (
