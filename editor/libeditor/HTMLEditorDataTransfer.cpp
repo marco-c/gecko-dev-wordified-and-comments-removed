@@ -715,7 +715,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -723,7 +723,7 @@ mRules
 nsresult
 rv
 =
-mRules
+rules
 -
 >
 WillDoAction
@@ -837,7 +837,6 @@ nsCOMPtr
 nsIDOMNode
 >
 parent
-junk
 ;
 rv
 =
@@ -937,7 +936,7 @@ nodeToInsert
 }
 }
 return
-mRules
+rules
 -
 >
 DidDoAction
@@ -1082,7 +1081,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -1180,7 +1179,6 @@ nsCOMPtr
 nsIDOMNode
 >
 targetNode
-tempNode
 ;
 int32_t
 targetOffset
@@ -1678,7 +1676,7 @@ handled
 ;
 rv
 =
-mRules
+rules
 -
 >
 WillDoAction
@@ -2512,7 +2510,6 @@ nsCOMPtr
 nsIDOMNode
 >
 child
-tmp
 ;
 curNode
 -
@@ -3243,7 +3240,7 @@ selOffset
 }
 }
 return
-mRules
+rules
 -
 >
 DidDoAction
@@ -7727,7 +7724,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -7735,7 +7732,7 @@ mRules
 nsresult
 rv
 =
-mRules
+rules
 -
 >
 WillDoAction
@@ -8472,7 +8469,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -8480,7 +8477,7 @@ mRules
 nsresult
 rv
 =
-mRules
+rules
 -
 >
 WillDoAction
@@ -8846,7 +8843,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -8854,7 +8851,7 @@ mRules
 nsresult
 rv
 =
-mRules
+rules
 -
 >
 WillDoAction

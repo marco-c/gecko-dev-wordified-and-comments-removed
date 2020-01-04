@@ -3050,7 +3050,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -3191,7 +3191,7 @@ handled
 ;
 result
 =
-mRules
+rules
 -
 >
 WillDoAction
@@ -3238,7 +3238,7 @@ cancel
 {
 result
 =
-mRules
+rules
 -
 >
 DidDoAction
@@ -3280,7 +3280,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -3378,7 +3378,7 @@ handled
 nsresult
 res
 =
-mRules
+rules
 -
 >
 WillDoAction
@@ -3417,7 +3417,7 @@ cancel
 {
 res
 =
-mRules
+rules
 -
 >
 DidDoAction
@@ -3455,7 +3455,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -3518,7 +3518,7 @@ handled
 nsresult
 res
 =
-mRules
+rules
 -
 >
 WillDoAction
@@ -3768,7 +3768,7 @@ cancel
 {
 res
 =
-mRules
+rules
 -
 >
 DidDoAction
@@ -3819,7 +3819,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -3834,7 +3834,7 @@ TextEditRules
 *
 >
 (
-mRules
+rules
 .
 get
 (
@@ -4122,13 +4122,13 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
 ;
 return
-mRules
+rules
 -
 >
 DocumentIsEmpty
@@ -4811,7 +4811,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -4871,7 +4871,7 @@ handled
 nsresult
 result
 =
-mRules
+rules
 -
 >
 WillDoAction
@@ -4909,7 +4909,7 @@ aCount
 ;
 result
 =
-mRules
+rules
 -
 >
 DidDoAction
@@ -4944,7 +4944,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -5004,7 +5004,7 @@ handled
 nsresult
 result
 =
-mRules
+rules
 -
 >
 WillDoAction
@@ -5042,7 +5042,7 @@ aCount
 ;
 result
 =
-mRules
+rules
 -
 >
 DidDoAction
@@ -5711,7 +5711,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -5755,7 +5755,7 @@ handled
 nsresult
 rv
 =
-mRules
+rules
 -
 >
 WillDoAction
@@ -6228,7 +6228,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -6345,7 +6345,7 @@ handled
 ;
 rv
 =
-mRules
+rules
 -
 >
 WillDoAction
@@ -6758,7 +6758,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -6774,10 +6774,11 @@ aDirection
 ;
 if
 (
-mRules
+rules
 )
+{
 return
-mRules
+rules
 -
 >
 BeforeEdit
@@ -6786,6 +6787,7 @@ mAction
 mDirection
 )
 ;
+}
 return
 NS_OK
 ;
@@ -6802,7 +6804,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -6814,11 +6816,12 @@ NS_OK
 ;
 if
 (
-mRules
+rules
 )
+{
 res
 =
-mRules
+rules
 -
 >
 AfterEdit
@@ -6827,6 +6830,7 @@ mAction
 mDirection
 )
 ;
+}
 EditorBase
 :
 :
@@ -6867,7 +6871,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -6879,7 +6883,7 @@ if
 (
 NS_SUCCEEDED
 (
-mRules
+rules
 -
 >
 DocumentIsEmpty

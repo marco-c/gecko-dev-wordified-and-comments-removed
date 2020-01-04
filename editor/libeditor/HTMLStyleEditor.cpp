@@ -568,7 +568,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -666,7 +666,7 @@ setTextProperty
 nsresult
 res
 =
-mRules
+rules
 -
 >
 WillDoAction
@@ -1081,7 +1081,7 @@ cancel
 )
 {
 return
-mRules
+rules
 -
 >
 DidDoAction
@@ -6008,7 +6008,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -6016,7 +6016,7 @@ mRules
 nsresult
 res
 =
-mRules
+rules
 -
 >
 WillDoAction
@@ -6484,7 +6484,7 @@ cancel
 {
 res
 =
-mRules
+rules
 -
 >
 DidDoAction

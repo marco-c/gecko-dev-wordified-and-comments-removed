@@ -387,7 +387,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -395,7 +395,7 @@ mRules
 nsresult
 res
 =
-mRules
+rules
 -
 >
 WillDoAction
@@ -423,7 +423,7 @@ return
 res
 ;
 return
-mRules
+rules
 -
 >
 DidDoAction
@@ -850,7 +850,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -858,7 +858,7 @@ mRules
 nsresult
 res
 =
-mRules
+rules
 -
 >
 WillDoAction
@@ -886,7 +886,7 @@ return
 res
 ;
 return
-mRules
+rules
 -
 >
 DidDoAction

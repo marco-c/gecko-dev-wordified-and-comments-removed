@@ -6317,7 +6317,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -6420,7 +6420,7 @@ aElement
 ;
 res
 =
-mRules
+rules
 -
 >
 WillDoAction
@@ -6717,7 +6717,7 @@ offsetForInsert
 }
 res
 =
-mRules
+rules
 -
 >
 DidDoAction
@@ -8300,7 +8300,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -8376,7 +8376,7 @@ aBulletType
 ;
 res
 =
-mRules
+rules
 -
 >
 WillDoAction
@@ -8654,7 +8654,7 @@ res
 }
 res
 =
-mRules
+rules
 -
 >
 DidDoAction
@@ -8698,7 +8698,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -8778,7 +8778,7 @@ false
 ;
 res
 =
-mRules
+rules
 -
 >
 WillDoAction
@@ -8809,7 +8809,7 @@ res
 ;
 res
 =
-mRules
+rules
 -
 >
 DidDoAction
@@ -8853,7 +8853,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -8916,7 +8916,7 @@ aItemType
 ;
 res
 =
-mRules
+rules
 -
 >
 WillDoAction
@@ -8954,7 +8954,7 @@ handled
 }
 res
 =
-mRules
+rules
 -
 >
 DidDoAction
@@ -8998,7 +8998,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -9061,7 +9061,7 @@ aBlockType
 ;
 res
 =
-mRules
+rules
 -
 >
 WillDoAction
@@ -9329,7 +9329,7 @@ res
 }
 res
 =
-mRules
+rules
 -
 >
 DidDoAction
@@ -9373,7 +9373,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -9451,7 +9451,7 @@ opID
 ;
 res
 =
-mRules
+rules
 -
 >
 WillDoAction
@@ -9783,7 +9783,7 @@ res
 }
 res
 =
-mRules
+rules
 -
 >
 DidDoAction
@@ -9814,7 +9814,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -9838,12 +9838,6 @@ nsIEditor
 :
 eNext
 )
-;
-nsCOMPtr
-<
-nsIDOMNode
->
-node
 ;
 bool
 cancel
@@ -9884,7 +9878,7 @@ aAlignType
 nsresult
 res
 =
-mRules
+rules
 -
 >
 WillDoAction
@@ -9913,7 +9907,7 @@ res
 ;
 res
 =
-mRules
+rules
 -
 >
 DidDoAction
@@ -14344,12 +14338,12 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
 ;
-mRules
+rules
 -
 >
 DocumentModified
@@ -14554,12 +14548,12 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
 ;
-mRules
+rules
 -
 >
 DocumentModified
@@ -15285,7 +15279,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -15301,10 +15295,11 @@ aDirection
 ;
 if
 (
-mRules
+rules
 )
+{
 return
-mRules
+rules
 -
 >
 BeforeEdit
@@ -15313,6 +15308,7 @@ mAction
 mDirection
 )
 ;
+}
 return
 NS_OK
 ;
@@ -15329,7 +15325,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -15341,11 +15337,12 @@ NS_OK
 ;
 if
 (
-mRules
+rules
 )
+{
 res
 =
-mRules
+rules
 -
 >
 AfterEdit
@@ -15354,6 +15351,7 @@ mAction
 mDirection
 )
 ;
+}
 EditorBase
 :
 :
@@ -15586,7 +15584,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -15610,7 +15608,7 @@ bDocIsEmpty
 nsresult
 res
 =
-mRules
+rules
 -
 >
 DocumentIsEmpty
@@ -19540,7 +19538,7 @@ nsCOMPtr
 <
 nsIEditRules
 >
-kungFuDeathGrip
+rules
 (
 mRules
 )
@@ -19619,7 +19617,7 @@ setTextProperty
 nsresult
 res
 =
-mRules
+rules
 -
 >
 WillDoAction
@@ -20217,7 +20215,7 @@ cancel
 {
 res
 =
-mRules
+rules
 -
 >
 DidDoAction
