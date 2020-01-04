@@ -74,6 +74,7 @@ cookies
 import
 cookiejar_from_dict
 get_cookie_header
+_copy_cookie_jar
 from
 .
 packages
@@ -166,10 +167,16 @@ StringIO
     
 is_py2
 chardet
-json
 builtin_str
 basestring
 )
+from
+.
+compat
+import
+json
+as
+complexjson
 from
 .
 status_codes
@@ -210,11 +217,6 @@ CONTENT_CHUNK_SIZE
 ITER_CHUNK_SIZE
 =
 512
-json_dumps
-=
-json
-.
-dumps
 class
 RequestEncodingMixin
 (
@@ -866,30 +868,27 @@ if
 isinstance
 (
 fp
+(
 str
-)
-:
-                
-fp
-=
-StringIO
-(
-fp
-)
-            
-if
-isinstance
-(
-fp
 bytes
+bytearray
+)
 )
 :
                 
-fp
+fdata
 =
-BytesIO
-(
 fp
+            
+else
+:
+                
+fdata
+=
+fp
+.
+read
+(
 )
             
 rf
@@ -901,12 +900,7 @@ name
 k
 data
 =
-fp
-.
-read
-(
-)
-                              
+fdata
 filename
 =
 fn
@@ -1244,6 +1238,8 @@ the
 request
 (
 if
+files
+or
 data
 is
 not
@@ -1368,19 +1364,15 @@ def
 __init__
 (
 self
-        
 method
 =
 None
-        
 url
 =
 None
-        
 headers
 =
 None
-        
 files
 =
 None
@@ -1388,23 +1380,18 @@ None
 data
 =
 None
-        
 params
 =
 None
-        
 auth
 =
 None
-        
 cookies
 =
 None
-        
 hooks
 =
 None
-        
 json
 =
 None
@@ -1882,7 +1869,7 @@ None
 files
 =
 None
-                
+        
 data
 =
 None
@@ -1898,7 +1885,6 @@ None
 hooks
 =
 None
-                
 json
 =
 None
@@ -2052,22 +2038,12 @@ p
 .
 _cookies
 =
-self
-.
-_cookies
-.
-copy
+_copy_cookie_jar
 (
-)
-if
 self
 .
 _cookies
-is
-not
-None
-else
-None
+)
         
 p
 .
@@ -2128,12 +2104,15 @@ self
 .
 method
 =
+to_native_string
+(
 self
 .
 method
 .
 upper
 (
+)
 )
     
 def
@@ -2260,8 +2239,8 @@ not
 scheme
 :
             
-raise
-MissingSchema
+error
+=
 (
 "
 Invalid
@@ -2276,9 +2255,6 @@ No
 schema
 supplied
 .
-"
-                                
-"
 Perhaps
 you
 meant
@@ -2291,11 +2267,27 @@ http
 }
 ?
 "
+)
+            
+error
+=
+error
 .
 format
 (
+to_native_string
+(
 url
+'
+utf8
+'
 )
+)
+            
+raise
+MissingSchema
+(
+error
 )
         
 if
@@ -2518,6 +2510,24 @@ utf
 '
 )
         
+if
+isinstance
+(
+params
+(
+str
+bytes
+)
+)
+:
+            
+params
+=
+to_native_string
+(
+params
+)
+        
 enc_params
 =
 self
@@ -2679,6 +2689,9 @@ length
 None
         
 if
+not
+data
+and
 json
 is
 not
@@ -2695,7 +2708,9 @@ json
             
 body
 =
-json_dumps
+complexjson
+.
+dumps
 (
 json
 )
@@ -2780,9 +2795,6 @@ exclusive
             
 if
 length
-is
-not
-None
 :
                 
 self
@@ -2844,10 +2856,6 @@ else
                 
 if
 data
-and
-json
-is
-None
 :
                     
 body
@@ -3210,6 +3218,85 @@ HTTP
 cookie
 data
 .
+        
+This
+function
+eventually
+generates
+a
+Cookie
+header
+from
+the
+        
+given
+cookies
+using
+cookielib
+.
+Due
+to
+cookielib
+'
+s
+design
+the
+header
+        
+will
+not
+be
+regenerated
+if
+it
+already
+exists
+meaning
+this
+function
+        
+can
+only
+be
+called
+once
+for
+the
+life
+of
+the
+        
+:
+class
+:
+PreparedRequest
+<
+PreparedRequest
+>
+object
+.
+Any
+subsequent
+calls
+        
+to
+prepare_cookies
+will
+have
+no
+actual
+effect
+unless
+the
+"
+Cookie
+"
+        
+header
+is
+removed
+beforehand
+.
 "
 "
 "
@@ -3290,6 +3377,13 @@ hooks
 "
 "
         
+hooks
+=
+hooks
+or
+[
+]
+        
 for
 event
 in
@@ -3350,19 +3444,15 @@ __attrs__
 '
 _content
 '
-        
 '
 status_code
 '
-        
 '
 headers
 '
-        
 '
 url
 '
-        
 '
 history
 '
@@ -3370,19 +3460,15 @@ history
 '
 encoding
 '
-        
 '
 reason
 '
-        
 '
 cookies
 '
-        
 '
 elapsed
 '
-        
 '
 request
 '
@@ -3802,7 +3888,7 @@ Response
 one
 of
 the
-permanant
+permanent
 versions
 of
 redirect
@@ -3982,7 +4068,16 @@ generate
 )
 :
             
-try
+if
+hasattr
+(
+self
+.
+raw
+'
+stream
+'
+)
 :
                 
 try
@@ -4043,8 +4138,7 @@ ConnectionError
 e
 )
             
-except
-AttributeError
+else
 :
                 
 while
@@ -4191,6 +4285,19 @@ memory
 for
 large
 responses
+.
+        
+.
+.
+note
+:
+:
+This
+method
+is
+not
+reentrant
+safe
 .
         
 "
@@ -4690,10 +4797,11 @@ try
 :
                     
 return
-json
+complexjson
 .
 loads
 (
+                        
 self
 .
 content
@@ -4705,6 +4813,7 @@ encoding
 *
 *
 kwargs
+                    
 )
                 
 except
@@ -4714,7 +4823,7 @@ UnicodeDecodeError
 pass
         
 return
-json
+complexjson
 .
 loads
 (
@@ -4868,6 +4977,11 @@ Error
 :
 %
 s
+for
+url
+:
+%
+s
 '
 %
 (
@@ -4877,6 +4991,9 @@ status_code
 self
 .
 reason
+self
+.
+url
 )
         
 elif
@@ -4900,6 +5017,11 @@ Error
 :
 %
 s
+for
+url
+:
+%
+s
 '
 %
 (
@@ -4909,6 +5031,9 @@ status_code
 self
 .
 reason
+self
+.
+url
 )
         
 if
@@ -4977,6 +5102,22 @@ explicitly
 "
 "
 "
+        
+if
+not
+self
+.
+_content_consumed
+:
+            
+return
+self
+.
+raw
+.
+close
+(
+)
         
 return
 self

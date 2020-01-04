@@ -1,3 +1,7 @@
+from
+__future__
+import
+absolute_import
 import
 time
 import
@@ -675,7 +679,7 @@ attr
 :
 Retry
 .
-MAX_BACKOFF
+BACKOFF_MAX
 .
         
 By
@@ -1305,7 +1309,8 @@ Is
 this
 method
 /
-response
+status
+code
 retryable
 ?
 (
@@ -1432,6 +1437,7 @@ None
 error
 =
 None
+                  
 _pool
 =
 None

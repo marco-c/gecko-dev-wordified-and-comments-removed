@@ -1,4 +1,8 @@
 from
+__future__
+import
+absolute_import
+from
 collections
 import
 namedtuple
@@ -107,6 +111,28 @@ fragment
 None
 )
 :
+        
+if
+path
+and
+not
+path
+.
+startswith
+(
+'
+/
+'
+)
+:
+            
+path
+=
+'
+/
+'
++
+path
         
 return
 super

@@ -610,6 +610,17 @@ urllib3
 /
 contrib
 /
+appengine
+.
+py
+requests
+/
+packages
+/
+urllib3
+/
+contrib
+/
 ntlmpool
 .
 py

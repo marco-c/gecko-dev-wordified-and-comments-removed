@@ -52,19 +52,16 @@ connections
 "
 "
 import
+os
+.
+path
+import
 socket
 from
 .
 models
 import
 Response
-from
-.
-packages
-.
-urllib3
-import
-Retry
 from
 .
 packages
@@ -97,6 +94,17 @@ as
 TimeoutSauce
 from
 .
+packages
+.
+urllib3
+.
+util
+.
+retry
+import
+Retry
+from
+.
 compat
 import
 urlparse
@@ -112,12 +120,23 @@ get_encoding_from_headers
 prepend_scheme_if_needed
 get_auth_from_url
 urldefragauth
+                    
+select_proxy
 )
 from
 .
 structures
 import
 CaseInsensitiveDict
+from
+.
+packages
+.
+urllib3
+.
+exceptions
+import
+ClosedPoolError
 from
 .
 packages
@@ -147,6 +166,15 @@ urllib3
 exceptions
 import
 MaxRetryError
+from
+.
+packages
+.
+urllib3
+.
+exceptions
+import
+NewConnectionError
 from
 .
 packages
@@ -228,6 +256,9 @@ DEFAULT_POOLSIZE
 DEFAULT_RETRIES
 =
 0
+DEFAULT_POOL_TIMEOUT
+=
+None
 class
 BaseAdapter
 (
@@ -1238,9 +1269,30 @@ cert_reqs
 CERT_REQUIRED
 '
             
+if
+not
+os
+.
+path
+.
+isdir
+(
+cert_loc
+)
+:
+                
 conn
 .
 ca_certs
+=
+cert_loc
+            
+else
+:
+                
+conn
+.
+ca_cert_dir
 =
 cert_loc
         
@@ -1258,6 +1310,12 @@ CERT_NONE
 conn
 .
 ca_certs
+=
+None
+            
+conn
+.
+ca_cert_dir
 =
 None
         
@@ -1610,29 +1668,12 @@ request
 "
 "
         
-proxies
-=
-proxies
-or
-{
-}
-        
 proxy
 =
-proxies
-.
-get
-(
-urlparse
+select_proxy
 (
 url
-.
-lower
-(
-)
-)
-.
-scheme
+proxies
 )
         
 if
@@ -1853,6 +1894,10 @@ A
 dictionary
 of
 schemes
+or
+schemes
+and
+hosts
 to
 proxy
 URLs
@@ -1862,12 +1907,15 @@ URLs
 "
 "
         
-proxies
+proxy
 =
+select_proxy
+(
+request
+.
+url
 proxies
-or
-{
-}
+)
         
 scheme
 =
@@ -1879,15 +1927,6 @@ url
 )
 .
 scheme
-        
-proxy
-=
-proxies
-.
-get
-(
-scheme
-)
         
 if
 proxy
@@ -2156,16 +2195,6 @@ this
 request
 .
         
-:
-param
-kwargs
-:
-Optional
-additional
-keyword
-arguments
-.
-        
 "
 "
 "
@@ -2300,23 +2329,19 @@ a
 float
 or
 a
+:
+ref
+:
 (
 connect
 timeout
-read
             
+read
 timeout
+)
 <
-user
-/
-advanced
-.
-html
-#
 timeouts
 >
-_
-)
 tuple
 .
         
@@ -2634,7 +2659,7 @@ _get_conn
 (
 timeout
 =
-timeout
+DEFAULT_POOL_TIMEOUT
 )
                 
 try
@@ -2767,6 +2792,24 @@ n
 '
 )
                     
+try
+:
+                        
+r
+=
+low_conn
+.
+getresponse
+(
+buffering
+=
+True
+)
+                    
+except
+TypeError
+:
+                        
 r
 =
 low_conn
@@ -2812,16 +2855,6 @@ close
 )
                     
 raise
-                
-else
-:
-                    
-conn
-.
-_put_conn
-(
-low_conn
-)
         
 except
 (
@@ -2859,6 +2892,17 @@ ConnectTimeoutError
 )
 :
                 
+if
+not
+isinstance
+(
+e
+.
+reason
+NewConnectionError
+)
+:
+                    
 raise
 ConnectTimeout
 (
@@ -2886,6 +2930,21 @@ request
 =
 request
 )
+            
+raise
+ConnectionError
+(
+e
+request
+=
+request
+)
+        
+except
+ClosedPoolError
+as
+e
+:
             
 raise
 ConnectionError

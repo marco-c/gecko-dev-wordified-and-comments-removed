@@ -1,3 +1,7 @@
+from
+__future__
+import
+absolute_import
 import
 logging
 try
@@ -38,6 +42,8 @@ from
 exceptions
 import
 LocationValueError
+MaxRetryError
+ProxySchemeUnknown
 from
 .
 request
@@ -112,6 +118,9 @@ ca_certs
                 
 '
 ssl_version
+'
+'
+ca_cert_dir
 '
 )
 class
@@ -368,6 +377,35 @@ close
 (
 )
 )
+    
+def
+__enter__
+(
+self
+)
+:
+        
+return
+self
+    
+def
+__exit__
+(
+self
+exc_type
+exc_val
+exc_tb
+)
+:
+        
+self
+.
+clear
+(
+)
+        
+return
+False
     
 def
 _new_pool
@@ -1065,6 +1103,40 @@ redirect
 redirect
 )
         
+try
+:
+            
+retries
+=
+retries
+.
+increment
+(
+method
+url
+response
+=
+response
+_pool
+=
+conn
+)
+        
+except
+MaxRetryError
+:
+            
+if
+retries
+.
+raise_on_redirect
+:
+                
+raise
+            
+return
+response
+        
 kw
 [
 '
@@ -1073,12 +1145,6 @@ retries
 ]
 =
 retries
-.
-increment
-(
-method
-redirect_location
-)
         
 kw
 [
@@ -1465,10 +1531,11 @@ port
 port
 )
         
-assert
+if
 proxy
 .
 scheme
+not
 in
 (
 "
@@ -1478,20 +1545,15 @@ http
 https
 "
 )
-\
+:
             
-'
-Not
-supported
-proxy
-scheme
-%
-s
-'
-%
+raise
+ProxySchemeUnknown
+(
 proxy
 .
 scheme
+)
         
 self
 .
