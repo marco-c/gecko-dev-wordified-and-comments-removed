@@ -1193,7 +1193,7 @@ bool
 globalWriteBarriered
 ;
 int32_t
-neuteredTypedObjects
+detachedTypedObjects
 ;
 private
 :

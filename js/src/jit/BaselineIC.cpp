@@ -8964,7 +8964,7 @@ compartment
 )
 -
 >
-neuteredTypedObjects
+detachedTypedObjects
 )
 return
 true
@@ -12300,7 +12300,7 @@ layout_
 =
 Layout_TypedArray
 )
-CheckForNeuteredTypedObject
+CheckForTypedObjectWithDetachedStorage
 (
 cx
 masm
@@ -15071,7 +15071,7 @@ compartment
 )
 -
 >
-neuteredTypedObjects
+detachedTypedObjects
 )
 return
 true
@@ -17970,7 +17970,7 @@ layout_
 =
 Layout_TypedArray
 )
-CheckForNeuteredTypedObject
+CheckForTypedObjectWithDetachedStorage
 (
 cx
 masm
@@ -27823,7 +27823,7 @@ Baseline
 Label
 failure
 ;
-CheckForNeuteredTypedObject
+CheckForTypedObjectWithDetachedStorage
 (
 cx
 masm

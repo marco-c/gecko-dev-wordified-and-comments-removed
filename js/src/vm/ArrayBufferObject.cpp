@@ -1205,7 +1205,7 @@ compartment
 )
 -
 >
-neuteredTypedObjects
+detachedTypedObjects
 =
 1
 ;

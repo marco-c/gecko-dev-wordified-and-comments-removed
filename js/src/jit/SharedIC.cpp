@@ -25223,7 +25223,7 @@ true
 ;
 }
 void
-CheckForNeuteredTypedObject
+CheckForTypedObjectWithDetachedStorage
 (
 JSContext
 *
@@ -25249,7 +25249,7 @@ compartment
 )
 -
 >
-neuteredTypedObjects
+detachedTypedObjects
 ;
 masm
 .
@@ -25381,7 +25381,7 @@ masm
 Label
 failure
 ;
-CheckForNeuteredTypedObject
+CheckForTypedObjectWithDetachedStorage
 (
 cx
 masm
