@@ -203,7 +203,10 @@ RequestPermissionEnabledForScope
 "
 ]
 static
-void
+Promise
+<
+NotificationPermission
+>
 requestPermission
 (
 optional

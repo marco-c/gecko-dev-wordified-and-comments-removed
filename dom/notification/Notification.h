@@ -544,7 +544,10 @@ JSObject
 )
 ;
 static
-void
+already_AddRefed
+<
+Promise
+>
 RequestPermission
 (
 const
