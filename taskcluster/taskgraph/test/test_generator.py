@@ -204,6 +204,7 @@ def
 optimize
 (
 self
+params
 )
 :
         

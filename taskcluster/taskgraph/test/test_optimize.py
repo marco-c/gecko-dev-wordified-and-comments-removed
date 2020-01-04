@@ -733,6 +733,7 @@ optimize
 =
 lambda
 self
+params
 :
 (
 False
@@ -802,6 +803,8 @@ image
 annotate_task_graph
 (
 graph
+{
+}
 set
 (
 )
@@ -872,6 +875,7 @@ optimize
 =
 lambda
 self
+params
 :
 (
 False
@@ -910,6 +914,8 @@ lambda
 annotate_task_graph
 (
 graph
+{
+}
 set
 (
 )
@@ -957,6 +963,7 @@ optimize
             
 lambda
 self
+params
 :
 (
 True
@@ -1028,6 +1035,8 @@ lambda
 annotate_task_graph
 (
 graph
+{
+}
 set
 (
 )
@@ -1071,6 +1080,7 @@ optimize
 =
 lambda
 self
+params
 :
 (
 True
@@ -1126,6 +1136,8 @@ label_to_taskid
 annotate_task_graph
 (
 graph
+{
+}
 {
 '
 task1
@@ -1202,6 +1214,7 @@ optimize
             
 lambda
 self
+params
 :
 (
 False
@@ -1287,6 +1300,8 @@ image
 annotate_task_graph
 (
 graph
+{
+}
 set
 (
 )
@@ -2303,6 +2318,7 @@ optimize
             
 lambda
 self
+params
 :
 (
 True
@@ -2391,6 +2407,8 @@ label_to_taskid
 optimize_task_graph
 (
 input
+{
+}
 set
 (
 )

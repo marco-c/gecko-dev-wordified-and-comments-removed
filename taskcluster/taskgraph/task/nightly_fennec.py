@@ -895,6 +895,7 @@ def
 optimize
 (
 self
+params
 )
 :
         

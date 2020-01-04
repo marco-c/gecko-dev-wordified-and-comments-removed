@@ -54,6 +54,7 @@ def
 optimize_task_graph
 (
 target_task_graph
+params
 do_not_optimize
 existing_tasks
 =
@@ -101,6 +102,10 @@ annotate_task_graph
 target_task_graph
 =
 target_task_graph
+                        
+params
+=
+params
                         
 do_not_optimize
 =
@@ -309,6 +314,7 @@ def
 annotate_task_graph
 (
 target_task_graph
+params
 do_not_optimize
                         
 named_links_dict
@@ -526,6 +532,7 @@ task
 .
 optimize
 (
+params
 )
         
 task

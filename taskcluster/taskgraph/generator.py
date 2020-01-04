@@ -1289,6 +1289,10 @@ optimize_task_graph
 (
 target_task_graph
                                                                     
+self
+.
+parameters
+                                                                    
 do_not_optimize
 )
         
