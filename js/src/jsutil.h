@@ -1461,10 +1461,6 @@ define
 JS_ALLOCATED_TENURED_PATTERN
 0x4D
 #
-define
-JS_FREED_HEAP_PTR_PATTERN
-0x6B
-#
 if
 defined
 (

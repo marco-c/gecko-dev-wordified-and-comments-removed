@@ -142,6 +142,11 @@ MOZ_ASSERT
 CurrentThreadIsGCSweeping
 (
 )
+|
+|
+CurrentThreadIsHandlingInitFailure
+(
+)
 )
 ;
 }

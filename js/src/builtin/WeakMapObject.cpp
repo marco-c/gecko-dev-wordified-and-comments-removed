@@ -786,9 +786,12 @@ if
 map
 )
 {
-auto
+AutoInitGCManagedObject
+<
+ObjectValueMap
+>
 newMap
-=
+(
 cx
 -
 >
@@ -802,6 +805,7 @@ mapObj
 .
 get
 (
+)
 )
 )
 ;
