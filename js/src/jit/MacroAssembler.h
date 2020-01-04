@@ -2937,6 +2937,11 @@ label
 )
 PER_SHARED_ARCH
 ;
+template
+<
+class
+L
+>
 inline
 void
 branch32
@@ -2947,8 +2952,7 @@ Register
 lhs
 Imm32
 rhs
-Label
-*
+L
 label
 )
 PER_SHARED_ARCH

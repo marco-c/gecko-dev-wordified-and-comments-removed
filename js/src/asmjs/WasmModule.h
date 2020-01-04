@@ -695,6 +695,7 @@ Function
 Entry
 ImportJitExit
 ImportInterpExit
+ErrorExit
 Inline
 CallThunk
 }

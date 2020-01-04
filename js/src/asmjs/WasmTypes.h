@@ -2379,6 +2379,7 @@ StackLimit
 ReportOverRecursed
 OnOutOfBounds
 OnImpreciseConversion
+BadIndirectCall
 HandleExecutionInterrupt
 InvokeImport_Void
 InvokeImport_I32
@@ -2406,6 +2407,7 @@ JumpTarget
 StackOverflow
 OutOfBounds
 ConversionError
+BadIndirectCall
 Throw
 Limit
 }

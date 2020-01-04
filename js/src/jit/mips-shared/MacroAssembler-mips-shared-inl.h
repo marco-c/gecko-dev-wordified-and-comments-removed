@@ -671,6 +671,11 @@ cond
 )
 ;
 }
+template
+<
+class
+L
+>
 void
 MacroAssembler
 :
@@ -683,8 +688,7 @@ Register
 lhs
 Imm32
 imm
-Label
-*
+L
 label
 )
 {
