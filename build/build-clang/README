@@ -229,6 +229,16 @@ libcxx
 repo
 .
 *
+libcxxabi_repo
+:
+SVN
+path
+to
+the
+libcxxabi
+repo
+.
+*
 python_path
 :
 Path
