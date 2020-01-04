@@ -1340,8 +1340,10 @@ nullptr
 }
 protected
 :
+RefPtr
+<
 ID3D11Device
-*
+>
 GetDevice
 (
 )
@@ -1504,8 +1506,10 @@ nullptr
 }
 protected
 :
+RefPtr
+<
 ID3D11Device
-*
+>
 GetDevice
 (
 )
