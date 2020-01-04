@@ -947,6 +947,16 @@ return
 NS_ERROR_FAILURE
 ;
 }
+if
+(
+!
+mControlThread
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 CommandOptions
 commandOptions
 (
@@ -1186,6 +1196,11 @@ val
 return
 ;
 }
+if
+(
+mListener
+)
+{
 mListener
 -
 >
@@ -1195,6 +1210,7 @@ val
 aInterface
 )
 ;
+}
 }
 void
 WifiProxyService
