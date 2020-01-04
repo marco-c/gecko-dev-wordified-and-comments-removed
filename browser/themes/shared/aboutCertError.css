@@ -236,15 +236,6 @@ flex
 1
 ;
 }
-button
-:
-disabled
-{
-cursor
-:
-pointer
-;
-}
 #
 returnButton
 {
