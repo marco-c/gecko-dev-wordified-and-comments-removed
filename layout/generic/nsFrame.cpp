@@ -23439,6 +23439,7 @@ nsPoint
 0
 )
 scaleFactor
+0
 nullptr
 aOutAncestor
 )
