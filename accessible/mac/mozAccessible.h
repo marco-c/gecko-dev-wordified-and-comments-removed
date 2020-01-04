@@ -296,13 +296,6 @@ window
 ;
 -
 (
-NSString
-*
-)
-customDescription
-;
--
-(
 id
 )
 value
