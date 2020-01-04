@@ -343,6 +343,7 @@ blank
 -
 decoder
 "
+false
 )
 ;
 #
@@ -362,7 +363,7 @@ gonk
 .
 enabled
 "
-false
+true
 )
 ;
 #
@@ -430,7 +431,7 @@ decoder
 .
 enabled
 "
-false
+true
 )
 ;
 #
@@ -450,7 +451,7 @@ ffmpeg
 .
 enabled
 "
-false
+true
 )
 ;
 #
@@ -472,7 +473,7 @@ ffvpx
 .
 enabled
 "
-false
+true
 )
 ;
 #
@@ -494,7 +495,7 @@ wmf
 .
 enabled
 "
-false
+true
 )
 ;
 #
