@@ -146,7 +146,7 @@ aOffset
 void
 TextNodeChangedDirection
 (
-nsTextNode
+nsIContent
 *
 aTextNode
 Directionality
@@ -158,7 +158,7 @@ aNotify
 void
 SetDirectionFromNewTextNode
 (
-nsTextNode
+nsIContent
 *
 aTextNode
 )
