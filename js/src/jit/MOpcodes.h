@@ -759,6 +759,11 @@ PostWriteBarrier
 \
 _
 (
+PostWriteElementBarrier
+)
+\
+_
+(
 GetPropertyCache
 )
 \

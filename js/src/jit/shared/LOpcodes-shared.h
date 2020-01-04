@@ -1103,6 +1103,16 @@ PostWriteBarrierV
 \
 _
 (
+PostWriteElementBarrierO
+)
+\
+_
+(
+PostWriteElementBarrierV
+)
+\
+_
+(
 InitializedLength
 )
 \

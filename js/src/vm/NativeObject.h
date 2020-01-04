@@ -321,6 +321,8 @@ public
 :
 enum
 Flags
+:
+uint32_t
 {
 CONVERT_DOUBLE_ELEMENTS
 =
