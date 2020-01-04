@@ -123,7 +123,7 @@ mimeType
 )
 )
 {
-return
+continue
 ;
 }
 if
