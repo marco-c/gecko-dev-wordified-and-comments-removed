@@ -167,12 +167,13 @@ url
 gApp
 .
 origin
+originAttributes
+:
+{
 appId
 :
 appId
-isInBrowserElement
-:
-false
+}
 }
 )
 ;
