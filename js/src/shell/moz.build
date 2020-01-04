@@ -154,6 +154,11 @@ jsoptparse
 cpp
 '
 '
+jsshell
+.
+cpp
+'
+'
 OSObject
 .
 cpp
