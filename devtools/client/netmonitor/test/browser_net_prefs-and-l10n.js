@@ -114,7 +114,9 @@ getStr
 "
 netmonitor
 .
-label
+security
+.
+enabled
 "
 )
 "
