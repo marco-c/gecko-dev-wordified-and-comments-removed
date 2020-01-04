@@ -78,7 +78,7 @@ RegExp
 .
 lastMatch
 '
-abc
+123
 '
 )
 ;
