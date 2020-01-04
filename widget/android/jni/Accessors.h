@@ -58,6 +58,7 @@ namespace
 jni
 {
 namespace
+detail
 {
 struct
 Value
@@ -185,6 +186,10 @@ val
 }
 ;
 }
+using
+namespace
+detail
+;
 class
 Accessor
 {

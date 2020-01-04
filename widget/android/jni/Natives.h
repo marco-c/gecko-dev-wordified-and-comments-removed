@@ -125,7 +125,9 @@ namespace
 jni
 {
 namespace
+detail
 {
+inline
 uintptr_t
 CheckNativeHandle
 (
@@ -691,6 +693,10 @@ ptr
 }
 ;
 }
+using
+namespace
+detail
+;
 struct
 UsesNativeCallProxy
 {
@@ -735,9 +741,6 @@ IsVoid
 class
 NativeStubImpl
 ;
-}
-namespace
-{
 template
 <
 typename
