@@ -3197,6 +3197,17 @@ GetStreamBuffer
 GetAndResetTracksDirty
 (
 )
+&
+&
+!
+aStream
+-
+>
+mAudioOutputStreams
+.
+IsEmpty
+(
+)
 )
 {
 return
