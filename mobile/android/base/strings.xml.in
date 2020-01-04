@@ -322,7 +322,8 @@ name
 moz_android_shared_fxaccount_type
 "
 >
-MOZ_ANDROID_SHARED_FXACCOUNT_TYPE
+ANDROID_PACKAGE_NAME
+_fxaccount
 <
 /
 string

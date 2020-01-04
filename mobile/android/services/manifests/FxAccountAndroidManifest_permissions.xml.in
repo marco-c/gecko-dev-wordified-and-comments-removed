@@ -181,7 +181,8 @@ android
 name
 =
 "
-MOZ_ANDROID_SHARED_FXACCOUNT_TYPE
+ANDROID_PACKAGE_NAME
+_fxaccount
 .
 permission
 .
@@ -208,7 +209,8 @@ android
 name
 =
 "
-MOZ_ANDROID_SHARED_FXACCOUNT_TYPE
+ANDROID_PACKAGE_NAME
+_fxaccount
 .
 permission
 .
