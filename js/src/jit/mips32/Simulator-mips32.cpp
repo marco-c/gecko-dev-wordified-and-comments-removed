@@ -2895,7 +2895,7 @@ i
 FloatRegisters
 :
 :
-TotalSingle
+RegisterIdLimit
 ;
 i
 +

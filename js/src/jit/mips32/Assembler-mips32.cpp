@@ -414,7 +414,7 @@ id
 FloatRegisters
 :
 :
-TotalSingle
+RegisterIdLimit
 )
 ;
 return
@@ -452,7 +452,7 @@ id
 FloatRegisters
 :
 :
-TotalSingle
+RegisterIdLimit
 )
 ;
 return
@@ -490,7 +490,7 @@ id
 FloatRegisters
 :
 :
-TotalSingle
+RegisterIdLimit
 )
 ;
 return
