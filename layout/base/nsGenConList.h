@@ -398,6 +398,17 @@ mSize
 -
 ;
 }
+nsDataHashtable
+<
+nsPtrHashKey
+<
+nsIFrame
+>
+nsGenConNode
+*
+>
+mNodes
+;
 }
 ;
 #
