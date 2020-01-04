@@ -585,10 +585,7 @@ Count
 :
 CountBase
 {
-JS
-:
-:
-ubi
+mozilla
 :
 :
 Vector
@@ -1804,10 +1801,7 @@ GetName
 getName
 )
 {
-JS
-:
-:
-ubi
+mozilla
 :
 :
 Vector
@@ -3092,10 +3086,7 @@ Count
 countBase
 )
 ;
-JS
-:
-:
-ubi
+mozilla
 :
 :
 Vector
@@ -3929,10 +3920,7 @@ generation
 ;
 #
 endif
-JS
-:
-:
-ubi
+mozilla
 :
 :
 Vector
