@@ -680,6 +680,12 @@ aPoint
 aGuid
 )
 ;
+#
+if
+defined
+(
+MOZ_SINGLE_PROCESS_APZ
+)
 nsIPresShell
 *
 presShell
@@ -733,6 +739,8 @@ y
 /
 resolution
 ;
+#
+endif
 CSSRect
 zoomToRect
 =
