@@ -250,7 +250,7 @@ tester
 /
 test
 -
-ubuntu
+ubuntu1604
 .
 sh
 ADD
@@ -264,7 +264,7 @@ tester
 /
 test
 -
-ubuntu
+ubuntu1604
 .
 sh
 /

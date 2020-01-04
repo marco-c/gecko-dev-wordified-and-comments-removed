@@ -249,7 +249,7 @@ tester
 /
 test
 -
-ubuntu
+ubuntu1204
 .
 sh
 ADD
@@ -263,7 +263,7 @@ tester
 /
 test
 -
-ubuntu
+ubuntu1204
 .
 sh
 /
