@@ -1113,6 +1113,7 @@ nsIDOMHTMLInputElement
 GetSelectedRadioButton
 (
 )
+const
 ;
 virtual
 nsresult
