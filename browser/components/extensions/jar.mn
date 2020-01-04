@@ -109,3 +109,12 @@ ext
 windows
 .
 js
+content
+/
+browser
+/
+ext
+-
+bookmarks
+.
+js
