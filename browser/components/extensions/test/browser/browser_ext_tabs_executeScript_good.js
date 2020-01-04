@@ -953,3 +953,8 @@ tab
 }
 )
 ;
+add_task
+(
+forceGC
+)
+;
