@@ -287,6 +287,11 @@ do
 /
 mach
 mochitest
+-
+-
+disable
+-
+e10s
 test
 #
 UITour
@@ -371,9 +376,6 @@ then
 /
 mach
 mochitest
--
--
-e10s
 test
 fi
 done
