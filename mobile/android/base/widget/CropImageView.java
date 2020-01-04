@@ -365,6 +365,12 @@ horizontalScaleValue
 ;
 layoutNextMatrix
 .
+reset
+(
+)
+;
+layoutNextMatrix
+.
 setScale
 (
 scale
