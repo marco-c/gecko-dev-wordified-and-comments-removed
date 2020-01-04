@@ -1803,9 +1803,6 @@ mNotifiedHasCurrentData
 bool
 mIsConsumed
 ;
-bool
-mBlockInThisPhase
-;
 DOMMediaStream
 *
 mWrapper

@@ -571,14 +571,6 @@ aEndBlockingDecisions
 )
 ;
 void
-MarkStreamBlocking
-(
-MediaStream
-*
-aStream
-)
-;
-void
 RecomputeBlockingAt
 (
 MediaStream
