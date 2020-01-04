@@ -279,6 +279,10 @@ mPool
 Dispatch
 (
 runner
+.
+forget
+(
+)
 NS_DISPATCH_NORMAL
 )
 ;
