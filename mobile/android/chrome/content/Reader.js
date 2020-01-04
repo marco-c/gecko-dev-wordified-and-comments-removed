@@ -789,6 +789,7 @@ action
 "
 button
 "
+null
 "
 reader_exit
 "
@@ -809,6 +810,7 @@ action
 "
 button
 "
+null
 "
 reader_enter
 "
@@ -1046,6 +1048,7 @@ show
 "
 button
 "
+null
 "
 reader_available
 "
@@ -1066,6 +1069,7 @@ show
 "
 button
 "
+null
 "
 reader_unavailable
 "
