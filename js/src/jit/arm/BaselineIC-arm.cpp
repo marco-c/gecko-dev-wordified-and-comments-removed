@@ -155,7 +155,6 @@ R0
 payloadReg
 (
 )
-LeaveCC
 cond
 )
 ;
@@ -172,7 +171,6 @@ R0
 payloadReg
 (
 )
-LeaveCC
 Assembler
 :
 :
@@ -317,7 +315,6 @@ Imm32
 1
 )
 dest
-LeaveCC
 cond
 )
 ;

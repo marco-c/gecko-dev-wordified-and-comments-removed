@@ -554,7 +554,6 @@ ToRegister
 (
 def
 )
-LeaveCC
 cond
 )
 ;
@@ -9759,7 +9758,6 @@ Imm32
 1
 )
 dest
-LeaveCC
 Assembler
 :
 :
@@ -9775,7 +9773,6 @@ Imm32
 1
 )
 dest
-LeaveCC
 Assembler
 :
 :
@@ -9912,7 +9909,6 @@ Imm32
 1
 )
 dest
-LeaveCC
 Assembler
 :
 :
@@ -9928,7 +9924,6 @@ Imm32
 1
 )
 dest
-LeaveCC
 Assembler
 :
 :
@@ -13648,7 +13643,6 @@ Imm32
 0
 )
 d
-LeaveCC
 Assembler
 :
 :
