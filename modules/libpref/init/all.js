@@ -38705,7 +38705,7 @@ SAFEBROWSING_ID
 appver
 =
 %
-VERSION
+MAJOR_VERSION
 %
 &
 pver
@@ -38757,7 +38757,7 @@ SAFEBROWSING_ID
 appver
 =
 %
-VERSION
+MAJOR_VERSION
 %
 &
 pver
@@ -39069,7 +39069,7 @@ SAFEBROWSING_ID
 appver
 =
 %
-VERSION
+MAJOR_VERSION
 %
 &
 pver
@@ -39115,7 +39115,7 @@ SAFEBROWSING_ID
 appver
 =
 %
-VERSION
+MAJOR_VERSION
 %
 &
 pver
