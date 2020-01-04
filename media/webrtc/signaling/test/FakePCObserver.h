@@ -492,6 +492,9 @@ OnAddTrack
 mozilla
 :
 :
+dom
+:
+:
 MediaStreamTrack
 &
 track
@@ -506,6 +509,9 @@ NS_IMETHODIMP
 OnRemoveTrack
 (
 mozilla
+:
+:
+dom
 :
 :
 MediaStreamTrack

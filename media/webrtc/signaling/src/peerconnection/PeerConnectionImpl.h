@@ -330,10 +330,6 @@ typedef
 Fake_DOMMediaStream
 DOMMediaStream
 ;
-typedef
-Fake_MediaStreamTrack
-MediaStreamTrack
-;
 #
 else
 class
