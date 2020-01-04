@@ -1879,15 +1879,6 @@ tail
 head
 )
 {
-rt
--
->
-gc
-.
-incGcNumber
-(
-)
-;
 }
 #
 define
