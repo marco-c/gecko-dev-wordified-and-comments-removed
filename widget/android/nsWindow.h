@@ -833,7 +833,7 @@ DrawWindowOverlay
 LayerManagerComposite
 *
 aManager
-nsIntRect
+LayoutDeviceIntRect
 aRect
 )
 override
