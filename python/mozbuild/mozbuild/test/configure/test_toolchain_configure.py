@@ -444,6 +444,12 @@ _WIN32
 '
 :
 1
+    
+'
+WINNT
+'
+:
+1
 }
 GCC_PLATFORM_X86_LINUX
 =
