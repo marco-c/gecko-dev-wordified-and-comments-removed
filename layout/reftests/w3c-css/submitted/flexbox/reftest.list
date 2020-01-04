@@ -3661,7 +3661,7 @@ fixup
 on
 flex
 items
-=
+!
 =
 flexbox
 -
@@ -3683,7 +3683,7 @@ fixup
 ref
 .
 xhtml
-=
+!
 =
 flexbox
 -
@@ -3843,7 +3843,7 @@ elements
 ref
 .
 html
-=
+!
 =
 flexbox
 -
