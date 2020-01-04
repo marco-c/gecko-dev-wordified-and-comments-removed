@@ -419,7 +419,9 @@ GetUpgradeInsecurePreloads
 )
 ;
 }
-mOriginAttributes
+const
+PrincipalOriginAttributes
+attrs
 =
 BasePrincipal
 :
@@ -432,6 +434,13 @@ mLoadingPrincipal
 >
 OriginAttributesRef
 (
+)
+;
+mOriginAttributes
+.
+InheritFromDocToNecko
+(
+attrs
 )
 ;
 }
@@ -574,7 +583,7 @@ aEnforceSecurity
 bool
 aInitialSecurityCheckDone
 const
-OriginAttributes
+NeckoOriginAttributes
 &
 aOriginAttributes
 nsTArray
@@ -1406,7 +1415,7 @@ Value
 aOriginAttributes
 )
 {
-OriginAttributes
+NeckoOriginAttributes
 attrs
 ;
 if
@@ -1450,7 +1459,7 @@ GetOriginAttributes
 mozilla
 :
 :
-OriginAttributes
+NeckoOriginAttributes
 *
 aOriginAttributes
 )
@@ -1479,7 +1488,7 @@ const
 mozilla
 :
 :
-OriginAttributes
+NeckoOriginAttributes
 &
 aOriginAttributes
 )

@@ -144,7 +144,7 @@ rv
 mozilla
 :
 :
-OriginAttributes
+NeckoOriginAttributes
 const
 *
 oa
@@ -200,7 +200,7 @@ nsACString
 _result
 )
 {
-OriginAttributes
+NeckoOriginAttributes
 oa
 ;
 oa

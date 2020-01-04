@@ -131,7 +131,7 @@ const
 mozilla
 :
 :
-OriginAttributes
+DocShellOriginAttributes
 &
 aAttrs
 )
@@ -158,7 +158,7 @@ mIPCClosed
 mozilla
 :
 :
-OriginAttributes
+DocShellOriginAttributes
 mOriginAttributes
 ;
 }

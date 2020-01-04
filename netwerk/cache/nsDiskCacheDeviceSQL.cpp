@@ -270,7 +270,7 @@ using
 mozilla
 :
 :
-OriginAttributes
+NeckoOriginAttributes
 ;
 static
 const
@@ -5987,7 +5987,7 @@ AppendJARIdentifier
 nsACString
 &
 _result
-OriginAttributes
+NeckoOriginAttributes
 const
 *
 aOriginAttributes
@@ -6031,7 +6031,7 @@ BuildApplicationCacheGroupID
 nsIURI
 *
 aManifestURL
-OriginAttributes
+NeckoOriginAttributes
 const
 *
 aOriginAttributes
@@ -11222,7 +11222,7 @@ Append
 '
 )
 ;
-OriginAttributes
+NeckoOriginAttributes
 oa
 ;
 oa
@@ -11514,7 +11514,7 @@ nsAutoCString
 demandedGroupID
 ;
 const
-OriginAttributes
+NeckoOriginAttributes
 *
 oa
 =

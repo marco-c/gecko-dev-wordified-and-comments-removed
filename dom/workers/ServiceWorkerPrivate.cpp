@@ -749,7 +749,7 @@ MOZ_ASSERT
 swm
 )
 ;
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 =
 mozilla

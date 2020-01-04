@@ -29,7 +29,7 @@ namespace
 mozilla
 {
 class
-OriginAttributes
+NeckoOriginAttributes
 ;
 }
 namespace
@@ -69,7 +69,7 @@ IPC
 SerializedLoadContext
 &
 aLoadContext
-OriginAttributes
+NeckoOriginAttributes
 &
 aAttrs
 bool

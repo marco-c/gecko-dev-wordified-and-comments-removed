@@ -534,7 +534,7 @@ originNoSuffix
 mozilla
 :
 :
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 ;
 if
@@ -625,7 +625,7 @@ aPrincipal
 mozilla
 :
 :
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 (
 aAppId
@@ -682,7 +682,7 @@ aPrincipal
 mozilla
 :
 :
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 ;
 nsCOMPtr
@@ -9196,7 +9196,7 @@ nullptr
 mozilla
 :
 :
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 =
 mozilla

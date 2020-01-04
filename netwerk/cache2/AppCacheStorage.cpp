@@ -545,7 +545,7 @@ mAppCache
 )
 {
 const
-OriginAttributes
+NeckoOriginAttributes
 *
 oa
 =

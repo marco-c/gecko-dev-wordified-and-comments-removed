@@ -148,7 +148,7 @@ HasOwnOrContainingApp
 const
 ;
 const
-OriginAttributes
+DocShellOriginAttributes
 &
 OriginAttributesRef
 (
@@ -188,7 +188,7 @@ mozIApplication
 *
 aAppFrameOwnerApp
 const
-OriginAttributes
+DocShellOriginAttributes
 &
 aOriginAttributes
 const
@@ -217,7 +217,7 @@ mContainingApp
 uint32_t
 mContainingAppId
 ;
-OriginAttributes
+DocShellOriginAttributes
 mOriginAttributes
 ;
 nsCString
@@ -262,7 +262,7 @@ mozIApplication
 *
 aAppFrameOwnerApp
 const
-OriginAttributes
+DocShellOriginAttributes
 &
 aOriginAttributes
 const

@@ -431,7 +431,7 @@ SetOriginAttributes
 mozilla
 :
 :
-OriginAttributes
+NeckoOriginAttributes
 (
 NECKO_SAFEBROWSING_APP_ID
 false

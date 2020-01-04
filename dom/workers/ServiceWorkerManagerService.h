@@ -29,7 +29,7 @@ namespace
 mozilla
 {
 class
-OriginAttributes
+PrincipalOriginAttributes
 ;
 namespace
 ipc
@@ -110,7 +110,7 @@ PropagateSoftUpdate
 uint64_t
 aParentID
 const
-OriginAttributes
+PrincipalOriginAttributes
 &
 aOriginAttributes
 const

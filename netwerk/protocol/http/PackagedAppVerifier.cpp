@@ -373,7 +373,7 @@ EmptyCString
 (
 )
 ;
-OriginAttributes
+NeckoOriginAttributes
 (
 )
 .

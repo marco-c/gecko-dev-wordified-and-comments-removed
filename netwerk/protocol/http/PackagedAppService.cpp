@@ -4112,7 +4112,7 @@ originNoSuffix
 mozilla
 :
 :
-OriginAttributes
+NeckoOriginAttributes
 attrs
 ;
 if

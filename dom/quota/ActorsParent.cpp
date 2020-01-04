@@ -22412,7 +22412,7 @@ const
 mozilla
 :
 :
-OriginAttributes
+PrincipalOriginAttributes
 &
 attrs
 =
@@ -24499,7 +24499,7 @@ principal
 }
 else
 {
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 (
 originProps

@@ -143,7 +143,7 @@ h
 /
 /
 for
-OriginAttributes
+DocShellOriginAttributes
 #
 include
 "
@@ -952,7 +952,7 @@ GetOriginAttributes
 mozilla
 :
 :
-OriginAttributes
+DocShellOriginAttributes
 &
 aAttrs
 )
@@ -1119,7 +1119,7 @@ obj
 mozilla
 :
 :
-OriginAttributes
+DocShellOriginAttributes
 attrs
 ;
 ok

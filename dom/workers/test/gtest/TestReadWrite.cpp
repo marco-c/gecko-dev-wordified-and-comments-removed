@@ -1689,7 +1689,7 @@ ContentPrincipalInfo
 mozilla
 :
 :
-OriginAttributes
+PrincipalOriginAttributes
 (
 i
 i
@@ -1957,7 +1957,7 @@ principal
 mozilla
 :
 :
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 (
 i

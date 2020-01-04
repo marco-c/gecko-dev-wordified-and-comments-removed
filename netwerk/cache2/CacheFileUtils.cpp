@@ -107,7 +107,7 @@ lastTag
 }
 private
 :
-OriginAttributes
+NeckoOriginAttributes
 originAttribs
 ;
 bool
@@ -658,7 +658,7 @@ nsACString
 _retval
 )
 {
-OriginAttributes
+NeckoOriginAttributes
 const
 *
 oa

@@ -128,7 +128,7 @@ mUseRemoteTabs
 mozilla
 :
 :
-OriginAttributes
+DocShellOriginAttributes
 mOriginAttributes
 ;
 }

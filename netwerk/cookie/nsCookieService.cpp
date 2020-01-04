@@ -349,7 +349,7 @@ baseDomain
 nsCookieKey
 (
 baseDomain
-OriginAttributes
+NeckoOriginAttributes
 (
 )
 )
@@ -2821,7 +2821,7 @@ XRE_IsParentProcess
 )
 )
 ;
-OriginAttributes
+NeckoOriginAttributes
 attrs
 ;
 MOZ_ALWAYS_TRUE
@@ -3897,7 +3897,7 @@ rv
 rv
 )
 ;
-OriginAttributes
+NeckoOriginAttributes
 attrs
 (
 appId
@@ -4003,7 +4003,7 @@ rv
 nsAutoCString
 suffix
 ;
-OriginAttributes
+NeckoOriginAttributes
 attrs
 ;
 rv
@@ -4115,7 +4115,7 @@ rv
 nsAutoCString
 suffix
 ;
-OriginAttributes
+NeckoOriginAttributes
 attrs
 ;
 rv
@@ -8427,7 +8427,7 @@ aHostURI
 isForeign
 )
 ;
-OriginAttributes
+NeckoOriginAttributes
 attrs
 ;
 if
@@ -8721,7 +8721,7 @@ aHostURI
 isForeign
 )
 ;
-OriginAttributes
+NeckoOriginAttributes
 attrs
 ;
 if
@@ -8801,7 +8801,7 @@ aServerTime
 bool
 aFromHttp
 const
-OriginAttributes
+NeckoOriginAttributes
 &
 aOriginAttrs
 bool
@@ -10110,7 +10110,7 @@ nsACString
 &
 aHost
 const
-OriginAttributes
+NeckoOriginAttributes
 &
 aAttrs
 const
@@ -10358,7 +10358,7 @@ bool
 aBlocked
 )
 {
-OriginAttributes
+NeckoOriginAttributes
 attrs
 ;
 return
@@ -11861,7 +11861,7 @@ baseDomain
 nsAutoCString
 suffix
 ;
-OriginAttributes
+NeckoOriginAttributes
 attrs
 ;
 stmt
@@ -13013,7 +13013,7 @@ aIsForeign
 bool
 aHttpBound
 const
-OriginAttributes
+NeckoOriginAttributes
 aOriginAttrs
 bool
 aIsPrivate
@@ -18752,7 +18752,7 @@ GetPath
 path
 )
 ;
-OriginAttributes
+NeckoOriginAttributes
 attrs
 (
 aAppId

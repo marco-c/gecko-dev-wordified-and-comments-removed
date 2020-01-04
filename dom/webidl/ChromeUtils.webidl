@@ -332,8 +332,9 @@ including
 equality
 *
 serialization
-and
 deserialization
+and
+inheritance
 .
 *
 (

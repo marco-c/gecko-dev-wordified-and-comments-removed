@@ -520,7 +520,7 @@ true
 ;
 }
 const
-OriginAttributes
+DocShellOriginAttributes
 &
 TabContext
 :
@@ -562,7 +562,7 @@ mozIApplication
 *
 aAppFrameOwnerApp
 const
-OriginAttributes
+DocShellOriginAttributes
 &
 aOriginAttributes
 const
@@ -823,12 +823,8 @@ containingAppId
 =
 NO_APP_ID
 ;
-OriginAttributes
+DocShellOriginAttributes
 originAttributes
-=
-OriginAttributes
-(
-)
 ;
 nsAutoCString
 originSuffix

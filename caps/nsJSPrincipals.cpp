@@ -788,7 +788,7 @@ return
 false
 ;
 }
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 ;
 attrs

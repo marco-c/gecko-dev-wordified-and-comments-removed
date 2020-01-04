@@ -93,7 +93,7 @@ dom
 Element
 *
 aTopFrameElement
-OriginAttributes
+DocShellOriginAttributes
 &
 aAttrs
 )
@@ -155,7 +155,7 @@ SerializedLoadContext
 aToCopy
 uint64_t
 aNestedFrameId
-OriginAttributes
+DocShellOriginAttributes
 &
 aAttrs
 )
@@ -218,7 +218,7 @@ aUsePrivateBrowsing
 bool
 aUseRemoteTabs
 const
-OriginAttributes
+DocShellOriginAttributes
 &
 aAttrs
 )
@@ -340,7 +340,7 @@ mUsePrivateBrowsing
 bool
 mUseRemoteTabs
 ;
-OriginAttributes
+DocShellOriginAttributes
 mOriginAttributes
 ;
 #

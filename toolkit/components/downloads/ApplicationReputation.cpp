@@ -295,7 +295,7 @@ using
 mozilla
 :
 :
-OriginAttributes
+PrincipalOriginAttributes
 ;
 using
 mozilla
@@ -1016,7 +1016,7 @@ rv
 rv
 )
 ;
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 ;
 nsCOMPtr

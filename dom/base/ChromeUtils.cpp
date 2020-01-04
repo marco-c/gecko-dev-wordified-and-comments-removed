@@ -334,7 +334,7 @@ nsCString
 aSuffix
 )
 {
-OriginAttributes
+GenericOriginAttributes
 attrs
 (
 aAttrs
@@ -376,7 +376,7 @@ OriginAttributesPatternDictionary
 aPattern
 )
 {
-OriginAttributes
+GenericOriginAttributes
 attrs
 (
 aAttrs

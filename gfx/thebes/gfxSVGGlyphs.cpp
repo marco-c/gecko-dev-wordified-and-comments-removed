@@ -1674,7 +1674,7 @@ rv
 rv
 )
 ;
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 ;
 nsCOMPtr

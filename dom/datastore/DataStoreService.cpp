@@ -399,7 +399,7 @@ using
 mozilla
 :
 :
-OriginAttributes
+PrincipalOriginAttributes
 ;
 namespace
 mozilla
@@ -1015,7 +1015,7 @@ return
 rv
 ;
 }
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 (
 aAppId

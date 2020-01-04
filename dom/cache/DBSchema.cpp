@@ -11769,7 +11769,7 @@ IsEmpty
 nsAutoCString
 originNoSuffix
 ;
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 ;
 if

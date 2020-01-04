@@ -1870,7 +1870,7 @@ aPrivate
 bool
 const
 aAnonymous
-OriginAttributes
+NeckoOriginAttributes
 const
 &
 aOa
@@ -1997,7 +1997,7 @@ NS_OK
 nsresult
 Run
 (
-OriginAttributes
+NeckoOriginAttributes
 const
 &
 aOa
@@ -2455,7 +2455,7 @@ data
 )
 )
 {
-OriginAttributes
+NeckoOriginAttributes
 oa
 ;
 if
@@ -2478,7 +2478,7 @@ NS_ERROR
 Could
 not
 parse
-OriginAttributes
+NeckoOriginAttributes
 JSON
 in
 clear

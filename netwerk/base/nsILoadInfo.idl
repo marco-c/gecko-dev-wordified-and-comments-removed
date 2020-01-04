@@ -182,12 +182,12 @@ nsIPrincipal
 )
 ;
 native
-OriginAttributes
+NeckoOriginAttributes
 (
 mozilla
 :
 :
-OriginAttributes
+NeckoOriginAttributes
 )
 ;
 [
@@ -200,7 +200,7 @@ const
 mozilla
 :
 :
-OriginAttributes
+NeckoOriginAttributes
 )
 ;
 typedef
@@ -2400,7 +2400,7 @@ parentOuterWindowID
 *
 *
 Customized
-OriginAttributes
+NeckoOriginAttributes
 within
 LoadInfo
 to
@@ -2436,7 +2436,7 @@ binaryname
 GetOriginAttributes
 )
 ]
-OriginAttributes
+NeckoOriginAttributes
 binaryGetOriginAttributes
 (
 )
@@ -2466,7 +2466,7 @@ inline
 mozilla
 :
 :
-OriginAttributes
+NeckoOriginAttributes
 GetOriginAttributes
 (
 )
@@ -2474,7 +2474,7 @@ GetOriginAttributes
 mozilla
 :
 :
-OriginAttributes
+NeckoOriginAttributes
 result
 ;
 mozilla

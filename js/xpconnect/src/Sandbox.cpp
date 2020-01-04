@@ -5886,7 +5886,7 @@ return
 false
 ;
 }
-OriginAttributes
+PrincipalOriginAttributes
 attrs
 ;
 nsCOMPtr
