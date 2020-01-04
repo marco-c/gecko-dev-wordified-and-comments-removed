@@ -4128,9 +4128,10 @@ tables
 .
 map
 (
+function
+(
 t
-=
->
+)
 this
 .
 _stmt
@@ -4141,6 +4142,7 @@ FROM
 t
 }
 )
+this
 )
 ;
 this
@@ -4151,10 +4153,9 @@ stmts
 {
 onDone
 :
+function
 (
 )
-=
->
 callback
 (
 )
@@ -4191,9 +4192,10 @@ supportedIIDs
 .
 some
 (
+function
+(
 i
-=
->
+)
 iid
 .
 equals

@@ -2223,11 +2223,7 @@ get
 typeAheadResult
 (
 )
-{
-return
 false
-;
-}
 getValueAt
 :
 function

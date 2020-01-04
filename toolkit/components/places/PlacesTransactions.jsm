@@ -210,13 +210,9 @@ get
 undoPosition
 (
 )
-{
-return
 this
 .
 _undoPosition
-;
-}
 get
 topUndoEntry
 (

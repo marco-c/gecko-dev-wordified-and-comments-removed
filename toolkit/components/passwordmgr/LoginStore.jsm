@@ -802,8 +802,6 @@ saveSoon
 function
 (
 )
-{
-return
 this
 .
 _saver
@@ -811,8 +809,6 @@ _saver
 arm
 (
 )
-;
-}
 _saver
 :
 null

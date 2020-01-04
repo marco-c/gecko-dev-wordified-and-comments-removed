@@ -681,8 +681,6 @@ PDBU__checkIntegritySkipReindex
 (
 aTasks
 )
-{
-return
 this
 .
 checkIntegrity
@@ -690,8 +688,6 @@ checkIntegrity
 aTasks
 true
 )
-;
-}
 checkIntegrity
 :
 function
@@ -1079,9 +1075,10 @@ stmts
 .
 forEach
 (
+function
+(
 aStmt
-=
->
+)
 aStmt
 .
 finalize
@@ -5909,8 +5906,6 @@ function
 T_pop
 (
 )
-{
-return
 this
 .
 _list
@@ -5918,8 +5913,6 @@ _list
 shift
 (
 )
-;
-}
 clear
 :
 function
@@ -5940,8 +5933,6 @@ get
 list
 (
 )
-{
-return
 this
 .
 _list
@@ -5955,8 +5946,6 @@ _list
 .
 length
 )
-;
-}
 log
 :
 function
@@ -5979,8 +5968,6 @@ get
 messages
 (
 )
-{
-return
 this
 .
 _log
@@ -5994,6 +5981,4 @@ _log
 .
 length
 )
-;
-}
 }

@@ -785,13 +785,9 @@ get
 testMode
 (
 )
-{
-return
 this
 .
 _testMode
-;
-}
 set
 testMode
 (

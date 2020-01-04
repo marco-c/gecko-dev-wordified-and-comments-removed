@@ -845,13 +845,12 @@ iconClass
 .
 forEach
 (
+function
 (
 el
 idx
 arr
 )
-=
->
 icon
 .
 classList
