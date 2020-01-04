@@ -442,9 +442,8 @@ MEM_COMMIT
 PAGE_READWRITE
 )
 )
-MOZ_CRASH
-(
-)
+return
+true
 ;
 return
 false
