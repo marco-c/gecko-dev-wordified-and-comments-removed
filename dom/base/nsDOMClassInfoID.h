@@ -205,8 +205,6 @@ NS_ERROR_OUT_OF_MEMORY
 }
 else
 #
-else
-#
 endif
 #
 endif

@@ -219,13 +219,6 @@ h
 #
 include
 "
-nsIDOMScriptObjectFactory
-.
-h
-"
-#
-include
-"
 nsIScriptGlobalObject
 .
 h

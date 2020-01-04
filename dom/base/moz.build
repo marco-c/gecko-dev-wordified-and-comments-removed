@@ -521,11 +521,6 @@ nsIDOMClassInfo
 h
 '
 '
-nsIDOMScriptObjectFactory
-.
-h
-'
-'
 nsIGlobalObject
 .
 h
@@ -1417,11 +1412,6 @@ cpp
 '
 '
 nsDOMNavigationTiming
-.
-cpp
-'
-'
-nsDOMScriptObjectFactory
 .
 cpp
 '

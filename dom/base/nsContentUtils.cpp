@@ -893,13 +893,6 @@ h
 #
 include
 "
-nsIDOMScriptObjectFactory
-.
-h
-"
-#
-include
-"
 nsIDOMWindowUtils
 .
 h
