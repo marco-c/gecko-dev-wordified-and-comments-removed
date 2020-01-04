@@ -7454,11 +7454,8 @@ else
 {
 aValue
 =
-NS_ConvertUTF8toUTF16
-(
 *
 mValue
-)
 ;
 }
 }
@@ -8342,11 +8339,12 @@ false
 if
 (
 !
-CopyUTF16toUTF8
+mValue
+-
+>
+Assign
 (
 value
-*
-mValue
 fallible
 )
 )
