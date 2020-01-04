@@ -609,6 +609,17 @@ GetFormat
 (
 )
 ;
+mozilla
+:
+:
+gfx
+:
+:
+SurfaceFormat
+GetReadFormat
+(
+)
+;
 CGLError
 CGLTexImageIOSurface2D
 (

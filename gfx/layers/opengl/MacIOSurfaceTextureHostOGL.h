@@ -270,6 +270,17 @@ const
 override
 ;
 virtual
+gfx
+:
+:
+SurfaceFormat
+GetReadFormat
+(
+)
+const
+override
+;
+virtual
 bool
 BindTextureSource
 (

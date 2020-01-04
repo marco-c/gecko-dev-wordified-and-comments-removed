@@ -73,6 +73,7 @@ R5G6B5_UINT16
 A8
 YUV
 NV12
+YUV422
 UNKNOWN
 #
 if
@@ -146,6 +147,12 @@ SurfaceFormat
 :
 :
 NV12
+:
+case
+SurfaceFormat
+:
+:
+YUV422
 :
 return
 true
