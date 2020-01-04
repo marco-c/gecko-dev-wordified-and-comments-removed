@@ -667,7 +667,7 @@ i
 opus_int16
 tmp
 [
-MAX_PULSES
+CELT_MAX_PULSES
 +
 1
 ]

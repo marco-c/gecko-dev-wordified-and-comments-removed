@@ -107,6 +107,10 @@ MAY_HAVE_SSE4_1
 (
 silk_inner_prod16_aligned_64
 )
+MAY_HAVE_SSE4_1
+(
+silk_inner_prod16_aligned_64
+)
 }
 ;
 #
@@ -137,6 +141,10 @@ pIn
 silk_VAD_GetSA_Q8_c
 silk_VAD_GetSA_Q8_c
 silk_VAD_GetSA_Q8_c
+MAY_HAVE_SSE4_1
+(
+silk_VAD_GetSA_Q8
+)
 MAY_HAVE_SSE4_1
 (
 silk_VAD_GetSA_Q8
@@ -244,6 +252,10 @@ MAY_HAVE_SSE4_1
 (
 silk_NSQ
 )
+MAY_HAVE_SSE4_1
+(
+silk_NSQ
+)
 }
 ;
 void
@@ -301,6 +313,10 @@ L
 silk_VQ_WMat_EC_c
 silk_VQ_WMat_EC_c
 silk_VQ_WMat_EC_c
+MAY_HAVE_SSE4_1
+(
+silk_VQ_WMat_EC
+)
 MAY_HAVE_SSE4_1
 (
 silk_VQ_WMat_EC
@@ -408,6 +424,10 @@ MAY_HAVE_SSE4_1
 (
 silk_NSQ_del_dec
 )
+MAY_HAVE_SSE4_1
+(
+silk_NSQ_del_dec
+)
 }
 ;
 #
@@ -465,6 +485,10 @@ MAY_HAVE_SSE4_1
 (
 silk_warped_LPC_analysis_filter_FIX
 )
+MAY_HAVE_SSE4_1
+(
+silk_warped_LPC_analysis_filter_FIX
+)
 }
 ;
 void
@@ -514,6 +538,10 @@ arch
 silk_burg_modified_c
 silk_burg_modified_c
 silk_burg_modified_c
+MAY_HAVE_SSE4_1
+(
+silk_burg_modified
+)
 MAY_HAVE_SSE4_1
 (
 silk_burg_modified

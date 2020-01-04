@@ -234,6 +234,9 @@ encoder_buffer
 int
 lfe
 ;
+int
+arch
+;
 #
 ifndef
 DISABLE_FLOAT_API
@@ -306,16 +309,10 @@ DISABLE_FLOAT_API
 int
 detected_bandwidth
 ;
-int
-analysis_offset
-;
 #
 endif
 opus_uint32
 rangeFinal
-;
-int
-arch
 ;
 }
 ;
@@ -14711,6 +14708,10 @@ silk_enc
 silk_EncControlStruct
 dummy
 ;
+char
+*
+start
+;
 silk_enc
 =
 (
@@ -14738,8 +14739,6 @@ analysis
 ;
 #
 endif
-char
-*
 start
 =
 (

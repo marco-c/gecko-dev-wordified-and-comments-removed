@@ -220,6 +220,9 @@ DecControl
 int
 decode_gain
 ;
+int
+arch
+;
 #
 define
 OPUS_DECODER_RESET_START
@@ -258,9 +261,6 @@ softclip_mem
 endif
 opus_uint32
 rangeFinal
-;
-int
-arch
 ;
 }
 ;

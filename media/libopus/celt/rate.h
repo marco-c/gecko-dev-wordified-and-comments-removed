@@ -14,7 +14,7 @@ LOG_MAX_PSEUDO
 6
 #
 define
-MAX_PULSES
+CELT_MAX_PULSES
 128
 #
 define

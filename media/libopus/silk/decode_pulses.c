@@ -173,7 +173,7 @@ i
 ]
 =
 =
-MAX_PULSES
+SILK_MAX_PULSES
 +
 1
 )

@@ -110,6 +110,10 @@ MAY_HAVE_SSE4_1
 (
 celt_fir
 )
+MAY_HAVE_SSE4_1
+(
+celt_fir
+)
 }
 ;
 void
@@ -145,6 +149,10 @@ len
 xcorr_kernel_c
 xcorr_kernel_c
 xcorr_kernel_c
+MAY_HAVE_SSE4_1
+(
+xcorr_kernel
+)
 MAY_HAVE_SSE4_1
 (
 xcorr_kernel
@@ -226,6 +234,10 @@ MAY_HAVE_SSE4_1
 (
 celt_inner_prod
 )
+MAY_HAVE_SSE4_1
+(
+celt_inner_prod
+)
 }
 ;
 #
@@ -288,6 +300,10 @@ MAY_HAVE_SSE
 (
 xcorr_kernel
 )
+MAY_HAVE_SSE
+(
+xcorr_kernel
+)
 }
 ;
 opus_val32
@@ -316,6 +332,10 @@ N
 =
 {
 celt_inner_prod_c
+MAY_HAVE_SSE
+(
+celt_inner_prod
+)
 MAY_HAVE_SSE
 (
 celt_inner_prod
@@ -378,6 +398,10 @@ MAY_HAVE_SSE
 (
 dual_inner_prod
 )
+MAY_HAVE_SSE
+(
+dual_inner_prod
+)
 }
 ;
 void
@@ -412,6 +436,10 @@ g12
 =
 {
 comb_filter_const_c
+MAY_HAVE_SSE
+(
+comb_filter_const
+)
 MAY_HAVE_SSE
 (
 comb_filter_const
