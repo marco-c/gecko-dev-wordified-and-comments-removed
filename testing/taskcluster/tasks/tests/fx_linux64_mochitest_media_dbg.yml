@@ -25,3 +25,6 @@ download
 symbols
 =
 true
+timeout
+:
+5400
