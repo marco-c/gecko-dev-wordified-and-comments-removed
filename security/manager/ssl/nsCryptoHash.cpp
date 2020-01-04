@@ -1015,11 +1015,6 @@ aKeyObject
 >
 GetKeyObj
 (
-(
-void
-*
-*
-)
 &
 key
 )
