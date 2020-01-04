@@ -261,6 +261,11 @@ aRuleWalker
 Forward
 (
 rule
+-
+>
+GetDeclaration
+(
+)
 )
 ;
 }
@@ -313,6 +318,11 @@ aRuleWalker
 Forward
 (
 rule
+-
+>
+GetDeclaration
+(
+)
 )
 ;
 }
@@ -385,6 +395,11 @@ aRuleWalker
 Forward
 (
 rule
+-
+>
+GetDeclaration
+(
+)
 )
 ;
 }

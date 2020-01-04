@@ -2594,7 +2594,7 @@ rules
 .
 AppendObject
 (
-aKeyframe
+declaration
 )
 ;
 RefPtr
