@@ -811,6 +811,9 @@ SHARED_MEMORY_DEFAULT
 0
 #
 endif
+#
+ifdef
+SPIDERMONKEY_PROMISE
 using
 JobQueue
 =
@@ -822,6 +825,8 @@ JSObject
 SystemAllocPolicy
 >
 ;
+#
+endif
 struct
 ShellRuntime
 {
@@ -866,6 +871,9 @@ JS
 PersistentRootedValue
 lastWarning
 ;
+#
+ifdef
+SPIDERMONKEY_PROMISE
 JS
 :
 :
@@ -875,6 +883,8 @@ JobQueue
 >
 jobQueue
 ;
+#
+endif
 PRLock
 *
 watchdogLock
@@ -2966,6 +2976,9 @@ return
 ;
 }
 }
+#
+ifdef
+SPIDERMONKEY_PROMISE
 static
 bool
 ShellEnqueuePromiseJobCallback
@@ -3202,6 +3215,8 @@ return
 true
 ;
 }
+#
+endif
 static
 bool
 EvalAndPrint
@@ -3754,11 +3769,16 @@ stderr
 )
 ;
 }
+#
+ifdef
+SPIDERMONKEY_PROMISE
 DrainJobQueue
 (
 cx
 )
 ;
+#
+endif
 }
 while
 (
@@ -4587,6 +4607,9 @@ return
 true
 ;
 }
+#
+ifdef
+SPIDERMONKEY_PROMISE
 static
 bool
 AddPromiseReactions
@@ -4827,6 +4850,8 @@ onReject
 )
 ;
 }
+#
+endif
 static
 bool
 Options
@@ -16046,6 +16071,9 @@ input
 return
 ;
 }
+#
+ifdef
+SPIDERMONKEY_PROMISE
 sr
 -
 >
@@ -16071,6 +16099,8 @@ rt
 ShellEnqueuePromiseJobCallback
 )
 ;
+#
+endif
 JS
 :
 :
@@ -16216,6 +16246,9 @@ nullptr
 nullptr
 )
 ;
+#
+ifdef
+SPIDERMONKEY_PROMISE
 JS
 :
 :
@@ -16234,6 +16267,8 @@ reset
 (
 )
 ;
+#
+endif
 DestroyContext
 (
 cx
@@ -32142,6 +32177,9 @@ file
 .
 "
 )
+#
+ifdef
+SPIDERMONKEY_PROMISE
 JS_FN_HELP
 (
 "
@@ -32174,6 +32212,8 @@ arguments
 .
 "
 )
+#
+endif
 JS_FN_HELP
 (
 "
@@ -32916,6 +32956,9 @@ similar
 n
 "
 )
+#
+ifdef
+SPIDERMONKEY_PROMISE
 JS_FN_HELP
 (
 "
@@ -32959,6 +33002,8 @@ empty
 n
 "
 )
+#
+endif
 JS_FS_HELP_END
 }
 ;
@@ -39038,11 +39083,16 @@ sr
 exitCode
 ;
 }
+#
+ifdef
+SPIDERMONKEY_PROMISE
 DrainJobQueue
 (
 cx
 )
 ;
+#
+endif
 if
 (
 op
@@ -45141,6 +45191,9 @@ cx
 return
 1
 ;
+#
+ifdef
+SPIDERMONKEY_PROMISE
 sr
 -
 >
@@ -45166,6 +45219,8 @@ rt
 ShellEnqueuePromiseJobCallback
 )
 ;
+#
+endif
 JS_SetGCParameter
 (
 rt
@@ -45292,6 +45347,9 @@ nullptr
 nullptr
 )
 ;
+#
+ifdef
+SPIDERMONKEY_PROMISE
 JS
 :
 :
@@ -45310,6 +45368,8 @@ reset
 (
 )
 ;
+#
+endif
 DestroyContext
 (
 cx

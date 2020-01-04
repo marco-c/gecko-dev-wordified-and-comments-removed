@@ -197,9 +197,11 @@ proto
 {
 MOZ_ASSERT
 (
-IsCallable
-(
 executor
+-
+>
+isCallable
+(
 )
 )
 ;
