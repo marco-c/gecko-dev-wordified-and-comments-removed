@@ -647,6 +647,10 @@ sCaretsExtendedVisibility
 ;
 static
 bool
+sCaretsScriptUpdates
+;
+static
+bool
 sHapticFeedback
 ;
 }
