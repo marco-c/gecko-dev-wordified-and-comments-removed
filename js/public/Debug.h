@@ -722,7 +722,9 @@ JSFunction
 function
 HandleValue
 asyncStack
-HandleString
+const
+char
+*
 asyncCause
 )
 =
@@ -740,7 +742,9 @@ JSScript
 script
 HandleValue
 asyncStack
-HandleString
+const
+char
+*
 asyncCause
 )
 =

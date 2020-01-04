@@ -6766,7 +6766,7 @@ by
 the
 Responsive
 Design
-Mode
+View
 and
 B2G
 Simulator
@@ -6940,7 +6940,7 @@ in
 jsval
 asyncStack
 in
-jsval
+string
 asyncCause
 )
 ;
