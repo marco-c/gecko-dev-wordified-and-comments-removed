@@ -744,6 +744,10 @@ function
 (
 )
 {
+closeArgHints
+(
+this
+)
 if
 (
 this
