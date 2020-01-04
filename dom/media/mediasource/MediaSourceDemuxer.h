@@ -214,6 +214,17 @@ nsAString
 aString
 )
 ;
+void
+AddSizeOfResources
+(
+MediaSourceDecoder
+:
+:
+ResourceSizes
+*
+aSizes
+)
+;
 private
 :
 ~

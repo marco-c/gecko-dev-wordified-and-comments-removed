@@ -252,6 +252,15 @@ nsAString
 aString
 )
 ;
+void
+AddSizeOfResources
+(
+ResourceSizes
+*
+aSizes
+)
+override
+;
 private
 :
 void
