@@ -370,7 +370,14 @@ AUDIO_STREAM_CNT
 15
 15
 15
+#
+if
+ANDROID_VERSION
+<
+19
 15
+#
+endif
 }
 ;
 static
@@ -4029,6 +4036,11 @@ SWITCH_HEADPHONES
 )
 )
 ;
+#
+if
+ANDROID_VERSION
+<
+19
 if
 (
 aFmRadioAudioEnabled
@@ -4056,6 +4068,8 @@ AUDIO_STREAM_FM
 volIndex
 ;
 }
+#
+endif
 return
 NS_OK
 ;
@@ -4125,6 +4139,11 @@ aCategory
 case
 VOLUME_MEDIA
 :
+#
+if
+ANDROID_VERSION
+<
+19
 if
 (
 IsDeviceOn
@@ -4157,6 +4176,8 @@ status
 ;
 }
 }
+#
+endif
 status
 =
 SetStreamVolumeIndex
@@ -5007,6 +5028,11 @@ NS_OK
 ;
 #
 else
+#
+if
+ANDROID_VERSION
+<
+19
 if
 (
 aStream
@@ -5041,6 +5067,8 @@ NS_ERROR_FAILURE
 NS_OK
 ;
 }
+#
+endif
 if
 (
 mPresentProfile
