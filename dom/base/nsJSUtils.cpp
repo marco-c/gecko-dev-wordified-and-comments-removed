@@ -1847,10 +1847,10 @@ JSContext
 *
 cx
 =
-nsContentUtils
+danger
 :
 :
-RootingCx
+GetJSContext
 (
 )
 ;
