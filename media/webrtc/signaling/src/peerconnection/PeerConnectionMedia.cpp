@@ -4089,7 +4089,7 @@ ice
 .
 default_address_only
 "
-false
+true
 )
 ;
 #
@@ -4097,7 +4097,7 @@ else
 bool
 default_address_only
 =
-false
+true
 ;
 #
 endif
