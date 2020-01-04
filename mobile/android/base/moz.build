@@ -2760,11 +2760,6 @@ JavaAddonManagerV1
 java
 '
 '
-LayoutInterceptor
-.
-java
-'
-'
 LocaleManager
 .
 java

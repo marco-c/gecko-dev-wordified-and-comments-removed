@@ -10779,13 +10779,6 @@ ViewGroup
 FOCUS_BLOCK_DESCENDANTS
 )
 ;
-mBrowserToolbar
-.
-setContextMenuEnabled
-(
-true
-)
-;
 }
 else
 {
