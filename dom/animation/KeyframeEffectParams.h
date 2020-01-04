@@ -21,6 +21,9 @@ h
 namespace
 mozilla
 {
+class
+ErrorResult
+;
 enum
 class
 SpacingMode
