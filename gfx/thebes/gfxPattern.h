@@ -279,12 +279,6 @@ GraphicsExtend
 extend
 )
 ;
-GraphicsExtend
-Extend
-(
-)
-const
-;
 int
 CairoStatus
 (
