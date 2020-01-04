@@ -515,9 +515,15 @@ void
 SetDeviceColor
 (
 const
-gfxRGBA
+mozilla
+:
+:
+gfx
+:
+:
+Color
 &
-c
+aColor
 )
 ;
 bool
