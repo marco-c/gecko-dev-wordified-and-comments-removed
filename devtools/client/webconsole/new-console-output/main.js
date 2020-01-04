@@ -142,7 +142,7 @@ NewConsoleOutput
 function
 (
 parentNode
-store
+jsterm
 )
 {
 console
@@ -162,7 +162,7 @@ new
 OutputWrapperThingy
 (
 parentNode
-store
+jsterm
 )
 ;
 }

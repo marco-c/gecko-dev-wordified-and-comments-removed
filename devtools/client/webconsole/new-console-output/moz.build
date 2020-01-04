@@ -118,6 +118,15 @@ chrome
 .
 ini
 '
+'
+test
+/
+utils
+/
+chrome
+.
+ini
+'
 ]
 XPCSHELL_TESTS_MANIFESTS
 +

@@ -94,4 +94,13 @@ repeat
 .
 js
 '
+'
+variables
+-
+view
+-
+link
+.
+js
+'
 )
