@@ -2030,9 +2030,6 @@ PluginWindowData
 mCachedPluginData
 ;
 bool
-mPluginUpdateResponsePending
-;
-bool
 mDeferPluginWindows
 ;
 bool
