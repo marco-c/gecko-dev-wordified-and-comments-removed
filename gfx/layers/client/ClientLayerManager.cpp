@@ -2177,13 +2177,13 @@ GetRemoteRenderer
 )
 )
 {
-IntRect
+LayoutDeviceIntRect
 outerBounds
 ;
 mWidget
 -
 >
-GetBoundsUntyped
+GetBounds
 (
 outerBounds
 )
@@ -2212,6 +2212,10 @@ RotateRect
 (
 bounds
 outerBounds
+.
+ToUnknownRect
+(
+)
 mTargetRotation
 )
 ;
@@ -2319,6 +2323,10 @@ rotate
 ComputeTransformForUnRotation
 (
 outerBounds
+.
+ToUnknownRect
+(
+)
 mTargetRotation
 )
 ;

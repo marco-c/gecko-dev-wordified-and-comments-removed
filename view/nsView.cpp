@@ -3404,13 +3404,13 @@ AppUnitsPerDevPixel
 (
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 rect
 ;
 mWindow
 -
 >
-GetClientBoundsUntyped
+GetClientBounds
 (
 rect
 )
@@ -3418,6 +3418,9 @@ rect
 nsRect
 windowBounds
 =
+LayoutDeviceIntRect
+:
+:
 ToAppUnits
 (
 rect
@@ -3427,7 +3430,7 @@ p2a
 mWindow
 -
 >
-GetBoundsUntyped
+GetBounds
 (
 rect
 )
@@ -3435,6 +3438,9 @@ rect
 nsRect
 nonclientBounds
 =
+LayoutDeviceIntRect
+:
+:
 ToAppUnits
 (
 rect

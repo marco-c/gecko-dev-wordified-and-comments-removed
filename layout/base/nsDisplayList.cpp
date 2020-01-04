@@ -6864,10 +6864,6 @@ mWindowDraggingRegion
 OrWith
 (
 transformedDevPixelBorderBoxInt
-.
-ToUnknownRect
-(
-)
 )
 ;
 }
@@ -6878,10 +6874,6 @@ mWindowDraggingRegion
 SubOut
 (
 transformedDevPixelBorderBoxInt
-.
-ToUnknownRect
-(
-)
 )
 ;
 }

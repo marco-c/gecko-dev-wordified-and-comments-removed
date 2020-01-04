@@ -46,6 +46,7 @@ MovingDownToChildren
 TransformNotAvailable
 LayoutDeviceIsScreenForUntransformedEvent
 LayoutDeviceIsScreenForTabDims
+LayoutDeviceIsParentLayerForRCDRSF
 }
 ;
 template
