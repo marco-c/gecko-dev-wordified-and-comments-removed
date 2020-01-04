@@ -5794,22 +5794,25 @@ try
                 
 self
 .
+websocketProcessBridge
+.
+kill
+(
+)
+                
+self
+.
 log
 .
 info
 (
 '
 Stopping
-websocketProcessBridge
+websocket
+/
+process
+bridge
 '
-)
-                
-self
-.
-websocketProcessBridge
-.
-kill
-(
 )
             
 except
@@ -5825,7 +5828,10 @@ critical
 '
 Exception
 stopping
-websocketProcessBridge
+websocket
+/
+process
+bridge
 '
 )
     
