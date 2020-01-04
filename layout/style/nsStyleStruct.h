@@ -7525,6 +7525,12 @@ mTextDecorationLine
 uint8_t
 mUnicodeBidi
 ;
+nscoord
+mInitialLetterSink
+;
+float
+mInitialLetterSize
+;
 protected
 :
 uint8_t
