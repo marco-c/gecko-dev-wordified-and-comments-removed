@@ -771,7 +771,7 @@ mSearchHistorySuggestionIcon
 =
 DrawableUtil
 .
-tintDrawable
+tintDrawableWithColorRes
 (
 getContext
 (
