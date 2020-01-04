@@ -2251,11 +2251,10 @@ detail
 }
 ;
 for
-each
 (
 let
 property
-in
+of
 this
 .
 _copyProperties
