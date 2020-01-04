@@ -424,9 +424,6 @@ gcreason
 :
 Reason
 aReason
-JSObject
-*
-aObj
 int
 aDelay
 =
