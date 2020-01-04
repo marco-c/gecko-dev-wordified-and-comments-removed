@@ -77,9 +77,6 @@ rst
 multil10n
 .
 rst
-sourcetool
-.
-rst
 spidermonkey_build
 .
 rst

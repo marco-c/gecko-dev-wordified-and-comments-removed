@@ -37,11 +37,6 @@ VCS_TOOLS
 =
 (
 '
-hgtool
-.
-py
-'
-'
 gittool
 .
 py
@@ -63,10 +58,6 @@ allows
 us
 to
 fetch
-hgtool
-.
-py
-and
 gittool
 .
 py
