@@ -119,12 +119,6 @@ HasAudio
 const
 ;
 bool
-HasVideo
-(
-)
-const
-;
-bool
 IsVideoDecoding
 (
 )
@@ -234,10 +228,6 @@ mCurrentTimeBeforeSeek
 const
 bool
 mHasAudio
-;
-const
-bool
-mHasVideo
 ;
 media
 :
