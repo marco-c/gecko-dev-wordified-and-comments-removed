@@ -2759,7 +2759,7 @@ GetPseudoType
 animation
 -
 >
-SetTimeline
+SetTimelineNoUpdate
 (
 mTimeline
 )

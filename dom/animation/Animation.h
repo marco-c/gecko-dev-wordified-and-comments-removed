@@ -659,6 +659,14 @@ CancelNoUpdate
 )
 ;
 }
+void
+SetTimelineNoUpdate
+(
+AnimationTimeline
+*
+aTimeline
+)
+;
 virtual
 void
 Tick
