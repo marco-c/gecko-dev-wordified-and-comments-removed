@@ -2968,6 +2968,13 @@ mLoadFlags
 &
 LOAD_ANONYMOUS
 ;
+mOriginAttributes
+.
+SyncAttributesWithPrivateBrowsing
+(
+mPrivateBrowsing
+)
+;
 RefPtr
 <
 LoadContextInfo
@@ -2982,7 +2989,6 @@ net
 :
 GetLoadContextInfo
 (
-mPrivateBrowsing
 anonymous
 mOriginAttributes
 )
