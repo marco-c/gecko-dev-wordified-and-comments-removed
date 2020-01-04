@@ -206,6 +206,10 @@ const
 nsAString
 &
 aOrigin
+const
+nsAString
+&
+aDeviceId
 nsIPresentationServiceCallback
 *
 aCallback
@@ -228,6 +232,10 @@ aSessionId
 nsAutoString
 (
 aOrigin
+)
+nsAutoString
+(
+aDeviceId
 )
 )
 )

@@ -140,6 +140,9 @@ sessionId
 nsString
 origin
 ;
+nsString
+deviceId
+;
 }
 ;
 struct
