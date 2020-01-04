@@ -178,9 +178,6 @@ sctp_unittest
 '
 ]
 )
-FAIL_ON_WARNINGS
-=
-True
 for
 var
 in

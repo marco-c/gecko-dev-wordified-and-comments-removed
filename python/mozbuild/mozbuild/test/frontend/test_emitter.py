@@ -997,6 +997,12 @@ wanted
 {
             
 '
+ALLOW_COMPILER_WARNINGS
+'
+:
+True
+            
+'
 DISABLE_STL_WRAPPING
 '
 :
@@ -1044,12 +1050,6 @@ pp
 js
 '
 ]
-            
-'
-FAIL_ON_WARNINGS
-'
-:
-True
             
 '
 NO_DIST_INSTALL

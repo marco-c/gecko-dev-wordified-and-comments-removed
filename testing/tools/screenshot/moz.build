@@ -212,6 +212,3 @@ OS_LIBS
 gdiplus
 '
 ]
-FAIL_ON_WARNINGS
-=
-True

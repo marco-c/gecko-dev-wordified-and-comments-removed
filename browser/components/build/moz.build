@@ -172,9 +172,6 @@ OS_LIBS
 =
 [
 '
-esent
-'
-'
 ole32
 '
 '
@@ -185,16 +182,6 @@ shlwapi
 '
 '
 version
-'
-]
-DELAYLOAD_DLLS
-+
-=
-[
-'
-esent
-.
-dll
 '
 ]
 #
@@ -254,6 +241,3 @@ CONFIG
 TK_LIBS
 '
 ]
-FAIL_ON_WARNINGS
-=
-True

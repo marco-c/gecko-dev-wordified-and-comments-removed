@@ -191,9 +191,6 @@ lib
 FORCE_STATIC_LIB
 =
 True
-FAIL_ON_WARNINGS
-=
-True
 DIST_INSTALL
 =
 True

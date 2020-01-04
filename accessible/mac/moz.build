@@ -254,6 +254,3 @@ config
 mozbuild
 '
 )
-FAIL_ON_WARNINGS
-=
-True

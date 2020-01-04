@@ -250,6 +250,3 @@ LDFLAGS
 pie
 '
 ]
-FAIL_ON_WARNINGS
-=
-True

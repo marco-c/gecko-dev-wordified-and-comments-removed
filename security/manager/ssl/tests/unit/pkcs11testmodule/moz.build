@@ -139,6 +139,3 @@ True
 DIST_INSTALL
 =
 False
-FAIL_ON_WARNINGS
-=
-True

@@ -484,7 +484,6 @@ MOZ_GLUE_WRAP_LDFLAGS
 '
 ]
 if
-not
 CONFIG
 [
 '
@@ -492,7 +491,7 @@ _MSC_VER
 '
 ]
 :
-FAIL_ON_WARNINGS
+ALLOW_COMPILER_WARNINGS
 =
 True
 if

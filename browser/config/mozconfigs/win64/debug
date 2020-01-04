@@ -166,10 +166,10 @@ Treat
 warnings
 as
 errors
-in
-directories
-with
-FAIL_ON_WARNINGS
+(
+modulo
+ALLOW_COMPILER_WARNINGS
+)
 .
 ac_add_options
 -

@@ -277,9 +277,6 @@ txEXSLTRegExFunctions
 manifest
 '
 ]
-FAIL_ON_WARNINGS
-=
-True
 #
 For
 nsAutoJSString

@@ -6370,6 +6370,9 @@ SkBlitRow_opts_SSE4_asm
 S
 '
 ]
+ALLOW_COMPILER_WARNINGS
+=
+True
 FINAL_LIBRARY
 =
 '

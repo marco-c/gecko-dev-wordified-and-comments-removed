@@ -572,3 +572,6 @@ src
 include
 '
 ]
+ALLOW_COMPILER_WARNINGS
+=
+True

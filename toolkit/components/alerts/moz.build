@@ -165,9 +165,6 @@ jar
 mn
 '
 ]
-FAIL_ON_WARNINGS
-=
-True
 with
 Files
 (

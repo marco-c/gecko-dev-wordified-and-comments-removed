@@ -399,13 +399,6 @@ cpp
 '
 bluez
 /
-BluetoothAvrcpManager
-.
-cpp
-'
-'
-bluez
-/
 BluetoothDBusService
 .
 cpp
@@ -471,13 +464,6 @@ SOURCES
 bluedroid
 /
 BluetoothA2dpManager
-.
-cpp
-'
-'
-bluedroid
-/
-BluetoothAvrcpManager
 .
 cpp
 '
@@ -945,9 +931,6 @@ PBluetoothRequest
 ipdl
 '
 ]
-FAIL_ON_WARNINGS
-=
-True
 LOCAL_INCLUDES
 +
 =

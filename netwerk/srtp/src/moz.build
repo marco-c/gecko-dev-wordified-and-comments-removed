@@ -611,6 +611,3 @@ std
 gnu99
 '
 ]
-FAIL_ON_WARNINGS
-=
-True

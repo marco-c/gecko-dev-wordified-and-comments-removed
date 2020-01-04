@@ -113,9 +113,6 @@ nsPrintProgressParams
 cpp
 '
 ]
-FAIL_ON_WARNINGS
-=
-True
 FINAL_LIBRARY
 =
 '

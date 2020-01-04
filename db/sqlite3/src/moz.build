@@ -106,6 +106,9 @@ sqlite3
 h
 '
 ]
+ALLOW_COMPILER_WARNINGS
+=
+True
 if
 CONFIG
 [

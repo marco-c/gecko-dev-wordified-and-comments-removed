@@ -192,9 +192,6 @@ template
 instantiation
 request
 ]
-FAIL_ON_WARNINGS
-=
-True
 include
 (
 '

@@ -94,9 +94,6 @@ pp
 js
 '
 ]
-FAIL_ON_WARNINGS
-=
-True
 NO_VISIBILITY_FLAGS
 =
 True
@@ -204,5 +201,8 @@ console
 '
 ]
 DISABLE_STL_WRAPPING
+=
+True
+ALLOW_COMPILER_WARNINGS
 =
 True

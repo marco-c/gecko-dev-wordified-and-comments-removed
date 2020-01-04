@@ -420,6 +420,3 @@ crashreporter
 mozbuild
 '
 )
-FAIL_ON_WARNINGS
-=
-True

@@ -249,7 +249,6 @@ base
 '
 ]
 if
-not
 CONFIG
 [
 '
@@ -257,6 +256,6 @@ CLANG_CXX
 '
 ]
 :
-FAIL_ON_WARNINGS
+ALLOW_COMPILER_WARNINGS
 =
 True

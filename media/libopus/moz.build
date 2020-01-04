@@ -148,6 +148,9 @@ opus_types
 h
 '
 ]
+ALLOW_COMPILER_WARNINGS
+=
+True
 FINAL_LIBRARY
 =
 '

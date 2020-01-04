@@ -107,9 +107,6 @@ browser
 ini
 '
 ]
-FAIL_ON_WARNINGS
-=
-True
 XPIDL_MODULE
 =
 '

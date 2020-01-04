@@ -160,6 +160,3 @@ WIN32_EXE_LDFLAGS
 municode
 '
 ]
-FAIL_ON_WARNINGS
-=
-True

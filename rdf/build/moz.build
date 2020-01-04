@@ -135,6 +135,3 @@ rdf
 datasource
 '
 ]
-FAIL_ON_WARNINGS
-=
-True

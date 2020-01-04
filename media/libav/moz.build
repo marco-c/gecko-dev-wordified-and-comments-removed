@@ -499,6 +499,9 @@ avfft_perms
 h
 '
 ]
+ALLOW_COMPILER_WARNINGS
+=
+True
 include
 (
 "

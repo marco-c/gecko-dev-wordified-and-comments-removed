@@ -3375,6 +3375,10 @@ varlist
 [
             
 '
+ALLOW_COMPILER_WARNINGS
+'
+            
+'
 ANDROID_APK_NAME
 '
             
@@ -3400,10 +3404,6 @@ EXTRA_DSO_LDOPTS
             
 '
 EXTRA_PP_COMPONENTS
-'
-            
-'
-FAIL_ON_WARNINGS
 '
             
 '

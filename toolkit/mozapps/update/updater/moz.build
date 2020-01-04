@@ -131,9 +131,6 @@ updater
 xpcshell
 '
 ]
-FAIL_ON_WARNINGS
-=
-True
 CXXFLAGS
 +
 =

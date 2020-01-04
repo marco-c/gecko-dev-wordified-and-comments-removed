@@ -954,9 +954,6 @@ PHal
 ipdl
 '
 ]
-FAIL_ON_WARNINGS
-=
-True
 include
 (
 '

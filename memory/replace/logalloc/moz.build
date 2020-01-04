@@ -284,3 +284,14 @@ DIRS
 replay
 '
 ]
+#
+XXX
+:
+We
+should
+fix
+these
+warnings
+ALLOW_COMPILER_WARNINGS
+=
+True

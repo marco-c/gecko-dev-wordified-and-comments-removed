@@ -257,13 +257,15 @@ DISABLE_STL_WRAPPING
 =
 True
 if
+not
 CONFIG
 [
 '
 CLANG_CXX
 '
 ]
-or
+and
+not
 CONFIG
 [
 '
@@ -271,7 +273,7 @@ _MSC_VER
 '
 ]
 :
-FAIL_ON_WARNINGS
+ALLOW_COMPILER_WARNINGS
 =
 True
 DEFINES

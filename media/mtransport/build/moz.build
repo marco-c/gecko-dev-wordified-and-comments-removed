@@ -272,9 +272,6 @@ SOURCES
 +
 =
 mtransport_cppsrcs
-FAIL_ON_WARNINGS
-=
-True
 if
 CONFIG
 [

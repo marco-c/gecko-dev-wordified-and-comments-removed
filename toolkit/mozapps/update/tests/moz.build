@@ -347,3 +347,14 @@ WIN32_EXE_LDFLAGS
 municode
 '
 ]
+#
+XXX
+:
+We
+should
+fix
+these
+warnings
+ALLOW_COMPILER_WARNINGS
+=
+True

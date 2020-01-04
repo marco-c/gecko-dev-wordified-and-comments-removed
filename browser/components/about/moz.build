@@ -133,6 +133,3 @@ LOCAL_INCLUDES
 build
 '
 ]
-FAIL_ON_WARNINGS
-=
-True

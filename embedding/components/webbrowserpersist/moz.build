@@ -215,9 +215,6 @@ WebBrowserPersistLocalDocument
 h
 '
 ]
-FAIL_ON_WARNINGS
-=
-True
 include
 (
 '

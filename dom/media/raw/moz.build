@@ -128,9 +128,6 @@ RawReader
 cpp
 '
 ]
-FAIL_ON_WARNINGS
-=
-True
 LOCAL_INCLUDES
 +
 =

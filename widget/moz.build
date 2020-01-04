@@ -1161,9 +1161,6 @@ MOZ_CROSS_PROCESS_IME
 ]
 =
 True
-FAIL_ON_WARNINGS
-=
-True
 include
 (
 '

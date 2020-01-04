@@ -201,3 +201,15 @@ True
 NO_VISIBILITY_FLAGS
 =
 True
+#
+XXX
+:
+We
+should
+fix
+these
+warnings
+.
+ALLOW_COMPILER_WARNINGS
+=
+True

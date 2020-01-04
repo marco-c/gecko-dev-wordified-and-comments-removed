@@ -139,9 +139,6 @@ LOCAL_INCLUDES
 include
 '
 ]
-FAIL_ON_WARNINGS
-=
-True
 if
 CONFIG
 [

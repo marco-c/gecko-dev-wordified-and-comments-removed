@@ -756,6 +756,3 @@ TabSources
 js
 '
 ]
-FAIL_ON_WARNINGS
-=
-True

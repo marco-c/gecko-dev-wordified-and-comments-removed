@@ -198,6 +198,7 @@ limits
 '
 ]
 if
+not
 CONFIG
 [
 '
@@ -205,6 +206,6 @@ GNU_CXX
 '
 ]
 :
-FAIL_ON_WARNINGS
+ALLOW_COMPILER_WARNINGS
 =
 True

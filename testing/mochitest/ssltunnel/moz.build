@@ -145,6 +145,3 @@ wrappers
 DISABLE_STL_WRAPPING
 =
 True
-FAIL_ON_WARNINGS
-=
-True

@@ -210,6 +210,3 @@ dll
 interface
 class
 ]
-FAIL_ON_WARNINGS
-=
-True
