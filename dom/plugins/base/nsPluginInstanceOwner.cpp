@@ -1489,6 +1489,11 @@ nsPluginInstanceOwner
 nsPluginInstanceOwner
 (
 )
+:
+mPluginWindow
+(
+nullptr
+)
 {
 nsCOMPtr
 <
@@ -1528,11 +1533,6 @@ NewPluginNativeWindow
 &
 mPluginWindow
 )
-;
-else
-mPluginWindow
-=
-nullptr
 ;
 mPluginFrame
 =
