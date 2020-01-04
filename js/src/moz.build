@@ -1302,6 +1302,13 @@ cpp
 '
 asmjs
 /
+WasmCode
+.
+cpp
+'
+'
+asmjs
+/
 WasmFrameIterator
 .
 cpp
