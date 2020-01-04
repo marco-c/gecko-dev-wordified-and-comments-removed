@@ -1853,7 +1853,7 @@ CreateRectangleGeometry
 (
 &
 aRect
-byRef
+getter_AddRefs
 (
 rectGeom
 )
@@ -1897,7 +1897,7 @@ D2DFactory
 >
 CreatePathGeometry
 (
-byRef
+getter_AddRefs
 (
 tmpGeometry
 )
@@ -1914,7 +1914,7 @@ tmpGeometry
 >
 Open
 (
-byRef
+getter_AddRefs
 (
 currentSink
 )
@@ -1974,7 +1974,7 @@ D2DFactory
 >
 CreatePathGeometry
 (
-byRef
+getter_AddRefs
 (
 pathGeom
 )
@@ -1991,7 +1991,7 @@ pathGeom
 >
 Open
 (
-byRef
+getter_AddRefs
 (
 sink
 )
@@ -2271,7 +2271,7 @@ dash
 size
 (
 )
-byRef
+getter_AddRefs
 (
 style
 )
@@ -2304,7 +2304,7 @@ mMiterLimit
 )
 nullptr
 0
-byRef
+getter_AddRefs
 (
 style
 )
@@ -2755,7 +2755,7 @@ GetFormat
 )
 )
 )
-byRef
+getter_AddRefs
 (
 bitmap
 )
@@ -3095,7 +3095,7 @@ GetFormat
 )
 )
 )
-byRef
+getter_AddRefs
 (
 bitmap
 )
