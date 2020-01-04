@@ -108,7 +108,7 @@ const
 mWebGL
 ;
 const
-GLint
+uint32_t
 mElemCount
 ;
 const
