@@ -8691,6 +8691,17 @@ return
 ;
 if
 (
+comp
+-
+>
+collectCoverageForDebug
+(
+)
+)
+return
+;
+if
+(
 !
 u
 .
