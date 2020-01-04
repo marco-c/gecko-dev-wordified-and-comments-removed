@@ -286,6 +286,15 @@ aDevice
 )
 ;
 nsresult
+SetVolumeIndexToConsistentDeviceIfNeeded
+(
+uint32_t
+aIndex
+uint32_t
+aDevice
+)
+;
+nsresult
 SetVolumeIndex
 (
 uint32_t
