@@ -156,15 +156,6 @@ Now
 )
 )
 ;
-void
-SetHistogramRecordingEnabled
-(
-ID
-id
-bool
-enabled
-)
-;
 base
 :
 :
