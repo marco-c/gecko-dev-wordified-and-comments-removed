@@ -19,6 +19,13 @@ arm_neon
 .
 h
 >
+using
+namespace
+mozilla
+:
+:
+gfx
+;
 void
 ComputesRGBLuminanceMask_NEON
 (
