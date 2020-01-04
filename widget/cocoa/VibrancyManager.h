@@ -118,7 +118,7 @@ UpdateVibrantRegion
 VibrancyType
 aType
 const
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aRegion
 )
@@ -154,7 +154,7 @@ SystemSupportsVibrancy
 struct
 VibrantRegion
 {
-nsIntRegion
+LayoutDeviceIntRegion
 region
 ;
 nsTArray

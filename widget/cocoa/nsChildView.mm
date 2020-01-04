@@ -13462,15 +13462,9 @@ aThemeGeometryType
 )
 {
 return
-LayoutDeviceIntRect
-:
-:
-FromUnknownRect
-(
 g
 .
 mRect
-)
 ;
 }
 }
@@ -13736,7 +13730,7 @@ nil
 ;
 }
 static
-nsIntRegion
+LayoutDeviceIntRegion
 GatherThemeGeometryRegion
 (
 const
@@ -13756,7 +13750,7 @@ ThemeGeometryType
 aThemeGeometryType
 )
 {
-nsIntRegion
+LayoutDeviceIntRegion
 region
 ;
 for
@@ -14012,7 +14006,7 @@ SystemSupportsVibrancy
 return
 ;
 }
-nsIntRegion
+LayoutDeviceIntRegion
 sheetRegion
 =
 GatherThemeGeometryRegion
@@ -14024,7 +14018,7 @@ nsNativeThemeCocoa
 eThemeGeometryTypeSheet
 )
 ;
-nsIntRegion
+LayoutDeviceIntRegion
 vibrantLightRegion
 =
 GatherThemeGeometryRegion
@@ -14036,7 +14030,7 @@ nsNativeThemeCocoa
 eThemeGeometryTypeVibrancyLight
 )
 ;
-nsIntRegion
+LayoutDeviceIntRegion
 vibrantDarkRegion
 =
 GatherThemeGeometryRegion
@@ -14048,7 +14042,7 @@ nsNativeThemeCocoa
 eThemeGeometryTypeVibrancyDark
 )
 ;
-nsIntRegion
+LayoutDeviceIntRegion
 menuRegion
 =
 GatherThemeGeometryRegion
@@ -14060,7 +14054,7 @@ nsNativeThemeCocoa
 eThemeGeometryTypeMenu
 )
 ;
-nsIntRegion
+LayoutDeviceIntRegion
 tooltipRegion
 =
 GatherThemeGeometryRegion
@@ -14072,7 +14066,7 @@ nsNativeThemeCocoa
 eThemeGeometryTypeTooltip
 )
 ;
-nsIntRegion
+LayoutDeviceIntRegion
 highlightedMenuItemRegion
 =
 GatherThemeGeometryRegion

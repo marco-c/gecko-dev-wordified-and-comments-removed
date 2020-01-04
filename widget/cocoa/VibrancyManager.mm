@@ -150,7 +150,7 @@ UpdateVibrantRegion
 VibrancyType
 aType
 const
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aRegion
 )
@@ -260,14 +260,17 @@ is
 now
 empty
 .
-nsIntRegionRectIterator
+LayoutDeviceIntRegion
+:
+:
+RectIterator
 iter
 (
 aRegion
 )
 ;
 const
-nsIntRect
+LayoutDeviceIntRect
 *
 iterRect
 =
@@ -320,7 +323,7 @@ rect
 =
 mCoordinateConverter
 .
-UntypedDevPixelsToCocoaPoints
+DevPixelsToCocoaPoints
 (
 *
 iterRect
@@ -551,7 +554,10 @@ clearColor
 set
 ]
 ;
-nsIntRegionRectIterator
+LayoutDeviceIntRegion
+:
+:
+RectIterator
 iter
 (
 aVibrantRegion
@@ -562,7 +568,7 @@ region
 while
 (
 const
-nsIntRect
+LayoutDeviceIntRect
 *
 rect
 =
@@ -577,7 +583,7 @@ NSRectFill
 (
 mCoordinateConverter
 .
-UntypedDevPixelsToCocoaPoints
+DevPixelsToCocoaPoints
 (
 *
 rect

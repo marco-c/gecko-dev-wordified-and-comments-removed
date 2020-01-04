@@ -1027,7 +1027,7 @@ nsITheme
 ThemeGeometryType
 mType
 ;
-nsIntRect
+LayoutDeviceIntRect
 mRect
 ;
 ThemeGeometry
@@ -1038,7 +1038,7 @@ nsITheme
 ThemeGeometryType
 aType
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 )

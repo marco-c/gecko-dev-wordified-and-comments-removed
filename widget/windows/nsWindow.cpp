@@ -14456,7 +14456,7 @@ nsNativeThemeWin
 eThemeGeometryTypeWindowButtons
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 bounds
 =
 aThemeGeometries
