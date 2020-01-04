@@ -173,7 +173,7 @@ cli_update
     
 }
     
-tests_root
+fxui_dir
 =
 os
 .
@@ -189,9 +189,6 @@ testing
 firefox
 -
 ui
-'
-'
-tests
 '
 )
     
@@ -218,7 +215,7 @@ path
 .
 join
 (
-tests_root
+fxui_dir
 '
 resources
 '
@@ -250,7 +247,10 @@ path
 .
 join
 (
-tests_root
+fxui_dir
+'
+tests
+'
 test
 )
                            
