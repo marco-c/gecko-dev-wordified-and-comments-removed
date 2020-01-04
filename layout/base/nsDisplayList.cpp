@@ -27705,6 +27705,9 @@ mFrame
 Combines3DTransformWithAncestors
 (
 )
+|
+|
+mIsTransformSeparator
 )
 {
 return
@@ -28539,6 +28542,10 @@ mFrame
 Extend3DContext
 (
 )
+&
+&
+!
+mIsTransformSeparator
 )
 {
 return
