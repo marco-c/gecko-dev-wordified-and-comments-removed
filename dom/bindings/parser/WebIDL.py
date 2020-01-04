@@ -7837,6 +7837,13 @@ self
 .
 isExposedConditionally
 (
+exclusions
+=
+[
+"
+SecureContext
+"
+]
 )
 and
             
@@ -9290,17 +9297,30 @@ def
 isExposedConditionally
 (
 self
+exclusions
+=
+[
+]
 )
 :
         
 return
 any
 (
+(
+(
+not
+a
+in
+exclusions
+)
+and
 self
 .
 getExtendedAttribute
 (
 a
+)
 )
 for
 a
