@@ -4862,7 +4862,7 @@ ensureBallast
 )
 )
 return
-nullptr
+false
 ;
 MDefinition
 *
