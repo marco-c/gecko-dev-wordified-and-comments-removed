@@ -15434,7 +15434,7 @@ true
 ;
 #
 ifndef
-DEBUG
+NS_FREE_PERMANENT_DATA
 if
 (
 PR_GetEnv

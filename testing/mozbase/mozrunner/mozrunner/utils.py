@@ -1450,17 +1450,6 @@ join
 (
 lsanOptions
 )
-                
-env
-[
-'
-MOZ_CC_RUN_DURING_SHUTDOWN
-'
-]
-=
-'
-1
-'
             
 if
 len
