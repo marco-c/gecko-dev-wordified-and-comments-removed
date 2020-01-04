@@ -585,10 +585,8 @@ screen
 if
 (
 widget
-)
-{
-if
-(
+&
+&
 widget
 -
 >
@@ -616,7 +614,6 @@ screen
 )
 )
 ;
-}
 }
 else
 {
