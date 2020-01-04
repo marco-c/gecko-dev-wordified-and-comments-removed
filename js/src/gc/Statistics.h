@@ -312,7 +312,7 @@ endSlice
 (
 )
 ;
-void
+bool
 startTimingMutator
 (
 )
