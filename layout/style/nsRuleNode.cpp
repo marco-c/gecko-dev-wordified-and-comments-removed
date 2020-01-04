@@ -23526,8 +23526,10 @@ return
 numTransitions
 ;
 }
-static
 void
+nsRuleNode
+:
+:
 ComputeTimingFunction
 (
 const
