@@ -2346,8 +2346,6 @@ do_AddRef
 (
 T
 *
-&
-&
 aObj
 )
 {

@@ -755,10 +755,7 @@ UpdateUserFonts
 return
 do_AddRef
 (
-Move
-(
 fm
-)
 )
 ;
 }
