@@ -1266,14 +1266,6 @@ ProcessInvalidationList
 )
 ;
 void
-UpdateTreeOnInsertion
-(
-Accessible
-*
-aContainer
-)
-;
-void
 UpdateTreeOnRemoval
 (
 Accessible
