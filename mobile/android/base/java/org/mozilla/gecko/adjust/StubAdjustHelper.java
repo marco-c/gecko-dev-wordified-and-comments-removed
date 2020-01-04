@@ -57,6 +57,9 @@ public
 void
 onResume
 (
+final
+Context
+context
 )
 {
 }
@@ -64,6 +67,9 @@ public
 void
 onPause
 (
+final
+Context
+context
 )
 {
 }
