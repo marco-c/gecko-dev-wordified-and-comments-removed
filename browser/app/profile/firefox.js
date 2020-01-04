@@ -12656,9 +12656,6 @@ minHeight
 190
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -12673,8 +12670,6 @@ enabled
 true
 )
 ;
-#
-endif
 pref
 (
 "
