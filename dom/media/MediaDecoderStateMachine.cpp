@@ -11369,6 +11369,10 @@ UpdatePlaybackPosition
 clockTime
 )
 ;
+UpdateNextFrameStatus
+(
+)
+;
 nsCOMPtr
 <
 nsIRunnable
