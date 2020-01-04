@@ -49,6 +49,10 @@ f
 "
 GAIA_TESTVARS
 "
+mkdir
+-
+p
+data
 cp
 GAIA_TESTVARS
 data
