@@ -509,7 +509,9 @@ contentType
 :
 loop
 .
-store
+shared
+.
+utils
 .
 CHAT_CONTENT_TYPES
 .
@@ -1617,7 +1619,9 @@ contentType
 :
 loop
 .
-store
+shared
+.
+utils
 .
 CHAT_CONTENT_TYPES
 .
@@ -1661,7 +1665,9 @@ contentType
 :
 loop
 .
-store
+shared
+.
+utils
 .
 CHAT_CONTENT_TYPES
 .
@@ -1704,7 +1710,9 @@ contentType
 :
 loop
 .
-store
+shared
+.
+utils
 .
 CHAT_CONTENT_TYPES
 .
@@ -1751,7 +1759,9 @@ contentType
 :
 loop
 .
-store
+shared
+.
+utils
 .
 CHAT_CONTENT_TYPES
 .
@@ -1878,7 +1888,9 @@ contentType
 :
 loop
 .
-store
+shared
+.
+utils
 .
 CHAT_CONTENT_TYPES
 .
@@ -1929,7 +1941,9 @@ contentType
 :
 loop
 .
-store
+shared
+.
+utils
 .
 CHAT_CONTENT_TYPES
 .
@@ -1977,7 +1991,9 @@ contentType
 :
 loop
 .
-store
+shared
+.
+utils
 .
 CHAT_CONTENT_TYPES
 .

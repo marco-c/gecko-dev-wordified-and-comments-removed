@@ -68,7 +68,9 @@ CHAT_CONTENT_TYPES
 =
 loop
 .
-store
+shared
+.
+utils
 .
 CHAT_CONTENT_TYPES
 ;
