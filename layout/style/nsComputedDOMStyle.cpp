@@ -20625,9 +20625,6 @@ StylePosition
 >
 ComputedAlignItems
 (
-StyleDisplay
-(
-)
 )
 ;
 nsCSSValue
@@ -20685,9 +20682,6 @@ StylePosition
 >
 ComputedAlignSelf
 (
-StyleDisplay
-(
-)
 mStyleContext
 -
 >
@@ -20757,9 +20751,6 @@ StylePosition
 >
 ComputedJustifyContent
 (
-StyleDisplay
-(
-)
 )
 ;
 nsCSSValue
@@ -20879,9 +20870,6 @@ StylePosition
 >
 ComputedJustifyItems
 (
-StyleDisplay
-(
-)
 mStyleContext
 -
 >
@@ -20948,9 +20936,6 @@ StylePosition
 >
 ComputedJustifySelf
 (
-StyleDisplay
-(
-)
 mStyleContext
 -
 >

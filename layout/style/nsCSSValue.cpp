@@ -6124,6 +6124,12 @@ NS_STYLE_ALIGN_AUTO
 aValue
 !
 =
+NS_STYLE_ALIGN_NORMAL
+&
+&
+aValue
+!
+=
 NS_STYLE_ALIGN_BASELINE
 &
 &
@@ -6144,6 +6150,8 @@ overflowPos
 )
 "
 auto
+/
+normal
 /
 baseline
 /
