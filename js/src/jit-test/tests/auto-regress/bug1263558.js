@@ -105,6 +105,14 @@ Array
 )
 )
 ;
+if
+(
+'
+Intl
+'
+in
+this
+)
 Intl
 .
 NumberFormat
