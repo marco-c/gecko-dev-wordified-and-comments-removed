@@ -188,6 +188,15 @@ GetScrolledApzc
 )
 const
 ;
+bool
+IsDownchainOfScrolledApzc
+(
+AsyncPanZoomController
+*
+aApzc
+)
+const
+;
 protected
 :
 virtual
@@ -206,7 +215,7 @@ aTargetApzc
 private
 :
 bool
-IsAncestorOf
+IsDownchainOf
 (
 AsyncPanZoomController
 *
@@ -215,6 +224,7 @@ AsyncPanZoomController
 *
 aB
 )
+const
 ;
 private
 :
