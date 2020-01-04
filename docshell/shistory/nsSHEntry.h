@@ -128,6 +128,9 @@ nsIURI
 >
 mOriginalURI
 ;
+bool
+mLoadReplace
+;
 nsCOMPtr
 <
 nsIURI
