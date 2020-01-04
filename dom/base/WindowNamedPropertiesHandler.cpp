@@ -30,6 +30,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsDOMClassInfo
 .
 h

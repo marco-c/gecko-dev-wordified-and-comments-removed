@@ -1095,6 +1095,11 @@ URLSearchParams
 h
 '
 '
+WebKitCSSMatrix
+.
+h
+'
+'
 WebSocket
 .
 h
@@ -1816,6 +1821,11 @@ cpp
 '
 '
 URLSearchParams
+.
+cpp
+'
+'
+WebKitCSSMatrix
 .
 cpp
 '

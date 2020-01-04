@@ -3000,6 +3000,11 @@ WebGLRenderingContext
 webidl
 '
 '
+WebKitCSSMatrix
+.
+webidl
+'
+'
 WebSocket
 .
 webidl
