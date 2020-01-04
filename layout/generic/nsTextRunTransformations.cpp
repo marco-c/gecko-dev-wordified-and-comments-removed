@@ -1575,6 +1575,9 @@ uint32_t
 1
 )
 ;
+uint32_t
+irishMarkSrc
+;
 for
 (
 uint32_t
@@ -2232,6 +2235,10 @@ Length
 (
 )
 ;
+irishMarkSrc
+=
+i
+;
 break
 ;
 }
@@ -2427,7 +2434,7 @@ irishMark
 ;
 aDeletedCharsArray
 [
-irishMark
+irishMarkSrc
 +
 1
 ]
