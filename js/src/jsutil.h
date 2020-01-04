@@ -239,17 +239,6 @@ len
 namespace
 js
 {
-MOZ_NORETURN
-MOZ_COLD
-void
-CrashAtUnhandlableOOM
-(
-const
-char
-*
-reason
-)
-;
 template
 <
 class
