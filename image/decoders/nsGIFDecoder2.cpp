@@ -1717,14 +1717,14 @@ void
 nsGIFDecoder2
 :
 :
-WriteInternal
+DoDecode
 (
 const
 char
 *
 aBuffer
-uint32_t
-aCount
+size_t
+aLength
 )
 {
 MOZ_ASSERT
@@ -1738,7 +1738,7 @@ Shouldn
 '
 t
 call
-WriteInternal
+DoDecode
 after
 error
 !
@@ -1752,7 +1752,7 @@ aBuffer
 ;
 MOZ_ASSERT
 (
-aCount
+aLength
 >
 0
 )
@@ -1768,7 +1768,7 @@ mLexer
 Lex
 (
 aBuffer
-aCount
+aLength
 [
 =
 ]

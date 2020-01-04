@@ -578,7 +578,7 @@ Length
 )
 )
 ;
-WriteInternal
+DoDecode
 (
 mIterator
 -
