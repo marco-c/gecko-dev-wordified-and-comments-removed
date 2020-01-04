@@ -2726,6 +2726,17 @@ waitForBinding
 {
 if
 (
+!
+this
+.
+_input
+)
+{
+return
+;
+}
+if
+(
 typeof
 this
 .
