@@ -242,7 +242,7 @@ uint8_t
 AbstractSurfaceSink
 :
 :
-AdvanceRow
+DoAdvanceRow
 (
 )
 {
