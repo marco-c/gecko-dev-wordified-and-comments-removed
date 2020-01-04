@@ -1809,9 +1809,8 @@ const
 enum
 RestyleResult
 {
+eRestyleResult_None
 eRestyleResult_Stop
-=
-1
 eRestyleResult_StopWithStyleChange
 eRestyleResult_Continue
 eRestyleResult_ContinueAndForceDescendants
