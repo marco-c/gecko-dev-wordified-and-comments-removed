@@ -1816,6 +1816,10 @@ ClientIPCAllocator
 aAllocator
 )
 {
+mDrawTarget
+=
+nullptr
+;
 mTexture
 =
 nullptr
