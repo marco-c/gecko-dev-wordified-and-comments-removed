@@ -524,6 +524,16 @@ needsHomeObject
 )
 |
 |
+nonLazyScript
+(
+)
+-
+>
+isDerivedClassConstructor
+(
+)
+|
+|
 isGenerator
 (
 )

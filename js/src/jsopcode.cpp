@@ -577,6 +577,9 @@ pc
 case
 JSOP_NEW
 :
+case
+JSOP_SUPERCALL
+:
 return
 2
 +

@@ -1512,6 +1512,9 @@ PNK_NEWTARGET
 case
 PNK_POSHOLDER
 :
+case
+PNK_SUPERCALL
+:
 MOZ_CRASH
 (
 "
@@ -6996,6 +6999,15 @@ node
 >
 isKind
 (
+PNK_SUPERCALL
+)
+|
+|
+node
+-
+>
+isKind
+(
 PNK_TAGGED_TEMPLATE
 )
 )
@@ -8383,6 +8395,9 @@ inGenexpLambda
 ;
 case
 PNK_CALL
+:
+case
+PNK_SUPERCALL
 :
 case
 PNK_TAGGED_TEMPLATE

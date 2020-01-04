@@ -1020,6 +1020,16 @@ _
 (
 JSOP_NEWTARGET
 )
+\
+_
+(
+JSOP_SUPERCALL
+)
+\
+_
+(
+JSOP_SPREADSUPERCALL
+)
 class
 BaselineCompiler
 :
