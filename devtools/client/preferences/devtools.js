@@ -1035,7 +1035,7 @@ memory
 .
 enabled
 "
-false
+true
 )
 ;
 pref

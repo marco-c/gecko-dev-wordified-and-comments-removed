@@ -2646,6 +2646,12 @@ getTrait
 heapSnapshots
 "
 )
+&
+&
+!
+target
+.
+isAddon
 ;
 }
 build
