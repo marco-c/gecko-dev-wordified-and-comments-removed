@@ -1607,17 +1607,4 @@ void
 )
 ;
 #
-ifdef
-DEBUG
-void
-PL_DHashMarkTableImmutable
-(
-PLDHashTable
-*
-aTable
-)
-;
-#
-endif
-#
 endif

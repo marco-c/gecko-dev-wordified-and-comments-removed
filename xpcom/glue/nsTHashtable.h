@@ -744,10 +744,10 @@ MarkImmutable
 (
 )
 {
-PL_DHashMarkTableImmutable
-(
-&
 mTable
+.
+MarkImmutable
+(
 )
 ;
 }
