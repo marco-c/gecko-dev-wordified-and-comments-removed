@@ -321,6 +321,15 @@ aIncludeNewLines
 DONT_INCLUDE_NEW_LINE
 )
 ;
+void
+SkipUntil
+(
+Token
+const
+&
+aToken
+)
+;
 MOZ_MUST_USE
 bool
 CheckWhite
