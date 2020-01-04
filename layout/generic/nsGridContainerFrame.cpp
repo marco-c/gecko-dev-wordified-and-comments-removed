@@ -728,6 +728,9 @@ minSizeUnit
 )
 {
 case
+eStyleUnit_FlexFraction
+:
+case
 eStyleUnit_Auto
 :
 mState
@@ -749,15 +752,6 @@ aMinCoord
 eMinContentMinSizing
 :
 eMaxContentMinSizing
-;
-break
-;
-case
-eStyleUnit_FlexFraction
-:
-mState
-=
-eFlexMinSizing
 ;
 break
 ;
