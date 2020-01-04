@@ -108,17 +108,6 @@ str
 ;
 }
 function
-hasI64
-(
-)
-{
-return
-wasmInt64IsSupported
-(
-)
-;
-}
-function
 jsify
 (
 wasmVal
