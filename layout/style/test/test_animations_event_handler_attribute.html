@@ -431,20 +431,8 @@ checkReceivedEvents
 (
 eventType
 elements
-evalFunc
 )
 {
-if
-(
-!
-evalFunc
-)
-{
-evalFunc
-=
-is
-;
-}
 elements
 .
 forEach
@@ -453,7 +441,7 @@ element
 =
 >
 {
-evalFunc
+is
 (
 element
 .
@@ -823,7 +811,6 @@ checkReceivedEvents
 webkitAnimationStart
 "
 targets
-todo_is
 )
 ;
 advance_clock
@@ -837,7 +824,6 @@ checkReceivedEvents
 webkitAnimationIteration
 "
 targets
-todo_is
 )
 ;
 advance_clock
@@ -851,7 +837,6 @@ checkReceivedEvents
 webkitAnimationEnd
 "
 targets
-todo_is
 )
 ;
 targets
@@ -964,7 +949,6 @@ checkReceivedEvents
 webkitTransitionEnd
 "
 targets
-todo_is
 )
 ;
 targets
