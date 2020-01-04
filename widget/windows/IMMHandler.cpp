@@ -6330,6 +6330,11 @@ clauseArrayLength2
 if
 (
 useA_API
+&
+&
+clauseArrayLength
+>
+0
 )
 {
 nsAutoCString
@@ -6354,6 +6359,13 @@ compANSIStr
 .
 Length
 (
+)
+;
+mClauseArray
+.
+SetLength
+(
+clauseArrayLength
 )
 ;
 mClauseArray
