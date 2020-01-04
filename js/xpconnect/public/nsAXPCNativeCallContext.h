@@ -111,16 +111,6 @@ LANG_NATIVE
 2
 }
 ;
-NS_IMETHOD
-GetLanguage
-(
-uint16_t
-*
-aResult
-)
-=
-0
-;
 }
 ;
 #
