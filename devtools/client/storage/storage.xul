@@ -580,7 +580,7 @@ class
 "
 devtools
 -
-searchinput
+filterinput
 "
 type
 =

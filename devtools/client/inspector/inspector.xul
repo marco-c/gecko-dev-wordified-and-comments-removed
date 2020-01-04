@@ -1078,7 +1078,7 @@ class
 "
 devtools
 -
-searchinput
+filterinput
 devtools
 -
 rule
@@ -1490,7 +1490,7 @@ class
 "
 devtools
 -
-searchinput
+filterinput
 devtools
 -
 rule

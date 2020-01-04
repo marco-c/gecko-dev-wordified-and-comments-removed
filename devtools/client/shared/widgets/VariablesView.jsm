@@ -1425,7 +1425,7 @@ view
 searchinput
 devtools
 -
-searchinput
+filterinput
 "
 ;
 searchbox
