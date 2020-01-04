@@ -2824,6 +2824,9 @@ omni
 direct_nspr_config
 =
 1
+android_cxx_stl
+=
+mozstlport
 else
 MOZ_ANDROID_NDK
 case
