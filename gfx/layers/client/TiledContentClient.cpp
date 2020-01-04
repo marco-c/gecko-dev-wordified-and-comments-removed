@@ -6189,11 +6189,6 @@ SetTextureAllocator
 mManager
 -
 >
-GetCompositorBridgeChild
-(
-)
--
->
 GetTexturePool
 (
 gfxPlatform

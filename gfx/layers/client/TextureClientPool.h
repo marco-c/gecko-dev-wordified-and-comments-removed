@@ -69,7 +69,7 @@ class
 ISurfaceAllocator
 ;
 class
-TextureForwarder
+CompositableForwarder
 ;
 class
 TextureReadLock
@@ -156,7 +156,7 @@ uint32_t
 aMaxTextureClients
 uint32_t
 aShrinkTimeoutMsec
-TextureForwarder
+CompositableForwarder
 *
 aAllocator
 )
@@ -310,8 +310,10 @@ nsITimer
 >
 mTimer
 ;
-TextureForwarder
-*
+RefPtr
+<
+CompositableForwarder
+>
 mSurfaceAllocator
 ;
 }
