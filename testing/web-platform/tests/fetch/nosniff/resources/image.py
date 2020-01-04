@@ -59,6 +59,9 @@ blue96x96
 png
 "
 )
+"
+rb
+"
 )
 .
 read
