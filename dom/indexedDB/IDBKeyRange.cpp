@@ -357,6 +357,17 @@ IDBKeyRange
 aKeyRange
 )
 {
+MOZ_ASSERT_IF
+(
+!
+aCx
+aVal
+.
+isUndefined
+(
+)
+)
+;
 RefPtr
 <
 IDBKeyRange

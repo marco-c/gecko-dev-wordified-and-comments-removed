@@ -9984,6 +9984,17 @@ AssertIsOnOwningThread
 (
 )
 ;
+MOZ_ASSERT_IF
+(
+!
+aCx
+aRange
+.
+isUndefined
+(
+)
+)
+;
 if
 (
 mDeletedSpec
