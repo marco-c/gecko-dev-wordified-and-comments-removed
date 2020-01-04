@@ -52,7 +52,7 @@ h
 if
 defined
 (
-MOZ_NATIVE_JEMALLOC
+MOZ_SYSTEM_JEMALLOC
 )
 #
 include

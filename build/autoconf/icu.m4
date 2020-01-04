@@ -112,7 +112,7 @@ MOZ_CONFIG_ICU
 [
 ICU_LIB_NAMES
 =
-MOZ_NATIVE_ICU
+MOZ_SYSTEM_ICU
 =
 MOZ_ARG_WITH_BOOL
 (
@@ -136,7 +136,7 @@ with
 pkgconfig
 )
 ]
-MOZ_NATIVE_ICU
+MOZ_SYSTEM_ICU
 =
 1
 )
@@ -145,7 +145,7 @@ test
 -
 n
 "
-MOZ_NATIVE_ICU
+MOZ_SYSTEM_ICU
 "
 ;
 then
@@ -192,7 +192,7 @@ MOZ_ICU_INCLUDES
 )
 AC_SUBST
 (
-MOZ_NATIVE_ICU
+MOZ_SYSTEM_ICU
 )
 MOZ_ARG_WITH_STRING
 (
@@ -615,7 +615,7 @@ n
 JS_SHARED_LIBRARY
 }
 {
-MOZ_NATIVE_ICU
+MOZ_SYSTEM_ICU
 }
 "
 ;
@@ -637,7 +637,7 @@ test
 -
 z
 "
-MOZ_NATIVE_ICU
+MOZ_SYSTEM_ICU
 "
 ;
 then
@@ -756,7 +756,7 @@ a
 -
 z
 "
-MOZ_NATIVE_ICU
+MOZ_SYSTEM_ICU
 "
 ;
 then
@@ -862,7 +862,7 @@ a
 -
 z
 "
-MOZ_NATIVE_ICU
+MOZ_SYSTEM_ICU
 "
 ;
 then

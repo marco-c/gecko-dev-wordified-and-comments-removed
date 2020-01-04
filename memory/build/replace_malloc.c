@@ -35,7 +35,7 @@ disabled
 endif
 #
 ifdef
-MOZ_NATIVE_JEMALLOC
+MOZ_SYSTEM_JEMALLOC
 #
 error
 Should

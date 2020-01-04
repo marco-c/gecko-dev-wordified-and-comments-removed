@@ -311,7 +311,7 @@ if
 CONFIG
 [
 '
-MOZ_NATIVE_BZ2
+MOZ_SYSTEM_BZ2
 '
 ]
 :

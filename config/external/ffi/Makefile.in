@@ -54,7 +54,7 @@ MPL
 /
 .
 ifndef
-MOZ_NATIVE_FFI
+MOZ_SYSTEM_FFI
 include
 (
 topsrcdir

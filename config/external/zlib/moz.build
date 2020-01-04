@@ -103,7 +103,7 @@ if
 CONFIG
 [
 '
-MOZ_NATIVE_ZLIB
+MOZ_SYSTEM_ZLIB
 '
 ]
 :

@@ -81,7 +81,7 @@ with
 pkgconfig
 )
 ]
-MOZ_NATIVE_FFI
+MOZ_SYSTEM_FFI
 =
 1
 )
@@ -90,7 +90,7 @@ test
 -
 n
 "
-MOZ_NATIVE_FFI
+MOZ_SYSTEM_FFI
 "
 ;
 then
@@ -158,7 +158,7 @@ fi
 fi
 AC_SUBST
 (
-MOZ_NATIVE_FFI
+MOZ_SYSTEM_FFI
 )
 ]
 )
@@ -194,7 +194,7 @@ a
 -
 z
 "
-MOZ_NATIVE_FFI
+MOZ_SYSTEM_FFI
 "
 ;
 then

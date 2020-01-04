@@ -113,7 +113,7 @@ not
 CONFIG
 [
 '
-MOZ_NATIVE_JPEG
+MOZ_SYSTEM_JPEG
 '
 ]
 :
@@ -140,7 +140,7 @@ not
 CONFIG
 [
 '
-MOZ_NATIVE_BZ2
+MOZ_SYSTEM_BZ2
 '
 ]
 :
@@ -253,7 +253,7 @@ not
 CONFIG
 [
 '
-MOZ_NATIVE_LIBVPX
+MOZ_SYSTEM_LIBVPX
 '
 ]
 :
@@ -272,7 +272,7 @@ not
 CONFIG
 [
 '
-MOZ_NATIVE_PNG
+MOZ_SYSTEM_PNG
 '
 ]
 :

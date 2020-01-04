@@ -4438,7 +4438,7 @@ not
 CONFIG
 [
 '
-MOZ_NATIVE_FFI
+MOZ_SYSTEM_FFI
 '
 ]
 :
@@ -5491,7 +5491,7 @@ if
 CONFIG
 [
 '
-MOZ_NATIVE_FFI
+MOZ_SYSTEM_FFI
 '
 ]
 :

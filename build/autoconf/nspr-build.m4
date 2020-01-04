@@ -983,7 +983,7 @@ AM_PATH_NSPR
 (
 NSPR_MINVER
 [
-MOZ_NATIVE_NSPR
+MOZ_SYSTEM_NSPR
 =
 1
 ]
@@ -1015,7 +1015,7 @@ test
 -
 n
 "
-MOZ_NATIVE_NSPR
+MOZ_SYSTEM_NSPR
 "
 -
 o
@@ -1322,7 +1322,7 @@ test
 -
 n
 "
-MOZ_NATIVE_NSPR
+MOZ_SYSTEM_NSPR
 "
 ;
 then
@@ -1330,7 +1330,7 @@ then
 piggy
 back
 on
-MOZ_NATIVE_NSPR
+MOZ_SYSTEM_NSPR
 to
 set
 a

@@ -2076,7 +2076,7 @@ jni
 h
 #
 if
-MOZ_NATIVE_JPEG
+MOZ_SYSTEM_JPEG
 =
 =
 1
@@ -4873,7 +4873,7 @@ h
 endif
 #
 if
-MOZ_NATIVE_PNG
+MOZ_SYSTEM_PNG
 =
 =
 1
@@ -4884,7 +4884,7 @@ h
 endif
 #
 if
-MOZ_NATIVE_ZLIB
+MOZ_SYSTEM_ZLIB
 =
 =
 1
@@ -4940,7 +4940,7 @@ h
 endif
 #
 if
-MOZ_NATIVE_HUNSPELL
+MOZ_SYSTEM_HUNSPELL
 =
 =
 1
@@ -4951,7 +4951,7 @@ hxx
 endif
 #
 if
-MOZ_NATIVE_BZ2
+MOZ_SYSTEM_BZ2
 =
 =
 1
@@ -4972,7 +4972,7 @@ h
 endif
 #
 if
-MOZ_NATIVE_LIBEVENT
+MOZ_SYSTEM_LIBEVENT
 =
 =
 1
@@ -5035,7 +5035,7 @@ h
 endif
 #
 if
-MOZ_NATIVE_LIBVPX
+MOZ_SYSTEM_LIBVPX
 =
 =
 1

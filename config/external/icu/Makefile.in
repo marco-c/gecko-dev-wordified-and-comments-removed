@@ -66,7 +66,7 @@ mk
 ifdef
 USE_ICU
 ifndef
-MOZ_NATIVE_ICU
+MOZ_SYSTEM_ICU
 #
 Library
 names
@@ -313,7 +313,7 @@ MOZ_SHARED_ICU
 endif
 #
 !
-MOZ_NATIVE_ICU
+MOZ_SYSTEM_ICU
 endif
 #
 USE_ICU
@@ -330,7 +330,7 @@ mk
 ifdef
 USE_ICU
 ifndef
-MOZ_NATIVE_ICU
+MOZ_SYSTEM_ICU
 target
 :
 :

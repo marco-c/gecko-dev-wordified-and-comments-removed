@@ -672,7 +672,7 @@ if
 (
 AppConstants
 .
-MOZ_NATIVE_NSS
+MOZ_SYSTEM_NSS
 )
 {
 this

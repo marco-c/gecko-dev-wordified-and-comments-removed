@@ -85,7 +85,7 @@ test
 -
 z
 "
-MOZ_NATIVE_JEMALLOC
+MOZ_SYSTEM_JEMALLOC
 "
 -
 a
