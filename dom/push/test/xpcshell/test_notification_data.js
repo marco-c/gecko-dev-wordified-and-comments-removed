@@ -130,6 +130,9 @@ originAttributes
 quota
 :
 Infinity
+systemRecord
+:
+true
 p256dhPublicKey
 :
 base64UrlDecode

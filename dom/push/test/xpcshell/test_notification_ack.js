@@ -187,6 +187,9 @@ version
 quota
 :
 Infinity
+systemRecord
+:
+true
 }
 {
 channelID
@@ -240,6 +243,9 @@ version
 quota
 :
 Infinity
+systemRecord
+:
+true
 }
 {
 channelID
@@ -293,6 +299,9 @@ version
 quota
 :
 Infinity
+systemRecord
+:
+true
 }
 ]
 ;

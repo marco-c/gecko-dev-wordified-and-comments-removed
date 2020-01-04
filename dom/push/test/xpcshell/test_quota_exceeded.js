@@ -59,6 +59,13 @@ setPrefs
 (
 {
 userAgentID
+'
+testing
+.
+ignorePermission
+'
+:
+true
 }
 )
 ;

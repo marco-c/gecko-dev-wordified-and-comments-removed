@@ -487,6 +487,9 @@ false
 quota
 :
 Infinity
+systemRecord
+:
+true
 }
 {
 subscriptionUri
@@ -603,6 +606,9 @@ false
 quota
 :
 Infinity
+systemRecord
+:
+true
 }
 {
 subscriptionUri
@@ -718,6 +724,9 @@ false
 quota
 :
 Infinity
+systemRecord
+:
+true
 }
 ]
 ;
