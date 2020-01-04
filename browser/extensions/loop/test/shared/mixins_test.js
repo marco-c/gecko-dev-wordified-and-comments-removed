@@ -773,7 +773,6 @@ function
 )
 {
 var
-comp
 TestComp
 onDocumentVisibleStub
 onDocumentHiddenStub
@@ -920,8 +919,6 @@ false
 }
 )
 ;
-comp
-=
 TestUtils
 .
 renderIntoDocument
@@ -976,8 +973,6 @@ true
 }
 )
 ;
-comp
-=
 TestUtils
 .
 renderIntoDocument
@@ -1200,10 +1195,9 @@ function
 )
 {
 var
-view
-fakeAudio
-getAudioBlobStub
 TestComp
+getAudioBlobStub
+fakeAudio
 ;
 beforeEach
 (
@@ -1400,8 +1394,6 @@ function
 (
 )
 {
-view
-=
 TestUtils
 .
 renderIntoDocument
@@ -1469,8 +1461,6 @@ false
 }
 )
 ;
-view
-=
 TestUtils
 .
 renderIntoDocument
@@ -1551,8 +1541,6 @@ function
 )
 {
 var
-view
-fakeAudioMixin
 comp
 ;
 function

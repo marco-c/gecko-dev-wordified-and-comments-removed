@@ -2835,7 +2835,6 @@ close
 :
 function
 (
-e
 )
 {
 console
@@ -2880,7 +2879,6 @@ _onReadyForDataChannel
 :
 function
 (
-event
 )
 {
 if
@@ -2961,7 +2959,6 @@ close
 :
 function
 (
-e
 )
 {
 console
@@ -3844,7 +3841,6 @@ _onVideoEnabled
 :
 function
 (
-event
 )
 {
 var
@@ -3904,7 +3900,6 @@ _onVideoDisabled
 :
 function
 (
-event
 )
 {
 this

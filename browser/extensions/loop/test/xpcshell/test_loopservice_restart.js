@@ -116,17 +116,6 @@ test_initialize_with_no_guest_rooms_and_no_auth_token
 (
 )
 {
-var
-nowSeconds
-=
-Date
-.
-now
-(
-)
-/
-1000
-;
 Services
 .
 prefs
@@ -490,7 +479,6 @@ promise
 ;
 }
 (
-error
 )
 =
 >

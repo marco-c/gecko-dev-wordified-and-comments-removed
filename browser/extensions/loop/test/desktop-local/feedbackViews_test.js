@@ -128,7 +128,6 @@ fake
 .
 form
 "
-mozLoop
 view
 ;
 function

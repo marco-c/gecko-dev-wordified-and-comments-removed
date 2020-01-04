@@ -1282,7 +1282,6 @@ null
 actionData
 .
 roomDescription
-from
 )
 ;
 var
@@ -1535,7 +1534,6 @@ addSocialShareProvider
 :
 function
 (
-actionData
 )
 {
 loop

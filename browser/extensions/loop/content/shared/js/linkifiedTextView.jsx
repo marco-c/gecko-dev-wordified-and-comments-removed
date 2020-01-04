@@ -104,7 +104,6 @@ LinkifiedTextView
 (
 function
 (
-mozL10n
 )
 {
 "
@@ -749,13 +748,5 @@ LinkifiedTextView
 }
 )
 (
-navigator
-.
-mozL10n
-|
-|
-document
-.
-mozL10n
 )
 ;

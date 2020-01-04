@@ -36,15 +36,6 @@ strict
 "
 ;
 var
-sharedActions
-=
-loop
-.
-shared
-.
-actions
-;
-var
 sharedUtils
 =
 loop
