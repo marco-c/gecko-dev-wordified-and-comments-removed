@@ -3116,7 +3116,7 @@ IDBTransactionMode
 Versionchange
 :
 return
-NS_ERROR_DOM_INVALID_ACCESS_ERR
+NS_ERROR_DOM_TYPE_ERR
 ;
 default
 :
