@@ -206,7 +206,7 @@ aConfig
 ImageContainer
 *
 aImageContainer
-FlushableTaskQueue
+TaskQueue
 *
 aTaskQueue
 MediaDataDecoderCallback
