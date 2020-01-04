@@ -152,6 +152,15 @@ js
 "
 test
 /
+shared
+/
+loop_mocha_utils
+.
+js
+"
+"
+test
+/
 karma
 /
 head
