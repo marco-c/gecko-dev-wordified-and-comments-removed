@@ -28,13 +28,6 @@ h
 #
 include
 "
-OutputStreamManager
-.
-h
-"
-#
-include
-"
 mozilla
 /
 AbstractThread
@@ -88,6 +81,9 @@ MediaData
 ;
 class
 MediaStream
+;
+class
+OutputStreamManager
 ;
 class
 ProcessedMediaStream
@@ -408,7 +404,11 @@ AbstractThread
 >
 mOwnerThread
 ;
+const
+RefPtr
+<
 OutputStreamManager
+>
 mOutputStreamManager
 ;
 UniquePtr

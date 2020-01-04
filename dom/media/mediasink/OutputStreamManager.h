@@ -111,6 +111,11 @@ mPort
 class
 OutputStreamManager
 {
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+OutputStreamManager
+)
+;
 public
 :
 void
@@ -199,6 +204,12 @@ nullptr
 }
 private
 :
+~
+OutputStreamManager
+(
+)
+{
+}
 RefPtr
 <
 MediaStream

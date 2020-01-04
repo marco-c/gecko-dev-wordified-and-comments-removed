@@ -56,6 +56,13 @@ h
 #
 include
 "
+OutputStreamManager
+.
+h
+"
+#
+include
+"
 SharedBuffer
 .
 h
@@ -689,6 +696,13 @@ mOwnerThread
 (
 aOwnerThread
 )
+mOutputStreamManager
+(
+new
+OutputStreamManager
+(
+)
+)
 mPlaying
 (
 false
@@ -1215,7 +1229,8 @@ self
 -
 >
 mOutputStreamManager
-.
+-
+>
 Disconnect
 (
 )
@@ -1270,7 +1285,8 @@ if
 (
 !
 mOutputStreamManager
-.
+-
+>
 Graph
 (
 )
@@ -1291,7 +1307,8 @@ auto
 source
 =
 mOutputStreamManager
-.
+-
+>
 Graph
 (
 )
@@ -1316,7 +1333,8 @@ aPromise
 )
 ;
 mOutputStreamManager
-.
+-
+>
 Connect
 (
 data
@@ -1452,7 +1470,8 @@ self
 -
 >
 mOutputStreamManager
-.
+-
+>
 Disconnect
 (
 )
@@ -1538,7 +1557,8 @@ const
 return
 !
 mOutputStreamManager
-.
+-
+>
 IsEmpty
 (
 )
@@ -1626,7 +1646,8 @@ aFinishWhenEnded
 )
 {
 mOutputStreamManager
-.
+-
+>
 Add
 (
 aStream
@@ -1646,7 +1667,8 @@ aStream
 )
 {
 mOutputStreamManager
-.
+-
+>
 Remove
 (
 aStream
