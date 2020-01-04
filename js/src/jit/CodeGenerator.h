@@ -2466,6 +2466,14 @@ lir
 )
 ;
 void
+visitCallBindVar
+(
+LCallBindVar
+*
+lir
+)
+;
+void
 visitIsCallable
 (
 LIsCallable
