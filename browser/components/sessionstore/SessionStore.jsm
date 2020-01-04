@@ -381,7 +381,7 @@ TAB_EVENTS
 TabOpen
 "
 "
-TabBrowserInserted
+TabBrowserCreated
 "
 "
 TabClose
@@ -3871,12 +3871,12 @@ break
 ;
 case
 "
-TabBrowserInserted
+TabBrowserCreated
 "
 :
 this
 .
-onTabBrowserInserted
+onTabBrowserCreated
 (
 win
 target
@@ -4337,7 +4337,7 @@ i
 {
 this
 .
-onTabBrowserInserted
+onTabBrowserCreated
 (
 aWindow
 tabbrowser
@@ -7090,10 +7090,10 @@ aWindow
 )
 ;
 }
-onTabBrowserInserted
+onTabBrowserCreated
 :
 function
-ssi_onTabBrowserInserted
+ssi_onTabBrowserCreated
 (
 aWindow
 aTab

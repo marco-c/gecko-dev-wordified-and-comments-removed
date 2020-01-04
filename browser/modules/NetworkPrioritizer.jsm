@@ -65,7 +65,7 @@ TAB_EVENTS
 =
 [
 "
-TabBrowserInserted
+TabBrowserCreated
 "
 "
 TabSelect
@@ -154,7 +154,7 @@ type
 {
 case
 "
-TabBrowserInserted
+TabBrowserCreated
 "
 :
 BrowserHelper
