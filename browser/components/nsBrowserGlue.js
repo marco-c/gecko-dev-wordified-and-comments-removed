@@ -6080,6 +6080,9 @@ tab
 "
 )
 ;
+return
+true
+;
 }
 }
 ]
