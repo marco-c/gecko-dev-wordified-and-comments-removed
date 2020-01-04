@@ -301,7 +301,7 @@ HighlighterActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 highlighterSpec
 {
@@ -1833,7 +1833,7 @@ CustomHighlighterActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 customHighlighterSpec
 {

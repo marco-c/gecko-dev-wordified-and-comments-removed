@@ -194,7 +194,7 @@ MessagePortActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 messagePortSpec
 {
@@ -508,7 +508,7 @@ DirectorScriptActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 directorScriptSpec
 {
@@ -1197,7 +1197,7 @@ DirectorManagerActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 directorManagerSpec
 {

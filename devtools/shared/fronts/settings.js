@@ -40,7 +40,7 @@ SettingsFront
 =
 protocol
 .
-FrontClass
+FrontClassWithSpec
 (
 settingsSpec
 {

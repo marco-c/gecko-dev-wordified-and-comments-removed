@@ -40,7 +40,7 @@ ReflowFront
 =
 protocol
 .
-FrontClass
+FrontClassWithSpec
 (
 reflowSpec
 {

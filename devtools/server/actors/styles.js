@@ -363,7 +363,7 @@ PageStyleActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 pageStyleSpec
 {
@@ -3956,7 +3956,7 @@ StyleRuleActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 styleRuleSpec
 {

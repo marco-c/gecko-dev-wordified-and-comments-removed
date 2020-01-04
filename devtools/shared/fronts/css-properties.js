@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-FrontClass
+FrontClassWithSpec
 Front
 }
 =
@@ -229,7 +229,7 @@ WeakMap
 const
 CssPropertiesFront
 =
-FrontClass
+FrontClassWithSpec
 (
 cssPropertiesSpec
 {

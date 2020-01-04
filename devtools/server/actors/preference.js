@@ -105,7 +105,7 @@ PreferenceActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 preferenceSpec
 {

@@ -72,7 +72,7 @@ EmulationActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 emulationSpec
 {

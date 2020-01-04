@@ -194,7 +194,7 @@ FrameSnapshotActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 frameSnapshotSpec
 {
@@ -521,7 +521,7 @@ CanvasActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 canvasSpec
 {

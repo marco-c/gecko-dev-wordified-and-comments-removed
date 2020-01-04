@@ -19,9 +19,9 @@ core
 ;
 const
 {
-ActorClass
+ActorClassWithSpec
 Actor
-FrontClass
+FrontClassWithSpec
 Front
 generateActorSpec
 }
@@ -100,7 +100,7 @@ response
 var
 EventsFormActor
 =
-ActorClass
+ActorClassWithSpec
 (
 eventsSpec
 {
@@ -222,7 +222,7 @@ value
 var
 EventsFormFront
 =
-FrontClass
+FrontClassWithSpec
 (
 eventsSpec
 {

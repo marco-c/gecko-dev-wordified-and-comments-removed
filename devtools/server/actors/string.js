@@ -67,7 +67,7 @@ LongStringActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 longStringSpec
 {

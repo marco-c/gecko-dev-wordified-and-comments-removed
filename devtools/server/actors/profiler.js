@@ -6,7 +6,7 @@ strict
 const
 {
 Actor
-ActorClass
+ActorClassWithSpec
 }
 =
 require
@@ -98,7 +98,7 @@ exports
 .
 ProfilerActor
 =
-ActorClass
+ActorClassWithSpec
 (
 profilerSpec
 {

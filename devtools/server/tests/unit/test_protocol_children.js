@@ -386,7 +386,7 @@ ChildActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 childSpec
 {
@@ -713,7 +713,7 @@ ChildFront
 =
 protocol
 .
-FrontClass
+FrontClassWithSpec
 (
 childSpec
 {
@@ -1126,7 +1126,7 @@ RootActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 rootSpec
 {
@@ -1437,7 +1437,7 @@ RootFront
 =
 protocol
 .
-FrontClass
+FrontClassWithSpec
 (
 rootSpec
 {

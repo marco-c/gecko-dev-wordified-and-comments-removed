@@ -41,7 +41,7 @@ object
 ;
 const
 {
-ActorClass
+ActorClassWithSpec
 }
 =
 require
@@ -76,7 +76,7 @@ frame
 let
 FrameActor
 =
-ActorClass
+ActorClassWithSpec
 (
 frameSpec
 {

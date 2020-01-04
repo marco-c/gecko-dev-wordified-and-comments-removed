@@ -6,7 +6,7 @@ strict
 const
 {
 Front
-FrontClass
+FrontClassWithSpec
 }
 =
 require
@@ -41,7 +41,7 @@ promises
 const
 PromisesFront
 =
-FrontClass
+FrontClassWithSpec
 (
 promisesSpec
 {

@@ -127,7 +127,7 @@ FunctionCallActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 functionCallSpec
 {
@@ -841,7 +841,7 @@ CallWatcherActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 callWatcherSpec
 {

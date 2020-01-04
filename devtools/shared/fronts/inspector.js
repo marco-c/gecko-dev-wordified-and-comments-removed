@@ -50,7 +50,7 @@ string
 const
 {
 Front
-FrontClass
+FrontClassWithSpec
 custom
 preEvent
 types
@@ -365,7 +365,7 @@ undefined
 const
 NodeFront
 =
-FrontClass
+FrontClassWithSpec
 (
 nodeSpec
 {
@@ -1953,7 +1953,7 @@ NodeFront
 const
 NodeListFront
 =
-FrontClass
+FrontClassWithSpec
 (
 nodeListSpec
 {
@@ -2121,7 +2121,7 @@ NodeListFront
 const
 WalkerFront
 =
-FrontClass
+FrontClassWithSpec
 (
 walkerSpec
 {
@@ -4229,7 +4229,7 @@ WalkerFront
 var
 InspectorFront
 =
-FrontClass
+FrontClassWithSpec
 (
 inspectorSpec
 {

@@ -50,7 +50,7 @@ jsm
 const
 {
 Actor
-ActorClass
+ActorClassWithSpec
 }
 =
 require
@@ -103,7 +103,7 @@ exports
 .
 EventLoopLagActor
 =
-ActorClass
+ActorClassWithSpec
 (
 eventLoopLagSpec
 {

@@ -19,7 +19,7 @@ stylesheets
 const
 {
 Front
-FrontClass
+FrontClassWithSpec
 custom
 preEvent
 }
@@ -119,7 +119,7 @@ utils
 const
 PageStyleFront
 =
-FrontClass
+FrontClassWithSpec
 (
 pageStyleSpec
 {
@@ -451,7 +451,7 @@ PageStyleFront
 const
 StyleRuleFront
 =
-FrontClass
+FrontClassWithSpec
 (
 styleRuleSpec
 {

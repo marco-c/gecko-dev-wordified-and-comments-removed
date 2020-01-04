@@ -26,7 +26,7 @@ Arg
 Option
 RetVal
 Actor
-ActorClass
+ActorClassWithSpec
 }
 =
 require
@@ -89,7 +89,7 @@ system
 const
 GcliActor
 =
-ActorClass
+ActorClassWithSpec
 (
 gcliSpec
 {

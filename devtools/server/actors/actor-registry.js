@@ -119,7 +119,7 @@ ActorActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 actorActorSpec
 {
@@ -174,7 +174,7 @@ ActorRegistryActor
 =
 protocol
 .
-ActorClass
+ActorClassWithSpec
 (
 actorRegistrySpec
 {

@@ -41,7 +41,7 @@ emulation
 const
 EmulationFront
 =
-FrontClass
+FrontClassWithSpec
 (
 emulationSpec
 {
