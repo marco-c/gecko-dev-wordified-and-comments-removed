@@ -3976,6 +3976,11 @@ PresentationConnectionAvailableEvent
 webidl
 '
 '
+PresentationConnectionClosedEvent
+.
+webidl
+'
+'
 ProgressEvent
 .
 webidl
