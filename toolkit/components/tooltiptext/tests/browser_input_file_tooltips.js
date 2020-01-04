@@ -718,7 +718,7 @@ synthesizeNativeMouseMove
 tab
 .
 linkedBrowser
-100
+50
 5
 resolve
 )
@@ -743,7 +743,7 @@ resolve
 setTimeout
 (
 resolve
-100
+200
 )
 )
 ;
@@ -771,8 +771,8 @@ synthesizeNativeMouseMove
 tab
 .
 linkedBrowser
-110
-15
+70
+5
 resolve
 )
 ;
