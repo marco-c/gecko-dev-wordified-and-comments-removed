@@ -142,3 +142,7 @@ DEPRECATED_OPERATION
 (
 LenientSetter
 )
+DEPRECATED_OPERATION
+(
+NavigatorBattery
+)
