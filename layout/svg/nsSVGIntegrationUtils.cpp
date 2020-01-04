@@ -3644,6 +3644,17 @@ effectProperties
 HasValidFilter
 (
 )
+&
+&
+!
+aParams
+.
+builder
+-
+>
+IsForGenerateGlyphMask
+(
+)
 )
 {
 RegularFramePaintCallback
