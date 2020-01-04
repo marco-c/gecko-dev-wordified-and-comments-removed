@@ -6895,6 +6895,9 @@ case
 *
 '
 :
+#
+ifdef
+JS_HAS_EXPONENTIATION
 if
 (
 matchChar
@@ -6921,6 +6924,8 @@ TOK_POWASSIGN
 TOK_POW
 ;
 else
+#
+endif
 tp
 -
 >
