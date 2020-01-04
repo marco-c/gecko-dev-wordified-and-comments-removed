@@ -780,7 +780,7 @@ Ci
 .
 nsIWebNavigation
 .
-LOAD_FLAGS_BYPASS_HISTORY
+LOAD_FLAGS_REPLACE_HISTORY
 null
 null
 null
