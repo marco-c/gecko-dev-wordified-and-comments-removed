@@ -4133,6 +4133,11 @@ RTCPeerConnectionIceEvent
 .
 webidl
 '
+'
+RTCTrackEvent
+.
+webidl
+'
 ]
 if
 CONFIG

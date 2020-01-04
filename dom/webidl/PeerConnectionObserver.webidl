@@ -325,6 +325,11 @@ onAddTrack
 (
 MediaStreamTrack
 track
+sequence
+<
+MediaStream
+>
+streams
 )
 ;
 void
