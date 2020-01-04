@@ -1159,8 +1159,6 @@ CameraRecorderProfiles
 :
 GetSupportedNames
 (
-unsigned
-aFlags
 nsTArray
 <
 nsString
@@ -1182,18 +1180,12 @@ this
 =
 %
 p
-flags
-=
-0x
-%
-x
 \
 n
 "
 __func__
 __LINE__
 this
-aFlags
 )
 ;
 if

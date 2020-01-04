@@ -8833,7 +8833,6 @@ nsAString
 void
 GetSupportedNames
 (
-unsigned
 nsTArray
 <
 nsString
@@ -8876,7 +8875,6 @@ nsAString
 void
 GetSupportedNames
 (
-unsigned
 nsTArray
 <
 nsString
@@ -8962,7 +8960,6 @@ Length
 void
 GetSupportedNames
 (
-unsigned
 nsTArray
 <
 nsString
@@ -9067,7 +9064,6 @@ bool
 void
 GetSupportedNames
 (
-unsigned
 nsTArray
 <
 nsString
@@ -9151,7 +9147,6 @@ TestIndexedSetterInterface
 void
 GetSupportedNames
 (
-unsigned
 nsTArray
 <
 nsString
@@ -9250,7 +9245,6 @@ Length
 void
 GetSupportedNames
 (
-unsigned
 nsTArray
 <
 nsString
@@ -9466,7 +9460,6 @@ bool
 void
 GetSupportedNames
 (
-unsigned
 nsTArray
 <
 nsString
@@ -9547,7 +9540,6 @@ delete
 void
 GetSupportedNames
 (
-unsigned
 nsTArray
 <
 nsString
@@ -9649,7 +9641,6 @@ delete
 void
 GetSupportedNames
 (
-unsigned
 nsTArray
 <
 nsString

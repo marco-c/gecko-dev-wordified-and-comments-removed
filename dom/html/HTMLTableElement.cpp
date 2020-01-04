@@ -145,8 +145,6 @@ virtual
 void
 GetSupportedNames
 (
-unsigned
-aFlags
 nsTArray
 <
 nsString
@@ -895,8 +893,6 @@ TableRowsCollection
 :
 GetSupportedNames
 (
-unsigned
-aFlags
 nsTArray
 <
 nsString
@@ -905,19 +901,6 @@ nsString
 aNames
 )
 {
-if
-(
-!
-(
-aFlags
-&
-JSITER_HIDDEN
-)
-)
-{
-return
-;
-}
 DO_FOR_EACH_ROWGROUP
 (
 nsTArray
@@ -947,7 +930,6 @@ coll
 >
 GetSupportedNames
 (
-aFlags
 names
 )
 ;

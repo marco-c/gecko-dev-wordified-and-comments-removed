@@ -1098,7 +1098,6 @@ aFound
 void
 GetSupportedNames
 (
-unsigned
 nsTArray
 <
 nsString

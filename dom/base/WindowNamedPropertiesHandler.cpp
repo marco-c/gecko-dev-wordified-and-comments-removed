@@ -913,7 +913,6 @@ document
 >
 GetSupportedNames
 (
-flags
 names
 )
 ;

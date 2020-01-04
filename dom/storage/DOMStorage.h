@@ -263,7 +263,6 @@ aRv
 void
 GetSupportedNames
 (
-unsigned
 nsTArray
 <
 nsString

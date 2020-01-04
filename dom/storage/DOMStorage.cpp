@@ -1276,7 +1276,6 @@ DOMStorage
 :
 GetSupportedNames
 (
-unsigned
 nsTArray
 <
 nsString
