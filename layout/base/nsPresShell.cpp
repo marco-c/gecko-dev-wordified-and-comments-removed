@@ -48613,6 +48613,8 @@ SetIsActive
 (
 bool
 aIsActive
+bool
+aIsHidden
 )
 {
 NS_PRECONDITION
@@ -48739,6 +48741,11 @@ this
 endif
 if
 (
+aIsHidden
+)
+{
+if
+(
 TabChild
 *
 tab
@@ -48817,6 +48824,7 @@ MakeHidden
 (
 )
 ;
+}
 }
 }
 return
