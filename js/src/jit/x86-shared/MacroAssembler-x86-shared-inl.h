@@ -793,7 +793,10 @@ this
 ;
 vpcmpeqw
 (
+Operand
+(
 scratch
+)
 scratch
 scratch
 )
@@ -835,7 +838,10 @@ this
 ;
 vpcmpeqw
 (
+Operand
+(
 scratch
+)
 scratch
 scratch
 )

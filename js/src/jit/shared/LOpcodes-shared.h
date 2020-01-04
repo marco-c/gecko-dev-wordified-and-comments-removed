@@ -193,6 +193,16 @@ SimdUnaryArithFx4
 \
 _
 (
+SimdBinaryCompIx16
+)
+\
+_
+(
+SimdBinaryCompIx8
+)
+\
+_
+(
 SimdBinaryCompIx4
 )
 \
