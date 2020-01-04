@@ -409,6 +409,11 @@ mBrowserFrameListenersRegistered
 bool
 mFrameLoaderCreationDisallowed
 ;
+bool
+mFullscreenFlag
+=
+false
+;
 private
 :
 void
