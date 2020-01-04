@@ -1470,7 +1470,6 @@ default
 ref
 .
 html
-fails
 =
 =
 table
@@ -1497,10 +1496,6 @@ dynamic
 ref
 .
 html
-#
-bug
-1224253
-fails
 =
 =
 table
@@ -1527,6 +1522,3 @@ dynamic
 ref
 .
 html
-#
-bug
-1224251
