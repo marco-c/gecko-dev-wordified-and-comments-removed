@@ -162,6 +162,11 @@ mozHTMLAccessible
 mm
 '
 '
+mozTableAccessible
+.
+mm
+'
+'
 mozTextAccessible
 .
 mm
