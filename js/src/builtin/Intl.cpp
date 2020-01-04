@@ -11370,6 +11370,17 @@ intl_toSource
 )
 #
 endif
+JS_SELF_HOSTED_FN
+(
+"
+getCanonicalLocales
+"
+"
+Intl_getCanonicalLocales
+"
+1
+0
+)
 JS_FS_END
 }
 ;
