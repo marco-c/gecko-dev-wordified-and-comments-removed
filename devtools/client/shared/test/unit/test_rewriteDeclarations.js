@@ -31,7 +31,6 @@ jsm
 ;
 const
 {
-parseDeclarations
 RuleRewriter
 }
 =
@@ -41,8 +40,6 @@ require
 (
 "
 devtools
-/
-client
 /
 shared
 /
