@@ -842,12 +842,6 @@ Value
 )
 override
 ;
-NS_IMETHOD
-SetUserContextId
-(
-uint32_t
-)
-;
 nsresult
 RestoreFromHistory
 (
