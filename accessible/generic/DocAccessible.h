@@ -1052,6 +1052,11 @@ DoInitialUpdate
 )
 ;
 void
+UpdateRootElIfNeeded
+(
+)
+;
+void
 ProcessLoad
 (
 )
