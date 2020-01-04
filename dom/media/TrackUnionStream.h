@@ -81,8 +81,8 @@ SetTrackEnabledImpl
 (
 TrackID
 aTrackID
-bool
-aEnabled
+DisabledTrackMode
+aMode
 )
 override
 ;
