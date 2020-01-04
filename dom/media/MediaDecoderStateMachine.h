@@ -1294,7 +1294,7 @@ ReadMetadataFailureReason
 aReason
 )
 ;
-bool
+void
 MaybeFinishDecodeFirstFrame
 (
 )
