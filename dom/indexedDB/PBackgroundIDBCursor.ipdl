@@ -210,6 +210,8 @@ void_t
 nsresult
 ;
 ObjectStoreCursorResponse
+[
+]
 ;
 ObjectStoreKeyCursorResponse
 ;

@@ -1886,7 +1886,10 @@ void
 HandleResponse
 (
 const
+nsTArray
+<
 ObjectStoreCursorResponse
+>
 &
 aResponse
 )
