@@ -790,6 +790,11 @@ ExtendableEvent
 webidl
 '
 '
+ExtendableMessageEvent
+.
+webidl
+'
+'
 FakePluginTagInit
 .
 webidl
@@ -3523,11 +3528,6 @@ BluetoothMapRequestHandle
 webidl
 '
 '
-BluetoothObexAuthHandle
-.
-webidl
-'
-'
 BluetoothPairingHandle
 .
 webidl
@@ -4229,11 +4229,6 @@ webidl
 '
 '
 BluetoothMapSetMessageStatusEvent
-.
-webidl
-'
-'
-BluetoothObexAuthEvent
 .
 webidl
 '

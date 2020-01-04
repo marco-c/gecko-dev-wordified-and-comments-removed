@@ -331,6 +331,9 @@ EventTarget
 ExtendableEvent
 "
 "
+ExtendableMessageEvent
+"
+"
 FetchEvent
 "
 "
