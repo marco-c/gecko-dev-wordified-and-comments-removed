@@ -17,7 +17,7 @@ testIsInsideNursery
 CHECK
 (
 !
-rt
+cx
 -
 >
 gc
@@ -26,14 +26,14 @@ nursery
 .
 isInside
 (
-rt
+cx
 )
 )
 ;
 CHECK
 (
 !
-rt
+cx
 -
 >
 gc

@@ -538,9 +538,9 @@ CycleCollectedJSRuntime
 nsresult
 Initialize
 (
-JSRuntime
+JSContext
 *
-aParentRuntime
+aParentContext
 uint32_t
 aMaxBytes
 uint32_t

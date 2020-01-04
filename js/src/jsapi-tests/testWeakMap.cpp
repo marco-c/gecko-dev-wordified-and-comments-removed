@@ -477,7 +477,7 @@ WorkBudget
 )
 )
 ;
-rt
+cx
 -
 >
 gc
@@ -498,7 +498,7 @@ IsIncrementalGCInProgress
 cx
 )
 )
-rt
+cx
 -
 >
 gc
@@ -605,7 +605,7 @@ WorkBudget
 )
 )
 ;
-rt
+cx
 -
 >
 gc
@@ -626,7 +626,7 @@ IsIncrementalGCInProgress
 cx
 )
 )
-rt
+cx
 -
 >
 gc

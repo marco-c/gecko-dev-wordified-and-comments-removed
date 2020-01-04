@@ -984,7 +984,7 @@ cx
 alloc
 )
 ;
-rt
+cx
 -
 >
 getJitRuntime
@@ -1400,7 +1400,7 @@ cx
 alloc
 )
 ;
-rt
+cx
 -
 >
 getJitRuntime
@@ -2719,7 +2719,7 @@ cx
 alloc
 )
 ;
-rt
+cx
 -
 >
 getJitRuntime
@@ -4226,7 +4226,7 @@ cx
 alloc
 )
 ;
-rt
+cx
 -
 >
 getJitRuntime

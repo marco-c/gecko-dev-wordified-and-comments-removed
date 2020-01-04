@@ -93,7 +93,7 @@ Chunk
 :
 allocate
 (
-rt
+cx
 )
 ;
 CHECK
@@ -397,7 +397,7 @@ js
 AutoLockGC
 lock
 (
-rt
+cx
 )
 ;
 for

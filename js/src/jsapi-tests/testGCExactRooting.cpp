@@ -542,7 +542,12 @@ MyContainer
 >
 heap
 (
-rt
+cx
+-
+>
+runtime
+(
+)
 container
 )
 ;
@@ -715,7 +720,7 @@ sLongLived
 .
 init
 (
-rt
+cx
 JS_NewObject
 (
 cx
@@ -793,7 +798,7 @@ sContainer
 .
 init
 (
-rt
+cx
 container
 )
 ;
