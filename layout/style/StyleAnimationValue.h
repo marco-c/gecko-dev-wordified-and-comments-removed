@@ -222,8 +222,9 @@ dom
 Element
 *
 aTargetElement
-CSSPseudoElementType
-aPseudoType
+nsStyleContext
+*
+aStyleContext
 const
 nsAString
 &
@@ -260,8 +261,9 @@ dom
 Element
 *
 aTargetElement
-CSSPseudoElementType
-aPseudoType
+nsStyleContext
+*
+aStyleContext
 const
 nsAString
 &
@@ -1206,8 +1208,9 @@ dom
 Element
 *
 aTargetElement
-CSSPseudoElementType
-aPseudoType
+nsStyleContext
+*
+aStyleContext
 mozilla
 :
 :
