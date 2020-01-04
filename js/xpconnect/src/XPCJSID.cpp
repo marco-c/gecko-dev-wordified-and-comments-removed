@@ -927,7 +927,8 @@ true
 ;
 }
 }
-NS_METHOD
+static
+nsresult
 GetSharedScriptableHelperForJSIID
 (
 nsIXPCScriptable

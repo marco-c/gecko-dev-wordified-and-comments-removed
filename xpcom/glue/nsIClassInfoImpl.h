@@ -86,9 +86,13 @@ nsIID
 aArray
 )
 ;
+GetInterfacesProc
+getinterfaces
+;
 typedef
-NS_CALLBACK
+nsresult
 (
+*
 GetScriptableHelperProc
 )
 (
@@ -97,9 +101,6 @@ nsIXPCScriptable
 *
 aHelper
 )
-;
-GetInterfacesProc
-getinterfaces
 ;
 GetScriptableHelperProc
 getscriptablehelper
