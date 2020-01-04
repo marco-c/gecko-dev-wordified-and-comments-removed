@@ -964,9 +964,6 @@ mSerial
 ImageFormat
 mFormat
 ;
-bool
-mSent
-;
 static
 mozilla
 :

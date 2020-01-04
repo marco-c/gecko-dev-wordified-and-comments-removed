@@ -339,6 +339,10 @@ BufferRecycleBin
 mLock
 "
 )
+mRecycledBufferSize
+(
+0
+)
 {
 }
 void
