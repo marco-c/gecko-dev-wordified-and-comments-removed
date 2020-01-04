@@ -469,7 +469,7 @@ consoleService
 >
 LogStringMessage
 (
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 Edge
@@ -480,10 +480,6 @@ column
 size
 increased
 "
-)
-.
-get
-(
 )
 )
 ;
@@ -544,7 +540,7 @@ consoleService
 >
 LogStringMessage
 (
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 Edge
@@ -555,10 +551,6 @@ column
 size
 increased
 "
-)
-.
-get
-(
 )
 )
 ;
