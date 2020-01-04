@@ -907,7 +907,9 @@ MediaOmxCommonDecoder
 :
 CallSeek
 (
+const
 SeekTarget
+&
 aTarget
 )
 {

@@ -1510,6 +1510,7 @@ LogLevel
 :
 :
 Debug
+(
 "
 DoSeek
 (
@@ -1525,6 +1526,7 @@ GetTime
 .
 ToMicroseconds
 (
+)
 )
 )
 ;
