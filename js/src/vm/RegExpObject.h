@@ -735,6 +735,14 @@ trc
 )
 ;
 bool
+needsSweep
+(
+JSRuntime
+*
+rt
+)
+;
+bool
 marked
 (
 )
