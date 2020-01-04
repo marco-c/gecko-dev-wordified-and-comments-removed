@@ -151,6 +151,7 @@ endpoint
 ;
 [
 Throws
+UseCounter
 ]
 Promise
 <

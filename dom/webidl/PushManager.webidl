@@ -275,6 +275,7 @@ store
 ;
 [
 Throws
+UseCounter
 ]
 Promise
 <
