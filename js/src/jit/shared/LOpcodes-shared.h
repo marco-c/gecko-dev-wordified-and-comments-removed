@@ -103,6 +103,11 @@ SimdExtractElementI
 \
 _
 (
+SimdExtractElementU2D
+)
+\
+_
+(
 SimdExtractElementB
 )
 \
