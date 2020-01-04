@@ -4054,6 +4054,16 @@ pref
 "
 apz
 .
+displayport_expiry_ms
+"
+15000
+)
+;
+pref
+(
+"
+apz
+.
 enlarge_displayport_when_clipped
 "
 false

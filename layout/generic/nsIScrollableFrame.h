@@ -789,6 +789,14 @@ aDisplayPort
 =
 0
 ;
+virtual
+void
+TriggerDisplayPortExpiration
+(
+)
+=
+0
+;
 }
 ;
 #

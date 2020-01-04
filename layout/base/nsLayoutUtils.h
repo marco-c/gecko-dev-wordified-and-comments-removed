@@ -821,6 +821,15 @@ aContent
 )
 ;
 static
+void
+RemoveDisplayPort
+(
+nsIContent
+*
+aContent
+)
+;
+static
 mozilla
 :
 :
