@@ -199,12 +199,6 @@ panic
 -
 button
 #
-web
--
-apps
--
-button
-#
 webide
 -
 button
