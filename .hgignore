@@ -110,6 +110,10 @@ mozconfig
 ^
 configure
 ^
+old
+-
+configure
+^
 config
 \
 .
@@ -190,6 +194,14 @@ js
 /
 src
 /
+configure
+^
+js
+/
+src
+/
+old
+-
 configure
 ^
 js

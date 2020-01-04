@@ -109,6 +109,10 @@ mozconfig
 /
 configure
 /
+old
+-
+configure
+/
 config
 .
 cache
@@ -172,6 +176,13 @@ js
 /
 src
 /
+configure
+js
+/
+src
+/
+old
+-
 configure
 js
 /
