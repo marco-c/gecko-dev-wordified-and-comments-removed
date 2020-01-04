@@ -37718,7 +37718,8 @@ substring
 i
 )
 :
-null
+"
+"
 ;
 }
 writeICCUCS2String
@@ -38953,7 +38954,8 @@ numOctets
 )
 {
 return
-null
+"
+"
 ;
 }
 if
@@ -39568,7 +39570,8 @@ writeHexOctet
 ;
 }
 return
-null
+"
+"
 ;
 }
 }
