@@ -85,6 +85,7 @@ let
 {
 inspector
 view
+testActor
 }
 =
 yield
@@ -175,6 +176,7 @@ yield
 reloadPage
 (
 inspector
+testActor
 )
 ;
 yield
