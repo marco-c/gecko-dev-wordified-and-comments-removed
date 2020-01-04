@@ -445,7 +445,7 @@ b2g
 false
 nightlyAndroid
 :
-false
+true
 }
 "
 TextDecoder
