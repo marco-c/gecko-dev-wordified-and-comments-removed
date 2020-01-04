@@ -2328,6 +2328,16 @@ malloc
 psshsize
 )
 ;
+if
+(
+!
+buf
+)
+{
+return
+ERROR_MALFORMED
+;
+}
 char
 *
 ptr
