@@ -5875,7 +5875,7 @@ OwnerDoc
 )
 -
 >
-IsFullScreenDoc
+GetFullscreenElement
 (
 )
 &

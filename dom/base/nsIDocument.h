@@ -2591,14 +2591,6 @@ RestorePreviousFullScreenState
 ;
 virtual
 bool
-IsFullScreenDoc
-(
-)
-=
-0
-;
-virtual
-bool
 IsFullscreenLeaf
 (
 )
@@ -6350,7 +6342,9 @@ MozFullScreen
 )
 {
 return
-IsFullScreenDoc
+!
+!
+GetFullscreenElement
 (
 )
 ;

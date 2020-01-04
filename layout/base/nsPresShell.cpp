@@ -34552,7 +34552,7 @@ root
 root
 -
 >
-IsFullScreenDoc
+GetFullscreenElement
 (
 )
 )

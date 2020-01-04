@@ -14688,7 +14688,7 @@ if
 doc
 -
 >
-IsFullScreenDoc
+GetFullscreenElement
 (
 )
 )
