@@ -159,6 +159,15 @@ v5
 /
 check
 -
+regexp
+.
+js
+v8
+-
+v5
+/
+check
+-
 splay
 .
 js

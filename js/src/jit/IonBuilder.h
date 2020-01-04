@@ -4204,7 +4204,7 @@ callInfo
 )
 ;
 InliningStatus
-inlineRegExpExec
+inlineRegExpMatcher
 (
 CallInfo
 &
@@ -4212,7 +4212,15 @@ callInfo
 )
 ;
 InliningStatus
-inlineRegExpTest
+inlineRegExpTester
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
+inlineIsRegExpObject
 (
 CallInfo
 &

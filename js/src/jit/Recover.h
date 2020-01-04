@@ -211,12 +211,12 @@ StringSplit
 \
 _
 (
-RegExpExec
+RegExpMatcher
 )
 \
 _
 (
-RegExpTest
+RegExpTester
 )
 \
 _
@@ -1692,7 +1692,7 @@ const
 }
 ;
 class
-RRegExpExec
+RRegExpMatcher
 final
 :
 public
@@ -1702,7 +1702,7 @@ public
 :
 RINSTRUCTION_HEADER_
 (
-RegExpExec
+RegExpMatcher
 )
 virtual
 uint32_t
@@ -1712,7 +1712,7 @@ numOperands
 const
 {
 return
-2
+5
 ;
 }
 bool
@@ -1730,7 +1730,7 @@ const
 }
 ;
 class
-RRegExpTest
+RRegExpTester
 final
 :
 public
@@ -1740,7 +1740,7 @@ public
 :
 RINSTRUCTION_HEADER_
 (
-RegExpTest
+RegExpTester
 )
 virtual
 uint32_t
@@ -1750,7 +1750,7 @@ numOperands
 const
 {
 return
-2
+5
 ;
 }
 bool

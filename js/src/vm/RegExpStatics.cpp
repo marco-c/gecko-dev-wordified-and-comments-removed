@@ -384,11 +384,13 @@ execute
 cx
 input
 lazyIndex
+lazySticky
 &
 this
 -
 >
 matches
+nullptr
 )
 ;
 if

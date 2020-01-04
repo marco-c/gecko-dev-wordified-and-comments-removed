@@ -35,6 +35,10 @@ inputEnd
 size_t
 startIndex
 ;
+size_t
+*
+endIndex
+;
 MatchPairs
 *
 matches
@@ -62,6 +66,9 @@ startIndex
 MatchPairs
 *
 matches
+size_t
+*
+endIndex
 )
 :
 inputStart
@@ -75,6 +82,10 @@ inputEnd
 startIndex
 (
 startIndex
+)
+endIndex
+(
+endIndex
 )
 matches
 (
@@ -97,6 +108,10 @@ inputStart
 ;
 size_t
 startIndex
+;
+size_t
+*
+endIndex
 ;
 char16_t
 *
