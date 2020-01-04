@@ -55,6 +55,11 @@ StyleSheet
 (
 StyleBackendType
 aType
+css
+:
+:
+SheetParsingMode
+aParsingMode
 )
 :
 mDocument
@@ -67,10 +72,7 @@ nullptr
 )
 mParsingMode
 (
-css
-:
-:
-eUserSheetFeatures
+aParsingMode
 )
 mType
 (

@@ -209,14 +209,6 @@ mozilla
 css
 :
 :
-SheetParsingMode
-aParsingMode
-mozilla
-:
-:
-css
-:
-:
 LoaderReusableStyleSheets
 *
 aReusableSheets

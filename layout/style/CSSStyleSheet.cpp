@@ -5328,6 +5328,11 @@ CSSStyleSheet
 :
 CSSStyleSheet
 (
+css
+:
+:
+SheetParsingMode
+aParsingMode
 CORSMode
 aCORSMode
 ReferrerPolicy
@@ -5340,6 +5345,7 @@ StyleBackendType
 :
 :
 Gecko
+aParsingMode
 )
 mTitle
 (
@@ -5388,6 +5394,11 @@ CSSStyleSheet
 :
 CSSStyleSheet
 (
+css
+:
+:
+SheetParsingMode
+aParsingMode
 CORSMode
 aCORSMode
 ReferrerPolicy
@@ -5404,6 +5415,7 @@ StyleBackendType
 :
 :
 Gecko
+aParsingMode
 )
 mTitle
 (
@@ -10286,7 +10298,6 @@ mInner
 >
 mPrincipal
 lineNumber
-mParsingMode
 &
 reusableSheets
 )

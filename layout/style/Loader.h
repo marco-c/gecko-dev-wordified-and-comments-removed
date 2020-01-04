@@ -1061,6 +1061,11 @@ aLinkingContent
 nsIPrincipal
 *
 aLoaderPrincipal
+css
+:
+:
+SheetParsingMode
+aParsingMode
 CORSMode
 aCORSMode
 ReferrerPolicy

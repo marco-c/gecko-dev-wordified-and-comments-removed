@@ -82,6 +82,11 @@ public
 :
 ServoStyleSheet
 (
+css
+:
+:
+SheetParsingMode
+aParsingMode
 CORSMode
 aCORSMode
 net
@@ -160,11 +165,6 @@ nsIPrincipal
 aSheetPrincipal
 uint32_t
 aLineNumber
-css
-:
-:
-SheetParsingMode
-aParsingMode
 )
 ;
 size_t

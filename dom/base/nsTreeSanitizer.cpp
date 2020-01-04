@@ -5097,6 +5097,13 @@ sheet
 new
 CSSStyleSheet
 (
+mozilla
+:
+:
+css
+:
+:
+eAuthorSheetFeatures
 CORS_NONE
 aDocument
 -
@@ -5162,13 +5169,6 @@ NodePrincipal
 (
 )
 0
-mozilla
-:
-:
-css
-:
-:
-eAuthorSheetFeatures
 )
 ;
 NS_ENSURE_SUCCESS
