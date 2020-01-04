@@ -187,6 +187,14 @@ h
 "
 #
 ifdef
+GetCurrentTime
+#
+undef
+GetCurrentTime
+#
+endif
+#
+ifdef
 LOG
 #
 undef
