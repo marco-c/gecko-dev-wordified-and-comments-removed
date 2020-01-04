@@ -791,6 +791,14 @@ MAKE_VERSION
 )
 }
 {
+"
+eOppMonitor
+.
+dll
+"
+ALL_VERSIONS
+}
+{
 nullptr
 0
 }
