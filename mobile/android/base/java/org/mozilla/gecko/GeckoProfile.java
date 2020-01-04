@@ -2551,6 +2551,7 @@ return
 false
 ;
 }
+RobocopTarget
 public
 boolean
 inGuestMode
@@ -2603,6 +2604,7 @@ dir
 }
 }
 }
+RobocopTarget
 public
 String
 getName
@@ -2628,6 +2630,7 @@ mName
 )
 ;
 }
+RobocopTarget
 public
 synchronized
 File
