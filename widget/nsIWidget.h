@@ -1247,7 +1247,8 @@ false
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 AttachViewToTopLevel
 (
 bool

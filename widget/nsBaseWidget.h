@@ -1389,7 +1389,8 @@ false
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 AttachViewToTopLevel
 (
 bool
