@@ -35692,7 +35692,7 @@ Scope
 for
 our
 GlobalObject
-ErrorResult
+FastErrorResult
 JSAutoCompartment
                   
 /
@@ -35797,7 +35797,10 @@ exceptionCode
                   
 }
                   
-ErrorResult
+binding_detail
+:
+:
+FastErrorResult
 promiseRv
 ;
                 
@@ -47627,7 +47630,10 @@ prepend
 CGGeneric
 (
 "
-ErrorResult
+binding_detail
+:
+:
+FastErrorResult
 rv
 ;
 \
@@ -57392,7 +57398,10 @@ nsString
 names
 ;
             
-ErrorResult
+binding_detail
+:
+:
+FastErrorResult
 rv
 ;
             
@@ -72855,7 +72864,10 @@ nsString
 names
 ;
             
-ErrorResult
+binding_detail
+:
+:
+FastErrorResult
 rv
 ;
             

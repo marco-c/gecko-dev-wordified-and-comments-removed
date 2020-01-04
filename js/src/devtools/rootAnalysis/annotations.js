@@ -1766,6 +1766,17 @@ name
 =
 =
 "
+binding_detail
+:
+:
+FastErrorResult
+"
+|
+|
+name
+=
+=
+"
 frontend
 :
 :
