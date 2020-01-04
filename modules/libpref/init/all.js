@@ -35364,11 +35364,9 @@ false
 pref
 (
 "
-layout
+dom
 .
-css
-.
-touch_action
+imagecapture
 .
 enabled
 "
@@ -35378,9 +35376,11 @@ false
 pref
 (
 "
-dom
+layout
 .
-imagecapture
+css
+.
+touch_action
 .
 enabled
 "
