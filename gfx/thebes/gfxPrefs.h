@@ -732,7 +732,7 @@ float
 ;
 DECL_GFX_PREF
 (
-Once
+Live
 "
 apz
 .
@@ -760,7 +760,7 @@ int32_t
 ;
 DECL_GFX_PREF
 (
-Once
+Live
 "
 apz
 .
@@ -775,7 +775,7 @@ float
 ;
 DECL_GFX_PREF
 (
-Once
+Live
 "
 apz
 .
@@ -790,7 +790,7 @@ float
 ;
 DECL_GFX_PREF
 (
-Once
+Live
 "
 apz
 .
@@ -803,7 +803,7 @@ false
 ;
 DECL_GFX_PREF
 (
-Once
+Live
 "
 apz
 .
