@@ -5162,7 +5162,7 @@ rv
 requestHead
 -
 >
-Lock
+Enter
 (
 )
 ;
@@ -5231,7 +5231,7 @@ NS_ERROR_UNEXPECTED
 requestHead
 -
 >
-Unlock
+Exit
 (
 )
 ;
