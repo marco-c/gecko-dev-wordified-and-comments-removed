@@ -167,6 +167,10 @@ mOffline
 (
 false
 )
+mDisablePrefetch
+(
+false
+)
 mPendingRequestsLock
 (
 "
