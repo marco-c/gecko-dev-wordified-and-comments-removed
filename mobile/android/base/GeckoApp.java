@@ -6646,16 +6646,6 @@ ensureInit
 (
 args
 action
-TextUtils
-.
-isEmpty
-(
-uri
-)
-?
-null
-:
-uri
 ACTION_DEBUG
 .
 equals
