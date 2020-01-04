@@ -10929,6 +10929,15 @@ GetGlobalJSObject
 )
 ;
 }
+xpc
+:
+:
+InitGlobalObjectOptions
+(
+options
+aPrincipal
+)
+;
 bool
 needComponents
 =
