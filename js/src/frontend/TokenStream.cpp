@@ -2998,14 +2998,6 @@ err
 .
 argumentsType
 =
-(
-flags
-&
-JSREPORT_UC
-)
-?
-ArgumentsAreUnicode
-:
 ArgumentsAreASCII
 ;
 if
@@ -3021,9 +3013,7 @@ errorNumber
 err
 .
 message
-err
-.
-argumentsType
+ArgumentsAreASCII
 &
 err
 .
