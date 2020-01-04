@@ -6086,6 +6086,14 @@ if
 memoryIndex
 >
 0
+|
+|
+!
+mg
+.
+usesMemory
+(
+)
 )
 return
 Fail
