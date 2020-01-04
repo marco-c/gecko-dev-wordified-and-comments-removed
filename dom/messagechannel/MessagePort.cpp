@@ -386,6 +386,13 @@ DispatchMessage
 mPort
 -
 >
+UpdateMustKeepAlive
+(
+)
+;
+mPort
+-
+>
 mPostMessageRunnable
 =
 nullptr
@@ -798,13 +805,6 @@ get
 )
 &
 dummy
-)
-;
-mPort
--
->
-UpdateMustKeepAlive
-(
 )
 ;
 return
