@@ -1240,7 +1240,7 @@ typename
 T
 >
 void
-markPotentialEphemeronKeyHelper
+markImplicitEdgesHelper
 (
 T
 oldThing
@@ -1252,7 +1252,7 @@ typename
 T
 >
 void
-markPotentialEphemeronKey
+markImplicitEdges
 (
 T
 *
