@@ -1744,6 +1744,10 @@ Contents
 /
 MacOS
 /
+org
+.
+mozilla
+.
 updater
 '
                 
