@@ -1997,7 +1997,7 @@ trc
 T
 *
 *
-t
+thingp
 const
 char
 *
@@ -2007,7 +2007,7 @@ name
 TraceManuallyBarrieredEdge
 (
 trc
-t
+thingp
 name
 )
 ;
@@ -2019,7 +2019,7 @@ needsSweep
 T
 *
 *
-t
+thingp
 )
 {
 return
@@ -2028,7 +2028,7 @@ gc
 :
 IsAboutToBeFinalizedUnbarriered
 (
-t
+thingp
 )
 ;
 }
@@ -2045,7 +2045,6 @@ DefaultGCPolicy
 RelocatablePtr
 <
 T
-*
 >
 >
 {
@@ -2059,9 +2058,9 @@ trc
 RelocatablePtr
 <
 T
-*
 >
-t
+*
+thingp
 const
 char
 *
@@ -2071,7 +2070,7 @@ name
 TraceEdge
 (
 trc
-t
+thingp
 name
 )
 ;
@@ -2083,7 +2082,6 @@ needsSweep
 RelocatablePtr
 <
 T
-*
 >
 *
 thingp
@@ -2126,7 +2124,8 @@ ReadBarriered
 <
 T
 >
-t
+*
+thingp
 const
 char
 *
@@ -2136,7 +2135,7 @@ name
 TraceEdge
 (
 trc
-t
+thingp
 name
 )
 ;

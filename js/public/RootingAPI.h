@@ -2185,6 +2185,8 @@ typename
 T
 >
 struct
+JS_PUBLIC_API
+(
 MovableCellHasher
 <
 JS
@@ -2195,6 +2197,7 @@ Heap
 T
 >
 >
+)
 {
 using
 Key
