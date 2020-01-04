@@ -509,6 +509,15 @@ int
 mUpdateProgressCounter
 ;
 bool
+mNeedsUpdatingSdpRecords
+;
+mozilla
+:
+:
+TimeStamp
+mLastServiceChannelCheck
+;
+bool
 mAbortFlag
 ;
 bool
