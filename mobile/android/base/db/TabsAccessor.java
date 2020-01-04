@@ -65,6 +65,14 @@ clients
 ;
 }
 public
+int
+getRemoteClientCount
+(
+Context
+context
+)
+;
+public
 Cursor
 getRemoteClientsByRecencyCursor
 (
