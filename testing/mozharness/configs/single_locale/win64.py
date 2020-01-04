@@ -198,16 +198,6 @@ src
 "
     
 "
-make_dirs
-"
-:
-[
-'
-config
-'
-]
-    
-"
 vcs_share_base
 "
 :
