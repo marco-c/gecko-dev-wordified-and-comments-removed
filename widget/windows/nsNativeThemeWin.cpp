@@ -3786,6 +3786,7 @@ CHECKED
 ;
 }
 else
+if
 (
 isCheckbox
 &
