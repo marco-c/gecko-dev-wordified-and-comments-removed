@@ -3000,12 +3000,6 @@ volume
 muted
 )
 ;
-WindowVolumeChanged
-(
-volume
-muted
-)
-;
 }
 void
 nsSpeechTask
