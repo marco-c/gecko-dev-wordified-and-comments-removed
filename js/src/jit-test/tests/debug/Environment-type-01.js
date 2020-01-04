@@ -71,7 +71,7 @@ h
 ;
 "
 '
-object
+declarative
 '
 )
 ;
@@ -278,7 +278,7 @@ h
 ;
 "
 '
-object
+declarative
 '
 )
 ;
@@ -486,7 +486,7 @@ debugger
 ;
 "
 '
-object
+declarative
 '
 )
 ;

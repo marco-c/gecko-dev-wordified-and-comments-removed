@@ -270,7 +270,7 @@ env
 .
 type
 '
-object
+declarative
 '
 )
 ;
