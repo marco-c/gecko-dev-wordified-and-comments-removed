@@ -227,9 +227,6 @@ last_position
 snd_pcm_uframes_t
 buffer_size
 ;
-snd_pcm_uframes_t
-period_size
-;
 cubeb_stream_params
 params
 ;
@@ -3586,6 +3583,9 @@ r
 snd_pcm_format_t
 format
 ;
+snd_pcm_uframes_t
+period_size
+;
 assert
 (
 ctx
@@ -3921,9 +3921,6 @@ stm
 >
 buffer_size
 &
-stm
--
->
 period_size
 )
 ;
