@@ -63,6 +63,9 @@ nsISupports
 .
 idl
 "
+interface
+nsIPresentationDevice
+;
 %
 {
 C
@@ -120,9 +123,9 @@ app
 /
 page
 when
+*
 a
 presentation
-*
 request
 comes
 in
@@ -173,6 +176,9 @@ url
 in
 DOMString
 sessionId
+in
+nsIPresentationDevice
+device
 )
 ;
 }

@@ -1493,6 +1493,7 @@ SendRequest
 (
 url
 sessionId
+device
 getter_AddRefs
 (
 promise
