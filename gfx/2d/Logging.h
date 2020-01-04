@@ -298,6 +298,7 @@ TextureAliveAfterShutdown
 InvalidContext
 InvalidCommandList
 AsyncTransactionTimeout
+TextureCreation
 MustBeLessThanThis
 =
 101

@@ -391,6 +391,8 @@ GetFormat
 MOZ_CRASH
 (
 "
+GFX
+:
 Crashing
 with
 actual
@@ -452,6 +454,8 @@ GetFormat
 MOZ_CRASH
 (
 "
+GFX
+:
 Crashing
 without
 actual

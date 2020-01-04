@@ -719,7 +719,17 @@ default
 :
 MOZ_CRASH
 (
+"
+GFX
+:
+IBC
+Fallback
+destroy
+actors
+"
 )
+;
+break
 ;
 }
 }

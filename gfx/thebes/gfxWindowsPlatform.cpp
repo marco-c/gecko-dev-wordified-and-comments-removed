@@ -8336,8 +8336,15 @@ MOZ_SEH_EXCEPT
 EXCEPTION_EXECUTE_HANDLER
 )
 {
-MOZ_CRASH
+gfxDevCrash
 (
+LogReason
+:
+:
+TextureCreation
+)
+<
+<
 "
 Crash
 creating
@@ -8348,7 +8355,6 @@ bug
 1221348
 .
 "
-)
 ;
 return
 false
