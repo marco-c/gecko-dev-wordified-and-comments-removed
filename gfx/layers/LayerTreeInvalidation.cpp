@@ -889,7 +889,7 @@ transformChanged
 !
 mTransform
 .
-FuzzyEqualsMultiplicative
+FuzzyEqual
 (
 GetTransformForInvalidation
 (
