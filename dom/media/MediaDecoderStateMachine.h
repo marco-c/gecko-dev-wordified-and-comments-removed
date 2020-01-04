@@ -1248,8 +1248,6 @@ aSeekJob
 void
 InitiateDecodeRecoverySeek
 (
-TrackSet
-aTracks
 )
 ;
 nsresult
