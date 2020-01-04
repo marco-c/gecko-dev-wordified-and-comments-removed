@@ -124,16 +124,6 @@ ErrorResult
 .
 h
 '
-'
-RootedOwningNonNull
-.
-h
-'
-'
-RootedRefPtr
-.
-h
-'
 ]
 EXPORTS
 .
