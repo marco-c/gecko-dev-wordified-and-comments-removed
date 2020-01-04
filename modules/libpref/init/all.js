@@ -36137,6 +36137,16 @@ false
 pref
 (
 "
+alerts
+.
+showFavicons
+"
+false
+)
+;
+pref
+(
+"
 full
 -
 screen
