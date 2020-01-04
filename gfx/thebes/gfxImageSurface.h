@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -487,7 +487,7 @@ aFormat
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 gfxImageSurface
 >

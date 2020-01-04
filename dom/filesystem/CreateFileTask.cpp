@@ -424,7 +424,7 @@ data
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -563,7 +563,7 @@ thread
 )
 ;
 return
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1425,7 +1425,7 @@ HasError
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMError
 >
@@ -1462,7 +1462,7 @@ nullptr
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 Blob
 >

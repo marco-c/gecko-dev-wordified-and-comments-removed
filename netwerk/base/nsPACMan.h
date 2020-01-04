@@ -237,7 +237,7 @@ mAppOrigin
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 nsPACManCallback
 >

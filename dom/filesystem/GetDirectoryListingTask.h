@@ -151,7 +151,7 @@ override
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -162,7 +162,7 @@ mTargetRealPath
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >

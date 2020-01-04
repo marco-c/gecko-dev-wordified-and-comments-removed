@@ -525,7 +525,7 @@ do_check_true
 target
 )
 ;
-nsRefPtr
+RefPtr
 <
 ThreadWedger
 >

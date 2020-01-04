@@ -461,7 +461,7 @@ IndexIsValid
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 DOMSVGLengthList
 >
@@ -494,7 +494,7 @@ nsSVGLength2
 *
 mVal
 ;
-nsRefPtr
+RefPtr
 <
 nsSVGElement
 >

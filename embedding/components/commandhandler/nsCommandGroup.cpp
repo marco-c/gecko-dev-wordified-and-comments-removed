@@ -1127,7 +1127,7 @@ nsISimpleEnumerator
 aResult
 )
 {
-nsRefPtr
+RefPtr
 <
 nsGroupsEnumerator
 >
@@ -1186,7 +1186,7 @@ Get
 groupKey
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsNamedGroupEnumerator
 >

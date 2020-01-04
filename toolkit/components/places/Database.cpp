@@ -1455,7 +1455,7 @@ nsIAsyncShutdownClient
 >
 mParentClient
 ;
-nsRefPtr
+RefPtr
 <
 Database
 >
@@ -2849,7 +2849,7 @@ rv
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 PlacesEvent
 >
@@ -2981,7 +2981,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 PlacesEvent
 >
@@ -8790,7 +8790,7 @@ FinalizeStatements
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 FinalizeStatementCacheProxy
 <

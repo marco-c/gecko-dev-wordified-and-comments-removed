@@ -1395,7 +1395,7 @@ mNextSibling
 bool
 mIsBC
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >

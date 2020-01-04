@@ -666,7 +666,7 @@ NS_ERROR_NOT_AVAILABLE
 nsAutoScriptBlockerSuppressNodeRemoved
 autoBlocker
 ;
-nsRefPtr
+RefPtr
 <
 nsScriptLoader
 >

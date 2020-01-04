@@ -820,7 +820,7 @@ WidgetEvent
 *
 mEvent
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >

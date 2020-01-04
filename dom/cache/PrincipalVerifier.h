@@ -186,7 +186,7 @@ ListenerList
 ListenerList
 mListenerList
 ;
-nsRefPtr
+RefPtr
 <
 ContentParent
 >
@@ -211,7 +211,7 @@ mInitiatingThread
 nsresult
 mResult
 ;
-nsRefPtr
+RefPtr
 <
 ManagerId
 >

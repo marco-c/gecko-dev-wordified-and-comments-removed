@@ -358,7 +358,7 @@ aAdvData
 nsString
 mAddress
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothClassOfDevice
 >
@@ -379,7 +379,7 @@ mUuids
 BluetoothDeviceType
 mType
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothGatt
 >
@@ -394,7 +394,7 @@ template
 class
 nsDefaultComparator
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -407,7 +407,7 @@ bluetooth
 :
 BluetoothDevice
 >
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -428,7 +428,7 @@ bool
 Equals
 (
 const
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -444,7 +444,7 @@ BluetoothDevice
 &
 aDeviceA
 const
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -499,7 +499,7 @@ template
 class
 nsDefaultComparator
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -521,7 +521,7 @@ bool
 Equals
 (
 const
-nsRefPtr
+RefPtr
 <
 mozilla
 :

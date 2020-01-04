@@ -2806,7 +2806,7 @@ DocAccessible
 *
 mDoc
 ;
-nsRefPtr
+RefPtr
 <
 Accessible
 >
@@ -2814,7 +2814,7 @@ mParent
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Accessible
 >

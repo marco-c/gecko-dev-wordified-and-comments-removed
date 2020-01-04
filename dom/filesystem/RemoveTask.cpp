@@ -418,7 +418,7 @@ thread
 )
 ;
 return
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -491,7 +491,7 @@ if
 mTargetBlobImpl
 )
 {
-nsRefPtr
+RefPtr
 <
 Blob
 >
@@ -923,7 +923,7 @@ HasError
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMError
 >

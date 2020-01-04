@@ -767,7 +767,7 @@ mCallback
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 CacheStorageService
 >
@@ -1071,7 +1071,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 CacheEntry
 >
@@ -1302,7 +1302,7 @@ mContextKey
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 CacheEntry
 >
@@ -1351,7 +1351,7 @@ Walk
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 CacheIOThread
 >
@@ -1468,7 +1468,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 WalkDiskCacheRunnable
 >
@@ -1792,7 +1792,7 @@ uint32_t
 aExpirationTime
 )
 {
-nsRefPtr
+RefPtr
 <
 OnCacheEntryInfoRunnable
 >
@@ -1852,7 +1852,7 @@ info
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsILoadContextInfo
 >
@@ -1865,7 +1865,7 @@ ITERATE_METADATA
 }
 mPass
 ;
-nsRefPtr
+RefPtr
 <
 CacheIndexIterator
 >
@@ -2240,7 +2240,7 @@ thread
 return
 false
 ;
-nsRefPtr
+RefPtr
 <
 CleaupCacheDirectoriesRunnable
 >
@@ -2460,7 +2460,7 @@ IsOnManagementThread
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 CacheStorageService
 >
@@ -2556,7 +2556,7 @@ nsIRunnable
 aEvent
 )
 {
-nsRefPtr
+RefPtr
 <
 CacheIOThread
 >
@@ -3688,7 +3688,7 @@ bool
 aOverwrite
 )
 {
-nsRefPtr
+RefPtr
 <
 CacheEntry
 >
@@ -3794,7 +3794,7 @@ bool
 aOverwrite
 )
 {
-nsRefPtr
+RefPtr
 <
 CacheEntry
 >
@@ -4718,7 +4718,7 @@ mPurgeTimer
 )
 return
 ;
-nsRefPtr
+RefPtr
 <
 nsIEventTarget
 >
@@ -5252,7 +5252,7 @@ YieldAndRerun
 )
 return
 ;
-nsRefPtr
+RefPtr
 <
 CacheEntry
 >
@@ -5426,7 +5426,7 @@ YieldAndRerun
 )
 return
 ;
-nsRefPtr
+RefPtr
 <
 CacheEntry
 >
@@ -5560,7 +5560,7 @@ YieldAndRerun
 )
 return
 ;
-nsRefPtr
+RefPtr
 <
 CacheEntry
 >
@@ -5783,13 +5783,13 @@ BeginReading
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheEntry
 >
 entry
 ;
-nsRefPtr
+RefPtr
 <
 CacheEntryHandle
 >
@@ -6790,7 +6790,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheEntry
 >
@@ -7108,7 +7108,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheEntryDoomByKeyCallback
 >
@@ -7194,7 +7194,7 @@ if
 aCallback
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -7601,7 +7601,7 @@ if
 aCallback
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -7686,7 +7686,7 @@ WriteToDisk
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 WalkDiskCacheRunnable
 >
@@ -7714,7 +7714,7 @@ Walk
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 WalkMemoryCacheRunnable
 >
@@ -7823,7 +7823,7 @@ entries
 )
 return
 ;
-nsRefPtr
+RefPtr
 <
 CacheEntry
 >
@@ -7935,7 +7935,7 @@ aURISpec
 entryKey
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheEntry
 >
@@ -8842,7 +8842,7 @@ SizeOfExcludingThisIfUnshared
 mallocSizeOf
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

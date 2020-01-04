@@ -330,13 +330,13 @@ friend
 class
 FileHandleThreadPool
 ;
-nsRefPtr
+RefPtr
 <
 FileHandleThreadPool
 >
 mOwningFileHandleThreadPool
 ;
-nsRefPtr
+RefPtr
 <
 FileHandle
 >
@@ -344,14 +344,14 @@ mFileHandle
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 FileHandleOp
 >
 >
 mQueue
 ;
-nsRefPtr
+RefPtr
 <
 FileHandleOp
 >
@@ -408,13 +408,13 @@ FileHandleThreadPool
 :
 DelayedEnqueueInfo
 {
-nsRefPtr
+RefPtr
 <
 FileHandle
 >
 mFileHandle
 ;
-nsRefPtr
+RefPtr
 <
 FileHandleOp
 >
@@ -435,7 +435,7 @@ friend
 class
 FileHandleThreadPool
 ;
-nsRefPtr
+RefPtr
 <
 FileHandleThreadPool
 >
@@ -443,7 +443,7 @@ mOwningFileHandleThreadPool
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 FileHandleQueue
 >
@@ -674,7 +674,7 @@ BackgroundMutableFileParentBase
 class
 FinishOp
 ;
-nsRefPtr
+RefPtr
 <
 BackgroundMutableFileParentBase
 >
@@ -1101,7 +1101,7 @@ nsIEventTarget
 >
 mOwningThread
 ;
-nsRefPtr
+RefPtr
 <
 FileHandle
 >
@@ -1603,7 +1603,7 @@ final
 public
 nsRunnable
 {
-nsRefPtr
+RefPtr
 <
 CopyFileHandleOp
 >
@@ -2192,7 +2192,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 FileHandleThreadPool
 >
@@ -3604,7 +3604,7 @@ IsOnBackgroundThread
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 FileHandleOp
 >
@@ -3689,7 +3689,7 @@ aFileHandle
 FileHandleQueue
 *
 {
-nsRefPtr
+RefPtr
 <
 FileHandleQueue
 >
@@ -3764,7 +3764,7 @@ index
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 FileHandleQueue
 >
@@ -4425,7 +4425,7 @@ true
 }
 FallibleTArray
 <
-nsRefPtr
+RefPtr
 <
 FileHandle
 >
@@ -4526,7 +4526,7 @@ index
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 FileHandle
 >
@@ -4970,7 +4970,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 FileHandle
 >
@@ -5131,7 +5131,7 @@ MOZ_ASSERT
 aActor
 )
 ;
-nsRefPtr
+RefPtr
 <
 FileHandle
 >
@@ -6183,7 +6183,7 @@ mHasBeenActive
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 FinishOp
 >
@@ -6485,7 +6485,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 NormalFileHandleOp
 >
@@ -6742,7 +6742,7 @@ MOZ_ASSERT
 aActor
 )
 ;
-nsRefPtr
+RefPtr
 <
 NormalFileHandleOp
 >
@@ -8413,7 +8413,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MemoryOutputStream
 >
@@ -8933,7 +8933,7 @@ blobParent
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -9396,7 +9396,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >

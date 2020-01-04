@@ -214,7 +214,7 @@ NotifyCloseAll
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 StreamList
 >

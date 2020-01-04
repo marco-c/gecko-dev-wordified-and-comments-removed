@@ -160,7 +160,7 @@ ChildrenEnumVariant
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 AccessibleWrap
 >

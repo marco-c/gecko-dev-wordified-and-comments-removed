@@ -131,7 +131,7 @@ GetInstance
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 PermissionObserver
 >

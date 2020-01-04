@@ -265,7 +265,7 @@ MSG1_SIZE
 MSG2_SIZE
 ]
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothSocketResultHandler
 >

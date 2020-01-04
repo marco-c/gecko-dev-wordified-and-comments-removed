@@ -488,7 +488,7 @@ nsIOutputStream
 >
 mOutput
 ;
-nsRefPtr
+RefPtr
 <
 AndroidMediaResourceServer
 >
@@ -730,7 +730,7 @@ url_end
 url_start
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaResource
 >
@@ -822,7 +822,7 @@ return
 rv
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaResource
 >
@@ -1523,7 +1523,7 @@ nsIServerSocketListener
 {
 public
 :
-nsRefPtr
+RefPtr
 <
 AndroidMediaResourceServer
 >
@@ -1859,7 +1859,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 AndroidMediaResourceServer
 >
@@ -2218,7 +2218,7 @@ end
 return
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 MediaResource
 >

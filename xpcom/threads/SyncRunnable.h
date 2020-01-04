@@ -179,7 +179,7 @@ aForceDispatch
 false
 )
 {
-nsRefPtr
+RefPtr
 <
 SyncRunnable
 >

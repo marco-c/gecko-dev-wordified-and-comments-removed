@@ -722,7 +722,7 @@ nsINode
 >
 mParent
 ;
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >

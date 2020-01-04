@@ -482,7 +482,7 @@ DispatchInternal
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 WorkerRunnable
 >
@@ -1149,7 +1149,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 WorkerPrivate
 >
@@ -1612,7 +1612,7 @@ if
 mSyncLoopTarget
 )
 {
-nsRefPtr
+RefPtr
 <
 WorkerSyncRunnable
 >
@@ -1858,7 +1858,7 @@ MOZ_ASSERT
 mSyncLoopTarget
 )
 ;
-nsRefPtr
+RefPtr
 <
 StopSyncLoopRunnable
 >
@@ -2010,7 +2010,7 @@ DispatchInternal
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 WorkerControlRunnable
 >
@@ -2204,7 +2204,7 @@ EventTarget
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 WorkerMainThreadRunnable
 >
@@ -2274,7 +2274,7 @@ MainThreadRun
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 MainThreadStopSyncLoopRunnable
 >

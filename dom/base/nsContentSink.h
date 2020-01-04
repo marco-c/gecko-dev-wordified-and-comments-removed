@@ -715,7 +715,7 @@ nsIDocument
 >
 mDocument
 ;
-nsRefPtr
+RefPtr
 <
 nsParserBase
 >
@@ -733,7 +733,7 @@ nsIDocShell
 >
 mDocShell
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -745,13 +745,13 @@ Loader
 >
 mCSSLoader
 ;
-nsRefPtr
+RefPtr
 <
 nsNodeInfoManager
 >
 mNodeInfoManager
 ;
-nsRefPtr
+RefPtr
 <
 nsScriptLoader
 >

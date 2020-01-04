@@ -516,7 +516,7 @@ RtspMetadataParam
 metaArray
 )
 {
-nsRefPtr
+RefPtr
 <
 RtspMetaData
 >
@@ -634,7 +634,7 @@ RtspMetadataParam
 metaArray
 )
 {
-nsRefPtr
+RefPtr
 <
 RtspMetaData
 >
@@ -1270,7 +1270,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 RtspControllerChild
 >

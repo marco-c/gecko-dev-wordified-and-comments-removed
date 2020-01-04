@@ -48,7 +48,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -747,7 +747,7 @@ aPrefix
 struct
 TimedTexture
 {
-nsRefPtr
+RefPtr
 <
 TextureHost
 >
@@ -971,7 +971,7 @@ mAsyncID
 uint64_t
 mCompositorID
 ;
-nsRefPtr
+RefPtr
 <
 Compositor
 >
@@ -1061,7 +1061,7 @@ mSucceeded
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 CompositableHost
 >

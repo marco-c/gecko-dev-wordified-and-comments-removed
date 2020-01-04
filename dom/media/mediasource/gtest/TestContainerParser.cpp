@@ -158,7 +158,7 @@ test
 0xfc
 }
 ;
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >
@@ -234,7 +234,7 @@ GetRoundingError
 0
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >

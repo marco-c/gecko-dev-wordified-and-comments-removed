@@ -768,7 +768,7 @@ nsISupports
 aSupports
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDocLoader
 >
@@ -820,7 +820,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsDocLoader
 >
@@ -2365,7 +2365,7 @@ SetDefaultLoadRequest
 nullptr
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsDocLoader
 >

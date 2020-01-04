@@ -40,7 +40,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -461,7 +461,7 @@ nsISupports
 aSingleton
 )
 {
-nsRefPtr
+RefPtr
 <
 nsSingletonEnumerator
 >

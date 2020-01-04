@@ -473,7 +473,7 @@ mFlags
 nsCString
 mContentType
 ;
-nsRefPtr
+RefPtr
 <
 nsURILoader
 >
@@ -2460,7 +2460,7 @@ service
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsDocumentOpenInfo
 >
@@ -3433,7 +3433,7 @@ NS_ERROR_WONT_HANDLE_CONTENT
 }
 }
 }
-nsRefPtr
+RefPtr
 <
 nsDocumentOpenInfo
 >
@@ -3513,7 +3513,7 @@ if
 cookie
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDocLoader
 >

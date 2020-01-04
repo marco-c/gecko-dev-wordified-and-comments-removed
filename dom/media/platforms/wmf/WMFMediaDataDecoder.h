@@ -27,7 +27,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -70,7 +70,7 @@ Output
 (
 int64_t
 aStreamOffset
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -163,7 +163,7 @@ GetType
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 MFTDecoder
 >
@@ -197,7 +197,7 @@ WMFMediaDataDecoder
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 :
@@ -275,7 +275,7 @@ ProcessShutdown
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 FlushableTaskQueue
 >

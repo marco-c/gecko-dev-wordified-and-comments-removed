@@ -4876,7 +4876,7 @@ AMR_NB_ENC
 mAMRCSDProvided
 )
 {
-nsRefPtr
+RefPtr
 <
 EncodedFrame
 >

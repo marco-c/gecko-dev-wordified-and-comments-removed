@@ -413,7 +413,7 @@ aActor
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SharedMessagePortMessage
 >
@@ -506,7 +506,7 @@ mData
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -633,7 +633,7 @@ MessagePortMessage
 aArray
 FallibleTArray
 <
-nsRefPtr
+RefPtr
 <
 SharedMessagePortMessage
 >
@@ -686,7 +686,7 @@ message
 aArray
 )
 {
-nsRefPtr
+RefPtr
 <
 SharedMessagePortMessage
 >
@@ -775,7 +775,7 @@ len
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -864,7 +864,7 @@ aActor
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SharedMessagePortMessage
 >
@@ -971,7 +971,7 @@ mData
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -1101,7 +1101,7 @@ MessagePortMessage
 aArray
 FallibleTArray
 <
-nsRefPtr
+RefPtr
 <
 SharedMessagePortMessage
 >
@@ -1154,7 +1154,7 @@ message
 aArray
 )
 {
-nsRefPtr
+RefPtr
 <
 SharedMessagePortMessage
 >
@@ -1243,7 +1243,7 @@ len
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >

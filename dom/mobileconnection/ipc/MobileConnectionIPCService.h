@@ -64,7 +64,7 @@ MobileConnectionIPCService
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MobileConnectionChild
 >

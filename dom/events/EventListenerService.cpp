@@ -1592,7 +1592,7 @@ runnable
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 EventListenerChange
 >

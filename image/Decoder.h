@@ -23,7 +23,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -935,7 +935,7 @@ mColormapSize
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 RasterImage
 >

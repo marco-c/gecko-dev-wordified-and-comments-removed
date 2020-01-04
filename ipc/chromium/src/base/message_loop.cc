@@ -1402,7 +1402,7 @@ negative
 "
 ;
 }
-nsRefPtr
+RefPtr
 <
 base
 :

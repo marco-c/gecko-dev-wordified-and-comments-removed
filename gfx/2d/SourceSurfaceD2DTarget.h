@@ -155,13 +155,13 @@ MarkIndependent
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10ShaderResourceView
 >
 mSRView
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Bitmap
 >
@@ -172,7 +172,7 @@ DrawTargetD2D
 mDrawTarget
 ;
 mutable
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
@@ -278,7 +278,7 @@ EnsureMapped
 )
 ;
 mutable
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >

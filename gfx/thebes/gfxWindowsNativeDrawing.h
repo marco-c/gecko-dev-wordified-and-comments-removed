@@ -142,7 +142,7 @@ PaintToContext
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -160,7 +160,7 @@ mRenderState
 gfxPoint
 mDeviceOffset
 ;
-nsRefPtr
+RefPtr
 <
 gfxPattern
 >
@@ -187,7 +187,7 @@ mScale
 XFORM
 mWorldTransform
 ;
-nsRefPtr
+RefPtr
 <
 gfxWindowsSurface
 >

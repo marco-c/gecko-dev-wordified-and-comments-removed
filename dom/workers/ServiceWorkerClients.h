@@ -169,7 +169,7 @@ ServiceWorkerClients
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 ServiceWorkerGlobalScope
 >

@@ -937,7 +937,7 @@ mNextConfigurationClipRegion
 bool
 mReflowCallbackPosted
 ;
-nsRefPtr
+RefPtr
 <
 nsRootPresContext
 >

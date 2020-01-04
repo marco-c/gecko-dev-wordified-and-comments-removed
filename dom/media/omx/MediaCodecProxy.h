@@ -63,7 +63,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -571,7 +571,7 @@ CodecResourceListener
 >
 mListener
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

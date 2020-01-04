@@ -1078,7 +1078,7 @@ mCr
 -
 ;
 }
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -1098,7 +1098,7 @@ ImageFormat
 PLANAR_YCBCR
 )
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -1259,7 +1259,7 @@ kStarted
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -2141,7 +2141,7 @@ aTimer
 AudioSegment
 segment
 ;
-nsRefPtr
+RefPtr
 <
 SharedBuffer
 >
@@ -2290,7 +2290,7 @@ MediaSourceEnum
 aMediaSource
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaEngineVideoSource
 >
@@ -2322,7 +2322,7 @@ Camera
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaEngineVideoSource
 >
@@ -2372,7 +2372,7 @@ MediaSourceEnum
 aMediaSource
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaEngineAudioSource
 >
@@ -2412,7 +2412,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaEngineAudioSource
 >
@@ -2458,7 +2458,7 @@ Length
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaEngineAudioSource
 >

@@ -570,7 +570,7 @@ ItemProxy
 >
 mItems
 ;
-nsRefPtr
+RefPtr
 <
 nsSVGElement
 >

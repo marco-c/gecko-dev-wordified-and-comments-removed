@@ -253,7 +253,7 @@ CreateTextureSourceForPlane
 0
 )
 ;
-nsRefPtr
+RefPtr
 <
 TextureSource
 >
@@ -282,7 +282,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 TextureSource
 >

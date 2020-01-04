@@ -805,7 +805,7 @@ BackstagePass
 ret
 )
 {
-nsRefPtr
+RefPtr
 <
 BackstagePass
 >

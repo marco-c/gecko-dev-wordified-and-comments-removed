@@ -25,7 +25,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -144,7 +144,7 @@ ResourceStream
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 mozilla
 :

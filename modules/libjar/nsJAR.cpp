@@ -396,7 +396,7 @@ mOpened
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 nsZipArchive
 >
@@ -521,7 +521,7 @@ Assign
 aZipEntry
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsZipHandle
 >
@@ -612,7 +612,7 @@ mOpened
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 nsZipHandle
 >
@@ -718,7 +718,7 @@ mTotalItemsInManifest
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 nsZipArchive
 >
@@ -741,7 +741,7 @@ Omnijar
 GRE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsZipArchive
 >
@@ -1437,7 +1437,7 @@ aSigningCert
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 nsZipArchive
 >
@@ -1460,7 +1460,7 @@ Omnijar
 GRE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsZipArchive
 >
@@ -1745,7 +1745,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsZipHandle
 >
@@ -4861,7 +4861,7 @@ file
 0
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsJAR
 >
@@ -5087,7 +5087,7 @@ Append
 entry
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsJAR
 >
@@ -5289,7 +5289,7 @@ lock
 mLock
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsJAR
 >
@@ -5339,7 +5339,7 @@ unlock
 mLock
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsJAR
 >
@@ -5713,7 +5713,7 @@ mOuterZipEntry
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsJAR
 >
@@ -5775,7 +5775,7 @@ const
 nsACString
 &
 aKey
-nsRefPtr
+RefPtr
 <
 nsJAR
 >
@@ -5981,7 +5981,7 @@ lock
 mLock
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsJAR
 >

@@ -542,7 +542,7 @@ getDocument
 document
 )
 ;
-nsRefPtr
+RefPtr
 <
 DocumentFragment
 >
@@ -650,7 +650,7 @@ elem
 NS_ERROR_NULL_POINTER
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsTextNode
 >
@@ -1270,7 +1270,7 @@ case
 NODE_SET
 :
 {
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >
@@ -1326,7 +1326,7 @@ aResult
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -1505,7 +1505,7 @@ case
 OBJECT_TYPE
 :
 {
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >
@@ -1535,7 +1535,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 StringResult
 >
@@ -1601,7 +1601,7 @@ case
 INTERSECTION
 :
 {
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -1628,7 +1628,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -1655,7 +1655,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -1811,7 +1811,7 @@ case
 DISTINCT
 :
 {
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -1838,7 +1838,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -1977,7 +1977,7 @@ case
 HAS_SAME_NODE
 :
 {
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -2004,7 +2004,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -2112,7 +2112,7 @@ case
 TRAILING
 :
 {
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -2139,7 +2139,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -2191,7 +2191,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -2327,7 +2327,7 @@ case
 CONCAT
 :
 {
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -2516,7 +2516,7 @@ n
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DocumentFragment
 >
@@ -2532,7 +2532,7 @@ NS_ENSURE_STATE
 docFrag
 )
 ;
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -2885,7 +2885,7 @@ case
 MIN
 :
 {
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -3100,7 +3100,7 @@ case
 LOWEST
 :
 {
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -3149,7 +3149,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >

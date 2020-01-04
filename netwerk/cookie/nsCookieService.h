@@ -454,7 +454,7 @@ public
 typedef
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsCookie
 >
@@ -543,7 +543,7 @@ CookieDomainTuple
 nsCookieKey
 key
 ;
-nsRefPtr
+RefPtr
 <
 nsCookie
 >
@@ -1414,13 +1414,13 @@ DBState
 *
 mDBState
 ;
-nsRefPtr
+RefPtr
 <
 DBState
 >
 mDefaultDBState
 ;
-nsRefPtr
+RefPtr
 <
 DBState
 >

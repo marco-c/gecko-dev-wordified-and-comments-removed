@@ -796,7 +796,7 @@ const
 nsString
 mPath
 ;
-nsRefPtr
+RefPtr
 <
 TabParent
 >
@@ -978,7 +978,7 @@ MOZ_ASSERT
 mEventTarget
 )
 ;
-nsRefPtr
+RefPtr
 <
 TabParent
 >
@@ -1616,7 +1616,7 @@ RemoveWindowListeners
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPIWindowRoot
 >
@@ -2016,7 +2016,7 @@ IsVisible
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -2493,7 +2493,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -2985,7 +2985,7 @@ mIsDestroyed
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -4968,7 +4968,7 @@ else
 #
 endif
 {
-nsRefPtr
+RefPtr
 <
 OpenFileAndSendFDRunnable
 >
@@ -5053,7 +5053,7 @@ IsInitedByParent
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -5440,7 +5440,7 @@ UpdatePosition
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -7960,7 +7960,7 @@ SynthesizedEventObserver
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 TabParent
 >
@@ -9479,7 +9479,7 @@ aWidth
 aHeight
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -9577,7 +9577,7 @@ GuaranteePersistance
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxDrawable
 >
@@ -10514,7 +10514,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 TabParent
 >
@@ -10909,7 +10909,7 @@ offset
 0
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -11577,7 +11577,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -12611,7 +12611,7 @@ StructuredCloneData
 aRetVal
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -12635,7 +12635,7 @@ GetFrameMessageManager
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameMessageManager
 >
@@ -12891,7 +12891,7 @@ IsEmpty
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -13076,7 +13076,7 @@ if
 os
 )
 {
-nsRefPtr
+RefPtr
 <
 AudioChannelService
 >
@@ -13191,7 +13191,7 @@ if
 mFrameLoader
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -14158,7 +14158,7 @@ AppUnitsPerDevPixel
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Touch
 >
@@ -14523,7 +14523,7 @@ bool
 aActive
 )
 {
-nsRefPtr
+RefPtr
 <
 LayerTreeUpdateRunnable
 >
@@ -14694,7 +14694,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -14915,7 +14915,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -15712,7 +15712,7 @@ authPrompt
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 FakeChannel
 >
@@ -15734,7 +15734,7 @@ nsIAuthInformation
 :
 AUTH_HOST
 ;
-nsRefPtr
+RefPtr
 <
 nsAuthInformationHolder
 >
@@ -16448,7 +16448,7 @@ kFilePromiseMime
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsISupports
 >
@@ -16560,7 +16560,7 @@ TabParent
 :
 TakeDragVisualization
 (
-nsRefPtr
+RefPtr
 <
 mozilla
 :

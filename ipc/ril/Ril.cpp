@@ -336,7 +336,7 @@ Close
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 RilSocket
 >
@@ -1703,7 +1703,7 @@ unsigned
 int
 mClientId
 ;
-nsRefPtr
+RefPtr
 <
 WorkerCrossThreadDispatcher
 >
@@ -1722,7 +1722,7 @@ int
 aClientId
 )
 {
-nsRefPtr
+RefPtr
 <
 RegisterConsumerTask
 >
@@ -1861,7 +1861,7 @@ int
 aClientId
 )
 {
-nsRefPtr
+RefPtr
 <
 UnregisterConsumerTask
 >

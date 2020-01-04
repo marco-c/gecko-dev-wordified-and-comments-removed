@@ -481,7 +481,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >
@@ -556,7 +556,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >
@@ -609,7 +609,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 MFTDecoder
 >

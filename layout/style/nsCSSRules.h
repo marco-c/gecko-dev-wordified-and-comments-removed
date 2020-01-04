@@ -362,7 +362,7 @@ nsAString
 aOutput
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsMediaList
 >
@@ -1029,7 +1029,7 @@ mDecl
 struct
 nsFontFaceRuleContainer
 {
-nsRefPtr
+RefPtr
 <
 nsCSSFontFaceRule
 >
@@ -1683,7 +1683,7 @@ Declaration
 >
 mDeclaration
 ;
-nsRefPtr
+RefPtr
 <
 nsCSSKeyframeStyleDeclaration
 >
@@ -2207,13 +2207,13 @@ Declaration
 >
 mDeclaration
 ;
-nsRefPtr
+RefPtr
 <
 nsCSSPageStyleDeclaration
 >
 mDOMDeclaration
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

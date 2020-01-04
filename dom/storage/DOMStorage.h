@@ -496,13 +496,13 @@ nsIDOMWindow
 >
 mWindow
 ;
-nsRefPtr
+RefPtr
 <
 DOMStorageManager
 >
 mManager
 ;
-nsRefPtr
+RefPtr
 <
 DOMStorageCache
 >

@@ -460,7 +460,7 @@ mCommentLen
 bool
 mBuiltSynthetics
 ;
-nsRefPtr
+RefPtr
 <
 nsZipHandle
 >
@@ -554,7 +554,7 @@ aNameLen
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 nsZipArchive
 >
@@ -731,7 +731,7 @@ mReadlen
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 nsZipHandle
 >

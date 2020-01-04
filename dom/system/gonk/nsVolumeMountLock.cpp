@@ -156,7 +156,7 @@ called
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsVolumeMountLock
 >
@@ -631,7 +631,7 @@ nsIVolume
 aVolume
 )
 {
-nsRefPtr
+RefPtr
 <
 power
 :

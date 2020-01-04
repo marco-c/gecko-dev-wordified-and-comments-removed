@@ -2026,7 +2026,7 @@ dbState
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 DBState
 >
@@ -2805,7 +2805,7 @@ dbState
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 DBState
 >
@@ -9447,7 +9447,7 @@ PR_Now
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsCookie
 >
@@ -9592,7 +9592,7 @@ rv
 nsListIter
 matchIter
 ;
-nsRefPtr
+RefPtr
 <
 nsCookie
 >
@@ -10812,7 +10812,7 @@ path
 ;
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 nsCookie
 >
@@ -12014,7 +12014,7 @@ DEFAULT_APP_KEY
 baseDomain
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsCookie
 >
@@ -13610,7 +13610,7 @@ return
 newCookie
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsCookie
 >
@@ -13871,7 +13871,7 @@ Path
 matchIter
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsCookie
 >

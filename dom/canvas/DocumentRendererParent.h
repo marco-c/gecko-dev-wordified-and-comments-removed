@@ -119,7 +119,7 @@ nsICanvasRenderingContextInternal
 >
 mCanvas
 ;
-nsRefPtr
+RefPtr
 <
 gfxContext
 >

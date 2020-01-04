@@ -392,7 +392,7 @@ bool
 aForceUpdate
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

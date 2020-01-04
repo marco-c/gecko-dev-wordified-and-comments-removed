@@ -311,7 +311,7 @@ if
 result
 )
 {
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >

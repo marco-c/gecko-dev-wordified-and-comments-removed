@@ -20,7 +20,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -311,7 +311,7 @@ mRotateAngle
 PathSourceType
 mPathSourceType
 ;
-nsRefPtr
+RefPtr
 <
 Path
 >

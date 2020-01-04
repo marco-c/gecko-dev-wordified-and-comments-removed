@@ -1741,7 +1741,7 @@ flags
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 xpc
 :
@@ -2036,7 +2036,7 @@ exn
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 xpc
 :

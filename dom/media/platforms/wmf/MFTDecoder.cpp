@@ -300,7 +300,7 @@ GetAttributes
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 IMFAttributes
 >
@@ -362,7 +362,7 @@ E_POINTER
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 IMFMediaType
 >
@@ -572,7 +572,7 @@ uint32_t
 aDataSize
 int64_t
 aTimestamp
-nsRefPtr
+RefPtr
 <
 IMFSample
 >
@@ -592,7 +592,7 @@ E_POINTER
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 IMFSample
 >
@@ -620,7 +620,7 @@ hr
 hr
 )
 ;
-nsRefPtr
+RefPtr
 <
 IMFMediaBuffer
 >
@@ -833,7 +833,7 @@ MFTDecoder
 :
 CreateOutputSample
 (
-nsRefPtr
+RefPtr
 <
 IMFSample
 >
@@ -853,7 +853,7 @@ E_POINTER
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 IMFSample
 >
@@ -881,7 +881,7 @@ hr
 hr
 )
 ;
-nsRefPtr
+RefPtr
 <
 IMFMediaBuffer
 >
@@ -975,7 +975,7 @@ MFTDecoder
 :
 Output
 (
-nsRefPtr
+RefPtr
 <
 IMFSample
 >
@@ -1007,7 +1007,7 @@ providedSample
 =
 false
 ;
-nsRefPtr
+RefPtr
 <
 IMFSample
 >
@@ -1244,7 +1244,7 @@ nullptr
 E_POINTER
 )
 ;
-nsRefPtr
+RefPtr
 <
 IMFSample
 >
@@ -1373,7 +1373,7 @@ MFTDecoder
 :
 GetOutputMediaType
 (
-nsRefPtr
+RefPtr
 <
 IMFMediaType
 >

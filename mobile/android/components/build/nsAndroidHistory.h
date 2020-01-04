@@ -165,7 +165,7 @@ nsString
 >
 mPendingLinkURIs
 ;
-nsRefPtr
+RefPtr
 <
 nsITimer
 >

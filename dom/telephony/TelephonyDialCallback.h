@@ -173,7 +173,7 @@ nsPIDOMWindow
 >
 mWindow
 ;
-nsRefPtr
+RefPtr
 <
 Telephony
 >
@@ -182,7 +182,7 @@ mTelephony
 nsString
 mServiceCode
 ;
-nsRefPtr
+RefPtr
 <
 MMICall
 >

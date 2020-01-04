@@ -176,7 +176,7 @@ document
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsGlobalWindow
 >
@@ -263,7 +263,7 @@ information
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsGlobalWindow
 >
@@ -474,7 +474,7 @@ StealNSResult
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ServiceWorkerContainer
 >
@@ -661,7 +661,7 @@ SetNull
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ServiceWorker
 >
@@ -721,7 +721,7 @@ SetNull
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ServiceWorkerMessageEvent
 >
@@ -745,7 +745,7 @@ rv
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MessagePort
 >
@@ -756,7 +756,7 @@ TakeTransferredPorts
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 MessagePortList
 >
@@ -1011,7 +1011,7 @@ array
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ServiceWorkerClientPostMessageRunnable
 >

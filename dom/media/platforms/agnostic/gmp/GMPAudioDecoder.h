@@ -241,7 +241,7 @@ aCallback
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -458,13 +458,13 @@ Dispatch
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 GMPAudioDecoder
 >
 mDecoder
 ;
-nsRefPtr
+RefPtr
 <
 GMPInitDoneRunnable
 >

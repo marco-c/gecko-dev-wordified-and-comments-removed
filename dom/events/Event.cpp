@@ -1820,7 +1820,7 @@ GetAsSupports
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -5302,7 +5302,7 @@ WidgetEvent
 aEvent
 )
 {
-nsRefPtr
+RefPtr
 <
 Event
 >

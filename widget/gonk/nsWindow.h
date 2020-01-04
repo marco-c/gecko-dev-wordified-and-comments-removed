@@ -553,7 +553,7 @@ nsIIdleServiceInternal
 >
 mIdleService
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -569,7 +569,7 @@ ANativeWindowBuffer
 *
 mFramebuffer
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -608,13 +608,13 @@ MultiTouchInput
 >
 mSynthesizedTouchInput
 ;
-nsRefPtr
+RefPtr
 <
 nsScreenGonk
 >
 mScreen
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

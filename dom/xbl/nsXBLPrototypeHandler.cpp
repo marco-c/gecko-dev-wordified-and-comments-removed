@@ -1413,7 +1413,7 @@ genericHandler
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Element
 >
@@ -1479,7 +1479,7 @@ bound
 NS_ERROR_FAILURE
 )
 ;
-nsRefPtr
+RefPtr
 <
 EventHandlerNonNull
 >

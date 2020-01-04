@@ -285,7 +285,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsComponentManagerImpl
 >
@@ -373,7 +373,7 @@ NS_IsMainThread
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 LoadModuleMainThreadRunnable
 >

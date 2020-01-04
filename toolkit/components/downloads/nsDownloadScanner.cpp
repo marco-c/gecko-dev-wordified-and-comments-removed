@@ -338,7 +338,7 @@ IsAESAvailable
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 IAttachmentExecute
 >
@@ -550,7 +550,7 @@ isDataScheme
 return
 AVPOLICY_DOWNLOAD
 ;
-nsRefPtr
+RefPtr
 <
 IAttachmentExecute
 >
@@ -1458,7 +1458,7 @@ disable
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 IAttachmentExecute
 >

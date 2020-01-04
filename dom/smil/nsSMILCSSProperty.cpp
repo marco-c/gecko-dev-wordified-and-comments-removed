@@ -194,7 +194,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsComputedDOMStyle
 >

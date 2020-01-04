@@ -105,13 +105,13 @@ nsPIDOMWindow
 >
 mWindow
 ;
-nsRefPtr
+RefPtr
 <
 DOMRequest
 >
 mRequest
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >

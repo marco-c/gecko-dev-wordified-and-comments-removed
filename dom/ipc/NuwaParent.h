@@ -38,7 +38,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -236,7 +236,7 @@ ProtocolFdMapping
 >
 mNewProcessFds
 ;
-nsRefPtr
+RefPtr
 <
 ContentParent
 >

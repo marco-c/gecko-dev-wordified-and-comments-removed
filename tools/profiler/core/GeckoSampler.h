@@ -693,7 +693,7 @@ ThreadProfile
 *
 mPrimaryThreadProfile
 ;
-nsRefPtr
+RefPtr
 <
 ProfileBuffer
 >
@@ -761,7 +761,7 @@ mIntelPowerGadget
 endif
 private
 :
-nsRefPtr
+RefPtr
 <
 mozilla
 :

@@ -14125,7 +14125,7 @@ GetNativeData
 NS_NATIVE_GRAPHIC
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -14365,7 +14365,7 @@ ThemeGeometry
 aThemeGeometries
 )
 {
-nsRefPtr
+RefPtr
 <
 LayerManager
 >
@@ -27628,7 +27628,7 @@ height
 )
 return
 ;
-nsRefPtr
+RefPtr
 <
 gfxWindowsSurface
 >
@@ -27985,7 +27985,7 @@ GetSize
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -30915,7 +30915,7 @@ nsWindow
 :
 CaptureWidgetOnScreen
 (
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -30989,7 +30989,7 @@ gfxWindowsSurface
 :
 FLAG_IS_TRANSPARENT
 ;
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -31053,7 +31053,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -31091,7 +31091,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

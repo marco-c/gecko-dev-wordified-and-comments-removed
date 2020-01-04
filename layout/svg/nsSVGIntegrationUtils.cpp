@@ -2288,7 +2288,7 @@ PopGroupToSource
 Matrix
 maskTransform
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2347,7 +2347,7 @@ cssPxToDevPxMatrix
 Matrix
 clippedMaskTransform
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -3148,7 +3148,7 @@ AppUnitsPerDevPixel
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxPattern
 >
@@ -3235,7 +3235,7 @@ GetMatrix
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxDrawable
 >
@@ -3256,7 +3256,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxDrawingCallback
 >
@@ -3271,7 +3271,7 @@ aRenderSize
 aFlags
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxDrawable
 >

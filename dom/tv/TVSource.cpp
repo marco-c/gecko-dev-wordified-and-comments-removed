@@ -270,7 +270,7 @@ TVTuner
 aTuner
 )
 {
-nsRefPtr
+RefPtr
 <
 TVSource
 >
@@ -583,7 +583,7 @@ mCurrentChannel
 NS_ERROR_DOM_ABORT_ERR
 )
 ;
-nsRefPtr
+RefPtr
 <
 TVSource
 >
@@ -728,7 +728,7 @@ MOZ_ASSERT
 global
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -884,7 +884,7 @@ MOZ_ASSERT
 global
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1042,7 +1042,7 @@ MOZ_ASSERT
 global
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1275,7 +1275,7 @@ MOZ_ASSERT
 global
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1387,7 +1387,7 @@ Tuner
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 TVTuner
 >
@@ -1441,7 +1441,7 @@ GetCurrentChannel
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 TVChannel
 >
@@ -1468,7 +1468,7 @@ nsITVChannelData
 aChannelData
 )
 {
-nsRefPtr
+RefPtr
 <
 TVChannel
 >
@@ -1568,7 +1568,7 @@ uint32_t
 aCount
 )
 {
-nsRefPtr
+RefPtr
 <
 TVChannel
 >
@@ -1611,7 +1611,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 TVProgram
 >

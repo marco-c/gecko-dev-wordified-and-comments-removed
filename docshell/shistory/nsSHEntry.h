@@ -117,7 +117,7 @@ nsSHEntry
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsSHEntryShared
 >

@@ -91,7 +91,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -330,7 +330,7 @@ mDeviceAddress
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Blob
 >
@@ -615,7 +615,7 @@ CheckPutFinal
 numRead
 )
 ;
-nsRefPtr
+RefPtr
 <
 SendSocketDataTask
 >
@@ -736,7 +736,7 @@ Close
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 BluetoothSocket
 >
@@ -1573,7 +1573,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -1586,7 +1586,7 @@ GetBlobImpl
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Blob
 >
@@ -2973,7 +2973,7 @@ Truncate
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -4664,7 +4664,7 @@ return
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 ReadFileTask
 >

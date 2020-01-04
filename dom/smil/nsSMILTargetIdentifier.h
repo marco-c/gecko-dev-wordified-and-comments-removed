@@ -93,7 +93,7 @@ mIsCSS
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -105,7 +105,7 @@ Element
 >
 mElement
 ;
-nsRefPtr
+RefPtr
 <
 nsIAtom
 >

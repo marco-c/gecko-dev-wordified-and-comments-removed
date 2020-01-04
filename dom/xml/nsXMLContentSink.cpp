@@ -488,7 +488,7 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsXMLContentSink
 >
@@ -893,7 +893,7 @@ true
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsXMLPrettyPrinter
 >
@@ -1983,7 +1983,7 @@ rv
 =
 NS_OK
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1997,7 +1997,7 @@ ni
 =
 aNodeInfo
 ;
-nsRefPtr
+RefPtr
 <
 Element
 >
@@ -3543,7 +3543,7 @@ mTextLength
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 nsTextNode
 >
@@ -4234,7 +4234,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -4892,7 +4892,7 @@ FlushText
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Comment
 >
@@ -4972,7 +4972,7 @@ FlushText
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CDATASection
 >

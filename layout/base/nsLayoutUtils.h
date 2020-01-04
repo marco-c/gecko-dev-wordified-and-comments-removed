@@ -4183,7 +4183,7 @@ SurfaceFromElementResult
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

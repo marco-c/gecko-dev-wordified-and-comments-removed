@@ -1363,7 +1363,7 @@ mozilla
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -1724,7 +1724,7 @@ if
 flo
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >

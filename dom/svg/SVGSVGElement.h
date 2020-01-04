@@ -309,7 +309,7 @@ GetParentObject
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 SVGSVGElement
 >
@@ -1589,7 +1589,7 @@ float
 mOriginalTime
 ;
 const
-nsRefPtr
+RefPtr
 <
 dom
 :

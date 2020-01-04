@@ -379,7 +379,7 @@ nsAString
 aAccessKey
 )
 {
-nsRefPtr
+RefPtr
 <
 Element
 >
@@ -438,7 +438,7 @@ labelKey
 buttonTxt
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsTextNode
 >
@@ -493,7 +493,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 HTMLButtonElement
 >
@@ -623,7 +623,7 @@ nsGkAtoms
 directory
 )
 ;
-nsRefPtr
+RefPtr
 <
 HTMLInputElement
 >
@@ -740,7 +740,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 NodeInfo
 >
@@ -1322,7 +1322,7 @@ dataTransfer
 false
 )
 ;
-nsRefPtr
+RefPtr
 <
 DOMStringList
 >

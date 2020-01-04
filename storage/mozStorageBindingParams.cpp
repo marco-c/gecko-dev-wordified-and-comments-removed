@@ -949,7 +949,7 @@ mLocked
 NS_ERROR_UNEXPECTED
 )
 ;
-nsRefPtr
+RefPtr
 <
 Variant_base
 >
@@ -1442,7 +1442,7 @@ aIndex
 mParamCount
 )
 ;
-nsRefPtr
+RefPtr
 <
 Variant_base
 >
@@ -1532,7 +1532,7 @@ mLocked
 NS_ERROR_UNEXPECTED
 )
 ;
-nsRefPtr
+RefPtr
 <
 Variant_base
 >

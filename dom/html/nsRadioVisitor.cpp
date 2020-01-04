@@ -53,7 +53,7 @@ nsIFormControl
 aRadio
 )
 {
-nsRefPtr
+RefPtr
 <
 HTMLInputElement
 >
@@ -118,7 +118,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 HTMLInputElement
 >

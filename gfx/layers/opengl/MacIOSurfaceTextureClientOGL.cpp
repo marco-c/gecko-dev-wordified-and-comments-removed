@@ -105,7 +105,7 @@ MacIOSurface
 aSurface
 )
 {
-nsRefPtr
+RefPtr
 <
 MacIOSurfaceTextureClientOGL
 >
@@ -322,7 +322,7 @@ GetAsSurface
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :

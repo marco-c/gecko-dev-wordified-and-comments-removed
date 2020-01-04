@@ -2747,7 +2747,7 @@ buffer
 handle
 )
 {
-nsRefPtr
+RefPtr
 <
 TextureClient
 >

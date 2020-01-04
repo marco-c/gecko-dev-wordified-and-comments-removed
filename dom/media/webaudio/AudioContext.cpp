@@ -696,7 +696,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 AudioContext
 >
@@ -787,7 +787,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 AudioContext
 >
@@ -926,7 +926,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 AudioContext
 >
@@ -1022,7 +1022,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 AudioBufferSourceNode
 >
@@ -1188,7 +1188,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaStreamAudioDestinationNode
 >
@@ -1290,7 +1290,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ScriptProcessorNode
 >
@@ -1339,7 +1339,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 AnalyserNode
 >
@@ -1385,7 +1385,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 StereoPannerNode
 >
@@ -1475,7 +1475,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -1512,7 +1512,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaElementAudioSourceNode
 >
@@ -1578,7 +1578,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaStreamAudioSourceNode
 >
@@ -1626,7 +1626,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 GainNode
 >
@@ -1672,7 +1672,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 WaveShaperNode
 >
@@ -1734,7 +1734,7 @@ aMaxDelayTime
 .
 )
 {
-nsRefPtr
+RefPtr
 <
 DelayNode
 >
@@ -1792,7 +1792,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 PannerNode
 >
@@ -1845,7 +1845,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ConvolverNode
 >
@@ -1920,7 +1920,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ChannelSplitterNode
 >
@@ -1996,7 +1996,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ChannelMergerNode
 >
@@ -2043,7 +2043,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DynamicsCompressorNode
 >
@@ -2089,7 +2089,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 BiquadFilterNode
 >
@@ -2135,7 +2135,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 OscillatorNode
 >
@@ -2235,7 +2235,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 PeriodicWave
 >
@@ -2363,7 +2363,7 @@ GetParentObject
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2481,13 +2481,13 @@ length
 contentType
 )
 ;
-nsRefPtr
+RefPtr
 <
 DecodeErrorCallback
 >
 failureCallback
 ;
-nsRefPtr
+RefPtr
 <
 DecodeSuccessCallback
 >
@@ -2531,7 +2531,7 @@ Value
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 WebAudioDecodeJob
 >
@@ -2891,7 +2891,7 @@ mIsOffline
 ErrorResult
 dummy
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -3232,7 +3232,7 @@ false
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 AudioContext
 >
@@ -3505,7 +3505,7 @@ mAudioContextState
 aNewState
 )
 {
-nsRefPtr
+RefPtr
 <
 OnStateChangeTask
 >
@@ -3638,7 +3638,7 @@ GetParentObject
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -3847,7 +3847,7 @@ GetParentObject
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -4055,7 +4055,7 @@ GetParentObject
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -4436,7 +4436,7 @@ mIsStarted
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >

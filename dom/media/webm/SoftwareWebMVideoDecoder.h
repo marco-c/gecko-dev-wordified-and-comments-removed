@@ -44,7 +44,7 @@ aReader
 )
 ;
 virtual
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -108,7 +108,7 @@ int
 aHeight
 )
 ;
-nsRefPtr
+RefPtr
 <
 WebMReader
 >

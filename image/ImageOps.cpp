@@ -120,7 +120,7 @@ Image
 aImage
 )
 {
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -197,7 +197,7 @@ nsIntRect
 aClip
 )
 {
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -278,7 +278,7 @@ Orientation
 aOrientation
 )
 {
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -488,7 +488,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceBuffer
 >
@@ -556,7 +556,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Decoder
 >
@@ -635,7 +635,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

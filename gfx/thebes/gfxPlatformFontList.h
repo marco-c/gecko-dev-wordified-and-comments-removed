@@ -451,7 +451,7 @@ GetFontFamilyList
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -774,7 +774,7 @@ aFamilyList
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -1115,7 +1115,7 @@ nsStringHashKey
 :
 KeyType
 aKey
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -1183,7 +1183,7 @@ eFontPrefLang
 aPrefLang
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -1313,7 +1313,7 @@ mOtherNamesMissed
 typedef
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -1355,7 +1355,7 @@ mLangGroupPrefFonts
 gfxSparseBitSet
 mCodepointsWithNoFonts
 ;
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -1375,7 +1375,7 @@ mSharedCmaps
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >

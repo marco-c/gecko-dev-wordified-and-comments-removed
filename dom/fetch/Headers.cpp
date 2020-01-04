@@ -92,7 +92,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 InternalHeaders
 >
@@ -103,7 +103,7 @@ InternalHeaders
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Headers
 >
@@ -324,7 +324,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 InternalHeaders
 >
@@ -335,7 +335,7 @@ InternalHeaders
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Headers
 >

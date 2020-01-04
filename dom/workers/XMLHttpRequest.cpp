@@ -206,7 +206,7 @@ mMozAnon
 bool
 mMozSystem
 ;
-nsRefPtr
+RefPtr
 <
 nsXMLHttpRequest
 >
@@ -511,7 +511,7 @@ WorkerPrivate
 *
 mWorkerPrivate
 ;
-nsRefPtr
+RefPtr
 <
 Proxy
 >
@@ -532,7 +532,7 @@ final
 public
 MainThreadStopSyncLoopRunnable
 {
-nsRefPtr
+RefPtr
 <
 Proxy
 >
@@ -1121,7 +1121,7 @@ MainThreadWorkerSyncRunnable
 {
 protected
 :
-nsRefPtr
+RefPtr
 <
 Proxy
 >
@@ -1255,7 +1255,7 @@ final
 public
 nsRunnable
 {
-nsRefPtr
+RefPtr
 <
 Proxy
 >
@@ -1332,13 +1332,13 @@ WorkerPrivate
 *
 mWorkerPrivate
 ;
-nsRefPtr
+RefPtr
 <
 Proxy
 >
 mProxy
 ;
-nsRefPtr
+RefPtr
 <
 nsXMLHttpRequest
 >
@@ -3294,7 +3294,7 @@ if
 aSendUnpin
 )
 {
-nsRefPtr
+RefPtr
 <
 XHRUnpinRunnable
 >
@@ -3342,7 +3342,7 @@ if
 mSyncLoopTarget
 )
 {
-nsRefPtr
+RefPtr
 <
 MainThreadStopSyncLoopRunnable
 >
@@ -3756,7 +3756,7 @@ AsProgressEvent
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 EventRunnable
 >
@@ -3996,7 +3996,7 @@ mMainThreadSeenLoadStart
 =
 false
 ;
-nsRefPtr
+RefPtr
 <
 LoadStartDetectionRunnable
 >
@@ -4138,7 +4138,7 @@ Reset
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ProxyCompleteRunnable
 >
@@ -4293,7 +4293,7 @@ AssertIsOnMainThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsXMLHttpRequest
 >
@@ -5294,7 +5294,7 @@ MOZ_ASSERT
 target
 )
 ;
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -5479,7 +5479,7 @@ MainThreadRun
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ResponseRunnable
 >
@@ -6389,7 +6389,7 @@ MOZ_ASSERT
 workerPrivate
 )
 ;
-nsRefPtr
+RefPtr
 <
 XMLHttpRequest
 >
@@ -6475,7 +6475,7 @@ aType
 XHRIsGoingAway
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncTeardownRunnable
 >
@@ -6534,7 +6534,7 @@ mOuterEventStreamId
 +
 ;
 }
-nsRefPtr
+RefPtr
 <
 SyncTeardownRunnable
 >
@@ -6911,7 +6911,7 @@ NS_ERROR_FAILURE
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -7528,7 +7528,7 @@ mOuterEventStreamId
 +
 +
 ;
-nsRefPtr
+RefPtr
 <
 OpenRunnable
 >
@@ -7686,7 +7686,7 @@ NS_ERROR_DOM_INVALID_STATE_ERR
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 SetRequestHeaderRunnable
 >
@@ -7776,7 +7776,7 @@ mProxy
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 SetTimeoutRunnable
 >
@@ -7865,7 +7865,7 @@ mProxy
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 SetWithCredentialsRunnable
 >
@@ -7954,7 +7954,7 @@ mProxy
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 SetBackgroundRequestRunnable
 >
@@ -8116,7 +8116,7 @@ NS_ERROR_DOM_INVALID_STATE_ERR
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 SendRunnable
 >
@@ -8191,7 +8191,7 @@ NS_ERROR_DOM_INVALID_STATE_ERR
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 SendRunnable
 >
@@ -8385,7 +8385,7 @@ bodyStr
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 SendRunnable
 >
@@ -8533,7 +8533,7 @@ NS_ERROR_FAILURE
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -8575,7 +8575,7 @@ Failed
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 SendRunnable
 >
@@ -8723,7 +8723,7 @@ NS_ERROR_FAILURE
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 SendRunnable
 >
@@ -8928,7 +8928,7 @@ mOuterEventStreamId
 +
 +
 ;
-nsRefPtr
+RefPtr
 <
 AbortRunnable
 >
@@ -9027,7 +9027,7 @@ return
 nsCString
 responseHeader
 ;
-nsRefPtr
+RefPtr
 <
 GetResponseHeaderRunnable
 >
@@ -9128,7 +9128,7 @@ return
 nsCString
 responseHeaders
 ;
-nsRefPtr
+RefPtr
 <
 GetAllResponseHeadersRunnable
 >
@@ -9251,7 +9251,7 @@ NS_ERROR_DOM_INVALID_STATE_ERR
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 OverrideMimeTypeRunnable
 >
@@ -9391,7 +9391,7 @@ aResponseType
 responseType
 )
 ;
-nsRefPtr
+RefPtr
 <
 SetResponseTypeRunnable
 >

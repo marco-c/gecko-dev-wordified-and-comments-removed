@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -288,7 +288,7 @@ Snapshot
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 gfx
 :

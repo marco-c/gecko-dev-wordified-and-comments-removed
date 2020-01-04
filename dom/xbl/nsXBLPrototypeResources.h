@@ -210,7 +210,7 @@ mRuleProcessor
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 nsXBLResourceLoader
 >
@@ -218,7 +218,7 @@ mLoader
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -228,7 +228,7 @@ CSSStyleSheet
 >
 mStyleSheetList
 ;
-nsRefPtr
+RefPtr
 <
 nsCSSRuleProcessor
 >

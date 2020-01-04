@@ -435,13 +435,13 @@ StructuredCloneWriteInfo
 struct
 BlobOrMutableFile
 {
-nsRefPtr
+RefPtr
 <
 Blob
 >
 mBlob
 ;
-nsRefPtr
+RefPtr
 <
 IDBMutableFile
 >
@@ -982,7 +982,7 @@ Transaction
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBRequest
 >
@@ -1718,7 +1718,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -3158,7 +3158,7 @@ IsFile
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -4319,7 +4319,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBObjectStore
 >
@@ -6337,7 +6337,7 @@ commonParams
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDBRequest
 >
@@ -6677,7 +6677,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDBKeyRange
 >
@@ -6803,7 +6803,7 @@ limit
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDBRequest
 >
@@ -7164,7 +7164,7 @@ Id
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBRequest
 >
@@ -7447,7 +7447,7 @@ id
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBIndex
 >
@@ -7476,7 +7476,7 @@ idxIndex
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 IDBIndex
 >
@@ -7839,7 +7839,7 @@ indexes
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DOMStringList
 >
@@ -7999,7 +7999,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDBKeyRange
 >
@@ -8075,7 +8075,7 @@ keyRange
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBRequest
 >
@@ -8308,7 +8308,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDBKeyRange
 >
@@ -8389,7 +8389,7 @@ keyRange
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBRequest
 >
@@ -9087,7 +9087,7 @@ this
 metadata
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBIndex
 >
@@ -9437,7 +9437,7 @@ indexIndex
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 IDBIndex
 >
@@ -9714,7 +9714,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDBKeyRange
 >
@@ -9799,7 +9799,7 @@ void_t
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDBRequest
 >
@@ -10012,7 +10012,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDBKeyRange
 >
@@ -10192,7 +10192,7 @@ openParams
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDBRequest
 >

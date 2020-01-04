@@ -308,7 +308,7 @@ nsIMobileConnectionInfo
 aVoice
 )
 {
-nsRefPtr
+RefPtr
 <
 nsIMobileConnectionInfo
 >
@@ -340,7 +340,7 @@ nsIMobileConnectionInfo
 aData
 )
 {
-nsRefPtr
+RefPtr
 <
 nsIMobileConnectionInfo
 >

@@ -299,7 +299,7 @@ CacheEntryWriter
 aResult
 )
 {
-nsRefPtr
+RefPtr
 <
 CacheEntryWriter
 >
@@ -1033,7 +1033,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 HeaderCopier
 >
@@ -2473,7 +2473,7 @@ aStatusCode
 NS_ERROR_FILE_NOT_FOUND
 ;
 }
-nsRefPtr
+RefPtr
 <
 PackagedAppDownloader
 >
@@ -2822,7 +2822,7 @@ mWriter
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 ResourceCacheInfo
 >
@@ -4254,7 +4254,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 ResourceCacheInfo
 >
@@ -5189,7 +5189,7 @@ key
 spec
 ;
 }
-nsRefPtr
+RefPtr
 <
 PackagedAppDownloader
 >
@@ -5426,7 +5426,7 @@ key
 downloader
 )
 ;
-nsRefPtr
+RefPtr
 <
 PackagedAppChannelListener
 >

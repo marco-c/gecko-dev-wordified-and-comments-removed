@@ -534,7 +534,7 @@ aFlags
 Pair
 <
 DrawResult
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -608,7 +608,7 @@ GetFirstFrameRect
 Pair
 <
 DrawResult
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -759,7 +759,7 @@ mFramesNotified
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 SourceBuffer
 >
@@ -864,7 +864,7 @@ RasterImage
 aImage
 )
 ;
-nsRefPtr
+RefPtr
 <
 RasterImage
 >

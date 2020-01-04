@@ -87,7 +87,7 @@ value
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 DeviceStorageRequest
 >

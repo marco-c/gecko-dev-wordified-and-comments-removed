@@ -167,7 +167,7 @@ aWhy
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 ServiceWorkerManagerService
 >

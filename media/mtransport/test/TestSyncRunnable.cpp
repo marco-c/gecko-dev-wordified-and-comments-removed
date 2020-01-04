@@ -147,7 +147,7 @@ TestSyncRunnable
 TestDispatch
 )
 {
-nsRefPtr
+RefPtr
 <
 TestRunnable
 >
@@ -159,7 +159,7 @@ TestRunnable
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 SyncRunnable
 >
@@ -197,7 +197,7 @@ TestSyncRunnable
 TestDispatchStatic
 )
 {
-nsRefPtr
+RefPtr
 <
 TestRunnable
 >

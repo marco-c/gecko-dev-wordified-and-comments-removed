@@ -315,7 +315,7 @@ nsIStreamListener
 public
 nsIProgressEventSink
 {
-nsRefPtr
+RefPtr
 <
 HttpChannelChild
 >
@@ -6305,7 +6305,7 @@ this
 mListenerContext
 )
 ;
-nsRefPtr
+RefPtr
 <
 InterceptedChannelContent
 >

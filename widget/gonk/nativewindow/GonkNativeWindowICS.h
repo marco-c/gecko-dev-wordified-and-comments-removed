@@ -504,7 +504,7 @@ GraphicBuffer
 >
 mGraphicBuffer
 ;
-nsRefPtr
+RefPtr
 <
 TextureClient
 >

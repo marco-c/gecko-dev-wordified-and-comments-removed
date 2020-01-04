@@ -220,7 +220,7 @@ SetUp
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 DummySocket
 >
@@ -320,7 +320,7 @@ test_socket_
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 DummySocket
 >

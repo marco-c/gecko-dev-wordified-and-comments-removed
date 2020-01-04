@@ -77,7 +77,7 @@ InputBlockState
 InputBlockState
 (
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -133,7 +133,7 @@ InputBlockState
 SetConfirmedTargetApzc
 (
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -235,7 +235,7 @@ InputBlockState
 UpdateTargetApzc
 (
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -282,7 +282,7 @@ nullptr
 ;
 }
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -300,7 +300,7 @@ mTargetApzc
 ;
 }
 const
-nsRefPtr
+RefPtr
 <
 const
 OverscrollHandoffChain
@@ -350,7 +350,7 @@ CancelableBlockState
 CancelableBlockState
 (
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -633,7 +633,7 @@ WheelBlockState
 WheelBlockState
 (
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -668,7 +668,7 @@ if
 aTargetConfirmed
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -750,7 +750,7 @@ WheelBlockState
 SetConfirmedTargetApzc
 (
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -758,7 +758,7 @@ AsyncPanZoomController
 aTargetApzc
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -843,7 +843,7 @@ InTransaction
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -1101,7 +1101,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -1303,7 +1303,7 @@ MouseScrollTestingEnabled
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -1432,7 +1432,7 @@ WheelBlockState
 UpdateTargetApzc
 (
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -1560,7 +1560,7 @@ PanGestureBlockState
 PanGestureBlockState
 (
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -1593,7 +1593,7 @@ if
 aTargetConfirmed
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -1635,7 +1635,7 @@ PanGestureBlockState
 SetConfirmedTargetApzc
 (
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -1643,7 +1643,7 @@ AsyncPanZoomController
 aTargetApzc
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -1677,7 +1677,7 @@ ElementAt
 0
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -2002,7 +2002,7 @@ TouchBlockState
 TouchBlockState
 (
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >

@@ -1312,7 +1312,7 @@ IsWrappedCPOW
 jsObj
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsXPCWrappedJSClass
 >
@@ -1366,7 +1366,7 @@ rv
 =
 NS_ERROR_FAILURE
 ;
-nsRefPtr
+RefPtr
 <
 nsXPCWrappedJS
 >
@@ -1385,7 +1385,7 @@ if
 root
 )
 {
-nsRefPtr
+RefPtr
 <
 nsXPCWrappedJS
 >
@@ -1425,7 +1425,7 @@ rootJSObj
 jsObj
 )
 {
-nsRefPtr
+RefPtr
 <
 nsXPCWrappedJSClass
 >
@@ -1477,7 +1477,7 @@ rv
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 nsXPCWrappedJS
 >

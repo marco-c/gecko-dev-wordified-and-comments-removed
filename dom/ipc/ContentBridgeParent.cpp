@@ -198,7 +198,7 @@ ProcessId
 aOtherPid
 )
 {
-nsRefPtr
+RefPtr
 <
 ContentBridgeParent
 >

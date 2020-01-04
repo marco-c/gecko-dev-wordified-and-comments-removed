@@ -183,7 +183,7 @@ recycled
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 txResultRecycler
 >

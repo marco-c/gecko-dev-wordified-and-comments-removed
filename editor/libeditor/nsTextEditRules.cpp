@@ -480,7 +480,7 @@ mEditor
 =
 aEditor
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -708,7 +708,7 @@ NS_ENSURE_STATE
 mEditor
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -809,7 +809,7 @@ NS_ENSURE_STATE
 mEditor
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -1963,7 +1963,7 @@ nullptr
 NodeFilterHolder
 filter
 ;
-nsRefPtr
+RefPtr
 <
 NodeIterator
 >
@@ -4437,7 +4437,7 @@ NS_ENSURE_STATE
 mEditor
 )
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -4482,7 +4482,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIContent
 >
@@ -5463,7 +5463,7 @@ NS_ENSURE_STATE
 mEditor
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >

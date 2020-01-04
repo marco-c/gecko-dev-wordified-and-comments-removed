@@ -363,7 +363,7 @@ const
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -587,7 +587,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -1141,7 +1141,7 @@ virtual
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -1748,7 +1748,7 @@ virtual
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -2525,7 +2525,7 @@ BlobImplMemory
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 DataOwner
 >
@@ -2660,7 +2660,7 @@ BlobImplTemporaryBlob
 uint64_t
 mStartPos
 ;
-nsRefPtr
+RefPtr
 <
 nsTemporaryFileInputStream
 :

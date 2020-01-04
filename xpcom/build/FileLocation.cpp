@@ -483,7 +483,7 @@ if
 mBaseZip
 )
 {
-nsRefPtr
+RefPtr
 <
 nsZipHandle
 >
@@ -570,7 +570,7 @@ IsZip
 mBaseZip
 )
 {
-nsRefPtr
+RefPtr
 <
 nsZipHandle
 >
@@ -711,7 +711,7 @@ a
 mBaseZip
 )
 {
-nsRefPtr
+RefPtr
 <
 nsZipHandle
 >
@@ -744,7 +744,7 @@ b
 mBaseZip
 )
 {
-nsRefPtr
+RefPtr
 <
 nsZipHandle
 >

@@ -156,7 +156,7 @@ SetSelectionForRanges
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Text
 >
@@ -168,7 +168,7 @@ mOffset
 uint32_t
 mReplaceLength
 ;
-nsRefPtr
+RefPtr
 <
 TextRangeArray
 >

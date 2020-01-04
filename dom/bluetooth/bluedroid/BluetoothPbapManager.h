@@ -420,13 +420,13 @@ unsigned
 int
 mRemoteMaxPacketLength
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothSocket
 >
 mSocket
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothSocket
 >

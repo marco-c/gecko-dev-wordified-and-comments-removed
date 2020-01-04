@@ -553,7 +553,7 @@ mNeedsNewAnimationIndexWhenRun
 struct
 TransitionEventInfo
 {
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -562,7 +562,7 @@ Element
 >
 mElement
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -768,7 +768,7 @@ aElement
 nsStyleContext
 *
 aOldStyleContext
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >

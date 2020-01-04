@@ -321,7 +321,7 @@ aRv
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -430,7 +430,7 @@ skipStart
 length
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -570,7 +570,7 @@ length
 l
 )
 {
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -637,7 +637,7 @@ length
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -747,7 +747,7 @@ IsBlob
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Blob
 >
@@ -1020,7 +1020,7 @@ index
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -1678,7 +1678,7 @@ mName
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 File
 >

@@ -175,7 +175,7 @@ WebMAudioDecoder
 {
 public
 :
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -255,7 +255,7 @@ VorbisDecoder
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 WebMReader
 >
@@ -368,7 +368,7 @@ mReader
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -1034,7 +1034,7 @@ WebMAudioDecoder
 {
 public
 :
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -1114,7 +1114,7 @@ OpusDecoder
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 WebMReader
 >
@@ -1210,7 +1210,7 @@ mReader
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 InitPromise
 >

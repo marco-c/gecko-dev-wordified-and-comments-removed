@@ -301,7 +301,7 @@ nameFlag
 eNameFromSubtree
 )
 {
-nsRefPtr
+RefPtr
 <
 AccEvent
 >
@@ -2434,7 +2434,7 @@ ProcessEventQueue
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 AccEvent
 >

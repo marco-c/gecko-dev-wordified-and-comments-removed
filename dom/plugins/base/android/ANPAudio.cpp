@@ -1427,7 +1427,7 @@ keepGoing
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 AudioRunnable
 >

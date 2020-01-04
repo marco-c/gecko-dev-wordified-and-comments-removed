@@ -3014,7 +3014,7 @@ GetModifierKeyState
 aMessage
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsWindowBase
 >

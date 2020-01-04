@@ -6500,7 +6500,7 @@ mChildrenPending
 new
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -7622,7 +7622,7 @@ IsEmpty
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 ContentParent
 >
@@ -8698,7 +8698,7 @@ NS_ERROR_NOT_AVAILABLE
 ;
 #
 else
-nsRefPtr
+RefPtr
 <
 ExplicitCallback
 >
@@ -8709,7 +8709,7 @@ ExplicitCallback
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Int64Wrapper
 >
@@ -9712,7 +9712,7 @@ nsIRunnable
 aCallback
 )
 {
-nsRefPtr
+RefPtr
 <
 MinimizeMemoryUsageRunnable
 >
@@ -10225,7 +10225,7 @@ GET_MEMORY_REPORTER_MANAGER
 mgr
 )
 \
-nsRefPtr
+RefPtr
 <
 nsMemoryReporterManager
 >
@@ -10563,7 +10563,7 @@ manager
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 DoNothingCallback
 >

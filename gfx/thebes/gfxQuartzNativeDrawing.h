@@ -40,7 +40,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -114,13 +114,13 @@ gfxQuartzNativeDrawing
 =
 delete
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
 mDrawTarget
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >

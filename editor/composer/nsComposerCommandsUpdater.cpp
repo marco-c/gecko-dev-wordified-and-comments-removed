@@ -1487,7 +1487,7 @@ nsISelectionListener
 aInstancePtrResult
 )
 {
-nsRefPtr
+RefPtr
 <
 nsComposerCommandsUpdater
 >

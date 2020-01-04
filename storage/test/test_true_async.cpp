@@ -322,7 +322,7 @@ do_check_true
 target
 )
 ;
-nsRefPtr
+RefPtr
 <
 ThreadWedger
 >
@@ -366,7 +366,7 @@ asyncStmt
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncStatementSpinner
 >
@@ -442,7 +442,7 @@ syncStmt
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncStatementSpinner
 >

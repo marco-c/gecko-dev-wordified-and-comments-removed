@@ -386,7 +386,7 @@ GeckoMediaPlugins
 RemoveAndDeleteForcedSimple
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPRemoveTest
 >
@@ -427,7 +427,7 @@ GeckoMediaPlugins
 RemoveAndDeleteDeferredSimple
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPRemoveTest
 >
@@ -468,7 +468,7 @@ GeckoMediaPlugins
 RemoveAndDeleteForcedInUse
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPRemoveTest
 >
@@ -567,7 +567,7 @@ GeckoMediaPlugins
 RemoveAndDeleteDeferredInUse
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPRemoveTest
 >
@@ -699,7 +699,7 @@ if
 gService
 )
 {
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginService
 >
@@ -738,7 +738,7 @@ if
 gServiceParent
 )
 {
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginServiceParent
 >

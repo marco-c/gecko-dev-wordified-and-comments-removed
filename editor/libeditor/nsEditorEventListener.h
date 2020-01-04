@@ -351,7 +351,7 @@ nsEditor
 *
 mEditor
 ;
-nsRefPtr
+RefPtr
 <
 nsCaret
 >

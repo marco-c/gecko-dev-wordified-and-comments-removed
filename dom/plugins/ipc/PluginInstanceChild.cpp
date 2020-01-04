@@ -459,7 +459,7 @@ obj
 }
 ;
 static
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -480,7 +480,7 @@ GetSurfaceFormat
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -4287,7 +4287,7 @@ event
 .
 contentsScaleFactor
 ;
-nsRefPtr
+RefPtr
 <
 MacIOSurface
 >
@@ -12276,7 +12276,7 @@ sync
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -13474,7 +13474,7 @@ bool
 aForceSetWindow
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -14299,7 +14299,7 @@ plPaintRect
 aRect
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -14366,7 +14366,7 @@ CanPaintOnBackground
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -14456,7 +14456,7 @@ renderSurface
 aSurface
 )
 {
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -14557,7 +14557,7 @@ aSurface
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -14701,13 +14701,13 @@ surfaceAsImage
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 gfxImageSurface
 >
 whiteImage
 ;
-nsRefPtr
+RefPtr
 <
 gfxImageSurface
 >
@@ -14818,7 +14818,7 @@ f
 )
 ;
 {
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -14829,7 +14829,7 @@ CreateDrawTargetForSurface
 whiteImage
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -15036,7 +15036,7 @@ if
 useSurfaceSubimageForBlack
 )
 {
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -15047,7 +15047,7 @@ CreateDrawTargetForSurface
 aSurface
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -15702,7 +15702,7 @@ background
 )
 ;
 {
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -15714,7 +15714,7 @@ mHelperSurface
 :
 mCurrentSurface
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -15725,7 +15725,7 @@ CreateDrawTargetForSurface
 surface
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -15810,7 +15810,7 @@ surface
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -16417,7 +16417,7 @@ height
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -16428,7 +16428,7 @@ CreateDrawTargetForSurface
 mCurrentSurface
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -17189,7 +17189,7 @@ SwapSurfaces
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >

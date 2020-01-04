@@ -630,7 +630,7 @@ nsIFrame
 aDestructRoot
 )
 {
-nsRefPtr
+RefPtr
 <
 SVGUseElement
 >

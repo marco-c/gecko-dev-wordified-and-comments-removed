@@ -512,7 +512,7 @@ ErrorResult
 aRv
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

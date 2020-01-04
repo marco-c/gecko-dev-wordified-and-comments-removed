@@ -250,7 +250,7 @@ GetAsSupports
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 FocusEvent
 >
@@ -346,7 +346,7 @@ InternalFocusEvent
 aEvent
 )
 {
-nsRefPtr
+RefPtr
 <
 FocusEvent
 >

@@ -2049,7 +2049,7 @@ mScaledFont
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ScaledFont
 >

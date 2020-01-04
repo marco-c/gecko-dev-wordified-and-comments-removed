@@ -261,7 +261,7 @@ DOMStorageCache
 *
 mCache
 ;
-nsRefPtr
+RefPtr
 <
 DOMStorageCache
 >
@@ -350,7 +350,7 @@ protected
 nsDataHashtable
 <
 nsCStringHashKey
-nsRefPtr
+RefPtr
 <
 DOMStorageUsage
 >

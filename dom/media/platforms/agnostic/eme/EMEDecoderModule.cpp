@@ -141,7 +141,7 @@ false
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -728,7 +728,7 @@ rv
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >
@@ -738,13 +738,13 @@ MediaDataDecoderCallback
 *
 mCallback
 ;
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
 mTaskQueue
 ;
-nsRefPtr
+RefPtr
 <
 CDMProxy
 >
@@ -760,7 +760,7 @@ DecryptPromiseRequestHolder
 >
 mDecrypts
 ;
-nsRefPtr
+RefPtr
 <
 SamplesWaitingForKey
 >
@@ -833,13 +833,13 @@ override
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 SamplesWaitingForKey
 >
 mSamplesWaitingForKey
 ;
-nsRefPtr
+RefPtr
 <
 CDMProxy
 >
@@ -1082,7 +1082,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoderProxy
 >
@@ -1150,7 +1150,7 @@ mCrypto
 mValid
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaDataDecoderProxy
 >
@@ -1198,7 +1198,7 @@ MOZ_ASSERT
 mPDM
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >
@@ -1245,7 +1245,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >
@@ -1312,7 +1312,7 @@ mCrypto
 mValid
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaDataDecoderProxy
 >
@@ -1358,7 +1358,7 @@ MOZ_ASSERT
 mPDM
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >
@@ -1403,7 +1403,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >

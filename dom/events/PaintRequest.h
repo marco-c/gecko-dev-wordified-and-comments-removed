@@ -340,7 +340,7 @@ PaintRequestList
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 PaintRequest
 >

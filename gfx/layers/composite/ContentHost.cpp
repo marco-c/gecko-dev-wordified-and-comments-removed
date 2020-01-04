@@ -283,7 +283,7 @@ mTextureSourceOnWhite
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 TexturedEffect
 >

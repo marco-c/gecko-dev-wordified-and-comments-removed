@@ -543,7 +543,7 @@ IsEmpty
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -589,7 +589,7 @@ mParent
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MessagePort
 >
@@ -632,7 +632,7 @@ mPortIdentifiers
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -891,7 +891,7 @@ mSupportedContext
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -900,7 +900,7 @@ mBlobImplArray
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -917,7 +917,7 @@ mParent
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MessagePort
 >

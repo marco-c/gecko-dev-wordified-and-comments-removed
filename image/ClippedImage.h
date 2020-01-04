@@ -36,7 +36,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -282,7 +282,7 @@ private
 Pair
 <
 DrawResult
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

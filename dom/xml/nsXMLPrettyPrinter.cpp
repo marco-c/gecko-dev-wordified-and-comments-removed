@@ -697,7 +697,7 @@ sysPrincipal
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsXBLBinding
 >
@@ -730,7 +730,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 CustomEvent
 >

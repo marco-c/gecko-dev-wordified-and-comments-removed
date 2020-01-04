@@ -759,7 +759,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPluginInstanceOwner
 >
@@ -2229,7 +2229,7 @@ top
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -2321,7 +2321,7 @@ get_IOSurfaceDescriptor
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 MacIOSurface
 >
@@ -2654,7 +2654,7 @@ GetImageContainer
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -3083,7 +3083,7 @@ if
 ioSurface
 )
 {
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -3591,7 +3591,7 @@ area
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -3625,7 +3625,7 @@ height
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxContext
 >

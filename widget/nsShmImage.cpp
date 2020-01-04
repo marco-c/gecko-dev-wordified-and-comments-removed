@@ -173,7 +173,7 @@ int
 aDepth
 )
 {
-nsRefPtr
+RefPtr
 <
 nsShmImage
 >
@@ -954,7 +954,7 @@ aVisual
 unsigned
 int
 aDepth
-nsRefPtr
+RefPtr
 <
 nsShmImage
 >

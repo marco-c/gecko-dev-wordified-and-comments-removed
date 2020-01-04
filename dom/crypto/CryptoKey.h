@@ -710,7 +710,7 @@ CryptoKey
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsIGlobalObject
 >

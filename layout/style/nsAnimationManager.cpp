@@ -1819,7 +1819,7 @@ newAnimations
 newIdx
 ]
 ;
-nsRefPtr
+RefPtr
 <
 CSSAnimation
 >
@@ -2600,7 +2600,7 @@ AppendObject
 aKeyframe
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -2692,7 +2692,7 @@ StyleDisplay
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -2776,7 +2776,7 @@ rule
 continue
 ;
 }
-nsRefPtr
+RefPtr
 <
 CSSAnimation
 >
@@ -2915,7 +2915,7 @@ GetFillMode
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 KeyframeEffectReadOnly
 >
@@ -3490,7 +3490,7 @@ fromKeyframe
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -3542,7 +3542,7 @@ sortedKeyframes
 kfIdx
 ]
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >

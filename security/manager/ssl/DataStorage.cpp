@@ -454,7 +454,7 @@ Entry
 aEntryOut
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataStorage
 >
@@ -1330,7 +1330,7 @@ aHaveProfileDir
 =
 false
 ;
-nsRefPtr
+RefPtr
 <
 Reader
 >
@@ -2071,7 +2071,7 @@ NS_DECL_NSIRUNNABLE
 nsCString
 mData
 ;
-nsRefPtr
+RefPtr
 <
 DataStorage
 >
@@ -2473,7 +2473,7 @@ void
 output
 )
 ;
-nsRefPtr
+RefPtr
 <
 Writer
 >
@@ -2596,7 +2596,7 @@ void
 aClosure
 )
 {
-nsRefPtr
+RefPtr
 <
 DataStorage
 >

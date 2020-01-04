@@ -2164,7 +2164,7 @@ typeToUse
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsMIMEInfoWin
 >
@@ -2515,7 +2515,7 @@ get
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 nsMIMEInfoWin
 >
@@ -2697,7 +2697,7 @@ mi
 hasDefault
 )
 {
-nsRefPtr
+RefPtr
 <
 nsMIMEInfoWin
 >

@@ -94,7 +94,7 @@ thread
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 Touch
 >

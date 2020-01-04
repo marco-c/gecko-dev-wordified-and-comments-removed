@@ -795,7 +795,7 @@ const
 LayoutDeviceRect
 &
 rect
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -834,7 +834,7 @@ image
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -936,7 +936,7 @@ const
 LayoutDeviceRect
 &
 rect
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -982,7 +982,7 @@ surfTex
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -1091,7 +1091,7 @@ mInstance
 return
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 ImageContainer
 >
@@ -1187,7 +1187,7 @@ CreateImageContainer
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -1296,7 +1296,7 @@ rect
 =
 aRect
 ;
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -2695,7 +2695,7 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-nsRefPtr
+RefPtr
 <
 ImageContainer
 >
@@ -5498,7 +5498,7 @@ if
 mIOSurface
 )
 {
-nsRefPtr
+RefPtr
 <
 MacIOSurface
 >
@@ -6440,7 +6440,7 @@ VideoInfo
 aVideoInfo
 )
 {
-nsRefPtr
+RefPtr
 <
 ImageContainer
 >
@@ -6453,7 +6453,7 @@ CreateImageContainer
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -12344,7 +12344,7 @@ return
 ifdef
 ANP_BITMAP_DRAWING_MODEL
 static
-nsRefPtr
+RefPtr
 <
 gfxImageSurface
 >

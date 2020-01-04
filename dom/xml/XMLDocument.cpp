@@ -1143,7 +1143,7 @@ bool
 aIsPlainDocument
 )
 {
-nsRefPtr
+RefPtr
 <
 XMLDocument
 >
@@ -1968,7 +1968,7 @@ false
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 EventListenerManager
 >
@@ -2816,7 +2816,7 @@ document
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 XMLDocument
 >

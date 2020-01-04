@@ -497,7 +497,7 @@ mJarEntry
 nsCString
 mInnerJarEntry
 ;
-nsRefPtr
+RefPtr
 <
 nsInputStreamPump
 >

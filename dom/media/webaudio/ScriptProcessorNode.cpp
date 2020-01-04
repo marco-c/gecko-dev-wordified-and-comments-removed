@@ -1449,7 +1449,7 @@ Run
 )
 override
 {
-nsRefPtr
+RefPtr
 <
 ThreadSharedFloatArrayBufferList
 >
@@ -1620,7 +1620,7 @@ ChannelCount
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 AudioBuffer
 >
@@ -1678,7 +1678,7 @@ nullptr
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 AudioProcessingEvent
 >
@@ -1761,13 +1761,13 @@ nullptr
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 AudioNodeStream
 >
 mStream
 ;
-nsRefPtr
+RefPtr
 <
 ThreadSharedFloatArrayBufferList
 >
@@ -1808,7 +1808,7 @@ SharedBuffers
 >
 mSharedBuffers
 ;
-nsRefPtr
+RefPtr
 <
 ThreadSharedFloatArrayBufferList
 >

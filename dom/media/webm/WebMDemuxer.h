@@ -168,7 +168,7 @@ PopFront
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -244,7 +244,7 @@ this
 ;
 }
 const
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -263,7 +263,7 @@ front
 ;
 }
 const
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -288,7 +288,7 @@ std
 :
 deque
 <
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -325,7 +325,7 @@ bool
 aIsMediaSource
 )
 ;
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -567,7 +567,7 @@ TimeUnit
 aTarget
 )
 ;
-nsRefPtr
+RefPtr
 <
 NesteggPacketHolder
 >
@@ -580,7 +580,7 @@ TrackType
 aType
 )
 ;
-nsRefPtr
+RefPtr
 <
 NesteggPacketHolder
 >
@@ -596,20 +596,20 @@ mInfo
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 WebMTrackDemuxer
 >
 >
 mDemuxers
 ;
-nsRefPtr
+RefPtr
 <
 WebMBufferedState
 >
 mBufferedState
 ;
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >
@@ -705,7 +705,7 @@ GetInfo
 const
 override
 ;
-nsRefPtr
+RefPtr
 <
 SeekPromise
 >
@@ -719,7 +719,7 @@ aTime
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 SamplesPromise
 >
@@ -750,7 +750,7 @@ aTime
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 SkipAccessPointPromise
 >
@@ -795,7 +795,7 @@ UpdateSamples
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -809,7 +809,7 @@ SetNextKeyFrameTime
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -817,7 +817,7 @@ NextSample
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 WebMDemuxer
 >

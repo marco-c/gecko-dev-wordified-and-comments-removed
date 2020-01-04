@@ -177,7 +177,7 @@ mLastStreamOffset
 VideoInfo
 mVideoInfo
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -321,7 +321,7 @@ false
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -554,13 +554,13 @@ Dispatch
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 GMPVideoDecoder
 >
 mDecoder
 ;
-nsRefPtr
+RefPtr
 <
 GMPInitDoneRunnable
 >

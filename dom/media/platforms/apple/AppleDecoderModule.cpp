@@ -297,7 +297,7 @@ MediaDataDecoderCallback
 aCallback
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >
@@ -390,7 +390,7 @@ MediaDataDecoderCallback
 aCallback
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >

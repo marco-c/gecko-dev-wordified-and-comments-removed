@@ -953,7 +953,7 @@ nsAString
 browserDumpID
 )
 {
-nsRefPtr
+RefPtr
 <
 nsPluginHost
 >
@@ -1130,7 +1130,7 @@ CheckClassInitialized
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsNPAPIPlugin
 >
@@ -1747,7 +1747,7 @@ return
 NPERR_GENERIC_ERROR
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginStreamListener
 >
@@ -2042,7 +2042,7 @@ guard
 inst
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPluginInstanceOwner
 >
@@ -2908,7 +2908,7 @@ name
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 nsPluginHost
 >
@@ -6592,7 +6592,7 @@ plugin
 return
 false
 ;
-nsRefPtr
+RefPtr
 <
 nsPluginHost
 >
@@ -8369,7 +8369,7 @@ npp
 >
 ndata
 ;
-nsRefPtr
+RefPtr
 <
 nsPluginInstanceOwner
 >
@@ -11395,7 +11395,7 @@ n
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPluginThreadRunnable
 >

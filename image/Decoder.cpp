@@ -1294,7 +1294,7 @@ RawAccessFrameRef
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 imgFrame
 >

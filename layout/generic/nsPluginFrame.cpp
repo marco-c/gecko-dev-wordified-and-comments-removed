@@ -1451,7 +1451,7 @@ ConfigureChildren
 configurations
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsDeviceContext
 >
@@ -2631,7 +2631,7 @@ rv
 =
 NS_ERROR_FAILURE
 ;
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -2706,7 +2706,7 @@ IsHidden
 return
 NS_ERROR_FAILURE
 ;
-nsRefPtr
+RefPtr
 <
 nsPluginInstanceOwner
 >
@@ -4975,7 +4975,7 @@ false
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -5562,7 +5562,7 @@ objectFrame
 )
 return
 ;
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -6231,7 +6231,7 @@ Round
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -6269,7 +6269,7 @@ nsDisplayItem
 TYPE_PLUGIN
 )
 {
-nsRefPtr
+RefPtr
 <
 ImageContainer
 >
@@ -6516,7 +6516,7 @@ VideoInfo
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ImageContainer
 >
@@ -7188,7 +7188,7 @@ PaintPlugin
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -7554,7 +7554,7 @@ defined
 (
 XP_WIN
 )
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -8403,7 +8403,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -8542,7 +8542,7 @@ if
 outFrame
 )
 {
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >

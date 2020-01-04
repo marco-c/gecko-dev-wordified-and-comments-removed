@@ -347,7 +347,7 @@ mProgressListenerRegistered
 uint16_t
 mImageAnimationMode
 ;
-nsRefPtr
+RefPtr
 <
 nsComposerCommandsUpdater
 >

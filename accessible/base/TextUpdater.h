@@ -148,7 +148,7 @@ uint32_t
 aEntries
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 AccEvent
 >
@@ -169,7 +169,7 @@ uint32_t
 aAddlOffset
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 AccEvent
 >
@@ -178,7 +178,7 @@ AccEvent
 aEvents
 )
 {
-nsRefPtr
+RefPtr
 <
 AccEvent
 >
@@ -215,7 +215,7 @@ uint32_t
 aAddlOffset
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 AccEvent
 >
@@ -224,7 +224,7 @@ AccEvent
 aEvents
 )
 {
-nsRefPtr
+RefPtr
 <
 AccEvent
 >

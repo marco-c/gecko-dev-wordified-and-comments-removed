@@ -203,7 +203,7 @@ msg
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 DOMException
 >
@@ -275,7 +275,7 @@ nsACString
 aName
 )
 {
-nsRefPtr
+RefPtr
 <
 DetailedPromise
 >
@@ -344,7 +344,7 @@ ID
 aFailureLatencyProbe
 )
 {
-nsRefPtr
+RefPtr
 <
 DetailedPromise
 >

@@ -137,7 +137,7 @@ nsEditor
 &
 mEditor
 ;
-nsRefPtr
+RefPtr
 <
 nsGenericDOMDataNode
 >

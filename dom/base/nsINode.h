@@ -2533,7 +2533,7 @@ nsIMutationObserver
 >
 mMutationObservers
 ;
-nsRefPtr
+RefPtr
 <
 nsChildContentList
 >
@@ -5069,7 +5069,7 @@ GetBoundMutationObservers
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsDOMMutationObserver
 >
@@ -5629,7 +5629,7 @@ BoxQuadOptions
 aOptions
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 DOMQuad
 >
@@ -6155,7 +6155,7 @@ nsINode
 tmp
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

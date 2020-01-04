@@ -56,7 +56,7 @@ const
 int32_t
 mContentIndex
 ;
-nsRefPtr
+RefPtr
 <
 nsTextNode
 >

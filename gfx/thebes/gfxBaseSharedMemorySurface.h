@@ -307,7 +307,7 @@ size
 format
 )
 ;
-nsRefPtr
+RefPtr
 <
 Sub
 >
@@ -806,7 +806,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Sub
 >

@@ -54,7 +54,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -477,7 +477,7 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 MediaDataDecoder
 )
 virtual
-nsRefPtr
+RefPtr
 <
 InitPromise
 >

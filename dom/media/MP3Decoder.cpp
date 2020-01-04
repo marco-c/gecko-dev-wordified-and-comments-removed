@@ -82,7 +82,7 @@ CreateStateMachine
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 >
@@ -132,7 +132,7 @@ Init
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >
@@ -167,7 +167,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >
@@ -260,7 +260,7 @@ mBitDepth
 =
 16
 ;
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >

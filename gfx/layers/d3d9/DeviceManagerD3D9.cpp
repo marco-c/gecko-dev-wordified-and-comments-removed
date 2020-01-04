@@ -348,7 +348,7 @@ GetBackBuffer
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 IDirect3DSurface9
 >
@@ -442,7 +442,7 @@ if
 mSwapChain
 )
 {
-nsRefPtr
+RefPtr
 <
 IDirect3DSurface9
 >
@@ -2800,7 +2800,7 @@ HWND
 hWnd
 )
 {
-nsRefPtr
+RefPtr
 <
 SwapChainD3D9
 >
@@ -4011,7 +4011,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDirect3DTexture9
 >

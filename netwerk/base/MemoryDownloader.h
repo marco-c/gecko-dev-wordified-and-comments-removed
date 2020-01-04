@@ -135,7 +135,7 @@ uint32_t
 writeCount
 )
 ;
-nsRefPtr
+RefPtr
 <
 IObserver
 >

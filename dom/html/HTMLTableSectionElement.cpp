@@ -285,7 +285,7 @@ aIndex
 1
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -313,7 +313,7 @@ nodeInfo
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >

@@ -92,7 +92,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -493,7 +493,7 @@ true
 }
 }
 const
-nsRefPtr
+RefPtr
 <
 SVGDocumentWrapper
 >
@@ -618,7 +618,7 @@ document
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 SVGParseCompleteListener
 >
@@ -834,7 +834,7 @@ events
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 SVGLoadEventListener
 >
@@ -1085,7 +1085,7 @@ aTransform
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 SVGDocumentWrapper
 >
@@ -2699,7 +2699,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -2743,7 +2743,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -3249,7 +3249,7 @@ if
 result
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -3271,7 +3271,7 @@ if
 surface
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxDrawable
 >
@@ -3352,7 +3352,7 @@ FlushImageTransformInvalidation
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxDrawingCallback
 >
@@ -3381,7 +3381,7 @@ aParams
 flags
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxDrawable
 >
@@ -3447,7 +3447,7 @@ this
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 imgFrame
 >
@@ -3497,7 +3497,7 @@ aParams
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -3548,7 +3548,7 @@ animationTime
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxDrawable
 >

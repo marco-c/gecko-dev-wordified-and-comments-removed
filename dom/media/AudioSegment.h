@@ -1055,7 +1055,7 @@ mChannelData
 StreamTime
 mDuration
 ;
-nsRefPtr
+RefPtr
 <
 ThreadSharedObject
 >

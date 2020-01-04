@@ -117,7 +117,7 @@ GetAdapters
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BluetoothAdapter
 >
@@ -279,7 +279,7 @@ mDefaultAdapterIndex
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BluetoothAdapter
 >

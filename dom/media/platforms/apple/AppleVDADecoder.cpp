@@ -366,7 +366,7 @@ AppleVDADecoder
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 :
@@ -579,7 +579,7 @@ runnable
 =
 NS_NewRunnableMethodWithArg
 <
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -591,7 +591,7 @@ AppleVDADecoder
 :
 :
 SubmitFrame
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -1479,7 +1479,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -1954,7 +1954,7 @@ buffer
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 MacIOSurface
 >
@@ -1966,7 +1966,7 @@ MacIOSurface
 surface
 )
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -3047,7 +3047,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 AppleVDADecoder
 >

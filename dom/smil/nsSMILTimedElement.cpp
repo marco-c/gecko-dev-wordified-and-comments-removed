@@ -420,7 +420,7 @@ nsRunnable
 {
 protected
 :
-nsRefPtr
+RefPtr
 <
 nsIContent
 >
@@ -1506,7 +1506,7 @@ mBeginInstances
 :
 mEndInstances
 ;
-nsRefPtr
+RefPtr
 <
 nsSMILInstanceTime
 >
@@ -5355,7 +5355,7 @@ IsDependent
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsSMILInstanceTime
 >
@@ -6520,13 +6520,13 @@ INT64_MIN
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsSMILInstanceTime
 >
 tempBegin
 ;
-nsRefPtr
+RefPtr
 <
 nsSMILInstanceTime
 >
@@ -8611,7 +8611,7 @@ offset
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsSMILInstanceTime
 >

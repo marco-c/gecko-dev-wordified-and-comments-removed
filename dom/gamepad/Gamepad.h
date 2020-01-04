@@ -308,7 +308,7 @@ GetButtons
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 GamepadButton
 >
@@ -376,7 +376,7 @@ mConnected
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 GamepadButton
 >

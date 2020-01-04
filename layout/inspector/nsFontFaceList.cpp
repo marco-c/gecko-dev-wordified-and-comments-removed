@@ -350,7 +350,7 @@ mMatchType
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 nsFontFace
 >

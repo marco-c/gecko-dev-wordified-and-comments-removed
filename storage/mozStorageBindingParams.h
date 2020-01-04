@@ -136,7 +136,7 @@ aOwningArray
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Variant_base
 >

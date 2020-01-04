@@ -184,7 +184,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 DumpStatusInfoToTempDirRunnable
 >

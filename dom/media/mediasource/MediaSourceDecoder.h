@@ -270,7 +270,7 @@ MediaSource
 *
 mMediaSource
 ;
-nsRefPtr
+RefPtr
 <
 MediaSourceDemuxer
 >

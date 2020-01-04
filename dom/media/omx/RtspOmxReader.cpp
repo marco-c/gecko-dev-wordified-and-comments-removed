@@ -143,7 +143,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -313,7 +313,7 @@ EnsureActive
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -334,7 +334,7 @@ DisablePlayoutDelay
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :

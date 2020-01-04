@@ -151,7 +151,7 @@ override
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 Promise
 >

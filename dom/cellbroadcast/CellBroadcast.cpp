@@ -240,7 +240,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 CellBroadcast
 >
@@ -483,7 +483,7 @@ aEtwsEmergencyUserAlert
 aEtwsPopup
 )
 ;
-nsRefPtr
+RefPtr
 <
 MozCellBroadcastEvent
 >

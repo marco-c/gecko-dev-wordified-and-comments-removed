@@ -530,7 +530,7 @@ InternalMutationEvent
 aEvent
 )
 {
-nsRefPtr
+RefPtr
 <
 MutationEvent
 >

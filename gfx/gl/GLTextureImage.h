@@ -62,7 +62,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -762,13 +762,13 @@ mTexture
 TextureState
 mTextureState
 ;
-nsRefPtr
+RefPtr
 <
 GLContext
 >
 mGLContext
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1011,7 +1011,7 @@ mIterationCallbackData
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 TextureImage
 >
@@ -1034,7 +1034,7 @@ GLContext
 *
 mGL
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :

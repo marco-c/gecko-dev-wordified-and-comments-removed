@@ -481,7 +481,7 @@ IsUnset
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBCursor
 >
@@ -574,7 +574,7 @@ IsUnset
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBCursor
 >
@@ -679,7 +679,7 @@ IsUnset
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBCursor
 >
@@ -810,7 +810,7 @@ IsUnset
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBCursor
 >
@@ -2904,7 +2904,7 @@ mKey
 :
 mPrimaryKey
 ;
-nsRefPtr
+RefPtr
 <
 IDBRequest
 >
@@ -3581,7 +3581,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDBRequest
 >

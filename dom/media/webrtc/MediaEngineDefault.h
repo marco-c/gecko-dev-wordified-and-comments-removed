@@ -365,7 +365,7 @@ mTimer
 Monitor
 mMonitor
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -374,7 +374,7 @@ Image
 >
 mImage
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -707,7 +707,7 @@ dom
 MediaSourceEnum
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaEngineVideoSource
 >
@@ -726,7 +726,7 @@ dom
 MediaSourceEnum
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaEngineAudioSource
 >
@@ -784,7 +784,7 @@ mMutex
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaEngineVideoSource
 >
@@ -793,7 +793,7 @@ mVSources
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaEngineAudioSource
 >

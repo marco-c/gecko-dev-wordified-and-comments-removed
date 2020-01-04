@@ -417,7 +417,7 @@ ContentBridgeParent
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 ContentBridgeParent
 >

@@ -43,7 +43,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -245,7 +245,7 @@ forget
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -254,7 +254,7 @@ Image
 >
 mImage
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -281,7 +281,7 @@ Image
 aImage
 )
 {
-nsRefPtr
+RefPtr
 <
 SurfaceHelper
 >
@@ -380,7 +380,7 @@ if
 mFailed
 )
 {
-nsRefPtr
+RefPtr
 <
 Blob
 >
@@ -487,7 +487,7 @@ nsIThread
 >
 mEncoderThread
 ;
-nsRefPtr
+RefPtr
 <
 EncodeCompleteCallback
 >
@@ -820,7 +820,7 @@ uint8_t
 >
 mImageBuffer
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -835,7 +835,7 @@ imgIEncoder
 >
 mEncoder
 ;
-nsRefPtr
+RefPtr
 <
 EncodingCompleteEvent
 >
@@ -997,7 +997,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 EncodingCompleteEvent
 >
@@ -1141,7 +1141,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 EncodingCompleteEvent
 >
@@ -1542,7 +1542,7 @@ aOptions
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1551,7 +1551,7 @@ DataSourceSurface
 >
 dataSurface
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -1671,7 +1671,7 @@ aEncoder
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

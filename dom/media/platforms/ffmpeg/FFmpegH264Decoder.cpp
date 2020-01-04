@@ -178,7 +178,7 @@ mExtraData
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 :
@@ -1172,7 +1172,7 @@ mSkip
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -1704,7 +1704,7 @@ chroma_height
 *
 2
 ;
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -1993,7 +1993,7 @@ runnable
 (
 NS_NewRunnableMethodWithArg
 <
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -2008,7 +2008,7 @@ LIBAV_VER
 :
 :
 DecodeFrame
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -2055,7 +2055,7 @@ IsCurrentThreadIn
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >

@@ -197,7 +197,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataStore
 >

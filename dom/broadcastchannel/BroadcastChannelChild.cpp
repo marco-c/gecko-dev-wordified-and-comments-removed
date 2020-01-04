@@ -195,7 +195,7 @@ aData
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -258,7 +258,7 @@ len
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -580,7 +580,7 @@ value
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 MessageEvent
 >

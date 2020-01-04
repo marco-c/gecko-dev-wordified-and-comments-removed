@@ -416,7 +416,7 @@ Run
 )
 override
 {
-nsRefPtr
+RefPtr
 <
 DeviceStorageUsedSpaceCache
 :
@@ -484,7 +484,7 @@ MOZ_ASSERT
 mIOThread
 )
 ;
-nsRefPtr
+RefPtr
 <
 InvalidateRunnable
 >
@@ -633,7 +633,7 @@ aStorageName
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 CacheEntry
 >
@@ -933,7 +933,7 @@ nsDOMDeviceStorageCursor
 bool
 mOkToCallContinue
 ;
-nsRefPtr
+RefPtr
 <
 DeviceStorageCursorRequest
 >
@@ -1140,7 +1140,7 @@ delete
 struct
 ListEntry
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1570,13 +1570,13 @@ SendToParentProcess
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DeviceStorageRequestManager
 >
 mManager
 ;
-nsRefPtr
+RefPtr
 <
 DeviceStorageFile
 >
@@ -1585,7 +1585,7 @@ mFile
 uint32_t
 mId
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1597,7 +1597,7 @@ BlobImpl
 >
 mBlob
 ;
-nsRefPtr
+RefPtr
 <
 DeviceStorageFileDescriptor
 >
@@ -1756,7 +1756,7 @@ mStorageType
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 DeviceStorageFile
 >

@@ -1039,7 +1039,7 @@ override
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 nsIObjectLoadingContent
 >
@@ -1104,7 +1104,7 @@ nsIStreamListener
 >
 mFinalListener
 ;
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -1206,7 +1206,7 @@ mScriptRequested
 nsWeakFrame
 mPrintFrame
 ;
-nsRefPtr
+RefPtr
 <
 nsPluginInstanceOwner
 >

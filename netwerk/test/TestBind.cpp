@@ -518,7 +518,7 @@ return
 1
 ;
 }
-nsRefPtr
+RefPtr
 <
 ServerListener
 >
@@ -763,7 +763,7 @@ return
 1
 ;
 }
-nsRefPtr
+RefPtr
 <
 ClientInputCallback
 >

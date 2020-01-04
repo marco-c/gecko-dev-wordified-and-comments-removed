@@ -223,7 +223,7 @@ private
 ZipCentral
 mCentral
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >

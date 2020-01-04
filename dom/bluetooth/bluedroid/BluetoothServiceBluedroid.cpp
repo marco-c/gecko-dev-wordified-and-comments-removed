@@ -304,7 +304,7 @@ sBtInterface
 static
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BluetoothProfileController
 >
@@ -673,7 +673,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ProfileInitResultHandler
 >
@@ -3205,7 +3205,7 @@ BluetoothNamedValue
 >
 mDevicesPack
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >
@@ -3683,7 +3683,7 @@ DispatchReplyErrorResultHandler
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >
@@ -3744,7 +3744,7 @@ private
 :
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >
@@ -4361,7 +4361,7 @@ aManager
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothResultHandler
 >
@@ -4701,7 +4701,7 @@ aManager
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothResultHandler
 >
@@ -7031,7 +7031,7 @@ props
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ProfileDeinitResultHandler
 >

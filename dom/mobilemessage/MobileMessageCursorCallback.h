@@ -197,7 +197,7 @@ MobileMessageCursorCallback
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MobileMessageCursor
 >

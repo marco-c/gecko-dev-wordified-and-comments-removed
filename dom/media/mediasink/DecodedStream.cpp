@@ -326,7 +326,7 @@ private
 Mutex
 mMutex
 ;
-nsRefPtr
+RefPtr
 <
 MediaStream
 >
@@ -500,7 +500,7 @@ mNextVideoTime
 int64_t
 mNextAudioTime
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -528,13 +528,13 @@ bool
 mHaveSentFinishVideo
 ;
 const
-nsRefPtr
+RefPtr
 <
 SourceMediaStream
 >
 mStream
 ;
-nsRefPtr
+RefPtr
 <
 DecodedStreamGraphListener
 >
@@ -1282,7 +1282,7 @@ mParams
 aParams
 ;
 }
-nsRefPtr
+RefPtr
 <
 GenericPromise
 >
@@ -1485,7 +1485,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 DecodedStream
 >
@@ -1682,7 +1682,7 @@ release
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DecodedStream
 >
@@ -1897,7 +1897,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 DecodedStream
 >
@@ -2537,7 +2537,7 @@ EnsureAudioBuffer
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SharedBuffer
 >
@@ -2701,7 +2701,7 @@ mRate
 ;
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -2882,7 +2882,7 @@ VideoSegment
 aOutput
 )
 {
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -2999,7 +2999,7 @@ mTrackId
 ;
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaData
 >

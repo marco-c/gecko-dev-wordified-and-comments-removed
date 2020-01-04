@@ -181,7 +181,7 @@ nsIGlobalObject
 >
 mParent
 ;
-nsRefPtr
+RefPtr
 <
 SubtleCrypto
 >

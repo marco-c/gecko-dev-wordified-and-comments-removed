@@ -616,7 +616,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 InitializeIPCThread
 >
@@ -627,7 +627,7 @@ InitializeIPCThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SyncRunnable
 >
@@ -2639,7 +2639,7 @@ public
 :
 ShutdownRunnable
 (
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -2715,7 +2715,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -2785,7 +2785,7 @@ deletion
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -2848,7 +2848,7 @@ close
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -2865,7 +2865,7 @@ Thread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ShutdownRunnable
 >

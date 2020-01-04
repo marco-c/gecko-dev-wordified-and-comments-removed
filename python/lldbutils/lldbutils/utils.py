@@ -467,7 +467,7 @@ name
 startswith
 (
 "
-nsRefPtr
+RefPtr
 <
 "
 )

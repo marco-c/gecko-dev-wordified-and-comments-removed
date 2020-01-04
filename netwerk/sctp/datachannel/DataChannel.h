@@ -1143,7 +1143,7 @@ static
 void
 ReleaseTransportFlow
 (
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
@@ -1156,7 +1156,7 @@ mAllocateEven
 ;
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 DataChannel
 >
@@ -1199,7 +1199,7 @@ mState
 #
 ifdef
 SCTP_DTLS_SUPPORTED
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
@@ -1774,7 +1774,7 @@ uint32_t
 size
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataChannelConnection
 >
@@ -2247,13 +2247,13 @@ DataChannelOnMessageAvailable
 int32_t
 mType
 ;
-nsRefPtr
+RefPtr
 <
 DataChannel
 >
 mChannel
 ;
-nsRefPtr
+RefPtr
 <
 DataChannelConnection
 >

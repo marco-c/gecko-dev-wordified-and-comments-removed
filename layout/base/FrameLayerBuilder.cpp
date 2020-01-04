@@ -2340,7 +2340,7 @@ false
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -3984,7 +3984,7 @@ nsGenericHashKey
 <
 MaskLayerKey
 >
-nsRefPtr
+RefPtr
 <
 ImageLayer
 >
@@ -4097,13 +4097,13 @@ nsIntRect
 >
 mIgnoreInvalidationsOutsideRect
 ;
-nsRefPtr
+RefPtr
 <
 ColorLayer
 >
 mColorLayer
 ;
-nsRefPtr
+RefPtr
 <
 ImageLayer
 >
@@ -5083,7 +5083,7 @@ aPropertyValue
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 DisplayItemData
 >
@@ -6589,7 +6589,7 @@ gPaintedDisplayItemLayerUserData
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ColorLayer
 >
@@ -6707,7 +6707,7 @@ gPaintedDisplayItemLayerUserData
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ImageLayer
 >
@@ -6806,7 +6806,7 @@ MaskLayerKey
 aKey
 )
 {
-nsRefPtr
+RefPtr
 <
 ImageLayer
 >
@@ -7303,7 +7303,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 PaintedLayer
 >
@@ -7409,7 +7409,7 @@ aData
 mAnimatedGeometryRoot
 )
 ;
-nsRefPtr
+RefPtr
 <
 PaintedLayer
 >
@@ -11339,7 +11339,7 @@ PaintedLayerData
 aData
 )
 {
-nsRefPtr
+RefPtr
 <
 ImageContainer
 >
@@ -11363,7 +11363,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ImageLayer
 >
@@ -11537,7 +11537,7 @@ PaintedLayerData
 aData
 )
 {
-nsRefPtr
+RefPtr
 <
 ColorLayer
 >
@@ -11773,7 +11773,7 @@ data
 mLayer
 )
 {
-nsRefPtr
+RefPtr
 <
 PaintedLayer
 >
@@ -11906,7 +11906,7 @@ data
 mNewChildLayersIndex
 ]
 ;
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -14728,7 +14728,7 @@ BasicLayerManager
 aManager
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -14762,7 +14762,7 @@ ToOutsidePixels
 appUnitsPerDevPixel
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -14974,7 +14974,7 @@ sDumpPainting
 tempDT
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -16730,7 +16730,7 @@ mLayerContentsVisibleRect
 &
 layerContentsVisibleRect
 ;
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -17674,7 +17674,7 @@ paintedLayerData
 mLayer
 )
 {
-nsRefPtr
+RefPtr
 <
 PaintedLayer
 >
@@ -18713,7 +18713,7 @@ gPaintedDisplayItemLayerUserData
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 BasicLayerManager
 >
@@ -18983,7 +18983,7 @@ GetRoot
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -19550,7 +19550,7 @@ gLayerManagerUserData
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 DisplayItemData
 >
@@ -19673,7 +19673,7 @@ gLayerManagerUserData
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 DisplayItemData
 >
@@ -20394,7 +20394,7 @@ Length
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -20586,7 +20586,7 @@ Length
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -22972,7 +22972,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ContainerLayer
 >
@@ -23279,7 +23279,7 @@ mContainerLayerGeneration
 +
 mMaxContainerLayerGeneration
 ;
-nsRefPtr
+RefPtr
 <
 RefCountedRegion
 >
@@ -24688,7 +24688,7 @@ AppUnitsPerDevPixel
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -24713,7 +24713,7 @@ SurfaceFormat
 B8G8R8A8
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -24762,7 +24762,7 @@ aBuilder
 ctx
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -26993,7 +26993,7 @@ paintedData
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -27078,7 +27078,7 @@ aLayer
 aForAncestorMaskLayer
 )
 ;
-nsRefPtr
+RefPtr
 <
 ImageLayer
 >
@@ -27432,7 +27432,7 @@ lookupKey
 =
 newKey
 ;
-nsRefPtr
+RefPtr
 <
 ImageContainer
 >
@@ -27472,7 +27472,7 @@ height
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -27515,7 +27515,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -27565,7 +27565,7 @@ mAppUnitsPerDevPixel
 aRoundedRectClipCount
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -27608,7 +27608,7 @@ layer
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 Image
 >

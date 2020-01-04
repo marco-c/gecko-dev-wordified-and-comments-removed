@@ -214,7 +214,7 @@ RelationType
 LABEL_FOR
 )
 {
-nsRefPtr
+RefPtr
 <
 dom
 :

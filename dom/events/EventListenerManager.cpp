@@ -2589,7 +2589,7 @@ aFlags
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 EventListenerManager
 >
@@ -4740,7 +4740,7 @@ onerror
 win
 )
 {
-nsRefPtr
+RefPtr
 <
 OnErrorEventHandlerNonNull
 >
@@ -4783,7 +4783,7 @@ onbeforeunload
 win
 )
 {
-nsRefPtr
+RefPtr
 <
 OnBeforeUnloadEventHandlerNonNull
 >
@@ -4808,7 +4808,7 @@ handlerCallback
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 EventHandlerNonNull
 >
@@ -5378,7 +5378,7 @@ aEvent
 originalTarget
 )
 ;
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -6462,7 +6462,7 @@ mTypeAtom
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 EventListenerInfo
 >

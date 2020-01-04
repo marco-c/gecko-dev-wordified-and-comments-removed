@@ -220,7 +220,7 @@ mReadonly
 ;
 InfallibleTArray
 <
-nsRefPtr
+RefPtr
 <
 CSSValue
 >

@@ -892,7 +892,7 @@ void
 aArg
 )
 {
-nsRefPtr
+RefPtr
 <
 nsProcess
 >

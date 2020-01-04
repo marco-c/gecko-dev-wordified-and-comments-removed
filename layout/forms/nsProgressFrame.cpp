@@ -324,7 +324,7 @@ nsCSSPseudoElements
 :
 ePseudo_mozProgressBar
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -1276,7 +1276,7 @@ nsRenderingContext
 aRenderingContext
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >

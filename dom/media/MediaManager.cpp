@@ -1656,7 +1656,7 @@ private
 MediaOperation
 mType
 ;
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -1671,19 +1671,19 @@ OnTracksAvailableCallback
 >
 mOnTracksAvailableCallback
 ;
-nsRefPtr
+RefPtr
 <
 AudioDevice
 >
 mAudioDevice
 ;
-nsRefPtr
+RefPtr
 <
 VideoDevice
 >
 mVideoDevice
 ;
-nsRefPtr
+RefPtr
 <
 GetUserMediaCallbackMediaStreamListener
 >
@@ -1848,7 +1848,7 @@ if
 window
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaStreamError
 >
@@ -1905,7 +1905,7 @@ nsIDOMGetUserMediaErrorCallback
 >
 mOnFailure
 ;
-nsRefPtr
+RefPtr
 <
 MediaMgrError
 >
@@ -1914,7 +1914,7 @@ mError
 uint64_t
 mWindowID
 ;
-nsRefPtr
+RefPtr
 <
 MediaManager
 >
@@ -1961,7 +1961,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaManager
 >
@@ -1993,7 +1993,7 @@ protected
 uint64_t
 mWindowID
 ;
-nsRefPtr
+RefPtr
 <
 GetUserMediaCallbackMediaStreamListener
 >
@@ -2901,7 +2901,7 @@ MediaStreamGraph
 aMSG
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDOMUserMediaStream
 >
@@ -3069,7 +3069,7 @@ EndTrack
 aTrackID
 )
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -3177,7 +3177,7 @@ do_QueryInterface
 window
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -3197,7 +3197,7 @@ if
 sInShutdown
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaStreamError
 >
@@ -3246,7 +3246,7 @@ GetSourceStream
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaStreamError
 >
@@ -3288,7 +3288,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -3328,7 +3328,7 @@ aTrackID
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaStreamError
 >
@@ -3382,7 +3382,7 @@ MediaStreamError
 >
 PledgeVoid
 ;
-nsRefPtr
+RefPtr
 <
 PledgeVoid
 >
@@ -3771,19 +3771,19 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 GetUserMediaCallbackMediaStreamListener
 >
 mListener
 ;
-nsRefPtr
+RefPtr
 <
 AudioDevice
 >
 mAudioDevice
 ;
-nsRefPtr
+RefPtr
 <
 VideoDevice
 >
@@ -3879,7 +3879,7 @@ nsIDOMGetUserMediaSuccessCallback
 >
 onSuccess
 ;
-nsRefPtr
+RefPtr
 <
 MediaMgrError
 >
@@ -4135,13 +4135,13 @@ nsIDOMGetUserMediaSuccessCallback
 >
 mOnSuccess
 ;
-nsRefPtr
+RefPtr
 <
 MediaManager
 >
 mManager
 ;
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -4488,13 +4488,13 @@ AudioChannel
 Normal
 )
 ;
-nsRefPtr
+RefPtr
 <
 DOMLocalMediaStream
 >
 domStream
 ;
-nsRefPtr
+RefPtr
 <
 SourceMediaStream
 >
@@ -4769,7 +4769,7 @@ if
 window
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaStreamError
 >
@@ -4914,7 +4914,7 @@ window
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Pledge
 <
@@ -4952,13 +4952,13 @@ nsIDOMGetUserMediaErrorCallback
 >
 mOnFailure
 ;
-nsRefPtr
+RefPtr
 <
 AudioDevice
 >
 mAudioDevice
 ;
-nsRefPtr
+RefPtr
 <
 VideoDevice
 >
@@ -4967,7 +4967,7 @@ mVideoDevice
 uint64_t
 mWindowID
 ;
-nsRefPtr
+RefPtr
 <
 GetUserMediaCallbackMediaStreamListener
 >
@@ -4982,7 +4982,7 @@ PeerIdentity
 >
 mPeerIdentity
 ;
-nsRefPtr
+RefPtr
 <
 MediaManager
 >
@@ -5081,7 +5081,7 @@ dom
 MediaSourceEnum
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 typename
 DeviceType
@@ -5094,7 +5094,7 @@ Source
 )
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 DeviceType
 >
@@ -5111,7 +5111,7 @@ nullptr
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 typename
 DeviceType
@@ -5226,7 +5226,7 @@ MediaStreamConstraints
 aConstraints
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaDevice
 >
@@ -5237,7 +5237,7 @@ aSources
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 VideoDevice
 >
@@ -5246,7 +5246,7 @@ videos
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 AudioDevice
 >
@@ -5270,7 +5270,7 @@ source
 mIsVideo
 )
 {
-nsRefPtr
+RefPtr
 <
 VideoDevice
 >
@@ -5299,7 +5299,7 @@ video
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 AudioDevice
 >
@@ -5563,7 +5563,7 @@ EmptyString
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaMgrError
 >
@@ -5576,7 +5576,7 @@ aName
 aMessage
 )
 ;
-nsRefPtr
+RefPtr
 <
 ErrorCallbackRunnable
 <
@@ -5954,7 +5954,7 @@ if
 window
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaStreamError
 >
@@ -5977,7 +5977,7 @@ error
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaManager
 >
@@ -6103,19 +6103,19 @@ mOnFailure
 uint64_t
 mWindowID
 ;
-nsRefPtr
+RefPtr
 <
 GetUserMediaCallbackMediaStreamListener
 >
 mListener
 ;
-nsRefPtr
+RefPtr
 <
 AudioDevice
 >
 mAudioDevice
 ;
-nsRefPtr
+RefPtr
 <
 VideoDevice
 >
@@ -6143,7 +6143,7 @@ mSourceSet
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 MediaManager
 >
@@ -6280,7 +6280,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 PledgeSourceSet
 >
@@ -6411,7 +6411,7 @@ aFakeTracks
 )
 mutable
 {
-nsRefPtr
+RefPtr
 <
 MediaEngine
 >
@@ -6433,7 +6433,7 @@ aFakeTracks
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 MediaManager
 >
@@ -6466,7 +6466,7 @@ SourceSet
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 VideoDevice
 >
@@ -6506,7 +6506,7 @@ source
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 AudioDevice
 >
@@ -6577,7 +6577,7 @@ result
 handoff
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaManager
 >
@@ -6597,7 +6597,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 PledgeSourceSet
 >
@@ -7272,7 +7272,7 @@ GetInstance
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaManager
 >
@@ -7480,7 +7480,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsHashPropertyBag
 >
@@ -8117,7 +8117,7 @@ mAudio
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaStreamError
 >
@@ -8164,7 +8164,7 @@ if
 sInShutdown
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaStreamError
 >
@@ -8860,7 +8860,7 @@ docURI
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaStreamError
 >
@@ -8913,7 +8913,7 @@ Other
 default
 :
 {
-nsRefPtr
+RefPtr
 <
 MediaStreamError
 >
@@ -9326,7 +9326,7 @@ enabled
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaStreamError
 >
@@ -9370,7 +9370,7 @@ Other
 default
 :
 {
-nsRefPtr
+RefPtr
 <
 MediaStreamError
 >
@@ -9494,7 +9494,7 @@ AddWindowID
 windowID
 )
 ;
-nsRefPtr
+RefPtr
 <
 GetUserMediaCallbackMediaStreamListener
 >
@@ -9682,7 +9682,7 @@ DENY_ACTION
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaStreamError
 >
@@ -9858,7 +9858,7 @@ fake
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 PledgeSourceSet
 >
@@ -9908,7 +9908,7 @@ devices
 aDevices
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaManager
 >
@@ -9921,7 +9921,7 @@ GetInstance
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPIDOMWindow
 >
@@ -9982,7 +9982,7 @@ AssignASCII
 badConstraint
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaStreamError
 >
@@ -10028,7 +10028,7 @@ Length
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaStreamError
 >
@@ -10263,7 +10263,7 @@ BeginReading
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 GetUserMediaRequest
 >
@@ -10847,7 +10847,7 @@ aWindowId
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 PledgeSourceSet
 >
@@ -10902,7 +10902,7 @@ IsActivelyCapturingOrHasAPermission
 aWindowId
 )
 ;
-nsRefPtr
+RefPtr
 <
 Pledge
 <
@@ -10949,7 +10949,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaManager
 >
@@ -10959,7 +10959,7 @@ MediaManager_GetInstance
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 PledgeSourceSet
 >
@@ -11004,7 +11004,7 @@ devices
 aDevices
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaManager
 >
@@ -11024,7 +11024,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 PledgeSourceSet
 >
@@ -11164,7 +11164,7 @@ AddWindowID
 windowId
 )
 ;
-nsRefPtr
+RefPtr
 <
 GetUserMediaCallbackMediaStreamListener
 >
@@ -11204,7 +11204,7 @@ fake
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 PledgeSourceSet
 >
@@ -11257,7 +11257,7 @@ devices
 aDevices
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaManager
 >
@@ -11310,7 +11310,7 @@ reason
 )
 mutable
 {
-nsRefPtr
+RefPtr
 <
 MediaManager
 >
@@ -12836,13 +12836,13 @@ shutdown
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
 mReply
 ;
-nsRefPtr
+RefPtr
 <
 MediaEngine
 >
@@ -12850,7 +12850,7 @@ mBackend
 ;
 }
 ;
-nsRefPtr
+RefPtr
 <
 MediaManager
 >
@@ -12859,7 +12859,7 @@ that
 sSingleton
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaEngine
 >
@@ -13846,7 +13846,7 @@ length
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 GetUserMediaCallbackMediaStreamListener
 >
@@ -15519,7 +15519,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 PledgeVoid
 >
@@ -15606,7 +15606,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 AudioDevice
 >
@@ -15622,7 +15622,7 @@ get
 :
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 VideoDevice
 >
@@ -15639,7 +15639,7 @@ get
 :
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 MediaManager
 >
@@ -15705,7 +15705,7 @@ IsInMediaThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaManager
 >
@@ -15759,7 +15759,7 @@ NS_ERROR_NOT_AVAILABLE
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 AudioDevice
 >
@@ -15812,7 +15812,7 @@ NS_ERROR_NOT_AVAILABLE
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 VideoDevice
 >
@@ -15862,7 +15862,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaManager
 >
@@ -15882,7 +15882,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 PledgeVoid
 >
@@ -15964,7 +15964,7 @@ AssignASCII
 badConstraint
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaStreamError
 >
@@ -15999,7 +15999,7 @@ error
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 MediaStreamError
 >
@@ -16219,7 +16219,7 @@ Invalidate
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaManager
 >
@@ -16347,7 +16347,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >

@@ -485,7 +485,7 @@ MediaFormatReader
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ShutdownPromise
 >
@@ -862,7 +862,7 @@ NS_ENSURE_TRUE_VOID
 element
 )
 ;
-nsRefPtr
+RefPtr
 <
 LayerManager
 >
@@ -1092,7 +1092,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 AbstractMediaDecoder
 >
@@ -1120,7 +1120,7 @@ CDMProxy
 aProxy
 )
 {
-nsRefPtr
+RefPtr
 <
 CDMProxy
 >
@@ -1128,7 +1128,7 @@ proxy
 =
 aProxy
 ;
-nsRefPtr
+RefPtr
 <
 MediaFormatReader
 >
@@ -1284,7 +1284,7 @@ aMimeType
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -1305,7 +1305,7 @@ OnTaskQueue
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MetadataPromise
 >
@@ -1363,7 +1363,7 @@ EnsureDecodersInitialized
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 MetadataHolder
 >
@@ -1913,7 +1913,7 @@ mInitDone
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 MetadataHolder
 >
@@ -2337,7 +2337,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaFormatReader
 >
@@ -2505,7 +2505,7 @@ false
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 :
@@ -2768,7 +2768,7 @@ mInitDone
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 MetadataHolder
 >
@@ -3101,7 +3101,7 @@ ToMicroseconds
 0
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -3356,7 +3356,7 @@ TrackInfo
 kVideoTrack
 )
 ;
-nsRefPtr
+RefPtr
 <
 VideoDataPromise
 >
@@ -3380,7 +3380,7 @@ return
 p
 ;
 }
-nsRefPtr
+RefPtr
 <
 VideoDataPromise
 >
@@ -3613,7 +3613,7 @@ MediaFormatReader
 :
 OnVideoDemuxCompleted
 (
-nsRefPtr
+RefPtr
 <
 MediaTrackDemuxer
 :
@@ -3705,7 +3705,7 @@ kVideoTrack
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -3888,7 +3888,7 @@ __func__
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 AudioDataPromise
 >
@@ -3967,7 +3967,7 @@ MediaFormatReader
 :
 OnAudioDemuxCompleted
 (
-nsRefPtr
+RefPtr
 <
 MediaTrackDemuxer
 :
@@ -4638,7 +4638,7 @@ mUpdateScheduled
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -5131,7 +5131,7 @@ Length
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -5144,7 +5144,7 @@ mQueuedSamples
 0
 ]
 ;
-nsRefPtr
+RefPtr
 <
 SharedTrackInfo
 >
@@ -5328,7 +5328,7 @@ GetID
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -5441,7 +5441,7 @@ mTime
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaFormatReader
 >
@@ -6108,7 +6108,7 @@ Length
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -6815,7 +6815,7 @@ decoder
 mSizeOfQueue
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -6892,7 +6892,7 @@ __func__
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 WaitForDataPromise
 >
@@ -7191,7 +7191,7 @@ aTrack
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -7239,7 +7239,7 @@ TrackType
 aTrack
 )
 {
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -7284,7 +7284,7 @@ TrackType
 aTrack
 )
 {
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -7329,7 +7329,7 @@ TrackType
 aTrack
 )
 {
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -7777,7 +7777,7 @@ break
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -7941,7 +7941,7 @@ mPendingSeekTime
 =
 mOriginalSeekTime
 ;
-nsRefPtr
+RefPtr
 <
 SeekPromise
 >
@@ -7954,7 +7954,7 @@ Ensure
 __func__
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >

@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -263,7 +263,7 @@ friend
 class
 :
 :
-nsRefPtr
+RefPtr
 ;
 template
 <

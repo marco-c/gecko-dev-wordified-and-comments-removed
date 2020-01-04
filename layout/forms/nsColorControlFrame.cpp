@@ -306,7 +306,7 @@ nsCSSPseudoElements
 :
 ePseudo_mozColorSwatch
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >

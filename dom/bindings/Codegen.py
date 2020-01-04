@@ -11444,7 +11444,7 @@ v
 is
 rooted
               
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -27462,7 +27462,7 @@ Template
 (
                 
 "
-nsRefPtr
+RefPtr
 <
 {
 type
@@ -34309,7 +34309,7 @@ declType
 CGGeneric
 (
 "
-nsRefPtr
+RefPtr
 <
 %
 s
@@ -34515,7 +34515,7 @@ forceOwningType
 declType
 =
 "
-nsRefPtr
+RefPtr
 <
 "
 +
@@ -34875,7 +34875,7 @@ templateBody
 +
 =
 "
-nsRefPtr
+RefPtr
 <
 "
 +
@@ -34897,7 +34897,7 @@ else
 holderType
 =
 "
-nsRefPtr
+RefPtr
 <
 "
 +
@@ -36462,7 +36462,7 @@ declType
 CGGeneric
 (
 "
-nsRefPtr
+RefPtr
 <
 %
 s
@@ -44795,7 +44795,7 @@ return
 CGGeneric
 (
 "
-nsRefPtr
+RefPtr
 <
 %
 s
@@ -92324,7 +92324,7 @@ isMember
 holder
 =
 "
-nsRefPtr
+RefPtr
 "
                 
 else
@@ -93915,7 +93915,7 @@ forceOwningType
 typeDecl
 =
 "
-nsRefPtr
+RefPtr
 <
 %
 s
@@ -94161,7 +94161,7 @@ forceOwningType
 declType
 =
 "
-nsRefPtr
+RefPtr
 <
 %
 s
@@ -98013,7 +98013,7 @@ C
 implementation
 .
         
-nsRefPtr
+RefPtr
 <
 {
 implClass
@@ -99016,7 +99016,7 @@ ccDecl
 private
 :
               
-nsRefPtr
+RefPtr
 <
 {
 jsImplName
@@ -99742,7 +99742,7 @@ toObject
 )
 ;
             
-nsRefPtr
+RefPtr
 <
 {
 implName
@@ -112066,7 +112066,7 @@ fill
 "
 "
             
-nsRefPtr
+RefPtr
 <
 {
 nativeType
@@ -113799,7 +113799,7 @@ nativeType
 pre
 =
 "
-nsRefPtr
+RefPtr
 <
 "
 post

@@ -654,7 +654,7 @@ TCPServerSocketEvent
 event
 )
 {
-nsRefPtr
+RefPtr
 <
 TCPSocket
 >
@@ -680,7 +680,7 @@ GetInBrowser
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 TCPSocketParent
 >

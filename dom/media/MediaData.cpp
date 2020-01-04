@@ -293,7 +293,7 @@ aOther
 nullptr
 )
 ;
-nsRefPtr
+RefPtr
 <
 AudioData
 >
@@ -742,7 +742,7 @@ int64_t
 aDuration
 )
 {
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -829,7 +829,7 @@ aOther
 nullptr
 )
 ;
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -922,7 +922,7 @@ aOther
 nullptr
 )
 ;
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -1286,7 +1286,7 @@ aImage
 aContainer
 )
 {
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -1546,7 +1546,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -2029,7 +2029,7 @@ aTime
 int64_t
 aDuration
 const
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -2045,7 +2045,7 @@ IntRect
 aPicture
 )
 {
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -2131,7 +2131,7 @@ if
 aContainer
 )
 {
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -2250,7 +2250,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -2507,7 +2507,7 @@ Clone
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >

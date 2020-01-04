@@ -211,7 +211,7 @@ nsIAsyncInputStream
 >
 mSocketInput
 ;
-nsRefPtr
+RefPtr
 <
 nsFtpControlConnectionListener
 >

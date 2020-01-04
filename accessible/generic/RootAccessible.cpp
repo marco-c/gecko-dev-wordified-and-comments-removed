@@ -1314,7 +1314,7 @@ NeedsDOMUIEvent
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 AccEvent
 >
@@ -1434,7 +1434,7 @@ states
 CHECKED
 )
 ;
-nsRefPtr
+RefPtr
 <
 AccEvent
 >
@@ -1535,7 +1535,7 @@ EXPANDED
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 AccEvent
 >
@@ -1659,7 +1659,7 @@ accessible
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 AccSelChangeEvent
 >
@@ -2435,7 +2435,7 @@ roles
 AUTOCOMPLETE
 )
 {
-nsRefPtr
+RefPtr
 <
 AccEvent
 >
@@ -2845,7 +2845,7 @@ notifyOf
 kNotifyOfState
 )
 {
-nsRefPtr
+RefPtr
 <
 AccEvent
 >

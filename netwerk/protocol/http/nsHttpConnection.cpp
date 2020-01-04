@@ -749,7 +749,7 @@ true
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsAHttpTransaction
 >
@@ -963,7 +963,7 @@ if
 spdyProxy
 )
 {
-nsRefPtr
+RefPtr
 <
 nsHttpConnectionInfo
 >
@@ -6217,7 +6217,7 @@ mSocketOut
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 nsHttpConnection
 >

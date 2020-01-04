@@ -589,7 +589,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaRecorder
 >
@@ -649,7 +649,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 Session
 >
@@ -717,7 +717,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaRecorder
 >
@@ -763,7 +763,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 Session
 >
@@ -847,7 +847,7 @@ mRecorder
 NS_OK
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaRecorder
 >
@@ -883,7 +883,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 Session
 >
@@ -1082,7 +1082,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 Session
 >
@@ -1131,7 +1131,7 @@ trackTypes
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1173,7 +1173,7 @@ CREATE_AUDIO_TRACK
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1247,7 +1247,7 @@ trackTypes
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 Session
 >
@@ -1343,7 +1343,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaRecorder
 >
@@ -1468,7 +1468,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 Session
 >
@@ -3209,19 +3209,19 @@ nullptr
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 MediaRecorder
 >
 mRecorder
 ;
-nsRefPtr
+RefPtr
 <
 ProcessedMediaStream
 >
 mTrackUnionStream
 ;
-nsRefPtr
+RefPtr
 <
 MediaInputPort
 >
@@ -3233,7 +3233,7 @@ nsIThread
 >
 mReadThread
 ;
-nsRefPtr
+RefPtr
 <
 MediaEncoder
 >
@@ -4361,7 +4361,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaRecorder
 >
@@ -4540,7 +4540,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaRecorder
 >
@@ -4713,7 +4713,7 @@ CheckPrincipal
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsIDOMBlob
 >
@@ -4765,7 +4765,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobEvent
 >
@@ -4848,7 +4848,7 @@ rv
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -5054,7 +5054,7 @@ mName
 =
 errorMsg
 ;
-nsRefPtr
+RefPtr
 <
 RecordErrorEvent
 >

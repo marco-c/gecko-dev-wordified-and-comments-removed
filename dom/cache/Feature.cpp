@@ -95,7 +95,7 @@ MOZ_ASSERT
 aWorkerPrivate
 )
 ;
-nsRefPtr
+RefPtr
 <
 Feature
 >

@@ -372,7 +372,7 @@ IndexIsValid
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 DOMSVGNumberList
 >

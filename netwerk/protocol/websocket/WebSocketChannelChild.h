@@ -350,7 +350,7 @@ MaybeReleaseIPCObject
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ChannelEventQueue
 >

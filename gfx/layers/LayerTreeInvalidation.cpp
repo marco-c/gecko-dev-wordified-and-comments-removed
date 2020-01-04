@@ -1195,7 +1195,7 @@ IntRect
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -2293,13 +2293,13 @@ IntRect
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ImageContainer
 >
 mContainer
 ;
-nsRefPtr
+RefPtr
 <
 ImageHost
 >

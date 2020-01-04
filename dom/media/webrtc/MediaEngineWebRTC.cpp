@@ -320,7 +320,7 @@ MediaSourceEnum
 aMediaSource
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaEngineVideoSource
 >
@@ -440,7 +440,7 @@ NS_OK
 continue
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaEngineVideoSource
 >
@@ -1025,7 +1025,7 @@ uniqueId
 '
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaEngineVideoSource
 >
@@ -1158,7 +1158,7 @@ MediaSourceEnum
 aMediaSource
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaEngineAudioSource
 >
@@ -1205,7 +1205,7 @@ MediaSourceEnum
 AudioCapture
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaEngineWebRTCAudioCaptureSource
 >
@@ -1578,7 +1578,7 @@ deviceName
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaEngineAudioSource
 >

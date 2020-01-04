@@ -112,7 +112,7 @@ nsRefPtr
 typedef
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsXBLBinding
 >
@@ -624,7 +624,7 @@ nsRunnableMethod
 nsBindingManager
 >
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnableMethod
 <

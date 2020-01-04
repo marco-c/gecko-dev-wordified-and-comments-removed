@@ -2655,7 +2655,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 LoadContextInfo
 >
@@ -2956,7 +2956,7 @@ CheckForAndDeleteOldDBFiles
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 PredictorThreadShutdownRunner
 >
@@ -3262,7 +3262,7 @@ NS_DISPATCH_NORMAL
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 PredictorOldCleanupRunner
 >
@@ -3371,7 +3371,7 @@ return
 NS_ERROR_NO_AGGREGATION
 ;
 }
-nsRefPtr
+RefPtr
 <
 Predictor
 >
@@ -3887,7 +3887,7 @@ mPredict
 =
 reason
 ;
-nsRefPtr
+RefPtr
 <
 Predictor
 :
@@ -4038,7 +4038,7 @@ originKey
 targetOrigin
 ;
 }
-nsRefPtr
+RefPtr
 <
 Predictor
 :
@@ -4612,7 +4612,7 @@ nsINetworkPredictor
 :
 PREDICT_LOAD
 ;
-nsRefPtr
+RefPtr
 <
 Predictor
 :
@@ -6286,7 +6286,7 @@ mLearn
 =
 reason
 ;
-nsRefPtr
+RefPtr
 <
 Predictor
 :
@@ -6460,7 +6460,7 @@ uriOpenFlags
 uriAction
 )
 ;
-nsRefPtr
+RefPtr
 <
 Predictor
 :
@@ -7421,7 +7421,7 @@ resourceCount
 mMaxResourcesPerEntry
 )
 {
-nsRefPtr
+RefPtr
 <
 Predictor
 :
@@ -8342,7 +8342,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 Predictor
 :

@@ -278,7 +278,7 @@ nsSVGElement
 aSVGElement
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMAnimatedInteger
 >

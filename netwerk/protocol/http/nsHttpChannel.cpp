@@ -11966,7 +11966,7 @@ CloseCacheEntry
 true
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsIChannel
 >
@@ -12566,7 +12566,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 LoadContextInfo
 >
@@ -13071,7 +13071,7 @@ GetCallback
 controller
 )
 ;
-nsRefPtr
+RefPtr
 <
 InterceptedChannelChrome
 >
@@ -22152,7 +22152,7 @@ host
 port
 )
 ;
-nsRefPtr
+RefPtr
 <
 AltSvcMapping
 >
@@ -22742,7 +22742,7 @@ HandleAsyncAPIRedirect
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsChannelClassifier
 >
@@ -25284,7 +25284,7 @@ NS_SUCCEEDED
 status
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsAHttpConnection
 >
@@ -25329,7 +25329,7 @@ conn
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsAHttpConnection
 >
@@ -29338,7 +29338,7 @@ rv
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 LoadContextInfo
 >
@@ -29899,7 +29899,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsHttpChannel
 >

@@ -219,7 +219,7 @@ it
 create
 and
 insert
-nsRefPtr
+RefPtr
 <
 nsScreenCocoa
 >

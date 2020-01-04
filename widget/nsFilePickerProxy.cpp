@@ -589,7 +589,7 @@ i
 ]
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -623,7 +623,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -760,7 +760,7 @@ SimpleEnumerator
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -868,7 +868,7 @@ SimpleEnumerator
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -898,7 +898,7 @@ nsISimpleEnumerator
 aDomfiles
 )
 {
-nsRefPtr
+RefPtr
 <
 SimpleEnumerator
 >

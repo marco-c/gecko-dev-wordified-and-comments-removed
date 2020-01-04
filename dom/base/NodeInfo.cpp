@@ -949,7 +949,7 @@ DeleteCycleCollectable
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsNodeInfoManager
 >

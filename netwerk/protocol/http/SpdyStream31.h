@@ -613,7 +613,7 @@ ExecuteCompress
 uint32_t
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsAHttpTransaction
 >

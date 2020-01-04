@@ -1699,7 +1699,7 @@ bool
 aAfter
 )
 {
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -2154,7 +2154,7 @@ bool
 aAfter
 )
 {
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -2854,7 +2854,7 @@ DeleteTable
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -2916,7 +2916,7 @@ int32_t
 aNumber
 )
 {
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -3641,7 +3641,7 @@ DeleteTableCellContents
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -3944,7 +3944,7 @@ int32_t
 aNumber
 )
 {
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -4567,7 +4567,7 @@ rowCount
 1
 )
 {
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -4649,7 +4649,7 @@ int32_t
 aNumber
 )
 {
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -5606,7 +5606,7 @@ aEndCell
 NS_ERROR_NULL_POINTER
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -6168,7 +6168,7 @@ res
 res
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -6397,7 +6397,7 @@ startCell
 =
 cell
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -6666,7 +6666,7 @@ startCell
 =
 cell
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -7868,7 +7868,7 @@ nsIEditor
 eNext
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -8858,7 +8858,7 @@ res
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -8894,7 +8894,7 @@ res
 res
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -10146,7 +10146,7 @@ nsIDOMElement
 aTable
 )
 {
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -11570,7 +11570,7 @@ aColIndex
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -12172,7 +12172,7 @@ aRange
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -12188,7 +12188,7 @@ selection
 NS_ERROR_FAILURE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -12309,7 +12309,7 @@ aRange
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -12345,7 +12345,7 @@ rangeCount
 return
 NS_EDITOR_ELEMENT_NOT_FOUND
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -12613,7 +12613,7 @@ aTable
 NS_ERROR_NOT_INITIALIZED
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -12912,7 +12912,7 @@ aSelectedCount
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >

@@ -3518,7 +3518,7 @@ nsIContentFilter
 >
 mContentFilters
 ;
-nsRefPtr
+RefPtr
 <
 TypeInState
 >
@@ -3553,7 +3553,7 @@ mStyleSheetURLs
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :

@@ -74,7 +74,7 @@ webm
 true
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 >

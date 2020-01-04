@@ -183,7 +183,7 @@ CODEC_PLNAME_SIZE
 =
 32
 ;
-nsRefPtr
+RefPtr
 <
 AudioSessionConduit
 >
@@ -1599,7 +1599,7 @@ WebrtcAudioConduit
 :
 SetTransmitterTransport
 (
-nsRefPtr
+RefPtr
 <
 TransportInterface
 >
@@ -1636,7 +1636,7 @@ WebrtcAudioConduit
 :
 SetReceiverTransport
 (
-nsRefPtr
+RefPtr
 <
 TransportInterface
 >

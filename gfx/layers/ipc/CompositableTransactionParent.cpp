@@ -54,7 +54,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -712,7 +712,7 @@ AsCompositable
 op
 )
 ;
-nsRefPtr
+RefPtr
 <
 TextureHost
 >
@@ -787,7 +787,7 @@ AsCompositable
 op
 )
 ;
-nsRefPtr
+RefPtr
 <
 TextureHost
 >
@@ -1191,7 +1191,7 @@ AsCompositable
 op
 )
 ;
-nsRefPtr
+RefPtr
 <
 TextureHost
 >
@@ -1209,7 +1209,7 @@ textureOnBlackParent
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 TextureHost
 >

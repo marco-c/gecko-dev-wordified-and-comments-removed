@@ -745,7 +745,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 FuzzTestThreadState
 >
@@ -1984,7 +1984,7 @@ threads
 kNumThreads
 ]
 ;
-nsRefPtr
+RefPtr
 <
 FuzzTestThreadState
 >

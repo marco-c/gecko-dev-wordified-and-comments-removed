@@ -1089,7 +1089,7 @@ mProperties
 void
 ComposeStyle
 (
-nsRefPtr
+RefPtr
 <
 AnimValuesStyleRule
 >

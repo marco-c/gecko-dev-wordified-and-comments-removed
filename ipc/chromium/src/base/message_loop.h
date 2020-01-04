@@ -907,7 +907,7 @@ delayed_work_queue_
 TaskQueue
 deferred_non_nestable_work_queue_
 ;
-nsRefPtr
+RefPtr
 <
 base
 :

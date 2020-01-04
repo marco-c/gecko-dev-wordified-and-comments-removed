@@ -2867,7 +2867,7 @@ GetAnimations
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Animation
 >
@@ -3815,13 +3815,13 @@ RemoveFromBindingManagerRunnable
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsBindingManager
 >
 mManager
 ;
-nsRefPtr
+RefPtr
 <
 nsIContent
 >
@@ -3924,7 +3924,7 @@ DestinationInsertionPointList
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Element
 >
@@ -4291,7 +4291,7 @@ NodeInfo
 ni
 =
 \
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -4440,7 +4440,7 @@ NodeInfo
 ni
 =
 \
-nsRefPtr
+RefPtr
 <
 mozilla
 :

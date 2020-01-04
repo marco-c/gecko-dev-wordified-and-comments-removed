@@ -366,7 +366,7 @@ GetBackendType
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -384,7 +384,7 @@ forget
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -397,7 +397,7 @@ CreatePathBuilder
 aFillRule
 )
 ;
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -462,7 +462,7 @@ FillRule
 :
 FILL_WINDING
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >

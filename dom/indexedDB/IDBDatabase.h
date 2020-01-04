@@ -207,7 +207,7 @@ friend
 class
 Observer
 ;
-nsRefPtr
+RefPtr
 <
 IDBFactory
 >
@@ -252,7 +252,7 @@ nsISupportsHashKey
 >
 mReceivedBlobs
 ;
-nsRefPtr
+RefPtr
 <
 Observer
 >

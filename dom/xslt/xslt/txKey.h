@@ -195,7 +195,7 @@ true
 txKeyValueHashKey
 mKey
 ;
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >
@@ -550,7 +550,7 @@ txXSLKey
 &
 mKeys
 ;
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >

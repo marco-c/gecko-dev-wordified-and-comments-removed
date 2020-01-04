@@ -28,7 +28,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -664,7 +664,7 @@ char
 path
 ;
 mutable
-nsRefPtr
+RefPtr
 <
 Mappable
 >
@@ -1220,7 +1220,7 @@ Init
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 LibHandle
 >
@@ -1232,7 +1232,7 @@ defined
 (
 ANDROID
 )
-nsRefPtr
+RefPtr
 <
 LibHandle
 >

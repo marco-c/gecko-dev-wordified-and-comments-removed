@@ -417,7 +417,7 @@ stmt
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncStatementSpinner
 >
@@ -470,7 +470,7 @@ nsIURI
 >
 testURI
 ;
-nsRefPtr
+RefPtr
 <
 Link
 >
@@ -552,7 +552,7 @@ addURI
 testURI
 )
 ;
-nsRefPtr
+RefPtr
 <
 Link
 >
@@ -661,7 +661,7 @@ addURI
 testURI
 )
 ;
-nsRefPtr
+RefPtr
 <
 Link
 >
@@ -674,7 +674,7 @@ expect_visit
 false
 )
 ;
-nsRefPtr
+RefPtr
 <
 Link
 >
@@ -745,7 +745,7 @@ new_test_uri
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Link
 >
@@ -816,7 +816,7 @@ test_new_visit_notifies_waiting_Link
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 Link
 >
@@ -891,7 +891,7 @@ addURI
 testURI
 )
 ;
-nsRefPtr
+RefPtr
 <
 Link
 >
@@ -1281,7 +1281,7 @@ addURI
 visitedURI
 )
 ;
-nsRefPtr
+RefPtr
 <
 Link
 >
@@ -1294,7 +1294,7 @@ expect_visit
 false
 )
 ;
-nsRefPtr
+RefPtr
 <
 Link
 >
@@ -1302,7 +1302,7 @@ visitedLinkCopy
 =
 visitedLink
 ;
-nsRefPtr
+RefPtr
 <
 Link
 >
@@ -1484,7 +1484,7 @@ IHistory
 TOP_LEVEL
 )
 ;
-nsRefPtr
+RefPtr
 <
 VisitURIObserver
 >
@@ -1582,7 +1582,7 @@ new_test_uri
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 VisitURIObserver
 >
@@ -1731,7 +1731,7 @@ lastURI
 0
 )
 ;
-nsRefPtr
+RefPtr
 <
 VisitURIObserver
 >
@@ -1822,7 +1822,7 @@ IHistory
 TOP_LEVEL
 )
 ;
-nsRefPtr
+RefPtr
 <
 VisitURIObserver
 >
@@ -1962,7 +1962,7 @@ IHistory
 TOP_LEVEL
 )
 ;
-nsRefPtr
+RefPtr
 <
 VisitURIObserver
 >
@@ -2063,7 +2063,7 @@ lastURI
 0
 )
 ;
-nsRefPtr
+RefPtr
 <
 VisitURIObserver
 >
@@ -2171,7 +2171,7 @@ do_check_success
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 VisitURIObserver
 >
@@ -2304,7 +2304,7 @@ do_check_success
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 VisitURIObserver
 >

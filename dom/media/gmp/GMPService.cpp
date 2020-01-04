@@ -373,7 +373,7 @@ final
 public
 nsRunnable
 {
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginService
 >
@@ -390,7 +390,7 @@ GetOrCreate
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginService
 >
@@ -427,7 +427,7 @@ MOZ_ASSERT
 mainThread
 )
 ;
-nsRefPtr
+RefPtr
 <
 GMPServiceCreateHelper
 >
@@ -519,7 +519,7 @@ XRE_IsParentProcess
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginServiceParent
 >
@@ -544,7 +544,7 @@ service
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginServiceChild
 >
@@ -574,7 +574,7 @@ sSingletonService
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginService
 >
@@ -722,7 +722,7 @@ i
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPCrashCallback
 >
@@ -919,7 +919,7 @@ document
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -1182,7 +1182,7 @@ doc
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 GMPCrashCallback
 >
@@ -1378,7 +1378,7 @@ i
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPCrashCallback
 >

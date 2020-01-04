@@ -421,7 +421,7 @@ strLen1
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 AccEvent
 >
@@ -452,7 +452,7 @@ strLen2
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 AccEvent
 >
@@ -686,7 +686,7 @@ colIdx
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 AccEvent
 >
@@ -775,7 +775,7 @@ uint32_t
 aEntries
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 AccEvent
 >

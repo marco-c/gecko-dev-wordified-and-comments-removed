@@ -1882,7 +1882,7 @@ Create
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 BasePrincipal
 >
@@ -1901,7 +1901,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPrincipal
 >

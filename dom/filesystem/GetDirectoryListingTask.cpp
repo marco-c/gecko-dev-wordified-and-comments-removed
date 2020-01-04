@@ -334,7 +334,7 @@ thread
 )
 ;
 return
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1064,7 +1064,7 @@ HasError
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMError
 >

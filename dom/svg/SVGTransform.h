@@ -508,7 +508,7 @@ InternalItem
 mTransform
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMSVGTransformList
 >

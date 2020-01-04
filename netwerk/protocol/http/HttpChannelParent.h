@@ -621,7 +621,7 @@ friend
 class
 HttpChannelParentListener
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -724,7 +724,7 @@ friend
 class
 ResponseSynthesizer
 ;
-nsRefPtr
+RefPtr
 <
 nsHttpChannel
 >
@@ -791,7 +791,7 @@ mReceivedRedirect2Verify
 :
 1
 ;
-nsRefPtr
+RefPtr
 <
 OfflineObserver
 >
@@ -806,7 +806,7 @@ nsILoadContext
 >
 mLoadContext
 ;
-nsRefPtr
+RefPtr
 <
 nsHttpHandler
 >
@@ -818,7 +818,7 @@ nsHttpResponseHead
 >
 mSynthesizedResponseHead
 ;
-nsRefPtr
+RefPtr
 <
 HttpChannelParentListener
 >
@@ -864,7 +864,7 @@ nsIInterceptedChannel
 >
 mInterceptedChannel
 ;
-nsRefPtr
+RefPtr
 <
 ChannelEventQueue
 >

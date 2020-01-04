@@ -420,7 +420,7 @@ nsIURI
 aResult
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheEntryWriter
 >
@@ -448,7 +448,7 @@ mPackageKey
 bool
 mIsFromCache
 ;
-nsRefPtr
+RefPtr
 <
 PackagedAppVerifier
 >
@@ -514,7 +514,7 @@ PackagedAppChannelListener
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 PackagedAppDownloader
 >

@@ -391,7 +391,7 @@ VideoTrackEncoder
 >
 videoEncoder
 ;
-nsRefPtr
+RefPtr
 <
 MediaEncoder
 >
@@ -1749,7 +1749,7 @@ Category
 OTHER
 )
 ;
-nsRefPtr
+RefPtr
 <
 TrackMetadataBase
 >

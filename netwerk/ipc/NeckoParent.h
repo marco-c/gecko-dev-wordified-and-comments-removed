@@ -1005,7 +1005,7 @@ mCoreAppsBasePath
 nsCString
 mWebAppsBasePath
 ;
-nsRefPtr
+RefPtr
 <
 OfflineObserver
 >

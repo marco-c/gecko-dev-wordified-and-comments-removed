@@ -1332,7 +1332,7 @@ aValue
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -1352,7 +1352,7 @@ SetBlobImpls
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -1437,7 +1437,7 @@ mValue
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -1817,7 +1817,7 @@ mode
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -2047,7 +2047,7 @@ if
 blob
 )
 {
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -2272,7 +2272,7 @@ bool
 aTrustedUpdate
 )
 ;
-nsRefPtr
+RefPtr
 <
 HTMLInputElement
 >
@@ -3113,7 +3113,7 @@ defaultName
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -4365,7 +4365,7 @@ NodeInfo
 >
 ni
 =
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -4383,7 +4383,7 @@ forget
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 HTMLInputElement
 >
@@ -6499,7 +6499,7 @@ aSetValueChanged
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -7167,7 +7167,7 @@ aValue
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >
@@ -9297,7 +9297,7 @@ return
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -9324,7 +9324,7 @@ Length
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -9408,7 +9408,7 @@ return
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -9518,7 +9518,7 @@ GetScopeObject
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -10526,7 +10526,7 @@ SetFiles
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -10569,7 +10569,7 @@ bool
 aSetValueChanged
 )
 {
-nsRefPtr
+RefPtr
 <
 FileList
 >
@@ -10623,7 +10623,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -11032,7 +11032,7 @@ Clear
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -12096,7 +12096,7 @@ CheckValidFormSubmission
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -12638,7 +12638,7 @@ GetFocusManager
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -14254,7 +14254,7 @@ UpdateForValueChange
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 AsyncEventDispatcher
 >
@@ -15897,7 +15897,7 @@ FLAG_BYMOVEFOCUS
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -16210,7 +16210,7 @@ name
 name
 )
 ;
-nsRefPtr
+RefPtr
 <
 HTMLInputElement
 >
@@ -17234,7 +17234,7 @@ CheckValidFormSubmission
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -20779,7 +20779,7 @@ MOZ_ASSERT
 aWindow
 )
 ;
-nsRefPtr
+RefPtr
 <
 OSFileSystem
 >
@@ -20886,7 +20886,7 @@ mFilesAndDirectoriesPromise
 )
 {
 return
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -20929,7 +20929,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -20960,7 +20960,7 @@ nullptr
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -21028,7 +21028,7 @@ GetInnerWindow
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 OSFileSystem
 >
@@ -21426,7 +21426,7 @@ aResult
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 nsIControllers
 >
@@ -21627,7 +21627,7 @@ ScrollSelectionIntoView
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncEventDispatcher
 >
@@ -22803,7 +22803,7 @@ nsIDOMFileList
 aFileList
 )
 {
-nsRefPtr
+RefPtr
 <
 FileList
 >
@@ -23390,7 +23390,7 @@ do_QueryInterface
 aTarget
 )
 ;
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -23956,7 +23956,7 @@ NS_FORM_INPUT_FILE
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -24122,7 +24122,7 @@ SaveState
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 HTMLInputElementState
 >
@@ -24993,7 +24993,7 @@ VALUE_MODE_FILENAME
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -25030,7 +25030,7 @@ global
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -25060,7 +25060,7 @@ len
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -26685,7 +26685,7 @@ VALUE_MODE_FILENAME
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 File
 >

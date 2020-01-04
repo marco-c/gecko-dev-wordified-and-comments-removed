@@ -201,7 +201,7 @@ cx
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 AudioBuffer
 >

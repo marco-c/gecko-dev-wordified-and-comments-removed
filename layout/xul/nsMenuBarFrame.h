@@ -413,7 +413,7 @@ aResult
 endif
 protected
 :
-nsRefPtr
+RefPtr
 <
 nsMenuBarListener
 >

@@ -246,7 +246,7 @@ node
 =
 aNode
 ;
-nsRefPtr
+RefPtr
 <
 ImportManager
 >
@@ -738,7 +738,7 @@ mLoader
 mDocument
 )
 {
-nsRefPtr
+RefPtr
 <
 ImportManager
 >
@@ -2921,7 +2921,7 @@ nsIDocument
 aOrigDocument
 )
 {
-nsRefPtr
+RefPtr
 <
 ImportLoader
 >
@@ -3224,7 +3224,7 @@ GetHrefURI
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ImportLoader
 >

@@ -294,7 +294,7 @@ this
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsOfflineCacheUpdate
 >

@@ -32,7 +32,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -484,7 +484,7 @@ mSourceOnWhite
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -493,7 +493,7 @@ SourceSurface
 >
 mSource
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -521,7 +521,7 @@ DrawTarget
 aReturned
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -774,7 +774,7 @@ IntRect
 aRect
 uint32_t
 aFlags
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -783,7 +783,7 @@ DrawTarget
 >
 *
 aBlackDT
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1037,7 +1037,7 @@ aRegionToDraw
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1046,7 +1046,7 @@ DrawTarget
 >
 mDTBuffer
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :

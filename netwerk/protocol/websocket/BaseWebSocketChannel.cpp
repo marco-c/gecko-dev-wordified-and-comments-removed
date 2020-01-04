@@ -977,7 +977,7 @@ rv
 return
 rv
 ;
-nsRefPtr
+RefPtr
 <
 nsStandardURL
 >

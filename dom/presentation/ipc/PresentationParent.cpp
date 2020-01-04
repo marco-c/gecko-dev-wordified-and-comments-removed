@@ -383,7 +383,7 @@ MOZ_ASSERT
 mService
 )
 ;
-nsRefPtr
+RefPtr
 <
 PresentationRequestParent
 >
@@ -418,7 +418,7 @@ PPresentationRequestParent
 aActor
 )
 {
-nsRefPtr
+RefPtr
 <
 PresentationRequestParent
 >

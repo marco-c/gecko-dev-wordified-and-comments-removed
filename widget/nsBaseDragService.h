@@ -65,7 +65,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -211,7 +211,7 @@ aScreenY
 nsIntRect
 *
 aScreenDragRect
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -248,7 +248,7 @@ aScreenY
 nsIntRect
 *
 aScreenDragRect
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -379,7 +379,7 @@ mInputSource
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :

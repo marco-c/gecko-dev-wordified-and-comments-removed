@@ -132,7 +132,7 @@ commaSeparatedMediaTypes
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 DocAccessibleWrap
 >

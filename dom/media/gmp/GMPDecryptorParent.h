@@ -20,7 +20,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -454,7 +454,7 @@ mShuttingDown
 bool
 mActorDestroyed
 ;
-nsRefPtr
+RefPtr
 <
 GMPContentParent
 >

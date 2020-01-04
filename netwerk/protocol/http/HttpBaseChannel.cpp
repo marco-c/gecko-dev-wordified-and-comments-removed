@@ -7108,7 +7108,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 HttpBaseChannel
 >
@@ -7205,7 +7205,7 @@ rv
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 CookieNotifierRunnable
 >

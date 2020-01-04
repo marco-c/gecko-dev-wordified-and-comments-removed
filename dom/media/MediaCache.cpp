@@ -952,7 +952,7 @@ Block
 >
 mIndex
 ;
-nsRefPtr
+RefPtr
 <
 FileBlockCache
 >

@@ -898,7 +898,7 @@ map
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 RunAddNewIPCProcess
 >

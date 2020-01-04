@@ -240,7 +240,7 @@ aIsPrintPreview
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
 ;
-nsRefPtr
+RefPtr
 <
 nsPrintSettingsX
 >
@@ -682,7 +682,7 @@ mPrintSession
 context
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >

@@ -376,7 +376,7 @@ GetAsSupports
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 UIEvent
 >
@@ -2217,7 +2217,7 @@ WidgetGUIEvent
 aEvent
 )
 {
-nsRefPtr
+RefPtr
 <
 UIEvent
 >

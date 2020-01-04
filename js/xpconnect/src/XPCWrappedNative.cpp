@@ -842,7 +842,7 @@ success
 return
 NS_ERROR_FAILURE
 ;
-nsRefPtr
+RefPtr
 <
 XPCWrappedNative
 >
@@ -1167,7 +1167,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 XPCWrappedNative
 >
@@ -1871,7 +1871,7 @@ GetWrappedNativeMap
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 XPCWrappedNative
 >
@@ -2047,7 +2047,7 @@ MOZ_ASSERT
 Interface
 )
 ;
-nsRefPtr
+RefPtr
 <
 XPCWrappedNative
 >
@@ -3726,7 +3726,7 @@ JSObjectFinalized
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsISupports
 >
@@ -4614,7 +4614,7 @@ GetIdentityObject
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsISupports
 >
@@ -4820,7 +4820,7 @@ nsIPropertyBag
 jso
 )
 {
-nsRefPtr
+RefPtr
 <
 nsXPCWrappedJSClass
 >

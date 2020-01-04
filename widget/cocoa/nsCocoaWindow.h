@@ -1888,7 +1888,7 @@ WindowDelegate
 *
 mDelegate
 ;
-nsRefPtr
+RefPtr
 <
 nsMenuBarX
 >

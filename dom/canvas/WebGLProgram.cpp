@@ -48,7 +48,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -303,7 +303,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 WebGLActiveInfo
 >
@@ -324,7 +324,7 @@ WebGLActiveInfo
 infoLocMap
 )
 {
-nsRefPtr
+RefPtr
 <
 WebGLActiveInfo
 >
@@ -389,7 +389,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 webgl
 :
@@ -401,7 +401,7 @@ UniformBlockInfo
 activeInfoList
 )
 {
-nsRefPtr
+RefPtr
 <
 webgl
 :
@@ -451,7 +451,7 @@ GLContext
 gl
 )
 {
-nsRefPtr
+RefPtr
 <
 webgl
 :
@@ -2207,7 +2207,7 @@ if
 mMostRecentLinkInfo
 )
 {
-nsRefPtr
+RefPtr
 <
 WebGLActiveInfo
 >
@@ -2289,7 +2289,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 WebGLActiveInfo
 >
@@ -2328,7 +2328,7 @@ if
 mMostRecentLinkInfo
 )
 {
-nsRefPtr
+RefPtr
 <
 WebGLActiveInfo
 >
@@ -2410,7 +2410,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 WebGLActiveInfo
 >
@@ -2437,7 +2437,7 @@ GetAttachedShaders
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 WebGLShader
 >
@@ -3092,7 +3092,7 @@ arrayIndex
 return
 LOCAL_GL_INVALID_INDEX
 ;
-nsRefPtr
+RefPtr
 <
 const
 webgl
@@ -4007,7 +4007,7 @@ loc
 return
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 WebGLUniformLocation
 >
@@ -5332,7 +5332,7 @@ MOZ_ASSERT
 info
 )
 ;
-nsRefPtr
+RefPtr
 <
 WebGLActiveInfo
 >

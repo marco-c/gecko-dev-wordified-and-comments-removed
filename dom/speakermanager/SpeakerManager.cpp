@@ -345,7 +345,7 @@ rv
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -689,7 +689,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 SpeakerManager
 >
@@ -859,7 +859,7 @@ mVisible
 mForcespeaker
 )
 {
-nsRefPtr
+RefPtr
 <
 AudioChannelService
 >

@@ -483,7 +483,7 @@ CompatibilityMode
 eCompatibility_FullStandards
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >

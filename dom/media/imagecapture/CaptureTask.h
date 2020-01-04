@@ -160,7 +160,7 @@ PostTrackEndEvent
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :

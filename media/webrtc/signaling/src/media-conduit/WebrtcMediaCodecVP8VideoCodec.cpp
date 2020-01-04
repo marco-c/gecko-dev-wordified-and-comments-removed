@@ -2594,7 +2594,7 @@ mInputBuffers
 jobjectArray
 mOutputBuffers
 ;
-nsRefPtr
+RefPtr
 <
 OutputDrain
 >

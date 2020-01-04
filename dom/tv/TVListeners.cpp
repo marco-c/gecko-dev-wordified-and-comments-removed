@@ -161,7 +161,7 @@ nsITVChannelData
 aChannelData
 )
 {
-nsRefPtr
+RefPtr
 <
 TVSource
 >
@@ -201,7 +201,7 @@ nsAString
 aSourceType
 )
 {
-nsRefPtr
+RefPtr
 <
 TVSource
 >
@@ -240,7 +240,7 @@ nsAString
 aSourceType
 )
 {
-nsRefPtr
+RefPtr
 <
 TVSource
 >
@@ -289,7 +289,7 @@ uint32_t
 aCount
 )
 {
-nsRefPtr
+RefPtr
 <
 TVSource
 >
@@ -357,7 +357,7 @@ i
 nsString
 tunerId
 ;
-nsRefPtr
+RefPtr
 <
 TVTuner
 >
@@ -415,7 +415,7 @@ sourceType
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 TVSource
 >

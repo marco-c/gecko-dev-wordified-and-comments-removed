@@ -187,7 +187,7 @@ Generate
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -1178,7 +1178,7 @@ i
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 TrackMetadataBase
 >
@@ -1190,7 +1190,7 @@ GetMetadata
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 VP8Metadata
 >
@@ -1284,7 +1284,7 @@ param
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -1325,7 +1325,7 @@ for
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -1350,7 +1350,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 Image
 >

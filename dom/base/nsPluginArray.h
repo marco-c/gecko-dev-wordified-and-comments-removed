@@ -118,7 +118,7 @@ GetMimeTypes
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsMimeType
 >
@@ -229,7 +229,7 @@ mWindow
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsPluginElement
 >
@@ -408,7 +408,7 @@ retval
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsMimeType
 >
@@ -444,7 +444,7 @@ mPluginTag
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsMimeType
 >

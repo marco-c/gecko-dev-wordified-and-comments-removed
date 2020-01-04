@@ -445,7 +445,7 @@ sqlite3_stmt
 *
 mStatement
 ;
-nsRefPtr
+RefPtr
 <
 BindingParamsArray
 >

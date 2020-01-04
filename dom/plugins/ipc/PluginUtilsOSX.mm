@@ -2675,7 +2675,7 @@ SwapSurfaces
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 MacIOSurface
 >

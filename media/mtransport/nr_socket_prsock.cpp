@@ -4240,7 +4240,7 @@ NrUdpSocketIpcProxy
 Init
 (
 const
-nsRefPtr
+RefPtr
 <
 NrUdpSocketIpc
 >
@@ -4709,7 +4709,7 @@ data_length
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nr_udp_message
 >
@@ -4731,7 +4731,7 @@ mozilla
 :
 WrapRunnable
 (
-nsRefPtr
+RefPtr
 <
 NrUdpSocketIpc
 >
@@ -5205,7 +5205,7 @@ mozilla
 :
 WrapRunnable
 (
-nsRefPtr
+RefPtr
 <
 NrUdpSocketIpc
 >
@@ -5370,7 +5370,7 @@ mozilla
 :
 WrapRunnable
 (
-nsRefPtr
+RefPtr
 <
 NrUdpSocketIpc
 >
@@ -5423,7 +5423,7 @@ mozilla
 :
 WrapRunnable
 (
-nsRefPtr
+RefPtr
 <
 NrUdpSocketIpc
 >
@@ -5444,7 +5444,7 @@ std
 :
 queue
 <
-nsRefPtr
+RefPtr
 <
 nr_udp_message
 >
@@ -5535,7 +5535,7 @@ R_WOULDBLOCK
 ;
 }
 {
-nsRefPtr
+RefPtr
 <
 nr_udp_message
 >
@@ -5961,7 +5961,7 @@ socketChild
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 NrUdpSocketIpcProxy
 >
@@ -6189,7 +6189,7 @@ nsIEventTarget
 sts_thread
 )
 {
-nsRefPtr
+RefPtr
 <
 nsIUDPSocketChild
 >
@@ -6258,7 +6258,7 @@ NrUdpSocketIpc
 :
 recv_callback_s
 (
-nsRefPtr
+RefPtr
 <
 nr_udp_message
 >
@@ -6370,7 +6370,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 NrTcpSocketIpc
 >
@@ -6582,7 +6582,7 @@ mozilla
 :
 WrapRunnable
 (
-nsRefPtr
+RefPtr
 <
 NrTcpSocketIpc
 >
@@ -6624,7 +6624,7 @@ mozilla
 :
 WrapRunnable
 (
-nsRefPtr
+RefPtr
 <
 NrTcpSocketIpc
 >
@@ -6700,7 +6700,7 @@ Length
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nr_tcp_message
 >
@@ -6720,7 +6720,7 @@ mozilla
 :
 WrapRunnable
 (
-nsRefPtr
+RefPtr
 <
 NrTcpSocketIpc
 >
@@ -6809,7 +6809,7 @@ mozilla
 :
 WrapRunnable
 (
-nsRefPtr
+RefPtr
 <
 NrTcpSocketIpc
 >
@@ -7143,7 +7143,7 @@ mozilla
 :
 WrapRunnable
 (
-nsRefPtr
+RefPtr
 <
 NrTcpSocketIpc
 >
@@ -7164,7 +7164,7 @@ std
 :
 queue
 <
-nsRefPtr
+RefPtr
 <
 nr_tcp_message
 >
@@ -7268,7 +7268,7 @@ mozilla
 :
 WrapRunnable
 (
-nsRefPtr
+RefPtr
 <
 NrTcpSocketIpc
 >
@@ -7423,7 +7423,7 @@ mozilla
 :
 WrapRunnable
 (
-nsRefPtr
+RefPtr
 <
 NrTcpSocketIpc
 >
@@ -7518,7 +7518,7 @@ R_WOULDBLOCK
 ;
 }
 {
-nsRefPtr
+RefPtr
 <
 nr_tcp_message
 >
@@ -7808,7 +7808,7 @@ nsIEventTarget
 sts_thread
 )
 {
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -8207,7 +8207,7 @@ if
 has_event
 )
 {
-nsRefPtr
+RefPtr
 <
 TcpSocketReadyRunner
 >
@@ -8428,7 +8428,7 @@ nr_socket
 sockp
 )
 {
-nsRefPtr
+RefPtr
 <
 NrSocketBase
 >

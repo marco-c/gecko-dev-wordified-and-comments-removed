@@ -211,7 +211,7 @@ GetShouldTxnSetSelection
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -327,7 +327,7 @@ aDidMerge
 =
 false
 ;
-nsRefPtr
+RefPtr
 <
 InsertTextTxn
 >

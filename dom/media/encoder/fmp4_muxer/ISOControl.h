@@ -66,7 +66,7 @@ GetFirstFragment
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 EncodedFrame
 >
@@ -195,7 +195,7 @@ nsTArray
 <
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 EncodedFrame
 >
@@ -203,7 +203,7 @@ EncodedFrame
 >
 mFragArray
 ;
-nsRefPtr
+RefPtr
 <
 EncodedFrame
 >
@@ -469,7 +469,7 @@ aTrackMeta
 nsresult
 GetAudioMetadata
 (
-nsRefPtr
+RefPtr
 <
 AudioTrackMetadata
 >
@@ -480,7 +480,7 @@ aAudMeta
 nsresult
 GetVideoMetadata
 (
-nsRefPtr
+RefPtr
 <
 VideoTrackMetadata
 >
@@ -541,7 +541,7 @@ mFragNum
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 TrackMetadataBase
 >

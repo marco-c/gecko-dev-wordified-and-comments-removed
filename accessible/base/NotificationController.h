@@ -294,7 +294,7 @@ mCallback
 ;
 Tuple
 <
-nsRefPtr
+RefPtr
 <
 Args
 >
@@ -525,7 +525,7 @@ aArg
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 Notification
 >
@@ -583,7 +583,7 @@ Callback
 aMethod
 )
 {
-nsRefPtr
+RefPtr
 <
 Notification
 >
@@ -702,7 +702,7 @@ mPresShell
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 DocAccessible
 >
@@ -788,7 +788,7 @@ DocAccessible
 *
 mDocument
 ;
-nsRefPtr
+RefPtr
 <
 Accessible
 >
@@ -807,7 +807,7 @@ mInsertedContent
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 ContentInsertion
 >
@@ -969,7 +969,7 @@ mTextHash
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Notification
 >

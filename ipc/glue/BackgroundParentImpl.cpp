@@ -261,7 +261,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1152,7 +1152,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1213,7 +1213,7 @@ MOZ_ASSERT
 aActor
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1270,7 +1270,7 @@ AssertIsOnBackgroundThread
 #
 ifdef
 MOZ_WEBRTC
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1344,7 +1344,7 @@ aActor
 #
 ifdef
 MOZ_WEBRTC
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1472,7 +1472,7 @@ InitUDPSocketParentCallback
 {
 }
 ;
-nsRefPtr
+RefPtr
 <
 UDPSocketParent
 >
@@ -1502,7 +1502,7 @@ nsCString
 PUDPSocketParent
 *
 {
-nsRefPtr
+RefPtr
 <
 UDPSocketParent
 >
@@ -1799,7 +1799,7 @@ RunRAII
 explicit
 RunRAII
 (
-nsRefPtr
+RefPtr
 <
 ContentParent
 >
@@ -1823,7 +1823,7 @@ mContentParent
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ContentParent
 >
@@ -1988,7 +1988,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 ContentParent
 >
@@ -2044,7 +2044,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ContentParent
 >
@@ -2083,7 +2083,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 CheckPrincipalRunnable
 >
@@ -2258,7 +2258,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 dom
 :

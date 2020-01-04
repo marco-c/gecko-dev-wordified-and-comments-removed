@@ -519,7 +519,7 @@ IsAnimVal
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 SVGTransform
 >

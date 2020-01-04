@@ -90,7 +90,7 @@ aRv
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 InternalRequest
 >
@@ -230,7 +230,7 @@ Clone
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 InternalRequest
 >

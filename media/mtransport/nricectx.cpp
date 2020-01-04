@@ -1160,7 +1160,7 @@ NrIceCtx
 obj
 )
 ;
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >
@@ -1226,7 +1226,7 @@ NrIceCtx
 obj
 )
 ;
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >
@@ -1412,7 +1412,7 @@ NrIceCtx
 obj
 )
 ;
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >
@@ -1481,7 +1481,7 @@ NrIceCtx
 arg
 )
 ;
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >
@@ -1571,7 +1571,7 @@ candidate_str
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 NrIceCtx
 >
@@ -1601,7 +1601,7 @@ Policy
 policy
 )
 {
-nsRefPtr
+RefPtr
 <
 NrIceCtx
 >
@@ -2587,7 +2587,7 @@ delete
 ice_handler_
 ;
 }
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >
@@ -2654,7 +2654,7 @@ index
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >
@@ -3556,7 +3556,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >

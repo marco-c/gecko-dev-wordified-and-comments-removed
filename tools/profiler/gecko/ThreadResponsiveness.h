@@ -99,7 +99,7 @@ ThreadProfile
 *
 mThreadProfile
 ;
-nsRefPtr
+RefPtr
 <
 CheckResponsivenessTask
 >

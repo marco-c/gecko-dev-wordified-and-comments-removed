@@ -85,7 +85,7 @@ MessagePortParent
 aParent
 FallibleTArray
 <
-nsRefPtr
+RefPtr
 <
 SharedMessagePortMessage
 >
@@ -110,7 +110,7 @@ MessagePortParent
 aParent
 FallibleTArray
 <
-nsRefPtr
+RefPtr
 <
 SharedMessagePortMessage
 >

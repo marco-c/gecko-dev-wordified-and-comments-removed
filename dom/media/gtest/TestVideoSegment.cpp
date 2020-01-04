@@ -35,7 +35,7 @@ VideoSegment
 TestAppendFrameForceBlack
 )
 {
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -129,7 +129,7 @@ VideoSegment
 TestAppendFrameNotForceBlack
 )
 {
-nsRefPtr
+RefPtr
 <
 layers
 :

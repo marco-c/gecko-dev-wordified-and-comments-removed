@@ -522,7 +522,7 @@ GetAsSupports
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 DragEvent
 >
@@ -656,7 +656,7 @@ WidgetDragEvent
 aEvent
 )
 {
-nsRefPtr
+RefPtr
 <
 DragEvent
 >

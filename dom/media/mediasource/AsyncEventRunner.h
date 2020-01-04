@@ -68,7 +68,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 T
 >

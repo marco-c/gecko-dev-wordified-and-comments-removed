@@ -614,7 +614,7 @@ IntSize
 aSize
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -1343,7 +1343,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -1379,7 +1379,7 @@ GetAsReadableARGB32ImageSurface
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxImageSurface
 >
@@ -1457,7 +1457,7 @@ GetSize
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxImageSurface
 >
@@ -1473,7 +1473,7 @@ gfxImageFormat
 ARGB32
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -1501,7 +1501,7 @@ height
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

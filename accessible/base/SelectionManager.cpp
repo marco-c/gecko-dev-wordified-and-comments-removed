@@ -161,7 +161,7 @@ aReason
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -727,7 +727,7 @@ mCaretOffset
 1
 )
 {
-nsRefPtr
+RefPtr
 <
 AccCaretMoveEvent
 >
@@ -836,7 +836,7 @@ if
 document
 )
 {
-nsRefPtr
+RefPtr
 <
 SelData
 >
@@ -1070,7 +1070,7 @@ nsISelectionController
 SELECTION_NORMAL
 )
 {
-nsRefPtr
+RefPtr
 <
 AccEvent
 >

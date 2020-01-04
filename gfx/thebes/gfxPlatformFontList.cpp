@@ -1701,7 +1701,7 @@ Next
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -1930,7 +1930,7 @@ Key
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -2494,7 +2494,7 @@ Next
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -2519,7 +2519,7 @@ aLangGroup
 bool
 needsBold
 ;
-nsRefPtr
+RefPtr
 <
 gfxFontEntry
 >
@@ -2633,7 +2633,7 @@ GetFontFamilyList
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -2667,7 +2667,7 @@ Next
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -3325,7 +3325,7 @@ Next
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -4299,7 +4299,7 @@ eFontPrefLang
 aPrefLang
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -4603,7 +4603,7 @@ genericFamily
 genericFamilies
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -4760,7 +4760,7 @@ endif
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -4935,7 +4935,7 @@ langGroup
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -6349,7 +6349,7 @@ Next
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >

@@ -1732,7 +1732,7 @@ cx
 compartment
 )
 ;
-nsRefPtr
+RefPtr
 <
 PerformanceGroup
 >
@@ -1901,7 +1901,7 @@ cx
 compartment
 )
 ;
-nsRefPtr
+RefPtr
 <
 PerformanceGroup
 >
@@ -1932,7 +1932,7 @@ ticks
 continue
 ;
 }
-nsRefPtr
+RefPtr
 <
 PerformanceGroup
 >

@@ -256,7 +256,7 @@ GLXLibrary
 *
 mGLX
 ;
-nsRefPtr
+RefPtr
 <
 gfxXlibSurface
 >

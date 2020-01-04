@@ -35,7 +35,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1263,7 +1263,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -1318,7 +1318,7 @@ TopLeft
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -1452,7 +1452,7 @@ m
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1475,7 +1475,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1518,7 +1518,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -1550,7 +1550,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1573,7 +1573,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

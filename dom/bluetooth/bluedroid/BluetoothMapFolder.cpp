@@ -61,7 +61,7 @@ nsAString
 aFolderName
 )
 {
-nsRefPtr
+RefPtr
 <
 BluetoothMapFolder
 >

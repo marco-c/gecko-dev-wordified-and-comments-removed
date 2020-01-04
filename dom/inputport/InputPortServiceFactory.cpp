@@ -59,7 +59,7 @@ CreateFakeInputPortService
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 FakeInputPortService
 >

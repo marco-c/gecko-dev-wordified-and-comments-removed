@@ -98,7 +98,7 @@ MediaSourceDemuxer
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -234,7 +234,7 @@ ScanSourceBuffersForContent
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -301,7 +301,7 @@ IsCurrentThreadIn
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
@@ -309,7 +309,7 @@ mTaskQueue
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaSourceTrackDemuxer
 >
@@ -318,7 +318,7 @@ mDemuxers
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 TrackBuffersManager
 >
@@ -335,13 +335,13 @@ mutable
 Monitor
 mMonitor
 ;
-nsRefPtr
+RefPtr
 <
 TrackBuffersManager
 >
 mAudioTrack
 ;
-nsRefPtr
+RefPtr
 <
 TrackBuffersManager
 >
@@ -385,7 +385,7 @@ GetInfo
 const
 override
 ;
-nsRefPtr
+RefPtr
 <
 SeekPromise
 >
@@ -399,7 +399,7 @@ aTime
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 SamplesPromise
 >
@@ -430,7 +430,7 @@ aTime
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 SkipAccessPointPromise
 >
@@ -472,7 +472,7 @@ false
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 SeekPromise
 >
@@ -485,7 +485,7 @@ TimeUnit
 aTime
 )
 ;
-nsRefPtr
+RefPtr
 <
 SamplesPromise
 >
@@ -495,7 +495,7 @@ int32_t
 aNumSamples
 )
 ;
-nsRefPtr
+RefPtr
 <
 SkipAccessPointPromise
 >
@@ -527,13 +527,13 @@ GetNextRandomAccessPoint
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaSourceDemuxer
 >
 mParent
 ;
-nsRefPtr
+RefPtr
 <
 TrackBuffersManager
 >

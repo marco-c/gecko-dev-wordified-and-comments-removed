@@ -1009,7 +1009,7 @@ encoder
 1
 )
 ;
-nsRefPtr
+RefPtr
 <
 FakeInputStream
 >

@@ -262,7 +262,7 @@ TestGonkCameraHardwareListener
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsGonkCameraControl
 >
@@ -868,7 +868,7 @@ NS_OK
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 nsGonkCameraControl
 >
@@ -963,7 +963,7 @@ Nullable
 <
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 DOMCameraDetectedFace
 >
@@ -1015,7 +1015,7 @@ else
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 DOMCameraDetectedFace
 >
@@ -1080,7 +1080,7 @@ i
 i
 ;
 const
-nsRefPtr
+RefPtr
 <
 DOMCameraDetectedFace
 >
@@ -1754,7 +1754,7 @@ TestGonkCameraHardware
 :
 WaitWhileRunningOnMainThread
 (
-nsRefPtr
+RefPtr
 <
 ControlMessage
 >

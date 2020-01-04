@@ -475,7 +475,7 @@ nullptr
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 txStylesheetCompiler
 >
@@ -1617,7 +1617,7 @@ aReferrerPolicy
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 txMozillaXSLTProcessor
 >
@@ -2027,7 +2027,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 txStylesheetSink
 >
@@ -2153,7 +2153,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 txCompileObserver
 >
@@ -2172,7 +2172,7 @@ observer
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-nsRefPtr
+RefPtr
 <
 txStylesheetCompiler
 >
@@ -2629,7 +2629,7 @@ txSyncCompileObserver
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 txMozillaXSLTProcessor
 >
@@ -3153,7 +3153,7 @@ stylesheetURI
 spec
 )
 ;
-nsRefPtr
+RefPtr
 <
 txSyncCompileObserver
 >
@@ -3171,7 +3171,7 @@ obs
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-nsRefPtr
+RefPtr
 <
 txStylesheetCompiler
 >

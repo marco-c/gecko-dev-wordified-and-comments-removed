@@ -1833,7 +1833,7 @@ endif
 #
 ifdef
 MOZ_HAVE_SHMIMAGE
-nsRefPtr
+RefPtr
 <
 nsShmImage
 >
@@ -1844,7 +1844,7 @@ endif
 #
 ifdef
 ACCESSIBILITY
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1998,7 +1998,7 @@ RoundsWidgetCoordinatesTo
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

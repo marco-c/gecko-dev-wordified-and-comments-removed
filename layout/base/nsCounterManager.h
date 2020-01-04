@@ -148,7 +148,7 @@ nsCounterUseNode
 public
 nsCounterNode
 {
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :
@@ -161,7 +161,7 @@ nsPresContext
 *
 mPresContext
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

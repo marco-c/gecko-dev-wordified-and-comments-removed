@@ -22,7 +22,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -226,7 +226,7 @@ private
 typedef
 nsTObserverArray
 <
-nsRefPtr
+RefPtr
 <
 ReadStream
 :

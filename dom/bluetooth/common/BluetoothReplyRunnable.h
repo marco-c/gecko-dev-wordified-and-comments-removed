@@ -187,7 +187,7 @@ nsIDOMDOMRequest
 >
 mDOMRequest
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -316,7 +316,7 @@ OnErrorFired
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothReplyTaskQueue
 >
@@ -430,13 +430,13 @@ SubTask
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 BluetoothReplyTaskQueue
 >
 mRootQueue
 ;
-nsRefPtr
+RefPtr
 <
 SubReplyRunnable
 >
@@ -513,7 +513,7 @@ OnErrorFired
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >
@@ -521,7 +521,7 @@ mReply
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SubTask
 >

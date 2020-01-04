@@ -639,7 +639,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >

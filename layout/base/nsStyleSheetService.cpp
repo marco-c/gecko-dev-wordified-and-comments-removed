@@ -895,7 +895,7 @@ NS_ENSURE_ARG_POINTER
 aSheetURI
 )
 ;
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -912,7 +912,7 @@ Loader
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -1091,7 +1091,7 @@ param
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -1108,7 +1108,7 @@ Loader
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >

@@ -173,7 +173,7 @@ CacheFileChunkListener
 >
 mCallback
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileChunk
 >
@@ -200,7 +200,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsRunnableMethod
 <
@@ -1495,7 +1495,7 @@ this
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 NotifyUpdateListenerEvent
 >

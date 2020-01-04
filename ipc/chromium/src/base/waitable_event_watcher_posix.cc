@@ -250,7 +250,7 @@ Task
 const
 cb_task_
 ;
-nsRefPtr
+RefPtr
 <
 Flag
 >
@@ -331,7 +331,7 @@ event_
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 Flag
 >

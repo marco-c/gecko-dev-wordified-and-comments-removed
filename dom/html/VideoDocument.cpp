@@ -140,7 +140,7 @@ nsIStreamListener
 aListener
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaDocumentStreamListener
 >
@@ -398,7 +398,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -429,7 +429,7 @@ nsIDOMNode
 ELEMENT_NODE
 )
 ;
-nsRefPtr
+RefPtr
 <
 HTMLMediaElement
 >

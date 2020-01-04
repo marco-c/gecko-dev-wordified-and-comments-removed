@@ -85,7 +85,7 @@ nsCSubstring
 str
 )
 {
-nsRefPtr
+RefPtr
 <
 nsBase64Encoder
 >

@@ -371,7 +371,7 @@ mIsDoneAddingChildren
 nsString
 mDefaultValue
 ;
-nsRefPtr
+RefPtr
 <
 nsDOMSettableTokenList
 >

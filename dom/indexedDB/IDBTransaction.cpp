@@ -815,7 +815,7 @@ nsString
 >
 emptyObjectStoreNames
 ;
-nsRefPtr
+RefPtr
 <
 IDBTransaction
 >
@@ -1004,7 +1004,7 @@ aMode
 READ_WRITE_FLUSH
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBTransaction
 >
@@ -2337,7 +2337,7 @@ metadata
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBObjectStore
 >
@@ -2449,7 +2449,7 @@ index
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 IDBObjectStore
 >
@@ -2481,7 +2481,7 @@ NoteDeletion
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBObjectStore
 >
@@ -2696,7 +2696,7 @@ IsCommittingOrDone
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 DOMError
 >
@@ -3043,7 +3043,7 @@ objectStoreId
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 IDBObjectStore
 >
@@ -3136,7 +3136,7 @@ return
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 DOMError
 >
@@ -3190,7 +3190,7 @@ IsCommittingOrDone
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMError
 >
@@ -3733,7 +3733,7 @@ ObjectStoreNames
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMStringList
 >
@@ -3938,7 +3938,7 @@ id
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBObjectStore
 >
@@ -3967,7 +3967,7 @@ index
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 IDBObjectStore
 >
@@ -4265,7 +4265,7 @@ AssertIsOnOwningThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBTransaction
 >

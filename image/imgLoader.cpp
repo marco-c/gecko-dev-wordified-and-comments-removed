@@ -462,7 +462,7 @@ Get
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 imgRequest
 >
@@ -2234,7 +2234,7 @@ void
 aUserArg
 )
 {
-nsRefPtr
+RefPtr
 <
 imgRequest
 >
@@ -2291,7 +2291,7 @@ bool
 aIsUsed
 )
 {
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -2362,7 +2362,7 @@ return
 PL_DHASH_NEXT
 ;
 }
-nsRefPtr
+RefPtr
 <
 imgRequest
 >
@@ -2375,7 +2375,7 @@ GetRequest
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -2834,7 +2834,7 @@ imgCacheEntry
 aEntry
 )
 {
-nsRefPtr
+RefPtr
 <
 imgRequest
 >
@@ -2847,7 +2847,7 @@ aLoader
 aKey
 )
 ;
-nsRefPtr
+RefPtr
 <
 imgCacheEntry
 >
@@ -4168,7 +4168,7 @@ GetDataSize
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 imgCacheEntry
 >
@@ -4225,7 +4225,7 @@ Refresh
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 imgCacheEntry
 >
@@ -4475,7 +4475,7 @@ imgRequest
 aRequest
 )
 ;
-nsRefPtr
+RefPtr
 <
 imgRequestProxy
 >
@@ -4494,7 +4494,7 @@ SetLoadFlags
 aLoadFlags
 )
 ;
-nsRefPtr
+RefPtr
 <
 ImageURL
 >
@@ -4620,7 +4620,7 @@ imgCacheEntry
 entry
 )
 {
-nsRefPtr
+RefPtr
 <
 imgCacheEntry
 >
@@ -4643,7 +4643,7 @@ Debug
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 imgRequest
 >
@@ -4883,7 +4883,7 @@ GetInstance
 )
 {
 static
-nsRefPtr
+RefPtr
 <
 imgLoader
 >
@@ -4921,7 +4921,7 @@ singleton
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 imgLoader
 >
@@ -5002,7 +5002,7 @@ Get
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 imgRequest
 >
@@ -5925,7 +5925,7 @@ GetCache
 key
 )
 ;
-nsRefPtr
+RefPtr
 <
 imgCacheEntry
 >
@@ -5970,7 +5970,7 @@ entry
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 imgRequest
 >
@@ -6127,7 +6127,7 @@ Spec
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 imgCacheEntry
 >
@@ -6183,7 +6183,7 @@ nullptr
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 imgRequest
 >
@@ -6356,7 +6356,7 @@ entry
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 imgRequest
 >
@@ -6580,7 +6580,7 @@ Spec
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 imgCacheEntry
 >
@@ -6603,7 +6603,7 @@ entry
 entry
 )
 {
-nsRefPtr
+RefPtr
 <
 imgRequest
 >
@@ -6775,7 +6775,7 @@ GetSize
 sCacheMaxSize
 )
 {
-nsRefPtr
+RefPtr
 <
 imgCacheEntry
 >
@@ -6818,7 +6818,7 @@ Debug
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 imgRequest
 >
@@ -7051,7 +7051,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 imgRequestProxy
 >
@@ -7083,7 +7083,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsProgressNotificationProxy
 >
@@ -7106,7 +7106,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 imgCacheValidator
 >
@@ -7176,7 +7176,7 @@ imgIRequest
 :
 CORS_USE_CREDENTIALS
 ;
-nsRefPtr
+RefPtr
 <
 nsCORSListenerProxy
 >
@@ -7496,7 +7496,7 @@ lastModTime
 }
 }
 }
-nsRefPtr
+RefPtr
 <
 imgRequest
 >
@@ -7957,7 +7957,7 @@ GetCacheQueue
 aKey
 )
 ;
-nsRefPtr
+RefPtr
 <
 imgCacheEntry
 >
@@ -8048,7 +8048,7 @@ SetEvicted
 true
 )
 ;
-nsRefPtr
+RefPtr
 <
 imgRequest
 >
@@ -8110,7 +8110,7 @@ entry
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 imgRequest
 >
@@ -8273,7 +8273,7 @@ EnumEvictEntries
 const
 ImageCacheKey
 &
-nsRefPtr
+RefPtr
 <
 imgCacheEntry
 >
@@ -8286,7 +8286,7 @@ data
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 imgCacheEntry
 >
@@ -8298,7 +8298,7 @@ reinterpret_cast
 <
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 imgCacheEntry
 >
@@ -8348,7 +8348,7 @@ table
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 imgCacheEntry
 >
@@ -8444,7 +8444,7 @@ queue
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 imgCacheEntry
 >
@@ -8849,7 +8849,7 @@ _retval
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 imgRequest
 >
@@ -9061,7 +9061,7 @@ imgIRequest
 CORS_USE_CREDENTIALS
 ;
 }
-nsRefPtr
+RefPtr
 <
 imgCacheEntry
 >
@@ -9538,7 +9538,7 @@ imgIRequest
 :
 CORS_USE_CREDENTIALS
 ;
-nsRefPtr
+RefPtr
 <
 nsCORSListenerProxy
 >
@@ -10040,7 +10040,7 @@ channel
 mRespectPrivacy
 )
 ;
-nsRefPtr
+RefPtr
 <
 imgRequest
 >
@@ -10086,7 +10086,7 @@ GetLoadFlags
 requestFlags
 )
 ;
-nsRefPtr
+RefPtr
 <
 imgCacheEntry
 >
@@ -10463,7 +10463,7 @@ CORS_NONE
 RP_Default
 )
 ;
-nsRefPtr
+RefPtr
 <
 ProxyListener
 >
@@ -11951,7 +11951,7 @@ nsIURI
 uri
 ;
 {
-nsRefPtr
+RefPtr
 <
 ImageURL
 >

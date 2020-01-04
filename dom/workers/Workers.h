@@ -781,7 +781,7 @@ mTabChildList
 ;
 }
 ;
-nsRefPtr
+RefPtr
 <
 InterfaceRequestor
 >

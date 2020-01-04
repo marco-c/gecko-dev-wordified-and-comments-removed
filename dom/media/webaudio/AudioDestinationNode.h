@@ -341,13 +341,13 @@ nsIAudioChannelAgent
 >
 mAudioChannelAgent
 ;
-nsRefPtr
+RefPtr
 <
 MediaInputPort
 >
 mCaptureStreamPort
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >

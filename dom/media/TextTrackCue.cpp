@@ -483,7 +483,7 @@ CreateDocumentFragment
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DocumentFragment
 >

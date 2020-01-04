@@ -56,7 +56,7 @@ H264Converter
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -171,7 +171,7 @@ DecoderFailureReason
 aReason
 )
 ;
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >
@@ -186,7 +186,7 @@ layers
 LayersBackend
 mLayersBackend
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -195,7 +195,7 @@ ImageContainer
 >
 mImageContainer
 ;
-nsRefPtr
+RefPtr
 <
 FlushableTaskQueue
 >
@@ -203,7 +203,7 @@ mVideoTaskQueue
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -214,7 +214,7 @@ MediaDataDecoderCallback
 *
 mCallback
 ;
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >

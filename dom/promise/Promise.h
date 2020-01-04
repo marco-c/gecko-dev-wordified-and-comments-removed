@@ -518,7 +518,7 @@ void
 MaybeReject
 (
 const
-nsRefPtr
+RefPtr
 <
 MediaStreamError
 >
@@ -794,7 +794,7 @@ aGlobal
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -930,7 +930,7 @@ GetDependentPromises
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1424,7 +1424,7 @@ JSObject
 aTarget
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsIGlobalObject
 >
@@ -1432,7 +1432,7 @@ mGlobal
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 PromiseCallback
 >
@@ -1441,7 +1441,7 @@ mResolveCallbacks
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 PromiseCallback
 >

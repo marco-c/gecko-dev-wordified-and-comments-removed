@@ -198,7 +198,7 @@ OpenStreamRunnable
 >
 mOpenStreamRunnables
 ;
-nsRefPtr
+RefPtr
 <
 IDTableEntry
 >

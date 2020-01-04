@@ -504,7 +504,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDirect3DTexture9
 >
@@ -666,7 +666,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDirect3DTexture9
 >
@@ -735,7 +735,7 @@ if
 aSource
 )
 {
-nsRefPtr
+RefPtr
 <
 IDirect3DSurface9
 >
@@ -756,7 +756,7 @@ GetD3D9Surface
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDirect3DSurface9
 >
@@ -961,7 +961,7 @@ aRenderTarget
 mDeviceManager
 )
 ;
-nsRefPtr
+RefPtr
 <
 CompositingRenderTargetD3D9
 >
@@ -2121,7 +2121,7 @@ true
 FIREFOX_3DV_APP_HANDLE
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDirect3DSurface9
 >
@@ -3304,7 +3304,7 @@ SetScissorRect
 r
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDirect3DSurface9
 >
@@ -3672,13 +3672,13 @@ mDeviceManager
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDirect3DSurface9
 >
 backBuff
 ;
-nsRefPtr
+RefPtr
 <
 IDirect3DSurface9
 >
@@ -3800,7 +3800,7 @@ hr
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

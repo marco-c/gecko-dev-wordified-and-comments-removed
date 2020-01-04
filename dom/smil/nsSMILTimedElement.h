@@ -426,7 +426,7 @@ TimeValueSpecList
 typedef
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsSMILInstanceTime
 >

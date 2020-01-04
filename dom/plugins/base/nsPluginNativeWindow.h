@@ -92,7 +92,7 @@ public
 nsresult
 GetPluginInstance
 (
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -175,7 +175,7 @@ virtual
 nsresult
 CallSetWindow
 (
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -219,7 +219,7 @@ NS_OK
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >

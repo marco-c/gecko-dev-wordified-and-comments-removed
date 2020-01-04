@@ -289,7 +289,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 AVCTrackMetadata
 >
@@ -697,7 +697,7 @@ IsEmpty
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 EncodedFrame
 >
@@ -929,7 +929,7 @@ mEncodingComplete
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 EncodedFrame
 >
@@ -1380,7 +1380,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 AACTrackMetadata
 >
@@ -1574,7 +1574,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 AMRTrackMetadata
 >

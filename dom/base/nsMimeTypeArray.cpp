@@ -313,7 +313,7 @@ FindMimeType
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsMimeType
 >

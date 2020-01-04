@@ -74,7 +74,7 @@ txXPathNode
 &
 mContextNode
 ;
-nsRefPtr
+RefPtr
 <
 txNodeSet
 >

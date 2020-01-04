@@ -1266,7 +1266,7 @@ Run
 }
 }
 ;
-nsRefPtr
+RefPtr
 <
 FormPasswordEventDispatcher
 >
@@ -1320,7 +1320,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 HTMLFormElement
 >
@@ -1499,7 +1499,7 @@ FlushPendingSubmission
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 HTMLFormControlsCollection
 >

@@ -636,7 +636,7 @@ IntRect
 aRect
 uint32_t
 aFlags
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -645,7 +645,7 @@ DrawTarget
 >
 *
 aBlackDT
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -936,7 +936,7 @@ mSequenceCounter
 continue
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -1042,7 +1042,7 @@ mReadbackUpdates
 ;
 vector
 <
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -1216,7 +1216,7 @@ Length
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 TextureReadbackSink
 >
@@ -1508,7 +1508,7 @@ IntRect
 aRect
 uint32_t
 aFlags
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1517,7 +1517,7 @@ DrawTarget
 >
 *
 aBlackDT
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -2087,7 +2087,7 @@ if
 mFrontClient
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncTransactionWaiter
 >
@@ -2098,7 +2098,7 @@ AsyncTransactionWaiter
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncTransactionTracker
 >
@@ -2144,7 +2144,7 @@ if
 mFrontClientOnWhite
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncTransactionWaiter
 >
@@ -2155,7 +2155,7 @@ AsyncTransactionWaiter
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncTransactionTracker
 >
@@ -2215,7 +2215,7 @@ mFrontUpdatedRegion
 =
 aFrontUpdatedRegion
 ;
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
@@ -2611,7 +2611,7 @@ return
 ;
 }
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2629,7 +2629,7 @@ Snapshot
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

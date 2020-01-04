@@ -675,7 +675,7 @@ Transport
 *
 mTransport
 ;
-nsRefPtr
+RefPtr
 <
 ImageBridgeParent
 >
@@ -704,7 +704,7 @@ MessageLoop
 *
 sMainLoop
 ;
-nsRefPtr
+RefPtr
 <
 CompositorThreadHolder
 >

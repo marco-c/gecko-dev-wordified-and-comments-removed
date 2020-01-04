@@ -766,7 +766,7 @@ public
 NS_DECL_ISUPPORTS
 ReadAirplaneModeSettingTask
 (
-nsRefPtr
+RefPtr
 <
 FMRadioReplyRunnable
 >
@@ -799,7 +799,7 @@ Value
 aResult
 )
 {
-nsRefPtr
+RefPtr
 <
 FMRadioService
 >
@@ -997,7 +997,7 @@ ReadAirplaneModeSettingTask
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 FMRadioReplyRunnable
 >
@@ -1060,7 +1060,7 @@ FMRadioEventType
 aType
 )
 {
-nsRefPtr
+RefPtr
 <
 FMRadioService
 >
@@ -2090,7 +2090,7 @@ Disabled
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 ReadAirplaneModeSettingTask
 >
@@ -2144,7 +2144,7 @@ Disabled
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 FMRadioService
 >
@@ -2287,7 +2287,7 @@ Seeking
 break
 ;
 }
-nsRefPtr
+RefPtr
 <
 FMRadioReplyRunnable
 >
@@ -2416,7 +2416,7 @@ DoDisable
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 FMRadioService
 >

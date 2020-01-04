@@ -54,7 +54,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -4545,7 +4545,7 @@ mBodySegment
 =
 bodyPtr
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothMapBMessage
 >
@@ -4580,7 +4580,7 @@ subject
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 VCard
 >

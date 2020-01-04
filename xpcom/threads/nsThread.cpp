@@ -884,7 +884,7 @@ mInitialized
 struct
 nsThreadShutdownContext
 {
-nsRefPtr
+RefPtr
 <
 nsThread
 >
@@ -1045,7 +1045,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 nsThread
 >
@@ -1741,7 +1741,7 @@ Init
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsThreadStartupEvent
 >
@@ -2202,7 +2202,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsThreadSyncDispatch
 >
@@ -4221,7 +4221,7 @@ nsChainedEventQueue
 >
 queue
 ;
-nsRefPtr
+RefPtr
 <
 nsNestedEventTarget
 >

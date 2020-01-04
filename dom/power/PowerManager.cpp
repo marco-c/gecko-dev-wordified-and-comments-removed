@@ -731,7 +731,7 @@ nsPIDOMWindow
 aWindow
 )
 {
-nsRefPtr
+RefPtr
 <
 PowerManager
 >

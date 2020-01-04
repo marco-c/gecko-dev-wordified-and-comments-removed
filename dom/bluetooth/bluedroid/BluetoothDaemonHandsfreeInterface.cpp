@@ -2862,7 +2862,7 @@ mOpcode
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 BluetoothHandsfreeResultHandler
 >
@@ -5384,7 +5384,7 @@ Init
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 BluetoothHandsfreeResultHandler
 >
@@ -5611,7 +5611,7 @@ BluetoothDaemonHandsfreeModule
 *
 mModule
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothHandsfreeResultHandler
 >

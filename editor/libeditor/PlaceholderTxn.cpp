@@ -271,7 +271,7 @@ mStartSel
 NS_ERROR_NULL_POINTER
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -325,7 +325,7 @@ res
 res
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -451,7 +451,7 @@ if
 mAbsorb
 )
 {
-nsRefPtr
+RefPtr
 <
 IMETextTxn
 >
@@ -910,7 +910,7 @@ RememberEndingSelection
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 Selection
 >

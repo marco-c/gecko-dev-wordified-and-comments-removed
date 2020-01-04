@@ -609,7 +609,7 @@ mozIStorageConnection
 *
 mDB
 ;
-nsRefPtr
+RefPtr
 <
 nsOfflineCacheEvictionFunction
 >
@@ -1237,7 +1237,7 @@ get
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 nsOfflineCacheDevice
 >
@@ -7346,7 +7346,7 @@ keyBuf
 return
 NS_ERROR_UNEXPECTED
 ;
-nsRefPtr
+RefPtr
 <
 nsOfflineCacheBinding
 >
@@ -8530,7 +8530,7 @@ NS_OK
 nsOfflineCacheRecord
 rec
 ;
-nsRefPtr
+RefPtr
 <
 nsOfflineCacheEntryInfo
 >
@@ -12380,7 +12380,7 @@ Shutdown
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsCacheService
 >

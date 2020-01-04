@@ -82,7 +82,7 @@ nsACString
 aType
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceBufferContentManager
 >

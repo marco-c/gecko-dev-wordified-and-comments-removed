@@ -618,7 +618,7 @@ nsOfflineCachePendingUpdate
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 nsOfflineCacheUpdateService
 >
@@ -1520,7 +1520,7 @@ progress
 NS_ERROR_INVALID_ARG
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsOfflineCachePendingUpdate
 >
@@ -1634,7 +1634,7 @@ completed
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsOfflineCacheUpdate
 >
@@ -1935,7 +1935,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsOfflineCacheUpdate
 >

@@ -214,7 +214,7 @@ mParent
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SpeechGrammar
 >

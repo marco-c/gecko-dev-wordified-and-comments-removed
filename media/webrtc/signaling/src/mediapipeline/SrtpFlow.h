@@ -23,7 +23,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -88,7 +88,7 @@ SrtpFlow
 public
 :
 static
-nsRefPtr
+RefPtr
 <
 SrtpFlow
 >

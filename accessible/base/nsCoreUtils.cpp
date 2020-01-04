@@ -522,7 +522,7 @@ GetNearestWidget
 offset
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -768,7 +768,7 @@ PR_IntervalNow
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :

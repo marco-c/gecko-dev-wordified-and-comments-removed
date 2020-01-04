@@ -163,7 +163,7 @@ private
 :
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 IccListener
 >

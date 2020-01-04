@@ -225,7 +225,7 @@ nsISimpleEnumerator
 anEnumerator
 )
 {
-nsRefPtr
+RefPtr
 <
 nsObserverEnumerator
 >

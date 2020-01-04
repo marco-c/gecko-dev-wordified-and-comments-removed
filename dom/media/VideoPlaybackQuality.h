@@ -145,7 +145,7 @@ VideoPlaybackQuality
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 HTMLMediaElement
 >

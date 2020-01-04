@@ -955,7 +955,7 @@ ExcludeNonSelectableNodes
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -1100,7 +1100,7 @@ nsRange
 *
 mRange
 ;
-nsRefPtr
+RefPtr
 <
 nsINode
 >
@@ -1144,7 +1144,7 @@ nsINode
 >
 mEndParent
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

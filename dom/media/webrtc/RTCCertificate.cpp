@@ -1045,7 +1045,7 @@ CERT_DupCertificate
 mCertificate
 )
 ;
-nsRefPtr
+RefPtr
 <
 RTCCertificate
 >
@@ -1118,7 +1118,7 @@ Get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1173,7 +1173,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 WebCryptoTask
 >
@@ -1312,7 +1312,7 @@ calledFromObject
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DtlsIdentity
 >
@@ -1364,7 +1364,7 @@ CERT_DupCertificate
 mCertificate
 )
 ;
-nsRefPtr
+RefPtr
 <
 DtlsIdentity
 >

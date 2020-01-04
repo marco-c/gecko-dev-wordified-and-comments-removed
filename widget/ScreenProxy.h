@@ -204,7 +204,7 @@ InvalidateCache
 double
 mContentsScaleFactor
 ;
-nsRefPtr
+RefPtr
 <
 nsScreenManagerProxy
 >

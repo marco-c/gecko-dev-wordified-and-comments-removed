@@ -316,7 +316,7 @@ NS_OK
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -390,7 +390,7 @@ GetSheetURI
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >

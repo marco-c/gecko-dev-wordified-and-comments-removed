@@ -767,7 +767,7 @@ GetActiveCueArray
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 TextTrackCue
 >

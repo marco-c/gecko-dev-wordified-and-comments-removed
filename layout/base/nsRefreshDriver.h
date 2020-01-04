@@ -1061,7 +1061,7 @@ nsPresContext
 *
 mPresContext
 ;
-nsRefPtr
+RefPtr
 <
 nsRefreshDriver
 >

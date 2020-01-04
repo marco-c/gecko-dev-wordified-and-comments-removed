@@ -1005,7 +1005,7 @@ uint8_t
 *
 mLockedBits
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurfaceCairo
 >

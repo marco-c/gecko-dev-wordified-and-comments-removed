@@ -322,7 +322,7 @@ string
 aNewTrackId
 )
 {
-nsRefPtr
+RefPtr
 <
 LocalSourceStreamInfo
 >
@@ -379,7 +379,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 LocalSourceStreamInfo
 >
@@ -455,7 +455,7 @@ static
 void
 PipelineReleaseRef_m
 (
-nsRefPtr
+RefPtr
 <
 MediaPipeline
 >
@@ -467,7 +467,7 @@ static
 void
 PipelineDetachTransport_s
 (
-nsRefPtr
+RefPtr
 <
 MediaPipeline
 >
@@ -526,7 +526,7 @@ erase
 trackId
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaPipeline
 >
@@ -721,7 +721,7 @@ ErrorResult
 rv
 )
 {
-nsRefPtr
+RefPtr
 <
 PeerConnectionImpl
 >
@@ -1543,7 +1543,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 ProtocolProxyQueryHandler
 >
@@ -2059,7 +2059,7 @@ size
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 JsepTransport
 >
@@ -2077,7 +2077,7 @@ GetSTSThread
 )
 WrapRunnable
 (
-nsRefPtr
+RefPtr
 <
 PeerConnectionMedia
 >
@@ -2116,7 +2116,7 @@ size_t
 aComponentCount
 )
 {
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >
@@ -2197,7 +2197,7 @@ aLevel
 <
 aLevel
 ;
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >
@@ -2332,7 +2332,7 @@ size
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 JsepTransport
 >
@@ -2480,7 +2480,7 @@ GetSTSThread
 )
 WrapRunnable
 (
-nsRefPtr
+RefPtr
 <
 PeerConnectionMedia
 >
@@ -2512,7 +2512,7 @@ GetSTSThread
 )
 WrapRunnable
 (
-nsRefPtr
+RefPtr
 <
 PeerConnectionMedia
 >
@@ -2620,7 +2620,7 @@ nullptr
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >
@@ -3068,7 +3068,7 @@ runnable
 (
 WrapRunnable
 (
-nsRefPtr
+RefPtr
 <
 PeerConnectionMedia
 >
@@ -3336,7 +3336,7 @@ GetSTSThread
 )
 WrapRunnable
 (
-nsRefPtr
+RefPtr
 <
 PeerConnectionMedia
 >
@@ -3392,7 +3392,7 @@ uint32_t
 aMLine
 )
 {
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >
@@ -3627,7 +3627,7 @@ runnable
 (
 WrapRunnable
 (
-nsRefPtr
+RefPtr
 <
 PeerConnectionMedia
 >
@@ -3798,7 +3798,7 @@ __FUNCTION__
 aMediaStream
 )
 ;
-nsRefPtr
+RefPtr
 <
 LocalSourceStreamInfo
 >
@@ -3901,7 +3901,7 @@ c_str
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 LocalSourceStreamInfo
 >
@@ -4009,7 +4009,7 @@ c_str
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 RemoteSourceStreamInfo
 >
@@ -4673,7 +4673,7 @@ PeerConnectionMedia
 :
 AddRemoteStream
 (
-nsRefPtr
+RefPtr
 <
 RemoteSourceStreamInfo
 >
@@ -4741,7 +4741,7 @@ i
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >
@@ -5407,7 +5407,7 @@ aIndex
 bool
 aRtcp
 const
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
@@ -5521,7 +5521,7 @@ PeerConnectionMedia
 ConnectDtlsListener_s
 (
 const
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
@@ -5574,7 +5574,7 @@ LocalSourceStreamInfo
 :
 TakePipelineFrom
 (
-nsRefPtr
+RefPtr
 <
 LocalSourceStreamInfo
 >
@@ -5640,7 +5640,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaPipeline
 >
@@ -6166,7 +6166,7 @@ defined
 (
 MOZILLA_EXTERNAL_LINKAGE
 )
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -6192,7 +6192,7 @@ trackId
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -6289,7 +6289,7 @@ string
 &
 trackId
 const
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -6369,7 +6369,7 @@ RemoteSourceStreamInfo
 :
 SyncPipeline
 (
-nsRefPtr
+RefPtr
 <
 MediaPipelineReceive
 >
@@ -6625,7 +6625,7 @@ source
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaPipeline
 >
@@ -6723,7 +6723,7 @@ trackId
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaPipeline
 >

@@ -495,7 +495,7 @@ nsIContent
 >
 mBrowseFiles
 ;
-nsRefPtr
+RefPtr
 <
 DnDListener
 >

@@ -429,7 +429,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 VorbisMetadata
 >

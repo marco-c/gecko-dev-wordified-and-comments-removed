@@ -628,7 +628,7 @@ Element
 >
 mThumbDiv
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -667,7 +667,7 @@ NS_OK
 }
 }
 ;
-nsRefPtr
+RefPtr
 <
 DummyTouchListener
 >

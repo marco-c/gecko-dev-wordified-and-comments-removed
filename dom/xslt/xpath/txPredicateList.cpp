@@ -111,7 +111,7 @@ next
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >

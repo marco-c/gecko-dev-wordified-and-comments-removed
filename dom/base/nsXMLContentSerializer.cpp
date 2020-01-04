@@ -170,7 +170,7 @@ nsIContentSerializer
 aSerializer
 )
 {
-nsRefPtr
+RefPtr
 <
 nsXMLContentSerializer
 >

@@ -219,7 +219,7 @@ Element
 *
 mElement
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >

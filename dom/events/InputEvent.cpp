@@ -186,7 +186,7 @@ GetAsSupports
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 InputEvent
 >
@@ -302,7 +302,7 @@ InternalEditorInputEvent
 aEvent
 )
 {
-nsRefPtr
+RefPtr
 <
 InputEvent
 >

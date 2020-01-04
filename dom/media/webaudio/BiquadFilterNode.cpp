@@ -647,7 +647,7 @@ CheckForInactive
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 PlayingRefChangeHandler
 >
@@ -724,7 +724,7 @@ IsEmpty
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 PlayingRefChangeHandler
 >

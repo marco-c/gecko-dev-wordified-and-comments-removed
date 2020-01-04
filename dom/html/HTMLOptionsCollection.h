@@ -472,7 +472,7 @@ private
 :
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :

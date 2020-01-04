@@ -568,7 +568,7 @@ nsIContent
 >
 mContent
 ;
-nsRefPtr
+RefPtr
 <
 nsXBLBinding
 >
@@ -578,7 +578,7 @@ nsIContent
 *
 mBoundElement
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -592,7 +592,7 @@ mDefaultInsertionPoint
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -605,7 +605,7 @@ XBLChildrenElement
 >
 mInsertionPoints
 ;
-nsRefPtr
+RefPtr
 <
 nsAnonymousContentList
 >

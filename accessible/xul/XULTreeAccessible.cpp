@@ -689,7 +689,7 @@ roles
 :
 LIST
 ;
-nsRefPtr
+RefPtr
 <
 nsTreeColumns
 >
@@ -917,7 +917,7 @@ eDeepestChild
 child
 )
 {
-nsRefPtr
+RefPtr
 <
 XULTreeItemAccessibleBase
 >
@@ -2220,7 +2220,7 @@ cachedTreeItem
 return
 cachedTreeItem
 ;
-nsRefPtr
+RefPtr
 <
 Accessible
 >
@@ -2366,7 +2366,7 @@ if
 treeItem
 )
 {
-nsRefPtr
+RefPtr
 <
 AccEvent
 >
@@ -2712,7 +2712,7 @@ if
 accessible
 )
 {
-nsRefPtr
+RefPtr
 <
 XULTreeItemAccessibleBase
 >
@@ -2768,7 +2768,7 @@ IsDefunct
 )
 return
 ;
-nsRefPtr
+RefPtr
 <
 AccReorderEvent
 >
@@ -2820,7 +2820,7 @@ aRow
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 Accessible
 >

@@ -217,7 +217,7 @@ GetAsSupports
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >
@@ -230,7 +230,7 @@ NetworkError
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Response
 >
@@ -426,7 +426,7 @@ GetLocationInfo
 mHref
 )
 ;
-nsRefPtr
+RefPtr
 <
 workers
 :
@@ -545,7 +545,7 @@ mStatus
 =
 aStatus
 ;
-nsRefPtr
+RefPtr
 <
 Response
 >
@@ -842,7 +842,7 @@ OK
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >
@@ -961,7 +961,7 @@ GetChannelInfo
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 Response
 >
@@ -997,7 +997,7 @@ Clear
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Headers
 >
@@ -1270,7 +1270,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >
@@ -1283,7 +1283,7 @@ Clone
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Response
 >
@@ -1344,7 +1344,7 @@ GetInternalResponse
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >

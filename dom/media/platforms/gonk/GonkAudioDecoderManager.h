@@ -13,7 +13,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -73,7 +73,7 @@ GonkAudioDecoderManager
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -99,7 +99,7 @@ Output
 (
 int64_t
 aStreamOffset
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -184,7 +184,7 @@ mMonitor
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >

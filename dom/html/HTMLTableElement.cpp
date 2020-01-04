@@ -220,7 +220,7 @@ HTMLTableElement
 *
 mParent
 ;
-nsRefPtr
+RefPtr
 <
 nsContentList
 >
@@ -1333,7 +1333,7 @@ CreateTHead
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >
@@ -1349,7 +1349,7 @@ if
 head
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1486,7 +1486,7 @@ CreateTFoot
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >
@@ -1502,7 +1502,7 @@ if
 foot
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1626,7 +1626,7 @@ CreateCaption
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >
@@ -1642,7 +1642,7 @@ if
 caption
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1766,7 +1766,7 @@ CreateTBody
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1807,7 +1807,7 @@ MOZ_ASSERT
 nodeInfo
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >
@@ -1996,7 +1996,7 @@ uint32_t
 )
 aIndex
 ;
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >
@@ -2054,7 +2054,7 @@ GetParentNode
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -2217,7 +2217,7 @@ if
 rowGroup
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -2289,7 +2289,7 @@ if
 rowGroup
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -4316,7 +4316,7 @@ GetAttributeStyleSheet
 :
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 nsMappedAttributes
 >
@@ -4347,7 +4347,7 @@ if
 value
 )
 {
-nsRefPtr
+RefPtr
 <
 nsMappedAttributes
 >

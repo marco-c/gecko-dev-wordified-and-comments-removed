@@ -962,7 +962,7 @@ TransferItem
 >
 mItems
 ;
-nsRefPtr
+RefPtr
 <
 FileList
 >

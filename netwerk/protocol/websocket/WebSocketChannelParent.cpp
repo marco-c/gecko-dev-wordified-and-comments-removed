@@ -971,7 +971,7 @@ GetExtensions
 extensions
 )
 ;
-nsRefPtr
+RefPtr
 <
 WebSocketChannel
 >

@@ -900,7 +900,7 @@ obs
 NS_ERROR_FAILURE
 )
 ;
-nsRefPtr
+RefPtr
 <
 PresentationSessionRequest
 >

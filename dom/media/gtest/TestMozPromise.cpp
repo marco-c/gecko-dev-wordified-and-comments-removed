@@ -119,7 +119,7 @@ mTaskQueue
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
@@ -265,13 +265,13 @@ DelayedResolveOrReject
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
 mTaskQueue
 ;
-nsRefPtr
+RefPtr
 <
 TestPromise
 :
@@ -356,7 +356,7 @@ BasicResolve
 AutoTaskQueue
 atq
 ;
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
@@ -435,7 +435,7 @@ BasicReject
 AutoTaskQueue
 atq
 ;
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
@@ -518,7 +518,7 @@ AsyncResolve
 AutoTaskQueue
 atq
 ;
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
@@ -542,7 +542,7 @@ queue
 >
 void
 {
-nsRefPtr
+RefPtr
 <
 TestPromise
 :
@@ -560,7 +560,7 @@ Private
 __func__
 )
 ;
-nsRefPtr
+RefPtr
 <
 DelayedResolveOrReject
 >
@@ -581,7 +581,7 @@ MakeResolve
 10
 )
 ;
-nsRefPtr
+RefPtr
 <
 DelayedResolveOrReject
 >
@@ -602,7 +602,7 @@ MakeResolve
 5
 )
 ;
-nsRefPtr
+RefPtr
 <
 DelayedResolveOrReject
 >
@@ -766,7 +766,7 @@ false
 AutoTaskQueue
 atq
 ;
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
@@ -814,7 +814,7 @@ aVal
 )
 -
 >
-nsRefPtr
+RefPtr
 <
 TestPromise
 >
@@ -882,12 +882,12 @@ aVal
 )
 -
 >
-nsRefPtr
+RefPtr
 <
 TestPromise
 >
 {
-nsRefPtr
+RefPtr
 <
 TestPromise
 :
@@ -941,7 +941,7 @@ forget
 )
 ;
 return
-nsRefPtr
+RefPtr
 <
 TestPromise
 >
@@ -972,7 +972,7 @@ aVal
 )
 -
 >
-nsRefPtr
+RefPtr
 <
 TestPromise
 >
@@ -1060,7 +1060,7 @@ PromiseAllResolve
 AutoTaskQueue
 atq
 ;
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
@@ -1086,7 +1086,7 @@ void
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 TestPromise
 >
@@ -1226,7 +1226,7 @@ PromiseAllReject
 AutoTaskQueue
 atq
 ;
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
@@ -1252,7 +1252,7 @@ void
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 TestPromise
 >

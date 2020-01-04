@@ -21,7 +21,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -885,7 +885,7 @@ mon
 mMonitor
 )
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -1246,7 +1246,7 @@ mData
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -1359,7 +1359,7 @@ innerHeight
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -1378,7 +1378,7 @@ CreateImageContainer
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -1415,7 +1415,7 @@ dt
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -1482,7 +1482,7 @@ context
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1525,7 +1525,7 @@ mSourceSurface
 =
 surface
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :

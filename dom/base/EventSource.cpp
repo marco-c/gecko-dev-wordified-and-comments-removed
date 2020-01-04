@@ -1273,7 +1273,7 @@ IsInnerWindow
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 EventSource
 >
@@ -2169,7 +2169,7 @@ AsyncVerifyRedirectCallbackFwr
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 EventSource
 >
@@ -2382,7 +2382,7 @@ if
 mChannelEventSink
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncVerifyRedirectCallbackFwr
 >
@@ -3473,7 +3473,7 @@ rv
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -3713,7 +3713,7 @@ rv
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -4369,7 +4369,7 @@ rv
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -4484,7 +4484,7 @@ void
 aClosure
 )
 {
-nsRefPtr
+RefPtr
 <
 EventSource
 >
@@ -5142,7 +5142,7 @@ jsString
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MessageEvent
 >

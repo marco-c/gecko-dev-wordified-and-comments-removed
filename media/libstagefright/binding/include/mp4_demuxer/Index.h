@@ -133,7 +133,7 @@ Next
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Index
 >

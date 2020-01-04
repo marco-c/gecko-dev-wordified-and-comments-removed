@@ -39,7 +39,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -517,7 +517,7 @@ Stream
 stream
 )
 ;
-nsRefPtr
+RefPtr
 <
 Zip
 >
@@ -658,7 +658,7 @@ Zip
 zip
 )
 ;
-nsRefPtr
+RefPtr
 <
 Zip
 >

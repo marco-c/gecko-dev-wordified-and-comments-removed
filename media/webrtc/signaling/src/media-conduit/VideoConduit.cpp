@@ -193,7 +193,7 @@ CODEC_PLNAME_SIZE
 =
 32
 ;
-nsRefPtr
+RefPtr
 <
 VideoSessionConduit
 >
@@ -2437,7 +2437,7 @@ WebrtcVideoConduit
 :
 AttachRenderer
 (
-nsRefPtr
+RefPtr
 <
 VideoRenderer
 >
@@ -2615,7 +2615,7 @@ WebrtcVideoConduit
 :
 SetTransmitterTransport
 (
-nsRefPtr
+RefPtr
 <
 TransportInterface
 >
@@ -2652,7 +2652,7 @@ WebrtcVideoConduit
 :
 SetReceiverTransport
 (
-nsRefPtr
+RefPtr
 <
 TransportInterface
 >

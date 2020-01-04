@@ -254,7 +254,7 @@ WidgetCommandEvent
 aEvent
 )
 {
-nsRefPtr
+RefPtr
 <
 CommandEvent
 >

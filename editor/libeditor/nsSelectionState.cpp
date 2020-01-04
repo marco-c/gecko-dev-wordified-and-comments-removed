@@ -439,7 +439,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -508,7 +508,7 @@ Length
 return
 false
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -619,7 +619,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -635,7 +635,7 @@ GetRange
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -3150,7 +3150,7 @@ GetRange
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRange
 >

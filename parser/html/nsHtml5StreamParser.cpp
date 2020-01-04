@@ -445,7 +445,7 @@ nsRunnable
 {
 private
 :
-nsRefPtr
+RefPtr
 <
 nsHtml5TreeOpExecutor
 >
@@ -505,7 +505,7 @@ nsRunnable
 {
 private
 :
-nsRefPtr
+RefPtr
 <
 nsHtml5TreeOpExecutor
 >
@@ -3663,7 +3663,7 @@ getEnd
 NS_HTML5_STREAM_PARSER_READ_BUFFER_SIZE
 )
 {
-nsRefPtr
+RefPtr
 <
 nsHtml5OwningUTF16Buffer
 >
@@ -3861,7 +3861,7 @@ convResult
 NS_PARTIAL_MORE_OUTPUT
 )
 {
-nsRefPtr
+RefPtr
 <
 nsHtml5OwningUTF16Buffer
 >
@@ -4263,7 +4263,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsHtml5OwningUTF16Buffer
 >

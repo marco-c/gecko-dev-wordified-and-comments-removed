@@ -109,7 +109,7 @@ SendFiles
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -231,7 +231,7 @@ mFilePickerParent
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -253,7 +253,7 @@ FilePickerParent
 aFPParent
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -279,13 +279,13 @@ Destroy
 ;
 }
 ;
-nsRefPtr
+RefPtr
 <
 FileSizeAndDateRunnable
 >
 mRunnable
 ;
-nsRefPtr
+RefPtr
 <
 FilePickerShownCallback
 >

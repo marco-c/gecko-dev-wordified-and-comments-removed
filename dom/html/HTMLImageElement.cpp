@@ -487,7 +487,7 @@ ImageLoadTask
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 HTMLImageElement
 >
@@ -2791,7 +2791,7 @@ nsIDOMNode
 ELEMENT_NODE
 )
 ;
-nsRefPtr
+RefPtr
 <
 HTMLImageElement
 >
@@ -4724,7 +4724,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 ResponsiveImageSelector
 >
@@ -5057,7 +5057,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 ResponsiveImageSelector
 >

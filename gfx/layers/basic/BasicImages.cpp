@@ -370,7 +370,7 @@ BufferRecycleBin
 aRecycleBin
 )
 {
-nsRefPtr
+RefPtr
 <
 Image
 >
@@ -668,7 +668,7 @@ if
 mSourceSurface
 )
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -710,7 +710,7 @@ GetOffscreenFormat
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -720,7 +720,7 @@ SourceSurface
 surface
 ;
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :

@@ -127,7 +127,7 @@ EditAggregateTxn
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 EditTxn
 >

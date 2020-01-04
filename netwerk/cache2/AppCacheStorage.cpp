@@ -325,7 +325,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 _OldCacheLoad
 >
@@ -457,7 +457,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsRefPtr
+RefPtr
 <
 _OldStorage
 >
@@ -653,7 +653,7 @@ rv
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 _OldStorage
 >
@@ -783,7 +783,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 _OldVisitCallbackWrapper
 >

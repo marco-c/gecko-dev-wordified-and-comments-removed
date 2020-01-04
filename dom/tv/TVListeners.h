@@ -99,7 +99,7 @@ aSourceType
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 TVSource
 >

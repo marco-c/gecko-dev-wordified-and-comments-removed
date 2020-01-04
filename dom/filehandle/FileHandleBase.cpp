@@ -746,7 +746,7 @@ size
 =
 aSize
 ;
-nsRefPtr
+RefPtr
 <
 FileRequestBase
 >
@@ -915,7 +915,7 @@ offset
 =
 location
 ;
-nsRefPtr
+RefPtr
 <
 FileRequestBase
 >
@@ -1003,7 +1003,7 @@ nullptr
 FileRequestFlushParams
 params
 ;
-nsRefPtr
+RefPtr
 <
 FileRequestBase
 >
@@ -2088,7 +2088,7 @@ dataLength
 =
 aDataLength
 ;
-nsRefPtr
+RefPtr
 <
 FileRequestBase
 >

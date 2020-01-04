@@ -383,7 +383,7 @@ override
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 ClientSingleTiledLayerBuffer
 >

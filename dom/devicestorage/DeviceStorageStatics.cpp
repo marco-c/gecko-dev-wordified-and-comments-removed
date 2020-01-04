@@ -1829,7 +1829,7 @@ Register
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ListenerWrapper
 >
@@ -3045,7 +3045,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 DeviceStorageFile
 >
@@ -3491,7 +3491,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 DeviceStorageFile
 >
@@ -3674,7 +3674,7 @@ if
 current
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDOMDeviceStorage
 >
@@ -3718,7 +3718,7 @@ DeviceStorageFile
 aFile
 )
 {
-nsRefPtr
+RefPtr
 <
 ListenerWrapper
 >
@@ -3731,7 +3731,7 @@ data
 =
 aData
 ;
-nsRefPtr
+RefPtr
 <
 DeviceStorageFile
 >
@@ -3758,7 +3758,7 @@ file
 >
 void
 {
-nsRefPtr
+RefPtr
 <
 nsDOMDeviceStorage
 >
@@ -3813,7 +3813,7 @@ bool
 aLowDiskSpace
 )
 {
-nsRefPtr
+RefPtr
 <
 ListenerWrapper
 >
@@ -3839,7 +3839,7 @@ aLowDiskSpace
 >
 void
 {
-nsRefPtr
+RefPtr
 <
 nsDOMDeviceStorage
 >
@@ -3891,7 +3891,7 @@ OnWritableNameChanged
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 ListenerWrapper
 >
@@ -3916,7 +3916,7 @@ self
 >
 void
 {
-nsRefPtr
+RefPtr
 <
 nsDOMDeviceStorage
 >
@@ -3973,7 +3973,7 @@ nsIVolume
 aVolume
 )
 {
-nsRefPtr
+RefPtr
 <
 ListenerWrapper
 >
@@ -4007,7 +4007,7 @@ volume
 >
 void
 {
-nsRefPtr
+RefPtr
 <
 nsDOMDeviceStorage
 >

@@ -515,7 +515,7 @@ GetComposedDoc
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Element
 >
@@ -532,7 +532,7 @@ nsGkAtoms
 div
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >

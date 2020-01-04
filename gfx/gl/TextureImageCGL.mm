@@ -380,7 +380,7 @@ tiles
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 TextureImage
 >
@@ -545,7 +545,7 @@ LOCAL_GL_TEXTURE_WRAP_T
 LOCAL_GL_CLAMP_TO_EDGE
 )
 ;
-nsRefPtr
+RefPtr
 <
 TextureImageCGL
 >

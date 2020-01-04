@@ -814,7 +814,7 @@ CancelInternal
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 WebSocket
 >
@@ -1048,7 +1048,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 WebSocketImpl
 >
@@ -1222,7 +1222,7 @@ MOZ_ASSERT
 mWorkerPrivate
 )
 ;
-nsRefPtr
+RefPtr
 <
 PrintErrorOnConsoleRunnable
 >
@@ -1684,7 +1684,7 @@ mReasonString
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 WebSocketImpl
 >
@@ -1722,7 +1722,7 @@ IsTargetThread
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -1831,7 +1831,7 @@ aReasonString
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 CancelWebSocketRunnable
 >
@@ -2195,7 +2195,7 @@ DisconnectInternal
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 DisconnectInternalRunnable
 >
@@ -2221,7 +2221,7 @@ GetJSContext
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 WebSocketImpl
 >
@@ -2754,7 +2754,7 @@ WebSocket
 OPEN
 )
 ;
-nsRefPtr
+RefPtr
 <
 WebSocket
 >
@@ -4518,7 +4518,7 @@ protocolElement
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 WebSocket
 >
@@ -4530,7 +4530,7 @@ WebSocket
 ownerWindow
 )
 ;
-nsRefPtr
+RefPtr
 <
 WebSocketImpl
 >
@@ -4656,7 +4656,7 @@ workers
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 InitRunnable
 >
@@ -4920,7 +4920,7 @@ aRv
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 AsyncOpenRunnable
 >
@@ -5275,7 +5275,7 @@ MOZ_ASSERT
 aPrincipal
 )
 ;
-nsRefPtr
+RefPtr
 <
 WebSocketImpl
 >
@@ -6261,7 +6261,7 @@ CLOSE_INTERNAL_ERROR
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 WebSocketImpl
 >
@@ -6584,7 +6584,7 @@ WebSocket
 CLOSED
 )
 ;
-nsRefPtr
+RefPtr
 <
 WebSocket
 >
@@ -6721,7 +6721,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -7103,7 +7103,7 @@ jsString
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MessageEvent
 >
@@ -7250,7 +7250,7 @@ mReason
 =
 aReason
 ;
-nsRefPtr
+RefPtr
 <
 CloseEvent
 >
@@ -8372,7 +8372,7 @@ AssertIsOnTargetThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 BaseWebSocketChannel
 >
@@ -9707,7 +9707,7 @@ aDispatchResult
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 WebSocketImpl
 >
@@ -9741,7 +9741,7 @@ MOZ_ASSERT
 mWorkerPrivate
 )
 ;
-nsRefPtr
+RefPtr
 <
 CancelRunnable
 >
@@ -10121,7 +10121,7 @@ final
 public
 WorkerRunnable
 {
-nsRefPtr
+RefPtr
 <
 WebSocketImpl
 >
@@ -10398,7 +10398,7 @@ HasFeatureRegistered
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 WorkerRunnableDispatcher
 >

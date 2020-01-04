@@ -69,7 +69,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -399,7 +399,7 @@ GLuint
 >
 mTextures
 ;
-nsRefPtr
+RefPtr
 <
 gl
 :
@@ -490,7 +490,7 @@ DestroyTextures
 GLenum
 mTextureTarget
 ;
-nsRefPtr
+RefPtr
 <
 gl
 :
@@ -1280,7 +1280,7 @@ gfx
 IntSize
 mWidgetSize
 ;
-nsRefPtr
+RefPtr
 <
 GLContext
 >
@@ -1324,7 +1324,7 @@ CreateContext
 GLenum
 mFBOTextureTarget
 ;
-nsRefPtr
+RefPtr
 <
 CompositingRenderTargetOGL
 >
@@ -1679,7 +1679,7 @@ height
 y
 ;
 }
-nsRefPtr
+RefPtr
 <
 CompositorTexturePoolOGL
 >

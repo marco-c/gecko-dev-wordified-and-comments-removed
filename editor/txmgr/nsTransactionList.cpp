@@ -285,7 +285,7 @@ txMgr
 NS_ERROR_FAILURE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsTransactionItem
 >
@@ -386,7 +386,7 @@ txMgr
 NS_ERROR_FAILURE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsTransactionItem
 >
@@ -572,7 +572,7 @@ txMgr
 NS_ERROR_FAILURE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsTransactionItem
 >
@@ -687,7 +687,7 @@ txMgr
 NS_ERROR_FAILURE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsTransactionItem
 >
@@ -795,7 +795,7 @@ txMgr
 NS_ERROR_FAILURE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsTransactionItem
 >

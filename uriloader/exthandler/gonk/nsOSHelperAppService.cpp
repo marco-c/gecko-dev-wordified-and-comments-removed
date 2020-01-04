@@ -99,7 +99,7 @@ aFound
 =
 false
 ;
-nsRefPtr
+RefPtr
 <
 nsGonkMIMEInfo
 >

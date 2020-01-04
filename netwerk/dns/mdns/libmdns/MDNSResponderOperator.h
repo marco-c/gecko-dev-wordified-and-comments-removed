@@ -46,7 +46,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -138,7 +138,7 @@ ServiceWatcher
 DNSServiceRef
 mService
 ;
-nsRefPtr
+RefPtr
 <
 ServiceWatcher
 >
@@ -450,7 +450,7 @@ nsIDNSServiceResolveListener
 >
 mListener
 ;
-nsRefPtr
+RefPtr
 <
 ResolveOperator
 >

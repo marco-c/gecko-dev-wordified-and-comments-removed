@@ -545,7 +545,7 @@ canonicalRequest
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 imgRequestProxy
 >
@@ -1231,7 +1231,7 @@ aOriginPrincipal
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 imgRequestProxy
 >
@@ -1278,7 +1278,7 @@ request
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 imgRequestProxy
 >

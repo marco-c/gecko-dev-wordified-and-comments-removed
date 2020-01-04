@@ -2439,7 +2439,7 @@ mCardboardInitialized
 return
 true
 ;
-nsRefPtr
+RefPtr
 <
 HMDInfoCardboard
 >
@@ -2530,7 +2530,7 @@ GetHMDs
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 VRHMDInfo
 >

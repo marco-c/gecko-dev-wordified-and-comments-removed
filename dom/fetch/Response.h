@@ -468,13 +468,13 @@ nsIGlobalObject
 >
 mOwner
 ;
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >
 mInternalResponse
 ;
-nsRefPtr
+RefPtr
 <
 Headers
 >

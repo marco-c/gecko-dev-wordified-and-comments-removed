@@ -455,7 +455,7 @@ PRLock
 *
 packets_lock_
 ;
-nsRefPtr
+RefPtr
 <
 Deliverer
 >

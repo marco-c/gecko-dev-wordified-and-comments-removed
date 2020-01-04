@@ -635,7 +635,7 @@ return
 rv
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsFileProtocolHandler
 >

@@ -437,7 +437,7 @@ CheckForInactive
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 PlayingRefChanged
 >
@@ -579,7 +579,7 @@ mLeftOverData
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 PlayingRefChanged
 >
@@ -752,7 +752,7 @@ aMallocSizeOf
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 ThreadSharedFloatArrayBufferList
 >
@@ -1045,7 +1045,7 @@ Length
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ThreadSharedFloatArrayBufferList
 >
@@ -1073,7 +1073,7 @@ length
 =
 WEBAUDIO_BLOCK_SIZE
 ;
-nsRefPtr
+RefPtr
 <
 ThreadSharedFloatArrayBufferList
 >

@@ -332,7 +332,7 @@ mCallback
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 GMPVideoEncoderParent
 >

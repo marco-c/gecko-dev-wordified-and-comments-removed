@@ -143,7 +143,7 @@ NS_OK
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 nsXPCWrappedJS
 >

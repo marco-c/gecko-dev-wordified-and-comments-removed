@@ -105,7 +105,7 @@ nsPIDOMWindow
 aWindow
 )
 {
-nsRefPtr
+RefPtr
 <
 Presentation
 >
@@ -349,7 +349,7 @@ GetDefaultRequest
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 PresentationRequest
 >
@@ -377,7 +377,7 @@ GetReceiver
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 PresentationReceiver
 >

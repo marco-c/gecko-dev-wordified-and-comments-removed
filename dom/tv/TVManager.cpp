@@ -149,7 +149,7 @@ nsPIDOMWindow
 aWindow
 )
 {
-nsRefPtr
+RefPtr
 <
 TVManager
 >
@@ -278,7 +278,7 @@ SetTuners
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 TVTuner
 >
@@ -455,7 +455,7 @@ MOZ_ASSERT
 global
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >

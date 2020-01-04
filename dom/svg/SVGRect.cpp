@@ -122,7 +122,7 @@ float
 aHeight
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :

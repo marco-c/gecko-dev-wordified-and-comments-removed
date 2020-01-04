@@ -126,7 +126,7 @@ sBuildingList
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 ICustomDestinationList
 >

@@ -292,7 +292,7 @@ Clear
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 UnlinkHostObjectURIsRunnable
 >

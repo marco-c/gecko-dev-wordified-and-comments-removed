@@ -291,7 +291,7 @@ AUDIO_SESSION_DISCONNECTED
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 IAudioSessionControl
 >
@@ -473,7 +473,7 @@ sService
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 AudioSession
 >
@@ -842,7 +842,7 @@ happen
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 IMMDeviceEnumerator
 >
@@ -874,7 +874,7 @@ hr
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-nsRefPtr
+RefPtr
 <
 IMMDevice
 >
@@ -923,7 +923,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 IAudioSessionManager
 >
@@ -1205,7 +1205,7 @@ mState
 =
 STOPPED
 ;
-nsRefPtr
+RefPtr
 <
 AudioSession
 >

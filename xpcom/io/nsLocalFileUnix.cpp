@@ -1112,7 +1112,7 @@ nsIFile
 aFile
 )
 {
-nsRefPtr
+RefPtr
 <
 nsLocalFile
 >
@@ -7557,7 +7557,7 @@ nsISimpleEnumerator
 aEntries
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDirEnumeratorUnix
 >
@@ -8453,7 +8453,7 @@ nsIFile
 aResult
 )
 {
-nsRefPtr
+RefPtr
 <
 nsLocalFile
 >
@@ -10968,7 +10968,7 @@ nsILocalFileMac
 aResult
 )
 {
-nsRefPtr
+RefPtr
 <
 nsLocalFile
 >
@@ -11035,7 +11035,7 @@ nsILocalFileMac
 aResult
 )
 {
-nsRefPtr
+RefPtr
 <
 nsLocalFile
 >

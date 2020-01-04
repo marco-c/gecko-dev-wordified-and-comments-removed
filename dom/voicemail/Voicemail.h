@@ -215,7 +215,7 @@ nsIVoicemailService
 >
 mService
 ;
-nsRefPtr
+RefPtr
 <
 Listener
 >
@@ -223,7 +223,7 @@ mListener
 ;
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 VoicemailStatus
 >

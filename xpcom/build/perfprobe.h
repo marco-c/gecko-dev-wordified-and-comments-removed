@@ -230,7 +230,7 @@ StartSession
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Probe
 >
@@ -265,7 +265,7 @@ mApplicationName
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Probe
 >

@@ -2531,7 +2531,7 @@ SurfaceFormat
 B8G8R8A8
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -2578,7 +2578,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -2671,7 +2671,7 @@ FilterType
 aType
 )
 {
-nsRefPtr
+RefPtr
 <
 FilterNodeSoftware
 >
@@ -3322,7 +3322,7 @@ endif
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -3804,7 +3804,7 @@ inputIndex
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 FilterNodeSoftware
 >
@@ -4014,7 +4014,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -4108,7 +4108,7 @@ GetName
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 FilterNodeSoftware
 >
@@ -4343,7 +4343,7 @@ surfaceRect
 srcRect
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -4690,7 +4690,7 @@ GetSize
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 FilterNodeSoftware
 >
@@ -4953,7 +4953,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 FilterNodeSoftware
 >
@@ -5506,7 +5506,7 @@ IntRect
 aRect
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -5519,7 +5519,7 @@ aRect
 NEED_COLOR_CHANNELS
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -5572,7 +5572,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -5687,7 +5687,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -6092,7 +6092,7 @@ SourceRectForOutputRect
 aRect
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -6178,7 +6178,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -6259,7 +6259,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -6745,7 +6745,7 @@ margin
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -6921,7 +6921,7 @@ aOperator
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -7127,7 +7127,7 @@ Inflate
 mRadii
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -7417,7 +7417,7 @@ SurfaceFormat
 A8
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -7444,7 +7444,7 @@ GetSize
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -7612,7 +7612,7 @@ SurfaceFormat
 A8
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -7639,7 +7639,7 @@ GetSize
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -7794,7 +7794,7 @@ IntRect
 aRect
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -7833,7 +7833,7 @@ input
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -8131,7 +8131,7 @@ FormatForColor
 mColor
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -8668,7 +8668,7 @@ aRect
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -8681,7 +8681,7 @@ std
 map
 <
 IntRect
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -8806,7 +8806,7 @@ IsEmpty
 continue
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -9633,7 +9633,7 @@ NEED_COLOR_CHANNELS
 :
 CAN_HANDLE_A8
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -9754,7 +9754,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -12820,7 +12820,7 @@ Inflate
 1
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -12852,7 +12852,7 @@ accessControl
 input
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -13788,7 +13788,7 @@ InflatedSourceOrDestRect
 aRect
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -13801,7 +13801,7 @@ srcRect
 NEED_COLOR_CHANNELS
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -13814,7 +13814,7 @@ aRect
 NEED_COLOR_CHANNELS
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -14701,7 +14701,7 @@ IntRect
 aRect
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -14714,7 +14714,7 @@ aRect
 NEED_COLOR_CHANNELS
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -15037,7 +15037,7 @@ IntRect
 aRect
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -15050,7 +15050,7 @@ aRect
 NEED_COLOR_CHANNELS
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -15126,7 +15126,7 @@ inputIndex
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -15430,7 +15430,7 @@ InflatedSourceOrDestRect
 aRect
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -15452,7 +15452,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -15600,7 +15600,7 @@ GetData
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -16383,7 +16383,7 @@ IntRect
 aRect
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -16489,7 +16489,7 @@ IntRect
 aRect
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -18000,7 +18000,7 @@ Inflate
 1
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -18057,7 +18057,7 @@ accessControl
 input
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

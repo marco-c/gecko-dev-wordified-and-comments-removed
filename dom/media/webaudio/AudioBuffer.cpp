@@ -343,7 +343,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 AudioBuffer
 >
@@ -1037,7 +1037,7 @@ nullptr
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 ThreadSharedFloatArrayBufferList
 >

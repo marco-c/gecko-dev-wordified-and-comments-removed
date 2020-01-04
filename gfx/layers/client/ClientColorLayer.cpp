@@ -289,7 +289,7 @@ phase
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 ClientColorLayer
 >

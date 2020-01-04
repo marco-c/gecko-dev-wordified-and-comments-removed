@@ -1674,7 +1674,7 @@ before
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -1799,7 +1799,7 @@ before
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -2068,7 +2068,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 StartupTask
 >

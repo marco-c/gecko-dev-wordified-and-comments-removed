@@ -397,7 +397,7 @@ Error
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 AudioData
 >
@@ -789,7 +789,7 @@ aGMP
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 :
@@ -846,7 +846,7 @@ NS_GetCurrentThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 GMPInitDoneRunnable
 >
@@ -947,7 +947,7 @@ IsOnGMPThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >

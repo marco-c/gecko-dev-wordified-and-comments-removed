@@ -294,7 +294,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MessageChannel
 >

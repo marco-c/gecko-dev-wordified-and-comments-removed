@@ -1873,7 +1873,7 @@ true
 requiresUnescaping
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsIAtom
 >

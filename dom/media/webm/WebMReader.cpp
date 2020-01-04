@@ -738,7 +738,7 @@ WebMReader
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ShutdownPromise
 >
@@ -1002,7 +1002,7 @@ NS_ENSURE_TRUE_VOID
 element
 )
 ;
-nsRefPtr
+RefPtr
 <
 LayerManager
 >
@@ -1129,7 +1129,7 @@ nullptr
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -1143,7 +1143,7 @@ AsyncReadMetadata
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 MetadataHolder
 >
@@ -2512,7 +2512,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 NesteggPacketHolder
 >
@@ -2620,7 +2620,7 @@ PopFront
 }
 do
 {
-nsRefPtr
+RefPtr
 <
 NesteggPacketHolder
 >
@@ -2693,7 +2693,7 @@ true
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 NesteggPacketHolder
 >
@@ -2898,7 +2898,7 @@ Tell
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 NesteggPacketHolder
 >
@@ -2947,7 +2947,7 @@ OnTaskQueue
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 NesteggPacketHolder
 >
@@ -2994,7 +2994,7 @@ while
 true
 )
 {
-nsRefPtr
+RefPtr
 <
 NesteggPacketHolder
 >
@@ -3105,7 +3105,7 @@ size
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 NesteggPacketHolder
 >
@@ -3145,7 +3145,7 @@ while
 foundKeyframe
 )
 {
-nsRefPtr
+RefPtr
 <
 NesteggPacketHolder
 >
@@ -3223,7 +3223,7 @@ size
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 NesteggPacketHolder
 >
@@ -3353,7 +3353,7 @@ aItem
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -4144,7 +4144,7 @@ OnTaskQueue
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >

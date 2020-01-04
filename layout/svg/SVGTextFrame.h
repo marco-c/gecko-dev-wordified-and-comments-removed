@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1522,7 +1522,7 @@ SVGTextContextPaint
 aThisContextPaint
 )
 ;
-nsRefPtr
+RefPtr
 <
 MutationObserver
 >

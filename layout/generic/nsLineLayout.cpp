@@ -8646,7 +8646,7 @@ spanFramePFD
 >
 mFrame
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >

@@ -1994,7 +1994,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 LoadContext
 >

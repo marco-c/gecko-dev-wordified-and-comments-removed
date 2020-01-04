@@ -688,7 +688,7 @@ IsValid
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >

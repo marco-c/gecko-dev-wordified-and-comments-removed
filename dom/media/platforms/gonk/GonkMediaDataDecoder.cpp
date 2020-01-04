@@ -206,7 +206,7 @@ GonkMediaDataDecoder
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 :
@@ -279,7 +279,7 @@ runnable
 (
 NS_NewRunnableMethodWithArg
 <
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -291,7 +291,7 @@ GonkMediaDataDecoder
 :
 :
 ProcessDecode
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -412,7 +412,7 @@ ProcessOutput
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaData
 >

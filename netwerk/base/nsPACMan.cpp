@@ -277,7 +277,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 nsPACManCallback
 >
@@ -425,7 +425,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 nsPACMan
 >
@@ -492,7 +492,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 nsPACMan
 >
@@ -636,7 +636,7 @@ mSetupPACURI
 mSetupPACData
 )
 ;
-nsRefPtr
+RefPtr
 <
 PACLoadComplete
 >
@@ -670,7 +670,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 nsPACMan
 >
@@ -855,7 +855,7 @@ mCallback
 )
 return
 ;
-nsRefPtr
+RefPtr
 <
 ExecuteCallback
 >
@@ -913,7 +913,7 @@ mCallback
 )
 return
 ;
-nsRefPtr
+RefPtr
 <
 ExecuteCallback
 >
@@ -1092,7 +1092,7 @@ Shutdown
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 ShutdownThread
 >
@@ -1188,7 +1188,7 @@ PostCancelPendingQ
 NS_ERROR_ABORT
 )
 ;
-nsRefPtr
+RefPtr
 <
 WaitForThreadShutdown
 >
@@ -1278,7 +1278,7 @@ EmptyCString
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 PendingPACQuery
 >
@@ -1375,7 +1375,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 PendingPACQuery
 >
@@ -1946,7 +1946,7 @@ thread
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 ExecutePACThreadAction
 >
@@ -1996,7 +1996,7 @@ thread
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 ExecutePACThreadAction
 >
@@ -2055,7 +2055,7 @@ thread
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 PendingPACQuery
 >
@@ -2191,7 +2191,7 @@ mLoadFailureCount
 return
 false
 ;
-nsRefPtr
+RefPtr
 <
 PendingPACQuery
 >
@@ -2559,7 +2559,7 @@ char
 )
 data
 ;
-nsRefPtr
+RefPtr
 <
 ExecutePACThreadAction
 >

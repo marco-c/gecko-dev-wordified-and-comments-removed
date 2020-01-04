@@ -726,7 +726,7 @@ CreateSyntheticDocument
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -757,7 +757,7 @@ nsIDOMNode
 ELEMENT_NODE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >
@@ -829,7 +829,7 @@ nsIDOMNode
 ELEMENT_NODE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >
@@ -869,7 +869,7 @@ nsIDOMNode
 ELEMENT_NODE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >
@@ -976,7 +976,7 @@ nsIDOMNode
 ELEMENT_NODE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >
@@ -1261,7 +1261,7 @@ nsAString
 aStylesheet
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1292,7 +1292,7 @@ nsIDOMNode
 ELEMENT_NODE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsGenericHTMLElement
 >

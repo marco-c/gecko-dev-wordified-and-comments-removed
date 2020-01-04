@@ -17,7 +17,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -662,7 +662,7 @@ hr
 NS_ERROR_FAILURE
 )
 ;
-nsRefPtr
+RefPtr
 <
 IBaseFilter
 >
@@ -693,7 +693,7 @@ hr
 NS_ERROR_FAILURE
 )
 ;
-nsRefPtr
+RefPtr
 <
 IBaseFilter
 >
@@ -1149,7 +1149,7 @@ x
 aStatus
 )
 ;
-nsRefPtr
+RefPtr
 <
 IMediaEventSink
 >
@@ -1470,7 +1470,7 @@ S_OK
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 IMediaSample
 >
@@ -1718,7 +1718,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -1954,7 +1954,7 @@ interval
 intervals
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >

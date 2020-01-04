@@ -63,7 +63,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -200,7 +200,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -833,7 +833,7 @@ VRHMDInfo
 aHMD
 )
 {
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -850,7 +850,7 @@ GetCompositor
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -1989,7 +1989,7 @@ aContainer
 struct
 PreparedData
 {
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -2383,7 +2383,7 @@ if
 surfaceCopyNeeded
 )
 {
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -2391,7 +2391,7 @@ surface
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -3650,7 +3650,7 @@ template
 class
 ContainerT
 >
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -3728,7 +3728,7 @@ mode
 INIT_MODE_NONE
 ;
 }
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -3801,7 +3801,7 @@ template
 class
 ContainerT
 >
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -3843,7 +3843,7 @@ GetBounds
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -4011,7 +4011,7 @@ gfx
 IntRect
 &
 aClipRect
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -4029,7 +4029,7 @@ GetCompositor
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -4171,7 +4171,7 @@ UseIntermediateSurface
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -4252,7 +4252,7 @@ GetBounds
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Compositor
 >
@@ -4276,7 +4276,7 @@ gfxUtils
 sDumpCompositorTextures
 )
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -4308,7 +4308,7 @@ surf
 }
 #
 endif
-nsRefPtr
+RefPtr
 <
 ContainerT
 >

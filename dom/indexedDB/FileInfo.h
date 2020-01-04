@@ -46,7 +46,7 @@ mDBRefCnt
 ThreadSafeAutoRefCnt
 mSliceRefCnt
 ;
-nsRefPtr
+RefPtr
 <
 FileManager
 >

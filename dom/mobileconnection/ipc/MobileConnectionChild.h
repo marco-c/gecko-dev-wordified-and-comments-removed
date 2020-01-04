@@ -332,13 +332,13 @@ nsIMobileConnectionListener
 >
 mListeners
 ;
-nsRefPtr
+RefPtr
 <
 MobileConnectionInfo
 >
 mVoice
 ;
-nsRefPtr
+RefPtr
 <
 MobileConnectionInfo
 >

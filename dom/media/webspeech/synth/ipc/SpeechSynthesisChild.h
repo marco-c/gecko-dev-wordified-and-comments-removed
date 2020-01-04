@@ -289,7 +289,7 @@ aCharIndex
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 SpeechTaskChild
 >

@@ -2740,7 +2740,7 @@ HANDLE
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 NativeWatcherIOShutdownTask
 >
@@ -2869,7 +2869,7 @@ nsAString
 aChangedResource
 )
 {
-nsRefPtr
+RefPtr
 <
 WatchedChangeEvent
 >
@@ -3001,7 +3001,7 @@ DWORD
 anOSError
 )
 {
-nsRefPtr
+RefPtr
 <
 WatchedErrorEvent
 >
@@ -3041,7 +3041,7 @@ nsAString
 aResource
 )
 {
-nsRefPtr
+RefPtr
 <
 WatchedSuccessEvent
 >

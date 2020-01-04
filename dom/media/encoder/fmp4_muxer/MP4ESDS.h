@@ -111,7 +111,7 @@ nsACString
 aType
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MuxerOperation
 >
@@ -149,7 +149,7 @@ FullBox
 {
 public
 :
-nsRefPtr
+RefPtr
 <
 ES_Descriptor
 >
@@ -192,7 +192,7 @@ AudioSampleEntry
 {
 public
 :
-nsRefPtr
+RefPtr
 <
 ESDBox
 >

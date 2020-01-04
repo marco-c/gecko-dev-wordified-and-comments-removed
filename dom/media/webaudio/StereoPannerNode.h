@@ -217,7 +217,7 @@ StereoPannerNode
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 AudioParam
 >

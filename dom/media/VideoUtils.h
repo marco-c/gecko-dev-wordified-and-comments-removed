@@ -52,7 +52,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -823,7 +823,7 @@ Work
 class
 Condition
 >
-nsRefPtr
+RefPtr
 <
 GenericPromise
 >
@@ -835,7 +835,7 @@ Condition
 aCondition
 )
 {
-nsRefPtr
+RefPtr
 <
 GenericPromise
 :
@@ -877,7 +877,7 @@ static
 void
 Iteration
 (
-nsRefPtr
+RefPtr
 <
 GenericPromise
 :
@@ -1058,7 +1058,7 @@ nsIThread
 aTarget
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >

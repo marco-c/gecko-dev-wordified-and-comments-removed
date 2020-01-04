@@ -566,7 +566,7 @@ txVariableMap
 >
 mTemplateParams
 ;
-nsRefPtr
+RefPtr
 <
 txStylesheet
 >
@@ -606,7 +606,7 @@ mLocalVariables
 txVariableMap
 mGlobalVariableValues
 ;
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >
@@ -643,7 +643,7 @@ mLoadedDocuments
 txKeyHash
 mKeyHash
 ;
-nsRefPtr
+RefPtr
 <
 txResultRecycler
 >

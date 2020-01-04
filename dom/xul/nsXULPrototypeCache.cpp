@@ -651,7 +651,7 @@ rv
 return
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 nsXULPrototypeDocument
 >
@@ -964,7 +964,7 @@ DocumentURI
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsXBLDocumentInfo
 >
@@ -1007,7 +1007,7 @@ FlushSkinXBL
 nsIURI
 *
 aKey
-nsRefPtr
+RefPtr
 <
 nsXBLDocumentInfo
 >
@@ -1068,7 +1068,7 @@ FlushSkinSheets
 nsIURI
 *
 aKey
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -1134,7 +1134,7 @@ FlushScopedSkinStylesheets
 nsIURI
 *
 aKey
-nsRefPtr
+RefPtr
 <
 nsXBLDocumentInfo
 >
@@ -2631,7 +2631,7 @@ MarkXBLInCCGeneration
 nsIURI
 *
 aKey
-nsRefPtr
+RefPtr
 <
 nsXBLDocumentInfo
 >
@@ -2675,7 +2675,7 @@ MarkXULInCCGeneration
 nsIURI
 *
 aKey
-nsRefPtr
+RefPtr
 <
 nsXULPrototypeDocument
 >

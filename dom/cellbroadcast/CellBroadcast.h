@@ -151,7 +151,7 @@ received
 )
 private
 :
-nsRefPtr
+RefPtr
 <
 Listener
 >

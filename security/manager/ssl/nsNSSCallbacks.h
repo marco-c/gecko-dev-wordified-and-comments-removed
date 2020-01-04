@@ -389,7 +389,7 @@ mPostContentType
 PRIntervalTime
 mTimeoutInterval
 ;
-nsRefPtr
+RefPtr
 <
 nsHTTPListener
 >

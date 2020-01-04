@@ -617,7 +617,7 @@ ForceCompositionEnd
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -762,7 +762,7 @@ rangeIdx
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -1633,7 +1633,7 @@ NS_OK
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 Text
 >
@@ -3673,7 +3673,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIContent
 >
@@ -5266,7 +5266,7 @@ first
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -5292,7 +5292,7 @@ Collapsed
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -6331,7 +6331,7 @@ ForceCompositionEnd
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -6529,7 +6529,7 @@ rangeCount
 rangeIdx
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -7007,7 +7007,7 @@ ForceCompositionEnd
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -7224,7 +7224,7 @@ rangeCount
 rangeIdx
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRange
 >

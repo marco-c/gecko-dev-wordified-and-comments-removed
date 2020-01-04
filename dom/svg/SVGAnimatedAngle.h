@@ -133,7 +133,7 @@ nsSVGAngle
 *
 mVal
 ;
-nsRefPtr
+RefPtr
 <
 nsSVGElement
 >

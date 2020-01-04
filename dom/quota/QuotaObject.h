@@ -131,7 +131,7 @@ AssertCurrentThreadOwnsQuotaMutex
 +
 mRefCnt
 ;
-nsRefPtr
+RefPtr
 <
 QuotaObject
 >

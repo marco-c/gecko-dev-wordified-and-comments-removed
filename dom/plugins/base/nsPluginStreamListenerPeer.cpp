@@ -1355,7 +1355,7 @@ useExistingCacheFile
 =
 false
 ;
-nsRefPtr
+RefPtr
 <
 nsPluginHost
 >
@@ -1370,7 +1370,7 @@ GetInst
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -1974,7 +1974,7 @@ rv
 return
 rv
 ;
-nsRefPtr
+RefPtr
 <
 nsPluginInstanceOwner
 >
@@ -2722,7 +2722,7 @@ rv
 =
 NS_OK
 ;
-nsRefPtr
+RefPtr
 <
 nsPluginInstanceOwner
 >
@@ -3168,7 +3168,7 @@ Start
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPluginInstanceOwner
 >
@@ -4272,7 +4272,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginStreamListener
 >
@@ -4995,7 +4995,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPluginInstanceOwner
 >

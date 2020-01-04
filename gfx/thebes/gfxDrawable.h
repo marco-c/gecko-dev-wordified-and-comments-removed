@@ -329,7 +329,7 @@ gfxMatrix
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -478,13 +478,13 @@ GraphicsFilter
 FILTER_FAST
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxDrawingCallback
 >
 mCallback
 ;
-nsRefPtr
+RefPtr
 <
 gfxSurfaceDrawable
 >
@@ -565,7 +565,7 @@ MakeCallbackDrawable
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxPattern
 >

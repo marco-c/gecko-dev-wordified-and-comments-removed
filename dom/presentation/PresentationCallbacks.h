@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -102,7 +102,7 @@ PresentationRequesterCallback
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 PresentationRequest
 >
@@ -111,7 +111,7 @@ mRequest
 nsString
 mSessionId
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >

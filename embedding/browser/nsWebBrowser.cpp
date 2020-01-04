@@ -6696,7 +6696,7 @@ BeginTransaction
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 PaintedLayer
 >

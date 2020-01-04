@@ -632,7 +632,7 @@ Run
 )
 override
 {
-nsRefPtr
+RefPtr
 <
 DynamicsCompressorNode
 >
@@ -677,7 +677,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 AudioNodeStream
 >

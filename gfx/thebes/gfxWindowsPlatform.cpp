@@ -2066,7 +2066,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDWriteFactory
 >
@@ -2602,7 +2602,7 @@ gfxWindowsPlatform
 :
 CreateDevice
 (
-nsRefPtr
+RefPtr
 <
 IDXGIAdapter1
 >
@@ -2833,7 +2833,7 @@ ArrayLength
 kSupportedFeatureLevels
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDXGIAdapter1
 >
@@ -3184,7 +3184,7 @@ gfxImageFormat
 aFormat
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -6811,7 +6811,7 @@ DWRITE_MEASURING_MODE_NATURAL
 break
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDWriteRenderingParams
 >
@@ -7421,7 +7421,7 @@ if
 createDXGIFactory1
 )
 {
-nsRefPtr
+RefPtr
 <
 IDXGIFactory1
 >
@@ -7750,7 +7750,7 @@ DXGI_ADAPTER_DESC
 out
 )
 {
-nsRefPtr
+RefPtr
 <
 IDXGIDevice
 >
@@ -7786,7 +7786,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDXGIAdapter
 >
@@ -7956,7 +7956,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID3D11DeviceContext
 >
@@ -7983,13 +7983,13 @@ backbufferHeight
 =
 32
 ;
-nsRefPtr
+RefPtr
 <
 ID3D11Texture2D
 >
 offscreenTexture
 ;
-nsRefPtr
+RefPtr
 <
 IDXGIKeyedMutex
 >
@@ -8174,7 +8174,7 @@ MipSlice
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 ID3D11RenderTargetView
 >
@@ -8626,7 +8626,7 @@ false
 }
 }
 }
-nsRefPtr
+RefPtr
 <
 ID3D11Texture2D
 >
@@ -8732,7 +8732,7 @@ false
 HANDLE
 shareHandle
 ;
-nsRefPtr
+RefPtr
 <
 IDXGIResource
 >
@@ -8782,13 +8782,13 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID3D11Resource
 >
 sharedResource
 ;
-nsRefPtr
+RefPtr
 <
 ID3D11Texture2D
 >
@@ -8867,7 +8867,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID3D11ShaderResourceView
 >
@@ -9286,7 +9286,7 @@ AttemptD3D11DeviceCreation
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 IDXGIAdapter1
 >
@@ -9891,7 +9891,7 @@ AttemptD3D11ContentDeviceCreation
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 IDXGIAdapter1
 >
@@ -10001,7 +10001,7 @@ SetExceptionMode
 0
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Multithread
 >
@@ -11227,7 +11227,7 @@ CreateD3D11DecoderDeviceHelper
 IDXGIAdapter1
 *
 aAdapter
-nsRefPtr
+RefPtr
 <
 ID3D11Device
 >
@@ -11302,7 +11302,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDXGIAdapter1
 >
@@ -11322,7 +11322,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID3D11Device
 >
@@ -11364,7 +11364,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID3D10Multithread
 >
@@ -12192,7 +12192,7 @@ D3DVsyncSource
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 D3DVsyncDisplay
 >
@@ -12300,7 +12300,7 @@ CreateHardwareVsyncSource
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 VsyncSource
 >
