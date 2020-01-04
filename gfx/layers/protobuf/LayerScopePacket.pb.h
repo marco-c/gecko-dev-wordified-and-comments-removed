@@ -5945,13 +5945,6 @@ Filter
 static
 const
 Filter
-FILTER_FAST
-=
-LayersPacket_Layer_Filter_FILTER_FAST
-;
-static
-const
-Filter
 FILTER_GOOD
 =
 LayersPacket_Layer_Filter_FILTER_GOOD

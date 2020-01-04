@@ -1394,7 +1394,7 @@ GraphicsFilterType
 GraphicsFilter
 :
 :
-FILTER_FAST
+FILTER_GOOD
 GraphicsFilter
 :
 :

@@ -6951,13 +6951,6 @@ LayersPacket_Layer_Filter
 LayersPacket_Layer
 :
 :
-FILTER_FAST
-;
-const
-LayersPacket_Layer_Filter
-LayersPacket_Layer
-:
-:
 FILTER_GOOD
 ;
 const

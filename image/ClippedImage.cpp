@@ -510,7 +510,7 @@ mDrawResult
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 ClippedImage
 >
@@ -608,7 +608,7 @@ int32_t
 width
 height
 ;
-RefPtr
+nsRefPtr
 <
 ProgressTracker
 >
@@ -1226,7 +1226,7 @@ SourceSurface
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -1238,7 +1238,7 @@ gfxContext
 target
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawSingleTileCallback
 >
@@ -1254,7 +1254,7 @@ aWhichFrame
 aFlags
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxDrawable
 >
@@ -1289,7 +1289,7 @@ B8G8R8A8
 GraphicsFilter
 :
 :
-FILTER_FAST
+FILTER_BEST
 imgIContainer
 :
 :
@@ -1657,7 +1657,7 @@ return
 result
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxSurfaceDrawable
 >
