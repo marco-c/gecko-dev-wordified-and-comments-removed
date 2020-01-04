@@ -1728,7 +1728,7 @@ outer
 addEventListener
 (
 "
-mouseleave
+mouseout
 "
 this
 true
@@ -2572,7 +2572,7 @@ type
 =
 =
 "
-mouseleave
+mouseout
 "
 )
 {
@@ -2749,7 +2749,7 @@ onBreadcrumbsHover
 ;
 }
 }
-handleMouseLeave
+handleMouseOut
 :
 function
 (
@@ -3130,7 +3130,7 @@ container
 removeEventListener
 (
 "
-mouseleave
+mouseout
 "
 this
 true
