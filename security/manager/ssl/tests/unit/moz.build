@@ -150,6 +150,9 @@ test_cert_trust
 test_cert_version
 '
 '
+test_certDB_import
+'
+'
 test_ev_certs
 '
 '
