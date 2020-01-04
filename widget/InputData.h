@@ -829,6 +829,10 @@ mHandledByAPZ
 (
 false
 )
+mFollowedByMomentum
+(
+false
+)
 mRequiresContentResponseIfCannotScrollHorizontallyInStartDirection
 (
 false
@@ -882,6 +886,9 @@ mLineOrPageDeltaY
 ;
 bool
 mHandledByAPZ
+;
+bool
+mFollowedByMomentum
 ;
 bool
 mRequiresContentResponseIfCannotScrollHorizontallyInStartDirection
