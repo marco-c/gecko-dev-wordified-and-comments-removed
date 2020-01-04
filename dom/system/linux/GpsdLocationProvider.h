@@ -25,6 +25,9 @@ nsIGeolocationProvider
 .
 h
 "
+class
+MLSFallback
+;
 namespace
 mozilla
 {
@@ -41,6 +44,9 @@ final
 public
 nsIGeolocationProvider
 {
+class
+MLSGeolocationUpdate
+;
 class
 NotifyErrorRunnable
 ;
@@ -102,6 +108,12 @@ RefPtr
 PollRunnable
 >
 mPollRunnable
+;
+RefPtr
+<
+MLSFallback
+>
+mMLSProvider
 ;
 }
 ;
