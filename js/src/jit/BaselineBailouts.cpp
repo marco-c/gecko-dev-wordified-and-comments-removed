@@ -9021,6 +9021,9 @@ case
 Bailout_NonSymbolInput
 :
 case
+Bailout_NonSimdBool32x4Input
+:
+case
 Bailout_NonSimdInt32x4Input
 :
 case

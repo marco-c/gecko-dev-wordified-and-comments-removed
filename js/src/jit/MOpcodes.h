@@ -119,6 +119,16 @@ SimdSelect
 \
 _
 (
+SimdAllTrue
+)
+\
+_
+(
+SimdAnyTrue
+)
+\
+_
+(
 CloneLiteral
 )
 \

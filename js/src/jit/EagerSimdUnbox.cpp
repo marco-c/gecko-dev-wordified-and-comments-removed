@@ -82,6 +82,15 @@ SimdTypeDescr
 :
 Int32x4
 ;
+case
+MIRType_Bool32x4
+:
+return
+SimdTypeDescr
+:
+:
+Bool32x4
+;
 default
 :
 break

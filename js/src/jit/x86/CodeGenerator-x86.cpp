@@ -5522,6 +5522,9 @@ break
 case
 MIRType_Int32x4
 :
+case
+MIRType_Bool32x4
+:
 label
 =
 masm
@@ -5735,6 +5738,9 @@ break
 ;
 case
 MIRType_Int32x4
+:
+case
+MIRType_Bool32x4
 :
 label
 =
