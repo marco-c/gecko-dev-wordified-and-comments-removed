@@ -11306,7 +11306,7 @@ BindingManager
 }
 else
 {
-NS_ERROR
+NS_WARNING
 (
 "
 stylo
@@ -11318,6 +11318,11 @@ from
 XBL
 bindings
 yet
+.
+See
+bug
+1290276
+.
 "
 )
 ;
