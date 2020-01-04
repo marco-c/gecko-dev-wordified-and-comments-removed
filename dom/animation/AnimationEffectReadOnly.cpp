@@ -29,7 +29,7 @@ dom
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 AnimationEffectReadOnly
-mParent
+mDocument
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
