@@ -119,7 +119,7 @@ assertEquals
 (
 error
 .
-get_attribute
+get_property
 (
 '
 textContent

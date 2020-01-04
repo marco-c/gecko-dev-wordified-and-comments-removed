@@ -187,7 +187,7 @@ assertEquals
 (
 title
 .
-get_attribute
+get_property
 (
 '
 textContent
@@ -249,7 +249,7 @@ SSL_ERROR_UNSUPPORTED_VERSION
                           
 short_description
 .
-get_attribute
+get_property
 (
 '
 textContent
@@ -268,7 +268,7 @@ com
 '
 short_description
 .
-get_attribute
+get_property
 (
 '
 textContent

@@ -352,7 +352,7 @@ assertEqual
 (
 search_term
 .
-get_attribute
+get_property
 (
 '
 textContent

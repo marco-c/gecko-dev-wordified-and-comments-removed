@@ -101,7 +101,7 @@ assertEqual
 (
 result
 .
-get_attribute
+get_property
 (
 '
 textContent
