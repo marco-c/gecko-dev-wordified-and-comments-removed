@@ -3873,6 +3873,10 @@ PageMetadata
 :
 GetPageData
 "
+null
+{
+target
+}
 )
 ;
 return
@@ -3883,7 +3887,7 @@ if
 !
 pageData
 .
-microdata
+microformats
 &
 &
 target
@@ -3896,7 +3900,7 @@ addMessageListener
 "
 PageMetadata
 :
-MicrodataResult
+MicroformatsResult
 "
 _dataFn
 =
@@ -3913,14 +3917,14 @@ removeMessageListener
 "
 PageMetadata
 :
-MicrodataResult
+MicroformatsResult
 "
 _dataFn
 )
 ;
 pageData
 .
-microdata
+microformats
 =
 msg
 .
@@ -3950,7 +3954,7 @@ sendAsyncMessage
 "
 PageMetadata
 :
-GetMicrodata
+GetMicroformats
 "
 null
 {
