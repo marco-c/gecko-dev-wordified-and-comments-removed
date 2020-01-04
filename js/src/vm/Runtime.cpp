@@ -835,10 +835,6 @@ checkRequestDepth
 (
 0
 )
-activeContext
-(
-nullptr
-)
 #
 endif
 gc

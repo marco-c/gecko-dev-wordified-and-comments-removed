@@ -3925,10 +3925,6 @@ DEBUG
 unsigned
 checkRequestDepth
 ;
-JSContext
-*
-activeContext
-;
 #
 endif
 js
