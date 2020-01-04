@@ -2290,6 +2290,9 @@ CASES_FOR_fchown
 case
 __NR_fchmod
 :
+case
+__NR_flock
+:
 #
 endif
 return
@@ -2525,13 +2528,7 @@ Allow
 )
 ;
 case
-__NR_umask
-:
-case
 __NR_kill
-:
-case
-__NR_wait4
 :
 #
 ifdef
