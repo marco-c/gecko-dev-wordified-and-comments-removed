@@ -148,6 +148,12 @@ apply
 /
 [
 Constructor
+Exposed
+=
+(
+Window
+System
+)
 ]
 interface
 FileReader

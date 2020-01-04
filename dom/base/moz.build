@@ -151,11 +151,6 @@ nsIDOMFileList
 idl
 '
 '
-nsIDOMFileReader
-.
-idl
-'
-'
 nsIDOMFormData
 .
 idl

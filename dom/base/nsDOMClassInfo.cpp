@@ -10567,14 +10567,6 @@ kInterfaceShimMap
 {
 {
 "
-nsIDOMFileReader
-"
-"
-FileReader
-"
-}
-{
-"
 nsIXMLHttpRequest
 "
 "
