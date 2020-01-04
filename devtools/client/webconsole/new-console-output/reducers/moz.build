@@ -64,6 +64,11 @@ MPL
 DevToolsModules
 (
 '
+filters
+.
+js
+'
+'
 index
 .
 js
@@ -75,6 +80,11 @@ js
 '
 '
 prefs
+.
+js
+'
+'
+ui
 .
 js
 '
