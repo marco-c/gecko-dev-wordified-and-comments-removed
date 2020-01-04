@@ -8789,7 +8789,7 @@ addons
 {
 logger
 .
-warn
+info
 (
 "
 One
