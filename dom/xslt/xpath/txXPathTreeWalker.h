@@ -482,9 +482,8 @@ const
 txXPathNode
 &
 aNode
-nsIURI
-*
-*
+nsAString
+&
 aURI
 )
 ;
