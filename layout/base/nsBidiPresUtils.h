@@ -841,9 +841,6 @@ int32_t
 aFirstIndex
 int32_t
 aLastIndex
-int32_t
-&
-aOffset
 )
 ;
 static
