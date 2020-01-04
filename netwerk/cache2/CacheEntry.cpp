@@ -685,6 +685,8 @@ nsACString
 aEnhanceID
 bool
 aUseDisk
+bool
+aSkipSizeCheck
 )
 :
 mFrecency
@@ -724,6 +726,10 @@ aStorageID
 mUseDisk
 (
 aUseDisk
+)
+mSkipSizeCheck
+(
+aSkipSizeCheck
 )
 mIsDoomed
 (
@@ -1743,6 +1749,7 @@ fileKey
 aTruncate
 !
 mUseDisk
+mSkipSizeCheck
 aPriority
 directLoad
 ?
@@ -2110,6 +2117,7 @@ mUseDisk
 &
 !
 aMemoryOnly
+mSkipSizeCheck
 true
 true
 getter_AddRefs
@@ -4953,6 +4961,10 @@ aPredictedDataSize
 ;
 if
 (
+!
+mSkipSizeCheck
+&
+&
 CacheObserver
 :
 :

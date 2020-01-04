@@ -181,6 +181,8 @@ aCreateNew
 bool
 aMemoryOnly
 bool
+aSkipSizeCheck
+bool
 aPriority
 CacheFileListener
 *
@@ -882,6 +884,9 @@ mReady
 ;
 bool
 mMemoryOnly
+;
+bool
+mSkipSizeCheck
 ;
 bool
 mOpenAsMemoryOnly

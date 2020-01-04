@@ -111,6 +111,7 @@ CacheStorage
 aInfo
 true
 false
+false
 )
 mAppCache
 (

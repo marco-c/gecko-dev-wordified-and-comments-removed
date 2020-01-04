@@ -215,6 +215,8 @@ nsACString
 aEnhanceID
 bool
 aUseDisk
+bool
+aSkipSizeCheck
 )
 ;
 void
@@ -1030,6 +1032,10 @@ mStorageID
 bool
 const
 mUseDisk
+;
+bool
+const
+mSkipSizeCheck
 ;
 bool
 mIsDoomed
