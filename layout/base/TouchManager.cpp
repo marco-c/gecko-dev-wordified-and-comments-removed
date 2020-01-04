@@ -348,7 +348,7 @@ PR_IntervalNow
 ;
 event
 .
-touches
+mTouches
 .
 AppendElement
 (
@@ -597,7 +597,7 @@ if
 touchEvent
 -
 >
-touches
+mTouches
 .
 Length
 (
@@ -661,7 +661,7 @@ i
 touchEvent
 -
 >
-touches
+mTouches
 .
 Length
 (
@@ -682,7 +682,7 @@ touch
 touchEvent
 -
 >
-touches
+mTouches
 [
 i
 ]
@@ -766,7 +766,7 @@ touches
 touchEvent
 -
 >
-touches
+mTouches
 ;
 bool
 haveChanged
@@ -980,7 +980,7 @@ i
 touchEvent
 -
 >
-touches
+mTouches
 .
 Length
 (
@@ -996,7 +996,7 @@ if
 touchEvent
 -
 >
-touches
+mTouches
 [
 i
 ]
@@ -1005,7 +1005,7 @@ i
 touchEvent
 -
 >
-touches
+mTouches
 [
 i
 ]
@@ -1064,7 +1064,7 @@ touches
 touchEvent
 -
 >
-touches
+mTouches
 ;
 for
 (

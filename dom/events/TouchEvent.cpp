@@ -273,7 +273,7 @@ i
 aEvent
 -
 >
-touches
+mTouches
 .
 Length
 (
@@ -291,7 +291,7 @@ touch
 aEvent
 -
 >
-touches
+mTouches
 [
 i
 ]
@@ -492,7 +492,7 @@ touches
 touchEvent
 -
 >
-touches
+mTouches
 ;
 for
 (
@@ -565,7 +565,7 @@ this
 touchEvent
 -
 >
-touches
+mTouches
 )
 ;
 }
@@ -617,7 +617,7 @@ touches
 touchEvent
 -
 >
-touches
+mTouches
 ;
 for
 (
@@ -761,7 +761,7 @@ touches
 touchEvent
 -
 >
-touches
+mTouches
 ;
 for
 (

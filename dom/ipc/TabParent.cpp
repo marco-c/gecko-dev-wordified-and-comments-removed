@@ -7463,7 +7463,7 @@ i
 =
 event
 .
-touches
+mTouches
 .
 Length
 (
@@ -7486,7 +7486,7 @@ if
 !
 event
 .
-touches
+mTouches
 [
 i
 ]
@@ -7497,7 +7497,7 @@ mChanged
 {
 event
 .
-touches
+mTouches
 .
 RemoveElementAt
 (
@@ -7553,7 +7553,7 @@ i
 <
 event
 .
-touches
+mTouches
 .
 Length
 (
@@ -7566,7 +7566,7 @@ i
 {
 event
 .
-touches
+mTouches
 [
 i
 ]
@@ -12559,7 +12559,7 @@ GetPresContext
 ;
 event
 .
-touches
+mTouches
 .
 SetCapacity
 (
@@ -12682,7 +12682,7 @@ true
 ;
 event
 .
-touches
+mTouches
 .
 AppendElement
 (

@@ -9031,7 +9031,7 @@ eTouchStart
 &
 aEvent
 .
-touches
+mTouches
 .
 Length
 (
@@ -9059,7 +9059,7 @@ refPoint
 =
 aEvent
 .
-touches
+mTouches
 [
 0
 ]

@@ -9108,7 +9108,7 @@ if
 touchEvent
 -
 >
-touches
+mTouches
 .
 Length
 (
@@ -9132,7 +9132,7 @@ touch
 touchEvent
 -
 >
-touches
+mTouches
 .
 SafeElementAt
 (

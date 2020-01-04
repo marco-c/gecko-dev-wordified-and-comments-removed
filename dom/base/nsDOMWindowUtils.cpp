@@ -4252,7 +4252,7 @@ NS_ERROR_FAILURE
 }
 event
 .
-touches
+mTouches
 .
 SetCapacity
 (
@@ -4358,7 +4358,7 @@ i
 ;
 event
 .
-touches
+mTouches
 .
 AppendElement
 (

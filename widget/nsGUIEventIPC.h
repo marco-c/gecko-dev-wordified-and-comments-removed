@@ -2005,7 +2005,7 @@ touches
 =
 aParam
 .
-touches
+mTouches
 ;
 WriteParam
 (
@@ -2256,7 +2256,7 @@ false
 aResult
 -
 >
-touches
+mTouches
 .
 AppendElement
 (

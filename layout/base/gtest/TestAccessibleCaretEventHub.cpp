@@ -339,7 +339,7 @@ touchIntPoint
 aEvent
 -
 >
-touches
+mTouches
 [
 0
 ]
@@ -762,7 +762,7 @@ force
 event
 -
 >
-touches
+mTouches
 .
 AppendElement
 (

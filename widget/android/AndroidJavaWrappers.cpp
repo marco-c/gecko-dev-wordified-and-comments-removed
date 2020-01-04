@@ -3779,7 +3779,7 @@ WidgetToScreenOffset
 ;
 event
 .
-touches
+mTouches
 .
 SetCapacity
 (
@@ -3917,7 +3917,7 @@ i
 ;
 event
 .
-touches
+mTouches
 .
 AppendElement
 (

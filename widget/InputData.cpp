@@ -814,7 +814,7 @@ i
 <
 aTouchEvent
 .
-touches
+mTouches
 .
 Length
 (
@@ -832,7 +832,7 @@ domTouch
 =
 aTouchEvent
 .
-touches
+mTouches
 [
 i
 ]
@@ -1096,7 +1096,7 @@ i
 *
 event
 .
-touches
+mTouches
 .
 AppendElement
 (

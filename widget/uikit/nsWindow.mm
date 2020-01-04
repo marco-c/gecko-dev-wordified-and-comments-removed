@@ -1181,7 +1181,7 @@ PR_IntervalNow
 ;
 event
 .
-touches
+mTouches
 .
 SetCapacity
 (
@@ -1320,7 +1320,7 @@ loc
 ;
 event
 .
-touches
+mTouches
 .
 AppendElement
 (
