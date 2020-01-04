@@ -71,4 +71,11 @@ Handler
 handler
 )
 ;
+void
+postToInputConnection
+(
+Runnable
+runnable
+)
+;
 }
