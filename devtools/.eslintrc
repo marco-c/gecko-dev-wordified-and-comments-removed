@@ -29,6 +29,11 @@ Components
 :
 true
 "
+CSSRule
+"
+:
+true
+"
 clearInterval
 "
 :

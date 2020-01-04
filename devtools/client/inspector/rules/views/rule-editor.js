@@ -543,9 +543,7 @@ type
 !
 =
 =
-Ci
-.
-nsIDOMCSSRule
+CSSRule
 .
 KEYFRAME_RULE
 ;
@@ -937,9 +935,7 @@ type
 !
 =
 =
-Ci
-.
-nsIDOMCSSRule
+CSSRule
 .
 KEYFRAME_RULE
 &
@@ -1759,9 +1755,7 @@ type
 =
 =
 =
-Ci
-.
-nsIDOMCSSRule
+CSSRule
 .
 KEYFRAME_RULE
 )
