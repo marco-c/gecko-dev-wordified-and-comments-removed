@@ -119,6 +119,8 @@ ft_font
 load_flags
 =
 FT_LOAD_DEFAULT
+|
+FT_LOAD_NO_HINTING
 ;
 return
 ft_font
