@@ -232,7 +232,7 @@ nsPrintDialogServiceX
 :
 Show
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aParent
 nsIPrintSettings
@@ -774,7 +774,7 @@ nsPrintDialogServiceX
 :
 ShowPageSetup
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aParent
 nsIPrintSettings

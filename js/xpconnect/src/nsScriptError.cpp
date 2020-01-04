@@ -168,7 +168,7 @@ if
 window
 )
 {
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 outer
 =

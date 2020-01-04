@@ -2328,7 +2328,7 @@ const
 override
 ;
 virtual
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 GetOwnerGlobalForBindings
 (

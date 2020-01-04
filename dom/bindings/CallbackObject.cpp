@@ -353,6 +353,11 @@ if
 win
 -
 >
+AsInner
+(
+)
+-
+>
 HasActiveDocument
 (
 )

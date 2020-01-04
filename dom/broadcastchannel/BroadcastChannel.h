@@ -53,7 +53,7 @@ RefPtr
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -277,7 +277,7 @@ private
 :
 BroadcastChannel
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const

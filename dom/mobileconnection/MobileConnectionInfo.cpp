@@ -246,7 +246,7 @@ MobileConnectionInfo
 :
 MobileConnectionInfo
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

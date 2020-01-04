@@ -68,10 +68,7 @@ class
 nsIPrincipal
 ;
 class
-nsIDOMWindow
-;
-class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -177,7 +174,7 @@ mIsPrivate
 }
 DOMStorage
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 DOMStorageManager
@@ -216,7 +213,7 @@ aGivenProto
 )
 override
 ;
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -420,7 +417,7 @@ static
 bool
 CanUseStorage
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 DOMStorage
@@ -492,7 +489,7 @@ DOMStorageCache
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

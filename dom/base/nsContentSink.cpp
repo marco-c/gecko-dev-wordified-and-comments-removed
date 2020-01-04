@@ -4771,12 +4771,6 @@ mDocument
 NodePrincipal
 (
 )
-mDocument
--
->
-GetWindow
-(
-)
 )
 &
 &

@@ -6100,7 +6100,7 @@ docCallbacks
 frameRequestCallbacks
 )
 {
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 innerWindow
 =

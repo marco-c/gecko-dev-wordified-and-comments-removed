@@ -111,7 +111,7 @@ TVManager
 :
 TVManager
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -144,7 +144,7 @@ TVManager
 :
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

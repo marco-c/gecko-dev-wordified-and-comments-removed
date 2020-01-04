@@ -70,6 +70,17 @@ mozilla
 /
 dom
 /
+MessageEventBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 MessagePortBinding
 .
 h
@@ -519,7 +530,7 @@ cx
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -624,6 +635,7 @@ event
 >
 InitMessageEvent
 (
+nullptr
 NS_LITERAL_STRING
 (
 "
@@ -639,6 +651,7 @@ EmptyString
 EmptyString
 (
 )
+nullptr
 nullptr
 )
 ;
@@ -1170,7 +1183,7 @@ MessagePort
 :
 MessagePort
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -1246,7 +1259,7 @@ MessagePort
 :
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -1304,7 +1317,7 @@ MessagePort
 :
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -3654,7 +3667,7 @@ NS_IsMainThread
 return
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 window
 =

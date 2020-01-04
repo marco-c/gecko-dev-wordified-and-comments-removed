@@ -6166,6 +6166,11 @@ dom
 HandlePrerenderingViolation
 (
 win
+-
+>
+AsInner
+(
+)
 )
 ;
 return
@@ -14083,7 +14088,7 @@ if
 (
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 piwindow
 =
@@ -14327,7 +14332,7 @@ if
 (
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 piwindow
 =

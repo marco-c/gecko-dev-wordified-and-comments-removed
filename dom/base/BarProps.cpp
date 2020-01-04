@@ -96,7 +96,7 @@ BarProp
 )
 {
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 BarProp
 :
@@ -108,6 +108,11 @@ const
 {
 return
 mDOMWindow
+-
+>
+AsInner
+(
+)
 ;
 }
 JSObject

@@ -14247,7 +14247,7 @@ OwnerDoc
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -14270,7 +14270,7 @@ false
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 topWindow
 =

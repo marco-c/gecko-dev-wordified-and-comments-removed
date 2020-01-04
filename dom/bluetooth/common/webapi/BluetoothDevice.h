@@ -209,7 +209,7 @@ BluetoothDevice
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 const
@@ -227,7 +227,7 @@ BluetoothSignal
 aParam
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -271,7 +271,7 @@ private
 :
 BluetoothDevice
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 const

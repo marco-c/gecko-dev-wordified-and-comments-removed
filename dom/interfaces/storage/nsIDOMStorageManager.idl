@@ -105,7 +105,7 @@ interface
 nsIPrincipal
 ;
 interface
-nsIDOMWindow
+mozIDOMWindow
 ;
 /
 *
@@ -163,15 +163,15 @@ IDs
 scriptable
 uuid
 (
-a15f7ebd
+a20c742e
 -
-4f35
+3ed1
 -
-4e73
+44fb
 -
-a2d8
+b897
 -
-255d27fd14ee
+4080a75b1662
 )
 ]
 interface
@@ -302,7 +302,7 @@ nsIDOMStorage
 createStorage
 (
 in
-nsIDOMWindow
+mozIDOMWindow
 aWindow
 in
 nsIPrincipal
@@ -410,7 +410,7 @@ nsIDOMStorage
 getStorage
 (
 in
-nsIDOMWindow
+mozIDOMWindow
 aWindow
 in
 nsIPrincipal

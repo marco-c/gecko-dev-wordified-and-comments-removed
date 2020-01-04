@@ -170,7 +170,7 @@ h
 #
 include
 "
-nsIDOMWindow
+mozIDOMWindow
 .
 h
 "
@@ -248,7 +248,7 @@ h
 nsresult
 GetNativeWindowPointerFromDOMWindow
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 a_window
 NSWindow
@@ -840,7 +840,7 @@ used
 window
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 mru
 ;

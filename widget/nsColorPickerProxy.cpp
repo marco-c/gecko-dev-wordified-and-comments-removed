@@ -34,7 +34,7 @@ nsColorPickerProxy
 :
 Init
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aParent
 const

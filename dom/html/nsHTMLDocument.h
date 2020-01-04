@@ -923,7 +923,7 @@ rv
 ;
 already_AddRefed
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 Open
 (

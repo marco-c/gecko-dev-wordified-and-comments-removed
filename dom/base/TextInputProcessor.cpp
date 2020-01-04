@@ -302,7 +302,7 @@ TextInputProcessor
 :
 BeginInputTransaction
 (
-nsIDOMWindow
+mozIDOMWindow
 *
 aWindow
 nsITextInputProcessorCallback
@@ -370,7 +370,7 @@ TextInputProcessor
 :
 BeginInputTransactionForTests
 (
-nsIDOMWindow
+mozIDOMWindow
 *
 aWindow
 nsITextInputProcessorCallback
@@ -435,7 +435,7 @@ TextInputProcessor
 :
 BeginInputTransactionInternal
 (
-nsIDOMWindow
+mozIDOMWindow
 *
 aWindow
 nsITextInputProcessorCallback
@@ -467,14 +467,16 @@ NS_ERROR_INVALID_ARG
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 pWindow
-(
-do_QueryInterface
+=
+nsPIDOMWindowInner
+:
+:
+From
 (
 aWindow
-)
 )
 ;
 if

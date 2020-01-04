@@ -17957,7 +17957,7 @@ nullptr
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 piWin
 =

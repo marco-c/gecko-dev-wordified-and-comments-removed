@@ -149,7 +149,7 @@ aGivenProto
 )
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -185,7 +185,7 @@ ImageCapture
 VideoStreamTrack
 *
 aVideoStreamTrack
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 )

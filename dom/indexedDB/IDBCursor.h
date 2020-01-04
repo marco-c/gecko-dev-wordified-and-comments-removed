@@ -75,7 +75,7 @@ nsWrapperCache
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -376,7 +376,7 @@ else
 }
 #
 endif
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (

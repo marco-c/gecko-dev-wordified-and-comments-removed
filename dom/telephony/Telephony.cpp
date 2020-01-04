@@ -279,7 +279,7 @@ Telephony
 :
 Telephony
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )
@@ -459,7 +459,7 @@ Telephony
 :
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 ErrorResult

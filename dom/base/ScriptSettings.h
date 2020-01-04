@@ -51,7 +51,7 @@ Debug
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 class
 nsGlobalWindow
@@ -343,7 +343,7 @@ aGlobalObject
 bool
 Init
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -351,7 +351,7 @@ aWindow
 bool
 Init
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 JSContext
@@ -381,7 +381,7 @@ aCx
 bool
 InitWithLegacyErrorReporting
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

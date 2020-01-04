@@ -150,7 +150,7 @@ false
 explicit
 DOMEventTargetHelper
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -498,7 +498,7 @@ EventTarget
 GetEventHandler
 ;
 virtual
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 GetOwnerGlobalForBindings
 (
@@ -506,10 +506,10 @@ GetOwnerGlobalForBindings
 override
 {
 return
-nsPIDOMWindow
+nsPIDOMWindowOuter
 :
 :
-GetOuterFromCurrentInner
+GetFromCurrentInner
 (
 GetOwner
 (
@@ -553,7 +553,7 @@ return
 NS_OK
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetOwner
 (
@@ -575,7 +575,7 @@ aOwner
 void
 BindToOwner
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )
@@ -760,7 +760,7 @@ private
 nsWeakPtr
 mParentObject
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 MOZ_NON_OWNING_REF
 mOwnerWindow

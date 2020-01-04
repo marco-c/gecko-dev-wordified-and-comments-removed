@@ -77,7 +77,7 @@ nsNSSDialogHelper
 :
 openDialog
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 window
 const
@@ -127,7 +127,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 parent
 =
@@ -186,7 +186,7 @@ nojsapi
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 newWindow
 ;

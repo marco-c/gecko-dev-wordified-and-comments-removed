@@ -5,9 +5,6 @@ nsWindowRoot_h__
 define
 nsWindowRoot_h__
 class
-nsPIDOMWindow
-;
-class
 nsIDOMEvent
 ;
 class
@@ -85,7 +82,7 @@ public
 explicit
 nsWindowRoot
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )
@@ -169,7 +166,7 @@ aRv
 override
 ;
 virtual
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 GetWindow
 (
@@ -279,7 +276,7 @@ mParent
 ;
 }
 virtual
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 GetOwnerGlobalForBindings
 (
@@ -406,7 +403,7 @@ aDisabledCommands
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 mWindow
 ;
@@ -465,7 +462,7 @@ EventTarget
 >
 NS_NewWindowRoot
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )

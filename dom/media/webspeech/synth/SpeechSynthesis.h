@@ -97,7 +97,7 @@ public
 explicit
 SpeechSynthesis
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aParent
 )
@@ -109,7 +109,7 @@ SpeechSynthesis
 nsIObserver
 )
 NS_DECL_NSIOBSERVER
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -225,7 +225,7 @@ AdvanceQueue
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mParent
 ;

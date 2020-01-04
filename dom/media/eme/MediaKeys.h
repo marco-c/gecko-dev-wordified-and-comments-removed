@@ -174,7 +174,7 @@ MediaKeys
 )
 MediaKeys
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aParentWindow
 const
@@ -198,7 +198,7 @@ ErrorResult
 aRv
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -446,7 +446,7 @@ mElement
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mParent
 ;

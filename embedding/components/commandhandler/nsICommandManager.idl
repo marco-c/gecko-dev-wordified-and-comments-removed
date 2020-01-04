@@ -115,7 +115,7 @@ nsICommandParams
 idl
 "
 interface
-nsIDOMWindow
+mozIDOMWindowProxy
 ;
 /
 *
@@ -196,15 +196,15 @@ this
 scriptable
 uuid
 (
-080D2001
+bb5a1730
 -
-F91E
+d83b
 -
-11D4
+4fa2
 -
-A73C
+831b
 -
-F9242928207C
+35b9d5842e84
 )
 ]
 interface
@@ -377,7 +377,7 @@ in
 string
 aCommandName
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aTargetWindow
 )
 ;
@@ -418,7 +418,7 @@ in
 string
 aCommandName
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aTargetWindow
 )
 ;
@@ -556,7 +556,7 @@ in
 string
 aCommandName
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aTargetWindow
 /
 *
@@ -640,7 +640,7 @@ in
 nsICommandParams
 aCommandParams
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aTargetWindow
 )
 ;

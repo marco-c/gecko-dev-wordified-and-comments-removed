@@ -101,7 +101,7 @@ nsISupports
 idl
 "
 interface
-nsIDOMWindow
+mozIDOMWindowProxy
 ;
 /
 *
@@ -434,15 +434,15 @@ proceed
 scriptable
 uuid
 (
-1630C61A
+404ebfa2
 -
-325E
+d8f4
 -
-49ca
+4c94
 -
-8759
+8416
 -
-A31B16C47AA5
+e65a55f9df5a
 )
 ]
 interface
@@ -509,7 +509,7 @@ void
 alert
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aParent
 in
 wstring
@@ -621,7 +621,7 @@ void
 alertCheck
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aParent
 in
 wstring
@@ -705,7 +705,7 @@ boolean
 confirm
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aParent
 in
 wstring
@@ -826,7 +826,7 @@ boolean
 confirmCheck
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aParent
 in
 wstring
@@ -1509,7 +1509,7 @@ int32_t
 confirmEx
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aParent
 in
 wstring
@@ -1712,7 +1712,7 @@ boolean
 prompt
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aParent
 in
 wstring
@@ -1962,7 +1962,7 @@ boolean
 promptUsernameAndPassword
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aParent
 in
 wstring
@@ -2158,7 +2158,7 @@ boolean
 promptPassword
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aParent
 in
 wstring
@@ -2303,7 +2303,7 @@ boolean
 select
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aParent
 in
 wstring

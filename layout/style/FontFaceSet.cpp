@@ -622,7 +622,7 @@ FontFaceSet
 :
 FontFaceSet
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIDocument

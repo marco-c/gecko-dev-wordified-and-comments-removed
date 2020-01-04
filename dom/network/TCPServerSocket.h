@@ -78,7 +78,7 @@ TCPServerSocket
 DOMEventTargetHelper
 )
 NS_DECL_NSISERVERSOCKETLISTENER
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (

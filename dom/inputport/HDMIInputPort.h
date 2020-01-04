@@ -37,7 +37,7 @@ HDMIInputPort
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIInputPortListener
@@ -76,7 +76,7 @@ private
 explicit
 HDMIInputPort
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

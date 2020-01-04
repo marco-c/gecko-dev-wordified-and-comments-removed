@@ -1055,7 +1055,7 @@ eCaseMatters
 return
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 win
 =
@@ -2425,7 +2425,7 @@ OwnerDoc
 (
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 window
 ;
@@ -3094,7 +3094,7 @@ nsIFocusManager
 FLAG_BYKEY
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 window
 =
@@ -7917,7 +7917,7 @@ doc
 )
 return
 ;
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 win
 =

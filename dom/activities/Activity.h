@@ -118,7 +118,7 @@ aRv
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -187,7 +187,7 @@ forget
 explicit
 Activity
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -197,7 +197,7 @@ protected
 nsresult
 Initialize
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 JSContext

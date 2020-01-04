@@ -50,7 +50,7 @@ class
 nsIUUIDGenerator
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -258,7 +258,7 @@ aManifestURL
 void
 GetDataStoresCreate
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 Promise
@@ -276,7 +276,7 @@ aStores
 void
 GetDataStoresResolve
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 Promise

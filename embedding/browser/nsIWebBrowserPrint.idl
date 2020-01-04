@@ -97,7 +97,7 @@ nsISupports
 idl
 "
 interface
-nsIDOMWindow
+mozIDOMWindowProxy
 ;
 interface
 nsIPrintSettings
@@ -132,15 +132,15 @@ document
 scriptable
 uuid
 (
-9A7CA4B0
+c9a934ed
 -
-FBBA
+fff1
 -
-11d4
+4971
 -
-A869
+bfba
 -
-00105A183419
+6c25ad70e1e6
 )
 ]
 interface
@@ -372,7 +372,7 @@ execution
 /
 readonly
 attribute
-nsIDOMWindow
+mozIDOMWindowProxy
 currentChildDOMWindow
 ;
 /
@@ -640,7 +640,7 @@ in
 nsIPrintSettings
 aThePrintSettings
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aChildDOMWin
 in
 nsIWebProgressListener

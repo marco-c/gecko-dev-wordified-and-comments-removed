@@ -110,7 +110,7 @@ interface
 nsIURI
 ;
 interface
-nsIDOMWindow
+mozIDOMWindowProxy
 ;
 interface
 nsIAppShell
@@ -147,15 +147,15 @@ h
 scriptable
 uuid
 (
-0cc1c790
+19266025
 -
-6873
+354c
 -
-4b31
+4bb9
 -
-944f
+986b
 -
-71d3725e373d
+3483b2b1cdef
 )
 ]
 interface
@@ -589,7 +589,7 @@ window
 /
 readonly
 attribute
-nsIDOMWindow
+mozIDOMWindowProxy
 hiddenDOMWindow
 ;
 /
@@ -709,7 +709,7 @@ window
 /
 readonly
 attribute
-nsIDOMWindow
+mozIDOMWindowProxy
 hiddenPrivateDOMWindow
 ;
 /
@@ -779,7 +779,7 @@ void
 getHiddenWindowAndJSContext
 (
 out
-nsIDOMWindow
+mozIDOMWindowProxy
 aHiddenDOMWindow
 out
 JSContext

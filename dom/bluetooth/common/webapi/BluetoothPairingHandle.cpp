@@ -99,7 +99,7 @@ BluetoothPairingHandle
 :
 BluetoothPairingHandle
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 const
@@ -214,7 +214,7 @@ BluetoothPairingHandle
 :
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 const

@@ -189,7 +189,7 @@ CellBroadcastMessage
 :
 CellBroadcastMessage
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 uint32_t
@@ -440,7 +440,7 @@ CellBroadcastEtwsInfo
 :
 CellBroadcastEtwsInfo
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 uint32_t

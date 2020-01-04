@@ -189,7 +189,7 @@ DisconnectFromOwner
 )
 override
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -456,7 +456,7 @@ private
 explicit
 WebSocket
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 )

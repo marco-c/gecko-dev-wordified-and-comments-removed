@@ -1742,7 +1742,7 @@ return
 focusedElm
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 focusedWnd
 =

@@ -202,7 +202,7 @@ aDocumentURI
 nsIPrincipal
 *
 aLoadingPrincipal
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -222,7 +222,7 @@ Init
 (
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (

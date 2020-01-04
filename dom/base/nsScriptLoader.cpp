@@ -1250,12 +1250,10 @@ GetDocumentLoadGroup
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
-(
-do_QueryInterface
-(
+=
 mDocument
 -
 >
@@ -1266,8 +1264,6 @@ MasterDocument
 >
 GetWindow
 (
-)
-)
 )
 ;
 NS_ENSURE_TRUE
@@ -4349,7 +4345,7 @@ nsAutoMicroTask
 mt
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 pwin
 =
@@ -4730,7 +4726,7 @@ MasterDocument
 (
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 pwin
 =

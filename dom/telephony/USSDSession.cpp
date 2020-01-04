@@ -98,7 +98,7 @@ USSDSession
 :
 USSDSession
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsITelephonyService
@@ -131,7 +131,7 @@ USSDSession
 )
 {
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 USSDSession
 :
@@ -295,7 +295,7 @@ aRv
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =

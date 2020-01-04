@@ -61,7 +61,7 @@ GetUserMediaRequest
 :
 GetUserMediaRequest
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aInnerWindow
 const

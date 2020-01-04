@@ -882,7 +882,7 @@ const
 nsAString
 &
 aTopic
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 mozilla
@@ -946,7 +946,7 @@ const
 nsAString
 &
 aTopic
-nsIDOMWindow
+mozIDOMWindow
 *
 aWindow
 nsISupports
@@ -970,7 +970,13 @@ wakelock
 NewWakeLock
 (
 aTopic
+nsPIDOMWindowInner
+:
+:
+From
+(
 aWindow
+)
 rv
 )
 ;

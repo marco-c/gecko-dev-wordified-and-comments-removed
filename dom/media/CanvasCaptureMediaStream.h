@@ -225,7 +225,7 @@ CanvasCaptureMediaStream
 >
 CreateSourceStream
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 HTMLCanvasElement

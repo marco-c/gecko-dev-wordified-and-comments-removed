@@ -150,7 +150,7 @@ nsAString
 aPath
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (

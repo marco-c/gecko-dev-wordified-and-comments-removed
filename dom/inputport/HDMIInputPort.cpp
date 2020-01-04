@@ -31,7 +31,7 @@ HDMIInputPort
 :
 HDMIInputPort
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -60,7 +60,7 @@ HDMIInputPort
 :
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIInputPortListener

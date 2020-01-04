@@ -155,7 +155,7 @@ const
 nsresult
 BeginInputTransactionInternal
 (
-nsIDOMWindow
+mozIDOMWindow
 *
 aWindow
 nsITextInputProcessorCallback

@@ -55,7 +55,7 @@ DOMEventTargetHelper
 explicit
 DataStore
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

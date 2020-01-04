@@ -282,7 +282,7 @@ return
 mServiceHandle
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -321,7 +321,7 @@ override
 ;
 BluetoothGattService
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 const
@@ -336,7 +336,7 @@ aServiceId
 ;
 BluetoothGattService
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 const
@@ -452,7 +452,7 @@ mActive
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mOwner
 ;

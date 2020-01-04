@@ -4034,7 +4034,9 @@ if
 doc
 )
 {
-nsPIDOMWindow
+if
+(
+nsPIDOMWindowOuter
 *
 win
 =
@@ -4044,10 +4046,6 @@ doc
 GetWindow
 (
 )
-;
-if
-(
-win
 )
 {
 nsCOMPtr

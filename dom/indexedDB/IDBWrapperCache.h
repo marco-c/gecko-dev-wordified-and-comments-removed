@@ -37,7 +37,7 @@ nsWrapperCache
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInnter
 ;
 namespace
 mozilla
@@ -119,7 +119,7 @@ aOwner
 explicit
 IDBWrapperCache
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )

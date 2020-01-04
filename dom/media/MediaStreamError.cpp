@@ -267,7 +267,7 @@ MediaStreamError
 :
 MediaStreamError
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aParent
 const

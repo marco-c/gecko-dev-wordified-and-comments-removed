@@ -2216,7 +2216,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 ownerWindow
 =
@@ -2249,7 +2249,7 @@ aCapture
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =

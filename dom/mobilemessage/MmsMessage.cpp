@@ -68,7 +68,7 @@ MmsMessage
 :
 MmsMessage
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 MmsMessageInternal

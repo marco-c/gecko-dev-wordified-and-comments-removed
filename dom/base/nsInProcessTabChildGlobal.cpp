@@ -775,7 +775,7 @@ nsInProcessTabChildGlobal
 :
 GetContent
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 aContent
@@ -798,7 +798,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -811,9 +811,8 @@ GetWindow
 ;
 window
 .
-swap
+forget
 (
-*
 aContent
 )
 ;
@@ -898,9 +897,11 @@ if
 mDocShell
 )
 {
+if
+(
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 win
 =
@@ -910,10 +911,6 @@ mDocShell
 GetWindow
 (
 )
-;
-if
-(
-win
 )
 {
 MOZ_ASSERT
@@ -1166,7 +1163,9 @@ if
 mOwner
 )
 {
-nsPIDOMWindow
+if
+(
+nsPIDOMWindowInner
 *
 innerWindow
 =
@@ -1181,10 +1180,6 @@ OwnerDoc
 GetInnerWindow
 (
 )
-;
-if
-(
-innerWindow
 )
 {
 aVisitor

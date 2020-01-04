@@ -35,7 +35,7 @@ class
 nsIDOMEvent
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -236,7 +236,7 @@ private
 :
 SharedWorker
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 WorkerPrivate

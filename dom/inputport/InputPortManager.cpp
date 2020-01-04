@@ -104,7 +104,7 @@ InputPortManager
 :
 InputPortManager
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -137,7 +137,7 @@ InputPortManager
 :
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 ErrorResult
@@ -254,7 +254,7 @@ return
 ;
 }
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 InputPortManager
 :

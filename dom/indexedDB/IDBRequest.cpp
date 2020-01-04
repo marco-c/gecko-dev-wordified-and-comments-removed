@@ -315,7 +315,7 @@ IDBRequest
 :
 IDBRequest
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )
@@ -1892,7 +1892,7 @@ IDBOpenDBRequest
 IDBFactory
 *
 aFactory
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 bool
@@ -1947,7 +1947,7 @@ CreateForWindow
 IDBFactory
 *
 aFactory
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 JS

@@ -2971,7 +2971,7 @@ true
 }
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 domWin
 =
@@ -3038,7 +3038,7 @@ UseRemoteTabs
 }
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 newDomWin
 =
@@ -3187,7 +3187,7 @@ nsAppShellService
 :
 GetHiddenDOMWindow
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 aWindow
@@ -3235,7 +3235,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 hiddenDOMWindow
 (
@@ -3310,7 +3310,7 @@ nsAppShellService
 :
 GetHiddenPrivateDOMWindow
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 aWindow
@@ -3362,7 +3362,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 hiddenPrivateDOMWindow
 (
@@ -3423,7 +3423,7 @@ nsAppShellService
 :
 GetHiddenWindowAndJSContext
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 aWindow
@@ -3502,7 +3502,7 @@ break
 }
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 hiddenDOMWindow
 (
@@ -3702,7 +3702,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 domWindow
 (
@@ -4004,7 +4004,7 @@ docShell
 {
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 domWindow
 (

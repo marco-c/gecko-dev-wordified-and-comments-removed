@@ -619,7 +619,7 @@ static
 void
 GenerateAllowedAudioChannels
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIFrameLoader

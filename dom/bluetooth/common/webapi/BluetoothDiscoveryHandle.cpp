@@ -110,7 +110,7 @@ BluetoothDiscoveryHandle
 :
 BluetoothDiscoveryHandle
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -131,7 +131,7 @@ BluetoothDiscoveryHandle
 :
 BluetoothDiscoveryHandle
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -184,7 +184,7 @@ BluetoothDiscoveryHandle
 :
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -230,7 +230,7 @@ BluetoothDiscoveryHandle
 :
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const

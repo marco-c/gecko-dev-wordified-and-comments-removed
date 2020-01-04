@@ -137,7 +137,7 @@ IDBWrapperCache
 :
 IDBWrapperCache
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )

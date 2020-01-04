@@ -57,7 +57,7 @@ aRv
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -114,7 +114,7 @@ IccCardLockError
 :
 IccCardLockError
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const

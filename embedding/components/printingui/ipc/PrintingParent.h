@@ -27,7 +27,7 @@ PPrintingParent
 h
 "
 class
-nsIDOMWindow
+nsPIDOMWindowOuter
 ;
 class
 PPrintProgressDialogParent
@@ -185,7 +185,7 @@ PrintingParent
 ;
 private
 :
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 DOMWindowFromBrowserParent
 (

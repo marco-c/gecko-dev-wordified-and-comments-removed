@@ -59,7 +59,7 @@ public
 explicit
 nsMimeTypeArray
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -69,7 +69,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 nsMimeTypeArray
 )
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -189,7 +189,7 @@ Clear
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;
@@ -223,7 +223,7 @@ nsMimeType
 )
 nsMimeType
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsPluginElement
@@ -245,7 +245,7 @@ aExtension
 ;
 nsMimeType
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -254,7 +254,7 @@ nsAString
 aMimeType
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -337,7 +337,7 @@ nsMimeType
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

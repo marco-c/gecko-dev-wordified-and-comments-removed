@@ -263,7 +263,7 @@ class
 gfxContext
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowOuter
 ;
 class
 imgIRequest
@@ -4114,7 +4114,7 @@ nsDeviceContext
 *
 GetDeviceContextForScreenInfo
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )

@@ -758,7 +758,7 @@ PledgeVoid
 >
 ApplyConstraintsToTrack
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 TrackID
@@ -1794,7 +1794,7 @@ static
 nsresult
 NotifyRecordingStatusChange
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -1899,7 +1899,7 @@ aListener
 nsresult
 GetUserMedia
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -1920,7 +1920,7 @@ onError
 nsresult
 GetUserMediaDevices
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -1953,7 +1953,7 @@ nsString
 nsresult
 EnumerateDevices
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIGetUserMediaDevicesSuccessCallback
@@ -1967,7 +1967,7 @@ aOnFailure
 nsresult
 EnumerateDevices
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 dom
@@ -2009,7 +2009,7 @@ static
 bool
 IsPrivateBrowsing
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 window
 )
@@ -2297,7 +2297,7 @@ aWindowID
 void
 IterateWindowListeners
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 WindowListenerCallback

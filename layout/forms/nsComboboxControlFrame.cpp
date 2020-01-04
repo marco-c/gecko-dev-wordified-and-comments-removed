@@ -6555,7 +6555,7 @@ if
 doc
 )
 {
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 window
 =

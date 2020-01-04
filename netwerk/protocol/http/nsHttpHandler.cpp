@@ -12210,7 +12210,7 @@ cb
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 piWindow
 =

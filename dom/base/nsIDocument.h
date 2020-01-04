@@ -2342,7 +2342,7 @@ aGlobal
 =
 0
 ;
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 GetWindow
 (
@@ -2370,7 +2370,7 @@ IsInBackgroundWindow
 )
 const
 {
-nsPIDOMWindow
+auto
 *
 outer
 =
@@ -2397,7 +2397,7 @@ IsBackground
 )
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetInnerWindow
 (
@@ -2418,7 +2418,7 @@ OuterWindowID
 )
 const
 {
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 window
 =
@@ -2445,7 +2445,7 @@ InnerWindowID
 )
 const
 {
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 window
 =
@@ -4146,7 +4146,7 @@ IsCurrentActiveDocument
 )
 const
 {
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 inner
 =
@@ -6207,7 +6207,7 @@ nsAString
 aDirection
 )
 ;
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 GetDefaultView
 (
@@ -7284,7 +7284,7 @@ aCategory
 )
 ;
 virtual
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 GetWindowInternal
 (
@@ -7921,7 +7921,7 @@ nsWeakPtr
 >
 mBlockedTrackingNodes
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 mWindow
 ;

@@ -201,9 +201,11 @@ OwnerDoc
 }
 else
 {
+if
+(
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -211,10 +213,6 @@ do_QueryInterface
 (
 aRequestingContext
 )
-;
-if
-(
-window
 )
 {
 doc

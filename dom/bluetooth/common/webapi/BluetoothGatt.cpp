@@ -177,7 +177,7 @@ BluetoothGatt
 :
 BluetoothGatt
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const

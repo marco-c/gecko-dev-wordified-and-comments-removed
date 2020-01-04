@@ -139,7 +139,7 @@ DesktopNotificationCenter
 explicit
 DesktopNotificationCenter
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -194,7 +194,7 @@ mOwner
 nullptr
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -256,7 +256,7 @@ DesktopNotificationCenter
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mOwner
 ;
@@ -298,7 +298,7 @@ const
 nsAString
 &
 aIconURL
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIPrincipal
@@ -347,7 +347,7 @@ char
 aTopic
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (

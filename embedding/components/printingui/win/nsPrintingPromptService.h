@@ -135,7 +135,7 @@ private
 HWND
 GetHWNDForDOMWindow
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 parent
 )
@@ -143,7 +143,7 @@ parent
 nsresult
 DoDialog
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aParent
 nsIDialogParamBlock

@@ -586,7 +586,7 @@ nsColorPicker
 :
 Init
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aParent
 const

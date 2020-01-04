@@ -444,7 +444,7 @@ MobileConnection
 :
 MobileConnection
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 uint32_t

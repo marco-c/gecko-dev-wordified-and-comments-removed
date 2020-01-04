@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsIWindowMediator
 .
 h
@@ -655,7 +648,7 @@ window
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 DOMWindow
 =

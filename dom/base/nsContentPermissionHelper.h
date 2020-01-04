@@ -60,7 +60,7 @@ h
 undef
 LoadImage
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 class
 nsContentPermissionRequestProxy
@@ -239,7 +239,7 @@ AskPermission
 nsIContentPermissionRequest
 *
 aRequest
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -306,7 +306,7 @@ NS_DECL_NSICONTENTPERMISSIONREQUESTER
 explicit
 nsContentPermissionRequester
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -514,7 +514,7 @@ RemotePermissionRequest
 nsIContentPermissionRequest
 *
 aRequest
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -622,7 +622,7 @@ mRequest
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

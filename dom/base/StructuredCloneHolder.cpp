@@ -4676,7 +4676,7 @@ SCTAG_DOM_MAP_MESSAGEPORT
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =

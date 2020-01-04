@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestorUtils
 .
 h
@@ -3938,7 +3931,7 @@ GetDocShell
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 ;

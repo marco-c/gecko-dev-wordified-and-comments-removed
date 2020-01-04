@@ -50,7 +50,7 @@ Presentation
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -106,7 +106,7 @@ private
 explicit
 Presentation
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

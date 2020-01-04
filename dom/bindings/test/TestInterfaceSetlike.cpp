@@ -75,7 +75,7 @@ TestInterfaceSetlike
 JSContext
 *
 aCx
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aParent
 )
@@ -106,7 +106,7 @@ aRv
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -190,7 +190,7 @@ aGivenProto
 )
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 TestInterfaceSetlike
 :

@@ -64,7 +64,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIMOBILECONNECTIONCALLBACK
 MobileConnectionCallback
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 DOMRequest
@@ -107,7 +107,7 @@ aResult
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

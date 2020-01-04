@@ -150,7 +150,7 @@ nsIXULWindow
 inWindow
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 &
 outDOMWindow

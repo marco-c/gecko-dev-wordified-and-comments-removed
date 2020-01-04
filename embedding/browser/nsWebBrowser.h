@@ -371,15 +371,6 @@ EnsureDocShellTreeOwner
 )
 ;
 NS_IMETHOD
-GetPrimaryContentWindow
-(
-nsIDOMWindow
-*
-*
-aDomWindow
-)
-;
-NS_IMETHOD
 BindListener
 (
 nsISupports

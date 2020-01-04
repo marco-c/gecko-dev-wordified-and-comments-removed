@@ -123,7 +123,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 DOMRequest
 DOMEventTargetHelper
 )
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -341,7 +341,7 @@ aError
 explicit
 DOMRequest
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

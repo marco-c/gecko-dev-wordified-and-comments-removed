@@ -77,7 +77,7 @@ BluetoothClassOfDevice
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )
@@ -133,7 +133,7 @@ uint32_t
 aValue
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -168,7 +168,7 @@ private
 :
 BluetoothClassOfDevice
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )
@@ -194,7 +194,7 @@ mMinorDeviceClass
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mOwnerWindow
 ;

@@ -361,7 +361,7 @@ public
 :
 DragDataProducer
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 nsIContent
@@ -499,7 +499,7 @@ outLinkText
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 mWindow
 ;
@@ -556,7 +556,7 @@ nsContentAreaDragDrop
 :
 GetDragData
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 nsIContent
@@ -1082,7 +1082,7 @@ DragDataProducer
 :
 DragDataProducer
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 nsIContent

@@ -23,7 +23,7 @@ TelephonyCallId
 :
 TelephonyCallId
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const

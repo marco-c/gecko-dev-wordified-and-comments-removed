@@ -728,7 +728,7 @@ public
 :
 nsPrintDialogWidgetGTK
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aParent
 nsIPrintSettings
@@ -880,7 +880,7 @@ nsPrintDialogWidgetGTK
 :
 nsPrintDialogWidgetGTK
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aParent
 nsIPrintSettings
@@ -3343,7 +3343,7 @@ nsPrintDialogServiceGTK
 :
 Show
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aParent
 nsIPrintSettings
@@ -3476,7 +3476,7 @@ nsPrintDialogServiceGTK
 :
 ShowPageSetup
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aParent
 nsIPrintSettings

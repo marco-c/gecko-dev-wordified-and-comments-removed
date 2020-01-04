@@ -4382,7 +4382,7 @@ heightArg
 }
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 domWindow
 ;
@@ -4426,7 +4426,13 @@ WidgetUtils
 :
 DOMWindowToWidget
 (
+nsPIDOMWindowOuter
+:
+:
+From
+(
 domWindow
+)
 )
 ;
 MOZ_ASSERT
@@ -6614,7 +6620,7 @@ FOCUSMANAGER_CONTRACTID
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 existingTopWindow
 ;
@@ -13014,15 +13020,6 @@ event
 mExpandToClusterBoundary
 =
 false
-;
-event
-.
-mReason
-=
-nsISelectionListener
-:
-:
-IME_REASON
 ;
 window
 .

@@ -90,6 +90,9 @@ nsString
 h
 "
 class
+mozIDOMWindowProxy
+;
+class
 nsIDOMWindow
 ;
 class
@@ -163,15 +166,6 @@ nsEditingSession
 (
 )
 ;
-nsIDocShell
-*
-GetDocShellFromWindow
-(
-nsIDOMWindow
-*
-aWindow
-)
-;
 nsresult
 SetupEditorCommandController
 (
@@ -179,7 +173,7 @@ const
 char
 *
 aControllerClassName
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aWindow
 nsISupports
@@ -206,7 +200,7 @@ aID
 nsresult
 PrepareForEditing
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )
@@ -286,7 +280,7 @@ aWebProgress
 void
 RemoveEditorControllers
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )
@@ -294,7 +288,7 @@ aWindow
 void
 RemoveWebProgressListener
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )
@@ -302,7 +296,7 @@ aWindow
 void
 RestoreAnimationMode
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )
@@ -310,7 +304,7 @@ aWindow
 void
 RemoveListenersAndControllers
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 nsIEditor

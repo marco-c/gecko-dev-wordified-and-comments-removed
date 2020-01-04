@@ -3225,7 +3225,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -3786,7 +3786,7 @@ CHROME_REMOTE_WINDOW
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -4762,7 +4762,7 @@ TabChild
 :
 ProvideWindow
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aParent
 uint32_t
@@ -4787,7 +4787,7 @@ aFeatures
 bool
 *
 aWindowIsNew
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 aReturn
@@ -4861,7 +4861,13 @@ nsWindowWatcher
 :
 GetWindowOpenLocation
 (
+nsPIDOMWindowOuter
+:
+:
+From
+(
 aParent
+)
 aChromeFlags
 aCalledFromJS
 aPositionSpecified
@@ -7634,7 +7640,7 @@ true
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -9185,7 +9191,7 @@ true
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 window
 ;
@@ -9225,7 +9231,13 @@ render
 >
 RenderDocument
 (
+nsPIDOMWindowOuter
+:
+:
+From
+(
 window
+)
 documentRect
 transform
 bgcolor
@@ -9447,7 +9459,7 @@ capture
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -9767,7 +9779,7 @@ true
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 ourWindow
 =
@@ -9984,7 +9996,7 @@ aMuted
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -10497,7 +10509,7 @@ result
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -10684,7 +10696,7 @@ mTabChildGlobal
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -13144,7 +13156,7 @@ TabChildGlobal
 :
 GetContent
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 aContent
@@ -13165,7 +13177,7 @@ NS_ERROR_NULL_POINTER
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -13181,9 +13193,8 @@ WebNavigation
 ;
 window
 .
-swap
+forget
 (
-*
 aContent
 )
 ;

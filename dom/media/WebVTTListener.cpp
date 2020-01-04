@@ -288,7 +288,7 @@ rv
 rv
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 window
 =
@@ -300,7 +300,7 @@ OwnerDoc
 )
 -
 >
-GetWindow
+GetInnerWindow
 (
 )
 ;

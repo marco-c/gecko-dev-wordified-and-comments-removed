@@ -64,7 +64,7 @@ PermissionStatus
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 PermissionName
@@ -116,7 +116,7 @@ PermissionStatus
 ;
 PermissionStatus
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 PermissionName

@@ -121,7 +121,7 @@ TelephonyCallGroup
 :
 TelephonyCallGroup
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )

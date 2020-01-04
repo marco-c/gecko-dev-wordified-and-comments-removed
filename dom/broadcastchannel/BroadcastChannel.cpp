@@ -480,7 +480,7 @@ GetParent
 )
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 window
 =
@@ -1093,7 +1093,7 @@ BroadcastChannel
 :
 BroadcastChannel
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -1230,7 +1230,7 @@ aRv
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -2638,7 +2638,7 @@ NS_IsMainThread
 return
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 window
 =

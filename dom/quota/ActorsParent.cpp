@@ -16147,7 +16147,7 @@ QuotaManager
 :
 GetInfoFromWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 nsACString

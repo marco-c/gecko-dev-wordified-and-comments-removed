@@ -391,9 +391,11 @@ if
 scriptGlobal
 )
 {
+if
+(
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 =
@@ -401,11 +403,8 @@ do_QueryInterface
 (
 scriptGlobal
 )
-;
-if
-(
-win
 )
+{
 innerWindowID
 =
 win
@@ -415,6 +414,7 @@ WindowID
 (
 )
 ;
+}
 }
 }
 return

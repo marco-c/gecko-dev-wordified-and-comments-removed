@@ -145,7 +145,7 @@ PresentationReceiver
 :
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -193,7 +193,7 @@ PresentationReceiver
 :
 PresentationReceiver
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

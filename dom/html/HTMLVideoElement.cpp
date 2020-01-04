@@ -1040,7 +1040,9 @@ if
 sVideoStatsEnabled
 )
 {
-nsPIDOMWindow
+if
+(
+nsPIDOMWindowInner
 *
 window
 =
@@ -1052,10 +1054,6 @@ OwnerDoc
 GetInnerWindow
 (
 )
-;
-if
-(
-window
 )
 {
 nsPerformance

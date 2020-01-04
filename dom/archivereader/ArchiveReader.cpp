@@ -132,7 +132,7 @@ aError
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -226,7 +226,7 @@ ArchiveReader
 Blob
 &
 aBlob
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const

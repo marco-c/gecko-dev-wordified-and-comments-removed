@@ -48,7 +48,7 @@ MobileNetworkInfo
 :
 MobileNetworkInfo
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

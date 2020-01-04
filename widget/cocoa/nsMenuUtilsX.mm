@@ -333,7 +333,7 @@ true
 doc
 -
 >
-GetWindow
+GetInnerWindow
 (
 )
 0

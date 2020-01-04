@@ -229,7 +229,7 @@ return
 mDescriptorHandle
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -306,7 +306,7 @@ override
 ;
 BluetoothGattDescriptor
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 BluetoothGattCharacteristic
@@ -320,7 +320,7 @@ aDescriptorId
 ;
 BluetoothGattDescriptor
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 BluetoothGattCharacteristic
@@ -386,7 +386,7 @@ mActive
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mOwner
 ;

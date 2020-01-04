@@ -119,7 +119,7 @@ nsIDOMEventTarget
 idl
 "
 interface
-nsIDOMWindow
+mozIDOMWindow
 ;
 interface
 nsIDOMDOMCursor
@@ -195,15 +195,15 @@ scriptable
 builtinclass
 uuid
 (
-df58d5d6
+9a57e5de
 -
-4b02
+ce93
 -
-4e4c
+45fa
 -
-9b29
+8145
 -
-adbff06c6206
+755722834f7c
 )
 ]
 interface
@@ -215,7 +215,7 @@ nsIDOMDOMRequest
 createRequest
 (
 in
-nsIDOMWindow
+mozIDOMWindow
 window
 )
 ;
@@ -258,7 +258,7 @@ nsIDOMDOMCursor
 createCursor
 (
 in
-nsIDOMWindow
+mozIDOMWindow
 window
 in
 nsICursorContinueCallback

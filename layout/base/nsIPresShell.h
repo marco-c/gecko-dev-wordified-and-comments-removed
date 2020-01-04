@@ -290,7 +290,7 @@ class
 nsDisplayListBuilder
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowOuter
 ;
 struct
 nsPoint
@@ -2937,7 +2937,7 @@ mPaintCount
 virtual
 already_AddRefed
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 GetRootWindow
 (

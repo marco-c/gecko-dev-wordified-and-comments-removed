@@ -139,7 +139,7 @@ aRv
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -178,7 +178,7 @@ forget
 }
 TextTrackCue
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aGlobal
 double
@@ -196,7 +196,7 @@ aRv
 ;
 TextTrackCue
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aGlobal
 double

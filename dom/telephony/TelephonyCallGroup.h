@@ -88,7 +88,7 @@ friend
 class
 Telephony
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -334,7 +334,7 @@ private
 explicit
 TelephonyCallGroup
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )

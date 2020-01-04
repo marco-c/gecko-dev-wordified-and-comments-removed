@@ -23,7 +23,7 @@ nsWrapperCache
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -62,7 +62,7 @@ MmsMessage
 )
 MmsMessage
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 mobilemessage
@@ -73,7 +73,7 @@ MmsMessageInternal
 aMessage
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -251,7 +251,7 @@ MmsMessage
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

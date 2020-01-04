@@ -908,7 +908,7 @@ MOZ_ASSERT_IF
 (
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 =
@@ -2311,7 +2311,7 @@ principal
 nsIScriptContext
 *
 scriptContext
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 globalObject
 nsIURI

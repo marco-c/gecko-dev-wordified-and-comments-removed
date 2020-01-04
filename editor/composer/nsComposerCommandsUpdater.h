@@ -61,7 +61,7 @@ nscore
 h
 "
 class
-nsIDOMWindow
+nsPIDOMWindowOuter
 ;
 class
 nsITransaction
@@ -267,7 +267,7 @@ override
 nsresult
 Init
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aDOMWindow
 )

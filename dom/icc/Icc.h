@@ -75,7 +75,7 @@ DOMEventTargetHelper
 )
 Icc
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIIcc
@@ -129,7 +129,7 @@ nsIIccInfo
 aIccInfo
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (

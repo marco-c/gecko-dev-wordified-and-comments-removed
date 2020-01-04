@@ -833,7 +833,7 @@ autoLocale
 )
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 IDBIndex
 :

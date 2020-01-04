@@ -50,9 +50,6 @@ nsWeakReference
 .
 h
 "
-class
-nsPIDOMWindow
-;
 BEGIN_FMRADIO_NAMESPACE
 class
 DOMRequest
@@ -94,7 +91,7 @@ DOMEventTargetHelper
 void
 Init
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -129,7 +126,7 @@ aType
 )
 override
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (

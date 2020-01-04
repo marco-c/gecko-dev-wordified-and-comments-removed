@@ -133,7 +133,7 @@ BluetoothManager
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -142,7 +142,7 @@ static
 bool
 CheckPermission
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -156,7 +156,7 @@ BluetoothSignal
 aData
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -221,7 +221,7 @@ private
 :
 BluetoothManager
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

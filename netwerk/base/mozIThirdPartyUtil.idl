@@ -67,7 +67,7 @@ interface
 nsIURI
 ;
 interface
-nsIDOMWindow
+mozIDOMWindowProxy
 ;
 interface
 nsIChannel
@@ -105,15 +105,15 @@ URI
 scriptable
 uuid
 (
-b711bd7f
+fd82700e
 -
-0674
+ffb4
 -
-49be
+4932
 -
-ae77
+b7d6
 -
-f221db5f7b6c
+08f0b5697dda
 )
 ]
 interface
@@ -706,7 +706,7 @@ boolean
 isThirdPartyWindow
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aWindow
 [
 optional
@@ -1335,7 +1335,7 @@ nsIURI
 getURIFromWindow
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aWindow
 )
 ;
@@ -1360,7 +1360,7 @@ channel
 .
 *
 /
-nsIDOMWindow
+mozIDOMWindowProxy
 getTopWindowForChannel
 (
 in

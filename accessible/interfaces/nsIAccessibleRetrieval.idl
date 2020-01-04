@@ -111,9 +111,6 @@ interface
 nsIPresShell
 ;
 interface
-nsIDOMWindow
-;
-interface
 nsIAccessiblePivot
 ;
 /

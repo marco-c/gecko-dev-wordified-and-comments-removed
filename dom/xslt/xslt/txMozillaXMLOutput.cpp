@@ -1039,7 +1039,7 @@ IsEmpty
 )
 )
 {
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 win
 =

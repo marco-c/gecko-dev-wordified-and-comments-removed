@@ -85,7 +85,7 @@ class
 nsIWeakReference
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 class
 nsHistory
@@ -108,12 +108,12 @@ public
 explicit
 nsHistory
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aInnerWindow
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (

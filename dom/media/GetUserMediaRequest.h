@@ -73,7 +73,7 @@ public
 :
 GetUserMediaRequest
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aInnerWindow
 const

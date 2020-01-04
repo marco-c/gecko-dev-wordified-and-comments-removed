@@ -1539,7 +1539,7 @@ return
 true
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 win
 =

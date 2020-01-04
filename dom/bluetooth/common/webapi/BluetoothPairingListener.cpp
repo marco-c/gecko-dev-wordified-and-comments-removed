@@ -97,7 +97,7 @@ BluetoothPairingListener
 :
 BluetoothPairingListener
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -130,7 +130,7 @@ BluetoothPairingListener
 :
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

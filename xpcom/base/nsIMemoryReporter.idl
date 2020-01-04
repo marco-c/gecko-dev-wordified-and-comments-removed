@@ -136,7 +136,7 @@ h
 %
 }
 interface
-nsIDOMWindow
+mozIDOMWindowProxy
 ;
 interface
 nsIRunnable
@@ -1678,15 +1678,15 @@ scriptable
 builtinclass
 uuid
 (
-61de6dc7
+2998574d
 -
-ed11
+8993
 -
-4104
+407a
 -
-a577
+b1a5
 -
-79941f22f434
+8ad7417653e1
 )
 ]
 interface
@@ -3186,7 +3186,7 @@ void
 sizeOfTab
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 window
 out
 int64_t
@@ -3248,7 +3248,7 @@ nsTArray
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowOuter
 ;
 /
 /
@@ -3613,7 +3613,7 @@ nsresult
 NonJSSizeOfTabFn
 )
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 size_t

@@ -146,7 +146,7 @@ aRv
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -238,7 +238,7 @@ PresentationRequest
 :
 PresentationRequest
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const

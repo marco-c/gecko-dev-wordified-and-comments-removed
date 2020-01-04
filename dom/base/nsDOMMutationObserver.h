@@ -2010,7 +2010,7 @@ nsDOMMutationObserver
 (
 already_AddRefed
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 &
 &
@@ -2568,7 +2568,7 @@ aMutationLevel
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mOwner
 ;

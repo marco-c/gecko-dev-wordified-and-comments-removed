@@ -101,7 +101,7 @@ const
 nsAString
 &
 aTopic
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -118,7 +118,7 @@ ContentParent
 aContentParent
 )
 ;
-nsISupports
+nsPIDOMWindowInner
 *
 GetParentObject
 (

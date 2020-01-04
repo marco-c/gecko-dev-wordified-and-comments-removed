@@ -298,7 +298,7 @@ Directory
 )
 {
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 Directory
 :

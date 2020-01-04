@@ -113,7 +113,7 @@ USSDSession
 )
 USSDSession
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsITelephonyService
@@ -123,7 +123,7 @@ uint32_t
 aServiceId
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -214,7 +214,7 @@ aRv
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

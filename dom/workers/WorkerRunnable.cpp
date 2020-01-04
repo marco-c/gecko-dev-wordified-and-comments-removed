@@ -1238,11 +1238,10 @@ isMainThread
 {
 globalObject
 =
-static_cast
-<
 nsGlobalWindow
-*
->
+:
+:
+Cast
 (
 mWorkerPrivate
 -

@@ -152,7 +152,7 @@ TextTrackCue
 :
 TextTrackCue
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 double
@@ -222,7 +222,7 @@ TextTrackCue
 :
 TextTrackCue
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 double
@@ -311,7 +311,7 @@ StashDocument
 (
 )
 {
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 window
 =
@@ -423,14 +423,14 @@ sParserWrapper
 )
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 window
 =
 mDocument
 -
 >
-GetWindow
+GetInnerWindow
 (
 )
 ;

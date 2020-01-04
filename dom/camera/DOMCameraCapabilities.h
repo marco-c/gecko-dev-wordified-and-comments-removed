@@ -792,7 +792,7 @@ aGlobal
 explicit
 CameraCapabilities
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 ICameraControl
@@ -800,7 +800,7 @@ ICameraControl
 aCameraControl
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -1038,7 +1038,7 @@ aSizes
 ;
 RefPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

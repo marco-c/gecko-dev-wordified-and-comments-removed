@@ -33,7 +33,7 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 IccCardLockError
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const

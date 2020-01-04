@@ -76,7 +76,7 @@ interface
 nsIChannel
 ;
 interface
-nsIDOMWindow
+mozIDOMWindowProxy
 ;
 /
 *
@@ -117,15 +117,15 @@ bug
 scriptable
 uuid
 (
-cf86d196
+3775ad32
 -
-dbee
+8326
 -
-4482
+422b
 -
-9dfa
+9ff3
 -
-3477aa128319
+87ef1d3f9f0e
 )
 ]
 interface
@@ -209,7 +209,7 @@ boolean
 promptAuth
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aParent
 in
 nsIChannel
@@ -232,7 +232,7 @@ nsICancelable
 asyncPromptAuth
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aParent
 in
 nsIChannel

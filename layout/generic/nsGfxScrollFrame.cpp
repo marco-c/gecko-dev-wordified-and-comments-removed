@@ -3677,7 +3677,9 @@ GetCurrentDoc
 (
 )
 ;
-nsPIDOMWindow
+if
+(
+nsPIDOMWindowOuter
 *
 win
 =
@@ -3687,10 +3689,6 @@ doc
 GetWindow
 (
 )
-;
-if
-(
-win
 )
 {
 nsCOMPtr

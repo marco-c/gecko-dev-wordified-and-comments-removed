@@ -157,7 +157,7 @@ DOMEventTargetHelper
 )
 public
 :
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -470,7 +470,7 @@ mSocket
 ;
 UDPSocket
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 const

@@ -90,7 +90,7 @@ MediaRecorder
 DOMMediaStream
 &
 aSourceMediaStream
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 )
@@ -102,7 +102,7 @@ AudioNode
 aSrcAudioNode
 uint32_t
 aSrcOutput
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 )
@@ -126,7 +126,7 @@ aGivenProto
 )
 override
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (

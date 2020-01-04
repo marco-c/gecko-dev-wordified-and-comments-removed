@@ -310,7 +310,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 opened
 ;

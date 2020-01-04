@@ -105,7 +105,7 @@ DOMEventTargetHelper
 )
 TextTrack
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 TextTrackKind
@@ -128,7 +128,7 @@ aTextTrackSource
 ;
 TextTrack
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 TextTrackList

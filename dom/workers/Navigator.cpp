@@ -998,7 +998,7 @@ GetParent
 )
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 window
 =
@@ -1460,7 +1460,7 @@ AssertIsOnMainThread
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =

@@ -860,7 +860,7 @@ override
 virtual
 already_AddRefed
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 GetRootWindow
 (
@@ -2671,7 +2671,7 @@ aEventStatus
 ;
 already_AddRefed
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 GetFocusedDOMWindowInOurWindow
 (

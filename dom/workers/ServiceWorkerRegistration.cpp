@@ -345,7 +345,7 @@ ServiceWorkerRegistrationBase
 :
 ServiceWorkerRegistrationBase
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -413,7 +413,7 @@ ServiceWorkerRegistrationMainThread
 :
 ServiceWorkerRegistrationMainThread
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -493,7 +493,7 @@ aWhichOne
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -1079,19 +1079,17 @@ RegistrationRemoved
 (
 )
 {
+if
+(
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
 GetOwner
 (
 )
-;
-if
-(
-window
 )
 {
 window
@@ -2783,7 +2781,7 @@ AssertIsOnMainThread
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -2954,7 +2952,7 @@ AssertIsOnMainThread
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =

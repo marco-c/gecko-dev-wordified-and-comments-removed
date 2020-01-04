@@ -181,7 +181,7 @@ PowerManager
 :
 Init
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -726,7 +726,7 @@ PowerManager
 :
 CreateInstance
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

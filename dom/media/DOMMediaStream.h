@@ -432,7 +432,7 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_DOMMEDIASTREAM_IID
 )
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -934,7 +934,7 @@ DOMMediaStream
 >
 CreateSourceStream
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 MediaStreamGraph
@@ -949,7 +949,7 @@ DOMMediaStream
 >
 CreateTrackUnionStream
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 MediaStreamGraph
@@ -964,7 +964,7 @@ DOMMediaStream
 >
 CreateAudioCaptureStream
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 MediaStreamGraph
@@ -1095,7 +1095,7 @@ Destroy
 void
 InitSourceStream
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 MediaStreamGraph
@@ -1106,7 +1106,7 @@ aGraph
 void
 InitTrackUnionStream
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 MediaStreamGraph
@@ -1117,7 +1117,7 @@ aGraph
 void
 InitAudioCaptureStream
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 MediaStreamGraph
@@ -1212,7 +1212,7 @@ mLogicalStreamStartTime
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;
@@ -1427,7 +1427,7 @@ DOMLocalMediaStream
 >
 CreateSourceStream
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 MediaStreamGraph
@@ -1442,7 +1442,7 @@ DOMLocalMediaStream
 >
 CreateTrackUnionStream
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 MediaStreamGraph
@@ -1457,7 +1457,7 @@ DOMLocalMediaStream
 >
 CreateAudioCaptureStream
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 MediaStreamGraph
@@ -1521,7 +1521,7 @@ DOMAudioNodeMediaStream
 >
 CreateTrackUnionStream
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 AudioNode
@@ -1600,7 +1600,7 @@ DOMHwMediaStream
 >
 CreateHwStream
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 OverlayImage

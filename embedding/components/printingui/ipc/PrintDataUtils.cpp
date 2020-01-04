@@ -124,7 +124,7 @@ MockWebBrowserPrint
 :
 GetCurrentChildDOMWindow
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 aCurrentPrintSettings
@@ -302,7 +302,7 @@ PrintPreview
 nsIPrintSettings
 *
 aThePrintSettings
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aChildDOMWin
 nsIWebProgressListener

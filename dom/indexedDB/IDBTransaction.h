@@ -73,7 +73,7 @@ nsTArray
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -682,7 +682,7 @@ return
 mLoggingSerialNumber
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (

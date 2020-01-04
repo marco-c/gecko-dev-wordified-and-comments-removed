@@ -58,7 +58,7 @@ SmsMessage
 :
 SmsMessage
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 SmsMessageInternal

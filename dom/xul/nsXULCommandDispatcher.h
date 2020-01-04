@@ -102,7 +102,7 @@ nsIContent
 *
 GetRootFocusedContentAndWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 *
 aWindow

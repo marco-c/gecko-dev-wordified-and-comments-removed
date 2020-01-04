@@ -558,7 +558,7 @@ false
 void
 ThrowAndReport
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsresult

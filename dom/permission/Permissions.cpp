@@ -88,7 +88,7 @@ Permissions
 :
 Permissions
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -161,7 +161,7 @@ JSObject
 *
 >
 aPermission
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 ErrorResult
@@ -270,7 +270,7 @@ JSObject
 *
 >
 aPermission
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 ErrorResult

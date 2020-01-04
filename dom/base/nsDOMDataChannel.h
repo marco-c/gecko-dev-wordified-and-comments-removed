@@ -114,7 +114,7 @@ DataChannel
 >
 &
 aDataChannel
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -122,7 +122,7 @@ aWindow
 nsresult
 Init
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aDOMWindow
 )
@@ -164,7 +164,7 @@ aGivenProto
 )
 override
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (

@@ -200,7 +200,7 @@ aList
 void
 Init
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 )

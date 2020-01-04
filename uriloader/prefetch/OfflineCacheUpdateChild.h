@@ -78,6 +78,9 @@ nsWeakReference
 .
 h
 "
+class
+nsPIDOMWindowInner
+;
 namespace
 mozilla
 {
@@ -144,7 +147,7 @@ override
 explicit
 OfflineCacheUpdateChild
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -255,7 +258,7 @@ mDocument
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

@@ -12,7 +12,7 @@ nscore
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -23,7 +23,7 @@ time
 nsresult
 AddWindowListener
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -31,7 +31,7 @@ aWindow
 nsresult
 RemoveWindowListener
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

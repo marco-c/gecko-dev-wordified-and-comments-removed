@@ -68,7 +68,7 @@ TelephonyCall
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -175,7 +175,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 Telephony
 DOMEventTargetHelper
 )
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -422,7 +422,7 @@ Telephony
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 ErrorResult
@@ -545,7 +545,7 @@ private
 explicit
 Telephony
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )

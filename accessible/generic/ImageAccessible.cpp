@@ -501,7 +501,7 @@ OwnerDoc
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 piWindow
 =
@@ -522,7 +522,7 @@ false
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 tmp
 ;

@@ -99,6 +99,9 @@ domstubs
 idl
 "
 interface
+mozIDOMWindowProxy
+;
+interface
 nsIDocument
 ;
 interface
@@ -108,15 +111,15 @@ nsIContent
 scriptable
 uuid
 (
-2487F9CA
+86e1f1e1
 -
-D05F
+365d
 -
-4BD1
+493b
 -
-8F43
+b52a
 -
-5964E746C482
+a649f3f311dc
 )
 ]
 /
@@ -476,7 +479,7 @@ exception
 *
 /
 attribute
-nsIDOMWindow
+mozIDOMWindowProxy
 activeWindow
 ;
 /
@@ -586,7 +589,7 @@ found
 *
 /
 attribute
-nsIDOMWindow
+mozIDOMWindowProxy
 focusedWindow
 ;
 /
@@ -700,7 +703,7 @@ uint32_t
 getLastFocusMethod
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 window
 )
 ;
@@ -895,7 +898,7 @@ nsIDOMElement
 moveFocus
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aWindow
 in
 nsIDOMElement
@@ -952,7 +955,7 @@ void
 clearFocus
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aWindow
 )
 ;
@@ -1114,13 +1117,13 @@ nsIDOMElement
 getFocusedElementForWindow
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aWindow
 in
 boolean
 aDeep
 out
-nsIDOMWindow
+mozIDOMWindowProxy
 aFocusedWindow
 )
 ;
@@ -1145,7 +1148,7 @@ void
 moveCaretToFocus
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aWindow
 )
 ;
@@ -1829,7 +1832,7 @@ void
 windowRaised
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aWindow
 )
 ;
@@ -1854,7 +1857,7 @@ void
 windowLowered
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aWindow
 )
 ;
@@ -1910,7 +1913,7 @@ void
 windowShown
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aWindow
 in
 boolean
@@ -1949,7 +1952,7 @@ void
 windowHidden
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aWindow
 )
 ;
@@ -2070,7 +2073,7 @@ void
 parentActivated
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 aWindow
 in
 bool

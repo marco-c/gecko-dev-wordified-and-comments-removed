@@ -1266,7 +1266,7 @@ GetStorageInternal
 (
 bool
 aCreate
-nsIDOMWindow
+mozIDOMWindow
 *
 aWindow
 nsIPrincipal
@@ -1476,6 +1476,20 @@ aRetval
 {
 nsCOMPtr
 <
+nsPIDOMWindowInner
+>
+inner
+=
+nsPIDOMWindowInner
+:
+:
+From
+(
+aWindow
+)
+;
+nsCOMPtr
+<
 nsIDOMStorage
 >
 storage
@@ -1483,7 +1497,7 @@ storage
 new
 DOMStorage
 (
-aWindow
+inner
 this
 cache
 aDocumentURI
@@ -1534,7 +1548,7 @@ DOMStorageManager
 :
 CreateStorage
 (
-nsIDOMWindow
+mozIDOMWindow
 *
 aWindow
 nsIPrincipal
@@ -1570,7 +1584,7 @@ DOMStorageManager
 :
 GetStorage
 (
-nsIDOMWindow
+mozIDOMWindow
 *
 aWindow
 nsIPrincipal

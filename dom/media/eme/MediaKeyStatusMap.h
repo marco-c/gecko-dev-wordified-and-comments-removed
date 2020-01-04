@@ -68,7 +68,7 @@ CDMCaps
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -100,7 +100,7 @@ public
 explicit
 MediaKeyStatusMap
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aParent
 )
@@ -114,7 +114,7 @@ MediaKeyStatusMap
 ;
 public
 :
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -210,7 +210,7 @@ private
 :
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mParent
 ;

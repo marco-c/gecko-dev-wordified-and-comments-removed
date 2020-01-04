@@ -84,7 +84,7 @@ MobileConnectionInfo
 explicit
 MobileConnectionInfo
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -135,7 +135,7 @@ nsIMobileConnectionInfo
 aInfo
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -291,7 +291,7 @@ mRoaming
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

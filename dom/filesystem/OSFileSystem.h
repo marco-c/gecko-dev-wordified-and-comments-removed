@@ -42,13 +42,13 @@ aRootDir
 void
 Init
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
 ;
 virtual
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetWindow
 (
@@ -117,7 +117,7 @@ OSFileSystem
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

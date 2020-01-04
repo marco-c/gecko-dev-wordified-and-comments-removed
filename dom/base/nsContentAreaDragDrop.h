@@ -26,7 +26,7 @@ nsITransferable
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowOuter
 ;
 class
 nsISelection
@@ -60,7 +60,7 @@ static
 nsresult
 GetDragData
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 nsIContent

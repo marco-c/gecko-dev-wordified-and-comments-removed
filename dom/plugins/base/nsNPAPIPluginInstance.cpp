@@ -1356,7 +1356,7 @@ Length
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -1672,7 +1672,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 nsNPAPIPluginInstance
 :
@@ -1725,7 +1725,7 @@ nullptr
 ;
 RefPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -5922,7 +5922,7 @@ aEnabled
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -6013,7 +6013,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -6298,7 +6298,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 domwindow
 =
@@ -8159,7 +8159,7 @@ NS_ERROR_FAILURE
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =

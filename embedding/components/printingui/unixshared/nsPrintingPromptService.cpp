@@ -300,7 +300,7 @@ nsPrintingPromptService
 :
 ShowPrintDialog
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 parent
 nsIWebBrowserPrint
@@ -343,7 +343,13 @@ dlgPrint
 >
 Show
 (
+nsPIDOMWindowOuter
+:
+:
+From
+(
 parent
+)
 printSettings
 webBrowserPrint
 )
@@ -396,7 +402,7 @@ nsPrintingPromptService
 :
 ShowProgress
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 parent
 nsIWebBrowserPrint
@@ -474,7 +480,7 @@ nsPrintProgressParams
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 parentWindow
 =
@@ -548,7 +554,7 @@ nsPrintingPromptService
 :
 ShowPageSetup
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 parent
 nsIPrintSettings
@@ -586,7 +592,13 @@ dlgPrint
 >
 ShowPageSetup
 (
+nsPIDOMWindowOuter
+:
+:
+From
+(
 parent
+)
 printSettings
 )
 ;
@@ -638,7 +650,7 @@ nsPrintingPromptService
 :
 ShowPrinterProperties
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 parent
 const
@@ -708,7 +720,7 @@ nsPrintingPromptService
 :
 DoDialog
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aParent
 nsIDialogParamBlock
@@ -756,7 +768,7 @@ NS_OK
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 activeParent
 ;
@@ -932,7 +944,7 @@ supports
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 dialog
 ;

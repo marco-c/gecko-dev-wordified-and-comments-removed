@@ -617,7 +617,7 @@ true
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 ;
@@ -717,7 +717,7 @@ topFrameElement
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 topWindow
 =

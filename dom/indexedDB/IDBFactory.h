@@ -77,7 +77,7 @@ class
 nsIPrincipal
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 struct
 PRThread
@@ -182,7 +182,7 @@ mPrincipalInfo
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;
@@ -239,7 +239,7 @@ static
 nsresult
 CreateForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 IDBFactory
@@ -324,7 +324,7 @@ static
 bool
 AllowedForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -389,7 +389,7 @@ IncrementParentLoggingRequestSerialNumber
 (
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -696,7 +696,7 @@ static
 nsresult
 AllowedForWindowInternal
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIPrincipal

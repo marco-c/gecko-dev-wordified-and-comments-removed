@@ -836,12 +836,10 @@ false
 }
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 window
 =
-do_QueryInterface
-(
 element
 -
 >
@@ -852,7 +850,6 @@ OwnerDoc
 >
 GetWindow
 (
-)
 )
 ;
 if

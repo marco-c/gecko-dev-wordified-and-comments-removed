@@ -2867,7 +2867,7 @@ return
 nullptr
 ;
 }
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 window
 =
@@ -3852,7 +3852,7 @@ imgSize
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 =

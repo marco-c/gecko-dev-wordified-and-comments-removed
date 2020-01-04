@@ -44,7 +44,7 @@ nsWrapperCache
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -73,7 +73,7 @@ CellBroadcastMessage
 )
 CellBroadcastMessage
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 uint32_t
@@ -108,7 +108,7 @@ bool
 aEtwsPopup
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -274,7 +274,7 @@ CellBroadcastMessage
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;
@@ -340,7 +340,7 @@ CellBroadcastEtwsInfo
 )
 CellBroadcastEtwsInfo
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 uint32_t
@@ -351,7 +351,7 @@ bool
 aPopup
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -431,7 +431,7 @@ CellBroadcastEtwsInfo
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

@@ -2724,7 +2724,7 @@ return
 rv
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 window
 =
@@ -3626,7 +3626,7 @@ NS_OK
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -4116,7 +4116,7 @@ false
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -4189,6 +4189,11 @@ Notify
 (
 this
 window
+-
+>
+GetCurrentInnerWindow
+(
+)
 aActionURL
 aCancelSubmit
 )

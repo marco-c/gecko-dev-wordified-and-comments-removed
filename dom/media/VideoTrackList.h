@@ -37,7 +37,7 @@ public
 :
 VideoTrackList
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 HTMLMediaElement

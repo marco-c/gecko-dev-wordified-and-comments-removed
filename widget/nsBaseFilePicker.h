@@ -40,7 +40,7 @@ nsCOMPtr
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowOuter
 ;
 class
 nsIWidget
@@ -66,7 +66,7 @@ nsBaseFilePicker
 NS_IMETHOD
 Init
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aParent
 const
@@ -202,7 +202,7 @@ mDisplayDirectory
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 mParent
 ;

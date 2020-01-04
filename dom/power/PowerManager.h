@@ -65,7 +65,7 @@ MozPowerManagerBinding
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -96,7 +96,7 @@ NS_DECL_NSIDOMMOZWAKELOCKLISTENER
 nsresult
 Init
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -113,11 +113,11 @@ PowerManager
 >
 CreateInstance
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 )
 ;
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -270,7 +270,7 @@ PowerManager
 }
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;

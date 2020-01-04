@@ -87,12 +87,12 @@ BluetoothPbapRequestHandle
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -173,7 +173,7 @@ private
 :
 BluetoothPbapRequestHandle
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )
@@ -185,7 +185,7 @@ BluetoothPbapRequestHandle
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mOwner
 ;

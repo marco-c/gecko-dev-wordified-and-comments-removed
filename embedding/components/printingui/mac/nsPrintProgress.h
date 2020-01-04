@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsIPrintStatusFeedback
 .
 h
@@ -103,7 +96,7 @@ m_pendingStateValue
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 m_dialog
 ;

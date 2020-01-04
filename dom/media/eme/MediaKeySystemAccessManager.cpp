@@ -259,7 +259,7 @@ MediaKeySystemAccessManager
 :
 MediaKeySystemAccessManager
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

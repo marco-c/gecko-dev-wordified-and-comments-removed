@@ -109,7 +109,7 @@ PresentationAvailability
 :
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -152,7 +152,7 @@ PresentationAvailability
 :
 PresentationAvailability
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

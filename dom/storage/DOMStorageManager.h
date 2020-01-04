@@ -64,9 +64,6 @@ nsHashKeys
 .
 h
 "
-class
-nsIDOMWindow
-;
 namespace
 mozilla
 {
@@ -324,7 +321,7 @@ GetStorageInternal
 (
 bool
 aCreate
-nsIDOMWindow
+mozIDOMWindow
 *
 aWindow
 nsIPrincipal

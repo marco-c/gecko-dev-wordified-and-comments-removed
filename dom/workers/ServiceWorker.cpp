@@ -189,7 +189,7 @@ ServiceWorker
 :
 ServiceWorker
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 ServiceWorkerInfo
@@ -387,7 +387,7 @@ return
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =

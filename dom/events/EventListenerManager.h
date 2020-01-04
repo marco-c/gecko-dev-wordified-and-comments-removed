@@ -87,7 +87,7 @@ class
 nsIEventListenerInfo
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 class
 JSTracer
@@ -1784,7 +1784,7 @@ nsIAtom
 aName
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetInnerWindowForTarget
 (
@@ -1792,7 +1792,7 @@ GetInnerWindowForTarget
 ;
 already_AddRefed
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 GetTargetAsInnerWindow
 (

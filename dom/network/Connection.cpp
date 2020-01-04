@@ -99,7 +99,7 @@ Connection
 :
 Connection
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

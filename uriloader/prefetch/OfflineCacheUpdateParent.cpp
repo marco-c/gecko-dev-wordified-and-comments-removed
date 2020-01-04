@@ -721,7 +721,7 @@ OfflineCacheUpdateParent
 :
 GetAssociatedWindow
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 aAssociatedWindow
@@ -737,7 +737,7 @@ OfflineCacheUpdateParent
 :
 GetTopWindow
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 aTopWindow

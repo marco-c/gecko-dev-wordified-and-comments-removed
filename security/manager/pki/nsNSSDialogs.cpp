@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsIDOMWindow
+mozIDOMWindow
 .
 h
 "
@@ -289,7 +289,7 @@ false
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 parent
 =
@@ -529,7 +529,7 @@ rv
 }
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 parent
 =
@@ -773,7 +773,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 parent
 =
@@ -1604,7 +1604,7 @@ true
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 parent
 =
@@ -1831,7 +1831,7 @@ rv
 }
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 parent
 =
@@ -2014,7 +2014,7 @@ rv
 }
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 parent
 =
@@ -2067,7 +2067,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 parent
 =
@@ -2356,7 +2356,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 parent
 =
@@ -2420,7 +2420,7 @@ parent
 }
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 newWindow
 ;

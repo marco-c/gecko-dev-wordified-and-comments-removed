@@ -215,7 +215,7 @@ public
 :
 MediaStreamError
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aParent
 const
@@ -242,7 +242,7 @@ EmptyString
 ;
 MediaStreamError
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aParent
 const
@@ -297,7 +297,7 @@ aGivenProto
 )
 override
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -346,7 +346,7 @@ MediaStreamError
 }
 RefPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mParent
 ;

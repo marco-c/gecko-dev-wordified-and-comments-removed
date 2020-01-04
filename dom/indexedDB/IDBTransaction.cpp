@@ -3583,7 +3583,7 @@ mNextIndexId
 +
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 IDBTransaction
 :

@@ -268,11 +268,6 @@ attribute
 nsIDOMDocument
 contentDocument
 ;
-readonly
-attribute
-nsIDOMWindow
-contentWindow
-;
 attribute
 boolean
 allowFullscreen

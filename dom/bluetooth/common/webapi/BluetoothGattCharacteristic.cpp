@@ -199,7 +199,7 @@ BluetoothGattCharacteristic
 :
 BluetoothGattCharacteristic
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 BluetoothGattService
@@ -289,7 +289,7 @@ BluetoothGattCharacteristic
 :
 BluetoothGattCharacteristic
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 BluetoothGattService

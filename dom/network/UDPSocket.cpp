@@ -213,7 +213,7 @@ aRv
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 ownerWindow
 =
@@ -534,7 +534,7 @@ UDPSocket
 :
 UDPSocket
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 const

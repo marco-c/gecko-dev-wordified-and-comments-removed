@@ -161,7 +161,7 @@ override
 NS_IMETHOD
 GetWindow
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 aDOMWindow

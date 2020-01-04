@@ -274,7 +274,7 @@ nsLocation
 :
 nsLocation
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIDocShell
@@ -540,7 +540,7 @@ principalURI
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 incumbent
 =
@@ -1119,7 +1119,7 @@ loadStopContent
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 sourceWindow
 =
@@ -2175,7 +2175,7 @@ nullptr
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 win
 =
@@ -2193,17 +2193,12 @@ win
 {
 scriptContext
 =
-static_cast
-<
 nsGlobalWindow
-*
->
+:
+:
+Cast
 (
 win
-.
-get
-(
-)
 )
 -
 >
@@ -3589,7 +3584,7 @@ docShell
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -3998,7 +3993,7 @@ GetDocShell
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 docShellWin
 =
@@ -4064,7 +4059,7 @@ CallerSubsumes
 {
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 outer
 =

@@ -574,7 +574,7 @@ mIsContext
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 domWin
 =
@@ -1255,7 +1255,7 @@ if
 suppressBlur
 )
 {
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 window
 =

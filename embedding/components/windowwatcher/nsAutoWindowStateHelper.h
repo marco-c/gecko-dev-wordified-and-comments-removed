@@ -19,7 +19,7 @@ nsPIDOMWindow
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowOuter
 ;
 class
 nsAutoWindowStateHelper
@@ -29,7 +29,7 @@ public
 explicit
 nsAutoWindowStateHelper
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )
@@ -61,7 +61,7 @@ aEventName
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 mWindow
 ;

@@ -4020,7 +4020,7 @@ GetParent
 )
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 window
 =
@@ -5599,7 +5599,7 @@ XRE_IsParentProcess
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -6893,7 +6893,7 @@ mDatabase
 ;
 if
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 owner
 =

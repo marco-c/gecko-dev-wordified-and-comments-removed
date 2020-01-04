@@ -1661,7 +1661,7 @@ aEvent
 void
 DetermineDragTargetAndDefaultData
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 nsIContent

@@ -89,7 +89,7 @@ PRIVATE_IDBREQUEST_IID
 }
 }
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 struct
 PRThread
@@ -433,7 +433,7 @@ uint64_t
 aLoggingSerialNumber
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -589,7 +589,7 @@ aDatabase
 explicit
 IDBRequest
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )
@@ -689,7 +689,7 @@ CreateForWindow
 IDBFactory
 *
 aFactory
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 JS
@@ -811,7 +811,7 @@ IDBOpenDBRequest
 IDBFactory
 *
 aFactory
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 bool

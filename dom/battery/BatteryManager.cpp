@@ -131,7 +131,7 @@ BatteryManager
 :
 BatteryManager
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

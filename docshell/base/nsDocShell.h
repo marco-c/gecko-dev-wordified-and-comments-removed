@@ -740,7 +740,7 @@ aDocShellLoadType
 NS_IMETHOD
 GetAssociatedWindow
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 )
@@ -749,7 +749,7 @@ override
 NS_IMETHOD
 GetTopWindow
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 )

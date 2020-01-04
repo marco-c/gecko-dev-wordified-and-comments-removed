@@ -54,7 +54,7 @@ class
 nsITimer
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 BEGIN_WORKERS_NAMESPACE
 class
@@ -246,7 +246,7 @@ nsClassHashtable
 <
 nsPtrHashKey
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 nsTArray
 <
@@ -372,7 +372,7 @@ aWorkerPrivate
 void
 CancelWorkersForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -380,7 +380,7 @@ aWindow
 void
 FreezeWorkersForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -388,7 +388,7 @@ aWindow
 void
 ThawWorkersForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -396,7 +396,7 @@ aWindow
 void
 SuspendWorkersForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -404,7 +404,7 @@ aWindow
 void
 ResumeWorkersForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -738,7 +738,7 @@ aWorkers
 void
 GetWorkersForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsTArray

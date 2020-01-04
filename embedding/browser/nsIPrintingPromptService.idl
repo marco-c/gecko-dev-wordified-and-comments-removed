@@ -149,15 +149,15 @@ nsIDOMWindow
 scriptable
 uuid
 (
-75D1553D
+328daa3e
 -
-63BF
+09e4
 -
-4b5d
+455f
 -
-A8F7
+bb6f
 -
-E4E4CAC21BA4
+0a921766042f
 )
 ]
 interface
@@ -837,7 +837,7 @@ void
 showPrintDialog
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 parent
 in
 nsIWebBrowserPrint
@@ -993,7 +993,7 @@ void
 showProgress
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 parent
 in
 nsIWebBrowserPrint
@@ -1103,7 +1103,7 @@ void
 showPageSetup
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 parent
 in
 nsIPrintSettings
@@ -1223,7 +1223,7 @@ void
 showPrinterProperties
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 parent
 in
 wstring

@@ -61,7 +61,7 @@ DOMEventTargetHelper
 explicit
 IccManager
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -119,7 +119,7 @@ aIccId
 )
 const
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (

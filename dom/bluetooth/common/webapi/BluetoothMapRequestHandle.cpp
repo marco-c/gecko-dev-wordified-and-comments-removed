@@ -96,7 +96,7 @@ BluetoothMapRequestHandle
 :
 BluetoothMapRequestHandle
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )
@@ -130,7 +130,7 @@ BluetoothMapRequestHandle
 :
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )

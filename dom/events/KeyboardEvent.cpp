@@ -912,8 +912,6 @@ Init
 aOwner
 )
 ;
-aRv
-=
 InitKeyEvent
 (
 aType
@@ -1089,7 +1087,7 @@ bool
 aCanBubble
 bool
 aCancelable
-nsIDOMWindow
+mozIDOMWindow
 *
 aView
 bool
@@ -1106,9 +1104,6 @@ uint32_t
 aCharCode
 )
 {
-nsresult
-rv
-=
 UIEvent
 :
 :
@@ -1119,12 +1114,6 @@ aCanBubble
 aCancelable
 aView
 0
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 WidgetKeyboardEvent

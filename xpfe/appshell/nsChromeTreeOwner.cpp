@@ -2268,7 +2268,7 @@ mXULWindow
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 progressWin
 ;
@@ -2302,7 +2302,7 @@ docshell
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 ourWin
 (

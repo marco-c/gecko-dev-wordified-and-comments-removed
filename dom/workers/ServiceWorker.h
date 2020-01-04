@@ -36,7 +36,7 @@ ServiceWorkerBinding
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -215,7 +215,7 @@ private
 :
 ServiceWorker
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 ServiceWorkerInfo

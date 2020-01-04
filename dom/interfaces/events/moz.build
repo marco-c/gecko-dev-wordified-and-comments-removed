@@ -118,11 +118,6 @@ nsIDOMCommandEvent
 idl
 '
 '
-nsIDOMCompositionEvent
-.
-idl
-'
-'
 nsIDOMCustomEvent
 .
 idl
@@ -164,11 +159,6 @@ idl
 '
 '
 nsIDOMKeyEvent
-.
-idl
-'
-'
-nsIDOMMessageEvent
 .
 idl
 '

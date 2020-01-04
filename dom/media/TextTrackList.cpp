@@ -96,7 +96,7 @@ TextTrackList
 :
 TextTrackList
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 )
@@ -112,7 +112,7 @@ TextTrackList
 :
 TextTrackList
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwnerWindow
 TextTrackManager

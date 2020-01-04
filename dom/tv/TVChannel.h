@@ -64,7 +64,7 @@ TVChannel
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 TVSource
@@ -205,7 +205,7 @@ private
 :
 TVChannel
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 TVSource

@@ -509,7 +509,7 @@ TelephonyCall
 :
 TelephonyCall
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 )

@@ -204,7 +204,7 @@ mShutdown
 true
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 FileSystemBase
 :

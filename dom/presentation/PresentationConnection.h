@@ -62,7 +62,7 @@ PresentationConnection
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -157,7 +157,7 @@ private
 :
 PresentationConnection
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const

@@ -168,7 +168,7 @@ const
 nsAString
 &
 aTopic
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 mozilla

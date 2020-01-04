@@ -344,7 +344,7 @@ NS_ERROR_NULL_POINTER
 NS_IMETHOD
 GetContent
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 *
 aContent

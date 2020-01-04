@@ -68,7 +68,7 @@ class
 nsIRunnable
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowOuter
 ;
 struct
 PRLogModuleInfo
@@ -173,7 +173,7 @@ aTabParent
 void
 GetState
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 uint32_t
@@ -189,7 +189,7 @@ aMuted
 float
 GetAudioChannelVolume
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 AudioChannel
@@ -199,7 +199,7 @@ aChannel
 void
 SetAudioChannelVolume
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 AudioChannel
@@ -211,7 +211,7 @@ aVolume
 bool
 GetAudioChannelMuted
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 AudioChannel
@@ -221,7 +221,7 @@ aChannel
 void
 SetAudioChannelMuted
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 AudioChannel
@@ -233,7 +233,7 @@ aMuted
 bool
 IsAudioChannelActive
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 AudioChannel
@@ -270,7 +270,7 @@ AnyAudioChannelIsActive
 void
 RefreshAgentsVolume
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )
@@ -280,7 +280,7 @@ RefreshAgentsVolumeAndPropagate
 (
 AudioChannel
 aAudioChannel
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )
@@ -288,7 +288,7 @@ aWindow
 void
 SetWindowAudioCaptured
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 uint64_t
@@ -555,7 +555,7 @@ AudioChannelWindow
 *
 GetOrCreateWindowData
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )

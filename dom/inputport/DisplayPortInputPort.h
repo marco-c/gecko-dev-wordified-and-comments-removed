@@ -37,7 +37,7 @@ DisplayPortInputPort
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIInputPortListener
@@ -76,7 +76,7 @@ private
 explicit
 DisplayPortInputPort
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

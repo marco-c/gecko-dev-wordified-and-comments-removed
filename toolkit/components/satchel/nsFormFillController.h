@@ -124,7 +124,7 @@ class
 nsINode
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowOuter
 ;
 class
 nsFormFillController
@@ -196,7 +196,7 @@ nsFormFillController
 void
 AddWindowListeners
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )
@@ -204,7 +204,7 @@ aWindow
 void
 RemoveWindowListeners
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )
@@ -290,7 +290,7 @@ aInput
 )
 ;
 inline
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 GetWindowForDocShell
 (

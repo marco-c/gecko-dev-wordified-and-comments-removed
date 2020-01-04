@@ -2573,7 +2573,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 parent
 ;
@@ -2590,7 +2590,7 @@ parent
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+mozIDOMWindowProxy
 >
 newWindow
 ;

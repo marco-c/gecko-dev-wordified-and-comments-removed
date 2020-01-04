@@ -1172,7 +1172,7 @@ mContinueCalled
 false
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 IDBCursor
 :

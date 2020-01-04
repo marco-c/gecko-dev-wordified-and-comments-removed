@@ -12,7 +12,7 @@ nsISupports
 h
 "
 class
-nsIDOMWindow
+nsPIDOMWindowOuter
 ;
 class
 nsIPrintSettings
@@ -62,7 +62,7 @@ Init
 NS_IMETHOD
 Show
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aParent
 nsIPrintSettings
@@ -78,7 +78,7 @@ aWebBrowserPrint
 NS_IMETHOD
 ShowPageSetup
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aParent
 nsIPrintSettings

@@ -1116,7 +1116,9 @@ if
 doc
 )
 {
-nsPIDOMWindow
+if
+(
+nsPIDOMWindowInner
 *
 inner
 =
@@ -1126,10 +1128,6 @@ doc
 GetInnerWindow
 (
 )
-;
-if
-(
-inner
 )
 {
 inner
@@ -1144,7 +1142,9 @@ sGeneration
 )
 ;
 }
-nsPIDOMWindow
+if
+(
+nsPIDOMWindowOuter
 *
 outer
 =
@@ -1154,10 +1154,6 @@ doc
 GetWindow
 (
 )
-;
-if
-(
-outer
 )
 {
 outer
@@ -1576,9 +1572,11 @@ iter
 iter
 )
 {
+if
+(
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -1586,10 +1584,6 @@ do_QueryInterface
 (
 iter
 )
-;
-if
-(
-window
 )
 {
 nsCOMPtr

@@ -100,7 +100,7 @@ class
 nsIDocument
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -537,7 +537,7 @@ IDBMutableFile
 aMutableFile
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (

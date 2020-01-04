@@ -451,7 +451,7 @@ i
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -943,7 +943,7 @@ aPopup
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -991,7 +991,7 @@ NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -4253,7 +4253,7 @@ nsFormFillController
 :
 AddWindowListeners
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )
@@ -4434,7 +4434,7 @@ nsFormFillController
 :
 RemoveWindowListeners
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )
@@ -4892,7 +4892,7 @@ nullptr
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 win
 =
@@ -4923,7 +4923,7 @@ GetDocShell
 )
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 nsFormFillController
 :

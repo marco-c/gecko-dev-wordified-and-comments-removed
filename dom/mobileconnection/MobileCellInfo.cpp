@@ -59,7 +59,7 @@ MobileCellInfo
 :
 MobileCellInfo
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

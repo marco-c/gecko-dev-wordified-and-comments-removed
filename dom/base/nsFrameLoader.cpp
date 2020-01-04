@@ -3422,7 +3422,7 @@ return
 false
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 win
 =
@@ -3454,11 +3454,10 @@ nsPIWindowRoot
 >
 windowRoot
 =
-static_cast
-<
 nsGlobalWindow
-*
->
+:
+:
+Cast
 (
 win
 )
@@ -3473,7 +3472,7 @@ if
 windowRoot
 )
 {
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 topWin
 =
@@ -4083,7 +4082,9 @@ SetBrowserDOMWindow
 otherBrowserDOMWindow
 )
 ;
-nsPIDOMWindow
+if
+(
+nsPIDOMWindowOuter
 *
 newWin
 =
@@ -4093,10 +4094,6 @@ ourDoc
 GetWindow
 (
 )
-;
-if
-(
-newWin
 )
 {
 RefPtr
@@ -4105,11 +4102,11 @@ nsIWidget
 >
 newParent
 =
-(
-(
 nsGlobalWindow
-*
-)
+:
+:
+Cast
+(
 newWin
 )
 -
@@ -5179,7 +5176,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 ourWindow
 =
@@ -5192,7 +5189,7 @@ GetWindow
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 otherWindow
 =
@@ -6390,7 +6387,7 @@ mDocShell
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 win_private
 (
@@ -7978,7 +7975,7 @@ element
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 win_private
 (
@@ -9034,7 +9031,7 @@ NS_ERROR_FAILURE
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 win
 =
@@ -9725,7 +9722,7 @@ false
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 parentWin
 =
@@ -10103,7 +10100,7 @@ rootItem
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowOuter
 >
 rootWin
 =

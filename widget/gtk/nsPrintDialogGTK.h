@@ -52,7 +52,7 @@ override
 NS_IMETHODIMP
 Show
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aParent
 nsIPrintSettings
@@ -67,7 +67,7 @@ override
 NS_IMETHODIMP
 ShowPageSetup
 (
-nsIDOMWindow
+nsPIDOMWindowOuter
 *
 aParent
 nsIPrintSettings

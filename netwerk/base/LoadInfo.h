@@ -59,7 +59,7 @@ class
 nsINode
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowOuter
 ;
 class
 nsXMLHttpRequest
@@ -256,7 +256,7 @@ LoadInfo
 void
 ComputeIsThirdPartyContext
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aOuterWindow
 )

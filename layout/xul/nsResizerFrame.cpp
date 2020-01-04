@@ -1774,7 +1774,9 @@ nullptr
 ;
 }
 }
-nsPIDOMWindow
+if
+(
+nsPIDOMWindowOuter
 *
 domWindow
 =
@@ -1789,10 +1791,6 @@ GetDocument
 GetWindow
 (
 )
-;
-if
-(
-domWindow
 )
 {
 nsCOMPtr

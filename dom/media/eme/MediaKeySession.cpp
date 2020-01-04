@@ -175,7 +175,7 @@ MediaKeySession
 JSContext
 *
 aCx
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aParent
 MediaKeys

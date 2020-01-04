@@ -143,7 +143,7 @@ class
 nsIDocShellTreeItem
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowOuter
 ;
 enum
 CloseMenuMode
@@ -948,7 +948,7 @@ GetInstance
 void
 AdjustPopupsOnWindowChange
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )

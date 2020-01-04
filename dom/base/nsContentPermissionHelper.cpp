@@ -269,7 +269,7 @@ NS_DECL_NSIDOMEVENTLISTENER
 explicit
 VisibilityChangeListener
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -325,7 +325,7 @@ VisibilityChangeListener
 :
 VisibilityChangeListener
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -473,7 +473,7 @@ RemoveListener
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -1601,7 +1601,7 @@ AskPermission
 nsIContentPermissionRequest
 *
 aRequest
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -2076,7 +2076,7 @@ nsContentPermissionRequester
 :
 nsContentPermissionRequester
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -2136,7 +2136,7 @@ aCallback
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -2636,7 +2636,7 @@ nsContentPermissionRequestProxy
 :
 GetWindow
 (
-nsIDOMWindow
+mozIDOMWindow
 *
 *
 aRequestingWindow
@@ -3310,7 +3310,7 @@ RemotePermissionRequest
 nsIContentPermissionRequest
 *
 aRequest
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

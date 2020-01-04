@@ -124,7 +124,7 @@ nsPrintProgress
 :
 OpenProgressDialog
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 parent
 const
@@ -253,7 +253,7 @@ m_dialog
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -869,7 +869,7 @@ SetDocShell
 nsIDocShell
 *
 shell
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 window
 )

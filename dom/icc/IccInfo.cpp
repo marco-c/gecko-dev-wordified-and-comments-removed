@@ -157,7 +157,7 @@ IccInfo
 :
 IccInfo
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -653,7 +653,7 @@ GsmIccInfo
 :
 GsmIccInfo
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -825,7 +825,7 @@ CdmaIccInfo
 :
 CdmaIccInfo
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

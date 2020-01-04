@@ -36,9 +36,6 @@ nsCycleCollectionParticipant
 .
 h
 "
-class
-nsPIDOMWindow
-;
 namespace
 mozilla
 {
@@ -68,7 +65,7 @@ public
 explicit
 BatteryManager
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -96,7 +93,7 @@ aBatteryInfo
 )
 override
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (

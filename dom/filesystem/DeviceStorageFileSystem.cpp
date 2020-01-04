@@ -344,7 +344,7 @@ aDeviceStorage
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =
@@ -403,7 +403,7 @@ mShutdown
 true
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 DeviceStorageFileSystem
 :
@@ -449,6 +449,15 @@ window
 ;
 return
 window
+?
+window
+-
+>
+AsInner
+(
+)
+:
+nullptr
 ;
 }
 void

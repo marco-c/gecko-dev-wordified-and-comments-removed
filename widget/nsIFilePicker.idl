@@ -105,7 +105,7 @@ interface
 nsIURI
 ;
 interface
-nsIDOMWindow
+mozIDOMWindowProxy
 ;
 interface
 nsISimpleEnumerator
@@ -177,15 +177,15 @@ aResult
 scriptable
 uuid
 (
-2a74ba0d
+9285b984
 -
-ffdd
+02d3
 -
-4dad
+46b4
 -
-b78a
+9514
 -
-98635e525a38
+7da8c471a747
 )
 ]
 interface
@@ -660,7 +660,7 @@ called
 *
 param
 parent
-nsIDOMWindow
+mozIDOMWindow
 parent
 .
 This
@@ -704,7 +704,7 @@ void
 init
 (
 in
-nsIDOMWindow
+mozIDOMWindowProxy
 parent
 in
 AString

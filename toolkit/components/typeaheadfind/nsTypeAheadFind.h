@@ -97,6 +97,9 @@ nsISound
 h
 "
 class
+nsPIDOMWindowInner
+;
+class
 nsIPresShell
 ;
 class
@@ -324,7 +327,7 @@ mFoundRange
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindowInner
 >
 mCurrentWindow
 ;

@@ -243,7 +243,7 @@ aRv
 void
 InitializeChromeFile
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -262,7 +262,7 @@ aRv
 void
 InitializeChromeFile
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIFile

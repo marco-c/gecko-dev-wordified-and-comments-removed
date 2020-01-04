@@ -5869,7 +5869,7 @@ aPersisted
 )
 ;
 virtual
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 GetWindowInternal
 (

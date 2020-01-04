@@ -1820,7 +1820,7 @@ documentURI
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 window
 =

@@ -71,7 +71,7 @@ nsWeakReference
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -126,7 +126,7 @@ FileMode
 aMode
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (

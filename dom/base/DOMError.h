@@ -35,13 +35,6 @@ nsString
 h
 "
 #
-include
-"
-nsPIDOMWindow
-.
-h
-"
-#
 define
 DOMERROR_IID
 \
@@ -61,6 +54,9 @@ DOMERROR_IID
 0x66
 }
 }
+class
+nsPIDOMWindowInner
+;
 namespace
 mozilla
 {
@@ -83,7 +79,7 @@ nsWrapperCache
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;
@@ -115,14 +111,14 @@ DOMERROR_IID
 explicit
 DOMError
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
 ;
 DOMError
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsresult
@@ -131,7 +127,7 @@ aValue
 ;
 DOMError
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -142,7 +138,7 @@ aName
 ;
 DOMError
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -155,7 +151,7 @@ nsAString
 aMessage
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (

@@ -556,7 +556,7 @@ PresShell
 (
 )
 ;
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 window
 =

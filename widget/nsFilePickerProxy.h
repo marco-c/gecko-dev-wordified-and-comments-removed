@@ -57,7 +57,7 @@ class
 nsIFile
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -94,7 +94,7 @@ NS_DECL_ISUPPORTS
 NS_IMETHODIMP
 Init
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aParent
 const

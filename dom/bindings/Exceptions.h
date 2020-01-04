@@ -36,7 +36,7 @@ class
 nsIStackFrame
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 template
 <
@@ -76,7 +76,7 @@ EmptyCString
 void
 ThrowAndReport
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsresult

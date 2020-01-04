@@ -37,7 +37,7 @@ AVInputPort
 >
 Create
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsIInputPortListener
@@ -76,7 +76,7 @@ private
 explicit
 AVInputPort
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

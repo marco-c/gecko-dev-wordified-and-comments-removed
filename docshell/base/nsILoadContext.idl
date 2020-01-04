@@ -118,7 +118,7 @@ nsISupports
 idl
 "
 interface
-nsIDOMWindow
+mozIDOMWindowProxy
 ;
 interface
 nsIDOMElement
@@ -184,15 +184,15 @@ happening
 scriptable
 uuid
 (
-c71ef717
+2813a7a3
 -
-8fb9
+d084
 -
-425e
+4d00
 -
-98ef
+acd0
 -
-aef5894890f8
+f76620315c02
 )
 ]
 interface
@@ -275,7 +275,7 @@ window
 /
 readonly
 attribute
-nsIDOMWindow
+mozIDOMWindowProxy
 associatedWindow
 ;
 /
@@ -340,7 +340,7 @@ window
 /
 readonly
 attribute
-nsIDOMWindow
+mozIDOMWindowProxy
 topWindow
 ;
 /

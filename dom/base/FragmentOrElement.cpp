@@ -3994,7 +3994,7 @@ stopEvent
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 win
 =

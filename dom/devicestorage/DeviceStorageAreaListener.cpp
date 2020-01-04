@@ -295,7 +295,7 @@ DeviceStorageAreaListener
 :
 DeviceStorageAreaListener
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

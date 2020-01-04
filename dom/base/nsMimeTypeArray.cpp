@@ -123,7 +123,7 @@ nsMimeTypeArray
 :
 nsMimeTypeArray
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -191,7 +191,7 @@ Clear
 )
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 nsMimeTypeArray
 :
@@ -828,7 +828,7 @@ nsMimeType
 :
 nsMimeType
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsPluginElement
@@ -875,7 +875,7 @@ nsMimeType
 :
 nsMimeType
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -907,7 +907,7 @@ nsMimeType
 )
 {
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 nsMimeType
 :

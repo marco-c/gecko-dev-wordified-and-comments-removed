@@ -106,7 +106,7 @@ const
 char
 *
 aCommand
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 aDirectedToThisWindow
 nsIController
@@ -124,7 +124,7 @@ ObserverList
 >
 mObserversTable
 ;
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 mWindow
 ;

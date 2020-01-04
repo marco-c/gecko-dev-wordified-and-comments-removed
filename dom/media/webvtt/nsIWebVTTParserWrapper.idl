@@ -70,7 +70,7 @@ interface
 nsIWebVTTListener
 ;
 interface
-nsIDOMWindow
+mozIDOMWindow
 ;
 interface
 nsIVariant
@@ -100,15 +100,15 @@ js
 scriptable
 uuid
 (
-acf6e493
+8dfe016e
 -
-0092
+1701
 -
-4b26
+4618
 -
-b172
+9f5e
 -
-241e375c57ab
+9a6154e853f0
 )
 ]
 interface
@@ -177,7 +177,7 @@ void
 loadParser
 (
 in
-nsIDOMWindow
+mozIDOMWindow
 window
 )
 ;
@@ -413,7 +413,7 @@ nsIDOMHTMLElement
 convertCueToDOMTree
 (
 in
-nsIDOMWindow
+mozIDOMWindow
 window
 in
 nsISupports
@@ -564,7 +564,7 @@ void
 processCues
 (
 in
-nsIDOMWindow
+mozIDOMWindow
 window
 in
 nsIVariant

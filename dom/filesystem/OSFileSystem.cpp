@@ -131,7 +131,7 @@ OSFileSystem
 :
 Init
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -175,7 +175,7 @@ mWindow
 aWindow
 ;
 }
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 OSFileSystem
 :

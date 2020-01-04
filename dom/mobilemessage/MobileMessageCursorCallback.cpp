@@ -114,7 +114,7 @@ MobileMessageCursor
 :
 MobileMessageCursor
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsICursorContinueCallback

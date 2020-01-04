@@ -805,7 +805,7 @@ static
 nsresult
 GetPresShellFromWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 nsIPresShell
@@ -818,7 +818,7 @@ static
 nsresult
 GetSelectionControllerFromWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 nsISelectionController
@@ -1012,7 +1012,7 @@ nsSelectionCommandsBase
 :
 GetPresShellFromWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 nsIPresShell
@@ -1072,7 +1072,7 @@ nsSelectionCommandsBase
 :
 GetSelectionControllerFromWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 nsISelectionController
@@ -1129,7 +1129,7 @@ static
 void
 AdjustFocusAfterCaretMove
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 )
@@ -1183,7 +1183,7 @@ static
 bool
 IsCaretOnInWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowOuter
 *
 aWindow
 nsISelectionController
@@ -1457,7 +1457,7 @@ aCommandContext
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 piWindow
 (
@@ -1775,7 +1775,7 @@ aCommandContext
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 piWindow
 (
@@ -2051,7 +2051,7 @@ aCommandContext
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 piWindow
 (
@@ -2272,7 +2272,7 @@ aCommandContext
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 piWindow
 (
@@ -2458,7 +2458,7 @@ NS_OK
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -2580,7 +2580,7 @@ NS_OK
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -3065,7 +3065,7 @@ nullptr
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -4231,7 +4231,7 @@ aParams
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =

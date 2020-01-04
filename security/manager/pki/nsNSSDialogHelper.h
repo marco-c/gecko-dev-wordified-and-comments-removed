@@ -5,7 +5,7 @@ nsNSSDialogHelper_h
 define
 nsNSSDialogHelper_h
 class
-nsIDOMWindow
+mozIDOMWindowProxy
 ;
 class
 nsISupports
@@ -19,7 +19,7 @@ static
 nsresult
 openDialog
 (
-nsIDOMWindow
+mozIDOMWindowProxy
 *
 window
 const

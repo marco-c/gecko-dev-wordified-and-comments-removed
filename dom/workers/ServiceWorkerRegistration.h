@@ -62,7 +62,7 @@ NotificationBinding
 h
 "
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -218,7 +218,7 @@ updatefound
 )
 ServiceWorkerRegistrationBase
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const
@@ -314,6 +314,9 @@ ServiceWorkerRegistrationBase
 public
 ServiceWorkerRegistrationListener
 {
+friend
+nsPIDOMWindowInner
+;
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
@@ -502,12 +505,9 @@ mScope
 }
 private
 :
-friend
-nsPIDOMWindow
-;
 ServiceWorkerRegistrationMainThread
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 const

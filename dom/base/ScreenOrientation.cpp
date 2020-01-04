@@ -250,7 +250,7 @@ ScreenOrientation
 :
 ScreenOrientation
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 nsScreen
@@ -1165,7 +1165,7 @@ nullptr
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 owner
 =
@@ -1814,7 +1814,7 @@ const
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 owner
 =
@@ -1990,7 +1990,7 @@ const
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 owner
 =
@@ -2460,15 +2460,14 @@ return
 NS_OK
 ;
 }
-nsGlobalWindow
+auto
 *
 win
 =
-static_cast
-<
 nsGlobalWindow
-*
->
+:
+:
+Cast
 (
 doc
 -

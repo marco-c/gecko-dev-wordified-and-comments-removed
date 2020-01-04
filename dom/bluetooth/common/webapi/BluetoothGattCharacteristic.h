@@ -335,7 +335,7 @@ aUuid
 )
 const
 ;
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -409,7 +409,7 @@ override
 ;
 BluetoothGattCharacteristic
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 BluetoothGattService
@@ -423,7 +423,7 @@ aChar
 ;
 BluetoothGattCharacteristic
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aOwner
 BluetoothGattService
@@ -509,7 +509,7 @@ mActive
 }
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mOwner
 ;

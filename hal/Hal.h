@@ -138,7 +138,7 @@ HalScreenConfiguration
 h
 "
 class
-nsIDOMWindow
+nsPIDOMWindowInner
 ;
 #
 ifndef
@@ -197,7 +197,7 @@ uint32_t
 >
 &
 pattern
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -224,7 +224,7 @@ id
 void
 CancelVibrate
 (
-nsIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )

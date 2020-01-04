@@ -175,7 +175,7 @@ class
 nsIGlobalObject
 ;
 class
-nsPIDOMWindow
+nsPIDOMWindowInner
 ;
 class
 nsIPrincipal
@@ -697,7 +697,7 @@ mScriptContext
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowInner
 >
 mWindow
 ;
@@ -888,7 +888,7 @@ aOther
 void
 CancelWorkersForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -896,7 +896,7 @@ aWindow
 void
 FreezeWorkersForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -904,7 +904,7 @@ aWindow
 void
 ThawWorkersForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -912,7 +912,7 @@ aWindow
 void
 SuspendWorkersForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
@@ -920,7 +920,7 @@ aWindow
 void
 ResumeWorkersForWindow
 (
-nsPIDOMWindow
+nsPIDOMWindowInner
 *
 aWindow
 )
