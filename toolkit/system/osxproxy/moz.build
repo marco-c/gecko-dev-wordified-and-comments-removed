@@ -102,6 +102,11 @@ nsOSXSystemProxySettings
 .
 mm
 '
+'
+ProxyUtils
+.
+mm
+'
 ]
 FINAL_LIBRARY
 =
