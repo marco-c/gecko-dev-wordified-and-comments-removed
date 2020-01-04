@@ -403,6 +403,11 @@ u
 "
 )
 ;
+if
+(
+!
+is_windows
+)
 do_check_eq
 (
 extra
