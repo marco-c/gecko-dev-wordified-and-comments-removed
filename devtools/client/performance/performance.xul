@@ -751,13 +751,6 @@ enable
 -
 allocations
 "
-class
-=
-"
-experimental
--
-option
-"
 type
 =
 "
