@@ -66,7 +66,6 @@ WebGLTexture
 ;
 public
 :
-explicit
 WebGLSampler
 (
 WebGLContext
