@@ -7779,11 +7779,11 @@ abs_mozilla_dir
 ]
                                    
 '
-taskcluster
+testing
 /
-ci
+mozharness
 /
-legacy
+configs
 /
 routes
 .
