@@ -14322,6 +14322,13 @@ SetRemoteTabs
 bool
 )
 NO_IMPL
+NS_IMETHOD
+IsTrackingProtectionOn
+(
+bool
+*
+)
+NO_IMPL
 #
 undef
 NO_IMPL
