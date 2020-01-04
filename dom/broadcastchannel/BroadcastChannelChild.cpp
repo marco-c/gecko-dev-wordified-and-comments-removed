@@ -348,6 +348,13 @@ return
 true
 ;
 }
+mBC
+-
+>
+RemoveDocFromBFCache
+(
+)
+;
 AutoJSAPI
 jsapi
 ;
