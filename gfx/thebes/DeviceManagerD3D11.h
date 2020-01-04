@@ -301,6 +301,12 @@ AttemptD3D11ContentDeviceCreationHelper
 IDXGIAdapter1
 *
 aAdapter
+RefPtr
+<
+ID3D11Device
+>
+&
+aOutDevice
 HRESULT
 &
 aResOut
