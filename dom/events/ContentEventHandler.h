@@ -412,7 +412,7 @@ aOffsetInFrame
 )
 ;
 nsresult
-ConvertToRootViewRelativeOffset
+ConvertToRootRelativeOffset
 (
 nsIFrame
 *
