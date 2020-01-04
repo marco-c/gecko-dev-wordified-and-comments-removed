@@ -1213,7 +1213,7 @@ bundle
 GetStringFromName
 (
 '
-start
+launchProfile
 '
 )
 )
