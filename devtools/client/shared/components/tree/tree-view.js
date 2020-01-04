@@ -3,6 +3,15 @@ use
 strict
 "
 ;
+define
+(
+function
+(
+require
+exports
+module
+)
+{
 const
 React
 =
@@ -89,7 +98,7 @@ React
 .
 PropTypes
 ;
-var
+let
 TreeView
 =
 React
@@ -1195,4 +1204,7 @@ module
 exports
 =
 TreeView
+;
+}
+)
 ;

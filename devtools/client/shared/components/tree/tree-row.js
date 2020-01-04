@@ -3,6 +3,15 @@ use
 strict
 "
 ;
+define
+(
+function
+(
+require
+exports
+module
+)
+{
 const
 React
 =
@@ -95,7 +104,7 @@ React
 .
 PropTypes
 ;
-var
+let
 TreeRow
 =
 React
@@ -739,7 +748,7 @@ cells
 }
 )
 ;
-var
+let
 RenderCell
 =
 props
@@ -754,7 +763,7 @@ props
 ;
 }
 ;
-var
+let
 RenderLabelCell
 =
 props
@@ -774,4 +783,7 @@ module
 exports
 =
 TreeRow
+;
+}
+)
 ;

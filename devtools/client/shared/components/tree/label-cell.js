@@ -3,6 +3,15 @@ use
 strict
 "
 ;
+define
+(
+function
+(
+require
+exports
+module
+)
+{
 const
 React
 =
@@ -38,7 +47,7 @@ React
 .
 PropTypes
 ;
-var
+let
 LabelCell
 =
 React
@@ -168,4 +177,7 @@ module
 exports
 =
 LabelCell
+;
+}
+)
 ;

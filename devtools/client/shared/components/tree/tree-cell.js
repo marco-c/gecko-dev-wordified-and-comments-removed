@@ -3,6 +3,15 @@ use
 strict
 "
 ;
+define
+(
+function
+(
+require
+exports
+module
+)
+{
 const
 React
 =
@@ -38,7 +47,7 @@ React
 .
 PropTypes
 ;
-var
+let
 TreeCell
 =
 React
@@ -364,7 +373,7 @@ props
 }
 )
 ;
-var
+let
 defaultRenderValue
 =
 props
@@ -388,4 +397,7 @@ module
 exports
 =
 TreeCell
+;
+}
+)
 ;

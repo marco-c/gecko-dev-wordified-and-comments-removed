@@ -3,7 +3,16 @@ use
 strict
 "
 ;
-var
+define
+(
+function
+(
+require
+exports
+module
+)
+{
+let
 ObjectProvider
 =
 {
@@ -301,4 +310,7 @@ exports
 ObjectProvider
 =
 ObjectProvider
+;
+}
+)
 ;
