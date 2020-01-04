@@ -106,15 +106,6 @@ include
 "
 mozilla
 /
-OperatorNewExtensions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ReverseIterator
 .
 h
@@ -1659,10 +1650,6 @@ aE
 {
 new
 (
-mozilla
-:
-:
-KnownNotNull
 static_cast
 <
 void
@@ -1764,10 +1751,6 @@ bug
 ;
 new
 (
-mozilla
-:
-:
-KnownNotNull
 static_cast
 <
 void
