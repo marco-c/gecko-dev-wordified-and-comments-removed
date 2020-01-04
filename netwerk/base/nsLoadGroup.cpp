@@ -2328,10 +2328,10 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PL_DHashTableRawRemove
-(
-&
 mRequests
+.
+RemoveEntry
+(
 entry
 )
 ;
