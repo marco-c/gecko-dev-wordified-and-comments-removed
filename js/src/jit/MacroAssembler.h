@@ -1749,7 +1749,6 @@ reg
 )
 DEFINED_ON
 (
-mips_shared
 x86_shared
 )
 ;
@@ -1762,7 +1761,6 @@ label
 )
 DEFINED_ON
 (
-mips_shared
 x86_shared
 )
 ;
@@ -1772,6 +1770,7 @@ pushReturnAddress
 )
 DEFINED_ON
 (
+mips_shared
 arm
 arm64
 )
@@ -1782,6 +1781,7 @@ popReturnAddress
 )
 DEFINED_ON
 (
+mips_shared
 arm
 arm64
 )
