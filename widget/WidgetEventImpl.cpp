@@ -1492,6 +1492,9 @@ KEY_NAME_INDEX_Symbol
 case
 KEY_NAME_INDEX_SymbolLock
 :
+case
+KEY_NAME_INDEX_Dead
+:
 return
 false
 ;
