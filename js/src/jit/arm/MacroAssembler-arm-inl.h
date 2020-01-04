@@ -4323,6 +4323,11 @@ label
 )
 ;
 }
+template
+<
+class
+L
+>
 void
 MacroAssembler
 :
@@ -4335,8 +4340,7 @@ Register
 lhs
 Register
 rhs
-Label
-*
+L
 label
 )
 {
@@ -4403,6 +4407,11 @@ label
 )
 ;
 }
+template
+<
+class
+L
+>
 void
 MacroAssembler
 :
@@ -4417,8 +4426,7 @@ Register64
 rhs
 Register
 temp
-Label
-*
+L
 label
 )
 {

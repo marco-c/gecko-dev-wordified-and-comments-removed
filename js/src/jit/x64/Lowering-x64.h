@@ -216,7 +216,7 @@ mod
 )
 ;
 void
-lowerUDiv64
+lowerUDivI64
 (
 MDiv
 *
@@ -224,7 +224,7 @@ div
 )
 ;
 void
-lowerUMod64
+lowerUModI64
 (
 MMod
 *

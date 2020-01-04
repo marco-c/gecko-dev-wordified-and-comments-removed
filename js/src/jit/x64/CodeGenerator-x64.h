@@ -314,9 +314,9 @@ lir
 )
 ;
 void
-visitUDivOrMod64
+visitUDivOrModI64
 (
-LUDivOrMod64
+LUDivOrModI64
 *
 lir
 )

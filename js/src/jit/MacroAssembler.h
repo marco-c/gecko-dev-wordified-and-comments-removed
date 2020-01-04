@@ -4781,6 +4781,11 @@ x86
 x64
 )
 ;
+template
+<
+class
+L
+>
 inline
 void
 branchTestPtr
@@ -4791,8 +4796,7 @@ Register
 lhs
 Register
 rhs
-Label
-*
+L
 label
 )
 PER_SHARED_ARCH
@@ -4831,6 +4835,11 @@ label
 )
 PER_SHARED_ARCH
 ;
+template
+<
+class
+L
+>
 inline
 void
 branchTest64
@@ -4843,8 +4852,7 @@ Register64
 rhs
 Register
 temp
-Label
-*
+L
 label
 )
 PER_ARCH

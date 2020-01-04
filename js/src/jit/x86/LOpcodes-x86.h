@@ -53,5 +53,15 @@ _
 (
 UDivOrModConstant
 )
+\
+_
+(
+UDivOrModI64
+)
+\
+_
+(
+DivOrModI64
+)
 #
 endif
