@@ -279,6 +279,12 @@ NS_LITERAL_CSTRING
 /
 "
 )
+NS_LITERAL_CSTRING
+(
+"
+/
+"
+)
 uri
 )
 )
@@ -309,6 +315,10 @@ const
 nsACString
 &
 aPath
+const
+nsACString
+&
+aPathname
 nsACString
 &
 aResult
