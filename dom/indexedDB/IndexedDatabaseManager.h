@@ -271,6 +271,12 @@ ExperimentalFeaturesEnabled
 )
 ;
 }
+static
+bool
+IsFileHandleEnabled
+(
+)
+;
 already_AddRefed
 <
 FileManager

@@ -66,6 +66,10 @@ PBackgroundIDBVersionChangeTransaction
 ;
 include
 protocol
+PBackgroundMutableFile
+;
+include
+protocol
 PBlob
 ;
 include

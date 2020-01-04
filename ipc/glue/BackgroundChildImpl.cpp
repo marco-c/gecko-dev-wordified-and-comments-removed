@@ -372,6 +372,11 @@ ThreadLocal
 ThreadLocal
 (
 )
+:
+mCurrentFileHandle
+(
+nullptr
+)
 {
 MOZ_COUNT_CTOR
 (
