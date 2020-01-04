@@ -412,6 +412,11 @@ return
 mBlockedOnRwin
 ;
 }
+bool
+ChannelPipeFull
+(
+)
+;
 virtual
 bool
 HasSink

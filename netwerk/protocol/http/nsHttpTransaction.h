@@ -480,6 +480,15 @@ mInitialRwin
 ;
 }
 ;
+bool
+ChannelPipeFull
+(
+)
+{
+return
+mWaitingOnPipeOut
+;
+}
 const
 TimingStruct
 Timings
@@ -1135,6 +1144,9 @@ mContentDecodingCheck
 ;
 bool
 mDeferredSendProgress
+;
+bool
+mWaitingOnPipeOut
 ;
 bool
 mReportedStart
