@@ -4,6 +4,17 @@ talos
 powers
 chrome
 /
+content
+talos
+-
+powers
+-
+content
+content
+/
+contentaccessible
+=
+yes
 component
 {
 f5d53443
