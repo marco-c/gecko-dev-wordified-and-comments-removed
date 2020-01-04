@@ -62,7 +62,7 @@ kind
 .
 docker_image
 :
-DockerImageKind
+DockerImageTask
 '
 images_path
 :

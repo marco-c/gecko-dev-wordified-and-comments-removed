@@ -176,11 +176,16 @@ for
 dep
 in
 task_def
-[
+.
+get
+(
 '
 dependencies
 '
+[
 ]
+)
+                       
 if
 dep
 in
