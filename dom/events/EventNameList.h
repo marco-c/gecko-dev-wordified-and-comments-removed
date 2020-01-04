@@ -765,7 +765,7 @@ eBasicEventClass
 EVENT
 (
 timeupdate
-NS_TIMEUPDATE
+eTimeUpdate
 EventNameType_HTML
 eBasicEventClass
 )
