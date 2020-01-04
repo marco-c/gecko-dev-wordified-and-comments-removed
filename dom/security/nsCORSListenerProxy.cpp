@@ -1775,9 +1775,6 @@ uri
 )
 ;
 }
-nsAutoCString
-cred
-;
 if
 (
 aWithCredentials
@@ -1826,10 +1823,8 @@ false
 ;
 _retval
 .
-Assign
+Append
 (
-cred
-+
 space
 +
 scheme
