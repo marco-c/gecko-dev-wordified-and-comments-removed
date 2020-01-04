@@ -171,6 +171,11 @@ frame
 js
 '
 '
+gcli
+.
+js
+'
+'
 heap
 -
 snapshot

@@ -156,6 +156,11 @@ registry
 js
 '
 '
+gcli
+.
+js
+'
+'
 highlighters
 .
 js
