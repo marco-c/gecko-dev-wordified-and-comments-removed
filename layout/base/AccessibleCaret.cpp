@@ -1393,6 +1393,12 @@ IsEmpty
 )
 )
 {
+mImaginaryCaretRect
+=
+nsRect
+(
+)
+;
 return
 PositionChangedResult
 :
