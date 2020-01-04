@@ -3118,6 +3118,7 @@ if
 (
 href
 )
+{
 baseURI
 =
 node
@@ -3128,6 +3129,7 @@ baseURIObject
 ;
 break
 ;
+}
 }
 node
 =
