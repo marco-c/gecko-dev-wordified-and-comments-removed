@@ -89,6 +89,10 @@ aCreateSessionToken
 uint32_t
 aPromiseId
 const
+string
+&
+aInitDataType
+const
 uint8_t
 *
 aInitData
