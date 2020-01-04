@@ -341,7 +341,8 @@ eModeClasses
 {
 eNone
 eShrinkToFit
-eOverflowing
+eOverflowingVertical
+eOverflowingHorizontalOnly
 }
 ;
 void

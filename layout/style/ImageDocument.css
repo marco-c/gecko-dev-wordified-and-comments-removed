@@ -3,7 +3,9 @@ not
 print
 {
 .
-overflowing
+overflowingVertical
+.
+overflowingHorizontalOnly
 {
 cursor
 :
