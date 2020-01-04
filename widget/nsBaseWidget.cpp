@@ -4723,7 +4723,8 @@ Run
 )
 override
 {
-mAPZResult
+nsEventStatus
+result
 =
 mAPZC
 -
@@ -4739,7 +4740,7 @@ mInputBlockId
 ;
 if
 (
-mAPZResult
+result
 =
 =
 nsEventStatus_eConsumeNoDefault
@@ -4760,7 +4761,7 @@ DispatchWheelEventOnMainThread
 (
 mWheelInput
 mWidget
-mAPZResult
+result
 mInputBlockId
 mGuid
 )
@@ -4799,9 +4800,6 @@ mAPZC
 nsBaseWidget
 *
 mWidget
-;
-nsEventStatus
-mAPZResult
 ;
 uint64_t
 mInputBlockId
