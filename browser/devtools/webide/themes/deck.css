@@ -10,7 +10,9 @@ font
 -
 size
 :
-15px
+0
+.
+9em
 ;
 font
 -
@@ -101,9 +103,7 @@ font
 -
 size
 :
-2
-.
-5em
+2em
 ;
 font
 -
@@ -217,7 +217,7 @@ min
 -
 width
 :
-130px
+100px
 ;
 }
 th
