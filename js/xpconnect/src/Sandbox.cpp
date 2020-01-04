@@ -1642,7 +1642,6 @@ RequestBinding
 GetConstructorObject
 (
 cx
-obj
 )
 &
 &
@@ -1655,7 +1654,6 @@ ResponseBinding
 GetConstructorObject
 (
 cx
-obj
 )
 &
 &
@@ -1668,7 +1666,6 @@ HeadersBinding
 GetConstructorObject
 (
 cx
-obj
 )
 ;
 }
@@ -4736,6 +4733,26 @@ HandleObject
 obj
 )
 {
+MOZ_ASSERT
+(
+js
+:
+:
+GetContextCompartment
+(
+cx
+)
+=
+=
+js
+:
+:
+GetObjectCompartment
+(
+obj
+)
+)
+;
 if
 (
 CSS
@@ -4751,7 +4768,6 @@ CSSBinding
 GetConstructorObject
 (
 cx
-obj
 )
 )
 return
@@ -4772,7 +4788,6 @@ XMLHttpRequestBinding
 GetConstructorObject
 (
 cx
-obj
 )
 )
 return
@@ -4793,7 +4808,6 @@ TextEncoderBinding
 GetConstructorObject
 (
 cx
-obj
 )
 )
 return
@@ -4814,7 +4828,6 @@ TextDecoderBinding
 GetConstructorObject
 (
 cx
-obj
 )
 )
 return
@@ -4835,7 +4848,6 @@ URLBinding
 GetConstructorObject
 (
 cx
-obj
 )
 )
 return
@@ -4856,7 +4868,6 @@ URLSearchParamsBinding
 GetConstructorObject
 (
 cx
-obj
 )
 )
 return
@@ -4919,7 +4930,6 @@ BlobBinding
 GetConstructorObject
 (
 cx
-obj
 )
 )
 return
@@ -4940,7 +4950,6 @@ DirectoryBinding
 GetConstructorObject
 (
 cx
-obj
 )
 )
 return
@@ -4961,7 +4970,6 @@ FileBinding
 GetConstructorObject
 (
 cx
-obj
 )
 )
 return
@@ -5056,7 +5064,6 @@ FileReaderBinding
 GetConstructorObject
 (
 cx
-obj
 )
 )
 return
@@ -5138,6 +5145,26 @@ obj
 )
 )
 ;
+MOZ_ASSERT
+(
+js
+:
+:
+GetContextCompartment
+(
+cx
+)
+=
+=
+js
+:
+:
+GetObjectCompartment
+(
+obj
+)
+)
+;
 if
 (
 indexedDB
@@ -5151,7 +5178,6 @@ IndexedDatabaseManager
 ResolveSandboxBinding
 (
 cx
-obj
 )
 &
 &
@@ -6026,7 +6052,6 @@ PromiseBinding
 GetConstructorObject
 (
 cx
-sandbox
 )
 )
 return
