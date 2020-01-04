@@ -1763,7 +1763,7 @@ return
 NS_OK
 ;
 }
-void
+nsresult
 CryptoKey
 :
 :
@@ -1793,6 +1793,7 @@ mPrivateKey
 nullptr
 ;
 return
+NS_OK
 ;
 }
 mPrivateKey
@@ -1802,8 +1803,15 @@ SECKEY_CopyPrivateKey
 aPrivateKey
 )
 ;
+return
+mPrivateKey
+?
+NS_OK
+:
+NS_ERROR_OUT_OF_MEMORY
+;
 }
-void
+nsresult
 CryptoKey
 :
 :
@@ -1833,6 +1841,7 @@ mPublicKey
 nullptr
 ;
 return
+NS_OK
 ;
 }
 mPublicKey
@@ -1841,6 +1850,13 @@ SECKEY_CopyPublicKey
 (
 aPublicKey
 )
+;
+return
+mPublicKey
+?
+NS_OK
+:
+NS_ERROR_OUT_OF_MEMORY
 ;
 }
 const
