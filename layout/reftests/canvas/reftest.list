@@ -1485,6 +1485,14 @@ clip
 ref
 .
 html
+fuzzy
+-
+if
+(
+azureSkia
+1
+15
+)
 =
 =
 transformed
