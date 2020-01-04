@@ -9236,12 +9236,6 @@ html
 ref
 .
 html
-fails
--
-if
-(
-OSX
-)
 !
 =
 359903
@@ -9264,11 +9258,6 @@ removed
 in
 bug
 1010675
-#
-failure
-is
-bug
-1145589
 !
 =
 359903

@@ -19929,9 +19929,6 @@ switch
 aWidgetType
 )
 {
-case
-NS_THEME_BUTTON
-:
 /
 /
 Radios
