@@ -2267,11 +2267,9 @@ aVisitor
 mEvent
 -
 >
-mFlags
-.
-mPropagationStopped
-=
-true
+StopPropagation
+(
+)
 ;
 }
 return
