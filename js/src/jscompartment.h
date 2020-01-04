@@ -1492,6 +1492,11 @@ checkBaseShapeTableAfterMovingGC
 (
 )
 ;
+void
+checkScriptMapsAfterMovingGC
+(
+)
+;
 #
 endif
 js
@@ -2112,6 +2117,11 @@ fixupAfterMovingGC
 ;
 void
 fixupGlobal
+(
+)
+;
+void
+fixupScriptMapsAfterMovingGC
 (
 )
 ;
