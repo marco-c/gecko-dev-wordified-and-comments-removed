@@ -4093,11 +4093,12 @@ subjectPrincipal
 &
 &
 !
-subjectPrincipal
--
->
-GetIsExpandedPrincipal
+nsContentUtils
+:
+:
+IsSystemOrExpandedPrincipal
 (
+subjectPrincipal
 )
 &
 &
