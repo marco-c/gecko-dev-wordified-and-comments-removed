@@ -828,6 +828,12 @@ const
 MultiTouchInput
 &
 aEvent
+nsTArray
+<
+TouchBehaviorFlags
+>
+*
+aOutTouchBehaviors
 HitTestResult
 *
 aOutHitResult
