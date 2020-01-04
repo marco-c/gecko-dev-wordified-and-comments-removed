@@ -278,6 +278,9 @@ metadata_
 ExportVector
 exports_
 ;
+ImportVector
+imports_
+;
 DataSegmentVector
 dataSegments_
 ;
@@ -330,7 +333,7 @@ JumpSiteArray
 jumpThunks_
 ;
 bool
-tableExported_
+externalTable_
 ;
 bool
 parallel_
@@ -453,6 +456,10 @@ public
 explicit
 ModuleGenerator
 (
+ImportVector
+&
+&
+imports
 )
 ;
 ~
@@ -836,10 +843,6 @@ newMinMemoryLength
 SharedModule
 finish
 (
-ImportVector
-&
-&
-imports
 const
 ShareableBytes
 &

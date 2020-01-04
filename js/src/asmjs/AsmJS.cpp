@@ -7649,6 +7649,12 @@ atomicsPresent_
 (
 false
 )
+mg_
+(
+ImportVector
+(
+)
+)
 errorString_
 (
 nullptr
@@ -12029,9 +12035,6 @@ asmJSMetadata_
 >
 srcStart
 ;
-ImportVector
-imports
-;
 SharedBytes
 bytes
 =
@@ -12055,10 +12058,6 @@ mg_
 .
 finish
 (
-Move
-(
-imports
-)
 *
 bytes
 )

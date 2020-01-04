@@ -23913,7 +23913,7 @@ sig
 sigIndex
 table
 .
-length
+initial
 table
 .
 globalDataOffset
