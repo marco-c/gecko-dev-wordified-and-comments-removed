@@ -1686,7 +1686,7 @@ GetEditingHost
 (
 )
 ;
-void
+bool
 GetLang
 (
 nsAString
@@ -1823,10 +1823,14 @@ hasAttr
 )
 {
 return
+true
 ;
 }
 }
 }
+return
+false
+;
 }
 virtual
 already_AddRefed
