@@ -7718,7 +7718,7 @@ revision
 vcs
 =
 '
-hgtool
+hg
 '
 )
         
