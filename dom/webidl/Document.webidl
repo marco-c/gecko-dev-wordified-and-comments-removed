@@ -364,7 +364,11 @@ createElement
 DOMString
 localName
 optional
+(
 ElementCreationOptions
+or
+DOMString
+)
 options
 )
 ;
