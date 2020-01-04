@@ -89,6 +89,10 @@ pkgconf
 '
             
 '
+watchman
+'
+            
+'
 zip
 '
         
