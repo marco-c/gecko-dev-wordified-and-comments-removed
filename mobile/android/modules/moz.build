@@ -100,11 +100,6 @@ AndroidLog
 jsm
 '
 '
-ContactService
-.
-jsm
-'
-'
 dbg
 -
 browser
