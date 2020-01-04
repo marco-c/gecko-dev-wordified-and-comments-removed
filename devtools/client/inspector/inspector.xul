@@ -1655,6 +1655,17 @@ true
 /
 >
 <
+box
+id
+=
+"
+inspector
+-
+searchlabel
+"
+/
+>
+<
 textbox
 id
 =
@@ -1686,7 +1697,7 @@ placeholder
 &
 inspectorSearchHTML
 .
-label2
+label3
 ;
 "
 /
