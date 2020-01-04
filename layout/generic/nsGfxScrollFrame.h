@@ -2347,6 +2347,7 @@ aDesiredSize
 void
 PlaceScrollArea
 (
+const
 ScrollReflowInput
 &
 aState
@@ -2475,14 +2476,6 @@ aOverflowAreas
 )
 ;
 }
-void
-AdjustForPerspective
-(
-nsRect
-&
-aScrollableOverflow
-)
-;
 virtual
 void
 SetInitialChildList
