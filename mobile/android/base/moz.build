@@ -1879,13 +1879,6 @@ java
 '
 db
 /
-TopSitesCursorWrapper
-.
-java
-'
-'
-db
-/
 UrlAnnotations
 .
 java
