@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 test_generator
 =
@@ -858,6 +863,7 @@ cookiemgr
 .
 enumerator
 ;
+let
 i
 =
 0
