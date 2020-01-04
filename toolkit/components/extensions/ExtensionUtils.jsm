@@ -6090,7 +6090,9 @@ normalizeTime
 date
 )
 {
-return
+const
+result
+=
 new
 Date
 (
@@ -6124,6 +6126,13 @@ date
 )
 :
 date
+)
+;
+return
+result
+.
+valueOf
+(
 )
 ;
 }
