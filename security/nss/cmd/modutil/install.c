@@ -3412,10 +3412,17 @@ rm_dash_r
 filename
 )
 )
+{
+PR_CloseDir
+(
+dir
+)
+;
 return
 -
 1
 ;
+}
 }
 if
 (

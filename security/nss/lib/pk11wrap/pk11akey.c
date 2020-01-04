@@ -92,13 +92,6 @@ h
 #
 include
 "
-sslerr
-.
-h
-"
-#
-include
-"
 sechash
 .
 h
@@ -301,6 +294,7 @@ signedcount
 =
 0
 ;
+unsigned
 int
 templateCount
 =
@@ -1874,6 +1868,10 @@ ecPoint
 ulValueLen
 =
 =
+(
+unsigned
+int
+)
 keyLen
 )
 )
@@ -1954,6 +1952,10 @@ publicKeyValue
 len
 =
 =
+(
+unsigned
+int
+)
 keyLen
 )
 {
@@ -2106,6 +2108,7 @@ SECKEYPublicKey
 *
 pubKey
 ;
+unsigned
 int
 templateCount
 =
@@ -6884,6 +6887,12 @@ len
 =
 length
 ;
+pkData
+.
+type
+=
+siBuffer
+;
 arena
 =
 PORT_NewArena
@@ -10147,6 +10156,7 @@ keyclass
 =
 CKO_PUBLIC_KEY
 ;
+unsigned
 int
 tsize
 =
@@ -10384,6 +10394,7 @@ keyclass
 =
 CKO_PRIVATE_KEY
 ;
+unsigned
 int
 tsize
 =

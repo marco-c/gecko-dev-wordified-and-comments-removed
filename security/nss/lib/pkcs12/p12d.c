@@ -7466,6 +7466,12 @@ nickname
 +
 1
 ;
+tempNick
+.
+type
+=
+siAsciiString
+;
 if
 (
 nickArg
@@ -10670,6 +10676,7 @@ i
 =
 0
 ;
+(
 safeBag
 =
 p12dcx
@@ -10679,6 +10686,7 @@ safeBags
 [
 i
 ]
+)
 ;
 i
 +

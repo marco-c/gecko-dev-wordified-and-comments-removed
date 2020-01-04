@@ -4694,6 +4694,12 @@ memory
 "
 )
 ;
+PORT_FreeArena
+(
+arena
+PR_FALSE
+)
+;
 return
 SECFailure
 ;

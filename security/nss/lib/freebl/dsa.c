@@ -2231,6 +2231,7 @@ y
 mp_err
 err
 ;
+unsigned
 int
 dsa_subprime_len
 dsa_signature_len

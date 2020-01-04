@@ -1623,6 +1623,13 @@ PORT_Alloc
 modulusLen
 )
 ;
+result
+-
+>
+type
+=
+siBuffer
+;
 if
 (
 result

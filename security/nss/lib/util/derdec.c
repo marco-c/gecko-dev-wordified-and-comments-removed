@@ -652,9 +652,14 @@ SECFailure
 *
 header_len_p
 =
+(
+int
+)
+(
 bp
 -
 buf
+)
 ;
 *
 contents_len_p

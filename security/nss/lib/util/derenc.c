@@ -1156,7 +1156,6 @@ under_kind
 ;
 PRBool
 explicit
-optional
 universal
 ;
 contents_len
@@ -1204,18 +1203,6 @@ explicit
 encode_kind
 &
 DER_EXPLICIT
-)
-?
-PR_TRUE
-:
-PR_FALSE
-;
-optional
-=
-(
-encode_kind
-&
-DER_OPTIONAL
 )
 ?
 PR_TRUE

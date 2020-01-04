@@ -2074,6 +2074,7 @@ CERTCertificateList
 *
 certList
 ;
+unsigned
 int
 count
 =

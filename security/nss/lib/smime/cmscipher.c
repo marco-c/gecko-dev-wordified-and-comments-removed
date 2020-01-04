@@ -413,6 +413,8 @@ cc
 void
 *
 ciphercx
+=
+NULL
 ;
 SECStatus
 rv
@@ -672,6 +674,10 @@ cx
 =
 ciphercx
 ;
+ciphercx
+=
+NULL
+;
 cc
 -
 >
@@ -714,6 +720,18 @@ param
 PR_TRUE
 )
 ;
+if
+(
+ciphercx
+)
+{
+PK11_DestroyContext
+(
+ciphercx
+PR_TRUE
+)
+;
+}
 return
 cc
 ;
@@ -990,6 +1008,7 @@ PRBool
 final
 )
 {
+unsigned
 int
 blocks
 bsize

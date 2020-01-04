@@ -2674,6 +2674,9 @@ Bidx
 ;
 Bidx
 <
+(
+int
+)
 B
 .
 len

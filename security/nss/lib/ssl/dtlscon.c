@@ -267,9 +267,8 @@ suite
 suite
 )
 {
-SECStatus
-rv
-=
+PORT_CheckSuccess
+(
 ssl3_CipherPrefSet
 (
 ss
@@ -277,13 +276,6 @@ ss
 suite
 PR_FALSE
 )
-;
-PORT_Assert
-(
-rv
-=
-=
-SECSuccess
 )
 ;
 }
@@ -1465,6 +1457,10 @@ if
 fragment_offset
 <
 =
+(
+unsigned
+int
+)
 ss
 -
 >
@@ -2528,6 +2524,9 @@ fragment_len
 =
 PR_MIN
 (
+(
+PRUint32
+)
 room_left
 -
 (

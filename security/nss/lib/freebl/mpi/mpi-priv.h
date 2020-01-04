@@ -1370,7 +1370,6 @@ c
 off
 )
 \
-(
 s_mpv_mul_d_add_prop
 (
 MP_DIGITS
@@ -1388,8 +1387,6 @@ c
 )
 +
 off
-)
-MP_OKAY
 )
 typedef
 struct

@@ -739,6 +739,12 @@ param
 PR_TRUE
 )
 ;
+PK11_DestroyContext
+(
+ciphercx
+PR_TRUE
+)
+;
 return
 NULL
 ;
@@ -1130,6 +1136,7 @@ PRBool
 final
 )
 {
+unsigned
 int
 blocks
 bsize

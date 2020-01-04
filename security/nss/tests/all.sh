@@ -2314,6 +2314,7 @@ sdr
 ocsp
 pkits
 chains
+ssl_gtests
 "
 echo
 "
@@ -2649,6 +2650,7 @@ dbupgrade
 sdr
 ocsp
 pkits
+ssl_gtests
 "
 echo
 "
@@ -3060,6 +3062,7 @@ ocsp
 merge
 pkits
 chains
+ssl_gtests
 "
 TESTS
 =

@@ -917,6 +917,12 @@ secrv
 SECSuccess
 )
 {
+PORT_FreeArena
+(
+arena
+PR_FALSE
+)
+;
 return
 NULL
 ;
@@ -5848,6 +5854,7 @@ failureCount
 =
 0
 ;
+unsigned
 int
 index
 ;
@@ -6095,6 +6102,7 @@ c
 >
 object
 ;
+unsigned
 int
 i
 ;

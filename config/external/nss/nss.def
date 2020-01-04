@@ -787,3 +787,4 @@ VFY_VerifyData
 VFY_VerifyDataWithAlgorithmID
 VFY_VerifyDigestDirect
 _SGN_VerifyPKCS1DigestInfo
+__PK11_SetCertificateNickname

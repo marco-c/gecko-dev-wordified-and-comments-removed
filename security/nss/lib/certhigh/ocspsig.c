@@ -2380,6 +2380,9 @@ privKey
 if
 (
 br
+&
+&
+br
 -
 >
 responseSignature

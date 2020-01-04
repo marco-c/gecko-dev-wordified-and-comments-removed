@@ -338,6 +338,10 @@ break
 }
 PORT_Assert
 (
+(
+unsigned
+int
+)
 nb
 <
 =
@@ -349,6 +353,10 @@ remainder
 ;
 if
 (
+(
+unsigned
+int
+)
 nb
 >
 gs
