@@ -506,10 +506,6 @@ const
 OptionalURIParams
 &
 apiRedirectUri
-const
-OptionalCorsPreflightArgs
-&
-aCorsPreflightArgs
 )
 override
 ;
