@@ -344,8 +344,6 @@ dataReady
 :
 false
 load
-:
-function
 (
 )
 {
@@ -537,8 +535,6 @@ this
 ;
 }
 ensureDataReady
-:
-function
 (
 )
 {
@@ -766,8 +762,6 @@ _processLoadedData
 ;
 }
 _processLoadedData
-:
-function
 (
 )
 {
@@ -919,8 +913,6 @@ disabledHosts
 ;
 }
 saveSoon
-:
-function
 (
 )
 {
@@ -938,8 +930,6 @@ _saver
 :
 null
 save
-:
-function
 (
 )
 {
