@@ -199,6 +199,14 @@ nsAsyncRedirectVerifyHelper
 (
 )
 :
+mFlags
+(
+0
+)
+mWaitingForRedirectCallback
+(
+false
+)
 mCallbackInitiated
 (
 false
