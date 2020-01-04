@@ -130,6 +130,15 @@ StructuredCloneReadInfo
 ;
 inline
 StructuredCloneReadInfo
+(
+StructuredCloneReadInfo
+&
+&
+aOther
+)
+;
+inline
+StructuredCloneReadInfo
 &
 operator
 =
