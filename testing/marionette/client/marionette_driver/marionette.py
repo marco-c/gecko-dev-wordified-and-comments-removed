@@ -4180,6 +4180,8 @@ DEFAULT_SHUTDOWN_TIMEOUT
 =
 65
     
+do_process_check
+    
 def
 __init__
 (
@@ -7520,6 +7522,8 @@ set_prefs
 original_prefs
 )
     
+do_process_check
+    
 def
 enforce_gecko_prefs
 (
@@ -8035,6 +8039,8 @@ was
 aborted
 '
 tb
+    
+do_process_check
     
 def
 restart
