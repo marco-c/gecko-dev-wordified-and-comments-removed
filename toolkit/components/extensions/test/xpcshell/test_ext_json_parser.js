@@ -30,7 +30,6 @@ Extension
 .
 generateXPI
 (
-ID
 {
 files
 :
