@@ -930,10 +930,14 @@ PrefFontList
 >
 mGenericMappings
 ;
-nsRefPtrHashtable
+nsDataHashtable
 <
 nsCStringHashKey
+nsTArray
+<
 gfxFontFamily
+*
+>
 >
 mFcSubstituteCache
 ;
