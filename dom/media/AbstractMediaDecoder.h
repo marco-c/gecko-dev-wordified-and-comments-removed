@@ -136,15 +136,6 @@ GetReentrantMonitor
 ;
 virtual
 bool
-IsShutdown
-(
-)
-const
-=
-0
-;
-virtual
-bool
 IsOggDecoderShutdown
 (
 )

@@ -78,15 +78,6 @@ override
 ;
 virtual
 bool
-IsShutdown
-(
-)
-const
-final
-override
-;
-virtual
-bool
 OnStateMachineTaskQueue
 (
 )
