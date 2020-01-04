@@ -291,6 +291,9 @@ allowChromeProcess
 profilerDataFilterable
 :
 true
+heapSnapshots
+:
+true
 }
 sayHello
 :
