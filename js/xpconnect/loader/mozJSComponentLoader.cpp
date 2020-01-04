@@ -1789,7 +1789,13 @@ entry
 new
 ModuleEntry
 (
+RootingContext
+:
+:
+get
+(
 cx
+)
 )
 )
 ;
@@ -5293,7 +5299,13 @@ newEntry
 new
 ModuleEntry
 (
+RootingContext
+:
+:
+get
+(
 callercx
+)
 )
 ;
 if
