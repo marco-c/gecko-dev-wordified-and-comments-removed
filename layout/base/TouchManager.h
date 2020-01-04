@@ -70,10 +70,6 @@ aCurrentEventContent
 )
 ;
 static
-bool
-gPreventMouseEvents
-;
-static
 nsRefPtrHashtable
 <
 nsUint32HashKey
