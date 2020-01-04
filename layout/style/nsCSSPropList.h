@@ -3476,7 +3476,7 @@ kClearKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
-CSS_PROP_DISPLAY
+CSS_PROP_EFFECTS
 (
 clip
 clip
@@ -3490,7 +3490,7 @@ CSS_PROPERTY_UNITLESS_LENGTH_QUIRK
 nullptr
 offsetof
 (
-nsStyleDisplay
+nsStyleEffects
 mClip
 )
 eStyleAnimType_Custom
