@@ -2310,7 +2310,7 @@ js
 :
 SetScriptEnvironmentPreparer
 (
-mJSRuntime
+mJSContext
 &
 mEnvironmentPreparer
 )

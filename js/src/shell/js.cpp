@@ -1030,10 +1030,7 @@ js
 :
 SetScriptEnvironmentPreparer
 (
-JS_GetRuntime
-(
 cx
-)
 this
 )
 ;

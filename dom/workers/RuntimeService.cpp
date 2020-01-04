@@ -3685,7 +3685,7 @@ js
 :
 SetCTypesActivityCallback
 (
-aRuntime
+workerCx
 CTypesActivityCallback
 )
 ;
