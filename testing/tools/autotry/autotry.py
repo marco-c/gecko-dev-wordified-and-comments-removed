@@ -221,9 +221,6 @@ sm
 -
 warnaserr
 '
-'
-all
-'
 ]
         
 validate_choices
