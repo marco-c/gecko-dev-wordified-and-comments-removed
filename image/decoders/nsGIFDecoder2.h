@@ -63,6 +63,9 @@ DoDecode
 SourceBufferIterator
 &
 aIterator
+IResumable
+*
+aOnResume
 )
 override
 ;

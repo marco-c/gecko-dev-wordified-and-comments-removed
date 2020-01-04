@@ -141,12 +141,11 @@ Init
 nsresult
 Decode
 (
-NotNull
-<
 IResumable
 *
->
 aOnResume
+=
+nullptr
 )
 ;
 bool
@@ -734,6 +733,9 @@ DoDecode
 SourceBufferIterator
 &
 aIterator
+IResumable
+*
+aOnResume
 )
 =
 0
