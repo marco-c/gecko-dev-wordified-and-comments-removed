@@ -508,6 +508,12 @@ loadURI
 testURL
 )
 ;
+yield
+promiseErrorPageLoaded
+(
+browser
+)
+;
 ok
 (
 !
