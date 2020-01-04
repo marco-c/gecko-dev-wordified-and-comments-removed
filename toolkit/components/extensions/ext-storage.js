@@ -69,8 +69,11 @@ ExtensionUtils
 ;
 extensions
 .
-registerPrivilegedAPI
+registerSchemaAPI
 (
+"
+storage
+"
 "
 storage
 "
