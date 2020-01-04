@@ -143,6 +143,15 @@ extensions
 /
 schemas
 /
+notifications
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 runtime
 .
 json
