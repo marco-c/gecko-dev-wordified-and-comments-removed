@@ -1381,12 +1381,6 @@ locales_property
         
 self
 .
-l10n_dir
-=
-None
-        
-self
-.
 package_urls
 =
 {
@@ -5165,17 +5159,6 @@ self
 _copy_mozconfig
 (
 )
-        
-env
-[
-'
-L10NBASEDIR
-'
-]
-=
-self
-.
-l10n_dir
         
 dirs
 =
