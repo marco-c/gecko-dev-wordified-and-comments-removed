@@ -751,9 +751,6 @@ aApp
 .
 origin
 false
-aApp
-.
-isCachedPackage
 )
 ;
 if
@@ -876,16 +873,6 @@ aPermValue
 browserFlag
 :
 false
-localId
-:
-aApp
-.
-localId
-isCachedPackage
-:
-aApp
-.
-isCachedPackage
 }
 )
 ;

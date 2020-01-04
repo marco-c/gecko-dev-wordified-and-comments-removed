@@ -163,11 +163,9 @@ try
 principals
 =
 [
-Services
+BrowserUtils
 .
-scriptSecurityManager
-.
-createCodebasePrincipalFromOrigin
+principalFromOrigin
 (
 origin
 )
