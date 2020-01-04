@@ -165,13 +165,5 @@ InstanceData
 instanceData
 )
 ;
-bool
-pluginNativeWidgetIsVisible
-(
-InstanceData
-*
-instanceData
-)
-;
 #
 endif
