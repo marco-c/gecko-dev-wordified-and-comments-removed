@@ -93,7 +93,7 @@ example
 .
 com
 "
-sidebarURL
+shareURL
 :
 "
 https
@@ -116,7 +116,7 @@ test
 /
 social
 /
-social_sidebar
+social_share
 .
 html
 "
@@ -172,7 +172,7 @@ example
 .
 com
 "
-sidebarURL
+shareURL
 :
 "
 https
@@ -197,7 +197,7 @@ test
 /
 social
 /
-social_sidebar
+social_share
 .
 html
 "
