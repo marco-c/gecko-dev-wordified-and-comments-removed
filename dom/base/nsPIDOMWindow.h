@@ -2220,6 +2220,15 @@ GetCurrentInnerWindow
 )
 ;
 }
+void
+SetInitialKeyboardIndicators
+(
+UIStateChangeType
+aShowAccelerators
+UIStateChangeType
+aShowFocusRings
+)
+;
 mozilla
 :
 :
