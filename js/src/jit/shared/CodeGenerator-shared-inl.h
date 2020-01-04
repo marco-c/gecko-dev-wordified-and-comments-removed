@@ -625,8 +625,8 @@ output
 }
 static
 inline
-Int32Key
-ToInt32Key
+RegisterOrInt32Constant
+ToRegisterOrInt32Constant
 (
 const
 LAllocation
@@ -644,7 +644,7 @@ isConstant
 )
 )
 return
-Int32Key
+RegisterOrInt32Constant
 (
 ToInt32
 (
@@ -653,7 +653,7 @@ a
 )
 ;
 return
-Int32Key
+RegisterOrInt32Constant
 (
 ToRegister
 (

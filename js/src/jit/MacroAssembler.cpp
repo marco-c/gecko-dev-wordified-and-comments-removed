@@ -3872,7 +3872,7 @@ checkUnboxedArrayCapacity
 Register
 obj
 const
-Int32Key
+RegisterOrInt32Constant
 &
 index
 Register
@@ -3934,7 +3934,7 @@ CapacityMask
 capacityIsIndex
 )
 ;
-branchKey
+branch32
 (
 Assembler
 :
@@ -4011,7 +4011,7 @@ CapacityArray
 temp
 )
 ;
-branchKey
+branch32
 (
 Assembler
 :

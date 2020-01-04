@@ -1228,7 +1228,7 @@ dataReg
 }
 ;
 struct
-Int32Key
+RegisterOrInt32Constant
 {
 bool
 isRegister_
@@ -1244,7 +1244,7 @@ constant_
 }
 ;
 explicit
-Int32Key
+RegisterOrInt32Constant
 (
 Register
 reg
@@ -1261,7 +1261,7 @@ reg
 {
 }
 explicit
-Int32Key
+RegisterOrInt32Constant
 (
 int32_t
 index

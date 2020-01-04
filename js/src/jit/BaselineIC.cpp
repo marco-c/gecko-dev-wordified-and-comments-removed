@@ -17363,7 +17363,7 @@ masm
 checkUnboxedArrayCapacity
 (
 obj
-Int32Key
+RegisterOrInt32Constant
 (
 key
 )
