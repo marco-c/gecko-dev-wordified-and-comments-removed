@@ -2319,7 +2319,7 @@ parameter
 is
 something
 very
-wierd
+weird
 (
 like
 "
