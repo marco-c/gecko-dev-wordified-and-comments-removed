@@ -170,6 +170,7 @@ thread_count
 uint32_t
 major
 minor
+micro
 ;
 FFmpegRuntimeLinker
 :
@@ -178,6 +179,7 @@ GetVersion
 (
 major
 minor
+micro
 )
 ;
 mCodecContext

@@ -321,6 +321,11 @@ ffmpeg
 /
 libav54
 '
+'
+ffmpeg
+/
+ffmpeg57
+'
 ]
 else
 :
