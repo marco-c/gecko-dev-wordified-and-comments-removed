@@ -6859,6 +6859,12 @@ return
 -
 1
 ;
+mozilla
+:
+:
+NeckoOriginAttributes
+attrs
+;
 rv
 [
 0
@@ -6884,7 +6890,7 @@ NS_SUCCEEDED
 cookieMgr2
 -
 >
-Add
+AddNative
 (
 NS_LITERAL_CSTRING
 (
@@ -6917,6 +6923,8 @@ false
 false
 true
 INT64_MAX
+&
+attrs
 )
 )
 ;
@@ -6930,7 +6938,7 @@ NS_SUCCEEDED
 cookieMgr2
 -
 >
-Add
+AddNative
 (
 NS_LITERAL_CSTRING
 (
@@ -6969,6 +6977,8 @@ PR_Now
 PR_USEC_PER_SEC
 +
 2
+&
+attrs
 )
 )
 ;
@@ -6982,7 +6992,7 @@ NS_SUCCEEDED
 cookieMgr2
 -
 >
-Add
+AddNative
 (
 NS_LITERAL_CSTRING
 (
@@ -7015,6 +7025,8 @@ false
 false
 true
 INT64_MAX
+&
+attrs
 )
 )
 ;
@@ -7319,12 +7331,6 @@ found
 &
 found
 ;
-mozilla
-:
-:
-NeckoOriginAttributes
-attrs
-;
 rv
 [
 10
@@ -7396,7 +7402,7 @@ NS_SUCCEEDED
 cookieMgr2
 -
 >
-Add
+AddNative
 (
 NS_LITERAL_CSTRING
 (
@@ -7429,6 +7435,8 @@ false
 false
 true
 INT64_MIN
+&
+attrs
 )
 )
 ;
