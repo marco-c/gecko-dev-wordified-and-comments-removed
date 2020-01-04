@@ -34288,10 +34288,17 @@ CSSToLayoutDeviceScale
 layoutDeviceScale
 =
 context
+?
+context
 -
 >
 CSSToDevPixelScale
 (
+)
+:
+CSSToLayoutDeviceScale
+(
+1
 )
 ;
 CSSToScreenScale
