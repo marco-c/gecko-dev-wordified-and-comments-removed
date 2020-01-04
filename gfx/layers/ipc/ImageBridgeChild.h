@@ -491,6 +491,15 @@ ImageContainer
 aContainer
 )
 ;
+static
+void
+FlushAllImagesAsync
+(
+ImageClient
+*
+aClient
+)
+;
 virtual
 void
 Connect
