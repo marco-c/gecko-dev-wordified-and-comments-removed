@@ -3314,9 +3314,13 @@ inputs
 join
 (
 [
-f
+self
 .
-full_path
+_pretty_path
+(
+f
+backend_file
+)
 for
 f
 in

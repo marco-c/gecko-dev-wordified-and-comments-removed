@@ -3597,8 +3597,9 @@ generate
 foo
 .
 py
-%
-s
+(
+srcdir
+)
 /
 foo
 -
@@ -3606,9 +3607,6 @@ data
 '
 %
 (
-env
-.
-topsrcdir
 env
 .
 topsrcdir
@@ -3646,8 +3644,9 @@ foo
 c
 .
 pp
-%
-s
+(
+srcdir
+)
 /
 foo
 -
@@ -3656,9 +3655,6 @@ data
 '
 %
 (
-env
-.
-topsrcdir
 env
 .
 topsrcdir

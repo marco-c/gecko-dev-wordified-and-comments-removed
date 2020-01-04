@@ -3,6 +3,8 @@ __future__
 import
 print_function
 import
+os
+import
 sys
 import
 subprocess
@@ -15,6 +17,28 @@ exe
 )
 :
     
+run_exe
+=
+exe
+if
+os
+.
+path
+.
+isabs
+(
+exe
+)
+else
+'
+.
+/
+%
+s
+'
+%
+exe
+    
 data
 =
 subprocess
@@ -22,7 +46,7 @@ subprocess
 check_output
 (
 [
-exe
+run_exe
 ]
 )
     
