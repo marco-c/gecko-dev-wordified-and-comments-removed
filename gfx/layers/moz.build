@@ -1032,13 +1032,6 @@ h
 '
 ipc
 /
-CompositorLRU
-.
-h
-'
-'
-ipc
-/
 CompositorThread
 .
 h
@@ -2266,13 +2259,6 @@ cpp
 ipc
 /
 CompositorBridgeParent
-.
-cpp
-'
-'
-ipc
-/
-CompositorLRU
 .
 cpp
 '
