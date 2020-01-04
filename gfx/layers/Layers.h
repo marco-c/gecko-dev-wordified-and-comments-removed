@@ -330,13 +330,6 @@ ImageContainer
 .
 h
 "
-#
-include
-"
-LayerUserData
-.
-h
-"
 class
 gfxContext
 ;
@@ -491,6 +484,9 @@ return
 e
 ;
 }
+class
+LayerUserData
+;
 class
 LayerManager
 {

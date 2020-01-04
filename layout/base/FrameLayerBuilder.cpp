@@ -78,6 +78,13 @@ h
 #
 include
 "
+ImageLayers
+.
+h
+"
+#
+include
+"
 LayerTreeInvalidation
 .
 h

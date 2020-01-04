@@ -42,13 +42,6 @@ h
 #
 include
 "
-ImageLayers
-.
-h
-"
-#
-include
-"
 DisplayItemClip
 .
 h
@@ -110,6 +103,9 @@ BasicLayerManager
 ;
 class
 PaintedLayer
+;
+class
+ImageLayer
 ;
 }
 namespace
