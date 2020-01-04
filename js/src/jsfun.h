@@ -1389,16 +1389,6 @@ get
 )
 ;
 }
-JSAtom
-*
-functionName
-(
-JSContext
-*
-cx
-)
-const
-;
 void
 initAtom
 (
