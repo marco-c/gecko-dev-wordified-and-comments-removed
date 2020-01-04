@@ -1881,6 +1881,13 @@ CSS_KEY
 (
 inline
 -
+end
+inline_end
+)
+CSS_KEY
+(
+inline
+-
 flex
 inline_flex
 )
@@ -1890,6 +1897,13 @@ inline
 -
 grid
 inline_grid
+)
+CSS_KEY
+(
+inline
+-
+start
+inline_start
 )
 CSS_KEY
 (
