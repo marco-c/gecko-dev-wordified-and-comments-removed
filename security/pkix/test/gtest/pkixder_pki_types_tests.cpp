@@ -345,7 +345,7 @@ ASSERT_EQ
 Result
 :
 :
-ERROR_BAD_DER
+ERROR_INVALID_INTEGER_ENCODING
 CertificateSerialNumber
 (
 reader
