@@ -300,7 +300,7 @@ R
 .
 xml
 .
-preferences_display
+preferences_accessibility
 R
 .
 xml

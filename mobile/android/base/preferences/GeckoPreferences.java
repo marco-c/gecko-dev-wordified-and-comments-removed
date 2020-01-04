@@ -1071,12 +1071,12 @@ private
 static
 final
 String
-PREFS_DISPLAY
+PREFS_ACCESSIBILITY
 =
 NON_PREF_PREFIX
 +
 "
-display
+accessibility
 .
 enabled
 "
@@ -2847,7 +2847,7 @@ R
 .
 id
 .
-pref_header_display
+pref_header_accessibility
 &
 &
 !
@@ -3770,7 +3770,7 @@ continue
 }
 if
 (
-PREFS_DISPLAY
+PREFS_ACCESSIBILITY
 .
 equals
 (
