@@ -1956,7 +1956,7 @@ getContext
 )
 Restrictable
 .
-DISALLOW_CLEAR_HISTORY
+CLEAR_HISTORY
 )
 )
 {
@@ -2047,7 +2047,7 @@ isAllowed
 context
 Restrictable
 .
-DISALLOW_CLEAR_HISTORY
+CLEAR_HISTORY
 )
 )
 ;
@@ -2252,7 +2252,7 @@ isAllowed
 context
 Restrictable
 .
-DISALLOW_PRIVATE_BROWSING
+PRIVATE_BROWSING
 )
 )
 {

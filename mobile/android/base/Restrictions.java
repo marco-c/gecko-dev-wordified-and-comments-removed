@@ -613,7 +613,7 @@ if
 (
 Restrictable
 .
-DISALLOW_BROWSE_FILES
+BROWSE
 =
 =
 restrictable

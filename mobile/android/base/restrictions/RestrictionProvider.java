@@ -241,7 +241,7 @@ restrictable
 :
 RestrictedProfileConfiguration
 .
-DEFAULT_RESTRICTIONS
+DEFAULT_DISABLED_FEATURES
 )
 {
 if
@@ -251,7 +251,7 @@ restrictable
 =
 Restrictable
 .
-DISALLOW_LOCATION_SERVICE
+LOCATION_SERVICE
 &
 &
 !
@@ -277,7 +277,7 @@ getBoolean
 restrictable
 .
 name
-true
+false
 )
 )
 ;

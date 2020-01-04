@@ -838,7 +838,7 @@ isAllowed
 mContext
 Restrictable
 .
-DISALLOW_PRIVATE_BROWSING
+PRIVATE_BROWSING
 )
 )
 {
@@ -1008,7 +1008,7 @@ isAllowed
 mContext
 Restrictable
 .
-DISALLOW_PRIVATE_BROWSING
+PRIVATE_BROWSING
 )
 )
 ;

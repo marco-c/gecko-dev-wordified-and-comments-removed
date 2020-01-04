@@ -1253,7 +1253,7 @@ getActivity
 )
 Restrictable
 .
-DISALLOW_CLEAR_HISTORY
+CLEAR_HISTORY
 )
 )
 {
@@ -1542,7 +1542,7 @@ getActivity
 )
 Restrictable
 .
-DISALLOW_CLEAR_HISTORY
+CLEAR_HISTORY
 )
 )
 {
@@ -1754,7 +1754,7 @@ getActivity
 )
 Restrictable
 .
-DISALLOW_PRIVATE_BROWSING
+PRIVATE_BROWSING
 )
 )
 {

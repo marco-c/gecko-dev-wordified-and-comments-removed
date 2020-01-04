@@ -437,7 +437,7 @@ isAllowed
 mContext
 Restrictable
 .
-DISALLOW_MODIFY_ACCOUNTS
+MODIFY_ACCOUNTS
 )
 )
 {

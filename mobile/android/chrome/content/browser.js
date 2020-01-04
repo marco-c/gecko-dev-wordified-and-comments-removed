@@ -26086,7 +26086,7 @@ isAllowed
 (
 ParentalControls
 .
-VISIT_FILE_URLS
+BROWSE
 fixedURI
 )
 )
