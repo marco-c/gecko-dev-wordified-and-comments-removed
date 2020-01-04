@@ -4454,6 +4454,12 @@ bce
 )
 const
 ;
+void
+assertValidJumpTargets
+(
+)
+const
+;
 #
 endif
 public
@@ -6726,6 +6732,7 @@ jsbytecode
 main
 (
 )
+const
 {
 return
 code
@@ -6798,6 +6805,7 @@ hasArray
 ArrayKind
 kind
 )
+const
 {
 return
 hasArrayBits
@@ -6848,6 +6856,7 @@ bool
 hasConsts
 (
 )
+const
 {
 return
 hasArray
@@ -6860,6 +6869,7 @@ bool
 hasObjects
 (
 )
+const
 {
 return
 hasArray
@@ -6872,6 +6882,7 @@ bool
 hasTrynotes
 (
 )
+const
 {
 return
 hasArray
@@ -6884,6 +6895,7 @@ bool
 hasBlockScopes
 (
 )
+const
 {
 return
 hasArray
@@ -6896,6 +6908,7 @@ bool
 hasYieldOffsets
 (
 )
+const
 {
 return
 isGenerator
@@ -6933,6 +6946,7 @@ size_t
 constsOffset
 (
 )
+const
 {
 return
 0
@@ -6942,6 +6956,7 @@ size_t
 objectsOffset
 (
 )
+const
 {
 return
 OFF
@@ -6959,6 +6974,7 @@ size_t
 trynotesOffset
 (
 )
+const
 {
 return
 OFF
@@ -6976,6 +6992,7 @@ size_t
 blockScopesOffset
 (
 )
+const
 {
 return
 OFF
@@ -6993,6 +7010,7 @@ size_t
 yieldOffsetsOffset
 (
 )
+const
 {
 return
 OFF
@@ -7092,6 +7110,7 @@ TryNoteArray
 trynotes
 (
 )
+const
 {
 MOZ_ASSERT
 (
