@@ -24,24 +24,25 @@ buildconfig
 defines
 )
     
+return
 preprocess
 (
 output
 =
 output_svg
-               
+                      
 includes
 =
 [
 input_svg_file
 ]
-               
+                      
 marker
 =
 '
 %
 '
-               
+                      
 defines
 =
 additional_defines
@@ -54,6 +55,7 @@ input_svg_file
 )
 :
     
+return
 _do_preprocessing
 (
 output_svg
@@ -76,6 +78,7 @@ input_svg_file
 )
 :
     
+return
 _do_preprocessing
 (
 output_svg
