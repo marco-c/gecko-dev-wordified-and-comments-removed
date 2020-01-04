@@ -1563,9 +1563,9 @@ scheme
 )
 )
 {
-throw
-new
-Error
+log
+.
+warn
 (
 "
 dedupeLogins
