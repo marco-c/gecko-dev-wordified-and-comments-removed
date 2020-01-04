@@ -363,6 +363,13 @@ thisForCtor
 (
 )
 )
+baseShapes
+(
+zone
+BaseShapeSet
+(
+)
+)
 selfHostingScriptSource
 (
 nullptr
