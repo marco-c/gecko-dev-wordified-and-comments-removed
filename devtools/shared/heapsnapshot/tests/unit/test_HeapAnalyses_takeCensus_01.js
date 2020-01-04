@@ -52,7 +52,9 @@ snapshot
 )
 ;
 const
+{
 report
+}
 =
 yield
 client

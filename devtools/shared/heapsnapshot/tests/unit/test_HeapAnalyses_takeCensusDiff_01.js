@@ -127,7 +127,9 @@ files
 )
 ;
 const
+{
 delta
+}
 =
 yield
 client
@@ -166,7 +168,11 @@ snapshot
 )
 ;
 const
+{
+delta
+:
 deltaTreeNode
+}
 =
 yield
 client

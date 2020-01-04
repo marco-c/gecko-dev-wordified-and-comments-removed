@@ -190,7 +190,9 @@ files
 )
 ;
 const
+{
 delta
+}
 =
 yield
 client
@@ -207,7 +209,11 @@ BREAKDOWN
 )
 ;
 const
+{
+delta
+:
 deltaTreeNode
+}
 =
 yield
 client
