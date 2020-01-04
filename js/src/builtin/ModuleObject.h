@@ -902,6 +902,11 @@ FunctionDeclaration
 ZoneAllocPolicy
 >
 ;
+using
+ModuleState
+=
+int32_t
+;
 class
 ModuleObject
 :
@@ -919,7 +924,7 @@ StaticScopeSlot
 InitialEnvironmentSlot
 EnvironmentSlot
 NamespaceSlot
-EvaluatedSlot
+StateSlot
 HostDefinedSlot
 RequestedModulesSlot
 ImportEntriesSlot
@@ -1077,8 +1082,8 @@ namespace_
 (
 )
 ;
-bool
-evaluated
+ModuleState
+state
 (
 )
 const
@@ -1203,8 +1208,10 @@ self
 )
 ;
 void
-setEvaluated
+setState
 (
+ModuleState
+newState
 )
 ;
 static
