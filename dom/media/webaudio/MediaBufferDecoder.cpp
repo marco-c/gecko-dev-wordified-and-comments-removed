@@ -2619,15 +2619,11 @@ if
 mFailureCallback
 )
 {
-ErrorResult
-rv
-;
 mFailureCallback
 -
 >
 Call
 (
-rv
 )
 ;
 }
