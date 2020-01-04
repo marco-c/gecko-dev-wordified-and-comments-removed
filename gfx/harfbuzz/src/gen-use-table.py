@@ -967,6 +967,9 @@ Consonant
 Consonant_Head_Letter
 			
 Tone_Letter
+			
+Vowel_Independent
+			
 ]
 or
 		
@@ -990,20 +993,6 @@ Vowel_Dependent
 ]
 )
 )
-def
-is_BASE_VOWEL
-(
-U
-UISC
-UGC
-)
-:
-	
-return
-UISC
-=
-=
-Vowel_Independent
 def
 is_BASE_IND
 (
@@ -1030,13 +1019,17 @@ UGC
 Po
 and
 not
-is_BASE_OTHER
-(
 U
-UISC
-UGC
+in
+[
+0x104E
+0x2022
+]
 )
-)
+or
+		
+False
+		
 )
 def
 is_BASE_NUM
@@ -1074,12 +1067,8 @@ return
 U
 in
 [
-0x00A0
-0x00D7
 0x2015
 0x2022
-0x25CC
-		     
 0x25FB
 0x25FC
 0x25FD
@@ -1493,12 +1482,6 @@ B
 '
 :
 is_BASE
-	
-'
-IV
-'
-:
-is_BASE_VOWEL
 	
 '
 IND

@@ -1002,12 +1002,16 @@ bits_needed
 else
 bits_needed
 =
+MIN
+(
+8u
 _hb_bit_storage
 (
 info
 -
 >
 max_value
+)
 )
 ;
 if
@@ -1350,7 +1354,7 @@ map
 mask
 =
 (
-1
+1u
 <
 <
 (
@@ -1361,7 +1365,7 @@ bits_needed
 )
 -
 (
-1
+1u
 <
 <
 next_bit
@@ -1402,7 +1406,7 @@ map
 _1_mask
 =
 (
-1
+1u
 <
 <
 map

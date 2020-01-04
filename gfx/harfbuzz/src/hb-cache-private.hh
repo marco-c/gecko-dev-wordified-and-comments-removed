@@ -92,7 +92,7 @@ key
 &
 (
 (
-1
+1u
 <
 <
 cache_bits
@@ -137,7 +137,7 @@ v
 &
 (
 (
-1
+1u
 <
 <
 value_bits
@@ -193,7 +193,7 @@ key
 &
 (
 (
-1
+1u
 <
 <
 cache_bits
@@ -237,7 +237,7 @@ unsigned
 int
 values
 [
-1
+1u
 <
 <
 cache_bits

@@ -317,10 +317,6 @@ Symbol
 =
 18
 ;
-CM2
-=
-31
-;
 c
 =
 (
@@ -485,9 +481,6 @@ ZWNJ
 medial_group
 =
 CM
-?
-.
-CM2
 ?
 ;
 halant_or_matra_group

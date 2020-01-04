@@ -105,9 +105,6 @@ OT_CM
 OT_Symbol
 =
 18
-OT_CM2
-=
-31
 }
 ;
 #
@@ -117,11 +114,6 @@ MEDIAL_FLAGS
 FLAG
 (
 OT_CM
-)
-|
-FLAG
-(
-OT_CM2
 )
 )
 #

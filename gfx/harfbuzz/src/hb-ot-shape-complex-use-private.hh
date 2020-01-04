@@ -41,9 +41,6 @@ USE_O
 USE_B
 =
 1
-USE_IV
-=
-2
 USE_IND
 =
 3
