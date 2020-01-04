@@ -2150,6 +2150,13 @@ cpp
 '
 vm
 /
+CodeCoverage
+.
+cpp
+'
+'
+vm
+/
 Compression
 .
 cpp
