@@ -431,11 +431,6 @@ nsFocusManager
 h
 '
 '
-nsFormData
-.
-h
-'
-'
 nsFrameMessageManager
 .
 h
@@ -935,6 +930,11 @@ FileReader
 h
 '
 '
+FormData
+.
+h
+'
+'
 FragmentOrElement
 .
 h
@@ -1255,6 +1255,11 @@ FileReader
 cpp
 '
 '
+FormData
+.
+cpp
+'
+'
 FragmentOrElement
 .
 cpp
@@ -1421,11 +1426,6 @@ cpp
 '
 '
 nsFocusManager
-.
-cpp
-'
-'
-nsFormData
 .
 cpp
 '

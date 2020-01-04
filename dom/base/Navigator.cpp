@@ -714,7 +714,11 @@ h
 #
 include
 "
-nsFormData
+mozilla
+/
+dom
+/
+FormData
 .
 h
 "
@@ -5360,7 +5364,7 @@ IsFormData
 )
 )
 {
-nsFormData
+FormData
 &
 form
 =

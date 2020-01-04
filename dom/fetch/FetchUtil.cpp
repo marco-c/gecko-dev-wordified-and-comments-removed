@@ -896,7 +896,7 @@ public
 explicit
 FillFormIterator
 (
-nsFormData
+FormData
 *
 aFormData
 )
@@ -955,7 +955,7 @@ true
 }
 private
 :
-nsFormData
+FormData
 *
 mFormData
 ;
@@ -969,7 +969,7 @@ private
 :
 RefPtr
 <
-nsFormData
+FormData
 >
 mFormData
 ;
@@ -1611,7 +1611,7 @@ mFormData
 mFormData
 =
 new
-nsFormData
+FormData
 (
 )
 ;
@@ -2100,7 +2100,7 @@ mFormData
 mFormData
 =
 new
-nsFormData
+FormData
 (
 )
 ;
@@ -2267,9 +2267,9 @@ false
 }
 already_AddRefed
 <
-nsFormData
->
 FormData
+>
+GetFormData
 (
 )
 {
@@ -2286,7 +2286,7 @@ forget
 }
 already_AddRefed
 <
-nsFormData
+FormData
 >
 FetchUtil
 :
@@ -2403,13 +2403,13 @@ nullptr
 }
 RefPtr
 <
-nsFormData
+FormData
 >
 fd
 =
 parser
 .
-FormData
+GetFormData
 (
 )
 ;
@@ -2503,12 +2503,12 @@ aStr
 ;
 RefPtr
 <
-nsFormData
+FormData
 >
 fd
 =
 new
-nsFormData
+FormData
 (
 aParent
 )

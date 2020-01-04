@@ -562,7 +562,7 @@ aRv
 void
 Send
 (
-nsFormData
+FormData
 &
 aBody
 ErrorResult
