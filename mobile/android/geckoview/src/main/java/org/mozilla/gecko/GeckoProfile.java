@@ -4173,17 +4173,6 @@ Default
 1
 )
 ;
-Telemetry
-.
-startUISession
-(
-TelemetryContract
-.
-Session
-.
-FIRSTRUN
-)
-;
 }
 parser
 .

@@ -5350,6 +5350,17 @@ apply
 (
 )
 ;
+Telemetry
+.
+startUISession
+(
+TelemetryContract
+.
+Session
+.
+FIRSTRUN
+)
+;
 }
 }
 finally
