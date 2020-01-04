@@ -1636,6 +1636,9 @@ nsCString
 mCategory
 ;
 nsString
+mErrorMsgName
+;
+nsString
 mErrorMsg
 ;
 nsString

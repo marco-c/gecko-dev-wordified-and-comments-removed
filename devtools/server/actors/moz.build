@@ -192,6 +192,11 @@ environment
 js
 '
 '
+errordocs
+.
+js
+'
+'
 eventlooplag
 .
 js

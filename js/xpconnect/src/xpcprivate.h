@@ -11112,6 +11112,9 @@ nsString
 mMessage
 ;
 nsString
+mMessageName
+;
+nsString
 mSourceName
 ;
 uint32_t
