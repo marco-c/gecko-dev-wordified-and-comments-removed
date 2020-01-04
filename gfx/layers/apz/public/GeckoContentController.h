@@ -238,13 +238,6 @@ GeckoContentController
 }
 virtual
 void
-ChildAdopted
-(
-)
-{
-}
-virtual
-void
 Destroy
 (
 )
