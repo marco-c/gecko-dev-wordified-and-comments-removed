@@ -446,14 +446,14 @@ override
 ;
 virtual
 void
-BeginEvaluatingParserInsertedScript
+PushDefinedInsertionPoint
 (
 )
 override
 ;
 virtual
 void
-EndEvaluatingParserInsertedScript
+PopDefinedInsertionPoint
 (
 )
 override

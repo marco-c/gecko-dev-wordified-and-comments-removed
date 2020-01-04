@@ -5696,7 +5696,7 @@ void
 nsParser
 :
 :
-BeginEvaluatingParserInsertedScript
+PushDefinedInsertionPoint
 (
 )
 {
@@ -5705,7 +5705,7 @@ void
 nsParser
 :
 :
-EndEvaluatingParserInsertedScript
+PopDefinedInsertionPoint
 (
 )
 {

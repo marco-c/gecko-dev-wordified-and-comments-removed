@@ -441,14 +441,14 @@ override
 ;
 virtual
 void
-BeginEvaluatingParserInsertedScript
+PushDefinedInsertionPoint
 (
 )
 override
 ;
 virtual
 void
-EndEvaluatingParserInsertedScript
+PopDefinedInsertionPoint
 (
 )
 override
@@ -609,7 +609,7 @@ bool
 mDocWriteSpeculatorActive
 ;
 int32_t
-mParserInsertedScriptsBeingEvaluated
+mInsertionPointPushLevel
 ;
 bool
 mDocumentClosed

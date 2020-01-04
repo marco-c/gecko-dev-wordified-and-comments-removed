@@ -1,0 +1,9 @@
+document
+.
+write
+(
+"
+te
+"
+)
+;

@@ -420,7 +420,7 @@ IsInsertionPointDefined
 ;
 virtual
 void
-BeginEvaluatingParserInsertedScript
+PushDefinedInsertionPoint
 (
 )
 =
@@ -428,7 +428,7 @@ BeginEvaluatingParserInsertedScript
 ;
 virtual
 void
-EndEvaluatingParserInsertedScript
+PopDefinedInsertionPoint
 (
 )
 =
