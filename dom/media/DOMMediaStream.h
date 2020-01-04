@@ -995,6 +995,10 @@ MediaSegment
 :
 Type
 aType
+const
+nsString
+&
+aLabel
 )
 ;
 class

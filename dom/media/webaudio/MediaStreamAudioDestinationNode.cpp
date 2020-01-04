@@ -137,6 +137,9 @@ MediaSegment
 :
 :
 AUDIO
+nsString
+(
+)
 )
 ;
 ProcessedMediaStream

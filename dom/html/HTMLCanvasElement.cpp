@@ -3010,6 +3010,9 @@ MediaSegment
 :
 :
 VIDEO
+nsString
+(
+)
 )
 ;
 rv

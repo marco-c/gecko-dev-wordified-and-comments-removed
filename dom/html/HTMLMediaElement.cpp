@@ -8047,6 +8047,9 @@ MediaSegment
 :
 :
 AUDIO
+nsString
+(
+)
 )
 ;
 }
@@ -8079,6 +8082,9 @@ MediaSegment
 :
 :
 VIDEO
+nsString
+(
+)
 )
 ;
 }

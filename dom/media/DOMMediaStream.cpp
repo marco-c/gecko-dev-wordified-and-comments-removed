@@ -589,6 +589,9 @@ CreateOwnDOMTrack
 (
 aTrackId
 aType
+nsString
+(
+)
 )
 ;
 }
@@ -3054,6 +3057,9 @@ MediaSegment
 :
 :
 AUDIO
+nsString
+(
+)
 )
 ;
 }
@@ -3766,6 +3772,10 @@ MediaSegment
 :
 Type
 aType
+const
+nsString
+&
+aLabel
 )
 {
 MOZ_RELEASE_ASSERT
@@ -3814,6 +3824,7 @@ AudioStreamTrack
 (
 this
 aTrackID
+aLabel
 )
 ;
 break
@@ -3831,6 +3842,7 @@ VideoStreamTrack
 (
 this
 aTrackID
+aLabel
 )
 ;
 break
