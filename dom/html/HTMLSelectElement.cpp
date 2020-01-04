@@ -2257,8 +2257,10 @@ aError
 return
 ;
 }
+nsCOMPtr
+<
 nsINode
-*
+>
 parent
 =
 aBefore

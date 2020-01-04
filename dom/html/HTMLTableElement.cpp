@@ -2031,8 +2031,10 @@ rowCount
 1
 ;
 }
+RefPtr
+<
 Element
-*
+>
 refRow
 =
 rows
@@ -2043,8 +2045,10 @@ Item
 refIndex
 )
 ;
+nsCOMPtr
+<
 nsINode
-*
+>
 parent
 =
 refRow
