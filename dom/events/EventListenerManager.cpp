@@ -1938,7 +1938,7 @@ if
 aEventMessage
 >
 =
-NS_GAMEPAD_START
+eGamepadEventFirst
 &
 &
 aEventMessage
