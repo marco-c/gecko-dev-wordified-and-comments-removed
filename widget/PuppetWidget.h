@@ -785,6 +785,11 @@ NeedsPaint
 )
 override
 ;
+void
+PaintNowIfNeeded
+(
+)
+;
 virtual
 TabChild
 *
