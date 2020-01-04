@@ -846,6 +846,8 @@ nscoord
 aWidth
 nscoord
 aHeight
+bool
+aDelayResize
 )
 {
 if
@@ -859,6 +861,10 @@ if
 ShouldDelayResize
 (
 )
+&
+&
+!
+aDelayResize
 )
 {
 if

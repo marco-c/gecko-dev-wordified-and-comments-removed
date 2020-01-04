@@ -2533,7 +2533,7 @@ x
 y
 cx
 cy
-false
+0
 )
 NS_ERROR_FAILURE
 )
@@ -2802,8 +2802,8 @@ int32_t
 aCX
 int32_t
 aCY
-bool
-aRepaint
+uint32_t
+aFlags
 )
 {
 NS_ENSURE_STATE
@@ -2821,7 +2821,7 @@ aX
 aY
 aCX
 aCY
-aRepaint
+aFlags
 )
 ;
 }
@@ -4465,7 +4465,10 @@ aX
 aY
 aCX
 aCY
-true
+nsIBaseWindow
+:
+:
+eRepaint
 )
 ;
 }
