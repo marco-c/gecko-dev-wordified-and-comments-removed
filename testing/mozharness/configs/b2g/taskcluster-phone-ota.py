@@ -29,6 +29,12 @@ sources
 '
         
 '
+get
+-
+blobs
+'
+        
+'
 build
 '
         
@@ -725,4 +731,10 @@ apitrace
 '
     
 }
+    
+"
+download_tooltool
+"
+:
+True
 }

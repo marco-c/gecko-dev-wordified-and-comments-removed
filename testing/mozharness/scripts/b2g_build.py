@@ -2844,7 +2844,7 @@ output_dir
 dirs
 [
 '
-work_dir
+gecko_src
 '
 ]
 )
@@ -2946,7 +2946,7 @@ cwd
 dirs
 [
 '
-work_dir
+gecko_src
 '
 ]
                              
