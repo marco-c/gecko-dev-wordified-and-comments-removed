@@ -1447,6 +1447,13 @@ aActive
 override
 ;
 virtual
+bool
+IsTopLevelWindowActive
+(
+)
+override
+;
+virtual
 void
 SetIsBackground
 (
