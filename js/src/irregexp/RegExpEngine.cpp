@@ -7340,6 +7340,8 @@ bool
 match_only
 bool
 force_bytecode
+bool
+sticky
 )
 {
 if
@@ -7520,6 +7522,9 @@ IsAnchoredAtEnd
 bool
 is_start_anchored
 =
+sticky
+|
+|
 data
 -
 >

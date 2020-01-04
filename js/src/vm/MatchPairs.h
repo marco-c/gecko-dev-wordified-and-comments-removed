@@ -268,13 +268,6 @@ nullptr
 ;
 }
 void
-displace
-(
-size_t
-disp
-)
-;
-void
 checkAgainst
 (
 size_t

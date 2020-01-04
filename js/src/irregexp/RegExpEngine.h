@@ -185,6 +185,8 @@ bool
 match_only
 bool
 force_bytecode
+bool
+sticky
 )
 ;
 template
