@@ -3207,14 +3207,6 @@ SurfaceFormat
 B8G8R8X8
 &
 &
-aAllocator
--
->
-IsSameProcess
-(
-)
-&
-&
 moz2DBackend
 =
 =
