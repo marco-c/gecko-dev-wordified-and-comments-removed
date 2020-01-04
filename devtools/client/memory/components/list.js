@@ -35,7 +35,7 @@ createClass
 displayName
 :
 "
-list
+List
 "
 propTypes
 :

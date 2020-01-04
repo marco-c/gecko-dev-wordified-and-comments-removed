@@ -79,6 +79,11 @@ diffing
 js
 '
 '
+dominatorTreeBreakdown
+.
+js
+'
+'
 filter
 .
 js
@@ -100,6 +105,11 @@ js
 '
 '
 snapshot
+.
+js
+'
+'
+view
 .
 js
 '

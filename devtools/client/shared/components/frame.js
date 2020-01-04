@@ -55,9 +55,7 @@ createClass
 displayName
 :
 "
-frame
--
-view
+Frame
 "
 propTypes
 :

@@ -79,6 +79,11 @@ diffing
 js
 '
 '
+dominatorTreeBreakdown
+.
+js
+'
+'
 errors
 .
 js
@@ -95,6 +100,11 @@ js
 '
 '
 snapshots
+.
+js
+'
+'
+view
 .
 js
 '
