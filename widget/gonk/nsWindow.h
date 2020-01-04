@@ -572,6 +572,10 @@ ANativeWindowBuffer
 *
 mFramebuffer
 ;
+uint8_t
+*
+mMappedBuffer
+;
 mozilla
 :
 :
