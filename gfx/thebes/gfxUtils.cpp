@@ -2973,7 +2973,10 @@ Draw
 (
 tmpCtx
 gfxImageRect
-aExtendMode
+ExtendMode
+:
+:
+CLAMP
 aSamplingFilter
 1
 .
