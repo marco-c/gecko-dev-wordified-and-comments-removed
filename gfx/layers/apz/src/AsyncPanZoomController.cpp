@@ -5151,10 +5151,6 @@ SetState
 NOTHING
 )
 ;
-RequestSnap
-(
-)
-;
 }
 return
 nsEventStatus_eIgnore
@@ -12005,6 +12001,10 @@ return
 true
 ;
 }
+RequestSnap
+(
+)
+;
 return
 false
 ;
