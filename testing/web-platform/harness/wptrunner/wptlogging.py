@@ -449,6 +449,13 @@ None
 )
 :
         
+StringIO
+.
+__init__
+(
+self
+)
+        
 self
 .
 queue

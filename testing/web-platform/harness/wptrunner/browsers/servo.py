@@ -183,6 +183,17 @@ debug_info
 ]
             
 "
+binary_args
+"
+:
+kwargs
+[
+"
+binary_args
+"
+]
+            
+"
 user_stylesheets
 "
 :
@@ -385,8 +396,7 @@ webrender
 :
 "
 -
--
-webrender
+w
 "
 }
 [
@@ -408,10 +418,13 @@ binary
 debug_info
 =
 None
-user_stylesheets
+binary_args
 =
 None
                  
+user_stylesheets
+=
+None
 render_backend
 =
 "
@@ -439,6 +452,15 @@ self
 debug_info
 =
 debug_info
+        
+self
+.
+binary_args
+=
+binary_args
+or
+[
+]
         
 self
 .
@@ -480,6 +502,14 @@ debug_info
 self
 .
 debug_info
+                                 
+"
+binary_args
+"
+:
+self
+.
+binary_args
                                  
 "
 user_stylesheets

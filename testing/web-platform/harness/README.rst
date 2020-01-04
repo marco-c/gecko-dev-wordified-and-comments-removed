@@ -2012,8 +2012,9 @@ e
 g
 .
 testharness
-or
 reftest
+or
+wdspec
 .
 reftype
 The

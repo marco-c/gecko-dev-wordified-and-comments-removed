@@ -417,6 +417,7 @@ stylesheet
         
 for
 pref
+value
 in
 test
 .
@@ -430,6 +431,10 @@ prefs
 {
 }
 )
+.
+iteritems
+(
+)
 :
             
 args
@@ -441,8 +446,28 @@ args
 -
 pref
 "
+"
+%
+s
+=
+%
+s
+"
+%
+(
 pref
+value
+)
 ]
+        
+args
++
+=
+self
+.
+browser
+.
+binary_args
         
 debug_args
 command

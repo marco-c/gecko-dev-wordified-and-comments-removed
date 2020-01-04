@@ -25,6 +25,9 @@ TestharnessExecutor
                    
 strip_server
 )
+from
+.
+.
 import
 webdriver
 from
@@ -33,6 +36,9 @@ from
 testrunner
 import
 Stop
+webdriver
+=
+None
 here
 =
 os
@@ -56,6 +62,17 @@ __file__
 extra_timeout
 =
 5
+def
+do_delayed_imports
+(
+)
+:
+    
+global
+webdriver
+    
+import
+webdriver
 class
 ServoWebDriverProtocol
 (
@@ -75,6 +92,10 @@ capabilities
 kwargs
 )
 :
+        
+do_delayed_imports
+(
+)
         
 Protocol
 .
@@ -140,6 +161,29 @@ runner
 =
 runner
         
+url
+=
+"
+http
+:
+/
+/
+%
+s
+:
+%
+d
+"
+%
+(
+self
+.
+host
+self
+.
+port
+)
+        
 session_started
 =
 False
@@ -161,12 +205,14 @@ host
 self
 .
 port
-                                             
+                
 extension
 =
 webdriver
 .
-ServoExtensions
+servo
+.
+ServoCommandExtensions
 )
             
 self
@@ -326,7 +372,7 @@ self
 .
 session
 .
-handle
+window_handle
         
 except
 Exception
