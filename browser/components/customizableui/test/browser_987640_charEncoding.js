@@ -77,6 +77,7 @@ openNewForegroundTab
 gBrowser
 TEST_PAGE
 true
+true
 )
 ;
 yield
