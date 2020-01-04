@@ -1835,6 +1835,14 @@ lir
 )
 ;
 void
+visitSimdShuffleX4
+(
+LSimdShuffleX4
+*
+lir
+)
+;
+void
 visitSimdShuffle
 (
 LSimdShuffle

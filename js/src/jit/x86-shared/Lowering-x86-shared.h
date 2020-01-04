@@ -434,6 +434,14 @@ ins
 )
 ;
 void
+visitSimdShuffle
+(
+MSimdShuffle
+*
+ins
+)
+;
+void
 visitSimdValueX4
 (
 MSimdValueX4
