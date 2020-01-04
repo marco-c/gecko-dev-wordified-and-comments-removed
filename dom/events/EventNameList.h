@@ -1596,7 +1596,7 @@ eSimpleGestureEventClass
 NON_IDL_EVENT
 (
 MozEdgeUICompleted
-NS_SIMPLE_GESTURE_EDGE_COMPLETED
+eEdgeUICompleted
 EventNameType_None
 eSimpleGestureEventClass
 )
