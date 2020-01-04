@@ -346,9 +346,6 @@ alreadyOpened
 false
 }
 ]
-_cssRule
-:
-false
 getIdentities
 (
 )
