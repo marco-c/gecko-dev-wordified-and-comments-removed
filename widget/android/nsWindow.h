@@ -292,6 +292,12 @@ aPoint
 0
 )
 ;
+using
+nsBaseWidget
+:
+:
+Create
+;
 NS_IMETHOD
 Create
 (

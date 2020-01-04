@@ -384,6 +384,12 @@ AreBoundsSane
 void
 )
 ;
+using
+nsBaseWidget
+:
+:
+Create
+;
 NS_IMETHOD
 Create
 (

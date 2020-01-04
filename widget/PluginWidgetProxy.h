@@ -75,6 +75,12 @@ PluginWidgetProxy
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
+using
+PuppetWidget
+:
+:
+Create
+;
 NS_IMETHOD
 Create
 (

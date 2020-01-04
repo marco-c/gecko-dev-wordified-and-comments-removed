@@ -667,8 +667,8 @@ initialY
 ;
 }
 }
-LayoutDeviceIntRect
-r
+DesktopIntRect
+deskRect
 (
 initialX
 initialY
@@ -752,10 +752,13 @@ nsIWidget
 )
 parentWidget
 nullptr
-r
+deskRect
 &
 widgetInitData
 )
+;
+LayoutDeviceIntRect
+r
 ;
 mWindow
 -

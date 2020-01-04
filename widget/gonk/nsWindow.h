@@ -106,6 +106,12 @@ MultiTouchInput
 aInput
 )
 ;
+using
+nsBaseWidget
+:
+:
+Create
+;
 NS_IMETHOD
 Create
 (
@@ -123,6 +129,7 @@ nsWidgetInitData
 *
 aInitData
 )
+override
 ;
 NS_IMETHOD
 Destroy

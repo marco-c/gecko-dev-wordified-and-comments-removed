@@ -416,6 +416,12 @@ nsWindowBase
 :
 DispatchPluginEvent
 ;
+using
+nsWindowBase
+:
+:
+Create
+;
 NS_IMETHOD
 Create
 (
