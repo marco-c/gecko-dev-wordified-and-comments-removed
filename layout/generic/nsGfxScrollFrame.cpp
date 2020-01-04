@@ -11921,6 +11921,8 @@ nsDisplayListSet
 &
 aLists
 bool
+aUsingDisplayPort
+bool
 aCreateLayer
 bool
 aPositioned
@@ -12209,20 +12211,7 @@ APPEND_SCROLLBAR_CONTAINER
 nsRect
 dirty
 =
-mIsRoot
-&
-&
-mOuter
--
->
-PresContext
-(
-)
--
->
-IsRootContentDocument
-(
-)
+aUsingDisplayPort
 ?
 scrollParts
 [
@@ -13197,6 +13186,7 @@ AppendScrollPartsTo
 aBuilder
 aDirtyRect
 aLists
+usingDisplayPort
 createLayersForScrollbars
 false
 )
@@ -13223,6 +13213,7 @@ AppendScrollPartsTo
 aBuilder
 aDirtyRect
 aLists
+usingDisplayPort
 createLayersForScrollbars
 true
 )
@@ -13379,6 +13370,7 @@ AppendScrollPartsTo
 aBuilder
 aDirtyRect
 aLists
+usingDisplayPort
 createLayersForScrollbars
 false
 )
@@ -14228,6 +14220,7 @@ AppendScrollPartsTo
 aBuilder
 aDirtyRect
 scrolledContent
+usingDisplayPort
 createLayersForScrollbars
 true
 )
