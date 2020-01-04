@@ -2826,6 +2826,14 @@ uint16_t
 aOutputNumber
 =
 0
+nsTArray
+<
+TrackID
+>
+*
+aBlockedTracks
+=
+nullptr
 )
 ;
 void
