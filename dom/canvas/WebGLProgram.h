@@ -773,7 +773,7 @@ uniformBlockBinding
 )
 const
 ;
-bool
+void
 LinkProgram
 (
 )
@@ -966,7 +966,7 @@ WebGLProgram
 (
 )
 ;
-bool
+void
 LinkAndUpdate
 (
 )

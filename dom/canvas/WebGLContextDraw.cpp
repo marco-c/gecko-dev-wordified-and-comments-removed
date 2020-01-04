@@ -1630,7 +1630,7 @@ false
 if
 (
 !
-mCurrentProgram
+mActiveProgramLinkInfo
 )
 {
 ErrorInvalidOperation
