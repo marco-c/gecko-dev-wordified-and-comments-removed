@@ -829,6 +829,16 @@ actors
 webbrowser
 .
 js
+!
+devtools
+/
+server
+/
+actors
+/
+styles
+.
+js
 devtools
 /
 shared
