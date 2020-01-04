@@ -5801,6 +5801,10 @@ if
 err_
 )
 {
+close
+(
+)
+;
 ABORT
 (
 R_INTERNAL
