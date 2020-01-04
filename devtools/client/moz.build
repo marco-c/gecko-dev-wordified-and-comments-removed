@@ -138,6 +138,9 @@ framework
 inspector
 '
 '
+jsonview
+'
+'
 layoutview
 '
 '
