@@ -463,9 +463,6 @@ IsEmpty
 )
 )
 {
-nsresult
-rv
-=
 GenerateUuid
 (
 mAppUuid
@@ -473,12 +470,6 @@ mAppUuid
 ;
 BT_ENSURE_TRUE_REJECT
 (
-NS_SUCCEEDED
-(
-rv
-)
-&
-&
 !
 mAppUuid
 .

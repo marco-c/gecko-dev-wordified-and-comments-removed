@@ -54,7 +54,7 @@ BluetoothUuid
 aUuid
 )
 ;
-nsresult
+void
 GenerateUuid
 (
 nsAString
