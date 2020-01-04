@@ -47,6 +47,24 @@ kwargs
     
 args
 .
+e10s
+=
+context
+.
+mozharness_config
+.
+get
+(
+'
+e10s
+'
+args
+.
+e10s
+)
+    
+args
+.
 certPath
 =
 context
