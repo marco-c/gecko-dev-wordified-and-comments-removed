@@ -821,12 +821,10 @@ CacheEntry
 >
 mExpirationArray
 ;
-mozilla
-:
-:
 Atomic
 <
 uint32_t
+Relaxed
 >
 mMemorySize
 ;
@@ -887,6 +885,9 @@ mDiskPool
 ;
 MemoryPool
 mMemoryPool
+;
+TimeStamp
+mLastPurgeTime
 ;
 MemoryPool
 &
