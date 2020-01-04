@@ -168,6 +168,9 @@ PromiseNativeHandler
 h
 "
 #
+ifndef
+MOZ_SIMPLEPUSH
+#
 include
 "
 mozilla
@@ -178,6 +181,8 @@ PushEventBinding
 .
 h
 "
+#
+endif
 #
 include
 "
