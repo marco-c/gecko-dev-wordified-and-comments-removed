@@ -22,6 +22,15 @@ include
 "
 mozilla
 /
+Assertions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DebugOnly
 .
 h
@@ -40,7 +49,7 @@ include
 "
 mozilla
 /
-Assertions
+Preferences
 .
 h
 "
@@ -49,7 +58,7 @@ include
 "
 mozilla
 /
-Preferences
+SizePrintfMacros
 .
 h
 "
@@ -12764,8 +12773,8 @@ snprintf_literal
 index
 "
 %
-d
 "
+PRIuSIZE
 badCharIndex
 )
 ;
