@@ -32,6 +32,26 @@ the
 element
 .
     
+We
+call
+the
+blinking
+cursor
+(
+nsCaret
+)
+as
+cursor
+and
+call
+AccessibleCaret
+as
+    
+caret
+for
+short
+.
+    
 Simple
 usage
 example
@@ -249,7 +269,7 @@ getSelection
 '
     
 def
-move_caret_by_offset
+move_cursor_by_offset
 (
 self
 offset
@@ -263,7 +283,7 @@ False
 '
 '
 Move
-caret
+cursor
 in
 the
 element
@@ -278,7 +298,7 @@ offset
 :
 Move
 the
-caret
+cursor
 to
 the
 direction
@@ -401,7 +421,7 @@ system
 )
     
 def
-move_caret_to_front
+move_cursor_to_front
 (
 self
 )
@@ -411,7 +431,7 @@ self
 '
 '
 Move
-caret
+cursor
 in
 the
 element
@@ -508,7 +528,7 @@ element
 )
     
 def
-move_caret_to_end
+move_cursor_to_end
 (
 self
 )
@@ -518,7 +538,7 @@ self
 '
 '
 Move
-caret
+cursor
 in
 the
 element
@@ -1258,7 +1278,7 @@ center
 )
     
 def
-selection_carets_location
+carets_location
 (
 self
 )
@@ -1273,7 +1293,6 @@ pair
 of
 the
 two
-selection
 carets
 '
 location
@@ -1295,7 +1314,6 @@ of
 the
 two
         
-selection
 carets
 '
 tip
@@ -1310,9 +1328,9 @@ top
 left
 -
 hand
-        
 corner
 of
+        
 the
 element
 .
@@ -1340,7 +1358,7 @@ caret
 )
     
 def
-caret_location
+cursor_location
 (
 self
 )
@@ -1350,7 +1368,9 @@ self
 '
 '
 Return
-caret
+the
+blanking
+cursor
 '
 s
 center
@@ -1368,7 +1388,7 @@ y
 coordinates
 of
 the
-caret
+cursor
 '
 s
 center
@@ -1404,7 +1424,7 @@ center
 ]
     
 def
-touch_caret_location
+first_caret_location
 (
 self
 )
@@ -1414,18 +1434,12 @@ self
 '
 '
 Return
-touch
+the
+first
 caret
 '
 s
 location
-(
-based
-on
-current
-caret
-location
-)
 .
         
 Return
@@ -1436,7 +1450,7 @@ y
 coordinates
 of
 the
-touch
+first
 caret
 '
 s
@@ -1462,14 +1476,71 @@ element
 return
 self
 .
-_selection_location_helper
+carets_location
 (
-'
-caret
-'
 )
 [
 0
+]
+    
+def
+second_caret_location
+(
+self
+)
+:
+        
+'
+'
+'
+Return
+the
+second
+caret
+'
+s
+location
+.
+        
+Return
+(
+x
+y
+)
+coordinates
+of
+the
+second
+caret
+'
+s
+tip
+relative
+to
+the
+top
+        
+left
+-
+hand
+corner
+of
+the
+element
+.
+        
+'
+'
+'
+        
+return
+self
+.
+carets_location
+(
+)
+[
+1
 ]
     
 def
