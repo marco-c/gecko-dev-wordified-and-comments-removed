@@ -9,11 +9,35 @@ import
 platform
 import
 sys
-import
-time
 SEARCH_PATHS
 =
 [
+    
+'
+marionette
+'
+    
+'
+marionette
+/
+marionette
+/
+runner
+/
+mixins
+/
+browsermob
+-
+proxy
+-
+py
+'
+    
+'
+marionette
+/
+client
+'
     
 '
 mochitest
@@ -125,6 +149,12 @@ manifestparser
 tools
 /
 mach
+'
+    
+'
+tools
+/
+wptserve
 '
 ]
 MACH_MODULES
@@ -332,6 +362,17 @@ test_package_root
 )
 :
     
+test_package_root
+=
+os
+.
+path
+.
+abspath
+(
+test_package_root
+)
+    
 if
 sys
 .
@@ -399,18 +440,6 @@ exit
 1
 )
     
-try
-:
-        
-import
-mach
-.
-main
-    
-except
-ImportError
-:
-        
 sys
 .
 path
@@ -435,7 +464,7 @@ path
 in
 SEARCH_PATHS
 ]
-        
+    
 import
 mach
 .
@@ -450,6 +479,15 @@ key
 None
 )
 :
+        
+if
+key
+is
+not
+None
+:
+            
+return
         
 context
 .
@@ -504,9 +542,6 @@ test_package_root
 modules
 '
 )
-        
-return
-context
     
 mach
 =
@@ -557,7 +592,7 @@ meta
 long
 '
 ]
-            
+                             
 meta
 [
 '
@@ -572,10 +607,8 @@ in
 MACH_MODULES
 :
         
-mach
-.
-load_commands_from_file
-(
+cmdfile
+=
 os
 .
 path
@@ -585,6 +618,23 @@ join
 test_package_root
 path
 )
+        
+if
+os
+.
+path
+.
+isfile
+(
+cmdfile
+)
+:
+            
+mach
+.
+load_commands_from_file
+(
+cmdfile
 )
     
 return
