@@ -332,6 +332,7 @@ horiz
 ref
 .
 html
+fails
 =
 =
 webkit
@@ -358,6 +359,9 @@ vert
 ref
 .
 html
+#
+bug
+1262049
 #
 Tests
 for
@@ -640,6 +644,7 @@ horiz
 ref
 .
 html
+fails
 =
 =
 webkit
@@ -666,3 +671,6 @@ vert
 ref
 .
 html
+#
+bug
+1262049
