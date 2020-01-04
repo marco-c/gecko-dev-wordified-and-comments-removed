@@ -627,7 +627,7 @@ JS
 ubi
 :
 :
-SimpleEdgeVector
+EdgeVector
 edges
 ;
 JSCompartment
@@ -936,7 +936,7 @@ JS
 ubi
 :
 :
-SimpleEdge
+Edge
 edge
 (
 ownedEdgeName

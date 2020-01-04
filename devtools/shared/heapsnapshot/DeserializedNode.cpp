@@ -454,7 +454,7 @@ DeserializedEdgeRange
 public
 EdgeRange
 {
-SimpleEdgeVector
+EdgeVector
 edges
 ;
 size_t
@@ -618,7 +618,7 @@ mozilla
 :
 Move
 (
-SimpleEdge
+Edge
 (
 name
 referent
