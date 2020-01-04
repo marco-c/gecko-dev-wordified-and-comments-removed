@@ -334,9 +334,14 @@ if
 CONFIG
 [
 '
-_MSC_VER
+OS_ARCH
 '
 ]
+=
+=
+'
+WINNT
+'
 :
 SOURCES
 +
