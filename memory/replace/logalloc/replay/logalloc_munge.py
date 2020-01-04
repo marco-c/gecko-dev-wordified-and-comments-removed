@@ -528,23 +528,35 @@ main
 )
 :
     
-process_pointers
-=
-defaultdict
-(
-IdMapping
-)
-    
 pids
 =
 IdMapping
 (
 )
     
-tids
+processes
 =
+defaultdict
+(
+lambda
+:
+{
+'
+pointers
+'
+:
 IdMapping
 (
+)
+                                      
+'
+tids
+'
+:
+IdMapping
+(
+)
+}
 )
     
 for
@@ -587,9 +599,21 @@ pid
 )
 ]
             
+process
+=
+processes
+[
+pid
+]
+            
 tid
 =
+process
+[
+'
 tids
+'
+]
 [
 int
 (
@@ -599,9 +623,11 @@ tid
             
 pointers
 =
-process_pointers
+process
 [
-pid
+'
+pointers
+'
 ]
             
 if
