@@ -5550,6 +5550,11 @@ newImage
 .
 width
 =
+item
+.
+naturalWidth
+|
+|
 newImage
 .
 naturalWidth
@@ -5558,6 +5563,11 @@ newImage
 .
 height
 =
+item
+.
+naturalHeight
+|
+|
 newImage
 .
 naturalHeight
