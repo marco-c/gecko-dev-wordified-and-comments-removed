@@ -44,6 +44,28 @@ file
 "
 :
 "
+browser
+/
+config
+/
+version_display
+.
+txt
+"
+"
+suffix
+"
+:
+"
+"
+}
+        
+{
+"
+file
+"
+:
+"
 config
 /
 milestone
@@ -107,7 +129,7 @@ releases
 /
 mozilla
 -
-esr38
+esr45
 "
     
 "
