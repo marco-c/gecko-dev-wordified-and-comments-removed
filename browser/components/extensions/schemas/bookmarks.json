@@ -1464,6 +1464,11 @@ name
 search
 "
 "
+unsupported
+"
+:
+true
+"
 type
 "
 :
@@ -1708,13 +1713,6 @@ type
 :
 "
 string
-"
-"
-format
-"
-:
-"
-url
 "
 "
 optional
