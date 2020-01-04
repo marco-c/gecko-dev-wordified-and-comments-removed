@@ -175,6 +175,13 @@ startRecording
 )
 ;
 yield
+secondFront
+.
+destroy
+(
+)
+;
+yield
 closeDebuggerClient
 (
 client2
@@ -201,6 +208,13 @@ be
 active
 .
 "
+)
+;
+yield
+firstFront
+.
+destroy
+(
 )
 ;
 yield
