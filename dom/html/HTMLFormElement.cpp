@@ -6858,7 +6858,6 @@ document
 >
 GetUpgradeInsecureRequests
 (
-false
 )
 )
 {

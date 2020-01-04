@@ -469,12 +469,12 @@ contentType
 )
 ;
 nsContentPolicyType
-externalTypeOrMCBInternal
+externalTypeOrScript
 =
 nsContentUtils
 :
 :
-InternalContentPolicyTypeToExternalOrMCBInternal
+InternalContentPolicyTypeToExternalOrScript
 (
 contentType
 )
@@ -576,7 +576,7 @@ isMixedContentBlocker
 {
 type
 =
-externalTypeOrMCBInternal
+externalTypeOrScript
 ;
 }
 bool
