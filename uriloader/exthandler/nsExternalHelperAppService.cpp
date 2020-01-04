@@ -2386,6 +2386,16 @@ Image
 "
 }
 {
+IMAGE_APNG
+"
+apng
+"
+"
+APNG
+Image
+"
+}
+{
 IMAGE_TIFF
 "
 tiff
