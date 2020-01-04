@@ -421,6 +421,9 @@ class
 Animation
 ;
 class
+CustomElementsRegistry
+;
+class
 Link
 ;
 class
@@ -1030,6 +1033,10 @@ class
 :
 :
 nsDocument
+;
+friend
+class
+CustomElementsRegistry
 ;
 friend
 class
