@@ -24,7 +24,7 @@ version
 .
 0
 .
-10
+11
 "
 "
 author
@@ -65,9 +65,9 @@ mocha
 "
 2
 .
-1
+2
 .
-0
+5
 "
 "
 expect
@@ -89,9 +89,9 @@ underscore
 "
 1
 .
-7
+8
 .
-0
+3
 "
 "
 jsondiffpatch
@@ -102,7 +102,7 @@ jsondiffpatch
 .
 1
 .
-27
+31
 "
 "
 benchmark
@@ -118,9 +118,9 @@ microtime
 "
 1
 .
-1
+4
 .
-0
+2
 "
 }
 "

@@ -1293,7 +1293,7 @@ assertExpectedStateAtEndOfAnimation
 (
 )
 ;
-t
+test
 .
 done
 (

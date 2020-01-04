@@ -17,9 +17,9 @@ use
 the
 script
 /
-html
-/
 tools
+/
+scripts
 /
 update_html5lib_tests
 .
