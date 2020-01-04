@@ -231,7 +231,7 @@ const
 call
 0
 (
-trap
+unreachable
 )
 (
 i32

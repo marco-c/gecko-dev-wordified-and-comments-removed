@@ -949,8 +949,8 @@ Return
 SetLocal
 Store
 TernaryOperator
-Trap
 UnaryOperator
+Unreachable
 }
 ;
 class
@@ -1049,11 +1049,11 @@ Nop
 }
 ;
 struct
-WasmAstTrap
+WasmAstUnreachable
 :
 WasmAstExpr
 {
-WasmAstTrap
+WasmAstUnreachable
 (
 )
 :
@@ -1062,7 +1062,7 @@ WasmAstExpr
 WasmAstExprKind
 :
 :
-Trap
+Unreachable
 )
 {
 }
@@ -3667,9 +3667,9 @@ Store
 Table
 TernaryOpcode
 Text
-Trap
 Type
 UnaryOpcode
+Unreachable
 ValueType
 }
 ;
@@ -12446,6 +12446,13 @@ begin
 cur_
 )
 ;
+break
+;
+case
+'
+u
+'
+:
 if
 (
 consume
@@ -12453,7 +12460,7 @@ consume
 MOZ_UTF16
 (
 "
-trap
+unreachable
 "
 )
 )
@@ -12464,7 +12471,7 @@ WasmToken
 WasmToken
 :
 :
-Trap
+Unreachable
 begin
 cur_
 )
@@ -16697,7 +16704,7 @@ case
 WasmToken
 :
 :
-Trap
+Unreachable
 :
 return
 new
@@ -16706,7 +16713,7 @@ c
 .
 lifo
 )
-WasmAstTrap
+WasmAstUnreachable
 ;
 case
 WasmToken
@@ -20963,7 +20970,7 @@ case
 WasmAstExprKind
 :
 :
-Trap
+Unreachable
 :
 return
 true
@@ -23170,7 +23177,7 @@ case
 WasmAstExprKind
 :
 :
-Trap
+Unreachable
 :
 return
 e

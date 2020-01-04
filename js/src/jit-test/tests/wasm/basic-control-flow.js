@@ -4918,7 +4918,7 @@ module
 (
 func
 (
-trap
+unreachable
 )
 )
 (
@@ -4944,7 +4944,7 @@ func
 (
 if
 (
-trap
+unreachable
 )
 (
 i32
@@ -4980,7 +4980,7 @@ block
 br_if
 0
 (
-trap
+unreachable
 )
 )
 )
@@ -5011,7 +5011,7 @@ block
 br_table
 0
 (
-trap
+unreachable
 )
 )
 )
@@ -5051,7 +5051,7 @@ const
 0
 )
 (
-trap
+unreachable
 )
 )
 )
