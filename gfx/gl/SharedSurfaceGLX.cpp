@@ -271,7 +271,7 @@ void
 SharedSurface_GLXDrawable
 :
 :
-Fence
+ProducerReleaseImpl
 (
 )
 {
