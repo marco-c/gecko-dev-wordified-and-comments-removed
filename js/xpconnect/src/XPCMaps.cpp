@@ -411,15 +411,6 @@ WrappedJSToReleaseArray
 (
 )
 ;
-MOZ_ASSERT
-(
-dying
-.
-IsEmpty
-(
-)
-)
-;
 for
 (
 Map
