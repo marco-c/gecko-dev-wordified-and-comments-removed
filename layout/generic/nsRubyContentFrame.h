@@ -11,15 +11,11 @@ nsInlineFrame
 .
 h
 "
-typedef
-nsInlineFrame
-nsRubyContentFrameSuper
-;
 class
 nsRubyContentFrame
 :
 public
-nsRubyContentFrameSuper
+nsInlineFrame
 {
 public
 :
@@ -53,7 +49,7 @@ nsStyleContext
 aContext
 )
 :
-nsRubyContentFrameSuper
+nsInlineFrame
 (
 aContext
 )
