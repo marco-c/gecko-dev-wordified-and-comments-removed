@@ -433,7 +433,7 @@ async
 const
 unsigned
 long
-DISPATCH_AT_END
+DISPATCH_TAIL
 =
 2
 ;
@@ -952,10 +952,10 @@ nsIEventTarget
 DISPATCH_SYNC
 #
 define
-NS_DISPATCH_AT_END
+NS_DISPATCH_TAIL
 nsIEventTarget
 :
 :
-DISPATCH_AT_END
+DISPATCH_TAIL
 %
 }

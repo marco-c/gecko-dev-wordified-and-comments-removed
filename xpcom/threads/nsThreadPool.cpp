@@ -384,7 +384,7 @@ mThreadLimit
 (
 aFlags
 &
-NS_DISPATCH_AT_END
+NS_DISPATCH_TAIL
 )
 &
 &
@@ -1276,7 +1276,7 @@ NS_DISPATCH_NORMAL
 aFlags
 =
 =
-NS_DISPATCH_AT_END
+NS_DISPATCH_TAIL
 "
 unexpected
 dispatch
