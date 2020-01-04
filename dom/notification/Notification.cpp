@@ -3063,8 +3063,10 @@ scope
 aRv
 .
 ThrowTypeError
-(
+<
 MSG_NOTIFICATION_NO_CONSTRUCTOR_IN_SERVICEWORKER
+>
+(
 )
 ;
 return
@@ -9598,8 +9600,10 @@ aScope
 aRv
 .
 ThrowTypeError
-(
+<
 MSG_NO_ACTIVE_WORKER
+>
+(
 &
 scope
 )
@@ -9687,8 +9691,10 @@ result
 result
 .
 ThrowTypeError
-(
+<
 MSG_NOTIFICATION_PERMISSION_DENIED
+>
+(
 )
 ;
 p

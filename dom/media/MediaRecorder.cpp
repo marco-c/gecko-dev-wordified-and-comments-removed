@@ -4462,8 +4462,10 @@ MediaStream
 aRv
 .
 ThrowTypeError
-(
+<
 MSG_DOES_NOT_IMPLEMENT_INTERFACE
+>
+(
 &
 argStr
 &
