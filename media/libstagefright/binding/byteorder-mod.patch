@@ -12,6 +12,8 @@ binding
 /
 mp4parse
 /
+src
+/
 byteorder
 /
 mod
@@ -26,6 +28,8 @@ libstagefright
 binding
 /
 mp4parse
+/
+src
 /
 byteorder
 /
@@ -51,6 +55,8 @@ binding
 /
 mp4parse
 /
+src
+/
 byteorder
 /
 mod
@@ -68,6 +74,8 @@ libstagefright
 binding
 /
 mp4parse
+/
+src
 /
 byteorder
 /
@@ -429,6 +437,8 @@ binding
 /
 mp4parse
 /
+src
+/
 byteorder
 /
 new
@@ -443,6 +453,8 @@ libstagefright
 binding
 /
 mp4parse
+/
+src
 /
 byteorder
 /
@@ -468,6 +480,8 @@ binding
 /
 mp4parse
 /
+src
+/
 byteorder
 /
 new
@@ -485,6 +499,8 @@ libstagefright
 binding
 /
 mp4parse
+/
+src
 /
 byteorder
 /

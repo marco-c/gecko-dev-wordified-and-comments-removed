@@ -765,6 +765,8 @@ binding
 /
 mp4parse
 /
+src
+/
 lib
 .
 rs

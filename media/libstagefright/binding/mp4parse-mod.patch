@@ -12,6 +12,8 @@ binding
 /
 mp4parse
 /
+src
+/
 lib
 .
 rs
@@ -24,6 +26,8 @@ libstagefright
 binding
 /
 mp4parse
+/
+src
 /
 lib
 .
@@ -47,6 +51,8 @@ binding
 /
 mp4parse
 /
+src
+/
 lib
 .
 rs
@@ -62,6 +68,8 @@ libstagefright
 binding
 /
 mp4parse
+/
+src
 /
 lib
 .
