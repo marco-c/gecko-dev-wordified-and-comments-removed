@@ -219,8 +219,7 @@ Read
 const
 Message
 *
-void
-*
+PickleIterator
 *
 paramType
 *
@@ -285,8 +284,7 @@ Read
 const
 Message
 *
-void
-*
+PickleIterator
 *
 paramType
 *
@@ -342,8 +340,7 @@ Read
 const
 Message
 *
-void
-*
+PickleIterator
 *
 paramType
 *

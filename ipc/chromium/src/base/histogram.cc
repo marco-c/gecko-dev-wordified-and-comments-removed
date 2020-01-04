@@ -1479,11 +1479,11 @@ pickle_flags
 SampleSet
 sample
 ;
-void
-*
+PickleIterator
 iter
-=
-NULL
+(
+pickle
+)
 ;
 if
 (
@@ -4368,8 +4368,7 @@ SampleSet
 :
 Deserialize
 (
-void
-*
+PickleIterator
 *
 iter
 const

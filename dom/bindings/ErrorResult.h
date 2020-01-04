@@ -82,6 +82,9 @@ struct
 ParamTraits
 ;
 }
+class
+PickleIterator
+;
 namespace
 mozilla
 {
@@ -925,8 +928,7 @@ IPC
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 )
@@ -953,8 +955,7 @@ IPC
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 )

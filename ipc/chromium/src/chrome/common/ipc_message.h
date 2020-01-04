@@ -1037,8 +1037,7 @@ descriptor
 bool
 ReadFileDescriptor
 (
-void
-*
+PickleIterator
 *
 iter
 base

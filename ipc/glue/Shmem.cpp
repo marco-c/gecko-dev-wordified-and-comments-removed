@@ -118,8 +118,7 @@ const
 Message
 *
 msg
-void
-*
+PickleIterator
 *
 iter
 id_t
@@ -459,11 +458,11 @@ SharedMemory
 SharedMemoryType
 type
 ;
-void
-*
+PickleIterator
 iter
-=
-nullptr
+(
+aDescriptor
+)
 ;
 if
 (

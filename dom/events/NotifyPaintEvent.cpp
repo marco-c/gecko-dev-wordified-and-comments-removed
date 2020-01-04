@@ -705,8 +705,7 @@ IPC
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 )

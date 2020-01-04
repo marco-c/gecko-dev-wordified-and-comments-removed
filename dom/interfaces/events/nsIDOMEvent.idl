@@ -157,6 +157,15 @@ Message
 ptr
 ]
 native
+PickleIterator
+(
+PickleIterator
+)
+;
+[
+ptr
+]
+native
 EventTargetPtr
 (
 mozilla
@@ -203,6 +212,9 @@ class
 Message
 ;
 }
+class
+PickleIterator
+;
 namespace
 mozilla
 {
@@ -1488,8 +1500,8 @@ Deserialize
 in
 ConstIPCMessagePtr
 aMsg
-out
-voidPtr
+in
+PickleIterator
 aIter
 )
 ;

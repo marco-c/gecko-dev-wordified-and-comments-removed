@@ -784,8 +784,7 @@ Message
 :
 ReadFileDescriptor
 (
-void
-*
+PickleIterator
 *
 iter
 base

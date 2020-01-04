@@ -70,6 +70,9 @@ h
 class
 Pickle
 ;
+class
+PickleIterator
+;
 namespace
 base
 {
@@ -1743,8 +1746,7 @@ const
 bool
 Deserialize
 (
-void
-*
+PickleIterator
 *
 iter
 const

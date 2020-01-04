@@ -72,8 +72,7 @@ const
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 paramType
@@ -129,8 +128,7 @@ Read
 const
 Message
 *
-void
-*
+PickleIterator
 *
 paramType
 *

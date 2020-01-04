@@ -6940,8 +6940,7 @@ const
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 paramType
@@ -7203,8 +7202,7 @@ const
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 paramType

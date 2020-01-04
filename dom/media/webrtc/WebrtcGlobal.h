@@ -160,8 +160,7 @@ const
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 paramType
@@ -304,8 +303,7 @@ const
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 paramType
@@ -640,8 +638,7 @@ const
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 paramType
@@ -927,8 +924,7 @@ const
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 RTCStats
@@ -1084,8 +1080,7 @@ const
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 paramType
@@ -1306,8 +1301,7 @@ const
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 paramType
@@ -1565,8 +1559,7 @@ const
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 paramType
@@ -1793,8 +1786,7 @@ const
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 paramType
@@ -2014,8 +2006,7 @@ const
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 mozilla
@@ -2327,8 +2318,7 @@ const
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 paramType
@@ -2577,8 +2567,7 @@ const
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 paramType
@@ -2745,8 +2734,7 @@ const
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 paramType
@@ -2874,8 +2862,7 @@ const
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 paramType
@@ -3099,8 +3086,7 @@ const
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 paramType

@@ -649,8 +649,7 @@ IPC
 Message
 *
 aMessage
-void
-*
+PickleIterator
 *
 aIter
 bool
@@ -1232,8 +1231,7 @@ IPC
 Message
 *
 aMessage
-void
-*
+PickleIterator
 *
 aIter
 bool
@@ -2177,8 +2175,7 @@ const
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 paramType
@@ -2406,8 +2403,7 @@ const
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 paramType

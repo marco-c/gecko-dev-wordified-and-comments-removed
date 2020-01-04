@@ -211,8 +211,7 @@ const
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 Permission
@@ -708,8 +707,7 @@ const
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 mozilla
@@ -1200,8 +1198,7 @@ const
 Message
 *
 aMsg
-void
-*
+PickleIterator
 *
 aIter
 mozilla
