@@ -269,13 +269,8 @@ GetInstance
 )
 {
 #
-ifdef
+ifndef
 MOZ_WIDGET_ANDROID
-return
-nullptr
-;
-#
-else
 if
 (
 !
@@ -296,6 +291,8 @@ gXULAlerts
 )
 ;
 }
+#
+endif
 RefPtr
 <
 nsXULAlerts
@@ -315,8 +312,6 @@ forget
 (
 )
 ;
-#
-endif
 }
 NS_IMETHODIMP
 nsXULAlerts
