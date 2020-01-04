@@ -30330,7 +30330,7 @@ inputSource
 pointerEvent
 -
 >
-isPrimary
+mIsPrimary
 )
 )
 ;
@@ -30388,7 +30388,7 @@ inputSource
 pointerEvent
 -
 >
-isPrimary
+mIsPrimary
 )
 )
 ;
@@ -32053,7 +32053,7 @@ mWidget
 ;
 event
 .
-isPrimary
+mIsPrimary
 =
 i
 =
@@ -32091,7 +32091,7 @@ mModifiers
 ;
 event
 .
-width
+mWidth
 =
 touch
 -
@@ -32102,7 +32102,7 @@ RadiusX
 ;
 event
 .
-height
+mHeight
 =
 touch
 -
