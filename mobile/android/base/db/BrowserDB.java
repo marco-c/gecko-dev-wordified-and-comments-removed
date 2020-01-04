@@ -328,6 +328,17 @@ end
 ;
 public
 abstract
+long
+getPrePathLastVisitedTimeMilliseconds
+(
+ContentResolver
+cr
+String
+prePath
+)
+;
+public
+abstract
 void
 expireHistory
 (
