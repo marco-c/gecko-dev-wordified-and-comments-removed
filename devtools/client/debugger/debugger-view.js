@@ -1722,6 +1722,14 @@ line
 ;
 }
 else
+if
+(
+DebuggerView
+.
+Sources
+.
+selectedValue
+)
 {
 if
 (
