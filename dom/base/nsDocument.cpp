@@ -46808,7 +46808,7 @@ nsIDocument
 :
 CreateTouch
 (
-nsIDOMWindow
+nsGlobalWindow
 *
 aView
 EventTarget
@@ -46838,6 +46838,16 @@ float
 aForce
 )
 {
+MOZ_ASSERT
+(
+aView
+-
+>
+IsInnerWindow
+(
+)
+)
+;
 RefPtr
 <
 Touch
