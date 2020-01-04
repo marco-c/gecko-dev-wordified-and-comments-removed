@@ -1261,6 +1261,9 @@ targetPtr
 ;
 if
 (
+targetNode
+&
+&
 !
 targetNode
 -
