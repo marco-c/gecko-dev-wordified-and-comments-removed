@@ -600,6 +600,11 @@ nsStyleChangeList
 h
 '
 '
+nsStyleSheetService
+.
+h
+'
+'
 ScrollbarStyles
 .
 h
