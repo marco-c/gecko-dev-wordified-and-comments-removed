@@ -3767,7 +3767,10 @@ NS_STYLE_BOX_ORIENT_HORIZONTAL
 )
 mBoxPack
 (
-NS_STYLE_BOX_PACK_START
+StyleBoxPack
+:
+:
+Start
 )
 mStretchStack
 (

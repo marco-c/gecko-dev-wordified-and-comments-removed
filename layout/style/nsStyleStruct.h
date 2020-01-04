@@ -13753,7 +13753,10 @@ mBoxDirection
 uint8_t
 mBoxOrient
 ;
-uint8_t
+mozilla
+:
+:
+StyleBoxPack
 mBoxPack
 ;
 bool
