@@ -963,6 +963,11 @@ nsRuleData
 aData
 )
 ;
+bool
+BlockEmbedContentLoading
+(
+)
+;
 }
 ;
 }
