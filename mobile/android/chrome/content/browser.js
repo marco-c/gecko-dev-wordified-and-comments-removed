@@ -22873,7 +22873,7 @@ browser
 .
 currentURI
 .
-specIgnoringRef
+spec
 }
 ;
 }
@@ -24333,8 +24333,7 @@ precomposed
 1
 )
 {
-let
-message
+jsonMessage
 =
 this
 .
@@ -24350,10 +24349,10 @@ addMetadata
 "
 touchIconList
 "
-message
+jsonMessage
 .
 href
-message
+jsonMessage
 .
 size
 )
