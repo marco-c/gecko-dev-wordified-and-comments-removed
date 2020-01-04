@@ -84,6 +84,9 @@ uint8_t
 eNoRequirements
 =
 0
+eHasWebkitPrefix
+=
+1
 }
 ;
 uint8_t
