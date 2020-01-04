@@ -872,6 +872,7 @@ ind
 name
 value
 priority
+enabled
 )
 ;
 prop

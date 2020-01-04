@@ -455,6 +455,7 @@ rgb
 "
 "
 "
+true
 )
 ;
 yield
@@ -490,6 +491,7 @@ italic
 "
 "
 "
+true
 )
 ;
 yield
@@ -841,6 +843,7 @@ rgb
 "
 "
 "
+true
 )
 ;
 yield
