@@ -841,7 +841,7 @@ GCC_MINOR_VERSION
 "
 -
 lt
-7
+8
 |
 |
 test
@@ -860,7 +860,7 @@ Only
 GCC
 4
 .
-7
+8
 or
 newer
 supported
@@ -2376,7 +2376,7 @@ HOST_GCC_MINOR_VERSION
 "
 -
 lt
-7
+8
 |
 |
 test
@@ -2395,7 +2395,7 @@ Only
 GCC
 4
 .
-7
+8
 or
 newer
 supported
