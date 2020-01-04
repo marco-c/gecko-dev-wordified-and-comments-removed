@@ -1455,13 +1455,15 @@ length
 maxSmallPools
 )
 {
+if
+(
 m_smallPools
 .
 append
 (
 pool
 )
-;
+)
 pool
 -
 >
