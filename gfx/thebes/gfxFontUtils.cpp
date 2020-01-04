@@ -7197,8 +7197,10 @@ nameID
 =
 aNameID
 )
+{
 continue
 ;
+}
 platformID
 =
 nameRecord
@@ -7222,8 +7224,10 @@ uint32_t
 aPlatformID
 )
 )
+{
 continue
 ;
+}
 if
 (
 aLangID
@@ -7246,8 +7250,10 @@ uint32_t
 aLangID
 )
 )
+{
 continue
 ;
+}
 uint32_t
 namelen
 =
