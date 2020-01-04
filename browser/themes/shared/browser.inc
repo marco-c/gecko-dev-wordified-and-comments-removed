@@ -213,10 +213,6 @@ webide
 -
 button
 #
-loop
--
-button
-#
 pocket
 -
 button
