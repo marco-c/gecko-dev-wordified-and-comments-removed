@@ -10397,10 +10397,7 @@ mSharedWorkers
 i
 ]
 ;
-mSharedWorkers
-[
-i
-]
+kungFuDeathGrip
 -
 >
 Freeze
@@ -10655,10 +10652,7 @@ mSharedWorkers
 i
 ]
 ;
-mSharedWorkers
-[
-i
-]
+kungFuDeathGrip
 -
 >
 Thaw

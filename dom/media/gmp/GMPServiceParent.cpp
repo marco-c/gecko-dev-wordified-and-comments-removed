@@ -4528,6 +4528,11 @@ AsyncAddPluginDirectory
 aDirectory
 )
 ;
+Unused
+<
+<
+p
+;
 return
 NS_OK
 ;

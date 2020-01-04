@@ -1557,7 +1557,7 @@ nsCOMPtr
 <
 nsIDocument
 >
-kungFuDeathGrip
+document
 (
 mDocument
 )
@@ -1567,7 +1567,7 @@ if
 isStyleFlushNeeded
 )
 {
-mDocument
+document
 -
 >
 FlushPendingNotifications

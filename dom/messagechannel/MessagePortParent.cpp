@@ -470,7 +470,7 @@ kungFuDeathGrip
 =
 mService
 ;
-mService
+kungFuDeathGrip
 -
 >
 ParentDestroy

@@ -1705,7 +1705,7 @@ image
 =
 do_QueryInterface
 (
-mImageContent
+imageContent
 )
 ;
 image

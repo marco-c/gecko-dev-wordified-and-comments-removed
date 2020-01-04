@@ -4471,7 +4471,7 @@ RefPtr
 <
 Derived
 >
-kungfuDeathGrip
+derivedClass
 =
 DerivedClass
 (
@@ -4626,9 +4626,7 @@ jsapi
 .
 Init
 (
-DerivedClass
-(
-)
+derivedClass
 -
 >
 GetParentObject
@@ -4765,9 +4763,7 @@ BodyUtil
 :
 ConsumeBlob
 (
-DerivedClass
-(
-)
+derivedClass
 -
 >
 GetParentObject
@@ -4852,9 +4848,7 @@ BodyUtil
 :
 ConsumeFormData
 (
-DerivedClass
-(
-)
+derivedClass
 -
 >
 GetParentObject

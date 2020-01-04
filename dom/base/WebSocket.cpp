@@ -4771,7 +4771,7 @@ RefPtr
 <
 WebSocketImpl
 >
-kungfuDeathGrip
+webSocketImpl
 =
 webSocket
 -
@@ -4790,10 +4790,7 @@ NS_IsMainThread
 )
 )
 {
-webSocket
--
->
-mImpl
+webSocketImpl
 -
 >
 Init
@@ -4825,10 +4822,7 @@ else
 if
 (
 !
-webSocket
--
->
-mImpl
+webSocketImpl
 -
 >
 RegisterWorkerHolder
@@ -4905,10 +4899,7 @@ runnable
 new
 InitRunnable
 (
-webSocket
--
->
-mImpl
+webSocketImpl
 !
 !
 aTransportProvider

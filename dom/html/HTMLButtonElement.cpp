@@ -287,7 +287,6 @@ submit
 NS_FORM_BUTTON_SUBMIT
 }
 {
-nullptr
 0
 }
 }
@@ -1670,7 +1669,7 @@ presShell
 >
 HandleDOMEventWithTarget
 (
-mForm
+form
 &
 event
 &
