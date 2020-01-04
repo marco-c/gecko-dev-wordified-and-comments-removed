@@ -443,6 +443,9 @@ manifest
 '
 vr
 '
+'
+newapps
+'
 ]
 if
 CONFIG
