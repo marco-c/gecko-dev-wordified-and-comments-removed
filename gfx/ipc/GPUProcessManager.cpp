@@ -615,7 +615,7 @@ if
 ImageBridgeChild
 :
 :
-IsCreated
+GetSingleton
 (
 )
 )
