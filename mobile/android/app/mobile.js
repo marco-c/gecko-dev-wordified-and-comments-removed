@@ -3882,7 +3882,7 @@ radius
 .
 leftmm
 "
-8
+3
 )
 ;
 pref
@@ -3896,7 +3896,7 @@ radius
 .
 topmm
 "
-8
+5
 )
 ;
 pref
@@ -3910,7 +3910,7 @@ radius
 .
 rightmm
 "
-8
+3
 )
 ;
 pref
@@ -3924,7 +3924,7 @@ radius
 .
 bottommm
 "
-8
+2
 )
 ;
 pref
@@ -3966,7 +3966,7 @@ radius
 .
 leftmm
 "
-8
+3
 )
 ;
 pref
@@ -3980,7 +3980,7 @@ radius
 .
 topmm
 "
-8
+5
 )
 ;
 pref
@@ -3994,7 +3994,7 @@ radius
 .
 rightmm
 "
-8
+3
 )
 ;
 pref
@@ -4008,7 +4008,7 @@ radius
 .
 bottommm
 "
-8
+2
 )
 ;
 pref
