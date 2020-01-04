@@ -2239,6 +2239,17 @@ contextMenu
 )
 ;
 }
+this
+.
+emit
+(
+"
+popupOpen
+"
+ev
+popup
+)
+;
 popup
 .
 openPopupAtScreen
