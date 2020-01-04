@@ -25,7 +25,7 @@ gecko
 .
 home
 .
-CombinedHistoryPanel
+CombinedHistoryAdapter
 .
 SectionHeader
 ;
