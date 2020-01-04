@@ -103,6 +103,11 @@ nsIMozNavigatorNetwork
 idl
 '
 '
+nsITCPSocketCallback
+.
+idl
+'
+'
 nsIUDPSocketChild
 .
 idl

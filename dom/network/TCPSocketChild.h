@@ -38,6 +38,9 @@ TypeDecls
 .
 h
 "
+class
+nsITCPSocketCallback
+;
 namespace
 IPC
 {
@@ -112,9 +115,9 @@ TCPSocketChildBase
 (
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
-TCPSocket
+nsITCPSocketCallback
 >
 mSocket
 ;
@@ -168,7 +171,7 @@ TCPSocketChild
 void
 SendOpen
 (
-TCPSocket
+nsITCPSocketCallback
 *
 aSocket
 bool
@@ -180,7 +183,7 @@ aUseArrayBuffers
 void
 SendWindowlessOpenBind
 (
-TCPSocket
+nsITCPSocketCallback
 *
 aSocket
 const
