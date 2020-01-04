@@ -444,8 +444,6 @@ EXTRA_DSO_LDOPTS
 =
 [
 '
-\
-'
 %
 s
 /
@@ -457,8 +455,6 @@ s
 d3d9
 .
 lib
-\
-'
 '
 %
 (
@@ -476,8 +472,6 @@ MOZ_D3D_CPU_SUFFIX
 ]
 )
 '
-\
-'
 %
 s
 /
@@ -489,8 +483,6 @@ s
 dxguid
 .
 lib
-\
-'
 '
 %
 (

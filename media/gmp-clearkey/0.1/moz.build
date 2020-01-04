@@ -351,6 +351,8 @@ compare
 '
 -
 include
+'
+'
 stdio
 .
 h
@@ -364,6 +366,8 @@ prototype
 '
 -
 include
+'
+'
 unistd
 .
 h
@@ -390,6 +394,8 @@ CFLAGS
 '
 -
 FI
+'
+'
 stdio
 .
 h

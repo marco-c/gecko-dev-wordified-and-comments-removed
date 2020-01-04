@@ -748,13 +748,11 @@ wmainCRTStartup
 LDFLAGS
 +
 =
-[
 CONFIG
 [
 '
 MOZ_ALLOW_HEAP_EXECUTE_FLAGS
 '
-]
 ]
 #
 Control

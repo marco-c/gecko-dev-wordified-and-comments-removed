@@ -331,7 +331,7 @@ OS_TEST
 '
 ]
 :
-EXTRA_DSO_LDOPTS
+OS_LIBS
 +
 =
 [
