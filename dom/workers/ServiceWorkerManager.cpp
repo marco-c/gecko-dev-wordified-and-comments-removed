@@ -21613,13 +21613,10 @@ OriginAttributesRef
 (
 )
 ;
-PropagateSoftUpdate
+SoftUpdate
 (
 attrs
-NS_ConvertUTF8toUTF16
-(
 aScope
-)
 )
 ;
 }
