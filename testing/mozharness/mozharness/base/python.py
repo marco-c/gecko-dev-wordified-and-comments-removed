@@ -1052,6 +1052,9 @@ freeze
 silent
 =
 True
+ignore_errors
+=
+True
 )
             
 if
