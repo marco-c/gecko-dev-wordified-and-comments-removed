@@ -1114,6 +1114,13 @@ deferred_installs
 set
 (
 )
+        
+self
+.
+manifest_default_support_files
+=
+{
+}
     
 def
 add
@@ -1122,6 +1129,7 @@ self
 t
 flavor
 topsrcdir
+default_supp_files
 )
 :
         
@@ -1201,6 +1209,52 @@ dirname
 (
 key
 )
+        
+supp_files
+=
+t
+.
+get
+(
+'
+support
+-
+files
+'
+)
+        
+if
+supp_files
+and
+supp_files
+=
+=
+default_supp_files
+:
+            
+self
+.
+manifest_default_support_files
+[
+t
+[
+'
+manifest
+'
+]
+]
+=
+default_supp_files
+            
+del
+t
+[
+'
+support
+-
+files
+'
+]
         
 self
 .
@@ -1506,6 +1560,10 @@ flavor
 obj
 .
 topsrcdir
+                                       
+obj
+.
+default_support_files
 )
             
 self
@@ -2283,11 +2341,19 @@ json
 .
 dump
 (
+[
 self
 .
 _test_manager
 .
 tests_by_path
+                       
+self
+.
+_test_manager
+.
+manifest_default_support_files
+]
 fh
 )
         
