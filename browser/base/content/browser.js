@@ -17961,7 +17961,6 @@ if
 tab
 )
 return
-false
 ;
 BrowserSearch
 .

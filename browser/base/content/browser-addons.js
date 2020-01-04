@@ -3830,6 +3830,9 @@ return
 sheet
 ;
 }
+return
+undefined
+;
 }
 )
 ;

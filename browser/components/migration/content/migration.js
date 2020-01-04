@@ -945,6 +945,9 @@ _selectedProfile
 null
 ;
 }
+return
+undefined
+;
 }
 onSelectProfilePageShow
 :

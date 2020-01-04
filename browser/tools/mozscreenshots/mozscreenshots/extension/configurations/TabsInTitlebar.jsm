@@ -146,6 +146,9 @@ PREF_TABS_IN_TITLEBAR
 true
 )
 ;
+return
+undefined
+;
 }
 )
 }

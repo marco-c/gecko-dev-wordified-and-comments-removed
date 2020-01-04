@@ -1661,6 +1661,9 @@ catch
 e
 )
 {
+return
+null
+;
 }
 }
 const

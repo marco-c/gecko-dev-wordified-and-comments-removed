@@ -9106,6 +9106,9 @@ return
 false
 ;
 }
+return
+undefined
+;
 }
 onInstallEnded
 :
