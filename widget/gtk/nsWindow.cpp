@@ -5606,7 +5606,12 @@ MOZ_ENABLE_STARTUP_NOTIFICATION
 )
 if
 (
-mIsX11Display
+GDK_IS_X11_DISPLAY
+(
+gdk_display_get_default
+(
+)
+)
 )
 {
 GdkWindow
