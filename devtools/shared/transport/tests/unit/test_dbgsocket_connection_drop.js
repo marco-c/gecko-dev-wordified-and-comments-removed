@@ -306,8 +306,6 @@ port
 let
 closedDeferred
 =
-promise
-.
 defer
 (
 )

@@ -87,8 +87,6 @@ transportFactory
 let
 clientDeferred
 =
-promise
-.
 defer
 (
 )
@@ -96,8 +94,6 @@ defer
 let
 serverDeferred
 =
-promise
-.
 defer
 (
 )
@@ -713,8 +709,6 @@ length
 let
 compareDeferred
 =
-promise
-.
 defer
 (
 )

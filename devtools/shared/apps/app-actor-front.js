@@ -94,6 +94,20 @@ promise
 )
 ;
 const
+defer
+=
+require
+(
+"
+devtools
+/
+shared
+/
+defer
+"
+)
+;
+const
 DevToolsUtils
 =
 require
@@ -451,8 +465,6 @@ dirToArchive
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -642,8 +654,6 @@ progressCallback
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -955,8 +965,6 @@ progressCallback
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1220,8 +1228,6 @@ progressCallback
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1499,8 +1505,6 @@ manifest
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1642,8 +1646,6 @@ existingTarget
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1969,8 +1971,6 @@ form
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -2348,8 +2348,6 @@ iconURL
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -3801,8 +3799,6 @@ request
 let
 deferred
 =
-promise
-.
 defer
 (
 )

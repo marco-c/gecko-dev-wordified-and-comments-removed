@@ -281,8 +281,6 @@ length
 let
 copyDeferred
 =
-promise
-.
 defer
 (
 )

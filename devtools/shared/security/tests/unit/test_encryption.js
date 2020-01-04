@@ -46,8 +46,6 @@ client
 let
 deferred
 =
-promise
-.
 defer
 (
 )

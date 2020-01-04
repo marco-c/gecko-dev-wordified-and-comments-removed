@@ -202,6 +202,20 @@ promise
 )
 ;
 const
+defer
+=
+require
+(
+"
+devtools
+/
+shared
+/
+defer
+"
+)
+;
+const
 EventEmitter
 =
 require
@@ -2101,8 +2115,6 @@ return
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -2228,8 +2240,6 @@ onBulkPacket
 let
 sendDeferred
 =
-promise
-.
 defer
 (
 )
@@ -2246,8 +2256,6 @@ executeSoon
 let
 copyDeferred
 =
-promise
-.
 defer
 (
 )

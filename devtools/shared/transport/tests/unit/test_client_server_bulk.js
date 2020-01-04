@@ -570,8 +570,6 @@ request
 let
 replyDeferred
 =
-promise
-.
 defer
 (
 )
@@ -623,8 +621,6 @@ request
 let
 replyDeferred
 =
-promise
-.
 defer
 (
 )
@@ -774,8 +770,6 @@ really_long
 let
 clientDeferred
 =
-promise
-.
 defer
 (
 )
@@ -783,8 +777,6 @@ defer
 let
 serverDeferred
 =
-promise
-.
 defer
 (
 )
@@ -792,8 +784,6 @@ defer
 let
 bulkCopyDeferred
 =
-promise
-.
 defer
 (
 )
@@ -1097,8 +1087,6 @@ really_long
 let
 clientDeferred
 =
-promise
-.
 defer
 (
 )
@@ -1106,8 +1094,6 @@ defer
 let
 serverDeferred
 =
-promise
-.
 defer
 (
 )
@@ -1340,8 +1326,6 @@ length
 let
 compareDeferred
 =
-promise
-.
 defer
 (
 )

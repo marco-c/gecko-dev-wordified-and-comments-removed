@@ -60,6 +60,20 @@ promise
 )
 ;
 var
+defer
+=
+require
+(
+"
+devtools
+/
+shared
+/
+defer
+"
+)
+;
+var
 DevToolsUtils
 =
 require
@@ -839,8 +853,6 @@ getOrCreate
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1041,8 +1053,6 @@ input
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -2518,8 +2528,6 @@ this
 .
 _handshakeDeferred
 =
-promise
-.
 defer
 (
 )
