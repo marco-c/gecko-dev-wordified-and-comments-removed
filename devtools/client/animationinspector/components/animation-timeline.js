@@ -1375,6 +1375,12 @@ class
 animation
 "
 +
+animation
+.
+state
+.
+type
++
 (
 animation
 .
