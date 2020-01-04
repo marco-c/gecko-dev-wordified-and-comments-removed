@@ -425,7 +425,7 @@ override
 ;
 virtual
 nsSize
-GetMinSizeForScrollArea
+GetXULMinSizeForScrollArea
 (
 nsBoxLayoutState
 &

@@ -6407,7 +6407,7 @@ aBoxLayoutState
 ;
 virtual
 nsSize
-GetMinSizeForScrollArea
+GetXULMinSizeForScrollArea
 (
 nsBoxLayoutState
 &
