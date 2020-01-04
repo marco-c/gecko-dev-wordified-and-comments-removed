@@ -117,7 +117,7 @@ server
 /
 actors
 /
-highlighter
+highlighters
 "
 )
 ;

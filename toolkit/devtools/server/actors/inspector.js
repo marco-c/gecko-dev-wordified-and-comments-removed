@@ -203,7 +203,7 @@ server
 /
 actors
 /
-highlighter
+highlighters
 "
 )
 ;
