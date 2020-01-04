@@ -22,7 +22,7 @@ mkPrin
 (
 uri
 appId
-inBrowser
+inIsolatedMozBrowser
 )
 {
 return
@@ -44,9 +44,9 @@ null
 appId
 :
 appId
-inBrowser
+inIsolatedMozBrowser
 :
-inBrowser
+inIsolatedMozBrowser
 }
 )
 ;
@@ -870,7 +870,7 @@ attrs
 appId
 :
 1001
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }

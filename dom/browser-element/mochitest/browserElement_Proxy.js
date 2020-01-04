@@ -71,7 +71,7 @@ frameUrl
 originAttributes
 :
 {
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -95,7 +95,7 @@ frameUrl
 originAttributes
 :
 {
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }

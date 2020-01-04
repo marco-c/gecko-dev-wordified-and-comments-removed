@@ -1205,7 +1205,7 @@ attrs
 appId
 :
 systemAppId
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }

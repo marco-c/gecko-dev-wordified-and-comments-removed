@@ -451,7 +451,7 @@ GetJarPrefix
 uint32_t
 aAppid
 bool
-aInMozBrowser
+aInIsolatedMozBrowser
 nsACString
 &
 aJarPrefix

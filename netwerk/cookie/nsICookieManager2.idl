@@ -859,7 +859,7 @@ app
 *
 If
 the
-onlyBrowserELement
+onlyIsolatedMozBrowser
 parameter
 is
 set
@@ -868,10 +868,11 @@ true
 only
 cookies
 part
-of
 *
-a
-browser
+of
+an
+isolated
+mozbrowser
 element
 inside
 the
@@ -882,10 +883,10 @@ returned
 .
 If
 set
+*
 to
 false
 all
-*
 cookies
 will
 be
@@ -893,7 +894,8 @@ returned
 regardless
 of
 their
-browserElement
+*
+inIsolatedMozBrowser
 flag
 .
 *
@@ -933,7 +935,7 @@ long
 appId
 in
 boolean
-onlyBrowserElement
+onlyIsolatedMozBrowser
 )
 ;
 /
@@ -956,7 +958,7 @@ aAppId
 *
 *
 If
-onlyBrowserElement
+onlyIsolatedMozBrowser
 is
 set
 to
@@ -973,8 +975,9 @@ marked
 as
 part
 of
-a
-browser
+an
+isolated
+mozbrowser
 element
 inside
 the
@@ -1008,7 +1011,7 @@ long
 appId
 in
 boolean
-onlyBrowserElement
+onlyIsolatedMozBrowser
 )
 ;
 }

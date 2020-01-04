@@ -54745,7 +54745,7 @@ eFrameTypeBrowser
 {
 attrs
 .
-mInBrowser
+mInIsolatedMozBrowser
 =
 true
 ;

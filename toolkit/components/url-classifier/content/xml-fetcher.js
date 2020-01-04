@@ -151,7 +151,7 @@ SAFEBROWSING_APP_ID
 ;
 this
 .
-isInBrowserElement
+isInIsolatedMozBrowserElement
 =
 false
 ;
@@ -225,12 +225,13 @@ appId
 this
 .
 appId
-inBrowser
+inIsolatedMozBrowser
 :
 this
 .
-isInBrowserElement
+isInIsolatedMozBrowserElement
 }
+;
 this
 .
 _request

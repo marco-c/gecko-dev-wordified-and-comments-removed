@@ -316,7 +316,7 @@ originAttributes
 appId
 :
 1
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -396,7 +396,7 @@ getData
 appId
 :
 1
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }

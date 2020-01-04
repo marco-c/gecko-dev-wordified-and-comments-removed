@@ -4461,7 +4461,7 @@ aAppId
 bool
 aAnonymous
 bool
-aInBrowser
+aInIsolatedMozBrowser
 bool
 aPinning
 )
@@ -4478,9 +4478,9 @@ mAnonymous
 (
 aAnonymous
 )
-mInBrowser
+mInIsolatedMozBrowser
 (
-aInBrowser
+aInIsolatedMozBrowser
 )
 mPinning
 (
@@ -4548,7 +4548,7 @@ Hash
 )
 mAppId
 mAnonymous
-mInBrowser
+mInIsolatedMozBrowser
 mPinning
 )
 ;
@@ -4598,7 +4598,7 @@ bool
 mAnonymous
 ;
 bool
-mInBrowser
+mInIsolatedMozBrowser
 ;
 bool
 mPinning
@@ -16185,7 +16185,7 @@ aAppId
 bool
 aAnonymous
 bool
-aInBrowser
+aInIsolatedMozBrowser
 bool
 aPinning
 )
@@ -16215,7 +16215,7 @@ anonymous
 d
 "
 "
-inBrowser
+inIsolatedMozBrowser
 =
 %
 d
@@ -16228,7 +16228,7 @@ d
 aHandle
 aAppId
 aAnonymous
-aInBrowser
+aInIsolatedMozBrowser
 aPinning
 )
 )
@@ -16288,7 +16288,7 @@ InitIndexEntryEvent
 aHandle
 aAppId
 aAnonymous
-aInBrowser
+aInIsolatedMozBrowser
 aPinning
 )
 ;

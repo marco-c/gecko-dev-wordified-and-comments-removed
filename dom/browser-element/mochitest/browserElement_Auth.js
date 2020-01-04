@@ -1242,7 +1242,7 @@ attrs
 appId
 :
 1
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -1593,7 +1593,7 @@ createCodebasePrincipal
 (
 uri
 {
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }

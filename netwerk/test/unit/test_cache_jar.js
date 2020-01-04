@@ -205,7 +205,7 @@ makeChan
 (
 url
 appId
-inBrowser
+inIsolatedMozBrowser
 )
 {
 var
@@ -242,16 +242,16 @@ appId
 appId
 isInBrowserElement
 :
-inBrowser
+inIsolatedMozBrowser
 originAttributes
 :
 {
 appId
 :
 appId
-inBrowser
+inIsolatedMozBrowser
 :
-inBrowser
+inIsolatedMozBrowser
 }
 QueryInterface
 :
@@ -483,7 +483,7 @@ stringify
 appId
 :
 1
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }

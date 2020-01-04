@@ -13352,7 +13352,7 @@ attrs
 ;
 attrs
 .
-mInBrowser
+mInIsolatedMozBrowser
 =
 OwnerIsBrowserFrame
 (

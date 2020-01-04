@@ -262,7 +262,7 @@ uri
 appId
 :
 appID
-inBrowser
+inIsolatedMozBrowser
 :
 aBrowserFlag
 }
@@ -426,7 +426,7 @@ appId
 app
 .
 localId
-inBrowser
+inIsolatedMozBrowser
 :
 aBrowserFlag
 }
@@ -667,7 +667,7 @@ uri
 appId
 :
 appID
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }

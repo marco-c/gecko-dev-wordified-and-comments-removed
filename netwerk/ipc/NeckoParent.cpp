@@ -769,7 +769,7 @@ aSerialized
 .
 mOriginAttributes
 .
-mInBrowser
+mInIsolatedMozBrowser
 :
 tabContext
 .
@@ -894,7 +894,7 @@ appId
 ;
 aAttrs
 .
-mInBrowser
+mInIsolatedMozBrowser
 =
 inBrowserElement
 ;

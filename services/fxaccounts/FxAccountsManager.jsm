@@ -2408,7 +2408,7 @@ principal
 appId
 principal
 .
-isInBrowserElement
+isInIsolatedMozBrowserElement
 )
 ;
 return

@@ -1308,15 +1308,15 @@ the
 given
 appID
 +
-inBrowser
+inIsolatedMozBrowser
 flag
 .
 If
 an
 existing
 update
-is
 *
+is
 scheduled
 or
 running

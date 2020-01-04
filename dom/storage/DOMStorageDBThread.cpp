@@ -239,7 +239,7 @@ NO_APP_ID
 |
 oa
 .
-mInBrowser
+mInIsolatedMozBrowser
 )
 {
 result
@@ -266,7 +266,7 @@ Append
 (
 oa
 .
-mInBrowser
+mInIsolatedMozBrowser
 ?
 '
 t
@@ -298,7 +298,7 @@ mAppId
 ;
 oa
 .
-mInBrowser
+mInIsolatedMozBrowser
 =
 false
 ;

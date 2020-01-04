@@ -2870,7 +2870,7 @@ attrs
 mAppId
 attrs
 .
-mInBrowser
+mInIsolatedMozBrowser
 )
 ;
 }
@@ -3865,7 +3865,7 @@ rv
 ;
 int32_t
 appId
-inBrowser
+inIsolatedMozBrowser
 ;
 rv
 =
@@ -3894,7 +3894,7 @@ GetInt32
 (
 1
 &
-inBrowser
+inIsolatedMozBrowser
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3908,7 +3908,7 @@ attrs
 (
 appId
 (
-inBrowser
+inIsolatedMozBrowser
 ?
 1
 :
@@ -4169,7 +4169,7 @@ SetAsInt32
 (
 attrs
 .
-mInBrowser
+mInIsolatedMozBrowser
 )
 ;
 NS_ENSURE_SUCCESS
@@ -18631,7 +18631,7 @@ GetCookiesForApp
 uint32_t
 aAppId
 bool
-aOnlyBrowserElement
+aOnlyIsolatedMozBrowser
 nsISimpleEnumerator
 *
 *
@@ -18728,7 +18728,7 @@ aAppId
 |
 |
 (
-aOnlyBrowserElement
+aOnlyIsolatedMozBrowser
 &
 &
 !
@@ -18737,7 +18737,7 @@ entry
 >
 mOriginAttributes
 .
-mInBrowser
+mInIsolatedMozBrowser
 )
 )
 {
@@ -18811,7 +18811,7 @@ RemoveCookiesForApp
 uint32_t
 aAppId
 bool
-aOnlyBrowserElement
+aOnlyIsolatedMozBrowser
 )
 {
 nsCOMPtr
@@ -18826,7 +18826,7 @@ rv
 GetCookiesForApp
 (
 aAppId
-aOnlyBrowserElement
+aOnlyIsolatedMozBrowser
 getter_AddRefs
 (
 enumerator
@@ -18950,12 +18950,12 @@ false
 if
 (
 !
-aOnlyBrowserElement
+aOnlyIsolatedMozBrowser
 )
 {
 attrs
 .
-mInBrowser
+mInIsolatedMozBrowser
 =
 false
 ;

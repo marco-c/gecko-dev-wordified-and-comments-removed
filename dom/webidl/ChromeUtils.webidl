@@ -575,7 +575,7 @@ userContextId
 0
 ;
 boolean
-inBrowser
+inIsolatedMozBrowser
 =
 false
 ;
@@ -605,7 +605,7 @@ long
 userContextId
 ;
 boolean
-inBrowser
+inIsolatedMozBrowser
 ;
 DOMString
 addonId

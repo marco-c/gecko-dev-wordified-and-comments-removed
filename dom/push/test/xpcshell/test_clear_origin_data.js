@@ -296,7 +296,7 @@ clearIf
 appId
 :
 1
-inBrowser
+inIsolatedMozBrowser
 :
 false
 }
@@ -321,7 +321,7 @@ originAttributes
 appId
 :
 1
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -353,7 +353,7 @@ originAttributes
 appId
 :
 2
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -363,7 +363,7 @@ clearIf
 appId
 :
 2
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -395,7 +395,7 @@ clearIf
 appId
 :
 1
-inBrowser
+inIsolatedMozBrowser
 :
 false
 }
@@ -420,7 +420,7 @@ originAttributes
 appId
 :
 2
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -430,7 +430,7 @@ clearIf
 appId
 :
 2
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -455,14 +455,14 @@ originAttributes
 appId
 :
 3
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
 clearIf
 :
 {
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -487,14 +487,14 @@ originAttributes
 appId
 :
 4
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
 clearIf
 :
 {
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -756,7 +756,7 @@ testRecords
 appId
 :
 1
-inBrowser
+inIsolatedMozBrowser
 :
 false
 }
@@ -781,7 +781,7 @@ testRecords
 appId
 :
 2
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -792,7 +792,7 @@ clearForPattern
 (
 testRecords
 {
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }

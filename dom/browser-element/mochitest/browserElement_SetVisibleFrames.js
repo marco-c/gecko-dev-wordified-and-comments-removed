@@ -71,7 +71,7 @@ appId
 principal
 .
 appId
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -338,7 +338,7 @@ appId
 principal
 .
 appId
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }

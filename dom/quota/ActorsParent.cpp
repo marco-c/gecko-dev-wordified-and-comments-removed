@@ -4156,7 +4156,7 @@ State
 mState
 ;
 bool
-mInMozBrowser
+mInIsolatedMozBrowser
 ;
 bool
 mMaybeDriveLetter
@@ -4201,7 +4201,7 @@ mState
 (
 eExpectingAppIdOrSchema
 )
-mInMozBrowser
+mInIsolatedMozBrowser
 (
 false
 )
@@ -22438,7 +22438,7 @@ attrs
 mAppId
 attrs
 .
-mInBrowser
+mInIsolatedMozBrowser
 origin
 pattern
 )
@@ -24854,7 +24854,7 @@ aAttrs
 PrincipalOriginAttributes
 (
 mAppId
-mInMozBrowser
+mInIsolatedMozBrowser
 )
 ;
 nsAutoCString
@@ -25440,7 +25440,7 @@ t
 '
 )
 {
-mInMozBrowser
+mInIsolatedMozBrowser
 =
 true
 ;
@@ -25460,7 +25460,7 @@ f
 '
 )
 {
-mInMozBrowser
+mInIsolatedMozBrowser
 =
 false
 ;

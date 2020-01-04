@@ -19081,7 +19081,7 @@ appId
 aOldApp
 .
 installerAppId
-inBrowser
+inIsolatedMozBrowser
 :
 aOldApp
 .
@@ -26535,7 +26535,7 @@ browserOnly
 {
 attributes
 .
-inBrowser
+inIsolatedMozBrowser
 =
 true
 ;

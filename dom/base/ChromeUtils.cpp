@@ -570,12 +570,12 @@ mAppId
 &
 aA
 .
-mInBrowser
+mInIsolatedMozBrowser
 =
 =
 aB
 .
-mInBrowser
+mInIsolatedMozBrowser
 &
 &
 aA

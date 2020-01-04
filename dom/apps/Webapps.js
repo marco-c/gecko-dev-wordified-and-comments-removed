@@ -1195,7 +1195,7 @@ isBrowser
 :
 principal
 .
-isInBrowserElement
+isInIsolatedMozBrowserElement
 isPackage
 :
 isPackage

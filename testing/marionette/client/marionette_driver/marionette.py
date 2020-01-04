@@ -6483,14 +6483,14 @@ nodePrincipal
 appId
                               
 '
-isInBrowserElement
+isInIsolatedMozBrowserElement
 '
 :
 document
 .
 nodePrincipal
 .
-isInBrowserElement
+isInIsolatedMozBrowserElement
                               
 '
 type
@@ -6592,11 +6592,11 @@ appId
 perm
 .
 appId
-inBrowser
+inIsolatedMozBrowser
 :
 perm
 .
-isInBrowserElement
+isInIsolatedMozBrowserElement
 }
 ;
                 
@@ -6926,14 +6926,14 @@ nodePrincipal
 appId
                               
 '
-isInBrowserElement
+isInIsolatedMozBrowserElement
 '
 :
 document
 .
 nodePrincipal
 .
-isInBrowserElement
+isInIsolatedMozBrowserElement
                               
 '
 type
@@ -7135,11 +7135,11 @@ appId
 perm
 .
 appId
-inBrowser
+inIsolatedMozBrowser
 :
 perm
 .
-isInBrowserElement
+isInIsolatedMozBrowserElement
 }
 ;
                 

@@ -1479,7 +1479,7 @@ _isInBrowserElement
 =
 principal
 .
-isInBrowserElement
+isInIsolatedMozBrowserElement
 ;
 this
 .

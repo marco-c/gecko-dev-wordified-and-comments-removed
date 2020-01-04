@@ -1237,7 +1237,7 @@ function
 LoadContextCallback
 (
 appId
-inBrowserElement
+inIsolatedMozBrowser
 isPrivate
 isContent
 )
@@ -1252,7 +1252,7 @@ this
 .
 isInBrowserElement
 =
-inBrowserElement
+inIsolatedMozBrowser
 ;
 this
 .
@@ -1262,9 +1262,9 @@ originAttributes
 appId
 :
 appId
-inBrowser
+inIsolatedMozBrowser
 :
-inBrowserElement
+inIsolatedMozBrowser
 }
 ;
 this

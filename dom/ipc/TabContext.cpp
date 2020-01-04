@@ -127,7 +127,7 @@ const
 return
 mOriginAttributes
 .
-mInBrowser
+mInIsolatedMozBrowser
 ;
 }
 bool
@@ -1221,7 +1221,7 @@ if
 !
 originAttributes
 .
-mInBrowser
+mInIsolatedMozBrowser
 )
 {
 ownApp

@@ -11236,7 +11236,7 @@ NECKO_NO_APP_ID
 oa
 -
 >
-mInBrowser
+mInIsolatedMozBrowser
 =
 =
 false

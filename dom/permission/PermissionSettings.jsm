@@ -386,7 +386,7 @@ appId
 app
 .
 localId
-inBrowser
+inIsolatedMozBrowser
 :
 aData
 .
@@ -678,7 +678,7 @@ uri
 appId
 :
 appID
-inBrowser
+inIsolatedMozBrowser
 :
 aBrowserFlag
 }

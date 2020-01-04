@@ -202,10 +202,10 @@ prin
 .
 originAttributes
 .
-inBrowser
+inIsolatedMozBrowser
 attrs
 .
-inBrowser
+inIsolatedMozBrowser
 |
 |
 false
@@ -359,13 +359,13 @@ n
 +
 "
 \
-tinBrowser
+tinIsolatedMozBrowser
 :
 "
 +
 attrs
 .
-inBrowser
+inIsolatedMozBrowser
 +
 "
 \
@@ -454,10 +454,10 @@ do_check_eq
 (
 attrs
 .
-inBrowser
+inIsolatedMozBrowser
 values
 .
-inBrowser
+inIsolatedMozBrowser
 |
 |
 false
@@ -1009,7 +1009,7 @@ org
 '
 )
 {
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -1023,7 +1023,7 @@ ssm
 createNullPrincipal
 (
 {
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -1033,7 +1033,7 @@ checkOriginAttributes
 (
 exampleOrg_browser
 {
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -1049,7 +1049,7 @@ checkOriginAttributes
 (
 nullPrin_browser
 {
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -1101,7 +1101,7 @@ org
 '
 )
 {
-inBrowser
+inIsolatedMozBrowser
 :
 true
 appId
@@ -1118,7 +1118,7 @@ ssm
 createNullPrincipal
 (
 {
-inBrowser
+inIsolatedMozBrowser
 :
 true
 appId
@@ -1134,7 +1134,7 @@ exampleOrg_appBrowser
 appId
 :
 42
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -1157,7 +1157,7 @@ nullPrin_appBrowser
 appId
 :
 42
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -1224,7 +1224,7 @@ com
 appId
 :
 42
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -1237,7 +1237,7 @@ exampleCom_appBrowser
 appId
 :
 42
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -1837,7 +1837,7 @@ signedPkg
 '
 whatever
 '
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -1852,7 +1852,7 @@ signedPkg
 '
 whatever
 '
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -2244,7 +2244,7 @@ inBrowser
 1
 "
 {
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -2286,7 +2286,7 @@ appId
 userContextId
 :
 6
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }

@@ -9180,7 +9180,7 @@ OriginAttributes
 (
 )
 .
-mInBrowser
+mInIsolatedMozBrowser
 mPinned
 )
 ;

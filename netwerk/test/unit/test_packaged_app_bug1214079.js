@@ -1053,7 +1053,7 @@ principal
 appId
 principal
 .
-isInBrowserElement
+isInIsolatedMozBrowserElement
 false
 false
 )

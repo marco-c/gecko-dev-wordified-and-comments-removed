@@ -350,12 +350,12 @@ mozapp
 .
 principal
 .
-isInBrowserElement
+isInIsolatedMozBrowserElement
 false
 "
 app
 principal
-isInBrowserElement
+isInIsolatedMozBrowserElement
 ok
 "
 )

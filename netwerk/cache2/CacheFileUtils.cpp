@@ -303,7 +303,7 @@ b
 :
 originAttribs
 .
-mInBrowser
+mInIsolatedMozBrowser
 =
 true
 ;

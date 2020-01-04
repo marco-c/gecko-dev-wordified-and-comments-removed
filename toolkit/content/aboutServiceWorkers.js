@@ -524,7 +524,7 @@ info
 .
 principal
 .
-isInBrowserElement
+isInIsolatedMozBrowserElement
 ?
 '
 true

@@ -291,7 +291,7 @@ IsBrowserElement
 =
 mOriginAttributes
 .
-mInBrowser
+mInIsolatedMozBrowser
 )
 )
 {

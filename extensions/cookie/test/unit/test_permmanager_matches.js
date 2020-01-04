@@ -594,7 +594,7 @@ attrs
 appId
 :
 1000
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }
@@ -745,7 +745,7 @@ attrs
 appId
 :
 2000
-inBrowser
+inIsolatedMozBrowser
 :
 true
 }

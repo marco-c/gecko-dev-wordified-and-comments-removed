@@ -77,7 +77,7 @@ attrs
 TEST
 (
 PrincipalOriginAttributes
-Suffix_appId_inBrowser
+Suffix_appId_inIsolatedMozBrowser
 )
 {
 PrincipalOriginAttributes
@@ -96,7 +96,7 @@ attrs
 TEST
 (
 PrincipalOriginAttributes
-Suffix_maxAppId_inBrowser
+Suffix_maxAppId_inIsolatedMozBrowser
 )
 {
 PrincipalOriginAttributes

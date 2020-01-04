@@ -602,7 +602,7 @@ aAppId
 bool
 aAnonymous
 bool
-aInBrowser
+aInIsolatedMozBrowser
 bool
 aPinned
 )
@@ -693,7 +693,7 @@ kAnonymousMask
 }
 if
 (
-aInBrowser
+aInIsolatedMozBrowser
 )
 {
 mRec
@@ -702,7 +702,7 @@ mRec
 mFlags
 |
 =
-kInBrowserMask
+kInIsolatedMozBrowserMask
 ;
 }
 if
@@ -791,7 +791,7 @@ kAnonymousMask
 ;
 }
 bool
-InBrowser
+InIsolatedMozBrowser
 (
 )
 const
@@ -805,7 +805,7 @@ mRec
 >
 mFlags
 &
-kInBrowserMask
+kInIsolatedMozBrowserMask
 )
 ;
 }
@@ -1397,12 +1397,12 @@ hash
 08x
 %
 08x
+"
+"
 fresh
 =
 %
 u
-"
-"
 initialized
 =
 %
@@ -1419,12 +1419,12 @@ anonymous
 =
 %
 u
-inBrowser
+"
+"
+inIsolatedMozBrowser
 =
 %
 u
-"
-"
 appId
 =
 %
@@ -1437,6 +1437,8 @@ expirationTime
 =
 %
 u
+"
+"
 size
 =
 %
@@ -1466,7 +1468,7 @@ IsDirty
 Anonymous
 (
 )
-InBrowser
+InIsolatedMozBrowser
 (
 )
 AppId
@@ -1553,7 +1555,7 @@ OriginAttributesPtr
 )
 -
 >
-mInBrowser
+mInIsolatedMozBrowser
 =
 =
 !
@@ -1564,7 +1566,7 @@ aRec
 >
 mFlags
 &
-kInBrowserMask
+kInIsolatedMozBrowserMask
 )
 )
 {
@@ -1652,7 +1654,7 @@ kAnonymousMask
 static
 const
 uint32_t
-kInBrowserMask
+kInIsolatedMozBrowserMask
 =
 0x20000000
 ;
@@ -3025,7 +3027,7 @@ aAppId
 bool
 aAnonymous
 bool
-aInBrowser
+aInIsolatedMozBrowser
 bool
 aPinned
 )
@@ -3381,7 +3383,7 @@ aAppId
 bool
 aAnonymous
 bool
-aInBrowser
+aInIsolatedMozBrowser
 )
 ;
 static
