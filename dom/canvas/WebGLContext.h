@@ -2712,6 +2712,10 @@ destType
 void
 *
 dest
+uint32_t
+dataLen
+uint32_t
+rowStride
 )
 ;
 public
