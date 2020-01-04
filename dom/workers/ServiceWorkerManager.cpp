@@ -4365,8 +4365,10 @@ upr
 =
 NS_NewRunnableMethodWithArg
 <
+RefPtr
+<
 ServiceWorkerRegistrationInfo
-*
+>
 >
 (
 swm
@@ -7372,8 +7374,10 @@ controllerChangeRunnable
 =
 NS_NewRunnableMethodWithArg
 <
+RefPtr
+<
 ServiceWorkerRegistrationInfo
-*
+>
 >
 (
 swm
