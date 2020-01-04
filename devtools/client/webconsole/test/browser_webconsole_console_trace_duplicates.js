@@ -129,8 +129,6 @@ text
 :
 "
 foo1
-(
-)
 "
 consoleTrace
 :
@@ -148,8 +146,6 @@ fn
 :
 "
 foo3
-(
-)
 "
 }
 }
@@ -170,8 +166,6 @@ text
 :
 "
 foo1
-(
-)
 "
 consoleTrace
 :
@@ -189,8 +183,6 @@ fn
 :
 "
 foo3
-(
-)
 "
 }
 }
@@ -211,8 +203,6 @@ text
 :
 "
 foo1b
-(
-)
 "
 consoleTrace
 :
@@ -230,8 +220,6 @@ fn
 :
 "
 foo3
-(
-)
 "
 }
 }
