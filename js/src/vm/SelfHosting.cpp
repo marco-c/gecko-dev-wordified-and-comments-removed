@@ -14452,6 +14452,16 @@ intrinsic_RegExpCreate
 2
 0
 )
+JS_INLINABLE_FN
+(
+"
+RegExpPrototypeOptimizable
+"
+RegExpPrototypeOptimizable
+1
+0
+RegExpPrototypeOptimizable
+)
 JS_FN
 (
 "
