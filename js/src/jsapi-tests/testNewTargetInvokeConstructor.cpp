@@ -90,8 +90,8 @@ func
 JS
 :
 :
-RootedValue
-rval
+RootedObject
+obj
 (
 cx
 )
@@ -107,7 +107,7 @@ cx
 func
 args
 &
-rval
+obj
 )
 )
 ;
