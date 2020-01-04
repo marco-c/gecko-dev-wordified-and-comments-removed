@@ -10,7 +10,7 @@ js
 )
 ;
 var
-repl_expr_flags
+postfixes
 =
 [
 "
@@ -32,7 +32,7 @@ code
 }
 test_syntax
 (
-repl_expr_flags
+postfixes
 check_syntax_error
 true
 )
