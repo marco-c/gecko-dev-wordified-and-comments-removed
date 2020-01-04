@@ -1098,13 +1098,6 @@ match_parent
 "
 android
 :
-layout_alignParentBottom
-=
-"
-true
-"
-android
-:
 visibility
 =
 "
