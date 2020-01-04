@@ -52,9 +52,11 @@ nice
 as
 slugid
 from
-taskcluster_graph
+taskgraph
 .
-commit_parser
+util
+.
+legacy_commit_parser
 import
 parse_commit
 from
