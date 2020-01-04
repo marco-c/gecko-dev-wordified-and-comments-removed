@@ -559,11 +559,11 @@ node
 .
 moreChildrenAvailable
 =
+endIdx
+<
 childNodeIds
 .
 length
-<
-endIdx
 ;
 }
 else
