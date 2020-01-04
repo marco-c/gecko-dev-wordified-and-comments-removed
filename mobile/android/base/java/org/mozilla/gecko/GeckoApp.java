@@ -12603,6 +12603,10 @@ newWakeLock
 PowerManager
 .
 SCREEN_BRIGHT_WAKE_LOCK
+|
+PowerManager
+.
+ON_AFTER_RELEASE
 topic
 )
 ;
