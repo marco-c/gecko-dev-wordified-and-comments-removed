@@ -678,6 +678,8 @@ tryCount
 )
 ;
 throw
+new
+Error
 (
 timeoutMsg
 )
