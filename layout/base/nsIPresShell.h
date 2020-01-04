@@ -2333,6 +2333,9 @@ aRenderedContext
 ;
 enum
 {
+RENDER_IS_IMAGE
+=
+0x100
 RENDER_AUTO_SCALE
 =
 0x80
