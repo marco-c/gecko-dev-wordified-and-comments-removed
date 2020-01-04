@@ -144,6 +144,10 @@ PWebSocket
 ;
 include
 protocol
+PWebSocketFrameListener
+;
+include
+protocol
 PTCPSocket
 ;
 include
@@ -360,6 +364,9 @@ manages
 PWebSocket
 ;
 manages
+PWebSocketFrameListener
+;
+manages
 PTCPSocket
 ;
 manages
@@ -459,6 +466,12 @@ uint32_t
 flags
 nsCString
 networkInterface
+)
+;
+PWebSocketFrameListener
+(
+uint64_t
+aInnerWindowID
 )
 ;
 /
