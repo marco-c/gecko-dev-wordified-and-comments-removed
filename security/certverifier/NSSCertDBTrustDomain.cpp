@@ -1150,8 +1150,9 @@ here
 "
 )
 ;
-default
-:
+break
+;
+}
 PR_NOT_REACHED
 (
 "
@@ -1166,7 +1167,6 @@ type
 "
 )
 ;
-}
 return
 PR_SecondsToInterval
 (

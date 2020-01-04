@@ -579,6 +579,8 @@ loading
 =
 false
 ;
+MOZ_FALLTHROUGH
+;
 case
 nssShutdown
 :
