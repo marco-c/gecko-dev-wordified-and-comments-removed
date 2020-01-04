@@ -2088,6 +2088,15 @@ if
 this
 .
 consumeOutsideClicks
+&
+&
+e
+.
+button
+=
+=
+=
+0
 )
 {
 e
