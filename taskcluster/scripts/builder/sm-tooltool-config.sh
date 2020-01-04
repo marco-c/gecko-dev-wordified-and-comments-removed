@@ -47,8 +47,6 @@ mozilla
 build
 -
 tooltool
-.
-git
 }
 :
 {

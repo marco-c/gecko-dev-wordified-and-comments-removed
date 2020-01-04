@@ -514,8 +514,6 @@ mozilla
 build
 -
 tooltool
-.
-git
 '
 TOOLTOOL_REV
 :

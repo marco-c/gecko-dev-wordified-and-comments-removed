@@ -173,8 +173,6 @@ mozilla
 build
 -
 tooltool
-.
-git
 }
 if
 !
