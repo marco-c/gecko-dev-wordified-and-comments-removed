@@ -25375,8 +25375,7 @@ anchorRect
 fixedFrame
 presContext
 aContainerParameters
-!
-mIsFixedBackground
+true
 )
 ;
 return
