@@ -881,6 +881,7 @@ const
 {
 if
 (
+(
 aWidth
 =
 =
@@ -892,6 +893,19 @@ width
 aHeight
 =
 =
+mImage
+.
+height
+)
+|
+|
+!
+mImage
+.
+width
+|
+|
+!
 mImage
 .
 height
