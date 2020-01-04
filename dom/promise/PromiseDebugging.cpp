@@ -247,6 +247,9 @@ FlushRejections
 :
 sDispatched
 ;
+#
+ifndef
+SPIDERMONKEY_PROMISE
 static
 Promise
 *
@@ -457,6 +460,8 @@ break
 ;
 }
 }
+#
+endif
 nsString
 PromiseDebugging
 :
@@ -560,6 +565,9 @@ FlushUncaughtRejections
 (
 )
 {
+#
+ifndef
+SPIDERMONKEY_PROMISE
 MOZ_ASSERT
 (
 !
@@ -575,7 +583,12 @@ FlushSync
 (
 )
 ;
+#
+endif
 }
+#
+ifndef
+SPIDERMONKEY_PROMISE
 void
 PromiseDebugging
 :
@@ -983,6 +996,8 @@ ToMilliseconds
 )
 ;
 }
+#
+endif
 void
 PromiseDebugging
 :
@@ -1135,6 +1150,9 @@ return
 false
 ;
 }
+#
+ifndef
+SPIDERMONKEY_PROMISE
 void
 PromiseDebugging
 :
@@ -1274,6 +1292,8 @@ promiseID
 )
 ;
 }
+#
+endif
 void
 PromiseDebugging
 :
@@ -1282,6 +1302,9 @@ FlushUncaughtRejectionsInternal
 (
 )
 {
+#
+ifndef
+SPIDERMONKEY_PROMISE
 CycleCollectedJSRuntime
 *
 storage
@@ -1597,6 +1620,8 @@ err
 ;
 }
 }
+#
+endif
 }
 }
 }

@@ -402,6 +402,9 @@ System
 interface
 PromiseDebugging
 {
+#
+ifndef
+SPIDERMONKEY_PROMISE
 /
 *
 *
@@ -944,6 +947,11 @@ object
 p
 )
 ;
+#
+endif
+/
+/
+SPIDERMONKEY_PROMISE
 /
 *
 *

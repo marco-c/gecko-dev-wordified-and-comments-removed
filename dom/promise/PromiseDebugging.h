@@ -77,6 +77,9 @@ Shutdown
 (
 )
 ;
+#
+ifndef
+SPIDERMONKEY_PROMISE
 static
 void
 GetState
@@ -276,6 +279,8 @@ ErrorResult
 &
 )
 ;
+#
+endif
 static
 void
 AddUncaughtRejectionObserver
@@ -298,6 +303,9 @@ UncaughtRejectionObserver
 aObserver
 )
 ;
+#
+ifndef
+SPIDERMONKEY_PROMISE
 static
 void
 AddUncaughtRejection
@@ -314,6 +322,8 @@ Promise
 &
 )
 ;
+#
+endif
 static
 void
 FlushUncaughtRejections

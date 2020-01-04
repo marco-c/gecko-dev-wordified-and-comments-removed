@@ -121,6 +121,11 @@ Promise
 webidl
 '
 '
+PromiseDebugging
+.
+webidl
+'
+'
 ServiceWorkerRegistration
 .
 webidl
@@ -2001,11 +2006,6 @@ webidl
 '
 '
 ProfileTimelineMarker
-.
-webidl
-'
-'
-PromiseDebugging
 .
 webidl
 '
