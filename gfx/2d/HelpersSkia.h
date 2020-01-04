@@ -559,6 +559,15 @@ if
 aOptions
 .
 mLineWidth
+|
+|
+!
+IsFinite
+(
+aOptions
+.
+mLineWidth
+)
 )
 {
 return
