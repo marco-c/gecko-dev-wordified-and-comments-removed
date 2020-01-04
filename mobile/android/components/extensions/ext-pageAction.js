@@ -171,13 +171,9 @@ extension
 name
 id
 :
-{
-{
 extension
 .
-uuid
-}
-}
+id
 clickCallback
 :
 (
