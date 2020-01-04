@@ -7392,12 +7392,6 @@ nsChangeHint_NeedReflow
 }
 if
 (
-mFlexWrap
-!
-=
-NS_STYLE_FLEX_WRAP_NOWRAP
-&
-&
 mAlignContent
 !
 =
