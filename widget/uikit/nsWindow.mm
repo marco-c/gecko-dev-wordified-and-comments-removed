@@ -1538,7 +1538,7 @@ return
 self
 sendTouchEvent
 :
-NS_TOUCH_END
+eTouchEnd
 touches
 :
 touches

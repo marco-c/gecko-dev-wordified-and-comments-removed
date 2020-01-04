@@ -9197,7 +9197,7 @@ nsCoreUtils
 :
 DispatchTouchEvent
 (
-NS_TOUCH_END
+eTouchEnd
 x
 y
 aContent

@@ -2502,13 +2502,13 @@ rv
 break
 ;
 case
-NS_TOUCH_END
+eTouchEnd
 :
 AC_LOGV
 (
 "
 Before
-NS_TOUCH_END
+eTouchEnd
 state
 :
 %
@@ -2536,7 +2536,7 @@ AC_LOGV
 (
 "
 After
-NS_TOUCH_END
+eTouchEnd
 state
 :
 %

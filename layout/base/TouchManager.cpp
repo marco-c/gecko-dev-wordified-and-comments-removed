@@ -286,7 +286,7 @@ WidgetTouchEvent
 event
 (
 true
-NS_TOUCH_END
+eTouchEnd
 widget
 )
 ;
@@ -1000,7 +1000,7 @@ break
 ;
 }
 case
-NS_TOUCH_END
+eTouchEnd
 :
 aIsHandlingUserInput
 =

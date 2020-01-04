@@ -202,7 +202,7 @@ MULTITOUCH_MOVE
 break
 ;
 case
-NS_TOUCH_END
+eTouchEnd
 :
 mType
 =
@@ -430,7 +430,7 @@ MULTITOUCH_END
 :
 touchEventMessage
 =
-NS_TOUCH_END
+eTouchEnd
 ;
 break
 ;

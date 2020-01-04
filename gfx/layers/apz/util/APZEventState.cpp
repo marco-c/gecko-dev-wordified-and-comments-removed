@@ -1300,7 +1300,7 @@ break
 ;
 }
 case
-NS_TOUCH_END
+eTouchEnd
 :
 if
 (

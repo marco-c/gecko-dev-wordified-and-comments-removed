@@ -8200,7 +8200,7 @@ event
 mMessage
 =
 =
-NS_TOUCH_END
+eTouchEnd
 |
 |
 event
@@ -13465,7 +13465,7 @@ eTouchMove
 msg
 !
 =
-NS_TOUCH_END
+eTouchEnd
 &
 &
 msg

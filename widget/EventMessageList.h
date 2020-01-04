@@ -1439,7 +1439,7 @@ eTouchEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_TOUCH_END
+eTouchEnd
 eTouchEventFirst
 +
 2

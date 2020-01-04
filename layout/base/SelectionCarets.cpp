@@ -1236,7 +1236,7 @@ aEvent
 mMessage
 =
 =
-NS_TOUCH_END
+eTouchEnd
 |
 |
 aEvent

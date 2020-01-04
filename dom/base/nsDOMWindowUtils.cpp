@@ -4357,7 +4357,7 @@ touchend
 {
 msg
 =
-NS_TOUCH_END
+eTouchEnd
 ;
 }
 else

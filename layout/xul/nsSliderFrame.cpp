@@ -2324,7 +2324,7 @@ true
 break
 ;
 case
-NS_TOUCH_END
+eTouchEnd
 :
 case
 eMouseUp
@@ -4542,7 +4542,7 @@ case
 eTouchStart
 :
 case
-NS_TOUCH_END
+eTouchEnd
 :
 return
 true
