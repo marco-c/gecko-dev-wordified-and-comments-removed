@@ -853,7 +853,7 @@ NumIntArgRegs
 4
 ;
 static
-MOZ_CONSTEXPR_VAR
+const
 Register
 IntArgRegs
 [
@@ -868,7 +868,7 @@ r9
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+const
 Register
 CallTempNonArgRegs
 [
@@ -996,7 +996,7 @@ NumIntArgRegs
 6
 ;
 static
-MOZ_CONSTEXPR_VAR
+const
 Register
 IntArgRegs
 [
@@ -1013,7 +1013,7 @@ r9
 }
 ;
 static
-MOZ_CONSTEXPR_VAR
+const
 Register
 CallTempNonArgRegs
 [

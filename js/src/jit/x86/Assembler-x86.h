@@ -516,7 +516,7 @@ CallTempReg5
 edx
 ;
 static
-MOZ_CONSTEXPR_VAR
+const
 Register
 CallTempNonArgRegs
 [
