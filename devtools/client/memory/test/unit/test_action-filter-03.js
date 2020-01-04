@@ -42,7 +42,6 @@ filter
 let
 {
 takeSnapshotAndCensus
-selectSnapshotAndRefresh
 }
 =
 require
@@ -185,6 +184,8 @@ snapshots
 0
 ]
 .
+census
+.
 filter
 "
 str
@@ -311,6 +312,8 @@ snapshots
 [
 0
 ]
+.
+census
 .
 filter
 "

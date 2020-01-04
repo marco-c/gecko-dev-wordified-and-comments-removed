@@ -320,6 +320,8 @@ snapshots
 ]
 .
 census
+.
+report
 "
 objectClass
 "
@@ -401,6 +403,8 @@ snapshots
 ]
 .
 census
+.
+report
 "
 coarseType
 "
@@ -490,6 +494,8 @@ snapshots
 2
 ]
 .
+census
+.
 breakdown
 breakdowns
 .
@@ -527,6 +533,8 @@ snapshots
 ]
 .
 census
+.
+report
 "
 objectClass
 "
@@ -600,6 +608,8 @@ snapshots
 ]
 .
 census
+.
+report
 "
 internalType
 "
@@ -620,6 +630,8 @@ snapshots
 ]
 .
 census
+.
+report
 "
 internalType
 "
@@ -673,6 +685,8 @@ snapshots
 1
 ]
 .
+census
+.
 breakdown
 breakdowns
 .
@@ -711,6 +725,8 @@ snapshots
 ]
 .
 census
+.
+report
 "
 coarseType
 "
@@ -746,6 +762,8 @@ snapshots
 [
 1
 ]
+.
+id
 )
 )
 ;
@@ -816,6 +834,8 @@ snapshots
 1
 ]
 .
+census
+.
 breakdown
 breakdowns
 .
@@ -851,6 +871,8 @@ snapshots
 ]
 .
 census
+.
+report
 "
 internalType
 "
@@ -868,6 +890,19 @@ to
 correct
 breakdown
 "
+)
+;
+heapWorker
+.
+destroy
+(
+)
+;
+yield
+front
+.
+detach
+(
 )
 ;
 }

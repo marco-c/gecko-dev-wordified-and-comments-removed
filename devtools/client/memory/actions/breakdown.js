@@ -55,7 +55,7 @@ constants
 ;
 const
 {
-refreshSelectedCensus
+refresh
 }
 =
 require
@@ -63,7 +63,7 @@ require
 "
 .
 /
-snapshot
+refresh
 "
 )
 ;
@@ -99,7 +99,7 @@ breakdown
 yield
 dispatch
 (
-refreshSelectedCensus
+refresh
 (
 heapWorker
 )
@@ -131,6 +131,9 @@ breakdown
 "
 object
 "
+&
+&
+breakdown
 &
 &
 breakdown
@@ -168,5 +171,6 @@ actions
 SET_BREAKDOWN
 breakdown
 }
+;
 }
 ;

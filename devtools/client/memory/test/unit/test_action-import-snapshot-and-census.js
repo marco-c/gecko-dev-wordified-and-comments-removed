@@ -465,6 +465,8 @@ stringify
 snapshot1
 .
 census
+.
+report
 )
 )
 )
@@ -485,6 +487,8 @@ stringify
 snapshot2
 .
 census
+.
+report
 )
 )
 )
