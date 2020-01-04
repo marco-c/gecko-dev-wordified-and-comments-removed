@@ -77,6 +77,10 @@ upload
 -
 symbols
 '
+    
+'
+valgrind
+'
 ]
 )
 JOB_KINDS
