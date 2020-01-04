@@ -553,8 +553,8 @@ aboutLogins
 properties
 )
 #
-ifdef
-NIGHTLY_BUILD
+ifndef
+RELEASE_BUILD
 locale
 /
 AB_CD
