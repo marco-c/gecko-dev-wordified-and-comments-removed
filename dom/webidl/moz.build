@@ -910,6 +910,11 @@ GainNode
 webidl
 '
 '
+GamepadServiceTest
+.
+webidl
+'
+'
 Geolocation
 .
 webidl
