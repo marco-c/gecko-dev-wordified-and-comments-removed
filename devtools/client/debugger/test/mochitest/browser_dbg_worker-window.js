@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 thisTestLeaksUncaughtRejectionsAndShouldBeFixed
 (
 "
@@ -217,7 +222,7 @@ document
 .
 title
 .
-contains
+includes
 (
 WORKER_URL
 )
