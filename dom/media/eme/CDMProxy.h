@@ -123,8 +123,8 @@ typedef
 dom
 :
 :
-SessionType
-SessionType
+MediaKeySessionType
+MediaKeySessionType
 ;
 public
 :
@@ -213,10 +213,7 @@ CreateSession
 (
 uint32_t
 aCreateSessionToken
-dom
-:
-:
-SessionType
+MediaKeySessionType
 aSessionType
 PromiseId
 aPromiseId

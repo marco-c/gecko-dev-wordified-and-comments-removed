@@ -183,7 +183,7 @@ const
 nsAString
 &
 aCDMVersion
-SessionType
+MediaKeySessionType
 aSessionType
 ErrorResult
 &
@@ -464,7 +464,7 @@ nsString
 mSessionId
 ;
 const
-SessionType
+MediaKeySessionType
 mSessionType
 ;
 const
