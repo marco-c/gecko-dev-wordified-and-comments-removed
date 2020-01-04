@@ -115,7 +115,6 @@ size_t
 maxTokenSize
 )
 ;
-virtual
 void
 lex
 (
@@ -123,6 +122,7 @@ Token
 *
 token
 )
+override
 ;
 private
 :

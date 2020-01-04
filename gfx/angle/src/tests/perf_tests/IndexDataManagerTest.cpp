@@ -796,6 +796,7 @@ getIndexRange
 GL_UNSIGNED_SHORT
 0
 mIndexCount
+false
 &
 translatedIndexData
 .

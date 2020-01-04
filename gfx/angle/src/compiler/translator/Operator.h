@@ -10,7 +10,6 @@ TOperator
 EOpNull
 EOpSequence
 EOpFunctionCall
-EOpInternalFunctionCall
 EOpFunction
 EOpParameters
 EOpDeclaration

@@ -879,7 +879,14 @@ true
 {
 setBufferSize
 (
+static_cast
+<
+unsigned
+int
+>
+(
 initialSize
+)
 )
 ;
 }

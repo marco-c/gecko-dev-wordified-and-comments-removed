@@ -474,6 +474,8 @@ width
 unsigned
 int
 height
+bool
+containsAlpha
 DXGISwapChain
 *
 *
@@ -588,6 +590,12 @@ swapChainDesc
 Scaling
 =
 DXGI_SCALING_STRETCH
+;
+swapChainDesc
+.
+AlphaMode
+=
+DXGI_ALPHA_MODE_UNSPECIFIED
 ;
 *
 swapChain

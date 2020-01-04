@@ -115,7 +115,7 @@ std
 :
 :
 string
-mangledName
+newName
 =
 mangleName
 (
@@ -138,7 +138,7 @@ p
 parameters
 )
 {
-mangledName
+newName
 +
 =
 p
@@ -158,7 +158,7 @@ c_str
 return
 NewPoolTString
 (
-mangledName
+newName
 .
 c_str
 (

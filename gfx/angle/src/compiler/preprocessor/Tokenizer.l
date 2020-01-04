@@ -519,6 +519,8 @@ read
 (
 buf
 maxSize
+&
+yylineno
 )
 ;
 %

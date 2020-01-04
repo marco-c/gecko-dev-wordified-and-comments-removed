@@ -7,6 +7,15 @@ ANGLE_TEST_CONFIGS_H_
 #
 include
 <
+gtest
+/
+gtest
+.
+h
+>
+#
+include
+<
 EGL
 /
 egl

@@ -78,6 +78,11 @@ setConfigRedBits
 8
 )
 ;
+setConfigAlphaBits
+(
+8
+)
+;
 }
 GLuint
 makeProgramWithAttribCount

@@ -58,7 +58,6 @@ mFlaggedNodes
 }
 protected
 :
-virtual
 bool
 visitBinary
 (
@@ -68,8 +67,8 @@ TIntermBinary
 *
 binaryNode
 )
+override
 ;
-virtual
 void
 visitSymbol
 (
@@ -77,6 +76,7 @@ TIntermSymbol
 *
 symbol
 )
+override
 ;
 private
 :

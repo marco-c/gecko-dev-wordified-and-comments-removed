@@ -79,11 +79,11 @@ bool
 debugShaderPrecisionSupported
 )
 ;
-virtual
 ~
 TDirectiveHandler
 (
 )
+override
 ;
 const
 TPragma
@@ -109,7 +109,6 @@ return
 mExtensionBehavior
 ;
 }
-virtual
 void
 handleError
 (
@@ -128,8 +127,8 @@ string
 &
 msg
 )
+override
 ;
-virtual
 void
 handlePragma
 (
@@ -157,8 +156,8 @@ value
 bool
 stdgl
 )
+override
 ;
-virtual
 void
 handleExtension
 (
@@ -184,8 +183,8 @@ string
 &
 behavior
 )
+override
 ;
-virtual
 void
 handleVersion
 (
@@ -199,6 +198,7 @@ loc
 int
 version
 )
+override
 ;
 private
 :

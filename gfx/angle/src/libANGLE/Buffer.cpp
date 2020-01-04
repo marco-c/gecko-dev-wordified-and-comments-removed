@@ -646,10 +646,9 @@ size_t
 offset
 size_t
 count
-gl
-:
-:
-RangeUI
+bool
+primitiveRestartEnabled
+IndexRange
 *
 outRange
 )
@@ -664,6 +663,7 @@ findRange
 type
 offset
 count
+primitiveRestartEnabled
 outRange
 )
 )
@@ -689,6 +689,7 @@ getIndexRange
 type
 offset
 count
+primitiveRestartEnabled
 outRange
 )
 ;
@@ -712,6 +713,7 @@ addRange
 type
 offset
 count
+primitiveRestartEnabled
 *
 outRange
 )

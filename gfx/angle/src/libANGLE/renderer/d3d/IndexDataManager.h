@@ -102,7 +102,7 @@ TranslatedIndexData
 gl
 :
 :
-RangeUI
+IndexRange
 indexRange
 ;
 unsigned

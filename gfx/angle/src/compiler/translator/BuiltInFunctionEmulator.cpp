@@ -57,7 +57,6 @@ emulator
 )
 {
 }
-virtual
 bool
 visitUnary
 (
@@ -67,6 +66,7 @@ TIntermUnary
 *
 node
 )
+override
 {
 if
 (
@@ -118,7 +118,6 @@ return
 true
 ;
 }
-virtual
 bool
 visitAggregate
 (
@@ -128,6 +127,7 @@ TIntermAggregate
 *
 node
 )
+override
 {
 if
 (

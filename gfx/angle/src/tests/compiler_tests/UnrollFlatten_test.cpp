@@ -120,6 +120,11 @@ infoLog
 }
 mCurrentPosition
 =
+static_cast
+<
+int
+>
+(
 mTranslatedSource
 .
 find
@@ -127,6 +132,7 @@ find
 "
 GL_USES_FRAG_COLOR
 "
+)
 )
 ;
 }
@@ -363,7 +369,13 @@ pattern
 ;
 mCurrentPosition
 =
+static_cast
+<
+int
+>
+(
 position
+)
 +
 1
 ;
@@ -960,6 +972,9 @@ texture2D
 "
 main
 (
+"
+"
+FLATTEN
 "
 "
 if

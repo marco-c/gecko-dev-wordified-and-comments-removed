@@ -8,9 +8,6 @@ gtest
 h
 "
 #
-define
-GL_GLEXT_PROTOTYPES
-#
 include
 <
 EGL

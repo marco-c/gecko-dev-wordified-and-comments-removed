@@ -150,15 +150,14 @@ return
 mVersion
 ;
 }
-virtual
 void
 visitSymbol
 (
 TIntermSymbol
 *
 )
+override
 ;
-virtual
 bool
 visitAggregate
 (
@@ -166,6 +165,7 @@ Visit
 TIntermAggregate
 *
 )
+override
 ;
 private
 :

@@ -42,7 +42,8 @@ MatrixConstructorTest
 {
 for
 (
-size_t
+unsigned
+int
 i
 =
 minDimensions
@@ -59,7 +60,8 @@ i
 {
 for
 (
-size_t
+unsigned
+int
 j
 =
 minDimensions
@@ -151,7 +153,8 @@ numElements
 }
 for
 (
-size_t
+unsigned
+int
 i
 =
 minDimensions
@@ -252,7 +255,8 @@ MatrixCompMultTest
 {
 for
 (
-size_t
+unsigned
+int
 i
 =
 minDimensions
@@ -356,7 +360,8 @@ MatrixOuterProductTest
 {
 for
 (
-size_t
+unsigned
+int
 i
 =
 minDimensions
@@ -373,7 +378,8 @@ i
 {
 for
 (
-size_t
+unsigned
+int
 j
 =
 minDimensions
@@ -522,7 +528,8 @@ MatrixTransposeTest
 {
 for
 (
-size_t
+unsigned
+int
 i
 =
 minDimensions
@@ -539,7 +546,8 @@ i
 {
 for
 (
-size_t
+unsigned
+int
 j
 =
 minDimensions
@@ -704,7 +712,8 @@ MatrixDeterminantTest
 {
 for
 (
-size_t
+unsigned
+int
 i
 =
 minDimensions
@@ -1271,7 +1280,8 @@ floatFaultTolarance
 ;
 for
 (
-size_t
+unsigned
+int
 i
 =
 0

@@ -199,6 +199,9 @@ param
 majorVersion
 param
 .
+minorVersion
+param
+.
 eglParameters
 )
 ;

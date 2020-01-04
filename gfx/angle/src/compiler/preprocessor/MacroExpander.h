@@ -46,6 +46,9 @@ pp
 class
 Diagnostics
 ;
+struct
+SourceLocation
+;
 class
 MacroExpander
 :
@@ -65,15 +68,16 @@ macroSet
 Diagnostics
 *
 diagnostics
+bool
+parseDefined
 )
 ;
-virtual
 ~
 MacroExpander
 (
 )
+override
 ;
-virtual
 void
 lex
 (
@@ -81,6 +85,7 @@ Token
 *
 token
 )
+override
 ;
 private
 :
@@ -181,6 +186,9 @@ MacroArg
 >
 *
 args
+SourceLocation
+*
+closingParenthesisLocation
 )
 ;
 void
@@ -311,6 +319,9 @@ mMacroSet
 Diagnostics
 *
 mDiagnostics
+;
+bool
+mParseDefined
 ;
 std
 :

@@ -86,13 +86,13 @@ return
 mNumErrors
 ;
 }
-virtual
 void
 visitSymbol
 (
 TIntermSymbol
 *
 )
+override
 ;
 private
 :

@@ -482,6 +482,9 @@ mTestParams
 majorVersion
 mTestParams
 .
+minorVersion
+mTestParams
+.
 eglParameters
 )
 ;

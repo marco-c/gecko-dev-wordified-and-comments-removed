@@ -68,7 +68,6 @@ DirectiveHandler
 directiveHandler
 )
 ;
-virtual
 void
 lex
 (
@@ -76,6 +75,7 @@ Token
 *
 token
 )
+override
 ;
 private
 :

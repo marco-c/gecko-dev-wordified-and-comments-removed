@@ -54,10 +54,6 @@ GLenum
 primitiveMode
 )
 {
-UNIMPLEMENTED
-(
-)
-;
 }
 void
 TransformFeedbackGL
@@ -67,10 +63,6 @@ end
 (
 )
 {
-UNIMPLEMENTED
-(
-)
-;
 }
 void
 TransformFeedbackGL
@@ -80,10 +72,6 @@ pause
 (
 )
 {
-UNIMPLEMENTED
-(
-)
-;
 }
 void
 TransformFeedbackGL
@@ -93,10 +81,6 @@ resume
 (
 )
 {
-UNIMPLEMENTED
-(
-)
-;
 }
 void
 TransformFeedbackGL
@@ -116,10 +100,6 @@ Buffer
 binding
 )
 {
-UNIMPLEMENTED
-(
-)
-;
 }
 void
 TransformFeedbackGL
@@ -141,9 +121,5 @@ Buffer
 binding
 )
 {
-UNIMPLEMENTED
-(
-)
-;
 }
 }

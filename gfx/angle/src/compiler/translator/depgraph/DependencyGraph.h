@@ -162,11 +162,11 @@ node
 )
 {
 }
-virtual
 ~
 TGraphParentNode
 (
 )
+override
 {
 }
 void
@@ -192,7 +192,6 @@ node
 )
 ;
 }
-virtual
 void
 traverse
 (
@@ -200,6 +199,7 @@ TDependencyGraphTraverser
 *
 graphTraverser
 )
+override
 ;
 private
 :
@@ -235,11 +235,11 @@ argumentNumber
 )
 {
 }
-virtual
 ~
 TGraphArgument
 (
 )
+override
 {
 }
 const
@@ -269,7 +269,6 @@ return
 mArgumentNumber
 ;
 }
-virtual
 void
 traverse
 (
@@ -277,6 +276,7 @@ TDependencyGraphTraverser
 *
 graphTraverser
 )
+override
 ;
 private
 :
@@ -306,11 +306,11 @@ intermFunctionCall
 )
 {
 }
-virtual
 ~
 TGraphFunctionCall
 (
 )
+override
 {
 }
 const
@@ -330,7 +330,6 @@ getAsAggregate
 )
 ;
 }
-virtual
 void
 traverse
 (
@@ -338,6 +337,7 @@ TDependencyGraphTraverser
 *
 graphTraverser
 )
+override
 ;
 }
 ;
@@ -362,11 +362,11 @@ intermSymbol
 )
 {
 }
-virtual
 ~
 TGraphSymbol
 (
 )
+override
 {
 }
 const
@@ -386,7 +386,6 @@ getAsSymbolNode
 )
 ;
 }
-virtual
 void
 traverse
 (
@@ -394,6 +393,7 @@ TDependencyGraphTraverser
 *
 graphTraverser
 )
+override
 ;
 }
 ;
@@ -418,11 +418,11 @@ intermSelection
 )
 {
 }
-virtual
 ~
 TGraphSelection
 (
 )
+override
 {
 }
 const
@@ -442,7 +442,6 @@ getAsSelectionNode
 )
 ;
 }
-virtual
 void
 traverse
 (
@@ -450,6 +449,7 @@ TDependencyGraphTraverser
 *
 graphTraverser
 )
+override
 ;
 }
 ;
@@ -474,11 +474,11 @@ intermLoop
 )
 {
 }
-virtual
 ~
 TGraphLoop
 (
 )
+override
 {
 }
 const
@@ -498,7 +498,6 @@ getAsLoopNode
 )
 ;
 }
-virtual
 void
 traverse
 (
@@ -506,6 +505,7 @@ TDependencyGraphTraverser
 *
 graphTraverser
 )
+override
 ;
 }
 ;
@@ -530,11 +530,11 @@ intermLogicalOp
 )
 {
 }
-virtual
 ~
 TGraphLogicalOp
 (
 )
+override
 {
 }
 const
@@ -562,7 +562,6 @@ getOpString
 )
 const
 ;
-virtual
 void
 traverse
 (
@@ -570,6 +569,7 @@ TDependencyGraphTraverser
 *
 graphTraverser
 )
+override
 ;
 }
 ;

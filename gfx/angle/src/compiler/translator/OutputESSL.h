@@ -46,13 +46,13 @@ forceHighp
 ;
 protected
 :
-virtual
 bool
 writeVariablePrecision
 (
 TPrecision
 precision
 )
+override
 ;
 private
 :

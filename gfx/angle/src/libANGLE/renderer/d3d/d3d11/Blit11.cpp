@@ -2186,6 +2186,12 @@ vbDesc
 .
 ByteWidth
 =
+static_cast
+<
+unsigned
+int
+>
+(
 std
 :
 :
@@ -2217,6 +2223,7 @@ getRendererCaps
 )
 .
 max3DTextureSize
+)
 ;
 vbDesc
 .

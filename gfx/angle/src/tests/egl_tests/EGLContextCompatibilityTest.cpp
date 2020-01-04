@@ -859,19 +859,6 @@ EGL_BAD_MATCH
 }
 }
 ;
-#
-if
-!
-defined
-(
-ANGLE_PLATFORM_LINUX
-)
-|
-|
-defined
-(
-ANGLE_STANDALONE_BUILD
-)
 TEST_P
 (
 EGLContextCompatibilityTest
@@ -1109,7 +1096,7 @@ mConfigs
 j
 ]
 ;
-testPbufferCompatibility
+testWindowCompatibility
 (
 config1
 config2
@@ -1232,8 +1219,6 @@ EGL_PBUFFER_BIT
 }
 }
 }
-#
-endif
 ANGLE_INSTANTIATE_TEST
 (
 EGLContextCompatibilityTest

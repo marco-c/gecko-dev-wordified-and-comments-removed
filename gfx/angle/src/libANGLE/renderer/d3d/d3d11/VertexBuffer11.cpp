@@ -552,9 +552,15 @@ initialized
 int
 inputStride
 =
+static_cast
+<
+int
+>
+(
 ComputeVertexAttributeStride
 (
 attrib
+)
 )
 ;
 gl

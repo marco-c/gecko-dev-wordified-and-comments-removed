@@ -1905,7 +1905,7 @@ FramebufferD3D
 getColorAttachmentsForRender
 (
 const
-Workarounds
+WorkaroundsD3D
 &
 workarounds
 )

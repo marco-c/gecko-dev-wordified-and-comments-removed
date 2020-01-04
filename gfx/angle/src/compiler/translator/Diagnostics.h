@@ -49,11 +49,11 @@ TInfoSink
 infoSink
 )
 ;
-virtual
 ~
 TDiagnostics
 (
 )
+override
 ;
 TInfoSink
 &
@@ -122,7 +122,6 @@ extra
 ;
 protected
 :
-virtual
 void
 print
 (
@@ -143,6 +142,7 @@ string
 &
 text
 )
+override
 ;
 private
 :

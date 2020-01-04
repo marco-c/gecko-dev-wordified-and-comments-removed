@@ -135,7 +135,7 @@ getInfoSink
 obj
 ;
 int
-shaderVersion
+shaderVer
 =
 getShaderVersion
 (
@@ -143,7 +143,7 @@ getShaderVersion
 ;
 if
 (
-shaderVersion
+shaderVer
 >
 100
 )
@@ -157,7 +157,7 @@ version
 "
 <
 <
-shaderVersion
+shaderVer
 <
 <
 "
@@ -198,6 +198,12 @@ precisionEmulation
 {
 EmulatePrecision
 emulatePrecision
+(
+getSymbolTable
+(
+)
+shaderVer
+)
 ;
 root
 -
@@ -405,7 +411,7 @@ getNameMap
 getSymbolTable
 (
 )
-shaderVersion
+shaderVer
 precisionEmulation
 )
 ;

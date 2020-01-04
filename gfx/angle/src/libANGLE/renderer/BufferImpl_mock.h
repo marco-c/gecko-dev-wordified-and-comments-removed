@@ -139,7 +139,7 @@ result
 )
 )
 ;
-MOCK_METHOD4
+MOCK_METHOD5
 (
 getIndexRange
 gl
@@ -150,10 +150,11 @@ Error
 GLenum
 size_t
 size_t
+bool
 gl
 :
 :
-RangeUI
+IndexRange
 *
 )
 )

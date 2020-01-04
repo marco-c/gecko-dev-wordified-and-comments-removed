@@ -558,7 +558,8 @@ empty
 ;
 for
 (
-size_t
+unsigned
+int
 sampleCount
 =
 1

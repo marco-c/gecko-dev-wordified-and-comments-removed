@@ -352,11 +352,13 @@ TSourceLoc
 &
 )
 ;
-bool
+TIntermAggregate
+*
 postProcess
 (
 TIntermNode
 *
+root
 )
 ;
 static

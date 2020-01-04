@@ -54,7 +54,7 @@ std
 :
 vector
 <
-Attribute
+OutputVariable
 >
 *
 outputVariables
@@ -93,7 +93,6 @@ TSymbolTable
 symbolTable
 )
 ;
-virtual
 void
 visitSymbol
 (
@@ -101,8 +100,8 @@ TIntermSymbol
 *
 symbol
 )
+override
 ;
-virtual
 bool
 visitAggregate
 (
@@ -111,8 +110,8 @@ TIntermAggregate
 *
 node
 )
+override
 ;
-virtual
 bool
 visitBinary
 (
@@ -122,6 +121,7 @@ TIntermBinary
 *
 binaryNode
 )
+override
 ;
 private
 :
@@ -188,7 +188,7 @@ std
 :
 vector
 <
-Attribute
+OutputVariable
 >
 *
 mOutputVariables
@@ -268,10 +268,13 @@ bool
 mFragDataAdded
 ;
 bool
-mFragDepthEXTAdded
+mFragDepthAdded
 ;
 bool
-mFragDepthAdded
+mSecondaryFragColorEXTAdded
+;
+bool
+mSecondaryFragDataEXTAdded
 ;
 ShHashFunction64
 mHashFunction

@@ -96,6 +96,9 @@ char
 buf
 size_t
 maxSize
+int
+*
+lineNo
 )
 ;
 struct
@@ -137,6 +140,13 @@ mReadLoc
 }
 private
 :
+const
+char
+*
+skipChar
+(
+)
+;
 size_t
 mCount
 ;

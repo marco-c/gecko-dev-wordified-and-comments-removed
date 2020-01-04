@@ -710,6 +710,17 @@ compiler
 /
 translator
 /
+RemoveDynamicIndexing
+.
+cpp
+'
+'
+src
+/
+compiler
+/
+translator
+/
 RemovePow
 .
 cpp

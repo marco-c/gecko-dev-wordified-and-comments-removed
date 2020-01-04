@@ -98,6 +98,8 @@ width
 unsigned
 int
 height
+bool
+containsAlpha
 DXGISwapChain
 *
 *

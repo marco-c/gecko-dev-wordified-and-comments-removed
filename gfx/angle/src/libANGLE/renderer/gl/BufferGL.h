@@ -159,10 +159,12 @@ size_t
 offset
 size_t
 count
+bool
+primitiveRestartEnabled
 gl
 :
 :
-RangeUI
+IndexRange
 *
 outRange
 )

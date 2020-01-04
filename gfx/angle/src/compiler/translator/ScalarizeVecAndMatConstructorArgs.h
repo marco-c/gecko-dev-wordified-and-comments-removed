@@ -56,7 +56,6 @@ fragmentPrecisionHigh
 }
 protected
 :
-virtual
 bool
 visitAggregate
 (
@@ -66,6 +65,7 @@ TIntermAggregate
 *
 node
 )
+override
 ;
 private
 :

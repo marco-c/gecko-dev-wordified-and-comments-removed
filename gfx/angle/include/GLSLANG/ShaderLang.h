@@ -128,7 +128,7 @@ h
 #
 define
 ANGLE_SH_VERSION
-138
+140
 typedef
 enum
 {
@@ -354,6 +354,9 @@ int
 ARB_texture_rectangle
 ;
 int
+EXT_blend_func_extended
+;
+int
 EXT_draw_buffers
 ;
 int
@@ -391,6 +394,9 @@ MinProgramTexelOffset
 ;
 int
 MaxProgramTexelOffset
+;
+int
+MaxDualSourceDrawBuffers
 ;
 ShHashFunction64
 HashFunction
@@ -631,7 +637,7 @@ vector
 sh
 :
 :
-Attribute
+OutputVariable
 >
 *
 ShGetOutputVariables

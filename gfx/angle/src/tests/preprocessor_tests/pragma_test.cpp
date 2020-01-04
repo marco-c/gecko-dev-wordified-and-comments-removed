@@ -8,6 +8,10 @@ h
 #
 include
 "
+compiler
+/
+preprocessor
+/
 Token
 .
 h
@@ -726,7 +730,7 @@ pp
 Diagnostics
 :
 :
-PP_INVALID_PRAGMA
+PP_UNRECOGNIZED_PRAGMA
 pp
 :
 :

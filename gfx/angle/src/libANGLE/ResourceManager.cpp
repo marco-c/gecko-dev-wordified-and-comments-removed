@@ -351,9 +351,9 @@ const
 gl
 :
 :
-Data
+Limitations
 &
-data
+rendererLimitations
 GLenum
 type
 )
@@ -391,12 +391,7 @@ Shader
 (
 this
 mFactory
--
->
-createShader
-(
-type
-)
+rendererLimitations
 type
 handle
 )
@@ -437,11 +432,6 @@ new
 Program
 (
 mFactory
--
->
-createProgram
-(
-)
 this
 handle
 )
