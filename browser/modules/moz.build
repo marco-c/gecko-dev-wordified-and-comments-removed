@@ -297,6 +297,11 @@ TransientPrefs
 jsm
 '
 '
+URLBarZoom
+.
+jsm
+'
+'
 webrtcUI
 .
 jsm
