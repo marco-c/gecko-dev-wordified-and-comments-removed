@@ -401,7 +401,7 @@ mozilla
 /
 dom
 /
-VRDevice
+VRDisplay
 .
 h
 "
@@ -1382,7 +1382,7 @@ mGamepadServiceTest
 endif
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
-mVRGetDevicesPromises
+mVRGetDisplaysPromises
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_SCRIPT_OBJECTS
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
@@ -1815,7 +1815,7 @@ nullptr
 }
 #
 endif
-mVRGetDevicesPromises
+mVRGetDisplaysPromises
 .
 Clear
 (
@@ -8971,7 +8971,7 @@ Promise
 Navigator
 :
 :
-GetVRDevices
+GetVRDisplays
 (
 ErrorResult
 &
@@ -9046,10 +9046,10 @@ nullptr
 if
 (
 !
-VRDevice
+VRDisplay
 :
 :
-RefreshVRDevices
+RefreshVRDisplays
 (
 this
 )
@@ -9071,7 +9071,7 @@ forget
 )
 ;
 }
-mVRGetDevicesPromises
+mVRGetDisplaysPromises
 .
 AppendElement
 (
@@ -9090,7 +9090,7 @@ void
 Navigator
 :
 :
-NotifyVRDevicesUpdated
+NotifyVRDisplaysUpdated
 (
 )
 {
@@ -9110,19 +9110,19 @@ nsTArray
 <
 RefPtr
 <
-VRDevice
+VRDisplay
 >
 >
-vrDevs
+vrDisplays
 ;
 if
 (
 win
 -
 >
-UpdateVRDevices
+UpdateVRDisplays
 (
-vrDevs
+vrDisplays
 )
 )
 {
@@ -9131,7 +9131,7 @@ for
 auto
 p
 :
-mVRGetDevicesPromises
+mVRGetDisplaysPromises
 )
 {
 p
@@ -9139,7 +9139,7 @@ p
 >
 MaybeResolve
 (
-vrDevs
+vrDisplays
 )
 ;
 }
@@ -9151,7 +9151,7 @@ for
 auto
 p
 :
-mVRGetDevicesPromises
+mVRGetDisplaysPromises
 )
 {
 p
@@ -9164,7 +9164,7 @@ NS_ERROR_FAILURE
 ;
 }
 }
-mVRGetDevicesPromises
+mVRGetDisplaysPromises
 .
 Clear
 (

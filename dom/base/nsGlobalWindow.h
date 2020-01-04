@@ -520,7 +520,7 @@ class
 U2F
 ;
 class
-VRDevice
+VRDisplay
 ;
 class
 WakeLock
@@ -2963,7 +2963,7 @@ DisableGamepadUpdates
 )
 ;
 bool
-UpdateVRDevices
+UpdateVRDisplays
 (
 nsTArray
 <
@@ -2975,11 +2975,11 @@ mozilla
 dom
 :
 :
-VRDevice
+VRDisplay
 >
 >
 &
-aDevices
+aDisplays
 )
 ;
 #
@@ -9385,10 +9385,10 @@ mozilla
 dom
 :
 :
-VRDevice
+VRDisplay
 >
 >
-mVRDevices
+mVRDisplays
 ;
 friend
 class

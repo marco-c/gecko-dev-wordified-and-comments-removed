@@ -107,7 +107,7 @@ aVsyncTimestamp
 )
 ;
 void
-RefreshVRDevices
+RefreshVRDisplays
 (
 )
 ;
@@ -150,12 +150,12 @@ Destroy
 )
 ;
 void
-DispatchVRDeviceInfoUpdate
+DispatchVRDisplayInfoUpdate
 (
 )
 ;
 void
-DispatchVRDeviceSensorUpdate
+DispatchVRDisplaySensorUpdate
 (
 )
 ;
@@ -197,7 +197,7 @@ VRHMDInfo
 VRHMDInfoHashMap
 ;
 VRHMDInfoHashMap
-mVRDevices
+mVRDisplays
 ;
 Atomic
 <

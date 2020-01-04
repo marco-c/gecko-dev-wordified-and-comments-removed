@@ -94,7 +94,7 @@ dom
 =
 [
 '
-VRDevice
+VRDisplay
 .
 h
 '
@@ -103,7 +103,7 @@ UNIFIED_SOURCES
 =
 [
 '
-VRDevice
+VRDisplay
 .
 cpp
 '

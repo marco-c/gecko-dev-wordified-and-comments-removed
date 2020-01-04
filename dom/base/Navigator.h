@@ -989,7 +989,7 @@ already_AddRefed
 <
 Promise
 >
-GetVRDevices
+GetVRDisplays
 (
 ErrorResult
 &
@@ -997,7 +997,7 @@ aRv
 )
 ;
 void
-NotifyVRDevicesUpdated
+NotifyVRDisplaysUpdated
 (
 )
 ;
@@ -1648,7 +1648,7 @@ RefPtr
 Promise
 >
 >
-mVRGetDevicesPromises
+mVRGetDisplaysPromises
 ;
 nsTArray
 <

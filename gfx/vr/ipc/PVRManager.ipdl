@@ -135,7 +135,7 @@ mozilla
 gfx
 :
 :
-VRDeviceUpdate
+VRDisplayUpdate
 from
 "
 gfxVR
@@ -433,7 +433,7 @@ resolved
 async
 UpdateDeviceInfo
 (
-VRDeviceUpdate
+VRDisplayUpdate
 [
 ]
 aDeviceUpdates

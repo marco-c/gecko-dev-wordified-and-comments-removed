@@ -148,7 +148,7 @@ mozilla
 gfx
 :
 :
-VRDeviceUpdate
+VRDisplayUpdate
 >
 {
 typedef
@@ -158,7 +158,7 @@ mozilla
 gfx
 :
 :
-VRDeviceUpdate
+VRDisplayUpdate
 paramType
 ;
 static
@@ -374,7 +374,7 @@ mozilla
 gfx
 :
 :
-VRDeviceInfo
+VRDisplayInfo
 >
 {
 typedef
@@ -384,7 +384,7 @@ mozilla
 gfx
 :
 :
-VRDeviceInfo
+VRDisplayInfo
 paramType
 ;
 static
@@ -471,7 +471,7 @@ mozilla
 gfx
 :
 :
-VRDeviceInfo
+VRDisplayInfo
 :
 :
 NumEyes
@@ -680,7 +680,7 @@ mozilla
 gfx
 :
 :
-VRDeviceInfo
+VRDisplayInfo
 :
 :
 NumEyes

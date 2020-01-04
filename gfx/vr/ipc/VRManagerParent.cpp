@@ -669,7 +669,7 @@ Get
 vm
 -
 >
-RefreshVRDevices
+RefreshVRDisplays
 (
 )
 ;

@@ -1808,7 +1808,7 @@ endif
 #
 include
 "
-VRDeviceProxy
+VRDisplayProxy
 .
 h
 "

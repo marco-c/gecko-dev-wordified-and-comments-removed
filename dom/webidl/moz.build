@@ -2947,7 +2947,7 @@ VideoTrackList
 webidl
 '
 '
-VRDevice
+VRDisplay
 .
 webidl
 '

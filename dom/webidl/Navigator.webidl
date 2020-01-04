@@ -2292,10 +2292,10 @@ Promise
 <
 sequence
 <
-VRDevice
+VRDisplay
 >
 >
-getVRDevices
+getVRDisplays
 (
 )
 ;
