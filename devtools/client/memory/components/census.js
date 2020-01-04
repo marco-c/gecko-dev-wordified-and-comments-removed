@@ -350,6 +350,11 @@ showSign
 !
 !
 diffing
+inverted
+:
+census
+.
+inverted
 }
 )
 getRoots
