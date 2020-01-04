@@ -1043,6 +1043,7 @@ commit
 }
 reportJavaCrash
 (
+exc
 getExceptionStackTrace
 (
 exc
@@ -1303,12 +1304,13 @@ LINK_TYPE_4G
 7
 ;
 WrapForJNI
-private
 static
 native
 void
 reportJavaCrash
 (
+Throwable
+exc
 String
 stackTrace
 )
