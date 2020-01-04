@@ -1142,6 +1142,16 @@ ContextMenuInfo
 menuInfo
 )
 {
+if
+(
+isEditing
+(
+)
+)
+{
+return
+;
+}
 MenuInflater
 inflater
 =
