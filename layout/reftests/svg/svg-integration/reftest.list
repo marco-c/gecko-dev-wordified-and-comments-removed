@@ -756,14 +756,6 @@ xhtml
 pass
 .
 svg
-fuzzy
--
-if
-(
-skiaContent
-1
-5
-)
 =
 =
 patterned
