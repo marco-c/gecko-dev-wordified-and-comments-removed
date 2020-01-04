@@ -84,6 +84,7 @@ GLXLibrary
 {
 public
 :
+MOZ_CONSTEXPR
 GLXLibrary
 (
 )
