@@ -95,15 +95,4 @@ removeAttributeNode
 "
 :
 true
-"
-DocumentType
-member
-must
-be
-nuked
-:
-internalSubset
-"
-:
-true
 }
