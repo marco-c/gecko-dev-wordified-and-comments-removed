@@ -22868,6 +22868,17 @@ parsing
 "
 "
         
+if
+not
+self
+.
+isPairIterator
+(
+)
+:
+            
+return
+        
 self
 .
 addMethod
