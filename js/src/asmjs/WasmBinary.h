@@ -132,7 +132,6 @@ I32I32X4ExtractLane
 I32B32X4ExtractLane
 I32B32X4AllTrue
 I32B32X4AnyTrue
-I32Id
 F32CallInternal
 F32CallIndirect
 F32CallImport
@@ -157,7 +156,6 @@ F32Load
 F32StoreF32
 F32StoreF64
 F32F32X4ExtractLane
-F32Id
 F64CallInternal
 F64CallIndirect
 F64CallImport
@@ -192,7 +190,6 @@ F64FromU32
 F64Load
 F64StoreF32
 F64StoreF64
-F64Id
 I32X4CallInternal
 I32X4CallIndirect
 I32X4CallImport
@@ -213,7 +210,6 @@ I32X4Select
 I32X4Splat
 I32X4Load
 I32X4Store
-I32X4Id
 F32X4CallInternal
 F32X4CallIndirect
 F32X4CallImport
@@ -232,7 +228,6 @@ F32X4Select
 F32X4Splat
 F32X4Load
 F32X4Store
-F32X4Id
 B32X4CallInternal
 B32X4CallIndirect
 B32X4CallImport
@@ -247,7 +242,6 @@ B32X4BinaryCompF32X4
 B32X4BinaryBitwise
 B32X4ReplaceLane
 B32X4Splat
-B32X4Id
 }
 ;
 enum
