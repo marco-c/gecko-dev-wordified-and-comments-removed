@@ -93,7 +93,7 @@ MPL
 0
 /
 .
-env_flag
+project_flag
 (
 '
 MOZ_ANDROID_EXCLUDE_FONTS
@@ -114,7 +114,7 @@ default
 =
 True
 )
-env_flag
+project_flag
 (
 '
 MOZ_LOCALE_SWITCHER
@@ -131,7 +131,7 @@ default
 =
 True
 )
-env_flag
+project_flag
 (
 '
 MOZ_ANDROID_GCM
@@ -154,7 +154,7 @@ set_for_old_configure
 =
 True
 )
-env_flag
+project_flag
 (
 '
 MOZ_ANDROID_DOWNLOADS_INTEGRATION
@@ -173,7 +173,7 @@ default
 =
 True
 )
-env_flag
+project_flag
 (
 '
 MOZ_ANDROID_BEAM
@@ -191,7 +191,7 @@ default
 =
 True
 )
-env_flag
+project_flag
 (
 '
 MOZ_ANDROID_SEARCH_ACTIVITY
@@ -209,7 +209,7 @@ default
 =
 True
 )
-env_flag
+project_flag
 (
 '
 MOZ_ANDROID_MLS_STUMBLER
@@ -229,7 +229,7 @@ default
 =
 True
 )
-env_flag
+project_flag
 (
 '
 MOZ_ANDROID_DOWNLOAD_CONTENT_SERVICE
@@ -281,7 +281,7 @@ of
 the
 framework
 .
-env_flag
+project_flag
 (
 '
 MOZ_SWITCHBOARD
