@@ -2266,6 +2266,15 @@ aString
 ;
 }
 }
+void
+HTMLMediaElement
+:
+:
+MozDumpDebugInfo
+(
+)
+{
+}
 already_AddRefed
 <
 DOMMediaStream
