@@ -106,6 +106,12 @@ nsIOutputStream
 >
 mResponseBody
 ;
+nsCOMPtr
+<
+nsISupports
+>
+mReleaseHandle
+;
 nsCString
 mContentType
 ;
