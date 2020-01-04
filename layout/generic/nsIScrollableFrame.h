@@ -770,6 +770,14 @@ aAllowCreateDisplayPort
 =
 0
 ;
+virtual
+void
+NotifyImageVisibilityUpdate
+(
+)
+=
+0
+;
 }
 ;
 #

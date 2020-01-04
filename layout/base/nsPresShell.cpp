@@ -24436,6 +24436,13 @@ if
 scrollFrame
 )
 {
+scrollFrame
+-
+>
+NotifyImageVisibilityUpdate
+(
+)
+;
 nsRect
 displayPort
 ;
