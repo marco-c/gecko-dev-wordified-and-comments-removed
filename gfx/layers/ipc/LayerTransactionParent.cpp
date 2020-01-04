@@ -750,10 +750,6 @@ mPendingTransaction
 (
 0
 )
-mPendingCompositorUpdates
-(
-0
-)
 mDestroyed
 (
 false
