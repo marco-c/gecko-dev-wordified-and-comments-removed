@@ -2629,7 +2629,7 @@ startTime
 timeout
 ;
 let
-onTimer
+elementSearch
 =
 function
 (
@@ -2724,7 +2724,7 @@ res
 }
 }
 ;
-onTimer
+elementSearch
 (
 )
 ;
@@ -2732,7 +2732,7 @@ timer
 .
 init
 (
-onTimer
+elementSearch
 interval
 Ci
 .
@@ -2758,6 +2758,20 @@ cancel
 ;
 return
 res
+;
+}
+err
+=
+>
+{
+timer
+.
+cancel
+(
+)
+;
+throw
+err
 ;
 }
 )
