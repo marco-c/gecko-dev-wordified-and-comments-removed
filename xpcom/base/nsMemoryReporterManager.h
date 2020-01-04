@@ -307,6 +307,7 @@ mSizeOfTabFns
 ;
 private
 :
+MOZ_MUST_USE
 nsresult
 RegisterReporterHelper
 (
@@ -321,6 +322,7 @@ bool
 aIsAsync
 )
 ;
+MOZ_MUST_USE
 nsresult
 StartGettingReports
 (
@@ -567,6 +569,7 @@ aGeneration
 )
 ;
 static
+MOZ_MUST_USE
 bool
 StartChildReport
 (
