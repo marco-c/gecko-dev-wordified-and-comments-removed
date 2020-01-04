@@ -2829,7 +2829,7 @@ foo
 ;
 searchbar
 .
-inputChanged
+updateGoButtonVisibility
 (
 )
 ;
