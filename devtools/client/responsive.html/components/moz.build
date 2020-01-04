@@ -101,6 +101,13 @@ browser
 js
 '
 '
+resizable
+-
+viewport
+.
+js
+'
+'
 viewport
 -
 toolbar

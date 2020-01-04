@@ -96,6 +96,11 @@ MPL
 DevToolsModules
 (
 '
+grippers
+.
+svg
+'
+'
 rotate
 -
 viewport
