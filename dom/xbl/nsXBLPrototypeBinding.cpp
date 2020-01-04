@@ -4552,6 +4552,9 @@ if
 (
 mBaseBindingURI
 )
+{
+rv
+=
 mBaseBindingURI
 -
 >
@@ -4560,6 +4563,13 @@ GetSpec
 extends
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
+}
 rv
 =
 aStream

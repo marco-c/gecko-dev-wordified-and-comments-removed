@@ -2302,7 +2302,7 @@ XBLBinding_Serialize_NoMoreItems
 )
 ;
 }
-nsresult
+void
 NS_NewXBLProtoImpl
 (
 nsXBLPrototypeBinding
@@ -2345,6 +2345,9 @@ else
 nsCString
 spec
 ;
+nsresult
+rv
+=
 aBinding
 -
 >
@@ -2356,6 +2359,14 @@ BindingURI
 GetSpec
 (
 spec
+)
+;
+MOZ_RELEASE_ASSERT
+(
+NS_SUCCEEDED
+(
+rv
+)
 )
 ;
 impl
@@ -2381,8 +2392,5 @@ impl
 aResult
 =
 impl
-;
-return
-NS_OK
 ;
 }

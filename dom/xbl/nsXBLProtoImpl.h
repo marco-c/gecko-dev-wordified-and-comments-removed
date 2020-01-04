@@ -386,7 +386,7 @@ mDestructor
 ;
 }
 ;
-nsresult
+void
 NS_NewXBLProtoImpl
 (
 nsXBLPrototypeBinding
