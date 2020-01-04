@@ -922,7 +922,7 @@ R
 .
 style
 .
-UrlBar_ImageButton_Icon
+UrlBar_ImageButton
 )
 ;
 imageButton
