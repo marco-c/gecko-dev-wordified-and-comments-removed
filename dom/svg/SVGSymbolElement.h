@@ -202,13 +202,6 @@ PreserveAspectRatio
 (
 )
 ;
-bool
-IsInChromeDoc
-(
-)
-const
-override
-;
 protected
 :
 virtual

@@ -1361,16 +1361,6 @@ pref
 "
 mathml
 .
-disabled
-"
-false
-)
-;
-pref
-(
-"
-mathml
-.
 scale_stretchy_operators
 .
 enabled

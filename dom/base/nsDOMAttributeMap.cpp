@@ -2046,12 +2046,6 @@ NameSpaceManager
 GetNameSpaceID
 (
 aNamespaceURI
-mContent
--
->
-OwnerDoc
-(
-)
 )
 ;
 if

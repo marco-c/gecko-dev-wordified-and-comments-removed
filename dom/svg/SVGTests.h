@@ -214,15 +214,6 @@ nsAString
 aExtension
 )
 ;
-virtual
-bool
-IsInChromeDoc
-(
-)
-const
-=
-0
-;
 protected
 :
 virtual

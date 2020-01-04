@@ -7302,7 +7302,6 @@ NameSpaceManager
 GetNameSpaceID
 (
 nameSpace
-doc
 )
 ;
 nsCOMPtr

@@ -5902,9 +5902,6 @@ NameSpaceManager
 GetNameSpaceID
 (
 aNamespaceURI
-OwnerDoc
-(
-)
 )
 ;
 if
@@ -6100,9 +6097,6 @@ NameSpaceManager
 GetNameSpaceID
 (
 aNamespaceURI
-OwnerDoc
-(
-)
 )
 ;
 if
@@ -6428,9 +6422,6 @@ NameSpaceManager
 GetNameSpaceID
 (
 aNamespaceURI
-OwnerDoc
-(
-)
 )
 ;
 if

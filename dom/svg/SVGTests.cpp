@@ -297,9 +297,6 @@ nsSVGFeatures
 HasExtension
 (
 aExtension
-IsInChromeDoc
-(
-)
 )
 ;
 }
@@ -747,9 +744,6 @@ EXTENSIONS
 [
 i
 ]
-IsInChromeDoc
-(
-)
 )
 )
 {

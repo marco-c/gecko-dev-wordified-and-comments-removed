@@ -398,14 +398,6 @@ ErrorResult
 rv
 )
 ;
-virtual
-bool
-IsInChromeDoc
-(
-)
-const
-override
-;
 protected
 :
 void
