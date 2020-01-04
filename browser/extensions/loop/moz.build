@@ -150,6 +150,8 @@ XPCSHELL_TESTS_MANIFESTS
 =
 [
 '
+chrome
+/
 test
 /
 xpcshell
@@ -164,6 +166,8 @@ BROWSER_CHROME_MANIFESTS
 =
 [
 '
+chrome
+/
 test
 /
 mochitest
