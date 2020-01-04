@@ -118,11 +118,11 @@ FloatReg0
 FloatRegisters
 :
 :
-v0
+d0
 FloatRegisters
 :
 :
-Single
+Double
 }
 ;
 static
@@ -134,11 +134,11 @@ FloatReg1
 FloatRegisters
 :
 :
-v1
+d1
 FloatRegisters
 :
 :
-Single
+Double
 }
 ;
 }
