@@ -1060,6 +1060,11 @@ redo
 import
 retry
         
+from
+httplib
+import
+HTTPException
+        
 import
 logging
         
@@ -1256,6 +1261,7 @@ S3CopyError
 S3ResponseError
                                            
 IOError
+HTTPException
 )
 )
         
