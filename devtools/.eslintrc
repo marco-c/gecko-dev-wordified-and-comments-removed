@@ -262,7 +262,7 @@ style
 "
 :
 [
-1
+2
 "
 1tbs
 "
@@ -284,7 +284,7 @@ names
 camelcase
 "
 :
-1
+2
 /
 /
 Allow
@@ -331,7 +331,7 @@ spacing
 "
 :
 [
-1
+2
 {
 "
 before
@@ -360,7 +360,7 @@ style
 "
 :
 [
-1
+2
 "
 last
 "
@@ -378,7 +378,7 @@ functions
 complexity
 "
 :
-1
+2
 /
 /
 Require
@@ -507,7 +507,7 @@ location
 "
 :
 [
-1
+2
 "
 property
 "
@@ -715,7 +715,7 @@ spacing
 "
 :
 [
-1
+2
 "
 after
 "
@@ -766,7 +766,7 @@ indent
 "
 :
 [
-1
+2
 2
 {
 "
@@ -796,7 +796,7 @@ spacing
 "
 :
 [
-1
+2
 {
 "
 beforeColon
@@ -1175,7 +1175,7 @@ catch
 shadow
 "
 :
-1
+2
 /
 /
 Deprecated
@@ -1709,7 +1709,7 @@ extra
 semi
 "
 :
-1
+2
 /
 /
 Deprecated
@@ -1791,7 +1791,7 @@ inline
 comments
 "
 :
-1
+2
 /
 /
 Disallow
@@ -1911,7 +1911,7 @@ multi
 spaces
 "
 :
-1
+2
 /
 /
 Disallow
@@ -1934,7 +1934,7 @@ multi
 str
 "
 :
-1
+2
 /
 /
 Disallow
@@ -1953,7 +1953,7 @@ lines
 "
 :
 [
-1
+2
 {
 "
 max
@@ -2037,7 +2037,7 @@ no
 octal
 "
 :
-1
+2
 /
 /
 Allow
@@ -2417,7 +2417,7 @@ no
 shadow
 "
 :
-1
+2
 /
 /
 Disallow
@@ -2479,7 +2479,7 @@ spaced
 func
 "
 :
-1
+2
 /
 /
 Disallow
@@ -2965,7 +2965,7 @@ blocks
 "
 :
 [
-1
+2
 "
 never
 "
@@ -3003,7 +3003,7 @@ quotes
 "
 :
 [
-1
+2
 "
 double
 "
@@ -3048,7 +3048,7 @@ semi
 "
 :
 [
-1
+2
 "
 always
 "
@@ -3067,7 +3067,7 @@ spacing
 "
 :
 [
-1
+2
 {
 "
 before
@@ -3151,7 +3151,7 @@ keywords
 "
 :
 [
-1
+2
 "
 always
 "
@@ -3178,7 +3178,7 @@ blocks
 "
 :
 [
-1
+2
 "
 always
 "
@@ -3225,7 +3225,7 @@ paren
 "
 :
 [
-1
+2
 "
 never
 "
@@ -3313,7 +3313,7 @@ parens
 "
 :
 [
-1
+2
 "
 never
 "
@@ -3339,7 +3339,7 @@ ops
 "
 :
 [
-1
+2
 {
 "
 int32Hint
@@ -3369,7 +3369,7 @@ throw
 case
 "
 :
-1
+2
 /
 /
 Require
@@ -3401,7 +3401,7 @@ ops
 "
 :
 [
-1
+2
 {
 "
 words
@@ -3459,7 +3459,7 @@ comment
 "
 :
 [
-1
+2
 "
 always
 "
