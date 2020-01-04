@@ -1900,7 +1900,7 @@ operator
 (
 )
 (
-BluetoothAddress
+nsString
 &
 aArg1
 unsigned
@@ -1924,7 +1924,14 @@ rv
 UnpackPDU
 (
 pdu
+UnpackConversion
+<
+BluetoothAddress
+nsAString
+>
+(
 aArg1
+)
 )
 ;
 if

@@ -2142,7 +2142,7 @@ BluetoothDaemonInterface
 GetRemoteDeviceProperties
 (
 const
-BluetoothAddress
+nsAString
 &
 aRemoteAddr
 BluetoothResultHandler
@@ -2192,7 +2192,7 @@ BluetoothDaemonInterface
 GetRemoteDeviceProperty
 (
 const
-BluetoothAddress
+nsAString
 &
 aRemoteAddr
 const
@@ -2247,7 +2247,7 @@ BluetoothDaemonInterface
 SetRemoteDeviceProperty
 (
 const
-BluetoothAddress
+nsAString
 &
 aRemoteAddr
 const
@@ -2302,7 +2302,7 @@ BluetoothDaemonInterface
 GetRemoteServiceRecord
 (
 const
-BluetoothAddress
+nsAString
 &
 aRemoteAddr
 const
@@ -2357,7 +2357,7 @@ BluetoothDaemonInterface
 GetRemoteServices
 (
 const
-BluetoothAddress
+nsAString
 &
 aRemoteAddr
 BluetoothResultHandler
@@ -2497,7 +2497,7 @@ BluetoothDaemonInterface
 CreateBond
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothTransport
@@ -2550,7 +2550,7 @@ BluetoothDaemonInterface
 RemoveBond
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothResultHandler
@@ -2600,7 +2600,7 @@ BluetoothDaemonInterface
 CancelBond
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothResultHandler
@@ -2650,7 +2650,7 @@ BluetoothDaemonInterface
 GetConnectionState
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothResultHandler
@@ -2666,7 +2666,7 @@ BluetoothDaemonInterface
 PinReply
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 bool
@@ -2724,7 +2724,7 @@ BluetoothDaemonInterface
 SspReply
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 BluetoothSspVariant

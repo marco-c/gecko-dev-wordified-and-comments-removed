@@ -134,7 +134,7 @@ Connect
 int
 aSockFd
 const
-BluetoothAddress
+nsAString
 &
 aBdAddress
 int
@@ -151,7 +151,7 @@ Accept
 int
 aSockFd
 const
-BluetoothAddress
+nsAString
 &
 aBdAddress
 int
@@ -194,7 +194,7 @@ ConnectionStateNotification
 BluetoothHandsfreeConnectionState
 aState
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -209,7 +209,7 @@ AudioStateNotification
 BluetoothHandsfreeAudioState
 aState
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -224,7 +224,7 @@ VoiceRecognitionNotification
 BluetoothHandsfreeVoiceRecognitionState
 aState
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -237,7 +237,7 @@ BluetoothHandsfreeNotificationHandler
 AnswerCallNotification
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -250,7 +250,7 @@ BluetoothHandsfreeNotificationHandler
 HangupCallNotification
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -267,7 +267,7 @@ aType
 int
 aVolume
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -284,7 +284,7 @@ nsAString
 &
 aNumber
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -299,7 +299,7 @@ DtmfNotification
 char
 aDtmf
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -314,7 +314,7 @@ NRECNotification
 BluetoothHandsfreeNRECState
 aNrec
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -329,7 +329,7 @@ WbsNotification
 BluetoothHandsfreeWbsConfig
 aWbs
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -344,7 +344,7 @@ CallHoldNotification
 BluetoothHandsfreeCallHoldType
 aChld
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -357,7 +357,7 @@ BluetoothHandsfreeNotificationHandler
 CnumNotification
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -370,7 +370,7 @@ BluetoothHandsfreeNotificationHandler
 CindNotification
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -383,7 +383,7 @@ BluetoothHandsfreeNotificationHandler
 CopsNotification
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -396,7 +396,7 @@ BluetoothHandsfreeNotificationHandler
 ClccNotification
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -413,7 +413,7 @@ nsACString
 &
 aAtString
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -426,7 +426,7 @@ BluetoothHandsfreeNotificationHandler
 KeyPressedNotification
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -654,7 +654,7 @@ ConnectionStateNotification
 BluetoothA2dpConnectionState
 aState
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -669,7 +669,7 @@ AudioStateNotification
 BluetoothA2dpAudioState
 aState
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -682,7 +682,7 @@ BluetoothA2dpNotificationHandler
 AudioConfigNotification
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 uint32_t
@@ -912,7 +912,7 @@ BluetoothAvrcpNotificationHandler
 RemoteFeatureNotification
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 unsigned
@@ -1139,7 +1139,7 @@ BluetoothGattNotificationHandler
 ScanResultNotification
 (
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 int
@@ -1164,7 +1164,7 @@ aStatus
 int
 aClientIf
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -1183,7 +1183,7 @@ aStatus
 int
 aClientIf
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -1416,7 +1416,7 @@ ReadRemoteRssiNotification
 int
 aClientIf
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 int
@@ -1469,7 +1469,7 @@ aServerIf
 bool
 aConnected
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 )
@@ -1629,7 +1629,7 @@ aConnId
 int
 aTransId
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 const
@@ -1654,7 +1654,7 @@ aConnId
 int
 aTransId
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 const
@@ -1687,7 +1687,7 @@ aConnId
 int
 aTransId
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 bool
@@ -2179,7 +2179,7 @@ RemoteDevicePropertiesNotification
 BluetoothStatus
 aStatus
 const
-BluetoothAddress
+nsAString
 &
 aBdAddr
 int
@@ -2224,7 +2224,7 @@ BluetoothNotificationHandler
 PinRequestNotification
 (
 const
-BluetoothAddress
+nsAString
 &
 aRemoteBdAddr
 const
@@ -2243,7 +2243,7 @@ BluetoothNotificationHandler
 SspRequestNotification
 (
 const
-BluetoothAddress
+nsAString
 &
 aRemoteBdAddr
 const
@@ -2268,7 +2268,7 @@ BondStateChangedNotification
 BluetoothStatus
 aStatus
 const
-BluetoothAddress
+nsAString
 &
 aRemoteBdAddr
 BluetoothBondState
@@ -2285,7 +2285,7 @@ AclStateChangedNotification
 BluetoothStatus
 aStatus
 const
-BluetoothAddress
+nsAString
 &
 aRemoteBdAddr
 bool

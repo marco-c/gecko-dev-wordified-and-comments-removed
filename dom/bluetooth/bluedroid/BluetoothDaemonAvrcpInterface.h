@@ -624,11 +624,11 @@ DaemonNotificationRunnable2
 <
 NotificationHandlerWrapper
 void
-BluetoothAddress
+nsString
 unsigned
 long
 const
-BluetoothAddress
+nsAString
 &
 >
 RemoteFeatureNotification
