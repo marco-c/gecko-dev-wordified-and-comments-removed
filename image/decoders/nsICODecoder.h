@@ -227,15 +227,13 @@ aIterator
 )
 override
 ;
-virtual
-void
+nsresult
 FinishInternal
 (
 )
 override
 ;
-virtual
-void
+nsresult
 FinishWithErrorInternal
 (
 )
@@ -266,7 +264,7 @@ uint32_t
 aCount
 )
 ;
-void
+nsresult
 GetFinalStateFromContainedDecoder
 (
 )

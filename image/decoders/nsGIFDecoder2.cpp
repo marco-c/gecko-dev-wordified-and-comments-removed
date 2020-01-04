@@ -264,7 +264,7 @@ local_colormap
 )
 ;
 }
-void
+nsresult
 nsGIFDecoder2
 :
 :
@@ -330,6 +330,9 @@ mGIFOpen
 false
 ;
 }
+return
+NS_OK
+;
 }
 void
 nsGIFDecoder2
