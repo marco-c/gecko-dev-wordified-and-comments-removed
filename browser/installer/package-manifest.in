@@ -948,6 +948,8 @@ cookie
 xpt
 RESPATH
 /
+browser
+/
 components
 /
 devtools_security
@@ -1457,6 +1459,8 @@ jsdownloads
 .
 xpt
 RESPATH
+/
+browser
 /
 components
 /
@@ -5437,15 +5441,6 @@ webapprt
 modules
 /
 WebappManager
-.
-jsm
-RESPATH
-/
-webapprt
-/
-modules
-/
-RemoteDebugger
 .
 jsm
 RESPATH
