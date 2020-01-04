@@ -172,9 +172,6 @@ nsPresContext
 namespace
 mozilla
 {
-class
-RestyleTracker
-;
 struct
 AnimationCollection
 ;
@@ -328,14 +325,6 @@ mPresContext
 void
 Disconnect
 (
-)
-;
-void
-AddStyleUpdatesTo
-(
-RestyleTracker
-&
-aTracker
 )
 ;
 static
