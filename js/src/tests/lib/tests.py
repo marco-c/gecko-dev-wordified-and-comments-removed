@@ -383,6 +383,14 @@ UTF
 -
 8
 '
+        
+'
+XRE_NO_WINDOWS_CRASH_DIALOG
+'
+:
+'
+1
+'
     
 }
     
