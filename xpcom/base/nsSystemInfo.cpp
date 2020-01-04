@@ -5035,7 +5035,10 @@ isTablet
 (
 )
 =
-java
+mozilla
+:
+:
+widget
 :
 :
 GeckoAppShell

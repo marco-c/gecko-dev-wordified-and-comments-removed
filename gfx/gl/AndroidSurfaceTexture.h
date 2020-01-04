@@ -242,7 +242,7 @@ mTexture
 ;
 }
 const
-java
+widget
 :
 :
 sdk
@@ -286,7 +286,7 @@ aTexture
 GLuint
 mTexture
 ;
-java
+widget
 :
 :
 sdk
@@ -298,7 +298,7 @@ SurfaceTexture
 GlobalRef
 mSurfaceTexture
 ;
-java
+widget
 :
 :
 sdk

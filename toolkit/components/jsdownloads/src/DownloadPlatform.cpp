@@ -130,7 +130,7 @@ MOZ_WIDGET_ANDROID
 #
 include
 "
-GeneratedJNIWrappers
+AndroidBridge
 .
 h
 "
@@ -394,7 +394,10 @@ if
 addToRecentDocs
 )
 {
-java
+mozilla
+:
+:
+widget
 :
 :
 DownloadsIntegration

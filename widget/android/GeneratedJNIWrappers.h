@@ -19,7 +19,7 @@ namespace
 mozilla
 {
 namespace
-java
+widget
 {
 class
 ANRReporter

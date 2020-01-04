@@ -148,7 +148,7 @@ mType
 }
 if
 (
-java
+widget
 :
 :
 GeckoAppShell

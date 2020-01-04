@@ -49,7 +49,7 @@ GeckoNetworkManager
 final
 :
 public
-java
+widget
 :
 :
 GeckoNetworkManager

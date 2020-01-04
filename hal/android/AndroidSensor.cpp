@@ -8,7 +8,7 @@ h
 #
 include
 "
-GeneratedJNIWrappers
+AndroidBridge
 .
 h
 "
@@ -32,7 +32,7 @@ SensorType
 aSensor
 )
 {
-java
+widget
 :
 :
 GeckoAppShell
@@ -51,7 +51,7 @@ SensorType
 aSensor
 )
 {
-java
+widget
 :
 :
 GeckoAppShell

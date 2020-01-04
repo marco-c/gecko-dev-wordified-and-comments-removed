@@ -8,14 +8,14 @@ h
 #
 include
 "
-GeneratedJNINatives
+AndroidBridge
 .
 h
 "
 #
 include
 "
-GeneratedJNIWrappers
+GeneratedJNINatives
 .
 h
 "
@@ -33,7 +33,7 @@ class
 AlarmReceiver
 :
 public
-java
+widget
 :
 :
 AlarmReceiver
@@ -114,7 +114,7 @@ DisableAlarm
 (
 )
 {
-java
+widget
 :
 :
 GeckoAppShell
@@ -135,7 +135,7 @@ aNanoseconds
 )
 {
 return
-java
+widget
 :
 :
 GeckoAppShell

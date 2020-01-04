@@ -15,7 +15,7 @@ h
 #
 include
 "
-GeneratedJNIWrappers
+AndroidBridge
 .
 h
 "
@@ -84,7 +84,7 @@ Length
 return
 NS_ERROR_FAILURE
 ;
-java
+widget
 :
 :
 GeckoAppShell

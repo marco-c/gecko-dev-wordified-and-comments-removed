@@ -8,7 +8,7 @@ h
 #
 include
 "
-GeneratedJNIWrappers
+AndroidBridge
 .
 h
 "
@@ -296,7 +296,7 @@ uriSpec
 )
 ;
 return
-java
+widget
 :
 :
 GeckoAppShell
@@ -336,7 +336,7 @@ title
 )
 {
 return
-java
+widget
 :
 :
 GeckoAppShell

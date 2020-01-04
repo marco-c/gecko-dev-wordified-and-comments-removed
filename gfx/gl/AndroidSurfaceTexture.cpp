@@ -98,14 +98,14 @@ namespace
 mozilla
 :
 :
-java
+widget
 ;
 using
 namespace
 mozilla
 :
 :
-java
+widget
 :
 :
 sdk

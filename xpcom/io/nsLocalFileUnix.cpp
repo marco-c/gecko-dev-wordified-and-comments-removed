@@ -311,7 +311,7 @@ MOZ_WIDGET_ANDROID
 #
 include
 "
-GeneratedJNIWrappers
+AndroidBridge
 .
 h
 "
@@ -8278,7 +8278,7 @@ file
 mPath
 ;
 return
-java
+widget
 :
 :
 GeckoAppShell

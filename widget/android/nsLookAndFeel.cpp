@@ -1490,7 +1490,7 @@ XRE_IsParentProcess
 {
 mShowPassword
 =
-java
+widget
 :
 :
 GeckoAppShell

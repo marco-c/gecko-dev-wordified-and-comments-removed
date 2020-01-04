@@ -1,7 +1,7 @@
 #
 include
 "
-GeneratedJNIWrappers
+AndroidBridge
 .
 h
 "
@@ -16,7 +16,7 @@ StartGamepadMonitoring
 (
 )
 {
-java
+widget
 :
 :
 GeckoAppShell
@@ -32,7 +32,7 @@ StopGamepadMonitoring
 (
 )
 {
-java
+widget
 :
 :
 GeckoAppShell

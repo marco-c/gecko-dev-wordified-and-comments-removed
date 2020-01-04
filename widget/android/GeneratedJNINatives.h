@@ -26,7 +26,7 @@ namespace
 mozilla
 {
 namespace
-java
+widget
 {
 template
 <
