@@ -205,16 +205,6 @@ js
 )
 content
 /
-emulator
-.
-js
-(
-emulator
-.
-js
-)
-content
-/
 modal
 .
 js
