@@ -483,9 +483,8 @@ workerPrivate
 workers
 :
 :
-GetWorkerPrivateFromContext
+GetCurrentThreadWorkerPrivate
 (
-aCx
 )
 ;
 if
