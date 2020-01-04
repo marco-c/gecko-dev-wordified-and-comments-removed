@@ -2019,23 +2019,6 @@ ping
 "
 "
         
-prefs
-[
-"
-dom
-.
-serviceWorkers
-.
-periodic
--
-updates
-.
-enabled
-"
-]
-=
-False
-        
 if
 options
 .

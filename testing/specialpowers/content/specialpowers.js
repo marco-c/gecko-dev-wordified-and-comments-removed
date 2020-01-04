@@ -178,9 +178,6 @@ SPSetTestPluginEnabledState
 SPWebAppService
 "
 "
-SPPeriodicServiceWorkerUpdates
-"
-"
 SPCleanUpSTSData
 "
 ]

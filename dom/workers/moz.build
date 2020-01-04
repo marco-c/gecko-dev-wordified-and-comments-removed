@@ -172,11 +172,6 @@ ServiceWorkerManager
 h
 '
 '
-ServiceWorkerPeriodicUpdater
-.
-h
-'
-'
 WorkerDebuggerManager
 .
 h
@@ -412,11 +407,6 @@ cpp
 '
 '
 ServiceWorkerMessageEvent
-.
-cpp
-'
-'
-ServiceWorkerPeriodicUpdater
 .
 cpp
 '

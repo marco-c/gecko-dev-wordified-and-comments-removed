@@ -2016,11 +2016,6 @@ isLangRTL
 )
 ;
 async
-UpdateServiceWorkerRegistrations
-(
-)
-;
-async
 DataStoreNotify
 (
 uint32_t
