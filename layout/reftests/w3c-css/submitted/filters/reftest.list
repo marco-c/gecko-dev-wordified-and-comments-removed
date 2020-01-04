@@ -1,4 +1,3 @@
-fails
 =
 =
 filter
@@ -25,10 +24,6 @@ dynamic
 ref
 .
 html
-#
-bug
-1187851
-fails
 =
 =
 filter
@@ -55,6 +50,3 @@ dynamic
 ref
 .
 html
-#
-bug
-1187851
