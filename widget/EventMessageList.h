@@ -836,7 +836,7 @@ eQueryContentEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_QUERY_EDITOR_RECT
+eQueryEditorRect
 eQueryContentEventFirst
 +
 5

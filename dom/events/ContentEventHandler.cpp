@@ -4204,7 +4204,7 @@ aEvent
 )
 ;
 case
-NS_QUERY_EDITOR_RECT
+eQueryEditorRect
 :
 return
 OnQueryEditorRect

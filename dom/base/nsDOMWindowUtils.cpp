@@ -9121,7 +9121,7 @@ QUERY_EDITOR_RECT
 :
 message
 =
-NS_QUERY_EDITOR_RECT
+eQueryEditorRect
 ;
 break
 ;
