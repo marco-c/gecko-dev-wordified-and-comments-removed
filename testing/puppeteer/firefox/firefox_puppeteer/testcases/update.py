@@ -1971,7 +1971,7 @@ found
                 
 self
 .
-download
+download_update
 (
 about_window
 )
