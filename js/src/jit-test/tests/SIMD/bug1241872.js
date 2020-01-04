@@ -9,7 +9,7 @@ SIMD
 object
 '
 )
-exit
+quit
 (
 0
 )
