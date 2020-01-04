@@ -259,11 +259,8 @@ ImageContainer
 >
 mImageContainer
 ;
-nsIntSize
-mDisplay
-;
-nsIntRect
-mImage
+VideoInfo
+mInfo
 ;
 AVCodecParserContext
 *

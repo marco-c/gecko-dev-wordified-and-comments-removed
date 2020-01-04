@@ -1079,17 +1079,6 @@ return
 1
 ;
 }
-VideoInfo
-info
-;
-info
-.
-mDisplay
-=
-mInfo
-.
-mDisplay
-;
 RefPtr
 <
 VideoData
@@ -1101,7 +1090,7 @@ VideoData
 :
 Create
 (
-info
+mInfo
 mImageContainer
 aSample
 -
@@ -1126,7 +1115,9 @@ aSample
 mTimecode
 mInfo
 .
-mImage
+ImageRect
+(
+)
 )
 ;
 if
