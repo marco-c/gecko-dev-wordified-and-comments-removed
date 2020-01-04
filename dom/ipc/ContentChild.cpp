@@ -2272,7 +2272,7 @@ if
 scriptError
 )
 {
-nsString
+nsAutoString
 msg
 sourceName
 sourceLine
