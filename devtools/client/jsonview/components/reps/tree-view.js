@@ -246,11 +246,6 @@ cellPadding
 cellSpacing
 :
 0
-onClick
-:
-this
-.
-onClick
 }
 children
 )
@@ -763,11 +758,6 @@ join
 "
 "
 )
-onClick
-:
-this
-.
-onClick
 }
 DOM
 .
@@ -779,6 +769,11 @@ className
 "
 memberLabelCell
 "
+onClick
+:
+this
+.
+onClick
 }
 DOM
 .
