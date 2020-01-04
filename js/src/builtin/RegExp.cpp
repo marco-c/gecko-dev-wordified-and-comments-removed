@@ -3095,6 +3095,15 @@ RegExpTest
 1
 0
 )
+JS_SELF_HOSTED_SYM_FN
+(
+match
+"
+RegExpMatch
+"
+1
+0
+)
 JS_FS_END
 }
 ;
