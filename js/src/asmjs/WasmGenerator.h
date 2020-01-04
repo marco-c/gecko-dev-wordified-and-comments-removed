@@ -618,6 +618,12 @@ HeapUsage
 heapUsage
 )
 ;
+bool
+usesHeap
+(
+)
+const
+;
 void
 initSig
 (
@@ -770,6 +776,13 @@ uint32_t
 index
 Offsets
 offsets
+)
+;
+bool
+addMemoryExport
+(
+UniqueChars
+fieldName
 )
 ;
 bool
