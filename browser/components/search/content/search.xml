@@ -8509,15 +8509,13 @@ button
 -
 compact
 "
-aria
--
-label
+tooltiptext
 =
 "
 &
 changeSearchSettings
 .
-button
+tooltip
 ;
 "
 xbl
