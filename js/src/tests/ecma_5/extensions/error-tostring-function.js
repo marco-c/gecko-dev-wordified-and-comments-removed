@@ -127,6 +127,8 @@ ErrorToString
 fn1
 )
 "
+fn1
+:
 ohai
 "
 )
@@ -185,6 +187,7 @@ ErrorToString
 fn3
 )
 "
+fn3
 "
 )
 ;
