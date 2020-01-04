@@ -1310,18 +1310,12 @@ private
 int
 updateFromSearchEngine
 (
-SearchEngine
-searchEngine
 boolean
 animate
 int
 recycledSuggestionCount
 )
 {
-mSearchEngine
-=
-searchEngine
-;
 mIconView
 .
 updateAndScaleImage
@@ -1430,6 +1424,10 @@ boolean
 animate
 )
 {
+mSearchEngine
+=
+searchEngine
+;
 if
 (
 suggestionsEnabled
@@ -1451,7 +1449,6 @@ suggestionViewCount
 =
 updateFromSearchEngine
 (
-searchEngine
 animate
 recycledSuggestionCount
 )
