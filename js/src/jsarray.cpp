@@ -4337,6 +4337,14 @@ getter
 return
 false
 ;
+if
+(
+!
+getter
+)
+return
+false
+;
 return
 IsSelfHostedFunctionWithName
 (
