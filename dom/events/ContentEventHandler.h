@@ -989,7 +989,7 @@ nsIFrame
 mFrame
 ;
 int32_t
-mStartOffsetInNode
+mOffsetInNode
 ;
 FrameAndNodeOffset
 (
@@ -999,7 +999,7 @@ mFrame
 (
 nullptr
 )
-mStartOffsetInNode
+mOffsetInNode
 (
 -
 1
@@ -1019,7 +1019,7 @@ mFrame
 (
 aFrame
 )
-mStartOffsetInNode
+mOffsetInNode
 (
 aStartOffsetInNode
 )
@@ -1083,7 +1083,7 @@ return
 mFrame
 &
 &
-mStartOffsetInNode
+mOffsetInNode
 >
 =
 0
@@ -1093,6 +1093,14 @@ mStartOffsetInNode
 ;
 FrameAndNodeOffset
 GetFirstFrameHavingFlatTextInRange
+(
+nsRange
+*
+aRange
+)
+;
+FrameAndNodeOffset
+GetLastFrameHavingFlatTextInRange
 (
 nsRange
 *
