@@ -926,7 +926,7 @@ output_frame_count
 -
 samples_to_frames
 (
-resampling_in_buffer
+resampling_out_buffer
 .
 length
 (
