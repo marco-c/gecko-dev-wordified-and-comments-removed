@@ -902,7 +902,7 @@ eMediaEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_STALLED
+eStalled
 eMediaEventFirst
 +
 4
