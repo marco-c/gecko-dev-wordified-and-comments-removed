@@ -734,6 +734,9 @@ GetPresContext
 if
 (
 presContext
+&
+&
+mTarget
 )
 {
 presContext
@@ -2449,7 +2452,6 @@ MarkCascadeNeedsUpdate
 )
 ;
 }
-}
 if
 (
 mAnimation
@@ -2495,6 +2497,7 @@ CascadeLevel
 )
 )
 ;
+}
 }
 }
 }
@@ -5881,11 +5884,15 @@ nsAutoAnimationMutationBatch
 mb
 (
 mTarget
+?
+mTarget
 -
 >
 OwnerDoc
 (
 )
+:
+nullptr
 )
 ;
 if
@@ -5930,6 +5937,9 @@ GetPresContext
 if
 (
 presContext
+&
+&
+mTarget
 )
 {
 presContext
