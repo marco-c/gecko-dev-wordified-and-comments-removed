@@ -1668,7 +1668,10 @@ state
 )
 =
 =
-COMPACT
+State
+:
+:
+Compact
 ;
 }
 bool
@@ -1683,7 +1686,10 @@ state
 )
 =
 =
-SWEEP
+State
+:
+:
+Sweep
 ;
 }
 bool
@@ -2073,7 +2079,10 @@ state
 )
 !
 =
-NO_INCREMENTAL
+State
+:
+:
+NotActive
 ;
 }
 bool

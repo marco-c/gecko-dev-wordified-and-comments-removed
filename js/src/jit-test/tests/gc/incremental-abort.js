@@ -178,7 +178,7 @@ gcstate
 =
 =
 "
-none
+NotActive
 "
 )
 {
@@ -220,7 +220,7 @@ gcstate
 (
 )
 "
-none
+NotActive
 "
 )
 ;
@@ -256,7 +256,7 @@ testAbort
 10000
 10000
 "
-mark
+Mark
 "
 )
 ;
@@ -266,7 +266,7 @@ testAbort
 10000
 10000
 "
-sweep
+Sweep
 "
 )
 ;
@@ -276,7 +276,7 @@ testAbort
 10000
 10000
 "
-compact
+Compact
 "
 )
 ;

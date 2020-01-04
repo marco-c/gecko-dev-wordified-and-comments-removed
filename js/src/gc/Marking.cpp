@@ -1551,7 +1551,10 @@ state
 )
 =
 =
-NO_INCREMENTAL
+State
+:
+:
+NotActive
 |
 |
 trc
@@ -1569,7 +1572,10 @@ state
 )
 =
 =
-MARK_ROOTS
+State
+:
+:
+MarkRoots
 )
 ;
 }
@@ -10417,7 +10423,10 @@ state
 )
 =
 =
-MARK
+State
+:
+:
+Mark
 gcstats
 :
 :
@@ -13347,7 +13356,10 @@ state
 )
 =
 =
-SWEEP
+State
+:
+:
+Sweep
 )
 )
 ;

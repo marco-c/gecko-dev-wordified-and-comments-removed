@@ -28,7 +28,7 @@ gcstate
 (
 )
 "
-none
+NotActive
 "
 )
 ;
@@ -45,7 +45,7 @@ gcstate
 =
 =
 "
-finalize
+Finalize
 "
 )
 {
@@ -63,7 +63,7 @@ gcstate
 =
 =
 "
-decommit
+Decommit
 "
 )
 {
@@ -79,7 +79,7 @@ gcstate
 (
 )
 "
-none
+NotActive
 "
 )
 ;
@@ -99,7 +99,7 @@ gcstate
 (
 )
 "
-mark
+Mark
 "
 )
 ;
@@ -114,7 +114,7 @@ gcstate
 (
 )
 "
-mark
+Mark
 "
 )
 ;
@@ -131,7 +131,7 @@ gcstate
 =
 =
 "
-finalize
+Finalize
 "
 )
 {
@@ -149,7 +149,7 @@ gcstate
 =
 =
 "
-decommit
+Decommit
 "
 )
 {
@@ -165,7 +165,7 @@ gcstate
 (
 )
 "
-none
+NotActive
 "
 )
 ;
@@ -186,7 +186,7 @@ gcstate
 (
 )
 "
-mark
+Mark
 "
 )
 ;
@@ -203,7 +203,7 @@ gcstate
 =
 =
 "
-finalize
+Finalize
 "
 )
 {
@@ -221,7 +221,7 @@ gcstate
 =
 =
 "
-decommit
+Decommit
 "
 )
 {
@@ -237,7 +237,7 @@ gcstate
 (
 )
 "
-none
+NotActive
 "
 )
 ;
@@ -258,7 +258,7 @@ gcstate
 (
 )
 "
-mark
+Mark
 "
 )
 ;
@@ -275,7 +275,7 @@ gcstate
 =
 =
 "
-finalize
+Finalize
 "
 )
 {
@@ -293,7 +293,7 @@ gcstate
 =
 =
 "
-decommit
+Decommit
 "
 )
 {
@@ -309,7 +309,7 @@ gcstate
 (
 )
 "
-none
+NotActive
 "
 )
 ;
@@ -330,7 +330,7 @@ gcstate
 (
 )
 "
-sweep
+Sweep
 "
 )
 ;
@@ -347,7 +347,7 @@ gcstate
 =
 =
 "
-finalize
+Finalize
 "
 )
 {
@@ -365,7 +365,7 @@ gcstate
 =
 =
 "
-decommit
+Decommit
 "
 )
 {
@@ -381,7 +381,7 @@ gcstate
 (
 )
 "
-none
+NotActive
 "
 )
 ;

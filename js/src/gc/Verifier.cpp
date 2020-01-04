@@ -849,7 +849,10 @@ TraceKind
 ;
 incrementalState
 =
-MARK_ROOTS
+State
+:
+:
+MarkRoots
 ;
 markRuntime
 (
@@ -1009,7 +1012,10 @@ trc
 ;
 incrementalState
 =
-MARK
+State
+:
+:
+Mark
 ;
 marker
 .
@@ -1083,7 +1089,10 @@ oom
 :
 incrementalState
 =
-NO_INCREMENTAL
+State
+:
+:
+NotActive
 ;
 js_delete
 (
@@ -1601,7 +1610,10 @@ nullptr
 ;
 incrementalState
 =
-NO_INCREMENTAL
+State
+:
+:
+NotActive
 ;
 if
 (
