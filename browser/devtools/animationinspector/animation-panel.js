@@ -1045,6 +1045,9 @@ render
 AnimationsController
 .
 animationPlayers
+AnimationsController
+.
+documentCurrentTime
 )
 ;
 }
