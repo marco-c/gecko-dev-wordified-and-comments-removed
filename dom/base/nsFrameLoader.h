@@ -659,6 +659,15 @@ nsIntRect
 aRect
 )
 ;
+virtual
+nsIMessageSender
+*
+GetProcessMessageManager
+(
+)
+const
+override
+;
 RefPtr
 <
 nsFrameMessageManager
