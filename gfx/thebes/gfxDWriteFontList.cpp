@@ -7017,6 +7017,9 @@ Length
 (
 )
 ;
+if
+(
+!
 famName
 .
 SetLength
@@ -7026,7 +7029,11 @@ len
 1
 fallible
 )
+)
+{
+return
 ;
+}
 memcpy
 (
 famName
