@@ -233,10 +233,6 @@ promise
 waitForDocLoadAndStopIt
 (
 url
-gBrowser
-.
-selectedBrowser
-false
 )
 ;
 gURLBar
