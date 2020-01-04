@@ -102,7 +102,7 @@ run
 txt
 GL
 /
-biv_array_oob
+built_in_varying_array_out_of_bounds
 /
 input
 .
