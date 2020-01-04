@@ -8186,6 +8186,10 @@ mTextPerf
 (
 aTextPerf
 )
+mLastPrefLang
+(
+eFontPrefLang_Western
+)
 mPageLang
 (
 gfxPlatformFontList
@@ -8198,6 +8202,10 @@ aStyle
 >
 language
 )
+)
+mLastPrefFirstFont
+(
+false
 )
 mSkipDrawing
 (
