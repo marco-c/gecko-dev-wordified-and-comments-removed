@@ -416,6 +416,9 @@ keys
 "
 values
 "
+"
+forEach
+"
 ]
 ]
     
@@ -435,9 +438,6 @@ in
 [
 "
 has
-"
-"
-forEach
 "
 ]
 ]
@@ -589,9 +589,6 @@ get
 "
 "
 has
-"
-"
-forEach
 "
 ]
 ]
