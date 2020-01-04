@@ -2621,8 +2621,9 @@ MOZ_ASSERT
 reportp
 )
 ;
-if
+MOZ_ASSERT
 (
+!
 JSREPORT_IS_WARNING
 (
 reportp
@@ -2631,8 +2632,6 @@ reportp
 flags
 )
 )
-return
-false
 ;
 if
 (
