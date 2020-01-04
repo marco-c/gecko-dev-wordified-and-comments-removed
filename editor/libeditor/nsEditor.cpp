@@ -6387,7 +6387,7 @@ GetChildCount
 (
 )
 ;
-nsAutoRemoveContainerSelNotify
+AutoRemoveContainerSelNotify
 selNotify
 (
 mRangeUpdater
