@@ -224,9 +224,6 @@ nsString
 paperName
 ;
 short
-paperSizeType
-;
-short
 paperData
 ;
 double
