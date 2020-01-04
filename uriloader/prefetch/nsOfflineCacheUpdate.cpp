@@ -3178,7 +3178,7 @@ Offline
 cache
 manifest
 magic
-incorect
+incorrect
 "
 this
 )

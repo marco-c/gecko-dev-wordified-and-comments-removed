@@ -520,7 +520,7 @@ label
 )
 "
 The
-corect
+correct
 label
 (
 "
@@ -608,7 +608,7 @@ value
 )
 "
 The
-corect
+correct
 value
 (
 "
@@ -693,7 +693,7 @@ value
 description
 "
 The
-corect
+correct
 description
 (
 "
@@ -1263,7 +1263,7 @@ label
 )
 "
 The
-corect
+correct
 label
 (
 "
@@ -1351,7 +1351,7 @@ value
 )
 "
 The
-corect
+correct
 value
 (
 "
@@ -1436,7 +1436,7 @@ value
 description
 "
 The
-corect
+correct
 description
 (
 "
@@ -2001,7 +2001,7 @@ label
 )
 "
 The
-corect
+correct
 label
 (
 "
@@ -2089,7 +2089,7 @@ value
 )
 "
 The
-corect
+correct
 value
 (
 "
@@ -2174,7 +2174,7 @@ value
 description
 "
 The
-corect
+correct
 description
 (
 "
@@ -2733,7 +2733,7 @@ label
 )
 "
 The
-corect
+correct
 label
 (
 "
@@ -2821,7 +2821,7 @@ value
 )
 "
 The
-corect
+correct
 value
 (
 "
@@ -2906,7 +2906,7 @@ value
 description
 "
 The
-corect
+correct
 description
 (
 "
@@ -3391,7 +3391,7 @@ label
 )
 "
 The
-corect
+correct
 label
 (
 "
@@ -3479,7 +3479,7 @@ value
 )
 "
 The
-corect
+correct
 value
 (
 "
@@ -3564,7 +3564,7 @@ value
 description
 "
 The
-corect
+correct
 description
 (
 "
