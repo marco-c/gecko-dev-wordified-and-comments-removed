@@ -610,10 +610,6 @@ _WINDOWS
 PreprocessorDefinitions
 )
 ;
-GFX_LOG_DEBUG
-;
-GFX_LOG_WARNING
-;
 MFBT_STAND_ALONE
 ;
 XP_WIN
@@ -783,8 +779,6 @@ _WINDOWS
 (
 PreprocessorDefinitions
 )
-;
-GFX_LOG_WARNING
 <
 /
 PreprocessorDefinitions
