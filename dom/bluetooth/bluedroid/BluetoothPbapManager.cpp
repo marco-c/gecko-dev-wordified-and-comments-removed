@@ -1021,7 +1021,6 @@ if
 !
 ReplyToGet
 (
-mVCardDataStream
 )
 )
 {
@@ -3435,7 +3434,6 @@ if
 !
 GetInputStreamFromBlob
 (
-mVCardDataStream
 aBlob
 )
 )
@@ -3455,7 +3453,6 @@ false
 return
 ReplyToGet
 (
-mVCardDataStream
 aPhonebookSize
 )
 ;
@@ -3541,7 +3538,6 @@ if
 !
 GetInputStreamFromBlob
 (
-mVCardDataStream
 aBlob
 )
 )
@@ -3561,7 +3557,6 @@ false
 return
 ReplyToGet
 (
-mVCardDataStream
 aPhonebookSize
 )
 ;
@@ -3642,7 +3637,6 @@ if
 !
 GetInputStreamFromBlob
 (
-mVCardDataStream
 aBlob
 )
 )
@@ -3662,7 +3656,6 @@ false
 return
 ReplyToGet
 (
-mVCardDataStream
 )
 ;
 }
@@ -3672,16 +3665,13 @@ BluetoothPbapManager
 :
 ReplyToGet
 (
-nsIInputStream
-*
-aStream
 uint16_t
 aPhonebookSize
 )
 {
 MOZ_ASSERT
 (
-aStream
+mVCardDataStream
 )
 ;
 MOZ_ASSERT
@@ -3822,7 +3812,7 @@ remainingPacketSize
 nsresult
 rv
 =
-aStream
+mVCardDataStream
 -
 >
 Read
@@ -3928,14 +3918,14 @@ index
 ]
 )
 ;
-aStream
+mVCardDataStream
 -
 >
 Close
 (
 )
 ;
-aStream
+mVCardDataStream
 =
 nullptr
 ;
@@ -3962,9 +3952,6 @@ BluetoothPbapManager
 :
 GetInputStreamFromBlob
 (
-nsIInputStream
-*
-aStream
 Blob
 *
 aBlob
