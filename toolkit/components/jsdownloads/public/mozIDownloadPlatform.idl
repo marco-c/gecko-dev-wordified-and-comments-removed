@@ -176,6 +176,15 @@ the
 download
 *
 param
+aReferrer
+*
+Referrer
+URI
+of
+the
+download
+*
+param
 aTarget
 *
 Downloaded
@@ -209,6 +218,9 @@ downloadDone
 in
 nsIURI
 aSource
+in
+nsIURI
+aReferrer
 in
 nsIFile
 aTarget
