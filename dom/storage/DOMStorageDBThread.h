@@ -994,12 +994,6 @@ nsCStringHashKey
 >
 mScopesHavingData
 ;
-StatementCache
-mWorkerStatements
-;
-StatementCache
-mReaderStatements
-;
 nsCOMPtr
 <
 mozIStorageConnection
@@ -1011,6 +1005,12 @@ nsCOMPtr
 mozIStorageConnection
 >
 mReaderConnection
+;
+StatementCache
+mWorkerStatements
+;
+StatementCache
+mReaderStatements
 ;
 PRIntervalTime
 mDirtyEpoch
