@@ -748,16 +748,6 @@ return
 mConnMgr
 ;
 }
-bool
-UseCache
-(
-)
-const
-{
-return
-mUseCache
-;
-}
 uint32_t
 GenerateUniqueID
 (
@@ -1572,9 +1562,6 @@ mUserAgentOverride
 ;
 bool
 mUserAgentIsDirty
-;
-bool
-mUseCache
 ;
 bool
 mPromptTempRedirect
