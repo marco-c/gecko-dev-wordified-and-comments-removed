@@ -210,6 +210,16 @@ nsAString
 aString
 )
 ;
+static
+nsCSSProperty
+PropertyFromValue
+(
+const
+nsSMILValue
+&
+aValue
+)
+;
 private
 :
 MOZ_CONSTEXPR
