@@ -237,13 +237,16 @@ check
 )
 ;
 yield
+Promise
+.
+all
+(
+[
 extension
 .
 startup
 (
 )
-;
-yield
 extension
 .
 awaitMessage
@@ -251,6 +254,8 @@ awaitMessage
 "
 check
 "
+)
+]
 )
 ;
 ok
