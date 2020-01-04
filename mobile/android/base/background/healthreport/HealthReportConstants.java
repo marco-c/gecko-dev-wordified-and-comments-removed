@@ -85,7 +85,7 @@ MOZ_APP_VERSION
 +
 AppConstants
 .
-MOZ_APP_DISPLAYNAME
+MOZ_APP_UA_NAME
 +
 "
 )
