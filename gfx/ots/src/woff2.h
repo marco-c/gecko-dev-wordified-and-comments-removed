@@ -21,9 +21,9 @@ length
 bool
 ConvertWOFF2ToSFNT
 (
-Font
+OpenTypeFile
 *
-font
+file
 uint8_t
 *
 result
