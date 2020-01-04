@@ -305,6 +305,17 @@ noise_vbr
 mp3
 '
 '
+short
+-
+zero
+-
+in
+-
+moov
+.
+mp4
+'
+'
 test
 .
 webm
