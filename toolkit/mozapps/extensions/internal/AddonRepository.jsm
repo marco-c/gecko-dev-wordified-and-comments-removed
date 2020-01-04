@@ -6791,7 +6791,10 @@ value
 catch
 (
 e
+)
+{
 if
+(
 e
 instanceof
 OS
@@ -6900,6 +6903,7 @@ results
 )
 ;
 }
+}
 Services
 .
 prefs
@@ -6911,16 +6915,7 @@ DB_SCHEMA
 )
 ;
 }
-return
-this
-.
-DB
-;
-}
-catch
-(
-e
-)
+else
 {
 logger
 .
@@ -6945,6 +6940,7 @@ databaseOk
 =
 false
 ;
+}
 return
 this
 .
