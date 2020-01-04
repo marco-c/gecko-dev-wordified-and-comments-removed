@@ -3617,6 +3617,7 @@ onLeaveFrame
 (
 cx
 frame
+pc
 ok
 )
 ;

@@ -794,6 +794,13 @@ const
 ;
 inline
 bool
+debuggerNeedsCheckPrimitiveReturn
+(
+)
+const
+;
+inline
+bool
 isFunctionFrame
 (
 )
