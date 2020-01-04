@@ -22214,9 +22214,9 @@ encoding
 unsigned
 vinsertpsMask
 (
-SimdLane
+unsigned
 sourceLane
-SimdLane
+unsigned
 destLane
 unsigned
 zeroMask
@@ -22239,10 +22239,7 @@ zeroMask
 ret
 |
 =
-unsigned
-(
 destLane
-)
 <
 <
 4
@@ -22250,10 +22247,7 @@ destLane
 ret
 |
 =
-unsigned
-(
 sourceLane
-)
 <
 <
 6

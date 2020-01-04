@@ -1907,7 +1907,7 @@ vec
 MDefinition
 *
 val
-SimdLane
+unsigned
 lane
 MIRType
 type
@@ -3823,7 +3823,7 @@ MDefinition
 *
 extractSimdElement
 (
-SimdLane
+unsigned
 lane
 MDefinition
 *
@@ -12736,10 +12736,7 @@ SimdSign
 sign
 )
 {
-jit
-:
-:
-SimdLane
+uint8_t
 lane
 ;
 MDefinition
@@ -12893,10 +12890,7 @@ getResult
 )
 )
 ;
-jit
-:
-:
-SimdLane
+uint8_t
 lane
 ;
 MDefinition
