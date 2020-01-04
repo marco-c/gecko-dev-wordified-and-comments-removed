@@ -17,6 +17,16 @@ chrome
 )
 ;
 const
+Services
+=
+require
+(
+"
+Services
+"
+)
+;
+const
 {
 BreakpointActor
 setBreakpointAtEntryPoints
