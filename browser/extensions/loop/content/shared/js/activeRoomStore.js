@@ -4092,6 +4092,7 @@ _timeout
 }
 if
 (
+(
 nextState
 =
 =
@@ -4099,6 +4100,13 @@ nextState
 ROOM_STATES
 .
 FAILED
+|
+|
+!
+this
+.
+_isDesktop
+)
 &
 &
 !
@@ -4117,6 +4125,11 @@ this
 _storeState
 .
 roomToken
+this
+.
+_storeState
+.
+sessionToken
 this
 .
 _storeState
