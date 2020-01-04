@@ -189,6 +189,9 @@ aLoadingPrincipal
 nsIPrincipal
 *
 aTriggeringPrincipal
+nsIPrincipal
+*
+aPrincipalToInherit
 nsSecurityFlags
 aSecurityFlags
 nsContentPolicyType
@@ -325,6 +328,12 @@ nsCOMPtr
 nsIPrincipal
 >
 mTriggeringPrincipal
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mPrincipalToInherit
 ;
 nsWeakPtr
 mLoadingContext

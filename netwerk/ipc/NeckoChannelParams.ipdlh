@@ -380,6 +380,9 @@ requestingPrincipalInfo
 PrincipalInfo
 triggeringPrincipalInfo
 ;
+PrincipalInfo
+principalToInheritInfo
+;
 uint32_t
 securityFlags
 ;
