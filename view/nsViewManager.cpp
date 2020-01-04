@@ -730,6 +730,19 @@ newDim
 )
 )
 {
+const
+bool
+isHeightChanging
+=
+(
+oldDim
+.
+height
+!
+=
+aHeight
+)
+;
 mRootView
 -
 >
@@ -751,6 +764,7 @@ ResizeReflow
 (
 aWidth
 aHeight
+isHeightChanging
 )
 ;
 }
