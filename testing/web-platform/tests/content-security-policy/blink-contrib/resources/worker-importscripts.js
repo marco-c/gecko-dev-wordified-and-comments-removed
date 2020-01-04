@@ -43,10 +43,7 @@ postMessage
 "
 importScripts
 blocked
-:
 "
-+
-e
 )
 ;
 }

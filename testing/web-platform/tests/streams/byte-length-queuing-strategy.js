@@ -66,7 +66,7 @@ test
 {
 for
 (
-let
+const
 highWaterMark
 of
 [

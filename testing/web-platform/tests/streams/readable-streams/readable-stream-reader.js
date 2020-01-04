@@ -235,7 +235,7 @@ properties
 ;
 for
 (
-let
+const
 m
 of
 methods

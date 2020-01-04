@@ -2287,6 +2287,7 @@ promise_rejects
 test
 expected
 promise
+description
 )
 {
 return
@@ -2302,8 +2303,10 @@ unreached_func
 Should
 have
 rejected
-.
+:
 "
++
+description
 )
 )
 .
@@ -2324,6 +2327,7 @@ function
 throw
 e
 }
+description
 )
 ;
 }

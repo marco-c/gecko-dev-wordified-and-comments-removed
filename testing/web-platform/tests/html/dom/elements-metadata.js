@@ -57,6 +57,17 @@ nonCanon
 anonymous
 "
 }
+isNullable
+:
+true
+defaultVal
+:
+null
+invalidVal
+:
+"
+anonymous
+"
 }
 rel
 :

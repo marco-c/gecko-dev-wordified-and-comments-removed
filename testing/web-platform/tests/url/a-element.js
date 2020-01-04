@@ -264,6 +264,15 @@ href
 href
 "
 )
+if
+(
+"
+origin
+"
+in
+expected
+)
+{
 assert_equals
 (
 url
@@ -276,6 +285,7 @@ origin
 origin
 "
 )
+}
 assert_equals
 (
 url

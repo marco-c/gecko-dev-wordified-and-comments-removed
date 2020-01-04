@@ -1023,6 +1023,7 @@ promise_rejects
 test_object
 code
 promise
+description
 )
 The
 code

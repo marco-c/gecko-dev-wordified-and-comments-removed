@@ -116,12 +116,6 @@ elements
 INDENT
 TABS
 :
-DOMEvents
-/
-*
-INDENT
-TABS
-:
 html
 /
 editing
@@ -239,12 +233,6 @@ WHITESPACE
 custom
 -
 elements
-/
-*
-TRAILING
-WHITESPACE
-:
-DOMEvents
 /
 *
 TRAILING

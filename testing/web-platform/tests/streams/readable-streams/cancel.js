@@ -154,12 +154,6 @@ readStop
 (
 )
 ;
-randomSource
-.
-onend
-(
-)
-;
 return
 new
 Promise
