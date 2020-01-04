@@ -11641,6 +11641,14 @@ nsGkAtoms
 :
 :
 apz
+&
+&
+gfxPrefs
+:
+:
+APZPaintSkipping
+(
+)
 )
 {
 nsRect
