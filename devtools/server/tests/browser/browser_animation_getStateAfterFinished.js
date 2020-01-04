@@ -232,7 +232,7 @@ players
 state
 .
 duration
-1000
+100000
 "
 The
 duration
@@ -301,7 +301,7 @@ players
 state
 .
 duration
-3000
+300000
 "
 The
 duration

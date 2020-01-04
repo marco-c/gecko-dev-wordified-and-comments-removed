@@ -382,7 +382,7 @@ is
 state
 .
 duration
-2000
+200000
 "
 Duration
 is
@@ -495,7 +495,7 @@ is
 state
 .
 duration
-5000
+500000
 "
 Transition
 duration
@@ -623,7 +623,7 @@ is
 state
 .
 duration
-1000
+100000
 "
 The
 2nd

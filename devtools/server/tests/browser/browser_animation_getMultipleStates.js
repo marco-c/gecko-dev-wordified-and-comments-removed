@@ -83,7 +83,7 @@ ok
 state
 .
 duration
-500
+50000
 "
 The
 duration
@@ -155,7 +155,7 @@ ok
 state
 .
 duration
-1000
+100000
 "
 The
 duration
