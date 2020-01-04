@@ -1211,9 +1211,7 @@ maybeAddOsrTypeBarriers
 ControlStatus
 restartLoop
 (
-const
 CFGState
-&
 state
 )
 ;

@@ -11787,9 +11787,7 @@ IonBuilder
 :
 restartLoop
 (
-const
 CFGState
-&
 state
 )
 {
