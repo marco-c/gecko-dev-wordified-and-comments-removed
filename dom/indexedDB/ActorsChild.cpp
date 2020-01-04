@@ -3104,6 +3104,12 @@ transaction
 IsOpen
 (
 )
+&
+&
+aErrorCode
+!
+=
+NS_ERROR_DOM_INDEXEDDB_ABORT_ERR
 )
 {
 WidgetEvent
