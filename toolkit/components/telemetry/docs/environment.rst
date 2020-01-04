@@ -2199,7 +2199,7 @@ integer
 .
 .
 .
-]
+}
 activeExperiment
 :
 {
