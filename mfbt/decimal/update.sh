@@ -358,15 +358,6 @@ patch
 -
 p3
 <
-floor
--
-ceiling
-.
-patch
-patch
--
-p3
-<
 zero
 -
 serialization
