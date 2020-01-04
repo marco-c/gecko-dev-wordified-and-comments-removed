@@ -13257,6 +13257,17 @@ or
 {
 }
             
+port_timeout
+=
+marionette_args
+.
+pop
+(
+'
+port_timeout
+'
+)
+            
 self
 .
 marionette
@@ -13274,6 +13285,9 @@ marionette
 .
 start_session
 (
+timeout
+=
+port_timeout
 )
             
 addons
@@ -15208,6 +15222,22 @@ symbols_path
 options
 .
 symbolsPath
+                
+'
+socket_timeout
+'
+:
+options
+.
+marionette_socket_timeout
+                
+'
+port_timeout
+'
+:
+options
+.
+marionette_port_timeout
             
 }
             
