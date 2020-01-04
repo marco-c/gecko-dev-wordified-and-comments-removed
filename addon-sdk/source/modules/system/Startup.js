@@ -190,6 +190,17 @@ startup
 -
 done
 '
+'
+Instantbird
+'
+:
+'
+xul
+-
+window
+-
+visible
+'
 }
 ;
 var
