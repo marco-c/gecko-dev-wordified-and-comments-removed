@@ -1419,10 +1419,6 @@ PSharedBufferManager
 ;
 parent
 opens
-PImageBridge
-;
-parent
-opens
 PGMPService
 ;
 parent
@@ -1926,7 +1922,7 @@ the
 content
 process
 its
-endpoint
+endpoints
 to
 the
 compositor
@@ -1939,6 +1935,16 @@ Endpoint
 PCompositorBridgeChild
 >
 compositor
+)
+;
+async
+InitImageBridge
+(
+Endpoint
+<
+PImageBridgeChild
+>
+bridge
 )
 ;
 /

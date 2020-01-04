@@ -1900,6 +1900,16 @@ mTransport
 ;
 }
 }
+ProcessId
+OtherPid
+(
+)
+const
+{
+return
+mOtherPid
+;
+}
 bool
 Bind
 (
