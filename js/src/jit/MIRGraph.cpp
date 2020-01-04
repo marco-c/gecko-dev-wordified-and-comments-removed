@@ -1877,6 +1877,17 @@ trackedSite_
 (
 site
 )
+hitCount_
+(
+0
+)
+hitState_
+(
+HitState
+:
+:
+NotDefined
+)
 #
 if
 defined

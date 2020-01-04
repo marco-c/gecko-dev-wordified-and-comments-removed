@@ -428,6 +428,12 @@ true
 ;
 SET_DEFAULT
 (
+disablePgo
+true
+)
+;
+SET_DEFAULT
+(
 disableInstructionReordering
 false
 )

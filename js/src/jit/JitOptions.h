@@ -192,6 +192,9 @@ bool
 disableLoopUnrolling
 ;
 bool
+disablePgo
+;
+bool
 disableInstructionReordering
 ;
 bool
