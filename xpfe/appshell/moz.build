@@ -120,6 +120,11 @@ nsIPopupWindowManager
 idl
 '
 '
+nsIWindowlessBrowser
+.
+idl
+'
+'
 nsIWindowMediator
 .
 idl
