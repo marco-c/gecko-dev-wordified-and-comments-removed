@@ -74,14 +74,6 @@ test
 .
 org
 /
-web
--
-platform
--
-tests
-/
-master
-/
 websockets
 /
 >

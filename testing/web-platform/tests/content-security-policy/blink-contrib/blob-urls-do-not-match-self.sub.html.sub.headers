@@ -106,6 +106,13 @@ src
 self
 '
 ;
+child
+-
+src
+'
+self
+'
+;
 report
 -
 uri
