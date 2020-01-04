@@ -1,4 +1,4 @@
 extern
 crate
-mp4parse
+mp4parse_capi
 ;
