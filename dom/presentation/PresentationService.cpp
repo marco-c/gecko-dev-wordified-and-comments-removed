@@ -688,6 +688,8 @@ PresentationDeviceRequest
 :
 Cancel
 (
+nsresult
+aReason
 )
 {
 return
@@ -696,7 +698,7 @@ mCallback
 >
 NotifyError
 (
-NS_ERROR_DOM_ABORT_ERR
+aReason
 )
 ;
 }

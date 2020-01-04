@@ -1258,6 +1258,7 @@ simulateCancel
 :
 function
 (
+result
 )
 {
 this
@@ -1266,6 +1267,7 @@ _request
 .
 cancel
 (
+result
 )
 ;
 }
@@ -2357,12 +2359,14 @@ cancel
 '
 function
 (
+result
 )
 {
 mockedDevicePrompt
 .
 simulateCancel
 (
+result
 )
 ;
 }
