@@ -21249,12 +21249,10 @@ nsCocoaUtils
 :
 DevPixelsToCocoaPoints
 (
-LayoutDevicePixel
-:
-:
-ToUntyped
-(
 r
+.
+ToUnknownRect
+(
 )
 mWidget
 -

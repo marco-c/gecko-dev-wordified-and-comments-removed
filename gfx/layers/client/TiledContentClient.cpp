@@ -8185,11 +8185,6 @@ c_str
 IntRect
 coherentUpdateRect
 (
-LayerIntRect
-:
-:
-ToUntyped
-(
 RoundedOut
 (
 #
@@ -8212,6 +8207,9 @@ transformedCompositionBounds
 #
 endif
 )
+.
+ToUnknownRect
+(
 )
 )
 ;

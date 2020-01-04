@@ -10362,11 +10362,6 @@ GetEventRegions
 IntRect
 scrollRect
 =
-LayerIntRect
-:
-:
-ToUntyped
-(
 RoundedToInt
 (
 aScrollableRect
@@ -10377,6 +10372,9 @@ LayersPixelsPerCSSPixel
 (
 )
 )
+.
+ToUnknownRect
+(
 )
 ;
 er

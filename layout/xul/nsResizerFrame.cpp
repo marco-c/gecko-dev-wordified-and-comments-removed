@@ -1139,12 +1139,10 @@ appUnitsRect
 =
 ToAppUnits
 (
-LayoutDevicePixel
-:
-:
-ToUntyped
-(
 rect
+.
+ToUnknownRect
+(
 )
 aPresContext
 -

@@ -1401,10 +1401,6 @@ null
 )
 ;
 return
-LayoutDeviceIntPoint
-:
-:
-ToUntyped
 (
 aEvent
 -
@@ -1420,6 +1416,10 @@ widget
 WidgetToScreenOffset
 (
 )
+)
+.
+ToUnknownPoint
+(
 )
 ;
 }

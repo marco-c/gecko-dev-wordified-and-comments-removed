@@ -4900,11 +4900,6 @@ nsIntPoint
 ;
 }
 return
-LayoutDeviceIntPoint
-:
-:
-ToUntyped
-(
 GetOwningTabChild
 (
 )
@@ -4913,6 +4908,9 @@ GetOwningTabChild
 GetChromeDisplacement
 (
 )
+.
+ToUnknownPoint
+(
 )
 ;
 }
