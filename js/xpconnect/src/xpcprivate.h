@@ -12610,6 +12610,11 @@ Blob
 1
 ;
 bool
+Directory
+:
+1
+;
+bool
 File
 :
 1
