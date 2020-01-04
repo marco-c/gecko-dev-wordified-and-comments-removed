@@ -50,6 +50,10 @@ CreateDecoderModule
 (
 )
 ;
+static
+bool
+sFFmpegDecoderEnabled
+;
 private
 :
 static
