@@ -1437,7 +1437,7 @@ this
 originalAnswer
 =
 new
-RTCSessionDescription
+mozRTCSessionDescription
 (
 JSON
 .
@@ -1489,7 +1489,7 @@ this
 originalOffer
 =
 new
-RTCSessionDescription
+mozRTCSessionDescription
 (
 JSON
 .
@@ -3243,7 +3243,7 @@ this
 _pc
 =
 new
-RTCPeerConnection
+mozRTCPeerConnection
 (
 this
 .

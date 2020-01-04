@@ -178,7 +178,7 @@ candidateInitDict
 )
 ]
 interface
-RTCIceCandidate
+mozRTCIceCandidate
 {
 attribute
 DOMString

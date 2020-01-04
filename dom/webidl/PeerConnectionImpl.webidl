@@ -109,7 +109,7 @@ Do
 not
 confuse
 with
-RTCPeerConnection
+mozRTCPeerConnection
 .
 This
 interface

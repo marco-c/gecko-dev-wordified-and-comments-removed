@@ -131,7 +131,7 @@ RTCPeerConnectionIceEventInit
 :
 EventInit
 {
-RTCIceCandidate
+mozRTCIceCandidate
 ?
 candidate
 =
@@ -165,7 +165,7 @@ Event
 {
 readonly
 attribute
-RTCIceCandidate
+mozRTCIceCandidate
 ?
 candidate
 ;

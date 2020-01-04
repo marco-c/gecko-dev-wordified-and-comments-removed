@@ -1377,7 +1377,7 @@ pc
 storeOrAddIceCandidate
 (
 new
-RTCIceCandidate
+mozRTCIceCandidate
 (
 message
 .
@@ -2181,7 +2181,7 @@ test
 _local_offer
 =
 new
-RTCSessionDescription
+mozRTCSessionDescription
 (
 message
 .
@@ -2564,7 +2564,7 @@ test
 _remote_answer
 =
 new
-RTCSessionDescription
+mozRTCSessionDescription
 (
 message
 .

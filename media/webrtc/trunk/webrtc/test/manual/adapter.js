@@ -35,9 +35,6 @@ Firefox
 ;
 RTCPeerConnection
 =
-RTCPeerConnection
-|
-|
 mozRTCPeerConnection
 ;
 getUserMedia

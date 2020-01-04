@@ -139,7 +139,7 @@ to
 be
 static
 in
-RTCPeerConnection
+mozRTCPeerConnection
 .
 TODO
 (
@@ -184,7 +184,7 @@ PeerConnectionLifecycleCallback
 =
 void
 (
-RTCPeerConnection
+mozRTCPeerConnection
 pc
 unsigned
 long
@@ -223,7 +223,7 @@ Constructor
 )
 ]
 interface
-RTCPeerConnectionStatic
+mozRTCPeerConnectionStatic
 {
 /
 *
