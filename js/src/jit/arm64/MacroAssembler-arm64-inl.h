@@ -6869,7 +6869,7 @@ void
 MacroAssembler
 :
 :
-storeDouble
+storeUncanonicalizedDouble
 (
 FloatRegister
 src
@@ -6906,7 +6906,7 @@ void
 MacroAssembler
 :
 :
-storeDouble
+storeUncanonicalizedDouble
 (
 FloatRegister
 src
@@ -6935,7 +6935,7 @@ void
 MacroAssembler
 :
 :
-storeFloat32
+storeUncanonicalizedFloat32
 (
 FloatRegister
 src
@@ -6972,7 +6972,7 @@ void
 MacroAssembler
 :
 :
-storeFloat32
+storeUncanonicalizedFloat32
 (
 FloatRegister
 src
