@@ -28,17 +28,6 @@ health
 "
 android
 :
-permission
-=
-"
-ANDROID_PACKAGE_NAME
-.
-permissions
-.
-HEALTH_PROVIDER
-"
-android
-:
 exported
 =
 "
