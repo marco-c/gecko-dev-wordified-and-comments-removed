@@ -475,10 +475,6 @@ nsIFrame
 *
 aFrame
 const
-nsStyleDisplay
-*
-aDisplay
-const
 nsFlowAreaRect
 &
 aFloatAvailableSpace
