@@ -721,10 +721,12 @@ MOZ_MUST_USE
 bool
 addElemSegment
 (
-ElemSegment
+InitExpr
+offset
+Uint32Vector
 &
 &
-s
+elemFuncIndices
 )
 ;
 void
