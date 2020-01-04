@@ -150,6 +150,13 @@ async
 js
 '
 '
+kinto
+-
+updater
+.
+js
+'
+'
 KintoCertificateBlocklist
 .
 js
