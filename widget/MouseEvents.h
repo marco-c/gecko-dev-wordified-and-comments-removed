@@ -1544,7 +1544,7 @@ mCustomizedByUserPrefs
 (
 false
 )
-mayHaveMomentum
+mMayHaveMomentum
 (
 false
 )
@@ -1695,7 +1695,7 @@ bool
 mCustomizedByUserPrefs
 ;
 bool
-mayHaveMomentum
+mMayHaveMomentum
 ;
 bool
 isMomentum
@@ -1876,11 +1876,11 @@ aEvent
 .
 mCustomizedByUserPrefs
 ;
-mayHaveMomentum
+mMayHaveMomentum
 =
 aEvent
 .
-mayHaveMomentum
+mMayHaveMomentum
 ;
 isMomentum
 =

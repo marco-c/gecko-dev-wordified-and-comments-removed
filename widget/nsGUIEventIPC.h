@@ -997,7 +997,7 @@ WriteParam
 aMsg
 aParam
 .
-mayHaveMomentum
+mMayHaveMomentum
 )
 ;
 WriteParam
@@ -1198,7 +1198,7 @@ aIter
 aResult
 -
 >
-mayHaveMomentum
+mMayHaveMomentum
 )
 &
 &

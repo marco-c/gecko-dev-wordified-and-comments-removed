@@ -1718,7 +1718,7 @@ DOM_DELTA_PIXEL
 ;
 wheelEvent
 .
-mayHaveMomentum
+mMayHaveMomentum
 =
 true
 ;
@@ -2072,7 +2072,7 @@ mMayHaveMomentum
 (
 aWheelEvent
 .
-mayHaveMomentum
+mMayHaveMomentum
 )
 mIsMomentum
 (
@@ -2184,7 +2184,7 @@ mDeltaType
 ;
 wheelEvent
 .
-mayHaveMomentum
+mMayHaveMomentum
 =
 mMayHaveMomentum
 ;
