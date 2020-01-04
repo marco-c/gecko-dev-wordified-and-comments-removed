@@ -528,13 +528,6 @@ MainThreadStopSyncLoopRunnable
 )
 {
 }
-virtual
-void
-MaybeSetException
-(
-)
-{
-}
 private
 :
 virtual
