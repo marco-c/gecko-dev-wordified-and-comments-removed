@@ -73,6 +73,16 @@ SimdUnbox
 \
 _
 (
+SimdSplatX16
+)
+\
+_
+(
+SimdSplatX8
+)
+\
+_
+(
 SimdSplatX4
 )
 \

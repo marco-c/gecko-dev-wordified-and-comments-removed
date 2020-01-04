@@ -525,6 +525,12 @@ OP2_MOVDQ_VdqWdq
 OP2_PSHUFD_VdqWdqIb
 =
 0x70
+OP2_PSHUFLW_VdqWdqIb
+=
+0x70
+OP2_PSHUFHW_VdqWdqIb
+=
+0x70
 OP2_PSLLW_UdqIb
 =
 0x71
@@ -713,6 +719,9 @@ OP2_PADDD_VdqWdq
 enum
 ThreeByteOpcodeID
 {
+OP3_PSHUFB_VdqWdq
+=
+0x00
 OP3_ROUNDSS_VsdWsd
 =
 0x0A
