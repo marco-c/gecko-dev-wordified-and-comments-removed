@@ -96,6 +96,13 @@ MPL
 DevToolsModules
 (
 '
+actor
+-
+registry
+.
+js
+'
+'
 addons
 .
 js
