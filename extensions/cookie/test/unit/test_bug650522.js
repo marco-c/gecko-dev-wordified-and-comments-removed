@@ -109,6 +109,8 @@ false
 false
 true
 expiry
+{
+}
 )
 ;
 do_check_eq

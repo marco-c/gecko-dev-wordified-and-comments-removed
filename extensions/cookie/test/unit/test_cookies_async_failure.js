@@ -678,6 +678,8 @@ isSession
 cookie
 .
 expiry
+{
+}
 )
 ;
 do_check_eq
@@ -853,6 +855,8 @@ getCookiesFromHost
 cookie
 .
 host
+{
+}
 )
 ;
 do_check_true

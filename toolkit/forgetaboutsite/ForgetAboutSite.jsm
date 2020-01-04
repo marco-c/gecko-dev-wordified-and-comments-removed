@@ -434,6 +434,8 @@ cm
 getCookiesFromHost
 (
 aDomain
+{
+}
 )
 ;
 while

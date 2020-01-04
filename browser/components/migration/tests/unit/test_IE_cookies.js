@@ -544,6 +544,8 @@ getCookiesFromHost
 COOKIE
 .
 host
+{
+}
 )
 ;
 Assert
