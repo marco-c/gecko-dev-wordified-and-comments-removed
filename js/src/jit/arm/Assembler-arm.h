@@ -4698,9 +4698,6 @@ reg
 int32_t
 offset
 ;
-uint32_t
-data
-;
 public
 :
 explicit
