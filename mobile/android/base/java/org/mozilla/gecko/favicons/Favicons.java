@@ -2371,7 +2371,7 @@ faviconURL
 )
 ;
 }
-public
+private
 static
 void
 getPreferredSizeFaviconForPage
