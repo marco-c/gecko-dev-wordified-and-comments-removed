@@ -169,7 +169,17 @@ Telemetry
 cpp
 '
 '
+TelemetryCommon
+.
+cpp
+'
+'
 TelemetryHistogram
+.
+cpp
+'
+'
+TelemetryScalar
 .
 cpp
 '
