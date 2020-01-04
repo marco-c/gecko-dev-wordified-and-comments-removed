@@ -315,6 +315,14 @@ bin
 "
 :
 PATH
+export
+GCCDIR
+=
+"
+WORK
+/
+gcc
+"
 ;
 ;
 macosx
@@ -338,6 +346,9 @@ esac
 Run
 the
 script
+AUTOMATION
+=
+1
 SRCDIR
 /
 js
