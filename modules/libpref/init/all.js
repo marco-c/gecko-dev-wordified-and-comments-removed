@@ -6818,7 +6818,6 @@ backends
 "
 "
 skia
-cg
 "
 )
 ;
