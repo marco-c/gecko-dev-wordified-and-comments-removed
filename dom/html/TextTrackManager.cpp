@@ -275,6 +275,9 @@ return
 sourceOne
 =
 =
+TextTrackSource
+:
+:
 Track
 |
 |
@@ -608,7 +611,7 @@ RefPtr
 <
 TextTrack
 >
-ttrack
+track
 =
 mTextTracks
 -
@@ -629,12 +632,12 @@ mMediaElement
 ;
 AddCues
 (
-ttrack
+track
 )
 ;
 ReportTelemetryForTrack
 (
-ttrack
+track
 )
 ;
 if
@@ -642,6 +645,9 @@ if
 aTextTrackSource
 =
 =
+TextTrackSource
+:
+:
 Track
 )
 {
@@ -660,7 +666,7 @@ HonorUserPreferencesForTrackSelection
 ;
 }
 return
-ttrack
+track
 .
 forget
 (
@@ -723,6 +729,9 @@ GetTextTrackSource
 )
 =
 =
+TextTrackSource
+:
+:
 Track
 )
 {
