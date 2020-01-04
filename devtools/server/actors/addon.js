@@ -564,6 +564,13 @@ this
 _addon
 .
 isDebuggable
+temporarilyInstalled
+:
+this
+.
+_addon
+.
+temporarilyInstalled
 consoleActor
 :
 this

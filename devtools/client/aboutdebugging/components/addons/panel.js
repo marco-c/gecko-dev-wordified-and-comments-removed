@@ -414,6 +414,11 @@ addonActor
 addon
 .
 actor
+temporarilyInstalled
+:
+addon
+.
+temporarilyInstalled
 }
 ;
 }
