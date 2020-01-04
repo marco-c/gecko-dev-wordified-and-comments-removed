@@ -146,9 +146,6 @@ true
 nscoord
 GetRowFlex
 (
-nsBoxLayoutState
-&
-aBoxLayoutState
 int32_t
 aRowIndex
 bool
@@ -202,9 +199,6 @@ true
 void
 GetRowOffsets
 (
-nsBoxLayoutState
-&
-aState
 int32_t
 aIndex
 nscoord
@@ -380,9 +374,6 @@ aBox
 void
 GetFirstAndLastRow
 (
-nsBoxLayoutState
-&
-aState
 int32_t
 &
 aFirstIndex

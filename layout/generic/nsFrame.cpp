@@ -40707,9 +40707,6 @@ nsFrame
 :
 GetFlex
 (
-nsBoxLayoutState
-&
-aState
 )
 {
 nsBoxLayoutMetrics
@@ -40747,7 +40744,6 @@ nsBox
 :
 GetFlex
 (
-aState
 )
 ;
 return

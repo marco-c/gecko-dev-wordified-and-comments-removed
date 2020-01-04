@@ -251,7 +251,6 @@ offset
 ;
 GetOffset
 (
-aState
 child
 offset
 )
@@ -379,7 +378,6 @@ offset
 ;
 GetOffset
 (
-aState
 child
 offset
 )
@@ -529,7 +527,6 @@ offset
 ;
 GetOffset
 (
-aState
 child
 offset
 )
@@ -680,9 +677,6 @@ nsStackLayout
 :
 GetOffset
 (
-nsBoxLayoutState
-&
-aState
 nsIFrame
 *
 aChild
@@ -1351,7 +1345,6 @@ offsetSpecified
 =
 GetOffset
 (
-aState
 child
 offset
 )

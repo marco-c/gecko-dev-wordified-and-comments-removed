@@ -1693,9 +1693,6 @@ nsGrid
 :
 GetFirstAndLastRow
 (
-nsBoxLayoutState
-&
-aState
 int32_t
 &
 aFirstIndex
@@ -1858,9 +1855,6 @@ nsGrid
 :
 GetRowOffsets
 (
-nsBoxLayoutState
-&
-aState
 int32_t
 aIndex
 nscoord
@@ -2134,7 +2128,6 @@ nullptr
 ;
 GetFirstAndLastRow
 (
-aState
 firstIndex
 lastIndex
 firstRow
@@ -2586,7 +2579,6 @@ bottom
 ;
 GetRowOffsets
 (
-aState
 aIndex
 top
 bottom
@@ -2637,7 +2629,6 @@ nsGridLayout2
 :
 AddOffset
 (
-aState
 box
 size
 )
@@ -2905,7 +2896,6 @@ bottom
 ;
 GetRowOffsets
 (
-aState
 aIndex
 top
 bottom
@@ -2956,7 +2946,6 @@ nsGridLayout2
 :
 AddOffset
 (
-aState
 box
 size
 )
@@ -3223,7 +3212,6 @@ bottom
 ;
 GetRowOffsets
 (
-aState
 aIndex
 top
 bottom
@@ -3274,7 +3262,6 @@ nsGridLayout2
 :
 AddOffset
 (
-aState
 box
 size
 )
@@ -3484,9 +3471,6 @@ nsGrid
 :
 GetRowFlex
 (
-nsBoxLayoutState
-&
-aState
 int32_t
 aIndex
 bool
@@ -3612,7 +3596,6 @@ parent
 >
 GetFlex
 (
-aState
 )
 ;
 nsIFrame
@@ -3620,7 +3603,6 @@ nsIFrame
 :
 AddCSSFlex
 (
-aState
 parent
 flex
 )
@@ -3667,7 +3649,6 @@ box
 >
 GetFlex
 (
-aState
 )
 ;
 nsIFrame
@@ -3675,7 +3656,6 @@ nsIFrame
 :
 AddCSSFlex
 (
-aState
 box
 row
 -

@@ -108,9 +108,6 @@ nsGridLayout2
 :
 AddOffset
 (
-nsBoxLayoutState
-&
-aState
 nsIFrame
 *
 aChild
@@ -124,7 +121,6 @@ offset
 ;
 GetOffset
 (
-aState
 aChild
 offset
 )
@@ -520,7 +516,6 @@ total
 ;
 AddOffset
 (
-aState
 aBox
 total
 )
@@ -711,7 +706,6 @@ total
 ;
 AddOffset
 (
-aState
 aBox
 total
 )
@@ -914,7 +908,6 @@ total
 ;
 AddOffset
 (
-aState
 aBox
 total
 )

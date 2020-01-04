@@ -170,9 +170,6 @@ virtual
 nsresult
 RelayoutChildAtOrdinal
 (
-nsBoxLayoutState
-&
-aState
 nsIFrame
 *
 aChild
@@ -213,9 +210,6 @@ virtual
 nscoord
 GetFlex
 (
-nsBoxLayoutState
-&
-aBoxLayoutState
 )
 override
 ;

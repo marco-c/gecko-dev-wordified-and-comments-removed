@@ -152,9 +152,6 @@ static
 uint8_t
 GetOffset
 (
-nsBoxLayoutState
-&
-aState
 nsIFrame
 *
 aChild

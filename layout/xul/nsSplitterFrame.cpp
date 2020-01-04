@@ -2995,7 +2995,6 @@ childBox
 >
 GetFlex
 (
-state
 )
 ;
 nsMargin

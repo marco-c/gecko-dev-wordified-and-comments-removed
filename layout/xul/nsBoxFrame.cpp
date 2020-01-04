@@ -3696,9 +3696,6 @@ nsBoxFrame
 :
 GetFlex
 (
-nsBoxLayoutState
-&
-aBoxLayoutState
 )
 {
 if
@@ -3719,7 +3716,6 @@ nsBox
 :
 GetFlex
 (
-aBoxLayoutState
 )
 ;
 return
@@ -5194,14 +5190,6 @@ nsGkAtoms
 ordinal
 )
 {
-nsBoxLayoutState
-state
-(
-PresContext
-(
-)
-)
-;
 nsIFrame
 *
 parent
@@ -5242,7 +5230,6 @@ parent
 >
 RelayoutChildAtOrdinal
 (
-state
 this
 )
 ;
@@ -6491,14 +6478,6 @@ onePixel
 4
 ;
 }
-nsBoxLayoutState
-state
-(
-GetPresContext
-(
-)
-)
-;
 nscoord
 flex
 =
@@ -6507,7 +6486,6 @@ kid
 >
 GetFlex
 (
-state
 )
 ;
 if
@@ -7846,7 +7824,6 @@ nsIFrame
 :
 AddCSSFlex
 (
-state
 child
 flexCSS
 )
@@ -7892,7 +7869,6 @@ child
 >
 GetFlex
 (
-state
 )
 ;
 nscoord
@@ -8515,9 +8491,6 @@ nsBoxFrame
 :
 RelayoutChildAtOrdinal
 (
-nsBoxLayoutState
-&
-aState
 nsIFrame
 *
 aChild
