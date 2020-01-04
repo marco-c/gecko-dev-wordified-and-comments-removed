@@ -299,7 +299,7 @@ String
 KEY_PROFILE_JSON_USERNAME
 =
 "
-username
+displayName
 "
 ;
 public
