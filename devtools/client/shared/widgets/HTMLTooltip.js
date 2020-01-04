@@ -324,12 +324,7 @@ this
 .
 doc
 .
-querySelector
-(
-"
-window
-"
-)
+documentElement
 .
 appendChild
 (
