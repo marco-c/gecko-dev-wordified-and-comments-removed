@@ -1741,6 +1741,24 @@ addons
 ]
         
 "
+browser
+-
+chrome
+-
+coverage
+"
+:
+[
+"
+-
+-
+timeout
+=
+1200
+"
+]
+        
+"
 mochitest
 -
 gl

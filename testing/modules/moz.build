@@ -141,6 +141,11 @@ Assert
 jsm
 '
 '
+CoverageUtils
+.
+jsm
+'
+'
 MockRegistrar
 .
 jsm
