@@ -712,9 +712,8 @@ aJournalMode
 {
 default
 :
-MOZ_ASSERT
+MOZ_FALLTHROUGH_ASSERT
 (
-false
 "
 Trying
 to

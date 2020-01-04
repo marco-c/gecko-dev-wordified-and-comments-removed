@@ -863,6 +863,8 @@ return
 NS_OK
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 nsIDataType
@@ -926,6 +928,8 @@ return
 NS_OK
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 nsIDataType
@@ -1267,6 +1271,8 @@ return
 NS_OK
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 nsIDataType
@@ -1330,6 +1336,8 @@ return
 NS_OK
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 nsIDataType

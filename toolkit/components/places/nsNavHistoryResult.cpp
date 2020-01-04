@@ -9909,6 +9909,8 @@ host
 return
 NS_OK
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 QUERYUPDATE_TIME
@@ -10045,6 +10047,8 @@ return
 NS_OK
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 QUERYUPDATE_SIMPLE
@@ -11891,6 +11895,8 @@ RESULTS_AS_TAG_QUERY
 )
 return
 NS_OK
+;
+MOZ_FALLTHROUGH
 ;
 default
 :
