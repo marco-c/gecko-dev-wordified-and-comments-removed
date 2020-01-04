@@ -431,6 +431,12 @@ aContentParent
 nullptr
 )
 ;
+void
+Initialize
+(
+)
+override
+;
 protected
 :
 bool
