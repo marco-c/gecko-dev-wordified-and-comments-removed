@@ -2240,6 +2240,9 @@ MOZ_ARTIFACT_BUILDS
 '
 MOZ_BUILD_APP
 '
+'
+PERL
+'
 ]
 )
 depends
