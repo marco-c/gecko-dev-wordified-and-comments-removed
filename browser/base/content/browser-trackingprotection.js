@@ -954,15 +954,6 @@ function
 )
 {
 let
-mm
-=
-gBrowser
-.
-selectedBrowser
-.
-messageManager
-;
-let
 brandBundle
 =
 document
@@ -1135,7 +1126,6 @@ UITour
 showInfo
 (
 window
-mm
 panelTarget
 gNavigatorBundle
 .

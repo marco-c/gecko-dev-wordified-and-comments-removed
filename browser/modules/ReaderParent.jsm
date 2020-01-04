@@ -1365,9 +1365,6 @@ UITour
 showInfo
 (
 win
-browser
-.
-messageManager
 target
 browserBundle
 .
