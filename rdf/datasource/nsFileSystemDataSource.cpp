@@ -3879,9 +3879,10 @@ volNum
 +
 )
 {
-swprintf
+swprintf_s
 (
 drive
+32
 L
 "
 %

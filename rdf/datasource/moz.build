@@ -179,8 +179,3 @@ CXXFLAGS
 Wshadow
 '
 ]
-else
-:
-ALLOW_COMPILER_WARNINGS
-=
-True
