@@ -465,11 +465,11 @@ aPrincipal
 nsILoadInfo
 :
 :
-SEC_NORMAL
+SEC_REQUIRE_SAME_ORIGIN_DATA_IS_BLOCKED
 nsIContentPolicy
 :
 :
-TYPE_INTERNAL_SCRIPT
+TYPE_INTERNAL_SERVICE_WORKER
 loadGroup
 nullptr
 nsIChannel
@@ -618,10 +618,9 @@ rv
 mChannel
 -
 >
-AsyncOpen
+AsyncOpen2
 (
 loader
-nullptr
 )
 ;
 if
