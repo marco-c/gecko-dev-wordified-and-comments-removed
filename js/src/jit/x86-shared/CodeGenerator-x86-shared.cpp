@@ -3455,12 +3455,11 @@ redundant
 if
 (
 !
-gen
+mir
 -
 >
-needsBoundsCheckBranch
+needsBoundsCheck
 (
-mir
 )
 )
 return

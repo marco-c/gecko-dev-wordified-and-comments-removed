@@ -1,15 +1,6 @@
-setJitCompilerOption
+suppressSignalHandlers
 (
-'
-ion
-.
-interrupt
--
-without
--
-signals
-'
-1
+true
 )
 ;
 timeout
