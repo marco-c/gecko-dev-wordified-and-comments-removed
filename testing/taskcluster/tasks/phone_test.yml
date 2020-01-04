@@ -434,6 +434,9 @@ PROXY_HOST
 -
 P
 ADB_PORT
+-
+s
+SERIAL_ID
 logcat
 -
 v
