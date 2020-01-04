@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsIDOMTCPSocket
-.
-h
-"
-#
-include
-"
 mozilla
 /
 unused
