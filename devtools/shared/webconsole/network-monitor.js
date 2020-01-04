@@ -554,6 +554,14 @@ request
 ;
 if
 (
+!
+this
+.
+httpActivity
+.
+fromServiceWorker
+&
+&
 channel
 instanceof
 Ci
@@ -3079,6 +3087,12 @@ fromCache
 fromCache
 ;
 event
+.
+fromServiceWorker
+=
+fromServiceWorker
+;
+httpActivity
 .
 fromServiceWorker
 =
