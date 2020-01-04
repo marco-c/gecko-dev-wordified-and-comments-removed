@@ -58585,7 +58585,7 @@ return
 }
 else
 {
-NS_ERROR
+NS_WARNING
 (
 "
 stylo
@@ -58598,6 +58598,13 @@ font
 face
 rules
 yet
+.
+"
+"
+See
+bug
+1290237
+.
 "
 )
 ;
