@@ -414,11 +414,6 @@ testPreserveJitCode
 cpp
 '
 '
-testPrivateGCThingValue
-.
-cpp
-'
-'
 testProfileStrings
 .
 cpp

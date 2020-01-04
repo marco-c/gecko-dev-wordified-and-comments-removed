@@ -1267,7 +1267,7 @@ GCCellPtr
 cellPtr
 (
 aPtr
-JS
+js
 :
 :
 GCThingTraceKind
