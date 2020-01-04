@@ -983,8 +983,13 @@ UndefinedValue
 bool
 copyRawFrameSlots
 (
-AutoValueVector
-*
+MutableHandle
+<
+GCVector
+<
+Value
+>
+>
 vec
 )
 const

@@ -414,8 +414,13 @@ InterpreterFrame
 :
 copyRawFrameSlots
 (
-AutoValueVector
-*
+MutableHandle
+<
+GCVector
+<
+Value
+>
+>
 vec
 )
 {
@@ -423,8 +428,7 @@ if
 (
 !
 vec
--
->
+.
 resize
 (
 numFormalArgs
@@ -447,8 +451,7 @@ false
 PodCopy
 (
 vec
--
->
+.
 begin
 (
 )
@@ -463,8 +466,7 @@ numFormalArgs
 PodCopy
 (
 vec
--
->
+.
 begin
 (
 )

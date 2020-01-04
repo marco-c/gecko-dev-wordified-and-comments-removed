@@ -313,8 +313,13 @@ data
 RunState
 &
 state
-AutoValueVector
-&
+MutableHandle
+<
+GCVector
+<
+Value
+>
+>
 vals
 )
 ;

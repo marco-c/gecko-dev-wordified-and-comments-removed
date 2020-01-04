@@ -3990,8 +3990,13 @@ AbstractFramePtr
 :
 copyRawFrameSlots
 (
-AutoValueVector
-*
+MutableHandle
+<
+GCVector
+<
+Value
+>
+>
 vec
 )
 const
