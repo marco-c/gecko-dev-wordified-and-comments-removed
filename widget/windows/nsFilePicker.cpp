@@ -4228,6 +4228,12 @@ Clear
 (
 )
 ;
+WinUtils
+:
+:
+AutoSystemDpiAware
+dpiAwareness
+;
 bool
 result
 =
