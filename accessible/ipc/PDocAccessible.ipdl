@@ -2300,11 +2300,7 @@ double
 aStep
 )
 ;
-prio
-(
-high
-)
-sync
+async
 TakeFocus
 (
 uint64_t
