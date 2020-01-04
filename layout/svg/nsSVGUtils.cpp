@@ -6808,7 +6808,7 @@ return
 color
 ;
 }
-gfxTextContextPaint
+SVGContextPaint
 *
 nsSVGUtils
 :
@@ -6849,7 +6849,7 @@ nullptr
 return
 static_cast
 <
-gfxTextContextPaint
+SVGContextPaint
 *
 >
 (
@@ -6884,7 +6884,7 @@ aFrame
 float
 &
 aOpacity
-gfxTextContextPaint
+SVGContextPaint
 *
 aOuterContextPaint
 SVGTextContextPaint
@@ -7109,7 +7109,7 @@ aContextMatrix
 nsIFrame
 *
 aFrame
-gfxTextContextPaint
+SVGContextPaint
 *
 aOuterContextPaint
 SVGTextContextPaint
@@ -7332,7 +7332,7 @@ aContext
 GeneralPattern
 *
 aOutPattern
-gfxTextContextPaint
+SVGContextPaint
 *
 aContextPaint
 )
@@ -7672,7 +7672,7 @@ aContext
 GeneralPattern
 *
 aOutPattern
-gfxTextContextPaint
+SVGContextPaint
 *
 aContextPaint
 )
@@ -8009,7 +8009,7 @@ const
 float
 &
 aOpacity
-gfxTextContextPaint
+SVGContextPaint
 *
 aContextPaint
 )
@@ -8149,7 +8149,7 @@ HasStroke
 nsIFrame
 *
 aFrame
-gfxTextContextPaint
+SVGContextPaint
 *
 aContextPaint
 )
@@ -8193,7 +8193,7 @@ GetStrokeWidth
 nsIFrame
 *
 aFrame
-gfxTextContextPaint
+SVGContextPaint
 *
 aContextPaint
 )
@@ -8310,7 +8310,7 @@ aDashes
 gfxFloat
 *
 aDashOffset
-gfxTextContextPaint
+SVGContextPaint
 *
 aContextPaint
 )
@@ -8670,7 +8670,7 @@ aFrame
 gfxContext
 *
 aContext
-gfxTextContextPaint
+SVGContextPaint
 *
 aContextPaint
 )

@@ -153,9 +153,6 @@ class
 gfxMathTable
 ;
 class
-gfxTextContextPaint
-;
-class
 FontInfoData
 ;
 struct
@@ -163,6 +160,14 @@ FontListSizes
 ;
 class
 nsIAtom
+;
+namespace
+mozilla
+{
+class
+SVGContextPaint
+;
+}
 ;
 class
 gfxCharacterMap
@@ -782,7 +787,10 @@ gfxContext
 aContext
 uint32_t
 aGlyphId
-gfxTextContextPaint
+mozilla
+:
+:
+SVGContextPaint
 *
 aContextPaint
 )

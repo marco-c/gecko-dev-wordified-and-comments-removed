@@ -64,9 +64,6 @@ gfx2DGlue
 h
 "
 class
-gfxTextContextPaint
-;
-class
 nsIContent
 ;
 class
@@ -92,6 +89,9 @@ nsSVGAnimatedTransformList
 ;
 class
 SVGAnimatedPreserveAspectRatio
+;
+class
+SVGContextPaint
 ;
 class
 SVGPreserveAspectRatio
@@ -474,7 +474,10 @@ aElement
 nsStyleContext
 *
 aStyleContext
-gfxTextContextPaint
+mozilla
+:
+:
+SVGContextPaint
 *
 aContextPaint
 StrokeOptionFlags
@@ -493,7 +496,10 @@ aElement
 nsStyleContext
 *
 aStyleContext
-gfxTextContextPaint
+mozilla
+:
+:
+SVGContextPaint
 *
 aContextPaint
 )

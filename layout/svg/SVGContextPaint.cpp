@@ -19,12 +19,11 @@ nsIDocument
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 void
-gfxTextContextPaint
+SVGContextPaint
 :
 :
 InitStrokeGeometry
@@ -97,7 +96,7 @@ AutoSetRestoreSVGContextPaint
 :
 AutoSetRestoreSVGContextPaint
 (
-gfxTextContextPaint
+SVGContextPaint
 *
 aContextPaint
 nsIDocument
@@ -254,5 +253,6 @@ paint
 "
 )
 ;
+}
 }
 }

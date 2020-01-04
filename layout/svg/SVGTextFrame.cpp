@@ -11880,7 +11880,7 @@ Current
 (
 )
 ;
-gfxTextContextPaint
+SVGContextPaint
 *
 outerContextPaint
 =

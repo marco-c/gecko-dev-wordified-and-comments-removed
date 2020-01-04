@@ -167,9 +167,6 @@ nsSVGPathGeometryFrame
 class
 nsTextFrame
 ;
-class
-gfxTextContextPaint
-;
 struct
 nsStyleSVG
 ;
@@ -182,6 +179,9 @@ nsRect
 namespace
 mozilla
 {
+class
+SVGContextPaint
+;
 struct
 SVGTextContextPaint
 ;
@@ -662,6 +662,13 @@ gfx
 :
 Size
 Size
+;
+typedef
+mozilla
+:
+:
+SVGContextPaint
+SVGContextPaint
 ;
 typedef
 mozilla
@@ -1278,7 +1285,7 @@ aFillOrStroke
 )
 ;
 static
-gfxTextContextPaint
+SVGContextPaint
 *
 GetContextPaint
 (
@@ -1302,7 +1309,7 @@ aContextMatrix
 nsIFrame
 *
 aFrame
-gfxTextContextPaint
+SVGContextPaint
 *
 aOuterContextPaint
 SVGTextContextPaint
@@ -1323,7 +1330,7 @@ aContext
 GeneralPattern
 *
 aOutPattern
-gfxTextContextPaint
+SVGContextPaint
 *
 aContextPaint
 =
@@ -1343,7 +1350,7 @@ aContext
 GeneralPattern
 *
 aOutPattern
-gfxTextContextPaint
+SVGContextPaint
 *
 aContextPaint
 =
@@ -1360,7 +1367,7 @@ const
 float
 &
 aOpacity
-gfxTextContextPaint
+SVGContextPaint
 *
 aContextPaint
 )
@@ -1372,7 +1379,7 @@ HasStroke
 nsIFrame
 *
 aFrame
-gfxTextContextPaint
+SVGContextPaint
 *
 aContextPaint
 =
@@ -1386,7 +1393,7 @@ GetStrokeWidth
 nsIFrame
 *
 aFrame
-gfxTextContextPaint
+SVGContextPaint
 *
 aContextPaint
 =
@@ -1403,7 +1410,7 @@ aFrame
 gfxContext
 *
 aContext
-gfxTextContextPaint
+SVGContextPaint
 *
 aContextPaint
 =

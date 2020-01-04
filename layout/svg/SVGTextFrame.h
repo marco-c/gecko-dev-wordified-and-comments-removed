@@ -422,7 +422,7 @@ struct
 SVGTextContextPaint
 :
 public
-gfxTextContextPaint
+SVGContextPaint
 {
 protected
 :
@@ -592,7 +592,7 @@ aColor
 void
 SetContextPaint
 (
-gfxTextContextPaint
+SVGContextPaint
 *
 aContextPaint
 nsStyleSVGPaintType
@@ -636,7 +636,7 @@ nsSVGPaintServerFrame
 *
 mPaintServerFrame
 ;
-gfxTextContextPaint
+SVGContextPaint
 *
 mContextPaint
 ;

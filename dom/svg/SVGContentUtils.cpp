@@ -371,7 +371,7 @@ const
 nsStyleSVG
 *
 aStyleSVG
-gfxTextContextPaint
+SVGContextPaint
 *
 aContextPaint
 )
@@ -844,7 +844,7 @@ aElement
 nsStyleContext
 *
 aStyleContext
-gfxTextContextPaint
+SVGContextPaint
 *
 aContextPaint
 StrokeOptionFlags
@@ -1149,7 +1149,7 @@ aElement
 nsStyleContext
 *
 aStyleContext
-gfxTextContextPaint
+SVGContextPaint
 *
 aContextPaint
 )

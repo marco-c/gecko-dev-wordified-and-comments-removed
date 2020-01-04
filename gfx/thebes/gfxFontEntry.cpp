@@ -1670,7 +1670,7 @@ gfxContext
 aContext
 uint32_t
 aGlyphId
-gfxTextContextPaint
+SVGContextPaint
 *
 aContextPaint
 )

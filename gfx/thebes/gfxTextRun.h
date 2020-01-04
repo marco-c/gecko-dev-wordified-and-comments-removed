@@ -124,9 +124,6 @@ class
 gfxUserFontSet
 ;
 class
-gfxTextContextPaint
-;
-class
 nsIAtom
 ;
 class
@@ -134,6 +131,14 @@ nsILanguageAtomService
 ;
 class
 gfxMissingFontRecorder
+;
+namespace
+mozilla
+{
+class
+SVGContextPaint
+;
+}
 ;
 struct
 gfxTextRunDrawCallbacks
@@ -738,7 +743,10 @@ advanceWidth
 =
 nullptr
 ;
-gfxTextContextPaint
+mozilla
+:
+:
+SVGContextPaint
 *
 contextPaint
 =
