@@ -236,7 +236,9 @@ resource
 :
 /
 /
-devtools
+gre
+/
+modules
 /
 Console
 .

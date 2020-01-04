@@ -228,9 +228,9 @@ resource
 :
 /
 /
-devtools
+gre
 /
-shared
+modules
 /
 Console
 .

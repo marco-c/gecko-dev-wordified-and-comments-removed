@@ -26,6 +26,8 @@ resource
 /
 devtools
 /
+shared
+/
 Loader
 .
 jsm
