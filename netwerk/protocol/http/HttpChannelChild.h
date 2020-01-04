@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+UniquePtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 net
 /
 HttpBaseChannel
@@ -861,7 +870,7 @@ mEventQ
 ;
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 ChannelEvent
 >

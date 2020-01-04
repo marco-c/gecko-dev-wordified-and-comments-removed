@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+UniquePtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 net
 /
 PFTPChannelChild
@@ -460,7 +469,7 @@ mEventQ
 ;
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 ChannelEvent
 >
