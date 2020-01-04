@@ -384,11 +384,6 @@ double
 aEnd
 )
 ;
-void
-QueueInitializationEvent
-(
-)
-;
 #
 if
 defined
@@ -481,11 +476,6 @@ aNewDuration
 )
 ;
 void
-InitializationEvent
-(
-)
-;
-void
 SetDuration
 (
 double
@@ -534,9 +524,6 @@ mPrincipal
 ;
 MediaSourceReadyState
 mReadyState
-;
-bool
-mFirstSourceBufferInitialized
 ;
 }
 ;
