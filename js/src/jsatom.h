@@ -264,6 +264,9 @@ JSAtom
 *
 asPtr
 (
+ExclusiveContext
+*
+cx
 )
 const
 ;

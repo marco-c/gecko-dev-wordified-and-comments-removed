@@ -1427,7 +1427,7 @@ atom
 =
 entry
 .
-asPtr
+asPtrUnbarriered
 (
 )
 ;
@@ -1658,6 +1658,7 @@ entry
 .
 asPtr
 (
+cx
 )
 ;
 atom
@@ -1877,6 +1878,7 @@ pp
 >
 asPtr
 (
+cx
 )
 ;
 }
@@ -1925,6 +1927,7 @@ p
 >
 asPtr
 (
+cx
 )
 ;
 p
@@ -2205,7 +2208,7 @@ MOZ_ASSERT
 p
 -
 >
-asPtr
+asPtrUnbarriered
 (
 )
 =
