@@ -271,6 +271,16 @@ mIgnoreXULSizeMode
 aEnable
 ;
 }
+void
+WasRegistered
+(
+)
+{
+mRegistered
+=
+true
+;
+}
 protected
 :
 enum
@@ -645,6 +655,9 @@ mIgnoreXULSizeMode
 ;
 bool
 mDestroying
+;
+bool
+mRegistered
 ;
 uint32_t
 mContextFlags
