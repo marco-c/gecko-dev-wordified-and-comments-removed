@@ -113,6 +113,15 @@ properties
 js
 '
 '
+heap
+-
+snapshot
+-
+file
+.
+js
+'
+'
 highlighters
 .
 js
