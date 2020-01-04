@@ -712,6 +712,15 @@ ins
 ;
 virtual
 void
+visitShiftI64
+(
+LShiftI64
+*
+ins
+)
+;
+virtual
+void
 visitUrshD
 (
 LUrshD
