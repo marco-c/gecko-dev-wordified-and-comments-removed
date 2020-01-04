@@ -1125,6 +1125,10 @@ GetDownloadPosition
 void
 DecodeError
 (
+const
+MediaResult
+&
+aError
 )
 ;
 void
@@ -1534,6 +1538,15 @@ aEvent
 )
 ;
 void
+OnPlaybackErrorEvent
+(
+const
+MediaResult
+&
+aError
+)
+;
+void
 OnMediaNotSeekable
 (
 )
@@ -1770,6 +1783,9 @@ mFirstFrameLoadedListener
 ;
 MediaEventListener
 mOnPlaybackEvent
+;
+MediaEventListener
+mOnPlaybackErrorEvent
 ;
 MediaEventListener
 mOnMediaNotSeekable
