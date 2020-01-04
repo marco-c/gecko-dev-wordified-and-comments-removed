@@ -1202,12 +1202,6 @@ GetDownloadPosition
 (
 )
 ;
-virtual
-void
-BreakCycles
-(
-)
-;
 void
 DecodeError
 (
@@ -1651,6 +1645,11 @@ false
 )
 ;
 }
+void
+FinishShutdown
+(
+)
+;
 MediaEventProducer
 <
 void
