@@ -1265,7 +1265,7 @@ treeOffset
 =
 tree
 .
-lastEntryId
+size
 (
 )
 ;
@@ -1752,13 +1752,15 @@ treeId
 )
 =
 =
+treeOffset
++
 tree
 .
-lastEntryId
+size
 (
 )
-+
-treeOffset
+-
+1
 )
 ;
 if
