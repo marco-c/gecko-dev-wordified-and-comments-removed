@@ -292,7 +292,6 @@ CannotDraw3D
 IncompatibleBasicTexturedEffect
 InvalidFont
 PAllocTextureBackendMismatch
-GetFontFileDataFailed
 MessageChannelCloseFailure
 TextureAliveAfterShutdown
 InvalidContext
