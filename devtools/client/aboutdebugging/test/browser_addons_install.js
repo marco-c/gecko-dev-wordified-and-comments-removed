@@ -46,12 +46,6 @@ addons
 )
 ;
 yield
-waitForInitialAddonList
-(
-document
-)
-;
-yield
 installAddon
 (
 document
@@ -108,12 +102,6 @@ openAboutDebugging
 "
 addons
 "
-)
-;
-yield
-waitForInitialAddonList
-(
-document
 )
 ;
 let

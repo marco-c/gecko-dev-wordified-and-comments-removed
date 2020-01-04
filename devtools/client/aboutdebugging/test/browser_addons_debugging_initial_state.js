@@ -193,12 +193,6 @@ addons
 "
 )
 ;
-yield
-waitForInitialAddonList
-(
-document
-)
-;
 info
 (
 "
