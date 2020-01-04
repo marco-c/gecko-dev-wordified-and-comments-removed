@@ -14,9 +14,6 @@ Ci
 utils
 :
 Cu
-results
-:
-Cr
 }
 =
 Components
@@ -484,6 +481,7 @@ WaitForComputedStylePropertyValue
 ;
 }
 )
+;
 }
 )
 ;
@@ -507,11 +505,6 @@ function
 waitForSuccess
 (
 validatorFn
-name
-=
-"
-untitled
-"
 )
 {
 let
@@ -526,12 +519,12 @@ defer
 function
 wait
 (
-validatorFn
+fn
 )
 {
 if
 (
-validatorFn
+fn
 (
 )
 )
@@ -553,7 +546,7 @@ setTimeout
 >
 wait
 (
-validatorFn
+fn
 )
 200
 )
