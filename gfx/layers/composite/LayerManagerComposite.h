@@ -1913,7 +1913,7 @@ visibleRect
 aLayer
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .

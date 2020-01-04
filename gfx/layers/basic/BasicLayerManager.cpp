@@ -1508,7 +1508,7 @@ visibleRegion
 mLayer
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
@@ -2304,7 +2304,7 @@ region
 aLayer
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
@@ -4659,7 +4659,7 @@ aPaintContext
 mLayer
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
@@ -5328,7 +5328,7 @@ visibleRegion
 aLayer
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
@@ -5419,7 +5419,7 @@ aLayer
 aLayer
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .

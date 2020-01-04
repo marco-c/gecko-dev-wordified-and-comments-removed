@@ -1139,7 +1139,7 @@ visibleRegion
 aLayer
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .

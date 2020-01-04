@@ -649,7 +649,7 @@ surfaceRect
 aContainer
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
@@ -693,7 +693,7 @@ if
 aLayer
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
@@ -709,7 +709,7 @@ width
 aLayer
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
@@ -1448,7 +1448,7 @@ IntRectToRect
 layer
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
@@ -3782,7 +3782,7 @@ if
 aContainer
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
@@ -3921,7 +3921,7 @@ visibleRect
 aContainer
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
@@ -4349,7 +4349,7 @@ visibleRect
 aContainer
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .

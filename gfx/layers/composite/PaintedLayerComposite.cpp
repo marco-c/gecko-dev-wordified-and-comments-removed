@@ -533,7 +533,7 @@ const
 nsIntRegion
 visibleRegion
 =
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .

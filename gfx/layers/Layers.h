@@ -4303,7 +4303,7 @@ GetEffectiveClipRect
 const
 LayerIntRegion
 &
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 ;
@@ -4377,7 +4377,7 @@ IsVisible
 {
 return
 !
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
@@ -6146,7 +6146,7 @@ RenderTargetIntRect
 :
 FromUnknownRect
 (
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .

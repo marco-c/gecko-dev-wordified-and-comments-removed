@@ -6157,7 +6157,7 @@ incompleteRegion
 aLayer
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .

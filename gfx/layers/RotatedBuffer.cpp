@@ -1054,7 +1054,7 @@ aTarget
 aLayer
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
@@ -1073,7 +1073,7 @@ aTarget
 aLayer
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .

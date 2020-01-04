@@ -380,7 +380,7 @@ toDraw
 =
 IntersectWithClip
 (
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
@@ -890,7 +890,7 @@ And
 state
 .
 mRegionToInvalidate
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .

@@ -397,7 +397,7 @@ And
 state
 .
 mRegionToInvalidate
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .

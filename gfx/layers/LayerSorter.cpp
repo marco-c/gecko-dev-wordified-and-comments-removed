@@ -267,7 +267,7 @@ ThebesRect
 aOne
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
@@ -288,7 +288,7 @@ ThebesRect
 aTwo
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .

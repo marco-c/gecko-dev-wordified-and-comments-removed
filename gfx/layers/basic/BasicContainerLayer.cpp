@@ -512,7 +512,7 @@ aInRect
 .
 Intersect
 (
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
@@ -615,7 +615,7 @@ childRegion
 l
 -
 >
-GetEffectiveVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
