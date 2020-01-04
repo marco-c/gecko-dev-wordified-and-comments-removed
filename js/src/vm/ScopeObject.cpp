@@ -10190,7 +10190,7 @@ init
 )
 {
 return
-liveScopes
+proxiedScopes
 .
 init
 (
@@ -10198,6 +10198,13 @@ init
 &
 &
 missingScopes
+.
+init
+(
+)
+&
+&
+liveScopes
 .
 init
 (

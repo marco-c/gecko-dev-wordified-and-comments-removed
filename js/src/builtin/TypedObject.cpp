@@ -10628,6 +10628,15 @@ if
 (
 !
 table
+|
+|
+!
+table
+-
+>
+init
+(
+)
 )
 return
 nullptr

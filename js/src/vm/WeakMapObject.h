@@ -126,6 +126,11 @@ JSContext
 cx
 )
 ;
+bool
+init
+(
+)
+;
 ~
 ObjectWeakMap
 (
