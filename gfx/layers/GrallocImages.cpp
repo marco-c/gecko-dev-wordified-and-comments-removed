@@ -404,7 +404,7 @@ false
 mTextureClient
 =
 new
-ClientTexture
+TextureClient
 (
 texData
 TextureFlags

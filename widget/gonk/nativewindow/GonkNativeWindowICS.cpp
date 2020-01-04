@@ -1716,7 +1716,7 @@ TextureClient
 textureClient
 =
 new
-ClientTexture
+TextureClient
 (
 texData
 TextureFlags
