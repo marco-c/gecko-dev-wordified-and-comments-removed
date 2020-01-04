@@ -1483,13 +1483,6 @@ item
 .
 title
 ;
-if
-(
-item
-.
-icon
-)
-{
 let
 icon
 =
@@ -1526,7 +1519,6 @@ icon
 )
 "
 ;
-}
 }
 onClick
 (
