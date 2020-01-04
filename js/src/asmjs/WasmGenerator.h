@@ -419,6 +419,7 @@ bool
 >
 finishedFuncDefs_
 ;
+MOZ_MUST_USE
 bool
 finishOutstandingTask
 (
@@ -440,11 +441,13 @@ funcIndex
 )
 const
 ;
+MOZ_MUST_USE
 bool
 convertOutOfRangeBranchesToThunks
 (
 )
 ;
+MOZ_MUST_USE
 bool
 finishTask
 (
@@ -453,6 +456,7 @@ IonCompileTask
 task
 )
 ;
+MOZ_MUST_USE
 bool
 finishCodegen
 (
@@ -461,6 +465,7 @@ StaticLinkData
 link
 )
 ;
+MOZ_MUST_USE
 bool
 finishStaticLinkData
 (
@@ -474,6 +479,7 @@ StaticLinkData
 link
 )
 ;
+MOZ_MUST_USE
 bool
 addImport
 (
@@ -485,6 +491,7 @@ uint32_t
 globalDataOffset
 )
 ;
+MOZ_MUST_USE
 bool
 allocateGlobalBytes
 (
@@ -512,6 +519,7 @@ ModuleGenerator
 (
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (
@@ -626,6 +634,7 @@ funcIndex
 )
 const
 ;
+MOZ_MUST_USE
 bool
 allocateGlobal
 (
@@ -674,6 +683,7 @@ index
 )
 const
 ;
+MOZ_MUST_USE
 bool
 declareExport
 (
@@ -694,6 +704,7 @@ numExports
 )
 const
 ;
+MOZ_MUST_USE
 bool
 addMemoryExport
 (
@@ -701,11 +712,13 @@ UniqueChars
 fieldName
 )
 ;
+MOZ_MUST_USE
 bool
 startFuncDefs
 (
 )
 ;
+MOZ_MUST_USE
 bool
 startFuncDef
 (
@@ -716,6 +729,7 @@ FunctionGenerator
 fg
 )
 ;
+MOZ_MUST_USE
 bool
 finishFuncDef
 (
@@ -728,6 +742,7 @@ FunctionGenerator
 fg
 )
 ;
+MOZ_MUST_USE
 bool
 finishFuncDefs
 (
@@ -751,7 +766,7 @@ Sig
 sig
 )
 ;
-bool
+void
 initFuncSig
 (
 uint32_t
@@ -760,6 +775,7 @@ uint32_t
 sigIndex
 )
 ;
+MOZ_MUST_USE
 bool
 initImport
 (
@@ -769,6 +785,7 @@ uint32_t
 sigIndex
 )
 ;
+MOZ_MUST_USE
 bool
 initSigTableLength
 (
@@ -796,6 +813,7 @@ uint32_t
 newMinHeapLength
 )
 ;
+MOZ_MUST_USE
 bool
 finish
 (
@@ -874,6 +892,7 @@ return
 bytes_
 ;
 }
+MOZ_MUST_USE
 bool
 addCallSiteLineNum
 (

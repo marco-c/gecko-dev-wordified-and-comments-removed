@@ -38,6 +38,7 @@ StringBuffer
 namespace
 wasm
 {
+MOZ_MUST_USE
 bool
 BinaryToText
 (

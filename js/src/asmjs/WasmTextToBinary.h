@@ -29,6 +29,7 @@ namespace
 wasm
 {
 extern
+MOZ_MUST_USE
 bool
 TextToBinary
 (

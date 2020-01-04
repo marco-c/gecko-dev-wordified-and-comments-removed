@@ -70,6 +70,7 @@ FullParseHandler
 AsmJSParseContext
 ;
 extern
+MOZ_MUST_USE
 bool
 CompileAsmJS
 (

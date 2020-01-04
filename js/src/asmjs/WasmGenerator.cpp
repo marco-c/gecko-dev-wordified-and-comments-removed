@@ -3396,7 +3396,7 @@ index
 ]
 ;
 }
-bool
+void
 ModuleGenerator
 :
 :
@@ -3461,9 +3461,6 @@ sigs
 [
 sigIndex
 ]
-;
-return
-true
 ;
 }
 void

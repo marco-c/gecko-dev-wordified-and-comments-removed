@@ -111,6 +111,7 @@ cursor
 )
 ;
 \
+MOZ_MUST_USE
 bool
 clone
 (
@@ -1757,6 +1758,7 @@ ArrayBufferObjectMaybeShared
 heap
 )
 ;
+MOZ_MUST_USE
 bool
 sendCodeRangesToProfiler
 (
@@ -1808,6 +1810,7 @@ return
 module_
 ;
 }
+MOZ_MUST_USE
 bool
 clone
 (
@@ -2313,6 +2316,7 @@ pc
 )
 const
 ;
+MOZ_MUST_USE
 bool
 staticallyLink
 (
@@ -2325,6 +2329,7 @@ StaticLinkData
 link
 )
 ;
+MOZ_MUST_USE
 bool
 dynamicallyLink
 (
@@ -2372,6 +2377,7 @@ heapLength
 )
 const
 ;
+MOZ_MUST_USE
 bool
 callExport
 (
@@ -2384,6 +2390,7 @@ CallArgs
 args
 )
 ;
+MOZ_MUST_USE
 bool
 callImport
 (
@@ -2613,6 +2620,7 @@ ExclusiveContext
 cx
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (

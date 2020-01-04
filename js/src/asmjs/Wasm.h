@@ -83,6 +83,7 @@ PageSize
 ;
 #
 endif
+MOZ_MUST_USE
 bool
 Eval
 (

@@ -10342,9 +10342,6 @@ functions
 "
 )
 ;
-if
-(
-!
 mg_
 .
 initFuncSig
@@ -10352,9 +10349,6 @@ initFuncSig
 funcIndex
 sigIndex
 )
-)
-return
-false
 ;
 Global
 *

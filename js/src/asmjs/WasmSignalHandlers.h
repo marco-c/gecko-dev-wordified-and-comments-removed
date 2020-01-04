@@ -52,6 +52,7 @@ rt
 namespace
 wasm
 {
+MOZ_MUST_USE
 bool
 EnsureSignalHandlersInstalled
 (
