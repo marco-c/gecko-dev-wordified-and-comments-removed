@@ -1,5 +1,7 @@
+add_task
+(
 function
-test
+*
 (
 )
 {
@@ -65,6 +67,21 @@ closeWindowWithLastTab
 false
 )
 ;
+let
+tabClosedPromise
+=
+BrowserTestUtils
+.
+removeTab
+(
+tab
+{
+dontRemove
+:
+true
+}
+)
+;
 EventUtils
 .
 synthesizeKey
@@ -78,6 +95,9 @@ accelKey
 true
 }
 )
+;
+yield
+tabClosedPromise
 ;
 is
 (
@@ -162,3 +182,5 @@ closeWindowWithLastTab
 )
 ;
 }
+)
+;
