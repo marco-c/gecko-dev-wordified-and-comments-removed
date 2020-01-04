@@ -19,6 +19,10 @@ collections
 import
 OrderedDict
 from
+contextlib
+import
+contextmanager
+from
 functools
 import
 wraps
@@ -672,7 +676,7 @@ setLevel
 (
 logging
 .
-INFO
+DEBUG
 )
             
 formatter
@@ -706,19 +710,16 @@ stderr
             
 handler
 .
-setLevel
-(
-logging
-.
-INFO
-)
-            
-handler
-.
 setFormatter
 (
 formatter
 )
+            
+queue_debug
+=
+handler
+.
+queue_debug
             
 logger
 .
@@ -742,17 +743,21 @@ Logger
 moz_logger
 =
 None
-        
-self
-.
-log_impl
-=
-ReadOnlyNamespace
+            
+contextmanager
+            
+def
+queue_debug
 (
-*
-*
-{
+)
+:
                 
+yield
+        
+log_namespace
+=
+{
+            
 k
 :
 getattr
@@ -760,7 +765,7 @@ getattr
 logger
 k
 )
-                
+            
 for
 k
 in
@@ -780,6 +785,25 @@ error
 )
         
 }
+        
+log_namespace
+[
+'
+queue_debug
+'
+]
+=
+queue_debug
+        
+self
+.
+log_impl
+=
+ReadOnlyNamespace
+(
+*
+*
+log_namespace
 )
         
 self
@@ -860,15 +884,6 @@ elif
 moz_logger
 :
             
-logger
-.
-setLevel
-(
-logging
-.
-DEBUG
-)
-            
 handler
 =
 logging
@@ -888,15 +903,6 @@ w
 delay
 =
 True
-)
-            
-handler
-.
-setLevel
-(
-logging
-.
-DEBUG
 )
             
 handler
