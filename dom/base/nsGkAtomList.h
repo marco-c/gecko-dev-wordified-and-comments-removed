@@ -5261,6 +5261,13 @@ onDOMSubtreeModified
 )
 GK_ATOM
 (
+ondata
+"
+ondata
+"
+)
+GK_ATOM
+(
 ondrag
 "
 ondrag
@@ -5320,6 +5327,13 @@ GK_ATOM
 ondragstart
 "
 ondragstart
+"
+)
+GK_ATOM
+(
+ondrain
+"
+ondrain
 "
 )
 GK_ATOM

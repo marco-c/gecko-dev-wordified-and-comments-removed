@@ -851,7 +851,7 @@ serverPort
 8085
 ;
 let
-TCPSocket
+mozTCPSocket
 =
 navigator
 .
@@ -860,7 +860,7 @@ mozTCPSocket
 let
 listeningServer
 =
-TCPSocket
+mozTCPSocket
 .
 listen
 (
@@ -886,9 +886,8 @@ listeningServer
 let
 clientSocket
 =
+new
 TCPSocket
-.
-open
 (
 '
 127
@@ -1667,9 +1666,8 @@ listeningServer
 ;
 clientSocket
 =
+new
 TCPSocket
-.
-open
 (
 '
 127
@@ -1884,9 +1882,8 @@ listeningServer
 ;
 clientSocket
 =
+new
 TCPSocket
-.
-open
 (
 '
 127
@@ -2121,9 +2118,8 @@ listeningServer
 ;
 clientSocket
 =
+new
 TCPSocket
-.
-open
 (
 '
 127
@@ -2279,9 +2275,8 @@ close
 ;
 clientSocket
 =
+new
 TCPSocket
-.
-open
 (
 '
 127
