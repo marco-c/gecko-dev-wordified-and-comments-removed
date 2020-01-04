@@ -86,10 +86,6 @@ h
 #
 include
 "
-third_party
-/
-libevent
-/
 event
 .
 h

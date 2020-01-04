@@ -1326,6 +1326,15 @@ atomicops_internals_mutex
 cc
 '
 ]
+CXXFLAGS
++
+=
+CONFIG
+[
+'
+TK_CFLAGS
+'
+]
 include
 (
 '
