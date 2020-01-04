@@ -647,6 +647,16 @@ ArenaObjectID
 h
 '
 '
+ArenaRefPtr
+.
+h
+'
+'
+ArenaRefPtrInlines
+.
+h
+'
+'
 GeometryUtils
 .
 h
