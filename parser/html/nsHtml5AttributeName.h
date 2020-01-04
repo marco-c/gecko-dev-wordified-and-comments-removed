@@ -1715,6 +1715,11 @@ ATTR_TABINDEX
 static
 nsHtml5AttributeName
 *
+ATTR_PROPERTY
+;
+static
+nsHtml5AttributeName
+*
 ATTR_READONLY
 ;
 static
