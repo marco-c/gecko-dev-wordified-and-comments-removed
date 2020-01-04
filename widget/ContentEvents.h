@@ -375,7 +375,7 @@ aIsTrusted
 aMessage
 eFormEventClass
 )
-originator
+mOriginator
 (
 nullptr
 )
@@ -443,7 +443,7 @@ result
 }
 nsIContent
 *
-originator
+mOriginator
 ;
 void
 AssignFormEventData
