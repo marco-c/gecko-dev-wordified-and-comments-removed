@@ -1369,7 +1369,7 @@ update
 .
 enabled
 "
-false
+true
 )
 ;
 pref

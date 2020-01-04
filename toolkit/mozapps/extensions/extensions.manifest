@@ -168,6 +168,9 @@ a87a
 -
 235f74451cfa
 }
+#
+ifndef
+MOZ_WIDGET_ANDROID
 category
 update
 -
@@ -196,6 +199,8 @@ update
 .
 interval
 86400
+#
+endif
 component
 {
 7beb3ba8
