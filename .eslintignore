@@ -363,7 +363,7 @@ browser
 /
 components
 /
-*
+nsBrowserGlue
 .
 js
 browser
