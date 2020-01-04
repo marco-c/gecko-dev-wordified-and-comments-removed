@@ -114,6 +114,10 @@ uint8_t
 aOutputBuffer
 bool
 aHasAlpha
+bool
+aFlipVertically
+=
+false
 )
 ;
 uint8_t
@@ -228,6 +232,13 @@ mCurrentInLine
 ;
 bool
 mHasAlpha
+:
+1
+;
+bool
+mFlipVertically
+:
+1
 ;
 }
 ;
@@ -315,6 +326,9 @@ nsIntSize
 uint8_t
 *
 bool
+bool
+=
+false
 )
 {
 return
