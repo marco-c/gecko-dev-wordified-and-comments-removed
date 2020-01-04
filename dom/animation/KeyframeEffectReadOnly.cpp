@@ -16,7 +16,7 @@ mozilla
 /
 dom
 /
-AnimatableBinding
+KeyframeAnimationOptionsBinding
 .
 h
 "

@@ -1497,6 +1497,11 @@ KeyEvent
 webidl
 '
 '
+KeyframeAnimationOptions
+.
+webidl
+'
+'
 KeyframeEffect
 .
 webidl
@@ -2203,11 +2208,6 @@ webidl
 '
 '
 StorageEvent
-.
-webidl
-'
-'
-StorageManager
 .
 webidl
 '
