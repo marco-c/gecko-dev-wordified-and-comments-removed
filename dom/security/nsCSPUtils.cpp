@@ -3565,6 +3565,11 @@ mFlags
 aFlags
 )
 {
+ToLowerCase
+(
+mFlags
+)
+;
 }
 nsCSPSandboxFlags
 :
