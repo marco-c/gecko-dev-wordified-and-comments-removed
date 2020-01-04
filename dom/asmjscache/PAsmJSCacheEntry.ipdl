@@ -58,7 +58,7 @@ MPL
 /
 include
 protocol
-PContent
+PBackground
 ;
 using
 mozilla
@@ -115,7 +115,7 @@ protocol
 PAsmJSCacheEntry
 {
 manager
-PContent
+PBackground
 ;
 /
 /
