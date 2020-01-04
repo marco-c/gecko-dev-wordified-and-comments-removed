@@ -180,6 +180,12 @@ APZCTreeManager
 (
 )
 ;
+static
+void
+InitializeGlobalState
+(
+)
+;
 void
 UpdateHitTestingTree
 (
