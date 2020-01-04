@@ -423,7 +423,10 @@ ParentLayerCoord
 mPos
 ;
 uint32_t
-mPosTimeMs
+mVelocitySampleTimeMs
+;
+ParentLayerCoord
+mVelocitySamplePos
 ;
 ParentLayerCoord
 mStartPos
