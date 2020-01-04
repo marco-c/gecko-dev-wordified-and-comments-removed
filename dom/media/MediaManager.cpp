@@ -3565,6 +3565,8 @@ NormalizedConstraintSet
 >
 &
 aConstraintSets
+bool
+aIsChrome
 )
 {
 nsString
@@ -3634,11 +3636,25 @@ UINT32_MAX
 nsString
 id
 ;
+if
+(
+aIsChrome
+)
+{
+GetRawId
+(
+id
+)
+;
+}
+else
+{
 GetId
 (
 id
 )
 ;
+}
 return
 mSource
 -
@@ -5828,6 +5844,8 @@ SelectSettings
 MediaStreamConstraints
 &
 aConstraints
+bool
+aIsChrome
 RefPtr
 <
 Refcountable
@@ -5882,6 +5900,7 @@ NewTaskFrom
 id
 aConstraints
 aSources
+aIsChrome
 ]
 (
 )
@@ -6049,6 +6068,7 @@ mVideo
 )
 )
 videos
+aIsChrome
 )
 ;
 }
@@ -6085,6 +6105,7 @@ mAudio
 )
 )
 audios
+aIsChrome
 )
 ;
 }
@@ -6260,6 +6281,8 @@ const
 nsCString
 &
 aOrigin
+bool
+aIsChrome
 MediaManager
 :
 :
@@ -6295,6 +6318,10 @@ aPrefs
 mOrigin
 (
 aOrigin
+)
+mIsChrome
+(
+aIsChrome
 )
 mDeviceChosen
 (
@@ -6550,6 +6577,7 @@ NormalizedConstraints
 constraints
 )
 audios
+mIsChrome
 )
 ;
 }
@@ -6646,6 +6674,7 @@ NormalizedConstraints
 constraints
 )
 videos
+mIsChrome
 )
 ;
 }
@@ -7068,6 +7097,9 @@ mPrefs
 ;
 nsCString
 mOrigin
+;
+bool
+mIsChrome
 ;
 bool
 mDeviceChosen
@@ -10555,11 +10587,17 @@ docURI
 )
 |
 |
+(
+!
+isChrome
+&
+&
 !
 HostHasPermission
 (
 *
 docURI
+)
 )
 )
 {
@@ -11546,6 +11584,7 @@ prefs
 isHTTPS
 callID
 origin
+isChrome
 ]
 (
 SourceSet
@@ -11613,6 +11652,7 @@ p2
 SelectSettings
 (
 c
+isChrome
 devices
 )
 ;
@@ -11633,6 +11673,7 @@ prefs
 isHTTPS
 callID
 origin
+isChrome
 devices
 ]
 (
@@ -11882,6 +11923,7 @@ windowID
 listener
 prefs
 origin
+isChrome
 devices
 -
 >
@@ -17803,6 +17845,16 @@ WindowID
 (
 )
 ;
+bool
+isChrome
+=
+nsContentUtils
+:
+:
+IsCallerChrome
+(
+)
+;
 MediaManager
 :
 :
@@ -17816,6 +17868,7 @@ windowId
 audioDevice
 videoDevice
 aConstraints
+isChrome
 ]
 (
 )
@@ -17917,6 +17970,7 @@ NormalizedConstraints
 aConstraints
 )
 audios
+isChrome
 )
 ;
 }
@@ -17979,6 +18033,7 @@ NormalizedConstraints
 aConstraints
 )
 videos
+isChrome
 )
 ;
 }
