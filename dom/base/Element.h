@@ -3475,7 +3475,7 @@ net
 :
 :
 ReferrerPolicy
-GetReferrerPolicy
+GetReferrerPolicyAsEnum
 (
 )
 ;

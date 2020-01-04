@@ -52665,7 +52665,7 @@ AsElement
 )
 -
 >
-GetReferrerPolicy
+GetReferrerPolicyAsEnum
 (
 )
 ;

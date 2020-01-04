@@ -16339,7 +16339,7 @@ ReferrerPolicy
 Element
 :
 :
-GetReferrerPolicy
+GetReferrerPolicyAsEnum
 (
 )
 {
@@ -16376,7 +16376,7 @@ GetParsedAttr
 nsGkAtoms
 :
 :
-referrer
+referrerpolicy
 )
 ;
 if

@@ -572,7 +572,7 @@ getValue
 nsHtml5AttributeName
 :
 :
-ATTR_REFERRER
+ATTR_REFERRERPOLICY
 )
 ;
 nsString

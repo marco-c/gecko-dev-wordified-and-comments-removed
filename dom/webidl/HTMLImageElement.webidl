@@ -284,7 +284,7 @@ enablePerElementReferrer
 ]
 attribute
 DOMString
-referrer
+referrerPolicy
 ;
 [
 SetterThrows

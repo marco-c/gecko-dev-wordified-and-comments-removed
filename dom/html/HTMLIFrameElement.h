@@ -721,7 +721,7 @@ aError
 ;
 }
 void
-SetReferrer
+SetReferrerPolicy
 (
 const
 nsAString
@@ -737,14 +737,14 @@ SetHTMLAttr
 nsGkAtoms
 :
 :
-referrer
+referrerpolicy
 aReferrer
 aError
 )
 ;
 }
 void
-GetReferrer
+GetReferrerPolicy
 (
 nsAString
 &
@@ -756,7 +756,7 @@ GetHTMLAttr
 nsGkAtoms
 :
 :
-referrer
+referrerpolicy
 aReferrer
 )
 ;

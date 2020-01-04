@@ -267,7 +267,7 @@ enablePerElementReferrer
 ]
 attribute
 DOMString
-referrer
+referrerPolicy
 ;
 readonly
 attribute
