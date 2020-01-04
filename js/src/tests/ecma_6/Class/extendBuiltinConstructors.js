@@ -71,6 +71,11 @@ testBuiltin
 Object
 )
 ;
+testBuiltin
+(
+Boolean
+)
+;
 ;
 if
 (
