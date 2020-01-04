@@ -3388,6 +3388,7 @@ nsIRunnable
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
+explicit
 ClearTask
 (
 DebugDataSender
@@ -3444,6 +3445,7 @@ nsIRunnable
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
+explicit
 SendTask
 (
 DebugDataSender
@@ -3546,6 +3548,7 @@ mHost
 ;
 }
 ;
+explicit
 DebugDataSender
 (
 nsIThread
