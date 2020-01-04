@@ -25,7 +25,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -462,10 +464,12 @@ StaticMutex
 sMutex
 ;
 static
-nsAutoArrayPtr
+UniquePtr
 <
 unsigned
 char
+[
+]
 >
 sDevImportedDERData
 ;
