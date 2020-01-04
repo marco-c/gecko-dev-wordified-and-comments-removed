@@ -332,6 +332,7 @@ CompositorUpdateObserver
 {
 public
 :
+explicit
 LayerTreeUpdateObserver
 (
 TabParent
