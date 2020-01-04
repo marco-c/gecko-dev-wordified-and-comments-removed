@@ -1372,6 +1372,17 @@ pages
 ref
 .
 html
+fuzzy
+-
+if
+(
+browserIsRemote
+&
+&
+d2d
+1
+19
+)
 skip
 -
 if
