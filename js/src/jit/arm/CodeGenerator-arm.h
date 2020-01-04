@@ -1007,6 +1007,15 @@ LTruncateFToInt32
 ins
 )
 ;
+virtual
+void
+visitWrapInt64ToInt32
+(
+LWrapInt64ToInt32
+*
+lir
+)
+;
 void
 visitOutOfLineBailout
 (
