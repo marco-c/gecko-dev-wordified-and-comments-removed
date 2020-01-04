@@ -295,6 +295,14 @@ is_set_
 (
 false
 )
+base_
+(
+NULL
+)
+size_
+(
+0
+)
 {
 }
 ~
