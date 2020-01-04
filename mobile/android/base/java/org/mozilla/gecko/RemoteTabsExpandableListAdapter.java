@@ -726,7 +726,7 @@ R
 .
 drawable
 .
-home_group_expanded
+arrow_down
 :
 R
 .
