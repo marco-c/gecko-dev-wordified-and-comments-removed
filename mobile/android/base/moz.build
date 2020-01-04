@@ -3688,6 +3688,13 @@ HomeScreenPrompt
 java
 '
 '
+promotion
+/
+SimpleHelperUI
+.
+java
+'
+'
 prompts
 /
 ColorPickerInput
