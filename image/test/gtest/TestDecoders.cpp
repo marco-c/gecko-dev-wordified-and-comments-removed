@@ -490,6 +490,10 @@ aTestCase
 mFlags
 &
 TEST_CASE_IS_FUZZY
+?
+1
+:
+0
 )
 )
 ;
