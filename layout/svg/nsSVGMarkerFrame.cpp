@@ -1133,7 +1133,7 @@ parent
 "
 )
 ;
-nsSVGMarkerAnonChildFrameBase
+nsSVGDisplayContainerFrame
 :
 :
 Init

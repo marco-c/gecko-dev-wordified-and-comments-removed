@@ -410,15 +410,11 @@ mInUse2
 ;
 }
 ;
-typedef
-nsSVGDisplayContainerFrame
-nsSVGMarkerAnonChildFrameBase
-;
 class
 nsSVGMarkerAnonChildFrame
 :
 public
-nsSVGMarkerAnonChildFrameBase
+nsSVGDisplayContainerFrame
 {
 friend
 nsContainerFrame
@@ -441,7 +437,7 @@ nsStyleContext
 aContext
 )
 :
-nsSVGMarkerAnonChildFrameBase
+nsSVGDisplayContainerFrame
 (
 aContext
 )
