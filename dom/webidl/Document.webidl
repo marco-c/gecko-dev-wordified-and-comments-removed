@@ -213,6 +213,7 @@ implementation
 ;
 [
 Pure
+Throws
 ]
 readonly
 attribute
@@ -221,6 +222,7 @@ URL
 ;
 [
 Pure
+Throws
 ]
 readonly
 attribute

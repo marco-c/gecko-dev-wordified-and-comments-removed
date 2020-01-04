@@ -16286,12 +16286,13 @@ IsEmpty
 aURI
 )
 {
+spec
+=
 aURI
 -
 >
-GetSpec
+GetSpecOrDefault
 (
-spec
 )
 ;
 }
@@ -16631,6 +16632,9 @@ scriptFileNameModified
 =
 false
 ;
+Unused
+<
+<
 aURI
 -
 >
@@ -16726,6 +16730,9 @@ uriWrappersEnabled
 nsAutoCString
 spec
 ;
+Unused
+<
+<
 docURI
 -
 >
@@ -42635,7 +42642,7 @@ spec
 uri
 -
 >
-GetSpec
+GetSpecIgnoringRef
 (
 spec
 )

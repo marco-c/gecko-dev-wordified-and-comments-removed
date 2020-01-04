@@ -274,6 +274,7 @@ nodeName
 ;
 [
 Pure
+Throws
 ]
 readonly
 attribute

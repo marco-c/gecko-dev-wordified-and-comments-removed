@@ -8495,6 +8495,8 @@ GetDocumentURI
 )
 )
 {
+uri
+=
 tmp
 -
 >
@@ -8508,9 +8510,8 @@ GetDocumentURI
 )
 -
 >
-GetSpec
+GetSpecOrDefault
 (
-uri
 )
 ;
 }

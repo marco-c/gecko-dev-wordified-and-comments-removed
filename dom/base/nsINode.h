@@ -5490,6 +5490,12 @@ GetBaseURIFromJS
 nsAString
 &
 aBaseURI
+mozilla
+:
+:
+ErrorResult
+&
+aRv
 )
 const
 ;

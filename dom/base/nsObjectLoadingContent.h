@@ -901,7 +901,8 @@ bool
 aIgnoreCodebase
 )
 ;
-void
+MOZ_MUST_USE
+nsresult
 BuildParametersArray
 (
 )
