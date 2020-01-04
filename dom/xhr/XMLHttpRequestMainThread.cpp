@@ -11449,7 +11449,7 @@ mFlagSynchronous
 )
 {
 return
-NS_ERROR_DOM_NETWORK_ERR
+rv
 ;
 }
 }
@@ -12624,7 +12624,7 @@ mFlagSynchronous
 )
 {
 return
-NS_ERROR_DOM_NETWORK_ERR
+NS_ERROR_FAILURE
 ;
 }
 else
