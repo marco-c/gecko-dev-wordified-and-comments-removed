@@ -13643,6 +13643,13 @@ ondeviceorientation
 )
 GK_ATOM
 (
+onabsolutedeviceorientation
+"
+onabsolutedeviceorientation
+"
+)
+GK_ATOM
+(
 ondeviceproximity
 "
 ondeviceproximity

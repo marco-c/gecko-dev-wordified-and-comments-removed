@@ -3064,6 +3064,10 @@ ondeviceorientation
 ;
 attribute
 EventHandler
+onabsolutedeviceorientation
+;
+attribute
+EventHandler
 ondeviceproximity
 ;
 attribute
