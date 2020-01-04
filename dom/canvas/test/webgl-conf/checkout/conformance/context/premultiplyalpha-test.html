@@ -73,7 +73,7 @@ src
 .
 .
 /
-resources
+js
 /
 js
 -
@@ -96,7 +96,10 @@ src
 .
 .
 /
-resources
+.
+.
+/
+js
 /
 webgl
 -
@@ -1489,6 +1492,12 @@ UNPACK_PREMULTIPLY_ALPHA_WEBGL
 false
 )
 ;
+wtu
+.
+failIfGLError
+(
+gl
+'
 gl
 .
 pixelStorei
@@ -1499,6 +1508,9 @@ UNPACK_COLORSPACE_CONVERSION_WEBGL
 gl
 .
 NONE
+)
+;
+'
 )
 ;
 gl
