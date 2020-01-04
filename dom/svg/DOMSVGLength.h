@@ -454,6 +454,11 @@ IndexIsValid
 ;
 #
 endif
+void
+CleanupWeakRefs
+(
+)
+;
 RefPtr
 <
 DOMSVGLengthList
