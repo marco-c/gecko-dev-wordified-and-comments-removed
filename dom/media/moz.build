@@ -1125,6 +1125,11 @@ MediaFormatReader
 cpp
 '
 '
+MediaInfo
+.
+cpp
+'
+'
 MediaManager
 .
 cpp
