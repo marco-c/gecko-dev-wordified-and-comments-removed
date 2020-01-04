@@ -6189,6 +6189,17 @@ equals
 (
 scheme
 )
+&
+&
+!
+"
+smsto
+"
+.
+equals
+(
+scheme
+)
 )
 {
 return
