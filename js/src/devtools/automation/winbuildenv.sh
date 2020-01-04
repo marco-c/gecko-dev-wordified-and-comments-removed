@@ -82,7 +82,7 @@ topsrcdir
 pwd
 )
 /
-vs2015u1
+vs2015u2
 "
 #
 When

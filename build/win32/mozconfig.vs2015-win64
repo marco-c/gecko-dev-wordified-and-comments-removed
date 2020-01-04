@@ -31,7 +31,7 @@ TOOLTOOL_DIR
 pwd
 )
 /
-vs2015u1
+vs2015u2
 "
 fi
 export
