@@ -232,7 +232,7 @@ push
 .
 warning
 .
-infoURL
+migrationURL
 "
 )
 ;
