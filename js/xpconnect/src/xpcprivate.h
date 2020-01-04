@@ -2716,14 +2716,6 @@ GetRuntime
 const
 ;
 inline
-XPCContext
-*
-GetXPCContext
-(
-)
-const
-;
-inline
 JSContext
 *
 GetJSContext
@@ -3041,7 +3033,7 @@ State
 {
 INIT_FAILED
 SYSTEM_SHUTDOWN
-HAVE_CONTEXT
+HAVE_RUNTIME
 HAVE_OBJECT
 HAVE_NAME
 HAVE_ARGS
@@ -3104,9 +3096,9 @@ nsXPConnect
 >
 mXPC
 ;
-XPCContext
+XPCJSRuntime
 *
-mXPCContext
+mXPCJSRuntime
 ;
 JSContext
 *
