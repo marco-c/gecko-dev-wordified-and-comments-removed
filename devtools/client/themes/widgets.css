@@ -415,6 +415,15 @@ devtools
 sidebar
 -
 tabs
+:
+not
+(
+[
+pane
+-
+collapsed
+]
+)
 {
 min
 -
