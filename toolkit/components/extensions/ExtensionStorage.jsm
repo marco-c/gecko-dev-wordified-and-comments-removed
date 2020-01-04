@@ -290,12 +290,7 @@ Cu
 .
 waiveXrays
 (
-Cu
-.
-Sandbox
-(
 global
-)
 .
 JSON
 )
