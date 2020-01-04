@@ -1,3 +1,5 @@
+this
+.
 __defineGetter__
 (
 "

@@ -1,8 +1,15 @@
+var
+global
+=
+this
+;
 (
 function
 (
 )
 {
+global
+.
 __defineGetter__
 (
 "

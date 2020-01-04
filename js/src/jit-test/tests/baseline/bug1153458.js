@@ -1,5 +1,7 @@
 try
 {
+this
+.
 __defineGetter__
 (
 "

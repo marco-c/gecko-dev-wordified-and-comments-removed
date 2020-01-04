@@ -15,6 +15,8 @@ function
 {
 }
 )
+this
+.
 __defineGetter__
 (
 "

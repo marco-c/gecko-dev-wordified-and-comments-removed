@@ -25,6 +25,8 @@ a
 (
 )
 }
+this
+.
 __defineGetter__
 (
 "
