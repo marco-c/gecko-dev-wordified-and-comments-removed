@@ -2101,6 +2101,17 @@ aFlag
 )
 ;
 static
+void
+SandboxFlagsToString
+(
+uint32_t
+aFlags
+nsAString
+&
+aString
+)
+;
+static
 nsresult
 GenerateUUIDInPlace
 (
