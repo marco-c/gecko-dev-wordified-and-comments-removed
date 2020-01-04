@@ -531,6 +531,10 @@ bool
 sUseStandinsForNativeColors
 ;
 static
+bool
+sFindbarModalHighlight
+;
+static
 nsLookAndFeel
 *
 sInstance
