@@ -145,10 +145,6 @@ STATE_DISABLED
 filename
 :
 "
-"
-filename
-:
-"
 /
 usr
 /
@@ -273,10 +269,6 @@ nsIPluginTag
 STATE_DISABLED
 ;
 }
-filename
-:
-"
-"
 filename
 :
 "
@@ -412,10 +404,6 @@ nsIPluginTag
 STATE_DISABLED
 ;
 }
-filename
-:
-"
-"
 filename
 :
 "

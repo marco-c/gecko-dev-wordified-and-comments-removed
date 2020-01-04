@@ -747,7 +747,7 @@ if
 isValidURL
 )
 {
-var
+let
 error
 =
 {
@@ -787,7 +787,7 @@ navigator
 onLine
 )
 {
-var
+let
 error
 =
 {
