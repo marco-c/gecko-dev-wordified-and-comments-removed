@@ -437,6 +437,9 @@ media
 TimeIntervals
 mLastBufferedRanges
 ;
+bool
+mIsAudio
+;
 }
 ;
 }
