@@ -120,11 +120,11 @@ eCompositionEnd
 "
 ;
 case
-NS_COMPOSITION_UPDATE
+eCompositionUpdate
 :
 return
 "
-NS_COMPOSITION_UPDATE
+eCompositionUpdate
 "
 ;
 case

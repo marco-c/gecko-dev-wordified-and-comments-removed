@@ -21409,7 +21409,7 @@ case
 eCompositionEnd
 :
 case
-NS_COMPOSITION_UPDATE
+eCompositionUpdate
 :
 case
 NS_COMPOSITION_CHANGE

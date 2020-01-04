@@ -590,11 +590,11 @@ eCompositionEnd
 "
 ;
 case
-NS_COMPOSITION_UPDATE
+eCompositionUpdate
 :
 return
 "
-NS_COMPOSITION_UPDATE
+eCompositionUpdate
 "
 ;
 case
@@ -6099,7 +6099,7 @@ aCompositionEvent
 mMessage
 !
 =
-NS_COMPOSITION_UPDATE
+eCompositionUpdate
 "
 compositionupdate
 event
