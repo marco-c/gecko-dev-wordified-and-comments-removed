@@ -1,3 +1,10 @@
+if
+(
+asyncFunctionsEnabled
+(
+)
+)
+{
 parseModule
 (
 "
@@ -97,6 +104,7 @@ await
 SyntaxError
 )
 ;
+}
 if
 (
 typeof
