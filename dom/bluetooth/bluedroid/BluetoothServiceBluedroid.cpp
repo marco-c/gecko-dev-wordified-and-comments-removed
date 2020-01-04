@@ -3454,8 +3454,6 @@ GetRemoteServiceRecord
 (
 mDeviceAddress
 mUuid
-.
-mUuid
 this
 )
 ;
@@ -3618,8 +3616,6 @@ GetRemoteServiceRecord
 (
 aDeviceAddress
 uuid
-.
-mUuid
 res
 )
 ;
