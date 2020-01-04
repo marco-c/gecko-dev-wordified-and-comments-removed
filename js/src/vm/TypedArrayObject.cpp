@@ -1252,7 +1252,13 @@ newObj
 elements
 (
 )
-true
+nbytes
+>
+=
+sizeof
+(
+uintptr_t
+)
 )
 ;
 return
