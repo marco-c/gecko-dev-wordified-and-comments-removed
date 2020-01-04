@@ -5040,6 +5040,12 @@ this
 clickToPlay
 .
 hidden
+&
+&
+!
+this
+.
+isAudioOnly
 )
 {
 this
