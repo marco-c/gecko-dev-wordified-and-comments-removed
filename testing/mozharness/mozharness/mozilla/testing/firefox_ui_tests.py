@@ -1210,6 +1210,27 @@ dirs
 {
             
 '
+abs_blob_upload_dir
+'
+:
+os
+.
+path
+.
+join
+(
+abs_dirs
+[
+'
+abs_work_dir
+'
+]
+'
+blobber_upload_dir
+'
+)
+            
+'
 abs_reports_dir
 '
 :

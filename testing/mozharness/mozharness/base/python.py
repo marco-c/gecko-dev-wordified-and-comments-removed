@@ -3681,6 +3681,25 @@ abs_blob_upload_dir
 '
 ]
                 
+if
+not
+os
+.
+path
+.
+exists
+(
+upload_dir
+)
+:
+                    
+os
+.
+makedirs
+(
+upload_dir
+)
+                
 with
 open
 (
