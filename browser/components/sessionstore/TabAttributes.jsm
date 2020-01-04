@@ -86,11 +86,6 @@ _attrs
 new
 Set
 (
-[
-"
-muted
-"
-]
 )
 _skipAttrs
 :
@@ -100,6 +95,9 @@ Set
 [
 "
 image
+"
+"
+muted
 "
 "
 pending
