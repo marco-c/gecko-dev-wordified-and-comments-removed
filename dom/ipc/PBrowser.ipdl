@@ -1272,13 +1272,13 @@ bool
 aPositionSpecified
 bool
 aSizeSpecified
-nsCString
+nsString
 aURI
 nsString
 aName
 nsCString
 aFeatures
-nsCString
+nsString
 aBaseURI
 )
 returns
