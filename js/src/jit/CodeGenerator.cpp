@@ -51029,6 +51029,16 @@ allTypes
 )
 ;
 }
+else
+{
+cx
+-
+>
+recoverFromOutOfMemory
+(
+)
+;
+}
 }
 JitcodeGlobalTable
 *
