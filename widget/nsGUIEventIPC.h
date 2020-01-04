@@ -1861,7 +1861,7 @@ WriteParam
 aMsg
 aParam
 .
-height
+mHeight
 )
 ;
 WriteParam
@@ -1958,7 +1958,7 @@ aIter
 aResult
 -
 >
-height
+mHeight
 )
 &
 &

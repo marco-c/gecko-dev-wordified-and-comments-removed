@@ -1950,7 +1950,7 @@ mWidth
 (
 0
 )
-height
+mHeight
 (
 0
 )
@@ -1997,7 +1997,7 @@ mWidth
 (
 0
 )
-height
+mHeight
 (
 0
 )
@@ -2024,7 +2024,7 @@ mWidth
 (
 0
 )
-height
+mHeight
 (
 0
 )
@@ -2103,7 +2103,7 @@ uint32_t
 mWidth
 ;
 uint32_t
-height
+mHeight
 ;
 bool
 isPrimary
@@ -2131,11 +2131,11 @@ aEvent
 .
 mWidth
 ;
-height
+mHeight
 =
 aEvent
 .
-height
+mHeight
 ;
 isPrimary
 =

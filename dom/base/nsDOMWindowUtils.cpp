@@ -3448,7 +3448,7 @@ aWidth
 ;
 event
 .
-height
+mHeight
 =
 aHeight
 ;
