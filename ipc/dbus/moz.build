@@ -107,6 +107,11 @@ DBusConnectionRefPtr
 h
 '
 '
+DBusHelpers
+.
+h
+'
+'
 DBusMessageRefPtr
 .
 h
@@ -136,6 +141,11 @@ SOURCES
 +
 =
 [
+'
+DBusHelpers
+.
+cpp
+'
 '
 DBusUtils
 .
