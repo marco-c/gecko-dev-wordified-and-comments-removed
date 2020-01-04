@@ -308,22 +308,6 @@ mar_channel_ids
 "
 :
 [
-                
-"
-firefox
--
-mozilla
--
-beta
-"
-"
-firefox
--
-mozilla
--
-release
-"
-            
 ]
             
 "
