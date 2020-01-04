@@ -2109,11 +2109,6 @@ BlockReflowInput
 aState
 )
 ;
-bool
-RenumberLists
-(
-)
-;
 void
 ReflowBullet
 (

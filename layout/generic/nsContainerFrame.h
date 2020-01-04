@@ -875,6 +875,11 @@ aFrame
 )
 ;
 bool
+RenumberLists
+(
+)
+;
+bool
 RenumberFrameAndDescendants
 (
 int32_t
