@@ -172,6 +172,7 @@ next
 ;
 }
 function
+*
 step
 (
 )

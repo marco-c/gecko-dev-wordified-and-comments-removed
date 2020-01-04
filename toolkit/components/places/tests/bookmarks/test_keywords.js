@@ -210,6 +210,7 @@ spec
 }
 }
 function
+*
 check_orphans
 (
 )
@@ -623,6 +624,7 @@ NS_ERROR_ILLEGAL_VALUE
 add_task
 (
 function
+*
 test_addBookmarkAndKeyword
 (
 )
@@ -802,6 +804,7 @@ check_orphans
 add_task
 (
 function
+*
 test_addBookmarkToURIHavingKeyword
 (
 )
@@ -896,6 +899,7 @@ check_orphans
 add_task
 (
 function
+*
 test_sameKeywordDifferentURI
 (
 )
@@ -1183,6 +1187,7 @@ check_orphans
 add_task
 (
 function
+*
 test_sameURIDifferentKeyword
 (
 )
@@ -1475,6 +1480,7 @@ check_orphans
 add_task
 (
 function
+*
 test_removeBookmarkWithKeyword
 (
 )
@@ -1559,6 +1565,7 @@ check_orphans
 add_task
 (
 function
+*
 test_unsetKeyword
 (
 )
@@ -1914,6 +1921,7 @@ check_orphans
 add_task
 (
 function
+*
 test_addRemoveBookmark
 (
 )

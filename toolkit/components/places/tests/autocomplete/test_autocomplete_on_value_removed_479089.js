@@ -40,6 +40,7 @@ run_next_test
 add_task
 (
 function
+*
 test_autocomplete_on_value_removed
 (
 )

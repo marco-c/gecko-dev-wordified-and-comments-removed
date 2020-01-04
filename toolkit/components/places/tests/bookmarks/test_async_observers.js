@@ -355,6 +355,7 @@ false
 add_task
 (
 function
+*
 test_add_visit
 (
 )
@@ -504,6 +505,7 @@ visitId
 add_task
 (
 function
+*
 test_add_icon
 (
 )
@@ -558,6 +560,7 @@ observerPromise
 add_task
 (
 function
+*
 test_remove_page
 (
 )
@@ -625,6 +628,7 @@ false
 add_task
 (
 function
+*
 shutdown
 (
 )

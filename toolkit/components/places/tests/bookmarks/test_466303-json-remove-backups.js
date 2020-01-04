@@ -1,6 +1,7 @@
 add_task
 (
 function
+*
 check_max_backups_is_respected
 (
 )
@@ -266,6 +267,7 @@ jsonPath
 add_task
 (
 function
+*
 check_max_backups_greater_than_backups
 (
 )
@@ -385,6 +387,7 @@ null
 add_task
 (
 function
+*
 check_max_backups_null
 (
 )
@@ -504,6 +507,7 @@ null
 add_task
 (
 function
+*
 check_max_backups_undefined
 (
 )

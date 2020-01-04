@@ -356,6 +356,7 @@ searchTerm
 ;
 }
 function
+*
 task_setCountRank
 (
 aURI
@@ -802,6 +803,7 @@ tests
 =
 [
 function
+*
 (
 )
 {
@@ -871,6 +873,7 @@ s2
 ;
 }
 function
+*
 (
 )
 {
@@ -940,6 +943,7 @@ s2
 ;
 }
 function
+*
 (
 )
 {
@@ -1009,6 +1013,7 @@ s2
 ;
 }
 function
+*
 (
 )
 {
@@ -1078,6 +1083,7 @@ s2
 ;
 }
 function
+*
 (
 )
 {
@@ -1151,6 +1157,7 @@ s2
 ;
 }
 function
+*
 (
 )
 {
@@ -1224,6 +1231,7 @@ s1
 ;
 }
 function
+*
 (
 )
 {
@@ -1294,6 +1302,7 @@ s1
 ;
 }
 function
+*
 (
 )
 {
@@ -1364,6 +1373,7 @@ s1
 ;
 }
 function
+*
 (
 )
 {
@@ -1434,6 +1444,7 @@ s2
 ;
 }
 function
+*
 (
 )
 {
@@ -1504,6 +1515,7 @@ s2
 ;
 }
 function
+*
 (
 )
 {
@@ -1579,6 +1591,7 @@ s1
 ;
 }
 function
+*
 (
 )
 {
@@ -1654,6 +1667,7 @@ s1
 ;
 }
 function
+*
 (
 )
 {
@@ -1783,6 +1797,7 @@ s2
 ;
 }
 function
+*
 (
 )
 {
@@ -1934,6 +1949,7 @@ run_next_test
 add_task
 (
 function
+*
 test_adaptive
 (
 )

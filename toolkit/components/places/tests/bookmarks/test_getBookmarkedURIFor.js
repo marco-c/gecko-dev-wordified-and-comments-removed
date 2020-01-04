@@ -25,6 +25,7 @@ run_next_test
 add_task
 (
 function
+*
 test_getBookmarkedURIFor
 (
 )

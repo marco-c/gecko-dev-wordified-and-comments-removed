@@ -632,6 +632,7 @@ run_next_test
 add_task
 (
 function
+*
 test_add_visits_to_database
 (
 )
@@ -1232,6 +1233,7 @@ visits
 add_task
 (
 function
+*
 test_redirects
 (
 )

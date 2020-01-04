@@ -665,6 +665,7 @@ bookmarksExportedFile
 add_task
 (
 function
+*
 test_import_bookmarks
 (
 )
@@ -717,6 +718,7 @@ testImportedBookmarks
 add_task
 (
 function
+*
 test_export_bookmarks
 (
 )
@@ -766,6 +768,7 @@ promiseAsyncUpdates
 add_task
 (
 function
+*
 test_import_exported_bookmarks
 (
 )
@@ -806,6 +809,7 @@ testImportedBookmarks
 add_task
 (
 function
+*
 test_import_ontop
 (
 )
@@ -877,6 +881,7 @@ testImportedBookmarks
 add_task
 (
 function
+*
 test_clean
 (
 )
@@ -894,6 +899,7 @@ eraseEverything
 )
 ;
 function
+*
 testImportedBookmarks
 (
 )
@@ -1046,6 +1052,7 @@ false
 }
 }
 function
+*
 checkItem
 (
 aExpected

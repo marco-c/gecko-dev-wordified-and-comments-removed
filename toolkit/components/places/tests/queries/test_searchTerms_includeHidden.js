@@ -178,6 +178,7 @@ run_next_test
 add_task
 (
 function
+*
 test_initalize
 (
 )
@@ -194,6 +195,7 @@ VISITS
 add_task
 (
 function
+*
 test_searchTerms_includeHidden
 (
 )

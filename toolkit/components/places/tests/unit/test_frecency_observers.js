@@ -11,6 +11,7 @@ run_next_test
 add_task
 (
 function
+*
 test_InsertVisitedURIs_UpdateFrecency_and_History_InsertPlace
 (
 )
@@ -87,6 +88,7 @@ uri
 add_task
 (
 function
+*
 test_nsNavHistory_UpdateFrecency
 (
 )
@@ -148,6 +150,7 @@ uri
 add_task
 (
 function
+*
 test_nsNavHistory_invalidateFrecencies_somePages
 (
 )
@@ -226,6 +229,7 @@ uri
 add_task
 (
 function
+*
 test_nsNavHistory_invalidateFrecencies_allPages
 (
 )
@@ -253,6 +257,7 @@ clearHistory
 add_task
 (
 function
+*
 test_nsNavHistory_DecayFrecency_and_nsNavHistory_FixInvalidFrecencies
 (
 )

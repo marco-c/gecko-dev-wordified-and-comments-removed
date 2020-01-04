@@ -284,6 +284,7 @@ run_next_test
 add_task
 (
 function
+*
 test_results_as_visit
 (
 )

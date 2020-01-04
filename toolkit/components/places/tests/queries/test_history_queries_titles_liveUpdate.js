@@ -195,6 +195,7 @@ run_next_test
 add_task
 (
 function
+*
 pages_query
 (
 )
@@ -388,6 +389,7 @@ clearHistory
 add_task
 (
 function
+*
 visits_query
 (
 )
@@ -593,6 +595,7 @@ clearHistory
 add_task
 (
 function
+*
 pages_searchterm_query
 (
 )
@@ -794,6 +797,7 @@ clearHistory
 add_task
 (
 function
+*
 visits_searchterm_query
 (
 )
@@ -1007,6 +1011,7 @@ clearHistory
 add_task
 (
 function
+*
 pages_searchterm_is_title_query
 (
 )
@@ -1176,6 +1181,7 @@ clearHistory
 add_task
 (
 function
+*
 visits_searchterm_is_title_query
 (
 )

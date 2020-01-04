@@ -175,6 +175,7 @@ DAY_MICROSEC
 )
 ;
 function
+*
 task_populateDB
 (
 aArray

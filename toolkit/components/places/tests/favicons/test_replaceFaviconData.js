@@ -302,6 +302,7 @@ run_next_test
 add_task
 (
 function
+*
 test_replaceFaviconData_validHistoryURI
 (
 )
@@ -472,6 +473,7 @@ clearHistory
 add_task
 (
 function
+*
 test_replaceFaviconData_overrideDefaultFavicon
 (
 )
@@ -664,6 +666,7 @@ clearHistory
 add_task
 (
 function
+*
 test_replaceFaviconData_replaceExisting
 (
 )
@@ -888,6 +891,7 @@ clearHistory
 add_task
 (
 function
+*
 test_replaceFaviconData_unrelatedReplace
 (
 )
@@ -1080,6 +1084,7 @@ clearHistory
 add_task
 (
 function
+*
 test_replaceFaviconData_badInputs
 (
 )
@@ -1264,6 +1269,7 @@ clearHistory
 add_task
 (
 function
+*
 test_replaceFaviconData_twiceReplace
 (
 )

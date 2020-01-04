@@ -243,6 +243,7 @@ run_next_test
 add_task
 (
 function
+*
 test_onVisit
 (
 )
@@ -366,6 +367,7 @@ promiseNotify
 add_task
 (
 function
+*
 test_onVisit
 (
 )
@@ -492,6 +494,7 @@ promiseNotify
 add_task
 (
 function
+*
 test_onDeleteURI
 (
 )
@@ -574,6 +577,7 @@ promiseNotify
 add_task
 (
 function
+*
 test_onDeleteVisits
 (
 )
@@ -702,6 +706,7 @@ promiseNotify
 add_task
 (
 function
+*
 test_onTitleChanged
 (
 )
@@ -787,6 +792,7 @@ promiseNotify
 add_task
 (
 function
+*
 test_onPageChanged
 (
 )

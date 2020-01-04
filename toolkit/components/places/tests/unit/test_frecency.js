@@ -739,6 +739,7 @@ tests
 =
 [
 function
+*
 (
 )
 {
@@ -797,6 +798,7 @@ uri2
 ;
 }
 function
+*
 (
 )
 {
@@ -855,6 +857,7 @@ uri1
 ;
 }
 function
+*
 (
 )
 {
@@ -913,6 +916,7 @@ uri2
 ;
 }
 function
+*
 (
 )
 {
@@ -971,6 +975,7 @@ uri1
 ;
 }
 function
+*
 (
 )
 {
@@ -1030,6 +1035,7 @@ site
 ;
 }
 function
+*
 (
 )
 {
@@ -1089,6 +1095,7 @@ site
 ;
 }
 function
+*
 (
 )
 {
@@ -1148,6 +1155,7 @@ site
 ;
 }
 function
+*
 (
 )
 {
@@ -1207,6 +1215,7 @@ site
 ;
 }
 function
+*
 (
 )
 {
@@ -1252,6 +1261,7 @@ a
 ;
 }
 function
+*
 (
 )
 {
@@ -1297,6 +1307,7 @@ aa
 ;
 }
 function
+*
 (
 )
 {
@@ -1342,6 +1353,7 @@ aaa
 ;
 }
 function
+*
 (
 )
 {
@@ -1387,6 +1399,7 @@ aaaa
 ;
 }
 function
+*
 (
 )
 {
@@ -1432,6 +1445,7 @@ aaa
 ;
 }
 function
+*
 (
 )
 {
@@ -1477,6 +1491,7 @@ aa
 ;
 }
 function
+*
 (
 )
 {
@@ -1539,6 +1554,7 @@ run_next_test
 add_task
 (
 function
+*
 test_frecency
 (
 )
@@ -1619,14 +1635,9 @@ false
 for
 (
 let
-[
 test
-]
-in
-Iterator
-(
+of
 tests
-)
 )
 {
 yield

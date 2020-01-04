@@ -246,6 +246,7 @@ frecency
 "
 ;
 function
+*
 task_initializeBucket
 (
 bucket
@@ -1056,6 +1057,7 @@ run_next_test
 add_task
 (
 function
+*
 test_frecency
 (
 )
@@ -1063,14 +1065,9 @@ test_frecency
 for
 (
 let
-[
 bucket
-]
-in
-Iterator
-(
+of
 bucketPrefs
-)
 )
 {
 yield
