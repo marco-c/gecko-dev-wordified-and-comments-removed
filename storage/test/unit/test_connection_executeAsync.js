@@ -1024,10 +1024,9 @@ stmts
 .
 forEach
 (
-function
-(
 stmt
-)
+=
+>
 stmt
 .
 finalize
