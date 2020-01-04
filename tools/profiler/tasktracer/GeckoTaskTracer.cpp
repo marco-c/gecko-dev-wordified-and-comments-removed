@@ -53,6 +53,15 @@ include
 "
 mozilla
 /
+UniquePtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 unused
 .
 h
@@ -285,7 +294,7 @@ sStarted
 static
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 TraceInfo
 >
@@ -343,10 +352,7 @@ lock
 sMutex
 )
 ;
-nsAutoPtr
-<
-TraceInfo
->
+auto
 *
 info
 =
@@ -355,8 +361,10 @@ sTraceInfos
 >
 AppendElement
 (
-new
+MakeUnique
+<
 TraceInfo
+>
 (
 aTid
 )
@@ -894,7 +902,7 @@ sTraceInfos
 new
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 TraceInfo
 >
