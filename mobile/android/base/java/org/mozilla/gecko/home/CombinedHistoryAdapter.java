@@ -357,7 +357,7 @@ R
 .
 layout
 .
-home_remote_tabs_group
+home_smartfolder
 viewGroup
 false
 )
