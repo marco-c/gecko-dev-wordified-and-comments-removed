@@ -65849,7 +65849,10 @@ name
 CGGeneric
 (
 '
-JS_CallUnbarrieredObjectTracer
+JS
+:
+:
+UnsafeTraceRoot
 (
 trc
 %
@@ -87303,7 +87306,10 @@ trace
 CGGeneric
 (
 '
-JS_CallUnbarrieredObjectTracer
+JS
+:
+:
+UnsafeTraceRoot
 (
 trc
 %
@@ -87358,7 +87364,10 @@ trace
 CGGeneric
 (
 '
-JS_CallUnbarrieredValueTracer
+JS
+:
+:
+UnsafeTraceRoot
 (
 trc
 %
