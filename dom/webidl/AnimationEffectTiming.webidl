@@ -191,6 +191,9 @@ attribute
 FillMode
 fill
 ;
+[
+SetterThrows
+]
 inherit
 attribute
 double
