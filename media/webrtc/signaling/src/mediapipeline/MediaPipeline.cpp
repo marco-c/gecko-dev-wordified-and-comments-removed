@@ -240,6 +240,10 @@ logging
 .
 h
 "
+#
+define
+DEFAULT_SAMPLE_RATE
+32000
 using
 namespace
 mozilla
@@ -7230,7 +7234,7 @@ GenericReceiveListener
 (
 source
 track_id
-16000
+DEFAULT_SAMPLE_RATE
 queue_track
 )
 conduit_
