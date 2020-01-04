@@ -3112,6 +3112,13 @@ hitResult
 hitScrollbar
 )
 ;
+{
+MutexAutoLock
+lock
+(
+mTreeLock
+)
+;
 if
 (
 !
@@ -3130,6 +3137,7 @@ GetApzc
 (
 )
 ;
+}
 }
 if
 (
