@@ -397,11 +397,8 @@ DefaultSurfaceFlags
 )
 ;
 void
-FinalizeDecoder
+NotifyDecodeComplete
 (
-Decoder
-*
-aDecoder
 const
 DecoderFinalStatus
 &
@@ -437,9 +434,6 @@ aSurfaceFlags
 void
 ReportDecoderError
 (
-Decoder
-*
-aDecoder
 )
 ;
 virtual
