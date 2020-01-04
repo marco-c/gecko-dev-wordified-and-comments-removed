@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-const
+var
 {
 classes
 :
@@ -317,9 +317,6 @@ assert
 )
 failures
 .
-"
-+
-"
 Expected
 "
 +
@@ -363,7 +360,7 @@ topic
 data
 )
 {
-let
+var
 message
 =
 subject
@@ -1369,7 +1366,6 @@ tab
 toolId
 hostType
 )
-;
 }
 )
 ;
