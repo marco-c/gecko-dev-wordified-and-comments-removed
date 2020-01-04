@@ -402,6 +402,14 @@ ins
 )
 ;
 void
+visitSimdBinarySaturating
+(
+MSimdBinarySaturating
+*
+ins
+)
+;
+void
 visitSimdSelect
 (
 MSimdSelect
