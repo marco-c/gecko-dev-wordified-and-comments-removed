@@ -31,7 +31,7 @@ Components
 const
 TRANSACTIONS_QUEUE_TIMEOUT_MS
 =
-120000
+240000
 Cu
 .
 import
