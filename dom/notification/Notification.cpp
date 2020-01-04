@@ -11380,12 +11380,8 @@ forget
 p
 -
 >
-MaybeResolve
+MaybeResolveWithUndefined
 (
-JS
-:
-:
-UndefinedHandleValue
 )
 ;
 RefPtr

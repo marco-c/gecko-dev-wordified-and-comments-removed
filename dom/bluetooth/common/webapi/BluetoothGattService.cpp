@@ -1071,12 +1071,8 @@ aIncludedService
 promise
 -
 >
-MaybeResolve
+MaybeResolveWithUndefined
 (
-JS
-:
-:
-UndefinedHandleValue
 )
 ;
 return

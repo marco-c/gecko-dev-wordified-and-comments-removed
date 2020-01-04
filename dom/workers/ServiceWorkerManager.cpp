@@ -3857,12 +3857,8 @@ registration
 mPromise
 -
 >
-MaybeResolve
+MaybeResolveWithUndefined
 (
-JS
-:
-:
-UndefinedHandleValue
 )
 ;
 return

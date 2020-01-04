@@ -1909,12 +1909,8 @@ get
 promise
 -
 >
-MaybeResolve
+MaybeResolveWithUndefined
 (
-JS
-:
-:
-UndefinedHandleValue
 )
 ;
 return
@@ -2059,12 +2055,8 @@ nullptr
 mClosed
 -
 >
-MaybeResolve
+MaybeResolveWithUndefined
 (
-JS
-:
-:
-UndefinedHandleValue
 )
 ;
 }

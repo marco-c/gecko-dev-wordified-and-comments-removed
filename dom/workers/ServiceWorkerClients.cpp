@@ -451,12 +451,8 @@ else
 promise
 -
 >
-MaybeResolve
+MaybeResolveWithUndefined
 (
-JS
-:
-:
-UndefinedHandleValue
 )
 ;
 }
@@ -1076,12 +1072,8 @@ mResult
 promise
 -
 >
-MaybeResolve
+MaybeResolveWithUndefined
 (
-JS
-:
-:
-UndefinedHandleValue
 )
 ;
 }

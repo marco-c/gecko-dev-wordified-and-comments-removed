@@ -2747,12 +2747,8 @@ WorkerPromise
 promise
 -
 >
-MaybeResolve
+MaybeResolveWithUndefined
 (
-JS
-:
-:
-UndefinedHandleValue
 )
 ;
 mPromiseProxy
@@ -3028,12 +3024,8 @@ promiseProxy
 promise
 -
 >
-MaybeResolve
+MaybeResolveWithUndefined
 (
-JS
-:
-:
-UndefinedHandleValue
 )
 ;
 return

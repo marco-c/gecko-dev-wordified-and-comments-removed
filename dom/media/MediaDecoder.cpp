@@ -4095,12 +4095,8 @@ NS_NewRunnableFunction
 promise
 -
 >
-MaybeResolve
+MaybeResolveWithUndefined
 (
-JS
-:
-:
-UndefinedHandleValue
 )
 ;
 }

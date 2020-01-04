@@ -3774,12 +3774,8 @@ aPromise
 promise
 -
 >
-MaybeResolve
+MaybeResolveWithUndefined
 (
-JS
-:
-:
-UndefinedHandleValue
 )
 ;
 DebugOnly

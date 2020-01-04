@@ -3546,12 +3546,8 @@ mReadyPromise
 mReadyPromise
 -
 >
-MaybeResolve
+MaybeResolveWithUndefined
 (
-JS
-:
-:
-UndefinedHandleValue
 )
 ;
 }
