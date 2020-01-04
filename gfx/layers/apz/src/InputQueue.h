@@ -191,6 +191,12 @@ Clear
 (
 )
 ;
+bool
+AllowScrollHandoff
+(
+)
+const
+;
 private
 :
 ~

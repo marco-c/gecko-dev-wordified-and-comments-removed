@@ -1428,7 +1428,7 @@ aSource
 )
 ;
 bool
-AllowScrollHandoffInWheelTransaction
+AllowScrollHandoffInCurrentBlock
 (
 )
 const
