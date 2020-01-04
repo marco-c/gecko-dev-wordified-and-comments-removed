@@ -3240,6 +3240,14 @@ service
 )
 ;
 }
+loginStatusFromVerification404
+(
+)
+{
+return
+LOGIN_FAILED_NETWORK_ERROR
+;
+}
 }
 ;
 function
@@ -3406,7 +3414,10 @@ debug
 (
 "
 _findCluster
-found
+has
+a
+pre
+-
 existing
 clusterURL
 so

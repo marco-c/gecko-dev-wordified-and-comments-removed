@@ -2105,5 +2105,13 @@ true
 }
 ;
 }
+loginStatusFromVerification404
+(
+)
+{
+return
+LOGIN_FAILED_LOGIN_REJECTED
+;
+}
 }
 ;
