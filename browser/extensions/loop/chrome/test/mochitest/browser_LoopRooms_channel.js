@@ -70,6 +70,8 @@ extensions
 /
 loop
 /
+chrome
+/
 test
 /
 mochitest
@@ -295,7 +297,6 @@ Promise
 (
 (
 resolve
-reject
 )
 =
 >

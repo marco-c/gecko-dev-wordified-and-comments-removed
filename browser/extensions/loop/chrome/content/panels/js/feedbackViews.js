@@ -11,7 +11,6 @@ loop
 .
 feedbackViews
 =
-(
 function
 (
 _
@@ -111,7 +110,6 @@ function
 )
 {
 return
-(
 React
 .
 createElement
@@ -222,7 +220,6 @@ feedback_request_button
 )
 )
 )
-)
 ;
 }
 }
@@ -236,7 +233,6 @@ FeedbackView
 }
 ;
 }
-)
 (
 _
 navigator

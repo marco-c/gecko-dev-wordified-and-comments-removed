@@ -5,12 +5,6 @@ strict
 ;
 const
 {
-classes
-:
-Cc
-interfaces
-:
-Ci
 utils
 :
 Cu
@@ -2833,7 +2827,8 @@ DELETE
 .
 then
 (
-response
+(
+)
 =
 >
 {
