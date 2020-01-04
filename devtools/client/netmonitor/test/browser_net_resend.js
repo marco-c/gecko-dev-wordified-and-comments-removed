@@ -1043,10 +1043,6 @@ return
 header
 .
 name
-.
-toLowerCase
-(
-)
 +
 "
 :
@@ -1059,10 +1055,6 @@ value
 =
 =
 ADD_HEADER
-.
-toLowerCase
-(
-)
 ;
 }
 )
