@@ -1063,6 +1063,10 @@ StringIO
 (
 )
         
+if
+mozconfig
+:
+            
 fh
 mozconfig_path
 =
@@ -1071,7 +1075,7 @@ tempfile
 mkstemp
 (
 )
-        
+            
 os
 .
 write
@@ -1079,12 +1083,40 @@ write
 fh
 mozconfig
 )
-        
+            
 os
 .
 close
 (
 fh
+)
+        
+else
+:
+            
+mozconfig_path
+=
+os
+.
+path
+.
+join
+(
+os
+.
+path
+.
+dirname
+(
+__file__
+)
+'
+data
+'
+                                          
+'
+empty_mozconfig
+'
 )
         
 try
@@ -1223,6 +1255,10 @@ sandbox
 finally
 :
             
+if
+mozconfig
+:
+                
 os
 .
 remove
