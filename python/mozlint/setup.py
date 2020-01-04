@@ -10,6 +10,14 @@ VERSION
 DEPS
 =
 [
+"
+mozlog
+>
+=
+3
+.
+4
+"
 ]
 setup
 (
