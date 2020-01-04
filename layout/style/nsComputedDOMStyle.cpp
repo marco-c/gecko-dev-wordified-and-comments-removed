@@ -423,10 +423,10 @@ nsCSSProps
 IsEnabled
 (
 mProperty
-nsCSSProps
+CSSEnabledState
 :
 :
-eEnabledForAllContent
+eForAllContent
 )
 ;
 }
@@ -2878,10 +2878,10 @@ nsCSSProps
 LookupProperty
 (
 aPropertyName
-nsCSSProps
+CSSEnabledState
 :
 :
-eEnabledForAllContent
+eForAllContent
 )
 ;
 bool

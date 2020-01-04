@@ -776,7 +776,7 @@ nsDependentString
 (
 aPropName
 )
-nsCSSProps
+CSSEnabledState
 :
 :
 eIgnoreEnabledState

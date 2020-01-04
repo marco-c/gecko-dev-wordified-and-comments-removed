@@ -256,10 +256,10 @@ ComputeValues
 (
 nsCSSProperty
 aProperty
-nsCSSProps
+mozilla
 :
 :
-EnabledState
+CSSEnabledState
 aEnabledState
 mozilla
 :
@@ -293,10 +293,10 @@ ComputeValues
 (
 nsCSSProperty
 aProperty
-nsCSSProps
+mozilla
 :
 :
-EnabledState
+CSSEnabledState
 aEnabledState
 mozilla
 :
