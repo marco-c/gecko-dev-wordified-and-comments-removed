@@ -3346,7 +3346,7 @@ METHOD_HOMEOBJECT_SLOT
 static
 const
 unsigned
-WASM_MODULE_SLOT
+WASM_INSTANCE_SLOT
 =
 0
 ;
@@ -3356,6 +3356,13 @@ unsigned
 WASM_EXPORT_INDEX_SLOT
 =
 1
+;
+static
+const
+unsigned
+ASMJS_MODULE_SLOT
+=
+0
 ;
 static
 inline
