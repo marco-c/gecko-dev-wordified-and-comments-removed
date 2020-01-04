@@ -185,7 +185,8 @@ TRACE_SANITIZE
 this
 )
 ;
-return_trace
+return
+TRACE_RETURN
 (
 coverage
 .
@@ -292,7 +293,8 @@ TRACE_SANITIZE
 this
 )
 ;
-return_trace
+return
+TRACE_RETURN
 (
 c
 -
@@ -394,7 +396,8 @@ TRACE_SANITIZE
 this
 )
 ;
-return_trace
+return
+TRACE_RETURN
 (
 c
 -
@@ -505,7 +508,8 @@ TRACE_SANITIZE
 this
 )
 ;
-return_trace
+return
+TRACE_RETURN
 (
 c
 -
@@ -652,7 +656,8 @@ sanitize
 c
 )
 )
-return_trace
+return
+TRACE_RETURN
 (
 false
 )
@@ -667,7 +672,8 @@ format
 case
 1
 :
-return_trace
+return
+TRACE_RETURN
 (
 u
 .
@@ -682,7 +688,8 @@ c
 case
 2
 :
-return_trace
+return
+TRACE_RETURN
 (
 u
 .
@@ -697,7 +704,8 @@ c
 case
 3
 :
-return_trace
+return
+TRACE_RETURN
 (
 u
 .
@@ -711,7 +719,8 @@ c
 ;
 default
 :
-return_trace
+return
+TRACE_RETURN
 (
 true
 )
@@ -862,7 +871,8 @@ TRACE_SANITIZE
 this
 )
 ;
-return_trace
+return
+TRACE_RETURN
 (
 carets
 .
@@ -997,7 +1007,8 @@ TRACE_SANITIZE
 this
 )
 ;
-return_trace
+return
+TRACE_RETURN
 (
 coverage
 .
@@ -1091,7 +1102,8 @@ TRACE_SANITIZE
 this
 )
 ;
-return_trace
+return
+TRACE_RETURN
 (
 coverage
 .
@@ -1198,7 +1210,8 @@ sanitize
 c
 )
 )
-return_trace
+return
+TRACE_RETURN
 (
 false
 )
@@ -1213,7 +1226,8 @@ format
 case
 1
 :
-return_trace
+return
+TRACE_RETURN
 (
 u
 .
@@ -1227,7 +1241,8 @@ c
 ;
 default
 :
-return_trace
+return
+TRACE_RETURN
 (
 true
 )
@@ -1581,7 +1596,8 @@ TRACE_SANITIZE
 this
 )
 ;
-return_trace
+return
+TRACE_RETURN
 (
 version
 .

@@ -48,7 +48,8 @@ TRACE_SANITIZE
 this
 )
 ;
-return_trace
+return
+TRACE_RETURN
 (
 c
 -
@@ -273,7 +274,8 @@ TRACE_SANITIZE
 this
 )
 ;
-return_trace
+return
+TRACE_RETURN
 (
 c
 -
@@ -391,7 +393,8 @@ TRACE_SANITIZE
 this
 )
 ;
-return_trace
+return
+TRACE_RETURN
 (
 table
 .
@@ -564,7 +567,8 @@ c
 )
 )
 )
-return_trace
+return
+TRACE_RETURN
 (
 false
 )
@@ -586,7 +590,8 @@ case
 case
 1
 :
-return_trace
+return
+TRACE_RETURN
 (
 u
 .
@@ -600,7 +605,8 @@ c
 ;
 default
 :
-return_trace
+return
+TRACE_RETURN
 (
 true
 )
@@ -904,7 +910,8 @@ c
 )
 )
 )
-return_trace
+return
+TRACE_RETURN
 (
 false
 )
@@ -928,7 +935,8 @@ Typ1Tag
 case
 TrueTypeTag
 :
-return_trace
+return
+TRACE_RETURN
 (
 u
 .
@@ -943,7 +951,8 @@ c
 case
 TTCTag
 :
-return_trace
+return
+TRACE_RETURN
 (
 u
 .
@@ -957,7 +966,8 @@ c
 ;
 default
 :
-return_trace
+return
+TRACE_RETURN
 (
 true
 )
