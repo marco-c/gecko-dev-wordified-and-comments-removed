@@ -173,6 +173,14 @@ false
 ;
 usesScopeChain_
 =
+script_
+-
+>
+module
+(
+)
+|
+|
 (
 script_
 -
