@@ -11488,6 +11488,14 @@ pending
 )
 ;
 }
+else
+{
+WriteStatusFile
+(
+rv
+)
+;
+}
 #
 ifdef
 TEST_UPDATER
