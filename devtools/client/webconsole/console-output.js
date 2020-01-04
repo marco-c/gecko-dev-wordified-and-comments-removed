@@ -15744,9 +15744,6 @@ frame
 .
 lineNumber
 }
-"
-jsdebugger
-"
 )
 ;
 location
