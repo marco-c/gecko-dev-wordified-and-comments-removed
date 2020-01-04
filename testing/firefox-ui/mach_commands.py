@@ -84,9 +84,6 @@ kwargs
 )
 :
     
-import
-argparse
-    
 from
 mozlog
 .
@@ -96,6 +93,30 @@ commandline
     
 import
 firefox_ui_harness
+    
+if
+testtype
+=
+=
+'
+functional
+'
+:
+        
+parser
+=
+setup_argument_parser_functional
+(
+)
+    
+else
+:
+        
+parser
+=
+setup_argument_parser_update
+(
+)
     
 test_types
 =
@@ -248,7 +269,6 @@ resources
 )
     
 if
-not
 kwargs
 .
 get
@@ -259,12 +279,21 @@ tests
 )
 :
         
+tests
+=
 kwargs
-[
+.
+get
+(
 '
 tests
 '
-]
+)
+    
+else
+:
+        
+tests
 =
 [
 os
@@ -330,6 +359,42 @@ stdout
 }
 )
     
+args
+=
+parser
+.
+parse_args
+(
+args
+=
+tests
+)
+    
+for
+k
+v
+in
+kwargs
+.
+iteritems
+(
+)
+:
+        
+setattr
+(
+args
+k
+v
+)
+    
+parser
+.
+verify_usage
+(
+args
+)
+    
 failed
 =
 test_types
@@ -346,7 +411,10 @@ cli
 (
 args
 =
-kwargs
+vars
+(
+args
+)
 )
     
 if
