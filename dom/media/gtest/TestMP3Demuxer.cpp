@@ -1215,13 +1215,11 @@ Type
 )
 )
 ;
-EXPECT_EQ
+EXPECT_FALSE
 (
--
-1
 vbr
 .
-NumFrames
+NumAudioFrames
 (
 )
 )
