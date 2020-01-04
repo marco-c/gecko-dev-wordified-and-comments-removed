@@ -16339,6 +16339,16 @@ pref
 "
 security
 .
+block_script_with_mime_image
+"
+true
+)
+;
+pref
+(
+"
+security
+.
 ssl
 .
 enable_ocsp_must_staple
