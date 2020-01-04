@@ -181,6 +181,13 @@ h
 #
 include
 "
+jswin
+.
+h
+"
+#
+include
+"
 jswrapper
 .
 h
