@@ -53,6 +53,8 @@ MPL
 0
 /
 .
+ifdef
+COMPILE_ENVIRONMENT
 include
 .
 .
@@ -137,6 +139,7 @@ config
 rules
 .
 mk
+endif
 check
 :
 :

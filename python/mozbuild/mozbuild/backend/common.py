@@ -1435,6 +1435,17 @@ WebIDLFile
 )
 :
             
+if
+self
+.
+environment
+.
+is_artifact_build
+:
+                
+return
+True
+            
 self
 .
 _webidls
@@ -1463,6 +1474,17 @@ obj
 GeneratedEventWebIDLFile
 )
 :
+            
+if
+self
+.
+environment
+.
+is_artifact_build
+:
+                
+return
+True
             
 self
 .
@@ -1494,6 +1516,17 @@ TestWebIDLFile
 )
 :
             
+if
+self
+.
+environment
+.
+is_artifact_build
+:
+                
+return
+True
+            
 self
 .
 _webidls
@@ -1523,6 +1556,17 @@ obj
 PreprocessedTestWebIDLFile
 )
 :
+            
+if
+self
+.
+environment
+.
+is_artifact_build
+:
+                
+return
+True
             
 self
 .
@@ -1554,6 +1598,17 @@ GeneratedWebIDLFile
 )
 :
             
+if
+self
+.
+environment
+.
+is_artifact_build
+:
+                
+return
+True
+            
 self
 .
 _webidls
@@ -1583,6 +1638,17 @@ obj
 PreprocessedWebIDLFile
 )
 :
+            
+if
+self
+.
+environment
+.
+is_artifact_build
+:
+                
+return
+True
             
 self
 .
@@ -1614,6 +1680,17 @@ ExampleWebIDLInterface
 )
 :
             
+if
+self
+.
+environment
+.
+is_artifact_build
+:
+                
+return
+True
+            
 self
 .
 _webidls
@@ -1634,6 +1711,17 @@ obj
 IPDLFile
 )
 :
+            
+if
+self
+.
+environment
+.
+is_artifact_build
+:
+                
+return
+True
             
 self
 .
