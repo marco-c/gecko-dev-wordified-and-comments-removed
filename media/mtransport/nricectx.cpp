@@ -2376,16 +2376,6 @@ NR_reg_set_int4
 char
 *
 )
-NR_ICE_REG_ICE_TCP_SO_SOCK_COUNT
-ice_tcp_so_sock_count
-)
-;
-NR_reg_set_int4
-(
-(
-char
-*
-)
 NR_ICE_REG_ICE_TCP_LISTEN_BACKLOG
 ice_tcp_listen_backlog
 )
