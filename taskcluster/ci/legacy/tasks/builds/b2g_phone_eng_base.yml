@@ -78,6 +78,17 @@ B2G_UPDATE_CHANNEL
 '
 default
 '
+MOZHARNESS_CONFIG
+:
+b2g
+/
+taskcluster
+-
+phone
+-
+eng
+.
+py
 command
 :
 -
