@@ -226,6 +226,9 @@ thread
 (
 )
 {
+js
+:
+:
 ThisThread
 :
 :
@@ -262,6 +265,9 @@ testThreadingThreadId
 {
 CHECK
 (
+js
+:
+:
 Thread
 :
 :
@@ -270,6 +276,9 @@ Id
 )
 =
 =
+js
+:
+:
 Thread
 :
 :
@@ -278,6 +287,9 @@ Id
 )
 )
 ;
+js
+:
+:
 Thread
 :
 :
@@ -293,6 +305,9 @@ thread
 [
 ]
 (
+js
+:
+:
 Thread
 :
 :
@@ -304,6 +319,9 @@ idp
 *
 idp
 =
+js
+:
+:
 ThisThread
 :
 :
@@ -316,6 +334,9 @@ GetId
 fromOther
 )
 ;
+js
+:
+:
 Thread
 :
 :
