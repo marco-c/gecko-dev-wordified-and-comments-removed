@@ -55,9 +55,13 @@ LoadDocument
 nsIURI
 *
 aURI
+nsContentPolicyType
+aContentPolicyType
 nsIPrincipal
 *
 aLoaderPrincipal
+nsSecurityFlags
+aSecurityFlags
 nsILoadGroup
 *
 aLoadGroup
