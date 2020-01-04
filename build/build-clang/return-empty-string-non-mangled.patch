@@ -40,10 +40,6 @@ diff
 git
 a
 /
-llvm
-/
-tools
-/
 clang
 /
 tools
@@ -54,10 +50,6 @@ CIndex
 .
 cpp
 b
-/
-llvm
-/
-tools
 /
 clang
 /
@@ -79,10 +71,6 @@ index
 -
 a
 /
-llvm
-/
-tools
-/
 clang
 /
 tools
@@ -96,10 +84,6 @@ cpp
 +
 +
 b
-/
-llvm
-/
-tools
 /
 clang
 /
