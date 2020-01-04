@@ -3355,13 +3355,6 @@ set
 ;
 }
 else
-if
-(
-IsVisibleForPainting
-(
-aBuilder
-)
-)
 {
 aLists
 .
