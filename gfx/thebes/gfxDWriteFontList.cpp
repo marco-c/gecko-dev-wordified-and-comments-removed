@@ -6415,7 +6415,7 @@ S_OK
 ;
 }
 IFACEMETHODIMP
-FontFallbackRenderer
+DWriteFontFallbackRenderer
 :
 :
 DrawGlyphRun
@@ -6637,7 +6637,7 @@ mFallbackRenderer
 mFallbackRenderer
 =
 new
-FontFallbackRenderer
+DWriteFontFallbackRenderer
 (
 dwFactory
 )
