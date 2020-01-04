@@ -2592,6 +2592,9 @@ mozilla
 ReflowInput
 &
 aReflowState
+mozilla
+:
+:
 nsHTMLReflowMetrics
 &
 aMetrics
@@ -2627,6 +2630,9 @@ ReflowInput
 &
 mReflowState
 ;
+mozilla
+:
+:
 nsHTMLReflowMetrics
 &
 mMetrics

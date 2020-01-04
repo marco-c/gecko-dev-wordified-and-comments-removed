@@ -5462,6 +5462,9 @@ const
 nsIFrame
 *
 aFrame
+mozilla
+:
+:
 nsHTMLReflowMetrics
 &
 aMetrics
