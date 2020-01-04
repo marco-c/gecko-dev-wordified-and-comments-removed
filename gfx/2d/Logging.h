@@ -291,6 +291,7 @@ InvalidRect
 CannotDraw3D
 IncompatibleBasicTexturedEffect
 InvalidFont
+AsyncTransactionTimeout
 MustBeLessThanThis
 =
 101
