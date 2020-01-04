@@ -22367,15 +22367,6 @@ script
 )
 )
 {
-if
-(
-script
--
->
-hasIonScript
-(
-)
-)
 script
 -
 >

@@ -1106,7 +1106,7 @@ LSnapshot
 snapshot
 )
 ;
-bool
+void
 encodeSafepoints
 (
 )
