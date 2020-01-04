@@ -498,6 +498,10 @@ const
 nsString
 &
 aDeviceId
+const
+nsACString
+&
+aOrigin
 )
 =
 0

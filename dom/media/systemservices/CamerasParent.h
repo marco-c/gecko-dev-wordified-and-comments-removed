@@ -358,6 +358,9 @@ int
 const
 nsCString
 &
+const
+nsCString
+&
 )
 override
 ;

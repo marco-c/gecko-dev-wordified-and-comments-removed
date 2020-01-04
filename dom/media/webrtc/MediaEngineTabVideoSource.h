@@ -105,6 +105,10 @@ const
 nsString
 &
 aDeviceId
+const
+nsACString
+&
+aOrigin
 )
 override
 ;

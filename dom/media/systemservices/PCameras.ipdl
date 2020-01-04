@@ -246,6 +246,8 @@ int
 engine
 nsCString
 unique_idUTF8
+nsCString
+origin
 )
 ;
 async

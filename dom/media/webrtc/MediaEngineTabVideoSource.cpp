@@ -636,6 +636,10 @@ const
 nsString
 &
 aDeviceId
+const
+nsACString
+&
+aOrigin
 )
 {
 mWindowId
