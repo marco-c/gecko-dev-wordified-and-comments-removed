@@ -1646,15 +1646,6 @@ enable
 -
 necko
 -
-protocols
-'
-'
--
--
-enable
--
-necko
--
 wifi
 '
 '
