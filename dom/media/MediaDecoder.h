@@ -875,13 +875,6 @@ bool
 aLoadInBackground
 )
 ;
-MediaDecoderOwner
-*
-GetMediaOwner
-(
-)
-const
-;
 MediaDecoderStateMachine
 *
 GetStateMachine
