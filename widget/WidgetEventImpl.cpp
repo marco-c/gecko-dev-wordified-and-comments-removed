@@ -449,7 +449,7 @@ ePluginActivate
 mMessage
 =
 =
-NS_PLUGIN_FOCUS
+ePluginFocus
 ;
 }
 bool

@@ -8142,7 +8142,7 @@ anEvent
 mMessage
 =
 =
-NS_PLUGIN_FOCUS
+ePluginFocus
 )
 {
 nsIFocusManager
