@@ -228,14 +228,12 @@ aSamplingRate
 :
 BASE_QUALITY
 ;
-printf
+VORBISLOG
 (
 "
 quality
 %
 f
-\
-n
 "
 quality
 )
