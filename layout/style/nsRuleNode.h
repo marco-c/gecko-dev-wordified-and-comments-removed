@@ -1777,9 +1777,11 @@ nsRuleNode
 const
 mParent
 ;
-nsIStyleRule
-*
 const
+nsCOMPtr
+<
+nsIStyleRule
+>
 mRule
 ;
 nsRuleNode
