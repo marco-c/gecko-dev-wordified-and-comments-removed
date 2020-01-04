@@ -2575,9 +2575,6 @@ emitForInOrOfVariables
 ParseNode
 *
 pn
-bool
-*
-letBlockScope
 )
 ;
 bool
