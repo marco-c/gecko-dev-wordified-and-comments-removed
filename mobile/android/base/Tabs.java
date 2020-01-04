@@ -47,15 +47,6 @@ atomic
 AtomicInteger
 ;
 import
-android
-.
-support
-.
-annotation
-.
-Nullable
-;
-import
 org
 .
 json
@@ -1530,7 +1521,6 @@ return
 null
 ;
 }
-Nullable
 public
 Tab
 getSelectedTab
