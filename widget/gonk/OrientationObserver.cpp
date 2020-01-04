@@ -138,14 +138,14 @@ eScreenOrientation_LandscapeSecondary
 ;
 const
 static
-int
+uint32_t
 sDefaultLandscape
 =
 2
 ;
 const
 static
-int
+uint32_t
 sDefaultPortrait
 =
 0
@@ -382,7 +382,7 @@ aResult
 {
 for
 (
-int
+uint32_t
 i
 =
 0
@@ -464,7 +464,7 @@ aResult
 {
 for
 (
-int
+uint32_t
 i
 =
 0
@@ -766,7 +766,10 @@ rotation
 0
 |
 |
+uint32_t
+(
 rotation
+)
 =
 =
 currRotation

@@ -391,6 +391,9 @@ GeckoTouchDispatcher
 h
 "
 #
+undef
+LOG
+#
 define
 LOG
 (

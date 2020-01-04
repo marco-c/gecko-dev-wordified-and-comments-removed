@@ -1098,9 +1098,6 @@ int32_t
 oldMetaState
 )
 {
-int32_t
-mask
-;
 switch
 (
 keyCode

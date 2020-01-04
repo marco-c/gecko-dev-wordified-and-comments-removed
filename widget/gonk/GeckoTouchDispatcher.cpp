@@ -181,6 +181,9 @@ Timers
 h
 >
 #
+undef
+LOG
+#
 define
 LOG
 (

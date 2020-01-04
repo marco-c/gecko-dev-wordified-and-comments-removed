@@ -115,6 +115,9 @@ log
 h
 >
 #
+undef
+ALOGE
+#
 define
 ALOGE
 (
