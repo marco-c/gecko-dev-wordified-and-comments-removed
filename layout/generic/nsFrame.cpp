@@ -11469,7 +11469,6 @@ hoistedScrollInfoItemsStorage
 )
 ;
 }
-else
 if
 (
 useOpacity
