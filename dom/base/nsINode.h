@@ -1260,18 +1260,6 @@ IsInDocument
 )
 ;
 }
-bool
-IsInDoc
-(
-)
-const
-{
-return
-IsInUncomposedDoc
-(
-)
-;
-}
 nsIDocument
 *
 GetUncomposedDoc
@@ -5057,7 +5045,7 @@ eCONTENT
 )
 &
 &
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )

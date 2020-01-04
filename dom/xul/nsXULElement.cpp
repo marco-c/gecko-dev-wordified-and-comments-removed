@@ -4587,7 +4587,7 @@ nsGkAtoms
 accesskey
 &
 &
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )
@@ -4641,7 +4641,7 @@ observes
 )
 &
 &
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )
@@ -7259,7 +7259,7 @@ NS_OK
 if
 (
 !
-IsInDoc
+IsInUncomposedDoc
 (
 )
 |

@@ -6529,7 +6529,7 @@ NS_PRECONDITION
 aFragment
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 "

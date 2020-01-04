@@ -1234,7 +1234,7 @@ AnimationTargetChanged
 else
 if
 (
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )

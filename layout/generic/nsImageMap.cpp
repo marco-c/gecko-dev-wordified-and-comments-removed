@@ -3616,7 +3616,7 @@ area
 mArea
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )

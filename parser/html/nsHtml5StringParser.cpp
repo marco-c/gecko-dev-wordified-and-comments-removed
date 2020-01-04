@@ -210,7 +210,7 @@ NS_ASSERTION
 aTargetNode
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 "

@@ -812,7 +812,7 @@ if
 aPopupFrameElement
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )

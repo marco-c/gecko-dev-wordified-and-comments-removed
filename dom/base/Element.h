@@ -2283,7 +2283,7 @@ return
 if
 (
 !
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )

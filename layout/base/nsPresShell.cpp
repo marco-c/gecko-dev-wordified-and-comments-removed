@@ -21877,7 +21877,7 @@ if
 node
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )
@@ -37154,7 +37154,7 @@ aIsGotCapture
 aCaptureTarget
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )

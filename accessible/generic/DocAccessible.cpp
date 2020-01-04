@@ -659,7 +659,7 @@ provider
 mContent
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 "

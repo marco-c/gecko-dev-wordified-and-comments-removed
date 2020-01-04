@@ -1286,7 +1286,7 @@ if
 focusElementNode
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )

@@ -1467,7 +1467,7 @@ mParserCreating
 {
 if
 (
-IsInDoc
+IsInUncomposedDoc
 (
 )
 &

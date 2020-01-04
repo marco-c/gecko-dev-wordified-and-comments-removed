@@ -4952,7 +4952,7 @@ NS_ASSERTION
 aContent
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 "
@@ -5185,7 +5185,7 @@ NS_ASSERTION
 aContent
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 "

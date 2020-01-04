@@ -12432,7 +12432,7 @@ if
 aStartParent
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )
@@ -12464,7 +12464,7 @@ if
 aStartParent
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )
@@ -13106,7 +13106,7 @@ NS_ENSURE_TRUE
 mStartParent
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 NS_ERROR_UNEXPECTED

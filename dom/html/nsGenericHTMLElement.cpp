@@ -2705,7 +2705,7 @@ aNullParent
 {
 if
 (
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )

@@ -34396,7 +34396,7 @@ MOZ_ASSERT
 adoptedNode
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )
@@ -50818,7 +50818,7 @@ element
 element
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 |
@@ -50953,7 +50953,7 @@ NS_ASSERTION
 element
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 "
@@ -51565,7 +51565,7 @@ if
 aElement
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )
@@ -54983,7 +54983,7 @@ if
 aElement
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )

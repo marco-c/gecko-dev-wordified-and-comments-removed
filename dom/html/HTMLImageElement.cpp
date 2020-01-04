@@ -1998,7 +1998,7 @@ TabIndex
 ;
 if
 (
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )

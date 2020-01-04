@@ -2994,7 +2994,7 @@ NS_WARN_IF
 keyContent
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )
@@ -3053,7 +3053,7 @@ NS_WARN_IF
 keyContent
 -
 >
-IsInDoc
+IsInUncomposedDoc
 (
 )
 )

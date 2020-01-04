@@ -424,7 +424,7 @@ nsGenericDOMDataNode
 NS_PRECONDITION
 (
 !
-IsInDoc
+IsInUncomposedDoc
 (
 )
 "
@@ -2285,7 +2285,7 @@ GetUncomposedDoc
 &
 &
 !
-IsInDoc
+IsInUncomposedDoc
 (
 )
 "

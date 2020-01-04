@@ -464,7 +464,7 @@ GetBindingParent
 |
 (
 !
-IsInDoc
+IsInUncomposedDoc
 (
 )
 &
@@ -1584,7 +1584,7 @@ const
 {
 return
 (
-IsInDoc
+IsInUncomposedDoc
 (
 )
 |
@@ -1609,7 +1609,7 @@ aFrame
 {
 MOZ_ASSERT
 (
-IsInDoc
+IsInUncomposedDoc
 (
 )
 |
