@@ -290,7 +290,7 @@ ClassName
 JSProto_Symbol
 cx
 )
-1
+0
 )
 )
 ;

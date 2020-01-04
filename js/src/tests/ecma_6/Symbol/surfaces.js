@@ -49,7 +49,7 @@ assertEq
 Symbol
 .
 length
-1
+0
 )
 ;
 desc
