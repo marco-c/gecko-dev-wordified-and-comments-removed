@@ -3681,7 +3681,10 @@ mPNG
 }
 MOZ_ASSERT
 (
+WriteState
+(
 result
+)
 !
 =
 WriteState
