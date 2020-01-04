@@ -760,6 +760,12 @@ if
 (
 !
 extension
+|
+|
+!
+extension
+.
+webAccessibleResources
 )
 {
 return
@@ -815,7 +821,7 @@ extension
 .
 webAccessibleResources
 .
-has
+matches
 (
 path
 )
