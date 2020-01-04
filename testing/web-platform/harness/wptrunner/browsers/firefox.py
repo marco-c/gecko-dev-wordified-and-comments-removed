@@ -414,6 +414,24 @@ timeout_multiplier
 ]
 =
 3
+        
+elif
+test_type
+=
+=
+"
+reftest
+"
+:
+            
+executor_kwargs
+[
+"
+timeout_multiplier
+"
+]
+=
+2
     
 return
 executor_kwargs

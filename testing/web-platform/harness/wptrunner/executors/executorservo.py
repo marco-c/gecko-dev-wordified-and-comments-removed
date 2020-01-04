@@ -52,6 +52,26 @@ browsers
 base
 import
 browser_command
+render_arg
+=
+None
+def
+do_delayed_imports
+(
+)
+:
+    
+global
+render_arg
+    
+from
+.
+.
+browsers
+.
+servo
+import
+render_arg
 hosts_text
 =
 "
@@ -218,6 +238,10 @@ False
 )
 :
         
+do_delayed_imports
+(
+)
+        
 ProcessTestExecutor
 .
 __init__
@@ -330,11 +354,14 @@ Event
 args
 =
 [
-"
--
--
-cpu
-"
+render_arg
+(
+self
+.
+browser
+.
+render_backend
+)
 "
 -
 -
@@ -351,6 +378,7 @@ Servo
 /
 wptrunner
 "
+                
 "
 -
 z
@@ -484,6 +512,17 @@ HOST_FILE
 self
 .
 hosts_path
+        
+env
+[
+"
+RUST_BACKTRACE
+"
+]
+=
+"
+1
+"
         
 if
 not
@@ -1000,6 +1039,10 @@ False
 )
 :
         
+do_delayed_imports
+(
+)
+        
 ProcessTestExecutor
 .
 __init__
@@ -1142,11 +1185,14 @@ self
 binary
                 
 [
-"
--
--
-cpu
-"
+render_arg
+(
+self
+.
+browser
+.
+render_backend
+)
 "
 -
 -
@@ -1159,6 +1205,7 @@ fail
 -
 exit
 "
+                 
 "
 -
 u
@@ -1168,7 +1215,6 @@ Servo
 /
 wptrunner
 "
-                 
 "
 -
 Z
@@ -1180,6 +1226,7 @@ text
 -
 aa
 "
+                 
 "
 -
 -
@@ -1279,6 +1326,17 @@ HOST_FILE
 self
 .
 hosts_path
+            
+env
+[
+"
+RUST_BACKTRACE
+"
+]
+=
+"
+1
+"
             
 if
 not
