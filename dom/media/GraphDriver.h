@@ -1101,12 +1101,12 @@ bool
 >
 mInCallback
 ;
-bool
-mMicrophoneActive
-;
 #
 ifdef
 XP_MACOSX
+bool
+mMicrophoneActive
+;
 bool
 OSXDeviceSwitchingWorkaround
 (
