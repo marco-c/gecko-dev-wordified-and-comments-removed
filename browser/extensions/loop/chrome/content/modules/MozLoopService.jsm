@@ -5114,6 +5114,9 @@ kChatboxHangupButton
 id
 )
 ;
+}
+else
+{
 resolve
 (
 windowId
