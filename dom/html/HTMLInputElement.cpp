@@ -3777,12 +3777,12 @@ NS_OK
 ;
 nsRefPtr
 <
-nsVariant
+nsVariantCC
 >
 prefValue
 =
 new
-nsVariant
+nsVariantCC
 (
 )
 ;

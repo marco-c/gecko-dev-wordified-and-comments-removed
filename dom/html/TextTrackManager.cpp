@@ -902,12 +902,12 @@ Length
 {
 nsRefPtr
 <
-nsVariant
+nsVariantCC
 >
 jsCues
 =
 new
-nsVariant
+nsVariantCC
 (
 )
 ;
