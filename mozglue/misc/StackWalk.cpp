@@ -930,7 +930,7 @@ char
 aPrefix
 )
 {
-LPVOID
+LPSTR
 lpMsgBuf
 ;
 DWORD
