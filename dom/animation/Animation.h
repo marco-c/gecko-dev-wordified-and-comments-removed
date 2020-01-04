@@ -390,6 +390,15 @@ mEffect
 void
 SetEffect
 (
+AnimationEffectReadOnly
+*
+aEffect
+)
+{
+}
+void
+SetEffect
+(
 KeyframeEffectReadOnly
 *
 aEffect

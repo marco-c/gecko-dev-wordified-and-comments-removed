@@ -197,16 +197,6 @@ attribute
 DOMString
 id
 ;
-/
-/
-Bug
-1049975
-:
-Make
-'
-effect
-'
-writeable
 [
 Func
 =
@@ -218,7 +208,6 @@ IsWebAnimationsEnabled
 "
 Pure
 ]
-readonly
 attribute
 AnimationEffectReadOnly
 ?
