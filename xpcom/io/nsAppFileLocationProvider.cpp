@@ -1366,7 +1366,7 @@ return
 rv
 ;
 }
-NS_METHOD
+nsresult
 nsAppFileLocationProvider
 :
 :
@@ -1527,7 +1527,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+nsresult
 nsAppFileLocationProvider
 :
 :
@@ -1870,7 +1870,7 @@ return
 rv
 ;
 }
-NS_METHOD
+nsresult
 nsAppFileLocationProvider
 :
 :

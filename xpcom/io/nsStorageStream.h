@@ -142,7 +142,7 @@ mSegmentEnd
 uint32_t
 mLogicalLength
 ;
-NS_METHOD
+nsresult
 Seek
 (
 int32_t

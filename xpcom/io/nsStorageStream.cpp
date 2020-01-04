@@ -1065,7 +1065,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+nsresult
 nsStorageStream
 :
 :
@@ -1335,7 +1335,7 @@ nsStorageInputStream
 }
 protected
 :
-NS_METHOD
+nsresult
 Seek
 (
 uint32_t
@@ -1998,7 +1998,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_METHOD
+nsresult
 nsStorageInputStream
 :
 :

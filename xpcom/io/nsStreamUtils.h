@@ -336,7 +336,7 @@ mClosure
 }
 ;
 extern
-NS_METHOD
+nsresult
 NS_FillArray
 (
 FallibleTArray

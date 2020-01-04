@@ -56,7 +56,7 @@ nsAppFileLocationProvider
 }
 protected
 :
-NS_METHOD
+nsresult
 CloneMozBinDirectory
 (
 nsIFile
@@ -65,7 +65,7 @@ nsIFile
 aLocalFile
 )
 ;
-NS_METHOD
+nsresult
 GetProductDirectory
 (
 nsIFile
@@ -78,7 +78,7 @@ aLocal
 false
 )
 ;
-NS_METHOD
+nsresult
 GetDefaultUserProfileRoot
 (
 nsIFile
