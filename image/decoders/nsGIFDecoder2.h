@@ -182,7 +182,7 @@ count2
 0
 )
 ;
-void
+bool
 CheckForTransparency
 (
 gfx
