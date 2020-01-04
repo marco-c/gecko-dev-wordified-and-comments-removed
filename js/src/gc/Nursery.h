@@ -817,6 +817,13 @@ void
 buffer
 )
 ;
+static
+const
+size_t
+MaxNurseryBufferSize
+=
+1024
+;
 typedef
 Vector
 <
@@ -1345,13 +1352,6 @@ lastCanary_
 ;
 #
 endif
-static
-const
-size_t
-MaxNurseryBufferSize
-=
-1024
-;
 static
 const
 size_t
