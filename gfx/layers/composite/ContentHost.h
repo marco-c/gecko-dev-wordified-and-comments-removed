@@ -430,6 +430,10 @@ mLocked
 (
 false
 )
+mReceivedNewHost
+(
+false
+)
 {
 }
 virtual
@@ -705,6 +709,9 @@ mTextureSourceOnWhite
 ;
 bool
 mLocked
+;
+bool
+mReceivedNewHost
 ;
 }
 ;
