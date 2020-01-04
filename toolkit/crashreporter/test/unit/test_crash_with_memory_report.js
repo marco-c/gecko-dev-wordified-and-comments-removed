@@ -62,6 +62,10 @@ function
 (
 )
 {
+shouldDelay
+=
+true
+;
 let
 Cc
 =

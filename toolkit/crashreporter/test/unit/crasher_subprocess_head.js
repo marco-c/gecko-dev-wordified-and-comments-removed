@@ -298,3 +298,8 @@ CrashTestUtils
 .
 CRASH_INVALID_POINTER_DEREF
 ;
+var
+shouldDelay
+=
+false
+;
