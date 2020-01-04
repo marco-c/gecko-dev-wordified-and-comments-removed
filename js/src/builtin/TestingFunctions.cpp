@@ -8910,10 +8910,7 @@ js
 :
 DumpHeap
 (
-JS_GetRuntime
-(
 cx
-)
 dumpFile
 ?
 dumpFile
