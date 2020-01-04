@@ -16066,7 +16066,7 @@ mCompositorParent
 mCompositorParent
 -
 >
-ScheduleHideAllPluginWindowsAPZ
+ScheduleHideAllPluginWindows
 (
 )
 ;
@@ -16124,7 +16124,7 @@ mCompositorParent
 mCompositorParent
 -
 >
-ScheduleShowAllPluginWindowsAPZ
+ScheduleShowAllPluginWindows
 (
 )
 ;
