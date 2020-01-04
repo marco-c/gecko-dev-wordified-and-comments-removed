@@ -1287,6 +1287,12 @@ hadOutOfMemory
 =
 true
 ;
+AutoSuppressGC
+suppressGC
+(
+cx
+)
+;
 if
 (
 JS
@@ -1305,13 +1311,6 @@ runtime
 >
 oomCallback
 )
-{
-AutoSuppressGC
-suppressGC
-(
-cx
-)
-;
 oomCallback
 (
 cx
@@ -1326,7 +1325,6 @@ runtime
 oomCallbackData
 )
 ;
-}
 if
 (
 cx
@@ -1434,13 +1432,6 @@ runtime
 >
 errorReporter
 )
-{
-AutoSuppressGC
-suppressGC
-(
-cx
-)
-;
 onError
 (
 cx
@@ -1449,7 +1440,6 @@ msg
 report
 )
 ;
-}
 MOZ_ASSERT
 (
 !
