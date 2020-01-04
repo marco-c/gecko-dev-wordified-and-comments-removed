@@ -1988,7 +1988,7 @@ this
 _getString
 (
 "
-addHandlerAddButtonAccesskey
+addProtocolHandlerAddButtonAccesskey
 "
 )
 protocolInfo
