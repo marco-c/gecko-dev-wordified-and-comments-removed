@@ -4826,6 +4826,10 @@ aType
 MediaStreamTrackSource
 *
 aSource
+const
+MediaTrackConstraints
+&
+aConstraints
 )
 {
 MOZ_RELEASE_ASSERT
@@ -4876,6 +4880,7 @@ this
 aTrackID
 aTrackID
 aSource
+aConstraints
 )
 ;
 break
@@ -4895,6 +4900,7 @@ this
 aTrackID
 aTrackID
 aSource
+aConstraints
 )
 ;
 break
