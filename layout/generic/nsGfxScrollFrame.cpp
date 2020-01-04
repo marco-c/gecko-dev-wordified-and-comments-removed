@@ -26612,9 +26612,6 @@ coordNum
 )
 {
 const
-nsStyleImageLayers
-:
-:
 Position
 &
 coordPosition

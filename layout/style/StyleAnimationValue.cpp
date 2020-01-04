@@ -18065,9 +18065,6 @@ void
 SetPositionValue
 (
 const
-nsStyleImageLayers
-:
-:
 Position
 &
 aPos
@@ -18156,9 +18153,6 @@ void
 SetPositionCoordValue
 (
 const
-nsStyleImageLayers
-:
-:
 Position
 :
 :

@@ -10831,9 +10831,6 @@ false
 ;
 }
 void
-nsStyleImageLayers
-:
-:
 Position
 :
 :
@@ -10881,9 +10878,6 @@ true
 ;
 }
 void
-nsStyleImageLayers
-:
-:
 Position
 :
 :
