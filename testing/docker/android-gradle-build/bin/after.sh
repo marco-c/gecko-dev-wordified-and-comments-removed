@@ -28,7 +28,7 @@ GRADLE_VERSION
 =
 2
 .
-7
+10
 }
 set
 -
