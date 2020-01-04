@@ -469,10 +469,8 @@ eval
 let
 moduleRepo
 =
-new
-Map
-(
-)
+{
+}
 ;
 setModuleResolveHook
 (
@@ -497,11 +495,13 @@ specifier
 throw
 "
 Module
+'
 "
 +
 specifier
 +
 "
+'
 not
 found
 "
