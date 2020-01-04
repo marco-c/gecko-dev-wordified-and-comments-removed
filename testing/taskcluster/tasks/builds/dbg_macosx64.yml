@@ -54,6 +54,8 @@ env
 MH_CUSTOM_BUILD_VARIANT_CFG
 :
 '
+cross
+-
 debug
 '
 extra
