@@ -5121,7 +5121,11 @@ savedStacks
 setRNGState
 (
 seed
+(
 seed
++
+1
+)
 *
 33
 )
