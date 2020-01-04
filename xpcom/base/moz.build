@@ -793,10 +793,14 @@ ds
 '
 ]
 if
+'
+gtk
+'
+in
 CONFIG
 [
 '
-MOZ_WIDGET_GTK
+MOZ_WIDGET_TOOLKIT
 '
 ]
 :

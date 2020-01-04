@@ -126,12 +126,11 @@ another
 time
 .
 if
-CONFIG
-[
 '
-MOZ_WIDGET_GTK
+gtk
 '
-]
+in
+toolkit
 :
 DIRS
 +
