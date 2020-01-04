@@ -292,6 +292,7 @@ CannotDraw3D
 IncompatibleBasicTexturedEffect
 InvalidFont
 AsyncTransactionTimeout
+PAllocTextureBackendMismatch
 MustBeLessThanThis
 =
 101
