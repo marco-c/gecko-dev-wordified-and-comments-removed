@@ -179,6 +179,10 @@ NavigationHelper
 import
 com
 .
+jayway
+.
+android
+.
 robotium
 .
 solo

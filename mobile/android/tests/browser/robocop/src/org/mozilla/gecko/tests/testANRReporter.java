@@ -33,6 +33,10 @@ Intent
 import
 com
 .
+jayway
+.
+android
+.
 robotium
 .
 solo

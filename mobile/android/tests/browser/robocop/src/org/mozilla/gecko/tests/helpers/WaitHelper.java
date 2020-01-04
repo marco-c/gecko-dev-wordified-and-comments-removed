@@ -126,6 +126,10 @@ ToolbarComponent
 import
 com
 .
+jayway
+.
+android
+.
 robotium
 .
 solo
@@ -134,6 +138,10 @@ Condition
 ;
 import
 com
+.
+jayway
+.
+android
 .
 robotium
 .

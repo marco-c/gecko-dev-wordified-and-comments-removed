@@ -50,6 +50,10 @@ Activity
 import
 com
 .
+jayway
+.
+android
+.
 robotium
 .
 solo
