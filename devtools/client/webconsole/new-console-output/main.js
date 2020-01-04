@@ -124,6 +124,7 @@ function
 parentNode
 jsterm
 toolbox
+owner
 )
 {
 console
@@ -145,6 +146,7 @@ NewConsoleOutputWrapper
 parentNode
 jsterm
 toolbox
+owner
 )
 ;
 }

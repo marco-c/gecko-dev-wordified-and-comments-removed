@@ -2253,6 +2253,9 @@ this
 .
 jsterm
 toolbox
+this
+.
+owner
 )
 ;
 console
@@ -14243,9 +14246,9 @@ dispatchMessageAdd
 networkInfo
 )
 ;
-return
-;
 }
+else
+{
 this
 .
 webConsoleFrame
@@ -14255,6 +14258,7 @@ handleNetworkEvent
 networkInfo
 )
 ;
+}
 }
 }
 _onNetworkEventUpdate

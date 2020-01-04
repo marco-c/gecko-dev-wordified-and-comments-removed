@@ -94,6 +94,15 @@ result
 js
 '
 '
+network
+-
+event
+-
+message
+.
+js
+'
+'
 page
 -
 error
