@@ -46,12 +46,6 @@ mozfile
 '
 mozbase
 /
-mozhttpd
-'
-    
-'
-mozbase
-/
 mozleak
 '
     

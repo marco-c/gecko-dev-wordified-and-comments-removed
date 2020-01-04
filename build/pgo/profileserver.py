@@ -16,9 +16,11 @@ import
 FirefoxRunner
 CLI
 from
-mozhttpd
+wptserve
+.
+server
 import
-MozHttpd
+WebTestHttpd
 import
 json
 import
@@ -84,13 +86,13 @@ from_environment
   
 httpd
 =
-MozHttpd
+WebTestHttpd
 (
 port
 =
 PORT
-                   
-docroot
+                       
+doc_root
 =
 os
 .

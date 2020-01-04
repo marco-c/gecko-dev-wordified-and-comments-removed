@@ -132,12 +132,6 @@ egg
 mozharness
 -
 jetperf
-mozhttpd
-=
-=
-0
-.
-3
 mozinfo
 =
 =

@@ -21,8 +21,12 @@ CommandArgument
     
 CommandProvider
 )
+from
+wptserve
+.
+server
 import
-mozhttpd
+WebTestHttpd
 from
 mozbuild
 .
@@ -691,9 +695,7 @@ http
             
 httpd
 =
-mozhttpd
-.
-MozHttpd
+WebTestHttpd
 (
 host
 =
@@ -707,7 +709,7 @@ addr
 [
 1
 ]
-docroot
+doc_root
 =
 outdir
 )

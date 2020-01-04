@@ -198,9 +198,6 @@ mozinfo
 '
 moznetwork
 '
-'
-mozhttpd
-'
                   
 '
 mozcrash

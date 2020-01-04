@@ -366,7 +366,6 @@ maxdepth
 manifestparser
 gettinginfo
 setuprunning
-mozhttpd
 loggingreporting
 devicemanagement
 Indices

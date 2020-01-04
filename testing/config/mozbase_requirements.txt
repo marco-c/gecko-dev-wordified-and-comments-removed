@@ -33,12 +33,6 @@ mozfile
 /
 mozbase
 /
-mozhttpd
-.
-.
-/
-mozbase
-/
 mozinfo
 .
 .

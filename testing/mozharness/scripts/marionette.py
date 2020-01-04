@@ -2078,9 +2078,6 @@ mozinfo
 '
 moznetwork
 '
-'
-mozhttpd
-'
                       
 '
 mozcrash
