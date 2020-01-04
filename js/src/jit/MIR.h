@@ -56906,6 +56906,7 @@ barrierAfter_
 ;
 public
 :
+explicit
 MAsmJSHeapAccess
 (
 Scalar
@@ -56913,8 +56914,6 @@ Scalar
 :
 Type
 accessType
-bool
-needsBoundsCheck
 unsigned
 numSimdElems
 =
@@ -56939,7 +56938,7 @@ accessType
 )
 needsBoundsCheck_
 (
-needsBoundsCheck
+true
 )
 numSimdElems_
 (
@@ -57167,8 +57166,6 @@ accessType
 MDefinition
 *
 ptr
-bool
-needsBoundsCheck
 unsigned
 numSimdElems
 MemoryBarrierBits
@@ -57184,7 +57181,6 @@ ptr
 MAsmJSHeapAccess
 (
 accessType
-needsBoundsCheck
 numSimdElems
 before
 after
@@ -57354,8 +57350,6 @@ accessType
 MDefinition
 *
 ptr
-bool
-needsBoundsCheck
 unsigned
 numSimdElems
 =
@@ -57379,7 +57373,6 @@ MAsmJSLoadHeap
 (
 accessType
 ptr
-needsBoundsCheck
 numSimdElems
 barrierBefore
 barrierAfter
@@ -57503,8 +57496,6 @@ ptr
 MDefinition
 *
 v
-bool
-needsBoundsCheck
 unsigned
 numSimdElems
 MemoryBarrierBits
@@ -57521,7 +57512,6 @@ v
 MAsmJSHeapAccess
 (
 accessType
-needsBoundsCheck
 numSimdElems
 before
 after
@@ -57563,8 +57553,6 @@ ptr
 MDefinition
 *
 v
-bool
-needsBoundsCheck
 unsigned
 numSimdElems
 =
@@ -57589,7 +57577,6 @@ MAsmJSStoreHeap
 accessType
 ptr
 v
-needsBoundsCheck
 numSimdElems
 barrierBefore
 barrierAfter
@@ -57690,8 +57677,6 @@ oldv
 MDefinition
 *
 newv
-bool
-needsBoundsCheck
 )
 :
 MTernaryInstruction
@@ -57703,7 +57688,6 @@ newv
 MAsmJSHeapAccess
 (
 accessType
-needsBoundsCheck
 )
 {
 setGuard
@@ -57744,8 +57728,6 @@ oldv
 MDefinition
 *
 newv
-bool
-needsBoundsCheck
 )
 {
 return
@@ -57759,7 +57741,6 @@ accessType
 ptr
 oldv
 newv
-needsBoundsCheck
 )
 ;
 }
@@ -57853,8 +57834,6 @@ ptr
 MDefinition
 *
 value
-bool
-needsBoundsCheck
 )
 :
 MBinaryInstruction
@@ -57865,7 +57844,6 @@ value
 MAsmJSHeapAccess
 (
 accessType
-needsBoundsCheck
 )
 {
 setGuard
@@ -57903,8 +57881,6 @@ ptr
 MDefinition
 *
 value
-bool
-needsBoundsCheck
 )
 {
 return
@@ -57917,7 +57893,6 @@ MAsmJSAtomicExchangeHeap
 accessType
 ptr
 value
-needsBoundsCheck
 )
 ;
 }
@@ -58002,8 +57977,6 @@ ptr
 MDefinition
 *
 v
-bool
-needsBoundsCheck
 )
 :
 MBinaryInstruction
@@ -58014,7 +57987,6 @@ v
 MAsmJSHeapAccess
 (
 accessType
-needsBoundsCheck
 )
 op_
 (
@@ -58058,8 +58030,6 @@ ptr
 MDefinition
 *
 v
-bool
-needsBoundsCheck
 )
 {
 return
@@ -58073,7 +58043,6 @@ op
 accessType
 ptr
 v
-needsBoundsCheck
 )
 ;
 }

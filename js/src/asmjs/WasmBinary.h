@@ -515,15 +515,6 @@ F64StoreMemF32
 Limit
 }
 ;
-enum
-NeedsBoundsCheck
-:
-uint8_t
-{
-NO_BOUNDS_CHECK
-NEEDS_BOUNDS_CHECK
-}
-;
 typedef
 Vector
 <
