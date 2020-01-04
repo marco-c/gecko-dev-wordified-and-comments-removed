@@ -19,7 +19,7 @@ include
 "
 mozilla
 /
-unused
+Unused
 .
 h
 "
@@ -192,7 +192,7 @@ include
 "
 mozilla
 /
-unused
+Unused
 .
 h
 "

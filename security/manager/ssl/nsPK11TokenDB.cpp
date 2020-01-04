@@ -19,7 +19,7 @@ include
 "
 mozilla
 /
-unused
+Unused
 .
 h
 "
@@ -481,10 +481,7 @@ destructorSafeDestroyNSSReference
 ;
 shutdown
 (
-ShutdownCalledFrom
-:
-:
-Object
+calledFromObject
 )
 ;
 }
@@ -1994,10 +1991,7 @@ return
 }
 shutdown
 (
-ShutdownCalledFrom
-:
-:
-Object
+calledFromObject
 )
 ;
 }

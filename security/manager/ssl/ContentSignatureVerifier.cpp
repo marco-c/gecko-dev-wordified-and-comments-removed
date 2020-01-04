@@ -56,7 +56,7 @@ include
 "
 mozilla
 /
-unused
+Unused
 .
 h
 "
@@ -247,10 +247,7 @@ destructorSafeDestroyNSSReference
 ;
 shutdown
 (
-ShutdownCalledFrom
-:
-:
-Object
+calledFromObject
 )
 ;
 }
