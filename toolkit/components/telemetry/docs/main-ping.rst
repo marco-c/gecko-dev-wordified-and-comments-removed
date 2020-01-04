@@ -2571,13 +2571,6 @@ pluginVersion
 .
 209
 "
-"
-pluginIsWhitelistedForShumway
-"
-:
-"
-false
-"
 }
 .
 .
@@ -2916,13 +2909,6 @@ pluginVersion
 0
 .
 209
-"
-"
-pluginIsWhitelistedForShumway
-"
-:
-"
-false
 "
 .
 .
