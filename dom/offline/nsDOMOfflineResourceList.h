@@ -474,7 +474,10 @@ Length
 (
 )
 {
-ErrorResult
+mozilla
+:
+:
+IgnoredErrorResult
 rv
 ;
 uint32_t
