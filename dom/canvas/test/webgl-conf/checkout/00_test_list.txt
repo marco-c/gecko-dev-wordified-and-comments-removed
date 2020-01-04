@@ -32,14 +32,6 @@ more
 00_test_list
 .
 txt
-/
-/
-Disable
-deqp
-tests
-temporarily
-/
-/
 deqp
 /
 00_test_list
