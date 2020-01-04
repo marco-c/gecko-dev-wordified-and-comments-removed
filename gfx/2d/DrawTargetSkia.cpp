@@ -6694,6 +6694,7 @@ textureProvider
 wrapBackendTexture
 (
 texDesc
+kAdopt_GrWrapOwnership
 )
 )
 ;
