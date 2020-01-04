@@ -1,3 +1,8 @@
+requestLongerTimeout
+(
+2
+)
+;
 const
 PRELOAD_PREF
 =
