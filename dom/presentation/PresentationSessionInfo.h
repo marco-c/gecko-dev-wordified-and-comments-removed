@@ -898,6 +898,11 @@ aProcessId
 )
 override
 ;
+nsresult
+DoReconnect
+(
+)
+;
 private
 :
 ~
