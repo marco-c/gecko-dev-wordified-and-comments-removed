@@ -778,7 +778,7 @@ PRErrorCode
 intoleranceReason
 )
 ;
-uint16_t
+void
 forgetIntolerance
 (
 const
