@@ -3460,9 +3460,6 @@ savedStacks_
 .
 sweep
 (
-runtimeFromAnyThread
-(
-)
 )
 ;
 }
