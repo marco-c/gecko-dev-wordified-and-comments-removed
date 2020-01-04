@@ -283,6 +283,22 @@ TOPOBJDIR
 '
 ]
     
+sanitized_config
+[
+'
+mozconfig
+'
+]
+=
+config
+.
+get
+(
+'
+MOZCONFIG
+'
+)
+    
 print
 (
 "
@@ -469,6 +485,9 @@ non_global_defines
 '
 '
 substs
+'
+'
+mozconfig
 '
 ]
 "
