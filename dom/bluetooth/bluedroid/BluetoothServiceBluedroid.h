@@ -1589,7 +1589,7 @@ NextBluetoothProfileController
 BluetoothAddress
 mBdAddress
 ;
-nsString
+BluetoothRemoteName
 mBdName
 ;
 bool
@@ -1676,7 +1676,7 @@ mGetDeviceRequests
 nsDataHashtable
 <
 BluetoothAddressHashKey
-nsString
+BluetoothRemoteName
 >
 mDeviceNameMap
 ;

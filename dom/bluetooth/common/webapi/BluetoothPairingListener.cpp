@@ -192,7 +192,7 @@ BluetoothPairingListener
 DispatchPairingEvent
 (
 const
-nsAString
+BluetoothRemoteName
 &
 aName
 const
@@ -224,7 +224,7 @@ MOZ_ASSERT
 !
 aName
 .
-IsEmpty
+IsCleared
 (
 )
 &
@@ -235,6 +235,15 @@ aType
 IsEmpty
 (
 )
+)
+;
+nsString
+nameStr
+;
+RemoteNameToString
+(
+aName
+nameStr
 )
 ;
 nsString
@@ -272,7 +281,7 @@ init
 .
 mDeviceName
 =
-aName
+nameStr
 ;
 init
 .
@@ -423,7 +432,7 @@ type
 BluetoothValue
 :
 :
-TnsString
+TBluetoothRemoteName
 &
 &
 arr
@@ -482,7 +491,9 @@ get_BluetoothAddress
 (
 )
 ;
-nsString
+const
+BluetoothRemoteName
+&
 name
 =
 arr
@@ -494,7 +505,7 @@ value
 (
 )
 .
-get_nsString
+get_BluetoothRemoteName
 (
 )
 ;
