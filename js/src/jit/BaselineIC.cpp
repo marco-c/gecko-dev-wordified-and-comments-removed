@@ -15120,6 +15120,11 @@ ObjectElements
 :
 :
 COPY_ON_WRITE
+|
+ObjectElements
+:
+:
+FROZEN
 )
 &
 noSpecialHandling
@@ -15140,6 +15145,11 @@ ObjectElements
 :
 :
 COPY_ON_WRITE
+|
+ObjectElements
+:
+:
+FROZEN
 )
 &
 failure
@@ -16230,6 +16240,11 @@ ObjectElements
 :
 :
 COPY_ON_WRITE
+|
+ObjectElements
+:
+:
+FROZEN
 )
 &
 failure
