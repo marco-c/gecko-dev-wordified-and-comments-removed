@@ -700,6 +700,19 @@ strict_type_checks
         
 self
 .
+_is_use_counter
+=
+name
+.
+startswith
+(
+"
+USE_COUNTER2_
+"
+)
+        
+self
+.
 verify_attributes
 (
 name
@@ -1601,6 +1614,13 @@ allowed_keys
 )
         
 if
+not
+self
+.
+_is_use_counter
+:
+            
+if
 '
 alert_emails
 '
@@ -1608,7 +1628,7 @@ not
 in
 definition
 :
-            
+                
 if
 whitelists
 is
@@ -1625,7 +1645,7 @@ alert_emails
 '
 ]
 :
-                
+                    
 raise
 KeyError
 '
@@ -1644,7 +1664,7 @@ field
 '
 %
 name
-        
+            
 elif
 not
 isinstance
@@ -1658,7 +1678,7 @@ alert_emails
 list
 )
 :
-            
+                
 raise
 KeyError
 '
@@ -1702,7 +1722,7 @@ name
 definition
 )
         
-Histogram
+self
 .
 check_bug_numbers
 (
@@ -1849,15 +1869,22 @@ expires_in_version
 =
 expiration
     
-staticmethod
-    
 def
 check_bug_numbers
 (
+self
 name
 definition
 )
 :
+        
+if
+self
+.
+_is_use_counter
+:
+            
+return
         
 bug_numbers
 =
