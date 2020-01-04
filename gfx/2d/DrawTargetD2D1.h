@@ -1284,6 +1284,9 @@ mDependentTargets
 TargetSet
 mDependingOnTargets
 ;
+uint32_t
+mPushedLayersSincePurge
+;
 static
 ID2D1Factory1
 *
