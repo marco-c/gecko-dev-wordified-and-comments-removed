@@ -1068,18 +1068,6 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_IMETHODIMP
-DummyChannel
-:
-:
-ForceNoIntercept
-(
-)
-{
-return
-NS_OK
-;
-}
 AppProtocolHandler
 :
 :
@@ -1382,7 +1370,7 @@ NS_ENSURE_ARG_POINTER
 aUri
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsJARChannel
 >
@@ -1653,7 +1641,7 @@ get
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsIChannel
 >
@@ -1757,7 +1745,7 @@ get
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsIChannel
 >
