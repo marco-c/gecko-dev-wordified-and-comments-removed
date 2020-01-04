@@ -957,6 +957,11 @@ CloseChannel
 )
 ;
 bool
+ShouldBlockContent
+(
+)
+;
+bool
 ShouldPlay
 (
 FallbackType
@@ -1240,6 +1245,11 @@ mNetworkCreated
 ;
 bool
 mActivated
+:
+1
+;
+bool
+mContentBlockingDisabled
 :
 1
 ;
