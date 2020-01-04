@@ -2541,6 +2541,13 @@ requestStartTime
 this
 .
 window
+&
+&
+this
+.
+window
+.
+performance
 ?
 this
 .
