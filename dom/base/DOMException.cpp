@@ -1146,6 +1146,9 @@ Exception
 :
 GetFilename
 (
+JSContext
+*
+aCx
 nsAString
 &
 aFilename
@@ -1168,6 +1171,7 @@ mLocation
 >
 GetFilename
 (
+aCx
 aFilename
 )
 ;
