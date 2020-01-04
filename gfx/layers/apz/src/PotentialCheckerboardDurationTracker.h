@@ -39,13 +39,10 @@ CheckerboardDone
 )
 ;
 void
-TransformStarted
+InTransform
 (
-)
-;
-void
-TransformStopped
-(
+bool
+aInTransform
 )
 ;
 private
