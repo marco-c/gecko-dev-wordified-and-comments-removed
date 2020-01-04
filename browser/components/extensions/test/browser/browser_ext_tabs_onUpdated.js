@@ -1001,7 +1001,7 @@ assertEq
 "
 about
 :
-preferences
+blank
 "
 changeInfo
 .
@@ -1066,7 +1066,7 @@ url
 "
 about
 :
-preferences
+blank
 "
 }
 )
