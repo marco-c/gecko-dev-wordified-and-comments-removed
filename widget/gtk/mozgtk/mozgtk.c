@@ -511,6 +511,10 @@ gdk_x11_get_default_xdisplay
 )
 STUB
 (
+gdk_x11_get_server_time
+)
+STUB
+(
 gdk_x11_get_xatom_by_name
 )
 STUB
