@@ -790,11 +790,13 @@ numArgsStr
 40
 ]
 ;
-JS_snprintf
+snprintf
 (
 numArgsStr
 sizeof
+(
 numArgsStr
+)
 "
 %
 u

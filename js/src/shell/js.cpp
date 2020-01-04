@@ -8085,7 +8085,7 @@ loadLengthStr
 16
 ]
 ;
-JS_snprintf
+snprintf
 (
 loadLengthStr
 sizeof
@@ -8105,7 +8105,7 @@ saveLengthStr
 16
 ]
 ;
-JS_snprintf
+snprintf
 (
 saveLengthStr
 sizeof

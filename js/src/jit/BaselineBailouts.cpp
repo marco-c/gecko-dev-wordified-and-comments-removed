@@ -5398,7 +5398,7 @@ return
 false
 ;
 }
-JS_snprintf
+snprintf
 (
 buf
 len

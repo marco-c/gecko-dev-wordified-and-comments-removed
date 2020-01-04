@@ -7142,7 +7142,7 @@ if
 !
 target
 )
-JS_snprintf
+snprintf
 (
 labelBuf
 sizeof
@@ -7280,7 +7280,7 @@ if
 target
 )
 {
-JS_snprintf
+snprintf
 (
 labelBuf
 sizeof

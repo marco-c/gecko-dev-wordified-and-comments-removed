@@ -1950,7 +1950,7 @@ buffer
 )
 )
 ;
-JS_snprintf
+snprintf
 (
 buffer
 sizeof
@@ -2147,7 +2147,7 @@ if
 nonincrementalReason_
 )
 {
-JS_snprintf
+snprintf
 (
 buffer
 sizeof
@@ -2208,7 +2208,7 @@ total
 }
 else
 {
-JS_snprintf
+snprintf
 (
 buffer
 sizeof
@@ -2256,7 +2256,7 @@ UniqueChars
 nullptr
 )
 ;
-JS_snprintf
+snprintf
 (
 buffer
 sizeof
@@ -2397,7 +2397,7 @@ gckind
 GC_SHRINK
 )
 {
-JS_snprintf
+snprintf
 (
 buffer
 sizeof
@@ -2568,7 +2568,7 @@ ownTime
 MaxUnaccountedTimeUS
 )
 {
-JS_snprintf
+snprintf
 (
 buffer
 sizeof
@@ -2635,7 +2635,7 @@ level
 3
 )
 ;
-JS_snprintf
+snprintf
 (
 buffer
 sizeof
@@ -3132,7 +3132,7 @@ buffer
 )
 )
 ;
-JS_snprintf
+snprintf
 (
 buffer
 sizeof
@@ -3381,7 +3381,7 @@ buffer
 )
 )
 ;
-JS_snprintf
+snprintf
 (
 buffer
 sizeof
@@ -3601,7 +3601,7 @@ ownTime
 0
 )
 {
-JS_snprintf
+snprintf
 (
 buffer
 sizeof
@@ -3676,7 +3676,7 @@ level
 3
 )
 ;
-JS_snprintf
+snprintf
 (
 buffer
 sizeof
@@ -3816,7 +3816,7 @@ buffer
 )
 )
 ;
-JS_snprintf
+snprintf
 (
 buffer
 sizeof
@@ -4371,7 +4371,7 @@ buffer
 )
 )
 ;
-JS_snprintf
+snprintf
 (
 buffer
 sizeof
@@ -4683,7 +4683,7 @@ buffer
 )
 )
 ;
-JS_snprintf
+snprintf
 (
 buffer
 sizeof
@@ -4904,7 +4904,7 @@ dagSlot
 phase
 ]
 ;
-JS_snprintf
+snprintf
 (
 buffer
 sizeof
@@ -4920,11 +4920,14 @@ s
 "
 :
 %
-llu
+"
+PRId64
+"
 .
 %
-03llu
+03
 "
+PRId64
 name
 .
 get

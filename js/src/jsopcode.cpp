@@ -4620,7 +4620,7 @@ numBuf2
 12
 ]
 ;
-JS_snprintf
+snprintf
 (
 numBuf1
 sizeof
@@ -4632,7 +4632,7 @@ d
 op
 )
 ;
-JS_snprintf
+snprintf
 (
 numBuf2
 sizeof
@@ -5691,7 +5691,7 @@ numBuf
 12
 ]
 ;
-JS_snprintf
+snprintf
 (
 numBuf
 sizeof

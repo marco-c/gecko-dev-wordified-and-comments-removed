@@ -4854,7 +4854,7 @@ displayAtom
 )
 ;
 else
-JS_snprintf
+snprintf
 (
 buf
 mozilla
@@ -7000,7 +7000,7 @@ native
 )
 )
 ;
-JS_snprintf
+snprintf
 (
 locationBuf
 mozilla
@@ -7012,8 +7012,8 @@ locationBuf
 )
 "
 %
-llx
 "
+PRIxPTR
 addr
 )
 ;
@@ -7101,7 +7101,7 @@ clasp
 >
 name
 ;
-JS_snprintf
+snprintf
 (
 buf
 bufsize

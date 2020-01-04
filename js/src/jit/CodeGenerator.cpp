@@ -27974,7 +27974,7 @@ if
 description
 )
 {
-JS_snprintf
+snprintf
 (
 description
 200

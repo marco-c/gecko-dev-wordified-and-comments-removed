@@ -1656,7 +1656,7 @@ buf
 #
 ifndef
 JS_MORE_DETERMINISTIC
-JS_snprintf
+snprintf
 (
 buf
 sizeof
@@ -13825,7 +13825,7 @@ buffer
 64
 ]
 ;
-JS_snprintf
+snprintf
 (
 buffer
 sizeof
@@ -14081,7 +14081,7 @@ buffer
 uint32_t
 nchar
 =
-JS_snprintf
+snprintf
 (
 buffer
 sizeof

@@ -336,10 +336,13 @@ array
 size_t
 alen
 =
-JS_snprintf
+snprintf
 (
 array
-16
+sizeof
+(
+array
+)
 "
 %
 u

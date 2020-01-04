@@ -1369,7 +1369,7 @@ linenoStr
 15
 ]
 ;
-JS_snprintf
+snprintf
 (
 linenoStr
 sizeof

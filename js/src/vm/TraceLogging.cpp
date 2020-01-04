@@ -1664,7 +1664,7 @@ size_t
 >
 ret
 =
-JS_snprintf
+snprintf
 (
 str
 len
@@ -2022,7 +2022,7 @@ size_t
 >
 ret
 =
-JS_snprintf
+snprintf
 (
 str
 len

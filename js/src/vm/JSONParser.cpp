@@ -573,7 +573,7 @@ columnNumber
 MaxWidth
 ]
 ;
-JS_snprintf
+snprintf
 (
 columnNumber
 sizeof
@@ -591,7 +591,7 @@ lineNumber
 MaxWidth
 ]
 ;
-JS_snprintf
+snprintf
 (
 lineNumber
 sizeof

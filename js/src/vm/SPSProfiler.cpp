@@ -1771,7 +1771,7 @@ nullptr
 }
 ret
 =
-JS_snprintf
+snprintf
 (
 cstr
 len
@@ -1804,7 +1804,7 @@ else
 {
 ret
 =
-JS_snprintf
+snprintf
 (
 cstr
 len

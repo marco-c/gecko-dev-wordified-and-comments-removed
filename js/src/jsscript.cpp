@@ -13182,10 +13182,13 @@ filename
 size_t
 linenoLen
 =
-JS_snprintf
+snprintf
 (
 linenoBuf
-15
+sizeof
+(
+linenoBuf
+)
 "
 %
 u
@@ -13260,7 +13263,7 @@ size_t
 >
 checkLen
 =
-JS_snprintf
+snprintf
 (
 formatted
 len

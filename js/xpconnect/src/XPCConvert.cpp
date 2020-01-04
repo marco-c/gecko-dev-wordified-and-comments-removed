@@ -1826,7 +1826,7 @@ msg
 MSG_BUF_SIZE
 ]
 ;
-JS_snprintf
+snprintf
 (
 msg
 MSG_BUF_SIZE
@@ -1847,7 +1847,10 @@ lost
 %
 x
 "
+int
+(
 c
+)
 )
 ;
 NS_WARNING

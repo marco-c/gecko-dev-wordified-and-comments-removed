@@ -1296,7 +1296,7 @@ buffer
 10
 ]
 ;
-JS_snprintf
+snprintf
 (
 buffer
 10
@@ -1355,7 +1355,7 @@ buffer
 10
 ]
 ;
-JS_snprintf
+snprintf
 (
 buffer
 10
