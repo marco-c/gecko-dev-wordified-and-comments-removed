@@ -340,6 +340,7 @@ hidden
 add_task
 (
 function
+*
 (
 )
 {
@@ -483,6 +484,7 @@ list
 add_task
 (
 function
+*
 (
 )
 {
@@ -628,6 +630,7 @@ list
 add_task
 (
 function
+*
 (
 )
 {
@@ -860,6 +863,7 @@ list
 add_task
 (
 function
+*
 (
 )
 {

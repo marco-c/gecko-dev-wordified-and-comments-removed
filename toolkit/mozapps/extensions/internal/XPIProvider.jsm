@@ -8791,6 +8791,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -27271,6 +27272,7 @@ spawn
 (
 (
 function
+*
 (
 )
 {
@@ -37013,6 +37015,7 @@ Task
 async
 (
 function
+*
 (
 aAddons
 )

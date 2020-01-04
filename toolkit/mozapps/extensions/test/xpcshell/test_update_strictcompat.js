@@ -5771,6 +5771,7 @@ UPDATE_WHEN_USER_REQUESTED
 add_task
 (
 function
+*
 cleanup
 (
 )

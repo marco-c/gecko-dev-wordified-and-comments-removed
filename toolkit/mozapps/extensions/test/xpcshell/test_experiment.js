@@ -916,6 +916,7 @@ ID
 add_task
 (
 function
+*
 test_checkCompatibility
 (
 )

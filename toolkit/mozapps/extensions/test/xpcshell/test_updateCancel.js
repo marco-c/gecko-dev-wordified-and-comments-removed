@@ -367,6 +367,7 @@ profileDir
 add_task
 (
 function
+*
 cancel_during_check
 (
 )
@@ -516,6 +517,7 @@ true
 add_task
 (
 function
+*
 shutdown_during_check
 (
 )

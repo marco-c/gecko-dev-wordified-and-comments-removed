@@ -221,6 +221,7 @@ checkPending
 add_task
 (
 function
+*
 first_run
 (
 )
@@ -240,6 +241,7 @@ true
 )
 ;
 function
+*
 trigger_db_load
 (
 )
@@ -300,6 +302,7 @@ trigger_db_load
 add_task
 (
 function
+*
 restart_and_recheck
 (
 )

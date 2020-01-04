@@ -1378,6 +1378,7 @@ true
 add_task
 (
 function
+*
 cancel_during_repopulate
 (
 )
@@ -1836,6 +1837,7 @@ ons
 add_task
 (
 function
+*
 cancel_during_findUpdates
 (
 )
@@ -2225,6 +2227,7 @@ promise_uninstall_test_addons
 add_task
 (
 function
+*
 cancel_mismatch
 (
 )
@@ -2669,6 +2672,7 @@ addonList
 add_task
 (
 function
+*
 cancel_mismatch_no_updates
 (
 )

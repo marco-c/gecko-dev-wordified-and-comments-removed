@@ -615,6 +615,7 @@ run_next_test
 add_task
 (
 function
+*
 test_basic_save_succeeds
 (
 )
@@ -671,6 +672,7 @@ totalSaves
 add_task
 (
 function
+*
 test_two_saves
 (
 )
@@ -780,6 +782,7 @@ totalSaves
 add_task
 (
 function
+*
 test_two_saves_delay
 (
 )
@@ -945,6 +948,7 @@ overlappedSaves
 add_task
 (
 function
+*
 test_error_immediate
 (
 )
@@ -1071,6 +1075,7 @@ totalSaves
 add_task
 (
 function
+*
 dirty_while_writing
 (
 )
@@ -1423,6 +1428,7 @@ length
 add_task
 (
 function
+*
 flush_after_save
 (
 )
@@ -1479,6 +1485,7 @@ totalSaves
 add_task
 (
 function
+*
 flush_during_write
 (
 )
@@ -1617,6 +1624,7 @@ totalSaves
 add_task
 (
 function
+*
 flush_while_dirty
 (
 )
@@ -1752,6 +1760,7 @@ totalSaves
 add_task
 (
 function
+*
 flush_writing_dirty
 (
 )
@@ -2047,6 +2056,7 @@ err
 add_task
 (
 function
+*
 data_throw
 (
 )
@@ -2108,6 +2118,7 @@ expectedDataError
 add_task
 (
 function
+*
 data_throw_during_flush
 (
 )
@@ -2224,6 +2235,7 @@ firstCallback_happened
 add_task
 (
 function
+*
 delay_flush_race
 (
 )

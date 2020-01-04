@@ -2295,6 +2295,7 @@ tab
 add_task
 (
 function
+*
 testDeactivateExperiment
 (
 )
@@ -2702,6 +2703,7 @@ visible
 add_task
 (
 function
+*
 testActivateRealExperiments
 (
 )
@@ -4003,6 +4005,7 @@ ago
 add_task
 (
 function
+*
 testDetailView
 (
 )
