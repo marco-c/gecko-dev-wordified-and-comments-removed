@@ -207,6 +207,10 @@ mInLowPrecisionDisplayPort
 (
 false
 )
+mForEventsOnly
+(
+false
+)
 {
 }
 ContainerLayerParameters
@@ -252,6 +256,10 @@ mDisableSubpixelAntialiasingInDescendants
 false
 )
 mInLowPrecisionDisplayPort
+(
+false
+)
+mForEventsOnly
 (
 false
 )
@@ -318,6 +326,12 @@ mInLowPrecisionDisplayPort
 aParent
 .
 mInLowPrecisionDisplayPort
+)
+mForEventsOnly
+(
+aParent
+.
+mForEventsOnly
 )
 {
 }
@@ -376,6 +390,9 @@ mDisableSubpixelAntialiasingInDescendants
 ;
 bool
 mInLowPrecisionDisplayPort
+;
+bool
+mForEventsOnly
 ;
 bool
 AllowResidualTranslation
