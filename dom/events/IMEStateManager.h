@@ -632,8 +632,10 @@ nsIContent
 sContent
 ;
 static
+StaticRefPtr
+<
 nsPresContext
-*
+>
 sPresContext
 ;
 static
