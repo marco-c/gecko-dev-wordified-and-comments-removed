@@ -1622,11 +1622,6 @@ telemetryEnabled
 "
 boolean
 "
-isInOptoutSample
-:
-"
-boolean
-"
 locale
 :
 "
