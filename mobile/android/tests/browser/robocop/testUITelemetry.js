@@ -480,6 +480,11 @@ undefined
 )
 ;
 let
+clearMeasurements
+=
+false
+;
+let
 obs
 =
 getObserver
@@ -495,6 +500,7 @@ obs
 .
 getUIMeasurements
 (
+clearMeasurements
 )
 )
 ;
