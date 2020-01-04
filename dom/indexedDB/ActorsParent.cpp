@@ -22546,10 +22546,6 @@ aNeedsCheckpoint
 void
 Close
 (
-uintptr_t
-aCallsite
-=
-0
 )
 ;
 nsresult
@@ -23389,8 +23385,6 @@ const
 nsACString
 &
 aDatabaseId
-uintptr_t
-aCallsite
 )
 {
 Unused
@@ -23399,7 +23393,6 @@ Unused
 CloseDatabaseWhenIdleInternal
 (
 aDatabaseId
-aCallsite
 )
 ;
 }
@@ -23542,8 +23535,6 @@ CloseDatabase
 DatabaseInfo
 *
 aDatabaseInfo
-uintptr_t
-aCallsite
 )
 ;
 bool
@@ -23553,8 +23544,6 @@ const
 nsACString
 &
 aDatabaseId
-uintptr_t
-aCallsite
 )
 ;
 }
@@ -23661,17 +23650,11 @@ CloseConnectionRunnable
 DatabaseInfo
 *
 aDatabaseInfo
-uintptr_t
-aCallsite
 )
 :
 ConnectionRunnable
 (
 aDatabaseInfo
-)
-mCallsite
-(
-aCallsite
 )
 {
 }
@@ -23685,9 +23668,6 @@ CloseConnectionRunnable
 {
 }
 NS_DECL_NSIRUNNABLE
-uintptr_t
-mCallsite
-;
 }
 ;
 struct
@@ -38302,8 +38282,6 @@ DatabaseConnection
 :
 Close
 (
-uintptr_t
-aCallsite
 )
 {
 AssertIsOnConnectionThread
@@ -38321,33 +38299,12 @@ MOZ_ASSERT
 mDEBUGSavepointCount
 )
 ;
-if
-(
-mInWriteTransaction
-)
-{
-uint32_t
-*
-crashPtr
-=
-(
-uint32_t
-*
-)
-aCallsite
-;
-*
-crashPtr
-=
-42
-;
 MOZ_RELEASE_ASSERT
 (
 !
 mInWriteTransaction
 )
 ;
-}
 PROFILER_LABEL
 (
 "
@@ -42478,7 +42435,6 @@ CloseDatabase
 info
 .
 mDatabaseInfo
-1
 )
 ;
 }
@@ -43780,7 +43736,6 @@ if
 CloseDatabaseWhenIdleInternal
 (
 databaseId
-0x6
 )
 )
 {
@@ -44683,7 +44638,6 @@ CloseDatabase
 idleInfo
 .
 mDatabaseInfo
-2
 )
 ;
 }
@@ -44721,7 +44675,6 @@ dbInfo
 CloseDatabase
 (
 dbInfo
-3
 )
 ;
 }
@@ -46219,7 +46172,6 @@ mCloseOnIdle
 CloseDatabase
 (
 aDatabaseInfo
-4
 )
 ;
 if
@@ -46965,8 +46917,6 @@ CloseDatabase
 DatabaseInfo
 *
 aDatabaseInfo
-uintptr_t
-aCallsite
 )
 {
 AssertIsOnOwningThread
@@ -47049,7 +46999,6 @@ new
 CloseConnectionRunnable
 (
 aDatabaseInfo
-aCallsite
 )
 ;
 MOZ_ALWAYS_SUCCEEDS
@@ -47080,8 +47029,6 @@ const
 nsACString
 &
 aDatabaseId
-uintptr_t
-aCallsite
 )
 {
 AssertIsOnOwningThread
@@ -47156,7 +47103,6 @@ dbInfo
 CloseDatabase
 (
 dbInfo
-aCallsite
 )
 ;
 AdjustIdleTimer
@@ -47516,7 +47462,6 @@ mConnection
 >
 Close
 (
-mCallsite
 )
 ;
 IDB_DEBUG_LOG
@@ -52324,7 +52269,6 @@ CloseDatabaseWhenIdle
 Id
 (
 )
-0x7
 )
 ;
 }
