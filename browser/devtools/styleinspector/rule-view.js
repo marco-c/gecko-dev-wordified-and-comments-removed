@@ -12591,11 +12591,10 @@ highlightedSelector
 )
 ;
 }
-this
+editor
 .
 _moveSelectorFocus
 (
-newRule
 direction
 )
 ;
@@ -12628,7 +12627,6 @@ _moveSelectorFocus
 :
 function
 (
-rule
 direction
 )
 {
@@ -12654,6 +12652,8 @@ return
 }
 if
 (
+this
+.
 rule
 .
 textProps
@@ -12663,6 +12663,8 @@ length
 0
 )
 {
+this
+.
 rule
 .
 textProps
