@@ -1828,7 +1828,7 @@ host
 /
 port
 to
-be
+become
 available
 .
 "
@@ -1895,6 +1895,15 @@ SOCK_STREAM
             
 sock
 .
+settimeout
+(
+0
+.
+5
+)
+            
+sock
+.
 connect
 (
 (
@@ -1919,9 +1928,9 @@ close
 )
             
 if
-'
+"
 :
-'
+"
 in
 data
 :
@@ -1942,6 +1951,9 @@ finally
             
 if
 sock
+is
+not
+None
 :
                 
 sock
