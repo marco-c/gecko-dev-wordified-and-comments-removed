@@ -7,6 +7,13 @@ nsTransferable_h__
 #
 include
 "
+nsIContentPolicyBase
+.
+h
+"
+#
+include
+"
 nsIFormatConverter
 .
 h
@@ -252,6 +259,9 @@ mPrivateData
 ;
 nsWeakPtr
 mRequestingNode
+;
+nsContentPolicyType
+mContentPolicyType
 ;
 #
 if

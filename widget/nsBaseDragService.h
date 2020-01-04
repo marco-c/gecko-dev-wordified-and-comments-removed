@@ -369,6 +369,9 @@ nsIDOMDocument
 >
 mSourceDocument
 ;
+nsContentPolicyType
+mContentPolicyType
+;
 nsCOMPtr
 <
 nsIDOMDataTransfer
