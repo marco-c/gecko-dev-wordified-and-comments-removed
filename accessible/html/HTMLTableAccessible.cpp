@@ -4620,9 +4620,8 @@ table
 )
 ;
 }
-if
+NS_ASSERTION
 (
-!
 mContent
 -
 >
@@ -4633,12 +4632,11 @@ nsGkAtoms
 :
 table
 )
-)
-RETURN_LAYOUT_ANSWER
-(
-true
 "
 table
+should
+not
+be
 built
 by
 CSS
