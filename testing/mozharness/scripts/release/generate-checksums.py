@@ -970,6 +970,7 @@ includes
 =
 [
                 
+r
 "
 ^
 .
@@ -982,6 +983,7 @@ tar
 bz2
 "
                 
+r
 "
 ^
 .
@@ -994,6 +996,7 @@ tar
 xz
 "
                 
+r
 "
 ^
 .
@@ -1003,6 +1006,7 @@ xz
 dmg
 "
                 
+r
 "
 ^
 .
@@ -1012,6 +1016,7 @@ dmg
 bundle
 "
                 
+r
 "
 ^
 .
@@ -1021,6 +1026,7 @@ bundle
 mar
 "
                 
+r
 "
 ^
 .
@@ -1033,6 +1039,7 @@ Setup
 exe
 "
                 
+r
 "
 ^
 .
@@ -1148,6 +1155,7 @@ candidates
 build
 {
 }
+/
 "
 .
 format
@@ -1446,6 +1454,23 @@ bucket
 "
 )
             
+checksum_files
+=
+{
+"
+beets
+"
+:
+[
+]
+"
+checksums
+"
+:
+[
+]
+}
+            
 for
 key
 in
@@ -1496,10 +1521,68 @@ key
 )
 )
                     
-yield
+checksum_files
+[
+"
+checksums
+"
+]
+.
+append
+(
 key
 .
 key
+)
+                
+elif
+key
+.
+key
+.
+endswith
+(
+"
+.
+beet
+"
+)
+:
+                    
+self
+.
+debug
+(
+"
+Found
+beet
+file
+:
+{
+}
+"
+.
+format
+(
+key
+.
+key
+)
+)
+                    
+checksum_files
+[
+"
+beets
+"
+]
+.
+append
+(
+key
+.
+key
+)
                 
 else
 :
@@ -1526,6 +1609,56 @@ key
 key
 )
 )
+            
+if
+checksum_files
+[
+"
+beets
+"
+]
+:
+                
+self
+.
+log
+(
+"
+Using
+beet
+format
+"
+)
+                
+return
+checksum_files
+[
+"
+beets
+"
+]
+            
+else
+:
+                
+self
+.
+log
+(
+"
+Using
+checksums
+format
+"
+)
+                
+return
+checksum_files
+[
+"
+checksums
+"
+]
         
 pool
 =

@@ -828,6 +828,20 @@ contrib
 .
 *
 "
+                
+r
+"
+^
+.
+*
+/
+beetmover
+-
+checksums
+/
+.
+*
+"
             
 ]
     
