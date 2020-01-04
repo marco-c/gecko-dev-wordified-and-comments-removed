@@ -477,7 +477,7 @@ path
 =
 %
 (
-abs_app_dir
+abs_res_dir
 )
 s
 "
