@@ -210,11 +210,6 @@ false
 ;
 }
 void
-ReadLock
-(
-)
-;
-void
 ReleaseTiles
 (
 )

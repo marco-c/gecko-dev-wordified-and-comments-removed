@@ -1732,11 +1732,13 @@ size
 }
 ;
 union
-TileLock
+ReadLockDescriptor
 {
 ShmemSection
 ;
 uintptr_t
+;
+null_t
 ;
 }
 ;
@@ -1761,8 +1763,11 @@ textureOnWhite
 IntRect
 updateRect
 ;
-TileLock
+ReadLockDescriptor
 sharedLock
+;
+ReadLockDescriptor
+sharedLockOnWhite
 ;
 bool
 wasPlaceholder

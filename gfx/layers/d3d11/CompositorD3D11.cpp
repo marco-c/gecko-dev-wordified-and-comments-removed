@@ -6833,6 +6833,13 @@ EndFrame
 (
 )
 {
+Compositor
+:
+:
+EndFrame
+(
+)
+;
 if
 (
 !

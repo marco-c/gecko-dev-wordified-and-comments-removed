@@ -3388,6 +3388,13 @@ EndFrame
 (
 )
 {
+Compositor
+:
+:
+EndFrame
+(
+)
+;
 mRenderTarget
 -
 >

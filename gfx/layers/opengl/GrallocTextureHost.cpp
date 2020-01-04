@@ -1191,6 +1191,13 @@ UnbindTextureSource
 (
 )
 {
+TextureHost
+:
+:
+UnbindTextureSource
+(
+)
+;
 mGLTextureSource
 =
 nullptr

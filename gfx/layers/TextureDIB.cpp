@@ -2068,6 +2068,10 @@ mTextureSource
 nullptr
 ;
 }
+ReadUnlock
+(
+)
+;
 }
 TextureHostFileMapping
 :
@@ -2291,6 +2295,10 @@ mTextureSource
 nullptr
 ;
 }
+ReadUnlock
+(
+)
+;
 }
 }
 }
