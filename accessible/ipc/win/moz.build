@@ -151,6 +151,11 @@ DocAccessibleChild
 .
 h
 '
+'
+ProxyAccessible
+.
+h
+'
 ]
 SOURCES
 +
@@ -163,6 +168,11 @@ cpp
 '
 '
 DocAccessibleChild
+.
+cpp
+'
+'
+ProxyAccessible
 .
 cpp
 '
