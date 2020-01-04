@@ -1127,6 +1127,14 @@ self
 .
 virtualenv_script_path
             
+'
+-
+-
+no
+-
+download
+'
+            
 self
 .
 virtualenv_root
