@@ -963,7 +963,9 @@ version
 specificationLevel
 "
 :
-0
+"
+1
+"
 "
 raisesAccessibilityExceptions
 "
