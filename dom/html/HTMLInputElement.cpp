@@ -27224,6 +27224,15 @@ return
 rv
 ;
 }
+if
+(
+!
+IsSingleLineTextControl
+(
+false
+)
+)
+{
 rv
 =
 nsLinebreakConverter
@@ -27263,6 +27272,7 @@ failed
 return
 rv
 ;
+}
 }
 inputState
 -
