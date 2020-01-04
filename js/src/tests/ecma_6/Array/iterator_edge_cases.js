@@ -63,7 +63,7 @@ e
 .
 message
 "
-CallArrayIteratorMethodIfWrapped
+next
 method
 called
 on

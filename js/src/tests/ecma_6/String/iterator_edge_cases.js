@@ -63,7 +63,7 @@ e
 .
 message
 "
-CallStringIteratorMethodIfWrapped
+next
 method
 called
 on
