@@ -2294,6 +2294,8 @@ Context
 context
 String
 url
+String
+iconURL
 OnFaviconLoadedListener
 onFaviconLoadedListener
 )
@@ -2311,7 +2313,7 @@ loadUncachedFavicon
 (
 context
 url
-null
+iconURL
 0
 preferredSize
 onFaviconLoadedListener
