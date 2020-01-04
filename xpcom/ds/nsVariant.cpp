@@ -7977,12 +7977,6 @@ break
 ;
 }
 }
-NS_IMPL_ISUPPORTS
-(
-nsVariantBase
-nsIVariant
-nsIWritableVariant
-)
 nsVariantBase
 :
 :
@@ -9790,3 +9784,9 @@ aValue
 )
 ;
 }
+NS_IMPL_ISUPPORTS
+(
+nsVariant
+nsIVariant
+nsIWritableVariant
+)
