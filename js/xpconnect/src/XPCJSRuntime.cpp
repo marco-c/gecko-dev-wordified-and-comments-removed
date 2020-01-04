@@ -18540,7 +18540,7 @@ this
 ;
 JS_SetInterruptCallback
 (
-runtime
+cx
 InterruptCallback
 )
 ;

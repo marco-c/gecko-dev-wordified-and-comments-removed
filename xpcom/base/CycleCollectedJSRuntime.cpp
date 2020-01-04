@@ -2320,7 +2320,7 @@ JS
 :
 SetGetIncumbentGlobalCallback
 (
-mJSRuntime
+mJSContext
 GetIncumbentGlobalCallback
 )
 ;
@@ -2332,7 +2332,7 @@ JS
 :
 SetEnqueuePromiseJobCallback
 (
-mJSRuntime
+mJSContext
 EnqueuePromiseJobCallback
 this
 )
@@ -2342,7 +2342,7 @@ JS
 :
 SetPromiseRejectionTrackerCallback
 (
-mJSRuntime
+mJSContext
 PromiseRejectionTrackerCallback
 this
 )
