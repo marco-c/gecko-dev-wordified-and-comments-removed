@@ -224,7 +224,7 @@ Date
 2000000000000
 )
 .
-toLocaleString
+toUTCString
 (
 )
 }
