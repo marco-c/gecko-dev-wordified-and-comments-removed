@@ -3747,12 +3747,7 @@ i
 )
 ;
 return
-*
-aResult
-?
 NS_OK
-:
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 }

@@ -1171,12 +1171,6 @@ char
 bufsize
 ]
 ;
-NS_ENSURE_TRUE
-(
-buf
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 int
 bufIntDigits
 sign

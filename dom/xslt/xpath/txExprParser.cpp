@@ -496,12 +496,6 @@ txCoreFunctionCall
 CONCAT
 )
 ;
-NS_ENSURE_TRUE
-(
-concat
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 rv
 =
 concat

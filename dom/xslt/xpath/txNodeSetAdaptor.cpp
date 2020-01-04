@@ -78,11 +78,7 @@ nullptr
 ;
 }
 return
-mValue
-?
 NS_OK
-:
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 NS_IMETHODIMP
