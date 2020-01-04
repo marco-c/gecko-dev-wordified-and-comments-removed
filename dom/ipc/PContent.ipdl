@@ -4592,6 +4592,17 @@ aSuccess
 ;
 /
 /
+Graphics
+errors
+async
+GraphicsError
+(
+nsCString
+aError
+)
+;
+/
+/
 Driver
 crash
 guards

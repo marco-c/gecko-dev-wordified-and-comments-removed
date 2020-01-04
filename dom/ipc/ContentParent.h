@@ -3871,6 +3871,17 @@ override
 ;
 virtual
 bool
+RecvGraphicsError
+(
+const
+nsCString
+&
+aError
+)
+override
+;
+virtual
+bool
 RecvBeginDriverCrashGuard
 (
 const
