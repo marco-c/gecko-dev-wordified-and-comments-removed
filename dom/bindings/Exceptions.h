@@ -90,7 +90,7 @@ nsresult
 aRv
 )
 ;
-bool
+void
 ThrowExceptionObject
 (
 JSContext
@@ -101,7 +101,7 @@ Exception
 aException
 )
 ;
-bool
+void
 ThrowExceptionObject
 (
 JSContext
