@@ -88,6 +88,11 @@ MPL
 DevToolsModules
 (
 '
+clipboard
+.
+js
+'
+'
 stack
 .
 js
