@@ -248,6 +248,11 @@ toEventWithDefaultViewTarget
 )
 ;
 }
+function
+makeEvents
+(
+)
+{
 var
 opened
 =
@@ -363,9 +368,7 @@ target
 )
 )
 ;
-var
-channel
-=
+return
 merge
 (
 [
@@ -376,9 +379,12 @@ closeEvents
 ]
 )
 ;
+}
 exports
 .
 events
 =
-channel
+makeEvents
+(
+)
 ;
