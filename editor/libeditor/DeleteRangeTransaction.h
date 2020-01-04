@@ -7,7 +7,7 @@ DeleteRangeTransaction_h
 #
 include
 "
-EditAggregateTxn
+EditAggregateTransaction
 .
 h
 "
@@ -77,7 +77,7 @@ DeleteRangeTransaction
 final
 :
 public
-EditAggregateTxn
+EditAggregateTransaction
 {
 public
 :
@@ -102,7 +102,7 @@ DeleteRangeTransaction
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 DeleteRangeTransaction
-EditAggregateTxn
+EditAggregateTransaction
 )
 NS_IMETHOD
 QueryInterface
@@ -134,7 +134,7 @@ mRange
 =
 nullptr
 ;
-EditAggregateTxn
+EditAggregateTransaction
 :
 :
 LastRelease

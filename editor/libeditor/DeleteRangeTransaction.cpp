@@ -138,7 +138,7 @@ nullptr
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 DeleteRangeTransaction
-EditAggregateTxn
+EditAggregateTransaction
 mRange
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
@@ -147,7 +147,7 @@ DeleteRangeTransaction
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-EditAggregateTxn
+EditAggregateTransaction
 )
 nsresult
 DeleteRangeTransaction
@@ -396,7 +396,7 @@ res
 }
 res
 =
-EditAggregateTxn
+EditAggregateTransaction
 :
 :
 DoTransaction
@@ -484,7 +484,7 @@ mEditor
 )
 ;
 return
-EditAggregateTxn
+EditAggregateTransaction
 :
 :
 UndoTransaction
@@ -509,7 +509,7 @@ mEditor
 )
 ;
 return
-EditAggregateTxn
+EditAggregateTransaction
 :
 :
 RedoTransaction

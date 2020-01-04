@@ -178,7 +178,7 @@ DeleteTextTransaction
 cpp
 '
 '
-EditAggregateTxn
+EditAggregateTransaction
 .
 cpp
 '
