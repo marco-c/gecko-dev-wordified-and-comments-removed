@@ -214,7 +214,7 @@ char
 const
 *
 buf
-size_t
+unsigned
 len
 )
 {

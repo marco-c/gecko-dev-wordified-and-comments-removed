@@ -648,7 +648,7 @@ in
 0
 ]
 ;
-scoped_array
+scoped_ptr
 <
 uint16_t
 >

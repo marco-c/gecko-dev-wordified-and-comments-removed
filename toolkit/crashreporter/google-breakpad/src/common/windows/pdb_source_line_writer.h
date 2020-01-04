@@ -1,9 +1,9 @@
 #
 ifndef
-COMMON_WINDOWS_PDB_SOURCE_LINE_WRITER_H_
+_PDB_SOURCE_LINE_WRITER_H__
 #
 define
-COMMON_WINDOWS_PDB_SOURCE_LINE_WRITER_H_
+_PDB_SOURCE_LINE_WRITER_H__
 #
 include
 <
@@ -21,17 +21,6 @@ include
 <
 string
 >
-#
-include
-"
-common
-/
-windows
-/
-omap
-.
-h
-"
 struct
 IDiaEnumLineNumbers
 ;
@@ -118,7 +107,7 @@ format
 )
 ;
 bool
-SetCodeFile
+OpenExecutable
 (
 const
 wstring
@@ -195,16 +184,6 @@ PrintSourceFiles
 )
 ;
 bool
-PrintFrameDataUsingPDB
-(
-)
-;
-bool
-PrintFrameDataUsingEXE
-(
-)
-;
-bool
 PrintFrameData
 (
 )
@@ -252,6 +231,7 @@ end
 )
 ;
 }
+;
 void
 CacheFileID
 (
@@ -271,6 +251,7 @@ file
 id
 ;
 }
+;
 void
 StoreDuplicateFileID
 (
@@ -323,6 +304,7 @@ second
 ;
 }
 }
+;
 DWORD
 GetRealFileID
 (
@@ -368,6 +350,7 @@ iter
 second
 ;
 }
+;
 bool
 FindPEFile
 (
@@ -423,9 +406,6 @@ wstring
 DWORD
 >
 unique_files_
-;
-ImageMap
-image_map_
 ;
 PDBSourceLineWriter
 (

@@ -2294,17 +2294,6 @@ linux
 android
 ;
 ;
-mips
-)
-GNU_CONFIG
-=
-mipsel
--
-linux
--
-android
-;
-;
 *
 )
 GNU_CONFIG
