@@ -123,6 +123,11 @@ ExtensionUtils
 jsm
 '
 '
+MessageChannel
+.
+jsm
+'
+'
 Schemas
 .
 jsm
