@@ -12615,6 +12615,15 @@ aWithTrack
 ;
 #
 endif
+mMedia
+-
+>
+UpdateMediaPipelines
+(
+*
+mJsepSession
+)
+;
 pco
 -
 >

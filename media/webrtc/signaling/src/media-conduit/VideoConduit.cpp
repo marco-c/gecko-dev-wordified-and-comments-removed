@@ -3275,6 +3275,12 @@ codecConfig
 video_codec
 )
 ;
+video_codec
+.
+mode
+=
+mCodecMode
+;
 if
 (
 mPtrViECodec
@@ -6767,6 +6773,12 @@ maxBitrate
 )
 ;
 }
+vie_codec
+.
+mode
+=
+mCodecMode
+;
 if
 (
 (
