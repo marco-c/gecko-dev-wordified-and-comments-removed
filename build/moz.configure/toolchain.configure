@@ -4513,7 +4513,7 @@ valid_compiler
 c_compiler
 )
 def
-compiler_suite_consistency
+valid_compiler
 (
 compiler
 c_compiler
@@ -4629,6 +4629,8 @@ compiler
 .
 version
 )
+return
+compiler
 #
 Set
 CC
