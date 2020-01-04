@@ -1853,7 +1853,15 @@ no
 -
 repeat
 ;
-bottom
+background
+-
+origin
+:
+content
+-
+box
+;
+top
 :
 0
 ;
