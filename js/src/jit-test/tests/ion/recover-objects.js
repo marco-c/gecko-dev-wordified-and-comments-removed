@@ -277,7 +277,7 @@ true
 assertRecoveredOnBailout
 (
 res
-false
+true
 )
 ;
 }
@@ -476,7 +476,7 @@ true
 assertRecoveredOnBailout
 (
 res
-false
+true
 )
 ;
 }

@@ -127,6 +127,7 @@ Bailout_InitialState
 Bailout_Debugger
 Bailout_UninitializedThis
 Bailout_BadDerivedConstructorReturn
+Bailout_FirstExecution
 Bailout_OverflowInvalidate
 Bailout_NonStringInputInvalidate
 Bailout_DoubleOutput
@@ -367,6 +368,14 @@ Bailout_BadDerivedConstructorReturn
 return
 "
 Bailout_BadDerivedConstructorReturn
+"
+;
+case
+Bailout_FirstExecution
+:
+return
+"
+Bailout_FirstExecution
 "
 ;
 case

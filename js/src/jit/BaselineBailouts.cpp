@@ -9009,6 +9009,11 @@ Bailout_BadDerivedConstructorReturn
 break
 ;
 case
+Bailout_FirstExecution
+:
+break
+;
+case
 Bailout_OverflowInvalidate
 :
 case

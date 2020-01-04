@@ -35,6 +35,17 @@ class
 MIRGraph
 ;
 bool
+PruneUnusedBranches
+(
+MIRGenerator
+*
+mir
+MIRGraph
+&
+graph
+)
+;
+bool
 FoldTests
 (
 MIRGraph
