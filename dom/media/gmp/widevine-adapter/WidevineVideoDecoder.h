@@ -112,7 +112,7 @@ RefPtr
 <
 CDMWrapper
 >
-aCDM
+aCDMWrapper
 )
 ;
 void
@@ -191,9 +191,15 @@ ContentDecryptionModule_8
 CDM
 (
 )
+const
 {
+MOZ_ASSERT
+(
+mCDMWrapper
+)
+;
 return
-mCDM
+mCDMWrapper
 -
 >
 GetCDM
@@ -217,7 +223,7 @@ RefPtr
 <
 CDMWrapper
 >
-mCDM
+mCDMWrapper
 ;
 RefPtr
 <
