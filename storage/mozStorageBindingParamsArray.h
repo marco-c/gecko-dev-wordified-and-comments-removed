@@ -98,7 +98,6 @@ getOwner
 )
 const
 ;
-const
 size_type
 length
 (

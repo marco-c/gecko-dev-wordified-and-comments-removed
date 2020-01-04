@@ -66,7 +66,6 @@ GetId
 )
 const
 ;
-const
 InputPortType
 GetType
 (

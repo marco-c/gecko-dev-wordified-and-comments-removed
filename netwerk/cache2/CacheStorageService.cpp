@@ -360,7 +360,6 @@ leaking
 }
 }
 uint32_t
-const
 CacheStorageService
 :
 :

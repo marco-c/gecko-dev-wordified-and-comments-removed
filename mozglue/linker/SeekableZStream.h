@@ -177,7 +177,6 @@ length
 0
 )
 ;
-const
 size_t
 GetUncompressedSize
 (
@@ -200,7 +199,6 @@ chunkSize
 lastChunkSize
 ;
 }
-const
 size_t
 GetChunkSize
 (
@@ -230,7 +228,6 @@ lastChunkSize
 chunkSize
 ;
 }
-const
 size_t
 GetChunksNum
 (

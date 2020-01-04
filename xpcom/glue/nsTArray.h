@@ -850,7 +850,6 @@ nullptr
 )
 ;
 }
-const
 elem_type
 SafeElementAt
 (
@@ -896,6 +895,12 @@ E
 elem_type
 ;
 typedef
+const
+E
+*
+const_elem_type
+;
+typedef
 size_t
 index_type
 ;
@@ -924,7 +929,6 @@ nullptr
 )
 ;
 }
-const
 elem_type
 SafeElementAt
 (
@@ -1052,6 +1056,12 @@ E
 elem_type
 ;
 typedef
+const
+E
+*
+const_elem_type
+;
+typedef
 size_t
 index_type
 ;
@@ -1102,7 +1112,6 @@ return
 nullptr
 ;
 }
-const
 elem_type
 SafeElementAt
 (

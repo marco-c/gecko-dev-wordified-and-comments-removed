@@ -254,7 +254,6 @@ return
 mAddress
 ;
 }
-const
 uint16_t
 Port
 (
@@ -265,7 +264,6 @@ return
 mPort
 ;
 }
-const
 DeviceState
 State
 (

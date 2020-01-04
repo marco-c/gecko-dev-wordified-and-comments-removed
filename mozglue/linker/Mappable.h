@@ -724,7 +724,6 @@ length
 )
 ;
 }
-const
 off_t
 endOffset
 (
@@ -737,7 +736,6 @@ offset
 length
 ;
 }
-const
 off_t
 offsetOf
 (
@@ -768,7 +766,6 @@ addr
 offset
 ;
 }
-const
 bool
 Contains
 (

@@ -297,7 +297,6 @@ return
 mId
 ;
 }
-const
 InputPortType
 InputPortData
 :

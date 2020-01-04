@@ -8376,7 +8376,6 @@ buf
 )
 ;
 }
-const
 unsigned
 int
 DwarfCFIToModule
@@ -8409,7 +8408,6 @@ return
 2
 ;
 }
-const
 unsigned
 int
 DwarfCFIToModule
@@ -8448,7 +8446,6 @@ return
 3
 ;
 }
-const
 unsigned
 int
 DwarfCFIToModule

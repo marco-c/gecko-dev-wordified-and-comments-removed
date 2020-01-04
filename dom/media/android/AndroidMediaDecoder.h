@@ -47,7 +47,6 @@ nsACString
 aType
 )
 ;
-const
 nsresult
 GetContentType
 (

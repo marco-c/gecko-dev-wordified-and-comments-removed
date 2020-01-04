@@ -27,11 +27,11 @@ GonkAutoMounter
 (
 )
 ;
-const
 MountAccess
 GetAccess
 (
 )
+const
 {
 return
 mAccess

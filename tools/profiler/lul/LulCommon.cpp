@@ -147,7 +147,6 @@ str_
 const
 char
 *
-const
 FromUniqueString
 (
 const

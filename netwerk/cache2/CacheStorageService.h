@@ -860,7 +860,6 @@ aWhat
 private
 :
 uint32_t
-const
 Limit
 (
 )

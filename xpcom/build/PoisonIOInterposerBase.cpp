@@ -107,9 +107,14 @@ PRLock
 *
 type
 ;
+typedef
 const
+PRLock
+*
+const_type
+;
 static
-type
+const_type
 empty
 (
 )
@@ -118,7 +123,6 @@ return
 nullptr
 ;
 }
-const
 static
 void
 release

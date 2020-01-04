@@ -75,7 +75,6 @@ UniqueString
 const
 char
 *
-const
 FromUniqueString
 (
 const

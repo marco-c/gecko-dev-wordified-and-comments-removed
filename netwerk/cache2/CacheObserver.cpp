@@ -1321,7 +1321,6 @@ kDefaultClearCacheOnShutdown
 ;
 }
 uint32_t
-const
 CacheObserver
 :
 :
@@ -1482,7 +1481,6 @@ capacity
 ;
 }
 bool
-const
 CacheObserver
 :
 :
@@ -2073,7 +2071,6 @@ NS_OK
 }
 }
 bool
-const
 CacheObserver
 :
 :

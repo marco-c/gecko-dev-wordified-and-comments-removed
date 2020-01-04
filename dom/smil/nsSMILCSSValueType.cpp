@@ -283,7 +283,6 @@ nullptr
 }
 }
 static
-const
 bool
 FinalizeStyleAnimationValues
 (

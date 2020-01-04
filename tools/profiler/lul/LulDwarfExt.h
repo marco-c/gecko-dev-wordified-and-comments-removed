@@ -2126,7 +2126,6 @@ RegisterNames
 public
 :
 static
-const
 unsigned
 int
 I386
@@ -2134,7 +2133,6 @@ I386
 )
 ;
 static
-const
 unsigned
 int
 X86_64
@@ -2142,7 +2140,6 @@ X86_64
 )
 ;
 static
-const
 unsigned
 int
 ARM

@@ -4285,11 +4285,11 @@ mData
 mOffset
 ;
 }
-const
 size_t
 AvailableSize
 (
 )
+const
 {
 return
 mCapicity
@@ -4324,6 +4324,7 @@ bool
 IsEmpty
 (
 )
+const
 {
 return
 (
@@ -4334,11 +4335,11 @@ mOffset
 )
 ;
 }
-const
 size_t
 GetCapacity
 (
 )
+const
 {
 return
 mCapicity

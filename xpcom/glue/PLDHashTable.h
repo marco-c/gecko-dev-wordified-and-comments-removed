@@ -827,10 +827,10 @@ PLDHashTable
 const
 PLDHashTableOps
 *
-const
 Ops
 (
 )
+const
 {
 return
 mOps

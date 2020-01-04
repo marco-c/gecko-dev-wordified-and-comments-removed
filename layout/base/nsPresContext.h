@@ -1101,7 +1101,6 @@ return
 false
 ;
 }
-const
 nscolor
 DefaultColor
 (
@@ -1112,7 +1111,6 @@ return
 mDefaultColor
 ;
 }
-const
 nscolor
 DefaultBackgroundColor
 (
@@ -1123,7 +1121,6 @@ return
 mBackgroundColor
 ;
 }
-const
 nscolor
 DefaultLinkColor
 (
@@ -1134,7 +1131,6 @@ return
 mLinkColor
 ;
 }
-const
 nscolor
 DefaultActiveLinkColor
 (
@@ -1145,7 +1141,6 @@ return
 mActiveLinkColor
 ;
 }
-const
 nscolor
 DefaultVisitedLinkColor
 (
@@ -1156,7 +1151,6 @@ return
 mVisitedLinkColor
 ;
 }
-const
 nscolor
 FocusBackgroundColor
 (
@@ -1167,7 +1161,6 @@ return
 mFocusBackgroundColor
 ;
 }
-const
 nscolor
 FocusTextColor
 (
@@ -1178,7 +1171,6 @@ return
 mFocusTextColor
 ;
 }
-const
 nscolor
 BodyTextColor
 (

@@ -1519,7 +1519,6 @@ return
 0
 ;
 }
-const
 bool
 Contains
 (

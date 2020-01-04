@@ -4009,7 +4009,6 @@ GetLocalTransform
 (
 )
 ;
-const
 float
 GetLocalOpacity
 (
@@ -4690,7 +4689,6 @@ return
 mInvalidRegion
 ;
 }
-const
 void
 AddInvalidRegion
 (

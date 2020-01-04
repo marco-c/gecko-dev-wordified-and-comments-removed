@@ -7921,7 +7921,6 @@ IsEmpty
 ;
 }
 inline
-const
 char
 GetNextChar
 (

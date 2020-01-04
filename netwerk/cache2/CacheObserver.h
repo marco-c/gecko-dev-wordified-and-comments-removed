@@ -85,14 +85,12 @@ sSelf
 }
 static
 bool
-const
 UseNewCache
 (
 )
 ;
 static
 bool
-const
 UseDiskCache
 (
 )
@@ -103,7 +101,6 @@ sUseDiskCache
 }
 static
 bool
-const
 UseMemoryCache
 (
 )
@@ -114,7 +111,6 @@ sUseMemoryCache
 }
 static
 uint32_t
-const
 MetadataMemoryLimit
 (
 )
@@ -128,14 +124,12 @@ sMetadataMemoryLimit
 }
 static
 uint32_t
-const
 MemoryCacheCapacity
 (
 )
 ;
 static
 uint32_t
-const
 DiskCacheCapacity
 (
 )
@@ -156,7 +150,6 @@ uint32_t
 ;
 static
 uint32_t
-const
 DiskFreeSpaceSoftLimit
 (
 )
@@ -170,7 +163,6 @@ sDiskFreeSpaceSoftLimit
 }
 static
 uint32_t
-const
 DiskFreeSpaceHardLimit
 (
 )
@@ -184,7 +176,6 @@ sDiskFreeSpaceHardLimit
 }
 static
 bool
-const
 SmartCacheSizeEnabled
 (
 )
@@ -195,7 +186,6 @@ sSmartCacheSizeEnabled
 }
 static
 uint32_t
-const
 PreloadChunkCount
 (
 )
@@ -206,7 +196,6 @@ sPreloadChunkCount
 }
 static
 uint32_t
-const
 MaxMemoryEntrySize
 (
 )
@@ -220,7 +209,6 @@ sMaxMemoryEntrySize
 }
 static
 uint32_t
-const
 MaxDiskEntrySize
 (
 )
@@ -234,7 +222,6 @@ sMaxDiskEntrySize
 }
 static
 uint32_t
-const
 MaxDiskChunksMemoryUsage
 (
 bool
@@ -257,7 +244,6 @@ sMaxDiskChunksMemoryUsage
 }
 static
 uint32_t
-const
 CompressionLevel
 (
 )
@@ -268,7 +254,6 @@ sCompressionLevel
 }
 static
 uint32_t
-const
 HalfLifeSeconds
 (
 )
@@ -287,7 +272,6 @@ sHalfLifeHours
 }
 static
 int32_t
-const
 HalfLifeExperiment
 (
 )
@@ -298,7 +282,6 @@ sHalfLifeExperiment
 }
 static
 bool
-const
 ClearCacheOnShutdown
 (
 )
@@ -312,7 +295,6 @@ sClearCacheOnShutdown
 }
 static
 bool
-const
 CacheFSReported
 (
 )
@@ -329,7 +311,6 @@ SetCacheFSReported
 ;
 static
 bool
-const
 HashStatsReported
 (
 )
@@ -356,7 +337,6 @@ aDir
 ;
 static
 bool
-const
 EntryIsTooBig
 (
 int64_t

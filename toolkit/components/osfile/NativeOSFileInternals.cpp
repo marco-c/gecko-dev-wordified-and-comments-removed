@@ -302,7 +302,6 @@ return
 result
 ;
 }
-const
 static
 void
 release
