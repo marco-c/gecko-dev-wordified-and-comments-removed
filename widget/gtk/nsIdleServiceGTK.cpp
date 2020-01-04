@@ -44,6 +44,12 @@ Logging
 .
 h
 "
+using
+mozilla
+:
+:
+LogLevel
+;
 static
 PRLogModuleInfo
 *
