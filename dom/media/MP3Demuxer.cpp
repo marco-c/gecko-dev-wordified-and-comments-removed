@@ -1868,7 +1868,15 @@ NumAudioFrames
 ;
 if
 (
-numAudioFrames
+mParser
+.
+VBRInfo
+(
+)
+.
+IsValid
+(
+)
 )
 {
 numFrames
