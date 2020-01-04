@@ -4239,10 +4239,6 @@ const
 nsIFrame
 *
 aStartFrame
-const
-nsRect
-*
-aBounds
 )
 ;
 uint32_t
