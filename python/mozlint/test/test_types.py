@@ -654,7 +654,7 @@ len
 (
 result
 )
-2
+1
 )
 if
 __name__

@@ -1,6 +1,0 @@
-foobar
-=
-"
-a
-string
-"
