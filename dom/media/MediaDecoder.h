@@ -580,13 +580,6 @@ aVolume
 ;
 virtual
 void
-NotifyWaitingForResourcesStatusChanged
-(
-)
-override
-;
-virtual
-void
 SetPlaybackRate
 (
 double

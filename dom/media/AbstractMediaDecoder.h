@@ -400,14 +400,6 @@ GetOwner
 ;
 virtual
 void
-NotifyWaitingForResourcesStatusChanged
-(
-)
-=
-0
-;
-virtual
-void
 NotifyDataArrived
 (
 uint32_t

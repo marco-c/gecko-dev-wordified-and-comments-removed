@@ -331,11 +331,6 @@ aThrottleUpdates
 ;
 }
 void
-DispatchWaitingForResourcesStatusChanged
-(
-)
-;
-void
 DispatchMinimizePrerollUntilPlaybackStarts
 (
 )
@@ -618,11 +613,6 @@ SetAudioCaptured
 (
 bool
 aCaptured
-)
-;
-void
-NotifyWaitingForResourcesStatusChanged
-(
 )
 ;
 nsRefPtr

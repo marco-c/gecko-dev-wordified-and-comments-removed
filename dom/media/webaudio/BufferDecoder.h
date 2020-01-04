@@ -231,14 +231,6 @@ override
 ;
 virtual
 void
-NotifyWaitingForResourcesStatusChanged
-(
-)
-final
-override
-;
-virtual
-void
 NotifyDataArrived
 (
 uint32_t
