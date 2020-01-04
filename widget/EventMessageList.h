@@ -1190,7 +1190,7 @@ eContentCommandEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_CONTENT_COMMAND_UNDO
+eContentCommandUndo
 eContentCommandEventFirst
 +
 4

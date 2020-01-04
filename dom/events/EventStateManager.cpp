@@ -3301,7 +3301,7 @@ case
 eContentCommandDelete
 :
 case
-NS_CONTENT_COMMAND_UNDO
+eContentCommandUndo
 :
 case
 NS_CONTENT_COMMAND_REDO
@@ -21146,7 +21146,7 @@ cmd_delete
 break
 ;
 case
-NS_CONTENT_COMMAND_UNDO
+eContentCommandUndo
 :
 cmd
 =

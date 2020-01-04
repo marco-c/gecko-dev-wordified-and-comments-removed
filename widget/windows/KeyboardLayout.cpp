@@ -5737,7 +5737,7 @@ APPCOMMAND_UNDO
 :
 contentCommandMessage
 =
-NS_CONTENT_COMMAND_UNDO
+eContentCommandUndo
 ;
 break
 ;
