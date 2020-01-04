@@ -1151,6 +1151,8 @@ screenshot
 (
 self
 test
+viewport_size
+dpi
 )
 :
         
@@ -1225,6 +1227,11 @@ disable
 text
 -
 aa
+load
+-
+webfonts
+-
+synchronously
 "
                  
 "
@@ -1296,6 +1303,42 @@ command
 pref
 "
 pref
+]
+            
+if
+viewport_size
+:
+                
+command
++
+=
+[
+"
+-
+-
+resolution
+"
+viewport_size
+]
+            
+if
+dpi
+:
+                
+command
++
+=
+[
+"
+-
+-
+device
+-
+pixel
+-
+ratio
+"
+dpi
 ]
             
 self

@@ -1571,8 +1571,20 @@ screenshot
 (
 self
 test
+viewport_size
+dpi
 )
 :
+        
+assert
+viewport_size
+is
+None
+        
+assert
+dpi
+is
+None
         
 return
 SeleniumRun
