@@ -494,6 +494,12 @@ kTex2DBlit_FragShaderSource
 \
 #
 ifdef
+GL_ES
+\
+n
+\
+#
+ifdef
 GL_FRAGMENT_PRECISION_HIGH
 \
 n
@@ -514,6 +520,11 @@ precision
 mediump
 float
 ;
+\
+n
+\
+#
+endif
 \
 n
 \
