@@ -1134,6 +1134,13 @@ h
 #
 include
 "
+nsStyleSet
+.
+h
+"
+#
+include
+"
 mozilla
 /
 StyleSetHandle
