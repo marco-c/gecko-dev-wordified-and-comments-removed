@@ -5967,6 +5967,18 @@ PHASE_SWEEP
 )
 )
 ;
+if
+(
+runtime
+-
+>
+gc
+.
+isCompactingGc
+(
+)
+)
+{
 runtime
 -
 >
@@ -5985,6 +5997,7 @@ PHASE_COMPACT
 )
 )
 ;
+}
 runtime
 -
 >
