@@ -76,6 +76,14 @@ aPresContext
 )
 ;
 nsresult
+HandleQueryContentEvent
+(
+WidgetQueryContentEvent
+*
+aEvent
+)
+;
+nsresult
 OnQuerySelectedText
 (
 WidgetQueryContentEvent
