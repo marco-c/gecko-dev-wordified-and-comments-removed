@@ -280,7 +280,7 @@ testMultilineLimit
 )
 ;
 yield
-testOmitQuotes
+testUseQuotes
 (
 )
 ;
@@ -509,7 +509,7 @@ open
 ;
 }
 function
-testOmitQuotes
+testUseQuotes
 (
 )
 {
@@ -527,12 +527,12 @@ object
 getGripStub
 (
 "
-testOmitQuotes
+testUseQuotes
 "
 )
-omitQuotes
+useQuotes
 :
-true
+false
 }
 )
 ;
@@ -547,7 +547,7 @@ abc
 "
 String
 rep
-has
+was
 expected
 to
 omit
@@ -587,7 +587,7 @@ break
 ;
 case
 "
-testOmitQuotes
+testUseQuotes
 "
 :
 return

@@ -257,16 +257,8 @@ text
 toBe
 (
 "
-\
-"
 foobar
-\
-"
-\
-"
 test
-\
-"
 "
 )
 ;
