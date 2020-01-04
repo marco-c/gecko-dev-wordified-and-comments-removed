@@ -124,6 +124,17 @@ NotifyDataRemoved
 )
 override
 ;
+bool
+ShouldComputeStartTime
+(
+)
+const
+override
+{
+return
+false
+;
+}
 private
 :
 bool
