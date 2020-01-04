@@ -39,6 +39,9 @@ mozilla
 #
 ifdef
 MOZ_CONTENT_SANDBOX
+class
+SandboxBrokerClient
+;
 UniquePtr
 <
 sandbox
@@ -51,6 +54,9 @@ Policy
 >
 GetContentSandboxPolicy
 (
+SandboxBrokerClient
+*
+aMaybeBroker
 )
 ;
 #

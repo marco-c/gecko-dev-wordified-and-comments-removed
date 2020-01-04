@@ -61,6 +61,8 @@ MOZ_SANDBOX_EXPORT
 void
 SetContentProcessSandbox
 (
+int
+aBrokerFd
 )
 ;
 #
