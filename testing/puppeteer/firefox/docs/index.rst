@@ -278,6 +278,9 @@ about_window
 window
 ui
 /
+deck
+ui
+/
 menu
 ui
 /
