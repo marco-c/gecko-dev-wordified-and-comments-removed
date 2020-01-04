@@ -863,6 +863,13 @@ Iterator
 (
 )
 ;
+static
+const
+size_t
+MIN_CHUNK_CAPACITY
+=
+4096
+;
 private
 :
 friend
@@ -1260,13 +1267,6 @@ IsLastChunk
 uint32_t
 aChunk
 )
-;
-static
-const
-size_t
-MIN_CHUNK_CAPACITY
-=
-4096
 ;
 mutable
 Mutex

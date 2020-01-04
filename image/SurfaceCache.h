@@ -616,6 +616,12 @@ MallocSizeOf
 aMallocSizeOf
 )
 ;
+static
+size_t
+MaximumCapacity
+(
+)
+;
 private
 :
 virtual
