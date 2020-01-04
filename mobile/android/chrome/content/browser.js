@@ -18016,6 +18016,17 @@ this
 _manager
 .
 currentTheme
+&
+&
+!
+ParentalControls
+.
+isAllowed
+(
+ParentalControls
+.
+DEFAULT_THEME
+)
 )
 {
 this

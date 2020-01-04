@@ -228,6 +228,14 @@ string
 .
 restriction_disallow_guest_browsing_title
 )
+DISALLOW_DEFAULT_THEME
+(
+20
+"
+no_default_theme
+"
+0
+)
 ;
 public
 final
