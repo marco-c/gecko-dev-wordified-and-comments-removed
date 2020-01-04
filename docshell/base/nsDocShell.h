@@ -2672,6 +2672,11 @@ mInFrameSwap
 1
 ;
 bool
+mInheritPrivateBrowsingId
+:
+1
+;
+bool
 mCanExecuteScripts
 :
 1
