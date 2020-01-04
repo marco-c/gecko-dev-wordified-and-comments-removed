@@ -431,6 +431,12 @@ PKCS
 #
 11
 #
+der_gtests
+.
+sh
+-
+Gtest
+#
 #
 NSS
 testing
@@ -2355,6 +2361,7 @@ pkits
 chains
 ssl_gtests
 pk11_gtests
+der_gtests
 "
 echo
 "
@@ -2692,6 +2699,7 @@ ocsp
 pkits
 ssl_gtests
 pk11_gtests
+der_gtests
 "
 echo
 "
@@ -3105,6 +3113,7 @@ pkits
 chains
 ssl_gtests
 pk11_gtests
+der_gtests
 "
 TESTS
 =

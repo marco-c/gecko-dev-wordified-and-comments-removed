@@ -64,16 +64,6 @@ coreconf
 UNIX
 .
 mk
-include
-(
-CORE_DEPTH
-)
-/
-coreconf
-/
-Werror
-.
-mk
 #
 #
 The
@@ -727,9 +717,6 @@ OS_REL_CFLAGS
 )
 (
 ARCHFLAG
-)
-(
-WARNING_CFLAGS
 )
 -
 pipe

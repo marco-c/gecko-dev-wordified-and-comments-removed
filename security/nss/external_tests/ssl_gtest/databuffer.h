@@ -311,7 +311,7 @@ len_
 ;
 }
 }
-void
+size_t
 Write
 (
 size_t
@@ -436,8 +436,13 @@ val
 count
 )
 ;
+return
+index
++
+count
+;
 }
-void
+size_t
 Write
 (
 size_t
@@ -448,6 +453,7 @@ DataBuffer
 buf
 )
 {
+return
 Write
 (
 index
@@ -464,7 +470,7 @@ len
 )
 ;
 }
-void
+size_t
 Write
 (
 size_t
@@ -509,6 +515,7 @@ uint8_t
 nvalue
 )
 ;
+return
 Write
 (
 index

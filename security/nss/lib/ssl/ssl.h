@@ -923,6 +923,17 @@ SSLVersionRange
 vrange
 )
 ;
+SSL_IMPORT
+SECStatus
+SSL_SetDowngradeCheckVersion
+(
+PRFileDesc
+*
+fd
+PRUint16
+version
+)
+;
 #
 define
 SSL_NOT_ALLOWED

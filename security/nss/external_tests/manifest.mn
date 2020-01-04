@@ -67,6 +67,8 @@ DIRS
 \
 google_test
 \
+der_gtest
+\
 pk11_gtest
 \
 ssl_gtest

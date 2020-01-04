@@ -1818,7 +1818,7 @@ firstHsDone
 ;
 if
 (
-ssl3_WaitingForStartOfServerSecondRound
+ssl3_WaitingForServerSecondRound
 (
 ss
 )

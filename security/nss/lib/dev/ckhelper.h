@@ -167,6 +167,7 @@ pattr
 >
 ulValueLen
 )
+\
 (
 (
 pattr
@@ -388,6 +389,7 @@ ulValueLen
 ;
 \
 }
+\
 else
 {
 \
@@ -460,6 +462,7 @@ PR_TRUE
 ;
 \
 }
+\
 else
 {
 \
@@ -576,7 +579,6 @@ item
 >
 size
 ;
-\
 NSS_EXTERN
 PRStatus
 nssCKObject_GetAttributes

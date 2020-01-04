@@ -521,6 +521,9 @@ ssl_extended_master_secret_xtn
 ssl_session_ticket_xtn
 =
 35
+ssl_tls13_key_share_xtn
+=
+40
 ssl_next_proto_nego_xtn
 =
 13172
@@ -536,7 +539,7 @@ SSLExtensionType
 #
 define
 SSL_MAX_EXTENSIONS
-13
+14
 /
 *
 doesn

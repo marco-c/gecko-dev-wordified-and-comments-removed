@@ -527,3 +527,13 @@ D
 ;
 fi
 endef
+include
+(
+CORE_DEPTH
+)
+/
+coreconf
+/
+Werror
+.
+mk

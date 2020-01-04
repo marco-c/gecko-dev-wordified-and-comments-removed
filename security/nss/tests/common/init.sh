@@ -647,6 +647,13 @@ HOSTDIR
 }
 /
 pk11_gtests
+DERGTESTDIR
+=
+{
+HOSTDIR
+}
+/
+der_gtests
 PWFILE
 =
 {
@@ -4506,6 +4513,12 @@ R_PK11GTESTDIR
 .
 /
 pk11_gtests
+R_DERGTESTDIR
+=
+.
+.
+/
+der_gtests
 #
 #
 profiles
