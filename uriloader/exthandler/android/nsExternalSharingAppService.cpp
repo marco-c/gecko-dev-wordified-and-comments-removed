@@ -118,7 +118,7 @@ EmptyString
 )
 ;
 return
-widget
+java
 :
 :
 GeckoAppShell

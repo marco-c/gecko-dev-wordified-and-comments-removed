@@ -2722,10 +2722,7 @@ false
 double
 sampleTime
 =
-mozilla
-:
-:
-widget
+java
 :
 :
 GeckoJavaSampler
@@ -3097,10 +3094,7 @@ ProfileJava
 )
 )
 {
-mozilla
-:
-:
-widget
+java
 :
 :
 GeckoJavaSampler
@@ -3129,10 +3123,7 @@ End
 (
 )
 ;
-mozilla
-:
-:
-widget
+java
 :
 :
 GeckoJavaSampler

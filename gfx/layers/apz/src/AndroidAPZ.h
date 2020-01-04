@@ -55,7 +55,7 @@ return
 this
 ;
 }
-widget
+java
 :
 :
 StackScroller
@@ -145,7 +145,7 @@ AsyncPanZoomController
 &
 mApzc
 ;
-widget
+java
 :
 :
 StackScroller

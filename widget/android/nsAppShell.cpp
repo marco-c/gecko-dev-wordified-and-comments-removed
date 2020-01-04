@@ -488,7 +488,7 @@ state
 )
 override
 {
-widget
+java
 :
 :
 GeckoAppShell
@@ -530,7 +530,7 @@ GeckoThreadSupport
 final
 :
 public
-widget
+java
 :
 :
 GeckoThread
@@ -1023,7 +1023,7 @@ GeckoAppShellSupport
 final
 :
 public
-widget
+java
 :
 :
 GeckoAppShell
@@ -1704,7 +1704,7 @@ InitNatives
 (
 )
 ;
-widget
+java
 :
 :
 GeckoThread
@@ -1712,7 +1712,7 @@ GeckoThread
 :
 SetState
 (
-widget
+java
 :
 :
 GeckoThread
@@ -2258,7 +2258,7 @@ false
 )
 )
 {
-widget
+java
 :
 :
 GeckoAppShell
@@ -2270,7 +2270,7 @@ SetScreenDepthOverride
 )
 ;
 }
-widget
+java
 :
 :
 GeckoThread
@@ -2278,7 +2278,7 @@ GeckoThread
 :
 SetState
 (
-widget
+java
 :
 :
 GeckoThread
@@ -2349,7 +2349,7 @@ IsAvailable
 )
 )
 {
-widget
+java
 :
 :
 GeckoThread
@@ -2357,7 +2357,7 @@ GeckoThread
 :
 CheckAndSetState
 (
-widget
+java
 :
 :
 GeckoThread
@@ -2369,7 +2369,7 @@ State
 PROFILE_READY
 (
 )
-widget
+java
 :
 :
 GeckoThread
@@ -2416,7 +2416,7 @@ IsAvailable
 )
 )
 {
-widget
+java
 :
 :
 GeckoThread
@@ -2424,7 +2424,7 @@ GeckoThread
 :
 SetState
 (
-widget
+java
 :
 :
 GeckoThread
@@ -4328,7 +4328,7 @@ dom
 kStandardGamepadAxes
 )
 ;
-widget
+java
 :
 :
 GeckoAppShell

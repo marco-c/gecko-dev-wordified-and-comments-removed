@@ -2404,10 +2404,7 @@ osVersion
 ;
 isTablet
 =
-mozilla
-:
-:
-widget
+java
 :
 :
 GeckoAppShell

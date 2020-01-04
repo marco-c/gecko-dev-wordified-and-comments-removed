@@ -18,7 +18,7 @@ class
 ANRReporter
 :
 public
-widget
+java
 :
 :
 ANRReporter

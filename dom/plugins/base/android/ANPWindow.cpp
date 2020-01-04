@@ -33,13 +33,6 @@ h
 #
 include
 "
-AndroidBridge
-.
-h
-"
-#
-include
-"
 nsNPAPIPluginInstance
 .
 h

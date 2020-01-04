@@ -1257,7 +1257,7 @@ NS_OK
 #
 ifdef
 MOZ_WIDGET_ANDROID
-widget
+java
 :
 :
 GeckoAppShell
@@ -1493,7 +1493,7 @@ aAlertText
 #
 ifdef
 MOZ_WIDGET_ANDROID
-widget
+java
 :
 :
 GeckoAppShell
@@ -1533,7 +1533,7 @@ aAlertName
 #
 ifdef
 MOZ_WIDGET_ANDROID
-widget
+java
 :
 :
 GeckoAppShell

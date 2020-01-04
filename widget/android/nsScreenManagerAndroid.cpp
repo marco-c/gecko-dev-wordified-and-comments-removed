@@ -18,13 +18,6 @@ h
 #
 include
 "
-AndroidBridge
-.
-h
-"
-#
-include
-"
 GeneratedJNIWrappers
 .
 h
@@ -143,7 +136,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-widget
+java
 :
 :
 sdk
@@ -155,7 +148,7 @@ Rect
 LocalRef
 rect
 =
-widget
+java
 :
 :
 GeckoAppShell
@@ -268,7 +261,7 @@ NS_ERROR_FAILURE
 *
 aPixelDepth
 =
-widget
+java
 :
 :
 GeckoAppShell
@@ -323,7 +316,7 @@ IsAvailable
 )
 )
 {
-widget
+java
 :
 :
 GeckoAppShell

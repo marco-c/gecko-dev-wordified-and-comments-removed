@@ -1032,7 +1032,7 @@ String
 LocalRef
 stack
 =
-widget
+java
 :
 :
 GeckoAppShell
