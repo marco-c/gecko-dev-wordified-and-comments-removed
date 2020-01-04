@@ -4154,7 +4154,7 @@ early
 "
 )
 ;
-exit
+_exit
 (
 0
 )
