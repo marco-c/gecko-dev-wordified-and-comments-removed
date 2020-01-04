@@ -483,6 +483,12 @@ finished
 )
 ;
 yield
+closeBrowserAction
+(
+extension
+)
+;
+yield
 extension
 .
 unload
