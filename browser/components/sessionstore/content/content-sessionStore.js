@@ -749,6 +749,7 @@ restoreTabContentStarted
 "
 {
 epoch
+didStartLoad
 }
 )
 ;
