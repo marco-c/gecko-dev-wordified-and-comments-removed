@@ -672,7 +672,10 @@ type
 )
 =
 =
-MIRType_Object
+MIRType
+:
+:
+Object
 )
 ;
 MOZ_ASSERT
@@ -3964,7 +3967,10 @@ type
 )
 !
 =
-MIRType_Int32
+MIRType
+:
+:
+Int32
 )
 return
 false
@@ -4376,7 +4382,10 @@ type
 )
 =
 =
-MIRType_MagicHole
+MIRType
+:
+:
+MagicHole
 )
 {
 JitSpewDef
@@ -4538,7 +4547,10 @@ type
 )
 =
 =
-MIRType_Object
+MIRType
+:
+:
+Object
 )
 ;
 MOZ_ASSERT

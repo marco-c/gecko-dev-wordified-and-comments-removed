@@ -1001,7 +1001,10 @@ type
 )
 =
 =
-MIRType_Float32
+MIRType
+:
+:
+Float32
 )
 {
 masm

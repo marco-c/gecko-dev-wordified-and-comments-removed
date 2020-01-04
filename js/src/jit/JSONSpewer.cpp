@@ -1223,7 +1223,10 @@ type
 )
 !
 =
-MIRType_None
+MIRType
+:
+:
+None
 &
 &
 def

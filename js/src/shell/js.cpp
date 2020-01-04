@@ -33366,7 +33366,10 @@ hasn
 t
 )
 the
-MIRType_Float32
+MIRType
+:
+:
+Float32
 if
 isFloat32
 is

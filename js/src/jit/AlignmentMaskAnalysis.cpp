@@ -288,7 +288,10 @@ alloc
 )
 op0
 rhs
-MIRType_Int32
+MIRType
+:
+:
+Int32
 )
 ;
 ptr
@@ -326,7 +329,10 @@ alloc
 )
 and_
 op1
-MIRType_Int32
+MIRType
+:
+:
+Int32
 )
 ;
 ptr

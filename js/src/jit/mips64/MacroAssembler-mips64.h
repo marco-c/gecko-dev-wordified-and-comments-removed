@@ -2436,7 +2436,10 @@ if
 type
 =
 =
-MIRType_Int32
+MIRType
+:
+:
+Int32
 )
 unboxInt32
 (
@@ -2454,7 +2457,10 @@ if
 type
 =
 =
-MIRType_Boolean
+MIRType
+:
+:
+Boolean
 )
 unboxBoolean
 (

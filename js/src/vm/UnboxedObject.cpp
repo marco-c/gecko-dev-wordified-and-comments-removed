@@ -1065,7 +1065,10 @@ types
 >
 mightBeMIRType
 (
-MIRType_Null
+MIRType
+:
+:
+Null
 )
 ?
 &
@@ -1137,7 +1140,10 @@ targetAddress
 JSVAL_TYPE_OBJECT
 TypedOrValueRegister
 (
-MIRType_Object
+MIRType
+:
+:
+Object
 AnyRegister
 (
 payloadReg

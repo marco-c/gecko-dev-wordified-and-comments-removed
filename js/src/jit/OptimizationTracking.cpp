@@ -6241,7 +6241,10 @@ alloc
 (
 )
 kind
-MIRType_Object
+MIRType
+:
+:
+Object
 )
 ;
 if
