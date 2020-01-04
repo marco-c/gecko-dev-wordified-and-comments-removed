@@ -255,7 +255,7 @@ mActualTarget
 bool
 mActualTargetKeepPartial
 ;
-ScopedPK11Context
+UniquePK11Context
 mDigestContext
 ;
 static
