@@ -43,7 +43,7 @@ GenericPrinter
 protected
 :
 bool
-reportedOOM_
+hadOOM_
 ;
 GenericPrinter
 (
@@ -188,6 +188,9 @@ initialized
 ;
 #
 endif
+bool
+shouldReportOOM
+;
 char
 *
 base
@@ -213,6 +216,10 @@ Sprinter
 ExclusiveContext
 *
 cx
+bool
+shouldReportOOM
+=
+true
 )
 ;
 ~
