@@ -420,7 +420,7 @@ notifyMediaControlService
 (
 MediaControlService
 .
-ACTION_PLAY
+ACTION_RESUME
 )
 ;
 mAudioFocusState
