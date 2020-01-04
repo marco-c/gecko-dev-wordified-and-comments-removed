@@ -45,6 +45,7 @@ extern
 void
 fail
 (
+const
 char
 *
 format
@@ -108,6 +109,7 @@ extern
 void
 xchdir
 (
+const
 char
 *
 dir
