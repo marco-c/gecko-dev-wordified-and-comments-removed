@@ -3441,6 +3441,7 @@ nsStyleSet
 GetAuthorStyleDisabled
 (
 )
+const
 {
 return
 mAuthorStyleDisabled

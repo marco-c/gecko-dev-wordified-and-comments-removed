@@ -1026,6 +1026,7 @@ bool
 GetAuthorStyleDisabled
 (
 )
+const
 ;
 nsresult
 SetAuthorStyleDisabled
