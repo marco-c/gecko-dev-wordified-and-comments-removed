@@ -754,6 +754,12 @@ _autoExpand
 (
 )
 ;
+this
+.
+_updateHeight
+(
+)
+;
 }
 _autoExpand
 (
@@ -846,7 +852,7 @@ item
 {
 autoExpand
 (
-item
+child
 currentDepth
 +
 1
