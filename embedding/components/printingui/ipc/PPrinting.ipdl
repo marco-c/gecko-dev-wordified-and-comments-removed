@@ -147,8 +147,8 @@ returns
 (
 bool
 notifyOnOpen
-bool
-success
+nsresult
+rv
 )
 ;
 async
