@@ -236,6 +236,11 @@ ClientID
 jsm
 '
 '
+Console
+.
+jsm
+'
+'
 debug
 .
 js

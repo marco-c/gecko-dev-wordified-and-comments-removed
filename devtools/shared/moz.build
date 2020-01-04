@@ -227,11 +227,6 @@ utils
 js
 '
 '
-Console
-.
-jsm
-'
-'
 content
 -
 observer
