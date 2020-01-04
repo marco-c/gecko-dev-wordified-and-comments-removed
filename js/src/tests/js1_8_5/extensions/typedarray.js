@@ -5060,13 +5060,10 @@ tarray
 {
 return
 [
-x
-for
-(
-x
-of
+.
+.
+.
 tarray
-)
 ]
 .
 toString
