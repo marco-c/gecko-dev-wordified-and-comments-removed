@@ -4694,7 +4694,7 @@ const
 unsigned
 MaxTableElems
 =
-128
+1024
 *
 1024
 ;
