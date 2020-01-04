@@ -433,8 +433,6 @@ elementManager
 new
 ElementManager
 (
-[
-]
 )
 ;
 var
