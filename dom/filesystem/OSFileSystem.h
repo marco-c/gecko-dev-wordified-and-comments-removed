@@ -91,6 +91,17 @@ override
 ;
 virtual
 void
+SerializeDOMPath
+(
+nsAString
+&
+aOutput
+)
+const
+override
+;
+virtual
+void
 Unlink
 (
 )

@@ -127,7 +127,7 @@ mFileSystem
 FileSystemBase
 :
 :
-FromString
+DeserializeDOMPath
 (
 p
 .
