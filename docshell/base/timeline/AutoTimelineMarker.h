@@ -25,9 +25,6 @@ h
 class
 nsIDocShell
 ;
-class
-nsDocShell
-;
 namespace
 mozilla
 {
@@ -44,7 +41,7 @@ mName
 ;
 RefPtr
 <
-nsDocShell
+nsIDocShell
 >
 mDocShell
 ;

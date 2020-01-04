@@ -30,6 +30,9 @@ h
 struct
 JSContext
 ;
+class
+JSObject
+;
 namespace
 mozilla
 {
@@ -78,6 +81,7 @@ delete
 ;
 public
 :
+explicit
 AbstractTimelineMarker
 (
 const
@@ -88,6 +92,7 @@ MarkerTracingType
 aTracingType
 )
 ;
+explicit
 AbstractTimelineMarker
 (
 const
@@ -126,8 +131,6 @@ AbstractTimelineMarker
 &
 aOther
 )
-=
-0
 ;
 virtual
 void
@@ -200,6 +203,8 @@ mTime
 MarkerTracingType
 mTracingType
 ;
+protected
+:
 void
 SetCurrentTime
 (
@@ -211,6 +216,13 @@ SetCustomTime
 const
 TimeStamp
 &
+aTime
+)
+;
+void
+SetCustomTime
+(
+DOMHighResTimeStamp
 aTime
 )
 ;

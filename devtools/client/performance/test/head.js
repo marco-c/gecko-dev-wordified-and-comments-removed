@@ -396,6 +396,17 @@ html
 "
 ;
 const
+WORKER_URL
+=
+EXAMPLE_URL
++
+"
+doc_worker
+.
+html
+"
+;
+const
 MEMORY_SAMPLE_PROB_PREF
 =
 "
