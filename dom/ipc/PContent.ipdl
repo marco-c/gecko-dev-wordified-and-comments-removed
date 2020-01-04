@@ -2137,6 +2137,15 @@ item
 )
 ;
 async
+ClearImageCache
+(
+bool
+privateLoader
+bool
+chrome
+)
+;
+async
 SetOffline
 (
 bool
