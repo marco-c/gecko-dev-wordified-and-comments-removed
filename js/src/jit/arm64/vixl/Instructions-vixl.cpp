@@ -1069,7 +1069,6 @@ base
 offset
 ;
 }
-inline
 int
 Instruction
 :
