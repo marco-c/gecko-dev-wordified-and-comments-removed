@@ -150,6 +150,11 @@ BrowserUITelemetry
 jsm
 '
 '
+BrowserUsageTelemetry
+.
+jsm
+'
+'
 CaptivePortalWatcher
 .
 jsm
