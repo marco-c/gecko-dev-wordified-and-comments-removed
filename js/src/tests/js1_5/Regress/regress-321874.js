@@ -1014,7 +1014,9 @@ c
 ;
 expect
 =
-0
+'
+error
+'
 ;
 section
 =
@@ -1106,7 +1108,9 @@ section
 ;
 expect
 =
-0
+'
+error
+'
 ;
 section
 =
