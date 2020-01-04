@@ -87,7 +87,7 @@ should
 be
 mirrored
 to
-preferences_customize_tablet
+preferences_general_tablet
 .
 xml
 .
@@ -157,7 +157,7 @@ android
 .
 not_a_preference
 .
-customize_home
+general_home
 "
 android
 :

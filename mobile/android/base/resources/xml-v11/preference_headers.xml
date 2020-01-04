@@ -91,7 +91,7 @@ nested
 within
 the
 "
-Customize
+General
 "
 header
 on
@@ -176,7 +176,7 @@ title
 "
 string
 /
-pref_header_customize
+pref_header_general
 "
 >
 <
@@ -193,7 +193,7 @@ android
 value
 =
 "
-preferences_customize_tablet
+preferences_general_tablet
 "
 /
 >

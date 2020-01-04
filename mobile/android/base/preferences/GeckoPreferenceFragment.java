@@ -926,7 +926,7 @@ R
 .
 xml
 .
-preferences_customize_tablet
+preferences_general_tablet
 :
 R
 .

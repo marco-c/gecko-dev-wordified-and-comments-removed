@@ -225,7 +225,7 @@ title
 "
 string
 /
-pref_category_customize
+pref_category_general
 "
 android
 :
@@ -234,7 +234,7 @@ summary
 "
 string
 /
-pref_category_customize_summary
+pref_category_general_summary
 "
 android
 :
@@ -245,7 +245,7 @@ android
 .
 not_a_preference
 .
-customize_screen
+general_screen
 "
 >
 <
@@ -302,7 +302,7 @@ android
 value
 =
 "
-preferences_customize
+preferences_general
 "
 /
 >
