@@ -707,9 +707,6 @@ sizeof
 epoch
 )
 ;
-int
-ret
-=
 je_
 (
 mallctl
