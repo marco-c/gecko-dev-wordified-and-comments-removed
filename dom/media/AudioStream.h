@@ -131,6 +131,12 @@ class
 FrameHistory
 ;
 class
+AudioConfig
+;
+class
+AudioConverter
+;
+class
 AudioClock
 {
 public
@@ -1240,6 +1246,12 @@ mIsMonoAudioEnabled
 DataSource
 &
 mDataSource
+;
+UniquePtr
+<
+AudioConverter
+>
+mAudioConverter
 ;
 }
 ;
