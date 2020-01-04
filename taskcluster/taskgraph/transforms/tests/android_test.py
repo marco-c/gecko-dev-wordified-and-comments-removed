@@ -306,6 +306,26 @@ api15
 /
 opt
 '
+        
+'
+android
+-
+x86
+/
+opt
+'
+:
+'
+android
+-
+4
+-
+2
+-
+x86
+/
+opt
+'
     
 }
     

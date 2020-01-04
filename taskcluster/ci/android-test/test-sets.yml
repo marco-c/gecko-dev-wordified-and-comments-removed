@@ -162,3 +162,9 @@ reftest
 robocop
 -
 xpcshell
+x86
+-
+tests
+:
+-
+xpcshell
