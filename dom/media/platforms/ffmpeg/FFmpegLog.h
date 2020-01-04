@@ -4,6 +4,15 @@ __FFmpegLog_h__
 #
 define
 __FFmpegLog_h__
+#
+include
+"
+mozilla
+/
+Logging
+.
+h
+"
 extern
 mozilla
 :
