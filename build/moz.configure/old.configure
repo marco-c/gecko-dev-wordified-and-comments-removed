@@ -1398,13 +1398,6 @@ fonts
 -
 enable
 -
-callgrind
-'
-'
--
--
-enable
--
 chrome
 -
 format
