@@ -112,8 +112,8 @@ Shutdown
 (
 )
 ;
-bool
-HasQueuedSample
+size_t
+NumQueuedSamples
 (
 )
 ;
