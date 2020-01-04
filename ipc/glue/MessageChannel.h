@@ -846,6 +846,8 @@ aStackDepth
 bool
 WaitForSyncNotify
 (
+bool
+aHandleWindowsMessages
 )
 ;
 bool
