@@ -3387,6 +3387,15 @@ events
 :
 none
 ;
+-
+moz
+-
+top
+-
+layer
+:
+top
+;
 position
 :
 fixed
@@ -3408,11 +3417,5 @@ height
 :
 100
 %
-;
-z
--
-index
-:
-2147483648
 ;
 }
