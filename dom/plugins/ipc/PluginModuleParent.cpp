@@ -6723,12 +6723,12 @@ CrashReporterParent
 *
 >
 (
+LoneManagedOrNull
+(
 ManagedPCrashReporterParent
 (
 )
-[
-0
-]
+)
 )
 ;
 }
