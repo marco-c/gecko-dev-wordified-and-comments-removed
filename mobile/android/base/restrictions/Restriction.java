@@ -188,17 +188,9 @@ string
 .
 restriction_disallow_guest_browsing_title
 )
-DISALLOW_DEFAULT_THEME
-(
-17
-"
-no_default_theme
-"
-0
-)
 DISALLOW_ADVANCED_SETTINGS
 (
-18
+17
 "
 no_advanced_settings
 "
@@ -210,7 +202,7 @@ restriction_disallow_advanced_settings_title
 )
 DISALLOW_CAMERA_MICROPHONE
 (
-19
+18
 "
 no_camera_microphone
 "

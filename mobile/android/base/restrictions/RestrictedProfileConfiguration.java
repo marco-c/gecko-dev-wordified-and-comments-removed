@@ -128,9 +128,6 @@ Restriction
 DISALLOW_GUEST_BROWSING
 Restriction
 .
-DISALLOW_DEFAULT_THEME
-Restriction
-.
 DISALLOW_ADVANCED_SETTINGS
 Restriction
 .
