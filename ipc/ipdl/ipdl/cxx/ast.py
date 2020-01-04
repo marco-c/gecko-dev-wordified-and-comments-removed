@@ -1976,6 +1976,16 @@ ptr
 =
 1
 )
+Type
+.
+AUTO
+=
+Type
+(
+'
+auto
+'
+)
 class
 TypeArray
 (
