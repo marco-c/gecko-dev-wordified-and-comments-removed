@@ -109,6 +109,11 @@ store
 .
 js
 '
+'
+types
+.
+js
+'
 )
 MOCHITEST_CHROME_MANIFESTS
 +
