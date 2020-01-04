@@ -4170,12 +4170,6 @@ key
 (
 mSet
 aInterface
-mSet
--
->
-GetInterfaceCount
-(
-)
 )
 ;
 newSet

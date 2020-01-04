@@ -4916,8 +4916,6 @@ baseSet
 XPCNativeInterface
 *
 addition
-uint16_t
-position
 )
 ;
 ~

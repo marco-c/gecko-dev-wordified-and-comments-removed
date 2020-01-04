@@ -959,8 +959,6 @@ baseSet
 XPCNativeInterface
 *
 addition
-uint16_t
-position
 )
 :
 mBaseSet
@@ -973,7 +971,12 @@ addition
 )
 mPosition
 (
-position
+baseSet
+-
+>
+GetInterfaceCount
+(
+)
 )
 {
 MOZ_ASSERT
