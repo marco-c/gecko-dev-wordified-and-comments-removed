@@ -1134,6 +1134,9 @@ stub
 firefox
 /
 *
+*
+/
+*
 .
 so
 '
@@ -1222,15 +1225,18 @@ package_artifact_patterns
                         
 continue
                     
-basename
+destpath
 =
 mozpath
 .
-basename
+relpath
 (
 f
 .
 name
+"
+firefox
+"
 )
                     
 self
@@ -1246,16 +1252,16 @@ artifact
                              
 {
 '
-basename
+destpath
 '
 :
-basename
+destpath
 }
                              
 '
 Adding
 {
-basename
+destpath
 }
 to
 processed
@@ -1267,7 +1273,7 @@ writer
 .
 add
 (
-basename
+destpath
 .
 encode
 (
