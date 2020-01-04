@@ -640,6 +640,15 @@ GetResponseEnd
 (
 )
 ;
+int64_t
+GetTransferSize
+(
+)
+{
+return
+mTransferSize
+;
+}
 private
 :
 friend
@@ -1006,6 +1015,9 @@ mContentLength
 ;
 int64_t
 mContentRead
+;
+int64_t
+mTransferSize
 ;
 uint32_t
 mInvalidResponseBytesRead

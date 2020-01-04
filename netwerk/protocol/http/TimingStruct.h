@@ -59,6 +59,12 @@ redirectStart
 TimeStamp
 redirectEnd
 ;
+uint64_t
+transferSize
+;
+uint64_t
+encodedBodySize
+;
 }
 ;
 }

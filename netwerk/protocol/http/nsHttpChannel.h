@@ -485,6 +485,15 @@ aListener
 override
 ;
 NS_IMETHOD
+GetEncodedBodySize
+(
+uint64_t
+*
+aEncodedBodySize
+)
+override
+;
+NS_IMETHOD
 SetupFallbackChannel
 (
 const
