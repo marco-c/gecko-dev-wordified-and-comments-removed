@@ -1634,6 +1634,9 @@ titlebar
 scrollbars
 =
 0
+popup
+=
+1
 "
 null
 )
