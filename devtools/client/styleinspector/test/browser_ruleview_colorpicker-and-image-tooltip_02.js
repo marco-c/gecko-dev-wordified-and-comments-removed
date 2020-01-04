@@ -404,12 +404,7 @@ style
 .
 backgroundColor
 "
-rgb
-(
-0
-0
-0
-)
+black
 "
 "
 The
@@ -430,8 +425,7 @@ nextSibling
 .
 textContent
 "
-#
-000
+black
 "
 "
 The

@@ -1211,13 +1211,6 @@ textProps
 background
 :
 blue
-none
-repeat
-scroll
-0
-%
-0
-%
 "
 "
 Paragraph
@@ -1297,13 +1290,6 @@ white
 background
 :
 black
-none
-repeat
-scroll
-0
-%
-0
-%
 "
 "
 Paragraph

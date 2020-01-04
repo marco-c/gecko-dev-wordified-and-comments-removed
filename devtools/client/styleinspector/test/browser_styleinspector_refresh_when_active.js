@@ -113,8 +113,7 @@ color
 "
 )
 "
-#
-F00
+red
 "
 "
 The
@@ -307,8 +306,7 @@ color
 "
 )
 "
-#
-F00
+red
 "
 "
 The

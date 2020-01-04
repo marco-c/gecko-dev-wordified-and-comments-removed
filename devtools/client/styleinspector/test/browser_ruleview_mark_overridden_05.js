@@ -142,6 +142,13 @@ red
 "
 )
 ;
+yield
+ruleEditor
+.
+rule
+.
+_applyingModifications
+;
 let
 firstProp
 =

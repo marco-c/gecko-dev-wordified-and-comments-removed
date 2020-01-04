@@ -482,6 +482,8 @@ modifications
 .
 removeProperty
 (
+-
+1
 property
 .
 name
@@ -494,6 +496,8 @@ modifications
 .
 setProperty
 (
+-
+1
 property
 .
 name
@@ -568,6 +572,8 @@ modifications
 .
 setProperty
 (
+-
+1
 property
 value
 "
@@ -581,6 +587,8 @@ modifications
 .
 removeProperty
 (
+-
+1
 property
 )
 ;
