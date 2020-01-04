@@ -486,6 +486,14 @@ nsIPresentationControlChannel
 aRetVal
 )
 ;
+bool
+IsCompatibleServer
+(
+nsIDNSServiceInfo
+*
+aServiceInfo
+)
+;
 nsresult
 AddDevice
 (
