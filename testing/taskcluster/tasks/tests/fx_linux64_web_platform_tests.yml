@@ -16,6 +16,13 @@ yml
 '
 task
 :
+workerType
+:
+desktop
+-
+test
+-
+xlarge
 payload
 :
 maxRunTime
