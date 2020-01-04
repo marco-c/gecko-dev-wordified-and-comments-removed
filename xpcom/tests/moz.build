@@ -276,9 +276,6 @@ TestObserverArray
 TestObserverService
 '
 '
-TestPipe
-'
-'
 TestStringAPI
 '
 '
