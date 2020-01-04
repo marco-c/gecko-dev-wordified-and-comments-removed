@@ -60,6 +60,9 @@ IOAmounts
 HashTableIteration
 =
 0x10
+ImageCache
+=
+0x20
 Any
 =
 0xffffffff
