@@ -92,7 +92,7 @@ ServiceWorkerManagerChild
 RecvNotifySoftUpdate
 (
 const
-OriginAttributes
+PrincipalOriginAttributes
 &
 aOriginAttributes
 const

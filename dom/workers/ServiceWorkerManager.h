@@ -207,7 +207,7 @@ namespace
 mozilla
 {
 class
-OriginAttributes
+PrincipalOriginAttributes
 ;
 namespace
 dom
@@ -930,7 +930,7 @@ bool
 IsAvailable
 (
 const
-OriginAttributes
+PrincipalOriginAttributes
 &
 aOriginAttributes
 nsIURI
@@ -956,7 +956,7 @@ nsIRunnable
 PrepareFetchEvent
 (
 const
-OriginAttributes
+PrincipalOriginAttributes
 &
 aOriginAttributes
 nsIDocument
@@ -1009,7 +1009,7 @@ void
 SoftUpdate
 (
 const
-OriginAttributes
+PrincipalOriginAttributes
 &
 aOriginAttributes
 const
@@ -1027,7 +1027,7 @@ void
 PropagateSoftUpdate
 (
 const
-OriginAttributes
+PrincipalOriginAttributes
 &
 aOriginAttributes
 const
@@ -1433,7 +1433,7 @@ ServiceWorkerInfo
 GetActiveWorkerInfoForScope
 (
 const
-OriginAttributes
+PrincipalOriginAttributes
 &
 aOriginAttributes
 const
@@ -1523,7 +1523,7 @@ ServiceWorkerRegistrationInfo
 GetServiceWorkerRegistrationInfo
 (
 const
-OriginAttributes
+PrincipalOriginAttributes
 &
 aOriginAttributes
 nsIURI
@@ -1770,7 +1770,7 @@ aRegistration
 void
 RemoveAllRegistrations
 (
-OriginAttributes
+PrincipalOriginAttributes
 *
 aParams
 )
