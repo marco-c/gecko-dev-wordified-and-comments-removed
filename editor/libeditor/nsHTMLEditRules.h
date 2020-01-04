@@ -1882,8 +1882,8 @@ aOutOfList
 nsresult
 RemoveListStructure
 (
-nsIDOMNode
-*
+Element
+&
 aList
 )
 ;
