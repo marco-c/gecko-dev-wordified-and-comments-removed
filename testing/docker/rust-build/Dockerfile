@@ -109,6 +109,9 @@ sh
 build_rust
 .
 sh
+upload_rust
+.
+sh
 /
 build
 /
@@ -192,5 +195,13 @@ sh
 build
 /
 build_rust
+.
+sh
+&
+&
+/
+build
+/
+upload_rust
 .
 sh
