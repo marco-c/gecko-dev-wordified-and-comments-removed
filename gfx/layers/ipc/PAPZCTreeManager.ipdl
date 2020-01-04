@@ -111,6 +111,10 @@ nsGUIEventIPC
 h
 "
 ;
+include
+protocol
+PCompositorBridge
+;
 using
 CSSRect
 from
@@ -407,6 +411,9 @@ sync
 protocol
 PAPZCTreeManager
 {
+manager
+PCompositorBridge
+;
 parent
 :
 sync
