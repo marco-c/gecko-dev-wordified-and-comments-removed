@@ -5142,7 +5142,7 @@ panel
 -
 text
 -
-large
+medium
 "
 >
 {
@@ -5151,7 +5151,7 @@ mozL10n
 get
 (
 "
-no_conversations_message_heading
+no_conversations_message_heading2
 "
 )
 }
@@ -5177,7 +5177,7 @@ mozL10n
 get
 (
 "
-no_conversations_start_message
+no_conversations_start_message2
 "
 )
 }
