@@ -673,6 +673,9 @@ public
 explicit
 CompositorOGL
 (
+CompositorBridgeParent
+*
+aParent
 nsIWidget
 *
 aWidget

@@ -1220,6 +1220,17 @@ return
 mCompositeUntilTime
 ;
 }
+void
+SetInvalid
+(
+)
+;
+bool
+IsValid
+(
+)
+const
+;
 protected
 :
 void

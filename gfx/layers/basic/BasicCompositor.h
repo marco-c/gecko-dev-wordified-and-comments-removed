@@ -197,6 +197,9 @@ public
 explicit
 BasicCompositor
 (
+CompositorBridgeParent
+*
+aParent
 nsIWidget
 *
 aWidget
