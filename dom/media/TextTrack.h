@@ -405,6 +405,14 @@ SetCuesInactive
 (
 )
 ;
+void
+NotifyCueUpdated
+(
+TextTrackCue
+*
+aCue
+)
+;
 private
 :
 ~

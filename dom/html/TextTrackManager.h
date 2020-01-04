@@ -267,6 +267,14 @@ mShutdown
 true
 ;
 }
+void
+NotifyCueUpdated
+(
+TextTrackCue
+*
+aCue
+)
+;
 private
 :
 void
