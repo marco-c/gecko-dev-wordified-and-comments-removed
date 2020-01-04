@@ -240,7 +240,7 @@ value
 type
 :
 '
-separator
+literal
 '
 value
 :
@@ -264,7 +264,7 @@ value
 type
 :
 '
-separator
+literal
 '
 value
 :
@@ -350,7 +350,7 @@ value
 type
 :
 '
-separator
+literal
 '
 value
 :
@@ -374,7 +374,7 @@ value
 type
 :
 '
-separator
+literal
 '
 value
 :
@@ -482,7 +482,7 @@ value
 type
 :
 '
-separator
+literal
 '
 value
 :
@@ -506,7 +506,7 @@ value
 type
 :
 '
-separator
+literal
 '
 value
 :
@@ -614,7 +614,7 @@ value
 type
 :
 '
-separator
+literal
 '
 value
 :
@@ -638,7 +638,7 @@ value
 type
 :
 '
-separator
+literal
 '
 value
 :
@@ -662,7 +662,7 @@ value
 type
 :
 '
-separator
+literal
 '
 value
 :
@@ -673,7 +673,7 @@ value
 type
 :
 '
-dayperiod
+dayPeriod
 '
 value
 :
@@ -903,7 +903,7 @@ value
 type
 :
 '
-separator
+literal
 '
 value
 :
@@ -1030,7 +1030,7 @@ Monday
 type
 :
 '
-separator
+literal
 '
 value
 :
@@ -1053,7 +1053,7 @@ value
 type
 :
 '
-separator
+literal
 '
 value
 :
@@ -1077,7 +1077,7 @@ value
 type
 :
 '
-separator
+literal
 '
 value
 :
@@ -1101,7 +1101,7 @@ value
 type
 :
 '
-separator
+literal
 '
 value
 :
@@ -1124,7 +1124,7 @@ value
 type
 :
 '
-separator
+literal
 '
 value
 :
@@ -1148,7 +1148,7 @@ value
 type
 :
 '
-separator
+literal
 '
 value
 :
@@ -1172,7 +1172,7 @@ value
 type
 :
 '
-separator
+literal
 '
 value
 :
@@ -1183,7 +1183,7 @@ value
 type
 :
 '
-dayperiod
+dayPeriod
 '
 value
 :
