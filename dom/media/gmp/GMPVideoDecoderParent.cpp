@@ -1171,12 +1171,6 @@ mActorDestroyed
 =
 true
 ;
-mVideoHost
-.
-DoneWithAPI
-(
-)
-;
 UnblockResetAndDrain
 (
 )
