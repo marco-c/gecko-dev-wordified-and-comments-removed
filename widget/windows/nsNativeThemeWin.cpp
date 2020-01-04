@@ -9519,12 +9519,6 @@ GetSystemMetrics
 SM_CXPADDEDBORDER
 )
 ;
-ScaleForFrameDPI
-(
-aResult
-aFrame
-)
-;
 return
 ok
 ;
@@ -10958,12 +10952,6 @@ SM_CXPADDEDBORDER
 aIsOverridable
 =
 false
-;
-ScaleForFrameDPI
-(
-aResult
-aFrame
-)
 ;
 return
 rv
