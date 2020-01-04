@@ -4254,7 +4254,6 @@ i
 ;
 }
 else
-{
 if
 (
 c
@@ -4285,7 +4284,6 @@ ensureRowIsVisible
 i
 )
 ;
-}
 }
 this
 .

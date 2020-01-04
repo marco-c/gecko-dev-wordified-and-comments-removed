@@ -682,7 +682,6 @@ passwordSafety
 }
 }
 else
-{
 if
 (
 isFormSubmitSecure
@@ -710,7 +709,6 @@ passwordSafety
 =
 5
 ;
-}
 }
 Services
 .

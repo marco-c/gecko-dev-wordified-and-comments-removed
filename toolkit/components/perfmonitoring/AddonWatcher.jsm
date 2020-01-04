@@ -968,7 +968,6 @@ continue
 }
 }
 else
-{
 if
 (
 now
@@ -983,7 +982,6 @@ delayBetweenFreezeAlerts
 {
 continue
 ;
-}
 }
 alerts
 .

@@ -1837,7 +1837,6 @@ next
 ;
 }
 else
-{
 if
 (
 id
@@ -1864,7 +1863,6 @@ current
 ;
 return
 ;
-}
 }
 }
 catch

@@ -1468,7 +1468,6 @@ focus
 ;
 }
 else
-{
 if
 (
 this
@@ -1510,11 +1509,11 @@ focus
 ;
 }
 else
-{
 if
 (
 isInitialLoad
 )
+{
 this
 .
 ui
@@ -1525,7 +1524,9 @@ select
 (
 )
 ;
+}
 else
+{
 this
 .
 ui
@@ -1536,7 +1537,6 @@ focus
 (
 )
 ;
-}
 }
 }
 onCheckbox

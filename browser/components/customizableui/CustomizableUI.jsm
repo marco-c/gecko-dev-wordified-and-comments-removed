@@ -19355,7 +19355,6 @@ true
 }
 }
 else
-{
 if
 (
 !
@@ -19437,7 +19436,6 @@ this
 }
 }
 else
-{
 if
 (
 aNode
@@ -19487,8 +19485,6 @@ _moveItemsBackToTheirOrigin
 (
 )
 ;
-}
-}
 }
 }
 findOverflowedInsertionPoints

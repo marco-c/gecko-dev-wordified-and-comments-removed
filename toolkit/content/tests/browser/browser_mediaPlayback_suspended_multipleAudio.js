@@ -403,7 +403,6 @@ correctly
 }
 }
 else
-{
 if
 (
 expectedPauseState
@@ -471,7 +470,6 @@ onplay
 "
 )
 ;
-}
 }
 }
 }

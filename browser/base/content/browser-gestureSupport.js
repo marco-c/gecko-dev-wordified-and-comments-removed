@@ -2710,7 +2710,6 @@ _nextBox
 ;
 }
 else
-{
 if
 (
 this
@@ -2783,7 +2782,6 @@ aVal
 dampValue
 )
 ;
-}
 }
 }
 _getCurrentHistoryIndex

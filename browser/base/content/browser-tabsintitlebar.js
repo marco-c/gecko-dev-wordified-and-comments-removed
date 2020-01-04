@@ -229,7 +229,6 @@ true
 }
 }
 else
-{
 if
 (
 !
@@ -258,7 +257,6 @@ _update
 true
 )
 ;
-}
 }
 }
 updateAppearance
@@ -1458,13 +1456,13 @@ true
 }
 }
 else
-{
 if
 (
 TabsInTitlebar
 .
 enabled
 )
+{
 document
 .
 documentElement
@@ -1482,7 +1480,9 @@ chromemargin
 "
 )
 ;
+}
 else
+{
 document
 .
 documentElement

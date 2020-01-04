@@ -3865,7 +3865,6 @@ curFileStart
 }
 }
 else
-{
 if
 (
 !
@@ -3875,6 +3874,7 @@ path
 fileArray
 )
 )
+{
 return
 false
 ;

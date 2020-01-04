@@ -1222,7 +1222,6 @@ run
 ;
 }
 else
-{
 if
 (
 wasCollapsed
@@ -1246,7 +1245,6 @@ finish
 (
 )
 ;
-}
 }
 }
 var

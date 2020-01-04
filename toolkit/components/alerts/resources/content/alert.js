@@ -1646,7 +1646,6 @@ heightDelta
 }
 }
 else
-{
 if
 (
 window
@@ -1672,7 +1671,6 @@ screenY
 heightDelta
 )
 ;
-}
 }
 }
 }

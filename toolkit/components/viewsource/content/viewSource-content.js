@@ -2537,7 +2537,6 @@ break
 }
 }
 else
-{
 if
 (
 curLine
@@ -2619,7 +2618,6 @@ true
 ;
 break
 ;
-}
 }
 }
 }

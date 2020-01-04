@@ -547,7 +547,6 @@ isRemoteBrowser
 ;
 }
 else
-{
 if
 (
 outerWindowID
@@ -569,7 +568,6 @@ outerWindowID
 "
 )
 ;
-}
 }
 this
 .

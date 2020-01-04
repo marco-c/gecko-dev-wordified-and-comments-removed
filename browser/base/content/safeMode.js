@@ -331,7 +331,6 @@ true
 }
 }
 else
-{
 if
 (
 !
@@ -370,6 +369,5 @@ hidden
 =
 true
 ;
-}
 }
 }

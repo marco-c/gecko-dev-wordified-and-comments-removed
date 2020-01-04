@@ -352,6 +352,10 @@ val
 ;
 }
 else
+if
+(
+val
+)
 {
 /
 /
@@ -362,11 +366,6 @@ just
 setting
 the
 attribute
-if
-(
-val
-)
-{
 this
 .
 setAttribute
@@ -391,7 +390,6 @@ open
 '
 )
 ;
-}
 }
 return
 val
@@ -2504,7 +2502,6 @@ true
 ;
 }
 else
-{
 if
 (
 this
@@ -2524,7 +2521,6 @@ _pendingActive
 =
 false
 ;
-}
 }
 if
 (

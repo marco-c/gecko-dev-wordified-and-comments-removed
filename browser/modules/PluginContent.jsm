@@ -4084,7 +4084,6 @@ true
 ;
 }
 else
-{
 if
 (
 this
@@ -4118,7 +4117,6 @@ playPlugin
 (
 )
 ;
-}
 }
 }
 }
@@ -5598,7 +5596,6 @@ event
 ;
 }
 else
-{
 if
 (
 !
@@ -5658,7 +5655,6 @@ crashed
 false
 )
 ;
-}
 }
 }
 NPAPIPluginCrashReportSubmitted

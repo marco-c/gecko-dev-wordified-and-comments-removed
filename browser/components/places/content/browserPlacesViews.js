@@ -2606,7 +2606,6 @@ nextSibling
 ;
 }
 else
-{
 if
 (
 aPopup
@@ -2618,6 +2617,7 @@ parentNode
 =
 aPopup
 )
+{
 aPopup
 .
 removeChild

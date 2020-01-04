@@ -1929,7 +1929,6 @@ formLike
 ;
 }
 else
-{
 if
 (
 window
@@ -2018,7 +2017,6 @@ arm
 }
 )
 ;
-}
 }
 }
 _fetchLoginsFromParentAndFillForm
@@ -3639,7 +3637,6 @@ null
 }
 }
 else
-{
 if
 (
 pw1
@@ -3682,7 +3679,6 @@ pwFields
 .
 element
 ;
-}
 }
 log
 (

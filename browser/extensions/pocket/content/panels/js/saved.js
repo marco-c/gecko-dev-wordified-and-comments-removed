@@ -2180,7 +2180,6 @@ text
 }
 }
 else
-{
 if
 (
 (
@@ -2213,7 +2212,6 @@ stopImmediatePropagation
 (
 )
 ;
-}
 }
 }
 )

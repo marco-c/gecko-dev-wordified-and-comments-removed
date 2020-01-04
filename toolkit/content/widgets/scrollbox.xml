@@ -4552,11 +4552,6 @@ return
 ;
 }
 else
-{
-/
-/
-horizontal
-scrollbox
 if
 (
 event
@@ -4566,6 +4561,11 @@ detail
 =
 0
 )
+{
+/
+/
+horizontal
+scrollbox
 return
 ;
 }
@@ -4761,11 +4761,6 @@ return
 ;
 }
 else
-{
-/
-/
-horizontal
-scrollbox
 if
 (
 event
@@ -4775,6 +4770,11 @@ detail
 =
 0
 )
+{
+/
+/
+horizontal
+scrollbox
 return
 ;
 }

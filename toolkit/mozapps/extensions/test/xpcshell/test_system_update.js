@@ -2617,7 +2617,6 @@ initialState
 ;
 }
 else
-{
 if
 (
 finalState
@@ -2625,6 +2624,7 @@ finalState
 0
 ]
 )
+{
 expectedDirs
 +
 +
