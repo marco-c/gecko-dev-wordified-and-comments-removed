@@ -1734,14 +1734,17 @@ logger
         
 self
 .
-_closeWhenDone
+_keep_open
 =
+bool
+(
 options
 [
 '
-closeWhenDone
+keep_open
 '
 ]
+)
         
 self
 .
@@ -2203,10 +2206,9 @@ displayResults
 str
 (
                     
-not
 self
 .
-_closeWhenDone
+_keep_open
 )
 .
 lower
@@ -3505,9 +3507,10 @@ maxTimeouts
 )
             
 if
+not
 options
 .
-closeWhenDone
+keep_open
 :
                 
 self
@@ -16287,6 +16290,24 @@ testRoot
 self
 .
 testRoot
+        
+if
+not
+options
+.
+keep_open
+:
+            
+d
+[
+'
+closeWhenDone
+'
+]
+=
+'
+1
+'
         
 content
 =

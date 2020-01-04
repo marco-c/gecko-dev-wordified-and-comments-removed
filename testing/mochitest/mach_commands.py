@@ -2328,7 +2328,9 @@ tests
 and
 options
 .
-closeWhenDone
+keep_open
+is
+None
 and
 suite
 =
@@ -2340,9 +2342,9 @@ plain
             
 options
 .
-closeWhenDone
+keep_open
 =
-False
+True
         
 self
 .
