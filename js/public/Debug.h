@@ -676,7 +676,6 @@ bool
 )
 IsDebugger
 (
-const
 JSObject
 &
 obj
@@ -691,7 +690,6 @@ GetDebuggeeGlobals
 JSContext
 *
 cx
-const
 JSObject
 &
 dbgObj

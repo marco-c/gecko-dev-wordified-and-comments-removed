@@ -1029,7 +1029,6 @@ dbg
 IsDebugger
 )
 (
-const
 JSObject
 &
 )
@@ -1050,7 +1049,6 @@ GetDebuggeeGlobals
 (
 JSContext
 *
-const
 JSObject
 &
 AutoObjectVector
