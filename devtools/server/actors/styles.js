@@ -5081,6 +5081,15 @@ _parentSheet
 &
 this
 .
+sheetActor
+.
+allRulesHaveSource
+(
+)
+&
+&
+this
+.
 _parentSheet
 .
 href
