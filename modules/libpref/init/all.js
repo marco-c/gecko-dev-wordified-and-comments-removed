@@ -7419,6 +7419,12 @@ defined
 (
 XP_WIN
 )
+&
+&
+defined
+(
+NIGHTLY_BUILD
+)
 pref
 (
 "
