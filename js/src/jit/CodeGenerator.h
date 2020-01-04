@@ -2470,9 +2470,9 @@ ins
 )
 ;
 void
-visitThrowUninitializedLexical
+visitThrowRuntimeLexicalError
 (
-LThrowUninitializedLexical
+LThrowRuntimeLexicalError
 *
 ins
 )

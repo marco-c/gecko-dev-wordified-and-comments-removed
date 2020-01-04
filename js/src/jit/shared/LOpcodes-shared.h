@@ -1778,7 +1778,7 @@ LexicalCheck
 \
 _
 (
-ThrowUninitializedLexical
+ThrowRuntimeLexicalError
 )
 \
 _

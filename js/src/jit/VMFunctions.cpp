@@ -6483,11 +6483,13 @@ barrier
 ;
 }
 bool
-ThrowUninitializedLexical
+ThrowRuntimeLexicalError
 (
 JSContext
 *
 cx
+unsigned
+errorNumber
 )
 {
 ScriptFrameIter
@@ -6507,9 +6509,10 @@ script
 )
 )
 ;
-ReportUninitializedLexical
+ReportRuntimeLexicalError
 (
 cx
+errorNumber
 script
 iter
 .

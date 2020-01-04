@@ -4423,11 +4423,13 @@ obj
 )
 ;
 bool
-ThrowUninitializedLexical
+ThrowRuntimeLexicalError
 (
 JSContext
 *
 cx
+unsigned
+errorNumber
 )
 ;
 bool
