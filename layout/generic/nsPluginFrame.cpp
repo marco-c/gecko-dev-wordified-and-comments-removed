@@ -4486,9 +4486,10 @@ And
 (
 *
 aVisibleRegion
-GetClippedBounds
+GetScrollClippedBoundsUpTo
 (
 aBuilder
+nullptr
 )
 )
 ;
