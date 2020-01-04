@@ -1492,6 +1492,16 @@ false
 if
 (
 mSleeping
+#
+ifdef
+MOZ_NUWA_PROCESS
+|
+|
+IsNuwaProcess
+(
+)
+#
+endif
 )
 {
 uint32_t
