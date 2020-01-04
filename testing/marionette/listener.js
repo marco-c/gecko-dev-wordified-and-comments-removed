@@ -106,9 +106,9 @@ js
 "
 )
 ;
-loader
+Cu
 .
-loadSubScript
+import
 (
 "
 chrome
@@ -515,7 +515,9 @@ var
 actions
 =
 new
-ActionChain
+actions
+.
+Chain
 (
 utils
 checkForInterrupted
