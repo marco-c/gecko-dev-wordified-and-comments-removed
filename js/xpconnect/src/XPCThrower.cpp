@@ -173,7 +173,7 @@ nsIException
 >
 e
 =
-XPCJSRuntime
+XPCJSContext
 :
 :
 Get
@@ -193,7 +193,7 @@ e
 return
 false
 ;
-XPCJSRuntime
+XPCJSContext
 :
 :
 Get

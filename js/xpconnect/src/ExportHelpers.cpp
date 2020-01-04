@@ -1681,10 +1681,10 @@ JSID_VOIDHANDLE
 )
 id
 =
-GetRTIdByIndex
+GetJSIDByIndex
 (
 cx
-XPCJSRuntime
+XPCJSContext
 :
 :
 IDX_EMPTYSTRING

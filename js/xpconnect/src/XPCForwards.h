@@ -8,7 +8,7 @@ class
 nsXPConnect
 ;
 class
-XPCJSRuntime
+XPCJSContext
 ;
 class
 XPCContext

@@ -7747,7 +7747,7 @@ if
 id
 =
 =
-XPCJSRuntime
+XPCJSContext
 :
 :
 Get
@@ -7757,7 +7757,7 @@ Get
 >
 GetStringID
 (
-XPCJSRuntime
+XPCJSContext
 :
 :
 IDX_COMPONENTS
@@ -7787,7 +7787,7 @@ if
 id
 =
 =
-XPCJSRuntime
+XPCJSContext
 :
 :
 Get
@@ -7797,7 +7797,7 @@ Get
 >
 GetStringID
 (
-XPCJSRuntime
+XPCJSContext
 :
 :
 IDX_CONTROLLERS

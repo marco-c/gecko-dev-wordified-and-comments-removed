@@ -1155,10 +1155,10 @@ RootedId
 id
 (
 cx
-GetRTIdByIndex
+GetJSIDByIndex
 (
 cx
-XPCJSRuntime
+XPCJSContext
 :
 :
 IDX_EXPOSEDPROPS
@@ -1440,10 +1440,10 @@ RootedId
 exposedPropsId
 (
 cx
-GetRTIdByIndex
+GetJSIDByIndex
 (
 cx
-XPCJSRuntime
+XPCJSContext
 :
 :
 IDX_EXPOSEDPROPS

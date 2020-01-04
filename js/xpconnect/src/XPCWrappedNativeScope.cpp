@@ -1082,7 +1082,7 @@ RootedId
 id
 (
 aCx
-XPCJSRuntime
+XPCJSContext
 :
 :
 Get
@@ -1092,7 +1092,7 @@ Get
 >
 GetStringID
 (
-XPCJSRuntime
+XPCJSContext
 :
 :
 IDX_COMPONENTS
@@ -2301,9 +2301,9 @@ TraceWrappedNativesInAllScopes
 JSTracer
 *
 trc
-XPCJSRuntime
+XPCJSContext
 *
-rt
+cx
 )
 {
 for
@@ -2530,9 +2530,9 @@ XPCWrappedNativeScope
 :
 SuspectAllWrappers
 (
-XPCJSRuntime
+XPCJSContext
 *
-rt
+cx
 nsCycleCollectionNoteRootCallback
 &
 cb
@@ -2669,9 +2669,9 @@ XPCWrappedNativeScope
 :
 UpdateWeakPointersAfterGC
 (
-XPCJSRuntime
+XPCJSContext
 *
-rt
+cx
 )
 {
 MOZ_ASSERT

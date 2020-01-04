@@ -19388,7 +19388,7 @@ if
 aId
 =
 =
-XPCJSRuntime
+XPCJSContext
 :
 :
 Get
@@ -19398,7 +19398,7 @@ Get
 >
 GetStringID
 (
-XPCJSRuntime
+XPCJSContext
 :
 :
 IDX_COMPONENTS
@@ -19414,7 +19414,7 @@ if
 aId
 =
 =
-XPCJSRuntime
+XPCJSContext
 :
 :
 Get
@@ -19424,7 +19424,7 @@ Get
 >
 GetStringID
 (
-XPCJSRuntime
+XPCJSContext
 :
 :
 IDX_CONTROLLERS

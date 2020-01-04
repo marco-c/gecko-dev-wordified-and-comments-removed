@@ -284,7 +284,7 @@ stack
 quota
 numbers
 in
-XPCJSRuntime
+XPCJSContext
 probably
 need
 twiddling
@@ -809,7 +809,7 @@ to
 update
 /
 /
-XPCJSRuntime
+XPCJSContext
 .
 cpp
 comment

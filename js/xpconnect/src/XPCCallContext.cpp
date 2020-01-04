@@ -94,7 +94,7 @@ XPConnect
 (
 )
 )
-mXPCJSRuntime
+mXPCJSContext
 (
 nullptr
 )
@@ -140,9 +140,9 @@ mXPC
 )
 return
 ;
-mXPCJSRuntime
+mXPCJSContext
 =
-XPCJSRuntime
+XPCJSContext
 :
 :
 Get
@@ -151,7 +151,7 @@ Get
 ;
 mPrevCallContext
 =
-mXPCJSRuntime
+mXPCJSContext
 -
 >
 SetCallContext
@@ -161,7 +161,7 @@ this
 ;
 mState
 =
-HAVE_RUNTIME
+HAVE_CONTEXT
 ;
 if
 (
@@ -553,7 +553,7 @@ isSetter
 {
 CHECK_STATE
 (
-HAVE_RUNTIME
+HAVE_CONTEXT
 )
 ;
 if
@@ -809,7 +809,7 @@ XPCCallContext
 "
 )
 ;
-mXPCJSRuntime
+mXPCJSContext
 =
 nullptr
 ;
@@ -843,7 +843,7 @@ XPCCallContext
 {
 if
 (
-mXPCJSRuntime
+mXPCJSContext
 )
 {
 DebugOnly
@@ -853,7 +853,7 @@ XPCCallContext
 >
 old
 =
-mXPCJSRuntime
+mXPCJSContext
 -
 >
 SetCallContext

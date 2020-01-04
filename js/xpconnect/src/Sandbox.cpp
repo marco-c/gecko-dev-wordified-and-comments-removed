@@ -2498,7 +2498,7 @@ if
 id
 =
 =
-XPCJSRuntime
+XPCJSContext
 :
 :
 Get
@@ -2508,7 +2508,7 @@ Get
 >
 GetStringID
 (
-XPCJSRuntime
+XPCJSContext
 :
 :
 IDX_UNDEFINED
