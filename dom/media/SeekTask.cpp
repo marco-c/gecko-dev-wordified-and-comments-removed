@@ -199,9 +199,6 @@ get
 )
 )
 )
-namespace
-media
-{
 already_AddRefed
 <
 SeekTask
@@ -3367,7 +3364,6 @@ CheckIfSeekComplete
 (
 )
 ;
-}
 }
 }
 }
