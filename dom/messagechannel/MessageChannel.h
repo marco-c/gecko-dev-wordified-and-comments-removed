@@ -55,7 +55,7 @@ nsCOMPtr
 h
 "
 class
-nsPIDOMWindowInner
+nsIGlobalObject
 ;
 namespace
 mozilla
@@ -82,7 +82,7 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 MessageChannel
 )
-nsPIDOMWindowInner
+nsIGlobalObject
 *
 GetParentObject
 (
@@ -90,7 +90,7 @@ GetParentObject
 const
 {
 return
-mWindow
+mGlobal
 ;
 }
 virtual
@@ -136,9 +136,9 @@ MessageChannel
 >
 Constructor
 (
-nsPIDOMWindowInner
+nsIGlobalObject
 *
-aWindow
+aGlobal
 ErrorResult
 &
 aRv
@@ -171,9 +171,9 @@ private
 explicit
 MessageChannel
 (
-nsPIDOMWindowInner
+nsIGlobalObject
 *
-aWindow
+aGlobal
 )
 ;
 ~
@@ -183,9 +183,9 @@ MessageChannel
 ;
 nsCOMPtr
 <
-nsPIDOMWindowInner
+nsIGlobalObject
 >
-mWindow
+mGlobal
 ;
 RefPtr
 <
