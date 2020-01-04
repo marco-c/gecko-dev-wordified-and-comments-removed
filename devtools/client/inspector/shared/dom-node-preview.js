@@ -1535,7 +1535,7 @@ nodeFront
 ;
 let
 {
-tagName
+displayName
 attributes
 }
 =
@@ -1603,11 +1603,7 @@ tagNameEl
 .
 textContent
 =
-tagName
-.
-toLowerCase
-(
-)
+displayName
 ;
 this
 .

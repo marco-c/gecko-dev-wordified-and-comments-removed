@@ -33,6 +33,9 @@ suggestions
 circle
 "
 "
+clipPath
+"
+"
 .
 class1
 "

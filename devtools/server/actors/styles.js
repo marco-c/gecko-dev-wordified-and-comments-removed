@@ -3765,11 +3765,7 @@ selector
 =
 rawNode
 .
-tagName
-.
-toLowerCase
-(
-)
+localName
 ;
 }
 if

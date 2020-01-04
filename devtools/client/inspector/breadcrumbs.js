@@ -586,11 +586,7 @@ text
 =
 node
 .
-tagName
-.
-toLowerCase
-(
-)
+displayName
 ;
 if
 (
@@ -853,11 +849,7 @@ tagText
 =
 node
 .
-tagName
-.
-toLowerCase
-(
-)
+displayName
 ;
 if
 (
