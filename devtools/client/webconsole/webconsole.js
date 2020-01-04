@@ -8905,6 +8905,12 @@ _initOutputTimer
 ;
 this
 .
+resize
+(
+)
+;
+this
+.
 _lastOutputFlush
 =
 Date
