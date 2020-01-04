@@ -1825,6 +1825,9 @@ aIoString
 Adopt
 (
 stringBuf
+newLen
+-
+1
 )
 ;
 }
