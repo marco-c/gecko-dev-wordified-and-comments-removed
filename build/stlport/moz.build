@@ -481,3 +481,16 @@ upstream
 ALLOW_COMPILER_WARNINGS
 =
 True
+CXXFLAGS
++
+=
+[
+'
+-
+fuse
+-
+cxa
+-
+atexit
+'
+]
