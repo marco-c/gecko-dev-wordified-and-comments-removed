@@ -12,8 +12,6 @@ from
 marionette
 import
 BaseMarionetteTestRunner
-import
-firefox_ui_tests
 from
 firefox_puppeteer
 .
@@ -54,21 +52,6 @@ app
 '
 fxdesktop
 '
-        
-if
-not
-self
-.
-server_root
-:
-            
-self
-.
-server_root
-=
-firefox_ui_tests
-.
-resources
         
 self
 .
