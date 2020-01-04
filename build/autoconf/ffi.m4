@@ -170,11 +170,12 @@ MOZ_SUBCONFIGURE_FFI
 [
 if
 test
--
-z
 "
-BUILDING_JS
+MOZ_BUILD_APP
 "
+!
+=
+js
 -
 o
 -

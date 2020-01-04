@@ -836,11 +836,12 @@ MOZ_SUBCONFIGURE_ICU
 [
 if
 test
--
-z
 "
-BUILDING_JS
+MOZ_BUILD_APP
 "
+!
+=
+js
 -
 o
 -
