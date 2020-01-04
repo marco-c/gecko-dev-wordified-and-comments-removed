@@ -892,8 +892,6 @@ runEmulatorCmd
 this
 .
 server
-.
-emulator
 )
 ;
 mm
@@ -908,8 +906,6 @@ runEmulatorShell
 this
 .
 server
-.
-emulator
 )
 ;
 mm
@@ -1137,8 +1133,6 @@ runEmulatorCmd
 this
 .
 server
-.
-emulator
 )
 ;
 mm
@@ -1153,8 +1147,6 @@ runEmulatorShell
 this
 .
 server
-.
-emulator
 )
 ;
 mm

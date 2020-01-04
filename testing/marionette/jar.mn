@@ -189,11 +189,11 @@ js
 )
 content
 /
-message
+command
 .
 js
 (
-message
+command
 .
 js
 )
