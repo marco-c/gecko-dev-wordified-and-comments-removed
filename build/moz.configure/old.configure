@@ -93,7 +93,6 @@ MPL
 0
 /
 .
-template
 imports
 (
 '
@@ -3768,7 +3767,12 @@ so
 we
 cheat
 .
-template
+imports
+(
+'
+__sandbox__
+'
+)
 def
 set_old_configure_config
 (
@@ -3776,7 +3780,9 @@ name
 value
 )
 :
-set_config
+__sandbox__
+.
+set_config_impl
 (
 name
 value
@@ -3789,7 +3795,12 @@ but
 for
 set_define
 .
-template
+imports
+(
+'
+__sandbox__
+'
+)
 def
 set_old_configure_define
 (
@@ -3797,7 +3808,9 @@ name
 value
 )
 :
-set_define
+__sandbox__
+.
+set_define_impl
 (
 name
 value

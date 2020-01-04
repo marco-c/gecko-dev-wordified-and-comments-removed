@@ -3125,7 +3125,6 @@ be
 used
 '
 )
-template
 def
 split_triplet
 (
@@ -3834,7 +3833,6 @@ raw_os
 =
 os
 )
-template
 imports
 (
 '

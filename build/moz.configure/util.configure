@@ -93,7 +93,6 @@ MPL
 0
 /
 .
-template
 imports
 (
 '
@@ -129,7 +128,6 @@ exit
 (
 1
 )
-template
 imports
 (
 _from
@@ -189,7 +187,6 @@ ConfigureError
 (
 message
 )
-template
 imports
 (
 '
@@ -221,7 +218,6 @@ os
 sep
 in
 path
-template
 imports
 (
 _import
@@ -250,7 +246,6 @@ normsep
 (
 path
 )
-template
 #
 This
 unlocks
@@ -363,7 +358,6 @@ WhichError
 :
 return
 None
-template
 def
 unique_list
 (
@@ -393,7 +387,6 @@ i
 )
 return
 result
-template
 imports
 (
 _from
@@ -606,7 +599,6 @@ import
 ReadOnlyNamespace
 as
 namespace
-template
 imports
 (
 _from
@@ -769,17 +761,6 @@ result
 value
 )
 :
-try
-:
-return
-getattr
-(
-value
-key
-)
-except
-AttributeError
-:
 #
 The
 depends
@@ -816,7 +797,12 @@ return
 None
 .
 return
+getattr
+(
+value
+key
 None
+)
 return
 result
 #

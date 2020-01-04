@@ -147,13 +147,7 @@ foobar
 '
 )
 #
-A
-template
-that
-doesn
-'
-t
-return
+Normal
 functions
 can
 be
@@ -162,7 +156,6 @@ in
 depends
 functions
 .
-template
 def
 fortytwo
 (
@@ -170,7 +163,6 @@ fortytwo
 :
 return
 42
-template
 def
 twentyone
 (
@@ -232,7 +224,8 @@ TEMPLATE_VALUE_2
 check
 )
 #
-Templates
+Normal
+functions
 can
 use
 imports
@@ -241,7 +234,6 @@ to
 import
 modules
 .
-template
 imports
 (
 '
