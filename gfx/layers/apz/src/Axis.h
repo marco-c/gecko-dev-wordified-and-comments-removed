@@ -113,7 +113,7 @@ aTimestampMs
 )
 ;
 void
-CancelTouch
+CancelGesture
 (
 )
 ;

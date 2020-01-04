@@ -1290,6 +1290,11 @@ ResetInputState
 ;
 private
 :
+void
+CancelAnimationAndGestureState
+(
+)
+;
 nsRefPtr
 <
 InputQueue
