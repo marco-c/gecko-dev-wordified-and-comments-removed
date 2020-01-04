@@ -2796,16 +2796,6 @@ true
 if
 defined
 (
-MOZ_WIDGET_QT
-)
-useFontEntryWeight
-=
-false
-;
-#
-elif
-defined
-(
 MOZ_WIDGET_GTK
 )
 useFontEntryWeight

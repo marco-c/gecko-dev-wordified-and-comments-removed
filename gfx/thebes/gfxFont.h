@@ -245,12 +245,6 @@ defined
 (
 MOZ_WIDGET_GTK
 )
-|
-|
-defined
-(
-MOZ_WIDGET_QT
-)
 #
 define
 OBLIQUE_SKEW_FACTOR

@@ -1274,9 +1274,6 @@ gtk3
 '
 gonk
 '
-'
-qt
-'
 )
 :
 DEFINES
@@ -1316,9 +1313,6 @@ gtk3
 '
 '
 gonk
-'
-'
-qt
 '
 )
 :
