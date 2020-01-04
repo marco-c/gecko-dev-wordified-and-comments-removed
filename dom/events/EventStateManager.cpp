@@ -15863,7 +15863,7 @@ NS_MOUSELEAVE
 aMessage
 =
 =
-NS_MOUSEENTER
+eMouseEnter
 |
 |
 aMessage
@@ -16339,7 +16339,7 @@ if
 mEventMessage
 =
 =
-NS_MOUSEENTER
+eMouseEnter
 |
 |
 mEventMessage
@@ -16928,7 +16928,7 @@ isPointer
 ?
 NS_POINTER_ENTER
 :
-NS_MOUSEENTER
+eMouseEnter
 )
 ;
 }

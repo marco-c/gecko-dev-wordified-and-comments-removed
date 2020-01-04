@@ -534,7 +534,7 @@ aMessage
 )
 {
 case
-NS_MOUSEENTER
+eMouseEnter
 :
 case
 NS_MOUSELEAVE
@@ -628,7 +628,7 @@ aMessage
 )
 {
 case
-NS_MOUSEENTER
+eMouseEnter
 :
 case
 NS_MOUSELEAVE
