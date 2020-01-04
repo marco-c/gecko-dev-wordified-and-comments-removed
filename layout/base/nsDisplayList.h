@@ -508,6 +508,7 @@ EVENT_DELIVERY
 PLUGIN_GEOMETRY
 FRAME_VISIBILITY
 TRANSFORM_COMPUTATION
+GENERATE_GLYPH
 }
 ;
 nsDisplayListBuilder
@@ -647,6 +648,18 @@ mMode
 =
 =
 FRAME_VISIBILITY
+;
+}
+bool
+IsForGenerateGlyphPath
+(
+)
+{
+return
+mMode
+=
+=
+GENERATE_GLYPH
 ;
 }
 bool
