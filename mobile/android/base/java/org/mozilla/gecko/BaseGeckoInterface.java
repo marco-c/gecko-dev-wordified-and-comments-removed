@@ -184,17 +184,6 @@ USER_AGENT_FENNEC_MOBILE
 }
 Override
 public
-LocationListener
-getLocationListener
-(
-)
-{
-return
-null
-;
-}
-Override
-public
 void
 doRestart
 (
