@@ -19,3 +19,6 @@ js
 test_doc_load_interception
 .
 js
+unregister
+.
+html
