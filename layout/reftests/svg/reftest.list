@@ -3732,14 +3732,6 @@ fuzzy
 -
 if
 (
-gtkWidget
-1
-99
-)
-fuzzy
--
-if
-(
 !
 contentSameGfxBackendAsCanvas
 9

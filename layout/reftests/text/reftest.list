@@ -2629,14 +2629,6 @@ wordwrap
 ref
 .
 html
-fuzzy
--
-if
-(
-gtkWidget
-1
-44
-)
 skip
 -
 if
