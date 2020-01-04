@@ -2600,6 +2600,12 @@ IsPlayingThroughTheAudioChannel
 )
 const
 ;
+bool
+IsCurrentlyPlaying
+(
+)
+const
+;
 void
 UpdateAudioChannelPlayingState
 (
