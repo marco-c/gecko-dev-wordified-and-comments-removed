@@ -708,6 +708,11 @@ nsIDocumentActivity
 h
 '
 '
+PrincipalChangeObserver
+.
+h
+'
+'
 QueueObject
 .
 h
