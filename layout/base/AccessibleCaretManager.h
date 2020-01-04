@@ -276,7 +276,8 @@ UpdateCaretsForTilt
 (
 )
 ;
-bool
+nsIFrame
+*
 ChangeFocus
 (
 nsIFrame
