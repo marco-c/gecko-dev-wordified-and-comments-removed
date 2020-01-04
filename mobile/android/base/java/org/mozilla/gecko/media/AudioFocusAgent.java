@@ -267,7 +267,7 @@ notifyObservers
 AudioFocusChanged
 "
 "
-lostAudioFocus
+Loss
 "
 )
 ;
@@ -295,7 +295,7 @@ notifyObservers
 AudioFocusChanged
 "
 "
-lostAudioFocusTransiently
+LossTransient
 "
 )
 ;
@@ -323,7 +323,7 @@ notifyObservers
 AudioFocusChanged
 "
 "
-gainAudioFocus
+Gain
 "
 )
 ;
