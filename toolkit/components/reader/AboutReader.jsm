@@ -1581,7 +1581,6 @@ break
 handleEvent
 :
 function
-Reader_handleEvent
 (
 aEvent
 )
@@ -1798,7 +1797,6 @@ break
 _updateToggleButton
 :
 function
-Reader_updateToggleButton
 (
 )
 {
@@ -1906,7 +1904,6 @@ _updateFooter
 _requestReadingListStatus
 :
 function
-Reader_requestReadingListStatus
 (
 )
 {
@@ -2089,7 +2086,6 @@ url
 _onReaderClose
 :
 function
-Reader_onToggle
 (
 )
 {
@@ -2111,7 +2107,6 @@ _getOriginalUrl
 _onReaderToggle
 :
 function
-Reader_onToggle
 (
 aMethod
 )
@@ -2217,7 +2212,6 @@ reader
 _onPocketToggle
 :
 function
-Reader_onPocketToggle
 (
 aMethod
 )
@@ -2271,7 +2265,6 @@ reader
 _onShare
 :
 function
-Reader_onShare
 (
 )
 {
@@ -2481,7 +2474,6 @@ openReadingList
 _setFontSize
 :
 function
-Reader_setFontSize
 (
 newFontSize
 )
@@ -2896,7 +2888,6 @@ true
 _updateFooter
 :
 function
-RupdateFooter
 (
 )
 {
@@ -2974,7 +2965,6 @@ null
 _handleDeviceLight
 :
 function
-Reader_handleDeviceLight
 (
 newLux
 )
@@ -3072,7 +3062,6 @@ oldLux
 _handleVisibilityChange
 :
 function
-Reader_handleVisibilityChange
 (
 )
 {
@@ -3143,7 +3132,6 @@ hidden
 _enableAmbientLighting
 :
 function
-Reader_enableAmbientLighting
 (
 enable
 )
@@ -3210,7 +3198,6 @@ _totalLux
 _updateColorScheme
 :
 function
-Reader_updateColorScheme
 (
 luxValue
 )
@@ -3298,7 +3285,6 @@ light
 _setColorScheme
 :
 function
-Reader_setColorScheme
 (
 newColorScheme
 )
@@ -3369,7 +3355,6 @@ _colorScheme
 _setColorSchemePref
 :
 function
-Reader_setColorSchemePref
 (
 colorSchemePref
 )
@@ -3423,7 +3408,6 @@ colorSchemePref
 _setFontType
 :
 function
-Reader_setFontType
 (
 newFontType
 )
@@ -3512,7 +3496,6 @@ _fontType
 _getToolbarVisibility
 :
 function
-Reader_getToolbarVisibility
 (
 )
 {
@@ -3532,7 +3515,6 @@ visible
 _setToolbarVisibility
 :
 function
-Reader_setToolbarVisibility
 (
 visible
 )
@@ -3649,7 +3631,6 @@ _updateFooter
 _toggleToolbarVisibility
 :
 function
-Reader_toggleToolbarVisibility
 (
 )
 {
@@ -3669,7 +3650,6 @@ _getToolbarVisibility
 _setSystemUIVisibility
 :
 function
-Reader_setSystemUIVisibility
 (
 visible
 )
@@ -4038,7 +4018,6 @@ url
 _requestFavicon
 :
 function
-Reader_requestFavicon
 (
 )
 {
@@ -4123,7 +4102,6 @@ url
 _loadFavicon
 :
 function
-Reader_loadFavicon
 (
 url
 faviconUrl
@@ -4198,7 +4176,6 @@ link
 _updateImageMargins
 :
 function
-Reader_updateImageMargins
 (
 )
 {
@@ -4521,7 +4498,6 @@ true
 _stripHost
 :
 function
-Reader_stripHost
 (
 host
 )
@@ -4601,7 +4577,6 @@ start
 _showContent
 :
 function
-Reader_showContent
 (
 article
 )
@@ -4854,7 +4829,6 @@ Ready
 _hideContent
 :
 function
-Reader_hideContent
 (
 )
 {
@@ -4886,7 +4860,6 @@ none
 _showProgressDelayed
 :
 function
-Reader_showProgressDelayed
 (
 )
 {
@@ -5024,7 +4997,6 @@ url
 _setupSegmentedButton
 :
 function
-Reader_setupSegmentedButton
 (
 id
 options
@@ -5476,7 +5448,6 @@ titleEntity
 _setupStyleDropdown
 :
 function
-Reader_setupStyleDropdown
 (
 )
 {
