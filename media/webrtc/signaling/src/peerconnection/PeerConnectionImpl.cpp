@@ -1247,7 +1247,7 @@ SetLogicalStreamStartTime
 aStream
 -
 >
-GetStream
+GetPlaybackStream
 (
 )
 -
@@ -2315,7 +2315,7 @@ get
 stream
 -
 >
-GetStream
+GetInputStream
 (
 )
 )

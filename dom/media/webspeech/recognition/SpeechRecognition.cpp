@@ -2267,7 +2267,7 @@ NS_WARN_IF
 mDOMStream
 -
 >
-GetStream
+GetPlaybackStream
 (
 )
 )
@@ -2288,7 +2288,7 @@ this
 mDOMStream
 -
 >
-GetStream
+GetPlaybackStream
 (
 )
 -
@@ -2330,7 +2330,7 @@ StopRecording
 mDOMStream
 -
 >
-GetStream
+GetPlaybackStream
 (
 )
 -

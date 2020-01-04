@@ -80,7 +80,7 @@ GetParentObject
 const
 {
 return
-mStream
+mOwningStream
 ;
 }
 virtual
@@ -113,7 +113,7 @@ GetStream
 const
 {
 return
-mStream
+mOwningStream
 ;
 }
 TrackID
@@ -258,7 +258,7 @@ nsRefPtr
 <
 DOMMediaStream
 >
-mStream
+mOwningStream
 ;
 TrackID
 mTrackID
