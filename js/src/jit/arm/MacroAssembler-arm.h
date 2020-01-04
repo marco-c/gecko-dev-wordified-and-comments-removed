@@ -2827,14 +2827,6 @@ Always
 )
 ;
 void
-ma_callJitNoPush
-(
-const
-Register
-reg
-)
-;
-void
 ma_callJitHalfPush
 (
 const
