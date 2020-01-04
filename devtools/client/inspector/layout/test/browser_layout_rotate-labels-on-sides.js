@@ -268,6 +268,9 @@ padding
 20px
 2000000px
 ;
+"
++
+"
 margin
 :
 30px
@@ -327,7 +330,6 @@ TEST_URI
 ;
 let
 {
-toolbox
 inspector
 view
 }

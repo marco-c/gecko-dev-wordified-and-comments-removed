@@ -573,16 +573,6 @@ client
 /
 inspector
 /
-layout
-/
-*
-*
-devtools
-/
-client
-/
-inspector
-/
 markup
 /
 test
