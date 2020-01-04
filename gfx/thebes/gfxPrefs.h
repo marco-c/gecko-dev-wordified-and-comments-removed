@@ -556,7 +556,7 @@ content_response_timeout
 "
 APZContentResponseTimeout
 int32_t
-300
+400
 )
 ;
 DECL_GFX_PREF

@@ -5058,6 +5058,16 @@ pref
 "
 apz
 .
+content_response_timeout
+"
+600
+)
+;
+pref
+(
+"
+apz
+.
 allow_immediate_handoff
 "
 false

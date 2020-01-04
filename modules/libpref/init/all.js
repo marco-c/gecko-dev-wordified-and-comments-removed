@@ -5554,7 +5554,7 @@ apz
 .
 content_response_timeout
 "
-300
+400
 )
 ;
 pref
