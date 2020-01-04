@@ -16881,8 +16881,9 @@ false
 }
 if
 (
-!
-mIsShowing
+Hidden
+(
+)
 )
 {
 return
