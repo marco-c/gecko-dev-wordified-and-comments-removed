@@ -26222,6 +26222,8 @@ aFrame
 AutoHideSelectionChanges
 (
 aFrame
+?
+aFrame
 -
 >
 GetSelection
@@ -26231,6 +26233,8 @@ nsISelectionController
 :
 SELECTION_NORMAL
 )
+:
+nullptr
 )
 {
 }
