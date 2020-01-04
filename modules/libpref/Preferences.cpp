@@ -6043,6 +6043,9 @@ kTelemetryPref
 )
 =
 =
+nsIPrefBranch
+:
+:
 PREF_INVALID
 )
 {
