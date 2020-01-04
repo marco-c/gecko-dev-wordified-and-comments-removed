@@ -469,6 +469,9 @@ cssLogic
 new
 CssLogic
 (
+DOMUtils
+.
+isInheritedProperty
 )
 ;
 this
