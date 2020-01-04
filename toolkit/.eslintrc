@@ -184,7 +184,7 @@ spacing
 "
 :
 [
-1
+2
 "
 never
 "
@@ -418,7 +418,7 @@ array
 constructor
 "
 :
-1
+2
 /
 /
 No
@@ -610,7 +610,7 @@ boolean
 cast
 "
 :
-1
+2
 /
 /
 No
@@ -698,7 +698,7 @@ lonely
 if
 "
 :
-1
+2
 /
 /
 No
@@ -745,7 +745,7 @@ multi
 spaces
 "
 :
-1
+2
 /
 /
 No
@@ -825,7 +825,7 @@ new
 object
 "
 :
-1
+2
 /
 /
 No
@@ -874,7 +874,7 @@ no
 redeclare
 "
 :
-1
+2
 /
 /
 No
@@ -908,7 +908,7 @@ no
 shadow
 "
 :
-1
+2
 /
 /
 No
@@ -951,7 +951,7 @@ spaced
 func
 "
 :
-1
+2
 /
 /
 No
@@ -1058,7 +1058,7 @@ vars
 "
 :
 [
-1
+2
 {
 "
 vars
@@ -1313,7 +1313,7 @@ ops
 "
 :
 [
-1
+2
 {
 "
 words
