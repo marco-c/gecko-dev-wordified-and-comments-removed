@@ -432,6 +432,10 @@ service
 UpdateWindowIdBySessionId
 (
 mSessionId
+nsIPresentationService
+:
+:
+ROLE_CONTROLLER
 mRequest
 -
 >
