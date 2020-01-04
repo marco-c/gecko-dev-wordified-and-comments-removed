@@ -1136,7 +1136,7 @@ Ci
 .
 nsIContentPolicy
 .
-TYPE_IMAGE
+TYPE_INTERNAL_IMAGE
 )
 ;
 channel
@@ -1196,7 +1196,7 @@ Ci
 .
 nsIContentPolicy
 .
-TYPE_IMAGE
+TYPE_INTERNAL_IMAGE
 )
 ;
 channel
@@ -1292,7 +1292,7 @@ Ci
 .
 nsIContentPolicy
 .
-TYPE_IMAGE
+TYPE_INTERNAL_IMAGE
 )
 ;
 channel

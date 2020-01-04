@@ -3059,7 +3059,7 @@ NS_CheckContentLoadPolicy
 nsIContentPolicy
 :
 :
-TYPE_IMAGE
+TYPE_INTERNAL_IMAGE
 contentLocation
 aLoadingPrincipal
 aLoadingContext
@@ -8689,7 +8689,7 @@ aContentPolicyType
 nsIContentPolicy
 :
 :
-TYPE_IMAGE
+TYPE_INTERNAL_IMAGE
 ;
 }
 imgRequestProxy

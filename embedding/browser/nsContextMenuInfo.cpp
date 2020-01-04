@@ -1392,7 +1392,7 @@ nullptr
 nsIContentPolicy
 :
 :
-TYPE_IMAGE
+TYPE_INTERNAL_IMAGE
 EmptyString
 (
 )
