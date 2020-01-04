@@ -6002,6 +6002,17 @@ GeckoEditable
 :
 New
 (
+mozilla
+:
+:
+jni
+:
+:
+Object
+:
+:
+Param
+a0
 )
 -
 >
@@ -6027,6 +6038,7 @@ Call
 (
 nullptr
 nullptr
+a0
 )
 ;
 }
