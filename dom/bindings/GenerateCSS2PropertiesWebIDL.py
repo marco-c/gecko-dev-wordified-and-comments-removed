@@ -241,16 +241,6 @@ prop
 !
 =
 name
-and
-name
-[
-0
-]
-!
-=
-"
--
-"
 :
             
 extendedAttrs
