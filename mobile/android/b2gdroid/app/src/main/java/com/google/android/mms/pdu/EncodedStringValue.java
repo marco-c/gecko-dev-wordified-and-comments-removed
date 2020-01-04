@@ -427,7 +427,7 @@ MIMENAME_ISO_8859_1
 catch
 (
 UnsupportedEncodingException
-_
+ex
 )
 {
 return
@@ -751,7 +751,7 @@ getBytes
 catch
 (
 NullPointerException
-_
+e
 )
 {
 return
