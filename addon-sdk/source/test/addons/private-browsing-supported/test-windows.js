@@ -1383,11 +1383,10 @@ length
 )
 {
 for
-each
 (
 let
 tab
-in
+of
 tabs
 )
 {
