@@ -1879,7 +1879,7 @@ BackingScaleFactor
 )
 ;
 }
-nsIntPoint
+LayoutDeviceIntPoint
 CocoaPointsToDevPixels
 (
 const
