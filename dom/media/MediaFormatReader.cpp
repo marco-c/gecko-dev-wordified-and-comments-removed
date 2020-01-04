@@ -6924,6 +6924,12 @@ decoder
 mDecoder
 )
 {
+decoder
+.
+ResetState
+(
+)
+;
 return
 ;
 }
