@@ -150,7 +150,7 @@ SCRIPT_FLAGS
 |
 grep
 -
-f
+F
 -
 q
 -
