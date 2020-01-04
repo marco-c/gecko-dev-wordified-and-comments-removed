@@ -1540,7 +1540,7 @@ DeviceStorageRequest
 )
 ;
 virtual
-void
+nsresult
 Prepare
 (
 )
@@ -1608,6 +1608,9 @@ mAccess
 ;
 bool
 mSendToParent
+;
+bool
+mUseMainThread
 ;
 bool
 mUseStreamTransport
