@@ -79,9 +79,9 @@ static
 void
 Initialize
 (
-JNIEnv
+JavaVM
 *
-env
+javaVM
 )
 ;
 static
@@ -123,6 +123,12 @@ Init
 virtual
 uint32_t
 NumberOfDevices
+(
+)
+;
+virtual
+int32_t
+Refresh
 (
 )
 ;
@@ -222,6 +228,12 @@ kExpectedCaptureDelay
 =
 190
 }
+;
+static
+void
+BuildDeviceList
+(
+)
 ;
 }
 ;
