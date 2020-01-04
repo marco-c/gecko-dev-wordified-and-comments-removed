@@ -1314,12 +1314,6 @@ CanUseDirect3D9
 (
 )
 ;
-static
-bool
-CanUseDirect3D11
-(
-)
-;
 virtual
 bool
 CanUseHardwareVideoDecoding
@@ -1950,7 +1944,8 @@ BackendType
 aContentDefault
 )
 ;
-void
+virtual
+bool
 UpdateDeviceInitData
 (
 )
