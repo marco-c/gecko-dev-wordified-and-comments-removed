@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_indexeddb_idbkeyrange_h__
+mozilla_dom_idbkeyrange_h__
 #
 define
-mozilla_dom_indexeddb_idbkeyrange_h__
+mozilla_dom_idbkeyrange_h__
 #
 include
 "
@@ -37,8 +37,6 @@ include
 mozilla
 /
 dom
-/
-indexedDB
 /
 IndexedDatabaseManager
 .
@@ -109,6 +107,7 @@ indexedDB
 class
 SerializedKeyRange
 ;
+}
 class
 IDBKeyRange
 :
@@ -123,9 +122,15 @@ nsISupports
 >
 mGlobal
 ;
+indexedDB
+:
+:
 Key
 mLower
 ;
+indexedDB
+:
+:
 Key
 mUpper
 ;
@@ -234,6 +239,9 @@ IDBKeyRange
 FromSerialized
 (
 const
+indexedDB
+:
+:
 SerializedKeyRange
 &
 aKeyRange
@@ -384,6 +392,9 @@ endif
 void
 ToSerialized
 (
+indexedDB
+:
+:
 SerializedKeyRange
 &
 aKeyRange
@@ -391,6 +402,9 @@ aKeyRange
 const
 ;
 const
+indexedDB
+:
+:
 Key
 &
 Lower
@@ -402,6 +416,9 @@ return
 mLower
 ;
 }
+indexedDB
+:
+:
 Key
 &
 Lower
@@ -413,6 +430,9 @@ mLower
 ;
 }
 const
+indexedDB
+:
+:
 Key
 &
 Upper
@@ -428,6 +448,9 @@ mLower
 mUpper
 ;
 }
+indexedDB
+:
+:
 Key
 &
 Upper
@@ -701,7 +724,6 @@ aReflector
 ;
 }
 ;
-}
 }
 }
 #

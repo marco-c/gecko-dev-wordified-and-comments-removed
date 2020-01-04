@@ -273,8 +273,6 @@ mozilla
 /
 dom
 /
-indexedDB
-/
 IndexedDatabaseManager
 .
 h
@@ -525,18 +523,6 @@ mozilla
 :
 :
 Preferences
-;
-using
-mozilla
-:
-:
-dom
-:
-:
-indexedDB
-:
-:
-IndexedDatabaseManager
 ;
 #
 define

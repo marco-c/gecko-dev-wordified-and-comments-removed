@@ -264,9 +264,6 @@ mozilla
 dom
 :
 :
-indexedDB
-:
-:
 IndexedDatabaseManager
 :
 :

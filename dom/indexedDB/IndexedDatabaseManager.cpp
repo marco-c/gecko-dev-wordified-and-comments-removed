@@ -655,6 +655,17 @@ mDefaultStorageFileManagers
 ;
 }
 ;
+}
+using
+namespace
+mozilla
+:
+:
+dom
+:
+:
+indexedDB
+;
 namespace
 {
 NS_DEFINE_IID
@@ -5620,7 +5631,6 @@ mState
 =
 State_Completed
 ;
-}
 }
 }
 }

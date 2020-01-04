@@ -113,9 +113,16 @@ mozilla
 namespace
 dom
 {
+using
 namespace
+mozilla
+:
+:
+dom
+:
+:
 indexedDB
-{
+;
 IDBFileRequest
 :
 :
@@ -601,7 +608,6 @@ DispatchTrustedEvent
 event
 )
 ;
-}
 }
 }
 }

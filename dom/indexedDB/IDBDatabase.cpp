@@ -412,9 +412,6 @@ mozilla
 namespace
 dom
 {
-namespace
-indexedDB
-{
 using
 namespace
 mozilla
@@ -6245,7 +6242,6 @@ topic
 return
 NS_OK
 ;
-}
 }
 }
 }

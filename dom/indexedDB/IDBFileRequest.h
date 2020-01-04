@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_indexeddb_idbfilerequest_h__
+mozilla_dom_idbfilerequest_h__
 #
 define
-mozilla_dom_indexeddb_idbfilerequest_h__
+mozilla_dom_idbfilerequest_h__
 #
 include
 "
@@ -72,9 +72,6 @@ EventChainPreVisitor
 ;
 namespace
 dom
-{
-namespace
-indexedDB
 {
 class
 IDBFileHandle
@@ -257,7 +254,6 @@ aTotal
 ;
 }
 ;
-}
 }
 }
 #

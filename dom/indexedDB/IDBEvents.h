@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_indexeddb_idbevents_h__
+mozilla_dom_idbevents_h__
 #
 define
-mozilla_dom_indexeddb_idbevents_h__
+mozilla_dom_idbevents_h__
 #
 include
 "
@@ -167,6 +167,7 @@ Cancelable
 aCancelable
 )
 ;
+}
 class
 IDBVersionChangeEvent
 final
@@ -399,7 +400,6 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 IDBVersionChangeEvent
 IDBVERSIONCHANGEEVENT_IID
 )
-}
 }
 }
 #

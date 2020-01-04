@@ -73,6 +73,9 @@ class
 Function
 ;
 class
+IDBFactory
+;
+class
 Promise
 ;
 class
@@ -86,13 +89,6 @@ cache
 {
 class
 CacheStorage
-;
-}
-namespace
-indexedDB
-{
-class
-IDBFactory
 ;
 }
 }
@@ -128,9 +124,6 @@ mozilla
 :
 :
 dom
-:
-:
-indexedDB
 :
 :
 IDBFactory

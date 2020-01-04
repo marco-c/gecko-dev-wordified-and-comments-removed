@@ -37,6 +37,17 @@ FetchUtil
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+IndexedDatabaseManager
+.
+h
+"
 using
 namespace
 mozilla
@@ -5585,9 +5596,6 @@ NS_ERROR_FAILURE
 NS_WARN_IF
 (
 !
-indexedDB
-:
-:
 IndexedDatabaseManager
 :
 :

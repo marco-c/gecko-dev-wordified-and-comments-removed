@@ -105,12 +105,12 @@ mozilla
 namespace
 dom
 {
-namespace
-indexedDB
-{
 class
 IDBFileHandle
 ;
+namespace
+indexedDB
+{
 class
 BlobImplSnapshot
 final

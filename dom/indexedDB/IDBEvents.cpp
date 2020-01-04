@@ -230,6 +230,7 @@ forget
 )
 ;
 }
+}
 already_AddRefed
 <
 IDBVersionChangeEvent
@@ -428,7 +429,6 @@ this
 aGivenProto
 )
 ;
-}
 }
 }
 }

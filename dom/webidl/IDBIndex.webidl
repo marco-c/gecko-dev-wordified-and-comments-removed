@@ -313,9 +313,6 @@ mozilla
 dom
 :
 :
-indexedDB
-:
-:
 IndexedDatabaseManager
 :
 :
@@ -336,9 +333,6 @@ mozilla
 :
 :
 dom
-:
-:
-indexedDB
 :
 :
 IndexedDatabaseManager

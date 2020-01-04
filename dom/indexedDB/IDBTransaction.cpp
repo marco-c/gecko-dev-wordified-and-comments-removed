@@ -153,9 +153,16 @@ mozilla
 namespace
 dom
 {
+using
 namespace
+mozilla
+:
+:
+dom
+:
+:
 indexedDB
-{
+;
 using
 namespace
 mozilla
@@ -1278,6 +1285,9 @@ IDBTransaction
 :
 SetBackgroundActor
 (
+indexedDB
+:
+:
 BackgroundTransactionChild
 *
 aBackgroundActor
@@ -2527,6 +2537,9 @@ IDBObjectStore
 *
 aObjectStore
 const
+indexedDB
+:
+:
 IndexMetadata
 &
 aMetadata
@@ -4305,7 +4318,6 @@ nullptr
 return
 true
 ;
-}
 }
 }
 }

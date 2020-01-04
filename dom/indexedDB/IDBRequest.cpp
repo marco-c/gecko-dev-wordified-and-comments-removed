@@ -224,9 +224,16 @@ mozilla
 namespace
 dom
 {
+using
 namespace
+mozilla
+:
+:
+dom
+:
+:
 indexedDB
-{
+;
 using
 namespace
 mozilla
@@ -2464,7 +2471,6 @@ database
 return
 true
 ;
-}
 }
 }
 }

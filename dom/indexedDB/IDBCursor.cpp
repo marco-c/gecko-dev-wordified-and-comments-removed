@@ -114,9 +114,10 @@ mozilla
 namespace
 dom
 {
+using
 namespace
 indexedDB
-{
+;
 IDBCursor
 :
 :
@@ -4334,7 +4335,6 @@ type
 "
 )
 ;
-}
 }
 }
 }

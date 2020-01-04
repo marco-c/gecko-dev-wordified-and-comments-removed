@@ -516,13 +516,9 @@ class
 CacheStorage
 ;
 }
-namespace
-indexedDB
-{
 class
 IDBFactory
 ;
-}
 }
 namespace
 gfx
@@ -4786,9 +4782,6 @@ mozilla
 :
 :
 dom
-:
-:
-indexedDB
 :
 :
 IDBFactory
@@ -9125,9 +9118,6 @@ mozilla
 :
 :
 dom
-:
-:
-indexedDB
 :
 :
 IDBFactory

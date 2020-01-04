@@ -81,9 +81,16 @@ mozilla
 namespace
 dom
 {
+using
 namespace
+mozilla
+:
+:
+dom
+:
+:
 indexedDB
-{
+;
 IDBFileHandle
 :
 :
@@ -715,7 +722,6 @@ this
 false
 )
 ;
-}
 }
 }
 }

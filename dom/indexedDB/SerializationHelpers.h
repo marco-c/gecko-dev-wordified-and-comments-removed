@@ -46,8 +46,6 @@ mozilla
 /
 dom
 /
-indexedDB
-/
 IDBCursor
 .
 h
@@ -58,8 +56,6 @@ include
 mozilla
 /
 dom
-/
-indexedDB
 /
 IDBTransaction
 .
@@ -387,9 +383,6 @@ mozilla
 dom
 :
 :
-indexedDB
-:
-:
 IDBCursor
 :
 :
@@ -405,9 +398,6 @@ mozilla
 dom
 :
 :
-indexedDB
-:
-:
 IDBCursor
 :
 :
@@ -418,9 +408,6 @@ mozilla
 dom
 :
 :
-indexedDB
-:
-:
 IDBCursor
 :
 :
@@ -429,9 +416,6 @@ mozilla
 :
 :
 dom
-:
-:
-indexedDB
 :
 :
 IDBCursor
@@ -454,9 +438,6 @@ mozilla
 dom
 :
 :
-indexedDB
-:
-:
 IDBTransaction
 :
 :
@@ -472,9 +453,6 @@ mozilla
 dom
 :
 :
-indexedDB
-:
-:
 IDBTransaction
 :
 :
@@ -485,9 +463,6 @@ mozilla
 dom
 :
 :
-indexedDB
-:
-:
 IDBTransaction
 :
 :
@@ -496,9 +471,6 @@ mozilla
 :
 :
 dom
-:
-:
-indexedDB
 :
 :
 IDBTransaction

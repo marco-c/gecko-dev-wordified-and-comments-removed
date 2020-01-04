@@ -176,8 +176,6 @@ mozilla
 /
 dom
 /
-indexedDB
-/
 IndexedDatabaseManager
 .
 h
