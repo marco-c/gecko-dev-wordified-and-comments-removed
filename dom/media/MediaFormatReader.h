@@ -1016,10 +1016,6 @@ mReceivedNewData
 (
 false
 )
-mDiscontinuity
-(
-true
-)
 mDecoderInitialized
 (
 false
@@ -1187,9 +1183,6 @@ mWaitingForData
 ;
 bool
 mReceivedNewData
-;
-bool
-mDiscontinuity
 ;
 MozPromiseRequestHolder
 <
@@ -1532,10 +1525,6 @@ false
 mWaitingForData
 =
 false
-;
-mDiscontinuity
-=
-true
 ;
 mQueuedSamples
 .
