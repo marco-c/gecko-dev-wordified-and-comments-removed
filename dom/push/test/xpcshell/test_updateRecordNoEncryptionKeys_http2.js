@@ -167,6 +167,13 @@ setPrefs
 (
 {
 '
+testing
+.
+allowInsecureServerURL
+'
+:
+true
+'
 http2
 .
 retryInterval
