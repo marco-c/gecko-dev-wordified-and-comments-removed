@@ -941,14 +941,6 @@ aRefreshTime
 )
 ;
 enum
-CanAnimateFlags
-{
-CanAnimate_AllowPartial
-=
-1
-}
-;
-enum
 class
 RestyleType
 {
@@ -986,8 +978,6 @@ Element
 aElement
 nsCSSProperty
 aProperty
-CanAnimateFlags
-aFlags
 )
 ;
 bool
@@ -1009,8 +999,6 @@ public
 bool
 CanPerformOnCompositorThread
 (
-CanAnimateFlags
-aFlags
 )
 const
 ;
