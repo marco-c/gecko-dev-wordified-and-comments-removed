@@ -28,10 +28,10 @@ SRIMetadata
 h
 "
 class
-nsIDocument
+nsIChannel
 ;
 class
-nsIHttpChannel
+nsIDocument
 ;
 class
 nsIScriptSecurityManager
@@ -95,9 +95,9 @@ const
 SRIMetadata
 &
 aMetadata
-nsIURI
+nsIChannel
 *
-aRequestURI
+aChannel
 const
 CORSMode
 aCORSMode
@@ -119,9 +119,9 @@ const
 SRIMetadata
 &
 aMetadata
-nsIURI
+nsIChannel
 *
-aRequestURI
+aChannel
 const
 CORSMode
 aCORSMode

@@ -3727,7 +3727,7 @@ SRICheck
 VerifyIntegrity
 (
 sriMetadata
-channelURI
+httpChannel
 mSheet
 -
 >
