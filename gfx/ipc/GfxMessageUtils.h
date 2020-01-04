@@ -2294,7 +2294,7 @@ Next
 )
 )
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 r
