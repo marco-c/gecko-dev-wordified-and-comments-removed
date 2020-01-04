@@ -498,7 +498,7 @@ client
 .
 id
 )
-icon
+isMobile
 :
 Weave
 .
