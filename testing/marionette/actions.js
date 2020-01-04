@@ -91,7 +91,8 @@ Marionette
 "
 )
 ;
-const
+this
+.
 actions
 =
 {
