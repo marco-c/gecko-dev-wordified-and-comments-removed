@@ -451,7 +451,9 @@ h
 #
 include
 "
-prprf
+mozilla
+/
+Snprintf
 .
 h
 "
@@ -17382,7 +17384,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 headersLen
 =
-PR_snprintf
+snprintf
 (
 p
 l
@@ -17391,7 +17393,7 @@ l
 s
 :
 %
-ld
+u
 %
 s
 "

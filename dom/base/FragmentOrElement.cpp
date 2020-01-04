@@ -670,7 +670,9 @@ h
 #
 include
 "
-prprf
+mozilla
+/
+Snprintf
 .
 h
 "
@@ -8655,13 +8657,9 @@ nsid
 "
 "
 ;
-PR_snprintf
+snprintf_literal
 (
 name
-sizeof
-(
-name
-)
 "
 FragmentOrElement
 %
