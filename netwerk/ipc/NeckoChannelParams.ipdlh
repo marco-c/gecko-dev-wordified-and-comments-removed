@@ -404,6 +404,9 @@ outerWindowID
 uint64_t
 parentOuterWindowID
 ;
+uint64_t
+frameOuterWindowID
+;
 bool
 enforceSecurity
 ;
