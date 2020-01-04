@@ -731,11 +731,10 @@ observers_
 )
 {
 for
-each
 (
 var
 observer
-in
+of
 this
 .
 observers_

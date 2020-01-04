@@ -496,11 +496,10 @@ searchTerm
 try
 {
 for
-each
 (
 let
 site
-in
+of
 sites
 )
 {

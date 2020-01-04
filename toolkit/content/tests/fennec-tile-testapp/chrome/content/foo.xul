@@ -1184,11 +1184,10 @@ split
 )
 ;
 for
-each
 (
 let
 ijstr
-in
+of
 ijstrs
 )
 {

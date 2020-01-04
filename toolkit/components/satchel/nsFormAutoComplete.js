@@ -1938,11 +1938,10 @@ boundaryCalc
 0
 ;
 for
-each
 (
 let
 token
-in
+of
 searchTokens
 )
 {

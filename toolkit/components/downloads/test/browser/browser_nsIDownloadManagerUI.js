@@ -468,11 +468,10 @@ Manager
 )
 ;
 for
-each
 (
 var
 t
-in
+of
 testFuncs
 )
 t

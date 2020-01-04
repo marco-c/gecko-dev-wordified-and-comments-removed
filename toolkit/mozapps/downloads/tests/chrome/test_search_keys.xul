@@ -567,11 +567,10 @@ run
 our
 tests
 for
-each
 (
 let
 t
-in
+of
 testFuncs
 )
 t

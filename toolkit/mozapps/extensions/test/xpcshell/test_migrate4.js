@@ -773,11 +773,10 @@ userDisabled
 false
 ;
 for
-each
 (
 let
 addon
-in
+of
 [
 a1
 a2

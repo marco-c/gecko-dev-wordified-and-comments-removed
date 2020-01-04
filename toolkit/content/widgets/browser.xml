@@ -7623,11 +7623,10 @@ otherFieldValues
 }
 ;
 for
-each
 (
 var
 field
-in
+of
 fieldsToSwap
 )
 {
@@ -7727,11 +7726,10 @@ detachFormFill
 ;
 }
 for
-each
 (
 var
 field
-in
+of
 fieldsToSwap
 )
 {

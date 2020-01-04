@@ -2641,11 +2641,10 @@ aName
 )
 {
 for
-each
 (
 var
 observer
-in
+of
 this
 .
 _getObservers
@@ -2691,11 +2690,10 @@ aValue
 )
 {
 for
-each
 (
 var
 observer
-in
+of
 this
 .
 _getObservers

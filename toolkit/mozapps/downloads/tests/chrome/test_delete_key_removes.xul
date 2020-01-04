@@ -885,11 +885,10 @@ autoResume
 )
 ;
 for
-each
 (
 var
 dl
-in
+of
 DownloadData
 )
 {

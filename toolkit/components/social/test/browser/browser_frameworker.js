@@ -1241,11 +1241,10 @@ ready
 )
 ;
 for
-each
 (
 let
 attr
-in
+of
 [
 '
 appName

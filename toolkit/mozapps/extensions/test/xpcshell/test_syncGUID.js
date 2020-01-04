@@ -567,11 +567,10 @@ install
 }
 ;
 for
-each
 (
 let
 name
-in
+of
 installNames
 )
 {

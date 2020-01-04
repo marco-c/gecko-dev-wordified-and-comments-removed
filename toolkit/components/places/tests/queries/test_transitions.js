@@ -438,11 +438,10 @@ now
 )
 ;
 for
-each
 (
 let
 item
-in
+of
 testData
 )
 {

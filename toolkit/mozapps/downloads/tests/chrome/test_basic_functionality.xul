@@ -1371,11 +1371,10 @@ autoResume
 )
 ;
 for
-each
 (
 var
 dl
-in
+of
 DownloadData
 )
 {
@@ -1565,11 +1564,10 @@ run
 our
 tests
 for
-each
 (
 let
 t
-in
+of
 testFuncs
 )
 t

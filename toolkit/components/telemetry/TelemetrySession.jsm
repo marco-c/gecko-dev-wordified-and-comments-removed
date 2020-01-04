@@ -3831,11 +3831,10 @@ process
 )
 {
 for
-each
 (
 let
 field
-in
+of
 Object
 .
 keys

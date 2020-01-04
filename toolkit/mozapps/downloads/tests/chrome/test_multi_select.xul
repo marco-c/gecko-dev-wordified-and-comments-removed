@@ -366,11 +366,10 @@ VALUES
 try
 {
 for
-each
 (
 let
 site
-in
+of
 [
 "
 ed
@@ -1359,11 +1358,10 @@ selected
 double
 selected
 for
-each
 (
 let
 whichTest
-in
+of
 [
 "
 single
@@ -1424,7 +1422,6 @@ win
 )
 ;
 for
-each
 (
 let
 [
@@ -1433,7 +1430,7 @@ func
 test
 value
 ]
-in
+of
 commandTests
 )
 {

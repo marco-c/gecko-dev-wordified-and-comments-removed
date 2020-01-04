@@ -442,11 +442,10 @@ VALUES
 try
 {
 for
-each
 (
 let
 site
-in
+of
 [
 "
 delete

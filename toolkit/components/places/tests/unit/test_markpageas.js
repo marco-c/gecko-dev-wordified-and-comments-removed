@@ -183,11 +183,10 @@ false
 )
 ;
 for
-each
 (
 var
 visit
-in
+of
 gVisits
 )
 {

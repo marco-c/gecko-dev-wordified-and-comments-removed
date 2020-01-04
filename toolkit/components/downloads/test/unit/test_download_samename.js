@@ -299,11 +299,10 @@ nsIDownload
 targetFile
 ;
 for
-each
 (
 let
 prevFile
-in
+of
 this
 .
 prevFiles
@@ -541,11 +540,10 @@ length
 )
 {
 for
-each
 (
 var
 file
-in
+of
 DownloadListener
 .
 prevFiles

@@ -878,10 +878,10 @@ id
 null
 ;
 for
-each
 (
+let
 p
-in
+of
 request
 .
 queryString
