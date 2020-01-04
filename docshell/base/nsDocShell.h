@@ -936,7 +936,7 @@ return
 mOriginAttributes
 ;
 }
-void
+nsresult
 SetOriginAttributes
 (
 const
