@@ -1664,6 +1664,13 @@ InitStatics
 (
 )
 ;
+MediaPrefs
+:
+:
+GetSingleton
+(
+)
+;
 PromiseDebugging
 :
 :
