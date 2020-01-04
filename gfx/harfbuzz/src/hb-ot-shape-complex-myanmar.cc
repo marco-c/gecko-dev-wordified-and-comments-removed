@@ -2032,11 +2032,11 @@ last_syllable
 syllable
 ;
 hb_glyph_info_t
-info
+ginfo
 =
 dottedcircle
 ;
-info
+ginfo
 .
 cluster
 =
@@ -2049,7 +2049,7 @@ cur
 .
 cluster
 ;
-info
+ginfo
 .
 mask
 =
@@ -2062,7 +2062,7 @@ cur
 .
 mask
 ;
-info
+ginfo
 .
 syllable
 (
@@ -2084,7 +2084,7 @@ buffer
 >
 output_info
 (
-info
+ginfo
 )
 ;
 }
@@ -2235,6 +2235,7 @@ NULL
 NULL
 NULL
 NULL
+NULL
 HB_OT_SHAPE_NORMALIZATION_MODE_DEFAULT
 NULL
 NULL
@@ -2253,6 +2254,7 @@ myanmar
 "
 collect_features_myanmar
 override_features_myanmar
+NULL
 NULL
 NULL
 NULL
