@@ -209,6 +209,11 @@ testErrorCopying
 cpp
 '
 '
+testEvaluateSelfHosted
+.
+cpp
+'
+'
 testException
 .
 cpp
