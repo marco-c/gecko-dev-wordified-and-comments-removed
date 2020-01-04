@@ -3508,7 +3508,7 @@ case
 NS_KEY_DOWN
 :
 case
-NS_KEY_PRESS
+eKeyPress
 :
 case
 NS_WHEEL_WHEEL

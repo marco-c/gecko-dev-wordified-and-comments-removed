@@ -12731,7 +12731,7 @@ WidgetKeyboardEvent
 event
 (
 true
-NS_KEY_PRESS
+eKeyPress
 this
 )
 ;

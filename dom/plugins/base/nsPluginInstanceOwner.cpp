@@ -10872,7 +10872,7 @@ XKeyPress
 break
 ;
 case
-NS_KEY_PRESS
+eKeyPress
 :
 event
 .

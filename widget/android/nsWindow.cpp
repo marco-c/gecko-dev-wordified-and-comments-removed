@@ -6480,7 +6480,7 @@ event
 mMessage
 =
 =
-NS_KEY_PRESS
+eKeyPress
 )
 {
 int
@@ -6679,7 +6679,7 @@ event
 mMessage
 =
 =
-NS_KEY_PRESS
+eKeyPress
 &
 &
 key
@@ -6736,7 +6736,7 @@ event
 mMessage
 =
 =
-NS_KEY_PRESS
+eKeyPress
 )
 &
 &
@@ -6928,7 +6928,7 @@ WidgetKeyboardEvent
 pressEvent
 (
 true
-NS_KEY_PRESS
+eKeyPress
 this
 )
 ;
@@ -7250,7 +7250,7 @@ WidgetKeyboardEvent
 pressEvent
 (
 true
-NS_KEY_PRESS
+eKeyPress
 this
 )
 ;

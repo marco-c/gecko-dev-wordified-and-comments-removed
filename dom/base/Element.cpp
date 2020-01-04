@@ -12951,7 +12951,7 @@ mEvent
 mMessage
 !
 =
-NS_KEY_PRESS
+eKeyPress
 )
 &
 &
@@ -13248,7 +13248,7 @@ case
 NS_UI_ACTIVATE
 :
 case
-NS_KEY_PRESS
+eKeyPress
 :
 break
 ;
@@ -13640,7 +13640,7 @@ nsEventStatus_eConsumeNoDefault
 break
 ;
 case
-NS_KEY_PRESS
+eKeyPress
 :
 {
 WidgetKeyboardEvent

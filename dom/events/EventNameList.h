@@ -464,7 +464,7 @@ eKeyboardEventClass
 EVENT
 (
 keypress
-NS_KEY_PRESS
+eKeyPress
 EventNameType_HTMLXUL
 eKeyboardEventClass
 )

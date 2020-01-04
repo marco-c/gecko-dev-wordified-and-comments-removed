@@ -1849,7 +1849,7 @@ keyEvent
 #
 endif
 case
-NS_KEY_PRESS
+eKeyPress
 :
 {
 nsCOMPtr

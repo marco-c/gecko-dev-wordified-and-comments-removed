@@ -1595,11 +1595,11 @@ NS_KEY_UP
 "
 ;
 case
-NS_KEY_PRESS
+eKeyPress
 :
 return
 "
-NS_KEY_PRESS
+eKeyPress
 "
 ;
 default
@@ -5543,7 +5543,7 @@ aKeyEvent
 mMessage
 =
 =
-NS_KEY_PRESS
+eKeyPress
 &
 &
 (
@@ -6211,12 +6211,12 @@ aKeyEvent
 mMessage
 =
 =
-NS_KEY_PRESS
+eKeyPress
 "
 aKeyEvent
 must
 be
-NS_KEY_PRESS
+eKeyPress
 event
 "
 )
@@ -10217,7 +10217,7 @@ WidgetKeyboardEvent
 keypressEvent
 (
 true
-NS_KEY_PRESS
+eKeyPress
 mWidget
 )
 ;
@@ -13687,7 +13687,7 @@ WidgetKeyboardEvent
 keypressEvent
 (
 true
-NS_KEY_PRESS
+eKeyPress
 mWidget
 )
 ;
@@ -14109,7 +14109,7 @@ WidgetKeyboardEvent
 keypressEvent
 (
 true
-NS_KEY_PRESS
+eKeyPress
 mWidget
 )
 ;
@@ -23604,7 +23604,7 @@ aEvent
 mMessage
 =
 =
-NS_KEY_PRESS
+eKeyPress
 )
 {
 WidgetInputEvent

@@ -563,7 +563,7 @@ return
 0
 ;
 case
-NS_KEY_PRESS
+eKeyPress
 :
 return
 mEvent
@@ -712,7 +712,7 @@ KeyCode
 )
 ;
 case
-NS_KEY_PRESS
+eKeyPress
 :
 {
 uint32_t

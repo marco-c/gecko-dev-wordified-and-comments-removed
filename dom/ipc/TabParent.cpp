@@ -7821,7 +7821,7 @@ event
 mMessage
 =
 =
-NS_KEY_PRESS
+eKeyPress
 )
 {
 nsCOMPtr
@@ -10465,7 +10465,7 @@ localEvent
 mMessage
 !
 =
-NS_KEY_PRESS
+eKeyPress
 )
 {
 presShell

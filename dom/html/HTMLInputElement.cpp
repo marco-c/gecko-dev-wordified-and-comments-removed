@@ -15644,7 +15644,7 @@ keyEvent
 mMessage
 =
 =
-NS_KEY_PRESS
+eKeyPress
 &
 &
 aVisitor
@@ -15924,7 +15924,7 @@ break
 ;
 }
 case
-NS_KEY_PRESS
+eKeyPress
 :
 case
 NS_KEY_UP
@@ -15954,7 +15954,7 @@ mEvent
 mMessage
 =
 =
-NS_KEY_PRESS
+eKeyPress
 &
 &
 keyEvent
@@ -16114,7 +16114,7 @@ mEvent
 mMessage
 =
 =
-NS_KEY_PRESS
+eKeyPress
 &
 &
 mType
@@ -16331,7 +16331,7 @@ mEvent
 mMessage
 =
 =
-NS_KEY_PRESS
+eKeyPress
 &
 &
 keyEvent
@@ -16394,7 +16394,7 @@ mEvent
 mMessage
 =
 =
-NS_KEY_PRESS
+eKeyPress
 &
 &
 mType
@@ -17754,7 +17754,7 @@ true
 break
 ;
 case
-NS_KEY_PRESS
+eKeyPress
 :
 if
 (

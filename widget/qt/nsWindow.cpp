@@ -4914,7 +4914,7 @@ aEvent
 mMessage
 =
 =
-NS_KEY_PRESS
+eKeyPress
 )
 &
 &
@@ -5578,7 +5578,7 @@ WidgetKeyboardEvent
 event
 (
 true
-NS_KEY_PRESS
+eKeyPress
 this
 )
 ;

@@ -1845,7 +1845,7 @@ aEvent
 mMessage
 =
 =
-NS_KEY_PRESS
+eKeyPress
 &
 &
 !

@@ -9738,7 +9738,7 @@ event
 mMessage
 =
 =
-NS_KEY_PRESS
+eKeyPress
 )
 {
 if

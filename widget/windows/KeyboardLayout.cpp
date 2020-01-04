@@ -4958,7 +4958,7 @@ WM_SYSKEYUP
 break
 ;
 case
-NS_KEY_PRESS
+eKeyPress
 :
 aKeyEvent
 .
@@ -6500,7 +6500,7 @@ WidgetKeyboardEvent
 keypressEvent
 (
 true
-NS_KEY_PRESS
+eKeyPress
 mWidget
 )
 ;
@@ -6808,7 +6808,7 @@ WidgetKeyboardEvent
 keypressEvent
 (
 true
-NS_KEY_PRESS
+eKeyPress
 mWidget
 )
 ;
@@ -9170,7 +9170,7 @@ WidgetKeyboardEvent
 keypressEvent
 (
 true
-NS_KEY_PRESS
+eKeyPress
 mWidget
 )
 ;
@@ -9558,7 +9558,7 @@ WidgetKeyboardEvent
 keypressEvent
 (
 true
-NS_KEY_PRESS
+eKeyPress
 mWidget
 )
 ;

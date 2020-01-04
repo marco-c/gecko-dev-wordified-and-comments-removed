@@ -30938,7 +30938,7 @@ aEvent
 mMessage
 =
 =
-NS_KEY_PRESS
+eKeyPress
 |
 |
 !
@@ -34222,7 +34222,7 @@ aEvent
 mMessage
 =
 =
-NS_KEY_PRESS
+eKeyPress
 |
 |
 aEvent
@@ -35090,7 +35090,7 @@ mMessage
 )
 {
 case
-NS_KEY_PRESS
+eKeyPress
 :
 case
 NS_KEY_DOWN
@@ -35713,7 +35713,7 @@ mMessage
 )
 {
 case
-NS_KEY_PRESS
+eKeyPress
 :
 case
 NS_KEY_DOWN

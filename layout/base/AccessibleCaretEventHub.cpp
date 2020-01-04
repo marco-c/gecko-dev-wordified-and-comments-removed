@@ -2669,7 +2669,7 @@ case
 NS_KEY_DOWN
 :
 case
-NS_KEY_PRESS
+eKeyPress
 :
 mManager
 -

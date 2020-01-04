@@ -1153,7 +1153,7 @@ mMessage
 )
 {
 case
-NS_KEY_PRESS
+eKeyPress
 :
 case
 NS_KEY_UP
@@ -1184,7 +1184,7 @@ keyCode
 NS_VK_RETURN
 &
 &
-NS_KEY_PRESS
+eKeyPress
 =
 =
 aVisitor

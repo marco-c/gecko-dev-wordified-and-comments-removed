@@ -2393,7 +2393,7 @@ nativeKeyEvent
 mMessage
 =
 =
-NS_KEY_PRESS
+eKeyPress
 "
 HandleKeyPressEvent
 gets

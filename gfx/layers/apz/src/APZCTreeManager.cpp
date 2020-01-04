@@ -4079,7 +4079,7 @@ return
 ;
 }
 case
-NS_KEY_PRESS
+eKeyPress
 :
 case
 NS_KEY_UP
