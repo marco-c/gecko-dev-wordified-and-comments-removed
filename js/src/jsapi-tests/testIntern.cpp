@@ -177,7 +177,7 @@ str
 ;
 JS_AddFinalizeCallback
 (
-rt
+cx
 FinalizeCallback
 nullptr
 )

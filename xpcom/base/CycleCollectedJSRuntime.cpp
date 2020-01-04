@@ -2226,7 +2226,7 @@ GCNurseryCollectionCallback
 }
 JS_SetObjectsTenuredCallback
 (
-mJSRuntime
+mJSContext
 JSObjectsTenuredCb
 this
 )
@@ -2236,7 +2236,7 @@ JS
 :
 SetOutOfMemoryCallback
 (
-mJSRuntime
+mJSContext
 OutOfMemoryCallback
 this
 )
