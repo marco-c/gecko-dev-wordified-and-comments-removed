@@ -1090,6 +1090,11 @@ CompositionOp
 aOperator
 )
 ;
+void
+SetFontOptions
+(
+)
+;
 private
 :
 cairo_t
@@ -1109,6 +1114,10 @@ mTransformSingular
 uint8_t
 *
 mLockedBits
+;
+cairo_font_options_t
+*
+mFontOptions
 ;
 struct
 PushedLayer
