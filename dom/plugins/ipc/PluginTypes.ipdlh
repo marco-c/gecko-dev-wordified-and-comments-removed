@@ -132,6 +132,9 @@ isJavaPlugin
 bool
 isFlashPlugin
 ;
+bool
+supportsAsyncInit
+;
 nsCString
 filename
 ;
