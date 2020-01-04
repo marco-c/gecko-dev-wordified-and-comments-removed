@@ -189,9 +189,6 @@ nsIFrameLoader
 namespace
 mozilla
 {
-struct
-OwningSerializedStructuredCloneBuffer
-;
 namespace
 dom
 {
@@ -236,15 +233,6 @@ MM_OWNSCALLBACK
 class
 MessageManagerCallback
 {
-protected
-:
-typedef
-mozilla
-:
-:
-OwningSerializedStructuredCloneBuffer
-OwningSerializedStructuredCloneBuffer
-;
 public
 :
 virtual
@@ -298,7 +286,7 @@ nsIPrincipal
 aPrincipal
 nsTArray
 <
-OwningSerializedStructuredCloneBuffer
+StructuredCloneIPCHelper
 >
 *
 aRetVal
@@ -609,13 +597,6 @@ dom
 StructuredCloneIPCHelper
 StructuredCloneIPCHelper
 ;
-typedef
-mozilla
-:
-:
-OwningSerializedStructuredCloneBuffer
-OwningSerializedStructuredCloneBuffer
-;
 public
 :
 nsFrameMessageManager
@@ -705,7 +686,7 @@ nsIPrincipal
 aPrincipal
 nsTArray
 <
-OwningSerializedStructuredCloneBuffer
+StructuredCloneIPCHelper
 >
 *
 aRetVal
@@ -1067,7 +1048,7 @@ nsIPrincipal
 aPrincipal
 nsTArray
 <
-OwningSerializedStructuredCloneBuffer
+StructuredCloneIPCHelper
 >
 *
 aRetVal

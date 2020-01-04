@@ -143,13 +143,6 @@ MessageManagerCallback
 public
 CPOWManagerGetter
 {
-typedef
-mozilla
-:
-:
-OwningSerializedStructuredCloneBuffer
-OwningSerializedStructuredCloneBuffer
-;
 public
 :
 NS_DECLARE_STATIC_IID_ACCESSOR
@@ -419,7 +412,7 @@ Principal
 aPrincipal
 nsTArray
 <
-OwningSerializedStructuredCloneBuffer
+StructuredCloneIPCHelper
 >
 *
 aRetvals
@@ -456,7 +449,7 @@ Principal
 aPrincipal
 nsTArray
 <
-OwningSerializedStructuredCloneBuffer
+StructuredCloneIPCHelper
 >
 *
 aRetvals

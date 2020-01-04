@@ -784,11 +784,14 @@ h
 "
 ;
 using
-struct
+class
 mozilla
 :
 :
-OwningSerializedStructuredCloneBuffer
+dom
+:
+:
+StructuredCloneIPCHelper
 from
 "
 ipc
@@ -1299,7 +1302,7 @@ aPrincipal
 )
 returns
 (
-OwningSerializedStructuredCloneBuffer
+StructuredCloneIPCHelper
 [
 ]
 retval
@@ -1325,7 +1328,7 @@ aPrincipal
 )
 returns
 (
-OwningSerializedStructuredCloneBuffer
+StructuredCloneIPCHelper
 [
 ]
 retval

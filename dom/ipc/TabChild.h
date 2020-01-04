@@ -944,13 +944,6 @@ typedef
 mozilla
 :
 :
-OwningSerializedStructuredCloneBuffer
-OwningSerializedStructuredCloneBuffer
-;
-typedef
-mozilla
-:
-:
 layout
 :
 :
@@ -1109,7 +1102,7 @@ nsIPrincipal
 aPrincipal
 nsTArray
 <
-OwningSerializedStructuredCloneBuffer
+StructuredCloneIPCHelper
 >
 *
 aRetVal
