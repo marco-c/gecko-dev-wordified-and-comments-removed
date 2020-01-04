@@ -180,27 +180,6 @@ mozharness
         
 self
 .
-config_dir
-=
-os
-.
-path
-.
-join
-(
-self
-.
-mozharness_dir
-'
-configs
-'
-'
-talos
-'
-)
-        
-self
-.
 talos_json
 =
 os
@@ -221,16 +200,6 @@ json
         
 self
 .
-config_filename
-=
-'
-in_tree_conf
-.
-json
-'
-        
-self
-.
 config_file_path
 =
 os
@@ -241,11 +210,18 @@ join
 (
 self
 .
-config_dir
+_topobjdir
+'
+testing
+'
                                              
-self
+'
+talos
+-
+in_tree_conf
 .
-config_filename
+json
+'
 )
         
 self
@@ -297,8 +273,14 @@ join
 (
 self
 .
-mozharness_dir
+_topobjdir
 '
+testing
+'
+                                            
+'
+talos
+-
 venv
 '
 )
