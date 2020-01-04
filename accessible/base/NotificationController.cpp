@@ -1912,6 +1912,19 @@ idx
 +
 )
 {
+if
+(
+mRelocations
+[
+idx
+]
+-
+>
+IsInDocument
+(
+)
+)
+{
 mDocument
 -
 >
@@ -1923,6 +1936,7 @@ idx
 ]
 )
 ;
+}
 }
 mRelocations
 .
