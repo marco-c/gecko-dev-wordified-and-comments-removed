@@ -437,6 +437,10 @@ callback
 void
 *
 callback_context
+MINIDUMP_TYPE
+dump_type
+=
+MiniDumpNormal
 )
 ;
 static
@@ -456,6 +460,10 @@ callback
 void
 *
 callback_context
+MINIDUMP_TYPE
+dump_type
+=
+MiniDumpNormal
 )
 ;
 DWORD

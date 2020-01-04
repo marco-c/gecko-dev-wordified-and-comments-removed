@@ -2436,6 +2436,8 @@ callback
 void
 *
 callback_context
+MINIDUMP_TYPE
+dump_type
 )
 {
 ExceptionHandler
@@ -2446,6 +2448,12 @@ NULL
 callback
 callback_context
 HANDLER_NONE
+dump_type
+(
+HANDLE
+)
+NULL
+NULL
 )
 ;
 return
@@ -2475,6 +2483,8 @@ callback
 void
 *
 callback_context
+MINIDUMP_TYPE
+dump_type
 )
 {
 EXCEPTION_RECORD
@@ -2633,6 +2643,12 @@ NULL
 callback
 callback_context
 HANDLER_NONE
+dump_type
+(
+HANDLE
+)
+NULL
+NULL
 )
 ;
 bool
