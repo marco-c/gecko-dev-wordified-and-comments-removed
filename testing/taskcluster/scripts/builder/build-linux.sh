@@ -251,6 +251,10 @@ cleanup
 (
 )
 {
+local
+rv
+=
+?
 if
 [
 -
@@ -267,6 +271,8 @@ xvfb_pid
 |
 true
 fi
+exit
+rv
 }
 trap
 cleanup
