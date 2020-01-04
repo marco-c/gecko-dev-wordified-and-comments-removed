@@ -782,10 +782,6 @@ aLayer
 nsIntRegion
 &
 aOpaqueRegion
-const
-nsIntRect
-*
-aClipFromAncestors
 )
 ;
 class
