@@ -40,6 +40,15 @@ RefPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+UniquePtr
+.
+h
+"
 namespace
 mozilla
 {
@@ -349,7 +358,7 @@ uint32_t
 aFlags
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 ClippedImageCachedSurface
 >

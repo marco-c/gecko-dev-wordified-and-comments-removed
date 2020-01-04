@@ -1298,8 +1298,10 @@ FLAG_CLAMP
 ;
 mCachedSurface
 =
-new
+MakeUnique
+<
 ClippedImageCachedSurface
+>
 (
 target
 -

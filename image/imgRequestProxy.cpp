@@ -3931,8 +3931,13 @@ aPrincipal
 {
 mBehaviour
 =
-new
+mozilla
+:
+:
+MakeUnique
+<
 StaticBehaviour
+>
 (
 aImage
 )
