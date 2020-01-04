@@ -548,7 +548,7 @@ stack_limit
 runtime
 -
 >
-addressOfJitStackLimit
+addressOfJitStackLimitNoInterrupt
 (
 )
 ;

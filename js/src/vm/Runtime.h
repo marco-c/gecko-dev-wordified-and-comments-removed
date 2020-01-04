@@ -2315,6 +2315,9 @@ resetJitStackLimit
 (
 )
 ;
+uintptr_t
+jitStackLimitNoInterrupt_
+;
 public
 :
 void
@@ -2355,6 +2358,17 @@ offsetof
 JSRuntime
 jitStackLimit_
 )
+;
+}
+void
+*
+addressOfJitStackLimitNoInterrupt
+(
+)
+{
+return
+&
+jitStackLimitNoInterrupt_
 ;
 }
 js

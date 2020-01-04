@@ -588,6 +588,10 @@ jitStackLimit_
 (
 0xbad
 )
+jitStackLimitNoInterrupt_
+(
+0xbad
+)
 activation_
 (
 nullptr
@@ -2898,6 +2902,10 @@ StackForUntrustedScript
 ;
 #
 endif
+jitStackLimitNoInterrupt_
+=
+jitStackLimit_
+;
 }
 void
 JSRuntime
