@@ -27510,11 +27510,17 @@ container
 IntSize
 surfaceSizeInt
 (
+GetAlignedStride
+<
+4
+>
+(
 NSToIntCeil
 (
 surfaceSize
 .
 width
+)
 )
 NSToIntCeil
 (
