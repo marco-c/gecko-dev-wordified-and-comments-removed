@@ -31269,6 +31269,10 @@ initOperand
 sticky
 )
 ;
+setMovable
+(
+)
+;
 setResultType
 (
 MIRType_Value
@@ -31486,6 +31490,10 @@ initOperand
 (
 3
 sticky
+)
+;
+setMovable
+(
 )
 ;
 setResultType
