@@ -1386,9 +1386,9 @@ user_pref
 "
 services
 .
-kinto
+settings
 .
-base
+server
 "
 "
 http
