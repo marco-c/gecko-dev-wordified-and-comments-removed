@@ -1695,8 +1695,7 @@ ERROR_MALFORMED
 if
 (
 data_size
-!
-=
+<
 (
 (
 uint64_t
