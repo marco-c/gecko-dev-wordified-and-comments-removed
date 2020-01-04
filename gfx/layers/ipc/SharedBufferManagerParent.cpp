@@ -50,6 +50,15 @@ include
 "
 mozilla
 /
+Sprintf
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 MessageChannel
