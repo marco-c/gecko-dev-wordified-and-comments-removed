@@ -432,6 +432,13 @@ extension
 "
 )
 ;
+do_check_true
+(
+addon
+.
+isWebExtension
+)
+;
 do_check_eq
 (
 addon
