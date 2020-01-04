@@ -3546,6 +3546,27 @@ py
 '
 )
                     
+defines
+=
+(
+)
+                    
+if
+lib
+.
+defines
+:
+                        
+defines
+=
+lib
+.
+defines
+.
+get_defines
+(
+)
+                    
 yield
 GeneratedFile
 (
@@ -3564,13 +3585,7 @@ symbols_file
 .
 full_path
 ]
-lib
-.
 defines
-.
-get_defines
-(
-)
 )
             
 if
