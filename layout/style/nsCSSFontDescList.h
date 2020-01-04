@@ -56,3 +56,10 @@ language
 override
 FontLanguageOverride
 )
+CSS_FONT_DESC
+(
+font
+-
+display
+Display
+)

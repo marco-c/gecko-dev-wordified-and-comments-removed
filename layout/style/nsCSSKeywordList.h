@@ -1617,6 +1617,11 @@ ew_resize
 )
 CSS_KEY
 (
+fallback
+fallback
+)
+CSS_KEY
+(
 fantasy
 fantasy
 )
@@ -2474,6 +2479,11 @@ open_quote
 )
 CSS_KEY
 (
+optional
+optional
+)
+CSS_KEY
+(
 ordinal
 ordinal
 )
@@ -3286,6 +3296,11 @@ CSS_KEY
 (
 swash
 swash
+)
+CSS_KEY
+(
+swap
+swap
 )
 CSS_KEY
 (

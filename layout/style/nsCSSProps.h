@@ -2860,6 +2860,13 @@ kFloatEdgeKTable
 static
 const
 KTableEntry
+kFontDisplayKTable
+[
+]
+;
+static
+const
+KTableEntry
 kFontKTable
 [
 ]
