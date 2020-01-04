@@ -1741,14 +1741,11 @@ else
 {
 if
 (
-GraphImpl
-(
-)
+source
 -
 >
-StreamSuspended
+IsSuspended
 (
-source
 )
 )
 {
