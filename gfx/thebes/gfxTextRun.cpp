@@ -10641,6 +10641,14 @@ hyphRun
 >
 GetAdvanceWidth
 (
+0
+hyphRun
+-
+>
+GetLength
+(
+)
+nullptr
 )
 :
 0
