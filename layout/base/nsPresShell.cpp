@@ -25106,6 +25106,15 @@ compositorChild
 return
 ;
 }
+compositorChild
+-
+>
+SendClearApproximatelyVisibleRegions
+(
+layersId
+presShellId
+)
+;
 for
 (
 auto

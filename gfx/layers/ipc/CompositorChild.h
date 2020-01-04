@@ -465,6 +465,15 @@ SendRequestNotifyAfterRemotePaint
 )
 ;
 bool
+SendClearApproximatelyVisibleRegions
+(
+uint64_t
+aLayersId
+uint32_t
+aPresShellId
+)
+;
+bool
 SendNotifyApproximatelyVisibleRegion
 (
 const
