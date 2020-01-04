@@ -165,11 +165,6 @@ SetTrustedCA
 )
 ;
 void
-SetValidServerPeer
-(
-)
-;
-void
 SetValidPeer
 (
 )
