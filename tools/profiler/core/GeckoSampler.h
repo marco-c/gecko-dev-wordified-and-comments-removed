@@ -466,6 +466,15 @@ aSinceTime
 0
 )
 ;
+void
+GetGatherer
+(
+nsISupports
+*
+*
+aRetVal
+)
+;
 #
 endif
 mozilla

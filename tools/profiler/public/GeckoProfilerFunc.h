@@ -52,6 +52,9 @@ stdint
 .
 h
 >
+class
+nsISupports
+;
 namespace
 mozilla
 {
@@ -315,6 +318,15 @@ char
 >
 *
 aFeatures
+)
+;
+void
+mozilla_sampler_get_gatherer
+(
+nsISupports
+*
+*
+aRetVal
 )
 ;
 #
