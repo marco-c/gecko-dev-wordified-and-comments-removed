@@ -1854,6 +1854,33 @@ job
 .
 '
 )
+            
+CommandArgument
+(
+'
+-
+-
+verbose
+'
+'
+-
+v
+'
+action
+=
+'
+store_true
+'
+                
+help
+=
+'
+Print
+verbose
+output
+.
+'
+)
         
 ]
         
@@ -2044,15 +2071,10 @@ again
 pass
     
 def
-_make_artifacts
+_set_log_level
 (
 self
-tree
-=
-None
-job
-=
-None
+verbose
 )
 :
         
@@ -2067,7 +2089,27 @@ setLevel
 logging
 .
 INFO
+if
+not
+verbose
+else
+logging
+.
+DEBUG
 )
+    
+def
+_make_artifacts
+(
+self
+tree
+=
+None
+job
+=
+None
+)
+:
         
 self
 .
@@ -2370,8 +2412,18 @@ None
 job
 =
 None
+verbose
+=
+False
 )
 :
+        
+self
+.
+_set_log_level
+(
+verbose
+)
         
 tree
 job
@@ -2441,8 +2493,18 @@ None
 job
 =
 None
+verbose
+=
+False
 )
 :
+        
+self
+.
+_set_log_level
+(
+verbose
+)
         
 tree
 job
@@ -2510,8 +2572,18 @@ None
 job
 =
 None
+verbose
+=
+False
 )
 :
+        
+self
+.
+_set_log_level
+(
+verbose
+)
         
 tree
 job
@@ -2581,8 +2653,18 @@ None
 job
 =
 None
+verbose
+=
+False
 )
 :
+        
+self
+.
+_set_log_level
+(
+verbose
+)
         
 tree
 job
