@@ -1707,7 +1707,6 @@ subject
 eventName
 capture
 checkFn
-wantsUntrusted
 )
 {
 return
@@ -1795,7 +1794,6 @@ ex
 }
 }
 capture
-wantsUntrusted
 )
 ;
 }
@@ -3627,10 +3625,14 @@ intervalID
 =
 setInterval
 (
+Task
+.
+async
+(
+function
+*
 (
 )
-=
->
 {
 if
 (
@@ -3675,6 +3677,7 @@ try
 {
 conditionPassed
 =
+yield
 condition
 (
 )
@@ -3729,6 +3732,7 @@ tries
 +
 ;
 }
+)
 interval
 )
 ;
