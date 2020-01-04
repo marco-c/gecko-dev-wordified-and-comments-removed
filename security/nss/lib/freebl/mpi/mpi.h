@@ -1306,6 +1306,17 @@ b
 )
 ;
 int
+mp_cmp_int
+(
+const
+mp_int
+*
+a
+long
+z
+)
+;
+int
 mp_isodd
 (
 const

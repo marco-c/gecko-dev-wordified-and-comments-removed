@@ -1136,16 +1136,6 @@ wincx
 {
 if
 (
-!
-slot
-)
-{
-return
-SECFailure
-;
-}
-if
-(
 pk11_LoginStillRequired
 (
 slot

@@ -166,6 +166,7 @@ obj
 pkixTempResult
 =
 PKIX_PL_Object_DecRef
+\
 (
 (
 PKIX_PL_Object

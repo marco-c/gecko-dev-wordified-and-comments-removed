@@ -263,6 +263,7 @@ n
 )
 \
 do
+\
 {
 \
 /
@@ -308,6 +309,7 @@ again
 /
 \
 }
+\
 while
 (
 0
@@ -1988,11 +1990,9 @@ SECFailure
 }
 else
 {
-\
 return
 SECFailure
 ;
-\
 }
 #
 ifndef
@@ -2274,6 +2274,7 @@ yy_current_buffer
 >
 yy_is_interactive
 )
+\
 {
 \
 int
@@ -2318,7 +2319,6 @@ c
 n
 '
 ;
-\
 +
 +
 n
@@ -2391,6 +2391,7 @@ n
 ;
 \
 }
+\
 else
 if
 (
@@ -2410,9 +2411,9 @@ yyin
 =
 0
 )
-&
-&
 \
+&
+&
 ferror
 (
 yyin
@@ -6170,6 +6171,7 @@ n
 )
 \
 do
+\
 {
 \
 /
@@ -6220,6 +6222,7 @@ n
 ;
 \
 }
+\
 while
 (
 0

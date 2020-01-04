@@ -1561,14 +1561,6 @@ lfd
 fd
 ;
 }
-else
-{
-close
-(
-fd
-)
-;
-}
 }
 return
 (
