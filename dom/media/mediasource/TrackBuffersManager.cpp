@@ -8979,6 +8979,10 @@ GetTrackBuffer
 aTrack
 )
 ;
+aFound
+=
+false
+;
 uint32_t
 nextSampleIndex
 =
