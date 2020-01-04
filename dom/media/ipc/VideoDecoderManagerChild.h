@@ -57,13 +57,6 @@ GetManagerThread
 (
 )
 ;
-static
-AbstractThread
-*
-GetManagerAbstractThread
-(
-)
-;
 void
 DeallocateSurfaceDescriptorGPUVideo
 (
