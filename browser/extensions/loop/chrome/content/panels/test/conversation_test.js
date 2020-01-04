@@ -61,6 +61,7 @@ mozL10nGet
 remoteCursorStore
 dispatcher
 requestStubs
+clock
 ;
 beforeEach
 (
@@ -73,6 +74,14 @@ sandbox
 LoopMochaUtils
 .
 createSandbox
+(
+)
+;
+clock
+=
+sandbox
+.
+useFakeTimers
 (
 )
 ;
@@ -491,6 +500,12 @@ mixins
 setRootObject
 (
 window
+)
+;
+clock
+.
+restore
+(
 )
 ;
 sandbox
