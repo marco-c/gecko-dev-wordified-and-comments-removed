@@ -254,7 +254,7 @@ value
 "
 )
 {
-_filterPasswords
+FilterPasswords
 (
 )
 ;
@@ -698,7 +698,7 @@ value
 =
 aFilterString
 ;
-_filterPasswords
+FilterPasswords
 (
 )
 ;
@@ -2629,7 +2629,7 @@ hidden
 !
 showingPasswords
 ;
-_filterPasswords
+FilterPasswords
 (
 )
 ;
@@ -3378,7 +3378,7 @@ false
 ;
 }
 function
-FilterPasswords
+_filterPasswords
 (
 aFilterValue
 view
@@ -3496,7 +3496,7 @@ value
 }
 }
 function
-_filterPasswords
+FilterPasswords
 (
 )
 {
@@ -3521,7 +3521,7 @@ return
 let
 newFilterSet
 =
-FilterPasswords
+_filterPasswords
 (
 filterField
 .
