@@ -4,6 +4,12 @@ tern
 require
 (
 "
+devtools
+/
+client
+/
+sourceeditor
+/
 tern
 /
 tern
@@ -16,6 +22,12 @@ ecma5
 require
 (
 "
+devtools
+/
+client
+/
+sourceeditor
+/
 tern
 /
 ecma5

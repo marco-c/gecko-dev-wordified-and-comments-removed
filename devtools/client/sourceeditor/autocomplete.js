@@ -201,11 +201,15 @@ defs
 =
 [
 "
+.
+/
 tern
 /
 browser
 "
 "
+.
+/
 tern
 /
 ecma5
@@ -234,6 +238,8 @@ tern
 require
 (
 "
+.
+/
 tern
 /
 tern

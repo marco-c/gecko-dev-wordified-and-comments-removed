@@ -107,14 +107,8 @@ xpcshell
 ini
 '
 ]
-EXTRA_JS_MODULES
-.
-devtools
-.
-tern
-+
-=
-[
+DevToolsModules
+(
 '
 browser
 .
@@ -155,4 +149,4 @@ tern
 .
 js
 '
-]
+)
