@@ -1305,7 +1305,7 @@ eDragEventClass
 NON_IDL_EVENT
 (
 overflow
-NS_SCROLLPORT_OVERFLOW
+eScrollPortOverflow
 EventNameType_XUL
 eBasicEventClass
 )
