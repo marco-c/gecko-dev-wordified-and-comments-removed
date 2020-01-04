@@ -35590,9 +35590,11 @@ layers
 .
 offmainthreadcomposition
 .
-enabled
+force
+-
+disabled
 "
-true
+false
 )
 ;
 pref
