@@ -236,7 +236,7 @@ log_type
 #
 define
 MAX_LOG_TYPES
-1024
+16
 static
 log_type
 log_types
