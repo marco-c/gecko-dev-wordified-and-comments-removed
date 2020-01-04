@@ -1768,6 +1768,11 @@ ContainsRestrictedContent
 ;
 #
 endif
+void
+CannotDecryptWaitingForKey
+(
+)
+;
 bool
 MozAutoplayEnabled
 (
@@ -3243,6 +3248,12 @@ mMediaInfo
 ;
 bool
 mIsEncrypted
+;
+bool
+mWaitingForKey
+;
+MediaEventListener
+mWaitingForKeyListener
 ;
 #
 ifdef

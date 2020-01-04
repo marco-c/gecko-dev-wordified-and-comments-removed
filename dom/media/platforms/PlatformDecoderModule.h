@@ -651,7 +651,6 @@ ReleaseMediaResources
 )
 {
 }
-;
 virtual
 bool
 OnReaderTaskQueue
@@ -660,6 +659,13 @@ OnReaderTaskQueue
 =
 0
 ;
+virtual
+void
+WaitingForKey
+(
+)
+{
+}
 }
 ;
 class

@@ -48,6 +48,9 @@ SamplesWaitingForKey
 MediaDataDecoder
 *
 aDecoder
+MediaDataDecoderCallback
+*
+aCallback
 TaskQueue
 *
 aTaskQueue
@@ -100,6 +103,10 @@ RefPtr
 MediaDataDecoder
 >
 mDecoder
+;
+MediaDataDecoderCallback
+*
+mDecoderCallback
 ;
 RefPtr
 <
