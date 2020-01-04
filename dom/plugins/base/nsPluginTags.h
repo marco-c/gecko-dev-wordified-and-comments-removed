@@ -609,6 +609,9 @@ mIsJavaPlugin
 bool
 mIsFlashPlugin
 ;
+bool
+mSupportsAsyncInit
+;
 nsCString
 mFullPath
 ;
