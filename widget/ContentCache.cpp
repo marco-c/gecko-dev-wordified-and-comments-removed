@@ -5132,7 +5132,7 @@ aRoundToExistingOffset
 &
 mTextRectArray
 .
-IsValid
+HasRects
 (
 )
 )
@@ -6741,6 +6741,13 @@ aRoundToExistingOffset
 )
 const
 {
+MOZ_ASSERT
+(
+HasRects
+(
+)
+)
+;
 LayoutDeviceIntRect
 rect
 ;
