@@ -402,6 +402,17 @@ StopDrag
 (
 )
 ;
+bool
+StartAPZDrag
+(
+mozilla
+:
+:
+WidgetGUIEvent
+*
+aEvent
+)
+;
 static
 int32_t
 GetCurrentPosition
