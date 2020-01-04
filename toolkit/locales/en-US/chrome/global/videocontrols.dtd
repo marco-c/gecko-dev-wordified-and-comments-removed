@@ -137,6 +137,16 @@ Screen
 <
 !
 ENTITY
+closedCaption
+.
+off
+"
+Off
+"
+>
+<
+!
+ENTITY
 stats
 .
 media
