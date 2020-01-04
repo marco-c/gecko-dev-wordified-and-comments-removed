@@ -761,7 +761,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
 JS_NULL_CLASS_SPEC
 {
 nullptr
@@ -901,7 +900,6 @@ JSCLASS_HAS_RESERVED_SLOTS
 (
 1
 )
-nullptr
 nullptr
 nullptr
 nullptr

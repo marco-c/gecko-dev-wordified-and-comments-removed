@@ -2459,7 +2459,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
 WeakMap_finalize
 nullptr
 nullptr

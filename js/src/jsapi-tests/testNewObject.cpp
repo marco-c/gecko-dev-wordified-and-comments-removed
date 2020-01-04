@@ -670,7 +670,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
 constructHook
 }
 ;

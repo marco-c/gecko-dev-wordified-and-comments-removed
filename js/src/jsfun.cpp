@@ -3865,7 +3865,6 @@ fun_resolve
 fun_mayResolve
 nullptr
 nullptr
-nullptr
 fun_hasInstance
 nullptr
 fun_trace

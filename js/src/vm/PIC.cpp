@@ -1341,7 +1341,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
 ForOfPIC_finalize
 nullptr
 nullptr

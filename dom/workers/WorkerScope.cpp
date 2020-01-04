@@ -3253,7 +3253,6 @@ nullptr
 workerdebuggersandbox_enumerate
 workerdebuggersandbox_resolve
 nullptr
-nullptr
 workerdebuggersandbox_finalize
 nullptr
 nullptr

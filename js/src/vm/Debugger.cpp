@@ -13300,7 +13300,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
 Debugger
 :
 :
@@ -23649,7 +23648,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
 DebuggerScript_trace
 }
 ;
@@ -29492,7 +29490,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
 DebuggerSource_trace
 }
 ;
@@ -31537,7 +31534,6 @@ JSCLASS_HAS_RESERVED_SLOTS
 (
 JSSLOT_DEBUGFRAME_COUNT
 )
-nullptr
 nullptr
 nullptr
 nullptr
@@ -36100,7 +36096,6 @@ JSCLASS_HAS_RESERVED_SLOTS
 (
 JSSLOT_DEBUGOBJECT_COUNT
 )
-nullptr
 nullptr
 nullptr
 nullptr
@@ -41645,7 +41640,6 @@ JSCLASS_HAS_RESERVED_SLOTS
 (
 JSSLOT_DEBUGENV_COUNT
 )
-nullptr
 nullptr
 nullptr
 nullptr
