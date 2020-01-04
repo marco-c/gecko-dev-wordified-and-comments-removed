@@ -1158,7 +1158,7 @@ repo
 url
                     
 "
-revision
+branch
 "
 :
 self
@@ -1169,8 +1169,12 @@ get
 (
 "
 %
-s_repo_revision
+s_repo_branch
 "
+%
+(
+k
+)
 "
 default
 "
@@ -3755,7 +3759,7 @@ tools_repo_url
 ]
             
 "
-revision
+branch
 "
 :
 self
@@ -3763,7 +3767,7 @@ self
 config
 [
 "
-tools_repo_revision
+tools_repo_branch
 "
 ]
             

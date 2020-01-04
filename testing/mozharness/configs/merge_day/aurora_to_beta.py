@@ -1,3 +1,22 @@
+import
+os
+ABS_WORK_DIR
+=
+os
+.
+path
+.
+join
+(
+os
+.
+getcwd
+(
+)
+"
+build
+"
+)
 config
 =
 {
@@ -691,6 +710,24 @@ root
 ]
     
 "
+vcs_share_base
+"
+:
+os
+.
+path
+.
+join
+(
+ABS_WORK_DIR
+'
+hg
+-
+shared
+'
+)
+    
+"
 tools_repo_url
 "
 :
@@ -711,7 +748,7 @@ tools
 "
     
 "
-tools_repo_revision
+tools_repo_branch
 "
 :
 "
