@@ -2144,7 +2144,7 @@ nsISelectionController
 :
 :
 SELECTION_SPELLCHECK
-SELECTION_IME_RAWINPUT
+eIMERawClause
 =
 nsISelectionController
 :

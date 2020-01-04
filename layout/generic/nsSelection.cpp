@@ -640,7 +640,7 @@ case
 SelectionType
 :
 :
-SELECTION_IME_RAWINPUT
+eIMERawClause
 :
 return
 "
@@ -799,7 +799,7 @@ case
 SelectionType
 :
 :
-SELECTION_IME_RAWINPUT
+eIMERawClause
 :
 case
 SelectionType
@@ -1493,7 +1493,7 @@ case
 SelectionType
 :
 :
-SELECTION_IME_RAWINPUT
+eIMERawClause
 :
 return
 2
@@ -1596,7 +1596,7 @@ eSpellCheck
 SelectionType
 :
 :
-SELECTION_IME_RAWINPUT
+eIMERawClause
 SelectionType
 :
 :

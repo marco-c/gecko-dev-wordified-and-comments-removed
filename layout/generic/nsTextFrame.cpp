@@ -1168,7 +1168,7 @@ case
 SelectionType
 :
 :
-SELECTION_IME_RAWINPUT
+eIMERawClause
 :
 return
 eIndexRawInput
@@ -27435,7 +27435,7 @@ case
 SelectionType
 :
 :
-SELECTION_IME_RAWINPUT
+eIMERawClause
 :
 case
 SelectionType
@@ -27978,7 +27978,7 @@ case
 SelectionType
 :
 :
-SELECTION_IME_RAWINPUT
+eIMERawClause
 :
 case
 SelectionType
@@ -28436,7 +28436,7 @@ case
 SelectionType
 :
 :
-SELECTION_IME_RAWINPUT
+eIMERawClause
 :
 case
 SelectionType

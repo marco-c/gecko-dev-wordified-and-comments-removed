@@ -458,7 +458,7 @@ return
 SelectionType
 :
 :
-SELECTION_IME_RAWINPUT
+eIMERawClause
 ;
 case
 TextRangeType
