@@ -186,7 +186,7 @@ contextmenu
 items
 .
 length
-2
+3
 '
 Inner
 clicks
