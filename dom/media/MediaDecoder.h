@@ -586,7 +586,10 @@ CreateStateMachine
 0
 ;
 virtual
-void
+RefPtr
+<
+ShutdownPromise
+>
 Shutdown
 (
 )
@@ -1624,7 +1627,10 @@ false
 )
 ;
 }
-void
+RefPtr
+<
+ShutdownPromise
+>
 FinishShutdown
 (
 )

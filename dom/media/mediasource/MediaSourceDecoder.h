@@ -166,7 +166,10 @@ aSupported
 ;
 }
 virtual
-void
+RefPtr
+<
+ShutdownPromise
+>
 Shutdown
 (
 )
