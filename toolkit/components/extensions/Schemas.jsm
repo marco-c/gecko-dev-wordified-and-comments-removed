@@ -6449,6 +6449,12 @@ checkTypeProperties
 "
 functions
 "
+"
+events
+"
+"
+properties
+"
 )
 ;
 let
