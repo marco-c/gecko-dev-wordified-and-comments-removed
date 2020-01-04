@@ -221,6 +221,11 @@ File
 {
 [
 GetterThrows
+Deprecated
+=
+"
+FileLastModifiedDate
+"
 ]
 readonly
 attribute

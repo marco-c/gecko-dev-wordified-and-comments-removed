@@ -146,3 +146,7 @@ DEPRECATED_OPERATION
 (
 NavigatorBattery
 )
+DEPRECATED_OPERATION
+(
+FileLastModifiedDate
+)
