@@ -1934,6 +1934,12 @@ InitAcceleration
 )
 ;
 virtual
+void
+WillShutdown
+(
+)
+;
+virtual
 already_AddRefed
 <
 mozilla
