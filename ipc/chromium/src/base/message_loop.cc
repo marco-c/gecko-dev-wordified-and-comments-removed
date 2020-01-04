@@ -1159,6 +1159,13 @@ current
 this
 )
 ;
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 PendingTask
 pending_task
 (
