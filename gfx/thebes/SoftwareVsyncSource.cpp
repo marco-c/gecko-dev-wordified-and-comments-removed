@@ -553,7 +553,13 @@ Now
 }
 mCurrentVsyncTask
 =
-NewCancelableRunnableMethod
+NS_NewCancelableRunnableMethodWithArgs
+<
+mozilla
+:
+:
+TimeStamp
+>
 (
 this
 &
