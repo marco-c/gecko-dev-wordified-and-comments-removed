@@ -2645,7 +2645,7 @@ ClearSubtreeRootPointer
 (
 )
 ;
-SetInDocument
+SetIsInDocument
 (
 )
 ;
