@@ -282,6 +282,11 @@ Social
 jsm
 '
 '
+SocialService
+.
+jsm
+'
+'
 TabGroupsMigrator
 .
 jsm

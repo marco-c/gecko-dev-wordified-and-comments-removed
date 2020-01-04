@@ -10,7 +10,6 @@ resource
 :
 /
 /
-gre
 /
 modules
 /
