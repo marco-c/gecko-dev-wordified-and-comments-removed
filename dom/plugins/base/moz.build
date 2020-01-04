@@ -224,11 +224,6 @@ nsPluginNativeWindowGtk
 h
 '
 '
-nsPluginPlayPreviewInfo
-.
-h
-'
-'
 nsPluginsCID
 .
 h
@@ -282,11 +277,6 @@ cpp
 '
 '
 nsPluginModule
-.
-cpp
-'
-'
-nsPluginPlayPreviewInfo
 .
 cpp
 '
