@@ -67,6 +67,10 @@ build
 '
 hazard
 '
+    
+'
+l10n
+'
 ]
 )
 JOB_KINDS
