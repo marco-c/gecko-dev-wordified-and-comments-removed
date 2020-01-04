@@ -1552,6 +1552,9 @@ to
 GetDataSurface
 in
 UpdateFromSurface
+(
+BT
+)
 .
 "
 ;
@@ -1613,6 +1616,9 @@ different
 size
 or
 format
+(
+BT
+)
 !
 This
 :
@@ -1719,6 +1725,9 @@ source
 surface
 for
 UpdateFromSurface
+(
+BT
+)
 .
 "
 ;

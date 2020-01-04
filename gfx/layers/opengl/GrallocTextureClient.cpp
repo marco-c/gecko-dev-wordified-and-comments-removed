@@ -1164,6 +1164,9 @@ to
 GetDataSurface
 in
 UpdateFromSurface
+(
+GTC
+)
 .
 "
 ;
@@ -1332,6 +1335,9 @@ source
 surface
 for
 UpdateFromSurface
+(
+GTC
+)
 .
 "
 ;

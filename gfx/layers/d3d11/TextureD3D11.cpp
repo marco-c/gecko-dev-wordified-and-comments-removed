@@ -3426,6 +3426,9 @@ to
 GetDataSurface
 in
 UpdateFromSurface
+(
+D3D11
+)
 .
 "
 ;
@@ -3469,6 +3472,9 @@ source
 surface
 for
 UpdateFromSurface
+(
+D3D11
+)
 .
 "
 ;
@@ -3634,6 +3640,9 @@ to
 GetDataSurface
 in
 UpdateFromSurface
+(
+D3D10
+)
 .
 "
 ;
@@ -3677,6 +3686,9 @@ source
 surface
 for
 UpdateFromSurface
+(
+D3D10
+)
 .
 "
 ;
@@ -6291,6 +6303,9 @@ Failed
 to
 get
 KeyedMutex
+(
+1
+)
 :
 "
 <
@@ -6492,6 +6507,9 @@ Failed
 to
 get
 KeyedMutex
+(
+2
+)
 :
 "
 <

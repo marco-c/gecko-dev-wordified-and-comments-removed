@@ -3782,6 +3782,9 @@ to
 allocate
 a
 TextureClient
+(
+B
+)
 "
 ;
 return
@@ -3838,6 +3841,9 @@ to
 allocate
 a
 TextureClient
+(
+W
+)
 "
 ;
 return
@@ -3972,6 +3978,9 @@ to
 lock
 a
 tile
+(
+B
+)
 "
 ;
 DiscardBackBuffer
@@ -4032,6 +4041,9 @@ to
 lock
 a
 tile
+(
+W
+)
 "
 ;
 DiscardBackBuffer

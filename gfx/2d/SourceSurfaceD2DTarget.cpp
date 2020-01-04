@@ -240,6 +240,9 @@ in
 D2D
 target
 surface
+(
+GDS
+)
 "
 ;
 return
@@ -415,6 +418,9 @@ in
 D2D
 target
 surface
+(
+SRV
+)
 "
 ;
 return

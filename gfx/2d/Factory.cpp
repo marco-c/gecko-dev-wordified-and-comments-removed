@@ -1506,6 +1506,9 @@ due
 to
 invalid
 size
+(
+CDT
+)
 "
 <
 <
@@ -1925,6 +1928,9 @@ due
 to
 invalid
 size
+(
+DTD
+)
 "
 <
 <
@@ -3996,6 +4002,9 @@ due
 to
 invalid
 size
+(
+DSS
+)
 "
 <
 <

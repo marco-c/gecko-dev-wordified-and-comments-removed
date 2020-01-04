@@ -963,6 +963,9 @@ Failed
 to
 map
 bitmap
+(
+M
+)
 .
 "
 ;
@@ -1092,6 +1095,9 @@ Failed
 to
 map
 bitmap
+(
+EM
+)
 .
 "
 ;
