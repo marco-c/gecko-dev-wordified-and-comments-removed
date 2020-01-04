@@ -345,11 +345,6 @@ nsRegion
 cpp
 '
 '
-nsRenderingContext
-.
-cpp
-'
-'
 nsScriptableRegion
 .
 cpp
