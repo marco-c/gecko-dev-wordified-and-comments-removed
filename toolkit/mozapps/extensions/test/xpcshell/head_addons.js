@@ -3391,7 +3391,7 @@ aExtraFile
 ;
 }
 function
-writeWebManifestForExtension
+promiseWriteWebManifestForExtension
 (
 aData
 aDir
@@ -3423,9 +3423,7 @@ stringify
 aData
 )
 }
-let
-promise
-=
+return
 AddonTestUtils
 .
 promiseWriteFilesToExtension
@@ -3435,12 +3433,6 @@ aDir
 path
 aId
 files
-)
-;
-return
-awaitPromise
-(
-promise
 )
 ;
 }
