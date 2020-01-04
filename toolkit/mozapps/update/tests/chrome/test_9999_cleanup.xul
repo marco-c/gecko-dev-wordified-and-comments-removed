@@ -534,6 +534,13 @@ exist
 "
 )
 ;
+resetAddons
+(
+(
+)
+=
+>
+{
 let
 addonPrepDir
 =
@@ -639,9 +646,11 @@ e
 )
 ;
 }
-resetAddons
-(
 cleanupRestoreUpdaterBackup
+(
+)
+;
+}
 )
 ;
 }
