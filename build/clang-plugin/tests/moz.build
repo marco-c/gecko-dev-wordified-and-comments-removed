@@ -147,6 +147,11 @@ TestInheritTypeAnnotationsFromTemplateArgs
 cpp
 '
 '
+TestKungFuDeathGrip
+.
+cpp
+'
+'
 TestMultipleAnnotations
 .
 cpp
