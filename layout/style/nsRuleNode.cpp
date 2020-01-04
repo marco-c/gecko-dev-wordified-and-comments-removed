@@ -29720,13 +29720,13 @@ mTopLayer
 NS_STYLE_TOP_LAYER_NONE
 &
 &
+!
 display
 -
 >
-mPosition
-!
-=
-NS_STYLE_POSITION_FIXED
+IsAbsolutelyPositionedStyle
+(
+)
 )
 {
 display
@@ -29734,7 +29734,7 @@ display
 >
 mPosition
 =
-NS_STYLE_POSITION_FIXED
+NS_STYLE_POSITION_ABSOLUTE
 ;
 conditions
 .
