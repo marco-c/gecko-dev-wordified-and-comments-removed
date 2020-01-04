@@ -1006,9 +1006,16 @@ BaseContext
 {
 constructor
 (
+envType
 extension
 )
 {
+this
+.
+envType
+=
+envType
+;
 this
 .
 onClose

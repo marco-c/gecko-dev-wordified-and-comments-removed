@@ -1033,6 +1033,9 @@ registerSchemaAPI
 "
 pageAction
 "
+"
+addon_parent
+"
 context
 =
 >

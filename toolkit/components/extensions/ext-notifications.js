@@ -461,6 +461,9 @@ registerSchemaAPI
 "
 notifications
 "
+"
+addon_parent
+"
 context
 =
 >

@@ -51,6 +51,9 @@ registerSchemaAPI
 "
 i18n
 "
+"
+addon_parent
+"
 context
 =
 >

@@ -108,6 +108,9 @@ registerSchemaAPI
 "
 windows
 "
+"
+addon_parent
+"
 context
 =
 >

@@ -960,6 +960,9 @@ registerSchemaAPI
 "
 cookies
 "
+"
+addon_parent
+"
 context
 =
 >

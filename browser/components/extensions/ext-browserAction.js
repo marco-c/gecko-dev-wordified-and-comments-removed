@@ -1963,6 +1963,9 @@ registerSchemaAPI
 "
 browserAction
 "
+"
+addon_parent
+"
 context
 =
 >

@@ -80,6 +80,9 @@ extension
 ;
 super
 (
+"
+testEnv
+"
 fakeExtension
 )
 ;
@@ -562,6 +565,9 @@ extension
 ;
 super
 (
+"
+testEnv
+"
 fakeExtension
 )
 ;

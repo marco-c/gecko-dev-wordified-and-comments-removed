@@ -777,6 +777,9 @@ registerSchemaAPI
 "
 webNavigation
 "
+"
+addon_parent
+"
 context
 =
 >

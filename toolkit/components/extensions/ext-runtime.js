@@ -141,6 +141,9 @@ registerSchemaAPI
 "
 runtime
 "
+"
+addon_parent
+"
 context
 =
 >

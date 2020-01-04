@@ -10,6 +10,9 @@ registerSchemaAPI
 "
 idle
 "
+"
+addon_parent
+"
 context
 =
 >

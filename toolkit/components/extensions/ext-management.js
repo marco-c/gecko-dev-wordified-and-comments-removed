@@ -86,6 +86,9 @@ registerSchemaAPI
 "
 management
 "
+"
+addon_parent
+"
 context
 =
 >

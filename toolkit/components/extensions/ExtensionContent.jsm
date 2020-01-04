@@ -1745,6 +1745,9 @@ contextOptions
 {
 super
 (
+"
+content_child
+"
 extension
 )
 ;

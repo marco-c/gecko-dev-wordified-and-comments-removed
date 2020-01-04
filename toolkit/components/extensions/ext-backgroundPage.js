@@ -875,6 +875,9 @@ registerSchemaAPI
 "
 extension
 "
+"
+addon_parent
+"
 context
 =
 >

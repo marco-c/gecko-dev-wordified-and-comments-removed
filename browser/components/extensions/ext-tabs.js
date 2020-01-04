@@ -1320,6 +1320,9 @@ registerSchemaAPI
 "
 tabs
 "
+"
+addon_parent
+"
 context
 =
 >

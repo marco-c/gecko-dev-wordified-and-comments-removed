@@ -502,6 +502,9 @@ registerSchemaAPI
 "
 alarms
 "
+"
+addon_parent
+"
 context
 =
 >
