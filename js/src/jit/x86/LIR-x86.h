@@ -214,6 +214,10 @@ Input
 ;
 LUnboxFloatingPoint
 (
+const
+LBoxAllocation
+&
+input
 MIRType
 type
 )
@@ -223,6 +227,12 @@ type_
 type
 )
 {
+setBoxOperand
+(
+Input
+input
+)
+;
 }
 MUnbox
 *

@@ -136,6 +136,16 @@ alloc
 )
 LTableSwitchV
 (
+useBox
+(
+tableswitch
+-
+>
+getOperand
+(
+0
+)
+)
 temp
 (
 )

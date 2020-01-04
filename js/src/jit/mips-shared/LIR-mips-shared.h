@@ -629,6 +629,10 @@ TableSwitchV
 LTableSwitchV
 (
 const
+LBoxAllocation
+&
+input
+const
 LDefinition
 &
 inputCopy
@@ -645,6 +649,12 @@ MTableSwitch
 ins
 )
 {
+setBoxOperand
+(
+InputValue
+input
+)
+;
 setTemp
 (
 0

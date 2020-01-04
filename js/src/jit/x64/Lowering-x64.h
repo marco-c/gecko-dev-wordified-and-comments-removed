@@ -83,14 +83,9 @@ size_t
 lirIndex
 )
 ;
-void
+LBoxAllocation
 useBoxFixed
 (
-LInstruction
-*
-lir
-size_t
-n
 MDefinition
 *
 mir

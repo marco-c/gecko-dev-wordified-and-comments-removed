@@ -58,14 +58,9 @@ lirGraph
 }
 protected
 :
-void
+LBoxAllocation
 useBoxFixed
 (
-LInstruction
-*
-lir
-size_t
-n
 MDefinition
 *
 mir
