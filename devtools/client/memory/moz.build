@@ -96,6 +96,11 @@ initializer
 js
 '
 '
+models
+.
+js
+'
+'
 panel
 .
 js

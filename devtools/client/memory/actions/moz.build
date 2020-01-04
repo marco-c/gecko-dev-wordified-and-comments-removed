@@ -64,6 +64,11 @@ MPL
 DevToolsModules
 (
 '
+breakdown
+.
+js
+'
+'
 snapshot
 .
 js
