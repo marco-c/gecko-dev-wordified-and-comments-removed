@@ -320,6 +320,9 @@ taskcluster
 symbol
 :
 H
+tier
+:
+1
 collection
 :
 debug
