@@ -167,7 +167,8 @@ use
 fill
 =
 "
-whitesmoke
+#
+0b0b0b
 "
 in
 the

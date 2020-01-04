@@ -96,6 +96,12 @@ viewBox
 16
 16
 "
+stroke
+=
+"
+#
+0b0b0b
+"
 >
 <
 path
@@ -124,11 +130,6 @@ miterlimit
 =
 "
 10
-"
-stroke
-=
-"
-whitesmoke
 "
 d
 =
