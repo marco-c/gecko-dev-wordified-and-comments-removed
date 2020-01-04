@@ -14802,6 +14802,9 @@ StartRemoteDrawingInRegion
 LayoutDeviceIntRegion
 &
 aInvalidRegion
+BufferMode
+*
+aBufferMode
 )
 {
 /

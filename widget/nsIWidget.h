@@ -2335,6 +2335,15 @@ StartRemoteDrawingInRegion
 LayoutDeviceIntRegion
 &
 aInvalidRegion
+mozilla
+:
+:
+layers
+:
+:
+BufferMode
+*
+aBufferMode
 )
 {
 return
