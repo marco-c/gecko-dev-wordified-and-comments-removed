@@ -2332,6 +2332,24 @@ taskcluster
 '
 )
         
+self
+.
+virtualenv_manager
+.
+install_pip_package
+(
+'
+mozregression
+=
+=
+1
+.
+0
+.
+2
+'
+)
+        
 state_dir
 =
 self
