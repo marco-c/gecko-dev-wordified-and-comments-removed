@@ -9051,6 +9051,13 @@ break
 case
 Bailout_OverflowInvalidate
 :
+outerScript
+-
+>
+setHadOverflowBailout
+(
+)
+;
 case
 Bailout_NonStringInputInvalidate
 :
