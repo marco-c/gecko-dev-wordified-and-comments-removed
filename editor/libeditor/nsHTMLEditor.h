@@ -3472,7 +3472,7 @@ ClearStyle
 (
 nsCOMPtr
 <
-nsIDOMNode
+nsINode
 >
 *
 aNode
