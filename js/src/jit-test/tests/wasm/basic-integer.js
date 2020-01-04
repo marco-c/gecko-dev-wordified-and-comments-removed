@@ -626,7 +626,7 @@ i32
 (
 i32
 .
-popcnt
+clz
 (
 get_local
 0
@@ -672,7 +672,7 @@ f32
 (
 i32
 .
-popcnt
+clz
 (
 get_local
 0
@@ -718,7 +718,7 @@ f32
 (
 i32
 .
-popcnt
+clz
 (
 get_local
 0
