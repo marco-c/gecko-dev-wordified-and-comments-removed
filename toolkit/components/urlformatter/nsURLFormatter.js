@@ -84,7 +84,7 @@ defineLazyModuleGetter
 (
 this
 "
-UpdateChannel
+UpdateUtils
 "
 "
 resource
@@ -95,7 +95,7 @@ gre
 /
 modules
 /
-UpdateChannel
+UpdateUtils
 .
 jsm
 "
@@ -715,11 +715,9 @@ CHANNEL
 function
 (
 )
-UpdateChannel
+UpdateUtils
 .
-get
-(
-)
+UpdateChannel
 MOZILLA_API_KEY
 :
 function

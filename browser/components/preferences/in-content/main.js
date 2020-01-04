@@ -1019,7 +1019,7 @@ gre
 /
 modules
 /
-UpdateChannel
+UpdateUtils
 .
 jsm
 "
@@ -1036,11 +1036,9 @@ checked
 &
 tmp
 .
-UpdateChannel
+UpdateUtils
 .
-get
-(
-)
+UpdateChannel
 !
 =
 "
