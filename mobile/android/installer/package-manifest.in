@@ -2641,6 +2641,13 @@ toolkit
 .
 manifest
 ;
+Features
+BINPATH
+/
+features
+/
+*
+;
 DevTools
 BINPATH
 /

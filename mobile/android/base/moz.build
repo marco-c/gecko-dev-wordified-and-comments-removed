@@ -4518,6 +4518,13 @@ java
 '
 updater
 /
+PostUpdateHandler
+.
+java
+'
+'
+updater
+/
 UpdateService
 .
 java

@@ -1884,6 +1884,17 @@ i
 +
 )
 {
+if
+(
+aAddons
+[
+i
+]
+.
+isSystem
+)
+continue
+;
 let
 item
 =
