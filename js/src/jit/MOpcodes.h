@@ -629,7 +629,7 @@ NewCallObject
 \
 _
 (
-NewRunOnceCallObject
+NewSingletonCallObject
 )
 \
 _
