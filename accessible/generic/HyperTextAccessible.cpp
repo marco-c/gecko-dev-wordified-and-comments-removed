@@ -8601,7 +8601,7 @@ aRanges
 )
 const
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 aRanges
 -
@@ -8609,7 +8609,7 @@ aRanges
 Length
 (
 )
-!
+=
 =
 0
 "

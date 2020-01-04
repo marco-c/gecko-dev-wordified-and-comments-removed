@@ -670,6 +670,7 @@ DefaultTextAttributes
 int32_t
 GetChildOffset
 (
+const
 Accessible
 *
 aChild

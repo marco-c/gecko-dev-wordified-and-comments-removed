@@ -105,6 +105,10 @@ Accessible2_2
 .
 idl
 \
+Accessible2_3
+.
+idl
+\
 AccessibleAction
 .
 idl
