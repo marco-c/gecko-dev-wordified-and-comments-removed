@@ -220,9 +220,8 @@ isEmpty
 {
 res
 .
-swap
+forget
 (
-*
 aResult
 )
 ;

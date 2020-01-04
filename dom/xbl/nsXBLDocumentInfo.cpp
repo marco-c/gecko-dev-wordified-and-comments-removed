@@ -1172,9 +1172,8 @@ rv
 }
 docInfo
 .
-swap
+forget
 (
-*
 aDocInfo
 )
 ;

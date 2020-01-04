@@ -5990,9 +5990,8 @@ node
 {
 node
 .
-swap
+forget
 (
-*
 aNode
 )
 ;
@@ -6480,9 +6479,8 @@ node
 )
 node
 .
-swap
+forget
 (
-*
 aNode
 )
 ;
@@ -14455,9 +14453,8 @@ rv
 }
 result
 .
-swap
+forget
 (
-*
 aResult
 )
 ;
