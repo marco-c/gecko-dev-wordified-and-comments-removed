@@ -586,6 +586,11 @@ StyleSetHandleInlines
 h
 '
 '
+StyleSheet
+.
+h
+'
+'
 StyleSheetHandle
 .
 h
@@ -1010,6 +1015,11 @@ cpp
 '
 '
 StyleRule
+.
+cpp
+'
+'
+StyleSheet
 .
 cpp
 '
