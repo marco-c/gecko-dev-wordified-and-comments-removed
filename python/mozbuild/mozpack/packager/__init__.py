@@ -29,6 +29,8 @@ import
     
 Manifest
     
+ManifestBinaryComponent
+    
 ManifestChrome
     
 ManifestInterfaces
@@ -1622,9 +1624,8 @@ self
 .
 _addons
 =
-set
-(
-)
+{
+}
         
 self
 .
@@ -1760,16 +1761,16 @@ rdf
 self
 .
 _addons
-.
-add
-(
+[
 mozpath
 .
 dirname
 (
 path
 )
-)
+]
+=
+True
     
 def
 _add_manifest_file
@@ -1956,6 +1957,43 @@ if
 isinstance
 (
 e
+ManifestBinaryComponent
+)
+:
+                
+addon
+=
+mozpath
+.
+basedir
+(
+e
+.
+base
+self
+.
+_addons
+)
+                
+if
+addon
+:
+                    
+self
+.
+_addons
+[
+addon
+]
+=
+'
+unpacked
+'
+            
+if
+isinstance
+(
+e
 Manifest
 )
 :
@@ -2087,9 +2125,12 @@ addons
 all_bases
 -
 =
+set
+(
 self
 .
 _addons
+)
         
 else
 :
@@ -2097,9 +2138,12 @@ else
 all_bases
 |
 =
+set
+(
 self
 .
 _addons
+)
         
 return
 all_bases
@@ -2232,7 +2276,10 @@ bases
 for
 base
 in
+sorted
+(
 bases
+)
 :
             
 self
@@ -2242,11 +2289,15 @@ formatter
 add_base
 (
 base
-base
-in
 self
 .
 _addons
+.
+get
+(
+base
+False
+)
 )
         
 self

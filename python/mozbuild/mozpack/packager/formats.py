@@ -228,7 +228,6 @@ manifest
         
 The
 optional
-boolean
 addon
 argument
 tells
@@ -240,8 +239,25 @@ directory
 is
 that
 of
-an
+a
+packed
 addon
+(
+True
+)
+unpacked
+addon
+(
+'
+unpacked
+'
+)
+or
+        
+otherwise
+(
+False
+)
 .
     
 -
