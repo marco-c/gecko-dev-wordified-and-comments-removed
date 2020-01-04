@@ -4307,7 +4307,7 @@ counter
 =
 %
 "
-PRIuSIZE
+PRIu32
 "
 level
 =
