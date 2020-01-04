@@ -9108,9 +9108,6 @@ requestAutocomplete
 false
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -9120,11 +9117,9 @@ input
 .
 dirpicker
 "
-true
+false
 )
 ;
-#
-endif
 pref
 (
 "
