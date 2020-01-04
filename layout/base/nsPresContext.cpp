@@ -1613,8 +1613,10 @@ this
 if
 (
 mRefreshDriver
-&
-&
+)
+{
+if
+(
 mRefreshDriver
 -
 >
@@ -1633,6 +1635,7 @@ Disconnect
 (
 )
 ;
+}
 mRefreshDriver
 =
 nullptr
