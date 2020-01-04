@@ -16144,9 +16144,10 @@ intptr_t
 )
 )
 ;
-as_jalr
+ma_bal
 (
 label
+DontFillDelaySlot
 )
 ;
 as_sw
