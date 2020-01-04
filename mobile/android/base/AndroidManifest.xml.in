@@ -4946,7 +4946,7 @@ xml
 .
 in
 <
-receiver
+service
 android
 :
 name
@@ -4960,7 +4960,7 @@ gecko
 .
 sync
 .
-TabReceivedBroadcastReceiver
+TabReceivedService
 "
 android
 :

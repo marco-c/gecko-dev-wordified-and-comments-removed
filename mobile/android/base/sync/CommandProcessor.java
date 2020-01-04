@@ -73,15 +73,6 @@ mozilla
 .
 gecko
 .
-R
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 background
 .
 common
@@ -1210,7 +1201,7 @@ new
 Intent
 (
 context
-TabReceivedBroadcastReceiver
+TabReceivedService
 .
 class
 )
@@ -1231,7 +1222,7 @@ sendTabNotificationIntent
 .
 putExtra
 (
-TabReceivedBroadcastReceiver
+TabReceivedService
 .
 EXTRA_TITLE
 title
@@ -1239,7 +1230,7 @@ title
 ;
 context
 .
-sendBroadcast
+startService
 (
 sendTabNotificationIntent
 )

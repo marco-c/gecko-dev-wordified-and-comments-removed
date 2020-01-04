@@ -3289,7 +3289,7 @@ java
 '
 sync
 /
-TabReceivedBroadcastReceiver
+TabReceivedService
 .
 java
 '
