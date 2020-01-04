@@ -317,6 +317,8 @@ bool
 addressReuse
 bool
 loopback
+uint32_t
+recvBufferSize
 )
 ;
 async

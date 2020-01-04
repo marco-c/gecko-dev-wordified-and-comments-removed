@@ -217,6 +217,9 @@ addressReuse
 in
 bool
 loopback
+in
+uint32_t
+recvBufferSize
 )
 ;
 /
