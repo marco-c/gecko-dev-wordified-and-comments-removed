@@ -171,6 +171,9 @@ ProcessReadback
 nullptr
 )
 ;
+return
+NS_OK
+;
 }
 {
 RefPtr
