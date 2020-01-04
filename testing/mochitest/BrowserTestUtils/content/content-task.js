@@ -203,6 +203,10 @@ result
 {
 id
 condition
+:
+!
+!
+condition
 name
 diag
 stack
