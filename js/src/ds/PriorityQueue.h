@@ -82,6 +82,7 @@ ap
 )
 {
 }
+MOZ_MUST_USE
 bool
 reserve
 (
@@ -175,6 +176,7 @@ return
 highest
 ;
 }
+MOZ_MUST_USE
 bool
 insert
 (

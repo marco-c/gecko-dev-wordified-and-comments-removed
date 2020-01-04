@@ -187,6 +187,7 @@ ap
 )
 {
 }
+MOZ_MUST_USE
 bool
 init
 (
@@ -498,6 +499,7 @@ template
 typename
 ElementInput
 >
+MOZ_MUST_USE
 bool
 put
 (
@@ -780,6 +782,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 clear
 (
@@ -2280,6 +2283,7 @@ compacted
 )
 ;
 }
+MOZ_MUST_USE
 bool
 rehash
 (

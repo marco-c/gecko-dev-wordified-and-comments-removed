@@ -194,6 +194,7 @@ inlNext
 InlineElems
 ;
 }
+MOZ_MUST_USE
 bool
 switchToMap
 (
@@ -333,6 +334,7 @@ true
 ;
 }
 MOZ_NEVER_INLINE
+MOZ_MUST_USE
 bool
 switchAndAdd
 (
@@ -1073,6 +1075,7 @@ false
 ;
 }
 MOZ_ALWAYS_INLINE
+MOZ_MUST_USE
 bool
 add
 (
@@ -1216,6 +1219,7 @@ value
 ;
 }
 MOZ_ALWAYS_INLINE
+MOZ_MUST_USE
 bool
 put
 (
