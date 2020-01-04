@@ -10614,17 +10614,6 @@ MOZ_OPTIMIZE_FLAGS
 -
 O3
 "
-CXXFLAGS
-=
-"
-CXXFLAGS
--
-stdlib
-=
-libc
-+
-+
-"
 DLL_SUFFIX
 =
 "
