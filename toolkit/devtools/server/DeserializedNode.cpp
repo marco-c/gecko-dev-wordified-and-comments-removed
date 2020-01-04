@@ -565,7 +565,10 @@ get
 typeName
 ;
 }
-size_t
+Node
+:
+:
+Size
 Concrete
 <
 DeserializedNode

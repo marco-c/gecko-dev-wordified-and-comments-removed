@@ -745,7 +745,7 @@ edges
 )
 ;
 }
-size_t
+Size
 size
 (
 mozilla

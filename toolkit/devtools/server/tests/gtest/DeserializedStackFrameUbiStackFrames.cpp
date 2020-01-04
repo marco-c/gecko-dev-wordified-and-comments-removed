@@ -61,7 +61,10 @@ DeserializedStackFrameUbiStackFrames
 StackFrameId
 id
 =
-1L
+uint64_t
+(
+1
+)
 <
 <
 42
