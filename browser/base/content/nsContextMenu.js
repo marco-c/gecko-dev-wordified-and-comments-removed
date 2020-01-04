@@ -7673,7 +7673,7 @@ gContextMenuContentData
 docLocation
 outerWindowID
 :
-gContextMenuContentData
+this
 .
 frameOuterWindowID
 }
@@ -9285,7 +9285,7 @@ ownerDoc
 gContextMenuContentData
 .
 documentURIObject
-gContextMenuContentData
+this
 .
 frameOuterWindowID
 this
@@ -9475,7 +9475,7 @@ dialogTitle
 false
 doc
 referrerURI
-gContextMenuContentData
+this
 .
 frameOuterWindowID
 "
