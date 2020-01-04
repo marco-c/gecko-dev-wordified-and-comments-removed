@@ -4131,6 +4131,15 @@ telemetry
 /
 schedulers
 /
+TelemetryUploadAllPingsImmediatelyScheduler
+.
+java
+'
+'
+telemetry
+/
+schedulers
+/
 TelemetryUploadScheduler
 .
 java
