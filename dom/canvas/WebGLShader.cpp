@@ -1679,7 +1679,7 @@ mValidator
 mValidator
 -
 >
-FindAttribMappedNameByUserName
+FindVaryingMappedNameByUserName
 (
 userNameStr
 &
