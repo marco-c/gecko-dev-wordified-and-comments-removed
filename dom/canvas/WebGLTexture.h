@@ -1723,6 +1723,13 @@ HTMLVideoElement
 elem
 )
 ;
+bool
+IsTarget3D
+(
+TexImageTarget
+target
+)
+;
 GLenum
 DoTexImage
 (
