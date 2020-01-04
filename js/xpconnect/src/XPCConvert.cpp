@@ -4292,10 +4292,12 @@ return
 true
 ;
 }
-RefPtr
-<
-XPCNativeInterface
->
+AutoMarkingNativeInterfacePtr
+iface
+(
+cx
+)
+;
 iface
 =
 XPCNativeInterface
