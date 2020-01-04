@@ -41,12 +41,6 @@ getViewportMetrics
 )
 ;
 public
-ZoomConstraints
-getZoomConstraints
-(
-)
-;
-public
 FullScreenState
 getFullScreenState
 (
