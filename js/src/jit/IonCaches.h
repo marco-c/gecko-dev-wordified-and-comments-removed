@@ -1772,6 +1772,9 @@ liveRegs_
 Register
 object_
 ;
+Register
+temp_
+;
 PropertyName
 *
 name_
@@ -1796,6 +1799,8 @@ LiveRegisterSet
 liveRegs
 Register
 object
+Register
+temp
 PropertyName
 *
 name
@@ -1814,6 +1819,10 @@ liveRegs
 object_
 (
 object
+)
+temp_
+(
+temp
 )
 name_
 (
@@ -1856,6 +1865,16 @@ const
 {
 return
 object_
+;
+}
+Register
+temp
+(
+)
+const
+{
+return
+temp_
 ;
 }
 PropertyName

@@ -1393,12 +1393,7 @@ CallDeleteElement
 \
 _
 (
-SetPropertyCacheV
-)
-\
-_
-(
-SetPropertyCacheT
+SetPropertyCache
 )
 \
 _
