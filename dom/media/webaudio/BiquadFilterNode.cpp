@@ -643,7 +643,7 @@ Clear
 aStream
 -
 >
-CheckForInactive
+ScheduleCheckForInactive
 (
 )
 ;
