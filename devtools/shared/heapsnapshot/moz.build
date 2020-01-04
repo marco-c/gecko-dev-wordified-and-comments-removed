@@ -318,6 +318,11 @@ CensusUtils
 js
 '
 '
+DominatorTreeNode
+.
+js
+'
+'
 HeapAnalysesClient
 .
 js
