@@ -158,11 +158,6 @@ util
 .
 Log
 ;
-import
-android
-.
-R
-;
 public
 class
 MediaControlService
