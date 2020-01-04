@@ -166,6 +166,10 @@ startedAtIteration_
 (
 0
 )
+highestTimestampCounter_
+(
+0
+)
 {
 }
 void
@@ -340,6 +344,11 @@ closure
 uint64_t
 totalCPOWTime
 ;
+uint64_t
+monotonicReadTimestampCounter
+(
+)
+;
 struct
 TestCpuRescheduling
 {
@@ -441,6 +450,9 @@ startedAtIteration_
 ;
 GroupVector
 recentGroups_
+;
+uint64_t
+highestTimestampCounter_
 ;
 }
 ;
@@ -656,6 +668,8 @@ uint64_t
 inline
 getCycles
 (
+JSRuntime
+*
 )
 const
 ;
