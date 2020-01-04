@@ -1354,12 +1354,12 @@ AsmJSStoreHeap
 \
 _
 (
-AsmJSLoadGlobalVar
+WasmLoadGlobalVar
 )
 \
 _
 (
-AsmJSStoreGlobalVar
+WasmStoreGlobalVar
 )
 \
 _
