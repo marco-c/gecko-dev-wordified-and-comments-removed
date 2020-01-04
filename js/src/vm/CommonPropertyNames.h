@@ -497,6 +497,16 @@ generator
 \
 macro
 (
+dotGenRVal
+dotGenRVal
+"
+.
+genrval
+"
+)
+\
+macro
+(
 each
 each
 "

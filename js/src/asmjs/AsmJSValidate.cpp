@@ -465,7 +465,7 @@ PNK_RETURN
 )
 ;
 return
-UnaryKid
+BinaryLeft
 (
 pn
 )

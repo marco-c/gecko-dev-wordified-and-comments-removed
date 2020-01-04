@@ -1183,6 +1183,11 @@ bool
 answer
 )
 ;
+bool
+inTryBlockWithFinally
+(
+)
+;
 #
 ifdef
 DEBUG
