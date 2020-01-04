@@ -262,15 +262,6 @@ mozilla
 :
 Maybe
 <
-uint32_t
->
-forcedDefaultIonSmallFunctionWarmUpThreshold
-;
-mozilla
-:
-:
-Maybe
-<
 IonRegisterAllocator
 >
 forcedRegisterAllocator
