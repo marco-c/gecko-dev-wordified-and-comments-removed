@@ -4141,6 +4141,17 @@ jit
 /
 mips64
 /
+MoveEmitter
+-
+mips64
+.
+cpp
+'
+'
+jit
+/
+mips64
+/
 SharedIC
 -
 mips64

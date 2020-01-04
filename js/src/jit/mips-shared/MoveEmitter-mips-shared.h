@@ -77,6 +77,8 @@ uint32_t
 slot
 uint32_t
 subslot
+=
+0
 )
 const
 ;
