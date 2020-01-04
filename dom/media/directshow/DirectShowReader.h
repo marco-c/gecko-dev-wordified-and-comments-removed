@@ -25,6 +25,13 @@ h
 #
 include
 "
+MediaResource
+.
+h
+"
+#
+include
+"
 mozilla
 /
 RefPtr
@@ -205,8 +212,8 @@ mBytesPerSample
 int64_t
 mDuration
 ;
-NotifyDataArrivedFilter
-mFilter
+MediaByteRangeSet
+mLastCachedRanges
 ;
 }
 ;

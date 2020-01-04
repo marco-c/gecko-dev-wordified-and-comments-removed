@@ -419,8 +419,8 @@ SafeGetDecoder
 (
 )
 ;
-NotifyDataArrivedFilter
-mFilter
+MediaByteRangeSet
+mLastCachedRanges
 ;
 }
 ;
