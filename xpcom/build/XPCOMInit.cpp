@@ -2188,6 +2188,16 @@ NS_LogInit
 (
 )
 ;
+mozilla
+:
+:
+LogModule
+:
+:
+Init
+(
+)
+;
 JS_SetCurrentEmbedderTimeFunction
 (
 TimeSinceProcessCreation

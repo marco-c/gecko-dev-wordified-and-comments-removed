@@ -6478,6 +6478,16 @@ NS_LogInit
 (
 )
 ;
+mozilla
+:
+:
+LogModule
+:
+:
+Init
+(
+)
+;
 UniquePtr
 <
 base
