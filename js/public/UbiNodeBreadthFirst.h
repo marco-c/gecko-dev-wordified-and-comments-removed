@@ -263,7 +263,6 @@ MOZ_ASSERT
 stopRequested
 )
 ;
-const
 Edge
 &
 edge
