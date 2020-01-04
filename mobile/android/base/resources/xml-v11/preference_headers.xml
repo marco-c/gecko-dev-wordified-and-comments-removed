@@ -473,6 +473,16 @@ string
 /
 pref_clear_private_data_now
 "
+android
+:
+id
+=
+"
++
+id
+/
+pref_header_clear_private_data
+"
 >
 <
 extra
