@@ -261,6 +261,13 @@ ChannelEventQueue
 .
 h
 "
+#
+include
+"
+nsIThrottledInputChannel
+.
+h
+"
 class
 nsISecurityConsoleMessage
 ;
@@ -324,6 +331,8 @@ public
 nsIForcePendingChannel
 public
 nsIConsoleReportCollector
+public
+nsIThrottledInputChannel
 {
 protected
 :
@@ -341,6 +350,7 @@ NS_DECL_NSIFORMPOSTACTIONCHANNEL
 NS_DECL_NSIUPLOADCHANNEL2
 NS_DECL_NSITRACEABLECHANNEL
 NS_DECL_NSITIMEDCHANNEL
+NS_DECL_NSITHROTTLEDINPUTCHANNEL
 HttpBaseChannel
 (
 )
@@ -2007,6 +2017,12 @@ mCompressListener
 ;
 nsHttpRequestHead
 mRequestHead
+;
+nsCOMPtr
+<
+nsIInputChannelThrottleQueue
+>
+mThrottleQueue
 ;
 nsCOMPtr
 <

@@ -690,6 +690,11 @@ nsIThreadRetargetableStreamListener
 idl
 '
 '
+nsIThrottledInputChannel
+.
+idl
+'
+'
 nsITimedChannel
 .
 idl
@@ -1313,6 +1318,11 @@ cpp
 '
 '
 StreamingProtocolService
+.
+cpp
+'
+'
+ThrottleQueue
 .
 cpp
 '
