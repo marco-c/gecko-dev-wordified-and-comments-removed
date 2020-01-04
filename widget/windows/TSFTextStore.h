@@ -3529,6 +3529,10 @@ sCreateNativeCaretForLegacyATOK
 ;
 static
 bool
+sDoNotReturnNoLayoutErrorToATOKOfCompositionString
+;
+static
+bool
 sDoNotReturnNoLayoutErrorToMSSimplifiedTIP
 ;
 static
