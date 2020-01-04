@@ -313,12 +313,6 @@ nsZipArchive
 ;
 public
 :
-static
-const
-char
-*
-sFileCorruptedReason
-;
 nsZipArchive
 (
 )
