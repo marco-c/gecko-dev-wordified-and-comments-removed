@@ -164,11 +164,6 @@ StyleSetHandleInlines
 .
 h
 "
-#
-ifdef
-DEBUG
-#
-endif
 using
 namespace
 mozilla
