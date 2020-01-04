@@ -1444,6 +1444,14 @@ window
 innerHeight
 ;
 }
+if
+(
+!
+args
+.
+selector
+)
+{
 const
 winUtils
 =
@@ -1498,6 +1506,7 @@ scrollbarHeight
 .
 value
 ;
+}
 const
 canvas
 =

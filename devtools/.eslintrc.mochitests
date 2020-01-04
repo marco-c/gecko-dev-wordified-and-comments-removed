@@ -95,6 +95,11 @@ content
 :
 true
 "
+ContentTask
+"
+:
+true
+"
 document
 "
 :
