@@ -2101,9 +2101,11 @@ nsITabChild
 >
 tabChild
 =
-do_GetInterface
-(
 docShell
+-
+>
+GetTabChild
+(
 )
 ;
 if
