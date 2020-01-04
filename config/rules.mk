@@ -6015,7 +6015,7 @@ crate_src_libdep
 =
 (
 call
-global_crate_libname
+mk_global_crate_libname
 1
 )
 :
