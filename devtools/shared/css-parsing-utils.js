@@ -1456,6 +1456,15 @@ lastDecl
 ]
 ;
 }
+else
+{
+current
++
+=
+"
+"
+;
+}
 }
 else
 {
