@@ -11209,15 +11209,6 @@ src
 dst
 )
 ;
-MemProfiler
-:
-:
-MoveNurseryToTenured
-(
-src
-dst
-)
-;
 return
 dst
 ;
