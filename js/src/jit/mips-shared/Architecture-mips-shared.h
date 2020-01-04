@@ -110,6 +110,13 @@ js
 namespace
 jit
 {
+static
+const
+uint32_t
+JumpImmediateRange
+=
+UINT32_MAX
+;
 class
 Registers
 {
