@@ -5818,7 +5818,7 @@ mEvent
 mMessage
 =
 =
-NS_MOUSE_CLICK
+eMouseClick
 |
 |
 aVisitor
@@ -8035,7 +8035,7 @@ WidgetMouseEvent
 eventClick
 (
 isCallerChrome
-NS_MOUSE_CLICK
+eMouseClick
 nullptr
 WidgetMouseEvent
 :

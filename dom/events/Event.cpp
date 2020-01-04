@@ -3427,7 +3427,7 @@ openControlled
 break
 ;
 case
-NS_MOUSE_CLICK
+eMouseClick
 :
 if
 (

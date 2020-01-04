@@ -2154,7 +2154,7 @@ event
 mMessage
 !
 =
-NS_MOUSE_CLICK
+eMouseClick
 &
 &
 \

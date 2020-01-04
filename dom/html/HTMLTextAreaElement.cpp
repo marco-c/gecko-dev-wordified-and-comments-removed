@@ -1935,7 +1935,7 @@ mEvent
 mMessage
 =
 =
-NS_MOUSE_CLICK
+eMouseClick
 &
 &
 aVisitor

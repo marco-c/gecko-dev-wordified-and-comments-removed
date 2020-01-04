@@ -253,7 +253,7 @@ case
 eMouseUp
 :
 case
-NS_MOUSE_CLICK
+eMouseClick
 :
 case
 eMouseDoubleClick

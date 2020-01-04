@@ -10249,7 +10249,7 @@ mMessage
 )
 {
 case
-NS_MOUSE_CLICK
+eMouseClick
 :
 case
 eMouseDoubleClick
@@ -11170,7 +11170,7 @@ mMessage
 )
 {
 case
-NS_MOUSE_CLICK
+eMouseClick
 :
 case
 eMouseDoubleClick

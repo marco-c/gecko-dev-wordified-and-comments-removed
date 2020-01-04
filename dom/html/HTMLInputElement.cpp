@@ -12030,7 +12030,7 @@ WidgetMouseEvent
 event
 (
 true
-NS_MOUSE_CLICK
+eMouseClick
 nullptr
 WidgetMouseEvent
 :
@@ -13283,7 +13283,7 @@ mEvent
 mMessage
 =
 =
-NS_MOUSE_CLICK
+eMouseClick
 &
 &
 aVisitor
@@ -16050,7 +16050,7 @@ mEvent
 mFlags
 .
 mIsTrusted
-NS_MOUSE_CLICK
+eMouseClick
 nullptr
 WidgetMouseEvent
 :
@@ -16263,7 +16263,7 @@ mEvent
 mFlags
 .
 mIsTrusted
-NS_MOUSE_CLICK
+eMouseClick
 nullptr
 WidgetMouseEvent
 :

@@ -1955,7 +1955,7 @@ mouseEvent
 ;
 }
 case
-NS_MOUSE_CLICK
+eMouseClick
 :
 {
 nsCOMPtr

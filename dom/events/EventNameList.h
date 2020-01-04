@@ -352,7 +352,7 @@ eBasicEventClass
 EVENT
 (
 click
-NS_MOUSE_CLICK
+eMouseClick
 EventNameType_All
 eMouseEventClass
 )

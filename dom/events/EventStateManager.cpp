@@ -18882,7 +18882,7 @@ aEvent
 mFlags
 .
 mIsTrusted
-NS_MOUSE_CLICK
+eMouseClick
 aEvent
 -
 >

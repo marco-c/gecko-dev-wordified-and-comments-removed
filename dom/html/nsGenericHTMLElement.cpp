@@ -12489,7 +12489,7 @@ nsContentUtils
 IsCallerChrome
 (
 )
-NS_MOUSE_CLICK
+eMouseClick
 nullptr
 WidgetMouseEvent
 :
@@ -12866,7 +12866,7 @@ WidgetMouseEvent
 event
 (
 aIsTrustedEvent
-NS_MOUSE_CLICK
+eMouseClick
 nullptr
 WidgetMouseEvent
 :
