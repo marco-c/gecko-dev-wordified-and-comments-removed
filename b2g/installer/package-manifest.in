@@ -5098,13 +5098,6 @@ components
 PresentationRequestUIGlue
 .
 js
-RESPATH
-/
-components
-/
-KillSwitch
-.
-js
 #
 ifndef
 MOZ_WIDGET_GONK

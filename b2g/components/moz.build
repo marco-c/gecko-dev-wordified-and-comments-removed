@@ -151,11 +151,6 @@ HelperAppDialog
 js
 '
 '
-KillSwitch
-.
-js
-'
-'
 MailtoProtocolHandler
 .
 js
@@ -357,11 +352,6 @@ FxAccountsMgmtService
 jsm
 '
 '
-KillSwitchMain
-.
-jsm
-'
-'
 LogCapture
 .
 jsm
@@ -378,11 +368,6 @@ jsm
 '
 '
 OrientationChangeHandler
-.
-jsm
-'
-'
-PersistentDataBlock
 .
 jsm
 '
