@@ -1299,6 +1299,11 @@ HasClass
 \
 _
 (
+CopySign
+)
+\
+_
+(
 WasmTruncateToInt32
 )
 \

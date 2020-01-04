@@ -724,7 +724,7 @@ bool
 usesSimd_
 ;
 bool
-usesSimdCached_
+cachedUsesSimd_
 ;
 bool
 modifiesFrameArguments_

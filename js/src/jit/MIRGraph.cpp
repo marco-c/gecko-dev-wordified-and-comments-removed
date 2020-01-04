@@ -163,7 +163,7 @@ usesSimd_
 (
 false
 )
-usesSimdCached_
+cachedUsesSimd_
 (
 false
 )
@@ -219,12 +219,12 @@ usesSimd
 {
 if
 (
-usesSimdCached_
+cachedUsesSimd_
 )
 return
 usesSimd_
 ;
-usesSimdCached_
+cachedUsesSimd_
 =
 true
 ;
