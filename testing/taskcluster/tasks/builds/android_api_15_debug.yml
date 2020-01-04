@@ -21,7 +21,7 @@ android
 build_type
 :
 '
-opt
+debug
 '
 task
 :
@@ -38,6 +38,7 @@ armv7
 API
 15
 +
+Dbg
 '
 description
 :
@@ -47,6 +48,7 @@ armv7
 API
 15
 +
+Dbg
 '
 workerType
 :
@@ -76,6 +78,8 @@ android
 api
 -
 15
+-
+dbg
 '
 -
 '
@@ -102,6 +106,8 @@ android
 api
 -
 15
+-
+dbg
 '
 scopes
 :
@@ -134,6 +140,8 @@ android
 api
 -
 15
+-
+dbg
 -
 workspace
 '
@@ -206,6 +214,8 @@ android
 api
 -
 15
+-
+dbg
 -
 workspace
 :
@@ -294,6 +304,8 @@ MH_CUSTOM_BUILD_VARIANT_CFG
 api
 -
 15
+-
+debug
 MH_BRANCH
 :
 {
@@ -383,6 +395,11 @@ B
 tier
 :
 2
+collection
+:
+debug
+:
+true
 #
 Rather
 then
