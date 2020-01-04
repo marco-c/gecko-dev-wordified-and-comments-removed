@@ -197,6 +197,11 @@ XHeight
 )
 ;
 nscoord
+CapHeight
+(
+)
+;
+nscoord
 SuperscriptOffset
 (
 )
