@@ -160,7 +160,6 @@ resolve
 )
 ;
 }
-;
 }
 QueryInterface
 :
@@ -240,7 +239,6 @@ NOTIFY_ALL
 )
 ;
 }
-;
 let
 checkScalar
 =
