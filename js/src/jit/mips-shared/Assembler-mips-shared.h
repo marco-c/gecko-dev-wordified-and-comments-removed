@@ -3266,13 +3266,6 @@ bo
 public
 :
 uint32_t
-actualOffset
-(
-uint32_t
-)
-const
-;
-uint32_t
 actualIndex
 (
 uint32_t
@@ -5239,10 +5232,7 @@ offset
 )
 {
 return
-actualOffset
-(
 offset
-)
 ;
 }
 void
