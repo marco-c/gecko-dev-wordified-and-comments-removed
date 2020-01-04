@@ -148,8 +148,13 @@ DEFINES
 DMOZ_GTK
 =
 1
-ifdef
-MOZ_ENABLE_GTK3
+ifeq
+(
+(
+MOZ_WIDGET_TOOLKIT
+)
+gtk3
+)
 DEFINES
 +
 =
