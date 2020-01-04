@@ -118,6 +118,12 @@ destroy
 (
 )
 ;
+this
+.
+_worker
+=
+null
+;
 }
 ;
 HeapAnalysesClient
