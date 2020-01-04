@@ -4941,8 +4941,6 @@ Run
 )
 ;
 }
-return
-!
 NS_WARN_IF
 (
 NS_FAILED
@@ -4950,6 +4948,9 @@ NS_FAILED
 rv
 )
 )
+;
+return
+true
 ;
 }
 NS_IMETHODIMP
@@ -5042,7 +5043,9 @@ FinishReportingCallback
 this
 )
 ;
-return
+nsresult
+rv
+=
 mgr
 -
 >
@@ -5061,6 +5064,17 @@ wb
 finishReporting
 nullptr
 )
+;
+NS_WARN_IF
+(
+NS_FAILED
+(
+rv
+)
+)
+;
+return
+rv
 ;
 }
 bool
