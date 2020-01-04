@@ -710,7 +710,7 @@ secondMoveChild
 ;
 document
 .
-mozCancelFullScreen
+exitFullscreen
 (
 )
 ;
@@ -779,7 +779,7 @@ function
 {
 document
 .
-mozCancelFullScreen
+exitFullscreen
 (
 )
 ;
@@ -792,7 +792,7 @@ document
 addEventListener
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 function
 (
@@ -803,7 +803,7 @@ if
 (
 document
 .
-mozFullScreenElement
+fullscreenElement
 =
 =
 =
@@ -841,7 +841,7 @@ start
 {
 parent
 .
-mozRequestFullScreen
+requestFullscreen
 (
 )
 ;

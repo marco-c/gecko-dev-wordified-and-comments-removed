@@ -258,7 +258,7 @@ document
 addEventListener
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 function
 onfullscreen
@@ -270,7 +270,7 @@ document
 removeEventListener
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 onfullscreen
 false
@@ -282,7 +282,7 @@ ok
 (
 document
 .
-mozFullScreen
+fullscreenElement
 "
 [
 navigation
@@ -328,7 +328,7 @@ false
 ;
 e1
 .
-mozRequestFullScreen
+requestFullscreen
 (
 )
 ;
@@ -345,7 +345,7 @@ ok
 !
 document
 .
-mozFullScreen
+fullscreenElement
 "
 [
 navigation

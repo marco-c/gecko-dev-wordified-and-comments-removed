@@ -354,7 +354,7 @@ true
 ;
 childDiv
 .
-mozRequestFullScreen
+requestFullscreen
 (
 )
 ;
@@ -368,7 +368,7 @@ document
 addEventListener
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 function
 (
@@ -378,7 +378,7 @@ if
 (
 document
 .
-mozFullScreenElement
+fullscreenElement
 =
 =
 =
@@ -396,7 +396,7 @@ true
 {
 document
 .
-mozCancelFullScreen
+exitFullscreen
 (
 )
 ;
@@ -420,7 +420,7 @@ if
 (
 document
 .
-mozFullScreenElement
+fullscreenElement
 =
 =
 =
@@ -437,7 +437,7 @@ mozPointerLockElement
 ;
 document
 .
-mozCancelFullScreen
+exitFullscreen
 (
 )
 ;
@@ -466,7 +466,7 @@ start
 {
 parentDiv
 .
-mozRequestFullScreen
+requestFullscreen
 (
 )
 ;

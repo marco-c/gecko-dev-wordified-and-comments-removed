@@ -471,7 +471,7 @@ twice
 "
 )
 ;
-ok
+is
 (
 event
 .
@@ -544,7 +544,7 @@ twice
 "
 )
 ;
-ok
+is
 (
 event
 .
@@ -599,7 +599,7 @@ ok
 (
 gOuterDoc
 .
-mozFullScreenElement
+fullscreenElement
 !
 =
 null
@@ -651,7 +651,7 @@ gInnerDoc
 .
 body
 .
-mozRequestFullScreen
+requestFullscreen
 (
 )
 ;
@@ -686,7 +686,7 @@ ok
 (
 gInnerDoc
 .
-mozFullScreenElement
+fullscreenElement
 !
 =
 null
@@ -728,7 +728,7 @@ false
 ;
 gInnerDoc
 .
-mozCancelFullScreen
+exitFullscreen
 (
 )
 ;
@@ -763,7 +763,7 @@ ok
 (
 gOuterDoc
 .
-mozFullScreenElement
+fullscreenElement
 !
 =
 null
@@ -823,7 +823,7 @@ false
 ;
 gOuterDoc
 .
-mozCancelFullScreen
+exitFullscreen
 (
 )
 ;
@@ -884,7 +884,7 @@ ok
 (
 gOuterDoc
 .
-mozFullScreenElement
+fullscreenElement
 =
 =
 null
@@ -977,7 +977,7 @@ gOuterDoc
 .
 body
 .
-mozRequestFullScreen
+requestFullscreen
 (
 )
 ;

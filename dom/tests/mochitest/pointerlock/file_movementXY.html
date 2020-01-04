@@ -615,7 +615,7 @@ false
 ;
 document
 .
-mozCancelFullScreen
+exitFullscreen
 (
 )
 ;
@@ -630,7 +630,7 @@ if
 (
 document
 .
-mozFullScreenElement
+fullscreenElement
 =
 =
 =
@@ -641,7 +641,7 @@ info
 (
 "
 Got
-mozfullscreenchange
+fullscreenchange
 for
 entering
 "
@@ -753,7 +753,7 @@ info
 (
 "
 Got
-mozfullscreenchange
+fullscreenchange
 for
 exiting
 "
@@ -776,7 +776,7 @@ document
 addEventListener
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 fullscreenchange
 false
@@ -799,7 +799,7 @@ parent
 ;
 div
 .
-mozRequestFullScreen
+requestFullscreen
 (
 )
 ;

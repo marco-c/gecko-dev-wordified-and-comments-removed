@@ -389,7 +389,7 @@ start
 listenOneDocEvent
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 enteredFullscreen
 )
@@ -398,7 +398,7 @@ document
 .
 documentElement
 .
-mozRequestFullScreen
+requestFullscreen
 (
 )
 ;
@@ -412,7 +412,7 @@ is
 (
 document
 .
-mozFullScreenElement
+fullscreenElement
 document
 .
 documentElement
@@ -535,14 +535,14 @@ null
 listenOneDocEvent
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 exitedFullscreen
 )
 ;
 document
 .
-mozCancelFullScreen
+exitFullscreen
 (
 )
 ;

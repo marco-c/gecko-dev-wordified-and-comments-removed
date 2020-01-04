@@ -503,7 +503,7 @@ win
 removeEventListener
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 listener
 )
@@ -515,7 +515,7 @@ win
 .
 document
 .
-mozFullScreen
+fullscreenElement
 "
 Should
 exit
@@ -559,7 +559,7 @@ win
 addEventListener
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 listener
 )
@@ -568,7 +568,7 @@ win
 .
 document
 .
-mozCancelFullScreen
+exitFullscreen
 (
 )
 ;
@@ -602,7 +602,7 @@ win
 .
 document
 .
-mozCancelFullScreen
+exitFullscreen
 (
 )
 ;
@@ -748,7 +748,7 @@ type
 =
 =
 "
-mozfullscreenerror
+fullscreenerror
 "
 )
 {
@@ -785,7 +785,7 @@ document
 .
 documentElement
 .
-mozRequestFullScreen
+requestFullscreen
 (
 )
 ;
@@ -802,7 +802,7 @@ win
 removeEventListener
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 listener
 )
@@ -812,7 +812,7 @@ win
 removeEventListener
 (
 "
-mozfullscreenerror
+fullscreenerror
 "
 listener
 )
@@ -823,7 +823,7 @@ evt
 .
 type
 "
-mozfullscreenchange
+fullscreenchange
 "
 "
 Should
@@ -838,7 +838,7 @@ win
 .
 document
 .
-mozFullScreen
+fullscreenElement
 "
 Should
 have
@@ -923,7 +923,7 @@ win
 addEventListener
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 listener
 )
@@ -933,7 +933,7 @@ win
 addEventListener
 (
 "
-mozfullscreenerror
+fullscreenerror
 "
 listener
 )
@@ -944,7 +944,7 @@ document
 .
 documentElement
 .
-mozRequestFullScreen
+requestFullscreen
 (
 )
 ;
