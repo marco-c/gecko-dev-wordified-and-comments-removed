@@ -554,7 +554,7 @@ applicationVariants
 .
 all
 {
-checkManifest
+preBuild
 .
 dependsOn
 rootProject
@@ -567,7 +567,7 @@ libraryVariants
 .
 all
 {
-checkManifest
+preBuild
 .
 dependsOn
 rootProject
