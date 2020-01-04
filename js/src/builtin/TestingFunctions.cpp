@@ -7244,14 +7244,6 @@ HadSimulatedOOM
 )
 )
 ;
-HelperThreadState
-(
-)
-.
-waitForAllThreads
-(
-)
-;
 js
 :
 :
