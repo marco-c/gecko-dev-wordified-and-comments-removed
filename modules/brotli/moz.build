@@ -168,6 +168,13 @@ c
 '
 dec
 /
+dictionary
+.
+c
+'
+'
+dec
+/
 huffman
 .
 c
