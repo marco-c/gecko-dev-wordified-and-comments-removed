@@ -3803,15 +3803,6 @@ item
 )
 ;
 }
-if
-(
-!
-item
-)
-{
-return
-;
-}
 let
 removed
 =
