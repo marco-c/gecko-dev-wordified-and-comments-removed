@@ -4471,15 +4471,8 @@ callInfo
 JSFunction
 *
 target
-MIRType
-simdType
-SimdSign
-sign
-=
-SimdSign
-:
-:
-NotApplicable
+SimdType
+type
 )
 ;
 template
