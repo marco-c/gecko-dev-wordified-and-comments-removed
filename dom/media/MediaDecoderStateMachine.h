@@ -115,9 +115,6 @@ class
 DecodedStream
 ;
 class
-MediaDecoderReaderWrapper
-;
-class
 OutputStreamManager
 ;
 class
@@ -1884,13 +1881,6 @@ RefPtr
 MediaDecoderReader
 >
 mReader
-;
-const
-RefPtr
-<
-MediaDecoderReaderWrapper
->
-mReaderWrapper
 ;
 int64_t
 AudioEndTime
