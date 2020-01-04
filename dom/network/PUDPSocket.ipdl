@@ -318,6 +318,12 @@ bool
 loopback
 )
 ;
+Connect
+(
+UDPAddressInfo
+addressInfo
+)
+;
 OutgoingData
 (
 UDPData
@@ -353,6 +359,12 @@ RequestDelete
 child
 :
 CallbackOpened
+(
+UDPAddressInfo
+addressInfo
+)
+;
+CallbackConnected
 (
 UDPAddressInfo
 addressInfo
