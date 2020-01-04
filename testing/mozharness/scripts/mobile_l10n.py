@@ -1112,6 +1112,20 @@ self
 repack_env
     
 def
+query_l10n_env
+(
+self
+)
+:
+        
+return
+self
+.
+query_env
+(
+)
+    
+def
 query_upload_env
 (
 self
