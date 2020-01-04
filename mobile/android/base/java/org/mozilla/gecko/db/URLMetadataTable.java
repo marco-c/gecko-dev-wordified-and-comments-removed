@@ -83,6 +83,7 @@ TABLE_ID_NUMBER
 =
 1200
 ;
+public
 static
 final
 Uri
