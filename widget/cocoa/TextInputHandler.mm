@@ -17736,7 +17736,7 @@ return
 TextRangeType
 :
 :
-NS_TEXTRANGE_SELECTEDCONVERTEDTEXT
+eSelectedClause
 ;
 default
 :
@@ -17753,7 +17753,7 @@ return
 TextRangeType
 :
 :
-NS_TEXTRANGE_SELECTEDCONVERTEDTEXT
+eSelectedClause
 ;
 }
 }

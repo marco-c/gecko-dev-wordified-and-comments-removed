@@ -8323,7 +8323,7 @@ mRangeType
 TextRangeType
 :
 :
-NS_TEXTRANGE_SELECTEDCONVERTEDTEXT
+eSelectedClause
 ;
 }
 else

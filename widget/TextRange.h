@@ -448,7 +448,7 @@ nsITextInputProcessor
 :
 :
 ATTR_CONVERTED_CLAUSE
-NS_TEXTRANGE_SELECTEDCONVERTEDTEXT
+eSelectedClause
 =
 nsITextInputProcessor
 :
@@ -714,7 +714,7 @@ mRangeType
 TextRangeType
 :
 :
-NS_TEXTRANGE_SELECTEDCONVERTEDTEXT
+eSelectedClause
 )
 {
 return
