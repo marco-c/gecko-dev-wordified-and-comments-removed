@@ -4500,6 +4500,9 @@ env
 halt_on_failure
 =
 True
+ignore_errors
+=
+False
 )
 :
         
@@ -4551,6 +4554,10 @@ True
 halt_on_failure
 =
 halt_on_failure
+                                            
+ignore_errors
+=
+ignore_errors
 )
     
 def
@@ -5021,6 +5028,9 @@ cwd
 env
 =
 env
+ignore_errors
+=
+True
 )
         
 self
