@@ -100,9 +100,17 @@ _EVENT_HAVE_ARC4RANDOM_BUF
 &
 &
 !
+(
 defined
 (
 __APPLE__
+)
+|
+|
+defined
+(
+__ANDROID__
+)
 )
 arc4random_buf
 (
