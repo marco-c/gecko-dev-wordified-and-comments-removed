@@ -569,7 +569,6 @@ compile
 environment
 '
 build_project
-gonkdir
 '
 -
 -
@@ -581,16 +580,12 @@ android_ndk_include
 (
 compile_env
 build_project
-gonkdir
 _
 )
 :
 if
 compile_env
 and
-(
-gonkdir
-or
 build_project
 in
 (
@@ -602,7 +597,6 @@ android
 '
 js
 '
-)
 )
 :
 return

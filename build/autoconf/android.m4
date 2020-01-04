@@ -455,6 +455,13 @@ OS_TARGET
 "
 Android
 "
+-
+a
+-
+z
+"
+gonkdir
+"
 ;
 then
 case
@@ -537,6 +544,13 @@ OS_TARGET
 =
 "
 Android
+"
+-
+a
+-
+z
+"
+gonkdir
 "
 ;
 then
