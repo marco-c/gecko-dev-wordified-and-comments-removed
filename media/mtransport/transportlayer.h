@@ -197,14 +197,6 @@ return
 downward_
 ;
 }
-nsresult
-RunOnThread
-(
-nsIRunnable
-*
-event
-)
-;
 State
 state
 (
