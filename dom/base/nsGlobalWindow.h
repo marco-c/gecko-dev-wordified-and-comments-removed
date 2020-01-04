@@ -3010,6 +3010,11 @@ VRDisplay
 aDisplays
 )
 ;
+void
+NotifyActiveVRDisplaysChanged
+(
+)
+;
 #
 define
 EVENT

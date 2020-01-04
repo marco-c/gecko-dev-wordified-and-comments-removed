@@ -200,6 +200,13 @@ IsCurrentInnerWindow
 )
 )
 {
+mWindow
+-
+>
+NotifyActiveVRDisplaysChanged
+(
+)
+;
 MOZ_ASSERT
 (
 nsContentUtils
@@ -253,6 +260,13 @@ IsCurrentInnerWindow
 )
 )
 {
+mWindow
+-
+>
+NotifyActiveVRDisplaysChanged
+(
+)
+;
 MOZ_ASSERT
 (
 nsContentUtils
