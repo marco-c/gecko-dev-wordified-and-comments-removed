@@ -6242,6 +6242,11 @@ sizeNewSamples
 TrackBuffer
 samples
 ;
+bool
+needDiscontinuityCheck
+=
+true
+;
 if
 (
 aSamples
@@ -6490,6 +6495,9 @@ sampleTimecode
 ;
 if
 (
+needDiscontinuityCheck
+&
+&
 trackBuffer
 .
 mLastDecodeTimestamp
@@ -6714,6 +6722,10 @@ mNeedRandomAccessPoint
 =
 false
 ;
+needDiscontinuityCheck
+=
+false
+;
 }
 if
 (
@@ -6769,6 +6781,10 @@ sizeNewSamples
 trackBuffer
 .
 mNeedRandomAccessPoint
+=
+true
+;
+needDiscontinuityCheck
 =
 true
 ;
