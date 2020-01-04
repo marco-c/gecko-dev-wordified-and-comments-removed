@@ -646,15 +646,6 @@ finish
 (
 )
 ;
-do_check_false
-(
-a1
-.
-cancelUpdate
-(
-)
-)
-;
 yield
 testserver
 .
