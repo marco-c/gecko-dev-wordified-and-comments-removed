@@ -217,17 +217,6 @@ gecko
 .
 util
 .
-ColorUtils
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-util
-.
 GeckoEventListener
 ;
 import
@@ -1873,7 +1862,7 @@ mSecurityState
 .
 setTextColor
 (
-ColorUtils
+ContextCompat
 .
 getColor
 (
@@ -2182,7 +2171,7 @@ mSecurityState
 .
 setTextColor
 (
-ColorUtils
+ContextCompat
 .
 getColor
 (
@@ -2223,7 +2212,7 @@ mSecurityState
 .
 setTextColor
 (
-ColorUtils
+ContextCompat
 .
 getColor
 (

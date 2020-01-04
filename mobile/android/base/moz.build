@@ -834,13 +834,6 @@ java
 '
 util
 /
-ColorUtils
-.
-java
-'
-'
-util
-/
 DrawableUtil
 .
 java
