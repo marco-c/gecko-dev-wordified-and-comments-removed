@@ -154,6 +154,13 @@ GetUpdatePreference
 )
 ;
 static
+TextEventDispatcherListener
+*
+GetNativeTextEventDispatcherListener
+(
+)
+;
+static
 bool
 GetOpenState
 (

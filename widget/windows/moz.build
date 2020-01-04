@@ -325,6 +325,11 @@ WinTaskbar
 cpp
 '
 '
+WinTextEventDispatcherListener
+.
+cpp
+'
+'
 WinUtils
 .
 cpp
