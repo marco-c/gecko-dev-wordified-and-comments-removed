@@ -160,6 +160,16 @@ boolean
 upperOpen
 ;
 [
+Throws
+]
+boolean
+includes
+(
+any
+key
+)
+;
+[
 NewObject
 Throws
 ]
