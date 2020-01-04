@@ -1003,6 +1003,11 @@ GetExistingFrame
 (
 )
 ;
+bool
+IsYoutubeEmbed
+(
+)
+;
 class
 SetupProtoChainRunner
 final
