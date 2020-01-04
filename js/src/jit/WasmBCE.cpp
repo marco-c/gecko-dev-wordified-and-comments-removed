@@ -184,7 +184,7 @@ LastSeenMap
 :
 :
 AddPtr
-checkPtr
+ptr
 =
 lastSeen
 .
@@ -200,10 +200,12 @@ id
 ;
 if
 (
-checkPtr
-&
-&
-checkPtr
+ptr
+)
+{
+if
+(
+ptr
 -
 >
 value
@@ -221,7 +223,6 @@ dominates
 block
 )
 )
-{
 bc
 -
 >
@@ -240,7 +241,7 @@ lastSeen
 .
 add
 (
-checkPtr
+ptr
 addr
 -
 >
