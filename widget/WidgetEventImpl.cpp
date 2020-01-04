@@ -313,7 +313,7 @@ case
 eDragExit
 :
 case
-NS_DRAGDROP_DRAGDROP
+eLegacyDragDrop
 :
 case
 NS_DRAGDROP_GESTURE

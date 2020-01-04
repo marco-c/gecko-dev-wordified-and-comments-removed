@@ -14010,7 +14010,7 @@ aEvent
 mFlags
 .
 mIsTrusted
-NS_DRAGDROP_DRAGDROP
+eLegacyDragDrop
 widget
 )
 ;
