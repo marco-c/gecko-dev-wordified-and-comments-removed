@@ -377,9 +377,7 @@ pref
 "
 app
 .
-support
-.
-baseURL
+supportURL
 "
 }
 {
