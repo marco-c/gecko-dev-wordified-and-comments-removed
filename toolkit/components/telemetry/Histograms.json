@@ -4160,6 +4160,9 @@ RestoredRegExpStatics
 (
 obsolete
 )
+BlockScopeFunRedecl
+=
+10
 "
 }
 "
@@ -4264,6 +4267,9 @@ RestoredRegExpStatics
 (
 obsolete
 )
+BlockScopeFunRedecl
+=
+10
 "
 }
 "
