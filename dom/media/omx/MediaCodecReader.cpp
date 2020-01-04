@@ -3148,7 +3148,7 @@ MetadataPromise
 MediaCodecReader
 :
 :
-AsyncReadMetadata
+AsyncReadMetadataInternal
 (
 )
 {

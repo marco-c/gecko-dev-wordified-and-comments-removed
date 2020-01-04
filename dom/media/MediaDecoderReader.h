@@ -640,6 +640,15 @@ MOZ_CRASH
 )
 ;
 }
+virtual
+RefPtr
+<
+MetadataPromise
+>
+AsyncReadMetadataInternal
+(
+)
+;
 protected
 :
 friend
