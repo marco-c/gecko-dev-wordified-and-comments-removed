@@ -235,6 +235,12 @@ chunks
 total
 :
 20
+treeherderEnv
+:
+-
+production
+-
+staging
 treeherder
 :
 groupName
@@ -251,3 +257,6 @@ chunk
 productName
 :
 b2g
+tier
+:
+2
