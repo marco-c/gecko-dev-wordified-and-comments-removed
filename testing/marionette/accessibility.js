@@ -764,7 +764,7 @@ message
 }
 logger
 .
-error
+debug
 (
 message
 )
