@@ -697,6 +697,11 @@ Reset
 )
 ;
 void
+ResetFrameData
+(
+)
+;
+void
 EndFrameSession
 (
 )
@@ -951,6 +956,11 @@ media
 TimeUnit
 &
 aTime
+)
+;
+MediaByteRange
+FindFirstFrame
+(
 )
 ;
 MediaByteRange
