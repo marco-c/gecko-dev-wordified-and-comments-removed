@@ -773,6 +773,14 @@ devtools
 /
 server
 /
+main
+.
+js
+!
+devtools
+/
+server
+/
 actors
 /
 webbrowser
