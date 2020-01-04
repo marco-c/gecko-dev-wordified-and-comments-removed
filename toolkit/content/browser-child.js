@@ -1178,9 +1178,7 @@ sendLoadCallResult
 (
 )
 {
-this
-.
-_send
+sendAsyncMessage
 (
 "
 Content
