@@ -1021,11 +1021,6 @@ response
 =
 >
 {
-let
-n
-=
-0
-;
 switch
 (
 +
@@ -1034,9 +1029,7 @@ pushServerRequestCount
 )
 {
 case
-+
-+
-n
+1
 :
 response
 .
@@ -1064,9 +1057,7 @@ finish
 break
 ;
 case
-+
-+
-n
+2
 :
 response
 .
@@ -1110,9 +1101,7 @@ finish
 break
 ;
 case
-+
-+
-n
+3
 :
 response
 .
@@ -1140,9 +1129,7 @@ finish
 break
 ;
 case
-+
-+
-n
+4
 :
 response
 .
