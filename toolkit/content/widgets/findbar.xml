@@ -4229,6 +4229,14 @@ highlight
 (
 aHighlight
 word
+this
+.
+_findMode
+=
+=
+this
+.
+FIND_LINKS
 )
 ;
 /
