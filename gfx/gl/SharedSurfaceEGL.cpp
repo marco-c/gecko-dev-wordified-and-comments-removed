@@ -936,7 +936,9 @@ prodGL
 )
 -
 >
-mContext
+GetEGLContext
+(
+)
 ;
 typedef
 SurfaceFactory_EGLImage
