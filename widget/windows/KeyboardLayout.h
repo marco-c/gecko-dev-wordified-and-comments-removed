@@ -972,6 +972,14 @@ InitWithAppCommand
 )
 ;
 bool
+IsControlChar
+(
+char16_t
+aChar
+)
+const
+;
+bool
 IsRepeat
 (
 )
