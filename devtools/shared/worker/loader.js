@@ -1187,6 +1187,7 @@ property
 var
 {
 Debugger
+URL
 createSandbox
 dump
 rpc
@@ -1481,6 +1482,11 @@ nsIJSInspector
 return
 {
 Debugger
+URL
+:
+this
+.
+URL
 createSandbox
 dump
 :
@@ -1608,6 +1614,11 @@ Debugger
 this
 .
 Debugger
+URL
+:
+this
+.
+URL
 createSandbox
 :
 this
@@ -1727,7 +1738,7 @@ null
 URL
 "
 :
-null
+URL
 "
 chrome
 "
