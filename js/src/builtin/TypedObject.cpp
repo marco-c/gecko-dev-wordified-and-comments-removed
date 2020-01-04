@@ -14687,15 +14687,10 @@ TypeDescr
 &
 elementDescr
 =
-*
-MaybeForwarded
-(
-&
 arrayDescr
 .
-elementType
+maybeForwardedElementType
 (
-)
 )
 ;
 for
