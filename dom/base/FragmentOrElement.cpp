@@ -7464,11 +7464,12 @@ nsIContent
 aContent
 )
 {
-if
+MOZ_ASSERT
 (
 aContent
-&
-&
+)
+if
+(
 aContent
 -
 >
