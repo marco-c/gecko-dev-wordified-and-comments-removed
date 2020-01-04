@@ -133,6 +133,17 @@ return
 result
 ;
 }
+get
+inIncognitoContext
+(
+)
+{
+return
+context
+.
+incognito
+;
+}
 }
 }
 ;
