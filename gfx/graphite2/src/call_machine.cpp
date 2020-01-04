@@ -203,6 +203,9 @@ instr
 &
 ip
 ;
+uint8
+direction
+;
 int8
 flags
 ;
@@ -263,6 +266,12 @@ reg
 .
 flags
 #
+define
+dir
+reg
+.
+direction
+#
 include
 "
 inc
@@ -292,6 +301,9 @@ mapb
 #
 undef
 flags
+#
+undef
+dir
 }
 Machine
 :
@@ -376,6 +388,11 @@ context
 (
 )
 ip
+_map
+.
+dir
+(
+)
 0
 }
 ;

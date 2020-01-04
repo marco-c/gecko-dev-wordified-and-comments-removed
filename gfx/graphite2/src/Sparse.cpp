@@ -25,6 +25,7 @@ using
 namespace
 graphite2
 ;
+const
 sparse
 :
 :

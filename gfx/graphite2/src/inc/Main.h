@@ -254,7 +254,7 @@ n
 #
 endif
 return
-reinterpret_cast
+static_cast
 <
 T
 *
@@ -304,7 +304,7 @@ n
 #
 endif
 return
-reinterpret_cast
+static_cast
 <
 T
 *
@@ -567,7 +567,7 @@ disable
 pragma
 warning
 (
-once
+disable
 :
 4355
 )

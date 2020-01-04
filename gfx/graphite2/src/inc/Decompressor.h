@@ -7,7 +7,7 @@ include
 cstddef
 >
 namespace
-shrinker
+lz4
 {
 int
 decompress

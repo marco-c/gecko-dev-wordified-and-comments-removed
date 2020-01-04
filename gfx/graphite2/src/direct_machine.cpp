@@ -143,6 +143,8 @@ slotref
 *
 &
 __map
+uint8
+_dir
 SlotMap
 *
 __smap
@@ -238,6 +240,11 @@ smap
 context
 (
 )
+;
+uint8
+dir
+=
+_dir
 ;
 int8
 flags
@@ -361,6 +368,11 @@ program
 data
 _stack
 is
+_map
+.
+dir
+(
+)
 &
 _map
 )

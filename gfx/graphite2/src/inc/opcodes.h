@@ -1326,6 +1326,24 @@ defaultOriginal
 )
 ;
 }
+if
+(
+is
+=
+=
+smap
+.
+highwater
+(
+)
+)
+smap
+.
+highpassed
+(
+false
+)
+;
 is
 =
 newSlot
@@ -1866,6 +1884,7 @@ end
 -
 1
 )
+dir
 )
 ;
 flags
@@ -1984,6 +2003,7 @@ end
 -
 1
 )
+dir
 )
 ;
 flags
@@ -2255,6 +2275,7 @@ end
 -
 1
 )
+dir
 )
 ;
 flags
@@ -2431,6 +2452,7 @@ getGlyphMetric
 slot
 glyph_attr
 attr_level
+dir
 )
 )
 ;
@@ -2690,6 +2712,7 @@ getGlyphMetric
 slot
 glyph_attr
 attr_level
+dir
 )
 )
 )
@@ -2788,6 +2811,7 @@ end
 -
 1
 )
+dir
 )
 ;
 flags
@@ -3035,6 +3059,7 @@ end
 -
 1
 )
+dir
 )
 ;
 flags
@@ -3167,6 +3192,7 @@ end
 -
 1
 )
+dir
 )
 ;
 flags

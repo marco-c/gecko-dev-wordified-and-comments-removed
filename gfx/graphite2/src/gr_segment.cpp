@@ -177,6 +177,7 @@ pRes
 finalise
 (
 font
+true
 )
 ;
 return

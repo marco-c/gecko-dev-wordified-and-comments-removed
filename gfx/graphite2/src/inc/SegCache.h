@@ -1284,9 +1284,6 @@ oldAccessTime
 uint16
 m_prefixLength
 ;
-uint16
-m_maxCachedSegLength
-;
 size_t
 m_segmentCount
 ;

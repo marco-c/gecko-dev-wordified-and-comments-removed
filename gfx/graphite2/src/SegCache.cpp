@@ -87,10 +87,6 @@ m_prefixLength
 (
 ePrefixLength
 )
-m_maxCachedSegLength
-(
-eMaxSpliceSize
-)
 m_segmentCount
 (
 0
@@ -340,13 +336,6 @@ length
 )
 return
 NULL
-;
-assert
-(
-length
-<
-m_maxCachedSegLength
-)
 ;
 SegCachePrefixArray
 pArray

@@ -929,6 +929,8 @@ const
 void
 *
 pCmap31
+size_t
+table_len
 )
 ;
 gid16
@@ -972,6 +974,8 @@ const
 void
 *
 pCmap310
+size_t
+table_len
 )
 ;
 gid16
