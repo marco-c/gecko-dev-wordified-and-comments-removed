@@ -181,6 +181,9 @@ GetOverriddenProperties
 nsStyleContext
 *
 aStyleContext
+EffectSet
+&
+aEffectSet
 nsCSSPropertySet
 &
 aPropertiesOverridden
