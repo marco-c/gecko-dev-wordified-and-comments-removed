@@ -4364,7 +4364,7 @@ heapDatum
 heap
 -
 >
-dataPointerMaybeShared
+dataPointerEither
 (
 )
 .
@@ -4385,7 +4385,7 @@ heapOffset
 heap
 -
 >
-dataPointerMaybeShared
+dataPointerEither
 (
 )
 .
@@ -4695,7 +4695,7 @@ ptrBase
 maybePrevBuffer
 -
 >
-dataPointerMaybeShared
+dataPointerEither
 (
 )
 .
