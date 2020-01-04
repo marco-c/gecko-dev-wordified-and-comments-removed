@@ -57,7 +57,7 @@ aURI
 const
 nsAString
 &
-aIconData
+aIcondata
 const
 nsAString
 &
@@ -80,14 +80,6 @@ aURI
 Length
 (
 )
-|
-|
-!
-aIconData
-.
-Length
-(
-)
 )
 return
 NS_ERROR_FAILURE
@@ -102,7 +94,6 @@ CreateShortcut
 (
 aTitle
 aURI
-aIconData
 )
 ;
 return
