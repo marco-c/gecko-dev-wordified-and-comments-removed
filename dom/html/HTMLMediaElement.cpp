@@ -21151,6 +21151,11 @@ WindowAudioCaptureChanged
 AutoNoJSAPI
 nojsapi
 ;
+if
+(
+aPlaying
+)
+{
 uint32_t
 notify
 =
@@ -21168,11 +21173,6 @@ nsIAudioChannelAgent
 :
 AUDIO_AGENT_DONT_NOTIFY
 ;
-if
-(
-aPlaying
-)
-{
 float
 volume
 =
@@ -21211,7 +21211,6 @@ mAudioChannelAgent
 >
 NotifyStoppedPlaying
 (
-notify
 )
 ;
 mAudioChannelAgent
