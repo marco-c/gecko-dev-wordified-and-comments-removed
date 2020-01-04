@@ -213,6 +213,11 @@ EffectSet
 h
 '
 '
+KeyframeUtils
+.
+h
+'
+'
 NonOwningAnimationTarget
 .
 h
@@ -304,6 +309,11 @@ cpp
 '
 '
 KeyframeEffect
+.
+cpp
+'
+'
+KeyframeUtils
 .
 cpp
 '
