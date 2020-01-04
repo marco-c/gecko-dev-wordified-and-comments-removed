@@ -236,7 +236,11 @@ browser
 .
 safebrowsing
 .
-appRepURL
+downloads
+.
+remote
+.
+url
 "
 ;
 const
