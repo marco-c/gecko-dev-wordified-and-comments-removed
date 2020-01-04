@@ -666,7 +666,7 @@ mValue
 ;
 mEntries
 .
-RawRemoveEntry
+RemoveEntry
 (
 entry
 )
