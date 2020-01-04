@@ -143,6 +143,11 @@ nsIPackageKitService
 idl
 '
 '
+nsIPlatformInfo
+.
+idl
+'
+'
 nsIXULAppInfo
 .
 idl
