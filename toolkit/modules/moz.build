@@ -638,9 +638,6 @@ var
 in
 (
 '
-MOZILLA_OFFICIAL
-'
-'
 MOZ_TOOLKIT_SEARCH
 '
 '
