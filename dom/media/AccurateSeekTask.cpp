@@ -317,8 +317,6 @@ now
 "
 )
 ;
-mSeekJob
-.
 mTarget
 .
 SetTime
@@ -339,8 +337,6 @@ std
 :
 min
 (
-mSeekJob
-.
 mTarget
 .
 GetTime
@@ -464,8 +460,6 @@ mReader
 >
 Seek
 (
-mSeekJob
-.
 mTarget
 aDuration
 )
@@ -647,8 +641,6 @@ Exists
 )
 &
 &
-mSeekJob
-.
 mTarget
 .
 IsAccurate
@@ -696,8 +688,6 @@ value
 )
 <
 =
-mSeekJob
-.
 mTarget
 .
 GetTime
@@ -720,8 +710,6 @@ audio
 >
 mTime
 >
-mSeekJob
-.
 mTarget
 .
 GetTime
@@ -764,8 +752,6 @@ NS_OK
 }
 NS_ASSERTION
 (
-mSeekJob
-.
 mTarget
 .
 GetTime
@@ -796,8 +782,6 @@ start
 ;
 NS_ASSERTION
 (
-mSeekJob
-.
 mTarget
 .
 GetTime
@@ -833,8 +817,6 @@ framesToPrune
 =
 UsecsToFrames
 (
-mSeekJob
-.
 mTarget
 .
 GetTime
@@ -1017,8 +999,6 @@ audio
 -
 >
 mOffset
-mSeekJob
-.
 mTarget
 .
 GetTime
@@ -1149,8 +1129,6 @@ const
 int64_t
 target
 =
-mSeekJob
-.
 mTarget
 .
 GetTime
@@ -1456,8 +1434,6 @@ AssertOwnerThread
 ;
 if
 (
-mSeekJob
-.
 mTarget
 .
 IsFast
@@ -1465,8 +1441,6 @@ IsFast
 )
 &
 &
-mSeekJob
-.
 mTarget
 .
 GetTime
@@ -1488,8 +1462,6 @@ ToMicroseconds
 )
 )
 {
-mSeekJob
-.
 mTarget
 .
 SetType
@@ -1627,8 +1599,6 @@ audio
 ;
 if
 (
-mSeekJob
-.
 mTarget
 .
 IsFast
@@ -2006,8 +1976,6 @@ video
 ;
 if
 (
-mSeekJob
-.
 mTarget
 .
 IsFast
