@@ -4186,7 +4186,6 @@ into
 default
 =
 None
-                        
 )
     
 parser
@@ -4273,7 +4272,6 @@ runtime
 default
 =
 False
-                        
 )
     
 parser
@@ -4327,7 +4325,47 @@ directories
 default
 =
 None
+)
+    
+parser
+.
+add_argument
+(
+'
+-
+-
+e10s
+'
                         
+action
+=
+'
+store_true
+'
+                        
+dest
+=
+'
+e10s
+'
+                        
+help
+=
+'
+Find
+test
+on
+chunk
+with
+electrolysis
+preferences
+enabled
+.
+'
+                        
+default
+=
+False
 )
     
 return
@@ -4474,6 +4512,17 @@ kwargs
 [
 '
 chunk_by_runtime
+'
+]
+            
+'
+e10s
+'
+:
+kwargs
+[
+'
+e10s
 '
 ]
         
