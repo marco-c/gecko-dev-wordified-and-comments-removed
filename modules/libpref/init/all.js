@@ -35310,6 +35310,16 @@ json
 pref
 (
 "
+signon
+.
+schemeUpgrades
+"
+false
+)
+;
+pref
+(
+"
 browser
 .
 formfill
