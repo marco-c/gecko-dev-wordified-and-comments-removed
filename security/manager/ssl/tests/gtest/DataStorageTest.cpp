@@ -122,10 +122,8 @@ name
 ;
 storage
 =
+new
 DataStorage
-:
-:
-Get
 (
 testName
 )
