@@ -329,6 +329,17 @@ platforms
 MacOSX64
 types
 :
+opt
+:
+task
+:
+tasks
+/
+builds
+/
+opt_macosx64_clobber
+.
+yml
 debug
 :
 task
