@@ -179,6 +179,9 @@ WebKitCSSMatrix
 other
 )
 ;
+[
+Throws
+]
 WebKitCSSMatrix
 inverse
 (

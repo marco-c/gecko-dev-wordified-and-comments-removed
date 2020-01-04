@@ -193,6 +193,9 @@ WebKitCSSMatrix
 >
 Inverse
 (
+ErrorResult
+&
+aRv
 )
 const
 ;
@@ -307,6 +310,15 @@ double
 aRotY
 double
 aRotZ
+)
+;
+WebKitCSSMatrix
+*
+InvertSelfThrow
+(
+ErrorResult
+&
+aRv
 )
 ;
 }
