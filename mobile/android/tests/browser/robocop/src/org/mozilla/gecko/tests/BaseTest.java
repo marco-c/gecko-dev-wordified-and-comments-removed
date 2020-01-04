@@ -3258,7 +3258,7 @@ addTab
 (
 )
 ;
-inputAndLoadUrl
+loadUrlAndWait
 (
 url
 )
