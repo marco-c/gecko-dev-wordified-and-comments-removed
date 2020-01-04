@@ -251,6 +251,9 @@ class
 AsyncTransactionWaiter
 ;
 class
+BufferTextureData
+;
+class
 CompositableForwarder
 ;
 class
@@ -1012,6 +1015,17 @@ virtual
 GrallocTextureData
 *
 AsGrallocTextureData
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+BufferTextureData
+*
+AsBufferTextureData
 (
 )
 {
