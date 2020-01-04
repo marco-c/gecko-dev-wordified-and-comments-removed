@@ -116,7 +116,6 @@ nsIAccessibleTextRange
 ;
 [
 scriptable
-builtinclass
 uuid
 (
 93ad2ca1

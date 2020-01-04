@@ -145,7 +145,6 @@ interface
 /
 [
 scriptable
-builtinclass
 uuid
 (
 883643d4

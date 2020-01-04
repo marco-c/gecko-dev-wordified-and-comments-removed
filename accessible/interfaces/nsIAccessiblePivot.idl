@@ -198,7 +198,6 @@ rule
 /
 [
 scriptable
-builtinclass
 uuid
 (
 81fe5144
@@ -1329,7 +1328,6 @@ changes
 /
 [
 scriptable
-builtinclass
 uuid
 (
 6006e502
@@ -1479,7 +1477,6 @@ aIsFromUserInput
 ;
 [
 scriptable
-builtinclass
 uuid
 (
 e197460d
