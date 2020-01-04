@@ -2432,12 +2432,6 @@ ignoredObj
 cx
 )
 ;
-nsCOMPtr
-<
-nsIXPConnectJSObjectHolder
->
-wrapper
-;
 xpconnect
 -
 >

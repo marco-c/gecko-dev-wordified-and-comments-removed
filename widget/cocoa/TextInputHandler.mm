@@ -9875,7 +9875,7 @@ RefPtr
 <
 nsChildView
 >
-kungFuDeathGrip
+widget
 (
 mWidget
 )
@@ -10007,7 +10007,7 @@ imeEvent
 (
 true
 eKeyDown
-mWidget
+widget
 )
 ;
 currentKeyEvent
@@ -10128,7 +10128,7 @@ keydownEvent
 (
 true
 eKeyDown
-mWidget
+widget
 )
 ;
 currentKeyEvent
@@ -10409,7 +10409,7 @@ mode
 if
 (
 !
-mWidget
+widget
 -
 >
 IsPluginFocused
@@ -10654,7 +10654,7 @@ keypressEvent
 (
 true
 eKeyPress
-mWidget
+widget
 )
 ;
 currentKeyEvent
@@ -11285,6 +11285,21 @@ kungFuDeathGrip
 mWidget
 )
 ;
+mozilla
+:
+:
+Unused
+<
+<
+kungFuDeathGrip
+;
+/
+/
+Not
+referenced
+within
+this
+function
 MOZ_LOG
 (
 gLog
@@ -14197,7 +14212,7 @@ RefPtr
 <
 nsChildView
 >
-kungFuDeathGrip
+widget
 (
 mWidget
 )
@@ -14333,7 +14348,7 @@ keypressEvent
 (
 true
 eKeyPress
-mWidget
+widget
 )
 ;
 /
@@ -14666,7 +14681,7 @@ RefPtr
 <
 nsChildView
 >
-kungFuDeathGrip
+widget
 (
 mWidget
 )
@@ -14863,7 +14878,7 @@ keypressEvent
 (
 true
 eKeyPress
-mWidget
+widget
 )
 ;
 currentKeyEvent
