@@ -1064,18 +1064,12 @@ color
 "
 )
 ;
-assert_equals
+assert_not_equals
 (
 background
-"
-rgba
-(
-0
-0
-0
-0
-)
-"
+that
+.
+passValue
 )
 ;
 test
@@ -1298,7 +1292,7 @@ SRIScriptTest
 (
 true
 "
-Smame
+Same
 -
 origin
 with
@@ -1717,7 +1711,7 @@ execute
 new
 SRIScriptTest
 (
-true
+false
 "
 Cross
 -
@@ -1749,7 +1743,7 @@ execute
 new
 SRIScriptTest
 (
-true
+false
 "
 Cross
 -
@@ -1759,7 +1753,7 @@ CORS
 request
 with
 hash
-masmatch
+mismatch
 "
 xorigin_anon_script
 "
@@ -1912,7 +1906,7 @@ integrity
 sha256
 -
 CzHgdJ7wOccM8L89n4bhcJMz3F
--
++
 SPLT7YZk7gyCWUV4
 =
 "
@@ -2212,7 +2206,7 @@ IF6YYZHHF4esitVYxiwpY2
 sha256
 -
 CzHgdJ7wOccM8L89n4bhcJMz3F
--
++
 SPLT7YZk7gyCWUV4
 =
 "
@@ -2440,7 +2434,7 @@ new
 SRIStyleTest
 (
 style_tests
-true
+false
 "
 Cross
 -
@@ -2473,7 +2467,7 @@ new
 SRIStyleTest
 (
 style_tests
-true
+false
 "
 Cross
 -
@@ -2483,7 +2477,7 @@ CORS
 request
 with
 hash
-masmatch
+mismatch
 "
 {
 href

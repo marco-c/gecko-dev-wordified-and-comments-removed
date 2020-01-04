@@ -15,7 +15,7 @@ time
 .
 sleep
 (
-1
+2
 )
 def
 web_socket_transfer_data
