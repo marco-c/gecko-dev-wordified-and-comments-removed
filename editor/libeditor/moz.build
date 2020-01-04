@@ -308,11 +308,6 @@ nsSelectionState
 cpp
 '
 '
-nsStyleSheetTxns
-.
-cpp
-'
-'
 nsTableEditor
 .
 cpp
@@ -344,6 +339,11 @@ cpp
 '
 '
 SplitNodeTransaction
+.
+cpp
+'
+'
+StyleSheetTransactions
 .
 cpp
 '
