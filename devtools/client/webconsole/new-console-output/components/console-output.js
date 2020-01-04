@@ -176,12 +176,6 @@ findDOMNode
 (
 this
 )
-.
-parentNode
-.
-parentNode
-.
-parentNode
 ;
 if
 (
@@ -224,12 +218,6 @@ findDOMNode
 (
 this
 )
-.
-parentNode
-.
-parentNode
-.
-parentNode
 ;
 node
 .
