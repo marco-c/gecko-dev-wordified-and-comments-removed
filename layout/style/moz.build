@@ -581,6 +581,11 @@ StyleBackendType
 h
 '
 '
+StyleContextSource
+.
+h
+'
+'
 StyleSetHandle
 .
 h
