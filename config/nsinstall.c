@@ -1276,9 +1276,6 @@ gid_t
 gid
 )
 {
-int
-i
-;
 DIR
 *
 dir
@@ -1613,10 +1610,6 @@ lplen
 tdlen
 bnlen
 exists
-fromfd
-tofd
-cc
-wc
 ;
 mode_t
 mode
@@ -1644,8 +1637,6 @@ name
 base
 *
 linkname
-*
-bp
 buf
 [
 BUFSIZ
@@ -1662,10 +1653,6 @@ stat
 sb
 tosb
 fromsb
-;
-struct
-utimbuf
-utb
 ;
 program
 =
