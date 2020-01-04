@@ -1,3 +1,51 @@
+_BUG1218570_OVERRIDES
+=
+{
+    
+'
+macosx64
+-
+mulet
+'
+:
+{
+        
+'
+stage_server
+'
+:
+'
+stage
+.
+mozilla
+.
+org
+'
+    
+}
+    
+'
+win32
+-
+mulet
+'
+:
+{
+        
+'
+stage_server
+'
+:
+'
+stage
+.
+mozilla
+.
+org
+'
+    
+}
+}
 config
 =
 {
@@ -59,6 +107,12 @@ mozaws
 .
 net
 '
+        
+'
+platform_overrides
+'
+:
+_BUG1218570_OVERRIDES
     
 }
     
@@ -355,6 +409,12 @@ use_clobberer
 '
 :
 False
+        
+'
+platform_overrides
+'
+:
+_BUG1218570_OVERRIDES
     
 }
     
@@ -395,6 +455,12 @@ mozaws
 .
 net
 '
+        
+'
+platform_overrides
+'
+:
+_BUG1218570_OVERRIDES
     
 }
     
@@ -435,6 +501,12 @@ mozaws
 .
 net
 '
+        
+'
+platform_overrides
+'
+:
+_BUG1218570_OVERRIDES
     
 }
     
@@ -507,6 +579,12 @@ mozaws
 .
 net
 '
+        
+'
+platform_overrides
+'
+:
+_BUG1218570_OVERRIDES
     
 }
     
@@ -801,6 +879,12 @@ mozaws
 .
 net
 '
+        
+'
+platform_overrides
+'
+:
+_BUG1218570_OVERRIDES
     
 }
     
@@ -827,6 +911,12 @@ mozaws
 .
 net
 '
+        
+'
+platform_overrides
+'
+:
+_BUG1218570_OVERRIDES
     
 }
     
@@ -990,6 +1080,12 @@ mozaws
 .
 net
 '
+        
+'
+platform_overrides
+'
+:
+_BUG1218570_OVERRIDES
     
 }
     
@@ -1016,6 +1112,12 @@ mozaws
 .
 net
 '
+        
+'
+platform_overrides
+'
+:
+_BUG1218570_OVERRIDES
     
 }
 }
