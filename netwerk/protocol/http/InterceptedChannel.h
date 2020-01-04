@@ -198,6 +198,10 @@ override
 NS_IMETHOD
 FinishSynthesizedResponse
 (
+const
+nsACString
+&
+aFinalURLSpec
 )
 override
 ;
@@ -326,6 +330,10 @@ override
 NS_IMETHOD
 FinishSynthesizedResponse
 (
+const
+nsACString
+&
+aFinalURLSpec
 )
 override
 ;
