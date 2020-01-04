@@ -182,16 +182,6 @@ nsRect
 aRefBox
 )
 ;
-nsRect
-ComputeHTMLReferenceRect
-(
-)
-;
-nsRect
-ComputeSVGReferenceRect
-(
-)
-;
 nsIFrame
 *
 mTargetFrame
