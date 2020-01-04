@@ -317,10 +317,7 @@ MediaFormatReader
 >
 mReader
 ;
-Atomic
-<
 bool
->
 mEnded
 ;
 }
