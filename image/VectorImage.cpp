@@ -4450,8 +4450,6 @@ mProgressTracker
 Progress
 progress
 =
-FLAG_DECODE_COMPLETE
-|
 FLAG_ONLOAD_UNBLOCKED
 |
 FLAG_HAS_ERROR
