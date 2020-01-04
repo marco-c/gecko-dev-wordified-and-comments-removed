@@ -3846,6 +3846,18 @@ Sanitizer
 PREF_SANITIZE_DID_SHUTDOWN
 )
 ;
+if
+(
+Preferences
+.
+has
+(
+Sanitizer
+.
+PREF_SANITIZE_DID_SHUTDOWN
+)
+)
+{
 Preferences
 .
 reset
@@ -3864,6 +3876,7 @@ savePrefFile
 null
 )
 ;
+}
 let
 placesClient
 =
