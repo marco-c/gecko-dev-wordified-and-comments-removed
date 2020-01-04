@@ -50,9 +50,8 @@ callFunction
 (
 std_Array_pop
 \
-callFunction
+StringSplitString
 (
-std_String_split
 __FILE__
 '
 /
