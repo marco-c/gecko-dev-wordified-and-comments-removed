@@ -947,6 +947,8 @@ const
 nsAString
 &
 aType
+bool
+aIsPreLoad
 )
 ;
 void
@@ -1096,6 +1098,8 @@ const
 nsAString
 &
 aType
+bool
+aIsPreLoad
 )
 ;
 nsresult
