@@ -309,7 +309,7 @@ pruneTransients
 )
 ;
 void
-FlattenOriginalHeader
+FlattenNetworkOriginalHeaders
 (
 nsACString
 &
@@ -317,7 +317,15 @@ buf
 )
 ;
 nsresult
-Parse
+ParseCachedHead
+(
+char
+*
+block
+)
+;
+nsresult
+ParseCachedOriginalHeaders
 (
 char
 *
@@ -541,6 +549,8 @@ const
 char
 *
 line
+bool
+originalFromNetHeaders
 )
 ;
 nsresult
