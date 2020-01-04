@@ -5333,6 +5333,9 @@ UpdateRangeOverflowValidityState
 ;
 MOZ_ASSERT
 (
+mParserCreating
+|
+|
 mType
 !
 =
@@ -5420,6 +5423,9 @@ UpdateStepMismatchValidityState
 ;
 MOZ_ASSERT
 (
+mParserCreating
+|
+|
 mType
 !
 =
@@ -5499,6 +5505,9 @@ UpdateStepMismatchValidityState
 ;
 MOZ_ASSERT
 (
+mParserCreating
+|
+|
 mType
 !
 =
