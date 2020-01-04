@@ -272,10 +272,12 @@ disposeNative
 WrapForJNI
 native
 void
-setLayerClient
+attachToJava
 (
 GeckoLayerClient
 layerClient
+NativePanZoomController
+npzc
 )
 ;
 WrapForJNI
