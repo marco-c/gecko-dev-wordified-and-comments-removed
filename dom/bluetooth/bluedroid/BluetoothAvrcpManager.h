@@ -213,10 +213,10 @@ BluetoothAvrcpManager
 private
 :
 class
-CleanupAvrcpResultHandler
+CleanupResultHandler
 ;
 class
-CleanupAvrcpResultHandlerRunnable
+CleanupResultHandlerRunnable
 ;
 class
 ConnectRunnable
@@ -225,7 +225,7 @@ class
 DisconnectRunnable
 ;
 class
-InitAvrcpResultHandler
+InitResultHandler
 ;
 class
 OnErrorProfileResultHandlerRunnable
