@@ -3629,6 +3629,15 @@ bool
 aActivated
 )
 ;
+async
+SetKeyboardIndicators
+(
+UIStateChangeType
+showAccelerators
+UIStateChangeType
+showFocusRings
+)
+;
 /
 *
 *
