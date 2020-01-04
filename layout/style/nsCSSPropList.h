@@ -8118,15 +8118,9 @@ eStyleAnimType_None
 )
 CSS_PROP_TEXT
 (
--
-moz
--
 hyphens
 hyphens
-CSS_PROP_DOMPROP_PREFIXED
-(
 Hyphens
-)
 CSS_PROPERTY_PARSE_VALUE
 "
 "

@@ -470,6 +470,11 @@ Height
 )
 COMPUTED_STYLE_PROP
 (
+hyphens
+Hyphens
+)
+COMPUTED_STYLE_PROP
+(
 image_orientation
 ImageOrientation
 )
@@ -1012,11 +1017,6 @@ COMPUTED_STYLE_PROP
 (
 force_broken_image_icon
 ForceBrokenImageIcon
-)
-COMPUTED_STYLE_PROP
-(
-hyphens
-Hyphens
 )
 COMPUTED_STYLE_PROP
 (
