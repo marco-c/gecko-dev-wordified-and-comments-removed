@@ -6563,9 +6563,6 @@ bitset
 >
 tmp_flags
 (
-(
-uint64_t
-)
 aFlags
 )
 ;
