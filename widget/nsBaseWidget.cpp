@@ -12280,9 +12280,9 @@ NS_HASHCHANGE
 ;
 _ASSIGN_eventName
 (
-NS_READYSTATECHANGE
+eReadyStateChange
 "
-NS_READYSTATECHANGE
+eReadyStateChange
 "
 )
 ;
