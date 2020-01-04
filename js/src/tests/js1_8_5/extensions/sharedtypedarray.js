@@ -5,6 +5,12 @@ this
 .
 SharedArrayBuffer
 )
+reportCompare
+(
+true
+true
+)
+;
 quit
 (
 0
