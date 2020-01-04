@@ -18701,6 +18701,14 @@ persist
 "
 )
 ;
+NS_NAMED_LITERAL_STRING
+(
+syncShutdown
+"
+syncShutdown
+"
+)
+;
 obsServ
 -
 >
@@ -18714,7 +18722,11 @@ application
 -
 granted
 "
-nullptr
+syncShutdown
+.
+get
+(
+)
 )
 ;
 obsServ
