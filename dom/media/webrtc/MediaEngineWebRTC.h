@@ -1861,6 +1861,9 @@ public
 :
 MediaEngineWebRTCMicrophoneSource
 (
+nsIThread
+*
+aThread
 webrtc
 :
 :
@@ -1904,6 +1907,10 @@ WebRTCMic
 .
 Monitor
 "
+)
+mThread
+(
+aThread
 )
 mCapIndex
 (
@@ -2399,6 +2406,12 @@ nsTArray
 PrincipalHandle
 >
 mPrincipalHandles
+;
+nsCOMPtr
+<
+nsIThread
+>
+mThread
 ;
 int
 mCapIndex
