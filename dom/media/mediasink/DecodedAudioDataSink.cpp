@@ -1214,10 +1214,6 @@ mInfo
 .
 mRate
 mChannel
-AudioStream
-:
-:
-HighLatency
 )
 ;
 if
