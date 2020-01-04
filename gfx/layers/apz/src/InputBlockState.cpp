@@ -468,11 +468,10 @@ MOZ_ASSERT
 mScrolledApzc
 |
 |
-IsAncestorOf
-(
-aApzc
 mScrolledApzc
-)
+=
+=
+aApzc
 )
 ;
 mScrolledApzc
