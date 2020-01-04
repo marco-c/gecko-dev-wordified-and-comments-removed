@@ -248,7 +248,7 @@ box
 -
 model
 -
-nodeinfobar
+infobar
 -
 tagname
 "
