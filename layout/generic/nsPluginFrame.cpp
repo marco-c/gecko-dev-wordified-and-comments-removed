@@ -6837,8 +6837,10 @@ lm
 {
 mDidCompositeObserver
 =
-new
+MakeUnique
+<
 PluginFrameDidCompositeObserver
+>
 (
 mInstanceOwner
 lm
@@ -6851,6 +6853,10 @@ lm
 AddDidCompositeObserver
 (
 mDidCompositeObserver
+.
+get
+(
+)
 )
 ;
 }
