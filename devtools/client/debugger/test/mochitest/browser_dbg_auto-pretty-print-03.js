@@ -18,6 +18,8 @@ html
 var
 FIRST_SOURCE
 =
+EXAMPLE_URL
++
 "
 code_ugly
 -
@@ -29,6 +31,8 @@ js
 var
 SECOND_SOURCE
 =
+EXAMPLE_URL
++
 "
 code_ugly
 -
@@ -166,8 +170,6 @@ gController
 getState
 (
 )
-EXAMPLE_URL
-+
 SECOND_SOURCE
 )
 ;
