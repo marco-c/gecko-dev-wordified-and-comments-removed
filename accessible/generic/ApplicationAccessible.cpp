@@ -556,7 +556,7 @@ void
 ApplicationAccessible
 :
 :
-CacheChildren
+Init
 (
 )
 {

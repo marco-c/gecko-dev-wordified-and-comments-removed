@@ -268,15 +268,6 @@ aDocument
 return
 nullptr
 ;
-ApplicationAcc
-(
-)
--
->
-EnsureChildren
-(
-)
-;
 DocAccessible
 *
 docAcc
