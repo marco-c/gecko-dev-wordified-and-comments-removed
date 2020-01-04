@@ -6393,8 +6393,10 @@ currentOffset
 ;
 }
 void
-loadWasmActivation
+loadWasmGlobalPtr
 (
+uint32_t
+globalDataOffset
 Register
 dest
 )
@@ -6418,10 +6420,7 @@ wasm
 GlobalAccess
 (
 label
-wasm
-:
-:
-ActivationGlobalDataOffset
+globalDataOffset
 )
 )
 ;
