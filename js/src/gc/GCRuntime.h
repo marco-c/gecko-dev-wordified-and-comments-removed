@@ -3404,7 +3404,7 @@ shouldCompact
 (
 )
 ;
-IncrementalProgress
+void
 beginCompactPhase
 (
 )
