@@ -1963,13 +1963,10 @@ gmpAddons
 .
 find
 (
-function
-(
-aAddon
-)
-{
-return
-aAddon
+addon
+=
+>
+addon
 .
 id
 =
@@ -1980,9 +1977,6 @@ this
 _plugin
 .
 id
-;
-}
-this
 )
 ;
 if
