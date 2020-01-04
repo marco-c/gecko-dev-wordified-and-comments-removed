@@ -221,7 +221,7 @@ NewObject
 ]
 Promise
 <
-ServiceWorkerRegistration
+any
 >
 getRegistration
 (
