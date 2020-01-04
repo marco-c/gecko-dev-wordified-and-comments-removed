@@ -1104,7 +1104,6 @@ shift
 )
 ;
 }
-;
 function
 test
 (

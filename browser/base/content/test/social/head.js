@@ -412,6 +412,7 @@ manifest
 ]
 ;
 function
+*
 finishCleanUp
 (
 )
@@ -476,7 +477,6 @@ what
 ;
 }
 }
-;
 }
 for
 (

@@ -174,7 +174,6 @@ data
 )
 ;
 }
-;
 function
 promiseNewChannelResponse
 (

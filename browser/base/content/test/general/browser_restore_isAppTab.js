@@ -574,7 +574,6 @@ browser
 isRemoteBrowser
 )
 return
-browser
 ;
 yield
 TabStateFlusher

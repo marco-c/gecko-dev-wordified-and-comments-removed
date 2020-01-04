@@ -178,7 +178,6 @@ catch
 e
 )
 {
-var
 bodyInnerHTML
 =
 "

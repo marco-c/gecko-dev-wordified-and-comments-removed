@@ -593,7 +593,6 @@ deferred
 promise
 ;
 }
-;
 let
 gOrigDirectorySource
 =

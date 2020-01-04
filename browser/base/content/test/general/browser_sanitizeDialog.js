@@ -2054,7 +2054,6 @@ enabled
 "
 )
 ;
-var
 cb
 =
 this

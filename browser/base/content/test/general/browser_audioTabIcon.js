@@ -75,8 +75,7 @@ return
 true
 ;
 }
-else
-{
+return
 yield
 BrowserTestUtils
 .
@@ -185,7 +184,6 @@ false
 }
 )
 ;
-}
 }
 function
 *
@@ -1879,6 +1877,9 @@ receivedSoundPlaying
 )
 ;
 }
+return
+false
+;
 }
 )
 ;

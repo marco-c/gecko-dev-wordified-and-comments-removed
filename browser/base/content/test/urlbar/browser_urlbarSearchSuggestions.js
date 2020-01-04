@@ -67,6 +67,7 @@ engine
 registerCleanupFunction
 (
 function
+*
 (
 )
 {

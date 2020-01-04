@@ -912,7 +912,6 @@ windowGotActivate
 =
 true
 ;
-;
 }
 )
 ;

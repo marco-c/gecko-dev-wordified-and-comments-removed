@@ -982,7 +982,10 @@ gNumSet
 catch
 (
 ex
+)
+{
 if
+(
 ex
 .
 result
@@ -1005,10 +1008,7 @@ ex
 )
 ;
 }
-catch
-(
-ex
-)
+else
 {
 info
 (
@@ -1020,6 +1020,7 @@ caught
 ex
 )
 ;
+}
 }
 }
 function
@@ -1136,7 +1137,10 @@ test
 catch
 (
 ex
+)
+{
 if
+(
 ex
 .
 result
@@ -1159,10 +1163,7 @@ ex
 )
 ;
 }
-catch
-(
-ex
-)
+else
 {
 info
 (
@@ -1174,6 +1175,7 @@ caught
 ex
 )
 ;
+}
 }
 }
 Services

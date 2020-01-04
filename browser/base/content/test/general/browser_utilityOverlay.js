@@ -438,7 +438,6 @@ checkEvent
 )
 ;
 }
-;
 runNextTest
 (
 )

@@ -12,6 +12,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {

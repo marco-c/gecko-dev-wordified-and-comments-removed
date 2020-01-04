@@ -5148,7 +5148,6 @@ catch
 ex
 )
 {
-var
 path
 =
 CHROMEROOT
@@ -7924,7 +7923,6 @@ shift
 )
 ;
 }
-;
 var
 XPInstallObserver
 =

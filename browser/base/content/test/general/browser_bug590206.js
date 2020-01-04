@@ -716,6 +716,7 @@ newTab
 add_task
 (
 function
+*
 test_resource_uri
 (
 )
@@ -826,6 +827,7 @@ newTab
 add_task
 (
 function
+*
 test_data_uri
 (
 )
@@ -930,6 +932,7 @@ newTab
 add_task
 (
 function
+*
 test_about_uri
 (
 )

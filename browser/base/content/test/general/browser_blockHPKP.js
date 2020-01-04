@@ -460,7 +460,6 @@ pinningRemovalLoaded
 )
 ;
 }
-;
 function
 pinningRemovalLoaded
 (
@@ -508,7 +507,6 @@ badPinningPageLoaded
 )
 ;
 }
-;
 function
 badPinningPageLoaded
 (
@@ -546,4 +544,3 @@ finish
 )
 ;
 }
-;

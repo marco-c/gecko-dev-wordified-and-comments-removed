@@ -73,6 +73,7 @@ video
 run
 :
 function
+*
 checkAudioVideo
 (
 )
@@ -297,6 +298,7 @@ sharing
 run
 :
 function
+*
 checkStopSharing
 (
 )
@@ -582,6 +584,7 @@ UI
 run
 :
 function
+*
 checkReloading
 (
 )
@@ -841,6 +844,7 @@ prompts
 run
 :
 function
+*
 checkReloadingRemovesPrompts
 (
 )
@@ -961,6 +965,7 @@ UI
 run
 :
 function
+*
 checkUpdateWhenReloading
 (
 )
@@ -1454,6 +1459,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {

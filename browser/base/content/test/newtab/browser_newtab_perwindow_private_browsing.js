@@ -171,6 +171,7 @@ windowsToClose
 ]
 ;
 function
+*
 testOnWindow
 (
 options

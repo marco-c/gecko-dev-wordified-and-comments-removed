@@ -1102,6 +1102,7 @@ gChangeEvents
 ;
 }
 function
+*
 doSelectTests
 (
 contentType

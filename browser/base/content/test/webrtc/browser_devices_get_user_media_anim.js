@@ -31,6 +31,7 @@ tabs
 run
 :
 function
+*
 checkAudioVideo
 (
 )
@@ -572,6 +573,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {

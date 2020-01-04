@@ -161,6 +161,7 @@ resolve
 ;
 }
 function
+*
 testURL
 (
 url

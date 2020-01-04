@@ -695,8 +695,6 @@ aLink1
 lastVisitDate
 ;
 }
-else
-{
 if
 (
 aLink2
@@ -713,14 +711,10 @@ return
 1
 ;
 }
-else
-{
 return
 -
 1
 ;
-}
-}
 }
 ;
 yield
