@@ -1048,6 +1048,7 @@ showFirefoxAccounts
 =
 function
 (
+extraURLCampaignParams
 )
 {
 _sendEvent
@@ -1055,6 +1056,16 @@ _sendEvent
 '
 showFirefoxAccounts
 '
+{
+extraURLCampaignParams
+:
+JSON
+.
+stringify
+(
+extraURLCampaignParams
+)
+}
 )
 ;
 }
