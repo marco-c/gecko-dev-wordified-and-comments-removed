@@ -3618,6 +3618,15 @@ if
 (
 !
 found
+&
+&
+change
+.
+newValue
+!
+=
+=
+null
 )
 {
 this
