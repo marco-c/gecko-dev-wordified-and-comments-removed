@@ -21316,6 +21316,14 @@ lhs
 high
 )
 ;
+if
+(
+lhs
+!
+=
+rhs
+)
+{
 regs
 .
 take
@@ -21334,6 +21342,7 @@ rhs
 high
 )
 ;
+}
 Register
 temp
 =
@@ -21672,6 +21681,14 @@ lhs
 high
 )
 ;
+if
+(
+lhs
+!
+=
+rhs
+)
+{
 regs
 .
 take
@@ -21690,6 +21707,7 @@ rhs
 high
 )
 ;
+}
 Register
 temp
 =
