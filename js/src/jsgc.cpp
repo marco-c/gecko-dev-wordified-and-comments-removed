@@ -7025,6 +7025,7 @@ MOZ_RELEASE_ASSERT
 (
 defaultTimeBudget_
 <
+=
 UINT32_MAX
 )
 ;
