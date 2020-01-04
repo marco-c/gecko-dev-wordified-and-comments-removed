@@ -16,6 +16,13 @@ annotation
 .
 WrapForJNI
 ;
+import
+android
+.
+view
+.
+KeyEvent
+;
 interface
 GeckoEditableListener
 {
@@ -117,6 +124,13 @@ int
 oldEnd
 int
 newEnd
+)
+;
+void
+onDefaultKeyEvent
+(
+KeyEvent
+event
 )
 ;
 }
