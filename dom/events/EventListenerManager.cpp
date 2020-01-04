@@ -1636,7 +1636,7 @@ window
 >
 EnableNetworkEvent
 (
-NS_NETWORK_DOWNLOAD_EVENT
+eNetworkDownload
 )
 ;
 }
@@ -2487,7 +2487,7 @@ NS_NETWORK_UPLOAD_EVENT
 aEventMessage
 =
 =
-NS_NETWORK_DOWNLOAD_EVENT
+eNetworkDownload
 )
 ;
 #
