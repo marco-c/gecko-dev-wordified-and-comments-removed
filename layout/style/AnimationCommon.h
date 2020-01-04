@@ -199,13 +199,6 @@ RestyleTracker
 struct
 AnimationCollection
 ;
-bool
-IsGeometricProperty
-(
-nsCSSProperty
-aProperty
-)
-;
 class
 CommonAnimationManager
 :

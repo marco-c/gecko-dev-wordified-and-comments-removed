@@ -948,6 +948,15 @@ nsIContent
 aContent
 )
 ;
+static
+bool
+IsGeometricProperty
+(
+const
+nsCSSProperty
+aProperty
+)
+;
 protected
 :
 virtual
