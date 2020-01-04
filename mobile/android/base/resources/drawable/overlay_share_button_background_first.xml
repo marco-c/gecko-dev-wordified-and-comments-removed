@@ -164,7 +164,7 @@ topLeftRadius
 "
 dimen
 /
-button_corner_radius
+standard_corner_radius
 "
 android
 :
@@ -173,7 +173,7 @@ topRightRadius
 "
 dimen
 /
-button_corner_radius
+standard_corner_radius
 "
 /
 >
@@ -213,7 +213,7 @@ topLeftRadius
 "
 dimen
 /
-button_corner_radius
+standard_corner_radius
 "
 android
 :
@@ -222,7 +222,7 @@ topRightRadius
 "
 dimen
 /
-button_corner_radius
+standard_corner_radius
 "
 /
 >

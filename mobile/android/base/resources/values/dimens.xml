@@ -86,10 +86,10 @@ dimen
 name
 =
 "
-button_corner_radius
+standard_corner_radius
 "
 >
-3dp
+4dp
 <
 /
 dimen
