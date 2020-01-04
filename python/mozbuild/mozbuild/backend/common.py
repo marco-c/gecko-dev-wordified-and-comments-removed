@@ -71,7 +71,7 @@ PreprocessedTestWebIDLFile
     
 PreprocessedWebIDLFile
     
-RustRlibLibrary
+RustCrate
     
 SharedLibrary
     

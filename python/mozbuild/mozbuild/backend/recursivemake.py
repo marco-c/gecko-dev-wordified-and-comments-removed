@@ -134,7 +134,7 @@ PerSourceFlag
     
 Program
     
-RustRlibLibrary
+RustCrate
     
 SharedLibrary
     
@@ -3639,7 +3639,7 @@ elif
 isinstance
 (
 obj
-RustRlibLibrary
+RustCrate
 )
 :
             
@@ -8147,7 +8147,7 @@ if
 isinstance
 (
 o
-RustRlibLibrary
+RustCrate
 )
 ]
         
@@ -8664,7 +8664,7 @@ elif
 isinstance
 (
 lib
-RustRlibLibrary
+RustCrate
 )
 :
                     
@@ -8893,7 +8893,7 @@ any
 isinstance
 (
 o
-RustRlibLibrary
+RustCrate
 )
                                                   
 for
