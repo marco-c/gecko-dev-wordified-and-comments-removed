@@ -41,9 +41,17 @@ public
 :
 WinCompositorWidgetProxy
 (
+HWND
+aWnd
+uintptr_t
+aWidgetKey
+nsTransparencyMode
+aMode
 nsWindow
 *
 aWindow
+=
+nullptr
 )
 ;
 bool

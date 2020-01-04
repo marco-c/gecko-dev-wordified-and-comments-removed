@@ -14003,10 +14003,8 @@ mCompositorWidgetProxy
 {
 mCompositorWidgetProxy
 =
-new
-WinCompositorWidgetProxy
+NewCompositorWidgetProxy
 (
-this
 )
 ;
 }
@@ -14272,6 +14270,15 @@ return
 new
 WinCompositorWidgetProxy
 (
+mWnd
+reinterpret_cast
+<
+uintptr_t
+>
+(
+this
+)
+mTransparencyMode
 this
 )
 ;
