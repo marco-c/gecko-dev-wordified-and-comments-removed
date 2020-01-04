@@ -7046,7 +7046,7 @@ nsFlexContainerFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsFlexContainerFrameSuper
+nsContainerFrame
 )
 NS_IMPL_FRAMEARENA_HELPERS
 (

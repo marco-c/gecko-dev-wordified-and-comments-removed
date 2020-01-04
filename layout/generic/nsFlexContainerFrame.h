@@ -38,15 +38,11 @@ nsStyleContext
 aContext
 )
 ;
-typedef
-nsContainerFrame
-nsFlexContainerFrameSuper
-;
 class
 nsFlexContainerFrame
 :
 public
-nsFlexContainerFrameSuper
+nsContainerFrame
 {
 public
 :
@@ -179,7 +175,7 @@ nsStyleContext
 aContext
 )
 :
-nsFlexContainerFrameSuper
+nsContainerFrame
 (
 aContext
 )
