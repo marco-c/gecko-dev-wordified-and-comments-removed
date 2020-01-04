@@ -1328,6 +1328,14 @@ end_composition
 ;
 sample
 .
+mDecodeTime
+=
+indice
+.
+start_decode
+;
+sample
+.
 mSync
 =
 indice

@@ -21794,6 +21794,9 @@ duration
 bool
 isSyncSample
 ;
+uint32_t
+decodeTime
+;
 if
 (
 mSampleTable
@@ -21812,6 +21815,8 @@ compositionTime
 duration
 &
 isSyncSample
+&
+decodeTime
 )
 !
 =
@@ -21881,6 +21886,18 @@ indice
 sync
 =
 isSyncSample
+;
+indice
+.
+start_decode
+=
+(
+decodeTime
+*
+1000000ll
+)
+/
+mTimescale
 ;
 index
 .

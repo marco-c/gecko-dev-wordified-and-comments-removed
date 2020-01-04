@@ -428,6 +428,14 @@ aMediaTime
 ;
 indice
 .
+start_decode
+=
+s_indice
+.
+start_decode
+;
+indice
+.
 sync
 =
 s_indice
