@@ -176,21 +176,10 @@ if
 isinstance
 (
 obj
+(
 Sources
-)
-or
-isinstance
-(
-obj
-HostSources
-)
-or
-\
-           
-isinstance
-(
-obj
 GeneratedSources
+)
 )
 :
             
@@ -229,12 +218,6 @@ obj
 .
 canonical_suffix
 flags
-                                    
-isinstance
-(
-obj
-HostSources
-)
 )
         
 return
@@ -347,7 +330,6 @@ obj
 .
 canonical_suffix
 flags
-False
 )
     
 def
@@ -404,7 +386,6 @@ f
 cpp
 '
 flags
-False
 )
     
 def
@@ -454,7 +435,6 @@ f
 cpp
 '
 flags
-False
 )
     
 def
@@ -614,20 +594,8 @@ cenv
 filename
 canonical_suffix
 flags
-ishost
 )
 :
-        
-prefix
-=
-'
-HOST_
-'
-if
-ishost
-else
-'
-'
         
 if
 canonical_suffix
@@ -650,8 +618,6 @@ cenv
 .
 substs
 [
-prefix
-+
 '
 CC
 '
@@ -712,8 +678,6 @@ cenv
 .
 substs
 [
-prefix
-+
 '
 CXX
 '
