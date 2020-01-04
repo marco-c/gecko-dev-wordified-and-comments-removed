@@ -837,6 +837,13 @@ StyleSetHandleInlines
 h
 "
 #
+include
+"
+RegionBuilder
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #
@@ -45088,7 +45095,10 @@ return
 bool
 isPrecise
 ;
+RegionBuilder
+<
 nsRegion
+>
 transformedRegion
 ;
 for
@@ -45160,6 +45170,10 @@ dest
 OrWith
 (
 transformedRegion
+.
+ToRegion
+(
+)
 )
 ;
 }
