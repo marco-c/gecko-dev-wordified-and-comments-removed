@@ -561,16 +561,6 @@ properties
 )
 ;
 const
-CSS
-=
-require
-(
-"
-CSS
-"
-)
-;
-const
 {
 AutocompletePopup
 }
