@@ -602,6 +602,11 @@ std
 :
 endl
 ;
+freeaddrinfo
+(
+res
+)
+;
 return
 "
 "
@@ -634,6 +639,11 @@ std
 endl
 ;
 }
+freeaddrinfo
+(
+res
+)
+;
 return
 str_addr
 ;
