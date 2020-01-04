@@ -3718,6 +3718,9 @@ aTextureFlags
 MOZ_ASSERT
 (
 aAllocator
+&
+&
+aAllocator
 -
 >
 IPCOpen
