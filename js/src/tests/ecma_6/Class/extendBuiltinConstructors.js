@@ -66,6 +66,11 @@ testBuiltin
 Function
 )
 ;
+testBuiltin
+(
+Object
+)
+;
 ;
 if
 (
