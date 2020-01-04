@@ -159,7 +159,7 @@ web
 LOCALIZATION
 NOTE
 (
-title
+animationInspectorTitle
 )
 :
 This
@@ -177,7 +177,7 @@ tab
 <
 !
 ENTITY
-title
+animationInspectorTitle
 "
 Animations
 "
