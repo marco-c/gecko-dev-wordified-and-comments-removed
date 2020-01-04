@@ -6688,6 +6688,9 @@ http
 .
 oscpu
 )
+&
+&
+layersGPUAccelerated
 )
 )
 =
@@ -6740,6 +6743,9 @@ http
 .
 oscpu
 )
+&
+&
+layersGPUAccelerated
 )
 )
 =
@@ -6906,6 +6912,9 @@ http
 .
 oscpu
 )
+&
+&
+layersGPUAccelerated
 )
 )
 =
@@ -7026,6 +7035,9 @@ http
 .
 oscpu
 )
+&
+&
+layersGPUAccelerated
 )
 )
 =
