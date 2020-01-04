@@ -3019,6 +3019,14 @@ function
 (
 )
 {
+this
+.
+_workerClient
+.
+detach
+(
+)
+;
 }
 hasActor
 :
