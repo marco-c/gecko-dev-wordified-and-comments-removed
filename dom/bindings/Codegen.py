@@ -4899,7 +4899,7 @@ enumerate
 nullptr
 /
 *
-thisObject
+thisValue
 *
 /
                   
