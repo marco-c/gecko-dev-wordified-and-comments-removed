@@ -1800,6 +1800,12 @@ kind
 '
 interface
 '
+and
+p
+.
+attributes
+.
+scriptable
 :
             
 ifaces
