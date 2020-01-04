@@ -11182,7 +11182,7 @@ oldDisplayPort
 nsLayoutUtils
 :
 :
-GetDisplayPort
+GetDisplayPortRelativeToScrollPort
 (
 mOuter
 -
@@ -11264,7 +11264,7 @@ usingDisplayPort
 nsLayoutUtils
 :
 :
-GetDisplayPort
+GetDisplayPortRelativeToScrollPort
 (
 mOuter
 -
@@ -14602,7 +14602,7 @@ usingDisplayPort
 nsLayoutUtils
 :
 :
-GetDisplayPort
+GetDisplayPortRelativeToScrollFrame
 (
 content
 &
@@ -14999,7 +14999,7 @@ usingDisplayport
 nsLayoutUtils
 :
 :
-GetDisplayPort
+GetDisplayPortRelativeToScrollFrame
 (
 mOuter
 -

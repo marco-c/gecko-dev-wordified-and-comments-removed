@@ -669,7 +669,7 @@ aId
 ;
 static
 bool
-GetDisplayPort
+GetDisplayPortRelativeToScrollPort
 (
 nsIContent
 *

@@ -5172,7 +5172,7 @@ bool
 nsLayoutUtils
 :
 :
-GetDisplayPort
+GetDisplayPortRelativeToScrollPort
 (
 nsIContent
 *
@@ -5300,7 +5300,7 @@ aResult
 bool
 usingDisplayPort
 =
-GetDisplayPort
+GetDisplayPortRelativeToScrollPort
 (
 aContent
 aResult
@@ -5334,7 +5334,7 @@ aContent
 )
 {
 return
-GetDisplayPort
+GetDisplayPortRelativeToScrollPort
 (
 aContent
 nullptr
@@ -42083,7 +42083,7 @@ if
 nsLayoutUtils
 :
 :
-GetDisplayPort
+GetDisplayPortRelativeToScrollPort
 (
 aContent
 &

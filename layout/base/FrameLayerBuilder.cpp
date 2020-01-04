@@ -15357,7 +15357,7 @@ usingDisplayport
 nsLayoutUtils
 :
 :
-GetDisplayPort
+GetDisplayPortRelativeToScrollFrame
 (
 (
 *
