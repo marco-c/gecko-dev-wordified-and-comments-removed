@@ -535,7 +535,7 @@ divider
 >
 color
 /
-divider_light
+toolbar_divider_grey
 <
 /
 item
@@ -975,7 +975,7 @@ divider
 >
 color
 /
-divider_light
+toolbar_divider_grey
 <
 /
 item
@@ -2666,7 +2666,7 @@ divider
 >
 color
 /
-divider_light
+toolbar_divider_grey
 <
 /
 item
@@ -6054,7 +6054,7 @@ childDivider
 >
 color
 /
-divider_light
+toolbar_divider_grey
 <
 /
 item
@@ -6107,7 +6107,7 @@ childDivider
 >
 color
 /
-divider_light
+toolbar_divider_grey
 <
 /
 item
@@ -7110,7 +7110,7 @@ background
 >
 color
 /
-divider_light
+toolbar_divider_grey
 <
 /
 item
