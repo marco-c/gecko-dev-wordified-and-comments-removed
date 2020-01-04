@@ -6650,8 +6650,6 @@ gfxContext
 aContext
 gfxPoint
 aPoint
-DrawMode
-aDrawMode
 uint32_t
 aGlyphId
 gfxTextContextPaint
@@ -6668,8 +6666,6 @@ gfxContext
 aContext
 gfxPoint
 aPoint
-DrawMode
-aDrawMode
 uint32_t
 aGlyphId
 gfxTextContextPaint

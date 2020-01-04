@@ -74,13 +74,6 @@ h
 #
 include
 "
-DrawMode
-.
-h
-"
-#
-include
-"
 nsUnicodeScriptCodes
 .
 h
@@ -779,8 +772,6 @@ gfxContext
 aContext
 uint32_t
 aGlyphId
-int
-aDrawMode
 gfxTextContextPaint
 *
 aContextPaint

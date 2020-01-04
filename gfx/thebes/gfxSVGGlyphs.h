@@ -75,13 +75,6 @@ nsRefreshDriver
 .
 h
 "
-#
-include
-"
-DrawMode
-.
-h
-"
 class
 nsIDocument
 ;
@@ -291,8 +284,6 @@ gfxContext
 aContext
 uint32_t
 aGlyphId
-DrawMode
-aDrawMode
 gfxTextContextPaint
 *
 aContextPaint

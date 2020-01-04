@@ -1677,8 +1677,6 @@ gfxContext
 aContext
 uint32_t
 aGlyphId
-int
-aDrawMode
 gfxTextContextPaint
 *
 aContextPaint
@@ -1712,10 +1710,6 @@ RenderGlyph
 (
 aContext
 aGlyphId
-DrawMode
-(
-aDrawMode
-)
 aContextPaint
 )
 ;

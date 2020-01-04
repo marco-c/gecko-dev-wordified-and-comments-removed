@@ -14,13 +14,6 @@ h
 #
 include
 "
-DrawMode
-.
-h
-"
-#
-include
-"
 gfx2DGlue
 .
 h
@@ -1416,8 +1409,6 @@ aElement
 gfxContext
 *
 aContext
-DrawMode
-aDrawMode
 gfxTextContextPaint
 *
 aContextPaint

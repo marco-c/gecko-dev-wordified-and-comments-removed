@@ -8636,8 +8636,6 @@ aElement
 gfxContext
 *
 aContext
-DrawMode
-aDrawMode
 gfxTextContextPaint
 *
 aContextPaint
