@@ -16,7 +16,7 @@ mozilla
 /
 dom
 /
-TestInterfaceJSMaplikeSetlikeIterableBinding
+TestInterfaceJSMaplikeSetlikeBinding
 .
 h
 "
