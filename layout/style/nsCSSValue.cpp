@@ -7638,6 +7638,9 @@ break
 case
 eCSSProperty_justify_items
 :
+case
+eCSSProperty_justify_self
+:
 AppendAlignJustifyValueToString
 (
 intValue
