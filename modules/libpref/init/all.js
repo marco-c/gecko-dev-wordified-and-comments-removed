@@ -4684,6 +4684,11 @@ net
 miriadax
 .
 net
+*
+.
+wire
+.
+com
 "
 )
 ;
@@ -5102,6 +5107,11 @@ net
 miriadax
 .
 net
+*
+.
+wire
+.
+com
 "
 )
 ;
