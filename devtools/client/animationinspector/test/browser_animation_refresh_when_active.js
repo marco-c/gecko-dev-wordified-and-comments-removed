@@ -18,7 +18,7 @@ function
 yield
 addTab
 (
-TEST_URL_ROOT
+URL_ROOT
 +
 "
 doc_simple_animation
@@ -68,7 +68,7 @@ node
 )
 ;
 yield
-selectNode
+selectNodeAndWaitForAnimations
 (
 "
 .
@@ -113,7 +113,7 @@ now
 )
 ;
 yield
-selectNode
+selectNodeAndWaitForAnimations
 (
 "
 .
@@ -227,7 +227,7 @@ again
 )
 ;
 yield
-selectNode
+selectNodeAndWaitForAnimations
 (
 "
 .

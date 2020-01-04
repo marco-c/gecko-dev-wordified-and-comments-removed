@@ -46,7 +46,7 @@ function
 yield
 addTab
 (
-TEST_URL_ROOT
+URL_ROOT
 +
 "
 doc_simple_animation
@@ -117,7 +117,7 @@ UI_UPDATED_EVENT
 )
 ;
 yield
-selectNode
+selectNodeAndWaitForAnimations
 (
 stillNode
 inspector
@@ -257,7 +257,7 @@ UI_UPDATED_EVENT
 )
 ;
 yield
-selectNode
+selectNodeAndWaitForAnimations
 (
 commentNode
 inspector
