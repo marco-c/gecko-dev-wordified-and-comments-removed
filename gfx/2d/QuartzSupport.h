@@ -46,7 +46,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -316,10 +316,7 @@ void
 *
 mCGData
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 MacIOSurface
 >

@@ -336,7 +336,7 @@ SurfaceCaps
 &
 caps
 const
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -370,7 +370,7 @@ SurfaceCaps
 &
 caps
 const
-RefPtr
+nsRefPtr
 <
 layers
 :

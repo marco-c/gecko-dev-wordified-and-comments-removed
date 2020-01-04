@@ -148,10 +148,7 @@ mNeedsCleanupOnRelease
 bool
 mAttachedByConsumer
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 TextureClient
 >

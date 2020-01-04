@@ -45,7 +45,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -2732,7 +2732,7 @@ if
 mSourceSurface
 )
 {
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -2825,7 +2825,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -2980,7 +2980,7 @@ GetForwarder
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
@@ -3007,7 +3007,7 @@ return
 textureClient
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -3038,7 +3038,7 @@ XP_WIN
 #
 ifdef
 MOZ_WIDGET_GONK
-RefPtr
+nsRefPtr
 <
 TextureClientRecycleAllocator
 >

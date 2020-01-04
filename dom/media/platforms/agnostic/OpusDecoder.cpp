@@ -1562,7 +1562,7 @@ Drain
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >

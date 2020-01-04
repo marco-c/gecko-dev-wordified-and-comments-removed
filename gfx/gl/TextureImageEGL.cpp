@@ -636,7 +636,7 @@ BeginUpdate
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -647,7 +647,7 @@ updateSurface
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :

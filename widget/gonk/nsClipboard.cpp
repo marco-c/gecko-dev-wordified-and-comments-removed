@@ -772,7 +772,7 @@ image
 continue
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -805,7 +805,7 @@ surface
 continue
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -1442,7 +1442,7 @@ HasImage
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 gfx
 :

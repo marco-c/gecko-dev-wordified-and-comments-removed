@@ -551,7 +551,7 @@ lock
 mMutex
 )
 ;
-RefPtr
+nsRefPtr
 <
 BufferTextureClient
 >
@@ -967,7 +967,7 @@ format
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -1085,7 +1085,7 @@ if
 mSurfaceForBasic
 )
 {
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -1260,7 +1260,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -1283,7 +1283,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :

@@ -5216,7 +5216,7 @@ compositableParent
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 TextureHost
 >
@@ -5410,7 +5410,7 @@ CompositableHost
 aCompositableHost
 )
 {
-RefPtr
+nsRefPtr
 <
 TextureHost
 >

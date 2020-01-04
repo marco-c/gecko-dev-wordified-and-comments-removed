@@ -519,7 +519,7 @@ gfxContentType
 COLOR_ALPHA
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -577,7 +577,7 @@ false
 aFilter
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

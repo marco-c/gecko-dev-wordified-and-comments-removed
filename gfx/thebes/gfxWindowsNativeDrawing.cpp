@@ -1274,7 +1274,7 @@ failure
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >

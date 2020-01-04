@@ -537,7 +537,7 @@ aFlags
 Pair
 <
 DrawResult
-RefPtr
+nsRefPtr
 <
 gfx
 :

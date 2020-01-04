@@ -16,7 +16,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -165,10 +165,7 @@ aShmem
 ;
 private
 :
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 mozilla
 :

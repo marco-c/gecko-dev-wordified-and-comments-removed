@@ -610,13 +610,13 @@ nsIWidget
 *
 mWidget
 ;
-RefPtr
+nsRefPtr
 <
 CompositingRenderTargetD3D9
 >
 mDefaultRT
 ;
-RefPtr
+nsRefPtr
 <
 CompositingRenderTargetD3D9
 >

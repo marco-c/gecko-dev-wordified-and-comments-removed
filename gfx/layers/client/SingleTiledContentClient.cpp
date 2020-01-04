@@ -576,13 +576,13 @@ mTilingOrigin
 nsIntRegion
 extraPainted
 ;
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
 backBufferOnWhite
 ;
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
@@ -657,7 +657,7 @@ backBuffer
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -670,7 +670,7 @@ BorrowDrawTarget
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >

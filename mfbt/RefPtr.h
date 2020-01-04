@@ -154,7 +154,7 @@ OutParamRef
 <
 T
 >
-byRef
+getter_AddRefs
 (
 RefPtr
 <
@@ -662,7 +662,7 @@ OutParamRef
 {
 friend
 OutParamRef
-byRef
+getter_AddRefs
 <
 T
 >
@@ -780,7 +780,7 @@ OutParamRef
 <
 T
 >
-byRef
+getter_AddRefs
 (
 RefPtr
 <

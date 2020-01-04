@@ -4789,7 +4789,7 @@ TransportLayerDtls
 CheckDigest
 (
 const
-RefPtr
+nsRefPtr
 <
 VerificationDigest
 >
@@ -5135,7 +5135,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 VerificationDigest
 >

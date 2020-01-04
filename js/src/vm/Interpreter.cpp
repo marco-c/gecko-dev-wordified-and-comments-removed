@@ -2213,10 +2213,7 @@ endif
 cpuid_t
 cpuStart_
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 js
 :
@@ -2225,10 +2222,7 @@ PerformanceGroup
 >
 sharedGroup_
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 js
 :
@@ -2237,10 +2231,7 @@ PerformanceGroup
 >
 topGroup_
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 js
 :

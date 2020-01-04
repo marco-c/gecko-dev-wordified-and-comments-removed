@@ -19,7 +19,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1752,7 +1752,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 LocalCertGetTask
 >
@@ -1849,7 +1849,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 LocalCertRemoveTask
 >

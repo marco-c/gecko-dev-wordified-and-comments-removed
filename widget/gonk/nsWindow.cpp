@@ -2857,7 +2857,7 @@ GetFormat
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -2913,7 +2913,7 @@ size
 height
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

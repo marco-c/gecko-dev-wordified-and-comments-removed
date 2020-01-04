@@ -33,7 +33,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -324,7 +324,7 @@ mTransactionFps
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 DataTextureSource
 >

@@ -2300,7 +2300,7 @@ get
 aSystemCode
 )
 ;
-RefPtr
+nsRefPtr
 <
 MediaKeyError
 >

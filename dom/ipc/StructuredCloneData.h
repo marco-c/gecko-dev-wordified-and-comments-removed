@@ -14,7 +14,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -513,7 +513,7 @@ mExternalData
 size_t
 mExternalDataLength
 ;
-RefPtr
+nsRefPtr
 <
 SharedJSAllocatedData
 >

@@ -256,7 +256,7 @@ size
 format
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -330,7 +330,7 @@ size
 format
 )
 ;
-RefPtr
+nsRefPtr
 <
 VolatileBuffer
 >
@@ -1157,7 +1157,7 @@ mPaletteDepth
 =
 0
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -1852,7 +1852,7 @@ SurfaceFormat
 R5G6B5
 )
 {
-RefPtr
+nsRefPtr
 <
 VolatileBuffer
 >
@@ -1874,7 +1874,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -1943,7 +1943,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -2289,7 +2289,7 @@ aDoTile
 mSinglePixel
 )
 {
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -2410,7 +2410,7 @@ pattern
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2734,7 +2734,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -2782,7 +2782,7 @@ return
 true
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -3955,7 +3955,7 @@ IsValid
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -3985,7 +3985,7 @@ if
 mImageSurface
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

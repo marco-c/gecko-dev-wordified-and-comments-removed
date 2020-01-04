@@ -32,7 +32,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -404,10 +404,7 @@ mPort
 nsXPIDLCString
 mHostName
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 nsSSLStatus
 >

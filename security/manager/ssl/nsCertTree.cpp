@@ -1066,7 +1066,7 @@ int32_t
 outAbsoluteCertOffset
 )
 {
-RefPtr
+nsRefPtr
 <
 nsCertTreeDispInfo
 >
@@ -1248,7 +1248,7 @@ outAbsoluteCertOffset
 =
 certIndex
 ;
-RefPtr
+nsRefPtr
 <
 nsCertTreeDispInfo
 >
@@ -1388,7 +1388,7 @@ CmpWebSiteCert
 struct
 nsCertAndArrayAndPositionAndCounterAndTracker
 {
-RefPtr
+nsRefPtr
 <
 nsCertAddonInfo
 >
@@ -1396,7 +1396,7 @@ certai
 ;
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsCertTreeDispInfo
 >
@@ -1669,7 +1669,7 @@ nsArrayAndPositionAndCounterAndTracker
 {
 nsTArray
 <
-RefPtr
+nsRefPtr
 <
 nsCertTreeDispInfo
 >
@@ -2266,7 +2266,7 @@ true
 }
 }
 }
-RefPtr
+nsRefPtr
 <
 nsCertAddonInfo
 >
@@ -2323,7 +2323,7 @@ cert
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 nsCertTreeDispInfo
 >
@@ -3301,7 +3301,7 @@ canRemoveEntry
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 nsCertTreeDispInfo
 >
@@ -3658,7 +3658,7 @@ NS_ENSURE_ARG
 _treeitem
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCertTreeDispInfo
 >
@@ -3711,7 +3711,7 @@ NS_ENSURE_ARG
 _retval
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsCertTreeDispInfo
 >
@@ -4517,7 +4517,7 @@ NS_OK
 int32_t
 absoluteCertOffset
 ;
-RefPtr
+nsRefPtr
 <
 nsCertTreeDispInfo
 >

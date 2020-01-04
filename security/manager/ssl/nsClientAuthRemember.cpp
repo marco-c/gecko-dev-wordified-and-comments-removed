@@ -17,7 +17,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -323,7 +323,7 @@ ClearAllRememberedDecisions
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsClientAuthRememberService
 >
@@ -448,7 +448,7 @@ if
 aClientCert
 )
 {
-RefPtr
+nsRefPtr
 <
 nsNSSCertificate
 >

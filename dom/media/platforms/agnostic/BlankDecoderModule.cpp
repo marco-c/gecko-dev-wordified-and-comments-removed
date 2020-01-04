@@ -24,7 +24,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -279,7 +279,7 @@ aSample
 )
 override
 {
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >
@@ -352,7 +352,7 @@ BlankMediaDataCreator
 >
 mCreator
 ;
-RefPtr
+nsRefPtr
 <
 FlushableTaskQueue
 >
@@ -738,7 +738,7 @@ mFrameWidth
 uint32_t
 mFrameHeight
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :

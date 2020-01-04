@@ -543,7 +543,7 @@ Image
 >
 mData
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :

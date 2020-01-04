@@ -50,7 +50,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -573,7 +573,7 @@ Pattern
 aPattern
 )
 {
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -720,7 +720,7 @@ glyphBits
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 Path
 >

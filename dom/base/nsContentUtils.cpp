@@ -34110,7 +34110,7 @@ if
 image
 )
 {
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -34142,10 +34142,7 @@ if
 surface
 )
 {
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 mozilla
 :

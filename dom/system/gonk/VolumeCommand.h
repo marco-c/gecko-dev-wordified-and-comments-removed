@@ -23,7 +23,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -537,7 +537,7 @@ mCmd
 size_t
 mBytesConsumed
 ;
-RefPtr
+nsRefPtr
 <
 VolumeResponseCallback
 >
@@ -573,7 +573,7 @@ aCallback
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 Volume
 >

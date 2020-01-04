@@ -412,7 +412,7 @@ override
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 FlushableTaskQueue
 >

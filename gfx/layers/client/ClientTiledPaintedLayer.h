@@ -23,7 +23,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -354,7 +354,7 @@ EndPaint
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 TiledContentClient
 >

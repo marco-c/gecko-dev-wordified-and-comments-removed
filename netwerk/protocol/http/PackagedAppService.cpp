@@ -4317,7 +4317,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 ResourceCacheInfo
 >

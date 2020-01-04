@@ -183,10 +183,7 @@ CODEC_PLNAME_SIZE
 =
 32
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 AudioSessionConduit
 >
@@ -1602,10 +1599,7 @@ WebrtcAudioConduit
 :
 SetTransmitterTransport
 (
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 TransportInterface
 >
@@ -1642,10 +1636,7 @@ WebrtcAudioConduit
 :
 SetReceiverTransport
 (
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 TransportInterface
 >

@@ -43,7 +43,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -368,7 +368,7 @@ Destructor
 void
 destructor_target_ref
 (
-RefPtr
+nsRefPtr
 <
 Destructor
 >
@@ -908,7 +908,7 @@ destroyed
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 Destructor
 >
@@ -966,7 +966,7 @@ destroyed
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 Destructor
 >

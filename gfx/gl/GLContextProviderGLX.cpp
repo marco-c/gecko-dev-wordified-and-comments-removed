@@ -4830,7 +4830,7 @@ dummySize
 16
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxXlibSurface
 >
@@ -5071,7 +5071,7 @@ stencil
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 GLContext
 >
@@ -5209,7 +5209,7 @@ Any
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 GLContext
 >

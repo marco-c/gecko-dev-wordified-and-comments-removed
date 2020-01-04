@@ -79,7 +79,7 @@ ID2D1Bitmap1
 *
 *
 )
-byRef
+getter_AddRefs
 (
 mRealizedBitmap
 )
@@ -170,7 +170,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID2D1Bitmap1
 >
@@ -233,7 +233,7 @@ ID2D1Bitmap1
 *
 *
 )
-byRef
+getter_AddRefs
 (
 softwareBitmap
 )
@@ -408,7 +408,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID2D1DeviceContext
 >
@@ -420,7 +420,7 @@ device
 CreateDeviceContext
 (
 D2D1_DEVICE_CONTEXT_OPTIONS_NONE
-byRef
+getter_AddRefs
 (
 dc
 )
@@ -479,7 +479,7 @@ ID2D1Bitmap1
 *
 *
 )
-byRef
+getter_AddRefs
 (
 mRealizedBitmap
 )
@@ -532,7 +532,7 @@ MOZ_ASSERT
 mRealizedBitmap
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Bitmap1
 >
@@ -596,7 +596,7 @@ ID2D1Bitmap1
 *
 *
 )
-byRef
+getter_AddRefs
 (
 mRealizedBitmap
 )

@@ -913,7 +913,7 @@ InitializeDXVA
 aForceD3D9
 )
 ;
-RefPtr
+nsRefPtr
 <
 MFTDecoder
 >
@@ -947,7 +947,7 @@ hr
 false
 )
 ;
-RefPtr
+nsRefPtr
 <
 IMFAttributes
 >
@@ -1214,7 +1214,7 @@ SetDecoderMediaTypes
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 IMFMediaType
 >
@@ -1228,7 +1228,7 @@ wmf
 :
 MFCreateMediaType
 (
-byRef
+getter_AddRefs
 (
 inputType
 )
@@ -1305,7 +1305,7 @@ hr
 hr
 )
 ;
-RefPtr
+nsRefPtr
 <
 IMFMediaType
 >
@@ -1318,7 +1318,7 @@ wmf
 :
 MFCreateMediaType
 (
-byRef
+getter_AddRefs
 (
 outputType
 )
@@ -1533,7 +1533,7 @@ ConfigureVideoFrameGeometry
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 IMFMediaType
 >
@@ -1931,7 +1931,7 @@ nullptr
 HRESULT
 hr
 ;
-RefPtr
+nsRefPtr
 <
 IMFMediaBuffer
 >
@@ -1944,7 +1944,7 @@ aSample
 >
 ConvertToContiguousBuffer
 (
-byRef
+getter_AddRefs
 (
 buffer
 )
@@ -1970,7 +1970,7 @@ stride
 =
 0
 ;
-RefPtr
+nsRefPtr
 <
 IMF2DBuffer
 >
@@ -1990,7 +1990,7 @@ IMF2DBuffer
 *
 >
 (
-byRef
+getter_AddRefs
 (
 twoDBuffer
 )
@@ -2662,7 +2662,7 @@ MediaData
 aOutData
 )
 {
-RefPtr
+nsRefPtr
 <
 IMFSample
 >

@@ -48,7 +48,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -368,7 +368,7 @@ height
 4
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >

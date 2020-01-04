@@ -635,7 +635,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

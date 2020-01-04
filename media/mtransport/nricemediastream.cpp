@@ -579,7 +579,7 @@ forget
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 NrIceMediaStream
 >
@@ -602,7 +602,7 @@ int
 components
 )
 {
-RefPtr
+nsRefPtr
 <
 NrIceMediaStream
 >

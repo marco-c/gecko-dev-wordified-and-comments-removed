@@ -41,7 +41,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -322,7 +322,7 @@ IntSize
 aSize
 )
 {
-RefPtr
+nsRefPtr
 <
 CompositingRenderTargetOGL
 >
@@ -611,7 +611,7 @@ InitializeImpl
 InitParams
 mInitParams
 ;
-RefPtr
+nsRefPtr
 <
 CompositorOGL
 >

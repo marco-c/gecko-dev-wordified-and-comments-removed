@@ -36,7 +36,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -263,7 +263,7 @@ nsICanvasRenderingContextInternal
 *
 mContext
 ;
-RefPtr
+nsRefPtr
 <
 gl
 :
@@ -307,7 +307,7 @@ CanvasClient
 *
 mCanvasClient
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :

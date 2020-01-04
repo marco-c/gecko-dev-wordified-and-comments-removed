@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -38,7 +38,7 @@ SharedSurface
 private
 :
 const
-RefPtr
+nsRefPtr
 <
 MacIOSurface
 >
@@ -57,7 +57,7 @@ SharedSurface_IOSurface
 Create
 (
 const
-RefPtr
+nsRefPtr
 <
 MacIOSurface
 >
@@ -75,7 +75,7 @@ private
 SharedSurface_IOSurface
 (
 const
-RefPtr
+nsRefPtr
 <
 MacIOSurface
 >
@@ -325,7 +325,7 @@ SurfaceCaps
 &
 caps
 const
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -362,7 +362,7 @@ SurfaceCaps
 &
 caps
 const
-RefPtr
+nsRefPtr
 <
 layers
 :

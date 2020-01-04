@@ -43,7 +43,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -171,7 +171,7 @@ drawTarget
 true
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >

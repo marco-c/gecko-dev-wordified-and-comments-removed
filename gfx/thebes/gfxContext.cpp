@@ -1008,7 +1008,7 @@ EnsurePath
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -4083,7 +4083,7 @@ Category
 GRAPHICS
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -4618,7 +4618,7 @@ oldDT
 =
 mDT
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -4939,7 +4939,7 @@ PopGroup
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -5023,7 +5023,7 @@ Matrix
 aTransform
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -5098,7 +5098,7 @@ PopGroupToSource
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -5630,7 +5630,7 @@ mPathTransform
 *
 invTransform
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -6740,7 +6740,7 @@ Optimal2DFormatForContent
 content
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >

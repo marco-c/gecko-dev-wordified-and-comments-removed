@@ -35,7 +35,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -4578,7 +4578,7 @@ aImage
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -4635,7 +4635,7 @@ SurfaceFormat
 B8G8R8X8
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >

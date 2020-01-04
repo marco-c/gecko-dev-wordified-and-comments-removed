@@ -406,7 +406,7 @@ textureChild
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 TextureClient
 >

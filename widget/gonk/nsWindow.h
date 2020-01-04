@@ -553,10 +553,7 @@ nsIIdleServiceInternal
 >
 mIdleService
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -576,10 +573,7 @@ uint8_t
 *
 mMappedBuffer
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 mozilla
 :

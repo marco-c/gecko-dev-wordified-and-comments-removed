@@ -3612,7 +3612,7 @@ elem
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -5539,7 +5539,7 @@ elem
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :

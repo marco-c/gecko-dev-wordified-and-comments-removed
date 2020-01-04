@@ -58,7 +58,7 @@ CairoClip918671
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -84,7 +84,7 @@ SurfaceFormat
 B8G8R8A8
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -110,7 +110,7 @@ SurfaceFormat
 B8G8R8A8
 )
 ;
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -233,7 +233,7 @@ Close
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -254,7 +254,7 @@ PushClip
 path1
 )
 ;
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -322,7 +322,7 @@ Close
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -366,7 +366,7 @@ Color
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -379,7 +379,7 @@ Snapshot
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -392,7 +392,7 @@ Snapshot
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -405,7 +405,7 @@ GetDataSurface
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -501,7 +501,7 @@ PushPopClip950550
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >

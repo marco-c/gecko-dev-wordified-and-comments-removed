@@ -41,7 +41,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -228,7 +228,7 @@ mVideoHeight
 nsIntRect
 mPictureRegion
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -243,7 +243,7 @@ DXVA2Manager
 >
 mDXVA2Manager
 ;
-RefPtr
+nsRefPtr
 <
 IMFSample
 >

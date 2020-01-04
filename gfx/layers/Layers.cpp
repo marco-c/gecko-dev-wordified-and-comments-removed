@@ -905,7 +905,7 @@ SurfaceFormat
 aFormat
 )
 {
-RefPtr
+nsRefPtr
 <
 PersistentBufferProviderBasic
 >
@@ -8767,7 +8767,7 @@ DrawTarget
 aTarget
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -8780,7 +8780,7 @@ Snapshot
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >

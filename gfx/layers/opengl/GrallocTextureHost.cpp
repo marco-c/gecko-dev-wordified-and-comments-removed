@@ -1099,7 +1099,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -1161,7 +1161,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfx
 :

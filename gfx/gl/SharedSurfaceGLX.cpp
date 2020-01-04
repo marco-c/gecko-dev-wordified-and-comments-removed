@@ -167,7 +167,7 @@ gfxImageFormat
 ARGB32
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxXlibSurface
 >
@@ -234,7 +234,7 @@ size
 bool
 inSameProcess
 const
-RefPtr
+nsRefPtr
 <
 gfxXlibSurface
 >
@@ -411,7 +411,7 @@ MOZ_ASSERT
 out_surface
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -639,7 +639,7 @@ SurfaceCaps
 &
 caps
 const
-RefPtr
+nsRefPtr
 <
 layers
 :

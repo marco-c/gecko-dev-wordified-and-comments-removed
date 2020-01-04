@@ -317,7 +317,7 @@ onSTSThread
 ;
 #
 endif
-RefPtr
+nsRefPtr
 <
 MainThreadClearer
 >

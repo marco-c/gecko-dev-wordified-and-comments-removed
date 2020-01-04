@@ -360,12 +360,6 @@ gfx
 :
 SourceSurface
 ;
-using
-mozilla
-:
-:
-RefPtr
-;
 static
 const
 uint32_t
@@ -2432,7 +2426,7 @@ origHeight
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

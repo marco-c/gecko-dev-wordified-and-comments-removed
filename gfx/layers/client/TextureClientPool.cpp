@@ -466,7 +466,7 @@ GetTextureClient
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 TextureClient
 >

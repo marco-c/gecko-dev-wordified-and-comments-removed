@@ -54,7 +54,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -256,7 +256,7 @@ forget
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -265,7 +265,7 @@ Image
 >
 mImage
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -1607,7 +1607,7 @@ aOptions
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -1616,7 +1616,7 @@ DataSourceSurface
 >
 dataSurface
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -1736,7 +1736,7 @@ aEncoder
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >

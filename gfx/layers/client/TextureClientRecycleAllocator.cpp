@@ -91,7 +91,7 @@ nullptr
 }
 protected
 :
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
@@ -229,10 +229,7 @@ mFlags
 }
 private
 :
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
@@ -312,7 +309,7 @@ TextureFlags
 :
 RECYCLE
 ;
-RefPtr
+nsRefPtr
 <
 TextureClientHolder
 >
@@ -453,7 +450,7 @@ if
 textureHolder
 )
 {
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
@@ -529,7 +526,7 @@ GetTextureClient
 textureHolder
 ;
 }
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
@@ -612,7 +609,7 @@ TextureClient
 aClient
 )
 {
-RefPtr
+nsRefPtr
 <
 TextureClientRecycleAllocator
 >
@@ -629,7 +626,7 @@ SetRecycleAllocator
 nullptr
 )
 ;
-RefPtr
+nsRefPtr
 <
 TextureClientHolder
 >

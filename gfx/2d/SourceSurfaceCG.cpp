@@ -132,7 +132,7 @@ CGImageRetain
 mImage
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -1346,7 +1346,7 @@ NativeSurfaceType
 CGCONTEXT_ACCELERATED
 )
 ;
-RefPtr
+nsRefPtr
 <
 MacIOSurface
 >

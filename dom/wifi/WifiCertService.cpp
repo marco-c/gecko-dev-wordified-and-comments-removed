@@ -41,7 +41,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1865,7 +1865,7 @@ Blob
 aCertBlob
 )
 ;
-RefPtr
+nsRefPtr
 <
 CryptoTask
 >
@@ -1906,7 +1906,7 @@ nsAString
 aCertNickname
 )
 {
-RefPtr
+nsRefPtr
 <
 CryptoTask
 >

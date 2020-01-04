@@ -1076,7 +1076,7 @@ i
 i
 )
 {
-RefPtr
+nsRefPtr
 <
 TextureClient
 >
@@ -1193,7 +1193,7 @@ static
 void
 CreateImageClientSync
 (
-RefPtr
+nsRefPtr
 <
 ImageClient
 >
@@ -1258,7 +1258,7 @@ CanvasClientType
 aType
 TextureFlags
 aFlags
-RefPtr
+nsRefPtr
 <
 CanvasClient
 >
@@ -2642,7 +2642,7 @@ thread
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 AsyncTransactionWaiter
 >
@@ -3600,7 +3600,7 @@ done
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 ImageClient
 >
@@ -3693,7 +3693,7 @@ GetPImageContainerChild
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 ImageClient
 >
@@ -3798,7 +3798,7 @@ done
 =
 false
 ;
-RefPtr
+nsRefPtr
 <
 CanvasClient
 >
@@ -3868,7 +3868,7 @@ TextureFlags
 aFlag
 )
 {
-RefPtr
+nsRefPtr
 <
 CanvasClient
 >
@@ -4043,7 +4043,7 @@ false
 struct
 AllocShmemParams
 {
-RefPtr
+nsRefPtr
 <
 ISurfaceAllocator
 >
@@ -4692,7 +4692,7 @@ textureChild
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 TextureClient
 >

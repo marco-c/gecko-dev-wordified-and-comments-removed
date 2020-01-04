@@ -1252,7 +1252,7 @@ return
 NS_OK
 ;
 }
-RefPtr
+nsRefPtr
 <
 SharedCertVerifier
 >
@@ -3922,7 +3922,7 @@ mErrorCode
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsNSSSocketInfo
 >
@@ -4630,7 +4630,7 @@ GetErrorCode
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 SyncRunnableBase
 >
@@ -7421,7 +7421,7 @@ isPublic
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsRunnable
 >
@@ -8720,7 +8720,7 @@ return
 SECFailure
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsNSSSocketInfo
 >
@@ -8839,7 +8839,7 @@ return
 SECSuccess
 ;
 }
-RefPtr
+nsRefPtr
 <
 ClientAuthDataRunnable
 >
@@ -9411,7 +9411,7 @@ hostname
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsClientAuthRememberService
 >
@@ -10113,7 +10113,7 @@ node
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsNSSCertificate
 >

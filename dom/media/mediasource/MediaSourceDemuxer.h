@@ -308,7 +308,7 @@ IsCurrentThreadIn
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 TaskQueue
 >

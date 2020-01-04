@@ -1669,7 +1669,7 @@ if
 skip
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >
@@ -1881,7 +1881,7 @@ GetSize
 0
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >

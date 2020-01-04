@@ -6178,7 +6178,7 @@ Save
 )
 ;
 {
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -6222,7 +6222,7 @@ frameGfxRect
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -7303,7 +7303,7 @@ if
 hasBorderRadius
 )
 {
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -8556,7 +8556,7 @@ EnsureSaved
 aCtx
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -8826,7 +8826,7 @@ Clip
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -13257,10 +13257,7 @@ stopOrigin
 )
 ;
 }
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -18167,7 +18164,7 @@ y
 endBevelOffset
 ;
 }
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -18231,7 +18228,7 @@ Close
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -21032,7 +21029,7 @@ skipCycles
 cycleLength
 ;
 }
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -21044,7 +21041,7 @@ CreatePathBuilder
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -25895,7 +25892,7 @@ if
 aCornerRadii
 )
 {
-RefPtr
+nsRefPtr
 <
 Path
 >

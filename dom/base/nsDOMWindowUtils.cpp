@@ -6457,7 +6457,7 @@ nullptr
 return
 NS_ERROR_FAILURE
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -6468,7 +6468,7 @@ CanvasToDataSourceSurface
 aCanvas1
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -10584,7 +10584,7 @@ AdvanceTimeAndRefresh
 aMilliseconds
 )
 ;
-RefPtr
+nsRefPtr
 <
 LayerTransactionChild
 >
@@ -10634,7 +10634,7 @@ RestoreNormalRefresh
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 LayerTransactionChild
 >

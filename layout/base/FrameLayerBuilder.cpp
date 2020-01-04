@@ -14762,7 +14762,7 @@ ToOutsidePixels
 appUnitsPerDevPixel
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -14974,7 +14974,7 @@ sDumpPainting
 tempDT
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -24688,7 +24688,7 @@ AppUnitsPerDevPixel
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -24762,7 +24762,7 @@ aBuilder
 ctx
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -27472,7 +27472,7 @@ height
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -27565,7 +27565,7 @@ mAppUnitsPerDevPixel
 aRoundedRectClipCount
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
