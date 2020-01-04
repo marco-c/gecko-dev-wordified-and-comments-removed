@@ -1853,7 +1853,7 @@ WriteParam
 aMsg
 aParam
 .
-width
+mWidth
 )
 ;
 WriteParam
@@ -1946,7 +1946,7 @@ aIter
 aResult
 -
 >
-width
+mWidth
 )
 &
 &

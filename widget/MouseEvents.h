@@ -1946,7 +1946,7 @@ WidgetPointerEvent
 (
 )
 :
-width
+mWidth
 (
 0
 )
@@ -1993,7 +1993,7 @@ w
 ePointerEventClass
 eReal
 )
-width
+mWidth
 (
 0
 )
@@ -2020,7 +2020,7 @@ WidgetMouseEvent
 (
 aEvent
 )
-width
+mWidth
 (
 0
 )
@@ -2100,7 +2100,7 @@ result
 ;
 }
 uint32_t
-width
+mWidth
 ;
 uint32_t
 height
@@ -2125,11 +2125,11 @@ aEvent
 aCopyTargets
 )
 ;
-width
+mWidth
 =
 aEvent
 .
-width
+mWidth
 ;
 height
 =
