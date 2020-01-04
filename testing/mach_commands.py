@@ -4692,15 +4692,6 @@ import
 TestResolver
         
 from
-mozbuild
-.
-controller
-.
-building
-import
-BuildDriver
-        
-from
 autotry
 import
 AutoTry
@@ -4970,24 +4961,6 @@ paths
 or
 tags
 :
-            
-driver
-=
-self
-.
-_spawn
-(
-BuildDriver
-)
-            
-driver
-.
-install_tests
-(
-remove
-=
-False
-)
             
 paths
 =

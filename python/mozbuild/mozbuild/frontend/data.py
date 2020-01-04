@@ -3050,6 +3050,10 @@ external_installs
 '
         
 '
+deferred_installs
+'
+        
+'
 path
 '
         
@@ -3194,6 +3198,14 @@ tests
 self
 .
 external_installs
+=
+set
+(
+)
+        
+self
+.
+deferred_installs
 =
 set
 (

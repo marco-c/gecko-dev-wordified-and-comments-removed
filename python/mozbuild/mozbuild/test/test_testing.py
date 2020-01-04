@@ -2530,6 +2530,19 @@ topobjdir
 topobjdir
 )
         
+TestResolver
+.
+_run_make
+=
+lambda
+*
+a
+*
+*
+b
+:
+None
+        
 return
 o
 .

@@ -2660,15 +2660,6 @@ manifest
 =
 m
         
-self
-.
-_ensure_state_subdir_exists
-(
-'
-.
-'
-)
-        
 driver
 =
 self
@@ -2682,9 +2673,16 @@ driver
 .
 install_tests
 (
-remove
-=
-False
+test_objects
+)
+        
+self
+.
+_ensure_state_subdir_exists
+(
+'
+.
+'
 )
         
 params
