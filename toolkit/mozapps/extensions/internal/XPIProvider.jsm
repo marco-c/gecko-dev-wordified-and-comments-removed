@@ -11886,6 +11886,18 @@ false
 ;
 if
 (
+ResProtocolHandler
+.
+hasSubstitution
+(
+"
+devtools
+"
+)
+)
+{
+if
+(
 Cu
 .
 isModuleLoaded
@@ -11945,6 +11957,7 @@ NOTIFICATION_TOOLBOXPROCESS_LOADED
 false
 )
 ;
+}
 }
 let
 flushCaches
