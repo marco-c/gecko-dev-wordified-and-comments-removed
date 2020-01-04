@@ -57635,7 +57635,10 @@ TemporaryTypeSet
 observed
 )
 ;
+ResultWithOOM
+<
 BarrierKind
+>
 PropertyReadOnPrototypeNeedsTypeBarrier
 (
 IonBuilder
