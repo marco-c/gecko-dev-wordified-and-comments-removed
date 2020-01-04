@@ -8325,10 +8325,6 @@ DisableMD5
 (
 )
 ;
-InitCertVerifierLog
-(
-)
-;
 LoadLoadableRoots
 (
 )
