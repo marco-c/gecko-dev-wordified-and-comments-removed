@@ -203,6 +203,13 @@ h
 #
 include
 "
+nsIImageLoadingContent
+.
+h
+"
+#
+include
+"
 nsMargin
 .
 h
@@ -3456,7 +3463,7 @@ false
 ;
 virtual
 void
-MarkFrameVisibleInDisplayPort
+EnsureFrameInApproximatelyVisibleList
 (
 nsIFrame
 *
@@ -3467,7 +3474,7 @@ aFrame
 ;
 virtual
 void
-MarkFrameNonvisible
+RemoveFrameFromApproximatelyVisibleList
 (
 nsIFrame
 *

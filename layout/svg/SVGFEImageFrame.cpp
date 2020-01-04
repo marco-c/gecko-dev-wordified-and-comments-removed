@@ -295,12 +295,8 @@ nsIFrame
 aDestructRoot
 )
 {
-DecVisibilityCount
+DecApproximateVisibleCount
 (
-VisibilityCounter
-:
-:
-IN_DISPLAYPORT
 )
 ;
 nsCOMPtr
@@ -402,12 +398,8 @@ aParent
 aPrevInFlow
 )
 ;
-IncVisibilityCount
+IncApproximateVisibleCount
 (
-VisibilityCounter
-:
-:
-IN_DISPLAYPORT
 )
 ;
 nsCOMPtr

@@ -625,12 +625,8 @@ GetStateBits
 NS_FRAME_IS_NONDISPLAY
 )
 {
-IncVisibilityCount
+IncApproximateVisibleCount
 (
-VisibilityCounter
-:
-:
-IN_DISPLAYPORT
 )
 ;
 }
@@ -712,12 +708,8 @@ GetStateBits
 NS_FRAME_IS_NONDISPLAY
 )
 {
-DecVisibilityCount
+DecApproximateVisibleCount
 (
-VisibilityCounter
-:
-:
-IN_DISPLAYPORT
 )
 ;
 }
