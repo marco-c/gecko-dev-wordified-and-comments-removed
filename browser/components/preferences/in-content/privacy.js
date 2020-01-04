@@ -1773,6 +1773,8 @@ autoStart
 .
 checked
 1
+true
+false
 )
 ;
 if
