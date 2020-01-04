@@ -1608,5 +1608,16 @@ return
 Success
 ;
 }
+void
+AppTrustDomain
+:
+:
+NoteAuxiliaryExtension
+(
+AuxiliaryExtension
+Input
+)
+{
+}
 }
 }

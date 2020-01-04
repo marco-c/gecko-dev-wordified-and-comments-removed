@@ -909,6 +909,17 @@ return
 Success
 ;
 }
+void
+CSTrustDomain
+:
+:
+NoteAuxiliaryExtension
+(
+AuxiliaryExtension
+Input
+)
+{
+}
 Result
 CSTrustDomain
 :

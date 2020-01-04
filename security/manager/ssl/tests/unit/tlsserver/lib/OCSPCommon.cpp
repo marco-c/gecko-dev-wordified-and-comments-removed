@@ -1069,7 +1069,7 @@ nullptr
 ;
 context
 .
-extensions
+responseExtensions
 =
 &
 extension

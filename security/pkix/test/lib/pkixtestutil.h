@@ -1293,6 +1293,10 @@ final
 {
 public
 :
+OCSPResponseExtension
+(
+)
+;
 ByteString
 id
 ;
@@ -1372,7 +1376,11 @@ producedAt
 ;
 OCSPResponseExtension
 *
-extensions
+singleExtensions
+;
+OCSPResponseExtension
+*
+responseExtensions
 ;
 bool
 includeEmptyExtensions

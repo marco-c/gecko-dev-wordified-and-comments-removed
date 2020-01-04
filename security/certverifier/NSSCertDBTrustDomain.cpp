@@ -4518,6 +4518,17 @@ Result
 FATAL_ERROR_LIBRARY_FAILURE
 ;
 }
+void
+NSSCertDBTrustDomain
+:
+:
+NoteAuxiliaryExtension
+(
+AuxiliaryExtension
+Input
+)
+{
+}
 SECStatus
 InitializeNSS
 (
