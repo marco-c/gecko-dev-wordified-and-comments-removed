@@ -1837,14 +1837,6 @@ FCC0
 public
 :
 void
-ma_callJit
-(
-const
-Register
-reg
-)
-;
-void
 ma_callJitNoPush
 (
 const
