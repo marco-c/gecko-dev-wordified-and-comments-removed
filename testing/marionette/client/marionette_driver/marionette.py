@@ -8362,6 +8362,8 @@ baseurl
 relative_url
 )
     
+do_process_check
+    
 def
 start_session
 (
