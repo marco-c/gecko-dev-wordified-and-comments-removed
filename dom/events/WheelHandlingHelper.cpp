@@ -454,7 +454,7 @@ aEvent
 mMessage
 =
 =
-NS_WHEEL_WHEEL
+eWheel
 "
 Transaction
 must
@@ -758,7 +758,7 @@ mMessage
 )
 {
 case
-NS_WHEEL_WHEEL
+eWheel
 :
 if
 (

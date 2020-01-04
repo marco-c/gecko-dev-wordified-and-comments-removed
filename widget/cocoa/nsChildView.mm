@@ -15369,7 +15369,7 @@ WidgetWheelEvent
 event
 (
 true
-NS_WHEEL_WHEEL
+eWheel
 this
 )
 ;
@@ -15712,7 +15712,7 @@ event
 mMessage
 =
 =
-NS_WHEEL_WHEEL
+eWheel
 &
 &
 (
@@ -15986,7 +15986,7 @@ event
 mMessage
 =
 =
-NS_WHEEL_WHEEL
+eWheel
 &
 &
 (

@@ -1093,7 +1093,7 @@ WidgetWheelEvent
 wheelEvent
 (
 true
-NS_WHEEL_WHEEL
+eWheel
 aWidget
 )
 ;
@@ -1438,7 +1438,7 @@ WidgetWheelEvent
 wheelEvent
 (
 true
-NS_WHEEL_WHEEL
+eWheel
 aWidget
 )
 ;

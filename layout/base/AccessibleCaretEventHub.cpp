@@ -2223,12 +2223,12 @@ mMessage
 )
 {
 case
-NS_WHEEL_WHEEL
+eWheel
 :
 AC_LOGV
 (
 "
-NS_WHEEL_WHEEL
+eWheel
 isMomentum
 %
 d

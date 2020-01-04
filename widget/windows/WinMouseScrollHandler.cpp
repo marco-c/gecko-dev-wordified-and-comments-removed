@@ -3027,7 +3027,7 @@ WidgetWheelEvent
 wheelEvent
 (
 true
-NS_WHEEL_WHEEL
+eWheel
 aWidget
 )
 ;
@@ -3060,7 +3060,7 @@ HandleMouseWheelMessage
 dispatching
 "
 "
-NS_WHEEL_WHEEL
+eWheel
 event
 "
 )
@@ -3106,7 +3106,7 @@ destroyed
 "
 "
 by
-NS_WHEEL_WHEEL
+eWheel
 event
 "
 )
@@ -3138,7 +3138,7 @@ MouseScroll
 :
 HandleMouseWheelMessage
 :
-NS_WHEEL_WHEEL
+eWheel
 event
 is
 not
@@ -3212,7 +3212,7 @@ WidgetWheelEvent
 wheelEvent
 (
 true
-NS_WHEEL_WHEEL
+eWheel
 aWidget
 )
 ;
@@ -3979,7 +3979,7 @@ aWheelEvent
 mMessage
 =
 =
-NS_WHEEL_WHEEL
+eWheel
 )
 ;
 InitEvent

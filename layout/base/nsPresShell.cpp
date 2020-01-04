@@ -2302,7 +2302,7 @@ mEvent
 mMessage
 =
 =
-NS_WHEEL_WHEEL
+eWheel
 &
 &
 aVisitor

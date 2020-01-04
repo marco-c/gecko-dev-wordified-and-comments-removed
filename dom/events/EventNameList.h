@@ -786,7 +786,7 @@ eBasicEventClass
 EVENT
 (
 wheel
-NS_WHEEL_WHEEL
+eWheel
 EventNameType_All
 eWheelEventClass
 )
