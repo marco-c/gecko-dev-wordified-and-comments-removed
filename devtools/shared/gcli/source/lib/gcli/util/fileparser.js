@@ -438,7 +438,7 @@ exports
 .
 supportsPredictions
 =
-true
+false
 ;
 function
 getPredictor
