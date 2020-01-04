@@ -710,13 +710,6 @@ MenuItem_android_icon
 0
 )
 ;
-if
-(
-Versions
-.
-feature11Plus
-)
-{
 item
 .
 showAsAction
@@ -733,7 +726,6 @@ MenuItem_android_showAsAction
 0
 )
 ;
-}
 a
 .
 recycle
