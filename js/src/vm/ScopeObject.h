@@ -3558,6 +3558,16 @@ jsbytecode
 pc
 )
 ;
+extern
+JSObject
+*
+GetDebugScopeForGlobalLexicalScope
+(
+JSContext
+*
+cx
+)
+;
 class
 DebugScopeObject
 :
