@@ -750,6 +750,16 @@ MarkContextClean
 (
 )
 ;
+void
+MarkContextCleanForFrameCapture
+(
+)
+;
+bool
+IsContextCleanForFrameCapture
+(
+)
+;
 nsresult
 GetContext
 (
