@@ -68,15 +68,6 @@ aTaskQueueIdentity
 )
 ;
 virtual
-bool
-OnStateMachineTaskQueue
-(
-)
-const
-final
-override
-;
-virtual
 MediaResource
 *
 GetResource

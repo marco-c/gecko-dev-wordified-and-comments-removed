@@ -136,15 +136,6 @@ false
 ;
 }
 virtual
-bool
-OnStateMachineTaskQueue
-(
-)
-const
-=
-0
-;
-virtual
 MediaResource
 *
 GetResource

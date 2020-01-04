@@ -543,14 +543,6 @@ MOZ_ASSERT
 OnTaskQueue
 (
 )
-|
-|
-mDecoder
--
->
-OnStateMachineTaskQueue
-(
-)
 )
 ;
 return
