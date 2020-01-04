@@ -4850,20 +4850,6 @@ suite
 options
 '
 ]
-+
-suites
-[
-suite
-]
-.
-get
-(
-"
-tests
-"
-[
-]
-)
                     
 env
 =
@@ -4875,15 +4861,11 @@ suites
 [
 suite
 ]
-.
-get
-(
+[
 '
 env
 '
-{
-}
-)
+]
 )
                 
 else
