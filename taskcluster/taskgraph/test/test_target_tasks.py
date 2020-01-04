@@ -53,7 +53,11 @@ task_graph
 )
 :
         
-pass
+self
+.
+trigger_tests
+=
+0
     
 def
 task_matches
