@@ -105,9 +105,16 @@ SANDBOXED_ORIENTATION_LOCK
 const
 unsigned
 long
+SANDBOXED_PRESENTATION
+=
+0x4000
+;
+const
+unsigned
+long
 SANDBOX_ALL_FLAGS
 =
-0x3FFF
+0x7FFF
 ;
 #
 endif
