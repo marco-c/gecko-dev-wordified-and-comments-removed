@@ -1839,12 +1839,8 @@ aRv
 override
 ;
 nsresult
-CreateReadystatechangeEvent
+FireReadystatechangeEvent
 (
-nsIDOMEvent
-*
-*
-aDOMEvent
 )
 ;
 void
