@@ -11183,11 +11183,6 @@ offset
 return
 false
 ;
-bool
-accessNeedsBoundsCheck
-=
-true
-;
 if
 (
 endOffset
@@ -11200,7 +11195,7 @@ mirGen
 .
 foldableOffsetRange
 (
-accessNeedsBoundsCheck
+true
 bool
 (
 atomic
