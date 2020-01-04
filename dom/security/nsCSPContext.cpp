@@ -2671,7 +2671,8 @@ true
 }
 else
 {
-NS_WARNING
+CSPCONTEXTLOG
+(
 (
 "
 No
@@ -2690,6 +2691,7 @@ may
 fail
 .
 "
+)
 )
 ;
 mLoadingPrincipal
