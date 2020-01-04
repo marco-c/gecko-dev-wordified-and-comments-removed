@@ -5098,8 +5098,6 @@ isConstant
 )
 )
 {
-masm
-.
 atomicBinopToTypedIntArray
 (
 op
@@ -5141,8 +5139,6 @@ output
 }
 else
 {
-masm
-.
 atomicBinopToTypedIntArray
 (
 op
@@ -5319,8 +5315,6 @@ isConstant
 (
 )
 )
-masm
-.
 atomicBinopToTypedIntArray
 (
 op
@@ -5336,8 +5330,6 @@ memAddr
 )
 ;
 else
-masm
-.
 atomicBinopToTypedIntArray
 (
 op
