@@ -121,6 +121,7 @@ uint8_t
 *
 dst
 )
+const
 {
 switch
 (

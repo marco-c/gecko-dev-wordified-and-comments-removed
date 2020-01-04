@@ -1611,6 +1611,9 @@ funcExports
 SigWithIdVector
 sigIds
 ;
+GlobalDescVector
+globals
+;
 TableDescVector
 tables
 ;
