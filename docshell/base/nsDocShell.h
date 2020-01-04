@@ -2641,6 +2641,9 @@ GetInheritedPaymentRequestId
 (
 )
 ;
+nsString
+mSignedPkg
+;
 private
 :
 nsCString
