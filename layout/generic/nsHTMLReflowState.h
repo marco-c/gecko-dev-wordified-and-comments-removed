@@ -2009,6 +2009,11 @@ mShrinkWrap
 :
 1
 ;
+uint16_t
+mStaticPosIsCBOrigin
+:
+1
+;
 }
 mFlags
 ;
@@ -2257,6 +2262,14 @@ COMPUTE_SIZE_SHRINK_WRAP
 <
 <
 2
+)
+STATIC_POS_IS_CB_ORIGIN
+=
+(
+1
+<
+<
+3
 )
 }
 ;
