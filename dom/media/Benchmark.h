@@ -399,6 +399,17 @@ char
 sBenchmarkFpsPref
 ;
 static
+const
+char
+*
+sBenchmarkFpsVersionCheck
+;
+static
+const
+uint32_t
+sBenchmarkVersionID
+;
+static
 bool
 sHasRunTest
 ;
