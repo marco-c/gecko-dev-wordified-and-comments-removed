@@ -184,6 +184,11 @@ nsPrintPreviewListener
 .
 cpp
 '
+'
+PrintTranslator
+.
+cpp
+'
 ]
 IPDL_SOURCES
 =

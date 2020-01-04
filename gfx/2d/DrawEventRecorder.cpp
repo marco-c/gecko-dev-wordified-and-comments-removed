@@ -29,12 +29,6 @@ using
 namespace
 std
 ;
-const
-uint32_t
-kMagicInt
-=
-0xc001feed
-;
 DrawEventRecorderPrivate
 :
 :
