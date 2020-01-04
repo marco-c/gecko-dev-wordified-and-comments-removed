@@ -3356,7 +3356,7 @@ alloc
 )
 LApplyArrayGeneric
 (
-useFixed
+useFixedAtStart
 (
 apply
 -
@@ -3366,7 +3366,7 @@ getFunction
 )
 CallTempReg3
 )
-useFixed
+useFixedAtStart
 (
 apply
 -
