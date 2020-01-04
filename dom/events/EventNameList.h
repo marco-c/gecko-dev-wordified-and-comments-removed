@@ -1081,7 +1081,7 @@ eBasicEventClass
 DOCUMENT_ONLY_EVENT
 (
 selectionchange
-NS_SELECTION_CHANGE
+eSelectionChange
 EventNameType_HTMLXUL
 eBasicEventClass
 )
