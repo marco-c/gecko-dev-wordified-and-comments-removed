@@ -785,6 +785,13 @@ aOpaqueRegion
 LayerIntRegion
 &
 aVisibleRegion
+const
+Maybe
+<
+ParentLayerIntRect
+>
+&
+aClipFromAncestors
 )
 ;
 class
