@@ -11,6 +11,19 @@ mozilla
 /
 dom
 /
+ipc
+/
+IdType
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 PPresentationBuilderParent
 .
 h
@@ -90,6 +103,8 @@ PresentationParent
 bool
 Init
 (
+ContentParentId
+aContentParentId
 )
 ;
 bool
@@ -324,6 +339,9 @@ uint64_t
 >
 mWindowIds
 ;
+ContentParentId
+mChildId
+;
 }
 ;
 class
@@ -349,6 +367,8 @@ PresentationRequestParent
 nsIPresentationService
 *
 aService
+ContentParentId
+aContentParentId
 )
 ;
 virtual
@@ -447,6 +467,9 @@ nsCOMPtr
 nsIPresentationService
 >
 mService
+;
+ContentParentId
+mChildId
 ;
 }
 ;

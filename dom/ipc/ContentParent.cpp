@@ -16817,6 +16817,7 @@ aActor
 >
 Init
 (
+mChildID
 )
 ;
 }
