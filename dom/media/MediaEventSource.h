@@ -149,7 +149,7 @@ mRevoked
 ;
 enum
 class
-ListenerMode
+ListenerPolicy
 :
 int8_t
 {
@@ -1341,8 +1341,8 @@ mHelper
 ;
 template
 <
-ListenerMode
-Mode
+ListenerPolicy
+Lp
 >
 struct
 PassModePicker
@@ -1352,10 +1352,10 @@ const
 EventPassMode
 Value
 =
-Mode
+Lp
 =
 =
-ListenerMode
+ListenerPolicy
 :
 :
 NonExclusive
@@ -1441,7 +1441,7 @@ value
 }
 template
 <
-ListenerMode
+ListenerPolicy
 typename
 .
 .
@@ -1456,7 +1456,7 @@ MediaEventListener
 {
 template
 <
-ListenerMode
+ListenerPolicy
 typename
 .
 .
@@ -1609,8 +1609,8 @@ mToken
 ;
 template
 <
-ListenerMode
-Mode
+ListenerPolicy
+Lp
 typename
 .
 .
@@ -1679,7 +1679,7 @@ detail
 :
 PassModePicker
 <
-Mode
+Lp
 >
 :
 :
@@ -1772,10 +1772,10 @@ mMutex
 ;
 MOZ_ASSERT
 (
-Mode
+Lp
 =
 =
-ListenerMode
+ListenerPolicy
 :
 :
 NonExclusive
@@ -2268,7 +2268,7 @@ MediaEventSource
 =
 MediaEventSourceImpl
 <
-ListenerMode
+ListenerPolicy
 :
 :
 NonExclusive
@@ -2291,7 +2291,7 @@ MediaEventSourceExc
 =
 MediaEventSourceImpl
 <
-ListenerMode
+ListenerPolicy
 :
 :
 Exclusive
