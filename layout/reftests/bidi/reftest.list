@@ -2853,7 +2853,6 @@ embed
 ref
 .
 html
-fails
 =
 =
 brackets
@@ -2872,7 +2871,6 @@ ltr
 ref
 .
 html
-fails
 =
 =
 brackets
@@ -2963,7 +2961,6 @@ rtl
 ref
 .
 html
-fails
 =
 =
 brackets
@@ -2982,7 +2979,6 @@ ltr
 ref
 .
 html
-fails
 =
 =
 brackets
@@ -3091,7 +3087,6 @@ ltr
 ref
 .
 html
-fails
 =
 =
 brackets
@@ -3110,7 +3105,6 @@ rtl
 ref
 .
 html
-fails
 =
 =
 brackets
