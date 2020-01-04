@@ -213,11 +213,6 @@ Clear
 )
 ;
 void
-PurgeActiveWorker
-(
-)
-;
-void
 TryToActivateAsync
 (
 )
@@ -253,6 +248,8 @@ const
 void
 NotifyListenersOnChange
 (
+WhichServiceWorker
+aChangedWorkers
 )
 ;
 void
@@ -292,6 +289,11 @@ GetActive
 const
 ;
 void
+ClearInstalling
+(
+)
+;
+void
 SetInstalling
 (
 ServiceWorkerInfo
@@ -300,11 +302,8 @@ aServiceWorker
 )
 ;
 void
-SetWaiting
+TransitionInstallingToWaiting
 (
-ServiceWorkerInfo
-*
-aServiceWorker
 )
 ;
 void
@@ -313,6 +312,11 @@ SetActive
 ServiceWorkerInfo
 *
 aServiceWorker
+)
+;
+void
+TransitionWaitingToActive
+(
 )
 ;
 }
