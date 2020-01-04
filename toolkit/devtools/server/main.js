@@ -2633,9 +2633,6 @@ PromisesActor
 type
 :
 {
-global
-:
-true
 tab
 :
 true
