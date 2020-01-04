@@ -1074,6 +1074,18 @@ error_summary_file
 )
 s
 "
+                        
+"
+-
+-
+test
+-
+plugin
+-
+path
+=
+none
+"
                     
 ]
         
