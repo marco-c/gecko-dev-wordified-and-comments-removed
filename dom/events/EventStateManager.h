@@ -1848,7 +1848,7 @@ aAddState
 )
 ;
 static
-PLDHashOperator
+void
 ResetLastOverForContent
 (
 const
@@ -1861,7 +1861,7 @@ OverOutElementsWrapper
 >
 &
 aChunk
-void
+nsIContent
 *
 aClosure
 )
