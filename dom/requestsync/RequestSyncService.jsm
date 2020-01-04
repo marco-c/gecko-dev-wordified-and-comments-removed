@@ -509,9 +509,17 @@ addRegistration
 cursor
 .
 value
+function
+(
+)
+{
 cursor
 .
 continue
+(
+)
+;
+}
 )
 ;
 }
