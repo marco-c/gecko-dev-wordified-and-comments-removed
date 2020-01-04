@@ -1,9 +1,9 @@
 #
 ifndef
-jit_mips_shared_Bailouts_mips_shared_h
+jit_mips64_Bailouts_mips64_h
 #
 define
-jit_mips_shared_Bailouts_mips_shared_h
+jit_mips64_Bailouts_mips64_h
 #
 include
 "

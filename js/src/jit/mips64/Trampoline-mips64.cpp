@@ -64,15 +64,11 @@ include
 "
 jit
 /
-mips
--
-shared
+mips64
 /
 Bailouts
 -
-mips
--
-shared
+mips64
 .
 h
 "
