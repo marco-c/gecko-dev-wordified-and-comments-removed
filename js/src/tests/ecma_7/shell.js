@@ -1057,6 +1057,7 @@ Set
 var
 ab
 =
+new
 Map_
 (
 )
@@ -1064,6 +1065,7 @@ Map_
 var
 bpath
 =
+new
 Map_
 (
 )
