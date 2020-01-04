@@ -609,13 +609,6 @@ mReader
 IsWaitingAudioData
 (
 )
-|
-|
-mSeekRequest
-.
-Exists
-(
-)
 )
 {
 return
@@ -676,13 +669,6 @@ mReader
 -
 >
 IsWaitingVideoData
-(
-)
-|
-|
-mSeekRequest
-.
-Exists
 (
 )
 )
