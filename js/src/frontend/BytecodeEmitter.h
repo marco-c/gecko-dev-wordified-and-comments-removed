@@ -1521,11 +1521,13 @@ ParseNode
 pn
 )
 ;
+MOZ_MUST_USE
 bool
 popStatement
 (
 )
 ;
+MOZ_MUST_USE
 bool
 popStatement
 (
