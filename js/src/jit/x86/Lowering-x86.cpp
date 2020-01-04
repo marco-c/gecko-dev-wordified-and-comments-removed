@@ -2342,13 +2342,11 @@ alloc
 )
 LRandom
 (
-tempFixed
+temp
 (
-eax
 )
-tempFixed
+temp
 (
-edx
 )
 temp
 (

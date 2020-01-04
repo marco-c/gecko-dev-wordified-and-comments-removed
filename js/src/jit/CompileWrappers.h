@@ -340,6 +340,13 @@ addressOfEnumerators
 )
 ;
 const
+void
+*
+addressOfRandomNumberGenerator
+(
+)
+;
+const
 JitCompartment
 *
 jitCompartment
