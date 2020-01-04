@@ -667,12 +667,6 @@ const
 final
 override
 ;
-VideoFrameContainer
-*
-GetOverlayImageVideoFrameContainer
-(
-)
-;
 B2G_ACL_EXPORT
 virtual
 VideoFrameContainer
