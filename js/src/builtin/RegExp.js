@@ -2074,3 +2074,12 @@ true
 )
 ;
 }
+function
+RegExpSpecies
+(
+)
+{
+return
+this
+;
+}
