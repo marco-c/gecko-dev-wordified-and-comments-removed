@@ -41,17 +41,6 @@ JSONObject
 import
 org
 .
-json
-.
-simple
-.
-parser
-.
-ParseException
-;
-import
-org
-.
 junit
 .
 After
@@ -611,7 +600,6 @@ SyncConfigurationException
 IllegalArgumentException
 NonObjectJSONException
 IOException
-ParseException
 CryptoException
 URISyntaxException
 {
@@ -642,7 +630,6 @@ SyncConfigurationException
 IllegalArgumentException
 NonObjectJSONException
 IOException
-ParseException
 CryptoException
 URISyntaxException
 {
@@ -1135,7 +1122,6 @@ throws
 SyncConfigurationException
 IllegalArgumentException
 IOException
-ParseException
 NonObjectJSONException
 {
 super

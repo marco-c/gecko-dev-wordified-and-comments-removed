@@ -21,17 +21,6 @@ AssertionFailedError
 import
 org
 .
-json
-.
-simple
-.
-parser
-.
-ParseException
-;
-import
-org
-.
 junit
 .
 Before
@@ -978,7 +967,6 @@ throws
 NonObjectJSONException
 CryptoException
 IOException
-ParseException
 {
 final
 BookmarkRecord

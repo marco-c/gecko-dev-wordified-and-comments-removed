@@ -54,17 +54,6 @@ Scanner
 import
 org
 .
-json
-.
-simple
-.
-parser
-.
-ParseException
-;
-import
-org
-.
 mozilla
 .
 gecko
@@ -427,7 +416,6 @@ jsonObjectBody
 throws
 IllegalStateException
 IOException
-ParseException
 NonObjectJSONException
 {
 if

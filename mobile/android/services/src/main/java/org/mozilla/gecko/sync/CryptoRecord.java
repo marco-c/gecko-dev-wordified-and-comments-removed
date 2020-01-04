@@ -33,17 +33,6 @@ JSONObject
 import
 org
 .
-json
-.
-simple
-.
-parser
-.
-ParseException
-;
-import
-org
-.
 mozilla
 .
 apache
@@ -437,7 +426,6 @@ jsonString
 )
 throws
 IOException
-ParseException
 NonObjectJSONException
 {
 this
@@ -576,7 +564,6 @@ String
 jsonRecord
 )
 throws
-ParseException
 NonObjectJSONException
 IOException
 RecordParseException
@@ -626,7 +613,6 @@ jsonRecord
 )
 throws
 IOException
-ParseException
 NonObjectJSONException
 RecordParseException
 {
@@ -865,7 +851,6 @@ decrypt
 throws
 CryptoException
 IOException
-ParseException
 NonObjectJSONException
 {
 if

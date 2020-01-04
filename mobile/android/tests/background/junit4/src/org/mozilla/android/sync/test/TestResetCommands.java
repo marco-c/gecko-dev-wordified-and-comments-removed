@@ -19,17 +19,6 @@ SharedPreferences
 import
 org
 .
-json
-.
-simple
-.
-parser
-.
-ParseException
-;
-import
-org
-.
 junit
 .
 Before
@@ -462,7 +451,6 @@ SyncConfigurationException
 IllegalArgumentException
 NonObjectJSONException
 IOException
-ParseException
 CryptoException
 {
 class

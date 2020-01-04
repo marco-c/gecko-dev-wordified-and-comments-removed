@@ -12,17 +12,6 @@ test
 import
 org
 .
-json
-.
-simple
-.
-parser
-.
-ParseException
-;
-import
-org
-.
 junit
 .
 Test
@@ -438,7 +427,6 @@ testRegisterCommand
 throws
 NonObjectJSONException
 IOException
-ParseException
 {
 assertNull
 (
@@ -482,7 +470,6 @@ testProcessRegisteredCommand
 throws
 NonObjectJSONException
 IOException
-ParseException
 {
 commandExecuted
 =
@@ -532,7 +519,6 @@ testProcessUnregisteredCommand
 throws
 NonObjectJSONException
 IOException
-ParseException
 {
 commandExecuted
 =
@@ -570,7 +556,6 @@ testProcessInvalidCommand
 throws
 NonObjectJSONException
 IOException
-ParseException
 {
 ExtendedJSONObject
 unparsedCommand
@@ -616,7 +601,6 @@ testParseCommandNoType
 throws
 NonObjectJSONException
 IOException
-ParseException
 {
 ExtendedJSONObject
 unparsedCommand
@@ -647,7 +631,6 @@ testParseCommandNoArgs
 throws
 NonObjectJSONException
 IOException
-ParseException
 {
 ExtendedJSONObject
 unparsedCommand
@@ -678,7 +661,6 @@ testParseWellFormedCommand
 throws
 NonObjectJSONException
 IOException
-ParseException
 {
 ExtendedJSONObject
 unparsedCommand
@@ -734,7 +716,6 @@ testParseCommandNullArg
 throws
 NonObjectJSONException
 IOException
-ParseException
 {
 ExtendedJSONObject
 unparsedCommand

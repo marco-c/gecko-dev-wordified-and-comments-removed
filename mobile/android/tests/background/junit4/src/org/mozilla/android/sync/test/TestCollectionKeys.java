@@ -21,17 +21,6 @@ JSONArray
 import
 org
 .
-json
-.
-simple
-.
-parser
-.
-ParseException
-;
-import
-org
-.
 junit
 .
 Test
@@ -459,7 +448,6 @@ testSetKeysFromWBO
 )
 throws
 IOException
-ParseException
 NonObjectJSONException
 CryptoException
 NoCollectionKeysSetException
@@ -636,7 +624,6 @@ throws
 CryptoException
 NoCollectionKeysSetException
 IOException
-ParseException
 NonObjectJSONException
 {
 CollectionKeys
@@ -798,7 +785,6 @@ throws
 CryptoException
 NonObjectJSONException
 IOException
-ParseException
 NoCollectionKeysSetException
 {
 String
