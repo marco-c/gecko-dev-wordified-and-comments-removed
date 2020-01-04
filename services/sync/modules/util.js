@@ -408,6 +408,11 @@ sha1Base32
 CryptoUtils
 .
 sha1Base32
+sha256
+:
+CryptoUtils
+.
+sha256
 makeHMACKey
 :
 CryptoUtils
