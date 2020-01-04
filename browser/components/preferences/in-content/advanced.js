@@ -2288,7 +2288,7 @@ cacheService
 .
 getActiveCache
 (
-groups
+group
 )
 ;
 usage
