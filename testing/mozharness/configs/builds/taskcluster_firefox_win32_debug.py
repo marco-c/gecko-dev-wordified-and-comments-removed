@@ -631,6 +631,14 @@ and
 -
 abort
 '
+        
+'
+MSYSTEM
+'
+:
+'
+MINGW32
+'
     
 }
     

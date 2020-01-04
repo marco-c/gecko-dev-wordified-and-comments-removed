@@ -555,6 +555,14 @@ c
 /
 builds
 '
+        
+'
+MSYSTEM
+'
+:
+'
+MINGW32
+'
     
 }
     
