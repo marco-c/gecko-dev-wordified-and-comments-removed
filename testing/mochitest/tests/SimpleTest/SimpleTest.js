@@ -3766,10 +3766,12 @@ waitForFocus
 win
 =
 >
+{
 resolve
 (
-win
 )
+;
+}
 targetWindow
 expectBlankPage
 )
