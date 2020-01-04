@@ -463,6 +463,15 @@ bits
 )
 ;
 extern
+double
+math_random_impl
+(
+JSContext
+*
+cx
+)
+;
+extern
 bool
 math_random
 (
