@@ -66,16 +66,12 @@ h
 #
 ifdef
 PR_LOGGING
+extern
 mozilla
 :
 :
 LazyLogModule
-gMP3DemuxerLog
-(
-"
-MP3Demuxer
-"
-)
+gMediaDemuxerLog
 ;
 #
 define
@@ -89,7 +85,7 @@ msg
 \
 MOZ_LOG
 (
-gMP3DemuxerLog
+gMediaDemuxerLog
 LogLevel
 :
 :
@@ -116,7 +112,7 @@ msg
 \
 MOZ_LOG
 (
-gMP3DemuxerLog
+gMediaDemuxerLog
 LogLevel
 :
 :
