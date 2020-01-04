@@ -250,7 +250,7 @@ snapToLines
 ;
 attribute
 (
-long
+double
 or
 AutoKeyword
 )
@@ -323,6 +323,14 @@ readonly
 attribute
 boolean
 hasBeenReset
+;
+[
+ChromeOnly
+]
+readonly
+attribute
+double
+computedLine
 ;
 [
 ChromeOnly
