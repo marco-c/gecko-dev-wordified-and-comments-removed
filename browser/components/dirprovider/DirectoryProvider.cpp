@@ -1059,13 +1059,6 @@ dirSvc
 baseFiles
 )
 ;
-AppendFileKey
-(
-NS_APP_SEARCH_DIR
-dirSvc
-baseFiles
-)
-;
 nsCOMPtr
 <
 nsISimpleEnumerator
