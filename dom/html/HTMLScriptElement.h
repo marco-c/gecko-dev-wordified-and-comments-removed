@@ -118,7 +118,7 @@ override
 ;
 NS_DECL_NSIDOMHTMLSCRIPTELEMENT
 virtual
-void
+bool
 GetScriptType
 (
 nsAString

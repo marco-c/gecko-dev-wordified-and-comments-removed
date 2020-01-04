@@ -222,7 +222,7 @@ nullptr
 {
 }
 virtual
-void
+bool
 GetScriptType
 (
 nsAString

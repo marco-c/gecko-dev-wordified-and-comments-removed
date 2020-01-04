@@ -1016,7 +1016,7 @@ true
 )
 ;
 }
-void
+bool
 HTMLScriptElement
 :
 :
@@ -1027,8 +1027,14 @@ nsAString
 type
 )
 {
-GetType
+return
+GetAttr
 (
+kNameSpaceID_None
+nsGkAtoms
+:
+:
+type
 type
 )
 ;
