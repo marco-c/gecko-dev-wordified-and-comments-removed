@@ -169,7 +169,7 @@ this
 emit
 (
 "
-onClosed
+close
 "
 )
 ;
@@ -332,7 +332,7 @@ this
 emit
 (
 "
-onPacket
+packet
 "
 object
 )

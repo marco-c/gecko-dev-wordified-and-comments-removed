@@ -480,7 +480,7 @@ this
 emit
 (
 "
-startBulkSend
+startbulksend
 "
 header
 )
@@ -533,7 +533,7 @@ this
 emit
 (
 "
-onClosed
+close
 "
 reason
 )
@@ -1572,7 +1572,7 @@ this
 emit
 (
 "
-onPacket
+packet
 "
 object
 )
@@ -1638,7 +1638,7 @@ this
 emit
 (
 "
-onBulkPacket
+bulkpacket
 "
 .
 .
@@ -1953,7 +1953,7 @@ other
 emit
 (
 "
-onPacket
+packet
 "
 packet
 )
@@ -2003,7 +2003,7 @@ this
 emit
 (
 "
-startBulkSend
+startbulksend
 "
 {
 actor
@@ -2195,7 +2195,7 @@ other
 emit
 (
 "
-onBulkPacket
+bulkpacket
 "
 packet
 )
@@ -2628,7 +2628,7 @@ this
 emit
 (
 "
-onClosed
+close
 "
 )
 ;
@@ -2655,7 +2655,7 @@ this
 emit
 (
 "
-onPacket
+packet
 "
 data
 )
