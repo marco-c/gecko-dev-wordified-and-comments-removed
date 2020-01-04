@@ -844,10 +844,10 @@ this
 .
 _advanceChars
 =
-aCharCode
+charCode
 =
 >
-aCharCode
+charCode
 in
 advanceCharcodes
 ;
