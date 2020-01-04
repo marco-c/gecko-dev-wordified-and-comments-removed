@@ -21,7 +21,7 @@ linux64
 build_type
 :
 '
-debug
+dbg
 '
 task
 :
@@ -34,13 +34,13 @@ name
 TC
 ]
 Linux64
-Debug
+Dbg
 '
 description
 :
 '
 Linux64
-Debug
+Dbg
 '
 routes
 :

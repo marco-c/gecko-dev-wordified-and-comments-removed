@@ -23,7 +23,7 @@ asan
 build_type
 :
 '
-debug
+dbg
 '
 task
 :
@@ -37,14 +37,14 @@ TC
 ]
 Linux64
 ASan
-Debug
+Dbg
 '
 description
 :
 '
 Linux64
 ASan
-Debug
+Dbg
 '
 routes
 :

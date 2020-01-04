@@ -16,7 +16,7 @@ variables
 build_name
 :
 '
-linux
+linux32
 '
 build_type
 :
