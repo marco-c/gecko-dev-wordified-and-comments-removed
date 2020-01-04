@@ -1453,7 +1453,7 @@ lineOrPageDeltaY
 (
 0
 )
-scrollType
+mScrollType
 (
 SCROLL_DEFAULT
 )
@@ -1564,7 +1564,7 @@ lineOrPageDeltaY
 (
 0
 )
-scrollType
+mScrollType
 (
 SCROLL_DEFAULT
 )
@@ -1812,7 +1812,7 @@ SCROLL_SMOOTHLY
 }
 ;
 ScrollType
-scrollType
+mScrollType
 ;
 double
 overflowDeltaX
@@ -1906,11 +1906,11 @@ aEvent
 .
 lineOrPageDeltaY
 ;
-scrollType
+mScrollType
 =
 aEvent
 .
-scrollType
+mScrollType
 ;
 overflowDeltaX
 =

@@ -13396,7 +13396,7 @@ GDK_SOURCE_TOUCHPAD
 {
 wheelEvent
 .
-scrollType
+mScrollType
 =
 WidgetWheelEvent
 :

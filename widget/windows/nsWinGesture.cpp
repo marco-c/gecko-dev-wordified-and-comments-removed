@@ -2470,7 +2470,7 @@ DOM_DELTA_PIXEL
 ;
 aWheelEvent
 .
-scrollType
+mScrollType
 =
 WidgetWheelEvent
 :

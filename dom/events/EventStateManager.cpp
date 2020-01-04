@@ -11254,7 +11254,7 @@ switch
 aEvent
 -
 >
-scrollType
+mScrollType
 )
 {
 case
@@ -11358,7 +11358,7 @@ MOZ_CRASH
 (
 "
 Invalid
-scrollType
+mScrollType
 value
 comes
 "
