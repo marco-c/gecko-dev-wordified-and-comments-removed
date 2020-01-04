@@ -1438,6 +1438,10 @@ aRegistration
 nsIDocument
 *
 aDoc
+const
+nsAString
+&
+aDocumentId
 )
 ;
 void
