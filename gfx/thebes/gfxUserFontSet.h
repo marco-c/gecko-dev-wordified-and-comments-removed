@@ -526,8 +526,9 @@ aFontEntry
 ;
 mAvailableFonts
 .
-AppendElement
+InsertElementAt
 (
+0
 aFontEntry
 )
 ;
