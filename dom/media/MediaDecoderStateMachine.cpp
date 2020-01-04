@@ -7829,12 +7829,6 @@ forceDecodeAhead
 mSentFirstFrameLoadedEvent
 &
 &
-!
-IsSeeking
-(
-)
-&
-&
 static_cast
 <
 uint32_t
