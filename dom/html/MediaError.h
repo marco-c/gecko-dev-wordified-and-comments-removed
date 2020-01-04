@@ -7,13 +7,6 @@ mozilla_dom_MediaError_h
 #
 include
 "
-nsIDOMMediaError
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -56,7 +49,7 @@ MediaError
 final
 :
 public
-nsIDOMMediaError
+nsISupports
 public
 nsWrapperCache
 {
@@ -90,7 +83,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 MediaError
 )
-NS_DECL_NSIDOMMEDIAERROR
 HTMLMediaElement
 *
 GetParentObject
@@ -132,6 +124,15 @@ return
 mCode
 ;
 }
+void
+GetMessage
+(
+nsAString
+&
+aResult
+)
+const
+;
 private
 :
 RefPtr
