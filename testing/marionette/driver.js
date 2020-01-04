@@ -11356,7 +11356,7 @@ mozOr
 {
 throw
 new
-WebDriverError
+InvalidArgumentError
 (
 Unknown
 screen
