@@ -607,13 +607,6 @@ ISurfaceProvider
 *
 >
 aProvider
-const
-ImageKey
-aImageKey
-const
-SurfaceKey
-&
-aSurfaceKey
 )
 ;
 static
@@ -626,13 +619,6 @@ ISurfaceProvider
 *
 >
 aProvider
-const
-ImageKey
-aImageKey
-const
-SurfaceKey
-&
-aSurfaceKey
 )
 ;
 static

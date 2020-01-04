@@ -3697,11 +3697,6 @@ SurfaceCache
 Insert
 (
 provider
-ImageKey
-(
-this
-)
-surfaceKey
 )
 ;
 RefPtr

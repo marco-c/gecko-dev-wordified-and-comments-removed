@@ -733,12 +733,6 @@ WrapNotNull
 (
 this
 )
-GetImageKey
-(
-)
-GetSurfaceKey
-(
-)
 )
 ;
 }
