@@ -6464,9 +6464,16 @@ path
 .
 join
 (
+os
+.
+path
+.
+normpath
+(
 self
 .
 topobjdir
+)
 "
 dist
 "
