@@ -15426,6 +15426,14 @@ NS_SUCCEEDED
 (
 rv
 )
+&
+&
+(
+*
+countWritten
+>
+0
+)
 )
 {
 UpdateLocalRwin
