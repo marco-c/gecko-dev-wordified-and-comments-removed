@@ -184,12 +184,6 @@ pip_index
 False
     
 "
-use_talos_json
-"
-:
-True
-    
-"
 exes
 "
 :

@@ -148,12 +148,6 @@ pub
 ]
     
 "
-use_talos_json
-"
-:
-True
-    
-"
 virtualenv_modules
 "
 :
