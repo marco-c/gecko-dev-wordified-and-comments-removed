@@ -111,7 +111,7 @@ peerconnectionobserver
 "
 Constructor
 (
-mozRTCPeerConnection
+RTCPeerConnection
 domPC
 )
 ]
