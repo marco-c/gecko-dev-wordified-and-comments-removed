@@ -228,13 +228,6 @@ GSCheck
 c
 "
 "
-GSFunctionSafeBuffersCheck
-"
-"
-/
-c
-"
-"
 GSFriendlyInitCheck
 "
     
