@@ -4,6 +4,8 @@ import
 absolute_import
 print_function
 unicode_literals
+import
+sys
 from
 mach
 .
@@ -288,6 +290,21 @@ bootstrap
 as
 bootstrap
         
+if
+sys
+.
+platform
+in
+(
+'
+win32
+'
+'
+msys
+'
+)
+:
+            
 hg
 =
 which
@@ -296,7 +313,21 @@ which
 (
 '
 hg
+.
+exe
 '
+)
+        
+else
+:
+            
+hg
+=
+which
+.
+which
+(
+hg
 )
         
 if
