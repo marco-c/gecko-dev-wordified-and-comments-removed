@@ -134,8 +134,7 @@ xpcAccessibleHyperLink
 =
 delete
 ;
-Accessible
-*
+AccessibleOrProxy
 Intl
 (
 )
