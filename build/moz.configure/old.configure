@@ -3563,12 +3563,15 @@ queue_debug
 )
 :
 with
-open
+encoded_open
 (
 '
 config
 .
 log
+'
+'
+r
 '
 )
 as
