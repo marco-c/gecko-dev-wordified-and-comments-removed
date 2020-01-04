@@ -18751,16 +18751,9 @@ ratio
 ;
 }
 nscoord
-scriptLevelAdjustedParentSize
-=
-aParentFont
--
->
-mSize
-;
-nscoord
 scriptLevelAdjustedUnconstrainedParentSize
 ;
+nscoord
 scriptLevelAdjustedParentSize
 =
 ComputeScriptLevelSize
