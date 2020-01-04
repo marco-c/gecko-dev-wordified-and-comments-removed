@@ -114,10 +114,13 @@ OmxVideoTrackEncoder
 :
 OmxVideoTrackEncoder
 (
+TrackRate
+aTrackRate
 )
 :
 VideoTrackEncoder
 (
+aTrackRate
 )
 {
 }
@@ -144,8 +147,6 @@ int
 aDisplayWidth
 int
 aDisplayHeight
-TrackRate
-aTrackRate
 )
 {
 mFrameWidth
@@ -155,10 +156,6 @@ aWidth
 mFrameHeight
 =
 aHeight
-;
-mTrackRate
-=
-aTrackRate
 ;
 mDisplayWidth
 =
