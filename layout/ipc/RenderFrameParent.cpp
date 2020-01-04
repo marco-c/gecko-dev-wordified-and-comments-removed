@@ -591,6 +591,9 @@ AsClientLayerManager
 )
 )
 {
+if
+(
+!
 lm
 -
 >
@@ -608,7 +611,12 @@ SendNotifyChildCreated
 (
 mLayersId
 )
+)
+{
+return
+false
 ;
+}
 }
 }
 else
@@ -650,6 +658,9 @@ GetTabId
 mLayersId
 )
 ;
+if
+(
+!
 CompositorBridgeChild
 :
 :
@@ -662,7 +673,12 @@ SendNotifyChildCreated
 (
 mLayersId
 )
+)
+{
+return
+false
 ;
+}
 }
 mInitted
 =
