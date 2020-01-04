@@ -2269,12 +2269,8 @@ return
 elif
 defined
 (
-XP_DARWIN
+XP_LINUX
 )
-return
-;
-#
-else
 if
 (
 MAP_FAILED
@@ -2290,6 +2286,10 @@ newMapped
 0
 )
 )
+return
+;
+#
+else
 return
 ;
 #
