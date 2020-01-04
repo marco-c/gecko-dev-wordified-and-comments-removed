@@ -4981,9 +4981,9 @@ size
 )
 MSG_DEF
 (
-JSMSG_WASM_BAD_SIZE
+JSMSG_WASM_BAD_UINT32
 2
-JSEXN_TYPEERR
+JSEXN_RANGEERR
 "
 bad
 {
@@ -4992,7 +4992,6 @@ bad
 {
 1
 }
-size
 "
 )
 MSG_DEF
