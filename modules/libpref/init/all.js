@@ -6639,9 +6639,6 @@ permissions
 embed
 -
 apps
-engineering
--
-mode
 embed
 -
 widgets
