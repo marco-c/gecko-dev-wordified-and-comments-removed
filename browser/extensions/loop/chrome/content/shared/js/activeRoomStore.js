@@ -355,6 +355,9 @@ mediaConnected
 receivingScreenShare
 "
 "
+remoteAudioEnabled
+"
+"
 remotePeerDisconnected
 "
 "
@@ -396,6 +399,9 @@ audioMuted
 :
 false
 videoMuted
+:
+false
+remoteAudioEnabled
 :
 false
 remoteVideoEnabled
@@ -2880,6 +2886,11 @@ this
 setStoreState
 (
 {
+localAudioEnabled
+:
+actionData
+.
+hasAudio
 localVideoEnabled
 :
 actionData
@@ -2901,6 +2912,11 @@ this
 setStoreState
 (
 {
+remoteAudioEnabled
+:
+actionData
+.
+hasAudio
 remoteVideoEnabled
 :
 actionData

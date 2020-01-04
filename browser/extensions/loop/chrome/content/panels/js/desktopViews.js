@@ -1327,6 +1327,9 @@ roomData
 )
 ;
 }
+return
+null
+;
 }
 )
 (

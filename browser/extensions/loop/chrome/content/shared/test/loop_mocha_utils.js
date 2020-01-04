@@ -512,6 +512,9 @@ result
 )
 ;
 }
+return
+undefined
+;
 }
 function
 addMessageListenerInternal

@@ -441,6 +441,9 @@ define
 mediaStreamCreated
 "
 {
+hasAudio
+:
+Boolean
 hasVideo
 :
 Boolean

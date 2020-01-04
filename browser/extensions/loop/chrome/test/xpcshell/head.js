@@ -1127,6 +1127,7 @@ case
 register
 "
 :
+{
 this
 .
 channelID
@@ -1196,6 +1197,7 @@ kEndPointUrl
 ;
 break
 ;
+}
 default
 :
 this

@@ -605,6 +605,13 @@ cache
 )
 ;
 }
+return
+Promise
+.
+resolve
+(
+)
+;
 }
 )
 }
