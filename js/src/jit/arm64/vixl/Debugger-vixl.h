@@ -138,6 +138,11 @@ stream
 stdout
 )
 ;
+~
+Debugger
+(
+)
+;
 virtual
 void
 Run
@@ -180,7 +185,7 @@ update_pending_request
 )
 ;
 }
-int
+int64_t
 steps
 (
 )
@@ -193,7 +198,7 @@ steps_
 void
 set_steps
 (
-int
+int64_t
 value
 )
 {
@@ -345,7 +350,7 @@ debug_parameters_
 bool
 pending_request_
 ;
-int
+int64_t
 steps_
 ;
 DebugCommand
