@@ -174,7 +174,6 @@ self
 .
 _parser_class
 (
-            
 usage
 =
 '
@@ -194,6 +193,31 @@ test_file_or_dir
 .
 .
 '
+)
+        
+parser
+.
+add_argument
+(
+'
+-
+-
+version
+'
+action
+=
+'
+version
+'
+            
+help
+=
+"
+Show
+version
+information
+.
+"
             
 version
 =
@@ -247,7 +271,6 @@ transport_version
 transport_version
                     
 )
-        
 )
         
 mozlog
