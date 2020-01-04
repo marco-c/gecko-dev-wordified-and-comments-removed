@@ -1936,6 +1936,12 @@ case
 Scalar
 :
 :
+Uint8Clamped
+:
+case
+Scalar
+:
+:
 Uint8
 :
 masm
