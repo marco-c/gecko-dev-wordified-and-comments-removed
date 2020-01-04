@@ -31,6 +31,17 @@ nsIntSize
 aImageSize
 )
 ;
+bool
+IsValid
+(
+)
+{
+return
+!
+!
+mBuffer
+;
+}
 uint8_t
 *
 RowBuffer
