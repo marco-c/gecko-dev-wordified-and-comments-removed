@@ -70,15 +70,6 @@ mozilla
 .
 gecko
 .
-AppConstants
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 annotation
 .
 RobocopTarget
@@ -2233,13 +2224,6 @@ mSearchEngineSuggestionLoaderCallbacks
 ;
 if
 (
-AppConstants
-.
-NIGHTLY_BUILD
-)
-{
-if
-(
 mSearchHistorySuggestionLoaderCallback
 =
 =
@@ -2265,7 +2249,6 @@ null
 mSearchHistorySuggestionLoaderCallback
 )
 ;
-}
 }
 private
 void
