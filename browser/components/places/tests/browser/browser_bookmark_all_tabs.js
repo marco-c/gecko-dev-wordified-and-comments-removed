@@ -179,6 +179,8 @@ title
 )
 [
 "
+New
+Tab
 "
 "
 Bookmark
