@@ -12792,6 +12792,7 @@ aManager
 {
 if
 (
+!
 nsLayoutUtils
 :
 :
@@ -12799,9 +12800,8 @@ UsesAsyncScrolling
 (
 mFrame
 )
-|
-|
-(
+&
+&
 aManager
 &
 &
@@ -12810,7 +12810,6 @@ aManager
 >
 ShouldAvoidComponentAlphaLayers
 (
-)
 )
 )
 {
