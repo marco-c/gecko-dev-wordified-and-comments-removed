@@ -41857,8 +41857,10 @@ sheet
 added
 "
 )
-&
-&
+)
+{
+if
+(
 mStyleSet
 )
 {
@@ -41867,6 +41869,7 @@ AddAgentSheet
 aSubject
 )
 ;
+}
 return
 NS_OK
 ;
@@ -41888,8 +41891,10 @@ sheet
 added
 "
 )
-&
-&
+)
+{
+if
+(
 mStyleSet
 )
 {
@@ -41898,6 +41903,7 @@ AddUserSheet
 aSubject
 )
 ;
+}
 return
 NS_OK
 ;
@@ -41919,8 +41925,10 @@ sheet
 added
 "
 )
-&
-&
+)
+{
+if
+(
 mStyleSet
 )
 {
@@ -41929,6 +41937,7 @@ AddAuthorSheet
 aSubject
 )
 ;
+}
 return
 NS_OK
 ;
@@ -41950,8 +41959,10 @@ sheet
 removed
 "
 )
-&
-&
+)
+{
+if
+(
 mStyleSet
 )
 {
@@ -41964,6 +41975,7 @@ Agent
 aSubject
 )
 ;
+}
 return
 NS_OK
 ;
@@ -41985,8 +41997,10 @@ sheet
 removed
 "
 )
-&
-&
+)
+{
+if
+(
 mStyleSet
 )
 {
@@ -41999,6 +42013,7 @@ User
 aSubject
 )
 ;
+}
 return
 NS_OK
 ;
@@ -42020,8 +42035,10 @@ sheet
 removed
 "
 )
-&
-&
+)
+{
+if
+(
 mStyleSet
 )
 {
@@ -42034,6 +42051,7 @@ Doc
 aSubject
 )
 ;
+}
 return
 NS_OK
 ;
@@ -42053,8 +42071,10 @@ memory
 pressure
 "
 )
-&
-&
+)
+{
+if
+(
 !
 AssumeAllImagesVisible
 (
@@ -42074,6 +42094,7 @@ DoUpdateImageVisibility
 true
 )
 ;
+}
 return
 NS_OK
 ;
