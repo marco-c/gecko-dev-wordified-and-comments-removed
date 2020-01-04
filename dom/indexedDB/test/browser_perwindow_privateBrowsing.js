@@ -223,9 +223,10 @@ false
 ;
 executeSoon
 (
-function
 (
 )
+=
+>
 test3
 (
 win
@@ -238,9 +239,10 @@ false
 ;
 registerCleanupFunction
 (
-function
 (
 )
+=
+>
 win
 .
 close
