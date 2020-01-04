@@ -3355,12 +3355,6 @@ value
 '
 ]
 =
-"
-%
-.
-2f
-"
-%
 filter
 .
 mean
