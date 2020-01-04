@@ -53,10 +53,6 @@ exclusions
 #
 below
 .
-accessible
-/
-*
-*
 addon
 -
 sdk
