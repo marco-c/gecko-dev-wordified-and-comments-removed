@@ -1,16 +1,3 @@
-new
-WeakMap
-(
-x
-for
-(
-x
-of
-[
-]
-)
-)
-;
 function
 none
 (
