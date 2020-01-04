@@ -440,6 +440,11 @@ SurfaceCache
 cpp
 '
 '
+SurfacePipe
+.
+cpp
+'
+'
 SVGDocumentWrapper
 .
 cpp
