@@ -1384,8 +1384,8 @@ nsBaseDragService
 :
 FireDragEventAtSource
 (
-uint32_t
-aMsg
+EventMessage
+aEventMessage
 )
 {
 if
@@ -1440,13 +1440,7 @@ WidgetDragEvent
 event
 (
 true
-static_cast
-<
-EventMessage
->
-(
-aMsg
-)
+aEventMessage
 nullptr
 )
 ;
@@ -1458,7 +1452,7 @@ mInputSource
 ;
 if
 (
-aMsg
+aEventMessage
 =
 =
 eDragEnd
