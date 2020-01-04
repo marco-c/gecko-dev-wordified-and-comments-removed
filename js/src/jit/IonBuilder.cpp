@@ -15847,12 +15847,6 @@ MOZ_ASSERT
 op
 =
 =
-JSOP_POP
-|
-|
-op
-=
-=
 JSOP_NOP
 )
 ;
