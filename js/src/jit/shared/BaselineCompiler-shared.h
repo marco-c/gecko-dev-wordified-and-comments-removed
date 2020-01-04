@@ -169,11 +169,11 @@ profilerEnterFrameToggleOffset_
 CodeOffset
 profilerExitFrameToggleOffset_
 ;
+Vector
+<
 CodeOffset
-traceLoggerEnterToggleOffset_
-;
-CodeOffset
-traceLoggerExitToggleOffset_
+>
+traceLoggerToggleOffsets_
 ;
 CodeOffset
 traceLoggerScriptTextIdOffset_

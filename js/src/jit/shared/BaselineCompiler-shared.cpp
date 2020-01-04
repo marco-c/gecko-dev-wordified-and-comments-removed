@@ -184,11 +184,9 @@ profilerEnterFrameToggleOffset_
 profilerExitFrameToggleOffset_
 (
 )
-traceLoggerEnterToggleOffset_
+traceLoggerToggleOffsets_
 (
-)
-traceLoggerExitToggleOffset_
-(
+cx
 )
 traceLoggerScriptTextIdOffset_
 (
