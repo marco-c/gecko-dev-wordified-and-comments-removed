@@ -11444,12 +11444,6 @@ Ci
 nsIWebNavigation
 .
 LOAD_FLAGS_BYPASS_PROXY
-|
-Ci
-.
-nsIWebNavigation
-.
-LOAD_FLAGS_BYPASS_CACHE
 ;
 if
 (
@@ -21035,12 +21029,6 @@ spec
 let
 flags
 =
-Ci
-.
-nsIWebNavigation
-.
-LOAD_FLAGS_BYPASS_CACHE
-|
 Ci
 .
 nsIWebNavigation
