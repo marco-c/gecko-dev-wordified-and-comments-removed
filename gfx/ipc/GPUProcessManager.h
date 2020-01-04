@@ -328,6 +328,15 @@ aHost
 )
 override
 ;
+void
+OnProcessUnexpectedShutdown
+(
+GPUProcessHost
+*
+aHost
+)
+override
+;
 private
 :
 void
