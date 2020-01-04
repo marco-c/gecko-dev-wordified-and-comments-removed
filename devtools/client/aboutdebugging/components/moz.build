@@ -77,6 +77,15 @@ js
 '
 addons
 -
+install
+-
+error
+.
+js
+'
+'
+addons
+-
 tab
 .
 js
