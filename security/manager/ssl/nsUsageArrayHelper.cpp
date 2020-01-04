@@ -98,7 +98,8 @@ mozilla
 psm
 ;
 extern
-LazyLogModule
+PRLogModuleInfo
+*
 gPIPNSSLog
 ;
 static

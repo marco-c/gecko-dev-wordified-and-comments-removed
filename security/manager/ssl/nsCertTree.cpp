@@ -140,7 +140,8 @@ namespace
 mozilla
 ;
 extern
-LazyLogModule
+PRLogModuleInfo
+*
 gPIPNSSLog
 ;
 static

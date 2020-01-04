@@ -48,10 +48,8 @@ secerr
 h
 "
 extern
-mozilla
-:
-:
-LazyLogModule
+PRLogModuleInfo
+*
 gCertVerifierLog
 ;
 using

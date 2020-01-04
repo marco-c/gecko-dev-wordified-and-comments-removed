@@ -43,11 +43,11 @@ mozilla
 namespace
 psm
 {
-mozilla
-:
-:
-LazyLogModule
+PRLogModuleInfo
+*
 gPublicKeyPinningTelemetryLog
+=
+PR_NewLogModule
 (
 "
 PublicKeyPinningTelemetryService

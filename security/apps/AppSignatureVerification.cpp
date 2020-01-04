@@ -230,10 +230,8 @@ mozilla
 psm
 ;
 extern
-mozilla
-:
-:
-LazyLogModule
+PRLogModuleInfo
+*
 gPIPNSSLog
 ;
 namespace

@@ -320,7 +320,8 @@ false
 ;
 }
 extern
-LazyLogModule
+PRLogModuleInfo
+*
 gPIPNSSLog
 ;
 nsNSSSocketInfo

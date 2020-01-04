@@ -307,7 +307,8 @@ psm
 SharedSSLState
 ;
 extern
-LazyLogModule
+PRLogModuleInfo
+*
 gPIPNSSLog
 ;
 static
