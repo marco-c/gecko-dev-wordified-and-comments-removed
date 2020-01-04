@@ -1484,10 +1484,9 @@ data
 {
 ok
 (
-false
+true
 "
 Should
-not
 see
 an
 audio

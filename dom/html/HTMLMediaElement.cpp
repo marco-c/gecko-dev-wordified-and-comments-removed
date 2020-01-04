@@ -21063,6 +21063,15 @@ false
 }
 if
 (
+mPausedForInactiveDocumentOrChannel
+)
+{
+return
+false
+;
+}
+if
+(
 HasAttr
 (
 kNameSpaceID_None
