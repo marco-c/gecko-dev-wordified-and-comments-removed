@@ -3777,10 +3777,10 @@ if
 (
 typeof
 item
-=
+!
 =
 "
-string
+object
 "
 )
 {
