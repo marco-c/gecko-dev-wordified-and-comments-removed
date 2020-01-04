@@ -45,6 +45,13 @@ h
 #
 include
 "
+nsCSSPseudoElements
+.
+h
+"
+#
+include
+"
 nsGenericHTMLElement
 .
 h
@@ -1466,10 +1473,7 @@ placeholderNode
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 pseudoType
 =
 CSSPseudoElementType
@@ -6570,10 +6574,7 @@ nsTextControlFrame
 :
 GetPseudoElement
 (
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 aType
 )
 {

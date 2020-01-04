@@ -93,6 +93,13 @@ h
 #
 include
 "
+nsCSSPseudoElements
+.
+h
+"
+#
+include
+"
 nsIAtom
 .
 h
@@ -7274,10 +7281,7 @@ aParentContent
 nsStyleContext
 *
 aStyleContext
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 aPseudoElement
 FrameConstructionItemList
 &

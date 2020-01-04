@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsCSSPseudoElements
+.
+h
+"
+#
+include
+"
 nsFormControlFrame
 .
 h
@@ -295,10 +302,7 @@ rv
 rv
 )
 ;
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 pseudoType
 =
 CSSPseudoElementType
@@ -596,10 +600,7 @@ nsColorControlFrame
 :
 GetPseudoElement
 (
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 aType
 )
 {

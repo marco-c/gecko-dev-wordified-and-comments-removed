@@ -1645,10 +1645,7 @@ if
 aPseudo
 )
 {
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 type
 =
 nsCSSPseudoElements
@@ -2531,10 +2528,7 @@ GetParent
 )
 ;
 }
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 pseudo
 =
 topWithPseudoElementData

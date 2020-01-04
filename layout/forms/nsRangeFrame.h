@@ -105,6 +105,13 @@ typedef
 mozilla
 :
 :
+CSSPseudoElementType
+CSSPseudoElementType
+;
+typedef
+mozilla
+:
+:
 dom
 :
 :
@@ -541,10 +548,7 @@ Element
 *
 GetPseudoElement
 (
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 aType
 )
 override
@@ -558,10 +562,7 @@ Element
 *
 *
 aResult
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 aPseudoType
 nsTArray
 <

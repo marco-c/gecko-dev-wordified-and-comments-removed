@@ -700,6 +700,13 @@ h
 #
 include
 "
+nsCSSPseudoElements
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h

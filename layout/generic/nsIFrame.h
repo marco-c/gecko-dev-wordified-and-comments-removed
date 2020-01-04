@@ -251,6 +251,12 @@ CharacterDataChangeInfo
 namespace
 mozilla
 {
+enum
+class
+CSSPseudoElementType
+:
+uint8_t
+;
 class
 EventStates
 ;
@@ -7084,10 +7090,10 @@ Element
 *
 GetPseudoElement
 (
-nsCSSPseudoElements
+mozilla
 :
 :
-Type
+CSSPseudoElementType
 aType
 )
 ;

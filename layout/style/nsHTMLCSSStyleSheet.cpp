@@ -81,6 +81,13 @@ h
 #
 include
 "
+nsCSSPseudoElements
+.
+h
+"
+#
+include
+"
 RestyleManager
 .
 h
@@ -349,10 +356,7 @@ PseudoElementRulesMatching
 Element
 *
 aPseudoElement
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 aPseudoType
 nsRuleWalker
 *

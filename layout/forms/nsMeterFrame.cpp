@@ -114,6 +114,13 @@ h
 #
 include
 "
+nsCSSPseudoElements
+.
+h
+"
+#
+include
+"
 nsStyleSet
 .
 h
@@ -324,10 +331,7 @@ nsGkAtoms
 div
 )
 ;
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 pseudoType
 =
 CSSPseudoElementType
@@ -1453,10 +1457,7 @@ nsMeterFrame
 :
 GetPseudoElement
 (
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 aType
 )
 {

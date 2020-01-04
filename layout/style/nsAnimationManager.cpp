@@ -622,10 +622,7 @@ Element
 *
 owningElement
 ;
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 owningPseudoType
 ;
 mOwningElement
@@ -2033,10 +2030,10 @@ dom
 Element
 *
 aElement
-nsCSSPseudoElements
+mozilla
 :
 :
-Type
+CSSPseudoElementType
 aPseudoType
 )
 {

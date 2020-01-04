@@ -12092,10 +12092,7 @@ aData
 Element
 *
 aStatefulElement
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 aPseudoType
 EventStates
 aStateMask
@@ -14941,10 +14938,7 @@ cascade
 =
 aCascade
 ;
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 pseudoType
 =
 aRuleInfo
@@ -15319,10 +15313,7 @@ IsPseudoElement
 )
 )
 {
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 pseudo
 =
 selector

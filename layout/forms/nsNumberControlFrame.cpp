@@ -117,6 +117,13 @@ h
 #
 include
 "
+nsCSSPseudoElements
+.
+h
+"
+#
+include
+"
 nsStyleSet
 .
 h
@@ -1443,10 +1450,7 @@ aElements
 nsIAtom
 *
 aTagName
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 aPseudoType
 nsStyleContext
 *
@@ -3393,10 +3397,7 @@ nsNumberControlFrame
 :
 GetPseudoElement
 (
-nsCSSPseudoElements
-:
-:
-Type
+CSSPseudoElementType
 aType
 )
 {
