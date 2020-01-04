@@ -76,8 +76,6 @@ uint32_t
 ssrc
 )
 ;
-protected
-:
 SSRCDatabase
 (
 )
@@ -88,6 +86,8 @@ SSRCDatabase
 (
 )
 ;
+protected
+:
 static
 SSRCDatabase
 *
