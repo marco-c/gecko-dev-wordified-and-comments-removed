@@ -201,6 +201,8 @@ beacon_good
 "
 )
 ;
+try
+{
 navigator
 .
 sendBeacon
@@ -234,6 +236,13 @@ beacon_bad
 "
 )
 ;
+}
+catch
+(
+ex
+)
+{
+}
 new
 Worker
 (
