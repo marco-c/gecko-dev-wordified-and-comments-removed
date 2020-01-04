@@ -68,7 +68,7 @@ bitmap2
 "
 Get
 the
-2st
+2nd
 ImageBitmap
 from
 the
