@@ -10430,7 +10430,7 @@ WidgetQueryContentEvent
 caretRect
 (
 true
-NS_QUERY_CARET_RECT
+eQueryCaretRect
 aWindow
 )
 ;
@@ -10485,7 +10485,7 @@ GetCaretRect
 FAILED
 due
 to
-NS_QUERY_CARET_RECT
+eQueryCaretRect
 failure
 "
 )

@@ -288,11 +288,11 @@ eQueryTextContent
 "
 ;
 case
-NS_QUERY_CARET_RECT
+eQueryCaretRect
 :
 return
 "
-NS_QUERY_CARET_RECT
+eQueryCaretRect
 "
 ;
 case

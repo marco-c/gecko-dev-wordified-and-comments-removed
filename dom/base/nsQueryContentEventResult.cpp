@@ -196,7 +196,7 @@ return
 aEventMessage
 =
 =
-NS_QUERY_CARET_RECT
+eQueryCaretRect
 |
 |
 aEventMessage

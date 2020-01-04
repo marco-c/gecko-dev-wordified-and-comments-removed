@@ -4186,7 +4186,7 @@ aEvent
 )
 ;
 case
-NS_QUERY_CARET_RECT
+eQueryCaretRect
 :
 return
 OnQueryCaretRect

@@ -822,7 +822,7 @@ eQueryContentEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_QUERY_CARET_RECT
+eQueryCaretRect
 eQueryContentEventFirst
 +
 3
