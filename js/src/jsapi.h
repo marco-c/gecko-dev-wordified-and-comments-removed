@@ -17949,6 +17949,17 @@ JSRuntime
 rt
 )
 ;
+namespace
+JS
+{
+const
+uint16_t
+MaxNumErrorArguments
+=
+10
+;
+}
+;
 extern
 JS_PUBLIC_API
 (
