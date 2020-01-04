@@ -4230,6 +4230,10 @@ ComputePreserve3DChildrenOverflow
 nsOverflowAreas
 &
 aOverflowAreas
+const
+nsRect
+&
+aBounds
 )
 ;
 void
@@ -4239,6 +4243,10 @@ const
 nsIFrame
 *
 aStartFrame
+const
+nsRect
+*
+aBounds
 )
 ;
 uint32_t
