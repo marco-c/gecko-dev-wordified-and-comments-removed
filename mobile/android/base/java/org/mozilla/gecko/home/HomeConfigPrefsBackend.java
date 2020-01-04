@@ -228,6 +228,7 @@ util
 .
 Log
 ;
+public
 class
 HomeConfigPrefsBackend
 implements
@@ -251,7 +252,7 @@ VERSION
 =
 3
 ;
-private
+public
 static
 final
 String
@@ -261,7 +262,7 @@ PREFS_CONFIG_KEY_OLD
 home_panels
 "
 ;
-private
+public
 static
 final
 String
