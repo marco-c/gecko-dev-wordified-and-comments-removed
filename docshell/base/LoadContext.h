@@ -217,7 +217,6 @@ bool
 aUsePrivateBrowsing
 bool
 aUseRemoteTabs
-const
 OriginAttributes
 &
 aAttrs
