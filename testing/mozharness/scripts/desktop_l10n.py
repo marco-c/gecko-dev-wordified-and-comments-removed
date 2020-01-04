@@ -4284,13 +4284,6 @@ abs_objdir
 dirs
 [
 '
-abs_compare_locales_dir
-'
-]
-                        
-dirs
-[
-'
 abs_upload_dir
 '
 ]
