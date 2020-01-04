@@ -505,7 +505,6 @@ kDefaultMaxShutdownIOLag
 Atomic
 <
 PRIntervalTime
-Relaxed
 >
 CacheObserver
 :
