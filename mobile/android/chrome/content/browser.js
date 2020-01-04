@@ -21033,6 +21033,12 @@ Ci
 .
 nsIWebNavigation
 .
+LOAD_FLAGS_BYPASS_CACHE
+|
+Ci
+.
+nsIWebNavigation
+.
 LOAD_FLAGS_REPLACE_HISTORY
 ;
 if
