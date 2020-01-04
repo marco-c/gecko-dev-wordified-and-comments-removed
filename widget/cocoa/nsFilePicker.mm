@@ -791,12 +791,10 @@ bundle
 >
 GetStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 formatLabel
 "
-)
 getter_Copies
 (
 locaLabel

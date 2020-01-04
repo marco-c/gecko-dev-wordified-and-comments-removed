@@ -374,10 +374,7 @@ gRDF
 >
 GetLiteral
 (
-MOZ_UTF16
-(
 val
-)
 &
 (
 ident

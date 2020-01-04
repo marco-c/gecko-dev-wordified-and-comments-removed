@@ -3446,14 +3446,12 @@ ElementAt
 (
 j
 )
-MOZ_UTF16
-(
+u
 "
 .
 .
 apps
 "
-)
 )
 )
 {

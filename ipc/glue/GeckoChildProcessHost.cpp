@@ -3033,8 +3033,7 @@ binDirPath
 .
 InsertLiteral
 (
-MOZ_UTF16
-(
+u
 "
 ?
 ?
@@ -3042,7 +3041,6 @@ MOZ_UTF16
 \
 UNC
 "
-)
 1
 )
 ;
@@ -3051,14 +3049,12 @@ binDirPath
 .
 AppendLiteral
 (
-MOZ_UTF16
-(
+u
 "
 \
 \
 *
 "
-)
 )
 ;
 aAllowedFilesRead

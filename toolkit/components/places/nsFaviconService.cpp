@@ -878,8 +878,7 @@ params
 ]
 =
 {
-MOZ_UTF16
-(
+u
 "
 nsFaviconService
 :
@@ -888,9 +887,7 @@ setAndFetchFaviconForPage
 (
 )
 "
-)
-MOZ_UTF16
-(
+u
 "
 nsFaviconService
 :
@@ -906,7 +903,6 @@ aLoadingPrincipal
 ]
 )
 "
-)
 }
 ;
 nsContentUtils
@@ -1685,8 +1681,7 @@ params
 ]
 =
 {
-MOZ_UTF16
-(
+u
 "
 nsFaviconService
 :
@@ -1695,9 +1690,7 @@ ReplaceFaviconDataFromDataURL
 (
 )
 "
-)
-MOZ_UTF16
-(
+u
 "
 nsFaviconService
 :
@@ -1713,7 +1706,6 @@ aLoadingPrincipal
 ]
 )
 "
-)
 }
 ;
 nsContentUtils

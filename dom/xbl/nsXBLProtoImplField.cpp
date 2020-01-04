@@ -2310,11 +2310,9 @@ mFieldText
 ?
 mFieldText
 :
-MOZ_UTF16
-(
+u
 "
 "
-)
 )
 ;
 }

@@ -50,8 +50,7 @@ h
 #
 define
 TOKEN_DELIMITERS
-MOZ_UTF16
-(
+u
 "
 \
 t
@@ -60,7 +59,6 @@ r
 \
 n
 "
-)
 using
 namespace
 mozilla

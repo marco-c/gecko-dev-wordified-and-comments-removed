@@ -5291,13 +5291,11 @@ params
 ]
 =
 {
-MOZ_UTF16
-(
+u
 "
 directive
 missing
 "
-)
 }
 ;
 logWarningErrorToConsole
@@ -5369,8 +5367,7 @@ params
 ]
 =
 {
-MOZ_UTF16
-(
+u
 "
 block
 -
@@ -5380,7 +5377,6 @@ mixed
 -
 content
 "
-)
 }
 ;
 logWarningErrorToConsole
@@ -5444,8 +5440,7 @@ params
 ]
 =
 {
-MOZ_UTF16
-(
+u
 "
 upgrade
 -
@@ -5453,7 +5448,6 @@ insecure
 -
 requests
 "
-)
 }
 ;
 logWarningErrorToConsole
@@ -5619,8 +5613,7 @@ params
 ]
 =
 {
-MOZ_UTF16
-(
+u
 "
 '
 unsafe
@@ -5628,7 +5621,6 @@ unsafe
 inline
 '
 "
-)
 }
 ;
 logWarningErrorToConsole

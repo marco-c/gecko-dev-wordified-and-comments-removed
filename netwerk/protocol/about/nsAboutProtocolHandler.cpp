@@ -815,8 +815,7 @@ params
 ]
 =
 {
-MOZ_UTF16
-(
+u
 "
 nsIAboutModule
 -
@@ -826,9 +825,7 @@ newChannel
 aURI
 )
 "
-)
-MOZ_UTF16
-(
+u
 "
 nsIAboutModule
 -
@@ -839,7 +836,6 @@ aURI
 aLoadInfo
 )
 "
-)
 }
 ;
 nsContentUtils

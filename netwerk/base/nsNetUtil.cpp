@@ -9629,12 +9629,10 @@ GetInnerWindowID
 ;
 CSP_LogLocalizedStr
 (
-MOZ_UTF16
-(
+u
 "
 upgradeInsecureRequest
 "
-)
 params
 ArrayLength
 (

@@ -3283,12 +3283,10 @@ aTopic
 !
 NS_strcmp
 (
-MOZ_UTF16
-(
+u
 "
 cleared
 "
-)
 aData
 )
 |
@@ -3311,12 +3309,10 @@ if
 !
 NS_strcmp
 (
-MOZ_UTF16
-(
+u
 "
 deleted
 "
-)
 aData
 )
 )

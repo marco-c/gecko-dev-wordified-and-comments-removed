@@ -2322,8 +2322,7 @@ clh
 {
 LogConsoleMessage
 (
-MOZ_UTF16
-(
+u
 "
 Contract
 ID
@@ -2351,7 +2350,6 @@ be
 created
 .
 "
-)
 contractID
 .
 get

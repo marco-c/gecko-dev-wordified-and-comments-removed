@@ -2745,8 +2745,7 @@ get
 else
 chars
 =
-MOZ_UTF16
-(
+u
 "
 (
 stack
@@ -2754,7 +2753,6 @@ not
 available
 )
 "
-)
 ;
 JS_ReportErrorFlagsAndNumberUC
 (

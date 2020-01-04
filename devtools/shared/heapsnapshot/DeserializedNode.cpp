@@ -262,8 +262,7 @@ concreteTypeName
 [
 ]
 =
-MOZ_UTF16
-(
+u
 "
 mozilla
 :
@@ -273,7 +272,6 @@ devtools
 :
 DeserializedNode
 "
-)
 ;
 const
 char16_t

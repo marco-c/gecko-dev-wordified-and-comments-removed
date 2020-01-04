@@ -22528,12 +22528,10 @@ concreteTypeName
 [
 ]
 =
-MOZ_UTF16
-(
+u
 "
 JSObject
 "
-)
 ;
 void
 JSObject

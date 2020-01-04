@@ -251,12 +251,10 @@ bundle
 >
 GetStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 brandShortName
 "
-)
 getter_Copies
 (
 appName

@@ -5650,16 +5650,13 @@ rv
 =
 HandleProcessingInstruction
 (
-MOZ_UTF16
-(
+u
 "
 xml
 -
 stylesheet
 "
-)
-MOZ_UTF16
-(
+u
 "
 href
 =
@@ -5688,7 +5685,6 @@ css
 \
 "
 "
-)
 )
 ;
 NS_ENSURE_SUCCESS

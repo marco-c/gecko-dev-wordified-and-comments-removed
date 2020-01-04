@@ -373,13 +373,13 @@ static
 const
 char16_t
 *
+const
 sKeySystems
 [
 ]
 =
 {
-MOZ_UTF16
-(
+u
 "
 org
 .
@@ -387,9 +387,7 @@ w3
 .
 clearkey
 "
-)
-MOZ_UTF16
-(
+u
 "
 com
 .
@@ -397,9 +395,7 @@ adobe
 .
 primetime
 "
-)
-MOZ_UTF16
-(
+u
 "
 com
 .
@@ -407,7 +403,6 @@ widevine
 .
 alpha
 "
-)
 }
 ;
 bool

@@ -55,12 +55,10 @@ Node
 typeName
 UTF16StrEq
 (
-MOZ_UTF16
-(
+u
 "
 FakeNode
 "
-)
 )
 )
 _

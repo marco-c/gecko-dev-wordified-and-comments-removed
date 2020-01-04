@@ -171,8 +171,7 @@ nsTextFormatter
 ssprintf
 (
 aValue
-MOZ_UTF16
-(
+u
 "
 %
 c
@@ -191,7 +190,6 @@ g
 %
 g
 "
-)
 typeAsChar
 aSeg
 [
@@ -246,15 +244,13 @@ nsTextFormatter
 ssprintf
 (
 aValue
-MOZ_UTF16
-(
+u
 "
 %
 c
 %
 g
 "
-)
 typeAsChar
 aSeg
 [
@@ -273,8 +269,7 @@ nsTextFormatter
 ssprintf
 (
 aValue
-MOZ_UTF16
-(
+u
 "
 %
 c
@@ -283,7 +278,6 @@ g
 %
 g
 "
-)
 typeAsChar
 aSeg
 [
@@ -306,8 +300,7 @@ nsTextFormatter
 ssprintf
 (
 aValue
-MOZ_UTF16
-(
+u
 "
 %
 c
@@ -320,7 +313,6 @@ g
 %
 g
 "
-)
 typeAsChar
 aSeg
 [
@@ -351,8 +343,7 @@ nsTextFormatter
 ssprintf
 (
 aValue
-MOZ_UTF16
-(
+u
 "
 %
 c
@@ -369,7 +360,6 @@ g
 %
 g
 "
-)
 typeAsChar
 aSeg
 [
@@ -413,8 +403,7 @@ type
 ;
 aValue
 =
-MOZ_UTF16
-(
+u
 "
 <
 unknown
@@ -424,7 +413,6 @@ segment
 type
 >
 "
-)
 ;
 return
 ;

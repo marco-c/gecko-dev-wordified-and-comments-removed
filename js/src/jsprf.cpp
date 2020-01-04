@@ -1506,14 +1506,12 @@ char16_t
 )
 {
 return
-MOZ_UTF16
-(
+u
 "
 (
 null
 )
 "
-)
 ;
 }
 static

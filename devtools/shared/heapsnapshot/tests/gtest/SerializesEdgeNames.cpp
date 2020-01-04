@@ -45,13 +45,11 @@ edgeName
 [
 ]
 =
-MOZ_UTF16
-(
+u
 "
 edge
 name
 "
-)
 ;
 const
 char16_t
@@ -59,11 +57,9 @@ emptyStr
 [
 ]
 =
-MOZ_UTF16
-(
+u
 "
 "
-)
 ;
 AddEdge
 (

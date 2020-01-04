@@ -6354,14 +6354,12 @@ memory
 -
 pressure
 "
-MOZ_UTF16
-(
+u
 "
 heap
 -
 minimize
 "
-)
 )
 ;
 }

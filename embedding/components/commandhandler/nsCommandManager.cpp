@@ -359,12 +359,10 @@ nsICommandManager
 this
 )
 aCommandName
-MOZ_UTF16
-(
+u
 "
 command_status_changed
 "
-)
 )
 ;
 }

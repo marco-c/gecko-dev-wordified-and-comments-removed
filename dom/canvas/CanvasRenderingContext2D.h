@@ -4014,12 +4014,10 @@ MITER_OR_BEVEL
 )
 filterString
 (
-MOZ_UTF16
-(
+u
 "
 none
 "
-)
 )
 updateFilterOnWriteOnly
 (

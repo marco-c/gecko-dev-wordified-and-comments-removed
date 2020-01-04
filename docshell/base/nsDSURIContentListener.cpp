@@ -1751,14 +1751,12 @@ webNav
 >
 LoadURI
 (
-MOZ_UTF16
-(
+u
 "
 about
 :
 blank
 "
-)
 0
 nullptr
 nullptr

@@ -16347,12 +16347,10 @@ nsStyleUtil
 MatchesLanguagePrefix
 (
 language
-MOZ_UTF16
-(
+u
 "
 zh
 "
-)
 )
 ?
 NS_STYLE_TEXT_EMPHASIS_POSITION_DEFAULT_ZH

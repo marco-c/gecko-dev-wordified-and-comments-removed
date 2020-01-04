@@ -368,12 +368,10 @@ concreteTypeName
 [
 ]
 =
-MOZ_UTF16
-(
+u
 "
 JSString
 "
-)
 ;
 #
 ifdef

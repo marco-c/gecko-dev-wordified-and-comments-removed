@@ -764,12 +764,10 @@ bundle
 >
 GetStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 brandFullName
 "
-)
 getter_Copies
 (
 mDisplayName

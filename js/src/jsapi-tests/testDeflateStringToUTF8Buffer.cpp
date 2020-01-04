@@ -530,8 +530,7 @@ str
 JS_NewUCStringCopyZ
 (
 cx
-MOZ_UTF16
-(
+u
 "
 \
 xD3
@@ -542,7 +541,6 @@ xE3
 \
 xEF
 "
-)
 )
 ;
 MOZ_RELEASE_ASSERT
@@ -1105,8 +1103,7 @@ str
 JS_NewUCStringCopyZ
 (
 cx
-MOZ_UTF16
-(
+u
 "
 \
 x038C
@@ -1117,7 +1114,6 @@ x0203
 \
 x0457
 "
-)
 )
 ;
 MOZ_RELEASE_ASSERT

@@ -298,12 +298,10 @@ bundle
 >
 GetStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 readConfigTitle
 "
-)
 getter_Copies
 (
 title
@@ -329,12 +327,10 @@ bundle
 >
 GetStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 readConfigMsg
 "
-)
 getter_Copies
 (
 err

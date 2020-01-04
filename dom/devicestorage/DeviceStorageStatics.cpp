@@ -3288,12 +3288,10 @@ if
 NS_strcmp
 (
 aData
-MOZ_UTF16
-(
+u
 "
 full
 "
-)
 )
 )
 {
@@ -3312,12 +3310,10 @@ if
 NS_strcmp
 (
 aData
-MOZ_UTF16
-(
+u
 "
 free
 "
-)
 )
 )
 {

@@ -4997,11 +4997,9 @@ mHandlerText
 ?
 mHandlerText
 :
-MOZ_UTF16
-(
+u
 "
 "
-)
 )
 ;
 }

@@ -954,11 +954,9 @@ aU16FullName
 .
 append
 (
-MOZ_UTF16
-(
+u
 "
 "
-)
 )
 ;
 aU16FullName

@@ -4229,12 +4229,10 @@ if
 !
 GetLocalizedString
 (
-MOZ_UTF16
-(
+u
 "
 noPageTitle
 "
-)
 untitled
 )
 |
@@ -4441,12 +4439,10 @@ if
 !
 GetLocalizedString
 (
-MOZ_UTF16
-(
+u
 "
 noPageTitle
 "
-)
 untitled
 )
 |

@@ -721,12 +721,10 @@ watcher
 -
 notify
 "
-MOZ_UTF16
-(
+u
 "
 modified
 "
-)
 )
 ;
 }

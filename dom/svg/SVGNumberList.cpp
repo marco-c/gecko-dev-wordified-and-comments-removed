@@ -144,13 +144,11 @@ ArrayLength
 (
 buf
 )
-MOZ_UTF16
-(
+u
 "
 %
 g
 "
-)
 double
 (
 mNumbers

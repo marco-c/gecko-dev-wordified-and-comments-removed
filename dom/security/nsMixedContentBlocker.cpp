@@ -2206,12 +2206,10 @@ get
 ;
 CSP_LogLocalizedStr
 (
-MOZ_UTF16
-(
+u
 "
 blockAllMixedContent
 "
-)
 params
 ArrayLength
 (

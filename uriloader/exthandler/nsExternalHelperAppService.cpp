@@ -8146,12 +8146,10 @@ bundle
 >
 FormatStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 title
 "
-)
 strings
 1
 getter_Copies

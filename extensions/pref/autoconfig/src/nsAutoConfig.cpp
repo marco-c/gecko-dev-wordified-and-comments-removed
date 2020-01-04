@@ -2252,12 +2252,10 @@ bundle
 >
 GetStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 emailPromptTitle
 "
-)
 getter_Copies
 (
 title
@@ -2280,12 +2278,10 @@ bundle
 >
 GetStringFromName
 (
-MOZ_UTF16
-(
+u
 "
 emailPromptMsg
 "
-)
 getter_Copies
 (
 err

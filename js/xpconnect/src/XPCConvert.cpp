@@ -2759,12 +2759,10 @@ ws
 >
 AssignLiteral
 (
-MOZ_UTF16
-(
+u
 "
 undefined
 "
-)
 )
 ;
 }

@@ -747,12 +747,10 @@ prefix
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
+u
 "
 xml
 "
-)
 )
 ;
 }
@@ -769,12 +767,10 @@ prefix
 .
 AssignLiteral
 (
-MOZ_UTF16
-(
+u
 "
 xlink
 "
-)
 )
 ;
 }

@@ -2277,14 +2277,12 @@ aStr
 ?
 aStr
 :
-MOZ_UTF16
-(
+u
 "
 (
 null
 )
 "
-)
 slen
 aWidth
 aFlags

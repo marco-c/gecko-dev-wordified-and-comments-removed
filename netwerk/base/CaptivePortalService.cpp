@@ -44,9 +44,14 @@ nsXULAppAPI
 .
 h
 "
-#
-define
+static
+const
+char16_t
 kInterfaceName
+[
+]
+=
+u
 "
 captive
 -
@@ -54,6 +59,7 @@ portal
 -
 inteface
 "
+;
 static
 const
 char
@@ -368,10 +374,7 @@ mCaptivePortalDetector
 >
 CheckCaptivePortal
 (
-MOZ_UTF16
-(
 kInterfaceName
-)
 this
 )
 ;
@@ -771,10 +774,7 @@ mCaptivePortalDetector
 >
 Abort
 (
-MOZ_UTF16
-(
 kInterfaceName
-)
 )
 ;
 }
@@ -1163,10 +1163,7 @@ mCaptivePortalDetector
 >
 FinishPreparation
 (
-MOZ_UTF16
-(
 kInterfaceName
-)
 )
 ;
 }
