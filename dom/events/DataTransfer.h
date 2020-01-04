@@ -786,6 +786,16 @@ return
 mEventMessage
 ;
 }
+bool
+IsCrossDomainSubFrameDrop
+(
+)
+const
+{
+return
+mIsCrossDomainSubFrameDrop
+;
+}
 already_AddRefed
 <
 nsISupportsArray
