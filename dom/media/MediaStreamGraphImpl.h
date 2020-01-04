@@ -325,7 +325,12 @@ AssertCurrentThreadOwns
 endif
 }
 void
-DoIteration
+MaybeProduceMemoryReport
+(
+)
+;
+bool
+UpdateMainThreadState
 (
 )
 ;
