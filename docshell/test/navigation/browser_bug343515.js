@@ -499,7 +499,9 @@ function
 (
 )
 {
-is
+Assert
+.
+equal
 (
 content
 .
@@ -593,6 +595,8 @@ Ci
 nsIDocShell
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -728,7 +732,9 @@ active
 inactive
 "
 ;
-is
+Assert
+.
+equal
 (
 content
 .
@@ -790,7 +796,9 @@ i
 location
 )
 ;
-is
+Assert
+.
+equal
 (
 content
 .
@@ -815,7 +823,9 @@ iframes
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 isActive
 (
@@ -837,7 +847,9 @@ active
 }
 )
 ;
-is
+Assert
+.
+equal
 (
 isActive
 (
@@ -866,7 +878,9 @@ active
 }
 )
 ;
-is
+Assert
+.
+equal
 (
 isActive
 (
@@ -1191,6 +1205,8 @@ Ci
 nsIDocShell
 )
 ;
+Assert
+.
 ok
 (
 docShell
@@ -1358,6 +1374,8 @@ docshell
 isActive
 ;
 }
+Assert
+.
 ok
 (
 isActive
@@ -1379,6 +1397,8 @@ active
 "
 )
 ;
+Assert
+.
 ok
 (
 isActive
@@ -1407,6 +1427,8 @@ active
 "
 )
 ;
+Assert
+.
 ok
 (
 isActive
@@ -1520,6 +1542,8 @@ Ci
 nsIDocShell
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -1653,7 +1677,9 @@ active
 inactive
 "
 ;
-is
+Assert
+.
+equal
 (
 isActive
 (
@@ -1678,7 +1704,9 @@ activestr
 }
 )
 ;
-is
+Assert
+.
+equal
 (
 isActive
 (
@@ -1710,7 +1738,9 @@ activestr
 }
 )
 ;
-is
+Assert
+.
+equal
 (
 isActive
 (

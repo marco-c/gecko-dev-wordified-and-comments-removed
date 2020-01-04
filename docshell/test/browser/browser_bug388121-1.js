@@ -48,7 +48,9 @@ document
 .
 nodePrincipal
 ;
-isnot
+Assert
+.
+notEqual
 (
 prin
 null
@@ -62,7 +64,9 @@ null
 "
 )
 ;
-isnot
+Assert
+.
+notEqual
 (
 prin
 undefined
@@ -99,7 +103,9 @@ Ci
 nsIScriptSecurityManager
 )
 ;
-is
+Assert
+.
+equal
 (
 secMan
 .

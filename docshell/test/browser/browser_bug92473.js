@@ -17,7 +17,9 @@ text
 =
 >
 {
-is
+Assert
+.
+equal
 (
 content
 .
@@ -42,7 +44,9 @@ text
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 content
 .
@@ -67,7 +71,9 @@ text
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 content
 .

@@ -69,7 +69,9 @@ document
 .
 nodePrincipal
 ;
-isnot
+Assert
+.
+notEqual
 (
 prin
 null
@@ -87,7 +89,9 @@ adding
 uri
 )
 ;
-isnot
+Assert
+.
+notEqual
 (
 prin
 undefined
@@ -128,7 +132,9 @@ Ci
 nsIScriptSecurityManager
 )
 ;
-is
+Assert
+.
+equal
 (
 secMan
 .

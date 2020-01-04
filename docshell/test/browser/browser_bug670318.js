@@ -160,6 +160,8 @@ onLoad
 true
 )
 ;
+Assert
+.
 ok
 (
 history
