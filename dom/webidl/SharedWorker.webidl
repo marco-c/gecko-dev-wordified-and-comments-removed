@@ -92,17 +92,6 @@ MPL
 *
 /
 [
-Pref
-=
-"
-dom
-.
-workers
-.
-sharedWorkers
-.
-enabled
-"
 Constructor
 (
 DOMString
