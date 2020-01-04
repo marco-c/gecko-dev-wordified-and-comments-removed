@@ -684,8 +684,10 @@ RestyleType
 :
 :
 Throttled
-&
-&
+)
+{
+if
+(
 !
 elementsToRestyle
 .
@@ -703,6 +705,7 @@ key
 false
 )
 ;
+}
 mPresContext
 -
 >
