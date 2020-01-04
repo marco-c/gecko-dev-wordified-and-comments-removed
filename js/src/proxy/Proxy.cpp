@@ -4445,7 +4445,7 @@ js
 ProxyObject
 :
 :
-class_
+proxyClass
 =
 PROXY_CLASS_DEF
 (
@@ -4474,7 +4474,7 @@ js
 ProxyObject
 :
 :
-class_
+proxyClass
 ;
 JS_FRIEND_API
 (
@@ -4584,7 +4584,7 @@ getClass
 ProxyObject
 :
 :
-class_
+proxyClass
 )
 ;
 MOZ_ASSERT

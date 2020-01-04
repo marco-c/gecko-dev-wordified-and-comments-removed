@@ -512,10 +512,10 @@ real
 Proxy
 31
 InitProxyClass
-OCLASP
-(
-Proxy
-)
+js
+:
+:
+ProxyClassPtr
 )
 \
 real
