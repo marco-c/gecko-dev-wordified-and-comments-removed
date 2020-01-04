@@ -384,6 +384,11 @@ const
 nsACString
 &
 aOrigin
+const
+char
+*
+*
+aOutBadConstraint
 )
 ;
 nsresult
@@ -400,6 +405,11 @@ const
 MediaEnginePrefs
 &
 aPrefs
+const
+char
+*
+*
+aOutBadConstraint
 )
 ;
 nsresult
