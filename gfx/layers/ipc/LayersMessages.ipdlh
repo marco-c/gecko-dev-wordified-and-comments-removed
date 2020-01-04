@@ -538,16 +538,6 @@ FenceUtils
 h
 "
 ;
-using
-std
-:
-:
-string
-from
-"
-string
-"
-;
 namespace
 mozilla
 {
@@ -1372,9 +1362,6 @@ FrameMetrics
 [
 ]
 metrics
-;
-string
-contentDescription
 ;
 nsCString
 displayListLog
