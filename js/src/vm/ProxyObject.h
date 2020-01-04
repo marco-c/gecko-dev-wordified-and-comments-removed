@@ -18,7 +18,7 @@ include
 "
 vm
 /
-NativeObject
+ShapedObject
 .
 h
 "
@@ -29,11 +29,8 @@ class
 ProxyObject
 :
 public
-JSObject
+ShapedObject
 {
-GCPtrShape
-shape
-;
 detail
 :
 :

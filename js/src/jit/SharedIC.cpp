@@ -17513,7 +17513,7 @@ loadPtr
 Address
 (
 holderReg
-JSObject
+ShapedObject
 :
 :
 offsetOfShape

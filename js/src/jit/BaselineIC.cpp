@@ -26380,7 +26380,7 @@ Address
 shapeAddr
 (
 holderReg
-JSObject
+ShapedObject
 :
 :
 offsetOfShape
@@ -26452,7 +26452,7 @@ Address
 shapeAddr
 (
 objReg
-JSObject
+ShapedObject
 :
 :
 offsetOfShape

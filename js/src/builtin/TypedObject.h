@@ -45,6 +45,15 @@ ArrayBufferObject
 .
 h
 "
+#
+include
+"
+vm
+/
+ShapedObject
+.
+h
+"
 namespace
 js
 {
@@ -1665,7 +1674,7 @@ class
 TypedObject
 :
 public
-JSObject
+ShapedObject
 {
 static
 const
@@ -1706,9 +1715,6 @@ static
 const
 ObjectOps
 objectOps_
-;
-GCPtrShape
-shape_
 ;
 static
 MOZ_MUST_USE

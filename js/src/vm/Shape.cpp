@@ -6393,7 +6393,14 @@ false
 self
 -
 >
-setShapeMaybeNonNative
+as
+<
+ShapedObject
+>
+(
+)
+.
+setShape
 (
 newShape
 )
