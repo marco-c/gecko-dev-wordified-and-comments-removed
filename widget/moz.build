@@ -576,6 +576,11 @@ nsIDeviceContextSpec
 h
 '
 '
+nsIKeyEventInPluginCallback
+.
+h
+'
+'
 nsIPluginWidget
 .
 h
