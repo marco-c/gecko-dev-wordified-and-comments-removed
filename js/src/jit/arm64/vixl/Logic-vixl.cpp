@@ -1,4 +1,7 @@
 #
+ifdef
+JS_SIMULATOR_ARM64
+#
 include
 <
 cmath
@@ -26686,3 +26689,5 @@ dst
 ;
 }
 }
+#
+endif
