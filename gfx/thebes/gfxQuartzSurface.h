@@ -207,14 +207,6 @@ return
 mCGContext
 ;
 }
-CGContextRef
-GetCGContextWithClip
-(
-gfxContext
-*
-ctx
-)
-;
 already_AddRefed
 <
 gfxImageSurface
