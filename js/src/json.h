@@ -47,6 +47,14 @@ HandleObject
 obj
 )
 ;
+enum
+class
+StringifyBehavior
+{
+Normal
+RestrictedSafe
+}
+;
 extern
 bool
 Stringify
@@ -67,6 +75,8 @@ space
 StringBuffer
 &
 sb
+StringifyBehavior
+stringifyBehavior
 )
 ;
 template
