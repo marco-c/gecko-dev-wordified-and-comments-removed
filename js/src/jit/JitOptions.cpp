@@ -777,6 +777,12 @@ false
 ;
 SET_DEFAULT
 (
+asmJSAtomicsEnable
+false
+)
+;
+SET_DEFAULT
+(
 wasmTestMode
 false
 )

@@ -471,7 +471,7 @@ jit
 :
 JitOptions
 .
-wasmTestMode
+asmJSAtomicsEnable
 &
 &
 IsValidAsmJSHeapLength

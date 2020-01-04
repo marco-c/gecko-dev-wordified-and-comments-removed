@@ -30,11 +30,11 @@ quit
 setJitCompilerOption
 (
 '
-wasm
+asmjs
 .
-test
--
-mode
+atomics
+.
+enable
 '
 1
 )
