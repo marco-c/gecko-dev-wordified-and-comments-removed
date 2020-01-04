@@ -339,7 +339,7 @@ beta
 "
         
 "
-revision
+branch
 "
 :
 "
@@ -382,7 +382,7 @@ configs
 "
         
 "
-revision
+branch
 "
 :
 "
@@ -427,7 +427,7 @@ tools
 "
         
 "
-revision
+branch
 "
 :
 "
