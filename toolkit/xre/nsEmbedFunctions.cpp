@@ -1399,13 +1399,6 @@ setupProfilingStuff
 ;
 #
 endif
-Telemetry
-:
-:
-CreateStatisticsRecorder
-(
-)
-;
 #
 if
 !
@@ -1618,6 +1611,13 @@ endif
 #
 endif
 NS_LogInit
+(
+)
+;
+Telemetry
+:
+:
+CreateStatisticsRecorder
 (
 )
 ;
