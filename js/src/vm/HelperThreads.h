@@ -843,11 +843,9 @@ PRLock
 *
 helperLock
 ;
-mozilla
-:
-:
-DebugOnly
-<
+#
+ifdef
+DEBUG
 mozilla
 :
 :
@@ -856,9 +854,10 @@ Atomic
 PRThread
 *
 >
->
 lockOwner
 ;
+#
+endif
 PRCondVar
 *
 consumerWakeup

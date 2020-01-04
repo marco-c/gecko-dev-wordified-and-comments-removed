@@ -2786,6 +2786,9 @@ failed
 )
 return
 ;
+#
+ifdef
+DEBUG
 MOZ_ASSERT
 (
 id
@@ -2798,6 +2801,8 @@ nextTextId
 +
 +
 ;
+#
+endif
 if
 (
 id

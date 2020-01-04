@@ -6,15 +6,6 @@ define
 jit_shared_IonAssemblerBufferWithConstantPools_h
 #
 include
-"
-mozilla
-/
-DebugOnly
-.
-h
-"
-#
-include
 <
 algorithm
 >
