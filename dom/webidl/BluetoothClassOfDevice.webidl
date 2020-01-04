@@ -92,11 +92,7 @@ MPL
 *
 /
 [
-CheckAnyPermissions
-=
-"
-bluetooth
-"
+ChromeOnly
 ]
 interface
 BluetoothClassOfDevice

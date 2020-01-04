@@ -453,11 +453,7 @@ serviceUuids
 }
 ;
 [
-CheckAnyPermissions
-=
-"
-bluetooth
-"
+ChromeOnly
 ]
 interface
 BluetoothGattServer

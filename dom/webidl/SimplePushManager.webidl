@@ -110,11 +110,7 @@ PushManager
 ;
 1
 "
-CheckAnyPermissions
-=
-"
-push
-"
+ChromeOnly
 Pref
 =
 "

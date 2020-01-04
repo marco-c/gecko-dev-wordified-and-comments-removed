@@ -352,16 +352,7 @@ icc
 .
 enabled
 "
-CheckAnyPermissions
-=
-"
-mobileconnection
-"
-AvailableIn
-=
-"
-CertifiedApps
-"
+ChromeOnly
 Constructor
 (
 DOMString

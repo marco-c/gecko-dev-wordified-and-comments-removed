@@ -146,11 +146,7 @@ false
 *
 /
 [
-CheckAnyPermissions
-=
-"
-bluetooth
-"
+ChromeOnly
 Func
 =
 "

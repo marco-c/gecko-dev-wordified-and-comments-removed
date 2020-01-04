@@ -286,4 +286,13 @@ chrome
 .
 ini
 '
+'
+mochitest
+/
+priority
+/
+chrome
+.
+ini
+'
 ]

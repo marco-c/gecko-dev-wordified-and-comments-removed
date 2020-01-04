@@ -341,11 +341,7 @@ tag
 ;
 1
 "
-AvailableIn
-=
-"
-PrivilegedApps
-"
+ChromeOnly
 ]
 interface
 MozNFCTag

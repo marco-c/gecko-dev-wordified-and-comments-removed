@@ -101,16 +101,7 @@ telephony
 .
 enabled
 "
-CheckAnyPermissions
-=
-"
-telephony
-"
-AvailableIn
-=
-"
-CertifiedApps
-"
+ChromeOnly
 ]
 interface
 MMICall

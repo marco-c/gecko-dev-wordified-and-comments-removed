@@ -100,11 +100,7 @@ optional
 BluetoothGattAttributeEventInit
 eventInitDict
 )
-CheckAnyPermissions
-=
-"
-bluetooth
-"
+ChromeOnly
 ]
 interface
 BluetoothGattAttributeEvent

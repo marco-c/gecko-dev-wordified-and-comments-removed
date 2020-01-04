@@ -151,11 +151,7 @@ server
 *
 /
 [
-CheckAnyPermissions
-=
-"
-bluetooth
-"
+ChromeOnly
 Constructor
 (
 BluetoothGattServiceInit

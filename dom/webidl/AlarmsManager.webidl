@@ -123,11 +123,6 @@ alarmsManager
 ;
 1
 "
-CheckAnyPermissions
-=
-"
-alarms
-"
 Pref
 =
 "
@@ -137,6 +132,7 @@ mozAlarms
 .
 enabled
 "
+ChromeOnly
 ]
 interface
 AlarmsManager

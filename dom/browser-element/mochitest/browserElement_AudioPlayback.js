@@ -42,12 +42,6 @@ setEnabledPref
 true
 )
 ;
-browserElementTestHelpers
-.
-addPermission
-(
-)
-;
 function
 playAudioScript
 (
@@ -337,7 +331,7 @@ src
 =
 browserElementTestHelpers
 .
-emptyPage1
+fileEmptyPage1
 ;
 }
 addEventListener

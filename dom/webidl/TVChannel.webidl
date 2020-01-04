@@ -156,14 +156,7 @@ tv
 .
 enabled
 "
-CheckAnyPermissions
-=
-"
-tv
-"
-AvailableIn
-=
-CertifiedApps
+ChromeOnly
 ]
 interface
 TVChannel

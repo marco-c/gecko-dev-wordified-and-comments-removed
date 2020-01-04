@@ -195,13 +195,7 @@ udpsocket
 .
 enabled
 "
-CheckAnyPermissions
-=
-"
-udp
--
-socket
-"
+ChromeOnly
 ]
 interface
 UDPSocket

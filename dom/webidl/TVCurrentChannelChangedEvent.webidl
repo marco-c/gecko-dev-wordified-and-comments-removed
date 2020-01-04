@@ -140,14 +140,7 @@ tv
 .
 enabled
 "
-CheckAnyPermissions
-=
-"
-tv
-"
-AvailableIn
-=
-CertifiedApps
+ChromeOnly
 Constructor
 (
 DOMString

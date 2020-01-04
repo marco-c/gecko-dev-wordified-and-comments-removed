@@ -65,11 +65,7 @@ Navigator
 :
 HasNFCSupport
 "
-AvailableIn
-=
-"
-PrivilegedApps
-"
+ChromeOnly
 ChromeConstructor
 (
 MozNFCTag

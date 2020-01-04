@@ -136,16 +136,7 @@ cellbroadcast
 .
 enabled
 "
-CheckAnyPermissions
-=
-"
-cellbroadcast
-"
-AvailableIn
-=
-"
-CertifiedApps
-"
+ChromeOnly
 ]
 interface
 MozCellBroadcast

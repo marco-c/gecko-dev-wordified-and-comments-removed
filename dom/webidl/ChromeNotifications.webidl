@@ -108,11 +108,7 @@ NavigatorProperty
 "
 mozChromeNotifications
 "
-AvailableIn
-=
-"
-CertifiedApps
-"
+ChromeOnly
 ]
 interface
 ChromeNotifications

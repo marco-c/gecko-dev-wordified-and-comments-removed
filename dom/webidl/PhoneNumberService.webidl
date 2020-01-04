@@ -108,11 +108,7 @@ NavigatorProperty
 "
 mozPhoneNumberService
 "
-CheckAnyPermissions
-=
-"
-phonenumberservice
-"
+ChromeOnly
 ]
 interface
 PhoneNumberService

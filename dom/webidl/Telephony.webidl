@@ -428,15 +428,6 @@ policy
 .
 [
 Throws
-CheckAllPermissions
-=
-"
-audio
--
-channel
--
-telephony
-"
 ]
 void
 ownAudioChannel

@@ -92,14 +92,7 @@ MPL
 *
 /
 [
-AvailableIn
-=
-CertifiedApps
-CheckAnyPermissions
-=
-"
-bluetooth
-"
+ChromeOnly
 ]
 interface
 BluetoothPairingListener

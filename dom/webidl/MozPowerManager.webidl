@@ -182,11 +182,7 @@ mozPower
 *
 /
 [
-CheckAnyPermissions
-=
-"
-power
-"
+ChromeOnly
 ]
 interface
 MozPowerManager

@@ -208,11 +208,7 @@ mozDownloads
 .
 enabled
 "
-CheckAnyPermissions
-=
-"
-downloads
-"
+ChromeOnly
 ]
 interface
 DOMDownloadManager
@@ -528,11 +524,6 @@ exist
 on
 disk
 .
-[
-AvailableIn
-=
-CertifiedApps
-]
 Promise
 <
 DOMDownload
@@ -582,11 +573,7 @@ mozDownloads
 .
 enabled
 "
-CheckAnyPermissions
-=
-"
-downloads
-"
+ChromeOnly
 ]
 interface
 DOMDownload

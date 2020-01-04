@@ -210,14 +210,14 @@ jar
 mn
 '
 ]
-MOCHITEST_MANIFESTS
+MOCHITEST_CHROME_MANIFESTS
 +
 =
 [
 '
 mochitest
 /
-mochitest
+chrome
 .
 ini
 '

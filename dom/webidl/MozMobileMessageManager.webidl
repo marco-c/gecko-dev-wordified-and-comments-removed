@@ -779,16 +779,7 @@ sms
 .
 enabled
 "
-CheckAnyPermissions
-=
-"
-sms
-"
-AvailableIn
-=
-"
-CertifiedApps
-"
+ChromeOnly
 ]
 interface
 MozMobileMessageManager

@@ -101,7 +101,7 @@ DIRS
 interfaces
 '
 ]
-MOCHITEST_MANIFESTS
+MOCHITEST_CHROME_MANIFESTS
 +
 =
 [
@@ -110,7 +110,7 @@ tests
 /
 mochitest
 /
-mochitest
+chrome
 .
 ini
 '

@@ -92,11 +92,7 @@ MPL
 *
 /
 [
-CheckAnyPermissions
-=
-"
-bluetooth
-"
+ChromeOnly
 ]
 interface
 BluetoothMapRequestHandle
@@ -133,9 +129,6 @@ fails
 [
 NewObject
 Throws
-AvailableIn
-=
-CertifiedApps
 ]
 Promise
 <
@@ -182,9 +175,6 @@ fails
 [
 NewObject
 Throws
-AvailableIn
-=
-CertifiedApps
 ]
 Promise
 <
@@ -235,9 +225,6 @@ fails
 [
 NewObject
 Throws
-AvailableIn
-=
-CertifiedApps
 ]
 Promise
 <
@@ -281,9 +268,6 @@ fails
 [
 NewObject
 Throws
-AvailableIn
-=
-CertifiedApps
 ]
 Promise
 <
@@ -327,9 +311,6 @@ fails
 [
 NewObject
 Throws
-AvailableIn
-=
-CertifiedApps
 ]
 Promise
 <
@@ -377,9 +358,6 @@ fails
 [
 NewObject
 Throws
-AvailableIn
-=
-CertifiedApps
 ]
 Promise
 <

@@ -135,15 +135,7 @@ presentation
 .
 enabled
 "
-CheckAnyPermissions
-=
-"
-presentation
--
-device
--
-manage
-"
+ChromeOnly
 ]
 interface
 PresentationDeviceInfoManager

@@ -161,11 +161,7 @@ webbluetooth
 .
 enable
 "
-CheckAnyPermissions
-=
-"
-bluetooth
-"
+ChromeOnly
 ]
 interface
 BluetoothUUID

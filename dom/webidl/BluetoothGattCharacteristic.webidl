@@ -241,11 +241,7 @@ server
 *
 /
 [
-CheckAnyPermissions
-=
-"
-bluetooth
-"
+ChromeOnly
 ]
 interface
 BluetoothGattCharacteristic

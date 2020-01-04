@@ -108,16 +108,7 @@ Navigator
 :
 HasNFCSupport
 "
-CheckAnyPermissions
-=
-"
-nfc
-"
-AvailableIn
-=
-"
-PrivilegedApps
-"
+ChromeOnly
 ]
 interface
 MozNFCTagEvent

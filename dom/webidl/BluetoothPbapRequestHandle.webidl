@@ -92,11 +92,7 @@ MPL
 *
 /
 [
-CheckAnyPermissions
-=
-"
-bluetooth
-"
+ChromeOnly
 ]
 interface
 BluetoothPbapRequestHandle
@@ -140,9 +136,6 @@ fails
 [
 NewObject
 Throws
-AvailableIn
-=
-CertifiedApps
 ]
 DOMRequest
 replyTovCardPulling
@@ -190,9 +183,6 @@ fails
 [
 NewObject
 Throws
-AvailableIn
-=
-CertifiedApps
 ]
 DOMRequest
 replyToPhonebookPulling
@@ -244,9 +234,6 @@ fails
 [
 NewObject
 Throws
-AvailableIn
-=
-CertifiedApps
 ]
 DOMRequest
 replyTovCardListing

@@ -108,13 +108,7 @@ networkStatsManager
 ;
 1
 "
-CheckAnyPermissions
-=
-"
-networkstats
--
-manage
-"
+ChromeOnly
 Pref
 =
 "

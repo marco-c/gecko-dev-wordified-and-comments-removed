@@ -101,16 +101,7 @@ sms
 .
 enabled
 "
-CheckAnyPermissions
-=
-"
-sms
-"
-AvailableIn
-=
-"
-CertifiedApps
-"
+ChromeOnly
 Constructor
 (
 DOMString

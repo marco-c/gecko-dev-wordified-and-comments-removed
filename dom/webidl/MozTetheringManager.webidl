@@ -145,11 +145,7 @@ NavigatorProperty
 "
 mozTetheringManager
 "
-AvailableIn
-=
-"
-CertifiedApps
-"
+ChromeOnly
 ]
 interface
 MozTetheringManager

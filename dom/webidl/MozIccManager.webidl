@@ -101,16 +101,7 @@ icc
 .
 enabled
 "
-CheckAnyPermissions
-=
-"
-mobileconnection
-"
-AvailableIn
-=
-"
-CertifiedApps
-"
+ChromeOnly
 ]
 interface
 MozIccManager

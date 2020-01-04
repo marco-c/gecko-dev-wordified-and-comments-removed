@@ -562,15 +562,7 @@ load
 *
 /
 [
-CheckAnyPermissions
-=
-"
-presentation
--
-device
--
-manage
-"
+ChromeOnly
 Throws
 ]
 Promise

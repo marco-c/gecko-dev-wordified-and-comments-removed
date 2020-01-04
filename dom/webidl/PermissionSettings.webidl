@@ -67,11 +67,7 @@ permissionSettings
 ;
 1
 "
-CheckAnyPermissions
-=
-"
-permissions
-"
+ChromeOnly
 Pref
 =
 "

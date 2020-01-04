@@ -870,12 +870,6 @@ bool
 mPrincipalIsSystem
 ;
 bool
-mIsInPrivilegedApp
-;
-bool
-mIsInCertifiedApp
-;
-bool
 mStorageAllowed
 ;
 bool

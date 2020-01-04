@@ -109,16 +109,7 @@ voicemail
 .
 enabled
 "
-CheckAnyPermissions
-=
-"
-voicemail
-"
-AvailableIn
-=
-"
-CertifiedApps
-"
+ChromeOnly
 ]
 interface
 MozVoicemailEvent

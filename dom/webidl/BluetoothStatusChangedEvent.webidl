@@ -100,11 +100,7 @@ optional
 BluetoothStatusChangedEventInit
 eventInitDict
 )
-CheckAnyPermissions
-=
-"
-bluetooth
-"
+ChromeOnly
 ]
 interface
 BluetoothStatusChangedEvent

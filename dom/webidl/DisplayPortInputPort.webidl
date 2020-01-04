@@ -101,14 +101,7 @@ inputport
 .
 enabled
 "
-CheckAnyPermissions
-=
-"
-inputport
-"
-AvailableIn
-=
-CertifiedApps
+ChromeOnly
 ]
 interface
 DisplayPortInputPort

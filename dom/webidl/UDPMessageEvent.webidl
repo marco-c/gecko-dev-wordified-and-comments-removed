@@ -160,13 +160,7 @@ udpsocket
 .
 enabled
 "
-CheckAnyPermissions
-=
-"
-udp
--
-socket
-"
+ChromeOnly
 ]
 interface
 UDPMessageEvent

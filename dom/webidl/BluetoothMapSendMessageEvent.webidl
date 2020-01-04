@@ -92,11 +92,7 @@ MPL
 *
 /
 [
-CheckAnyPermissions
-=
-"
-bluetooth
-"
+ChromeOnly
 Constructor
 (
 DOMString

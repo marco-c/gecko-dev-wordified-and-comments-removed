@@ -69,13 +69,6 @@ networkstatsalarm
 1
 "
 ChromeOnly
-CheckAnyPermissions
-=
-"
-networkstats
--
-manage
-"
 Pref
 =
 "

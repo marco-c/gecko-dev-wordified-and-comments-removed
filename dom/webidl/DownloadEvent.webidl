@@ -109,11 +109,7 @@ mozDownloads
 .
 enabled
 "
-CheckAnyPermissions
-=
-"
-downloads
-"
+ChromeOnly
 ]
 interface
 DownloadEvent
