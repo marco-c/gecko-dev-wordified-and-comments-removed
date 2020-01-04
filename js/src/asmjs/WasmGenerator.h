@@ -312,9 +312,6 @@ JumpSiteArray
 jumpThunks_
 ;
 bool
-externalTable_
-;
-bool
 parallel_
 ;
 uint32_t

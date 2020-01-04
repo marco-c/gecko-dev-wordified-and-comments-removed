@@ -574,6 +574,12 @@ const
 ClassOps
 classOps_
 ;
+bool
+isNewborn
+(
+)
+const
+;
 static
 void
 finalize
@@ -747,12 +753,8 @@ create
 JSContext
 *
 cx
-wasm
-:
-:
-Table
-&
-table
+uint32_t
+length
 )
 ;
 bool
