@@ -77,6 +77,13 @@ h
 #
 include
 "
+nsIX509Cert
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h
