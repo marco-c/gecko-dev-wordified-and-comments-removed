@@ -20274,9 +20274,11 @@ nsIPrincipal
 >
 principal
 =
-do_CreateInstance
+nsNullPrincipal
+:
+:
+Create
 (
-NS_NULLPRINCIPAL_CONTRACTID
 )
 ;
 nsCOMPtr
