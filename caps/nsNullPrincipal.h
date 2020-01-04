@@ -293,12 +293,6 @@ nsIURI
 >
 mURI
 ;
-nsCOMPtr
-<
-nsIContentSecurityPolicy
->
-mCSP
-;
 }
 ;
 #
