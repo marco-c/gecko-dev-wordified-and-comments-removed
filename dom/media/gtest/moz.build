@@ -133,6 +133,11 @@ TestMediaEventSource
 cpp
 '
 '
+TestMediaFormatReader
+.
+cpp
+'
+'
 TestMozPromise
 .
 cpp
