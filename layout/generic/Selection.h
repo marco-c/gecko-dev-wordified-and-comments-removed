@@ -1462,7 +1462,7 @@ EndBatchChangesInternal
 }
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoHideSelectionChanges
 final
 {

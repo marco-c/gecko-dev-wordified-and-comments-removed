@@ -1247,7 +1247,7 @@ aReflowStatus
 )
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoFinish
 {
 public

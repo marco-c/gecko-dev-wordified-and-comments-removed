@@ -1170,7 +1170,7 @@ DOMTimeStamp
 gLastKeyTime
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoIncrementalSearchResetter
 {
 public
