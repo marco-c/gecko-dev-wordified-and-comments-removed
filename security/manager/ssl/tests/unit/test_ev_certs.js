@@ -864,7 +864,7 @@ setIntPref
 "
 services
 .
-blocklist
+kinto
 .
 onecrl
 .
@@ -1099,7 +1099,7 @@ setIntPref
 "
 services
 .
-blocklist
+kinto
 .
 onecrl
 .
@@ -1409,7 +1409,7 @@ setIntPref
 "
 services
 .
-blocklist
+kinto
 .
 onecrl
 .
@@ -1501,7 +1501,7 @@ clearUserPref
 "
 services
 .
-blocklist
+kinto
 .
 onecrl
 .
