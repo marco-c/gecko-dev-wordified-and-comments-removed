@@ -61,6 +61,8 @@ char
 dir
 bool
 readOnly
+bool
+loadPKCS11Modules
 )
 ;
 void
