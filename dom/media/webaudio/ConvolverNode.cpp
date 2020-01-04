@@ -813,7 +813,7 @@ engine
 AudioNodeStream
 :
 :
-INTERNAL_STREAM
+NO_STREAM_FLAGS
 )
 ;
 }

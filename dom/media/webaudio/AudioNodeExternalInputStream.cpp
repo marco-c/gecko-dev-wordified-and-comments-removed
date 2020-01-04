@@ -57,7 +57,7 @@ aContextId
 AudioNodeStream
 (
 aEngine
-INTERNAL_STREAM
+NO_STREAM_FLAGS
 aSampleRate
 aContextId
 )

@@ -1708,7 +1708,7 @@ engine
 AudioNodeStream
 :
 :
-SOURCE_STREAM
+NEED_MAIN_THREAD_FINISHED
 )
 ;
 engine
