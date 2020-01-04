@@ -50,11 +50,6 @@ AccCollector
 (
 )
 ;
-uint32_t
-Count
-(
-)
-;
 Accessible
 *
 GetAccessibleAt
@@ -171,6 +166,11 @@ Accessible
 aAccessible
 )
 override
+;
+uint32_t
+Count
+(
+)
 ;
 protected
 :

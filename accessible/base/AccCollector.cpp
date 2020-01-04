@@ -58,7 +58,7 @@ AccCollector
 {
 }
 uint32_t
-AccCollector
+EmbeddedObjCollector
 :
 :
 Count
