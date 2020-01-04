@@ -1666,6 +1666,9 @@ mAnnotations
 )
 )
 ;
+if
+(
+!
 mStats
 .
 mHangs
@@ -1677,7 +1680,13 @@ Move
 newHistogram
 )
 )
+)
+{
+MOZ_CRASH
+(
+)
 ;
+}
 return
 mStats
 .
