@@ -880,9 +880,12 @@ className
 netInfoResponseContent
 "
 }
+sanitize
+(
 text
 .
 initial
+)
 SizeLimit
 (
 {
