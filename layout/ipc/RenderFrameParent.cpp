@@ -1644,6 +1644,11 @@ mApzcTreeManager
 &
 &
 mAsyncPanZoomEnabled
+&
+&
+XRE_IsParentProcess
+(
+)
 )
 {
 mApzcTreeManager
