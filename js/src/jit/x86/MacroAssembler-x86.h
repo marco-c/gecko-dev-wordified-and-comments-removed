@@ -6751,15 +6751,6 @@ dest
 )
 ;
 void
-addConstantFloat32
-(
-float
-f
-FloatRegister
-dest
-)
-;
-void
 loadConstantInt32x4
 (
 const
