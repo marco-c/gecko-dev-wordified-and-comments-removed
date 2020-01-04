@@ -190,11 +190,6 @@ eSpecialType_Flash
 quirks
 |
 =
-QUIRK_FLASH_AVOID_CGMODE_CRASHES
-;
-quirks
-|
-=
 QUIRK_ALLOW_OFFLINE_RENDERER
 ;
 }
