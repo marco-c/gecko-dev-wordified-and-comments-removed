@@ -1019,9 +1019,10 @@ aServiceWorker
 }
 PushMessageData
 *
-Data
+GetData
 (
 )
+const
 {
 return
 mData
