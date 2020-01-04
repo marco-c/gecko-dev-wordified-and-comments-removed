@@ -6030,12 +6030,6 @@ NPN_evaluate
 "
 )
 ;
-aes
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 JSContext
 *
 cx

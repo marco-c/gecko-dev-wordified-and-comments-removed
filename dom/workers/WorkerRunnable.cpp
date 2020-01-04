@@ -1276,7 +1276,6 @@ cx
 (
 )
 ;
-}
 jsapi
 -
 >
@@ -1284,6 +1283,7 @@ TakeOwnershipOfErrorReporting
 (
 )
 ;
+}
 MOZ_ASSERT_IF
 (
 !

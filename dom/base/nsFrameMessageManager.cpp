@@ -5382,12 +5382,6 @@ handler
 "
 )
 ;
-aes
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 JSContext
 *
 cx
@@ -8481,12 +8475,6 @@ manager
 script
 load
 "
-)
-;
-aes
-.
-TakeOwnershipOfErrorReporting
-(
 )
 ;
 JSContext

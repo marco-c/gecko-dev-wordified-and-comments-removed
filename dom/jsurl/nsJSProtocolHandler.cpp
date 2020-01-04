@@ -1035,7 +1035,7 @@ nsAutoMicroTask
 mt
 ;
 AutoEntryScript
-entryScript
+aes
 (
 innerGlobal
 "
@@ -1052,17 +1052,11 @@ GetNativeContext
 )
 )
 ;
-entryScript
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 JSContext
 *
 cx
 =
-entryScript
+aes
 .
 cx
 (

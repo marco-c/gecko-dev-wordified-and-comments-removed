@@ -1274,12 +1274,6 @@ enumeration
 "
 )
 ;
-aes
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 JSContext
 *
 cx
@@ -1706,12 +1700,6 @@ geolocation
 always_precise
 indexing
 "
-)
-;
-aes
-.
-TakeOwnershipOfErrorReporting
-(
 )
 ;
 JSContext

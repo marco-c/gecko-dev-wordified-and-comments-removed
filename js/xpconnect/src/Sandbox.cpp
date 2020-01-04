@@ -8412,12 +8412,6 @@ evaluation
 "
 )
 ;
-aes
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 JSContext
 *
 sandcx

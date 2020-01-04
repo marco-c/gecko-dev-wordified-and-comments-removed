@@ -7291,12 +7291,6 @@ mainThread
 cx
 )
 ;
-aes
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 MOZ_ASSERT
 (
 !

@@ -1823,7 +1823,7 @@ NS_OK
 ;
 }
 AutoEntryScript
-entryScript
+aes
 (
 globalObject
 "
@@ -1836,17 +1836,11 @@ initialization
 true
 )
 ;
-entryScript
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 JSContext
 *
 cx
 =
-entryScript
+aes
 .
 cx
 (
@@ -2061,7 +2055,7 @@ rv
 NS_SUCCESS_DOM_SCRIPT_EVALUATION_THREW
 )
 {
-entryScript
+aes
 .
 ReportException
 (

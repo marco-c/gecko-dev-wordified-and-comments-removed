@@ -674,13 +674,6 @@ mCx
 =
 cx
 ;
-mAutoEntryScript
--
->
-TakeOwnershipOfErrorReporting
-(
-)
-;
 }
 bool
 CallbackObject

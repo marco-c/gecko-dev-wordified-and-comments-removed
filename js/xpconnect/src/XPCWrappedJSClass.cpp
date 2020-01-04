@@ -2228,12 +2228,6 @@ QueryInterface
 true
 )
 ;
-aes
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 XPCCallContext
 ccx
 (
@@ -4378,12 +4372,6 @@ method
 call
 "
 true
-)
-;
-aes
-.
-TakeOwnershipOfErrorReporting
-(
 )
 ;
 XPCCallContext
