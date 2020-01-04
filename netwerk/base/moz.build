@@ -313,6 +313,11 @@ nsIFormPOSTActionChannel
 idl
 '
 '
+nsIHttpAuthenticatorCallback
+.
+idl
+'
+'
 nsIHttpPushListener
 .
 idl
