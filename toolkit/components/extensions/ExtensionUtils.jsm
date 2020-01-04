@@ -153,6 +153,7 @@ Chain
 n
 "
 )
+;
 }
 function
 runSafeSyncWithoutClone
