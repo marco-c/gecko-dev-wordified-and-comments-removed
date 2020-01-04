@@ -180,7 +180,7 @@ xss
 /
 /
 not
-suppored
+supported
 in
 Firefox
 sequence
@@ -252,6 +252,12 @@ require
 sri
 -
 for
+;
+sequence
+<
+DOMString
+>
+sandbox
 ;
 }
 ;
