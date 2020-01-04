@@ -8943,13 +8943,7 @@ case
 Bailout_NonSymbolInput
 :
 case
-Bailout_NonSimdBool32x4Input
-:
-case
-Bailout_NonSimdInt32x4Input
-:
-case
-Bailout_NonSimdFloat32x4Input
+Bailout_UnexpectedSimdInput
 :
 case
 Bailout_NonSharedTypedArrayInput
