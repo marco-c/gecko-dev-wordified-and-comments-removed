@@ -758,13 +758,6 @@ Layer
 mPresContext
 -
 >
-ClearLastStyleUpdateForAllAnimations
-(
-)
-;
-mPresContext
--
->
 RestyleManager
 (
 )
