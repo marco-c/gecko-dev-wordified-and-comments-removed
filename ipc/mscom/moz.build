@@ -119,6 +119,11 @@ InterceptorLog
 h
 '
 '
+MainThreadHandoff
+.
+h
+'
+'
 MainThreadInvoker
 .
 h
@@ -190,6 +195,11 @@ cpp
 '
 '
 InterceptorLog
+.
+cpp
+'
+'
+MainThreadHandoff
 .
 cpp
 '
