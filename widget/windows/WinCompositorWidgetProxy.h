@@ -101,6 +101,12 @@ GetCompositorVsyncDispatcher
 )
 override
 ;
+uintptr_t
+GetWidgetKey
+(
+)
+override
+;
 nsIWidget
 *
 RealWidget
@@ -216,6 +222,9 @@ private
 nsWindow
 *
 mWindow
+;
+uintptr_t
+mWidgetKey
 ;
 HWND
 mWnd
