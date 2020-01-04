@@ -27121,7 +27121,9 @@ this
 .
 mCurrentBrowser
 .
-docShellIsActive
+docShell
+.
+isActiveAndForeground
 =
 (
 window
