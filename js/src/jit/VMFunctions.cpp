@@ -5108,6 +5108,13 @@ str_replace_regexp_raw
 cx
 string
 regexp
+.
+as
+<
+RegExpObject
+>
+(
+)
 repl
 &
 rval
