@@ -4952,13 +4952,13 @@ p
 aOffset
 =
 %
-ld
+d
 "
 "
 aNChar
 =
 %
-ld
+d
 )
 current
 context
@@ -4968,6 +4968,8 @@ p
 "
 this
 aContext
+aOffset
+aNChars
 GetCurrentContext
 (
 )
@@ -9405,7 +9407,7 @@ d
 aNChars
 =
 %
-d
+u
 )
 "
 "
