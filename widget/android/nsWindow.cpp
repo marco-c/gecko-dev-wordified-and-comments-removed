@@ -11867,6 +11867,16 @@ imeRoot
 )
 )
 ;
+NS_ENSURE_TRUE_VOID
+(
+imeRoot
+-
+>
+IsInComposedDoc
+(
+)
+)
+;
 RefPtr
 <
 nsWindow
