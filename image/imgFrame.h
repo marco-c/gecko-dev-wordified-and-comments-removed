@@ -689,11 +689,6 @@ Optimize
 (
 )
 ;
-nsresult
-Deoptimize
-(
-)
-;
 void
 AssertImageDataLocked
 (
