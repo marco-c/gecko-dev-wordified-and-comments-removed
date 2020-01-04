@@ -345,7 +345,6 @@ now
 )
 ;
 }
-let
 historyObserver
 =
 {

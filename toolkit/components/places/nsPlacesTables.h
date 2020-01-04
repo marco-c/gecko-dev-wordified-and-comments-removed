@@ -99,15 +99,6 @@ NULL
 "
 \
 "
-url_hash
-INTEGER
-DEFAULT
-0
-NOT
-NULL
-"
-\
-"
 )
 "
 \

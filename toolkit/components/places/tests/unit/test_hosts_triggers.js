@@ -42,14 +42,6 @@ url
 FROM
 moz_places
 WHERE
-url_hash
-=
-hash
-(
-:
-host
-)
-AND
 url
 =
 :

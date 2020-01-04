@@ -226,7 +226,7 @@ WHERE
 idx
 =
 '
-moz_places_url_hashindex
+moz_places_url_uniqueindex
 '
 )
 "
