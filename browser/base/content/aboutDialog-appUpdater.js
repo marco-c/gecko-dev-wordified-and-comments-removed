@@ -162,6 +162,12 @@ Update
 Wizard
 "
 )
+&
+&
+!
+this
+.
+isApplied
 )
 {
 this
