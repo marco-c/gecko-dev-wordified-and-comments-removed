@@ -19,7 +19,7 @@ mozilla
 /
 layers
 /
-CompositableForwarder
+ISurfaceAllocator
 .
 h
 "
