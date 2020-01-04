@@ -1078,10 +1078,7 @@ aInfo
 {
 MOZ_ASSERT
 (
-mDecoder
--
->
-OnDecodeTaskQueue
+OnTaskQueue
 (
 )
 )

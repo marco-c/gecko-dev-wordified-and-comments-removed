@@ -77,15 +77,6 @@ final
 override
 ;
 virtual
-bool
-OnDecodeTaskQueue
-(
-)
-const
-final
-override
-;
-virtual
 MediaResource
 *
 GetResource
