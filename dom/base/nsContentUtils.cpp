@@ -15854,6 +15854,8 @@ cx
 spec
 &
 aLineNumber
+&
+aColumnNumber
 )
 ;
 }
