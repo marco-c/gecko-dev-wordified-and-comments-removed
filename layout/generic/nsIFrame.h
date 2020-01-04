@@ -3851,6 +3851,12 @@ Combines3DTransformWithAncestors
 const
 ;
 bool
+In3DContextAndBackfaceIsHidden
+(
+)
+const
+;
+bool
 IsPreserve3DLeaf
 (
 )

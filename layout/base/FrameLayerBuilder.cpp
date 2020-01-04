@@ -14156,7 +14156,7 @@ Frame
 )
 -
 >
-BackfaceIsHidden
+In3DContextAndBackfaceIsHidden
 (
 )
 ;
@@ -17290,7 +17290,7 @@ Frame
 )
 -
 >
-BackfaceIsHidden
+In3DContextAndBackfaceIsHidden
 (
 )
 avoidCreatingLayer
