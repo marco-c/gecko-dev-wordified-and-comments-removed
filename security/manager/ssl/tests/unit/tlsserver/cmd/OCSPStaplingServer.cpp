@@ -153,7 +153,11 @@ com
 "
 ORTGoodOtherCA
 "
-otherCA
+other
+-
+test
+-
+ca
 "
 }
 {
@@ -596,7 +600,7 @@ ORTDelegatedIncluded
 "
 rsa
 -
-1008
+1016
 -
 keysizeDelegatedSigner
 "

@@ -275,13 +275,7 @@ kEnd_Entity_Test_CertFingerprint
 ]
 =
 "
-lzCakFt
-+
-nADIfIkgk
-+
-UE
-/
-EQ9SaT2nay2yu2iykVbvV8
+VCIlmPM9NkgFQtrs4Oa5TeFcDu6MWRTKSNdePEhOgD8
 =
 "
 ;
