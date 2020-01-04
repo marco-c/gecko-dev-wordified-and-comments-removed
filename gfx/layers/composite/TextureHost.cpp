@@ -2415,6 +2415,9 @@ YUV
 &
 &
 mCompositor
+&
+&
+mCompositor
 -
 >
 SupportsEffect
@@ -2446,6 +2449,9 @@ SurfaceFormat
 :
 :
 YUV
+&
+&
+mCompositor
 &
 &
 !
