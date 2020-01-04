@@ -27,6 +27,9 @@ MessageLoop
 ;
 BEGIN_BLUETOOTH_NAMESPACE
 class
+BluetoothSocketInterface
+;
+class
 BluetoothSocketObserver
 ;
 class
@@ -255,6 +258,11 @@ override
 ;
 private
 :
+nsresult
+LoadSocketInterface
+(
+)
+;
 inline
 void
 SetCurrentResultHandler
@@ -269,6 +277,10 @@ mCurrentRes
 aRes
 ;
 }
+BluetoothSocketInterface
+*
+mSocketInterface
+;
 BluetoothSocketObserver
 *
 mObserver
