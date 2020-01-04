@@ -131,6 +131,11 @@ yet
 :
 /
 /
+[
+Unscopable
+]
+/
+/
 void
 before
 (
@@ -145,6 +150,11 @@ DOMString
 nodes
 )
 ;
+/
+/
+[
+Unscopable
+]
 /
 /
 void
@@ -163,6 +173,11 @@ nodes
 ;
 /
 /
+[
+Unscopable
+]
+/
+/
 void
 replace
 (
@@ -177,6 +192,9 @@ DOMString
 nodes
 )
 ;
+[
+Unscopable
+]
 void
 remove
 (
