@@ -349,7 +349,7 @@ GetUTF16String
 TEST
 (
 Atoms
-NUll
+Null
 )
 {
 nsAutoString
@@ -917,7 +917,7 @@ nsCOMPtr
 <
 nsIAtom
 >
-thirdNonPerm
+thirdDynamic
 =
 NS_Atomize
 (
@@ -928,13 +928,13 @@ EXPECT_FALSE
 (
 isStaticAtom
 (
-thirdNonPerm
+thirdDynamic
 )
 )
 ;
 EXPECT_TRUE
 (
-thirdNonPerm
+thirdDynamic
 )
 ;
 EXPECT_EQ
@@ -1045,7 +1045,7 @@ count
 ;
 EXPECT_EQ
 (
-thirdNonPerm
+thirdDynamic
 sAtom3
 )
 ;
