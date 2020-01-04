@@ -10443,6 +10443,13 @@ aRate
 data
 -
 >
+mResamplerChannelCount
+=
+0
+;
+data
+-
+>
 mStart
 =
 aStart
