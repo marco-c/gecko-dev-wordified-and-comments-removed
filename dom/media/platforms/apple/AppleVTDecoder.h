@@ -51,6 +51,8 @@ ImageContainer
 aImageContainer
 )
 ;
+private
+:
 virtual
 ~
 AppleVTDecoder
@@ -107,8 +109,6 @@ decoder
 "
 ;
 }
-protected
-:
 void
 ProcessFlush
 (
@@ -127,8 +127,6 @@ ProcessShutdown
 )
 override
 ;
-private
-:
 CMVideoFormatDescriptionRef
 mFormat
 ;
