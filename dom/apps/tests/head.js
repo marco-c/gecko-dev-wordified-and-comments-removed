@@ -47,6 +47,13 @@ waitForExplicitFinish
 (
 )
 ;
+SpecialPowers
+.
+setAllAppsLaunchable
+(
+true
+)
+;
 steps
 =
 steps

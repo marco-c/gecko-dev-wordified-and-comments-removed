@@ -22,6 +22,13 @@ addPermission
 (
 )
 ;
+SpecialPowers
+.
+setAllAppsLaunchable
+(
+true
+)
+;
 function
 runTest
 (

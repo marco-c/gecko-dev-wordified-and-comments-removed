@@ -4,6 +4,13 @@ waitForExplicitFinish
 (
 )
 ;
+SpecialPowers
+.
+setAllAppsLaunchable
+(
+true
+)
+;
 var
 fileTestOnCurrentOrigin
 =

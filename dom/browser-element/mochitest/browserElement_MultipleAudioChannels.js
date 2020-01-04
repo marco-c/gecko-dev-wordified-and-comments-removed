@@ -852,6 +852,13 @@ startTest
 {
 SpecialPowers
 .
+setAllAppsLaunchable
+(
+true
+)
+;
+SpecialPowers
+.
 autoConfirmAppInstall
 (
 continueTest
