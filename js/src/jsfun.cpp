@@ -6099,7 +6099,7 @@ cx
 FrameIter
 :
 :
-STOP_AT_SAVED
+GO_THROUGH_SAVED
 )
 ;
 MOZ_ASSERT
