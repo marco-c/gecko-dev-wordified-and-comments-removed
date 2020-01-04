@@ -1709,6 +1709,9 @@ mCSSZoomFactor
 uint32_t
 mPostingKeyEvents
 ;
+uint32_t
+mPostingKeyEventsOutdated
+;
 int16_t
 mDrawingModel
 ;
@@ -2310,6 +2313,10 @@ mSurfaceDifferenceRect
 ;
 bool
 mDestroyed
+;
+static
+bool
+sIsIMEComposing
 ;
 public
 :
