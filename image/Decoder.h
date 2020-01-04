@@ -702,6 +702,10 @@ protected
 :
 friend
 class
+AutoRecordDecoderTelemetry
+;
+friend
+class
 nsICODecoder
 ;
 friend
