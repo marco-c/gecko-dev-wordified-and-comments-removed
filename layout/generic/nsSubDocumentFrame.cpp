@@ -1584,7 +1584,7 @@ GetCurrentRenderFrame
 bool
 pointerEventsNone
 =
-StyleVisibility
+StyleUserInterface
 (
 )
 -

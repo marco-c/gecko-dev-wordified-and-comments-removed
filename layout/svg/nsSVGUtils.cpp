@@ -8282,7 +8282,7 @@ switch
 aFrame
 -
 >
-StyleVisibility
+StyleUserInterface
 (
 )
 -

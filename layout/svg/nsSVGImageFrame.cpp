@@ -2444,7 +2444,7 @@ flags
 ;
 switch
 (
-StyleVisibility
+StyleUserInterface
 (
 )
 -

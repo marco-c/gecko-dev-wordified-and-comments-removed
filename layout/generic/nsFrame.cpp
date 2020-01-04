@@ -10181,7 +10181,7 @@ IsBuildingLayerEventRegions
 )
 &
 &
-StyleVisibility
+StyleUserInterface
 (
 )
 -

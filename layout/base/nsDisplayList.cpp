@@ -10315,7 +10315,7 @@ NS_STYLE_POINTER_EVENTS_NONE
 aFrame
 -
 >
-StyleVisibility
+StyleUserInterface
 (
 )
 -
@@ -18312,7 +18312,7 @@ pointerEvents
 aFrame
 -
 >
-StyleVisibility
+StyleUserInterface
 (
 )
 -

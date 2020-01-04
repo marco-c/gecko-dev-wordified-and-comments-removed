@@ -1555,11 +1555,10 @@ PassPointerEventsToChildren
 )
 &
 &
-(
 aFrame
 -
 >
-StyleVisibility
+StyleUserInterface
 (
 )
 -
@@ -1571,7 +1570,6 @@ aFrame
 =
 =
 NS_STYLE_POINTER_EVENTS_NONE
-)
 ;
 if
 (
