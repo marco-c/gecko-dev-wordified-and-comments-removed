@@ -346,6 +346,11 @@ target
 -
 icon
 "
+role
+:
+"
+presentation
+"
 src
 :
 target
