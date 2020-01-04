@@ -1354,7 +1354,7 @@ SeekCompleted
 (
 )
 ;
-void
+bool
 CheckIfDecodeComplete
 (
 )
