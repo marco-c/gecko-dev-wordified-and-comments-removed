@@ -51969,8 +51969,6 @@ if
 document
 )
 {
-rv
-=
 document
 -
 >
