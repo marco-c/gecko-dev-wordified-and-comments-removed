@@ -459,17 +459,6 @@ ID
 aProtoId
 )
 ;
-bool
-ThrowMethodFailed
-(
-JSContext
-*
-cx
-ErrorResult
-&
-rv
-)
-;
 inline
 bool
 IsDOMClass
