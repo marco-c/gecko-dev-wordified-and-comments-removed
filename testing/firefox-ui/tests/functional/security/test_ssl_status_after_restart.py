@@ -9,12 +9,6 @@ marionette_test
 import
 skip_if_e10s
 from
-firefox_ui_harness
-.
-decorators
-import
-skip_under_xvfb
-from
 firefox_puppeteer
 .
 testcases
@@ -279,8 +273,6 @@ self
 )
     
 skip_if_e10s
-    
-skip_under_xvfb
     
 def
 test_ssl_status_after_restart

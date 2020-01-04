@@ -4,12 +4,6 @@ import
 By
 Wait
 from
-firefox_ui_harness
-.
-decorators
-import
-skip_under_xvfb
-from
 firefox_puppeteer
 .
 testcases
@@ -255,8 +249,6 @@ tearDown
 (
 self
 )
-    
-skip_under_xvfb
     
 def
 test_star_in_autocomplete
