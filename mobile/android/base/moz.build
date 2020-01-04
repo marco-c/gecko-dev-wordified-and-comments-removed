@@ -1568,13 +1568,6 @@ java
 '
 animation
 /
-AnimatorProxy
-.
-java
-'
-'
-animation
-/
 HeightChangeAnimation
 .
 java
