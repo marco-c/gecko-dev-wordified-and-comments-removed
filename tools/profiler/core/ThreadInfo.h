@@ -165,12 +165,6 @@ get
 }
 #
 endif
-bool
-CanInvokeJS
-(
-)
-const
-;
 private
 :
 char
