@@ -897,6 +897,8 @@ Authority
 -
 G5
 "
+/
+/
 "
 Verisign
 Class
@@ -1386,6 +1388,8 @@ Class
 CA
 II
 "
+/
+/
 "
 TC
 TrustCenter
@@ -1430,6 +1434,8 @@ Thawte
 Server
 CA
 "
+/
+/
 "
 UTN
 DATACorp
@@ -1522,6 +1528,8 @@ Authority
 -
 G5
 "
+/
+/
 "
 Verisign
 Class
