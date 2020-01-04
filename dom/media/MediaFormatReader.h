@@ -297,6 +297,12 @@ VideoIsHardwareAccelerated
 const
 override
 ;
+void
+DisableHardwareAcceleration
+(
+)
+override
+;
 bool
 IsWaitForDataSupported
 (
@@ -1659,12 +1665,6 @@ private
 :
 void
 ReleaseMediaResourcesInternal
-(
-)
-override
-;
-void
-DisableHardwareAccelerationInternal
 (
 )
 override
