@@ -186,10 +186,6 @@ int
 aFlags
 bool
 aAsyncOnly
-bool
-aIgnoreLockingMode
-=
-false
 )
 ;
 nsresult
@@ -544,10 +540,6 @@ mProgressHandler
 const
 int
 mFlags
-;
-const
-bool
-mIgnoreLockingMode
 ;
 RefPtr
 <
