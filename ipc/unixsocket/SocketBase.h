@@ -16,13 +16,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 UniquePtr
@@ -1163,7 +1156,7 @@ override
 ;
 private
 :
-nsAutoPtr
+UniquePtr
 <
 SocketIOBase
 >

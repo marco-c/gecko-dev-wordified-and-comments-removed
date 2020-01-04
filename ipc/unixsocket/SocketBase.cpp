@@ -1358,8 +1358,10 @@ Run
 )
 {
 mIO
-=
-nullptr
+.
+reset
+(
+)
 ;
 }
 SocketIOShutdownTask

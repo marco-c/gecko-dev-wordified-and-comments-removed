@@ -156,7 +156,7 @@ aConnector
 ;
 private
 :
-nsAutoPtr
+UniquePtr
 <
 UnixSocketConnector
 >
