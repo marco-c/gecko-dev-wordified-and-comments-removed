@@ -1340,17 +1340,6 @@ omx
 -
 enable
 -
-android
--
-resource
--
-constrained
-'
-'
--
--
-enable
--
 approximate
 -
 location
