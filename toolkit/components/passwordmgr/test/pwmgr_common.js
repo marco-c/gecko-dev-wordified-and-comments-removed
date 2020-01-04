@@ -1323,6 +1323,7 @@ label
 login
 )
 {
+var
 loginText
 =
 "
