@@ -341,7 +341,6 @@ aWin
 )
 ;
 }
-;
 registerCleanupFunction
 (
 function

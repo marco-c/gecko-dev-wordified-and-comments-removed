@@ -349,11 +349,6 @@ message
 var
 ps
 =
-null
-;
-var
-ps
-=
 Components
 .
 classes

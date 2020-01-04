@@ -1329,7 +1329,6 @@ RedirectAndAuthStopper
 )
 {
 }
-;
 RedirectAndAuthStopper
 .
 prototype

@@ -185,10 +185,6 @@ rdf
 /
 *
 *
-security
-/
-*
-*
 services
 /
 *
@@ -480,6 +476,13 @@ devtools
 /
 exclusions
 devtools
+/
+*
+.
+js
+devtools
+/
+client
 /
 *
 .

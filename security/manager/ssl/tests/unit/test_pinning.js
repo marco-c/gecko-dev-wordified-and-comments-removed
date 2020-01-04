@@ -558,7 +558,6 @@ com
 )
 ;
 }
-;
 function
 test_disabled
 (
