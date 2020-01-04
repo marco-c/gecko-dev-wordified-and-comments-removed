@@ -12487,10 +12487,12 @@ context
 ]
 characters
 :
-nil
+"
+"
 charactersIgnoringModifiers
 :
-nil
+"
+"
 isARepeat
 :
 NO
