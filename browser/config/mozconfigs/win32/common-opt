@@ -255,7 +255,9 @@ errors
 Enable
 Adobe
 Primetime
-CDM
+and
+Widevine
+CDMs
 on
 32
 -
@@ -291,6 +293,7 @@ enable
 eme
 =
 adobe
+widevine
 #
 Package
 js

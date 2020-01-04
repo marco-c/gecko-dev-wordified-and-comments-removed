@@ -241,7 +241,9 @@ vs2015
 Enable
 Adobe
 Primetime
-CDM
+and
+Widevine
+CDMs
 on
 64
 -
@@ -277,6 +279,7 @@ enable
 eme
 =
 adobe
+widevine
 #
 Package
 js
