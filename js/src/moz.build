@@ -2474,13 +2474,6 @@ cpp
 '
 vm
 /
-Monitor
-.
-cpp
-'
-'
-vm
-/
 NativeObject
 .
 cpp
