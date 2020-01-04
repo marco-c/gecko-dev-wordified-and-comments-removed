@@ -37771,15 +37771,6 @@ nsICookieService
 :
 :
 BEHAVIOR_REJECT
-|
-|
-sCookiesLifetimePolicy
-=
-=
-nsICookieService
-:
-:
-ASK_BEFORE_ACCEPT
 )
 {
 return
