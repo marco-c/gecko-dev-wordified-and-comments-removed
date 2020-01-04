@@ -16407,7 +16407,7 @@ pref
 "
 security
 .
-block_script_with_mime_image
+block_script_with_wrong_mime
 "
 true
 )
