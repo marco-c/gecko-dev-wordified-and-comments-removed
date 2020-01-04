@@ -106,11 +106,6 @@ PushService
 jsm
 '
 '
-PushServiceChildPreload
-.
-jsm
-'
-'
 PushServiceHttp2
 .
 jsm
