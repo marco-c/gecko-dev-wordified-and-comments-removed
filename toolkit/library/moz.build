@@ -897,9 +897,6 @@ OS_LIBS
 secur32
 '
 '
-crypt32
-'
-'
 iphlpapi
 '
 '
@@ -1070,6 +1067,9 @@ OS_LIBS
 +
 =
 [
+'
+crypt32
+'
 '
 shell32
 '
