@@ -155,6 +155,11 @@ PlacesProvider
 .
 jsm
 '
+'
+PreviewProvider
+.
+jsm
+'
 ]
 XPIDL_SOURCES
 +
