@@ -265,6 +265,9 @@ namespace
 dom
 {
 struct
+AnimationFilter
+;
+struct
 ScrollIntoViewOptions
 ;
 struct
@@ -3004,6 +3007,10 @@ aError
 void
 GetAnimations
 (
+const
+AnimationFilter
+&
+filter
 nsTArray
 <
 RefPtr

@@ -196,6 +196,10 @@ CSSPseudoElement
 :
 GetAnimations
 (
+const
+AnimationFilter
+&
+filter
 nsTArray
 <
 RefPtr

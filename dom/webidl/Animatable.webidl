@@ -160,6 +160,16 @@ id
 ;
 }
 ;
+dictionary
+AnimationFilter
+{
+boolean
+subtree
+=
+false
+;
+}
+;
 [
 NoInterfaceObject
 ]
@@ -209,6 +219,9 @@ Animation
 >
 getAnimations
 (
+optional
+AnimationFilter
+filter
 )
 ;
 }

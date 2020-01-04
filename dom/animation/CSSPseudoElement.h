@@ -249,6 +249,10 @@ forget
 void
 GetAnimations
 (
+const
+AnimationFilter
+&
+filter
 nsTArray
 <
 RefPtr
