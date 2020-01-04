@@ -457,8 +457,13 @@ IsVP9DecodeFast
 )
 ;
 }
-static
+namespace
+dom
+{
 nsresult
+MediaSource
+:
+:
 IsTypeSupported
 (
 const
@@ -750,9 +755,6 @@ return
 NS_ERROR_DOM_NOT_SUPPORTED_ERR
 ;
 }
-namespace
-dom
-{
 already_AddRefed
 <
 MediaSource
@@ -1165,9 +1167,6 @@ diagnostics
 nsresult
 rv
 =
-mozilla
-:
-:
 IsTypeSupported
 (
 aType
@@ -1821,9 +1820,6 @@ diagnostics
 nsresult
 rv
 =
-mozilla
-:
-:
 IsTypeSupported
 (
 aType
