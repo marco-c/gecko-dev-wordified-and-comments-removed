@@ -150,6 +150,11 @@ TestSnappyStreams
 cpp
 '
 '
+TestStateWatching
+.
+cpp
+'
+'
 TestStorageStream
 .
 cpp
