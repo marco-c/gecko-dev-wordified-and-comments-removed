@@ -104,6 +104,11 @@ relative_path
 '
 thirdplugin
 '
+cocoa_name
+=
+'
+ThirdTest
+'
 include
 (
 '

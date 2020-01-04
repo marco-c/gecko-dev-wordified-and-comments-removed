@@ -104,6 +104,11 @@ relative_path
 '
 javaplugin
 '
+cocoa_name
+=
+'
+JavaTest
+'
 include
 (
 '
