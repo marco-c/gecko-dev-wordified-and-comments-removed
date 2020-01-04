@@ -2767,7 +2767,7 @@ false
 }
 static
 bool
-HasNonOpaqueColor
+HasNonOpaqueNonTransparentColor
 (
 gfxContext
 *
@@ -2792,7 +2792,7 @@ if
 (
 0
 .
-0
+f
 <
 aCurrentColorOut
 .
@@ -2805,7 +2805,7 @@ a
 <
 1
 .
-0
+f
 )
 {
 return
@@ -3236,7 +3236,7 @@ DrawMode
 GLYPH_FILL
 &
 &
-HasNonOpaqueColor
+HasNonOpaqueNonTransparentColor
 (
 aContext
 currentColor
