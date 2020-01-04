@@ -753,6 +753,11 @@ WidgetCompositionEvent
 aCompositionEvent
 )
 ;
+uint32_t
+GetSelectionStartOffset
+(
+)
+;
 class
 CompositionEventDispatcher
 :
