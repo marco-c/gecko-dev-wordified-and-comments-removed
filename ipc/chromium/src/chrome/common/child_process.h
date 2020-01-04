@@ -86,15 +86,6 @@ get
 )
 ;
 }
-base
-:
-:
-WaitableEvent
-*
-GetShutDownEvent
-(
-)
-;
 void
 AddRefProcess
 (
