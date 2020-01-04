@@ -9158,7 +9158,7 @@ id
 )
 ;
 }
-flushStartupCache
+flushChromeCaches
 (
 )
 ;
@@ -9427,7 +9427,7 @@ STARTUP_CHANGE_UNINSTALLED
 id
 )
 ;
-flushStartupCache
+flushChromeCaches
 (
 )
 ;
