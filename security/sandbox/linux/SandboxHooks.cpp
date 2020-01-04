@@ -98,6 +98,12 @@ ENOSYS
 }
 if
 (
+aSet
+=
+=
+NULL
+|
+|
 aHow
 =
 =
