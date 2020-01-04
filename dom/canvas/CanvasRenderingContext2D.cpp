@@ -25007,14 +25007,11 @@ aFlags
 if
 (
 !
-gfxASurface
+Factory
 :
 :
 CheckSurfaceSize
 (
-gfx
-:
-:
 IntSize
 (
 aW
