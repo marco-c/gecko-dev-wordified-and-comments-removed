@@ -1096,8 +1096,12 @@ null
 var
 breakPoints
 =
-{
-}
+Object
+.
+create
+(
+null
+)
 ;
 return
 {
