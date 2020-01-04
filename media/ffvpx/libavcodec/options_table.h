@@ -148,7 +148,7 @@ i64
 AV_CODEC_DEFAULT_BITRATE
 }
 0
-INT_MAX
+INT64_MAX
 A
 |
 V
@@ -2086,6 +2086,9 @@ E
 }
 #
 endif
+#
+if
+FF_API_PRIVATE_OPT
 {
 "
 b_strategy
@@ -2148,6 +2151,8 @@ V
 |
 E
 }
+#
+endif
 #
 if
 FF_API_STAT_BITS
@@ -3395,6 +3400,9 @@ DEFAULT
 INT_MIN
 INT_MAX
 }
+#
+if
+FF_API_PRIVATE_OPT
 {
 "
 mpeg_quant
@@ -3426,6 +3434,8 @@ V
 |
 E
 }
+#
+endif
 #
 if
 FF_API_MPV_OPT
@@ -4781,6 +4791,9 @@ DEFAULT
 INT_MIN
 INT_MAX
 }
+#
+if
+FF_API_PRIVATE_OPT
 {
 "
 pred
@@ -4875,6 +4888,8 @@ E
 pred
 "
 }
+#
+endif
 {
 "
 aspect
@@ -5747,6 +5762,9 @@ V
 |
 E
 }
+#
+if
+FF_API_PRIVATE_OPT
 {
 "
 preme
@@ -5773,6 +5791,8 @@ V
 |
 E
 }
+#
+endif
 {
 "
 precmp
@@ -6598,6 +6618,9 @@ coder
 endif
 #
 endif
+#
+if
+FF_API_PRIVATE_OPT
 {
 "
 context
@@ -6623,6 +6646,8 @@ V
 |
 E
 }
+#
+endif
 {
 "
 slice_flags
@@ -6802,6 +6827,9 @@ INT_MAX
 }
 #
 endif
+#
+if
+FF_API_PRIVATE_OPT
 {
 "
 sc_threshold
@@ -6828,6 +6856,8 @@ V
 |
 E
 }
+#
+endif
 #
 if
 FF_API_MPV_OPT
@@ -6891,6 +6921,9 @@ E
 }
 #
 endif
+#
+if
+FF_API_PRIVATE_OPT
 {
 "
 nr
@@ -6916,6 +6949,8 @@ V
 |
 E
 }
+#
+endif
 {
 "
 rc_init_occupancy
@@ -7812,6 +7847,9 @@ A
 |
 D
 }
+#
+if
+FF_API_PRIVATE_OPT
 {
 "
 skip_threshold
@@ -7921,6 +7959,8 @@ cmp_func
 "
 }
 #
+endif
+#
 if
 FF_API_MPV_OPT
 {
@@ -8019,6 +8059,9 @@ V
 |
 E
 }
+#
+if
+FF_API_PRIVATE_OPT
 {
 "
 mepc
@@ -8054,6 +8097,8 @@ V
 |
 E
 }
+#
+endif
 {
 "
 skip_loop_filter
@@ -8377,6 +8422,9 @@ V
 |
 E
 }
+#
+if
+FF_API_PRIVATE_OPT
 {
 "
 brd_scale
@@ -8408,6 +8456,8 @@ V
 |
 E
 }
+#
+endif
 {
 "
 keyint_min
@@ -8467,6 +8517,9 @@ V
 |
 E
 }
+#
+if
+FF_API_PRIVATE_OPT
 {
 "
 chromaoffset
@@ -8495,6 +8548,8 @@ V
 |
 E
 }
+#
+endif
 {
 "
 trellis
@@ -8585,6 +8640,9 @@ V
 |
 E
 }
+#
+if
+FF_API_PRIVATE_OPT
 {
 "
 b_sensitivity
@@ -8613,6 +8671,8 @@ V
 |
 E
 }
+#
+endif
 {
 "
 compression_level
@@ -8637,6 +8697,9 @@ A
 |
 E
 }
+#
+if
+FF_API_PRIVATE_OPT
 {
 "
 min_prediction_order
@@ -8720,6 +8783,8 @@ V
 |
 E
 }
+#
+endif
 {
 "
 bits_per_raw_sample

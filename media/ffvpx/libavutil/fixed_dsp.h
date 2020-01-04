@@ -204,6 +204,14 @@ int
 strict
 )
 ;
+void
+ff_fixed_dsp_init_x86
+(
+AVFixedDSPContext
+*
+fdsp
+)
+;
 static
 av_always_inline
 int

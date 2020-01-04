@@ -113,6 +113,16 @@ emms
 asm
 '
 '
+fixed_dsp
+.
+asm
+'
+'
+fixed_dsp_init
+.
+c
+'
+'
 float_dsp
 .
 asm

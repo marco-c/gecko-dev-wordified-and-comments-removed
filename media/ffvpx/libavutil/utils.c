@@ -169,7 +169,7 @@ AV_LOG_FATAL
 Libavutil
 has
 been
-build
+built
 with
 a
 broken

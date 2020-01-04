@@ -50,6 +50,13 @@ emms_c
 void
 )
 {
+#
+if
+!
+defined
+(
+__MMX__
+)
 if
 (
 av_get_cpu_flags
@@ -58,6 +65,8 @@ av_get_cpu_flags
 &
 AV_CPU_FLAG_MMX
 )
+#
+endif
 __asm__
 volatile
 (

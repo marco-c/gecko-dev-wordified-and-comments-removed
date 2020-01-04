@@ -1,4 +1,10 @@
 #
+ifndef
+COMPAT_VA_COPY_H
+#
+define
+COMPAT_VA_COPY_H
+#
 include
 <
 stdarg
@@ -66,5 +72,7 @@ __va_copy
 dst
 src
 )
+#
+endif
 #
 endif

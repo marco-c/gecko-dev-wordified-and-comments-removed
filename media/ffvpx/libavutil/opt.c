@@ -10388,6 +10388,8 @@ ret
 =
 AVERROR_OPTION_NOT_FOUND
 )
+ret
+=
 av_dict_set
 (
 &
@@ -10403,7 +10405,6 @@ value
 0
 )
 ;
-else
 if
 (
 ret
@@ -10439,7 +10440,14 @@ t
 value
 )
 ;
-break
+av_dict_free
+(
+&
+tmp
+)
+;
+return
+ret
 ;
 }
 ret

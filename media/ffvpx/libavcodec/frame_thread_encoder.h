@@ -1,4 +1,10 @@
 #
+ifndef
+AVCODEC_FRAME_THREAD_ENCODER_H
+#
+define
+AVCODEC_FRAME_THREAD_ENCODER_H
+#
 include
 "
 avcodec
@@ -42,3 +48,5 @@ int
 got_packet_ptr
 )
 ;
+#
+endif

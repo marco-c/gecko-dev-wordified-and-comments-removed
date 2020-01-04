@@ -803,6 +803,10 @@ Kostya
 Shishkov
 Benjamin
 Larsson
+dirac
+*
+Rostislav
+Pehlivanov
 dnxhd
 *
 Baptiste
@@ -1027,8 +1031,9 @@ David
 Conrad
 libutvideo
 *
-Derek
-Buitenhuis
+Carl
+Eugen
+Hoyos
 libvorbis
 .
 c
@@ -1394,6 +1399,10 @@ Kostya
 Shishkov
 Christophe
 Gisquet
+vc2
+*
+Rostislav
+Pehlivanov
 vcr1
 .
 c
@@ -2430,6 +2439,10 @@ oggparse
 c
 David
 Conrad
+oggparsedaala
+*
+Rostislav
+Pehlivanov
 oma
 .
 c

@@ -708,9 +708,8 @@ The
 Fraunhofer
 AAC
 library
-FAAC
 and
-aacplus
+FAAC
 are
 under
 licenses
