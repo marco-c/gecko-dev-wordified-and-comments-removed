@@ -261,6 +261,9 @@ symbol
 '
 Doc
 '
+tier
+:
+1
 treeherderEnv
 :
 -
