@@ -545,12 +545,6 @@ SchedulePaintIfDeviceReset
 )
 override
 ;
-void
-UpdateRenderModeIfDeviceReset
-(
-)
-override
-;
 mozilla
 :
 :

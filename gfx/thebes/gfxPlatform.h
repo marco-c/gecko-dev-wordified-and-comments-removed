@@ -1725,13 +1725,6 @@ SchedulePaintIfDeviceReset
 )
 {
 }
-virtual
-void
-UpdateRenderModeIfDeviceReset
-(
-)
-{
-}
 already_AddRefed
 <
 DrawTarget
