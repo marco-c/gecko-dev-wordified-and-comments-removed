@@ -2110,6 +2110,8 @@ FMRadio
 :
 WindowAudioCaptureChanged
 (
+bool
+aCapture
 )
 {
 return

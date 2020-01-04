@@ -3260,6 +3260,8 @@ Telephony
 :
 WindowAudioCaptureChanged
 (
+bool
+aCapture
 )
 {
 return
