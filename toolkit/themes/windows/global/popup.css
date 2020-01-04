@@ -310,6 +310,8 @@ box
 ;
 border
 :
+1px
+solid
 var
 (
 -
@@ -660,9 +662,9 @@ panel
 arrowcontent
 -
 border
+-
+color
 :
-1px
-solid
 hsla
 (
 210
