@@ -36,6 +36,7 @@ var
 {
 EventManager
 ignoreEvent
+runSafe
 }
 =
 ExtensionUtils
