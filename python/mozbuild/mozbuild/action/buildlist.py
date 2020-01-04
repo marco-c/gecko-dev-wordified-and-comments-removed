@@ -201,7 +201,7 @@ open
 (
 listFile
 '
-w
+wb
 '
 )
 as
