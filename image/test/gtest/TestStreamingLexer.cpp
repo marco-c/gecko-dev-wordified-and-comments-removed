@@ -264,12 +264,15 @@ aLength
 3
 )
 ;
+EXPECT_TRUE
+(
 aUnbufferedVector
 .
 append
 (
 aData
 aLength
+)
 )
 ;
 return
