@@ -272,6 +272,14 @@ aAudible
 =
 0
 ;
+virtual
+void
+NotifyXPCOMShutdown
+(
+)
+=
+0
+;
 #
 ifdef
 MOZ_EME

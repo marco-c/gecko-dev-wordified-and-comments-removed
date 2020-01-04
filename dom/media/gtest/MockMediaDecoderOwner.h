@@ -257,6 +257,13 @@ aAudible
 override
 {
 }
+void
+NotifyXPCOMShutdown
+(
+)
+override
+{
+}
 }
 ;
 }
