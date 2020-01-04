@@ -34164,11 +34164,16 @@ GetSelection
 (
 )
 ;
-MOZ_ASSERT
+if
 (
+!
 selection
 )
+{
+return
+NS_OK
 ;
+}
 if
 (
 !
