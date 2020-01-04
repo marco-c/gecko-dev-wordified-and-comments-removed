@@ -564,10 +564,15 @@ js
 )
 ;
 const
+{
 require
+}
 =
 BrowserLoader
 (
+{
+baseURI
+:
 "
 resource
 :
@@ -581,9 +586,8 @@ debugger
 /
 "
 window
+}
 )
-.
-require
 ;
 XPCOMUtils
 .

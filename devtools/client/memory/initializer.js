@@ -60,6 +60,9 @@ BrowserLoaderModule
 .
 BrowserLoader
 (
+{
+baseURI
+:
 "
 resource
 :
@@ -72,7 +75,10 @@ client
 memory
 /
 "
+window
+:
 this
+}
 )
 ;
 const

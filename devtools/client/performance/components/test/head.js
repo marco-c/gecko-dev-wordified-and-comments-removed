@@ -212,6 +212,9 @@ browserRequire
 =
 BrowserLoader
 (
+{
+baseURI
+:
 "
 resource
 :
@@ -224,7 +227,10 @@ client
 performance
 /
 "
+window
+:
 this
+}
 )
 ;
 var
