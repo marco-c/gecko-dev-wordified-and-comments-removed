@@ -320,10 +320,6 @@ AudioNodeSizes
 (
 )
 :
-mDomNode
-(
-0
-)
 mStream
 (
 0
@@ -337,9 +333,6 @@ mNodeType
 )
 {
 }
-size_t
-mDomNode
-;
 size_t
 mStream
 ;
