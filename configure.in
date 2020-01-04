@@ -6270,7 +6270,7 @@ NSINSTALL_BIN
 PYTHON
 )
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 config
