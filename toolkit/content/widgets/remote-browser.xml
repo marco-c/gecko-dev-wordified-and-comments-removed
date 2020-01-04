@@ -662,7 +662,9 @@ let
 RemoteWebProgressManager
 }
 =
-Cu
+Components
+.
+utils
 .
 import
 (
@@ -802,7 +804,9 @@ let
 RemoteFinder
 }
 =
-Cu
+Components
+.
+utils
 .
 import
 (
