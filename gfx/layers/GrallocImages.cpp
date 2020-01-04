@@ -343,7 +343,7 @@ return
 false
 ;
 }
-ClientIPCAllocator
+ISurfaceAllocator
 *
 allocator
 =

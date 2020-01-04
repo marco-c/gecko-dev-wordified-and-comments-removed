@@ -440,7 +440,7 @@ public
 explicit
 gfxShmSharedReadLock
 (
-ClientIPCAllocator
+ISurfaceAllocator
 *
 aAllocator
 )

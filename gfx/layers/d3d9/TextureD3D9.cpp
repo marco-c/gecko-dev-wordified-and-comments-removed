@@ -2766,7 +2766,7 @@ D3D9TextureData
 :
 CreateSimilar
 (
-ClientIPCAllocator
+ISurfaceAllocator
 *
 TextureFlags
 aFlags

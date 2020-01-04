@@ -114,7 +114,7 @@ gfx
 :
 IntSize
 aSize
-ClientIPCAllocator
+ISurfaceAllocator
 *
 aAllocator
 TextureFlags
@@ -162,7 +162,7 @@ virtual
 void
 Deallocate
 (
-ClientIPCAllocator
+ISurfaceAllocator
 *
 )
 override
@@ -176,7 +176,7 @@ virtual
 void
 Forget
 (
-ClientIPCAllocator
+ISurfaceAllocator
 *
 )
 override
@@ -292,7 +292,7 @@ gl
 :
 OriginPos
 aOriginPos
-ClientIPCAllocator
+ISurfaceAllocator
 *
 aAllocator
 TextureFlags
@@ -388,7 +388,7 @@ virtual
 void
 Deallocate
 (
-ClientIPCAllocator
+ISurfaceAllocator
 *
 )
 override

@@ -352,7 +352,7 @@ TextureData
 *
 CreateSimilar
 (
-ClientIPCAllocator
+ISurfaceAllocator
 *
 aAllocator
 TextureFlags
@@ -387,7 +387,7 @@ virtual
 void
 Deallocate
 (
-ClientIPCAllocator
+ISurfaceAllocator
 *
 aAllocator
 )
@@ -476,7 +476,7 @@ aAllocFlags
 ID3D11Device
 *
 aDevice
-ClientIPCAllocator
+ISurfaceAllocator
 *
 aAllocator
 )
@@ -494,7 +494,7 @@ DXGIYCbCrTextureData
 *
 Create
 (
-ClientIPCAllocator
+ISurfaceAllocator
 *
 aAllocator
 TextureFlags
@@ -542,7 +542,7 @@ DXGIYCbCrTextureData
 *
 Create
 (
-ClientIPCAllocator
+ISurfaceAllocator
 *
 aAllocator
 TextureFlags
@@ -693,7 +693,7 @@ DXGIYCbCrTextureData
 *
 CreateSimilar
 (
-ClientIPCAllocator
+ISurfaceAllocator
 *
 TextureFlags
 TextureAllocationFlags
@@ -709,7 +709,7 @@ virtual
 void
 Deallocate
 (
-ClientIPCAllocator
+ISurfaceAllocator
 *
 aAllocator
 )
@@ -1226,7 +1226,7 @@ aAllocFlags
 ID3D11Device
 *
 aDevice
-ClientIPCAllocator
+ISurfaceAllocator
 *
 aAllocator
 )

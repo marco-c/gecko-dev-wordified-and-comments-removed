@@ -923,7 +923,7 @@ pixel
 class
 TexClientFactory
 {
-ClientIPCAllocator
+ISurfaceAllocator
 *
 const
 mAllocator
@@ -958,7 +958,7 @@ public
 :
 TexClientFactory
 (
-ClientIPCAllocator
+ISurfaceAllocator
 *
 allocator
 bool
@@ -1190,7 +1190,7 @@ TexClientFromReadback
 SharedSurface
 *
 src
-ClientIPCAllocator
+ISurfaceAllocator
 *
 allocator
 TextureFlags

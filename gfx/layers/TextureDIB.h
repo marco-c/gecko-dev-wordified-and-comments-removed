@@ -171,7 +171,7 @@ gfx
 :
 SurfaceFormat
 aFormat
-ClientIPCAllocator
+ISurfaceAllocator
 *
 aAllocator
 )

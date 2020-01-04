@@ -404,7 +404,7 @@ X11TextureData
 :
 Deallocate
 (
-ClientIPCAllocator
+ISurfaceAllocator
 *
 )
 {
@@ -420,7 +420,7 @@ X11TextureData
 :
 CreateSimilar
 (
-ClientIPCAllocator
+ISurfaceAllocator
 *
 aAllocator
 TextureFlags
@@ -462,7 +462,7 @@ SurfaceFormat
 aFormat
 TextureFlags
 aFlags
-ClientIPCAllocator
+ISurfaceAllocator
 *
 aAllocator
 )

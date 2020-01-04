@@ -40,7 +40,7 @@ namespace
 layers
 {
 class
-ClientIPCAllocator
+ISurfaceAllocator
 ;
 class
 TextureClient
@@ -94,7 +94,7 @@ flags
 layers
 :
 :
-ClientIPCAllocator
+ISurfaceAllocator
 *
 allocator
 )
@@ -146,7 +146,7 @@ RefPtr
 layers
 :
 :
-ClientIPCAllocator
+ISurfaceAllocator
 >
 mAllocator
 ;
@@ -183,7 +183,7 @@ egl
 layers
 :
 :
-ClientIPCAllocator
+ISurfaceAllocator
 *
 allocator
 layers
@@ -330,7 +330,7 @@ RefPtr
 layers
 :
 :
-ClientIPCAllocator
+ISurfaceAllocator
 >
 &
 allocator
