@@ -24215,10 +24215,10 @@ Rooted
 JSObject
 *
 >
-parent
+global
 (
 aCx
-WrapNativeParent
+FindAssociatedGlobal
 (
 aCx
 aObject
@@ -24234,7 +24234,7 @@ GetParentObject
 if
 (
 !
-parent
+global
 )
 {
               
@@ -24243,6 +24243,15 @@ false
 ;
             
 }
+            
+MOZ_ASSERT
+(
+JS_IsGlobalObject
+(
+global
+)
+)
+;
             
 /
 /
@@ -24324,28 +24333,7 @@ JSAutoCompartment
 ac
 (
 aCx
-parent
-)
-;
-            
-JS
-:
-:
-Rooted
-<
-JSObject
-*
->
 global
-(
-aCx
-js
-:
-:
-GetGlobalForObjectCrossCompartment
-(
-parent
-)
 )
 ;
             
