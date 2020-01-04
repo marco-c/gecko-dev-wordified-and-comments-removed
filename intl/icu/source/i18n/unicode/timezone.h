@@ -204,6 +204,13 @@ void
 static
 void
 U_EXPORT2
+recreateDefault
+(
+)
+;
+static
+void
+U_EXPORT2
 adoptDefault
 (
 TimeZone
