@@ -555,6 +555,8 @@ t
 .
 f
 ;
+MOZ_FALLTHROUGH
+;
 case
 2
 :
@@ -657,6 +659,8 @@ s
 [
 0
 ]
+;
+MOZ_FALLTHROUGH
 ;
 case
 2
@@ -764,6 +768,8 @@ r
 0
 .
 f
+;
+MOZ_FALLTHROUGH
 ;
 case
 3

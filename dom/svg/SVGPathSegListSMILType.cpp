@@ -1801,6 +1801,8 @@ aResult
 aState
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 PATHSEG_CURVETO_QUADRATIC_ABS
 :
@@ -1841,6 +1843,8 @@ aResult
 3
 aState
 )
+;
+MOZ_FALLTHROUGH
 ;
 case
 PATHSEG_MOVETO_ABS

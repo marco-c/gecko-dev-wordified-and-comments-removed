@@ -774,6 +774,8 @@ return
 false
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 PARTIAL_CLOCK_VALUE
 :
