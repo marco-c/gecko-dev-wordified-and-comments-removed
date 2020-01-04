@@ -13439,11 +13439,6 @@ NS_ConvertUTF8toUTF16
 aPackageId
 )
 ;
-if
-(
-mOwnerContent
-)
-{
 nsAutoString
 userContextIdStr
 ;
@@ -13512,7 +13507,6 @@ mUserContextId
 =
 userContextId
 ;
-}
 }
 bool
 tabContextUpdated
