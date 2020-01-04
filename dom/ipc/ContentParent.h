@@ -1328,12 +1328,6 @@ return
 mSubprocess
 ;
 }
-int32_t
-Pid
-(
-)
-const
-;
 ContentParent
 *
 Opener
@@ -2078,6 +2072,14 @@ nsCString
 &
 aURI
 )
+override
+;
+virtual
+int32_t
+Pid
+(
+)
+const
 override
 ;
 protected
