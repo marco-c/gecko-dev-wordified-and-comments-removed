@@ -239,6 +239,15 @@ JSMSG_CURLY_AFTER_LIST
 "
 Missing_curly_after_property_list
 "
+JSMSG_DEPRECATED_FOR_EACH
+:
+"
+For
+-
+each
+-
+in_loops_are_deprecated
+"
 }
 ;
 const
