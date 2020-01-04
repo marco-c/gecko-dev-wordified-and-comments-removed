@@ -102,6 +102,14 @@ tooltool
 cache
 ;
 do
+if
+[
+-
+d
+cache
+]
+;
+then
 #
 -
 R
@@ -127,6 +135,7 @@ worker
 :
 worker
 cache
+fi
 done
 #
 .
