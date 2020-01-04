@@ -2731,14 +2731,8 @@ AllocateFrame
 OutputSize
 (
 )
-IntRect
+FullOutputFrame
 (
-IntPoint
-(
-)
-OutputSize
-(
-)
 )
 SurfaceFormat
 :
