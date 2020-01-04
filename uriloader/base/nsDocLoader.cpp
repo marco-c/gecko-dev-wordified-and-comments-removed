@@ -4880,10 +4880,10 @@ nsRequestInfo
 *
 >
 (
-PL_DHashTableSearch
-(
-&
 mRequestInfoHash
+.
+Search
+(
 aRequest
 )
 )

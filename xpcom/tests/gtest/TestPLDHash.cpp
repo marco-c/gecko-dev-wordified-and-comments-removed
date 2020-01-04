@@ -458,10 +458,10 @@ Generation
 ASSERT_TRUE
 (
 !
-PL_DHashTableSearch
-(
-&
 t
+.
+Search
+(
 (
 const
 void

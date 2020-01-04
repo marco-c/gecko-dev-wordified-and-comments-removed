@@ -2775,10 +2775,10 @@ PtrToNodeEntry
 *
 >
 (
-PL_DHashTableSearch
-(
-&
 mPtrToNodeMap
+.
+Search
+(
 aPtr
 )
 )

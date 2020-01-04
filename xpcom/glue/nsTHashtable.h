@@ -227,8 +227,6 @@ EntryType
 *
 >
 (
-PL_DHashTableSearch
-(
 const_cast
 <
 PLDHashTable
@@ -238,6 +236,10 @@ PLDHashTable
 &
 mTable
 )
+-
+>
+Search
+(
 EntryType
 :
 :

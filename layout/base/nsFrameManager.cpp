@@ -540,8 +540,7 @@ unexpected
 "
 )
 ;
-PlaceholderMapEntry
-*
+auto
 entry
 =
 static_cast
@@ -549,8 +548,6 @@ static_cast
 PlaceholderMapEntry
 *
 >
-(
-PL_DHashTableSearch
 (
 const_cast
 <
@@ -561,6 +558,10 @@ PLDHashTable
 &
 mPlaceholderMap
 )
+-
+>
+Search
+(
 aFrame
 )
 )

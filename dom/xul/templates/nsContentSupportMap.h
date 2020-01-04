@@ -143,10 +143,10 @@ PLDHashEntryHdr
 *
 hdr
 =
-PL_DHashTableSearch
-(
-&
 mMap
+.
+Search
+(
 aElement
 )
 ;

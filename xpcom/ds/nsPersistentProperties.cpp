@@ -2019,8 +2019,7 @@ PromiseFlatCString
 aKey
 )
 ;
-PropertyTableEntry
-*
+auto
 entry
 =
 static_cast
@@ -2029,10 +2028,10 @@ PropertyTableEntry
 *
 >
 (
-PL_DHashTableSearch
-(
-&
 mTable
+.
+Search
+(
 flatKey
 .
 get
@@ -2260,10 +2259,10 @@ aResult
 =
 !
 !
-PL_DHashTableSearch
-(
-&
 mTable
+.
+Search
+(
 aProp
 )
 ;

@@ -3199,9 +3199,11 @@ PrefHashEntry
 *
 >
 (
-PL_DHashTableSearch
-(
 gHashTable
+-
+>
+Search
+(
 key
 )
 )

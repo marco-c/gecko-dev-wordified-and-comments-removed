@@ -3628,10 +3628,10 @@ PLDHashEntryHdr
 *
 entry
 =
-PL_DHashTableSearch
-(
-&
 mTransferringRequests
+.
+Search
+(
 aRequest
 )
 ;

@@ -17621,8 +17621,7 @@ IsElement
 )
 )
 {
-SubDocMapEntry
-*
+auto
 entry
 =
 static_cast
@@ -17631,9 +17630,11 @@ SubDocMapEntry
 *
 >
 (
-PL_DHashTableSearch
-(
 mSubDocuments
+-
+>
+Search
+(
 aContent
 -
 >
