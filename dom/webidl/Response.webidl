@@ -207,6 +207,16 @@ clone
 (
 )
 ;
+[
+ChromeOnly
+NewObject
+Throws
+]
+Response
+cloneUnfiltered
+(
+)
+;
 }
 ;
 Response
