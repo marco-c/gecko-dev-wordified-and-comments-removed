@@ -287,7 +287,7 @@ y
 function
 GetMethod
 (
-O
+V
 P
 )
 {
@@ -307,10 +307,7 @@ key
 var
 func
 =
-ToObject
-(
-O
-)
+V
 [
 P
 ]
