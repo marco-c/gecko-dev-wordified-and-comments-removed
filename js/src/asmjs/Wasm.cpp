@@ -6326,6 +6326,8 @@ const
 DeclaredSig
 *
 sig
+=
+nullptr
 ;
 if
 (

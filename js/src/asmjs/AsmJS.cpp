@@ -7439,6 +7439,11 @@ uint32_t
 sigIndex
 )
 {
+*
+sigIndex
+=
+0
+;
 if
 (
 mg_
@@ -15556,6 +15561,11 @@ PropertyName
 name
 )
 {
+*
+name
+=
+nullptr
+;
 if
 (
 !
@@ -20291,6 +20301,11 @@ int32_t
 mask
 )
 {
+*
+mask
+=
+0
+;
 if
 (
 !
