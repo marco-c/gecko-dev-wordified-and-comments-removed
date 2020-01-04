@@ -201,11 +201,17 @@ define
 CASES_FOR_getresuid
 case
 __NR_getresuid32
+:
+case
+__NR_getresuid
 #
 define
 CASES_FOR_getresgid
 case
 __NR_getresgid32
+:
+case
+__NR_getresgid
 #
 else
 #
