@@ -4145,6 +4145,15 @@ java
 '
 telemetry
 /
+measurements
+/
+SearchCountMeasurements
+.
+java
+'
+'
+telemetry
+/
 pingbuilders
 /
 TelemetryCorePingBuilder
