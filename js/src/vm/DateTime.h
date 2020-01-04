@@ -246,10 +246,12 @@ false
 }
 ;
 friend
-bool
+const
+char
+*
 :
 :
-JS_Init
+JS_InitWithFailureDiagnostic
 (
 )
 ;
