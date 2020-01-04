@@ -1563,13 +1563,6 @@ java
 '
 animation
 /
-BounceAnimatorBuilder
-.
-java
-'
-'
-animation
-/
 HeightChangeAnimation
 .
 java
