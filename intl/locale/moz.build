@@ -242,6 +242,11 @@ nsCollation
 cpp
 '
 '
+nsIDateTimeFormat
+.
+cpp
+'
+'
 nsLanguageAtomService
 .
 cpp
