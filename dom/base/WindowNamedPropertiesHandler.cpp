@@ -633,7 +633,7 @@ MSG_DEFINEPROPERTY_ON_GSP
 ;
 rv
 .
-ReportErrorWithMessage
+MaybeSetPendingException
 (
 aCx
 )
