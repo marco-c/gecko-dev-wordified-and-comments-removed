@@ -3498,6 +3498,15 @@ pname
 case
 LOCAL_GL_RENDERBUFFER_SAMPLES
 :
+if
+(
+!
+IsWebGL2
+(
+)
+)
+break
+;
 case
 LOCAL_GL_RENDERBUFFER_WIDTH
 :
@@ -3550,6 +3559,9 @@ i
 }
 default
 :
+break
+;
+}
 ErrorInvalidEnumInfo
 (
 "
@@ -3560,7 +3572,6 @@ parameter
 pname
 )
 ;
-}
 return
 JS
 :
