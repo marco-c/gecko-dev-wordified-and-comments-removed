@@ -2398,6 +2398,11 @@ self
 )
 :
         
+ret
+=
+[
+]
+        
 p
 =
 self
@@ -2419,6 +2424,28 @@ self
 short_timeout
 )
         
+if
+not
+p
+or
+not
+p
+.
+output
+or
+len
+(
+p
+.
+output
+)
+<
+1
+:
+            
+return
+ret
+        
 p
 .
 output
@@ -2427,11 +2454,6 @@ pop
 (
 0
 )
-        
-ret
-=
-[
-]
         
 for
 proc
