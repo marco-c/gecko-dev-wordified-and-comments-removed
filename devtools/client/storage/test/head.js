@@ -829,6 +829,12 @@ gToolbox
 =
 toolbox
 ;
+gUI
+.
+animationsEnabled
+=
+false
+;
 info
 (
 "
