@@ -1772,6 +1772,11 @@ MOZ_SANDBOX
 )
 if
 (
+IsSandboxedProcess
+(
+)
+&
+&
 !
 sandboxing
 :
