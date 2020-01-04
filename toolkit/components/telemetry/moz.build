@@ -156,6 +156,11 @@ Telemetry
 .
 cpp
 '
+'
+WebrtcTelemetry
+.
+cpp
+'
 ]
 EXTRA_COMPONENTS
 +
