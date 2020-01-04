@@ -184,9 +184,14 @@ if
 CONFIG
 [
 '
-MOZ_PNG_ARM_NEON
+CPU_ARCH
 '
 ]
+=
+=
+'
+arm
+'
 :
 DEFINES
 [
