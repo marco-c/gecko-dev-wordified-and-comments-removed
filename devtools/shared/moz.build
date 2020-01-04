@@ -134,6 +134,11 @@ layout
 locales
 '
 '
+node
+-
+properties
+'
+'
 performance
 '
 '
@@ -152,6 +157,9 @@ security
 '
 '
 sourcemap
+'
+'
+sprintfjs
 '
 '
 shims
@@ -348,6 +356,11 @@ js
 '
 '
 indentation
+.
+js
+'
+'
+l10n
 .
 js
 '

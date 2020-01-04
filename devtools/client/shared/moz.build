@@ -262,11 +262,6 @@ keycodes
 js
 '
 '
-l10n
-.
-js
-'
-'
 node
 -
 attribute
