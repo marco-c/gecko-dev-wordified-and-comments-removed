@@ -159,6 +159,13 @@ EditArray
 typedef
 InfallibleTArray
 <
+OpDestroy
+>
+OpDestroyArray
+;
+typedef
+InfallibleTArray
+<
 EditReply
 >
 EditReplyArray
@@ -270,6 +277,10 @@ EditArray
 &
 &
 aEdits
+OpDestroyArray
+&
+&
+aToDestroy
 EditReplyArray
 *
 aReply
@@ -284,6 +295,10 @@ EditArray
 &
 &
 aEdits
+OpDestroyArray
+&
+&
+aToDestroy
 )
 override
 ;
