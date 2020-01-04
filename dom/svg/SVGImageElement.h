@@ -320,12 +320,6 @@ MaybeLoadSVGImage
 (
 )
 ;
-bool
-IsImageSrcSetDisabled
-(
-)
-const
-;
 already_AddRefed
 <
 SVGAnimatedLength
