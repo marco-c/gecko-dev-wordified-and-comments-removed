@@ -1204,8 +1204,6 @@ nsIURI
 aHostURI
 bool
 aIsForeign
-bool
-aRequireHostMatch
 const
 char
 *
