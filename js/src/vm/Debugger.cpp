@@ -37901,10 +37901,11 @@ JSFunction
 ;
 if
 (
+!
 fun
 -
 >
-isBuiltin
+isInterpreted
 (
 )
 )
