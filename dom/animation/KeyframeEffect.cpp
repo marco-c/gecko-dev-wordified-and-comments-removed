@@ -337,6 +337,7 @@ KeyframeEffectReadOnly
 AnimationEffectReadOnly
 mTarget
 mAnimation
+mTiming
 )
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN_INHERITED
 (
@@ -423,7 +424,6 @@ aTarget
 )
 mTiming
 (
-*
 aTiming
 )
 mPseudoType
@@ -6223,6 +6223,11 @@ KeyframeEffect
 (
 )
 {
+if
+(
+mTiming
+)
+{
 mTiming
 -
 >
@@ -6230,6 +6235,7 @@ Unlink
 (
 )
 ;
+}
 }
 }
 }
