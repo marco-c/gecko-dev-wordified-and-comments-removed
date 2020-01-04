@@ -5,11 +5,6 @@ function
 (
 )
 {
-requestLongerTimeout
-(
-2
-)
-;
 let
 {
 target
@@ -67,10 +62,6 @@ remove
 10
 )
 ;
-forceCC
-(
-)
-;
 let
 [
 created
@@ -125,13 +116,6 @@ actorIDs
 [
 5
 ]
-)
-;
-yield
-DevToolsUtils
-.
-waitForTick
-(
 )
 ;
 forceCC
