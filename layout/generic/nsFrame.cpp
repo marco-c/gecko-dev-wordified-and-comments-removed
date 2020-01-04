@@ -5371,7 +5371,7 @@ bool
 nsIFrame
 :
 :
-Preserves3DChildren
+Extend3DContext
 (
 )
 const
@@ -5468,7 +5468,7 @@ bool
 nsIFrame
 :
 :
-Preserves3D
+Combines3DTransformWithAncestors
 (
 )
 const
@@ -5487,7 +5487,7 @@ GetParent
 )
 -
 >
-Preserves3DChildren
+Extend3DContext
 (
 )
 )
@@ -8696,7 +8696,7 @@ GetParent
 )
 -
 >
-Preserves3DChildren
+Extend3DContext
 (
 )
 |
@@ -10011,7 +10011,7 @@ IsEmpty
 &
 &
 !
-Preserves3DChildren
+Extend3DContext
 (
 )
 )
@@ -10331,7 +10331,7 @@ dirtyRect
 ;
 if
 (
-Preserves3DChildren
+Extend3DContext
 (
 )
 )
@@ -10847,7 +10847,7 @@ outerReferenceFrame
 ;
 if
 (
-Preserves3DChildren
+Extend3DContext
 (
 )
 )
@@ -11443,7 +11443,7 @@ if
 child
 -
 >
-Preserves3D
+Combines3DTransformWithAncestors
 (
 )
 )
@@ -27715,7 +27715,7 @@ perspective
 }
 if
 (
-Preserves3DChildren
+Extend3DContext
 (
 )
 )
@@ -27737,7 +27737,7 @@ children
 }
 if
 (
-Preserves3D
+Combines3DTransformWithAncestors
 (
 )
 )
@@ -36087,7 +36087,7 @@ doTransform
 child
 -
 >
-Preserves3D
+Combines3DTransformWithAncestors
 (
 )
 )
@@ -36412,7 +36412,7 @@ IsTransformed
 f
 -
 >
-Preserves3D
+Combines3DTransformWithAncestors
 (
 )
 )
@@ -36679,7 +36679,7 @@ aNewSize
 ;
 if
 (
-Preserves3D
+Combines3DTransformWithAncestors
 (
 )
 |
@@ -37306,7 +37306,7 @@ newBounds
 }
 if
 (
-Preserves3DChildren
+Extend3DContext
 (
 )
 )
@@ -37815,7 +37815,7 @@ if
 child
 -
 >
-Preserves3DChildren
+Extend3DContext
 (
 )
 )
@@ -37833,7 +37833,7 @@ if
 child
 -
 >
-Preserves3D
+Combines3DTransformWithAncestors
 (
 )
 )
@@ -38072,7 +38072,7 @@ aBounds
 if
 (
 !
-Preserves3D
+Combines3DTransformWithAncestors
 (
 )
 )
@@ -38206,7 +38206,7 @@ if
 child
 -
 >
-Preserves3D
+Combines3DTransformWithAncestors
 (
 )
 )

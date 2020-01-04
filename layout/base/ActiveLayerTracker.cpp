@@ -1592,7 +1592,7 @@ eCSSProperty_transform
 aFrame
 -
 >
-Preserves3D
+Combines3DTransformWithAncestors
 (
 )
 )
