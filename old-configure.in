@@ -13400,6 +13400,12 @@ case
 target_os
 "
 in
+bitrig
+*
+|
+dragonfly
+*
+|
 freebsd
 *
 |
