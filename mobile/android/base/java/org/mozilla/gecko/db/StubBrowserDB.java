@@ -707,6 +707,12 @@ StubUrlAnnotations
 (
 )
 ;
+private
+SuggestedSites
+suggestedSites
+=
+null
+;
 Override
 public
 Searches
@@ -1434,6 +1440,12 @@ SuggestedSites
 suggestedSites
 )
 {
+this
+.
+suggestedSites
+=
+suggestedSites
+;
 }
 public
 SuggestedSites
@@ -1442,7 +1454,7 @@ getSuggestedSites
 )
 {
 return
-null
+suggestedSites
 ;
 }
 public
