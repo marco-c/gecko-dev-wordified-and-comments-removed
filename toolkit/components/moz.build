@@ -202,9 +202,6 @@ jsdownloads
 lz4
 '
 '
-narrate
-'
-'
 mediasniffer
 '
 '
@@ -314,6 +311,9 @@ DIRS
 +
 =
 [
+'
+narrate
+'
 '
 viewsource
 '
