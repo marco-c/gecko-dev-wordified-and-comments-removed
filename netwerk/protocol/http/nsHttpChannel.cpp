@@ -8886,6 +8886,19 @@ mRedirectChannel
 =
 newChannel
 ;
+if
+(
+!
+(
+flags
+&
+nsIChannelEventSink
+:
+:
+REDIRECT_STS_UPGRADE
+)
+)
+{
 nsLoadFlags
 loadFlags
 =
@@ -8935,6 +8948,7 @@ rv
 rv
 )
 ;
+}
 PushRedirectAsyncFunc
 (
 &
