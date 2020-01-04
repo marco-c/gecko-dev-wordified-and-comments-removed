@@ -1087,10 +1087,6 @@ aSessionId
 aWindowId
 )
 ;
-mCallback
-=
-nullptr
-;
 NS_WARN_IF
 (
 !
@@ -1105,6 +1101,10 @@ aSessionId
 )
 )
 )
+;
+mCallback
+=
+nullptr
 ;
 return
 NS_OK
