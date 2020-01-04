@@ -3474,7 +3474,12 @@ aName
 )
 ;
 void
-RemoveIndexFromDisk
+RemoveAllIndexFiles
+(
+)
+;
+void
+RemoveJournalAndTempFile
 (
 )
 ;
