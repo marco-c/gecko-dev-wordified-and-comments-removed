@@ -170,10 +170,10 @@ OfflineCacheUpdateParent
 :
 OfflineCacheUpdateParent
 (
-uint32_t
-aAppId
-bool
-aIsInBrowser
+const
+OriginAttributes
+&
+aAttrs
 )
 :
 mIPCClosed
@@ -182,8 +182,7 @@ false
 )
 mOriginAttributes
 (
-aAppId
-aIsInBrowser
+aAttrs
 )
 {
 nsOfflineCacheUpdateService
