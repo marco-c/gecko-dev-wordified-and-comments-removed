@@ -1777,7 +1777,7 @@ JSContext
 cx
 HandleObject
 proxy
-HandleObject
+HandleValue
 receiver_
 HandleId
 id
@@ -1847,11 +1847,11 @@ returnValue
 (
 )
 ;
-RootedObject
+RootedValue
 receiver
 (
 cx
-GetOuterObject
+OuterizeValue
 (
 cx
 receiver_
@@ -1960,7 +1960,7 @@ JSContext
 cx
 HandleObject
 proxy
-HandleObject
+HandleValue
 receiver
 HandleId
 id
@@ -3704,7 +3704,7 @@ JSContext
 cx
 HandleObject
 obj
-HandleObject
+HandleValue
 receiver
 HandleId
 id
