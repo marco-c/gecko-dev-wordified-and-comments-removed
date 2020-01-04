@@ -105,6 +105,7 @@ Flush
 (
 )
 ;
+virtual
 nsresult
 Shutdown
 (
