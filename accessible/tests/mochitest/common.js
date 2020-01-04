@@ -1,11 +1,11 @@
 const
-nsIAccessibleRetrieval
+nsIAccessibilityService
 =
 Components
 .
 interfaces
 .
-nsIAccessibleRetrieval
+nsIAccessibilityService
 ;
 const
 nsIAccessibleEvent
@@ -534,7 +534,7 @@ jsm
 )
 ;
 var
-gAccRetrieval
+gAccService
 =
 Components
 .
@@ -545,7 +545,7 @@ mozilla
 .
 org
 /
-accessibleRetrieval
+accessibilityService
 ;
 1
 "
@@ -553,7 +553,7 @@ accessibleRetrieval
 .
 getService
 (
-nsIAccessibleRetrieval
+nsIAccessibilityService
 )
 ;
 function
@@ -562,7 +562,7 @@ enableLogging
 aModules
 )
 {
-gAccRetrieval
+gAccService
 .
 setLogging
 (
@@ -575,7 +575,7 @@ disableLogging
 (
 )
 {
-gAccRetrieval
+gAccService
 .
 setLogging
 (
@@ -591,7 +591,7 @@ aModule
 )
 {
 return
-gAccRetrieval
+gAccService
 .
 isLogged
 (
@@ -1167,7 +1167,7 @@ try
 {
 acc
 =
-gAccRetrieval
+gAccService
 .
 getAccessibleFor
 (
@@ -1504,7 +1504,7 @@ getApplicationAccessible
 )
 {
 return
-gAccRetrieval
+gAccService
 .
 getApplicationAccessible
 (
@@ -2739,7 +2739,7 @@ aNodeOrId
 )
 ;
 return
-gAccRetrieval
+gAccService
 .
 getAccessibleFromCache
 (
@@ -3109,7 +3109,7 @@ aRole
 )
 {
 return
-gAccRetrieval
+gAccService
 .
 getStringRole
 (
@@ -3127,7 +3127,7 @@ aExtraStates
 var
 list
 =
-gAccRetrieval
+gAccService
 .
 getStringStates
 (
@@ -3202,7 +3202,7 @@ aEventType
 )
 {
 return
-gAccRetrieval
+gAccService
 .
 getStringEventType
 (
@@ -3217,7 +3217,7 @@ aRelationType
 )
 {
 return
-gAccRetrieval
+gAccService
 .
 getStringRelationType
 (

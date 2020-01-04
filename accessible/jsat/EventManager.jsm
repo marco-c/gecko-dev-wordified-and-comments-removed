@@ -3232,7 +3232,7 @@ docAcc
 =
 Utils
 .
-AccRetrieval
+AccService
 .
 getAccessibleFor
 (
@@ -3282,7 +3282,7 @@ docAcc
 =
 Utils
 .
-AccRetrieval
+AccService
 .
 getAccessibleFor
 (

@@ -127,7 +127,7 @@ defineLazyGetter
 (
 this
 "
-retrieval
+service
 "
 (
 )
@@ -140,7 +140,7 @@ mozilla
 .
 org
 /
-accessibleRetrieval
+accessibilityService
 ;
 1
 "
@@ -150,7 +150,7 @@ getService
 (
 Ci
 .
-nsIAccessibleRetrieval
+nsIAccessibilityService
 )
 )
 ;
@@ -378,7 +378,7 @@ reject
 let
 acc
 =
-retrieval
+service
 .
 getAccessibleFor
 (
@@ -437,7 +437,7 @@ setInterval
 let
 acc
 =
-retrieval
+service
 .
 getAccessibleFor
 (
@@ -526,7 +526,7 @@ ActionableRoles
 .
 has
 (
-retrieval
+service
 .
 getStringRole
 (

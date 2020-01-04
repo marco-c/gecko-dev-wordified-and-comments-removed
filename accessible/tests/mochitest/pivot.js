@@ -2164,7 +2164,7 @@ this
 .
 pivot
 =
-gAccRetrieval
+gAccService
 .
 createAccessiblePivot
 (

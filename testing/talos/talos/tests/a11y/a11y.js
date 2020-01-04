@@ -1,4 +1,4 @@
-gAccRetrieval
+gAccService
 =
 0
 ;
@@ -52,11 +52,11 @@ UniversalXPConnect
 if
 (
 !
-gAccRetrieval
+gAccService
 )
 {
 var
-retrieval
+service
 =
 Components
 .
@@ -67,7 +67,7 @@ mozilla
 .
 org
 /
-accessibleRetrieval
+accessibilityService
 ;
 1
 "
@@ -75,10 +75,10 @@ accessibleRetrieval
 ;
 if
 (
-retrieval
+service
 )
 {
-gAccRetrieval
+gAccService
 =
 Components
 .
@@ -89,7 +89,7 @@ mozilla
 .
 org
 /
-accessibleRetrieval
+accessibilityService
 ;
 1
 "
@@ -101,13 +101,13 @@ Components
 .
 interfaces
 .
-nsIAccessibleRetrieval
+nsIAccessibilityService
 )
 ;
 }
 }
 return
-gAccRetrieval
+gAccService
 ;
 }
 function
@@ -194,7 +194,7 @@ try
 {
 acc
 =
-gAccRetrieval
+gAccService
 .
 getAccessibleFor
 (

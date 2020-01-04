@@ -464,7 +464,7 @@ nsIDOMWindowUtils
 ;
 }
 get
-AccRetrieval
+AccService
 (
 )
 {
@@ -473,12 +473,12 @@ if
 !
 this
 .
-_AccRetrieval
+_AccService
 )
 {
 this
 .
-_AccRetrieval
+_AccService
 =
 Cc
 [
@@ -487,7 +487,7 @@ mozilla
 .
 org
 /
-accessibleRetrieval
+accessibilityService
 ;
 1
 '
@@ -497,14 +497,14 @@ getService
 (
 Ci
 .
-nsIAccessibleRetrieval
+nsIAccessibilityService
 )
 ;
 }
 return
 this
 .
-_AccRetrieval
+_AccService
 ;
 }
 set
@@ -1601,7 +1601,7 @@ aDocument
 :
 this
 .
-AccRetrieval
+AccService
 .
 getAccessibleFor
 (
@@ -2774,7 +2774,7 @@ stateStrings
 =
 Utils
 .
-AccRetrieval
+AccService
 .
 getStringStates
 (
@@ -3435,7 +3435,7 @@ return
 +
 Utils
 .
-AccRetrieval
+AccService
 .
 getStringRole
 (
@@ -3484,7 +3484,7 @@ str
 =
 Utils
 .
-AccRetrieval
+AccService
 .
 getStringEventType
 (
@@ -3526,7 +3526,7 @@ isExtraState
 ?
 Utils
 .
-AccRetrieval
+AccService
 .
 getStringStates
 (
@@ -3538,7 +3538,7 @@ state
 :
 Utils
 .
-AccRetrieval
+AccService
 .
 getStringStates
 (
@@ -4640,7 +4640,7 @@ string
 :
 Utils
 .
-AccRetrieval
+AccService
 .
 getStringRole
 (

@@ -1523,7 +1523,7 @@ isAliveAndVisible
 (
 Utils
 .
-AccRetrieval
+AccService
 .
 getAccessibleFor
 (

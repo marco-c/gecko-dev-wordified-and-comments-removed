@@ -31,7 +31,7 @@ nsIAccessibleStates
 STATE_BUSY
 ;
 var
-gRetrieval
+gService
 =
 null
 ;
@@ -43,10 +43,10 @@ waitForDocLoad
 if
 (
 !
-gRetrieval
+gService
 )
 {
-gRetrieval
+gService
 =
 Components
 .
@@ -57,7 +57,7 @@ mozilla
 .
 org
 /
-accessibleRetrieval
+accessibilityService
 ;
 1
 "
@@ -69,14 +69,14 @@ Components
 .
 interfaces
 .
-nsIAccessibleRetrieval
+nsIAccessibilityService
 )
 ;
 }
 var
 accDoc
 =
-gRetrieval
+gService
 .
 getAccessibleFor
 (
@@ -140,7 +140,7 @@ iframe
 "
 )
 ;
-gRetrieval
+gService
 .
 getAccessibleFor
 (

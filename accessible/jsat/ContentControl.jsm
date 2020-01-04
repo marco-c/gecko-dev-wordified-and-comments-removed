@@ -1333,7 +1333,7 @@ docAcc
 =
 Utils
 .
-AccRetrieval
+AccService
 .
 getAccessibleFor
 (
@@ -1566,7 +1566,7 @@ focusedAcc
 =
 Utils
 .
-AccRetrieval
+AccService
 .
 getAccessibleFor
 (
@@ -2839,7 +2839,7 @@ acc
 =
 Utils
 .
-AccRetrieval
+AccService
 .
 getAccessibleFor
 (

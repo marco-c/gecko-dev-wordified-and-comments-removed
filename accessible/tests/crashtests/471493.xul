@@ -107,7 +107,7 @@ doTest
 )
 {
 var
-accRetrieval
+accService
 =
 SpecialPowers
 .
@@ -118,7 +118,7 @@ mozilla
 .
 org
 /
-accessibleRetrieval
+accessibilityService
 ;
 1
 "
@@ -130,7 +130,7 @@ SpecialPowers
 .
 Ci
 .
-nsIAccessibleRetrieval
+nsIAccessibilityService
 )
 ;
 var
@@ -178,7 +178,7 @@ tree
 var
 treeAcc
 =
-accRetrieval
+accService
 .
 getAccessibleFor
 (
