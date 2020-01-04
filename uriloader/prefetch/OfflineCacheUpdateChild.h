@@ -235,12 +235,6 @@ nsIObserverService
 >
 mObserverService
 ;
-uint32_t
-mAppID
-;
-bool
-mInBrowser
-;
 nsCOMArray
 <
 nsIWeakReference

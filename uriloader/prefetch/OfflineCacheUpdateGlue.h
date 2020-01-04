@@ -262,10 +262,6 @@ aManifestURI
 nsIPrincipal
 *
 aLoadingPrincipal
-uint32_t
-aAppID
-bool
-aInBrowser
 nsIObserver
 *
 aObserver
@@ -285,8 +281,6 @@ InitForUpdateCheck
 (
 aManifestURI
 aLoadingPrincipal
-aAppID
-aInBrowser
 aObserver
 )
 ;
@@ -470,10 +464,6 @@ aDocument
 nsIFile
 *
 aCustomProfileDir
-uint32_t
-aAppID
-bool
-aInBrowser
 )
 override
 ;

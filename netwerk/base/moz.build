@@ -878,6 +878,11 @@ mozilla
 =
 [
 '
+LoadContextInfo
+.
+h
+'
+'
 LoadInfo
 .
 h

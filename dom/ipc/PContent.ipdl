@@ -5008,8 +5008,6 @@ PrincipalInfo
 loadingPrincipal
 bool
 stickDocument
-TabId
-tabId
 )
 ;
 /

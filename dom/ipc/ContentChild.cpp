@@ -12168,10 +12168,6 @@ const
 bool
 &
 stickDocument
-const
-TabId
-&
-aTabId
 )
 {
 NS_RUNTIMEABORT
