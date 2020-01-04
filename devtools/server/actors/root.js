@@ -294,6 +294,9 @@ true
 heapSnapshots
 :
 true
+documentLoadingMarkers
+:
+true
 }
 sayHello
 :
