@@ -49,12 +49,10 @@ nsDragService
 (
 )
 ;
-NS_IMETHOD
-InvokeDragSession
+virtual
+nsresult
+InvokeDragSessionImpl
 (
-nsIDOMNode
-*
-aDOMNode
 nsISupportsArray
 *
 anArrayTransferables
