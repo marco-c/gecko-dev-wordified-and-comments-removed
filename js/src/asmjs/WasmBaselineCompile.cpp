@@ -9355,6 +9355,8 @@ IsPowerOfTwo
 (
 table
 .
+limits
+.
 initial
 )
 )
@@ -9367,6 +9369,8 @@ Imm32
 (
 (
 table
+.
+limits
 .
 initial
 -

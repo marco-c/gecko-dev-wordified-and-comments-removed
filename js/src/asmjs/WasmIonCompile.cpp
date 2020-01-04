@@ -5324,6 +5324,8 @@ IsPowerOfTwo
 (
 table
 .
+limits
+.
 initial
 )
 )
@@ -5364,6 +5366,8 @@ alloc
 Int32Value
 (
 table
+.
+limits
 .
 initial
 -
