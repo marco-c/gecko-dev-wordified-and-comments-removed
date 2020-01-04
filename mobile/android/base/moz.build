@@ -994,6 +994,13 @@ java
 '
 util
 /
+ScreenshotObserver
+.
+java
+'
+'
+util
+/
 StringUtils
 .
 java
