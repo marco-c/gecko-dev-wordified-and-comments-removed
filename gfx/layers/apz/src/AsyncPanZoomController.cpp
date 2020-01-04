@@ -4109,6 +4109,9 @@ OVERSCROLL_ANIMATION
 case
 WHEEL_SCROLL
 :
+case
+PAN_MOMENTUM
+:
 CurrentTouchBlock
 (
 )
@@ -4391,6 +4394,9 @@ PANNING_LOCKED_X
 case
 PANNING_LOCKED_Y
 :
+case
+PAN_MOMENTUM
+:
 TrackTouch
 (
 aEvent
@@ -4581,6 +4587,9 @@ PANNING_LOCKED_X
 :
 case
 PANNING_LOCKED_Y
+:
+case
+PAN_MOMENTUM
 :
 {
 CurrentTouchBlock
@@ -7086,6 +7095,11 @@ this
 true
 )
 ;
+SetState
+(
+PAN_MOMENTUM
+)
+;
 return
 nsEventStatus_eConsumeNoDefault
 ;
@@ -7137,6 +7151,11 @@ mY
 .
 CancelTouch
 (
+)
+;
+SetState
+(
+NOTHING
 )
 ;
 RequestContentRepaint
