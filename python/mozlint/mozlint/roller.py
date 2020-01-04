@@ -124,10 +124,14 @@ or
 ]
         
 if
+not
 isinstance
 (
 res
-basestring
+(
+list
+tuple
+)
 )
 :
             

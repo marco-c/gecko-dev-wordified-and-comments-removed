@@ -458,7 +458,8 @@ print
 FLAKE8_NOT_FOUND
 )
 return
-1
+[
+]
 cmdargs
 =
 [
