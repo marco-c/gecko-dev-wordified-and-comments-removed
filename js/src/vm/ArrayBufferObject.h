@@ -730,7 +730,7 @@ false
 ;
 return
 !
-isNeutered
+isDetached
 (
 )
 ;
@@ -1059,7 +1059,7 @@ MAPPED
 ;
 }
 bool
-isNeutered
+isDetached
 (
 )
 const
@@ -1308,7 +1308,7 @@ ASMJS_MALLOCED
 ;
 }
 void
-setIsNeutered
+setIsDetached
 (
 )
 {
