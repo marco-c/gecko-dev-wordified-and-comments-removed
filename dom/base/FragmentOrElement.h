@@ -533,15 +533,6 @@ override
 virtual
 ShadowRoot
 *
-GetShadowRoot
-(
-)
-const
-override
-;
-virtual
-ShadowRoot
-*
 GetContainingShadow
 (
 )

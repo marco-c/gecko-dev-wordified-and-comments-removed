@@ -1398,7 +1398,7 @@ aShadowRoot
 =
 0
 ;
-virtual
+inline
 mozilla
 :
 :
@@ -1411,8 +1411,6 @@ GetShadowRoot
 (
 )
 const
-=
-0
 ;
 virtual
 mozilla
