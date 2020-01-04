@@ -49,6 +49,17 @@ mozilla
 /
 dom
 /
+File
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ipc
 /
 BlobParent

@@ -415,12 +415,6 @@ LOCAL_INCLUDES
 dom
 /
 bluetooth
-'
-'
-/
-dom
-/
-bluetooth
 /
 common
 '

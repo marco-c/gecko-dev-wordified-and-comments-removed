@@ -268,14 +268,10 @@ battery
 dom
 /
 bluetooth
-'
-'
-/
-dom
-/
-bluetooth
 /
 common
+/
+webapi
 '
 '
 /
