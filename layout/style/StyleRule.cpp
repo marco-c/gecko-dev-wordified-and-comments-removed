@@ -6549,6 +6549,7 @@ mWasMatched
 =
 true
 ;
+}
 mDeclaration
 -
 >
@@ -6556,7 +6557,6 @@ SetImmutable
 (
 )
 ;
-}
 }
 int32_t
 StyleRule
