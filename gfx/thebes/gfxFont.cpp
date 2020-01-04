@@ -1464,7 +1464,7 @@ mFonts
 .
 RemoveEntry
 (
-key
+entry
 )
 ;
 }
