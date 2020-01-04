@@ -967,15 +967,6 @@ imgLoader
 )
 ;
 }
-static
-already_AddRefed
-<
-imgLoader
->
-GetInstance
-(
-)
-;
 nsresult
 LoadImage
 (
