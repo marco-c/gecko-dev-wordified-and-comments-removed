@@ -132,11 +132,6 @@ msg
 ;
 }
 }
-var
-self
-=
-this
-;
 worker
 .
 onerror
@@ -170,8 +165,6 @@ event
 data
 )
 ;
-self
-.
 worker
 .
 terminate
