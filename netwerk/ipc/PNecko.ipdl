@@ -191,10 +191,6 @@ PDataChannel
 ;
 include
 protocol
-PTransportProvider
-;
-include
-protocol
 PRtspController
 ;
 include
@@ -396,9 +392,6 @@ PRtspChannel
 ;
 manages
 PChannelDiverter
-;
-manages
-PTransportProvider
 ;
 parent
 :
@@ -816,11 +809,6 @@ SpeculativeConnectRequest
 (
 nsCString
 notificationData
-)
-;
-async
-PTransportProvider
-(
 )
 ;
 both

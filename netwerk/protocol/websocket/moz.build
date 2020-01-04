@@ -137,11 +137,6 @@ BaseWebSocketChannel
 h
 '
 '
-IPCTransportProvider
-.
-h
-'
-'
 WebSocketChannel
 .
 h
@@ -187,11 +182,6 @@ BaseWebSocketChannel
 cpp
 '
 '
-IPCTransportProvider
-.
-cpp
-'
-'
 WebSocketChannel
 .
 cpp
@@ -231,11 +221,6 @@ IPDL_SOURCES
 +
 =
 [
-'
-PTransportProvider
-.
-ipdl
-'
 '
 PWebSocket
 .
