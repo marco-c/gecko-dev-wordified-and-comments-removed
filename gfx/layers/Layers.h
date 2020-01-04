@@ -7013,6 +7013,10 @@ mIsGLAlphaPremult
 (
 true
 )
+mIsMirror
+(
+false
+)
 {
 }
 PersistentBufferProvider
@@ -7047,6 +7051,9 @@ mHasAlpha
 ;
 bool
 mIsGLAlphaPremult
+;
+bool
+mIsMirror
 ;
 }
 ;

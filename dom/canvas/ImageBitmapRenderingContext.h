@@ -236,6 +236,10 @@ aOldLayer
 LayerManager
 *
 aManager
+bool
+aMirror
+=
+false
 )
 override
 ;

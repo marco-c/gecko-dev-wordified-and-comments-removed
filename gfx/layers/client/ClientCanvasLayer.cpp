@@ -332,6 +332,11 @@ mFlags
 if
 (
 mGLFrontbuffer
+|
+|
+aData
+.
+mIsMirror
 )
 {
 mFactory

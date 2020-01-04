@@ -5580,6 +5580,10 @@ static
 uint8_t
 gWebGLLayerUserData
 ;
+static
+uint8_t
+gWebGLMirrorLayerUserData
+;
 class
 WebGLContextUserData
 :
@@ -5763,6 +5767,8 @@ oldLayer
 LayerManager
 *
 manager
+bool
+aMirror
 )
 {
 if
@@ -5788,6 +5794,11 @@ oldLayer
 >
 HasUserData
 (
+aMirror
+?
+&
+gWebGLMirrorLayerUserData
+:
 &
 gWebGLLayerUserData
 )
@@ -5862,6 +5873,10 @@ IsPaintingToWindow
 &
 &
 mCanvasElement
+&
+&
+!
+aMirror
 )
 {
 userData
@@ -5902,6 +5917,11 @@ canvasLayer
 >
 SetUserData
 (
+aMirror
+?
+&
+gWebGLMirrorLayerUserData
+:
 &
 gWebGLLayerUserData
 userData
@@ -5955,6 +5975,12 @@ IsPremultAlpha
 data
 .
 mHasAlpha
+;
+data
+.
+mIsMirror
+=
+aMirror
 ;
 canvasLayer
 -

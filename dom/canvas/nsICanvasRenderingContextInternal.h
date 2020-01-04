@@ -507,6 +507,10 @@ oldLayer
 LayerManager
 *
 manager
+bool
+aMirror
+=
+false
 )
 =
 0

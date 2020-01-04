@@ -223,6 +223,10 @@ OriginPos
 :
 TopLeft
 )
+mIsMirror
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -301,6 +305,12 @@ OriginPos
 :
 :
 BottomLeft
+;
+mIsMirror
+=
+aData
+.
+mIsMirror
 ;
 MOZ_ASSERT
 (
