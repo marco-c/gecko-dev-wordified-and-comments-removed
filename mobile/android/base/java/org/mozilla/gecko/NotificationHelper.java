@@ -748,9 +748,9 @@ args
 put
 (
 COOKIE_ATTR
-data
+intent
 .
-getQueryParameter
+getStringExtra
 (
 COOKIE_ATTR
 )
