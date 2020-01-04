@@ -113,7 +113,7 @@ undefined
 ;
 assertEq
 (
-nw
+fw
 .
 boundArguments
 undefined
@@ -165,7 +165,7 @@ undefined
 ;
 assertEq
 (
-ow
+fw
 .
 boundArguments
 undefined
