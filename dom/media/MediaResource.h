@@ -156,7 +156,7 @@ namespace
 mozilla
 {
 class
-MediaDecoder
+MediaResourceCallback
 ;
 class
 MediaChannelStatistics
@@ -936,9 +936,9 @@ MediaResource
 >
 CloneData
 (
-MediaDecoder
+MediaResourceCallback
 *
-aDecoder
+aCallback
 )
 =
 0
@@ -1289,9 +1289,9 @@ MediaResource
 >
 Create
 (
-MediaDecoder
+MediaResourceCallback
 *
-aDecoder
+aCallback
 nsIChannel
 *
 aChannel
@@ -1555,9 +1555,9 @@ protected
 :
 BaseMediaResource
 (
-MediaDecoder
+MediaResourceCallback
 *
-aDecoder
+aCallback
 nsIChannel
 *
 aChannel
@@ -1570,9 +1570,9 @@ nsACString
 aContentType
 )
 :
-mDecoder
+mCallback
 (
-aDecoder
+aCallback
 )
 mChannel
 (
@@ -1663,9 +1663,9 @@ int64_t
 aOffset
 )
 ;
-MediaDecoder
+MediaResourceCallback
 *
-mDecoder
+mCallback
 ;
 nsCOMPtr
 <
@@ -1783,7 +1783,7 @@ public
 :
 ChannelMediaResource
 (
-MediaDecoder
+MediaResourceCallback
 *
 aDecoder
 nsIChannel
@@ -1930,7 +1930,7 @@ MediaResource
 >
 CloneData
 (
-MediaDecoder
+MediaResourceCallback
 *
 aDecoder
 )

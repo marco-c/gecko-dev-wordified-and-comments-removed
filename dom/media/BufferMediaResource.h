@@ -178,9 +178,8 @@ MediaResource
 >
 CloneData
 (
-MediaDecoder
+MediaResourceCallback
 *
-aDecoder
 )
 override
 {
