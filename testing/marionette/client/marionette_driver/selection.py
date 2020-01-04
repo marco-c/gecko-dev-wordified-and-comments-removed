@@ -1020,7 +1020,7 @@ self
 .
 element
 .
-get_attribute
+get_property
 (
 '
 dir
@@ -1752,7 +1752,7 @@ self
 .
 element
 .
-get_attribute
+get_property
 (
 '
 value

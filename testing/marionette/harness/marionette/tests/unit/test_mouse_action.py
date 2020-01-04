@@ -48,15 +48,15 @@ marionette
 .
 session_capabilities
 [
-'
+"
 platformName
-'
+"
 ]
 =
 =
-'
+"
 Darwin
-'
+"
 :
             
 self
@@ -162,6 +162,7 @@ marionette
 .
 execute_script
 (
+            
 "
 return
 document
@@ -174,7 +175,6 @@ mozLink
 )
 .
 innerHTML
-;
 "
 )
 )
@@ -194,11 +194,11 @@ marionette
 .
 absolute_url
 (
-'
+"
 hidden
 .
 html
-'
+"
 )
         
 self
@@ -221,9 +221,9 @@ find_element
 By
 .
 ID
-'
+"
 child
-'
+"
 )
         
 self
@@ -281,13 +281,13 @@ find_element
 By
 .
 ID
-'
+"
 one
 -
 word
 -
 div
-'
+"
 )
         
 self
@@ -311,9 +311,9 @@ self
 .
 mod_key
 +
-'
+"
 c
-'
+"
 )
         
 rel
@@ -342,26 +342,26 @@ self
 .
 mod_key
 +
-'
+"
 v
-'
+"
 )
         
 self
 .
 assertEqual
 (
+"
+zyxw
+"
 rel
 .
-get_attribute
+get_property
 (
-'
+"
 value
-'
+"
 )
-'
-zyxw
-'
 )
     
 def
@@ -406,9 +406,9 @@ find_element
 By
 .
 ID
-'
+"
 resultContainer
-'
+"
 )
         
 def
@@ -424,9 +424,9 @@ marionette
 .
 using_context
 (
-'
+"
 chrome
-'
+"
 )
 :
                 
@@ -441,9 +441,9 @@ find_element
 By
 .
 ID
-'
+"
 contentAreaContextMenu
-'
+"
 )
                 
 return
@@ -451,18 +451,18 @@ cm_el
 .
 get_attribute
 (
-'
+"
 state
-'
+"
 )
         
 self
 .
 assertEqual
 (
-'
+"
 closed
-'
+"
 context_menu_state
 (
 )
@@ -493,9 +493,9 @@ context_menu_state
 )
 =
 =
-'
+"
 open
-'
+"
 )
         
 with
@@ -505,13 +505,12 @@ marionette
 .
 using_context
 (
-'
+"
 chrome
-'
+"
 )
 :
             
-(
 self
 .
 marionette
@@ -521,20 +520,18 @@ find_element
 By
 .
 ID
-'
+"
 main
 -
 window
-'
+"
 )
-                            
 .
 send_keys
 (
 Keys
 .
 ESCAPE
-)
 )
         
 self
@@ -549,9 +546,9 @@ context_menu_state
 )
 =
 =
-'
+"
 closed
-'
+"
 )
     
 def
@@ -636,23 +633,22 @@ self
 .
 wait_for_condition
 (
-            
 lambda
 _
 :
 el
 .
-get_attribute
+get_property
 (
-'
+"
 innerHTML
-'
+"
 )
 =
 =
-'
+"
 1
-'
+"
 )
     
 def
@@ -699,9 +695,9 @@ marionette
 .
 using_context
 (
-'
+"
 chrome
-'
+"
 )
 :
             
@@ -811,9 +807,9 @@ marionette
 .
 using_context
 (
-'
+"
 chrome
-'
+"
 )
 :
             
@@ -837,16 +833,16 @@ self
 .
 assertEqual
 (
+"
+"
 urlbar
 .
 get_attribute
 (
-'
+"
 value
-'
+"
 )
-'
-'
 )
             
 urlbar
@@ -864,9 +860,9 @@ urlbar
 .
 get_attribute
 (
-'
+"
 value
-'
+"
 )
 test_word
 )
@@ -896,9 +892,9 @@ mod_key
 .
 key_down
 (
-'
+"
 x
-'
+"
 )
 .
 perform
@@ -914,12 +910,12 @@ urlbar
 .
 get_attribute
 (
-'
+"
 value
-'
+"
 )
-'
-'
+"
+"
 )
     
 def
@@ -935,9 +931,9 @@ marionette
 .
 set_context
 (
-'
+"
 chrome
-'
+"
 )
         
 def
@@ -957,9 +953,9 @@ find_element
 By
 .
 ID
-'
+"
 tabContextMenu
-'
+"
 )
             
 return
@@ -967,9 +963,9 @@ cm_el
 .
 get_attribute
 (
-'
+"
 state
-'
+"
 )
         
 currtab
@@ -992,9 +988,9 @@ self
 .
 assertEqual
 (
-'
+"
 closed
-'
+"
 context_menu_state
 (
 )
@@ -1025,9 +1021,9 @@ context_menu_state
 )
 =
 =
-'
+"
 open
-'
+"
 )
         
 (
@@ -1040,11 +1036,11 @@ find_element
 By
 .
 ID
-'
+"
 main
 -
 window
-'
+"
 )
                         
 .
@@ -1068,7 +1064,7 @@ context_menu_state
 )
 =
 =
-'
+"
 closed
-'
+"
 )
