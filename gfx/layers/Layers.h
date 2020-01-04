@@ -1167,9 +1167,6 @@ gfx
 :
 SurfaceFormat
 aFormat
-int64_t
-*
-aMemoryCounter
 )
 ;
 virtual
