@@ -128,6 +128,12 @@ Loop
 (
 )
 ;
+static
+bool
+IsInCompositorThread
+(
+)
+;
 private
 :
 ~

@@ -12,7 +12,7 @@ mozilla
 /
 layers
 /
-CompositorBridgeParent
+CompositorThread
 .
 h
 "
@@ -140,7 +140,7 @@ false
 {
 MOZ_ASSERT
 (
-CompositorBridgeParent
+CompositorThreadHolder
 :
 :
 IsInCompositorThread
@@ -262,7 +262,7 @@ aWillWait
 {
 MOZ_ASSERT
 (
-CompositorBridgeParent
+CompositorThreadHolder
 :
 :
 IsInCompositorThread
@@ -442,7 +442,7 @@ aResourceType
 {
 MOZ_ASSERT
 (
-CompositorBridgeParent
+CompositorThreadHolder
 :
 :
 IsInCompositorThread

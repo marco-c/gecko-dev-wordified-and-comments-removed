@@ -1696,12 +1696,6 @@ ComputeRenderIntegrity
 (
 )
 ;
-static
-bool
-IsInCompositorThread
-(
-)
-;
 widget
 :
 :

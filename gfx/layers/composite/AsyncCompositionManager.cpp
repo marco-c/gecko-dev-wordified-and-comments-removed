@@ -186,6 +186,17 @@ mozilla
 /
 layers
 /
+CompositorThread
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 LayerAnimationUtils
 .
 h
@@ -3318,7 +3329,7 @@ CollectScrollTransforms
 ;
 MOZ_ASSERT
 (
-CompositorBridgeParent
+CompositorThreadHolder
 :
 :
 IsInCompositorThread
@@ -6227,7 +6238,7 @@ aOutData
 {
 MOZ_ASSERT
 (
-CompositorBridgeParent
+CompositorThreadHolder
 :
 :
 IsInCompositorThread
