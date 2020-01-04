@@ -1030,12 +1030,6 @@ nsFocusManager
 ;
 friend
 class
-:
-:
-nsDocument
-;
-friend
-class
 CustomElementsRegistry
 ;
 friend
