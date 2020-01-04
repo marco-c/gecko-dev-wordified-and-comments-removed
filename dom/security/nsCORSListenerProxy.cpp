@@ -4910,6 +4910,12 @@ entry
 return
 ;
 }
+headerVal
+.
+Truncate
+(
+)
+;
 http
 -
 >
@@ -5085,6 +5091,12 @@ expirationTime
 ;
 }
 }
+headerVal
+.
+Truncate
+(
+)
+;
 http
 -
 >
