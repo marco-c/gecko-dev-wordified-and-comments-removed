@@ -1685,6 +1685,7 @@ mResumeCompositionMonitor
 uint64_t
 mCompositorID
 ;
+const
 uint64_t
 mRootLayerTreeID
 ;
