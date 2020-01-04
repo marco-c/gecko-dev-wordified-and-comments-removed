@@ -1095,6 +1095,11 @@ MediaDecoderReader
 cpp
 '
 '
+MediaDecoderReaderWrapper
+.
+cpp
+'
+'
 MediaDecoderStateMachine
 .
 cpp
