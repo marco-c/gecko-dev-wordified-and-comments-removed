@@ -69,7 +69,9 @@ allocations
 js
 '
 '
-breakdown
+census
+-
+display
 .
 js
 '
@@ -79,7 +81,11 @@ diffing
 js
 '
 '
-dominatorTreeBreakdown
+dominator
+-
+tree
+-
+display
 .
 js
 '
@@ -90,11 +96,6 @@ js
 '
 '
 filter
-.
-js
-'
-'
-inverted
 .
 js
 '

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 let
 {
 toggleRecordingAllocationStacks
@@ -40,14 +45,6 @@ front
 =
 new
 StubbedMemoryFront
-(
-)
-;
-let
-heapWorker
-=
-new
-HeapAnalysesClient
 (
 )
 ;
@@ -289,6 +286,13 @@ not
 recording
 anymore
 "
+)
+;
+yield
+front
+.
+detach
+(
 )
 ;
 }

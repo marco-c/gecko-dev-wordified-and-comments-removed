@@ -1,6 +1,10 @@
+"
+use
+strict
+"
+;
 let
 {
-breakdowns
 snapshotState
 :
 states

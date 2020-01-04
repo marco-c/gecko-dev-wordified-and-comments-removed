@@ -1104,6 +1104,8 @@ if
 (
 census
 .
+display
+.
 breakdown
 .
 by

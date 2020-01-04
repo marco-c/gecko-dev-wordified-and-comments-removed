@@ -332,8 +332,7 @@ function
 snapshots
 {
 id
-breakdown
-inverted
+display
 filter
 }
 )
@@ -345,8 +344,7 @@ census
 report
 :
 null
-breakdown
-inverted
+display
 filter
 }
 ;
@@ -402,8 +400,7 @@ snapshots
 id
 report
 parentMap
-breakdown
-inverted
+display
 filter
 }
 )
@@ -420,8 +417,7 @@ new
 Set
 (
 )
-breakdown
-inverted
+display
 filter
 }
 ;
@@ -1169,7 +1165,7 @@ function
 snapshots
 {
 id
-breakdown
+display
 }
 )
 {
@@ -1274,7 +1270,7 @@ FETCHING
 root
 :
 undefined
-breakdown
+display
 }
 )
 ;
