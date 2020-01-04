@@ -244,6 +244,11 @@ ClearSimple
 (
 )
 ;
+double
+HighestStartTime
+(
+)
+;
 private
 :
 ~

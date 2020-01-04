@@ -472,6 +472,11 @@ GetBufferedEnd
 (
 )
 ;
+double
+HighestStartTime
+(
+)
+;
 void
 RangeRemoval
 (

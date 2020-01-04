@@ -229,13 +229,6 @@ SetMediaSourceDuration
 (
 double
 aDuration
-MSRangeRemovalAction
-aAction
-)
-;
-double
-GetMediaSourceDuration
-(
 )
 ;
 MediaSourceDemuxer
