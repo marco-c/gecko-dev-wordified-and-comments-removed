@@ -18,6 +18,9 @@ Components
 const
 ERRORS
 =
+new
+Set
+(
 [
 "
 ElementNotAccessibleError
@@ -80,6 +83,7 @@ UnsupportedOperationError
 WebDriverError
 "
 ]
+)
 ;
 const
 BUILTIN_ERRORS
@@ -127,7 +131,12 @@ error
 .
 concat
 (
+Array
+.
+from
+(
 ERRORS
+)
 )
 ;
 this
@@ -249,15 +258,12 @@ obj
 &
 ERRORS
 .
-indexOf
+has
 (
 obj
 .
 name
 )
->
-=
-0
 )
 ;
 }
