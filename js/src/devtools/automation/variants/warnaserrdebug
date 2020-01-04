@@ -2,11 +2,6 @@
 -
 enable
 -
-threadsafe
--
--
-enable
--
 debug
 -
 -

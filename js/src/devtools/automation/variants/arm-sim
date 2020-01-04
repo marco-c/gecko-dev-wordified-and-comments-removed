@@ -17,13 +17,6 @@ stdcxx
 compat
 -
 -
-disable
--
-shared
--
-js
--
--
 enable
 -
 simulator

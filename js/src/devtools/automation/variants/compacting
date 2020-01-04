@@ -20,10 +20,3 @@ compat
 enable
 -
 ctypes
--
--
-disable
--
-shared
--
-js
