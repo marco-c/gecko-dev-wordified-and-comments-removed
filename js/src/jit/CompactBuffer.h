@@ -825,8 +825,12 @@ uint32_t
 value
 )
 {
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+!
+oom
+(
+)
 length
 (
 )
