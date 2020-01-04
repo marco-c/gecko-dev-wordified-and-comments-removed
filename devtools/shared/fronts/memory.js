@@ -190,6 +190,9 @@ this
 .
 _saveHeapSnapshotImpl
 (
+options
+.
+boundaries
 )
 ;
 if
