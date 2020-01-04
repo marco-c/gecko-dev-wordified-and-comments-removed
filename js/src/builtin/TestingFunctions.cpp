@@ -1999,6 +1999,15 @@ compactingEnabled
 JSGC_COMPACTING_ENABLED
 true
 )
+\
+_
+(
+"
+refreshFrameSlicesEnabled
+"
+JSGC_REFRESH_FRAME_SLICES_ENABLED
+true
+)
 static
 const
 struct

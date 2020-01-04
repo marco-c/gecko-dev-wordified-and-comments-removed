@@ -385,6 +385,9 @@ lowFrequencyHeapGrowth_
 bool
 dynamicMarkSliceEnabled_
 ;
+bool
+refreshFrameSlicesEnabled_
+;
 uint32_t
 minEmptyChunkCount_
 ;
@@ -468,6 +471,10 @@ lowFrequencyHeapGrowth_
 dynamicMarkSliceEnabled_
 (
 false
+)
+refreshFrameSlicesEnabled_
+(
+true
 )
 minEmptyChunkCount_
 (
@@ -597,6 +604,16 @@ const
 {
 return
 dynamicMarkSliceEnabled_
+;
+}
+bool
+areRefreshFrameSlicesEnabled
+(
+)
+const
+{
+return
+refreshFrameSlicesEnabled_
 ;
 }
 unsigned
