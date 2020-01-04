@@ -60,12 +60,9 @@ TerminalState
 >
 DoDecode
 (
-const
-char
-*
-aBuffer
-size_t
-aLength
+SourceBufferIterator
+&
+aIterator
 )
 override
 ;
