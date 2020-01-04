@@ -83,7 +83,7 @@ JITTEST_EXTRA_ARGS
 -
 jitflags
 =
-debug
+interp
 -
 -
 ignore
@@ -107,6 +107,11 @@ JSTESTS_EXTRA_ARGS
 "
 :
 "
+-
+-
+jitflags
+=
+interp
 -
 -
 exclude
