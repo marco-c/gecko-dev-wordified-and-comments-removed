@@ -443,6 +443,7 @@ eUnit_Float
 eUnit_Color
 eUnit_Calc
 eUnit_ObjectPosition
+eUnit_URL
 eUnit_CSSValuePair
 eUnit_CSSValueTriplet
 eUnit_CSSRect
@@ -1427,6 +1428,12 @@ aUnit
 =
 =
 eUnit_ObjectPosition
+|
+|
+aUnit
+=
+=
+eUnit_URL
 ;
 }
 static
