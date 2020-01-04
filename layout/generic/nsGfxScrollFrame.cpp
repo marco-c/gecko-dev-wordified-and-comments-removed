@@ -12886,10 +12886,8 @@ nullptr
 if
 (
 mIsRoot
-)
-{
-if
-(
+&
+&
 gfxPrefs
 :
 :
@@ -12917,6 +12915,10 @@ displayPort
 ;
 }
 else
+if
+(
+mIsRoot
+)
 {
 nsRect
 displayportBase
@@ -12975,7 +12977,6 @@ displayportBase
 displayPort
 )
 ;
-}
 }
 else
 {
