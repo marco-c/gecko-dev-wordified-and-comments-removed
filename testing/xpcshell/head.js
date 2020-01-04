@@ -2193,6 +2193,10 @@ source
 originalUrl
 :
 file
+source
+:
+{
+}
 }
 )
 ;

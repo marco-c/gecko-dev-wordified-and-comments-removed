@@ -101,6 +101,7 @@ DevToolsUtils
 ;
 const
 {
+assert
 dbg_assert
 dumpn
 update
@@ -2353,7 +2354,7 @@ pop
 (
 )
 ;
-dbg_assert
+assert
 (
 eventLoop
 "
@@ -6715,7 +6716,7 @@ _state
 paused
 "
 ;
-dbg_assert
+assert
 (
 !
 this
@@ -6762,7 +6763,7 @@ threadActor
 =
 this
 ;
-dbg_assert
+assert
 (
 !
 this
@@ -13604,7 +13605,7 @@ completion
 yield
 )
 {
-dbg_assert
+assert
 (
 false
 "
@@ -15141,7 +15142,7 @@ aPrefix
 "
 )
 {
-dbg_assert
+assert
 (
 aError
 instanceof

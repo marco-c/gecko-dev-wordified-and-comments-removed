@@ -48,6 +48,13 @@ client
 )
 ;
 yield
+attachTab
+(
+client
+chromeActors
+)
+;
+yield
 testAttach
 (
 client

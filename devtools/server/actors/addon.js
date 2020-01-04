@@ -110,7 +110,7 @@ DevToolsUtils
 ;
 var
 {
-dbg_assert
+assert
 update
 }
 =
@@ -430,7 +430,7 @@ this
 _sources
 )
 {
-dbg_assert
+assert
 (
 this
 .
@@ -475,7 +475,7 @@ BAA_form
 (
 )
 {
-dbg_assert
+assert
 (
 this
 .

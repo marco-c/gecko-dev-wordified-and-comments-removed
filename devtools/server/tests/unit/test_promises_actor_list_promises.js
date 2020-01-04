@@ -60,6 +60,13 @@ client
 )
 ;
 yield
+attachTab
+(
+client
+chromeActors
+)
+;
+yield
 testListPromises
 (
 client

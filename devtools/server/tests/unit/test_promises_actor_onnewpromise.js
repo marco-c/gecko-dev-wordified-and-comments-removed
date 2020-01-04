@@ -90,6 +90,13 @@ Promise
 )
 ;
 yield
+attachTab
+(
+client
+chromeActors
+)
+;
+yield
 testNewPromisesEvent
 (
 client

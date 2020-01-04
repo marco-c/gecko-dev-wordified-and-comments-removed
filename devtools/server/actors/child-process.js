@@ -101,7 +101,7 @@ Services
 ;
 const
 {
-dbg_assert
+assert
 }
 =
 require
@@ -311,7 +311,7 @@ this
 _sources
 )
 {
-dbg_assert
+assert
 (
 this
 .

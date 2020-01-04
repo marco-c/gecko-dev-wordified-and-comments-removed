@@ -89,7 +89,6 @@ DevToolsUtils
 var
 {
 assert
-dbg_assert
 }
 =
 DevToolsUtils
@@ -2819,7 +2818,7 @@ this
 _sources
 )
 {
-dbg_assert
+assert
 (
 this
 .

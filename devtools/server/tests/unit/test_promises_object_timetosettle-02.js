@@ -112,6 +112,13 @@ Promise
 )
 ;
 yield
+attachTab
+(
+client
+chromeActors
+)
+;
+yield
 testGetTimeToSettle
 (
 client

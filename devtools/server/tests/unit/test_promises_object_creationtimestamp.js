@@ -91,6 +91,13 @@ Promise
 )
 ;
 yield
+attachTab
+(
+client
+chromeActors
+)
+;
+yield
 testPromiseCreationTimestamp
 (
 client
