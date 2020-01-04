@@ -1894,7 +1894,7 @@ return
 result
 ;
 }
-gfxRGBA
+Color
 mColor
 ;
 IntRect

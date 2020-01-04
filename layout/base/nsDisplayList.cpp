@@ -16519,12 +16519,8 @@ layer
 >
 SetColor
 (
-NS_RGBA
+Color
 (
-0
-0
-0
-0
 )
 )
 ;

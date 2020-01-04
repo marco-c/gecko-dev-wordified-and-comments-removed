@@ -11870,7 +11870,7 @@ set_color
 (
 mColor
 .
-Packed
+ToABGR
 (
 )
 )
@@ -12510,7 +12510,7 @@ a
 =
 1
 .
-0
+f
 )
 {
 AppendToString
