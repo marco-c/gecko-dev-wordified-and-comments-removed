@@ -496,9 +496,10 @@ addEventListener
 "
 SidebarFocused
 "
-function
 (
 )
+=
+>
 gSearchBox
 .
 focus

@@ -200,9 +200,10 @@ ContentArea
 setContentViewForQueryString
 (
 DOWNLOADS_QUERY
-function
 (
 )
+=
+>
 new
 DownloadsPlacesView
 (

@@ -180,6 +180,8 @@ promiseGuid
 function
 (
 )
+{
+return
 PlacesUtils
 .
 promiseItemGuid
@@ -188,6 +190,8 @@ this
 .
 itemId
 )
+;
+}
 get
 index
 (
@@ -245,6 +249,8 @@ get
 isTag
 (
 )
+{
+return
 typeof
 (
 this
@@ -256,6 +262,8 @@ tagName
 "
 string
 "
+;
+}
 }
 ;
 function
@@ -5698,9 +5706,13 @@ get
 cutNodes
 (
 )
+{
+return
 this
 .
 _cutNodes
+;
+}
 set
 cutNodes
 (
@@ -5988,10 +6000,9 @@ TYPE_UNICODE
 .
 forEach
 (
-function
-(
 type
-)
+=
+>
 xferable
 .
 addDataFlavor
@@ -6597,6 +6608,8 @@ PC_hasCachedLivemarkInfo
 (
 aNode
 )
+{
+return
 this
 .
 _cachedLivemarkInfoObjects
@@ -6605,6 +6618,8 @@ has
 (
 aNode
 )
+;
+}
 getCachedLivemarkInfo
 :
 function
@@ -6612,6 +6627,8 @@ PC_getCachedLivemarkInfo
 (
 aNode
 )
+{
+return
 this
 .
 _cachedLivemarkInfoObjects
@@ -6621,6 +6638,8 @@ get
 aNode
 null
 )
+;
+}
 }
 ;
 var
