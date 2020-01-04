@@ -23437,6 +23437,8 @@ const
 nsACString
 &
 aDatabaseId
+uintptr_t
+aCallsite
 )
 {
 Unused
@@ -23445,6 +23447,7 @@ Unused
 CloseDatabaseWhenIdleInternal
 (
 aDatabaseId
+aCallsite
 )
 ;
 }
@@ -23598,6 +23601,8 @@ const
 nsACString
 &
 aDatabaseId
+uintptr_t
+aCallsite
 )
 ;
 }
@@ -43856,6 +43861,7 @@ if
 CloseDatabaseWhenIdleInternal
 (
 databaseId
+0x6
 )
 )
 {
@@ -46222,7 +46228,7 @@ MOZ_ASSERT
 aDatabaseInfo
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 aDatabaseInfo
@@ -46919,7 +46925,7 @@ MOZ_ASSERT
 aDatabaseInfo
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 !
 aDatabaseInfo
@@ -47182,6 +47188,8 @@ const
 nsACString
 &
 aDatabaseId
+uintptr_t
+aCallsite
 )
 {
 AssertIsOnOwningThread
@@ -47256,7 +47264,7 @@ dbInfo
 CloseDatabase
 (
 dbInfo
-5
+aCallsite
 )
 ;
 AdjustIdleTimer
@@ -52451,6 +52459,7 @@ CloseDatabaseWhenIdle
 Id
 (
 )
+0x7
 )
 ;
 }
