@@ -26,7 +26,7 @@ include
 "
 mozilla
 /
-Endian
+EndianUtils
 .
 h
 "

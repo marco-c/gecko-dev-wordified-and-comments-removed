@@ -278,7 +278,7 @@ utils
 h
 '
 '
-Endian
+EndianUtils
 .
 h
 '
