@@ -16,9 +16,6 @@ f
 noScriptRval
 :
 true
-saveFrameChain
-:
-true
 }
 )
 ;

@@ -59,9 +59,6 @@ function
 catchTermination
 :
 true
-saveFrameChain
-:
-true
 }
 \
 )
@@ -105,10 +102,6 @@ gc
 \
 "
 {
-\
-saveFrameChain
-:
-true
 \
 }
 )
