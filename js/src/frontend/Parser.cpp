@@ -41023,12 +41023,12 @@ index
 if
 (
 index
->
+=
 =
 NativeObject
 :
 :
-MAX_DENSE_ELEMENTS_COUNT
+NELEMENTS_LIMIT
 )
 {
 report
