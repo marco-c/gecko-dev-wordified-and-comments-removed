@@ -52025,6 +52025,17 @@ flush
 (
 )
 ;
+if
+(
+masm
+.
+oom
+(
+)
+)
+return
+false
+;
 offsets
 -
 >
