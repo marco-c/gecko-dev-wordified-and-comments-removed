@@ -711,7 +711,7 @@ addr
 port
 socket_timeout
 =
-360
+60
 .
 0
 )

@@ -1521,7 +1521,7 @@ ArgumentParser
     
 socket_timeout_default
 =
-360
+60
 .
 0
     
