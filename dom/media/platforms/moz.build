@@ -124,11 +124,6 @@ PlatformDecoderModule
 h
 '
 '
-SharedDecoderManager
-.
-h
-'
-'
 wrappers
 /
 FuzzingWrapper
@@ -177,11 +172,6 @@ cpp
 '
 '
 PlatformDecoderModule
-.
-cpp
-'
-'
-SharedDecoderManager
 .
 cpp
 '
