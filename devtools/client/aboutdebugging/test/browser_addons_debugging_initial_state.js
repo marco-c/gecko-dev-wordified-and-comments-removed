@@ -16,6 +16,15 @@ org
 "
 ;
 const
+ADDON_NAME
+=
+"
+test
+-
+devtools
+"
+;
+const
 TEST_DATA
 =
 [
@@ -208,6 +217,7 @@ install
 .
 rdf
 "
+ADDON_NAME
 "
 test
 -
@@ -343,7 +353,9 @@ earlier
 yield
 uninstallAddon
 (
+document
 ADDON_ID
+ADDON_NAME
 )
 ;
 yield
