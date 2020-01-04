@@ -4,16 +4,6 @@ strict
 "
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 EventEmitter
 =
 require
@@ -174,6 +164,7 @@ client
 )
 {
 return
+undefined
 ;
 }
 return

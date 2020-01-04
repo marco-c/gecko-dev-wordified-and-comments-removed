@@ -20,16 +20,6 @@ task
 )
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 EventEmitter
 =
 require
@@ -633,6 +623,7 @@ data
 )
 {
 return
+undefined
 ;
 }
 if
@@ -1193,6 +1184,7 @@ forEach
 m
 =
 >
+{
 LegacyProfilerFront
 .
 prototype
@@ -1206,6 +1198,8 @@ callFrontMethod
 (
 m
 )
+;
+}
 )
 ;
 TIMELINE_ACTOR_METHODS
@@ -1215,6 +1209,7 @@ forEach
 m
 =
 >
+{
 LegacyTimelineFront
 .
 prototype
@@ -1228,6 +1223,8 @@ callFrontMethod
 (
 m
 )
+;
+}
 )
 ;
 exports

@@ -524,16 +524,6 @@ client
 /
 performance
 /
-legacy
-/
-*
-*
-devtools
-/
-client
-/
-performance
-/
 modules
 /
 *
