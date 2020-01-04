@@ -76,7 +76,7 @@ NS_DISPATCH_NORMAL
 NS_IMPL_ISUPPORTS
 (
 UrlClassifierDBServiceWorkerProxy
-nsIUrlClassifierDBServiceWorker
+nsIUrlClassifierDBService
 )
 NS_IMETHODIMP
 UrlClassifierDBServiceWorkerProxy
@@ -418,7 +418,7 @@ NewRunnableMethod
 (
 mTarget
 &
-nsIUrlClassifierDBServiceWorker
+nsUrlClassifierDBServiceWorker
 :
 :
 FinishStream
@@ -543,7 +543,7 @@ NewRunnableMethod
 (
 mTarget
 &
-nsIUrlClassifierDBServiceWorker
+nsUrlClassifierDBServiceWorker
 :
 :
 FinishUpdate
@@ -574,7 +574,7 @@ NewRunnableMethod
 (
 mTarget
 &
-nsIUrlClassifierDBServiceWorker
+nsUrlClassifierDBServiceWorker
 :
 :
 CancelUpdate
@@ -605,7 +605,7 @@ NewRunnableMethod
 (
 mTarget
 &
-nsIUrlClassifierDBServiceWorker
+nsUrlClassifierDBServiceWorker
 :
 :
 ResetDatabase
@@ -636,7 +636,7 @@ NewRunnableMethod
 (
 mTarget
 &
-nsIUrlClassifierDBServiceWorker
+nsUrlClassifierDBServiceWorker
 :
 :
 ReloadDatabase
@@ -649,7 +649,7 @@ r
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 UrlClassifierDBServiceWorkerProxy
 :
 :
@@ -667,7 +667,7 @@ NewRunnableMethod
 (
 mTarget
 &
-nsIUrlClassifierDBServiceWorker
+nsUrlClassifierDBServiceWorker
 :
 :
 OpenDb
@@ -680,7 +680,7 @@ r
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 UrlClassifierDBServiceWorkerProxy
 :
 :
@@ -698,7 +698,7 @@ NewRunnableMethod
 (
 mTarget
 &
-nsIUrlClassifierDBServiceWorker
+nsUrlClassifierDBServiceWorker
 :
 :
 CloseDb
@@ -711,7 +711,7 @@ r
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 UrlClassifierDBServiceWorkerProxy
 :
 :
@@ -765,7 +765,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 UrlClassifierDBServiceWorkerProxy
 :
 :
