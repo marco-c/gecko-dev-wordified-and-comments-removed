@@ -87,10 +87,6 @@ Init
 GMPDecryptorCallback
 *
 aCallback
-bool
-aDistinctiveIdentifierAllowed
-bool
-aPersistentStateAllowed
 )
 override
 ;

@@ -70,10 +70,6 @@ aKeySystem
 GMPCrashHelper
 *
 aCrashHelper
-bool
-aDistinctiveIdentifierRequired
-bool
-aPersistentStateRequired
 )
 ;
 void

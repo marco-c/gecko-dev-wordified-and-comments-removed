@@ -203,10 +203,6 @@ const
 nsAString
 &
 aCDMVersion
-bool
-aDistinctiveIdentifierRequired
-bool
-aPersistentStateRequired
 )
 ;
 already_AddRefed
@@ -506,14 +502,6 @@ RefPtr
 nsIPrincipal
 >
 mTopLevelPrincipal
-;
-const
-bool
-mDistinctiveIdentifierRequired
-;
-const
-bool
-mPersistentStateRequired
 ;
 }
 ;

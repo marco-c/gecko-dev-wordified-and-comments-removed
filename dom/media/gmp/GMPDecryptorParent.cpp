@@ -187,10 +187,6 @@ Init
 GMPDecryptorProxyCallback
 *
 aCallback
-bool
-aDistinctiveIdentifierRequired
-bool
-aPersistentStateRequired
 )
 {
 LOGD
@@ -248,8 +244,6 @@ if
 !
 SendInit
 (
-aDistinctiveIdentifierRequired
-aPersistentStateRequired
 )
 )
 {
