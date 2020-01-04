@@ -193,12 +193,6 @@ BufferAppend
 override
 ;
 void
-AbortAppendData
-(
-)
-override
-;
-void
 ResetParserState
 (
 )
@@ -1373,12 +1367,6 @@ double
 >
 >
 mMediaSourceDuration
-;
-Atomic
-<
-bool
->
-mAbort
 ;
 Atomic
 <
