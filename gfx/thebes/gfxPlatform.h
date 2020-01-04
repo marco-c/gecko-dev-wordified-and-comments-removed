@@ -499,6 +499,15 @@ OUT_OF_MEMORY
 UNKNOWN
 }
 ;
+enum
+class
+ForcedDeviceResetReason
+{
+OPENSHAREDHANDLE
+=
+0
+}
+;
 class
 gfxPlatform
 {
