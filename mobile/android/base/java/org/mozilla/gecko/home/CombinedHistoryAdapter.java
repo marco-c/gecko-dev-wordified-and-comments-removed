@@ -362,6 +362,8 @@ onRecentTabsCountUpdated
 (
 int
 count
+boolean
+countReliable
 )
 ;
 }
@@ -398,6 +400,9 @@ onRecentTabsCountUpdated
 final
 int
 count
+final
+boolean
+countReliable
 )
 {
 ThreadUtils

@@ -304,6 +304,12 @@ ClosedTab
 recentlyClosedTabs
 ;
 private
+boolean
+recentlyClosedTabsReceived
+=
+false
+;
+private
 ClosedTab
 [
 ]
@@ -494,6 +500,10 @@ ClosedTabs
 Data
 "
 )
+;
+recentlyClosedTabsReceived
+=
+false
 ;
 }
 public
@@ -737,6 +747,10 @@ recentlyClosedTabs
 =
 closedTabs
 ;
+recentlyClosedTabsReceived
+=
+true
+;
 recentTabsUpdateHandler
 .
 onRecentTabsCountUpdated
@@ -744,6 +758,7 @@ onRecentTabsCountUpdated
 getClosedTabsCount
 (
 )
+recentlyClosedTabsReceived
 )
 ;
 panelStateUpdateHandler
@@ -992,6 +1007,7 @@ onRecentTabsCountUpdated
 getClosedTabsCount
 (
 )
+recentlyClosedTabsReceived
 )
 ;
 panelStateUpdateHandler
@@ -1104,6 +1120,7 @@ onRecentTabsCountUpdated
 getClosedTabsCount
 (
 )
+recentlyClosedTabsReceived
 )
 ;
 panelStateUpdateHandler
