@@ -2174,15 +2174,6 @@ channel
 -
 enable
 -
-update
--
-packaging
-'
-'
--
--
-enable
--
 updater
 '
 '

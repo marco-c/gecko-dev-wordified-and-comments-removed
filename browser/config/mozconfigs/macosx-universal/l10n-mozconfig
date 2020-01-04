@@ -53,14 +53,6 @@ MOZ_UPDATE_CHANNEL
 ac_add_options
 -
 -
-enable
--
-update
--
-packaging
-ac_add_options
--
--
 with
 -
 branding
