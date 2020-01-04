@@ -410,7 +410,7 @@ GetStringFromName
 "
 validator
 .
-wrongManifestFileName
+noManifestFile
 "
 )
 )
