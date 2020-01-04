@@ -263,11 +263,6 @@ memory
 js
 '
 '
-memprof
-.
-js
-'
-'
 monitor
 .
 js
