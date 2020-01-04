@@ -1137,8 +1137,6 @@ void
 Dispatch
 (
 As
-&
-&
 .
 .
 .
@@ -1309,8 +1307,6 @@ void
 Dispatch
 (
 As
-&
-&
 .
 .
 .
