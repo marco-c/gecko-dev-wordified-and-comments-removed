@@ -543,7 +543,7 @@ mCancelable
 mMessage
 !
 =
-NS_TOUCH_CANCEL
+eTouchCancel
 ;
 MOZ_COUNT_CTOR
 (
@@ -582,7 +582,7 @@ mCancelable
 mMessage
 !
 =
-NS_TOUCH_CANCEL
+eTouchCancel
 ;
 }
 virtual

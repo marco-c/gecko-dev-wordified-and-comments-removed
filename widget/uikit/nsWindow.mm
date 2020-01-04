@@ -1452,7 +1452,7 @@ self
 self
 sendTouchEvent
 :
-NS_TOUCH_CANCEL
+eTouchCancel
 touches
 :
 touches

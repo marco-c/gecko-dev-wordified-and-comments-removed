@@ -5209,7 +5209,7 @@ case
 eTouchEnd
 :
 case
-NS_TOUCH_CANCEL
+eTouchCancel
 :
 return
 true

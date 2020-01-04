@@ -4375,7 +4375,7 @@ touchcancel
 {
 msg
 =
-NS_TOUCH_CANCEL
+eTouchCancel
 ;
 }
 else

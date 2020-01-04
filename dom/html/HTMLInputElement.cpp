@@ -17801,7 +17801,7 @@ CancelRangeThumbDrag
 break
 ;
 case
-NS_TOUCH_CANCEL
+eTouchCancel
 :
 if
 (

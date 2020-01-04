@@ -3482,7 +3482,7 @@ AsMouseEvent
 break
 ;
 case
-NS_TOUCH_CANCEL
+eTouchCancel
 :
 mTouchesId
 .

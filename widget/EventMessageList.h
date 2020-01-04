@@ -1446,7 +1446,7 @@ eTouchEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_TOUCH_CANCEL
+eTouchCancel
 eTouchEventFirst
 +
 3

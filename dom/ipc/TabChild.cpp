@@ -9005,7 +9005,7 @@ mPuppetWidget
 ;
 }
 case
-NS_TOUCH_CANCEL
+eTouchCancel
 :
 CancelTapTracking
 (

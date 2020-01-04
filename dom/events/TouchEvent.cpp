@@ -489,7 +489,7 @@ mEvent
 mMessage
 =
 =
-NS_TOUCH_CANCEL
+eTouchCancel
 )
 {
 WidgetTouchEvent
@@ -674,7 +674,7 @@ mEvent
 mMessage
 !
 =
-NS_TOUCH_CANCEL
+eTouchCancel
 )
 |
 |

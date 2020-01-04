@@ -1007,7 +1007,7 @@ aIsHandlingUserInput
 true
 ;
 case
-NS_TOUCH_CANCEL
+eTouchCancel
 :
 {
 WidgetTouchEvent
