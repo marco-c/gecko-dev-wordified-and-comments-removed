@@ -28004,7 +28004,7 @@ case
 Expr
 :
 :
-LoadGlobal
+GetGlobal
 :
 CHECK_NEXT
 (
@@ -28017,7 +28017,7 @@ case
 Expr
 :
 :
-StoreGlobal
+SetGlobal
 :
 CHECK_NEXT
 (

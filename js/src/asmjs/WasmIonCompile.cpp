@@ -15937,7 +15937,7 @@ case
 Expr
 :
 :
-LoadGlobal
+GetGlobal
 :
 return
 EmitGetGlobal
@@ -15949,7 +15949,7 @@ case
 Expr
 :
 :
-StoreGlobal
+SetGlobal
 :
 return
 EmitSetGlobal

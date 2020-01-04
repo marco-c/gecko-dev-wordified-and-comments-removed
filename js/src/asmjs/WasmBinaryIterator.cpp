@@ -1859,7 +1859,7 @@ case
 Expr
 :
 :
-LoadGlobal
+GetGlobal
 :
 return
 ExprKind
@@ -1877,7 +1877,7 @@ case
 Expr
 :
 :
-StoreGlobal
+SetGlobal
 :
 return
 ExprKind

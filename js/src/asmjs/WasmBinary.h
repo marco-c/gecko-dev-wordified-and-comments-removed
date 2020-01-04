@@ -730,10 +730,12 @@ I64Rotl
 I64Eqz
 =
 0xba
-LoadGlobal
+GetGlobal
 =
 0xc0
-StoreGlobal
+SetGlobal
+=
+0xc1
 I32Min
 I32Max
 I32Neg
