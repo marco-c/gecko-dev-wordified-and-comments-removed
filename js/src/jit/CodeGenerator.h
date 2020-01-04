@@ -1337,6 +1337,14 @@ lir
 )
 ;
 void
+visitNewTypedArray
+(
+LNewTypedArray
+*
+lir
+)
+;
+void
 visitNewObjectVMCall
 (
 LNewObject

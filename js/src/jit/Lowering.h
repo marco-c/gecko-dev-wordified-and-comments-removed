@@ -388,6 +388,14 @@ ins
 )
 ;
 void
+visitNewTypedArray
+(
+MNewTypedArray
+*
+ins
+)
+;
+void
 visitNewObject
 (
 MNewObject

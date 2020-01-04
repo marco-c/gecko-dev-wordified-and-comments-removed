@@ -308,6 +308,11 @@ NewArrayDynamicLength
 \
 _
 (
+NewTypedArray
+)
+\
+_
+(
 ArraySplice
 )
 \
