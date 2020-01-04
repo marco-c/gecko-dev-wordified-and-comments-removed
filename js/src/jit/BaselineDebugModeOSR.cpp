@@ -21,6 +21,15 @@ include
 "
 jit
 /
+BaselineIC
+.
+h
+"
+#
+include
+"
+jit
+/
 JitcodeMap
 .
 h

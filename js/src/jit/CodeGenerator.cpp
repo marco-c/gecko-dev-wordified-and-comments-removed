@@ -236,6 +236,15 @@ h
 #
 include
 "
+jit
+/
+SharedICHelpers
+.
+h
+"
+#
+include
+"
 vm
 /
 MatchPairs

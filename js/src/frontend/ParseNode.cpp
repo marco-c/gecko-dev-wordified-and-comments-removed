@@ -40,6 +40,12 @@ using
 mozilla
 :
 :
+ArrayLength
+;
+using
+mozilla
+:
+:
 IsFinite
 ;
 #

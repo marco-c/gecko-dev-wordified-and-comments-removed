@@ -136,6 +136,15 @@ include
 "
 vm
 /
+SavedFrame
+.
+h
+"
+#
+include
+"
+vm
+/
 StringBuffer
 .
 h
@@ -7067,6 +7076,9 @@ getPrincipals
 =
 =
 &
+js
+:
+:
 ReconstructedSavedFramePrincipals
 :
 :
@@ -7267,6 +7279,9 @@ get
 )
 )
 {
+js
+:
+:
 RootedAtom
 source
 (
@@ -7313,6 +7328,9 @@ source
 return
 false
 ;
+js
+:
+:
 RootedAtom
 functionDisplayName
 (
@@ -7446,6 +7464,9 @@ parent
 )
 ;
 }
+js
+:
+:
 RootedSavedFrame
 parentFrame
 (
