@@ -445,9 +445,6 @@ mDuration
 VideoFrame
 mFrame
 ;
-mozilla
-:
-:
 TimeStamp
 mTimeStamp
 ;
