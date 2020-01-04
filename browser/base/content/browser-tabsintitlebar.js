@@ -8,6 +8,16 @@ function
 (
 )
 {
+if
+(
+this
+.
+_initialized
+)
+{
+return
+;
+}
 this
 .
 _readPref

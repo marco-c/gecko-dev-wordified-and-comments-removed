@@ -37214,6 +37214,12 @@ updateVisibility
 (
 )
 ;
+TabsInTitlebar
+.
+init
+(
+)
+;
 break
 ;
 case
