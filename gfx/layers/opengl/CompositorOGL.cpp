@@ -602,6 +602,7 @@ GLContextProviderEGL
 CreateForWindow
 (
 mWidget
+false
 )
 ;
 }
@@ -692,6 +693,17 @@ GLContextProvider
 CreateForWindow
 (
 mWidget
+gfxPlatform
+:
+:
+GetPlatform
+(
+)
+-
+>
+RequiresAcceleratedGLContextForCompositorOGL
+(
+)
 )
 ;
 }

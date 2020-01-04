@@ -2049,6 +2049,8 @@ CreateForWindow
 nsIWidget
 *
 aWidget
+bool
+aForceAccelerated
 )
 {
 if

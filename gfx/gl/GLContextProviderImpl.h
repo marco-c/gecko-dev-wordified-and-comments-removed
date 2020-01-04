@@ -54,6 +54,8 @@ CreateForWindow
 nsIWidget
 *
 widget
+bool
+aForceAccelerated
 )
 ;
 static

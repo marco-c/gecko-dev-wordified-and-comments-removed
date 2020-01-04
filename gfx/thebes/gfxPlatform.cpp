@@ -9569,13 +9569,6 @@ aBackends
 )
 ;
 }
-if
-(
-SupportsBasicCompositor
-(
-)
-)
-{
 aBackends
 .
 AppendElement
@@ -9586,7 +9579,6 @@ LayersBackend
 LAYERS_BASIC
 )
 ;
-}
 }
 void
 gfxPlatform

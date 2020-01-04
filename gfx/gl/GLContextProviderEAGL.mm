@@ -907,6 +907,8 @@ CreateForWindow
 nsIWidget
 *
 aWidget
+bool
+aForceAccelerated
 )
 {
 RefPtr

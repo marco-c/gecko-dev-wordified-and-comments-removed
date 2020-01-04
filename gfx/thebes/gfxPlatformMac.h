@@ -315,14 +315,14 @@ true
 ;
 }
 bool
-SupportsBasicCompositor
+RequiresAcceleratedGLContextForCompositorOGL
 (
 )
 const
 override
 {
 return
-false
+true
 ;
 }
 bool
