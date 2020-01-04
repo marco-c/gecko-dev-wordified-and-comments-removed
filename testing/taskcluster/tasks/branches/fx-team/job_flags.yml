@@ -23,7 +23,9 @@ taskcluster
 /
 tasks
 /
-job_flags
+branches
+/
+base_job_flags
 .
 yml
 inherits
