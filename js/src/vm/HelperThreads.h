@@ -747,9 +747,9 @@ token
 void
 mergeParseTaskCompartment
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 ParseTask
 *
 parseTask

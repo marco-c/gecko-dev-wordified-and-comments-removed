@@ -20991,11 +20991,6 @@ false
 IterateScripts
 (
 cx
--
->
-runtime
-(
-)
 singletonComp
 this
 considerScript

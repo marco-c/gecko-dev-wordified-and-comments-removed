@@ -74,9 +74,9 @@ gc
 void
 FinishGC
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 class
@@ -170,9 +170,9 @@ public
 :
 AutoPrepareForTracing
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 ZoneSelector
 selector
 )

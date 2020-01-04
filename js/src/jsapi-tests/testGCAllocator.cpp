@@ -221,7 +221,7 @@ gc
 :
 FinishGC
 (
-rt
+cx
 )
 ;
 bool

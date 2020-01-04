@@ -838,7 +838,7 @@ JS
 :
 IsIncrementalGCInProgress
 (
-rt
+cx
 )
 )
 ;

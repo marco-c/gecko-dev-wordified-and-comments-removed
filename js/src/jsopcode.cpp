@@ -10927,7 +10927,7 @@ gc
 AutoPrepareForTracing
 apft
 (
-rt
+cx
 SkipAtoms
 )
 ;

@@ -3983,9 +3983,9 @@ static
 bool
 CollectRuntimeStatsHelper
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 RuntimeStats
 *
 rtStats
@@ -3998,6 +3998,12 @@ IterateCellCallback
 statsCellCallback
 )
 {
+JSRuntime
+*
+rt
+=
+cx
+;
 if
 (
 !
@@ -4082,7 +4088,7 @@ ChunkSize
 ;
 IterateChunks
 (
-rt
+cx
 &
 rtStats
 -
@@ -4113,7 +4119,7 @@ false
 ;
 IterateZonesCompartmentsArenasCells
 (
-rt
+cx
 &
 closure
 StatsZoneCallback
@@ -4548,9 +4554,9 @@ JS
 :
 CollectRuntimeStats
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 RuntimeStats
 *
 rtStats
@@ -4564,7 +4570,7 @@ anonymize
 return
 CollectRuntimeStatsHelper
 (
-rt
+cx
 rtStats
 opv
 anonymize
@@ -4797,9 +4803,9 @@ bool
 )
 AddSizeOfTab
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 HandleObject
 obj
 MallocSizeOf
@@ -4890,7 +4896,7 @@ false
 ;
 IterateZoneCompartmentsArenasCells
 (
-rt
+cx
 zone
 &
 closure
@@ -5022,9 +5028,9 @@ bool
 )
 AddServoSizeOf
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 MallocSizeOf
 mallocSizeOf
 ObjectPrivateVisitor
@@ -5046,7 +5052,7 @@ if
 !
 CollectRuntimeStatsHelper
 (
-rt
+cx
 &
 rtStats
 opv

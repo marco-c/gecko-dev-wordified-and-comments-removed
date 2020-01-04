@@ -3298,9 +3298,9 @@ bool
 )
 CollectRuntimeStats
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 RuntimeStats
 *
 rtStats
@@ -3355,9 +3355,9 @@ bool
 )
 AddSizeOfTab
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 JS
 :
 :
@@ -3383,9 +3383,9 @@ bool
 )
 AddServoSizeOf
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 mozilla
 :
 :
