@@ -628,6 +628,14 @@ muted
 =
 true
 ;
+tabData
+.
+muteReason
+=
+tab
+.
+muteReason
+;
 }
 tabData
 .
