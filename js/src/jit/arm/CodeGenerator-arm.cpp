@@ -6234,12 +6234,12 @@ i
 ;
 cl
 .
-src
+target
 (
 )
 -
 >
-bind
+use
 (
 caseoffset
 )
@@ -6423,7 +6423,7 @@ writeCodePointer
 (
 cl
 .
-dest
+patchAt
 (
 )
 )

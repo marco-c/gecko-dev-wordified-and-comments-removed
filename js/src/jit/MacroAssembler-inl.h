@@ -1233,12 +1233,9 @@ const
 return
 selfReferencePatch_
 .
-offset
+used
 (
 )
-!
-=
-0
 ;
 }
 void
