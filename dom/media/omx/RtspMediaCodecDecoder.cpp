@@ -36,12 +36,16 @@ RtspMediaCodecDecoder
 :
 Clone
 (
+MediaDecoderOwner
+*
+aOwner
 )
 {
 return
 new
 RtspMediaCodecDecoder
 (
+aOwner
 )
 ;
 }

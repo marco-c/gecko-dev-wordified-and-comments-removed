@@ -45,12 +45,16 @@ AppleDecoder
 :
 Clone
 (
+MediaDecoderOwner
+*
+aOwner
 )
 {
 return
 new
 AppleDecoder
 (
+aOwner
 )
 ;
 }

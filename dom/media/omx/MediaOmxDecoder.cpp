@@ -33,12 +33,16 @@ MediaOmxDecoder
 :
 Clone
 (
+MediaDecoderOwner
+*
+aOwner
 )
 {
 return
 new
 MediaOmxDecoder
 (
+aOwner
 )
 ;
 }

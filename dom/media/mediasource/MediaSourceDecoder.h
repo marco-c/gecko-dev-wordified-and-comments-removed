@@ -103,6 +103,9 @@ MediaDecoder
 *
 Clone
 (
+MediaDecoderOwner
+*
+aOwner
 )
 override
 ;

@@ -44,6 +44,9 @@ MediaDecoder
 *
 Clone
 (
+MediaDecoderOwner
+*
+aOwner
 )
 override
 {
@@ -63,6 +66,7 @@ return
 new
 DirectShowDecoder
 (
+aOwner
 )
 ;
 }

@@ -45,6 +45,9 @@ MediaDecoder
 *
 Clone
 (
+MediaDecoderOwner
+*
+aOwner
 )
 {
 if
@@ -63,6 +66,7 @@ return
 new
 WebMDecoder
 (
+aOwner
 )
 ;
 }

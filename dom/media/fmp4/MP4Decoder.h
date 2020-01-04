@@ -39,6 +39,9 @@ MediaDecoder
 *
 Clone
 (
+MediaDecoderOwner
+*
+aOwner
 )
 override
 {
@@ -58,6 +61,7 @@ return
 new
 MP4Decoder
 (
+aOwner
 )
 ;
 }

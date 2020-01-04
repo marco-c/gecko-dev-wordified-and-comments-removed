@@ -70,12 +70,16 @@ MediaDecoder
 *
 Clone
 (
+MediaDecoderOwner
+*
+aOwner
 )
 {
 return
 new
 AndroidMediaDecoder
 (
+aOwner
 mType
 )
 ;

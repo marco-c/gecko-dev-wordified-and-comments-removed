@@ -29,12 +29,16 @@ MediaCodecDecoder
 :
 Clone
 (
+MediaDecoderOwner
+*
+aOwner
 )
 {
 return
 new
 MediaCodecDecoder
 (
+aOwner
 )
 ;
 }
