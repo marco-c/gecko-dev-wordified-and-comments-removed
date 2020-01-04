@@ -209,12 +209,6 @@ int64_t
 >
 mLastFrameTime
 ;
-uint8_t
-mMappingTable
-[
-MAX_AUDIO_CHANNELS
-]
-;
 }
 ;
 }
