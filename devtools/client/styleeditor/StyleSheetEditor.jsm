@@ -1661,6 +1661,17 @@ setCursor
 pos
 )
 ;
+this
+.
+emit
+(
+"
+style
+-
+applied
+"
+)
+;
 }
 )
 ;
