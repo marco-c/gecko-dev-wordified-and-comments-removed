@@ -4540,7 +4540,6 @@ nullptr
 ;
 }
 return
-!
 hadSelector
 |
 |
