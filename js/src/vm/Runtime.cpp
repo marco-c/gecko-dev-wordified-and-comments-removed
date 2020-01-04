@@ -716,6 +716,14 @@ promiseRejectionTrackerCallbackData
 (
 nullptr
 )
+startAsyncTaskCallback
+(
+nullptr
+)
+finishAsyncTaskCallback
+(
+nullptr
+)
 #
 ifdef
 DEBUG
