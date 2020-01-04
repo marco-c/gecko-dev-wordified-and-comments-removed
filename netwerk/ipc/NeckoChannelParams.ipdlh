@@ -398,6 +398,9 @@ verifySignedContent
 bool
 enforceSRI
 ;
+bool
+forceInheritPrincipalDropped
+;
 uint64_t
 innerWindowID
 ;
