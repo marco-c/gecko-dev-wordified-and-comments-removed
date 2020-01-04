@@ -24195,6 +24195,11 @@ aWindowIsNew
 =
 true
 ;
+*
+aResult
+=
+NS_OK
+;
 const
 uint32_t
 badFlags
