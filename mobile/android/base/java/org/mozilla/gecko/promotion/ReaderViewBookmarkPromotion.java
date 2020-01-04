@@ -207,12 +207,12 @@ ReaderModeUtils
 .
 isEnteringReaderMode
 (
+data
 tab
 .
 getURL
 (
 )
-data
 )
 ;
 if
