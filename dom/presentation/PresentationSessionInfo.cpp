@@ -1192,14 +1192,6 @@ NS_IsMainThread
 )
 ;
 mTransport
--
->
-SetCallback
-(
-nullptr
-)
-;
-mTransport
 =
 nullptr
 ;
