@@ -141,6 +141,12 @@ CurrentInputSource
 (
 )
 ;
+static
+void
+Shutdown
+(
+)
+;
 TISInputSourceWrapper
 (
 )
@@ -757,6 +763,11 @@ mIsRTL
 ;
 bool
 mOverrideKeyboard
+;
+static
+TISInputSourceWrapper
+*
+sCurrentInputSource
 ;
 }
 ;
