@@ -893,6 +893,9 @@ gfxFont
 FONT_TIMEOUT_SECONDS
 *
 1000
+"
+gfxFontCache
+"
 )
 {
 nsCOMPtr

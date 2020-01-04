@@ -4603,6 +4603,9 @@ imgCacheEntry
 TIMEOUT_SECONDS
 *
 1000
+"
+imgCacheExpirationTracker
+"
 )
 {
 }

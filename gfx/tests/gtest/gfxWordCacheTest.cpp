@@ -153,6 +153,9 @@ gfxTextRun
 TIMEOUT_SECONDS
 *
 1000
+"
+FrameTextRunCache
+"
 )
 {
 }

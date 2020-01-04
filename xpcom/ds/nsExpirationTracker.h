@@ -158,6 +158,10 @@ nsExpirationTracker
 (
 uint32_t
 aTimerPeriod
+const
+char
+*
+aName
 )
 :
 mTimerPeriod
@@ -171,6 +175,10 @@ mNewestGeneration
 mInAgeOneGeneration
 (
 false
+)
+mName
+(
+aName
 )
 {
 static_assert
@@ -993,6 +1001,12 @@ mNewestGeneration
 ;
 bool
 mInAgeOneGeneration
+;
+const
+char
+*
+const
+mName
 ;
 class
 ExpirationTrackerObserver
