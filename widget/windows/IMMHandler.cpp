@@ -11509,7 +11509,7 @@ height
 -
 -
 ;
-nsIntRect
+LayoutDeviceIntRect
 clippedPluginRect
 ;
 clippedPluginRect
@@ -11648,7 +11648,7 @@ clippedPluginRect
 aWindow
 -
 >
-WidgetToScreenOffsetUntyped
+WidgetToScreenOffset
 (
 )
 ;
