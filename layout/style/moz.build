@@ -595,6 +595,11 @@ StyleSheetHandleInlines
 .
 h
 '
+'
+StyleSheetInfo
+.
+h
+'
 ]
 EXPORTS
 .
@@ -1005,6 +1010,11 @@ cpp
 '
 '
 StyleRule
+.
+cpp
+'
+'
+StyleSheetInfo
 .
 cpp
 '
