@@ -6011,9 +6011,11 @@ Services
 .
 scriptSecurityManager
 .
-getCodebasePrincipal
+createCodebasePrincipal
 (
 uri
+{
+}
 )
 ;
 }
