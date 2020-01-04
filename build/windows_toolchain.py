@@ -1565,9 +1565,9 @@ create
 -
 zip
 <
-filename
-.
-zip
+path
+-
+prefix
 >
 '
 %
@@ -1601,8 +1601,31 @@ create
 zip
 '
     
+prefix
+=
+os
+.
+path
+.
+basename
+(
+sys
+.
+argv
+[
+2
+]
+)
+    
 destzip
 =
+'
+%
+s
+.
+zip
+'
+%
 sys
 .
 argv
@@ -1615,9 +1638,7 @@ write_zip
 destzip
 prefix
 =
-'
-vs2015u1
-'
+prefix
 )
     
 sha1
