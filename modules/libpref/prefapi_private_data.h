@@ -53,6 +53,9 @@ pref_savePrefs
 PLDHashTable
 *
 aTable
+uint32_t
+*
+aPrefCount
 )
 ;
 nsresult
