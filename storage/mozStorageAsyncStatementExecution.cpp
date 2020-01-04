@@ -197,7 +197,7 @@ shouldNotify
 )
 )
 {
-RefPtr
+nsCOMPtr
 <
 mozIStorageStatementCallback
 >
@@ -295,7 +295,7 @@ shouldNotify
 mCallback
 )
 {
-RefPtr
+nsCOMPtr
 <
 mozIStorageStatementCallback
 >
