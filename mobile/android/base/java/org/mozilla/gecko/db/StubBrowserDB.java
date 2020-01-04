@@ -244,7 +244,7 @@ final
 ContentResolver
 cr
 final
-Collection
+List
 <
 String
 >
