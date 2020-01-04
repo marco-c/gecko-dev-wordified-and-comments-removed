@@ -644,6 +644,7 @@ HUFF_DECODE_FAST
 s
 nb
 htbl
+slowlabel
 )
 \
 FILL_BIT_BUFFER_FAST
@@ -814,6 +815,17 @@ nb
 \
 }
 \
+if
+(
+nb
+>
+16
+)
+\
+goto
+slowlabel
+;
+\
 s
 =
 htbl
@@ -838,8 +850,6 @@ valoffset
 nb
 ]
 )
-&
-0xFF
 ]
 ;
 \
