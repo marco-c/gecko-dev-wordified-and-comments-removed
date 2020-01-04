@@ -90,6 +90,11 @@ EXPORTS
 =
 [
 '
+FlacDemuxer
+.
+h
+'
+'
 FlacFrameParser
 .
 h
@@ -99,6 +104,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+FlacDemuxer
+.
+cpp
+'
 '
 FlacFrameParser
 .
