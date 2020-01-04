@@ -676,6 +676,9 @@ register
 animateNotifications
 :
 true
+showPanelDropmarker
+:
+true
 }
 )
 ;
@@ -1036,6 +1039,17 @@ return
 PrefObserver
 .
 animateNotifications
+;
+}
+get
+showPanelDropmarker
+(
+)
+{
+return
+PrefObserver
+.
+showPanelDropmarker
 ;
 }
 getData
