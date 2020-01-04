@@ -480,6 +480,16 @@ TYPE_OTHER
 ;
 channel
 .
+loadInfo
+.
+originAttributes
+=
+loadContext
+.
+originAttributes
+;
+channel
+.
 notificationCallbacks
 =
 loadContext
