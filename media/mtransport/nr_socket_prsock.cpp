@@ -4493,9 +4493,6 @@ CallListenerConnected
 (
 )
 ;
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 NrUdpSocketIpcProxy
