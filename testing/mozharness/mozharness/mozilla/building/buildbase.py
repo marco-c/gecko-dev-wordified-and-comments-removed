@@ -12061,6 +12061,23 @@ self
 .
 branch
         
+if
+branch
+=
+=
+'
+try
+'
+:
+            
+branch
+=
+'
+mozilla
+-
+central
+'
+        
 default_platform
 =
 self
