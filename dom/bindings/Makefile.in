@@ -63,6 +63,8 @@ topsrcdir
 dom
 /
 webidl
+ifdef
+COMPILE_ENVIRONMENT
 #
 Generated
 by
@@ -392,6 +394,7 @@ SUBMAKE
 libs
 test
 )
+endif
 GARBAGE
 +
 =
