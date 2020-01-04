@@ -838,14 +838,12 @@ message
 '
 Can
 \
-'
-t
+u2019t
 use
 \
-'
-on
+u2018on
 \
-'
+u2019
 .
 '
 }
