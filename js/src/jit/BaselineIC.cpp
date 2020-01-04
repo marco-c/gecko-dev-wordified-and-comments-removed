@@ -14945,6 +14945,16 @@ return
 false
 ;
 }
+if
+(
+op
+=
+=
+JSOP_INITHIDDENELEM
+)
+return
+true
+;
 MOZ_ASSERT
 (
 stack
