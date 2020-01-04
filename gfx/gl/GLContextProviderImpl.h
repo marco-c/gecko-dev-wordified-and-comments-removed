@@ -76,7 +76,7 @@ size
 const
 SurfaceCaps
 &
-caps
+minCaps
 CreateContextFlags
 flags
 )

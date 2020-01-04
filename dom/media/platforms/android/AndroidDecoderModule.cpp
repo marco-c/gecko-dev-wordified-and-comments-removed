@@ -541,9 +541,7 @@ get
 )
 -
 >
-GetEGLContext
-(
-)
+mContext
 ;
 EGLImage
 eglImage
