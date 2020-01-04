@@ -1,8 +1,3 @@
-var
-sloppy_tolerance
-=
-100
-;
 assertEq
 (
 Math
@@ -38,7 +33,6 @@ cosh
 30
 )
 1
-sloppy_tolerance
 )
 ;
 assertNear
@@ -52,7 +46,6 @@ cosh
 10
 )
 1
-sloppy_tolerance
 )
 ;
 var
@@ -2164,7 +2157,6 @@ cosh
 x
 )
 y
-sloppy_tolerance
 )
 ;
 for
@@ -2209,7 +2201,6 @@ i
 )
 /
 2
-sloppy_tolerance
 )
 ;
 reportCompare
