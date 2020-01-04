@@ -486,6 +486,7 @@ operator
 size_t
 aInc
 )
+const
 {
 MOZ_ASSERT
 (
@@ -542,6 +543,7 @@ operator
 size_t
 aDec
 )
+const
 {
 MOZ_ASSERT
 (
