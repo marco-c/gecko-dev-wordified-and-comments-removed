@@ -50401,6 +50401,13 @@ MIRType
 Value
 )
 {
+if
+(
+unboxedType
+=
+=
+JSVAL_TYPE_MAGIC
+)
 load
 -
 >
