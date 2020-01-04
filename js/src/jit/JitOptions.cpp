@@ -775,6 +775,12 @@ wasmTestMode
 false
 )
 ;
+SET_DEFAULT
+(
+wasmExplicitBoundsChecks
+false
+)
+;
 }
 bool
 DefaultJitOptions

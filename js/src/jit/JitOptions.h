@@ -233,6 +233,9 @@ osr
 bool
 wasmTestMode
 ;
+bool
+wasmExplicitBoundsChecks
+;
 uint32_t
 baselineWarmUpThreshold
 ;
