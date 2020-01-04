@@ -756,6 +756,14 @@ Exists
 const
 {
 return
+!
+mSeekTaskPromise
+.
+IsEmpty
+(
+)
+|
+|
 mSeekJob
 .
 Exists
