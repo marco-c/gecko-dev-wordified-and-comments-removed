@@ -500,14 +500,8 @@ userSpaceOnUse
 gradientTransform
 =
 "
-matrix
+translate
 (
-.
-91667
-0
-0
-.
-91667
 -
 1
 .
@@ -516,6 +510,11 @@ matrix
 949
 .
 332
+)
+scale
+(
+.
+91667
 )
 "
 /
