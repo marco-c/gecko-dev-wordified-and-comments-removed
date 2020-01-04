@@ -6218,6 +6218,9 @@ aFrameCount
 >
 1
 mAnimationState
+|
+|
+mError
 )
 ;
 if
