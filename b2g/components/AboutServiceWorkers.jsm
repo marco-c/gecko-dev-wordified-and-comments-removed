@@ -214,7 +214,7 @@ aServiceWorkerInfo
 .
 principal
 .
-origin
+originNoSuffix
 originAttributes
 :
 aServiceWorkerInfo
