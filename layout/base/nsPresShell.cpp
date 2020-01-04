@@ -8981,6 +8981,11 @@ nsISelectionController
 :
 :
 SCROLL_SYNCHRONOUS
+|
+nsISelectionController
+:
+:
+SCROLL_FOR_CARET_MOVE
 )
 ;
 }
@@ -9504,6 +9509,11 @@ nsISelectionController
 :
 :
 SCROLL_SYNCHRONOUS
+|
+nsISelectionController
+:
+:
+SCROLL_FOR_CARET_MOVE
 )
 ;
 }

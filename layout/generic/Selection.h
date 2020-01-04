@@ -295,6 +295,12 @@ SCROLL_OVERFLOW_HIDDEN
 <
 <
 5
+SCROLL_FOR_CARET_MOVE
+=
+1
+<
+<
+6
 }
 ;
 nsresult
