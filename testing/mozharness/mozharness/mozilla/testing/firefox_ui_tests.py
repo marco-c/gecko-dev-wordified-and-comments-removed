@@ -784,7 +784,7 @@ kwargs
         
 self
 .
-installer_url
+binary_path
 =
 self
 .
@@ -793,7 +793,7 @@ config
 get
 (
 '
-installer_url
+binary_path
 '
 )
         
@@ -809,6 +809,21 @@ get
 (
 '
 installer_path
+'
+)
+        
+self
+.
+installer_url
+=
+self
+.
+config
+.
+get
+(
+'
+installer_url
 '
 )
         
@@ -1170,30 +1185,11 @@ firefox_ui_repo
 dest
 =
 dirs
-.
-get
-(
+[
 '
 abs_test_install_dir
 '
-                          
-os
-.
-path
-.
-join
-(
-dirs
-[
-'
-abs_work_dir
-'
 ]
-'
-tests
-'
-)
-)
             
 branch
 =
@@ -1531,17 +1527,18 @@ abs_dirs
         
 abs_dirs
 =
-VCSToolsScript
+super
+(
+FirefoxUITests
+self
+)
 .
 query_abs_dirs
 (
-self
 )
         
-abs_dirs
-.
-update
-(
+dirs
+=
 {
             
 '
@@ -1564,9 +1561,52 @@ base_work_dir
 reports
 '
 )
+            
+'
+abs_test_install_dir
+'
+:
+os
+.
+path
+.
+join
+(
+abs_dirs
+[
+'
+abs_work_dir
+'
+]
+'
+tests
+'
+)
         
 }
-)
+        
+for
+key
+in
+dirs
+:
+            
+if
+key
+not
+in
+abs_dirs
+:
+                
+abs_dirs
+[
+key
+]
+=
+dirs
+[
+key
+]
         
 self
 .
@@ -2425,20 +2465,25 @@ config_options
 or
 firefox_ui_update_config_options
         
-FirefoxUITests
+super
+(
+FirefoxUIUpdateTests
+self
+)
 .
 __init__
 (
-self
+            
 config_options
 =
 config_options
-                                
+            
 *
 args
 *
 *
 kwargs
+        
 )
     
 def
@@ -2465,11 +2510,14 @@ arguments
 "
         
 return
-FirefoxUITests
+super
+(
+FirefoxUIUpdateTests
+self
+)
 .
 query_harness_args
 (
-self
-                                                 
+            
 firefox_ui_update_harness_config_options
 )

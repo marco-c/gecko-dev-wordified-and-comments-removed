@@ -449,26 +449,31 @@ tests
         
 ]
         
-FirefoxUIUpdateTests
+super
+(
+ReleaseFirefoxUIUpdateTests
+self
+)
 .
 __init__
 (
-self
+            
 all_actions
 =
 all_actions
-                                      
+            
 default_actions
 =
 all_actions
-                                      
+            
 config_options
 =
 firefox_ui_update_release_config_options
-                                      
+            
 append_env_variables_from_configs
 =
 True
+        
 )
         
 self
@@ -600,11 +605,14 @@ query_abs_dirs
 (
 )
         
-FirefoxUIUpdateTests
+super
+(
+ReleaseFirefoxUIUpdateTests
+self
+)
 .
 checkout
 (
-self
 )
         
 self
@@ -661,17 +669,18 @@ abs_dirs
         
 abs_dirs
 =
-FirefoxUIUpdateTests
+super
+(
+ReleaseFirefoxUIUpdateTests
+self
+)
 .
 query_abs_dirs
 (
-self
 )
         
-abs_dirs
-.
-update
-(
+dirs
+=
 {
             
 '
@@ -696,7 +705,29 @@ tools
 )
         
 }
-)
+        
+for
+key
+in
+dirs
+:
+            
+if
+key
+not
+in
+abs_dirs
+:
+                
+abs_dirs
+[
+key
+]
+=
+dirs
+[
+key
+]
         
 self
 .
