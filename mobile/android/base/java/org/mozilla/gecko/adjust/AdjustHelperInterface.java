@@ -47,4 +47,14 @@ Intent
 intent
 )
 ;
+void
+onResume
+(
+)
+;
+void
+onPause
+(
+)
+;
 }
