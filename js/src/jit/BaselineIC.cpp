@@ -29508,6 +29508,12 @@ native
 =
 =
 ArrayConstructor
+|
+|
+native
+=
+=
+array_construct
 )
 {
 size_t

@@ -13418,7 +13418,7 @@ JS_INLINABLE_FN
 "
 std_Array
 "
-ArrayConstructor
+array_construct
 1
 0
 Array
