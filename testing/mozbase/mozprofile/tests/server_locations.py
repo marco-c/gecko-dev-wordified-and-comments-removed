@@ -691,6 +691,7 @@ name
         
 except
 LocationsSyntaxError
+as
 e
 :
             
@@ -755,6 +756,7 @@ name
         
 except
 LocationsSyntaxError
+as
 e
 :
             

@@ -991,6 +991,7 @@ communicate
         
 except
 Exception
+as
 exc
 :
             
@@ -10030,6 +10031,7 @@ entry
                     
 except
 ADBError
+as
 e
 :
                         
@@ -11984,6 +11986,7 @@ path
         
 except
 ADBError
+as
 e
 :
             
@@ -12969,6 +12972,7 @@ root
             
 except
 ADBError
+as
 e
 :
                 
@@ -13391,6 +13395,7 @@ root
         
 except
 ADBError
+as
 e
 :
             
