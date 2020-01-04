@@ -1574,7 +1574,8 @@ Now
 (
 )
 ;
-mIsFirst
+auto
+isFirst
 =
 CubebUtils
 :
@@ -1711,6 +1712,7 @@ OpenCubeb
 (
 params
 startTime
+isFirst
 )
 ;
 }
@@ -1725,6 +1727,8 @@ cubeb_stream_params
 aParams
 TimeStamp
 aStartTime
+bool
+aIsFirst
 )
 {
 cubeb
@@ -1861,7 +1865,7 @@ sfirst
 u
 ms
 "
-mIsFirst
+aIsFirst
 ?
 "
 "
@@ -1884,7 +1888,7 @@ Telemetry
 :
 Accumulate
 (
-mIsFirst
+aIsFirst
 ?
 Telemetry
 :

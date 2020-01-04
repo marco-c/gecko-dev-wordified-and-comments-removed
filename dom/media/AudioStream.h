@@ -1088,6 +1088,8 @@ cubeb_stream_params
 aParams
 TimeStamp
 aStartTime
+bool
+aIsFirst
 )
 ;
 static
@@ -1275,9 +1277,6 @@ SHUTDOWN
 ;
 StreamState
 mState
-;
-bool
-mIsFirst
 ;
 DataSource
 &
