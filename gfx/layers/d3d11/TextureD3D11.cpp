@@ -4638,7 +4638,7 @@ map
 .
 mStride
 *
-mSize
+rect
 .
 height
 )
