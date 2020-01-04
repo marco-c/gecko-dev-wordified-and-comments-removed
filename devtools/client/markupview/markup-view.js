@@ -49,11 +49,6 @@ NEW_SELECTION_HIGHLIGHTER_TIMER
 1000
 ;
 const
-GRAB_DELAY
-=
-400
-;
-const
 DRAG_DROP_AUTOSCROLL_EDGE_DISTANCE
 =
 50
@@ -906,6 +901,9 @@ prototype
 CONTAINER_FLASHING_DURATION
 :
 500
+GRAB_DELAY
+:
+400
 _selectedContainer
 :
 null
@@ -3990,6 +3988,15 @@ type
 =
 "
 childList
+"
+|
+|
+type
+=
+=
+=
+"
+nativeAnonymousChildList
 "
 )
 {
@@ -8886,6 +8893,8 @@ closeTagLine
 )
 ;
 }
+this
+.
 GRAB_DELAY
 )
 ;

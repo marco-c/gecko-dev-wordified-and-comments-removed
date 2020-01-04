@@ -17,7 +17,7 @@ html
 const
 GRAB_DELAY
 =
-400
+5
 ;
 add_task
 (
@@ -41,6 +41,14 @@ then
 (
 openInspector
 )
+;
+inspector
+.
+markup
+.
+GRAB_DELAY
+=
+GRAB_DELAY
 ;
 info
 (
