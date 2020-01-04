@@ -36,6 +36,7 @@ resource
 :
 /
 /
+gre
 /
 modules
 /
@@ -70,7 +71,7 @@ example
 .
 com
 "
-shareURL
+sidebarURL
 :
 "
 https
@@ -93,7 +94,7 @@ test
 /
 social
 /
-social_share
+social_sidebar_empty
 .
 html
 "
@@ -149,7 +150,7 @@ example
 .
 com
 "
-shareURL
+sidebarURL
 :
 "
 https
@@ -174,7 +175,7 @@ test
 /
 social
 /
-social_share
+social_sidebar_empty
 .
 html
 "
@@ -239,7 +240,7 @@ example
 .
 com
 "
-shareURL
+sidebarURL
 :
 "
 https
@@ -264,7 +265,7 @@ test
 /
 social
 /
-social_share
+social_sidebar
 .
 html
 "

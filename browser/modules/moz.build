@@ -157,6 +157,11 @@ CastingApps
 jsm
 '
 '
+Chat
+.
+jsm
+'
+'
 ContentClick
 .
 jsm
@@ -278,11 +283,6 @@ jsm
 '
 '
 Social
-.
-jsm
-'
-'
-SocialService
 .
 jsm
 '
