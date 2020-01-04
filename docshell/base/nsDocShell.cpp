@@ -1827,6 +1827,15 @@ uri
 )
 )
 ;
+if
+(
+!
+uri
+)
+{
+continue
+;
+}
 bool
 isDataScheme
 =
