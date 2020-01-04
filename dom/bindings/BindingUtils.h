@@ -7063,6 +7063,10 @@ cache
 if
 (
 !
+parent
+|
+|
+!
 useXBLScope
 )
 {
