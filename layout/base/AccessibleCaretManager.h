@@ -238,6 +238,12 @@ OnKeyboardEvent
 (
 )
 ;
+virtual
+void
+OnFrameReconstruction
+(
+)
+;
 protected
 :
 enum

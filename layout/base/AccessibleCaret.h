@@ -323,6 +323,11 @@ GetContentNode
 )
 ;
 }
+void
+EnsureApzAware
+(
+)
+;
 protected
 :
 void
