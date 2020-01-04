@@ -475,15 +475,6 @@ SourceMediaStream
 aStream
 )
 ;
-static
-void
-MarkConsumed
-(
-MediaStream
-*
-aStream
-)
-;
 void
 AudioContextOperationCompleted
 (
