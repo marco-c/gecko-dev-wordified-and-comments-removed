@@ -3495,9 +3495,6 @@ keyCode
 charCode
 :
 charCode
-modifiers
-:
-modifiers
 repeat
 :
 repeat
