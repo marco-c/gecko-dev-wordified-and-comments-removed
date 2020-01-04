@@ -193,6 +193,17 @@ permission
 ;
 [
 Throws
+Pref
+=
+"
+dom
+.
+permissions
+.
+revoke
+.
+enable
+"
 ]
 Promise
 <
