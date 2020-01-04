@@ -795,6 +795,11 @@ SizeOfExcludingThis
 aMallocSizeOf
 )
 ;
+if
+(
+mBuffer
+)
+{
 amount
 +
 =
@@ -806,6 +811,7 @@ SizeOfIncludingThis
 aMallocSizeOf
 )
 ;
+}
 return
 amount
 ;
