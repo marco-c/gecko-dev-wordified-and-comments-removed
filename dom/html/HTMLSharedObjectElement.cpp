@@ -1267,16 +1267,7 @@ capabilities
 eSupportSVG
 |
 eSupportImages
-;
-}
-if
-(
-mRewrittenYoutubeEmbed
-)
-{
-capabilities
 |
-=
 eSupportDocuments
 ;
 }
