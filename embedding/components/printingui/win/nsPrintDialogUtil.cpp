@@ -2142,8 +2142,8 @@ autoPrinter
 hPrinter
 )
 ;
-DWORD
-dwNeeded
+LONG
+needed
 =
 :
 :
@@ -2159,9 +2159,8 @@ nullptr
 ;
 if
 (
-dwNeeded
-=
-=
+needed
+<
 0
 )
 {
@@ -2190,7 +2189,7 @@ GetProcessHeap
 (
 )
 HEAP_ZERO_MEMORY
-dwNeeded
+needed
 )
 )
 ;
@@ -2217,7 +2216,7 @@ hDevMode
 GlobalAlloc
 (
 GHND
-dwNeeded
+needed
 )
 ;
 nsAutoGlobalMem
@@ -2241,8 +2240,8 @@ nsHGLOBAL
 )
 ;
 }
-DWORD
-dwRet
+LONG
+ret
 =
 :
 :
@@ -2258,7 +2257,7 @@ DM_OUT_BUFFER
 ;
 if
 (
-dwRet
+ret
 !
 =
 IDOK
@@ -2310,7 +2309,7 @@ newDevMode
 get
 (
 )
-dwNeeded
+needed
 )
 ;
 nsCOMPtr
@@ -2337,7 +2336,7 @@ CopyToNative
 devMode
 )
 ;
-dwRet
+ret
 =
 :
 :
@@ -2355,7 +2354,7 @@ DM_OUT_BUFFER
 ;
 if
 (
-dwRet
+ret
 !
 =
 IDOK
