@@ -306,6 +306,15 @@ alertTitleBox
 "
 >
 <
+image
+id
+=
+"
+alertIcon
+"
+/
+>
+<
 label
 id
 =
