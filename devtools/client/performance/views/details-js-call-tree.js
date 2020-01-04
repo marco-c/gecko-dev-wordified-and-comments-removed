@@ -371,15 +371,6 @@ optimizations
 )
 ;
 let
-recording
-=
-PerformanceController
-.
-getCurrentRecording
-(
-)
-;
-let
 frameNode
 =
 treeItem

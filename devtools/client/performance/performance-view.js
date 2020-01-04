@@ -1001,9 +1001,9 @@ document
 .
 querySelectorAll
 (
-'
+"
 iframe
-'
+"
 )
 ;
 for

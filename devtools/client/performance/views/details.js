@@ -347,7 +347,6 @@ for
 (
 let
 [
-_
 component
 ]
 of
@@ -799,8 +798,6 @@ waterfall
 )
 ;
 }
-else
-{
 return
 this
 .
@@ -813,7 +810,6 @@ calltree
 "
 )
 ;
-}
 }
 isViewSelected
 :

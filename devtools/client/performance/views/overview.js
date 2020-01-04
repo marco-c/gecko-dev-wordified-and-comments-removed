@@ -1216,10 +1216,6 @@ markers
 {
 let
 graph
-;
-if
-(
-graph
 =
 yield
 this
@@ -1232,6 +1228,10 @@ isAvailable
 timeline
 "
 )
+;
+if
+(
+graph
 )
 {
 let
@@ -1522,8 +1522,6 @@ _hideGraphsPanel
 return
 ;
 }
-else
-{
 this
 .
 _showGraphsPanel
@@ -1531,7 +1529,6 @@ _showGraphsPanel
 recording
 )
 ;
-}
 }
 if
 (

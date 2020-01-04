@@ -144,11 +144,14 @@ afterRenderFn
 )
 =
 >
+{
 this
 .
 _wasRendered
 =
 true
+;
+}
 ;
 this
 .
