@@ -145,8 +145,6 @@ mDeferredTasks
 )
 ;
 }
-public
-:
 virtual
 WheelScrollAnimation
 *
@@ -156,6 +154,16 @@ AsWheelScrollAnimation
 {
 return
 nullptr
+;
+}
+virtual
+bool
+WantsRepaints
+(
+)
+{
+return
+true
 ;
 }
 protected
