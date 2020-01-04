@@ -545,6 +545,16 @@ negative
 /
 hidden
 |
+^
+hid
+|
+hid
+|
+hid
+|
+^
+hid
+|
 banner
 |
 combx
