@@ -8179,12 +8179,6 @@ backgroundClip
 !
 =
 NS_STYLE_IMAGELAYER_CLIP_BORDER
-&
-&
-backgroundClip
-!
-=
-NS_STYLE_IMAGELAYER_CLIP_TEXT
 )
 {
 nsMargin
