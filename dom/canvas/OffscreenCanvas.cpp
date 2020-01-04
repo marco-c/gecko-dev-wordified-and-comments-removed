@@ -395,6 +395,14 @@ if
 mCanvasRenderer
 )
 {
+if
+(
+mCanvasRenderer
+-
+>
+mGLContext
+)
+{
 nsCOMPtr
 <
 nsIThread
@@ -430,6 +438,7 @@ MOZ_RELEASE_ASSERT
 current
 )
 ;
+}
 mCanvasRenderer
 -
 >
