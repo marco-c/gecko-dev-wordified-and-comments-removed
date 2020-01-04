@@ -96,6 +96,11 @@ MPL
 DevToolsModules
 (
 '
+ImageTooltipHelper
+.
+js
+'
+'
 TooltipToggle
 .
 js
