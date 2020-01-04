@@ -1223,7 +1223,7 @@ aStart
 Copy
 :
 :
-CopyOverlappingRegion
+MoveOverlappingRegion
 (
 baseAddr
 +
