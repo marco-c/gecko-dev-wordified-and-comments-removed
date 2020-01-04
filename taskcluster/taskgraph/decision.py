@@ -129,7 +129,7 @@ try_option_syntax
 optimize_target_tasks
 '
 :
-False
+True
     
 }
     
@@ -166,7 +166,7 @@ target_tasks_method
 '
 :
 '
-all_builds_and_tests
+default
 '
         
 '
