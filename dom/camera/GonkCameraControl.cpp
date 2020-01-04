@@ -4672,7 +4672,7 @@ SetThumbnailSize
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
@@ -5189,7 +5189,7 @@ SetPictureSize
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
@@ -6662,7 +6662,7 @@ aExpired
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
@@ -10782,7 +10782,7 @@ mDstLength
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )

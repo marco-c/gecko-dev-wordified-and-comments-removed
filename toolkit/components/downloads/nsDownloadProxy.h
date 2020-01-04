@@ -93,7 +93,7 @@ nsDownloadProxy
 {
 }
 NS_DECL_ISUPPORTS
-NS_IMETHODIMP
+NS_IMETHOD
 Init
 (
 nsIURI
@@ -353,7 +353,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 OnStateChange
 (
 nsIWebProgress
@@ -388,7 +388,7 @@ aStatus
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 OnStatusChange
 (
 nsIWebProgress
@@ -425,7 +425,7 @@ aMessage
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 OnLocationChange
 (
 nsIWebProgress
@@ -461,7 +461,7 @@ aFlags
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 OnProgressChange
 (
 nsIWebProgress
@@ -502,7 +502,7 @@ aMaxTotalProgress
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 OnProgressChange64
 (
 nsIWebProgress
@@ -543,7 +543,7 @@ aMaxTotalProgress
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 OnRefreshAttempted
 (
 nsIWebProgress
@@ -571,7 +571,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 OnSecurityChange
 (
 nsIWebProgress
@@ -603,7 +603,7 @@ aState
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 SetSha256Hash
 (
 const
@@ -629,7 +629,7 @@ aHash
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 SetSignatureInfo
 (
 nsIArray
@@ -654,7 +654,7 @@ aSignatureInfo
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 SetRedirects
 (
 nsIArray

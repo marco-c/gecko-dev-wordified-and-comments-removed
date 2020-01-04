@@ -289,7 +289,7 @@ aTitle
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 SetTitle
 (
 const
@@ -336,7 +336,7 @@ aLang
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 SetLang
 (
 const

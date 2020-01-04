@@ -2106,7 +2106,7 @@ nsIObserver
 public
 :
 NS_DECL_ISUPPORTS
-NS_IMETHODIMP
+NS_IMETHOD
 Observe
 (
 nsISupports

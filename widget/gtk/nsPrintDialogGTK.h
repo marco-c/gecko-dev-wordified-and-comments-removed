@@ -43,13 +43,13 @@ nsPrintDialogServiceGTK
 )
 ;
 NS_DECL_ISUPPORTS
-NS_IMETHODIMP
+NS_IMETHOD
 Init
 (
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 Show
 (
 nsPIDOMWindowOuter
@@ -64,7 +64,7 @@ aWebBrowserPrint
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 ShowPageSetup
 (
 nsPIDOMWindowOuter

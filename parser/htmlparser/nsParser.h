@@ -431,7 +431,7 @@ nsACString
 aCharset
 )
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 CancelParsingEvents
 (
 )

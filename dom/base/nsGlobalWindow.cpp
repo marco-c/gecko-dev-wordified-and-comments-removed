@@ -2826,7 +2826,7 @@ mWindow
 nullptr
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 GetInterface
 (
 const

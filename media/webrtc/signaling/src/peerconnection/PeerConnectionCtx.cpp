@@ -246,7 +246,7 @@ void
 rv
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Observe
 (
 nsISupports

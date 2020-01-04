@@ -103,7 +103,7 @@ BrowseOperator
 aContext
 )
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
@@ -203,7 +203,7 @@ RegisterOperator
 aContext
 )
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
@@ -310,7 +310,7 @@ ResolveReplyRunnable
 (
 )
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
@@ -436,7 +436,7 @@ GetAddrInfoReplyRunnable
 (
 )
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )

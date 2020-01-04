@@ -419,7 +419,7 @@ BuildModel
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 CancelParsingEvents
 (
 )

@@ -3336,7 +3336,7 @@ chan
 {
 }
 NS_DECL_ISUPPORTS
-NS_IMETHODIMP
+NS_IMETHOD
 OnStartRequest
 (
 nsIRequest
@@ -3359,7 +3359,7 @@ aContext
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 OnStopRequest
 (
 nsIRequest
@@ -3430,7 +3430,7 @@ aStatusCode
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 OnDataAvailable
 (
 nsIRequest

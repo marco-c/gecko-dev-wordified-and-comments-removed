@@ -2718,7 +2718,7 @@ NS_ERROR_FAILURE
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 OnLookupComplete
 (
 nsICancelable
@@ -2765,7 +2765,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Notify
 (
 nsITimer

@@ -2808,7 +2808,7 @@ aPromiseProxy
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )

@@ -10663,7 +10663,7 @@ true
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 GetTypes
 (
 nsIArray

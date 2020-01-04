@@ -789,7 +789,7 @@ aMode
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 GetMode
 (
 int32_t
@@ -807,7 +807,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 GetAppId
 (
 uint32_t

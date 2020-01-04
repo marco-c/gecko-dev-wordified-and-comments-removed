@@ -2205,7 +2205,7 @@ aContent
 {
 }
 NS_DECL_ISUPPORTS
-NS_IMETHODIMP
+NS_IMETHOD
 Notify
 (
 nsITimer

@@ -319,7 +319,7 @@ IntrinsicState
 const
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 Notify
 (
 imgIRequest

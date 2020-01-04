@@ -909,7 +909,7 @@ forget
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 GetFile
 (
 const
@@ -1133,7 +1133,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 GetFiles
 (
 const

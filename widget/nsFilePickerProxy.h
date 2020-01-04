@@ -91,7 +91,7 @@ nsFilePickerProxy
 )
 ;
 NS_DECL_ISUPPORTS
-NS_IMETHODIMP
+NS_IMETHOD
 Init
 (
 mozIDOMWindowProxy
@@ -106,7 +106,7 @@ aMode
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 AppendFilter
 (
 const
@@ -120,7 +120,7 @@ aFilter
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 GetDefaultString
 (
 nsAString
@@ -129,7 +129,7 @@ aDefaultString
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 SetDefaultString
 (
 const
@@ -139,7 +139,7 @@ aDefaultString
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 GetDefaultExtension
 (
 nsAString
@@ -148,7 +148,7 @@ aDefaultExtension
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 SetDefaultExtension
 (
 const
@@ -158,7 +158,7 @@ aDefaultExtension
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 GetFilterIndex
 (
 int32_t
@@ -167,7 +167,7 @@ aFilterIndex
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 SetFilterIndex
 (
 int32_t
@@ -175,7 +175,7 @@ aFilterIndex
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 GetFile
 (
 nsIFile
@@ -185,7 +185,7 @@ aFile
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 GetFileURL
 (
 nsIURI
@@ -195,7 +195,7 @@ aFileURL
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 GetFiles
 (
 nsISimpleEnumerator
@@ -205,7 +205,7 @@ aFiles
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 GetDomFileOrDirectory
 (
 nsISupports
@@ -215,7 +215,7 @@ aValue
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 GetDomFileOrDirectoryEnumerator
 (
 nsISimpleEnumerator
@@ -225,7 +225,7 @@ aValue
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 Show
 (
 int16_t
@@ -234,7 +234,7 @@ aReturn
 )
 override
 ;
-NS_IMETHODIMP
+NS_IMETHOD
 Open
 (
 nsIFilePickerShownCallback

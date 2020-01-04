@@ -71,7 +71,7 @@ txAExprResult
 ;
 }
 NS_DECL_ISUPPORTS
-NS_IMETHODIMP_
+NS_IMETHOD_
 (
 txAExprResult
 *

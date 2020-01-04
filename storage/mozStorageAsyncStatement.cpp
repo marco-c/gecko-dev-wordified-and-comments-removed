@@ -168,7 +168,7 @@ AsyncStatementClassInfo
 {
 }
 NS_DECL_ISUPPORTS_INHERITED
-NS_IMETHODIMP
+NS_IMETHOD
 GetInterfaces
 (
 uint32_t
@@ -193,7 +193,7 @@ _array
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 GetScriptableHelper
 (
 nsIXPCScriptable
@@ -217,7 +217,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 GetContractID
 (
 char
@@ -236,7 +236,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 GetClassDescription
 (
 char
@@ -255,7 +255,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 GetClassID
 (
 nsCID
@@ -274,7 +274,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 GetFlags
 (
 uint32_t
@@ -292,7 +292,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 GetClassIDNoAlloc
 (
 nsCID

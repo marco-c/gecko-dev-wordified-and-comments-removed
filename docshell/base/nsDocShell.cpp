@@ -18267,10 +18267,12 @@ uint64_t
 16
 >
 ids
+;
+ids
+.
+AppendElement
 (
-{
 mHistoryID
-}
 )
 ;
 internalHistory
@@ -37872,7 +37874,7 @@ aInPrivateBrowsing
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 OnComplete
 (
 nsIURI
