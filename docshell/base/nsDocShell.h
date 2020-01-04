@@ -2284,9 +2284,6 @@ mName
 nsString
 mTitle
 ;
-nsString
-mCustomUserAgent
-;
 nsCString
 mContentTypeHint
 ;

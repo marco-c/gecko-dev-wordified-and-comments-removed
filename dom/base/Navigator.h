@@ -562,11 +562,6 @@ nsAString
 aUserAgent
 )
 ;
-void
-ClearUserAgentCache
-(
-)
-;
 already_AddRefed
 <
 Promise
