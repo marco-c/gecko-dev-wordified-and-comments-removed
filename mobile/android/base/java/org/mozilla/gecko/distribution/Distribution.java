@@ -617,16 +617,17 @@ shouldDelayLateCallbacks
 =
 false
 ;
-WorkerThread
 public
 interface
 ReadyCallback
 {
+WorkerThread
 void
 distributionNotFound
 (
 )
 ;
+WorkerThread
 void
 distributionFound
 (
@@ -634,6 +635,7 @@ Distribution
 distribution
 )
 ;
+WorkerThread
 void
 distributionArrivedLate
 (
