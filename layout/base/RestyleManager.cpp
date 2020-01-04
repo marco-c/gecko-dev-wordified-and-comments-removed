@@ -17207,7 +17207,7 @@ if
 oldContext
 -
 >
-HasCachedInheritedStyleData
+HasCachedDependentStyleData
 (
 sid
 )

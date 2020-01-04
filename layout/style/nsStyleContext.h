@@ -873,7 +873,7 @@ STYLE_STRUCT_RESET
 undef
 STYLE_STRUCT_INHERITED
 bool
-HasCachedInheritedStyleData
+HasCachedDependentStyleData
 (
 nsStyleStructID
 aSID

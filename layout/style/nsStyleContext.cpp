@@ -7069,7 +7069,7 @@ data
 ;
 if
 (
-HasCachedInheritedStyleData
+HasCachedDependentStyleData
 (
 i
 )
