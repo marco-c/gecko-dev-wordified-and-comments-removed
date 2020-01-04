@@ -170,6 +170,16 @@ FOO
 '
 foo
 '
+JAR_MANIFESTS
++
+=
+[
+'
+jar
+.
+mn
+'
+]
 DIRS
 +
 =
