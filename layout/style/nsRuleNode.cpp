@@ -37313,10 +37313,7 @@ mPercent
 nsStyleImageLayers
 :
 :
-Position
-:
-:
-GetInitialValue
+GetInitialPositionForLayerType
 (
 nsStyleImageLayers
 :
@@ -51821,10 +51818,7 @@ mPercent
 nsStyleImageLayers
 :
 :
-Position
-:
-:
-GetInitialValue
+GetInitialPositionForLayerType
 (
 nsStyleImageLayers
 :
