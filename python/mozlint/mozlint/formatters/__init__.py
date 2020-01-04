@@ -11,11 +11,6 @@ from
 stylish
 import
 StylishFormatter
-from
-.
-treeherder
-import
-TreeherderFormatter
 class
 JSONFormatter
 (
@@ -56,12 +51,6 @@ stylish
 '
 :
 StylishFormatter
-    
-'
-treeherder
-'
-:
-TreeherderFormatter
 }
 def
 get
