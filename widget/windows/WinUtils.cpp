@@ -5987,7 +5987,7 @@ if
 mURLShortcut
 )
 {
-SendMessage
+SendNotifyMessage
 (
 HWND_BROADCAST
 WM_SETTINGCHANGE
