@@ -460,6 +460,11 @@ src
 /
 lib_json
 '
+'
+minidump
+-
+analyzer
+'
 ]
 if
 CONFIG
