@@ -143,6 +143,11 @@ HRTFPanner
 cpp
 '
 '
+IIRFilter
+.
+cpp
+'
+'
 PeriodicWave
 .
 cpp
