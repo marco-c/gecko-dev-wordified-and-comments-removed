@@ -18,6 +18,11 @@ Filters
 .
 h
 "
+#
+include
+<
+memory
+>
 class
 nsITreeView
 ;
@@ -54,7 +59,10 @@ friend
 class
 Relation
 ;
-nsAutoPtr
+std
+:
+:
+unique_ptr
 <
 AccIterable
 >
