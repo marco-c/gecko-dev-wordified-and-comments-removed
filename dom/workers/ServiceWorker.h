@@ -147,11 +147,6 @@ ServiceWorkerState
 aState
 )
 {
-SetState
-(
-aState
-)
-;
 DOMEventTargetHelper
 :
 :
@@ -166,13 +161,6 @@ statechange
 )
 ;
 }
-void
-QueueStateChangeEvent
-(
-ServiceWorkerState
-aState
-)
-;
 #
 ifdef
 XP_WIN
