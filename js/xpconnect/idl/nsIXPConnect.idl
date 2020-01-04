@@ -3282,16 +3282,6 @@ notxpcom
 nostdcall
 ]
 JSContextPtr
-getCurrentJSContext
-(
-)
-;
-[
-noscript
-notxpcom
-nostdcall
-]
-JSContextPtr
 getSafeJSContext
 (
 )
