@@ -4287,7 +4287,35 @@ value
 phase_duration
                     
 }
+                
+]
+                
+cpu_percent
+=
+rm
+.
+aggregate_cpu_percent
+(
+phase
+=
+phase
+                                                       
+per_cpu
+=
+False
+)
+                
+if
+cpu_percent
+is
+not
+None
+:
                     
+subtests
+.
+append
+(
 {
                         
 '
@@ -4316,8 +4344,7 @@ False
 )
                     
 }
-                
-]
+)
                 
 suites
 .
