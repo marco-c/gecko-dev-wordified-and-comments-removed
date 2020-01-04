@@ -1950,7 +1950,7 @@ GetSystemPrincipal
 nsILoadInfo
 :
 :
-SEC_NORMAL
+SEC_ALLOW_CROSS_ORIGIN_DATA_IS_NULL
 nsIContentPolicy
 :
 :
@@ -2048,10 +2048,9 @@ return
 channel
 -
 >
-AsyncOpen
+AsyncOpen2
 (
 listener
-nullptr
 )
 ;
 }
@@ -2152,7 +2151,7 @@ GetSystemPrincipal
 nsILoadInfo
 :
 :
-SEC_NORMAL
+SEC_ALLOW_CROSS_ORIGIN_DATA_IS_NULL
 nsIContentPolicy
 :
 :
@@ -2194,7 +2193,7 @@ rv
 chan
 -
 >
-Open
+Open2
 (
 getter_AddRefs
 (
@@ -3820,7 +3819,7 @@ GetSystemPrincipal
 nsILoadInfo
 :
 :
-SEC_NORMAL
+SEC_ALLOW_CROSS_ORIGIN_DATA_IS_NULL
 nsIContentPolicy
 :
 :
@@ -3887,10 +3886,9 @@ rv
 channel
 -
 >
-AsyncOpen
+AsyncOpen2
 (
 listener
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS
