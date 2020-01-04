@@ -62,6 +62,15 @@ include
 "
 mozilla
 /
+StaticPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
@@ -1897,8 +1906,10 @@ mallocSizeOf
 const
 ;
 static
+StaticRefPtr
+<
 CacheFileIOManager
-*
+>
 gInstance
 ;
 TimeStamp
