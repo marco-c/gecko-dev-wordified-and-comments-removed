@@ -299,7 +299,7 @@ systemPrincipal
 nsILoadInfo
 :
 :
-SEC_NORMAL
+SEC_ALLOW_CROSS_ORIGIN_DATA_IS_NULL
 nsIContentPolicy
 :
 :
@@ -321,7 +321,7 @@ ret
 channel
 -
 >
-Open
+Open2
 (
 &
 in
