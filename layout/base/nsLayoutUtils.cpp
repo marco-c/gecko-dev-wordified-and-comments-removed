@@ -36085,9 +36085,11 @@ rv
 !
 imgRequest
 )
+{
 return
 result
 ;
+}
 uint32_t
 status
 ;
@@ -36172,9 +36174,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 result
 ;
+}
 nsCOMPtr
 <
 imgIContainer
@@ -36201,9 +36205,11 @@ NS_FAILED
 rv
 )
 )
+{
 return
 result
 ;
+}
 uint32_t
 noRasterize
 =
