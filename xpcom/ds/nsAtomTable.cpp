@@ -2146,7 +2146,7 @@ aMallocSizeOf
 #
 define
 ATOM_HASHTABLE_INITIAL_LENGTH
-2048
+4096
 static
 inline
 void
