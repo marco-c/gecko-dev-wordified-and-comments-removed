@@ -1,3 +1,13 @@
+thisTestLeaksUncaughtRejectionsAndShouldBeFixed
+(
+"
+[
+object
+Object
+]
+"
+)
+;
 const
 TAB_URL
 =
