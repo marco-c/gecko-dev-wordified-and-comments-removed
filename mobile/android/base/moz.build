@@ -2061,6 +2061,13 @@ java
 '
 delegates
 /
+OfflineTabStatusDelegate
+.
+java
+'
+'
+delegates
+/
 ScreenshotDelegate
 .
 java
