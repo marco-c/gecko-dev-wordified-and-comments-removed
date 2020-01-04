@@ -465,13 +465,6 @@ DecodedStream
 ;
 private
 :
-ReentrantMonitor
-&
-GetReentrantMonitor
-(
-)
-const
-;
 void
 CreateData
 (
@@ -574,10 +567,6 @@ mOutputStreamManager
 ;
 bool
 mShuttingDown
-;
-mutable
-ReentrantMonitor
-mMonitor
 ;
 UniquePtr
 <
