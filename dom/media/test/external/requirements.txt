@@ -126,16 +126,6 @@ driver
 2
 .
 0
-marionette
--
-transport
-=
-=
-1
-.
-1
-.
-0
 firefox
 -
 puppeteer
