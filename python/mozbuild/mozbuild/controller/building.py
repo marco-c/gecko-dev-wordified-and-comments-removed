@@ -1577,7 +1577,13 @@ json
 .
 dump
 (
-usage
+self
+.
+resources
+.
+as_dict
+(
+)
 fh
 indent
 =

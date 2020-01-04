@@ -5515,12 +5515,12 @@ cpulen
 )
             
 for
-tier
+phase
 in
 resources
 [
 '
-tiers
+phases
 '
 ]
 :
@@ -5538,8 +5538,8 @@ self
 .
 _get_resource_usage
 (
-tier
-tier
+phase
+phase
 [
 '
 name
@@ -5556,7 +5556,7 @@ duration
 '
 not
 in
-tier
+phase
 :
                     
 self
@@ -5588,7 +5588,7 @@ append
 name
 '
 :
-tier
+phase
 [
 '
 name
@@ -5599,7 +5599,7 @@ name
 value
 '
 :
-tier
+phase
 [
 '
 duration
