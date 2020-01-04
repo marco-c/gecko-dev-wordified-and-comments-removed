@@ -394,6 +394,7 @@ void
 *
 p
 )
+override
 ;
 \
 NS_IMETHOD
@@ -406,7 +407,14 @@ nsCycleCollectionTraversalCallback
 &
 cb
 )
+\
+override
 ;
+\
+NS_DECL_CYCLE_COLLECTION_CLASS_NAME_METHOD
+(
+_class
+)
 \
 NS_IMETHOD_
 (
@@ -418,6 +426,7 @@ void
 *
 p
 )
+override
 \
 {
 \
