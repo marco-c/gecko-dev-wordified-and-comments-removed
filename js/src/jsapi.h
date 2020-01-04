@@ -3535,10 +3535,6 @@ ctor
 /
 #
 define
-JSFUN_GENERIC_NATIVE
-0x800
-#
-define
 JSFUN_HAS_REST
 0x1000
 /
