@@ -147,6 +147,12 @@ test
 '
                 
 '
+valgrind
+-
+test
+'
+                
+'
 package
 -
 source
