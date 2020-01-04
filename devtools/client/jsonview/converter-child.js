@@ -301,7 +301,11 @@ get
 wrappedJSObject
 (
 )
+{
+return
 this
+;
+}
 convert
 :
 function
