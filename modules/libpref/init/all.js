@@ -1554,7 +1554,7 @@ dormant
 .
 timeout
 "
-10000
+60000
 )
 ;
 #
@@ -40174,6 +40174,16 @@ mapped_arraybuffer
 enabled
 "
 true
+)
+;
+pref
+(
+"
+dom
+.
+fire_extra_xhr_loading_readystatechanges
+"
+false
 )
 ;
 pref
