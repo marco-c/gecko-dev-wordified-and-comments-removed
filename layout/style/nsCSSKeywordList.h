@@ -1539,11 +1539,6 @@ ease_out
 )
 CSS_KEY
 (
-economy
-economy
-)
-CSS_KEY
-(
 element
 element
 )
@@ -1593,11 +1588,6 @@ CSS_KEY
 (
 ex
 ex
-)
-CSS_KEY
-(
-exact
-exact
 )
 CSS_KEY
 (
