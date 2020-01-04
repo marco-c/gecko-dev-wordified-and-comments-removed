@@ -1398,6 +1398,14 @@ OverscrollHandoffChain
 >
 &
 aOverscrollHandoffChain
+const
+RefPtr
+<
+const
+AsyncPanZoomController
+>
+&
+aScrolledApzc
 )
 ;
 void

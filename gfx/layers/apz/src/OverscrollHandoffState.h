@@ -326,6 +326,13 @@ mChain
 bool
 mIsHandoff
 ;
+RefPtr
+<
+const
+AsyncPanZoomController
+>
+mScrolledApzc
+;
 }
 ;
 }
