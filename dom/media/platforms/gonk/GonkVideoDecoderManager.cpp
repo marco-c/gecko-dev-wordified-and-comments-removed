@@ -795,13 +795,6 @@ false
 mVideoListener
 )
 ;
-mDecoder
--
->
-AsyncAllocateVideoMediaCodec
-(
-)
-;
 uint32_t
 capability
 =
@@ -843,6 +836,13 @@ GonkNativeWindow
 )
 ;
 }
+mDecoder
+-
+>
+AsyncAllocateVideoMediaCodec
+(
+)
+;
 return
 p
 ;
