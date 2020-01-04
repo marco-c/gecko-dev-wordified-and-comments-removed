@@ -17727,7 +17727,7 @@ takeAny
 (
 )
 ;
-EmitCreateStubFrameDescriptor
+EmitBaselineCreateStubFrameDescriptor
 (
 masm
 callScratch
@@ -39106,7 +39106,7 @@ Push
 R0
 )
 ;
-EmitCreateStubFrameDescriptor
+EmitBaselineCreateStubFrameDescriptor
 (
 masm
 scratch
@@ -47234,7 +47234,7 @@ Push
 R0
 )
 ;
-EmitCreateStubFrameDescriptor
+EmitBaselineCreateStubFrameDescriptor
 (
 masm
 scratch
@@ -55249,7 +55249,7 @@ val
 ExtractTemp0
 )
 ;
-EmitCreateStubFrameDescriptor
+EmitBaselineCreateStubFrameDescriptor
 (
 masm
 scratch
@@ -56715,7 +56715,7 @@ takeAny
 (
 )
 ;
-EmitCreateStubFrameDescriptor
+EmitBaselineCreateStubFrameDescriptor
 (
 masm
 scratch
@@ -57152,7 +57152,7 @@ push
 argcReg
 )
 ;
-EmitCreateStubFrameDescriptor
+EmitBaselineCreateStubFrameDescriptor
 (
 masm
 scratch
@@ -57467,7 +57467,7 @@ takeAny
 (
 )
 ;
-EmitCreateStubFrameDescriptor
+EmitBaselineCreateStubFrameDescriptor
 (
 masm
 scratch
@@ -57885,7 +57885,7 @@ takeAny
 (
 )
 ;
-EmitCreateStubFrameDescriptor
+EmitBaselineCreateStubFrameDescriptor
 (
 masm
 scratch
@@ -58591,7 +58591,7 @@ takeAny
 (
 )
 ;
-EmitCreateStubFrameDescriptor
+EmitBaselineCreateStubFrameDescriptor
 (
 masm
 scratch

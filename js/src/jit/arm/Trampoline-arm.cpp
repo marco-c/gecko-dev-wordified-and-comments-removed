@@ -4677,7 +4677,7 @@ nullptr
 ICStubReg
 )
 ;
-EmitEnterStubFrame
+EmitBaselineEnterStubFrame
 (
 masm
 scratch2
@@ -4727,13 +4727,13 @@ push
 scratch1
 )
 ;
-EmitCallVM
+EmitBaselineCallVM
 (
 code
 masm
 )
 ;
-EmitLeaveStubFrame
+EmitBaselineLeaveStubFrame
 (
 masm
 )
