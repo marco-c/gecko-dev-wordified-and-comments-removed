@@ -1340,7 +1340,7 @@ if
 GStreamerFormatHelper
 :
 :
-IsPluginFeatureBlacklisted
+IsPluginFeatureBlocked
 (
 factory
 )
