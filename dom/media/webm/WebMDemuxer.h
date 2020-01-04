@@ -879,6 +879,9 @@ TimeUnit
 >
 mNextKeyframeTime
 ;
+bool
+mNeedKeyframe
+;
 MediaRawDataQueue
 mSamples
 ;
