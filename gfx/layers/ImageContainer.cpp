@@ -3010,9 +3010,6 @@ nullptr
 ;
 }
 #
-ifndef
-XP_WIN
-#
 ifdef
 MOZ_WIDGET_GONK
 RefPtr
@@ -3065,8 +3062,6 @@ GetTextureFlags
 )
 ;
 }
-#
-endif
 #
 endif
 if
