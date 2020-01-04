@@ -15,6 +15,15 @@ shared
 .
 h
 "
+#
+include
+"
+jit
+/
+MacroAssembler
+.
+h
+"
 using
 namespace
 js
