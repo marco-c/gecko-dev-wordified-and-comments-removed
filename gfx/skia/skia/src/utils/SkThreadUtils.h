@@ -37,7 +37,7 @@ void
 *
 data
 =
-NULL
+nullptr
 )
 ;
 ~
@@ -53,14 +53,6 @@ start
 void
 join
 (
-)
-;
-bool
-setProcessorAffinity
-(
-unsigned
-int
-processor
 )
 ;
 private

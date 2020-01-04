@@ -63,7 +63,7 @@ fCapacity
 )
 fArray
 (
-NULL
+nullptr
 )
 {
 SkASSERT
@@ -521,7 +521,7 @@ candidate
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -569,7 +569,7 @@ fCapacity
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 void
@@ -582,7 +582,7 @@ newEntry
 {
 SkASSERT
 (
-NULL
+nullptr
 =
 =
 this
@@ -635,9 +635,6 @@ key
 {
 SkASSERT
 (
-NULL
-!
-=
 this
 -
 >
@@ -673,9 +670,6 @@ rewind
 {
 if
 (
-NULL
-!
-=
 fArray
 )
 {
@@ -725,7 +719,7 @@ fArray
 ;
 fArray
 =
-NULL
+nullptr
 ;
 }
 protected
@@ -908,9 +902,7 @@ x
 )
 SkASSERT
 (
-(
 x
-)
 )
 ;
 if
@@ -1008,9 +1000,6 @@ count
 ;
 SKTDYNAMICHASH_CHECK
 (
-NULL
-!
-=
 this
 -
 >

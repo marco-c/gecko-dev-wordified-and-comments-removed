@@ -423,11 +423,8 @@ void
 rotate
 (
 SkScalar
-x
 SkScalar
-y
 SkScalar
-z
 )
 {
 }
@@ -435,11 +432,8 @@ void
 rotateDegrees
 (
 SkScalar
-x
 SkScalar
-y
 SkScalar
-z
 )
 {
 }

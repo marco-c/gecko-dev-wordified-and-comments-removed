@@ -39,12 +39,12 @@ SkDash
 (
 )
 ;
-virtual
 SkPathEffect
 *
 getPathEffect
 (
 )
+override
 ;
 private
 :

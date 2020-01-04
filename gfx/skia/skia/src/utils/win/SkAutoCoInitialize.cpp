@@ -1,4 +1,17 @@
 #
+include
+"
+SkTypes
+.
+h
+"
+#
+if
+defined
+(
+SK_BUILD_FOR_WIN32
+)
+#
 define
 WIN32_LEAN_AND_MEAN
 #
@@ -33,7 +46,7 @@ fHR
 (
 CoInitializeEx
 (
-NULL
+nullptr
 COINIT_APARTMENTTHREADED
 |
 COINIT_DISABLE_OLE1DDE
@@ -93,3 +106,5 @@ this
 fHR
 ;
 }
+#
+endif

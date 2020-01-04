@@ -427,7 +427,7 @@ fCount
 )
 fDir
 (
-NULL
+nullptr
 )
 {
 }

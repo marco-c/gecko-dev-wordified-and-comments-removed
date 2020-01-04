@@ -39,13 +39,13 @@ SkTextOnPath
 (
 )
 ;
-virtual
 bool
 draw
 (
 SkAnimateMaker
 &
 )
+override
 ;
 private
 :

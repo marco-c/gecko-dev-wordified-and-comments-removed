@@ -503,7 +503,7 @@ if
 scriptValue
 =
 =
-NULL
+nullptr
 )
 return
 ;

@@ -39,7 +39,7 @@ SkScalar
 *
 adjustedPhase
 =
-NULL
+nullptr
 )
 ;
 bool

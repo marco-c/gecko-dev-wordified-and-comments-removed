@@ -5,6 +5,13 @@ SkBuffer
 .
 h
 "
+#
+include
+<
+string
+.
+h
+>
 void
 SkRBuffer
 :
@@ -80,7 +87,7 @@ fPos
 ;
 readNoSizeCheck
 (
-NULL
+nullptr
 size
 )
 ;
@@ -195,7 +202,7 @@ fPos
 ;
 writeNoSizeCheck
 (
-NULL
+nullptr
 size
 )
 ;
@@ -203,9 +210,9 @@ return
 fData
 =
 =
-NULL
+nullptr
 ?
-NULL
+nullptr
 :
 result
 ;

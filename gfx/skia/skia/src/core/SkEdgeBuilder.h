@@ -56,6 +56,8 @@ SkIRect
 clip
 int
 shiftUp
+bool
+clipToTheRight
 )
 ;
 SkEdge
@@ -141,6 +143,8 @@ SkIRect
 clip
 int
 shiftUp
+bool
+clipToTheRight
 )
 ;
 }

@@ -93,7 +93,7 @@ height
 )
 {
 return
-NULL
+nullptr
 ;
 }
 SkRect
@@ -133,7 +133,7 @@ outer
 )
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -189,7 +189,7 @@ case
 kClosed_State
 :
 return
-NULL
+nullptr
 ;
 }
 }
@@ -203,7 +203,7 @@ here
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 void
@@ -287,7 +287,7 @@ false
 }
 fStream
 =
-NULL
+nullptr
 ;
 return
 success
@@ -347,6 +347,6 @@ true
 }
 fStream
 =
-NULL
+nullptr
 ;
 }

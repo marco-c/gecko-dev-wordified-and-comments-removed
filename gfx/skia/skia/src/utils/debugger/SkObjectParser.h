@@ -37,6 +37,17 @@ bitmap
 static
 SkString
 *
+ImageToString
+(
+const
+SkImage
+*
+image
+)
+;
+static
+SkString
+*
 BoolToString
 (
 bool
@@ -151,7 +162,7 @@ char
 *
 title
 =
-NULL
+nullptr
 )
 ;
 static
@@ -168,7 +179,7 @@ char
 *
 title
 =
-NULL
+nullptr
 )
 ;
 static

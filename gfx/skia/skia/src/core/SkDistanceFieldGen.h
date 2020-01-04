@@ -55,7 +55,7 @@ int
 w
 int
 h
-int
+size_t
 rowBytes
 )
 ;
@@ -75,7 +75,7 @@ int
 w
 int
 h
-int
+size_t
 rowBytes
 )
 ;

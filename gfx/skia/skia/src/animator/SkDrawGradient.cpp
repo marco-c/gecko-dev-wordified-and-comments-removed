@@ -653,7 +653,7 @@ count
 4
 )
 return
-NULL
+nullptr
 ;
 SkShader
 *
@@ -826,7 +826,7 @@ addPrelude
 0
 )
 return
-NULL
+nullptr
 ;
 SkShader
 *

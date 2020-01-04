@@ -197,7 +197,7 @@ SkAnimator
 :
 fMaker
 (
-NULL
+nullptr
 )
 {
 initialize
@@ -213,10 +213,8 @@ SkAnimator
 (
 )
 {
-SkDELETE
-(
+delete
 fMaker
-)
 ;
 }
 void
@@ -401,7 +399,7 @@ uri
 ]
 )
 {
-SkAutoTUnref
+SkAutoTDelete
 <
 SkStream
 >
@@ -828,7 +826,7 @@ if
 paint
 =
 =
-NULL
+nullptr
 )
 return
 draw
@@ -1056,7 +1054,7 @@ getType
 SkType_Movie
 )
 return
-NULL
+nullptr
 ;
 const
 SkDisplayMovie
@@ -1113,7 +1111,7 @@ element
 false
 )
 return
-NULL
+nullptr
 ;
 return
 (
@@ -1163,7 +1161,7 @@ element
 getType
 (
 )
-NULL
+nullptr
 )
 ;
 return
@@ -1507,7 +1505,7 @@ if
 element
 =
 =
-NULL
+nullptr
 )
 return
 SK_NaN32
@@ -1528,7 +1526,7 @@ if
 field
 =
 =
-NULL
+nullptr
 )
 return
 SK_NaN32
@@ -1618,7 +1616,7 @@ if
 element
 =
 =
-NULL
+nullptr
 )
 return
 SK_ScalarNaN
@@ -1639,7 +1637,7 @@ if
 field
 =
 =
-NULL
+nullptr
 )
 return
 SK_ScalarNaN
@@ -1700,7 +1698,7 @@ c_str
 (
 )
 :
-NULL
+nullptr
 ;
 }
 const
@@ -1738,10 +1736,10 @@ if
 element
 =
 =
-NULL
+nullptr
 )
 return
-NULL
+nullptr
 ;
 const
 SkMemberInfo
@@ -1759,10 +1757,10 @@ if
 field
 =
 =
-NULL
+nullptr
 )
 return
-NULL
+nullptr
 ;
 return
 getArrayString
@@ -2130,7 +2128,7 @@ if
 element
 =
 =
-NULL
+nullptr
 )
 return
 SK_NaN32
@@ -2151,7 +2149,7 @@ if
 field
 =
 =
-NULL
+nullptr
 )
 return
 SK_NaN32
@@ -2303,7 +2301,7 @@ if
 element
 =
 =
-NULL
+nullptr
 )
 return
 SK_ScalarNaN
@@ -2324,7 +2322,7 @@ if
 field
 =
 =
-NULL
+nullptr
 )
 return
 SK_ScalarNaN
@@ -2435,10 +2433,10 @@ if
 element
 =
 =
-NULL
+nullptr
 )
 return
-NULL
+nullptr
 ;
 const
 SkMemberInfo
@@ -2456,10 +2454,10 @@ if
 field
 =
 =
-NULL
+nullptr
 )
 return
-NULL
+nullptr
 ;
 return
 getString
@@ -2498,21 +2496,17 @@ initialize
 (
 )
 {
-SkDELETE
-(
+delete
 fMaker
-)
 ;
 fMaker
 =
-SkNEW_ARGS
-(
+new
 SkAnimateMaker
 (
 this
-NULL
-NULL
-)
+nullptr
+nullptr
 )
 ;
 decodeMemory
@@ -2585,7 +2579,7 @@ if
 root
 =
 =
-NULL
+nullptr
 )
 root
 =
@@ -2766,7 +2760,7 @@ if
 id
 =
 =
-NULL
+nullptr
 )
 return
 false
@@ -3604,7 +3598,7 @@ if
 element
 =
 =
-NULL
+nullptr
 )
 return
 false
@@ -3625,7 +3619,7 @@ if
 field
 =
 =
-NULL
+nullptr
 )
 return
 false
@@ -3775,7 +3769,7 @@ if
 element
 =
 =
-NULL
+nullptr
 )
 return
 false
@@ -3796,7 +3790,7 @@ if
 field
 =
 =
-NULL
+nullptr
 )
 return
 false
@@ -3946,7 +3940,7 @@ if
 element
 =
 =
-NULL
+nullptr
 )
 return
 false
@@ -3967,7 +3961,7 @@ if
 field
 =
 =
-NULL
+nullptr
 )
 return
 false
@@ -4007,7 +4001,7 @@ setValue
 (
 *
 fMaker
-NULL
+nullptr
 0
 info
 -
@@ -4069,7 +4063,7 @@ if
 element
 =
 =
-NULL
+nullptr
 )
 return
 false
@@ -4090,7 +4084,7 @@ if
 field
 =
 =
-NULL
+nullptr
 )
 return
 false

@@ -186,7 +186,7 @@ index
 ]
 =
 =
-NULL
+nullptr
 )
 array
 [

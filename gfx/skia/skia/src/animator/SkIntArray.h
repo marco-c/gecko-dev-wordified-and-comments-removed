@@ -48,7 +48,7 @@ class
 SkDisplayEvent
 ;
 class
-SkDrawable
+SkADrawable
 ;
 class
 SkDrawColor
@@ -152,7 +152,7 @@ SkTDDisplayEventArray
 typedef
 SkLongArray
 (
-SkDrawable
+SkADrawable
 *
 )
 SkTDDrawableArray

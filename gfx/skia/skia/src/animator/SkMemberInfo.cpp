@@ -482,7 +482,7 @@ if
 displayable
 =
 =
-NULL
+nullptr
 )
 return
 sizeof
@@ -1097,7 +1097,7 @@ arrayStorage
 )
 displayable
 =
-NULL
+nullptr
 ;
 bool
 success
@@ -1108,7 +1108,7 @@ void
 *
 untypedStorage
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1169,7 +1169,7 @@ c_str
 )
 !
 =
-NULL
+nullptr
 )
 {
 size_t
@@ -1606,7 +1606,7 @@ char
 *
 charPtr
 =
-NULL
+nullptr
 ;
 maker
 .
@@ -2182,7 +2182,7 @@ begin
 (
 )
 :
-NULL
+nullptr
 ;
 if
 (
@@ -2379,7 +2379,7 @@ scriptValue
 fOperand
 .
 fArray
-NULL
+nullptr
 )
 ;
 else
@@ -2759,7 +2759,7 @@ SkType_Array
 array
 !
 =
-NULL
+nullptr
 &
 &
 array
@@ -2940,7 +2940,7 @@ SkDisplayType
 :
 IsStruct
 (
-NULL
+nullptr
 type
 )
 )
@@ -3197,7 +3197,7 @@ if
 result
 !
 =
-NULL
+nullptr
 )
 return
 result
@@ -3212,7 +3212,7 @@ count
 0
 )
 return
-NULL
+nullptr
 ;
 info
 +
@@ -3254,7 +3254,7 @@ index
 count
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -3344,7 +3344,7 @@ if
 result
 !
 =
-NULL
+nullptr
 )
 return
 result
@@ -3359,7 +3359,7 @@ count
 0
 )
 return
-NULL
+nullptr
 ;
 info
 +
@@ -3417,7 +3417,7 @@ index
 count
 )
 return
-NULL
+nullptr
 ;
 return
 &

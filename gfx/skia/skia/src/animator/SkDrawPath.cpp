@@ -109,7 +109,7 @@ SkDrawPath
 {
 fParent
 =
-NULL
+nullptr
 ;
 fLength
 =

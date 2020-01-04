@@ -40,7 +40,7 @@ SkRefDict
 :
 fImpl
 (
-NULL
+nullptr
 )
 {
 }
@@ -77,14 +77,14 @@ const
 {
 if
 (
-NULL
+nullptr
 =
 =
 name
 )
 {
 return
-NULL
+nullptr
 ;
 }
 Impl
@@ -127,7 +127,7 @@ fNext
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 void
@@ -148,7 +148,7 @@ data
 {
 if
 (
-NULL
+nullptr
 =
 =
 name
@@ -167,7 +167,7 @@ Impl
 *
 prev
 =
-NULL
+nullptr
 ;
 while
 (
@@ -363,6 +363,6 @@ next
 }
 fImpl
 =
-NULL
+nullptr
 ;
 }

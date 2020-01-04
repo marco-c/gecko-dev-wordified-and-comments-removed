@@ -94,15 +94,15 @@ fStorage
 ;
 fStorage
 =
-NULL
+nullptr
 ;
 fTex
 =
-NULL
+nullptr
 ;
 fIndices
 =
-NULL
+nullptr
 ;
 fTexCount
 =
@@ -121,7 +121,7 @@ fStorage
 ;
 fStorage
 =
-NULL
+nullptr
 ;
 fTexCount
 =
@@ -521,7 +521,7 @@ tex
 (
 )
 colors
-NULL
+nullptr
 idx
 .
 indices

@@ -72,7 +72,6 @@ SkDisplayEvent
 (
 )
 ;
-virtual
 bool
 addChild
 (
@@ -82,17 +81,16 @@ SkDisplayable
 *
 child
 )
-SK_OVERRIDE
+override
 ;
-virtual
 bool
 contains
 (
 SkDisplayable
 *
 )
+override
 ;
-virtual
 SkDisplayable
 *
 contains
@@ -101,6 +99,7 @@ const
 SkString
 &
 )
+override
 ;
 #
 ifdef
@@ -121,7 +120,6 @@ SkAnimateMaker
 &
 )
 ;
-virtual
 bool
 getProperty
 (
@@ -131,8 +129,8 @@ SkScriptValue
 *
 )
 const
+override
 ;
-virtual
 void
 onEndElement
 (
@@ -140,6 +138,7 @@ SkAnimateMaker
 &
 maker
 )
+override
 ;
 void
 populateInput
@@ -152,7 +151,6 @@ SkEvent
 fEvent
 )
 ;
-virtual
 bool
 setProperty
 (
@@ -161,6 +159,7 @@ index
 SkScriptValue
 &
 )
+override
 ;
 protected
 :

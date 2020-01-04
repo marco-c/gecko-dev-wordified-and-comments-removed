@@ -59,7 +59,7 @@ kSkTagListCount
 ;
 fNext
 =
-NULL
+nullptr
 ;
 fExtra16
 =

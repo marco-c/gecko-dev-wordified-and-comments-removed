@@ -74,7 +74,7 @@ false
 )
 use
 (
-NULL
+nullptr
 )
 fDrawnOnce
 (

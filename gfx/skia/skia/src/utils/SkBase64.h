@@ -67,7 +67,7 @@ char
 *
 encode
 =
-NULL
+nullptr
 )
 ;
 private

@@ -170,7 +170,7 @@ const
 SkPMColor
 *
 =
-NULL
+nullptr
 )
 ;
 bool
@@ -189,7 +189,7 @@ const
 SkPMColor
 *
 =
-NULL
+nullptr
 )
 ;
 bool

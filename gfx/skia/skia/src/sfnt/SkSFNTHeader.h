@@ -284,7 +284,7 @@ pack
 (
 pop
 )
-SK_COMPILE_ASSERT
+static_assert
 (
 sizeof
 (
@@ -293,10 +293,12 @@ SkSFNTHeader
 =
 =
 12
+"
 sizeof_SkSFNTHeader_not_12
+"
 )
 ;
-SK_COMPILE_ASSERT
+static_assert
 (
 sizeof
 (
@@ -308,7 +310,9 @@ TableDirectoryEntry
 =
 =
 16
+"
 sizeof_SkSFNTHeader_TableDirectoryEntry_not_16
+"
 )
 ;
 #

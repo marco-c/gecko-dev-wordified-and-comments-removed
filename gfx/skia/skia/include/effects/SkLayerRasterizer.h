@@ -129,13 +129,6 @@ SkDeque
 layers
 )
 ;
-SkLayerRasterizer
-(
-SkReadBuffer
-&
-)
-;
-virtual
 void
 flatten
 (
@@ -143,7 +136,7 @@ SkWriteBuffer
 &
 )
 const
-SK_OVERRIDE
+override
 ;
 virtual
 bool
@@ -171,7 +164,7 @@ CreateMode
 mode
 )
 const
-SK_OVERRIDE
+override
 ;
 private
 :

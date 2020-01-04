@@ -68,10 +68,10 @@ shader
 )
 =
 =
-NULL
+nullptr
 )
 return
-NULL
+nullptr
 ;
 const
 char
@@ -137,7 +137,7 @@ c0
 )
 !
 =
-NULL
+nullptr
 &
 &
 SkParse
@@ -169,7 +169,7 @@ c1
 )
 !
 =
-NULL
+nullptr
 &
 &
 SkParse
@@ -282,7 +282,7 @@ CreateLinear
 (
 pts
 colors
-NULL
+nullptr
 2
 mode
 )
@@ -323,10 +323,10 @@ src
 )
 =
 =
-NULL
+nullptr
 )
 return
-NULL
+nullptr
 ;
 SkBitmap
 bm
@@ -408,7 +408,7 @@ mode
 }
 }
 return
-NULL
+nullptr
 ;
 }
 void
