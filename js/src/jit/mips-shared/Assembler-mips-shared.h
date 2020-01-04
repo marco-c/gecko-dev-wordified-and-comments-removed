@@ -5174,9 +5174,9 @@ bind
 InstImm
 *
 inst
-uint32_t
+uintptr_t
 branch
-uint32_t
+uintptr_t
 target
 )
 =
