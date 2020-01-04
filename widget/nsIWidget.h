@@ -1738,7 +1738,10 @@ aRect
 NS_IMETHOD
 GetNonClientMargins
 (
-nsIntMargin
+mozilla
+:
+:
+LayoutDeviceIntMargin
 &
 margins
 )
@@ -1748,7 +1751,10 @@ margins
 NS_IMETHOD
 SetNonClientMargins
 (
-nsIntMargin
+mozilla
+:
+:
+LayoutDeviceIntMargin
 &
 margins
 )

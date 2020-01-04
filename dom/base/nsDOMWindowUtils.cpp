@@ -16855,7 +16855,7 @@ if
 widget
 )
 {
-nsIntMargin
+LayoutDeviceIntMargin
 margins
 (
 aTop

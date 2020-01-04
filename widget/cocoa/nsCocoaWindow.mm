@@ -12903,7 +12903,7 @@ nsCocoaWindow
 :
 SetNonClientMargins
 (
-nsIntMargin
+LayoutDeviceIntMargin
 &
 margins
 )

@@ -979,7 +979,10 @@ override
 NS_IMETHOD
 GetNonClientMargins
 (
-nsIntMargin
+mozilla
+:
+:
+LayoutDeviceIntMargin
 &
 margins
 )
@@ -988,7 +991,10 @@ override
 NS_IMETHOD
 SetNonClientMargins
 (
-nsIntMargin
+mozilla
+:
+:
+LayoutDeviceIntMargin
 &
 margins
 )
