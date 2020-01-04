@@ -1625,10 +1625,6 @@ if
 (
 !
 stream
-|
-|
-!
-device_changed_callback
 )
 {
 return
