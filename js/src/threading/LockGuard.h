@@ -32,6 +32,10 @@ UnlockGuard
 Mutex
 >
 ;
+friend
+class
+ConditionVariable
+;
 Mutex
 &
 lock

@@ -494,6 +494,11 @@ testSymbol
 cpp
 '
 '
+testThreadingConditionVariable
+.
+cpp
+'
+'
 testThreadingExclusiveData
 .
 cpp
