@@ -7567,6 +7567,9 @@ if
 (
 !
 registered
+&
+&
+false
 )
 {
 registered
