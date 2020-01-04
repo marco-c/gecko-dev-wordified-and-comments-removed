@@ -5328,12 +5328,13 @@ uint32_t
 sMicroTaskLevel
 ;
 static
-nsTArray
+AutoTArray
 <
 nsCOMPtr
 <
 nsIRunnable
 >
+8
 >
 *
 sBlockedScriptRunners

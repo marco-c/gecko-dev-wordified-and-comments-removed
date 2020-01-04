@@ -6591,6 +6591,12 @@ nsDocument
 >
 mFrameLoaderRunner
 ;
+nsCOMPtr
+<
+nsIRunnable
+>
+mMaybeEndOutermostXBLUpdateRunner
+;
 nsRevocableEventPtr
 <
 nsRunnableMethod
