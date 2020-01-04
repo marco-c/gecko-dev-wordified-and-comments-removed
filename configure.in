@@ -6924,6 +6924,12 @@ AC_SUBST
 (
 RPMBUILD
 )
+MOZ_PATH_PROG
+(
+GENISOIMAGE
+genisoimage
+:
+)
 if
 test
 "
@@ -78690,6 +78696,10 @@ MOZ_ENABLE_SZIP
 AC_SUBST
 (
 MOZ_SZIP_FLAGS
+)
+AC_SUBST
+(
+DMG_TOOL
 )
 dnl
 Host
