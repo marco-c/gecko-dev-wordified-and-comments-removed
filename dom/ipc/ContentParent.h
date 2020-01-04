@@ -1745,6 +1745,10 @@ const
 nsCString
 &
 aBaseURI
+const
+DocShellOriginAttributes
+&
+aOpenerOriginAttributes
 nsresult
 *
 aResult

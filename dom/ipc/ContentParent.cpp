@@ -24821,6 +24821,10 @@ const
 nsCString
 &
 aBaseURI
+const
+DocShellOriginAttributes
+&
+aOpenerOriginAttributes
 nsresult
 *
 aResult
@@ -25234,6 +25238,7 @@ params
 new
 nsOpenURIInFrameParams
 (
+aOpenerOriginAttributes
 )
 ;
 params
