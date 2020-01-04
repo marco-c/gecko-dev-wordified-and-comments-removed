@@ -849,6 +849,12 @@ nsChildView
 *
 mWidget
 ;
+RefPtr
+<
+TextEventDispatcher
+>
+mDispatcher
+;
 NSView
 <
 mozView
@@ -1928,14 +1934,6 @@ aAttrString
 NSRange
 &
 aSelectedRange
-)
-;
-void
-InitCompositionEvent
-(
-WidgetCompositionEvent
-&
-aCompositionEvent
 )
 ;
 bool
