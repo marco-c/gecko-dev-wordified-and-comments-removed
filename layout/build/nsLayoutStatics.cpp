@@ -799,6 +799,13 @@ h
 #
 include
 "
+MediaPrefs
+.
+h
+"
+#
+include
+"
 mozilla
 /
 layers
@@ -1668,6 +1675,13 @@ MediaDecoder
 :
 :
 InitStatics
+(
+)
+;
+MediaPrefs
+:
+:
+GetSingleton
 (
 )
 ;

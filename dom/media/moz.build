@@ -653,6 +653,11 @@ MediaMetadataManager
 h
 '
 '
+MediaPrefs
+.
+h
+'
+'
 MediaQueue
 .
 h
@@ -1171,6 +1176,11 @@ cpp
 '
 '
 MediaManager
+.
+cpp
+'
+'
+MediaPrefs
 .
 cpp
 '

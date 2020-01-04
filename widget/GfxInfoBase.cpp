@@ -189,6 +189,13 @@ h
 #
 include
 "
+MediaPrefs
+.
+h
+"
+#
+include
+"
 gfxPrefs
 .
 h
@@ -3142,6 +3149,13 @@ InitGfxDriverInfoShutdownObserver
 )
 ;
 gfxPrefs
+:
+:
+GetSingleton
+(
+)
+;
+MediaPrefs
 :
 :
 GetSingleton

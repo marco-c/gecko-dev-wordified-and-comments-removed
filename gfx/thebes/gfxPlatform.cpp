@@ -159,6 +159,13 @@ gfxConfig
 h
 "
 #
+include
+"
+MediaPrefs
+.
+h
+"
+#
 ifdef
 XP_WIN
 #
@@ -2832,6 +2839,13 @@ gEverInitialized
 true
 ;
 gfxPrefs
+:
+:
+GetSingleton
+(
+)
+;
+MediaPrefs
 :
 :
 GetSingleton
