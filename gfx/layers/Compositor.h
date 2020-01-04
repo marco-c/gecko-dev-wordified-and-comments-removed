@@ -960,13 +960,6 @@ true
 ;
 }
 virtual
-void
-ForcePresent
-(
-)
-{
-}
-virtual
 nsIWidget
 *
 GetWidget
