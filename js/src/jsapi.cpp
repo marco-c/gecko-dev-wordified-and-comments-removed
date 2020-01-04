@@ -15100,7 +15100,7 @@ JSFunction
 setterFunc
 =
 &
-getterValue
+setterValue
 .
 toObject
 (
