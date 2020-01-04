@@ -178,6 +178,11 @@ AnimationComparator
 h
 '
 '
+AnimationPerformanceWarning
+.
+h
+'
+'
 AnimationUtils
 .
 h
@@ -234,6 +239,11 @@ cpp
 '
 '
 AnimationEffectTimingReadOnly
+.
+cpp
+'
+'
+AnimationPerformanceWarning
 .
 cpp
 '

@@ -123,6 +123,9 @@ CSSPseudoElementType
 :
 uint8_t
 ;
+struct
+AnimationPerformanceWarning
+;
 namespace
 dom
 {
@@ -482,9 +485,9 @@ aFrame
 nsCSSProperty
 aProperty
 const
-nsAString
+AnimationPerformanceWarning
 &
-aMessage
+aWarning
 )
 ;
 private
