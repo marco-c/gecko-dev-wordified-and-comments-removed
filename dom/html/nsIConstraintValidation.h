@@ -222,6 +222,11 @@ CheckValidity
 (
 )
 ;
+bool
+ReportValidity
+(
+)
+;
 protected
 :
 nsIConstraintValidation
