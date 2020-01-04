@@ -670,6 +670,14 @@ ionScript
 bailoutExpected
 (
 )
+|
+|
+frame
+-
+>
+isDebuggee
+(
+)
 )
 {
 return
