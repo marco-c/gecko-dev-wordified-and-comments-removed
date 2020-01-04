@@ -4371,6 +4371,11 @@ eGradient_WebkitLegacy
 <
 <
 2
+eGradient_AnyLegacy
+=
+eGradient_MozLegacy
+|
+eGradient_WebkitLegacy
 }
 ;
 bool
@@ -40206,7 +40211,7 @@ VARIANT_KEYWORD
 (
 aFlags
 &
-eGradient_MozLegacy
+eGradient_AnyLegacy
 )
 ?
 nsCSSProps
@@ -40257,7 +40262,7 @@ if
 (
 aFlags
 &
-eGradient_MozLegacy
+eGradient_AnyLegacy
 )
 )
 {
@@ -40468,7 +40473,7 @@ if
 (
 aFlags
 &
-eGradient_MozLegacy
+eGradient_AnyLegacy
 )
 )
 {
@@ -40606,6 +40611,14 @@ haveGradientLine
 bool
 haveAngle
 =
+(
+aFlags
+&
+eGradient_WebkitLegacy
+)
+?
+false
+:
 ParseSingleTokenVariant
 (
 cssGradient
@@ -40668,6 +40681,13 @@ true
 &
 (
 haveAngle
+|
+|
+(
+aFlags
+&
+eGradient_WebkitLegacy
+)
 |
 |
 !
