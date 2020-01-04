@@ -256,11 +256,6 @@ nsIUserCertPicker
 idl
 '
 '
-nsIWeakCryptoOverride
-.
-idl
-'
-'
 nsIX509Cert
 .
 idl
@@ -656,11 +651,6 @@ cpp
 '
 '
 TransportSecurityInfo
-.
-cpp
-'
-'
-WeakCryptoOverride
 .
 cpp
 '
