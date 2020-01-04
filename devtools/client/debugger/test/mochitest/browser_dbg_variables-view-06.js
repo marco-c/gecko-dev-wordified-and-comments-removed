@@ -847,8 +847,6 @@ break
 ;
 }
 }
-debugger
-;
 resumeDebuggerThenCloseAndFinish
 (
 panel
