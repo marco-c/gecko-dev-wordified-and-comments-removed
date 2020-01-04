@@ -633,6 +633,10 @@ payloadObj
 =
 {
 }
+extraHeaders
+=
+{
+}
 retryOK
 =
 true
@@ -877,6 +881,7 @@ path
 method
 credentials
 payloadObj
+extraHeaders
 false
 )
 )
@@ -1039,6 +1044,9 @@ localtimeOffsetMsec
 this
 .
 localtimeOffsetMsec
+headers
+:
+extraHeaders
 }
 ;
 let
