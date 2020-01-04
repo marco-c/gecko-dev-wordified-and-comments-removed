@@ -729,6 +729,12 @@ int32_t
 >
 mAssociatedActors
 ;
+nsCString
+mRestoreOrigNSPRLogName
+;
+nsCString
+mRestoreOrigMozLogName
+;
 static
 uint32_t
 sNextUniqueID
