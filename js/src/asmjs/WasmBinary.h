@@ -104,7 +104,8 @@ const
 uint32_t
 EncodingVersion
 =
-0xa
+-
+1
 ;
 static
 const
