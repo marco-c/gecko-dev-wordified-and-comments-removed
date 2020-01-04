@@ -254,12 +254,6 @@ aDictionary
 )
 override
 ;
-NS_IMETHOD
-CheckCurrentDictionary
-(
-)
-override
-;
 void
 DeleteRemoteEngine
 (

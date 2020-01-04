@@ -438,8 +438,6 @@ nsIEditorIMESupport
 public
 nsSupportsWeakReference
 public
-nsIObserver
-public
 nsIPhonetic
 {
 public
@@ -520,7 +518,6 @@ aNotification
 ;
 NS_DECL_NSIEDITOR
 NS_DECL_NSIEDITORIMESUPPORT
-NS_DECL_NSIOBSERVER
 NS_DECL_NSIPHONETIC
 public
 :
@@ -827,16 +824,6 @@ SwitchTextDirectionTo
 (
 uint32_t
 aDirection
-)
-;
-void
-StartWatchingDictionaryChanges
-(
-)
-;
-void
-StopWatchingDictionaryChanges
-(
 )
 ;
 protected
@@ -2926,9 +2913,6 @@ mIsInEditAction
 ;
 bool
 mHidingCaret
-;
-bool
-mObservingDictionaryUpdates
 ;
 friend
 bool

@@ -4614,13 +4614,6 @@ NS_OK
 mEditor
 -
 >
-StartWatchingDictionaryChanges
-(
-)
-;
-mEditor
--
->
 OnFocus
 (
 target
@@ -4689,13 +4682,6 @@ NS_ENSURE_TRUE
 (
 aEvent
 NS_OK
-)
-;
-mEditor
--
->
-StopWatchingDictionaryChanges
-(
 )
 ;
 nsIFocusManager
