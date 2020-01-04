@@ -665,6 +665,11 @@ DOMImplementation
 webidl
 '
 '
+DominatorTree
+.
+webidl
+'
+'
 DOMMatrix
 .
 webidl
