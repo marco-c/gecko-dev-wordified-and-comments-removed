@@ -1274,13 +1274,6 @@ cpp
 '
 asmjs
 /
-WasmBinaryIterator
-.
-cpp
-'
-'
-asmjs
-/
 WasmBinaryToText
 .
 cpp
