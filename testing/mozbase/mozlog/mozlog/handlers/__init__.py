@@ -15,3 +15,8 @@ from
 bufferhandler
 import
 BufferHandler
+from
+.
+valgrindhandler
+import
+ValgrindHandler
