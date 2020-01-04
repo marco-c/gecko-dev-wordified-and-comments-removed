@@ -594,6 +594,15 @@ FlushOverflowChangedTracker
 (
 )
 ;
+inline
+void
+NotifyDestroyingFrame
+(
+nsIFrame
+*
+aFrame
+)
+;
 private
 :
 uintptr_t
