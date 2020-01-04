@@ -24,9 +24,9 @@ _feedbackURL
 =
 Services
 .
-prefs
+urlFormatter
 .
-getCharPref
+formatURLPref
 (
 "
 app
@@ -91,15 +91,6 @@ url
 this
 .
 _feedbackURL
-+
-"
-?
-source
-=
-feedback
--
-prompt
-"
 ;
 let
 browser
