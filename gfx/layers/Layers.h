@@ -1820,7 +1820,7 @@ mEndValues
 ;
 InfallibleTArray
 <
-nsAutoPtr
+Maybe
 <
 mozilla
 :

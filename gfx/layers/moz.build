@@ -1063,6 +1063,13 @@ h
 '
 ipc
 /
+LayerAnimationUtils
+.
+h
+'
+'
+ipc
+/
 LayerTransactionChild
 .
 h
@@ -2208,6 +2215,13 @@ cpp
 ipc
 /
 ISurfaceAllocator
+.
+cpp
+'
+'
+ipc
+/
+LayerAnimationUtils
 .
 cpp
 '
