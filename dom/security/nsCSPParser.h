@@ -332,6 +332,14 @@ outSrcs
 )
 ;
 void
+requireSRIForDirectiveValue
+(
+nsRequireSRIForDirective
+*
+aDir
+)
+;
+void
 referrerDirectiveValue
 (
 )
