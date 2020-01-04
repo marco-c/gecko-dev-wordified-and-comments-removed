@@ -77,7 +77,7 @@ override
 ;
 already_AddRefed
 <
-IAPZCTreeManager
+APZCTreeManager
 >
 GetAPZCTreeManager
 (

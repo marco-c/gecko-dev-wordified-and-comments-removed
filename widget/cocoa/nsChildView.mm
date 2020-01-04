@@ -450,7 +450,7 @@ mozilla
 /
 layers
 /
-IAPZCTreeManager
+APZCTreeManager
 .
 h
 "
@@ -1308,7 +1308,7 @@ aPoint
 ;
 -
 (
-IAPZCTreeManager
+APZCTreeManager
 *
 )
 apzctm
@@ -27935,7 +27935,7 @@ CGEventType
 )
 type
 {
-IAPZCTreeManager
+APZCTreeManager
 *
 apzctm
 =
@@ -31585,7 +31585,7 @@ localPoint
 }
 -
 (
-IAPZCTreeManager
+APZCTreeManager
 *
 )
 apzctm

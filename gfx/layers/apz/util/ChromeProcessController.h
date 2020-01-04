@@ -53,7 +53,7 @@ namespace
 layers
 {
 class
-IAPZCTreeManager
+APZCTreeManager
 ;
 class
 APZEventState
@@ -103,7 +103,7 @@ aWidget
 APZEventState
 *
 aAPZEventState
-IAPZCTreeManager
+APZCTreeManager
 *
 aAPZCTreeManager
 )
@@ -225,7 +225,7 @@ mAPZEventState
 ;
 RefPtr
 <
-IAPZCTreeManager
+APZCTreeManager
 >
 mAPZCTreeManager
 ;

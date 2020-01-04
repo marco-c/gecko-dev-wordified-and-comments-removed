@@ -1695,7 +1695,7 @@ true
 }
 already_AddRefed
 <
-IAPZCTreeManager
+APZCTreeManager
 >
 GPUProcessManager
 :
