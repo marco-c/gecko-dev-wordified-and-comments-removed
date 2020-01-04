@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -61,6 +66,11 @@ test
 (
 )
 {
+requestLongerTimeout
+(
+3
+)
+;
 return
 Task
 .
@@ -598,7 +608,7 @@ function
 )
 {
 let
-imgSize
+imgSize1
 =
 yield
 getImageSizeFromClipboard
@@ -611,7 +621,7 @@ ContentTask
 spawn
 (
 browser
-imgSize
+imgSize1
 function
 *
 (
@@ -725,7 +735,7 @@ function
 )
 {
 let
-imgSize
+imgSize1
 =
 yield
 getImageSizeFromClipboard
@@ -738,7 +748,7 @@ ContentTask
 spawn
 (
 browser
-imgSize
+imgSize1
 function
 *
 (
@@ -864,7 +874,7 @@ function
 )
 {
 let
-imgSize
+imgSize1
 =
 yield
 getImageSizeFromClipboard
@@ -877,7 +887,7 @@ ContentTask
 spawn
 (
 browser
-imgSize
+imgSize1
 function
 *
 (
@@ -1129,14 +1139,14 @@ function
 )
 {
 let
-imgSize
+imgSize1
 =
 yield
 getImageSizeFromClipboard
 (
 )
 ;
-imgSize
+imgSize1
 .
 scrollbarWidth
 =
@@ -1144,7 +1154,7 @@ scrollbarSize
 .
 width
 ;
-imgSize
+imgSize1
 .
 scrollbarHeight
 =
@@ -1158,7 +1168,7 @@ ContentTask
 spawn
 (
 browser
-imgSize
+imgSize1
 function
 *
 (
@@ -1286,14 +1296,14 @@ function
 )
 {
 let
-imgSize
+imgSize1
 =
 yield
 getImageSizeFromClipboard
 (
 )
 ;
-imgSize
+imgSize1
 .
 scrollbarWidth
 =
@@ -1301,7 +1311,7 @@ scrollbarSize
 .
 width
 ;
-imgSize
+imgSize1
 .
 scrollbarHeight
 =
@@ -1315,7 +1325,7 @@ ContentTask
 spawn
 (
 browser
-imgSize
+imgSize1
 function
 *
 (
@@ -1459,7 +1469,7 @@ function
 )
 {
 let
-imgSize
+imgSize1
 =
 yield
 getImageSizeFromClipboard
@@ -1472,7 +1482,7 @@ ContentTask
 spawn
 (
 browser
-imgSize
+imgSize1
 function
 *
 (
