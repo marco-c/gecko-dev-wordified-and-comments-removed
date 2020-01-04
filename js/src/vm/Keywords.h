@@ -334,13 +334,6 @@ public_
 TOK_STRICT_RESERVED
 )
 \
-macro
-(
-static
-static_
-TOK_STRICT_RESERVED
-)
-\
 /
 *
 \
