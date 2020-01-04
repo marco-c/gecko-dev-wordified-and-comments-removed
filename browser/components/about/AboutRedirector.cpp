@@ -726,11 +726,11 @@ chrome
 :
 /
 /
-browser
+loop
 /
 content
 /
-loop
+panels
 /
 conversation
 .
@@ -765,11 +765,11 @@ chrome
 :
 /
 /
-browser
+loop
 /
 content
 /
-loop
+panels
 /
 panel
 .
