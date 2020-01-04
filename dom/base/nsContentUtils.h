@@ -5375,7 +5375,7 @@ endif
 }
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 nsAutoScriptBlocker
 {
 public

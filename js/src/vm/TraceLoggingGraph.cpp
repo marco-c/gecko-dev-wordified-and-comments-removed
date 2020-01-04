@@ -73,6 +73,7 @@ traceLoggerGraphState
 nullptr
 ;
 class
+MOZ_RAII
 AutoTraceLoggerGraphStateLock
 {
 TraceLoggerGraphState

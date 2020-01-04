@@ -596,6 +596,7 @@ lock_
 }
 ;
 class
+MOZ_RAII
 AutoSuppressProfilerSampling
 {
 public
@@ -681,6 +682,7 @@ clear
 ;
 }
 class
+MOZ_RAII
 SPSEntryMarker
 {
 public
@@ -721,6 +723,7 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
+MOZ_RAII
 SPSBaselineOSRMarker
 {
 public

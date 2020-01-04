@@ -107,7 +107,7 @@ NS_IMPL_FRAMEARENA_HELPERS
 nsSVGFilterFrame
 )
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 nsSVGFilterFrame
 :
 :

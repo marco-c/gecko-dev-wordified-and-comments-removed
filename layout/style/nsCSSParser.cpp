@@ -1425,7 +1425,7 @@ void
 )
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 nsAutoCSSParserInputStateRestorer
 {
 public
@@ -1505,7 +1505,7 @@ mShouldRestore
 }
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 nsAutoScannerChanger
 {
 public

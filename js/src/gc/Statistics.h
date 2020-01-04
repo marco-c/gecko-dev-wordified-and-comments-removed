@@ -901,6 +901,7 @@ const
 }
 ;
 struct
+MOZ_RAII
 AutoGCSlice
 {
 AutoGCSlice
@@ -965,6 +966,7 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 struct
+MOZ_RAII
 AutoPhase
 {
 AutoPhase
@@ -1144,6 +1146,7 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 struct
+MOZ_RAII
 AutoSCC
 {
 AutoSCC

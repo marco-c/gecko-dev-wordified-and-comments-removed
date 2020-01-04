@@ -1410,7 +1410,7 @@ namespace
 mozilla
 {
 struct
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoPrepareFocusRange
 {
 AutoPrepareFocusRange

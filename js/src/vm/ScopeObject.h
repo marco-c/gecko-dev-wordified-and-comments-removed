@@ -2758,6 +2758,7 @@ src
 )
 ;
 class
+MOZ_RAII
 ScopeIter
 {
 StaticScopeIter

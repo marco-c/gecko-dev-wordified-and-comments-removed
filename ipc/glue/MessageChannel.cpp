@@ -952,7 +952,7 @@ delete
 namespace
 {
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 MaybeScriptBlocker
 {
 public

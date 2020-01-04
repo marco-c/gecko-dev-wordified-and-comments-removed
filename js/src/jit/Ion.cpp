@@ -2579,6 +2579,7 @@ i
 }
 }
 class
+MOZ_RAII
 AutoLazyLinkExitFrame
 {
 JitActivation

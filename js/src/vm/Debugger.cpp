@@ -9352,7 +9352,7 @@ JSTRAP_CONTINUE
 ;
 }
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 ExecutionObservableCompartments
 :
 public
@@ -9529,7 +9529,7 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 ExecutionObservableFrame
 :
 public
@@ -9701,7 +9701,7 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 ExecutionObservableScript
 :
 public

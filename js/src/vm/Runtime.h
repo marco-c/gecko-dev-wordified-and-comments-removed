@@ -5679,7 +5679,7 @@ freeLater
 ;
 }
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoLockGC
 {
 public
@@ -5803,7 +5803,7 @@ delete
 }
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoUnlockGC
 {
 public
@@ -5874,7 +5874,7 @@ delete
 }
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoKeepAtoms
 {
 PerThreadData
@@ -6529,6 +6529,7 @@ JSSecurityCallbacks
 NullSecurityCallbacks
 ;
 class
+MOZ_RAII
 AutoEnterIonCompilation
 {
 public

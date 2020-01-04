@@ -1426,7 +1426,7 @@ typename
 ArrayType
 >
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 TypedArrayRooter
 :
 private
@@ -1504,7 +1504,7 @@ typename
 ArrayType
 >
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 TypedArrayRooter
 <
 Nullable
@@ -1602,7 +1602,7 @@ typename
 ArrayType
 >
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 RootedTypedArray
 :
 public

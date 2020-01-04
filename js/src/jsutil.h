@@ -792,6 +792,7 @@ typename
 T
 >
 class
+MOZ_RAII
 AutoScopedAssign
 {
 public

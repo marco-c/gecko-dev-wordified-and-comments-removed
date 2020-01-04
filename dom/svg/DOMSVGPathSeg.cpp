@@ -102,7 +102,7 @@ DOMSVGPathSeg
 Release
 )
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoChangePathSegNotifier
 {
 public

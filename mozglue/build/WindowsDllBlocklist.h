@@ -73,6 +73,7 @@ file
 )
 ;
 class
+MOZ_RAII
 AutoSetXPCOMLoadOnMainThread
 {
 public

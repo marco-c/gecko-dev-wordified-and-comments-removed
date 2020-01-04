@@ -1316,7 +1316,7 @@ namespace
 mozilla
 {
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 GeckoProfilerTracingRAII
 {
 public

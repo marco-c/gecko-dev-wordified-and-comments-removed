@@ -20,7 +20,7 @@ namespace
 ipc
 {
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 NeuteredWindowRegion
 {
 public
@@ -52,7 +52,7 @@ mNeuteredByThis
 }
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 DeneuteredWindowRegion
 {
 public

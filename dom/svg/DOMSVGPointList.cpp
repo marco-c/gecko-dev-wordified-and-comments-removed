@@ -209,7 +209,7 @@ nsISupports
 )
 NS_INTERFACE_MAP_END
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoChangePointListNotifier
 {
 public

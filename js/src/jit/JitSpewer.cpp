@@ -247,6 +247,7 @@ outputLock_
 }
 ;
 class
+MOZ_RAII
 AutoLockIonSpewerOutput
 {
 private

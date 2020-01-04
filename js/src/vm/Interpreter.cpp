@@ -1945,6 +1945,7 @@ namespace
 js
 {
 class
+MOZ_RAII
 AutoStopwatch
 final
 {

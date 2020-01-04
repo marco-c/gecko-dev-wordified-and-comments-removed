@@ -228,7 +228,7 @@ bool
 creatingSavedFrame
 ;
 struct
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoReentrancyGuard
 {
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER

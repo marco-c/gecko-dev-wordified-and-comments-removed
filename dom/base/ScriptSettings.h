@@ -844,7 +844,7 @@ mCxPusher
 ;
 }
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoJSContext
 {
 public
@@ -894,7 +894,7 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 ThreadsafeAutoJSContext
 {
 public
@@ -934,7 +934,7 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoSafeJSContext
 :
 public
@@ -956,7 +956,7 @@ mAc
 }
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 ThreadsafeAutoSafeJSContext
 {
 public

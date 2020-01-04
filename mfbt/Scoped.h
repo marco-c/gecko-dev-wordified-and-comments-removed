@@ -49,6 +49,7 @@ typename
 Traits
 >
 class
+MOZ_NON_TEMPORARY_CLASS
 Scoped
 {
 public
@@ -406,6 +407,7 @@ Type
 >
 \
 struct
+MOZ_NON_TEMPORARY_CLASS
 name
 :
 public

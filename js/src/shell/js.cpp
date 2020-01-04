@@ -18270,6 +18270,7 @@ rval
 ;
 }
 struct
+MOZ_RAII
 FreeOnReturn
 {
 JSContext

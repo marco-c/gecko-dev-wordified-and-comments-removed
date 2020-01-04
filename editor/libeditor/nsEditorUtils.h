@@ -87,7 +87,7 @@ Selection
 }
 }
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 nsAutoPlaceHolderBatch
 {
 private
@@ -159,7 +159,7 @@ EndPlaceHolderTransaction
 }
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 nsAutoEditBatch
 :
 public
@@ -195,7 +195,7 @@ nsAutoEditBatch
 }
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 nsAutoSelectionReset
 {
 private
@@ -249,7 +249,7 @@ Abort
 }
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 nsAutoRules
 {
 public
@@ -344,7 +344,7 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 nsAutoTxnsConserveSelection
 {
 public
@@ -426,7 +426,7 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 nsAutoUpdateViewBatch
 {
 public
@@ -518,7 +518,7 @@ const
 }
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 nsDOMIterator
 {
 public
@@ -586,7 +586,7 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 nsDOMSubtreeIterator
 :
 public

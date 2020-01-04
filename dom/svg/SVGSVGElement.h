@@ -1449,7 +1449,7 @@ mUseCurrentView
 ;
 }
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoSVGRenderingState
 {
 public

@@ -1606,6 +1606,7 @@ id
 endif
 }
 class
+MOZ_RAII
 AutoTraceLog
 {
 #

@@ -646,7 +646,7 @@ PendingMetadata
 >
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoSetNewObjectMetadata
 :
 private
@@ -2560,6 +2560,7 @@ unsafeGet
 ;
 }
 class
+MOZ_RAII
 AssertCompartmentUnchanged
 {
 public
@@ -2873,6 +2874,7 @@ value
 }
 ;
 class
+MOZ_RAII
 AutoWrapperVector
 :
 public
@@ -2911,6 +2913,7 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
+MOZ_RAII
 AutoWrapperRooter
 :
 private

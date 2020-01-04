@@ -31,6 +31,7 @@ typename
 ExitFunction
 >
 class
+MOZ_STACK_CLASS
 ScopeExit
 {
 ExitFunction

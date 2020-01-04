@@ -151,7 +151,7 @@ mozilla
 gfx
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 nsSVGPatternFrame
 :
 :

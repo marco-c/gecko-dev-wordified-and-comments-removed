@@ -285,7 +285,7 @@ typename
 T
 >
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 BaseAutoLock
 {
 public
@@ -396,7 +396,7 @@ typename
 T
 >
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 BaseAutoUnlock
 {
 public

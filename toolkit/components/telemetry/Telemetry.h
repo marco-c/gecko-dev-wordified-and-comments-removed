@@ -427,6 +427,7 @@ res
 Millisecond
 >
 class
+MOZ_RAII
 AutoTimer
 {
 public
@@ -548,6 +549,7 @@ ID
 id
 >
 class
+MOZ_RAII
 AutoCounter
 {
 public

@@ -245,7 +245,7 @@ aClippedFrame
 private
 :
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 AutoClipPathReferencer
 {
 public
