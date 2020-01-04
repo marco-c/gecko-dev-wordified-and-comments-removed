@@ -76,7 +76,7 @@ testContainer
 )
 ;
 var
-outerWidth
+testContainerWidth
 =
 testContainer
 .
@@ -87,7 +87,7 @@ getBoundingClientRect
 width
 ;
 var
-outerHeight
+testContainerHeight
 =
 testContainer
 .
@@ -232,8 +232,8 @@ testData
 .
 computeInlineReplacedSize
 (
-outerWidth
-outerHeight
+testContainerWidth
+testContainerHeight
 )
 ;
 var
