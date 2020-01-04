@@ -982,6 +982,16 @@ Generator
 "
 )
 ;
+testDefault
+(
+Promise
+.
+prototype
+"
+Promise
+"
+)
+;
 reportCompare
 (
 true
