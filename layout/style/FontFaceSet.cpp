@@ -1770,6 +1770,13 @@ if
 globalObject
 )
 {
+aRv
+.
+Throw
+(
+NS_ERROR_FAILURE
+)
+;
 return
 nullptr
 ;
