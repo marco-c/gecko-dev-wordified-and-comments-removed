@@ -142,9 +142,9 @@ Memory
 "
 devtools
 /
-shared
+server
 /
-shared
+performance
 /
 memory
 "
@@ -162,9 +162,9 @@ Timeline
 "
 devtools
 /
-shared
+server
 /
-shared
+performance
 /
 timeline
 "
@@ -182,9 +182,9 @@ Profiler
 "
 devtools
 /
-shared
+server
 /
-shared
+performance
 /
 profiler
 "

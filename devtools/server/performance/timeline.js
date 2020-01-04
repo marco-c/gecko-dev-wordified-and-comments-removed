@@ -99,9 +99,9 @@ Memory
 "
 devtools
 /
-shared
+server
 /
-shared
+performance
 /
 memory
 "
@@ -119,9 +119,9 @@ Framerate
 "
 devtools
 /
-shared
+server
 /
-shared
+performance
 /
 framerate
 "

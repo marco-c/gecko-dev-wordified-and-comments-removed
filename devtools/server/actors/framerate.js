@@ -75,9 +75,9 @@ require
 "
 devtools
 /
-shared
+server
 /
-shared
+performance
 /
 framerate
 "

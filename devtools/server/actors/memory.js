@@ -52,9 +52,9 @@ require
 "
 devtools
 /
-shared
+server
 /
-shared
+performance
 /
 memory
 "

@@ -51,9 +51,9 @@ require
 "
 devtools
 /
-shared
+server
 /
-shared
+performance
 /
 profiler
 "
