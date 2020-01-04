@@ -2559,6 +2559,16 @@ MOZ_ASSERT
 mThread
 )
 ;
+MOZ_ASSERT
+(
+mThread
+!
+=
+PR_GetCurrentThread
+(
+)
+)
+;
 if
 (
 NS_WARN_IF
