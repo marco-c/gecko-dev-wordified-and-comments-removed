@@ -636,6 +636,17 @@ return
 false
 ;
 }
+MOZ_RELEASE_ASSERT
+(
+GetErrorArgCount
+(
+aErrorNumber
+)
+<
+=
+2
+)
+;
 JS_ReportErrorNumberUC
 (
 aCx
