@@ -4427,6 +4427,17 @@ TypedArraySome
 JS_SELF_HOSTED_FN
 (
 "
+sort
+"
+"
+TypedArraySort
+"
+1
+0
+)
+JS_SELF_HOSTED_FN
+(
+"
 entries
 "
 "
