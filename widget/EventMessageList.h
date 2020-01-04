@@ -1530,7 +1530,7 @@ eMediaRecorderEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_MEDIARECORDER_WARNING
+eMediaRecorderWarning
 eMediaRecorderEventFirst
 +
 2
