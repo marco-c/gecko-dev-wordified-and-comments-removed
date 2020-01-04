@@ -1188,6 +1188,17 @@ MOZ_ASSERT
 decoder
 )
 ;
+MOZ_ASSERT
+(
+!
+aICODecoder
+-
+>
+IsMetadataDecode
+(
+)
+)
+;
 decoder
 -
 >
