@@ -2594,7 +2594,7 @@ RUNNING
 ;
 Log
 .
-w
+i
 (
 LOGTAG
 "
