@@ -2486,6 +2486,9 @@ DeprecatedNoSuchMethod
 DeprecatedFlagsArgument
 =
 7
+DeprecatedRestoredRegExpStatics
+=
+9
 DeprecatedLanguageExtensionCount
 }
 ;

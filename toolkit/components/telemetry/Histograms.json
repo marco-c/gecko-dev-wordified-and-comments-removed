@@ -3561,6 +3561,9 @@ FlagsArgument
 RegExpSourceProp
 =
 8
+RestoredRegExpStatics
+=
+9
 "
 }
 "
@@ -3644,6 +3647,9 @@ FlagsArgument
 RegExpSourceProp
 =
 8
+RestoredRegExpStatics
+=
+9
 "
 }
 "
