@@ -4309,6 +4309,13 @@ java
 '
 telemetry
 /
+TelemetryPreferences
+.
+java
+'
+'
+telemetry
+/
 TelemetryUploadService
 .
 java
