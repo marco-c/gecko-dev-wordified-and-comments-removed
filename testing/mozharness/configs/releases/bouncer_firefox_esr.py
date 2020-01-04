@@ -75,6 +75,18 @@ s
 "
             
 "
+alias
+"
+:
+"
+firefox
+-
+esr
+-
+latest
+"
+            
+"
 ssl
 -
 only
