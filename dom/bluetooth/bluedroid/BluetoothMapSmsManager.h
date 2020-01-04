@@ -393,8 +393,13 @@ BluetoothMapSmsManager
 (
 )
 ;
-bool
+nsresult
 Init
+(
+)
+;
+void
+Uninit
 (
 )
 ;
