@@ -13869,7 +13869,7 @@ sri
 .
 enable
 "
-false
+true
 )
 ;
 pref
@@ -36578,12 +36578,12 @@ goog
 downloadwhite
 -
 digest256
-mozstd
+mozpub
 -
 track
 -
 digest256
-mozstd
+mozpub
 -
 trackwhite
 -
@@ -36604,7 +36604,7 @@ test
 track
 -
 simple
-mozstd
+mozpub
 -
 track
 -
@@ -36625,7 +36625,7 @@ test
 trackwhite
 -
 simple
-mozstd
+mozpub
 -
 trackwhite
 -
@@ -36647,12 +36647,12 @@ mozilla
 lists
 "
 "
-mozstd
+mozpub
 -
 track
 -
 digest256
-mozstd
+mozpub
 -
 trackwhite
 -
@@ -36678,7 +36678,7 @@ https
 :
 /
 /
-shavar
+tracking
 .
 services
 .
@@ -36724,7 +36724,7 @@ https
 :
 /
 /
-shavar
+tracking
 .
 services
 .
