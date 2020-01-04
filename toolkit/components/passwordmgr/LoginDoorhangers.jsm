@@ -265,7 +265,6 @@ this
 ;
 }
 }
-;
 for
 (
 let

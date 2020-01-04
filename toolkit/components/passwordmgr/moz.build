@@ -261,6 +261,11 @@ nsLoginInfo
 js
 '
 '
+nsLoginManager
+.
+js
+'
+'
 nsLoginManagerPrompter
 .
 js
@@ -270,11 +275,6 @@ EXTRA_PP_COMPONENTS
 +
 =
 [
-'
-nsLoginManager
-.
-js
-'
 '
 passwordmgr
 .

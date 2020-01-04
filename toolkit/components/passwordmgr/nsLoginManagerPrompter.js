@@ -2873,7 +2873,7 @@ httpRealm
 "
 )
 ;
-var
+let
 notifyObj
 =
 this
@@ -2947,7 +2947,7 @@ httpRealm
 "
 )
 ;
-var
+let
 notifyObj
 =
 this

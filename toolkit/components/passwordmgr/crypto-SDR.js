@@ -93,7 +93,6 @@ init
 )
 ;
 }
-;
 LoginManagerCrypto_SDR
 .
 prototype

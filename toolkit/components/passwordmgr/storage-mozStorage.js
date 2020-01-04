@@ -204,7 +204,6 @@ LoginManagerStorage_mozStorage
 )
 {
 }
-;
 LoginManagerStorage_mozStorage
 .
 prototype
