@@ -15,6 +15,16 @@ l10n
 "
 )
 ;
+const
+Services
+=
+require
+(
+"
+Services
+"
+)
+;
 require
 (
 "

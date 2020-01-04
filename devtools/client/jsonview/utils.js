@@ -18,6 +18,16 @@ chrome
 )
 ;
 const
+Services
+=
+require
+(
+"
+Services
+"
+)
+;
+const
 {
 getMostRecentBrowserWindow
 }

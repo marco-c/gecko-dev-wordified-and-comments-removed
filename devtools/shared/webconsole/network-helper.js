@@ -56,6 +56,16 @@ DevToolsUtils
 )
 ;
 const
+Services
+=
+require
+(
+"
+Services
+"
+)
+;
+const
 gNSURLStore
 =
 new

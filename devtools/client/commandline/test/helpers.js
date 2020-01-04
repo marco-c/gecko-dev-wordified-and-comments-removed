@@ -65,6 +65,16 @@ target
 )
 ;
 var
+Services
+=
+require
+(
+"
+Services
+"
+)
+;
+var
 assert
 =
 {
