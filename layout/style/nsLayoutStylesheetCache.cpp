@@ -4340,9 +4340,6 @@ n
 |
 *
 :
--
-moz
--
 any
 -
 link
@@ -4418,9 +4415,6 @@ AppendPrintf
 |
 *
 :
--
-moz
--
 any
 -
 link

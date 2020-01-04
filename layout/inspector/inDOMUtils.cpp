@@ -5717,6 +5717,15 @@ type
 CSSPseudoClassType
 :
 :
+anyLink
+|
+|
+type
+=
+=
+CSSPseudoClassType
+:
+:
 mozAnyLink
 )
 {
