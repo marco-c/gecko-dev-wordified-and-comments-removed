@@ -211,6 +211,13 @@ jsm
 "
 )
 ;
+Cu
+.
+permitCPOWsInScope
+(
+this
+)
+;
 var
 gSendCharCount
 =
