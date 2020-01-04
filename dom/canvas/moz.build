@@ -369,6 +369,16 @@ OffscreenCanvas
 cpp
 '
 ]
+SOURCES
++
+=
+[
+'
+ImageUtils
+.
+cpp
+'
+]
 #
 WebGL
 Sources
