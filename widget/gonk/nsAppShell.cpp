@@ -1373,7 +1373,7 @@ mDOMKeyLocation
 ;
 event
 .
-time
+mTime
 =
 mData
 .

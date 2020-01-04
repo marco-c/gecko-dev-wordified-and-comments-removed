@@ -340,7 +340,7 @@ widget
 ;
 event
 .
-time
+mTime
 =
 PR_IntervalNow
 (

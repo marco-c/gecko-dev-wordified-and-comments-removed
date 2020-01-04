@@ -3131,7 +3131,7 @@ aClickCount
 ;
 event
 .
-time
+mTime
 =
 PR_IntervalNow
 (
@@ -3634,7 +3634,7 @@ widget
 ;
 wheelEvent
 .
-time
+mTime
 =
 PR_Now
 (
@@ -4226,7 +4226,7 @@ widget
 ;
 event
 .
-time
+mTime
 =
 PR_Now
 (
@@ -5870,7 +5870,7 @@ aClickCount
 ;
 event
 .
-time
+mTime
 =
 PR_IntervalNow
 (
@@ -8483,7 +8483,7 @@ aPt
 }
 aEvent
 .
-time
+mTime
 =
 PR_IntervalNow
 (

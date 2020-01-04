@@ -8392,7 +8392,7 @@ y
 }
 event
 .
-time
+mTime
 =
 PR_Now
 (
@@ -8910,7 +8910,7 @@ clickCount
 ;
 event
 .
-time
+mTime
 =
 ae
 -
@@ -9472,7 +9472,7 @@ modifiers
 ;
 event
 .
-time
+mTime
 =
 ae
 -
@@ -11082,7 +11082,7 @@ mCodeNameIndex
 ;
 event
 .
-time
+mTime
 =
 time
 ;

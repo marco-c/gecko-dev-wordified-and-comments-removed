@@ -3759,7 +3759,7 @@ DOMModifiers
 ;
 event
 .
-time
+mTime
 =
 Time
 (
@@ -4383,7 +4383,7 @@ DOMModifiers
 ;
 event
 .
-time
+mTime
 =
 Time
 (

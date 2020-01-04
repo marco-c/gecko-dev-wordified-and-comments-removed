@@ -11991,7 +11991,7 @@ time
 =
 anEvent
 .
-time
+mTime
 ;
 event
 .
@@ -12098,7 +12098,7 @@ time
 =
 anEvent
 .
-time
+mTime
 ;
 event
 .
@@ -12204,7 +12204,7 @@ time
 =
 anEvent
 .
-time
+mTime
 ;
 event
 .
@@ -12351,7 +12351,7 @@ time
 =
 anEvent
 .
-time
+mTime
 ;
 const
 GdkEventKey

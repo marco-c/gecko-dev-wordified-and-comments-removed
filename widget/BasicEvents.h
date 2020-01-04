@@ -514,7 +514,7 @@ WidgetEventTime
 public
 :
 uint64_t
-time
+mTime
 ;
 TimeStamp
 timeStamp
@@ -523,7 +523,7 @@ WidgetEventTime
 (
 )
 :
-time
+mTime
 (
 0
 )
@@ -546,7 +546,7 @@ TimeStamp
 aTimeStamp
 )
 :
-time
+mTime
 (
 aTime
 )
@@ -565,11 +565,11 @@ WidgetEventTime
 aOther
 )
 {
-time
+mTime
 =
 aOther
 .
-time
+mTime
 ;
 timeStamp
 =

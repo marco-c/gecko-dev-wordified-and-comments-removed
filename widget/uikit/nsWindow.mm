@@ -986,7 +986,7 @@ eLeftButton
 ;
 event
 .
-time
+mTime
 =
 PR_IntervalNow
 (
@@ -1173,7 +1173,7 @@ now
 .
 event
 .
-time
+mTime
 =
 PR_IntervalNow
 (

@@ -3721,7 +3721,7 @@ aNativeEvent
 ;
 aInputEvent
 .
-time
+mTime
 =
 PR_IntervalNow
 (

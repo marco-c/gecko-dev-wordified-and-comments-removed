@@ -525,11 +525,11 @@ aOther
 .
 modifiers
 ;
-time
+mTime
 =
 aOther
 .
-time
+mTime
 ;
 timeStamp
 =

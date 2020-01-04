@@ -12445,7 +12445,7 @@ aModifiers
 ;
 event
 .
-time
+mTime
 =
 PR_IntervalNow
 (

@@ -1455,7 +1455,7 @@ aPoint
 }
 event
 .
-time
+mTime
 =
 PR_Now
 (

@@ -19579,7 +19579,7 @@ mGeckoChild
 ;
 focusGuiEvent
 .
-time
+mTime
 =
 PR_IntervalNow
 (
