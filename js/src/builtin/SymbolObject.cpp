@@ -305,7 +305,6 @@ ImmutablePropertyNamePtr
 *
 names
 =
-&
 cx
 -
 >
@@ -313,7 +312,9 @@ names
 (
 )
 .
-iterator
+wellKnownSymbolNames
+(
+)
 ;
 RootedValue
 value
