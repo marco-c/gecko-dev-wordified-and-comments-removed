@@ -250,9 +250,6 @@ FetchEvent
 File
 "
 "
-FileReader
-"
-"
 FileReaderSync
 "
 "
