@@ -913,6 +913,11 @@ PrintTargetPDF
 .
 h
 '
+'
+PrintTargetWindows
+.
+h
+'
 ]
 SOURCES
 +
@@ -945,6 +950,11 @@ cpp
 '
 '
 PrintTargetPDF
+.
+cpp
+'
+'
+PrintTargetWindows
 .
 cpp
 '
