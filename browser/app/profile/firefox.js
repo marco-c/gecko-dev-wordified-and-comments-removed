@@ -12848,3 +12848,13 @@ schemeUpgrades
 true
 )
 ;
+pref
+(
+"
+print
+.
+use_simplify_page
+"
+true
+)
+;
