@@ -673,13 +673,6 @@ ePointerEventClass
 )
 EVENT
 (
-selectstart
-NS_SELECT_START
-EventNameType_HTMLXUL
-eBasicEventClass
-)
-EVENT
-(
 pause
 NS_PAUSE
 EventNameType_HTML
@@ -1075,13 +1068,6 @@ DOCUMENT_ONLY_EVENT
 (
 readystatechange
 eReadyStateChange
-EventNameType_HTMLXUL
-eBasicEventClass
-)
-DOCUMENT_ONLY_EVENT
-(
-selectionchange
-NS_SELECTION_CHANGE
 EventNameType_HTMLXUL
 eBasicEventClass
 )
