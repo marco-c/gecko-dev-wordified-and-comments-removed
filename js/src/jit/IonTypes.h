@@ -2053,7 +2053,7 @@ kind
 static
 inline
 MIRType
-SimdTypeToScalarType
+SimdTypeToLaneType
 (
 MIRType
 type

@@ -5070,9 +5070,9 @@ DebugOnly
 <
 MIRType
 >
-scalarType
+laneType
 =
-SimdTypeToScalarType
+SimdTypeToLaneType
 (
 type
 (
@@ -5124,7 +5124,7 @@ type
 )
 =
 =
-scalarType
+laneType
 )
 ;
 if
@@ -5372,9 +5372,9 @@ DebugOnly
 <
 MIRType
 >
-scalarType
+laneType
 =
-SimdTypeToScalarType
+SimdTypeToLaneType
 (
 type
 (
@@ -5413,7 +5413,7 @@ type
 )
 =
 =
-scalarType
+laneType
 )
 ;
 SimdConstant

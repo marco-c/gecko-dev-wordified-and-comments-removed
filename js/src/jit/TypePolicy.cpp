@@ -3858,9 +3858,9 @@ type
 )
 ;
 MIRType
-scalarType
+laneType
 =
-SimdTypeToScalarType
+SimdTypeToLaneType
 (
 ins
 -
@@ -3892,7 +3892,7 @@ type
 )
 =
 =
-scalarType
+laneType
 )
 return
 true
@@ -3903,7 +3903,7 @@ replace
 ;
 if
 (
-scalarType
+laneType
 =
 =
 MIRType_Int32
@@ -3925,7 +3925,7 @@ else
 {
 MOZ_ASSERT
 (
-scalarType
+laneType
 =
 =
 MIRType_Float32
