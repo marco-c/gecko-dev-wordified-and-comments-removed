@@ -1094,6 +1094,13 @@ eDeviceLight
 EventNameType_None
 eBasicEventClass
 )
+WINDOW_ONLY_EVENT
+(
+install
+eInstall
+EventNameType_None
+eBasicEventClass
+)
 #
 ifdef
 MOZ_B2G

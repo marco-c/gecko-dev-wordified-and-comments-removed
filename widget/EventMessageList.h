@@ -77,6 +77,10 @@ eScroll
 )
 NS_EVENT_MESSAGE
 (
+eInstall
+)
+NS_EVENT_MESSAGE
+(
 ePluginActivate
 )
 NS_EVENT_MESSAGE
