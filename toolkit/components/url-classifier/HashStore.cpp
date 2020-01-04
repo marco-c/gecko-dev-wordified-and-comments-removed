@@ -2226,6 +2226,9 @@ Merge
 aUpdateChunks
 )
 ;
+if
+(
+!
 aStorePrefixes
 -
 >
@@ -2234,6 +2237,9 @@ AppendElements
 adds
 fallible
 )
+)
+return
+NS_ERROR_OUT_OF_MEMORY
 ;
 EntrySort
 (
