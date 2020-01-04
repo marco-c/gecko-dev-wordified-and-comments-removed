@@ -379,7 +379,7 @@ Non
 standard
 extensions
 dictionary
-AnimationPropertyState
+AnimationPropertyDetails
 {
 DOMString
 property
@@ -402,9 +402,9 @@ ChromeOnly
 ]
 sequence
 <
-AnimationPropertyState
+AnimationPropertyDetails
 >
-getPropertyState
+getProperties
 (
 )
 ;
