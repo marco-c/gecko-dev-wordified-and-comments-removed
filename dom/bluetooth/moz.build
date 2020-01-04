@@ -133,6 +133,13 @@ SOURCES
 '
 common
 /
+BluetoothGattReplyRunnable
+.
+cpp
+'
+'
+common
+/
 BluetoothHidManager
 .
 cpp
