@@ -413,7 +413,7 @@ AudioContext
 (
 )
 ;
-nsresult
+void
 Init
 (
 )
