@@ -27647,7 +27647,7 @@ DISPLAY_MIN_WIDTH
 aFrame
 data
 .
-prevLines
+mPrevLines
 )
 ;
 aFrame
@@ -27669,7 +27669,7 @@ ForceBreak
 return
 data
 .
-prevLines
+mPrevLines
 ;
 }
 nscoord
@@ -27718,7 +27718,7 @@ DISPLAY_PREF_WIDTH
 aFrame
 data
 .
-prevLines
+mPrevLines
 )
 ;
 aFrame
@@ -27740,7 +27740,7 @@ ForceBreak
 return
 data
 .
-prevLines
+mPrevLines
 ;
 }
 static

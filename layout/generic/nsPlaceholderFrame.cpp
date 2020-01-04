@@ -253,7 +253,7 @@ MIN_ISIZE
 aData
 -
 >
-floats
+mFloats
 .
 AppendElement
 (
@@ -315,7 +315,7 @@ PREF_ISIZE
 aData
 -
 >
-floats
+mFloats
 .
 AppendElement
 (

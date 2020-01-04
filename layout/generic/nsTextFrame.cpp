@@ -38856,7 +38856,7 @@ if
 aData
 -
 >
-skipWhitespace
+mSkipWhitespace
 )
 {
 while
@@ -39072,7 +39072,7 @@ LineContainer
 aData
 -
 >
-line
+mLine
 &
 flowEndInTextRun
 )
@@ -39472,21 +39472,21 @@ width
 aData
 -
 >
-currentLine
+mCurrentLine
 =
 NSCoordSaturatingAdd
 (
 aData
 -
 >
-currentLine
+mCurrentLine
 width
 )
 ;
 aData
 -
 >
-atStartOfLine
+mAtStartOfLine
 =
 false
 ;
@@ -39519,7 +39519,7 @@ start
 aData
 -
 >
-trailingWhitespace
+mTrailingWhitespace
 +
 =
 width
@@ -39550,7 +39550,7 @@ provider
 aData
 -
 >
-trailingWhitespace
+mTrailingWhitespace
 =
 std
 :
@@ -39568,7 +39568,7 @@ else
 aData
 -
 >
-trailingWhitespace
+mTrailingWhitespace
 =
 0
 ;
@@ -39603,7 +39603,7 @@ spacing
 aData
 -
 >
-currentLine
+mCurrentLine
 +
 =
 nscoord
@@ -39621,7 +39621,7 @@ AdvanceToNextTab
 aData
 -
 >
-currentLine
+mCurrentLine
 this
 textRun
 &
@@ -39631,7 +39631,7 @@ tabWidth
 aData
 -
 >
-currentLine
+mCurrentLine
 =
 nscoord
 (
@@ -39759,7 +39759,7 @@ flowEndInTextRun
 aData
 -
 >
-skipWhitespace
+mSkipWhitespace
 =
 IsTrimmableSpace
 (
@@ -39984,7 +39984,7 @@ continuation
 aData
 -
 >
-line
+mLine
 =
 nullptr
 ;
@@ -40063,7 +40063,7 @@ LineContainer
 aData
 -
 >
-line
+mLine
 &
 flowEndInTextRun
 )
@@ -40330,14 +40330,14 @@ width
 aData
 -
 >
-currentLine
+mCurrentLine
 =
 NSCoordSaturatingAdd
 (
 aData
 -
 >
-currentLine
+mCurrentLine
 width
 )
 ;
@@ -40370,7 +40370,7 @@ start
 aData
 -
 >
-trailingWhitespace
+mTrailingWhitespace
 +
 =
 width
@@ -40401,7 +40401,7 @@ provider
 aData
 -
 >
-trailingWhitespace
+mTrailingWhitespace
 =
 std
 :
@@ -40419,7 +40419,7 @@ else
 aData
 -
 >
-trailingWhitespace
+mTrailingWhitespace
 =
 0
 ;
@@ -40454,7 +40454,7 @@ spacing
 aData
 -
 >
-currentLine
+mCurrentLine
 +
 =
 nscoord
@@ -40472,7 +40472,7 @@ AdvanceToNextTab
 aData
 -
 >
-currentLine
+mCurrentLine
 this
 textRun
 &
@@ -40482,7 +40482,7 @@ tabWidth
 aData
 -
 >
-currentLine
+mCurrentLine
 =
 nscoord
 (
@@ -40529,7 +40529,7 @@ flowEndInTextRun
 aData
 -
 >
-skipWhitespace
+mSkipWhitespace
 =
 IsTrimmableSpace
 (
@@ -40728,7 +40728,7 @@ continuation
 aData
 -
 >
-line
+mLine
 =
 nullptr
 ;

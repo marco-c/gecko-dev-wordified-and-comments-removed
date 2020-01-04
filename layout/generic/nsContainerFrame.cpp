@@ -3958,7 +3958,7 @@ sliceBreak
 aData
 -
 >
-currentLine
+mCurrentLine
 +
 =
 startPBM
@@ -4041,7 +4041,7 @@ savedLine
 aData
 -
 >
-line
+mLine
 ;
 nsIFrame
 *
@@ -4091,7 +4091,7 @@ if
 aData
 -
 >
-currentLine
+mCurrentLine
 =
 =
 0
@@ -4100,7 +4100,7 @@ currentLine
 aData
 -
 >
-currentLine
+mCurrentLine
 =
 clonePBM
 ;
@@ -4164,7 +4164,7 @@ aData
 aData
 -
 >
-line
+mLine
 =
 nullptr
 ;
@@ -4184,7 +4184,7 @@ nif
 aData
 -
 >
-line
+mLine
 =
 savedLine
 ;
@@ -4216,7 +4216,7 @@ sliceBreak
 aData
 -
 >
-currentLine
+mCurrentLine
 +
 =
 endPBM
