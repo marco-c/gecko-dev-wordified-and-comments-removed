@@ -107,6 +107,11 @@ DBusUtils
 h
 '
 '
+DBusWatcher
+.
+h
+'
+'
 RawDBusConnection
 .
 h
@@ -118,6 +123,11 @@ SOURCES
 [
 '
 DBusUtils
+.
+cpp
+'
+'
+DBusWatcher
 .
 cpp
 '
