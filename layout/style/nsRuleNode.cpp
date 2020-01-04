@@ -39139,9 +39139,8 @@ coord
 bool
 vertical
 ;
-uint8_t
-writingMode
-=
+switch
+(
 aContext
 -
 >
@@ -39151,10 +39150,6 @@ StyleVisibility
 -
 >
 mWritingMode
-;
-switch
-(
-writingMode
 )
 {
 default
@@ -39199,6 +39194,18 @@ true
 break
 ;
 }
+uint8_t
+wm
+=
+WritingMode
+(
+aContext
+)
+.
+GetBits
+(
+)
+;
 const
 nsCSSValue
 *
@@ -39228,7 +39235,7 @@ conditions
 .
 SetWritingModeDependency
 (
-writingMode
+wm
 )
 ;
 }
@@ -39303,7 +39310,7 @@ conditions
 .
 SetWritingModeDependency
 (
-writingMode
+wm
 )
 ;
 }
@@ -39378,7 +39385,7 @@ conditions
 .
 SetWritingModeDependency
 (
-writingMode
+wm
 )
 ;
 }
@@ -39453,7 +39460,7 @@ conditions
 .
 SetWritingModeDependency
 (
-writingMode
+wm
 )
 ;
 }
@@ -39529,7 +39536,7 @@ conditions
 .
 SetWritingModeDependency
 (
-writingMode
+wm
 )
 ;
 }
@@ -39605,7 +39612,7 @@ conditions
 .
 SetWritingModeDependency
 (
-writingMode
+wm
 )
 ;
 }
