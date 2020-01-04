@@ -1936,6 +1936,11 @@ activateontab
 "
 true
 "
+position
+=
+"
+after_start
+"
 #
 ifdef
 XP_WIN
