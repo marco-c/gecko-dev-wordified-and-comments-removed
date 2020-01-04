@@ -352,6 +352,7 @@ v
 .
 asBits
 )
+{
 *
 word
 =
@@ -362,6 +363,7 @@ v
 .
 asBits
 ;
+}
 continue
 ;
 }
