@@ -1316,7 +1316,7 @@ profile
 deviceId
 "
 "
-isDeviceStale
+deviceRegistrationVersion
 "
 ]
 )
@@ -1385,7 +1385,7 @@ profile
 deviceId
 "
 "
-isDeviceStale
+deviceRegistrationVersion
 "
 "
 verified
