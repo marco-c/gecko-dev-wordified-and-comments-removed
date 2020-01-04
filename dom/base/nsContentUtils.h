@@ -5212,6 +5212,15 @@ EventTarget
 aTarget
 )
 ;
+static
+bool
+HttpsStateIsModern
+(
+nsIDocument
+*
+aDocument
+)
+;
 private
 :
 static
