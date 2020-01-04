@@ -2467,6 +2467,10 @@ Clear
 (
 )
 ;
+mInitCancelled
+=
+true
+;
 nsNPAPIPluginInstance
 *
 inst
