@@ -594,10 +594,13 @@ function
 notified
 (
 )
+{
+return
 observer
 .
 notified
 ;
+}
 /
 /
 Load
