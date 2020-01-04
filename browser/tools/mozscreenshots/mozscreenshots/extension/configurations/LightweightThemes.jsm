@@ -247,7 +247,7 @@ textcolor
 :
 "
 #
-ffffff
+eeeeee
 "
 accentcolor
 :
@@ -328,7 +328,7 @@ textcolor
 :
 "
 #
-000000
+111111
 "
 accentcolor
 :
