@@ -443,9 +443,9 @@ const
 char
 *
 aMsgText
-DocAccessible
+Accessible
 *
-aDoc
+aRoot
 GetTreePrefix
 aPrefixFunc
 =
