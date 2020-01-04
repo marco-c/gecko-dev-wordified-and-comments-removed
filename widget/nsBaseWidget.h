@@ -1666,14 +1666,6 @@ return
 aClientSize
 ;
 }
-already_AddRefed
-<
-nsIScreen
->
-GetWidgetScreen
-(
-)
-;
 bool
 IsPopupWithTitleBar
 (
