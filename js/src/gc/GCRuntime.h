@@ -2758,6 +2758,14 @@ lifo
 )
 ;
 void
+freeAllLifoBlocksAfterMinorGC
+(
+LifoAlloc
+*
+lifo
+)
+;
+void
 releaseArena
 (
 Arena
@@ -4001,7 +4009,10 @@ ZoneList
 backgroundSweepZones
 ;
 LifoAlloc
-freeLifoAlloc
+blocksToFreeAfterSweeping
+;
+LifoAlloc
+blocksToFreeAfterMinorGC
 ;
 unsigned
 zoneGroupIndex
