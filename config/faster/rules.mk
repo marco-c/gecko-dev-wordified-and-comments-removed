@@ -591,8 +591,8 @@ of
 writing
 the
 only
-one
-is
+ones
+are
 in
 #
 toolkit
@@ -602,6 +602,14 @@ content
 buildconfig
 .
 html
+and
+browser
+/
+locales
+/
+jar
+.
+mn
 .
 ACDEFINES
 +
