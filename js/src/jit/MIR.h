@@ -62014,7 +62014,7 @@ which_
 ;
 union
 {
-AsmJSInternalCallee
+uint32_t
 internal_
 ;
 MDefinition
@@ -62040,7 +62040,7 @@ Callee
 explicit
 Callee
 (
-AsmJSInternalCallee
+uint32_t
 callee
 )
 :
@@ -62108,7 +62108,7 @@ return
 which_
 ;
 }
-AsmJSInternalCallee
+uint32_t
 internal
 (
 )

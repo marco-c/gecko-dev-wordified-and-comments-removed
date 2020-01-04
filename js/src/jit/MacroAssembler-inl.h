@@ -364,7 +364,7 @@ wasm
 CallSiteDesc
 &
 desc
-AsmJSInternalCallee
+uint32_t
 callee
 )
 {
@@ -383,8 +383,6 @@ framePushed
 (
 )
 callee
-.
-index
 )
 ;
 }

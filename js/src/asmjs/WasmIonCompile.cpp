@@ -4728,10 +4728,7 @@ MAsmJSCall
 :
 Callee
 (
-AsmJSInternalCallee
-(
 funcIndex
-)
 )
 call
 sig

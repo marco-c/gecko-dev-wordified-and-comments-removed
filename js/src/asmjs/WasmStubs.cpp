@@ -1339,10 +1339,7 @@ CallSiteDesc
 :
 Relative
 )
-AsmJSInternalCallee
-(
 target
-)
 )
 ;
 masm
