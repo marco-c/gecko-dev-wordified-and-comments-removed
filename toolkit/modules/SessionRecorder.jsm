@@ -1,6 +1,3 @@
-#
-ifndef
-MERGED_COMPARTMENT
 "
 use
 strict
@@ -31,8 +28,6 @@ Cu
 =
 Components
 ;
-#
-endif
 Cu
 .
 import

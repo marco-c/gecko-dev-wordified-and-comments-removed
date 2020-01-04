@@ -447,6 +447,11 @@ Services
 jsm
 '
 '
+SessionRecorder
+.
+jsm
+'
+'
 sessionstore
 /
 FormData
@@ -529,11 +534,6 @@ EXTRA_PP_JS_MODULES
 [
 '
 AppConstants
-.
-jsm
-'
-'
-SessionRecorder
 .
 jsm
 '
