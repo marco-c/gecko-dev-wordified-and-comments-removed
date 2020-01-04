@@ -9267,7 +9267,7 @@ version
 ;
 }
 void
-setEnclosingScopeAndSource
+setParent
 (
 JSObject
 *
