@@ -807,12 +807,6 @@ webrtc
 '
 '
 /
-modules
-/
-libjar
-'
-'
-/
 netwerk
 /
 base
