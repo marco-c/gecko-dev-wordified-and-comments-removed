@@ -139,6 +139,9 @@ gaia
 sh
 GECKO_DIR
 GAIA_DIR
+gaia_props
+.
+py
 #
 Ensure
 symlink

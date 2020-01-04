@@ -2062,6 +2062,27 @@ s_api_11_partner_sample1
 .
 py
 '
+        
+'
+api
+-
+11
+-
+b2gdroid
+'
+:
+'
+builds
+/
+releng_sub_
+%
+s_configs
+/
+%
+s_api_11_b2gdroid
+.
+py
+'
     
 }
     

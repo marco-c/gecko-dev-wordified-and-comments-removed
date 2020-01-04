@@ -54,12 +54,13 @@ gecko_dir
 target
 =
 2
+gaia_props
+=
+3
 gaia_repo
 =
 (
 gaia_props
-.
-py
 gecko_dir
 repository
 )
@@ -67,8 +68,6 @@ gaia_rev
 =
 (
 gaia_props
-.
-py
 gecko_dir
 revision
 )
