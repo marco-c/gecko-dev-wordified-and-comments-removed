@@ -6045,10 +6045,6 @@ EnsureNextIteration
 )
 ;
 }
-mStateComputedTime
-=
-aEndBlockingDecisions
-;
 }
 void
 MediaStreamGraphImpl
@@ -6711,6 +6707,10 @@ UpdateGraph
 (
 stateEnd
 )
+;
+mStateComputedTime
+=
+stateEnd
 ;
 Process
 (
