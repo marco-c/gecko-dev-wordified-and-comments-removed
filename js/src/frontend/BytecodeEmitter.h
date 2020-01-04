@@ -2321,8 +2321,6 @@ emitStatementList
 ParseNode
 *
 pn
-ptrdiff_t
-top
 )
 ;
 bool
@@ -2446,8 +2444,6 @@ emitFor
 ParseNode
 *
 pn
-ptrdiff_t
-top
 )
 ;
 bool
@@ -2456,8 +2452,6 @@ emitForIn
 ParseNode
 *
 pn
-ptrdiff_t
-top
 )
 ;
 bool
@@ -2477,8 +2471,6 @@ emitCStyleFor
 ParseNode
 *
 pn
-ptrdiff_t
-top
 )
 ;
 bool
@@ -2487,8 +2479,6 @@ emitWhile
 ParseNode
 *
 pn
-ptrdiff_t
-top
 )
 ;
 bool
@@ -2558,8 +2548,6 @@ type
 ParseNode
 *
 pn
-ptrdiff_t
-top
 )
 ;
 bool
