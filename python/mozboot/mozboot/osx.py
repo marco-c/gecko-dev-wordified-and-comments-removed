@@ -2503,6 +2503,8 @@ self
 .
 ndk_url
 =
+android
+.
 android_ndk_url
 (
 '
@@ -2597,7 +2599,7 @@ android_tool
 )
     
 def
-suggest_mobile_android_mozconfig
+suggest_homebrew_mobile_android_mozconfig
 (
 self
 )

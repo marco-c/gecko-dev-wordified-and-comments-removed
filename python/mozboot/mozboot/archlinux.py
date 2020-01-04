@@ -639,11 +639,13 @@ linux
 .
 tgz
 '
-	
+        
 self
 .
 ndk_url
 =
+android
+.
 android_ndk_url
 (
 '
