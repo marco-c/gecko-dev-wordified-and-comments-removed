@@ -118,6 +118,10 @@ destructorSafeDestroyNSSReference
 void
 refreshSlotInfo
 (
+const
+nsNSSShutDownPreventionLock
+&
+proofOfLock
 )
 ;
 }
@@ -177,6 +181,8 @@ public
 nsIPKCS11ModuleDB
 public
 nsICryptoFIPSInfo
+public
+nsNSSShutDownObject
 {
 public
 :
@@ -195,6 +201,14 @@ nsPKCS11ModuleDB
 (
 )
 ;
+virtual
+void
+virtualDestroyNSSReference
+(
+)
+override
+{
+}
 }
 ;
 #
