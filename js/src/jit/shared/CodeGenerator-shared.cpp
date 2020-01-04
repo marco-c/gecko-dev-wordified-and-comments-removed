@@ -825,7 +825,12 @@ this
 ;
 }
 return
-true
+!
+masm
+.
+oom
+(
+)
 ;
 }
 void

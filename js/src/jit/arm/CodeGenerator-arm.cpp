@@ -757,7 +757,12 @@ handler
 ;
 }
 return
-true
+!
+masm
+.
+oom
+(
+)
 ;
 }
 void
