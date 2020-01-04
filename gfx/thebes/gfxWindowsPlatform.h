@@ -918,7 +918,6 @@ TestDeviceReset
 DeviceResetReason
 aReason
 )
-override
 ;
 virtual
 already_AddRefed

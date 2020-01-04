@@ -1826,15 +1826,6 @@ mCompositorBackend
 }
 virtual
 void
-TestDeviceReset
-(
-DeviceResetReason
-aReason
-)
-{
-}
-virtual
-void
 GetDeviceInitData
 (
 mozilla
