@@ -275,6 +275,11 @@ TextTrackCue
 aCue
 )
 ;
+void
+NotifyReset
+(
+)
+;
 private
 :
 void
