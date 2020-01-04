@@ -613,8 +613,10 @@ CompositableChild
 *
 mCompositableChild
 ;
+RefPtr
+<
 CompositableForwarder
-*
+>
 mForwarder
 ;
 TextureFlags
