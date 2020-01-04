@@ -3053,7 +3053,7 @@ mNodeInfo
 .
 swap
 (
-nodeInfo
+newNodeInfo
 )
 ;
 return
