@@ -3403,7 +3403,7 @@ services
 -
 common
 /
-kinto
+blocklist
 -
 updater
 .
