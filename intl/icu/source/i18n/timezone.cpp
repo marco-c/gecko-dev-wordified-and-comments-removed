@@ -2284,6 +2284,10 @@ uprv_tzset
 (
 )
 ;
+uprv_tzname_clear_cache
+(
+)
+;
 hostID
 =
 uprv_tzname
