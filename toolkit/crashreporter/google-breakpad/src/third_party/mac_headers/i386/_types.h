@@ -1,0 +1,17 @@
+#
+ifndef
+_BSD_I386__TYPES_H_
+#
+define
+_BSD_I386__TYPES_H_
+typedef
+long
+__darwin_intptr_t
+;
+typedef
+unsigned
+int
+__darwin_natural_t
+;
+#
+endif
