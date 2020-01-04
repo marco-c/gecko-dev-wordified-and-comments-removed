@@ -3109,7 +3109,7 @@ SecondScratchReg
 ;
 masm
 .
-ma_or
+as_or
 (
 scratch
 ToRegister
@@ -4952,7 +4952,7 @@ rhs
 else
 masm
 .
-ma_or
+as_or
 (
 ToRegister
 (
@@ -5006,7 +5006,7 @@ rhs
 else
 masm
 .
-ma_xor
+as_xor
 (
 ToRegister
 (
@@ -5060,7 +5060,7 @@ rhs
 else
 masm
 .
-ma_and
+as_and
 (
 ToRegister
 (
@@ -10250,7 +10250,7 @@ right
 else
 masm
 .
-ma_and
+as_and
 (
 ScratchRegister
 ToRegister
