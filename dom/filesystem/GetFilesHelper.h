@@ -548,6 +548,11 @@ bool
 aRecursiveFlag
 )
 ;
+~
+GetFilesHelperParent
+(
+)
+;
 RefPtr
 <
 ContentParent
