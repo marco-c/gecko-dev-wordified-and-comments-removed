@@ -229,7 +229,7 @@ mVorbisComment
 )
 ;
 }
-nsresult
+void
 VorbisDataDecoder
 :
 :
@@ -237,9 +237,6 @@ Shutdown
 (
 )
 {
-return
-NS_OK
-;
 }
 RefPtr
 <
@@ -663,7 +660,7 @@ NS_OK
 NS_ERROR_FAILURE
 ;
 }
-nsresult
+void
 VorbisDataDecoder
 :
 :
@@ -706,9 +703,6 @@ ProcessDecode
 aSample
 )
 )
-;
-return
-NS_OK
 ;
 }
 void
@@ -1396,7 +1390,7 @@ DrainComplete
 )
 ;
 }
-nsresult
+void
 VorbisDataDecoder
 :
 :
@@ -1430,11 +1424,8 @@ ProcessDrain
 )
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 VorbisDataDecoder
 :
 :
@@ -1497,9 +1488,6 @@ r
 mIsFlushing
 =
 false
-;
-return
-NS_OK
 ;
 }
 bool

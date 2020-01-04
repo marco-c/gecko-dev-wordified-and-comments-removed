@@ -513,7 +513,7 @@ AutoNotifyDecoded
 aA
 )
 ;
-bool
+void
 DecodeDemuxedSamples
 (
 TrackType

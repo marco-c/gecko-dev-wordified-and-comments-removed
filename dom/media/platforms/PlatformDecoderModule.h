@@ -725,7 +725,7 @@ Init
 0
 ;
 virtual
-nsresult
+void
 Input
 (
 MediaRawData
@@ -736,7 +736,7 @@ aSample
 0
 ;
 virtual
-nsresult
+void
 Flush
 (
 )
@@ -744,7 +744,7 @@ Flush
 0
 ;
 virtual
-nsresult
+void
 Drain
 (
 )
@@ -752,7 +752,7 @@ Drain
 0
 ;
 virtual
-nsresult
+void
 Shutdown
 (
 )
@@ -774,7 +774,7 @@ false
 ;
 }
 virtual
-nsresult
+void
 ConfigurationChanged
 (
 const
@@ -783,9 +783,6 @@ TrackInfo
 aConfig
 )
 {
-return
-NS_OK
-;
 }
 virtual
 const

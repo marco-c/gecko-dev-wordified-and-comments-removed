@@ -797,7 +797,7 @@ return
 p
 ;
 }
-nsresult
+void
 OmxDataDecoder
 :
 :
@@ -911,11 +911,8 @@ forget
 )
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 OmxDataDecoder
 :
 :
@@ -967,11 +964,8 @@ Wait
 )
 ;
 }
-return
-NS_OK
-;
 }
-nsresult
+void
 OmxDataDecoder
 :
 :
@@ -1001,11 +995,8 @@ SendEosBuffer
 )
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 OmxDataDecoder
 :
 :
@@ -1072,9 +1063,6 @@ mOmxTaskQueue
 AwaitShutdownAndIdle
 (
 )
-;
-return
-NS_OK
 ;
 }
 void

@@ -355,7 +355,7 @@ __func__
 )
 ;
 }
-nsresult
+void
 AppleVTDecoder
 :
 :
@@ -448,11 +448,8 @@ aSample
 )
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 AppleVTDecoder
 :
 :
@@ -509,11 +506,8 @@ reset
 (
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 AppleVTDecoder
 :
 :
@@ -559,11 +553,8 @@ forget
 )
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 AppleVTDecoder
 :
 :
@@ -622,9 +613,6 @@ ProcessShutdown
 )
 ;
 }
-return
-NS_OK
-;
 }
 nsresult
 AppleVTDecoder

@@ -234,7 +234,7 @@ mCallback
 )
 {
 }
-nsresult
+void
 WaveDataDecoder
 :
 :
@@ -242,9 +242,6 @@ Shutdown
 (
 )
 {
-return
-NS_OK
-;
 }
 RefPtr
 <
@@ -274,7 +271,7 @@ __func__
 )
 ;
 }
-nsresult
+void
 WaveDataDecoder
 :
 :
@@ -316,9 +313,6 @@ InputExhausted
 )
 ;
 }
-return
-NS_OK
-;
 }
 bool
 WaveDataDecoder
@@ -696,7 +690,7 @@ return
 true
 ;
 }
-nsresult
+void
 WaveDataDecoder
 :
 :
@@ -711,11 +705,8 @@ DrainComplete
 (
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 WaveDataDecoder
 :
 :
@@ -723,9 +714,6 @@ Flush
 (
 )
 {
-return
-NS_OK
-;
 }
 bool
 WaveDataDecoder

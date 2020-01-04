@@ -1680,7 +1680,7 @@ Init
 )
 ;
 }
-nsresult
+void
 GonkMediaDataDecoder
 :
 :
@@ -1688,9 +1688,6 @@ Shutdown
 (
 )
 {
-nsresult
-rv
-=
 mManager
 -
 >
@@ -1702,11 +1699,8 @@ mManager
 =
 nullptr
 ;
-return
-rv
-;
 }
-nsresult
+void
 GonkMediaDataDecoder
 :
 :
@@ -1725,11 +1719,8 @@ Input
 aSample
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 GonkMediaDataDecoder
 :
 :
@@ -1737,7 +1728,6 @@ Flush
 (
 )
 {
-return
 mManager
 -
 >
@@ -1746,7 +1736,7 @@ Flush
 )
 ;
 }
-nsresult
+void
 GonkMediaDataDecoder
 :
 :
@@ -1761,9 +1751,6 @@ Input
 (
 nullptr
 )
-;
-return
-NS_OK
 ;
 }
 }

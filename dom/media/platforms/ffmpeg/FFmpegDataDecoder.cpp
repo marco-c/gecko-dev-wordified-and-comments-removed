@@ -381,7 +381,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 FFmpegDataDecoder
 <
 LIBAV_VER
@@ -436,9 +436,6 @@ ProcessShutdown
 )
 ;
 }
-return
-NS_OK
-;
 }
 void
 FFmpegDataDecoder
@@ -545,7 +542,7 @@ break
 ;
 }
 }
-nsresult
+void
 FFmpegDataDecoder
 <
 LIBAV_VER
@@ -582,11 +579,8 @@ aSample
 )
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 FFmpegDataDecoder
 <
 LIBAV_VER
@@ -643,11 +637,8 @@ mIsFlushing
 =
 false
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 FFmpegDataDecoder
 <
 LIBAV_VER
@@ -698,9 +689,6 @@ forget
 (
 )
 )
-;
-return
-NS_OK
 ;
 }
 void

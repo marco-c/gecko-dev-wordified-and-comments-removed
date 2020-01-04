@@ -192,7 +192,7 @@ nullptr
 ;
 }
 }
-nsresult
+void
 OpusDataDecoder
 :
 :
@@ -200,9 +200,6 @@ Shutdown
 (
 )
 {
-return
-NS_OK
-;
 }
 void
 OpusDataDecoder
@@ -836,7 +833,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 OpusDataDecoder
 :
 :
@@ -869,9 +866,6 @@ ProcessDecode
 aSample
 )
 )
-;
-return
-NS_OK
 ;
 }
 void
@@ -1849,7 +1843,7 @@ DrainComplete
 )
 ;
 }
-nsresult
+void
 OpusDataDecoder
 :
 :
@@ -1873,11 +1867,8 @@ ProcessDrain
 )
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 OpusDataDecoder
 :
 :
@@ -1892,7 +1883,6 @@ mOpusDecoder
 )
 {
 return
-NS_OK
 ;
 }
 mIsFlushing
@@ -1956,9 +1946,6 @@ runnable
 mIsFlushing
 =
 false
-;
-return
-NS_OK
 ;
 }
 bool

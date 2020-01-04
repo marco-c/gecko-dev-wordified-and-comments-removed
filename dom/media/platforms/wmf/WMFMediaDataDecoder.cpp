@@ -303,7 +303,7 @@ runnable
 )
 ;
 }
-nsresult
+void
 WMFMediaDataDecoder
 :
 :
@@ -350,9 +350,6 @@ mIsShutDown
 =
 true
 ;
-return
-NS_OK
-;
 }
 void
 WMFMediaDataDecoder
@@ -395,7 +392,7 @@ S_OK
 }
 }
 }
-nsresult
+void
 WMFMediaDataDecoder
 :
 :
@@ -462,9 +459,6 @@ forget
 (
 )
 )
-;
-return
-NS_OK
 ;
 }
 void
@@ -695,7 +689,7 @@ Flush
 ;
 }
 }
-nsresult
+void
 WMFMediaDataDecoder
 :
 :
@@ -752,9 +746,6 @@ mIsFlushing
 =
 false
 ;
-return
-NS_OK
-;
 }
 void
 WMFMediaDataDecoder
@@ -793,7 +784,7 @@ DrainComplete
 )
 ;
 }
-nsresult
+void
 WMFMediaDataDecoder
 :
 :
@@ -833,9 +824,6 @@ ProcessDrain
 )
 )
 ;
-return
-NS_OK
-;
 }
 bool
 WMFMediaDataDecoder
@@ -868,7 +856,7 @@ aFailureReason
 )
 ;
 }
-nsresult
+void
 WMFMediaDataDecoder
 :
 :
@@ -930,9 +918,6 @@ forget
 (
 )
 )
-;
-return
-NS_OK
 ;
 }
 void
