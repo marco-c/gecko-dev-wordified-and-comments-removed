@@ -7389,8 +7389,6 @@ uint64_t
 aLength
 int64_t
 aLastModifiedDate
-BlobDirState
-aDirState
 )
 override
 ;
@@ -10180,8 +10178,6 @@ uint64_t
 aLength
 int64_t
 aLastModifiedDate
-BlobDirState
-aDirState
 )
 {
 MOZ_CRASH
@@ -12840,7 +12836,6 @@ aName
 aContentType
 aLength
 aLastModifiedDate
-aDirState
 )
 ;
 FileBlobConstructorParams
@@ -12910,10 +12905,6 @@ voidString
 aContentType
 aLength
 INT64_MAX
-BlobDirState
-:
-:
-eUnknownIfDir
 )
 ;
 NormalBlobConstructorParams
@@ -16147,10 +16138,6 @@ length
 (
 )
 INT64_MAX
-BlobDirState
-:
-:
-eUnknownIfDir
 )
 ;
 return
@@ -16269,14 +16256,6 @@ params
 .
 modDate
 (
-)
-BlobDirState
-(
-params
-.
-dirState
-(
-)
 )
 )
 ;

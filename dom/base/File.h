@@ -1239,8 +1239,6 @@ uint64_t
 aLength
 int64_t
 aLastModifiedDate
-BlobDirState
-aDirState
 )
 =
 0
@@ -1852,8 +1850,6 @@ uint64_t
 aLength
 int64_t
 aLastModifiedDate
-BlobDirState
-aDirState
 )
 override
 {
