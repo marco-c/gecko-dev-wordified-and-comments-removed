@@ -13551,13 +13551,13 @@ namespace
 mozilla
 {
 class
-nsStyleBasicShape
+StyleBasicShape
 final
 {
 public
 :
 explicit
-nsStyleBasicShape
+StyleBasicShape
 (
 StyleBasicShapeType
 type
@@ -13860,7 +13860,7 @@ operator
 =
 (
 const
-nsStyleBasicShape
+StyleBasicShape
 &
 aOther
 )
@@ -13913,7 +13913,7 @@ operator
 =
 (
 const
-nsStyleBasicShape
+StyleBasicShape
 &
 aOther
 )
@@ -13932,13 +13932,13 @@ aOther
 }
 NS_INLINE_DECL_REFCOUNTING
 (
-nsStyleBasicShape
+StyleBasicShape
 )
 ;
 private
 :
 ~
-nsStyleBasicShape
+StyleBasicShape
 (
 )
 {
@@ -14077,7 +14077,7 @@ nsCSSValue
 aValue
 )
 ;
-nsStyleBasicShape
+StyleBasicShape
 *
 GetBasicShape
 (
@@ -14109,7 +14109,7 @@ mBasicShape
 void
 SetBasicShape
 (
-nsStyleBasicShape
+StyleBasicShape
 *
 mBasicShape
 StyleClipShapeSizing
@@ -14166,7 +14166,7 @@ delete
 ;
 union
 {
-nsStyleBasicShape
+StyleBasicShape
 *
 mBasicShape
 ;

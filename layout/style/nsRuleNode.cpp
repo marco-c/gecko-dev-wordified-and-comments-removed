@@ -49248,7 +49248,7 @@ svg
 static
 already_AddRefed
 <
-nsStyleBasicShape
+StyleBasicShape
 >
 GetStyleBasicShapeFromCSSValue
 (
@@ -49269,7 +49269,7 @@ aConditions
 {
 RefPtr
 <
-nsStyleBasicShape
+StyleBasicShape
 >
 basicShape
 ;
@@ -49327,7 +49327,7 @@ value
 basicShape
 =
 new
-nsStyleBasicShape
+StyleBasicShape
 (
 StyleBasicShapeType
 :
@@ -49588,7 +49588,7 @@ value
 basicShape
 =
 new
-nsStyleBasicShape
+StyleBasicShape
 (
 type
 )
@@ -49878,7 +49878,7 @@ value
 basicShape
 =
 new
-nsStyleBasicShape
+StyleBasicShape
 (
 StyleBasicShapeType
 :
@@ -50399,7 +50399,7 @@ NoBox
 ;
 RefPtr
 <
-nsStyleBasicShape
+StyleBasicShape
 >
 basicShape
 ;

@@ -29173,7 +29173,7 @@ nsComputedDOMStyle
 CreatePrimitiveValueForBasicShape
 (
 const
-nsStyleBasicShape
+StyleBasicShape
 *
 aStyleBasicShape
 )
@@ -29678,7 +29678,7 @@ nsComputedDOMStyle
 CreatePrimitiveValueForClipPath
 (
 const
-nsStyleBasicShape
+StyleBasicShape
 *
 aStyleBasicShape
 StyleClipShapeSizing
