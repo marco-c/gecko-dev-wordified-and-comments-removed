@@ -1568,7 +1568,7 @@ mallocSizeOf
 ;
 }
 size_t
-Export
+FuncExport
 :
 :
 serializedSize
@@ -1590,7 +1590,7 @@ pod
 }
 uint8_t
 *
-Export
+FuncExport
 :
 :
 serialize
@@ -1629,7 +1629,7 @@ cursor
 const
 uint8_t
 *
-Export
+FuncExport
 :
 :
 deserialize
@@ -1672,7 +1672,7 @@ cursor
 ;
 }
 size_t
-Export
+FuncExport
 :
 :
 sizeOfExcludingThis
@@ -2374,7 +2374,7 @@ funcImports
 +
 SerializedVectorSize
 (
-exports
+funcExports
 )
 +
 SerializedPodVectorSize
@@ -2468,7 +2468,7 @@ cursor
 SerializeVector
 (
 cursor
-exports
+funcExports
 )
 ;
 cursor
@@ -2602,7 +2602,7 @@ DeserializeVector
 (
 cursor
 &
-exports
+funcExports
 )
 )
 &
@@ -2738,7 +2738,7 @@ mallocSizeOf
 +
 SizeOfVectorExcludingThis
 (
-exports
+funcExports
 mallocSizeOf
 )
 +

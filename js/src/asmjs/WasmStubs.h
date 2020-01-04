@@ -27,7 +27,7 @@ namespace
 wasm
 {
 class
-Export
+FuncExport
 ;
 class
 FuncImport
@@ -43,9 +43,9 @@ MacroAssembler
 &
 masm
 const
-Export
+FuncExport
 &
-exp
+fe
 bool
 usesHeap
 )

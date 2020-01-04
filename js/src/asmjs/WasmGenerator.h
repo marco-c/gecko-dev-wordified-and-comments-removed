@@ -276,8 +276,8 @@ linkData_
 MutableMetadata
 metadata_
 ;
-ExportMap
-exportMap_
+ExportVector
+exports_
 ;
 DataSegmentVector
 dataSegments_
@@ -319,7 +319,7 @@ Uint32Vector
 funcIndexToCodeRange_
 ;
 FuncIndexMap
-funcIndexToExport_
+funcIndexToFuncExportIndex_
 ;
 uint32_t
 lastPatchedCallsite_
@@ -658,7 +658,7 @@ const
 ;
 MOZ_MUST_USE
 bool
-declareExport
+declareFuncExport
 (
 UniqueChars
 fieldName
@@ -666,7 +666,7 @@ uint32_t
 funcIndex
 uint32_t
 *
-exportIndex
+funcExportIndex
 =
 nullptr
 )

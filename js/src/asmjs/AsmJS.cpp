@@ -10461,14 +10461,14 @@ return
 false
 ;
 uint32_t
-exportIndex
+funcExportIndex
 ;
 if
 (
 !
 mg_
 .
-declareExport
+declareFuncExport
 (
 Move
 (
@@ -10480,7 +10480,7 @@ index
 (
 )
 &
-exportIndex
+funcExportIndex
 )
 )
 return
@@ -10488,7 +10488,7 @@ false
 ;
 MOZ_ASSERT
 (
-exportIndex
+funcExportIndex
 <
 =
 asmJSMetadata_
@@ -10502,7 +10502,7 @@ length
 )
 ;
 return
-exportIndex
+funcExportIndex
 <
 asmJSMetadata_
 -
