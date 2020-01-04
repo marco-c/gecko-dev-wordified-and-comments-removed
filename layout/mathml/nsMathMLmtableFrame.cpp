@@ -1062,7 +1062,9 @@ ComputeBorderOverflow
 nsMathMLmtdFrame
 *
 aFrame
+const
 nsStyleBorder
+&
 aStyleBorder
 )
 {
