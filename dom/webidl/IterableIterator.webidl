@@ -93,6 +93,13 @@ MPL
 /
 [
 NoInterfaceObject
+Exposed
+=
+(
+Window
+Worker
+System
+)
 ]
 interface
 IterableIterator

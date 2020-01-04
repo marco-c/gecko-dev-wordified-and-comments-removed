@@ -43153,6 +43153,17 @@ NoInterfaceObject
                 
 itr_iface
 .
+_exposureGlobalNames
+=
+set
+(
+iface
+.
+_exposureGlobalNames
+)
+                
+itr_iface
+.
 iterableInterface
 =
 iface
