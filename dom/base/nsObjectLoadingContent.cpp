@@ -12180,10 +12180,7 @@ IsCallerContentXBL
 )
 &
 &
-js
-:
-:
-IsContextRunningJS
+JS_IsRunning
 (
 aCx
 )
