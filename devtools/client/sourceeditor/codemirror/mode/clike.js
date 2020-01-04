@@ -5594,7 +5594,7 @@ inline
 restrict
 _Bool
 _Complex
-_Imaginery
+_Imaginary
 BOOL
 Class
 bycopy
