@@ -1642,7 +1642,7 @@ mDetachedWrappedNativeProtoMap
 ;
 }
 bool
-OnJSContextNew
+InitXPCContext
 (
 JSContext
 *
@@ -1968,17 +1968,6 @@ override
 void
 CustomLargeAllocationFailureCallback
 (
-)
-override
-;
-bool
-CustomContextCallback
-(
-JSContext
-*
-cx
-unsigned
-operation
 )
 override
 ;
@@ -10668,8 +10657,7 @@ Length
 ]
 ;
 }
-JSContext
-*
+void
 InitSafeJSContext
 (
 )
