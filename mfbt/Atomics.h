@@ -945,6 +945,7 @@ struct
 ToStorageTypeArgument
 {
 static
+MOZ_CONSTEXPR
 T
 convert
 (
@@ -1779,6 +1780,7 @@ Type
 ResultType
 ;
 static
+MOZ_CONSTEXPR
 ResultType
 convert
 (
@@ -1808,6 +1810,7 @@ false
 >
 {
 static
+MOZ_CONSTEXPR
 T
 convert
 (
