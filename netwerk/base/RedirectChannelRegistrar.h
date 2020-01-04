@@ -95,6 +95,9 @@ mParentChannels
 uint32_t
 mId
 ;
+Mutex
+mLock
+;
 }
 ;
 }
