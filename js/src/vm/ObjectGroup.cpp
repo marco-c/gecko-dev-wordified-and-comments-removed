@@ -7397,6 +7397,10 @@ if
 (
 !
 obj
+|
+|
+!
+obj
 -
 >
 setLastProperty
