@@ -15395,9 +15395,6 @@ StyleStructContext
 aContext
 )
 :
-mMarkerOffset
-(
-)
 mContents
 (
 nullptr
@@ -15565,6 +15562,9 @@ aSource
 :
 mMarkerOffset
 (
+aSource
+.
+mMarkerOffset
 )
 mContents
 (
@@ -15595,12 +15595,6 @@ MOZ_COUNT_CTOR
 (
 nsStyleContent
 )
-;
-mMarkerOffset
-=
-aSource
-.
-mMarkerOffset
 ;
 uint32_t
 index
