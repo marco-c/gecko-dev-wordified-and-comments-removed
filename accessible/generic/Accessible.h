@@ -878,11 +878,6 @@ mRoleMapEntry
 aRoleMapEntry
 ;
 }
-void
-EnsureChildren
-(
-)
-;
 bool
 AppendChild
 (
@@ -2626,12 +2621,6 @@ NativeAttributes
 ;
 void
 LastRelease
-(
-)
-;
-virtual
-void
-CacheChildren
 (
 )
 ;
