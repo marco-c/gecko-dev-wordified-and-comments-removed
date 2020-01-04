@@ -5599,6 +5599,18 @@ mark
 base
 )
 )
+{
+MOZ_ASSERT
+(
+base
+-
+>
+canSkipMarkingShapeTable
+(
+shape
+)
+)
+;
 base
 -
 >
@@ -5607,6 +5619,7 @@ traceChildrenSkipShapeTable
 this
 )
 ;
+}
 traverseEdge
 (
 shape
