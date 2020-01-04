@@ -4800,11 +4800,8 @@ true
 init
 .
 mIsReload
-.
-Construct
-(
+=
 mIsReload
-)
 ;
 RefPtr
 <

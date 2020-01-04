@@ -193,6 +193,8 @@ request
 ;
 boolean
 isReload
+=
+false
 ;
 }
 ;
