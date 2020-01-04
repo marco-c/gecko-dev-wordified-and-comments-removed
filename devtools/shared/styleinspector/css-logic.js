@@ -3403,6 +3403,19 @@ g
 )
 ;
 let
+originalText
+=
+text
+;
+text
+=
+text
+.
+trim
+(
+)
+;
+let
 lineCount
 =
 text
@@ -3435,7 +3448,7 @@ ruleCount
 )
 {
 return
-text
+originalText
 ;
 }
 let
@@ -4007,7 +4020,7 @@ endOffset
 )
 {
 return
-text
+originalText
 ;
 }
 result
