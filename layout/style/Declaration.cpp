@@ -181,6 +181,10 @@ mOwningRule
 (
 nullptr
 )
+mHTMLCSSStyleSheet
+(
+nullptr
+)
 mImmutable
 (
 false
@@ -279,6 +283,10 @@ mImportantVariables
 nullptr
 )
 mOwningRule
+(
+nullptr
+)
+mHTMLCSSStyleSheet
 (
 nullptr
 )
