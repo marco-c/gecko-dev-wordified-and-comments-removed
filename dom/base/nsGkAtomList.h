@@ -365,6 +365,15 @@ allowfullscreen
 )
 GK_ATOM
 (
+allowmodals
+"
+allow
+-
+modals
+"
+)
+GK_ATOM
+(
 alloworientationlock
 "
 allow
