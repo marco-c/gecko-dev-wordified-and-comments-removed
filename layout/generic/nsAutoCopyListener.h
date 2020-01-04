@@ -38,6 +38,19 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSISELECTIONLISTENER
+explicit
+nsAutoCopyListener
+(
+int16_t
+aClipboardID
+)
+:
+mCachedClipboard
+(
+aClipboardID
+)
+{
+}
 void
 Listen
 (
@@ -74,6 +87,8 @@ nsAutoCopyListener
 *
 GetInstance
 (
+int16_t
+aClipboardID
 )
 {
 if
@@ -87,6 +102,7 @@ sInstance
 new
 nsAutoCopyListener
 (
+aClipboardID
 )
 ;
 NS_ADDREF
@@ -123,6 +139,9 @@ static
 nsAutoCopyListener
 *
 sInstance
+;
+int16_t
+mCachedClipboard
 ;
 }
 ;
