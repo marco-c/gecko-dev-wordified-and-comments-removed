@@ -20,7 +20,7 @@ gczeal
 1
 )
 ;
-enableShellObjectMetadataCallback
+enableShellAllocationMetadataBuilder
 (
 )
 ;

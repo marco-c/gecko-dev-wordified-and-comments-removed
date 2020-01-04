@@ -4368,11 +4368,13 @@ JSCompartment
 :
 setAllocationMetadataBuilder
 (
+const
 js
 :
 :
 AllocationMetadataBuilder
-callback
+*
+builder
 )
 {
 ReleaseAllJITCode
@@ -4387,7 +4389,7 @@ defaultFreeOp
 ;
 allocationMetadataBuilder
 =
-callback
+builder
 ;
 }
 void
@@ -4435,6 +4437,9 @@ JSObject
 metadata
 =
 allocationMetadataBuilder
+-
+>
+build
 (
 cx
 obj

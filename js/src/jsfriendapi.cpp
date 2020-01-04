@@ -6778,7 +6778,9 @@ SetAllocationMetadataBuilder
 JSContext
 *
 cx
+const
 AllocationMetadataBuilder
+*
 callback
 )
 {

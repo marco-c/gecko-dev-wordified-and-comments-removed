@@ -2255,7 +2255,7 @@ runtime
 )
 )
 ;
-AutoSuppressObjectMetadataCallback
+AutoSuppressAllocationMetadataBuilder
 suppressMetadata
 (
 cx
@@ -2450,7 +2450,7 @@ runtime
 )
 )
 ;
-AutoSuppressObjectMetadataCallback
+AutoSuppressAllocationMetadataBuilder
 suppressMetadata
 (
 cx
