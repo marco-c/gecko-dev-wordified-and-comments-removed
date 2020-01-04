@@ -461,6 +461,13 @@ Services
 .
 appinfo
 .
+QueryInterface
+(
+Ci
+.
+nsICrashReporter
+)
+.
 annotateCrashReport
 (
 "
