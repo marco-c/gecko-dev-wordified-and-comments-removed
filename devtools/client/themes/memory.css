@@ -329,6 +329,8 @@ width
 3px
 -
 32px
+-
+78px
 )
 ;
 border
@@ -509,6 +511,18 @@ png
 )
 ;
 }
+}
+#
+import
+-
+snapshot
+{
+min
+-
+width
+:
+78px
+;
 }
 .
 spacer

@@ -126,6 +126,7 @@ filter
 const
 {
 pickFileAndExportSnapshot
+pickFileAndImportSnapshotAndCensus
 }
 =
 require
@@ -390,6 +391,19 @@ breakdowns
 :
 getBreakdownDisplayData
 (
+)
+onImportClick
+:
+(
+)
+=
+>
+dispatch
+(
+pickFileAndImportSnapshotAndCensus
+(
+heapWorker
+)
 )
 onTakeSnapshotClick
 :

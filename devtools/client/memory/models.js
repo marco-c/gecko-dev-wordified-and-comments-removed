@@ -181,6 +181,13 @@ error
 PropTypes
 .
 object
+imported
+:
+PropTypes
+.
+bool
+.
+isRequired
 creationTime
 :
 PropTypes
@@ -205,6 +212,9 @@ let
 shouldHavePath
 =
 [
+states
+.
+IMPORTING
 states
 .
 SAVED
