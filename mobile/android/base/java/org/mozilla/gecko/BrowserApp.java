@@ -2177,11 +2177,9 @@ onTabChanged
 (
 Tab
 tab
-Tabs
-.
 TabEvents
 msg
-Object
+String
 data
 )
 {
