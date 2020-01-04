@@ -112,6 +112,7 @@ ContentPrefInstance_setPref
 aGroup
 aName
 aValue
+aContext
 )
 {
 return
@@ -124,6 +125,10 @@ setPref
 aGroup
 aName
 aValue
+aContext
+?
+aContext
+:
 this
 .
 _context
