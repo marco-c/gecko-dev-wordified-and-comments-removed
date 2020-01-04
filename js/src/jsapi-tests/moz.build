@@ -139,6 +139,11 @@ testBug604087
 cpp
 '
 '
+testCallArgs
+.
+cpp
+'
+'
 testCallNonGenericMethodOnProxy
 .
 cpp

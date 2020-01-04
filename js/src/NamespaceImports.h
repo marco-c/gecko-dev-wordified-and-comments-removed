@@ -427,12 +427,6 @@ using
 JS
 :
 :
-CallReceiver
-;
-using
-JS
-:
-:
 CompileOptions
 ;
 using
