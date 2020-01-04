@@ -519,9 +519,6 @@ const
 nsAString
 &
 aProtocol
-ErrorResult
-&
-aError
 )
 {
 nsCOMPtr
@@ -620,9 +617,6 @@ const
 nsAString
 &
 aPassword
-ErrorResult
-&
-aError
 )
 {
 nsCOMPtr
@@ -672,9 +666,6 @@ const
 nsAString
 &
 aUsername
-ErrorResult
-&
-aError
 )
 {
 nsCOMPtr
@@ -724,9 +715,6 @@ const
 nsAString
 &
 aHost
-ErrorResult
-&
-aError
 )
 {
 nsCOMPtr
@@ -779,9 +767,6 @@ const
 nsAString
 &
 aHostname
-ErrorResult
-&
-aError
 )
 {
 nsCOMPtr
@@ -834,9 +819,6 @@ const
 nsAString
 &
 aPathname
-ErrorResult
-&
-aError
 )
 {
 nsCOMPtr
@@ -901,9 +883,6 @@ const
 nsAString
 &
 aSearch
-ErrorResult
-&
-aError
 )
 {
 nsCOMPtr
@@ -968,9 +947,6 @@ const
 nsAString
 &
 aPort
-ErrorResult
-&
-aError
 )
 {
 nsCOMPtr
@@ -1067,9 +1043,6 @@ const
 nsAString
 &
 aHash
-ErrorResult
-&
-aError
 )
 {
 nsCOMPtr
@@ -1121,9 +1094,6 @@ GetOrigin
 nsAString
 &
 aOrigin
-ErrorResult
-&
-aError
 )
 {
 aOrigin
@@ -1181,9 +1151,6 @@ GetProtocol
 nsAString
 &
 _protocol
-ErrorResult
-&
-aError
 )
 {
 nsCOMPtr
@@ -1248,8 +1215,6 @@ char16_t
 )
 )
 ;
-return
-;
 }
 void
 Link
@@ -1260,9 +1225,6 @@ GetUsername
 nsAString
 &
 aUsername
-ErrorResult
-&
-aError
 )
 {
 aUsername
@@ -1318,9 +1280,6 @@ GetPassword
 nsAString
 &
 aPassword
-ErrorResult
-&
-aError
 )
 {
 aPassword
@@ -1376,9 +1335,6 @@ GetHost
 nsAString
 &
 _host
-ErrorResult
-&
-aError
 )
 {
 _host
@@ -1446,9 +1402,6 @@ GetHostname
 nsAString
 &
 _hostname
-ErrorResult
-&
-aError
 )
 {
 _hostname
@@ -1496,9 +1449,6 @@ GetPathname
 nsAString
 &
 _pathname
-ErrorResult
-&
-aError
 )
 {
 _pathname
@@ -1578,9 +1528,6 @@ GetSearch
 nsAString
 &
 _search
-ErrorResult
-&
-aError
 )
 {
 _search
@@ -1675,9 +1622,6 @@ GetPort
 nsAString
 &
 _port
-ErrorResult
-&
-aError
 )
 {
 _port
@@ -1765,9 +1709,6 @@ GetHash
 nsAString
 &
 _hash
-ErrorResult
-&
-aError
 )
 {
 _hash
