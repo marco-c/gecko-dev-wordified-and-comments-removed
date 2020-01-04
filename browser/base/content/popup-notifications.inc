@@ -20,11 +20,6 @@ type
 "
 arrow
 "
-footertype
-=
-"
-promobox
-"
 position
 =
 "
