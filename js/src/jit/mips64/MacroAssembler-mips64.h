@@ -6585,7 +6585,7 @@ wasm
 :
 :
 HeapGlobalDataOffset
-dest
+HeapReg
 )
 ;
 }
