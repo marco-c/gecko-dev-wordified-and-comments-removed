@@ -29,7 +29,19 @@ certs
 "
         
 "
+config
+/
+*
+"
+        
+"
 extensions
+/
+*
+"
+        
+"
+marionette
 /
 *
 "
@@ -47,10 +59,11 @@ mozbase
 "
         
 "
-config
+tools
 /
 *
 "
+    
 ]
     
 "
