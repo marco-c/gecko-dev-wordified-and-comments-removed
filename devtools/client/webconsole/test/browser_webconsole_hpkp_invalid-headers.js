@@ -88,6 +88,8 @@ Security
 "
 Public_Key_Pinning
 "
++
+DOCS_GA_PARAMS
 ;
 const
 NON_BUILTIN_ROOT_PREF

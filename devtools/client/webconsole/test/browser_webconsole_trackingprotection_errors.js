@@ -23,6 +23,9 @@ devtools
 /
 client
 /
+"
++
+"
 webconsole
 /
 test
@@ -54,8 +57,13 @@ Firefox
 /
 Privacy
 /
+"
++
+"
 Tracking_Protection
 "
++
+DOCS_GA_PARAMS
 ;
 const
 PREF
@@ -207,6 +215,9 @@ com
 \
 u201d
 was
+"
++
+"
 blocked
 because
 tracking
