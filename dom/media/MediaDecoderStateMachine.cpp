@@ -5203,6 +5203,17 @@ return
 }
 if
 (
+mExplicitDuration
+.
+Ref
+(
+)
+.
+isNothing
+(
+)
+&
+&
 duration
 <
 mObservedDuration
