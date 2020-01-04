@@ -830,13 +830,6 @@ MOZ_ASSERT
 mRegistration
 )
 ;
-mRegistration
--
->
-mUpdating
-=
-true
-;
 if
 (
 Canceled
@@ -1502,13 +1495,6 @@ aScriptEvaluationResult
 AssertIsOnMainThread
 (
 )
-;
-mRegistration
--
->
-mUpdating
-=
-false
 ;
 if
 (

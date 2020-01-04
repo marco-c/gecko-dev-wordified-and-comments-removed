@@ -313,9 +313,6 @@ nsIServiceWorkerRegistrationInfoListener
 mListeners
 ;
 bool
-mUpdating
-;
-bool
 mPendingUninstall
 ;
 ServiceWorkerRegistrationInfo
