@@ -480,6 +480,15 @@ AV_FUNC_AVCODEC_ALL
 )
 AV_FUNC
 (
+avcodec_alloc_frame
+(
+AV_FUNC_53
+|
+AV_FUNC_54
+)
+)
+AV_FUNC
+(
 avcodec_get_frame_defaults
 (
 AV_FUNC_53
@@ -501,11 +510,6 @@ AV_FUNC
 (
 av_freep
 AV_FUNC_AVUTIL_ALL
-)
-AV_FUNC
-(
-avcodec_alloc_frame
-AV_FUNC_AVUTIL_54
 )
 AV_FUNC
 (
