@@ -1554,7 +1554,7 @@ dirsvc
 get
 (
 "
-Desk
+ProfD
 "
 Components
 .
@@ -1568,9 +1568,9 @@ f
 append
 (
 "
-Firefox
--
 tabgroups
+-
+session
 -
 backup
 .
