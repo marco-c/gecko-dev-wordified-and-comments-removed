@@ -49,6 +49,9 @@ TestRunner
 start
 (
 sets
+"
+primaryUI
+"
 )
 ;
 }

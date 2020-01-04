@@ -40,6 +40,9 @@ TestRunner
 start
 (
 sets
+"
+permissionPrompts
+"
 )
 ;
 }
