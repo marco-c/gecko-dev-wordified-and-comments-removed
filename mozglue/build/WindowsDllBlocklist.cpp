@@ -792,7 +792,7 @@ MAKE_VERSION
 }
 {
 "
-eOppMonitor
+eoppmonitor
 .
 dll
 "
