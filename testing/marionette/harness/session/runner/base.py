@@ -3092,6 +3092,20 @@ autostart
 True
                 
 '
+browser
+.
+tabs
+.
+remote
+.
+force
+-
+enable
+'
+:
+True
+                
+'
 extensions
 .
 e10sBlocksEnabling
