@@ -6918,9 +6918,7 @@ Agent
 :
 "
 +
-SyncStorageRequest
-.
-prototype
+Utils
 .
 userAgent
 )
