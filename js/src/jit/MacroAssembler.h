@@ -1472,6 +1472,8 @@ Register
 reg2
 Register
 reg3
+Register
+reg4
 )
 DEFINED_ON
 (
