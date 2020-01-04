@@ -6794,6 +6794,9 @@ GetFirstFrameInRange
 nsRange
 *
 aRange
+int32_t
+&
+aNodeOffset
 )
 {
 nsCOMPtr
@@ -6814,8 +6817,7 @@ Init
 aRange
 )
 ;
-int32_t
-nodeOffset
+aNodeOffset
 =
 aRange
 -
@@ -6851,7 +6853,7 @@ aRange
 GetStartParent
 (
 )
-nodeOffset
+aNodeOffset
 )
 ;
 }
@@ -6864,7 +6866,7 @@ nullptr
 GetFrameForTextRect
 (
 node
-nodeOffset
+aNodeOffset
 true
 &
 firstFrame
@@ -6988,6 +6990,12 @@ return
 rv
 ;
 }
+int32_t
+nodeOffset
+=
+-
+1
+;
 nsIFrame
 *
 firstFrame
@@ -6995,6 +7003,7 @@ firstFrame
 GetFirstFrameInRange
 (
 range
+nodeOffset
 )
 ;
 if
@@ -7053,16 +7062,6 @@ return
 rv
 ;
 }
-int32_t
-nodeOffset
-=
-range
--
->
-StartOffset
-(
-)
-;
 AutoTArray
 <
 nsRect
