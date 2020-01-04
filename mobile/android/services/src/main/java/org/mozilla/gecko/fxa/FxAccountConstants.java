@@ -391,6 +391,16 @@ public
 static
 final
 String
+ACCOUNT_DELETED_INTENT_ACCOUNT_PROFILE
+=
+"
+account_deleted_intent_profile
+"
+;
+public
+static
+final
+String
 ACCOUNT_OAUTH_SERVICE_ENDPOINT_KEY
 =
 "

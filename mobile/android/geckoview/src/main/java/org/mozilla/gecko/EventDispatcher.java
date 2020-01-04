@@ -14,6 +14,17 @@ gecko
 .
 annotation
 .
+ReflectionTarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+annotation
+.
 RobocopTarget
 ;
 import
@@ -379,6 +390,7 @@ BundleEventListener
 DEFAULT_BACKGROUND_EVENTS_COUNT
 )
 ;
+ReflectionTarget
 public
 static
 EventDispatcher
@@ -873,6 +885,7 @@ events
 )
 ;
 }
+ReflectionTarget
 public
 void
 registerBackgroundThreadListener
