@@ -1162,6 +1162,8 @@ getGeckoAccessible
 ]
 )
 {
+if
+(
 Accessible
 *
 accTab
@@ -1173,7 +1175,8 @@ GetSelectedItem
 (
 0
 )
-;
+)
+{
 accTab
 -
 >
@@ -1189,6 +1192,7 @@ nativeAcc
 )
 ;
 }
+}
 else
 if
 (
@@ -1202,6 +1206,8 @@ getProxyAccessible
 ]
 )
 {
+if
+(
 ProxyAccessible
 *
 proxyTab
@@ -1213,7 +1219,8 @@ GetSelectedItem
 (
 0
 )
-;
+)
+{
 nativeAcc
 =
 GetNativeFromProxy
@@ -1221,6 +1228,7 @@ GetNativeFromProxy
 proxyTab
 )
 ;
+}
 }
 return
 nativeAcc
