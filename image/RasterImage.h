@@ -77,6 +77,13 @@ h
 #
 include
 "
+FrameAnimator
+.
+h
+"
+#
+include
+"
 Orientation
 .
 h
@@ -240,9 +247,6 @@ image
 {
 class
 Decoder
-;
-class
-FrameAnimator
 ;
 class
 ImageMetadata
@@ -666,7 +670,7 @@ mLockCount
 |
 |
 (
-mAnim
+mAnimationState
 &
 &
 mAnimationConsumers
@@ -744,7 +748,13 @@ UniquePtr
 <
 FrameAnimator
 >
-mAnim
+mFrameAnimator
+;
+Maybe
+<
+AnimationState
+>
+mAnimationState
 ;
 uint32_t
 mLockCount
