@@ -4253,9 +4253,6 @@ BROWSER_PROVIDER
 "
 /
 >
-#
-ifdef
-MOZ_ANDROID_SHARE_OVERLAY
 <
 !
 -
@@ -4466,8 +4463,6 @@ OverlayActionService
 "
 /
 >
-#
-endif
 <
 !
 -

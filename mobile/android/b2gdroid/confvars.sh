@@ -452,15 +452,6 @@ MOZ_WEBGL_CONFORMANT
 1
 #
 Enable
-the
-share
-handler
-.
-MOZ_ANDROID_SHARE_OVERLAY
-=
-1
-#
-Enable
 Tab
 Queue
 if
