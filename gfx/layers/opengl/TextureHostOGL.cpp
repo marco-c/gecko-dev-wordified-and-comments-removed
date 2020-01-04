@@ -2876,7 +2876,12 @@ R8G8B8X8
 GLenum
 target
 =
-LOCAL_GL_TEXTURE_EXTERNAL
+gl
+-
+>
+GetPreferredEGLImageTextureTarget
+(
+)
 ;
 GLenum
 wrapMode
