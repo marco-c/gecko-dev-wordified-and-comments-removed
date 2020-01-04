@@ -3961,6 +3961,13 @@ PBrowser
 windowContext
 )
 ;
+async
+ExtProtocolChannelConnectParent
+(
+uint32_t
+registrarId
+)
+;
 /
 /
 PrefService
