@@ -15377,6 +15377,15 @@ nsIContentPolicy
 TYPE_OBJECT_SUBREQUEST
 nullptr
 listenerPeer
+nsIRequest
+:
+:
+LOAD_NORMAL
+|
+nsIChannel
+:
+:
+LOAD_CLASSIFY_URI
 )
 ;
 NS_ENSURE_SUCCESS
