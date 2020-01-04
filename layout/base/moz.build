@@ -717,6 +717,11 @@ ActiveLayerTracker
 cpp
 '
 '
+DashedCornerFinder
+.
+cpp
+'
+'
 DisplayItemClip
 .
 cpp
@@ -728,6 +733,11 @@ cpp
 '
 '
 DisplayListClipState
+.
+cpp
+'
+'
+DottedCornerFinder
 .
 cpp
 '
