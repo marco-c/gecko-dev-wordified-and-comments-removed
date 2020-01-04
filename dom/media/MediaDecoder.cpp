@@ -7636,6 +7636,11 @@ NS_IsMainThread
 )
 )
 ;
+MOZ_ASSERT
+(
+aProxy
+)
+;
 mCDMProxyPromiseHolder
 .
 ResolveIfExists
