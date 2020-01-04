@@ -1076,6 +1076,13 @@ CodecType
 aCodec
 )
 ;
+int32_t
+GetNumThreads
+(
+int32_t
+aCoreCount
+)
+;
 }
 #
 endif
