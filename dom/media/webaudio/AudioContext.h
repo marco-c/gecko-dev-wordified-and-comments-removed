@@ -994,12 +994,6 @@ MaxChannelCount
 )
 const
 ;
-uint32_t
-ActiveNodeCount
-(
-)
-const
-;
 void
 Mute
 (
