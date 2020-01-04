@@ -2375,6 +2375,21 @@ mOffset
 nsCSSProperty
 mProperty
 ;
+protected
+:
+KeyframeValueEntry
+(
+)
+=
+default
+;
+}
+;
+struct
+KeyframeStringValueEntry
+:
+KeyframeValueEntry
+{
 nsString
 mValue
 ;
@@ -2389,7 +2404,7 @@ operator
 =
 (
 const
-KeyframeValueEntry
+KeyframeStringValueEntry
 &
 aRhs
 )
@@ -2434,7 +2449,7 @@ operator
 <
 (
 const
-KeyframeValueEntry
+KeyframeStringValueEntry
 &
 aRhs
 )
@@ -2562,7 +2577,7 @@ aRv
 {
 nsAutoTArray
 <
-KeyframeValueEntry
+KeyframeStringValueEntry
 4
 >
 entries
@@ -2628,7 +2643,7 @@ mSegments
 i
 ]
 ;
-KeyframeValueEntry
+KeyframeStringValueEntry
 *
 entry
 =
@@ -2697,7 +2712,7 @@ LastElement
 (
 )
 ;
-KeyframeValueEntry
+KeyframeStringValueEntry
 *
 entry
 =
@@ -2904,7 +2919,7 @@ toObject
 do
 {
 const
-KeyframeValueEntry
+KeyframeStringValueEntry
 &
 entry
 =
