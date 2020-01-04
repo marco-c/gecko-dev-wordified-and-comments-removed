@@ -22,9 +22,9 @@ lint
 build_name
 :
 '
-flake8
+mozlint
 -
-gecko
+flake8
 '
 build_type
 :
