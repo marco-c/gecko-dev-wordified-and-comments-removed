@@ -1972,8 +1972,6 @@ rv
 ThrowRangeError
 (
 MSG_INVALID_ZOOMANDPAN_VALUE_ERROR
-&
-aZoomAndPan
 )
 ;
 }
