@@ -298,6 +298,17 @@ isSystem
 ;
 this
 .
+isUnmatched
+=
+options
+.
+isUnmatched
+|
+|
+false
+;
+this
+.
 inherited
 =
 options
