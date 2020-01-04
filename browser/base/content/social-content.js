@@ -207,6 +207,7 @@ detail
 }
 )
 ;
+const
 SocialErrorListener
 =
 {
