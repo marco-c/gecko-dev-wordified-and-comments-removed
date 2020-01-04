@@ -1700,6 +1700,16 @@ this
 props
 .
 show
+|
+|
+!
+this
+.
+props
+.
+roomData
+.
+roomUrl
 )
 {
 return
