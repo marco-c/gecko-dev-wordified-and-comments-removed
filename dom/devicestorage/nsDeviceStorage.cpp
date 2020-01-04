@@ -17615,10 +17615,7 @@ JS
 RootedValue
 value
 (
-nsContentUtils
-:
-:
-RootingCxForThread
+GetJSRuntime
 (
 )
 JS_NumberValue

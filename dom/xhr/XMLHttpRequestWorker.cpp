@@ -1653,10 +1653,7 @@ NS_OK
 )
 mScopeObj
 (
-nsContentUtils
-:
-:
-RootingCxForThread
+GetJSRuntime
 (
 )
 aScopeObj
@@ -1765,10 +1762,7 @@ NS_OK
 )
 mScopeObj
 (
-nsContentUtils
-:
-:
-RootingCxForThread
+GetJSRuntime
 (
 )
 aScopeObj

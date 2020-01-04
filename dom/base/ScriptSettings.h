@@ -160,6 +160,12 @@ GetJSContext
 )
 ;
 }
+JSRuntime
+*
+GetJSRuntime
+(
+)
+;
 class
 ScriptSettingsStack
 ;

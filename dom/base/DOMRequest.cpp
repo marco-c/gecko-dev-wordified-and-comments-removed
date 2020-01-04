@@ -145,6 +145,15 @@ dom
 :
 AutoJSAPI
 ;
+using
+mozilla
+:
+:
+dom
+:
+:
+GetJSRuntime
+;
 DOMRequest
 :
 :
@@ -1428,10 +1437,7 @@ aRequest
 )
 mResult
 (
-nsContentUtils
-:
-:
-RootingCxForThread
+GetJSRuntime
 (
 )
 aResult

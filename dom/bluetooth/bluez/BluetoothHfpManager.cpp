@@ -2637,10 +2637,10 @@ Value
 >
 value
 (
-nsContentUtils
+dom
 :
 :
-RootingCxForThread
+GetJSRuntime
 (
 )
 )

@@ -836,10 +836,7 @@ error
 .
 Construct
 (
-nsContentUtils
-:
-:
-RootingCxForThread
+GetJSRuntime
 (
 )
 )
