@@ -176,7 +176,13 @@ static
 BOOL
 sQuit
 =
-FALSE
+NO
+;
+static
+BOOL
+sIndeterminate
+=
+NO
 ;
 static
 StringTable
@@ -340,7 +346,7 @@ center
 progressBar
 setIndeterminate
 :
-NO
+sIndeterminate
 ]
 ;
 [
@@ -595,6 +601,8 @@ return
 int
 ShowProgressUI
 (
+bool
+indeterminate
 )
 {
 /
@@ -758,6 +766,10 @@ return
 -
 1
 ;
+sIndeterminate
+=
+indeterminate
+;
 [
 NSApplication
 sharedApplication
@@ -798,7 +810,7 @@ QuitProgressUI
 {
 sQuit
 =
-TRUE
+YES
 ;
 }
 /
