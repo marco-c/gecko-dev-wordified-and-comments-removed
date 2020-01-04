@@ -5042,7 +5042,10 @@ check_for_crash
 (
 )
 :
-           
+            
+try
+:
+                
 self
 .
 marionette
@@ -5050,7 +5053,7 @@ marionette
 clear_imported_scripts
 (
 )
-           
+                
 self
 .
 marionette
@@ -5074,7 +5077,7 @@ s
 )
 "
 %
-                                          
+                                               
 (
 self
 .
@@ -5093,12 +5096,13 @@ replace
 \
 '
 )
+                                                
 self
 .
 methodName
 )
 )
-        
+                
 self
 .
 marionette
@@ -5106,6 +5110,11 @@ marionette
 test_name
 =
 None
+            
+except
+:
+                
+pass
         
 CommonTestCase
 .
