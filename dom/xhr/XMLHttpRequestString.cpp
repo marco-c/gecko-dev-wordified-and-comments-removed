@@ -122,7 +122,8 @@ aString
 )
 ;
 }
-void
+MOZ_MUST_USE
+bool
 GetAsString
 (
 nsAString
@@ -136,9 +137,17 @@ lock
 mMutex
 )
 ;
+return
 aString
-=
+.
+Assign
+(
 mData
+mozilla
+:
+:
+fallible
+)
 ;
 }
 size_t
@@ -158,7 +167,8 @@ aMallocSizeOf
 )
 ;
 }
-void
+MOZ_MUST_USE
+bool
 GetAsString
 (
 nsAString
@@ -186,6 +196,7 @@ Length
 )
 )
 ;
+return
 aString
 .
 Assign
@@ -196,6 +207,10 @@ BeginReading
 (
 )
 aLength
+mozilla
+:
+:
+fallible
 )
 ;
 }
@@ -332,7 +347,7 @@ aString
 )
 ;
 }
-void
+bool
 XMLHttpRequestString
 :
 :
@@ -544,7 +559,7 @@ mVoid
 false
 ;
 }
-void
+bool
 XMLHttpRequestStringSnapshot
 :
 :
@@ -567,6 +582,7 @@ MOZ_ASSERT
 mVoid
 )
 ;
+return
 mBuffer
 -
 >
@@ -575,8 +591,6 @@ GetAsString
 aString
 mLength
 )
-;
-return
 ;
 }
 aString
@@ -598,6 +612,9 @@ true
 )
 ;
 }
+return
+true
+;
 }
 XMLHttpRequestStringWriterHelper
 :
