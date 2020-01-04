@@ -1219,6 +1219,7 @@ eStyleAnimType_Corner_BottomLeft
 eStyleAnimType_nscoord
 eStyleAnimType_float
 eStyleAnimType_Color
+eStyleAnimType_ComplexColor
 eStyleAnimType_PaintServer
 eStyleAnimType_Shadow
 eStyleAnimType_Discrete
