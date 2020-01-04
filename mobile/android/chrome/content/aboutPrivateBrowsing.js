@@ -82,9 +82,10 @@ window
 "
 gChromeWin
 "
-function
 (
 )
+=
+>
 window
 .
 QueryInterface
