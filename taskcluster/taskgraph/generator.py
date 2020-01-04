@@ -752,6 +752,18 @@ self
 )
 :
         
+logger
+.
+info
+(
+"
+Generating
+full
+task
+set
+"
+)
+        
 all_tasks
 =
 {
@@ -835,6 +847,18 @@ full_task_set
 '
 full_task_set
         
+logger
+.
+info
+(
+"
+Generating
+full
+task
+graph
+"
+)
+        
 edges
 =
 set
@@ -898,6 +922,18 @@ full_task_graph
 '
 full_task_graph
         
+logger
+.
+info
+(
+"
+Generating
+target
+task
+set
+"
+)
+        
 target_tasks
 =
 set
@@ -946,6 +982,18 @@ target_task_set
 '
 target_task_set
         
+logger
+.
+info
+(
+"
+Generating
+target
+task
+graph
+"
+)
+        
 target_graph
 =
 full_task_graph
@@ -985,6 +1033,18 @@ yield
 target_task_graph
 '
 target_task_graph
+        
+logger
+.
+info
+(
+"
+Generating
+optimized
+task
+graph
+"
+)
         
 yield
 '
