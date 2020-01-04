@@ -248,6 +248,9 @@ class
 DeleteNodeTransaction
 ;
 class
+DeleteTextTransaction
+;
+class
 ErrorResult
 ;
 class
@@ -261,9 +264,6 @@ dom
 {
 class
 DataTransfer
-;
-class
-DeleteTextTxn
 ;
 class
 Element
@@ -1088,10 +1088,7 @@ already_AddRefed
 mozilla
 :
 :
-dom
-:
-:
-DeleteTextTxn
+DeleteTextTransaction
 >
 CreateTxnForDeleteText
 (
@@ -1109,10 +1106,7 @@ already_AddRefed
 mozilla
 :
 :
-dom
-:
-:
-DeleteTextTxn
+DeleteTextTransaction
 >
 CreateTxnForDeleteCharacter
 (
