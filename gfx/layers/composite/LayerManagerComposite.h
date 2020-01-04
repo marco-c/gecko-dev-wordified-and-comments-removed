@@ -1176,6 +1176,9 @@ endif
 void
 InvalidateDebugOverlay
 (
+nsIntRegion
+&
+aInvalidRegion
 const
 gfx
 :
