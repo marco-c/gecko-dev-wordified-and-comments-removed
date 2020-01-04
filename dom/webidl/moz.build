@@ -116,6 +116,11 @@ Navigator
 webidl
 '
 '
+Promise
+.
+webidl
+'
+'
 ServiceWorkerRegistration
 .
 webidl
@@ -1996,11 +2001,6 @@ webidl
 '
 '
 ProfileTimelineMarker
-.
-webidl
-'
-'
-Promise
 .
 webidl
 '

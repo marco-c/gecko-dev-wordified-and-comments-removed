@@ -5860,6 +5860,9 @@ sandbox
 return
 NS_ERROR_XPC_UNEXPECTED
 ;
+#
+ifndef
+SPIDERMONKEY_PROMISE
 if
 (
 !
@@ -5878,6 +5881,8 @@ sandbox
 return
 NS_ERROR_XPC_UNEXPECTED
 ;
+#
+endif
 }
 vp
 .
