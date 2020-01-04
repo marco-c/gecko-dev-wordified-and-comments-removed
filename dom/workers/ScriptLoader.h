@@ -106,14 +106,8 @@ ReportLoadError
 JSContext
 *
 aCx
-const
-nsAString
-&
-aURL
 nsresult
 aLoadResult
-bool
-aIsMainThread
 )
 ;
 bool
