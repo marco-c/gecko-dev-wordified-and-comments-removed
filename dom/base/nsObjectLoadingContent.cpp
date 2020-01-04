@@ -6925,7 +6925,7 @@ replaceQuery
 msgName
 =
 "
-RewriteYoutubeEmbed
+RewriteYouTubeEmbed
 "
 ;
 }
@@ -6934,7 +6934,7 @@ else
 msgName
 =
 "
-RewriteYoutubeEmbedInvalidQuery
+RewriteYouTubeEmbedPathParams
 "
 ;
 }
