@@ -906,6 +906,13 @@ return
 mViewManager
 ;
 }
+nsRefreshDriver
+*
+GetRefreshDriver
+(
+)
+const
+;
 #
 ifdef
 ACCESSIBILITY
