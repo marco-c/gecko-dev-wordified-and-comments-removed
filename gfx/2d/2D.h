@@ -3031,14 +3031,6 @@ return
 mPermitSubpixelAA
 ;
 }
-virtual
-void
-DetachAllSnapshots
-(
-)
-=
-0
-;
 #
 ifdef
 USE_SKIA_GPU

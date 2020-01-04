@@ -164,13 +164,6 @@ Snapshot
 override
 ;
 virtual
-void
-DetachAllSnapshots
-(
-)
-override
-;
-virtual
 IntSize
 GetSize
 (

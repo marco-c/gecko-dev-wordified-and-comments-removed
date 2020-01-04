@@ -381,15 +381,6 @@ mRect
 )
 ;
 }
-void
-DrawTargetTiled
-:
-:
-DetachAllSnapshots
-(
-)
-{
-}
 #
 define
 TILED_COMMAND

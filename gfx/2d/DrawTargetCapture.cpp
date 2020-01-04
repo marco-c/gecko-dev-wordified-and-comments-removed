@@ -173,15 +173,6 @@ Snapshot
 )
 ;
 }
-void
-DrawTargetCaptureImpl
-:
-:
-DetachAllSnapshots
-(
-)
-{
-}
 #
 define
 AppendCommand
