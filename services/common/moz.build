@@ -150,6 +150,11 @@ async
 js
 '
 '
+KintoCertificateBlocklist
+.
+js
+'
+'
 logmanager
 .
 js
