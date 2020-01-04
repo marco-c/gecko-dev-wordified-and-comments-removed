@@ -20351,16 +20351,6 @@ IsMSJapaneseIMEActive
 {
 if
 (
-IsWin8OrLater
-(
-)
-|
-|
-kIsMSOfficeJapaneseIME2010
-)
-{
-if
-(
 (
 kIsMSOfficeJapaneseIME2010
 |
@@ -20538,7 +20528,6 @@ acpEnd
 )
 )
 ;
-}
 }
 }
 else
