@@ -1528,6 +1528,8 @@ timestamp
 "
 "
         
+old
+=
 self
 .
 log_manager
@@ -1560,6 +1562,7 @@ log_manager
 .
 add_terminal_logging
 (
+                
 fh
 =
 sys
@@ -1568,6 +1571,22 @@ stderr
 level
 =
 level
+                
+write_interval
+=
+old
+.
+formatter
+.
+write_interval
+                
+write_times
+=
+old
+.
+formatter
+.
+write_times
 )
         
 self
