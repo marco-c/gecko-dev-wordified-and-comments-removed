@@ -2198,6 +2198,10 @@ __init__
 self
 fromtype
 totypename
+templateargs
+=
+[
+]
 )
 :
         
@@ -2226,6 +2230,12 @@ self
 totypename
 =
 totypename
+        
+self
+.
+templateargs
+=
+templateargs
     
 def
 __cmp__
