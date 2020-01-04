@@ -4543,6 +4543,7 @@ NS_ASSERTION
 (
 mFUnitsConvFactor
 >
+=
 0
 .
 0f

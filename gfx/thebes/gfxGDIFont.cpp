@@ -1830,6 +1830,15 @@ mIsBadUnderlineFont
 )
 ;
 }
+else
+{
+mFUnitsConvFactor
+=
+0
+.
+0
+;
+}
 if
 (
 IsSyntheticBold
