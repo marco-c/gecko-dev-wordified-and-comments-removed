@@ -1,0 +1,8 @@
+var
+foobar
+=
+"
+a
+string
+"
+;

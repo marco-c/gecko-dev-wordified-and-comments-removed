@@ -1,0 +1,8 @@
+var
+properlyNamed
+=
+"
+a
+string
+"
+;
