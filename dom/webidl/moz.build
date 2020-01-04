@@ -6,6 +6,14 @@ Mode
 :
 python
 ;
+c
+-
+basic
+-
+offset
+:
+4
+;
 indent
 -
 tabs
@@ -3899,6 +3907,11 @@ webidl
 '
 '
 HashChangeEvent
+.
+webidl
+'
+'
+HiddenPluginEvent
 .
 webidl
 '

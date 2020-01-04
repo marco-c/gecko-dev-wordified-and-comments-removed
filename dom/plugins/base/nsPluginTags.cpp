@@ -1444,8 +1444,9 @@ bug
 NS_IMPL_ISUPPORTS
 (
 nsPluginTag
-nsIPluginTag
+nsPluginTag
 nsIInternalPluginTag
+nsIPluginTag
 )
 void
 nsPluginTag
