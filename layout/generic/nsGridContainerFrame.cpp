@@ -24480,7 +24480,10 @@ mStyleBorder
 mBoxDecorationBreak
 =
 =
-NS_STYLE_BOX_DECORATION_BREAK_CLONE
+StyleBoxDecorationBreak
+:
+:
+Clone
 ;
 nscoord
 bpBEnd
@@ -25383,7 +25386,10 @@ mStyleBorder
 mBoxDecorationBreak
 =
 =
-NS_STYLE_BOX_DECORATION_BREAK_CLONE
+StyleBoxDecorationBreak
+:
+:
+Clone
 ;
 bool
 didGrowRow
@@ -28972,7 +28978,10 @@ StyleBorder
 mBoxDecorationBreak
 !
 =
-NS_STYLE_BOX_DECORATION_BREAK_CLONE
+StyleBoxDecorationBreak
+:
+:
+Clone
 )
 {
 bp

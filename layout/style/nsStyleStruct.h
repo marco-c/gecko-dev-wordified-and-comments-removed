@@ -5294,7 +5294,10 @@ mozilla
 StyleFloatEdge
 mFloatEdge
 ;
-uint8_t
+mozilla
+:
+:
+StyleBoxDecorationBreak
 mBoxDecorationBreak
 ;
 protected
