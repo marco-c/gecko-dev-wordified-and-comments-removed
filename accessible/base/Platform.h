@@ -1,10 +1,4 @@
 #
-ifndef
-mozilla_a11y_Platform_h
-#
-define
-mozilla_a11y_Platform_h
-#
 include
 <
 stdint
@@ -181,5 +175,3 @@ aType
 ;
 }
 }
-#
-endif

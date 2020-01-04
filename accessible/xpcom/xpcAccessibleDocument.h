@@ -383,13 +383,6 @@ friend
 class
 ProxyAccessible
 ;
-friend
-class
-ProxyAccessibleBase
-<
-ProxyAccessible
->
-;
 xpcAccessibleDocument
 (
 const

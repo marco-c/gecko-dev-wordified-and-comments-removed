@@ -729,11 +729,6 @@ ifdef
 XP_WIN32
 BINPATH
 /
-Accessible
-.
-tlb
-BINPATH
-/
 AccessibleMarshal
 .
 dll
