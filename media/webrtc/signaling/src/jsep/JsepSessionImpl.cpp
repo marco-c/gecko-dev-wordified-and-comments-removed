@@ -3830,6 +3830,10 @@ Move
 sdp
 )
 ;
++
++
+mSessionVersion
+;
 return
 NS_OK
 ;
