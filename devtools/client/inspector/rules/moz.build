@@ -101,3 +101,15 @@ rules
 js
 '
 )
+BROWSER_CHROME_MANIFESTS
++
+=
+[
+'
+test
+/
+browser
+.
+ini
+'
+]
