@@ -1292,15 +1292,6 @@ for
 viewing
 later
 .
-Note
-:
-Only
-used
-in
-JavaScript
-for
-now
-.
 search
 .
 1
