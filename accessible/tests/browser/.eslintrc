@@ -104,6 +104,11 @@ testStates
 :
 true
 "
+testRelation
+"
+:
+true
+"
 testAccessibleTree
 "
 :
