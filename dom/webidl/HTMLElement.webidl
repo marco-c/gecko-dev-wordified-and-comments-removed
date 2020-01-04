@@ -213,6 +213,14 @@ attribute
 DOMStringMap
 dataset
 ;
+[
+GetterThrows
+Pure
+]
+attribute
+DOMString
+innerText
+;
 /
 /
 microdata
