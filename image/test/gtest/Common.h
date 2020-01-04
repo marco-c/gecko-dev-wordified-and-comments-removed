@@ -116,12 +116,6 @@ TEST_CASE_IS_ANIMATED
 <
 <
 3
-TEST_CASE_IGNORE_OUTPUT
-=
-1
-<
-<
-4
 }
 ;
 struct
@@ -1032,11 +1026,6 @@ DownscaledICOTestCase
 ;
 ImageTestCase
 DownscaledIconTestCase
-(
-)
-;
-ImageTestCase
-DownscaledTransparentICOWithANDMaskTestCase
 (
 )
 ;
