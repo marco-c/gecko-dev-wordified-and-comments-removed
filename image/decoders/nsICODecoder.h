@@ -78,6 +78,7 @@ READ_BIH
 READ_BMP
 PREPARE_FOR_MASK
 READ_MASK_ROW
+FINISH_MASK
 SKIP_MASK
 FINISHED_RESOURCE
 }
@@ -412,6 +413,14 @@ LexerTransition
 <
 ICOState
 >
+FinishMask
+(
+)
+;
+LexerTransition
+<
+ICOState
+>
 FinishResource
 (
 )
@@ -428,6 +437,14 @@ nsRefPtr
 Decoder
 >
 mContainedDecoder
+;
+UniquePtr
+<
+uint8_t
+[
+]
+>
+mMaskBuffer
 ;
 char
 mBIHraw
@@ -470,6 +487,9 @@ mCurrMaskLine
 ;
 bool
 mIsCursor
+;
+bool
+mHasMaskAlpha
 ;
 }
 ;

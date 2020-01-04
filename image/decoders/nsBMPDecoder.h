@@ -85,6 +85,16 @@ GetImageData
 (
 )
 ;
+size_t
+GetImageDataLength
+(
+)
+const
+{
+return
+mImageDataLength
+;
+}
 int32_t
 GetCompressedImageSize
 (
