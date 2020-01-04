@@ -2962,9 +2962,9 @@ ENTITY
 fxaccount_remove_account
 '
 Disconnect
-.
-.
-.
+&
+ellipsis
+;
 '
 >
 <
