@@ -539,14 +539,6 @@ ins
 )
 ;
 void
-visitAsmJSLoadFuncPtr
-(
-MAsmJSLoadFuncPtr
-*
-ins
-)
-;
-void
 visitStoreTypedArrayElementStatic
 (
 MStoreTypedArrayElementStatic
