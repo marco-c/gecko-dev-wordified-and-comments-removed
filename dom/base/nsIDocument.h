@@ -7331,6 +7331,16 @@ ReportHasScrollLinkedEffect
 (
 )
 ;
+bool
+HasScrollLinkedEffect
+(
+)
+const
+{
+return
+mHasScrollLinkedEffect
+;
+}
 protected
 :
 bool
