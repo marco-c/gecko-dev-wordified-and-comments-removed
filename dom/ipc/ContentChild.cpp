@@ -57,6 +57,15 @@ h
 #
 include
 "
+js
+/
+Initialization
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -13260,6 +13269,10 @@ RecvGatherProfile
 }
 #
 endif
+JS_DestroyTraceLogger
+(
+)
+;
 StartForceKillTimer
 (
 )
