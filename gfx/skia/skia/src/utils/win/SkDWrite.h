@@ -97,6 +97,7 @@ skname
 typedef
 int
 (
+WINAPI
 *
 SkGetUserDefaultLocaleNameProc
 )
