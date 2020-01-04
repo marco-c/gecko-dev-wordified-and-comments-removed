@@ -430,6 +430,8 @@ shapes
 (
 .
 /
+svgs
+/
 pathfinder
 .
 gif
@@ -481,6 +483,8 @@ objects
 ]
 (
 .
+/
+svgs
 /
 expand
 -
@@ -603,6 +607,8 @@ Sketch
 ]
 (
 .
+/
+svgs
 /
 sketch
 -
