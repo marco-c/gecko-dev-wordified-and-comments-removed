@@ -30779,28 +30779,6 @@ isClamp
 if
 type
 .
-isArray
-(
-)
-:
-        
-raise
-TypeError
-(
-"
-Can
-'
-t
-handle
-array
-arguments
-yet
-"
-)
-    
-if
-type
-.
 isSequence
 (
 )
@@ -32504,19 +32482,13 @@ interfaceObject
 =
 None
         
-arrayObjectMemberTypes
+sequenceObjectMemberTypes
 =
 filter
 (
 lambda
 t
 :
-t
-.
-isArray
-(
-)
-or
 t
 .
 isSequence
@@ -32528,7 +32500,7 @@ memberTypes
 if
 len
 (
-arrayObjectMemberTypes
+sequenceObjectMemberTypes
 )
 >
 0
@@ -32537,7 +32509,7 @@ arrayObjectMemberTypes
 assert
 len
 (
-arrayObjectMemberTypes
+sequenceObjectMemberTypes
 )
 =
 =
@@ -32547,13 +32519,13 @@ name
 =
 getUnionMemberName
 (
-arrayObjectMemberTypes
+sequenceObjectMemberTypes
 [
 0
 ]
 )
             
-arrayObject
+sequenceObject
 =
 CGGeneric
 (
@@ -32608,7 +32580,7 @@ name
 else
 :
             
-arrayObject
+sequenceObject
 =
 None
         
@@ -33157,7 +33129,7 @@ hasObjectTypes
 =
 interfaceObject
 or
-arrayObject
+sequenceObject
 or
 dateObject
 or
@@ -33179,7 +33151,7 @@ not
 (
 interfaceObject
 or
-arrayObject
+sequenceObject
 or
 dateObject
 or
@@ -33189,7 +33161,7 @@ mozMapObject
 )
             
 if
-arrayObject
+sequenceObject
 or
 dateObject
 or
@@ -33199,7 +33171,7 @@ callbackObject
 assert
 not
 (
-arrayObject
+sequenceObject
 and
 callbackObject
 )
@@ -33209,7 +33181,7 @@ templateBody
 CGElseChain
 (
 [
-arrayObject
+sequenceObject
 dateObject
 callbackObject
 ]
@@ -42122,29 +42094,6 @@ True
 )
     
 if
-type
-.
-isArray
-(
-)
-:
-        
-raise
-TypeError
-(
-"
-Can
-'
-t
-handle
-array
-return
-values
-yet
-"
-)
-    
-if
 (
 type
 .
@@ -45113,12 +45062,6 @@ or
 type
 .
 isMozMap
-(
-)
-or
-type
-.
-isArray
 (
 )
 :
@@ -52922,16 +52865,6 @@ possibleSignatures
                 
 if
 (
-distinguishingType
-(
-s
-)
-.
-isArray
-(
-)
-or
-                    
 distinguishingType
 (
 s
@@ -61815,17 +61748,6 @@ JSVAL_TYPE_UNDEFINED
 if
 t
 .
-isArray
-(
-)
-:
-            
-assert
-False
-        
-if
-t
-.
 isSequence
 (
 )
@@ -62320,17 +62242,6 @@ t
 .
 inner
 )
-        
-if
-t
-.
-isArray
-(
-)
-:
-            
-assert
-False
         
 if
 t
@@ -63805,28 +63716,6 @@ type
 .
 nullable
 (
-)
-    
-if
-type
-.
-isArray
-(
-)
-:
-        
-raise
-TypeError
-(
-"
-Can
-'
-t
-handle
-array
-arguments
-yet
-"
 )
     
 if
@@ -93386,12 +93275,6 @@ type
 isSequence
 (
 )
-or
-type
-.
-isArray
-(
-)
 :
                 
 return
@@ -96155,28 +96038,6 @@ MozMap
 "
 "
 "
-        
-if
-type
-.
-isArray
-(
-)
-:
-            
-raise
-TypeError
-(
-"
-Can
-'
-t
-handle
-array
-arguments
-yet
-"
-)
         
 if
 type
