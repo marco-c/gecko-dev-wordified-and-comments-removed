@@ -391,7 +391,6 @@ IsFake
 0
 ;
 virtual
-const
 dom
 :
 :
@@ -399,6 +398,7 @@ MediaSourceEnum
 GetMediaSource
 (
 )
+const
 =
 0
 ;

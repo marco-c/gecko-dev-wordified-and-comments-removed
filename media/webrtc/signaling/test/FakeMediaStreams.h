@@ -1375,7 +1375,6 @@ nullptr
 this
 ;
 }
-const
 uint32_t
 typeSize
 (

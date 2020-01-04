@@ -91,11 +91,11 @@ WebrtcMediaCodecVP8VideoEncoder
 override
 ;
 virtual
-const
 uint64_t
 PluginID
 (
 )
+const
 override
 {
 return
@@ -273,11 +273,11 @@ WebrtcMediaCodecVP8VideoDecoder
 override
 ;
 virtual
-const
 uint64_t
 PluginID
 (
 )
+const
 override
 {
 return

@@ -587,11 +587,11 @@ CodecPluginID
 {
 }
 virtual
-const
 uint64_t
 PluginID
 (
 )
+const
 =
 0
 ;

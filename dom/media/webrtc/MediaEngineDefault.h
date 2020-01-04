@@ -306,7 +306,6 @@ true
 ;
 }
 virtual
-const
 dom
 :
 :
@@ -314,6 +313,7 @@ MediaSourceEnum
 GetMediaSource
 (
 )
+const
 override
 {
 return
@@ -639,7 +639,6 @@ true
 ;
 }
 virtual
-const
 dom
 :
 :
@@ -647,6 +646,7 @@ MediaSourceEnum
 GetMediaSource
 (
 )
+const
 override
 {
 return

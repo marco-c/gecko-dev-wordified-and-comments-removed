@@ -1428,10 +1428,10 @@ track_id
 ;
 virtual
 TrackID
-const
 trackid_locked
 (
 )
+const
 {
 return
 listener_

@@ -100,11 +100,11 @@ WebrtcOMXH264VideoEncoder
 )
 ;
 virtual
-const
 uint64_t
 PluginID
 (
 )
+const
 override
 {
 return
@@ -297,11 +297,11 @@ WebrtcOMXH264VideoDecoder
 )
 ;
 virtual
-const
 uint64_t
 PluginID
 (
 )
+const
 override
 {
 return
