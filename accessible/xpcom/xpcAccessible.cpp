@@ -626,12 +626,11 @@ false
 )
 ;
 }
-NS_ADDREF
-(
-*
-aChildren
-=
 children
+.
+forget
+(
+aChildren
 )
 ;
 return
