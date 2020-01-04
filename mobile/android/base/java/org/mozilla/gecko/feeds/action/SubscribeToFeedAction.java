@@ -96,9 +96,9 @@ FeedSubscription
 ;
 public
 class
-SubscribeAction
+SubscribeToFeedAction
 extends
-BaseAction
+FeedAction
 {
 private
 static
@@ -125,7 +125,7 @@ Context
 context
 ;
 public
-SubscribeAction
+SubscribeToFeedAction
 (
 Context
 context

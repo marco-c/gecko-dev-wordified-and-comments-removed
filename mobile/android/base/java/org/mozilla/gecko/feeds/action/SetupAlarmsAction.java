@@ -79,9 +79,9 @@ FeedService
 ;
 public
 class
-SetupAction
+SetupAlarmsAction
 extends
-BaseAction
+FeedAction
 {
 private
 static
@@ -98,7 +98,7 @@ Context
 context
 ;
 public
-SetupAction
+SetupAlarmsAction
 (
 Context
 context

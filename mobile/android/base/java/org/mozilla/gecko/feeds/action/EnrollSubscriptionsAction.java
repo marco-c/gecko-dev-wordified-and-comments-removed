@@ -142,9 +142,9 @@ KnownSiteWordpress
 ;
 public
 class
-EnrollAction
+EnrollSubscriptionsAction
 extends
-BaseAction
+FeedAction
 {
 private
 static
@@ -184,7 +184,7 @@ Context
 context
 ;
 public
-EnrollAction
+EnrollSubscriptionsAction
 (
 Context
 context

@@ -272,9 +272,9 @@ List
 ;
 public
 class
-CheckAction
+CheckForUpdatesAction
 extends
-BaseAction
+FeedAction
 {
 public
 static
@@ -303,7 +303,7 @@ Context
 context
 ;
 public
-CheckAction
+CheckForUpdatesAction
 (
 Context
 context

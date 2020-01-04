@@ -2097,7 +2097,7 @@ feeds
 /
 action
 /
-BaseAction
+CheckForUpdatesAction
 .
 java
 '
@@ -2106,7 +2106,7 @@ feeds
 /
 action
 /
-CheckAction
+EnrollSubscriptionsAction
 .
 java
 '
@@ -2115,7 +2115,7 @@ feeds
 /
 action
 /
-EnrollAction
+FeedAction
 .
 java
 '
@@ -2124,7 +2124,7 @@ feeds
 /
 action
 /
-SetupAction
+SetupAlarmsAction
 .
 java
 '
@@ -2133,7 +2133,7 @@ feeds
 /
 action
 /
-SubscribeAction
+SubscribeToFeedAction
 .
 java
 '
@@ -2142,7 +2142,7 @@ feeds
 /
 action
 /
-WithdrawAction
+WithdrawSubscriptionsAction
 .
 java
 '

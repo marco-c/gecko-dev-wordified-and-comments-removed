@@ -92,9 +92,9 @@ FeedSubscription
 ;
 public
 class
-WithdrawAction
+WithdrawSubscriptionsAction
 extends
-BaseAction
+FeedAction
 {
 private
 static
@@ -111,7 +111,7 @@ Context
 context
 ;
 public
-WithdrawAction
+WithdrawSubscriptionsAction
 (
 Context
 context

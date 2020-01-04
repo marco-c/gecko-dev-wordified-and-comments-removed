@@ -275,7 +275,7 @@ feeds
 .
 action
 .
-CheckAction
+CheckForUpdatesAction
 ;
 import
 org
@@ -611,13 +611,6 @@ android
 preference
 .
 PreferenceGroup
-;
-import
-android
-.
-preference
-.
-PreferenceScreen
 ;
 import
 android
@@ -2342,7 +2335,7 @@ intentExtras
 .
 containsKey
 (
-CheckAction
+CheckForUpdatesAction
 .
 EXTRA_CONTENT_NOTIFICATION
 )

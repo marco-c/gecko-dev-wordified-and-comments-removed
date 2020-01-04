@@ -127,7 +127,7 @@ feeds
 .
 action
 .
-BaseAction
+FeedAction
 ;
 import
 org
@@ -140,7 +140,7 @@ feeds
 .
 action
 .
-CheckAction
+CheckForUpdatesAction
 ;
 import
 org
@@ -153,7 +153,7 @@ feeds
 .
 action
 .
-EnrollAction
+EnrollSubscriptionsAction
 ;
 import
 org
@@ -166,7 +166,7 @@ feeds
 .
 action
 .
-SetupAction
+SetupAlarmsAction
 ;
 import
 org
@@ -179,7 +179,7 @@ feeds
 .
 action
 .
-SubscribeAction
+SubscribeToFeedAction
 ;
 import
 org
@@ -192,7 +192,7 @@ feeds
 .
 action
 .
-WithdrawAction
+WithdrawSubscriptionsAction
 ;
 import
 org
@@ -387,7 +387,7 @@ intent
 .
 putExtra
 (
-SubscribeAction
+SubscribeToFeedAction
 .
 EXTRA_FEED_URL
 feedUrl
@@ -519,7 +519,7 @@ Skipping
 return
 ;
 }
-BaseAction
+FeedAction
 action
 =
 createActionForIntent
@@ -656,7 +656,7 @@ Done
 }
 Nullable
 private
-BaseAction
+FeedAction
 createActionForIntent
 (
 Intent
@@ -685,7 +685,7 @@ ACTION_SETUP
 :
 return
 new
-SetupAction
+SetupAlarmsAction
 (
 context
 )
@@ -695,7 +695,7 @@ ACTION_SUBSCRIBE
 :
 return
 new
-SubscribeAction
+SubscribeToFeedAction
 (
 context
 )
@@ -705,7 +705,7 @@ ACTION_CHECK
 :
 return
 new
-CheckAction
+CheckForUpdatesAction
 (
 context
 )
@@ -715,7 +715,7 @@ ACTION_ENROLL
 :
 return
 new
-EnrollAction
+EnrollSubscriptionsAction
 (
 context
 )
@@ -725,7 +725,7 @@ ACTION_WITHDRAW
 :
 return
 new
-WithdrawAction
+WithdrawSubscriptionsAction
 (
 context
 )

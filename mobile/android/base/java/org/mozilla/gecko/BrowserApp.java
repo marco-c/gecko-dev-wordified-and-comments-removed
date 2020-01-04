@@ -240,7 +240,7 @@ feeds
 .
 action
 .
-CheckAction
+CheckForUpdatesAction
 ;
 import
 org
@@ -19891,7 +19891,7 @@ intent
 .
 hasExtra
 (
-CheckAction
+CheckForUpdatesAction
 .
 EXTRA_CONTENT_NOTIFICATION
 )
