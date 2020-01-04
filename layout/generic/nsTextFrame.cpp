@@ -26623,13 +26623,15 @@ IsUnderlineColorDefined
 )
 &
 &
+(
+!
 aRangeStyle
 .
 IsForegroundColorDefined
 (
 )
-&
-&
+|
+|
 aRangeStyle
 .
 mUnderlineColor
@@ -26638,6 +26640,7 @@ mUnderlineColor
 aRangeStyle
 .
 mForegroundColor
+)
 )
 {
 color
