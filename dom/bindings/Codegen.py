@@ -18842,6 +18842,11 @@ if
 (
 !
 sPrefCachesInited
+&
+&
+NS_IsMainThread
+(
+)
 )
 {
 \
