@@ -62,15 +62,6 @@ nsRect
 .
 h
 "
-#
-include
-"
-base
-/
-basictypes
-.
-h
-"
 using
 namespace
 mozilla

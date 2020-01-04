@@ -759,7 +759,7 @@ return
 }
 already_AddRefed
 <
-TextureClient
+BufferTextureClient
 >
 CompositableClient
 :
@@ -864,6 +864,15 @@ if
 (
 !
 aClient
+|
+|
+!
+aClient
+-
+>
+IsAllocated
+(
+)
 )
 {
 return

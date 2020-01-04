@@ -3479,7 +3479,7 @@ if
 mBackBuffer
 -
 >
-HasSynchronization
+ImplementsLocking
 (
 )
 &

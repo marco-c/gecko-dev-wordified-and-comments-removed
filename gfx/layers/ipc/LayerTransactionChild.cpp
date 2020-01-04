@@ -213,7 +213,7 @@ texture
 texture
 -
 >
-Destroy
+ForceRemove
 (
 )
 ;
