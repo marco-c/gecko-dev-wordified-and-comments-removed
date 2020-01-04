@@ -2434,12 +2434,6 @@ nsISupports
 aSheet
 )
 ;
-LayerManager
-*
-GetRootLayerManager
-(
-)
-;
 void
 HideViewIfPopup
 (
