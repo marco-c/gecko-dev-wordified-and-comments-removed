@@ -15869,7 +15869,7 @@ NS_MOUSEENTER
 aMessage
 =
 =
-NS_MOUSE_OVER
+eMouseOver
 |
 |
 aMessage
@@ -16117,7 +16117,7 @@ if
 aMessage
 =
 =
-NS_MOUSE_OVER
+eMouseOver
 )
 {
 nsAutoPtr
@@ -16975,7 +16975,7 @@ isPointer
 ?
 NS_POINTER_OVER
 :
-NS_MOUSE_OVER
+eMouseOver
 aContent
 lastOverElement
 )

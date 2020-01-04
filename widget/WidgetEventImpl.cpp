@@ -268,7 +268,7 @@ case
 eMouseActivate
 :
 case
-NS_MOUSE_OVER
+eMouseOver
 :
 case
 NS_MOUSE_OUT

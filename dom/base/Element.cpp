@@ -13018,7 +13018,7 @@ mMessage
 )
 {
 case
-NS_MOUSE_OVER
+eMouseOver
 :
 case
 NS_FOCUS_CONTENT
@@ -13076,7 +13076,7 @@ mMessage
 )
 {
 case
-NS_MOUSE_OVER
+eMouseOver
 :
 aVisitor
 .

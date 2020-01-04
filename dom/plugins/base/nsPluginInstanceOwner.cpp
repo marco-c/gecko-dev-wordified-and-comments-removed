@@ -8278,7 +8278,7 @@ mMessage
 )
 {
 case
-NS_MOUSE_OVER
+eMouseOver
 :
 return
 NPCocoaEventMouseEntered
@@ -8436,7 +8436,7 @@ anEvent
 mMessage
 =
 =
-NS_MOUSE_OVER
+eMouseOver
 |
 |
 anEvent
@@ -9933,7 +9933,7 @@ anEvent
 mMessage
 =
 =
-NS_MOUSE_OVER
+eMouseOver
 |
 |
 anEvent
@@ -10408,7 +10408,7 @@ mMessage
 )
 {
 case
-NS_MOUSE_OVER
+eMouseOver
 :
 case
 NS_MOUSE_OUT
@@ -10431,7 +10431,7 @@ anEvent
 mMessage
 =
 =
-NS_MOUSE_OVER
+eMouseOver
 ?
 EnterNotify
 :

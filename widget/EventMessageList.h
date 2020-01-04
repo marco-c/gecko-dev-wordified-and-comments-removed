@@ -179,7 +179,7 @@ eMouseEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_MOUSE_OVER
+eMouseOver
 eMouseEventFirst
 +
 31
