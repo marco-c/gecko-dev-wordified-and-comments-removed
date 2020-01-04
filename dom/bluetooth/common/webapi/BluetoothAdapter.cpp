@@ -9245,9 +9245,6 @@ nullptr
 nullptr
 )
 ;
-nsresult
-rv
-=
 event
 -
 >
@@ -9256,11 +9253,6 @@ InitEvent
 aType
 false
 false
-)
-;
-NS_ENSURE_SUCCESS_VOID
-(
-rv
 )
 ;
 DispatchTrustedEvent
