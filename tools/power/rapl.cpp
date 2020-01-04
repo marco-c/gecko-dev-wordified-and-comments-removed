@@ -85,6 +85,11 @@ algorithm
 #
 include
 <
+numeric
+>
+#
+include
+<
 vector
 >
 static
