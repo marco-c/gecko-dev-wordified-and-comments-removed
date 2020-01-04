@@ -288,6 +288,8 @@ headers
 *
 %
 s
+%
+s
 *
 /
 %
@@ -298,6 +300,11 @@ s
 time
 .
 time
+(
+)
+time
+.
+clock
 (
 )
 extra_body
