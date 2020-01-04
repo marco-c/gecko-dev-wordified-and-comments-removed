@@ -409,11 +409,7 @@ get_first_and_last
 =
 dumpbin
 -
-section
-:
-rodata
--
-map
+exports
 1
 |
 grep
@@ -422,7 +418,7 @@ _NSModule
 sort
 -
 k
-2
+3
 |
 sed
 -
