@@ -65,6 +65,10 @@ expectedvalues
 [
 ]
 ;
+enableMatchFlagArgument
+(
+)
+;
 str
 =
 '

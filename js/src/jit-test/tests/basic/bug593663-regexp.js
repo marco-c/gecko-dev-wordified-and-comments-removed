@@ -30,6 +30,10 @@ true
 ;
 }
 }
+enableMatchFlagArgument
+(
+)
+;
 assertEq
 (
 "
