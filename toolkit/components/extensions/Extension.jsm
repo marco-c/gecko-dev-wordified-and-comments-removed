@@ -952,14 +952,12 @@ return
 console
 ;
 }
-ExtensionContext
 extensions
 :
 this
 global
 :
 scriptScope
-GlobalManager
 require
 }
 ;

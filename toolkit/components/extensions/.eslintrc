@@ -70,11 +70,6 @@ Extension
 :
 true
 "
-ExtensionContext
-"
-:
-true
-"
 ExtensionManagement
 "
 :
@@ -86,11 +81,6 @@ extensions
 true
 "
 global
-"
-:
-true
-"
-GlobalManager
 "
 :
 true
