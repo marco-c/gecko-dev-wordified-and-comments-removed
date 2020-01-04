@@ -2228,6 +2228,12 @@ QueryInterface
 true
 )
 ;
+aes
+.
+TakeOwnershipOfErrorReporting
+(
+)
+;
 XPCCallContext
 ccx
 (
