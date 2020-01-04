@@ -10066,7 +10066,7 @@ aPromise
 {
 nsCOMPtr
 <
-nsPIDOMWindow
+nsPIDOMWindowOuter
 >
 window
 =
@@ -10089,6 +10089,11 @@ parentObject
 do_QueryInterface
 (
 window
+-
+>
+GetCurrentInnerWindow
+(
+)
 )
 ;
 NS_ENSURE_STATE
