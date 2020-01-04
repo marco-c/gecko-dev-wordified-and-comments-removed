@@ -1607,14 +1607,17 @@ self
 retryLimit
         
 if
-not
 self
 .
-dirExists
+_useZip
+:
+            
+self
+.
+removeDir
 (
 remoteDir
 )
-:
             
 self
 .
@@ -1627,12 +1630,6 @@ remoteDir
 x
 "
 )
-        
-if
-self
-.
-_useZip
-:
             
 try
 :
@@ -1874,6 +1871,25 @@ timeout
         
 else
 :
+            
+self
+.
+mkDirs
+(
+remoteDir
++
+"
+/
+x
+"
+)
+            
+self
+.
+removeDir
+(
+remoteDir
+)
             
 tmpDir
 =
