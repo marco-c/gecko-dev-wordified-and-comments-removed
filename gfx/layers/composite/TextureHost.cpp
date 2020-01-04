@@ -1039,9 +1039,12 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Unsupported
 Surface
 type
+host
 "
 )
 ;

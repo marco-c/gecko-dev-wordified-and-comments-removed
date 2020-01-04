@@ -6282,6 +6282,12 @@ WAIT_TIMEOUT
 {
 MOZ_CRASH
 (
+"
+GFX
+:
+D3D11
+timeout
+"
 )
 ;
 }
@@ -8799,6 +8805,8 @@ Critical
 MOZ_CRASH
 (
 "
+GFX
+:
 Unrecoverable
 D3D11
 error

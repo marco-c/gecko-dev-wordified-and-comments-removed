@@ -344,6 +344,7 @@ SourceSurfaceIncompatible
 GlyphAllocFailedCairo
 GlyphAllocFailedCG
 InvalidRect
+CannotDraw3D
 MustBeLessThanThis
 =
 101

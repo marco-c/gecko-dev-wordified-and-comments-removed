@@ -1321,6 +1321,8 @@ else
 MOZ_CRASH
 (
 "
+GFX
+:
 Bad
 read
 {

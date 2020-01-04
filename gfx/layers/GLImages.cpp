@@ -340,6 +340,8 @@ IsComplete
 MOZ_CRASH
 (
 "
+GFX
+:
 ScopedFramebufferForTexture
 failed
 .

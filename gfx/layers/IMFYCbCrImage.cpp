@@ -180,6 +180,12 @@ WAIT_TIMEOUT
 {
 MOZ_CRASH
 (
+"
+GFX
+:
+IMFYCbCrImage
+timeout
+"
 )
 ;
 }

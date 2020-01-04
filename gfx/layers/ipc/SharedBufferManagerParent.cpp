@@ -1765,6 +1765,8 @@ thread_id
 MOZ_CRASH
 (
 "
+GFX
+:
 SharedBufferManagerParent
 :
 :

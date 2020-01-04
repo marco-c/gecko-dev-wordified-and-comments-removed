@@ -662,6 +662,8 @@ aSourcePoint
 MOZ_CRASH
 (
 "
+GFX
+:
 Shouldn
 '
 t
