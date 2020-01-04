@@ -200,9 +200,9 @@ refreshed
 "
 )
 ;
-yield
-openComputedView
+selectComputedView
 (
+inspector
 )
 ;
 yield

@@ -155,7 +155,7 @@ inspector
 }
 =
 yield
-openRuleView
+openInspector
 (
 )
 ;
@@ -204,7 +204,7 @@ inspector
 }
 =
 yield
-openRuleView
+openInspector
 (
 )
 )
@@ -271,7 +271,7 @@ inspector
 }
 =
 yield
-openRuleView
+openInspector
 (
 )
 )

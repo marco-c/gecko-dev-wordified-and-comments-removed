@@ -123,15 +123,11 @@ selection
 "
 )
 ;
-(
-{
 view
-}
 =
-yield
-openComputedView
+selectComputedView
 (
-)
+inspector
 )
 ;
 yield
