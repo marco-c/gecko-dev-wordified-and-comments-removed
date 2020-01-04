@@ -196,6 +196,17 @@ aLists
 )
 override
 ;
+void
+BuildDisplayListForTopLayer
+(
+nsDisplayListBuilder
+*
+aBuilder
+nsDisplayList
+*
+aList
+)
+;
 virtual
 nscoord
 GetMinISize
