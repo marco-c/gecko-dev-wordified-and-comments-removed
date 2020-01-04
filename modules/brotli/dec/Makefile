@@ -9,7 +9,7 @@ include
 shared
 .
 mk
-CPPFLAGS
+CFLAGS
 +
 =
 -
@@ -25,7 +25,7 @@ o
 huffman
 .
 o
-safe_malloc
+state
 .
 o
 streams

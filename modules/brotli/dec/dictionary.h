@@ -122863,7 +122863,7 @@ kBrotliDictionaryOffsetsByLength
 ;
 static
 const
-int
+int8_t
 kBrotliDictionarySizeBitsByLength
 [
 ]
