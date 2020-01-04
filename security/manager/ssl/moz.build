@@ -624,11 +624,6 @@ nsRandomGenerator
 cpp
 '
 '
-nsSDR
-.
-cpp
-'
-'
 nsSecureBrowserUIImpl
 .
 cpp
@@ -680,6 +675,11 @@ cpp
 '
 '
 RootCertificateTelemetryUtils
+.
+cpp
+'
+'
+SecretDecoderRing
 .
 cpp
 '

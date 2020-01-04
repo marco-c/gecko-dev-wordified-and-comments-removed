@@ -1,9 +1,9 @@
 #
 ifndef
-_NSSDR_H_
+SecretDecoderRing_h
 #
 define
-_NSSDR_H_
+SecretDecoderRing_h
 #
 include
 "
@@ -19,11 +19,8 @@ nsNSSShutDown
 h
 "
 #
-ifndef
-NS_SDR_CONTRACTID
-#
 define
-NS_SDR_CONTRACTID
+NS_SECRETDECODERRING_CONTRACTID
 "
 mozilla
 .
@@ -36,10 +33,8 @@ sdr
 1
 "
 #
-endif
-#
 define
-NS_SDR_CID
+NS_SECRETDECODERRING_CID
 \
 {
 0x0c4f1ddc
@@ -57,7 +52,7 @@ NS_SDR_CID
 }
 }
 class
-nsSecretDecoderRing
+SecretDecoderRing
 :
 public
 nsISecretDecoderRing
@@ -71,7 +66,7 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSISECRETDECODERRING
 NS_DECL_NSISECRETDECODERRINGCONFIG
-nsSecretDecoderRing
+SecretDecoderRing
 (
 )
 ;
@@ -87,7 +82,7 @@ protected
 :
 virtual
 ~
-nsSecretDecoderRing
+SecretDecoderRing
 (
 )
 ;
