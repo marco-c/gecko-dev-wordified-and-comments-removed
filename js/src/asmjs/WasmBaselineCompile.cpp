@@ -22196,12 +22196,14 @@ ExprType
 :
 Void
 :
+{
 pushVoid
 (
 )
 ;
 break
 ;
+}
 case
 ExprType
 :
@@ -24491,6 +24493,9 @@ switch
 type
 )
 {
+case
+AnyType
+:
 case
 ExprType
 :
