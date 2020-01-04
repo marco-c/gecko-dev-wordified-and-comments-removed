@@ -2154,15 +2154,6 @@ wmf
 -
 enable
 -
-xterm
--
-updates
-'
-'
--
--
-enable
--
 xul
 '
 '
