@@ -37530,9 +37530,6 @@ enabled
 false
 )
 ;
-#
-ifndef
-MOZ_WIDGET_GONK
 pref
 (
 "
@@ -37543,8 +37540,6 @@ enabled
 true
 )
 ;
-#
-endif
 pref
 (
 "
