@@ -322,7 +322,9 @@ Truncate
 ;
 if
 (
-mRoleMapEntry
+ARIARoleMap
+(
+)
 )
 {
 Accessible
