@@ -230,7 +230,7 @@ GeckoPreferencesBase
 parent
 =
 "
-GeckoBase
+Gecko
 "
 >
 <
