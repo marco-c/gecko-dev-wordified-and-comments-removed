@@ -802,15 +802,6 @@ if
 (
 transparentScrollbars
 )
-fails
--
-if
-(
-Android
-&
-&
-browserIsRemote
-)
 fuzzy
 -
 if
@@ -839,7 +830,6 @@ xhtml
 #
 bug
 650597
-732569
 #
 Initial
 mulet

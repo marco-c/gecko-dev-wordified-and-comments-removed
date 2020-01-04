@@ -253,10 +253,6 @@ random
 if
 (
 Android
-&
-&
-!
-browserIsRemote
 )
 skip
 -
@@ -355,10 +351,6 @@ random
 if
 (
 Android
-&
-&
-!
-browserIsRemote
 )
 HTTP
 =
