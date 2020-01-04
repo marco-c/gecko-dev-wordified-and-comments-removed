@@ -82,7 +82,7 @@ marionette
 /
 content
 /
-elements
+element
 .
 js
 "
