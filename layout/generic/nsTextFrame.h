@@ -1447,6 +1447,11 @@ callbacks
 =
 nullptr
 ;
+bool
+generateTextMask
+=
+false
+;
 explicit
 PaintTextParams
 (
