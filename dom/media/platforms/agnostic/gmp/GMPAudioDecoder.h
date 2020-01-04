@@ -376,7 +376,6 @@ aGMP
 ;
 const
 AudioInfo
-&
 mConfig
 ;
 MediaDataDecoderCallbackProxy
