@@ -132,6 +132,7 @@ editor
 isClean
 (
 )
+;
 if
 (
 priv
@@ -209,9 +210,9 @@ elt
 .
 textContent
 =
-'
+"
 *
-'
+"
 +
 resource
 .

@@ -95,6 +95,7 @@ extra
 extra
 "
 }
+;
 }
 getChild
 :
@@ -251,6 +252,7 @@ traits
 [
 ]
 }
+;
 }
 "
 formType
@@ -313,6 +315,7 @@ this
 .
 child
 }
+;
 }
 else
 if
@@ -345,6 +348,7 @@ this
 .
 child
 }
+;
 }
 getDefault
 :

@@ -512,6 +512,7 @@ checkCondition
 (
 frame
 )
+;
 if
 (
 result

@@ -987,7 +987,6 @@ return
 profile
 ;
 }
-;
 function
 deflateStack
 (

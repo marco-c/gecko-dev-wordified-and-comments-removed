@@ -515,6 +515,7 @@ click
 )
 "
 )
+;
 is
 (
 item1
@@ -539,6 +540,7 @@ click
 )
 "
 )
+;
 EventUtils
 .
 sendMouseEvent

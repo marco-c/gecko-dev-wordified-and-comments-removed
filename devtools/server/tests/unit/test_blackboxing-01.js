@@ -388,6 +388,7 @@ source
 .
 isBlackBoxed
 )
+;
 }
 }
 }

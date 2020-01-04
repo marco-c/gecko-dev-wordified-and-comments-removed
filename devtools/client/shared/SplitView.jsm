@@ -105,6 +105,7 @@ this
 _activeSummary
 =
 null
+;
 this
 .
 _mql
@@ -428,6 +429,7 @@ false
 )
 ;
 }
+;
 SplitView
 .
 prototype

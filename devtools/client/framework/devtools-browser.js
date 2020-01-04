@@ -464,7 +464,6 @@ true
 ;
 }
 }
-;
 let
 devToolbarEnabled
 =
@@ -3545,6 +3544,7 @@ win
 }
 }
 }
+;
 gDevTools
 .
 getToolDefinitionArray

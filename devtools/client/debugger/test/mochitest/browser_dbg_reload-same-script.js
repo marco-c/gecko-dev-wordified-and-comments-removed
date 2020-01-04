@@ -109,13 +109,13 @@ gDebugger
 .
 require
 (
-'
+"
 .
 /
 content
 /
 queries
-'
+"
 )
 ;
 const

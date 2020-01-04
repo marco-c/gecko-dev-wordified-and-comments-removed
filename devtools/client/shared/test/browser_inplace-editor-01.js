@@ -862,6 +862,7 @@ resolve
 )
 ;
 }
+;
 }
 function
 createInplaceEditorAndClick

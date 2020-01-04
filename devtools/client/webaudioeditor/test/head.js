@@ -2653,6 +2653,7 @@ edgePath
 .
 length
 }
+;
 }
 function
 forceCC
@@ -3038,9 +3039,9 @@ fn
 =
 =
 =
-'
+"
 undefined
-'
+"
 )
 return
 {

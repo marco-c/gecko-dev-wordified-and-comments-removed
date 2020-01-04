@@ -121,6 +121,7 @@ attachTabActorForUrl
 gClient
 TAB_URL
 )
+;
 }
 )
 .

@@ -697,6 +697,7 @@ return
 exports
 ;
 }
+;
 const
 watcher
 =

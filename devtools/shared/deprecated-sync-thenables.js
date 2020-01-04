@@ -114,9 +114,9 @@ then
 =
 =
 =
-'
+"
 function
-'
+"
 ;
 }
 function
@@ -488,6 +488,7 @@ apply
 call
 args
 )
+;
 }
 function
 promisedConcat
@@ -579,6 +580,7 @@ execute
 }
 ;
 }
+;
 }
 )
 (

@@ -8,7 +8,7 @@ actions
 =
 require
 (
-'
+"
 .
 .
 /
@@ -17,7 +17,7 @@ actions
 event
 -
 listeners
-'
+"
 )
 ;
 const
@@ -27,7 +27,7 @@ bindActionCreators
 =
 require
 (
-'
+"
 devtools
 /
 client
@@ -37,7 +37,7 @@ shared
 vendor
 /
 redux
-'
+"
 )
 ;
 const

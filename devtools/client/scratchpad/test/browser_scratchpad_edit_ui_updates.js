@@ -404,6 +404,7 @@ paste
 tests
 "
 )
+;
 is
 (
 WebConsoleUtils
@@ -418,6 +419,7 @@ count
 getter
 "
 )
+;
 let
 notificationbox
 =
@@ -439,11 +441,11 @@ notificationbox
 .
 getNotificationWithValue
 (
-'
+"
 selfxss
 -
 notification
-'
+"
 )
 ;
 ok
@@ -1342,4 +1344,5 @@ oldVal
 }
 gScratchpadWindow
 )
+;
 }

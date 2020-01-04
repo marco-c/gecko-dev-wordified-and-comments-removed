@@ -418,6 +418,7 @@ resolve
 )
 ;
 }
+;
 }
 function
 createInplaceEditorAndClick

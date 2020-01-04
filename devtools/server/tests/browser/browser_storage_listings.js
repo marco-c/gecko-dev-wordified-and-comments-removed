@@ -1329,6 +1329,7 @@ com
 }
 }
 }
+;
 function
 finishTests
 (
@@ -1344,6 +1345,7 @@ closeConnection
 >
 {
 }
+;
 }
 function
 *

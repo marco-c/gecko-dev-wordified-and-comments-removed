@@ -76,13 +76,13 @@ gDebugger
 .
 require
 (
-'
+"
 .
 /
 content
 /
 queries
-'
+"
 )
 ;
 const
@@ -251,6 +251,7 @@ line
 :
 9
 }
+;
 yield
 actions
 .

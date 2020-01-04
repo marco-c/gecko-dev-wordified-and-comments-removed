@@ -974,6 +974,7 @@ container
 offsetWidth
 /
 2
+;
 let
 mouseOffsetY
 =
@@ -986,6 +987,7 @@ container
 offsetHeight
 /
 2
+;
 let
 ratioZoomX
 =

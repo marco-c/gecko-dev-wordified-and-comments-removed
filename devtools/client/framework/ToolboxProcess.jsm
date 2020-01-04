@@ -69,6 +69,7 @@ XPCOMUtils
 jsm
 "
 )
+;
 const
 {
 require
@@ -284,6 +285,7 @@ args
 )
 ;
 }
+;
 if
 (
 typeof

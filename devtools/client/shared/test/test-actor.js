@@ -231,6 +231,7 @@ n
 )
 ;
 }
+;
 function
 getHighlighterCanvasFrameHelper
 (
@@ -4114,6 +4115,7 @@ split
 "
 "
 )
+;
 }
 )
 ;
@@ -4719,6 +4721,7 @@ split
 "
 "
 )
+;
 }
 )
 )

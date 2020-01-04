@@ -273,9 +273,9 @@ events
 emit
 (
 this
-'
+"
 entry
-'
+"
 emitDetail
 )
 ;

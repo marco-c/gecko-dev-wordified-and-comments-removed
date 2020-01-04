@@ -467,9 +467,9 @@ document
 .
 getElementById
 (
-'
+"
 debuggerCommands
-'
+"
 )
 {
 toggleAutoPrettyPrint

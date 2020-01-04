@@ -1666,6 +1666,7 @@ this
 .
 styleSheetIndex
 }
+;
 try
 {
 form
@@ -2361,6 +2362,7 @@ applied
 }
 }
 )
+;
 var
 OldStyleSheetFront
 =

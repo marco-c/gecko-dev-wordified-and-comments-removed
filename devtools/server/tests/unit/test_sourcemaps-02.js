@@ -252,6 +252,7 @@ url
 .
 "
 )
+;
 expectedSources
 .
 delete

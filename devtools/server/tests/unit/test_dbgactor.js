@@ -97,9 +97,9 @@ aResponse
 {
 do_check_true
 (
-'
+"
 tabs
-'
+"
 in
 aResponse
 )
@@ -485,6 +485,7 @@ why
 in
 aPacket
 )
+;
 do_check_eq
 (
 aPacket

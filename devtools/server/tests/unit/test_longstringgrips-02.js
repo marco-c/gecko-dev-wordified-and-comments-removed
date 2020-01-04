@@ -255,11 +255,11 @@ gDebuggee
 .
 eval
 (
-'
+"
 stopMe
 (
 )
-'
+"
 )
 ;
 }

@@ -1414,6 +1414,7 @@ aCallback
 ;
 }
 )
+;
 gWatch
 .
 addExpression
@@ -3743,9 +3744,9 @@ is
 w28
 .
 value
-'
+"
 foo
-'
+"
 "
 The
 28th

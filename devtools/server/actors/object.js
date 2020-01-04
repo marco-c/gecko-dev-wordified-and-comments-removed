@@ -49,6 +49,7 @@ server
 main
 "
 )
+;
 const
 DevToolsUtils
 =
@@ -1431,6 +1432,7 @@ object
 getOwnPropertyNames
 (
 )
+;
 }
 catch
 (
@@ -7909,7 +7911,6 @@ obj
 promiseState
 ;
 }
-;
 function
 isObject
 (
@@ -8565,9 +8566,9 @@ nsresult
 +
 result
 +
-'
+"
 (
-'
+"
 +
 name
 +

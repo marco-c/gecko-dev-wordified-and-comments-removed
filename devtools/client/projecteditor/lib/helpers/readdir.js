@@ -256,7 +256,6 @@ return
 ret
 ;
 }
-;
 onmessage
 =
 function

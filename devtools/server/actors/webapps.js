@@ -2482,6 +2482,7 @@ aId
 }
 }
 }
+;
 Services
 .
 tm
@@ -3413,6 +3414,7 @@ DOMApplicationRegistry
 .
 kPackaged
 }
+;
 self
 .
 _registerApp
@@ -3448,6 +3450,7 @@ aId
 }
 }
 }
+;
 Services
 .
 tm
@@ -4613,7 +4616,7 @@ req
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -4623,7 +4626,7 @@ xmlextras
 xmlhttprequest
 ;
 1
-'
+"
 ]
 .
 createInstance
@@ -5053,9 +5056,9 @@ frame
 .
 getAttribute
 (
-'
+"
 mozapp
-'
+"
 )
 ;
 }
@@ -5616,9 +5619,9 @@ frame
 .
 getAttribute
 (
-'
+"
 mozapp
-'
+"
 )
 ;
 if
@@ -5700,9 +5703,9 @@ frame
 .
 getAttribute
 (
-'
+"
 mozapp
-'
+"
 )
 ;
 if

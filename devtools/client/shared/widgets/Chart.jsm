@@ -491,6 +491,7 @@ emit
 event
 item
 )
+;
 }
 )
 ;
@@ -515,6 +516,7 @@ emit
 event
 item
 )
+;
 }
 )
 ;

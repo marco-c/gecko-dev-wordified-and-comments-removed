@@ -86,9 +86,9 @@ subject
 =
 =
 =
-'
+"
 object
-'
+"
 )
 {
 dumpn
@@ -333,9 +333,9 @@ basis
 =
 =
 =
-'
+"
 object
-'
+"
 )
 {
 var
@@ -546,6 +546,7 @@ got
 +
 b
 )
+;
 }
 missing
 :
@@ -715,6 +716,7 @@ basis
 )
 ;
 }
+;
 return
 Census
 ;

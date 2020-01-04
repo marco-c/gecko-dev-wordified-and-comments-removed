@@ -8,7 +8,7 @@ evalSource
 {
 eval
 (
-'
+"
 bar
 =
 function
@@ -24,7 +24,7 @@ x
 \
 n
 }
-'
+"
 )
 ;
 }
@@ -35,7 +35,7 @@ evalSourceWithSourceURL
 {
 eval
 (
-'
+"
 bar
 =
 function
@@ -59,7 +59,7 @@ sourceURL
 bar
 .
 js
-'
+"
 )
 ;
 }
@@ -70,7 +70,7 @@ evalSourceWithDebugger
 {
 eval
 (
-'
+"
 bar
 =
 function
@@ -93,7 +93,7 @@ bar
 (
 )
 ;
-'
+"
 )
 ;
 }

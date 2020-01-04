@@ -533,6 +533,7 @@ create
 true
 }
 )
+;
 }
 saveResource
 :
@@ -553,6 +554,7 @@ resource
 }
 }
 )
+;
 exports
 .
 SavePlugin

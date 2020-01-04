@@ -713,6 +713,7 @@ caller
 sortingPredicate
 :
 DEFAULT_SORTING_PREDICATE
+;
 this
 .
 autoExpandDepth
@@ -800,7 +801,6 @@ this
 )
 ;
 }
-;
 CallView
 .
 prototype
@@ -1425,7 +1425,7 @@ cell
 .
 querySelector
 (
-'
+"
 description
 :
 last
@@ -1433,7 +1433,7 @@ last
 of
 -
 type
-'
+"
 )
 ;
 lastDescription
@@ -1456,7 +1456,7 @@ cell
 .
 querySelector
 (
-'
+"
 description
 :
 first
@@ -1464,7 +1464,7 @@ first
 of
 -
 type
-'
+"
 )
 ;
 let

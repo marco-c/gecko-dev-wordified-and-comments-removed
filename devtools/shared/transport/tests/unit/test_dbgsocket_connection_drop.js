@@ -140,10 +140,10 @@ test_socket_conn_drops_after_too_large_length
 return
 test_helper
 (
-'
+"
 4305724038957487634549823475894325
 :
-'
+"
 )
 ;
 }
@@ -155,9 +155,9 @@ test_socket_conn_drops_after_too_long_header
 let
 rawPacket
 =
-'
+"
 4305724038957487634549823475894325
-'
+"
 ;
 for
 (
@@ -186,9 +186,9 @@ test_helper
 (
 rawPacket
 +
-'
+"
 :
-'
+"
 )
 ;
 }

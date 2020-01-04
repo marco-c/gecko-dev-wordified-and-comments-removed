@@ -8,11 +8,11 @@ constants
 =
 require
 (
-'
+"
 .
 /
 constants
-'
+"
 )
 ;
 function
@@ -28,6 +28,7 @@ constants
 .
 UNLOAD
 }
+;
 }
 module
 .

@@ -685,6 +685,7 @@ in
 production
 .
 )
+;
 let
 {
 getMostRecentBrowserWindow

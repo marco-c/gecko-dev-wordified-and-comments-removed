@@ -85,6 +85,7 @@ canvas
 .
 "
 )
+;
 is
 (
 pixel
@@ -101,6 +102,7 @@ canvas
 .
 "
 )
+;
 is
 (
 pixel
@@ -117,6 +119,7 @@ canvas
 .
 "
 )
+;
 is
 (
 pixel
@@ -133,6 +136,7 @@ canvas
 .
 "
 )
+;
 pixel
 =
 yield
@@ -176,6 +180,7 @@ canvas
 .
 "
 )
+;
 is
 (
 pixel
@@ -192,6 +197,7 @@ canvas
 .
 "
 )
+;
 is
 (
 pixel
@@ -208,6 +214,7 @@ canvas
 .
 "
 )
+;
 is
 (
 pixel
@@ -224,6 +231,7 @@ canvas
 .
 "
 )
+;
 yield
 removeTab
 (

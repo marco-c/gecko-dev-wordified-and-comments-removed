@@ -407,6 +407,7 @@ one
 ;
 }
 )
+;
 }
 function
 checkSecondCachedPrograms

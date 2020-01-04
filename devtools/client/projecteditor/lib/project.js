@@ -188,13 +188,13 @@ TextDecoder
 =
 require
 (
-'
+"
 sdk
 /
 io
 /
 buffer
-'
+"
 )
 ;
 const
@@ -202,11 +202,11 @@ url
 =
 require
 (
-'
+"
 sdk
 /
 url
-'
+"
 )
 ;
 const
@@ -756,6 +756,7 @@ resource
 ;
 }
 )
+;
 emit
 (
 this

@@ -6,6 +6,7 @@ function
 )
 {
 }
+;
 var
 test3
 =
@@ -15,6 +16,7 @@ test3_NAME
 )
 {
 }
+;
 var
 test4_SAME_NAME
 =
@@ -24,6 +26,7 @@ test4_SAME_NAME
 )
 {
 }
+;
 test
 .
 prototype

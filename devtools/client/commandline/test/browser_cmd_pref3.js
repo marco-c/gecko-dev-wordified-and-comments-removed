@@ -178,7 +178,7 @@ options
 {
 setup
 :
-'
+"
 pref
 show
 devtools
@@ -188,7 +188,7 @@ debugger
 remote
 -
 host
-'
+"
 check
 :
 {
@@ -255,7 +255,7 @@ remoteHostOrig
 {
 setup
 :
-'
+"
 pref
 set
 devtools
@@ -268,7 +268,7 @@ host
 e
 .
 com
-'
+"
 check
 :
 {
@@ -319,14 +319,14 @@ exec
 {
 output
 :
-'
-'
+"
+"
 }
 }
 {
 setup
 :
-'
+"
 pref
 show
 devtools
@@ -336,7 +336,7 @@ debugger
 remote
 -
 host
-'
+"
 check
 :
 {
@@ -454,7 +454,7 @@ com
 {
 setup
 :
-'
+"
 pref
 set
 devtools
@@ -467,7 +467,7 @@ host
 moz
 .
 foo
-'
+"
 check
 :
 {
@@ -518,14 +518,14 @@ exec
 {
 output
 :
-'
-'
+"
+"
 }
 }
 {
 setup
 :
-'
+"
 pref
 show
 devtools
@@ -535,7 +535,7 @@ debugger
 remote
 -
 host
-'
+"
 check
 :
 {

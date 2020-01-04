@@ -2829,6 +2829,7 @@ __proto__
 .
 "
 )
+;
 is
 (
 buttonAsProtoProtoProtoVar

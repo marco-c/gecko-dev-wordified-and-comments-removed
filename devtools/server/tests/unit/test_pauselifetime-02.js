@@ -246,7 +246,6 @@ aObject
 debugger
 ;
 }
-;
 stopMe
 (
 {

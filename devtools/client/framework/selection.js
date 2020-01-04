@@ -950,7 +950,6 @@ parentNode
 )
 ;
 }
-;
 return
 false
 ;

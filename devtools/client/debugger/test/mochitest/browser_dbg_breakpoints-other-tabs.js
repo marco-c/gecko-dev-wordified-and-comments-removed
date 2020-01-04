@@ -58,13 +58,13 @@ panelWin
 .
 require
 (
-'
+"
 .
 /
 content
 /
 queries
-'
+"
 )
 ;
 const

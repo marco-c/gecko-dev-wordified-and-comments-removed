@@ -401,6 +401,7 @@ testNoWarning
 ;
 }
 )
+;
 }
 )
 ;

@@ -704,7 +704,6 @@ break
 ;
 }
 }
-;
 }
 }
 PerformanceRecordingCommon

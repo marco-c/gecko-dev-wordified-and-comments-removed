@@ -286,6 +286,7 @@ window
 focus
 (
 )
+;
 }
 ;
 toolbox
@@ -325,6 +326,7 @@ raise
 )
 "
 )
+;
 window
 .
 removeEventListener

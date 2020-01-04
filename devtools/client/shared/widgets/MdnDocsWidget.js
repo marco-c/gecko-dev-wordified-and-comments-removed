@@ -110,6 +110,7 @@ utm_campaign
 =
 default
 "
+;
 var
 PAGE_LINK_URL
 =
@@ -141,11 +142,11 @@ PAGE_LINK_URL
 const
 BROWSER_WINDOW
 =
-'
+"
 navigator
 :
 browser
-'
+"
 ;
 const
 PROPERTY_NAME_COLOR
@@ -1135,6 +1136,7 @@ null
 ;
 }
 }
+;
 function
 L10N
 (

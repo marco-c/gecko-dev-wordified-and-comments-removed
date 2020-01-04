@@ -245,7 +245,6 @@ arg1
 debugger
 ;
 }
-;
 stopMe
 (
 {

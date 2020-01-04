@@ -79,13 +79,13 @@ gDebugger
 .
 require
 (
-'
+"
 .
 /
 content
 /
 queries
-'
+"
 )
 ;
 const
@@ -1592,6 +1592,7 @@ gPanel
 ;
 }
 )
+;
 }
 )
 ;

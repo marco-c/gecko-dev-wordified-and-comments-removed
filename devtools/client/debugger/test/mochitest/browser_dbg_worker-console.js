@@ -616,6 +616,7 @@ of
 command3
 "
 )
+;
 executed
 =
 yield

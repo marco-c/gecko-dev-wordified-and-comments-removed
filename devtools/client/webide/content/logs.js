@@ -242,7 +242,6 @@ details
 break
 ;
 }
-;
 }
 close
 :

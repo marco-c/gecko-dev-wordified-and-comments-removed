@@ -191,6 +191,7 @@ window
 .
 "
 )
+;
 executeSoon
 (
 (
@@ -233,6 +234,7 @@ focused
 .
 "
 )
+;
 gFocusedWindow
 =
 window

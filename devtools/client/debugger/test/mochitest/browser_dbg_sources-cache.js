@@ -112,13 +112,13 @@ gDebugger
 .
 require
 (
-'
+"
 .
 /
 content
 /
 queries
-'
+"
 )
 ;
 const
@@ -310,6 +310,7 @@ model
 .
 "
 )
+;
 is
 (
 gSources
@@ -337,6 +338,7 @@ model
 .
 "
 )
+;
 info
 (
 "

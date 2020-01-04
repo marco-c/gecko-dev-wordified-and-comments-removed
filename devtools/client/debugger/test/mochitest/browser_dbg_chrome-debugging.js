@@ -34,6 +34,7 @@ promise
 defer
 (
 )
+;
 var
 gNewChromeSource
 =
@@ -42,6 +43,7 @@ promise
 defer
 (
 )
+;
 var
 {
 DevToolsLoader

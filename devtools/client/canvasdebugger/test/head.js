@@ -28,7 +28,7 @@ generateUUID
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -38,7 +38,7 @@ uuid
 generator
 ;
 1
-'
+"
 ]
 .
 getService
@@ -298,6 +298,7 @@ var
 mm
 =
 null
+;
 const
 FRAME_SCRIPT_UTILS_URL
 =

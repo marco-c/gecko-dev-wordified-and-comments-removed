@@ -485,6 +485,7 @@ correctly
 .
 "
 )
+;
 teardown
 (
 aMonitor

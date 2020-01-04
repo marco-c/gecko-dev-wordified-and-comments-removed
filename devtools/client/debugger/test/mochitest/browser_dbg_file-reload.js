@@ -82,13 +82,13 @@ gDebugger
 .
 require
 (
-'
+"
 .
 /
 content
 /
 queries
-'
+"
 )
 ;
 const
@@ -98,13 +98,13 @@ gDebugger
 .
 require
 (
-'
+"
 .
 /
 content
 /
 constants
-'
+"
 )
 ;
 const
@@ -176,6 +176,7 @@ view
 .
 "
 )
+;
 is
 (
 source
@@ -350,6 +351,7 @@ view
 .
 "
 )
+;
 is
 (
 source

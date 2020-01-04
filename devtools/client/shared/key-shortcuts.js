@@ -698,6 +698,7 @@ return
 shortcut
 ;
 }
+;
 KeyShortcuts
 .
 prototype

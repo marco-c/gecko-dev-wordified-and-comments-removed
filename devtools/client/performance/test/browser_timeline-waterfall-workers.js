@@ -458,7 +458,7 @@ generateUUID
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -468,7 +468,7 @@ uuid
 generator
 ;
 1
-'
+"
 ]
 .
 getService

@@ -534,7 +534,6 @@ undefined
 debugger
 ;
 }
-;
 stopMe
 (
 42

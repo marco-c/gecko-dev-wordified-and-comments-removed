@@ -60,6 +60,7 @@ traits
 [
 ]
 }
+;
 }
 var
 RootActor

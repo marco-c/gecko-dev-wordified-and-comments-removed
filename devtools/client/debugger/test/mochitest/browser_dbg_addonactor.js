@@ -307,10 +307,10 @@ testDebugger
 {
 info
 (
-'
+"
 Entering
 testDebugger
-'
+"
 )
 ;
 let
@@ -360,6 +360,7 @@ deferred
 .
 resolve
 )
+;
 }
 )
 ;

@@ -1827,6 +1827,7 @@ align
 center
 "
 )
+;
 resultsHeader
 .
 appendChild

@@ -1333,6 +1333,7 @@ Unregistering
 tool
 "
 )
+;
 gDevTools
 .
 unregisterTool

@@ -846,7 +846,6 @@ column
 }
 ;
 }
-;
 function
 computeIsContentAndCategory
 (
@@ -1193,7 +1192,6 @@ return
 inflatedCache
 ;
 }
-;
 function
 getOrAddInflatedFrame
 (
@@ -1240,7 +1238,6 @@ return
 inflatedFrame
 ;
 }
-;
 function
 InflatedFrame
 (
@@ -1375,7 +1372,6 @@ this
 )
 ;
 }
-;
 InflatedFrame
 .
 prototype

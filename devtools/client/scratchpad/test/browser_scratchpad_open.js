@@ -447,12 +447,12 @@ document
 .
 querySelector
 (
-'
+"
 #
 scratchpad
 -
 notificationbox
-'
+"
 )
 ;
 is
@@ -461,9 +461,9 @@ nb
 .
 querySelectorAll
 (
-'
+"
 notification
-'
+"
 )
 .
 length

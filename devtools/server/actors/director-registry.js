@@ -749,9 +749,7 @@ reply
 ]
 ;
 }
-;
 }
-;
 const
 DirectorRegistryActor
 =

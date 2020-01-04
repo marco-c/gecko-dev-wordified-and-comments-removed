@@ -126,6 +126,7 @@ target
 null
 ;
 }
+;
 let
 isRemoteHighlightable
 =
@@ -147,6 +148,7 @@ traits
 highlightable
 ;
 }
+;
 let
 supportsCustomHighlighters
 =
@@ -262,6 +264,7 @@ startPicker
 ;
 }
 }
+;
 let
 startPicker
 =

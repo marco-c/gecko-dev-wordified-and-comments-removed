@@ -260,6 +260,7 @@ startup
 .
 "
 )
+;
 }
 function
 checkInitialSource

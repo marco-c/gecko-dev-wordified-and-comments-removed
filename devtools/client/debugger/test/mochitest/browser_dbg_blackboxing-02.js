@@ -19,6 +19,7 @@ code_blackboxing_blackboxme
 .
 js
 "
+;
 var
 gTab
 gPanel

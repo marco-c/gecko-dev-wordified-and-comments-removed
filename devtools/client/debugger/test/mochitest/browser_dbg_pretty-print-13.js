@@ -76,13 +76,13 @@ gDebugger
 .
 require
 (
-'
+"
 .
 /
 content
 /
 queries
-'
+"
 )
 ;
 const
@@ -92,13 +92,13 @@ gDebugger
 .
 require
 (
-'
+"
 .
 /
 content
 /
 constants
-'
+"
 )
 ;
 const
@@ -258,6 +258,7 @@ printed
 .
 "
 )
+;
 is
 (
 deck
@@ -334,6 +335,7 @@ gPanel
 ;
 }
 )
+;
 }
 )
 ;

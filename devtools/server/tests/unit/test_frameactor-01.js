@@ -176,7 +176,6 @@ stopMe
 debugger
 ;
 }
-;
 stopMe
 (
 )

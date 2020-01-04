@@ -40,7 +40,7 @@ aPanel
 let
 Source
 =
-'
+"
 code_function
 -
 search
@@ -48,7 +48,7 @@ search
 01
 .
 js
-'
+"
 ;
 let
 Debugger
@@ -1163,4 +1163,3 @@ aPanel
 )
 ;
 }
-;

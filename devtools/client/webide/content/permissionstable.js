@@ -434,6 +434,7 @@ className
 "
 permdeny
 "
+;
 }
 tr
 .

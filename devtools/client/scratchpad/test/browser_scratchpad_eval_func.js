@@ -182,6 +182,7 @@ bar
 \
 n
 "
+;
 sp
 .
 setText

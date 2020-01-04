@@ -65,13 +65,13 @@ gDebugger
 .
 require
 (
-'
+"
 .
 /
 content
 /
 queries
-'
+"
 )
 ;
 const
@@ -81,13 +81,13 @@ gDebugger
 .
 require
 (
-'
+"
 .
 /
 content
 /
 constants
-'
+"
 )
 ;
 const
@@ -302,6 +302,7 @@ correct
 .
 "
 )
+;
 yield
 waitForConditionUpdate
 (
@@ -395,6 +396,7 @@ correct
 .
 "
 )
+;
 yield
 resumeDebuggerThenCloseAndFinish
 (

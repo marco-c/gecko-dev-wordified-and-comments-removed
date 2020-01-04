@@ -379,6 +379,7 @@ lastMethodCalled
 methodName
 ;
 }
+;
 let
 menu
 =

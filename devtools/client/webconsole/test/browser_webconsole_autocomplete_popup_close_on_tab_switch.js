@@ -126,6 +126,7 @@ autocomplete
 closes
 "
 )
+;
 ok
 (
 !

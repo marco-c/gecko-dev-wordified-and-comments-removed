@@ -2,9 +2,9 @@ self
 .
 addEventListener
 (
-'
+"
 message
-'
+"
 function
 (
 e
@@ -24,6 +24,7 @@ self
 close
 (
 )
+;
 }
 false
 )

@@ -25,13 +25,13 @@ TextDecoder
 =
 require
 (
-'
+"
 sdk
 /
 io
 /
 buffer
-'
+"
 )
 ;
 const
@@ -327,6 +327,7 @@ return
 this
 .
 parent
+;
 }
 get
 childrenSorted
@@ -975,8 +976,8 @@ replace
 /
 +
 /
-'
-'
+"
+"
 )
 .
 replace
@@ -986,9 +987,9 @@ replace
 \
 /
 g
-'
+"
 /
-'
+"
 )
 .
 replace
@@ -999,8 +1000,8 @@ replace
 \
 /
 /
-'
-'
+"
+"
 )
 ;
 }
@@ -1026,6 +1027,7 @@ isDir
 "
 "
 )
+;
 }
 get
 isDir

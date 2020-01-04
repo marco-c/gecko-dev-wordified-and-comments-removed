@@ -297,6 +297,7 @@ shadereditor
 .
 properties
 "
+;
 const
 HIGHLIGHT_TINT
 =

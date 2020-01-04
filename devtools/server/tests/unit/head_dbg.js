@@ -92,6 +92,7 @@ js
 {
 }
 )
+;
 const
 promise
 =
@@ -313,7 +314,7 @@ loadSubScript
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -325,7 +326,7 @@ jssubscript
 loader
 ;
 1
-'
+"
 ]
 .
 getService
@@ -1351,6 +1352,7 @@ throw
 :
 ex
 }
+;
 }
 return
 undefined

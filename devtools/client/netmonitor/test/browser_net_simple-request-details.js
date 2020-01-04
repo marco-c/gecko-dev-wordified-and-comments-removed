@@ -249,6 +249,7 @@ aMonitor
 panelWin
 TAB_UPDATED
 )
+;
 testHeadersTab
 (
 )

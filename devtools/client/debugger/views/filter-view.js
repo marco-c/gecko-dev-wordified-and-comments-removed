@@ -893,9 +893,9 @@ document
 .
 getElementById
 (
-'
+"
 debuggerCommands
-'
+"
 )
 {
 fileSearchCommand

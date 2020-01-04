@@ -278,7 +278,6 @@ debugger
 debugger
 ;
 }
-;
 stopMe
 (
 {

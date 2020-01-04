@@ -193,6 +193,7 @@ printed
 .
 "
 )
+;
 closeDebuggerAndFinish
 (
 gPanel

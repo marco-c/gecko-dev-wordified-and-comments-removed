@@ -545,9 +545,9 @@ BrowserTestUtils
 .
 synthesizeMouseAtCenter
 (
-'
+"
 button
-'
+"
 {
 }
 gBrowser

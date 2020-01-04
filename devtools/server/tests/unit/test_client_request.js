@@ -657,6 +657,7 @@ promise
 defer
 (
 )
+;
 gClient
 .
 expectReply
@@ -898,6 +899,7 @@ then
 (
 run_next_test
 )
+;
 }
 )
 ;

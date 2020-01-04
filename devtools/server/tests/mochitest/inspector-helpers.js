@@ -672,6 +672,7 @@ sortOwnershipChildren
 children
 )
 }
+;
 }
 function
 serverOwnershipTree
@@ -799,6 +800,7 @@ child
 )
 )
 }
+;
 }
 function
 clientOwnershipTree
@@ -859,6 +861,7 @@ o
 )
 )
 }
+;
 }
 function
 ownershipTreeSize
@@ -924,8 +927,8 @@ stringify
 (
 clientTree
 null
-'
-'
+"
+"
 )
 JSON
 .
@@ -933,8 +936,8 @@ stringify
 (
 serverTree
 null
-'
-'
+"
+"
 )
 "
 Server
@@ -1596,6 +1599,7 @@ finalMutations
 ;
 }
 )
+;
 }
 )
 ;
@@ -1680,6 +1684,7 @@ SimpleTest
 finish
 (
 )
+;
 return
 ;
 }

@@ -375,7 +375,6 @@ updateCommands
 break
 ;
 }
-;
 }
 onWebIDEUpdate
 :

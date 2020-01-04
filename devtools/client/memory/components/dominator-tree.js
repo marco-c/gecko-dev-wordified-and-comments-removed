@@ -836,6 +836,7 @@ node
 .
 nodeId
 )
+;
 }
 onExpand
 :
@@ -1095,6 +1096,7 @@ retainedSize
 onViewSourceInDebugger
 }
 )
+;
 }
 getRoots
 :

@@ -149,9 +149,9 @@ EventUtils
 .
 synthesizeKey
 (
-'
+"
 VK_RETURN
-'
+"
 {
 }
 )
@@ -297,9 +297,9 @@ EventUtils
 .
 synthesizeKey
 (
-'
+"
 VK_RETURN
-'
+"
 {
 }
 )
@@ -451,6 +451,7 @@ remove
 ]
 "
 )
+;
 ok
 (
 !

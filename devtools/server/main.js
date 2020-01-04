@@ -215,7 +215,7 @@ generateUUID
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -225,7 +225,7 @@ uuid
 generator
 ;
 1
-'
+"
 ]
 .
 getService
@@ -799,7 +799,6 @@ null
 }
 ;
 }
-;
 var
 DebuggerServer
 =
@@ -4979,9 +4978,9 @@ _nextConnID
 +
 +
 +
-'
+"
 .
-'
+"
 ;
 }
 let
@@ -5791,6 +5790,7 @@ return
 this
 .
 _prefix
+;
 }
 _transport
 :
@@ -5804,6 +5804,7 @@ return
 this
 .
 _transport
+;
 }
 parentMessageManager
 :
@@ -5876,8 +5877,8 @@ prefix
 aPrefix
 |
 |
-'
-'
+"
+"
 )
 +
 this
@@ -6642,9 +6643,9 @@ to
 .
 lastIndexOf
 (
-'
+"
 /
-'
+"
 )
 ;
 while
@@ -6706,9 +6707,9 @@ to
 .
 lastIndexOf
 (
-'
+"
 /
-'
+"
 )
 ;
 }

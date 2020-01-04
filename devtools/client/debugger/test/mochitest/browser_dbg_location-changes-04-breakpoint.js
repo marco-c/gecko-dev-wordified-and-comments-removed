@@ -93,13 +93,13 @@ gDebugger
 .
 require
 (
-'
+"
 .
 /
 content
 /
 queries
-'
+"
 )
 ;
 const
@@ -939,6 +939,7 @@ gPanel
 1
 true
 )
+;
 is
 (
 gDebugger
@@ -1017,6 +1018,7 @@ EVENTS
 .
 SOURCE_SHOWN
 )
+;
 yield
 actions
 .
@@ -1060,6 +1062,7 @@ editor
 .
 "
 )
+;
 is
 (
 gEditor
@@ -1148,6 +1151,7 @@ editor
 .
 "
 )
+;
 is
 (
 gEditor

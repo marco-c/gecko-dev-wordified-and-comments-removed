@@ -285,6 +285,7 @@ parentActor
 )
 ;
 }
+;
 exports
 .
 RegisteredActorFactory
@@ -409,6 +410,7 @@ return
 instance
 ;
 }
+;
 exports
 .
 ObservedActorFactory
@@ -498,6 +500,7 @@ actor
 }
 }
 }
+;
 exports
 .
 appendExtraActors
@@ -539,6 +542,7 @@ actorID
 ;
 }
 }
+;
 function
 ActorPool
 (
@@ -850,6 +854,7 @@ name
 }
 }
 }
+;
 exports
 .
 ActorPool

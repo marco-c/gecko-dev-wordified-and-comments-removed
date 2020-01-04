@@ -696,6 +696,7 @@ text
 }
 }
 )
+;
 var
 MediaRuleActor
 =
@@ -1683,6 +1684,7 @@ this
 .
 styleSheetIndex
 }
+;
 try
 {
 form
@@ -2117,6 +2119,7 @@ _originalSources
 ;
 }
 )
+;
 }
 getSourceMap
 :
@@ -3151,6 +3154,7 @@ this
 }
 }
 )
+;
 exports
 .
 StyleSheetActor

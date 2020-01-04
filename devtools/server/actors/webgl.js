@@ -4472,7 +4472,6 @@ key
 }
 }
 }
-;
 function
 removeFromArray
 (

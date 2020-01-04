@@ -1596,6 +1596,7 @@ snapshot
 .
 "
 )
+;
 break
 ;
 case

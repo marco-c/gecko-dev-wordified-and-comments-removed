@@ -78,6 +78,7 @@ traits
 [
 ]
 }
+;
 }
 DebuggerServer
 .
@@ -466,6 +467,7 @@ size
 )
 ;
 }
+;
 client
 .
 connect
@@ -1154,6 +1156,7 @@ resolve
 (
 value
 )
+;
 }
 )
 ;

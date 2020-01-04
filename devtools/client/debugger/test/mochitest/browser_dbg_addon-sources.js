@@ -205,6 +205,7 @@ bootstrap
 code
 "
 )
+;
 is
 (
 sources
@@ -226,6 +227,7 @@ bootstrap
 code
 "
 )
+;
 is
 (
 sources
@@ -265,6 +267,7 @@ on
 code
 "
 )
+;
 is
 (
 sources
@@ -294,6 +297,7 @@ on
 code
 "
 )
+;
 ok
 (
 groups

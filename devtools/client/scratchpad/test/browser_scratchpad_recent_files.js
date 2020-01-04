@@ -39,11 +39,13 @@ file01_ForBug651942
 .
 tmp
 "
+;
 var
 gFileName02
 =
 "
 "
+;
 var
 gFileName03
 =
@@ -52,6 +54,7 @@ file03_ForBug651942
 .
 tmp
 "
+;
 var
 gFileName04
 =
@@ -60,6 +63,7 @@ file04_ForBug651942
 .
 tmp
 "
+;
 var
 gFileContent
 ;

@@ -685,6 +685,7 @@ generation
 .
 value
 }
+;
 }
 getStartOptions
 :

@@ -383,6 +383,7 @@ detached
 run_next_test
 (
 )
+;
 }
 )
 ;

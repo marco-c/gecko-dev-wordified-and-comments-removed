@@ -156,6 +156,7 @@ extension
 )
 ;
 }
+;
 document
 .
 querySelector

@@ -168,7 +168,7 @@ _testPL
 ;
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -176,7 +176,7 @@ org
 docloaderservice
 ;
 1
-'
+"
 ]
 .
 getService
@@ -281,9 +281,10 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 }
+;
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -291,7 +292,7 @@ org
 docloaderservice
 ;
 1
-'
+"
 ]
 .
 getService

@@ -94,6 +94,7 @@ message
 ;
 }
 }
+;
 const
 click
 =
@@ -377,6 +378,7 @@ registerCleanupFunction
 {
 info
 (
+"
 finish
 (
 )
@@ -387,6 +389,7 @@ up
 .
 .
 .
+"
 )
 ;
 DevToolsUtils

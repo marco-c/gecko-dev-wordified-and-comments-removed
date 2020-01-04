@@ -114,6 +114,7 @@ dark
 {
 "
 }
+;
 let
 variableFileContents
 ;

@@ -12,6 +12,7 @@ testFileForBug751744
 .
 tmp
 "
+;
 var
 gFileContent
 =

@@ -67,13 +67,13 @@ gDebugger
 .
 require
 (
-'
+"
 .
 /
 content
 /
 queries
-'
+"
 )
 ;
 const
@@ -621,9 +621,9 @@ prebuiltNode
 {
 type
 :
-'
+"
 contextmenu
-'
+"
 button
 :
 2
@@ -1899,6 +1899,7 @@ yield
 addBreakpoints
 (
 )
+;
 yield
 initialChecks
 (

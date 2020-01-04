@@ -129,6 +129,7 @@ World
 \
 "
 "
+;
 let
 openComment
 =

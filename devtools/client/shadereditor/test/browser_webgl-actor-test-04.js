@@ -62,6 +62,7 @@ notification
 .
 "
 )
+;
 let
 vertexShader
 =

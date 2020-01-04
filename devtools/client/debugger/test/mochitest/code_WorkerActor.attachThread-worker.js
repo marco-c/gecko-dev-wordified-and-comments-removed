@@ -48,6 +48,7 @@ ping
 f
 (
 )
+;
 postMessage
 (
 "

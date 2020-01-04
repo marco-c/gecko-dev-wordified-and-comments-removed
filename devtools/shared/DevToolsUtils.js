@@ -478,6 +478,7 @@ value
 )
 ;
 }
+;
 exports
 .
 getProperty

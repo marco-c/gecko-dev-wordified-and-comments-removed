@@ -1947,7 +1947,6 @@ this
 )
 ;
 }
-;
 ServiceWorkerRegistrationActorList
 .
 prototype

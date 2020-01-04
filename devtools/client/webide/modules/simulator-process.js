@@ -1,7 +1,7 @@
-'
+"
 use
 strict
-'
+"
 ;
 const
 {
@@ -1050,7 +1050,7 @@ file
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -1060,7 +1060,7 @@ file
 local
 ;
 1
-'
+"
 ]
 .
 createInstance
@@ -1108,7 +1108,7 @@ file
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -1118,7 +1118,7 @@ file
 local
 ;
 1
-'
+"
 ]
 .
 createInstance
@@ -1496,7 +1496,7 @@ file
 =
 Cc
 [
-'
+"
 mozilla
 .
 org
@@ -1506,7 +1506,7 @@ file
 local
 ;
 1
-'
+"
 ]
 .
 createInstance

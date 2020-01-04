@@ -1563,6 +1563,7 @@ deferred
 resolve
 (
 )
+;
 }
 else
 {

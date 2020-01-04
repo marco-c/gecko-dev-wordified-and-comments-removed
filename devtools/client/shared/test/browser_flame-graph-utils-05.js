@@ -88,6 +88,7 @@ identical
 .
 "
 )
+;
 let
 out3
 =

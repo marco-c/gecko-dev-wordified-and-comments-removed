@@ -194,6 +194,7 @@ widget
 getCssValue
 (
 )
+"
 blur
 (
 10
@@ -206,6 +207,7 @@ test
 .
 svg
 )
+"
 "
 Should
 add
@@ -251,6 +253,7 @@ widget
 getCssValue
 (
 )
+"
 blur
 (
 5px
@@ -261,6 +264,7 @@ test2
 .
 svg
 )
+"
 "
 Should
 update
@@ -306,9 +310,11 @@ getValueAt
 (
 url
 )
+"
 test2
 .
 svg
+"
 "
 Should
 return

@@ -526,6 +526,7 @@ join
 n
 "
 )
+;
 }
 addCopyContextMenu
 :

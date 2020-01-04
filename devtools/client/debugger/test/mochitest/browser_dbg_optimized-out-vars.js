@@ -200,9 +200,9 @@ L10N
 .
 getStr
 (
-'
+"
 variablesViewOptimizedOut
-'
+"
 )
 "
 Should

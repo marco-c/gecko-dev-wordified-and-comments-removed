@@ -5422,6 +5422,7 @@ focus
 }
 true
 )
+;
 toolbar
 .
 addEventListener
@@ -5680,9 +5681,9 @@ CommandUtils
 createEnvironment
 (
 this
-'
+"
 _target
-'
+"
 )
 }
 ;

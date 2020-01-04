@@ -207,6 +207,7 @@ OUTCOME_SLOT
 ]
 ]
 }
+;
 }
 )
 ;
@@ -409,7 +410,6 @@ outcome
 )
 ;
 }
-;
 function
 hasSuccessfulOutcome
 (
@@ -446,7 +446,6 @@ lastOutcome
 )
 ;
 }
-;
 function
 maybeString
 (

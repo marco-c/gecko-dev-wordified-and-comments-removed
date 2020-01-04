@@ -46,6 +46,7 @@ memory
 .
 properties
 "
+;
 const
 L10N
 =

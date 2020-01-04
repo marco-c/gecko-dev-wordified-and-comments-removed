@@ -90,6 +90,7 @@ decorate
 (
 this
 )
+;
 this
 .
 container
@@ -183,6 +184,7 @@ canvas
 ;
 }
 }
+;
 module
 .
 exports
@@ -423,9 +425,9 @@ canvases
 .
 emit
 (
-'
+"
 resize
-'
+"
 )
 ;
 }

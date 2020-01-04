@@ -239,6 +239,7 @@ webaudioeditor
 .
 properties
 "
+;
 const
 L10N
 =

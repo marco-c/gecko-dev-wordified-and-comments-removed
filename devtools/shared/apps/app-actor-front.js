@@ -1306,6 +1306,7 @@ zipDirectory
 tmpZipFile
 file
 )
+;
 }
 else
 {
@@ -1670,6 +1671,7 @@ manifestURL
 :
 manifestURL
 }
+;
 client
 .
 request
@@ -1774,6 +1776,7 @@ resolve
 (
 target
 )
+;
 }
 (
 error
@@ -2021,6 +2024,7 @@ resolve
 (
 target
 )
+;
 }
 (
 error
@@ -2322,6 +2326,7 @@ manifest
 .
 manifestURL
 )
+;
 }
 getIcon
 :
@@ -4052,6 +4057,7 @@ request
 ;
 }
 }
+;
 exports
 .
 AppActorFront

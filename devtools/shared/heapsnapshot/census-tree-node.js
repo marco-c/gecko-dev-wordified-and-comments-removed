@@ -2155,7 +2155,6 @@ filtered
 node
 ;
 }
-;
 function
 makeFilterPredicate
 (

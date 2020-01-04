@@ -42,6 +42,7 @@ throw
 "
 _
 "
+;
 }
 }
 }
@@ -69,9 +70,9 @@ breakdown
 {
 by
 :
-'
+"
 count
-'
+"
 get
 count
 (
@@ -81,6 +82,7 @@ throw
 "
 _
 "
+;
 }
 }
 }
@@ -108,9 +110,9 @@ breakdown
 {
 by
 :
-'
+"
 count
-'
+"
 get
 bytes
 (
@@ -120,6 +122,7 @@ throw
 "
 _
 "
+;
 }
 }
 }
@@ -147,9 +150,9 @@ breakdown
 {
 by
 :
-'
+"
 objectClass
-'
+"
 get
 then
 (
@@ -159,6 +162,7 @@ throw
 "
 _
 "
+;
 }
 }
 }
@@ -186,9 +190,9 @@ breakdown
 {
 by
 :
-'
+"
 objectClass
-'
+"
 get
 other
 (
@@ -198,6 +202,7 @@ throw
 "
 _
 "
+;
 }
 }
 }
@@ -225,9 +230,9 @@ breakdown
 {
 by
 :
-'
+"
 coarseType
-'
+"
 get
 objects
 (
@@ -237,6 +242,7 @@ throw
 "
 _
 "
+;
 }
 }
 }
@@ -264,9 +270,9 @@ breakdown
 {
 by
 :
-'
+"
 coarseType
-'
+"
 get
 scripts
 (
@@ -276,6 +282,7 @@ throw
 "
 _
 "
+;
 }
 }
 }
@@ -303,9 +310,9 @@ breakdown
 {
 by
 :
-'
+"
 coarseType
-'
+"
 get
 strings
 (
@@ -315,6 +322,7 @@ throw
 "
 _
 "
+;
 }
 }
 }
@@ -342,9 +350,9 @@ breakdown
 {
 by
 :
-'
+"
 coarseType
-'
+"
 get
 other
 (
@@ -354,6 +362,7 @@ throw
 "
 _
 "
+;
 }
 }
 }
@@ -381,9 +390,9 @@ breakdown
 {
 by
 :
-'
+"
 internalType
-'
+"
 get
 then
 (
@@ -393,6 +402,7 @@ throw
 "
 _
 "
+;
 }
 }
 }

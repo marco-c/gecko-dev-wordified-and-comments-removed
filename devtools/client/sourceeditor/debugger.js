@@ -776,6 +776,7 @@ removeBreakpoint
 ctx
 line
 )
+;
 }
 )
 ;

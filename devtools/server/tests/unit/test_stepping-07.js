@@ -33,7 +33,6 @@ do_test_finished
 )
 ;
 }
-;
 function
 run_test_with_server
 (
@@ -152,6 +151,7 @@ executeOnNextTickAndWaitForPause
 evaluateTestCode
 gClient
 )
+;
 equal
 (
 dbgStmt1
@@ -173,6 +173,7 @@ line
 3
 "
 )
+;
 dumpn
 (
 "
@@ -296,6 +297,7 @@ line
 3
 "
 )
+;
 dumpn
 (
 "

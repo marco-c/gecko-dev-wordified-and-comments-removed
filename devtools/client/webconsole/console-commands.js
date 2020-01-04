@@ -53,9 +53,9 @@ client
 "
 name
 :
-'
+"
 splitconsole
-'
+"
 hidden
 :
 true

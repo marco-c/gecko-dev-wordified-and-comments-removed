@@ -78,6 +78,7 @@ c
 )
 ;
 }
+;
 exports
 .
 callParent
@@ -163,3 +164,4 @@ three
 ;
 }
 }
+;

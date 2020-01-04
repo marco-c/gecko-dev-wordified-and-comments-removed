@@ -389,6 +389,7 @@ gTab
 ;
 }
 )
+;
 }
 function
 testResume

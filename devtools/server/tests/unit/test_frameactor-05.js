@@ -329,6 +329,7 @@ expectPopped
 sort
 (
 )
+;
 gThreadClient
 .
 addOneTimeListener
@@ -461,7 +462,6 @@ depth2
 )
 ;
 }
-;
 depth1
 (
 )

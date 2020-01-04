@@ -210,6 +210,7 @@ node
 .
 "
 )
+;
 ok
 (
 !
@@ -256,6 +257,7 @@ evaluated
 .
 "
 )
+;
 }
 function
 resumeAndTestThrownMessage
@@ -333,7 +335,7 @@ classList
 .
 contains
 (
-'
+"
 dbg
 -
 breakpoint
@@ -341,7 +343,7 @@ breakpoint
 condition
 -
 thrown
-'
+"
 )
 "
 Message
@@ -622,6 +624,7 @@ initialCheck
 (
 22
 )
+;
 yield
 resumeAndTestThrownMessage
 (

@@ -583,6 +583,7 @@ _object
 )
 ;
 }
+;
 JSONPacket
 .
 prototype
@@ -693,6 +694,7 @@ this
 length
 ;
 }
+;
 JSONPacket
 .
 prototype
@@ -783,6 +785,7 @@ _outgoing
 length
 ;
 }
+;
 Object
 .
 defineProperty
@@ -832,6 +835,7 @@ null
 )
 ;
 }
+;
 exports
 .
 JSONPacket
@@ -1188,6 +1192,7 @@ times
 }
 ;
 }
+;
 BulkPacket
 .
 prototype
@@ -1478,6 +1483,7 @@ times
 }
 ;
 }
+;
 Object
 .
 defineProperty
@@ -1632,6 +1638,7 @@ null
 )
 ;
 }
+;
 exports
 .
 BulkPacket
@@ -1709,6 +1716,7 @@ implmented
 )
 ;
 }
+;
 RawPacket
 .
 prototype
@@ -1762,6 +1770,7 @@ _data
 length
 ;
 }
+;
 Object
 .
 defineProperty

@@ -726,6 +726,7 @@ p
 ;
 }
 )
+;
 }
 function
 testResumeKeyboard
@@ -1060,5 +1061,6 @@ p
 ;
 }
 )
+;
 }
 }

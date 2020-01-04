@@ -99,6 +99,7 @@ test
 "
 }
 )
+;
 var
 {
 UndoStack
@@ -296,6 +297,7 @@ str
 abcde
 "
 )
+;
 do_check_false
 (
 stack

@@ -117,6 +117,7 @@ World
 \
 "
 "
+;
 var
 openComment
 =

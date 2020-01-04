@@ -8,12 +8,12 @@ constants
 =
 require
 (
-'
+"
 .
 .
 /
 constants
-'
+"
 )
 ;
 const
@@ -21,9 +21,9 @@ promise
 =
 require
 (
-'
+"
 promise
-'
+"
 )
 ;
 const
@@ -33,12 +33,12 @@ asPaused
 =
 require
 (
-'
+"
 .
 .
 /
 utils
-'
+"
 )
 ;
 const
@@ -48,7 +48,7 @@ PROMISE
 =
 require
 (
-'
+"
 devtools
 /
 client
@@ -60,7 +60,7 @@ redux
 middleware
 /
 promise
-'
+"
 )
 ;
 const
@@ -73,12 +73,12 @@ makeLocationId
 =
 require
 (
-'
+"
 .
 .
 /
 queries
-'
+"
 )
 ;
 const
@@ -370,6 +370,7 @@ actor
 )
 ;
 }
+;
 }
 function
 disableBreakpoint
@@ -434,7 +435,7 @@ throw
 new
 Error
 (
-'
+"
 attempt
 to
 remove
@@ -443,7 +444,7 @@ that
 does
 not
 exist
-'
+"
 )
 ;
 }
@@ -458,13 +459,13 @@ throw
 new
 Error
 (
-'
+"
 attempt
 to
 remove
 unsaved
 breakpoint
-'
+"
 )
 ;
 }
@@ -552,6 +553,7 @@ done
 ;
 }
 }
+;
 }
 function
 removeAllBreakpoints
@@ -608,6 +610,7 @@ location
 )
 ;
 }
+;
 }
 function
 setBreakpointCondition
@@ -805,3 +808,4 @@ removeBreakpoint
 removeAllBreakpoints
 setBreakpointCondition
 }
+;

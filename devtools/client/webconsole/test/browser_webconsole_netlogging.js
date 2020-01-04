@@ -715,6 +715,7 @@ finished
 .
 "
 )
+;
 yield
 pageLoadRequestFinished
 ;

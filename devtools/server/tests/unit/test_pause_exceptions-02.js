@@ -175,7 +175,6 @@ throw
 42
 ;
 }
-;
 try
 {
 stopMe

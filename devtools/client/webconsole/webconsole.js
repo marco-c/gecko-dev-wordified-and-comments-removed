@@ -139,6 +139,7 @@ shared
 telemetry
 "
 )
+;
 loader
 .
 lazyServiceGetter

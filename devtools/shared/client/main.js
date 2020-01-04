@@ -357,6 +357,7 @@ l
 !
 =
 aListener
+;
 }
 )
 ;
@@ -497,6 +498,7 @@ e
 }
 }
 }
+;
 }
 const
 ThreadStateTypes
@@ -917,6 +919,7 @@ traits
 )
 ;
 }
+;
 DebuggerClient
 .
 requester
@@ -1559,9 +1562,9 @@ this
 .
 addOneTimeListener
 (
-'
+"
 closed
-'
+"
 function
 (
 aEvent
@@ -2518,6 +2521,7 @@ type
 getProcess
 "
 }
+;
 if
 (
 typeof
@@ -4651,6 +4655,7 @@ activeAddon
 :
 null
 }
+;
 eventSource
 (
 DebuggerClient
@@ -4874,6 +4879,7 @@ return
 this
 .
 _actor
+;
 }
 get
 _transport
@@ -5876,6 +5882,7 @@ _client
 activeAddon
 =
 null
+;
 }
 this
 .
@@ -7216,6 +7223,7 @@ _scriptCache
 =
 {
 }
+;
 this
 .
 emit
@@ -7793,9 +7801,9 @@ type
 =
 =
 =
-'
+"
 resumed
-'
+"
 ?
 null
 :
@@ -8317,6 +8325,7 @@ this
 _grip
 .
 actor
+;
 }
 get
 _transport
@@ -9720,6 +9729,7 @@ _onSourceResponse
 aResponse
 aCallback
 )
+;
 }
 )
 ;

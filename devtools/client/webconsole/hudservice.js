@@ -974,6 +974,7 @@ null
 ;
 }
 )
+;
 }
 console
 .
@@ -1635,6 +1636,7 @@ opened
 ;
 }
 )
+;
 }
 viewSourceInScratchpad
 :

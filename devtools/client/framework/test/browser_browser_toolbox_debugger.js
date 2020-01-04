@@ -352,6 +352,7 @@ selectTool
 jsdebugger
 "
 )
+;
 let
 window
 =

@@ -109,7 +109,6 @@ this
 )
 ;
 }
-;
 exports
 .
 ShaderEditorPanel

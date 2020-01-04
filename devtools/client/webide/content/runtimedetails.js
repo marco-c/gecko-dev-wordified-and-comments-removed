@@ -476,7 +476,6 @@ tr
 )
 ;
 }
-;
 }
 var
 getDescriptionPromise

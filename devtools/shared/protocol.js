@@ -424,6 +424,7 @@ type
 )
 ;
 }
+;
 function
 identityWrite
 (
@@ -562,6 +563,7 @@ name
 "
 ]
 "
+;
 }
 name
 :
@@ -682,6 +684,7 @@ name
 )
 ;
 }
+;
 types
 .
 addArrayType
@@ -974,7 +977,9 @@ ret
 }
 }
 )
+;
 }
+;
 types
 .
 addActorType
@@ -1283,6 +1288,7 @@ return
 type
 ;
 }
+;
 types
 .
 addNullableType
@@ -1386,6 +1392,7 @@ ctx
 )
 ;
 }
+;
 types
 .
 addActorDetail
@@ -1501,6 +1508,7 @@ detail
 )
 ;
 }
+;
 types
 .
 addLifetime
@@ -1549,6 +1557,7 @@ prop
 )
 ;
 }
+;
 types
 .
 removeLifetime
@@ -1566,6 +1575,7 @@ name
 )
 ;
 }
+;
 types
 .
 addLifetimeType
@@ -1692,7 +1702,9 @@ prop
 )
 }
 )
+;
 }
+;
 types
 .
 Primitive
@@ -1858,6 +1870,7 @@ type
 .
 name
 }
+;
 }
 }
 )
@@ -1897,6 +1910,7 @@ this
 index
 type
 )
+;
 }
 write
 :
@@ -2037,6 +2051,7 @@ type
 .
 name
 }
+;
 }
 }
 )
@@ -2128,6 +2143,7 @@ type
 .
 name
 }
+;
 }
 }
 )
@@ -2772,6 +2788,7 @@ this
 .
 actorID
 )
+;
 }
 marshallPool
 :
@@ -3094,7 +3111,6 @@ destroy
 ;
 }
 }
-;
 this
 .
 conn
@@ -3220,6 +3236,7 @@ bind
 this
 name
 )
+;
 this
 .
 on
@@ -3275,6 +3292,7 @@ actorID
 "
 ]
 "
+;
 }
 _sendEvent
 :
@@ -3420,6 +3438,7 @@ this
 .
 actorID
 }
+;
 }
 writeError
 :
@@ -3585,6 +3604,7 @@ return
 fn
 ;
 }
+;
 var
 generateActorSpec
 =
@@ -4374,6 +4394,7 @@ this
 ;
 }
 )
+;
 }
 catch
 (
@@ -4437,6 +4458,7 @@ return
 actorProto
 ;
 }
+;
 exports
 .
 ActorClass
@@ -4801,6 +4823,7 @@ this
 .
 actorID
 )
+;
 }
 toString
 :
@@ -4830,6 +4853,7 @@ actorID
 "
 ]
 "
+;
 }
 form
 :
@@ -5388,6 +5412,7 @@ return
 fn
 ;
 }
+;
 exports
 .
 custom
@@ -5411,6 +5436,7 @@ return
 fn
 ;
 }
+;
 function
 prototypeOf
 (
@@ -5836,6 +5862,7 @@ ret
 )
 ;
 }
+;
 if
 (
 spec
@@ -5890,7 +5917,9 @@ result
 ;
 }
 )
+;
 }
+;
 }
 }
 )
@@ -6109,6 +6138,7 @@ return
 frontProto
 ;
 }
+;
 exports
 .
 FrontClass
@@ -6132,6 +6162,7 @@ frontProto
 )
 ;
 }
+;
 var
 FrontClassWithSpec
 =
@@ -6199,6 +6230,7 @@ return
 cls
 ;
 }
+;
 exports
 .
 FrontClassWithSpec
@@ -6351,6 +6383,7 @@ return
 ret
 ;
 }
+;
 exports
 .
 dumpProtocolSpec
@@ -6432,6 +6465,7 @@ type
 .
 specializations
 }
+;
 }
 else
 if
@@ -6465,3 +6499,4 @@ return
 ret
 ;
 }
+;

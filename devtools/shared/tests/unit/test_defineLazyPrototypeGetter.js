@@ -271,7 +271,6 @@ Foo
 )
 {
 }
-;
 DevToolsUtils
 .
 defineLazyPrototypeGetter

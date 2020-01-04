@@ -90,6 +90,7 @@ this
 )
 ;
 }
+;
 MonitorClient
 .
 prototype
@@ -123,6 +124,7 @@ callback
 )
 ;
 }
+;
 MonitorClient
 .
 prototype
@@ -156,6 +158,7 @@ callback
 )
 ;
 }
+;
 let
 monitor
 client

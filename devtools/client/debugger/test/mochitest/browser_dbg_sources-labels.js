@@ -102,10 +102,10 @@ yield
 waitForSourceShown
 (
 gPanel
-'
+"
 .
 html
-'
+"
 )
 ;
 let
@@ -985,9 +985,9 @@ leaf
 let
 actor
 =
-'
+"
 actor
-'
+"
 +
 id
 +
@@ -1034,9 +1034,9 @@ dummy
 .
 setAttribute
 (
-'
+"
 value
-'
+"
 label
 )
 ;

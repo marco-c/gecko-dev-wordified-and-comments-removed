@@ -2,6 +2,7 @@
 use
 strict
 "
+;
 this
 .
 rpc
@@ -576,7 +577,6 @@ result
 break
 ;
 }
-;
 }
 )
 ;

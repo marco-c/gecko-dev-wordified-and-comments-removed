@@ -31,7 +31,6 @@ Visitor
 )
 {
 }
-;
 exports
 .
 Visitor
@@ -82,6 +81,7 @@ edge
 )
 {
 }
+;
 const
 EDGES
 =
@@ -558,7 +558,6 @@ edge
 ;
 }
 }
-;
 function
 walk
 (
@@ -1406,7 +1405,6 @@ results
 )
 ;
 }
-;
 exports
 .
 diff

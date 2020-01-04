@@ -293,6 +293,7 @@ aNode
 )
 ;
 }
+;
 FastListWidget
 .
 prototype

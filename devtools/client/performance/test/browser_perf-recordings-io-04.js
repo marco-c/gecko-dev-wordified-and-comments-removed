@@ -965,6 +965,7 @@ toSource
 expected
 .
 profile
+"
 profiler
 data
 '
@@ -976,6 +977,7 @@ in
 legacy
 import
 .
+"
 )
 ;
 is

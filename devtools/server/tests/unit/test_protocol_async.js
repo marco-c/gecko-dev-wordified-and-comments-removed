@@ -60,6 +60,7 @@ traits
 [
 ]
 }
+;
 }
 var
 RootActor
@@ -212,6 +213,7 @@ sequence
 )
 ;
 }
+;
 do_execute_soon
 (
 check
@@ -876,6 +878,7 @@ do_test_finished
 ;
 }
 )
+;
 }
 )
 ;

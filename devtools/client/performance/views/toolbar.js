@@ -257,6 +257,7 @@ this
 _popup
 =
 null
+;
 this
 .
 optionsView

@@ -155,6 +155,7 @@ EXAMPLE_URL
 +
 SCRIPT_URL
 )
+;
 }
 yield
 panel

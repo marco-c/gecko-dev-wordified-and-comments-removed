@@ -272,6 +272,7 @@ checkBreakpointsDisabled
 (
 true
 )
+;
 const
 finished
 =
@@ -338,6 +339,7 @@ closeDebuggerAndFinish
 (
 gPanel
 )
+;
 }
 )
 ;

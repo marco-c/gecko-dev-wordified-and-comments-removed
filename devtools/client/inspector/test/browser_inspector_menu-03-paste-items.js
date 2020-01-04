@@ -962,9 +962,9 @@ ownerDocument
 .
 createEvent
 (
-'
+"
 MouseEvents
-'
+"
 )
 ;
 let
@@ -976,9 +976,9 @@ evt
 .
 initMouseEvent
 (
-'
+"
 contextmenu
-'
+"
 true
 true
 element

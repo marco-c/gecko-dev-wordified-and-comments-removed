@@ -1597,6 +1597,7 @@ arguments
 ;
 }
 }
+;
 }
 EventEmitter
 .

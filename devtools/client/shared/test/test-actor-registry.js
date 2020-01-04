@@ -556,6 +556,7 @@ content
 )
 ;
 }
+;
 var
 getTestActor
 =

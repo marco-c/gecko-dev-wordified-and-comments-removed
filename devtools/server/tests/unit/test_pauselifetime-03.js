@@ -280,7 +280,6 @@ aObject
 debugger
 ;
 }
-;
 stopMe
 (
 {

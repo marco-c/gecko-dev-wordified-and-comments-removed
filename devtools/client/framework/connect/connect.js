@@ -14,7 +14,7 @@ Cu
 .
 import
 (
-'
+"
 resource
 :
 /
@@ -26,7 +26,7 @@ modules
 XPCOMUtils
 .
 jsm
-'
+"
 )
 ;
 Cu
@@ -137,6 +137,7 @@ framework
 toolbox
 "
 )
+;
 var
 promise
 =
@@ -176,9 +177,9 @@ XPCOMUtils
 defineLazyGetter
 (
 window
-'
+"
 l10n
-'
+"
 function
 (
 )
@@ -190,7 +191,7 @@ strings
 .
 createBundle
 (
-'
+"
 chrome
 :
 /
@@ -204,7 +205,7 @@ connection
 screen
 .
 properties
-'
+"
 )
 ;
 }
@@ -586,6 +587,7 @@ getElementById
 addonActors
 "
 )
+;
 if
 (
 !
@@ -832,6 +834,7 @@ false
 ;
 }
 }
+;
 a
 .
 title
@@ -1006,6 +1009,7 @@ false
 )
 ;
 }
+;
 a
 .
 textContent
@@ -1072,6 +1076,7 @@ tab
 )
 ;
 }
+;
 a
 .
 textContent

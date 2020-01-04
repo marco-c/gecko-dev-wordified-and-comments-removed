@@ -4283,6 +4283,7 @@ shortenValueGrip
 (
 grip
 )
+;
 }
 let
 result

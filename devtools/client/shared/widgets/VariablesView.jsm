@@ -68,6 +68,7 @@ const
 ITEM_FLASH_DURATION
 =
 300
+;
 Cu
 .
 import
@@ -7848,6 +7849,7 @@ GetStringFromName
 variablesViewOptimizedOut
 "
 )
+;
 }
 else
 if
@@ -7869,6 +7871,7 @@ GetStringFromName
 variablesViewUninitialized
 "
 )
+;
 }
 else
 if
@@ -7890,6 +7893,7 @@ GetStringFromName
 variablesViewMissingArgs
 "
 )
+;
 }
 this
 .

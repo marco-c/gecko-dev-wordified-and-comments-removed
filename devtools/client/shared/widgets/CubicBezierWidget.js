@@ -67,9 +67,9 @@ Ci
 =
 require
 (
-'
+"
 chrome
-'
+"
 )
 ;
 function

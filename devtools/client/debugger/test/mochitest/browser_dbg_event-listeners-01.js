@@ -121,6 +121,7 @@ attachThreadActorForUrl
 gClient
 TAB_URL
 )
+;
 }
 )
 .
@@ -654,9 +655,9 @@ type
 !
 =
 =
-'
+"
 change
-'
+"
 )
 {
 is

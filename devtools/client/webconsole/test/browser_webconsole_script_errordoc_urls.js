@@ -45,6 +45,7 @@ script
 /
 script
 >
+;
 }
 const
 TestData
@@ -119,6 +120,7 @@ isException
 false
 }
 ]
+;
 add_task
 (
 function
