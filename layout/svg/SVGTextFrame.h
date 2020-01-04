@@ -1251,6 +1251,11 @@ ReflowSVGNonDisplayText
 void
 ScheduleReflowSVGNonDisplayText
 (
+nsIPresShell
+:
+:
+IntrinsicDirty
+aReason
 )
 ;
 bool
