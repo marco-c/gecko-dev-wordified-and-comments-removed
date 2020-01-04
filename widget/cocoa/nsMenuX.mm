@@ -1565,6 +1565,10 @@ mMenuObjectsArray
 [
 aPos
 ]
+.
+get
+(
+)
 ;
 }
 /
@@ -1686,6 +1690,10 @@ mMenuObjectsArray
 [
 aPos
 ]
+.
+get
+(
+)
 ;
 /
 /
@@ -1736,6 +1744,10 @@ mMenuObjectsArray
 [
 i
 ]
+.
+get
+(
+)
 ;
 if
 (
