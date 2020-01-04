@@ -28,6 +28,15 @@ entrypoints
 h
 "
 #
+include
+"
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
 if
 defined
 (
@@ -279,8 +288,10 @@ aSandboxInfo
 endif
 }
 ;
+UniquePtr
+<
 GMPLoader
-*
+>
 CreateGMPLoader
 (
 SandboxStarter

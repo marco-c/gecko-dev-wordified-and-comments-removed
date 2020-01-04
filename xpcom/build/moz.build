@@ -123,6 +123,11 @@ nsXULAppAPI
 h
 '
 '
+XREChildData
+.
+h
+'
+'
 xrecore
 .
 h
