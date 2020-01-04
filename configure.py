@@ -324,6 +324,23 @@ n
 encoding
 )
         
+fh
+.
+write
+(
+'
+true
+false
+null
+=
+True
+False
+None
+\
+n
+'
+)
+        
 for
 k
 v
