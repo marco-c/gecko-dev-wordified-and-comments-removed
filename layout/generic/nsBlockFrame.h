@@ -2118,6 +2118,8 @@ int32_t
 aDepth
 int32_t
 aIncrement
+bool
+aForCounting
 )
 ;
 static
@@ -2137,6 +2139,8 @@ int32_t
 aDepth
 int32_t
 aIncrement
+bool
+aForCounting
 )
 ;
 static
