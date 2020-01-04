@@ -2432,16 +2432,6 @@ start
 end
 ]
     
-job_list
-=
-[
-]
-    
-test_flags
-=
-[
-]
-    
 if
 options
 .
@@ -2486,7 +2476,7 @@ jitflags
     
 job_list
 =
-[
+(
 _
 for
 test
@@ -2502,7 +2492,51 @@ copy_variants
 (
 test_flags
 )
-]
+)
+    
+job_count
+=
+len
+(
+test_list
+)
+*
+len
+(
+test_flags
+)
+    
+if
+options
+.
+repeat
+:
+        
+job_list
+=
+(
+test
+for
+test
+in
+job_list
+for
+i
+in
+range
+(
+options
+.
+repeat
+)
+)
+        
+job_count
+*
+=
+options
+.
+repeat
     
 if
 options
@@ -2695,10 +2729,7 @@ debugger
 :
         
 if
-len
-(
-job_list
-)
+job_count
 >
 1
 :
@@ -2754,9 +2785,10 @@ exit
 tc
 =
 job_list
-[
-0
-]
+.
+next
+(
+)
         
 if
 options
@@ -2918,6 +2950,7 @@ jittests
 run_tests_remote
 (
 job_list
+job_count
 prefix
 options
 )
@@ -2939,6 +2972,7 @@ jittests
 run_tests
 (
 job_list
+job_count
 prefix
 options
 )

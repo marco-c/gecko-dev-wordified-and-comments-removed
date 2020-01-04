@@ -3729,6 +3729,7 @@ def
 run_tests
 (
 tests
+num_tests
 prefix
 options
 )
@@ -3795,17 +3796,6 @@ JitTest
 js_cmd_prefix
 =
 prefix
-    
-num_tests
-=
-len
-(
-tests
-)
-*
-options
-.
-repeat
     
 pb
 =
@@ -4046,6 +4036,7 @@ def
 run_tests_remote
 (
 tests
+num_tests
 prefix
 options
 )
@@ -4369,17 +4360,6 @@ remote_test_root
 js
 '
 )
-    
-num_tests
-=
-len
-(
-tests
-)
-*
-options
-.
-repeat
     
 pb
 =
