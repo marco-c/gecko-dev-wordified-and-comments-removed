@@ -1056,10 +1056,6 @@ Dispatch
 )
 )
 {
-RunBackOnWorkerThread
-(
-)
-;
 return
 false
 ;
