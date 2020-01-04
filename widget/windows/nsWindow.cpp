@@ -7466,9 +7466,9 @@ NS_METHOD
 nsWindow
 :
 :
-GetRestoredBoundsUntyped
+GetRestoredBounds
 (
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 )
@@ -7484,7 +7484,7 @@ nsSizeMode_Normal
 )
 {
 return
-GetScreenBoundsUntyped
+GetScreenBounds
 (
 aRect
 )

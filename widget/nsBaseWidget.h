@@ -968,9 +968,12 @@ aRect
 override
 ;
 NS_IMETHOD
-GetRestoredBoundsUntyped
+GetRestoredBounds
 (
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 &
 aRect
 )
