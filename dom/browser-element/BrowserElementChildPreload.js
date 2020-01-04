@@ -6643,6 +6643,10 @@ items
 :
 [
 ]
+sysItems
+:
+[
+]
 }
 ;
 if
@@ -6813,7 +6817,7 @@ link
 {
 menuObj
 .
-items
+sysItems
 .
 push
 (
@@ -6838,7 +6842,7 @@ image
 {
 menuObj
 .
-items
+sysItems
 .
 push
 (
