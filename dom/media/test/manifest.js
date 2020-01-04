@@ -11509,6 +11509,15 @@ getAndroidVersion
 10
 ;
 }
+if
+(
+"
+SimpleTest
+"
+in
+window
+)
+{
 SimpleTest
 .
 requestFlakyTimeout
@@ -11518,3 +11527,4 @@ untriaged
 "
 )
 ;
+}
