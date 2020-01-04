@@ -3917,8 +3917,8 @@ AlignContent
 CSS_PROPERTY_PARSE_FUNCTION
 "
 "
-0
-nullptr
+VARIANT_HK
+kAutoCompletionAlignJustifyContent
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -3932,8 +3932,8 @@ AlignItems
 CSS_PROPERTY_PARSE_FUNCTION
 "
 "
-0
-nullptr
+VARIANT_HK
+kAutoCompletionAlignItems
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -3947,8 +3947,8 @@ AlignSelf
 CSS_PROPERTY_PARSE_FUNCTION
 "
 "
-0
-nullptr
+VARIANT_HK
+kAutoCompletionAlignJustifySelf
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -4135,8 +4135,8 @@ JustifyContent
 CSS_PROPERTY_PARSE_FUNCTION
 "
 "
-0
-nullptr
+VARIANT_HK
+kAutoCompletionAlignJustifyContent
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -4150,8 +4150,8 @@ JustifyItems
 CSS_PROPERTY_PARSE_FUNCTION
 "
 "
-0
-nullptr
+VARIANT_HK
+kAutoCompletionAlignJustifySelf
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
@@ -4165,8 +4165,8 @@ JustifySelf
 CSS_PROPERTY_PARSE_FUNCTION
 "
 "
-0
-nullptr
+VARIANT_HK
+kAutoCompletionAlignJustifySelf
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
