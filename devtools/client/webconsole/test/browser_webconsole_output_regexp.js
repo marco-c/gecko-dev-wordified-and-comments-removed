@@ -40,15 +40,6 @@ html
 "
 ;
 var
-dateNow
-=
-Date
-.
-now
-(
-)
-;
-var
 inputTests
 =
 [
@@ -144,8 +135,6 @@ finishUp
 )
 {
 inputTests
-=
-dateNow
 =
 null
 ;
