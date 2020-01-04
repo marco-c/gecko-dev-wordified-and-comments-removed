@@ -144,4 +144,11 @@ OUTDIR
 sanitize_log
 "
 }
+"
+max
+-
+errors
+"
+:
+8
 }

@@ -139,4 +139,11 @@ OUTDIR
 sanitize_log
 "
 }
+"
+max
+-
+errors
+"
+:
+14
 }
