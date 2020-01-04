@@ -480,10 +480,8 @@ type
 if
 (
 value
-)
-{
-if
-(
+&
+&
 value
 -
 >
@@ -497,6 +495,7 @@ nsAttrValue
 :
 eEnum
 )
+{
 listStyleType
 -
 >
@@ -508,16 +507,6 @@ value
 GetEnumValue
 (
 )
-eCSSUnit_Enumerated
-)
-;
-else
-listStyleType
--
->
-SetIntValue
-(
-NS_STYLE_LIST_STYLE_DECIMAL
 eCSSUnit_Enumerated
 )
 ;
