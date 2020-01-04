@@ -9692,7 +9692,7 @@ ReadOnlyCompileOptions
 options
 )
 {
-assertSameCompartment
+releaseAssertSameCompartment
 (
 cx
 source
