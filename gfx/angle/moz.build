@@ -1509,15 +1509,6 @@ ShaderVars
 .
 h
 '
-'
-include
-/
-platform
-/
-Platform
-.
-h
-'
 ]
 EXPORTS
 .
