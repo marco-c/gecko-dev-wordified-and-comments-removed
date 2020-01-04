@@ -2003,9 +2003,9 @@ void
 )
 SetSourceHook
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 mozilla
 :
 :
@@ -2029,9 +2029,9 @@ SourceHook
 )
 ForgetSourceHook
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 extern
