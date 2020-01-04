@@ -42,13 +42,13 @@ GLContext
 _gl
 )
 :
-mGL_NeverTouchDirectly
+mGL_OnlyClearInDestroyResourcesAndContext
 (
 _gl
 )
 gl
 (
-mGL_NeverTouchDirectly
+mGL_OnlyClearInDestroyResourcesAndContext
 )
 {
 }
