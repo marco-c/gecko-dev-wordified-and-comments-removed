@@ -3746,9 +3746,6 @@ nsDOMStyleSheetList
 :
 StyleSheetAdded
 (
-nsIDocument
-*
-aDocument
 CSSStyleSheet
 *
 aStyleSheet
@@ -3780,9 +3777,6 @@ nsDOMStyleSheetList
 :
 StyleSheetRemoved
 (
-nsIDocument
-*
-aDocument
 CSSStyleSheet
 *
 aStyleSheet
@@ -18189,7 +18183,6 @@ NS_DOCUMENT_NOTIFY_OBSERVERS
 (
 StyleSheetAdded
 (
-this
 aSheet
 aDocumentSheet
 )
@@ -18231,7 +18224,6 @@ NS_DOCUMENT_NOTIFY_OBSERVERS
 (
 StyleSheetRemoved
 (
-this
 aSheet
 aDocumentSheet
 )
@@ -18754,9 +18746,7 @@ NS_DOCUMENT_NOTIFY_OBSERVERS
 (
 StyleSheetApplicableStateChanged
 (
-this
 aSheet
-aApplicable
 )
 )
 ;
@@ -22658,9 +22648,7 @@ NS_DOCUMENT_NOTIFY_OBSERVERS
 (
 StyleRuleChanged
 (
-this
 aSheet
-aStyleRule
 )
 )
 ;
@@ -22713,9 +22701,7 @@ NS_DOCUMENT_NOTIFY_OBSERVERS
 (
 StyleRuleAdded
 (
-this
 aSheet
-aStyleRule
 )
 )
 ;
@@ -22768,9 +22754,7 @@ NS_DOCUMENT_NOTIFY_OBSERVERS
 (
 StyleRuleRemoved
 (
-this
 aSheet
-aStyleRule
 )
 )
 ;
