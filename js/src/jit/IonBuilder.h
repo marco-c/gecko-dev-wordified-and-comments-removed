@@ -2138,6 +2138,17 @@ types
 )
 ;
 bool
+getPropTrySharedStub
+(
+bool
+*
+emitted
+MDefinition
+*
+obj
+)
+;
+bool
 setPropTryCommonSetter
 (
 bool
