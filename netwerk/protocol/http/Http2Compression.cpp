@@ -4584,6 +4584,10 @@ return
 NS_ERROR_ILLEGAL_VALUE
 ;
 }
++
++
+newline
+;
 }
 LOG
 (
