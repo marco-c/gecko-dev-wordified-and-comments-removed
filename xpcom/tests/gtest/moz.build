@@ -103,6 +103,11 @@ Helpers
 cpp
 '
 '
+TestAtoms
+.
+cpp
+'
+'
 TestCloneInputStream
 .
 cpp
