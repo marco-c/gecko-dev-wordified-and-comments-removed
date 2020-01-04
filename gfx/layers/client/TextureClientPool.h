@@ -324,6 +324,9 @@ TextureForwarder
 *
 mSurfaceAllocator
 ;
+bool
+mDestroyed
+;
 }
 ;
 }
