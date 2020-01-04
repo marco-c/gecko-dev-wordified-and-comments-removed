@@ -125,6 +125,10 @@ alwaysFails
 :
 true
 }
+getStructuredData
+:
+{
+}
 getWebManifest
 :
 {
