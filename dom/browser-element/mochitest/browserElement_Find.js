@@ -235,7 +235,7 @@ foo
 '
 searchLimit
 :
-100
+1000
 activeMatchOrdinal
 :
 1
@@ -303,7 +303,7 @@ foo
 '
 searchLimit
 :
-100
+1000
 activeMatchOrdinal
 :
 2
@@ -371,7 +371,7 @@ foo
 '
 searchLimit
 :
-100
+1000
 activeMatchOrdinal
 :
 1
@@ -444,7 +444,7 @@ xxx
 '
 searchLimit
 :
-100
+1000
 activeMatchOrdinal
 :
 0
@@ -517,7 +517,7 @@ bar
 '
 searchLimit
 :
-100
+1000
 activeMatchOrdinal
 :
 1
@@ -585,7 +585,7 @@ bar
 '
 searchLimit
 :
-100
+1000
 activeMatchOrdinal
 :
 2
@@ -653,7 +653,7 @@ bar
 '
 searchLimit
 :
-100
+1000
 activeMatchOrdinal
 :
 3
@@ -721,7 +721,7 @@ bar
 '
 searchLimit
 :
-100
+1000
 activeMatchOrdinal
 :
 4
@@ -789,7 +789,7 @@ bar
 '
 searchLimit
 :
-100
+1000
 activeMatchOrdinal
 :
 1
