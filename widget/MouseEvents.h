@@ -614,10 +614,6 @@ mExitFrom
 (
 eChild
 )
-acceptActivation
-(
-false
-)
 ignoreRootScrollFrame
 (
 false
@@ -661,10 +657,6 @@ eNormal
 mExitFrom
 (
 eChild
-)
-acceptActivation
-(
-false
 )
 ignoreRootScrollFrame
 (
@@ -725,10 +717,6 @@ aContextMenuTrigger
 mExitFrom
 (
 eChild
-)
-acceptActivation
-(
-false
 )
 ignoreRootScrollFrame
 (
@@ -881,9 +869,6 @@ ExitFrom
 mExitFrom
 ;
 bool
-acceptActivation
-;
-bool
 ignoreRootScrollFrame
 ;
 uint32_t
@@ -910,12 +895,6 @@ AssignPointerHelperData
 (
 aEvent
 )
-;
-acceptActivation
-=
-aEvent
-.
-acceptActivation
 ;
 ignoreRootScrollFrame
 =
