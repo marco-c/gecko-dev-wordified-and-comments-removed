@@ -10093,7 +10093,9 @@ DOMParser
 =
 =
 =
+"
 undefined
+"
 )
 {
 try
