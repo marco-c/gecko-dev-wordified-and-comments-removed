@@ -1618,6 +1618,10 @@ jsbytecode
 pc
 JSProtoKey
 key
+HandleObject
+proto
+=
+nullptr
 )
 ;
 static
@@ -1630,6 +1634,10 @@ JSContext
 cx
 JSProtoKey
 key
+HandleObject
+proto
+=
+nullptr
 )
 ;
 static
