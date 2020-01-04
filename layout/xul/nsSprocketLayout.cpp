@@ -99,9 +99,6 @@ COIL_SIZE
 nsresult
 NS_NewSprocketLayout
 (
-nsIPresShell
-*
-aPresShell
 nsCOMPtr
 <
 nsBoxLayout

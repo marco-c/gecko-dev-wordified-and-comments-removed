@@ -413,9 +413,6 @@ coord
 nsresult
 NS_NewSprocketLayout
 (
-nsIPresShell
-*
-aPresShell
 nsCOMPtr
 <
 nsBoxLayout
@@ -436,9 +433,6 @@ friend
 nsresult
 NS_NewSprocketLayout
 (
-nsIPresShell
-*
-aPresShell
 nsCOMPtr
 <
 nsBoxLayout

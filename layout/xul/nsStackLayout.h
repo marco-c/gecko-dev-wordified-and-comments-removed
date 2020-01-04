@@ -40,9 +40,6 @@ nsIPresShell
 nsresult
 NS_NewStackLayout
 (
-nsIPresShell
-*
-aPresShell
 nsCOMPtr
 <
 nsBoxLayout
@@ -63,9 +60,6 @@ friend
 nsresult
 NS_NewStackLayout
 (
-nsIPresShell
-*
-aPresShell
 nsCOMPtr
 <
 nsBoxLayout

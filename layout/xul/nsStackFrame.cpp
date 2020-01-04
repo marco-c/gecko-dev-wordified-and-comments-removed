@@ -118,14 +118,6 @@ layout
 ;
 NS_NewStackLayout
 (
-PresContext
-(
-)
--
->
-PresShell
-(
-)
 layout
 )
 ;
