@@ -128,6 +128,14 @@ gunzip
 "
 #
 define
+APPLICATION_BROTLI
+"
+application
+/
+brotli
+"
+#
+define
 APPLICATION_ZIP
 "
 application
