@@ -17,6 +17,17 @@ auto
 #
 layout
 -
+wrapper
+{
+height
+:
+100
+%
+;
+}
+#
+layout
+-
 container
 {
 max
