@@ -701,6 +701,7 @@ let
 {
 toolbox
 inspector
+testActor
 }
 =
 yield
@@ -735,6 +736,7 @@ return
 {
 toolbox
 inspector
+testActor
 }
 ;
 }
