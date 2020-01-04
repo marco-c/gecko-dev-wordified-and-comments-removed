@@ -9477,6 +9477,12 @@ OnTaskQueue
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+mSentFirstFrameLoadedEvent
+)
+;
 DECODER_LOG
 (
 "
@@ -9484,12 +9490,6 @@ FinishDecodeFirstFrame
 "
 )
 ;
-if
-(
-!
-mSentFirstFrameLoadedEvent
-)
-{
 mMediaSink
 -
 >
@@ -9500,7 +9500,6 @@ mInfo
 mVideo
 )
 ;
-}
 if
 (
 mDuration
