@@ -4549,6 +4549,21 @@ context
 libname
 crate_name
                                           
+mozpath
+.
+join
+(
+context
+.
+srcdir
+mozpath
+.
+dirname
+(
+f
+)
+)
+                                          
 rlib_filename
 final_lib
 )
