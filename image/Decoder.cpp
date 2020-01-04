@@ -299,6 +299,11 @@ decoder
 ;
 MOZ_ASSERT
 (
+mIterator
+)
+;
+MOZ_ASSERT
+(
 ShouldUseSurfaceCache
 (
 )
