@@ -148,7 +148,7 @@ class
 GonkPermissionChecker
 :
 public
-nsRunnable
+Runnable
 {
 int32_t
 mPid

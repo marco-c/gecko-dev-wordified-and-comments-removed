@@ -164,7 +164,7 @@ class
 CallNuwaSpawn
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -717,7 +717,10 @@ class
 RunAddNewIPCProcess
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

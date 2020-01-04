@@ -480,7 +480,7 @@ InitProfileResultHandlerRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -603,7 +603,7 @@ initalized
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -662,7 +662,7 @@ btInf
 {
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -721,7 +721,7 @@ setupInterface
 {
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -780,7 +780,7 @@ a2dpInterface
 {
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -1258,7 +1258,7 @@ DeinitProfileResultHandlerRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1383,7 +1383,7 @@ initalized
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -1442,7 +1442,7 @@ btInf
 {
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -1501,7 +1501,7 @@ setupInterface
 {
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =

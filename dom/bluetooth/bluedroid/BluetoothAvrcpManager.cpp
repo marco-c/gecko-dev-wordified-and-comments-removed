@@ -675,7 +675,7 @@ InitProfileResultHandlerRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -798,7 +798,7 @@ initalized
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -857,7 +857,7 @@ btInf
 {
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -916,7 +916,7 @@ setupInterface
 {
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -975,7 +975,7 @@ avrcpInterface
 {
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -1315,7 +1315,7 @@ DeinitProfileResultHandlerRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1440,7 +1440,7 @@ initalized
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -1499,7 +1499,7 @@ btInf
 {
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -1558,7 +1558,7 @@ setupInterface
 {
 RefPtr
 <
-nsRunnable
+Runnable
 >
 r
 =
@@ -1647,7 +1647,7 @@ ConnectRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1765,7 +1765,7 @@ DisconnectRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

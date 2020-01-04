@@ -7095,7 +7095,7 @@ aNumber
 ;
 RefPtr
 <
-nsRunnable
+Runnable
 >
 sendRingTask
 ;

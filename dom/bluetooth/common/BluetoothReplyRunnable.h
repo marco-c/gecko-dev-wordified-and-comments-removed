@@ -67,7 +67,7 @@ class
 BluetoothReplyRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -278,7 +278,7 @@ class
 BluetoothReplyTaskQueue
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

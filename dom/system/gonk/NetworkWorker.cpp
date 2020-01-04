@@ -129,7 +129,7 @@ class
 NetworkResultDispatcher
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -196,7 +196,7 @@ class
 NetworkCommandDispatcher
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -263,7 +263,7 @@ class
 NetdEventRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

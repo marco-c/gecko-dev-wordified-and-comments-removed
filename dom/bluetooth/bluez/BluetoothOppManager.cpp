@@ -401,7 +401,7 @@ class
 SendSocketDataTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -487,7 +487,7 @@ class
 ReadFileTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

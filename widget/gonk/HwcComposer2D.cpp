@@ -885,7 +885,7 @@ class
 HotplugEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

@@ -125,7 +125,7 @@ class
 WifiEventDispatcher
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -198,7 +198,7 @@ class
 EventRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -329,7 +329,7 @@ class
 WifiResultDispatcher
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -401,7 +401,7 @@ class
 ControlRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

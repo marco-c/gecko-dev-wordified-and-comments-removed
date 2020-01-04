@@ -162,7 +162,7 @@ class
 DeleteRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

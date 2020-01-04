@@ -209,7 +209,7 @@ MtpWatcherUpdateRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -619,7 +619,7 @@ AllocMtpWatcherUpdateRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -675,7 +675,7 @@ FreeMtpWatcherUpdateRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -726,7 +726,7 @@ class
 MtpServerRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

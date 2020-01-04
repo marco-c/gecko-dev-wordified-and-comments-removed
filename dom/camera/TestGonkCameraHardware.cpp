@@ -829,7 +829,7 @@ class
 DeferredSystemFailure
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1329,7 +1329,7 @@ TestGonkCameraHardware
 ControlMessage
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

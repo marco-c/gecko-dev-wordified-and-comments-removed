@@ -1362,7 +1362,7 @@ MtpWatcherNotifyRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

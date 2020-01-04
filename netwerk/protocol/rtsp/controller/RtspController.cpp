@@ -902,7 +902,7 @@ class
 SendMediaDataTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1075,7 +1075,7 @@ class
 SendOnConnectedTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -1214,7 +1214,7 @@ class
 SendOnDisconnectedTask
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

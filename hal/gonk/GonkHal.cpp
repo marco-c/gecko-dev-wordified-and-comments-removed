@@ -1582,7 +1582,7 @@ class
 BatteryUpdater
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -4187,7 +4187,7 @@ class
 AlarmFiredEvent
 :
 public
-nsRunnable
+Runnable
 {
 public
 :
@@ -8439,7 +8439,7 @@ class
 SetThreadPriorityRunnable
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

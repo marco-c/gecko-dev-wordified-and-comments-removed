@@ -793,7 +793,10 @@ class
 DispatchTouchInputOnMainThread
 :
 public
-nsRunnable
+mozilla
+:
+:
+Runnable
 {
 public
 :

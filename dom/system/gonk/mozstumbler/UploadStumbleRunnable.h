@@ -22,7 +22,7 @@ UploadStumbleRunnable
 final
 :
 public
-nsRunnable
+Runnable
 {
 public
 :

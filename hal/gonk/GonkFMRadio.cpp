@@ -308,7 +308,7 @@ class
 RadioUpdate
 :
 public
-nsRunnable
+Runnable
 {
 hal
 :
