@@ -6279,7 +6279,7 @@ true
 ;
 GeckoThread
 .
-ensureInit
+init
 (
 profile
 args
