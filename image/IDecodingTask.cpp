@@ -43,6 +43,12 @@ h
 namespace
 mozilla
 {
+using
+gfx
+:
+:
+IntRect
+;
 namespace
 image
 {
