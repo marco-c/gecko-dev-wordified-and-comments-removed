@@ -927,6 +927,16 @@ Accessible
 aChild
 )
 ;
+void
+MoveChild
+(
+uint32_t
+aNewIndex
+Accessible
+*
+aChild
+)
+;
 Accessible
 *
 Parent
