@@ -2629,6 +2629,7 @@ MediaSink
 >
 mMediaSink
 ;
+const
 RefPtr
 <
 MediaDecoderReader
