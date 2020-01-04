@@ -4355,9 +4355,9 @@ override
 ;
 virtual
 bool
-RecvGetBrowserConfiguration
+RecvGetServiceWorkerConfiguration
 (
-BrowserConfiguration
+ServiceWorkerConfiguration
 *
 aConfig
 )

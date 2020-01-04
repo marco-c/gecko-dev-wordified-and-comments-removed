@@ -25216,9 +25216,9 @@ bool
 ContentParent
 :
 :
-RecvGetBrowserConfiguration
+RecvGetServiceWorkerConfiguration
 (
-BrowserConfiguration
+ServiceWorkerConfiguration
 *
 aConfig
 )

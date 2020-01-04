@@ -4942,10 +4942,10 @@ data
 )
 ;
 }
-BrowserConfiguration
+ServiceWorkerConfiguration
 configuration
 ;
-SendGetBrowserConfiguration
+SendGetServiceWorkerConfiguration
 (
 &
 configuration

@@ -405,7 +405,7 @@ include
 PContentPermission
 ;
 include
-BrowserConfiguration
+ServiceWorkerConfiguration
 ;
 include
 GraphicsMessages
@@ -5411,12 +5411,12 @@ process
 *
 /
 sync
-GetBrowserConfiguration
+GetServiceWorkerConfiguration
 (
 )
 returns
 (
-BrowserConfiguration
+ServiceWorkerConfiguration
 aConfig
 )
 ;

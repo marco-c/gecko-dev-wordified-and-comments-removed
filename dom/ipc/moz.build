@@ -494,11 +494,6 @@ IPDL_SOURCES
 =
 [
 '
-BrowserConfiguration
-.
-ipdlh
-'
-'
 DOMTypes
 .
 ipdlh
@@ -600,6 +595,11 @@ ipdl
 '
 '
 PTabContext
+.
+ipdlh
+'
+'
+ServiceWorkerConfiguration
 .
 ipdlh
 '
