@@ -217,7 +217,7 @@ AbstractThread
 aThread
 MediaDecoderReaderWrapper
 *
-aReaderWrapper
+aReader
 SeekJob
 &
 &
@@ -248,7 +248,7 @@ SeekTask
 (
 aDecoderID
 aThread
-aReaderWrapper
+aReader
 Move
 (
 aSeekJob
@@ -281,7 +281,7 @@ AbstractThread
 aThread
 MediaDecoderReaderWrapper
 *
-aReaderWrapper
+aReader
 SeekJob
 &
 &
@@ -309,9 +309,9 @@ mOwnerThread
 (
 aThread
 )
-mReaderWrapper
+mReader
 (
-aReaderWrapper
+aReader
 )
 mSeekJob
 (
@@ -807,7 +807,7 @@ mSeekRequest
 .
 Begin
 (
-mReaderWrapper
+mReader
 -
 >
 Seek
@@ -1197,7 +1197,7 @@ o
 !
 !
 mSeekedAudioData
-mReaderWrapper
+mReader
 -
 >
 SizeOfAudioQueueInFrames
@@ -1209,7 +1209,7 @@ mAudioDataRequest
 .
 Begin
 (
-mReaderWrapper
+mReader
 -
 >
 RequestAudioData
@@ -1303,7 +1303,7 @@ lld
 !
 !
 mSeekedVideoData
-mReaderWrapper
+mReader
 -
 >
 SizeOfVideoQueueInFrames
@@ -1321,7 +1321,7 @@ mVideoDataRequest
 .
 Begin
 (
-mReaderWrapper
+mReader
 -
 >
 RequestVideoData
@@ -2703,7 +2703,7 @@ WAITING_FOR_DATA
 {
 MOZ_ASSERT
 (
-mReaderWrapper
+mReader
 -
 >
 IsWaitForDataSupported
@@ -2733,7 +2733,7 @@ mAudioWaitRequest
 .
 Begin
 (
-mReaderWrapper
+mReader
 -
 >
 WaitForData
@@ -3142,7 +3142,7 @@ WAITING_FOR_DATA
 {
 MOZ_ASSERT
 (
-mReaderWrapper
+mReader
 -
 >
 IsWaitForDataSupported
@@ -3172,7 +3172,7 @@ mVideoWaitRequest
 .
 Begin
 (
-mReaderWrapper
+mReader
 -
 >
 WaitForData

@@ -127,7 +127,7 @@ AbstractThread
 aThread
 MediaDecoderReaderWrapper
 *
-aReaderWrapper
+aReader
 SeekJob
 &
 &
@@ -200,7 +200,7 @@ AbstractThread
 aThread
 MediaDecoderReaderWrapper
 *
-aReaderWrapper
+aReader
 SeekJob
 &
 &
@@ -428,7 +428,7 @@ RefPtr
 <
 MediaDecoderReaderWrapper
 >
-mReaderWrapper
+mReader
 ;
 SeekJob
 mSeekJob
