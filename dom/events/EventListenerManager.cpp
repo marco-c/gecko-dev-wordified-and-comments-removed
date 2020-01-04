@@ -5947,7 +5947,7 @@ aDOMListener
 AddEventListenerInternal
 (
 listenerHolder
-NS_EVENT_ALL
+eAllEvents
 nullptr
 EmptyString
 (
@@ -5997,7 +5997,7 @@ aDOMListener
 RemoveEventListenerInternal
 (
 listenerHolder
-NS_EVENT_ALL
+eAllEvents
 nullptr
 EmptyString
 (
