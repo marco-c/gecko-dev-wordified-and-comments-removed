@@ -609,10 +609,14 @@ result
 }
 MOZ_CRASH
 (
+"
+no
+usable
+poison
+region
+identified
+"
 )
-;
-return
-0
 ;
 }
 void
