@@ -1181,6 +1181,17 @@ HRESULT
 aResOut
 )
 ;
+bool
+AttemptD3D11ImageBridgeDeviceCreationHelper
+(
+IDXGIAdapter1
+*
+aAdapter
+HRESULT
+&
+aResOut
+)
+;
 mozilla
 :
 :
