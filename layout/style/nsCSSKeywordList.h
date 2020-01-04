@@ -2033,6 +2033,13 @@ isolate
 )
 CSS_KEY
 (
+isolate
+-
+override
+isolate_override
+)
+CSS_KEY
+(
 invert
 invert
 )
@@ -2644,6 +2651,11 @@ CSS_KEY
 (
 physical
 physical
+)
+CSS_KEY
+(
+plaintext
+plaintext
 )
 CSS_KEY
 (
