@@ -112,7 +112,7 @@ js
 static
 inline
 bool
-IsCacheableNonGlobalEnvironment
+IsCacheableEnvironment
 (
 JSObject
 *

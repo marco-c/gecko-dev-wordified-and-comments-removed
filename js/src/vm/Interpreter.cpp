@@ -7490,9 +7490,14 @@ obj
 {
 if
 (
-IsGlobalLexicalEnvironment
-(
 obj
+-
+>
+is
+<
+GlobalObject
+>
+(
 )
 )
 return
@@ -7502,7 +7507,7 @@ UndefinedValue
 ;
 if
 (
-IsCacheableNonGlobalEnvironment
+IsCacheableEnvironment
 (
 obj
 )
