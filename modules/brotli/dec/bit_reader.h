@@ -167,6 +167,17 @@ br
 ;
 static
 BROTLI_INLINE
+void
+BrotliPullByte
+(
+BrotliBitReader
+*
+const
+br
+)
+;
+static
+BROTLI_INLINE
 int
 BrotliReadInput
 (
