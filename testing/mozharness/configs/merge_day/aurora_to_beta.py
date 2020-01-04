@@ -45,16 +45,6 @@ txt
 "
         
 "
-mobile
-/
-android
-/
-confvars
-.
-sh
-"
-        
-"
 b2g
 /
 confvars
