@@ -782,6 +782,15 @@ Methods
 *
 /
 async
+PredOnPredictPrefetch
+(
+URIParams
+uri
+uint32_t
+httpStatus
+)
+;
+async
 PredOnPredictPreconnect
 (
 URIParams
