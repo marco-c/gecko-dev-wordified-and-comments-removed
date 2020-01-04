@@ -315,6 +315,9 @@ groupSymbol
 "
 ?
 "
+tier
+:
+3
 machine
 :
 platform
