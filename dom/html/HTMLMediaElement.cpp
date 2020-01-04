@@ -17917,6 +17917,11 @@ IsActive
 #
 ifdef
 PAUSE_MEDIA_ELEMENT_FROM_AUDIOCHANNEL
+if
+(
+mAudioChannelAgent
+)
+{
 pauseElement
 |
 =
@@ -17924,6 +17929,7 @@ ComputedMuted
 (
 )
 ;
+}
 #
 endif
 SuspendOrResumeElement
