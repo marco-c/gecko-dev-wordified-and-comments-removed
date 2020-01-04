@@ -1073,7 +1073,7 @@ mPrintSettingsSvc
 >
 SerializeToPrintData
 (
-aPrintSettings
+printSettings
 nullptr
 aPrintData
 )
