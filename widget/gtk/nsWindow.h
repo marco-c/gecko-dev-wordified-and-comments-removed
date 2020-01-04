@@ -706,7 +706,8 @@ aIconSpec
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 SetWindowClass
 (
 const

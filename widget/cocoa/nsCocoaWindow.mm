@@ -12738,7 +12738,7 @@ DoHasPendingInputEvent
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsCocoaWindow
 :
 :
@@ -12748,7 +12748,7 @@ int32_t
 aStyle
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 if
 (
@@ -12756,7 +12756,6 @@ if
 mWindow
 )
 return
-NS_OK
 ;
 mShadowStyle
 =
@@ -12811,10 +12810,7 @@ SetWindowBackgroundBlur
 (
 )
 ;
-return
-NS_OK
-;
-NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 void
@@ -13106,7 +13102,7 @@ NS_OK
 NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
-NS_IMETHODIMP
+void
 nsCocoaWindow
 :
 :
@@ -13118,7 +13114,7 @@ bool
 aActive
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 if
 (
@@ -13126,7 +13122,6 @@ if
 mWindow
 )
 return
-NS_OK
 ;
 /
 /
@@ -13362,10 +13357,7 @@ aActive
 ]
 ;
 }
-return
-NS_OK
-;
-NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 void

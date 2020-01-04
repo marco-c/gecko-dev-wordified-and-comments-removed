@@ -2030,7 +2030,8 @@ CreateScrollCaptureContainer
 ;
 #
 endif
-NS_IMETHOD
+virtual
+void
 SetWindowShadowStyle
 (
 int32_t
@@ -2526,7 +2527,8 @@ aCapture
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 SetWindowClass
 (
 const
@@ -2566,7 +2568,8 @@ HasPendingInputEvent
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 SetWindowTitlebarColor
 (
 nscolor
