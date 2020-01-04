@@ -13949,4 +13949,15 @@ intent
 )
 ;
 }
+Override
+public
+String
+getDefaultChromeURI
+(
+)
+{
+return
+null
+;
+}
 }
