@@ -234,13 +234,6 @@ pulled
 from
 head_repository
 .
-revision_hash
-The
-full
--
-length
-revision
-string
 owner
 Email
 address

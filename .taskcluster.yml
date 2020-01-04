@@ -481,6 +481,8 @@ tc
 -
 treeherder
 .
+v2
+.
 {
 {
 project
@@ -489,7 +491,13 @@ project
 .
 {
 {
-revision_hash
+revision
+}
+}
+.
+{
+{
+pushlog_id
 }
 }
 "
@@ -501,6 +509,8 @@ treeherder
 -
 stage
 .
+v2
+.
 {
 {
 project
@@ -509,7 +519,13 @@ project
 .
 {
 {
-revision_hash
+revision
+}
+}
+.
+{
+{
+pushlog_id
 }
 }
 "
