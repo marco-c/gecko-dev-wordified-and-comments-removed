@@ -1026,9 +1026,9 @@ aNewStyleContext
 void
 PaintBCBorders
 (
-nsRenderingContext
+DrawTarget
 &
-aRenderingContext
+aDrawTarget
 const
 nsRect
 &

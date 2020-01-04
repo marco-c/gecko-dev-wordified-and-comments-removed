@@ -1579,9 +1579,9 @@ static
 void
 DrawTableBorderSegment
 (
-nsRenderingContext
+DrawTarget
 &
-aContext
+aDrawTarget
 uint8_t
 aBorderStyle
 nscolor
