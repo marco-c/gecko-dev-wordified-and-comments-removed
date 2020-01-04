@@ -5958,7 +5958,7 @@ intptr_t
 )
 ;
 }
-bool
+void
 ICStubCompiler
 :
 :
@@ -6129,9 +6129,6 @@ bind
 &
 skipBarrier
 )
-;
-return
-true
 ;
 }
 SharedStubInfo

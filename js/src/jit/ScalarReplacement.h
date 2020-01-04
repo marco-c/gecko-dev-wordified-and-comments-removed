@@ -4,6 +4,15 @@ jit_ScalarReplacement_h
 #
 define
 jit_ScalarReplacement_h
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 js
 {
@@ -16,6 +25,7 @@ MIRGenerator
 class
 MIRGraph
 ;
+MOZ_MUST_USE
 bool
 ScalarReplacement
 (

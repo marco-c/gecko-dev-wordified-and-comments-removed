@@ -84,6 +84,7 @@ uint32_t
 argumentCount
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (
@@ -279,6 +280,7 @@ advanceFromNunboxSlots
 (
 )
 ;
+MOZ_MUST_USE
 bool
 getSlotFromBitmap
 (
@@ -394,6 +396,7 @@ osiReturnPointOffset
 )
 const
 ;
+MOZ_MUST_USE
 bool
 getGcSlot
 (
@@ -402,6 +405,7 @@ SafepointSlotEntry
 entry
 )
 ;
+MOZ_MUST_USE
 bool
 getValueSlot
 (
@@ -410,6 +414,7 @@ SafepointSlotEntry
 entry
 )
 ;
+MOZ_MUST_USE
 bool
 getNunboxSlot
 (
@@ -421,6 +426,7 @@ LAllocation
 payload
 )
 ;
+MOZ_MUST_USE
 bool
 getSlotsOrElementsSlot
 (

@@ -189,6 +189,7 @@ return
 graph_
 ;
 }
+MOZ_MUST_USE
 bool
 ensureBallast
 (
@@ -340,6 +341,7 @@ return
 error_
 ;
 }
+MOZ_MUST_USE
 bool
 instrumentedProfiling
 (

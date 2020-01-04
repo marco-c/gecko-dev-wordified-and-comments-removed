@@ -1326,6 +1326,9 @@ riter
 +
 +
 ;
+if
+(
+!
 checkIntegrity
 (
 block
@@ -1337,6 +1340,9 @@ vreg
 alloc
 populateSafepoints
 )
+)
+return
+false
 ;
 while
 (
@@ -1357,6 +1363,9 @@ popCopy
 (
 )
 ;
+if
+(
+!
 checkIntegrity
 (
 item
@@ -1379,7 +1388,12 @@ item
 alloc
 populateSafepoints
 )
+)
+{
+return
+false
 ;
+}
 }
 }
 }

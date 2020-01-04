@@ -215,6 +215,7 @@ maxargslots_
 )
 {
 }
+MOZ_MUST_USE
 bool
 generate
 (
@@ -296,6 +297,7 @@ call
 ;
 public
 :
+MOZ_MUST_USE
 bool
 visitInstruction
 (
@@ -304,6 +306,7 @@ MInstruction
 ins
 )
 ;
+MOZ_MUST_USE
 bool
 visitBlock
 (

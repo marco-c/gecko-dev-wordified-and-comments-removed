@@ -2804,6 +2804,7 @@ numOptimizedStubs_
 }
 public
 :
+MOZ_MUST_USE
 bool
 initUpdatingChain
 (
@@ -2815,6 +2816,7 @@ ICStubSpace
 space
 )
 ;
+MOZ_MUST_USE
 bool
 addUpdateStubForValue
 (
@@ -3128,6 +3130,7 @@ kind
 ;
 }
 virtual
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -3229,6 +3232,7 @@ Register
 scratch
 )
 ;
+MOZ_MUST_USE
 bool
 tailCallVM
 (
@@ -3241,6 +3245,7 @@ MacroAssembler
 masm
 )
 ;
+MOZ_MUST_USE
 bool
 callVM
 (
@@ -3253,6 +3258,7 @@ MacroAssembler
 masm
 )
 ;
+MOZ_MUST_USE
 bool
 callTypeUpdateIC
 (
@@ -3545,7 +3551,7 @@ regs
 }
 protected
 :
-bool
+void
 emitPostWriteBarrierSlot
 (
 MacroAssembler
@@ -3949,6 +3955,7 @@ nullptr
 }
 public
 :
+MOZ_MUST_USE
 bool
 initMonitoringChain
 (
@@ -3965,6 +3972,7 @@ Engine
 engine
 )
 ;
+MOZ_MUST_USE
 bool
 addMonitorStubForValue
 (
@@ -4969,6 +4977,7 @@ addressOfFirstStub
 )
 ;
 }
+MOZ_MUST_USE
 bool
 addMonitorStubForValue
 (
@@ -5005,6 +5014,7 @@ argumentIndex_
 ;
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -5144,6 +5154,7 @@ Compiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -5314,6 +5325,7 @@ protected
 HandleObject
 obj_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -5435,6 +5447,7 @@ protected
 HandleObjectGroup
 group_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -5602,6 +5615,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -5715,6 +5729,7 @@ op_
 bool
 allowDouble_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -5875,6 +5890,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -5985,6 +6001,7 @@ protected
 bool
 lhsIsString_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -6126,6 +6143,7 @@ ICMultiStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -6286,6 +6304,7 @@ lhsIsBool_
 bool
 rhsIsBool_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -6524,6 +6543,7 @@ protected
 bool
 lhsIsDouble_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -6711,6 +6731,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -6803,6 +6824,7 @@ ICMultiStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -6897,6 +6919,7 @@ ICMultiStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -7041,6 +7064,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -7136,6 +7160,7 @@ ICMultiStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -7233,6 +7258,7 @@ ICMultiStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -7344,6 +7370,7 @@ ICMultiStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -7507,6 +7534,7 @@ ICMultiStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -7604,6 +7632,7 @@ ICMultiStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -7701,6 +7730,7 @@ ICMultiStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -7798,6 +7828,7 @@ ICMultiStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -8003,6 +8034,7 @@ op_
 bool
 lhsIsInt32_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -8206,6 +8238,7 @@ ICFallbackStub
 stub
 )
 ;
+MOZ_MUST_USE
 bool
 EffectlesslyLookupProperty
 (
@@ -8293,6 +8326,7 @@ uint32_t
 offset
 )
 ;
+MOZ_MUST_USE
 bool
 IsCacheableGetPropCall
 (
@@ -8320,6 +8354,7 @@ isDOMProxy
 false
 )
 ;
+MOZ_MUST_USE
 bool
 UpdateExistingGetPropCallStubs
 (
@@ -8339,6 +8374,7 @@ HandleFunction
 getter
 )
 ;
+MOZ_MUST_USE
 bool
 CheckHasNoSuchProperty
 (
@@ -8383,6 +8419,7 @@ Label
 failure
 )
 ;
+MOZ_MUST_USE
 bool
 GetProtoShapes
 (
@@ -8443,6 +8480,7 @@ Label
 failure
 )
 ;
+MOZ_MUST_USE
 bool
 DoCallNativeGetter
 (
@@ -8635,6 +8673,7 @@ protected
 uint32_t
 returnOffset_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -8795,6 +8834,7 @@ ICStubCompiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -8974,6 +9014,7 @@ isFixedSlot_
 uint32_t
 offset_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -9195,6 +9236,7 @@ Compiler
 public
 ICStubCompiler
 {
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -9561,6 +9603,7 @@ offset_
 bool
 inputDefinitelyObject_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -10351,6 +10394,7 @@ Compiler
 {
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -10648,6 +10692,7 @@ inputDefinitelyObject_
 ;
 protected
 :
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -11110,6 +11155,7 @@ getter_
 uint32_t
 pcOffset_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -11124,6 +11170,7 @@ Address
 generationAddr
 )
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -11345,6 +11392,7 @@ name_
 uint32_t
 pcOffset_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -11470,6 +11518,7 @@ protected
 Which
 which_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -11611,6 +11660,7 @@ ICStub
 *
 firstMonitorStub_
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -11730,6 +11780,7 @@ ICStubCompiler
 RootedObjectGroup
 templateGroup
 ;
+MOZ_MUST_USE
 bool
 generateStubCode
 (
@@ -11903,6 +11954,7 @@ Compiler
 public
 ICStubCompiler
 {
+MOZ_MUST_USE
 bool
 generateStubCode
 (

@@ -381,6 +381,7 @@ alloc
 )
 {
 }
+MOZ_MUST_USE
 bool
 trackTypeSet
 (
@@ -389,6 +390,7 @@ TemporaryTypeSet
 typeSet
 )
 ;
+MOZ_MUST_USE
 bool
 trackType
 (
@@ -464,6 +466,7 @@ hash
 )
 const
 ;
+MOZ_MUST_USE
 bool
 writeCompact
 (
@@ -555,6 +558,7 @@ currentAttempt_
 UINT32_MAX
 ;
 }
+MOZ_MUST_USE
 bool
 trackTypeInfo
 (
@@ -564,6 +568,7 @@ OptimizationTypeInfo
 ty
 )
 ;
+MOZ_MUST_USE
 bool
 trackAttempt
 (
@@ -764,6 +769,7 @@ cx
 )
 {
 }
+MOZ_MUST_USE
 bool
 init
 (
@@ -777,6 +783,7 @@ init
 )
 ;
 }
+MOZ_MUST_USE
 bool
 add
 (
@@ -786,6 +793,7 @@ TrackedOptimizations
 optimizations
 )
 ;
+MOZ_MUST_USE
 bool
 sortByFrequency
 (
@@ -1389,6 +1397,7 @@ index
 )
 ;
 static
+MOZ_MUST_USE
 bool
 WriteRun
 (
@@ -1978,6 +1987,7 @@ IonTrackedOptimizationsTypeInfo
 >
 IonTrackedOptimizationsTypesTable
 ;
+MOZ_MUST_USE
 bool
 WriteIonTrackedOptimizationsTable
 (

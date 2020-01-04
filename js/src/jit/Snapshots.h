@@ -1446,6 +1446,7 @@ lastStart_
 ;
 public
 :
+MOZ_MUST_USE
 bool
 init
 (
@@ -1480,6 +1481,7 @@ lirId
 ;
 #
 endif
+MOZ_MUST_USE
 bool
 add
 (

@@ -1284,6 +1284,7 @@ PendingMove
 first
 )
 ;
+MOZ_MUST_USE
 bool
 addOrderedMove
 (
@@ -1332,6 +1333,7 @@ Type
 type
 )
 ;
+MOZ_MUST_USE
 bool
 resolve
 (

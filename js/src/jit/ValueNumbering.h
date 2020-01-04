@@ -120,6 +120,7 @@ TempAllocator
 alloc
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (
@@ -157,6 +158,7 @@ MDefinition
 def
 )
 ;
+MOZ_MUST_USE
 bool
 add
 (
@@ -275,6 +277,7 @@ DontSetUseRemoved
 SetUseRemoved
 }
 ;
+MOZ_MUST_USE
 bool
 handleUseReleased
 (
@@ -285,6 +288,7 @@ UseRemovedOption
 useRemovedOption
 )
 ;
+MOZ_MUST_USE
 bool
 discardDefsRecursively
 (
@@ -293,6 +297,7 @@ MDefinition
 def
 )
 ;
+MOZ_MUST_USE
 bool
 releaseResumePointOperands
 (
@@ -301,6 +306,7 @@ MResumePoint
 resume
 )
 ;
+MOZ_MUST_USE
 bool
 releaseAndRemovePhiOperands
 (
@@ -309,6 +315,7 @@ MPhi
 phi
 )
 ;
+MOZ_MUST_USE
 bool
 releaseOperands
 (
@@ -317,6 +324,7 @@ MDefinition
 def
 )
 ;
+MOZ_MUST_USE
 bool
 discardDef
 (
@@ -325,11 +333,13 @@ MDefinition
 def
 )
 ;
+MOZ_MUST_USE
 bool
 processDeadDefs
 (
 )
 ;
+MOZ_MUST_USE
 bool
 fixupOSROnlyLoop
 (
@@ -341,6 +351,7 @@ MBasicBlock
 backedge
 )
 ;
+MOZ_MUST_USE
 bool
 removePredecessorAndDoDCE
 (
@@ -354,6 +365,7 @@ size_t
 predIndex
 )
 ;
+MOZ_MUST_USE
 bool
 removePredecessorAndCleanUp
 (
@@ -407,6 +419,7 @@ header
 )
 const
 ;
+MOZ_MUST_USE
 bool
 visitDefinition
 (
@@ -415,6 +428,7 @@ MDefinition
 def
 )
 ;
+MOZ_MUST_USE
 bool
 visitControlInstruction
 (
@@ -427,6 +441,7 @@ MBasicBlock
 root
 )
 ;
+MOZ_MUST_USE
 bool
 visitUnreachableBlock
 (
@@ -435,6 +450,7 @@ MBasicBlock
 block
 )
 ;
+MOZ_MUST_USE
 bool
 visitBlock
 (
@@ -447,6 +463,7 @@ MBasicBlock
 root
 )
 ;
+MOZ_MUST_USE
 bool
 visitDominatorTree
 (
@@ -455,16 +472,19 @@ MBasicBlock
 root
 )
 ;
+MOZ_MUST_USE
 bool
 visitGraph
 (
 )
 ;
+MOZ_MUST_USE
 bool
 insertOSRFixups
 (
 )
 ;
+MOZ_MUST_USE
 bool
 cleanupOSRFixups
 (
@@ -482,6 +502,7 @@ MIRGraph
 graph
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (
@@ -494,6 +515,7 @@ DontUpdateAliasAnalysis
 UpdateAliasAnalysis
 }
 ;
+MOZ_MUST_USE
 bool
 run
 (

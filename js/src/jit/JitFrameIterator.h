@@ -821,6 +821,7 @@ frameScript
 (
 )
 ;
+MOZ_MUST_USE
 bool
 tryInitWithPC
 (
@@ -829,6 +830,7 @@ void
 pc
 )
 ;
+MOZ_MUST_USE
 bool
 tryInitWithTable
 (
@@ -1041,6 +1043,7 @@ RInstructionResults
 (
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (
@@ -1467,6 +1470,7 @@ rm
 RM_Normal
 )
 ;
+MOZ_MUST_USE
 bool
 allocationReadable
 (
@@ -1628,6 +1632,7 @@ pcOffset
 const
 ;
 inline
+MOZ_MUST_USE
 bool
 resumeAfter
 (
@@ -1723,6 +1728,7 @@ moreInstructions
 }
 protected
 :
+MOZ_MUST_USE
 bool
 initInstructionResults
 (
@@ -1731,6 +1737,7 @@ MaybeReadFallback
 fallback
 )
 ;
+MOZ_MUST_USE
 bool
 computeInstructionResults
 (
