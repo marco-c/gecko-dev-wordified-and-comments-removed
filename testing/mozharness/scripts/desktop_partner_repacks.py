@@ -516,16 +516,11 @@ config
 buildbot_json_path
 '
 :
-os
-.
-environ
-.
-get
-(
 '
-PROPERTIES_FILE
+buildprops
+.
+json
 '
-)
                 
 "
 log_name
