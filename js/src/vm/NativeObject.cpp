@@ -3498,7 +3498,7 @@ reqCapacity
 MAX_DENSE_ELEMENTS_COUNT
 )
 {
-ReportAllocationOverflow
+ReportOutOfMemory
 (
 cx
 )
