@@ -11,6 +11,9 @@ nsISupportsImpl
 .
 h
 "
+class
+nsIEventTarget
+;
 namespace
 base
 {
@@ -118,6 +121,17 @@ delayed_work_time
 =
 0
 ;
+virtual
+nsIEventTarget
+*
+GetXPCOMThread
+(
+)
+{
+return
+nullptr
+;
+}
 protected
 :
 virtual
