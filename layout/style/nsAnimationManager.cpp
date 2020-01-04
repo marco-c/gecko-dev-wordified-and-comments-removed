@@ -1480,6 +1480,15 @@ mPresContext
 IsDynamic
 (
 )
+|
+|
+!
+aElement
+-
+>
+IsInComposedDoc
+(
+)
 )
 {
 return
