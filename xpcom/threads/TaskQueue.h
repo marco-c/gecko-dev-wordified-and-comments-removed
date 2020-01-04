@@ -85,6 +85,9 @@ TaskQueue
 public
 AbstractThread
 {
+class
+EventTargetWrapper
+;
 public
 :
 explicit
@@ -213,6 +216,14 @@ IsCurrentThreadIn
 (
 )
 override
+;
+already_AddRefed
+<
+nsIEventTarget
+>
+WrapAsEventTarget
+(
+)
 ;
 protected
 :
