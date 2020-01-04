@@ -380,17 +380,6 @@ MOZ_WEBGL_CONFORMANT
 =
 1
 #
-Enable
-the
-Mozilla
-Location
-Service
-stumbler
-.
-MOZ_ANDROID_MLS_STUMBLER
-=
-1
-#
 Build
 and
 package
