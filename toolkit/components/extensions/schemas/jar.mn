@@ -152,6 +152,15 @@ extensions
 /
 schemas
 /
+management
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 manifest
 .
 json
