@@ -2708,6 +2708,8 @@ boolean
 isWifi
 int
 DHCPGateway
+String
+status
 )
 {
 GeckoEvent
@@ -2739,6 +2741,12 @@ event
 mDHCPGateway
 =
 DHCPGateway
+;
+event
+.
+mCharacters
+=
+status
 ;
 return
 event

@@ -2387,11 +2387,6 @@ GeckoBatteryManager
 java
 '
 '
-GeckoConnectivityReceiver
-.
-java
-'
-'
 GeckoEditable
 .
 java
