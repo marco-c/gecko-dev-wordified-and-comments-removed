@@ -659,7 +659,12 @@ c
 +
 )
 {
-mDT
+mStateStack
+[
+i
+]
+.
+drawTarget
 -
 >
 PopClip
