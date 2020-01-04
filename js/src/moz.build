@@ -4099,6 +4099,17 @@ mips64
 .
 cpp
 '
+'
+jit
+/
+mips64
+/
+Lowering
+-
+mips64
+.
+cpp
+'
 ]
 if
 CONFIG
