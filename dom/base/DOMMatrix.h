@@ -96,6 +96,12 @@ class
 DOMMatrix
 ;
 class
+DOMPoint
+;
+struct
+DOMPointInit
+;
+class
 DOMMatrixReadOnly
 :
 public
