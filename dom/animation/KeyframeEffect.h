@@ -1119,6 +1119,9 @@ AnimationProperty
 >
 mProperties
 ;
+bool
+mInEffectOnLastAnimationTimingUpdate
+;
 private
 :
 nsIFrame
