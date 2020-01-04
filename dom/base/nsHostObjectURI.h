@@ -103,6 +103,16 @@ NS_DECL_NSIURIWITHPRINCIPAL
 NS_DECL_NSISERIALIZABLE
 NS_DECL_NSICLASSINFO
 NS_DECL_NSIIPCSERIALIZABLEURI
+NS_IMETHOD
+SetScheme
+(
+const
+nsACString
+&
+aProtocol
+)
+override
+;
 virtual
 nsresult
 CloneInternal
