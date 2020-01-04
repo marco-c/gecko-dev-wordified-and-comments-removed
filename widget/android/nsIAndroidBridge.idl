@@ -125,7 +125,7 @@ in
 wstring
 name
 in
-unsigned
+long
 long
 timestamp
 )
@@ -140,7 +140,7 @@ in
 wstring
 reason
 in
-unsigned
+long
 long
 timestamp
 )
@@ -155,7 +155,7 @@ in
 wstring
 method
 in
-unsigned
+long
 long
 timestamp
 in

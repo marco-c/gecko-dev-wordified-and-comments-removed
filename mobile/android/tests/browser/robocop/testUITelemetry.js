@@ -91,8 +91,7 @@ _test_method_2
 const
 METHOD_NONE
 =
-"
-"
+null
 ;
 const
 REASON_TEST1
