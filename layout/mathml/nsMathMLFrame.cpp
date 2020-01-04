@@ -1620,7 +1620,7 @@ AppUnitsPerDevPixel
 drawTarget
 )
 ;
-nsCSSProperty
+nsCSSPropertyID
 colorProp
 =
 mFrame

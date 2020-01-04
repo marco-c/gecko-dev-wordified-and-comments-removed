@@ -2444,7 +2444,7 @@ const
 nsIFrame
 *
 aFrame
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -2538,7 +2538,7 @@ const
 nsIFrame
 *
 aFrame
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -28847,7 +28847,7 @@ GetColor
 nsIFrame
 *
 aFrame
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {

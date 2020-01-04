@@ -212,7 +212,7 @@ aDocument
 nsStyleContext
 *
 aContext
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 bool
 aForTokenStream
@@ -516,7 +516,7 @@ aDocument
 nsStyleContext
 *
 aContext
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 bool
 aForTokenStream
@@ -638,7 +638,7 @@ ShouldStartImageLoads
 nsRuleData
 *
 aRuleData
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -669,7 +669,7 @@ static
 void
 MapSinglePropertyInto
 (
-nsCSSProperty
+nsCSSPropertyID
 aTargetProp
 const
 nsCSSValue
@@ -891,7 +891,7 @@ inline
 void
 EnsurePhysicalProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 &
 aProperty
 nsRuleData
@@ -1117,7 +1117,7 @@ side
 ;
 }
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 props
 =
@@ -1310,7 +1310,7 @@ i
 ;
 )
 {
-nsCSSProperty
+nsCSSPropertyID
 iProp
 =
 PropertyAtIndex
@@ -1443,7 +1443,7 @@ nsCSSCompressedDataBlock
 :
 ValueFor
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 const
@@ -1537,7 +1537,7 @@ nsCSSCompressedDataBlock
 :
 TryReplaceValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsCSSExpandedDataBlock
 &
@@ -2096,7 +2096,7 @@ i
 +
 )
 {
-nsCSSProperty
+nsCSSPropertyID
 iProp
 =
 aBlock
@@ -2384,7 +2384,7 @@ continue
 #
 ifdef
 DEBUG
-nsCSSProperty
+nsCSSPropertyID
 iProp
 =
 nsCSSPropertySet
@@ -2574,12 +2574,12 @@ i
 +
 )
 {
-nsCSSProperty
+nsCSSPropertyID
 iProp
 =
 static_cast
 <
-nsCSSProperty
+nsCSSPropertyID
 >
 (
 aOrder
@@ -2921,7 +2921,7 @@ nsCSSExpandedDataBlock
 :
 AddLonghandProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 const
 nsCSSValue
@@ -3045,7 +3045,7 @@ iLow
 )
 continue
 ;
-nsCSSProperty
+nsCSSPropertyID
 iProp
 =
 nsCSSPropertySet
@@ -3075,7 +3075,7 @@ nsCSSExpandedDataBlock
 :
 ClearProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 {
@@ -3123,7 +3123,7 @@ nsCSSExpandedDataBlock
 :
 ClearLonghandProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 {
@@ -3174,7 +3174,7 @@ TransferFromBlock
 nsCSSExpandedDataBlock
 &
 aFromBlock
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 CSSEnabledState
 aEnabledState
@@ -3261,7 +3261,7 @@ DoTransferFromBlock
 nsCSSExpandedDataBlock
 &
 aFromBlock
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 bool
 aIsImportant
@@ -3453,7 +3453,7 @@ nsCSSExpandedDataBlock
 :
 MapRuleInfoInto
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 nsRuleData
 *
@@ -3496,7 +3496,7 @@ GetUnit
 eCSSUnit_Null
 )
 ;
-nsCSSProperty
+nsCSSPropertyID
 physicalProp
 =
 aPropID
@@ -3634,10 +3634,10 @@ eCSSProperty_COUNT_no_shorthands
 i
 )
 {
-nsCSSProperty
+nsCSSPropertyID
 prop
 =
-nsCSSProperty
+nsCSSPropertyID
 (
 i
 )

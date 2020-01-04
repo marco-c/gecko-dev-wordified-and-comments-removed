@@ -215,7 +215,7 @@ uint8_t
 &
 RestyleCountForProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -233,7 +233,7 @@ static
 ActivityIndex
 GetActivityIndexForProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -1267,7 +1267,7 @@ NotifyRestyle
 nsIFrame
 *
 aFrame
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -1404,7 +1404,7 @@ NotifyAnimated
 nsIFrame
 *
 aFrame
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 const
 nsAString
@@ -1480,7 +1480,7 @@ NotifyAnimatedFromScrollHandler
 nsIFrame
 *
 aFrame
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsIFrame
 *
@@ -1637,7 +1637,7 @@ NotifyInlineStyleRuleModified
 nsIFrame
 *
 aFrame
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 const
 nsAString
@@ -1710,7 +1710,7 @@ IsStyleMaybeAnimated
 nsIFrame
 *
 aFrame
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -1872,7 +1872,7 @@ aBuilder
 nsIFrame
 *
 aFrame
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {

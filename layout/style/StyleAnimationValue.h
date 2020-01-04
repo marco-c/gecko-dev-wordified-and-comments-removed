@@ -110,7 +110,7 @@ static
 bool
 Add
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 StyleAnimationValue
 &
@@ -141,7 +141,7 @@ static
 bool
 ComputeDistance
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 const
 StyleAnimationValue
@@ -160,7 +160,7 @@ static
 bool
 Interpolate
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 const
 StyleAnimationValue
@@ -197,7 +197,7 @@ static
 bool
 AddWeighted
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 double
 aCoeff1
@@ -220,7 +220,7 @@ static
 bool
 ComputeValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 mozilla
 :
@@ -254,7 +254,7 @@ static
 bool
 ComputeValues
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 mozilla
 :
@@ -291,7 +291,7 @@ static
 bool
 ComputeValues
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 mozilla
 :
@@ -328,7 +328,7 @@ static
 bool
 UncomputeValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 const
 StyleAnimationValue
@@ -343,7 +343,7 @@ static
 bool
 UncomputeValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 StyleAnimationValue
 &
@@ -358,7 +358,7 @@ static
 bool
 UncomputeValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 const
 StyleAnimationValue
@@ -373,7 +373,7 @@ static
 bool
 ExtractComputedValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsStyleContext
 *
@@ -445,7 +445,6 @@ eUnit_CurrentColor
 eUnit_Calc
 eUnit_ObjectPosition
 eUnit_URL
-eUnit_DiscreteCSSValue
 eUnit_CSSValuePair
 eUnit_CSSValueTriplet
 eUnit_CSSRect
@@ -1567,12 +1566,6 @@ aUnit
 =
 =
 eUnit_URL
-|
-|
-aUnit
-=
-=
-eUnit_DiscreteCSSValue
 ;
 }
 static
@@ -1718,7 +1711,7 @@ eUnit_UnparsedString
 struct
 PropertyStyleAnimationValuePair
 {
-nsCSSProperty
+nsCSSPropertyID
 mProperty
 ;
 StyleAnimationValue

@@ -52,7 +52,7 @@ h
 #
 include
 "
-nsCSSProperty
+nsCSSPropertyID
 .
 h
 "
@@ -378,7 +378,7 @@ const
 nsIFrame
 *
 aFrame
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 ;
@@ -399,7 +399,7 @@ const
 nsIFrame
 *
 aFrame
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 ;
@@ -411,7 +411,7 @@ const
 nsIFrame
 *
 aFrame
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 ;
@@ -470,7 +470,7 @@ const
 nsIFrame
 *
 aFrame
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 const
 AnimationPerformanceWarning

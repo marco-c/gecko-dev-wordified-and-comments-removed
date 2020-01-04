@@ -93,7 +93,7 @@ h
 #
 include
 "
-nsCSSProperty
+nsCSSPropertyID
 .
 h
 "

@@ -24,7 +24,7 @@ h
 #
 include
 "
-nsCSSProperty
+nsCSSPropertyID
 .
 h
 "
@@ -1208,11 +1208,11 @@ eStyleAnimType_Corner_TopRight
 eStyleAnimType_Corner_BottomRight
 eStyleAnimType_Corner_BottomLeft
 eStyleAnimType_nscoord
+eStyleAnimType_EnumU8
 eStyleAnimType_float
 eStyleAnimType_Color
 eStyleAnimType_PaintServer
 eStyleAnimType_Shadow
-eStyleAnimType_Discrete
 eStyleAnimType_None
 }
 ;
@@ -1456,7 +1456,7 @@ void
 )
 ;
 static
-nsCSSProperty
+nsCSSPropertyID
 LookupProperty
 (
 const
@@ -1468,7 +1468,7 @@ aEnabled
 )
 ;
 static
-nsCSSProperty
+nsCSSPropertyID
 LookupProperty
 (
 const
@@ -1480,7 +1480,7 @@ aEnabled
 )
 ;
 static
-nsCSSProperty
+nsCSSPropertyID
 LookupPropertyByIDLName
 (
 const
@@ -1492,7 +1492,7 @@ aEnabled
 )
 ;
 static
-nsCSSProperty
+nsCSSPropertyID
 LookupPropertyByIDLName
 (
 const
@@ -1528,7 +1528,7 @@ inline
 bool
 IsShorthand
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -1563,7 +1563,7 @@ static
 bool
 IsInherited
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 ;
@@ -1633,7 +1633,7 @@ nsAFlatCString
 &
 GetStringValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 ;
@@ -1663,7 +1663,7 @@ nsAFlatCString
 &
 LookupPropertyValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 int32_t
 aValue
@@ -1956,7 +1956,7 @@ inline
 bool
 PropHasFlags
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 uint32_t
 aFlags
@@ -2040,7 +2040,7 @@ inline
 uint32_t
 PropertyParseType
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -2079,7 +2079,7 @@ inline
 uint32_t
 ValueRestrictions
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -2130,7 +2130,7 @@ inline
 uint32_t
 ParserVariant
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -2166,7 +2166,7 @@ private
 :
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 const
 kSubpropertyTable
@@ -2181,11 +2181,11 @@ public
 static
 inline
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 SubpropertyEntryFor
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -2221,11 +2221,11 @@ eCSSProperty_COUNT_no_shorthands
 }
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 ShorthandsContaining
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -2265,7 +2265,7 @@ aProperty
 private
 :
 static
-nsCSSProperty
+nsCSSPropertyID
 *
 gShorthandsContainingTable
 [
@@ -2273,7 +2273,7 @@ eCSSProperty_COUNT_no_shorthands
 ]
 ;
 static
-nsCSSProperty
+nsCSSPropertyID
 *
 gShorthandsContainingPool
 ;
@@ -2340,7 +2340,7 @@ static
 size_t
 PropertyIndexInStruct
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -2373,7 +2373,7 @@ private
 :
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 const
 kLogicalGroupTable
@@ -2385,11 +2385,11 @@ public
 :
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 LogicalGroup
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 ;
@@ -2422,7 +2422,7 @@ char
 *
 PropertyIDLName
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -2467,7 +2467,7 @@ static
 int32_t
 PropertyIDLNameSortPosition
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -2500,7 +2500,7 @@ static
 bool
 IsEnabled
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -2549,7 +2549,7 @@ mozilla
 UseCounter
 UseCounterFor
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -2582,7 +2582,7 @@ static
 bool
 IsEnabled
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 EnabledState
 aEnabled
@@ -2679,7 +2679,7 @@ enabledstate_
 for
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 *
 it_
 =
@@ -2694,7 +2694,7 @@ prop_
 es_
 =
 (
-nsCSSProperty
+nsCSSPropertyID
 )
 (
 (

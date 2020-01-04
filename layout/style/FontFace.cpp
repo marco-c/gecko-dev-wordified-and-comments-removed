@@ -2265,7 +2265,7 @@ GetDesc
 (
 nsCSSFontDesc
 aDescID
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 nsString
 &

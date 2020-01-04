@@ -76,7 +76,7 @@ h
 #
 include
 "
-nsCSSProperty
+nsCSSPropertyID
 .
 h
 "
@@ -1652,7 +1652,7 @@ eAuthorSpecified
 void
 AppendToString
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsAString
 &
@@ -3234,7 +3234,7 @@ void
 AppendSidesShorthandToString
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aProperties
 [
 ]
@@ -3256,7 +3256,7 @@ void
 AppendBasicShapeRadiusToString
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aProperties
 [
 ]
@@ -3316,7 +3316,7 @@ Data
 void
 AppendPolygonToString
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsAString
 &
@@ -3333,7 +3333,7 @@ const
 nsCSSValue
 &
 aValue
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsAString
 &
@@ -3348,7 +3348,7 @@ AppendCircleOrEllipseToString
 (
 nsCSSKeyword
 aFunctionId
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsAString
 &
@@ -3372,7 +3372,7 @@ const
 void
 AppendInsetToString
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsAString
 &
@@ -4133,7 +4133,7 @@ const
 void
 AppendToString
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsAString
 &
@@ -4321,7 +4321,7 @@ nsCSSValueSharedList
 void
 AppendToString
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsAString
 &
@@ -4502,7 +4502,7 @@ nsCSSRect
 void
 AppendToString
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsAString
 &
@@ -5127,7 +5127,7 @@ eCSSUnit_Null
 void
 AppendToString
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsAString
 &
@@ -5517,7 +5517,7 @@ eCSSUnit_Null
 void
 AppendToString
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsAString
 &
@@ -5758,7 +5758,7 @@ const
 void
 AppendToString
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 nsAString
 &
@@ -6754,10 +6754,10 @@ aMallocSizeOf
 )
 const
 ;
-nsCSSProperty
+nsCSSPropertyID
 mPropertyID
 ;
-nsCSSProperty
+nsCSSPropertyID
 mShorthandPropertyID
 ;
 nsString

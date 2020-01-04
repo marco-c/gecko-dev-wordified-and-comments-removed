@@ -16,7 +16,7 @@ h
 #
 include
 "
-nsCSSProperty
+nsCSSPropertyID
 .
 h
 "
@@ -93,17 +93,6 @@ MightMapInheritedStyleData
 )
 override
 ;
-bool
-GetDiscretelyAnimatedCSSValue
-(
-nsCSSProperty
-aProperty
-nsCSSValue
-*
-aValue
-)
-override
-;
 #
 ifdef
 DEBUG
@@ -128,7 +117,7 @@ endif
 void
 AddValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 const
 StyleAnimationValue
@@ -172,7 +161,7 @@ aProperty
 void
 AddValue
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 StyleAnimationValue
 &

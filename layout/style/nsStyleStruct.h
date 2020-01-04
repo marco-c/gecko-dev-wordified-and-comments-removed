@@ -2800,14 +2800,14 @@ const
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 kBackgroundLayerTable
 [
 ]
 ;
 static
 const
-nsCSSProperty
+nsCSSPropertyID
 kMaskLayerTable
 [
 ]
@@ -9530,7 +9530,7 @@ return
 mDuration
 ;
 }
-nsCSSProperty
+nsCSSPropertyID
 GetProperty
 (
 )
@@ -9613,7 +9613,7 @@ aDuration
 void
 SetProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 )
 {
@@ -9643,7 +9643,7 @@ aProperty
 void
 SetUnknownProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 const
 nsAString
@@ -9729,7 +9729,7 @@ mDuration
 float
 mDelay
 ;
-nsCSSProperty
+nsCSSPropertyID
 mProperty
 ;
 nsCOMPtr
@@ -10056,10 +10056,7 @@ type
 )
 mFillRule
 (
-StyleFillRule
-:
-:
-NonZero
+NS_STYLE_FILL_RULE_NONZERO
 )
 {
 mPosition
@@ -10088,7 +10085,7 @@ GetShapeTypeName
 )
 const
 ;
-StyleFillRule
+int32_t
 GetFillRule
 (
 )
@@ -10101,7 +10098,7 @@ mFillRule
 void
 SetFillRule
 (
-StyleFillRule
+int32_t
 aFillRule
 )
 {
@@ -10436,7 +10433,7 @@ StyleBasicShape
 StyleBasicShapeType
 mType
 ;
-StyleFillRule
+int32_t
 mFillRule
 ;
 nsTArray
@@ -14380,10 +14377,7 @@ mStrokeMiterlimit
 float
 mStrokeOpacity
 ;
-mozilla
-:
-:
-StyleFillRule
+uint8_t
 mClipRule
 ;
 uint8_t
@@ -14392,10 +14386,7 @@ mColorInterpolation
 uint8_t
 mColorInterpolationFilters
 ;
-mozilla
-:
-:
-StyleFillRule
+uint8_t
 mFillRule
 ;
 uint8_t

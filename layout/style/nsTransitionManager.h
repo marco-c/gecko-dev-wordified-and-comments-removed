@@ -176,7 +176,7 @@ return
 this
 ;
 }
-nsCSSProperty
+nsCSSPropertyID
 TransitionProperty
 (
 )
@@ -553,7 +553,7 @@ Tick
 )
 override
 ;
-nsCSSProperty
+nsCSSPropertyID
 TransitionProperty
 (
 )
@@ -831,7 +831,7 @@ Element
 aElement
 CSSPseudoElementType
 aPseudoType
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 StickyTimeDuration
 aDuration
@@ -1250,7 +1250,7 @@ aNewStyleContext
 void
 ConsiderStartingTransition
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 const
 mozilla
@@ -1298,7 +1298,7 @@ GetTransitionKeyframes
 nsStyleContext
 *
 aStyleContext
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 mozilla
 :

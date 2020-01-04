@@ -112,7 +112,7 @@ ValueWrapper
 {
 ValueWrapper
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 const
 StyleAnimationValue
@@ -130,7 +130,7 @@ aValue
 )
 {
 }
-nsCSSProperty
+nsCSSPropertyID
 mPropID
 ;
 StyleAnimationValue
@@ -1051,7 +1051,7 @@ value
 "
 )
 ;
-nsCSSProperty
+nsCSSPropertyID
 property
 =
 (
@@ -1639,7 +1639,7 @@ static
 bool
 ValueFromStringHelper
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 Element
 *
@@ -1843,7 +1843,7 @@ nsSMILCSSValueType
 :
 ValueFromString
 (
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 Element
 *
@@ -2059,7 +2059,7 @@ aString
 )
 ;
 }
-nsCSSProperty
+nsCSSPropertyID
 nsSMILCSSValueType
 :
 :

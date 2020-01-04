@@ -660,7 +660,7 @@ nsresult
 ParsePropertyValue
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 const
 nsAString
@@ -674,7 +674,7 @@ nsresult
 RemoveProperty
 (
 const
-nsCSSProperty
+nsCSSPropertyID
 aPropID
 )
 ;

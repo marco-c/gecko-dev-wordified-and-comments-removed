@@ -4337,10 +4337,7 @@ mStrokeOpacity
 )
 mClipRule
 (
-StyleFillRule
-:
-:
-NonZero
+NS_STYLE_FILL_RULE_NONZERO
 )
 mColorInterpolation
 (
@@ -4352,10 +4349,7 @@ NS_STYLE_COLOR_INTERPOLATION_LINEARRGB
 )
 mFillRule
 (
-StyleFillRule
-:
-:
-NonZero
+NS_STYLE_FILL_RULE_NONZERO
 )
 mPaintOrder
 (
@@ -10016,7 +10010,7 @@ aSVGViewportSize
 }
 }
 const
-nsCSSProperty
+nsCSSPropertyID
 nsStyleImageLayers
 :
 :
@@ -10043,7 +10037,7 @@ eCSSProperty_UNKNOWN
 ifdef
 MOZ_ENABLE_MASK_AS_SHORTHAND
 const
-nsCSSProperty
+nsCSSPropertyID
 nsStyleImageLayers
 :
 :
@@ -12778,7 +12772,7 @@ StyleTransition
 :
 SetUnknownProperty
 (
-nsCSSProperty
+nsCSSPropertyID
 aProperty
 const
 nsAString
