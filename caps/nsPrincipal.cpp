@@ -1023,8 +1023,9 @@ uriPrin
 if
 (
 uriPrin
-&
-&
+)
+{
+return
 nsIPrincipal
 :
 :
@@ -1032,10 +1033,6 @@ Subsumes
 (
 uriPrin
 )
-)
-{
-return
-true
 ;
 }
 if
