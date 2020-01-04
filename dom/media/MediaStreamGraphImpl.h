@@ -723,6 +723,14 @@ MediaStream
 aStreamSet
 )
 ;
+bool
+AudioTrackPresent
+(
+bool
+&
+aNeedsAEC
+)
+;
 void
 UpdateStreamOrder
 (
