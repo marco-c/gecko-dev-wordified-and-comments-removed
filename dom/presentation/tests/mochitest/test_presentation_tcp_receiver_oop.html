@@ -226,7 +226,7 @@ SimpleTest
 getTestFileURL
 (
 '
-file_presentation_receiver_oop
+file_presentation_receiver
 .
 html
 '
@@ -240,7 +240,7 @@ SimpleTest
 getTestFileURL
 (
 '
-file_presentation_non_receiver_oop
+file_presentation_non_receiver
 .
 html
 '
@@ -355,6 +355,16 @@ mozbrowser
 '
 true
 '
+)
+;
+receiverIframe
+.
+setAttribute
+(
+'
+mozpresentation
+'
+receiverUrl
 )
 ;
 receiverIframe
