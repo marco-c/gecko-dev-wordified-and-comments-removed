@@ -3776,7 +3776,7 @@ return
 false
 ;
 }
-JS_AddInterruptCallback
+JS_SetInterruptCallback
 (
 aWorkerCx
 InterruptCallback
