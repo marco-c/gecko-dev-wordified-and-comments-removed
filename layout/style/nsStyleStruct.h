@@ -13975,6 +13975,8 @@ nsChangeHint_UpdateOverflow
 |
 nsChangeHint_NeutralChange
 |
+nsChangeHint_UpdateBackgroundPosition
+|
 NS_STYLE_HINT_REFLOW
 ;
 }
