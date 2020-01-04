@@ -79,6 +79,13 @@ h
 #
 include
 "
+nsINSSU2FToken
+.
+h
+"
+#
+include
+"
 nsNetCID
 .
 h

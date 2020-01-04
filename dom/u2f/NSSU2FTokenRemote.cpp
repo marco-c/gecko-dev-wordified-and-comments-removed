@@ -28,7 +28,7 @@ ContentChild
 NS_IMPL_ISUPPORTS
 (
 NSSU2FTokenRemote
-nsINSSU2FToken
+nsIU2FToken
 )
 static
 mozilla
@@ -58,18 +58,6 @@ NSSU2FTokenRemote
 (
 )
 {
-}
-NS_IMETHODIMP
-NSSU2FTokenRemote
-:
-:
-Init
-(
-)
-{
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 NSSU2FTokenRemote

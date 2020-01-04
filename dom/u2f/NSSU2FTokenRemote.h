@@ -7,7 +7,7 @@ NSSU2FTokenRemote_h
 #
 include
 "
-nsINSSU2FToken
+nsIU2FToken
 .
 h
 "
@@ -15,12 +15,12 @@ class
 NSSU2FTokenRemote
 :
 public
-nsINSSU2FToken
+nsIU2FToken
 {
 public
 :
 NS_DECL_ISUPPORTS
-NS_DECL_NSINSSU2FTOKEN
+NS_DECL_NSIU2FTOKEN
 NSSU2FTokenRemote
 (
 )

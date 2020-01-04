@@ -261,6 +261,11 @@ nsITokenPasswordDialogs
 idl
 '
 '
+nsIU2FToken
+.
+idl
+'
+'
 nsIUserCertPicker
 .
 idl
