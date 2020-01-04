@@ -1185,10 +1185,7 @@ str
 =
 JS_GetEmptyString
 (
-JS_GetRuntime
-(
 cx
-)
 )
 ;
 }
