@@ -214,13 +214,12 @@ null
 .
 "
 )
-aliases
-.
-forEach
+for
 (
-function
-(
+var
 alias
+in
+aliases
 )
 {
 test
@@ -237,9 +236,6 @@ document
 createEvent
 (
 alias
-[
-0
-]
 )
 assert_equals
 (
@@ -297,9 +293,6 @@ thrown
 "
 +
 alias
-[
-0
-]
 +
 "
 )
@@ -307,7 +300,6 @@ alias
 "
 )
 }
-)
 var
 dispatch_dispatch
 =

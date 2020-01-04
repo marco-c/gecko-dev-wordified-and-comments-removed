@@ -132,9 +132,6 @@ config
 .
 messagehandler
 (
-config
-.
-keysystem
 event
 .
 messageType
@@ -300,9 +297,6 @@ config
 .
 messagehandler
 (
-config
-.
-keysystem
 event
 .
 messageType

@@ -3,7 +3,7 @@ os
 from
 six
 import
-StringIO
+BytesIO
 blacklist
 =
 [
@@ -208,9 +208,9 @@ path
 sep
 )
 class
-ContextManagerStringIO
+ContextManagerBytesIO
 (
-StringIO
+BytesIO
 )
 :
     

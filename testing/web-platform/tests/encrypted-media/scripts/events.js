@@ -118,9 +118,6 @@ config
 .
 messagehandler
 (
-config
-.
-keysystem
 event
 .
 messageType

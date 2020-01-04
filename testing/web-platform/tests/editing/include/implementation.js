@@ -31,7 +31,7 @@ var
 defaultSingleLineContainerName
 =
 "
-p
+div
 "
 ;
 var

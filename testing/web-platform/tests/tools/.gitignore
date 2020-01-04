@@ -1,5 +1,15 @@
 *
 #
+.
+coverage
+*
+htmlcov
+/
+coverage
+.
+xml
+.
+tox
 *
 .
 py

@@ -225,6 +225,7 @@ MediaKeys
 prototype
 .
 createSession
+=
 function
 createSession
 (

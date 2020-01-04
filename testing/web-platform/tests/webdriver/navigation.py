@@ -238,13 +238,6 @@ close
 pytest
 .
 fixture
-(
-scope
-=
-"
-function
-"
-)
 def
 http
 (

@@ -201,9 +201,6 @@ config
 .
 messagehandler
 (
-config
-.
-keysystem
 event
 .
 messageType
@@ -380,7 +377,7 @@ config
 duration
 |
 |
-5
+2
 )
 )
 {

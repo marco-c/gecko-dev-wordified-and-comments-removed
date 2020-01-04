@@ -153,6 +153,7 @@ follow
 "
 }
 ;
+return
 promise_test
 (
 function
