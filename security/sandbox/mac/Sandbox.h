@@ -163,6 +163,12 @@ other
 .
 appTempDir
 )
+profileDir
+(
+other
+.
+profileDir
+)
 {
 }
 MacSandboxType
@@ -197,6 +203,12 @@ std
 :
 string
 appTempDir
+;
+std
+:
+:
+string
+profileDir
 ;
 }
 MacSandboxInfo
