@@ -1107,9 +1107,12 @@ generatorKind
 bool
 initStaticScope
 (
+Handle
+<
 StaticScope
 *
-enclosingStaticScope
+>
+enclosingScope
 )
 ;
 ObjectBox

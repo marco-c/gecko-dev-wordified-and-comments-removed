@@ -1720,8 +1720,11 @@ Directives
 directives
 GeneratorKind
 generatorKind
+Handle
+<
 StaticScope
 *
+>
 enclosingStaticScope
 )
 ;
