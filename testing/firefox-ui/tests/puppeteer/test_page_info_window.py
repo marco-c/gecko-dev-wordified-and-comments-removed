@@ -514,22 +514,13 @@ trigger
 shortcut
 '
 and
-\
-                    
 self
 .
-marionette
-.
-session_capabilities
-[
-'
 platform
-'
-]
 =
 =
 '
-WINDOWS_NT
+windows_nt
 '
 :
                 
@@ -662,7 +653,7 @@ platform
 !
 =
 '
-Darwin
+darwin
 '
 :
                 
