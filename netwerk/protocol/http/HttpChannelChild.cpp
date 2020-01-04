@@ -9482,6 +9482,15 @@ mDivertingToParent
 ;
 if
 (
+mSynthesizedResponse
+)
+{
+return
+NS_ERROR_NOT_AVAILABLE
+;
+}
+if
+(
 NS_FAILED
 (
 mStatus
