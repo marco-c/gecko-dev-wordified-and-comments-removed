@@ -85,7 +85,7 @@ h
 #
 define
 DATABASE_SCHEMA_VERSION
-31
+32
 #
 define
 TOPIC_PLACES_INIT_COMPLETE
@@ -421,6 +421,11 @@ aQuery
 )
 const
 ;
+uint32_t
+MaxUrlLength
+(
+)
+;
 protected
 :
 void
@@ -563,6 +568,11 @@ MigrateV31Up
 )
 ;
 nsresult
+MigrateV32Up
+(
+)
+;
+nsresult
 UpdateBookmarkRootTitles
 (
 )
@@ -646,6 +656,9 @@ RefPtr
 ConnectionShutdownBlocker
 >
 mConnectionShutdown
+;
+uint32_t
+mMaxUrlLength
 ;
 }
 ;

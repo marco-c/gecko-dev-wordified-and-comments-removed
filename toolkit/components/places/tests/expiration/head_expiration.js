@@ -465,6 +465,9 @@ ex
 function
 getExpirablePRTime
 (
+daysAgo
+=
+7
 )
 {
 let
@@ -514,7 +517,11 @@ getTime
 (
 )
 -
-8
+(
+daysAgo
++
+1
+)
 *
 86400000
 )
