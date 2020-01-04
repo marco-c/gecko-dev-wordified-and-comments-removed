@@ -27,4 +27,10 @@ getManifest
 )
 )
 ;
+window
+.
+close
+(
+)
+;
 }
