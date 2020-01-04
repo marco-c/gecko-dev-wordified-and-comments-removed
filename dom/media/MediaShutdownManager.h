@@ -127,11 +127,6 @@ Shutdown
 )
 ;
 void
-FinishShutdown
-(
-)
-;
-void
 EnsureCorrectShutdownObserverState
 (
 )
@@ -157,9 +152,6 @@ mIsObservingShutdown
 ;
 bool
 mIsDoingXPCOMShutDown
-;
-bool
-mCompletedShutdown
 ;
 }
 ;
