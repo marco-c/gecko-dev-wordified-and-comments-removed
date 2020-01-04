@@ -769,8 +769,6 @@ nsISupports
 aContext
 nsresult
 aStatusCode
-bool
-sync
 )
 ;
 void
@@ -1890,7 +1888,6 @@ CLOSE_GOING_AWAY
 NS_OK
 :
 NS_ERROR_FAILURE
-false
 )
 ;
 return
@@ -2834,7 +2831,6 @@ ScheduleConnectionCloseEvents
 (
 aContext
 aStatusCode
-true
 )
 ;
 }
@@ -2849,8 +2845,6 @@ nsISupports
 aContext
 nsresult
 aStatusCode
-bool
-sync
 )
 {
 AssertIsOnTargetThread
@@ -2904,18 +2898,6 @@ mOnCloseScheduled
 =
 true
 ;
-if
-(
-sync
-)
-{
-DispatchConnectionCloseEvents
-(
-)
-;
-}
-else
-{
 NS_DispatchToCurrentThread
 (
 new
@@ -2925,7 +2907,6 @@ this
 )
 )
 ;
-}
 }
 return
 NS_OK
