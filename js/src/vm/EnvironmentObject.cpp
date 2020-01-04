@@ -17747,7 +17747,7 @@ kind
 ScopeKind
 :
 :
-Catch
+SimpleCatch
 )
 {
 return

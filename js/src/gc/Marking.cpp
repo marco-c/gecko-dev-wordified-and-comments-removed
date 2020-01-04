@@ -6985,6 +6985,12 @@ case
 ScopeKind
 :
 :
+SimpleCatch
+:
+case
+ScopeKind
+:
+:
 Catch
 :
 case
@@ -7318,6 +7324,12 @@ ScopeKind
 :
 :
 Lexical
+:
+case
+ScopeKind
+:
+:
+SimpleCatch
 :
 case
 ScopeKind
