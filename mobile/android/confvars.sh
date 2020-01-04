@@ -382,15 +382,6 @@ MOZ_WEBGL_CONFORMANT
 #
 Enable
 the
-Search
-Activity
-.
-MOZ_ANDROID_SEARCH_ACTIVITY
-=
-1
-#
-Enable
-the
 Mozilla
 Location
 Service
