@@ -1251,7 +1251,13 @@ if
 (
 CERT_DecodeCertPackage
 (
-char_ptr_cast
+BitwiseCast
+<
+char
+*
+uint8_t
+*
+>
 (
 data
 )
