@@ -426,6 +426,7 @@ TEST
         
 help
 =
+(
 '
 Tests
 to
@@ -443,6 +444,17 @@ a
 directory
 .
 '
+              
+'
+Tests
+must
+be
+part
+of
+PYTHON_UNIT_TESTS
+.
+'
+)
 )
     
 def
@@ -482,6 +494,10 @@ _activate_virtualenv
 return_code
 =
 0
+        
+found_tests
+=
+False
         
 if
 test_objects
@@ -547,6 +563,10 @@ test
 in
 test_objects
 :
+            
+found_tests
+=
+True
             
 f
 =
@@ -779,6 +799,51 @@ return_code
 0
 :
                 
+return
+1
+        
+if
+not
+found_tests
+:
+            
+self
+.
+log
+(
+logging
+.
+WARN
+'
+python
+-
+test
+'
+{
+}
+                     
+'
+TEST
+-
+UNEXPECTED
+-
+FAIL
+|
+No
+tests
+collected
+'
+                     
+'
+(
+not
+in
+PYTHON_UNIT_TESTS
+?
+)
+'
+)
+            
 return
 1
         
