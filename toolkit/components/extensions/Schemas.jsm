@@ -314,7 +314,6 @@ wrapperFuncs
 {
 }
 }
-;
 class
 Type
 extends
@@ -392,7 +391,6 @@ value
 ;
 }
 }
-;
 class
 AnyType
 extends
@@ -419,7 +417,6 @@ true
 ;
 }
 }
-;
 class
 ChoiceType
 extends
@@ -505,7 +502,6 @@ baseType
 ;
 }
 }
-;
 class
 RefType
 extends
@@ -663,7 +659,6 @@ baseType
 ;
 }
 }
-;
 class
 StringType
 extends
@@ -926,7 +921,6 @@ e
 }
 }
 }
-;
 class
 UnrestrictedObjectType
 extends
@@ -964,7 +958,6 @@ object
 ;
 }
 }
-;
 class
 ObjectType
 extends
@@ -1309,7 +1302,6 @@ result
 ;
 }
 }
-;
 class
 NumberType
 extends
@@ -1403,7 +1395,6 @@ integer
 ;
 }
 }
-;
 class
 IntegerType
 extends
@@ -1575,7 +1566,6 @@ integer
 ;
 }
 }
-;
 class
 BooleanType
 extends
@@ -1613,7 +1603,6 @@ boolean
 ;
 }
 }
-;
 class
 ArrayType
 extends
@@ -1733,7 +1722,6 @@ array
 ;
 }
 }
-;
 class
 FunctionType
 extends
@@ -1787,7 +1775,6 @@ function
 ;
 }
 }
-;
 class
 ValueProperty
 extends
@@ -1834,7 +1821,6 @@ value
 ;
 }
 }
-;
 class
 TypeProperty
 extends
@@ -1864,7 +1850,6 @@ type
 ;
 }
 }
-;
 class
 CallEntry
 extends
@@ -2130,6 +2115,7 @@ argIndex
 )
 ;
 }
+;
 let
 success
 =
@@ -2253,7 +2239,6 @@ fixedArgs
 ;
 }
 }
-;
 class
 FunctionEntry
 extends
@@ -2336,6 +2321,7 @@ actuals
 )
 ;
 }
+;
 Cu
 .
 exportFunction
@@ -2351,7 +2337,6 @@ name
 ;
 }
 }
-;
 class
 Event
 extends
@@ -2623,7 +2608,6 @@ hasListener
 ;
 }
 }
-;
 this
 .
 Schemas
@@ -2794,7 +2778,6 @@ name
 }
 }
 }
-;
 if
 (
 "
@@ -2861,11 +2844,8 @@ let
 ref
 =
 type
-[
-"
+.
 ref
-"
-]
 ;
 let
 ns
@@ -2878,9 +2858,9 @@ ref
 .
 includes
 (
-'
+"
 .
-'
+"
 )
 )
 {
@@ -2893,9 +2873,9 @@ ref
 .
 split
 (
-'
+"
 .
-'
+"
 )
 ;
 }
@@ -2978,11 +2958,8 @@ let
 enumeration
 =
 type
-[
-"
+.
 enum
-"
-]
 |
 |
 null

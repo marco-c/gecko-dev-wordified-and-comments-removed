@@ -49,6 +49,11 @@ do_register_cleanup
 :
 false
 "
+do_check_eq
+"
+:
+false
+"
 equal
 "
 :
