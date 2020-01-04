@@ -1006,11 +1006,6 @@ NodeIterator
 h
 '
 '
-PerformanceCompositeTiming
-.
-h
-'
-'
 PerformanceEntry
 .
 h
@@ -1032,11 +1027,6 @@ h
 '
 '
 PerformanceObserverEntryList
-.
-h
-'
-'
-PerformanceRenderTiming
 .
 h
 '
@@ -1721,11 +1711,6 @@ nsXMLNameSpaceMap
 cpp
 '
 '
-PerformanceCompositeTiming
-.
-cpp
-'
-'
 PerformanceEntry
 .
 cpp
@@ -1747,11 +1732,6 @@ cpp
 '
 '
 PerformanceObserverEntryList
-.
-cpp
-'
-'
-PerformanceRenderTiming
 .
 cpp
 '

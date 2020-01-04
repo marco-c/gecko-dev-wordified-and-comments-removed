@@ -1835,11 +1835,6 @@ Performance
 webidl
 '
 '
-PerformanceCompositeTiming
-.
-webidl
-'
-'
 PerformanceEntry
 .
 webidl
@@ -1866,11 +1861,6 @@ webidl
 '
 '
 PerformanceObserverEntryList
-.
-webidl
-'
-'
-PerformanceRenderTiming
 .
 webidl
 '
