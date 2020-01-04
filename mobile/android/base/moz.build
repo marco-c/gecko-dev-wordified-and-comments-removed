@@ -3287,13 +3287,6 @@ SurfaceBits
 java
 '
 '
-sync
-/
-TabReceivedService
-.
-java
-'
-'
 Tab
 .
 java
@@ -3323,6 +3316,13 @@ java
 tabqueue
 /
 TabQueueService
+.
+java
+'
+'
+tabqueue
+/
+TabReceivedService
 .
 java
 '
