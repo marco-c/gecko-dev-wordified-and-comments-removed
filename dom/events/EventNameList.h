@@ -723,7 +723,7 @@ eBasicEventClass
 EVENT
 (
 seeking
-NS_SEEKING
+eSeeking
 EventNameType_HTML
 eBasicEventClass
 )

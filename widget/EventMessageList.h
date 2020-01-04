@@ -965,7 +965,7 @@ eMediaEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_SEEKING
+eSeeking
 eMediaEventFirst
 +
 13
