@@ -4830,6 +4830,8 @@ const
 char
 *
 funcName
+bool
+usePBOs
 GLenum
 format
 GLenum
