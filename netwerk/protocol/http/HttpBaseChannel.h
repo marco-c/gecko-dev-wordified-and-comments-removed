@@ -1799,6 +1799,11 @@ const
 bool
 ShouldIntercept
 (
+nsIURI
+*
+aURI
+=
+nullptr
 )
 ;
 friend
