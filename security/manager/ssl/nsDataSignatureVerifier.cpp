@@ -1197,7 +1197,15 @@ digest
 DigestBuf
 (
 SEC_OID_SHA1
-uint8_t_ptr_cast
+BitwiseCast
+<
+const
+uint8_t
+*
+const
+char
+*
+>
 (
 aPlaintext
 )
