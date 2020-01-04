@@ -2633,6 +2633,14 @@ Allow
 ;
 #
 endif
+case
+__NR_fallocate
+:
+return
+Allow
+(
+)
+;
 #
 endif
 #
