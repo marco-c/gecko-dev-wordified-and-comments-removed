@@ -10,12 +10,22 @@ import
 json
 import
 collections
+import
+logging
 from
 slugid
 import
 nice
 as
 slugid
+logger
+=
+logging
+.
+getLogger
+(
+__name__
+)
 def
 create_tasks
 (
@@ -165,7 +175,9 @@ task_def
 )
 :
     
-print
+logger
+.
+debug
 (
 "
 Creating
@@ -235,7 +247,9 @@ status_code
 try
 :
             
-print
+logger
+.
+error
 (
 res
 .
@@ -252,7 +266,9 @@ message
 except
 :
             
-print
+logger
+.
+error
 (
 res
 .
