@@ -16496,7 +16496,7 @@ case
 Expr
 :
 :
-I32Ior
+I32Or
 :
 return
 EmitBitwise

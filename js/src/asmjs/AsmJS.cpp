@@ -36279,7 +36279,7 @@ writeOp
 Expr
 :
 :
-I32Ior
+I32Or
 )
 )
 return
