@@ -9151,6 +9151,7 @@ CheckFrequentBailouts
 (
 cx
 outerScript
+bailoutKind
 )
 )
 return

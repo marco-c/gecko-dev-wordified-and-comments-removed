@@ -460,6 +460,8 @@ cx
 JSScript
 *
 script
+BailoutKind
+bailoutKind
 )
 ;
 }

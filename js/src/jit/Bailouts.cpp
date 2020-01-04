@@ -1417,6 +1417,8 @@ cx
 JSScript
 *
 script
+BailoutKind
+bailoutKind
 )
 {
 if
@@ -1453,6 +1455,14 @@ numBailouts
 js_JitOptions
 .
 frequentBailoutThreshold
+)
+{
+if
+(
+bailoutKind
+!
+=
+Bailout_FirstExecution
 &
 &
 !
@@ -1463,7 +1473,6 @@ hadFrequentBailouts
 (
 )
 )
-{
 script
 -
 >
