@@ -427,6 +427,10 @@ define
 NS_NATIVE_NEW_EGL_SURFACE
 100
 #
+define
+NS_JAVA_SURFACE
+101
+#
 endif
 #
 define
