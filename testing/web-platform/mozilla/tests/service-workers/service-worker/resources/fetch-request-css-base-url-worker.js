@@ -141,7 +141,7 @@ get_host_info
 )
 [
 '
-HTTP_REMOTE_ORIGIN
+HTTPS_REMOTE_ORIGIN
 '
 ]
 +
