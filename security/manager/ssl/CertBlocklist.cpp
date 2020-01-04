@@ -186,11 +186,11 @@ timer
 "
 #
 define
-PREF_KINTO_ONECRL_CHECKED
+PREF_BLOCKLIST_ONECRL_CHECKED
 "
 services
 .
-kinto
+blocklist
 .
 onecrl
 .
@@ -720,7 +720,7 @@ CertBlocklist
 :
 :
 PreferenceChanged
-PREF_KINTO_ONECRL_CHECKED
+PREF_BLOCKLIST_ONECRL_CHECKED
 this
 )
 ;
@@ -877,7 +877,7 @@ CertBlocklist
 :
 :
 PreferenceChanged
-PREF_KINTO_ONECRL_CHECKED
+PREF_BLOCKLIST_ONECRL_CHECKED
 this
 )
 ;
@@ -3241,7 +3241,7 @@ if
 strcmp
 (
 aPref
-PREF_KINTO_ONECRL_CHECKED
+PREF_BLOCKLIST_ONECRL_CHECKED
 )
 =
 =
@@ -3255,7 +3255,7 @@ Preferences
 :
 GetUint
 (
-PREF_KINTO_ONECRL_CHECKED
+PREF_BLOCKLIST_ONECRL_CHECKED
 uint32_t
 (
 0

@@ -549,9 +549,9 @@ setCharPref
 "
 services
 .
-kinto
+settings
 .
-base
+server
 "
 http
 :
@@ -1763,8 +1763,6 @@ settings
 :
 {
 "
-cliquet
-.
 batch_max_requests
 "
 :
