@@ -33,6 +33,13 @@ regress
 bug675251
 .
 js
+auto
+-
+regress
+/
+bug729797
+.
+js
 baseline
 /
 bug847446
