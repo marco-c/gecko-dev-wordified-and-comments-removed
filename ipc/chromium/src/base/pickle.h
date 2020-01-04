@@ -1076,7 +1076,7 @@ int
 length
 )
 ;
-bool
+void
 Resize
 (
 uint32_t
