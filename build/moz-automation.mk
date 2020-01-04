@@ -100,6 +100,8 @@ NOTPARALLEL
 :
 endif
 endif
+ifndef
+JS_STANDALONE
 include
 (
 topsrcdir
@@ -153,6 +155,7 @@ builds
 )
 DIST_FILES
 =
+endif
 #
 Helper
 variables

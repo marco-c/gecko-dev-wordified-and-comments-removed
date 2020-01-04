@@ -2144,6 +2144,8 @@ SYM_STORE_SOURCE_DIRS
 (
 topsrcdir
 )
+ifdef
+MOZ_CRASHREPORTER
 include
 (
 topsrcdir
@@ -2186,6 +2188,7 @@ CPU_ARCH
 symbols
 .
 txt
+endif
 buildsymbols
 :
 ifdef
