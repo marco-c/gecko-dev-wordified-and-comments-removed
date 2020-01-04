@@ -400,12 +400,13 @@ Windows
 <
 !
 ENTITY
-push
+desktop
+-
+notification
 .
 label
 "
-Receive
-Push
+Show
 Notifications
 "
 >

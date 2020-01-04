@@ -6738,7 +6738,7 @@ GetPermissionManager
 permissionManager
 -
 >
-TestPermissionFromPrincipal
+TestExactPermissionFromPrincipal
 (
 aPrincipal
 "

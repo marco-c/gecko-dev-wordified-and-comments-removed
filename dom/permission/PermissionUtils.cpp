@@ -28,7 +28,9 @@ desktop
 notification
 "
 "
-push
+desktop
+-
+notification
 "
 "
 midi
