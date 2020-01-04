@@ -5186,8 +5186,9 @@ first
 argument
 must
 be
-an
-ArrayBuffer
+a
+typed
+array
 "
 )
 MSG_DEF
