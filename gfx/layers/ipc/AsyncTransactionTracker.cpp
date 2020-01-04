@@ -146,7 +146,10 @@ complete
 ;
 }
 }
+Atomic
+<
 uint64_t
+>
 AsyncTransactionTracker
 :
 :
@@ -154,15 +157,6 @@ sSerialCounter
 (
 0
 )
-;
-Mutex
-*
-AsyncTransactionTracker
-:
-:
-sLock
-=
-nullptr
 ;
 AsyncTransactionTracker
 :
@@ -299,7 +293,10 @@ DecrementWaitCount
 ;
 }
 }
+Atomic
+<
 uint64_t
+>
 AsyncTransactionTrackersHolder
 :
 :
