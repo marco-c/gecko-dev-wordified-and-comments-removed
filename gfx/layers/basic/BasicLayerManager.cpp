@@ -698,6 +698,16 @@ ToIntRect
 surfRect
 )
 ;
+if
+(
+!
+surfRect
+.
+IsEmpty
+(
+)
+)
+{
 RefPtr
 <
 DrawTarget
@@ -785,6 +795,7 @@ mMaskTransform
 return
 group
 ;
+}
 }
 Matrix
 maskTransform
