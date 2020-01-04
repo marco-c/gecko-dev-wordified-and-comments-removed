@@ -93,3 +93,10 @@ MPL
 0
 /
 .
+imply_option
+(
+'
+MOZ_PLACES
+'
+True
+)
