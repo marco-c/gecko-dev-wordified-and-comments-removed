@@ -2585,6 +2585,12 @@ ErrorResult
 aRv
 )
 ;
+bool
+IsPlayingThroughTheAudioChannel
+(
+)
+const
+;
 void
 UpdateAudioChannelPlayingState
 (
