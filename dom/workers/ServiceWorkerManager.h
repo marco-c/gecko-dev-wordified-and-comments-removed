@@ -860,6 +860,10 @@ ServiceWorkerRegisterJob
 ;
 friend
 class
+ServiceWorkerJob2
+;
+friend
+class
 ServiceWorkerJobBase
 ;
 friend

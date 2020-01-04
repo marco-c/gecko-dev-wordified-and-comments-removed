@@ -381,6 +381,11 @@ ServiceWorkerEvents
 cpp
 '
 '
+ServiceWorkerJob
+.
+cpp
+'
+'
 ServiceWorkerManager
 .
 cpp
