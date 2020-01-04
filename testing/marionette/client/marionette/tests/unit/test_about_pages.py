@@ -3,6 +3,12 @@ marionette
 import
 MarionetteTestCase
 from
+marionette
+.
+marionette_test
+import
+skip_if_e10s
+from
 marionette_driver
 .
 keys
@@ -444,6 +450,8 @@ switch_to_window
 (
 start_win
 )
+    
+skip_if_e10s
     
 def
 test_type_to_non_remote_tab
