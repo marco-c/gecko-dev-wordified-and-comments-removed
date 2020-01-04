@@ -1218,6 +1218,12 @@ GlobalObject
 )
 |
 |
+IsGlobalLexicalScope
+(
+scope
+)
+|
+|
 scope
 -
 >

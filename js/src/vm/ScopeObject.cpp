@@ -8762,6 +8762,16 @@ shape
 return
 true
 ;
+if
+(
+IsGlobalLexicalScope
+(
+block
+)
+)
+return
+true
+;
 unsigned
 i
 =
