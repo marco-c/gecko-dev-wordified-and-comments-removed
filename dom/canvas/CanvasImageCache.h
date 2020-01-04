@@ -82,6 +82,8 @@ gfx
 IntSize
 &
 aSize
+bool
+aIsAccelerated
 )
 ;
 static
@@ -107,6 +109,8 @@ gfx
 IntSize
 *
 aSize
+bool
+aIsAccelerated
 )
 ;
 static
@@ -120,6 +124,8 @@ dom
 Element
 *
 aImage
+bool
+aIsAccelerated
 )
 ;
 }
