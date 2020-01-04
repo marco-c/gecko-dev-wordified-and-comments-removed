@@ -45,6 +45,7 @@ WorkerHolder
 {
 public
 :
+NS_DECL_OWNINGTHREAD
 WorkerHolder
 (
 )
@@ -89,6 +90,14 @@ WorkerPrivate
 *
 MOZ_NON_OWNING_REF
 mWorkerPrivate
+;
+private
+:
+void
+AssertIsOwningThread
+(
+)
+const
 ;
 }
 ;
