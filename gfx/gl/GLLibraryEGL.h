@@ -2002,8 +2002,9 @@ EnsureInitialized
 bool
 forceAccel
 nsACString
-&
-aFailureId
+*
+const
+out_failureId
 )
 ;
 void

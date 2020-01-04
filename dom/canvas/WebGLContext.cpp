@@ -2451,7 +2451,6 @@ CreateOffscreen
 dummySize
 caps
 flags
-*
 out_failureId
 )
 ;
@@ -2606,7 +2605,6 @@ CreateOffscreen
 dummySize
 caps
 flags
-*
 out_failureId
 )
 ;
@@ -2849,7 +2847,6 @@ CreateOffscreen
 dummySize
 caps
 flags
-*
 out_failureId
 )
 ;
