@@ -4635,7 +4635,9 @@ start
 (
 )
             
-assert
+self
+.
+raise_for_port
 (
 self
 .
@@ -4646,14 +4648,6 @@ timeout
 startup_timeout
 )
 )
-"
-Timed
-out
-waiting
-for
-port
-!
-"
         
 if
 emulator
@@ -4759,7 +4753,9 @@ self
 port
 )
             
-assert
+self
+.
+raise_for_port
 (
 self
 .
@@ -4772,14 +4768,6 @@ self
 port
 )
 )
-"
-Timed
-out
-waiting
-for
-port
-!
-"
         
 if
 connect_to_running_emulator
@@ -4839,7 +4827,9 @@ self
 port
 )
             
-assert
+self
+.
+raise_for_port
 (
 self
 .
@@ -4852,14 +4842,6 @@ self
 port
 )
 )
-"
-Timed
-out
-waiting
-for
-port
-!
-"
         
 if
 emulator
@@ -5099,6 +5081,34 @@ port
 timeout
 =
 timeout
+)
+    
+do_crash_check
+    
+def
+raise_for_port
+(
+self
+port_obtained
+)
+:
+        
+if
+not
+port_obtained
+:
+            
+raise
+IOError
+(
+"
+Timed
+out
+waiting
+for
+port
+!
+"
 )
     
 do_crash_check
@@ -8406,7 +8416,9 @@ restart
 prefs
 )
             
-assert
+self
+.
+raise_for_port
 (
 self
 .
@@ -8414,14 +8426,6 @@ wait_for_port
 (
 )
 )
-"
-Timed
-out
-waiting
-for
-port
-!
-"
             
 self
 .
@@ -8657,7 +8661,9 @@ clean
 clean
 )
         
-assert
+self
+.
+raise_for_port
 (
 self
 .
@@ -8665,14 +8671,6 @@ wait_for_port
 (
 )
 )
-"
-Timed
-out
-waiting
-for
-port
-!
-"
         
 self
 .
