@@ -576,6 +576,12 @@ vim
 \
 wget
 \
+x11
+-
+xserver
+-
+utils
+\
 xvfb
 \
 yasm
