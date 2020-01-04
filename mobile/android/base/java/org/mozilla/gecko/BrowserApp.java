@@ -20836,15 +20836,6 @@ ANIMATE
 )
 ;
 }
-else
-{
-mActionBar
-.
-animateIn
-(
-)
-;
-}
 mDynamicToolbar
 .
 setPinned

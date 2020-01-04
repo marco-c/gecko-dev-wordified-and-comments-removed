@@ -280,7 +280,7 @@ anchor
 ;
 }
 public
-Menu
+GeckoMenu
 getMenu
 (
 )
