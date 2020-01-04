@@ -279,6 +279,11 @@ worker
 js
 '
 '
+process
+.
+js
+'
+'
 profiler
 .
 js
