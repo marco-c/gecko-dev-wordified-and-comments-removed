@@ -1398,7 +1398,7 @@ REPLACE_UTF8
 template
 <
 InflateUTF8Action
-action
+Action
 >
 static
 bool
@@ -1482,7 +1482,7 @@ v
 {
 if
 (
-action
+Action
 =
 =
 Copy
@@ -1539,7 +1539,7 @@ do
 \
 if
 (
-action
+Action
 =
 =
 CountAndReportInvalids
@@ -1563,7 +1563,7 @@ else
 \
 if
 (
-action
+Action
 =
 =
 Copy
@@ -1584,7 +1584,7 @@ else
 \
 MOZ_ASSERT
 (
-action
+Action
 =
 =
 CountAndIgnoreInvalids
@@ -1820,7 +1820,7 @@ v
 {
 if
 (
-action
+Action
 =
 =
 Copy
@@ -1853,7 +1853,7 @@ v
 {
 if
 (
-action
+Action
 =
 =
 Copy
@@ -1881,7 +1881,7 @@ j
 ;
 if
 (
-action
+Action
 =
 =
 Copy
