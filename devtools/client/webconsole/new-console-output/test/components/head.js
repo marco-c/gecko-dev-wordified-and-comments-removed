@@ -290,8 +290,16 @@ consoleAPICall
 expectedText
 :
 "
+\
+"
 foobar
+\
+"
+\
+"
 test
+\
+"
 "
 }
 )
@@ -324,7 +332,6 @@ evaluationResult
 expectedText
 :
 "
-Date
 1984
 -
 03
