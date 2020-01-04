@@ -2256,6 +2256,9 @@ MOZ_ASSERT
 mMulticastDNS
 )
 ;
+nsresult
+rv
+;
 if
 (
 mIsDiscovering
@@ -2271,10 +2274,14 @@ Cancel
 (
 )
 ;
+if
+(
 NS_WARN_IF
 (
 NS_FAILED
 (
+rv
+=
 mDiscoveryTimer
 -
 >
@@ -2289,7 +2296,12 @@ TYPE_ONE_SHOT
 )
 )
 )
+)
+{
+return
+rv
 ;
+}
 return
 NS_OK
 ;
@@ -2298,9 +2310,6 @@ StopDiscovery
 (
 NS_OK
 )
-;
-nsresult
-rv
 ;
 if
 (
