@@ -1635,10 +1635,6 @@ typePool
 zStats
 .
 baselineStubsOptimized
-&
-zStats
-.
-uniqueIdMap
 )
 ;
 }

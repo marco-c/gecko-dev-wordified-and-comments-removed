@@ -2269,13 +2269,6 @@ Other
 MallocHeap
 baselineStubsOptimized
 )
-\
-macro
-(
-Other
-MallocHeap
-uniqueIdMap
-)
 ZoneStats
 (
 )
