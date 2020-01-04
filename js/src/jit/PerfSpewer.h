@@ -344,15 +344,6 @@ char
 funcName
 )
 ;
-void
-writePerfSpewerAsmJSEntriesAndExits
-(
-uintptr_t
-base
-size_t
-size
-)
-;
 #
 endif
 }
