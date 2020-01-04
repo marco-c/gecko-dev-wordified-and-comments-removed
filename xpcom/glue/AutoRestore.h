@@ -77,6 +77,16 @@ mLocation
 mValue
 ;
 }
+T
+SavedValue
+(
+)
+const
+{
+return
+mValue
+;
+}
 }
 ;
 }

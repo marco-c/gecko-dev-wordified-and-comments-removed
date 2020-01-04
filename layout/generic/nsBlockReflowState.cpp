@@ -3277,12 +3277,6 @@ mBCoord
 )
 ;
 const
-nscoord
-saveBCoord
-=
-mBCoord
-;
-const
 nsStyleDisplay
 *
 floatDisplay
@@ -4023,7 +4017,11 @@ pushedDown
 mBCoord
 !
 =
-saveBCoord
+restoreBCoord
+.
+SavedValue
+(
+)
 ;
 mBlock
 -
