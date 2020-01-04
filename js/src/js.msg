@@ -6049,10 +6049,14 @@ Debugger
 MSG_DEF
 (
 JSMSG_DEBUG_OPTIMIZED_OUT
-0
+1
 JSEXN_ERR
 "
 variable
+{
+0
+}
+'
 has
 been
 optimized
