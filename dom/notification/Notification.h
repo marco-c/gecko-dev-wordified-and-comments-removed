@@ -77,13 +77,6 @@ nsTHashtable
 h
 "
 #
-include
-"
-nsWeakReference
-.
-h
-"
-#
 define
 NOTIFICATIONTELEMETRYSERVICE_CONTRACTID
 \
@@ -259,10 +252,6 @@ Notification
 :
 public
 DOMEventTargetHelper
-public
-nsIObserver
-public
-nsSupportsWeakReference
 {
 friend
 class
@@ -324,7 +313,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 Notification
 DOMEventTargetHelper
 )
-NS_DECL_NSIOBSERVER
 static
 bool
 PrefEnabled
@@ -922,11 +910,6 @@ const
 NotificationOptions
 &
 aOptions
-)
-;
-nsresult
-Init
-(
 )
 ;
 bool
