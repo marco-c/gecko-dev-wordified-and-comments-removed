@@ -1106,9 +1106,6 @@ MediaDataPromise
 mBaseVideoPromise
 ;
 bool
-mAudioDiscontinuity
-;
-bool
 mVideoDiscontinuity
 ;
 Canonical
