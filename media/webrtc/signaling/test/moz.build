@@ -155,6 +155,9 @@ mediaconduit_unittests
 mediapipeline_unittest
 '
 '
+sdp_file_parser
+'
+'
 sdp_unittests
 '
 '
