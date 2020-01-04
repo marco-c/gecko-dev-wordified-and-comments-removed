@@ -904,12 +904,11 @@ platform
 >
 CreateDecoder
 (
+{
 aConfig
 aTaskQueue
-nullptr
-nullptr
 aBackend
-nullptr
+}
 )
 )
 ;
