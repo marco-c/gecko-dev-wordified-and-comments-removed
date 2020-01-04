@@ -1162,6 +1162,11 @@ onAttachedToWindow
 (
 )
 {
+setDescendantFocusability
+(
+FOCUS_BLOCK_DESCENDANTS
+)
+;
 if
 (
 shouldUseTextureView
