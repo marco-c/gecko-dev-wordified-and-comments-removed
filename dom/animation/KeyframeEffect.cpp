@@ -1874,7 +1874,7 @@ void
 KeyframeEffectReadOnly
 :
 :
-SetFrames
+SetKeyframes
 (
 JSContext
 *
@@ -1887,7 +1887,7 @@ Handle
 JSObject
 *
 >
-aFrames
+aKeyframes
 ErrorResult
 &
 aRv
@@ -1933,7 +1933,7 @@ KeyframeUtils
 GetKeyframesFromObject
 (
 aContext
-aFrames
+aKeyframes
 aRv
 )
 ;
@@ -2017,7 +2017,7 @@ shell
 )
 ;
 }
-SetFrames
+SetKeyframes
 (
 Move
 (
@@ -2031,7 +2031,7 @@ void
 KeyframeEffectReadOnly
 :
 :
-SetFrames
+SetKeyframes
 (
 nsTArray
 <
@@ -2039,7 +2039,7 @@ Keyframe
 >
 &
 &
-aFrames
+aKeyframes
 nsStyleContext
 *
 aStyleContext
@@ -2049,19 +2049,19 @@ if
 (
 KeyframesEqualIgnoringComputedOffsets
 (
-aFrames
-mFrames
+aKeyframes
+mKeyframes
 )
 )
 {
 return
 ;
 }
-mFrames
+mKeyframes
 =
 Move
 (
-aFrames
+aKeyframes
 )
 ;
 KeyframeUtils
@@ -2069,7 +2069,7 @@ KeyframeUtils
 :
 ApplyDistributeSpacing
 (
-mFrames
+mKeyframes
 )
 ;
 if
@@ -2284,7 +2284,7 @@ mTarget
 -
 >
 mPseudoType
-mFrames
+mKeyframes
 )
 ;
 }
@@ -3297,7 +3297,7 @@ Handle
 JSObject
 *
 >
-aFrames
+aKeyframes
 const
 OptionsType
 &
@@ -3394,14 +3394,14 @@ timingParams
 effect
 -
 >
-SetFrames
+SetKeyframes
 (
 aGlobal
 .
 Context
 (
 )
-aFrames
+aKeyframes
 aRv
 )
 ;
@@ -3868,7 +3868,7 @@ Handle
 JSObject
 *
 >
-aFrames
+aKeyframes
 const
 UnrestrictedDoubleOrKeyframeEffectOptions
 &
@@ -3886,7 +3886,7 @@ KeyframeEffectReadOnly
 (
 aGlobal
 aTarget
-aFrames
+aKeyframes
 aOptions
 aRv
 )
@@ -4418,7 +4418,7 @@ void
 KeyframeEffectReadOnly
 :
 :
-GetFrames
+GetKeyframes
 (
 JSContext
 *
@@ -4462,7 +4462,7 @@ aResult
 .
 SetCapacity
 (
-mFrames
+mKeyframes
 .
 Length
 (
@@ -4491,7 +4491,7 @@ Keyframe
 &
 keyframe
 :
-mFrames
+mKeyframes
 )
 {
 BaseComputedKeyframe
@@ -5911,7 +5911,7 @@ Handle
 JSObject
 *
 >
-aFrames
+aKeyframes
 const
 UnrestrictedDoubleOrKeyframeEffectOptions
 &
@@ -5929,7 +5929,7 @@ KeyframeEffect
 (
 aGlobal
 aTarget
-aFrames
+aKeyframes
 aOptions
 aRv
 )
@@ -5963,7 +5963,7 @@ Handle
 JSObject
 *
 >
-aFrames
+aKeyframes
 const
 UnrestrictedDoubleOrKeyframeAnimationOptions
 &
@@ -5981,7 +5981,7 @@ KeyframeEffect
 (
 aGlobal
 aTarget
-aFrames
+aKeyframes
 aOptions
 aRv
 )

@@ -1630,7 +1630,7 @@ player
 .
 effect
 .
-getFrames
+getKeyframes
 (
 )
 ;

@@ -192,7 +192,7 @@ animate
 (
 object
 ?
-frames
+keyframes
 optional
 (
 unrestricted

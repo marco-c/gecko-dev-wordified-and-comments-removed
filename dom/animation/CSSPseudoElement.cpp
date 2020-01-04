@@ -282,7 +282,7 @@ Handle
 JSObject
 *
 >
-aFrames
+aKeyframes
 const
 UnrestrictedDoubleOrKeyframeAnimationOptions
 &
@@ -318,7 +318,7 @@ Animate
 (
 target
 aContext
-aFrames
+aKeyframes
 aOptions
 aError
 )

@@ -720,7 +720,7 @@ Handle
 JSObject
 *
 >
-aFrames
+aKeyframes
 const
 UnrestrictedDoubleOrKeyframeEffectOptions
 &
@@ -776,7 +776,7 @@ result
 ;
 }
 void
-GetFrames
+GetKeyframes
 (
 JSContext
 *
@@ -984,7 +984,7 @@ mAnimation
 ;
 }
 void
-SetFrames
+SetKeyframes
 (
 JSContext
 *
@@ -997,14 +997,14 @@ Handle
 JSObject
 *
 >
-aFrames
+aKeyframes
 ErrorResult
 &
 aRv
 )
 ;
 void
-SetFrames
+SetKeyframes
 (
 nsTArray
 <
@@ -1012,7 +1012,7 @@ Keyframe
 >
 &
 &
-aFrames
+aKeyframes
 nsStyleContext
 *
 aStyleContext
@@ -1222,7 +1222,7 @@ Handle
 JSObject
 *
 >
-aFrames
+aKeyframes
 const
 OptionsType
 &
@@ -1284,7 +1284,7 @@ nsTArray
 <
 Keyframe
 >
-mFrames
+mKeyframes
 ;
 nsTArray
 <
@@ -1430,7 +1430,7 @@ Handle
 JSObject
 *
 >
-aFrames
+aKeyframes
 const
 UnrestrictedDoubleOrKeyframeEffectOptions
 &
@@ -1466,7 +1466,7 @@ Handle
 JSObject
 *
 >
-aFrames
+aKeyframes
 const
 UnrestrictedDoubleOrKeyframeAnimationOptions
 &

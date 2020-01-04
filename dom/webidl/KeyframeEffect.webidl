@@ -251,7 +251,7 @@ CSSPseudoElement
 target
 object
 ?
-frames
+keyframes
 optional
 (
 unrestricted
@@ -366,7 +366,7 @@ sequence
 <
 object
 >
-getFrames
+getKeyframes
 (
 )
 ;
@@ -459,7 +459,7 @@ CSSPseudoElement
 target
 object
 ?
-frames
+keyframes
 optional
 (
 unrestricted
@@ -534,11 +534,11 @@ spacing
 Throws
 ]
 void
-setFrames
+setKeyframes
 (
 object
 ?
-frames
+keyframes
 )
 ;
 }

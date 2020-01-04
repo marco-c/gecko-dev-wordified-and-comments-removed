@@ -357,7 +357,7 @@ both
 ;
 MOZ_ASSERT
 (
-mFrames
+mKeyframes
 .
 Length
 (
@@ -370,7 +370,7 @@ Should
 have
 two
 animation
-frames
+keyframes
 for
 a
 transition
@@ -383,7 +383,7 @@ ComputedTimingFunction
 :
 GetPortion
 (
-mFrames
+mKeyframes
 [
 0
 ]
@@ -2971,7 +2971,7 @@ reversePortion
 pt
 -
 >
-SetFrames
+SetKeyframes
 (
 GetTransitionKeyframes
 (
