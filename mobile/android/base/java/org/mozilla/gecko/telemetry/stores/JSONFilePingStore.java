@@ -308,7 +308,7 @@ VisibleForTesting
 static
 final
 String
-KEY_URL
+KEY_URL_PATH
 =
 "
 u
@@ -465,10 +465,10 @@ getPayload
 .
 put
 (
-KEY_URL
+KEY_URL_PATH
 ping
 .
-getURL
+getURLPath
 (
 )
 )
@@ -917,7 +917,7 @@ obj
 .
 getString
 (
-KEY_URL
+KEY_URL_PATH
 )
 ;
 final

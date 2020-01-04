@@ -25,7 +25,7 @@ TelemetryPing
 private
 final
 String
-url
+urlPath
 ;
 private
 final
@@ -37,7 +37,7 @@ TelemetryPing
 (
 final
 String
-url
+urlPath
 final
 ExtendedJSONObject
 payload
@@ -45,9 +45,9 @@ payload
 {
 this
 .
-url
+urlPath
 =
-url
+urlPath
 ;
 this
 .
@@ -58,12 +58,12 @@ payload
 }
 public
 String
-getURL
+getURLPath
 (
 )
 {
 return
-url
+urlPath
 ;
 }
 public
