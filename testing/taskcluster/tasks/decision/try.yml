@@ -539,11 +539,7 @@ version
 image
 :
 '
-quay
-.
-io
-/
-mozilla
+taskcluster
 /
 builder
 :
@@ -551,7 +547,7 @@ builder
 .
 5
 .
-0
+11
 '
 #
 Virtually
