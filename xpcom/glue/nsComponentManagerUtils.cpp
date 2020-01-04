@@ -768,7 +768,7 @@ status
 CallCreateInstance
 (
 mCID
-mOuter
+nullptr
 aIID
 aInstancePtr
 )
@@ -827,7 +827,7 @@ status
 CallCreateInstance
 (
 mContractID
-mOuter
+nullptr
 aIID
 aInstancePtr
 )
@@ -888,7 +888,7 @@ mFactory
 >
 CreateInstance
 (
-mOuter
+nullptr
 aIID
 aInstancePtr
 )
