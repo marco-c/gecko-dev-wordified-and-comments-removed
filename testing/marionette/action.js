@@ -92,7 +92,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-actions
+action
 "
 ]
 ;
@@ -112,12 +112,12 @@ Marionette
 ;
 this
 .
-actions
+action
 =
 {
 }
 ;
-actions
+action
 .
 Chain
 =
@@ -239,7 +239,7 @@ null
 ;
 }
 ;
-actions
+action
 .
 Chain
 .
@@ -396,7 +396,7 @@ resetValues
 }
 }
 ;
-actions
+action
 .
 Chain
 .
@@ -548,7 +548,7 @@ inputSource
 }
 }
 ;
-actions
+action
 .
 Chain
 .
@@ -598,7 +598,7 @@ false
 ;
 }
 ;
-actions
+action
 .
 Chain
 .
@@ -1460,7 +1460,7 @@ break
 }
 }
 ;
-actions
+action
 .
 Chain
 .
@@ -1549,7 +1549,7 @@ coords
 ;
 }
 ;
-actions
+action
 .
 Chain
 .
@@ -1601,7 +1601,7 @@ mozInnerScreenY
 ;
 }
 ;
-actions
+action
 .
 Chain
 .
@@ -2308,7 +2308,7 @@ checkForInterrupted
 ;
 }
 ;
-actions
+action
 .
 Chain
 .
