@@ -696,7 +696,7 @@ finishFuncDefs
 void
 setFuncNames
 (
-NameInBytecodeVector
+CacheableCharsVector
 &
 &
 funcNames
