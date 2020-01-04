@@ -127,10 +127,10 @@ MediaStreamAudioSourceNode
 public
 AudioNode
 public
-DOMMediaStream
-:
-:
 PrincipalChangeObserver
+<
+DOMMediaStream
+>
 {
 public
 :

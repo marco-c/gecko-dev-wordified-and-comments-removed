@@ -3844,6 +3844,9 @@ DOMMediaStream
 AddPrincipalChangeObserver
 (
 PrincipalChangeObserver
+<
+DOMMediaStream
+>
 *
 aObserver
 )
@@ -3867,6 +3870,9 @@ DOMMediaStream
 RemovePrincipalChangeObserver
 (
 PrincipalChangeObserver
+<
+DOMMediaStream
+>
 *
 aObserver
 )

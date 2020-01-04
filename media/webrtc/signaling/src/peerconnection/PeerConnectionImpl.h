@@ -1196,10 +1196,13 @@ DataChannelConnection
 :
 DataConnectionListener
 public
-DOMMediaStream
+dom
 :
 :
 PrincipalChangeObserver
+<
+DOMMediaStream
+>
 #
 endif
 public

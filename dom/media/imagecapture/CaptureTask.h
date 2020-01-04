@@ -37,10 +37,13 @@ CaptureTask
 public
 MediaStreamListener
 public
-DOMMediaStream
+dom
 :
 :
 PrincipalChangeObserver
+<
+DOMMediaStream
+>
 {
 public
 :
