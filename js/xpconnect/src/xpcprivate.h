@@ -11406,6 +11406,15 @@ MutableHandleValue
 )
 override
 ;
+NS_IMETHOD
+ToString
+(
+nsACString
+&
+aResult
+)
+override
+;
 private
 :
 virtual
