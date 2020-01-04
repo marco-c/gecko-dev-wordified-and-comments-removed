@@ -51,6 +51,9 @@ public
 BluetoothNotificationHandler
 {
 class
+CancelBondResultHandler
+;
+class
 CleanupResultHandler
 ;
 class
