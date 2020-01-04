@@ -966,6 +966,13 @@ VideoFrameContainer
 aContainer
 )
 {
+aContainer
+-
+>
+ClearFutureFrames
+(
+)
+;
 mVideoOutputs
 .
 RemoveElement

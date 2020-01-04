@@ -169,6 +169,11 @@ ClearCurrentFrame
 (
 )
 ;
+void
+ClearFutureFrames
+(
+)
+;
 double
 GetFrameDelay
 (
