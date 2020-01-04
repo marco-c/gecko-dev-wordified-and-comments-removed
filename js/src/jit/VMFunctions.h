@@ -3752,7 +3752,7 @@ rt
 JSObject
 *
 obj
-size_t
+int32_t
 index
 )
 ;
