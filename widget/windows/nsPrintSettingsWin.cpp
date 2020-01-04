@@ -1003,8 +1003,7 @@ if
 (
 paperHeight
 >
-=
-MM_PER_INCH_FLOAT
+0
 )
 {
 aDevMode
@@ -1048,8 +1047,7 @@ if
 (
 paperWidth
 >
-=
-MM_PER_INCH_FLOAT
+0
 )
 {
 aDevMode
