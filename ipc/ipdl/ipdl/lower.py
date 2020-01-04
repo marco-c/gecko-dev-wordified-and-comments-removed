@@ -28313,23 +28313,34 @@ name
                 
 StmtExpr
 (
-ExprAssn
+ExprCall
 (
-kidsvar
-                                  
 ExprSelect
 (
 othervar
-                                             
 '
 -
 >
 '
                                              
-manageearray
+p
+.
+managedMethod
+(
+manageeipdltype
+self
+.
+side
+)
 .
 name
 )
+                                  
+args
+=
+[
+kidsvar
+]
 )
 )
                 
