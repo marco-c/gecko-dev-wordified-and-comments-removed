@@ -258,6 +258,7 @@ TextureCreation
 InvalidCacheSurface
 AlphaWithBasicClient
 UnbalancedClipStack
+ProcessingError
 MustBeLessThanThis
 =
 101
