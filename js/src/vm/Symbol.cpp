@@ -195,11 +195,11 @@ JSString
 description
 )
 {
-RootedAtom
+JSAtom
+*
 atom
-(
-cx
-)
+=
+nullptr
 ;
 if
 (
