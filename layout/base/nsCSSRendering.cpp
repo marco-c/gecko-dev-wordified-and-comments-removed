@@ -82,6 +82,13 @@ h
 #
 include
 "
+BorderConsts
+.
+h
+"
+#
+include
+"
 nsStyleConsts
 .
 h
