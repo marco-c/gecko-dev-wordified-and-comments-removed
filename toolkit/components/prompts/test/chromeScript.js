@@ -1046,9 +1046,11 @@ doCommand
 }
 if
 (
-action
-.
+"
 textField
+"
+in
+action
 )
 {
 ui
@@ -1068,9 +1070,11 @@ textField
 }
 if
 (
-action
-.
+"
 passField
+"
+in
+action
 )
 {
 ui
