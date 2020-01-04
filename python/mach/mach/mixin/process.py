@@ -123,11 +123,15 @@ MSYSTEM
 '
 None
 )
-=
-=
+in
+(
 '
 MINGW32
 '
+'
+MINGW64
+'
+)
 :
     
 _in_msys
