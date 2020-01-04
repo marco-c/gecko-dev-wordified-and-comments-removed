@@ -4715,11 +4715,6 @@ defined
 (
 XP_WIN
 )
-BINPATH
-/
-DLL_PREFIX
-sandboxbroker
-DLL_SUFFIX
 #
 if
 defined

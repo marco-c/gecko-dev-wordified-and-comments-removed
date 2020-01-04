@@ -32,17 +32,6 @@ aLogFunction
 )
 ;
 void
-ApplyLoggingPolicy
-(
-sandbox
-:
-:
-TargetPolicy
-&
-aPolicy
-)
-;
-void
 LogBlocked
 (
 const

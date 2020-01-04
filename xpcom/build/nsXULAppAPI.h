@@ -101,6 +101,13 @@ XREChildData
 h
 "
 #
+include
+"
+XREShellData
+.
+h
+"
+#
 define
 XRE_USER_APP_DATA_DIR
 "
@@ -789,6 +796,10 @@ char
 *
 *
 envp
+const
+XREShellData
+*
+aShellData
 )
 )
 #

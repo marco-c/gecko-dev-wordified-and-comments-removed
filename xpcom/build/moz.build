@@ -132,6 +132,11 @@ xrecore
 .
 h
 '
+'
+XREShellData
+.
+h
+'
 ]
 EXPORTS
 .

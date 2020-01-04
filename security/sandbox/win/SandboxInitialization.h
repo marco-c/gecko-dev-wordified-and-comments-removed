@@ -8,6 +8,9 @@ namespace
 sandbox
 {
 class
+BrokerServices
+;
+class
 TargetServices
 ;
 }
@@ -28,6 +31,15 @@ GetInitializedTargetServices
 ;
 void
 LowerSandbox
+(
+)
+;
+sandbox
+:
+:
+BrokerServices
+*
+GetInitializedBrokerServices
 (
 )
 ;
