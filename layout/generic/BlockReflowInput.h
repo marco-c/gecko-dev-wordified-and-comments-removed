@@ -1,9 +1,9 @@
 #
 ifndef
-nsBlockReflowState_h
+BlockReflowInput_h
 #
 define
-nsBlockReflowState_h
+BlockReflowInput_h
 #
 include
 "
@@ -88,7 +88,7 @@ namespace
 mozilla
 {
 class
-nsBlockReflowState
+BlockReflowInput
 {
 using
 ReflowInput
@@ -100,7 +100,7 @@ ReflowInput
 ;
 public
 :
-nsBlockReflowState
+BlockReflowInput
 (
 const
 ReflowInput

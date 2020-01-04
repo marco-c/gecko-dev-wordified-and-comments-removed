@@ -1050,7 +1050,7 @@ aFrameRS
 nsReflowStatus
 &
 aFrameReflowStatus
-nsBlockReflowState
+BlockReflowInput
 &
 aState
 )
