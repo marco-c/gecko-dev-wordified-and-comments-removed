@@ -1570,8 +1570,9 @@ if
 (
 allocTask
 .
-isRunning
+isRunningWithLockHeld
 (
+helperLock
 )
 )
 return
