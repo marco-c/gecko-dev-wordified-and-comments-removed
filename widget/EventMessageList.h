@@ -585,7 +585,7 @@ eLegacyMutationEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_MUTATION_SUBTREEMODIFIED
+eLegacySubtreeModified
 eLegacyMutationEventFirst
 )
 NS_EVENT_MESSAGE
