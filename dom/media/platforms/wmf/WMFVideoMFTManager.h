@@ -238,6 +238,9 @@ mVideoInfo
 uint32_t
 mVideoStride
 ;
+nsIntSize
+mImageSize
+;
 RefPtr
 <
 layers
