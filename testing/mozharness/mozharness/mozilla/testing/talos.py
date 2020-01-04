@@ -20,6 +20,8 @@ import
 re
 import
 json
+import
+mozharness
 from
 mozharness
 .
