@@ -5141,7 +5141,7 @@ xlocale
 h
 #
 ifdef
-MOZ_SYSTEM_ICU
+MOZ_SHARED_ICU
 unicode
 /
 locid
