@@ -1800,6 +1800,11 @@ mNextPaintCompressed
 true
 ;
 }
+void
+ReportAnyBadState
+(
+)
+;
 protected
 :
 virtual
