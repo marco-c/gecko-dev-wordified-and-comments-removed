@@ -730,7 +730,7 @@ default_vcs
 '
 :
 '
-hgtool
+hg
 '
                 
 '
@@ -937,26 +937,6 @@ mock_target
 '
 '
 mock_target
-'
-None
-)
-                        
-(
-'
-base_bundle_urls
-'
-'
-hgtool_base_bundle_urls
-'
-None
-)
-                        
-(
-'
-base_mirror_urls
-'
-'
-hgtool_base_mirror_urls
 '
 None
 )

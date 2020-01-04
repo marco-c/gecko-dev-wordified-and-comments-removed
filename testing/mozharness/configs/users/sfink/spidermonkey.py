@@ -47,38 +47,6 @@ org
 "
     
 "
-hgtool_base_bundle_urls
-"
-:
-[
-        
-"
-https
-:
-/
-/
-ftp
--
-ssl
-.
-mozilla
-.
-org
-/
-pub
-/
-mozilla
-.
-org
-/
-firefox
-/
-bundles
-"
-    
-]
-    
-"
 python
 "
 :
@@ -134,7 +102,7 @@ repo
 REPO
         
 "
-revision
+branch
 "
 :
 "
@@ -171,7 +139,7 @@ tools
 "
         
 "
-revision
+branch
 "
 :
 "
