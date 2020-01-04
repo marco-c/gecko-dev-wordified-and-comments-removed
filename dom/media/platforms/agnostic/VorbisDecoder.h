@@ -179,7 +179,7 @@ MediaRawData
 aSample
 )
 ;
-int
+MediaResult
 DoDecode
 (
 MediaRawData

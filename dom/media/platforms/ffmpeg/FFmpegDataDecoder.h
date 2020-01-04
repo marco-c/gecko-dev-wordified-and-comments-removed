@@ -143,15 +143,6 @@ aCodec
 ;
 protected
 :
-enum
-DecodeResult
-{
-DECODE_FRAME
-DECODE_NO_FRAME
-DECODE_ERROR
-FATAL_ERROR
-}
-;
 virtual
 void
 ProcessFlush
@@ -218,7 +209,7 @@ aSample
 )
 ;
 virtual
-DecodeResult
+MediaResult
 DoDecode
 (
 MediaRawData

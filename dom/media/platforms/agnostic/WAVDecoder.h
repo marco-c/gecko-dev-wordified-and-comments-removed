@@ -109,7 +109,7 @@ decoder
 }
 private
 :
-bool
+MediaResult
 DoDecode
 (
 MediaRawData

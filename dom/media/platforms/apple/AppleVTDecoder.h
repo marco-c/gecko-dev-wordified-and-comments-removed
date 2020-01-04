@@ -398,7 +398,7 @@ CreateDecoderExtensions
 (
 )
 ;
-nsresult
+MediaResult
 DoDecode
 (
 MediaRawData
