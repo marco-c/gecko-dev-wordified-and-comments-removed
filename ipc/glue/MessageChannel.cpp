@@ -422,6 +422,12 @@ mMessageName
 =
 nullptr
 ;
+mMoved
+=
+aOther
+.
+mMoved
+;
 aOther
 .
 mMoved
