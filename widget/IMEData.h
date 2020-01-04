@@ -1783,7 +1783,7 @@ bool
 mCausedOnlyByComposition
 ;
 bool
-mOccurredDuringComposition
+mIncludingChangesDuringComposition
 ;
 uint32_t
 OldLength
@@ -2035,8 +2035,12 @@ mCausedOnlyByComposition
 =
 aCausedByComposition
 ;
-mOccurredDuringComposition
+mIncludingChangesDuringComposition
 =
+!
+aCausedByComposition
+&
+&
 aOccurredDuringComposition
 ;
 }

@@ -5165,7 +5165,7 @@ WriteParam
 aMsg
 aParam
 .
-mOccurredDuringComposition
+mIncludingChangesDuringComposition
 )
 ;
 }
@@ -5243,7 +5243,7 @@ aIter
 aResult
 -
 >
-mOccurredDuringComposition
+mIncludingChangesDuringComposition
 )
 ;
 }
