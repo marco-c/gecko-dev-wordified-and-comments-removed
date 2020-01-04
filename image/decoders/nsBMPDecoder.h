@@ -444,6 +444,9 @@ bmp
 BitFields
 mBitFields
 ;
+bool
+mMayHaveTransparency
+;
 uint32_t
 mNumColors
 ;
