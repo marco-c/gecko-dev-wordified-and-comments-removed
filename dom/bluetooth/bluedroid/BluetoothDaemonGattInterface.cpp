@@ -4261,7 +4261,7 @@ int
 aConnId
 int
 aTransId
-BluetoothGattStatus
+uint16_t
 aStatus
 const
 BluetoothGattResponse
@@ -4333,7 +4333,7 @@ mAuthReq
 )
 PackConversion
 <
-BluetoothGattStatus
+uint16_t
 int32_t
 >
 (
@@ -7784,7 +7784,7 @@ aArg2
 nsString
 &
 aArg3
-int
+BluetoothAttributeHandle
 &
 aArg4
 int
@@ -8013,7 +8013,7 @@ aArg2
 nsString
 &
 aArg3
-int
+BluetoothAttributeHandle
 &
 aArg4
 int
@@ -11256,7 +11256,7 @@ int
 aConnId
 int
 aTransId
-BluetoothGattStatus
+uint16_t
 aStatus
 const
 BluetoothGattResponse
