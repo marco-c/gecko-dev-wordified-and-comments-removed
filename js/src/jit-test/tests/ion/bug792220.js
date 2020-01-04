@@ -17,7 +17,7 @@ id
 }
 )
 ;
-Object
+RegExp
 .
 prototype
 .

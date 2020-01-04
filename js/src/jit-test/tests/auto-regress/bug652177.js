@@ -1,3 +1,16 @@
+load
+(
+libdir
++
+"
+immutable
+-
+prototype
+.
+js
+"
+)
+;
 Function
 .
 toLocaleString
@@ -32,6 +45,12 @@ function
 {
 }
 )
+if
+(
+globalPrototypeChainIsMutable
+(
+)
+)
 y
 .
 __proto__
@@ -39,6 +58,7 @@ __proto__
 Function
 .
 toLocaleString
+;
 function
 b
 (
