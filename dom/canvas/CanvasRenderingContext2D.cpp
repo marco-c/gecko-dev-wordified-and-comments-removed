@@ -4350,6 +4350,10 @@ mIPC
 (
 false
 )
+mIsSkiaGL
+(
+false
+)
 mDrawObserver
 (
 nullptr
@@ -6326,6 +6330,10 @@ nullptr
 ;
 }
 }
+mIsSkiaGL
+=
+false
+;
 IntSize
 size
 (
@@ -6546,6 +6554,10 @@ PersistentBufferProviderBasic
 (
 mTarget
 )
+;
+mIsSkiaGL
+=
+true
 ;
 }
 else
@@ -27211,6 +27223,9 @@ aManager
 if
 (
 mOpaque
+|
+|
+mIsSkiaGL
 )
 {
 EnsureTarget

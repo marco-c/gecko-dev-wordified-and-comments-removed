@@ -3441,6 +3441,9 @@ mResetLayer
 bool
 mIPC
 ;
+bool
+mIsSkiaGL
+;
 nsTArray
 <
 CanvasRenderingContext2DUserData
