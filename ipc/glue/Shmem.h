@@ -344,14 +344,6 @@ mSegment
 aRhs
 .
 mSegment
-&
-&
-mId
-=
-=
-aRhs
-.
-mId
 ;
 }
 bool
