@@ -1850,6 +1850,9 @@ dispatchedToContentProcess
 int32_t
 mLockCursor
 ;
+bool
+mLastFrameConsumedSetCursor
+;
 LayoutDeviceIntPoint
 mPreLockPoint
 ;
