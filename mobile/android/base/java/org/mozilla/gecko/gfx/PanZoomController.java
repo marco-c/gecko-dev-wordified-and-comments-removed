@@ -240,4 +240,14 @@ boolean
 isLongpressEnabled
 )
 ;
+public
+ImmutableViewportMetrics
+adjustScrollForSurfaceShift
+(
+ImmutableViewportMetrics
+aMetrics
+PointF
+aShift
+)
+;
 }
