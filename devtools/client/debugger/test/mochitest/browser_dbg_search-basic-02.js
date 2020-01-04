@@ -283,7 +283,7 @@ js
 ensureCaretAt
 (
 gPanel
-6
+1
 )
 waitForDebuggerEvents
 (

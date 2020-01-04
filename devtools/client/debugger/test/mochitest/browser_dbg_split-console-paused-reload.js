@@ -83,16 +83,6 @@ target
 )
 ;
 yield
-waitForSourceShown
-(
-panel
-"
-.
-html
-"
-)
-;
-yield
 panel
 .
 addBreakpoint

@@ -119,11 +119,4 @@ redux
 .
 js
 '
-'
-seamless
--
-immutable
-.
-js
-'
 )
