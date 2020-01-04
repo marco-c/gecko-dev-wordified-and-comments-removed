@@ -551,6 +551,8 @@ sc
 MOZ_SCRIPT_COMMON
 )
 {
+gc
+=
 GetGeneralCategory
 (
 ch
