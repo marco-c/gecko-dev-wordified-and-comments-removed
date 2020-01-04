@@ -243,13 +243,11 @@ aMallocSizeOf
 this
 )
 +
-aMallocSizeOf
-(
 mAudioData
 .
-get
+SizeOfExcludingThis
 (
-)
+aMallocSizeOf
 )
 ;
 if
