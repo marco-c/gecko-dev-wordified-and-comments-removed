@@ -8,8 +8,6 @@ import
 sys
 import
 os
-.
-path
 import
 subprocess
 from
@@ -60,6 +58,12 @@ mozboot
 windows
 import
 WindowsBootstrapper
+from
+mozboot
+.
+mozillabuild
+import
+MozillaBuildBootstrapper
 from
 mozboot
 .
@@ -1083,6 +1087,23 @@ msys
 )
 :
             
+if
+'
+MOZILLABUILD
+'
+in
+os
+.
+environ
+:
+                
+cls
+=
+MozillaBuildBootstrapper
+            
+else
+:
+                
 cls
 =
 WindowsBootstrapper
