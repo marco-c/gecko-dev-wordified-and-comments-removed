@@ -97,6 +97,11 @@ MobileViewportManager
 )
 ;
 void
+SetInitialViewport
+(
+)
+;
+void
 RefreshViewportSize
 (
 bool
