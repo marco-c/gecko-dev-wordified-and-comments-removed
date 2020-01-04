@@ -283,6 +283,17 @@ int
 capture_id
 )
 ;
+protected
+:
+VideoCaptureModule
+:
+:
+DeviceInfo
+*
+GetDeviceInfo
+(
+)
+;
 private
 :
 bool

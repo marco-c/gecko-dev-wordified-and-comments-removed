@@ -406,7 +406,7 @@ const
 void
 *
 data
-int
+size_t
 len
 )
 override
@@ -421,7 +421,7 @@ const
 void
 *
 data
-int
+size_t
 len
 )
 override

@@ -78,9 +78,12 @@ kAndroidJavaAudio
 kAndroidOpenSLESAudio
 =
 6
-kDummyAudio
+kSndioAudio
 =
 7
+kDummyAudio
+=
+8
 }
 ;
 enum

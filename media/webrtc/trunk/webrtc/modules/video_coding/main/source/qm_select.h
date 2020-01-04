@@ -541,6 +541,13 @@ VCMResolutionScale
 qm
 )
 ;
+void
+SetCPULoadState
+(
+CPULoadState
+state
+)
+;
 private
 :
 void
@@ -620,11 +627,6 @@ AdjustAction
 ;
 void
 ConvertSpatialFractionalToWhole
-(
-)
-;
-bool
-EvenFrameSize
 (
 )
 ;
@@ -743,6 +745,9 @@ kDownActionHistorySize
 ;
 int
 num_layers_
+;
+CPULoadState
+loadstate_
 ;
 }
 ;

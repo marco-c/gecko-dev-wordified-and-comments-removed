@@ -572,15 +572,6 @@ module
 {
 DCHECK
 (
-thread_checker_
-.
-CalledOnValidThread
-(
-)
-)
-;
-DCHECK
-(
 module
 )
 ;

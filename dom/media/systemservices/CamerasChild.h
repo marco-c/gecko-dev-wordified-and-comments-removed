@@ -332,7 +332,7 @@ Shmem
 &
 &
 const
-int
+size_t
 &
 const
 uint32_t

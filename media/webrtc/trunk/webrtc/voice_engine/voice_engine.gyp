@@ -277,6 +277,15 @@ system_wrappers
 '
 ]
 '
+defines
+'
+:
+[
+'
+WEBRTC_EXTERNAL_TRANSPORT
+'
+]
+'
 sources
 '
 :

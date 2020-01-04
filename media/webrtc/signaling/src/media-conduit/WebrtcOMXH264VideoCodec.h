@@ -189,7 +189,7 @@ SetChannelParameters
 (
 uint32_t
 aPacketLossRate
-int
+int64_t
 aRoundTripTimeMs
 )
 override

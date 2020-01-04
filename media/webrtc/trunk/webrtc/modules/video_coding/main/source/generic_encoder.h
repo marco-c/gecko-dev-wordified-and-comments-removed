@@ -101,6 +101,14 @@ VCMEncodedFrameCallback
 (
 )
 ;
+void
+SetCritSect
+(
+CriticalSectionWrapper
+*
+critSect
+)
+;
 int32_t
 Encoded
 (
@@ -184,6 +192,10 @@ private
 VCMPacketizationCallback
 *
 _sendCallback
+;
+CriticalSectionWrapper
+*
+_critSect
 ;
 media_optimization
 :

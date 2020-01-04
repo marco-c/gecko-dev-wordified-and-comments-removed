@@ -484,6 +484,9 @@ rtc_WavWriter
 *
 outLinearFile
 ;
+uint32_t
+debugWritten
+;
 #
 endif
 }

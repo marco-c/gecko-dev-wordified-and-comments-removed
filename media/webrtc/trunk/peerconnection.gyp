@@ -290,7 +290,7 @@ modules
 .
 gyp
 :
-video_render_module_impl
+video_render
 '
 #
 '

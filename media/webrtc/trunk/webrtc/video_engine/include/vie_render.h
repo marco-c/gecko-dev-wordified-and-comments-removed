@@ -78,6 +78,9 @@ int
 DeliverI420Frame
 (
 const
+webrtc
+:
+:
 I420VideoFrame
 &
 webrtc_frame

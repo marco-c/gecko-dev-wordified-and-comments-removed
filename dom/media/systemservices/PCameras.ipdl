@@ -139,7 +139,7 @@ int
 cap_id
 Shmem
 buffer
-int
+size_t
 size
 uint32_t
 time_stamp

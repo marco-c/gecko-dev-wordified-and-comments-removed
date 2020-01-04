@@ -1307,6 +1307,13 @@ java
 audio_root
 +
 '
+WebRtcAudioManager
+.
+java
+'
+audio_root
++
+'
 WebRtcAudioRecord
 .
 java
@@ -1315,6 +1322,13 @@ audio_root
 +
 '
 WebRtcAudioTrack
+.
+java
+'
+audio_root
++
+'
+WebRtcAudioUtils
 .
 java
 '

@@ -2947,7 +2947,7 @@ Shmem
 &
 shmem
 const
-int
+size_t
 &
 size
 const

@@ -1003,14 +1003,6 @@ jsjni_GetVM
 (
 )
 ;
-JNIEnv
-*
-jenv
-=
-jsjni_GetJNIForThread
-(
-)
-;
 if
 (
 webrtc
@@ -1022,7 +1014,6 @@ VoiceEngine
 SetAndroidObjects
 (
 jvm
-jenv
 (
 void
 *
@@ -3878,7 +3869,7 @@ const
 void
 *
 data
-int
+size_t
 len
 )
 {
@@ -4070,7 +4061,7 @@ const
 void
 *
 data
-int
+size_t
 len
 )
 {
@@ -4086,7 +4077,7 @@ channel
 d
 len
 %
-d
+lu
 first
 rtcp
 =
@@ -4095,6 +4086,10 @@ u
 "
 __FUNCTION__
 channel
+(
+unsigned
+long
+)
 len
 static_cast
 <

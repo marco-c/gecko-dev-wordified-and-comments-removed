@@ -119,6 +119,11 @@ OMXCodecReservation
 bool
 aEncoder
 )
+:
+mOwned
+(
+false
+)
 {
 mType
 =
@@ -171,6 +176,9 @@ mozilla
 :
 MediaSystemResourceType
 mType
+;
+bool
+mOwned
 ;
 RefPtr
 <

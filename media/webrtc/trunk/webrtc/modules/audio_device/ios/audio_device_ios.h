@@ -59,13 +59,13 @@ const
 uint32_t
 N_REC_SAMPLES_PER_SEC
 =
-44000
+44100
 ;
 const
 uint32_t
 N_PLAY_SAMPLES_PER_SEC
 =
-44000
+44100
 ;
 const
 uint32_t

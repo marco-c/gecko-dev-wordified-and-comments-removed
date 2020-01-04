@@ -3,6 +3,11 @@ define
 _USE_MATH_DEFINES
 #
 include
+<
+cmath
+>
+#
+include
 "
 webrtc
 /
@@ -16,11 +21,6 @@ covariance_matrix_generator
 .
 h
 "
-#
-include
-<
-cmath
->
 namespace
 {
 float

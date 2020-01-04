@@ -1457,7 +1457,7 @@ numberOfSimulcastStreams
 1
 )
 {
-uint32
+uint32_t
 max_rate
 =
 codec_
@@ -2362,6 +2362,8 @@ codec_
 .
 height
 )
++
+100
 ;
 encoded_images_
 [

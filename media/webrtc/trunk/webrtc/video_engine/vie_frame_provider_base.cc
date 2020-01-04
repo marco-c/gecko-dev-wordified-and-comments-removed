@@ -148,15 +148,6 @@ CalledOnValidThread
 )
 )
 ;
-DCHECK
-(
-frame_callbacks_
-.
-empty
-(
-)
-)
-;
 for
 (
 ViEFrameCallback

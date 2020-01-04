@@ -61,6 +61,18 @@ util
 .
 Log
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+annotation
+.
+WebRTCJNITarget
+;
+WebRTCJNITarget
 class
 WebRtcAudioTrack
 {
@@ -130,8 +142,6 @@ byteBuffer
 private
 AudioTrack
 audioTrack
-=
-null
 ;
 private
 AudioTrackThread
@@ -566,7 +576,7 @@ BITS_PER_SAMPLE
 ;
 byteBuffer
 =
-byteBuffer
+ByteBuffer
 .
 allocateDirect
 (

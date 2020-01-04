@@ -1,4 +1,10 @@
 #
+ifndef
+WEBRTC_COMMON_AUDIO_AUDIO_RING_BUFFER_H_
+#
+define
+WEBRTC_COMMON_AUDIO_AUDIO_RING_BUFFER_H_
+#
 include
 <
 stddef
@@ -98,3 +104,5 @@ buffers_
 }
 ;
 }
+#
+endif

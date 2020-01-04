@@ -1195,7 +1195,7 @@ unsigned
 char
 *
 buffer
-int
+size_t
 size
 uint32_t
 time_stamp
@@ -1235,6 +1235,10 @@ return
 }
 if
 (
+(
+size_t
+)
+(
 mWidth
 *
 mHeight
@@ -1260,6 +1264,7 @@ mHeight
 )
 /
 2
+)
 )
 )
 !

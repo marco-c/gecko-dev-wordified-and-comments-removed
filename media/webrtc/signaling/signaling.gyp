@@ -2227,6 +2227,9 @@ OS_WIN
 SIP_OS_WINDOWS
 '
 '
+WEBRTC_WIN
+'
+'
 WIN32
 '
 '
