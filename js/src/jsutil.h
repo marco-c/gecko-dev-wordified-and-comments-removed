@@ -1209,6 +1209,7 @@ inline
 bool
 IsBitArrayElementSet
 (
+const
 size_t
 *
 array
@@ -1239,6 +1240,7 @@ inline
 bool
 IsAnyBitArrayElementSet
 (
+const
 size_t
 *
 array
