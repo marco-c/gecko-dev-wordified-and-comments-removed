@@ -1104,14 +1104,6 @@ Flush
 )
 ;
 }
-static
-nsCString
-RestyleHintToString
-(
-nsRestyleHint
-aHint
-)
-;
 #
 ifdef
 DEBUG
