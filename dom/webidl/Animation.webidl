@@ -180,6 +180,10 @@ Animation
 :
 EventTarget
 {
+attribute
+DOMString
+id
+;
 /
 /
 Bug
