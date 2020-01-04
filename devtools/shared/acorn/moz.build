@@ -107,7 +107,13 @@ xpcshell
 ini
 '
 ]
-EXTRA_JS_MODULES
+FINAL_TARGET_FILES
+.
+chrome
+.
+devtools
+.
+modules
 .
 devtools
 .
