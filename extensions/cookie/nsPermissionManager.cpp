@@ -6708,7 +6708,7 @@ GetKey
 {
 mPermissionTable
 .
-RawRemoveEntry
+RemoveEntry
 (
 entry
 )
@@ -7156,7 +7156,7 @@ IsEmpty
 {
 mPermissionTable
 .
-RawRemoveEntry
+RemoveEntry
 (
 entry
 )
