@@ -170,6 +170,9 @@ transport
 '
 webconsole
 '
+'
+worker
+'
 ]
 BROWSER_CHROME_MANIFESTS
 +
@@ -300,13 +303,6 @@ js
 '
 '
 system
-.
-js
-'
-'
-worker
--
-loader
 .
 js
 '

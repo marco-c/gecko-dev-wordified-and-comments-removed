@@ -18,10 +18,8 @@ devtools
 /
 shared
 /
-shared
-/
 worker
--
+/
 helper
 .
 js

@@ -326,7 +326,7 @@ devtools
 /
 shared
 /
-shared
+worker
 /
 worker
 "
