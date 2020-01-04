@@ -13686,7 +13686,9 @@ ProjectPoint
 (
 (
 upToAncestor
-*
+.
+TransformPoint
+(
 Point
 (
 devPixels
@@ -13695,6 +13697,7 @@ x
 devPixels
 .
 y
+)
 )
 )
 )
@@ -13848,7 +13851,9 @@ downToDest
 ProjectPoint
 (
 upToAncestor
-*
+.
+TransformPoint
+(
 Point
 (
 aPoint
@@ -13861,6 +13866,7 @@ aPoint
 y
 *
 devPixelsPerAppUnitFromFrame
+)
 )
 )
 ;
