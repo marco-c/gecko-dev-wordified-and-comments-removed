@@ -352,7 +352,7 @@ runtime_
 )
 globalWriteBarriered
 (
-false
+0
 )
 detachedTypedObjects
 (
@@ -3512,7 +3512,7 @@ sweepAfterMinorGC
 {
 globalWriteBarriered
 =
-false
+0
 ;
 if
 (
