@@ -1539,7 +1539,11 @@ introducerFilename
 (
 )
 ;
-RootedObject
+Rooted
+<
+StaticScope
+*
+>
 enclosing
 (
 cx
@@ -2048,7 +2052,11 @@ introducerFilename
 (
 )
 ;
-RootedObject
+Rooted
+<
+StaticScope
+*
+>
 enclosing
 (
 cx
