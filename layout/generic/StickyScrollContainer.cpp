@@ -1458,7 +1458,7 @@ const
 nsPoint
 normalPosition
 =
-aFrame
+firstCont
 -
 >
 GetNormalPosition
