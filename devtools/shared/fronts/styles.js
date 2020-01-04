@@ -32,8 +32,6 @@ devtools
 shared
 /
 protocol
-.
-js
 "
 )
 ;
@@ -53,8 +51,6 @@ shared
 specs
 /
 styles
-.
-js
 "
 )
 ;

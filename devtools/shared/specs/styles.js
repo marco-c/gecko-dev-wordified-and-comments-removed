@@ -20,8 +20,6 @@ devtools
 shared
 /
 protocol
-.
-js
 "
 )
 ;
