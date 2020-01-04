@@ -9205,6 +9205,14 @@ startsWith
 (
 completing
 )
+&
+&
+id
+!
+=
+=
+"
+"
 )
 {
 result
