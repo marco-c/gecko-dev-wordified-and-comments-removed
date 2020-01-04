@@ -54,6 +54,12 @@ EXTRA_PATHS
 '
 python
 /
+futures
+'
+    
+'
+python
+/
 jsmin
 '
     
