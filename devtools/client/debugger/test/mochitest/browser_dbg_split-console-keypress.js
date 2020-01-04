@@ -18,6 +18,11 @@ test
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 let
 gDebugger
 gToolbox
