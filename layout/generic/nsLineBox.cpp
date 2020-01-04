@@ -1733,11 +1733,6 @@ aPrefix
 )
 ;
 }
-#
-endif
-#
-ifdef
-DEBUG
 nsIFrame
 *
 nsLineBox
