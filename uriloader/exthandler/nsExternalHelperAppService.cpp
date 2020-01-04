@@ -1930,6 +1930,7 @@ mFileExtension
 }
 ;
 static
+const
 nsDefaultMimeTypeEntry
 defaultMimeEntries
 [
@@ -2161,6 +2162,7 @@ x
 #
 endif
 static
+const
 nsExtraMimeTypeEntry
 extraMimeEntries
 [
@@ -2830,6 +2832,7 @@ Audio
 undef
 MAC_TYPE
 static
+const
 nsDefaultMimeTypeEntry
 nonDecodableExtensions
 [
