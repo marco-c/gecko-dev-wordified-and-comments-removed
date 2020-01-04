@@ -361,6 +361,8 @@ mMethod
 =
 eXMLOutput
 ;
+MOZ_FALLTHROUGH
+;
 }
 case
 eXMLOutput

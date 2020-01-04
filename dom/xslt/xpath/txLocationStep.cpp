@@ -119,6 +119,8 @@ moveToParent
 break
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 ANCESTOR_OR_SELF_AXIS
@@ -269,6 +271,8 @@ getCurrentPosition
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 DESCENDANT_AXIS
