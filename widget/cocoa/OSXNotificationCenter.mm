@@ -2361,6 +2361,7 @@ principal
 nullptr
 this
 nullptr
+nullptr
 inPrivateBrowsing
 ?
 nsIRequest

@@ -993,9 +993,12 @@ aLoadGroup
 imgINotificationObserver
 *
 aObserver
-nsISupports
+nsINode
 *
-aCX
+aContext
+nsIDocument
+*
+aLoadingDocument
 nsLoadFlags
 aLoadFlags
 nsISupports

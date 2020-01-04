@@ -1244,6 +1244,7 @@ LoadImage
 (
 aURI
 mDocument
+mDocument
 aOriginPrincipal
 aReferrer
 mDocument

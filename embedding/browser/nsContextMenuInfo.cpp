@@ -1434,6 +1434,7 @@ principal
 nullptr
 nullptr
 nullptr
+nullptr
 nsIRequest
 :
 :

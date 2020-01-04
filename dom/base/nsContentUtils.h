@@ -1658,6 +1658,9 @@ LoadImage
 nsIURI
 *
 aURI
+nsINode
+*
+aContext
 nsIDocument
 *
 aLoadingDocument

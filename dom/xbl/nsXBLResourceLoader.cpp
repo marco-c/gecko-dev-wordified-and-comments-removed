@@ -551,6 +551,7 @@ LoadImage
 (
 url
 doc
+doc
 docPrincipal
 docURL
 doc

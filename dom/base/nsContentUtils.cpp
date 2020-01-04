@@ -14130,6 +14130,9 @@ LoadImage
 nsIURI
 *
 aURI
+nsINode
+*
+aContext
 nsIDocument
 *
 aLoadingDocument
@@ -14169,6 +14172,17 @@ Must
 have
 a
 URI
+"
+)
+;
+NS_PRECONDITION
+(
+aContext
+"
+Must
+have
+a
+context
 "
 )
 ;
@@ -14288,6 +14302,7 @@ aReferrerPolicy
 aLoadingPrincipal
 loadGroup
 aObserver
+aContext
 aLoadingDocument
 aLoadFlags
 nullptr
