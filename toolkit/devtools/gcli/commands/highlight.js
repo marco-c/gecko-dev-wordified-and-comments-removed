@@ -43,7 +43,7 @@ server
 /
 actors
 /
-highlighter
+highlighters
 "
 )
 ;
