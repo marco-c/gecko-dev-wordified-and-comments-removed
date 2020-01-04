@@ -439,9 +439,8 @@ null
 )
 {
 return
+new
 ExtendedJSONObject
-.
-parseJSONObject
 (
 body
 )
@@ -507,9 +506,8 @@ UTF
 )
 ;
 return
+new
 ExtendedJSONObject
-.
-parseJSONObject
 (
 in
 )

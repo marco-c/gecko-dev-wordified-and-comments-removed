@@ -721,9 +721,8 @@ infoCollections
 new
 InfoCollections
 (
+new
 ExtendedJSONObject
-.
-parseJSONObject
 (
 TEST_INFO_COLLECTIONS_JSON
 )
@@ -1966,9 +1965,8 @@ try
 ExtendedJSONObject
 body
 =
+new
 ExtendedJSONObject
-.
-parseJSONObject
 (
 request
 .

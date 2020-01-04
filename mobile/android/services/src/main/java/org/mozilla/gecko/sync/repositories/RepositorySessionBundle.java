@@ -110,9 +110,8 @@ NonObjectJSONException
 {
 object
 =
+new
 ExtendedJSONObject
-.
-parseJSONObject
 (
 jsonString
 )

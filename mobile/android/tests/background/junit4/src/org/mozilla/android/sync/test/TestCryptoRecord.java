@@ -309,9 +309,8 @@ CryptoException
 ExtendedJSONObject
 clearPayload
 =
+new
 ExtendedJSONObject
-.
-parseJSONObject
 (
 "
 {
@@ -325,6 +324,9 @@ id
 "
 5qRsgXWRJZXr
 \
+"
+"
++
 "
 \
 "
@@ -348,6 +350,9 @@ jason
 Library
 /
 Application
+"
++
+"
 Support
 /
 Firefox
@@ -363,6 +368,9 @@ weave
 logs
 /
 \
+"
+"
++
 "
 \
 "
@@ -390,6 +398,9 @@ Application
 Firefox
 /
 Profiles
+"
++
+"
 /
 ksgd7wpk
 .
@@ -416,6 +427,9 @@ type
 "
 :
 1
+"
++
+"
 \
 "
 date
@@ -2518,9 +2532,8 @@ collections
 JSONArray
 keys
 =
+new
 ExtendedJSONObject
-.
-parseJSONObject
 (
 decrypted
 .

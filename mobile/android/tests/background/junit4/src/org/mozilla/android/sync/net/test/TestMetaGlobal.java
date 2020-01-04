@@ -2804,9 +2804,8 @@ try
 ExtendedJSONObject
 body
 =
+new
 ExtendedJSONObject
-.
-parseJSONObject
 (
 request
 .

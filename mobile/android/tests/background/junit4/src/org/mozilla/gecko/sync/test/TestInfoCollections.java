@@ -369,9 +369,8 @@ bookmarks
 ExtendedJSONObject
 record
 =
+new
 ExtendedJSONObject
-.
-parseJSONObject
 (
 TEST_COUNTS_JSON
 )
@@ -437,9 +436,8 @@ Exception
 ExtendedJSONObject
 record
 =
+new
 ExtendedJSONObject
-.
-parseJSONObject
 (
 TEST_COLLECTIONS_JSON
 )
@@ -558,9 +556,8 @@ Exception
 ExtendedJSONObject
 record
 =
+new
 ExtendedJSONObject
-.
-parseJSONObject
 (
 TEST_COLLECTIONS_JSON
 )

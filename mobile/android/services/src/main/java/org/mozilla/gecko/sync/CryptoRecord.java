@@ -442,9 +442,8 @@ NonObjectJSONException
 {
 this
 (
+new
 ExtendedJSONObject
-.
-parseJSONObject
 (
 jsonString
 )
@@ -673,9 +672,8 @@ KEY_PAYLOAD
 ExtendedJSONObject
 payload
 =
+new
 ExtendedJSONObject
-.
-parseJSONObject
 (
 jsonEncodedPayload
 )

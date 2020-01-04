@@ -822,9 +822,8 @@ try
 {
 json
 =
+new
 ExtendedJSONObject
-.
-parseJSONObject
 (
 jsonString
 )

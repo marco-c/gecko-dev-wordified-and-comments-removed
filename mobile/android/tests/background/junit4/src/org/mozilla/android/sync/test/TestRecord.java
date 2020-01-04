@@ -1577,9 +1577,8 @@ TabsRecord
 .
 tabFromJSONObject
 (
+new
 ExtendedJSONObject
-.
-parseJSONObject
 (
 json
 )
@@ -1752,9 +1751,8 @@ TabsRecord
 .
 tabFromJSONObject
 (
+new
 ExtendedJSONObject
-.
-parseJSONObject
 (
 zeroJSON
 )
