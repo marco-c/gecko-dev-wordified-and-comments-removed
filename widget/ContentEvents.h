@@ -94,9 +94,7 @@ OrientType
 {
 eVertical
 eHorizontal
-both
-=
-2
+eBoth
 }
 ;
 InternalScrollPortEvent

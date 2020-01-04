@@ -18689,7 +18689,7 @@ orient
 InternalScrollPortEvent
 :
 :
-both
+eBoth
 ;
 mHorizontalOverflow
 =
