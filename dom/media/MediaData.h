@@ -2054,11 +2054,6 @@ MediaByteBuffer
 >
 mExtraData
 ;
-bool
-mEOS
-=
-false
-;
 RefPtr
 <
 SharedTrackInfo

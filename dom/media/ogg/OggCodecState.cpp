@@ -1280,16 +1280,6 @@ IsKeyframe
 packet
 )
 ;
-sample
--
->
-mEOS
-=
-packet
--
->
-e_o_s
-;
 ReleasePacket
 (
 packet

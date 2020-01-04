@@ -2503,13 +2503,6 @@ mTrackInfo
 =
 mTrackInfo
 ;
-s
--
->
-mEOS
-=
-mEOS
-;
 if
 (
 !
