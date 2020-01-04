@@ -146,6 +146,14 @@ LOCAL_INCLUDES
 /
 gfx
 /
+layers
+/
+d3d11
+'
+'
+/
+gfx
+/
 thebes
 '
 ]
@@ -155,6 +163,11 @@ UNIFIED_SOURCES
 [
 '
 gfxVR
+.
+cpp
+'
+'
+gfxVROpenVR
 .
 cpp
 '
