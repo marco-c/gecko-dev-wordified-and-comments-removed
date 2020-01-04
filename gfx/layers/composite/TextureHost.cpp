@@ -1397,6 +1397,12 @@ TextureFlags
 aFlags
 )
 :
+AtomicRefCountedWithFinalize
+(
+"
+TextureHost
+"
+)
 mActor
 (
 nullptr
@@ -1414,11 +1420,6 @@ mFwdTransactionId
 0
 )
 {
-MOZ_COUNT_CTOR
-(
-TextureHost
-)
-;
 }
 TextureHost
 :
@@ -1430,11 +1431,6 @@ TextureHost
 {
 ReadUnlock
 (
-)
-;
-MOZ_COUNT_DTOR
-(
-TextureHost
 )
 ;
 }

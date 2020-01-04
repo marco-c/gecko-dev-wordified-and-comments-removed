@@ -2281,6 +2281,12 @@ ImageBridgeChild
 (
 )
 :
+CompositableForwarder
+(
+"
+ImageBridgeChild
+"
+)
 mShuttingDown
 (
 false

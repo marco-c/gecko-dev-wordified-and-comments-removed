@@ -4519,6 +4519,12 @@ ClientIPCAllocator
 aAllocator
 )
 :
+AtomicRefCountedWithFinalize
+(
+"
+TextureClient
+"
+)
 mAllocator
 (
 aAllocator

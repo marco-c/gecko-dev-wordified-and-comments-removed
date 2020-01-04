@@ -741,6 +741,12 @@ uint64_t
 aId
 )
 :
+CompositableParentManager
+(
+"
+LayerTransactionParent
+"
+)
 mLayerManager
 (
 aManager
@@ -770,11 +776,6 @@ mIPCOpen
 false
 )
 {
-MOZ_COUNT_CTOR
-(
-LayerTransactionParent
-)
-;
 }
 LayerTransactionParent
 :
@@ -784,11 +785,6 @@ LayerTransactionParent
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-LayerTransactionParent
-)
-;
 }
 bool
 LayerTransactionParent

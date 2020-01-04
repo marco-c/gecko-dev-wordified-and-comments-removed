@@ -154,8 +154,16 @@ public
 :
 CompositableForwarder
 (
+const
+char
+*
+aName
 )
 :
+ClientIPCAllocator
+(
+aName
+)
 mSerial
 (
 +
