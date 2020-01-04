@@ -5952,7 +5952,7 @@ panel
 Localization
 note
 (
-home_move_up_to_filter
+home_back_up_to_filter
 )
 :
 The
@@ -5980,9 +5980,9 @@ folder
 <
 !
 ENTITY
-home_move_up_to_filter
+home_move_back_to_filter
 "
-Up
+Back
 to
 &
 formatS
