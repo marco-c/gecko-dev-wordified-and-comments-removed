@@ -484,6 +484,10 @@ ParamTraits
 nsHttpHeaderArray
 >
 ;
+friend
+class
+nsHttpRequestHead
+;
 }
 ;
 inline
