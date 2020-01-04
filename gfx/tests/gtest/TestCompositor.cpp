@@ -861,6 +861,9 @@ MOZ_CRASH
 #
 endif
 }
+nsCString
+failureReason
+;
 if
 (
 !
@@ -873,6 +876,8 @@ compositor
 >
 Initialize
 (
+&
+failureReason
 )
 )
 {

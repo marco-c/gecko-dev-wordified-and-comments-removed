@@ -307,6 +307,10 @@ virtual
 bool
 Initialize
 (
+nsCString
+*
+const
+out_failureReason
 )
 =
 0
