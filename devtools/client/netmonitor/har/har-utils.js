@@ -18,16 +18,6 @@ chrome
 "
 )
 ;
-const
-Services
-=
-require
-(
-"
-Services
-"
-)
-;
 XPCOMUtils
 .
 defineLazyGetter
@@ -183,6 +173,7 @@ parseInt
 "
 0x01
 "
+16
 )
 WRONLY
 :
@@ -191,6 +182,7 @@ parseInt
 "
 0x02
 "
+16
 )
 CREATE_FILE
 :
@@ -199,6 +191,7 @@ parseInt
 "
 0x08
 "
+16
 )
 APPEND
 :
@@ -207,6 +200,7 @@ parseInt
 "
 0x10
 "
+16
 )
 TRUNCATE
 :
@@ -215,6 +209,7 @@ parseInt
 "
 0x20
 "
+16
 )
 EXCL
 :
@@ -223,6 +218,7 @@ parseInt
 "
 0x80
 "
+16
 )
 }
 ;
@@ -403,7 +399,7 @@ harp
 har
 "
 ;
-var
+let
 now
 =
 new
@@ -411,7 +407,7 @@ Date
 (
 )
 ;
-var
+let
 name
 =
 now
@@ -970,6 +966,7 @@ dir
 ;
 }
 }
+;
 exports
 .
 HarUtils

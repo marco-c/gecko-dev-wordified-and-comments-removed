@@ -6,8 +6,6 @@ strict
 const
 {
 Cu
-Ci
-Cc
 }
 =
 require
@@ -87,6 +85,7 @@ args
 {
 }
 }
+;
 function
 HarCollector
 (
@@ -513,6 +512,7 @@ waitForResponses
 ;
 }
 )
+;
 }
 )
 ;
@@ -1285,6 +1285,11 @@ method
 )
 ;
 return
+deferred
+.
+resolve
+(
+)
 ;
 }
 let
@@ -1527,6 +1532,7 @@ value
 ;
 }
 )
+;
 }
 }
 onResponseHeaders
@@ -1667,6 +1673,7 @@ value
 ;
 }
 )
+;
 }
 }
 onEventTimings

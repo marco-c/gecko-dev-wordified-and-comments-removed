@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 add_task
 (
 function
@@ -7,9 +12,8 @@ function
 {
 let
 [
-aTab
-aDebuggee
-aMonitor
+debuggee
+monitor
 ]
 =
 yield
@@ -34,7 +38,7 @@ let
 NetMonitorView
 }
 =
-aMonitor
+monitor
 .
 panelWin
 ;
@@ -51,7 +55,7 @@ lazyUpdate
 =
 false
 ;
-aDebuggee
+debuggee
 .
 location
 .
@@ -62,7 +66,7 @@ reload
 yield
 waitForNetworkEvents
 (
-aMonitor
+monitor
 1
 )
 ;
@@ -362,7 +366,7 @@ timings
 ;
 teardown
 (
-aMonitor
+monitor
 )
 .
 then
