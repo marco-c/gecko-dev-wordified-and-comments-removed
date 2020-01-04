@@ -363,8 +363,6 @@ is
 targeting
 Android
 API
-11
-/
 14
 +
 and
@@ -418,20 +416,6 @@ due
 to
 significant
 usage
-.
-    
-We
-temporarily
-treat
-both
-11
-and
-14
-the
-same
-:
-Bug
-1219512
 .
     
 We
@@ -864,11 +848,6 @@ min_sdk
 =
 =
 14
-or
-min_sdk
-=
-=
-11
 :
             
 version

@@ -134,10 +134,6 @@ arm_api9
 =
 0b01111000001000000001001001110000
         
-arm_api11
-=
-0b01111000001000000001001001110001
-        
 arm_api14
 =
 0b01111000001000000001001001110001
@@ -166,30 +162,6 @@ max_sdk
 None
 )
 arm_api9
-)
-        
-self
-.
-assertEqual
-(
-android_version_code_v1
-(
-buildid
-cpu_arch
-=
-'
-armeabi
--
-v7a
-'
-min_sdk
-=
-11
-max_sdk
-=
-None
-)
-arm_api11
 )
         
 self
