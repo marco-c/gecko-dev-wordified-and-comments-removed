@@ -333,13 +333,6 @@ extensions
 ini
 "
 ;
-#
-expand
-const
-DB_SCHEMA
-=
-__MOZ_EXTENSIONS_DB_SCHEMA__
-;
 const
 LAST_SQLITE_DB_SCHEMA
 =
