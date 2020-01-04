@@ -4343,6 +4343,16 @@ browser
 <
 !
 ENTITY
+pref_default_browser_mozilla_support_tablet
+"
+Visit
+Mozilla
+Support
+"
+>
+<
+!
+ENTITY
 pref_about_firefox
 "
 About
