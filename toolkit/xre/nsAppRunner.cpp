@@ -14851,6 +14851,10 @@ endif
 #
 ifdef
 XP_MACOSX
+SetupMacApplicationDelegate
+(
+)
+;
 if
 (
 EnvHasValue
@@ -18989,10 +18993,6 @@ endif
 #
 ifdef
 XP_MACOSX
-SetupMacApplicationDelegate
-(
-)
-;
 cmdLine
 =
 do_CreateInstance
