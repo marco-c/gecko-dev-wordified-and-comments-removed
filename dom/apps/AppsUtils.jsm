@@ -927,6 +927,14 @@ aApp
 .
 sideloaded
 ;
+aObj
+.
+extensionVersion
+=
+aApp
+.
+extensionVersion
+;
 #
 ifdef
 MOZ_B2GDROID
