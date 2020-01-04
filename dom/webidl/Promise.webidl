@@ -346,7 +346,6 @@ passed
 .
 [
 NewObject
-MethodIdentityTestable
 ]
 Promise
 <
