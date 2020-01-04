@@ -107,6 +107,11 @@ background
 js
 '
 '
+content_script
+.
+js
+'
+'
 content_script_end
 .
 js
