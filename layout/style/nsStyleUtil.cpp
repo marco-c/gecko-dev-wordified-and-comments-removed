@@ -3595,7 +3595,7 @@ TextIsOnlyWhitespace
 ;
 }
 typedef
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Position
@@ -3702,7 +3702,7 @@ true
 ;
 }
 const
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Position

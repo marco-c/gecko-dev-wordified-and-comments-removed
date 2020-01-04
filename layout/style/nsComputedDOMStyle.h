@@ -112,6 +112,13 @@ nsIContent
 .
 h
 "
+#
+include
+"
+nsStyleStruct
+.
+h
+"
 namespace
 mozilla
 {
@@ -143,9 +150,6 @@ nsMargin
 ;
 class
 nsROCSSPrimitiveValue
-;
-struct
-nsStyleBackground
 ;
 class
 nsStyleCoord
@@ -931,7 +935,7 @@ CSSValue
 GetBackgroundList
 (
 uint8_t
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Layer
@@ -940,11 +944,15 @@ Layer
 *
 aMember
 uint32_t
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 *
 aCount
+const
+nsStyleImageLayers
+&
+aLayers
 const
 KTableEntry
 aTable
@@ -3145,7 +3153,7 @@ void
 SetValueToPositionCoord
 (
 const
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Position
@@ -3163,7 +3171,7 @@ void
 SetValueToPosition
 (
 const
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Position

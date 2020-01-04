@@ -493,7 +493,7 @@ void
 ComputeObjectAnchorPoint
 (
 const
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Position
@@ -1333,7 +1333,7 @@ nsRect
 &
 aBorderArea
 const
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Layer
@@ -1366,7 +1366,7 @@ nsRect
 &
 aBGClipRect
 const
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Layer
@@ -1414,7 +1414,7 @@ void
 GetBackgroundClip
 (
 const
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Layer
@@ -1553,7 +1553,7 @@ nsRect
 &
 aClipRect
 const
-nsStyleBackground
+nsStyleImageLayers
 :
 :
 Layer

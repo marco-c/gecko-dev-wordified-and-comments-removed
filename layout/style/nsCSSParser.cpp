@@ -2896,6 +2896,14 @@ nsCSSValuePairList
 *
 mSize
 ;
+nsCSSValueList
+*
+mComposite
+;
+nsCSSValueList
+*
+mMode
+;
 BackgroundParseState
 (
 nsCSSValue
@@ -2922,6 +2930,12 @@ aPosition
 nsCSSValuePairList
 *
 aSize
+nsCSSValueList
+*
+aComposite
+nsCSSValueList
+*
+aMode
 )
 :
 mColor
@@ -2956,6 +2970,14 @@ mSize
 (
 aSize
 )
+mComposite
+(
+aComposite
+)
+mMode
+(
+aMode
+)
 {
 }
 ;
@@ -2989,6 +3011,8 @@ aPropID
 bool
 ParseBackgroundRepeat
 (
+nsCSSProperty
+aPropID
 )
 ;
 bool
@@ -3002,6 +3026,8 @@ aValue
 bool
 ParseBackgroundPosition
 (
+nsCSSProperty
+aPropID
 )
 ;
 bool
@@ -3029,6 +3055,8 @@ aOut
 bool
 ParseBackgroundSize
 (
+nsCSSProperty
+aPropID
 )
 ;
 bool
@@ -47287,6 +47315,7 @@ eCSSProperty_background_repeat
 return
 ParseBackgroundRepeat
 (
+eCSSProperty_background_repeat
 )
 ;
 case
@@ -47295,6 +47324,7 @@ eCSSProperty_background_position
 return
 ParseBackgroundPosition
 (
+eCSSProperty_background_position
 )
 ;
 case
@@ -47303,6 +47333,7 @@ eCSSProperty_background_size
 return
 ParseBackgroundSize
 (
+eCSSProperty_background_size
 )
 ;
 case
@@ -49224,6 +49255,8 @@ clip
 origin
 position
 size
+composite
+mode
 ;
 BackgroundParseState
 state
@@ -49262,6 +49295,16 @@ SetListValue
 size
 .
 SetPairListValue
+(
+)
+composite
+.
+SetListValue
+(
+)
+mode
+.
+SetListValue
 (
 )
 )
@@ -50975,6 +51018,8 @@ CSSParserImpl
 :
 ParseBackgroundRepeat
 (
+nsCSSProperty
+aPropID
 )
 {
 nsCSSValue
@@ -51087,7 +51132,7 @@ mNext
 }
 AppendValue
 (
-eCSSProperty_background_repeat
+aPropID
 value
 )
 ;
@@ -51189,6 +51234,8 @@ CSSParserImpl
 :
 ParseBackgroundPosition
 (
+nsCSSProperty
+aPropID
 )
 {
 nsCSSValue
@@ -51290,7 +51337,7 @@ mNext
 }
 AppendValue
 (
-eCSSProperty_background_position
+aPropID
 value
 )
 ;
@@ -52722,6 +52769,8 @@ CSSParserImpl
 :
 ParseBackgroundSize
 (
+nsCSSProperty
+aPropID
 )
 {
 nsCSSValue
@@ -52834,7 +52883,7 @@ mNext
 }
 AppendValue
 (
-eCSSProperty_background_size
+aPropID
 value
 )
 ;

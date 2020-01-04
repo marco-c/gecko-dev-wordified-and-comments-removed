@@ -849,6 +849,8 @@ mBackgroundStyle
 -
 >
 mLayers
+.
+mLayers
 [
 mLayer
 ]
@@ -863,6 +865,8 @@ NS_STYLE_BG_ATTACHMENT_FIXED
 mBackgroundStyle
 -
 >
+mLayers
+.
 mLayers
 [
 mLayer
