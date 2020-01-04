@@ -251,7 +251,7 @@ this
 __strBundle
 )
 {
-var
+let
 bunService
 =
 Cc
@@ -1233,7 +1233,7 @@ if
 ok
 )
 {
-var
+let
 selectedLogin
 =
 logins
