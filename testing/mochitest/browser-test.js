@@ -553,16 +553,6 @@ testRoot
 "
 browser
 "
-|
-|
-gConfig
-.
-testRoot
-=
-=
-"
-webapprtChrome
-"
 )
 {
 var

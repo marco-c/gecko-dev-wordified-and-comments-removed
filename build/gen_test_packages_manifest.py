@@ -21,10 +21,6 @@ reftest
 '
     
 '
-webapprt
-'
-    
-'
 xpcshell
 '
     

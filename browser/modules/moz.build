@@ -300,11 +300,6 @@ UserContextUI
 jsm
 '
 '
-WebappManager
-.
-jsm
-'
-'
 webrtcUI
 .
 jsm

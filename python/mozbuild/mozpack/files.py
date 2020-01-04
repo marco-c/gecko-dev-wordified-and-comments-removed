@@ -3400,8 +3400,8 @@ manifest
 entry
 "
 content
-webapprt
-webapprt
+foobar
+foobar
 /
 content
 /
@@ -3410,7 +3410,7 @@ relative
         
 to
 "
-webapprt
+foobar
 /
 chrome
 "
@@ -3426,7 +3426,7 @@ in
         
 jar
 :
-webapprt
+foobar
 /
 omni
 .
@@ -3455,7 +3455,7 @@ chrome
 instead
 of
 "
-webapprt
+foobar
 /
 chrome
 "
@@ -3499,7 +3499,7 @@ g
 to
 jar
 :
-webapprt
+foobar
 /
 omni
 .

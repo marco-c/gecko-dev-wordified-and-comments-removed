@@ -1303,14 +1303,6 @@ updater
 '
 firefox
 /
-webapprt
--
-stub
-'
-        
-'
-firefox
-/
 *
 *
 /
@@ -1800,12 +1792,6 @@ clearkey
 libclearkey
 .
 dylib
-'
-                
-'
-webapprt
--
-stub
 '
             
 ]

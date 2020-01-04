@@ -46,9 +46,6 @@ shared
 "
 browser
 "
-"
-webapprt
-"
                  
 "
 extensions

@@ -3566,11 +3566,6 @@ case
 a11y
 "
 :
-case
-"
-webapprtContent
-"
-:
 break
 ;
 default

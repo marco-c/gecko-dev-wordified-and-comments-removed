@@ -766,12 +766,6 @@ Skipped
 }
     
 "
-webapprt_summary
-"
-:
-_mochitest_summary
-    
-"
 harness_error
 "
 :
