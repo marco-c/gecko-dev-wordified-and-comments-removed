@@ -1992,6 +1992,16 @@ mLayer
 (
 nullptr
 )
+mSolidColor
+(
+NS_RGBA
+(
+0
+0
+0
+0
+)
+)
 mIsSolidColorInVisibleRegion
 (
 false
