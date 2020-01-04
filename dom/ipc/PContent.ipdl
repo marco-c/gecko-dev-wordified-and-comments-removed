@@ -370,10 +370,6 @@ protocol
 PVRManager
 ;
 include
-protocol
-PTV
-;
-include
 DOMTypes
 ;
 include
@@ -1536,9 +1532,6 @@ PWebrtcGlobal
 ;
 manages
 PPresentation
-;
-manages
-PTV
 ;
 both
 :
@@ -3940,11 +3933,6 @@ PWebrtcGlobal
 ;
 async
 PPresentation
-(
-)
-;
-async
-PTV
 (
 )
 ;
