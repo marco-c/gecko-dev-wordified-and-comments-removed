@@ -592,11 +592,6 @@ VisualElementsManifest
 xml
 BINPATH
 /
-VisualElementsManifest
-.
-xml
-BINPATH
-/
 browser
 /
 VisualElements
