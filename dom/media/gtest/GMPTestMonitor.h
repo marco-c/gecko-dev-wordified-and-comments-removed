@@ -63,6 +63,13 @@ MarkFinished
 (
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 mFinished
 =
 true

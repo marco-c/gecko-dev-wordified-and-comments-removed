@@ -218,6 +218,18 @@ EnsureInitialized
 (
 )
 ;
+RefPtr
+<
+GenericPromise
+>
+AsyncAddPluginDirectory
+(
+const
+nsAString
+&
+aDirectory
+)
+;
 private
 :
 friend
@@ -460,9 +472,7 @@ GenericPromise
 >
 AddOnGMPThread
 (
-const
-nsAString
-&
+nsString
 aDirectory
 )
 ;
@@ -527,7 +537,6 @@ public
 enum
 EOperation
 {
-ADD
 REMOVE
 REMOVE_AND_DELETE_FROM_DISK
 }
