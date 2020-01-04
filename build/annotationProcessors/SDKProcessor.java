@@ -800,7 +800,7 @@ n
 }
 /
 *
-widget
+java
 *
 /
 \
@@ -838,7 +838,7 @@ n
 }
 /
 *
-widget
+java
 *
 /
 \
