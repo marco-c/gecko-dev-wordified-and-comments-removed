@@ -97,6 +97,7 @@ bound
 .
 name
 "
+bound
 hello
 world
 "
@@ -165,6 +166,7 @@ bound
 .
 name
 "
+bound
 "
 )
 ;

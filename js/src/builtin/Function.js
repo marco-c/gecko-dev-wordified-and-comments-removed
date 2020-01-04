@@ -193,6 +193,14 @@ targetName
 "
 "
 ;
+targetName
+=
+"
+bound
+"
++
+targetName
+;
 _FinishBoundFunctionInit
 (
 F
