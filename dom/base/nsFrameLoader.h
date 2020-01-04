@@ -715,7 +715,7 @@ IsRemoteFrame
 )
 ;
 bool
-OwnerIsBrowserOrAppFrame
+OwnerIsMozBrowserOrAppFrame
 (
 )
 ;
@@ -730,7 +730,12 @@ OwnerIsAppFrame
 )
 ;
 bool
-OwnerIsBrowserFrame
+OwnerIsMozBrowserFrame
+(
+)
+;
+bool
+OwnerIsIsolatedMozBrowserFrame
 (
 )
 ;
