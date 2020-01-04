@@ -10892,6 +10892,10 @@ mHangMonitorActor
 =
 nullptr
 ;
+mHasGamepadListener
+=
+false
+;
 }
 bool
 ContentParent
@@ -11072,10 +11076,6 @@ aIsForBrowser
 mIsNuwaProcess
 (
 aIsNuwaProcess
-)
-mHasGamepadListener
-(
-false
 )
 {
 InitializeMembers
