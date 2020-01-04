@@ -575,11 +575,6 @@ hr
 =
 S_OK
 ;
-bool
-didOutput
-=
-false
-;
 while
 (
 SUCCEEDED
@@ -612,10 +607,6 @@ Output
 output
 )
 ;
-didOutput
-=
-true
-;
 }
 if
 (
@@ -627,8 +618,12 @@ MF_E_TRANSFORM_NEED_MORE_INPUT
 {
 if
 (
-!
-didOutput
+mTaskQueue
+-
+>
+IsEmpty
+(
+)
 )
 {
 mCallback
