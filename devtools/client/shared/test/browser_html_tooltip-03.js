@@ -1052,8 +1052,14 @@ tooltip
 setContent
 (
 div
+{
+width
+:
 150
+height
+:
 50
+}
 )
 ;
 return

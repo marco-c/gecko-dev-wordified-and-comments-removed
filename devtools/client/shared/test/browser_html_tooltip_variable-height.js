@@ -375,8 +375,14 @@ tooltip
 setContent
 (
 tooltipContent
+{
+width
+:
 CONTAINER_WIDTH
+height
+:
 CONTAINER_HEIGHT
+}
 )
 ;
 info

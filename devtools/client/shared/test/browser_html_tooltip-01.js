@@ -358,8 +358,14 @@ getTooltipContent
 (
 doc
 )
+{
+width
+:
 100
+height
+:
 50
+}
 )
 ;
 is

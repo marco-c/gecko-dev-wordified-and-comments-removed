@@ -402,8 +402,14 @@ tooltip
 setContent
 (
 div
+{
+width
+:
 TOOLTIP_WIDTH
+height
+:
 TOOLTIP_HEIGHT
+}
 )
 ;
 let
