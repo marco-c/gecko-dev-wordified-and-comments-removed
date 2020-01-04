@@ -6242,7 +6242,7 @@ aRect
 .
 MoveBy
 (
-GetClientOffset
+GetClientOffsetUntyped
 (
 )
 )
@@ -6434,7 +6434,7 @@ nsIntPoint
 nsWindow
 :
 :
-GetClientOffset
+GetClientOffsetUntyped
 (
 )
 {

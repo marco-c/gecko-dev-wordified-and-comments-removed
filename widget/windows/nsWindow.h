@@ -616,9 +616,10 @@ aRect
 ;
 virtual
 nsIntPoint
-GetClientOffset
+GetClientOffsetUntyped
 (
 )
+override
 ;
 void
 SetBackgroundColor

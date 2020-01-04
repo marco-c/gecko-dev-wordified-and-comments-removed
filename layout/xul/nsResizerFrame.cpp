@@ -1252,7 +1252,7 @@ GetScreenBounds
 oldRect
 )
 ;
-nsIntPoint
+LayoutDeviceIntPoint
 clientOffset
 =
 widget

@@ -7350,7 +7350,7 @@ aWidget
 )
 -
 >
-GetClientOffset
+GetClientOffsetUntyped
 (
 )
 )

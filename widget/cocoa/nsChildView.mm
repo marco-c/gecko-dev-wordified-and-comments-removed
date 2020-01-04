@@ -8087,7 +8087,7 @@ nsIntPoint
 nsChildView
 :
 :
-GetClientOffset
+GetClientOffsetUntyped
 (
 )
 {

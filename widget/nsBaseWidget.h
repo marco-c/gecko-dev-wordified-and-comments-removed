@@ -996,7 +996,7 @@ override
 ;
 virtual
 nsIntPoint
-GetClientOffset
+GetClientOffsetUntyped
 (
 )
 override

@@ -11980,7 +11980,7 @@ nsIntPoint
 nsCocoaWindow
 :
 :
-GetClientOffset
+GetClientOffsetUntyped
 (
 )
 {

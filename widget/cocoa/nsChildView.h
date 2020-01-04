@@ -2085,7 +2085,7 @@ mPluginFocused
 }
 virtual
 nsIntPoint
-GetClientOffset
+GetClientOffsetUntyped
 (
 )
 override
