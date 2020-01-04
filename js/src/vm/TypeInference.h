@@ -1622,6 +1622,7 @@ jit
 MIRType
 type
 )
+const
 ;
 bool
 isSubset
