@@ -1706,6 +1706,10 @@ aWheelEvent
 .
 lineOrPageDeltaY
 )
+mScrollSeriesNumber
+(
+0
+)
 mUserDeltaMultiplierX
 (
 1
