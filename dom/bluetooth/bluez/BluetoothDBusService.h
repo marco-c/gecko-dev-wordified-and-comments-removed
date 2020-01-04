@@ -150,7 +150,7 @@ GetPairedDevicePropertiesInternal
 const
 nsTArray
 <
-BluetoothAddress
+nsString
 >
 &
 aDeviceAddresses
@@ -165,7 +165,7 @@ nsresult
 FetchUuidsInternal
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 BluetoothReplyRunnable
@@ -247,7 +247,7 @@ nsresult
 CreatePairedDeviceInternal
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 int
@@ -263,9 +263,9 @@ nsresult
 RemoveDeviceInternal
 (
 const
-BluetoothAddress
+nsAString
 &
-aDeviceAddress
+aDeviceObjectPath
 BluetoothReplyRunnable
 *
 aRunnable
@@ -277,7 +277,7 @@ void
 PinReplyInternal
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 bool
@@ -296,7 +296,7 @@ void
 SspReplyInternal
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 BluetoothSspVariant
@@ -313,7 +313,7 @@ void
 SetPinCodeInternal
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 const
@@ -331,7 +331,7 @@ void
 SetPasskeyInternal
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 uint32_t
@@ -347,7 +347,7 @@ void
 SetPairingConfirmationInternal
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 bool
@@ -363,7 +363,7 @@ void
 Connect
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 uint32_t
@@ -381,7 +381,7 @@ void
 Disconnect
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 uint16_t
