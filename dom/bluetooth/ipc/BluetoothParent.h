@@ -876,6 +876,15 @@ GattServerSendResponseRequest
 aRequest
 )
 ;
+bool
+DoRequest
+(
+const
+GattServerSendIndicationRequest
+&
+aRequest
+)
+;
 }
 ;
 END_BLUETOOTH_NAMESPACE

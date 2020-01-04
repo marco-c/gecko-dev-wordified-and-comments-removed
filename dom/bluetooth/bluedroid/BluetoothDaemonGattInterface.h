@@ -828,8 +828,10 @@ ServerSendIndicationCmd
 (
 int
 aServerIf
-int
-aAttributeHandle
+const
+BluetoothAttributeHandle
+&
+aCharacteristicHandle
 int
 aConnId
 int
@@ -3319,8 +3321,10 @@ SendIndication
 (
 int
 aServerIf
-int
-aAttributeHandle
+const
+BluetoothAttributeHandle
+&
+aCharacteristicHandle
 int
 aConnId
 const
