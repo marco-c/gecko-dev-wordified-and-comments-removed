@@ -337,7 +337,6 @@ welcomeback2
 restoreButton
 "
 Let
-'
 s
 go
 !
@@ -522,7 +521,6 @@ defaults
 If
 this
 didn
-'
 t
 fix
 your
@@ -611,7 +609,6 @@ tabgroupsmigration
 pagetitle2
 "
 We
-'
 ve
 removed
 Tab
@@ -658,7 +655,6 @@ groups
 so
 you
 haven
-'
 t
 lost
 anything
