@@ -3849,6 +3849,9 @@ CacheIndexRecord
 >
 mFrecencyArray
 ;
+bool
+mFrecencyArraySorted
+;
 nsTArray
 <
 CacheIndexIterator
