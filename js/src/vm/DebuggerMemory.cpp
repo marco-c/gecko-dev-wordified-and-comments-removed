@@ -3036,6 +3036,15 @@ handler
 (
 census
 rootCount
+cx
+-
+>
+runtime
+(
+)
+-
+>
+debuggerMallocSizeOf
 )
 ;
 Debugger
@@ -3253,6 +3262,7 @@ handler
 .
 report
 (
+cx
 args
 .
 rval

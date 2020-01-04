@@ -964,6 +964,11 @@ ignoreEdgeCount
 )
 ;
 }
+MallocSizeOf
+GetCurrentThreadDebuggerMallocSizeOf
+(
+)
+;
 }
 }
 #
