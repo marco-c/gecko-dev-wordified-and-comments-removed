@@ -578,6 +578,8 @@ STDOUT
 )
                             
 except
+subprocess
+.
 CalledProcessError
 :
                                 
@@ -734,6 +736,8 @@ STDOUT
 )
                         
 except
+subprocess
+.
 CalledProcessError
 :
                             
@@ -924,6 +928,8 @@ STDOUT
 )
                                     
 except
+subprocess
+.
 CalledProcessError
 :
                                         
