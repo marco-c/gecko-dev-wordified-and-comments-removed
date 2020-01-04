@@ -33,13 +33,6 @@ defined
 SK_BUILD_FOR_WIN32
 )
 #
-include
-<
-malloc
-.
-h
->
-#
 endif
 struct
 SkVarAlloc
