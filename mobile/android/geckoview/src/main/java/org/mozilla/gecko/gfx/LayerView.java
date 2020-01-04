@@ -407,7 +407,7 @@ ui
 dispatchTo
 =
 "
-proxy
+gecko
 "
 )
 Override
@@ -428,7 +428,7 @@ any
 dispatchTo
 =
 "
-proxy
+gecko
 "
 )
 native
@@ -451,7 +451,7 @@ any
 dispatchTo
 =
 "
-proxy
+gecko
 "
 )
 native
@@ -520,7 +520,7 @@ ui
 dispatchTo
 =
 "
-proxy
+current
 "
 )
 native
