@@ -264,7 +264,8 @@ checkAddonNotInstalled
 ID
 )
 ;
-restartManager
+yield
+promiseRestartManager
 (
 )
 ;
@@ -664,7 +665,8 @@ checkAddonNotInstalled
 ID
 )
 ;
-restartManager
+yield
+promiseRestartManager
 (
 )
 ;
