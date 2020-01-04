@@ -89,6 +89,15 @@ extensions
 /
 schemas
 /
+idle
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 web_navigation
 .
 json

@@ -5,8 +5,11 @@ strict
 ;
 extensions
 .
-registerPrivilegedAPI
+registerSchemaAPI
 (
+"
+idle
+"
 "
 idle
 "
