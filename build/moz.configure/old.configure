@@ -1922,15 +1922,6 @@ enable
 -
 system
 -
-ffi
-'
-'
--
--
-enable
--
-system
--
 pixman
 '
 '
