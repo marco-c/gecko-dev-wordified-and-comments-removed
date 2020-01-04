@@ -33,6 +33,13 @@ h
 #
 include
 "
+AudioStreamTrack
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h
