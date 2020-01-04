@@ -32522,12 +32522,6 @@ AC_DEFINE
 (
 MOZ_PHOENIX
 )
-BUILD_BACKENDS
-=
-"
-BUILD_BACKENDS
-FasterMake
-"
 ;
 ;
 xulrunner
@@ -32539,6 +32533,12 @@ MOZ_XULRUNNER
 ;
 ;
 esac
+BUILD_BACKENDS
+=
+"
+BUILD_BACKENDS
+FasterMake
+"
 if
 test
 -
