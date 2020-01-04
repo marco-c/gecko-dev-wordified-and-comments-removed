@@ -1103,6 +1103,12 @@ requestmediaplaystatus
 "
 #
 define
+OBEX_PASSWORD_REQ_ID
+"
+obexpasswordreq
+"
+#
+define
 PULL_PHONEBOOK_REQ_ID
 "
 pullphonebookreq
