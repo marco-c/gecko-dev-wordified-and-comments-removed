@@ -241,16 +241,6 @@ xml
 "
         
 "
-sony
--
-aosp
--
-l
-.
-xml
-"
-        
-"
 nexus
 -
 s
@@ -280,24 +270,6 @@ xml
         
 "
 flo
-.
-xml
-"
-        
-"
-nexus
--
-4
--
-kk
-.
-xml
-"
-        
-"
-nexus
--
-5
 .
 xml
 "
