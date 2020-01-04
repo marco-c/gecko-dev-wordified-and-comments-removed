@@ -400,7 +400,7 @@ void
 SendFile
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 BlobParent
@@ -420,7 +420,7 @@ void
 SendFile
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 Blob
@@ -437,7 +437,7 @@ void
 StopSendingFile
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 BluetoothReplyRunnable
@@ -451,7 +451,7 @@ void
 ConfirmReceivingFile
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 bool
