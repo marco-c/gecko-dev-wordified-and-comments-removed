@@ -2181,16 +2181,6 @@ Remove
 childID
 )
 ;
-if
-(
-mHighPriorityChildIDs
-.
-Contains
-(
-childID
-)
-)
-{
 mHighPriorityChildIDs
 .
 RemoveEntry
@@ -2198,7 +2188,6 @@ RemoveEntry
 childID
 )
 ;
-}
 }
 }
 static

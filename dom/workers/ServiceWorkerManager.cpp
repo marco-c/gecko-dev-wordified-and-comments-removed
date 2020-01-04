@@ -11928,16 +11928,6 @@ registration
 )
 ;
 }
-if
-(
-mAllDocuments
-.
-Contains
-(
-aDoc
-)
-)
-{
 mAllDocuments
 .
 RemoveEntry
@@ -11945,7 +11935,6 @@ RemoveEntry
 aDoc
 )
 ;
-}
 }
 void
 ServiceWorkerManager

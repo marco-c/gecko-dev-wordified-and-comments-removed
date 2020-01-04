@@ -1621,7 +1621,7 @@ mEntries
 .
 RemoveEntry
 (
-aBlock
+entry
 )
 ;
 -

@@ -8691,7 +8691,7 @@ gElementTable
 >
 RemoveEntry
 (
-mLoadingSrc
+entry
 )
 ;
 if
