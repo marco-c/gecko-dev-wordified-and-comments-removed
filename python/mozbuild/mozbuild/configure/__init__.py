@@ -648,6 +648,13 @@ set
         
 self
 .
+_execution_queue
+=
+[
+]
+        
+self
+.
 _helper
 =
 CommandLineHelper
@@ -964,11 +971,33 @@ class
 probably
 want
         
-to
-use
-run
-instead
+Note
+:
+this
+will
+execute
+all
+template
+invocations
+as
+well
+as
+depends
+        
+functions
+that
+depend
+on
+'
+-
+-
+help
+'
+but
+nothing
+else
 .
+        
 '
 '
 '
@@ -1196,6 +1225,17 @@ file
 within
 the
 sandbox
+as
+well
+as
+everything
+        
+pending
+from
+any
+other
+included
+file
 and
 ensure
 the
@@ -1206,6 +1246,9 @@ of
 the
 executed
 script
+(
+s
+)
 .
 '
 '
@@ -1269,17 +1312,9 @@ option
                 
 )
             
-if
 self
 .
-_help
-:
-                
-self
-.
-_helper
-.
-handle
+_value_for
 (
 option
 )
@@ -1367,6 +1402,21 @@ s
 '
 %
 without_value
+)
+        
+for
+func
+args
+in
+self
+.
+_execution_queue
+:
+            
+func
+(
+*
+args
 )
         
 if
@@ -1840,6 +1890,35 @@ arg
 .
 __name__
 )
+)
+        
+elif
+self
+.
+_help
+:
+            
+raise
+ConfigureError
+(
+"
+Missing
+depends
+for
+%
+s
+:
+'
+-
+-
+help
+'
+"
+%
+                                 
+func
+.
+__name__
 )
         
 resolved_args
@@ -2423,13 +2502,6 @@ add
 option
 )
         
-self
-.
-_value_for
-(
-option
-)
-        
 return
 option
     
@@ -2873,11 +2945,6 @@ func
 dependencies
             
 if
-not
-self
-.
-_help
-or
 self
 .
 _help_option
@@ -2890,6 +2957,29 @@ self
 _value_for
 (
 dummy
+)
+            
+elif
+not
+self
+.
+_help
+:
+                
+self
+.
+_execution_queue
+.
+append
+(
+(
+self
+.
+_value_for
+(
+dummy
+)
+)
 )
             
 return
@@ -3972,6 +4062,14 @@ set
         
 self
 .
+_execution_queue
+.
+append
+(
+(
+            
+self
+.
 _resolve_and_set
 (
 self
@@ -3979,6 +4077,8 @@ self
 _config
 name
 value
+)
+)
 )
     
 def
@@ -4088,11 +4188,21 @@ DEFINES
         
 self
 .
+_execution_queue
+.
+append
+(
+(
+            
+self
+.
 _resolve_and_set
 (
 defines
 name
 value
+)
+)
 )
     
 def

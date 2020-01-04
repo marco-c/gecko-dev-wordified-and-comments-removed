@@ -1156,6 +1156,12 @@ exec
 command
 sandbox
 )
+            
+sandbox
+.
+run
+(
+)
         
 except
 SystemExit

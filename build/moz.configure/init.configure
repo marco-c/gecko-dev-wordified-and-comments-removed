@@ -1556,6 +1556,11 @@ PYTHON
 '
 check_build_environment
 mozconfig
+'
+-
+-
+help
+'
 )
 imports
 (
@@ -1636,8 +1641,13 @@ virtualenv_python
 env_python
 build_env
 mozconfig
+help
 )
 :
+if
+help
+:
+return
 python
 =
 env_python
