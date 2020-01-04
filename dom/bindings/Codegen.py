@@ -7402,6 +7402,18 @@ h
 "
 )
                 
+if
+desc
+.
+interface
+.
+maplikeOrSetlikeOrIterable
+.
+hasKeyType
+(
+)
+:
+                    
 addHeadersForType
 (
 (
@@ -7412,7 +7424,7 @@ interface
 maplikeOrSetlikeOrIterable
 .
 keyType
-                                   
+                                       
 desc
 None
 )
@@ -7425,7 +7437,9 @@ interface
 .
 maplikeOrSetlikeOrIterable
 .
-valueType
+hasValueType
+(
+)
 :
                     
 addHeadersForType
@@ -15062,12 +15076,36 @@ MemberCondition
 }
 )
         
-if
+maplikeOrSetlikeOrIterable
+=
 descriptor
 .
 interface
 .
 maplikeOrSetlikeOrIterable
+        
+if
+(
+maplikeOrSetlikeOrIterable
+and
+            
+(
+not
+maplikeOrSetlikeOrIterable
+.
+isIterable
+(
+)
+or
+             
+not
+maplikeOrSetlikeOrIterable
+.
+isValueIterator
+(
+)
+)
+)
 :
             
 if
@@ -15174,7 +15212,7 @@ m
 .
 maplikeOrSetlikeOrIterable
 .
-hasValueType
+isPairIterator
 (
 )
 )
@@ -15195,8 +15233,6 @@ entries
 or
                     
 (
-(
-(
 m
 .
 maplikeOrSetlikeOrIterable
@@ -15204,31 +15240,8 @@ maplikeOrSetlikeOrIterable
 isSetlike
 (
 )
-or
-                       
-(
-m
-.
-maplikeOrSetlikeOrIterable
-.
-isIterable
-(
-)
 and
-                        
-not
-m
-.
-maplikeOrSetlikeOrIterable
-.
-hasValueType
-(
-)
-)
-)
-)
-and
-                       
+                     
 m
 .
 identifier
@@ -90757,6 +90770,18 @@ interface
 maplikeOrSetlikeOrIterable
 :
                 
+if
+d
+.
+interface
+.
+maplikeOrSetlikeOrIterable
+.
+hasKeyType
+(
+)
+:
+                    
 builder
 .
 forwardDeclareForType
@@ -90768,7 +90793,7 @@ interface
 maplikeOrSetlikeOrIterable
 .
 keyType
-                                              
+                                                  
 config
 )
                 
