@@ -1017,7 +1017,7 @@ aUserData
 )
 ;
 nsresult
-CheckContentPolicy
+CheckLoadAllowed
 (
 nsIPrincipal
 *
