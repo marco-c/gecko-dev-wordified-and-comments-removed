@@ -148,16 +148,6 @@ win
 driver
 )
 {
-logger
-.
-info
-(
-"
-Context
-ctor
-"
-)
-;
 this
 .
 browser
