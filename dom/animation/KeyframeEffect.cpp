@@ -228,11 +228,6 @@ aRetVal
 .
 mEndTime
 =
-std
-:
-:
-max
-(
 aRetVal
 .
 mDelay
@@ -244,10 +239,6 @@ mActiveDuration
 aRetVal
 .
 mEndDelay
-0
-.
-0
-)
 ;
 aRetVal
 .
