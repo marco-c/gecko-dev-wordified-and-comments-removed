@@ -103,6 +103,10 @@ autoTruncate_
 =
 true
 ;
+sincos_
+=
+true
+;
 sink_
 =
 true
@@ -191,6 +195,10 @@ eliminateRedundantChecks_
 false
 ;
 autoTruncate_
+=
+false
+;
+sincos_
 =
 false
 ;

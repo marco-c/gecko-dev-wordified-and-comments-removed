@@ -19692,6 +19692,15 @@ AC_CHECK_LIB
 m
 sin
 )
+AC_CHECK_LIB
+(
+m
+__sincos
+AC_DEFINE
+(
+HAVE_SINCOS
+)
+)
 AC_CHECK_FUNCS
 (
 [

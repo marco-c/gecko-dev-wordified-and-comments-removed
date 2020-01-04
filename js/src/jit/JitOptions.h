@@ -204,6 +204,9 @@ bool
 disableSharedStubs
 ;
 bool
+disableSincos
+;
+bool
 disableSink
 ;
 bool

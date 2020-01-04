@@ -1105,6 +1105,7 @@ MIRType_MagicHole
 MIRType_MagicIsConstructing
 MIRType_MagicUninitializedLexical
 MIRType_Value
+MIRType_SinCosDouble
 MIRType_ObjectOrNull
 MIRType_None
 MIRType_Slots
@@ -1473,6 +1474,14 @@ MIRType_Value
 return
 "
 Value
+"
+;
+case
+MIRType_SinCosDouble
+:
+return
+"
+SinCosDouble
 "
 ;
 case

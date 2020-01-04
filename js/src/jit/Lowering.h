@@ -911,6 +911,14 @@ ins
 )
 ;
 void
+visitSinCos
+(
+MSinCos
+*
+ins
+)
+;
+void
 visitStringSplit
 (
 MStringSplit

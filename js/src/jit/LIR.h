@@ -1784,6 +1784,7 @@ FLOAT32
 DOUBLE
 INT32X4
 FLOAT32X4
+SINCOS
 #
 ifdef
 JS_NUNBOX32
@@ -2584,6 +2585,15 @@ BOX
 ;
 #
 endif
+case
+MIRType_SinCosDouble
+:
+return
+LDefinition
+:
+:
+SINCOS
+;
 case
 MIRType_Slots
 :

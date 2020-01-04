@@ -11234,6 +11234,9 @@ MIRType_ObjectGroup
 case
 MIRType_Doublex2
 :
+case
+MIRType_SinCosDouble
+:
 return
 false
 ;

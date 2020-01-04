@@ -3283,6 +3283,17 @@ type
 =
 =
 MIRType_Double
+|
+|
+in
+-
+>
+type
+(
+)
+=
+=
+MIRType_SinCosDouble
 )
 return
 true

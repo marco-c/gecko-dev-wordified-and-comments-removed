@@ -1878,6 +1878,9 @@ i32x4
 "
 f32x4
 "
+"
+sincos
+"
 #
 ifdef
 JS_NUNBOX32
