@@ -58,6 +58,7 @@ let
 {
 inspector
 view
+testActor
 }
 =
 yield
@@ -193,9 +194,8 @@ yield
 onSuggest
 ;
 yield
-wait
+waitForTick
 (
-1
 )
 ;
 ok
@@ -231,6 +231,7 @@ yield
 reloadPage
 (
 inspector
+testActor
 )
 ;
 ok
