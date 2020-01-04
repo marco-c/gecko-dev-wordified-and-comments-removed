@@ -1048,6 +1048,11 @@ UnarySharedStub
 \
 _
 (
+NullarySharedStub
+)
+\
+_
+(
 Lambda
 )
 \

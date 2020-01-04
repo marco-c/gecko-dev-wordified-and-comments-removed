@@ -1220,6 +1220,14 @@ lir
 isUnarySharedStub
 (
 )
+|
+|
+lir
+-
+>
+isNullarySharedStub
+(
+)
 )
 ;
 MOZ_ASSERT

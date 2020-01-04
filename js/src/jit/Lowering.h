@@ -1160,6 +1160,14 @@ ins
 )
 ;
 void
+visitNullarySharedStub
+(
+MNullarySharedStub
+*
+ins
+)
+;
+void
 visitLambda
 (
 MLambda
