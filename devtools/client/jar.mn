@@ -2208,7 +2208,7 @@ toolbox
 -
 options
 .
-xul
+xhtml
 (
 framework
 /
@@ -2216,7 +2216,7 @@ toolbox
 -
 options
 .
-xul
+xhtml
 )
 content
 /
