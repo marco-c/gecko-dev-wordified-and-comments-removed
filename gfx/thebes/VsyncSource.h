@@ -135,6 +135,12 @@ aEnable
 )
 ;
 virtual
+TimeDuration
+GetVsyncRate
+(
+)
+;
+virtual
 void
 EnableVsync
 (
