@@ -420,6 +420,10 @@ mWidget
 =
 nullptr
 ;
+mAPZEventState
+=
+nullptr
+;
 }
 nsIPresShell
 *
