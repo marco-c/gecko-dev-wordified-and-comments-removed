@@ -181,6 +181,11 @@ TestSkipChars
 .
 cpp
 '
+'
+TestTaskScheduler
+.
+cpp
+'
 #
 Hangs
 on
