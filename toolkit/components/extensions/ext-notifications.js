@@ -404,6 +404,16 @@ extension
 =
 >
 {
+if
+(
+notificationsMap
+.
+has
+(
+extension
+)
+)
+{
 for
 (
 let
@@ -435,6 +445,7 @@ delete
 extension
 )
 ;
+}
 }
 )
 ;
