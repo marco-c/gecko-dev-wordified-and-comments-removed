@@ -685,14 +685,6 @@ nsIContent
 >
 mLastTextNode
 ;
-int32_t
-mLastTextNodeSize
-;
-uint8_t
-mConstrainSize
-:
-1
-;
 uint8_t
 mPrettyPrintXML
 :
