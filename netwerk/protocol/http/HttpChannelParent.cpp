@@ -788,6 +788,11 @@ initialRwin
 )
 a
 .
+blockAuthPrompt
+(
+)
+a
+.
 suspendAfterSynthesizeResponse
 (
 )
@@ -1347,6 +1352,10 @@ const
 uint32_t
 &
 aInitialRwin
+const
+bool
+&
+aBlockAuthPrompt
 const
 bool
 &
@@ -2345,6 +2354,14 @@ mChannel
 SetInitialRwin
 (
 aInitialRwin
+)
+;
+mChannel
+-
+>
+SetBlockAuthPrompt
+(
+aBlockAuthPrompt
 )
 ;
 nsCOMPtr

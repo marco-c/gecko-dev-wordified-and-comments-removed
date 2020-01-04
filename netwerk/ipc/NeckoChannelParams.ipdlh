@@ -800,6 +800,9 @@ uint32_t
 initialRwin
 ;
 bool
+blockAuthPrompt
+;
+bool
 suspendAfterSynthesizeResponse
 ;
 bool

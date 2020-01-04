@@ -446,6 +446,10 @@ aInitialRwin
 const
 bool
 &
+aBlockAuthPrompt
+const
+bool
+&
 aSuspendAfterSynthesizeResponse
 const
 bool
