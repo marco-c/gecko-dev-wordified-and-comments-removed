@@ -36,6 +36,9 @@ struct
 nsRect
 ;
 class
+nsAttrValue
+;
+class
 nsPresContext
 ;
 class
@@ -249,6 +252,10 @@ aAttribute
 bool
 *
 aShouldRepaint
+const
+nsAttrValue
+*
+aOldValue
 )
 =
 0

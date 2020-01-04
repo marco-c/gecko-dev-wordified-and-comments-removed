@@ -936,6 +936,11 @@ GetMaxPosition
 content
 )
 ;
+int32_t
+oldCurpos
+=
+curpos
+;
 if
 (
 mIncrement
@@ -1225,6 +1230,16 @@ mAppearance
 bool
 repaint
 ;
+nsAttrValue
+oldValue
+;
+oldValue
+.
+SetTo
+(
+oldCurpos
+)
+;
 theme
 -
 >
@@ -1241,6 +1256,8 @@ nsGkAtoms
 curpos
 &
 repaint
+&
+oldValue
 )
 ;
 }
