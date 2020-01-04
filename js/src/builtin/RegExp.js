@@ -180,6 +180,14 @@ pattern
 flags
 ;
 }
+_SetCanonicalName
+(
+RegExpToString
+"
+toString
+"
+)
+;
 function
 RegExp_prototype_Exec
 (
@@ -576,11 +584,3 @@ true
 )
 ;
 }
-_SetCanonicalName
-(
-RegExpToString
-"
-toString
-"
-)
-;
