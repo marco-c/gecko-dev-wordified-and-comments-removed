@@ -4736,6 +4736,14 @@ NS_IMPL_ISUPPORTS
 OutboundEnqueuer
 nsIRunnable
 )
+uint32_t
+WebSocketChannel
+:
+:
+sSerialSeed
+=
+0
+;
 WebSocketChannel
 :
 :
@@ -4999,6 +5007,12 @@ service
 "
 )
 )
+;
+mSerial
+=
+sSerialSeed
++
++
 ;
 mService
 =

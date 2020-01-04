@@ -438,8 +438,6 @@ PBrowserOrId
 browser
 SerializedLoadContext
 loadContext
-uint32_t
-aSerialID
 )
 ;
 PTCPServerSocket
