@@ -202,6 +202,10 @@ runIFrame
 frameStorageChrome
 .
 html
+?
+allowed
+=
+yes
 "
 )
 ;
@@ -287,11 +291,7 @@ iframes
 should
 be
 blocked
-unless
-they
-have
-chrome
-privileges
+.
 yield
 runIFrame
 (
@@ -327,6 +327,10 @@ thirdparty
 frameStorageChrome
 .
 html
+?
+allowed
+=
+no
 "
 )
 ;
