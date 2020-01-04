@@ -5316,8 +5316,6 @@ aBuilder
 nsIFrame
 *
 aScrollFrame
-nsRect
-aDisplayPortBase
 )
 ;
 static

@@ -15853,8 +15853,6 @@ aBuilder
 nsIFrame
 *
 aScrollFrame
-nsRect
-aDisplayPortBase
 )
 {
 nsIContent
@@ -15890,12 +15888,6 @@ scrollableFrame
 return
 ;
 }
-SetDisplayPortBase
-(
-content
-aDisplayPortBase
-)
-;
 bool
 haveDisplayPort
 =
