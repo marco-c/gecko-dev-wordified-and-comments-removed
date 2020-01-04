@@ -171,6 +171,11 @@ frame
 js
 '
 '
+framerate
+.
+js
+'
+'
 gcli
 .
 js
