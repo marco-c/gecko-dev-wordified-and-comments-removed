@@ -130,6 +130,14 @@ _input_id
 input
 '
     
+_input_padding_id
+=
+'
+input
+-
+padding
+'
+    
 _textarea_id
 =
 '
@@ -140,6 +148,16 @@ _textarea2_id
 =
 '
 textarea2
+'
+    
+_textarea_one_line_id
+=
+'
+textarea
+-
+one
+-
+line
 '
     
 _textarea_rtl_id
@@ -3940,10 +3958,43 @@ sel
 selected_content
 )
     
+parameterized
+(
+_input_id
+el_id
+=
+_input_id
+)
+    
+parameterized
+(
+_input_padding_id
+el_id
+=
+_input_padding_id
+)
+    
+parameterized
+(
+_textarea_one_line_id
+el_id
+=
+_textarea_one_line_id
+)
+    
+parameterized
+(
+_contenteditable_id
+el_id
+=
+_contenteditable_id
+)
+    
 def
-test_carets_do_not_jump_when_dragging_to_editable_content_boundary
+test_carets_not_jump_when_dragging_to_editable_content_boundary
 (
 self
+el_id
 )
 :
         
@@ -3967,9 +4018,7 @@ find_element
 By
 .
 ID
-self
-.
-_input_id
+el_id
 )
         
 sel
