@@ -128,7 +128,12 @@ mozbuild
 .
 util
 import
+(
+    
+exec_
+    
 ReadOnlyDict
+)
 from
 .
 context
@@ -1027,10 +1032,11 @@ source
 try
 :
                 
-exec
+exec_
+(
 code
-in
 self
+)
             
 finally
 :

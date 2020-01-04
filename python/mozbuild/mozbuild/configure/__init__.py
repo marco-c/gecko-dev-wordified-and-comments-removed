@@ -79,6 +79,8 @@ util
 import
 (
     
+exec_
+    
 memoize
     
 ReadOnlyDict
@@ -1210,7 +1212,7 @@ exec
 '
 )
         
-exec
+exec_
 (
 code
 self
@@ -3928,12 +3930,13 @@ s
 %
 _as
             
-exec
+exec_
+(
 import_line
-in
 {
 }
 glob
+)
     
 def
 _resolve_and_set
