@@ -333,13 +333,6 @@ SendCharDone
 sendCharResult
 :
 result
-seq
-:
-message
-.
-data
-.
-seq
 }
 )
 ;
