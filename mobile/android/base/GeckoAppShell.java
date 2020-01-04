@@ -5592,11 +5592,11 @@ className
 }
 intent
 .
-setFlags
+addFlags
 (
 Intent
 .
-FLAG_ACTIVITY_CLEAR_TOP
+FLAG_ACTIVITY_NEW_TASK
 )
 ;
 if
