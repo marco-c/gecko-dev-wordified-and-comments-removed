@@ -479,6 +479,11 @@ IsInitialized
 )
 ;
 }
+void
+Reset
+(
+)
+;
 private
 :
 void

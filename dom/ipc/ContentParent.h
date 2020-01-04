@@ -4285,7 +4285,7 @@ virtual
 bool
 RecvGetGraphicsDeviceInitData
 (
-DeviceInitData
+ContentDeviceData
 *
 aOut
 )

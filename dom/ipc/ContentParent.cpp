@@ -23918,7 +23918,7 @@ ContentParent
 :
 RecvGetGraphicsDeviceInitData
 (
-DeviceInitData
+ContentDeviceData
 *
 aOut
 )
@@ -23931,7 +23931,7 @@ GetPlatform
 )
 -
 >
-GetDeviceInitData
+BuildContentDeviceData
 (
 aOut
 )

@@ -653,6 +653,12 @@ GetState
 aFeature
 )
 ;
+state
+.
+Reset
+(
+)
+;
 switch
 (
 aStatus
