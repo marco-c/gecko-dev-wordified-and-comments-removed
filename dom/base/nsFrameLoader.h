@@ -996,12 +996,6 @@ mChildID
 uint32_t
 mEventMode
 ;
-mozilla
-:
-:
-ScreenIntSize
-mLazySize
-;
 bool
 mIsPrerendered
 :
