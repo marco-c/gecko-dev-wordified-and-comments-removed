@@ -5978,6 +5978,13 @@ buffer
 len
 &
 &
+!
+buffer
+-
+>
+in_error
+&
+&
 last_syllable
 =
 =

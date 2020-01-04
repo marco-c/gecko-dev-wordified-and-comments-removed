@@ -206,13 +206,6 @@ length
 31
 |
 |
-data
-+
-length
-<
-data
-|
-|
 !
 (
 blob

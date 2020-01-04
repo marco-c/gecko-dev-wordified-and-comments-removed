@@ -711,6 +711,8 @@ this
 protected
 :
 FixedVersion
+<
+>
 version
 ;
 RecordArrayOf

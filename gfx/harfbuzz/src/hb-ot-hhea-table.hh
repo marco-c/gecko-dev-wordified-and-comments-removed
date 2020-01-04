@@ -135,6 +135,8 @@ major
 public
 :
 FixedVersion
+<
+>
 version
 ;
 FWORD

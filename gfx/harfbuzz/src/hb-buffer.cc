@@ -1369,6 +1369,16 @@ return
 true
 ;
 }
+if
+(
+unlikely
+(
+in_error
+)
+)
+return
+false
+;
 assert
 (
 i

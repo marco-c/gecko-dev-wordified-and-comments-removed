@@ -2671,6 +2671,13 @@ buffer
 len
 &
 &
+!
+buffer
+-
+>
+in_error
+&
+&
 last_syllable
 =
 =
@@ -2893,7 +2900,7 @@ HB_OT_SHAPE_NORMALIZATION_MODE_COMPOSED_DIACRITICS_NO_SHORT_CIRCUIT
 NULL
 compose_use
 setup_masks_use
-HB_OT_SHAPE_ZERO_WIDTH_MARKS_NONE
+HB_OT_SHAPE_ZERO_WIDTH_MARKS_BY_GDEF_EARLY
 false
 }
 ;

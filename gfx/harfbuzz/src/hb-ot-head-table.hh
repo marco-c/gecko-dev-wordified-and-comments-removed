@@ -124,9 +124,13 @@ magicNumber
 protected
 :
 FixedVersion
+<
+>
 version
 ;
 FixedVersion
+<
+>
 fontRevision
 ;
 ULONG

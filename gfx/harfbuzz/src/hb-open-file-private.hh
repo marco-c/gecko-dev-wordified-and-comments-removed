@@ -409,6 +409,8 @@ Tag
 ttcTag
 ;
 FixedVersion
+<
+>
 version
 ;
 ArrayOf
@@ -617,6 +619,8 @@ Tag
 ttcTag
 ;
 FixedVersion
+<
+>
 version
 ;
 }

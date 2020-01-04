@@ -120,6 +120,8 @@ minor
 protected
 :
 FixedVersion
+<
+>
 version
 ;
 USHORT

@@ -1785,6 +1785,8 @@ klass
 protected
 :
 FixedVersion
+<
+>
 version
 ;
 OffsetTo
