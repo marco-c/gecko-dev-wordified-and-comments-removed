@@ -1071,9 +1071,7 @@ void
 aThis
 void
 *
-void
-*
-aOutputBuffer
+aBuffer
 long
 aFrames
 )
@@ -1091,7 +1089,7 @@ aThis
 >
 DataCallback
 (
-aOutputBuffer
+aBuffer
 aFrames
 )
 ;
