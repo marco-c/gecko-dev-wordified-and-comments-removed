@@ -247,4 +247,12 @@ mochitest
 -
 webgl
 -
+reftest
+-
+reftest
+-
+no
+-
+accel
+-
 xpcshell
