@@ -323,7 +323,7 @@ MetadataPromise
 RtspOmxReader
 :
 :
-AsyncReadMetadataInternal
+AsyncReadMetadata
 (
 )
 {
@@ -346,7 +346,7 @@ p
 MediaOmxReader
 :
 :
-AsyncReadMetadataInternal
+AsyncReadMetadata
 (
 )
 ;

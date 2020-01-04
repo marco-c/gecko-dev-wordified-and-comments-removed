@@ -826,7 +826,7 @@ MetadataPromise
 MediaOmxReader
 :
 :
-AsyncReadMetadataInternal
+AsyncReadMetadata
 (
 )
 {
