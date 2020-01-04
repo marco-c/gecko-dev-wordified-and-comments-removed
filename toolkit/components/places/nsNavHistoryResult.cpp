@@ -15879,10 +15879,7 @@ aItemType
 itemURI
 aGUID
 aOldParentGUID
-nsINavBookmarksService
-:
-:
-SOURCE_DEFAULT
+aSource
 )
 ;
 }
@@ -15907,10 +15904,7 @@ RoundedPRNow
 )
 aGUID
 aNewParentGUID
-nsINavBookmarksService
-:
-:
-SOURCE_DEFAULT
+aSource
 )
 ;
 }
