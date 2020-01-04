@@ -370,6 +370,9 @@ contentPolicyType
 bool
 upgradeInsecureRequests
 ;
+bool
+upgradeInsecurePreloads
+;
 uint64_t
 innerWindowID
 ;

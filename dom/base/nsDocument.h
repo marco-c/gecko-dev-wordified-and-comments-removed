@@ -2463,6 +2463,15 @@ override
 ;
 virtual
 void
+ApplySettingsFromCSP
+(
+bool
+aSpeculative
+)
+override
+;
+virtual
+void
 SetPrincipal
 (
 nsIPrincipal

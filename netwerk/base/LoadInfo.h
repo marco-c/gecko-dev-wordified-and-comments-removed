@@ -157,6 +157,8 @@ nsContentPolicyType
 aContentPolicyType
 bool
 aUpgradeInsecureRequests
+bool
+aUpgradeInsecurePreloads
 uint64_t
 aInnerWindowID
 uint64_t
@@ -267,6 +269,9 @@ mTainting
 ;
 bool
 mUpgradeInsecureRequests
+;
+bool
+mUpgradeInsecurePreloads
 ;
 uint64_t
 mInnerWindowID
