@@ -3169,11 +3169,6 @@ mSuggestionsOptInPrompt
 =
 null
 ;
-if
-(
-enabled
-)
-{
 mView
 .
 getLayoutParams
@@ -3186,6 +3181,11 @@ LayoutParams
 .
 MATCH_PARENT
 ;
+if
+(
+enabled
+)
+{
 mSuggestionsEnabled
 =
 enabled
