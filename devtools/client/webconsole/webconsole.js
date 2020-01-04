@@ -421,7 +421,7 @@ l10n
 new
 WebConsoleUtils
 .
-l10n
+L10n
 (
 STRINGS_URI
 )
@@ -2343,7 +2343,6 @@ resize
 :
 function
 (
-e
 )
 {
 this
@@ -2369,8 +2368,6 @@ _onPanelSelected
 :
 function
 (
-evt
-id
 )
 {
 this
@@ -2827,7 +2824,6 @@ addEventListener
 contextmenu
 "
 (
-event
 )
 =
 >
@@ -4283,13 +4279,13 @@ prefKey
 -
 1
 ?
-'
+"
 filter
-'
+"
 :
-'
+"
 workerType
-'
+"
 ;
 let
 xpath
@@ -4719,7 +4715,6 @@ mergeFilteredMessageNode
 function
 (
 original
-filtered
 )
 {
 let
@@ -4761,6 +4756,7 @@ getAttribute
 value
 "
 )
+10
 )
 +
 1
@@ -5018,7 +5014,6 @@ this
 mergeFilteredMessageNode
 (
 dupeNode
-node
 )
 ;
 return
@@ -5981,9 +5976,9 @@ node
 .
 setAttribute
 (
-'
+"
 workerType
-'
+"
 WORKERTYPES_PREFKEYS
 [
 workerTypeID
@@ -6027,9 +6022,9 @@ scriptError
 let
 severity
 =
-'
+"
 error
-'
+"
 ;
 if
 (
@@ -6045,9 +6040,9 @@ strict
 {
 severity
 =
-'
+"
 warning
-'
+"
 ;
 }
 else
@@ -6060,9 +6055,9 @@ info
 {
 severity
 =
-'
+"
 log
-'
+"
 ;
 }
 switch
@@ -6075,9 +6070,9 @@ CATEGORY_CSS
 :
 category
 =
-'
+"
 css
-'
+"
 ;
 break
 ;
@@ -6086,9 +6081,9 @@ CATEGORY_SECURITY
 :
 category
 =
-'
+"
 security
-'
+"
 ;
 break
 ;
@@ -7891,6 +7886,7 @@ node
 )
 {
 return
+false
 ;
 }
 let
@@ -7957,9 +7953,9 @@ request
 .
 method
 +
-'
+"
 XHR
-'
+"
 :
 request
 .
@@ -9077,7 +9073,6 @@ item
 {
 let
 [
-category
 methodOrNode
 args
 ]
@@ -11051,7 +11046,7 @@ onClick
 >
 {
 let
-target
+nodeTarget
 =
 locationNode
 .
@@ -11059,7 +11054,7 @@ target
 ;
 if
 (
-target
+nodeTarget
 =
 =
 "
@@ -11094,7 +11089,7 @@ category
 ;
 if
 (
-target
+nodeTarget
 =
 =
 "
@@ -11122,7 +11117,7 @@ line
 else
 if
 (
-target
+nodeTarget
 =
 =
 "
@@ -11821,18 +11816,6 @@ string
 )
 )
 {
-let
-timestampString
-=
-l10n
-.
-timestampString
-(
-item
-.
-timestamp
-)
-;
 if
 (
 options
@@ -12389,7 +12372,6 @@ _self
 )
 ;
 }
-;
 function
 overrideValueEvalMacro
 (
@@ -12410,7 +12392,6 @@ _self
 )
 ;
 }
-;
 function
 getterOrSetterEvalMacro
 (
@@ -13656,6 +13637,7 @@ msg
 ;
 }
 }
+;
 executeString
 =
 executeString
@@ -14294,7 +14276,6 @@ load
 function
 onIframeLoad
 (
-event
 )
 {
 iframe

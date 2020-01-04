@@ -181,7 +181,7 @@ l10n
 new
 WebConsoleUtils
 .
-l10n
+L10n
 (
 STRINGS_URI
 )
