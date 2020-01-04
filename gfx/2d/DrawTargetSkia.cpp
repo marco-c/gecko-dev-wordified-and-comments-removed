@@ -3534,9 +3534,6 @@ FontType
 :
 :
 MAC
-&
-&
-shouldLCDRenderText
 )
 {
 paint
