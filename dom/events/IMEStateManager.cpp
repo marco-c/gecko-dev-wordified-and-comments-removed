@@ -2916,6 +2916,11 @@ internalEvent
 aMouseEvent
 -
 >
+AsEvent
+(
+)
+-
+>
 GetInternalNSEvent
 (
 )
@@ -2998,6 +3003,11 @@ nsAutoString
 eventType
 ;
 aMouseEvent
+-
+>
+AsEvent
+(
+)
 -
 >
 GetType
@@ -3222,6 +3232,11 @@ nsresult
 rv
 =
 aMouseEvent
+-
+>
+AsEvent
+(
+)
 -
 >
 GetIsTrusted

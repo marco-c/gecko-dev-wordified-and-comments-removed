@@ -56,6 +56,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+Event
+.
+h
+"
+#
+include
+"
 nsDocument
 .
 h

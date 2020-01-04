@@ -1167,6 +1167,11 @@ inputEvent
 aKeyEvent
 -
 >
+AsEvent
+(
+)
+-
+>
 GetInternalNSEvent
 (
 )

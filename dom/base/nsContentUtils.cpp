@@ -22370,6 +22370,11 @@ eventType
 aDOMKeyEvent
 -
 >
+AsEvent
+(
+)
+-
+>
 GetType
 (
 eventType
@@ -22394,6 +22399,11 @@ WidgetKeyboardEvent
 nativeKeyEvent
 =
 aDOMKeyEvent
+-
+>
+AsEvent
+(
+)
 -
 >
 GetInternalNSEvent
