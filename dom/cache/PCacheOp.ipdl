@@ -62,10 +62,6 @@ PCache
 ;
 include
 protocol
-PCachePushStream
-;
-include
-protocol
 PCacheStorage
 ;
 include
@@ -75,6 +71,10 @@ PCacheStreamControl
 include
 protocol
 PFileDescriptorSet
+;
+include
+protocol
+PSendStream
 ;
 include
 CacheTypes
