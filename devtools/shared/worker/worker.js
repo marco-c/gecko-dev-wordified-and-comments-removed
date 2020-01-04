@@ -234,7 +234,7 @@ ChromeWorker
 dumpn
 )
 {
-var
+let
 MESSAGE_COUNTER
 =
 0
@@ -442,6 +442,8 @@ listener
 (
 {
 data
+:
+result
 }
 )
 =
@@ -497,7 +499,7 @@ JSON
 .
 stringify
 (
-data
+result
 null
 2
 )
@@ -506,7 +508,7 @@ null
 }
 if
 (
-data
+result
 .
 id
 !
@@ -530,14 +532,14 @@ listener
 ;
 if
 (
-data
+result
 .
 error
 )
 {
 reject
 (
-data
+result
 .
 error
 )
@@ -547,7 +549,7 @@ else
 {
 resolve
 (
-data
+result
 .
 response
 )
@@ -654,9 +656,8 @@ console
 .
 warn
 (
-\
+"
 workerify
-\
 should
 only
 be
@@ -667,6 +668,9 @@ or
 measuring
 performance
 .
+"
++
+"
 This
 creates
 an
@@ -680,10 +684,14 @@ and
 should
 not
 be
+"
++
+"
 used
 in
 production
 .
+"
 )
 ;
 let
