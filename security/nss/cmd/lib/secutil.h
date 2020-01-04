@@ -1462,15 +1462,9 @@ input
 const
 SSLVersionRange
 defaultVersionRange
-const
-PRBool
-defaultEnableSSL2
 SSLVersionRange
 *
 vrange
-PRBool
-*
-enableSSL2
 )
 ;
 void

@@ -39,6 +39,7 @@ NSS_TESTS
 ssl_gtests
 pk11_gtests
 der_gtests
+util_gtests
 "
 NSS_CYCLES
 =
@@ -67,6 +68,7 @@ NSS_TESTS
 ssl_gtests
 pk11_gtests
 der_gtests
+util_gtests
 "
 NSS_CYCLES
 =
