@@ -1340,7 +1340,7 @@ eBasicEventClass
 NON_IDL_EVENT
 (
 SVGScroll
-NS_SVG_SCROLL
+eSVGScroll
 EventNameType_None
 eBasicEventClass
 )
