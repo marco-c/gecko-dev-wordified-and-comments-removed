@@ -31954,7 +31954,12 @@ if
 aPrevInFlow
 )
 {
-SetFlags
+RemoveStateBits
+(
+NS_BLOCK_FLAGS_MASK
+)
+;
+AddStateBits
 (
 aPrevInFlow
 -

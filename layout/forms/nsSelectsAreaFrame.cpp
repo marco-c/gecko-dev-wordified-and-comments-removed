@@ -67,7 +67,7 @@ aContext
 it
 -
 >
-SetFlags
+AddStateBits
 (
 aFlags
 |

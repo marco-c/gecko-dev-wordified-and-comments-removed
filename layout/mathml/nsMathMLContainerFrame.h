@@ -771,8 +771,6 @@ aPresShell
 nsStyleContext
 *
 aContext
-nsFrameState
-aFlags
 )
 ;
 virtual
@@ -1075,11 +1073,6 @@ nsBlockFrame
 aContext
 )
 {
-AddStateBits
-(
-NS_BLOCK_FLOAT_MGR
-)
-;
 }
 virtual
 ~
