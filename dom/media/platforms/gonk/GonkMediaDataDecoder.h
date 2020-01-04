@@ -248,6 +248,12 @@ bool
 aEndOfStream
 )
 ;
+virtual
+void
+ResetEOS
+(
+)
+;
 RefPtr
 <
 MediaByteBuffer
