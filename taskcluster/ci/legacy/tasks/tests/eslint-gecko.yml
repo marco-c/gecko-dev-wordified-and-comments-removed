@@ -129,7 +129,9 @@ head_ref
 cd
 gecko
 /
-testing
+tools
+/
+lint
 /
 eslint
 &
@@ -171,9 +173,14 @@ cd
 /
 .
 .
+/
+.
+.
 &
 &
-testing
+tools
+/
+lint
 /
 eslint
 /

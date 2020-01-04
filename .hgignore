@@ -651,7 +651,9 @@ tox
 Ignore
 node_modules
 ^
-testing
+tools
+/
+lint
 /
 eslint
 /

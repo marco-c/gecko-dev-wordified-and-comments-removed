@@ -14,7 +14,9 @@ to
 be
 projdir
 /
-testing
+tools
+/
+lint
 /
 eslint
 .
@@ -504,7 +506,9 @@ node_modules
 folder
 update
 for
-testing
+tools
+/
+lint
 /
 eslint
 "

@@ -3241,7 +3241,9 @@ checks
 .
 -
 '
-testing
+tools
+/
+lint
 /
 eslint
 /
