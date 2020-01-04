@@ -2075,12 +2075,14 @@ callback
 :
 function
 (
+aState
 )
 {
 mainAction
 .
 callback
 (
+aState
 true
 )
 ;
@@ -3183,6 +3185,7 @@ callback
 =
 function
 (
+aState
 aRemember
 )
 {
