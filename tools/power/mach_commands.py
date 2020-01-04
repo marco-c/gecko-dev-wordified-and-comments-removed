@@ -405,6 +405,10 @@ WebKit
 Chrome
 |
 Terminal
+|
+WindowServer
+|
+kernel
 )
 '
 line
