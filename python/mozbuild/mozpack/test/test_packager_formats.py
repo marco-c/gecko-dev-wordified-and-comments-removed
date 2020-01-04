@@ -1691,6 +1691,17 @@ js
 )
     
 }
+    
+'
+app
+/
+chrome
+.
+manifest
+'
+:
+[
+]
 }
 )
 RESULT_OMNIJAR
