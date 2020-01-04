@@ -13640,9 +13640,6 @@ true
 ;
 #
 endif
-#
-ifdef
-E10S_TESTING_ONLY
 pref
 (
 "
@@ -13667,8 +13664,6 @@ prefetching
 true
 )
 ;
-#
-endif
 pref
 (
 "
