@@ -994,9 +994,7 @@ ps
 ;
 aDC
 =
-GetCompositorWidget
-(
-)
+mCompositorWidgetDelegate
 -
 >
 GetTransparentDC
@@ -1299,9 +1297,7 @@ mTransparencyMode
 {
 targetSurface
 =
-GetCompositorWidget
-(
-)
+mBasicLayersSurface
 -
 >
 EnsureTransparentSurface
@@ -1612,9 +1608,7 @@ eTransparencyTransparent
 mTransparencyMode
 )
 {
-GetCompositorWidget
-(
-)
+mBasicLayersSurface
 -
 >
 RedrawTransparentWindow

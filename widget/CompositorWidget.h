@@ -97,6 +97,9 @@ class
 CompositorWidgetInitData
 ;
 class
+CompositorWidgetDelegate
+;
+class
 CompositorWidget
 {
 public
@@ -381,6 +384,17 @@ virtual
 WinCompositorWidget
 *
 AsWindows
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+CompositorWidgetDelegate
+*
+AsDelegate
 (
 )
 {
