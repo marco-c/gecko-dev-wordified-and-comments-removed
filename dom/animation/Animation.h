@@ -1163,6 +1163,11 @@ CancelPendingTasks
 (
 )
 ;
+void
+ResetPendingTasks
+(
+)
+;
 bool
 IsPossiblyOrphanedPendingAnimation
 (
