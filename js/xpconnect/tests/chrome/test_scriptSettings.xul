@@ -1007,7 +1007,7 @@ iwin
 eval
 (
 '
-let
+var
 timeoutFun2Wrapper
 =
 function

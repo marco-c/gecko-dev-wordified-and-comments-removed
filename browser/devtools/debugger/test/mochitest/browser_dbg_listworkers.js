@@ -144,7 +144,7 @@ evalInTab
 (
 tab
 "
-let
+var
 worker1
 =
 new
@@ -213,7 +213,7 @@ evalInTab
 (
 tab
 "
-let
+var
 worker2
 =
 new

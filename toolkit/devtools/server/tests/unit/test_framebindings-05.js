@@ -202,6 +202,8 @@ parentEnv
 env
 .
 parent
+.
+parent
 ;
 do_check_neq
 (

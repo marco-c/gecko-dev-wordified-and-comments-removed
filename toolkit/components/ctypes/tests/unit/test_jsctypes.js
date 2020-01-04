@@ -9019,7 +9019,7 @@ val
 eval
 (
 "
-let
+var
 f2
 =
 "
@@ -14528,7 +14528,7 @@ toString
 eval
 (
 "
-let
+var
 s2
 =
 "
@@ -19341,7 +19341,7 @@ toString
 eval
 (
 "
-let
+var
 c2
 =
 "
