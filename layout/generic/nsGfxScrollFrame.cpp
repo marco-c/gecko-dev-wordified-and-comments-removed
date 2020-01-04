@@ -24266,7 +24266,7 @@ InternalScrollAreaEvent
 event
 (
 true
-NS_SCROLLEDAREACHANGED
+eScrolledAreaChanged
 nullptr
 )
 ;

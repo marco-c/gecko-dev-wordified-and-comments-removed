@@ -1233,7 +1233,7 @@ eScrolledAreaEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_SCROLLEDAREACHANGED
+eScrolledAreaChanged
 eScrolledAreaEventFirst
 )
 NS_EVENT_MESSAGE
