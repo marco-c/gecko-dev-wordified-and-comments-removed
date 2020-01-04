@@ -95,7 +95,6 @@ search
 /
 ^
 Exception
-:
 /
 )
 =
