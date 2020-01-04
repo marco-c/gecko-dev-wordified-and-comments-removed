@@ -1817,7 +1817,7 @@ js
 RegExpCompartment
 regExps
 ;
-uint32_t
+bool
 globalWriteBarriered
 ;
 int32_t
