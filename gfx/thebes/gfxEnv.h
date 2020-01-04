@@ -267,6 +267,7 @@ char
 aName
 )
 {
+const
 char
 *
 val
