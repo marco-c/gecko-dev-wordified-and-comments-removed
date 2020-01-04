@@ -2148,7 +2148,7 @@ mBuffer
 }
 ;
 class
-CairoImage
+SourceSurfaceImage
 final
 :
 public
@@ -2214,7 +2214,7 @@ return
 mSize
 ;
 }
-CairoImage
+SourceSurfaceImage
 (
 const
 gfx
@@ -2232,7 +2232,7 @@ aSourceSurface
 )
 ;
 ~
-CairoImage
+SourceSurfaceImage
 (
 )
 ;

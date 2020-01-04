@@ -696,7 +696,7 @@ RefPtr
 layers
 :
 :
-CairoImage
+SourceSurfaceImage
 >
 image
 =
@@ -704,7 +704,7 @@ new
 layers
 :
 :
-CairoImage
+SourceSurfaceImage
 (
 aSurface
 -

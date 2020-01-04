@@ -463,7 +463,7 @@ RefPtr
 layers
 :
 :
-CairoImage
+SourceSurfaceImage
 >
 mImage
 ;

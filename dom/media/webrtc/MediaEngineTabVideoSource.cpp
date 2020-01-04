@@ -944,7 +944,7 @@ RefPtr
 layers
 :
 :
-CairoImage
+SourceSurfaceImage
 >
 image
 =
@@ -1602,7 +1602,7 @@ RefPtr
 layers
 :
 :
-CairoImage
+SourceSurfaceImage
 >
 image
 =
@@ -1610,7 +1610,7 @@ new
 layers
 :
 :
-CairoImage
+SourceSurfaceImage
 (
 size
 surface
