@@ -54,9 +54,6 @@ namespace
 dom
 {
 class
-DispatchEventRunnable
-;
-class
 MessagePortChild
 ;
 class
@@ -89,10 +86,6 @@ nsIIPCBackgroundChildCreateCallback
 public
 nsIObserver
 {
-friend
-class
-DispatchEventRunnable
-;
 friend
 class
 PostMessageRunnable
@@ -400,9 +393,9 @@ mWorkerFeature
 ;
 RefPtr
 <
-DispatchEventRunnable
+PostMessageRunnable
 >
-mDispatchRunnable
+mPostMessageRunnable
 ;
 RefPtr
 <
