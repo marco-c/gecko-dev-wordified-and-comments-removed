@@ -3400,6 +3400,7 @@ constexpr
 JNINativeMethod
 MakeNativeMethod
 (
+MOZ_JNICALL
 Ret
 (
 *
