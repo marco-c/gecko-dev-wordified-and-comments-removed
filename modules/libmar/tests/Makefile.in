@@ -56,10 +56,7 @@ MPL
 TESTROOT
 =
 (
-abspath
-(
-DEPTH
-)
+topobjdir
 )
 /
 _tests

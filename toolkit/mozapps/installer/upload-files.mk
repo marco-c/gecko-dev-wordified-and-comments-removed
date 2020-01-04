@@ -575,14 +575,11 @@ JSSHELL_BINS
 JARLOG_DIR
 =
 (
-abspath
-(
-DEPTH
+topobjdir
 )
 /
 jarlog
 /
-)
 JARLOG_FILE_AB_CD
 =
 (
@@ -2034,9 +2031,7 @@ MOZ_CHILD_PROCESS_NAME
 GECKO_APP_AP_PATH
 =
 (
-abspath
-(
-DEPTH
+topobjdir
 )
 /
 mobile
@@ -2044,7 +2039,6 @@ mobile
 android
 /
 base
-)
 ifdef
 ENABLE_TESTS
 INNER_ROBOCOP_PACKAGE
@@ -2131,9 +2125,7 @@ all
 ROBOCOP_PATH
 =
 (
-abspath
-(
-DEPTH
+topobjdir
 )
 /
 mobile
@@ -2145,7 +2137,6 @@ tests
 browser
 /
 robocop
-)
 #
 Normally
 (
@@ -3756,9 +3747,7 @@ INNER_SZIP_LIBRARIES
 \
 cp
 (
-abspath
-(
-DEPTH
+topobjdir
 )
 /
 mobile
@@ -3768,7 +3757,6 @@ android
 b2gdroid
 /
 app
-)
 /
 classes
 .
@@ -3785,9 +3773,7 @@ dex
 \
 cp
 (
-abspath
-(
-DEPTH
+topobjdir
 )
 /
 mobile
@@ -3797,7 +3783,6 @@ android
 b2gdroid
 /
 app
-)
 /
 b2gdroid
 -

@@ -83,10 +83,7 @@ in
 XPCSHELLTESTROOT
 =
 (
-abspath
-(
-DEPTH
-)
+topobjdir
 )
 /
 _tests
@@ -103,10 +100,7 @@ tests
 MOCHITESTROOT
 =
 (
-abspath
-(
-DEPTH
-)
+topobjdir
 )
 /
 _tests
@@ -147,8 +141,6 @@ MOZ_WINCONSOLE
 0
 endif
 endif
-ifdef
-COMPILE_ENVIRONMENT
 libs
 :
 :
@@ -315,9 +307,9 @@ xpcshell
 (
 NSINSTALL
 )
-updater
--
-xpcshell
+(
+PROGRAM
+)
 (
 XPCSHELLTESTROOT
 )
@@ -333,6 +325,12 @@ app
 Contents
 /
 MacOS
+rm
+-
+f
+(
+PROGRAM
+)
 rm
 -
 Rf
@@ -455,6 +453,3 @@ updater
 BIN_SUFFIX
 )
 endif
-endif
-#
-COMPILE_ENVIRONMENT

@@ -266,10 +266,7 @@ gdbinit
 GDBINIT_OBJDIR_DEST
 =
 (
-abspath
-(
-DEPTH
-)
+topobjdir
 )
 INSTALL_TARGETS
 +
@@ -420,10 +417,7 @@ YCM_DEST
 :
 =
 (
-abspath
-(
-DEPTH
-)
+topobjdir
 )
 YCM_TARGET
 :

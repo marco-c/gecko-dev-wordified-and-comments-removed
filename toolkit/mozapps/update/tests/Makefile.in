@@ -56,10 +56,7 @@ MPL
 XPCSHELLTESTROOT
 =
 (
-abspath
-(
-DEPTH
-)
+topobjdir
 )
 /
 _tests
@@ -72,10 +69,7 @@ relativesrcdir
 CHROMETESTROOT
 =
 (
-abspath
-(
-DEPTH
-)
+topobjdir
 )
 /
 _tests

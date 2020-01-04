@@ -205,9 +205,7 @@ XPI_NAME
 BRANDPATH
 =
 (
-abspath
-(
-DEPTH
+topobjdir
 )
 /
 dist
@@ -227,7 +225,6 @@ branding
 brand
 .
 dtd
-)
 else
 BRANDPATH
 =

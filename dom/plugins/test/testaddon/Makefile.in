@@ -153,9 +153,7 @@ bug
 testdir
 =
 (
-abspath
-(
-DEPTH
+topobjdir
 )
 /
 _tests
@@ -170,7 +168,6 @@ test
 /
 unit
 /
-)
 addonpath
 =
 (

@@ -86,9 +86,7 @@ addons
 testdir
 =
 (
-abspath
-(
-DEPTH
+topobjdir
 )
 /
 _tests
@@ -102,7 +100,6 @@ experiments
 test
 /
 xpcshell
-)
 misc
 :
 :

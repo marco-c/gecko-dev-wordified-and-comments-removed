@@ -126,9 +126,7 @@ addons
 testdir
 =
 (
-abspath
-(
-DEPTH
+topobjdir
 )
 /
 _tests
@@ -144,7 +142,6 @@ telemetry
 tests
 /
 unit
-)
 misc
 :
 :
