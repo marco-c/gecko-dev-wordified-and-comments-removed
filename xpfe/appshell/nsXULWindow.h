@@ -358,8 +358,8 @@ SyncAttributesToWidget
 (
 )
 ;
-void
-SaveAttributes
+NS_IMETHOD
+SavePersistentAttributes
 (
 )
 ;
@@ -505,7 +505,7 @@ GetContentScrollbarVisibility
 )
 ;
 void
-SetAttributesDirty
+PersistentAttributesDirty
 (
 uint32_t
 aDirtyFlags
