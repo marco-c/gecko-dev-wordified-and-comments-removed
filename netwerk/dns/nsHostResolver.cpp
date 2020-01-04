@@ -1622,7 +1622,7 @@ mBlacklistedItems
 i
 ]
 .
-SizeOfExcludingThisMustBeUnshared
+SizeOfExcludingThisIfUnshared
 (
 mallocSizeOf
 )

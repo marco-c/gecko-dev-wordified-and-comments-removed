@@ -14076,7 +14076,7 @@ n
 mString
 -
 >
-SizeOfIncludingThisMustBeUnshared
+SizeOfIncludingThisIfUnshared
 (
 aMallocSizeOf
 )

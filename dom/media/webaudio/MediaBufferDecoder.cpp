@@ -2662,7 +2662,7 @@ amount
 =
 mContentType
 .
-SizeOfExcludingThisMustBeUnshared
+SizeOfExcludingThisIfUnshared
 (
 aMallocSizeOf
 )
