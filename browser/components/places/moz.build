@@ -145,7 +145,7 @@ jar
 mn
 '
 ]
-EXTRA_PP_JS_MODULES
+EXTRA_JS_MODULES
 +
 =
 [

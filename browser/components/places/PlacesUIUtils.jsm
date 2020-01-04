@@ -249,9 +249,6 @@ jsm
 "
 )
 ;
-#
-ifdef
-MOZ_SERVICES_CLOUDSYNC
 XPCOMUtils
 .
 defineLazyModuleGetter
@@ -275,18 +272,6 @@ jsm
 "
 )
 ;
-#
-else
-let
-CloudSync
-=
-null
-;
-#
-endif
-#
-ifdef
-MOZ_SERVICES_SYNC
 XPCOMUtils
 .
 defineLazyModuleGetter
@@ -310,8 +295,6 @@ js
 "
 )
 ;
-#
-endif
 const
 TAB_DROP_TYPE
 =
