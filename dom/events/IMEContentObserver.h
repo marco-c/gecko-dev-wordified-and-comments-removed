@@ -433,6 +433,12 @@ IsSafeToNotifyIME
 )
 const
 ;
+bool
+IsEditorComposing
+(
+)
+const
+;
 void
 PostFocusSetNotification
 (
@@ -469,6 +475,8 @@ bool
 aCausedByComposition
 bool
 aCausedBySelectionEvent
+bool
+aOccurredDuringComposition
 )
 ;
 void
