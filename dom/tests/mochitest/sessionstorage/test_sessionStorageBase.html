@@ -494,11 +494,6 @@ undefined
 )
 ;
 var
-mozStorageChangedReceived
-=
-0
-;
-var
 sessionStorageCopy
 =
 sessionStorage
@@ -581,13 +576,13 @@ receivedEvent
 /
 Listen
 for
-MozStorageChanged
+MozSessionStorageChanged
 SpecialPowers
 .
 addChromeEventListener
 (
 "
-MozStorageChanged
+MozSessionStorageChanged
 "
 onStorageChanged
 false
@@ -2146,7 +2141,7 @@ SpecialPowers
 removeChromeEventListener
 (
 "
-MozStorageChanged
+MozSessionStorageChanged
 "
 onStorageChanged
 false
