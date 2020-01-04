@@ -404,7 +404,6 @@ onversionchange
 interface
 IDBObjectStore
 {
-readonly
 attribute
 DOMString
 name
@@ -529,7 +528,6 @@ key
 interface
 IDBIndex
 {
-readonly
 attribute
 DOMString
 name

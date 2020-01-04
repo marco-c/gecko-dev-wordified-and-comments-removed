@@ -165,7 +165,9 @@ System
 interface
 IDBObjectStore
 {
-readonly
+[
+SetterThrows
+]
 attribute
 DOMString
 name

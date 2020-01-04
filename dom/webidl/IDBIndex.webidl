@@ -231,7 +231,9 @@ System
 interface
 IDBIndex
 {
-readonly
+[
+SetterThrows
+]
 attribute
 DOMString
 name
