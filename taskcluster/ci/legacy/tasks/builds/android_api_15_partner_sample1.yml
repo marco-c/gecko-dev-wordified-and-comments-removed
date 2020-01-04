@@ -469,6 +469,9 @@ production
 staging
 treeherder
 :
+tier
+:
+2
 machine
 :
 #
