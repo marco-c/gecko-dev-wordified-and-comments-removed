@@ -17,7 +17,7 @@ right
 ;
 background
 :
-white
+inherit
 ;
 z
 -
@@ -38,8 +38,7 @@ hidden
 ;
 color
 :
-#
-333
+inherit
 ;
 }
 .

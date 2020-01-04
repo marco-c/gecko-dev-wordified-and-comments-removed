@@ -238,6 +238,11 @@ wbr
 '
 :
 true
+'
+menuitem
+'
+:
+true
 }
 implicitlyClosed
 :
@@ -1124,6 +1129,12 @@ null
 ;
 }
 }
+inText
+.
+isInText
+=
+true
+;
 function
 inTag
 (
