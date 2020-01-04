@@ -5452,7 +5452,7 @@ GCType
 :
 Shape
 :
-TraceEdge
+TraceNullableEdge
 (
 trc
 &
@@ -5488,7 +5488,7 @@ GCType
 :
 ObjectGroup
 :
-TraceEdge
+TraceNullableEdge
 (
 trc
 &
@@ -5524,7 +5524,7 @@ GCType
 :
 JSObject
 :
-TraceEdge
+TraceNullableEdge
 (
 trc
 &
