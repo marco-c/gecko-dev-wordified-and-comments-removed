@@ -7468,6 +7468,16 @@ Context
 }
 else
 {
+JS
+:
+:
+PrepareSystemZoneForGC
+(
+Context
+(
+)
+)
+;
 for
 (
 auto
