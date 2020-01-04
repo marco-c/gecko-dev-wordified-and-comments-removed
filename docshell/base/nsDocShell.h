@@ -1314,9 +1314,10 @@ aBypassClassifier
 nsresult
 ScrollToAnchor
 (
-nsACString
-&
-aCurHash
+bool
+aCurHasRef
+bool
+aNewHasRef
 nsACString
 &
 aNewHash
