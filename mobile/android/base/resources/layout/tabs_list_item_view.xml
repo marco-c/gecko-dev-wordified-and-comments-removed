@@ -466,7 +466,7 @@ true
 LinearLayout
 >
 <
-ImageButton
+ImageView
 android
 :
 id
@@ -497,15 +497,6 @@ layout_height
 =
 "
 match_parent
-"
-android
-:
-background
-=
-"
-drawable
-/
-action_bar_button_inverse
 "
 android
 :
