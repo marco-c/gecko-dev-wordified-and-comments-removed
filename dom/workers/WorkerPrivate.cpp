@@ -2747,7 +2747,6 @@ aWorkerPrivate
 >
 ModifyBusyCountFromWorker
 (
-aCx
 false
 )
 ;
@@ -20891,9 +20890,6 @@ WorkerPrivate
 :
 ModifyBusyCountFromWorker
 (
-JSContext
-*
-aCx
 bool
 aIncrease
 )
@@ -21030,7 +21026,6 @@ Length
 ?
 ModifyBusyCountFromWorker
 (
-aCx
 true
 )
 :
@@ -21094,7 +21089,6 @@ IsEmpty
 !
 ModifyBusyCountFromWorker
 (
-aCx
 false
 )
 )
@@ -21182,7 +21176,6 @@ IsEmpty
 !
 ModifyBusyCountFromWorker
 (
-aCx
 true
 )
 )
@@ -21259,7 +21252,6 @@ IsEmpty
 !
 ModifyBusyCountFromWorker
 (
-aCx
 false
 )
 )
@@ -24430,7 +24422,6 @@ if
 !
 ModifyBusyCountFromWorker
 (
-aCx
 true
 )
 )
@@ -25281,7 +25272,6 @@ if
 !
 ModifyBusyCountFromWorker
 (
-aCx
 false
 )
 )
