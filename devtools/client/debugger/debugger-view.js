@@ -286,6 +286,9 @@ var
 DebuggerView
 =
 {
+LARGE_FILE_SIZE
+:
+1048576
 initialize
 :
 function
