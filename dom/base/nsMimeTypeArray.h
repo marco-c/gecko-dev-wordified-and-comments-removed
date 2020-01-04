@@ -243,17 +243,6 @@ nsAString
 aExtension
 )
 ;
-nsMimeType
-(
-nsPIDOMWindowInner
-*
-aWindow
-const
-nsAString
-&
-aMimeType
-)
-;
 nsPIDOMWindowInner
 *
 GetParentObject
