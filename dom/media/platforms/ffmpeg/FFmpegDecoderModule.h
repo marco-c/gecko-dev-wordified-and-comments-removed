@@ -80,6 +80,7 @@ forget
 )
 ;
 }
+explicit
 FFmpegDecoderModule
 (
 FFmpegLibWrapper
