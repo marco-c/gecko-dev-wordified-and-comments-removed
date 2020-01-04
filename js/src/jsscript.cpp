@@ -19172,10 +19172,12 @@ dataSize
 (
 )
 ;
+ScopedJSFreePtr
+<
 uint8_t
-*
+>
 data
-=
+(
 AllocScriptData
 (
 cx
@@ -19185,6 +19187,7 @@ zone
 (
 )
 size
+)
 )
 ;
 if
@@ -19876,6 +19879,10 @@ dst
 data
 =
 data
+.
+forget
+(
+)
 ;
 dst
 -
@@ -19886,6 +19893,9 @@ size
 ;
 memcpy
 (
+dst
+-
+>
 data
 src
 -
