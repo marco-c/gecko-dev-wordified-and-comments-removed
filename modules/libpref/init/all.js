@@ -37560,7 +37560,7 @@ discovery
 .
 enabled
 "
-true
+false
 )
 ;
 pref
