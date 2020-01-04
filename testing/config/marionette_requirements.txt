@@ -14,12 +14,6 @@ wptserve
 /
 marionette
 /
-transport
-.
-.
-/
-marionette
-/
 driver
 .
 .

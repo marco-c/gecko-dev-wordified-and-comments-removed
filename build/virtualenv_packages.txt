@@ -1,12 +1,3 @@
-marionette_transport
-.
-pth
-:
-testing
-/
-marionette
-/
-transport
 marionette_driver
 .
 pth
