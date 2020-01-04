@@ -5265,9 +5265,9 @@ processTabQueue
 {
 if
 (
-AppConstants
+TabQueueHelper
 .
-MOZ_ANDROID_TAB_QUEUE
+TAB_QUEUE_ENABLED
 &
 &
 mInitialized
@@ -19014,9 +19014,9 @@ intent
 }
 if
 (
-AppConstants
+TabQueueHelper
 .
-MOZ_ANDROID_TAB_QUEUE
+TAB_QUEUE_ENABLED
 &
 &
 mInitialized
@@ -19230,9 +19230,9 @@ run
 {
 if
 (
-AppConstants
+TabQueueHelper
 .
-MOZ_ANDROID_TAB_QUEUE
+TAB_QUEUE_ENABLED
 &
 &
 mInitialized
