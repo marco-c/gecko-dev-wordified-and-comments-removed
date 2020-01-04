@@ -17694,7 +17694,7 @@ return
 TextRangeType
 :
 :
-NS_TEXTRANGE_SELECTEDRAWTEXT
+eSelectedRawClause
 ;
 default
 :
@@ -17711,7 +17711,7 @@ return
 TextRangeType
 :
 :
-NS_TEXTRANGE_SELECTEDRAWTEXT
+eSelectedRawClause
 ;
 }
 }

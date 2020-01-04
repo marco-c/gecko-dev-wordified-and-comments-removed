@@ -436,7 +436,7 @@ nsITextInputProcessor
 :
 :
 ATTR_RAW_CLAUSE
-NS_TEXTRANGE_SELECTEDRAWTEXT
+eSelectedRawClause
 =
 nsITextInputProcessor
 :
@@ -703,7 +703,7 @@ mRangeType
 TextRangeType
 :
 :
-NS_TEXTRANGE_SELECTEDRAWTEXT
+eSelectedRawClause
 |
 |
 range

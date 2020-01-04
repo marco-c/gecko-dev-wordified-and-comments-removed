@@ -8830,7 +8830,7 @@ return
 TextRangeType
 :
 :
-NS_TEXTRANGE_SELECTEDRAWTEXT
+eSelectedRawClause
 ;
 case
 ATTR_TARGET_CONVERTED
