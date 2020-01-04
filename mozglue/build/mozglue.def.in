@@ -85,6 +85,12 @@ free_impl
 posix_memalign
 =
 posix_memalign_impl
+malloc_protect
+=
+malloc_protect_impl
+malloc_unprotect
+=
+malloc_unprotect_impl
 malloc_usable_size
 =
 malloc_usable_size_impl
@@ -111,6 +117,12 @@ je_free
 posix_memalign
 =
 je_posix_memalign
+malloc_protect
+=
+je_malloc_protect
+malloc_unprotect
+=
+je_malloc_unprotect
 malloc_usable_size
 =
 je_malloc_usable_size
@@ -160,5 +172,9 @@ in
 frex
 =
 dumb_free_thunk
+#
+else
+malloc_protect
+malloc_unprotect
 #
 endif
