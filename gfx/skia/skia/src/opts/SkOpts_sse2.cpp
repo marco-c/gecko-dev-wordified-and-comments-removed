@@ -143,6 +143,13 @@ sk_sse2
 :
 blit_row_color32
 ;
+blit_row_s32a_opaque
+=
+sk_sse2
+:
+:
+blit_row_s32a_opaque
+;
 matrix_translate
 =
 sk_sse2
