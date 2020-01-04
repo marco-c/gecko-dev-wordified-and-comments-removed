@@ -264,6 +264,10 @@ mWasFinishedOnLastTick
 (
 false
 )
+mNeedsNewAnimationIndexWhenRun
+(
+false
+)
 {
 }
 JSObject
@@ -532,6 +536,9 @@ mOwningElement
 ;
 bool
 mWasFinishedOnLastTick
+;
+bool
+mNeedsNewAnimationIndexWhenRun
 ;
 }
 ;

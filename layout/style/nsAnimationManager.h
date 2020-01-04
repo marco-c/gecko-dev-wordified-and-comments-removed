@@ -268,6 +268,10 @@ mPauseShouldStick
 (
 false
 )
+mNeedsNewAnimationIndexWhenRun
+(
+false
+)
 mPreviousPhaseOrIteration
 (
 PREVIOUS_PHASE_BEFORE
@@ -625,6 +629,9 @@ mIsStylePaused
 ;
 bool
 mPauseShouldStick
+;
+bool
+mNeedsNewAnimationIndexWhenRun
 ;
 enum
 {
