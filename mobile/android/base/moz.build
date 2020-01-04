@@ -2629,6 +2629,13 @@ java
 '
 home
 /
+BookmarkScreenshotRow
+.
+java
+'
+'
+home
+/
 BookmarksListAdapter
 .
 java
