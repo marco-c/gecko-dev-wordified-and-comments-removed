@@ -7472,11 +7472,13 @@ mChannel
 (
 aChannel
 )
-mCookie
+{
+CopyASCIItoUTF16
 (
 aCookie
+mCookie
 )
-{
+;
 }
 NS_IMETHOD
 Run
@@ -7549,7 +7551,7 @@ HttpBaseChannel
 >
 mChannel
 ;
-NS_ConvertASCIItoUTF16
+nsString
 mCookie
 ;
 }

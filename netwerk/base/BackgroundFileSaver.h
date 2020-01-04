@@ -231,7 +231,7 @@ nsISupports
 >
 mAsyncCopyContext
 ;
-nsAutoCString
+nsCString
 mSha256
 ;
 bool
