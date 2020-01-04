@@ -4444,10 +4444,6 @@ LayoutDevicePixel
 >
 (
 mDimensions
-.
-ToUnknownSize
-(
-)
 PixelCastJustification
 :
 :
