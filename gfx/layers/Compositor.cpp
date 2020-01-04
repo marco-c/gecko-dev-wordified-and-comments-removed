@@ -2159,6 +2159,7 @@ xwrap
 (
 xmid
 >
+=
 aRect
 .
 x
@@ -2166,6 +2167,7 @@ x
 &
 xmid
 <
+=
 aRect
 .
 XMost
@@ -2194,7 +2196,13 @@ xmid
 )
 aRect
 .
-width
+XMost
+(
+)
+-
+aRect
+.
+x
 )
 )
 "
@@ -2229,6 +2237,7 @@ ywrap
 (
 ymid
 >
+=
 aRect
 .
 y
@@ -2236,6 +2245,7 @@ y
 &
 ymid
 <
+=
 aRect
 .
 YMost
@@ -2264,7 +2274,13 @@ ymid
 )
 aRect
 .
-height
+YMost
+(
+)
+-
+aRect
+.
+y
 )
 )
 "
