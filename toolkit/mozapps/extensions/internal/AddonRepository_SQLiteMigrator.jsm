@@ -350,7 +350,6 @@ true
 _openConnection
 :
 function
-AD_openConnection
 (
 )
 {
@@ -825,7 +824,6 @@ connection
 _retrieveStoredData
 :
 function
-AD_retrieveStoredData
 (
 aCallback
 )
@@ -861,7 +859,6 @@ executeAsync
 handleResult
 :
 function
-getAllAddons_handleResult
 (
 aResults
 )
@@ -918,7 +915,6 @@ asyncErrorLogger
 handleCompletion
 :
 function
-getAllAddons_handleCompletion
 (
 aReason
 )
@@ -992,7 +988,6 @@ executeAsync
 handleResult
 :
 function
-getAllDevelopers_handleResult
 (
 aResults
 )
@@ -1106,7 +1101,6 @@ asyncErrorLogger
 handleCompletion
 :
 function
-getAllDevelopers_handleCompletion
 (
 aReason
 )
@@ -1178,7 +1172,6 @@ executeAsync
 handleResult
 :
 function
-getAllScreenshots_handleResult
 (
 aResults
 )
@@ -1292,7 +1285,6 @@ asyncErrorLogger
 handleCompletion
 :
 function
-getAllScreenshots_handleCompletion
 (
 aReason
 )
@@ -1364,7 +1356,6 @@ executeAsync
 handleResult
 :
 function
-getAllCompatOverrides_handleResult
 (
 aResults
 )
@@ -1479,7 +1470,6 @@ asyncErrorLogger
 handleCompletion
 :
 function
-getAllCompatOverrides_handleCompletion
 (
 aReason
 )
@@ -1552,7 +1542,6 @@ executeAsync
 handleResult
 :
 function
-getAllIcons_handleResult
 (
 aResults
 )
@@ -1673,7 +1662,6 @@ asyncErrorLogger
 handleCompletion
 :
 function
-getAllIcons_handleCompletion
 (
 aReason
 )
@@ -1770,7 +1758,6 @@ asyncStatementsCache
 getAsyncStatement
 :
 function
-AD_getAsyncStatement
 (
 aKey
 )
@@ -2024,7 +2011,6 @@ size
 _makeAddonFromAsyncRow
 :
 function
-AD__makeAddonFromAsyncRow
 (
 aRow
 )
@@ -2067,7 +2053,6 @@ addon
 _makeDeveloperFromAsyncRow
 :
 function
-AD__makeDeveloperFromAsyncRow
 (
 aRow
 )
@@ -2109,7 +2094,6 @@ url
 _makeScreenshotFromAsyncRow
 :
 function
-AD__makeScreenshotFromAsyncRow
 (
 aRow
 )
@@ -2217,7 +2201,6 @@ caption
 _makeCompatOverrideFromAsyncRow
 :
 function
-AD_makeCompatOverrideFromAsyncRow
 (
 aRow
 )
@@ -2312,7 +2295,6 @@ appMaxVersion
 _makeIconFromAsyncRow
 :
 function
-AD_makeIconFromAsyncRow
 (
 aRow
 )
@@ -2355,7 +2337,6 @@ url
 logSQLError
 :
 function
-AD_logSQLError
 (
 aError
 aErrorString
@@ -2383,7 +2364,6 @@ aErrorString
 asyncErrorLogger
 :
 function
-AD_asyncErrorLogger
 (
 aError
 )
@@ -2415,7 +2395,6 @@ message
 _createTriggers
 :
 function
-AD__createTriggers
 (
 )
 {
@@ -2515,7 +2494,6 @@ END
 _createIndices
 :
 function
-AD__createIndices
 (
 )
 {

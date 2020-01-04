@@ -860,7 +860,6 @@ getAddonsByIDs
 (
 aIds
 function
-getAddonsToCache_getAddonsByIDs
 (
 aAddons
 )
@@ -1166,7 +1165,6 @@ permissions
 isCompatibleWith
 :
 function
-ASR_isCompatibleWith
 (
 aAppVerison
 aPlatformVersion
@@ -1179,7 +1177,6 @@ true
 findUpdates
 :
 function
-ASR_findUpdates
 (
 aListener
 aReason
@@ -1515,7 +1512,6 @@ null
 shutdown
 :
 function
-AddonRepo_shutdown
 (
 )
 {
@@ -1607,7 +1603,6 @@ lastUpdate
 isMetadataStale
 :
 function
-AddonRepo_isMetadataStale
 (
 )
 {
@@ -2011,7 +2006,6 @@ addonsToCache
 searchSucceeded
 :
 function
-repopulateCacheInternal_searchSucceeded
 (
 aAddons
 )
@@ -2058,7 +2052,6 @@ resolve
 searchFailed
 :
 function
-repopulateCacheInternal_searchFailed
 (
 )
 {
@@ -2109,7 +2102,6 @@ resolve
 cacheAddons
 :
 function
-AddonRepo_cacheAddons
 (
 aIds
 aCallback
@@ -2168,7 +2160,6 @@ getAddonsToCache
 (
 aIds
 function
-cacheAddons_getAddonsToCache
 (
 aAddons
 )
@@ -2203,7 +2194,6 @@ aAddons
 searchSucceeded
 :
 function
-cacheAddons_searchSucceeded
 (
 aAddons
 )
@@ -2241,7 +2231,6 @@ aCallback
 searchFailed
 :
 function
-cacheAddons_searchFailed
 (
 )
 {
@@ -2326,7 +2315,6 @@ _searching
 getRecommendedURL
 :
 function
-AddonRepo_getRecommendedURL
 (
 )
 {
@@ -2362,7 +2350,6 @@ blank
 getSearchURL
 :
 function
-AddonRepo_getSearchURL
 (
 aSearchTerms
 )
@@ -2405,7 +2392,6 @@ blank
 cancelSearch
 :
 function
-AddonRepo_cancelSearch
 (
 )
 {
@@ -2447,7 +2433,6 @@ null
 getAddonsByIDs
 :
 function
-AddonRepo_getAddonsByIDs
 (
 aIDs
 aCallback
@@ -2923,7 +2908,6 @@ true
 retrieveRecommendedAddons
 :
 function
-AddonRepo_retrieveRecommendedAddons
 (
 aMaxResults
 aCallback
@@ -2966,7 +2950,6 @@ self
 _getLocalAddonIds
 (
 function
-retrieveRecommendedAddons_getLocalAddonIds
 (
 aLocalAddonIds
 )
@@ -2999,7 +2982,6 @@ handleResults
 searchAddons
 :
 function
-AddonRepo_searchAddons
 (
 aSearchTerms
 aMaxResults
@@ -3090,7 +3072,6 @@ self
 _getLocalAddonIds
 (
 function
-searchAddons_getLocalAddonIds
 (
 aLocalAddonIds
 )
@@ -3122,7 +3103,6 @@ handleResults
 _reportSuccess
 :
 function
-AddonRepo_reportSuccess
 (
 aResults
 aTotalResults
@@ -3183,7 +3163,6 @@ aTotalResults
 _reportFailure
 :
 function
-AddonRepo_reportFailure
 (
 )
 {
@@ -3222,7 +3201,6 @@ searchFailed
 _getUniqueDescendant
 :
 function
-AddonRepo_getUniqueDescendant
 (
 aElement
 aTagName
@@ -3259,7 +3237,6 @@ null
 _getUniqueDirectDescendant
 :
 function
-AddonRepo_getUniqueDirectDescendant
 (
 aElement
 aTagName
@@ -3307,7 +3284,6 @@ null
 _getTextContent
 :
 function
-AddonRepo_getTextContent
 (
 aElement
 )
@@ -3340,7 +3316,6 @@ null
 _getDescendantTextContent
 :
 function
-AddonRepo_getDescendantTextContent
 (
 aElement
 aTagName
@@ -3378,7 +3353,6 @@ null
 _getDirectDescendantTextContent
 :
 function
-AddonRepo_getDirectDescendantTextContent
 (
 aElement
 aTagName
@@ -3416,7 +3390,6 @@ null
 _parseAddon
 :
 function
-AddonRepo_parseAddon
 (
 aElement
 aSkip
@@ -4549,7 +4522,6 @@ some
 (
 nodes
 function
-parseAddon_platformCompatFilter
 (
 aNode
 )
@@ -4859,7 +4831,6 @@ result
 _parseAddons
 :
 function
-AddonRepo_parseAddons
 (
 aElements
 aTotalResults
@@ -4977,7 +4948,6 @@ some
 (
 applications
 function
-parseAddons_applicationsCompatFilter
 (
 aAppNode
 )
@@ -5303,7 +5273,6 @@ let
 callback
 =
 function
-addonInstallCallback
 (
 aInstall
 )
@@ -5386,7 +5355,6 @@ null
 _parseAddonCompatElement
 :
 function
-AddonRepo_parseAddonCompatElement
 (
 aResultObj
 aElement
@@ -5869,7 +5837,6 @@ compat
 _parseAddonCompatData
 :
 function
-AddonRepo_parseAddonCompatData
 (
 aElements
 )
@@ -6275,7 +6242,6 @@ null
 _getLocalAddonIds
 :
 function
-AddonRepo_getLocalAddonIds
 (
 aCallback
 )
@@ -6302,7 +6268,6 @@ AddonManager
 getAllAddons
 (
 function
-getLocalAddonIds_getAllAddons
 (
 aAddons
 )
@@ -6342,7 +6307,6 @@ AddonManager
 getAllInstalls
 (
 function
-getLocalAddonIds_getAllInstalls
 (
 aInstalls
 )
@@ -6408,7 +6372,6 @@ localAddonIds
 _formatURLPref
 :
 function
-AddonRepo_formatURLPref
 (
 aPreference
 aSubstitutions
@@ -6480,7 +6443,6 @@ Z_
 /
 g
 function
-urlSubstitution
 (
 aMatch
 aKey
@@ -6517,7 +6479,6 @@ url
 findMatchingCompatOverride
 :
 function
-AddonRepo_findMatchingCompatOverride
 (
 aAddonVersion
 aCompatOverrides
@@ -7102,7 +7063,6 @@ openConnection
 shutdown
 :
 function
-AD_shutdown
 (
 aSkipFlush
 )
@@ -7164,7 +7124,6 @@ flush
 delete
 :
 function
-AD_delete
 (
 aCallback
 )
@@ -7287,7 +7246,6 @@ _deleting
 toJSON
 :
 function
-AD_toJSON
 (
 )
 {
@@ -7432,7 +7390,6 @@ addons
 repopulate
 :
 function
-AD_repopulate
 (
 aAddons
 aCallback
@@ -7454,7 +7411,6 @@ insertAddons
 (
 aAddons
 function
-repopulate_insertAddons
 (
 )
 {
@@ -7594,7 +7550,6 @@ aCallback
 _insertAddon
 :
 function
-AD__insertAddon
 (
 aAddon
 )

@@ -990,7 +990,6 @@ aObjects
 map
 (
 function
-asyncMap_each
 (
 aObject
 aIndex
@@ -1003,7 +1002,6 @@ aMethod
 (
 aObject
 function
-asyncMap_callback
 (
 aResult
 )
@@ -1423,7 +1421,6 @@ this
 pendingUpgrade
 "
 function
-DBA_pendingUpgradeGetter
 (
 )
 {
@@ -2189,7 +2186,6 @@ toSave
 getMigrateDataFromSQLITE
 :
 function
-XPIDB_getMigrateDataFromSQLITE
 (
 )
 {
@@ -2293,7 +2289,6 @@ migrateData
 syncLoadDB
 :
 function
-XPIDB_syncLoadDB
 (
 aRebuildOnError
 )
@@ -3192,7 +3187,6 @@ done
 asyncLoadDB
 :
 function
-XPIDB_asyncLoadDB
 (
 )
 {
@@ -3482,7 +3476,6 @@ addonDB
 rebuildDatabase
 :
 function
-XIPDB_rebuildDatabase
 (
 aRebuildOnError
 )
@@ -3618,7 +3611,6 @@ true
 getActiveBundles
 :
 function
-XPIDB_getActiveBundles
 (
 )
 {
@@ -3789,7 +3781,6 @@ bundles
 getMigrateDataFromRDF
 :
 function
-XPIDB_getMigrateDataFromRDF
 (
 aDbWasMissing
 )
@@ -4223,7 +4214,6 @@ migrateData
 getMigrateDataFromDatabase
 :
 function
-XPIDB_getMigrateDataFromDatabase
 (
 aConnection
 )
@@ -4743,7 +4733,6 @@ migrateData
 shutdown
 :
 function
-XPIDB_shutdown
 (
 )
 {
@@ -5075,7 +5064,6 @@ null
 getAddonInLocation
 :
 function
-XPIDB_getAddonInLocation
 (
 aId
 aLocation
@@ -5118,7 +5106,6 @@ aCallback
 getAddonsInLocation
 :
 function
-XPIDB_getAddonsInLocation
 (
 aLocation
 aCallback
@@ -5146,7 +5133,6 @@ aCallback
 getVisibleAddonForID
 :
 function
-XPIDB_getVisibleAddonForID
 (
 aId
 aCallback
@@ -5181,7 +5167,6 @@ aCallback
 getVisibleAddons
 :
 function
-XPIDB_getVisibleAddons
 (
 aTypes
 aCallback
@@ -5237,7 +5222,6 @@ aCallback
 getAddonsByType
 :
 function
-XPIDB_getAddonsByType
 (
 aType
 )
@@ -5316,7 +5300,6 @@ aType
 getVisibleAddonForInternalName
 :
 function
-XPIDB_getVisibleAddonForInternalName
 (
 aInternalName
 )
@@ -5393,7 +5376,6 @@ aInternalName
 getVisibleAddonsWithPendingOperations
 :
 function
-XPIDB_getVisibleAddonsWithPendingOperations
 (
 aTypes
 aCallback
@@ -5468,7 +5450,6 @@ aCallback
 getAddonBySyncGUID
 :
 function
-XPIDB_getAddonBySyncGUID
 (
 aGUID
 aCallback
@@ -5494,7 +5475,6 @@ aCallback
 getAddons
 :
 function
-XPIDB_getAddons
 (
 )
 {
@@ -5527,7 +5507,6 @@ true
 addAddonMetadata
 :
 function
-XPIDB_addAddonMetadata
 (
 aAddon
 aDescriptor
@@ -5616,7 +5595,6 @@ newAddon
 updateAddonMetadata
 :
 function
-XPIDB_updateAddonMetadata
 (
 aOldAddon
 aNewAddon
@@ -5697,7 +5675,6 @@ aDescriptor
 removeAddonMetadata
 :
 function
-XPIDB_removeAddonMetadata
 (
 aAddon
 )
@@ -5723,7 +5700,6 @@ saveChanges
 makeAddonVisible
 :
 function
-XPIDB_makeAddonVisible
 (
 aAddon
 )
@@ -5828,7 +5804,6 @@ saveChanges
 setAddonProperties
 :
 function
-XPIDB_setAddonProperties
 (
 aAddon
 aProperties
@@ -5863,7 +5838,6 @@ saveChanges
 setAddonSyncGUID
 :
 function
-XPIDB_setAddonSyncGUID
 (
 aAddon
 aGUID
@@ -5965,7 +5939,6 @@ saveChanges
 updateAddonActive
 :
 function
-XPIDB_updateAddonActive
 (
 aAddon
 aActive
@@ -6012,7 +5985,6 @@ saveChanges
 updateActiveAddons
 :
 function
-XPIDB_updateActiveAddons
 (
 )
 {
@@ -6134,7 +6106,6 @@ saveChanges
 writeAddonsList
 :
 function
-XPIDB_writeAddonsList
 (
 )
 {

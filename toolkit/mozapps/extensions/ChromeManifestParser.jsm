@@ -146,7 +146,6 @@ ChromeManifestParser
 parseSync
 :
 function
-CMP_parseSync
 (
 aURI
 )
@@ -383,7 +382,6 @@ data
 _readFromJar
 :
 function
-CMP_readFromJar
 (
 aURI
 )
@@ -641,7 +639,6 @@ data
 _readFromFile
 :
 function
-CMP_readFromFile
 (
 aURI
 )
@@ -761,7 +758,6 @@ data
 hasType
 :
 function
-CMP_hasType
 (
 aManifest
 aType
@@ -773,7 +769,6 @@ aManifest
 some
 (
 function
-hasType_matchEntryType
 (
 aEntry
 )

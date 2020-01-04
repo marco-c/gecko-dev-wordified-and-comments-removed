@@ -295,7 +295,6 @@ __defineGetter__
 _prefs
 "
 function
-prefsGetter
 (
 )
 {
@@ -332,7 +331,6 @@ __defineGetter__
 _maxUsedThemes
 "
 function
-maxUsedThemesGetter
 (
 )
 {
@@ -385,7 +383,6 @@ __defineSetter__
 _maxUsedThemes
 "
 function
-maxUsedThemesSetter
 (
 aVal
 )
@@ -417,7 +414,6 @@ null
 ;
 (
 function
-migrateToNewStorageFormat
 (
 )
 {
@@ -783,7 +779,6 @@ false
 setLocalTheme
 :
 function
-LightweightThemeManager_setLocalTheme
 (
 aData
 )
@@ -798,7 +793,6 @@ true
 getUsedTheme
 :
 function
-LightweightThemeManager_getUsedTheme
 (
 aId
 )
@@ -838,7 +832,6 @@ null
 forgetUsedTheme
 :
 function
-LightweightThemeManager_forgetUsedTheme
 (
 aId
 )
@@ -951,7 +944,6 @@ wrapper
 addBuiltInTheme
 :
 function
-LightweightThemeManager_addBuiltInTheme
 (
 theme
 )
@@ -1019,7 +1011,6 @@ theme
 forgetBuiltInTheme
 :
 function
-LightweightThemeManager_forgetBuiltInTheme
 (
 id
 )
@@ -1079,7 +1070,6 @@ id
 clearBuiltInThemes
 :
 function
-LightweightThemeManager_clearBuiltInThemes
 (
 )
 {
@@ -1109,7 +1099,6 @@ id
 previewTheme
 :
 function
-LightweightThemeManager_previewTheme
 (
 aData
 )
@@ -1232,7 +1221,6 @@ aData
 resetPreview
 :
 function
-LightweightThemeManager_resetPreview
 (
 )
 {
@@ -1263,7 +1251,6 @@ currentThemeForDisplay
 parseTheme
 :
 function
-LightweightThemeManager_parseTheme
 (
 aString
 aBaseURI
@@ -1298,7 +1285,6 @@ null
 updateCurrentTheme
 :
 function
-LightweightThemeManager_updateCurrentTheme
 (
 )
 {
@@ -1443,7 +1429,6 @@ addEventListener
 load
 "
 function
-loadEventListener
 (
 )
 {
@@ -1544,7 +1529,6 @@ null
 themeChanged
 :
 function
-LightweightThemeManager_themeChanged
 (
 aData
 )
@@ -1607,7 +1591,6 @@ _persistImages
 (
 aData
 function
-themeChanged_persistImages
 (
 )
 {
@@ -1682,7 +1665,6 @@ null
 startup
 :
 function
-LightweightThemeManager_startup
 (
 )
 {
@@ -1758,7 +1740,6 @@ false
 shutdown
 :
 function
-LightweightThemeManager_shutdown
 (
 )
 {
@@ -1775,7 +1756,6 @@ _prefObserver
 addonChanged
 :
 function
-LightweightThemeManager_addonChanged
 (
 aId
 aType
@@ -2102,7 +2082,6 @@ null
 getAddonByID
 :
 function
-LightweightThemeManager_getAddonByID
 (
 aId
 aCallback
@@ -2167,7 +2146,6 @@ theme
 getAddonsByTypes
 :
 function
-LightweightThemeManager_getAddonsByTypes
 (
 aTypes
 aCallback
@@ -2235,7 +2213,6 @@ __defineGetter__
 id
 "
 function
-AddonWrapper_idGetter
 (
 )
 {
@@ -2257,7 +2234,6 @@ __defineGetter__
 type
 "
 function
-AddonWrapper_typeGetter
 (
 )
 {
@@ -2275,7 +2251,6 @@ __defineGetter__
 isActive
 "
 function
-AddonWrapper_isActiveGetter
 (
 )
 {
@@ -2314,7 +2289,6 @@ __defineGetter__
 name
 "
 function
-AddonWrapper_nameGetter
 (
 )
 {
@@ -2334,7 +2308,6 @@ __defineGetter__
 version
 "
 function
-AddonWrapper_versionGetter
 (
 )
 {
@@ -2380,7 +2353,6 @@ __defineGetter__
 (
 prop
 function
-AddonWrapper_optionalPropGetter
 (
 )
 {
@@ -2425,7 +2397,6 @@ __defineGetter__
 (
 prop
 function
-AddonWrapper_datePropGetter
 (
 )
 {
@@ -2460,7 +2431,6 @@ __defineGetter__
 creator
 "
 function
-AddonWrapper_creatorGetter
 (
 )
 {
@@ -2494,7 +2464,6 @@ __defineGetter__
 screenshots
 "
 function
-AddonWrapper_screenshotsGetter
 (
 )
 {
@@ -2527,7 +2496,6 @@ __defineGetter__
 pendingOperations
 "
 function
-AddonWrapper_pendingOperationsGetter
 (
 )
 {
@@ -2578,7 +2546,6 @@ __defineGetter__
 operationsRequiringRestart
 "
 function
-AddonWrapper_operationsRequiringRestartGetter
 (
 )
 {
@@ -2641,7 +2608,6 @@ __defineGetter__
 size
 "
 function
-AddonWrapper_sizeGetter
 (
 )
 {
@@ -2659,7 +2625,6 @@ __defineGetter__
 permissions
 "
 function
-AddonWrapper_permissionsGetter
 (
 )
 {
@@ -2723,7 +2688,6 @@ __defineGetter__
 userDisabled
 "
 function
-AddonWrapper_userDisabledGetter
 (
 )
 {
@@ -2812,7 +2776,6 @@ __defineSetter__
 userDisabled
 "
 function
-AddonWrapper_userDisabledSetter
 (
 val
 )
@@ -2857,7 +2820,6 @@ this
 uninstall
 =
 function
-AddonWrapper_uninstall
 (
 )
 {
@@ -2877,7 +2839,6 @@ this
 cancelUninstall
 =
 function
-AddonWrapper_cancelUninstall
 (
 )
 {
@@ -2903,7 +2864,6 @@ this
 findUpdates
 =
 function
-AddonWrapper_findUpdates
 (
 listener
 reason
@@ -2980,7 +2940,6 @@ false
 isCompatibleWith
 :
 function
-AddonWrapper_isCompatibleWith
 (
 appVersion
 platformVersion
@@ -3684,7 +3643,6 @@ usedThemes
 filter
 (
 function
-usedThemesExceptId_filterID
 (
 t
 )
@@ -3935,7 +3893,6 @@ _previewTimerCallback
 notify
 :
 function
-_previewTimerCallback_notify
 (
 )
 {
@@ -4314,7 +4271,6 @@ this
 onLocationChange
 =
 function
-persistProgressListener_onLocationChange
 (
 )
 {
@@ -4325,7 +4281,6 @@ this
 onProgressChange
 =
 function
-persistProgressListener_onProgressChange
 (
 )
 {
@@ -4336,7 +4291,6 @@ this
 onStatusChange
 =
 function
-persistProgressListener_onStatusChange
 (
 )
 {
@@ -4347,7 +4301,6 @@ this
 onSecurityChange
 =
 function
-persistProgressListener_onSecurityChange
 (
 )
 {
@@ -4358,7 +4311,6 @@ this
 onStateChange
 =
 function
-persistProgressListener_onStateChange
 (
 aWebProgress
 aRequest

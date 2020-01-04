@@ -263,7 +263,6 @@ prototype
 observe
 :
 function
-AMC_observe
 (
 aSubject
 aTopic
@@ -291,7 +290,6 @@ startup
 mapURIToAddonID
 :
 function
-AMC_mapURIToAddonID
 (
 uri
 id
@@ -319,7 +317,6 @@ value
 isInstallEnabled
 :
 function
-AMC_isInstallEnabled
 (
 aMimetype
 aReferer
@@ -337,7 +334,6 @@ aMimetype
 installAddonsFromWebpage
 :
 function
-AMC_installAddonsFromWebpage
 (
 aMimetype
 aBrowser
@@ -436,7 +432,6 @@ getInstallForURL
 (
 uri
 function
-buildNextInstall_getInstallForURL
 (
 aInstall
 )
@@ -500,7 +495,6 @@ addListener
 onDownloadCancelled
 :
 function
-buildNextInstall_onDownloadCancelled
 (
 aInstall
 )
@@ -515,7 +509,6 @@ USER_CANCELLED
 onDownloadFailed
 :
 function
-buildNextInstall_onDownloadFailed
 (
 aInstall
 )
@@ -548,7 +541,6 @@ DOWNLOAD_ERROR
 onInstallFailed
 :
 function
-buildNextInstall_onInstallFailed
 (
 aInstall
 )
@@ -563,7 +555,6 @@ EXECUTION_ERROR
 onInstallEnded
 :
 function
-buildNextInstall_onInstallEnded
 (
 aInstall
 aStatus
@@ -633,7 +624,6 @@ retval
 notify
 :
 function
-AMC_notify
 (
 aTimer
 )
@@ -648,7 +638,6 @@ backgroundUpdateTimerHandler
 receiveMessage
 :
 function
-AMC_receiveMessage
 (
 aMessage
 )
@@ -706,7 +695,6 @@ callback
 onInstallEnded
 :
 function
-ITP_callback
 (
 url
 status
@@ -794,7 +782,6 @@ _xpcom_factory
 createInstance
 :
 function
-AMC_createInstance
 (
 aOuter
 aIid

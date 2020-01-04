@@ -274,7 +274,6 @@ upgradeDeclined
 init
 :
 function
-gUpdateWizard_init
 (
 )
 {
@@ -437,7 +436,6 @@ shouldAutoCheck
 _setUpButton
 :
 function
-gUpdateWizard_setUpButton
 (
 aButtonID
 aButtonKey
@@ -523,7 +521,6 @@ aDisabled
 setButtonLabels
 :
 function
-gUpdateWizard_setButtonLabels
 (
 aBackButton
 aBackButtonIsDisabled
@@ -574,7 +571,6 @@ errorItems
 checkForErrors
 :
 function
-gUpdateWizard_checkForErrors
 (
 aElementIDToShow
 )
@@ -604,7 +600,6 @@ false
 onWizardClose
 :
 function
-gUpdateWizard_onWizardClose
 (
 aEvent
 )
@@ -620,7 +615,6 @@ onWizardCancel
 onWizardCancel
 :
 function
-gUpdateWizard_onWizardCancel
 (
 )
 {
@@ -741,7 +735,6 @@ gOfflinePage
 onPageAdvanced
 :
 function
-gOfflinePage_onPageAdvanced
 (
 )
 {
@@ -760,7 +753,6 @@ true
 toggleOffline
 :
 function
-gOfflinePage_toggleOffline
 (
 )
 {
@@ -796,7 +788,6 @@ listener
 onDisabled
 :
 function
-listener_onDisabled
 (
 aAddon
 )
@@ -822,7 +813,6 @@ metadataDisabled
 onEnabled
 :
 function
-listener_onEnabled
 (
 aAddon
 )
@@ -868,7 +858,6 @@ async
 (
 function
 *
-gVersionInfoPage_onPageShow
 (
 )
 {
@@ -1115,7 +1104,6 @@ UPDATE_WHEN_NEW_APP_INSTALLED
 onAllUpdatesFinished
 :
 function
-gVersionInfoPage_onAllUpdatesFinished
 (
 )
 {
@@ -1453,7 +1441,6 @@ close
 onUpdateFinished
 :
 function
-gVersionInfoPage_onUpdateFinished
 (
 aAddon
 status
@@ -1708,7 +1695,6 @@ onAllUpdatesFinished
 onUpdateAvailable
 :
 function
-gVersionInfoPage_onUpdateAvailable
 (
 aAddon
 aInstall
@@ -1764,7 +1750,6 @@ false
 onPageShow
 :
 function
-gMismatchPage_onPageShow
 (
 )
 {
@@ -1884,7 +1869,6 @@ _completeCount
 onPageShow
 :
 function
-gUpdatePage_onPageShow
 (
 )
 {
@@ -1983,7 +1967,6 @@ UPDATE_WHEN_NEW_APP_INSTALLED
 onAllUpdatesFinished
 :
 function
-gUpdatePage_onAllUpdatesFinished
 (
 )
 {
@@ -2040,7 +2023,6 @@ nextPage
 onUpdateAvailable
 :
 function
-gUpdatePage_onUpdateAvailable
 (
 aAddon
 aInstall
@@ -2084,7 +2066,6 @@ aInstall
 onUpdateFinished
 :
 function
-gUpdatePage_onUpdateFinished
 (
 aAddon
 status
@@ -2237,7 +2218,6 @@ gFoundPage
 onPageShow
 :
 function
-gFoundPage_onPageShow
 (
 )
 {
@@ -2425,7 +2405,6 @@ false
 toggleXPInstallEnable
 :
 function
-gFoundPage_toggleXPInstallEnable
 (
 aEvent
 )
@@ -2492,7 +2471,6 @@ updateNextButton
 updateNextButton
 :
 function
-gFoundPage_updateNextButton
 (
 )
 {
@@ -2654,7 +2632,6 @@ false
 startInstalls
 :
 function
-gInstallingPage_startInstalls
 (
 aInstallList
 )
@@ -2728,7 +2705,6 @@ startNextInstall
 onPageShow
 :
 function
-gInstallingPage_onPageShow
 (
 )
 {
@@ -2863,7 +2839,6 @@ toInstall
 startNextInstall
 :
 function
-gInstallingPage_startNextInstall
 (
 )
 {
@@ -3121,7 +3096,6 @@ install
 onDownloadStarted
 :
 function
-gInstallingPage_onDownloadStarted
 (
 aInstall
 )
@@ -3187,7 +3161,6 @@ label
 onDownloadProgress
 :
 function
-gInstallingPage_onDownloadProgress
 (
 aInstall
 )
@@ -3237,7 +3210,6 @@ maxProgress
 onDownloadEnded
 :
 function
-gInstallingPage_onDownloadEnded
 (
 aInstall
 )
@@ -3246,7 +3218,6 @@ aInstall
 onDownloadFailed
 :
 function
-gInstallingPage_onDownloadFailed
 (
 aInstall
 )
@@ -3276,7 +3247,6 @@ startNextInstall
 onInstallStarted
 :
 function
-gInstallingPage_onInstallStarted
 (
 aInstall
 )
@@ -3342,7 +3312,6 @@ label
 onInstallEnded
 :
 function
-gInstallingPage_onInstallEnded
 (
 aInstall
 aAddon
@@ -3385,7 +3354,6 @@ startNextInstall
 onInstallFailed
 :
 function
-gInstallingPage_onInstallFailed
 (
 aInstall
 )
@@ -3421,7 +3389,6 @@ gInstallErrorsPage
 onPageShow
 :
 function
-gInstallErrorsPage_onPageShow
 (
 )
 {
@@ -3462,7 +3429,6 @@ gAdminDisabledPage
 onPageShow
 :
 function
-gAdminDisabledPage_onPageShow
 (
 )
 {
@@ -3505,7 +3471,6 @@ gFinishedPage
 onPageShow
 :
 function
-gFinishedPage_onPageShow
 (
 )
 {
@@ -3602,7 +3567,6 @@ gNoUpdatesPage
 onPageShow
 :
 function
-gNoUpdatesPage_onPageLoad
 (
 aEvent
 )

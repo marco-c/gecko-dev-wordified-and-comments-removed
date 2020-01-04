@@ -1918,7 +1918,6 @@ spawn
 (
 function
 *
-GMPProvider_updateTask
 (
 )
 {
@@ -4043,7 +4042,6 @@ spawn
 (
 function
 *
-GMPProvider_shutdownTask
 (
 )
 {

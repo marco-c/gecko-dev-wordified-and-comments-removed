@@ -105,7 +105,6 @@ addMessageListener
 (
 MSG_JAR_FLUSH
 function
-jar_flushMessageListener
 (
 message
 )

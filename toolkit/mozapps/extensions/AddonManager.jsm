@@ -665,7 +665,6 @@ this
 CertUtils
 "
 function
-certUtilsLazyGetter
 (
 )
 {
@@ -934,7 +933,6 @@ PrefObserver
 init
 :
 function
-PrefObserver_init
 (
 )
 {
@@ -977,7 +975,6 @@ PREF_LOGGING_ENABLED
 observe
 :
 function
-PrefObserver_observe
 (
 aSubject
 aTopic
@@ -1606,7 +1603,6 @@ null
 callNext
 :
 function
-AOC_callNext
 (
 )
 {
@@ -2092,7 +2088,6 @@ null
 toString
 :
 function
-AddonAuthor_toString
 (
 )
 {
@@ -2215,7 +2210,6 @@ null
 toString
 :
 function
-AddonScreenshot_toString
 (
 )
 {
@@ -2433,7 +2427,6 @@ __defineGetter__
 name
 "
 function
-nameGetter
 (
 )
 {
@@ -2625,7 +2618,6 @@ create
 getOwnPropertyDescriptor
 :
 function
-typesProxy_getOwnPropertyDescriptor
 (
 aName
 )
@@ -2670,7 +2662,6 @@ true
 getPropertyDescriptor
 :
 function
-typesProxy_getPropertyDescriptor
 (
 aName
 )
@@ -2687,7 +2678,6 @@ aName
 getOwnPropertyNames
 :
 function
-typesProxy_getOwnPropertyNames
 (
 )
 {
@@ -2705,7 +2695,6 @@ types
 getPropertyNames
 :
 function
-typesProxy_getPropertyNames
 (
 )
 {
@@ -2720,7 +2709,6 @@ getOwnPropertyNames
 delete
 :
 function
-typesProxy_delete
 (
 aName
 )
@@ -2732,7 +2720,6 @@ false
 defineProperty
 :
 function
-typesProxy_defineProperty
 (
 aName
 aProperty
@@ -2742,7 +2729,6 @@ aProperty
 fix
 :
 function
-typesProxy_fix
 (
 )
 {
@@ -2753,7 +2739,6 @@ undefined
 enumerate
 :
 function
-typesProxy_enumerate
 (
 )
 {
@@ -2770,7 +2755,6 @@ getPropertyNames
 recordTimestamp
 :
 function
-AMI_recordTimestamp
 (
 name
 value
@@ -2790,7 +2774,6 @@ value
 validateBlocklist
 :
 function
-AMI_validateBlocklist
 (
 )
 {
@@ -3524,7 +3507,6 @@ provider
 startup
 :
 function
-AMI_startup
 (
 )
 {
@@ -4581,7 +4563,6 @@ onStartup
 registerProvider
 :
 function
-AMI_registerProvider
 (
 aProvider
 aTypes
@@ -4760,7 +4741,6 @@ typeListeners
 safeCall
 (
 function
-listenerSafeCall
 (
 )
 {
@@ -4817,7 +4797,6 @@ aProvider
 unregisterProvider
 :
 function
-AMI_unregisterProvider
 (
 aProvider
 )
@@ -4969,7 +4948,6 @@ typeListeners
 safeCall
 (
 function
-listenerSafeCall
 (
 )
 {
@@ -5061,7 +5039,6 @@ undefined
 markProviderSafe
 :
 function
-AMI_markProviderSafe
 (
 aProvider
 )
@@ -5159,7 +5136,6 @@ aProvider
 callProviders
 :
 function
-AMI_callProviders
 (
 aMethod
 .
@@ -5788,7 +5764,6 @@ aPlugins
 observe
 :
 function
-AMI_observe
 (
 aSubject
 aTopic
@@ -6118,7 +6093,6 @@ break
 escapeAddonURI
 :
 function
-AMI_escapeAddonURI
 (
 aAddon
 aUri
@@ -6520,7 +6494,6 @@ w
 /
 g
 function
-parameterReplace
 (
 aMatch
 aParam
@@ -6624,7 +6597,6 @@ g
 backgroundUpdateCheck
 :
 function
-AMI_backgroundUpdateCheck
 (
 )
 {
@@ -6658,7 +6630,6 @@ spawn
 (
 function
 *
-backgroundUpdateTask
 (
 )
 {
@@ -6850,7 +6821,6 @@ findUpdates
 onUpdateAvailable
 :
 function
-BUC_onUpdateAvailable
 (
 aAddon
 aInstall
@@ -7225,7 +7195,6 @@ addListener
 onDownloadEnded
 :
 function
-BUC_onDownloadEnded
 (
 aInstall
 )
@@ -7386,7 +7355,6 @@ cancel
 onInstallEnded
 :
 function
-BUC_onInstallEnded
 (
 aInstall
 )
@@ -7407,7 +7375,6 @@ version
 onInstallCancelled
 :
 function
-BUC_onInstallCancelled
 (
 aInstall
 )
@@ -7546,7 +7513,6 @@ buPromise
 addStartupChange
 :
 function
-AMI_addStartupChange
 (
 aType
 aID
@@ -7701,7 +7667,6 @@ aID
 removeStartupChange
 :
 function
-AMI_removeStartupChange
 (
 aType
 aID
@@ -7823,7 +7788,6 @@ aID
 callManagerListeners
 :
 function
-AMI_callManagerListeners
 (
 aMethod
 .
@@ -7954,7 +7918,6 @@ e
 callInstallListeners
 :
 function
-AMI_callInstallListeners
 (
 aMethod
 aExtraListeners
@@ -8156,7 +8119,6 @@ result
 callAddonListeners
 :
 function
-AMI_callAddonListeners
 (
 aMethod
 .
@@ -8287,7 +8249,6 @@ e
 notifyAddonChanged
 :
 function
-AMI_notifyAddonChanged
 (
 aID
 aType
@@ -8424,7 +8385,6 @@ aPendingRestart
 updateAddonAppDisabledStates
 :
 function
-AMI_updateAddonAppDisabledStates
 (
 )
 {
@@ -8462,7 +8422,6 @@ updateAddonAppDisabledStates
 updateAddonRepositoryData
 :
 function
-AMI_updateAddonRepositoryData
 (
 aCallback
 )
@@ -8528,7 +8487,6 @@ updateAddonRepositoryData
 nextObject
 :
 function
-updateAddonRepositoryData_nextObject
 (
 aCaller
 aProvider
@@ -8554,7 +8512,6 @@ aCaller
 noMoreObjects
 :
 function
-updateAddonRepositoryData_noMoreObjects
 (
 aCaller
 )
@@ -8593,7 +8550,6 @@ null
 getInstallForURL
 :
 function
-AMI_getInstallForURL
 (
 aUrl
 aCallback
@@ -8992,7 +8948,6 @@ null
 getInstallForFile
 :
 function
-AMI_getInstallForFile
 (
 aFile
 aCallback
@@ -9120,7 +9075,6 @@ getInstallForFile
 nextObject
 :
 function
-getInstallForFile_nextObject
 (
 aCaller
 aProvider
@@ -9134,7 +9088,6 @@ getInstallForFile
 "
 aFile
 function
-getInstallForFile_safeCall
 (
 aInstall
 )
@@ -9163,7 +9116,6 @@ callNext
 noMoreObjects
 :
 function
-getInstallForFile_noMoreObjects
 (
 aCaller
 )
@@ -9182,7 +9134,6 @@ null
 getInstallsByTypes
 :
 function
-AMI_getInstallsByTypes
 (
 aTypes
 aCallback
@@ -9287,7 +9238,6 @@ getInstallsByTypes
 nextObject
 :
 function
-getInstallsByTypes_nextObject
 (
 aCaller
 aProvider
@@ -9301,7 +9251,6 @@ getInstallsByTypes
 "
 aTypes
 function
-getInstallsByTypes_safeCall
 (
 aProviderInstalls
 )
@@ -9334,7 +9283,6 @@ callNext
 noMoreObjects
 :
 function
-getInstallsByTypes_noMoreObjects
 (
 aCaller
 )
@@ -9353,7 +9301,6 @@ installs
 getAllInstalls
 :
 function
-AMI_getAllInstalls
 (
 aCallback
 )
@@ -9391,7 +9338,6 @@ aCallback
 mapURIToAddonID
 :
 function
-AMI_mapURIToAddonID
 (
 aURI
 )
@@ -9480,7 +9426,6 @@ null
 isInstallEnabled
 :
 function
-AMI_isInstallEnabled
 (
 aMimetype
 )
@@ -9592,7 +9537,6 @@ false
 isInstallAllowed
 :
 function
-AMI_isInstallAllowed
 (
 aMimetype
 aInstallingPrincipal
@@ -9739,7 +9683,6 @@ false
 installAddonsFromWebpage
 :
 function
-AMI_installAddonsFromWebpage
 (
 aMimetype
 aBrowser
@@ -10276,7 +10219,6 @@ cancel
 addInstallListener
 :
 function
-AMI_addInstallListener
 (
 aListener
 )
@@ -10323,7 +10265,6 @@ installListeners
 some
 (
 function
-addInstallListener_matchListener
 (
 i
 )
@@ -10350,7 +10291,6 @@ aListener
 removeInstallListener
 :
 function
-AMI_removeInstallListener
 (
 aListener
 )
@@ -10435,7 +10375,6 @@ pos
 installTemporaryAddon
 :
 function
-AMI_installTemporaryAddon
 (
 aFile
 )
@@ -10508,7 +10447,6 @@ aFile
 getPreferredIconURL
 :
 function
-AMI_getPreferredIconURL
 (
 aAddon
 aSize
@@ -10732,7 +10670,6 @@ null
 getAddonByID
 :
 function
-AMI_getAddonByID
 (
 aID
 )
@@ -10851,7 +10788,6 @@ null
 getAddonBySyncGUID
 :
 function
-AMI_getAddonBySyncGUID
 (
 aGUID
 aCallback
@@ -10952,7 +10888,6 @@ getAddonBySyncGUID
 nextObject
 :
 function
-getAddonBySyncGUID_nextObject
 (
 aCaller
 aProvider
@@ -10966,7 +10901,6 @@ getAddonBySyncGUID
 "
 aGUID
 function
-getAddonBySyncGUID_safeCall
 (
 aAddon
 )
@@ -10999,7 +10933,6 @@ callNext
 noMoreObjects
 :
 function
-getAddonBySyncGUID_noMoreObjects
 (
 aCaller
 )
@@ -11018,7 +10951,6 @@ null
 getAddonsByIDs
 :
 function
-AMI_getAddonsByIDs
 (
 aIDs
 )
@@ -11101,7 +11033,6 @@ promises
 getAddonsByTypes
 :
 function
-AMI_getAddonsByTypes
 (
 aTypes
 aCallback
@@ -11206,7 +11137,6 @@ getAddonsByTypes
 nextObject
 :
 function
-getAddonsByTypes_nextObject
 (
 aCaller
 aProvider
@@ -11220,7 +11150,6 @@ getAddonsByTypes
 "
 aTypes
 function
-getAddonsByTypes_concatAddons
 (
 aProviderAddons
 )
@@ -11253,7 +11182,6 @@ callNext
 noMoreObjects
 :
 function
-getAddonsByTypes_noMoreObjects
 (
 aCaller
 )
@@ -11272,7 +11200,6 @@ addons
 getAllAddons
 :
 function
-AMI_getAllAddons
 (
 aCallback
 )
@@ -11337,7 +11264,6 @@ aCallback
 getAddonsWithOperationsByTypes
 :
 function
-AMI_getAddonsWithOperationsByTypes
 (
 aTypes
 aCallback
@@ -11489,7 +11415,6 @@ callNext
 noMoreObjects
 :
 function
-getAddonsWithOperationsByTypes_noMoreObjects
 (
 caller
 )
@@ -11508,7 +11433,6 @@ addons
 addManagerListener
 :
 function
-AMI_addManagerListener
 (
 aListener
 )
@@ -11555,7 +11479,6 @@ managerListeners
 some
 (
 function
-addManagerListener_matchListener
 (
 i
 )
@@ -11582,7 +11505,6 @@ aListener
 removeManagerListener
 :
 function
-AMI_removeManagerListener
 (
 aListener
 )
@@ -11667,7 +11589,6 @@ pos
 addAddonListener
 :
 function
-AMI_addAddonListener
 (
 aListener
 )
@@ -11714,7 +11635,6 @@ addonListeners
 some
 (
 function
-addAddonListener_matchListener
 (
 i
 )
@@ -11741,7 +11661,6 @@ aListener
 removeAddonListener
 :
 function
-AMI_removeAddonListener
 (
 aListener
 )
@@ -11826,7 +11745,6 @@ pos
 addTypeListener
 :
 function
-AMI_addTypeListener
 (
 aListener
 )
@@ -11873,7 +11791,6 @@ typeListeners
 some
 (
 function
-addTypeListener_matchListener
 (
 i
 )
@@ -11900,7 +11817,6 @@ aListener
 removeTypeListener
 :
 function
-AMI_removeTypeListener
 (
 aListener
 )
@@ -12267,7 +12183,6 @@ AddonManagerPrivate
 startup
 :
 function
-AMP_startup
 (
 )
 {
@@ -12281,7 +12196,6 @@ startup
 registerProvider
 :
 function
-AMP_registerProvider
 (
 aProvider
 aTypes
@@ -12299,7 +12213,6 @@ aTypes
 unregisterProvider
 :
 function
-AMP_unregisterProvider
 (
 aProvider
 )
@@ -12315,7 +12228,6 @@ aProvider
 markProviderSafe
 :
 function
-AMP_markProviderSafe
 (
 aProvider
 )
@@ -12331,7 +12243,6 @@ aProvider
 backgroundUpdateCheck
 :
 function
-AMP_backgroundUpdateCheck
 (
 )
 {
@@ -12411,7 +12322,6 @@ backgroundUpdateCheck
 addStartupChange
 :
 function
-AMP_addStartupChange
 (
 aType
 aID
@@ -12429,7 +12339,6 @@ aID
 removeStartupChange
 :
 function
-AMP_removeStartupChange
 (
 aType
 aID
@@ -12447,7 +12356,6 @@ aID
 notifyAddonChanged
 :
 function
-AMP_notifyAddonChanged
 (
 aID
 aType
@@ -12467,7 +12375,6 @@ aPendingRestart
 updateAddonAppDisabledStates
 :
 function
-AMP_updateAddonAppDisabledStates
 (
 )
 {
@@ -12481,7 +12388,6 @@ updateAddonAppDisabledStates
 updateAddonRepositoryData
 :
 function
-AMP_updateAddonRepositoryData
 (
 aCallback
 )
@@ -12497,7 +12403,6 @@ aCallback
 callInstallListeners
 :
 function
-AMP_callInstallListeners
 (
 .
 .
@@ -12520,7 +12425,6 @@ aArgs
 callAddonListeners
 :
 function
-AMP_callAddonListeners
 (
 .
 .
@@ -12554,7 +12458,6 @@ AddonType
 recordTimestamp
 :
 function
-AMP_recordTimestamp
 (
 name
 value
@@ -12576,7 +12479,6 @@ _simpleMeasures
 recordSimpleMeasure
 :
 function
-AMP_recordSimpleMeasure
 (
 name
 value
@@ -12595,7 +12497,6 @@ value
 recordException
 :
 function
-AMP_recordException
 (
 aModule
 aContext
@@ -12690,7 +12591,6 @@ report
 getSimpleMeasures
 :
 function
-AMP_getSimpleMeasures
 (
 )
 {
@@ -12703,7 +12603,6 @@ _simpleMeasures
 getTelemetryDetails
 :
 function
-AMP_getTelemetryDetails
 (
 )
 {
@@ -12716,7 +12615,6 @@ telemetryDetails
 setTelemetryDetails
 :
 function
-AMP_setTelemetryDetails
 (
 aProvider
 aDetails
@@ -13167,7 +13065,6 @@ gShutdownInProgress
 getInstallForURL
 :
 function
-AM_getInstallForURL
 (
 aUrl
 aCallback
@@ -13197,7 +13094,6 @@ aBrowser
 getInstallForFile
 :
 function
-AM_getInstallForFile
 (
 aFile
 aCallback
@@ -13217,7 +13113,6 @@ aMimetype
 getStartupChanges
 :
 function
-AM_getStartupChanges
 (
 aType
 )
@@ -13254,7 +13149,6 @@ slice
 getAddonByID
 :
 function
-AM_getAddonByID
 (
 aID
 aCallback
@@ -13313,7 +13207,6 @@ error
 getAddonBySyncGUID
 :
 function
-AM_getAddonBySyncGUID
 (
 aGUID
 aCallback
@@ -13331,7 +13224,6 @@ aCallback
 getAddonsByIDs
 :
 function
-AM_getAddonsByIDs
 (
 aIDs
 aCallback
@@ -13390,7 +13282,6 @@ error
 getAddonsWithOperationsByTypes
 :
 function
-AM_getAddonsWithOperationsByTypes
 (
 aTypes
 aCallback
@@ -13408,7 +13299,6 @@ aCallback
 getAddonsByTypes
 :
 function
-AM_getAddonsByTypes
 (
 aTypes
 aCallback
@@ -13426,7 +13316,6 @@ aCallback
 getAllAddons
 :
 function
-AM_getAllAddons
 (
 aCallback
 )
@@ -13442,7 +13331,6 @@ aCallback
 getInstallsByTypes
 :
 function
-AM_getInstallsByTypes
 (
 aTypes
 aCallback
@@ -13460,7 +13348,6 @@ aCallback
 getAllInstalls
 :
 function
-AM_getAllInstalls
 (
 aCallback
 )
@@ -13476,7 +13363,6 @@ aCallback
 mapURIToAddonID
 :
 function
-AM_mapURIToAddonID
 (
 aURI
 )
@@ -13493,7 +13379,6 @@ aURI
 isInstallEnabled
 :
 function
-AM_isInstallEnabled
 (
 aType
 )
@@ -13510,7 +13395,6 @@ aType
 isInstallAllowed
 :
 function
-AM_isInstallAllowed
 (
 aType
 aInstallingPrincipal
@@ -13532,7 +13416,6 @@ aInstallingPrincipal
 installAddonsFromWebpage
 :
 function
-AM_installAddonsFromWebpage
 (
 aType
 aBrowser
@@ -13557,7 +13440,6 @@ aInstalls
 installTemporaryAddon
 :
 function
-AM_installTemporaryAddon
 (
 aDirectory
 )
@@ -13574,7 +13456,6 @@ aDirectory
 addManagerListener
 :
 function
-AM_addManagerListener
 (
 aListener
 )
@@ -13590,7 +13471,6 @@ aListener
 removeManagerListener
 :
 function
-AM_removeManagerListener
 (
 aListener
 )
@@ -13606,7 +13486,6 @@ aListener
 addInstallListener
 :
 function
-AM_addInstallListener
 (
 aListener
 )
@@ -13622,7 +13501,6 @@ aListener
 removeInstallListener
 :
 function
-AM_removeInstallListener
 (
 aListener
 )
@@ -13638,7 +13516,6 @@ aListener
 addAddonListener
 :
 function
-AM_addAddonListener
 (
 aListener
 )
@@ -13654,7 +13531,6 @@ aListener
 removeAddonListener
 :
 function
-AM_removeAddonListener
 (
 aListener
 )
@@ -13670,7 +13546,6 @@ aListener
 addTypeListener
 :
 function
-AM_addTypeListener
 (
 aListener
 )
@@ -13686,7 +13561,6 @@ aListener
 removeTypeListener
 :
 function
-AM_removeTypeListener
 (
 aListener
 )
@@ -13713,7 +13587,6 @@ addonTypes
 shouldAutoUpdate
 :
 function
-AM_shouldAutoUpdate
 (
 aAddon
 )
@@ -13941,7 +13814,6 @@ hotfixID
 escapeAddonURI
 :
 function
-AM_escapeAddonURI
 (
 aAddon
 aUri
@@ -13962,7 +13834,6 @@ aAppVersion
 getPreferredIconURL
 :
 function
-AM_getPreferredIconURL
 (
 aAddon
 aSize

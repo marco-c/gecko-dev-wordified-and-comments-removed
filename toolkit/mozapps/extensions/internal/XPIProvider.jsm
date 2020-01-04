@@ -662,7 +662,6 @@ this
 CertUtils
 "
 function
-certUtilsLazyGetter
 (
 )
 {
@@ -2146,7 +2145,6 @@ name
 get
 :
 function
-lazyObjectGetter
 (
 )
 {
@@ -2456,7 +2454,6 @@ null
 _installFile
 :
 function
-SIO_installFile
 (
 aFile
 aTargetDirectory
@@ -2577,7 +2574,6 @@ newFile
 _installDirectory
 :
 function
-SIO_installDirectory
 (
 aDirectory
 aTargetDirectory
@@ -2798,7 +2794,6 @@ newDir
 _installDirEntry
 :
 function
-SIO_installDirEntry
 (
 aDirEntry
 aTargetDirectory
@@ -2954,7 +2949,6 @@ e
 moveUnder
 :
 function
-SIO_move
 (
 aFile
 aTargetDirectory
@@ -3065,7 +3059,6 @@ e
 copy
 :
 function
-SIO_copy
 (
 aFile
 aTargetDirectory
@@ -3102,7 +3095,6 @@ e
 rollback
 :
 function
-SIO_rollback
 (
 )
 {
@@ -4061,7 +4053,6 @@ async
 (
 function
 *
-loadManifestFromWebManifest
 (
 aUri
 )
@@ -6516,7 +6507,6 @@ async
 (
 function
 *
-loadManifestFromDir
 (
 aDir
 aInstallLocation
@@ -7019,7 +7009,6 @@ async
 (
 function
 *
-loadManifestFromZipReader
 (
 aZipReader
 aInstallLocation
@@ -7408,7 +7397,6 @@ async
 (
 function
 *
-loadManifestFromZipFile
 (
 aXPIFile
 aInstallLocation
@@ -9300,7 +9288,6 @@ entries
 sort
 (
 function
-sortDirEntries
 (
 a
 b
@@ -11112,7 +11099,6 @@ false
 setTelemetry
 :
 function
-XPI_setTelemetry
 (
 aId
 aName
@@ -11159,7 +11145,6 @@ _inProgress
 doing
 :
 function
-XPI_doing
 (
 aCancellable
 )
@@ -11177,7 +11162,6 @@ aCancellable
 done
 :
 function
-XPI_done
 (
 aCancellable
 )
@@ -11224,7 +11208,6 @@ false
 cancelAll
 :
 function
-XPI_cancelAll
 (
 )
 {
@@ -11281,7 +11264,6 @@ e
 _addURIMapping
 :
 function
-XPI__addURIMapping
 (
 aID
 aFile
@@ -11359,7 +11341,6 @@ aID
 _resolveURIToFile
 :
 function
-XPI__resolveURIToFile
 (
 aURI
 )
@@ -11588,7 +11569,6 @@ null
 startup
 :
 function
-XPI_startup
 (
 aAppChanged
 aOldAppVersion
@@ -12891,7 +12871,6 @@ addObserver
 observe
 :
 function
-shutdownObserver
 (
 aSubject
 aTopic
@@ -13019,7 +12998,6 @@ addObserver
 observe
 :
 function
-uiStartupObserver
 (
 aSubject
 aTopic
@@ -13179,7 +13157,6 @@ e
 shutdown
 :
 function
-XPI_shutdown
 (
 )
 {
@@ -13433,7 +13410,6 @@ null
 applyThemeChange
 :
 function
-XPI_applyThemeChange
 (
 )
 {
@@ -13540,7 +13516,6 @@ PREF_DSS_SWITCHPENDING
 shouldForceUpdateCheck
 :
 function
-XPI_shouldForceUpdateCheck
 (
 aAppChanged
 )
@@ -13747,7 +13722,6 @@ false
 showUpgradeUI
 :
 function
-XPI_showUpgradeUI
 (
 aAddonIDs
 )
@@ -13880,7 +13854,6 @@ async
 (
 function
 *
-XPI_updateSystemAddons
 (
 )
 {
@@ -14810,7 +14783,6 @@ cleanDirectories
 verifySignatures
 :
 function
-XPI_verifySignatures
 (
 )
 {
@@ -15016,7 +14988,6 @@ err
 persistBootstrappedAddons
 :
 function
-XPI_persistBootstrappedAddons
 (
 )
 {
@@ -15088,7 +15059,6 @@ filtered
 addAddonsToCrashReporter
 :
 function
-XPI_addAddonsToCrashReporter
 (
 )
 {
@@ -15239,7 +15209,6 @@ data
 processPendingFileChanges
 :
 function
-XPI_processPendingFileChanges
 (
 aManifests
 )
@@ -16331,7 +16300,6 @@ changed
 installDistributionAddons
 :
 function
-XPI_installDistributionAddons
 (
 aManifests
 )
@@ -16919,7 +16887,6 @@ changed
 importPermissions
 :
 function
-XPI_importPermissions
 (
 )
 {
@@ -16935,7 +16902,6 @@ XPI_PERMISSION
 checkForChanges
 :
 function
-XPI_checkForChanges
 (
 aAppChanged
 aOldAppVersion
@@ -17749,7 +17715,6 @@ false
 supportsMimetype
 :
 function
-XPI_supportsMimetype
 (
 aMimetype
 )
@@ -17770,7 +17735,6 @@ xpinstall
 isInstallEnabled
 :
 function
-XPI_isInstallEnabled
 (
 )
 {
@@ -17787,7 +17751,6 @@ true
 isDirectRequestWhitelisted
 :
 function
-XPI_isDirectRequestWhitelisted
 (
 )
 {
@@ -17804,7 +17767,6 @@ true
 isFileRequestWhitelisted
 :
 function
-XPI_isFileRequestWhitelisted
 (
 )
 {
@@ -17821,7 +17783,6 @@ true
 isInstallAllowed
 :
 function
-XPI_isInstallAllowed
 (
 aInstallingPrincipal
 )
@@ -18007,7 +17968,6 @@ true
 getInstallForURL
 :
 function
-XPI_getInstallForURL
 (
 aUrl
 aHash
@@ -18023,7 +17983,6 @@ AddonInstall
 createDownload
 (
 function
-getInstallForURL_createDownload
 (
 aInstall
 )
@@ -18048,7 +18007,6 @@ aBrowser
 getInstallForFile
 :
 function
-XPI_getInstallForFile
 (
 aFile
 aCallback
@@ -18059,7 +18017,6 @@ AddonInstall
 createInstall
 (
 function
-getInstallForFile_createInstall
 (
 aInstall
 )
@@ -18094,7 +18051,6 @@ async
 (
 function
 *
-XPI_installTemporaryAddon
 (
 aDirectory
 )
@@ -18574,7 +18530,6 @@ wrapper
 removeActiveInstall
 :
 function
-XPI_removeActiveInstall
 (
 aInstall
 )
@@ -18639,7 +18594,6 @@ where
 getAddonByID
 :
 function
-XPI_getAddonByID
 (
 aId
 aCallback
@@ -18651,7 +18605,6 @@ getVisibleAddonForID
 (
 aId
 function
-getAddonByID_getVisibleAddonForID
 (
 aAddon
 )
@@ -18674,7 +18627,6 @@ null
 getAddonsByTypes
 :
 function
-XPI_getAddonsByTypes
 (
 aTypes
 aCallback
@@ -18694,7 +18646,6 @@ getVisibleAddons
 (
 typesToGet
 function
-getAddonsByTypes_getVisibleAddons
 (
 aAddons
 )
@@ -18721,7 +18672,6 @@ wrapper
 getAddonBySyncGUID
 :
 function
-XPI_getAddonBySyncGUID
 (
 aGUID
 aCallback
@@ -18733,7 +18683,6 @@ getAddonBySyncGUID
 (
 aGUID
 function
-getAddonBySyncGUID_getAddonBySyncGUID
 (
 aAddon
 )
@@ -18756,7 +18705,6 @@ null
 getAddonsWithOperationsByTypes
 :
 function
-XPI_getAddonsWithOperationsByTypes
 (
 aTypes
 aCallback
@@ -18776,7 +18724,6 @@ getVisibleAddonsWithPendingOperations
 (
 typesToGet
 function
-getAddonsWithOpsByTypes_getVisibleAddonsWithPendingOps
 (
 aAddons
 )
@@ -18854,7 +18801,6 @@ results
 getInstallsByTypes
 :
 function
-XPI_getInstallsByTypes
 (
 aTypes
 aCallback
@@ -18919,7 +18865,6 @@ results
 mapURIToAddonID
 :
 function
-XPI_mapURIToAddonID
 (
 aURI
 )
@@ -19012,7 +18957,6 @@ null
 addonChanged
 :
 function
-XPI_addonChanged
 (
 aId
 aType
@@ -19250,7 +19194,6 @@ true
 updateAddonAppDisabledStates
 :
 function
-XPI_updateAddonAppDisabledStates
 (
 )
 {
@@ -19287,7 +19230,6 @@ this
 updateAddonRepositoryData
 :
 function
-XPI_updateAddonRepositoryData
 (
 aCallback
 )
@@ -19303,7 +19245,6 @@ getVisibleAddons
 (
 null
 function
-UARD_getVisibleAddonsCallback
 (
 aAddons
 )
@@ -19384,7 +19325,6 @@ addon
 .
 id
 function
-UARD_getCachedAddonCallback
 (
 aRepoAddon
 )
@@ -19448,7 +19388,6 @@ notifyComplete
 enableDefaultTheme
 :
 function
-XPI_enableDefaultTheme
 (
 )
 {
@@ -19639,7 +19578,6 @@ id
 observe
 :
 function
-XPI_observe
 (
 aSubject
 aTopic
@@ -19800,7 +19738,6 @@ break
 enableRequiresRestart
 :
 function
-XPI_enableRequiresRestart
 (
 aAddon
 )
@@ -19880,7 +19817,6 @@ bootstrap
 disableRequiresRestart
 :
 function
-XPI_disableRequiresRestart
 (
 aAddon
 )
@@ -19975,7 +19911,6 @@ bootstrap
 installRequiresRestart
 :
 function
-XPI_installRequiresRestart
 (
 aAddon
 )
@@ -20078,7 +20013,6 @@ bootstrap
 uninstallRequiresRestart
 :
 function
-XPI_uninstallRequiresRestart
 (
 aAddon
 )
@@ -20116,7 +20050,6 @@ aAddon
 loadBootstrapScope
 :
 function
-XPI_loadBootstrapScope
 (
 aId
 aFile
@@ -20687,7 +20620,6 @@ aId
 unloadBootstrapScope
 :
 function
-XPI_unloadBootstrapScope
 (
 aId
 )
@@ -20752,7 +20684,6 @@ null
 callBootstrapMethod
 :
 function
-XPI_callBootstrapMethod
 (
 aAddon
 aFile
@@ -21271,7 +21202,6 @@ timeStart
 updateAddonDisabledState
 :
 function
-XPI_updateAddonDisabledState
 (
 aAddon
 aUserDisabled
@@ -21792,7 +21722,6 @@ isDisabled
 uninstallAddon
 :
 function
-XPI_uninstallAddon
 (
 aAddon
 )
@@ -22384,7 +22313,6 @@ requiresRestart
 cancelUninstallAddon
 :
 function
-XPI_cancelUninstallAddon
 (
 aAddon
 )
@@ -22805,7 +22733,6 @@ null
 initStagedInstall
 :
 function
-AI_initStagedInstall
 (
 aManifest
 )
@@ -22912,7 +22839,6 @@ this
 initLocalInstall
 :
 function
-AI_initLocalInstall
 (
 aCallback
 )
@@ -23297,7 +23223,6 @@ addon
 .
 id
 function
-initLocalInstall_getVisibleAddon
 (
 aAddon
 )
@@ -23378,7 +23303,6 @@ addon
 onUpdateFinished
 :
 function
-updateChecker_onUpdateFinished
 (
 aAddon
 )
@@ -23525,7 +23449,6 @@ this
 initAvailableDownload
 :
 function
-AI_initAvailableDownload
 (
 aName
 aType
@@ -23615,7 +23538,6 @@ this
 install
 :
 function
-AI_install
 (
 )
 {
@@ -23763,7 +23685,6 @@ state
 cancel
 :
 function
-AI_cancel
 (
 )
 {
@@ -24080,7 +24001,6 @@ state
 addListener
 :
 function
-AI_addListener
 (
 aListener
 )
@@ -24095,7 +24015,6 @@ listeners
 some
 (
 function
-addListener_matchListener
 (
 i
 )
@@ -24122,7 +24041,6 @@ aListener
 removeListener
 :
 function
-AI_removeListener
 (
 aListener
 )
@@ -24138,7 +24056,6 @@ listeners
 filter
 (
 function
-removeListener_filterListener
 (
 i
 )
@@ -24156,7 +24073,6 @@ aListener
 removeTemporaryFile
 :
 function
-AI_removeTemporaryFile
 (
 )
 {
@@ -24288,7 +24204,6 @@ e
 updateAddonURIs
 :
 function
-AI_updateAddonURIs
 (
 )
 {
@@ -24331,7 +24246,6 @@ async
 (
 function
 *
-AI_createLinkedInstalls
 (
 aFiles
 )
@@ -24492,7 +24406,6 @@ async
 (
 function
 *
-AI_loadMultipackageManifests
 (
 aZipReader
 )
@@ -24811,7 +24724,6 @@ async
 (
 function
 *
-AI_loadManifest
 (
 file
 )
@@ -25412,7 +25324,6 @@ addon
 observe
 :
 function
-AI_observe
 (
 aSubject
 aTopic
@@ -25429,7 +25340,6 @@ cancel
 startDownload
 :
 function
-AI_startDownload
 (
 )
 {
@@ -25565,7 +25475,6 @@ openChannel
 openChannel
 :
 function
-AI_openChannel
 (
 )
 {
@@ -25966,7 +25875,6 @@ wrapper
 onDataAvailable
 :
 function
-AI_onDataAvailable
 (
 aRequest
 aContext
@@ -26016,7 +25924,6 @@ wrapper
 asyncOnChannelRedirect
 :
 function
-AI_asyncOnChannelRedirect
 (
 aOldChannel
 aNewChannel
@@ -26151,7 +26058,6 @@ aNewChannel
 onStartRequest
 :
 function
-AI_onStartRequest
 (
 aRequest
 aContext
@@ -26372,7 +26278,6 @@ path
 onStopRequest
 :
 function
-AI_onStopRequest
 (
 aRequest
 aContext
@@ -26757,7 +26662,6 @@ addon
 onUpdateFinished
 :
 function
-onStopRequest_onUpdateFinished
 (
 aAddon
 )
@@ -26857,7 +26761,6 @@ aStatus
 downloadFailed
 :
 function
-AI_downloadFailed
 (
 aReason
 aError
@@ -26993,7 +26896,6 @@ state
 downloadCompleted
 :
 function
-AI_downloadCompleted
 (
 )
 {
@@ -27012,7 +26914,6 @@ addon
 .
 id
 function
-downloadCompleted_getVisibleAddonForID
 (
 aAddon
 )
@@ -27185,7 +27086,6 @@ install
 startInstall
 :
 function
-AI_startInstall
 (
 )
 {
@@ -28572,7 +28472,6 @@ releaseStagingDir
 getInterface
 :
 function
-AI_getInterface
 (
 iid
 )
@@ -28720,7 +28619,6 @@ AddonInstall
 createStagedInstall
 =
 function
-AI_createStagedInstall
 (
 aInstallLocation
 aDir
@@ -28763,7 +28661,6 @@ AddonInstall
 createInstall
 =
 function
-AI_createInstall
 (
 aCallback
 aFile
@@ -28844,7 +28741,6 @@ AddonInstall
 createDownload
 =
 function
-AI_createDownload
 (
 aCallback
 aUri
@@ -28923,7 +28819,6 @@ AddonInstall
 createUpdate
 =
 function
-AI_createUpdate
 (
 aCallback
 aAddon
@@ -29051,7 +28946,6 @@ __defineGetter__
 __AddonInstallInternal__
 "
 function
-AIW_debugGetter
 (
 )
 {
@@ -29116,7 +29010,6 @@ __defineGetter__
 (
 aProp
 function
-AIW_propertyGetter
 (
 )
 {
@@ -29160,7 +29053,6 @@ __defineGetter__
 iconURL
 "
 function
-AIW_iconURL
 (
 )
 {
@@ -29183,7 +29075,6 @@ __defineGetter__
 existingAddon
 "
 function
-AIW_existingAddonGetter
 (
 )
 {
@@ -29211,7 +29102,6 @@ __defineGetter__
 addon
 "
 function
-AIW_addonGetter
 (
 )
 {
@@ -29239,7 +29129,6 @@ __defineGetter__
 sourceURI
 "
 function
-AIW_sourceURIGetter
 (
 )
 {
@@ -29259,7 +29148,6 @@ __defineGetter__
 linkedInstalls
 "
 function
-AIW_linkedInstallsGetter
 (
 )
 {
@@ -29296,7 +29184,6 @@ this
 install
 =
 function
-AIW_install
 (
 )
 {
@@ -29312,7 +29199,6 @@ this
 cancel
 =
 function
-AIW_cancel
 (
 )
 {
@@ -29328,7 +29214,6 @@ this
 addListener
 =
 function
-AIW_addListener
 (
 listener
 )
@@ -29346,7 +29231,6 @@ this
 removeListener
 =
 function
-AIW_removeListener
 (
 listener
 )
@@ -29614,7 +29498,6 @@ null
 callListener
 :
 function
-UC_callListener
 (
 aMethod
 .
@@ -29679,7 +29562,6 @@ e
 onUpdateCheckComplete
 :
 function
-UC_onUpdateCheckComplete
 (
 aUpdates
 )
@@ -30139,7 +30021,6 @@ AddonInstall
 createUpdate
 (
 function
-onUpdateCheckComplete_createUpdate
 (
 aInstall
 )
@@ -30171,7 +30052,6 @@ null
 onUpdateCheckError
 :
 function
-UC_onUpdateCheckError
 (
 aError
 )
@@ -30242,7 +30122,6 @@ aError
 cancel
 :
 function
-UC_cancel
 (
 )
 {
@@ -30647,7 +30526,6 @@ needsABI
 isCompatibleWith
 :
 function
-AddonInternal_isCompatibleWith
 (
 aAppVersion
 aPlatformVersion
@@ -31075,7 +30953,6 @@ wrapper
 applyCompatibilityUpdate
 :
 function
-AddonInternal_applyCompatibilityUpdate
 (
 aUpdate
 aSyncCompatibility
@@ -31301,7 +31178,6 @@ e
 toJSON
 :
 function
-AddonInternal_toJSON
 (
 aKey
 )
@@ -31403,7 +31279,6 @@ obj
 importMetadata
 :
 function
-AddonInternal_importMetaData
 (
 aObj
 )
@@ -31456,7 +31331,6 @@ this
 permissions
 :
 function
-AddonInternal_permissions
 (
 )
 {
@@ -31604,7 +31478,6 @@ __defineGetter__
 __AddonInternal__
 "
 function
-AW_debugGetter
 (
 )
 {
@@ -31763,7 +31636,6 @@ __defineGetter__
 (
 aProp
 function
-AddonWrapper_propertyGetter
 (
 )
 {
@@ -31854,7 +31726,6 @@ __defineGetter__
 (
 aProp
 function
-AddonWrapper_repoPropertyGetter
 (
 )
 {
@@ -31890,7 +31761,6 @@ __defineGetter__
 aboutURL
 "
 function
-AddonWrapper_aboutURLGetter
 (
 )
 {
@@ -31933,7 +31803,6 @@ __defineGetter__
 (
 aProp
 function
-AddonWrapper_datePropertyGetter
 (
 )
 {
@@ -31976,7 +31845,6 @@ __defineGetter__
 (
 aProp
 function
-AddonWrapper_URIPropertyGetter
 (
 )
 {
@@ -32030,7 +31898,6 @@ __defineGetter__
 optionsURL
 "
 function
-AddonWrapper_optionsURLGetter
 (
 )
 {
@@ -32097,7 +31964,6 @@ __defineGetter__
 optionsType
 "
 function
-AddonWrapper_optionsTypeGetter
 (
 )
 {
@@ -32233,7 +32099,6 @@ __defineGetter__
 iconURL
 "
 function
-AddonWrapper_iconURLGetter
 (
 )
 {
@@ -32258,7 +32123,6 @@ __defineGetter__
 icon64URL
 "
 function
-AddonWrapper_icon64URLGetter
 (
 )
 {
@@ -32283,7 +32147,6 @@ __defineGetter__
 icons
 "
 function
-AddonWrapper_iconsGetter
 (
 )
 {
@@ -32522,7 +32385,6 @@ __defineGetter__
 (
 aProp
 function
-AddonWrapper_singleLocaleGetter
 (
 )
 {
@@ -32681,7 +32543,6 @@ __defineGetter__
 (
 aProp
 function
-AddonWrapper_multiLocaleGetter
 (
 )
 {
@@ -32836,7 +32697,6 @@ results
 map
 (
 function
-mapResult
 (
 aResult
 )
@@ -32872,7 +32732,6 @@ __defineGetter__
 screenshots
 "
 function
-AddonWrapper_screenshotsGetter
 (
 )
 {
@@ -32985,7 +32844,6 @@ __defineGetter__
 applyBackgroundUpdates
 "
 function
-AddonWrapper_applyBackgroundUpdatesGetter
 (
 )
 {
@@ -33005,7 +32863,6 @@ __defineSetter__
 applyBackgroundUpdates
 "
 function
-AddonWrapper_applyBackgroundUpdatesSetter
 (
 val
 )
@@ -33134,7 +32991,6 @@ __defineSetter__
 syncGUID
 "
 function
-AddonWrapper_syncGUIDGetter
 (
 val
 )
@@ -33185,7 +33041,6 @@ __defineGetter__
 install
 "
 function
-AddonWrapper_installGetter
 (
 )
 {
@@ -33227,7 +33082,6 @@ __defineGetter__
 pendingUpgrade
 "
 function
-AddonWrapper_pendingUpgradeGetter
 (
 )
 {
@@ -33255,7 +33109,6 @@ __defineGetter__
 scope
 "
 function
-AddonWrapper_scopeGetter
 (
 )
 {
@@ -33288,7 +33141,6 @@ __defineGetter__
 pendingOperations
 "
 function
-AddonWrapper_pendingOperationsGetter
 (
 )
 {
@@ -33424,7 +33276,6 @@ __defineGetter__
 operationsRequiringRestart
 "
 function
-AddonWrapper_operationsRequiringRestartGetter
 (
 )
 {
@@ -33511,7 +33362,6 @@ __defineGetter__
 isDebuggable
 "
 function
-AddonWrapper_isDebuggable
 (
 )
 {
@@ -33536,7 +33386,6 @@ __defineGetter__
 permissions
 "
 function
-AddonWrapper_permisionsGetter
 (
 )
 {
@@ -33558,7 +33407,6 @@ __defineGetter__
 isActive
 "
 function
-AddonWrapper_isActiveGetter
 (
 )
 {
@@ -33606,7 +33454,6 @@ __defineGetter__
 userDisabled
 "
 function
-AddonWrapper_userDisabledGetter
 (
 )
 {
@@ -33631,7 +33478,6 @@ __defineSetter__
 userDisabled
 "
 function
-AddonWrapper_userDisabledSetter
 (
 val
 )
@@ -33749,7 +33595,6 @@ __defineSetter__
 softDisabled
 "
 function
-AddonWrapper_softDisabledSetter
 (
 val
 )
@@ -33868,7 +33713,6 @@ __defineGetter__
 hidden
 "
 function
-AddonWrapper_hidden
 (
 )
 {
@@ -33916,7 +33760,6 @@ this
 isCompatibleWith
 =
 function
-AddonWrapper_isCompatiblewith
 (
 aAppVersion
 aPlatformVersion
@@ -33938,7 +33781,6 @@ this
 uninstall
 =
 function
-AddonWrapper_uninstall
 (
 )
 {
@@ -34007,7 +33849,6 @@ this
 cancelUninstall
 =
 function
-AddonWrapper_cancelUninstall
 (
 )
 {
@@ -34079,7 +33920,6 @@ this
 findUpdates
 =
 function
-AddonWrapper_findUpdates
 (
 aListener
 aReason
@@ -34130,7 +33970,6 @@ this
 cancelUpdate
 =
 function
-AddonWrapper_cancelUpdate
 (
 )
 {
@@ -34163,7 +34002,6 @@ this
 hasResource
 =
 function
-AddonWrapper_hasResource
 (
 aPath
 )
@@ -34385,7 +34223,6 @@ this
 getResourceURI
 =
 function
-AddonWrapper_getResourceURI
 (
 aPath
 )
@@ -34524,7 +34361,6 @@ null
 _readDirectoryFromFile
 :
 function
-DirInstallLocation__readDirectoryFromFile
 (
 aFile
 )
@@ -34785,7 +34621,6 @@ null
 _readAddons
 :
 function
-DirInstallLocation__readAddons
 (
 )
 {
@@ -35111,7 +34946,6 @@ locations
 getLocationForID
 :
 function
-DirInstallLocation_getLocationForID
 (
 aId
 )
@@ -35155,7 +34989,6 @@ aId
 isLinkedAddon
 :
 function
-DirInstallLocation__isLinkedAddon
 (
 aId
 )
@@ -35232,7 +35065,6 @@ prototype
 getStagingDir
 :
 function
-DirInstallLocation_getStagingDir
 (
 )
 {
@@ -35550,7 +35382,6 @@ e
 getTrashDir
 :
 function
-DirInstallLocation_getTrashDir
 (
 )
 {
@@ -35643,7 +35474,6 @@ trashDir
 installAddon
 :
 function
-DirInstallLocation_installAddon
 (
 aId
 aSource
@@ -36067,7 +35897,6 @@ newFile
 uninstallAddon
 :
 function
-DirInstallLocation_uninstallAddon
 (
 aId
 )
@@ -37838,7 +37667,6 @@ appName
 _readAddons
 :
 function
-RegInstallLocation__readAddons
 (
 aKey
 )
@@ -38034,7 +37862,6 @@ locations
 isLinkedAddon
 :
 function
-RegInstallLocation_isLinkedAddon
 (
 aId
 )
