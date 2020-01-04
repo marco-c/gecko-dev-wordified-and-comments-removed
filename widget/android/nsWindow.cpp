@@ -2389,6 +2389,16 @@ CreateEGLSurface
 (
 )
 ;
+if
+(
+!
+eglSurface
+)
+{
+return
+nullptr
+;
+}
 return
 reinterpret_cast
 <
