@@ -43,6 +43,8 @@ resource
 /
 devtools
 /
+shared
+/
 sourcemap
 /
 source
