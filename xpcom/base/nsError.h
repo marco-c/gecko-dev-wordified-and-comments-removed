@@ -24,6 +24,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Likely
 .
 h
@@ -531,6 +540,7 @@ NS_ErrorAccordingToNSPR
 )
 ;
 inline
+MOZ_CONSTEXPR
 uint16_t
 NS_ERROR_GET_CODE
 (
@@ -548,6 +558,7 @@ aErr
 ;
 }
 inline
+MOZ_CONSTEXPR
 uint16_t
 NS_ERROR_GET_MODULE
 (
