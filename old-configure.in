@@ -28561,17 +28561,6 @@ MOZ_FS_LAYOUT
 bundle
 ;
 ;
-gonk
-)
-AC_DEFINE
-(
-MOZ_TOUCH
-)
-MOZ_TOUCH
-=
-1
-;
-;
 esac
 dnl
 there
