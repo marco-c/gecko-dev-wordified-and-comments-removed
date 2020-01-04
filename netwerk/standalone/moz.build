@@ -137,11 +137,6 @@ netwerk_base_src
 =
 [
 '
-PollableEvent
-.
-cpp
-'
-'
 nsDNSPrefetch
 .
 cpp
