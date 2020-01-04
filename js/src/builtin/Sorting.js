@@ -164,13 +164,14 @@ to
 comparefn
 )
 {
-var
+let
 item
 swap
+i
+j
 ;
 for
 (
-var
 i
 =
 from
@@ -196,7 +197,6 @@ i
 ;
 for
 (
-var
 j
 =
 i
