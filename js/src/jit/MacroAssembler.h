@@ -1796,7 +1796,10 @@ PER_SHARED_ARCH
 void
 call
 (
-AsmJSImmPtr
+wasm
+:
+:
+SymbolicAddress
 imm
 )
 PER_SHARED_ARCH
@@ -1815,6 +1818,9 @@ void
 call
 (
 const
+wasm
+:
+:
 CallSiteDesc
 &
 desc
@@ -1828,6 +1834,9 @@ void
 call
 (
 const
+wasm
+:
+:
 CallSiteDesc
 &
 desc
@@ -1841,6 +1850,9 @@ void
 call
 (
 const
+wasm
+:
+:
 CallSiteDesc
 &
 desc
@@ -2010,7 +2022,10 @@ result
 void
 callWithABINoProfiler
 (
-AsmJSImmPtr
+wasm
+:
+:
+SymbolicAddress
 imm
 MoveOp
 :

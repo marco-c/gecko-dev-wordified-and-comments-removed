@@ -4505,6 +4505,9 @@ Label
 interruptExit_
 ;
 const
+wasm
+:
+:
 CallSiteDesc
 &
 funcDesc_
@@ -4522,6 +4525,9 @@ Label
 *
 interruptExit
 const
+wasm
+:
+:
 CallSiteDesc
 &
 funcDesc
@@ -4559,6 +4565,9 @@ interruptExit_
 ;
 }
 const
+wasm
+:
+:
 CallSiteDesc
 &
 funcDesc

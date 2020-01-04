@@ -26124,6 +26124,9 @@ TempAllocator
 &
 alloc
 const
+wasm
+:
+:
 CallSiteDesc
 &
 desc

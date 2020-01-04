@@ -4337,7 +4337,10 @@ branch32
 (
 Condition
 cond
-AsmJSAbsoluteAddress
+wasm
+:
+:
+SymbolicAddress
 lhs
 Imm32
 rhs
@@ -4424,7 +4427,10 @@ branchPtr
 (
 Condition
 cond
-AsmJSAbsoluteAddress
+wasm
+:
+:
+SymbolicAddress
 lhs
 Register
 ptr
@@ -4983,7 +4989,10 @@ dest
 void
 movePtr
 (
-AsmJSImmPtr
+wasm
+:
+:
+SymbolicAddress
 imm
 Register
 dest

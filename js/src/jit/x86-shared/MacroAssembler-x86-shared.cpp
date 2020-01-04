@@ -2787,7 +2787,10 @@ MacroAssembler
 :
 call
 (
-AsmJSImmPtr
+wasm
+:
+:
+SymbolicAddress
 target
 )
 {
