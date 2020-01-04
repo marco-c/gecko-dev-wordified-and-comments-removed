@@ -143,6 +143,11 @@ caretVisible
 false
 ;
 boolean
+caretVisuallyVisible
+=
+false
+;
+boolean
 selectionVisible
 =
 false
@@ -196,6 +201,11 @@ readonly
 attribute
 boolean
 caretVisible
+;
+readonly
+attribute
+boolean
+caretVisuallyVisible
 ;
 readonly
 attribute

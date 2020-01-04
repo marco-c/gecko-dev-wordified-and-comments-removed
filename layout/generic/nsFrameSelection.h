@@ -961,6 +961,13 @@ StartBatchChanges
 void
 EndBatchChanges
 (
+int16_t
+aReason
+=
+nsISelectionListener
+:
+:
+NO_REASON
 )
 ;
 nsresult

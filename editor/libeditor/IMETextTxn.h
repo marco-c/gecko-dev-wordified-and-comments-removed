@@ -184,6 +184,10 @@ mEditor
 bool
 mFixed
 ;
+static
+bool
+sCaretsExtendedVisibility
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

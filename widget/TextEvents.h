@@ -82,6 +82,13 @@ h
 #
 include
 "
+nsISelectionListener
+.
+h
+"
+#
+include
+"
 nsITransferable
 .
 h
@@ -2058,6 +2065,13 @@ mUseNativeLineBreak
 (
 true
 )
+mReason
+(
+nsISelectionListener
+:
+:
+NO_REASON
+)
 {
 }
 virtual
@@ -2121,6 +2135,9 @@ mSucceeded
 ;
 bool
 mUseNativeLineBreak
+;
+int16_t
+mReason
 ;
 }
 ;

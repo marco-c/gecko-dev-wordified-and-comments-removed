@@ -318,6 +318,11 @@ HideCarets
 )
 ;
 void
+DoNotShowCarets
+(
+)
+;
+void
 UpdateCaretsForCursorMode
 (
 UpdateCaretsHint
@@ -628,6 +633,10 @@ int32_t
 kBoundaryAppUnits
 =
 61
+;
+static
+bool
+sCaretsExtendedVisibility
 ;
 }
 ;
