@@ -890,7 +890,7 @@ CancelableRunnableWrapper
 final
 :
 public
-nsCancelableRunnable
+CancelableRunnable
 {
 nsCOMPtr
 <
@@ -967,7 +967,7 @@ override
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 CancelableRunnableWrapper
-nsCancelableRunnable
+CancelableRunnable
 )
 NS_IMETHODIMP
 CancelableRunnableWrapper

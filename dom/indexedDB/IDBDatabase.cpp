@@ -476,7 +476,7 @@ CancelableRunnableWrapper
 final
 :
 public
-nsCancelableRunnable
+CancelableRunnable
 {
 nsCOMPtr
 <

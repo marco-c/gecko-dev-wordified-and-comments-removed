@@ -9392,7 +9392,7 @@ DelayedActionRunnable
 final
 :
 public
-nsCancelableRunnable
+CancelableRunnable
 {
 using
 ActionFunc

@@ -543,7 +543,7 @@ nsRunnable
 }
 ;
 class
-nsCancelableRunnable
+CancelableRunnable
 :
 public
 nsRunnable
@@ -560,7 +560,7 @@ Cancel
 )
 override
 ;
-nsCancelableRunnable
+CancelableRunnable
 (
 )
 {
@@ -569,7 +569,7 @@ protected
 :
 virtual
 ~
-nsCancelableRunnable
+CancelableRunnable
 (
 )
 {
