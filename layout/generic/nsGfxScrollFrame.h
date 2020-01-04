@@ -2143,6 +2143,12 @@ HasPluginFrames
 (
 )
 ;
+bool
+HasPerspective
+(
+)
+const
+;
 static
 void
 EnsureFrameVisPrefsCached
