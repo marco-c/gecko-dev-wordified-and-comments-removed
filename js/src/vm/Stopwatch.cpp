@@ -1621,7 +1621,7 @@ MOZ_ASSERT
 iteration
 =
 =
-iteration
+iteration_
 )
 ;
 recentCycles_
@@ -1670,7 +1670,7 @@ MOZ_ASSERT
 iteration
 =
 =
-iteration
+iteration_
 )
 ;
 recentTicks_
@@ -1719,7 +1719,7 @@ MOZ_ASSERT
 iteration
 =
 =
-iteration
+iteration_
 )
 ;
 recentCPOW_
