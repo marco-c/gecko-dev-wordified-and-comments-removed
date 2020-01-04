@@ -1401,6 +1401,9 @@ check
 |
 exit
 1
+RESULT
+=
+0
 if
 RUN_JITTEST
 ;
@@ -1414,8 +1417,9 @@ jit
 test
 |
 |
-exit
-1
+RESULT
+=
+?
 fi
 if
 RUN_JSAPITESTS
@@ -1433,8 +1437,9 @@ jsapi
 tests
 |
 |
-exit
-1
+RESULT
+=
+?
 fi
 if
 RUN_JSTESTS
@@ -1447,6 +1452,9 @@ check
 jstests
 |
 |
-exit
-1
+RESULT
+=
+?
 fi
+exit
+RESULT
