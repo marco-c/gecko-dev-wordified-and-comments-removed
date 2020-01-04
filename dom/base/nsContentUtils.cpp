@@ -35366,11 +35366,9 @@ KEY_FLAG_PREVENT_DEFAULT
 {
 event
 .
-mFlags
-.
-mDefaultPrevented
-=
-true
+PreventDefaultBeforeDispatch
+(
+)
 ;
 }
 nsEventStatus

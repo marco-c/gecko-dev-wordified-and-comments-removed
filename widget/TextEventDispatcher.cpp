@@ -1608,11 +1608,9 @@ nsEventStatus_eConsumeNoDefault
 {
 keyEvent
 .
-mFlags
-.
-mDefaultPrevented
-=
-true
+PreventDefaultBeforeDispatch
+(
+)
 ;
 }
 if
