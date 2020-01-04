@@ -38,9 +38,9 @@ require
 "
 devtools
 /
-server
+shared
 /
-actors
+fronts
 /
 profiler
 "

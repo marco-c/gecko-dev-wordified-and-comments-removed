@@ -198,6 +198,11 @@ preference
 js
 '
 '
+profiler
+.
+js
+'
+'
 promises
 .
 js
