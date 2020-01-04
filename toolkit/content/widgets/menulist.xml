@@ -2041,6 +2041,16 @@ dispatchEvent
 event
 )
 ;
+this
+.
+menuBoxObject
+.
+activeChild
+=
+this
+.
+mSelectedInternal
+;
 return
 val
 ;
