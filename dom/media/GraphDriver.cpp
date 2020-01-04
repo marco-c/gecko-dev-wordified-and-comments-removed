@@ -3009,6 +3009,9 @@ output_id
 nullptr
 ;
 {
+#
+ifdef
+MOZ_WEBRTC
 StaticMutexAutoLock
 lock
 (
@@ -3020,6 +3023,8 @@ Mutex
 )
 )
 ;
+#
+endif
 if
 (
 (
@@ -3132,6 +3137,9 @@ stream
 }
 else
 {
+#
+ifdef
+MOZ_WEBRTC
 StaticMutexAutoUnlock
 unlock
 (
@@ -3143,6 +3151,8 @@ Mutex
 )
 )
 ;
+#
+endif
 NS_WARNING
 (
 "
