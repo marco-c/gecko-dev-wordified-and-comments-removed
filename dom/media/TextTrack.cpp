@@ -371,10 +371,6 @@ TextTrackMode
 Disabled
 )
 {
-SetCuesInactive
-(
-)
-;
 if
 (
 mTextTrackList
@@ -435,6 +431,10 @@ i
 }
 }
 }
+SetCuesInactive
+(
+)
+;
 }
 else
 {
