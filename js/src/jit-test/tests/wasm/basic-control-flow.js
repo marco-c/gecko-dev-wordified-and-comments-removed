@@ -73,7 +73,7 @@ local
 f32
 )
 (
-if_else
+if
 (
 get_local
 0
@@ -125,7 +125,7 @@ local
 f64
 )
 (
-if_else
+if
 (
 get_local
 0
@@ -203,7 +203,7 @@ local
 i32
 )
 (
-if_else
+if
 (
 get_local
 0
@@ -248,7 +248,7 @@ local
 f32
 )
 (
-if_else
+if
 (
 i32
 .
@@ -304,7 +304,7 @@ local
 f64
 )
 (
-if_else
+if
 (
 i32
 .
@@ -352,7 +352,7 @@ result
 i32
 )
 (
-if_else
+if
 (
 i32
 .
@@ -401,7 +401,7 @@ result
 i32
 )
 (
-if_else
+if
 (
 i32
 .
@@ -446,7 +446,7 @@ module
 (
 func
 (
-if_else
+if
 (
 i32
 .
@@ -495,7 +495,7 @@ param
 f32
 )
 (
-if_else
+if
 (
 i32
 .
@@ -544,7 +544,7 @@ result
 i32
 )
 (
-if_else
+if
 (
 i32
 .
@@ -554,7 +554,7 @@ const
 (
 block
 (
-if_else
+if
 (
 block
 (
@@ -654,7 +654,7 @@ result
 i32
 )
 (
-if_else
+if
 (
 i32
 .
@@ -718,7 +718,7 @@ result
 i32
 )
 (
-if_else
+if
 (
 i32
 .
@@ -894,7 +894,7 @@ result
 i32
 )
 (
-if_else
+if
 (
 i32
 .
@@ -902,7 +902,7 @@ const
 1
 )
 (
-if_else
+if
 (
 i32
 .
@@ -910,7 +910,7 @@ const
 2
 )
 (
-if_else
+if
 (
 i32
 .
@@ -918,7 +918,7 @@ const
 3
 )
 (
-if_else
+if
 (
 i32
 .
@@ -1038,7 +1038,7 @@ result
 i32
 )
 (
-if_else
+if
 (
 i32
 .
@@ -1091,7 +1091,7 @@ module
 (
 func
 (
-if_else
+if
 (
 i32
 .
@@ -1615,7 +1615,7 @@ i32
 (
 block
 (
-if_else
+if
 (
 br
 0
@@ -2087,7 +2087,7 @@ i32
 (
 block
 (
-if_else
+if
 (
 i32
 .

@@ -642,7 +642,7 @@ result
 i32
 )
 (
-if_else
+if
 (
 i64
 .
