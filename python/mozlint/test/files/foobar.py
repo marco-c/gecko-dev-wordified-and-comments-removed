@@ -1,0 +1,6 @@
+foobar
+=
+"
+a
+string
+"

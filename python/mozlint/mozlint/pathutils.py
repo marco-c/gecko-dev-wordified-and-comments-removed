@@ -125,6 +125,30 @@ _finder
 property
     
 def
+ext
+(
+self
+)
+:
+        
+return
+os
+.
+path
+.
+splitext
+(
+self
+.
+path
+)
+[
+1
+]
+    
+property
+    
+def
 exists
 (
 self
@@ -621,6 +645,17 @@ p
 exists
 ]
     
+extensions
+=
+linter
+.
+get
+(
+'
+extensions
+'
+)
+    
 keep
 =
 set
@@ -642,6 +677,34 @@ FilterPath
 paths
 )
 :
+        
+if
+extensions
+and
+path
+.
+isfile
+and
+path
+.
+ext
+not
+in
+extensions
+:
+            
+continue
+        
+if
+path
+.
+match
+(
+excludeglobs
+)
+:
+            
+continue
         
 for
 inc
@@ -740,17 +803,6 @@ includeglobs
                 
 continue
             
-elif
-path
-.
-match
-(
-excludeglobs
-)
-:
-                
-continue
-            
 keep
 .
 add
@@ -768,7 +820,15 @@ path
 .
 exclude
 =
+[
+e
+.
+path
+for
+e
+in
 excludeglobs
+]
             
 for
 pattern
