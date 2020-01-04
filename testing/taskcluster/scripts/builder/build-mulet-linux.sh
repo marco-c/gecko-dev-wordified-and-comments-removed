@@ -383,6 +383,17 @@ linux
 x86_64
 .
 zip
+mv
+mozharness
+.
+zip
+HOME
+/
+artifacts
+/
+mozharness
+.
+zip
 ccache
 -
 s

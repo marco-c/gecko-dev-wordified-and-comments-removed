@@ -207,14 +207,3 @@ tar
 .
 bz2
 '
-test_packages
-:
-'
-public
-/
-build
-/
-test_packages
-.
-json
-'

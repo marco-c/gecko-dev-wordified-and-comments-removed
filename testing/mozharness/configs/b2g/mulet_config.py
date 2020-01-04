@@ -51,17 +51,29 @@ tests
 ]
     
 "
-reftest_options
+suite_definitions
+"
+:
+{
+        
+"
+reftest
+"
+:
+{
+            
+"
+options
 "
 :
 [
-        
+                
 "
 -
 -
 mulet
 "
-        
+                
 "
 -
 -
@@ -73,7 +85,7 @@ gaia_profile
 )
 s
 "
-        
+                
 "
 -
 -
@@ -85,7 +97,7 @@ application
 )
 s
 "
-        
+                
 "
 -
 -
@@ -99,7 +111,7 @@ total_chunks
 )
 s
 "
-        
+                
 "
 -
 -
@@ -113,7 +125,7 @@ this_chunk
 )
 s
 "
-        
+                
 "
 -
 -
@@ -127,7 +139,7 @@ symbols_path
 )
 s
 "
-        
+                
 "
 -
 -
@@ -135,7 +147,7 @@ enable
 -
 oop
 "
-        
+                
 "
 %
 (
@@ -143,8 +155,12 @@ test_manifest
 )
 s
 "
-    
+            
 ]
+        
+}
+    
+}
     
 "
 run_file_names

@@ -154,17 +154,6 @@ tar
 .
 gz
 '
-test_packages
-:
-'
-public
-/
-build
-/
-test_packages
-.
-json
-'
 tests
 :
 '

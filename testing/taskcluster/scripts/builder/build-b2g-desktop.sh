@@ -393,6 +393,17 @@ crashreporter
 symbols
 .
 zip
+mv
+mozharness
+.
+zip
+HOME
+/
+artifacts
+/
+mozharness
+.
+zip
 #
 If
 the
