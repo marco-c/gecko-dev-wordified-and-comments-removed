@@ -1113,6 +1113,12 @@ AnimationProperty
 >
 mProperties
 ;
+Nullable
+<
+double
+>
+mProgressOnLastCompose
+;
 bool
 mInEffectOnLastAnimationTimingUpdate
 ;
