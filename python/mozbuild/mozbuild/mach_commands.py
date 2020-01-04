@@ -2387,11 +2387,14 @@ if
 self
 .
 substs
-[
+.
+get
+(
 '
 MOZ_ARTIFACT_BUILDS
 '
-]
+False
+)
 :
                     
 self
@@ -2477,11 +2480,14 @@ if
 self
 .
 substs
-[
+.
+get
+(
 '
 MOZ_ARTIFACT_BUILDS
 '
-]
+False
+)
 :
                         
 self
