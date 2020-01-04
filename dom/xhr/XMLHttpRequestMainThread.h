@@ -2495,6 +2495,11 @@ nsCString
 mNetworkInterfaceId
 ;
 void
+CloseRequest
+(
+)
+;
+void
 CloseRequestWithError
 (
 const
