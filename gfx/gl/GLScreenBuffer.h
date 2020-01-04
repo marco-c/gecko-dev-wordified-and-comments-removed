@@ -652,7 +652,7 @@ if
 mDraw
 )
 return
-1
+0
 ;
 return
 mDraw

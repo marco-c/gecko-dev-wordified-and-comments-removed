@@ -5978,9 +5978,6 @@ mGLMaxTransformFeedbackSeparateAttribs
 GLuint
 mGLMaxUniformBufferBindings
 ;
-GLsizei
-mGLMaxSamples
-;
 uint32_t
 mGLMaxColorAttachments
 ;

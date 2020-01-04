@@ -585,10 +585,6 @@ mBypassShaderValidation
 (
 false
 )
-mGLMaxSamples
-(
-1
-)
 mNeedsFakeNoAlpha
 (
 false

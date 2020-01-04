@@ -188,6 +188,12 @@ Format
 )
 const
 ;
+uint32_t
+Samples
+(
+)
+const
+;
 bool
 HasAlpha
 (
@@ -831,6 +837,12 @@ const
 ;
 bool
 AllImageRectsMatch
+(
+)
+const
+;
+bool
+AllImageSamplesMatch
 (
 )
 const
