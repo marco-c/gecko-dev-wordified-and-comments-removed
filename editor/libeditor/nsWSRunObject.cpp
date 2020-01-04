@@ -817,8 +817,10 @@ PrepareToSplitAcrossBlocksPriv
 )
 ;
 }
+already_AddRefed
+<
 Element
-*
+>
 nsWSRunObject
 :
 :

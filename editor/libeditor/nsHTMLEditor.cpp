@@ -4903,8 +4903,10 @@ return
 NS_OK
 ;
 }
+already_AddRefed
+<
 Element
-*
+>
 nsHTMLEditor
 :
 :
@@ -4969,6 +4971,10 @@ outBRNode
 ;
 return
 ret
+.
+forget
+(
+)
 ;
 }
 NS_IMETHODIMP
@@ -20815,6 +20821,10 @@ CreateBR
 (
 deepestStyle
 0
+)
+.
+take
+(
 )
 )
 ;
