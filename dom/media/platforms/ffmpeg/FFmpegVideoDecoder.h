@@ -204,7 +204,7 @@ aMimeType
 private
 :
 void
-DecodeFrame
+ProcessDecode
 (
 MediaRawData
 *
@@ -212,7 +212,7 @@ aSample
 )
 ;
 DecodeResult
-DoDecodeFrame
+DoDecode
 (
 MediaRawData
 *
@@ -220,7 +220,7 @@ aSample
 )
 ;
 DecodeResult
-DoDecodeFrame
+DoDecode
 (
 MediaRawData
 *
