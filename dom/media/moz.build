@@ -395,17 +395,6 @@ mochitest
 .
 ini
 '
-'
-tests
-/
-mochitest
-/
-ipc
-/
-mochitest
-.
-ini
-'
 ]
 if
 CONFIG
