@@ -64,9 +64,7 @@ devtools
 /
 shared
 /
-css
--
-color
+indentation
 "
 )
 ;
@@ -190,9 +188,7 @@ devtools
 /
 shared
 /
-css
--
-color
+indentation
 "
 )
 ;
