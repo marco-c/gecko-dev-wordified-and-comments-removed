@@ -1288,6 +1288,11 @@ hasFPU
 (
 )
 ;
+bool
+isLoongson
+(
+)
+;
 inline
 bool
 hasUnaliasedDouble
