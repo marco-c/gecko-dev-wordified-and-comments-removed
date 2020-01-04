@@ -3758,7 +3758,7 @@ Accumulate
 Telemetry
 :
 :
-MESSAGE_MANAGER_MESSAGE_SIZE
+MESSAGE_MANAGER_MESSAGE_SIZE2
 messageName
 aDataLength
 )
