@@ -146,6 +146,11 @@ WorkerLocation
 h
 '
 '
+WorkerNavigator
+.
+h
+'
+'
 WorkerPrefs
 .
 h
@@ -222,11 +227,6 @@ h
 '
 '
 DataStoreCursor
-.
-h
-'
-'
-Navigator
 .
 h
 '
@@ -322,11 +322,6 @@ cpp
 '
 '
 FileReaderSync
-.
-cpp
-'
-'
-Navigator
 .
 cpp
 '
@@ -447,6 +442,11 @@ cpp
 '
 '
 WorkerLocation
+.
+cpp
+'
+'
+WorkerNavigator
 .
 cpp
 '

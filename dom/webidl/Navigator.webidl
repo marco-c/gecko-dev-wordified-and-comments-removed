@@ -473,8 +473,6 @@ platform
 Pure
 Cached
 Throws
-=
-Workers
 ]
 readonly
 attribute
