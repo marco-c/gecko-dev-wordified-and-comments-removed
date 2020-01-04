@@ -96,7 +96,6 @@ endpoint
 Bind
 (
 a
-nullptr
 )
 )
 {
@@ -724,7 +723,6 @@ endpoint
 Bind
 (
 a
-nullptr
 )
 )
 {
