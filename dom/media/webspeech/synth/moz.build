@@ -80,6 +80,15 @@ mochitest
 .
 ini
 '
+'
+test
+/
+startup
+/
+mochitest
+.
+ini
+'
 ]
 XPIDL_MODULE
 =
