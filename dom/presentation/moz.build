@@ -378,11 +378,6 @@ PresentationTerminateRequest
 .
 cpp
 '
-'
-PresentationTransportBuilderConstructor
-.
-cpp
-'
 ]
 EXTRA_COMPONENTS
 +

@@ -255,9 +255,6 @@ aEventTarget
 nsIPresentationServiceCallback
 *
 aCallback
-nsIPresentationTransportBuilderConstructor
-*
-aBuilderConstructor
 )
 {
 if
@@ -1614,9 +1611,6 @@ uint64_t
 aWindowId
 bool
 aIsLoading
-nsIPresentationTransportBuilderConstructor
-*
-aBuilderConstructor
 )
 {
 MOZ_ASSERT
