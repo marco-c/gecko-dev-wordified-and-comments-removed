@@ -147,13 +147,3 @@ mochitest
 ini
 '
 ]
-DIRS
-+
-=
-[
-'
-test
-/
-extensions
-'
-]
