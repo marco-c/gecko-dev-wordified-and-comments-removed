@@ -680,7 +680,7 @@ nsContentShellInfo
 ;
 public
 :
-nsAutoString
+nsString
 id
 ;
 nsWeakPtr
