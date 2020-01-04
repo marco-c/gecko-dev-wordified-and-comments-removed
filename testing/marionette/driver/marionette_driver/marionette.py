@@ -38,6 +38,24 @@ import
 geckoinstance
 import
 errors
+WEBELEMENT_KEY
+=
+"
+ELEMENT
+"
+W3C_WEBELEMENT_KEY
+=
+"
+element
+-
+6066
+-
+11e4
+-
+a52e
+-
+4f735466cecf
+"
 class
 HTMLElement
 (
@@ -5385,9 +5403,11 @@ self
 _unwrap_response
 (
 resp
-[
+.
+get
+(
 key
-]
+)
 )
         
 else
@@ -5409,11 +5429,6 @@ value
 )
 :
         
-resp
-=
-"
-"
-        
 if
 isinstance
 (
@@ -5424,23 +5439,11 @@ and
 \
         
 (
-'
-ELEMENT
-'
+WEBELEMENT_KEY
 in
 value
 or
-'
-element
--
-6066
--
-11e4
--
-a52e
--
-4f735466cecf
-'
+W3C_WEBELEMENT_KEY
 in
 value
 )
@@ -5451,9 +5454,7 @@ value
 .
 get
 (
-'
-ELEMENT
-'
+WEBELEMENT_KEY
 )
 :
                 
@@ -5465,9 +5466,7 @@ value
 .
 get
 (
-'
-ELEMENT
-'
+WEBELEMENT_KEY
 )
 )
             
@@ -5482,17 +5481,7 @@ value
 .
 get
 (
-'
-element
--
-6066
--
-11e4
--
-a52e
--
-4f735466cecf
-'
+W3C_WEBELEMENT_KEY
 )
 )
         
@@ -10862,25 +10851,13 @@ HTMLElement
 wrapped
 =
 {
-"
-element
--
-6066
--
-11e4
--
-a52e
--
-4f735466cecf
-"
+W3C_WEBELEMENT_KEY
 :
 args
 .
 id
                        
-"
-ELEMENT
-"
+WEBELEMENT_KEY
 :
 args
 .
@@ -10989,17 +10966,7 @@ if
 key
 =
 =
-"
-element
--
-6066
--
-11e4
--
-a52e
--
-4f735466cecf
-"
+W3C_WEBELEMENT_KEY
 :
                     
 unwrapped
@@ -11019,9 +10986,7 @@ elif
 key
 =
 =
-"
-ELEMENT
-"
+WEBELEMENT_KEY
 :
                     
 unwrapped
