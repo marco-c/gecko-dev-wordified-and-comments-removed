@@ -19,15 +19,6 @@ mozilla
 :
 a11y
 ;
-AccCollector
-:
-:
-~
-AccCollector
-(
-)
-{
-}
 uint32_t
 EmbeddedObjCollector
 :
