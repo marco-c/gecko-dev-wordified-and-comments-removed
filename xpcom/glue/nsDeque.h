@@ -104,7 +104,7 @@ nsDeque
 )
 ;
 inline
-int32_t
+size_t
 GetSize
 (
 )
@@ -234,7 +234,7 @@ void
 *
 ObjectAt
 (
-int
+size_t
 aIndex
 )
 const
@@ -277,13 +277,13 @@ const
 ;
 protected
 :
-int32_t
+size_t
 mSize
 ;
-int32_t
+size_t
 mCapacity
 ;
-int32_t
+size_t
 mOrigin
 ;
 nsDequeFunctor

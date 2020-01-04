@@ -5529,7 +5529,7 @@ nsDeque
 queue
 )
 {
-uint32_t
+size_t
 size
 =
 queue
@@ -5540,7 +5540,7 @@ GetSize
 ;
 for
 (
-uint32_t
+size_t
 count
 =
 0
@@ -9831,7 +9831,7 @@ GoAwayEnumerator
 self
 )
 ;
-uint32_t
+size_t
 size
 =
 self
@@ -9845,7 +9845,7 @@ GetSize
 ;
 for
 (
-uint32_t
+size_t
 count
 =
 0
@@ -9965,7 +9965,7 @@ GetSize
 ;
 for
 (
-uint32_t
+size_t
 count
 =
 0
