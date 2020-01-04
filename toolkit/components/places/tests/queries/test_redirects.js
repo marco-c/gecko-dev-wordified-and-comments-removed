@@ -215,16 +215,12 @@ if
 (
 seen
 .
-indexOf
+includes
 (
 aData
 .
 uri
 )
-!
-=
--
-1
 )
 return
 false

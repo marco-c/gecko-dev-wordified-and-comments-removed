@@ -83,9 +83,10 @@ random
 ;
 if
 (
+!
 dates
 .
-indexOf
+includes
 (
 randomDate
 .
@@ -93,10 +94,6 @@ getTime
 (
 )
 )
-=
-=
--
-1
 )
 dates
 .

@@ -484,16 +484,12 @@ ok
 (
 GOOD_URLS
 .
-indexOf
+includes
 (
 node
 .
 uri
 )
-!
-=
--
-1
 "
 livemark
 item

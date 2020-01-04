@@ -752,7 +752,7 @@ found
 =
 rowProperties
 .
-indexOf
+includes
 (
 "
 OrganizerQuery_
@@ -760,10 +760,6 @@ OrganizerQuery_
 +
 aQueryName
 )
-!
-=
--
-1
 ;
 }
 ok

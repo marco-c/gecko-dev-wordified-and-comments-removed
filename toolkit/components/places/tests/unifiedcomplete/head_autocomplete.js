@@ -698,16 +698,12 @@ ok
 (
 actualStyle
 .
-indexOf
+includes
 (
 "
 action
 "
 )
-!
-=
--
-1
 "
 moz
 -

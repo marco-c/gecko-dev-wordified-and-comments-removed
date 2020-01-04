@@ -1213,14 +1213,10 @@ tag
 >
 foundTags
 .
-indexOf
+includes
 (
 tag
 )
-!
-=
--
-1
 )
 )
 ;

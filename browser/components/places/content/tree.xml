@@ -1252,14 +1252,10 @@ if
 (
 nodesURIChecked
 .
-indexOf
+includes
 (
 containerURI
 )
-!
-=
--
-1
 )
 return
 null
