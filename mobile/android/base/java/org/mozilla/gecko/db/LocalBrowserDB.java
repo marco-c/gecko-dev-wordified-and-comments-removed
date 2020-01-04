@@ -322,6 +322,8 @@ mozilla
 .
 gecko
 .
+restrictions
+.
 Restrictions
 ;
 import
