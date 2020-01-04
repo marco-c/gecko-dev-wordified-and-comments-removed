@@ -158,17 +158,6 @@ drawable
 .
 BitmapDrawable
 ;
-import
-android
-.
-support
-.
-v4
-.
-os
-.
-CancellationSignal
-;
 class
 StubReadingListAccessor
 implements
@@ -1449,8 +1438,6 @@ int
 minLimit
 int
 maxLimit
-CancellationSignal
-cancellationSignal
 )
 {
 return

@@ -410,17 +410,6 @@ support
 .
 v4
 .
-os
-.
-CancellationSignal
-;
-import
-android
-.
-support
-.
-v4
-.
 widget
 .
 CursorAdapter
@@ -2621,7 +2610,7 @@ static
 class
 TopSitesLoader
 extends
-SimpleCancellableCursorLoader
+SimpleCursorLoader
 {
 private
 static
@@ -2699,9 +2688,6 @@ public
 Cursor
 loadCursor
 (
-final
-CancellationSignal
-cancellationSignal
 )
 {
 final
@@ -2731,7 +2717,6 @@ getContentResolver
 )
 mMaxGridEntries
 SEARCH_LIMIT
-cancellationSignal
 )
 ;
 final
