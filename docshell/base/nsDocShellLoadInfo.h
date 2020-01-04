@@ -73,14 +73,14 @@ nsIURI
 >
 mOriginalURI
 ;
-bool
-mLoadReplace
-;
 nsCOMPtr
 <
 nsISupports
 >
 mOwner
+;
+bool
+mLoadReplace
 ;
 bool
 mInheritOwner
