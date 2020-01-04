@@ -9163,6 +9163,8 @@ buffered
 SetFuzz
 (
 aFuzz
+/
+2
 )
 ;
 TimeIntervals
@@ -9210,6 +9212,12 @@ buffered
 [
 index
 ]
+;
+target
+.
+mFuzz
+=
+aFuzz
 ;
 i
 =

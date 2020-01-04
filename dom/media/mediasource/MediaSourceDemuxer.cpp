@@ -2077,7 +2077,7 @@ if
 !
 buffered
 .
-Contains
+ContainsWithStrictEnd
 (
 seekTime
 )
@@ -2088,7 +2088,7 @@ if
 !
 buffered
 .
-Contains
+ContainsWithStrictEnd
 (
 aTime
 )
@@ -2155,8 +2155,6 @@ MediaSourceDemuxer
 :
 :
 EOS_FUZZ
-/
-2
 )
 ;
 Result
@@ -2288,6 +2286,8 @@ MediaSourceDemuxer
 :
 :
 EOS_FUZZ
+/
+2
 )
 ;
 if
@@ -2327,7 +2327,7 @@ if
 !
 buffered
 .
-Contains
+ContainsWithStrictEnd
 (
 TimeUnit
 :
@@ -2582,13 +2582,15 @@ MediaSourceDemuxer
 :
 :
 EOS_FUZZ
+/
+2
 )
 ;
 if
 (
 buffered
 .
-Contains
+ContainsWithStrictEnd
 (
 aTimeThreadshold
 )
