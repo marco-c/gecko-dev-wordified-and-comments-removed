@@ -74167,6 +74167,12 @@ m
 return
 false
 ;
+m
+.
+startFunctionBodies
+(
+)
+;
 #
 if
 !
@@ -74202,12 +74208,6 @@ isSharedView
 ;
 #
 endif
-m
-.
-startFunctionBodies
-(
-)
-;
 ScopedJSDeletePtr
 <
 ModuleCompileResults
