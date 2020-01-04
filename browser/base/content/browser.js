@@ -35894,8 +35894,6 @@ privatebrowsing
 |
 rights
 |
-searchreset
-|
 sessionrestore
 |
 support
