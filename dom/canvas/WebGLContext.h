@@ -818,6 +818,10 @@ WebGLExtensionCompressedTextureATC
 ;
 friend
 class
+WebGLExtensionCompressedTextureES3
+;
+friend
+class
 WebGLExtensionCompressedTextureETC1
 ;
 friend
