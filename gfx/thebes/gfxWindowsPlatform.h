@@ -776,6 +776,11 @@ HRESULT
 aResOut
 )
 ;
+bool
+DwmCompositionEnabled
+(
+)
+;
 mozilla
 :
 :
