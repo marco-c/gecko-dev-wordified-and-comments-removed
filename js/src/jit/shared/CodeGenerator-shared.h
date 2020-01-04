@@ -1300,9 +1300,9 @@ mir
 )
 ;
 void
-emitAsmJSCall
+emitAsmJSCallBase
 (
-LAsmJSCall
+LAsmJSCallBase
 *
 ins
 )

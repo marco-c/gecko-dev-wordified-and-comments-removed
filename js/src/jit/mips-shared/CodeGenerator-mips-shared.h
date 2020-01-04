@@ -1184,6 +1184,14 @@ ins
 )
 ;
 void
+visitAsmJSCallI64
+(
+LAsmJSCallI64
+*
+ins
+)
+;
+void
 visitWasmBoundsCheck
 (
 LWasmBoundsCheck

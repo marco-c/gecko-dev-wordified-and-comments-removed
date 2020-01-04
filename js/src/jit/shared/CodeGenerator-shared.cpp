@@ -7793,9 +7793,9 @@ void
 CodeGeneratorShared
 :
 :
-emitAsmJSCall
+emitAsmJSCallBase
 (
-LAsmJSCall
+LAsmJSCallBase
 *
 ins
 )
