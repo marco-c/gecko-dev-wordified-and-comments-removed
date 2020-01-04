@@ -46,11 +46,7 @@ android
 package
 =
 "
-org
-.
-mozilla
-.
-gecko
+ANDROID_PACKAGE_NAME
 "
 android
 :

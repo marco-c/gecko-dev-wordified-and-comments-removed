@@ -3439,17 +3439,6 @@ ANDROID_EXTRA_RES_DIRS
 \
 -
 -
-rename
--
-manifest
--
-package
-(
-ANDROID_PACKAGE_NAME
-)
-\
--
--
 custom
 -
 package
