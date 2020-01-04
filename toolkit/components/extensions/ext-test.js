@@ -143,8 +143,12 @@ args
 ;
 extensions
 .
-registerAPI
+registerSchemaAPI
 (
+"
+test
+"
+null
 (
 extension
 context

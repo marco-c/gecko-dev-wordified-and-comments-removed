@@ -143,6 +143,15 @@ extensions
 /
 schemas
 /
+test
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 web_navigation
 .
 json
