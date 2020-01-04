@@ -211,16 +211,11 @@ USVString
 value
 )
 ;
-/
-/
 iterable
 <
 USVString
 FormDataEntryValue
 >
 ;
--
-Bug
-1127703
 }
 ;
