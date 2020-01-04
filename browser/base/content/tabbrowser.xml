@@ -12721,6 +12721,12 @@ linkedBrowser
 =
 browser
 ;
+aTab
+.
+hasBrowser
+=
+true
+;
 this
 .
 _tabForBrowser
@@ -30288,6 +30294,14 @@ linkedBrowser
 this
 .
 mCurrentBrowser
+;
+this
+.
+mCurrentTab
+.
+hasBrowser
+=
+true
 ;
 this
 .
