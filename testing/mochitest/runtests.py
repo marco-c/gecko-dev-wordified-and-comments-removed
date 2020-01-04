@@ -13600,6 +13600,18 @@ flavor
 '
 plain
 '
+            
+if
+options
+.
+subsuite
+:
+                
+flavor
+=
+options
+.
+subsuite
         
 base
 =
