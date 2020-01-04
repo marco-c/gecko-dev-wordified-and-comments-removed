@@ -139,12 +139,10 @@ mozapps
 preferences
 '
 '
-mozapps
-/
-plugins
-'
-'
 obsolete
+'
+'
+pluginproblem
 '
 '
 profile
@@ -549,9 +547,7 @@ with
 Files
 (
 '
-mozapps
-/
-plugins
+pluginproblem
 /
 *
 '

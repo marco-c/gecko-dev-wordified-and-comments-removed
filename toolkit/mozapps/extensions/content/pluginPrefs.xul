@@ -81,13 +81,11 @@ chrome
 :
 /
 /
-mozapps
+pluginproblem
 /
 locale
 /
-plugins
-/
-plugins
+pluginproblem
 .
 dtd
 "

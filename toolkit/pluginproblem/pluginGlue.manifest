@@ -11,11 +11,9 @@ chrome
 :
 /
 /
-mozapps
+pluginproblem
 /
 content
-/
-plugins
 /
 pluginFinderBinding
 .
@@ -33,11 +31,9 @@ chrome
 :
 /
 /
-mozapps
+pluginproblem
 /
 content
-/
-plugins
 /
 pluginProblemBinding
 .
