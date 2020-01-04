@@ -20845,9 +20845,6 @@ WorkerPrivate
 :
 AddFeature
 (
-JSContext
-*
-aCx
 WorkerFeature
 *
 aFeature
@@ -20933,9 +20930,6 @@ WorkerPrivate
 :
 RemoveFeature
 (
-JSContext
-*
-aCx
 WorkerFeature
 *
 aFeature

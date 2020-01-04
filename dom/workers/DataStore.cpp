@@ -3576,12 +3576,6 @@ mWorkerPrivate
 >
 AddFeature
 (
-mWorkerPrivate
--
->
-GetJSContext
-(
-)
 this
 )
 )
@@ -3781,7 +3775,6 @@ mWorkerPrivate
 >
 RemoveFeature
 (
-aCx
 this
 )
 ;

@@ -2976,9 +2976,6 @@ aChildWorker
 bool
 AddFeature
 (
-JSContext
-*
-aCx
 WorkerFeature
 *
 aFeature
@@ -2987,9 +2984,6 @@ aFeature
 void
 RemoveFeature
 (
-JSContext
-*
-aCx
 WorkerFeature
 *
 aFeature

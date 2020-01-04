@@ -8093,7 +8093,6 @@ aWorkerPrivate
 >
 RemoveFeature
 (
-aCx
 &
 mScriptLoader
 )
@@ -8382,7 +8381,6 @@ aWorkerPrivate
 >
 AddFeature
 (
-aCx
 loader
 )
 )
@@ -8423,7 +8421,6 @@ aWorkerPrivate
 >
 RemoveFeature
 (
-aCx
 loader
 )
 ;

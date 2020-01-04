@@ -949,7 +949,6 @@ mWorkerPrivate
 >
 AddFeature
 (
-cx
 this
 )
 )
@@ -1161,7 +1160,6 @@ aWorkerPrivate
 >
 RemoveFeature
 (
-aCx
 mRunnable
 )
 ;

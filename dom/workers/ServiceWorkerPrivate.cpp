@@ -1394,17 +1394,6 @@ AssertIsOnWorkerThread
 (
 )
 ;
-JSContext
-*
-cx
-=
-mWorkerPrivate
--
->
-GetJSContext
-(
-)
-;
 if
 (
 NS_WARN_IF
@@ -1415,7 +1404,6 @@ mWorkerPrivate
 >
 AddFeature
 (
-cx
 this
 )
 )
@@ -1435,7 +1423,6 @@ feature
 ;
 ReportResult
 (
-cx
 false
 )
 ;
@@ -1481,7 +1468,6 @@ mWorkerPrivate
 ;
 ReportResult
 (
-aCx
 false
 )
 ;
@@ -1492,9 +1478,6 @@ true
 void
 ReportResult
 (
-JSContext
-*
-aCx
 bool
 aResult
 )
@@ -1565,7 +1548,6 @@ mWorkerPrivate
 >
 RemoveFeature
 (
-aCx
 this
 )
 ;
@@ -1609,7 +1591,6 @@ AssertIsOnWorkerThread
 ;
 ReportResult
 (
-aCx
 true
 )
 ;
@@ -1653,7 +1634,6 @@ AssertIsOnWorkerThread
 ;
 ReportResult
 (
-aCx
 false
 )
 ;
@@ -1855,7 +1835,6 @@ watcher
 >
 ReportResult
 (
-aCx
 false
 )
 ;
