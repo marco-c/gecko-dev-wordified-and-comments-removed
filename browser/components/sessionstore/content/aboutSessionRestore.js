@@ -452,13 +452,6 @@ iconURL
 =
 aTabData
 .
-attributes
-&
-&
-aTabData
-.
-attributes
-.
 image
 |
 |
