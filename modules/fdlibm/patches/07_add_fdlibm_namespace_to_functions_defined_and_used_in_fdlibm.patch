@@ -57,7 +57,7 @@ h
 16
 +
 724
-46
+47
 irintl
 (
 long
@@ -316,6 +316,14 @@ fdlibm
 :
 :
 trunc
++
+#
+define
+truncf
+fdlibm
+:
+:
+truncf
 +
 #
 define
