@@ -2062,7 +2062,7 @@ frame
 )
 ;
 JSTrapStatus
-parseResumptionValue
+processHandlerResult
 (
 mozilla
 :
@@ -2089,7 +2089,7 @@ vp
 )
 ;
 JSTrapStatus
-parseResumptionValue
+processHandlerResult
 (
 mozilla
 :
@@ -2117,7 +2117,7 @@ vp
 )
 ;
 JSTrapStatus
-parseResumptionValueHelper
+processHandlerResultHelper
 (
 mozilla
 :
