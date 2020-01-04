@@ -1546,6 +1546,15 @@ ins
 ;
 virtual
 void
+visitAsmReinterpret
+(
+LAsmReinterpret
+*
+lir
+)
+;
+virtual
+void
 visitMemoryBarrier
 (
 LMemoryBarrier

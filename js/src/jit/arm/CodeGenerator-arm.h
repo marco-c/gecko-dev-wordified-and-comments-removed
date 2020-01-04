@@ -1279,6 +1279,14 @@ ins
 )
 ;
 void
+visitAsmReinterpret
+(
+LAsmReinterpret
+*
+ins
+)
+;
+void
 visitAsmJSCall
 (
 LAsmJSCall
