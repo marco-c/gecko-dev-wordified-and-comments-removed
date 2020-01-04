@@ -262,11 +262,6 @@ punycode
 .
 c
 '
-'
-race
-.
-c
-'
 ]
 IPDL_SOURCES
 =
