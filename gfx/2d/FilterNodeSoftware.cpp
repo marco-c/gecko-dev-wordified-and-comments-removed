@@ -17126,11 +17126,7 @@ aRect
 )
 {
 return
-GetInputRectInRect
-(
-IN_LIGHTING_IN
 aRect
-)
 ;
 }
 Point3D
@@ -18011,7 +18007,7 @@ GetInputDataSourceSurface
 IN_LIGHTING_IN
 srcRect
 CAN_HANDLE_A8
-EDGE_MODE_DUPLICATE
+EDGE_MODE_NONE
 )
 ;
 if
