@@ -1739,8 +1739,6 @@ JSStructuredCloneReader
 aReader
 uint32_t
 aTag
-uint32_t
-aIndex
 )
 {
 if
@@ -4179,7 +4177,6 @@ ReadFullySerializableObjects
 aCx
 aReader
 aTag
-aIndex
 )
 ;
 }
