@@ -320,9 +320,6 @@ ini
 (
 NULL
 )
-MOZ_WINCONSOLE
-=
-1
 include
 (
 topsrcdir
