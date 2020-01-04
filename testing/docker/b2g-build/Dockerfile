@@ -485,6 +485,12 @@ mozilla
 -
 python27
 \
+mozilla
+-
+python27
+-
+mercurial
+\
 mpfr
 -
 devel
@@ -1185,7 +1191,6 @@ python
 pip
 install
 virtualenv
-mercurial
 #
 Generate
 machine
