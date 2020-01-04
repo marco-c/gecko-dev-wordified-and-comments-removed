@@ -69,7 +69,7 @@ src
 .
 .
 /
-js
+resources
 /
 js
 -
@@ -92,10 +92,7 @@ src
 .
 .
 /
-.
-.
-/
-js
+resources
 /
 webgl
 -
@@ -490,7 +487,10 @@ texturedShaders
 [
 wtu
 .
-simpleTextureVertexShader
+setupSimpleTextureVertexShader
+(
+gl
+)
 "
 testFragmentShader
 "
@@ -2198,7 +2198,7 @@ myProperty
 =
 2
 ;
-webglHarnessCollectGarbage
+gc
 (
 )
 ;
@@ -2248,7 +2248,7 @@ src
 .
 .
 /
-js
+resources
 /
 js
 -

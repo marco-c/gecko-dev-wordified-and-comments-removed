@@ -1,7 +1,0 @@
-vertex
--
-array
--
-object
-.
-html

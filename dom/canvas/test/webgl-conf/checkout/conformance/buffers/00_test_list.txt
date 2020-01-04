@@ -9,13 +9,9 @@ buffer
 -
 data
 -
-and
+array
 -
 buffer
--
-sub
--
-data
 .
 html
 -
