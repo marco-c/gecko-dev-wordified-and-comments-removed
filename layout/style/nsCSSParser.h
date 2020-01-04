@@ -101,6 +101,9 @@ class
 Loader
 ;
 class
+LoaderReusableStyleSheets
+;
+class
 StyleRule
 ;
 }
@@ -229,6 +232,17 @@ uint32_t
 aLineNumber
 bool
 aAllowUnsafeRules
+mozilla
+:
+:
+css
+:
+:
+LoaderReusableStyleSheets
+*
+aReusableSheets
+=
+nullptr
 )
 ;
 nsresult

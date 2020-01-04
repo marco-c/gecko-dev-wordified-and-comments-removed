@@ -580,6 +580,9 @@ uint32_t
 aLineNumber
 bool
 aAllowUnsafeRules
+LoaderReusableStyleSheets
+*
+aReusableSheets
 )
 ;
 nsresult
@@ -4190,6 +4193,10 @@ Loader
 *
 mChildLoader
 ;
+LoaderReusableStyleSheets
+*
+mReusableSheets
+;
 enum
 nsCSSSection
 {
@@ -4568,6 +4575,10 @@ mReporter
 nullptr
 )
 mChildLoader
+(
+nullptr
+)
+mReusableSheets
 (
 nullptr
 )
@@ -4983,6 +4994,9 @@ uint32_t
 aLineNumber
 bool
 aAllowUnsafeRules
+LoaderReusableStyleSheets
+*
+aReusableSheets
 )
 {
 NS_PRECONDITION
@@ -5254,6 +5268,10 @@ mUnsafeRulesEnabled
 =
 aAllowUnsafeRules
 ;
+mReusableSheets
+=
+aReusableSheets
+;
 nsCSSToken
 *
 tk
@@ -5344,6 +5362,10 @@ ReleaseScanner
 mUnsafeRulesEnabled
 =
 false
+;
+mReusableSheets
+=
+nullptr
 ;
 return
 NS_OK
@@ -13798,6 +13820,7 @@ mSheet
 url
 aMedia
 rule
+mReusableSheets
 )
 ;
 }
@@ -66412,6 +66435,9 @@ uint32_t
 aLineNumber
 bool
 aAllowUnsafeRules
+LoaderReusableStyleSheets
+*
+aReusableSheets
 )
 {
 return
@@ -66433,6 +66459,7 @@ aBaseURI
 aSheetPrincipal
 aLineNumber
 aAllowUnsafeRules
+aReusableSheets
 )
 ;
 }
