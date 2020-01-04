@@ -256,6 +256,9 @@ class
 Decoder
 ;
 struct
+DecoderFinalStatus
+;
+struct
 DecoderTelemetry
 ;
 class
@@ -399,6 +402,10 @@ FinalizeDecoder
 Decoder
 *
 aDecoder
+const
+DecoderFinalStatus
+&
+aStatus
 const
 ImageMetadata
 &
