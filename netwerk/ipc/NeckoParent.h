@@ -103,7 +103,7 @@ NeckoParent
 (
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 static
 const
 char
@@ -125,7 +125,7 @@ DocShellOriginAttributes
 aAttrs
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 static
 const
 char

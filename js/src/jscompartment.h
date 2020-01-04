@@ -1659,7 +1659,7 @@ JSCompartment
 (
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 init
 (
@@ -1668,7 +1668,7 @@ JSContext
 maybecx
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 bool
 wrap
@@ -1690,7 +1690,7 @@ existing
 nullptr
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 wrap
 (
@@ -1704,7 +1704,7 @@ MutableHandleString
 strp
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 wrap
 (
@@ -1725,7 +1725,7 @@ existingArg
 nullptr
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 wrap
 (
@@ -1750,7 +1750,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 wrap
 (
@@ -1809,7 +1809,7 @@ true
 ;
 }
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 putWrapper
 (

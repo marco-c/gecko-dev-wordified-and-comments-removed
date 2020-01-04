@@ -465,7 +465,7 @@ YMost
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 Sub
 Intersect
 (
@@ -645,7 +645,7 @@ IsEmpty
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 Sub
 Union
 (
@@ -700,7 +700,7 @@ aRect
 ;
 }
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 Sub
 UnionEdges
 (
@@ -3155,7 +3155,7 @@ y
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 Point
 ClampPoint
 (
@@ -3210,7 +3210,7 @@ y
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 Sub
 MoveInsideAndClamp
 (

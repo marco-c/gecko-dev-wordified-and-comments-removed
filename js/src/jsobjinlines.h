@@ -1539,7 +1539,7 @@ clasp
 }
 static
 MOZ_ALWAYS_INLINE
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JSObject
 *
 SetNewObjectMetadata

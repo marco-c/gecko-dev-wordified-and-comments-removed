@@ -2665,7 +2665,7 @@ bool
 aTryReuse
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 static
 bool
 GetNodeTextContent
@@ -3424,7 +3424,7 @@ CanAccessNativeAnon
 (
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 static
 nsresult
 WrapNative
@@ -3468,7 +3468,7 @@ aAllowWrapping
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 static
 nsresult
 WrapNative
@@ -3508,7 +3508,7 @@ aAllowWrapping
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 static
 nsresult
 WrapNative
@@ -3626,7 +3626,7 @@ nsString
 aString
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 static
 bool
 PlatformToDOMLineBreaks

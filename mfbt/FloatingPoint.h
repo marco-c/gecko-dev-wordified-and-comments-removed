@@ -1352,7 +1352,7 @@ aEpsilon
 smaller
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 extern
 MFBT_API
 bool

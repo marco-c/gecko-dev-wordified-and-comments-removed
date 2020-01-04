@@ -995,7 +995,7 @@ char_type
 aNewValue
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ReplaceSubstring
 (
@@ -1012,7 +1012,7 @@ fallible_t
 &
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ReplaceSubstring
 (

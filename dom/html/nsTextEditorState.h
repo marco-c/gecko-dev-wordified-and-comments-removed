@@ -239,7 +239,7 @@ eSetValue_Notify
 2
 }
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 SetValue
 (

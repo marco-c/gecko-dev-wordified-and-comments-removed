@@ -869,7 +869,7 @@ disposition
 }
 static
 bool
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 InstallSyscallFilter
 (
 const

@@ -304,7 +304,7 @@ GetLength
 ;
 }
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendTo
 (
@@ -417,7 +417,7 @@ aLength
 ;
 }
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendTo
 (

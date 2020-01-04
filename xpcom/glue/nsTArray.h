@@ -4552,7 +4552,7 @@ template
 class
 Allocator
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 Assign
 (
@@ -4836,7 +4836,7 @@ template
 class
 Item
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 elem_type
 *
 ReplaceElementsAt
@@ -4930,7 +4930,7 @@ template
 class
 Item
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 elem_type
 *
 ReplaceElementsAt
@@ -5014,7 +5014,7 @@ template
 class
 Item
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 elem_type
 *
 ReplaceElementsAt
@@ -5122,7 +5122,7 @@ template
 class
 Item
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 elem_type
 *
 InsertElementsAt
@@ -5216,7 +5216,7 @@ Item
 class
 Allocator
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 elem_type
 *
 InsertElementsAt
@@ -5349,7 +5349,7 @@ elem
 }
 public
 :
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 elem_type
 *
 InsertElementAt
@@ -5492,7 +5492,7 @@ template
 class
 Item
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 elem_type
 *
 InsertElementAt
@@ -5695,7 +5695,7 @@ Item
 class
 Comparator
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 elem_type
 *
 InsertElementSorted
@@ -5798,7 +5798,7 @@ template
 class
 Item
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 elem_type
 *
 InsertElementSorted
@@ -6975,7 +6975,7 @@ elem_type
 }
 public
 :
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 SetCapacity
 (
@@ -7072,7 +7072,7 @@ true
 }
 public
 :
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 SetLength
 (
@@ -7201,7 +7201,7 @@ true
 }
 public
 :
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 EnsureLengthAtLeast
 (
@@ -7323,7 +7323,7 @@ aIndex
 }
 public
 :
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 elem_type
 *
 InsertElementsAt
@@ -7461,7 +7461,7 @@ template
 class
 Item
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 elem_type
 *
 InsertElementsAt

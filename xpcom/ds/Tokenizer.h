@@ -263,7 +263,7 @@ aAdditionalWordChars
 nullptr
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 Next
 (
@@ -272,7 +272,7 @@ Token
 aToken
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 Check
 (
@@ -284,7 +284,7 @@ Token
 aResult
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 Check
 (
@@ -294,7 +294,7 @@ Token
 aToken
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 HasFailed
 (
@@ -321,7 +321,7 @@ aIncludeNewLines
 DONT_INCLUDE_NEW_LINE
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 CheckWhite
 (
@@ -339,7 +339,7 @@ Whitespace
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 CheckChar
 (
@@ -361,7 +361,7 @@ aChar
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 CheckChar
 (
@@ -377,7 +377,7 @@ aChar
 )
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 CheckWord
 (
@@ -405,7 +405,7 @@ template
 uint32_t
 N
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 CheckWord
 (
@@ -439,7 +439,7 @@ N
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 CheckEOL
 (
@@ -457,7 +457,7 @@ NewLine
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 CheckEOF
 (

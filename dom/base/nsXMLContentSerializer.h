@@ -257,7 +257,7 @@ nsXMLContentSerializer
 (
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendToString
 (
@@ -269,7 +269,7 @@ nsAString
 aOutputStr
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendToString
 (
@@ -282,7 +282,7 @@ nsAString
 aOutputStr
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendToStringConvertLF
 (
@@ -295,7 +295,7 @@ nsAString
 aOutputStr
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendToStringWrapped
 (
@@ -308,7 +308,7 @@ nsAString
 aOutputStr
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendToStringFormatedWrapped
 (
@@ -321,7 +321,7 @@ nsAString
 aOutputStr
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendWrapped_WhitespaceSequence
 (
@@ -348,7 +348,7 @@ nsAString
 aOutputStr
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendFormatedWrapped_WhitespaceSequence
 (
@@ -378,7 +378,7 @@ nsAString
 aOutputStr
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendWrapped_NonWhitespaceSequence
 (
@@ -411,7 +411,7 @@ nsAString
 aOutputStr
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendNewLineToString
 (
@@ -420,7 +420,7 @@ nsAString
 aOutputStr
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 virtual
 bool
 AppendAndTranslateEntities
@@ -516,7 +516,7 @@ nsAString
 aTagNamespaceURI
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 virtual
 bool
 SerializeAttributes
@@ -546,7 +546,7 @@ bool
 aAddNSAttr
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 SerializeAttr
 (
@@ -604,7 +604,7 @@ nsresult
 aResult
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendEndOfElementStart
 (
@@ -631,7 +631,7 @@ nsAString
 aStr
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 virtual
 bool
 AfterElementStart
@@ -731,7 +731,7 @@ nsIAtom
 aName
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendIndentation
 (
@@ -740,7 +740,7 @@ nsAString
 aStr
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 IncrIndentation
 (
@@ -757,7 +757,7 @@ nsIAtom
 aName
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 MaybeAddNewlineForRootNode
 (

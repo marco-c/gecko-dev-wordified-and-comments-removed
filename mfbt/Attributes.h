@@ -599,7 +599,7 @@ __clang__
 )
 #
 define
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 __attribute__
 (
 (
@@ -610,7 +610,7 @@ warn_unused_result
 else
 #
 define
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 #
 endif
 #

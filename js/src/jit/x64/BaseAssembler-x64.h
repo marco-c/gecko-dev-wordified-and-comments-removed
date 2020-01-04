@@ -3773,7 +3773,7 @@ dst
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 movl_ripr
 (
@@ -3831,7 +3831,7 @@ return
 label
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 movl_rrip
 (
@@ -3889,7 +3889,7 @@ return
 label
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 movq_ripr
 (
@@ -3987,7 +3987,7 @@ dst
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 leaq_rip
 (
@@ -4266,7 +4266,7 @@ dst
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 vmovsd_ripr
 (
@@ -4287,7 +4287,7 @@ dst
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 vmovss_ripr
 (
@@ -4308,7 +4308,7 @@ dst
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 vmovsd_rrip
 (
@@ -4329,7 +4329,7 @@ src
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 vmovss_rrip
 (
@@ -4350,7 +4350,7 @@ src
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 vmovdqa_rrip
 (
@@ -4371,7 +4371,7 @@ src
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 vmovaps_rrip
 (
@@ -4392,7 +4392,7 @@ src
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 vmovaps_ripr
 (
@@ -4413,7 +4413,7 @@ dst
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 vmovdqa_ripr
 (
@@ -4436,7 +4436,7 @@ dst
 }
 private
 :
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 twoByteRipOpSimd
 (

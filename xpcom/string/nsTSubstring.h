@@ -1104,7 +1104,7 @@ char_type
 aChar
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 NS_FASTCALL
 Assign
@@ -1126,7 +1126,7 @@ char_type
 aData
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 NS_FASTCALL
 Assign
@@ -1152,7 +1152,7 @@ size_type
 aLength
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 NS_FASTCALL
 Assign
@@ -1177,7 +1177,7 @@ self_type
 &
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 NS_FASTCALL
 Assign
@@ -1199,7 +1199,7 @@ substring_tuple_type
 &
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 NS_FASTCALL
 Assign
@@ -1269,7 +1269,7 @@ aLength
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 Assign
 (
@@ -1314,7 +1314,7 @@ size_type
 aLength
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 NS_FASTCALL
 AssignASCII
@@ -1360,7 +1360,7 @@ aData
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 NS_FASTCALL
 AssignASCII
@@ -1602,7 +1602,7 @@ char_type
 aChar
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 NS_FASTCALL
 Replace
@@ -1640,7 +1640,7 @@ size_type
 )
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 NS_FASTCALL
 Replace
@@ -1690,7 +1690,7 @@ Length
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 Replace
 (
@@ -1763,7 +1763,7 @@ size_type
 )
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 NS_FASTCALL
 ReplaceASCII
@@ -1832,7 +1832,7 @@ aChar
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 Append
 (
@@ -1880,7 +1880,7 @@ aLength
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 Append
 (
@@ -1968,7 +1968,7 @@ aStr
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 Append
 (
@@ -2035,7 +2035,7 @@ aLength
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendASCII
 (
@@ -2064,7 +2064,7 @@ aFallible
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendASCII
 (
@@ -2450,7 +2450,7 @@ template
 int
 N
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 AppendLiteral
 (
@@ -2793,7 +2793,7 @@ size_type
 aNewCapacity
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 NS_FASTCALL
 SetCapacity
@@ -2813,7 +2813,7 @@ size_type
 aNewLength
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 NS_FASTCALL
 SetLength
@@ -3441,7 +3441,7 @@ uint32_t
 aOldFlags
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ReplacePrep
 (
@@ -3453,7 +3453,7 @@ size_type
 aNewLength
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 NS_FASTCALL
 ReplacePrepInternal
@@ -3475,7 +3475,7 @@ Capacity
 )
 const
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 NS_FASTCALL
 EnsureMutable

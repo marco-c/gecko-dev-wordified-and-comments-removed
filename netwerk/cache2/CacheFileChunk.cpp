@@ -2990,7 +2990,7 @@ mBuf
 mRWBuf
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 nsresult
 CacheFileChunk
 :

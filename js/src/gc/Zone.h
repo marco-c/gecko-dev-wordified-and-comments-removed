@@ -340,7 +340,7 @@ Zone
 (
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 init
 (
@@ -457,7 +457,7 @@ onTooMuchMalloc
 (
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 void
 *
 onOutOfMemory
@@ -1507,7 +1507,7 @@ uid
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 getHashCode
 (
@@ -1556,7 +1556,7 @@ return
 true
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 getUniqueId
 (
@@ -1743,7 +1743,7 @@ return
 uid
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 hasUniqueId
 (

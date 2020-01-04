@@ -360,7 +360,7 @@ this
 ;
 private
 :
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 uint32_t
 emitAsmJSBoundsCheckBranch
 (
@@ -381,7 +381,7 @@ fail
 ;
 public
 :
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 uint32_t
 maybeEmitThrowingAsmJSBoundsCheck
 (
@@ -399,7 +399,7 @@ LAllocation
 ptr
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 uint32_t
 maybeEmitAsmJSLoadBoundsCheck
 (
@@ -416,7 +416,7 @@ OutOfLineLoadTypedArrayOutOfBounds
 ool
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 uint32_t
 maybeEmitAsmJSStoreBoundsCheck
 (

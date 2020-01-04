@@ -234,7 +234,7 @@ template
 typename
 A
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 uint32_t
 AddToHash
@@ -261,7 +261,7 @@ template
 typename
 A
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 uint32_t
 AddToHash
@@ -315,7 +315,7 @@ aA
 template
 <
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 uint32_t
 AddToHash
@@ -353,7 +353,7 @@ typename
 .
 Args
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 uint32_t
 AddToHash
 (
@@ -391,7 +391,7 @@ typename
 .
 Args
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 uint32_t
 HashGeneric
@@ -520,7 +520,7 @@ hash
 ;
 }
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 uint32_t
 HashString
@@ -550,7 +550,7 @@ aStr
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 uint32_t
 HashString
@@ -583,7 +583,7 @@ aLength
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 uint32_t
 HashString
@@ -608,7 +608,7 @@ aLength
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 uint32_t
 HashString
@@ -629,7 +629,7 @@ aStr
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 uint32_t
 HashString
@@ -656,7 +656,7 @@ aLength
 #
 ifdef
 MOZ_CHAR16_IS_NOT_WCHAR
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 uint32_t
 HashString
@@ -677,7 +677,7 @@ aStr
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 uint32_t
 HashString
@@ -706,7 +706,7 @@ endif
 #
 ifdef
 WIN32
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 uint32_t
 HashString
@@ -727,7 +727,7 @@ aStr
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 uint32_t
 HashString
@@ -753,7 +753,7 @@ aLength
 }
 #
 endif
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 extern
 MFBT_API
 uint32_t

@@ -760,7 +760,7 @@ protection
 ;
 public
 :
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 static
 bool
 makeWritable
@@ -791,7 +791,7 @@ true
 #
 endif
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 static
 bool
 makeExecutable
@@ -1373,7 +1373,7 @@ delete
 #
 ifdef
 NON_WRITABLE_JIT_CODE
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 static
 bool
 reprotectRegion

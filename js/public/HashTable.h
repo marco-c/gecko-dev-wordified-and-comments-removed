@@ -317,7 +317,7 @@ a
 )
 {
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 init
 (
@@ -445,7 +445,7 @@ KeyInput
 typename
 ValueInput
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 add
 (
@@ -496,7 +496,7 @@ template
 typename
 KeyInput
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 add
 (
@@ -538,7 +538,7 @@ KeyInput
 typename
 ValueInput
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 relookupOrAdd
 (
@@ -770,7 +770,7 @@ KeyInput
 typename
 ValueInput
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 put
 (
@@ -853,7 +853,7 @@ KeyInput
 typename
 ValueInput
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 putNew
 (
@@ -1308,7 +1308,7 @@ a
 )
 {
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 init
 (
@@ -1434,7 +1434,7 @@ template
 typename
 U
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 add
 (
@@ -1471,7 +1471,7 @@ template
 typename
 U
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 relookupOrAdd
 (
@@ -1691,7 +1691,7 @@ template
 typename
 U
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 put
 (
@@ -1735,7 +1735,7 @@ template
 typename
 U
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 putNew
 (
@@ -1769,7 +1769,7 @@ template
 typename
 U
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 putNew
 (
@@ -5275,7 +5275,7 @@ false
 endif
 {
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 init
 (
@@ -7379,7 +7379,7 @@ typename
 .
 Args
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 add
 (
@@ -7666,7 +7666,7 @@ typename
 .
 Args
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 putNew
 (
@@ -7738,7 +7738,7 @@ typename
 .
 Args
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 relookupOrAdd
 (

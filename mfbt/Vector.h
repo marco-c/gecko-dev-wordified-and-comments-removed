@@ -1083,7 +1083,7 @@ detail
 :
 VectorTesting
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 growStorageBy
 (
@@ -1091,7 +1091,7 @@ size_t
 aIncr
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 convertToHeapStorage
 (
@@ -1099,7 +1099,7 @@ size_t
 aNewCap
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 maybeCheckSimulatedOOM
 (
@@ -2043,7 +2043,7 @@ reverse
 (
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 initCapacity
 (
@@ -2051,7 +2051,7 @@ size_t
 aRequest
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 reserve
 (
@@ -2073,7 +2073,7 @@ size_t
 aNewLength
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 growBy
 (
@@ -2081,7 +2081,7 @@ size_t
 aIncr
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 resize
 (
@@ -2089,7 +2089,7 @@ size_t
 aNewLength
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 growByUninitialized
 (
@@ -2104,7 +2104,7 @@ size_t
 aIncr
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 resizeUninitialized
 (
@@ -2135,7 +2135,7 @@ template
 typename
 U
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 append
 (
@@ -2153,7 +2153,7 @@ typename
 .
 Args
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 emplaceBack
 (
@@ -2211,7 +2211,7 @@ O
 class
 BP
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 appendAll
 (
@@ -2226,7 +2226,7 @@ BP
 aU
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 appendN
 (
@@ -2243,7 +2243,7 @@ template
 typename
 U
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 append
 (
@@ -2262,7 +2262,7 @@ template
 typename
 U
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 append
 (
@@ -2427,14 +2427,14 @@ popCopy
 (
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 T
 *
 extractRawBuffer
 (
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 T
 *
 extractOrCopyRawBuffer
@@ -2456,7 +2456,7 @@ template
 typename
 U
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 T
 *
 insert

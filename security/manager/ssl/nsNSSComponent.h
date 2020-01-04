@@ -93,7 +93,7 @@ mozilla
 namespace
 psm
 {
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 :
 :
 already_AddRefed

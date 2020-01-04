@@ -9113,7 +9113,7 @@ rhs
 ;
 }
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 cmpl_im_disp32
 (
@@ -9217,7 +9217,7 @@ return
 r
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 cmpl_im_disp32
 (
@@ -13714,7 +13714,7 @@ dst
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 call
 (
@@ -13821,7 +13821,7 @@ GROUP5_OP_CALLN
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 cmp_eax
 (
@@ -13951,7 +13951,7 @@ diff
 ;
 }
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 jmp
 (
@@ -14199,7 +14199,7 @@ diff
 ;
 }
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 jCC
 (
@@ -28144,7 +28144,7 @@ imm
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 JmpSrc
 immediateRel32
 (

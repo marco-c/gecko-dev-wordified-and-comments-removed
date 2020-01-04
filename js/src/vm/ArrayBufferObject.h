@@ -850,7 +850,7 @@ newContents
 )
 ;
 static
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 detach
 (

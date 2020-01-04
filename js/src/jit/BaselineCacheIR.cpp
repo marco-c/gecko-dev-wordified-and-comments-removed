@@ -706,7 +706,7 @@ writer
 )
 {
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 init
 (
@@ -1855,7 +1855,7 @@ stubDataOffset
 )
 {
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 init
 (
@@ -1877,7 +1877,7 @@ DEFINE_OP
 (
 op
 )
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 emit
 #

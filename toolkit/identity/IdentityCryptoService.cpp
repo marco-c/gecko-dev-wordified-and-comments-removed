@@ -1387,7 +1387,7 @@ NS_ERROR_NOT_INITIALIZED
 )
 {
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 nsresult
 GenerateKeyPair
 (
@@ -1493,7 +1493,7 @@ return
 NS_OK
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 nsresult
 GenerateRSAKeyPair
 (
@@ -1545,7 +1545,7 @@ rsaParams
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 nsresult
 GenerateDSAKeyPair
 (

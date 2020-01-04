@@ -81,7 +81,7 @@ dom
 class
 Promise
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ToJSValue
 (
@@ -110,7 +110,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 typename
 EnableIf
 <
@@ -439,7 +439,7 @@ return
 true
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 bool
 ToJSValue
@@ -499,7 +499,7 @@ template
 class
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 typename
 EnableIf
 <
@@ -571,7 +571,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 typename
 EnableIf
 <
@@ -662,7 +662,7 @@ template
 class
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 typename
 EnableIf
 <
@@ -781,7 +781,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ToJSValue
 (
@@ -827,7 +827,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ToJSValue
 (
@@ -873,7 +873,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ToJSValue
 (
@@ -919,7 +919,7 @@ template
 class
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 typename
 EnableIf
 <
@@ -968,7 +968,7 @@ aValue
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 bool
 ToJSValue
@@ -1015,7 +1015,7 @@ aValue
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 bool
 ToJSValue
@@ -1064,7 +1064,7 @@ aValue
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 bool
 ToJSValue
@@ -1113,7 +1113,7 @@ aValue
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 inline
 bool
 ToJSValue
@@ -1160,7 +1160,7 @@ aValue
 )
 ;
 }
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ToJSValue
 (
@@ -1182,7 +1182,7 @@ Value
 aValue
 )
 ;
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ToJSValue
 (
@@ -1210,7 +1210,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 typename
 EnableIf
 <
@@ -1285,7 +1285,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 typename
 EnableIf
 <
@@ -1334,7 +1334,7 @@ aValue
 #
 ifdef
 SPIDERMONKEY_PROMISE
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ToJSValue
 (
@@ -1364,7 +1364,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ToJSValue
 (
@@ -1499,7 +1499,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ToJSValue
 (
@@ -1549,7 +1549,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ToJSValue
 (
@@ -1601,7 +1601,7 @@ T
 int
 N
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 bool
 ToJSValue
 (

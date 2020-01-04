@@ -1451,7 +1451,7 @@ EndianUtils
 protected
 :
 static
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 uint16_t
 readUint16
 (
@@ -1472,7 +1472,7 @@ aPtr
 ;
 }
 static
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 uint32_t
 readUint32
 (
@@ -1493,7 +1493,7 @@ aPtr
 ;
 }
 static
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 uint64_t
 readUint64
 (
@@ -1514,7 +1514,7 @@ aPtr
 ;
 }
 static
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 int16_t
 readInt16
 (
@@ -1535,7 +1535,7 @@ aPtr
 ;
 }
 static
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 int32_t
 readInt32
 (
@@ -1556,7 +1556,7 @@ aPtr
 ;
 }
 static
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 int64_t
 readInt64
 (
@@ -1689,7 +1689,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 static
 T
 swapToLittleEndian
@@ -1773,7 +1773,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 static
 T
 swapToBigEndian
@@ -1857,7 +1857,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 static
 T
 swapToNetworkOrder
@@ -1929,7 +1929,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 static
 T
 swapFromLittleEndian
@@ -2013,7 +2013,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 static
 T
 swapFromBigEndian
@@ -2097,7 +2097,7 @@ template
 typename
 T
 >
-MOZ_WARN_UNUSED_RESULT
+MOZ_MUST_USE
 static
 T
 swapFromNetworkOrder
