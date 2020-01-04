@@ -138,6 +138,16 @@ lBase64
 dataBuffer
 )
 ;
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+return
+rv
+;
 NS_UnescapeURL
 (
 dataBuffer
