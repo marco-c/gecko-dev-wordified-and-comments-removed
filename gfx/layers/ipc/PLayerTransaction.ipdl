@@ -489,6 +489,13 @@ int32_t
 paintSyncId
 )
 ;
+async
+SetLayerObserverEpoch
+(
+uint64_t
+layerObserverEpoch
+)
+;
 /
 /
 Testing
