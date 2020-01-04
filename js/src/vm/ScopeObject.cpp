@@ -14560,17 +14560,8 @@ length
 =
 0
 )
-{
-cx
--
->
-recoverFromOutOfMemory
-(
-)
-;
 return
 ;
-}
 RootedScript
 script
 (
@@ -14687,7 +14678,7 @@ snapshot
 cx
 -
 >
-recoverFromOutOfMemory
+clearPendingException
 (
 )
 ;
