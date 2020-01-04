@@ -159,6 +159,10 @@ ssl3ext
 .
 c
 \
+sslgathr
+.
+c
+\
 sslmutex
 .
 c

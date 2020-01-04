@@ -37,16 +37,6 @@ MAX_BLOCK_SIZE
 ]
 ;
 unsigned
-char
-counterFirst
-[
-MAX_BLOCK_SIZE
-]
-;
-PRBool
-checkWrap
-;
-unsigned
 long
 counterBits
 ;

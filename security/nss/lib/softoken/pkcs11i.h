@@ -897,7 +897,7 @@ rwSessionCount
 int
 sessionObjectHandleCount
 ;
-CK_ULONG
+int
 index
 ;
 PLHashTable

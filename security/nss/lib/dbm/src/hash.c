@@ -5331,8 +5331,7 @@ hashp
 SGSIZE
 sizeof
 (
-BUFHEAD
-*
+SEGMENT
 )
 )
 )
@@ -5647,6 +5646,7 @@ DSIZE
 sizeof
 (
 SEGMENT
+*
 )
 )
 )
@@ -5688,8 +5688,7 @@ hashp
 SSHIFT
 sizeof
 (
-BUFHEAD
-*
+SEGMENT
 )
 )
 )
