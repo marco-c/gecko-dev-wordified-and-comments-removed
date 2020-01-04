@@ -658,6 +658,9 @@ u
 name
 -
 >
+JSAtom
+:
+:
 asPropertyName
 (
 )

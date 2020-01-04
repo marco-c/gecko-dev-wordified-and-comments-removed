@@ -4739,6 +4739,16 @@ PropertyName
 public
 JSAtom
 {
+private
+:
+PropertyName
+*
+asPropertyName
+(
+)
+=
+delete
+;
 }
 ;
 static_assert
