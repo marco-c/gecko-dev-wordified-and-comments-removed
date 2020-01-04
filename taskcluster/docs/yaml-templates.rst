@@ -39,6 +39,7 @@ tasks
 are
 described
 using
+templated
 YAML
 files
 .

@@ -15,7 +15,7 @@ Graph
 from
 .
 .
-kind
+task
 .
 docker_image
 import
@@ -23,7 +23,7 @@ DockerImageTask
 from
 .
 .
-kind
+task
 .
 legacy
 import
@@ -101,7 +101,7 @@ kind_implementation
 '
 taskgraph
 .
-kind
+task
 .
 legacy
 :
@@ -233,6 +233,28 @@ taskcluster
 /
 ci
 "
+)
+        
+self
+.
+assertEqual
+(
+graph
+.
+tasks
+[
+'
+a
+'
+]
+new_graph
+.
+tasks
+[
+'
+a
+'
+]
 )
         
 self
