@@ -1555,6 +1555,8 @@ ToInteger
 (
 fromIndex
 )
++
+0
 ;
 if
 (
@@ -1916,6 +1918,8 @@ ToInteger
 (
 fromIndex
 )
++
+0
 ;
 var
 k
