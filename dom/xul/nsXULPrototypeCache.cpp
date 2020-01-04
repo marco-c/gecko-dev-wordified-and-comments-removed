@@ -871,7 +871,7 @@ script
 ;
 #
 ifdef
-DEBUG
+DEBUG_BUG_392650
 if
 (
 mScriptTable
