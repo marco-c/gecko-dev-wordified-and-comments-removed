@@ -25,6 +25,8 @@ exports
 updateTouchSimulationEnabled
 (
 enabled
+=
+false
 )
 {
 return

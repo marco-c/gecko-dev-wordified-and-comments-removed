@@ -1641,6 +1641,7 @@ let
 {
 userAgent
 pixelRatio
+touch
 }
 =
 event
@@ -1661,6 +1662,13 @@ this
 updateDPPX
 (
 pixelRatio
+)
+;
+this
+.
+updateTouchSimulation
+(
+touch
 )
 ;
 break
