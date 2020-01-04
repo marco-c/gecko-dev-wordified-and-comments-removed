@@ -6658,6 +6658,13 @@ onwebkitTransitionEnd
 )
 GK_ATOM
 (
+onwebsocket
+"
+onwebsocket
+"
+)
+GK_ATOM
+(
 onwheel
 "
 onwheel

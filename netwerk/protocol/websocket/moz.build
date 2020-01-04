@@ -98,6 +98,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsITransportProvider
+.
+idl
+'
+'
 nsIWebSocketChannel
 .
 idl
