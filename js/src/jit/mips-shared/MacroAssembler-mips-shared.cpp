@@ -1249,11 +1249,6 @@ rs
 rt
 )
 ;
-as_mflo
-(
-rd
-)
-;
 as_mfhi
 (
 ScratchRegister
@@ -1268,6 +1263,11 @@ Assembler
 :
 :
 NonZero
+)
+;
+as_mflo
+(
+rd
 )
 ;
 }
