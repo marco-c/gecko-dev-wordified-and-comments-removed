@@ -1712,7 +1712,7 @@ mMessage
 )
 {
 case
-NS_DRAGDROP_ENTER
+eDragEnter
 :
 {
 nsCOMPtr

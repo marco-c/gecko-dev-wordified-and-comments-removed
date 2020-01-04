@@ -32872,8 +32872,9 @@ if
 aMessage
 =
 =
-NS_DRAGDROP_ENTER
+eDragEnter
 )
+{
 mDragService
 -
 >
@@ -32881,6 +32882,7 @@ StartDragSession
 (
 )
 ;
+}
 nsCOMPtr
 <
 nsIDragSession
@@ -33247,7 +33249,7 @@ aMessage
 )
 {
 case
-NS_DRAGDROP_ENTER
+eDragEnter
 :
 case
 eDragOver
@@ -33604,7 +33606,7 @@ return
 self
 doDragAction
 :
-NS_DRAGDROP_ENTER
+eDragEnter
 sender
 :
 sender

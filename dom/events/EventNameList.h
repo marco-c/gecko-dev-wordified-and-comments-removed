@@ -387,7 +387,7 @@ eDragEventClass
 EVENT
 (
 dragenter
-NS_DRAGDROP_ENTER
+eDragEnter
 EventNameType_HTMLXUL
 eDragEventClass
 )

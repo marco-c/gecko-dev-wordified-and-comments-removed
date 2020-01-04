@@ -24803,7 +24803,7 @@ aDragEvent
 mMessage
 =
 =
-NS_DRAGDROP_ENTER
+eDragEnter
 |
 |
 aDragEvent

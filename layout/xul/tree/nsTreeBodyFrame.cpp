@@ -11821,7 +11821,7 @@ aEvent
 mMessage
 =
 =
-NS_DRAGDROP_ENTER
+eDragEnter
 )
 {
 if

@@ -13570,7 +13570,7 @@ mCurrentTarget
 break
 ;
 case
-NS_DRAGDROP_ENTER
+eDragEnter
 :
 case
 eDragOver
@@ -18047,7 +18047,7 @@ FireDragEnterOrExit
 (
 aPresContext
 aDragEvent
-NS_DRAGDROP_ENTER
+eDragEnter
 lastContent
 targetContent
 mCurrentTarget
@@ -18305,7 +18305,7 @@ SetContentState
 aMessage
 =
 =
-NS_DRAGDROP_ENTER
+eDragEnter
 )
 ?
 aTargetContent
@@ -18332,7 +18332,7 @@ NS_DRAGDROP_EXIT
 aMessage
 =
 =
-NS_DRAGDROP_ENTER
+eDragEnter
 )
 {
 UpdateDragDataTransfer
