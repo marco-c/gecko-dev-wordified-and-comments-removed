@@ -602,10 +602,6 @@ Clear
 )
 ;
 }
-mLastTime
-=
-0
-;
 MonitorAutoLock
 lock
 (
@@ -857,6 +853,10 @@ ProcessFlush
 (
 )
 {
+mLastTime
+=
+0
+;
 MonitorAutoLock
 lock
 (
