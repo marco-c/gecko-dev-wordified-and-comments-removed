@@ -423,6 +423,14 @@ aTokenResult
 )
 ;
 void
+ConsumeBadURLRemnants
+(
+nsCSSToken
+&
+aToken
+)
+;
+void
 Backup
 (
 uint32_t
