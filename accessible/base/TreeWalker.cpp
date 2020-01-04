@@ -485,7 +485,7 @@ if
 accessible
 -
 >
-IsRepositioned
+IsRelocated
 (
 )
 )

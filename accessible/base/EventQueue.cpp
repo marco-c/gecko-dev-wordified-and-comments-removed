@@ -1483,6 +1483,7 @@ nsIAccessibleEvent
 :
 EVENT_SHOW
 )
+{
 tailReorder
 -
 >
@@ -1490,6 +1491,7 @@ DoNotEmitAll
 (
 )
 ;
+}
 else
 if
 (
@@ -1501,6 +1503,7 @@ nsIAccessibleEvent
 :
 EVENT_HIDE
 )
+{
 NS_ERROR
 (
 "
@@ -1518,7 +1521,9 @@ Huh
 "
 )
 ;
+}
 else
+{
 aTailEvent
 -
 >
@@ -1529,6 +1534,22 @@ AccEvent
 :
 eDoNotEmit
 ;
+mEvents
+[
+index
+]
+.
+swap
+(
+mEvents
+[
+count
+-
+1
+]
+)
+;
+}
 return
 ;
 }
