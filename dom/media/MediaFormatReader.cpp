@@ -3204,6 +3204,14 @@ timeThreshold
 )
 )
 {
+mVideo
+.
+mDemuxRequest
+.
+DisconnectIfExists
+(
+)
+;
 Flush
 (
 TrackInfo
