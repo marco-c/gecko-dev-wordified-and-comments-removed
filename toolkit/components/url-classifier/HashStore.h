@@ -1056,6 +1056,10 @@ mSubCompletes
 uint32_t
 mFileSize
 ;
+friend
+class
+PerProviderDirectoryTestUtils
+;
 }
 ;
 }

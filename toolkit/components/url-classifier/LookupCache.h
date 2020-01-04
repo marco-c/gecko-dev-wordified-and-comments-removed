@@ -498,6 +498,10 @@ mUpdateCompletions
 CompletionArray
 mGetHashCache
 ;
+friend
+class
+PerProviderDirectoryTestUtils
+;
 }
 ;
 }
