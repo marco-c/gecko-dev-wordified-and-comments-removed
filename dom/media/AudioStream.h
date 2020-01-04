@@ -989,9 +989,6 @@ mState
 bool
 mIsFirst
 ;
-uint64_t
-mLastGoodPosition
-;
 bool
 mIsMonoAudioEnabled
 ;
