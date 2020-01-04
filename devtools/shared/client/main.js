@@ -1106,6 +1106,7 @@ outgoingPacket
 )
 ;
 }
+return
 this
 .
 request
