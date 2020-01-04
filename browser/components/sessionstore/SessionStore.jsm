@@ -3390,6 +3390,12 @@ uri
 &
 &
 !
+data
+.
+isRemotenessUpdate
+&
+&
+!
 win
 .
 gInitialPages
@@ -14315,6 +14321,7 @@ epoch
 loadArguments
 :
 aLoadArguments
+isRemotenessUpdate
 }
 )
 ;
