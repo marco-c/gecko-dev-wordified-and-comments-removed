@@ -371,12 +371,6 @@ GetScopeObject
 return
 ;
 }
-api
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 JSContext
 *
 cx

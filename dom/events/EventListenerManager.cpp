@@ -4380,12 +4380,6 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-jsapi
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 JSContext
 *
 cx

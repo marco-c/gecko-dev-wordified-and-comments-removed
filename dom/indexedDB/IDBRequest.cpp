@@ -1488,12 +1488,6 @@ return
 ;
 }
 }
-autoJS
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 JSContext
 *
 cx

@@ -3397,12 +3397,6 @@ mGlobal
 return
 ;
 }
-jsapi
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 JSContext
 *
 cx
@@ -8006,12 +8000,6 @@ mValues
 return
 ;
 }
-jsapi
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 JSContext
 *
 cx

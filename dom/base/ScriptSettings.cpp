@@ -2266,15 +2266,6 @@ void
 AutoJSAPI
 :
 :
-TakeOwnershipOfErrorReporting
-(
-)
-{
-}
-void
-AutoJSAPI
-:
-:
 ReportException
 (
 )
@@ -2864,10 +2855,6 @@ aReason
 )
 ;
 }
-TakeOwnershipOfErrorReporting
-(
-)
-;
 }
 AutoEntryScript
 :

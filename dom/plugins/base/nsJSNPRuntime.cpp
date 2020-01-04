@@ -661,15 +661,6 @@ aWrapper
 mDestroyPending
 )
 {
-MOZ_ASSERT
-(
-aes
-.
-OwnsErrorReporting
-(
-)
-)
-;
 }
 ~
 AutoJSExceptionSuppressor

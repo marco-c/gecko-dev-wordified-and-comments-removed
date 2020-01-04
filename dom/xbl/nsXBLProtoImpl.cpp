@@ -1070,12 +1070,6 @@ CompilationScope
 return
 NS_ERROR_FAILURE
 ;
-jsapi
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 JSContext
 *
 cx

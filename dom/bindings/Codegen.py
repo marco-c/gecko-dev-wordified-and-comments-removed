@@ -109599,13 +109599,6 @@ Init
 )
 ;
             
-jsapi
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
-            
 JSContext
 *
 cx

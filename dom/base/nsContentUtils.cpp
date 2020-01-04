@@ -29351,12 +29351,6 @@ cx
 (
 )
 ;
-jsapi
-.
-TakeOwnershipOfErrorReporting
-(
-)
-;
 JSAutoCompartment
 ac
 (
