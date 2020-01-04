@@ -34,7 +34,7 @@ NS_ALERT_TOP
 const
 WINDOW_MARGIN
 =
-0
+10
 ;
 Cu
 .
