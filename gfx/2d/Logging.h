@@ -297,6 +297,7 @@ MessageChannelCloseFailure
 TextureAliveAfterShutdown
 InvalidContext
 InvalidCommandList
+AsyncTransactionTimeout
 MustBeLessThanThis
 =
 101
