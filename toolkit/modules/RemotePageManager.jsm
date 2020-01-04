@@ -1565,6 +1565,8 @@ function
 (
 )
 {
+try
+{
 this
 .
 _browser
@@ -1580,6 +1582,13 @@ swapBrowsers
 false
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 this
 .
 _browser
