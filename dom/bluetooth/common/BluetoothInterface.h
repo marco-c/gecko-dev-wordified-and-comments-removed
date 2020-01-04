@@ -942,7 +942,7 @@ ConnectionStateNotification
 BluetoothA2dpConnectionState
 aState
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -954,7 +954,7 @@ AudioStateNotification
 BluetoothA2dpAudioState
 aState
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -964,7 +964,7 @@ void
 AudioConfigNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 uint32_t
@@ -1079,7 +1079,7 @@ void
 Connect
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothA2dpResultHandler
@@ -1094,7 +1094,7 @@ void
 Disconnect
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 BluetoothA2dpResultHandler
