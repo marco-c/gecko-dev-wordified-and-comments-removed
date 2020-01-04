@@ -161,14 +161,9 @@ rpath
 false
 lto
 =
-false
+true
 debug
 -
 assertions
 =
 false
-codegen
--
-units
-=
-1
