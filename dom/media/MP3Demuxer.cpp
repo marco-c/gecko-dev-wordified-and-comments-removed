@@ -65,7 +65,7 @@ gMP3DemuxerLog
 ;
 #
 define
-MP3DEMUXER_LOG
+MP3LOG
 (
 msg
 .
@@ -92,7 +92,7 @@ __VA_ARGS__
 )
 #
 define
-MP3DEMUXER_LOGV
+MP3LOGV
 (
 msg
 .
@@ -121,7 +121,7 @@ __VA_ARGS__
 else
 #
 define
-MP3DEMUXER_LOG
+MP3LOG
 (
 msg
 .
@@ -130,7 +130,7 @@ msg
 )
 #
 define
-MP3DEMUXER_LOGV
+MP3LOGV
 (
 msg
 .
@@ -239,7 +239,7 @@ InitInternal
 )
 )
 {
-MP3DEMUXER_LOG
+MP3LOG
 (
 "
 MP3Demuxer
@@ -270,7 +270,7 @@ __func__
 )
 ;
 }
-MP3DEMUXER_LOG
+MP3LOG
 (
 "
 MP3Demuxer
@@ -418,7 +418,7 @@ NotifyDataArrived
 "
 )
 ;
-MP3DEMUXER_LOGV
+MP3LOGV
 (
 "
 NotifyDataArrived
@@ -445,7 +445,7 @@ NotifyDataRemoved
 "
 )
 ;
-MP3DEMUXER_LOGV
+MP3LOGV
 (
 "
 NotifyDataRemoved
@@ -529,7 +529,7 @@ FindNextFrame
 )
 )
 ;
-MP3DEMUXER_LOG
+MP3LOG
 (
 "
 Init
@@ -636,7 +636,7 @@ ToMicroseconds
 (
 )
 ;
-MP3DEMUXER_LOG
+MP3LOG
 (
 "
 Init
@@ -865,7 +865,7 @@ TimeUnit
 aTime
 )
 {
-MP3DEMUXER_LOG
+MP3LOG
 (
 "
 FastSeek
@@ -984,7 +984,7 @@ mFrameIndex
 =
 numFrames
 ;
-MP3DEMUXER_LOG
+MP3LOG
 (
 "
 FastSeek
@@ -1031,7 +1031,7 @@ TimeUnit
 aTime
 )
 {
-MP3DEMUXER_LOG
+MP3LOG
 (
 "
 ScanUntil
@@ -1135,7 +1135,7 @@ FindNextFrame
 (
 )
 ;
-MP3DEMUXER_LOGV
+MP3LOGV
 (
 "
 ScanUntil
@@ -1183,7 +1183,7 @@ mFrameIndex
 )
 ;
 }
-MP3DEMUXER_LOG
+MP3LOG
 (
 "
 ScanUntil
@@ -1241,7 +1241,7 @@ int32_t
 aNumSamples
 )
 {
-MP3DEMUXER_LOGV
+MP3LOGV
 (
 "
 GetSamples
@@ -1371,7 +1371,7 @@ frame
 )
 ;
 }
-MP3DEMUXER_LOGV
+MP3LOGV
 (
 "
 GetSamples
@@ -1492,7 +1492,7 @@ Reset
 (
 )
 {
-MP3DEMUXER_LOG
+MP3LOG
 (
 "
 Reset
@@ -1826,7 +1826,7 @@ MAX_SKIPPED_BYTES
 *
 BUFFER_SIZE
 ;
-MP3DEMUXER_LOGV
+MP3LOGV
 (
 "
 FindNext
@@ -2061,7 +2061,7 @@ Length
 )
 )
 {
-MP3DEMUXER_LOG
+MP3LOG
 (
 "
 FindNext
@@ -2104,7 +2104,7 @@ return
 }
 ;
 }
-MP3DEMUXER_LOGV
+MP3LOGV
 (
 "
 FindNext
@@ -2230,7 +2230,7 @@ UpdateState
 aRange
 )
 ;
-MP3DEMUXER_LOGV
+MP3LOGV
 (
 "
 SkipNext
@@ -2302,7 +2302,7 @@ MediaByteRange
 aRange
 )
 {
-MP3DEMUXER_LOG
+MP3LOG
 (
 "
 GetNext
@@ -2394,7 +2394,7 @@ Length
 )
 )
 {
-MP3DEMUXER_LOG
+MP3LOG
 (
 "
 GetNext
@@ -2449,7 +2449,7 @@ Length
 )
 )
 {
-MP3DEMUXER_LOG
+MP3LOG
 (
 "
 GetNext
@@ -2603,7 +2603,7 @@ frame
 mOffset
 ;
 }
-MP3DEMUXER_LOGV
+MP3LOGV
 (
 "
 GetNext
@@ -2800,7 +2800,7 @@ int32_t
 aSize
 )
 {
-MP3DEMUXER_LOGV
+MP3LOGV
 (
 "
 MP3TrackDemuxer
@@ -2863,7 +2863,7 @@ read
 =
 0
 ;
-MP3DEMUXER_LOGV
+MP3LOGV
 (
 "
 MP3TrackDemuxer
@@ -3271,7 +3271,7 @@ Remaining
 )
 )
 {
-MP3DEMUXER_LOGV
+MP3LOGV
 (
 "
 ID3v2
@@ -3321,7 +3321,7 @@ return
 false
 ;
 }
-MP3DEMUXER_LOGV
+MP3LOGV
 (
 "
 ID3v2
