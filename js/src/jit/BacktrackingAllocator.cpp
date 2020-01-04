@@ -13487,7 +13487,7 @@ iter
 {
 buf
 =
-JS_smprintf
+JS_sprintf_append
 (
 buf
 "
