@@ -7279,7 +7279,7 @@ rv
 mTransaction
 -
 >
-ReadSegments
+ReadSegmentsAgain
 (
 this
 nsIOService
@@ -7288,6 +7288,8 @@ nsIOService
 gDefaultSegmentSize
 &
 transactionBytes
+&
+again
 )
 ;
 mContentBytesWritten
@@ -8005,7 +8007,7 @@ rv
 mTransaction
 -
 >
-WriteSegments
+WriteSegmentsAgain
 (
 this
 nsIOService
@@ -8014,6 +8016,8 @@ nsIOService
 gDefaultSegmentSize
 &
 n
+&
+again
 )
 ;
 LOG
