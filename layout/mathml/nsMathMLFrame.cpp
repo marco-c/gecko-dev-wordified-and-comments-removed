@@ -1603,7 +1603,7 @@ GetDrawTarget
 Rect
 rect
 =
-NSRectToNonEmptySnappedRect
+NSRectToSnappedRect
 (
 mRect
 +
