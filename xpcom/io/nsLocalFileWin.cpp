@@ -2260,7 +2260,7 @@ _pr_filetime_offset
 ;
 #
 endif
-PR_ASSERT
+MOZ_ASSERT
 (
 sizeof
 (

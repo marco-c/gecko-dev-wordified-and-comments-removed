@@ -3936,7 +3936,7 @@ nsIContent
 >
 content
 ;
-PR_ASSERT
+MOZ_ASSERT
 (
 eXMLContentSinkState_InEpilog
 !
@@ -4342,7 +4342,7 @@ result
 =
 NS_OK
 ;
-PR_ASSERT
+MOZ_ASSERT
 (
 eXMLContentSinkState_InDocumentElement
 =

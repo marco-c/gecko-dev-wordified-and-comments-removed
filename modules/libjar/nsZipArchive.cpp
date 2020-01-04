@@ -2019,7 +2019,7 @@ mFd
 return
 NS_ERROR_FAILURE
 ;
-PR_ASSERT
+MOZ_ASSERT
 (
 !
 item
@@ -3701,7 +3701,7 @@ nsZipItem
 aItem
 )
 {
-PR_ASSERT
+MOZ_ASSERT
 (
 aItem
 )
@@ -3826,7 +3826,7 @@ nsZipItem
 aItem
 )
 {
-PR_ASSERT
+MOZ_ASSERT
 (
 aItem
 )
@@ -4122,7 +4122,7 @@ uint16_t
 len
 )
 {
-PR_ASSERT
+MOZ_ASSERT
 (
 aName
 !
