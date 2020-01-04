@@ -24,12 +24,14 @@ manifestparser
 1
 .
 1
-mozhttpd
+wptserve
 >
 =
-0
+1
 .
-7
+3
+.
+0
 mozinfo
 >
 =
