@@ -10708,8 +10708,7 @@ PopNullJSContext
 (
 )
 ;
-JSContext
-*
+void
 Pop
 (
 )

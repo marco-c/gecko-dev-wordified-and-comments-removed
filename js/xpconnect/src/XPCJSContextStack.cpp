@@ -82,8 +82,7 @@ nullptr
 ;
 }
 }
-JSContext
-*
+void
 XPCJSContextStack
 :
 :
@@ -111,15 +110,6 @@ Length
 )
 -
 1
-;
-JSContext
-*
-cx
-=
-mStack
-[
-idx
-]
 ;
 mStack
 .
@@ -170,9 +160,6 @@ Runtime
 )
 newTop
 )
-;
-return
-cx
 ;
 }
 void
