@@ -3349,10 +3349,6 @@ SetState
 DECODER_STATE_COMPLETED
 )
 ;
-ScheduleStateMachine
-(
-)
-;
 return
 ;
 }
@@ -5174,6 +5170,15 @@ ReleaseResources
 break
 ;
 case
+DECODER_STATE_COMPLETED
+:
+ScheduleStateMachine
+(
+)
+;
+break
+;
+case
 DECODER_STATE_ERROR
 :
 case
@@ -5851,10 +5856,6 @@ CheckIfDecodeComplete
 SetState
 (
 DECODER_STATE_COMPLETED
-)
-;
-ScheduleStateMachine
-(
 )
 ;
 return
