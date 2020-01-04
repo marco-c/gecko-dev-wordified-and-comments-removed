@@ -8392,6 +8392,17 @@ mProperties
 {
 if
 (
+!
+property
+.
+mWinsInCascade
+)
+{
+continue
+;
+}
+if
+(
 IsGeometricProperty
 (
 property
