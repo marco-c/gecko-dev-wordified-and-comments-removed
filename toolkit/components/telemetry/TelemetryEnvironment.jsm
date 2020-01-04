@@ -3563,6 +3563,17 @@ if
 plugin
 .
 isGMPlugin
+|
+|
+!
+plugin
+.
+isValid
+|
+|
+plugin
+.
+disabled
 )
 {
 continue
