@@ -863,7 +863,10 @@ aCx
 const
 Sequence
 <
-OwningArrayBufferOrArrayBufferViewOrBlobOrString
+Blob
+:
+:
+BlobPart
 >
 &
 aData
@@ -909,7 +912,10 @@ i
 )
 {
 const
-OwningArrayBufferOrArrayBufferViewOrBlobOrString
+Blob
+:
+:
+BlobPart
 &
 data
 =
@@ -961,7 +967,7 @@ if
 (
 data
 .
-IsString
+IsUSVString
 (
 )
 )
@@ -974,7 +980,7 @@ AppendString
 (
 data
 .
-GetAsString
+GetAsUSVString
 (
 )
 aNativeEOL

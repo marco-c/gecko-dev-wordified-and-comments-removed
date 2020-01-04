@@ -123,15 +123,7 @@ Constructor
 (
 sequence
 <
-(
-ArrayBuffer
-or
-ArrayBufferView
-or
-Blob
-or
-DOMString
-)
+BlobPart
 >
 fileBits
 USVString
