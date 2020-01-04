@@ -1844,7 +1844,7 @@ case
 NS_POINTER_ENTER
 :
 case
-NS_POINTER_LEAVE
+ePointerLeave
 :
 mFlags
 .

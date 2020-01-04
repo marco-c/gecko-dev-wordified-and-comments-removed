@@ -2827,7 +2827,7 @@ sPointerEventEnabled
 {
 GeneratePointerEnterExit
 (
-NS_POINTER_LEAVE
+ePointerLeave
 mouseEvent
 )
 ;
@@ -16737,7 +16737,7 @@ movingInto
 aMouseEvent
 isPointer
 ?
-NS_POINTER_LEAVE
+ePointerLeave
 :
 eMouseLeave
 )
@@ -17586,7 +17586,7 @@ nullptr
 break
 ;
 case
-NS_POINTER_LEAVE
+ePointerLeave
 :
 case
 ePointerCancel
