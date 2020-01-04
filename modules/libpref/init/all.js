@@ -37275,7 +37275,7 @@ accessiblecaret
 width
 "
 "
-44
+34
 .
 0
 "
@@ -37291,7 +37291,7 @@ accessiblecaret
 height
 "
 "
-47
+36
 .
 0
 "
@@ -37310,7 +37310,7 @@ left
 "
 "
 -
-23
+18
 .
 5
 "
