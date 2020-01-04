@@ -4397,9 +4397,6 @@ bool
 mCalledClose
 ;
 bool
-mCalledCloseWithError
-;
-bool
 mCalledKillHard
 ;
 bool
