@@ -201,6 +201,7 @@ OBSOLETE
 ;
 [
 Throws
+UseCounter
 ]
 readonly
 attribute
@@ -227,6 +228,7 @@ cache
 /
 [
 Throws
+UseCounter
 ]
 void
 update
@@ -263,6 +265,7 @@ obsolete
 /
 [
 Throws
+UseCounter
 ]
 void
 swapCache
