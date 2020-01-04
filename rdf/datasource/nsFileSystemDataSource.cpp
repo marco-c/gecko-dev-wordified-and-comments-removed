@@ -1739,16 +1739,9 @@ urlStr
 ;
 urlStr
 .
-Assign
-(
-NS_LITERAL_STRING
+AssignLiteral
 (
 NS_MOZICON_SCHEME
-)
-.
-get
-(
-)
 )
 ;
 urlStr
