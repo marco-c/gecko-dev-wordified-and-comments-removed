@@ -1803,7 +1803,7 @@ OverlayImage
 >
 mOverlayImage
 ;
-PrincipalID
+PrincipalHandle
 mPrincipalHandle
 ;
 #
