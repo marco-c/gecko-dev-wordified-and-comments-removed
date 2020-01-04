@@ -4566,6 +4566,13 @@ SeekTarget
 :
 :
 PrevSyncPoint
+|
+|
+mPendingSeek
+.
+Exists
+(
+)
 )
 {
 Push
