@@ -717,6 +717,12 @@ aContent
 )
 ;
 static
+void
+UpdateDisplayPortMarginsFromPendingMessages
+(
+)
+;
+static
 bool
 GetDisplayPortForVisibilityTesting
 (
