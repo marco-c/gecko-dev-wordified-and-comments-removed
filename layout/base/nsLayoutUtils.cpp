@@ -32436,6 +32436,9 @@ height
 )
 :
 CSSIntSize
+:
+:
+Truncate
 (
 devPixelDest
 .

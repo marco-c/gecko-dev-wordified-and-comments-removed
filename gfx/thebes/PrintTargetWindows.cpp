@@ -132,6 +132,11 @@ heightDPI
 ;
 IntSize
 size
+=
+IntSize
+:
+:
+Truncate
 (
 width
 height

@@ -718,6 +718,11 @@ nullptr
 }
 IntSize
 size
+=
+IntSize
+:
+:
+Truncate
 (
 width
 height

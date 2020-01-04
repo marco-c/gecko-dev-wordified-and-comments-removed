@@ -216,6 +216,9 @@ Factory
 CreateDataSourceSurface
 (
 IntSize
+:
+:
+Truncate
 (
 ioWidth
 ioHeight
@@ -481,6 +484,9 @@ data
 mYSize
 =
 IntSize
+:
+:
+Truncate
 (
 ioWidth
 ioHeight
@@ -517,6 +523,9 @@ data
 mCbCrSize
 =
 IntSize
+:
+:
+Truncate
 (
 cbCrWidth
 cbCrHeight
@@ -538,6 +547,9 @@ SurfaceFormat
 :
 B8G8R8X8
 IntSize
+:
+:
+Truncate
 (
 ioWidth
 ioHeight
@@ -863,6 +875,9 @@ data
 mYSize
 =
 IntSize
+:
+:
+Truncate
 (
 ioWidth
 ioHeight
@@ -905,6 +920,9 @@ data
 mCbCrSize
 =
 IntSize
+:
+:
+Truncate
 (
 cbCrWidth
 cbCrHeight
@@ -926,6 +944,9 @@ SurfaceFormat
 :
 B8G8R8X8
 IntSize
+:
+:
+Truncate
 (
 ioWidth
 ioHeight

@@ -24875,6 +24875,9 @@ aDrawTarget
 CreateSimilarDrawTarget
 (
 IntSize
+:
+:
+Truncate
 (
 bounds
 .

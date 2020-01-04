@@ -2041,6 +2041,9 @@ event
 mRefPoint
 =
 LayoutDeviceIntPoint
+:
+:
+Truncate
 (
 aRefPoint
 .

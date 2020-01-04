@@ -3331,8 +3331,13 @@ double
 aYScroll
 )
 {
-CSSIntPoint
+auto
 scrollPos
+=
+CSSIntPoint
+:
+:
+Truncate
 (
 mozilla
 :
@@ -3538,6 +3543,9 @@ scrollPos
 +
 =
 CSSIntPoint
+:
+:
+Truncate
 (
 mozilla
 :

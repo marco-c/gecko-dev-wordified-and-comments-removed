@@ -400,6 +400,9 @@ gfx
 :
 :
 IntSize
+:
+:
+Truncate
 (
 width
 height

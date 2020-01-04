@@ -906,6 +906,9 @@ gfx
 :
 :
 IntSize
+:
+:
+Truncate
 (
 rect
 .
@@ -1065,6 +1068,9 @@ mInstance
 NotifySize
 (
 nsIntSize
+:
+:
+Truncate
 (
 screenSize
 .
@@ -7014,6 +7020,9 @@ gfx
 :
 :
 IntSize
+:
+:
+Truncate
 (
 aVideoInfo
 -

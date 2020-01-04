@@ -1766,6 +1766,9 @@ SVGImageContext
 context
 (
 CSSIntSize
+:
+:
+Truncate
 (
 width
 height

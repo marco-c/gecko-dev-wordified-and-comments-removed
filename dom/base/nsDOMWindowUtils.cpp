@@ -12985,12 +12985,15 @@ NudgeToIntegers
 (
 )
 ;
-nsIntPoint
+IntPoint
 offset
 =
 aOffset
 +
-nsIntPoint
+IntPoint
+:
+:
+Truncate
 (
 transform
 .

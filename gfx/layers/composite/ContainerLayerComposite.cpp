@@ -4536,6 +4536,9 @@ gfx
 :
 :
 IntPoint
+:
+:
+Truncate
 (
 transform
 .

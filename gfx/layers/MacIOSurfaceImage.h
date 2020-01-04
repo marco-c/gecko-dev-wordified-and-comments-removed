@@ -104,6 +104,9 @@ gfx
 :
 :
 IntSize
+:
+:
+Truncate
 (
 mSurface
 -
