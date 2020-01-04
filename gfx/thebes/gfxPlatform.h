@@ -1600,7 +1600,13 @@ GetSkiaGLGlue
 )
 ;
 void
-PurgeSkiaCache
+PurgeSkiaGPUCache
+(
+)
+;
+static
+void
+PurgeSkiaFontCache
 (
 )
 ;
