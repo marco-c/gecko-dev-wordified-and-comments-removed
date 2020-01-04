@@ -4492,6 +4492,8 @@ cancelForwarding
 prefix
 )
 ;
+try
+{
 mm
 .
 sendAsyncMessage
@@ -4508,6 +4510,13 @@ prefix
 }
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 }
 else
 {
