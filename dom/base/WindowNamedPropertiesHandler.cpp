@@ -1214,13 +1214,6 @@ WindowProperties
 JSCLASS_IS_DOMIFACEANDPROTOJSCLASS
 )
 eNamedPropertiesObject
-sWindowNamedPropertiesNativePropertyHooks
-"
-[
-object
-WindowProperties
-]
-"
 prototypes
 :
 :
@@ -1229,6 +1222,13 @@ id
 :
 _ID_Count
 0
+sWindowNamedPropertiesNativePropertyHooks
+"
+[
+object
+WindowProperties
+]
+"
 EventTargetBinding
 :
 :
