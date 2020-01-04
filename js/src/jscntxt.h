@@ -1347,14 +1347,6 @@ AutoCycleDetector
 Set
 cycleDetectorSet
 ;
-void
-*
-data
-;
-void
-*
-data2
-;
 public
 :
 JSVersion
