@@ -615,8 +615,14 @@ nullptr
 )
 override
 ;
-bool
-UpdateForDeviceReset
+void
+SchedulePaintIfDeviceReset
+(
+)
+override
+;
+void
+UpdateRenderModeIfDeviceReset
 (
 )
 override
