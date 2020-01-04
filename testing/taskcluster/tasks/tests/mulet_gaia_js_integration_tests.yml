@@ -14,6 +14,9 @@ b2g_unittest_base
 .
 yml
 '
+reruns
+:
+3
 task
 :
 metadata
