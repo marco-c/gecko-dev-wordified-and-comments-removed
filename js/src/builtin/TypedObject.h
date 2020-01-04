@@ -2144,7 +2144,7 @@ addressOfShapeFromGC
 return
 shape_
 .
-unsafeGet
+unsafeUnbarrieredForTracing
 (
 )
 ;

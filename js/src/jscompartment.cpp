@@ -2810,7 +2810,7 @@ PendingMetadata
 (
 )
 .
-unsafeGet
+unsafeUnbarrieredForTracing
 (
 )
 "
@@ -2869,7 +2869,7 @@ TraceRoot
 trc
 global_
 .
-unsafeGet
+unsafeUnbarrieredForTracing
 (
 )
 "
