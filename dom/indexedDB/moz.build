@@ -607,16 +607,7 @@ building
 with
 VS2015
 .
-SOURCES
-[
-'
-Key
-.
-cpp
-'
-]
-.
-flags
+CXXFLAGS
 +
 =
 [
