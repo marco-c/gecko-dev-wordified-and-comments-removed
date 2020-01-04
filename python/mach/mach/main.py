@@ -3327,6 +3327,24 @@ operations
 '
 )
         
+suppress_log_by_default
+=
+False
+        
+if
+'
+INSIDE_EMACS
+'
+in
+os
+.
+environ
+:
+            
+suppress_log_by_default
+=
+True
+        
 global_group
 .
 add_argument
@@ -3353,7 +3371,7 @@ store_true
 '
 default
 =
-False
+suppress_log_by_default
             
 help
 =
