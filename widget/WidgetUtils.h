@@ -160,6 +160,12 @@ IsTouchDeviceSupportPresent
 (
 )
 ;
+static
+void
+SendBidiKeyboardInfoToContent
+(
+)
+;
 }
 ;
 }
