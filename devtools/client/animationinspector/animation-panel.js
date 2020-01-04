@@ -1032,6 +1032,7 @@ data
 let
 {
 isMoving
+isPaused
 isUserDrag
 time
 }
