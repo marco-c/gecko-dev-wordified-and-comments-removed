@@ -9962,6 +9962,7 @@ onFailure
 ]
 (
 MediaStreamError
+*
 &
 reason
 )
@@ -9972,7 +9973,6 @@ onFailure
 >
 OnError
 (
-&
 reason
 )
 ;
@@ -10958,6 +10958,7 @@ listener
 ]
 (
 MediaStreamError
+*
 &
 reason
 )
@@ -10987,7 +10988,6 @@ onFailure
 >
 OnError
 (
-&
 reason
 )
 ;
