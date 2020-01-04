@@ -5724,6 +5724,8 @@ scaled
 font
 "
 ;
+return
+;
 }
 AutoPrepareForDrawing
 prep
