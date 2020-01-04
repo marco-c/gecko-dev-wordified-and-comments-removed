@@ -2176,12 +2176,6 @@ false
 if
 defined
 (
-NIGHTLY_BUILD
-)
-&
-&
-defined
-(
 MOZ_HAVE_RDTSC
 )
 js

@@ -456,9 +456,6 @@ nsIAboutModule
 :
 HIDE_FROM_ABOUTABOUT
 }
-#
-ifdef
-NIGHTLY_BUILD
 {
 "
 performance
@@ -481,8 +478,6 @@ nsIAboutModule
 :
 ALLOW_SCRIPT
 }
-#
-endif
 {
 "
 plugins
