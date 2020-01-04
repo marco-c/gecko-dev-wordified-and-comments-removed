@@ -849,7 +849,10 @@ _backend_output_files
 )
 )
         
-else
+elif
+self
+.
+_updated_count
 :
             
 with
