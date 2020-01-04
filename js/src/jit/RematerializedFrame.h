@@ -619,10 +619,12 @@ numArgSlots
 const
 {
 return
+(
 std
 :
 :
 max
+)
 (
 numFormalArgs
 (
