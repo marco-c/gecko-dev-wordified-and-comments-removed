@@ -3336,10 +3336,10 @@ sb
 :
 location
 (
-gc
+ChunkLocation
 :
 :
-ChunkLocationBitNursery
+Nursery
 )
 storeBuffer
 (
@@ -3361,10 +3361,10 @@ rt
 :
 location
 (
-gc
+ChunkLocation
 :
 :
-ChunkLocationBitTenuredHeap
+TenuredHeap
 )
 storeBuffer
 (
@@ -3378,7 +3378,7 @@ rt
 }
 public
 :
-uint32_t
+ChunkLocation
 location
 ;
 uint32_t
