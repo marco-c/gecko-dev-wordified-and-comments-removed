@@ -1765,11 +1765,9 @@ them
 '
         
 from
-pymake
-.
-process
+mozbuild
 import
-ClineSplitter
+shellutil
         
 mozconfig_mk
 =
@@ -1823,12 +1821,11 @@ export
                     
 exports
 =
-ClineSplitter
+shellutil
+.
+split
 (
 line
-self
-.
-topobjdir
 )
 [
 1

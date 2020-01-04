@@ -6457,30 +6457,29 @@ if
 debugger_args
 :
             
+from
+mozbuild
 import
-pymake
-.
-process
+shellutil
             
-argv
-badchar
+try
+:
+                
+debugger_args
 =
-pymake
+shellutil
 .
-process
-.
-clinetoargv
+split
 (
 debugger_args
-os
-.
-getcwd
-(
-)
 )
             
-if
-badchar
+except
+shellutil
+.
+MetaCharacterException
+as
+e
 :
                 
 print
@@ -6520,18 +6519,13 @@ character
 )
 "
 %
-(
-badchar
-)
+e
+.
+char
 )
                 
 return
 1
-            
-debugger_args
-=
-argv
-;
         
 args
 =
@@ -8198,30 +8192,29 @@ if
 debugparams
 :
                 
+from
+mozbuild
 import
-pymake
-.
-process
+shellutil
                 
-argv
-badchar
+try
+:
+                    
+debugparams
 =
-pymake
+shellutil
 .
-process
-.
-clinetoargv
+split
 (
 debugparams
-os
-.
-getcwd
-(
-)
 )
                 
-if
-badchar
+except
+shellutil
+.
+MetaCharacterException
+as
+e
 :
                     
 print
@@ -8261,18 +8254,13 @@ character
 )
 "
 %
-(
-badchar
-)
+e
+.
+char
 )
                     
 return
 1
-                
-debugparams
-=
-argv
-;
             
 if
 not

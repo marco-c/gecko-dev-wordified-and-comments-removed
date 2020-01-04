@@ -315,12 +315,6 @@ build
 '
     
 '
-build
-/
-pymake
-'
-    
-'
 config
 '
     
