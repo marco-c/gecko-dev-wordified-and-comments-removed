@@ -897,7 +897,7 @@ replacer
 stack
 (
 cx
-TraceableHashSet
+GCHashSet
 <
 JSObject
 *
@@ -949,7 +949,7 @@ replacer
 ;
 Rooted
 <
-TraceableHashSet
+GCHashSet
 <
 JSObject
 *
@@ -1812,7 +1812,7 @@ private
 :
 MutableHandle
 <
-TraceableHashSet
+GCHashSet
 <
 JSObject
 *

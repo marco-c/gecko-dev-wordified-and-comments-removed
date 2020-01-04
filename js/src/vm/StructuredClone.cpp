@@ -81,7 +81,7 @@ include
 "
 js
 /
-TraceableHashTable
+GCHashTable
 .
 h
 "
@@ -1302,7 +1302,7 @@ entries
 using
 CloneMemory
 =
-TraceableHashMap
+GCHashMap
 <
 JSObject
 *

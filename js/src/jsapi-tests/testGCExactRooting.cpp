@@ -12,7 +12,7 @@ include
 "
 js
 /
-RootingAPI
+GCHashTable
 .
 h
 "
@@ -21,7 +21,7 @@ include
 "
 js
 /
-TraceableHashTable
+RootingAPI
 .
 h
 "
@@ -734,7 +734,7 @@ MyHashMap
 js
 :
 :
-TraceableHashMap
+GCHashMap
 <
 js
 :
