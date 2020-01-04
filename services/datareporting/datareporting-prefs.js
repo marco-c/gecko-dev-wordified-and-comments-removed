@@ -21,7 +21,7 @@ dataSubmissionEnabled
 .
 v2
 "
-true
+false
 )
 ;
 pref
