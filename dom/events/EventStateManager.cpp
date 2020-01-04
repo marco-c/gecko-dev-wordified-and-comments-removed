@@ -9429,7 +9429,7 @@ aEvent
 mFlags
 .
 mIsTrusted
-NS_MOUSE_PIXEL_SCROLL
+eLegacyMousePixelScroll
 aEvent
 -
 >

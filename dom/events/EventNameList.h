@@ -1158,7 +1158,7 @@ eMouseScrollEventClass
 NON_IDL_EVENT
 (
 MozMousePixelScroll
-NS_MOUSE_PIXEL_SCROLL
+eLegacyMousePixelScroll
 EventNameType_HTMLXUL
 eMouseScrollEventClass
 )
