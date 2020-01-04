@@ -1388,12 +1388,6 @@ gBrowser
 ;
 this
 .
-cacheDims
-(
-)
-;
-this
-.
 previews
 =
 new
@@ -1548,6 +1542,12 @@ prototype
 _enabled
 :
 false
+_cachedWidth
+:
+0
+_cachedHeight
+:
+0
 tabEvents
 :
 [
