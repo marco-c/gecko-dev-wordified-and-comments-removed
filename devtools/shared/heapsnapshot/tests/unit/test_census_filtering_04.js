@@ -256,6 +256,9 @@ parent
 children
 :
 undefined
+reportLeafIndex
+:
+2
 }
 {
 name
@@ -284,6 +287,9 @@ parent
 children
 :
 undefined
+reportLeafIndex
+:
+3
 }
 ]
 id
@@ -292,11 +298,17 @@ id
 parent
 :
 11
+reportLeafIndex
+:
+undefined
 }
 ]
 id
 :
 11
+reportLeafIndex
+:
+undefined
 }
 ;
 compareCensusViewData

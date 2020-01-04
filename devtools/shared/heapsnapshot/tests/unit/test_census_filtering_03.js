@@ -258,6 +258,9 @@ id
 parent
 :
 undefined
+reportLeafIndex
+:
+undefined
 }
 ;
 compareCensusViewData
