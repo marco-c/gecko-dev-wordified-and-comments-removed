@@ -1415,7 +1415,7 @@ eFullscreenEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_FULLSCREENCHANGE
+eFullscreenChange
 eFullscreenEventFirst
 )
 NS_EVENT_MESSAGE
