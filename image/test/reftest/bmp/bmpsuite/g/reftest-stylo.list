@@ -887,7 +887,6 @@ not
 )
 .
 "
-fails
 =
 =
 rgb16
@@ -990,7 +989,6 @@ not
 )
 .
 "
-fails
 =
 =
 rgb16
@@ -1034,7 +1032,6 @@ a
 palette
 .
 "
-fails
 =
 =
 rgb16

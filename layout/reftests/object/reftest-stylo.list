@@ -40,7 +40,6 @@ html
 data
 .
 html
-fails
 HTTP
 =
 =
@@ -79,6 +78,7 @@ as
 data
 .
 html
+fails
 =
 =
 page
@@ -140,7 +140,6 @@ with
 type
 .
 html
-fails
 skip
 -
 if
@@ -368,7 +367,6 @@ should
 fallback
 .
 html
-fails
 =
 =
 malformed
@@ -429,7 +427,6 @@ to
 add
 them
 #
-fails
 =
 =
 unknown
@@ -442,7 +439,6 @@ unknown
 type
 .
 html
-fails
 =
 =
 malformed
@@ -455,7 +451,6 @@ malformed
 xml
 .
 html
-fails
 =
 =
 malformed
@@ -541,7 +536,6 @@ html
 svg
 .
 html
-fails
 =
 =
 svg

@@ -720,7 +720,6 @@ marked
 as
 failing
 .
-fails
 skip
 -
 if
@@ -758,7 +757,6 @@ B2G
 /
 B2G
 Desktop
-fails
 skip
 -
 if

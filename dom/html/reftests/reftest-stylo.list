@@ -156,7 +156,6 @@ html
 1b
 .
 html
-fails
 =
 =
 468263
@@ -169,7 +168,6 @@ html
 1c
 .
 html
-fails
 =
 =
 468263
@@ -182,7 +180,6 @@ html
 1d
 .
 html
-fails
 =
 =
 468263
@@ -195,7 +192,6 @@ html
 2
 .
 html
-fails
 =
 =
 468263
@@ -418,7 +414,6 @@ bug502168
 1_malformed
 .
 html
-fails
 =
 =
 responsive

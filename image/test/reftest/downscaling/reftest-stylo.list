@@ -1408,7 +1408,6 @@ and
 transparent
 ICO
 images
-fails
 =
 =
 downscale
@@ -1433,7 +1432,6 @@ ff
 0RGB
 .
 ico
-fails
 =
 =
 downscale
@@ -1467,7 +1465,6 @@ negative
 height
 )
 BMP
-fails
 =
 =
 downscale
@@ -2751,7 +2748,6 @@ and
 transparent
 ICO
 images
-fails
 =
 =
 downscale
@@ -2776,7 +2772,6 @@ ff
 0RGB
 .
 ico
-fails
 =
 =
 downscale
@@ -2810,7 +2805,6 @@ negative
 height
 )
 BMP
-fails
 =
 =
 downscale

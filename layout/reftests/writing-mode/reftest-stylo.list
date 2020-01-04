@@ -2815,7 +2815,6 @@ inline
 .
 html
 fails
-fails
 -
 if
 (
@@ -4043,7 +4042,6 @@ padding
 1
 .
 html
-fails
 =
 =
 1172774
@@ -4064,7 +4062,6 @@ padding
 2
 .
 html
-fails
 =
 =
 1172774
@@ -4085,7 +4082,6 @@ padding
 3
 .
 html
-fails
 =
 =
 1172774

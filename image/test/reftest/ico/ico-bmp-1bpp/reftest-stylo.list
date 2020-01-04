@@ -44,6 +44,7 @@ size
 1bpp
 .
 ico
+fails
 =
 =
 ico
@@ -164,7 +165,6 @@ size
 1bpp
 .
 ico
-fails
 =
 =
 ico
@@ -285,7 +285,6 @@ size
 1bpp
 .
 ico
-fails
 =
 =
 ico

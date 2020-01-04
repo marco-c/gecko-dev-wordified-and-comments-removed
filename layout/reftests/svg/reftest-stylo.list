@@ -691,7 +691,6 @@ currentColor
 03
 .
 svg
-fails
 =
 =
 data
@@ -740,7 +739,6 @@ gradient
 01
 .
 xhtml
-fails
 =
 =
 data

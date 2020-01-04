@@ -1547,7 +1547,6 @@ prefs
 a
 boolean
 pref
-fails
 pref
 (
 gfx
@@ -1574,7 +1573,6 @@ font
 download
 .
 html
-fails
 pref
 (
 gfx
@@ -1601,7 +1599,6 @@ font
 download
 .
 html
-fails
 pref
 (
 gfx
@@ -1628,7 +1625,6 @@ font
 download
 .
 html
-fails
 pref
 (
 gfx
@@ -1663,7 +1659,6 @@ non
 -
 existent
 pref
-fails
 pref
 (
 not
@@ -1693,7 +1688,6 @@ html
 an
 integer
 pref
-fails
 pref
 (
 font
@@ -1781,7 +1775,6 @@ size
 24
 .
 html
-fails
 pref
 (
 font
@@ -1811,7 +1804,6 @@ size
 16
 .
 html
-fails
 pref
 (
 font
@@ -1841,7 +1833,6 @@ size
 16
 .
 html
-fails
 pref
 (
 font
@@ -1877,7 +1868,6 @@ html
 a
 string
 pref
-fails
 pref
 (
 font
@@ -1963,7 +1953,6 @@ sans
 serif
 .
 html
-fails
 pref
 (
 font
@@ -1991,7 +1980,6 @@ font
 serif
 .
 html
-fails
 pref
 (
 font
@@ -2015,7 +2003,6 @@ font
 serif
 .
 html
-fails
 pref
 (
 font
@@ -2049,7 +2036,6 @@ and
 test
 -
 pref
-fails
 ref
 -
 pref
@@ -2143,7 +2129,6 @@ size
 24
 .
 html
-fails
 ref
 -
 pref
@@ -2175,7 +2160,6 @@ size
 16
 .
 html
-fails
 ref
 -
 pref
@@ -2207,7 +2191,6 @@ size
 16
 .
 html
-fails
 ref
 -
 pref

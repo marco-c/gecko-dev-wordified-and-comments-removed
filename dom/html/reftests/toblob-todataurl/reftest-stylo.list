@@ -206,7 +206,6 @@ quality
 default
 .
 html
-fails
 fuzzy
 -
 if
@@ -256,7 +255,6 @@ quality
 25
 .
 html
-fails
 fuzzy
 -
 if
@@ -281,7 +279,6 @@ quality
 50
 .
 html
-fails
 fuzzy
 -
 if
@@ -331,7 +328,6 @@ quality
 92
 .
 html
-fails
 fuzzy
 -
 if
@@ -356,7 +352,6 @@ quality
 100
 .
 html
-fails
 fuzzy
 -
 if
@@ -381,7 +376,6 @@ quality
 undefined
 .
 html
-fails
 fuzzy
 -
 if
