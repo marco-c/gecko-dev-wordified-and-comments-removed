@@ -303,7 +303,7 @@ panel
 getElementsByTagName
 (
 "
-image
+img
 "
 )
 ;

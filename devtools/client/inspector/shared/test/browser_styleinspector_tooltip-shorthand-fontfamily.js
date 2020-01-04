@@ -265,7 +265,7 @@ panel
 getElementsByTagName
 (
 "
-image
+img
 "
 )
 ;
