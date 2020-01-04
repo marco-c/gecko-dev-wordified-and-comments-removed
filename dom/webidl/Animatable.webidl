@@ -194,7 +194,12 @@ object
 ?
 keyframes
 optional
-UnrestrictedDoubleOrKeyframeAnimationOptions
+(
+unrestricted
+double
+or
+KeyframeAnimationOptions
+)
 options
 )
 ;
