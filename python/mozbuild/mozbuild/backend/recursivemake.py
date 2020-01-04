@@ -272,12 +272,22 @@ FINAL_LIBRARY
     
 b
 '
+HOST_CFLAGS
+'
+    
+b
+'
 HOST_CSRCS
 '
     
 b
 '
 HOST_CMMSRCS
+'
+    
+b
+'
+HOST_CXXFLAGS
 '
     
 b
