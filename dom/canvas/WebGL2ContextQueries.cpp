@@ -219,6 +219,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Should
 not
 get

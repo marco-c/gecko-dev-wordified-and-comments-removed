@@ -184,6 +184,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Bad
 elemType
 .

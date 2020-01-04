@@ -1922,6 +1922,8 @@ mSymbols
 .
 fBindFramebuffer
 "
+GFX
+:
 InitWithPrefix
 should
 only
@@ -5316,6 +5318,8 @@ MOZ_RELEASE_ASSERT
 (
 false
 "
+GFX
+:
 get_string_indexed
 is
 required
@@ -5951,6 +5955,18 @@ MOZ_RELEASE_ASSERT
 mSymbols
 .
 fBindFramebuffer
+"
+GFX
+:
+mSymbols
+.
+fBindFramebuffer
+zero
+or
+not
+set
+.
+"
 )
 ;
 LoadMoreSymbols

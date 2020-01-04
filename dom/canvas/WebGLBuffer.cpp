@@ -188,6 +188,12 @@ default
 :
 MOZ_CRASH
 (
+"
+GFX
+:
+invalid
+target
+"
 )
 ;
 }

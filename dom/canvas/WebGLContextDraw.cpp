@@ -682,6 +682,8 @@ slot
 MOZ_CRASH
 (
 "
+GFX
+:
 fnGetSlot
 failed
 .
@@ -3974,6 +3976,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 bad
 type
 "
@@ -4186,6 +4190,8 @@ BeginReading
 MOZ_CRASH
 (
 "
+GFX
+:
 Unexpected
 error
 during
@@ -4301,6 +4307,8 @@ BeginReading
 MOZ_CRASH
 (
 "
+GFX
+:
 Unexpected
 error
 during

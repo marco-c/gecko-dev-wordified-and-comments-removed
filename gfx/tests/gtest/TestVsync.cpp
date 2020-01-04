@@ -317,6 +317,15 @@ GetHardwareVsync
 MOZ_RELEASE_ASSERT
 (
 mVsyncSource
+"
+GFX
+:
+Vsync
+source
+not
+found
+.
+"
 )
 ;
 }

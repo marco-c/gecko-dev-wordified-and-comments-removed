@@ -4044,6 +4044,8 @@ mContext
 MOZ_CRASH
 (
 "
+GFX
+:
 This
 should
 never
@@ -10978,6 +10980,8 @@ MOZ_RELEASE_ASSERT
 (
 parentContext
 "
+GFX
+:
 GetFontParentStyleContext
 should
 have
@@ -19205,6 +19209,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 unexpected
 TextBaseline
 "

@@ -287,6 +287,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Unhandled
 pname
 "
@@ -381,6 +383,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Unhandled
 pname
 "

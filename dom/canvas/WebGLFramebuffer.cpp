@@ -1713,6 +1713,13 @@ return
 }
 MOZ_CRASH
 (
+"
+GFX
+:
+invalid
+render
+buffer
+"
 )
 ;
 }

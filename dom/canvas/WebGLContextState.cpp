@@ -555,6 +555,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 bad
 pname
 "
@@ -687,6 +689,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 bad
 pname
 "
@@ -1275,6 +1279,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 bad
 pname
 "

@@ -429,6 +429,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Unexpected
 GLSL
 version

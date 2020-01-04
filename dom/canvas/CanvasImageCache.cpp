@@ -1068,6 +1068,8 @@ MOZ_RELEASE_ASSERT
 (
 mImageCacheObserver
 "
+GFX
+:
 Can
 '
 t

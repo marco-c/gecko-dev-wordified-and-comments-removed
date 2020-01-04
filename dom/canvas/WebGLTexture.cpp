@@ -2399,6 +2399,8 @@ texture_swizzle
 MOZ_CRASH
 (
 "
+GFX
+:
 Needs
 swizzle
 feature
@@ -3843,6 +3845,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Unhandled
 pname
 .

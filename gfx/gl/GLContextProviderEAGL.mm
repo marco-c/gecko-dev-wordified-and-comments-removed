@@ -1074,6 +1074,16 @@ MOZ_RELEASE_ASSERT
 (
 !
 gGlobalContext
+"
+GFX
+:
+Global
+GL
+context
+already
+initialized
+.
+"
 )
 ;
 RefPtr

@@ -74,6 +74,8 @@ MOZ_RELEASE_ASSERT
 (
 vaoSupport
 "
+GFX
+:
 Vertex
 Array
 Objects

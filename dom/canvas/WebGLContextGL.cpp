@@ -1123,6 +1123,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Bad
 target
 .
@@ -2057,6 +2059,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Bad
 target
 .
@@ -2382,6 +2386,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Bad
 target
 .
@@ -3024,6 +3030,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 Bad
 target
 .
@@ -5090,6 +5098,8 @@ MOZ_RELEASE_ASSERT
 (
 false
 "
+GFX
+:
 Unexpected
 driver
 error
@@ -5934,6 +5944,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 bad
 format
 "
@@ -6162,6 +6174,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 bad
 type
 "
