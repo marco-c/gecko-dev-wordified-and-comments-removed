@@ -25,8 +25,6 @@ import
 sys
 import
 warnings
-import
-which
 from
 mozbuild
 .
