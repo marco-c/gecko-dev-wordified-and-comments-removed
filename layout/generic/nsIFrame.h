@@ -7224,6 +7224,13 @@ const
 ;
 inline
 bool
+IsFixedPosContainingBlock
+(
+)
+const
+;
+inline
+bool
 IsRelativelyPositioned
 (
 )
