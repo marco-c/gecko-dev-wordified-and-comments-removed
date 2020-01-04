@@ -1491,17 +1491,6 @@ uint32_t
 aDest
 )
 ;
-nsExpirationState
-*
-GetExpirationState
-(
-)
-{
-return
-&
-mExpirationState
-;
-}
 void
 ReleaseFontGroup
 (
@@ -1995,9 +1984,6 @@ mFontGroup
 ;
 gfxSkipChars
 mSkipChars
-;
-nsExpirationState
-mExpirationState
 ;
 bool
 mSkipDrawing
