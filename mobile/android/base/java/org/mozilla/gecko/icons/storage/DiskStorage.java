@@ -298,6 +298,13 @@ cache
 =
 =
 null
+|
+|
+cache
+.
+isClosed
+(
+)
 )
 {
 cache
