@@ -402,6 +402,14 @@ done
 ;
 }
 ;
+typedef
+(
+HTMLCanvasElement
+or
+OffscreenCanvas
+)
+CanvasObj
+;
 callback
 PrintCallback
 =
