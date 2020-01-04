@@ -551,6 +551,8 @@ mState
 MANY
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 MANY
 :

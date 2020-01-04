@@ -778,6 +778,8 @@ aCur
 break
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 '
 \

@@ -359,6 +359,8 @@ INVALID_SXP
 +
 tld
 ;
+MOZ_FALLTHROUGH
+;
 case
 '
 *
@@ -2080,6 +2082,8 @@ case
 +
 +
 y
+;
+MOZ_FALLTHROUGH
 ;
 default
 :

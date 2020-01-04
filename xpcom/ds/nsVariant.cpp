@@ -1731,6 +1731,8 @@ aOutIID
 aInIID
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 nsIDataType
 :
@@ -3762,6 +3764,8 @@ logic
 !
 "
 )
+;
+MOZ_FALLTHROUGH
 ;
 case
 nsIDataType
@@ -7965,12 +7969,16 @@ p
 )
 ;
 }
+break
+;
 }
 default
 :
 break
 ;
 }
+break
+;
 default
 :
 break

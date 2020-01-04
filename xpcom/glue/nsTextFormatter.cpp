@@ -1364,6 +1364,8 @@ exp
 E
 '
 ;
+MOZ_FALLTHROUGH
+;
 case
 '
 e
@@ -1391,6 +1393,8 @@ exp
 '
 E
 '
+;
+MOZ_FALLTHROUGH
 ;
 case
 '
