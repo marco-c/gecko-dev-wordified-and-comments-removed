@@ -299,6 +299,11 @@ testGCUniqueId
 cpp
 '
 '
+testGCWeakCache
+.
+cpp
+'
+'
 testGCWeakRef
 .
 cpp

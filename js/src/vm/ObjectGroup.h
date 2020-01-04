@@ -39,6 +39,15 @@ h
 #
 include
 "
+js
+/
+GCHashTable
+.
+h
+"
+#
+include
+"
 vm
 /
 TaggedProto
