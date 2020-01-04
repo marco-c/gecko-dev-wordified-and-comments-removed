@@ -373,15 +373,6 @@ viewportWidth
 ConstrainLong
 viewportHeight
 ;
-ConstrainBoolean
-echoCancellation
-;
-ConstrainBoolean
-mozNoiseSuppression
-;
-ConstrainBoolean
-mozAutoGainControl
-;
 }
 ;
 dictionary
