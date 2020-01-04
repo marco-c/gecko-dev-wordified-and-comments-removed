@@ -842,12 +842,6 @@ Value
 )
 override
 ;
-NS_IMETHOD
-SetUserContextId
-(
-uint32_t
-)
-;
 nsresult
 RestoreFromHistory
 (
@@ -2641,9 +2635,6 @@ mFrameType
 ;
 uint32_t
 mOwnOrContainingAppId
-;
-uint32_t
-mUserContextId
 ;
 nsString
 mPaymentRequestId
