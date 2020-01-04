@@ -973,7 +973,7 @@ fn
 function
 renderComponent
 (
-component
+element
 container
 )
 {
@@ -985,11 +985,14 @@ resolve
 =
 >
 {
+let
+component
+=
 ReactDOM
 .
 render
 (
-component
+element
 container
 onNextAnimationFrame
 (
@@ -1012,6 +1015,7 @@ innerHTML
 ;
 resolve
 (
+component
 )
 ;
 }
