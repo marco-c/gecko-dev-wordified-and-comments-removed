@@ -731,6 +731,17 @@ sync
 /
 helpers
 /
+ExpectNoStoreDelegate
+.
+java
+'
+'
+src
+/
+sync
+/
+helpers
+/
 ExpectStoreCompletedDelegate
 .
 java
