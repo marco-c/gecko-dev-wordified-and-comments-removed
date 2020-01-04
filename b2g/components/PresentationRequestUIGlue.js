@@ -107,6 +107,10 @@ aDevice
 {
 let
 localDevice
+;
+try
+{
+localDevice
 =
 aDevice
 .
@@ -117,6 +121,13 @@ Ci
 nsIPresentationLocalDevice
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 if
 (
 localDevice
