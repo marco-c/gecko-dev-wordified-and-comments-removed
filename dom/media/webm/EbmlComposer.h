@@ -52,8 +52,6 @@ uint32_t
 aSampleFreq
 uint32_t
 aChannels
-uint32_t
-bitDepth
 )
 ;
 void
@@ -171,6 +169,9 @@ uint8_t
 mCodecPrivateData
 ;
 uint64_t
+mCodecDelay
+;
+uint64_t
 mClusterTimecode
 ;
 int
@@ -190,9 +191,6 @@ mFrameRate
 ;
 float
 mSampleFreq
-;
-int
-mBitDepth
 ;
 int
 mChannels

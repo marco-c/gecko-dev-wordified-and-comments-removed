@@ -53,6 +53,12 @@ uint8_t
 >
 mCommentHeader
 ;
+int32_t
+mChannels
+;
+float
+mSamplingFrequency
+;
 MetadataKind
 GetKind
 (
@@ -146,6 +152,9 @@ nsTArray
 AudioDataValue
 >
 mResampledLeftover
+;
+uint64_t
+mOutputTimeStamp
 ;
 }
 ;

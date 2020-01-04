@@ -34,9 +34,6 @@ mData
 int32_t
 mChannels
 ;
-int32_t
-mBitDepth
-;
 float
 mSamplingFrequency
 ;

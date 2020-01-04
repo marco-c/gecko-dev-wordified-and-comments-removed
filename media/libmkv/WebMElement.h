@@ -97,6 +97,10 @@ samplingFrequency
 unsigned
 int
 channels
+uint64_t
+codecDelay
+uint64_t
+seekPreRoll
 unsigned
 char
 *
