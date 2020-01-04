@@ -35,6 +35,13 @@ h
 #
 include
 "
+gfxFontConstants
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
