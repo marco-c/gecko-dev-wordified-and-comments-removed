@@ -3998,12 +3998,6 @@ js
 CompressedSourceSet
 compressedSourceSet
 ;
-js
-:
-:
-DateTimeInfo
-dateTimeInfo
-;
 private
 :
 js

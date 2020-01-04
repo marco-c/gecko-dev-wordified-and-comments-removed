@@ -852,6 +852,15 @@ h
 #
 include
 "
+js
+/
+Initialization
+.
+h
+"
+#
+include
+"
 gfxPlatform
 .
 h
