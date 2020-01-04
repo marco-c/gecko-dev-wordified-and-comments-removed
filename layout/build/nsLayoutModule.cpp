@@ -1869,13 +1869,9 @@ ServiceWorkerManager
 :
 GetInstance
 )
-NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
+NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 WorkerDebuggerManager
-WorkerDebuggerManager
-:
-:
-GetInstance
 )
 #
 ifdef
