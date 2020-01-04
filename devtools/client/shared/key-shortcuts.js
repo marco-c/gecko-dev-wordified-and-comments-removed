@@ -363,6 +363,7 @@ KeyShortcuts
 (
 {
 window
+target
 }
 )
 {
@@ -370,6 +371,15 @@ this
 .
 window
 =
+window
+;
+this
+.
+target
+=
+target
+|
+|
 window
 ;
 this
@@ -392,7 +402,7 @@ EventEmitter
 ;
 this
 .
-window
+target
 .
 addEventListener
 (
@@ -857,7 +867,7 @@ destroy
 {
 this
 .
-window
+target
 .
 removeEventListener
 (
