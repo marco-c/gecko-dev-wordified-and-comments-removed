@@ -2413,6 +2413,11 @@ ThrowUncatchableException
 )
 ;
 }
+Unused
+<
+<
+startTime
+;
 }
 NS_IMETHODIMP
 WorkerMainThreadRunnable
