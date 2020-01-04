@@ -918,7 +918,7 @@ nsAutoFloatManager
 (
 )
 ;
-nsresult
+void
 CreateFloatManager
 (
 nsPresContext
