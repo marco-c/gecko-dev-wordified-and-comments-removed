@@ -25920,7 +25920,7 @@ JS
 TrackedOutcome
 :
 :
-ICNameStub_ReadSlot
+ICNameStub_TypeOfNoProperty
 )
 ;
 }
