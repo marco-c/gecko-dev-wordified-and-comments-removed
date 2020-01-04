@@ -6133,10 +6133,8 @@ StopAnimation
 ;
 }
 mAnim
-.
-release
-(
-)
+=
+nullptr
 ;
 mLockCount
 =
