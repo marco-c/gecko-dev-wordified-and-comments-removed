@@ -79,6 +79,15 @@ browser
 /
 ext
 -
+commands
+.
+js
+content
+/
+browser
+/
+ext
+-
 contextMenus
 .
 js
