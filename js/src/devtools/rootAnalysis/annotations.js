@@ -423,7 +423,7 @@ void
 *
 )
 (
-JSRuntime
+JSContext
 *
 void
 *

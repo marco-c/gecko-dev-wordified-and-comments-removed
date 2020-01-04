@@ -91,9 +91,9 @@ static
 void
 UpdateChildWeakPointersBeforeSweepingZoneGroup
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 void
 *
 data

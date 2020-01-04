@@ -92,9 +92,9 @@ static
 NS_METHOD
 Enqueue
 (
-JSRuntime
+JSContext
 *
-aRt
+aCx
 const
 JS
 :

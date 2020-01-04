@@ -820,9 +820,9 @@ static
 void
 GCCallback
 (
-JSRuntime
+JSContext
 *
-aRuntime
+aContext
 JSGCStatus
 aStatus
 void
@@ -834,9 +834,9 @@ static
 void
 GCSliceCallback
 (
-JSRuntime
+JSContext
 *
-aRuntime
+aContext
 JS
 :
 :
@@ -855,9 +855,9 @@ static
 void
 GCNurseryCollectionCallback
 (
-JSRuntime
+JSContext
 *
-aRuntime
+aContext
 JS
 :
 :
