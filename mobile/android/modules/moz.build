@@ -132,6 +132,11 @@ DownloadNotifications
 jsm
 '
 '
+FxAccountsWebChannel
+.
+jsm
+'
+'
 HelperApps
 .
 jsm
