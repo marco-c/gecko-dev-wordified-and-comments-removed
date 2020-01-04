@@ -29412,13 +29412,7 @@ for
 (
 establisher
 =
-nsLayoutUtils
-:
-:
-GetCrossDocParentFrame
-(
 mFrame
-)
 ;
 establisher
 &
