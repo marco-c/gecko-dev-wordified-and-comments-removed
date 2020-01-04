@@ -400,6 +400,13 @@ XRE_GetProcessType
 )
 ;
 }
+#
+if
+!
+defined
+(
+MOZ_WIDGET_GONK
+)
 bool
 WindowIsActive
 (
@@ -452,6 +459,8 @@ Hidden
 )
 ;
 }
+#
+endif
 StaticAutoPtr
 <
 WindowIdentifier
@@ -529,6 +538,13 @@ AssertMainThread
 (
 )
 ;
+#
+if
+!
+defined
+(
+MOZ_WIDGET_GONK
+)
 if
 (
 !
@@ -567,6 +583,8 @@ vibrate
 return
 ;
 }
+#
+endif
 if
 (
 !
