@@ -889,6 +889,7 @@ found
 }
 for
 (
+let
 entry
 of
 rawdata
@@ -922,6 +923,18 @@ entry
 name
 )
 {
+entry
+.
+name
+=
+entry
+.
+name
+.
+trim
+(
+)
+;
 entry
 .
 retries
