@@ -1001,6 +1001,9 @@ HandleEnter
 (
 bool
 aIsPopupSelection
+nsIDOMEvent
+*
+aEvent
 bool
 *
 _retval
@@ -1093,6 +1096,7 @@ StopSearch
 EnterMatch
 (
 aIsPopupSelection
+aEvent
 )
 ;
 return
@@ -1312,6 +1316,7 @@ return
 HandleEnter
 (
 false
+nullptr
 &
 cancel
 )
@@ -4899,6 +4904,9 @@ EnterMatch
 (
 bool
 aIsPopupSelection
+nsIDOMEvent
+*
+aEvent
 )
 {
 nsCOMPtr
@@ -5520,6 +5528,7 @@ input
 >
 OnTextEntered
 (
+aEvent
 &
 cancel
 )

@@ -279,7 +279,7 @@ value
 {
 gURLBar
 .
-value
+textValue
 }
 )
 ;
@@ -287,7 +287,7 @@ is
 (
 gURLBar
 .
-value
+textValue
 aExpected
 "
 Autofilled
