@@ -1110,12 +1110,6 @@ nodeId
 itemHeight
 :
 TREE_ROW_HEIGHT
-reuseCachedTraversal
-:
-_
-=
->
-false
 }
 )
 ;
