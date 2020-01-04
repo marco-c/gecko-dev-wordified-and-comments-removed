@@ -40,6 +40,15 @@ h
 #
 include
 "
+mozilla
+/
+unused
+.
+h
+"
+#
+include
+"
 nsDirectoryServiceDefs
 .
 h
@@ -1308,6 +1317,9 @@ nullptr
 }
 }
 ;
+Unused
+<
+<
 GLLibraryLoader
 :
 :

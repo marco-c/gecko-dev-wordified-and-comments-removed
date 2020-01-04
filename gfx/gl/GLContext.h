@@ -867,9 +867,6 @@ bool
 mIsOffscreen
 ;
 bool
-mIsGlobalSharedContext
-;
-bool
 mContextLost
 ;
 uint32_t
