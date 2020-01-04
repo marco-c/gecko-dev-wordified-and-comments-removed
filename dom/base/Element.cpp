@@ -15101,11 +15101,11 @@ this
 ;
 RefPtr
 <
-KeyframeEffectReadOnly
+KeyframeEffect
 >
 effect
 =
-KeyframeEffectReadOnly
+KeyframeEffect
 :
 :
 Constructor
