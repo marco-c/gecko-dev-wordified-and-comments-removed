@@ -175,6 +175,11 @@ AnimationEffectReadOnly
 webidl
 '
 '
+AnimationEffectTiming
+.
+webidl
+'
+'
 AnimationEffectTimingReadOnly
 .
 webidl
