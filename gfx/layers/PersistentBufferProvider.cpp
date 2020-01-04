@@ -1106,6 +1106,10 @@ MOZ_ASSERT
 false
 )
 ;
+NotifyInactive
+(
+)
+;
 return
 nullptr
 ;

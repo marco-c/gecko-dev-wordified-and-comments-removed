@@ -6555,6 +6555,10 @@ GetDeviceRemovedReason
 S_OK
 )
 {
+ReadUnlockTextures
+(
+)
+;
 *
 aRenderBoundsOut
 =
@@ -6605,6 +6609,10 @@ height
 0
 )
 {
+ReadUnlockTextures
+(
+)
+;
 *
 aRenderBoundsOut
 =
