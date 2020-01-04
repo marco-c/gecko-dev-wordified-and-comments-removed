@@ -6579,7 +6579,7 @@ ToObjectSlow
 (
 cx
 v
-false
+true
 )
 )
 ;
