@@ -49,6 +49,9 @@ getLogger
 (
 __name__
 )
+CONCURRENCY
+=
+50
 def
 create_tasks
 (
@@ -106,11 +109,7 @@ futures
 .
 ThreadPoolExecutor
 (
-requests
-.
-adapters
-.
-DEFAULT_POOLSIZE
+CONCURRENCY
 )
 as
 e
