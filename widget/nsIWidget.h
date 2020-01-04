@@ -415,6 +415,15 @@ NS_NATIVE_PLUGIN_OBJECT_PTR
 #
 endif
 #
+ifdef
+MOZ_WIDGET_ANDROID
+#
+define
+NS_NATIVE_NEW_EGL_SURFACE
+100
+#
+endif
+#
 define
 NS_IWIDGET_IID
 \
