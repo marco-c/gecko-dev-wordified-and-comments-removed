@@ -378,6 +378,14 @@ ins
 )
 ;
 void
+visitSimdInsertElement
+(
+MSimdInsertElement
+*
+ins
+)
+;
+void
 visitSimdExtractElement
 (
 MSimdExtractElement
