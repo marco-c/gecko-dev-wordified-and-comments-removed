@@ -126,16 +126,6 @@ details
 .
 imageData
 ;
-let
-global
-=
-Cu
-.
-getGlobalForObject
-(
-imageData
-)
-;
 if
 (
 instanceOf
