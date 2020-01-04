@@ -270,6 +270,13 @@ size
 "
 24px
 "
+title
+=
+"
+ignored
+for
+SVG
+"
 >
 This
 contains

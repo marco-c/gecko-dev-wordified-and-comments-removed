@@ -4650,6 +4650,15 @@ tooltiptext
 )
 ;
 else
+if
+(
+!
+(
+tipElement
+instanceof
+SVGElement
+)
+)
 titleText
 =
 tipElement
