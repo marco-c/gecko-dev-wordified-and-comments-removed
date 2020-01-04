@@ -115,9 +115,6 @@ JS
 Value
 >
 aNewContextOptions
-ErrorResult
-&
-aRvForDictionaryInit
 )
 ;
 virtual

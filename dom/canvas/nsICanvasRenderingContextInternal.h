@@ -551,12 +551,6 @@ JS
 Value
 >
 options
-mozilla
-:
-:
-ErrorResult
-&
-aRvForDictionaryInit
 )
 {
 return

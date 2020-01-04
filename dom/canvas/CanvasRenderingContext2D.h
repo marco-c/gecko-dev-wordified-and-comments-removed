@@ -2670,9 +2670,6 @@ JS
 Value
 >
 aOptions
-ErrorResult
-&
-aRvForDictionaryInit
 )
 override
 ;
