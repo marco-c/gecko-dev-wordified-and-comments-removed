@@ -359,7 +359,7 @@ eMouseEventClass
 EVENT
 (
 contextmenu
-NS_CONTEXTMENU
+eContextMenu
 EventNameType_HTMLXUL
 eMouseEventClass
 )

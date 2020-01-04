@@ -899,7 +899,7 @@ case
 eMouseClick
 :
 case
-NS_CONTEXTMENU
+eContextMenu
 :
 case
 NS_DRAGDROP_DROP

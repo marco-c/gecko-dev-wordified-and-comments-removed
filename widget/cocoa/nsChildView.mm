@@ -29353,7 +29353,7 @@ WidgetMouseEvent
 geckoEvent
 (
 true
-NS_CONTEXTMENU
+eContextMenu
 mGeckoChild
 WidgetMouseEvent
 :

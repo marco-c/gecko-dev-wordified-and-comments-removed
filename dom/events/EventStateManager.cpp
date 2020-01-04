@@ -2575,7 +2575,7 @@ mMessage
 )
 {
 case
-NS_CONTEXTMENU
+eContextMenu
 :
 if
 (
@@ -5302,7 +5302,7 @@ case
 eMouseMove
 :
 case
-NS_CONTEXTMENU
+eContextMenu
 :
 case
 eMouseEnterIntoWidget
@@ -6263,7 +6263,7 @@ WidgetMouseEvent
 event
 (
 true
-NS_CONTEXTMENU
+eContextMenu
 targetWidget
 WidgetMouseEvent
 :

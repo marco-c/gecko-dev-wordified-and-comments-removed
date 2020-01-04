@@ -5851,7 +5851,7 @@ mEvent
 mMessage
 =
 =
-NS_CONTEXTMENU
+eContextMenu
 |
 |
 aVisitor
