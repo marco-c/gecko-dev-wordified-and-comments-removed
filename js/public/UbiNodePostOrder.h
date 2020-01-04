@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Maybe
 .
 h
@@ -269,6 +278,7 @@ traversed
 endif
 private
 :
+MOZ_MUST_USE
 bool
 fillEdgesFromRange
 (
@@ -339,6 +349,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 pushForTraversing
 (
@@ -423,6 +434,7 @@ false
 endif
 {
 }
+MOZ_MUST_USE
 bool
 init
 (
@@ -436,6 +448,7 @@ init
 )
 ;
 }
+MOZ_MUST_USE
 bool
 addStart
 (
@@ -472,6 +485,7 @@ NodeVisitor
 typename
 EdgeVisitor
 >
+MOZ_MUST_USE
 bool
 traverse
 (
