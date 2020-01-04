@@ -140,7 +140,7 @@ nsSupports
 Type
 #
 #
-ImplConstructor
+Constructor
 )
 COMPONENT_SUPPORTS
 (

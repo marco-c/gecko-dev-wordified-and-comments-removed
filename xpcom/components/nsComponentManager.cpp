@@ -7667,7 +7667,7 @@ nsISupportsID
 wrapper
 =
 new
-nsSupportsIDImpl
+nsSupportsID
 (
 )
 ;
