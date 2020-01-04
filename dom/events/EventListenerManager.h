@@ -1911,6 +1911,14 @@ RemoveAllListeners
 (
 )
 ;
+void
+NotifyEventListenerRemoved
+(
+nsIAtom
+*
+aUserType
+)
+;
 const
 EventTypeData
 *
