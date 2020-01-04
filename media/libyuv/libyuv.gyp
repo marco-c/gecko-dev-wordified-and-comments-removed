@@ -478,6 +478,17 @@ defines
 HAVE_JPEG
 '
 ]
+'
+cflags_mozilla
+'
+:
+[
+'
+(
+MOZ_JPEG_CFLAGS
+)
+'
+]
 }
 ]
 [
