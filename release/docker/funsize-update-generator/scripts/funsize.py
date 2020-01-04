@@ -2052,6 +2052,32 @@ locale
         
 }
         
+if
+"
+ACCEPTED_MAR_CHANNEL_IDS
+"
+in
+os
+.
+environ
+:
+            
+mar_data
+[
+"
+ACCEPTED_MAR_CHANNEL_IDS
+"
+]
+=
+os
+.
+environ
+[
+"
+ACCEPTED_MAR_CHANNEL_IDS
+"
+]
+        
 for
 field
 in
