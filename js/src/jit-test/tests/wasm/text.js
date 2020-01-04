@@ -41,7 +41,7 @@ wasmEvalText
 '
 '
 )
-Error
+SyntaxError
 parsingError
 )
 ;
@@ -57,7 +57,7 @@ wasmEvalText
 (
 '
 )
-Error
+SyntaxError
 parsingError
 )
 ;
@@ -74,7 +74,7 @@ wasmEvalText
 m
 '
 )
-Error
+SyntaxError
 parsingError
 )
 ;
@@ -91,7 +91,7 @@ wasmEvalText
 module
 '
 )
-Error
+SyntaxError
 parsingError
 )
 ;
@@ -108,7 +108,7 @@ wasmEvalText
 moduler
 '
 )
-Error
+SyntaxError
 parsingError
 )
 ;
@@ -132,7 +132,7 @@ export
 a
 '
 )
-Error
+SyntaxError
 parsingError
 )
 ;

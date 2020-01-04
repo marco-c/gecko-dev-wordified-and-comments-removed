@@ -4078,9 +4078,12 @@ if
 bytes
 )
 {
-JS_ReportError
+JS_ReportErrorNumber
 (
 cx
+GetErrorMessage
+nullptr
+JSMSG_WASM_TEXT_FAIL
 error
 .
 get
