@@ -3677,6 +3677,8 @@ nsIScriptError
 errorFlag
 )
 ;
+continue
+;
 }
 nsLoadFlags
 flags
