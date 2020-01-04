@@ -30792,6 +30792,8 @@ itervar
 errfnRead
                              
 '
+\
+'
 id
 \
 '
@@ -30803,6 +30805,11 @@ for
 cxxtype
 .
 name
++
+'
+\
+'
+'
 )
         
 ]
@@ -31462,6 +31469,11 @@ msgvar
 itervar
 errfnRead
                              
+'
+\
+'
+'
++
 eltipdltype
 .
 name
@@ -31472,6 +31484,8 @@ name
 [
 i
 ]
+\
+'
 '
 )
 )
@@ -31532,6 +31546,8 @@ itervar
 errfnRead
                              
 '
+\
+'
 length
 \
 '
@@ -31557,6 +31573,11 @@ arraytype
 name
 (
 )
++
+'
+\
+'
+'
 )
             
 Whitespace
@@ -32501,6 +32522,11 @@ fields
             
 desc
 =
+'
+\
+'
+'
++
 f
 .
 getMethod
@@ -32536,6 +32562,11 @@ of
 intype
 .
 name
++
+'
+\
+'
+'
             
 writefield
 =
@@ -33230,6 +33261,11 @@ msgvar
 itervar
 errfnRead
                 
+'
+\
+'
+'
++
 typevar
 .
 name
@@ -33259,6 +33295,11 @@ uniontype
 name
 (
 )
++
+'
+\
+'
+'
 )
             
 Whitespace
@@ -36771,6 +36812,13 @@ itervar
 )
                                        
 errfn
+"
+'
+%
+s
+'
+"
+%
 handletype
 .
 name
@@ -36876,6 +36924,13 @@ itervar
 )
                                          
 errfn
+"
+'
+%
+s
+'
+"
+%
 p
 .
 bareType
@@ -37034,6 +37089,13 @@ itervar
 )
                                  
 errfn
+"
+'
+%
+s
+'
+"
+%
 r
 .
 bareType
@@ -38326,16 +38388,9 @@ errfn
 '
 Error
 deserializing
-\
-'
 '
 +
 paramtype
-+
-'
-\
-'
-'
 )
 )
         
