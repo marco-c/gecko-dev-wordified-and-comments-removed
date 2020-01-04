@@ -285,6 +285,11 @@ ArrayBuffer
 )
 )
 ;
+testBuiltin
+(
+String
+)
+;
 ;
 if
 (
