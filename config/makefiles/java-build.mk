@@ -738,17 +738,6 @@ ANDROID_APK_PACKAGE
 \
 -
 -
-rename
--
-manifest
--
-package
-(
-ANDROID_APK_PACKAGE
-)
-\
--
--
 non
 -
 constant

@@ -1993,11 +1993,6 @@ copyAndCheckAPKDistribution
 checkSystemDistribution
 (
 )
-|
-|
-checkDataDistribution
-(
-)
 ;
 this
 .
