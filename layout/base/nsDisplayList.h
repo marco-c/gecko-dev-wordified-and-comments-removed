@@ -6748,6 +6748,12 @@ gfxRect
 aDestRect
 )
 ;
+bool
+IsNonEmptyFixedImage
+(
+)
+const
+;
 nsRect
 GetBoundsInternal
 (
