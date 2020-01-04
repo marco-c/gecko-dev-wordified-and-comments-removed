@@ -497,7 +497,7 @@ Pure
 TreatNullAs
 =
 EmptyString
-SetterThrows
+Throws
 ]
 attribute
 DOMString
