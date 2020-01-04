@@ -50570,7 +50570,7 @@ else
 aStyleClipPath
 -
 >
-SetSizingBox
+SetReferenceBox
 (
 sizingBox
 )
