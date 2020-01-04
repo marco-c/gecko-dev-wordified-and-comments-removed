@@ -95,6 +95,10 @@ mHasDirectListeners
 (
 false
 )
+mNrAllocations
+(
+0
+)
 mCaptureIndex
 (
 aIndex
@@ -453,6 +457,9 @@ mInitDone
 ;
 bool
 mHasDirectListeners
+;
+int
+mNrAllocations
 ;
 int
 mCaptureIndex

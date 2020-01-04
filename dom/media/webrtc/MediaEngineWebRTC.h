@@ -682,6 +682,10 @@ mChannel
 -
 1
 )
+mNrAllocations
+(
+0
+)
 mInitDone
 (
 false
@@ -1095,6 +1099,9 @@ mCapIndex
 ;
 int
 mChannel
+;
+int
+mNrAllocations
 ;
 TrackID
 mTrackID
