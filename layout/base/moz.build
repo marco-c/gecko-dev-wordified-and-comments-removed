@@ -687,11 +687,6 @@ AccessibleCaretEventHub
 cpp
 '
 '
-AccessibleCaretLogger
-.
-cpp
-'
-'
 AccessibleCaretManager
 .
 cpp

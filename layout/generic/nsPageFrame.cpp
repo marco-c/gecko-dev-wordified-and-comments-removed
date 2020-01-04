@@ -124,11 +124,11 @@ Logging
 h
 "
 extern
-PRLogModuleInfo
-*
-GetLayoutPrintingLog
-(
-)
+mozilla
+:
+:
+LazyLogModule
+gLayoutPrintingLog
 ;
 #
 define
@@ -138,9 +138,7 @@ _p1
 )
 MOZ_LOG
 (
-GetLayoutPrintingLog
-(
-)
+gLayoutPrintingLog
 mozilla
 :
 :
