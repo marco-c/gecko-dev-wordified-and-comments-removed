@@ -6670,7 +6670,7 @@ description
 )
 retval
 =
-NS_STYLE_HINT_FRAMECHANGE
+nsChangeHint_ReconstructFrame
 ;
 }
 else
