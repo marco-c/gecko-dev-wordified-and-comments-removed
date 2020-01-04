@@ -12309,9 +12309,11 @@ el
 "
 span
 .
-console
+theme
 -
-string
+fg
+-
+color6
 "
 VariablesView
 .
