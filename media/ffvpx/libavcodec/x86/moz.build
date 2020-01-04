@@ -95,6 +95,16 @@ constants
 c
 '
 '
+flacdsp
+.
+asm
+'
+'
+flacdsp_init
+.
+c
+'
+'
 h264_intrapred
 .
 asm
