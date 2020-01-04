@@ -165,16 +165,6 @@ app
 dummy
 /
 '
-    
-'
-browser
-.
-displayedE10SPrompt
-.
-1
-'
-:
-5
 }
 DEFAULT_NO_CONNECTIONS_PREFS
 =
