@@ -1605,6 +1605,10 @@ uint32_t
 aOffset
 uint32_t
 aLength
+const
+nscolor
+*
+aDecorationOverrideColor
 PropertyProvider
 &
 aProvider

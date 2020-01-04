@@ -30861,6 +30861,10 @@ uint32_t
 aOffset
 uint32_t
 aLength
+const
+nscolor
+*
+aDecorationOverrideColor
 PropertyProvider
 &
 aProvider
@@ -30913,6 +30917,11 @@ return
 nscolor
 color
 =
+aDecorationOverrideColor
+?
+*
+aDecorationOverrideColor
+:
 nsLayoutUtils
 :
 :
@@ -33682,6 +33691,7 @@ wm
 aTextBaselinePt
 aOffset
 aLength
+aDecorationOverrideColor
 aProvider
 )
 ;
