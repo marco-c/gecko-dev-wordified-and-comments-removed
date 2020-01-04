@@ -1580,12 +1580,6 @@ incognito
 |
 false
 ;
-this
-.
-unloaded
-=
-false
-;
 let
 sender
 =
@@ -1744,12 +1738,6 @@ unloaded
 return
 ;
 }
-this
-.
-unloaded
-=
-true
-;
 super
 .
 unload
