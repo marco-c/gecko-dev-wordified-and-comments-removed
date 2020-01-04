@@ -453,7 +453,7 @@ false
 SET_DEFAULT
 (
 disableSharedStubs
-true
+false
 )
 ;
 #
