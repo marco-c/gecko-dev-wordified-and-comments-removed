@@ -10,10 +10,6 @@ util
 import
 android
 .
-support
-.
-v4
-.
 util
 .
 LruCache
