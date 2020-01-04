@@ -36650,7 +36650,7 @@ push
 loglevel
 "
 "
-off
+error
 "
 )
 ;
