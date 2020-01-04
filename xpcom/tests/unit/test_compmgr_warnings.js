@@ -226,11 +226,10 @@ errorMessage
 )
 ;
 for
-each
 (
 let
 expected
-in
+of
 gMessagesExpected
 )
 {
@@ -433,11 +432,10 @@ kConsoleListener
 )
 ;
 for
-each
 (
 let
 expected
-in
+of
 gMessagesExpected
 )
 {
