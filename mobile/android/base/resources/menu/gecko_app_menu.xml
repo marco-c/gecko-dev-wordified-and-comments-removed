@@ -116,15 +116,6 @@ quit
 "
 android
 :
-icon
-=
-"
-drawable
-/
-ic_menu_quit
-"
-android
-:
 title
 =
 "
