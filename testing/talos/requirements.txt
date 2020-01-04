@@ -1,3 +1,9 @@
+mozlog
+>
+=
+3
+.
+1
 mozcrash
 >
 =
