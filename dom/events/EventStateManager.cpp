@@ -3487,7 +3487,7 @@ case
 eQueryCharacterAtPoint
 :
 case
-NS_QUERY_DOM_WIDGET_HITTEST
+eQueryDOMWidgetHittest
 :
 break
 ;

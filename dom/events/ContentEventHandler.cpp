@@ -4240,7 +4240,7 @@ aEvent
 )
 ;
 case
-NS_QUERY_DOM_WIDGET_HITTEST
+eQueryDOMWidgetHittest
 :
 return
 OnQueryDOMWidgetHittest

@@ -1613,7 +1613,7 @@ NS_ASSERTION
 mMessage
 =
 =
-NS_QUERY_DOM_WIDGET_HITTEST
+eQueryDOMWidgetHittest
 "
 wrong
 initializer

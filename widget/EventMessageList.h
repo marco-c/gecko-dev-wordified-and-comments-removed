@@ -864,7 +864,7 @@ eQueryContentEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_QUERY_DOM_WIDGET_HITTEST
+eQueryDOMWidgetHittest
 eQueryContentEventFirst
 +
 9
