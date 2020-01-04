@@ -391,16 +391,7 @@ CancelableRunnable
 >
 task
 =
-NS_NewCancelableRunnableMethodWithArgs
-<
-nsCOMPtr
-<
-dom
-:
-:
-Element
->
->
+NewCancelableRunnableMethod
 (
 this
 &
