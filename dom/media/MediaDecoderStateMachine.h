@@ -3242,12 +3242,6 @@ mOutputStreamManager
 ;
 RefPtr
 <
-DecodedStream
->
-mStreamSink
-;
-RefPtr
-<
 MediaResource
 >
 mResource
