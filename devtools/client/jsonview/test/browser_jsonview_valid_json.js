@@ -31,9 +31,6 @@ started
 "
 )
 ;
-let
-tab
-=
 yield
 addJsonViewTab
 (

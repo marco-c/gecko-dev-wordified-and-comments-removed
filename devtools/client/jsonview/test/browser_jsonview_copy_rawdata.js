@@ -76,9 +76,6 @@ started
 "
 )
 ;
-let
-tab
-=
 yield
 addJsonViewTab
 (
@@ -128,6 +125,7 @@ browser
 gBrowser
 .
 selectedBrowser
+;
 yield
 waitForClipboardPromise
 (

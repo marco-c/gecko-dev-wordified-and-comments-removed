@@ -213,9 +213,9 @@ getMIMETypeFromContent
 :
 function
 (
-aRequest
-aData
-aLength
+request
+data
+length
 )
 {
 if
@@ -225,7 +225,7 @@ NetworkHelper
 .
 isTopLevelLoad
 (
-aRequest
+request
 )
 )
 {
@@ -236,7 +236,7 @@ return
 }
 if
 (
-aRequest
+request
 instanceof
 Ci
 .
@@ -247,7 +247,7 @@ try
 {
 if
 (
-aRequest
+request
 .
 contentDisposition
 =
@@ -273,7 +273,7 @@ e
 }
 if
 (
-aRequest
+request
 .
 contentType
 =
@@ -390,6 +390,7 @@ CONTENT_SNIFFER_CATEGORY
 JSON_VIEW_TYPE
 false
 )
+;
 xpcom
 .
 unregister
@@ -417,3 +418,4 @@ unregister
 :
 unregister
 }
+;

@@ -543,7 +543,7 @@ data
 function
 waitForTime
 (
-aDelay
+delay
 )
 {
 let
@@ -560,7 +560,7 @@ setTimeout
 deferred
 .
 resolve
-aDelay
+delay
 )
 ;
 return

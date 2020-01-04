@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 define
 (
 function
@@ -98,7 +103,7 @@ headers
 "
 )
 ;
-var
+let
 jsonData
 ;
 try
@@ -128,7 +133,7 @@ err
 "
 ;
 }
-var
+let
 input
 =
 {
@@ -160,6 +165,7 @@ prettified
 :
 false
 }
+;
 json
 .
 remove
@@ -183,7 +189,7 @@ function
 (
 )
 {
-var
+let
 value
 =
 input
@@ -213,7 +219,7 @@ function
 (
 )
 {
-var
+let
 value
 =
 input
@@ -353,7 +359,8 @@ prettified
 ;
 }
 }
-var
+;
+let
 content
 =
 document
@@ -365,7 +372,7 @@ content
 "
 )
 ;
-var
+let
 theApp
 =
 ReactDOM
@@ -379,7 +386,7 @@ input
 content
 )
 ;
-var
+let
 onResize
 =
 event
@@ -423,6 +430,7 @@ px
 "
 ;
 }
+;
 window
 .
 addEventListener
@@ -437,7 +445,7 @@ onResize
 (
 )
 ;
-var
+let
 event
 =
 new

@@ -407,7 +407,7 @@ name
 return
 ;
 }
-var
+let
 observer
 =
 new

@@ -568,6 +568,8 @@ client
 /
 jsonview
 /
+lib
+/
 *
 *
 devtools
