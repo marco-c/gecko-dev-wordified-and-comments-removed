@@ -2293,7 +2293,7 @@ page
 ENTITY
 urlbar
 .
-webNotsNotificationAnchor
+webNotsNotificationAnchor2
 .
 label
 "
@@ -2302,8 +2302,7 @@ whether
 the
 site
 can
-show
-you
+receive
 notifications
 "
 >

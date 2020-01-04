@@ -402,11 +402,11 @@ Windows
 ENTITY
 desktop
 -
-notification
+notification2
 .
 label
 "
-Show
+Receive
 Notifications
 "
 >
