@@ -1804,7 +1804,7 @@ nickname
 nickname
 )
 {
-ScopedPK11SlotInfo
+UniquePK11SlotInfo
 slot
 (
 PK11_GetInternalKeySlot
@@ -1833,6 +1833,10 @@ srv
 PK11_ImportCert
 (
 slot
+.
+get
+(
+)
 nsscert
 .
 get
