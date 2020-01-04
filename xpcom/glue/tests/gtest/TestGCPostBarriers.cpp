@@ -603,16 +603,9 @@ JSContext
 *
 cx
 =
-nullptr
-;
-MOZ_RELEASE_ASSERT
-(
-JS_ContextIterator
+JS_GetContext
 (
 rt
-&
-cx
-)
 )
 ;
 JS_BeginRequest
