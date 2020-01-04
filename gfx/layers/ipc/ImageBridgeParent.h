@@ -654,16 +654,6 @@ aCtx
 )
 override
 ;
-protected
-:
-void
-OnChannelConnected
-(
-int32_t
-pid
-)
-override
-;
 private
 :
 void
