@@ -1248,6 +1248,11 @@ DOMLocalMediaStream
 (
 )
 ;
+void
+StopImpl
+(
+)
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

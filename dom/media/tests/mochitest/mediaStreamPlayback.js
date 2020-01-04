@@ -605,7 +605,7 @@ MediaStreamPlayback
 .
 prototype
 {
-playMediaWithStreamStop
+playMediaWithDeprecatedStreamStop
 :
 {
 value
@@ -631,7 +631,7 @@ then
 >
 this
 .
-stopStreamInMediaPlayback
+deprecatedStopStreamInMediaPlayback
 (
 )
 )
@@ -651,7 +651,7 @@ stopMediaElement
 ;
 }
 }
-stopStreamInMediaPlayback
+deprecatedStopStreamInMediaPlayback
 :
 {
 value
