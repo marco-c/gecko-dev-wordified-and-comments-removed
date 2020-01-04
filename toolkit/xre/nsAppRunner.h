@@ -106,6 +106,9 @@ nsIProfileUnlocker
 class
 nsIFactory
 ;
+class
+nsString
+;
 extern
 nsXREDirProvider
 *
@@ -144,6 +147,10 @@ gRestartArgv
 extern
 bool
 gLogConsoleErrors
+;
+extern
+nsString
+gAbsoluteArgv0Path
 ;
 extern
 bool
