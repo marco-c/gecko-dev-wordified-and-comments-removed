@@ -90,6 +90,7 @@ function
 (
 commandOutputManager
 conversionContext
+outputPanel
 )
 {
 var
@@ -156,6 +157,7 @@ createView
 null
 conversionContext
 true
+outputPanel
 )
 ;
 output
@@ -188,6 +190,7 @@ function
 ignoreArgs
 conversionContext
 showHideButton
+outputPanel
 )
 {
 return
@@ -451,17 +454,11 @@ value
 =
 true
 ;
-this
+outputPanel
 .
-mainDiv
-.
-style
-.
-display
-=
-'
-none
-'
+remove
+(
+)
 ;
 }
 }
