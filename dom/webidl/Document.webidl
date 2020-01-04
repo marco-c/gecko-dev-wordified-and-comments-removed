@@ -2022,6 +2022,7 @@ createElement
 DOMString
 localName
 DOMString
+?
 typeExtension
 )
 ;
@@ -2038,6 +2039,7 @@ namespace
 DOMString
 qualifiedName
 DOMString
+?
 typeExtension
 )
 ;
