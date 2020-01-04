@@ -7051,7 +7051,7 @@ result
 .
 fail
 (
-JSMSG_OBJECT_NOT_EXTENSIBLE
+JSMSG_CANT_DEFINE_PROP_OBJECT_NOT_EXTENSIBLE
 )
 ;
 CompletePropertyDescriptor
