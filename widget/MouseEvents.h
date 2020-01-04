@@ -614,7 +614,7 @@ mExitFrom
 (
 eChild
 )
-ignoreRootScrollFrame
+mIgnoreRootScrollFrame
 (
 false
 )
@@ -658,7 +658,7 @@ mExitFrom
 (
 eChild
 )
-ignoreRootScrollFrame
+mIgnoreRootScrollFrame
 (
 false
 )
@@ -718,7 +718,7 @@ mExitFrom
 (
 eChild
 )
-ignoreRootScrollFrame
+mIgnoreRootScrollFrame
 (
 false
 )
@@ -869,7 +869,7 @@ ExitFrom
 mExitFrom
 ;
 bool
-ignoreRootScrollFrame
+mIgnoreRootScrollFrame
 ;
 uint32_t
 clickCount
@@ -896,11 +896,11 @@ AssignPointerHelperData
 aEvent
 )
 ;
-ignoreRootScrollFrame
+mIgnoreRootScrollFrame
 =
 aEvent
 .
-ignoreRootScrollFrame
+mIgnoreRootScrollFrame
 ;
 clickCount
 =

@@ -1464,7 +1464,7 @@ WriteParam
 aMsg
 aParam
 .
-ignoreRootScrollFrame
+mIgnoreRootScrollFrame
 )
 ;
 WriteParam
@@ -1599,7 +1599,7 @@ aIter
 aResult
 -
 >
-ignoreRootScrollFrame
+mIgnoreRootScrollFrame
 )
 &
 &

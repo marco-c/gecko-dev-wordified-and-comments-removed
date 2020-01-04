@@ -683,7 +683,7 @@ mInputSource
 ;
 event
 .
-ignoreRootScrollFrame
+mIgnoreRootScrollFrame
 =
 true
 ;

@@ -35776,7 +35776,7 @@ presContext
 ;
 event
 .
-ignoreRootScrollFrame
+mIgnoreRootScrollFrame
 =
 aIgnoreRootScrollFrame
 ;
