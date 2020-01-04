@@ -309,6 +309,10 @@ DOMString
 min
 ;
 attribute
+long
+minLength
+;
+attribute
 boolean
 multiple
 ;

@@ -240,6 +240,10 @@ long
 maxLength
 ;
 attribute
+long
+minLength
+;
+attribute
 DOMString
 name
 ;

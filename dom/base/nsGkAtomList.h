@@ -4235,6 +4235,13 @@ scale
 )
 GK_ATOM
 (
+minlength
+"
+minlength
+"
+)
+GK_ATOM
+(
 minpos
 "
 minpos
@@ -13876,13 +13883,6 @@ GK_ATOM
 onmozinterruptend
 "
 onmozinterruptend
-"
-)
-GK_ATOM
-(
-ondevicechange
-"
-ondevicechange
 "
 )
 GK_ATOM

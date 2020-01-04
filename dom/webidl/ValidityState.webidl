@@ -183,6 +183,11 @@ tooLong
 readonly
 attribute
 boolean
+tooShort
+;
+readonly
+attribute
+boolean
 rangeUnderflow
 ;
 readonly

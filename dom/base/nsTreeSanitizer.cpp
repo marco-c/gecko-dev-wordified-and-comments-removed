@@ -991,6 +991,11 @@ min
 nsGkAtoms
 :
 :
+minlength
+&
+nsGkAtoms
+:
+:
 multiple
 &
 nsGkAtoms

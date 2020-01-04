@@ -268,6 +268,14 @@ SetterThrows
 Pure
 ]
 attribute
+long
+minLength
+;
+[
+SetterThrows
+Pure
+]
+attribute
 DOMString
 name
 ;

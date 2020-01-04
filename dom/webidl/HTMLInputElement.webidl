@@ -408,6 +408,14 @@ Pure
 SetterThrows
 ]
 attribute
+long
+minLength
+;
+[
+Pure
+SetterThrows
+]
+attribute
 boolean
 multiple
 ;
