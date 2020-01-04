@@ -217,10 +217,6 @@ mWaitState
 (
 WAITSTATE_RUNNING
 )
-mAudioInput
-(
-nullptr
-)
 mCurrentTimeStamp
 (
 TimeStamp
@@ -2665,6 +2661,10 @@ mSampleRate
 (
 0
 )
+mInputChannels
+(
+1
+)
 mIterationDurationMS
 (
 MEDIA_GRAPH_TARGET_PERIOD_MS
@@ -2942,7 +2942,7 @@ input
 .
 channels
 =
-1
+mInputChannels
 ;
 cubeb_stream
 *
@@ -4384,7 +4384,7 @@ size_t
 aFrames
 )
 mSampleRate
-ChannelCount
+mInputChannels
 )
 ;
 }
