@@ -194,7 +194,17 @@ mRust
 ;
 mutable
 bool
+mPreferRust
+;
+mutable
+bool
 mReportedTelemetry
+;
+bool
+ShouldPreferRust
+(
+)
+const
 ;
 #
 endif
