@@ -989,12 +989,14 @@ mID
 uint16_t
 mSource
 ;
+MOZ_INIT_OUTSIDE_CTOR
 int64_t
 mParent
 ;
 nsCString
 mTitle
 ;
+MOZ_INIT_OUTSIDE_CTOR
 int32_t
 mIndex
 ;
