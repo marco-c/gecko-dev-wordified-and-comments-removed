@@ -4240,9 +4240,7 @@ nodeType
 =
 =
 =
-Ci
-.
-nsIDOMNode
+nodeConstants
 .
 TEXT_NODE
 :
@@ -4259,9 +4257,7 @@ nodeType
 =
 =
 =
-Ci
-.
-nsIDOMNode
+nodeConstants
 .
 TEXT_NODE
 :
