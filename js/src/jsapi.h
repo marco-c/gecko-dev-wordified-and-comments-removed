@@ -17052,9 +17052,9 @@ void
 )
 JS_RequestInterruptCallback
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 namespace

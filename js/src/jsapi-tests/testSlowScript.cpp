@@ -64,10 +64,7 @@ sRemain
 )
 JS_RequestInterruptCallback
 (
-JS_GetRuntime
-(
 cx
-)
 )
 ;
 args

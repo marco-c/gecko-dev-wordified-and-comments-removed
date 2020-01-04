@@ -17565,11 +17565,6 @@ watchdogTimeout
 JS_RequestInterruptCallback
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 }
@@ -17889,11 +17884,6 @@ true
 JS_RequestInterruptCallback
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 if
@@ -18315,11 +18305,6 @@ true
 JS_RequestInterruptCallback
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 }
@@ -18400,11 +18385,6 @@ true
 JS_RequestInterruptCallback
 (
 cx
--
->
-runtime
-(
-)
 )
 ;
 bool
