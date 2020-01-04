@@ -698,7 +698,7 @@ offset
 +
 data
 .
-Length
+LengthAllowShared
 (
 )
 ;
@@ -851,7 +851,7 @@ target
 offset
 data
 .
-Length
+LengthAllowShared
 (
 )
 LOCAL_GL_MAP_READ_BIT
@@ -861,13 +861,13 @@ memcpy
 (
 data
 .
-Data
+DataAllowShared
 (
 )
 ptr
 data
 .
-Length
+LengthAllowShared
 (
 )
 )

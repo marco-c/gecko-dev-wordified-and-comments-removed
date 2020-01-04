@@ -2184,11 +2184,7 @@ GLenum
 format
 GLenum
 type
-(
 ArrayBufferView
-or
-SharedArrayBufferView
-)
 ?
 pixels
 )
@@ -2227,11 +2223,7 @@ GLenum
 format
 GLenum
 type
-(
 ArrayBufferView
-or
-SharedArrayBufferView
-)
 ?
 pixels
 )
@@ -2381,11 +2373,7 @@ GLsizei
 depth
 GLint
 border
-(
 ArrayBufferView
-or
-SharedArrayBufferView
-)
 data
 )
 ;
@@ -2410,11 +2398,7 @@ GLsizei
 depth
 GLenum
 format
-(
 ArrayBufferView
-or
-SharedArrayBufferView
-)
 data
 )
 ;

@@ -38,9 +38,6 @@ OwningUnsignedLongOrUint32ArrayOrBoolean
 class
 OwningWebGLBufferOrLongLong
 ;
-class
-ArrayBufferViewOrSharedArrayBufferView
-;
 }
 class
 WebGL2Context
@@ -392,7 +389,7 @@ Nullable
 dom
 :
 :
-ArrayBufferViewOrSharedArrayBufferView
+ArrayBufferView
 >
 &
 pixels
@@ -430,7 +427,7 @@ Nullable
 dom
 :
 :
-ArrayBufferViewOrSharedArrayBufferView
+ArrayBufferView
 >
 &
 pixels
@@ -591,7 +588,7 @@ const
 dom
 :
 :
-ArrayBufferViewOrSharedArrayBufferView
+ArrayBufferView
 &
 data
 )
@@ -621,7 +618,7 @@ const
 dom
 :
 :
-ArrayBufferViewOrSharedArrayBufferView
+ArrayBufferView
 &
 data
 )
