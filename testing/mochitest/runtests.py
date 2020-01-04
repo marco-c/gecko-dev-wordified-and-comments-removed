@@ -14146,6 +14146,22 @@ result
                 
 break
         
+e10s_mode
+=
+"
+e10s
+"
+if
+options
+.
+e10s
+else
+"
+non
+-
+e10s
+"
+        
 if
 options
 .
@@ -14209,6 +14225,17 @@ s
 self
 .
 counttodo
+            
+print
+"
+\
+tMode
+:
+%
+s
+"
+%
+e10s_mode
             
 print
 "
@@ -14283,6 +14310,18 @@ counttodo
 print
 "
 4
+INFO
+Mode
+:
+%
+s
+"
+%
+e10s_mode
+            
+print
+"
+5
 INFO
 SimpleTest
 FINISHED
@@ -14627,6 +14666,15 @@ buildapp
 =
 '
 mulet
+'
+or
+options
+.
+subsuite
+=
+=
+'
+push
 '
 :
                 
