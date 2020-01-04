@@ -113,6 +113,11 @@ TestGCPostBarriers
 cpp
 '
 '
+TestNsDeque
+.
+cpp
+'
+'
 TestThreadUtils
 .
 cpp
