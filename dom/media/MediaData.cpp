@@ -50,15 +50,6 @@ ImageContainer
 h
 "
 #
-include
-"
-mozilla
-/
-UniquePtrExtensions
-.
-h
-"
-#
 ifdef
 MOZ_WIDGET_GONK
 #
