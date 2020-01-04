@@ -1500,16 +1500,6 @@ tls
 .
 version
 .
-min
-"
-"
-security
-.
-tls
-.
-version
-.
-max
 "
 "
 security
