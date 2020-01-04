@@ -1038,7 +1038,7 @@ add_arg
 '
 -
 -
-setPref
+setpref
 '
 action
 =
