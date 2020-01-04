@@ -795,7 +795,10 @@ BluetoothDaemonProtocol
 :
 HandleSetupSvc
 [
-0x01
+BluetoothDaemonCoreModule
+:
+:
+SERVICE_ID
 ]
 =
 &
