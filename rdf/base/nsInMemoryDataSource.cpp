@@ -490,7 +490,10 @@ mPropertyHash
 new
 PLDHashTable
 (
-PL_DHashGetStubOps
+PLDHashTable
+:
+:
+StubOps
 (
 )
 sizeof
@@ -2550,7 +2553,10 @@ aOuter
 :
 mForwardArcs
 (
-PL_DHashGetStubOps
+PLDHashTable
+:
+:
+StubOps
 (
 )
 sizeof
@@ -2560,7 +2566,10 @@ Entry
 )
 mReverseArcs
 (
-PL_DHashGetStubOps
+PLDHashTable
+:
+:
+StubOps
 (
 )
 sizeof

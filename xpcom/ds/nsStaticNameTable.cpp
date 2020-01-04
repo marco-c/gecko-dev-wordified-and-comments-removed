@@ -400,8 +400,14 @@ nametable_CaseInsensitiveHashTableOps
 {
 caseInsensitiveStringHashKey
 matchNameKeysCaseInsensitive
-PL_DHashMoveEntryStub
-PL_DHashClearEntryStub
+PLDHashTable
+:
+:
+MoveEntryStub
+PLDHashTable
+:
+:
+ClearEntryStub
 nullptr
 }
 ;

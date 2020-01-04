@@ -337,9 +337,15 @@ PLDHashTableOps
 sRequestHashOps
 =
 {
-PL_DHashVoidPtrKeyStub
+PLDHashTable
+:
+:
+HashVoidPtrKeyStub
 RequestHashMatchEntry
-PL_DHashMoveEntryStub
+PLDHashTable
+:
+:
+MoveEntryStub
 RequestHashClearEntry
 RequestHashInitEntry
 }

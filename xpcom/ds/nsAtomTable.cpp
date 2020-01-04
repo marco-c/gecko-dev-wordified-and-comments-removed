@@ -1070,7 +1070,10 @@ AtomTableOps
 {
 AtomTableGetHash
 AtomTableMatchKey
-PL_DHashMoveEntryStub
+PLDHashTable
+:
+:
+MoveEntryStub
 AtomTableClearEntry
 AtomTableInitEntry
 }

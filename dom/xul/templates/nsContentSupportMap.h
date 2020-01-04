@@ -29,7 +29,10 @@ nsContentSupportMap
 :
 mMap
 (
-PL_DHashGetStubOps
+PLDHashTable
+:
+:
+StubOps
 (
 )
 sizeof

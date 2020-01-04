@@ -840,7 +840,10 @@ MappedAttrTable_Ops
 {
 MappedAttrTable_HashKey
 MappedAttrTable_MatchEntry
-PL_DHashMoveEntryStub
+PLDHashTable
+:
+:
+MoveEntryStub
 MappedAttrTable_ClearEntry
 nullptr
 }
@@ -1067,7 +1070,10 @@ LangRuleTable_Ops
 {
 LangRuleTable_HashKey
 LangRuleTable_MatchEntry
-PL_DHashMoveEntryStub
+PLDHashTable
+:
+:
+MoveEntryStub
 LangRuleTable_ClearEntry
 LangRuleTable_InitEntry
 }

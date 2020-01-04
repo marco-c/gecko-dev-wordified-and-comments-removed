@@ -251,7 +251,10 @@ aKey
 )
 {
 return
-PL_DHashStringKey
+PLDHashTable
+:
+:
+HashStringKey
 (
 nullptr
 aKey

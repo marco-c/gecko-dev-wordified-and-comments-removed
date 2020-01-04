@@ -1685,7 +1685,10 @@ sNPObjWrappers
 new
 PLDHashTable
 (
-PL_DHashGetStubOps
+PLDHashTable
+:
+:
+StubOps
 (
 )
 sizeof

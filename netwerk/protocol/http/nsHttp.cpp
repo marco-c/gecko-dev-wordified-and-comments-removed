@@ -351,8 +351,14 @@ ops
 {
 StringHash
 StringCompare
-PL_DHashMoveEntryStub
-PL_DHashClearEntryStub
+PLDHashTable
+:
+:
+MoveEntryStub
+PLDHashTable
+:
+:
+ClearEntryStub
 nullptr
 }
 ;
