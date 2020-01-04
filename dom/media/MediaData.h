@@ -811,7 +811,7 @@ aDuration
 )
 ;
 static
-void
+bool
 SetVideoDataToImage
 (
 PlanarYCbCrImage

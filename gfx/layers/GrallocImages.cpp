@@ -225,7 +225,7 @@ GrallocImage
 )
 {
 }
-void
+bool
 GrallocImage
 :
 :
@@ -340,6 +340,7 @@ IsInGonkEmulator
 )
 {
 return
+false
 ;
 }
 RefPtr
@@ -441,6 +442,7 @@ mTextureClient
 nullptr
 ;
 return
+false
 ;
 }
 mTextureClient
@@ -471,6 +473,7 @@ OK
 )
 {
 return
+false
 ;
 }
 uint8_t
@@ -782,8 +785,11 @@ mCbChannel
 =
 nullptr
 ;
+return
+true
+;
 }
-void
+bool
 GrallocImage
 :
 :
@@ -817,6 +823,9 @@ mSize
 aData
 .
 mPicSize
+;
+return
+true
 ;
 }
 static

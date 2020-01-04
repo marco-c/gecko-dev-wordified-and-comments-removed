@@ -141,7 +141,7 @@ GetAsSourceSurface
 override
 ;
 virtual
-void
+bool
 SetData
 (
 const
@@ -152,7 +152,7 @@ aData
 override
 ;
 virtual
-void
+bool
 SetDataNoCopy
 (
 const

@@ -8120,6 +8120,9 @@ StereoMode
 :
 MONO
 ;
+if
+(
+!
 yuvImage
 -
 >
@@ -8127,7 +8130,16 @@ SetData
 (
 yuvData
 )
+)
+{
+MOZ_ASSERT
+(
+false
+)
 ;
+return
+;
+}
 image_
 =
 image

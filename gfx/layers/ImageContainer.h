@@ -1528,7 +1528,7 @@ PlanarYCbCrImage
 )
 ;
 virtual
-void
+bool
 SetData
 (
 const
@@ -1538,7 +1538,7 @@ aData
 )
 ;
 virtual
-void
+bool
 SetDataNoCopy
 (
 const
@@ -1664,7 +1664,7 @@ const
 ;
 protected
 :
-void
+bool
 CopyData
 (
 const

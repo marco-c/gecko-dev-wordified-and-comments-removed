@@ -164,7 +164,7 @@ GrallocImage
 )
 ;
 virtual
-void
+bool
 SetData
 (
 const
@@ -174,7 +174,7 @@ aData
 )
 ;
 virtual
-void
+bool
 SetData
 (
 const
