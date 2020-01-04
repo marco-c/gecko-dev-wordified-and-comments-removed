@@ -11,6 +11,7 @@ from
 marionette
 import
 MarionetteTestCase
+skip_if_b2g
 def
 inline
 (
@@ -2069,6 +2070,7 @@ undefined
 "
 )
 )
+skip_if_b2g
 class
 TestExecuteChrome
 (
