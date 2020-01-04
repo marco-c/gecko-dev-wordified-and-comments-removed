@@ -17666,8 +17666,9 @@ JSAutoByteString
 (
 )
 {
-js_free
+JS_free
 (
+nullptr
 mBytes
 )
 ;
