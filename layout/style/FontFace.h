@@ -326,17 +326,6 @@ FontFaceSet
 aFontFaceSet
 )
 ;
-FontFaceSet
-*
-GetFontFaceSet
-(
-)
-const
-{
-return
-mFontFaceSet
-;
-}
 bool
 GetFamilyName
 (
