@@ -35,6 +35,12 @@ defined
 (
 ANDROID
 )
+|
+|
+defined
+(
+XP_IOS
+)
 )
 #
 error
@@ -44,6 +50,8 @@ code
 is
 for
 Linux
+/
+iOS
 ARM
 only
 .
