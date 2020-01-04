@@ -2534,7 +2534,7 @@ ParseNode
 pn
 bool
 *
-letDecl
+letBlockScope
 )
 ;
 bool
@@ -2577,7 +2577,7 @@ ParseNode
 pn
 bool
 *
-letDecl
+letBlockScope
 )
 ;
 bool
