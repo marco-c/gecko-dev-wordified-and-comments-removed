@@ -1450,10 +1450,6 @@ aTarget
 GetTime
 (
 )
-.
-ToMicroseconds
-(
-)
 __func__
 )
 ;
