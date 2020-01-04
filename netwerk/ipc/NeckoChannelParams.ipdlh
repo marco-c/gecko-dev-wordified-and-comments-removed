@@ -420,6 +420,17 @@ PrincipalInfo
 ]
 redirectChain
 ;
+nsCString
+[
+]
+corsUnsafeHeaders
+;
+bool
+forcePreflight
+;
+bool
+isPreflight
+;
 }
 ;
 /

@@ -329,11 +329,6 @@ HttpFetch
 (
 )
 ;
-bool
-IsUnsafeRequest
-(
-)
-;
 already_AddRefed
 <
 InternalResponse

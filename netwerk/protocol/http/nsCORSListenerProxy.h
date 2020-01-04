@@ -259,6 +259,14 @@ nsIRequest
 aRequest
 )
 ;
+nsresult
+CheckPreflightNeeded
+(
+nsIChannel
+*
+aChannel
+)
+;
 nsCOMPtr
 <
 nsIStreamListener
