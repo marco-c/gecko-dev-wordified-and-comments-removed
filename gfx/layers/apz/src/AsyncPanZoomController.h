@@ -1012,6 +1012,10 @@ const
 FrameMetrics
 &
 aFrameMetrics
+const
+ParentLayerPoint
+&
+aVelocity
 )
 ;
 const
