@@ -1323,7 +1323,7 @@ eScriptEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_AFTER_SCRIPT_EXECUTE
+eAfterScriptExecute
 eScriptEventFirst
 +
 1

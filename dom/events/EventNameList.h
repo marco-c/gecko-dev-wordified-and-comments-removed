@@ -821,7 +821,7 @@ eBasicEventClass
 EVENT
 (
 afterscriptexecute
-NS_AFTER_SCRIPT_EXECUTE
+eAfterScriptExecute
 EventNameType_HTMLXUL
 eBasicEventClass
 )
