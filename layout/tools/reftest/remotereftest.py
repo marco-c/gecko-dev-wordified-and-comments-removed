@@ -9,13 +9,11 @@ tempfile
 import
 traceback
 import
-devicemanager
+urllib2
 import
-droid
+mozdevice
 import
 mozinfo
-import
-moznetwork
 from
 automation
 import
@@ -2617,7 +2615,7 @@ remoteProfile
 )
         
 except
-devicemanager
+mozdevice
 .
 DMError
 :
@@ -2691,7 +2689,7 @@ remoteProfile
 )
         
 except
-devicemanager
+mozdevice
 .
 DMError
 :
@@ -2848,7 +2846,7 @@ _devicemanager
 deviceRoot
         
 except
-devicemanager
+mozdevice
 .
 DMError
 :
@@ -3255,7 +3253,7 @@ deviceIP
                 
 dm
 =
-droid
+mozdevice
 .
 DroidADB
 (
@@ -3282,7 +3280,7 @@ deviceSerial
                 
 dm
 =
-droid
+mozdevice
 .
 DroidADB
 (
@@ -3305,7 +3303,7 @@ else
                 
 dm
 =
-droid
+mozdevice
 .
 DroidADB
 (
@@ -3323,7 +3321,7 @@ else
             
 dm
 =
-droid
+mozdevice
 .
 DroidSUT
 (
@@ -3341,7 +3339,7 @@ remoteTestRoot
 )
     
 except
-devicemanager
+mozdevice
 .
 DMError
 :
