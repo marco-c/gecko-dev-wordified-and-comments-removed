@@ -3372,6 +3372,13 @@ CleanUp
 {
 if
 (
+content
+.
+document
+.
+fullscreenElement
+&
+&
 windowUtils
 )
 {
@@ -3552,6 +3559,12 @@ MozAfterPaint
 {
 if
 (
+!
+this
+.
+_lastTransactionId
+|
+|
 aEvent
 .
 transactionId
