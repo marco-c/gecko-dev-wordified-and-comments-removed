@@ -2810,9 +2810,7 @@ NS_ENSURE_STATE
 cssDecl
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 cssDecl
 -
@@ -2824,7 +2822,6 @@ nsDependentAtomString
 aProperty
 )
 aValue
-)
 )
 )
 ;

@@ -2808,9 +2808,7 @@ nsIPrincipal
 aPrincipal
 )
 {
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 aPrincipal
 -
@@ -2818,7 +2816,6 @@ aPrincipal
 GetOrigin
 (
 mOrigin
-)
 )
 )
 ;

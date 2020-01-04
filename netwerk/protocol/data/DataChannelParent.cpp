@@ -67,9 +67,7 @@ nsIChannel
 >
 channel
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 NS_LinkRedirectChannels
 (
@@ -78,7 +76,6 @@ this
 getter_AddRefs
 (
 channel
-)
 )
 )
 )

@@ -1945,9 +1945,7 @@ mState
 =
 eFailing
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 mOwningThread
 -
@@ -1956,7 +1954,6 @@ Dispatch
 (
 this
 NS_DISPATCH_NORMAL
-)
 )
 )
 ;
@@ -3610,9 +3607,7 @@ mState
 =
 eWaitingToFinishInit
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 mOwningThread
 -
@@ -3621,7 +3616,6 @@ Dispatch
 (
 this
 NS_DISPATCH_NORMAL
-)
 )
 )
 ;
@@ -3753,9 +3747,7 @@ mState
 =
 eFailedToReadMetadata
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 mOwningThread
 -
@@ -3764,7 +3756,6 @@ Dispatch
 (
 this
 NS_DISPATCH_NORMAL
-)
 )
 )
 ;
@@ -3784,9 +3775,7 @@ mState
 =
 eSendingMetadataForRead
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 mOwningThread
 -
@@ -3795,7 +3784,6 @@ Dispatch
 (
 this
 NS_DISPATCH_NORMAL
-)
 )
 )
 ;
@@ -3829,9 +3817,7 @@ mState
 =
 eSendingCacheFile
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 mOwningThread
 -
@@ -3840,7 +3826,6 @@ Dispatch
 (
 this
 NS_DISPATCH_NORMAL
-)
 )
 )
 ;
@@ -3963,9 +3948,7 @@ mState
 =
 eSendingCacheFile
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 mOwningThread
 -
@@ -3974,7 +3957,6 @@ Dispatch
 (
 this
 NS_DISPATCH_NORMAL
-)
 )
 )
 ;

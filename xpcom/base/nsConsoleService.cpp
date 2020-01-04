@@ -1892,9 +1892,7 @@ supportsInt
 uint64_t
 windowId
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 supportsInt
 -
@@ -1903,7 +1901,6 @@ GetData
 (
 &
 windowId
-)
 )
 )
 ;

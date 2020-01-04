@@ -2372,9 +2372,7 @@ XP_WIN
 nsString
 path
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 appDir
 -
@@ -2382,7 +2380,6 @@ appDir
 GetPath
 (
 path
-)
 )
 )
 ;
@@ -2424,9 +2421,7 @@ else
 nsAutoCString
 path
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 appDir
 -
@@ -2434,7 +2429,6 @@ appDir
 GetNativePath
 (
 path
-)
 )
 )
 ;

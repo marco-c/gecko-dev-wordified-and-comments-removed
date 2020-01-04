@@ -3759,9 +3759,7 @@ OnAsyncCopyComplete
 aRv
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 mTargetThread
 -
@@ -3773,7 +3771,6 @@ nsIThread
 :
 :
 DISPATCH_NORMAL
-)
 )
 )
 ;
@@ -7664,14 +7661,11 @@ nsIThread
 Shutdown
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 NS_DispatchToMainThread
 (
 runnable
-)
 )
 )
 ;

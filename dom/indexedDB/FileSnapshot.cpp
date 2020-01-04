@@ -256,9 +256,7 @@ StreamWrapper
 Destroy
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 mOwningThread
 -
@@ -267,7 +265,6 @@ Dispatch
 (
 destroyRunnable
 NS_DISPATCH_NORMAL
-)
 )
 )
 ;
@@ -741,9 +738,7 @@ CloseRunnable
 this
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 mOwningThread
 -
@@ -752,7 +747,6 @@ Dispatch
 (
 closeRunnable
 NS_DISPATCH_NORMAL
-)
 )
 )
 ;

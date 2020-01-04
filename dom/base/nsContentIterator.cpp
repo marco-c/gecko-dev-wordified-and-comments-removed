@@ -4699,9 +4699,7 @@ bool
 nodeBefore
 nodeAfter
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 nsRange
 :
@@ -4714,7 +4712,6 @@ mRange
 nodeBefore
 &
 nodeAfter
-)
 )
 )
 ;
@@ -4852,9 +4849,7 @@ GetDeepLastChild
 lastCandidate
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 nsRange
 :
@@ -4867,7 +4862,6 @@ mRange
 nodeBefore
 &
 nodeAfter
-)
 )
 )
 ;
@@ -5309,9 +5303,7 @@ return
 content
 ;
 }
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 nsRange
 :
@@ -5324,7 +5316,6 @@ mRange
 nodeBefore
 &
 nodeAfter
-)
 )
 )
 ;

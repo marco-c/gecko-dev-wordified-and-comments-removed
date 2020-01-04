@@ -975,9 +975,7 @@ AbortOperationsRunnable
 aContentParentId
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 mBackgroundThread
 -
@@ -986,7 +984,6 @@ Dispatch
 (
 runnable
 NS_DISPATCH_NORMAL
-)
 )
 )
 ;
@@ -1691,9 +1688,7 @@ MOZ_ASSERT
 idleService
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 idleService
 -
@@ -1702,7 +1697,6 @@ AddIdleObserver
 (
 this
 kIdleObserverTimeSec
-)
 )
 )
 ;
@@ -1755,9 +1749,7 @@ MOZ_ASSERT
 idleService
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 idleService
 -
@@ -1766,7 +1758,6 @@ RemoveIdleObserver
 (
 this
 kIdleObserverTimeSec
-)
 )
 )
 ;

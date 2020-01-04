@@ -2756,16 +2756,13 @@ aLength
 i
 )
 {
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 Remove
 (
 i
 -
 1
-)
 )
 )
 ;
@@ -6461,9 +6458,7 @@ continue
 nsString
 value
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 option
 -
@@ -6471,7 +6466,6 @@ option
 GetValue
 (
 value
-)
 )
 )
 ;
@@ -6844,9 +6838,7 @@ continue
 nsAutoString
 value
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 option
 -
@@ -6854,7 +6846,6 @@ option
 GetValue
 (
 value
-)
 )
 )
 ;

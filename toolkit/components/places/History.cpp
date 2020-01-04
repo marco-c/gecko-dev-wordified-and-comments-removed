@@ -2254,9 +2254,7 @@ nsIURI
 >
 uri
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 NS_NewURI
 (
@@ -2267,7 +2265,6 @@ uri
 mPlace
 .
 spec
-)
 )
 )
 ;
@@ -2508,9 +2505,7 @@ nsIURI
 >
 uri
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 NS_NewURI
 (
@@ -2519,7 +2514,6 @@ getter_AddRefs
 uri
 )
 mSpec
-)
 )
 )
 ;
@@ -2668,9 +2662,7 @@ IsEmpty
 )
 )
 {
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 NS_NewURI
 (
@@ -2681,7 +2673,6 @@ referrerURI
 mPlace
 .
 referrerSpec
-)
 )
 )
 ;
@@ -2698,9 +2689,7 @@ nsIURI
 >
 uri
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 NS_NewURI
 (
@@ -2711,7 +2700,6 @@ uri
 mPlace
 .
 spec
-)
 )
 )
 ;
@@ -6418,9 +6406,7 @@ nsIURI
 >
 uri
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 NS_NewURI
 (
@@ -6434,7 +6420,6 @@ visits
 ]
 .
 spec
-)
 )
 )
 ;
@@ -7928,9 +7913,7 @@ nsIURI
 >
 uri
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 NS_NewURI
 (
@@ -7941,7 +7924,6 @@ uri
 aPlace
 .
 spec
-)
 )
 )
 ;

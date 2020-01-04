@@ -1814,9 +1814,7 @@ nsISupports
 >
 element
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 enumerator
 -
@@ -1826,7 +1824,6 @@ GetNext
 getter_AddRefs
 (
 element
-)
 )
 )
 )
@@ -1856,9 +1853,7 @@ nsIVariant
 >
 value
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 property
 -
@@ -1868,11 +1863,8 @@ GetName
 name
 )
 )
-)
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 property
 -
@@ -1882,7 +1874,6 @@ GetValue
 getter_AddRefs
 (
 value
-)
 )
 )
 )

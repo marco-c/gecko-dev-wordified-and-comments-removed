@@ -1713,9 +1713,7 @@ nsIURI
 >
 uri
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 principal
 -
@@ -1725,7 +1723,6 @@ GetURI
 getter_AddRefs
 (
 uri
-)
 )
 )
 )
@@ -1740,9 +1737,7 @@ isAbout
 =
 false
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 uri
 -
@@ -1754,7 +1749,6 @@ about
 "
 &
 isAbout
-)
 )
 )
 ;
@@ -3048,9 +3042,7 @@ uuidGen
 nsID
 id
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 uuidGen
 -
@@ -3059,7 +3051,6 @@ GenerateUUIDInPlace
 (
 &
 id
-)
 )
 )
 ;

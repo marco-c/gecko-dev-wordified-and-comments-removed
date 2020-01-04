@@ -422,9 +422,7 @@ nsIAsyncShutdownBarrier
 >
 barrier
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 asyncShutdown
 -
@@ -435,7 +433,6 @@ mName
 getter_AddRefs
 (
 barrier
-)
 )
 )
 )
@@ -475,9 +472,7 @@ if
 mBarrier
 )
 {
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 mBarrier
 -
@@ -487,7 +482,6 @@ GetClient
 getter_AddRefs
 (
 client
-)
 )
 )
 )
@@ -547,9 +541,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 mBarrier
 -
@@ -557,7 +549,6 @@ mBarrier
 Wait
 (
 this
-)
 )
 )
 ;
@@ -828,9 +819,7 @@ if
 os
 )
 {
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 os
 -
@@ -840,7 +829,6 @@ NotifyObservers
 nullptr
 TOPIC_PLACES_CONNECTION_CLOSED
 nullptr
-)
 )
 )
 ;

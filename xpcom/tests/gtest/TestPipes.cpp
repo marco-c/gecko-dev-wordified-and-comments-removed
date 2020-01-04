@@ -4112,16 +4112,13 @@ aToOffset
 0
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 aReader
 -
 >
 Close
 (
-)
 )
 )
 ;

@@ -307,9 +307,7 @@ aOptionalBase
 return
 ;
 }
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 aOptionalBase
 -
@@ -320,11 +318,8 @@ GetIsContent
 mIsContent
 )
 )
-)
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 aOptionalBase
 -
@@ -335,11 +330,8 @@ GetUsePrivateBrowsing
 mUsePrivateBrowsing
 )
 )
-)
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 aOptionalBase
 -
@@ -348,7 +340,6 @@ GetUseRemoteTabs
 (
 &
 mUseRemoteTabs
-)
 )
 )
 ;

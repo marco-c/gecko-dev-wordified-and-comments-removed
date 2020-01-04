@@ -478,14 +478,11 @@ WebSocketChannelChild
 MaybeReleaseIPCObject
 )
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 NS_DispatchToMainThread
 (
 runnable
-)
 )
 )
 ;

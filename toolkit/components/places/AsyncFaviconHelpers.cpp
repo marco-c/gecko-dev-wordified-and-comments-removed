@@ -4917,9 +4917,7 @@ IsEmpty
 )
 )
 {
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 NS_NewURI
 (
@@ -4930,7 +4928,6 @@ iconURI
 mIcon
 .
 spec
-)
 )
 )
 ;
@@ -5017,9 +5014,7 @@ nsIURI
 >
 pageURI
 ;
-MOZ_ALWAYS_TRUE
-(
-NS_SUCCEEDED
+MOZ_ALWAYS_SUCCEEDS
 (
 NS_NewURI
 (
@@ -5030,7 +5025,6 @@ pageURI
 mPage
 .
 spec
-)
 )
 )
 ;
