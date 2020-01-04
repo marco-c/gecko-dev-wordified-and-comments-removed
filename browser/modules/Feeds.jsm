@@ -402,11 +402,9 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+getNoAppCodebasePrincipal
 (
 principalURI
-{
-}
 )
 ;
 try

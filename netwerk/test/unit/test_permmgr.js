@@ -430,11 +430,9 @@ principal
 =
 secMan
 .
-createCodebasePrincipal
+getNoAppCodebasePrincipal
 (
 uri
-{
-}
 )
 ;
 pm
@@ -500,11 +498,9 @@ principal
 =
 secMan
 .
-createCodebasePrincipal
+getNoAppCodebasePrincipal
 (
 uri
-{
-}
 )
 ;
 do_check_eq

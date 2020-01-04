@@ -2287,11 +2287,9 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+getNoAppCodebasePrincipal
 (
 aIconURI
-{
-}
 )
 ;
 let

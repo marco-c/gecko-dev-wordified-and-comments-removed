@@ -803,11 +803,9 @@ principal
 =
 ssm
 .
-createCodebasePrincipal
+getNoAppCodebasePrincipal
 (
 uri
-{
-}
 )
 ;
 channel

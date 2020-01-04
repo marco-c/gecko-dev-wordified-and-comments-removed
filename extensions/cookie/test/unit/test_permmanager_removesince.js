@@ -76,11 +76,9 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+getNoAppCodebasePrincipal
 (
 permURI1
-{
-}
 )
 ;
 let
@@ -108,11 +106,9 @@ Services
 .
 scriptSecurityManager
 .
-createCodebasePrincipal
+getNoAppCodebasePrincipal
 (
 permURI2
-{
-}
 )
 ;
 pm
