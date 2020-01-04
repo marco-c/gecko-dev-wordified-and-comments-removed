@@ -676,7 +676,7 @@ childProxy
 {
 GetProxyUnignoredChildren
 (
-aProxy
+childProxy
 aChildrenArray
 )
 ;
