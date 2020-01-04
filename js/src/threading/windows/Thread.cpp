@@ -369,10 +369,14 @@ handle
 _beginthreadex
 (
 nullptr
-0
+options_
+.
+stackSize
+(
+)
 aMain
 aArg
-0
+STACK_SIZE_PARAM_IS_A_RESERVATION
 &
 id_
 .
