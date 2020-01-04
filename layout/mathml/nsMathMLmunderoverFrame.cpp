@@ -927,7 +927,7 @@ DrawTarget
 aDrawTarget
 bool
 aPlaceOrigin
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -1087,7 +1087,7 @@ bmBase
 bmUnder
 bmOver
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 baseSize
 (
 aDesiredSize
@@ -1097,7 +1097,7 @@ GetWritingMode
 )
 )
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 underSize
 (
 aDesiredSize
@@ -1107,7 +1107,7 @@ GetWritingMode
 )
 )
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 overSize
 (
 aDesiredSize

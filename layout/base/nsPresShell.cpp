@@ -42517,7 +42517,7 @@ true
 nsReflowStatus
 status
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 desiredSize
 (
 reflowState

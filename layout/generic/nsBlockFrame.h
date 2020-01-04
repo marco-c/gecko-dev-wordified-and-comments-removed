@@ -815,7 +815,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -1288,7 +1288,7 @@ aReflowState
 BlockReflowInput
 &
 aState
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 nscoord
@@ -2157,7 +2157,7 @@ aBulletFrame
 BlockReflowInput
 &
 aState
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 nscoord

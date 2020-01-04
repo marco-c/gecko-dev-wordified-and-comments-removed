@@ -1398,7 +1398,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -1881,7 +1881,7 @@ ReflowAsDropdown
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const

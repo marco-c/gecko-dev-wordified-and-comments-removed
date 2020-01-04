@@ -2119,7 +2119,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -2391,7 +2391,7 @@ aReflowState
 nsReflowStatus
 &
 aStatus
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aParentDesiredSize
 )
@@ -2514,7 +2514,7 @@ ComputedPhysicalPadding
 .
 top
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 desiredSize
 (
 aReflowState

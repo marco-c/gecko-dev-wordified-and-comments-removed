@@ -34,7 +34,7 @@ namespace
 mozilla
 {
 class
-nsHTMLReflowMetrics
+ReflowOutput
 ;
 }
 enum
@@ -131,7 +131,7 @@ aContainerSize
 mozilla
 :
 :
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredStretchSize
 )

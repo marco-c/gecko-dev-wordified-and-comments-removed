@@ -3881,7 +3881,7 @@ const
 ReflowInput
 &
 aChildRS
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 nsReflowStatus
@@ -3955,7 +3955,7 @@ nsTableWrapperFrame
 :
 UpdateOverflowAreas
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMet
 )
@@ -4008,7 +4008,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -4467,7 +4467,7 @@ wm
 }
 Maybe
 <
-nsHTMLReflowMetrics
+ReflowOutput
 >
 captionMet
 ;
@@ -4640,7 +4640,7 @@ captionBSize
 ;
 }
 }
-nsHTMLReflowMetrics
+ReflowOutput
 innerMet
 (
 innerRS

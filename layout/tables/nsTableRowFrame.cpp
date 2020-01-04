@@ -1603,7 +1603,7 @@ GetWritingMode
 (
 )
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 desiredSize
 (
 wm
@@ -3616,7 +3616,7 @@ ReflowChildren
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -3766,7 +3766,7 @@ false
 kidReflowState
 )
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 desiredSize
 (
 aReflowState
@@ -4063,7 +4063,7 @@ TableCellReflowInput
 >
 kidReflowState
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 desiredSize
 (
 aReflowState
@@ -5021,7 +5021,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -5378,7 +5378,7 @@ mIsTopOfPage
 =
 aIsTopOfPage
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 desiredSize
 (
 aReflowState

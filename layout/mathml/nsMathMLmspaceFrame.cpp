@@ -232,7 +232,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -364,7 +364,7 @@ MeasureForWidth
 DrawTarget
 *
 aDrawTarget
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )

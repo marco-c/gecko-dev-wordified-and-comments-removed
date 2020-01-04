@@ -740,7 +740,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -928,7 +928,7 @@ while
 childFrame
 )
 {
-nsHTMLReflowMetrics
+ReflowOutput
 childDesiredSize
 (
 aReflowState
@@ -1113,7 +1113,7 @@ if
 mathmlChild
 )
 {
-nsHTMLReflowMetrics
+ReflowOutput
 childDesiredSize
 (
 aReflowState
@@ -1499,7 +1499,7 @@ while
 childFrame
 )
 {
-nsHTMLReflowMetrics
+ReflowOutput
 childSize
 (
 aReflowState
@@ -2373,7 +2373,7 @@ GetIntrinsicISizeMetrics
 nsRenderingContext
 *
 aRenderingContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -2601,7 +2601,7 @@ nsMathMLmfencedFrame
 :
 FixInterFrameSpacing
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )

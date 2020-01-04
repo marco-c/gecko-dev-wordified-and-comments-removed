@@ -2348,7 +2348,7 @@ aStretchDirection
 nsBoundingMetrics
 &
 aContainerSize
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredStretchSize
 )
@@ -3906,7 +3906,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -3945,7 +3945,7 @@ DrawTarget
 aDrawTarget
 bool
 aPlaceOrigin
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -4188,7 +4188,7 @@ GetIntrinsicISizeMetrics
 nsRenderingContext
 *
 aRenderingContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )

@@ -1410,7 +1410,7 @@ TryLayout
 ScrollReflowInput
 *
 aState
-nsHTMLReflowMetrics
+ReflowOutput
 *
 aKidMetrics
 bool
@@ -2237,7 +2237,7 @@ bool
 aAssumeHScroll
 bool
 aAssumeVScroll
-nsHTMLReflowMetrics
+ReflowOutput
 *
 aMetrics
 bool
@@ -3143,12 +3143,12 @@ ScrollReflowInput
 *
 aState
 const
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
 {
-nsHTMLReflowMetrics
+ReflowOutput
 kidDesiredSize
 (
 aDesiredSize
@@ -3800,7 +3800,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const

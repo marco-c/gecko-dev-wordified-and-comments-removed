@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_nsHTMLReflowMetrics_h
+mozilla_ReflowOutput_h
 #
 define
-mozilla_nsHTMLReflowMetrics_h
+mozilla_ReflowOutput_h
 #
 include
 "
@@ -724,12 +724,12 @@ namespace
 mozilla
 {
 class
-nsHTMLReflowMetrics
+ReflowOutput
 {
 public
 :
 explicit
-nsHTMLReflowMetrics
+ReflowOutput
 (
 mozilla
 :
@@ -765,7 +765,7 @@ aWritingMode
 {
 }
 explicit
-nsHTMLReflowMetrics
+ReflowOutput
 (
 const
 ReflowInput

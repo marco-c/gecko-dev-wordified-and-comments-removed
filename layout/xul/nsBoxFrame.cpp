@@ -2496,7 +2496,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -3827,7 +3827,7 @@ NS_UNCONSTRAINEDSIZE
 )
 )
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 desiredSize
 (
 reflowState

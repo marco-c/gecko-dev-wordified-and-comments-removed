@@ -20196,7 +20196,7 @@ NS_UNCONSTRAINEDSIZE
 )
 )
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 desiredSize
 (
 reflowState

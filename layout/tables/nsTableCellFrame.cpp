@@ -2838,7 +2838,7 @@ kidBStart
 containerSize
 )
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 desiredSize
 (
 aWM
@@ -3643,7 +3643,7 @@ DebugCheckChildSize
 nsIFrame
 *
 aChild
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMet
 )
@@ -3932,7 +3932,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -4109,7 +4109,7 @@ wm
 1
 ;
 }
-nsHTMLReflowMetrics
+ReflowOutput
 kidSize
 (
 wm

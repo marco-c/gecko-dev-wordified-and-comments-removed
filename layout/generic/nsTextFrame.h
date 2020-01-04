@@ -1202,7 +1202,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 const
@@ -2090,7 +2090,7 @@ aAvailableWidth
 DrawTarget
 *
 aDrawTarget
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 nsReflowStatus
@@ -2847,7 +2847,7 @@ override
 void
 ClearMetrics
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 )

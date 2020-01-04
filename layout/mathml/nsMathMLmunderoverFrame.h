@@ -51,7 +51,7 @@ DrawTarget
 aDrawTarget
 bool
 aPlaceOrigin
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )

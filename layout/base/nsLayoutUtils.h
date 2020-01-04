@@ -5467,7 +5467,7 @@ aFrame
 mozilla
 :
 :
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 const

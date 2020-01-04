@@ -101,7 +101,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -139,7 +139,7 @@ GetIntrinsicISizeMetrics
 nsRenderingContext
 *
 aRenderingContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )

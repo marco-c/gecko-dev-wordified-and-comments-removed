@@ -148,7 +148,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -428,7 +428,7 @@ aForPageNumOnly
 void
 SetDesiredSize
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const

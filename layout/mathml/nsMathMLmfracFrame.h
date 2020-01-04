@@ -56,7 +56,7 @@ MeasureForWidth
 DrawTarget
 *
 aDrawTarget
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -71,7 +71,7 @@ DrawTarget
 aDrawTarget
 bool
 aPlaceOrigin
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -119,7 +119,7 @@ virtual
 nscoord
 FixInterFrameSpacing
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -185,7 +185,7 @@ DrawTarget
 aDrawTarget
 bool
 aPlaceOrigin
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 bool

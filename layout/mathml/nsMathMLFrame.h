@@ -168,7 +168,7 @@ aContainerSize
 mozilla
 :
 :
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredStretchSize
 )

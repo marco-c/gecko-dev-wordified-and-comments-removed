@@ -1817,7 +1817,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -2168,7 +2168,7 @@ if
 reflowLegend
 )
 {
-nsHTMLReflowMetrics
+ReflowOutput
 legendDesiredSize
 (
 aReflowState
@@ -2566,7 +2566,7 @@ mLegendSpace
 )
 ;
 }
-nsHTMLReflowMetrics
+ReflowOutput
 kidDesiredSize
 (
 kidReflowState

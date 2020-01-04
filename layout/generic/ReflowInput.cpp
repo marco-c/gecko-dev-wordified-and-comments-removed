@@ -13655,7 +13655,7 @@ ReflowInput
 SetTruncated
 (
 const
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 nsReflowStatus

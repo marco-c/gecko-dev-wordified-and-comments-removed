@@ -2032,7 +2032,7 @@ wm
 ;
 }
 }
-nsHTMLReflowMetrics
+ReflowOutput
 kidDesiredSize
 (
 kidReflowState

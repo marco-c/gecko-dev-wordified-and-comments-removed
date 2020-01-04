@@ -113,10 +113,10 @@ aRect
 ;
 }
 }
-nsHTMLReflowMetrics
+ReflowOutput
 :
 :
-nsHTMLReflowMetrics
+ReflowOutput
 (
 const
 ReflowInput
@@ -153,7 +153,7 @@ GetWritingMode
 {
 }
 void
-nsHTMLReflowMetrics
+ReflowOutput
 :
 :
 SetOverflowAreasToDesiredBounds
@@ -187,7 +187,7 @@ Height
 }
 }
 void
-nsHTMLReflowMetrics
+ReflowOutput
 :
 :
 UnionOverflowAreasWithDesiredBounds

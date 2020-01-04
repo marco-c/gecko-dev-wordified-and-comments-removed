@@ -489,7 +489,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -1012,7 +1012,7 @@ ComputedPhysicalMargin
 .
 top
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 barDesiredSize
 (
 reflowState

@@ -761,7 +761,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -1087,7 +1087,7 @@ ReflowButtonContents
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aButtonDesiredSize
 const
@@ -1351,7 +1351,7 @@ availSize
 nsReflowStatus
 contentsReflowStatus
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 contentsDesiredSize
 (
 aButtonReflowState
@@ -1673,7 +1673,7 @@ BlockStartAscent
 )
 =
 =
-nsHTMLReflowMetrics
+ReflowOutput
 :
 :
 ASK_FOR_BASELINE

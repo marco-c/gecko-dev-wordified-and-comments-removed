@@ -265,7 +265,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 const
@@ -487,7 +487,7 @@ aPresContext
 nsRenderingContext
 *
 aRenderingContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 float

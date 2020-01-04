@@ -1388,7 +1388,7 @@ if
 mAscent
 =
 =
-nsHTMLReflowMetrics
+ReflowOutput
 :
 :
 ASK_FOR_BASELINE
@@ -5565,7 +5565,7 @@ true
 )
 ;
 }
-nsHTMLReflowMetrics
+ReflowOutput
 childDesiredSize
 (
 childRSForMeasuringHeight
@@ -13176,7 +13176,7 @@ true
 )
 ;
 }
-nsHTMLReflowMetrics
+ReflowOutput
 childDesiredSize
 (
 aChildReflowState
@@ -13513,7 +13513,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -14063,7 +14063,7 @@ DoFlexLayout
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -15669,7 +15669,7 @@ true
 ;
 }
 }
-nsHTMLReflowMetrics
+ReflowOutput
 childDesiredSize
 (
 childReflowState

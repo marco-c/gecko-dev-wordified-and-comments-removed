@@ -1374,7 +1374,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 const
@@ -1552,7 +1552,7 @@ nsImageFrame
 child
 )
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 kidDesiredSize
 (
 aReflowState
@@ -1820,7 +1820,7 @@ GetContent
 mCaptionDiv
 )
 {
-nsHTMLReflowMetrics
+ReflowOutput
 kidDesiredSize
 (
 aReflowState

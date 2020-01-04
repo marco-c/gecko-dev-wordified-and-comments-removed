@@ -1250,7 +1250,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -1285,7 +1285,7 @@ ReflowAbsoluteFrames
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -1307,7 +1307,7 @@ FinishReflowWithAbsoluteFrames
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -1539,7 +1539,7 @@ const
 ReflowInput
 &
 aReflowState
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 nsReflowStatus
@@ -1731,7 +1731,7 @@ aPresContext
 nsIFrame
 *
 aFrame
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 uint32_t
@@ -2313,7 +2313,7 @@ aState
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 nsRenderingContext
@@ -2595,7 +2595,7 @@ aReflowState
 mozilla
 :
 :
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 nsReflowStatus
@@ -2633,7 +2633,7 @@ mReflowState
 mozilla
 :
 :
-nsHTMLReflowMetrics
+ReflowOutput
 &
 mMetrics
 ;

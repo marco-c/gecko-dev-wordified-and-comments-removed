@@ -16219,7 +16219,7 @@ ReflowInput
 COMPUTE_SIZE_USE_AUTO_BSIZE
 )
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 childSize
 (
 childRS
@@ -23251,7 +23251,7 @@ const
 LogicalRect
 &
 aContentArea
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 nsReflowStatus
@@ -23965,7 +23965,7 @@ FragStretchBSizeProperty
 ;
 }
 }
-nsHTMLReflowMetrics
+ReflowOutput
 childSize
 (
 childRS
@@ -24242,7 +24242,7 @@ const
 LogicalRect
 &
 aContentArea
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 nsReflowStatus
@@ -25358,7 +25358,7 @@ const
 LogicalRect
 &
 aContentArea
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 nsReflowStatus
@@ -26942,7 +26942,7 @@ const
 LogicalRect
 &
 aContentArea
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 nsReflowStatus
@@ -27542,7 +27542,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const

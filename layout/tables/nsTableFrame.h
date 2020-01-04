@@ -1208,7 +1208,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -1224,7 +1224,7 @@ override
 void
 ReflowTable
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -1807,7 +1807,7 @@ aBorderPadding
 void
 AdjustForCollapsingRowsCols
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -1825,7 +1825,7 @@ FixupPositionedTableParts
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -1904,7 +1904,7 @@ const
 ReflowInput
 &
 aReflowState
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -1931,7 +1931,7 @@ nsIFrame
 aKidFrame
 nsPoint
 aKidPosition
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aKidDesiredSize
 const

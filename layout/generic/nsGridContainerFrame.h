@@ -227,7 +227,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -801,7 +801,7 @@ const
 LogicalRect
 &
 aContentArea
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 nsReflowStatus
@@ -908,7 +908,7 @@ const
 LogicalRect
 &
 aContentArea
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 nsReflowStatus
@@ -933,7 +933,7 @@ const
 LogicalRect
 &
 aContentArea
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 nsReflowStatus
@@ -997,7 +997,7 @@ const
 LogicalRect
 &
 aContentArea
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 nsReflowStatus

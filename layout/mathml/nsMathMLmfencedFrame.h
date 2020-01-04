@@ -97,7 +97,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -135,7 +135,7 @@ GetIntrinsicISizeMetrics
 nsRenderingContext
 *
 aRenderingContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -168,7 +168,7 @@ virtual
 nscoord
 FixInterFrameSpacing
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )

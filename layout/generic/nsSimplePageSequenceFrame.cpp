@@ -450,7 +450,7 @@ nsSimplePageSequenceFrame
 :
 SetDesiredSize
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -616,7 +616,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -1130,7 +1130,7 @@ maxXMost
 =
 0
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 kidSize
 (
 aReflowState

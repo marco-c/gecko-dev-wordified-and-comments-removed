@@ -2946,7 +2946,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -3092,7 +3092,7 @@ ComputedHeight
 )
 )
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 kidDesiredSize
 (
 aReflowState

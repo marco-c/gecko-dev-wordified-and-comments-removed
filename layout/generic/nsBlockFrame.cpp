@@ -5398,7 +5398,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 const
@@ -6281,7 +6281,7 @@ IsBlock
 )
 )
 {
-nsHTMLReflowMetrics
+ReflowOutput
 metrics
 (
 aReflowState
@@ -7334,7 +7334,7 @@ aReflowState
 BlockReflowInput
 &
 aState
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 nscoord
@@ -12852,7 +12852,7 @@ empty
 )
 )
 {
-nsHTMLReflowMetrics
+ReflowOutput
 metrics
 (
 aState
@@ -12938,7 +12938,7 @@ BlockStartAscent
 )
 =
 =
-nsHTMLReflowMetrics
+ReflowOutput
 :
 :
 ASK_FOR_BASELINE
@@ -20621,7 +20621,7 @@ next
 )
 )
 {
-nsHTMLReflowMetrics
+ReflowOutput
 metrics
 (
 aState
@@ -29087,7 +29087,7 @@ GetWritingMode
 )
 ;
 const
-nsHTMLReflowMetrics
+ReflowOutput
 &
 metrics
 =
@@ -33556,7 +33556,7 @@ aBulletFrame
 BlockReflowInput
 &
 aState
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 nscoord

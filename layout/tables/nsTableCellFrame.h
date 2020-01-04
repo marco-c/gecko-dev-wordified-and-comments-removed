@@ -487,7 +487,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -681,7 +681,7 @@ void
 SetDesiredSize
 (
 const
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )
@@ -922,7 +922,7 @@ nsTableCellFrame
 SetDesiredSize
 (
 const
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 )

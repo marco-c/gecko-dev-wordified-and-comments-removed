@@ -1796,7 +1796,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -1908,7 +1908,7 @@ GetNextSibling
 )
 )
 {
-nsHTMLReflowMetrics
+ReflowOutput
 kidSize
 (
 aReflowState

@@ -279,7 +279,7 @@ struct
 ReflowInput
 ;
 class
-nsHTMLReflowMetrics
+ReflowOutput
 ;
 namespace
 layers
@@ -1104,12 +1104,12 @@ mozilla
 ReflowInput
 ;
 using
-nsHTMLReflowMetrics
+ReflowOutput
 =
 mozilla
 :
 :
-nsHTMLReflowMetrics
+ReflowOutput
 ;
 using
 Visibility
@@ -5308,7 +5308,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aReflowMetrics
 const
@@ -6058,7 +6058,7 @@ nullptr
 bool
 FinishAndStoreOverflow
 (
-nsHTMLReflowMetrics
+ReflowOutput
 *
 aMetrics
 )

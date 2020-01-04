@@ -53,12 +53,12 @@ mozilla
 ReflowInput
 ;
 using
-nsHTMLReflowMetrics
+ReflowOutput
 =
 mozilla
 :
 :
-nsHTMLReflowMetrics
+ReflowOutput
 ;
 public
 :
@@ -147,7 +147,7 @@ mCarriedOutBEndMargin
 ;
 }
 const
-nsHTMLReflowMetrics
+ReflowOutput
 &
 GetMetrics
 (
@@ -215,7 +215,7 @@ mozilla
 WritingMode
 mWritingMode
 ;
-nsHTMLReflowMetrics
+ReflowOutput
 mMetrics
 ;
 nsCollapsingMargin

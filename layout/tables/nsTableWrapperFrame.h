@@ -329,7 +329,7 @@ Reflow
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -884,7 +884,7 @@ const
 ReflowInput
 &
 aChildRS
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMetrics
 nsReflowStatus
@@ -895,7 +895,7 @@ aStatus
 void
 UpdateOverflowAreas
 (
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aMet
 )

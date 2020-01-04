@@ -546,7 +546,7 @@ aChildFrame
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -594,7 +594,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -632,7 +632,7 @@ aKidFrame
 nsPresContext
 *
 aPresContext
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
@@ -666,7 +666,7 @@ nsPresContext
 *
 aPresContext
 const
-nsHTMLReflowMetrics
+ReflowOutput
 &
 aDesiredSize
 const
