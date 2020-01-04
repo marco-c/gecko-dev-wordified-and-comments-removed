@@ -449,7 +449,7 @@ str
 ;
 inline
 bool
-TLTextIdIsToggable
+TLTextIdIsTogglable
 (
 uint32_t
 id
