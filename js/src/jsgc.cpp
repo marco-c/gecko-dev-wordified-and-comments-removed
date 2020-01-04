@@ -11395,6 +11395,7 @@ gcstats
 :
 :
 PHASE_COMPACT_UPDATE_CELLS
+lock
 )
 ;
 tasksStarted
@@ -11441,6 +11442,7 @@ gcstats
 :
 :
 PHASE_COMPACT_UPDATE_CELLS
+lock
 )
 ;
 }
@@ -22876,6 +22878,9 @@ virtual
 void
 runFromHelperThread
 (
+AutoLockHelperThreadState
+&
+locked
 )
 override
 {
@@ -22887,6 +22892,7 @@ GCParallelTask
 :
 runFromHelperThread
 (
+locked
 )
 ;
 }
@@ -23373,6 +23379,9 @@ gcstats
 :
 Phase
 phase
+AutoLockHelperThreadState
+&
+locked
 )
 {
 MOZ_ASSERT
@@ -23398,6 +23407,9 @@ startWithLockHeld
 {
 AutoUnlockHelperThreadState
 unlock
+(
+locked
+)
 ;
 gcstats
 :
@@ -23432,6 +23444,9 @@ gcstats
 :
 Phase
 phase
+AutoLockHelperThreadState
+&
+locked
 )
 {
 gcstats
@@ -23449,6 +23464,7 @@ task
 .
 joinWithLockHeld
 (
+locked
 )
 ;
 }
@@ -23994,6 +24010,7 @@ gcstats
 :
 :
 PHASE_SWEEP_ATOMS
+helperLock
 )
 ;
 }
@@ -24032,6 +24049,7 @@ gcstats
 :
 :
 PHASE_SWEEP_INNER_VIEWS
+helperLock
 )
 ;
 startTask
@@ -24041,6 +24059,7 @@ gcstats
 :
 :
 PHASE_SWEEP_CC_WRAPPER
+helperLock
 )
 ;
 startTask
@@ -24050,6 +24069,7 @@ gcstats
 :
 :
 PHASE_SWEEP_TYPE_OBJECT
+helperLock
 )
 ;
 startTask
@@ -24059,6 +24079,7 @@ gcstats
 :
 :
 PHASE_SWEEP_REGEXP
+helperLock
 )
 ;
 startTask
@@ -24068,6 +24089,7 @@ gcstats
 :
 :
 PHASE_SWEEP_MISC
+helperLock
 )
 ;
 for
@@ -24085,6 +24107,7 @@ gcstats
 :
 :
 PHASE_SWEEP_MISC
+helperLock
 )
 ;
 }
@@ -24464,6 +24487,7 @@ gcstats
 :
 :
 PHASE_SWEEP_ATOMS
+helperLock
 )
 ;
 }
@@ -24501,6 +24525,7 @@ gcstats
 :
 :
 PHASE_SWEEP_INNER_VIEWS
+helperLock
 )
 ;
 joinTask
@@ -24510,6 +24535,7 @@ gcstats
 :
 :
 PHASE_SWEEP_CC_WRAPPER
+helperLock
 )
 ;
 joinTask
@@ -24519,6 +24545,7 @@ gcstats
 :
 :
 PHASE_SWEEP_TYPE_OBJECT
+helperLock
 )
 ;
 joinTask
@@ -24528,6 +24555,7 @@ gcstats
 :
 :
 PHASE_SWEEP_REGEXP
+helperLock
 )
 ;
 joinTask
@@ -24537,6 +24565,7 @@ gcstats
 :
 :
 PHASE_SWEEP_MISC
+helperLock
 )
 ;
 for
@@ -24554,6 +24583,7 @@ gcstats
 :
 :
 PHASE_SWEEP_MISC
+helperLock
 )
 ;
 }

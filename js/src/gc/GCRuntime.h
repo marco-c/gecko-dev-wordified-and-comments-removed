@@ -97,6 +97,9 @@ class
 AutoLockGC
 ;
 class
+AutoLockHelperThreadState
+;
+class
 VerifyPreTracer
 ;
 namespace
@@ -4065,6 +4068,9 @@ gcstats
 :
 Phase
 phase
+AutoLockHelperThreadState
+&
+locked
 )
 ;
 void
@@ -4078,6 +4084,9 @@ gcstats
 :
 Phase
 phase
+AutoLockHelperThreadState
+&
+locked
 )
 ;
 Arena

@@ -358,6 +358,7 @@ HelperThreadState
 .
 wait
 (
+lock
 GlobalHelperThreadState
 :
 :
@@ -831,6 +832,7 @@ HelperThreadState
 .
 wait
 (
+lock
 GlobalHelperThreadState
 :
 :

@@ -3200,6 +3200,7 @@ freeMallocedBuffersTask
 >
 joinWithLockHeld
 (
+lock
 )
 ;
 freeMallocedBuffersTask
