@@ -72,10 +72,3 @@ mozconfig
 .
 common
 "
-#
-Enable
-Telemetry
-export
-MOZ_TELEMETRY_REPORTING
-=
-1
