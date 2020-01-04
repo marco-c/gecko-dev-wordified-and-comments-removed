@@ -1828,6 +1828,12 @@ DeviceChanged
 )
 override
 {
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 if
 (
 mAudioSource
@@ -2439,13 +2445,6 @@ MediaEnginePrefs
 &
 aPrefs
 )
-;
-virtual
-void
-SetFakeDeviceChangeEvents
-(
-)
-override
 ;
 void
 Shutdown

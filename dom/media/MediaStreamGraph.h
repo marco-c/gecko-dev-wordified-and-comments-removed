@@ -3304,8 +3304,10 @@ mSampleRate
 ;
 nsTArray
 <
+RefPtr
+<
 AudioDataListener
-*
+>
 >
 mAudioInputs
 ;
