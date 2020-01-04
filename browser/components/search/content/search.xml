@@ -3254,6 +3254,13 @@ isWindowPrivate
 (
 window
 )
+&
+&
+this
+.
+FormHistory
+.
+enabled
 )
 {
 this
