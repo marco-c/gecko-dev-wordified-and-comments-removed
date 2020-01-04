@@ -962,7 +962,7 @@ MOZ_CRASHREPORTER
 '
 1
 '
-                     
+                    
 '
 MOZ_CRASHREPORTER_NO_REPORT
 '

@@ -8,8 +8,6 @@ import
 socket
 import
 time
-import
-types
 class
 SocketTimeout
 (
@@ -379,7 +377,7 @@ to_msg
 self
 )
 :
-       
+        
 msg
 =
 [
@@ -396,7 +394,7 @@ self
 .
 result
 ]
-       
+        
 return
 json
 .
@@ -704,15 +702,6 @@ Check
 gecko
 .
 log
-(
-desktop
-firefox
-)
-or
-logcat
-(
-b2g
-)
 for
 errors
 .
@@ -1536,8 +1525,7 @@ d
 bytes
 "
 %
-\
-                            
+                                  
 (
 totalsent
 len

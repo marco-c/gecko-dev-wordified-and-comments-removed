@@ -442,12 +442,12 @@ wrap
 func
 )
 :
-         
+        
 wraps
 (
 func
 )
-         
+        
 def
 inner
 (
@@ -458,7 +458,7 @@ args
 kwargs
 )
 :
-             
+            
 m
 =
 _find_marionette_in_args
@@ -469,7 +469,7 @@ args
 *
 kwargs
 )
-             
+            
 with
 m
 .
@@ -478,7 +478,7 @@ using_context
 context
 )
 :
-                 
+                
 return
 func
 (
@@ -488,7 +488,7 @@ args
 *
 kwargs
 )
-         
+        
 return
 inner
     

@@ -376,7 +376,7 @@ execute_async_script
 "
               
 let
-FileUtils
+fileUtils
 =
 Components
 .
@@ -398,6 +398,12 @@ FileUtils
 jsm
 "
 )
+;
+              
+let
+FileUtils
+=
+fileUtils
 .
 FileUtils
 ;
