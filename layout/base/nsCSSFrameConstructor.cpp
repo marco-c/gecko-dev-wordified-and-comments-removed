@@ -49579,8 +49579,6 @@ return
 false
 ;
 }
-break
-;
 }
 while
 (

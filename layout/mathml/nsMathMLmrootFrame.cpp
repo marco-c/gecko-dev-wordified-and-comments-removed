@@ -1822,8 +1822,6 @@ GetStyleContext
 (
 )
 ;
-break
-;
 default
 :
 return
