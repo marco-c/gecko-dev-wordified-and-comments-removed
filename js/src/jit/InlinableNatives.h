@@ -23,6 +23,11 @@ ArrayIsArray
 \
 _
 (
+ArrayJoin
+)
+\
+_
+(
 ArrayPop
 )
 \
