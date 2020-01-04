@@ -8,6 +8,12 @@ response
 )
 :
     
+print
+dir
+(
+response
+)
+    
 response
 .
 headers

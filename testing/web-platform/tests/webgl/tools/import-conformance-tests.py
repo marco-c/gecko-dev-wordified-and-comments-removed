@@ -679,14 +679,6 @@ clone
 "
 KHRONOS_REPO_URL
 directory
-"
--
--
-depth
-"
-"
-1
-"
 ]
 )
     
@@ -844,17 +836,6 @@ walk
 destination
 )
 :
-        
-if
-'
-/
-resources
-'
-in
-dirpath
-:
-          
-continue
         
 for
 f
