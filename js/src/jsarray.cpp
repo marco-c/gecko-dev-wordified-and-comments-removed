@@ -15908,6 +15908,16 @@ arrayProto
 |
 |
 !
+arrayProto
+-
+>
+setDelegate
+(
+cx
+)
+|
+|
+!
 AddLengthProperty
 (
 cx
