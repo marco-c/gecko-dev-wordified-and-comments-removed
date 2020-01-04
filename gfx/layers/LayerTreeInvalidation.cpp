@@ -594,7 +594,7 @@ mUseClipRect
 aLayer
 -
 >
-GetEffectiveClipRect
+GetClipRect
 (
 )
 )
@@ -684,7 +684,7 @@ mClipRect
 aLayer
 -
 >
-GetEffectiveClipRect
+GetClipRect
 (
 )
 ;
@@ -812,7 +812,7 @@ otherClip
 mLayer
 -
 >
-GetEffectiveClipRect
+GetClipRect
 (
 )
 ;
