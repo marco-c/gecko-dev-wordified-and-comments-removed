@@ -1563,9 +1563,9 @@ gfxFontEntry
 :
 GetSVGGlyphExtents
 (
-gfxContext
+DrawTarget
 *
-aContext
+aDrawTarget
 uint32_t
 aGlyphId
 gfxRect
@@ -1623,12 +1623,7 @@ gfxContext
 :
 RefCairo
 (
-aContext
--
->
-GetDrawTarget
-(
-)
+aDrawTarget
 )
 &
 fontMatrix

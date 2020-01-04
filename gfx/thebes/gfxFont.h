@@ -5181,9 +5181,9 @@ virtual
 void
 SetupGlyphExtents
 (
-gfxContext
+DrawTarget
 *
-aContext
+aDrawTarget
 uint32_t
 aGlyphID
 bool

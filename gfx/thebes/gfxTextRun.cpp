@@ -7505,6 +7505,11 @@ font
 SetupGlyphExtents
 (
 aRefContext
+-
+>
+GetDrawTarget
+(
+)
 glyphIndex
 false
 extents
@@ -7667,6 +7672,11 @@ font
 SetupGlyphExtents
 (
 aRefContext
+-
+>
+GetDrawTarget
+(
+)
 glyphIndex
 true
 extents
