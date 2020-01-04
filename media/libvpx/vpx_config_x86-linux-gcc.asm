@@ -57,7 +57,7 @@ equ
 1
 HAVE_AVX2
 equ
-0
+1
 HAVE_VPX_PORTS
 equ
 1
