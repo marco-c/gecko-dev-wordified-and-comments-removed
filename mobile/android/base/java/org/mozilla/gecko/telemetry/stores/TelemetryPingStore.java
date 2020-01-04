@@ -81,7 +81,7 @@ onUploadAttemptComplete
 (
 Set
 <
-Integer
+String
 >
 successfulRemoveIDs
 )
