@@ -112,6 +112,9 @@ DIRS
 actors
 '
 '
+performance
+'
+'
 shims
 '
 ]

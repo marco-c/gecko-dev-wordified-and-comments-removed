@@ -86,7 +86,7 @@ Actors
 "
 devtools
 /
-shared
+client
 /
 performance
 /
@@ -107,7 +107,7 @@ LegacyPerformanceRecording
 "
 devtools
 /
-shared
+client
 /
 performance
 /
@@ -129,7 +129,7 @@ importRecording
 "
 devtools
 /
-shared
+client
 /
 performance
 /
@@ -155,6 +155,8 @@ shared
 /
 performance
 /
+recording
+-
 utils
 "
 true
