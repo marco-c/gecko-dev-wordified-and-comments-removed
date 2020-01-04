@@ -3098,7 +3098,7 @@ GetCumulativeResolution
 ;
 virtual
 float
-GetCumulativeScaleResolution
+GetCumulativeNonRootScaleResolution
 (
 )
 =

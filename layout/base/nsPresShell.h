@@ -956,7 +956,7 @@ override
 ;
 virtual
 float
-GetCumulativeScaleResolution
+GetCumulativeNonRootScaleResolution
 (
 )
 override
