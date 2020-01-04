@@ -1096,6 +1096,9 @@ useJustOnce
 "
 )
 ]
+doubleTapButton
+:
+1
 }
 (
 data
