@@ -157,13 +157,6 @@ h
 "
 #
 import
-"
-GTMGarbageCollection
-.
-h
-"
-#
-import
 <
 fcntl
 .
@@ -3068,6 +3061,12 @@ level
 {
 #
 if
+defined
+(
+DEBUG
+)
+&
+&
 DEBUG
 return
 YES

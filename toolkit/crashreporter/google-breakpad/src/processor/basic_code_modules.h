@@ -120,8 +120,12 @@ Copy
 )
 const
 ;
-private
+protected
 :
+BasicCodeModules
+(
+)
+;
 uint64_t
 main_address_
 ;
@@ -137,6 +141,8 @@ CodeModule
 *
 map_
 ;
+private
+:
 BasicCodeModules
 (
 const

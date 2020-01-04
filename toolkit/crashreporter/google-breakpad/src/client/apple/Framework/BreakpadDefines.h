@@ -147,6 +147,12 @@ BreakpadServerParameters
 "
 #
 define
+BREAKPAD_IN_PROCESS
+"
+BreakpadInProcess
+"
+#
+define
 BREAKPAD_PROCESS_START_TIME
 "
 BreakpadProcStartTime

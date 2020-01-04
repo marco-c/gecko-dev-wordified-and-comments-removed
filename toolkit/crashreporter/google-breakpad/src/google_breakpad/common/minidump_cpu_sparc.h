@@ -69,6 +69,14 @@ float_save
 }
 MDRawContextSPARC
 ;
+enum
+MDSPARCRegisterNumbers
+{
+MD_CONTEXT_SPARC_REG_SP
+=
+14
+}
+;
 #
 define
 MD_CONTEXT_SPARC

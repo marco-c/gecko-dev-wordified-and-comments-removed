@@ -71,6 +71,17 @@ byte_cursor
 .
 h
 "
+#
+include
+"
+common
+/
+mac
+/
+super_fat_arch
+.
+h
+"
 namespace
 google_breakpad
 {
@@ -202,8 +213,7 @@ size
 )
 ;
 const
-struct
-fat_arch
+SuperFatArch
 *
 object_files
 (
@@ -257,8 +267,7 @@ magic_
 ;
 vector
 <
-struct
-fat_arch
+SuperFatArch
 >
 object_files_
 ;

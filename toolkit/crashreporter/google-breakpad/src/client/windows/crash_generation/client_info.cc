@@ -182,9 +182,15 @@ kernel_time
 user_time
 )
 )
-crash_id_
+{
+start_time_
 =
 creation_time
+;
+}
+crash_id_
+=
+start_time_
 .
 dwLowDateTime
 ;
@@ -657,7 +663,7 @@ SetProcessUptime
 return
 (
 bytes_count
-!
+=
 =
 read_count
 )
