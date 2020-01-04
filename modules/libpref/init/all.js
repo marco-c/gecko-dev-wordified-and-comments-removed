@@ -40879,6 +40879,12 @@ threatListUpdates
 :
 fetch
 ?
+req
+=
+%
+REQUEST_BASE64
+%
+&
 ct
 =
 application
