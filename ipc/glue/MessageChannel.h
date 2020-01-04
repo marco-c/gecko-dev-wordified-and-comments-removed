@@ -1763,6 +1763,9 @@ mDispatchingAsyncMessagePriority
 int32_t
 mCurrentTransaction
 ;
+int
+mPendingSendPriorities
+;
 class
 AutoEnterTransaction
 {
