@@ -546,6 +546,7 @@ function
 {
 if
 (
+(
 this
 .
 props
@@ -557,6 +558,20 @@ roomState
 ROOM_STATES
 .
 JOINING
+|
+|
+this
+.
+props
+.
+roomState
+=
+=
+=
+ROOM_STATES
+.
+SESSION_CONNECTED
+)
 &
 &
 this
@@ -1211,7 +1226,7 @@ mozL10n
 get
 (
 "
-rooms_only_occupant_label
+rooms_only_occupant_label2
 "
 )
 )
