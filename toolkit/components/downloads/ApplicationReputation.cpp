@@ -3781,6 +3781,9 @@ shouldBlock
 verdict
 !
 =
+nsIApplicationReputationService
+:
+:
 VERDICT_SAFE
 )
 ;
