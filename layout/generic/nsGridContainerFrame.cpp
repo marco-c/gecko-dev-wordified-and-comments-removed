@@ -16300,6 +16300,17 @@ i
 mBase
 ;
 }
+bSize
++
+=
+gridReflowState
+.
+mRows
+.
+SumOfGridGaps
+(
+)
+;
 }
 else
 {
