@@ -282,12 +282,13 @@ ServoComputedValues
 >
 computedValues
 =
-dont_AddRef
-(
 Servo_GetComputedValues
 (
 aContent
 )
+.
+Consume
+(
 )
 ;
 MOZ_ASSERT
