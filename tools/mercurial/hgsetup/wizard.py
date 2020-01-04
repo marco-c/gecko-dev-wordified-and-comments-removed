@@ -3436,6 +3436,12 @@ add_mozilla_host_fingerprints
 (
 )
         
+c
+.
+update_mozilla_host_fingerprints
+(
+)
+        
 seen_vct
 =
 set
