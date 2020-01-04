@@ -3169,12 +3169,6 @@ depfile
 =
 None
         
-includes
-=
-options
-.
-I
-        
 if
 options
 .
@@ -3314,21 +3308,14 @@ options
 depend
 )
         
-includes
-.
-extend
-(
-args
-)
-        
 if
-includes
+args
 :
             
 for
 f
 in
-includes
+args
 :
                 
 with
@@ -3627,42 +3614,6 @@ p
 =
 OptionParser
 (
-)
-        
-p
-.
-add_option
-(
-'
--
-I
-'
-action
-=
-'
-append
-'
-type
-=
-"
-string
-"
-default
-=
-[
-]
-                     
-metavar
-=
-"
-FILENAME
-"
-help
-=
-'
-Include
-file
-'
 )
         
 p
