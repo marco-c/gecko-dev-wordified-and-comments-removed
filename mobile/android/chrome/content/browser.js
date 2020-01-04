@@ -41727,9 +41727,8 @@ browser
 docShell
 .
 defaultLoadFlags
-&
+|
 =
-~
 Ci
 .
 nsIRequest
@@ -41746,8 +41745,9 @@ browser
 docShell
 .
 defaultLoadFlags
-|
+&
 =
+~
 Ci
 .
 nsIRequest
