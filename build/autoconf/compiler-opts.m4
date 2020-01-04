@@ -123,10 +123,6 @@ DEVELOPER_OPTIONS
 =
 1
 )
-AC_SUBST
-(
-DEVELOPER_OPTIONS
-)
 dnl
 Default
 to
