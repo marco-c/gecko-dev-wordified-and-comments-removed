@@ -3334,6 +3334,12 @@ FEED_SUBSCRIPTION
 feed_subscription
 "
 )
+READER_VIEW
+(
+"
+reader_view
+"
+)
 ;
 private
 final
