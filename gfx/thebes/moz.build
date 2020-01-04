@@ -492,11 +492,6 @@ gfxPlatformMac
 h
 '
 '
-gfxQuartzImageSurface
-.
-h
-'
-'
 gfxQuartzNativeDrawing
 .
 h
@@ -523,11 +518,6 @@ cpp
 '
 '
 gfxPlatformMac
-.
-cpp
-'
-'
-gfxQuartzImageSurface
 .
 cpp
 '
