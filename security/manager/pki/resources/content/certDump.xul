@@ -253,8 +253,6 @@ true
 style
 =
 "
-min
--
 height
 :
 8em
@@ -342,8 +340,6 @@ prettyDumpTree
 style
 =
 "
-min
--
 height
 :
 15em
@@ -472,8 +468,6 @@ true
 style
 =
 "
-min
--
 height
 :
 11em
