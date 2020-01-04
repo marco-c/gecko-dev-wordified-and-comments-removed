@@ -289,6 +289,9 @@ mLastDts
 PtsCorrectionContext
 mPtsContext
 ;
+int64_t
+mLastInputDts
+;
 class
 DurationMap
 {
