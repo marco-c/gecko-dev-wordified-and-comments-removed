@@ -1029,11 +1029,11 @@ result
 nsString
 mAnimationName
 ;
-float
-mElapsedTime
-;
 nsString
 mPseudoElement
+;
+float
+mElapsedTime
 ;
 void
 AssignAnimationEventData
