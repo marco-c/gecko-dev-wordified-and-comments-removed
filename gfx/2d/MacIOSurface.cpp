@@ -2264,6 +2264,8 @@ MacIOSurface
 :
 Lock
 (
+bool
+aReadOnly
 )
 {
 MacIOSurfaceLib
@@ -2272,7 +2274,11 @@ MacIOSurfaceLib
 IOSurfaceLock
 (
 mIOSurfacePtr
+aReadOnly
+?
 READ_ONLY
+:
+0
 nullptr
 )
 ;
@@ -2283,6 +2289,8 @@ MacIOSurface
 :
 Unlock
 (
+bool
+aReadOnly
 )
 {
 MacIOSurfaceLib
@@ -2291,7 +2299,11 @@ MacIOSurfaceLib
 IOSurfaceUnlock
 (
 mIOSurfacePtr
+aReadOnly
+?
 READ_ONLY
+:
+0
 nullptr
 )
 ;
