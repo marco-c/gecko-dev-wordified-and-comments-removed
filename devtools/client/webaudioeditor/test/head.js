@@ -2646,7 +2646,7 @@ length
 ;
 }
 function
-forceCC
+forceNodeCollection
 (
 )
 {
@@ -2664,6 +2664,14 @@ function
 (
 )
 {
+content
+.
+wrappedJSObject
+.
+keepAlive
+=
+null
+;
 Cu
 .
 forceGC
