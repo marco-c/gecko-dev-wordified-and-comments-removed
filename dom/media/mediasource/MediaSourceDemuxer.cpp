@@ -2516,6 +2516,10 @@ SkipToNextRandomAccessPoint
 (
 mType
 aTimeThreadshold
+MediaSourceDemuxer
+:
+:
+EOS_FUZZ
 found
 )
 ;
