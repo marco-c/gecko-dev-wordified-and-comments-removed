@@ -30,6 +30,8 @@ http
 :
 /
 /
+bug1105244
+.
 example
 .
 com
@@ -254,7 +256,7 @@ yield
 promiseAutocompleteResultPopup
 (
 "
-exam
+bug1105244
 "
 )
 ;
@@ -276,7 +278,7 @@ inputField
 .
 value
 "
-xam
+ug1105244
 "
 )
 ;
@@ -302,7 +304,7 @@ inputField
 .
 value
 "
-am
+g1105244
 "
 )
 ;
