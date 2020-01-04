@@ -233,11 +233,13 @@ loadBrowser
 browser
 )
 ;
-content
+BrowserTestUtils
 .
-location
-=
+loadURI
+(
+browser
 TEST_VIOLATION
+)
 ;
 yield
 loaded
