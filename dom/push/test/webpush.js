@@ -1211,6 +1211,7 @@ webpush
 (
 subscription
 data
+ttl
 )
 {
 data
@@ -1387,6 +1388,11 @@ Encoding
 '
 aesgcm128
 '
+'
+TTL
+'
+:
+ttl
 }
 body
 :
@@ -1435,11 +1441,16 @@ response
 {
 if
 (
+Math
+.
+floor
+(
 response
 .
 status
 /
 100
+)
 !
 =
 =
