@@ -36780,7 +36780,6 @@ DebuggerFrame
 :
 class_
 proto
-TenuredObject
 )
 ;
 if
