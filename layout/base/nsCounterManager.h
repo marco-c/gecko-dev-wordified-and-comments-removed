@@ -808,7 +808,7 @@ int32_t
 aIndex
 const
 nsStyleCounterData
-&
+*
 aCounterData
 nsCounterNode
 :
