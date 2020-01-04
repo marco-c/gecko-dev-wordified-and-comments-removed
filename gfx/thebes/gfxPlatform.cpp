@@ -8968,10 +8968,12 @@ InitLayersAccelerationPrefs
 {
 if
 (
-!
 sLayersAccelerationPrefsInitialized
 )
 {
+return
+;
+}
 MOZ_ASSERT
 (
 NS_IsMainThread
@@ -9316,7 +9318,6 @@ sLayersAccelerationPrefsInitialized
 =
 true
 ;
-}
 }
 bool
 gfxPlatform
