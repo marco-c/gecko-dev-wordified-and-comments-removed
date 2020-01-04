@@ -778,9 +778,12 @@ tasks
 /
 tests
 /
-b2g_emulator_xpcshell
+b2g_emulator_xpcshell_chunked
 .
 yml
+chunks
+:
+1
 tasks
 /
 builds
