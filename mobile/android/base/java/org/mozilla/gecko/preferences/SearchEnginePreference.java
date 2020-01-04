@@ -649,6 +649,11 @@ getContext
 )
 mIdentifier
 iconURI
+Favicons
+.
+LoadType
+.
+PRIVILEGED
 desiredWidth
 0
 new
