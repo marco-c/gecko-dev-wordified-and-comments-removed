@@ -2025,6 +2025,11 @@ aCue
 ;
 }
 }
+void
+NotifyCueDisplayStatesChanged
+(
+)
+;
 bool
 GetHasUserInteraction
 (
