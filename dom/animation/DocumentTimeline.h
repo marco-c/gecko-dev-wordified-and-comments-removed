@@ -62,12 +62,15 @@ nsARefreshObserver
 {
 public
 :
-explicit
 DocumentTimeline
 (
 nsIDocument
 *
 aDocument
+const
+TimeDuration
+&
+aOriginTime
 )
 :
 AnimationTimeline
@@ -86,6 +89,10 @@ aDocument
 mIsObservingRefreshDriver
 (
 false
+)
+mOriginTime
+(
+aOriginTime
 )
 {
 }
@@ -281,6 +288,9 @@ mLastRefreshDriverTime
 ;
 bool
 mIsObservingRefreshDriver
+;
+TimeDuration
+mOriginTime
 ;
 }
 ;
