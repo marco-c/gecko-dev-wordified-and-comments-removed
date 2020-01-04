@@ -103,7 +103,10 @@ from
 tests
 import
 get_jitflags
+get_cpu_count
 get_environment_overlay
+\
+                  
 change_env
 def
 which
@@ -200,33 +203,6 @@ main
 argv
 )
 :
-    
-max_jobs_default
-=
-1
-    
-if
-jittests
-.
-HAVE_MULTIPROCESSING
-:
-        
-try
-:
-            
-max_jobs_default
-=
-jittests
-.
-cpu_count
-(
-)
-        
-except
-NotImplementedError
-:
-            
-pass
     
 from
 optparse
@@ -1309,7 +1285,13 @@ int
                   
 default
 =
-max_jobs_default
+max
+(
+1
+get_cpu_count
+(
+)
+)
                   
 help
 =
