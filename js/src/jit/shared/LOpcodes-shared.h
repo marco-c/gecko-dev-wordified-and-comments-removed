@@ -553,6 +553,11 @@ TestIAndBranch
 \
 _
 (
+TestI64AndBranch
+)
+\
+_
+(
 TestDAndBranch
 )
 \

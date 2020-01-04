@@ -525,6 +525,14 @@ lir
 )
 ;
 void
+visitTestI64AndBranch
+(
+LTestI64AndBranch
+*
+lir
+)
+;
+void
 visitWasmTruncateToInt32
 (
 LWasmTruncateToInt32
