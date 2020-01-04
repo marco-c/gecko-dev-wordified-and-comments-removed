@@ -3258,6 +3258,17 @@ fr
 "
 )
 }
+{
+"
+maxplaybackrate
+"
+sizeof
+(
+"
+maxplaybackrate
+"
+)
+}
 }
 ;
 const

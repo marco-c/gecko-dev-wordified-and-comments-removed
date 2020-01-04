@@ -54,6 +54,9 @@ mChannels
 int
 mRate
 ;
+int
+mMaxPlaybackRate
+;
 explicit
 AudioCodecConfig
 (
@@ -97,6 +100,10 @@ channels
 mRate
 (
 rate
+)
+mMaxPlaybackRate
+(
+0
 )
 {
 }
