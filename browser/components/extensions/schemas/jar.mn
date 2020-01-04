@@ -63,6 +63,15 @@ browser
 /
 schemas
 /
+tabs
+.
+json
+content
+/
+browser
+/
+schemas
+/
 windows
 .
 json
