@@ -384,8 +384,8 @@ collect_args
 push
 rbx
 mov
-rcx
-r10
+ecx
+r10d
 ;
 num_cols
 test
@@ -401,8 +401,8 @@ mov
 rdi
 r11
 mov
-rcx
-r12
+ecx
+r12d
 mov
 rsi
 JSAMPARRAY

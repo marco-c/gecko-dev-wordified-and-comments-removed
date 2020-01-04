@@ -731,6 +731,8 @@ DCTSIZE
 int
 dcval
 =
+LEFT_SHIFT
+(
 DEQUANTIZE
 (
 inptr
@@ -746,9 +748,8 @@ DCTSIZE
 0
 ]
 )
-<
-<
 PASS1_BITS
+)
 ;
 wsptr
 [
@@ -808,10 +809,10 @@ DCTSIZE
 )
 ;
 tmp0
-<
-<
 =
+LEFT_SHIFT
 (
+tmp0
 CONST_BITS
 +
 1
@@ -1249,6 +1250,7 @@ continue
 endif
 tmp0
 =
+LEFT_SHIFT
 (
 (
 INT32
@@ -1257,10 +1259,6 @@ wsptr
 [
 0
 ]
-)
-<
-<
-(
 CONST_BITS
 +
 1
@@ -1694,6 +1692,8 @@ DCTSIZE
 int
 dcval
 =
+LEFT_SHIFT
+(
 DEQUANTIZE
 (
 inptr
@@ -1709,9 +1709,8 @@ DCTSIZE
 0
 ]
 )
-<
-<
 PASS1_BITS
+)
 ;
 wsptr
 [
@@ -1754,10 +1753,9 @@ DCTSIZE
 ;
 tmp10
 =
-z1
-<
-<
+LEFT_SHIFT
 (
+z1
 CONST_BITS
 +
 2
@@ -2037,6 +2035,7 @@ continue
 endif
 tmp10
 =
+LEFT_SHIFT
 (
 (
 INT32
@@ -2045,10 +2044,6 @@ wsptr
 [
 0
 ]
-)
-<
-<
-(
 CONST_BITS
 +
 2

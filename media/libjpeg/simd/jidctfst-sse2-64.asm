@@ -137,7 +137,7 @@ sourceforge
 .
 net
 /
-projecpt
+project
 /
 showfiles
 .
@@ -2888,8 +2888,8 @@ JSAMPROW
 *
 )
 mov
-rax
-r13
+eax
+r13d
 ;
 -
 -

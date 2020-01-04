@@ -369,8 +369,8 @@ collect_args
 push
 rbx
 mov
-rcx
-r10
+ecx
+r10d
 test
 rcx
 rcx
@@ -384,8 +384,8 @@ mov
 rsi
 r12
 mov
-rcx
-r13
+ecx
+r13d
 mov
 rdi
 JSAMPARRAY

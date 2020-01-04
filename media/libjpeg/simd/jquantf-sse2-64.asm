@@ -341,8 +341,8 @@ mov
 rsi
 r10
 mov
-rax
-r11
+eax
+r11d
 mov
 rdi
 r12

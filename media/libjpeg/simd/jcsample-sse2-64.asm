@@ -344,8 +344,8 @@ rbp
 rsp
 collect_args
 mov
-rcx
-r13
+ecx
+r13d
 shl
 rcx
 3
@@ -363,8 +363,8 @@ near
 .
 return
 mov
-rdx
-r10
+edx
+r10d
 ;
 -
 -
@@ -453,8 +453,8 @@ output_cols
 -
 h2v1_downsample
 mov
-rax
-r12
+eax
+r12d
 ;
 rowctr
 test
@@ -902,8 +902,8 @@ rbp
 rsp
 collect_args
 mov
-rcx
-r13
+ecx
+r13d
 shl
 rcx
 3
@@ -921,8 +921,8 @@ near
 .
 return
 mov
-rdx
-r10
+edx
+r10d
 ;
 -
 -
@@ -1011,8 +1011,8 @@ output_cols
 -
 h2v2_downsample
 mov
-rax
-r12
+eax
+r12d
 ;
 rowctr
 test

@@ -1192,6 +1192,7 @@ block
 (
 JCOEF
 )
+LEFT_SHIFT
 (
 entropy
 -
@@ -1200,8 +1201,6 @@ last_dc_val
 [
 ci
 ]
-<
-<
 cinfo
 -
 >

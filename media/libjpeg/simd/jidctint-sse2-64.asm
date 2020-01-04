@@ -4487,8 +4487,8 @@ JSAMPROW
 *
 )
 mov
-rax
-r13
+eax
+r13d
 ;
 -
 -

@@ -493,8 +493,8 @@ rbp
 rsp
 collect_args
 mov
-rax
-r11
+eax
+r11d
 ;
 colctr
 test
@@ -1431,8 +1431,8 @@ collect_args
 push
 rbx
 mov
-rax
-r11
+eax
+r11d
 ;
 colctr
 test
@@ -3900,8 +3900,8 @@ rbp
 rsp
 collect_args
 mov
-rdx
-r11
+edx
+r11d
 add
 rdx
 byte
@@ -4308,8 +4308,8 @@ collect_args
 push
 rbx
 mov
-rdx
-r11
+edx
+r11d
 add
 rdx
 byte

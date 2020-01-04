@@ -2548,8 +2548,8 @@ JSAMPROW
 *
 )
 mov
-rax
-r13
+eax
+r13d
 ;
 -
 -
@@ -4284,8 +4284,8 @@ JSAMPROW
 *
 )
 mov
-rax
-r13
+eax
+r13d
 ;
 |
 input

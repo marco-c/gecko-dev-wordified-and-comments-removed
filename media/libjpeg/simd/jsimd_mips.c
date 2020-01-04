@@ -1856,6 +1856,10 @@ jsimd_can_h2v2_merged_upsample
 void
 )
 {
+init_simd
+(
+)
+;
 if
 (
 BITS_IN_JSAMPLE
@@ -1901,6 +1905,10 @@ jsimd_can_h2v1_merged_upsample
 void
 )
 {
+init_simd
+(
+)
+;
 if
 (
 BITS_IN_JSAMPLE

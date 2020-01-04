@@ -435,6 +435,9 @@ break
 }
 break
 ;
+#
+ifdef
+IDCT_SCALING_SUPPORTED
 case
 9
 :
@@ -558,6 +561,8 @@ JDCT_ISLOW
 ;
 break
 ;
+#
+endif
 default
 :
 ERREXIT1
