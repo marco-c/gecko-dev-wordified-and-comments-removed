@@ -20093,8 +20093,6 @@ JS
 :
 HandleString
 input
-bool
-multiline
 )
 ;
 extern

@@ -29053,8 +29053,6 @@ HandleObject
 obj
 HandleString
 input
-bool
-multiline
 )
 {
 AssertHeapIsIdle
