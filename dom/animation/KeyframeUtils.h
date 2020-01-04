@@ -81,6 +81,9 @@ GetKeyframesFromObject
 JSContext
 *
 aCx
+nsIDocument
+*
+aDocument
 JS
 :
 :

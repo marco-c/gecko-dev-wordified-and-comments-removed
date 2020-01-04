@@ -2067,6 +2067,7 @@ KeyframeUtils
 GetKeyframesFromObject
 (
 aContext
+mDocument
 aKeyframes
 aRv
 )
