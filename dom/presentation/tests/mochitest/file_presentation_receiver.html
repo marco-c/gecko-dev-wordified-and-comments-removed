@@ -315,7 +315,7 @@ session
 .
 state
 "
-disconnected
+closed
 "
 "
 Session
@@ -325,7 +325,7 @@ receiver
 side
 should
 be
-disconnected
+closed
 by
 default
 .
@@ -358,7 +358,7 @@ session
 aError
 )
 ;
-teardown
+finish
 (
 )
 ;
@@ -539,7 +539,7 @@ incomingMessage
 ;
 }
 function
-testCloseSession
+testTerminateSession
 (
 )
 {
@@ -592,7 +592,7 @@ aResolve
 ;
 session
 .
-close
+terminate
 (
 )
 ;
@@ -616,7 +616,7 @@ testIncomingMessage
 .
 then
 (
-testCloseSession
+testTerminateSession
 )
 .
 then
