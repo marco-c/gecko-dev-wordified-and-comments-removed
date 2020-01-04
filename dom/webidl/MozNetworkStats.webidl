@@ -137,8 +137,8 @@ thrown
 *
 /
 DOMString
-appManifestURL
 ?
+appManifestURL
 =
 null
 ;
