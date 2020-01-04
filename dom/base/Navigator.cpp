@@ -4873,6 +4873,11 @@ nsILoadInfo
 :
 :
 SEC_REQUIRE_CORS_DATA_INHERITS
+|
+nsILoadInfo
+:
+:
+SEC_REQUIRE_CORS_WITH_CREDENTIALS
 nsIContentPolicy
 :
 :
@@ -5689,13 +5694,6 @@ internalChannel
 SetCorsPreflightParameters
 (
 unsafeHeaders
-true
-doc
--
->
-NodePrincipal
-(
-)
 )
 ;
 if
