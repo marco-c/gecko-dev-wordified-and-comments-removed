@@ -2820,6 +2820,11 @@ add
 info
 )
 ;
+if
+(
+0
+)
+{
 const
 Class
 *
@@ -2850,6 +2855,7 @@ className
 info
 )
 ;
+}
 break
 ;
 }
@@ -3016,6 +3022,11 @@ add
 info
 )
 ;
+if
+(
+0
+)
+{
 const
 BaseShape
 *
@@ -3058,6 +3069,7 @@ className
 info
 )
 ;
+}
 break
 ;
 }

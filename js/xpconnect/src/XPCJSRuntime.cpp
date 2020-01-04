@@ -9886,6 +9886,10 @@ const
 nsACString
 &
 path
+const
+nsACString
+&
+shapesPath
 nsIHandleReportCallback
 *
 cb
@@ -10356,7 +10360,7 @@ shapesGCHeapTree
 {
 REPORT_GC_BYTES
 (
-path
+shapesPath
 +
 NS_LITERAL_CSTRING
 (
@@ -10395,7 +10399,7 @@ shapesGCHeapDict
 {
 REPORT_GC_BYTES
 (
-path
+shapesPath
 +
 NS_LITERAL_CSTRING
 (
@@ -10433,7 +10437,7 @@ shapesGCHeapBase
 {
 REPORT_GC_BYTES
 (
-path
+shapesPath
 +
 NS_LITERAL_CSTRING
 (
@@ -10476,7 +10480,7 @@ shapesMallocHeapTreeTables
 {
 REPORT_BYTES
 (
-path
+shapesPath
 +
 NS_LITERAL_CSTRING
 (
@@ -10521,7 +10525,7 @@ shapesMallocHeapDictTables
 {
 REPORT_BYTES
 (
-path
+shapesPath
 +
 NS_LITERAL_CSTRING
 (
@@ -10565,7 +10569,7 @@ shapesMallocHeapTreeKids
 {
 REPORT_BYTES
 (
-path
+shapesPath
 +
 NS_LITERAL_CSTRING
 (
@@ -10837,6 +10841,22 @@ classes
 "
 )
 ;
+nsCString
+shapesPath
+=
+cJSPathPrefix
+;
+shapesPath
++
+=
+NS_LITERAL_CSTRING
+(
+"
+classes
+/
+"
+)
+;
 rv
 =
 ReportClassStats
@@ -10845,6 +10865,7 @@ cStats
 .
 classInfo
 nonNotablePath
+shapesPath
 cb
 closure
 gcTotal
@@ -10929,6 +10950,7 @@ ReportClassStats
 (
 classInfo
 classPath
+shapesPath
 cb
 closure
 gcTotal
