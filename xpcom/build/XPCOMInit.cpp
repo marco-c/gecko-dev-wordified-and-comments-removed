@@ -3788,12 +3788,13 @@ FreeServices
 )
 ;
 }
+NS_IF_RELEASE
+(
 nsDirectoryService
 :
 :
 gService
-=
-nullptr
+)
 ;
 free
 (
