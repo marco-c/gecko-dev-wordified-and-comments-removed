@@ -429,7 +429,7 @@ OwnsErrorReporting
 )
 {
 return
-mOwnErrorReporting
+true
 ;
 }
 void
@@ -558,9 +558,6 @@ mAutoNullableCompartment
 JSContext
 *
 mCx
-;
-bool
-mOwnErrorReporting
 ;
 bool
 mOldAutoJSAPIOwnsErrorReporting
