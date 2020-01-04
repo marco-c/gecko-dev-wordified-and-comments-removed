@@ -190,6 +190,14 @@ undef
 LOG
 #
 endif
+#
+ifdef
+GetCurrentTime
+#
+undef
+GetCurrentTime
+#
+endif
 using
 namespace
 mozilla

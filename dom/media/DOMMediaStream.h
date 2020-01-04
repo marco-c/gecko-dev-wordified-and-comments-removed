@@ -64,14 +64,6 @@ h
 "
 #
 ifdef
-GetCurrentTime
-#
-undef
-GetCurrentTime
-#
-endif
-#
-ifdef
 CurrentTime
 #
 undef
