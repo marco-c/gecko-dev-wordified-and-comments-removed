@@ -56017,6 +56017,11 @@ bool
 aAsError
 )
 {
+if
+(
+mContentViewer
+)
+{
 nsCOMPtr
 <
 nsIDocument
@@ -56050,6 +56055,7 @@ aWarning
 aAsError
 )
 ;
+}
 }
 return
 NS_OK
