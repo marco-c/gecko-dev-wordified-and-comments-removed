@@ -4449,6 +4449,18 @@ if
 dataFound
 )
 {
+if
+(
+strcmp
+(
+flavorStr
+kCustomTypesMime
+)
+!
+=
+0
+)
+{
 nsLinebreakHelpers
 :
 :
@@ -4468,6 +4480,7 @@ mTargetDragDataLen
 )
 )
 ;
+}
 nsCOMPtr
 <
 nsISupports

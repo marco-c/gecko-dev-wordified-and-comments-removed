@@ -44,6 +44,12 @@ NSString
 const
 kCorePboardType_urln
 ;
+extern
+NSString
+*
+const
+kCustomTypesPboardType
+;
 class
 nsDragService
 :
