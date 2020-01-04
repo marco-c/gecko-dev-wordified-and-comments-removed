@@ -2440,11 +2440,6 @@ shell
 js
 '
 '
-jsref
-.
-js
-'
-'
 template
 .
 js

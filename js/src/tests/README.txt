@@ -191,9 +191,6 @@ js
 shell
 .
 js
-jsref
-.
-js
 template
 .
 js
