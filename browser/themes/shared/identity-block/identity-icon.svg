@@ -149,6 +149,13 @@ rule
 :
 evenodd
 ;
+fill
+:
+-
+moz
+-
+fieldtext
+;
 }
 <
 /
