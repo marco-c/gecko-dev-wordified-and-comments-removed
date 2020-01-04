@@ -824,31 +824,14 @@ self
 import
 android
         
-sdk_path
-=
-os
-.
-path
-.
-join
-(
-self
-.
-sdk_path
-'
-platforms
-'
-android
-.
-ANDROID_PLATFORM
-)
-        
 android
 .
 suggest_mozconfig
 (
 sdk_path
 =
+self
+.
 sdk_path
                                   
 ndk_path
