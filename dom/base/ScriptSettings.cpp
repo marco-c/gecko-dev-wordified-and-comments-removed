@@ -1106,7 +1106,7 @@ Context
 ;
 }
 }
-js
+JS
 :
 :
 RootingContext

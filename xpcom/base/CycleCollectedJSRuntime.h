@@ -1310,7 +1310,7 @@ return
 mJSContext
 ;
 }
-js
+JS
 :
 :
 RootingContext
@@ -1326,10 +1326,10 @@ mJSContext
 )
 ;
 return
-js
+JS
 :
 :
-ContextFriendFields
+RootingContext
 :
 :
 get

@@ -952,7 +952,7 @@ return
 nullptr
 ;
 }
-js
+JS
 :
 :
 RootingContext

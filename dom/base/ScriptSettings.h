@@ -160,7 +160,7 @@ GetJSContext
 )
 ;
 }
-js
+JS
 :
 :
 RootingContext
