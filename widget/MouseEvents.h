@@ -331,6 +331,9 @@ button
 enum
 buttonsFlag
 {
+eNoButtonFlag
+=
+0x00
 eLeftButtonFlag
 =
 0x01
