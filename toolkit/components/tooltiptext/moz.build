@@ -93,13 +93,12 @@ MPL
 0
 /
 .
-#
 BROWSER_CHROME_MANIFESTS
 +
 =
 [
 '
-test
+tests
 /
 browser
 .
