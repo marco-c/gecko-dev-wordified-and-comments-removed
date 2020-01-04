@@ -1078,6 +1078,13 @@ projectMenu_importHostedApp_accesskey
 >
 <
 menuitem
+id
+=
+"
+menuitem
+-
+show_projectPanel
+"
 command
 =
 "
