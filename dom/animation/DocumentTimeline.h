@@ -303,6 +303,11 @@ GetRefreshDriver
 )
 const
 ;
+void
+UnregisterFromRefreshDriver
+(
+)
+;
 nsCOMPtr
 <
 nsIDocument
