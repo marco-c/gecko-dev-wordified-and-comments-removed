@@ -271,6 +271,7 @@ marionette
 .
 until
 (
+            
 lambda
 _
 :
@@ -282,6 +283,18 @@ selected_panel
 !
 =
 current_panel
+            
+message
+=
+'
+Next
+panel
+has
+not
+been
+selected
+.
+'
 )
 Windows
 .

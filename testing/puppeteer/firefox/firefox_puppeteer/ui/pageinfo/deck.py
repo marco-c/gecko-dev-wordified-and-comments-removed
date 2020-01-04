@@ -707,6 +707,7 @@ marionette
 .
 until
 (
+            
 lambda
 _
 :
@@ -715,6 +716,25 @@ self
 selected_panel
 =
 =
+panel
+            
+message
+=
+'
+Panel
+with
+ID
+"
+%
+s
+"
+could
+not
+be
+selected
+.
+'
+%
 panel
 )
         
