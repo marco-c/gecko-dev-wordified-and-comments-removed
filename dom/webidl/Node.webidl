@@ -292,6 +292,17 @@ ownerDocument
 ;
 [
 Pure
+Pref
+=
+"
+dom
+.
+node
+.
+rootNode
+.
+enabled
+"
 ]
 readonly
 attribute
