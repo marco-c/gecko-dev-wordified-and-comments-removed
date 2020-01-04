@@ -112,6 +112,17 @@ background
 none
 ;
 }
+html
+.
+dragging
+{
+overflow
+-
+x
+:
+hidden
+;
+}
 body
 .
 dragging
