@@ -45,12 +45,14 @@ frame
 .
 script
 .
-getOffsetLine
+getOffsetLocation
 (
 frame
 .
 offset
 )
+.
+lineNumber
 knownLine
 )
 ;

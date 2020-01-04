@@ -14972,12 +14972,14 @@ this
 .
 script
 .
-getOffsetLine
+getOffsetLocation
 (
 this
 .
 offset
 )
+.
+lineNumber
 ;
 }
 else

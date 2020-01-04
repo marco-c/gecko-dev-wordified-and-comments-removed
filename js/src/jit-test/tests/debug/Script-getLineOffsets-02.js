@@ -128,13 +128,15 @@ assertEq
 (
 s
 .
-getOffsetLine
+getOffsetLocation
 (
 offs
 [
 i
 ]
 )
+.
+lineNumber
 g
 .
 line0

@@ -89,12 +89,14 @@ assertEq
 (
 introScript
 .
-getOffsetLine
+getOffsetLocation
 (
 source
 .
 introductionOffset
 )
+.
+lineNumber
 1234
 )
 ;
