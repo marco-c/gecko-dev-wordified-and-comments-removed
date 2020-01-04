@@ -1,9 +1,9 @@
 #
 ifndef
-IMETextTxn_h__
+CompositionTransaction_h
 #
 define
-IMETextTxn_h__
+CompositionTransaction_h
 #
 include
 "
@@ -60,8 +60,10 @@ dom
 class
 Text
 ;
+}
 class
-IMETextTxn
+CompositionTransaction
+final
 :
 public
 EditTxn
@@ -72,8 +74,11 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_IMETEXTTXN_IID
 )
-IMETextTxn
+CompositionTransaction
 (
+dom
+:
+:
 Text
 &
 aTextNode
@@ -95,7 +100,7 @@ aEditor
 ;
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
-IMETextTxn
+CompositionTransaction
 EditTxn
 )
 NS_DECL_ISUPPORTS_INHERITED
@@ -124,6 +129,9 @@ SetIMESelection
 nsEditor
 &
 aEditor
+dom
+:
+:
 Text
 *
 aTextNode
@@ -140,7 +148,7 @@ aRanges
 private
 :
 ~
-IMETextTxn
+CompositionTransaction
 (
 )
 ;
@@ -151,6 +159,9 @@ SetSelectionForRanges
 ;
 RefPtr
 <
+dom
+:
+:
 Text
 >
 mTextNode
@@ -181,10 +192,9 @@ mFixed
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
 (
-IMETextTxn
+CompositionTransaction
 NS_IMETEXTTXN_IID
 )
-}
 }
 #
 endif

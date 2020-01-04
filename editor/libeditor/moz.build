@@ -153,6 +153,11 @@ ChangeStyleTransaction
 cpp
 '
 '
+CompositionTransaction
+.
+cpp
+'
+'
 CreateElementTransaction
 .
 cpp
@@ -189,11 +194,6 @@ cpp
 '
 '
 HTMLEditUtils
-.
-cpp
-'
-'
-IMETextTxn
 .
 cpp
 '

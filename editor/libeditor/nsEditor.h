@@ -242,6 +242,9 @@ class
 ChangeAttributeTransaction
 ;
 class
+CompositionTransaction
+;
+class
 CreateElementTransaction
 ;
 class
@@ -270,9 +273,6 @@ Element
 ;
 class
 EventTarget
-;
-class
-IMETextTxn
 ;
 class
 InsertTextTxn
@@ -1030,12 +1030,9 @@ already_AddRefed
 mozilla
 :
 :
-dom
-:
-:
-IMETextTxn
+CompositionTransaction
 >
-CreateTxnForIMEText
+CreateTxnForComposition
 (
 const
 nsAString
