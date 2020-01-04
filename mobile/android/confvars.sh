@@ -290,14 +290,6 @@ MOZ_ENABLE_SZIP
 fi
 #
 Enable
-UI
-for
-healthreporter
-MOZ_SERVICES_HEALTHREPORT
-=
-1
-#
-Enable
 second
 screen
 using
