@@ -5071,9 +5071,6 @@ this
 void
 RecalcData
 (
-nsPresContext
-*
-aContext
 )
 ;
 nsChangeHint
