@@ -1762,9 +1762,6 @@ firstChild
 )
 ;
 }
-#
-ifdef
-MOZ_SERVICES_SYNC
 let
 tabsFromOtherComputers
 =
@@ -1845,8 +1842,6 @@ true
 )
 ;
 }
-#
-endif
 let
 utils
 =

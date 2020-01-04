@@ -10751,9 +10751,6 @@ refreshInSeconds
 ;
 #
 endif
-#
-ifdef
-MOZ_SERVICES_SYNC
 pref
 (
 "
@@ -11990,8 +11987,6 @@ required
 true
 )
 ;
-#
-endif
 #
 ifdef
 MOZ_DEV_EDITION

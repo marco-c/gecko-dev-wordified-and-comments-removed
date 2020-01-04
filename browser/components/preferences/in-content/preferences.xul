@@ -1441,9 +1441,6 @@ label
 /
 richlistitem
 >
-#
-ifdef
-MOZ_SERVICES_SYNC
 <
 richlistitem
 id
@@ -1524,8 +1521,6 @@ label
 /
 richlistitem
 >
-#
-endif
 <
 richlistitem
 id
@@ -1671,15 +1666,10 @@ security
 .
 xul
 #
-ifdef
-MOZ_SERVICES_SYNC
-#
 include
 sync
 .
 xul
-#
-endif
 <
 /
 prefpane

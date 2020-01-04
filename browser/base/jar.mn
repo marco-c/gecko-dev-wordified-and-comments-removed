@@ -2131,9 +2131,6 @@ security
 .
 js
 )
-#
-ifdef
-MOZ_SERVICES_SYNC
 content
 /
 browser
@@ -2410,8 +2407,6 @@ customize
 .
 css
 )
-#
-endif
 content
 /
 browser

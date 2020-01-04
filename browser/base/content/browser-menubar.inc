@@ -2754,9 +2754,6 @@ sanitizeSeparator
 "
 /
 >
-#
-ifdef
-MOZ_SERVICES_SYNC
 <
 menuitem
 id
@@ -2797,8 +2794,6 @@ true
 "
 /
 >
-#
-endif
 <
 menuitem
 id
@@ -3685,9 +3680,6 @@ id
 menu_ToolsPopup
 "
 #
-ifdef
-MOZ_SERVICES_SYNC
-#
 We
 have
 to
@@ -3750,8 +3742,6 @@ updateUI
 )
 ;
 "
-#
-endif
 >
 <
 menuitem
@@ -3903,9 +3893,6 @@ togglePanel
 "
 /
 >
-#
-ifdef
-MOZ_SERVICES_SYNC
 <
 !
 -
@@ -4082,8 +4069,6 @@ menubar
 "
 /
 >
-#
-endif
 <
 menuseparator
 id

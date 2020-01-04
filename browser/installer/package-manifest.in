@@ -3178,9 +3178,6 @@ SelfSupportService
 js
 #
 endif
-#
-ifdef
-MOZ_SERVICES_SYNC
 RESPATH
 /
 components
@@ -3195,8 +3192,6 @@ components
 Weave
 .
 js
-#
-endif
 RESPATH
 /
 components
@@ -4266,13 +4261,6 @@ profile
 prefs
 .
 js
-RESPATH
-/
-browser
-/
-defaults
-/
-permissions
 ;
 Warning
 :
@@ -4347,9 +4335,6 @@ notifications
 js
 #
 endif
-#
-ifdef
-MOZ_SERVICES_SYNC
 RESPATH
 /
 defaults
@@ -4361,8 +4346,6 @@ services
 sync
 .
 js
-#
-endif
 ;
 [
 Layout

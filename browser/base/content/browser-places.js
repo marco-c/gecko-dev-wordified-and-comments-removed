@@ -3258,9 +3258,6 @@ PHM_toggleTabsFromOtherComputers
 (
 )
 {
-#
-ifdef
-MOZ_SERVICES_SYNC
 let
 menuitem
 =
@@ -3338,8 +3335,6 @@ hidden
 false
 )
 ;
-#
-endif
 }
 _onPopupShowing
 :

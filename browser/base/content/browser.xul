@@ -10074,9 +10074,6 @@ tooltip
 "
 /
 >
-#
-ifdef
-MOZ_SERVICES_SYNC
 <
 toolbarbutton
 id
@@ -10118,8 +10115,6 @@ handleToolbarButton
 "
 /
 >
-#
-endif
 <
 toolbarbutton
 id

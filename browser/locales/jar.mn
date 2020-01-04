@@ -261,9 +261,6 @@ aboutTabCrashed
 .
 dtd
 )
-#
-ifdef
-MOZ_SERVICES_SYNC
 locale
 /
 browser
@@ -298,8 +295,6 @@ aboutSyncTabs
 .
 dtd
 )
-#
-endif
 locale
 /
 browser
@@ -1426,9 +1421,6 @@ security
 .
 dtd
 )
-#
-ifdef
-MOZ_SERVICES_SYNC
 locale
 /
 browser
@@ -1450,8 +1442,6 @@ sync
 .
 dtd
 )
-#
-endif
 locale
 /
 browser
@@ -1515,9 +1505,6 @@ translation
 .
 dtd
 )
-#
-ifdef
-MOZ_SERVICES_SYNC
 locale
 /
 browser
@@ -1637,8 +1624,6 @@ syncQuota
 .
 properties
 )
-#
-endif
 %
 resource
 search

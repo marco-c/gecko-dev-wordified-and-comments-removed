@@ -106,9 +106,6 @@ window
 icon
 .
 png
-#
-ifdef
-MOZ_SERVICES_SYNC
 skin
 /
 classic
@@ -118,8 +115,6 @@ browser
 aboutSyncTabs
 .
 css
-#
-endif
 skin
 /
 classic
@@ -2752,9 +2747,6 @@ XP
 .
 png
 )
-#
-ifdef
-MOZ_SERVICES_SYNC
 skin
 /
 classic
@@ -2777,8 +2769,6 @@ sync
 .
 png
 )
-#
-endif
 skin
 /
 classic
@@ -2819,7 +2809,6 @@ XP
 .
 png
 )
-*
 skin
 /
 classic
@@ -4158,9 +4147,6 @@ shopping
 .
 svg
 )
-#
-ifdef
-MOZ_SERVICES_SYNC
 skin
 /
 classic
@@ -4467,8 +4453,6 @@ XPVista7
 2x
 .
 png
-#
-endif
 #
 ifdef
 E10S_TESTING_ONLY

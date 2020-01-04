@@ -1,8 +1,3 @@
-%
-if
-0
-%
-endif
 #
 BrowserPreferences
 radio
@@ -238,9 +233,6 @@ rect
 192px
 )
 }
-%
-ifdef
-MOZ_SERVICES_SYNC
 radio
 [
 pane
@@ -278,8 +270,6 @@ png
 important
 ;
 }
-%
-endif
 label
 .
 small
@@ -647,9 +637,6 @@ top
 0
 ;
 }
-%
-ifdef
-MOZ_SERVICES_SYNC
 #
 syncDesc
 {
@@ -815,5 +802,3 @@ opacity
 ;
 }
 }
-%
-endif

@@ -316,9 +316,6 @@ rect
 )
 ;
 }
-%
-ifdef
-MOZ_SERVICES_SYNC
 radio
 [
 pane
@@ -354,8 +351,6 @@ png
 )
 ;
 }
-%
-endif
 label
 .
 small
@@ -820,9 +815,6 @@ top
 0
 ;
 }
-%
-ifdef
-MOZ_SERVICES_SYNC
 #
 syncDesc
 {
@@ -989,5 +981,3 @@ opacity
 ;
 }
 }
-%
-endif
