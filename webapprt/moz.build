@@ -222,11 +222,6 @@ DownloadView
 jsm
 '
 '
-RemoteDebugger
-.
-jsm
-'
-'
 Startup
 .
 jsm
