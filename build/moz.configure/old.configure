@@ -2683,15 +2683,6 @@ fpu
 -
 with
 -
-gl
--
-provider
-'
-'
--
--
-with
--
 gonk
 -
 toolchain
