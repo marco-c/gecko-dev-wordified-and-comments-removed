@@ -15945,10 +15945,9 @@ style
 removeProperty
 (
 "
--
-moz
--
 margin
+-
+inline
 -
 start
 "
@@ -16012,7 +16011,7 @@ _typeIcon
 .
 style
 .
-MozMarginStart
+marginInlineStart
 ;
 if
 (
@@ -16023,10 +16022,9 @@ px
 /
 /
 Allow
--
-moz
--
 margin
+-
+inline
 -
 start
 not
@@ -16091,7 +16089,7 @@ _typeIcon
 .
 style
 .
-MozMarginStart
+marginInlineStart
 =
 (
 typeIconStart

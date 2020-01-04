@@ -8881,7 +8881,7 @@ ind
 .
 style
 .
-MozMarginStart
+marginInlineStart
 =
 (
 -

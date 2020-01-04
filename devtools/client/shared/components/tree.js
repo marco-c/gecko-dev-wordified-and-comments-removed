@@ -2281,7 +2281,7 @@ MozAppearance
 "
 none
 "
-MozMarginStart
+marginInlineStart
 :
 "
 -

@@ -2305,7 +2305,7 @@ aTab
 .
 style
 .
-MozMarginStart
+marginInlineStart
 =
 "
 "
@@ -36188,7 +36188,7 @@ tab
 .
 style
 .
-MozMarginStart
+marginInlineStart
 =
 -
 (
@@ -36208,7 +36208,7 @@ this
 .
 style
 .
-MozPaddingStart
+paddingInlineStart
 =
 width
 +
@@ -36260,7 +36260,7 @@ tab
 .
 style
 .
-MozMarginStart
+marginInlineStart
 =
 "
 "
@@ -36270,7 +36270,7 @@ this
 .
 style
 .
-MozPaddingStart
+paddingInlineStart
 =
 "
 "
@@ -41939,7 +41939,7 @@ ind
 .
 style
 .
-MozMarginStart
+marginInlineStart
 =
 (
 -

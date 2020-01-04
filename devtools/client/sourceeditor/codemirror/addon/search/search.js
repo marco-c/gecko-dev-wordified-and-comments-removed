@@ -921,7 +921,7 @@ inp
 .
 style
 .
-MozMarginStart
+marginInlineStart
 =
 "
 1em
@@ -931,7 +931,7 @@ inp
 .
 style
 .
-MozMarginEnd
+marginInlineEnd
 =
 "
 1em

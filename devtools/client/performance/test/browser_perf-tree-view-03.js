@@ -320,7 +320,7 @@ fun
 .
 style
 .
-MozMarginStart
+marginInlineStart
 "
 0px
 "
@@ -349,7 +349,7 @@ fun
 .
 style
 .
-MozMarginStart
+marginInlineStart
 "
 16px
 "
@@ -379,7 +379,7 @@ fun
 .
 style
 .
-MozMarginStart
+marginInlineStart
 "
 32px
 "
@@ -411,7 +411,7 @@ fun
 .
 style
 .
-MozMarginStart
+marginInlineStart
 "
 48px
 "
@@ -445,7 +445,7 @@ fun
 .
 style
 .
-MozMarginStart
+marginInlineStart
 "
 48px
 "
@@ -479,7 +479,7 @@ fun
 .
 style
 .
-MozMarginStart
+marginInlineStart
 "
 32px
 "
@@ -511,7 +511,7 @@ fun
 .
 style
 .
-MozMarginStart
+marginInlineStart
 "
 48px
 "

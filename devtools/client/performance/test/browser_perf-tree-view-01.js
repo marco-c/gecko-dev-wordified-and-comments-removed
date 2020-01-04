@@ -745,7 +745,7 @@ childNodes
 .
 style
 .
-MozMarginStart
+marginInlineStart
 "
 0px
 "

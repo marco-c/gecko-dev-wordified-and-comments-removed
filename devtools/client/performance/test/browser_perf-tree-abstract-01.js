@@ -284,7 +284,7 @@ treeRoot
 .
 target
 .
-MozMarginStart
+marginInlineStart
 "
 0px
 "
@@ -638,7 +638,7 @@ fooItem
 .
 target
 .
-MozMarginStart
+marginInlineStart
 "
 10px
 "
@@ -770,7 +770,7 @@ barItem
 .
 target
 .
-MozMarginStart
+marginInlineStart
 "
 10px
 "
@@ -1215,7 +1215,7 @@ bazItem
 .
 target
 .
-MozMarginStart
+marginInlineStart
 "
 20px
 "

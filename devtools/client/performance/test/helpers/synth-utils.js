@@ -674,7 +674,7 @@ hbox
 ;
 node
 .
-MozMarginStart
+marginInlineStart
 =
 (
 this
