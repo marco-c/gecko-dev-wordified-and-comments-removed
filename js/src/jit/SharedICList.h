@@ -132,11 +132,6 @@ GetProp_StringLength
 \
 _
 (
-GetProp_TypedObject
-)
-\
-_
-(
 GetProp_CallScripted
 )
 \
