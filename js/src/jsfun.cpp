@@ -7084,7 +7084,7 @@ if
 lazy
 -
 >
-maybeScriptUnbarriered
+hasScript
 (
 )
 )
