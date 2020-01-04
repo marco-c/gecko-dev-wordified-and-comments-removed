@@ -1370,7 +1370,8 @@ proxyURI
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 SetCorsPreflightParameters
 (
 const

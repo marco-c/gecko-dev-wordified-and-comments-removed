@@ -28,11 +28,9 @@ http
 :
 /
 /
-www
+nosuchdomain
 .
-mozilla
-.
-org
+localhost
 "
 false
 )
