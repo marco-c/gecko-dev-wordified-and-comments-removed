@@ -324,6 +324,11 @@ path
 js
 '
 '
+promise_defer
+.
+js
+'
+'
 protocol
 .
 js
