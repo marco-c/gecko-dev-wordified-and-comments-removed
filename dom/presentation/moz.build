@@ -216,6 +216,11 @@ PresentationService
 h
 '
 '
+PresentationServiceBase
+.
+h
+'
+'
 PresentationSessionInfo
 .
 h
@@ -288,6 +293,11 @@ cpp
 '
 '
 PresentationService
+.
+cpp
+'
+'
+PresentationServiceBase
 .
 cpp
 '
