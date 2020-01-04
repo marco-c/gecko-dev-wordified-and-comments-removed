@@ -1688,6 +1688,7 @@ GetHostNameRaw
 (
 )
 mProviderFlags
+nullptr
 &
 strictTransportSecurityEnabled
 )
@@ -1756,6 +1757,7 @@ GetHostNameRaw
 (
 )
 mProviderFlags
+nullptr
 &
 hasPinningInformation
 )
