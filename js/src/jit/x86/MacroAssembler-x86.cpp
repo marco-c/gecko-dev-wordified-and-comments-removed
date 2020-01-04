@@ -346,6 +346,8 @@ encoding
 )
 )
 ;
+propagateOOM
+(
 dbl
 -
 >
@@ -359,6 +361,7 @@ masm
 .
 size
 (
+)
 )
 )
 )
@@ -409,6 +412,8 @@ encoding
 )
 )
 ;
+propagateOOM
+(
 dbl
 -
 >
@@ -422,6 +427,7 @@ masm
 .
 size
 (
+)
 )
 )
 )
@@ -477,6 +483,8 @@ encoding
 )
 )
 ;
+propagateOOM
+(
 flt
 -
 >
@@ -490,6 +498,7 @@ masm
 .
 size
 (
+)
 )
 )
 )
@@ -540,6 +549,8 @@ encoding
 )
 )
 ;
+propagateOOM
+(
 flt
 -
 >
@@ -553,6 +564,7 @@ masm
 .
 size
 (
+)
 )
 )
 )
@@ -641,6 +653,8 @@ encoding
 )
 )
 ;
+propagateOOM
+(
 i4
 -
 >
@@ -654,6 +668,7 @@ masm
 .
 size
 (
+)
 )
 )
 )
@@ -742,6 +757,8 @@ encoding
 )
 )
 ;
+propagateOOM
+(
 f4
 -
 >
@@ -755,6 +772,7 @@ masm
 .
 size
 (
+)
 )
 )
 )
