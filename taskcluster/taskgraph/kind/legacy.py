@@ -2169,6 +2169,7 @@ kind
 path
 config
 params
+loaded_tasks
 )
 :
         
