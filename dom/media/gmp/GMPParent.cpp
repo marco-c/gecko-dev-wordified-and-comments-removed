@@ -565,10 +565,7 @@ NS_OK
 }
 RefPtr
 <
-GMPParent
-:
-:
-InitPromise
+GenericPromise
 >
 GMPParent
 :
@@ -642,7 +639,7 @@ rv
 )
 {
 return
-InitPromise
+GenericPromise
 :
 :
 CreateAndReject
@@ -674,7 +671,7 @@ rv
 )
 {
 return
-InitPromise
+GenericPromise
 :
 :
 CreateAndReject
@@ -3816,10 +3813,7 @@ true
 }
 RefPtr
 <
-GMPParent
-:
-:
-InitPromise
+GenericPromise
 >
 GMPParent
 :
@@ -3888,7 +3882,7 @@ rv
 )
 {
 return
-InitPromise
+GenericPromise
 :
 :
 CreateAndReject
@@ -3960,7 +3954,7 @@ rv
 )
 {
 return
-InitPromise
+GenericPromise
 :
 :
 CreateAndReject
@@ -3994,7 +3988,7 @@ manifestFile
 #
 else
 return
-InitPromise
+GenericPromise
 :
 :
 CreateAndReject
@@ -4008,10 +4002,7 @@ endif
 }
 RefPtr
 <
-GMPParent
-:
-:
-InitPromise
+GenericPromise
 >
 GMPParent
 :
@@ -4038,7 +4029,7 @@ aFile
 )
 {
 return
-InitPromise
+GenericPromise
 :
 :
 CreateAndReject
@@ -4110,7 +4101,7 @@ apis
 )
 {
 return
-InitPromise
+GenericPromise
 :
 :
 CreateAndReject
@@ -4425,7 +4416,7 @@ get
 )
 ;
 return
-InitPromise
+GenericPromise
 :
 :
 CreateAndReject
@@ -4471,7 +4462,7 @@ supports_sse2
 )
 {
 return
-InitPromise
+GenericPromise
 :
 :
 CreateAndReject
@@ -4596,7 +4587,7 @@ IsEmpty
 )
 {
 return
-InitPromise
+GenericPromise
 :
 :
 CreateAndReject
@@ -4607,12 +4598,12 @@ __func__
 ;
 }
 return
-InitPromise
+GenericPromise
 :
 :
 CreateAndResolve
 (
-NS_OK
+true
 __func__
 )
 ;
@@ -4622,10 +4613,7 @@ ifdef
 MOZ_WIDEVINE_EME
 RefPtr
 <
-GMPParent
-:
-:
-InitPromise
+GenericPromise
 >
 GMPParent
 :
@@ -4654,7 +4642,7 @@ json
 )
 {
 return
-InitPromise
+GenericPromise
 :
 :
 CreateAndReject
@@ -4689,10 +4677,7 @@ json
 }
 RefPtr
 <
-GMPParent
-:
-:
-InitPromise
+GenericPromise
 >
 GMPParent
 :
@@ -4754,7 +4739,7 @@ aJSON
 )
 {
 return
-InitPromise
+GenericPromise
 :
 :
 CreateAndReject
@@ -4806,7 +4791,7 @@ ignored
 )
 {
 return
-InitPromise
+GenericPromise
 :
 :
 CreateAndReject
@@ -4969,12 +4954,12 @@ dll
 #
 endif
 return
-InitPromise
+GenericPromise
 :
 :
 CreateAndResolve
 (
-NS_OK
+true
 __func__
 )
 ;

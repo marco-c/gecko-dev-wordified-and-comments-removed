@@ -304,19 +304,9 @@ GMPParent
 (
 )
 ;
-using
-InitPromise
-=
-MozPromise
-<
-nsresult
-nsresult
-true
->
-;
 RefPtr
 <
-InitPromise
+GenericPromise
 >
 Init
 (
@@ -560,7 +550,7 @@ EnsureProcessLoaded
 ;
 RefPtr
 <
-InitPromise
+GenericPromise
 >
 ReadGMPMetaData
 (
@@ -568,7 +558,7 @@ ReadGMPMetaData
 ;
 RefPtr
 <
-InitPromise
+GenericPromise
 >
 ReadGMPInfoFile
 (
@@ -582,7 +572,7 @@ ifdef
 MOZ_WIDEVINE_EME
 RefPtr
 <
-InitPromise
+GenericPromise
 >
 ParseChromiumManifest
 (
@@ -592,7 +582,7 @@ aJSON
 ;
 RefPtr
 <
-InitPromise
+GenericPromise
 >
 ReadChromiumManifestFile
 (
