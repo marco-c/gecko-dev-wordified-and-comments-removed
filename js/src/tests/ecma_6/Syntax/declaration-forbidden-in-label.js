@@ -143,6 +143,12 @@ x
 "
 )
 ;
+assertThrowsInstanceOf
+(
+(
+)
+=
+>
 Function
 (
 "
@@ -156,6 +162,8 @@ y
 {
 }
 "
+)
+SyntaxError
 )
 ;
 if
