@@ -195,14 +195,6 @@ mVBuf
 (
 vbuf
 )
-mMapping
-(
-nullptr
-)
-mPurged
-(
-false
-)
 {
 Lock
 (

@@ -2458,10 +2458,6 @@ mNeedsUpdate
 (
 true
 )
-mStrictFileOriginPolicy
-(
-false
-)
 mManifestHashInitialized
 (
 false
@@ -4626,10 +4622,6 @@ mPinnedEntryRetriesCount
 mPinned
 (
 false
-)
-mByteProgress
-(
-0
 )
 {
 }

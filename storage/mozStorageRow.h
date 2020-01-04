@@ -58,16 +58,6 @@ public
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_MOZISTORAGEROW
 NS_DECL_MOZISTORAGEVALUEARRAY
-Row
-(
-)
-:
-mNumCols
-(
-0
-)
-{
-}
 nsresult
 initialize
 (

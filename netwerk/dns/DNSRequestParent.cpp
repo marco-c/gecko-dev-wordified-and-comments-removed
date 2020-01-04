@@ -87,10 +87,6 @@ DNSRequestParent
 (
 )
 :
-mFlags
-(
-0
-)
 mIPCClosed
 (
 false

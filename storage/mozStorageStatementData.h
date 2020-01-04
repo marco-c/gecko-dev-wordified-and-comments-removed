@@ -167,11 +167,6 @@ owner
 StatementData
 (
 )
-:
-mStatement
-(
-nullptr
-)
 {
 }
 ~

@@ -1525,11 +1525,6 @@ aFormat
 .
 .
 )
-:
-mHandle
-(
-nullptr
-)
 {
 if
 (
