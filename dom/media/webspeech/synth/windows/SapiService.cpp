@@ -1534,7 +1534,12 @@ absmiddle
 ;
 xml
 .
-AppendFloat
+AppendInt
+(
+static_cast
+<
+int32_t
+>
 (
 aPitch
 *
@@ -1545,6 +1550,7 @@ aPitch
 10
 .
 0f
+)
 )
 ;
 xml
