@@ -739,9 +739,9 @@ null
 )
 {
 return
-GuestSession
+GeckoProfile
 .
-shouldUse
+shouldUseGuestMode
 (
 context
 )

@@ -19341,9 +19341,9 @@ GuestModeDialog
 ENTERING
 )
 {
-GuestSession
+GeckoProfile
 .
-enter
+enterGuestMode
 (
 context
 )
@@ -19351,9 +19351,9 @@ context
 }
 else
 {
-GuestSession
+GeckoProfile
 .
-leave
+leaveGuestMode
 (
 context
 )
