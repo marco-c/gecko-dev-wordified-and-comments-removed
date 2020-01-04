@@ -231,6 +231,17 @@ return
 false
 ;
 }
+Override
+public
+boolean
+requiresPreferenceEnabled
+(
+)
+{
+return
+true
+;
+}
 private
 void
 unsubscribe

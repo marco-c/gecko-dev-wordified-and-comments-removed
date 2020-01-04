@@ -32,4 +32,9 @@ requiresNetwork
 (
 )
 ;
+boolean
+requiresPreferenceEnabled
+(
+)
+;
 }

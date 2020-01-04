@@ -243,6 +243,17 @@ return
 true
 ;
 }
+Override
+public
+boolean
+requiresPreferenceEnabled
+(
+)
+{
+return
+true
+;
+}
 private
 void
 subscribe
