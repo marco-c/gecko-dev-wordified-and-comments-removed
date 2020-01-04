@@ -12121,6 +12121,7 @@ documentURL
 initialTab
 imageElement
 frameOuterWindowID
+browser
 )
 {
 if
@@ -12192,6 +12193,7 @@ args
 initialTab
 imageElement
 frameOuterWindowID
+browser
 }
 ;
 var
