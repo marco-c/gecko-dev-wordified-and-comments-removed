@@ -39,13 +39,6 @@ h
 #
 include
 "
-gfxColor
-.
-h
-"
-#
-include
-"
 gfxMatrix
 .
 h

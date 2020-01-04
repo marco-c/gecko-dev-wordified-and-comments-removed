@@ -43,13 +43,6 @@ h
 #
 include
 "
-gfxColor
-.
-h
-"
-#
-include
-"
 GraphicsFilter
 .
 h

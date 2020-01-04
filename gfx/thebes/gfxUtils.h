@@ -7,13 +7,6 @@ GFX_UTILS_H
 #
 include
 "
-gfxColor
-.
-h
-"
-#
-include
-"
 gfxTypes
 .
 h

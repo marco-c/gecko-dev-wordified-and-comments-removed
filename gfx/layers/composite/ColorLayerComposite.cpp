@@ -8,13 +8,6 @@ h
 #
 include
 "
-gfxColor
-.
-h
-"
-#
-include
-"
 mozilla
 /
 RefPtr

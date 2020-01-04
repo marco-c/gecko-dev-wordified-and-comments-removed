@@ -184,13 +184,6 @@ h
 #
 include
 "
-gfxColor
-.
-h
-"
-#
-include
-"
 harfbuzz
 /
 hb

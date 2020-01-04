@@ -21,13 +21,6 @@ h
 #
 include
 "
-gfxColor
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx

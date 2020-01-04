@@ -116,13 +116,6 @@ h
 #
 include
 "
-gfxColor
-.
-h
-"
-#
-include
-"
 gfxContext
 .
 h

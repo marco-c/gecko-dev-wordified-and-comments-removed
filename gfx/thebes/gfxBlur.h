@@ -56,9 +56,6 @@ gfxContext
 struct
 gfxRect
 ;
-struct
-gfxRGBA
-;
 namespace
 mozilla
 {

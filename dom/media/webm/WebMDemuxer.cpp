@@ -52,6 +52,15 @@ include
 "
 mozilla
 /
+Endian
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h

@@ -26,13 +26,6 @@ h
 #
 include
 "
-gfxColor
-.
-h
-"
-#
-include
-"
 nsServiceManagerUtils
 .
 h

@@ -74,13 +74,6 @@ h
 #
 include
 "
-gfxColor
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

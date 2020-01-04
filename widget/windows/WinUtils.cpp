@@ -253,13 +253,6 @@ h
 #
 include
 "
-gfxColor
-.
-h
-"
-#
-include
-"
 nsLookAndFeel
 .
 h

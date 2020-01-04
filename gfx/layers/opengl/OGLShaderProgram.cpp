@@ -75,9 +75,6 @@ GLContext
 .
 h
 "
-struct
-gfxRGBA
-;
 namespace
 mozilla
 {
