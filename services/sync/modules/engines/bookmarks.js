@@ -8649,6 +8649,12 @@ score
 =
 SCORE_INCREMENT_XLARGE
 ;
+this
+.
+_batchSawScoreIncrement
+=
+false
+;
 }
 }
 onItemVisited
