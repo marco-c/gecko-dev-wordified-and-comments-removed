@@ -772,14 +772,9 @@ GLContextProvider
 CreateForCompositorWidget
 (
 mWidget
-gfxPlatform
+gfxVars
 :
 :
-GetPlatform
-(
-)
--
->
 RequiresAcceleratedGLContextForCompositorOGL
 (
 )
