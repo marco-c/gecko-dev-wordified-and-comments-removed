@@ -982,7 +982,7 @@ IsDuringFastFling
 )
 const
 ;
-bool
+void
 SetSingleTapOccurred
 (
 )
