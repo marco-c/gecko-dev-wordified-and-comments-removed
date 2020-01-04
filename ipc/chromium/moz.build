@@ -1306,6 +1306,13 @@ in
 ost
 and
 '
+aarch64
+'
+!
+=
+ost
+and
+'
 mips
 '
 not
