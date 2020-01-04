@@ -579,11 +579,6 @@ nlmsghdr
 *
 nlh
 ;
-struct
-rtmsg
-*
-route_entry
-;
 char
 buffer
 [
@@ -603,9 +598,6 @@ struct
 ifaddrmsg
 *
 newifam
-;
-bool
-link_local
 ;
 nsAutoPtr
 <
