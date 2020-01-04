@@ -32483,11 +32483,7 @@ releaseHeldRelocatedArenas
 (
 )
 ;
-Rooted
-<
-StaticScope
-*
->
+RootedObject
 targetStaticGlobalLexicalScope
 (
 rt

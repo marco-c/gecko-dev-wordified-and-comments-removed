@@ -3449,11 +3449,7 @@ HandleFunction
 fun
 HandleObject
 parent
-Handle
-<
-StaticScope
-*
->
+HandleObject
 newStaticScope
 gc
 :
@@ -3819,11 +3815,7 @@ mode
 >
 *
 xdr
-Handle
-<
-StaticScope
-*
->
+HandleObject
 enclosingScope
 HandleScript
 enclosingScript

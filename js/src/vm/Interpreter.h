@@ -42,9 +42,6 @@ js
 class
 ScopeIter
 ;
-class
-StaticWithScope
-;
 extern
 bool
 BoxNonStrictThis
@@ -1585,11 +1582,7 @@ AbstractFramePtr
 frame
 HandleValue
 val
-Handle
-<
-StaticWithScope
-*
->
+HandleObject
 staticWith
 )
 ;

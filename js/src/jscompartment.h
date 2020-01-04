@@ -132,9 +132,6 @@ class
 ClonedBlockObject
 ;
 class
-StaticNonSyntacticScope
-;
-class
 DtoaCache
 {
 double
@@ -1847,14 +1844,7 @@ cx
 js
 :
 :
-Handle
-<
-js
-:
-:
-StaticNonSyntacticScope
-*
->
+HandleObject
 enclosingStatic
 js
 :
