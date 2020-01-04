@@ -1173,6 +1173,9 @@ contentWindow
 wantXrays
 :
 true
+isWebExtensionContentScript
+:
+true
 }
 )
 ;
