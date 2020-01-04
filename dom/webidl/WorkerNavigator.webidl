@@ -80,9 +80,5 @@ NavigatorOnLine
 ;
 WorkerNavigator
 implements
-NavigatorDataStore
-;
-WorkerNavigator
-implements
 NavigatorConcurrentHardware
 ;
