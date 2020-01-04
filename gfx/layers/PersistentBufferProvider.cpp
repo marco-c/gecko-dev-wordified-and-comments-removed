@@ -52,9 +52,6 @@ PersistentBufferProviderBasic
 :
 PersistentBufferProviderBasic
 (
-LayerManager
-*
-aManager
 gfx
 :
 :

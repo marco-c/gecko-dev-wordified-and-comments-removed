@@ -870,7 +870,6 @@ bufferProvider
 new
 PersistentBufferProviderBasic
 (
-this
 aSize
 aFormat
 gfxPlatform
@@ -902,7 +901,6 @@ bufferProvider
 new
 PersistentBufferProviderBasic
 (
-this
 aSize
 aFormat
 gfxPlatform
