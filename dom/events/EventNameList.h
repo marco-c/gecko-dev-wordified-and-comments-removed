@@ -541,7 +541,7 @@ eMouseEventClass
 EVENT
 (
 mouseleave
-NS_MOUSELEAVE
+eMouseLeave
 EventNameType_All
 eMouseEventClass
 )

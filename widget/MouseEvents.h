@@ -537,7 +537,7 @@ case
 eMouseEnter
 :
 case
-NS_MOUSELEAVE
+eMouseLeave
 :
 mFlags
 .
@@ -631,7 +631,7 @@ case
 eMouseEnter
 :
 case
-NS_MOUSELEAVE
+eMouseLeave
 :
 mFlags
 .

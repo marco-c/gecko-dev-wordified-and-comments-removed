@@ -15857,7 +15857,7 @@ sIsPointerLocked
 aMessage
 =
 =
-NS_MOUSELEAVE
+eMouseLeave
 |
 |
 aMessage
@@ -16681,7 +16681,7 @@ isPointer
 ?
 NS_POINTER_LEAVE
 :
-NS_MOUSELEAVE
+eMouseLeave
 )
 ;
 DispatchMouseOrPointerEvent
