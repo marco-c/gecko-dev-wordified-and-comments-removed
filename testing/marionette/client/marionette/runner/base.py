@@ -7824,6 +7824,13 @@ results
 .
 expectedFailures
 )
+            
+self
+.
+mixin_run_tests
+=
+[
+]
     
 def
 run_test_set
