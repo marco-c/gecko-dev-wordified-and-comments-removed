@@ -70,9 +70,13 @@ I32
 I64
 F32
 F64
+I8x16
+I16x8
 I32x4
-B32x4
 F32x4
+B8x16
+B16x8
+B32x4
 Br
 BrIf
 BrTable
