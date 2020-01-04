@@ -11064,6 +11064,14 @@ case
 ID_BLOCK_ADDITIONS
 :
 {
+if
+(
+block_additional
+)
+return
+-
+1
+;
 r
 =
 ne_read_block_additions
