@@ -118,6 +118,11 @@ WaveDecoder
 cpp
 '
 '
+WaveDemuxer
+.
+cpp
+'
+'
 WaveReader
 .
 cpp
