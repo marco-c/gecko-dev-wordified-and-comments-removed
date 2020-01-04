@@ -4914,11 +4914,13 @@ _feedPrincipal
 =
 secman
 .
-getSimpleCodebasePrincipal
+createCodebasePrincipal
 (
 this
 .
 _feedURI
+{
+}
 )
 ;
 LOG

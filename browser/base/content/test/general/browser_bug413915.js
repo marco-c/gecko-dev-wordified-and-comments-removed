@@ -70,9 +70,11 @@ principal
 =
 secman
 .
-getSimpleCodebasePrincipal
+createCodebasePrincipal
 (
 exampleUri
+{
+}
 )
 ;
 function

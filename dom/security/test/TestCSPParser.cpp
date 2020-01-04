@@ -239,7 +239,7 @@ rv
 secman
 -
 >
-GetSimpleCodebasePrincipal
+GetCodebasePrincipal
 (
 selfURI
 getter_AddRefs

@@ -2113,7 +2113,7 @@ nodePrincipal
 :
 secMan
 .
-getSimpleCodebasePrincipal
+createCodebasePrincipal
 (
 ioService
 .
@@ -2129,6 +2129,8 @@ file
 null
 null
 )
+{
+}
 )
 ;
 try
