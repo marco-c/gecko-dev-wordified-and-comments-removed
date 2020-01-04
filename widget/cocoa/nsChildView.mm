@@ -24321,7 +24321,7 @@ eGestureState_MagnifyGesture
 :
 msg
 =
-NS_SIMPLE_GESTURE_MAGNIFY_UPDATE
+eMagnifyGestureUpdate
 ;
 break
 ;
