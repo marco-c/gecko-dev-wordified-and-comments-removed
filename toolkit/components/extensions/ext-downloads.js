@@ -1424,6 +1424,10 @@ normalizeTime
 (
 arg
 )
+.
+getTime
+(
+)
 ;
 }
 }
