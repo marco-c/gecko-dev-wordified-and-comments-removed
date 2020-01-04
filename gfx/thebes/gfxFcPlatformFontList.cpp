@@ -1723,6 +1723,8 @@ rv
 ;
 bool
 symbolFont
+=
+false
 ;
 if
 (
@@ -1788,9 +1790,6 @@ cmapTable
 {
 bool
 unicodeFont
-=
-false
-symbolFont
 =
 false
 ;

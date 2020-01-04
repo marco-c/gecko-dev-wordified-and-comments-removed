@@ -101,7 +101,7 @@ push
 uint32_t
 endPairChar
 int32_t
-scriptCode
+newScriptCode
 )
 ;
 void
@@ -113,7 +113,7 @@ void
 fixup
 (
 int32_t
-scriptCode
+newScriptCode
 )
 ;
 struct

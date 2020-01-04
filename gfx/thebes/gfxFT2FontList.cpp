@@ -4164,7 +4164,7 @@ aVisibility
 )
 {
 nsCString
-faceList
+cachedFaceList
 ;
 uint32_t
 filesize
@@ -4185,7 +4185,7 @@ aCache
 GetInfoForFile
 (
 aFileName
-faceList
+cachedFaceList
 &
 timestamp
 &
@@ -4214,7 +4214,7 @@ s
 if
 (
 !
-faceList
+cachedFaceList
 .
 IsEmpty
 (
@@ -4266,7 +4266,7 @@ get
 AppendFacesFromCachedFaceList
 (
 aFileName
-faceList
+cachedFaceList
 aStdFile
 aVisibility
 )
@@ -4334,7 +4334,7 @@ get
 )
 ;
 nsCString
-faceList
+newFaceList
 ;
 timestamp
 =
@@ -4399,7 +4399,7 @@ i
 aStdFile
 aVisibility
 face
-faceList
+newFaceList
 )
 ;
 FT_Done_Face
@@ -4425,7 +4425,7 @@ statRetval
 &
 &
 !
-faceList
+newFaceList
 .
 IsEmpty
 (
@@ -4438,7 +4438,7 @@ aCache
 CacheFileInfo
 (
 aFileName
-faceList
+newFaceList
 timestamp
 filesize
 )
