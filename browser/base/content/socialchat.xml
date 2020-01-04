@@ -3189,6 +3189,12 @@ should
 be
 restored
 .
+return
+function
+*
+(
+)
+{
 let
 child
 =
@@ -3216,6 +3222,7 @@ child
 .
 previousElementSibling
 ;
+}
 }
 ]
 ]
@@ -3255,6 +3262,12 @@ non
 collapsed
 chatboxes
 .
+return
+function
+*
+(
+)
+{
 let
 child
 =
@@ -3283,6 +3296,7 @@ child
 .
 nextElementSibling
 ;
+}
 }
 ]
 ]
@@ -3352,6 +3366,12 @@ selected
 one
 .
 )
+return
+function
+*
+(
+)
+{
 for
 (
 let
@@ -3360,6 +3380,8 @@ of
 this
 .
 visibleChildren
+(
+)
 )
 if
 (
@@ -3373,6 +3395,7 @@ selectedChat
 yield
 child
 ;
+}
 ]
 ]
 >
@@ -5168,6 +5191,8 @@ of
 this
 .
 visibleChildren
+(
+)
 )
 {
 currentWidth
@@ -5210,6 +5235,8 @@ of
 this
 .
 collapsibleChildren
+(
+)
 )
 {
 if
@@ -5324,6 +5351,8 @@ of
 this
 .
 collapsedChildren
+(
+)
 )
 {
 currentWidth

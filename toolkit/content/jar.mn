@@ -545,7 +545,6 @@ global
 viewZoomOverlay
 .
 js
-*
 +
 content
 /
@@ -693,7 +692,6 @@ expander
 .
 xml
 )
-*
 content
 /
 global
@@ -760,7 +758,6 @@ groupbox
 .
 xml
 )
-*
 +
 content
 /
@@ -1158,7 +1155,6 @@ tree
 .
 xml
 )
-*
 +
 content
 /

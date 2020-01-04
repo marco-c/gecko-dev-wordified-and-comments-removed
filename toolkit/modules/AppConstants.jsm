@@ -264,6 +264,17 @@ else
 false
 #
 endif
+XP_UNIX
+:
+#
+ifdef
+XP_UNIX
+true
+#
+else
+false
+#
+endif
 #
 NOTE
 !
