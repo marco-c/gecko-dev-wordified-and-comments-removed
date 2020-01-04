@@ -3939,6 +3939,11 @@ filter
 PNG_EMPTY
 )
 ;
+#
+if
+PNG_ARM_NEON_OPT
+>
+0
 PNG_INTERNAL_FUNCTION
 (
 void
@@ -4044,6 +4049,8 @@ prev_row
 PNG_EMPTY
 )
 ;
+#
+endif
 PNG_INTERNAL_FUNCTION
 (
 void
@@ -6808,6 +6815,11 @@ PNG_EMPTY
 ;
 #
 else
+#
+if
+PNG_ARM_NEON_OPT
+>
+0
 PNG_INTERNAL_FUNCTION
 (
 void
@@ -6822,6 +6834,8 @@ bpp
 PNG_EMPTY
 )
 ;
+#
+endif
 #
 endif
 PNG_INTERNAL_FUNCTION

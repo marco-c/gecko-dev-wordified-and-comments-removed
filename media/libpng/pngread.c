@@ -8526,7 +8526,6 @@ png_error
 (
 png_ptr
 "
-a
 background
 color
 must
@@ -15137,9 +15136,17 @@ image
 height
 <
 =
-0xFFFFFFFF
+0xFFFFFFFFU
 /
-png_row_stride
+PNG_IMAGE_PIXEL_COMPONENT_SIZE
+(
+image
+-
+>
+format
+)
+/
+check
 )
 {
 if

@@ -536,6 +536,8 @@ png_set_filler
 is
 invalid
 for
+"
+"
 low
 bit
 depth

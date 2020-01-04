@@ -12,7 +12,7 @@ PNG_LIBPNG_VER_STRING
 .
 6
 .
-23
+24
 +
 apng
 "
@@ -27,12 +27,12 @@ version
 .
 6
 .
-23
+24
 +
 apng
 -
-June
-9
+August
+4
 2016
 \
 n
@@ -56,7 +56,7 @@ PNG_LIBPNG_VER_MINOR
 #
 define
 PNG_LIBPNG_VER_RELEASE
-23
+24
 #
 define
 PNG_LIBPNG_VER_BUILD
@@ -134,14 +134,14 @@ PNG_LIBPNG_BUILD_STABLE
 #
 define
 PNG_LIBPNG_VER
-10623
+10624
 /
 *
 1
 .
 6
 .
-23
+24
 *
 /
 #
@@ -263,7 +263,7 @@ endif
 typedef
 char
 *
-png_libpng_version_1_6_23
+png_libpng_version_1_6_24
 ;
 typedef
 struct
@@ -1252,11 +1252,11 @@ PNG_APNG_SUPPORTED
 #
 define
 PNG_INFO_acTL
-0x10000
+0x10000U
 #
 define
 PNG_INFO_fcTL
-0x20000
+0x20000U
 #
 endif
 typedef
@@ -5910,6 +5910,9 @@ endif
 #
 ifdef
 PNG_SET_UNKNOWN_CHUNKS_SUPPORTED
+#
+ifdef
+PNG_HANDLE_AS_UNKNOWN_SUPPORTED
 PNG_EXPORT
 (
 172
@@ -5927,6 +5930,8 @@ num_chunks
 )
 )
 ;
+#
+endif
 PNG_EXPORT
 (
 173
@@ -6994,6 +6999,7 @@ bg
 )
 \
 {
+\
 png_uint_16
 temp
 =
@@ -7070,6 +7076,7 @@ temp
 0xff
 )
 ;
+\
 }
 #
 define
@@ -7082,6 +7089,7 @@ bg
 )
 \
 {
+\
 png_uint_32
 temp
 =
@@ -7155,6 +7163,7 @@ temp
 )
 )
 ;
+\
 }
 #
 else
@@ -8807,7 +8816,7 @@ ifdef
 PNG_APNG_SUPPORTED
 PNG_EXPORT
 (
-245
+246
 png_uint_32
 png_get_acTL
 (
@@ -8826,7 +8835,7 @@ num_plays
 ;
 PNG_EXPORT
 (
-246
+247
 png_uint_32
 png_set_acTL
 (
@@ -8843,7 +8852,7 @@ num_plays
 ;
 PNG_EXPORT
 (
-247
+248
 png_uint_32
 png_get_num_frames
 (
@@ -8856,7 +8865,7 @@ info_ptr
 ;
 PNG_EXPORT
 (
-248
+249
 png_uint_32
 png_get_num_plays
 (
@@ -8869,7 +8878,7 @@ info_ptr
 ;
 PNG_EXPORT
 (
-249
+250
 png_uint_32
 png_get_next_frame_fcTL
 (
@@ -8906,7 +8915,7 @@ blend_op
 ;
 PNG_EXPORT
 (
-250
+251
 png_uint_32
 png_set_next_frame_fcTL
 (
@@ -8935,7 +8944,7 @@ blend_op
 ;
 PNG_EXPORT
 (
-251
+252
 png_uint_32
 png_get_next_frame_width
 (
@@ -8948,7 +8957,7 @@ info_ptr
 ;
 PNG_EXPORT
 (
-252
+253
 png_uint_32
 png_get_next_frame_height
 (
@@ -8961,7 +8970,7 @@ info_ptr
 ;
 PNG_EXPORT
 (
-253
+254
 png_uint_32
 png_get_next_frame_x_offset
 (
@@ -8974,7 +8983,7 @@ info_ptr
 ;
 PNG_EXPORT
 (
-254
+255
 png_uint_32
 png_get_next_frame_y_offset
 (
@@ -8987,7 +8996,7 @@ info_ptr
 ;
 PNG_EXPORT
 (
-255
+256
 png_uint_16
 png_get_next_frame_delay_num
 (
@@ -9000,7 +9009,7 @@ info_ptr
 ;
 PNG_EXPORT
 (
-256
+257
 png_uint_16
 png_get_next_frame_delay_den
 (
@@ -9013,7 +9022,7 @@ info_ptr
 ;
 PNG_EXPORT
 (
-257
+258
 png_byte
 png_get_next_frame_dispose_op
 (
@@ -9026,7 +9035,7 @@ info_ptr
 ;
 PNG_EXPORT
 (
-258
+259
 png_byte
 png_get_next_frame_blend_op
 (
@@ -9039,7 +9048,7 @@ info_ptr
 ;
 PNG_EXPORT
 (
-259
+260
 png_byte
 png_get_first_frame_is_hidden
 (
@@ -9052,7 +9061,7 @@ info_ptr
 ;
 PNG_EXPORT
 (
-260
+261
 png_uint_32
 png_set_first_frame_is_hidden
 (
@@ -9070,7 +9079,7 @@ ifdef
 PNG_READ_APNG_SUPPORTED
 PNG_EXPORT
 (
-261
+262
 void
 png_read_frame_head
 (
@@ -9086,7 +9095,7 @@ ifdef
 PNG_PROGRESSIVE_READ_SUPPORTED
 PNG_EXPORT
 (
-262
+263
 void
 png_set_progressive_frame_fn
 (
@@ -9108,7 +9117,7 @@ ifdef
 PNG_WRITE_APNG_SUPPORTED
 PNG_EXPORT
 (
-263
+264
 void
 png_write_frame_head
 (
@@ -9139,7 +9148,7 @@ blend_op
 ;
 PNG_EXPORT
 (
-264
+265
 void
 png_write_frame_tail
 (
