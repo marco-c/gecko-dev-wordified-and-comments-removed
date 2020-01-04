@@ -35426,6 +35426,15 @@ this
 false
 )
 ;
+addEventListener
+(
+"
+DOMMetaChanged
+"
+this
+false
+)
+;
 Services
 .
 obs
@@ -35457,6 +35466,11 @@ aEvent
 type
 )
 {
+case
+"
+DOMMetaChanged
+"
+:
 case
 "
 DOMMetaAdded
