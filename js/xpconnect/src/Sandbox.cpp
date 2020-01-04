@@ -3269,6 +3269,19 @@ callable
 )
 )
 ;
+js
+:
+:
+ProxyOptions
+options
+;
+options
+.
+setLazyProto
+(
+true
+)
+;
 JSObject
 *
 obj
@@ -3286,6 +3299,7 @@ xpc
 sandboxCallableProxyHandler
 priv
 nullptr
+options
 )
 ;
 if
