@@ -689,11 +689,6 @@ UpdateRenderTarget
 )
 ;
 bool
-CreateShaders
-(
-)
-;
-bool
 UpdateConstantBuffers
 (
 )
