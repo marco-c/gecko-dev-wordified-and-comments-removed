@@ -7340,7 +7340,7 @@ source
 function
 afterDispatch
 (
-dispatcher
+store
 type
 )
 {
@@ -7364,7 +7364,7 @@ resolve
 =
 >
 {
-dispatcher
+store
 .
 dispatch
 (

@@ -357,6 +357,16 @@ javascript
 src
 =
 "
+chrome
+:
+/
+/
+browser
+/
+content
+/
+devtools
+/
 dagre
 -
 d3

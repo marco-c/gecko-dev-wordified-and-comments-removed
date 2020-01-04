@@ -17,11 +17,9 @@ listeners
 '
 )
 ;
-module
-.
 exports
-=
-{
+.
 eventListeners
-}
+=
+eventListeners
 ;

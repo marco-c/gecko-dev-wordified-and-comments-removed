@@ -62,16 +62,16 @@ gView
 EventListeners
 ;
 let
-gDispatcher
+gStore
 =
 gDebugger
 .
-dispatcher
+store
 ;
 let
 getState
 =
-gDispatcher
+gStore
 .
 getState
 ;
@@ -115,7 +115,7 @@ fetched
 =
 afterDispatch
 (
-gDispatcher
+gStore
 constants
 .
 FETCH_EVENT_LISTENERS
@@ -204,7 +204,7 @@ updated
 =
 afterDispatch
 (
-gDispatcher
+gStore
 constants
 .
 UPDATE_EVENT_BREAKPOINTS
@@ -298,7 +298,7 @@ updated
 =
 afterDispatch
 (
-gDispatcher
+gStore
 constants
 .
 UPDATE_EVENT_BREAKPOINTS
@@ -391,7 +391,7 @@ updated
 =
 afterDispatch
 (
-gDispatcher
+gStore
 constants
 .
 UPDATE_EVENT_BREAKPOINTS
@@ -486,7 +486,7 @@ updated
 =
 afterDispatch
 (
-gDispatcher
+gStore
 constants
 .
 UPDATE_EVENT_BREAKPOINTS

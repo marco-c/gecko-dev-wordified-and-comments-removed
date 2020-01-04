@@ -4,7 +4,7 @@ strict
 "
 ;
 function
-logMiddleware
+log
 (
 {
 dispatch
@@ -24,11 +24,11 @@ console
 .
 log
 (
-'
+"
 [
 DISPATCH
 ]
-'
+"
 JSON
 .
 stringify
@@ -44,9 +44,9 @@ action
 ;
 }
 }
-module
-.
 exports
+.
+log
 =
-logMiddleware
+log
 ;
