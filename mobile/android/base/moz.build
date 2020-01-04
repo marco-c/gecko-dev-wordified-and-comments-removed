@@ -4730,13 +4730,6 @@ java
 '
 widget
 /
-DividerItemDecoration
-.
-java
-'
-'
-widget
-/
 DoorHanger
 .
 java
@@ -4808,6 +4801,13 @@ java
 widget
 /
 GeckoPopupMenu
+.
+java
+'
+'
+widget
+/
+HistoryDividerItemDecoration
 .
 java
 '

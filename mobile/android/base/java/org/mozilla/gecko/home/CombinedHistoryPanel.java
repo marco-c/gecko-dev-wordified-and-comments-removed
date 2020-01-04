@@ -418,7 +418,7 @@ gecko
 .
 widget
 .
-DividerItemDecoration
+HistoryDividerItemDecoration
 ;
 import
 java
@@ -974,7 +974,7 @@ mRecyclerView
 addItemDecoration
 (
 new
-DividerItemDecoration
+HistoryDividerItemDecoration
 (
 getContext
 (
