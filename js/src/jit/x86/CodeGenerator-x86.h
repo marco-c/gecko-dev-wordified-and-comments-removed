@@ -534,6 +534,14 @@ LWasmTruncateToInt64
 lir
 )
 ;
+void
+visitInt64ToFloatingPoint
+(
+LInt64ToFloatingPoint
+*
+lir
+)
+;
 private
 :
 void
