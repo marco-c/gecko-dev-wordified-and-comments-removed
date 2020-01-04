@@ -345,6 +345,11 @@ aRoot
 )
 const
 ;
+void
+TryToFlushPendingNotifications
+(
+)
+;
 private
 :
 ~
@@ -701,6 +706,10 @@ AChangeEvent
 (
 aIMEContentObserver
 )
+mIsRunning
+(
+false
+)
 {
 }
 NS_IMETHOD
@@ -730,6 +739,9 @@ void
 SendPositionChange
 (
 )
+;
+bool
+mIsRunning
 ;
 }
 ;

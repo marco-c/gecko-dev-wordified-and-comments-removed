@@ -372,6 +372,11 @@ aIMEContentObserver
 )
 ;
 void
+TryToFlushPendingNotificationsToIME
+(
+)
+;
+void
 RegisterAccessKey
 (
 nsIContent

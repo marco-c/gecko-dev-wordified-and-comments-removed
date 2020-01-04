@@ -2365,6 +2365,7 @@ HandleEventInternal
 (
 aEvent
 aStatus
+true
 )
 ;
 }
@@ -2721,6 +2722,8 @@ aEvent
 nsEventStatus
 *
 aStatus
+bool
+aIsHandlingNativeEvent
 )
 ;
 nsresult

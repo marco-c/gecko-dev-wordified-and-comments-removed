@@ -31151,6 +31151,7 @@ HandleEventInternal
 (
 aEvent
 aEventStatus
+true
 )
 ;
 PopCurrentEventInfo
@@ -34359,6 +34360,7 @@ HandleEventInternal
 (
 aEvent
 aEventStatus
+true
 )
 ;
 }
@@ -34396,6 +34398,7 @@ HandleEventInternal
 (
 aEvent
 aEventStatus
+true
 )
 ;
 }
@@ -34743,6 +34746,7 @@ HandleEventInternal
 (
 aEvent
 aEventStatus
+true
 )
 ;
 }
@@ -34899,6 +34903,7 @@ HandleEventInternal
 (
 aEvent
 aStatus
+false
 )
 ;
 PopCurrentEventInfo
@@ -34921,6 +34926,8 @@ aEvent
 nsEventStatus
 *
 aStatus
+bool
+aIsHandlingNativeEvent
 )
 {
 RefPtr
@@ -35602,6 +35609,23 @@ aStatus
 )
 ;
 }
+}
+if
+(
+!
+mIsDestroying
+&
+&
+aIsHandlingNativeEvent
+)
+{
+manager
+-
+>
+TryToFlushPendingNotificationsToIME
+(
+)
+;
 }
 switch
 (
