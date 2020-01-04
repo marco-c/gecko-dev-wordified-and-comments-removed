@@ -63,7 +63,7 @@ namespace
 mozilla
 {
 class
-FlushableTaskQueue
+TaskQueue
 ;
 class
 Benchmark
@@ -157,7 +157,7 @@ mMainThreadState
 ;
 RefPtr
 <
-FlushableTaskQueue
+TaskQueue
 >
 mDecoderTaskQueue
 ;

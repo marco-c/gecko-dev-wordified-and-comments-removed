@@ -573,11 +573,6 @@ FileBlockCache
 h
 '
 '
-FlushableTaskQueue
-.
-h
-'
-'
 FrameStatistics
 .
 h
@@ -1096,11 +1091,6 @@ cpp
 '
 '
 FileBlockCache
-.
-cpp
-'
-'
-FlushableTaskQueue
 .
 cpp
 '

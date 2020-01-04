@@ -917,7 +917,7 @@ mAudio
 mTaskQueue
 =
 new
-FlushableTaskQueue
+TaskQueue
 (
 GetMediaThreadPool
 (
@@ -933,7 +933,7 @@ mVideo
 mTaskQueue
 =
 new
-FlushableTaskQueue
+TaskQueue
 (
 GetMediaThreadPool
 (

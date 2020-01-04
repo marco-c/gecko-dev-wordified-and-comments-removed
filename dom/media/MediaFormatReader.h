@@ -1039,7 +1039,7 @@ mTrackDemuxer
 ;
 RefPtr
 <
-FlushableTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;

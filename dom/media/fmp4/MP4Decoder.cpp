@@ -854,7 +854,7 @@ aBackend
 VideoInfo
 &
 aConfig
-FlushableTaskQueue
+TaskQueue
 *
 aTaskQueue
 )
@@ -1039,12 +1039,12 @@ nullptr
 }
 RefPtr
 <
-FlushableTaskQueue
+TaskQueue
 >
 taskQueue
 =
 new
-FlushableTaskQueue
+TaskQueue
 (
 GetMediaThreadPool
 (
