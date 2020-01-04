@@ -754,13 +754,6 @@ return
 false
 ;
 }
-virtual
-void
-DisableHardwareAcceleration
-(
-)
-{
-}
 TimedMetadataEventSource
 &
 TimedMetadataEvent
