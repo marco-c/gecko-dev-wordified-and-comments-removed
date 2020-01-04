@@ -669,7 +669,7 @@ void
 ScanResultNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 int
@@ -691,7 +691,7 @@ aStatus
 int
 aClientIf
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -707,7 +707,7 @@ aStatus
 int
 aClientIf
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -901,7 +901,7 @@ ReadRemoteRssiNotification
 int
 aClientIf
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 int
@@ -957,7 +957,7 @@ aServerIf
 bool
 aConnected
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 )
@@ -1093,7 +1093,7 @@ aConnId
 int
 aTransId
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 const
@@ -1115,7 +1115,7 @@ aConnId
 int
 aTransId
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 const

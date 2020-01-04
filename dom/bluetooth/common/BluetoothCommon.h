@@ -2644,7 +2644,7 @@ mStatus
 struct
 BluetoothGattNotifyParam
 {
-nsString
+BluetoothAddress
 mBdAddr
 ;
 BluetoothGattServiceId
@@ -2670,7 +2670,7 @@ mIsNotify
 struct
 BluetoothGattTestParam
 {
-nsString
+BluetoothAddress
 mBdAddr
 ;
 BluetoothUuid
