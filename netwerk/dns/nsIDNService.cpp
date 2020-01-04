@@ -795,9 +795,7 @@ Length
 int32_t
 outMaxLen
 =
-inLen
--
-kACEPrefixLen
+kMaxDNSNodeLen
 +
 1
 ;
