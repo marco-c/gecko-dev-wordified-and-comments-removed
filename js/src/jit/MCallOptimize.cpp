@@ -18684,6 +18684,12 @@ SimdType
 :
 Int32x4
 :
+case
+SimdType
+:
+:
+Uint32x4
+:
 *
 mirType
 =
