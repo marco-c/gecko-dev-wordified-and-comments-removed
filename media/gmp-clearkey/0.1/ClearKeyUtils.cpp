@@ -67,7 +67,7 @@ h
 #
 include
 "
-Endian
+BigEndian
 .
 h
 "
