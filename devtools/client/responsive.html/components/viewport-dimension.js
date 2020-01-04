@@ -459,8 +459,12 @@ props
 .
 onChangeViewportDevice
 (
+{
+name
+:
 "
 "
+}
 )
 ;
 this
