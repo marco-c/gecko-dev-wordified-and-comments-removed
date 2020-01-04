@@ -161,7 +161,7 @@ aValue
 )
 ;
 void
-SetNameBlobPair
+SetNameFilePair
 (
 FormDataTuple
 *
@@ -170,9 +170,9 @@ const
 nsAString
 &
 aName
-Blob
+File
 *
-aBlob
+aFile
 )
 ;
 public
