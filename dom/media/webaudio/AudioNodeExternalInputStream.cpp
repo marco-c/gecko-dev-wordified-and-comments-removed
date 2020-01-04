@@ -672,10 +672,6 @@ SetNull
 WEBAUDIO_BLOCK_SIZE
 )
 ;
-AdvanceOutputSegment
-(
-)
-;
 return
 ;
 }
@@ -1150,10 +1146,6 @@ WEBAUDIO_BLOCK_SIZE
 )
 ;
 }
-AdvanceOutputSegment
-(
-)
-;
 }
 bool
 AudioNodeExternalInputStream
