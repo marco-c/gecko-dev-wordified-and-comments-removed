@@ -62976,6 +62976,18 @@ export
 MOZ_NO_DEBUG_RTL
 =
 1
+if
+test
+"
+MSVS_VERSION
+"
+!
+=
+"
+2015
+"
+;
+then
 WIN32_CRT_LIBS
 =
 "
@@ -63050,6 +63062,7 @@ rm
 crtdll
 .
 obj
+fi
 ;
 ;
 *
