@@ -55,6 +55,10 @@ FFTConvolver
 (
 size_t
 fftSize
+size_t
+renderPhase
+=
+0
 )
 ;
 void

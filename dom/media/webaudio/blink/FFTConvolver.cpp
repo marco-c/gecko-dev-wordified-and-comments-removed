@@ -28,6 +28,8 @@ FFTConvolver
 (
 size_t
 fftSize
+size_t
+renderPhase
 )
 :
 m_frame
@@ -36,7 +38,13 @@ fftSize
 )
 m_readWriteIndex
 (
-0
+renderPhase
+%
+(
+fftSize
+/
+2
+)
 )
 {
 m_inputBuffer
