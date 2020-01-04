@@ -482,11 +482,6 @@ nsCertPicker
 cpp
 '
 '
-nsCertVerificationThread
-.
-cpp
-'
-'
 nsClientAuthRemember
 .
 cpp
@@ -673,11 +668,6 @@ cpp
 '
 '
 nsTLSSocketProvider
-.
-cpp
-'
-'
-nsUsageArrayHelper
 .
 cpp
 '

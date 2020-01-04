@@ -187,6 +187,11 @@ SpecialPowers
 :
 false
 "
+TestUtils
+"
+:
+false
+"
 thisTestLeaksUncaughtRejectionsAndShouldBeFixed
 "
 :
