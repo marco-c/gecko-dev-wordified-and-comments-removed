@@ -79,7 +79,7 @@ nsSVGContainerFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsSVGContainerFrameBase
+nsContainerFrame
 )
 NS_QUERYFRAME_HEAD
 (
@@ -286,7 +286,7 @@ false
 ;
 }
 return
-nsSVGContainerFrameBase
+nsContainerFrame
 :
 :
 UpdateOverflow

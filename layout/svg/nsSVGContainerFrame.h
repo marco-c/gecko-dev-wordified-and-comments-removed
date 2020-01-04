@@ -80,15 +80,11 @@ nsStyleContext
 struct
 nsRect
 ;
-typedef
-nsContainerFrame
-nsSVGContainerFrameBase
-;
 class
 nsSVGContainerFrame
 :
 public
-nsSVGContainerFrameBase
+nsContainerFrame
 {
 friend
 nsIFrame
@@ -113,7 +109,7 @@ nsStyleContext
 aContext
 )
 :
-nsSVGContainerFrameBase
+nsContainerFrame
 (
 aContext
 )
@@ -208,7 +204,7 @@ const
 override
 {
 return
-nsSVGContainerFrameBase
+nsContainerFrame
 :
 :
 IsFrameOfType
