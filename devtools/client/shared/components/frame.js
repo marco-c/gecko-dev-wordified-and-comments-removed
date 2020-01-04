@@ -701,6 +701,8 @@ name
 }
 functionDisplayName
 )
+"
+"
 )
 ;
 }
@@ -990,6 +992,8 @@ elements
 .
 push
 (
+"
+"
 dom
 .
 span
