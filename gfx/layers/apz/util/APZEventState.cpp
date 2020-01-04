@@ -1895,7 +1895,7 @@ StartPanning
 mActiveElementManager
 -
 >
-HandlePanStart
+ClearActivation
 (
 )
 ;

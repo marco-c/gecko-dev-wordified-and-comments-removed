@@ -74,7 +74,7 @@ aCanBePan
 )
 ;
 void
-HandlePanStart
+ClearActivation
 (
 )
 ;
