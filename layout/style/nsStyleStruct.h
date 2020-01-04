@@ -13359,6 +13359,13 @@ UnlockImage
 (
 )
 ;
+mImage
+-
+>
+RequestDiscard
+(
+)
+;
 }
 mImage
 =
