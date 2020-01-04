@@ -458,6 +458,12 @@ TextureClient
 >
 mFrontBuffer
 ;
+RefPtr
+<
+TextureClient
+>
+mBufferProviderTexture
+;
 }
 ;
 class
