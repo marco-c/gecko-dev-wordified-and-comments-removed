@@ -560,9 +560,7 @@ button
 =
 self
 .
-marionette
-.
-find_element
+wait_for_element_displayed
 (
 By
 .
