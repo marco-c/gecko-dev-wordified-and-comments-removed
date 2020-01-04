@@ -7619,7 +7619,7 @@ aElement
 {
 mRefMap
 .
-RawRemoveEntry
+RemoveEntry
 (
 entry
 )
