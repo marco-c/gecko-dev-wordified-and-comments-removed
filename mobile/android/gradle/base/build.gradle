@@ -11,10 +11,10 @@ library
 android
 {
 compileSdkVersion
-22
+23
 buildToolsVersion
 "
-22
+23
 .
 0
 .
