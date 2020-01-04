@@ -399,11 +399,6 @@ return
 IsComposingOnOurEditor
 (
 )
-|
-|
-IsComposingOnPlugin
-(
-)
 ;
 }
 static
@@ -644,6 +639,9 @@ wParam
 LPARAM
 &
 lParam
+bool
+&
+aRet
 MSGResult
 &
 aResult
@@ -1135,6 +1133,9 @@ const
 void
 AdjustCompositionFont
 (
+nsWindow
+*
+aWindow
 const
 IMEContext
 &
