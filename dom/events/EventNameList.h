@@ -667,7 +667,7 @@ ePointerEventClass
 EVENT
 (
 lostpointercapture
-NS_POINTER_LOST_CAPTURE
+ePointerLostCapture
 EventNameType_All
 ePointerEventClass
 )

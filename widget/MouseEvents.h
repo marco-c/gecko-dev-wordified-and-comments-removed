@@ -1867,7 +1867,7 @@ case
 NS_POINTER_GOT_CAPTURE
 :
 case
-NS_POINTER_LOST_CAPTURE
+ePointerLostCapture
 :
 mFlags
 .
