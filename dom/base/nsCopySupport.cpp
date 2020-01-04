@@ -3137,7 +3137,7 @@ aEventMessage
 ;
 evt
 .
-clipboardData
+mClipboardData
 =
 clipboardData
 ;

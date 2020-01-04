@@ -209,7 +209,7 @@ AsClipboardEvent
 )
 -
 >
-clipboardData
+mClipboardData
 =
 aClipboardData
 ;
@@ -438,7 +438,7 @@ if
 event
 -
 >
-clipboardData
+mClipboardData
 )
 {
 if
@@ -449,7 +449,7 @@ mEventIsInternal
 event
 -
 >
-clipboardData
+mClipboardData
 =
 new
 DataTransfer
@@ -470,7 +470,7 @@ else
 event
 -
 >
-clipboardData
+mClipboardData
 =
 new
 DataTransfer
@@ -502,7 +502,7 @@ return
 event
 -
 >
-clipboardData
+mClipboardData
 ;
 }
 }
