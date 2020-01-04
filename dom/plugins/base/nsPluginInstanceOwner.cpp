@@ -6387,9 +6387,6 @@ apd
 =
 currAPD
 ;
-nsRect
-displayPort
-;
 while
 (
 f
@@ -6408,7 +6405,7 @@ GetContent
 nsLayoutUtils
 :
 :
-GetDisplayPort
+HasDisplayPort
 (
 f
 -
@@ -6416,8 +6413,6 @@ f
 GetContent
 (
 )
-&
-displayPort
 )
 )
 break
