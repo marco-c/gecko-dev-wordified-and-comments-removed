@@ -266,10 +266,6 @@ sIsIMMEnabled
 ;
 static
 bool
-sShowingOnScreenKeyboard
-;
-static
-bool
 IsTSFAvailable
 (
 )
@@ -349,6 +345,12 @@ ShowOnScreenKeyboard
 static
 void
 DismissOnScreenKeyboard
+(
+)
+;
+static
+HWND
+GetOnScreenKeyboardWindow
 (
 )
 ;
