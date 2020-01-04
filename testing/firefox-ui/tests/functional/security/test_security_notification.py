@@ -158,7 +158,7 @@ By
 .
 ID
 '
-technicalContentText
+badCertTechnicalInfo
 '
 )
             
