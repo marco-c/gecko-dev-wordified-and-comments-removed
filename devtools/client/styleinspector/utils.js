@@ -56,7 +56,7 @@ devtools
 /
 client
 /
-styleinspector
+shared
 /
 css
 -
