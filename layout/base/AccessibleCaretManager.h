@@ -323,11 +323,6 @@ HideCarets
 )
 ;
 void
-DoNotShowCarets
-(
-)
-;
-void
 UpdateCaretsForCursorMode
 (
 UpdateCaretsHint
@@ -722,11 +717,11 @@ sCaretShownWhenLongTappingOnEmptyContent
 ;
 static
 bool
-sCaretsExtendedVisibility
+sCaretsAlwaysTilt
 ;
 static
 bool
-sCaretsAlwaysTilt
+sCaretsAlwaysShowWhenScrolling
 ;
 static
 bool
