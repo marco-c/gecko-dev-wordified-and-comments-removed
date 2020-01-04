@@ -8006,6 +8006,10 @@ specialization_
 =
 type
 ;
+setGuard
+(
+)
+;
 setMovable
 (
 )
