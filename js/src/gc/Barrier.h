@@ -2459,6 +2459,7 @@ kind
 uint32_t
 slot
 )
+const
 ;
 bool
 preconditionForWriteBarrierPost
@@ -2470,7 +2471,9 @@ Kind
 kind
 uint32_t
 slot
+const
 Value
+&
 target
 )
 const
