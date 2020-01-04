@@ -1863,6 +1863,9 @@ ExitModalLoop
 NS_OK
 )
 ;
+#
+ifndef
+MOZ_WIDGET_GTK
 if
 (
 mWindow
@@ -1875,6 +1878,8 @@ Show
 false
 )
 ;
+#
+endif
 #
 if
 defined
