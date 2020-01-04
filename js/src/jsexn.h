@@ -53,7 +53,7 @@ cx
 )
 ;
 extern
-bool
+void
 ErrorToException
 (
 JSContext
