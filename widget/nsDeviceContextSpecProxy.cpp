@@ -537,13 +537,11 @@ DrawEventRecorderMemory
 (
 )
 ;
-Unused
-<
-<
+return
 mRemotePrintJob
 -
 >
-SendInitializePrint
+InitializePrint
 (
 nsString
 (
@@ -556,9 +554,6 @@ aPrintToFileName
 aStartPage
 aEndPage
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
