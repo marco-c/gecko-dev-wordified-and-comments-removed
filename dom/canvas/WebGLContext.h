@@ -7294,6 +7294,12 @@ mNeedsFakeNoStencil
 bool
 mNeedsEmulatedLoneDepthStencil
 ;
+bool
+HasTimestampBits
+(
+)
+const
+;
 struct
 ScopedMaskWorkaround
 {
