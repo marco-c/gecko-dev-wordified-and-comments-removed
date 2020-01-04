@@ -1526,6 +1526,9 @@ aBuffer
 {
 if
 (
+true
+|
+|
 !
 mozilla
 :
@@ -1533,9 +1536,6 @@ mozilla
 supports_ssse3
 (
 )
-&
-&
-false
 )
 return
 false
