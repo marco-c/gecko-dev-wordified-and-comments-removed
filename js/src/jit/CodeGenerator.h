@@ -2711,6 +2711,14 @@ lir
 )
 ;
 void
+visitAsmJSParameterI64
+(
+LAsmJSParameterI64
+*
+lir
+)
+;
+void
 visitAsmJSReturn
 (
 LAsmJSReturn
