@@ -4456,6 +4456,14 @@ forget
 (
 )
 ;
+if
+(
+mWindowType
+=
+=
+eWindowType_toplevel
+)
+{
 gfxPlatform
 :
 :
@@ -4474,6 +4482,7 @@ GetCompositorBackendType
 )
 )
 ;
+}
 }
 bool
 nsBaseWidget
