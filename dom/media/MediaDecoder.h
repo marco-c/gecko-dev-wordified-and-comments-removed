@@ -1864,6 +1864,9 @@ bool
 >
 mMediaSeekableOnlyInBufferedRanges
 ;
+bool
+mIsVisible
+;
 public
 :
 AbstractCanonical
