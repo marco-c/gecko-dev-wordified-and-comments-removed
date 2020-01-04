@@ -1894,17 +1894,6 @@ override
 ;
 virtual
 bool
-RecvDeviceStorageAreas
-(
-const
-DeviceStorageAreaInfo
-&
-areaInfo
-)
-override
-;
-virtual
-bool
 RecvFilePathUpdate
 (
 const
