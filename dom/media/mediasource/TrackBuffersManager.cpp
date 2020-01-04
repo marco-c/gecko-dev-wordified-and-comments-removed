@@ -3981,6 +3981,8 @@ NS_ERROR_ABORT
 __func__
 )
 ;
+return
+;
 }
 MediaInfo
 info
