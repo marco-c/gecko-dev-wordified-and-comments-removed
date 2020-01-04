@@ -67,6 +67,9 @@ mozilla
 namespace
 net
 {
+#
+ifndef
+MOZ_WIDGET_GONK
 static
 PRIOMethods
 sTcpUdpPRCloseLayerMethods
@@ -228,6 +231,8 @@ return
 status
 ;
 }
+#
+endif
 ClosingService
 *
 ClosingService
@@ -278,6 +283,9 @@ Start
 (
 )
 {
+#
+ifndef
+MOZ_WIDGET_GONK
 if
 (
 !
@@ -369,6 +377,8 @@ service
 ;
 }
 }
+#
+endif
 }
 nsresult
 ClosingService
@@ -418,6 +428,14 @@ PRFileDesc
 aFd
 )
 {
+#
+ifdef
+MOZ_WIDGET_GONK
+return
+NS_OK
+;
+#
+else
 if
 (
 !
@@ -506,6 +524,8 @@ layer
 return
 NS_OK
 ;
+#
+endif
 }
 void
 ClosingService
@@ -575,6 +595,9 @@ Shutdown
 (
 )
 {
+#
+ifndef
+MOZ_WIDGET_GONK
 MOZ_ASSERT
 (
 NS_IsMainThread
@@ -600,6 +623,8 @@ sInstance
 )
 ;
 }
+#
+endif
 }
 void
 ClosingService
