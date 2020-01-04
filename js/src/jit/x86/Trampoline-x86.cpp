@@ -1002,12 +1002,7 @@ masm
 .
 enterFakeExitFrame
 (
-ExitFrameLayout
-:
-:
-BareToken
-(
-)
+ExitFrameLayoutBareToken
 )
 ;
 masm

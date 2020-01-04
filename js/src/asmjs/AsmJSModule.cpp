@@ -1730,7 +1730,7 @@ MOZ_ASSERT
 !
 masm
 .
-hasEnteredExitFrame
+hasSelfReference
 (
 )
 )

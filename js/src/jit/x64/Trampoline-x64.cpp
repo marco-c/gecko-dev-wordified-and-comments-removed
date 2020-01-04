@@ -1158,12 +1158,7 @@ masm
 .
 enterFakeExitFrame
 (
-ExitFrameLayout
-:
-:
-BareToken
-(
-)
+ExitFrameLayoutBareToken
 )
 ;
 regs
