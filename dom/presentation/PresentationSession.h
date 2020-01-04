@@ -74,6 +74,13 @@ aState
 )
 ;
 virtual
+void
+DisconnectFromOwner
+(
+)
+override
+;
+virtual
 JSObject
 *
 WrapObject
@@ -137,7 +144,6 @@ message
 ;
 private
 :
-explicit
 PresentationSession
 (
 nsPIDOMWindow

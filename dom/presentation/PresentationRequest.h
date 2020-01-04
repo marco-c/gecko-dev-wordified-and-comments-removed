@@ -26,6 +26,9 @@ class
 PresentationAvailability
 ;
 class
+PresentationSession
+;
+class
 PresentationRequest
 final
 :
@@ -105,6 +108,14 @@ aRv
 IMPL_EVENT_HANDLER
 (
 sessionconnect
+)
+;
+nsresult
+DispatchSessionConnectEvent
+(
+PresentationSession
+*
+aSession
 )
 ;
 private
