@@ -343,7 +343,7 @@ MOZ_X11
 )
 if
 (
-GetDefaultContentBackend
+GetContentBackend
 (
 )
 !
@@ -360,7 +360,7 @@ BackendType
 NONE
 &
 &
-GetDefaultContentBackend
+GetContentBackend
 (
 )
 !

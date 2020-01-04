@@ -337,7 +337,7 @@ GetPlatform
 )
 -
 >
-GetDefaultContentBackend
+GetContentBackend
 (
 )
 ;
