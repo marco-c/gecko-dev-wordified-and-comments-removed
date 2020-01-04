@@ -307,7 +307,7 @@ class
 TextureClientRecycleTask
 :
 public
-Task
+Runnable
 {
 public
 :
@@ -331,8 +331,7 @@ aFlags
 )
 {
 }
-virtual
-void
+NS_IMETHOD
 Run
 (
 )
@@ -345,6 +344,9 @@ RecycleTexture
 (
 mFlags
 )
+;
+return
+NS_OK
 ;
 }
 private
@@ -527,11 +529,11 @@ pop
 (
 )
 ;
-Task
-*
+RefPtr
+<
+Runnable
+>
 task
-=
-nullptr
 ;
 if
 (
@@ -603,8 +605,11 @@ GetMessageLoop
 >
 PostTask
 (
-FROM_HERE
 task
+.
+forget
+(
+)
 )
 ;
 }

@@ -14,9 +14,7 @@ h
 #
 include
 "
-base
-/
-task
+nsThreadUtils
 .
 h
 "
@@ -44,7 +42,7 @@ class
 ChildAsyncCall
 :
 public
-CancelableTask
+CancelableRunnable
 {
 public
 :
@@ -60,13 +58,13 @@ void
 aUserData
 )
 ;
-void
+NS_IMETHOD
 Run
 (
 )
 override
 ;
-void
+nsresult
 Cancel
 (
 )

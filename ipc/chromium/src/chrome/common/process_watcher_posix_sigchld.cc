@@ -231,7 +231,10 @@ ChildGrimReaper
 public
 ChildReaper
 public
-Task
+mozilla
+:
+:
+Runnable
 {
 public
 :
@@ -263,8 +266,7 @@ KillProcess
 )
 ;
 }
-virtual
-void
+NS_IMETHOD
 Run
 (
 )
@@ -276,6 +278,9 @@ process_
 KillProcess
 (
 )
+;
+return
+NS_OK
 ;
 }
 private
@@ -558,8 +563,10 @@ if
 force
 )
 {
+RefPtr
+<
 ChildGrimReaper
-*
+>
 reaper
 =
 new
@@ -583,8 +590,11 @@ loop
 >
 PostDelayedTask
 (
-FROM_HERE
 reaper
+.
+forget
+(
+)
 kMaxWaitMs
 )
 ;

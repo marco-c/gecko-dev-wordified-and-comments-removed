@@ -1457,8 +1457,10 @@ public
 explicit
 RefCountedTask
 (
-CancelableTask
-*
+already_AddRefed
+<
+CancelableRunnable
+>
 aTask
 )
 :
@@ -1475,9 +1477,6 @@ RefCountedTask
 (
 )
 {
-delete
-mTask
-;
 }
 public
 :
@@ -1513,8 +1512,10 @@ RefCountedTask
 )
 private
 :
-CancelableTask
-*
+RefPtr
+<
+CancelableRunnable
+>
 mTask
 ;
 }
@@ -1523,7 +1524,7 @@ class
 DequeueTask
 :
 public
-Task
+Runnable
 {
 public
 :
@@ -1541,7 +1542,7 @@ aTask
 )
 {
 }
-void
+NS_IMETHOD
 Run
 (
 )
@@ -1553,6 +1554,9 @@ mTask
 Run
 (
 )
+;
+return
+NS_OK
 ;
 }
 private
@@ -1596,8 +1600,10 @@ MessageLoop
 *
 mWorkerLoop
 ;
-CancelableTask
-*
+RefPtr
+<
+CancelableRunnable
+>
 mChannelErrorTask
 ;
 int

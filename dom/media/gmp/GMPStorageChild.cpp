@@ -84,7 +84,6 @@ GMPMessageLoop
 PostTask
 (
 \
-FROM_HERE
 NewRunnableMethod
 (
 this

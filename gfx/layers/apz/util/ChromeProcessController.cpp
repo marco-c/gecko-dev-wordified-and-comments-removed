@@ -200,7 +200,6 @@ mUILoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
@@ -301,8 +300,10 @@ ChromeProcessController
 :
 PostDelayedTask
 (
-Task
-*
+already_AddRefed
+<
+Runnable
+>
 aTask
 int
 aDelayMs
@@ -318,8 +319,10 @@ current
 >
 PostDelayedTask
 (
-FROM_HERE
+Move
+(
 aTask
+)
 aDelayMs
 )
 ;
@@ -350,7 +353,6 @@ mUILoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
@@ -573,7 +575,6 @@ mUILoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
@@ -774,7 +775,6 @@ mUILoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
@@ -844,7 +844,6 @@ mUILoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
@@ -912,7 +911,6 @@ mUILoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
@@ -983,7 +981,6 @@ mUILoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this

@@ -86,15 +86,6 @@ h
 #
 include
 "
-base
-/
-tracked
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions
@@ -1713,14 +1704,15 @@ NS_IsMainThread
 )
 )
 ;
-XRE_GetIOMessageLoop
-(
-)
--
+RefPtr
+<
+DeleteTask
+<
+Transport
 >
-PostTask
-(
-FROM_HERE
+>
+task
+=
 new
 DeleteTask
 <
@@ -1730,6 +1722,19 @@ Transport
 GetTransport
 (
 )
+)
+;
+XRE_GetIOMessageLoop
+(
+)
+-
+>
+PostTask
+(
+task
+.
+forget
+(
 )
 )
 ;
@@ -2033,7 +2038,6 @@ message_loop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 NuwaMarkCurrentThread
@@ -2184,7 +2188,6 @@ GetMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 &
@@ -2280,7 +2283,6 @@ GetMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 &
@@ -2371,7 +2373,6 @@ GetMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 &
@@ -2583,7 +2584,6 @@ GetMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 &
@@ -2713,7 +2713,6 @@ GetMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 &
@@ -3103,7 +3102,6 @@ GetMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 &
@@ -3551,7 +3549,6 @@ GetMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 ConnectImageBridgeInChildProcess
@@ -3570,7 +3567,6 @@ GetMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 CallSendImageBridgeThreadId
@@ -3656,7 +3652,6 @@ GetMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 &
@@ -3714,7 +3709,6 @@ GetMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 &
@@ -3852,7 +3846,6 @@ GetMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 CallSendImageBridgeThreadId
@@ -3946,7 +3939,6 @@ GetMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 &
@@ -4050,7 +4042,6 @@ GetMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 &
@@ -4248,7 +4239,6 @@ GetMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 &
@@ -4696,7 +4686,6 @@ GetMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 &
@@ -4858,7 +4847,6 @@ GetMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 &

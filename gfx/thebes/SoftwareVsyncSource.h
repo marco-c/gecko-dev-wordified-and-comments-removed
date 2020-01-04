@@ -55,9 +55,6 @@ VsyncSource
 h
 "
 class
-CancelableTask
-;
-class
 SoftwareDisplay
 final
 :
@@ -168,8 +165,13 @@ Thread
 *
 mVsyncThread
 ;
-CancelableTask
-*
+RefPtr
+<
+mozilla
+:
+:
+CancelableRunnable
+>
 mCurrentVsyncTask
 ;
 bool

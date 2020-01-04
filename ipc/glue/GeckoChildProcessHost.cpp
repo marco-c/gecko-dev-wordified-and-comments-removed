@@ -1546,7 +1546,6 @@ ioLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
@@ -1608,7 +1607,6 @@ ioLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
@@ -1805,7 +1803,6 @@ ioLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
@@ -1976,11 +1973,15 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
-new
+mozilla
+:
+:
+MakeAndAddRef
+<
 DeleteTask
 <
 GeckoChildProcessHost
+>
 >
 (
 aSubprocess
@@ -2015,7 +2016,6 @@ current
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 DelayedDeleteSubprocess

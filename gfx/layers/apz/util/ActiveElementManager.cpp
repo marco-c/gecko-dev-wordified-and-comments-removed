@@ -385,7 +385,11 @@ mSetActiveTask
 nullptr
 )
 ;
-mSetActiveTask
+RefPtr
+<
+CancelableRunnable
+>
+task
 =
 NewRunnableMethod
 (
@@ -398,6 +402,10 @@ SetActiveTask
 mTarget
 )
 ;
+mSetActiveTask
+=
+task
+;
 MessageLoop
 :
 :
@@ -408,8 +416,11 @@ current
 >
 PostDelayedTask
 (
-FROM_HERE
-mSetActiveTask
+task
+.
+forget
+(
+)
 sActivationDelayMs
 )
 ;

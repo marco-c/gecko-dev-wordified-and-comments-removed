@@ -175,9 +175,6 @@ h
 class
 nsIObserver
 ;
-class
-Task
-;
 namespace
 base
 {
@@ -193,6 +190,9 @@ EGLSurface
 namespace
 mozilla
 {
+class
+Runnable
+;
 namespace
 hal
 {
@@ -1981,8 +1981,10 @@ public
 void
 PostTaskToUiThread
 (
-Task
-*
+already_AddRefed
+<
+Runnable
+>
 aTask
 int
 aDelayMs

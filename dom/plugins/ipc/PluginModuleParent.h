@@ -2482,6 +2482,8 @@ mFlashProcess1
 DWORD
 mFlashProcess2
 ;
+RefPtr
+<
 mozilla
 :
 :
@@ -2489,7 +2491,7 @@ plugins
 :
 :
 FinishInjectorInitTask
-*
+>
 mFinishInitTask
 ;
 #
@@ -2529,7 +2531,7 @@ aModule
 )
 ;
 }
-void
+NS_IMETHOD
 Run
 (
 )
@@ -2542,6 +2544,9 @@ OnProcessLaunched
 (
 mLaunchSucceeded
 )
+;
+return
+NS_OK
 ;
 }
 private

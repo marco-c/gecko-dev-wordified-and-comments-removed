@@ -19,15 +19,6 @@ h
 #
 include
 "
-base
-/
-tracked
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx
@@ -476,7 +467,6 @@ message_loop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 NuwaMarkCurrentThread
@@ -581,7 +571,6 @@ GetMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 ConnectSharedBufferManagerInChildProcess
@@ -853,7 +842,6 @@ GetMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 &
@@ -923,7 +911,6 @@ GetMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 &
@@ -1151,7 +1138,6 @@ GetMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 &
@@ -1475,7 +1461,6 @@ GetMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 &

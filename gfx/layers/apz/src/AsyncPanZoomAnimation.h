@@ -132,8 +132,10 @@ aDelta
 }
 nsTArray
 <
-Task
-*
+RefPtr
+<
+Runnable
+>
 >
 TakeDeferredTasks
 (
@@ -189,8 +191,10 @@ AsyncPanZoomAnimation
 }
 nsTArray
 <
-Task
-*
+RefPtr
+<
+Runnable
+>
 >
 mDeferredTasks
 ;

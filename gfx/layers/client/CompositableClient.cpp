@@ -251,8 +251,10 @@ UsesImageBridge
 )
 )
 {
+RefPtr
+<
 TextureClientReleaseTask
-*
+>
 task
 =
 new
@@ -293,8 +295,11 @@ GetMessageLoop
 >
 PostTask
 (
-FROM_HERE
 task
+.
+forget
+(
+)
 )
 ;
 }

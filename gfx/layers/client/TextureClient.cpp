@@ -1126,7 +1126,6 @@ ipdlMsgLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 DeallocateTextureClientSyncProxy
@@ -1159,7 +1158,6 @@ ipdlMsgLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 DeallocateTextureClient

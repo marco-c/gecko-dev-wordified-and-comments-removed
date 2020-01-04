@@ -532,7 +532,6 @@ mIOLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
@@ -552,7 +551,6 @@ mIOLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
@@ -671,7 +669,6 @@ mIOLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
@@ -920,7 +917,6 @@ mIOLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 mTransport
@@ -964,7 +960,6 @@ mIOLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
