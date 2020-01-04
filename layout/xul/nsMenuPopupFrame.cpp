@@ -3803,8 +3803,6 @@ ShowPopup
 (
 bool
 aIsContextMenu
-bool
-aSelectFirstItem
 )
 {
 mIsContextMenu

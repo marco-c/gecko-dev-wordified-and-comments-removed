@@ -856,8 +856,6 @@ ShowPopup
 (
 bool
 aIsContextMenu
-bool
-aSelectFirstItem
 )
 ;
 void
