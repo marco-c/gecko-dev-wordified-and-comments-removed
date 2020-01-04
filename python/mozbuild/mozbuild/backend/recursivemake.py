@@ -11022,7 +11022,7 @@ ACDEFINES
                     
 '
 (
-XULPPFLAGS
+MOZ_DEBUG_DEFINES
 )
 <
 -

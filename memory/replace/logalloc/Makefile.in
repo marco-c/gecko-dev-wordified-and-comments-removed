@@ -63,5 +63,5 @@ mozilla
 :
 :
 Logger
-MOZ_DEBUG_ENABLE_DEFS
+MOZ_DEBUG_DEFINES
 =

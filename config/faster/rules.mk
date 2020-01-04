@@ -837,13 +837,6 @@ nsURLFormatter
 js
 .
 #
-Things
-missing
-:
-#
--
-XULPPFLAGS
-#
 #
 The
 list
@@ -1052,6 +1045,10 @@ defines
 ACDEFINES
 )
 \
+(
+MOZ_DEBUG_DEFINES
+)
+\
 <
 \
 -
@@ -1135,9 +1132,6 @@ yet
 Things
 missing
 :
-#
--
-XULPPFLAGS
 #
 -
 DEFINES
@@ -1554,6 +1548,10 @@ defines
 \
 (
 ACDEFINES
+)
+\
+(
+MOZ_DEBUG_DEFINES
 )
 \
 <

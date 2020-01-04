@@ -136,7 +136,7 @@ preprocessor
 DEFINES
 )
 (
-XULPPFLAGS
+MOZ_DEBUG_DEFINES
 )
 \
 (
