@@ -229,7 +229,7 @@ content
 /
 test
 /
-general
+webrtc
 /
 browser_devices_get_user_media_about_urls
 .
@@ -362,7 +362,7 @@ content
 /
 test
 /
-general
+webrtc
 /
 browser_devices_get_user_media_about_urls
 .
