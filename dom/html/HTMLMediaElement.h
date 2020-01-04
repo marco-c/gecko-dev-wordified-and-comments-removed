@@ -3210,6 +3210,9 @@ mJoinLatency
 bool
 mHasUserInteraction
 ;
+bool
+mFirstFrameLoaded
+;
 }
 ;
 }
