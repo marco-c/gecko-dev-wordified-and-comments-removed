@@ -131,6 +131,11 @@ GPUProcessImpl
 h
 '
 '
+GPUProcessListener
+.
+h
+'
+'
 GPUProcessManager
 .
 h
