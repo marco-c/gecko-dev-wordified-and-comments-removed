@@ -497,7 +497,7 @@ InputData
 &
 aEvent
 const
-Matrix4x4
+ScreenToParentLayerMatrix4x4
 &
 aTransformToApzc
 )
@@ -599,7 +599,7 @@ GetLastTouchIdentifier
 )
 const
 ;
-Matrix4x4
+ScreenToParentLayerMatrix4x4
 GetTransformToThis
 (
 )

@@ -624,10 +624,7 @@ HitTestResult
 aOutHitResult
 )
 ;
-gfx
-:
-:
-Matrix4x4
+ScreenToParentLayerMatrix4x4
 GetScreenToApzcTransform
 (
 const
@@ -637,10 +634,7 @@ aApzc
 )
 const
 ;
-gfx
-:
-:
-Matrix4x4
+ParentLayerToScreenMatrix4x4
 GetApzcToGeckoTransform
 (
 const

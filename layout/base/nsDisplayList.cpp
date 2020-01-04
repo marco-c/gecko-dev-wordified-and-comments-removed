@@ -6637,7 +6637,7 @@ IsForPainting
 return
 ;
 }
-Matrix4x4
+LayoutDeviceToLayoutDeviceMatrix4x4
 referenceFrameToRootReferenceFrame
 ;
 nsIFrame
@@ -6665,6 +6665,11 @@ IsInTransform
 {
 referenceFrameToRootReferenceFrame
 =
+ViewAs
+<
+LayoutDeviceToLayoutDeviceMatrix4x4
+>
+(
 nsLayoutUtils
 :
 :
@@ -6672,6 +6677,7 @@ GetTransformToAncestor
 (
 referenceFrame
 mReferenceFrame
+)
 )
 ;
 Matrix
