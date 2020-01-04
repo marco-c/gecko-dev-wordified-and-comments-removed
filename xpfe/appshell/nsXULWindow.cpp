@@ -4333,8 +4333,16 @@ treeOwner
 {
 int32_t
 width
+=
+0
 height
+=
+0
 ;
+if
+(
+NS_SUCCEEDED
+(
 cv
 -
 >
@@ -4345,7 +4353,9 @@ width
 &
 height
 )
-;
+)
+)
+{
 treeOwner
 -
 >
@@ -4356,6 +4366,7 @@ width
 height
 )
 ;
+}
 }
 }
 }
