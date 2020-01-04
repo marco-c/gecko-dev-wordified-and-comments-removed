@@ -687,6 +687,16 @@ OS_TARGET
 !
 =
 WINNT
+-
+a
+"
+MOZ_WIDGET_TOOLKIT
+"
+!
+=
+"
+android
+"
 ;
 then
 MOZ_ICU_DATA_ARCHIVE
