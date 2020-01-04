@@ -905,14 +905,6 @@ MainThreadRun
 ;
 public
 :
-bool
-Dispatch
-(
-JSContext
-*
-aCx
-)
-;
 void
 Dispatch
 (
