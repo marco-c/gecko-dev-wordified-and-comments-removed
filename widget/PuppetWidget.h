@@ -820,9 +820,12 @@ GetWindowPosition
 )
 ;
 NS_IMETHOD
-GetScreenBoundsUntyped
+GetScreenBounds
 (
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 &
 aRect
 )
