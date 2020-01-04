@@ -15590,7 +15590,7 @@ dom
 Selection
 :
 :
-AutoApplyUserSelectStyle
+AutoUserInitiated
 >
 userSelection
 ;

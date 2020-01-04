@@ -1488,7 +1488,7 @@ userSelection
 aSelection
 -
 >
-mApplyUserSelectStyle
+mUserInitiated
 ;
 nsTArray
 <
@@ -1862,7 +1862,7 @@ Maybe
 Selection
 :
 :
-AutoApplyUserSelectStyle
+AutoUserInitiated
 >
 mUserSelect
 ;
@@ -6915,7 +6915,7 @@ Maybe
 Selection
 :
 :
-AutoApplyUserSelectStyle
+AutoUserInitiated
 >
 userSelect
 ;
@@ -13723,7 +13723,7 @@ nsISelectionController
 :
 SELECTION_NORMAL
 )
-mApplyUserSelectStyle
+mUserInitiated
 (
 false
 )
@@ -13762,7 +13762,7 @@ nsISelectionController
 :
 SELECTION_NORMAL
 )
-mApplyUserSelectStyle
+mUserInitiated
 (
 false
 )
@@ -15245,7 +15245,7 @@ null
 ;
 if
 (
-mApplyUserSelectStyle
+mUserInitiated
 )
 {
 nsAutoTArray

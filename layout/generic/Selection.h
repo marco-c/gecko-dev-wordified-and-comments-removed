@@ -991,14 +991,14 @@ NotifySelectionListeners
 ;
 friend
 struct
-AutoApplyUserSelectStyle
+AutoUserInitiated
 ;
 struct
 MOZ_RAII
-AutoApplyUserSelectStyle
+AutoUserInitiated
 {
 explicit
-AutoApplyUserSelectStyle
+AutoUserInitiated
 (
 Selection
 *
@@ -1011,7 +1011,7 @@ mSavedValue
 aSelection
 -
 >
-mApplyUserSelectStyle
+mUserInitiated
 )
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
@@ -1019,7 +1019,7 @@ MOZ_GUARD_OBJECT_NOTIFIER_INIT
 aSelection
 -
 >
-mApplyUserSelectStyle
+mUserInitiated
 =
 true
 ;
@@ -1367,7 +1367,7 @@ SelectionType
 mType
 ;
 bool
-mApplyUserSelectStyle
+mUserInitiated
 ;
 uint32_t
 mSelectionChangeBlockerCount

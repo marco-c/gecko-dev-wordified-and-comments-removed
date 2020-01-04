@@ -9758,7 +9758,7 @@ dom
 Selection
 :
 :
-AutoApplyUserSelectStyle
+AutoUserInitiated
 userSelection
 (
 selection
