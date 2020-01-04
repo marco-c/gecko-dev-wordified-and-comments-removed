@@ -820,7 +820,7 @@ nsTArray
 <
 nsRefPtr
 <
-MessagePort
+MessagePortBase
 >
 >
 ports
