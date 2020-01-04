@@ -24138,12 +24138,9 @@ return
 nullptr
 ;
 }
-layer
--
->
-SetMaskLayer
+ResetLayerStateForRecycling
 (
-nullptr
+layer
 )
 ;
 return
