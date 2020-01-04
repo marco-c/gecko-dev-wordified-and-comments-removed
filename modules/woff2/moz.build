@@ -104,6 +104,13 @@ woff2_dec
 .
 h
 '
+'
+src
+/
+woff2_out
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -134,6 +141,13 @@ cc
 src
 /
 woff2_dec
+.
+cc
+'
+'
+src
+/
+woff2_out
 .
 cc
 '
