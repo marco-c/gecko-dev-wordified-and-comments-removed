@@ -1404,12 +1404,6 @@ mContentDispositionHeader
 IsEmpty
 (
 )
-&
-&
-mContentDisposition
-=
-=
-UINT32_MAX
 )
 return
 NS_ERROR_NOT_AVAILABLE
