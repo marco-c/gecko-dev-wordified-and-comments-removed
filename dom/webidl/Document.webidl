@@ -1707,6 +1707,7 @@ it
 uppercase
 .
 [
+LenientSetter
 Func
 =
 "
@@ -1739,6 +1740,7 @@ boolean
 mozFullScreenEnabled
 ;
 [
+LenientSetter
 Func
 =
 "
