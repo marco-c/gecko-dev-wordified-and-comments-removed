@@ -4068,6 +4068,7 @@ PrefSetting
 ]
 prefs
 )
+verify
 ;
 sync
 ReadFontList
