@@ -16,6 +16,17 @@ content
 .
 Intent
 ;
+import
+org
+.
+mozilla
+.
+gecko
+.
+db
+.
+BrowserDB
+;
 public
 interface
 BaseAction
@@ -23,6 +34,8 @@ BaseAction
 void
 perform
 (
+BrowserDB
+browserDB
 Intent
 intent
 )

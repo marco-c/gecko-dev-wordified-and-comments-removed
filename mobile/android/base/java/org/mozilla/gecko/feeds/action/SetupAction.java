@@ -58,6 +58,17 @@ mozilla
 .
 gecko
 .
+db
+.
+BrowserDB
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 feeds
 .
 FeedAlarmReceiver
@@ -112,6 +123,8 @@ public
 void
 perform
 (
+BrowserDB
+browserDB
 Intent
 intent
 )
