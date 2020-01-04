@@ -1163,6 +1163,17 @@ nullptr
 )
 ;
 bool
+IsInARIAOwnsLoop
+(
+nsIContent
+*
+aOwnerEl
+nsIContent
+*
+aDependentEl
+)
+;
+bool
 UpdateAccessibleOnAttrChange
 (
 mozilla
