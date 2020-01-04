@@ -3674,7 +3674,7 @@ http
 .
 enablePerElementReferrer
 "
-false
+true
 )
 ;
 if

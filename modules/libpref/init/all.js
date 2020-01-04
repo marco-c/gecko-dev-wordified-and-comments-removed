@@ -10749,7 +10749,7 @@ http
 .
 enablePerElementReferrer
 "
-false
+true
 )
 ;
 pref
