@@ -490,6 +490,15 @@ rv
 rv
 )
 ;
+update
+-
+>
+AddObserver
+(
+this
+false
+)
+;
 rv
 =
 update
@@ -506,6 +515,8 @@ rv
 )
 ;
 }
+else
+{
 update
 -
 >
@@ -515,6 +526,7 @@ this
 false
 )
 ;
+}
 if
 (
 stickDocument
