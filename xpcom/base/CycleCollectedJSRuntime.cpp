@@ -2300,7 +2300,7 @@ InstanceClassHasProtoAtDepth
 ;
 SetDOMCallbacks
 (
-mJSRuntime
+mJSContext
 &
 DOMcallbacks
 )

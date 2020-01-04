@@ -5117,9 +5117,9 @@ void
 )
 SetDOMCallbacks
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 const
 DOMCallbacks
 *
@@ -5135,9 +5135,9 @@ DOMCallbacks
 )
 GetDOMCallbacks
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 extern
@@ -10585,9 +10585,9 @@ void
 )
 SetWindowProxyClass
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 const
 Class
 *

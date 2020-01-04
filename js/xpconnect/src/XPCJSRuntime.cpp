@@ -18549,7 +18549,7 @@ js
 :
 SetWindowProxyClass
 (
-runtime
+cx
 &
 OuterWindowProxyClass
 )
