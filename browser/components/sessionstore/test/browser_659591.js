@@ -148,9 +148,10 @@ false
 ;
 executeSoon
 (
-function
 (
 )
+=
+>
 callback
 (
 win

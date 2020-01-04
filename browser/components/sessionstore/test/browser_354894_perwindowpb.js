@@ -1645,9 +1645,10 @@ NOTIFICATIONS_EXPECTED
 {
 executeSoon
 (
-function
 (
 )
+=
+>
 testMacNotifications
 (
 nextFn
