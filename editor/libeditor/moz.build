@@ -143,7 +143,7 @@ UNIFIED_SOURCES
 =
 [
 '
-ChangeAttributeTxn
+ChangeAttributeTransaction
 .
 cpp
 '
