@@ -1,3 +1,14 @@
+load
+(
+libdir
++
+"
+class
+.
+js
+"
+)
+;
 function
 testArrayContents
 (
@@ -215,6 +226,13 @@ x
 ]
 )
 ;
+if
+(
+classesEnabled
+(
+)
+)
+{
 testLocalExportEntries
 (
 '
@@ -252,6 +270,7 @@ foo
 ]
 )
 ;
+}
 testLocalExportEntries
 (
 '
