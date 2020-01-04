@@ -341,9 +341,7 @@ tasks
 /
 builds
 /
-opt_linux64
--
-asan
+opt_linux64_asan
 .
 yml
 debug
@@ -354,9 +352,7 @@ tasks
 /
 builds
 /
-dbg_linux64
--
-asan
+dbg_linux64_asan
 .
 yml
 linux64
