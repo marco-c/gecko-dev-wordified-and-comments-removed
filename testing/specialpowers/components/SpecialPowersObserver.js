@@ -1673,17 +1673,6 @@ permission
 principal
 .
 appId
-originAttributes
-:
-{
-appId
-:
-permission
-.
-principal
-.
-appId
-}
 }
 type
 :
