@@ -205,7 +205,6 @@ prefix
 '
 Web
 Manifest
-:
 '
 }
 )
