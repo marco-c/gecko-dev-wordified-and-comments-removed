@@ -121,6 +121,8 @@ api
 -
 11
 -
+c6
+-
 workspace
 '
 -
@@ -197,6 +199,8 @@ android
 api
 -
 11
+-
+c6
 -
 workspace
 :

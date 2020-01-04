@@ -140,6 +140,8 @@ build
 -
 macosx64
 -
+c6
+-
 workspace
 :
 '

@@ -101,6 +101,8 @@ build
 -
 linux64
 -
+c6
+-
 workspace
 '
 -
@@ -157,6 +159,8 @@ cache
 build
 -
 linux64
+-
+c6
 -
 workspace
 :
