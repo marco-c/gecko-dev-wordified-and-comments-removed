@@ -5641,6 +5641,8 @@ activeIndex
 true
 )
 ;
+try
+{
 aHistory
 .
 QueryInterface
@@ -5654,6 +5656,13 @@ reloadCurrentEntry
 (
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 }
 _restoreTextData
 :
