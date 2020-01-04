@@ -998,6 +998,15 @@ if
 imageLoader
 )
 {
+nsSVGImageFrameBase
+:
+:
+OnVisibilityChange
+(
+aNewVisibility
+aNonvisibleAction
+)
+;
 return
 ;
 }

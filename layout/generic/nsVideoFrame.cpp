@@ -3028,6 +3028,15 @@ if
 imageLoader
 )
 {
+nsVideoFrameBase
+:
+:
+OnVisibilityChange
+(
+aNewVisibility
+aNonvisibleAction
+)
+;
 return
 ;
 }
