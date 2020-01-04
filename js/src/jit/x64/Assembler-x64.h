@@ -1132,6 +1132,13 @@ endif
 static
 constexpr
 Register
+WasmTlsReg
+=
+r14
+;
+static
+constexpr
+Register
 AsmJSIonExitRegCallee
 =
 r10

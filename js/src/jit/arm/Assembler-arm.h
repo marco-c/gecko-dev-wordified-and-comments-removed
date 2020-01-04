@@ -477,6 +477,13 @@ ArrayLength
 CallTempNonArgRegs
 )
 ;
+static
+constexpr
+Register
+WasmTlsReg
+=
+r9
+;
 class
 ABIArgGenerator
 {

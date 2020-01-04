@@ -3802,6 +3802,15 @@ hi
 ;
 }
 ;
+struct
+TlsData
+{
+void
+*
+stackLimit
+;
+}
+;
 typedef
 int32_t
 (
@@ -3815,6 +3824,9 @@ args
 uint8_t
 *
 global
+TlsData
+*
+tls
 )
 ;
 static

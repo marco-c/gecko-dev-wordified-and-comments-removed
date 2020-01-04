@@ -778,6 +778,13 @@ ScratchSimd128Reg
 InvalidFloatReg
 ;
 static
+constexpr
+Register
+WasmTlsReg
+=
+s5
+;
+static
 const
 int32_t
 AsmJSGlobalRegBias
