@@ -608,9 +608,13 @@ searchfor
 16
 ]
 ;
-sprintf
+snprintf
 (
 searchfor
+sizeof
+(
+searchfor
+)
 "
 %
 d
