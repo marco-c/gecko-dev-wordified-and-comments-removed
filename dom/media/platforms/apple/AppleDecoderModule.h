@@ -114,6 +114,10 @@ Init
 (
 )
 ;
+static
+bool
+sCanUseHardwareVideoDecoder
+;
 private
 :
 static
