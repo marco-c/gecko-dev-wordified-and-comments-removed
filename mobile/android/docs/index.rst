@@ -112,7 +112,6 @@ maxdepth
 localeswitching
 uitelemetry
 adjust
-gradle
 Indices
 and
 tables
