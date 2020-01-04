@@ -345,9 +345,6 @@ cb7d69325cd9
 }
 #
 endif
-#
-ifdef
-MOZ_SAFE_BROWSING
 contract
 mozilla
 .
@@ -375,8 +372,6 @@ aebf
 -
 cb7d69325cd9
 }
-#
-endif
 contract
 mozilla
 .
