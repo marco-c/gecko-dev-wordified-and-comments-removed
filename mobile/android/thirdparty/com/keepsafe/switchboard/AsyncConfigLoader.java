@@ -36,10 +36,6 @@ context
 ;
 private
 String
-uuid
-;
-private
-String
 defaultServerUrl
 ;
 public
@@ -47,8 +43,6 @@ AsyncConfigLoader
 (
 Context
 c
-String
-uuid
 String
 defaultServerUrl
 )
@@ -58,12 +52,6 @@ this
 context
 =
 c
-;
-this
-.
-uuid
-=
-uuid
 ;
 this
 .
@@ -89,7 +77,6 @@ SwitchBoard
 loadConfig
 (
 context
-uuid
 defaultServerUrl
 )
 ;
