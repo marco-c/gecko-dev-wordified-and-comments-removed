@@ -15316,6 +15316,7 @@ nsContentUtils
 GetSystemPrincipal
 (
 )
+false
 )
 ;
 }

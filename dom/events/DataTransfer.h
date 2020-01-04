@@ -861,6 +861,8 @@ aIndex
 nsIPrincipal
 *
 aPrincipal
+bool
+aHidden
 )
 ;
 Element
