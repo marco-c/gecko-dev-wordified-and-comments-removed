@@ -113,6 +113,23 @@ src
 }
     
 "
+tooltool_servers
+"
+:
+[
+'
+http
+:
+/
+/
+relengapi
+/
+tooltool
+/
+'
+]
+    
+"
 upload_env
 "
 :
