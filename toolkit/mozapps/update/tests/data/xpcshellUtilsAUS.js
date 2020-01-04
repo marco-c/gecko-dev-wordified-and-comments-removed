@@ -721,6 +721,9 @@ var
 gAppDirOrig
 ;
 var
+gApplyToDirOverride
+;
+var
 gServiceLaunchedCallbackLog
 =
 null
@@ -5486,6 +5489,17 @@ Version
 ;
 }
 function
+overrideApplyToDir
+(
+dir
+)
+{
+gApplyToDirOverride
+=
+dir
+;
+}
+function
 getApplyDirPath
 (
 )
@@ -7840,6 +7854,9 @@ args
 2
 ]
 =
+gApplyToDirOverride
+|
+|
 stageDirPath
 ;
 args
@@ -7861,6 +7878,9 @@ args
 2
 ]
 =
+gApplyToDirOverride
+|
+|
 applyToDirPath
 ;
 args
