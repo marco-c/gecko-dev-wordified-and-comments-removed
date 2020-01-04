@@ -5624,6 +5624,14 @@ other_c_compiler
 =
 c_compiler
 )
+include
+(
+'
+compilechecks
+.
+configure
+'
+)
 depends
 (
 c_compiler
