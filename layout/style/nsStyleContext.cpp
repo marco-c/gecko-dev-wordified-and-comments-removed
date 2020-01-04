@@ -3037,6 +3037,15 @@ text
 mTextAlign
 =
 =
+NS_STYLE_TEXT_ALIGN_MOZ_LEFT
+|
+|
+text
+-
+>
+mTextAlign
+=
+=
 NS_STYLE_TEXT_ALIGN_MOZ_CENTER
 |
 |
