@@ -511,6 +511,11 @@ FOR
 \
 F
 (
+COMPREHENSIONFOR
+)
+\
+F
+(
 BREAK
 )
 \
@@ -2968,7 +2973,7 @@ last
 >
 isKind
 (
-PNK_FOR
+PNK_COMPREHENSIONFOR
 )
 )
 ;

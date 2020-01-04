@@ -36702,7 +36702,7 @@ new_
 BinaryNode
 >
 (
-PNK_FOR
+PNK_COMPREHENSIONFOR
 JSOP_ITER
 pos
 (
@@ -38889,12 +38889,11 @@ null
 return
 handler
 .
-newForStatement
+newComprehensionFor
 (
 begin
 head
 tail
-JSOP_ITER
 )
 ;
 }

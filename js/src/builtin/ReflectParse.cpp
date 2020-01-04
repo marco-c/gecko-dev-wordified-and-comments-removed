@@ -12530,6 +12530,9 @@ dst
 case
 PNK_FOR
 :
+case
+PNK_COMPREHENSIONFOR
+:
 {
 MOZ_ASSERT
 (
@@ -14185,7 +14188,7 @@ next
 >
 isKind
 (
-PNK_FOR
+PNK_COMPREHENSIONFOR
 )
 )
 ;
@@ -14217,7 +14220,7 @@ next
 >
 isKind
 (
-PNK_FOR
+PNK_COMPREHENSIONFOR
 )
 )
 {
@@ -14436,7 +14439,7 @@ next
 >
 isKind
 (
-PNK_FOR
+PNK_COMPREHENSIONFOR
 )
 )
 ;
@@ -14468,7 +14471,7 @@ next
 >
 isKind
 (
-PNK_FOR
+PNK_COMPREHENSIONFOR
 )
 )
 {

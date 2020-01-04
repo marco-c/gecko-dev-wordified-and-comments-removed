@@ -1929,6 +1929,9 @@ case
 PNK_FOR
 :
 case
+PNK_COMPREHENSIONFOR
+:
+case
 PNK_CLASSMETHOD
 :
 case
@@ -3276,7 +3279,7 @@ pn_head
 >
 isKind
 (
-PNK_FOR
+PNK_COMPREHENSIONFOR
 )
 )
 ;

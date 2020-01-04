@@ -812,6 +812,9 @@ result
 case
 PNK_FOR
 :
+case
+PNK_COMPREHENSIONFOR
+:
 {
 MOZ_ASSERT
 (
@@ -8403,6 +8406,9 @@ PNK_LETBLOCK
 :
 case
 PNK_FOR
+:
+case
+PNK_COMPREHENSIONFOR
 :
 case
 PNK_CLASSMETHOD

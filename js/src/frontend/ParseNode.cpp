@@ -900,6 +900,9 @@ PNK_SETTHIS
 case
 PNK_FOR
 :
+case
+PNK_COMPREHENSIONFOR
+:
 {
 MOZ_ASSERT
 (
@@ -2055,7 +2058,7 @@ pn_head
 >
 isKind
 (
-PNK_FOR
+PNK_COMPREHENSIONFOR
 )
 )
 ;
