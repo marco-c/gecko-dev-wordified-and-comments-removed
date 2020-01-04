@@ -1215,6 +1215,11 @@ bindingName
 ;
 }
 }
+InstantiateModuleFunctionDeclarations
+(
+module
+)
+;
 }
 function
 ModuleEvaluation
