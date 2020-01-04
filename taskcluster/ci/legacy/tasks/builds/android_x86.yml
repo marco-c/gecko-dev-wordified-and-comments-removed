@@ -290,6 +290,16 @@ project
 MH_BUILD_POOL
 :
 taskcluster
+TOOLTOOL_CACHE
+:
+/
+home
+/
+worker
+/
+tooltool
+-
+cache
 command
 :
 [
