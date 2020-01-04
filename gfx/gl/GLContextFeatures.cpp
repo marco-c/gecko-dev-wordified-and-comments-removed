@@ -101,6 +101,9 @@ ES3
 ES3_1
 =
 310
+ES3_2
+=
+320
 }
 ;
 static
@@ -472,7 +475,7 @@ GL3
 GLESVersion
 :
 :
-NONE
+ES3_2
 GLContext
 :
 :
@@ -1215,7 +1218,7 @@ GL3
 GLESVersion
 :
 :
-ES3
+ES3_2
 GLContext
 :
 :
@@ -1246,7 +1249,7 @@ GL3
 GLESVersion
 :
 :
-ES3
+ES3_2
 GLContext
 :
 :
