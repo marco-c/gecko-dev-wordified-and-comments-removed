@@ -399,10 +399,6 @@ friend
 class
 DecoderFactory
 ;
-friend
-class
-nsICODecoder
-;
 enum
 class
 State
