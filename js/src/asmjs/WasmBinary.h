@@ -234,7 +234,7 @@ F32CopySign
 F32Ceil
 F32Floor
 F32Trunc
-F32NearestInt
+F32Nearest
 F32Sqrt
 F32Eq
 F32Ne
@@ -254,7 +254,7 @@ F64CopySign
 F64Ceil
 F64Floor
 F64Trunc
-F64NearestInt
+F64Nearest
 F64Sqrt
 F64Eq
 F64Ne

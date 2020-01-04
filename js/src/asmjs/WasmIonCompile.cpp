@@ -17915,7 +17915,7 @@ case
 Expr
 :
 :
-F32NearestInt
+F32Nearest
 :
 case
 Expr
@@ -17927,7 +17927,7 @@ case
 Expr
 :
 :
-F64NearestInt
+F64Nearest
 :
 case
 Expr
