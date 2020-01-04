@@ -227,6 +227,15 @@ protocol
 js
 '
 '
+service
+-
+worker
+-
+child
+.
+js
+'
+'
 worker
 .
 js
