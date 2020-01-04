@@ -1420,7 +1420,10 @@ GetFillRule
 )
 =
 =
-NS_STYLE_FILL_RULE_NONZERO
+StyleFillRule
+:
+:
+NonZero
 ?
 FillRule
 :

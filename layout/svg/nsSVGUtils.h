@@ -1397,7 +1397,10 @@ static
 FillRule
 ToFillRule
 (
-uint8_t
+mozilla
+:
+:
+StyleFillRule
 aFillRule
 )
 {
@@ -1405,7 +1408,13 @@ return
 aFillRule
 =
 =
-NS_STYLE_FILL_RULE_EVENODD
+mozilla
+:
+:
+StyleFillRule
+:
+:
+EvenOdd
 ?
 FillRule
 :
