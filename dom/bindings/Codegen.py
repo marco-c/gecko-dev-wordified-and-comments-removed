@@ -30518,9 +30518,11 @@ fill
                 
 if
 (
+(
 {
 passedToJSImpl
 }
+)
 &
 &
 !
@@ -37346,9 +37348,11 @@ fill
                 
 if
 (
+(
 {
 passedToJSImpl
 }
+)
 &
 &
 !
@@ -50702,12 +50706,8 @@ append
 CGGeneric
 (
 "
-/
-*
-Fall
-through
-*
-/
+MOZ_FALLTHROUGH
+;
 \
 n
 "

@@ -9394,7 +9394,7 @@ QuickExit
 )
 ;
 #
-endif
+else
 if
 (
 sFirstIdleTask
@@ -9478,6 +9478,8 @@ XRE_ShutdownChildProcess
 (
 )
 ;
+#
+endif
 }
 void
 ContentChild
