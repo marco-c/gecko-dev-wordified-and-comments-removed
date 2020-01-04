@@ -153,7 +153,6 @@ msg
 )
 {
 }
-;
 function
 error
 (
@@ -180,7 +179,6 @@ n
 )
 ;
 }
-;
 function
 getPreviousAccountNameHash
 (

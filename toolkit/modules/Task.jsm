@@ -149,7 +149,6 @@ index
 ;
 }
 }
-;
 function
 isGenerator
 (

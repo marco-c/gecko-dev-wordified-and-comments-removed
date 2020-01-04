@@ -25,7 +25,6 @@ AppPicker
 )
 {
 }
-;
 AppPicker
 .
 prototype

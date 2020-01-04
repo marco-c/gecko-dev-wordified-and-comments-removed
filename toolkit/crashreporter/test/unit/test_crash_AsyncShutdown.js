@@ -467,7 +467,6 @@ n
 )
 ;
 }
-;
 function
 after_osfile_crash_noerror
 (
@@ -771,7 +770,6 @@ n
 )
 ;
 }
-;
 function
 after_osfile_crash_exn
 (

@@ -106,7 +106,6 @@ _array
 ]
 ;
 }
-;
 Queue
 .
 prototype
@@ -1375,7 +1374,6 @@ data
 data
 ;
 }
-;
 this
 .
 BasePromiseWorker

@@ -207,7 +207,6 @@ destroy
 )
 ;
 }
-;
 add_task
 (
 function

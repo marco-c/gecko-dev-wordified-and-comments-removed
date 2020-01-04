@@ -586,7 +586,6 @@ self
 )
 ;
 }
-;
 this
 .
 _frame

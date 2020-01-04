@@ -435,7 +435,6 @@ divisor
 prefWidth
 )
 ;
-;
 this
 .
 _thumbnailHeight

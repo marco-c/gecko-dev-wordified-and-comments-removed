@@ -684,7 +684,6 @@ gDBConn
 null
 ;
 }
-;
 function
 readInputStreamData
 (

@@ -6358,7 +6358,6 @@ e
 )
 {
 }
-;
 this
 .
 _addMatch

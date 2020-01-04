@@ -1025,7 +1025,6 @@ return
 mockProvider
 ;
 }
-;
 function
 spoofTheme
 (

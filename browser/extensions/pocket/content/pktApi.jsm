@@ -1190,7 +1190,6 @@ title
 title
 ;
 }
-;
 return
 apiRequest
 (

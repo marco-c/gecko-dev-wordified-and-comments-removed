@@ -2053,7 +2053,6 @@ getResultByName
 prop
 )
 }
-;
 return
 addon
 ;

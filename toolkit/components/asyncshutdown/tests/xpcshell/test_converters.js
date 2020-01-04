@@ -109,7 +109,6 @@ return
 result
 ;
 }
-;
 function
 test_conversions
 (

@@ -2563,7 +2563,6 @@ panelId
 return
 ;
 }
-;
 var
 panelFrame
 =

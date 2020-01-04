@@ -1383,7 +1383,6 @@ e
 )
 {
 }
-;
 if
 (
 xpinstall_enabled

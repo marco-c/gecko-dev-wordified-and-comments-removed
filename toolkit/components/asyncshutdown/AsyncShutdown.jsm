@@ -1546,7 +1546,6 @@ return
 phase
 ;
 }
-;
 function
 Spinner
 (

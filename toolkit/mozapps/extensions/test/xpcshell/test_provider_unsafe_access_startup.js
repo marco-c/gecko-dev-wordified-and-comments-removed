@@ -120,7 +120,6 @@ return
 mockProvider
 ;
 }
-;
 function
 run_test
 (

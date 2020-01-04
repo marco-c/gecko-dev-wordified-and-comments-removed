@@ -5957,7 +5957,6 @@ throw
 e
 ;
 }
-;
 return
 ping
 ;

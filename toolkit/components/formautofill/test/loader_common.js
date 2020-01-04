@@ -102,7 +102,6 @@ false
 }
 }
 }
-;
 function
 add_termination_task
 (

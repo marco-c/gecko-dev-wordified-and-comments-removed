@@ -1350,7 +1350,6 @@ origin
 )
 ;
 }
-;
 var
 PocketContextMenu
 =
@@ -1475,7 +1474,6 @@ subject
 aSubject
 .
 wrappedJSObject
-;
 ;
 let
 document

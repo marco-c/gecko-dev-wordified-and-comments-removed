@@ -142,7 +142,6 @@ VisitInfo
 )
 ;
 }
-;
 gHistory
 .
 updatePlaces

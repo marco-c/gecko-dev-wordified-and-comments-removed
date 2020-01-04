@@ -1121,7 +1121,6 @@ random
 )
 )
 ;
-;
 yield
 PlacesTestUtils
 .

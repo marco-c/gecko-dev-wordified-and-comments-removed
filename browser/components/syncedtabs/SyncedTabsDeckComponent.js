@@ -379,7 +379,6 @@ SyncedTabs
 )
 ;
 }
-;
 SyncedTabsDeckComponent
 .
 prototype

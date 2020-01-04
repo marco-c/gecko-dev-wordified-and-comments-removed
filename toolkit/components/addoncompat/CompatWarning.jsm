@@ -236,7 +236,6 @@ js
 1
 ;
 }
-;
 let
 stack
 =

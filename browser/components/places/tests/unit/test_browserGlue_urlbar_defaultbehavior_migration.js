@@ -95,7 +95,6 @@ run_next_test
 )
 ;
 }
-;
 do_register_cleanup
 (
 cleanup
@@ -178,7 +177,6 @@ AUTOCOMPLETE_PREF
 )
 ;
 }
-;
 function
 setupBehaviorAndMigrate
 (
@@ -240,7 +238,6 @@ TOPICDATA_BROWSERGLUE_TEST
 )
 ;
 }
-;
 add_task
 (
 function

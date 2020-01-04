@@ -16197,7 +16197,6 @@ item
 )
 ;
 }
-;
 function
 getWebNavigation
 (
@@ -28879,7 +28878,6 @@ preventDefault
 )
 ;
 }
-;
 function
 BrowserSetForcedCharacterSet
 (
@@ -36789,7 +36787,6 @@ return
 null
 ;
 }
-;
 function
 getTabModalPromptBox
 (
@@ -36824,7 +36821,6 @@ return
 null
 ;
 }
-;
 function
 getBrowser
 (

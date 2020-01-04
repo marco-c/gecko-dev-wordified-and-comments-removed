@@ -378,7 +378,6 @@ run_next_test
 )
 ;
 }
-;
 jwcrypto
 .
 generateKeyPair
@@ -450,7 +449,6 @@ run_next_test
 )
 ;
 }
-;
 jwcrypto
 .
 generateKeyPair
@@ -1121,7 +1119,6 @@ cryptoSegment
 }
 ;
 }
-;
 var
 TESTS
 =

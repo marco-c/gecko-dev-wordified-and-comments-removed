@@ -101,7 +101,6 @@ return
 watcher
 ;
 }
-;
 function
 promiseAddPath
 (

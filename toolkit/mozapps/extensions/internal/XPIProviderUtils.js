@@ -1513,7 +1513,6 @@ addon
 ;
 }
 }
-;
 return
 null
 ;
@@ -2871,7 +2870,6 @@ newAddon
 )
 ;
 }
-;
 parseTimer
 .
 done

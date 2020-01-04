@@ -708,7 +708,6 @@ SNTPListener
 )
 {
 }
-;
 SNTPListener
 .
 prototype

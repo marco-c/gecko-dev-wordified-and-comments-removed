@@ -170,7 +170,6 @@ true
 ;
 }
 }
-;
 function
 after_crash
 (

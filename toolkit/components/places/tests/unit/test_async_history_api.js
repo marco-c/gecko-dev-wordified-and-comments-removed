@@ -5237,7 +5237,6 @@ resolve
 break
 ;
 }
-;
 }
 )
 ;

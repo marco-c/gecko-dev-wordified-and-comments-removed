@@ -1379,7 +1379,6 @@ args
 )
 ;
 }
-;
 gNextTestSetupTasks
 =
 [

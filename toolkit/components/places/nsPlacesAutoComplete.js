@@ -4286,7 +4286,6 @@ default
 continue
 ;
 }
-;
 aTokens
 .
 splice

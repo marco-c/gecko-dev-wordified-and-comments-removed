@@ -9836,7 +9836,6 @@ resolve
 )
 ;
 }
-;
 let
 testObserver
 =
@@ -10649,7 +10648,6 @@ _loadInadjacentSites
 )
 ;
 }
-;
 let
 gLinks
 =

@@ -2174,7 +2174,6 @@ do_test_finished
 )
 ;
 }
-;
 }
 )
 ;

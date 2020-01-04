@@ -2943,7 +2943,6 @@ aObj
 )
 ;
 }
-;
 function
 ParameterFormatter
 (

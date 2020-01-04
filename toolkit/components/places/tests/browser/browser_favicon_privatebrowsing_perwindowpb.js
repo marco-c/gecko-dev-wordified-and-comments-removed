@@ -111,7 +111,6 @@ aWin
 )
 ;
 }
-;
 function
 waitForTabLoad
 (

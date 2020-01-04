@@ -323,7 +323,6 @@ return
 tester
 ;
 }
-;
 function
 setQuickMockTimer
 (

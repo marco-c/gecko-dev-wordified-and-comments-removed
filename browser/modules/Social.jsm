@@ -1638,7 +1638,6 @@ node
 )
 ;
 }
-;
 function
 CreateSocialMarkWidget
 (
@@ -1894,7 +1893,6 @@ node
 )
 ;
 }
-;
 function
 sizeSocialPanelToContent
 (

@@ -958,7 +958,6 @@ _moduleBarrier
 moduleBarrier
 ;
 }
-;
 nsAsyncShutdownBarrier
 .
 prototype

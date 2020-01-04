@@ -924,7 +924,6 @@ cb
 )
 ;
 }
-;
 jwcrypto
 .
 generateKeyPair

@@ -967,7 +967,6 @@ false
 ;
 }
 }
-;
 function
 addClass
 (
@@ -997,7 +996,6 @@ className
 ;
 }
 }
-;
 function
 removeClass
 (
@@ -1059,4 +1057,3 @@ reg
 ;
 }
 }
-;

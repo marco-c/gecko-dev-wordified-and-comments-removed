@@ -1550,7 +1550,6 @@ data
 )
 ;
 }
-;
 port
 .
 onmessage

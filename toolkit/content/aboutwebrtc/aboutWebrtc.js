@@ -1096,7 +1096,6 @@ none
 )
 ;
 }
-;
 fout
 .
 write
@@ -1138,7 +1137,6 @@ display
 )
 ;
 }
-;
 this
 .
 _message
@@ -2221,7 +2219,6 @@ render
 )
 ;
 }
-;
 return
 connections
 ;
@@ -2493,7 +2490,6 @@ elem
 )
 ;
 }
-;
 content
 .
 appendChild
@@ -3246,7 +3242,6 @@ statSet
 )
 ;
 }
-;
 return
 div
 ;
@@ -3321,7 +3316,6 @@ stats
 ;
 }
 }
-;
 for
 (
 let
@@ -3350,7 +3344,6 @@ remoteId
 ;
 }
 }
-;
 this
 .
 _stats
@@ -4181,7 +4174,6 @@ selected
 )
 ;
 }
-;
 let
 statsTable
 =
@@ -4456,7 +4448,6 @@ stat
 ;
 }
 }
-;
 for
 (
 let
@@ -4507,7 +4498,6 @@ stat
 )
 ;
 }
-;
 return
 stats
 .
@@ -4711,7 +4701,6 @@ cell
 )
 ;
 }
-;
 return
 row
 ;
@@ -4779,7 +4768,6 @@ row
 )
 ;
 }
-;
 return
 table
 ;
@@ -4887,7 +4875,6 @@ targetElem
 ;
 }
 }
-;
 FoldEffect
 .
 prototype
@@ -5148,7 +5135,6 @@ open
 )
 ;
 }
-;
 }
 ;
 FoldEffect
@@ -5176,6 +5162,5 @@ close
 )
 ;
 }
-;
 }
 ;

@@ -80,7 +80,6 @@ CrashMonitor
 )
 {
 }
-;
 CrashMonitor
 .
 prototype

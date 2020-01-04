@@ -2004,7 +2004,6 @@ resolve
 )
 ;
 }
-;
 aPanel
 .
 addEventListener
@@ -2291,7 +2290,6 @@ resolve
 )
 ;
 }
-;
 aSubview
 .
 addEventListener
@@ -2403,7 +2401,6 @@ resolve
 )
 ;
 }
-;
 aSubview
 .
 addEventListener
@@ -3172,7 +3169,6 @@ resolve
 )
 ;
 }
-;
 aPopup
 .
 addEventListener
