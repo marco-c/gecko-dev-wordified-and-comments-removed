@@ -5376,9 +5376,16 @@ buf
 =
 nullptr
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
+}
 JS_snprintf
 (
 buf
