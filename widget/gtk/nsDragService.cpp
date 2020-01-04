@@ -1845,11 +1845,6 @@ dt
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 CreateDrawTargetForData
 (
 cairo_image_surface_get_data

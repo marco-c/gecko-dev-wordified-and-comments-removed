@@ -1103,11 +1103,6 @@ return
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 CreateDrawTargetForData
 (
 mMappedBuffer

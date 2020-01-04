@@ -9966,11 +9966,6 @@ drawTarget
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 CreateDrawTargetForData
 (
 imageBuffer

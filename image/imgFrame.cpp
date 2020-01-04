@@ -1455,11 +1455,6 @@ target
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
 CreateDrawTargetForData
 (
 ptr
