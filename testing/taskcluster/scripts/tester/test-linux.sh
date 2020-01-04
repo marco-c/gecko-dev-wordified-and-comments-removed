@@ -684,16 +684,6 @@ etc
 X11
 /
 Xsession
->
-~
-/
-artifacts
-/
-public
-/
-xsession
-.
-log
 2
 >
 &
