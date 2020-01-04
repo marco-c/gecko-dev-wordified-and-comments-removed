@@ -3919,6 +3919,16 @@ AsWheelEvent
 )
 )
 {
+if
+(
+wheelEvent
+-
+>
+mFlags
+.
+mHandledByAPZ
+)
+{
 APZCCallbackHelper
 :
 :
@@ -3945,6 +3955,7 @@ aGuid
 aInputBlockId
 )
 ;
+}
 }
 }
 return
