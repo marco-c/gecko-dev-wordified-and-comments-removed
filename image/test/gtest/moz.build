@@ -108,6 +108,11 @@ Common
 cpp
 '
 '
+TestADAM7InterpolatingFilter
+.
+cpp
+'
+'
 TestCopyOnWrite
 .
 cpp
