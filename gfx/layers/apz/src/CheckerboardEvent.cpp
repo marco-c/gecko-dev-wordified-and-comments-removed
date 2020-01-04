@@ -177,6 +177,13 @@ const
 CSSRect
 &
 aRect
+const
+std
+:
+:
+string
+&
+aExtraInfo
 )
 {
 MonitorAutoLock
@@ -200,6 +207,7 @@ Update
 (
 aProperty
 aRect
+aExtraInfo
 lock
 )
 ;
@@ -216,6 +224,7 @@ Now
 (
 )
 aRect
+aExtraInfo
 lock
 )
 ;
@@ -237,6 +246,13 @@ const
 CSSRect
 &
 aRect
+const
+std
+:
+:
+string
+&
+aExtraInfo
 const
 MonitorAutoLock
 &
@@ -338,6 +354,9 @@ sDescriptions
 [
 aProperty
 ]
+<
+<
+aExtraInfo
 <
 <
 std
@@ -572,6 +591,9 @@ mTimeStamp
 p
 .
 mRect
+p
+.
+mExtraInfo
 lock
 )
 ;
@@ -796,6 +818,13 @@ CSSRect
 &
 aRect
 const
+std
+:
+:
+string
+&
+aExtraInfo
+const
 MonitorAutoLock
 &
 aProofOfLock
@@ -815,6 +844,7 @@ Now
 (
 )
 aRect
+aExtraInfo
 }
 ;
 mIndex
