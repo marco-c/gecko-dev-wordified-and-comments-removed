@@ -11,9 +11,6 @@ Result
 }
 ;
 use
-byteorder
-:
-:
 ByteOrder
 ;
 pub

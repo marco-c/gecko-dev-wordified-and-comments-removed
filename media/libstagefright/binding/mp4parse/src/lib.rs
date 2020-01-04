@@ -45,7 +45,8 @@ extern
 crate
 afl
 ;
-mod
+extern
+crate
 byteorder
 ;
 use
