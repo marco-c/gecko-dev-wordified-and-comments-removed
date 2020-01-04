@@ -1945,7 +1945,7 @@ ETypingAction
 aAction
 )
 {
-nsAutoPlaceHolderBatch
+AutoPlaceHolderBatch
 batch
 (
 this
@@ -3057,7 +3057,7 @@ mRules
 nsresult
 result
 ;
-nsAutoPlaceHolderBatch
+AutoPlaceHolderBatch
 batch
 (
 this
@@ -3307,7 +3307,7 @@ EditAction
 insertIMEText
 ;
 }
-nsAutoPlaceHolderBatch
+AutoPlaceHolderBatch
 batch
 (
 this
@@ -4008,7 +4008,7 @@ nsresult
 rv
 ;
 {
-nsAutoPlaceHolderBatch
+AutoPlaceHolderBatch
 batch
 (
 this
