@@ -790,6 +790,7 @@ AudioInput
 {
 public
 :
+explicit
 AudioInputCubeb
 (
 webrtc
