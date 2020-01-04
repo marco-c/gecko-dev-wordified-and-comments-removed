@@ -109,7 +109,7 @@ SetVolume
 (
 aParams
 .
-volume
+mVolume
 )
 ;
 mAudioSink
@@ -119,7 +119,7 @@ SetPlaybackRate
 (
 aParams
 .
-playbackRate
+mPlaybackRate
 )
 ;
 mAudioSink
@@ -129,7 +129,7 @@ SetPreservesPitch
 (
 aParams
 .
-preservesPitch
+mPreservesPitch
 )
 ;
 }
@@ -290,7 +290,7 @@ delta
 *
 mParams
 .
-playbackRate
+mPlaybackRate
 ;
 }
 int64_t
@@ -440,7 +440,7 @@ AssertOwnerThread
 ;
 mParams
 .
-volume
+mVolume
 =
 aVolume
 ;
@@ -475,7 +475,7 @@ AssertOwnerThread
 ;
 mParams
 .
-playbackRate
+mPlaybackRate
 =
 aPlaybackRate
 ;
@@ -544,7 +544,7 @@ AssertOwnerThread
 ;
 mParams
 .
-preservesPitch
+mPreservesPitch
 =
 aPreservesPitch
 ;

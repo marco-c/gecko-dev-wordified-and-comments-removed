@@ -2289,7 +2289,7 @@ AssertOwnerThread
 ;
 mParams
 .
-volume
+mVolume
 =
 aVolume
 ;
@@ -2310,7 +2310,7 @@ AssertOwnerThread
 ;
 mParams
 .
-playbackRate
+mPlaybackRate
 =
 aPlaybackRate
 ;
@@ -2331,7 +2331,7 @@ AssertOwnerThread
 ;
 mParams
 .
-preservesPitch
+mPreservesPitch
 =
 aPreservesPitch
 ;
@@ -3737,7 +3737,7 @@ SendAudio
 (
 mParams
 .
-volume
+mVolume
 mSameOrigin
 )
 ;
