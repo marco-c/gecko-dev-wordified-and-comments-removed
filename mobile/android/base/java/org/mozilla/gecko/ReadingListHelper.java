@@ -1271,6 +1271,17 @@ getContentResolver
 )
 )
 ;
+if
+(
+c
+=
+=
+null
+)
+{
+return
+;
+}
 try
 {
 while
