@@ -7491,6 +7491,6 @@ audiochannel
 .
 mediaControl
 "
-false
+true
 )
 ;
