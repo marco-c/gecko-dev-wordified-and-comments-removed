@@ -924,7 +924,7 @@ eBasicEventClass
 WINDOW_EVENT
 (
 offline
-NS_OFFLINE
+eOffline
 EventNameType_XUL
 |
 EventNameType_HTMLBodyOrFramesetOnly
