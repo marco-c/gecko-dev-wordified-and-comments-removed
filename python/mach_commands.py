@@ -1720,6 +1720,8 @@ return
 ]
         
 return
+list
+(
 {
             
 "
@@ -1805,6 +1807,7 @@ nodejs
 )
         
 }
+)
     
 def
 getNodeOrNpmPath
@@ -1830,29 +1833,6 @@ path
 "
 "
         
-try
-:
-            
-appPath
-=
-which
-.
-which
-(
-filename
-)
-            
-return
-appPath
-        
-except
-which
-.
-WhichError
-:
-            
-pass
-        
 if
 platform
 .
@@ -1866,15 +1846,10 @@ Windows
 "
 :
             
-try
-:
-                
 for
 ext
 in
 [
-"
-"
 "
 .
 cmd
@@ -1883,7 +1858,12 @@ cmd
 .
 exe
 "
+"
+"
 ]
+:
+                
+try
 :
                     
 nodeOrNpmPath
@@ -1916,6 +1896,28 @@ nodeOrNpmPath
                         
 return
 nodeOrNpmPath
+                
+except
+which
+.
+WhichError
+:
+                    
+pass
+        
+else
+:
+            
+try
+:
+                
+return
+which
+.
+which
+(
+filename
+)
             
 except
 which
@@ -2092,9 +2094,12 @@ return
 True
         
 except
+(
 subprocess
 .
 CalledProcessError
+WindowsError
+)
 :
             
 return
