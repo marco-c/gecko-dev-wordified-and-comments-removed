@@ -268,6 +268,9 @@ define
 CASES_FOR_statfs
 case
 __NR_statfs64
+:
+case
+__NR_statfs
 #
 define
 CASES_FOR_fcntl
