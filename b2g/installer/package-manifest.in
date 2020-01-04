@@ -1226,13 +1226,6 @@ RESPATH
 /
 components
 /
-gaia_chrome
-.
-xpt
-RESPATH
-/
-components
-/
 hal
 .
 xpt
