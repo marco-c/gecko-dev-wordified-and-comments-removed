@@ -52,15 +52,6 @@ h
 #
 include
 "
-mozilla
-/
-Preferences
-.
-h
-"
-#
-include
-"
 prnetdb
 .
 h
