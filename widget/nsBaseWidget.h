@@ -803,7 +803,7 @@ DrawWindowOverlay
 LayerManagerComposite
 *
 aManager
-LayoutDeviceIntRect
+nsIntRect
 aRect
 )
 override
@@ -1069,7 +1069,7 @@ virtual
 bool
 ShowsResizeIndicator
 (
-LayoutDeviceIntRect
+nsIntRect
 *
 aResizerRect
 )

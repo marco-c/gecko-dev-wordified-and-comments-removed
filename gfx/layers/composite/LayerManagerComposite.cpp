@@ -4189,7 +4189,7 @@ GetWidget
 DrawWindowOverlay
 (
 this
-LayoutDeviceIntRect
+IntRect
 (
 actualBounds
 .

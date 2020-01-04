@@ -21250,6 +21250,10 @@ nsCocoaUtils
 DevPixelsToCocoaPoints
 (
 r
+.
+ToUnknownRect
+(
+)
 mWidget
 -
 >
