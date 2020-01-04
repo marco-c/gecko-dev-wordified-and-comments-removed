@@ -170,10 +170,8 @@ override
 void
 GetAdapterProperty
 (
-const
-nsAString
-&
-aName
+BluetoothPropertyType
+aType
 BluetoothResultHandler
 *
 aRes
@@ -213,10 +211,8 @@ const
 BluetoothAddress
 &
 aRemoteAddr
-const
-nsAString
-&
-aName
+BluetoothPropertyType
+aType
 BluetoothResultHandler
 *
 aRes
