@@ -305,6 +305,17 @@ resources
 inputStream
 )
 ;
+bitmap
+.
+setTargetDensity
+(
+resources
+.
+getDisplayMetrics
+(
+)
+)
+;
 }
 }
 catch
