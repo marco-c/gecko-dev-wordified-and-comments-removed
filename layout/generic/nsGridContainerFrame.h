@@ -92,6 +92,13 @@ uint32_t
 &
 &
 aStates
+nsTArray
+<
+bool
+>
+&
+&
+aRemovedRepeatTracks
 )
 :
 mNumLeadingImplicitTracks
@@ -121,6 +128,10 @@ aSizes
 mStates
 (
 aStates
+)
+mRemovedRepeatTracks
+(
+aRemovedRepeatTracks
 )
 {
 }
@@ -153,6 +164,12 @@ nsTArray
 uint32_t
 >
 mStates
+;
+nsTArray
+<
+bool
+>
+mRemovedRepeatTracks
 ;
 }
 ;
