@@ -71,6 +71,8 @@ ok
 aEvent
 .
 detail
+.
+adoptedBy
 "
 This
 was
@@ -130,6 +132,8 @@ ok
 aEvent
 .
 detail
+.
+adoptedBy
 "
 This
 was

@@ -3834,6 +3834,8 @@ if
 aEvent
 .
 detail
+.
+adoptedBy
 )
 this
 .
