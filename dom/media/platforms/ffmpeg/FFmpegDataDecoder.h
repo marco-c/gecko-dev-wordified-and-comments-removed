@@ -21,6 +21,13 @@ h
 #
 include
 "
+FFmpegRuntimeLinker
+.
+h
+"
+#
+include
+"
 mozilla
 /
 StaticMutex

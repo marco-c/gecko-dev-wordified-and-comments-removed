@@ -54,13 +54,6 @@ prsystem
 .
 h
 "
-#
-include
-"
-FFmpegRuntimeLinker
-.
-h
-"
 namespace
 mozilla
 {
