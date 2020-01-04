@@ -149,6 +149,12 @@ XREAppDist
 "
 #
 define
+XRE_APP_FEATURES_DIR
+"
+XREAppFeat
+"
+#
+define
 XRE_UPDATE_ROOT_DIR
 "
 UpdRootD

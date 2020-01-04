@@ -1209,6 +1209,13 @@ XREAppDist
 "
 ;
 const
+KEY_APP_FEATURES
+=
+"
+XREAppFeat
+"
+;
+const
 KEY_APP_PROFILE
 =
 "
@@ -11306,9 +11313,8 @@ SCOPE_PROFILE
 addDirectoryInstallLocation
 (
 KEY_APP_SYSTEM_DEFAULTS
-KEY_APP_DISTRIBUTION
+KEY_APP_FEATURES
 [
-DIR_SYSTEM_ADDONS
 ]
 AddonManager
 .
