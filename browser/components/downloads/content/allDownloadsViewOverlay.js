@@ -1211,8 +1211,6 @@ goUpdateDownloadCommands
 )
 ;
 }
-else
-{
 goUpdateCommand
 (
 "
@@ -1220,7 +1218,6 @@ downloadsCmd_clearDownloads
 "
 )
 ;
-}
 }
 onChanged
 (
