@@ -1,6 +1,3 @@
-var
-test
-=
 class
 base
 {
@@ -38,7 +35,7 @@ true
 }
 }
 class
-test
+doTest
 extends
 base
 {
@@ -60,7 +57,7 @@ arr
 assertEq
 (
 new
-test
+doTest
 (
 [
 1
@@ -108,18 +105,6 @@ testRest
 .
 calledBase
 true
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

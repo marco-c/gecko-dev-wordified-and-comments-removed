@@ -1,6 +1,3 @@
-var
-test
-=
 class
 instance
 extends
@@ -44,18 +41,6 @@ null
 (
 )
 TypeError
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

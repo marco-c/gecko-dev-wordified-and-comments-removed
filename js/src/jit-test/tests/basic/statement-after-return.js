@@ -1,14 +1,3 @@
-load
-(
-libdir
-+
-"
-class
-.
-js
-"
-)
-;
 function
 testWarn
 (
@@ -630,13 +619,6 @@ yield
 4
 )
 ;
-if
-(
-classesEnabled
-(
-)
-)
-{
 testWarn
 (
 function
@@ -660,7 +642,6 @@ constructor
 4
 )
 ;
-}
 testWarn
 (
 function

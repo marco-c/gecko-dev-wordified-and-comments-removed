@@ -1,8 +1,3 @@
-function
-test
-(
-)
-{
 assertThrowsInstanceOf
 (
 (
@@ -54,17 +49,6 @@ v
 }
 )
 SyntaxError
-)
-;
-}
-if
-(
-classesEnabled
-(
-)
-)
-test
-(
 )
 ;
 if

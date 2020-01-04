@@ -171,16 +171,6 @@ new
 bound
 )
 ;
-if
-(
-classesEnabled
-(
-)
-)
-{
-eval
-(
-{
 class
 Base
 {
@@ -295,10 +285,6 @@ g
 )
 )
 ;
-}
-)
-;
-}
 var
 g
 =

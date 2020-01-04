@@ -1,6 +1,3 @@
-var
-test
-=
 class
 X
 {
@@ -250,18 +247,6 @@ x
 .
 prop4
 20
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

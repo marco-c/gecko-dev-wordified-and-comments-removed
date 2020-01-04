@@ -1,6 +1,3 @@
-var
-test
-=
 class
 foo
 extends
@@ -98,18 +95,6 @@ foo
 testArrs
 (
 arrs
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

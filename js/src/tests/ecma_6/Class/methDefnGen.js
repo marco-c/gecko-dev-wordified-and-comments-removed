@@ -754,6 +754,17 @@ g
 TypeError
 )
 ;
+if
+(
+typeof
+reportCompare
+=
+=
+=
+'
+function
+'
+)
 reportCompare
 (
 0

@@ -1,6 +1,3 @@
-var
-test
-=
 class
 base
 {
@@ -92,18 +89,6 @@ derived
 .
 test
 (
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

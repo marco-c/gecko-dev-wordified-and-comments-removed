@@ -1,6 +1,3 @@
-var
-test
-=
 class
 testForIn
 {
@@ -104,18 +101,6 @@ hits
 .
 testForOf
 (
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

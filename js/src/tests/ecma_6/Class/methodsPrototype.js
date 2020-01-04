@@ -1,6 +1,3 @@
-var
-test
-=
 class
 TestClass
 {
@@ -187,18 +184,6 @@ false
 )
 ;
 }
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
-)
-;
 if
 (
 typeof

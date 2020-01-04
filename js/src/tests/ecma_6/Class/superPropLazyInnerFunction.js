@@ -1,6 +1,3 @@
-var
-test
-=
 testcase
 (
 )
@@ -83,18 +80,6 @@ i
 ;
 }
 }
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
-)
-;
 if
 (
 typeof

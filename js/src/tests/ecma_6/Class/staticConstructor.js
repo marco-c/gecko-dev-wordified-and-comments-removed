@@ -1,8 +1,5 @@
-var
-test
-=
 class
-test
+testBasic
 {
 constructor
 (
@@ -18,6 +15,8 @@ constructor
 }
 class
 testWithExtends
+extends
+null
 {
 constructor
 (
@@ -69,18 +68,6 @@ constructor
 }
 ;
 }
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
-)
-;
 if
 (
 typeof

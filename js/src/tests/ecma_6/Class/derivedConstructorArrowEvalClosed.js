@@ -1,6 +1,3 @@
-var
-test
-=
 new
 class
 extends
@@ -53,18 +50,6 @@ a1
 }
 }
 (
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

@@ -167,13 +167,6 @@ v
 "
 )
 ;
-if
-(
-classesEnabled
-(
-)
-)
-{
 testSyntaxError
 (
 "
@@ -219,4 +212,3 @@ constructor
 "
 )
 ;
-}

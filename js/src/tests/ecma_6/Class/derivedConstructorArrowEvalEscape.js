@@ -1,6 +1,3 @@
-var
-test
-=
 let
 arrow
 ;
@@ -38,18 +35,6 @@ foo
 arrow
 (
 )
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

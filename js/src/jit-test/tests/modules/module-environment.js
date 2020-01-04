@@ -1,14 +1,3 @@
-load
-(
-libdir
-+
-"
-class
-.
-js
-"
-)
-;
 function
 testInitialEnvironment
 (
@@ -256,13 +245,6 @@ default
 ]
 )
 ;
-if
-(
-classesEnabled
-(
-)
-)
-{
 testInitialEnvironment
 (
 "
@@ -330,4 +312,3 @@ default
 ]
 )
 ;
-}

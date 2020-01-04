@@ -1,6 +1,3 @@
-var
-test
-=
 class
 base
 {
@@ -75,18 +72,6 @@ inst
 (
 )
 TypeError
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

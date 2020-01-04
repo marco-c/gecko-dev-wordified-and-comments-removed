@@ -1,6 +1,3 @@
-var
-test
-=
 class
 base
 {
@@ -165,18 +162,6 @@ derivedInstance
 .
 test
 (
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

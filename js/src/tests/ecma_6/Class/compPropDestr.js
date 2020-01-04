@@ -55,6 +55,17 @@ bar
 "
 )
 ;
+if
+(
+typeof
+reportCompare
+=
+=
+=
+'
+function
+'
+)
 reportCompare
 (
 0

@@ -280,12 +280,6 @@ foo
 "
 )
 ;
-if
-(
-classesEnabled
-(
-)
-)
 parseAndEvaluate
 (
 "
@@ -446,13 +440,6 @@ a
 "
 )
 ;
-if
-(
-classesEnabled
-(
-)
-)
-{
 parseAndEvaluate
 (
 "
@@ -488,7 +475,6 @@ constructor
 "
 )
 ;
-}
 m
 =
 parseModule

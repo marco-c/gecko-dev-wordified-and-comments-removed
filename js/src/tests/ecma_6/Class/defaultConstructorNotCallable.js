@@ -1,6 +1,3 @@
-var
-test
-=
 class
 badBase
 {
@@ -25,18 +22,6 @@ assertThrowsInstanceOf
 (
 badSub
 TypeError
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

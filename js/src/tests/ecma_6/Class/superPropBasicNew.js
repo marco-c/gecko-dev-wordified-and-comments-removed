@@ -1,6 +1,3 @@
-var
-test
-=
 class
 Base
 {
@@ -76,18 +73,6 @@ df
 .
 constructor
 Base
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

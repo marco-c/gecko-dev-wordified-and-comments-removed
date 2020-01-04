@@ -1,14 +1,3 @@
-load
-(
-libdir
-+
-"
-class
-.
-js
-"
-)
-;
 function
 testThrow
 (
@@ -475,13 +464,6 @@ a
 19
 )
 ;
-if
-(
-classesEnabled
-(
-)
-)
-{
 testThrow
 (
 class
@@ -497,7 +479,6 @@ a
 16
 )
 ;
-}
 testThrow
 (
 1

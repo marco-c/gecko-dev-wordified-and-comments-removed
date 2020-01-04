@@ -1,6 +1,3 @@
-var
-test
-=
 class
 Foo
 {
@@ -89,18 +86,6 @@ constructor
 }
 }
 TypeError
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

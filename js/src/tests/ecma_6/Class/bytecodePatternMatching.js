@@ -1,6 +1,3 @@
-var
-test
-=
 function
 a
 (
@@ -101,18 +98,6 @@ a
 ;
 b
 (
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

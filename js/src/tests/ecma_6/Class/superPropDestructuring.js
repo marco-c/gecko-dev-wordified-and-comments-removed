@@ -1,6 +1,3 @@
-var
-test
-=
 class
 base
 {
@@ -206,18 +203,6 @@ d
 .
 testElems
 (
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if

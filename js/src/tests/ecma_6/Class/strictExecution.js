@@ -1,6 +1,3 @@
-var
-test
-=
 class
 a
 {
@@ -220,18 +217,6 @@ assertThrowsInstanceOf
 (
 shouldThrowHeritageExpr
 TypeError
-)
-;
-;
-if
-(
-classesEnabled
-(
-)
-)
-eval
-(
-test
 )
 ;
 if
