@@ -594,7 +594,10 @@ HasSize
 )
 ;
 }
-nsIntSize
+gfx
+:
+:
+IntSize
 GetSize
 (
 )
