@@ -860,11 +860,6 @@ aPriority
 )
 ;
 void
-OnLoaded
-(
-)
-;
-void
 RememberCallback
 (
 Callback
@@ -899,6 +894,15 @@ aCallback
 ;
 void
 InvokeAvailableCallback
+(
+Callback
+const
+&
+aCallback
+)
+;
+void
+OnFetched
 (
 Callback
 const
