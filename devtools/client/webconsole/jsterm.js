@@ -2779,7 +2779,11 @@ addTab
 variablesview
 "
 VARIABLES_VIEW_URL
+{
+selected
+:
 true
+}
 )
 ;
 }

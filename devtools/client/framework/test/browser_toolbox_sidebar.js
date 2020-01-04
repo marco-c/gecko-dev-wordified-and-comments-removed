@@ -670,7 +670,11 @@ addTab
 tab1
 "
 tab1URL
+{
+selected
+:
 true
+}
 )
 ;
 panel
