@@ -92,6 +92,9 @@ nsIPrincipal
 class
 nsINetworkInterceptController
 ;
+class
+nsICorsPreflightCallback
+;
 nsresult
 NS_StartCORSPreflight
 (
@@ -104,6 +107,9 @@ aListener
 nsIPrincipal
 *
 aPrincipal
+nsICorsPreflightCallback
+*
+aCallback
 bool
 aWithCredentials
 nsTArray
