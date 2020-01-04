@@ -1293,10 +1293,10 @@ Selection
 >
 mDomSelections
 [
-nsISelectionController
+mozilla
 :
 :
-NUM_SELECTIONTYPES
+kPresentSelectionTypeCount
 ]
 ;
 nsITableCellLayout

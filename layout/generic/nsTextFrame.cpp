@@ -31356,13 +31356,10 @@ kRawSelectionTypesWithDecorations
 ;
 for
 (
-int32_t
+size_t
 i
 =
-nsISelectionController
-:
-:
-NUM_SELECTIONTYPES
+kSelectionTypeCount
 -
 1
 ;
