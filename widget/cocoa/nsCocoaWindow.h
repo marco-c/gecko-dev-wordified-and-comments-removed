@@ -1647,17 +1647,6 @@ aNewParent
 )
 override
 ;
-CompositorWidget
-*
-NewCompositorWidget
-(
-)
-override
-{
-return
-nullptr
-;
-}
 protected
 :
 virtual
