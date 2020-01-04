@@ -8900,6 +8900,7 @@ nsHTMLReflowState
 *
 aContainingBlockRS
 )
+const
 {
 LogicalSize
 cbSize

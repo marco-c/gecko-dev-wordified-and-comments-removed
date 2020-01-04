@@ -2413,6 +2413,7 @@ nsHTMLReflowState
 *
 aContainingBlockRS
 )
+const
 ;
 nscoord
 ApplyMinMaxWidth
