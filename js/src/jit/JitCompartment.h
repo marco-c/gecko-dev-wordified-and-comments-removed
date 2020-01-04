@@ -725,6 +725,10 @@ jrt_
 (
 jrt
 )
+prev_
+(
+false
+)
 {
 MOZ_ASSERT
 (
