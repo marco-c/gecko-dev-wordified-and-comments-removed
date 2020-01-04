@@ -119,6 +119,10 @@ nsSHEntryShared
 (
 )
 )
+mLoadReplace
+(
+false
+)
 mReferrerPolicy
 (
 mozilla
