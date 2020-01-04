@@ -124,6 +124,9 @@ class
 DecodedStream
 ;
 class
+OutputStreamManager
+;
+class
 TaskQueue
 ;
 extern
@@ -3234,6 +3237,13 @@ mSentFirstFrameLoadedEvent
 ;
 bool
 mSentPlaybackEndedEvent
+;
+const
+RefPtr
+<
+OutputStreamManager
+>
+mOutputStreamManager
 ;
 RefPtr
 <

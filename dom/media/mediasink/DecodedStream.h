@@ -136,6 +136,9 @@ MediaData
 >
 &
 aVideoQueue
+OutputStreamManager
+*
+aOutputStreamManager
 )
 ;
 const
