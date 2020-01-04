@@ -276,6 +276,11 @@ utils
 js
 '
 '
+defer
+.
+js
+'
+'
 deprecated
 -
 sync
@@ -320,11 +325,6 @@ jsm
 '
 '
 path
-.
-js
-'
-'
-promise_defer
 .
 js
 '

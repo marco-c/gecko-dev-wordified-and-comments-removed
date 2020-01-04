@@ -46,7 +46,7 @@ devtools
 /
 shared
 /
-promise_defer
+defer
 "
 )
 ;
