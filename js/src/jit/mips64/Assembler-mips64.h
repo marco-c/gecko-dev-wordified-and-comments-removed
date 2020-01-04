@@ -1094,6 +1094,15 @@ imm
 )
 ;
 static
+uint64_t
+ExtractInstructionImmediate
+(
+uint8_t
+*
+code
+)
+;
+static
 void
 ToggleCall
 (
