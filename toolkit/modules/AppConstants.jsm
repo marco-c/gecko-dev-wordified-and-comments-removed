@@ -135,6 +135,17 @@ else
 false
 #
 endif
+MOZ_DATA_REPORTING
+:
+#
+ifdef
+MOZ_DATA_REPORTING
+true
+#
+else
+false
+#
+endif
 MOZ_DEVICES
 :
 #
