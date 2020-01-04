@@ -342,12 +342,6 @@ TransitionWaitingToActive
 (
 )
 ;
-bool
-IsIdle
-(
-)
-const
-;
 }
 ;
 }

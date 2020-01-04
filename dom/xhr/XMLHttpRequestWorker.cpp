@@ -6470,7 +6470,6 @@ if
 HoldWorker
 (
 mWorkerPrivate
-Canceling
 )
 )
 {

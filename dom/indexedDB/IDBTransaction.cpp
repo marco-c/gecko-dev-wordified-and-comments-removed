@@ -1155,7 +1155,6 @@ mWorkerHolder
 HoldWorker
 (
 workerPrivate
-Canceling
 )
 )
 ;

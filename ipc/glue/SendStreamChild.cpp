@@ -126,18 +126,6 @@ dom
 workers
 :
 :
-Canceling
-;
-using
-mozilla
-:
-:
-dom
-:
-:
-workers
-:
-:
 GetCurrentThreadWorkerPrivate
 ;
 using
@@ -658,7 +646,6 @@ result
 HoldWorker
 (
 aWorkerPrivate
-Canceling
 )
 ;
 if

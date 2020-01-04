@@ -2204,7 +2204,6 @@ workerHolder
 HoldWorker
 (
 workerPrivate
-Canceling
 )
 )
 )

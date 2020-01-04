@@ -62,8 +62,6 @@ HoldWorker
 WorkerPrivate
 *
 aWorkerPrivate
-Status
-aFailStatus
 )
 ;
 void

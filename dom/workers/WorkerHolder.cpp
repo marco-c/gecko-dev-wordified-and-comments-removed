@@ -61,8 +61,6 @@ HoldWorker
 WorkerPrivate
 *
 aWorkerPrivate
-Status
-aFailStatus
 )
 {
 NS_ASSERT_OWNINGTHREAD
@@ -91,7 +89,6 @@ aWorkerPrivate
 AddHolder
 (
 this
-aFailStatus
 )
 )
 {

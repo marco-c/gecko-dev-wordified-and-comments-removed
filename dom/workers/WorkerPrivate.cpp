@@ -21218,8 +21218,6 @@ AddHolder
 WorkerHolder
 *
 aHolder
-Status
-aFailStatus
 )
 {
 AssertIsOnWorkerThread
@@ -21238,7 +21236,7 @@ if
 mStatus
 >
 =
-aFailStatus
+Canceling
 )
 {
 return

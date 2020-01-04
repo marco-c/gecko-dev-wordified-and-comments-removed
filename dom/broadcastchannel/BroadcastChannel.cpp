@@ -1556,7 +1556,6 @@ mWorkerHolder
 HoldWorker
 (
 workerPrivate
-Closing
 )
 )
 )
