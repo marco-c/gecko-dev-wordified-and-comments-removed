@@ -5,7 +5,6 @@ strict
 ;
 const
 {
-Ci
 ChromeWorker
 }
 =
@@ -13,16 +12,6 @@ require
 (
 "
 chrome
-"
-)
-;
-const
-Services
-=
-require
-(
-"
-Services
 "
 )
 ;
@@ -70,7 +59,7 @@ event
 {
 const
 {
-path
+newPath
 }
 =
 event
@@ -79,7 +68,7 @@ data
 ;
 onFileChanged
 (
-path
+newPath
 )
 ;
 }

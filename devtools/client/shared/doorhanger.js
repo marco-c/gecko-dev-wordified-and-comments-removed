@@ -287,6 +287,8 @@ success
 )
 =
 >
+{
+return
 Services
 .
 prefs
@@ -296,6 +298,8 @@ setBoolPref
 DEV_EDITION_PROMO_SHOWN_PREF
 true
 )
+;
+}
 action
 :
 (
@@ -630,6 +634,8 @@ forEach
 prop
 =
 >
+{
+return
 panel
 .
 setAttribute
@@ -640,6 +646,8 @@ panelAttrs
 prop
 ]
 )
+;
+}
 )
 ;
 panel

@@ -5,21 +5,6 @@ strict
 ;
 const
 {
-Cc
-Ci
-Cu
-Cr
-}
-=
-require
-(
-"
-chrome
-"
-)
-;
-const
-{
 Task
 }
 =
@@ -36,7 +21,6 @@ task
 ;
 const
 {
-ViewHelpers
 Heritage
 }
 =
@@ -828,7 +812,6 @@ for
 (
 let
 {
-delta
 value
 }
 of

@@ -1073,10 +1073,11 @@ buttons
 0
 )
 {
-return
 stop
 (
 )
+;
+return
 ;
 }
 let

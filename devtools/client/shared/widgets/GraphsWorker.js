@@ -98,13 +98,6 @@ duration
 )
 {
 let
-totalTicks
-=
-source
-.
-length
-;
-let
 totalFrames
 =
 timestamps

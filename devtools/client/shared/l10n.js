@@ -155,6 +155,8 @@ map
 x
 =
 >
+{
+return
 typeof
 x
 =
@@ -172,6 +174,8 @@ x
 )
 :
 x
+;
+}
 )
 ;
 return
@@ -305,11 +309,15 @@ map
 bundle
 =
 >
+{
+return
 new
 LocalizationHelper
 (
 bundle
 )
+;
+}
 )
 ;
 Object
@@ -415,6 +423,9 @@ e
 {
 }
 }
+return
+null
+;
 }
 ;
 }

@@ -5,7 +5,6 @@ strict
 ;
 const
 {
-Ci
 Cu
 }
 =
@@ -224,11 +223,8 @@ name
 |
 |
 THEME_SELECTOR_STRINGS
-[
-"
+.
 light
-"
-]
 ;
 let
 theme
@@ -281,6 +277,8 @@ getTheme
 )
 =
 >
+{
+return
 Services
 .
 prefs
@@ -293,6 +291,8 @@ devtools
 theme
 "
 )
+;
+}
 ;
 const
 getColor

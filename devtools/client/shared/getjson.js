@@ -1,6 +1,10 @@
+"
+use
+strict
+"
+;
 const
 {
-Cu
 CC
 }
 =
@@ -185,6 +189,7 @@ xhr
 responseText
 )
 ;
+return
 deferred
 .
 resolve

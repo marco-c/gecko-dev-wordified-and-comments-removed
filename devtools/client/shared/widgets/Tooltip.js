@@ -2212,6 +2212,7 @@ e
 in
 relayEvents
 )
+{
 widget
 .
 on
@@ -2223,6 +2224,7 @@ e
 ]
 )
 ;
+}
 VariablesViewController
 .
 attach
@@ -3262,15 +3264,6 @@ iframe
 contentWindow
 .
 wrappedJSObject
-;
-let
-doc
-=
-win
-.
-document
-.
-documentElement
 ;
 let
 def

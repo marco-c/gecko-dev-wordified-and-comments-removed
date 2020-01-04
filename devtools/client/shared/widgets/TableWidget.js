@@ -6,7 +6,6 @@ strict
 const
 {
 Ci
-Cu
 }
 =
 require

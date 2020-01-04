@@ -154,7 +154,7 @@ supported
 function
 create3DContext
 (
-aCanvas
+canvas
 )
 {
 let
@@ -166,12 +166,13 @@ try
 {
 context
 =
-aCanvas
+canvas
 .
 getContext
 (
 WEBGL_CONTEXT_NAME
-aFlags
+{
+}
 )
 ;
 }
