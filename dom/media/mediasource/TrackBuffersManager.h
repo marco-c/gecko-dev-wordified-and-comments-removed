@@ -1365,15 +1365,6 @@ MediaSourceDecoder
 >
 mParentDecoder
 ;
-Mirror
-<
-Maybe
-<
-double
->
->
-mMediaSourceDuration
-;
 Atomic
 <
 bool
