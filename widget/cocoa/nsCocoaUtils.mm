@@ -3093,8 +3093,10 @@ gfxContext
 >
 context
 =
-new
 gfxContext
+:
+:
+ForDrawTarget
 (
 drawTarget
 )

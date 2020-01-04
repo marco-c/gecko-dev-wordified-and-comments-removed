@@ -2799,6 +2799,15 @@ if
 (
 !
 dt
+|
+|
+!
+dt
+-
+>
+IsValid
+(
+)
 )
 return
 NS_ERROR_FAILURE
@@ -2809,8 +2818,10 @@ gfxContext
 >
 ctx
 =
-new
 gfxContext
+:
+:
+ForDrawTarget
 (
 dt
 )

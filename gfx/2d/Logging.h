@@ -295,6 +295,7 @@ PAllocTextureBackendMismatch
 GetFontFileDataFailed
 MessageChannelCloseFailure
 TextureAliveAfterShutdown
+InvalidContext
 MustBeLessThanThis
 =
 101

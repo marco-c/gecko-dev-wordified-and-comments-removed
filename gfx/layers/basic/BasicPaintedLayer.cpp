@@ -929,9 +929,14 @@ ctx
 gfxContext
 :
 :
-ContextForDrawTarget
+ForDrawTargetWithTransform
 (
 target
+)
+;
+MOZ_ASSERT
+(
+ctx
 )
 ;
 PaintBuffer
