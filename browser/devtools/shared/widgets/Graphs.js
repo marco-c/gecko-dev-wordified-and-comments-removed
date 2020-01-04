@@ -70,7 +70,9 @@ jsm
 )
 ;
 const
-LayoutHelpers
+{
+getCurrentZoom
+}
 =
 require
 (
@@ -80,8 +82,8 @@ devtools
 toolkit
 /
 layout
--
-helpers
+/
+utils
 "
 )
 ;
@@ -4296,8 +4298,6 @@ _pixelRatio
 let
 zoom
 =
-LayoutHelpers
-.
 getCurrentZoom
 (
 this

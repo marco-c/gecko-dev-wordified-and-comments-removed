@@ -1,5 +1,7 @@
-const
-LayoutHelpers
+let
+{
+scrollIntoViewIfNeeded
+}
 =
 require
 (
@@ -9,8 +11,8 @@ devtools
 toolkit
 /
 layout
--
-helpers
+/
+utils
 "
 )
 ;
@@ -68,15 +70,6 @@ runTest
 win
 )
 {
-let
-lh
-=
-new
-LayoutHelpers
-(
-win
-)
-;
 let
 some
 =
@@ -145,8 +138,6 @@ innerHeight
 2
 )
 ;
-lh
-.
 scrollIntoViewIfNeeded
 (
 some
@@ -213,8 +204,6 @@ innerHeight
 1
 )
 ;
-lh
-.
 scrollIntoViewIfNeeded
 (
 some
@@ -268,8 +257,6 @@ innerWidth
 0
 )
 ;
-lh
-.
 scrollIntoViewIfNeeded
 (
 some
@@ -332,8 +319,6 @@ innerWidth
 1
 )
 ;
-lh
-.
 scrollIntoViewIfNeeded
 (
 some
@@ -389,8 +374,6 @@ innerHeight
 2
 )
 ;
-lh
-.
 scrollIntoViewIfNeeded
 (
 some
@@ -456,8 +439,6 @@ innerHeight
 1
 )
 ;
-lh
-.
 scrollIntoViewIfNeeded
 (
 some
@@ -519,8 +500,6 @@ innerWidth
 0
 )
 ;
-lh
-.
 scrollIntoViewIfNeeded
 (
 some
@@ -580,8 +559,6 @@ innerWidth
 1
 )
 ;
-lh
-.
 scrollIntoViewIfNeeded
 (
 some
