@@ -100,6 +100,13 @@ EXPORTS
 '
 agnostic
 /
+AgnosticDecoderModule
+.
+h
+'
+'
+agnostic
+/
 OpusDecoder
 .
 h
@@ -142,6 +149,13 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+agnostic
+/
+AgnosticDecoderModule
+.
+cpp
+'
 '
 agnostic
 /
