@@ -2951,11 +2951,6 @@ TimeDuration
 elapsedDuration
 )
 timing
-animation
-.
-playbackRate
-(
-)
 )
 ;
 MOZ_ASSERT

@@ -550,10 +550,6 @@ mReplacedTransition
 -
 >
 mTiming
-mReplacedTransition
--
->
-mPlaybackRate
 )
 ;
 if
