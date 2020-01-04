@@ -47,6 +47,9 @@ aGlobalObject
 File
 *
 aFile
+DOMFileSystem
+*
+aFileSystem
 )
 ;
 virtual

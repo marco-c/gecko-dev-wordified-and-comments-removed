@@ -123,9 +123,6 @@ attribute
 DOMString
 fullPath
 ;
-[
-GetterThrows
-]
 readonly
 attribute
 DOMFileSystem
@@ -505,17 +502,11 @@ NoInterfaceObject
 interface
 DOMFileSystem
 {
-[
-GetterThrows
-]
 readonly
 attribute
 DOMString
 name
 ;
-[
-GetterThrows
-]
 readonly
 attribute
 DirectoryEntry

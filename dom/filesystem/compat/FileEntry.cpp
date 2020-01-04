@@ -8,7 +8,7 @@ h
 #
 include
 "
-ErrorCallbackRunnable
+CallbackRunnables
 .
 h
 "
@@ -140,11 +140,15 @@ aGlobal
 File
 *
 aFile
+DOMFileSystem
+*
+aFileSystem
 )
 :
 Entry
 (
 aGlobal
+aFileSystem
 )
 mFile
 (

@@ -164,6 +164,16 @@ FileEntry
 .
 cpp
 '
+'
+RootDirectoryEntry
+.
+cpp
+'
+'
+RootDirectoryReader
+.
+cpp
+'
 ]
 FINAL_LIBRARY
 =
