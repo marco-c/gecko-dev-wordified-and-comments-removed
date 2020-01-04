@@ -685,6 +685,11 @@ MediaStreamListener
 h
 '
 '
+MediaStreamVideoSink
+.
+h
+'
+'
 MediaTimer
 .
 h
@@ -1208,6 +1213,11 @@ cpp
 '
 '
 MediaStreamTrack
+.
+cpp
+'
+'
+MediaStreamVideoSink
 .
 cpp
 '
