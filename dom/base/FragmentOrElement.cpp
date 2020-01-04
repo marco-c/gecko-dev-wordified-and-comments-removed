@@ -3167,7 +3167,7 @@ mEvent
 mMessage
 =
 =
-NS_POINTER_OVER
+ePointerOver
 |
 |
 aVisitor

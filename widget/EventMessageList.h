@@ -245,7 +245,7 @@ ePointerEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_POINTER_OVER
+ePointerOver
 ePointerEventFirst
 +
 22

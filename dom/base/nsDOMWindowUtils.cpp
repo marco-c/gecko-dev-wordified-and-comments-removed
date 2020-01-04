@@ -3221,7 +3221,7 @@ pointerover
 {
 msg
 =
-NS_POINTER_OVER
+ePointerOver
 ;
 }
 else
