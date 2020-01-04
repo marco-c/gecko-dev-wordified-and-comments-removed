@@ -2611,7 +2611,7 @@ BluetoothAvrcpManager
 RemoteFeatureNotification
 (
 const
-nsAString
+BluetoothAddress
 &
 aBdAddr
 unsigned
