@@ -1,6 +1,11 @@
 #
 include
 <
+algorithm
+>
+#
+include
+<
 stdio
 .
 h
@@ -12007,7 +12012,13 @@ len
 size_t
 sendlen
 =
-PR_MIN
+std
+:
+:
+min
+<
+size_t
+>
 (
 len
 DATA_CHANNEL_MAX_BINARY_FRAGMENT
