@@ -7843,9 +7843,6 @@ if
 aOutDT
 )
 {
-return
-false
-;
 gfxCriticalNote
 <
 <
@@ -7863,6 +7860,9 @@ software
 \
 n
 "
+;
+return
+false
 ;
 }
 MOZ_ASSERT
