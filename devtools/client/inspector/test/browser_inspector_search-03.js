@@ -933,7 +933,7 @@ once
 (
 searchBox
 "
-command
+input
 "
 )
 ;

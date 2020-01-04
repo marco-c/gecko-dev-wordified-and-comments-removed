@@ -496,7 +496,7 @@ once
 (
 searchBox
 "
-command
+input
 "
 true
 )

@@ -589,7 +589,7 @@ once
 (
 searchBox
 "
-command
+input
 "
 )
 ;

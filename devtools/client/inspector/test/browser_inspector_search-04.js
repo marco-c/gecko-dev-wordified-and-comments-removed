@@ -413,7 +413,7 @@ once
 (
 searchBox
 "
-command
+input
 "
 )
 ;
