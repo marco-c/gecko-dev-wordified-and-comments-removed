@@ -23738,12 +23738,7 @@ OfflineCacheUpdateParent
 (
 tabContext
 .
-OwnOrContainingAppId
-(
-)
-tabContext
-.
-IsBrowserElement
+OriginAttributesRef
 (
 )
 )
