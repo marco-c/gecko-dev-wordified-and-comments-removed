@@ -5155,14 +5155,6 @@ log_impl
         
 )
         
-self
-.
-_apply_imports
-(
-func
-glob
-)
-        
 closure
 =
 None
@@ -5215,7 +5207,7 @@ func
 func_closure
 )
         
-func
+new_func
 =
 wraps
 (
@@ -5246,15 +5238,49 @@ closure
 )
 )
         
+wraps
+(
+new_func
+)
+        
+def
+wrapped
+(
+*
+args
+*
+*
+kwargs
+)
+:
+            
+self
+.
+_apply_imports
+(
+func
+glob
+)
+            
+return
+new_func
+(
+*
+args
+*
+*
+kwargs
+)
+        
 self
 .
 _prepared_functions
 .
 add
 (
-func
+wrapped
 )
         
 return
-func
+wrapped
 glob
