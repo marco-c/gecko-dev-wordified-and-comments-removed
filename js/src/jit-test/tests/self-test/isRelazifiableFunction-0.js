@@ -1,0 +1,8 @@
+isRelazifiableFunction
+(
+new
+Array
+(
+)
+)
+;
