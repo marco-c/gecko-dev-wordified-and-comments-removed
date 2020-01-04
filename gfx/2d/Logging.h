@@ -82,6 +82,12 @@ Matrix
 .
 h
 "
+#
+if
+defined
+(
+MOZ_LOGGING
+)
 extern
 GFX2D_API
 PRLogModuleInfo
@@ -90,6 +96,8 @@ GetGFX2DLog
 (
 )
 ;
+#
+endif
 namespace
 mozilla
 {
@@ -148,6 +156,12 @@ LOG_CRITICAL
 ;
 #
 endif
+#
+if
+defined
+(
+MOZ_LOGGING
+)
 inline
 mozilla
 :
@@ -217,6 +231,8 @@ LogLevel
 Debug
 ;
 }
+#
+endif
 class
 PreferenceAccess
 {
@@ -332,6 +348,12 @@ true
 ;
 #
 else
+#
+if
+defined
+(
+MOZ_LOGGING
+)
 if
 (
 MOZ_LOG_TEST
@@ -351,6 +373,8 @@ true
 ;
 }
 else
+#
+endif
 if
 (
 (
@@ -448,6 +472,12 @@ n
 ;
 #
 else
+#
+if
+defined
+(
+MOZ_LOGGING
+)
 if
 (
 MOZ_LOG_TEST
@@ -488,6 +518,8 @@ n
 ;
 }
 else
+#
+endif
 if
 (
 (
