@@ -88,6 +88,8 @@ public
 imgINotificationObserver
 public
 nsITimerCallback
+public
+nsIAlertsIconData
 {
 public
 :
@@ -95,6 +97,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIALERTSSERVICE
 NS_DECL_IMGINOTIFICATIONOBSERVER
 NS_DECL_NSITIMERCALLBACK
+NS_DECL_NSIALERTSICONDATA
 OSXNotificationCenter
 (
 )
