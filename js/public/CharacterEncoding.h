@@ -845,6 +845,16 @@ RangedPtr
 char
 >
 dst
+size_t
+*
+dstlenp
+=
+nullptr
+size_t
+*
+numcharsp
+=
+nullptr
 )
 ;
 }
