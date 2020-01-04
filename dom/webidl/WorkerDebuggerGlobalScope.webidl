@@ -106,6 +106,9 @@ WorkerDebuggerGlobalScope
 :
 EventTarget
 {
+[
+Throws
+]
 readonly
 attribute
 object

@@ -1069,6 +1069,9 @@ JSObject
 *
 >
 aGlobal
+ErrorResult
+&
+aRv
 )
 ;
 void
