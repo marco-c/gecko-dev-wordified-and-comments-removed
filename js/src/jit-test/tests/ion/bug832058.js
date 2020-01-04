@@ -70,6 +70,9 @@ c
 '
 )
 ;
+var
+s
+;
 for
 (
 var
