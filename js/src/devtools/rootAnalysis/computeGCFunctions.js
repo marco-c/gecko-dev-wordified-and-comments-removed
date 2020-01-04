@@ -208,7 +208,6 @@ Function
 name
 +
 "
-|
 "
 +
 readableNames
@@ -304,7 +303,6 @@ print
 name
 +
 "
-|
 "
 +
 readable
