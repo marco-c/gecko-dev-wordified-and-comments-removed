@@ -338,9 +338,8 @@ def
 lint
 (
 self
-paths
-linters
-fmt
+*
+runargs
 *
 *
 lintargs
@@ -390,9 +389,8 @@ cli
 .
 run
 (
-paths
-linters
-fmt
+*
+runargs
 *
 *
 lintargs
