@@ -251,12 +251,6 @@ case
 Expr
 :
 :
-I64Eqz
-:
-case
-Expr
-:
-:
 F32Abs
 :
 case
@@ -1116,6 +1110,12 @@ Expr
 :
 :
 I64ReinterpretF64
+:
+case
+Expr
+:
+:
+I64Eqz
 :
 case
 Expr
