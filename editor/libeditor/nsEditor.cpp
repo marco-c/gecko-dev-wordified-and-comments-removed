@@ -7679,9 +7679,9 @@ EnsureComposition
 mozilla
 :
 :
-WidgetGUIEvent
+WidgetCompositionEvent
 *
-aEvent
+aCompositionEvent
 )
 {
 if
@@ -7699,7 +7699,7 @@ IMEStateManager
 :
 GetTextCompositionFor
 (
-aEvent
+aCompositionEvent
 )
 ;
 if
