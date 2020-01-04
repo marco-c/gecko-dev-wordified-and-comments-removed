@@ -39162,7 +39162,7 @@ memory
 .
 low_virtual_memory_threshold_mb
 "
-128
+256
 )
 ;
 pref
@@ -39172,7 +39172,7 @@ memory
 .
 low_commit_space_threshold_mb
 "
-128
+256
 )
 ;
 pref
