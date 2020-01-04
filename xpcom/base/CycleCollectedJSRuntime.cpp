@@ -4504,6 +4504,7 @@ aTracer
 struct
 ClearJSHolder
 :
+public
 TraceCallbacks
 {
 virtual
