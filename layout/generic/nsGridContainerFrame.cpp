@@ -10389,6 +10389,11 @@ pc
 rs
 aChild
 availableSize
+nullptr
+nsHTMLReflowState
+:
+:
+COMPUTE_SIZE_SHRINK_WRAP
 )
 ;
 nsHTMLReflowMetrics
