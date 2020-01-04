@@ -126,10 +126,6 @@ LayerManager
 ;
 }
 }
-typedef
-nsFrame
-nsPluginFrameSuper
-;
 class
 PluginFrameDidCompositeObserver
 ;
@@ -137,7 +133,7 @@ class
 nsPluginFrame
 :
 public
-nsPluginFrameSuper
+nsFrame
 public
 nsIObjectFrame
 public
@@ -358,7 +354,7 @@ const
 override
 {
 return
-nsPluginFrameSuper
+nsFrame
 :
 :
 IsFrameOfType
