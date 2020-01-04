@@ -1270,6 +1270,11 @@ StreamTime
 aTime
 )
 ;
+void
+Clear
+(
+)
+;
 StreamTime
 GetForgottenDuration
 (
