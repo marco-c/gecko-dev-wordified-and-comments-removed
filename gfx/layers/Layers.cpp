@@ -5708,8 +5708,7 @@ IsTranslation
 )
 )
 {
-return
-false
+continue
 ;
 }
 IntPoint
