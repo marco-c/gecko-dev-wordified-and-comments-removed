@@ -11911,12 +11911,12 @@ dest
 {
 convertBoolToInt32
 (
-ScratchRegister
 operand
 .
 payloadReg
 (
 )
+ScratchRegister
 )
 ;
 convertInt32ToDouble
@@ -11967,12 +11967,12 @@ dest
 {
 convertBoolToInt32
 (
-ScratchRegister
 operand
 .
 payloadReg
 (
 )
+ScratchRegister
 )
 ;
 convertInt32ToFloat32
