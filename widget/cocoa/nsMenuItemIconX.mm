@@ -193,8 +193,13 @@ __GLIBCXX__
 =
 20070719
 #
+ifndef
+__EXCEPTIONS
+#
 define
 __EXCEPTIONS
+#
+endif
 #
 endif
 #

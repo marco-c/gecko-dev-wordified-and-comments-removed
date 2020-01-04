@@ -125,6 +125,13 @@ h
 #
 include
 "
+nsChildView
+.
+h
+"
+#
+include
+"
 nsDeviceContext
 .
 h
