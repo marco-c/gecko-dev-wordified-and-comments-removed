@@ -150,7 +150,7 @@ roughlyNow
 TimeStamp
 :
 :
-NowLoRes
+Now
 (
 )
 ;
