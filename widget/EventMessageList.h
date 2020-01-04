@@ -280,7 +280,7 @@ ePointerEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_POINTER_GOT_CAPTURE
+ePointerGotCapture
 ePointerEventFirst
 +
 27

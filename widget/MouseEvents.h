@@ -1864,7 +1864,7 @@ case
 NS_POINTER_CANCEL
 :
 case
-NS_POINTER_GOT_CAPTURE
+ePointerGotCapture
 :
 case
 ePointerLostCapture
