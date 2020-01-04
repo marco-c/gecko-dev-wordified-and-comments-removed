@@ -10845,6 +10845,11 @@ Contact
 Add
 "
 "
+DevToolsAuth
+:
+Scan
+"
+"
 DOMFullScreen
 :
 Start
