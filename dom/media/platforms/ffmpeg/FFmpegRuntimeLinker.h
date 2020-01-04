@@ -75,12 +75,6 @@ PRLibrary
 sLinkedUtilLib
 ;
 static
-const
-char
-*
-sLib
-;
-static
 bool
 Bind
 (
