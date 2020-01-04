@@ -310,6 +310,11 @@ _
 (
 IonBuilderRestartLoop
 )
+\
+_
+(
+VMSpecific
+)
 #
 define
 TRACELOGGER_LOG_ITEMS
