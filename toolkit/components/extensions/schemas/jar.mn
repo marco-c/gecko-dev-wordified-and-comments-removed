@@ -89,6 +89,15 @@ extensions
 /
 schemas
 /
+i18n
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 idle
 .
 json

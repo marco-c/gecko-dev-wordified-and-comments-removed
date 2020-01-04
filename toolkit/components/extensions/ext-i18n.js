@@ -5,8 +5,12 @@ strict
 ;
 extensions
 .
-registerAPI
+registerSchemaAPI
 (
+"
+i18n
+"
+null
 (
 extension
 context
