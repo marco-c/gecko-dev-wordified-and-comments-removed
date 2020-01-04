@@ -176,7 +176,7 @@ onClick
 onTakeSnapshotClick
 }
 )
-dom
+DOM
 .
 label
 (
@@ -186,7 +186,7 @@ label
 Breakdown
 by
 "
-dom
+DOM
 .
 select
 (
@@ -225,7 +225,7 @@ displayName
 )
 =
 >
-dom
+DOM
 .
 option
 (
