@@ -29,7 +29,7 @@ linkedBrowser
 addEventListener
 (
 "
-load
+pageshow
 "
 function
 (
@@ -42,7 +42,7 @@ linkedBrowser
 removeEventListener
 (
 "
-load
+pageshow
 "
 arguments
 .
