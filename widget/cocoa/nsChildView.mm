@@ -27618,7 +27618,7 @@ mExpectingWheelStop
 msg
 =
 =
-NS_WHEEL_START
+eWheelOperationStart
 )
 ;
 mGeckoChild
@@ -27947,7 +27947,7 @@ theEvent
 /
 /
 Fire
-NS_WHEEL_START
+eWheelOperationStart
 /
 STOP
 events
@@ -27958,6 +27958,8 @@ touch
 /
 release
 the
+/
+/
 touchpad
 .
 if
@@ -27977,7 +27979,7 @@ first
 NS_WHEEL_STOP
 second
 :
-NS_WHEEL_START
+eWheelOperationStart
 forEvent
 :
 theEvent
@@ -28003,7 +28005,7 @@ sendWheelCondition
 NO
 first
 :
-NS_WHEEL_START
+eWheelOperationStart
 second
 :
 NS_WHEEL_STOP

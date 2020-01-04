@@ -1485,7 +1485,7 @@ eWheelEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_WHEEL_START
+eWheelOperationStart
 eWheelEventFirst
 +
 1
