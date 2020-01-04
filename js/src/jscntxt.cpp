@@ -2731,7 +2731,7 @@ efs
 >
 argCount
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 argCount
 <
@@ -3096,7 +3096,7 @@ fmt
 ]
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 d
 <
