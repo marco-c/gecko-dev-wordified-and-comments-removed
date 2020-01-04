@@ -12281,6 +12281,16 @@ Key
 )
 )
 ;
+MOZ_ASSERT
+(
+doc
+-
+>
+GetWindow
+(
+)
+)
+;
 ProcessDocument
 (
 aPrincipal
