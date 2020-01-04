@@ -3516,9 +3516,9 @@ AddObserver
 (
 this
 "
-quit
+xpcom
 -
-application
+shutdown
 "
 false
 )
@@ -3976,9 +3976,9 @@ if
 strcmp
 (
 "
-quit
+xpcom
 -
-application
+shutdown
 "
 aTopic
 )
@@ -4009,9 +4009,9 @@ RemoveObserver
 (
 this
 "
-quit
+xpcom
 -
-application
+shutdown
 "
 )
 ;
