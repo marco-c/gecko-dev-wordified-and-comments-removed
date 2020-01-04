@@ -500,16 +500,6 @@ settings
 label
 ;
 "
-onclick
-=
-"
-event
-.
-stopPropagation
-(
-)
-;
-"
 >
 <
 menupopup
