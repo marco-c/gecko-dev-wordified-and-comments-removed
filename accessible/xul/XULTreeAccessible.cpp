@@ -2195,7 +2195,10 @@ void
 *
 >
 (
+intptr_t
+(
 aRow
+)
 )
 ;
 Accessible
@@ -2337,7 +2340,10 @@ void
 *
 >
 (
+intptr_t
+(
 rowIdx
+)
 )
 ;
 Accessible
@@ -2456,7 +2462,10 @@ void
 *
 >
 (
+intptr_t
+(
 rowIdx
+)
 )
 ;
 Accessible
@@ -2677,7 +2686,10 @@ void
 *
 >
 (
+intptr_t
+(
 rowIdx
+)
 )
 ;
 Accessible
