@@ -77,6 +77,8 @@ BrowserTestUtils
 .
 waitForNewWindow
 (
+true
+url
 )
 ;
 openDialog
@@ -95,18 +97,6 @@ win
 =
 yield
 openWindowPromise
-;
-yield
-BrowserTestUtils
-.
-browserLoaded
-(
-win
-.
-gBrowser
-.
-selectedBrowser
-)
 ;
 yield
 BrowserTestUtils
