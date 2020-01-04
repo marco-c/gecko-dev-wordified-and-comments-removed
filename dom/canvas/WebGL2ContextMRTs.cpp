@@ -12,6 +12,13 @@ GLContext
 .
 h
 "
+#
+include
+"
+WebGLFramebuffer
+.
+h
+"
 namespace
 mozilla
 {

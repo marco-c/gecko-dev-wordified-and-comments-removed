@@ -15,6 +15,13 @@ h
 #
 include
 "
+GLScreenBuffer
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

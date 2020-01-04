@@ -97,6 +97,13 @@ h
 #
 include
 "
+WebGLSampler
+.
+h
+"
+#
+include
+"
 WebGLTexelConversions
 .
 h

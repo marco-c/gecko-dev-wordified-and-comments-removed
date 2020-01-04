@@ -17,7 +17,7 @@ ValidateAttribPointerType
 bool
 GLenum
 type
-GLsizei
+uint32_t
 *
 out_alignment
 const

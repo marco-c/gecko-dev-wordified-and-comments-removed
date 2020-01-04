@@ -6584,7 +6584,7 @@ bool
 integerMode
 GLenum
 type
-GLsizei
+uint32_t
 *
 alignment
 const

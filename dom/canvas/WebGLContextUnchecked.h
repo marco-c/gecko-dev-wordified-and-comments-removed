@@ -7,13 +7,6 @@ WEBGLCONTEXTUNCHECKED_H
 #
 include
 "
-GLDefs
-.
-h
-"
-#
-include
-"
 mozilla
 /
 RefPtr
@@ -36,13 +29,6 @@ WebGLBuffer
 class
 WebGLSampler
 ;
-namespace
-gl
-{
-class
-GLContext
-;
-}
 class
 WebGLContextUnchecked
 {

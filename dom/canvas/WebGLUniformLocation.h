@@ -69,6 +69,9 @@ webgl
 struct
 LinkedProgramInfo
 ;
+struct
+UniformInfo
+;
 }
 class
 WebGLUniformLocation

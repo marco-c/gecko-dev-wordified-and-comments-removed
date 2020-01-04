@@ -7,6 +7,11 @@ WEBGL_SHADER_H_
 #
 include
 <
+map
+>
+#
+include
+<
 string
 >
 #

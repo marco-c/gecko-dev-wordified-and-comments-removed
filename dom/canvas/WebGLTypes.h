@@ -26,6 +26,13 @@ WebGLboolean
 namespace
 mozilla
 {
+namespace
+gl
+{
+class
+GLContext
+;
+}
 enum
 class
 FakeBlackType
