@@ -2793,6 +2793,9 @@ filter
 /
 activity
 >
+#
+ifdef
+MOZ_ANDROID_CUSTOM_TABS
 <
 activity
 android
@@ -2825,6 +2828,8 @@ NoActionBar
 "
 /
 >
+#
+endif
 <
 !
 -
@@ -3506,6 +3511,9 @@ false
 "
 /
 >
+#
+ifdef
+MOZ_ANDROID_CUSTOM_TABS
 <
 service
 android
@@ -3565,6 +3573,8 @@ filter
 /
 service
 >
+#
+endif
 #
 include
 .
