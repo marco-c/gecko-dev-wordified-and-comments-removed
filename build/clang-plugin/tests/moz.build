@@ -193,6 +193,11 @@ TestNonMemMovable
 cpp
 '
 '
+TestNonMemMovableStd
+.
+cpp
+'
+'
 TestNonTemporaryClass
 .
 cpp
