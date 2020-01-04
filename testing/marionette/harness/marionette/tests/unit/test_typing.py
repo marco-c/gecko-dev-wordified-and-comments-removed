@@ -2,8 +2,6 @@ import
 urllib
 from
 marionette
-.
-marionette_test
 import
 MarionetteTestCase
 skip_if_b2g

@@ -23,6 +23,8 @@ MarionetteTestCase
     
 skip
     
+skip_if_b2g
+    
 SkipTest
     
 skip_unless_protocol
