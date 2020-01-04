@@ -2767,9 +2767,6 @@ constructorProps
 input
 "
 "
-multiline
-"
-"
 lastMatch
 "
 "
@@ -2810,9 +2807,6 @@ rightContext
 "
 "
 _
-"
-"
-*
 "
 "
 &
@@ -8210,9 +8204,6 @@ ctorPropsToSkip
 input
 "
 "
-multiline
-"
-"
 lastMatch
 "
 "
@@ -8253,9 +8244,6 @@ rightContext
 "
 "
 _
-"
-"
-*
 "
 "
 &

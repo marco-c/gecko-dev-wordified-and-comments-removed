@@ -94,11 +94,7 @@ reportCompare
 expect
 actual
 '
-RegExp
-.
-multiline
-=
-17
+ok
 '
 )
 ;
