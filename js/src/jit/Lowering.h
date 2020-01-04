@@ -1092,14 +1092,6 @@ ins
 )
 ;
 void
-visitExtendInt32ToInt64
-(
-MExtendInt32ToInt64
-*
-ins
-)
-;
-void
 visitToString
 (
 MToString
