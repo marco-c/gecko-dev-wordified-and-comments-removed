@@ -75,10 +75,6 @@ void
 sLink
 ;
 static
-nsrefcnt
-sRefCount
-;
-static
 enum
 LinkStatus
 {
