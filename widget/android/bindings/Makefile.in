@@ -269,6 +269,10 @@ bindings_exports_FILES
 :
 =
 \
+AndroidRect
+.
+h
+\
 Bundle
 .
 h
