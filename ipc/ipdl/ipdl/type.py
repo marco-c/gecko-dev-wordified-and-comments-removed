@@ -1505,6 +1505,10 @@ None
 compress
 =
 False
+                 
+verify
+=
+False
 )
 :
         
@@ -1593,6 +1597,12 @@ self
 compress
 =
 compress
+        
+self
+.
+verify
+=
+verify
     
 def
 isMessage
@@ -7270,6 +7280,11 @@ compress
 md
 .
 compress
+verify
+=
+md
+.
+verify
 )
         
 def
