@@ -1191,10 +1191,14 @@ at
 "
 +
 nextUpdate
-+
+)
+;
+}
+log
+(
 "
-which
-is
+Next
+update
 "
 +
 updateDelay
@@ -1206,7 +1210,6 @@ now
 "
 )
 ;
-}
 let
 freshnessPref
 =
