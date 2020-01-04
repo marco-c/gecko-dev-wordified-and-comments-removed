@@ -339,6 +339,15 @@ FailWithNetworkError
 (
 )
 ;
+void
+SetRequestHeaders
+(
+nsIHttpChannel
+*
+aChannel
+)
+const
+;
 }
 ;
 }
