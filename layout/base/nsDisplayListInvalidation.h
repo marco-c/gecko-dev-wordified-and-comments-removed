@@ -459,6 +459,11 @@ nsDisplayBorderGeometry
 :
 public
 nsDisplayItemGeometry
+public
+nsImageGeometryMixin
+<
+nsDisplayBorderGeometry
+>
 {
 public
 :
