@@ -263,6 +263,11 @@ Date
 "
 "
 ReferenceError
+:
+asdf
+is
+not
+defined
 "
 ]
 )

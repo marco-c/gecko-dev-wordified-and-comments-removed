@@ -4,9 +4,7 @@ strict
 "
 ;
 const
-{
 stubConsoleMessages
-}
 =
 require
 (
@@ -28,6 +26,8 @@ test
 fixtures
 /
 stubs
+/
+index
 "
 )
 ;

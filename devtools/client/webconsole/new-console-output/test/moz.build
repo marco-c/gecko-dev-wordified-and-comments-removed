@@ -66,6 +66,17 @@ BROWSER_CHROME_MANIFESTS
 =
 [
 '
+fixtures
+/
+stub
+-
+generators
+/
+browser
+.
+ini
+'
+'
 mochitest
 /
 browser
