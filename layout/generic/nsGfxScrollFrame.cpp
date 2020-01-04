@@ -9385,6 +9385,12 @@ nsGkAtoms
 :
 :
 restore
+&
+&
+!
+PageIsStillLoading
+(
+)
 )
 {
 aOrigin
