@@ -647,6 +647,12 @@ return
 false
 ;
 }
+bool
+hasdecoder
+=
+false
+;
+{
 RefPtr
 <
 MFTDecoder
@@ -659,8 +665,7 @@ MFTDecoder
 )
 )
 ;
-bool
-hasH264
+hasdecoder
 =
 SUCCEEDED
 (
@@ -673,6 +678,7 @@ aGuid
 )
 )
 ;
+}
 wmf
 :
 :
@@ -681,7 +687,7 @@ MFShutdown
 )
 ;
 return
-hasH264
+hasdecoder
 ;
 }
 template
