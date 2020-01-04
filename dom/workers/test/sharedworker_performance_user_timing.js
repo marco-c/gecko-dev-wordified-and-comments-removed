@@ -247,7 +247,7 @@ importScripts
 /
 dom
 /
-base
+performance
 /
 test
 /

@@ -435,6 +435,9 @@ u2f
 '
 console
 '
+'
+performance
+'
 ]
 if
 CONFIG
