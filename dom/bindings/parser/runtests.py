@@ -654,9 +654,6 @@ dest
 '
 verbose
 '
-default
-=
-True
                         
 help
 =
@@ -669,6 +666,9 @@ passing
 tests
 .
 "
+default
+=
+None
 )
     
 parser
@@ -694,9 +694,6 @@ dest
 '
 verbose
 '
-default
-=
-True
                         
 help
 =
@@ -755,6 +752,20 @@ parser
 parse_args
 (
 )
+    
+if
+args
+.
+verbose
+is
+None
+:
+        
+args
+.
+verbose
+=
+True
     
 run_tests
 (
