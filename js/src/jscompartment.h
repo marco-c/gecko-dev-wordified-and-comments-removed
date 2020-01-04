@@ -149,7 +149,7 @@ namespace
 wasm
 {
 class
-Module
+Instance
 ;
 }
 class
@@ -157,9 +157,6 @@ ClonedBlockObject
 ;
 class
 ScriptSourceObject
-;
-class
-WasmModuleObject
 ;
 struct
 NativeIterator
@@ -2114,9 +2111,9 @@ js
 wasm
 :
 :
-Module
+Instance
 >
-wasmModuleWeakList
+wasmInstanceWeakList
 ;
 private
 :

@@ -71,7 +71,7 @@ include
 "
 asmjs
 /
-WasmModule
+WasmJS
 .
 h
 "

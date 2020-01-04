@@ -26,7 +26,7 @@ include
 "
 asmjs
 /
-WasmModule
+WasmJS
 .
 h
 "
@@ -781,7 +781,7 @@ template
 struct
 MovableCellHasher
 <
-WasmModuleObject
+WasmInstanceObject
 *
 >
 ;
