@@ -57,6 +57,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ConsoleReportCollector
@@ -580,10 +587,7 @@ upgradedURI
 ;
 rv
 =
-HttpBaseChannel
-:
-:
-GetSecureUpgradedURI
+NS_GetSecureUpgradedURI
 (
 uri
 getter_AddRefs
@@ -1707,10 +1711,7 @@ mSecureUpgrade
 nsresult
 rv
 =
-HttpBaseChannel
-:
-:
-GetSecureUpgradedURI
+NS_GetSecureUpgradedURI
 (
 originalURI
 getter_AddRefs

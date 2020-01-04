@@ -8500,7 +8500,7 @@ upgradedURI
 nsresult
 rv
 =
-GetSecureUpgradedURI
+NS_GetSecureUpgradedURI
 (
 mURI
 getter_AddRefs
