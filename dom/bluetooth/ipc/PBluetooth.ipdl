@@ -306,7 +306,7 @@ StopDiscoveryRequest
 struct
 StartLeScanRequest
 {
-nsString
+BluetoothUuid
 [
 ]
 serviceUuids
@@ -316,7 +316,7 @@ serviceUuids
 struct
 StopLeScanRequest
 {
-nsString
+BluetoothUuid
 scanUuid
 ;
 }
@@ -683,7 +683,7 @@ playStatus
 struct
 ConnectGattClientRequest
 {
-nsString
+BluetoothUuid
 appUuid
 ;
 BluetoothAddress
@@ -694,7 +694,7 @@ deviceAddress
 struct
 DisconnectGattClientRequest
 {
-nsString
+BluetoothUuid
 appUuid
 ;
 BluetoothAddress
@@ -705,7 +705,7 @@ deviceAddress
 struct
 DiscoverGattServicesRequest
 {
-nsString
+BluetoothUuid
 appUuid
 ;
 }
@@ -713,7 +713,7 @@ appUuid
 struct
 GattClientStartNotificationsRequest
 {
-nsString
+BluetoothUuid
 appUuid
 ;
 BluetoothGattServiceId
@@ -727,7 +727,7 @@ charId
 struct
 GattClientStopNotificationsRequest
 {
-nsString
+BluetoothUuid
 appUuid
 ;
 BluetoothGattServiceId
@@ -760,7 +760,7 @@ deviceAddress
 struct
 GattClientReadCharacteristicValueRequest
 {
-nsString
+BluetoothUuid
 appUuid
 ;
 BluetoothGattServiceId
@@ -774,7 +774,7 @@ charId
 struct
 GattClientWriteCharacteristicValueRequest
 {
-nsString
+BluetoothUuid
 appUuid
 ;
 BluetoothGattServiceId
@@ -796,7 +796,7 @@ value
 struct
 GattClientReadDescriptorValueRequest
 {
-nsString
+BluetoothUuid
 appUuid
 ;
 BluetoothGattServiceId
@@ -813,7 +813,7 @@ descId
 struct
 GattClientWriteDescriptorValueRequest
 {
-nsString
+BluetoothUuid
 appUuid
 ;
 BluetoothGattServiceId
@@ -835,7 +835,7 @@ value
 struct
 GattServerConnectPeripheralRequest
 {
-nsString
+BluetoothUuid
 appUuid
 ;
 BluetoothAddress
@@ -846,7 +846,7 @@ address
 struct
 GattServerDisconnectPeripheralRequest
 {
-nsString
+BluetoothUuid
 appUuid
 ;
 BluetoothAddress
@@ -865,7 +865,7 @@ serverIf
 struct
 GattServerAddServiceRequest
 {
-nsString
+BluetoothUuid
 appUuid
 ;
 BluetoothGattServiceId
@@ -879,7 +879,7 @@ handleCount
 struct
 GattServerAddIncludedServiceRequest
 {
-nsString
+BluetoothUuid
 appUuid
 ;
 BluetoothAttributeHandle
@@ -893,7 +893,7 @@ includedServiceHandle
 struct
 GattServerAddCharacteristicRequest
 {
-nsString
+BluetoothUuid
 appUuid
 ;
 BluetoothAttributeHandle
@@ -913,7 +913,7 @@ properties
 struct
 GattServerAddDescriptorRequest
 {
-nsString
+BluetoothUuid
 appUuid
 ;
 BluetoothAttributeHandle
@@ -933,7 +933,7 @@ permissions
 struct
 GattServerRemoveServiceRequest
 {
-nsString
+BluetoothUuid
 appUuid
 ;
 BluetoothAttributeHandle
@@ -944,7 +944,7 @@ serviceHandle
 struct
 GattServerStartServiceRequest
 {
-nsString
+BluetoothUuid
 appUuid
 ;
 BluetoothAttributeHandle
@@ -955,7 +955,7 @@ serviceHandle
 struct
 GattServerStopServiceRequest
 {
-nsString
+BluetoothUuid
 appUuid
 ;
 BluetoothAttributeHandle
@@ -966,7 +966,7 @@ serviceHandle
 struct
 GattServerSendResponseRequest
 {
-nsString
+BluetoothUuid
 appUuid
 ;
 BluetoothAddress
@@ -986,7 +986,7 @@ response
 struct
 GattServerSendIndicationRequest
 {
-nsString
+BluetoothUuid
 appUuid
 ;
 BluetoothAddress
