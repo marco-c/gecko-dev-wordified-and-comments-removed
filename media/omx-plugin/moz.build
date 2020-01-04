@@ -244,6 +244,12 @@ Wno
 -
 multichar
 '
+'
+-
+Wno
+-
+shadow
+'
 ]
 if
 CONFIG

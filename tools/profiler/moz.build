@@ -1075,11 +1075,18 @@ CXXFLAGS
 -
 Wno
 -
+error
+=
+shadow
+'
+'
+-
+Wno
+-
 ignored
 -
 qualifiers
 '
-]
 #
 due
 to
@@ -1087,3 +1094,4 @@ use
 of
 breakpad
 headers
+]

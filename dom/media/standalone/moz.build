@@ -347,4 +347,12 @@ error
 =
 attributes
 '
+'
+-
+Wno
+-
+error
+=
+shadow
+'
 ]

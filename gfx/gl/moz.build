@@ -1098,7 +1098,7 @@ if
 CONFIG
 [
 '
-CLANG_CXX
+GNU_CXX
 '
 ]
 :
@@ -1108,6 +1108,10 @@ CXXFLAGS
 [
 '
 -
-Wshadow
+Wno
+-
+error
+=
+shadow
 '
 ]

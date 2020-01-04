@@ -724,3 +724,16 @@ CONFIG
 MOZ_DBUS_GLIB_CFLAGS
 '
 ]
+CXXFLAGS
++
+=
+[
+'
+-
+Wno
+-
+error
+=
+shadow
+'
+]

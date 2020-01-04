@@ -376,6 +376,14 @@ CXXFLAGS
 -
 Wno
 -
+error
+=
+shadow
+'
+'
+-
+Wno
+-
 unused
 -
 local

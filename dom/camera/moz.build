@@ -402,6 +402,14 @@ error
 =
 attributes
 '
+'
+-
+Wno
+-
+error
+=
+shadow
+'
 ]
 FINAL_LIBRARY
 =
