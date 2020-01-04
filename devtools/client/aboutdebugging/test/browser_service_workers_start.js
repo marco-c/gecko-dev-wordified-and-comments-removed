@@ -173,15 +173,9 @@ workers
 let
 serviceWorkersElement
 =
-document
-.
-getElementById
+getServiceWorkerList
 (
-"
-service
--
-workers
-"
+document
 )
 ;
 let
