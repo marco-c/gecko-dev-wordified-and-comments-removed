@@ -1596,6 +1596,12 @@ dispose
 (
 )
 ;
+io
+.
+updatePollFds
+(
+)
+;
 this
 .
 resolveExit
