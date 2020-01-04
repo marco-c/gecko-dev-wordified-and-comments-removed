@@ -2154,7 +2154,10 @@ preflightChannel
 nsresult
 rv
 =
-NS_StartCORSPreflight
+nsCORSListenerProxy
+:
+:
+StartCORSPreflight
 (
 this
 mListener
