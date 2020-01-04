@@ -465,7 +465,7 @@ testing
 these
 features
 is
-indended
+intended
 to
 be
 rather
@@ -1479,7 +1479,7 @@ a
 single
 page
 test
-the
+then
 it
 must
 simply
@@ -1620,7 +1620,7 @@ The
 test
 title
 for
-sinple
+single
 page
 tests
 is
@@ -3026,7 +3026,7 @@ a
 test
 result
 is
-recieved
+received
 *
 complete
 -
@@ -3035,7 +3035,7 @@ when
 all
 results
 are
-recieved
+received
 The
 page
 defining

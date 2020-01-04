@@ -1,0 +1,5 @@
+mustpass
+.
+run
+.
+txt

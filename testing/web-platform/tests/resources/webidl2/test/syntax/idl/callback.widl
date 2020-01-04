@@ -20,3 +20,14 @@ details
 ;
 }
 ;
+callback
+SortCallback
+=
+boolean
+(
+any
+a
+any
+b
+)
+;
