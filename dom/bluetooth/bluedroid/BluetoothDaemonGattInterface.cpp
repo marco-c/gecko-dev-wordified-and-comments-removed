@@ -4231,9 +4231,16 @@ int32_t
 (
 aTransId
 )
+PackConversion
+<
+BluetoothAttributeHandle
+uint16_t
+>
+(
 aResponse
 .
 mHandle
+)
 aResponse
 .
 mOffset
