@@ -852,7 +852,7 @@ nodeFront
 null
 ;
 yield
-Promise
+promise
 .
 all
 (
