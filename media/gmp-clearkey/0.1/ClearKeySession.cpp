@@ -367,7 +367,7 @@ mCallback
 RejectPromise
 (
 aPromiseId
-kGMPAbortError
+kGMPInvalidAccessError
 message
 strlen
 (
@@ -451,7 +451,7 @@ mCallback
 RejectPromise
 (
 aPromiseId
-kGMPAbortError
+kGMPInvalidAccessError
 message
 strlen
 (
