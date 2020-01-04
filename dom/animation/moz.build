@@ -173,6 +173,11 @@ ComputedTimingFunction
 h
 '
 '
+EffectSet
+.
+h
+'
+'
 PendingAnimationTracker
 .
 h
@@ -204,6 +209,11 @@ cpp
 '
 '
 DocumentTimeline
+.
+cpp
+'
+'
+EffectSet
 .
 cpp
 '
