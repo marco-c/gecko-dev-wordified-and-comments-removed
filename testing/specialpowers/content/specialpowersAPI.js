@@ -2588,10 +2588,9 @@ let
 parentRunner
 repr
 =
-function
-(
 o
-)
+=
+>
 o
 ;
 if

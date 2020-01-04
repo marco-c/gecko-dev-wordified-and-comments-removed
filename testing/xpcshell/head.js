@@ -1185,6 +1185,8 @@ get
 CID
 (
 )
+{
+return
 this
 .
 registrar
@@ -1195,6 +1197,8 @@ this
 .
 contractID
 )
+;
+}
 activate
 :
 function
@@ -1427,7 +1431,11 @@ get
 idleTime
 (
 )
+{
+return
 0
+;
+}
 addIdleObserver
 :
 function

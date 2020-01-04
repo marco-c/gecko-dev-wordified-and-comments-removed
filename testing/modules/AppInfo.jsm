@@ -123,7 +123,11 @@ get
 userCanElevate
 (
 )
+{
+return
 false
+;
+}
 QueryInterface
 (
 iid
