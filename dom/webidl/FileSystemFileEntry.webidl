@@ -105,9 +105,6 @@ blob
 ;
 }
 ;
-[
-NoInterfaceObject
-]
 interface
 FileSystemFileEntry
 :

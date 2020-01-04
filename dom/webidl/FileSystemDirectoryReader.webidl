@@ -107,9 +107,6 @@ entries
 ;
 }
 ;
-[
-NoInterfaceObject
-]
 interface
 FileSystemDirectoryReader
 {

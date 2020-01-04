@@ -160,9 +160,6 @@ error
 ;
 }
 ;
-[
-NoInterfaceObject
-]
 interface
 FileSystem
 {

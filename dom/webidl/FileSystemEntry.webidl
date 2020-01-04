@@ -91,9 +91,6 @@ MPL
 .
 *
 /
-[
-NoInterfaceObject
-]
 interface
 FileSystemEntry
 {
