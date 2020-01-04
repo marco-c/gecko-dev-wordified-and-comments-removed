@@ -1437,8 +1437,10 @@ GetFormat
 )
 )
 ;
+RefPtr
+<
 DeviceManagerD3D9
-*
+>
 deviceManager
 =
 gfxWindowsPlatform
@@ -2714,8 +2716,10 @@ SurfaceFormatToD3D9Format
 aFormat
 )
 ;
+RefPtr
+<
 DeviceManagerD3D9
-*
+>
 deviceManager
 =
 gfxWindowsPlatform
@@ -4142,8 +4146,10 @@ Height
 )
 ;
 }
+RefPtr
+<
 DeviceManagerD3D9
-*
+>
 dm
 =
 gfxWindowsPlatform
