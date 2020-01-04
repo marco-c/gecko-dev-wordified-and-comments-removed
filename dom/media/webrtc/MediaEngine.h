@@ -160,6 +160,14 @@ DEFAULT_SAMPLE_RATE
 ;
 #
 endif
+static
+const
+int
+USE_GRAPH_RATE
+=
+-
+1
+;
 virtual
 void
 EnumerateVideoDevices
