@@ -20594,7 +20594,7 @@ error
 AssignLiteral
 (
 "
-deceptiveBlocked
+phishingBlocked
 "
 )
 ;
