@@ -2142,6 +2142,9 @@ monospace
 theme
 -
 sidebar
+inspector
+-
+tabpanel
 "
 >
 <
@@ -2555,6 +2558,9 @@ monospace
 theme
 -
 sidebar
+inspector
+-
+tabpanel
 "
 >
 <
@@ -2757,6 +2763,9 @@ monospace
 theme
 -
 sidebar
+inspector
+-
+tabpanel
 "
 >
 <
@@ -3195,6 +3204,9 @@ monospace
 theme
 -
 sidebar
+inspector
+-
+tabpanel
 "
 >
 <
