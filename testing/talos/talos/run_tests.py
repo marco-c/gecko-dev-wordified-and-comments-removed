@@ -1,8 +1,6 @@
 import
 mozversion
 import
-mozfile
-import
 logging
 import
 os
@@ -1355,6 +1353,7 @@ s
 )
 "
 testname
+                         
 testtimer
 .
 elapsed
