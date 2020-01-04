@@ -552,7 +552,6 @@ Length
 )
 )
 {
-nsresult
 rv
 =
 NS_NewURI
