@@ -1285,12 +1285,6 @@ gfx
 IntRect
 mTargetBounds
 ;
-gfx
-:
-:
-Rect
-mRenderBounds
-;
 #
 if
 defined
