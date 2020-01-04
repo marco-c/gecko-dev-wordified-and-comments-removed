@@ -1208,15 +1208,6 @@ mPixelsFilled
 ScreenRotation
 mScreenRotation
 ;
-virtual
-LayoutDeviceIntSize
-GetWidgetSize
-(
-)
-const
-=
-0
-;
 RefPtr
 <
 gfx
