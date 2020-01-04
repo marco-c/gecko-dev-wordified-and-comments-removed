@@ -169,8 +169,7 @@ private
 nsKeyObjectFactory
 (
 )
-{
-}
+;
 nsKeyObjectFactory
 (
 nsKeyObjectFactory
