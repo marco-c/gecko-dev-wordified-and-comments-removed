@@ -79,7 +79,7 @@ MPL
 -
 >
 <
-LinearLayout
+FrameLayout
 xmlns
 :
 android
@@ -228,5 +228,5 @@ ScrollView
 >
 <
 /
-LinearLayout
+FrameLayout
 >
