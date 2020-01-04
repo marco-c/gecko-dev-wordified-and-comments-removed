@@ -471,7 +471,10 @@ mozilla
 dom
 :
 :
-ServiceWorkerNotificationAPIVisible
+ServiceWorkerRegistration
+:
+:
+NotificationAPIVisible
 "
 ]
 Promise
@@ -498,7 +501,10 @@ mozilla
 dom
 :
 :
-ServiceWorkerNotificationAPIVisible
+ServiceWorkerRegistration
+:
+:
+NotificationAPIVisible
 "
 ]
 Promise

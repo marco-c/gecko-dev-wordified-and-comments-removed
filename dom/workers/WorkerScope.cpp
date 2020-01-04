@@ -2661,7 +2661,7 @@ return
 mClients
 ;
 }
-ServiceWorkerRegistrationWorkerThread
+ServiceWorkerRegistration
 *
 ServiceWorkerGlobalScope
 :
@@ -2678,8 +2678,10 @@ mRegistration
 {
 mRegistration
 =
-new
-ServiceWorkerRegistrationWorkerThread
+ServiceWorkerRegistration
+:
+:
+CreateForWorker
 (
 mWorkerPrivate
 mScope

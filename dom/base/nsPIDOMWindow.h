@@ -151,7 +151,7 @@ class
 Performance
 ;
 class
-ServiceWorkerRegistrationMainThread
+ServiceWorkerRegistration
 ;
 }
 namespace
@@ -1666,7 +1666,7 @@ mozilla
 dom
 :
 :
-ServiceWorkerRegistrationMainThread
+ServiceWorkerRegistration
 >
 ServiceWorkerRegistrationTable
 ;
@@ -1926,7 +1926,7 @@ mozilla
 dom
 :
 :
-ServiceWorkerRegistrationMainThread
+ServiceWorkerRegistration
 >
 GetServiceWorkerRegistration
 (

@@ -131,7 +131,10 @@ mozilla
 dom
 :
 :
-ServiceWorkerRegistrationVisible
+ServiceWorkerRegistration
+:
+:
+Visible
 "
 Exposed
 =

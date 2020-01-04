@@ -100,7 +100,7 @@ class
 RequestOrUSVString
 ;
 class
-ServiceWorkerRegistrationWorkerThread
+ServiceWorkerRegistration
 ;
 class
 WorkerLocation
@@ -928,7 +928,7 @@ mClients
 ;
 RefPtr
 <
-ServiceWorkerRegistrationWorkerThread
+ServiceWorkerRegistration
 >
 mRegistration
 ;
@@ -1015,7 +1015,7 @@ Clients
 (
 )
 ;
-ServiceWorkerRegistrationWorkerThread
+ServiceWorkerRegistration
 *
 Registration
 (
