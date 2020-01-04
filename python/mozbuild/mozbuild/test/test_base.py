@@ -143,6 +143,18 @@ MOZ_OBJDIR
 '
 None
 )
+        
+os
+.
+environ
+.
+pop
+(
+'
+MOZ_CURRENT_PROJECT
+'
+None
+)
     
 def
 tearDown
