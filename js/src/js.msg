@@ -4793,11 +4793,10 @@ JSMSG_WASM_BAD_IND_CALL
 0
 JSEXN_ERR
 "
+bad
 wasm
 indirect
 call
-signature
-mismatch
 "
 )
 MSG_DEF

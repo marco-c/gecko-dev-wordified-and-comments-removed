@@ -143,7 +143,6 @@ uint32_t
 None
 ImportJit
 ImportInterp
-Error
 Native
 }
 ;
