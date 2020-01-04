@@ -168,6 +168,12 @@ unsigned
 height
 width
 ;
+unsigned
+clamped_height
+;
+unsigned
+clamped_width
+;
 int
 tpixel
 ;
