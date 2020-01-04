@@ -2200,9 +2200,7 @@ nullptr
 XPCNativeSetKey
 key
 (
-nullptr
 iface
-0
 )
 ;
 XPCJSRuntime
@@ -2626,8 +2624,6 @@ XPCNativeSetKey
 key
 (
 set
-nullptr
-0
 )
 ;
 XPCNativeSet

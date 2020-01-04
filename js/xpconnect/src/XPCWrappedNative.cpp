@@ -1719,9 +1719,7 @@ cx
 XPCNativeSetKey
 key
 (
-nullptr
 iface
-0
 )
 ;
 set

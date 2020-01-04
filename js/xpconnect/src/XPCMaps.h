@@ -1954,8 +1954,6 @@ XPCNativeSetKey
 key
 (
 set
-nullptr
-0
 )
 ;
 mTable
