@@ -963,12 +963,15 @@ if
 (
 gFindBarInitialized
 )
+{
 gFindBar
 .
 close
 (
+true
 )
 ;
+}
 gBrowser
 .
 tabContainer
