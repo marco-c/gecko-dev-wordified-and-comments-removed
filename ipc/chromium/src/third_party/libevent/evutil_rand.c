@@ -104,7 +104,6 @@ defined
 (
 __APPLE__
 )
-return
 arc4random_buf
 (
 buf
