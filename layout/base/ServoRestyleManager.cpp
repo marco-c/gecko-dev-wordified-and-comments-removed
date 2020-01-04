@@ -726,9 +726,14 @@ aHint
 eRestyle_LaterSiblings
 )
 {
+MarkParentsAsHavingDirtyDescendants
+(
+aElement
+)
+;
 for
 (
-nsINode
+nsIContent
 *
 cur
 =
