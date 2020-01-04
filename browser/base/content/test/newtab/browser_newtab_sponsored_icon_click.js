@@ -170,7 +170,9 @@ explain
 "
 )
 ;
-isnot
+Assert
+.
+notEqual
 (
 explain
 null
@@ -181,6 +183,8 @@ shown
 "
 )
 ;
+Assert
+.
 ok
 (
 explain
@@ -213,6 +217,8 @@ image
 "
 )
 ;
+Assert
+.
 ok
 (
 sponsoredButton
@@ -242,7 +248,9 @@ sponsoredButton
 content
 )
 ;
-is
+Assert
+.
+equal
 (
 site
 .
@@ -265,6 +273,8 @@ shown
 "
 )
 ;
+Assert
+.
 ok
 (
 !
@@ -323,7 +333,9 @@ explain
 "
 )
 ;
-isnot
+Assert
+.
+notEqual
 (
 explain
 null
@@ -334,6 +346,8 @@ shown
 "
 )
 ;
+Assert
+.
 ok
 (
 explain
@@ -364,6 +378,8 @@ image
 "
 )
 ;
+Assert
+.
 ok
 (
 sponsoredButton
@@ -393,7 +409,9 @@ sponsoredButton
 content
 )
 ;
-is
+Assert
+.
+equal
 (
 site
 .
@@ -416,6 +434,8 @@ shown
 "
 )
 ;
+Assert
+.
 ok
 (
 !

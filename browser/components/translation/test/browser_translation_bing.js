@@ -310,6 +310,8 @@ translate
 (
 )
 ;
+Assert
+.
 ok
 (
 result
@@ -492,6 +494,8 @@ _resetToken
 (
 )
 ;
+Assert
+.
 ok
 (
 client

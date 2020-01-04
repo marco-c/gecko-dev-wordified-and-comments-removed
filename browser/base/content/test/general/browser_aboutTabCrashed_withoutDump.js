@@ -155,6 +155,8 @@ content
 .
 document
 ;
+Assert
+.
 ok
 (
 !
@@ -196,6 +198,8 @@ container
 "
 )
 ;
+Assert
+.
 ok
 (
 container
@@ -209,6 +213,8 @@ container
 "
 )
 ;
+Assert
+.
 ok
 (
 container

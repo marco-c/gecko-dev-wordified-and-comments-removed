@@ -180,6 +180,8 @@ pinned
 )
 )
 {
+Assert
+.
 ok
 (
 false

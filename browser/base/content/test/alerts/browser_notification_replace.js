@@ -141,7 +141,9 @@ show
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 showEvent
 .
@@ -183,7 +185,9 @@ show
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 newShowEvent
 .
@@ -211,7 +215,9 @@ closeEvent
 yield
 promiseCloseEvent
 ;
-is
+Assert
+.
+equal
 (
 closeEvent
 .
@@ -256,7 +262,9 @@ newCloseEvent
 yield
 promiseNewCloseEvent
 ;
-is
+Assert
+.
+equal
 (
 newCloseEvent
 .

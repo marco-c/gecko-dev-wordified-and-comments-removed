@@ -264,7 +264,9 @@ function
 (
 )
 {
-is
+Assert
+.
+equal
 (
 content
 .
@@ -283,7 +285,9 @@ URL
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 content
 .
@@ -304,7 +308,9 @@ URL
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 content
 .
@@ -463,7 +469,9 @@ function
 args
 )
 {
-is
+Assert
+.
+equal
 (
 content
 .
@@ -484,7 +492,9 @@ URL
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 content
 .
@@ -639,7 +649,9 @@ function
 (
 )
 {
-is
+Assert
+.
+equal
 (
 content
 .
@@ -658,7 +670,9 @@ URL
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 content
 .

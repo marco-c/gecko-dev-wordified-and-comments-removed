@@ -71,7 +71,9 @@ function
 (
 )
 {
-is
+Assert
+.
+equal
 (
 content
 .
@@ -163,7 +165,9 @@ function
 (
 )
 {
-is
+Assert
+.
+equal
 (
 content
 .
