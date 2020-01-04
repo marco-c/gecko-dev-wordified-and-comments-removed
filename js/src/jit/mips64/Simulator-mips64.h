@@ -23,6 +23,15 @@ IonTypes
 .
 h
 "
+#
+include
+"
+threading
+/
+Mutex
+.
+h
+"
 namespace
 js
 {
@@ -1322,8 +1331,7 @@ ICacheMap
 ;
 private
 :
-PRLock
-*
+Mutex
 cacheLock_
 ;
 #
