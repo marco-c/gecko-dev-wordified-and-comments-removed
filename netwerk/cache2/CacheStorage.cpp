@@ -107,6 +107,8 @@ bool
 aLookupAppCache
 bool
 aSkipSizeCheck
+bool
+aPinning
 )
 :
 mLoadContextInfo
@@ -127,6 +129,10 @@ aLookupAppCache
 mSkipSizeCheck
 (
 aSkipSizeCheck
+)
+mPinning
+(
+aPinning
 )
 {
 }

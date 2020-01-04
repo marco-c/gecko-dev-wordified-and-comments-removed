@@ -49,6 +49,9 @@ nsILoadContextInfo
 >
 mInfo
 ;
+bool
+mPinned
+;
 PRTime
 mTimeStamp
 ;
@@ -102,6 +105,8 @@ AddContext
 nsILoadContextInfo
 *
 aLoadContextInfo
+bool
+aPinned
 )
 ;
 nsresult
@@ -121,7 +126,10 @@ nsIFile
 aFile
 bool
 *
-_retval
+aEvictedAsPinned
+bool
+*
+aEvictedAsNonPinned
 )
 ;
 private
@@ -132,6 +140,8 @@ PersistEvictionInfoToDisk
 nsILoadContextInfo
 *
 aLoadContextInfo
+bool
+aPinned
 )
 ;
 nsresult
@@ -140,6 +150,8 @@ RemoveEvictInfoFromDisk
 nsILoadContextInfo
 *
 aLoadContextInfo
+bool
+aPinned
 )
 ;
 nsresult
@@ -153,6 +165,8 @@ GetContextFile
 nsILoadContextInfo
 *
 aLoadContextInfo
+bool
+aPinned
 nsIFile
 *
 *
