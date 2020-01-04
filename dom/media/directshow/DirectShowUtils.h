@@ -301,11 +301,6 @@ GUID
 aGuid
 )
 ;
-bool
-CanDecodeMP3UsingDirectShow
-(
-)
-;
 }
 #
 endif
