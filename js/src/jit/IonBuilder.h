@@ -4217,7 +4217,7 @@ callInfo
 )
 ;
 InliningStatus
-inlineStringReplaceString
+inlineStrReplace
 (
 CallInfo
 &

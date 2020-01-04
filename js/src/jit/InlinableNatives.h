@@ -335,10 +335,9 @@ _
 StringCharAt
 )
 \
-\
 _
 (
-IntrinsicStringReplaceString
+StringReplace
 )
 \
 \

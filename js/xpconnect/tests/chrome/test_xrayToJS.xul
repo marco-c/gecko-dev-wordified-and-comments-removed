@@ -2738,9 +2738,6 @@ Symbol
 match
 Symbol
 .
-replace
-Symbol
-.
 search
 "
 flags

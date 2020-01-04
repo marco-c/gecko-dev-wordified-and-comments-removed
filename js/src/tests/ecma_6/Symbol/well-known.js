@@ -9,9 +9,6 @@ iterator
 match
 "
 "
-replace
-"
-"
 search
 "
 "
