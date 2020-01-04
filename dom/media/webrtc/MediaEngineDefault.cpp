@@ -169,9 +169,13 @@ MediaEngineDefaultVideoSource
 (
 )
 :
-MediaEngineVideoSource
+MediaEngineCameraVideoSource
 (
-kReleased
+"
+FakeVideo
+.
+Monitor
+"
 )
 mTimer
 (
