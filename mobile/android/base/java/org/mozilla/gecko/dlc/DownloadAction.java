@@ -233,7 +233,9 @@ https
 :
 /
 /
-mobile
+fennec
+-
+catalog
 .
 cdn
 .

@@ -247,8 +247,6 @@ v1
 buckets
 /
 fennec
--
-dlc
 /
 collections
 /
