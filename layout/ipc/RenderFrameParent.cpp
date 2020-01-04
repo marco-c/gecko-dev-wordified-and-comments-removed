@@ -1078,14 +1078,6 @@ SendAdoptChild
 mLayersId
 )
 ;
-FrameLayerBuilder
-:
-:
-InvalidateAllLayers
-(
-lm
-)
-;
 }
 }
 void

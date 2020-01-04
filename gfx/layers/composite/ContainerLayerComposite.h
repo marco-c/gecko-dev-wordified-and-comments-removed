@@ -297,10 +297,6 @@ mManager
 =
 aManager
 ;
-mLastIntermediateSurface
-=
-nullptr
-;
 for
 (
 Layer
