@@ -2080,6 +2080,12 @@ propertyCount
 )
 ;
 }
+bool
+isExtensible
+(
+)
+const
+;
 protected
 :
 const
@@ -2566,6 +2572,14 @@ toPrivate
 )
 ;
 }
+bool
+makeNonExtensible
+(
+ExclusiveContext
+*
+cx
+)
+;
 static
 const
 unsigned
