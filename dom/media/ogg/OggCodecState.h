@@ -745,6 +745,7 @@ CodecType
 GetType
 (
 )
+override
 {
 return
 TYPE_VORBIS
@@ -757,6 +758,7 @@ ogg_packet
 *
 aPacket
 )
+override
 ;
 int64_t
 Time
@@ -764,6 +766,7 @@ Time
 int64_t
 granulepos
 )
+override
 ;
 int64_t
 PacketDuration
@@ -772,16 +775,19 @@ ogg_packet
 *
 aPacket
 )
+override
 ;
 bool
 Init
 (
 )
+override
 ;
 nsresult
 Reset
 (
 )
+override
 ;
 bool
 IsHeader
@@ -790,6 +796,7 @@ ogg_packet
 *
 aPacket
 )
+override
 ;
 nsresult
 PageIn
@@ -798,12 +805,14 @@ ogg_page
 *
 aPage
 )
+override
 ;
 MetadataTags
 *
 GetTags
 (
 )
+override
 ;
 static
 int64_t
@@ -932,6 +941,7 @@ CodecType
 GetType
 (
 )
+override
 {
 return
 TYPE_THEORA
@@ -944,6 +954,7 @@ ogg_packet
 *
 aPacket
 )
+override
 ;
 int64_t
 Time
@@ -951,6 +962,7 @@ Time
 int64_t
 granulepos
 )
+override
 ;
 int64_t
 StartTime
@@ -958,6 +970,7 @@ StartTime
 int64_t
 granulepos
 )
+override
 ;
 int64_t
 PacketDuration
@@ -966,11 +979,13 @@ ogg_packet
 *
 aPacket
 )
+override
 ;
 bool
 Init
 (
 )
+override
 ;
 bool
 IsHeader
@@ -979,6 +994,7 @@ ogg_packet
 *
 aPacket
 )
+override
 ;
 bool
 IsKeyframe
@@ -987,6 +1003,7 @@ ogg_packet
 *
 aPacket
 )
+override
 ;
 nsresult
 PageIn
@@ -995,6 +1012,7 @@ ogg_page
 *
 aPage
 )
+override
 ;
 int64_t
 MaxKeyframeOffset
@@ -1064,6 +1082,7 @@ CodecType
 GetType
 (
 )
+override
 {
 return
 TYPE_OPUS
@@ -1076,6 +1095,7 @@ ogg_packet
 *
 aPacket
 )
+override
 ;
 int64_t
 Time
@@ -1083,6 +1103,7 @@ Time
 int64_t
 aGranulepos
 )
+override
 ;
 int64_t
 PacketDuration
@@ -1091,16 +1112,19 @@ ogg_packet
 *
 aPacket
 )
+override
 ;
 bool
 Init
 (
 )
+override
 ;
 nsresult
 Reset
 (
 )
+override
 ;
 nsresult
 Reset
@@ -1116,6 +1140,7 @@ ogg_packet
 *
 aPacket
 )
+override
 ;
 nsresult
 PageIn
@@ -1124,6 +1149,7 @@ ogg_page
 *
 aPage
 )
+override
 ;
 static
 int64_t
@@ -1178,6 +1204,7 @@ MetadataTags
 GetTags
 (
 )
+override
 ;
 private
 :
@@ -1285,6 +1312,7 @@ CodecType
 GetType
 (
 )
+override
 {
 return
 TYPE_SKELETON
@@ -1297,6 +1325,7 @@ ogg_packet
 *
 aPacket
 )
+override
 ;
 int64_t
 Time
@@ -1304,6 +1333,7 @@ Time
 int64_t
 granulepos
 )
+override
 {
 return
 -
@@ -1314,6 +1344,7 @@ bool
 Init
 (
 )
+override
 {
 return
 true
@@ -1326,6 +1357,7 @@ ogg_packet
 *
 aPacket
 )
+override
 {
 return
 true
