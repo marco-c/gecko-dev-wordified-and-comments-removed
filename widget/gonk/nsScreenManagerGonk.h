@@ -147,6 +147,13 @@ mozilla
 GonkDisplay
 GonkDisplay
 ;
+typedef
+mozilla
+:
+:
+LayoutDeviceIntRect
+LayoutDeviceIntRect
+;
 public
 :
 nsScreenGonk
@@ -257,7 +264,7 @@ GetEventVisibility
 (
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 GetRect
 (
 )
@@ -278,9 +285,6 @@ GetNativeWindow
 (
 )
 ;
-mozilla
-:
-:
 LayoutDeviceIntRect
 GetNaturalBounds
 (
@@ -505,10 +509,10 @@ mDpi
 int32_t
 mSurfaceFormat
 ;
-nsIntRect
+LayoutDeviceIntRect
 mNaturalBounds
 ;
-nsIntRect
+LayoutDeviceIntRect
 mVirtualBounds
 ;
 uint32_t

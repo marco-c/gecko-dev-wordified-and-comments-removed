@@ -1516,6 +1516,10 @@ mScreen
 GetRect
 (
 )
+.
+ToUnknownRect
+(
+)
 ;
 }
 mComposer2D

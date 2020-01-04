@@ -930,7 +930,7 @@ return
 NS_OK
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 nsScreenGonk
 :
 :
@@ -1143,7 +1143,7 @@ ROTATION_270_DEG
 {
 mVirtualBounds
 =
-nsIntRect
+LayoutDeviceIntRect
 (
 0
 0
@@ -1222,13 +1222,7 @@ GetNaturalBounds
 )
 {
 return
-LayoutDeviceIntRect
-:
-:
-FromUnknownRect
-(
 mNaturalBounds
-)
 ;
 }
 uint32_t
@@ -1260,7 +1254,7 @@ ComputeOrientation
 uint32_t
 aRotation
 const
-nsIntSize
+LayoutDeviceIntSize
 &
 aScreenSize
 )
@@ -1431,6 +1425,10 @@ return
 ScreenConfiguration
 (
 mVirtualBounds
+.
+ToUnknownRect
+(
+)
 orientation
 RotationToAngle
 (
@@ -2032,6 +2030,10 @@ Create
 nullptr
 nullptr
 mNaturalBounds
+.
+ToUnknownRect
+(
+)
 &
 initData
 )
