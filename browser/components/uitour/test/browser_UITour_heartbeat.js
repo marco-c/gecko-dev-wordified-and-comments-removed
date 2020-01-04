@@ -2431,6 +2431,7 @@ dummyURL
 taskify
 (
 function
+*
 test_invalidEngagementButtonLabel
 (
 done
@@ -2526,6 +2527,7 @@ init
 taskify
 (
 function
+*
 test_privateWindowsOnly_noneOpen
 (
 done
@@ -2634,6 +2636,7 @@ prevented
 taskify
 (
 function
+*
 test_privateWindowsOnly_notMostRecent
 (
 done
@@ -2827,6 +2830,7 @@ privateWin
 taskify
 (
 function
+*
 test_privateWindowsOnly
 (
 )
