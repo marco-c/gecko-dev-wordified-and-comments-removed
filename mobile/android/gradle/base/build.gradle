@@ -404,14 +404,6 @@ project
 (
 '
 :
-branding
-'
-)
-compile
-project
-(
-'
-:
 preprocessed_code
 '
 )
