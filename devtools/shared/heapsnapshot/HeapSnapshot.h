@@ -67,6 +67,15 @@ include
 "
 mozilla
 /
+RefCounted
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h

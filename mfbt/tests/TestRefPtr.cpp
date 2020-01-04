@@ -7,6 +7,15 @@ RefPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+RefCounted
+.
+h
+"
 using
 mozilla
 :
