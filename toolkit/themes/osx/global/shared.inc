@@ -75,7 +75,6 @@ moz
 mac
 -
 focusring
-;
 %
 define
 roundButtonBorder
