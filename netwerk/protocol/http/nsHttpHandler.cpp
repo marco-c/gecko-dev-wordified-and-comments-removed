@@ -162,15 +162,6 @@ h
 #
 include
 "
-mozilla
-/
-Snprintf
-.
-h
-"
-#
-include
-"
 nsAsyncRedirectVerifyHelper
 .
 h
@@ -10121,7 +10112,7 @@ q
 }
 wrote
 =
-snprintf
+PR_snprintf
 (
 p2
 available
@@ -10136,7 +10127,7 @@ else
 {
 wrote
 =
-snprintf
+PR_snprintf
 (
 p2
 available
