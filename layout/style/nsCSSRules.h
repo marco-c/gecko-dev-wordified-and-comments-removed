@@ -915,6 +915,7 @@ css
 :
 Rule
 )
+DECL_STYLE_RULE_INHERIT
 #
 ifdef
 DEBUG
@@ -937,7 +938,6 @@ override
 ;
 #
 endif
-DECL_STYLE_RULE_INHERIT
 virtual
 int32_t
 GetType
@@ -1195,6 +1195,7 @@ mFeatureValues
 {
 }
 NS_DECL_ISUPPORTS
+DECL_STYLE_RULE_INHERIT
 #
 ifdef
 DEBUG
@@ -1217,7 +1218,6 @@ override
 ;
 #
 endif
-DECL_STYLE_RULE_INHERIT
 virtual
 int32_t
 GetType
@@ -1554,8 +1554,15 @@ NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
 nsCSSKeyframeRule
-nsIStyleRule
+mozilla
+:
+:
+css
+:
+:
+Rule
 )
+DECL_STYLE_RULE_INHERIT
 #
 ifdef
 DEBUG
@@ -1578,7 +1585,6 @@ override
 ;
 #
 endif
-DECL_STYLE_RULE_INHERIT
 virtual
 int32_t
 GetType
@@ -2092,6 +2098,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 nsCSSPageRule
 nsIDOMCSSPageRule
 )
+DECL_STYLE_RULE_INHERIT
 #
 ifdef
 DEBUG
@@ -2114,7 +2121,6 @@ override
 ;
 #
 endif
-DECL_STYLE_RULE_INHERIT
 virtual
 int32_t
 GetType
@@ -2433,6 +2439,7 @@ nsCSSCounterStyleRule
 public
 :
 NS_DECL_ISUPPORTS
+DECL_STYLE_RULE_INHERIT
 #
 ifdef
 DEBUG
@@ -2455,7 +2462,6 @@ override
 ;
 #
 endif
-DECL_STYLE_RULE_INHERIT
 virtual
 int32_t
 GetType
