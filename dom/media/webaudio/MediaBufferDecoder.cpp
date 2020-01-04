@@ -1012,17 +1012,6 @@ ReadMetadataFailureReason
 aReason
 )
 {
-MOZ_RELEASE_ASSERT
-(
-aReason
-!
-=
-ReadMetadataFailureReason
-:
-:
-WAITING_FOR_RESOURCES
-)
-;
 mDecoderReader
 -
 >
@@ -1037,8 +1026,6 @@ WebAudioDecodeJob
 :
 InvalidContent
 )
-;
-return
 ;
 }
 void
