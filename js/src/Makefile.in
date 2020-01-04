@@ -2109,6 +2109,16 @@ srcdir
 /
 builtin
 /
+Promise
+.
+js
+\
+(
+srcdir
+)
+/
+builtin
+/
 Reflect
 .
 js
