@@ -141,6 +141,12 @@ linux32
 /
 release
 '
+                
+'
+force_clobber
+'
+:
+True
             
 }
             
@@ -165,6 +171,12 @@ linux64
 /
 release
 '
+                
+'
+force_clobber
+'
+:
+True
             
 }
             
@@ -191,6 +203,12 @@ universal
 /
 release
 '
+                
+'
+force_clobber
+'
+:
+True
             
 }
             
@@ -215,6 +233,12 @@ win32
 /
 release
 '
+                
+'
+force_clobber
+'
+:
+True
             
 }
             
@@ -239,6 +263,12 @@ win64
 /
 release
 '
+                
+'
+force_clobber
+'
+:
+True
             
 }
             
@@ -615,6 +645,12 @@ linux32
 /
 beta
 '
+                
+'
+force_clobber
+'
+:
+True
             
 }
             
@@ -639,6 +675,12 @@ linux64
 /
 beta
 '
+                
+'
+force_clobber
+'
+:
+True
             
 }
             
@@ -665,6 +707,12 @@ universal
 /
 beta
 '
+                
+'
+force_clobber
+'
+:
+True
             
 }
             
@@ -689,6 +737,12 @@ win32
 /
 beta
 '
+                
+'
+force_clobber
+'
+:
+True
             
 }
             
@@ -713,6 +767,12 @@ win64
 /
 beta
 '
+                
+'
+force_clobber
+'
+:
+True
             
 }
             
