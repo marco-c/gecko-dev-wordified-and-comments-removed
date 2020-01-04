@@ -303,6 +303,15 @@ Value
 )
 override
 ;
+NS_IMETHOD
+GetContentBackend
+(
+nsAString
+&
+aContentBackend
+)
+override
+;
 virtual
 nsresult
 Init

@@ -6768,6 +6768,15 @@ DWriteEnabled
 "
 null
 )
+ContentBackend
+:
+getGfxField
+(
+"
+ContentBackend
+"
+null
+)
 adapters
 :
 [
