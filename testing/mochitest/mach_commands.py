@@ -3662,7 +3662,7 @@ action
 '
 store_true
 '
-        
+                     
 help
 =
 '
@@ -3677,11 +3677,11 @@ mochi
 test
 web
 server
+'
+                     
+'
 and
 launch
-'
-             
-'
 Fennec
 with
 a
@@ -3905,7 +3905,7 @@ self
 _mach_context
 .
 cwd
-            
+                                            
 flavor
 =
 '
