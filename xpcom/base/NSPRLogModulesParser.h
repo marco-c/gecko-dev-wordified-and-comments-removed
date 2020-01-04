@@ -34,6 +34,7 @@ const
 char
 *
 LogLevel
+int32_t
 )
 >
 aCallback
