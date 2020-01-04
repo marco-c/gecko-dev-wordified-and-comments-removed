@@ -137,6 +137,11 @@ properties
 js
 '
 '
+csscoverage
+.
+js
+'
+'
 environment
 .
 js

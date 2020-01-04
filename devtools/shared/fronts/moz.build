@@ -132,6 +132,11 @@ properties
 js
 '
 '
+csscoverage
+.
+js
+'
+'
 highlighters
 .
 js
