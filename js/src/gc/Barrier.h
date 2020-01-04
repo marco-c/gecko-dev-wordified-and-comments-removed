@@ -4023,6 +4023,14 @@ ReadBarrieredObject
 typedef
 ReadBarriered
 <
+JSFunction
+*
+>
+ReadBarrieredFunction
+;
+typedef
+ReadBarriered
+<
 JSScript
 *
 >
