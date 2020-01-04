@@ -251,6 +251,15 @@ fxaSignedIn
 tooltip
 ;
 "
+tooltiptext
+=
+"
+&
+fxaSignedIn
+.
+tooltip
+;
+"
 errorlabel
 =
 "
