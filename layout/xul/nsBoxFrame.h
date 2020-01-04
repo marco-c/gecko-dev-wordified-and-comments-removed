@@ -264,7 +264,7 @@ mValign
 }
 virtual
 Halignment
-GetHAlign
+GetXULHAlign
 (
 )
 const

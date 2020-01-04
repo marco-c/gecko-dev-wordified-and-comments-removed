@@ -6557,7 +6557,7 @@ const
 ;
 virtual
 Halignment
-GetHAlign
+GetXULHAlign
 (
 )
 const
