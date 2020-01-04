@@ -199,7 +199,7 @@ void
 setBitAndCheck
 (
 CounterAndBit
-&
+*
 counterAndBit
 )
 {
@@ -213,7 +213,8 @@ auto
 guard
 =
 counterAndBit
-.
+-
+>
 counter
 .
 lock
@@ -236,7 +237,8 @@ uint64_t
 <
 <
 counterAndBit
-.
+-
+>
 bit
 )
 ;
@@ -246,7 +248,8 @@ auto
 guard
 =
 counterAndBit
-.
+-
+>
 counter
 .
 lock
@@ -268,7 +271,6 @@ UINT64_MAX
 {
 js_delete
 (
-&
 counterAndBit
 )
 ;
@@ -358,7 +360,6 @@ threads
 emplaceBack
 (
 setBitAndCheck
-*
 counterAndBit
 )
 )

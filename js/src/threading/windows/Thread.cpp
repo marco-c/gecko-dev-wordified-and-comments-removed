@@ -389,9 +389,17 @@ if
 !
 handle
 )
+{
+id_
+=
+Id
+(
+)
+;
 return
 false
 ;
+}
 id_
 .
 platformData
