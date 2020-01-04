@@ -282,8 +282,6 @@ array
 length
 >
 max
-+
-1
 )
 {
 items
