@@ -140,14 +140,6 @@ MediaInfo
 h
 "
 #
-define
-CODECCONFIG_TIMEOUT_US
-10000LL
-#
-define
-READ_OUTPUT_BUFFER_TIMEOUT_US
-0LL
-#
 include
 <
 android
@@ -203,6 +195,10 @@ Debug
 __VA_ARGS__
 )
 )
+#
+define
+READ_OUTPUT_BUFFER_TIMEOUT_US
+3000
 using
 namespace
 android
@@ -596,7 +592,6 @@ MediaCodec
 :
 :
 BUFFER_FLAG_CODECCONFIG
-CODECCONFIG_TIMEOUT_US
 )
 ;
 }

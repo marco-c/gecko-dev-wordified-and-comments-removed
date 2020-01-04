@@ -86,6 +86,10 @@ MediaCodecProxy
 "
 __VA_ARGS__
 )
+#
+define
+TIMEOUT_DEQUEUE_INPUTBUFFER_MS
+1000000ll
 namespace
 android
 {
@@ -2166,8 +2170,6 @@ int64_t
 aTimestampUsecs
 uint64_t
 aflags
-int64_t
-aTimeoutUs
 )
 {
 {
@@ -2217,7 +2219,7 @@ dequeueInputBuffer
 (
 &
 index
-aTimeoutUs
+TIMEOUT_DEQUEUE_INPUTBUFFER_MS
 )
 ;
 if
@@ -2226,15 +2228,6 @@ err
 !
 =
 OK
-)
-{
-if
-(
-err
-!
-=
--
-EAGAIN
 )
 {
 MCP_LOG
@@ -2248,7 +2241,6 @@ d
 err
 )
 ;
-}
 return
 err
 ;
