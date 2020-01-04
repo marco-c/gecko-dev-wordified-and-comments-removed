@@ -178,7 +178,7 @@ mIsSynthesizedForTests
 1
 ;
 bool
-mExceptionHasBeenRisen
+mExceptionWasRaised
 :
 1
 ;

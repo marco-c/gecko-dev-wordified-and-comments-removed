@@ -3129,7 +3129,7 @@ internalEvent
 >
 mFlags
 .
-mExceptionHasBeenRisen
+mExceptionWasRaised
 )
 {
 transaction
@@ -3531,7 +3531,7 @@ internalEvent
 >
 mFlags
 .
-mExceptionHasBeenRisen
+mExceptionWasRaised
 )
 {
 transaction
