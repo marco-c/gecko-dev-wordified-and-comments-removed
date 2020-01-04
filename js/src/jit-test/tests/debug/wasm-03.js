@@ -183,15 +183,3 @@ source
 .
 elementAttributeName
 ;
-assertThrowsInstanceOf
-(
-(
-)
-=
->
-source
-.
-canonicalId
-Error
-)
-;
