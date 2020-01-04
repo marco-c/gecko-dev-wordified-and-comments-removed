@@ -309,6 +309,9 @@ const
 void
 Stringify
 (
+JSContext
+*
+aCx
 nsString
 &
 retval
@@ -435,6 +438,9 @@ NS_DECL_NSIDOMDOMEXCEPTION
 NS_IMETHOD
 ToString
 (
+JSContext
+*
+aCx
 nsACString
 &
 aReturn
