@@ -235,6 +235,12 @@ DisplayItemScrollClip
 aScrollClip
 )
 ;
+bool
+HasRoundedCorners
+(
+)
+const
+;
 const
 DisplayItemScrollClip
 *
