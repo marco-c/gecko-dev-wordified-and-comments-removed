@@ -264,11 +264,6 @@ error_id
 nss_error_id_str
 )
 ;
-ToLowerCase
-(
-error_id
-)
-;
 NS_ConvertASCIItoUTF16
 idU
 (
@@ -305,7 +300,7 @@ component
 PIPBundleFormatStringFromName
 (
 "
-certErrorCodePrefix
+certErrorCodePrefix2
 "
 params
 1
