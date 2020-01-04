@@ -34,9 +34,7 @@ xz
 unpack
 "
 :
-"
-True
-"
+true
 }
 {
 "
@@ -48,6 +46,7 @@ size
 digest
 "
 :
+"
 6105d6432943141cffb40020dc5ba3a793650bdeb3af9bd5e56d3796c5f03df9962a73e521646cd71fbfb5e266c1e74716ad722fb6055589dfb7d35175bca89e
 "
 "
