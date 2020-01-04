@@ -416,6 +416,11 @@ ServiceWorkerPeriodicUpdater
 cpp
 '
 '
+ServiceWorkerPrivate
+.
+cpp
+'
+'
 ServiceWorkerRegistrar
 .
 cpp
