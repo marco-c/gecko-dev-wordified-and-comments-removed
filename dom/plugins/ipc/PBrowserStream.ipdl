@@ -191,10 +191,10 @@ Write
 (
 int32_t
 offset
-Buffer
-data
 uint32_t
 newlength
+Buffer
+data
 )
 ;
 async

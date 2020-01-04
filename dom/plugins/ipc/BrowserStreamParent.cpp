@@ -780,6 +780,10 @@ return
 SendWrite
 (
 offset
+mStream
+-
+>
+end
 nsCString
 (
 static_cast
@@ -792,10 +796,6 @@ buffer
 )
 len
 )
-mStream
--
->
-end
 )
 ?
 len

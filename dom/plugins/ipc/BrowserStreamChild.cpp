@@ -380,13 +380,13 @@ int32_t
 &
 offset
 const
-Buffer
-&
-data
-const
 uint32_t
 &
 newlength
+const
+Buffer
+&
+data
 )
 {
 PLUGIN_LOG_DEBUG_FUNCTION
