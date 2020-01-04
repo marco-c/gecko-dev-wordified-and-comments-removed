@@ -6723,27 +6723,16 @@ return
 }
 if
 (
-typeof
-element
-!
-=
-"
-undefined
-"
-)
-{
-if
-(
 this
 .
 curBrowser
 .
-elementManager
+seenEls
 .
-seenItems
-[
+has
+(
 element
-]
+)
 )
 {
 let
@@ -6755,7 +6744,7 @@ curBrowser
 .
 elementManager
 .
-getKnownElement
+get
 (
 element
 {
@@ -7085,7 +7074,6 @@ TYPE_ONE_SHOT
 ;
 return
 ;
-}
 }
 }
 }
@@ -8071,7 +8059,7 @@ curBrowser
 .
 elementManager
 .
-getKnownElement
+get
 (
 opts
 .
@@ -8275,7 +8263,7 @@ curBrowser
 .
 elementManager
 .
-getKnownElement
+get
 (
 opts
 .
@@ -8448,7 +8436,7 @@ curBrowser
 .
 elementManager
 .
-getKnownElement
+get
 (
 id
 {
@@ -8555,7 +8543,7 @@ curBrowser
 .
 elementManager
 .
-getKnownElement
+get
 (
 id
 {
@@ -8725,7 +8713,7 @@ curBrowser
 .
 elementManager
 .
-getKnownElement
+get
 (
 id
 {
@@ -8845,7 +8833,7 @@ curBrowser
 .
 elementManager
 .
-getKnownElement
+get
 (
 id
 {
@@ -8949,7 +8937,7 @@ curBrowser
 .
 elementManager
 .
-getKnownElement
+get
 (
 id
 {
@@ -9061,7 +9049,7 @@ curBrowser
 .
 elementManager
 .
-getKnownElement
+get
 (
 id
 {
@@ -9180,7 +9168,7 @@ curBrowser
 .
 elementManager
 .
-getKnownElement
+get
 (
 id
 {
@@ -9288,7 +9276,7 @@ curBrowser
 .
 elementManager
 .
-getKnownElement
+get
 (
 id
 {
@@ -9397,7 +9385,7 @@ curBrowser
 .
 elementManager
 .
-getKnownElement
+get
 (
 id
 {
@@ -9550,7 +9538,7 @@ curBrowser
 .
 elementManager
 .
-getKnownElement
+get
 (
 id
 {
@@ -9893,7 +9881,7 @@ curBrowser
 .
 elementManager
 .
-getKnownElement
+get
 (
 id
 {
