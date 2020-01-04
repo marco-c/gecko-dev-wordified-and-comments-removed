@@ -1565,7 +1565,7 @@ offset_
 static
 const
 size_t
-NOT_USED
+NOT_BOUND
 =
 size_t
 (
@@ -1594,7 +1594,7 @@ CodeOffset
 :
 offset_
 (
-NOT_USED
+NOT_BOUND
 )
 {
 }
@@ -1606,7 +1606,7 @@ const
 {
 MOZ_ASSERT
 (
-used
+bound
 (
 )
 )
@@ -1616,7 +1616,7 @@ offset_
 ;
 }
 void
-use
+bind
 (
 size_t
 offset
@@ -1625,7 +1625,7 @@ offset
 MOZ_ASSERT
 (
 !
-used
+bound
 (
 )
 )
@@ -1636,14 +1636,14 @@ offset
 ;
 MOZ_ASSERT
 (
-used
+bound
 (
 )
 )
 ;
 }
 bool
-used
+bound
 (
 )
 const
@@ -1652,7 +1652,7 @@ return
 offset_
 !
 =
-NOT_USED
+NOT_BOUND
 ;
 }
 void
@@ -1664,7 +1664,7 @@ delta
 {
 MOZ_ASSERT
 (
-used
+bound
 (
 )
 )

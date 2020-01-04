@@ -2004,7 +2004,7 @@ INVALID_OFFSET
 label
 -
 >
-use
+bind
 (
 masm
 .
@@ -5868,7 +5868,7 @@ label
 label
 -
 >
-use
+bind
 (
 currentOffset
 (
@@ -6072,7 +6072,7 @@ if
 label
 -
 >
-used
+bound
 (
 )
 )
