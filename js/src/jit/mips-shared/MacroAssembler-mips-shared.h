@@ -488,6 +488,15 @@ ma_subu
 (
 Register
 rd
+Register
+rs
+)
+;
+void
+ma_subu
+(
+Register
+rd
 Imm32
 imm
 )
