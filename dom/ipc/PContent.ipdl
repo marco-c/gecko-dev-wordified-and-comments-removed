@@ -3619,6 +3619,12 @@ Principal
 principal
 )
 ;
+DisableNotifications
+(
+Principal
+principal
+)
+;
 PPSMContentDownloader
 (
 uint32_t
