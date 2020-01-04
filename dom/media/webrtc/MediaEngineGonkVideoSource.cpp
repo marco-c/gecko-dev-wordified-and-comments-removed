@@ -283,6 +283,17 @@ lock
 mMonitor
 )
 ;
+if
+(
+mState
+!
+=
+kStarted
+)
+{
+return
+;
+}
 RefPtr
 <
 layers
