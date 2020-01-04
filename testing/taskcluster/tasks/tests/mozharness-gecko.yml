@@ -200,16 +200,9 @@ tox
 e
 py27
 -
-hg2
-.
-6
--
-e
-py27
--
 hg3
 .
-2
+7
 extra
 :
 extra
