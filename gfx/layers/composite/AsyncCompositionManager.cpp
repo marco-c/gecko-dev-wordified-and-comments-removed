@@ -4864,6 +4864,11 @@ GetApzc
 (
 )
 ;
+MOZ_RELEASE_ASSERT
+(
+apzc
+)
+;
 AsyncTransformComponentMatrix
 asyncTransform
 =
