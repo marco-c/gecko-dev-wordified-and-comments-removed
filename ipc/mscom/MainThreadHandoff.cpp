@@ -14,6 +14,15 @@ include
 "
 mozilla
 /
+Move
+.
+h
+"
+#
+include
+"
+mozilla
+/
 mscom
 /
 InterceptorLog
@@ -1580,7 +1589,10 @@ Interceptor
 :
 Create
 (
+Move
+(
 origInterface
+)
 handoff
 aIid
 getter_AddRefs

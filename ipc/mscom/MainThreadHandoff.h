@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+Move
+.
+h
+"
+#
+include
+"
+mozilla
+/
 mscom
 /
 Interceptor
@@ -104,7 +113,6 @@ STAUniquePtr
 <
 Interface
 >
-&
 aTargetInterface
 Interface
 *
@@ -160,7 +168,10 @@ hr
 return
 CreateInterceptor
 (
+Move
+(
 aTargetInterface
+)
 handoff
 aOutInterface
 )
