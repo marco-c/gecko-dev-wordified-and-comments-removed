@@ -59,7 +59,15 @@ mOutCrc
 (
 0
 )
+mNameLen
+(
+0
+)
 mCurPos
+(
+0
+)
+mArrPos
 (
 0
 )
