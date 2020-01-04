@@ -9,6 +9,14 @@ mozbuild
 .
 backend
 .
+base
+import
+PartialBackend
+from
+mozbuild
+.
+backend
+.
 common
 import
 CommonBackend
@@ -70,6 +78,7 @@ class
 FasterMakeBackend
 (
 CommonBackend
+PartialBackend
 )
 :
     
@@ -695,6 +704,15 @@ self
 _has_xpidl
 =
 True
+            
+return
+False
+        
+else
+:
+            
+return
+False
         
 return
 True
