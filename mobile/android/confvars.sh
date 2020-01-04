@@ -438,15 +438,6 @@ MOZ_ANDROID_SEARCH_ACTIVITY
 #
 Enable
 the
-share
-handler
-.
-MOZ_ANDROID_SHARE_OVERLAY
-=
-1
-#
-Enable
-the
 Mozilla
 Location
 Service
