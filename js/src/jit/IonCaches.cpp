@@ -19743,10 +19743,7 @@ getDenseInitializedLength
 return
 false
 ;
-while
-(
-obj
-)
+do
 {
 if
 (
@@ -19833,6 +19830,11 @@ obj
 proto
 ;
 }
+while
+(
+obj
+)
+;
 return
 true
 ;
