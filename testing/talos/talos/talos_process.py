@@ -664,6 +664,15 @@ context
 kill_process
 (
 )
+        
+return_code
+=
+proc
+.
+wait
+(
+1
+)
     
 reader
 .
@@ -728,9 +737,7 @@ code
 .
 format
 (
-proc
-.
-returncode
+return_code
 )
 )
     
