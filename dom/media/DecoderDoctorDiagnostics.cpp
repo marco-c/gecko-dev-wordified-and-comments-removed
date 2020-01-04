@@ -37,6 +37,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
@@ -52,6 +59,13 @@ h
 include
 "
 nsIObserverService
+.
+h
+"
+#
+include
+"
+nsIScriptError
 .
 h
 "
