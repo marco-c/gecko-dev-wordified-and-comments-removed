@@ -144,17 +144,6 @@ this
 )
 ;
 const
-PREF_TELEMETRY_ENABLED
-=
-"
-toolkit
-.
-telemetry
-.
-enabled
-"
-;
-const
 PREF_TELEMETRY_SERVER
 =
 "

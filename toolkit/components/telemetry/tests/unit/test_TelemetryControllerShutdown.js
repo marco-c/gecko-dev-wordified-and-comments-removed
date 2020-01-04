@@ -154,15 +154,6 @@ telemetry
 "
 ;
 const
-PREF_ENABLED
-=
-PREF_BRANCH
-+
-"
-enabled
-"
-;
-const
 PREF_FHR_UPLOAD_ENABLED
 =
 "
@@ -263,7 +254,7 @@ prefs
 .
 setBoolPref
 (
-PREF_ENABLED
+PREF_TELEMETRY_ENABLED
 true
 )
 ;

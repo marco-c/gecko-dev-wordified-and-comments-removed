@@ -778,11 +778,7 @@ prefs
 .
 setBoolPref
 (
-TelemetryController
-.
-Constants
-.
-PREF_ENABLED
+PREF_TELEMETRY_ENABLED
 true
 )
 ;

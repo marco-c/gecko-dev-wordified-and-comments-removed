@@ -159,17 +159,6 @@ this
 )
 ;
 const
-PREF_ENABLED
-=
-"
-toolkit
-.
-telemetry
-.
-enabled
-"
-;
-const
 PREF_FHR_UPLOAD_ENABLED
 =
 "
@@ -204,7 +193,7 @@ prefs
 .
 setBoolPref
 (
-PREF_ENABLED
+PREF_TELEMETRY_ENABLED
 true
 )
 ;

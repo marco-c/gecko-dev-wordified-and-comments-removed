@@ -185,15 +185,6 @@ telemetry
 "
 ;
 const
-PREF_ENABLED
-=
-PREF_BRANCH
-+
-"
-enabled
-"
-;
-const
 PREF_ARCHIVE_ENABLED
 =
 PREF_BRANCH
@@ -780,7 +771,7 @@ Preferences
 .
 set
 (
-PREF_ENABLED
+PREF_TELEMETRY_ENABLED
 true
 )
 ;
