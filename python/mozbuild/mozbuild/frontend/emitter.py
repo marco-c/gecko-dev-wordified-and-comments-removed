@@ -8246,15 +8246,7 @@ yield
 JARManifest
 (
 context
-mozpath
-.
-join
-(
-context
-.
-srcdir
 path
-)
 )
         
 if

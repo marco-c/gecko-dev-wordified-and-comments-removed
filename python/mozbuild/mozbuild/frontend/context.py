@@ -9290,7 +9290,11 @@ JAR_MANIFESTS
 '
 :
 (
+ContextDerivedTypedList
+(
+SourcePath
 StrictOrderingOnAppendList
+)
 list
         
 "

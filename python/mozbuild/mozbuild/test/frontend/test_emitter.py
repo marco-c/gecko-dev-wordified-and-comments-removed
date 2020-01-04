@@ -20,6 +20,8 @@ import
 (
     
 ObjDirPath
+    
+Path
 )
 from
 mozbuild
@@ -5513,18 +5515,12 @@ JARManifest
             
 self
 .
-assertTrue
-(
-os
-.
-path
-.
-isabs
+assertIsInstance
 (
 obj
 .
 path
-)
+Path
 )
     
 def

@@ -708,6 +708,8 @@ do_include
 obj
 .
 path
+.
+full_path
 )
         
 self
@@ -806,6 +808,8 @@ dirname
 obj
 .
 path
+.
+full_path
 )
                     
 src
@@ -875,6 +879,8 @@ dirname
 obj
 .
 path
+.
+full_path
 )
 e
 .
