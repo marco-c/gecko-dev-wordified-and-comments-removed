@@ -129,9 +129,10 @@ log
 .
 clang_complete
 ^
-mach
+\
 .
-ini
+?
+machrc
 #
 Empty
 marker

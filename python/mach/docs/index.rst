@@ -460,3 +460,4 @@ maxdepth
 commands
 driver
 logging
+settings
