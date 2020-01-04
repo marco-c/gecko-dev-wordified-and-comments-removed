@@ -39150,13 +39150,6 @@ coord
 ;
 }
 }
-padding
--
->
-RecalcData
-(
-)
-;
 COMPUTE_END_RESET
 (
 Padding
