@@ -475,7 +475,7 @@ metadataSize
 decoder
 -
 >
-GetSize
+Size
 (
 )
 ;
@@ -670,7 +670,7 @@ fullSize
 decoder
 -
 >
-GetSize
+Size
 (
 )
 ;

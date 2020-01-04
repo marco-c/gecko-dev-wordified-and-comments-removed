@@ -295,7 +295,7 @@ CreateSurfacePipe
 (
 this
 0
-GetSize
+Size
 (
 )
 OutputSize
@@ -306,7 +306,7 @@ IntRect
 IntPoint
 (
 )
-GetSize
+Size
 (
 )
 )

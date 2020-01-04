@@ -2459,7 +2459,7 @@ HasSize
 mContainedDecoder
 -
 >
-GetSize
+Size
 (
 )
 !

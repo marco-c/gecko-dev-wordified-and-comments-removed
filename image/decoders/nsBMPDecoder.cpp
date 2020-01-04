@@ -2787,7 +2787,7 @@ mDownscaler
 >
 BeginFrame
 (
-GetSize
+Size
 (
 )
 Nothing
