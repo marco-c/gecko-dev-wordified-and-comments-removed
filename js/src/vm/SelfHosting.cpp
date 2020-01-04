@@ -14739,6 +14739,15 @@ FlatStringMatch
 JS_FN
 (
 "
+FlatStringSearch
+"
+FlatStringSearch
+2
+0
+)
+JS_FN
+(
+"
 regexp_exec_no_statics
 "
 regexp_exec_no_statics

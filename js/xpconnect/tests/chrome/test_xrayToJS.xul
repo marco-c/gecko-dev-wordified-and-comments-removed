@@ -2736,6 +2736,9 @@ test
 Symbol
 .
 match
+Symbol
+.
+search
 "
 flags
 "
