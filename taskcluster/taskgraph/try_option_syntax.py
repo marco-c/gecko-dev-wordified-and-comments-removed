@@ -63,6 +63,10 @@ artifact
 -
 build
 '
+    
+'
+hazard
+'
 ]
 )
 JOB_KINDS
