@@ -98,6 +98,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsICancelableRunnable
+.
+idl
+'
+'
 nsIEnvironment
 .
 idl
@@ -159,11 +164,6 @@ EXPORTS
 [
 '
 nsEventQueue
-.
-h
-'
-'
-nsICancelableRunnable
 .
 h
 '

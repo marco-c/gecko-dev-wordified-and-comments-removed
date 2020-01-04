@@ -359,7 +359,7 @@ NoteClosedRunnable
 final
 :
 public
-CancelableRunnable
+nsCancelableRunnable
 {
 public
 :
@@ -400,7 +400,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHOD
 Cancel
 (
 )
@@ -443,7 +443,7 @@ ForgetRunnable
 final
 :
 public
-CancelableRunnable
+nsCancelableRunnable
 {
 public
 :
@@ -484,7 +484,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHOD
 Cancel
 (
 )

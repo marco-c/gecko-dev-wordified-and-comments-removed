@@ -4976,7 +4976,7 @@ NotifyObserversTask
 final
 :
 public
-CancelableRunnable
+nsCancelableRunnable
 {
 public
 :
@@ -5021,7 +5021,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHOD
 Cancel
 (
 )

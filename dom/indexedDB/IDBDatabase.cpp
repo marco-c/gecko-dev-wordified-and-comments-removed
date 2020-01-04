@@ -476,7 +476,7 @@ CancelableRunnableWrapper
 final
 :
 public
-CancelableRunnable
+nsICancelableRunnable
 {
 nsCOMPtr
 <
@@ -505,6 +505,7 @@ aRunnable
 )
 ;
 }
+NS_DECL_ISUPPORTS
 private
 :
 ~
@@ -514,12 +515,7 @@ CancelableRunnableWrapper
 {
 }
 NS_DECL_NSIRUNNABLE
-nsresult
-Cancel
-(
-)
-override
-;
+NS_DECL_NSICANCELABLERUNNABLE
 }
 ;
 class
@@ -5586,6 +5582,12 @@ aGivenProto
 )
 ;
 }
+NS_IMPL_ISUPPORTS
+(
+CancelableRunnableWrapper
+nsIRunnable
+nsICancelableRunnable
+)
 NS_IMETHODIMP
 CancelableRunnableWrapper
 :
@@ -5625,7 +5627,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 CancelableRunnableWrapper
 :
 :

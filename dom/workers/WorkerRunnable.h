@@ -62,8 +62,6 @@ class
 WorkerRunnable
 :
 public
-nsIRunnable
-public
 nsICancelableRunnable
 {
 public
@@ -99,12 +97,7 @@ mCallingCancelWithinRun
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
-nsresult
-Cancel
-(
-)
-override
-;
+NS_DECL_NSICANCELABLERUNNABLE
 bool
 Dispatch
 (
@@ -513,12 +506,7 @@ bool
 aResult
 )
 ;
-nsresult
-Cancel
-(
-)
-override
-;
+NS_DECL_NSICANCELABLERUNNABLE
 protected
 :
 virtual
@@ -686,7 +674,7 @@ WorkerControlRunnable
 )
 {
 }
-nsresult
+NS_IMETHOD
 Cancel
 (
 )

@@ -1597,7 +1597,7 @@ return
 true
 ;
 }
-nsresult
+NS_IMETHOD
 Cancel
 (
 )

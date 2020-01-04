@@ -315,7 +315,7 @@ PostMessageRunnable
 final
 :
 public
-CancelableRunnable
+nsICancelableRunnable
 {
 friend
 class
@@ -323,6 +323,7 @@ MessagePort
 ;
 public
 :
+NS_DECL_ISUPPORTS
 PostMessageRunnable
 (
 MessagePort
@@ -407,7 +408,7 @@ return
 rv
 ;
 }
-nsresult
+NS_IMETHOD
 Cancel
 (
 )
@@ -827,6 +828,12 @@ mData
 ;
 }
 ;
+NS_IMPL_ISUPPORTS
+(
+PostMessageRunnable
+nsICancelableRunnable
+nsIRunnable
+)
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 MessagePort
