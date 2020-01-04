@@ -294,7 +294,7 @@ counts
 [
 13
 ]
-0
+1
 "
 Actual
 and
@@ -1573,7 +1573,7 @@ ERROR_UNTRUSTED
 SEC_ERROR_CA_CERT_INVALID
 )
 ;
-add_prevented_cert_override_test
+add_cert_override_test
 (
 "
 inadequate
@@ -1593,7 +1593,7 @@ Ci
 nsICertOverrideService
 .
 ERROR_UNTRUSTED
-SSL_ERROR_WEAK_SERVER_CERT_KEY
+MOZILLA_PKIX_ERROR_INADEQUATE_KEY_SIZE
 )
 ;
 add_cert_override_test
