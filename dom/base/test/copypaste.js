@@ -881,7 +881,7 @@ v
 {
 accelKey
 :
-1
+true
 }
 )
 ;
