@@ -1349,6 +1349,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -1472,6 +1473,7 @@ arguments
 ;
 }
 function
+*
 task_markTyped
 (
 aURIs

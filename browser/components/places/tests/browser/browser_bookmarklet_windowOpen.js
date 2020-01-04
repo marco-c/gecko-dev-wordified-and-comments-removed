@@ -91,6 +91,7 @@ keyword
 add_task
 (
 function
+*
 openKeywordBookmarkWithWindowOpen
 (
 )

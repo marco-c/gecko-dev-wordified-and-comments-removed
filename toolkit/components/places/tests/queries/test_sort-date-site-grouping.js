@@ -556,13 +556,12 @@ roots
 )
 ;
 }
-testDataAddedLater
-.
-forEach
+for
 (
-function
-(
+let
 visit
+of
+testDataAddedLater
 )
 {
 yield
@@ -650,8 +649,6 @@ j
 )
 ;
 }
-)
-;
 for
 (
 let

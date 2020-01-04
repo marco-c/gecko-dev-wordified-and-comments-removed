@@ -1873,7 +1873,7 @@ _recentFolders
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -1985,7 +1985,7 @@ length
 ;
 for
 (
-var
+let
 i
 =
 0

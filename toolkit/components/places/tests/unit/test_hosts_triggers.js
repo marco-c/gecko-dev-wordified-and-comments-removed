@@ -860,6 +860,7 @@ test_moz_hosts_www_remove
 )
 {
 function
+*
 test_removal
 (
 aURIToRemove

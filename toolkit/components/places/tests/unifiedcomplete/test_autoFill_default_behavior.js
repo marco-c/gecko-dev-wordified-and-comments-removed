@@ -579,13 +579,6 @@ style
 :
 [
 "
-bookmark
-"
-]
-style
-:
-[
-"
 autofill
 "
 "

@@ -183,14 +183,10 @@ aArray
 {
 for
 (
-[
+let
 data
-]
-in
-Iterator
-(
+of
 aArray
-)
 )
 {
 try

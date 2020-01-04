@@ -2169,6 +2169,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -2476,18 +2477,14 @@ restoreFromFile
 }
 onRestoreMenuItemClick
 :
-function
-PO_onRestoreMenuItemClick
-(
-aMenuItem
-)
-{
 Task
 .
-spawn
+async
 (
 function
+*
 (
+aMenuItem
 )
 {
 let
@@ -2548,8 +2545,6 @@ break
 }
 }
 )
-;
-}
 onRestoreBookmarksFromFile
 :
 function
@@ -2837,6 +2832,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -3507,7 +3503,7 @@ if
 selectedNode
 )
 {
-var
+let
 concreteId
 =
 PlacesUtils
@@ -3612,7 +3608,7 @@ selectedIndex
 =
 1
 ;
-var
+let
 concreteId
 =
 PlacesUtils
@@ -6228,7 +6224,7 @@ if
 aDirection
 )
 {
-var
+let
 sortColumn
 =
 this
@@ -6256,7 +6252,7 @@ sortDirection
 }
 else
 {
-var
+let
 sortColumn
 =
 this

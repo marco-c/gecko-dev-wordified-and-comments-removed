@@ -2567,6 +2567,7 @@ false
 add_task
 (
 function
+*
 ensure_search_engine
 (
 )

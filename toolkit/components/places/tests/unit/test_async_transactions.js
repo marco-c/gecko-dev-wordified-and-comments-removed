@@ -1935,6 +1935,7 @@ test_recycled_transactions
 )
 {
 function
+*
 ensureTransactThrowsFor
 (
 aTransaction

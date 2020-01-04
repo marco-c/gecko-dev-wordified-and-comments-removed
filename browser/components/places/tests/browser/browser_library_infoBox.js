@@ -606,7 +606,6 @@ checkAddInfoFieldsNotCollapsed
 PO
 )
 ;
-var
 view
 =
 ContentTree

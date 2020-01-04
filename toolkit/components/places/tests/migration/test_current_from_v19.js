@@ -226,6 +226,7 @@ CURRENT_SCHEMA_VERSION
 add_task
 (
 function
+*
 test_bookmark_guid_annotation_removed
 (
 )

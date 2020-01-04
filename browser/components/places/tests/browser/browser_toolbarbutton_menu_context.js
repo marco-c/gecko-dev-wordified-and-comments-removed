@@ -71,6 +71,7 @@ waitForExplicitFinish
 add_task
 (
 function
+*
 testPopup
 (
 )

@@ -4285,9 +4285,8 @@ TITLE
 )
 ;
 }
+*
 _writeContainer
-:
-function
 (
 aItem
 aIndent
@@ -4520,9 +4519,8 @@ p
 )
 ;
 }
+*
 _writeContainerContents
-:
-function
 (
 aItem
 aIndent
@@ -4571,6 +4569,7 @@ PlacesUtils
 LMANNO_FEEDURI
 )
 )
+{
 this
 .
 _writeLivemark
@@ -4579,6 +4578,7 @@ child
 localIndent
 )
 ;
+}
 else
 if
 (
@@ -4591,6 +4591,7 @@ PlacesUtils
 .
 TYPE_X_MOZ_PLACE_CONTAINER
 )
+{
 yield
 this
 .
@@ -4600,6 +4601,7 @@ child
 localIndent
 )
 ;
+}
 else
 if
 (
@@ -4612,6 +4614,7 @@ PlacesUtils
 .
 TYPE_X_MOZ_PLACE_SEPARATOR
 )
+{
 this
 .
 _writeSeparator
@@ -4620,7 +4623,9 @@ child
 localIndent
 )
 ;
+}
 else
+{
 yield
 this
 .
@@ -4630,6 +4635,7 @@ child
 localIndent
 )
 ;
+}
 }
 }
 _writeSeparator
@@ -4816,9 +4822,8 @@ aIndent
 )
 ;
 }
+*
 _writeItem
-:
-function
 (
 aItem
 aIndent
@@ -5105,9 +5110,8 @@ MICROSEC_PER_SEC
 )
 ;
 }
+*
 _writeFaviconAttribute
-:
-function
 (
 aItem
 )

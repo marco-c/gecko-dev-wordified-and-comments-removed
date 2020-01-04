@@ -87,6 +87,7 @@ moz_places
 add_task
 (
 function
+*
 remove_visits_outside_unbookmarked_uri
 (
 )
@@ -430,6 +431,7 @@ cleanup
 add_task
 (
 function
+*
 remove_visits_outside_bookmarked_uri
 (
 )
@@ -811,6 +813,7 @@ cleanup
 add_task
 (
 function
+*
 remove_visits_unbookmarked_uri
 (
 )
@@ -1151,6 +1154,7 @@ cleanup
 add_task
 (
 function
+*
 remove_visits_bookmarked_uri
 (
 )
@@ -1528,6 +1532,7 @@ cleanup
 add_task
 (
 function
+*
 remove_all_visits_unbookmarked_uri
 (
 )
@@ -1786,6 +1791,7 @@ cleanup
 add_task
 (
 function
+*
 remove_all_visits_unbookmarked_place_uri
 (
 )
@@ -2073,6 +2079,7 @@ cleanup
 add_task
 (
 function
+*
 remove_all_visits_bookmarked_uri
 (
 )
@@ -2420,6 +2427,7 @@ cleanup
 add_task
 (
 function
+*
 remove_all_visits_bookmarked_uri
 (
 )
@@ -2573,13 +2581,3 @@ cleanup
 }
 )
 ;
-function
-run_test
-(
-)
-{
-run_next_test
-(
-)
-;
-}

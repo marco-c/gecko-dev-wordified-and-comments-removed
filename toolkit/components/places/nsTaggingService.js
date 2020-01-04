@@ -2618,6 +2618,7 @@ self
 this
 ;
 function
+*
 doSearch
 (
 )
@@ -2771,12 +2772,8 @@ gen
 next
 (
 )
-)
-;
-gen
 .
-close
-(
+value
 )
 ;
 }
