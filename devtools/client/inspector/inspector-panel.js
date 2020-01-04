@@ -2663,7 +2663,7 @@ this
 _updateProgress
 )
 {
-var
+let
 self
 =
 this
@@ -2708,6 +2708,13 @@ return
 }
 if
 (
+!
+self
+.
+selection
+|
+|
+(
 this
 .
 node
@@ -2719,6 +2726,7 @@ self
 selection
 .
 nodeFront
+)
 )
 {
 self
