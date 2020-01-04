@@ -37,7 +37,7 @@ kViewportMinScale
 (
 0
 .
-0f
+1f
 )
 ;
 static
@@ -103,6 +103,10 @@ bool
 aAllowZoom
 )
 :
+mDefaultZoomValid
+(
+true
+)
 mDefaultZoom
 (
 aDefaultZoom
@@ -192,6 +196,10 @@ bool
 aAllowZoom
 )
 :
+mDefaultZoomValid
+(
+true
+)
 mDefaultZoom
 (
 aDefaultZoom
@@ -220,6 +228,16 @@ aAllowZoom
 ConstrainViewportValues
 (
 )
+;
+}
+bool
+IsDefaultZoomValid
+(
+)
+const
+{
+return
+mDefaultZoomValid
 ;
 }
 mozilla
@@ -300,6 +318,9 @@ void
 ConstrainViewportValues
 (
 )
+;
+bool
+mDefaultZoomValid
 ;
 mozilla
 :
