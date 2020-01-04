@@ -880,6 +880,10 @@ ServiceWorkerUnregisterJob
 ;
 friend
 class
+ServiceWorkerUnregisterJob2
+;
+friend
+class
 ServiceWorkerUpdateJob2
 ;
 friend
