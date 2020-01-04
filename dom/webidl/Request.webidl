@@ -244,7 +244,7 @@ context
 ChromeOnly
 ]
 void
-setContentPolicyType
+overrideContentPolicyType
 (
 nsContentPolicyType
 context
