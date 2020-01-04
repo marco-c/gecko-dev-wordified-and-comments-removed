@@ -6179,6 +6179,15 @@ mHasSize
 |
 |
 !
+gfxPrefs
+:
+:
+ImageHQDownscalingEnabled
+(
+)
+|
+|
+!
 (
 aFlags
 &
