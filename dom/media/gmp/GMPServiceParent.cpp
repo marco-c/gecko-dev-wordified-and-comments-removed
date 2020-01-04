@@ -43,6 +43,9 @@ GMPVideoDecoderParent
 h
 "
 #
+ifdef
+MOZ_EME
+#
 include
 "
 mozilla
@@ -53,6 +56,8 @@ GMPVideoDecoderTrialCreator
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -5982,6 +5987,9 @@ uint32_t
 aState
 )
 {
+#
+ifdef
+MOZ_EME
 nsString
 keySystem
 (
@@ -6019,6 +6027,13 @@ aState
 return
 NS_OK
 ;
+#
+else
+return
+NS_ERROR_FAILURE
+;
+#
+endif
 }
 static
 bool
