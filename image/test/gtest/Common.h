@@ -1198,6 +1198,11 @@ DownscaledTransparentICOWithANDMaskTestCase
 (
 )
 ;
+ImageTestCase
+TruncatedSmallGIFTestCase
+(
+)
+;
 }
 }
 #
