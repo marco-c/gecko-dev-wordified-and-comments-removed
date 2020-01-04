@@ -1,4 +1,4 @@
-52186
+52284
 0
 /
 nm
@@ -81,7 +81,7 @@ M
 ABA
 ABC
 /
-M
+SM
 ABM
 /
 SM
@@ -721,6 +721,9 @@ M
 Airedale
 /
 MS
+Aires
+/
+M
 Aisha
 /
 M
@@ -2070,6 +2073,7 @@ M
 Aquafresh
 /
 M
+Aquarian
 Aquarius
 /
 MS
@@ -4256,6 +4260,7 @@ Beulah
 /
 M
 Bevan
+Beveridge
 Beverley
 /
 M
@@ -4267,6 +4272,9 @@ Bevvy
 '
 s
 Beyer
+/
+M
+Bharat
 /
 M
 Bhopal
@@ -6485,6 +6493,7 @@ M
 Castile
 /
 M
+Castilian
 Castillo
 /
 M
@@ -6888,6 +6897,7 @@ M
 Chaplin
 /
 M
+Chaplinesque
 Chapman
 /
 M
@@ -13332,6 +13342,7 @@ M
 Gaston
 /
 M
+Gastroenterology
 Gates
 /
 M
@@ -13785,6 +13796,7 @@ M
 Gilly
 /
 M
+Gilman
 Gilmore
 /
 M
@@ -17474,6 +17486,9 @@ M
 Jany
 /
 M
+Jap
+/
+SM
 Japan
 /
 M
@@ -39264,6 +39279,7 @@ s
 adrenaline
 /
 M
+adrenergic
 adrift
 adroit
 /
@@ -39614,6 +39630,7 @@ afford
 /
 GDSB
 affordability
+affordably
 afforest
 /
 EGSD
@@ -39830,6 +39847,8 @@ M
 ago
 agog
 agonist
+/
+S
 agonize
 /
 GDS
@@ -41678,6 +41697,7 @@ SM
 antirrhinum
 /
 S
+antiscience
 antisemitic
 antisemitism
 /
@@ -41717,6 +41737,7 @@ antitrust
 antivenin
 /
 MS
+antivenom
 antiviral
 /
 MS
@@ -41734,6 +41755,7 @@ antonym
 /
 SM
 antonymous
+antrum
 antsy
 /
 TR
@@ -42718,6 +42740,7 @@ arthroscope
 /
 SM
 arthroscopic
+arthroscopy
 artichoke
 /
 SM
@@ -43298,6 +43321,7 @@ atheistic
 atherosclerosis
 /
 M
+atherosclerotic
 athirst
 athlete
 /
@@ -43355,6 +43379,7 @@ M
 atop
 atria
 atrial
+atrioventricular
 atrium
 /
 M
@@ -46733,6 +46758,9 @@ S
 biorhythm
 /
 MS
+biosensor
+/
+S
 biosphere
 /
 SM
@@ -46979,6 +47007,7 @@ S
 blacken
 /
 DG
+blackface
 blackguard
 /
 SM
@@ -48576,6 +48605,7 @@ SM
 bradawl
 /
 S
+bradycardia
 brae
 /
 SM
@@ -48609,6 +48639,8 @@ brainchild
 /
 M
 brainchildren
+/
+M
 braininess
 /
 M
@@ -52946,6 +52978,7 @@ UAGDS
 checkbook
 /
 SM
+checkbox
 checker
 /
 MDGS
@@ -52973,6 +53006,7 @@ SM
 checkroom
 /
 MS
+checksum
 checkup
 /
 MS
@@ -53527,6 +53561,7 @@ SM
 choker
 /
 M
+cholecystectomy
 cholecystitis
 choler
 /
@@ -53640,6 +53675,7 @@ MS
 christian
 /
 U
+christology
 chromatic
 chromatically
 chromatin
@@ -57495,6 +57531,9 @@ SM
 contraband
 /
 M
+contrabassoon
+/
+S
 contraception
 /
 M
@@ -58614,6 +58653,7 @@ SM
 counterpart
 /
 SM
+counterpetition
 counterpoint
 /
 MDGS
@@ -61164,6 +61204,7 @@ M
 debouch
 /
 GDS
+debridement
 debris
 /
 M
@@ -62027,6 +62068,7 @@ den
 /
 M
 denationalization
+denaturation
 denature
 /
 DG
@@ -63460,6 +63502,7 @@ diplomatically
 diplomatist
 /
 MS
+diplopia
 dipole
 /
 SM
@@ -64533,6 +64576,7 @@ dogleg
 SM
 doglegged
 doglegging
+doglike
 dogma
 /
 SM
@@ -64544,6 +64588,7 @@ M
 dogmatist
 /
 SM
+dognapper
 dogsbody
 /
 S
@@ -65768,6 +65813,9 @@ M
 dumpling
 /
 SM
+dumpsite
+/
+S
 dumpster
 /
 SM
@@ -66014,11 +66062,14 @@ M
 dyspeptic
 /
 MS
+dysphagia
 dysprosium
 /
 M
 dystonia
 dz
+d
+bridement
 d
 butante
 /
@@ -67721,6 +67772,9 @@ M
 endogenous
 /
 Y
+endometrial
+endometriosis
+endometrium
 endorphin
 /
 M
@@ -68047,6 +68101,7 @@ SM
 enter
 /
 ASGD
+enteric
 enteritis
 /
 M
@@ -71024,7 +71079,7 @@ feasibility
 M
 feasible
 /
-U
+IU
 feasibly
 feast
 /
@@ -71655,6 +71710,9 @@ DSG
 file
 /
 KCSRDGZM
+filename
+/
+S
 filer
 /
 KCM
@@ -74621,6 +74679,9 @@ LDGS
 fulfilled
 /
 U
+fulfilling
+/
+U
 fulfillment
 /
 M
@@ -75739,6 +75800,7 @@ FY
 geniality
 /
 FM
+geniculate
 genie
 /
 SM
@@ -76727,6 +76789,8 @@ godchild
 /
 M
 godchildren
+/
+M
 goddam
 /
 D
@@ -77222,6 +77286,8 @@ grandchild
 /
 M
 grandchildren
+/
+M
 granddad
 /
 SM
@@ -80654,6 +80720,7 @@ SM
 hipster
 /
 MS
+hiragana
 hire
 '
 s
@@ -81597,6 +81664,9 @@ MS
 hotted
 hotter
 hottest
+hottie
+/
+S
 hotting
 hound
 /
@@ -81723,6 +81793,12 @@ SGD
 hovercraft
 /
 MS
+how
+'
+d
+how
+'
+re
 how
 /
 SM
@@ -82308,6 +82384,7 @@ S
 hypermedia
 /
 M
+hyperparathyroidism
 hypersensitive
 /
 P
@@ -84562,6 +84639,7 @@ SM
 initial
 /
 SGMDY
+initialism
 initialization
 initialize
 /
@@ -87176,9 +87254,11 @@ kaleidoscopically
 kamikaze
 /
 MS
+kana
 kangaroo
 /
 MS
+kanji
 kaolin
 /
 M
@@ -87208,6 +87288,7 @@ karmic
 kart
 /
 MS
+katakana
 katydid
 /
 SM
@@ -87283,6 +87364,7 @@ kept
 keratin
 /
 M
+keratitis
 kerbside
 kerchief
 /
@@ -88368,6 +88450,9 @@ MS
 lap
 /
 SM
+laparoscopic
+laparoscopy
+laparotomy
 lapboard
 /
 SM
@@ -90729,6 +90814,7 @@ M
 loss
 /
 MS
+lossless
 lost
 lot
 /
@@ -92497,6 +92583,7 @@ MNSX
 marten
 /
 M
+martensite
 martial
 /
 Y
@@ -96231,6 +96318,9 @@ SM
 mourn
 /
 SZGDR
+mourned
+/
+U
 mourner
 /
 M
@@ -96528,6 +96618,7 @@ multiform
 multilateral
 /
 Y
+multilayered
 multilevel
 multilingual
 multilingualism
@@ -97927,6 +98018,7 @@ newspaperwoman
 /
 M
 newspaperwomen
+newspeak
 newsprint
 /
 M
@@ -99149,6 +99241,8 @@ M
 nucleon
 /
 SM
+nucleoside
+nucleotide
 nucleus
 /
 M
@@ -100341,6 +100435,9 @@ PYTGDRS
 opaqueness
 /
 M
+opcode
+/
+S
 ope
 /
 S
@@ -104169,6 +104266,7 @@ SDRZG
 performance
 /
 SM
+performative
 performed
 /
 U
@@ -104193,6 +104291,7 @@ SM
 perhaps
 pericardia
 pericardial
+pericarditis
 pericardium
 /
 M
@@ -106454,6 +106553,9 @@ M
 pm
 pneumatic
 pneumatically
+pneumococcal
+pneumococci
+pneumococcus
 pneumonia
 /
 M
@@ -109041,6 +109143,7 @@ SM
 projector
 /
 MS
+prokaryotic
 prole
 /
 S
@@ -109761,6 +109864,7 @@ psychopaths
 psychopathy
 /
 M
+psychopharmacology
 psychos
 /
 S
@@ -110390,6 +110494,7 @@ pvt
 pwn
 /
 SGD
+pyelonephritis
 pygmy
 /
 SM
@@ -110898,6 +111003,9 @@ quizzical
 /
 Y
 quizzing
+quo
+/
+H
 quoin
 /
 SM
@@ -110929,7 +111037,6 @@ s
 quote
 /
 UDSG
-quoth
 quotidian
 quotient
 /
@@ -111132,6 +111239,7 @@ M
 radiosonde
 /
 SM
+radiosurgery
 radiotelegraph
 /
 M
@@ -111358,7 +111466,7 @@ rammed
 ramming
 ramp
 /
-MS
+GMS
 rampage
 /
 DSMG
@@ -113880,6 +113988,9 @@ M
 reveal
 /
 GJSD
+revealed
+/
+U
 revealing
 /
 Y
@@ -114103,6 +114214,7 @@ MS
 rhinoceros
 /
 MS
+rhinoplasty
 rhinovirus
 /
 MS
@@ -116743,6 +116855,8 @@ schoolchild
 /
 M
 schoolchildren
+/
+M
 schooldays
 schooled
 /
@@ -118212,6 +118326,7 @@ sepsis
 /
 M
 septa
+septal
 septet
 /
 SM
@@ -120273,7 +120388,7 @@ size
 s
 size
 /
-ABDRS
+AGBDRS
 sizeable
 sizing
 /
@@ -122326,12 +122441,21 @@ S
 sound
 /
 JPSMDRYZTG
+soundalike
+/
+S
+soundbar
+/
+S
 soundbite
 /
 S
 soundboard
 /
 MS
+soundcheck
+/
+S
 sounder
 /
 M
@@ -122663,6 +122787,7 @@ SMDG
 spearfish
 /
 GMDS
+speargun
 spearhead
 /
 GMDS
@@ -123143,6 +123268,7 @@ splendor
 /
 MS
 splendorous
+splenectomy
 splenetic
 splice
 /
@@ -124332,6 +124458,8 @@ stepchild
 /
 M
 stepchildren
+/
+M
 stepdad
 /
 MS
@@ -125617,6 +125745,7 @@ Y
 sublimity
 /
 M
+sublingual
 submarginal
 submarine
 /
@@ -125681,6 +125810,7 @@ SGD
 subornation
 /
 M
+subparagraph
 subplot
 /
 MS
@@ -126107,6 +126237,7 @@ SM
 sulfide
 /
 SM
+sulfonamides
 sulfur
 /
 MDSG
@@ -127547,6 +127678,7 @@ SM
 tachycardia
 /
 M
+tachyon
 tacit
 /
 PY
@@ -133317,6 +133449,7 @@ underact
 /
 SDG
 underage
+underappreciated
 underarm
 /
 SM
@@ -133989,6 +134122,7 @@ unshakable
 unshakably
 unshakeable
 unshapely
+unshockable
 unshorn
 unsightliness
 /
@@ -134437,6 +134571,7 @@ SM
 uttermost
 /
 M
+uveitis
 uvula
 /
 SM
@@ -134527,6 +134662,7 @@ RYTP
 vagueness
 /
 M
+vagus
 vain
 /
 RYT
@@ -134783,6 +134919,7 @@ MS
 vasectomy
 /
 SM
+vasoconstriction
 vasomotor
 vassal
 /
@@ -134841,6 +134978,7 @@ SM
 vegan
 /
 SM
+veganism
 vegeburger
 /
 S
@@ -135159,6 +135297,8 @@ ZGNDRS
 version
 /
 AFIMS
+versioned
+versioning
 verso
 /
 SM
@@ -135628,6 +135768,7 @@ M
 virtual
 /
 Y
+virtualization
 virtue
 /
 SM
@@ -136659,6 +136800,9 @@ SM
 watch
 /
 BZGMDRS
+watchable
+/
+U
 watchband
 /
 MS
@@ -136893,6 +137037,7 @@ M
 weakfish
 /
 MS
+weakish
 weakling
 /
 SM
@@ -139074,6 +139219,7 @@ xxxviii
 xylem
 /
 M
+xylene
 xylophone
 /
 SM
@@ -139462,6 +139608,9 @@ zenith
 M
 zeniths
 zenned
+zeolite
+/
+S
 zephyr
 /
 MS
@@ -139597,7 +139746,9 @@ zoophyte
 /
 SM
 zoophytic
+zooplankton
 zorch
+zoster
 zounds
 zucchini
 /
