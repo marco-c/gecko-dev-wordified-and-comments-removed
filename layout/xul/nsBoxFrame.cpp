@@ -5529,9 +5529,9 @@ PaintXULDebugBackground
 nsIFrame
 *
 aFrame
-nsRenderingContext
+DrawTarget
 *
-aCtx
+aDrawTarget
 const
 nsRect
 &
@@ -5552,8 +5552,7 @@ aFrame
 >
 PaintXULDebugBackground
 (
-*
-aCtx
+aDrawTarget
 aPt
 )
 ;
@@ -5928,9 +5927,9 @@ nsBoxFrame
 :
 PaintXULDebugBackground
 (
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 nsPoint
 aPt
 )
@@ -6069,16 +6068,6 @@ f
 )
 )
 ;
-DrawTarget
-*
-drawTarget
-=
-aRenderingContext
-.
-GetDrawTarget
-(
-)
-;
 nsRect
 r
 (
@@ -6093,7 +6082,7 @@ debugBorder
 .
 left
 ;
-drawTarget
+aDrawTarget
 -
 >
 FillRect
@@ -6118,7 +6107,7 @@ debugBorder
 .
 top
 ;
-drawTarget
+aDrawTarget
 -
 >
 FillRect
@@ -6159,7 +6148,7 @@ debugBorder
 .
 right
 ;
-drawTarget
+aDrawTarget
 -
 >
 FillRect
@@ -6200,7 +6189,7 @@ debugBorder
 .
 bottom
 ;
-drawTarget
+aDrawTarget
 -
 >
 FillRect
@@ -6250,7 +6239,7 @@ f
 )
 )
 ;
-drawTarget
+aDrawTarget
 -
 >
 StrokeRect
