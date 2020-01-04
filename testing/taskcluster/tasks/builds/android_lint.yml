@@ -279,11 +279,9 @@ update
 "
 MH_CUSTOM_BUILD_VARIANT_CFG
 :
-api
+android
 -
-15
--
-frontend
+lint
 MH_BRANCH
 :
 {

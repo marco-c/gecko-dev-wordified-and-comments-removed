@@ -2376,6 +2376,25 @@ s_api_15_partner_sample1
 .
 py
 '
+        
+'
+android
+-
+lint
+'
+:
+'
+builds
+/
+releng_sub_
+%
+s_configs
+/
+%
+s_lint
+.
+py
+'
     
 }
     
