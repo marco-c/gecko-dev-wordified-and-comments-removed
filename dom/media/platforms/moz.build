@@ -496,6 +496,13 @@ MediaCodecDataDecoder
 .
 cpp
 '
+'
+android
+/
+RemoteDataDecoder
+.
+cpp
+'
 ]
 FINAL_LIBRARY
 =
