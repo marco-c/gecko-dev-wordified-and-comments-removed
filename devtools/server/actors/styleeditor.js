@@ -156,8 +156,6 @@ css
 logic
 "
 )
-.
-CssLogic
 )
 ;
 var

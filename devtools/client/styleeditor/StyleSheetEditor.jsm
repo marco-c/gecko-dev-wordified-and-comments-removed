@@ -102,7 +102,8 @@ defer
 ;
 const
 {
-CssLogic
+shortSource
+prettifyCSS
 }
 =
 require
@@ -971,8 +972,6 @@ this
 .
 _friendlyName
 =
-CssLogic
-.
 shortSource
 (
 {
@@ -1307,8 +1306,6 @@ isOriginalSource
 {
 source
 =
-CssLogic
-.
 prettifyCSS
 (
 source

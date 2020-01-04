@@ -27,9 +27,7 @@ promise
 )
 ;
 const
-{
 CssLogic
-}
 =
 require
 (

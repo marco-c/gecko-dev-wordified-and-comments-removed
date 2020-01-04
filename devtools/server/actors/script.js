@@ -349,9 +349,7 @@ CssLogic
 "
 devtools
 /
-shared
-/
-inspector
+server
 /
 css
 -

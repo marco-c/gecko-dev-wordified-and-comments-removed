@@ -106,7 +106,7 @@ definitions
 ;
 const
 {
-CssLogic
+l10n
 }
 =
 require
@@ -5057,8 +5057,6 @@ noResults
 "
 textContent
 :
-CssLogic
-.
 l10n
 (
 "
@@ -5183,8 +5181,6 @@ this
 .
 _selectedElementLabel
 =
-CssLogic
-.
 l10n
 (
 "
@@ -5222,8 +5218,6 @@ this
 .
 _pseudoElementLabel
 =
-CssLogic
-.
 l10n
 (
 "
