@@ -11369,6 +11369,9 @@ None
 job
 =
 None
+skip_cache
+=
+False
 )
 :
         
@@ -11547,6 +11550,9 @@ cache_dir
 hg
 =
 hg
+skip_cache
+=
+skip_cache
 )
         
 return
@@ -11642,6 +11648,43 @@ default
 None
 )
     
+CommandArgument
+(
+'
+-
+-
+skip
+-
+cache
+'
+action
+=
+'
+store_true
+'
+        
+help
+=
+'
+Skip
+all
+local
+caches
+to
+force
+re
+-
+fetching
+remote
+artifacts
+.
+'
+        
+default
+=
+False
+)
+    
 def
 artifact_install
 (
@@ -11649,6 +11692,9 @@ self
 source
 =
 None
+skip_cache
+=
+False
 tree
 =
 None
@@ -11680,6 +11726,9 @@ tree
 job
 =
 job
+skip_cache
+=
+skip_cache
 )
         
 return
