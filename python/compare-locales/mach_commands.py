@@ -28,6 +28,10 @@ MachCommandBase
 )
 import
 mozpack
+.
+path
+as
+mozpath
 MERGE_HELP
 =
 '
