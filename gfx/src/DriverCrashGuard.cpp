@@ -1856,6 +1856,16 @@ XRE_IsContentProcess
 return
 ;
 }
+#
+if
+defined
+(
+MOZ_WIDGET_ANDROID
+)
+return
+;
+#
+endif
 DriverCrashGuard
 :
 :
