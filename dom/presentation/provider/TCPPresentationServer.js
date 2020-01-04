@@ -3341,7 +3341,7 @@ this
 .
 _pendingOffer
 =
-offer
+aOffer
 ;
 return
 ;
