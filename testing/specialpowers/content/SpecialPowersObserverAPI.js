@@ -3600,7 +3600,6 @@ Extension
 .
 generate
 (
-id
 ext
 )
 ;
