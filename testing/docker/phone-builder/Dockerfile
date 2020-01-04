@@ -71,6 +71,15 @@ install
 y
 bc
 lzop
+java
+-
+1
+.
+7
+.
+0
+-
+openjdk
 RUN
 pip
 install
