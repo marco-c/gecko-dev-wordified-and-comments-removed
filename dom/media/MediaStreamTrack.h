@@ -67,6 +67,9 @@ class
 MediaEnginePhotoCallback
 ;
 class
+MediaInputPort
+;
+class
 MediaStream
 ;
 class
@@ -800,6 +803,17 @@ RemoveListener
 MediaStreamTrackListener
 *
 aListener
+)
+;
+already_AddRefed
+<
+MediaInputPort
+>
+ForwardTrackContentsTo
+(
+ProcessedMediaStream
+*
+aStream
 )
 ;
 protected
