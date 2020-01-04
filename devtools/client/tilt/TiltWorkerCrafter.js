@@ -1163,12 +1163,6 @@ n
 =
 0xefc8249d
 ;
-for
-(
-let
-i
-=
-0
 data
 =
 data
@@ -1176,6 +1170,13 @@ data
 toString
 (
 )
+;
+for
+(
+let
+i
+=
+0
 len
 =
 data

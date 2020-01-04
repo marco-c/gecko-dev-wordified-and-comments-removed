@@ -12828,7 +12828,7 @@ window
 for
 (
 let
-tab
+otherTab
 of
 Array
 .
@@ -12854,7 +12854,7 @@ entries
 ]
 lastAccessed
 :
-tab
+otherTab
 .
 lastAccessed
 }
