@@ -203,6 +203,11 @@ TestNoRefcountedInsideLambdas
 cpp
 '
 '
+TestRefCountedCopyConstructor
+.
+cpp
+'
+'
 TestStackClass
 .
 cpp
