@@ -2920,7 +2920,7 @@ out
         
 sandbox
 .
-exec_file
+include_file
 (
 mozpath
 .

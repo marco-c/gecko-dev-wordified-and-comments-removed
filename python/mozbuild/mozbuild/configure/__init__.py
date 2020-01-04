@@ -940,7 +940,7 @@ handler
 )
     
 def
-exec_file
+include_file
 (
 self
 path
@@ -950,10 +950,10 @@ path
 '
 '
 '
-Execute
+Include
 one
 file
-within
+in
 the
 sandbox
 .
@@ -962,8 +962,8 @@ of
 this
 class
 probably
-        
 want
+        
 to
 use
 run
@@ -1211,7 +1211,7 @@ script
         
 self
 .
-exec_file
+include_file
 (
 path
 )
@@ -3021,7 +3021,7 @@ __name__
             
 self
 .
-exec_file
+include_file
 (
 what
 )
