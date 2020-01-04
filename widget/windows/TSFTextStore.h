@@ -3060,7 +3060,7 @@ mMinTextModifiedOffset
 ;
 }
 bool
-IsLayoutChangedAfter
+IsLayoutChangedAt
 (
 uint32_t
 aOffset
@@ -3068,12 +3068,15 @@ aOffset
 const
 {
 return
-mInitialized
+IsLayoutChanged
+(
+)
 &
 &
 (
 mMinTextModifiedOffset
 <
+=
 aOffset
 )
 ;
