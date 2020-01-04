@@ -6075,7 +6075,7 @@ mouseEvent
 aMouseEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -
@@ -7754,7 +7754,7 @@ keyEvent
 aKeyEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -
@@ -8420,7 +8420,7 @@ keyEvent
 aKeyEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -

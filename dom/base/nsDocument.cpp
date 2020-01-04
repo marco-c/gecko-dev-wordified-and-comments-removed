@@ -22484,7 +22484,7 @@ innerEvent
 event
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 ;
@@ -35918,7 +35918,7 @@ e
 ev
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 ;
@@ -40678,7 +40678,7 @@ aOnlyChromeDispatch
 event
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -

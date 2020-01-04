@@ -18839,7 +18839,7 @@ AsEvent
 )
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -
@@ -20986,7 +20986,7 @@ widgetEvent
 aEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 ;
@@ -21079,7 +21079,7 @@ widgetGUIEvent
 aEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -

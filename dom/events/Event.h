@@ -1453,7 +1453,7 @@ NS_IMETHOD_
 WidgetEvent
 *
 )
-GetInternalNSEvent
+WidgetEventPtr
 (
 void
 )
@@ -1461,7 +1461,7 @@ override
 {
 return
 _to
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 ;

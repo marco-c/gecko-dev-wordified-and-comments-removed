@@ -759,7 +759,7 @@ internalEvent
 event
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 ;

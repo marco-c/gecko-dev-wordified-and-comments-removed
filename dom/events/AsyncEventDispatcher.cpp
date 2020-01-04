@@ -233,7 +233,7 @@ IsTrusted
 event
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -

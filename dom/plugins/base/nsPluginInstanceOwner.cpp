@@ -7432,7 +7432,7 @@ theEvent
 aFocusEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 ;
@@ -7608,7 +7608,7 @@ keyEvent
 aKeyEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -
@@ -7775,7 +7775,7 @@ mouseEvent
 aMouseEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -
@@ -7897,7 +7897,7 @@ mouseEvent
 aMouseEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -
@@ -8413,7 +8413,7 @@ compositionEvent
 aEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -
@@ -9051,7 +9051,7 @@ ievent
 aEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 ;

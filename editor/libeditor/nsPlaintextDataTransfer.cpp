@@ -971,7 +971,7 @@ dragSession
 aDropEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -

@@ -3276,7 +3276,7 @@ keyEvent
 aEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -

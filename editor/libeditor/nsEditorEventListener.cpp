@@ -1699,7 +1699,7 @@ internalEvent
 aEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 ;
@@ -2692,7 +2692,7 @@ AsEvent
 )
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -
@@ -4463,7 +4463,7 @@ compositionStart
 aCompositionEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -

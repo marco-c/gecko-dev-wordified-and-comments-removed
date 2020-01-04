@@ -908,7 +908,7 @@ internalEvent
 aEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 ;
@@ -4875,7 +4875,7 @@ if
 event
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -

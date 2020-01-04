@@ -1641,7 +1641,7 @@ AsEvent
 )
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -
@@ -3934,7 +3934,7 @@ compositionChangeEvent
 aDOMTextEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -

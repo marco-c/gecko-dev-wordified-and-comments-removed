@@ -4050,7 +4050,7 @@ UserHasInteracted
 event
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -

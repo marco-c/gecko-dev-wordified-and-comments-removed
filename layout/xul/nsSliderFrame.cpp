@@ -4232,7 +4232,7 @@ event
 aEvent
 -
 >
-GetInternalNSEvent
+WidgetEventPtr
 (
 )
 -
