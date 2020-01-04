@@ -9,14 +9,9 @@ js
 "
 )
 ;
-setJitCompilerOption
+suppressSignalHandlers
 (
-"
-signals
-.
-enable
-"
-0
+true
 )
 ;
 var

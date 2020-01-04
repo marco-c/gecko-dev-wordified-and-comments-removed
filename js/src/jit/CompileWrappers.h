@@ -149,11 +149,6 @@ spsProfiler
 )
 ;
 bool
-canUseSignalHandlers
-(
-)
-;
-bool
 jitSupportsFloatingPoint
 (
 )

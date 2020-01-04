@@ -2974,7 +2974,6 @@ signalsForOOB
 =
 SignalUsage
 (
-cx
 )
 .
 forOOB
