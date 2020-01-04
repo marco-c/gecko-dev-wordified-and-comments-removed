@@ -1443,6 +1443,16 @@ winLastError
 Const
 .
 ERROR_FILE_NOT_FOUND
+|
+|
+ctypes
+.
+winLastError
+=
+=
+Const
+.
+ERROR_PATH_NOT_FOUND
 )
 {
 if
