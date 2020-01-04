@@ -31,7 +31,7 @@ extern
 "
 C
 "
-nsresult
+void
 NS_NewWindowsRegKey
 (
 nsIWindowsRegKey
@@ -64,6 +64,7 @@ NS_WINDOWSREGKEY_CID
 }
 }
 extern
+MOZ_MUST_USE
 nsresult
 nsWindowsRegKeyConstructor
 (
