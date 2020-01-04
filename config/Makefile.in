@@ -231,13 +231,6 @@ config
 rules
 .
 mk
-HOST_CFLAGS
-+
-=
--
-DUNICODE
--
-D_UNICODE
 ifndef
 JS_STANDALONE
 ifndef

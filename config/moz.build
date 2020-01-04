@@ -333,3 +333,17 @@ warnings
 ALLOW_COMPILER_WARNINGS
 =
 True
+HOST_DEFINES
+=
+{
+'
+UNICODE
+'
+:
+True
+'
+_UNICODE
+'
+:
+True
+}
