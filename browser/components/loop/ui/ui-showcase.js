@@ -3208,9 +3208,6 @@ video
 active
 "
 "
-tour
-"
-"
 status
 -
 available
