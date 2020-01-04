@@ -49610,7 +49610,14 @@ MIteratorStart
 public
 MUnaryInstruction
 public
-SingleObjectPolicy
+BoxExceptPolicy
+<
+0
+MIRType
+:
+:
+Object
+>
 :
 :
 Data

@@ -626,7 +626,8 @@ MutableHandleObject
 objp
 )
 ;
-bool
+JSObject
+*
 ValueToIterator
 (
 JSContext
@@ -634,7 +635,7 @@ JSContext
 cx
 unsigned
 flags
-MutableHandleValue
+HandleValue
 vp
 )
 ;
