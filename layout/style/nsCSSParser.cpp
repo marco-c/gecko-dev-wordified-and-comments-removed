@@ -2505,7 +2505,7 @@ aContext
 )
 ;
 bool
-ParseWebkitPrefixedGradient
+ParseWebkitPrefixedGradientWithService
 (
 nsAString
 &
@@ -27949,7 +27949,7 @@ bool
 CSSParserImpl
 :
 :
-ParseWebkitPrefixedGradient
+ParseWebkitPrefixedGradientWithService
 (
 nsAString
 &
@@ -31208,7 +31208,7 @@ tmp
 )
 ;
 return
-ParseWebkitPrefixedGradient
+ParseWebkitPrefixedGradientWithService
 (
 prefixedFuncName
 aValue
