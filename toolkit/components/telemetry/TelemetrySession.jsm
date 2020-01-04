@@ -5081,16 +5081,6 @@ JSMainRuntimeGCHeap
 "
 )
 ;
-b
-(
-"
-MEMORY_JS_MAIN_RUNTIME_TEMPORARY_PEAK
-"
-"
-JSMainRuntimeTemporaryPeak
-"
-)
-;
 c
 (
 "
