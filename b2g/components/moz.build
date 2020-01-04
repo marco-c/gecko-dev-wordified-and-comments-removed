@@ -153,16 +153,6 @@ OMAContentHandler
 js
 '
 '
-PaymentGlue
-.
-js
-'
-'
-PaymentProviderStrategy
-.
-js
-'
-'
 PresentationRequestUIGlue
 .
 js
