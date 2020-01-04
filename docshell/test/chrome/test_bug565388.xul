@@ -414,7 +414,7 @@ nsIPrincipal
 )
 ;
 var
-docShell
+webNav
 =
 Cc
 [
@@ -442,6 +442,11 @@ createWindowlessBrowser
 (
 true
 )
+;
+var
+docShell
+=
+webNav
 .
 QueryInterface
 (
@@ -514,6 +519,12 @@ window
 /
 >
 "
+)
+;
+webNav
+.
+close
+(
 )
 ;
 SimpleTest
