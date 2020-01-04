@@ -654,9 +654,6 @@ updateRoomContext
 roomToken
 :
 String
-newRoomName
-:
-String
 }
 )
 UpdateRoomContextError
