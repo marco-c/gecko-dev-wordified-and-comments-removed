@@ -4850,10 +4850,10 @@ nsIRequest
 aRequest
 )
 {
-PL_DHashTableRemove
-(
-&
 mRequestInfoHash
+.
+Remove
+(
 aRequest
 )
 ;

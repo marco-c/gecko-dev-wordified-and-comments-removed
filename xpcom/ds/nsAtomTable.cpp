@@ -1674,9 +1674,11 @@ mLength
 mHash
 )
 ;
-PL_DHashTableRemove
-(
 gAtomTable
+-
+>
+Remove
+(
 &
 key
 )

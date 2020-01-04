@@ -1164,10 +1164,10 @@ binding
 )
 )
 {
-PL_DHashTableRemove
-(
-&
 table
+.
+Remove
+(
 (
 void
 *

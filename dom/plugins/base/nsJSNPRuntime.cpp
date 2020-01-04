@@ -8145,9 +8145,11 @@ if
 sNPObjWrappers
 )
 {
-PL_DHashTableRemove
-(
 sNPObjWrappers
+-
+>
+Remove
+(
 npobj
 )
 ;

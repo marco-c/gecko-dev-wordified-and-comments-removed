@@ -343,10 +343,10 @@ KeyType
 aKey
 )
 {
-PL_DHashTableRemove
-(
-&
 mTable
+.
+Remove
+(
 EntryType
 :
 :

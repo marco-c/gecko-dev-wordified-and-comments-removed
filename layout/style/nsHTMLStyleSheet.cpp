@@ -2184,10 +2184,10 @@ EntryCount
 ;
 #
 endif
-PL_DHashTableRemove
-(
-&
 mMappedAttrTable
+.
+Remove
+(
 aMapped
 )
 ;

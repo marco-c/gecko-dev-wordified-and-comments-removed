@@ -1092,10 +1092,10 @@ as
 }
 else
 {
-PL_DHashTableRemove
-(
-&
 mForwardArcs
+.
+Remove
+(
 u
 )
 ;
@@ -1161,10 +1161,10 @@ as
 }
 else
 {
-PL_DHashTableRemove
-(
-&
 mReverseArcs
+.
+Remove
+(
 v
 )
 ;

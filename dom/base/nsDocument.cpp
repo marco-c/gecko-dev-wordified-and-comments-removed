@@ -17468,9 +17468,11 @@ if
 mSubDocuments
 )
 {
-PL_DHashTableRemove
-(
 mSubDocuments
+-
+>
+Remove
+(
 aElement
 )
 ;

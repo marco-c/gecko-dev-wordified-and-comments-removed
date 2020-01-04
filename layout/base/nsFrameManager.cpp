@@ -731,10 +731,10 @@ type
 "
 )
 ;
-PL_DHashTableRemove
-(
-&
 mPlaceholderMap
+.
+Remove
+(
 aPlaceholderFrame
 -
 >

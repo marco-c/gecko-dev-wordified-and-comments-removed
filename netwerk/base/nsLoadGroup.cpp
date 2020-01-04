@@ -2122,10 +2122,10 @@ request
 )
 )
 ;
-PL_DHashTableRemove
-(
-&
 mRequests
+.
+Remove
+(
 request
 )
 ;
