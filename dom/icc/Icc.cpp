@@ -461,8 +461,14 @@ isObject
 NS_ERROR_UNEXPECTED
 )
 ;
+RootedDictionary
+<
 MozStkCommandEventInit
+>
 init
+(
+cx
+)
 ;
 init
 .
