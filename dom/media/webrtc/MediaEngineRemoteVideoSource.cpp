@@ -1582,6 +1582,17 @@ lock
 mMonitor
 )
 ;
+if
+(
+mState
+!
+=
+kStarted
+)
+{
+return
+;
+}
 StreamTime
 delta
 =
