@@ -3572,7 +3572,7 @@ this
 .
 state
 .
-firefoxHandlesRoom
+userAgentHandlesRoom
 =
 =
 =
@@ -3589,7 +3589,7 @@ this
 .
 state
 .
-firefoxHandlesRoom
+userAgentHandlesRoom
 )
 {
 return

@@ -6240,7 +6240,7 @@ activeRoomStore
 setStoreState
 (
 {
-firefoxHandlesRoom
+userAgentHandlesRoom
 :
 undefined
 }
@@ -6291,7 +6291,7 @@ activeRoomStore
 setStoreState
 (
 {
-firefoxHandlesRoom
+userAgentHandlesRoom
 :
 true
 }
@@ -6340,7 +6340,7 @@ activeRoomStore
 setStoreState
 (
 {
-firefoxHandlesRoom
+userAgentHandlesRoom
 :
 false
 }
