@@ -1541,9 +1541,9 @@ popup
 new
 AutocompletePopup
 (
-this
+inspector
 .
-styleDocument
+_toolbox
 options
 )
 ;

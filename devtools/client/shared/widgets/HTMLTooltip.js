@@ -1715,6 +1715,15 @@ isVisible
 )
 )
 {
+this
+.
+emit
+(
+"
+hidden
+"
+)
+;
 return
 ;
 }
@@ -2132,6 +2141,7 @@ win
 .
 parent
 !
+=
 =
 win
 )
