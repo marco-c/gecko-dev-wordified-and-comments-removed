@@ -10564,16 +10564,6 @@ aCallData
 ;
 MOZ_ASSERT
 (
-mCallDataStorage
-.
-Contains
-(
-aCallData
-)
-)
-;
-MOZ_ASSERT
-(
 !
 mCallDataStoragePending
 .
