@@ -1564,6 +1564,7 @@ R
 dimen
 .
 tab_thumbnail_height
+)
 +
 resources
 .
@@ -1621,7 +1622,6 @@ R
 dimen
 .
 tab_thumbnail_margin
-)
 )
 )
 ;
