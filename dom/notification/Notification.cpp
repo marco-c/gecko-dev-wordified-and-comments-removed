@@ -1543,7 +1543,6 @@ true
 ;
 WorkerRunInternal
 (
-aCx
 aWorkerPrivate
 )
 ;
@@ -1578,9 +1577,6 @@ virtual
 void
 WorkerRunInternal
 (
-JSContext
-*
-aCx
 WorkerPrivate
 *
 aWorkerPrivate
@@ -1638,9 +1634,6 @@ aEventName
 void
 WorkerRunInternal
 (
-JSContext
-*
-aCx
 WorkerPrivate
 *
 aWorkerPrivate
@@ -1695,9 +1688,6 @@ aNotification
 void
 WorkerRunInternal
 (
-JSContext
-*
-aCx
 WorkerPrivate
 *
 aWorkerPrivate
@@ -5336,9 +5326,6 @@ mWindow
 void
 WorkerRunInternal
 (
-JSContext
-*
-aCx
 WorkerPrivate
 *
 aWorkerPrivate
@@ -8756,9 +8743,6 @@ aStrings
 void
 WorkerRunInternal
 (
-JSContext
-*
-aCx
 WorkerPrivate
 *
 aWorkerPrivate
