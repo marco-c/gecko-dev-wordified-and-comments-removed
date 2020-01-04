@@ -43074,6 +43074,12 @@ UnboxedPlainObject
 )
 )
 {
+MOZ_ASSERT
+(
+!
+oldShape
+)
+;
 if
 (
 UnboxedExpandoObject
