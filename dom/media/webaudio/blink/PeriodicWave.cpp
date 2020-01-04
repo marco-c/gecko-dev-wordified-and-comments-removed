@@ -919,7 +919,10 @@ const
 float
 piFloat
 =
+float
+(
 M_PI
+)
 ;
 unsigned
 fftSize

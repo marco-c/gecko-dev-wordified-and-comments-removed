@@ -653,7 +653,7 @@ minK
 =
 0
 .
-1
+1f
 ;
 float
 maxK
