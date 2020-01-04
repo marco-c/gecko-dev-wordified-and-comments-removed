@@ -2731,6 +2731,7 @@ int
 alignment
 )
 {
+return
 nopAlign
 (
 alignment
