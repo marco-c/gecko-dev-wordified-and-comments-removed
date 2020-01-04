@@ -289,6 +289,13 @@ h
 #
 include
 "
+jsobjinlines
+.
+h
+"
+#
+include
+"
 jsscriptinlines
 .
 h
@@ -683,10 +690,7 @@ cx
 if
 (
 !
-ValueToId
-<
-CanGC
->
+ToPropertyKey
 (
 cx
 args
