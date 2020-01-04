@@ -1015,10 +1015,6 @@ RequestContentRepaint
 FrameMetrics
 &
 aFrameMetrics
-bool
-aThrottled
-=
-true
 )
 ;
 void
@@ -1189,7 +1185,7 @@ FrameMetrics
 mLastPaintRequestMetrics
 ;
 FrameMetrics
-mLastDispatchedPaintMetrics
+mExpectedGeckoMetrics
 ;
 AxisX
 mX
