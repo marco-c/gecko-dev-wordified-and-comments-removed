@@ -442,11 +442,11 @@ onactivestatechanged
 =
 null
 ;
-error
+ok
 (
+true
 "
 Should
-not
 receive
 onactivestatechanged
 !
