@@ -1249,7 +1249,7 @@ eBasicEventClass
 NON_IDL_EVENT
 (
 popupshown
-NS_XUL_POPUP_SHOWN
+eXULPopupShown
 EventNameType_XUL
 eBasicEventClass
 )

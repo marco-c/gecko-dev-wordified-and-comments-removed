@@ -511,7 +511,7 @@ eXULEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_XUL_POPUP_SHOWN
+eXULPopupShown
 eXULEventFirst
 +
 1
