@@ -40,10 +40,6 @@ unsigned
 char
 *
 src_data
-int
-begin
-int
-end
 const
 ConvolutionFilter1D
 &
@@ -65,10 +61,6 @@ src_data
 [
 4
 ]
-int
-begin
-int
-end
 const
 ConvolutionFilter1D
 &
@@ -101,9 +93,7 @@ const
 *
 source_data_rows
 int
-begin
-int
-end
+pixel_width
 unsigned
 char
 *
