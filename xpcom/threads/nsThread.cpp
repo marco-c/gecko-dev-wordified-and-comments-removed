@@ -822,14 +822,6 @@ Wait
 (
 )
 {
-if
-(
-mInitialized
-)
-{
-return
-;
-}
 ReentrantMonitorAutoEnter
 mon
 (
