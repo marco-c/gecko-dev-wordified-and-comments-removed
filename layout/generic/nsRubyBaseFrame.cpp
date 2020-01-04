@@ -49,7 +49,7 @@ nsRubyBaseFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsRubyBaseFrameSuper
+nsRubyContentFrame
 )
 NS_IMPL_FRAMEARENA_HELPERS
 (

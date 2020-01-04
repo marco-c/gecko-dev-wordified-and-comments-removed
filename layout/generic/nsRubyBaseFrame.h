@@ -11,10 +11,6 @@ nsRubyContentFrame
 .
 h
 "
-typedef
-nsRubyContentFrame
-nsRubyBaseFrameSuper
-;
 nsContainerFrame
 *
 NS_NewRubyBaseFrame
@@ -32,7 +28,7 @@ nsRubyBaseFrame
 final
 :
 public
-nsRubyBaseFrameSuper
+nsRubyContentFrame
 {
 public
 :
@@ -90,7 +86,7 @@ nsStyleContext
 aContext
 )
 :
-nsRubyBaseFrameSuper
+nsRubyContentFrame
 (
 aContext
 )
