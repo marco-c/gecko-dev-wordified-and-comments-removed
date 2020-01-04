@@ -444,12 +444,10 @@ visible
 let
 ancestors
 =
-[
-x
-for
+Array
+.
+from
 (
-x
-of
 PlacesUtils
 .
 nodeAncestors
@@ -457,7 +455,6 @@ nodeAncestors
 aNode
 )
 )
-]
 ;
 if
 (

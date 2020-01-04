@@ -3765,13 +3765,13 @@ nodeIsURI
 let
 uris
 =
-[
-for
+aNodeList
+.
+map
 (
 node
-of
-aNodeList
-)
+=
+>
 PlacesUtils
 .
 _uri
@@ -3780,7 +3780,7 @@ node
 .
 uri
 )
-]
+)
 ;
 detailsDeck
 .
