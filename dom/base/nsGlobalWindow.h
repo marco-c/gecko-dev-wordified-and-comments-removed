@@ -8688,6 +8688,11 @@ mWasOffline
 1
 ;
 bool
+mHasHadSlowScript
+:
+1
+;
+bool
 mNotifyIdleObserversIdleOnThaw
 :
 1
