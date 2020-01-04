@@ -677,14 +677,6 @@ LightweightThemeConsumer
 jsm
 '
 ]
-DIRS
-+
-=
-[
-'
-subprocess
-'
-]
 else
 :
 DEFINES
