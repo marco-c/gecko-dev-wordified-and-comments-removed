@@ -180,7 +180,7 @@ mozilla
 :
 Atomic
 <
-size_t
+ptrdiff_t
 >
 GfxMemoryImageReporter
 :
