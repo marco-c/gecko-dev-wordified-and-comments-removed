@@ -1,3 +1,16 @@
+var
+handler
+=
+{
+getPropertyDescriptor
+(
+)
+{
+return
+undefined
+;
+}
+}
 assertEq
 (
 (
@@ -7,8 +20,7 @@ Proxy
 .
 createFunction
 (
-{
-}
+handler
 function
 (
 )
@@ -44,8 +56,7 @@ Proxy
 .
 createFunction
 (
-{
-}
+handler
 function
 (
 q
@@ -77,8 +88,7 @@ Proxy
 .
 createFunction
 (
-{
-}
+handler
 "
 "
 .
