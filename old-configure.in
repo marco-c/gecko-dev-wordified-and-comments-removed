@@ -12012,12 +12012,6 @@ MOZ_OPTIMIZE_FLAGS
 "
 -
 Os
--
-fno
--
-reorder
--
-functions
 "
 if
 test
@@ -12035,6 +12029,12 @@ MOZ_OPTIMIZE_FLAGS
 freorder
 -
 blocks
+-
+fno
+-
+reorder
+-
+functions
 MOZ_OPTIMIZE_FLAGS
 "
 fi

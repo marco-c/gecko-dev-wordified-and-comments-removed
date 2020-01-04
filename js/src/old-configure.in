@@ -9103,12 +9103,6 @@ MOZ_OPTIMIZE_FLAGS
 "
 -
 O3
--
-fno
--
-reorder
--
-functions
 "
 if
 test
@@ -9126,6 +9120,12 @@ MOZ_OPTIMIZE_FLAGS
 freorder
 -
 blocks
+-
+fno
+-
+reorder
+-
+functions
 MOZ_OPTIMIZE_FLAGS
 "
 fi
