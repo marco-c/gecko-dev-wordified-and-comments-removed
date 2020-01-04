@@ -5529,6 +5529,9 @@ nsSize
 RuleNodeCacheConditions
 dummy
 ;
+bool
+dummyBool
+;
 gfx
 :
 :
@@ -5565,6 +5568,8 @@ AppUnitsPerCSSPixel
 (
 )
 )
+&
+dummyBool
 )
 ;
 return

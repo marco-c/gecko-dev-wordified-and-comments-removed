@@ -319,6 +319,9 @@ aConditions
 TransformReferenceBox
 &
 aBounds
+bool
+*
+aContains3dTransform
 )
 ;
 mozilla
@@ -351,6 +354,9 @@ TransformReferenceBox
 aBounds
 float
 aAppUnitsPerMatrixUnit
+bool
+*
+aContains3dTransform
 )
 ;
 }

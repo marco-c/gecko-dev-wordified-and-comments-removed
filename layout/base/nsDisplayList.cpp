@@ -2084,6 +2084,9 @@ case
 eCSSKeyword_interpolatematrix
 :
 {
+bool
+dummy
+;
 Matrix4x4
 matrix
 ;
@@ -2098,6 +2101,8 @@ aContext
 aPresContext
 conditions
 aRefBox
+&
+dummy
 )
 ;
 aFunctions
@@ -27881,6 +27886,9 @@ frame
 RuleNodeCacheConditions
 dummy
 ;
+bool
+dummyBool
+;
 Matrix4x4
 result
 ;
@@ -27961,6 +27969,8 @@ nullptr
 dummy
 refBox
 aAppUnitsPerPixel
+&
+dummyBool
 )
 ;
 }
