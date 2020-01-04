@@ -588,6 +588,8 @@ browser
 )
 ;
 yield
+BrowserTestUtils
+.
 crashBrowser
 (
 browser
@@ -730,6 +732,8 @@ browser
 )
 ;
 yield
+BrowserTestUtils
+.
 crashBrowser
 (
 browser
@@ -954,6 +958,8 @@ browser
 )
 ;
 yield
+BrowserTestUtils
+.
 crashBrowser
 (
 browser
@@ -1250,6 +1256,8 @@ browser
 )
 ;
 yield
+BrowserTestUtils
+.
 crashBrowser
 (
 browser
@@ -1516,6 +1524,8 @@ browser2
 )
 ;
 yield
+BrowserTestUtils
+.
 crashBrowser
 (
 browser
@@ -1796,6 +1806,8 @@ browser
 )
 ;
 yield
+BrowserTestUtils
+.
 crashBrowser
 (
 browser
@@ -1917,6 +1929,8 @@ browser
 )
 ;
 yield
+BrowserTestUtils
+.
 crashBrowser
 (
 browser
@@ -2029,6 +2043,8 @@ browser
 )
 ;
 yield
+BrowserTestUtils
+.
 crashBrowser
 (
 browser
@@ -2231,6 +2247,8 @@ browser
 )
 ;
 yield
+BrowserTestUtils
+.
 crashBrowser
 (
 browser
