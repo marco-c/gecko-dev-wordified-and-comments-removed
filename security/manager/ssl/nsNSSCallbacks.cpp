@@ -5417,15 +5417,6 @@ if
 (
 !
 siteSupportsSafeRenego
-&
-&
-ioLayerHelpers
-.
-getWarnLevelMissingRFC5746
-(
-)
->
-0
 )
 {
 nsXPIDLCString
