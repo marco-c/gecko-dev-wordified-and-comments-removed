@@ -7845,6 +7845,16 @@ nsIPermission
 aPerm
 )
 {
+if
+(
+!
+aPerm
+)
+{
+return
+NS_OK
+;
+}
 nsCOMPtr
 <
 nsIPrincipal
