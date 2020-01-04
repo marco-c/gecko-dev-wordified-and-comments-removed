@@ -237,7 +237,7 @@ class
 ServiceWorkerInfo
 ;
 class
-ServiceWorkerJobQueue2
+ServiceWorkerJobQueue
 ;
 class
 ServiceWorkerManagerChild
@@ -842,7 +842,7 @@ GetRegistrationRunnable
 ;
 friend
 class
-ServiceWorkerJob2
+ServiceWorkerJob
 ;
 friend
 class
@@ -850,11 +850,11 @@ ServiceWorkerRegistrationInfo
 ;
 friend
 class
-ServiceWorkerUnregisterJob2
+ServiceWorkerUnregisterJob
 ;
 friend
 class
-ServiceWorkerUpdateJob2
+ServiceWorkerUpdateJob
 ;
 friend
 class
@@ -1374,7 +1374,7 @@ Init
 ;
 already_AddRefed
 <
-ServiceWorkerJobQueue2
+ServiceWorkerJobQueue
 >
 GetOrCreateJobQueue
 (

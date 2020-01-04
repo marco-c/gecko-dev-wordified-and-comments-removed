@@ -41,7 +41,7 @@ namespace
 workers
 {
 class
-ServiceWorkerJob2
+ServiceWorkerJob
 {
 public
 :
@@ -54,7 +54,7 @@ virtual
 void
 JobFinished
 (
-ServiceWorkerJob2
+ServiceWorkerJob
 *
 aJob
 ErrorResult
@@ -133,7 +133,7 @@ const
 bool
 IsEquivalentTo
 (
-ServiceWorkerJob2
+ServiceWorkerJob
 *
 aJob
 )
@@ -150,7 +150,7 @@ aCallback
 void
 StealResultCallbacksFrom
 (
-ServiceWorkerJob2
+ServiceWorkerJob
 *
 aJob
 )
@@ -170,7 +170,7 @@ Cancel
 ;
 protected
 :
-ServiceWorkerJob2
+ServiceWorkerJob
 (
 Type
 aType
@@ -189,7 +189,7 @@ aScriptSpec
 ;
 virtual
 ~
-ServiceWorkerJob2
+ServiceWorkerJob
 (
 )
 ;
@@ -279,7 +279,7 @@ public
 :
 NS_INLINE_DECL_REFCOUNTING
 (
-ServiceWorkerJob2
+ServiceWorkerJob
 )
 }
 ;

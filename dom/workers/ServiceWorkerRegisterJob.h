@@ -21,15 +21,15 @@ namespace
 workers
 {
 class
-ServiceWorkerRegisterJob2
+ServiceWorkerRegisterJob
 final
 :
 public
-ServiceWorkerUpdateJob2
+ServiceWorkerUpdateJob
 {
 public
 :
-ServiceWorkerRegisterJob2
+ServiceWorkerRegisterJob
 (
 nsIPrincipal
 *
@@ -58,7 +58,7 @@ override
 ;
 virtual
 ~
-ServiceWorkerRegisterJob2
+ServiceWorkerRegisterJob
 (
 )
 ;

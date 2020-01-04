@@ -21,14 +21,14 @@ namespace
 workers
 {
 class
-ServiceWorkerUpdateJob2
+ServiceWorkerUpdateJob
 :
 public
-ServiceWorkerJob2
+ServiceWorkerJob
 {
 public
 :
-ServiceWorkerUpdateJob2
+ServiceWorkerUpdateJob
 (
 nsIPrincipal
 *
@@ -57,7 +57,7 @@ const
 ;
 protected
 :
-ServiceWorkerUpdateJob2
+ServiceWorkerUpdateJob
 (
 Type
 aType
@@ -79,7 +79,7 @@ aLoadGroup
 ;
 virtual
 ~
-ServiceWorkerUpdateJob2
+ServiceWorkerUpdateJob
 (
 )
 ;

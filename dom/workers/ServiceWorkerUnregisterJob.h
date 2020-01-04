@@ -21,15 +21,15 @@ namespace
 workers
 {
 class
-ServiceWorkerUnregisterJob2
+ServiceWorkerUnregisterJob
 final
 :
 public
-ServiceWorkerJob2
+ServiceWorkerJob
 {
 public
 :
-ServiceWorkerUnregisterJob2
+ServiceWorkerUnregisterJob
 (
 nsIPrincipal
 *
@@ -52,7 +52,7 @@ private
 :
 virtual
 ~
-ServiceWorkerUnregisterJob2
+ServiceWorkerUnregisterJob
 (
 )
 ;
