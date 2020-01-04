@@ -17628,14 +17628,6 @@ type
 (
 )
 ;
-MOZ_ASSERT
-(
-IsNumberType
-(
-type
-)
-)
-;
 unsigned
 addr
 =
@@ -17728,12 +17720,7 @@ else
 {
 MOZ_ASSERT
 (
-mir
--
->
 type
-(
-)
 =
 =
 MIRType
