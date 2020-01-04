@@ -12,9 +12,9 @@ js
 if
 (
 !
-this
-.
-wasmEval
+wasmIsSupported
+(
+)
 )
 quit
 (
