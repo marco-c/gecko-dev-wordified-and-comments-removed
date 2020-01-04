@@ -15642,7 +15642,7 @@ intrinsic_GetStringDataProperty
 2
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 GetFirstDollarIndex
@@ -15650,6 +15650,7 @@ GetFirstDollarIndex
 GetFirstDollarIndex
 1
 0
+GetFirstDollarIndex
 )
 JS_FN
 (

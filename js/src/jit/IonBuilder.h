@@ -4360,6 +4360,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineGetFirstDollarIndex
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineObjectCreate
 (
 CallInfo

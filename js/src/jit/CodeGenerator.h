@@ -756,6 +756,14 @@ ool
 )
 ;
 void
+visitGetFirstDollarIndex
+(
+LGetFirstDollarIndex
+*
+lir
+)
+;
+void
 visitStringReplace
 (
 LStringReplace
