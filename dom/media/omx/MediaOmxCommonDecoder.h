@@ -189,6 +189,12 @@ UpdateLogicalPosition
 )
 ;
 }
+void
+Shutdown
+(
+)
+override
+;
 protected
 :
 virtual
