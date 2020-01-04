@@ -48,6 +48,7 @@ double
 GetDestination
 (
 )
+const
 ;
 void
 SetDestination
