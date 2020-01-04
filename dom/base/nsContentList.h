@@ -448,6 +448,8 @@ const
 nsAString
 &
 aTagname
+bool
+aIsHTMLDocument
 )
 :
 mRootNode
@@ -461,6 +463,10 @@ aMatchNameSpaceId
 mTagname
 (
 aTagname
+)
+mIsHTMLDocument
+(
+aIsHTMLDocument
 )
 mHash
 (
@@ -478,6 +484,7 @@ aTagname
 )
 mRootNode
 mMatchNameSpaceId
+mIsHTMLDocument
 )
 )
 {
@@ -507,6 +514,12 @@ mTagname
 aContentListKey
 .
 mTagname
+)
+mIsHTMLDocument
+(
+aContentListKey
+.
+mIsHTMLDocument
 )
 mHash
 (
@@ -541,6 +554,9 @@ const
 nsAString
 &
 mTagname
+;
+bool
+mIsHTMLDocument
 ;
 const
 uint32_t
@@ -962,6 +978,14 @@ mMatchNameSpaceId
 aKey
 .
 mMatchNameSpaceId
+&
+&
+mIsHTMLDocument
+=
+=
+aKey
+.
+mIsHTMLDocument
 ;
 }
 void
@@ -1101,6 +1125,11 @@ mFuncMayDependOnAttr
 ;
 uint8_t
 mFlushesNeeded
+:
+1
+;
+uint8_t
+mIsHTMLDocument
 :
 1
 ;
