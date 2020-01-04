@@ -115,17 +115,6 @@ gradle
 '
 app
 :
-lintAutomationDebug
-'
-]
-        
-[
-'
-gradle
-'
-'
-app
-:
 testAutomationDebugUnitTest
 '
 ]
