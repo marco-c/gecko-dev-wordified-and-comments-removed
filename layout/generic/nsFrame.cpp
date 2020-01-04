@@ -24960,7 +24960,17 @@ nsDisplayTransform
 :
 OFFSET_BY_ORIGIN
 nullptr
+)
+;
+*
 aOutAncestor
+=
+nsLayoutUtils
+:
+:
+GetCrossDocParentFrame
+(
+this
 )
 ;
 nsPoint
