@@ -505,6 +505,17 @@ mCurrentConfig
 mExtraData
 )
 ;
+if
+(
+!
+mNeedAVCC
+)
+{
+mOriginalConfig
+=
+mCurrentConfig
+;
+}
 mDecoder
 =
 mPDM
