@@ -1773,7 +1773,7 @@ aSinkIdentity
 )
 ;
 bool
-AnyLocalStreamHasPeerIdentity
+AnyLocalTrackHasPeerIdentity
 (
 )
 const

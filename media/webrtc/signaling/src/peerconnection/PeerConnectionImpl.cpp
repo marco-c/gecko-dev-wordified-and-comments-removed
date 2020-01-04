@@ -8122,7 +8122,7 @@ isolated
 mMedia
 -
 >
-AnyLocalStreamHasPeerIdentity
+AnyLocalTrackHasPeerIdentity
 (
 )
 ;
