@@ -955,7 +955,7 @@ NR_TRANSPORT_ADDR_CMP_MODE_ALL
 TEST_F
 (
 ProxyTunnelSocketTest
-TestConnectProxyRequest
+DISABLED_TestConnectProxyRequest
 )
 {
 Connect
@@ -1006,7 +1006,7 @@ size
 TEST_F
 (
 ProxyTunnelSocketTest
-TestAlpnConnect
+DISABLED_TestAlpnConnect
 )
 {
 const
@@ -1092,7 +1092,7 @@ size
 TEST_F
 (
 ProxyTunnelSocketTest
-TestNullAlpnConnect
+DISABLED_TestNullAlpnConnect
 )
 {
 int
@@ -1162,7 +1162,7 @@ size
 TEST_F
 (
 ProxyTunnelSocketTest
-TestConnectProxyHostRequest
+DISABLED_TestConnectProxyHostRequest
 )
 {
 nr_proxy_tunnel_config_set_proxy
@@ -1229,7 +1229,7 @@ size
 TEST_F
 (
 ProxyTunnelSocketTest
-TestConnectProxyWrite
+DISABLED_TestConnectProxyWrite
 )
 {
 Connect
