@@ -11271,8 +11271,6 @@ unsigned
 flags
 AllocKind
 allocKind
-NewObjectKind
-newKind
 )
 {
 GetterOp
@@ -11388,7 +11386,7 @@ JSFunction
 INTERPRETED_LAZY
 atom
 allocKind
-newKind
+GenericObject
 obj
 )
 ;
@@ -11408,7 +11406,6 @@ native
 nargs
 atom
 allocKind
-newKind
 )
 ;
 else
@@ -11421,7 +11418,6 @@ native
 nargs
 atom
 allocKind
-newKind
 )
 ;
 if
