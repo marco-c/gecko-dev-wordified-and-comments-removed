@@ -617,16 +617,6 @@ DisconnectFromGraph
 ;
 protected
 :
-static
-void
-Callback
-(
-AudioNode
-*
-aNode
-)
-{
-}
 void
 SendDoubleParameterToStream
 (
