@@ -656,7 +656,6 @@ ScreenConfiguration
 aScreenConfiguration
 )
 ;
-MOZ_MUST_USE
 bool
 LockScreenOrientation
 (
@@ -746,7 +745,6 @@ SwitchState
 aState
 )
 ;
-MOZ_MUST_USE
 bool
 RegisterTheOneAlarmObserver
 (
@@ -768,7 +766,6 @@ NotifyAlarmFired
 (
 )
 ;
-MOZ_MUST_USE
 bool
 SetAlarm
 (
@@ -965,7 +962,6 @@ FMRadioCountry
 aCountry
 )
 ;
-MOZ_MUST_USE
 bool
 EnableRDS
 (
