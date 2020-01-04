@@ -1144,6 +1144,12 @@ BufferContents
 newContents
 )
 {
+assertSameCompartment
+(
+cx
+buffer
+)
+;
 if
 (
 buffer
@@ -3526,6 +3532,12 @@ buffer
 hasStealableContents
 (
 )
+)
+;
+assertSameCompartment
+(
+cx
+buffer
 )
 ;
 BufferContents
