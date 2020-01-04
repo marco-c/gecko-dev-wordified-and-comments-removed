@@ -19422,6 +19422,10 @@ mLoadWaitStatus
 WAITING_FOR_SOURCE
 )
 {
+mLoadWaitStatus
+=
+NOT_WAITING
+;
 QueueLoadFromSourceTask
 (
 )
