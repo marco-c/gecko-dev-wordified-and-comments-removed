@@ -3906,7 +3906,7 @@ typedef
 Vector
 <
 RecompileInfo
-0
+1
 SystemAllocPolicy
 >
 RecompileInfoVector

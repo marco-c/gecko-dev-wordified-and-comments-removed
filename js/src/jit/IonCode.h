@@ -2120,7 +2120,7 @@ invalidationCount_
 0
 ;
 }
-bool
+void
 invalidate
 (
 JSContext

@@ -11474,9 +11474,7 @@ MaybeReadFallback
 :
 :
 Fallback_Invalidate
-&
-&
-!
+)
 ionScript_
 -
 >
@@ -11491,12 +11489,7 @@ instruction
 .
 "
 )
-)
-{
-return
-false
 ;
-}
 RInstructionResults
 tmp
 (
