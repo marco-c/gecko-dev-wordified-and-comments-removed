@@ -2000,8 +2000,13 @@ app
 %
 s
 /
+org
 .
-App
+mozilla
+.
+gecko
+.
+BrowserApp
 "
 %
 build_obj

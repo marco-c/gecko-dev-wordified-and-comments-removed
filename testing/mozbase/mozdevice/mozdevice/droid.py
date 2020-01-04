@@ -671,8 +671,13 @@ launchApplication
 (
 appName
 "
+org
 .
-App
+mozilla
+.
+gecko
+.
+BrowserApp
 "
 intent
 url

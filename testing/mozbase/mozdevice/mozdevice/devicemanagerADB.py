@@ -2895,8 +2895,13 @@ i
 +
 "
 /
+org
 .
-App
+mozilla
+.
+gecko
+.
+BrowserApp
 "
 )
         
