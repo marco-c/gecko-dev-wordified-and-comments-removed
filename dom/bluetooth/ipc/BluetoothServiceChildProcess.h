@@ -886,7 +886,7 @@ nsAString
 &
 aAppUuid
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 BluetoothReplyRunnable
@@ -904,7 +904,7 @@ nsAString
 &
 aAppUuid
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 BluetoothReplyRunnable
@@ -990,7 +990,7 @@ GattClientReadRemoteRssiInternal
 int
 aClientIf
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 BluetoothReplyRunnable
@@ -1122,7 +1122,7 @@ nsAString
 &
 aAppUuid
 const
-BluetoothAddress
+nsAString
 &
 aAddress
 BluetoothReplyRunnable
@@ -1140,7 +1140,7 @@ nsAString
 &
 aAppUuid
 const
-BluetoothAddress
+nsAString
 &
 aAddress
 BluetoothReplyRunnable
@@ -1320,7 +1320,7 @@ nsAString
 &
 aAppUuid
 const
-BluetoothAddress
+nsAString
 &
 aAddress
 uint16_t
@@ -1346,7 +1346,7 @@ nsAString
 &
 aAppUuid
 const
-BluetoothAddress
+nsAString
 &
 aAddress
 const

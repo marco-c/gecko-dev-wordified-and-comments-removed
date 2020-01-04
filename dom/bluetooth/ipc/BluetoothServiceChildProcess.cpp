@@ -1815,7 +1815,7 @@ nsAString
 &
 aAppUuid
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 BluetoothReplyRunnable
@@ -1832,7 +1832,10 @@ nsString
 (
 aAppUuid
 )
+nsString
+(
 aDeviceAddress
+)
 )
 )
 ;
@@ -1848,7 +1851,7 @@ nsAString
 &
 aAppUuid
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 BluetoothReplyRunnable
@@ -1865,7 +1868,10 @@ nsString
 (
 aAppUuid
 )
+nsString
+(
 aDeviceAddress
+)
 )
 )
 ;
@@ -2006,7 +2012,7 @@ GattClientReadRemoteRssiInternal
 int
 aClientIf
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 BluetoothReplyRunnable
@@ -2020,7 +2026,10 @@ aRunnable
 GattClientReadRemoteRssiRequest
 (
 aClientIf
+nsString
+(
 aDeviceAddress
+)
 )
 )
 ;
@@ -2219,7 +2228,7 @@ nsAString
 &
 aAppUuid
 const
-BluetoothAddress
+nsAString
 &
 aAddress
 BluetoothReplyRunnable
@@ -2236,7 +2245,10 @@ nsString
 (
 aAppUuid
 )
+nsString
+(
 aAddress
+)
 )
 )
 ;
@@ -2252,7 +2264,7 @@ nsAString
 &
 aAppUuid
 const
-BluetoothAddress
+nsAString
 &
 aAddress
 BluetoothReplyRunnable
@@ -2269,7 +2281,10 @@ nsString
 (
 aAppUuid
 )
+nsString
+(
 aAddress
+)
 )
 )
 ;
@@ -2571,7 +2586,7 @@ nsAString
 &
 aAppUuid
 const
-BluetoothAddress
+nsAString
 &
 aAddress
 uint16_t
@@ -2596,7 +2611,10 @@ nsString
 (
 aAppUuid
 )
+nsString
+(
 aAddress
+)
 aStatus
 aRequestId
 aRsp
@@ -2615,7 +2633,7 @@ nsAString
 &
 aAppUuid
 const
-BluetoothAddress
+nsAString
 &
 aAddress
 const
@@ -2645,7 +2663,10 @@ nsString
 (
 aAppUuid
 )
+nsString
+(
 aAddress
+)
 aCharacteristicHandle
 aConfirm
 aValue
