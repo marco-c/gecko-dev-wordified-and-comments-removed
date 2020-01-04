@@ -131,8 +131,10 @@ ParseURI
 (
 spec
 contentType
+&
 contentCharset
 lBase64
+&
 dataBuffer
 )
 ;

@@ -68,13 +68,13 @@ nsCString
 &
 contentType
 nsCString
-&
+*
 contentCharset
 bool
 &
 isBase64
 nsCString
-&
+*
 dataBuffer
 )
 ;
