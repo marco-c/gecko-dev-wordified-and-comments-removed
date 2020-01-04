@@ -423,6 +423,11 @@ SourceSurfaceD2DTarget
 .
 cpp
 '
+'
+JobScheduler_win32
+.
+cpp
+'
 ]
 DEFINES
 [
