@@ -408,6 +408,16 @@ codecCanceled
 )
 override
 ;
+void
+NotifyManagerRelease
+(
+)
+;
+void
+NotifyCodecReserved
+(
+)
+;
 private
 :
 VideoResourceListener
