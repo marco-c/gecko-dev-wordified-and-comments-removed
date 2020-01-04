@@ -2163,8 +2163,10 @@ emptyAttrs
 =
 ChromeUtils
 .
-createDefaultOriginAttributes
+fillNonDefaultOriginAttributes
 (
+{
+}
 )
 ;
 checkValues
@@ -2357,7 +2359,7 @@ attrs
 =
 ChromeUtils
 .
-createOriginAttributesFromDict
+fillNonDefaultOriginAttributes
 (
 t
 [
