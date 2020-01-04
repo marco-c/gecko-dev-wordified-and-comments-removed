@@ -271,6 +271,9 @@ NS_DECL_NSISERVICEWORKERREGISTRATIONINFO
 nsCString
 mScope
 ;
+nsCString
+mScriptSpec
+;
 nsCOMPtr
 <
 nsIPrincipal
@@ -331,7 +334,6 @@ ServiceWorkerInfo
 Newest
 (
 )
-const
 {
 RefPtr
 <
@@ -841,10 +843,6 @@ ServiceWorkerRegisterJob
 friend
 class
 ServiceWorkerJobBase
-;
-friend
-class
-ServiceWorkerScriptJobBase
 ;
 friend
 class
