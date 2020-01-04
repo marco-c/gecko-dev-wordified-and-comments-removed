@@ -649,6 +649,11 @@ mEverTriedInvalidSubmit
 false
 )
 {
+AddStatesSilently
+(
+NS_EVENT_STATE_VALID
+)
+;
 }
 HTMLFormElement
 :
