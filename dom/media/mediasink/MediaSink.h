@@ -212,6 +212,14 @@ aPlaying
 ;
 virtual
 void
+Redraw
+(
+)
+{
+}
+;
+virtual
+void
 Start
 (
 int64_t
