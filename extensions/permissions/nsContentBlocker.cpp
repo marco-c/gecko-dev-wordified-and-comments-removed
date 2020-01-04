@@ -179,7 +179,7 @@ beacon
 fetch
 "
 "
-imageset
+image
 "
 "
 manifest
