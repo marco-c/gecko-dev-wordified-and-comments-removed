@@ -838,10 +838,14 @@ config
 ;
 if
 (
-aConfigs
-.
-IsEmpty
+MediaKeySystemAccess
+:
+:
+GetSupportedConfig
 (
+keySystem
+aConfigs
+config
 )
 |
 |
