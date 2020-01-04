@@ -1043,7 +1043,9 @@ int64_t
 aDuration
 int64_t
 aPosition
-ControlPlayStatus
+const
+nsAString
+&
 aPlayStatus
 BluetoothReplyRunnable
 *
