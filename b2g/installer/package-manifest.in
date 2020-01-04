@@ -3821,7 +3821,7 @@ RESPATH
 /
 components
 /
-PushComponents
+PushServiceLauncher
 .
 js
 #
@@ -3830,7 +3830,7 @@ RESPATH
 /
 components
 /
-PushServiceLauncher
+PushComponents
 .
 js
 #
