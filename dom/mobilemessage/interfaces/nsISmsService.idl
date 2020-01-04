@@ -64,9 +64,6 @@ nsISupports
 idl
 "
 interface
-nsIDOMMozSmsMessage
-;
-interface
 nsIMobileMessageCallback
 ;
 %

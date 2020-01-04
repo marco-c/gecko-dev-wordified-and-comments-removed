@@ -253,7 +253,7 @@ message
 |
 can
 be
-nsIDOMMoz
+nsI
 {
 Mms
 Sms
@@ -290,7 +290,7 @@ message
 |
 can
 be
-nsIDOMMoz
+nsI
 {
 Mms
 Sms

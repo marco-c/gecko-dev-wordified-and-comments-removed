@@ -239,7 +239,7 @@ attributes
 of
 the
 *
-nsIDOMMozSmsMessage
+nsISmsMessage
 generated
 by
 nsIMobileMessageService
