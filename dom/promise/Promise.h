@@ -526,6 +526,11 @@ MediaStreamError
 aArg
 )
 ;
+void
+MaybeRejectWithNull
+(
+)
+;
 template
 <
 typename
