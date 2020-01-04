@@ -26763,10 +26763,6 @@ stickyConn
 mUpgradeProtocolCallback
 )
 ;
-mUpgradeProtocolCallback
-=
-nullptr
-;
 }
 }
 if
