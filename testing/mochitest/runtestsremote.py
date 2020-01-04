@@ -2132,6 +2132,27 @@ runByDir
 =
 False
     
+if
+not
+options
+.
+chrome
+:
+        
+options
+.
+extensionsToExclude
+.
+append
+(
+'
+roboextender
+mozilla
+.
+org
+'
+)
+    
 dm
 =
 options
