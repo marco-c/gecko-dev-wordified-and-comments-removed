@@ -434,8 +434,6 @@ topsrcdir
 /
 build
 /
-unix
-/
 mozconfig
 .
 rust
