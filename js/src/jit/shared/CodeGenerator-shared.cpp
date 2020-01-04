@@ -3507,7 +3507,7 @@ snapshotOffset
 )
 ;
 }
-void
+bool
 CodeGeneratorShared
 :
 :
@@ -3569,6 +3569,14 @@ resolve
 )
 ;
 }
+return
+!
+safepoints_
+.
+oom
+(
+)
+;
 }
 bool
 CodeGeneratorShared
