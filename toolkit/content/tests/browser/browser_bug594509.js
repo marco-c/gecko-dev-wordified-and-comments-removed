@@ -35,6 +35,8 @@ function
 (
 )
 {
+Assert
+.
 ok
 (
 content

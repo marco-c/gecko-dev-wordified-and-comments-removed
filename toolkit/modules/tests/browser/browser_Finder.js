@@ -284,6 +284,8 @@ function
 arg
 )
 {
+Assert
+.
 ok
 (
 !
@@ -371,6 +373,8 @@ function
 arg
 )
 {
+Assert
+.
 ok
 (
 !

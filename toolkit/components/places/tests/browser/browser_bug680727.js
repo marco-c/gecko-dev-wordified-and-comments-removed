@@ -229,7 +229,9 @@ function
 uri
 )
 {
-is
+Assert
+.
+equal
 (
 content
 .
@@ -262,7 +264,9 @@ page
 "
 )
 ;
-is
+Assert
+.
+equal
 (
 content
 .
@@ -406,6 +410,8 @@ function
 (
 )
 {
+Assert
+.
 ok
 (
 content
@@ -490,7 +496,9 @@ function
 uri
 )
 {
-is
+Assert
+.
+equal
 (
 content
 .

@@ -88,7 +88,9 @@ visible
 true
 ;
 }
-is
+Assert
+.
+equal
 (
 visible
 aVisible

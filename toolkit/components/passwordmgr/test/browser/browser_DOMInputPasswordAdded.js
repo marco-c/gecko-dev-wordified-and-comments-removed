@@ -78,6 +78,8 @@ unexpectedContentEvent
 evt
 )
 {
+Assert
+.
 ok
 (
 false
@@ -264,7 +266,9 @@ test_inputAddHandler
 false
 )
 ;
-is
+Assert
+.
+equal
 (
 evt
 .
@@ -411,7 +415,9 @@ test_inputAddOutsideFormHandler
 false
 )
 ;
-is
+Assert
+.
+equal
 (
 evt
 .
@@ -506,7 +512,9 @@ test_inputChangesTypeHandler
 false
 )
 ;
-is
+Assert
+.
+equal
 (
 evt
 .
@@ -549,6 +557,8 @@ completeTest
 (
 )
 {
+Assert
+.
 ok
 (
 true
