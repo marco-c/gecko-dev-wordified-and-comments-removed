@@ -125,12 +125,12 @@ DeserializedStackFrameUbiStackFrames
 cpp
 '
 '
-DoesCrossZoneBoundaries
+DoesCrossCompartmentBoundaries
 .
 cpp
 '
 '
-DoesntCrossZoneBoundaries
+DoesntCrossCompartmentBoundaries
 .
 cpp
 '

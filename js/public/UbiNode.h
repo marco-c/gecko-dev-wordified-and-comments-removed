@@ -3472,7 +3472,7 @@ init
 bool
 init
 (
-ZoneSet
+CompartmentSet
 &
 debuggees
 )
