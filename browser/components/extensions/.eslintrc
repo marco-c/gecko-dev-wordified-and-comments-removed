@@ -43,11 +43,6 @@ EventEmitter
 :
 true
 "
-IconDetails
-"
-:
-true
-"
 makeWidgetId
 "
 :
