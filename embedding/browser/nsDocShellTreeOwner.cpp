@@ -3989,6 +3989,8 @@ dragover
 {
 bool
 canDropLink
+=
+false
 ;
 handler
 -
