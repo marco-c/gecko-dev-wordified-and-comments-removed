@@ -2553,7 +2553,7 @@ session
 -
 history
 "
-false
+true
 )
 }
 let
