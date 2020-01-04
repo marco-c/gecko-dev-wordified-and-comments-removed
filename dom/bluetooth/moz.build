@@ -133,6 +133,13 @@ SOURCES
 '
 common
 /
+BluetoothCommon
+.
+cpp
+'
+'
+common
+/
 BluetoothHidManager
 .
 cpp
@@ -819,6 +826,13 @@ bluetooth
 common
 /
 BluetoothCommon
+.
+h
+'
+'
+common
+/
+BluetoothHashKeys
 .
 h
 '

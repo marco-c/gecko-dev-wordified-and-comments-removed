@@ -128,17 +128,6 @@ ACL_STATE_DISCONNECTED
 }
 ;
 struct
-BluetoothAddress
-{
-uint8_t
-mAddr
-[
-6
-]
-;
-}
-;
-struct
 BluetoothAvrcpAttributeTextPairs
 {
 BluetoothAvrcpAttributeTextPairs
