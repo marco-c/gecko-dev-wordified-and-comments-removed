@@ -371,11 +371,9 @@ mozilla
 .
 gecko
 .
-widget
+toolbar
 .
-themed
-.
-ThemedFrameLayout
+ShapedButtonFrameLayout
 android
 :
 id
@@ -517,11 +515,9 @@ mozilla
 .
 gecko
 .
-widget
+toolbar
 .
-themed
-.
-ThemedFrameLayout
+ShapedButtonFrameLayout
 >
 <
 org

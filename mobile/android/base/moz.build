@@ -3393,6 +3393,13 @@ java
 '
 toolbar
 /
+ShapedButtonFrameLayout
+.
+java
+'
+'
+toolbar
+/
 SiteIdentityPopup
 .
 java
