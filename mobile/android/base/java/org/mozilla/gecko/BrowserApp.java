@@ -16676,6 +16676,13 @@ inGuestMode
 ;
 bookmark
 .
+setEnabled
+(
+true
+)
+;
+bookmark
+.
 setVisible
 (
 !
