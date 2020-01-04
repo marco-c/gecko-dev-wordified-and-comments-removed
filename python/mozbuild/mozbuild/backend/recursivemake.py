@@ -948,13 +948,6 @@ mk
         
 self
 .
-idls
-=
-[
-]
-        
-self
-.
 xpt_name
 =
 None
@@ -2465,15 +2458,6 @@ obj
 XPIDLFile
 )
 :
-            
-backend_file
-.
-idls
-.
-append
-(
-obj
-)
             
 backend_file
 .
