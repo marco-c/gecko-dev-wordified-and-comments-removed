@@ -890,6 +890,16 @@ case
 PAYLOAD_PACKED_TAG
 :
 {
+if
+(
+!
+writer
+.
+oom
+(
+)
+)
+{
 MOZ_ASSERT
 (
 writer
@@ -955,6 +965,7 @@ p
 .
 type
 ;
+}
 break
 ;
 }

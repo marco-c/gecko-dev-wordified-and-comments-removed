@@ -697,7 +697,7 @@ NSPR_MINVER
 .
 10
 .
-8
+10
 NSS_VERSION
 =
 3
@@ -28169,9 +28169,9 @@ AM_PATH_NSS
 (
 3
 .
-19
+20
 .
-2
+1
 [
 MOZ_NATIVE_NSS
 =
