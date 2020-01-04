@@ -839,7 +839,6 @@ load
 large_border_image_width
 .
 html
-skip
 load
 long
 -
@@ -852,13 +851,3 @@ stack
 overflow
 .
 html
-#
-skipped
-due
-to
-being
-slow
-(
-bug
-477490
-)
