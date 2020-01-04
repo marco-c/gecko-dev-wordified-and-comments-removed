@@ -193,6 +193,7 @@ AntialiasMode
 GetDefaultAAMode
 (
 )
+override
 ;
 #
 ifdef
