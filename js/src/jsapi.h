@@ -21792,6 +21792,10 @@ ignoreSelfHosted
 ignoreSelfHostedFrames
 )
 {
+if
+(
+principals
+)
 JS_HoldPrincipals
 (
 principals
