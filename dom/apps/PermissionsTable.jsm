@@ -2180,11 +2180,10 @@ additional
 )
 {
 for
-each
 (
 let
 additional
-in
+of
 tableEntry
 .
 additional

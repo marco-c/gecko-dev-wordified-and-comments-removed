@@ -240,11 +240,10 @@ e
 {
 }
 for
-each
 (
 let
 msgname
-in
+of
 PAYMENT_IPC_MSG_NAMES
 )
 {
@@ -1990,11 +1989,10 @@ shutdown
 )
 {
 for
-each
 (
 let
 msgname
-in
+of
 PAYMENT_IPC_MSG_NAMES
 )
 {

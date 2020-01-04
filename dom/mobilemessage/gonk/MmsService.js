@@ -7466,11 +7466,10 @@ receivers
 ]
 ;
 for
-each
 (
 let
 type
-in
+of
 [
 "
 cc

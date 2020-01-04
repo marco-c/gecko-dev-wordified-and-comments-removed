@@ -844,11 +844,10 @@ participantIdsIndex
 ]
 ;
 for
-each
 (
 let
 id
-in
+of
 participantIds
 )
 {

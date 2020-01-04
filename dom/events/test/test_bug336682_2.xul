@@ -439,11 +439,10 @@ aEvent
 }
 }
 for
-each
 (
 var
 event
-in
+of
 [
 "
 online

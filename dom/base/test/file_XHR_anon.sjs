@@ -114,11 +114,10 @@ Authorization
 ;
 }
 for
-each
 (
 let
 header
-in
+of
 invalidHeaders
 )
 {
