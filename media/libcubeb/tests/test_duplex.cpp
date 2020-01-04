@@ -314,7 +314,6 @@ cubeb_stream
 stream
 void
 *
-user
 cubeb_state
 state
 )
@@ -402,10 +401,8 @@ int
 main
 (
 int
-argc
 char
 *
-argv
 [
 ]
 )
