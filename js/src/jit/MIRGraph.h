@@ -385,6 +385,11 @@ info
 MBasicBlock
 *
 pred
+size_t
+predEdgeIdx
+MBasicBlock
+*
+succ
 )
 ;
 static
