@@ -35300,7 +35300,7 @@ count
 ;
 NSMutableArray
 *
-types
+declaredTypes
 =
 [
 NSMutableArray
@@ -35310,7 +35310,7 @@ typeCount
 ]
 ;
 [
-types
+declaredTypes
 addObjectsFromArray
 :
 [
@@ -35323,7 +35323,7 @@ allKeys
 pboard
 declareTypes
 :
-types
+declaredTypes
 owner
 :
 nil
@@ -35360,7 +35360,7 @@ NSString
 currentKey
 =
 [
-types
+declaredTypes
 objectAtIndex
 :
 i

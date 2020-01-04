@@ -2922,7 +2922,6 @@ imageRef
 =
 NULL
 ;
-nsresult
 rv
 =
 nsCocoaUtils

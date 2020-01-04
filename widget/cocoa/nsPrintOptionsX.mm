@@ -267,7 +267,6 @@ docTitles
 uint32_t
 titleCount
 ;
-nsresult
 rv
 =
 aWBP
