@@ -2980,6 +2980,15 @@ x86_shared
 ;
 inline
 void
+negateDouble
+(
+FloatRegister
+reg
+)
+PER_SHARED_ARCH
+;
+inline
+void
 lshiftPtr
 (
 Imm32
