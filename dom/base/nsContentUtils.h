@@ -2250,6 +2250,14 @@ aType
 ;
 static
 bool
+IsPreloadType
+(
+nsContentPolicyType
+aType
+)
+;
+static
+bool
 HasMutationListeners
 (
 nsINode
