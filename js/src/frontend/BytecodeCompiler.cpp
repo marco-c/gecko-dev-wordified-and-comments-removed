@@ -2781,6 +2781,7 @@ cx
 asJSContext
 (
 )
+module
 )
 ;
 if
@@ -2791,7 +2792,6 @@ builder
 buildAndInit
 (
 pn
-module
 )
 )
 return
