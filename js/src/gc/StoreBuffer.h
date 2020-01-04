@@ -121,7 +121,7 @@ LifoAllocBlockSize
 1
 <
 <
-13
+16
 ;
 class
 StoreBuffer
@@ -138,11 +138,17 @@ const
 size_t
 LowAvailableThreshold
 =
+(
 size_t
+)
 (
 LifoAllocBlockSize
+*
+1
+.
+0
 /
-2
+16
 .
 0
 )
