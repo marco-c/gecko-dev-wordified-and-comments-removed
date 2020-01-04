@@ -440,7 +440,7 @@ eCSSProperty_UNKNOWN
 bool
 mWinsInCascade
 =
-true
+false
 ;
 bool
 mIsRunningOnCompositor
