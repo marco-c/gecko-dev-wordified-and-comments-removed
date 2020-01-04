@@ -186,9 +186,9 @@ void
 )
 JS_SetSecurityCallbacks
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 const
 JSSecurityCallbacks
 *
@@ -204,9 +204,9 @@ JSSecurityCallbacks
 )
 JS_GetSecurityCallbacks
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 extern

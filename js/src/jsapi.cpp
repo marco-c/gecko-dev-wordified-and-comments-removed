@@ -16284,9 +16284,9 @@ void
 )
 JS_SetSecurityCallbacks
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 const
 JSSecurityCallbacks
 *
@@ -16302,7 +16302,7 @@ scb
 NullSecurityCallbacks
 )
 ;
-rt
+cx
 -
 >
 securityCallbacks
@@ -16323,14 +16323,14 @@ JSSecurityCallbacks
 )
 JS_GetSecurityCallbacks
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 {
 return
 (
-rt
+cx
 -
 >
 securityCallbacks
@@ -16340,7 +16340,7 @@ securityCallbacks
 NullSecurityCallbacks
 )
 ?
-rt
+cx
 -
 >
 securityCallbacks

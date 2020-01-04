@@ -3608,7 +3608,7 @@ ContentSecurityPolicyAllows
 ;
 JS_SetSecurityCallbacks
 (
-aRuntime
+workerCx
 &
 securityCallbacks
 )

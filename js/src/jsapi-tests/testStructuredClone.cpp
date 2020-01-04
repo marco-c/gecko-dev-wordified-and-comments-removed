@@ -679,7 +679,7 @@ testStructuredClone_SavedFrame
 {
 JS_SetSecurityCallbacks
 (
-rt
+cx
 &
 StructuredCloneTestPrincipals
 :
