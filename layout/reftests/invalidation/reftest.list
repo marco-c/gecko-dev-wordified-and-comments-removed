@@ -1435,6 +1435,14 @@ fuzzy
 -
 if
 (
+asyncPan
+2
+3955
+)
+fuzzy
+-
+if
+(
 OSX
 179
 1
