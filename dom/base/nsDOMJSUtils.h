@@ -80,15 +80,6 @@ return
 scx
 ;
 }
-JSObject
-*
-GetDefaultScopeFromJSContext
-(
-JSContext
-*
-cx
-)
-;
 nsresult
 NS_CreateJSArgv
 (
