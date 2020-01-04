@@ -12295,9 +12295,9 @@ eXULBroadcast
 ;
 _ASSIGN_eventName
 (
-NS_XUL_COMMAND_UPDATE
+eXULCommandUpdate
 "
-NS_XUL_COMMAND_UPDATE
+eXULCommandUpdate
 "
 )
 ;

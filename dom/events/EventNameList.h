@@ -1277,7 +1277,7 @@ eBasicEventClass
 NON_IDL_EVENT
 (
 commandupdate
-NS_XUL_COMMAND_UPDATE
+eXULCommandUpdate
 EventNameType_XUL
 eBasicEventClass
 )
