@@ -117,8 +117,6 @@ NodeInfo
 >
 &
 aNodeInfo
-bool
-aNsAware
 )
 ;
 #
@@ -134,9 +132,6 @@ RefPtr
 nsDOMAttributeMap
 >
 mAttrMap
-;
-bool
-mNsAware
 ;
 }
 ;

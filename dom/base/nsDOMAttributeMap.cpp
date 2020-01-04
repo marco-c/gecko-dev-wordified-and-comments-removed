@@ -664,7 +664,6 @@ forget
 EmptyString
 (
 )
-aNsAware
 )
 ;
 mAttributeCache

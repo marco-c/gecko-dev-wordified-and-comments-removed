@@ -121,8 +121,6 @@ const
 nsAString
 &
 aValue
-bool
-aNsAware
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS

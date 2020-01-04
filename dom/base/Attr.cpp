@@ -160,8 +160,6 @@ NodeInfo
 >
 &
 aNodeInfo
-bool
-aNsAware
 )
 :
 nsINode
@@ -171,10 +169,6 @@ aNodeInfo
 mAttrMap
 (
 aAttrMap
-)
-mNsAware
-(
-aNsAware
 )
 {
 }
@@ -224,15 +218,12 @@ const
 nsAString
 &
 aValue
-bool
-aNsAware
 )
 :
 nsIAttribute
 (
 aAttrMap
 aNodeInfo
-aNsAware
 )
 mValue
 (
@@ -1130,7 +1121,6 @@ forget
 (
 )
 value
-mNsAware
 )
 ;
 if
