@@ -344,7 +344,7 @@ return
 ;
 }
 }
-private
+public
 static
 void
 notifyDataPolicy
