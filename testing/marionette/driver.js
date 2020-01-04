@@ -637,7 +637,6 @@ GeckoDriver
 function
 (
 appName
-device
 stopSignal
 )
 {
@@ -967,11 +966,6 @@ Services
 appinfo
 .
 appBuildID
-"
-device
-"
-:
-device
 "
 processId
 "
