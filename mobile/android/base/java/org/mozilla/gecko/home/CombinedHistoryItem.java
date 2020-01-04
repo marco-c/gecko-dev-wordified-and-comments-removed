@@ -87,15 +87,6 @@ mozilla
 .
 gecko
 .
-RemoteTabsExpandableListAdapter
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 db
 .
 RemoteClient
@@ -628,7 +619,7 @@ lastModifiedView
 .
 setText
 (
-RemoteTabsExpandableListAdapter
+ClientsAdapter
 .
 getLastSyncedString
 (
