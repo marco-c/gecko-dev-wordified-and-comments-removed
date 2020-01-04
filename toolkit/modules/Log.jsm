@@ -1352,9 +1352,13 @@ get
 parent
 (
 )
+{
+return
 this
 .
 _parent
+;
+}
 set
 parent
 (

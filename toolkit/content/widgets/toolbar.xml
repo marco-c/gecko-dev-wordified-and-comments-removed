@@ -2781,11 +2781,15 @@ get
 active
 (
 )
+{
+return
 !
 !
 this
 .
 contextMenu
+;
+}
 init
 :
 function

@@ -27,6 +27,8 @@ percentEncode
 (
 aString
 )
+{
+return
 encodeURIComponent
 (
 aString
@@ -59,6 +61,7 @@ g
 "
 )
 ;
+}
 function
 httpRequest
 (
@@ -477,10 +480,9 @@ POSTData
 .
 map
 (
-function
-(
 p
-)
+=
+>
 p
 [
 0

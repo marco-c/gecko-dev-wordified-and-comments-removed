@@ -3830,10 +3830,9 @@ _prevMouseScrolls
 .
 every
 (
-function
-(
 prev
-)
+=
+>
 prev
 =
 =

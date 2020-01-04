@@ -5317,10 +5317,9 @@ true
 ;
 setTimeout
 (
-function
-(
 tab
-)
+=
+>
 tab
 .
 removeAttribute

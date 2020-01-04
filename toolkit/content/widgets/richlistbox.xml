@@ -3879,10 +3879,9 @@ XULNS
 label
 "
 )
-function
-(
 label
-)
+=
+>
 label
 .
 value

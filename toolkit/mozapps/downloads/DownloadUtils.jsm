@@ -875,11 +875,12 @@ gCachedLast
 .
 reduce
 (
-function
 (
 aResult
 aItem
 )
+=
+>
 aItem
 [
 0

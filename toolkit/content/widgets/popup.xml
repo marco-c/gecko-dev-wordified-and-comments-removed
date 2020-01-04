@@ -1835,10 +1835,13 @@ mouseDownCheck
 function
 (
 )
+{
+return
 this
 .
 _dragBindingAlive
 ;
+}
 }
 catch
 (

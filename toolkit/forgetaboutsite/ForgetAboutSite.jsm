@@ -1159,9 +1159,10 @@ null
 {
 handleCompletion
 :
-function
 (
 )
+=
+>
 onContentPrefsRemovalFinished
 (
 )

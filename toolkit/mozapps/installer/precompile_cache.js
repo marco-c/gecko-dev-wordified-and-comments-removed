@@ -230,10 +230,9 @@ ext
 .
 map
 (
-function
-(
 p
-)
+=
+>
 subpath
 +
 "

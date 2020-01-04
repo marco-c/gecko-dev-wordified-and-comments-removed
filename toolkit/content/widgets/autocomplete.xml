@@ -4612,10 +4612,9 @@ nsIClipboard
 kGlobalClipboard
 supportsCommand
 :
-function
-(
 aCommand
-)
+=
+>
 aCommand
 =
 =

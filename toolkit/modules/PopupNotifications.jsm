@@ -767,10 +767,9 @@ notifications
 .
 some
 (
-function
-(
 x
-)
+=
+>
 x
 .
 id
