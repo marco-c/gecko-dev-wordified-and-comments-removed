@@ -2144,6 +2144,11 @@ lastModified
 siteURI
 :
 siteURI
+guid
+:
+aData
+.
+guid
 }
 )
 .
@@ -2231,6 +2236,9 @@ aData
 .
 title
 aIndex
+aData
+.
+guid
 )
 ;
 folderIdMap
@@ -2371,6 +2379,9 @@ aIndex
 aData
 .
 title
+aData
+.
+guid
 )
 ;
 if
@@ -2819,6 +2830,9 @@ insertSeparator
 (
 aContainer
 aIndex
+aData
+.
+guid
 )
 ;
 break
