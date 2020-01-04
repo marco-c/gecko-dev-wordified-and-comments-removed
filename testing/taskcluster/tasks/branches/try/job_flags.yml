@@ -142,7 +142,7 @@ tasks
 /
 builds
 /
-opt_linux32_clobber
+opt_linux32
 .
 yml
 debug
@@ -153,7 +153,7 @@ tasks
 /
 builds
 /
-dbg_linux32_clobber
+dbg_linux32
 .
 yml
 linux64
@@ -172,7 +172,7 @@ tasks
 /
 builds
 /
-opt_linux64_clobber
+opt_linux64
 .
 yml
 debug
@@ -183,7 +183,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 linux64
@@ -210,7 +210,7 @@ builds
 /
 opt_linux64_st
 -
-an_clobber
+an
 .
 yml
 linux64
@@ -273,7 +273,7 @@ tasks
 /
 builds
 /
-opt_macosx64_clobber
+opt_macosx64
 .
 yml
 debug
@@ -284,7 +284,7 @@ tasks
 /
 builds
 /
-dbg_macosx64_clobber
+dbg_macosx64
 .
 yml
 macosx64
@@ -311,7 +311,7 @@ builds
 /
 opt_macosx64_st
 -
-an_clobber
+an
 .
 yml
 sm
@@ -554,7 +554,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -575,7 +575,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -598,7 +598,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -623,7 +623,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -650,7 +650,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -671,7 +671,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -692,7 +692,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -713,7 +713,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -736,7 +736,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -774,7 +774,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -797,7 +797,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -852,7 +852,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -875,7 +875,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -898,7 +898,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -923,7 +923,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -950,7 +950,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -973,7 +973,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -998,7 +998,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -1021,7 +1021,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -1044,7 +1044,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -1069,7 +1069,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -1092,7 +1092,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -1147,7 +1147,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -1170,7 +1170,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -1195,7 +1195,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -1222,7 +1222,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -1249,7 +1249,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -1278,7 +1278,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
@@ -1299,7 +1299,7 @@ tasks
 /
 builds
 /
-dbg_linux64_clobber
+dbg_linux64
 .
 yml
 :
