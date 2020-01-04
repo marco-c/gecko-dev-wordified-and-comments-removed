@@ -124,7 +124,7 @@ TimeUnit
 :
 FromMicroseconds
 (
-125000
+500000
 )
 ;
 RefPtr
