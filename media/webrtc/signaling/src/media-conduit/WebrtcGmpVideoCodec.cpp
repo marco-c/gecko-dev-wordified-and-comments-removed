@@ -29,6 +29,15 @@ include
 "
 mozilla
 /
+Scoped
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SyncRunnable
 .
 h

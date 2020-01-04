@@ -668,10 +668,8 @@ char
 transport
 )
 {
-UniquePtr
-<
 NrIceStunServer
->
+*
 server
 (
 NrIceStunServer
@@ -700,6 +698,9 @@ addStunServer
 *
 server
 )
+;
+delete
+server
 ;
 return
 true
@@ -759,10 +760,8 @@ end
 )
 )
 ;
-UniquePtr
-<
 NrIceTurnServer
->
+*
 server
 (
 NrIceTurnServer
@@ -793,6 +792,9 @@ addTurnServer
 *
 server
 )
+;
+delete
+server
 ;
 return
 true
