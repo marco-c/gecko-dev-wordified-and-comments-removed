@@ -6510,6 +6510,9 @@ GetTopLevelDocAccessible
 )
 const
 {
+#
+ifdef
+ACCESSIBILITY
 const
 nsTArray
 <
@@ -6582,6 +6585,8 @@ doc
 ;
 }
 }
+#
+endif
 return
 nullptr
 ;
