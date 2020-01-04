@@ -20,7 +20,7 @@ setPermissions
 {
 if
 (
-__marionetteParams
+__webDriverArguments
 .
 length
 <
@@ -33,7 +33,7 @@ return
 let
 serverAddr
 =
-__marionetteParams
+__webDriverArguments
 [
 0
 ]
@@ -41,7 +41,7 @@ __marionetteParams
 let
 serverPort
 =
-__marionetteParams
+__webDriverArguments
 [
 1
 ]

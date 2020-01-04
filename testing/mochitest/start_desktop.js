@@ -1,14 +1,14 @@
 const
 flavor
 =
-__marionetteParams
+__webDriverArguments
 [
 0
 ]
 const
 url
 =
-__marionetteParams
+__webDriverArguments
 [
 1
 ]
