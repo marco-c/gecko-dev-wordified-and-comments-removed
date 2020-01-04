@@ -118,6 +118,13 @@ event
 request
 .
 credentials
+integrity
+:
+event
+.
+request
+.
+integrity
 }
 )
 ;
