@@ -662,10 +662,10 @@ nullptr
 )
 mVisibleRegion
 (
-aLayer
+mLayer
 -
 >
-GetVisibleRegion
+GetEffectiveVisibleRegion
 (
 )
 .
