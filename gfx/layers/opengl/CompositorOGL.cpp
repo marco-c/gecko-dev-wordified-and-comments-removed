@@ -3080,10 +3080,6 @@ EndFrame
 "
 )
 ;
-mFrameInProgress
-=
-true
-;
 gfx
 :
 :
@@ -3176,6 +3172,10 @@ height
 0
 )
 return
+;
+mFrameInProgress
+=
+true
 ;
 if
 (
