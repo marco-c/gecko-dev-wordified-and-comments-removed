@@ -4993,6 +4993,7 @@ isDestroyed
 )
 {
 return
+null
 ;
 }
 this
@@ -8311,7 +8312,7 @@ toolbox
 )
 {
 let
-sheet
+url
 =
 source
 |
@@ -8326,7 +8327,7 @@ getCurrentPanel
 .
 selectStyleSheet
 (
-sheet
+url
 line
 column
 )

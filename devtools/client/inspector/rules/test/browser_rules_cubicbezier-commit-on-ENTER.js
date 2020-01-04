@@ -363,9 +363,9 @@ defaultView
 yield
 onRuleViewChanged
 ;
-is
-(
-(
+let
+style
+=
 yield
 getComputedStyleProperty
 (
@@ -381,7 +381,10 @@ timing
 function
 "
 )
-)
+;
+is
+(
+style
 expected
 "
 The
@@ -398,8 +401,9 @@ RETURN
 "
 )
 ;
-ok
-(
+let
+ruleViewStyle
+=
 getRuleViewProperty
 (
 ruleView
@@ -429,6 +433,10 @@ bezier
 =
 -
 1
+;
+ok
+(
+ruleViewStyle
 "
 The
 text

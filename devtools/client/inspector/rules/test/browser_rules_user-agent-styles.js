@@ -589,6 +589,8 @@ some
 rule
 =
 >
+{
+return
 rule
 .
 matchedSelectors
@@ -610,6 +612,8 @@ link
 =
 -
 1
+;
+}
 )
 "
 There
@@ -636,6 +640,8 @@ some
 rule
 =
 >
+{
+return
 rule
 .
 matchedSelectors
@@ -655,6 +661,8 @@ link
 =
 -
 1
+;
+}
 )
 "
 There
@@ -679,6 +687,8 @@ some
 rule
 =
 >
+{
+return
 rule
 .
 matchedSelectors
@@ -688,6 +698,8 @@ length
 =
 =
 1
+;
+}
 )
 "
 Inline
