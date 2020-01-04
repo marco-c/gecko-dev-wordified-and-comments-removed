@@ -236,7 +236,9 @@ win64
 /
 mozconfig
 .
-vs2015
+vs
+-
+latest
 #
 Enable
 Adobe

@@ -63,7 +63,9 @@ win64
 /
 mozconfig
 .
-vs2013
+vs
+-
+latest
 ac_add_options
 -
 -

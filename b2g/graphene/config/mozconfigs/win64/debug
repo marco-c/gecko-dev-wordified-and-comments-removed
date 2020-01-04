@@ -199,7 +199,9 @@ win64
 /
 mozconfig
 .
-vs2013
+vs
+-
+latest
 .
 "
 topsrcdir

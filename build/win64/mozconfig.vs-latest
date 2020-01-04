@@ -1,0 +1,10 @@
+.
+topsrcdir
+/
+build
+/
+win64
+/
+mozconfig
+.
+vs2015

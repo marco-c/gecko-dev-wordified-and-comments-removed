@@ -60,9 +60,9 @@ win32
 /
 mozconfig
 .
-vs2013
+vs
 -
-win64
+latest
 #
 Treat
 warnings
