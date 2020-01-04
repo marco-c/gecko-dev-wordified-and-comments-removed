@@ -1235,13 +1235,6 @@ heapUsage
 )
 ;
 }
-enum
-ModuleKind
-{
-Wasm
-AsmJS
-}
-;
 struct
 ModuleCacheablePod
 {

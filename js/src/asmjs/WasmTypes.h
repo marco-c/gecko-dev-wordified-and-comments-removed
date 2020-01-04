@@ -111,6 +111,13 @@ mozilla
 MallocSizeOf
 ;
 enum
+ModuleKind
+{
+Wasm
+AsmJS
+}
+;
+enum
 class
 ValType
 {
