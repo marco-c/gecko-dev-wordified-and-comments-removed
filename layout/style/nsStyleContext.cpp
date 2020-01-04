@@ -4254,7 +4254,10 @@ aEqualStructs
 nsChangeHint
 hint
 =
-NS_STYLE_HINT_NONE
+nsChangeHint
+(
+0
+)
 ;
 NS_ENSURE_TRUE
 (

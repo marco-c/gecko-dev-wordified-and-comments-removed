@@ -1048,7 +1048,10 @@ nsRestyleHint
 ;
 mChangeHint
 =
-NS_STYLE_HINT_NONE
+nsChangeHint
+(
+0
+)
 ;
 }
 RestyleData
