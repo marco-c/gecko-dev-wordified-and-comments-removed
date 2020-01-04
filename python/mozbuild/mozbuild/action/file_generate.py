@@ -193,11 +193,12 @@ metavar
 '
 arg
 '
+                        
 nargs
 =
-'
-*
-'
+argparse
+.
+REMAINDER
                         
 help
 =
