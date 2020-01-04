@@ -104,7 +104,7 @@ return
 1
 ;
 }
-uint32_t
+int32_t
 looptime
 =
 0
@@ -599,7 +599,7 @@ GetCurrentImgFrameEndTime
 (
 )
 ;
-uint32_t
+int32_t
 loopTime
 =
 GetSingleLoopTime
@@ -613,6 +613,11 @@ loopTime
 0
 )
 {
+MOZ_ASSERT
+(
+mDoneDecoding
+)
+;
 TimeDuration
 delay
 =
