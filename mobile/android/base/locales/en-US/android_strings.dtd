@@ -5749,13 +5749,12 @@ devices
 <
 !
 ENTITY
-home_history_back_to
+home_history_back_to2
 "
-Go
-back
+Back
 to
-all
-history
+full
+History
 "
 >
 <
