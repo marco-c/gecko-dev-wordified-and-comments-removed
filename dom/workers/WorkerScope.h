@@ -87,6 +87,9 @@ ServiceWorkerRegistrationWorkerThread
 class
 WorkerLocation
 ;
+class
+WorkerNavigator
+;
 namespace
 cache
 {
@@ -102,9 +105,6 @@ ServiceWorkerClients
 ;
 class
 WorkerPrivate
-;
-class
-WorkerNavigator
 ;
 class
 Performance
