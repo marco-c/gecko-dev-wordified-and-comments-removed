@@ -3043,12 +3043,6 @@ grant_runtime_permissions
 grant_runtime_permissions
 (
 self
-kwargs
-[
-'
-app
-'
-]
 )
             
 run_mochitest
@@ -3568,12 +3562,6 @@ grant_runtime_permissions
 grant_runtime_permissions
 (
 self
-kwargs
-[
-'
-app
-'
-]
 )
         
 mochitest
