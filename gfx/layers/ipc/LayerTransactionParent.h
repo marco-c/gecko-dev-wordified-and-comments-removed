@@ -600,7 +600,7 @@ override
 ;
 virtual
 bool
-RecvGetOpacity
+RecvGetAnimationOpacity
 (
 PLayerParent
 *
@@ -608,6 +608,9 @@ aParent
 float
 *
 aOpacity
+bool
+*
+aHasAnimationOpacity
 )
 override
 ;

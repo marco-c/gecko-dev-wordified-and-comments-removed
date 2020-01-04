@@ -3160,6 +3160,14 @@ get_float
 )
 )
 ;
+layerComposite
+-
+>
+SetShadowOpacitySetByAnimation
+(
+true
+)
+;
 break
 ;
 }
