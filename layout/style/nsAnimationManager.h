@@ -764,9 +764,8 @@ NS_DECL_CYCLE_COLLECTION_NATIVE_CLASS
 (
 nsAnimationManager
 )
-nsIStyleRule
-*
-CheckAnimationRule
+void
+UpdateAnimations
 (
 nsStyleContext
 *
