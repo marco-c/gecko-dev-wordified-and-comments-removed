@@ -127,7 +127,7 @@ drawable
 "
 drawable
 /
-tablet_tab_close_active
+tab_close_active
 "
 /
 >
@@ -147,7 +147,7 @@ drawable
 "
 drawable
 /
-tablet_tab_close_active
+tab_close_active
 "
 /
 >
@@ -169,7 +169,7 @@ drawable
 "
 drawable
 /
-tablet_tab_close
+tab_close
 "
 /
 >
