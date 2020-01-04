@@ -136,6 +136,12 @@ chunk
 }
 env
 :
+NEED_WINDOW_MANAGER
+:
+true
+NEED_PULSEAUDIO
+:
+true
 GECKO_HEAD_REPOSITORY
 :
 '
