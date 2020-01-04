@@ -2313,6 +2313,7 @@ let
 [
 href
 node
+principal
 ]
 =
 this
@@ -2443,11 +2444,7 @@ BrowserUtils
 urlSecurityCheck
 (
 href
-node
-.
-ownerDocument
-.
-nodePrincipal
+principal
 )
 ;
 }
@@ -3027,6 +3024,11 @@ node
 .
 href
 node
+node
+.
+ownerDocument
+.
+nodePrincipal
 ]
 ;
 let
@@ -3100,6 +3102,8 @@ ownerDocument
 .
 baseURIObject
 ;
+break
+;
 }
 node
 =
@@ -3125,6 +3129,14 @@ spec
 :
 null
 null
+node
+&
+&
+node
+.
+ownerDocument
+.
+nodePrincipal
 ]
 ;
 }
