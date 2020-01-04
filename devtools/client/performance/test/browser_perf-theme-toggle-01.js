@@ -20,8 +20,7 @@ const
 LIGHT_BG
 =
 "
-#
-fcfcfc
+white
 "
 ;
 const
