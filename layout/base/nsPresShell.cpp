@@ -24959,7 +24959,7 @@ Unused
 nsLayoutUtils
 :
 :
-GetDisplayPort
+GetDisplayPortForVisibilityTesting
 (
 content
 &
