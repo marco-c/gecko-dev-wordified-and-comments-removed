@@ -538,7 +538,7 @@ skin
 /
 toolbar
 -
-win8
+win10
 .
 png
 os
@@ -572,7 +572,7 @@ skin
 /
 toolbar
 -
-win8
+win10
 .
 png
 os
@@ -711,7 +711,7 @@ skin
 /
 toolbar
 -
-win8
+win10
 2x
 .
 png
@@ -747,7 +747,7 @@ skin
 /
 toolbar
 -
-win8
+win10
 2x
 .
 png
