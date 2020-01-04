@@ -7721,15 +7721,6 @@ Browsing
 <
 !
 ENTITY
-restrictable_feature_location_services
-"
-Location
-Services
-"
->
-<
-!
-ENTITY
 restrictable_feature_clear_history
 "
 Clear
