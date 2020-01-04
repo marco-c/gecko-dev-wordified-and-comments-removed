@@ -226,6 +226,9 @@ attribute
 nsIStackFrame
 asyncCaller
 ;
+[
+implicit_jscontext
+]
 readonly
 attribute
 nsIStackFrame
@@ -270,6 +273,9 @@ language
 stack
 frames
 .
+[
+implicit_jscontext
+]
 readonly
 attribute
 AString
