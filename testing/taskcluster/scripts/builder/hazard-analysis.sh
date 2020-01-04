@@ -736,6 +736,9 @@ unnecessary
 .
 txt
 )
+set
++
+x
 echo
 "
 TinderboxPrint
@@ -776,6 +779,9 @@ br
 >
 NUM_UNSAFE
 "
+set
+-
+x
 if
 [
 NUM_HAZARDS
