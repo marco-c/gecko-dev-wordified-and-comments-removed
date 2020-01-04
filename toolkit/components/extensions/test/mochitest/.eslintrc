@@ -54,11 +54,6 @@ waitForLoad
 :
 true
 "
-promiseConsoleOutput
-"
-:
-true
-"
 ExtensionTestUtils
 "
 :
