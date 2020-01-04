@@ -281,6 +281,31 @@ logging
 CRITICAL
 )
         
+java_home
+=
+os
+.
+path
+.
+dirname
+(
+os
+.
+path
+.
+dirname
+(
+self
+.
+substs
+[
+'
+JAVA
+'
+]
+)
+)
+        
 return
 self
 .
@@ -302,6 +327,7 @@ args
 append_env
 =
 {
+                
 '
 GRADLE_OPTS
 '
@@ -316,6 +342,13 @@ utf
 -
 8
 '
+                
+'
+JAVA_HOME
+'
+:
+java_home
+            
 }
             
 pass_thru
