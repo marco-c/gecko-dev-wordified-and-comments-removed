@@ -6549,6 +6549,11 @@ WINDOWS_UBR_KEY_PATH
 "
 UBR
 "
+Ci
+.
+nsIWindowsRegKey
+.
+WOW64_64
 )
 ;
 data
