@@ -35037,7 +35037,7 @@ IonBuilder
 jsop_newarray
 (
 uint32_t
-length
+count
 )
 {
 JSObject
@@ -35146,7 +35146,7 @@ alloc
 constraints
 (
 )
-length
+count
 templateConst
 heap
 pc

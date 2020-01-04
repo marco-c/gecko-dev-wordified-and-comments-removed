@@ -22296,7 +22296,7 @@ toNewArray
 )
 -
 >
-length
+count
 (
 )
 ;
@@ -22558,7 +22558,7 @@ CompilerConstraintList
 *
 constraints
 uint32_t
-length
+count
 MConstant
 *
 templateConst
@@ -22576,9 +22576,9 @@ MUnaryInstruction
 (
 templateConst
 )
-length_
+count_
 (
-length
+count
 )
 initialHeap_
 (
@@ -22701,7 +22701,7 @@ capacity
 )
 >
 =
-length
+count
 (
 )
 )
@@ -22727,7 +22727,7 @@ hasInlineElements
 }
 MOZ_ASSERT
 (
-length
+count
 (
 )
 <
@@ -22765,7 +22765,7 @@ ObjectElements
 VALUES_PER_HEADER
 ;
 return
-length
+count
 (
 )
 >

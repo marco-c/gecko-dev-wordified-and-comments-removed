@@ -6005,7 +6005,7 @@ writer
 .
 writeUnsigned
 (
-length
+count
 (
 )
 )
