@@ -2986,6 +2986,10 @@ mCompositor
 nullptr
 ;
 }
+mWidgetProxy
+=
+nullptr
+;
 }
 bool
 CompositorBridgeParent
