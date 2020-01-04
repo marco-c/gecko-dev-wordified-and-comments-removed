@@ -27399,10 +27399,10 @@ callee
 (
 )
 .
-dynamic
+dynamicPtr
 (
 )
-ABINonArgReg0
+WasmTableCallPtrReg
 )
 ;
 }

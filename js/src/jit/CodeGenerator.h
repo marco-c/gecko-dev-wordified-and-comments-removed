@@ -302,8 +302,10 @@ generate
 ;
 MOZ_MUST_USE
 bool
-generateAsmJS
+generateWasm
 (
+uint32_t
+sigIndex
 wasm
 :
 :
