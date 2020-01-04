@@ -3564,7 +3564,7 @@ savedFrame
 MutableHandleString
 asyncCausep
 SavedFrameSelfHosted
-selfHosted
+unused_
 )
 {
 AutoMaybeEnterFrameCompartment
@@ -3588,7 +3588,10 @@ UnwrapSavedFrame
 (
 cx
 savedFrame
-selfHosted
+SavedFrameSelfHosted
+:
+:
+Include
 skippedAsync
 )
 )
