@@ -411,7 +411,7 @@ equal
 (
 deviceInfo
 .
-host
+address
 '
 127
 .
@@ -424,7 +424,7 @@ host
 '
 expected
 device
-host
+address
 '
 )
 ;
@@ -764,7 +764,7 @@ id
 '
 presentatorID
 '
-host
+address
 :
 '
 127

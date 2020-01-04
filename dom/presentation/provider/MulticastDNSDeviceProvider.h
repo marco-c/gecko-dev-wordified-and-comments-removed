@@ -189,7 +189,7 @@ aType
 const
 nsACString
 &
-aHost
+aAddress
 const
 uint16_t
 aPort
@@ -212,9 +212,9 @@ mType
 (
 aType
 )
-mHost
+mAddress
 (
-aHost
+aAddress
 )
 mPort
 (
@@ -245,13 +245,13 @@ mId
 const
 nsCString
 &
-Host
+Address
 (
 )
 const
 {
 return
-mHost
+mAddress
 ;
 }
 const
@@ -302,7 +302,7 @@ aType
 const
 nsACString
 &
-aHost
+aAddress
 const
 uint16_t
 aPort
@@ -316,9 +316,9 @@ mType
 =
 aType
 ;
-mHost
+mAddress
 =
-aHost
+aAddress
 ;
 mPort
 =
@@ -345,7 +345,7 @@ nsCString
 mType
 ;
 nsCString
-mHost
+mAddress
 ;
 uint16_t
 mPort
@@ -402,7 +402,7 @@ Id
 }
 ;
 struct
-DeviceHostComparator
+DeviceAddressComparator
 {
 bool
 Equals
@@ -428,7 +428,7 @@ return
 aA
 -
 >
-Host
+Address
 (
 )
 =
@@ -436,7 +436,7 @@ Host
 aB
 -
 >
-Host
+Address
 (
 )
 ;
@@ -494,6 +494,10 @@ AddDevice
 const
 nsACString
 &
+aId
+const
+nsACString
+&
 aServiceName
 const
 nsACString
@@ -502,7 +506,7 @@ aServiceType
 const
 nsACString
 &
-aHost
+aAddress
 const
 uint16_t
 aPort
@@ -525,7 +529,7 @@ aServiceType
 const
 nsACString
 &
-aHost
+aAddress
 const
 uint16_t
 aPort
@@ -552,12 +556,12 @@ aIndex
 )
 ;
 bool
-FindDeviceByHost
+FindDeviceByAddress
 (
 const
 nsACString
 &
-aHost
+aAddress
 uint32_t
 &
 aIndex
