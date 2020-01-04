@@ -3272,10 +3272,6 @@ VisibleRegionsContainer
 >
 mVisibleRegions
 ;
-friend
-struct
-AutoUpdateVisibility
-;
 void
 HandleKeyboardEvent
 (
