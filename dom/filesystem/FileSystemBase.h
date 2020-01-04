@@ -158,9 +158,10 @@ GetRealPath
 BlobImpl
 *
 aFile
-nsAString
-&
-aRealPath
+nsIFile
+*
+*
+aPath
 )
 const
 ;
