@@ -592,15 +592,6 @@ tabs_position_index
 ;
 static
 final
-String
-INDEX_CLIENTS_GUID
-=
-"
-clients_guid_index
-"
-;
-static
-final
 UriMatcher
 URI_MATCHER
 =
