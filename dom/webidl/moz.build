@@ -145,6 +145,11 @@ AbstractWorker
 webidl
 '
 '
+ActivityRequestHandler
+.
+webidl
+'
+'
 AddonManager
 .
 webidl
@@ -930,6 +935,11 @@ GetUserMediaRequest
 webidl
 '
 '
+Grid
+.
+webidl
+'
+'
 HDMIInputPort
 .
 webidl
@@ -1485,6 +1495,11 @@ KeyframeEffect
 webidl
 '
 '
+KillSwitch
+.
+webidl
+'
+'
 LegacyQueryInterface
 .
 webidl
@@ -1641,6 +1656,11 @@ webidl
 '
 '
 MouseScrollEvent
+.
+webidl
+'
+'
+MozActivity
 .
 webidl
 '

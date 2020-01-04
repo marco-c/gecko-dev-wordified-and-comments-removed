@@ -214,6 +214,9 @@ base
 bluetooth
 '
 '
+activities
+'
+'
 archivereader
 '
 '
@@ -279,6 +282,9 @@ gamepad
 geolocation
 '
 '
+grid
+'
+'
 html
 '
 '
@@ -301,6 +307,9 @@ mathml
 '
 '
 media
+'
+'
+messages
 '
 '
 mobileconnection
