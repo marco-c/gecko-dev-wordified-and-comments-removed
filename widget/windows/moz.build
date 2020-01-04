@@ -135,6 +135,11 @@ AudioSession
 h
 '
 '
+WinCompositorWidgetProxy
+.
+h
+'
+'
 WinMessages
 .
 h
