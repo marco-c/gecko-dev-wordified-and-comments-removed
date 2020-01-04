@@ -1630,13 +1630,6 @@ len
 )
 )
 {
-aResource
--
->
-AddRef
-(
-)
-;
 return
 decoder
 .
