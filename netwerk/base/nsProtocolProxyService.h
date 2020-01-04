@@ -745,9 +745,6 @@ mFailedProxies
 int32_t
 mFailedProxyTimeout
 ;
-bool
-mFailoverToDirect
-;
 private
 :
 nsresult
