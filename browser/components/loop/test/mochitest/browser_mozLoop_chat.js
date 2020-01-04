@@ -69,7 +69,14 @@ src
 }
 add_task
 (
-loadLoopPanel
+MozLoopService
+.
+initialize
+.
+bind
+(
+MozLoopService
+)
 )
 ;
 add_task
@@ -192,7 +199,7 @@ promiseWaitForCondition
 =
 >
 {
-gMozLoopAPI
+MozLoopService
 .
 hangupAllChatWindows
 (

@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+const
+{
+LoopAPI
+}
+=
 Cu
 .
 import
@@ -21,6 +26,8 @@ MozLoopAPI
 .
 jsm
 "
+{
+}
 )
 ;
 const
@@ -157,9 +164,8 @@ ignored
 ;
 LoopAPI
 .
-stub
+restore
 (
-pageListeners
 )
 ;
 run_next_test
