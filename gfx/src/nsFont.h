@@ -172,9 +172,6 @@ uint16_t
 variantAlternates
 ;
 uint8_t
-decorations
-;
-uint8_t
 smoothing
 ;
 uint16_t
@@ -297,7 +294,14 @@ nsFont
 aOther
 )
 const
+{
+return
+BaseEquals
+(
+aOther
+)
 ;
+}
 bool
 BaseEquals
 (
