@@ -7766,7 +7766,7 @@ script
 HandleScope
 enclosingScope
 HandleScript
-sourceObjectScript
+enclosingScript
 uint64_t
 packedData
 uint32_t
