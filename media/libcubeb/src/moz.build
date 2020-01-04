@@ -321,6 +321,14 @@ USE_WASAPI
 ]
 =
 True
+if
+CONFIG
+[
+'
+_MSC_VER
+'
+]
+:
 CXXFLAGS
 +
 =
