@@ -84,6 +84,9 @@ BLOCK_LIST
 Restrictable
 .
 DATA_CHOICES
+Restrictable
+.
+DEFAULT_THEME
 )
 ;
 SuppressWarnings

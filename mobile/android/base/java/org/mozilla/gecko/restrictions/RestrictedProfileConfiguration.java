@@ -256,6 +256,16 @@ HEALTH_REPORT
 true
 )
 ;
+configuration
+.
+put
+(
+Restrictable
+.
+DEFAULT_THEME
+true
+)
+;
 }
 private
 static
@@ -278,6 +288,9 @@ GUEST_BROWSING
 Restrictable
 .
 DATA_CHOICES
+Restrictable
+.
+DEFAULT_THEME
 )
 ;
 static

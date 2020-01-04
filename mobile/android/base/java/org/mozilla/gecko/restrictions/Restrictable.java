@@ -289,6 +289,15 @@ string
 .
 datareporting_fhr_summary2
 )
+DEFAULT_THEME
+(
+22
+"
+default_theme
+"
+0
+0
+)
 ;
 public
 final
