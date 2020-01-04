@@ -74,7 +74,9 @@ call
 )
 ;
 const
-stubConsoleMessages
+{
+stubPreparedMessages
+}
 =
 require
 (
@@ -150,7 +152,7 @@ grips
 const
 message
 =
-stubConsoleMessages
+stubPreparedMessages
 .
 get
 (
@@ -257,7 +259,7 @@ node
 const
 message
 =
-stubConsoleMessages
+stubPreparedMessages
 .
 get
 (
@@ -352,7 +354,7 @@ renders
 const
 message
 =
-stubConsoleMessages
+stubPreparedMessages
 .
 get
 (
@@ -436,7 +438,7 @@ anything
 const
 message
 =
-stubConsoleMessages
+stubPreparedMessages
 .
 get
 (
@@ -518,7 +520,7 @@ expected
 const
 message
 =
-stubConsoleMessages
+stubPreparedMessages
 .
 get
 (

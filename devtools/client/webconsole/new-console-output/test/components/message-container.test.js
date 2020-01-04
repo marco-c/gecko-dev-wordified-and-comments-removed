@@ -167,7 +167,9 @@ error
 )
 ;
 const
-stubConsoleMessages
+{
+stubPreparedMessages
+}
 =
 require
 (
@@ -234,7 +236,7 @@ expected
 const
 message
 =
-stubConsoleMessages
+stubPreparedMessages
 .
 get
 (
@@ -310,7 +312,7 @@ component
 ConsoleApiCall
 message
 :
-stubConsoleMessages
+stubPreparedMessages
 .
 get
 (
@@ -335,7 +337,7 @@ component
 EvaluationResult
 message
 :
-stubConsoleMessages
+stubPreparedMessages
 .
 get
 (
@@ -354,7 +356,7 @@ component
 PageError
 message
 :
-stubConsoleMessages
+stubPreparedMessages
 .
 get
 (

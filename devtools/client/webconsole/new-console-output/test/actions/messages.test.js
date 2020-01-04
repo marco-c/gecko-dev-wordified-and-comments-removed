@@ -30,7 +30,9 @@ messages
 )
 ;
 const
-stubConsoleMessages
+{
+stubPreparedMessages
+}
 =
 require
 (
@@ -346,7 +348,7 @@ constants
 MESSAGE_ADD
 message
 :
-stubConsoleMessages
+stubPreparedMessages
 .
 get
 (
