@@ -1829,7 +1829,7 @@ p2p0
 )
 )
 {
-snprintf_literal
+SprintfLiteral
 (
 command
 "
@@ -1842,7 +1842,7 @@ cmd
 }
 else
 {
-snprintf_literal
+SprintfLiteral
 (
 command
 "

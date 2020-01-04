@@ -464,7 +464,7 @@ string
 32
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 string
 "

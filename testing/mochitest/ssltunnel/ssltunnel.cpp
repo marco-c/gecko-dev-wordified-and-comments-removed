@@ -2504,7 +2504,7 @@ newhost
 7
 )
 ;
-snprintf_literal
+SprintfLiteral
 (
 newhost
 "

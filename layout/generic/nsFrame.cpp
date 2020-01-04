@@ -29804,7 +29804,7 @@ buf
 40
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "

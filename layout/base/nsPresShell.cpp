@@ -4779,7 +4779,7 @@ aLogType
 case
 eLog_reflow
 :
-snprintf_literal
+SprintfLiteral
 (
 prefix
 "
@@ -4808,7 +4808,7 @@ break
 case
 eLog_loaddone
 :
-snprintf_literal
+SprintfLiteral
 (
 prefix
 "
@@ -4850,7 +4850,7 @@ type
 "
 )
 ;
-snprintf_literal
+SprintfLiteral
 (
 prefix
 "
@@ -14060,7 +14060,7 @@ IsTransformed
 f
 -
 >
-IsAbsPosContainingBlock
+IsAbsPosContaininingBlock
 (
 )
 )
@@ -48399,7 +48399,7 @@ key
 KEY_BUF_SIZE_FOR_PTR
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 key
 "
@@ -48560,7 +48560,7 @@ key
 KEY_BUF_SIZE_FOR_PTR
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 key
 "
@@ -48748,7 +48748,7 @@ buf
 int
 len
 =
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -49446,7 +49446,7 @@ key
 KEY_BUF_SIZE_FOR_PTR
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 key
 "

@@ -805,7 +805,7 @@ buffer
 bufferSize
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buffer
 "

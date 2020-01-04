@@ -5370,7 +5370,7 @@ buf
 256
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "

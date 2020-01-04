@@ -1060,7 +1060,7 @@ buf
 100
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "

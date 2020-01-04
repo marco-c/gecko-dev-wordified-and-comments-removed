@@ -8984,7 +8984,7 @@ uri
 )
 ;
 }
-snprintf_literal
+SprintfLiteral
 (
 name
 "

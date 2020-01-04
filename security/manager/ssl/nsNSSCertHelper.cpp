@@ -2617,7 +2617,7 @@ i
 +
 )
 {
-snprintf_literal
+SprintfLiteral
 (
 buffer
 "
@@ -4238,7 +4238,7 @@ guid
 .
 data
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -5650,7 +5650,7 @@ number
 SECSuccess
 )
 {
-snprintf_literal
+SprintfLiteral
 (
 buffer
 "
@@ -7101,7 +7101,7 @@ buf
 ;
 if
 (
-snprintf_literal
+SprintfLiteral
 (
 buf
 "

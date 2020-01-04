@@ -12930,7 +12930,7 @@ small
 "
 )
 ;
-snprintf_literal
+SprintfLiteral
 (
 index
 "
@@ -12962,7 +12962,7 @@ small
 "
 )
 ;
-snprintf_literal
+SprintfLiteral
 (
 badCharArray
 "

@@ -560,7 +560,7 @@ NSID_LENGTH
 )
 const
 {
-snprintf_literal
+SprintfLiteral
 (
 aDest
 gIDFormat

@@ -8104,7 +8104,7 @@ kNSURIs
 )
 )
 {
-snprintf_literal
+SprintfLiteral
 (
 name
 "
@@ -8135,7 +8135,7 @@ get
 }
 else
 {
-snprintf_literal
+SprintfLiteral
 (
 name
 "
@@ -13442,7 +13442,7 @@ formatedTime
 ;
 if
 (
-snprintf_literal
+SprintfLiteral
 (
 formatedTime
 "

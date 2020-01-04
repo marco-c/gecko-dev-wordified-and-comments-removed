@@ -6050,7 +6050,7 @@ get
 }
 else
 {
-snprintf_literal
+SprintfLiteral
 (
 weightKeywordBuf
 "

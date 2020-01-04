@@ -329,7 +329,7 @@ break
 case
 NODEREF
 :
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -359,7 +359,7 @@ break
 case
 DEREF
 :
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -392,7 +392,7 @@ break
 case
 PFXEXPR
 :
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -459,7 +459,7 @@ buf
 96
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -1678,7 +1678,7 @@ buf
 150
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -2822,7 +2822,7 @@ buf
 100
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -3810,7 +3810,7 @@ buf
 ]
 ;
 \
-snprintf_literal
+SprintfLiteral
 (
 buf
 \
@@ -4040,7 +4040,7 @@ buf
 200
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -4171,7 +4171,7 @@ buf
 200
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -4338,7 +4338,7 @@ aRXavma
 aSize
 )
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -4446,7 +4446,7 @@ buf
 200
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -4556,7 +4556,7 @@ buf
 100
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -4629,7 +4629,7 @@ aRXavmaMax
 false
 )
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -6146,7 +6146,7 @@ defined
 (
 LUL_ARCH_x86
 )
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -6267,7 +6267,7 @@ defined
 (
 LUL_ARCH_arm
 )
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -6766,7 +6766,7 @@ buf
 100
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -8494,7 +8494,7 @@ buf
 200
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -8530,7 +8530,7 @@ mLog
 buf
 )
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "

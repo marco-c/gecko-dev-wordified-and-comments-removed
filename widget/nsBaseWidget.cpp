@@ -14148,7 +14148,7 @@ buf
 32
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "

@@ -383,7 +383,7 @@ a
 UINT8_MAX
 )
 {
-snprintf_literal
+SprintfLiteral
 (
 cbuf
 "
@@ -405,7 +405,7 @@ a
 }
 else
 {
-snprintf_literal
+SprintfLiteral
 (
 cbuf
 "

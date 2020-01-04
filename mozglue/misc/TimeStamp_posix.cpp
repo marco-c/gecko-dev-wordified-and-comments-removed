@@ -942,7 +942,7 @@ threadStat
 40
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 threadStat
 "

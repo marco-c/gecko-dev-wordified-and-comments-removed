@@ -4629,7 +4629,7 @@ numBuf2
 12
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 numBuf1
 "
@@ -4639,7 +4639,7 @@ d
 op
 )
 ;
-snprintf_literal
+SprintfLiteral
 (
 numBuf2
 "
@@ -5696,7 +5696,7 @@ numBuf
 12
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 numBuf
 "

@@ -8083,7 +8083,7 @@ loadLengthStr
 16
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 loadLengthStr
 "
@@ -8099,7 +8099,7 @@ saveLengthStr
 16
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 saveLengthStr
 "

@@ -453,7 +453,7 @@ buffer
 10
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buffer
 "
@@ -5607,7 +5607,7 @@ indexStr
 16
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 indexStr
 "
@@ -5848,7 +5848,7 @@ indexStr
 16
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 indexStr
 "
@@ -6194,7 +6194,7 @@ indexStr
 16
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 indexStr
 "
@@ -6319,7 +6319,7 @@ expectedLengthStr
 16
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 expectedLengthStr
 "
@@ -6335,7 +6335,7 @@ actualLengthStr
 16
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 actualLengthStr
 "
@@ -6457,7 +6457,7 @@ expectedLengthStr
 16
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 expectedLengthStr
 "
@@ -6473,7 +6473,7 @@ actualLengthStr
 16
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 actualLengthStr
 "
@@ -6896,7 +6896,7 @@ expectedCountStr
 16
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 expectedCountStr
 "
@@ -6912,7 +6912,7 @@ actualCountStr
 16
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 actualCountStr
 "
@@ -7039,7 +7039,7 @@ lengthStr
 16
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 lengthStr
 "
@@ -7645,7 +7645,7 @@ expectedCountStr
 16
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 expectedCountStr
 "
@@ -7661,7 +7661,7 @@ actualCountStr
 16
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 actualCountStr
 "
@@ -7755,7 +7755,7 @@ indexStr
 16
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 indexStr
 "
@@ -8174,7 +8174,7 @@ indexStr
 16
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 indexStr
 "
@@ -8190,7 +8190,7 @@ lengthStr
 16
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 lengthStr
 "
@@ -8828,7 +8828,7 @@ targetSizeStr
 16
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 sourceSizeStr
 "
@@ -8838,7 +8838,7 @@ PRIuSIZE
 sourceSize
 )
 ;
-snprintf_literal
+SprintfLiteral
 (
 targetSizeStr
 "
@@ -8969,7 +8969,7 @@ indexStr
 16
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 indexStr
 "
@@ -30861,7 +30861,7 @@ fieldLengthStr
 32
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 fieldLengthStr
 "

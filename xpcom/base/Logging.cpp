@@ -978,7 +978,7 @@ if
 pidTokenPtr
 &
 &
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -1112,7 +1112,7 @@ buf
 2048
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -1199,7 +1199,7 @@ buf
 2048
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -1483,7 +1483,7 @@ if
 currentThreadName
 )
 {
-snprintf_literal
+SprintfLiteral
 (
 noNameThread
 "

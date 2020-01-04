@@ -7185,7 +7185,7 @@ buf
 400
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -31093,7 +31093,7 @@ buf
 400
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "

@@ -615,7 +615,7 @@ kNodeInfoNSURIs
 )
 )
 {
-snprintf_literal
+SprintfLiteral
 (
 name
 "
@@ -639,7 +639,7 @@ get
 }
 else
 {
-snprintf_literal
+SprintfLiteral
 (
 name
 "

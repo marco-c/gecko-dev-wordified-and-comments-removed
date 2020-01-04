@@ -162,7 +162,7 @@ tmp
 participant
 )
 ;
-snprintf_literal
+SprintfLiteral
 (
 name
 "

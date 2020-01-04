@@ -901,7 +901,7 @@ stations
 +
 +
 ;
-snprintf_literal
+SprintfLiteral
 (
 cmd
 "
@@ -933,7 +933,7 @@ stations
 +
 +
 ;
-snprintf_literal
+SprintfLiteral
 (
 cmd
 "

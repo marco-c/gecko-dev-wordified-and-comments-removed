@@ -6750,7 +6750,7 @@ aByteLen
 =
 64
 ;
-snprintf_literal
+SprintfLiteral
 (
 warnBuf
 "

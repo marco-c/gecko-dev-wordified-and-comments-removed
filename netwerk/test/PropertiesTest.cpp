@@ -435,7 +435,7 @@ name
 =
 0
 ;
-snprintf_literal
+SprintfLiteral
 (
 name
 "

@@ -1949,7 +1949,7 @@ buffer
 1024
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buffer
 format
@@ -2142,7 +2142,7 @@ if
 nonincrementalReason_
 )
 {
-snprintf_literal
+SprintfLiteral
 (
 buffer
 "
@@ -2199,7 +2199,7 @@ total
 }
 else
 {
-snprintf_literal
+SprintfLiteral
 (
 buffer
 "
@@ -2243,7 +2243,7 @@ UniqueChars
 nullptr
 )
 ;
-snprintf_literal
+SprintfLiteral
 (
 buffer
 "
@@ -2380,7 +2380,7 @@ gckind
 GC_SHRINK
 )
 {
-snprintf_literal
+SprintfLiteral
 (
 buffer
 "
@@ -2547,7 +2547,7 @@ ownTime
 MaxUnaccountedTimeUS
 )
 {
-snprintf_literal
+SprintfLiteral
 (
 buffer
 "
@@ -2610,7 +2610,7 @@ level
 3
 )
 ;
-snprintf_literal
+SprintfLiteral
 (
 buffer
 "
@@ -3093,7 +3093,7 @@ buffer
 1024
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buffer
 format
@@ -3328,7 +3328,7 @@ buffer
 1024
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buffer
 format
@@ -3544,7 +3544,7 @@ ownTime
 0
 )
 {
-snprintf_literal
+SprintfLiteral
 (
 buffer
 "
@@ -3615,7 +3615,7 @@ level
 3
 )
 ;
-snprintf_literal
+SprintfLiteral
 (
 buffer
 "
@@ -3741,7 +3741,7 @@ buffer
 1024
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buffer
 format
@@ -4282,7 +4282,7 @@ buffer
 1024
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buffer
 format
@@ -4580,7 +4580,7 @@ buffer
 1024
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buffer
 format
@@ -4797,7 +4797,7 @@ dagSlot
 phase
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buffer
 "

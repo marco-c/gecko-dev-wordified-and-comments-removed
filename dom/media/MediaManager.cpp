@@ -13500,7 +13500,7 @@ windowBuffer
 32
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 windowBuffer
 "

@@ -5597,7 +5597,7 @@ name
 ;
 :
 :
-snprintf_literal
+SprintfLiteral
 (
 name
 "
@@ -5781,7 +5781,7 @@ name
 ;
 :
 :
-snprintf_literal
+SprintfLiteral
 (
 name
 "

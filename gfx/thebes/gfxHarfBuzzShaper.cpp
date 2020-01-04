@@ -4409,7 +4409,7 @@ buf
 1024
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -4674,7 +4674,7 @@ buf
 1024
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buf
 "

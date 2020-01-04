@@ -3299,7 +3299,7 @@ char
 512
 )
 ;
-snprintf_literal
+SprintfLiteral
 (
 result
 -

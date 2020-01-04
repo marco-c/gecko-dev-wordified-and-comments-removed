@@ -1448,7 +1448,7 @@ p
 }
 #
 endif
-snprintf_literal
+SprintfLiteral
 (
 fout
 fin

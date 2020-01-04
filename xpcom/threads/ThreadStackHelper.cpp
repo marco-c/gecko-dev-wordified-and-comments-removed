@@ -1944,7 +1944,7 @@ filename
 size_t
 len
 =
-snprintf_literal
+SprintfLiteral
 (
 buffer
 "

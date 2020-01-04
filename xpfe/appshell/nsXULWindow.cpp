@@ -6941,7 +6941,7 @@ screenX
 0
 )
 {
-snprintf_literal
+SprintfLiteral
 (
 sizeBuf
 "
@@ -7008,7 +7008,7 @@ screenY
 0
 )
 {
-snprintf_literal
+SprintfLiteral
 (
 sizeBuf
 "
@@ -7088,7 +7088,7 @@ width
 0
 )
 {
-snprintf_literal
+SprintfLiteral
 (
 sizeBuf
 "
@@ -7155,7 +7155,7 @@ height
 0
 )
 {
-snprintf_literal
+SprintfLiteral
 (
 sizeBuf
 "
@@ -7354,7 +7354,7 @@ this
 zLevel
 )
 ;
-snprintf_literal
+SprintfLiteral
 (
 sizeBuf
 "

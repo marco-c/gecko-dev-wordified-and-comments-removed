@@ -12034,7 +12034,7 @@ IsFinite
 utctime
 )
 )
-snprintf_literal
+SprintfLiteral
 (
 buf
 js_NaN_date_str
@@ -12673,7 +12673,7 @@ date
 )
 )
 {
-snprintf_literal
+SprintfLiteral
 (
 buf
 js_NaN_date_str
@@ -12914,7 +12914,7 @@ format
 case
 FORMATSPEC_FULL
 :
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -13025,7 +13025,7 @@ break
 case
 FORMATSPEC_DATE
 :
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -13081,7 +13081,7 @@ break
 case
 FORMATSPEC_TIME
 :
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -13229,7 +13229,7 @@ utctime
 )
 )
 {
-snprintf_literal
+SprintfLiteral
 (
 buf
 js_NaN_date_str

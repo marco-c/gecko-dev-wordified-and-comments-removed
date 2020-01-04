@@ -1905,7 +1905,7 @@ generation
 generation
 )
 {
-snprintf_literal
+SprintfLiteral
 (
 leaf
 "
@@ -1988,7 +1988,7 @@ break
 }
 else
 {
-snprintf_literal
+SprintfLiteral
 (
 leaf
 "
