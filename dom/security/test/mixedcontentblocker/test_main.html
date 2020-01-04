@@ -1248,6 +1248,11 @@ checkTestsCompleted
 )
 ;
 }
+function
+startTest
+(
+)
+{
 /
 /
 Set
@@ -1345,6 +1350,7 @@ reloadFrame
 }
 )
 ;
+}
 SimpleTest
 .
 waitForExplicitFinish
@@ -1361,6 +1367,13 @@ head
 >
 <
 body
+onload
+=
+'
+startTest
+(
+)
+'
 >
 <
 div
