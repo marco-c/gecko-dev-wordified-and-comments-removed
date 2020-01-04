@@ -1395,7 +1395,7 @@ topsrcdir
 -
 f
 (
-MOZ_CHROME_FILE_FORMAT
+MOZ_JAR_MAKER_FILE_FORMAT
 )
 \
 (

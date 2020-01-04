@@ -1560,15 +1560,6 @@ fonts
 -
 enable
 -
-chrome
--
-format
-'
-'
--
--
-enable
--
 clang
 -
 plugin
