@@ -624,6 +624,17 @@ tests
 dromaeo_dom
 "
 ]
+"
+talos_options
+"
+:
+[
+"
+-
+-
+e10s
+"
+]
 }
 "
 svgr
