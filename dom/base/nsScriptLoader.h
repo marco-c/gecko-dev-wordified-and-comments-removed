@@ -1880,6 +1880,12 @@ nsModuleScript
 >
 mFetchedModules
 ;
+nsCOMPtr
+<
+nsIConsoleReportCollector
+>
+mReporter
+;
 }
 ;
 class

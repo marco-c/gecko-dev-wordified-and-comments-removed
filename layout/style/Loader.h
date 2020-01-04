@@ -152,6 +152,9 @@ class
 nsICSSLoaderObserver
 ;
 class
+nsIConsoleReportCollector
+;
+class
 nsIContent
 ;
 class
@@ -1369,6 +1372,12 @@ mStyleBackendType
 ;
 bool
 mEnabled
+;
+nsCOMPtr
+<
+nsIConsoleReportCollector
+>
+mReporter
 ;
 #
 ifdef
