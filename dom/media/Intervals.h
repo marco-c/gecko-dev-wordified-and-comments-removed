@@ -889,6 +889,17 @@ aOther
 )
 const
 {
+if
+(
+IsEmpty
+(
+)
+)
+{
+return
+aOther
+;
+}
 SelfType
 result
 (
