@@ -42,6 +42,9 @@ CubebUtils
 h
 "
 #
+ifdef
+MOZ_WEBRTC
+#
 include
 "
 webrtc
@@ -50,6 +53,8 @@ MediaEngineWebRTC
 .
 h
 "
+#
+endif
 #
 ifdef
 XP_MACOSX
@@ -2978,6 +2983,9 @@ mGraphImpl
 -
 >
 mInputWanted
+#
+ifdef
+MOZ_WEBRTC
 |
 |
 AudioInputCubeb
@@ -2991,6 +2999,8 @@ mGraphImpl
 mInputDeviceID
 input_id
 )
+#
+endif
 )
 &
 &
@@ -3003,6 +3013,9 @@ mOutputDeviceID
 =
 -
 1
+#
+ifdef
+MOZ_WEBRTC
 |
 |
 AudioInputCubeb
@@ -3016,6 +3029,8 @@ mGraphImpl
 mOutputDeviceID
 output_id
 )
+#
+endif
 )
 &
 &
