@@ -3101,6 +3101,7 @@ RecordedDrawingEvent
 {
 public
 :
+MOZ_IMPLICIT
 RecordedPopLayer
 (
 DrawTarget
