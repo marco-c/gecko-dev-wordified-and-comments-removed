@@ -46,7 +46,7 @@ summary
 const
 HALF_COUNT
 =
-5e4
+7500
 ;
 var
 configurables
