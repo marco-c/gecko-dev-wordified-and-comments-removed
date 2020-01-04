@@ -97,6 +97,12 @@ output
 '
       
 '
+upload
+-
+analysis
+'
+      
+'
 check
 -
 expectations
