@@ -473,7 +473,7 @@ mMsg
 ;
 event
 .
-detail
+mDetail
 =
 mDetail
 ;

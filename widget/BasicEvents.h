@@ -2199,7 +2199,7 @@ InternalUIEvent
 (
 )
 :
-detail
+mDetail
 (
 0
 )
@@ -2229,7 +2229,7 @@ aMessage
 aWidget
 aEventClassID
 )
-detail
+mDetail
 (
 0
 )
@@ -2256,7 +2256,7 @@ aMessage
 nullptr
 aEventClassID
 )
-detail
+mDetail
 (
 0
 )
@@ -2299,7 +2299,7 @@ aMessage
 nullptr
 eUIEventClass
 )
-detail
+mDetail
 (
 0
 )
@@ -2380,7 +2380,7 @@ result
 ;
 }
 int32_t
-detail
+mDetail
 ;
 bool
 mCausedByUntrustedEvent
@@ -2418,11 +2418,11 @@ aEvent
 aCopyTargets
 )
 ;
-detail
+mDetail
 =
 aEvent
 .
-detail
+mDetail
 ;
 mCausedByUntrustedEvent
 =

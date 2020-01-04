@@ -256,7 +256,7 @@ AsUIEvent
 )
 -
 >
-detail
+mDetail
 ;
 break
 ;

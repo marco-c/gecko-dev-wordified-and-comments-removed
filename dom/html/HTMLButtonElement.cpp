@@ -1043,7 +1043,7 @@ mouseEvent
 ;
 actEvent
 .
-detail
+mDetail
 =
 1
 ;

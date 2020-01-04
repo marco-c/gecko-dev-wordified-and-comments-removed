@@ -93,7 +93,7 @@ AsSMILTimeEvent
 )
 -
 >
-detail
+mDetail
 )
 {
 if
