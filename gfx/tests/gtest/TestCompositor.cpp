@@ -325,7 +325,8 @@ return
 nullptr
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 Create
 (
 nsIWidget
@@ -349,7 +350,8 @@ return
 NS_OK
 ;
 }
-NS_IMETHOD
+virtual
+nsresult
 Create
 (
 nsIWidget

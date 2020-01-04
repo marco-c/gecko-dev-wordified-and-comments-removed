@@ -1161,7 +1161,9 @@ nullptr
 )
 ;
 }
-NS_IMETHOD
+virtual
+MOZ_MUST_USE
+nsresult
 Create
 (
 nsIWidget
@@ -1182,7 +1184,9 @@ nullptr
 =
 0
 ;
-NS_IMETHOD
+virtual
+MOZ_MUST_USE
+nsresult
 Create
 (
 nsIWidget

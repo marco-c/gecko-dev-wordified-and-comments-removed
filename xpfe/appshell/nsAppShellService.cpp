@@ -1852,6 +1852,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
+nsresult
+rv
+=
 widget
 -
 >
@@ -1867,6 +1870,12 @@ LayoutDeviceIntRect
 0
 )
 nullptr
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 nsCOMPtr

@@ -3239,7 +3239,7 @@ eWindowType_invisible
 nsIWidget
 /
 /
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :

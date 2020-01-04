@@ -741,6 +741,8 @@ SetWidgetListener
 this
 )
 ;
+rv
+=
 mWindow
 -
 >
@@ -755,6 +757,12 @@ nullptr
 deskRect
 &
 widgetInitData
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 LayoutDeviceIntRect
