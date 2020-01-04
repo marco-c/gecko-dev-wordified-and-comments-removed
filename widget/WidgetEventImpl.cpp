@@ -310,7 +310,7 @@ case
 eDragOver
 :
 case
-NS_DRAGDROP_EXIT
+eDragExit
 :
 case
 NS_DRAGDROP_DRAGDROP

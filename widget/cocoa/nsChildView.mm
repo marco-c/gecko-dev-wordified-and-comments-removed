@@ -33025,7 +33025,7 @@ canDrop
 self
 doDragAction
 :
-NS_DRAGDROP_EXIT
+eDragExit
 sender
 :
 aSender
@@ -33367,7 +33367,7 @@ dragAction
 ;
 }
 case
-NS_DRAGDROP_EXIT
+eDragExit
 :
 case
 eDrop
@@ -33706,7 +33706,7 @@ self
 self
 doDragAction
 :
-NS_DRAGDROP_EXIT
+eDragExit
 sender
 :
 sender

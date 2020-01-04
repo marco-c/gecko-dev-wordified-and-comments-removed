@@ -1756,7 +1756,7 @@ dragEvent
 ;
 }
 case
-NS_DRAGDROP_EXIT
+eDragExit
 :
 {
 nsCOMPtr

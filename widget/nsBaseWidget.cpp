@@ -12072,9 +12072,9 @@ eDragEnter
 ;
 _ASSIGN_eventName
 (
-NS_DRAGDROP_EXIT
+eDragExit
 "
-NS_DND_EXIT
+eDragExit
 "
 )
 ;

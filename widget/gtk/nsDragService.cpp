@@ -8406,7 +8406,7 @@ mTargetWindow
 >
 DispatchDragEvent
 (
-NS_DRAGDROP_EXIT
+eDragExit
 mTargetWindowPoint
 0
 )
@@ -8797,7 +8797,7 @@ mCanDrop
 ?
 eDrop
 :
-NS_DRAGDROP_EXIT
+eDragExit
 ;
 mTargetWindow
 -
