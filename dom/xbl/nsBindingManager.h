@@ -175,6 +175,13 @@ nsIContent
 aContent
 )
 ;
+enum
+DestructorHandling
+{
+eRunDtor
+eDoNotRunDtor
+}
+;
 void
 RemovedFromDocument
 (
@@ -184,6 +191,8 @@ aContent
 nsIDocument
 *
 aOldDocument
+DestructorHandling
+aDestructorHandling
 )
 {
 if
@@ -201,6 +210,7 @@ RemovedFromDocumentInternal
 (
 aContent
 aOldDocument
+aDestructorHandling
 )
 ;
 }
@@ -214,6 +224,8 @@ aContent
 nsIDocument
 *
 aOldDocument
+DestructorHandling
+aDestructorHandling
 )
 ;
 nsIAtom

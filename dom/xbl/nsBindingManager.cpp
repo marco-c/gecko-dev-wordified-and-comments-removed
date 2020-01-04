@@ -889,6 +889,8 @@ aContent
 nsIDocument
 *
 aOldDocument
+DestructorHandling
+aDestructorHandling
 )
 {
 NS_PRECONDITION
@@ -926,6 +928,12 @@ if
 (
 !
 mDestroyed
+&
+&
+aDestructorHandling
+=
+=
+eRunDtor
 )
 {
 binding
