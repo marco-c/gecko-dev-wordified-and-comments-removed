@@ -15914,6 +15914,13 @@ ControlCharVisibilityDefault
 (
 )
 ;
+mWordSpacing
+.
+SetCoordValue
+(
+0
+)
+;
 mLetterSpacing
 .
 SetNormalValue
@@ -15932,10 +15939,6 @@ SetCoordValue
 (
 0
 )
-;
-mWordSpacing
-=
-0
 ;
 mTextShadow
 =

@@ -6541,7 +6541,7 @@ mControlCharacterVisibility
 int32_t
 mTabSize
 ;
-nscoord
+nsStyleCoord
 mWordSpacing
 ;
 nsStyleCoord
