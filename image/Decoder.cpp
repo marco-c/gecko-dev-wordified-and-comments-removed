@@ -1365,10 +1365,6 @@ aTargetSize
 mSurfaceFlags
 aFrameNum
 )
-Lifetime
-:
-:
-Persistent
 )
 ;
 if

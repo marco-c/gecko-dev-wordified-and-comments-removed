@@ -3522,10 +3522,6 @@ aParams
 .
 animationTime
 )
-Lifetime
-:
-:
-Persistent
 )
 ;
 nsRefPtr

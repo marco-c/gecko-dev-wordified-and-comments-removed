@@ -453,16 +453,6 @@ DefaultSurfaceFlags
 }
 enum
 class
-Lifetime
-:
-uint8_t
-{
-Transient
-Persistent
-}
-;
-enum
-class
 InsertOutcome
 :
 uint8_t
@@ -556,8 +546,6 @@ const
 SurfaceKey
 &
 aSurfaceKey
-Lifetime
-aLifetime
 )
 ;
 static
