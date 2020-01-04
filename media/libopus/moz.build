@@ -519,10 +519,6 @@ UNIFIED_SOURCES
 +
 =
 celt_sources
-SOURCES
-+
-=
-celt_nonunified_sources
 UNIFIED_SOURCES
 +
 =
