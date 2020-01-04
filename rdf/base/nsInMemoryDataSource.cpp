@@ -4876,8 +4876,6 @@ if
 first
 )
 {
-PL_DHashTableRawRemove
-(
 root
 -
 >
@@ -4886,6 +4884,10 @@ u
 hash
 .
 mPropertyHash
+-
+>
+RawRemove
+(
 hdr
 )
 ;
@@ -7822,12 +7824,14 @@ rentry
 mAssertions
 )
 {
-PL_DHashTableRawRemove
-(
 aInfo
 -
 >
 mReverseArcs
+-
+>
+RawRemove
+(
 hdr
 )
 ;

@@ -18838,9 +18838,11 @@ entry
 mListenerManager
 )
 ;
-PL_DHashTableRawRemove
-(
 sEventListenerManagersHash
+-
+>
+RawRemove
+(
 entry
 )
 ;

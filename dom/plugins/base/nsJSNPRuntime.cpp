@@ -8532,9 +8532,11 @@ mJSObj
 nullptr
 )
 ;
-PL_DHashTableRawRemove
-(
 sNPObjWrappers
+-
+>
+RawRemove
+(
 entry
 )
 ;
@@ -8859,9 +8861,11 @@ if
 obj
 )
 {
-PL_DHashTableRawRemove
-(
 sNPObjWrappers
+-
+>
+RawRemove
+(
 entry
 )
 ;

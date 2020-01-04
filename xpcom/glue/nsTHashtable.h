@@ -365,10 +365,10 @@ EntryType
 aEntry
 )
 {
-PL_DHashTableRawRemove
-(
-&
 mTable
+.
+RawRemove
+(
 aEntry
 )
 ;
