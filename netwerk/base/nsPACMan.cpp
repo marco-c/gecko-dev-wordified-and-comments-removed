@@ -523,6 +523,10 @@ mCancel
 (
 false
 )
+mCancelStatus
+(
+NS_OK
+)
 mSetupPAC
 (
 false
