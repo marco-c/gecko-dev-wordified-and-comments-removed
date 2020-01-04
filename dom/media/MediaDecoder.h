@@ -1728,7 +1728,6 @@ aMetadata
 ;
 MediaDecoderOwner
 *
-const
 mOwner
 ;
 const
