@@ -370,6 +370,11 @@ FrozenImage
 cpp
 '
 '
+IDecodingTask
+.
+cpp
+'
+'
 Image
 .
 cpp
