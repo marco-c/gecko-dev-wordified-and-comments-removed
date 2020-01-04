@@ -221,6 +221,10 @@ HAZARD_SHELL_OBJDIR
 true
 cd
 HAZARD_SHELL_OBJDIR
+(
+export
+MOZCONFIG
+=
 JS_SRCDIR
 /
 configure
@@ -261,6 +265,7 @@ ccache
 make
 -
 j4
+)
 }
 function
 configure_analysis
