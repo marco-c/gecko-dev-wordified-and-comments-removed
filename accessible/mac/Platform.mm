@@ -468,6 +468,15 @@ aEventType
 nsIAccessibleEvent
 :
 :
+EVENT_TEXT_VALUE_CHANGE
+&
+&
+aEventType
+!
+=
+nsIAccessibleEvent
+:
+:
 EVENT_TEXT_CARET_MOVED
 &
 &

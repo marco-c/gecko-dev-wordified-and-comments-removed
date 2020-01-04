@@ -5421,6 +5421,12 @@ nsIAccessibleEvent
 :
 EVENT_VALUE_CHANGE
 :
+case
+nsIAccessibleEvent
+:
+:
+EVENT_TEXT_VALUE_CHANGE
+:
 if
 (
 accessible

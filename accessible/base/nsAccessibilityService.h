@@ -1279,6 +1279,11 @@ virtual
 cursor
 changed
 "
+"
+text
+value
+change
+"
 }
 ;
 #
