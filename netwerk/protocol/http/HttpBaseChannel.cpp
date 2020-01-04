@@ -5848,6 +5848,15 @@ GetPrePath
 spec
 )
 ;
+spec
+.
+AppendLiteral
+(
+"
+/
+"
+)
+;
 if
 (
 NS_FAILED
