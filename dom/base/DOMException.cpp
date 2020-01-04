@@ -799,10 +799,6 @@ mResult
 (
 NS_OK
 )
-mLineNumber
-(
-0
-)
 mInitialized
 (
 false
@@ -854,11 +850,6 @@ Exception
 mResult
 (
 NS_OK
-)
-mLineNumber
-(
--
-1
 )
 mInitialized
 (
@@ -1244,7 +1235,7 @@ rv
 *
 aLineNumber
 =
-mLineNumber
+0
 ;
 return
 NS_OK
@@ -1886,7 +1877,7 @@ return
 ;
 }
 return
-mLineNumber
+0
 ;
 }
 uint32_t
