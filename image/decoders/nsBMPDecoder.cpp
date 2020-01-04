@@ -4352,7 +4352,7 @@ mDownscaler
 mDownscaler
 -
 >
-ClearRow
+ClearRestOfRow
 (
 mCurrentPos
 )
