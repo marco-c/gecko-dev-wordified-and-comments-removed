@@ -2551,6 +2551,9 @@ d
 '
 <
 >
+chmod
++
+x
 CONFIG_STATUS_DEPS
 :
 =
