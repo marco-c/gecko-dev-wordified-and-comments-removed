@@ -22,16 +22,6 @@ routes
 '
 index
 .
-ffledgling
-.
-test
-.
-spidermonkey
-'
--
-'
-index
-.
 buildbot
 .
 branches
