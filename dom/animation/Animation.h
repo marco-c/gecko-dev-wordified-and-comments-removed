@@ -237,7 +237,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 Animation
 DOMEventTargetHelper
 )
-AnimationTimeline
+nsIGlobalObject
 *
 GetParentObject
 (
@@ -245,7 +245,9 @@ GetParentObject
 const
 {
 return
-mTimeline
+GetOwnerGlobal
+(
+)
 ;
 }
 virtual
