@@ -11705,6 +11705,13 @@ java
 '
 fxa
 /
+FxAccountDeviceRegistrator
+.
+java
+'
+'
+fxa
+/
 login
 /
 BaseRequestDelegate
