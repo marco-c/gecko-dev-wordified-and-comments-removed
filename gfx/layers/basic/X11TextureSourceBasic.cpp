@@ -138,7 +138,7 @@ mType
 NativeSurfaceType
 :
 :
-CAIRO_SURFACE
+CAIRO_CONTEXT
 ;
 surf
 .
