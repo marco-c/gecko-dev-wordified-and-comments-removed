@@ -449,10 +449,15 @@ gfxContext
 >
 mContext
 ;
-nsAutoArrayPtr
+mozilla
+:
+:
+UniquePtr
 <
 unsigned
 char
+[
+]
 >
 mData
 ;
