@@ -205,7 +205,7 @@ NS_IMETHODIMP
 nsBoxLayout
 :
 :
-Layout
+XULLayout
 (
 nsIFrame
 *

@@ -448,7 +448,7 @@ Shutdown
 )
 ;
 NS_IMETHOD
-Layout
+XULLayout
 (
 nsIFrame
 *

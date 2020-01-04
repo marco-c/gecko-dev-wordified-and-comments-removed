@@ -1191,7 +1191,7 @@ NS_IMETHODIMP
 nsStackLayout
 :
 :
-Layout
+XULLayout
 (
 nsIFrame
 *
@@ -1698,7 +1698,7 @@ childRect
 child
 -
 >
-Layout
+XULLayout
 (
 aState
 )

@@ -148,7 +148,7 @@ NS_IMETHODIMP
 nsGridLayout2
 :
 :
-Layout
+XULLayout
 (
 nsIFrame
 *
@@ -189,7 +189,7 @@ rv
 nsStackLayout
 :
 :
-Layout
+XULLayout
 (
 aBox
 aBoxLayoutState

@@ -44,7 +44,7 @@ nsListBoxLayout
 )
 ;
 NS_IMETHOD
-Layout
+XULLayout
 (
 nsIFrame
 *

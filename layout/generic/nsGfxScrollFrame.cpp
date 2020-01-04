@@ -6778,7 +6778,7 @@ LayoutFlags
 nsresult
 rv
 =
-Layout
+XULLayout
 (
 aState
 )
@@ -21162,7 +21162,7 @@ mHelper
 mScrolledFrame
 -
 >
-Layout
+XULLayout
 (
 aState
 )
@@ -21738,7 +21738,7 @@ nsresult
 nsXULScrollFrame
 :
 :
-Layout
+XULLayout
 (
 nsBoxLayoutState
 &

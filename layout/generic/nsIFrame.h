@@ -6468,7 +6468,7 @@ false
 0
 ;
 nsresult
-Layout
+XULLayout
 (
 nsBoxLayoutState
 &

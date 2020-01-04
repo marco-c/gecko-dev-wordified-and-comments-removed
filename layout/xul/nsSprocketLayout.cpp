@@ -622,7 +622,7 @@ NS_IMETHODIMP
 nsSprocketLayout
 :
 :
-Layout
+XULLayout
 (
 nsIFrame
 *
@@ -1785,7 +1785,7 @@ sizeChanged
 child
 -
 >
-Layout
+XULLayout
 (
 aState
 )
@@ -4536,7 +4536,7 @@ rect
 aChild
 -
 >
-Layout
+XULLayout
 (
 aState
 )

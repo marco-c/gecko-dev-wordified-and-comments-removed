@@ -583,7 +583,7 @@ NS_IMETHODIMP
 nsListBoxLayout
 :
 :
-Layout
+XULLayout
 (
 nsIFrame
 *
@@ -859,7 +859,7 @@ childRect
 box
 -
 >
-Layout
+XULLayout
 (
 aState
 )

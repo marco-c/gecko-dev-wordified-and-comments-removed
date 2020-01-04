@@ -49588,7 +49588,7 @@ mIndent
 printf
 (
 "
-Layout
+XULLayout
 \
 n
 "
@@ -50474,7 +50474,7 @@ GetRect
 printf
 (
 "
-Layout
+XULLayout
 =
 %
 d

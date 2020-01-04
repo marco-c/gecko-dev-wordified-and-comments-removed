@@ -545,7 +545,7 @@ nsBoxAddIndents
 printf
 (
 "
-Layout
+XULLayout
 :
 "
 )
@@ -2029,7 +2029,7 @@ nsresult
 nsIFrame
 :
 :
-Layout
+XULLayout
 (
 nsBoxLayoutState
 &

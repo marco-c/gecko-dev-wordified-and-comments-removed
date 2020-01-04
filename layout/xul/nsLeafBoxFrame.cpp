@@ -1253,7 +1253,7 @@ state
 r
 )
 ;
-Layout
+XULLayout
 (
 state
 )

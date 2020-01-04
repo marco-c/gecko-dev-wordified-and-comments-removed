@@ -79,7 +79,7 @@ aNewLayout
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
-Layout
+XULLayout
 (
 nsIFrame
 *
