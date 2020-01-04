@@ -1190,17 +1190,6 @@ msg
 cmdId
 )
 {
-logger
-.
-info
-(
-sendAsync
-{
-this
-.
-sessionId
-}
-)
 let
 curRemoteFrame
 =
