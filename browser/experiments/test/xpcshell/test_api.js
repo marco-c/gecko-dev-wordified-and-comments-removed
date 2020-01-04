@@ -172,7 +172,7 @@ addons
 )
 {
 yield
-AddonTestUtils
+AddonManagerTesting
 .
 uninstallAddonByID
 (
@@ -2549,7 +2549,7 @@ installed
 )
 ;
 yield
-AddonTestUtils
+AddonManagerTesting
 .
 installXPIFromURL
 (
@@ -8636,7 +8636,7 @@ active
 )
 ;
 yield
-AddonTestUtils
+AddonManagerTesting
 .
 uninstallAddonByID
 (
@@ -8805,7 +8805,7 @@ _unregisterWithAddonManager
 )
 ;
 yield
-AddonTestUtils
+AddonManagerTesting
 .
 installXPIFromURL
 (
@@ -9004,7 +9004,7 @@ false
 try
 {
 yield
-AddonTestUtils
+AddonManagerTesting
 .
 installXPIFromURL
 (
@@ -9962,7 +9962,7 @@ active
 )
 ;
 yield
-AddonTestUtils
+AddonManagerTesting
 .
 uninstallAddonByID
 (

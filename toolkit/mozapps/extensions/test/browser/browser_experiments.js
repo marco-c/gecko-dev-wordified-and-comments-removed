@@ -22,7 +22,7 @@ this
 ;
 var
 {
-AddonTestUtils
+AddonManagerTesting
 }
 =
 Components
@@ -1753,7 +1753,7 @@ testCleanup
 )
 {
 yield
-AddonTestUtils
+AddonManagerTesting
 .
 uninstallAddonByID
 (

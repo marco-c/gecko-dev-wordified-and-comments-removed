@@ -9,7 +9,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-AddonTestUtils
+AddonManagerTesting
 "
 ]
 ;
@@ -85,7 +85,7 @@ jsm
 ;
 this
 .
-AddonTestUtils
+AddonManagerTesting
 =
 {
 getAddonById
