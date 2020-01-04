@@ -1465,8 +1465,7 @@ DeallocateDeviceData
 (
 )
 override
-{
-}
+;
 virtual
 void
 SetCompositor
@@ -1502,7 +1501,6 @@ gl
 :
 AndroidSurfaceTexture
 >
-const
 mSurfTex
 ;
 const
@@ -1569,8 +1567,7 @@ DeallocateDeviceData
 (
 )
 override
-{
-}
+;
 virtual
 void
 SetCompositor
@@ -1691,7 +1688,6 @@ gl
 :
 AndroidSurfaceTexture
 >
-const
 mSurfTex
 ;
 const
