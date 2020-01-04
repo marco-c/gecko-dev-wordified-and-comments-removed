@@ -7394,6 +7394,7 @@ UINT32_MAX
 32
 34
 36
+40
 48
 52
 64
@@ -7451,8 +7452,7 @@ Pow2CapacityIndexes
 8
 13
 19
-24
-27
+25
 28
 29
 30
@@ -7466,6 +7466,7 @@ Pow2CapacityIndexes
 38
 39
 40
+41
 }
 ;
 static
@@ -7473,7 +7474,7 @@ const
 uint32_t
 MebiCapacityIndex
 =
-40
+41
 ;
 uint32_t
 UnboxedArrayObject
@@ -7500,10 +7501,12 @@ CapacityArray
 1
 <
 =
+(
 CapacityMask
 >
 >
 CapacityShift
+)
 )
 ;
 MOZ_ASSERT

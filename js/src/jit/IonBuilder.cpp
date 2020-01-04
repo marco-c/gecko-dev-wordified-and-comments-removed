@@ -48506,6 +48506,16 @@ peek
 ;
 if
 (
+shouldAbortOnPreliminaryGroups
+(
+obj
+)
+)
+return
+false
+;
+if
+(
 obj
 -
 >
