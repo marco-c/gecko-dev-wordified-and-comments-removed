@@ -3436,7 +3436,7 @@ rt
 >
 gc
 .
-traceRuntime
+traceRuntimeForMinorGC
 (
 &
 mover
