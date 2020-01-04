@@ -34128,16 +34128,6 @@ MOZ_SUBCONFIGURE_FFI
 MOZ_SUBCONFIGURE_JEMALLOC
 (
 )
-#
-Avoid
-using
-obsolete
-NSPR
-features
-AC_DEFINE
-(
-NO_NSPR_10_SUPPORT
-)
 dnl
 Spit
 out
