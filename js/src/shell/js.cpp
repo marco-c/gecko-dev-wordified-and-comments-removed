@@ -42372,17 +42372,6 @@ JSGC_MODE
 JSGC_MODE_INCREMENTAL
 )
 ;
-JS_SetGCParameterForThread
-(
-cx
-JSGC_MAX_CODE_CACHE_BYTES
-16
-*
-1024
-*
-1024
-)
-;
 JS
 :
 :

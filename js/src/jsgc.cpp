@@ -7054,6 +7054,8 @@ tunables
 highFrequencyThresholdUsec
 (
 )
+/
+PRMJ_USEC_PER_MSEC
 ;
 case
 JSGC_HIGH_FREQUENCY_LOW_LIMIT
@@ -7157,6 +7159,16 @@ tunables
 gcZoneAllocThresholdBase
 (
 )
+/
+1024
+/
+1024
+;
+case
+JSGC_DECOMMIT_THRESHOLD
+:
+return
+decommitThreshold
 /
 1024
 /
