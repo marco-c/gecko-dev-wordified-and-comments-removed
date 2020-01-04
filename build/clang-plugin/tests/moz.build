@@ -120,6 +120,11 @@ SOURCES
 =
 [
 '
+TestAssertWithAssignment
+.
+cpp
+'
+'
 TestBadImplicitConversionCtor
 .
 cpp
