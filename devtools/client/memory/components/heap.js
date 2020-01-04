@@ -312,6 +312,7 @@ item
 depth
 focused
 arrow
+expanded
 )
 =
 >
@@ -324,6 +325,7 @@ item
 depth
 focused
 arrow
+expanded
 getPercentBytes
 getPercentCount
 showSign
