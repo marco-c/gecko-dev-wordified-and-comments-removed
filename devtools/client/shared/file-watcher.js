@@ -59,6 +59,8 @@ event
 {
 const
 {
+path
+:
 newPath
 }
 =
