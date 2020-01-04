@@ -130,6 +130,10 @@ PSpeechSynthesis
 ;
 parent
 :
+__delete__
+(
+)
+;
 Pause
 (
 )
@@ -154,7 +158,7 @@ aVolume
 ;
 child
 :
-__delete__
+OnEnd
 (
 bool
 aIsError
