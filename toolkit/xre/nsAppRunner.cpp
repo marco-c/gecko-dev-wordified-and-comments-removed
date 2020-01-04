@@ -409,6 +409,13 @@ h
 #
 include
 "
+nsIPlatformInfo
+.
+h
+"
+#
+include
+"
 nsIProcess
 .
 h
@@ -3131,6 +3138,7 @@ nsXULAppInfo
 {
 }
 NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_NSIPLATFORMINFO
 NS_DECL_NSIXULAPPINFO
 NS_DECL_NSIXULRUNTIME
 NS_DECL_NSIOBSERVER
@@ -3188,6 +3196,10 @@ nsIFinishDumpingCallback
 )
 #
 endif
+NS_INTERFACE_MAP_ENTRY
+(
+nsIPlatformInfo
+)
 NS_INTERFACE_MAP_ENTRY_CONDITIONAL
 (
 nsIXULAppInfo
