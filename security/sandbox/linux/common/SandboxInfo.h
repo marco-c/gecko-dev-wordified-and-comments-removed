@@ -100,6 +100,12 @@ kPermissive
 <
 <
 7
+kUnexpectedThreads
+=
+1
+<
+<
+8
 }
 ;
 bool
@@ -161,6 +167,12 @@ kHasSeccompBPF
 )
 ;
 }
+static
+void
+ThreadingCheck
+(
+)
+;
 private
 :
 enum
@@ -169,7 +181,6 @@ mFlags
 ;
 static
 MOZ_EXPORT
-const
 SandboxInfo
 sSingleton
 ;
