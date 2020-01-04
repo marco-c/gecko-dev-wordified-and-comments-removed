@@ -287,6 +287,14 @@ mainModule
 }
 ;
 }
+this
+.
+BrowserLoader
+=
+BrowserLoader
+;
+this
+.
 EXPORTED_SYMBOLS
 =
 [

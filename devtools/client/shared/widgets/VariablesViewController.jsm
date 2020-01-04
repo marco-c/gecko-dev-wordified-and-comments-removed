@@ -357,6 +357,12 @@ controller
 this
 ;
 }
+this
+.
+VariablesViewController
+=
+VariablesViewController
+;
 VariablesViewController
 .
 prototype
@@ -2916,6 +2922,10 @@ aOptions
 }
 ;
 var
+StackFrameUtils
+=
+this
+.
 StackFrameUtils
 =
 {

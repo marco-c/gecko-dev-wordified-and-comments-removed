@@ -170,6 +170,12 @@ aNode
 )
 ;
 }
+this
+.
+SimpleListWidget
+=
+SimpleListWidget
+;
 SimpleListWidget
 .
 prototype

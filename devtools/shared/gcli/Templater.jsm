@@ -171,6 +171,12 @@ template
 template
 ;
 }
+this
+.
+template
+=
+template
+;
 function
 cloneState
 (

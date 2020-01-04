@@ -658,6 +658,12 @@ _onMediaPrefChanged
 )
 ;
 }
+this
+.
+StyleEditorUI
+=
+StyleEditorUI
+;
 StyleEditorUI
 .
 prototype

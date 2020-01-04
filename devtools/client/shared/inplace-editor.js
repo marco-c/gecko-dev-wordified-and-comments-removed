@@ -476,8 +476,6 @@ exports
 .
 editableItem
 =
-this
-.
 editableItem
 ;
 function
