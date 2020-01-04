@@ -2045,6 +2045,11 @@ ServiceWorkerGlobalScope
 webidl
 '
 '
+ServiceWorkerMessageEvent
+.
+webidl
+'
+'
 SettingChangeNotification
 .
 webidl
