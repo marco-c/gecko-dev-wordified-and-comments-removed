@@ -72,6 +72,12 @@ OnElCapitanOrLater
 ;
 static
 bool
+OnSierraOrLater
+(
+)
+;
+static
+bool
 IsAtLeastVersion
 (
 int32_t

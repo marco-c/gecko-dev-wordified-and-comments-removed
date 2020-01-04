@@ -337,6 +337,15 @@ OperatingSystem
 :
 OSX10_11
 ;
+case
+12
+:
+return
+OperatingSystem
+:
+:
+OSX10_12
+;
 }
 }
 return
