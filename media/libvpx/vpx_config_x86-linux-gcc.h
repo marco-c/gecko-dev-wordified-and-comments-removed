@@ -90,7 +90,7 @@ HAVE_AVX
 #
 define
 HAVE_AVX2
-0
+1
 #
 define
 HAVE_VPX_PORTS
