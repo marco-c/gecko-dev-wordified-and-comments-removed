@@ -143,6 +143,12 @@ DOMString
 pcIdFilter
 )
 ;
+static
+void
+clearAllStats
+(
+)
+;
 [
 Throws
 ]
@@ -154,6 +160,12 @@ DOMString
 pattern
 WebrtcGlobalLoggingCallback
 callback
+)
+;
+static
+void
+clearLogging
+(
 )
 ;
 /
