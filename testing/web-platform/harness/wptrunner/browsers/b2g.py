@@ -1187,7 +1187,7 @@ device
 =
 mozdevice
 .
-ADBDevice
+ADBB2G
 (
 )
         
