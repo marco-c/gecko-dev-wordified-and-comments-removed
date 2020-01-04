@@ -11352,7 +11352,7 @@ refresh
 )
     
 def
-wrapArguments
+_to_json
 (
 self
 args
@@ -11364,6 +11364,12 @@ isinstance
 (
 args
 list
+)
+or
+isinstance
+(
+args
+tuple
 )
 :
             
@@ -11384,7 +11390,7 @@ append
 (
 self
 .
-wrapArguments
+_to_json
 (
 arg
 )
@@ -11416,7 +11422,7 @@ arg
 =
 self
 .
-wrapArguments
+_to_json
 (
 args
 [
@@ -11491,7 +11497,7 @@ return
 wrapped
     
 def
-unwrapValue
+_from_json
 (
 self
 value
@@ -11523,7 +11529,7 @@ append
 (
 self
 .
-unwrapValue
+_from_json
 (
 item
 )
@@ -11598,7 +11604,7 @@ key
 =
 self
 .
-unwrapValue
+_from_json
 (
 value
 [
@@ -11665,7 +11671,7 @@ args
 =
 self
 .
-wrapArguments
+_to_json
 (
 script_args
 )
@@ -11742,7 +11748,7 @@ value
 return
 self
 .
-unwrapValue
+_from_json
 (
 rv
 )
@@ -12274,7 +12280,7 @@ args
 =
 self
 .
-wrapArguments
+_to_json
 (
 script_args
 )
@@ -12383,7 +12389,7 @@ value
 return
 self
 .
-unwrapValue
+_from_json
 (
 rv
 )
@@ -12697,7 +12703,7 @@ args
 =
 self
 .
-wrapArguments
+_to_json
 (
 script_args
 )
@@ -12812,7 +12818,7 @@ value
 return
 self
 .
-unwrapValue
+_from_json
 (
 rv
 )
