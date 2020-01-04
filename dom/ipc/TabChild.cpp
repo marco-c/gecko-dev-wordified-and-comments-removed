@@ -3845,6 +3845,16 @@ Create
 (
 )
 ;
+SetPrivateBrowsingAttributes
+(
+mChromeFlags
+&
+nsIWebBrowserChrome
+:
+:
+CHROME_PRIVATE_WINDOW
+)
+;
 NotifyTabContextUpdated
 (
 )

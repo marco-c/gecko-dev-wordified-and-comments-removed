@@ -548,6 +548,12 @@ signedPkg
 "
 "
 ;
+unsigned
+long
+privateBrowsingId
+=
+0
+;
 }
 ;
 dictionary
@@ -569,6 +575,10 @@ addonId
 ;
 DOMString
 signedPkg
+;
+unsigned
+long
+privateBrowsingId
 ;
 }
 ;

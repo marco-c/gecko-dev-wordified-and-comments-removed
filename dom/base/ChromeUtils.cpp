@@ -977,6 +977,16 @@ mUserContextId
 aB
 .
 mUserContextId
+&
+&
+aA
+.
+mPrivateBrowsingId
+=
+=
+aB
+.
+mPrivateBrowsingId
 ;
 }
 }

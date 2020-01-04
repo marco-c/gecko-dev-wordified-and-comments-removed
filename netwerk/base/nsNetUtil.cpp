@@ -5171,6 +5171,16 @@ InheritFromDocShellToNecko
 doa
 )
 ;
+aAttributes
+.
+SyncAttributesWithPrivateBrowsing
+(
+NS_UsePrivateBrowsing
+(
+aChannel
+)
+)
+;
 return
 true
 ;

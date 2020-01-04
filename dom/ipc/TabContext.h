@@ -192,6 +192,13 @@ TabContext
 aContext
 )
 ;
+void
+SetPrivateBrowsingAttributes
+(
+bool
+aIsPrivateBrowsing
+)
+;
 bool
 SetTabContext
 (
