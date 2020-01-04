@@ -1058,6 +1058,8 @@ StartGathering
 (
 bool
 default_route_only
+bool
+proxy_only
 )
 ;
 nsresult

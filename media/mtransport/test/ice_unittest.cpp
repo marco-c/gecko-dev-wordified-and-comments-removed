@@ -3173,6 +3173,7 @@ NrIceCtx
 :
 StartGathering
 default_route_only
+false
 )
 NS_DISPATCH_SYNC
 )

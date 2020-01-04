@@ -519,6 +519,15 @@ NR_ICE_CTX_FLAGS_ONLY_DEFAULT_ADDRS
 <
 6
 )
+#
+define
+NR_ICE_CTX_FLAGS_ONLY_PROXY
+(
+1
+<
+<
+7
+)
 void
 nr_ice_ctx_add_flags
 (
