@@ -1006,9 +1006,13 @@ null
 |
 |
 pwd
+-
+P
 _objdir
 =
 pwd
+-
+P
 if
 test
 "
@@ -1233,6 +1237,8 @@ null
 |
 |
 pwd
+-
+P
 MOZ_BUILD_BACKEND
 MOZ_DEFAULT_COMPILER
 COMPILE_ENVIRONMENT
