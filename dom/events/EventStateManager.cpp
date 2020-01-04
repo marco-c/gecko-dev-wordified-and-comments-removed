@@ -21430,6 +21430,11 @@ GetFocusManager
 (
 )
 ;
+EnsureDocument
+(
+mPresContext
+)
+;
 if
 (
 !
