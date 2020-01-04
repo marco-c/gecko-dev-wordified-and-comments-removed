@@ -814,6 +814,9 @@ suspendAfterSynthesizeResponse
 bool
 allowStaleCacheContent
 ;
+nsCString
+contentTypeHint
+;
 }
 ;
 struct

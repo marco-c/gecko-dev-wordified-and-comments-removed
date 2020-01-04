@@ -467,6 +467,10 @@ const
 bool
 &
 aAllowStaleCacheContent
+const
+nsCString
+&
+aContentTypeHint
 )
 ;
 virtual

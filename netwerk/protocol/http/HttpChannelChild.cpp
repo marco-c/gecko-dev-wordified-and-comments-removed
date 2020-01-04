@@ -7934,6 +7934,14 @@ allowStaleCacheContent
 =
 mAllowStaleCacheContent
 ;
+openArgs
+.
+contentTypeHint
+(
+)
+=
+mContentTypeHint
+;
 nsresult
 rv
 =

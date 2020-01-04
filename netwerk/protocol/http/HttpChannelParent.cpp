@@ -801,6 +801,11 @@ a
 allowStaleCacheContent
 (
 )
+a
+.
+contentTypeHint
+(
+)
 )
 ;
 }
@@ -1349,6 +1354,10 @@ const
 bool
 &
 aAllowStaleCacheContent
+const
+nsCString
+&
+aContentTypeHint
 )
 {
 nsCOMPtr
@@ -2249,6 +2258,14 @@ mChannel
 SetAllowStaleCacheContent
 (
 aAllowStaleCacheContent
+)
+;
+mChannel
+-
+>
+SetContentType
+(
+aContentTypeHint
 )
 ;
 if
