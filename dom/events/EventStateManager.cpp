@@ -3292,7 +3292,7 @@ case
 eContentCommandCut
 :
 case
-NS_CONTENT_COMMAND_COPY
+eContentCommandCopy
 :
 case
 NS_CONTENT_COMMAND_PASTE
@@ -21113,7 +21113,7 @@ cmd_cut
 break
 ;
 case
-NS_CONTENT_COMMAND_COPY
+eContentCommandCopy
 :
 cmd
 =

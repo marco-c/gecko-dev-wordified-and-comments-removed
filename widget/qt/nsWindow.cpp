@@ -5476,7 +5476,7 @@ Key_F16
 return
 DispatchContentCommandEvent
 (
-NS_CONTENT_COMMAND_COPY
+eContentCommandCopy
 )
 ;
 case

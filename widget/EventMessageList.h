@@ -1169,7 +1169,7 @@ eContentCommandEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_CONTENT_COMMAND_COPY
+eContentCommandCopy
 eContentCommandEventFirst
 +
 1
