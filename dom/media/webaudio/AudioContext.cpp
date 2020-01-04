@@ -4171,6 +4171,10 @@ firstNode
 &
 &
 mDestination
+&
+&
+!
+mIsShutDown
 )
 {
 mDestination
