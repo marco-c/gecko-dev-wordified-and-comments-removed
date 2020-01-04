@@ -2180,7 +2180,7 @@ nsISelectionController
 :
 :
 SELECTION_FIND
-SELECTION_URLSECONDARY
+eURLSecondary
 =
 nsISelectionController
 :

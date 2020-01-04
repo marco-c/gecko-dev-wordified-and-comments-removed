@@ -15488,7 +15488,7 @@ mSelectionType
 SelectionType
 :
 :
-SELECTION_URLSECONDARY
+eURLSecondary
 &
 &
 curDetail
