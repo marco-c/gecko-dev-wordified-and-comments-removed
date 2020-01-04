@@ -589,7 +589,7 @@ nsRefPtrHashtable
 <
 nsPtrHashKey
 <
-nsISupports
+nsIDocument
 >
 imgRequestProxy
 >
