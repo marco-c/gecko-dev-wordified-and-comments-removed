@@ -150,6 +150,13 @@ async
 js
 '
 '
+blocklist
+-
+updater
+.
+js
+'
+'
 kinto
 -
 http
@@ -164,13 +171,6 @@ kinto
 offline
 -
 client
-.
-js
-'
-'
-kinto
--
-updater
 .
 js
 '
