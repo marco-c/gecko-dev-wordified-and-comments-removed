@@ -801,12 +801,17 @@ nsContentPermissionHelper
 h
 "
 #
+ifdef
+NS_PRINTING
+#
 include
 "
 nsPrintingProxy
 .
 h
 "
+#
+endif
 #
 include
 "
