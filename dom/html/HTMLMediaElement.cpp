@@ -1337,10 +1337,7 @@ GetIntrinsicSize
 )
 )
 ;
-aGraph
--
->
-DispatchToMainThreadAfterStreamStateUpdate
+NS_DispatchToMainThread
 (
 event
 .
