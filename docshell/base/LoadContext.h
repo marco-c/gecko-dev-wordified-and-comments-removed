@@ -313,8 +313,9 @@ mPrivateBrowsingId
 explicit
 LoadContext
 (
-uint32_t
-aAppId
+DocShellOriginAttributes
+&
+aAttrs
 )
 :
 mTopFrameElement
@@ -331,7 +332,12 @@ false
 )
 mUsePrivateBrowsing
 (
-false
+aAttrs
+.
+mPrivateBrowsingId
+!
+=
+0
 )
 mUseRemoteTabs
 (
@@ -339,8 +345,7 @@ false
 )
 mOriginAttributes
 (
-aAppId
-false
+aAttrs
 )
 #
 ifdef
