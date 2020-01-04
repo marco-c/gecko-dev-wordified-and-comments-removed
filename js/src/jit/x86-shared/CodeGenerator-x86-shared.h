@@ -1844,6 +1844,14 @@ T
 mem
 )
 ;
+void
+setReturnDoubleRegs
+(
+LiveRegisterSet
+*
+regs
+)
+;
 }
 ;
 class
