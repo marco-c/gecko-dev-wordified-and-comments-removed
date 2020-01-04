@@ -172,7 +172,7 @@ Func
 nsDocument
 :
 :
-IsWebAnimationsEnabled
+IsElementAnimateEnabled
 "
 Constructor
 (
