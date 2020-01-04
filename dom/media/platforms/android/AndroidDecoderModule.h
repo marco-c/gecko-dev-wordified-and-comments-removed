@@ -44,7 +44,7 @@ h
 #
 include
 <
-queue
+deque
 >
 namespace
 mozilla
@@ -53,7 +53,7 @@ typedef
 std
 :
 :
-queue
+deque
 <
 RefPtr
 <
@@ -584,7 +584,7 @@ mQueue
 std
 :
 :
-queue
+deque
 <
 media
 :
