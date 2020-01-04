@@ -201,9 +201,6 @@ TestVector
 '
 TestWeakPtr
 '
-'
-TestXorShift128PlusRNG
-'
 ]
 )
 if
