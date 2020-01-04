@@ -14093,12 +14093,6 @@ AdoptedBlobVariant
 data
 )
 ;
-upgradedBlobData
-.
-release
-(
-)
-;
 result
 .
 forget
@@ -18305,7 +18299,7 @@ data
 (
 newIdv
 .
-get
+release
 (
 )
 newIdvLength
@@ -18324,12 +18318,6 @@ storage
 AdoptedBlobVariant
 (
 data
-)
-;
-newIdv
-.
-release
-(
 )
 ;
 result
@@ -96779,7 +96767,7 @@ copiedBlobDataPair
 (
 indexValuesBlob
 .
-get
+release
 (
 )
 indexValuesBlobLength
@@ -96794,12 +96782,6 @@ storage
 AdoptedBlobVariant
 (
 copiedBlobDataPair
-)
-;
-indexValuesBlob
-.
-release
-(
 )
 ;
 value
