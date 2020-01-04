@@ -5407,6 +5407,15 @@ aSize
 )
 ;
 static
+bool
+CanScrollOriginClobberApz
+(
+nsIAtom
+*
+aScrollOrigin
+)
+;
+static
 FrameMetrics
 ComputeFrameMetrics
 (
