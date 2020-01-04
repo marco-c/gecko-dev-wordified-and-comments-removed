@@ -643,11 +643,6 @@ CantInlineTooManyArgs
 \
 _
 (
-CantInlineHeavyweight
-)
-\
-_
-(
 CantInlineNeedsArgsObj
 )
 \
