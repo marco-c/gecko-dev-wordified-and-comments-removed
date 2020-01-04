@@ -595,7 +595,7 @@ char16_t
 *
 sValidTypeNames
 [
-5
+4
 ]
 =
 {
@@ -609,12 +609,6 @@ MOZ_UTF16
 (
 "
 measure
-"
-)
-MOZ_UTF16
-(
-"
-navigation
 "
 )
 MOZ_UTF16

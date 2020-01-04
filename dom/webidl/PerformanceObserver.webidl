@@ -116,9 +116,7 @@ timeline
 #
 the
 -
-performance
--
-observer
+performanceobserver
 -
 interface
 *
