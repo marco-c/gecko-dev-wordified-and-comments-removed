@@ -2871,6 +2871,10 @@ CheckPointerCaptureState
 (
 uint32_t
 aPointerId
+uint16_t
+aPointerType
+bool
+aIsPrimary
 )
 ;
 static
