@@ -142,9 +142,6 @@ TiledContentClient
 .
 h
 "
-class
-gfxReusableSurfaceWrapper
-;
 namespace
 mozilla
 {

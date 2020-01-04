@@ -156,10 +156,6 @@ ipc
 Shmem
 Shmem
 ;
-friend
-class
-gfxReusableSharedImageSurfaceWrapper
-;
 protected
 :
 virtual

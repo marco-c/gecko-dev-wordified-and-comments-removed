@@ -180,13 +180,6 @@ h
 #
 include
 "
-gfxReusableSharedImageSurfaceWrapper
-.
-h
-"
-#
-include
-"
 nsExpirationTracker
 .
 h
