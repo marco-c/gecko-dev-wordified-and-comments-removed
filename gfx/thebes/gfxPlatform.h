@@ -1320,12 +1320,16 @@ CanUseHardwareVideoDecoding
 (
 )
 ;
-static
+virtual
 bool
 CanUseDirect3D11ANGLE
 (
 )
+{
+return
+false
 ;
+}
 void
 GetCompositorBackends
 (
