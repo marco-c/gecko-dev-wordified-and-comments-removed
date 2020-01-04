@@ -493,16 +493,6 @@ if
 winWidget
 1
 )
-asserts
--
-if
-(
-Android
-&
-&
-asyncPan
-1
-)
 load
 464407
 -
@@ -514,10 +504,6 @@ Bug
 450974
 on
 win
-Bug
-1217984
-on
-android
 load
 467080
 .
