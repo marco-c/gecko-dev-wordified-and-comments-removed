@@ -97,7 +97,7 @@ include
 "
 mozilla
 /
-Monitor
+Mutex
 .
 h
 "
@@ -980,7 +980,7 @@ mutable
 mozilla
 :
 :
-Monitor
+Mutex
 mTreeLock
 ;
 RefPtr
