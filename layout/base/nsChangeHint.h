@@ -897,6 +897,7 @@ nsRestyleHint
 nsRestyleHint_size_t
 ;
 inline
+MOZ_CONSTEXPR
 nsRestyleHint
 operator
 |
@@ -923,6 +924,7 @@ aRight
 ;
 }
 inline
+MOZ_CONSTEXPR
 nsRestyleHint
 operator
 &
@@ -993,6 +995,7 @@ aRight
 ;
 }
 inline
+MOZ_CONSTEXPR
 nsRestyleHint
 operator
 ~
@@ -1013,6 +1016,7 @@ aArg
 ;
 }
 inline
+MOZ_CONSTEXPR
 nsRestyleHint
 operator
 ^
