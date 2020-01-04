@@ -225,9 +225,6 @@ MOZ_CAPTURE
 MOZ_RAW
 =
 1
-MOZ_ANDROID_HISTORY
-=
-1
 #
 use
 custom
