@@ -285,6 +285,15 @@ aRv
 WorkerMainThreadRunnable
 (
 aWorkerPrivate
+NS_LITERAL_CSTRING
+(
+"
+BroadcastChannel
+:
+:
+Initialize
+"
+)
 )
 mWorkerPrivate
 (

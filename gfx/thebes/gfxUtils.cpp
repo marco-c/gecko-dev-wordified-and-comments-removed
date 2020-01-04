@@ -7882,6 +7882,15 @@ status
 WorkerMainThreadRunnable
 (
 workerPrivate
+NS_LITERAL_CSTRING
+(
+"
+GFX
+:
+:
+GetFeatureStatus
+"
+)
 )
 mGfxInfo
 (

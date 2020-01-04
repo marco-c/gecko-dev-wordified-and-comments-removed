@@ -4098,6 +4098,15 @@ aListener
 WorkerMainThreadRunnable
 (
 aWorkerPrivate
+NS_LITERAL_CSTRING
+(
+"
+ServiceWorkerRegistration
+:
+:
+StopListening
+"
+)
 )
 mListener
 (

@@ -3313,6 +3313,16 @@ aBody
 -
 >
 mWorkerPrivate
+NS_LITERAL_CSTRING
+(
+"
+Fetch
+:
+:
+Cancel
+Pump
+"
+)
 )
 mBody
 (
