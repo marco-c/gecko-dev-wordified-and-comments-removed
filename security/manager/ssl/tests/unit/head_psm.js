@@ -3041,6 +3041,7 @@ not
 match
 "
 )
+;
 }
 )
 ;
@@ -3474,6 +3475,7 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 }
+;
 function
 add_cert_override
 (

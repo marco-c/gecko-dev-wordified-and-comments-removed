@@ -1790,6 +1790,7 @@ b
 .
 sha256Fingerprint
 )
+;
 if
 (
 aBin

@@ -140,7 +140,7 @@ doOK
 (
 )
 {
-var
+let
 tokenList
 =
 document
@@ -151,13 +151,6 @@ getElementById
 tokens
 "
 )
-;
-var
-token
-=
-tokenList
-.
-value
 ;
 dialogParams
 .
@@ -172,7 +165,9 @@ dialogParams
 SetString
 (
 0
-token
+tokenList
+.
+value
 )
 ;
 return

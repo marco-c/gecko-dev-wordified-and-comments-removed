@@ -441,7 +441,7 @@ SetInt
 1
 )
 ;
-var
+let
 index
 =
 parseInt

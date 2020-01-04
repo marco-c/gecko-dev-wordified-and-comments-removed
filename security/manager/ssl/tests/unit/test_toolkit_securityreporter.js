@@ -227,6 +227,7 @@ com
 )
 ;
 }
+;
 }
 function
 readDataFromRequest

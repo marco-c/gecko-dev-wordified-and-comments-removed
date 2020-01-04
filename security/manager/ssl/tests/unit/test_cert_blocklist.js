@@ -938,6 +938,7 @@ certItems
 blocklist
 >
 "
+;
 var
 blocklists
 =
@@ -957,6 +958,7 @@ updatedBlocklist
 :
 updatedBlocklist
 }
+;
 function
 serveResponse
 (
@@ -1333,6 +1335,7 @@ run_next_test
 ;
 }
 }
+;
 Services
 .
 obs

@@ -77,6 +77,7 @@ nsCertificateDialogs
 ;
 1
 "
+;
 function
 viewCertHelper
 (
