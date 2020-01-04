@@ -2454,7 +2454,7 @@ case
 TextRangeType
 :
 :
-NS_TEXTRANGE_CONVERTEDTEXT
+eConvertedClause
 :
 case
 TextRangeType

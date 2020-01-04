@@ -3899,7 +3899,7 @@ case
 TextRangeType
 :
 :
-NS_TEXTRANGE_CONVERTEDTEXT
+eConvertedClause
 :
 type
 =

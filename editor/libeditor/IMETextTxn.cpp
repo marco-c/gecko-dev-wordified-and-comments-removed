@@ -552,7 +552,7 @@ case
 TextRangeType
 :
 :
-NS_TEXTRANGE_CONVERTEDTEXT
+eConvertedClause
 :
 return
 nsISelectionController

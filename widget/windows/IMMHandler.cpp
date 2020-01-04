@@ -8821,7 +8821,7 @@ return
 TextRangeType
 :
 :
-NS_TEXTRANGE_CONVERTEDTEXT
+eConvertedClause
 ;
 case
 ATTR_TARGET_NOTCONVERTED

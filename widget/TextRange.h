@@ -442,7 +442,7 @@ nsITextInputProcessor
 :
 :
 ATTR_SELECTED_RAW_CLAUSE
-NS_TEXTRANGE_CONVERTEDTEXT
+eConvertedClause
 =
 nsITextInputProcessor
 :

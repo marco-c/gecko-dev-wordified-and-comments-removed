@@ -8335,7 +8335,7 @@ mRangeType
 TextRangeType
 :
 :
-NS_TEXTRANGE_CONVERTEDTEXT
+eConvertedClause
 ;
 }
 MOZ_LOG
