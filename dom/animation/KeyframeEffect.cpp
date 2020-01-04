@@ -47,6 +47,15 @@ include
 "
 mozilla
 /
+AnimationUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 FloatingPoint
 .
 h
@@ -314,9 +323,6 @@ aRetVal
 .
 mLocalTime
 =
-dom
-:
-:
 AnimationUtils
 :
 :
@@ -8309,7 +8315,7 @@ bug
 "
 )
 ;
-AnimationCollection
+AnimationUtils
 :
 :
 LogAsyncAnimationFailure
@@ -8380,7 +8386,7 @@ bug
 "
 )
 ;
-AnimationCollection
+AnimationUtils
 :
 :
 LogAsyncAnimationFailure
@@ -8442,7 +8448,7 @@ bug
 "
 )
 ;
-AnimationCollection
+AnimationUtils
 :
 :
 LogAsyncAnimationFailure
@@ -8537,7 +8543,7 @@ element
 "
 )
 ;
-AnimationCollection
+AnimationUtils
 :
 :
 LogAsyncAnimationFailure

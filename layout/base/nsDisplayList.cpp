@@ -304,6 +304,15 @@ include
 "
 mozilla
 /
+AnimationUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventStates
 .
 h
@@ -27588,7 +27597,7 @@ animation
 "
 )
 ;
-AnimationCollection
+AnimationUtils
 :
 :
 LogAsyncAnimationFailure
@@ -27811,7 +27820,7 @@ animation
 "
 )
 ;
-AnimationCollection
+AnimationUtils
 :
 :
 LogAsyncAnimationFailure
@@ -28155,7 +28164,7 @@ Append
 '
 )
 ;
-AnimationCollection
+AnimationUtils
 :
 :
 LogAsyncAnimationFailure
