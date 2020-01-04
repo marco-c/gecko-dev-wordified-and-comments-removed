@@ -37,7 +37,7 @@ return
 {
 value
 :
-callFunction
+callContentFunction
 (
 iter
 .
@@ -99,7 +99,7 @@ return
 {
 value
 :
-callFunction
+callContentFunction
 (
 iter
 .

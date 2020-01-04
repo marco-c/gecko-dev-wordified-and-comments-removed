@@ -379,7 +379,7 @@ std_iterator
 var
 iterator
 =
-callFunction
+callContentFunction
 (
 method
 obj

@@ -1361,6 +1361,11 @@ _
 (
 CheckObjCoercible
 )
+\
+_
+(
+DebugCheckSelfHosted
+)
 #
 define
 FORWARD_DECLARE

@@ -209,6 +209,15 @@ call
 \
 macro
 (
+callContentFunction
+callContentFunction
+"
+callContentFunction
+"
+)
+\
+macro
+(
 callee
 callee
 "

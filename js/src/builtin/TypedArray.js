@@ -462,7 +462,7 @@ k
 var
 testResult
 =
-callFunction
+callContentFunction
 (
 callbackfn
 T
@@ -787,7 +787,7 @@ selected
 =
 ToBoolean
 (
-callFunction
+callContentFunction
 (
 callbackfn
 T
@@ -980,7 +980,7 @@ k
 ;
 if
 (
-callFunction
+callContentFunction
 (
 predicate
 T
@@ -1114,7 +1114,7 @@ k
 {
 if
 (
-callFunction
+callContentFunction
 (
 predicate
 T
@@ -1248,7 +1248,7 @@ k
 +
 )
 {
-callFunction
+callContentFunction
 (
 callbackfn
 T
@@ -1879,7 +1879,7 @@ k
 var
 mappedValue
 =
-callFunction
+callContentFunction
 (
 callbackfn
 T
@@ -2053,7 +2053,7 @@ k
 {
 accumulator
 =
-callFunction
+callContentFunction
 (
 callbackfn
 undefined
@@ -2224,7 +2224,7 @@ k
 {
 accumulator
 =
-callFunction
+callContentFunction
 (
 callbackfn
 undefined
@@ -3215,7 +3215,7 @@ k
 var
 testResult
 =
-callFunction
+callContentFunction
 (
 callbackfn
 T
@@ -3861,7 +3861,7 @@ true
 var
 next
 =
-callFunction
+callContentFunction
 (
 iterator
 .
@@ -3945,7 +3945,7 @@ mappedValue
 =
 mapping
 ?
-callFunction
+callContentFunction
 (
 mapfn
 T
@@ -4023,7 +4023,7 @@ mappedValue
 =
 mapping
 ?
-callFunction
+callContentFunction
 (
 mapfn
 T

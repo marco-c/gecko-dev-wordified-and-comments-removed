@@ -1810,5 +1810,10 @@ _
 (
 CheckObjCoercible
 )
+\
+_
+(
+DebugCheckSelfHosted
+)
 #
 endif
