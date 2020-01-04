@@ -2258,10 +2258,6 @@ NS_IsMainThread
 )
 )
 ;
-sInShutdown
-=
-true
-;
 Cleanup
 (
 )
@@ -2677,6 +2673,10 @@ NS_XPCOM_SHUTDOWN_OBSERVER_ID
 )
 )
 {
+sInShutdown
+=
+true
+;
 return
 HandleShutdown
 (
