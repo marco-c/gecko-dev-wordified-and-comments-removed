@@ -343,7 +343,7 @@ nsIPresentationServiceCallback
 *
 aCallback
 const
-PresentationRequest
+PresentationIPCRequest
 &
 aRequest
 )

@@ -162,7 +162,7 @@ sessionId
 }
 ;
 union
-PresentationRequest
+PresentationIPCRequest
 {
 StartSessionRequest
 ;
@@ -234,7 +234,7 @@ aSessionId
 ;
 PPresentationRequest
 (
-PresentationRequest
+PresentationIPCRequest
 aRequest
 )
 ;

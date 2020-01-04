@@ -70,7 +70,7 @@ PPresentationRequestChild
 AllocPPresentationRequestChild
 (
 const
-PresentationRequest
+PresentationIPCRequest
 &
 aRequest
 )

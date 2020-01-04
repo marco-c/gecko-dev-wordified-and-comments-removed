@@ -2898,6 +2898,7 @@ AvailableIn
 "
 PrivilegedApps
 "
+SameObject
 ]
 readonly
 attribute

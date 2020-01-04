@@ -35,7 +35,7 @@ namespace
 dom
 {
 class
-PresentationRequest
+PresentationIPCRequest
 ;
 class
 PresentationResponderLoadingCallback
@@ -118,7 +118,7 @@ nsIPresentationServiceCallback
 *
 aCallback
 const
-PresentationRequest
+PresentationIPCRequest
 &
 aRequest
 )
