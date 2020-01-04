@@ -623,7 +623,7 @@ parseModifiers_
 =
 function
 (
-event
+modifiers
 )
 {
 let
@@ -633,7 +633,7 @@ mval
 ;
 if
 (
-event
+modifiers
 .
 shiftKey
 )
@@ -650,7 +650,7 @@ SHIFT_MASK
 }
 if
 (
-event
+modifiers
 .
 ctrlKey
 )
@@ -667,7 +667,7 @@ CONTROL_MASK
 }
 if
 (
-event
+modifiers
 .
 altKey
 )
@@ -684,7 +684,7 @@ ALT_MASK
 }
 if
 (
-event
+modifiers
 .
 metaKey
 )
@@ -701,7 +701,7 @@ META_MASK
 }
 if
 (
-event
+modifiers
 .
 accelKey
 )
