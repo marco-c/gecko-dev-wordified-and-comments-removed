@@ -302,15 +302,6 @@ AudioChannel
 aValue
 )
 ;
-void
-SetCanPlay
-(
-float
-aVolume
-bool
-aMuted
-)
-;
 SelfReference
 <
 AudioDestinationNode
@@ -345,7 +336,7 @@ bool
 mIsOffline
 ;
 bool
-mAudioChannelAgentPlaying
+mAudioChannelSuspended
 ;
 bool
 mCaptured
