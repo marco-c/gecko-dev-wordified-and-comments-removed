@@ -131,10 +131,7 @@ f
 ;
 checkIsArrow
 (
-(
-void
-0
-)
+false
 '
 (
 {
