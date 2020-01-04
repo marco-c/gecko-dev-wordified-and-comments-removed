@@ -168,7 +168,13 @@ assertEq
 (
 frameThis
 .
-optimizedOut
-true
+unsafeDereference
+(
+)
+.
+valueOf
+(
+)
+22
 )
 ;
