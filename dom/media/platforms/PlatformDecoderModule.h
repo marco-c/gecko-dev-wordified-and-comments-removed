@@ -126,6 +126,7 @@ nsACString
 &
 aMimeType
 )
+const
 =
 0
 ;
