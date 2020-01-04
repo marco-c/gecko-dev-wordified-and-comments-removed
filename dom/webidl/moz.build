@@ -2045,11 +2045,6 @@ ServiceWorkerGlobalScope
 webidl
 '
 '
-ServiceWorkerMessageEvent
-.
-webidl
-'
-'
 SettingChangeNotification
 .
 webidl
@@ -3434,6 +3429,11 @@ webidl
 '
 '
 BluetoothGatt
+.
+webidl
+'
+'
+BluetoothGattAttributeEvent
 .
 webidl
 '
