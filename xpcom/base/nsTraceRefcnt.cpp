@@ -4482,10 +4482,8 @@ nullptr
 #
 endif
 }
+static
 void
-nsTraceRefcnt
-:
-:
 WalkTheStackCached
 (
 FILE
@@ -5114,9 +5112,6 @@ PR_GetCurrentThread
 )
 )
 ;
-nsTraceRefcnt
-:
-:
 WalkTheStackCached
 (
 gAllocLog
@@ -5172,9 +5167,6 @@ PR_GetCurrentThread
 )
 )
 ;
-nsTraceRefcnt
-:
-:
 WalkTheStackCached
 (
 gRefcntsLog
@@ -5433,9 +5425,6 @@ PR_GetCurrentThread
 )
 )
 ;
-nsTraceRefcnt
-:
-:
 WalkTheStackCached
 (
 gRefcntsLog
@@ -5497,9 +5486,6 @@ PR_GetCurrentThread
 )
 )
 ;
-nsTraceRefcnt
-:
-:
 WalkTheStackCached
 (
 gAllocLog
@@ -5694,9 +5680,6 @@ serialno
 aInstanceSize
 )
 ;
-nsTraceRefcnt
-:
-:
 WalkTheStackCached
 (
 gAllocLog
@@ -5876,9 +5859,6 @@ serialno
 aInstanceSize
 )
 ;
-nsTraceRefcnt
-:
-:
 WalkTheStackCached
 (
 gAllocLog
@@ -6064,9 +6044,6 @@ count
 aCOMPtr
 )
 ;
-nsTraceRefcnt
-:
-:
 WalkTheStackCached
 (
 gCOMPtrLog
@@ -6252,9 +6229,6 @@ count
 aCOMPtr
 )
 ;
-nsTraceRefcnt
-:
-:
 WalkTheStackCached
 (
 gCOMPtrLog
