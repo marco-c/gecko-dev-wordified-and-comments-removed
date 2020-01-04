@@ -827,6 +827,10 @@ const
 bool
 &
 aSameOrigin
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 :
 mOwnerThread
@@ -844,6 +848,10 @@ false
 mSameOrigin
 (
 aSameOrigin
+)
+mPrincipalHandle
+(
+aPrincipalHandle
 )
 mAudioQueue
 (
@@ -1591,6 +1599,10 @@ AudioSegment
 aOutput
 uint32_t
 aRate
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 {
 static
@@ -1839,7 +1851,7 @@ audio
 -
 >
 mFrames
-PRINCIPAL_HANDLE_NONE
+aPrincipalHandle
 )
 ;
 aStream
@@ -1876,6 +1888,10 @@ double
 aVolume
 bool
 aIsSameOrigin
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 {
 AssertOwnerThread
@@ -1986,6 +2002,7 @@ i
 &
 output
 rate
+aPrincipalHandle
 )
 ;
 }
@@ -2094,6 +2111,10 @@ aIntrinsicSize
 VideoSegment
 *
 aOutput
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 {
 RefPtr
@@ -2138,7 +2159,7 @@ forget
 )
 duration
 aIntrinsicSize
-PRINCIPAL_HANDLE_NONE
+aPrincipalHandle
 )
 ;
 }
@@ -2181,6 +2202,10 @@ SendVideo
 (
 bool
 aIsSameOrigin
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 {
 AssertOwnerThread
@@ -2314,6 +2339,7 @@ mData
 mLastVideoImageDisplaySize
 &
 output
+aPrincipalHandle
 )
 ;
 mData
@@ -2365,6 +2391,7 @@ v
 mDisplay
 &
 output
+aPrincipalHandle
 )
 ;
 mData
@@ -2517,6 +2544,7 @@ mData
 mLastVideoImageDisplaySize
 &
 endSegment
+aPrincipalHandle
 )
 ;
 mData
@@ -2761,11 +2789,13 @@ mParams
 .
 mVolume
 mSameOrigin
+mPrincipalHandle
 )
 ;
 SendVideo
 (
 mSameOrigin
+mPrincipalHandle
 )
 ;
 AdvanceTracks

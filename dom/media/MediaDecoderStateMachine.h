@@ -2611,6 +2611,12 @@ mSameOriginMedia
 ;
 Mirror
 <
+PrincipalHandle
+>
+mMediaPrincipalHandle
+;
+Mirror
+<
 double
 >
 mPlaybackBytesPerSecond

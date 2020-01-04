@@ -146,6 +146,10 @@ const
 bool
 &
 aSameOrigin
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 ;
 const
@@ -308,6 +312,10 @@ double
 aVolume
 bool
 aIsSameOrigin
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 ;
 void
@@ -315,6 +323,10 @@ SendVideo
 (
 bool
 aIsSameOrigin
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 ;
 void
@@ -382,6 +394,11 @@ const
 bool
 &
 mSameOrigin
+;
+const
+PrincipalHandle
+&
+mPrincipalHandle
 ;
 PlaybackParams
 mParams
