@@ -625,7 +625,7 @@ ident
 char
 *
 )
-XPT_MALLOC
+XPT_CALLOC1
 (
 arena
 len

@@ -217,10 +217,11 @@ strlen
 name
 )
 ;
-return
-new
-(
-XPT_MALLOC
+void
+*
+place
+=
+XPT_CALLOC8
 (
 gXPTIStructArena
 sizeof
@@ -230,6 +231,11 @@ xptiInterfaceEntry
 +
 namelen
 )
+;
+return
+new
+(
+place
 )
 xptiInterfaceEntry
 (
