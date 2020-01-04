@@ -704,13 +704,6 @@ aOwner
 )
 ;
 void
-SetScrollVisibility
-(
-bool
-aState
-)
-;
-void
 HandleWheelEventAsDefaultAction
 (
 mozilla
@@ -1030,9 +1023,6 @@ UniquePtr
 PluginFrameDidCompositeObserver
 >
 mDidCompositeObserver
-;
-bool
-mIsHiddenDueToScroll
 ;
 }
 ;
