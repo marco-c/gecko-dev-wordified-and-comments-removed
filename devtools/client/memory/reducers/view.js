@@ -59,7 +59,7 @@ view
 =
 viewState
 .
-CENSUS
+TREE_MAP
 action
 )
 {
