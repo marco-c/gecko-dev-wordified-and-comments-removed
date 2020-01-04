@@ -4456,6 +4456,17 @@ uint32_t
 aMaxItemCount
 )
 ;
+static
+void
+FillAllMaskLists
+(
+nsStyleImageLayers
+&
+aLayers
+uint32_t
+aMaxItemCount
+)
+;
 private
 :
 #
