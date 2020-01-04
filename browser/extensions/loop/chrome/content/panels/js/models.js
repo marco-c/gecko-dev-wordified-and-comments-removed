@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 loop
 =
@@ -9,11 +14,11 @@ loop
 ;
 loop
 .
-shared
+panel
 =
 loop
 .
-shared
+panel
 |
 |
 {
@@ -21,11 +26,10 @@ shared
 ;
 loop
 .
-shared
+panel
 .
 models
 =
-(
 function
 (
 )
@@ -99,7 +103,6 @@ NotificationModel
 }
 ;
 }
-)
 (
 )
 ;

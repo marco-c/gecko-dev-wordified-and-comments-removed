@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 loop
 =
@@ -112,6 +117,7 @@ pluralRule
 getStrings
 :
 function
+getStrings
 (
 key
 )

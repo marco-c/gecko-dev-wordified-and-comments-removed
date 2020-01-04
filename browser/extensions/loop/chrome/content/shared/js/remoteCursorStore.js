@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 loop
 =
@@ -25,7 +30,6 @@ store
 .
 RemoteCursorStore
 =
-(
 function
 (
 )
@@ -75,6 +79,7 @@ videoScreenStreamChanged
 initialize
 :
 function
+initialize
 (
 options
 )
@@ -153,6 +158,7 @@ this
 getInitialStoreState
 :
 function
+getInitialStoreState
 (
 )
 {
@@ -173,6 +179,7 @@ null
 _cursorClickListener
 :
 function
+_cursorClickListener
 (
 )
 {
@@ -193,6 +200,7 @@ CLICK
 _cursorPositionChangeListener
 :
 function
+_cursorPositionChangeListener
 (
 event
 )
@@ -224,6 +232,7 @@ POSITION
 sendCursorData
 :
 function
+sendCursorData
 (
 actionData
 )
@@ -261,6 +270,7 @@ break
 receivedCursorData
 :
 function
+receivedCursorData
 (
 actionData
 )
@@ -324,6 +334,7 @@ break
 videoDimensionsChanged
 :
 function
+videoDimensionsChanged
 (
 actionData
 )
@@ -374,6 +385,7 @@ width
 videoScreenStreamChanged
 :
 function
+videoScreenStreamChanged
 (
 actionData
 )
@@ -407,7 +419,6 @@ return
 RemoteCursorStore
 ;
 }
-)
 (
 )
 ;

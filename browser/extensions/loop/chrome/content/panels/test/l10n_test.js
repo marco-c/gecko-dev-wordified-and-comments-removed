@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 expect
 =
@@ -113,6 +118,7 @@ US
 getStrings
 :
 function
+getStrings
 (
 key
 )
@@ -256,6 +262,7 @@ US
 getStrings
 :
 function
+getStrings
 (
 key
 )
@@ -382,6 +389,7 @@ US
 getStrings
 :
 function
+getStrings
 (
 key
 )
@@ -525,6 +533,7 @@ US
 getStrings
 :
 function
+getStrings
 (
 key
 )
@@ -589,6 +598,7 @@ key
 getPluralForm
 :
 function
+getPluralForm
 (
 num
 string

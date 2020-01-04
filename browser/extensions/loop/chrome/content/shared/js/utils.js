@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 loop
 =
@@ -160,6 +165,7 @@ mozL10n
 get
 :
 function
+get
 (
 )
 {
@@ -436,13 +442,6 @@ chat
 -
 text
 "
-ROOM_NAME
-:
-"
-room
--
-name
-"
 CONTEXT_TILE
 :
 "
@@ -488,14 +487,12 @@ timestamp
 var
 date
 =
-(
 new
 Date
 (
 timestamp
 *
 1000
-)
 )
 ;
 var
@@ -558,13 +555,11 @@ standalone
 1
 &
 &
-(
 "
 sendAsyncMessage
 "
 in
 rootObject
-)
 ;
 }
 function
@@ -843,6 +838,7 @@ var
 getOS
 =
 function
+getOS
 (
 platform
 withVersion
@@ -996,7 +992,6 @@ platform
 ;
 }
 else
-{
 if
 (
 platform
@@ -1040,7 +1035,6 @@ platform
 ]
 ;
 }
-}
 if
 (
 !
@@ -1083,6 +1077,7 @@ var
 getOSVersion
 =
 function
+getOSVersion
 (
 platform
 )
@@ -1386,6 +1381,7 @@ var
 getPlatform
 =
 function
+getPlatform
 (
 os
 )
@@ -1757,9 +1753,11 @@ return
 null
 ;
 }
+var
+sanitizedURL
+;
 try
 {
-var
 sanitizedURL
 =
 loop
@@ -1790,7 +1788,6 @@ if
 sanitizedURL
 |
 |
-(
 sanitizedURL
 .
 protocol
@@ -1825,7 +1822,6 @@ protocol
 ftp
 :
 "
-)
 )
 {
 return
@@ -2284,13 +2280,11 @@ index
 0
 &
 &
-(
 index
 *
 4
 /
 3
-)
 %
 76
 =

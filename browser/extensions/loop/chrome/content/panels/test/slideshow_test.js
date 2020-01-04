@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 describe
 (
 "
@@ -58,6 +63,7 @@ stubLoopRequest
 GetAllStrings
 :
 function
+GetAllStrings
 (
 )
 {
@@ -79,6 +85,7 @@ fakeText
 GetLocale
 :
 function
+GetLocale
 (
 )
 {
@@ -93,6 +100,7 @@ US
 GetPluralRule
 :
 function
+GetPluralRule
 (
 )
 {
@@ -103,6 +111,7 @@ return
 GetPluralForm
 :
 function
+GetPluralForm
 (
 )
 {
@@ -226,6 +235,7 @@ initialize
 getStrings
 :
 function
+getStrings
 (
 )
 {
@@ -334,7 +344,7 @@ sandbox
 .
 stub
 (
-React
+ReactDOM
 "
 render
 "

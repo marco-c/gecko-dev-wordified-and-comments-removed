@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 describe
 (
 "
@@ -3283,6 +3288,7 @@ return
 then
 :
 function
+then
 (
 resolve
 reject
@@ -3488,6 +3494,7 @@ return
 then
 :
 function
+then
 (
 resolve
 )

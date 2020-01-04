@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 loop
 =
@@ -631,6 +636,7 @@ kPushMessageName
 gListeningForPushMessages
 =
 function
+gListeningForPushMessages
 (
 message
 )

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 describe
 (
 "
@@ -2194,6 +2199,7 @@ var
 handler
 =
 function
+handler
 (
 )
 {
@@ -2268,6 +2274,7 @@ var
 handler
 =
 function
+handler
 (
 )
 {

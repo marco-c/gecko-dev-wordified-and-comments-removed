@@ -164,8 +164,6 @@ filter
 chatbox
 =
 >
-{
-return
 chatbox
 .
 src
@@ -177,8 +175,6 @@ getChatURL
 (
 windowId
 )
-;
-}
 )
 ;
 Assert

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 describe
 (
 "
@@ -121,6 +126,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+TestComp
+"
 mixins
 :
 [
@@ -145,6 +155,7 @@ function
 render
 :
 function
+render
 (
 )
 {
@@ -261,6 +272,7 @@ setRootObject
 addEventListener
 :
 function
+addEventListener
 (
 name
 cb
@@ -375,6 +387,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+TestComp
+"
 mixins
 :
 [
@@ -389,6 +406,7 @@ DocumentLocationMixin
 render
 :
 function
+render
 (
 )
 {
@@ -507,6 +525,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+TestComp
+"
 mixins
 :
 [
@@ -521,6 +544,7 @@ DocumentTitleMixin
 render
 :
 function
+render
 (
 )
 {
@@ -662,6 +686,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+TestComp
+"
 mixins
 :
 [
@@ -676,6 +705,7 @@ WindowCloseMixin
 render
 :
 function
+render
 (
 )
 {
@@ -806,6 +836,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+TestComp
+"
 mixins
 :
 [
@@ -826,6 +861,7 @@ onDocumentVisibleStub
 render
 :
 function
+render
 (
 )
 {
@@ -866,6 +902,7 @@ document
 addEventListener
 :
 function
+addEventListener
 (
 _
 fn
@@ -1032,6 +1069,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+TestComp
+"
 mixins
 :
 [
@@ -1046,6 +1088,7 @@ MediaSetupMixin
 render
 :
 function
+render
 (
 )
 {
@@ -1245,6 +1288,7 @@ stubLoopRequest
 GetDoNotDisturb
 :
 function
+GetDoNotDisturb
 (
 )
 {
@@ -1313,6 +1357,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+TestComp
+"
 mixins
 :
 [
@@ -1327,6 +1376,7 @@ AudioMixin
 componentDidMount
 :
 function
+componentDidMount
 (
 )
 {
@@ -1343,6 +1393,7 @@ failure
 render
 :
 function
+render
 (
 )
 {
@@ -1451,6 +1502,7 @@ stubLoopRequest
 GetDoNotDisturb
 :
 function
+GetDoNotDisturb
 (
 )
 {
@@ -1557,6 +1609,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+TestComp
+"
 mixins
 :
 [
@@ -1571,6 +1628,7 @@ RoomsAudioMixin
 render
 :
 function
+render
 (
 )
 {
@@ -1587,6 +1645,7 @@ div
 getInitialState
 :
 function
+getInitialState
 (
 )
 {

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 loop
 =
@@ -25,7 +30,6 @@ store
 .
 createStore
 =
-(
 function
 (
 )
@@ -42,6 +46,7 @@ baseStorePrototype
 __registerActions
 :
 function
+__registerActions
 (
 actions
 )
@@ -106,6 +111,7 @@ actions
 dispatchAction
 :
 function
+dispatchAction
 (
 action
 )
@@ -123,6 +129,7 @@ action
 getStoreState
 :
 function
+getStoreState
 (
 key
 )
@@ -145,16 +152,23 @@ _storeState
 setStoreState
 :
 function
+setStoreState
 (
 newState
 )
 {
-for
+Object
+.
+keys
 (
-var
-key
-in
 newState
+)
+.
+forEach
+(
+function
+(
+key
 )
 {
 this
@@ -182,6 +196,13 @@ key
 )
 ;
 }
+.
+bind
+(
+this
+)
+)
+;
 this
 .
 trigger
@@ -195,6 +216,7 @@ change
 resetStoreState
 :
 function
+resetStoreState
 (
 )
 {
@@ -246,6 +268,7 @@ var
 BaseStore
 =
 function
+BaseStore
 (
 dispatcher
 options
@@ -389,7 +412,6 @@ return
 createStore
 ;
 }
-)
 (
 )
 ;
@@ -399,7 +421,6 @@ store
 .
 StoreMixin
 =
-(
 function
 (
 )
@@ -426,6 +447,7 @@ return
 getStore
 :
 function
+getStore
 (
 )
 {
@@ -479,6 +501,7 @@ id
 getStoreState
 :
 function
+getStoreState
 (
 )
 {
@@ -497,6 +520,7 @@ getStoreState
 componentWillMount
 :
 function
+componentWillMount
 (
 )
 {
@@ -534,6 +558,7 @@ this
 componentWillUnmount
 :
 function
+componentWillUnmount
 (
 )
 {
@@ -594,7 +619,6 @@ return
 StoreMixin
 ;
 }
-)
 (
 )
 ;

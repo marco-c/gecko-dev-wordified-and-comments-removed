@@ -127,11 +127,6 @@ mockPushHandler
 :
 true
 "
-OpenBrowserWindow
-"
-:
-true
-"
 promiseDeletedOAuthParams
 "
 :

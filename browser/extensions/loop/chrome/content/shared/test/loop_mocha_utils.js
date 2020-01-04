@@ -1,7 +1,11 @@
+"
+use
+strict
+"
+;
 var
 LoopMochaUtils
 =
-(
 function
 (
 global
@@ -1174,7 +1178,6 @@ trapErrors
 }
 ;
 }
-)
 (
 this
 _

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 loop
 =
@@ -51,6 +56,7 @@ isRequired
 onFeedbackButtonClick
 :
 function
+onFeedbackButtonClick
 (
 )
 {
@@ -149,10 +155,12 @@ this
 render
 :
 function
+render
 (
 )
 {
 return
+(
 React
 .
 createElement
@@ -259,6 +267,7 @@ get
 "
 feedback_request_button
 "
+)
 )
 )
 )

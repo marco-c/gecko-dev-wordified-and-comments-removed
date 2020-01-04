@@ -384,8 +384,6 @@ entry
 received
 >
 p
->
-span
 "
 )
         

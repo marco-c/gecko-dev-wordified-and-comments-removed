@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 loop
 =
@@ -25,7 +30,6 @@ shared
 .
 mixins
 =
-(
 function
 (
 )
@@ -58,6 +62,7 @@ UrlHashChangeMixin
 componentDidMount
 :
 function
+componentDidMount
 (
 )
 {
@@ -78,6 +83,7 @@ false
 componentWillUnmount
 :
 function
+componentWillUnmount
 (
 )
 {
@@ -104,6 +110,7 @@ DocumentLocationMixin
 locationReload
 :
 function
+locationReload
 (
 )
 {
@@ -125,6 +132,7 @@ DocumentTitleMixin
 setTitle
 :
 function
+setTitle
 (
 newTitle
 )
@@ -147,6 +155,7 @@ WindowCloseMixin
 closeWindow
 :
 function
+closeWindow
 (
 )
 {
@@ -163,6 +172,7 @@ var
 DropdownMenuMixin
 =
 function
+DropdownMenuMixin
 (
 boundingBoxSelector
 )
@@ -185,6 +195,7 @@ body
 getInitialState
 :
 function
+getInitialState
 (
 )
 {
@@ -199,6 +210,7 @@ false
 _onBodyClick
 :
 function
+_onBodyClick
 (
 event
 )
@@ -216,22 +228,6 @@ menu
 button
 "
 ]
-&
-&
-this
-.
-refs
-[
-"
-menu
--
-button
-"
-]
-.
-getDOMNode
-(
-)
 ;
 if
 (
@@ -249,10 +245,6 @@ this
 refs
 .
 anchor
-.
-getDOMNode
-(
-)
 ;
 }
 if
@@ -323,6 +315,7 @@ false
 _correctMenuPosition
 :
 function
+_correctMenuPosition
 (
 )
 {
@@ -334,17 +327,6 @@ this
 refs
 .
 menu
-&
-&
-this
-.
-refs
-.
-menu
-.
-getDOMNode
-(
-)
 ;
 if
 (
@@ -514,14 +496,15 @@ refs
 anchor
 &
 &
+ReactDOM
+.
+findDOMNode
+(
 this
 .
 refs
 .
 anchor
-.
-getDOMNode
-(
 )
 ;
 if
@@ -548,21 +531,17 @@ anchorNodeRect
 .
 left
 -
-(
 menuNodeRect
 .
 width
 /
 2
-)
 +
-(
 anchorNodeRect
 .
 width
 /
 2
-)
 )
 ;
 y
@@ -775,13 +754,11 @@ menuNodeRect
 .
 height
 >
-(
 boundingRect
 .
 height
 +
 y
-)
 )
 {
 menu
@@ -801,13 +778,11 @@ style
 .
 maxHeight
 =
-(
 boundingRect
 .
 height
 +
 y
-)
 +
 "
 px
@@ -892,6 +867,7 @@ visible
 componentDidMount
 :
 function
+componentDidMount
 (
 )
 {
@@ -925,6 +901,7 @@ hideDropdownMenu
 componentWillUnmount
 :
 function
+componentWillUnmount
 (
 )
 {
@@ -958,6 +935,7 @@ hideDropdownMenu
 showDropdownMenu
 :
 function
+showDropdownMenu
 (
 )
 {
@@ -979,6 +957,7 @@ _correctMenuPosition
 hideDropdownMenu
 :
 function
+hideDropdownMenu
 (
 )
 {
@@ -1005,14 +984,15 @@ refs
 menu
 &
 &
+ReactDOM
+.
+findDOMNode
+(
 this
 .
 refs
 .
 menu
-.
-getDOMNode
-(
 )
 ;
 if
@@ -1038,6 +1018,7 @@ hidden
 toggleDropdownMenu
 :
 function
+toggleDropdownMenu
 (
 )
 {
@@ -1072,6 +1053,7 @@ DocumentVisibilityMixin
 _onDocumentVisibilityChanged
 :
 function
+_onDocumentVisibilityChanged
 (
 event
 )
@@ -1151,6 +1133,7 @@ onDocumentVisible
 componentDidMount
 :
 function
+componentDidMount
 (
 )
 {
@@ -1185,6 +1168,7 @@ document
 componentWillUnmount
 :
 function
+componentWillUnmount
 (
 )
 {
@@ -1212,6 +1196,7 @@ MediaSetupMixin
 getDefaultPublisherConfig
 :
 function
+getDefaultPublisherConfig
 (
 options
 )
@@ -1298,6 +1283,7 @@ null
 _isLoopDesktop
 :
 function
+_isLoopDesktop
 (
 )
 {
@@ -1348,6 +1334,7 @@ isUIShowcase
 _canPlay
 :
 function
+_canPlay
 (
 )
 {
@@ -1415,6 +1402,7 @@ this
 play
 :
 function
+play
 (
 name
 options
@@ -1560,6 +1548,7 @@ this
 _getAudioBlob
 :
 function
+_getAudioBlob
 (
 name
 callback
@@ -1824,6 +1813,7 @@ this
 _ensureAudioStopped
 :
 function
+_ensureAudioStopped
 (
 )
 {
@@ -1884,6 +1874,7 @@ audio
 componentWillUnmount
 :
 function
+componentWillUnmount
 (
 )
 {
@@ -1908,6 +1899,7 @@ AudioMixin
 componentWillUpdate
 :
 function
+componentWillUpdate
 (
 nextProps
 nextState
@@ -2213,7 +2205,6 @@ WindowCloseMixin
 }
 ;
 }
-)
 (
 )
 ;

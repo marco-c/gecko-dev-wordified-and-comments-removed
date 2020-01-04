@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 loop
 =
@@ -25,7 +30,6 @@ shared
 .
 urlRegExps
 =
-(
 function
 (
 )
@@ -388,7 +392,6 @@ fullUrlMatch
 }
 ;
 }
-)
 (
 )
 ;

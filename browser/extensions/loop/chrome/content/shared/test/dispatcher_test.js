@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 describe
 (
 "
@@ -555,6 +560,7 @@ mediaConnectedStore1
 mediaConnected
 :
 function
+mediaConnected
 (
 )
 {

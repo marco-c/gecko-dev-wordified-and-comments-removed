@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 expect
 =
@@ -151,6 +156,7 @@ requestStubs
 GetAllConstants
 :
 function
+GetAllConstants
 (
 )
 {
@@ -165,7 +171,7 @@ COPY_FROM_PANEL
 COPY_FROM_CONVERSATION
 :
 1
-EMAIL_FROM_PANEL
+EMAIL_FROM_CALLFAILED
 :
 2
 EMAIL_FROM_CONVERSATION
@@ -174,6 +180,9 @@ EMAIL_FROM_CONVERSATION
 FACEBOOK_FROM_CONVERSATION
 :
 4
+EMAIL_FROM_PANEL
+:
+5
 }
 ROOM_CREATE
 :
@@ -234,6 +243,7 @@ stub
 GetLoopPref
 :
 function
+GetLoopPref
 (
 prefName
 )
@@ -262,6 +272,7 @@ true
 NotifyUITour
 :
 function
+NotifyUITour
 (
 )
 {
@@ -734,6 +745,7 @@ GetAll
 "
 :
 function
+RoomsGetAll
 (
 )
 {
@@ -5785,6 +5797,7 @@ Update
 "
 :
 function
+RoomsUpdate
 (
 )
 {
@@ -5900,6 +5913,7 @@ Update
 "
 :
 function
+RoomsUpdate
 (
 )
 {
@@ -6435,6 +6449,7 @@ function
 getLoopPrefStub
 =
 function
+getLoopPrefStub
 (
 pref
 )

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 loop
 =
@@ -11,7 +16,6 @@ loop
 .
 Dispatcher
 =
-(
 function
 (
 )
@@ -87,6 +91,7 @@ prototype
 register
 :
 function
+register
 (
 store
 eventTypes
@@ -152,6 +157,7 @@ this
 unregister
 :
 function
+unregister
 (
 store
 eventTypes
@@ -257,6 +263,7 @@ this
 dispatch
 :
 function
+dispatch
 (
 action
 )
@@ -280,6 +287,7 @@ _dispatchNextAction
 _dispatchNextAction
 :
 function
+_dispatchNextAction
 (
 )
 {
@@ -447,7 +455,6 @@ return
 Dispatcher
 ;
 }
-)
 (
 )
 ;

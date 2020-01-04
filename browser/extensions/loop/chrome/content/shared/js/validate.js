@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 loop
 =
@@ -11,7 +16,6 @@ loop
 .
 validate
 =
-(
 function
 (
 )
@@ -178,6 +182,7 @@ prototype
 validate
 :
 function
+validate
 (
 values
 )
@@ -203,6 +208,7 @@ values
 _checkRequiredTypes
 :
 function
+_checkRequiredTypes
 (
 values
 )
@@ -315,6 +321,7 @@ this
 _checkRequiredProperties
 :
 function
+_checkRequiredProperties
 (
 values
 )
@@ -400,6 +407,7 @@ join
 _dependencyMatchTypes
 :
 function
+_dependencyMatchTypes
 (
 value
 types
@@ -497,7 +505,6 @@ Validator
 }
 ;
 }
-)
 (
 )
 ;

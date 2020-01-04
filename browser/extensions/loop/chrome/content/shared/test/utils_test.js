@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 describe
 (
 "
@@ -624,6 +629,7 @@ stubLoopRequest
 GetLoopPref
 :
 function
+GetLoopPref
 (
 prefName
 )
@@ -1864,8 +1870,7 @@ http
 :
 /
 /
-\
-u0261oogle
+oogle
 .
 com
 /
@@ -2290,6 +2295,7 @@ requestStubs
 GetAllConstants
 :
 function
+GetAllConstants
 (
 )
 {
@@ -2664,8 +2670,6 @@ sharedUtils
 strToUint8Array
 (
 "
-\
-uFDFD
 "
 )
 )
@@ -2869,8 +2873,6 @@ result
 eql
 (
 "
-\
-uFDFD
 "
 )
 ;

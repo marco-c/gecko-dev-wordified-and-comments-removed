@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 loop
 =
@@ -124,7 +129,6 @@ store
 .
 ActiveRoomStore
 =
-(
 function
 (
 mozL10n
@@ -289,6 +293,7 @@ fetchServerData
 initialize
 :
 function
+initialize
 (
 options
 )
@@ -385,6 +390,7 @@ videoMuted
 getInitialStoreState
 :
 function
+getInitialStoreState
 (
 )
 {
@@ -468,6 +474,7 @@ false
 roomFailure
 :
 function
+roomFailure
 (
 actionData
 )
@@ -624,6 +631,7 @@ failedJoinRequest
 retryAfterRoomFailure
 :
 function
+retryAfterRoomFailure
 (
 )
 {
@@ -760,6 +768,7 @@ return
 _registerPostSetupActions
 :
 function
+_registerPostSetupActions
 (
 )
 {
@@ -1032,6 +1041,7 @@ _onSocialShareUpdate
 setupWindowData
 :
 function
+setupWindowData
 (
 actionData
 )
@@ -1238,6 +1248,7 @@ this
 fetchServerData
 :
 function
+fetchServerData
 (
 actionData
 )
@@ -1372,6 +1383,7 @@ this
 _getRoomDataForStandalone
 :
 function
+_getRoomDataForStandalone
 (
 roomCryptoKey
 )
@@ -1664,6 +1676,7 @@ this
 _promiseDetectUserAgentHandles
 :
 function
+_promiseDetectUserAgentHandles
 (
 )
 {
@@ -1884,6 +1897,7 @@ this
 updateRoomInfo
 :
 function
+updateRoomInfo
 (
 actionData
 )
@@ -1953,6 +1967,7 @@ newState
 userAgentHandlesRoom
 :
 function
+userAgentHandlesRoom
 (
 actionData
 )
@@ -1974,6 +1989,7 @@ handlesRoom
 updateSocialShareInfo
 :
 function
+updateSocialShareInfo
 (
 actionData
 )
@@ -1995,6 +2011,7 @@ socialShareProviders
 _handleRoomUpdate
 :
 function
+_handleRoomUpdate
 (
 roomData
 )
@@ -2048,6 +2065,7 @@ roomUrl
 _handleRoomDelete
 :
 function
+_handleRoomDelete
 (
 )
 {
@@ -2074,6 +2092,7 @@ close
 _handleSocialShareUpdate
 :
 function
+_handleSocialShareUpdate
 (
 )
 {
@@ -2122,6 +2141,7 @@ this
 _checkDevicesAndJoinRoom
 :
 function
+_checkDevicesAndJoinRoom
 (
 )
 {
@@ -2191,6 +2211,7 @@ this
 _handoffRoomJoin
 :
 function
+_handoffRoomJoin
 (
 )
 {
@@ -2276,7 +2297,6 @@ could
 ;
 }
 else
-{
 if
 (
 e
@@ -2343,7 +2363,6 @@ expires
 )
 )
 ;
-}
 }
 }
 channelListener
@@ -2415,6 +2434,7 @@ roomToken
 joinRoom
 :
 function
+joinRoom
 (
 )
 {
@@ -2517,6 +2537,7 @@ _checkDevicesAndJoinRoom
 gotMediaPermission
 :
 function
+gotMediaPermission
 (
 )
 {
@@ -2640,6 +2661,7 @@ this
 joinedRoom
 :
 function
+joinedRoom
 (
 actionData
 )
@@ -2753,6 +2775,7 @@ sessionId
 connectedToSdkServers
 :
 function
+connectedToSdkServers
 (
 )
 {
@@ -2773,6 +2796,7 @@ SESSION_CONNECTED
 connectionFailure
 :
 function
+connectionFailure
 (
 actionData
 )
@@ -2833,6 +2857,7 @@ FAILED
 setMute
 :
 function
+setMute
 (
 actionData
 )
@@ -2870,6 +2895,7 @@ muteState
 mediaStreamCreated
 :
 function
+mediaStreamCreated
 (
 actionData
 )
@@ -2934,6 +2960,7 @@ srcMediaElement
 mediaStreamDestroyed
 :
 function
+mediaStreamDestroyed
 (
 actionData
 )
@@ -2974,6 +3001,7 @@ null
 remoteVideoStatus
 :
 function
+remoteVideoStatus
 (
 actionData
 )
@@ -2995,6 +3023,7 @@ videoEnabled
 mediaConnected
 :
 function
+mediaConnected
 (
 )
 {
@@ -3013,6 +3042,7 @@ true
 screenSharingState
 :
 function
+screenSharingState
 (
 actionData
 )
@@ -3059,6 +3089,7 @@ ACTIVE
 receivingScreenShare
 :
 function
+receivingScreenShare
 (
 actionData
 )
@@ -3154,6 +3185,7 @@ null
 _handleSwitchBrowserShare
 :
 function
+_handleSwitchBrowserShare
 (
 windowId
 )
@@ -3355,6 +3387,7 @@ _checkTabContext
 _checkTabContext
 :
 function
+_checkTabContext
 (
 )
 {
@@ -3481,6 +3514,7 @@ this
 startBrowserShare
 :
 function
+startBrowserShare
 (
 )
 {
@@ -3603,6 +3637,7 @@ _browserSharingListener
 endScreenShare
 :
 function
+endScreenShare
 (
 )
 {
@@ -3683,6 +3718,7 @@ INACTIVE
 toggleBrowserSharing
 :
 function
+toggleBrowserSharing
 (
 actionData
 )
@@ -3719,6 +3755,7 @@ _checkTabContext
 remotePeerConnected
 :
 function
+remotePeerConnected
 (
 )
 {
@@ -3745,6 +3782,7 @@ true
 remotePeerDisconnected
 :
 function
+remotePeerDisconnected
 (
 )
 {
@@ -3817,6 +3855,7 @@ false
 connectionStatus
 :
 function
+connectionStatus
 (
 actionData
 )
@@ -3853,6 +3892,7 @@ actionData
 windowUnload
 :
 function
+windowUnload
 (
 )
 {
@@ -3957,6 +3997,7 @@ _onSocialProvidersUpdate
 leaveRoom
 :
 function
+leaveRoom
 (
 actionData
 )
@@ -3981,6 +4022,7 @@ windowStayingOpen
 _setRefreshTimeout
 :
 function
+_setRefreshTimeout
 (
 expireTime
 )
@@ -4012,6 +4054,7 @@ expiresTimeFactor
 _refreshMembership
 :
 function
+_refreshMembership
 (
 )
 {
@@ -4094,6 +4137,7 @@ this
 _leaveRoom
 :
 function
+_leaveRoom
 (
 nextState
 failedJoinRequest
@@ -4314,6 +4358,7 @@ nextState
 feedbackComplete
 :
 function
+feedbackComplete
 (
 )
 {
@@ -4337,6 +4382,7 @@ false
 videoDimensionsChanged
 :
 function
+videoDimensionsChanged
 (
 actionData
 )
@@ -4407,6 +4453,7 @@ nextState
 videoScreenStreamChanged
 :
 function
+videoScreenStreamChanged
 (
 actionData
 )
@@ -4429,6 +4476,7 @@ hasVideo
 _handleTextChatMessage
 :
 function
+_handleTextChatMessage
 (
 actionData
 )
@@ -4509,6 +4557,7 @@ LOOP_ROOM_SESSION_WITHCHAT
 receivedTextChatMessage
 :
 function
+receivedTextChatMessage
 (
 actionData
 )
@@ -4524,6 +4573,7 @@ actionData
 sendTextChatMessage
 :
 function
+sendTextChatMessage
 (
 actionData
 )
@@ -4539,6 +4589,7 @@ actionData
 _hasParticipants
 :
 function
+_hasParticipants
 (
 )
 {
@@ -4598,7 +4649,6 @@ return
 ActiveRoomStore
 ;
 }
-)
 (
 navigator
 .
