@@ -3345,6 +3345,15 @@ return
 nullptr
 ;
 }
+if
+(
+mHaveAnimations
+)
+{
+return
+nullptr
+;
+}
 LookupResult
 result
 =
@@ -3365,9 +3374,6 @@ size
 aParams
 .
 svgContext
-aParams
-.
-animationTime
 )
 )
 ;
@@ -3685,9 +3691,6 @@ size
 aParams
 .
 svgContext
-aParams
-.
-animationTime
 )
 )
 ;
