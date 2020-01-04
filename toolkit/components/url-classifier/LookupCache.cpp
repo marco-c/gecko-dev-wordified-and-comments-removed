@@ -73,10 +73,8 @@ PREFIXSET_SUFFIX
 pset
 "
 extern
-mozilla
-:
-:
-LazyLogModule
+PRLogModuleInfo
+*
 gUrlClassifierDbServiceLog
 ;
 #
