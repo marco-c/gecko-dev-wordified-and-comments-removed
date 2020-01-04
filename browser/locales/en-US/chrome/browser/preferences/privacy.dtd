@@ -1170,17 +1170,6 @@ Tabs
 <
 !
 ENTITY
-browserContainersLearnMore
-.
-label
-"
-Learn
-more
-"
->
-<
-!
-ENTITY
 browserContainersEnabled
 .
 label
