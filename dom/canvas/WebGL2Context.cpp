@@ -437,13 +437,6 @@ gl
 GLFeature
 :
 :
-texture_float_linear
-gl
-:
-:
-GLFeature
-:
-:
 texture_half_float
 gl
 :

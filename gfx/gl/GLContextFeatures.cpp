@@ -1259,6 +1259,10 @@ ARB_texture_float
 GLContext
 :
 :
+EXT_color_buffer_float
+GLContext
+:
+:
 EXT_color_buffer_half_float
 GLContext
 :
