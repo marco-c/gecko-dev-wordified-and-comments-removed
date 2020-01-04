@@ -9184,7 +9184,7 @@ aEvent
 mFlags
 .
 mIsTrusted
-NS_MOUSE_SCROLL
+eLegacyMouseLineOrPageScroll
 aEvent
 -
 >

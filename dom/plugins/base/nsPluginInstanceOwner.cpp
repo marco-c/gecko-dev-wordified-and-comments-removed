@@ -8345,7 +8345,7 @@ return
 NPCocoaEventFocusChanged
 ;
 case
-NS_MOUSE_SCROLL
+eLegacyMouseLineOrPageScroll
 :
 return
 NPCocoaEventScrollWheel
@@ -8427,7 +8427,7 @@ anEvent
 mMessage
 =
 =
-NS_MOUSE_SCROLL
+eLegacyMouseLineOrPageScroll
 |
 |
 anEvent
@@ -8724,7 +8724,7 @@ break
 ;
 }
 case
-NS_MOUSE_SCROLL
+eLegacyMouseLineOrPageScroll
 :
 {
 WidgetWheelEvent
@@ -8775,12 +8775,14 @@ else
 NS_WARNING
 (
 "
-NS_MOUSE_SCROLL
+eLegacyMouseLineOrPageScroll
 is
 not
 a
 WidgetWheelEvent
 ?
+"
+"
 (
 could
 be
