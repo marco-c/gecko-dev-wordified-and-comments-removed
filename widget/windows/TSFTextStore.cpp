@@ -9669,7 +9669,7 @@ WidgetCompositionEvent
 compositionCommit
 (
 true
-NS_COMPOSITION_COMMIT
+eCompositionCommit
 mWidget
 )
 ;

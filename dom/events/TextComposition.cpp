@@ -1129,7 +1129,7 @@ aCompositionEvent
 mMessage
 =
 =
-NS_COMPOSITION_COMMIT
+eCompositionCommit
 )
 {
 NS_ASSERTION
@@ -1142,7 +1142,7 @@ mRanges
 "
 mRanges
 of
-NS_COMPOSITION_COMMIT
+eCompositionCommit
 should
 be
 null
@@ -1232,7 +1232,7 @@ case
 eCompositionCommitAsIs
 :
 case
-NS_COMPOSITION_COMMIT
+eCompositionCommit
 :
 committingData
 =
@@ -2015,7 +2015,7 @@ else
 {
 DispatchCompositionEventRunnable
 (
-NS_COMPOSITION_COMMIT
+eCompositionCommit
 data
 true
 )
@@ -2548,7 +2548,7 @@ case
 eCompositionCommitAsIs
 :
 case
-NS_COMPOSITION_COMMIT
+eCompositionCommit
 :
 {
 WidgetCompositionEvent

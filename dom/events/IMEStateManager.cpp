@@ -614,11 +614,11 @@ eCompositionCommitAsIs
 "
 ;
 case
-NS_COMPOSITION_COMMIT
+eCompositionCommit
 :
 return
 "
-NS_COMPOSITION_COMMIT
+eCompositionCommit
 "
 ;
 case

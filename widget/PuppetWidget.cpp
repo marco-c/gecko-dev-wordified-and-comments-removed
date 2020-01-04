@@ -2540,7 +2540,7 @@ WidgetCompositionEvent
 compositionCommitEvent
 (
 true
-NS_COMPOSITION_COMMIT
+eCompositionCommit
 this
 )
 ;

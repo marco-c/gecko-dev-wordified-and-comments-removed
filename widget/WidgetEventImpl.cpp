@@ -418,7 +418,7 @@ case
 eCompositionCommitAsIs
 :
 case
-NS_COMPOSITION_COMMIT
+eCompositionCommit
 :
 return
 true

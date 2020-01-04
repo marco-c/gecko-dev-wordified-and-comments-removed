@@ -17683,7 +17683,7 @@ message
 =
 aCommitString
 ?
-NS_COMPOSITION_COMMIT
+eCompositionCommit
 :
 eCompositionCommitAsIs
 ;

@@ -6269,7 +6269,7 @@ message
 =
 aCommitString
 ?
-NS_COMPOSITION_COMMIT
+eCompositionCommit
 :
 eCompositionCommitAsIs
 ;
@@ -6311,7 +6311,7 @@ if
 message
 =
 =
-NS_COMPOSITION_COMMIT
+eCompositionCommit
 )
 {
 compositionCommitEvent

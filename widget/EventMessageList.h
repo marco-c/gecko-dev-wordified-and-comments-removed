@@ -680,7 +680,7 @@ eCompositionEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_COMPOSITION_COMMIT
+eCompositionCommit
 eCompositionEventFirst
 +
 5

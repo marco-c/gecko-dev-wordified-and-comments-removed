@@ -1288,7 +1288,7 @@ eCompositionChange
 mMessage
 =
 =
-NS_COMPOSITION_COMMIT
+eCompositionCommit
 |
 |
 mMessage
@@ -1313,7 +1313,7 @@ eCompositionEnd
 mMessage
 =
 =
-NS_COMPOSITION_COMMIT
+eCompositionCommit
 |
 |
 mMessage
@@ -1332,7 +1332,7 @@ return
 mOriginalMessage
 =
 =
-NS_COMPOSITION_COMMIT
+eCompositionCommit
 |
 |
 mOriginalMessage
