@@ -394,10 +394,7 @@ http
 /
 {
 {
-domains
-[
-www
-]
+host
 }
 }
 :
@@ -408,7 +405,7 @@ ports
 http
 ]
 [
-0
+1
 ]
 }
 }

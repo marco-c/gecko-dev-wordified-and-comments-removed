@@ -73,6 +73,9 @@ with
 open
 (
 template_filename
+"
+r
+"
 )
 as
 f

@@ -2896,7 +2896,7 @@ keyArg
 dictionary
 MouseEventInit
 :
-SharedKeyboardAndMouseEventInit
+EventModifierInit
 {
 long
 screenX
@@ -2938,7 +2938,7 @@ null
 }
 ;
 dictionary
-SharedKeyboardAndMouseEventInit
+EventModifierInit
 :
 UIEventInit
 {
@@ -11805,8 +11805,10 @@ returnValue
 [
 Exposed
 =
+(
 Window
 SharedWorker
+)
 ]
 interface
 ApplicationCache
@@ -12802,10 +12804,10 @@ attribute
 MimeTypeArray
 mimeTypes
 ;
-readonly
-attribute
 boolean
 javaEnabled
+(
+)
 ;
 }
 ;
@@ -13709,7 +13711,12 @@ interface
 [
 Global
 =
+(
 Worker
+DedicatedWorker
+)
+Exposed
+=
 DedicatedWorker
 ]
 /
@@ -13744,7 +13751,12 @@ onmessage
 [
 Global
 =
+(
 Worker
+SharedWorker
+)
+Exposed
+=
 SharedWorker
 ]
 /
@@ -13869,11 +13881,6 @@ SharedWorker
 implements
 AbstractWorker
 ;
-[
-Exposed
-=
-Worker
-]
 partial
 interface
 WorkerGlobalScope
@@ -16217,7 +16224,6 @@ TrackEvent
 "
 addtrack
 "
-;
 {
 track
 :
