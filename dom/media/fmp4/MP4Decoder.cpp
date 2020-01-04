@@ -61,6 +61,15 @@ h
 #
 include
 "
+mozilla
+/
+SharedThreadPool
+.
+h
+"
+#
+include
+"
 nsMimeTypes
 .
 h
