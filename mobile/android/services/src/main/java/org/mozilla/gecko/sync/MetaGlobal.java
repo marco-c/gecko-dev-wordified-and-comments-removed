@@ -318,7 +318,7 @@ this
 ;
 r
 .
-deferGet
+get
 (
 )
 ;
