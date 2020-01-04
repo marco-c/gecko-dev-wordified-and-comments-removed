@@ -356,7 +356,7 @@ nsCSSPseudoElements
 :
 ePseudo_mozMathAnonymous
 ;
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >
@@ -1012,7 +1012,7 @@ SetUsesExChUnits
 true
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsFontMetrics
 >
@@ -1603,7 +1603,7 @@ GetDrawTarget
 Rect
 rect
 =
-NSRectToSnappedRect
+NSRectToNonEmptySnappedRect
 (
 mRect
 +
