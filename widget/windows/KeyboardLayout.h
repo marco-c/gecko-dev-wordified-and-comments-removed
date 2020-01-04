@@ -954,6 +954,16 @@ HandleAppCommandMessage
 )
 const
 ;
+void
+WillDispatchKeyboardEvent
+(
+WidgetKeyboardEvent
+&
+aKeyboardEvent
+uint32_t
+aIndex
+)
+;
 private
 :
 RefPtr
@@ -1498,7 +1508,7 @@ aEventCommand
 const
 ;
 bool
-DispatchKeyPressEventsWithKeyboardLayout
+DispatchKeyPressEventsWithoutCharMessage
 (
 )
 const
