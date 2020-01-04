@@ -169,9 +169,14 @@ PRFileDesc
 ;
 class
 nsZipItem
+final
 {
 public
 :
+nsZipItem
+(
+)
+;
 const
 char
 *
@@ -286,6 +291,7 @@ nsZipHandle
 ;
 class
 nsZipArchive
+final
 {
 friend
 class
@@ -519,6 +525,7 @@ delete
 ;
 class
 nsZipFind
+final
 {
 public
 :
@@ -601,6 +608,7 @@ delete
 ;
 class
 nsZipCursor
+final
 {
 public
 :
@@ -759,6 +767,7 @@ T
 >
 class
 nsZipItemPtr
+final
 :
 public
 nsZipItemPtr_base
@@ -897,6 +906,7 @@ ret
 ;
 class
 nsZipHandle
+final
 {
 friend
 class
