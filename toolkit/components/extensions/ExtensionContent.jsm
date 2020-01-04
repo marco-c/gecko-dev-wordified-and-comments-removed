@@ -188,7 +188,7 @@ jsm
 ;
 var
 {
-runSafeWithoutClone
+runSafeSyncWithoutClone
 MessageBroker
 Messenger
 ignoreEvent
@@ -737,7 +737,7 @@ resolve
 url
 )
 ;
-runSafeWithoutClone
+runSafeSyncWithoutClone
 (
 winUtils
 .
@@ -784,7 +784,7 @@ options
 cssCode
 )
 ;
-runSafeWithoutClone
+runSafeSyncWithoutClone
 (
 winUtils
 .
@@ -901,12 +901,13 @@ platform
 gonk
 "
 }
+runSafeSyncWithoutClone
+(
 Services
 .
 scriptloader
 .
 loadSubScriptWithOptions
-(
 url
 options
 )
