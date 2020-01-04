@@ -2209,6 +2209,8 @@ __NR_getcwd
 :
 CASES_FOR_statfs
 :
+CASES_FOR_fstatfs
+:
 case
 __NR_chmod
 :
