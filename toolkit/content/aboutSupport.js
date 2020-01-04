@@ -1436,6 +1436,9 @@ Wheel
 '
 Touch
 '
+'
+Drag
+'
 ]
 )
 {
