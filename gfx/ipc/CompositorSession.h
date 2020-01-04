@@ -117,8 +117,10 @@ const
 0
 ;
 virtual
+already_AddRefed
+<
 APZCTreeManager
-*
+>
 GetAPZCTreeManager
 (
 )
