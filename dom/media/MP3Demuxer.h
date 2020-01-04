@@ -205,6 +205,12 @@ Size
 )
 const
 ;
+uint8_t
+FooterSize
+(
+)
+const
+;
 bool
 IsValid
 (
