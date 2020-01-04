@@ -6928,6 +6928,14 @@ ErrorResult
 rv
 )
 ;
+already_AddRefed
+<
+nsIURI
+>
+GetMozDocumentURIIfNotForErrorPages
+(
+)
+;
 nsIHTMLCollection
 *
 Children
