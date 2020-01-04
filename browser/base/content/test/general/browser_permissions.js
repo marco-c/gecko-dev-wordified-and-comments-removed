@@ -290,6 +290,8 @@ emptyLabel
 permissionsList
 .
 nextSibling
+.
+nextSibling
 ;
 yield
 openIdentityPopup
@@ -815,6 +817,8 @@ let
 emptyLabel
 =
 permissionsList
+.
+nextSibling
 .
 nextSibling
 ;
