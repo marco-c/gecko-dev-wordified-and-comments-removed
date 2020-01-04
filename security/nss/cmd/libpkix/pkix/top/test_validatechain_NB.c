@@ -989,7 +989,7 @@ plContext
 ;
 ldapName
 =
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 LDAP
@@ -1101,7 +1101,7 @@ ldapName
 ;
 logging
 =
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 LOGGING

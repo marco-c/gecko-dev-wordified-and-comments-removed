@@ -691,7 +691,7 @@ db
 }
 disableUnload
 =
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 NSS_DISABLE_UNLOAD

@@ -3068,7 +3068,7 @@ char
 *
 ev
 =
-getenv
+PR_GetEnvSecure
 (
 "
 NSS_ENABLE_PKIX_VERIFY

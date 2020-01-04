@@ -413,7 +413,7 @@ char
 *
 forkAssert
 =
-getenv
+PR_GetEnvSecure
 (
 "
 NSS_STRICT_NOFORK
@@ -675,7 +675,7 @@ char
 *
 doForkCheck
 =
-getenv
+PR_GetEnvSecure
 (
 "
 NSS_STRICT_NOFORK

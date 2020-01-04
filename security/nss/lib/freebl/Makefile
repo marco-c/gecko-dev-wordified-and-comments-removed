@@ -1591,6 +1591,17 @@ gcm
 wrap
 .
 c
+ifeq
+(
+(
+CLANG_CL
+)
+1
+)
+INTEL_GCM_CLANG_CL
+=
+1
+endif
 endif
 MPI_SRCS
 +

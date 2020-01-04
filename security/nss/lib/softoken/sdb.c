@@ -649,7 +649,7 @@ azDirs
 1
 ]
 =
-getenv
+PR_GetEnvSecure
 (
 "
 TMPDIR
@@ -7644,7 +7644,7 @@ newInit
 }
 env
 =
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 NSS_SDB_USE_CACHE
@@ -8321,7 +8321,7 @@ env
 ;
 env
 =
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 NSS_SDB_USE_CACHE

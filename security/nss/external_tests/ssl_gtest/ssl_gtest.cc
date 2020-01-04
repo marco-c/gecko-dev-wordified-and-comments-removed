@@ -8,6 +8,13 @@ h
 #
 include
 "
+prenv
+.
+h
+"
+#
+include
+"
 nss
 .
 h
@@ -83,7 +90,7 @@ char
 *
 workdir
 =
-getenv
+PR_GetEnvSecure
 (
 "
 NSS_GTEST_WORKDIR

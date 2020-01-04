@@ -926,7 +926,7 @@ checkedEnv
 doFreeArenaPool
 =
 (
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 NSS_DISABLE_ARENA_FREE_LIST

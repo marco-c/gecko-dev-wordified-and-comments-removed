@@ -5037,7 +5037,7 @@ PR_FALSE
 }
 env
 =
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 NSS_DEFAULT_DB_TYPE

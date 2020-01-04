@@ -22,6 +22,13 @@ h
 #
 include
 "
+prenv
+.
+h
+"
+#
+include
+"
 nss
 .
 h
@@ -5938,7 +5945,7 @@ ifdef
 XP_UNIX
 home
 =
-getenv
+PR_GetEnvSecure
 (
 "
 HOME
@@ -5983,7 +5990,7 @@ fp
 ;
 home
 =
-getenv
+PR_GetEnvSecure
 (
 "
 JAR_HOME

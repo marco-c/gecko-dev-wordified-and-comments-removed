@@ -2684,7 +2684,7 @@ PKIX_Boolean
 abortOnLeak
 =
 (
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 PKIX_OBJECT_LEAK_TEST_ABORT_ON_LEAK
@@ -5800,7 +5800,7 @@ PKIX_Boolean
 abortOnLeak
 =
 (
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 PKIX_OBJECT_LEAK_TEST_ABORT_ON_LEAK

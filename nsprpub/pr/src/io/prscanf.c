@@ -740,6 +740,8 @@ p
 ;
 int
 ch
+=
+0
 ;
 static
 const
@@ -1465,6 +1467,8 @@ p
 ;
 int
 ch
+=
+0
 ;
 PRBool
 seenDigit

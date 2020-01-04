@@ -239,7 +239,7 @@ dir
 }
 if
 (
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 SIGNTOOL_DUMP_PARSE

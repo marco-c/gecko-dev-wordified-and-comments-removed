@@ -13116,7 +13116,7 @@ i
 ;
 fname
 =
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 NSS_OUTPUT_FILE

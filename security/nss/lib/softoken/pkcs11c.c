@@ -125,6 +125,13 @@ prprf
 h
 "
 #
+include
+"
+prenv
+.
+h
+"
+#
 define
 __PASTE
 (
@@ -21685,7 +21692,7 @@ break
 }
 if
 (
-getenv
+PR_GetEnvSecure
 (
 "
 NSS_USE_DECODED_CKA_EC_POINT

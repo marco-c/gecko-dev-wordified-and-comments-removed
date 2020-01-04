@@ -1668,7 +1668,7 @@ yys
 extern
 char
 *
-getenv
+PR_GetEnvSecure
 (
 )
 ;
@@ -1677,7 +1677,7 @@ if
 (
 yys
 =
-getenv
+PR_GetEnvSecure
 (
 "
 YYDEBUG

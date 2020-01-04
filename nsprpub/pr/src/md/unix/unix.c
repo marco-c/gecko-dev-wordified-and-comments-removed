@@ -14549,7 +14549,7 @@ endif
 if
 defined
 (
-HAVE_CLOCK_MONOTONIC
+_PR_HAVE_CLOCK_MONOTONIC
 )
 PRIntervalTime
 _PR_UNIX_GetInterval2

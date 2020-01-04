@@ -6308,7 +6308,7 @@ tmpfile
 }
 tmp
 =
-getenv
+PR_GetEnvSecure
 (
 "
 TMP
@@ -6322,7 +6322,7 @@ tmp
 )
 tmp
 =
-getenv
+PR_GetEnvSecure
 (
 "
 TMPDIR
@@ -6336,7 +6336,7 @@ tmp
 )
 tmp
 =
-getenv
+PR_GetEnvSecure
 (
 "
 TEMP

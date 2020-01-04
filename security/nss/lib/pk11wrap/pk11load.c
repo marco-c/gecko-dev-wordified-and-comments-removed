@@ -1793,7 +1793,7 @@ PR_TRUE
 {
 modToDBG
 =
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 NSS_DEBUG_PKCS11_MODULE
@@ -2361,7 +2361,7 @@ NULL
 ;
 disableUnload
 =
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 NSS_DISABLE_UNLOAD
@@ -2503,7 +2503,7 @@ softokenLib
 {
 disableUnload
 =
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 NSS_DISABLE_UNLOAD
@@ -2584,7 +2584,7 @@ SECFailure
 }
 disableUnload
 =
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 NSS_DISABLE_UNLOAD

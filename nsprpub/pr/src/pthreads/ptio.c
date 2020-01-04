@@ -18178,6 +18178,8 @@ ready
 ;
 PRIntervalTime
 start
+=
+0
 elapsed
 remaining
 ;
@@ -19318,6 +19320,8 @@ ready
 ;
 PRIntervalTime
 start
+=
+0
 elapsed
 remaining
 ;
@@ -23772,6 +23776,8 @@ rv
 ;
 PRIntervalTime
 start
+=
+0
 elapsed
 remaining
 ;

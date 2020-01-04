@@ -27,6 +27,13 @@ plhash
 h
 "
 #
+include
+"
+prenv
+.
+h
+"
+#
 ifdef
 XP_UNIX
 #
@@ -130,7 +137,7 @@ char
 *
 userdir
 =
-getenv
+PR_GetEnvSecure
 (
 "
 HOME
@@ -416,7 +423,7 @@ char
 *
 fipsEnv
 =
-getenv
+PR_GetEnvSecure
 (
 "
 NSS_FIPS

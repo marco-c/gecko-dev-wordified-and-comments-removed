@@ -168,7 +168,7 @@ if
 (
 tmp
 =
-getenv
+PR_GetEnvSecure
 (
 "
 RM_TESTS

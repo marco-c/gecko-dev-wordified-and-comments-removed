@@ -2699,7 +2699,7 @@ CKA_EC_POINT
 :
 if
 (
-getenv
+PR_GetEnvSecure
 (
 "
 NSS_USE_DECODED_CKA_EC_POINT

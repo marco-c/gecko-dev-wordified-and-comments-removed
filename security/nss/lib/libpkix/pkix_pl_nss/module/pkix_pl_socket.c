@@ -2281,7 +2281,7 @@ NULL
 ;
 val
 =
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 SOCKETTRACE

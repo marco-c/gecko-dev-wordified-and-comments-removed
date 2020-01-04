@@ -6735,7 +6735,7 @@ link_file
 endif
 disableUnload
 =
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 NSS_DISABLE_UNLOAD

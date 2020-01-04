@@ -2382,7 +2382,7 @@ GTEST_DISABLE_MSC_WARNINGS_PUSH_
 )
 if
 (
-getenv
+PR_GetEnvSecure
 (
 "
 TZ
@@ -2393,7 +2393,7 @@ saved_tz_
 =
 strdup
 (
-getenv
+PR_GetEnvSecure
 (
 "
 TZ

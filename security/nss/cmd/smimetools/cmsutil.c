@@ -6133,7 +6133,7 @@ char
 *
 ev
 =
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 NSS_DISABLE_ARENA_FREE_LIST
@@ -6147,7 +6147,7 @@ ev
 ;
 ev
 =
-PR_GetEnv
+PR_GetEnvSecure
 (
 "
 NSS_STRICT_SHUTDOWN

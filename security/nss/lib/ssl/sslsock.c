@@ -15251,7 +15251,7 @@ ifdef
 DEBUG
 ev
 =
-getenv
+PR_GetEnvSecure
 (
 "
 SSLDEBUGFILE
@@ -15296,7 +15296,7 @@ ifdef
 TRACE
 ev
 =
-getenv
+PR_GetEnvSecure
 (
 "
 SSLTRACE
@@ -15342,7 +15342,7 @@ ssl_trace
 endif
 ev
 =
-getenv
+PR_GetEnvSecure
 (
 "
 SSLDEBUG
@@ -15388,7 +15388,7 @@ ssl_debug
 endif
 ev
 =
-getenv
+PR_GetEnvSecure
 (
 "
 SSLKEYLOGFILE
@@ -15498,7 +15498,7 @@ ifndef
 NO_PKCS11_BYPASS
 ev
 =
-getenv
+PR_GetEnvSecure
 (
 "
 SSLBYPASS
@@ -15557,7 +15557,7 @@ bypassPKCS11
 endif
 ev
 =
-getenv
+PR_GetEnvSecure
 (
 "
 SSLFORCELOCKS
@@ -15620,7 +15620,7 @@ ssl_force_locks
 }
 ev
 =
-getenv
+PR_GetEnvSecure
 (
 "
 NSS_SSL_ENABLE_RENEGOTIATION
@@ -15784,7 +15784,7 @@ enableRenegotiation
 }
 ev
 =
-getenv
+PR_GetEnvSecure
 (
 "
 NSS_SSL_REQUIRE_SAFE_NEGOTIATION
@@ -15832,7 +15832,7 @@ PR_TRUE
 }
 ev
 =
-getenv
+PR_GetEnvSecure
 (
 "
 NSS_SSL_CBC_RANDOM_IV

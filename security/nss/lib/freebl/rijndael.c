@@ -20,6 +20,13 @@ h
 #
 include
 "
+prenv
+.
+h
+"
+#
+include
+"
 prerr
 .
 h
@@ -6958,7 +6965,7 @@ char
 *
 disable_hw_aes
 =
-getenv
+PR_GetEnvSecure
 (
 "
 NSS_DISABLE_HW_AES
