@@ -22164,6 +22164,12 @@ EmitBaselineCreateStubFrameDescriptor
 (
 masm
 scratch
+JitFrameLayout
+:
+:
+Size
+(
+)
 )
 ;
 masm

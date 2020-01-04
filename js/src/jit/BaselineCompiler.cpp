@@ -18911,6 +18911,12 @@ makeFrameDescriptor
 (
 scratch2
 JitFrame_BaselineJS
+JitFrameLayout
+:
+:
+Size
+(
+)
 )
 ;
 masm
@@ -19762,6 +19768,12 @@ makeFrameDescriptor
 (
 scratch1
 JitFrame_BaselineJS
+ExitFrameLayout
+:
+:
+Size
+(
+)
 )
 ;
 masm

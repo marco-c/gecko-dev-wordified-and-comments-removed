@@ -2597,6 +2597,12 @@ MakeFrameDescriptor
 (
 jitFramePushed
 JitFrame_Entry
+JitFrameLayout
+:
+:
+Size
+(
+)
 )
 ;
 masm

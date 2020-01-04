@@ -155,6 +155,7 @@ EmitBaselineCreateStubFrameDescriptor
 MacroAssembler
 &
 Register
+uint32_t
 )
 {
 MOZ_CRASH
