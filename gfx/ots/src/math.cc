@@ -1718,6 +1718,16 @@ sequence_end
 {
 if
 (
+!
+glyph_count
+)
+{
+return
+true
+;
+}
+if
+(
 offset_coverage
 <
 sequence_end
