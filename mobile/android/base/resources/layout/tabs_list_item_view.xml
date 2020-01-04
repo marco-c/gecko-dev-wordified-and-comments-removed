@@ -418,6 +418,13 @@ textSize
 "
 android
 :
+gravity
+=
+"
+center_vertical
+"
+android
+:
 singleLine
 =
 "
