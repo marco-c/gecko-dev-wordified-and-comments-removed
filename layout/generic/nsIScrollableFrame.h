@@ -737,6 +737,16 @@ const
 ;
 virtual
 void
+SetScrollableByAPZ
+(
+bool
+aScrollable
+)
+=
+0
+;
+virtual
+void
 SetZoomableByAPZ
 (
 bool
