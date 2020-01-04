@@ -1219,7 +1219,7 @@ Type
 nsAttrValue
 :
 :
-eCSSDeclaration
+eGeckoCSSDeclaration
 )
 {
 RefPtr
@@ -1241,7 +1241,7 @@ Declaration
 value
 -
 >
-GetCSSDeclarationValue
+GetGeckoCSSDeclarationValue
 (
 )
 )

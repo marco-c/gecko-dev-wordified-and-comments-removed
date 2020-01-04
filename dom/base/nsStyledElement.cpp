@@ -422,14 +422,14 @@ Type
 nsAttrValue
 :
 :
-eCSSDeclaration
+eGeckoCSSDeclaration
 )
 {
 return
 attrVal
 -
 >
-GetCSSDeclarationValue
+GetGeckoCSSDeclarationValue
 (
 )
 ;
@@ -549,7 +549,7 @@ Type
 nsAttrValue
 :
 :
-eCSSDeclaration
+eGeckoCSSDeclaration
 )
 {
 nsAttrValue

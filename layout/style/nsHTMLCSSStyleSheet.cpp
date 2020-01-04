@@ -177,7 +177,7 @@ mType
 nsAttrValue
 :
 :
-eCSSDeclaration
+eGeckoCSSDeclaration
 )
 ;
 css
@@ -192,7 +192,7 @@ value
 >
 mValue
 .
-mCSSDeclaration
+mGeckoCSSDeclaration
 ;
 declaration
 -
