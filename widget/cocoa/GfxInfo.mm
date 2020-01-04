@@ -313,6 +313,12 @@ case
 return
 DRIVER_OS_OS_X_10_10
 ;
+case
+11
+:
+return
+DRIVER_OS_OS_X_10_11
+;
 }
 }
 return
