@@ -1675,6 +1675,13 @@ spanFrame
 PerSpanData
 *
 psd
+const
+nsStyleText
+*
+aStyleText
+nsFontMetrics
+*
+aFontMetrics
 bool
 *
 aZeroEffectiveSpanBox
