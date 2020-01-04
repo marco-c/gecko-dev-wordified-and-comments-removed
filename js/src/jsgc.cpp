@@ -18364,16 +18364,6 @@ zone
 )
 ;
 }
-if
-(
-isFull
-)
-UnmarkScriptData
-(
-rt
-lock
-)
-;
 }
 markRuntime
 (
@@ -25949,10 +25939,6 @@ gcstats
 PHASE_DESTROY
 )
 ;
-if
-(
-isFull
-)
 SweepScriptData
 (
 rt
