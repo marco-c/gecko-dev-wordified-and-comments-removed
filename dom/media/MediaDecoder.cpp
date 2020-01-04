@@ -5019,6 +5019,13 @@ bool
 aMediaSeekable
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 ReentrantMonitorAutoEnter
 mon
 (
