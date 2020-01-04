@@ -1887,12 +1887,6 @@ DIST
 DIST
 )
 \
-MAKE
-=
-(
-MAKE
-)
-\
 MKDIR
 =
 (

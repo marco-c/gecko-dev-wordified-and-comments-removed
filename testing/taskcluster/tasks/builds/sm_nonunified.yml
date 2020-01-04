@@ -7,7 +7,7 @@ tasks
 /
 builds
 /
-sm_base
+sm_variant_base
 .
 yml
 '
