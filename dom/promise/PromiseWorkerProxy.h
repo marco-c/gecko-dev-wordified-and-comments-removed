@@ -452,12 +452,14 @@ mSupportsArray
 Mutex
 mCleanUpLock
 ;
-DebugOnly
-<
+#
+ifdef
+DEBUG
 bool
->
 mFeatureAdded
 ;
+#
+endif
 }
 ;
 }

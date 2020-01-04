@@ -500,12 +500,14 @@ Promise
 >
 mConsumePromise
 ;
-DebugOnly
-<
+#
+ifdef
+DEBUG
 bool
->
 mReadDone
 ;
+#
+endif
 nsMainThreadPtrHandle
 <
 nsIInputStreamPump

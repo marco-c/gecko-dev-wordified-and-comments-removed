@@ -137,12 +137,14 @@ mObserver
 uint32_t
 mOtherThreadsDispatchingViaEventTarget
 ;
-DebugOnly
-<
+#
+ifdef
+DEBUG
 bool
->
 mAcceptingNonWorkerRunnables
 ;
+#
+endif
 public
 :
 static

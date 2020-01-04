@@ -2509,12 +2509,14 @@ mPresShellWithRefreshListener
 bool
 mHasContentOpener
 ;
-DebugOnly
-<
+#
+ifdef
+DEBUG
 int32_t
->
 mActiveSupressDisplayportCount
 ;
+#
+endif
 ShowInfo
 GetShowInfo
 (
