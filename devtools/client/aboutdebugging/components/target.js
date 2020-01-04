@@ -329,7 +329,7 @@ className
 "
 target
 -
-logo
+icon
 "
 src
 :
