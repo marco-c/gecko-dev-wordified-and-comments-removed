@@ -846,7 +846,7 @@ forLastCallSite
 )
 ;
 void
-fixBaselineDebugModeOSRReturnAddress
+fixBaselineReturnAddress
 (
 )
 ;
