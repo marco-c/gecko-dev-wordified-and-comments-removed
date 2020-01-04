@@ -2950,7 +2950,11 @@ apply
 null
 Array
 .
+prototype
+.
 slice
+.
+call
 (
 arguments
 )

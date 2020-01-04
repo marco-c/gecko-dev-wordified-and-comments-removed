@@ -485,7 +485,11 @@ selector
 ;
 Array
 .
+prototype
+.
 forEach
+.
+call
 (
 children
 function
