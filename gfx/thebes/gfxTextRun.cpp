@@ -5200,7 +5200,7 @@ aMetrics
 )
 {
 auto
-end
+fitEnd
 =
 aStart
 +
@@ -5214,7 +5214,7 @@ MeasureText
 Range
 (
 aStart
-end
+fitEnd
 )
 aBoundingBoxType
 aRefDrawTarget
@@ -5233,10 +5233,10 @@ MeasureText
 (
 Range
 (
-end
+fitEnd
 -
 trimmableChars
-end
+fitEnd
 )
 aBoundingBoxType
 aRefDrawTarget
