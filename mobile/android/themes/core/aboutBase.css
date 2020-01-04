@@ -142,9 +142,7 @@ bottom
 colors
 :
 #
-ff9100
-#
-f27900
+FF9500
 ;
 display
 :
@@ -162,6 +160,10 @@ items
 :
 center
 ;
+height
+:
+48px
+;
 }
 .
 header
@@ -174,7 +176,7 @@ flex
 ;
 padding
 :
-1em
+10px
 ;
 -
 moz
@@ -183,9 +185,7 @@ padding
 -
 start
 :
-1
-.
-5em
+16px
 ;
 }
 #
