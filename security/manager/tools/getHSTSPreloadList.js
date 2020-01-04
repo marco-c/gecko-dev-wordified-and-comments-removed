@@ -856,6 +856,13 @@ resultDecoded
 replace
 (
 /
+^
+(
+\
+s
+*
+)
+?
 \
 /
 \
@@ -869,7 +876,7 @@ n
 \
 n
 /
-g
+mg
 "
 "
 )
