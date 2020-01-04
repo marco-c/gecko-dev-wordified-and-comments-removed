@@ -2268,11 +2268,8 @@ anticlockwise
 false
 )
 ;
-/
-/
-NOT
-IMPLEMENTED
 [
+Throws
 LenientFloat
 ]
 void
@@ -2292,8 +2289,11 @@ double
 startAngle
 double
 endAngle
+optional
 boolean
 anticlockwise
+=
+false
 )
 ;
 }
