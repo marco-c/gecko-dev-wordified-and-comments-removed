@@ -3502,8 +3502,12 @@ EXPECT_CALL
 (
 *
 mcc
-HandleSingleTap
+HandleTap
 (
+TapType
+:
+:
+eSingleTap
 CSSPoint
 (
 100
@@ -3522,6 +3526,7 @@ layers
 GetGuid
 (
 )
+_
 )
 )
 .
@@ -3547,8 +3552,12 @@ EXPECT_CALL
 (
 *
 mcc
-HandleSingleTap
+HandleTap
 (
+TapType
+:
+:
+eSingleTap
 CSSPoint
 (
 100
@@ -3567,6 +3576,7 @@ layers
 GetGuid
 (
 )
+_
 )
 )
 .

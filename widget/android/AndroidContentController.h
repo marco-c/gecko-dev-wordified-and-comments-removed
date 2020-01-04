@@ -145,8 +145,10 @@ Destroy
 override
 ;
 void
-HandleSingleTap
+HandleTap
 (
+TapType
+aType
 const
 CSSPoint
 &
@@ -157,6 +159,8 @@ const
 ScrollableLayerGuid
 &
 aGuid
+uint64_t
+aInputBlockId
 )
 override
 ;
