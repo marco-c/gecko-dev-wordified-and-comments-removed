@@ -425,6 +425,11 @@ ChildNode
 webidl
 '
 '
+ChromeNodeList
+.
+webidl
+'
+'
 ChromeNotifications
 .
 webidl

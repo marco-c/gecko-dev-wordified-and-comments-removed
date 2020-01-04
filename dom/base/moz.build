@@ -805,6 +805,11 @@ ChildIterator
 h
 '
 '
+ChromeNodeList
+.
+h
+'
+'
 ChromeUtils
 .
 h
@@ -1106,6 +1111,11 @@ cpp
 '
 '
 ChildIterator
+.
+cpp
+'
+'
+ChromeNodeList
 .
 cpp
 '
