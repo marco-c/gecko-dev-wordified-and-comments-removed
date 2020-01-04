@@ -907,6 +907,15 @@ event
 target
 )
 ;
+let
+parentAllowsMixedContent
+=
+!
+!
+docShell
+.
+mixedContentChannel
+;
 if
 (
 Services
@@ -1271,6 +1280,7 @@ frameOuterWindowID
 selectionInfo
 disableSetDesktopBg
 loginFillInfo
+parentAllowsMixedContent
 }
 {
 event
@@ -1353,6 +1363,7 @@ disableSetDesktopBackground
 :
 disableSetDesktopBg
 loginFillInfo
+parentAllowsMixedContent
 }
 ;
 }
