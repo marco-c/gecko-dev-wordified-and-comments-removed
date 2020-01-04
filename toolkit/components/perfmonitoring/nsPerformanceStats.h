@@ -123,6 +123,9 @@ protected
 friend
 nsPerformanceGroup
 ;
+bool
+mIsAvailable
+;
 const
 uint64_t
 mProcessId
