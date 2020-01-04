@@ -5411,12 +5411,6 @@ lock
 return
 ;
 }
-mozilla
-:
-:
-AutoSafeJSContext
-cx
-;
 JS
 :
 :
@@ -5429,7 +5423,12 @@ Value
 >
 value
 (
-cx
+nsContentUtils
+:
+:
+RootingCx
+(
+)
 )
 ;
 uint32_t

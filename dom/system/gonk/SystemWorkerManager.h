@@ -122,17 +122,11 @@ SystemWorkerManager
 nsresult
 InitWifi
 (
-JSContext
-*
-cx
 )
 ;
 nsresult
 InitKeyStore
 (
-JSContext
-*
-cx
 )
 ;
 nsCOMPtr

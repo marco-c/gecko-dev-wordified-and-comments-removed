@@ -106,12 +106,6 @@ SystemTimezoneChangeInformation
 aSystemTimezoneChangeInfo
 )
 {
-mozilla
-:
-:
-AutoSafeJSContext
-cx
-;
 JS
 :
 :

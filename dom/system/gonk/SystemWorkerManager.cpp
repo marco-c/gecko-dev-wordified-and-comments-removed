@@ -323,18 +323,11 @@ shutdown
 "
 )
 ;
-mozilla
-:
-:
-AutoSafeJSContext
-cx
-;
 nsresult
 rv
 =
 InitWifi
 (
-cx
 )
 ;
 if
@@ -363,7 +356,6 @@ rv
 }
 InitKeyStore
 (
-cx
 )
 ;
 InitAutoMounter
@@ -860,9 +852,6 @@ SystemWorkerManager
 :
 InitWifi
 (
-JSContext
-*
-cx
 )
 {
 nsCOMPtr
@@ -896,9 +885,6 @@ SystemWorkerManager
 :
 InitKeyStore
 (
-JSContext
-*
-cx
 )
 {
 mKeyStore
