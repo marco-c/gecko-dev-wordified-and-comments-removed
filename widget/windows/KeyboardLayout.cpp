@@ -4905,7 +4905,7 @@ mMessage
 )
 {
 case
-NS_KEY_DOWN
+eKeyDown
 :
 aKeyEvent
 .
@@ -5560,7 +5560,7 @@ WidgetKeyboardEvent
 keydownEvent
 (
 true
-NS_KEY_DOWN
+eKeyDown
 mWidget
 )
 ;
@@ -5949,7 +5949,7 @@ WidgetKeyboardEvent
 keydownEvent
 (
 true
-NS_KEY_DOWN
+eKeyDown
 mWidget
 )
 ;

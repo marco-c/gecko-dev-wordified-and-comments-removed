@@ -3055,7 +3055,7 @@ case
 NS_KEY_BEFORE_DOWN
 :
 case
-NS_KEY_DOWN
+eKeyDown
 :
 case
 NS_KEY_AFTER_DOWN

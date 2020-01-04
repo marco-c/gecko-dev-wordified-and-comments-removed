@@ -580,7 +580,7 @@ keyEvent
 mMessage
 =
 =
-NS_KEY_DOWN
+eKeyDown
 "
 Assuming
 we
@@ -634,7 +634,7 @@ keyEvent
 mMessage
 =
 =
-NS_KEY_DOWN
+eKeyDown
 )
 ?
 eEventAction_StopPropagation

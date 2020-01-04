@@ -12139,9 +12139,9 @@ NS_LOAD_ERROR
 ;
 _ASSIGN_eventName
 (
-NS_KEY_DOWN
+eKeyDown
 "
-NS_KEY_DOWN
+eKeyDown
 "
 )
 ;

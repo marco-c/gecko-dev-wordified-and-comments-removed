@@ -1803,7 +1803,7 @@ dragEvent
 ifdef
 HANDLE_NATIVE_TEXT_DIRECTION_SWITCH
 case
-NS_KEY_DOWN
+eKeyDown
 :
 {
 nsCOMPtr

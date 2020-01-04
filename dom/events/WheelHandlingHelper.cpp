@@ -884,7 +884,7 @@ case
 eKeyUp
 :
 case
-NS_KEY_DOWN
+eKeyDown
 :
 case
 NS_MOUSE_BUTTON_UP

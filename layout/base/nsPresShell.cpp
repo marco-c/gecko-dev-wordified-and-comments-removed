@@ -30453,7 +30453,7 @@ aEvent
 mMessage
 =
 =
-NS_KEY_DOWN
+eKeyDown
 )
 ?
 NS_KEY_BEFORE_DOWN
@@ -30638,7 +30638,7 @@ aEvent
 mMessage
 =
 =
-NS_KEY_DOWN
+eKeyDown
 )
 ?
 NS_KEY_AFTER_DOWN
@@ -30799,7 +30799,7 @@ aEvent
 mMessage
 !
 =
-NS_KEY_DOWN
+eKeyDown
 &
 &
 aEvent
@@ -30976,7 +30976,7 @@ aEvent
 mMessage
 =
 =
-NS_KEY_DOWN
+eKeyDown
 |
 |
 aEvent
@@ -32070,7 +32070,7 @@ aEvent
 mMessage
 =
 =
-NS_KEY_DOWN
+eKeyDown
 )
 {
 mNoDelayedKeyEvents
@@ -34196,7 +34196,7 @@ aEvent
 mMessage
 =
 =
-NS_KEY_DOWN
+eKeyDown
 )
 {
 NS_IF_RELEASE
@@ -35093,7 +35093,7 @@ case
 eKeyPress
 :
 case
-NS_KEY_DOWN
+eKeyDown
 :
 case
 eKeyUp
@@ -35716,7 +35716,7 @@ case
 eKeyPress
 :
 case
-NS_KEY_DOWN
+eKeyDown
 :
 case
 eKeyUp

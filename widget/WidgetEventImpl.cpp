@@ -358,7 +358,7 @@ mMessage
 )
 {
 case
-NS_KEY_DOWN
+eKeyDown
 :
 case
 eKeyPress

@@ -445,7 +445,7 @@ mMessage
 )
 {
 case
-NS_KEY_DOWN
+eKeyDown
 :
 {
 WidgetKeyboardEvent

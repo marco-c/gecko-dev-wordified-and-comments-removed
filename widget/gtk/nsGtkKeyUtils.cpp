@@ -4592,11 +4592,11 @@ aKeyEvent
 mMessage
 =
 =
-NS_KEY_DOWN
+eKeyDown
 )
 ?
 "
-NS_KEY_DOWN
+eKeyDown
 "
 :
 (

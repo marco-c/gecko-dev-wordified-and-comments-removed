@@ -1478,7 +1478,7 @@ status
 =
 DispatchKeyEventInternal
 (
-NS_KEY_DOWN
+eKeyDown
 )
 ;
 if

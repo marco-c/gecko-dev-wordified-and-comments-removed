@@ -2666,7 +2666,7 @@ case
 eKeyUp
 :
 case
-NS_KEY_DOWN
+eKeyDown
 :
 case
 eKeyPress

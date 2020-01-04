@@ -1193,7 +1193,7 @@ MOZ_ASSERT
 aMessage
 =
 =
-NS_KEY_DOWN
+eKeyDown
 |
 |
 aMessage
@@ -1322,7 +1322,7 @@ if
 aMessage
 =
 =
-NS_KEY_DOWN
+eKeyDown
 |
 |
 aMessage
@@ -1342,7 +1342,7 @@ be
 0
 for
 either
-NS_KEY_DOWN
+eKeyDown
 or
 eKeyUp
 "

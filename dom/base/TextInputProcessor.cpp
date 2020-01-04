@@ -929,7 +929,7 @@ aKeyboardEvent
 mMessage
 =
 =
-NS_KEY_DOWN
+eKeyDown
 )
 {
 return
@@ -1165,7 +1165,7 @@ aKeyboardEvent
 mMessage
 =
 =
-NS_KEY_DOWN
+eKeyDown
 )
 {
 return
@@ -3328,7 +3328,7 @@ mDispatcher
 >
 DispatchKeyboardEvent
 (
-NS_KEY_DOWN
+eKeyDown
 keyEvent
 status
 GetDispatchTo

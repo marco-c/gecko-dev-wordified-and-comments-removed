@@ -3252,7 +3252,7 @@ openControlled
 break
 ;
 case
-NS_KEY_DOWN
+eKeyDown
 :
 if
 (

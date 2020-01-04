@@ -1579,11 +1579,11 @@ mMessage
 )
 {
 case
-NS_KEY_DOWN
+eKeyDown
 :
 return
 "
-NS_KEY_DOWN
+eKeyDown
 "
 ;
 case
@@ -9687,7 +9687,7 @@ WidgetKeyboardEvent
 imeEvent
 (
 true
-NS_KEY_DOWN
+eKeyDown
 mWidget
 )
 ;
@@ -9748,7 +9748,7 @@ WidgetKeyboardEvent
 keydownEvent
 (
 true
-NS_KEY_DOWN
+eKeyDown
 mWidget
 )
 ;
@@ -12839,7 +12839,7 @@ message
 =
 aDispatchKeyDown
 ?
-NS_KEY_DOWN
+eKeyDown
 :
 eKeyUp
 ;

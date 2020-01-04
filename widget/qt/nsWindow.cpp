@@ -4906,7 +4906,7 @@ aEvent
 mMessage
 =
 =
-NS_KEY_DOWN
+eKeyDown
 |
 |
 aEvent
@@ -5201,7 +5201,7 @@ WidgetKeyboardEvent
 downEvent
 (
 true
-NS_KEY_DOWN
+eKeyDown
 this
 )
 ;
