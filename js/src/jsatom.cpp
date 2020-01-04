@@ -2437,10 +2437,7 @@ utf8ByteLength
 size_t
 length
 ;
-UniquePtr
-<
-char16_t
->
+UniqueTwoByteChars
 chars
 (
 JS
