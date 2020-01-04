@@ -1,0 +1,7 @@
+collect_ignore
+=
+[
+"
+nonpython
+"
+]
