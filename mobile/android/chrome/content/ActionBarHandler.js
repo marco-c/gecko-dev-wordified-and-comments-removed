@@ -226,16 +226,6 @@ reason
 =
 =
 '
-visibilitychange
-'
-|
-|
-e
-.
-reason
-=
-=
-'
 presscaret
 '
 |
