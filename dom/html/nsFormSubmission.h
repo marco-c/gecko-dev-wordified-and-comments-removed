@@ -34,6 +34,13 @@ nsIContent
 .
 h
 "
+#
+include
+"
+nsNCRFallbackEncoderWrapper
+.
+h
+"
 class
 nsIURI
 ;
@@ -42,9 +49,6 @@ nsIInputStream
 ;
 class
 nsGenericHTMLElement
-;
-class
-nsISaveAsCharset
 ;
 class
 nsIMultiplexInputStream
@@ -272,10 +276,7 @@ aHeaderEncode
 ;
 private
 :
-nsCOMPtr
-<
-nsISaveAsCharset
->
+nsNCRFallbackEncoderWrapper
 mEncoder
 ;
 }

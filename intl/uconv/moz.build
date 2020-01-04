@@ -151,6 +151,11 @@ nsIUnicodeEncoder
 h
 '
 '
+nsNCRFallbackEncoderWrapper
+.
+h
+'
+'
 nsUConvCID
 .
 h
@@ -222,6 +227,11 @@ cpp
 '
 '
 nsMacRomanToUnicode
+.
+cpp
+'
+'
+nsNCRFallbackEncoderWrapper
 .
 cpp
 '
