@@ -765,6 +765,16 @@ Destroy
 (
 )
 ;
+void
+RegisterUser
+(
+)
+;
+void
+UnregisterUser
+(
+)
+;
 StreamTime
 GetCurrentTime
 (
@@ -1723,6 +1733,9 @@ mFinishedNotificationSent
 ;
 bool
 mMainThreadDestroyed
+;
+int
+mNrOfMainThreadUsers
 ;
 MediaStreamGraphImpl
 *
