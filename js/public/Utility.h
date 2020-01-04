@@ -861,6 +861,14 @@ size_t
 bytes
 )
 {
+MOZ_ASSERT
+(
+bytes
+!
+=
+0
+)
+;
 JS_OOM_POSSIBLY_FAIL
 (
 )

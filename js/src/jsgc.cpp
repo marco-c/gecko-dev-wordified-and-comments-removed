@@ -6457,6 +6457,16 @@ break
 case
 JSGC_MARK_STACK_LIMIT
 :
+if
+(
+value
+=
+=
+0
+)
+return
+false
+;
 setMarkStackLimit
 (
 value
