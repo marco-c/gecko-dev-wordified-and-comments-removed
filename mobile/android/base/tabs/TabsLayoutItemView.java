@@ -68,17 +68,6 @@ TabThumbnailWrapper
 import
 org
 .
-mozilla
-.
-gecko
-.
-widget
-.
-ThumbnailView
-;
-import
-org
-.
 json
 .
 JSONException
@@ -240,7 +229,7 @@ TextView
 mTitle
 ;
 private
-ThumbnailView
+TabsPanelThumbnailView
 mThumbnail
 ;
 private
@@ -476,7 +465,7 @@ title
 mThumbnail
 =
 (
-ThumbnailView
+TabsPanelThumbnailView
 )
 findViewById
 (

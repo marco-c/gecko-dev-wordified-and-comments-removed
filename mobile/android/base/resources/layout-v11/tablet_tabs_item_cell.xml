@@ -619,9 +619,9 @@ mozilla
 .
 gecko
 .
-widget
+tabs
 .
-ThumbnailView
+TabsPanelThumbnailView
 android
 :
 id
