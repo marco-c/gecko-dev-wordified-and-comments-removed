@@ -194,6 +194,10 @@ sync
 "
 )
 ;
+showBrowserHint
+=
+false
+;
 final
 Intent
 intent
