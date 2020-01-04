@@ -3994,7 +3994,7 @@ GetStringFromName
 MOZ_UTF16
 (
 "
-UnsortedBookmarksFolderTitle
+OtherBookmarksFolderTitle
 "
 )
 getter_Copies
@@ -4701,7 +4701,7 @@ BookmarksToolbarFolderTitle
 TagsFolderTitle
 "
 "
-UnsortedBookmarksFolderTitle
+OtherBookmarksFolderTitle
 "
 }
 ;

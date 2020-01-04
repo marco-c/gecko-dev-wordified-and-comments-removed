@@ -4042,7 +4042,7 @@ PlacesUtils
 getString
 (
 "
-UnsortedBookmarksFolderTitle
+OtherBookmarksFolderTitle
 "
 )
 concreteId

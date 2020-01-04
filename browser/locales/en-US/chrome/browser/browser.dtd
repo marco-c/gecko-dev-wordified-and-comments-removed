@@ -1886,11 +1886,11 @@ Bookmarked
 <
 !
 ENTITY
-unsortedBookmarksCmd
+otherBookmarksCmd
 .
 label
 "
-Unsorted
+Other
 Bookmarks
 "
 >
@@ -2553,11 +2553,11 @@ Bookmarks
 ENTITY
 bookmarksMenuButton
 .
-unsorted
+other
 .
 label
 "
-Unsorted
+Other
 Bookmarks
 "
 >
