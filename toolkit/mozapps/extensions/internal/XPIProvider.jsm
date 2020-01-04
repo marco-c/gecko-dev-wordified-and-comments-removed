@@ -11701,6 +11701,10 @@ modules
 /
 devtools
 /
+client
+/
+framework
+/
 ToolboxProcess
 .
 jsm

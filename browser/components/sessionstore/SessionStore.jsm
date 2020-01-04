@@ -10936,6 +10936,10 @@ modules
 /
 devtools
 /
+client
+/
+scratchpad
+/
 scratchpad
 -
 manager
