@@ -171,6 +171,11 @@ AlignedTArray
 h
 '
 '
+AudioBlock
+.
+h
+'
+'
 AudioContext
 .
 h
@@ -378,6 +383,11 @@ UNIFIED_SOURCES
 [
 '
 AnalyserNode
+.
+cpp
+'
+'
+AudioBlock
 .
 cpp
 '

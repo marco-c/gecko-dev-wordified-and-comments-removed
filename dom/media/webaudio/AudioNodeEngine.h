@@ -447,16 +447,6 @@ mContents
 }
 ;
 void
-AllocateAudioBlock
-(
-uint32_t
-aChannelCount
-AudioChunk
-*
-aChunk
-)
-;
-void
 WriteZeroesToAudioBlock
 (
 AudioChunk

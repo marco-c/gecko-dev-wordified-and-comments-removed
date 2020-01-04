@@ -22,6 +22,13 @@ h
 #
 include
 "
+AudioBlock
+.
+h
+"
+#
+include
+"
 ReverbConvolver
 .
 h
