@@ -490,13 +490,7 @@ nsCOMPtr
 <
 nsIContent
 >
-mBrowseDirs
-;
-nsCOMPtr
-<
-nsIContent
->
-mBrowseFiles
+mBrowseFilesOrDirs
 ;
 RefPtr
 <
