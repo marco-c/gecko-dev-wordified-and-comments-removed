@@ -121,12 +121,3 @@ DIRS
 extensions
 '
 ]
-DIRS
-+
-=
-[
-'
-/
-devtools
-'
-]

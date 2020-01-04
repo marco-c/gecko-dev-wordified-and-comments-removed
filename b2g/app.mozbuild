@@ -109,8 +109,4 @@ MOZ_BRANDING_DIRECTORY
 /
 b2g
 '
-'
-/
-devtools
-'
 ]

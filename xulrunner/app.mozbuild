@@ -97,8 +97,4 @@ DIRS
 /
 xulrunner
 '
-'
-/
-devtools
-'
 ]
