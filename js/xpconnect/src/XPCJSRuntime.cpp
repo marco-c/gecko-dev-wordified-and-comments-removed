@@ -6947,6 +6947,13 @@ XPCJSRuntime
 (
 )
 {
+MOZ_ASSERT
+(
+MaybeRuntime
+(
+)
+)
+;
 js
 :
 :
