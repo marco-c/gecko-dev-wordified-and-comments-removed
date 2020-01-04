@@ -34,9 +34,9 @@ ots
 bool
 ValidateType2CharStringIndex
 (
-OpenTypeFile
+Font
 *
-file
+font
 const
 CFFIndex
 &

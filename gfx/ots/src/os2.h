@@ -131,6 +131,12 @@ break_char
 uint16_t
 max_context
 ;
+uint16_t
+lower_optical_pointsize
+;
+uint16_t
+upper_optical_pointsize
+;
 }
 ;
 }
