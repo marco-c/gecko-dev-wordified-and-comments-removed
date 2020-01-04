@@ -520,6 +520,15 @@ mData
 ;
 compositionEvent
 .
+mOriginalMessage
+=
+aCompositionEvent
+-
+>
+mMessage
+;
+compositionEvent
+.
 mFlags
 .
 mIsSynthesizedForTests

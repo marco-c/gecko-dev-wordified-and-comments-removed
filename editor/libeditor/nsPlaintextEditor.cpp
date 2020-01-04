@@ -4030,7 +4030,11 @@ selection
 }
 if
 (
-IsIMEComposing
+!
+compositionChangeEvent
+-
+>
+IsFollowedByCompositionEnd
 (
 )
 )
