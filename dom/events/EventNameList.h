@@ -702,7 +702,7 @@ eBasicEventClass
 EVENT
 (
 ratechange
-NS_RATECHANGE
+eRateChange
 EventNameType_HTML
 eBasicEventClass
 )
