@@ -22955,6 +22955,13 @@ nopPatchableToNearJump
 (
 )
 {
+AutoForbidPools
+afp
+(
+this
+1
+)
+;
 CodeOffset
 offset
 (
