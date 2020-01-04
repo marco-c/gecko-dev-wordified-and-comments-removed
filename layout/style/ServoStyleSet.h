@@ -109,6 +109,9 @@ class
 CSSStyleSheet
 ;
 class
+ServoRestyleManager
+;
+class
 ServoStyleSheet
 ;
 }
@@ -130,6 +133,10 @@ mozilla
 class
 ServoStyleSet
 {
+friend
+class
+ServoRestyleManager
+;
 public
 :
 ServoStyleSet
@@ -481,6 +488,8 @@ RestyleSubtree
 nsINode
 *
 aNode
+bool
+aForce
 )
 ;
 private

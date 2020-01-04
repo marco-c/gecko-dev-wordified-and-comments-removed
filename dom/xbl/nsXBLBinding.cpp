@@ -1037,6 +1037,7 @@ servoStyleSet
 RestyleSubtree
 (
 child
+true
 )
 ;
 }

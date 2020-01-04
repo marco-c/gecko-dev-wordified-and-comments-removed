@@ -17970,6 +17970,7 @@ RestyleSubtree
 info
 .
 mContent
+true
 )
 ;
 }
