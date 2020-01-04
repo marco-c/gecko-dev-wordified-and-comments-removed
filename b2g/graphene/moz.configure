@@ -99,7 +99,12 @@ include
 .
 .
 /
-common
+.
+.
+/
+toolkit
+/
+moz
 .
 configure
 '

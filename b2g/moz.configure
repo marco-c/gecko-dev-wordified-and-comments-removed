@@ -145,7 +145,12 @@ else
 include
 (
 '
-common
+.
+.
+/
+toolkit
+/
+moz
 .
 configure
 '

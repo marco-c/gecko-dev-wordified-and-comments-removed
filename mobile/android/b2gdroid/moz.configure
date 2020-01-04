@@ -105,9 +105,9 @@ include
 .
 .
 /
-b2g
+toolkit
 /
-common
+moz
 .
 configure
 '

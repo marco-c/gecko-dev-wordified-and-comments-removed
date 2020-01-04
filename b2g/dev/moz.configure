@@ -99,7 +99,10 @@ include
 .
 .
 /
-common
+.
+.
+/
+toolkit
 /
 moz
 .
