@@ -255,6 +255,11 @@ GenericFactory
 cpp
 '
 '
+nsProxyRelease
+.
+cpp
+'
+'
 nsTextFormatter
 .
 cpp
