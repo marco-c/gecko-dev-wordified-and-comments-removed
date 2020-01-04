@@ -2266,11 +2266,11 @@ MacroAssembler
 &
 masm
 const
-Import
+FuncImport
 &
-import
+fi
 uint32_t
-importIndex
+funcImportIndex
 )
 {
 const
@@ -2278,7 +2278,7 @@ Sig
 &
 sig
 =
-import
+fi
 .
 sig
 (
@@ -2460,7 +2460,7 @@ mov
 (
 ImmWord
 (
-importIndex
+funcImportIndex
 )
 i
 -
@@ -2477,7 +2477,7 @@ store32
 (
 Imm32
 (
-importIndex
+funcImportIndex
 )
 Address
 (
@@ -3038,9 +3038,9 @@ MacroAssembler
 &
 masm
 const
-Import
+FuncImport
 &
-import
+fi
 bool
 usesHeap
 )
@@ -3050,7 +3050,7 @@ Sig
 &
 sig
 =
-import
+fi
 .
 sig
 (
@@ -3212,7 +3212,7 @@ ABINonArgReturnReg1
 uint32_t
 globalDataOffset
 =
-import
+fi
 .
 exitGlobalDataOffset
 (
@@ -3316,7 +3316,7 @@ Address
 callee
 offsetof
 (
-ImportExit
+FuncImportExit
 fun
 )
 )

@@ -8307,7 +8307,7 @@ MaxFuncs
 genData
 -
 >
-imports
+funcImports
 .
 resize
 (
@@ -11976,8 +11976,8 @@ asmJSMetadata_
 >
 srcStart
 ;
-ImportNameVector
-importNames
+ImportVector
+imports
 ;
 SharedBytes
 bytes
@@ -12004,7 +12004,7 @@ finish
 (
 Move
 (
-importNames
+imports
 )
 *
 bytes

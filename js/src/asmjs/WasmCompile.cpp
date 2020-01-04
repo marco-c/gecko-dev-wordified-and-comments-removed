@@ -753,7 +753,7 @@ f
 )
 {
 uint32_t
-importIndex
+funcImportIndex
 ;
 uint32_t
 arity
@@ -770,7 +770,7 @@ iter
 readCallImport
 (
 &
-importIndex
+funcImportIndex
 &
 arity
 )
@@ -780,7 +780,7 @@ false
 ;
 if
 (
-importIndex
+funcImportIndex
 >
 =
 f
@@ -789,7 +789,7 @@ mg
 (
 )
 .
-numImports
+numFuncImports
 (
 )
 )
@@ -823,9 +823,9 @@ mg
 (
 )
 .
-import
+funcImport
 (
-importIndex
+funcImportIndex
 )
 .
 sig
@@ -4441,9 +4441,9 @@ newFormat
 ModuleGeneratorData
 *
 init
-ImportNameVector
+ImportVector
 *
-importNames
+imports
 )
 {
 if
@@ -4493,7 +4493,7 @@ if
 init
 -
 >
-imports
+funcImports
 .
 emplaceBack
 (
@@ -4581,7 +4581,7 @@ name
 )
 ;
 return
-importNames
+imports
 -
 >
 emplaceBack
@@ -4677,7 +4677,7 @@ name
 if
 (
 !
-importNames
+imports
 -
 >
 emplaceBack
@@ -4778,7 +4778,7 @@ if
 init
 -
 >
-imports
+funcImports
 .
 emplaceBack
 (
@@ -4821,9 +4821,9 @@ newFormat
 ModuleGeneratorData
 *
 init
-ImportNameVector
+ImportVector
 *
-importNames
+imports
 )
 {
 uint32_t
@@ -4938,7 +4938,7 @@ DecodeImport
 d
 newFormat
 init
-importNames
+imports
 )
 )
 return
@@ -7363,8 +7363,8 @@ get
 return
 nullptr
 ;
-ImportNameVector
-importNames
+ImportVector
+imports
 ;
 if
 (
@@ -7379,7 +7379,7 @@ get
 (
 )
 &
-importNames
+imports
 )
 )
 return
@@ -7554,7 +7554,7 @@ finish
 (
 Move
 (
-importNames
+imports
 )
 *
 sharedBytes

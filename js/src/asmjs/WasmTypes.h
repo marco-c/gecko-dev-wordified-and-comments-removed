@@ -3457,7 +3457,7 @@ AsmJS
 }
 ;
 struct
-ImportExit
+FuncImportExit
 {
 void
 *

@@ -30,7 +30,7 @@ class
 Export
 ;
 class
-Import
+FuncImport
 ;
 extern
 Offsets
@@ -61,11 +61,11 @@ MacroAssembler
 &
 masm
 const
-Import
+FuncImport
 &
-import
+fi
 uint32_t
-importIndex
+funcImportIndex
 )
 ;
 extern
@@ -79,9 +79,9 @@ MacroAssembler
 &
 masm
 const
-Import
+FuncImport
 &
-import
+fi
 bool
 usesHeap
 )

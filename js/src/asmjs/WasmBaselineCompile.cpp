@@ -21868,7 +21868,7 @@ numArgs
 )
 ;
 const
-TableModuleGeneratorData
+TableGenDesc
 &
 table
 =
@@ -21952,7 +21952,7 @@ callOffset
 )
 ;
 uint32_t
-importIndex
+funcImportIndex
 ;
 uint32_t
 arity
@@ -21965,7 +21965,7 @@ iter_
 readCallImport
 (
 &
-importIndex
+funcImportIndex
 &
 arity
 )
@@ -21974,15 +21974,15 @@ return
 false
 ;
 const
-ImportModuleGeneratorData
+FuncImportGenDesc
 &
-import
+funcImport
 =
 mg_
 .
-imports
+funcImports
 [
-importIndex
+funcImportIndex
 ]
 ;
 const
@@ -21991,7 +21991,7 @@ Sig
 sig
 =
 *
-import
+funcImport
 .
 sig
 ;
@@ -22086,7 +22086,7 @@ false
 ;
 ffiCall
 (
-import
+funcImport
 .
 globalDataOffset
 baselineCall
