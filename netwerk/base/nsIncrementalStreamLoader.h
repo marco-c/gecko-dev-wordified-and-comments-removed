@@ -138,6 +138,9 @@ uint8_t
 >
 mData
 ;
+size_t
+mBytesConsumed
+;
 }
 ;
 #
