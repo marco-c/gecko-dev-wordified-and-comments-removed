@@ -106,7 +106,7 @@ aTimeConstant
 0
 .
 0
-float
+double
 aDuration
 =
 0
