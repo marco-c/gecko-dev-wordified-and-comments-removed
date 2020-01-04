@@ -318,7 +318,10 @@ MarionetteHarness
 MarionetteTestRunner
 args
 =
+vars
+(
 args
+)
 )
 .
 run

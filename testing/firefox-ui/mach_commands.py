@@ -330,32 +330,6 @@ stdout
 }
 )
     
-args
-=
-argparse
-.
-Namespace
-(
-)
-    
-for
-k
-v
-in
-kwargs
-.
-iteritems
-(
-)
-:
-        
-setattr
-(
-args
-k
-v
-)
-    
 failed
 =
 test_types
@@ -372,7 +346,7 @@ cli
 (
 args
 =
-args
+kwargs
 )
     
 if
