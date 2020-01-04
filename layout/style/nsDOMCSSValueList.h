@@ -66,8 +66,10 @@ aReadonly
 void
 AppendCSSValue
 (
+already_AddRefed
+<
 CSSValue
-*
+>
 aValue
 )
 ;

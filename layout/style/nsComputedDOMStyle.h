@@ -4429,6 +4429,8 @@ nsStyleCoord
 aCoord
 )
 ;
+already_AddRefed
+<
 mozilla
 :
 :
@@ -4436,7 +4438,7 @@ dom
 :
 :
 CSSValue
-*
+>
 CreatePrimitiveValueForStyleFilter
 (
 const
