@@ -218,6 +218,7 @@ inline
 gfxRGBA
 ThebesColor
 (
+const
 Color
 &
 aColor
