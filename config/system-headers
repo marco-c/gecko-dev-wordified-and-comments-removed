@@ -1471,9 +1471,6 @@ h
 extras
 .
 h
-fabdef
-.
-h
 fcntl
 .
 h
@@ -2274,10 +2271,6 @@ gnome
 ui
 -
 init
-.
-h
-lib
-routines
 .
 h
 limits
@@ -3334,9 +3327,6 @@ h
 rld_interface
 .
 h
-rmsdef
-.
-h
 Roster
 .
 h
@@ -3452,9 +3442,6 @@ soundcard
 .
 h
 sqlite3
-.
-h
-ssdef
 .
 h
 sstream
@@ -4420,9 +4407,6 @@ unix
 .
 h
 unixio
-.
-h
-unixlib
 .
 h
 unknwn

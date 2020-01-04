@@ -5763,17 +5763,6 @@ js
 if
 defined
 (
-VMS
-)
-"
-openvms
-.
-js
-"
-#
-elif
-defined
-(
 _AIX
 )
 "
