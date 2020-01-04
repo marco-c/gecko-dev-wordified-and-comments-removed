@@ -278,9 +278,6 @@ type
 msg
 )
 #
-define
-ENABLE_LIFECYCLE_LOG
-#
 ifdef
 ENABLE_LIFECYCLE_LOG
 #
