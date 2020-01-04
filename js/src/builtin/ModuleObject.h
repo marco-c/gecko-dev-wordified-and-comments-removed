@@ -1138,6 +1138,11 @@ exports
 private
 :
 static
+const
+ClassOps
+classOps_
+;
+static
 void
 trace
 (

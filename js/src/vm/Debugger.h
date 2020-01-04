@@ -2104,8 +2104,13 @@ tracer
 ;
 static
 const
+ClassOps
+classOps_
+;
+static
+const
 Class
-jsclass
+class_
 ;
 static
 bool

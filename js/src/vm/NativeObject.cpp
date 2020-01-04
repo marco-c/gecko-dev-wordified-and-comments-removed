@@ -5124,7 +5124,9 @@ getClass
 )
 -
 >
-addProperty
+getAddProperty
+(
+)
 )
 {
 if
@@ -5282,7 +5284,9 @@ getClass
 )
 -
 >
-addProperty
+getAddProperty
+(
+)
 )
 {
 if
@@ -9583,7 +9587,9 @@ getClass
 )
 -
 >
-getProperty
+getGetProperty
+(
+)
 )
 {
 if
@@ -10864,7 +10870,9 @@ getter
 clasp
 -
 >
-getProperty
+getGetProperty
+(
+)
 ;
 JSSetterOp
 setter
@@ -10872,7 +10880,9 @@ setter
 clasp
 -
 >
-setProperty
+getSetProperty
+(
+)
 ;
 MOZ_ASSERT
 (
@@ -12055,7 +12065,9 @@ getClass
 )
 -
 >
-delProperty
+getDelProperty
+(
+)
 obj
 id
 result
@@ -12107,7 +12119,9 @@ getClass
 )
 -
 >
-delProperty
+getDelProperty
+(
+)
 obj
 id
 result

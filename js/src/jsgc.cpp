@@ -34191,7 +34191,9 @@ getClass
 )
 -
 >
-finalize
+hasFinalize
+(
+)
 )
 )
 ;

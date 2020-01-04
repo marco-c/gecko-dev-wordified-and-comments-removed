@@ -47,6 +47,15 @@ true
 }
 static
 const
+JSClassOps
+CounterClassOps
+=
+{
+CounterAdd
+}
+;
+static
+const
 JSClass
 CounterClass
 =
@@ -55,7 +64,8 @@ CounterClass
 Counter
 "
 0
-CounterAdd
+&
+CounterClassOps
 }
 ;
 BEGIN_TEST

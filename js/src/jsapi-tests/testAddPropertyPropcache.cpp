@@ -49,6 +49,15 @@ true
 }
 static
 const
+JSClassOps
+AddPropertyClassOps
+=
+{
+AddProperty
+}
+;
+static
+const
 JSClass
 AddPropertyClass
 =
@@ -57,7 +66,8 @@ AddPropertyClass
 AddPropertyTester
 "
 0
-AddProperty
+&
+AddPropertyClassOps
 }
 ;
 BEGIN_TEST

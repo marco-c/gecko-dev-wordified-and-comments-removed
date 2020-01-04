@@ -847,7 +847,9 @@ MOZ_ASSERT_IF
 clasp
 -
 >
-finalize
+hasFinalize
+(
+)
 clasp
 -
 >

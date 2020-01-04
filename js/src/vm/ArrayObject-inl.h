@@ -187,7 +187,9 @@ clasp
 )
 -
 >
-finalize
+hasFinalize
+(
+)
 heap
 =
 =

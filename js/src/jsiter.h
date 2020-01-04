@@ -434,6 +434,11 @@ PropertyIteratorObject
 public
 NativeObject
 {
+static
+const
+ClassOps
+classOps_
+;
 public
 :
 static

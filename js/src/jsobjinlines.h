@@ -431,12 +431,14 @@ if
 clasp
 -
 >
-finalize
+hasFinalize
+(
+)
 )
 clasp
 -
 >
-finalize
+doFinalize
 (
 fop
 this
@@ -1808,7 +1810,9 @@ clasp
 )
 -
 >
-finalize
+hasFinalize
+(
+)
 heap
 =
 =

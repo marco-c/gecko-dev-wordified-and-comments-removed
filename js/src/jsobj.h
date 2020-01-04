@@ -4315,7 +4315,9 @@ if
 clasp
 -
 >
-finalize
+hasFinalize
+(
+)
 &
 &
 !

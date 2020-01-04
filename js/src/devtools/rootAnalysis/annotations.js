@@ -301,7 +301,7 @@ ignoreCallees
 js
 :
 :
-Class
+ClassOps
 .
 trace
 "
@@ -311,7 +311,7 @@ true
 js
 :
 :
-Class
+ClassOps
 .
 finalize
 "

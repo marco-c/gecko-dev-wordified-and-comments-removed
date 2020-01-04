@@ -4676,7 +4676,9 @@ getClass
 )
 -
 >
-addProperty
+getAddProperty
+(
+)
 )
 {
 return

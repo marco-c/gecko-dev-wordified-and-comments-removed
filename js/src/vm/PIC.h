@@ -773,7 +773,7 @@ eraseChain
 static
 const
 Class
-jsclass
+class_
 ;
 static
 NativeObject
@@ -817,7 +817,7 @@ obj
 ForOfPIC
 :
 :
-jsclass
+class_
 )
 ;
 return

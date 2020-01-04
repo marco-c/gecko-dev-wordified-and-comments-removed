@@ -2485,6 +2485,11 @@ MODULE_SLOT
 =
 0
 ;
+static
+const
+ClassOps
+classOps_
+;
 bool
 hasModule
 (

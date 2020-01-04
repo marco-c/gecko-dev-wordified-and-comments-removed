@@ -392,7 +392,9 @@ global
 )
 -
 >
-resolve
+getResolve
+(
+)
 )
 ;
 CHECK

@@ -12651,7 +12651,9 @@ return
 clasp
 -
 >
-resolve
+getResolve
+(
+)
 |
 |
 clasp
@@ -17909,7 +17911,9 @@ getClass
 )
 -
 >
-finalize
+hasFinalize
+(
+)
 )
 ;
 }

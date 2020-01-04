@@ -149,6 +149,11 @@ CallArgs
 args
 )
 ;
+static
+const
+ClassOps
+classOps_
+;
 public
 :
 static
