@@ -389,8 +389,11 @@ aChildCount
 ;
 if
 (
-!
-Intl
+IntlGeneric
+(
+)
+.
+IsNull
 (
 )
 )
@@ -400,11 +403,10 @@ NS_ERROR_FAILURE
 *
 aChildCount
 =
-Intl
+IntlGeneric
 (
 )
--
->
+.
 ChildCount
 (
 )
