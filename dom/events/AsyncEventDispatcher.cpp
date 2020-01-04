@@ -113,9 +113,10 @@ EmptyString
 ;
 mEvent
 =
-do_QueryInterface
-(
 event
+.
+forget
+(
 )
 ;
 NS_ASSERTION
