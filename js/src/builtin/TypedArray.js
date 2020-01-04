@@ -3481,6 +3481,7 @@ if
 (
 isTypedArray
 )
+{
 buffer
 =
 GetAttachedArrayBuffer
@@ -3488,7 +3489,9 @@ GetAttachedArrayBuffer
 obj
 )
 ;
+}
 else
+{
 buffer
 =
 callFunction
@@ -3501,6 +3504,7 @@ GetAttachedArrayBuffer
 "
 )
 ;
+}
 var
 len
 ;
@@ -3594,6 +3598,7 @@ RadixSort
 (
 obj
 len
+buffer
 2
 false
 false
@@ -3615,6 +3620,7 @@ RadixSort
 (
 obj
 len
+buffer
 2
 true
 false
@@ -3636,6 +3642,7 @@ RadixSort
 (
 obj
 len
+buffer
 4
 false
 false
@@ -3657,6 +3664,7 @@ RadixSort
 (
 obj
 len
+buffer
 4
 true
 false
@@ -3678,6 +3686,7 @@ RadixSort
 (
 obj
 len
+buffer
 4
 true
 true
