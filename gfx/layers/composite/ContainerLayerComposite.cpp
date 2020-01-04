@@ -3458,14 +3458,6 @@ HasLayerBeenComposited
 )
 )
 {
-layerToRender
--
->
-SetLayerComposited
-(
-false
-)
-;
 gfx
 :
 :
