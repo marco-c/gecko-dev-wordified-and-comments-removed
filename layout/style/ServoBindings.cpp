@@ -3113,7 +3113,7 @@ const
 uint8_t
 *
 bytes
-uint8_t
+uint32_t
 length
 nsHTMLCSSStyleSheet
 *
