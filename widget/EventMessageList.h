@@ -944,7 +944,7 @@ eMediaEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_PLAYING
+ePlaying
 eMediaEventFirst
 +
 10
