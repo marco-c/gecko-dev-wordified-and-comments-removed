@@ -278,5 +278,10 @@ char
 progname
 )
 ;
+uint32_t
+MultiprocessBlockPolicy
+(
+)
+;
 #
 endif
