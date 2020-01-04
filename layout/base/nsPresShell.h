@@ -3126,6 +3126,15 @@ mMouseLocation
 mozilla
 :
 :
+layers
+:
+:
+ScrollableLayerGuid
+mMouseEventTargetGuid
+;
+mozilla
+:
+:
 StyleSheetHandle
 :
 :
