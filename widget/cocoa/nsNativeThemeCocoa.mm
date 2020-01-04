@@ -6074,9 +6074,15 @@ cgContext
 NSDictionary
 *
 aOptions
+bool
+aSkipAreaCheck
 )
 {
 if
+(
+aSkipAreaCheck
+|
+|
 (
 aRect
 .
@@ -6092,6 +6098,7 @@ height
 <
 =
 BITMAP_MAX_AREA
+)
 )
 {
 CUIRendererRef
@@ -6385,6 +6392,7 @@ RenderWithCoreUILegacy
 aRect
 cgContext
 aOptions
+false
 )
 ;
 }
@@ -18173,6 +18181,7 @@ flipped
 "
 nil
 ]
+true
 )
 ;
 }
@@ -18524,6 +18533,7 @@ flipped
 "
 nil
 ]
+true
 )
 ;
 }
