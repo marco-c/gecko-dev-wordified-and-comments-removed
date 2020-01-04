@@ -231,7 +231,7 @@ for
 ;
 )
 {
-MutexAutoLock
+CriticalSectionAutoEnter
 lock
 (
 &
@@ -345,7 +345,7 @@ MOZ_ASSERT
 aJobs
 )
 ;
-MutexAutoLock
+CriticalSectionAutoEnter
 lock
 (
 &
@@ -374,7 +374,7 @@ NumJobs
 (
 )
 {
-MutexAutoLock
+CriticalSectionAutoEnter
 lock
 (
 &
@@ -397,7 +397,7 @@ IsEmpty
 (
 )
 {
-MutexAutoLock
+CriticalSectionAutoEnter
 lock
 (
 &
@@ -420,7 +420,7 @@ ShutDown
 (
 )
 {
-MutexAutoLock
+CriticalSectionAutoEnter
 lock
 (
 &
@@ -474,7 +474,7 @@ UnregisterThread
 (
 )
 {
-MutexAutoLock
+CriticalSectionAutoEnter
 lock
 (
 &
@@ -532,7 +532,7 @@ Peak
 (
 )
 {
-MutexAutoLock
+CriticalSectionAutoEnter
 lock
 (
 &
@@ -551,7 +551,7 @@ Set
 (
 )
 {
-MutexAutoLock
+CriticalSectionAutoEnter
 lock
 (
 &
@@ -584,7 +584,7 @@ Wait
 (
 )
 {
-MutexAutoLock
+CriticalSectionAutoEnter
 lock
 (
 &
