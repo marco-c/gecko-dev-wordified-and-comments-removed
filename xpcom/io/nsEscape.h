@@ -64,7 +64,7 @@ C
 endif
 char
 *
-nsEscapeWithLength
+nsEscape
 (
 const
 char
@@ -75,18 +75,6 @@ aLength
 size_t
 *
 aOutputLen
-nsEscapeMask
-aMask
-)
-;
-char
-*
-nsEscape
-(
-const
-char
-*
-aStr
 nsEscapeMask
 aMask
 )
@@ -461,7 +449,7 @@ char
 *
 esc
 =
-nsEscapeWithLength
+nsEscape
 (
 aOriginal
 .
