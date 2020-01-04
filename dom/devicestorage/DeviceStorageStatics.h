@@ -79,6 +79,12 @@ aListener
 ;
 static
 bool
+LowDiskSpace
+(
+)
+;
+static
+bool
 IsPromptTesting
 (
 )
@@ -338,6 +344,9 @@ mInitialized
 ;
 bool
 mPromptTesting
+;
+bool
+mLowDiskSpace
 ;
 nsString
 mWritableName
