@@ -2159,7 +2159,7 @@ MaybeReadFallback
 fallback
 bool
 *
-hasCallObj
+hasInitialEnv
 =
 nullptr
 )
@@ -2303,7 +2303,7 @@ JSObject
 envChain
 bool
 *
-hasCallObj
+hasInitialEnv
 Value
 *
 rval
@@ -2350,7 +2350,7 @@ computeEnvironmentChain
 (
 envChainValue
 fallback
-hasCallObj
+hasInitialEnv
 )
 ;
 }

@@ -12468,7 +12468,7 @@ MaybeReadFallback
 fallback
 bool
 *
-hasCallObj
+hasInitialEnv
 )
 const
 {
@@ -12483,7 +12483,7 @@ isObject
 {
 if
 (
-hasCallObj
+hasInitialEnv
 )
 {
 if
@@ -12510,7 +12510,7 @@ toObject
 )
 ;
 *
-hasCallObj
+hasInitialEnv
 =
 isFunctionFrame
 (
@@ -12523,7 +12523,7 @@ fallback
 )
 -
 >
-needsCallObject
+needsFunctionEnvironmentObjects
 (
 )
 ;
@@ -12540,7 +12540,7 @@ AutoSuppressGCAnalysis
 nogc
 ;
 *
-hasCallObj
+hasInitialEnv
 =
 isFunctionFrame
 (
@@ -12553,7 +12553,7 @@ fallback
 )
 -
 >
-needsCallObject
+needsFunctionEnvironmentObjects
 (
 )
 ;
