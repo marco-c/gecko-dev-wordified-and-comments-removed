@@ -841,6 +841,17 @@ aOther
 )
 const
 ;
+virtual
+bool
+AppliesToTransitionsLevel
+(
+)
+const
+{
+return
+false
+;
+}
 bool
 CanThrottle
 (
