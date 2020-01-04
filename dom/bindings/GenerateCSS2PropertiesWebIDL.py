@@ -57,9 +57,7 @@ preprocessorHeader
     
 cpp
 =
-shellutil
-.
-split
+list
 (
 buildconfig
 .
