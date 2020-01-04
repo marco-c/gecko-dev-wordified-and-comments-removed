@@ -3724,6 +3724,17 @@ xpcshell
 *
 *
 '
+                                      
+'
+default
+/
+tests
+/
+reftests
+/
+*
+*
+'
 ]
 )
         
