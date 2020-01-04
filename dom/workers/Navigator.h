@@ -310,6 +310,9 @@ GetUserAgent
 nsString
 &
 aUserAgent
+ErrorResult
+&
+aRv
 )
 const
 ;

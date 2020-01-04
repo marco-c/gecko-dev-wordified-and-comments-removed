@@ -472,6 +472,9 @@ platform
 [
 Constant
 Cached
+Throws
+=
+Workers
 ]
 readonly
 attribute
