@@ -133,6 +133,11 @@ TestScrollHandoff
 cpp
 '
 '
+TestSnapping
+.
+cpp
+'
+'
 TestTreeManager
 .
 cpp

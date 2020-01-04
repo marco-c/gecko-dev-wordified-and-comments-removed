@@ -315,6 +315,17 @@ LayoutDeviceIntSize
 ;
 metrics
 .
+SetLineScrollAmount
+(
+LayoutDeviceIntSize
+(
+5
+10
+)
+)
+;
+metrics
+.
 SetAllowVerticalScrollWithWheel
 (
 true
