@@ -142,7 +142,7 @@ utils
 const
 {
 getTabForBrowser
-getTabForContentWindow
+getTabForContentWindowNoShim
 getBrowserForTab
 }
 =
@@ -215,6 +215,7 @@ events
 const
 {
 Ci
+Cu
 }
 =
 require
@@ -838,11 +839,9 @@ null
 let
 tab
 =
-getTabForContentWindow
+getTabForContentWindowNoShim
 (
 window
-.
-top
 )
 ;
 if

@@ -19,7 +19,6 @@ unstable
 ;
 const
 {
-getTabForContentWindow
 getTabForBrowser
 :
 getRawTabForBrowser

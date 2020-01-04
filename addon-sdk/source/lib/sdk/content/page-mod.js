@@ -216,8 +216,6 @@ utils
 const
 {
 getTabs
-getTabContentWindow
-getTabForContentWindow
 getURI
 :
 getTabURI

@@ -199,7 +199,7 @@ object
 ;
 const
 {
-getTabForContentWindow
+getTabForContentWindowNoShim
 }
 =
 require
@@ -480,7 +480,7 @@ isTab
 else
 {
 return
-getTabForContentWindow
+getTabForContentWindowNoShim
 (
 window
 )
