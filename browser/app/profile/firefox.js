@@ -13632,9 +13632,6 @@ email
 )
 ;
 #
-ifdef
-NIGHTLY_BUILD
-#
 ifndef
 MOZ_MULET
 pref
@@ -13653,8 +13650,6 @@ enabled
 true
 )
 ;
-#
-endif
 #
 endif
 #
