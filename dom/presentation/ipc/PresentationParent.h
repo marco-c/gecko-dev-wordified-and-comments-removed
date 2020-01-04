@@ -148,6 +148,10 @@ const
 nsString
 &
 aSessionId
+const
+uint8_t
+&
+aRole
 )
 override
 ;
@@ -159,6 +163,10 @@ const
 nsString
 &
 aSessionId
+const
+uint8_t
+&
+aRole
 )
 override
 ;
@@ -216,7 +224,13 @@ nsTArray
 <
 nsString
 >
-mSessionIds
+mSessionIdsAtController
+;
+nsTArray
+<
+nsString
+>
+mSessionIdsAtReceiver
 ;
 nsTArray
 <

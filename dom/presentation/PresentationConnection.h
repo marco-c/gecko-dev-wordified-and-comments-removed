@@ -69,6 +69,9 @@ const
 nsAString
 &
 aId
+const
+uint8_t
+aRole
 PresentationConnectionState
 aState
 )
@@ -164,6 +167,9 @@ const
 nsAString
 &
 aId
+const
+uint8_t
+aRole
 PresentationConnectionState
 aState
 )
@@ -206,6 +212,9 @@ aData
 ;
 nsString
 mId
+;
+uint8_t
+mRole
 ;
 PresentationConnectionState
 mState

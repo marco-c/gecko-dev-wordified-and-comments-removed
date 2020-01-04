@@ -282,6 +282,8 @@ const
 nsAString
 &
 aSessionId
+uint8_t
+aRole
 const
 nsAString
 &
@@ -318,6 +320,7 @@ nsString
 (
 aSessionId
 )
+aRole
 nsString
 (
 aData
@@ -336,6 +339,8 @@ const
 nsAString
 &
 aSessionId
+uint8_t
+aRole
 )
 {
 MOZ_ASSERT
@@ -358,6 +363,7 @@ nsString
 (
 aSessionId
 )
+aRole
 )
 )
 ;
@@ -372,6 +378,8 @@ const
 nsAString
 &
 aSessionId
+uint8_t
+aRole
 )
 {
 MOZ_ASSERT
@@ -394,6 +402,7 @@ nsString
 (
 aSessionId
 )
+aRole
 )
 )
 ;
@@ -558,6 +567,8 @@ const
 nsAString
 &
 aSessionId
+uint8_t
+aRole
 nsIPresentationSessionListener
 *
 aListener
@@ -600,6 +611,7 @@ nsString
 (
 aSessionId
 )
+aRole
 )
 )
 ;
@@ -618,6 +630,8 @@ const
 nsAString
 &
 aSessionId
+uint8_t
+aRole
 )
 {
 MOZ_ASSERT
@@ -630,6 +644,7 @@ NS_IsMainThread
 UntrackSessionInfo
 (
 aSessionId
+aRole
 )
 ;
 mSessionListeners
@@ -656,6 +671,7 @@ nsString
 (
 aSessionId
 )
+aRole
 )
 )
 ;
@@ -1165,6 +1181,8 @@ const
 nsAString
 &
 aSessionId
+uint8_t
+aRole
 )
 {
 uint64_t
