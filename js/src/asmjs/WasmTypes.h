@@ -3647,6 +3647,15 @@ MaxTableElems
 static
 const
 unsigned
+MaxDataSegments
+=
+64
+*
+1024
+;
+static
+const
+unsigned
 MaxArgsPerFunc
 =
 4
