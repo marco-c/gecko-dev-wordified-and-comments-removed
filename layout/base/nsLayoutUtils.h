@@ -5522,6 +5522,16 @@ nsIScrollableFrame
 aRootScrollFrame
 )
 ;
+static
+nsBlockFrame
+*
+GetFloatContainingBlock
+(
+nsIFrame
+*
+aFrame
+)
+;
 private
 :
 static
