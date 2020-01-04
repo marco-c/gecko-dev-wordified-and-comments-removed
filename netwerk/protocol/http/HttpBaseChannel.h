@@ -412,11 +412,6 @@ aLoadFlags
 override
 ;
 NS_IMETHOD
-SetDocshellUserAgentOverride
-(
-)
-;
-NS_IMETHOD
 GetOriginalURI
 (
 nsIURI
