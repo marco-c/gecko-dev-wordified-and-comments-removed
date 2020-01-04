@@ -91,9 +91,6 @@ DocAccessibleWrap
 nsIDocument
 *
 aDocument
-nsIContent
-*
-aRootContent
 nsIPresShell
 *
 aPresShell
@@ -102,7 +99,6 @@ aPresShell
 DocAccessible
 (
 aDocument
-aRootContent
 aPresShell
 )
 mHWND

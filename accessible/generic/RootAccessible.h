@@ -50,9 +50,6 @@ RootAccessible
 nsIDocument
 *
 aDocument
-nsIContent
-*
-aRootContent
 nsIPresShell
 *
 aPresShell
