@@ -501,6 +501,14 @@ STATE_STOP
 this
 .
 _currentCapture
+&
+&
+Components
+.
+isSuccessCode
+(
+status
+)
 )
 {
 if
