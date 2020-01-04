@@ -146,11 +146,6 @@ Telemetry
 h
 '
 '
-TelemetryComms
-.
-h
-'
-'
 ThreadHangStats
 .
 h
