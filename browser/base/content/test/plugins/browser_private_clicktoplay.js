@@ -854,9 +854,10 @@ click
 let
 condition
 =
-function
 (
 )
+=
+>
 objLoadingContent
 .
 activated
@@ -1234,9 +1235,10 @@ click
 let
 condition
 =
-function
 (
 )
+=
+>
 objLoadingContent
 .
 activated

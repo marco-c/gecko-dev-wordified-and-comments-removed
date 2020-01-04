@@ -1651,9 +1651,10 @@ false
 let
 condition
 =
-function
 (
 )
+=
+>
 !
 PopupNotifications
 .
@@ -1919,9 +1920,10 @@ false
 let
 condition
 =
-function
 (
 )
+=
+>
 !
 PopupNotifications
 .
@@ -2131,9 +2133,10 @@ false
 let
 condition
 =
-function
 (
 )
+=
+>
 !
 PopupNotifications
 .
@@ -2864,9 +2867,10 @@ false
 let
 condition
 =
-function
 (
 )
+=
+>
 !
 notification
 .

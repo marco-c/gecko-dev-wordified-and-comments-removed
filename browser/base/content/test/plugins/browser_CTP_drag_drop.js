@@ -784,9 +784,10 @@ false
 let
 condition
 =
-function
 (
 )
+=
+>
 !
 PopupNotifications
 .

@@ -608,9 +608,10 @@ promise
 let
 condition
 =
-function
 (
 )
+=
+>
 !
 PopupNotifications
 .
@@ -1430,9 +1431,10 @@ promise
 let
 condition
 =
-function
 (
 )
+=
+>
 !
 PopupNotifications
 .

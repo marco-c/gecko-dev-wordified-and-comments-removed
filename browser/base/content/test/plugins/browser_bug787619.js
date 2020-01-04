@@ -441,9 +441,10 @@ activated
 let
 condition
 =
-function
 (
 )
+=
+>
 !
 PopupNotifications
 .

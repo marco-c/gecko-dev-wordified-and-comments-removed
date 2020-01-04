@@ -886,9 +886,10 @@ activated
 let
 condition
 =
-function
 (
 )
+=
+>
 !
 notification
 .
