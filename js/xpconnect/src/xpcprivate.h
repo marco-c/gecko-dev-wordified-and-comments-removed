@@ -2824,13 +2824,6 @@ unsigned
 1
 }
 ;
-static
-JSContext
-*
-GetDefaultJSContext
-(
-)
-;
 XPCCallContext
 (
 XPCContext
