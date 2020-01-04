@@ -1673,6 +1673,7 @@ if
 (
 sigIndex
 >
+=
 init
 -
 >
