@@ -253,6 +253,17 @@ no
 -
 media
 "
+ROOM_ALREADY_OPEN
+:
+"
+reason
+-
+room
+-
+already
+-
+open
+"
 UNABLE_TO_PUBLISH_MEDIA
 :
 "
