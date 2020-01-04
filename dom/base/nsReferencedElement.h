@@ -66,6 +66,11 @@ Element
 nsReferencedElement
 (
 )
+:
+mReferencingImage
+(
+false
+)
 {
 }
 ~
