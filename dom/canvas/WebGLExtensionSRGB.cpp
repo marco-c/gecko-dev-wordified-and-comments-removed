@@ -279,9 +279,9 @@ SRGB8_ALPHA8
 usage
 -
 >
-isRenderable
-=
-true
+SetRenderable
+(
+)
 ;
 fua
 -
