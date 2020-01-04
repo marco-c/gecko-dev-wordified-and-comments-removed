@@ -2169,6 +2169,10 @@ topDocument
 if
 (
 !
+inputElement
+&
+&
+!
 topState
 .
 loginFormForFill
