@@ -768,13 +768,6 @@ mon
 mMonitor
 )
 ;
-if
-(
-aOffset
-<
-mOffset
-)
-{
 mInputBuffer
 .
 EvictBefore
@@ -783,7 +776,6 @@ aOffset
 aRv
 )
 ;
-}
 mon
 .
 NotifyAll
