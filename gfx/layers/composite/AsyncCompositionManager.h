@@ -615,6 +615,8 @@ const
 ScreenMargin
 &
 aFixedLayerMargins
+bool
+aTransformAffectsLayerClip
 )
 ;
 void
