@@ -36973,7 +36973,7 @@ writable
 false
 #
 ifdef
-MOZ_REQUIRE_ADDON_SIGNING
+MOZ_REQUIRE_SIGNING
 value
 :
 true
