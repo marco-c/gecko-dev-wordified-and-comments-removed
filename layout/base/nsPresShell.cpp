@@ -29751,7 +29751,7 @@ NS_TOUCH_CANCEL
 :
 pointerMessage
 =
-NS_POINTER_CANCEL
+ePointerCancel
 ;
 break
 ;
@@ -33430,7 +33430,7 @@ pointerEvent
 mMessage
 =
 =
-NS_POINTER_CANCEL
+ePointerCancel
 )
 {
 releasePointerCaptureCaller
@@ -39885,10 +39885,7 @@ docShell
 "
 Reflow
 "
-MarkerTracingType
-:
-:
-START
+TRACING_INTERVAL_START
 )
 ;
 }
@@ -40844,10 +40841,7 @@ docShell
 "
 Reflow
 "
-MarkerTracingType
-:
-:
-END
+TRACING_INTERVAL_END
 )
 ;
 }

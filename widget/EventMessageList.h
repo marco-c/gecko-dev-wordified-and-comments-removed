@@ -273,7 +273,7 @@ ePointerEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_POINTER_CANCEL
+ePointerCancel
 ePointerEventFirst
 +
 26
