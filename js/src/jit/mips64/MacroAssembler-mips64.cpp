@@ -11261,7 +11261,7 @@ label
 extractObject
 (
 value
-temp
+SecondScratchReg
 )
 ;
 orPtr
@@ -11273,7 +11273,7 @@ gc
 :
 ChunkMask
 )
-temp
+SecondScratchReg
 )
 ;
 branch32
@@ -11281,7 +11281,7 @@ branch32
 cond
 Address
 (
-temp
+SecondScratchReg
 gc
 :
 :
