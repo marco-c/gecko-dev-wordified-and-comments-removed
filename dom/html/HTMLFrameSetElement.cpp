@@ -288,7 +288,7 @@ oldRows
 {
 mCurrentRowColHint
 =
-nsChangeHint_ReconstructFrame
+NS_STYLE_HINT_FRAMECHANGE
 ;
 }
 }
@@ -333,7 +333,7 @@ oldCols
 {
 mCurrentRowColHint
 =
-nsChangeHint_ReconstructFrame
+NS_STYLE_HINT_FRAMECHANGE
 ;
 }
 }

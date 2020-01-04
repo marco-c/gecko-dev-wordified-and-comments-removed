@@ -19890,7 +19890,7 @@ AppendChange
 (
 nullptr
 element
-nsChangeHint_ReconstructFrame
+NS_STYLE_HINT_FRAMECHANGE
 )
 ;
 }

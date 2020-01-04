@@ -24580,7 +24580,7 @@ webkitdirectory
 retval
 |
 =
-nsChangeHint_ReconstructFrame
+NS_STYLE_HINT_FRAMECHANGE
 ;
 }
 else
@@ -24615,7 +24615,7 @@ value
 retval
 |
 =
-nsChangeHint_ReconstructFrame
+NS_STYLE_HINT_FRAMECHANGE
 ;
 }
 else
@@ -24680,7 +24680,7 @@ placeholder
 retval
 |
 =
-nsChangeHint_ReconstructFrame
+NS_STYLE_HINT_FRAMECHANGE
 ;
 }
 return
