@@ -2173,49 +2173,9 @@ passthru
 )
 :
         
-for
-obj
-in
-self
-.
-_process_sources
-(
-context
-passthru
-)
-:
-            
-yield
-obj
-        
-self
-.
-_handle_programs
-(
-context
-)
-        
-for
-obj
-in
-self
-.
-_handle_libraries
-(
-context
-)
-:
-            
-yield
-obj
-    
-def
-_handle_programs
-(
-self
-context
-)
-:
+has_linkables
+=
+False
         
 for
 kind
@@ -2343,6 +2303,10 @@ USE_LIBS
 )
 )
 )
+                
+has_linkables
+=
+True
         
 for
 kind
@@ -2487,14 +2451,10 @@ USE_LIBS
 '
 )
 )
-    
-def
-_handle_libraries
-(
-self
-context
-)
-:
+                
+has_linkables
+=
+True
         
 host_libname
 =
@@ -2582,6 +2542,10 @@ HOST_USE_LIBS
 '
 )
 )
+            
+has_linkables
+=
+True
         
 final_lib
 =
@@ -3509,6 +3473,10 @@ USE_LIBS
 )
 )
                 
+has_linkables
+=
+True
+                
 if
 is_component
 and
@@ -3646,6 +3614,10 @@ USE_LIBS
 '
 )
 )
+                
+has_linkables
+=
+True
             
 if
 lib_defines
@@ -3682,15 +3654,13 @@ update
 (
 lib_defines
 )
-    
-def
-_process_sources
-(
-self
-context
-passthru
-)
+        
+if
+not
+has_linkables
 :
+            
+return
         
 sources
 =

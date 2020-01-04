@@ -5810,6 +5810,15 @@ read_topsrcdir
 reader
 )
         
+objs
+=
+objs
+[
+:
+-
+1
+]
+        
 self
 .
 assertEqual
@@ -6046,6 +6055,15 @@ read_topsrcdir
 (
 reader
 )
+        
+objs
+=
+objs
+[
+:
+-
+1
+]
         
 self
 .
@@ -6297,6 +6315,15 @@ read_topsrcdir
 reader
 )
         
+objs
+=
+objs
+[
+:
+-
+1
+]
+        
 self
 .
 assertEqual
@@ -6494,6 +6521,15 @@ read_topsrcdir
 (
 reader
 )
+        
+objs
+=
+objs
+[
+:
+-
+1
+]
         
 self
 .
@@ -6714,6 +6750,15 @@ read_topsrcdir
 (
 reader
 )
+        
+objs
+=
+objs
+[
+:
+-
+1
+]
         
 self
 .
