@@ -1876,6 +1876,15 @@ getCurrentPingData
 subsession
 )
 ;
+if
+(
+!
+ping
+)
+{
+return
+;
+}
 displayPingData
 (
 ping
