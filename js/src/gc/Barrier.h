@@ -3815,6 +3815,9 @@ BaseShape
 class
 UnownedBaseShape
 ;
+class
+WasmInstanceObject
+;
 namespace
 jit
 {
@@ -4168,6 +4171,14 @@ Symbol
 *
 >
 ReadBarrieredSymbol
+;
+typedef
+ReadBarriered
+<
+WasmInstanceObject
+*
+>
+ReadBarrieredWasmInstanceObject
 ;
 typedef
 ReadBarriered
