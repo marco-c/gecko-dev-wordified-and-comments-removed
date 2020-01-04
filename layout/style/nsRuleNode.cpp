@@ -6020,7 +6020,7 @@ isEqualExceptRef
 )
 ;
 }
-NS_ASSERTION
+MOZ_ASSERT
 (
 aStyleContext
 -
