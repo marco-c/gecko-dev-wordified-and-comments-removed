@@ -995,9 +995,6 @@ float
 void
 CopyFromInputBufferWithResampling
 (
-AudioNodeStream
-*
-aStream
 AudioBlock
 *
 aOutput
@@ -1524,9 +1521,6 @@ numFrames
 void
 CopyFromBuffer
 (
-AudioNodeStream
-*
-aStream
 AudioBlock
 *
 aOutput
@@ -1578,7 +1572,6 @@ mResampler
 {
 CopyFromInputBufferWithResampling
 (
-aStream
 aOutput
 aChannels
 aOffsetWithinBlock
@@ -2128,7 +2121,6 @@ mLoopStart
 }
 CopyFromBuffer
 (
-aStream
 aOutput
 channels
 &
@@ -2153,7 +2145,6 @@ mRemainingResamplerTail
 {
 CopyFromBuffer
 (
-aStream
 aOutput
 channels
 &
