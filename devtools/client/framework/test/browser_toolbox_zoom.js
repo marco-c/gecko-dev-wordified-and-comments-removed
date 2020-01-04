@@ -263,9 +263,7 @@ key
 modifiers
 toolbox
 .
-doc
-.
-defaultView
+win
 )
 ;
 }

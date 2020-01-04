@@ -250,9 +250,7 @@ is
 (
 toolbox
 .
-doc
-.
-defaultView
+win
 .
 top
 window

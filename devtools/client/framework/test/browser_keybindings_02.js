@@ -258,9 +258,7 @@ true
 }
 toolbox
 .
-doc
-.
-defaultView
+win
 )
 ;
 isnot

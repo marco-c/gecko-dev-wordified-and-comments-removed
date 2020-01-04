@@ -346,9 +346,7 @@ win
 =
 toolbox
 .
-doc
-.
-defaultView
+win
 ;
 let
 deck

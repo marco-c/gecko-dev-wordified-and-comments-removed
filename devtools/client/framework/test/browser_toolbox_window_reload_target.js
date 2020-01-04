@@ -317,9 +317,7 @@ then
 {
 toolbox
 .
-doc
-.
-defaultView
+win
 .
 focus
 (

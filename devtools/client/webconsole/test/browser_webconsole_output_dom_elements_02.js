@@ -684,9 +684,7 @@ inspector
 .
 toolbox
 .
-doc
-.
-defaultView
+win
 )
 ;
 yield

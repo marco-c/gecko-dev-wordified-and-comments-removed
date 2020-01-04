@@ -7046,9 +7046,7 @@ win
 =
 toolbox
 .
-doc
-.
-defaultView
+win
 ;
 }
 if
