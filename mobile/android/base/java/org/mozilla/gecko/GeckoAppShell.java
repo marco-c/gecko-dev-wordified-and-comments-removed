@@ -8778,10 +8778,6 @@ PLUGIN_ACTION
 )
 PackageManager
 .
-GET_SERVICES
-|
-PackageManager
-.
 GET_META_DATA
 )
 ;
