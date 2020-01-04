@@ -3062,6 +3062,14 @@ ins
 )
 ;
 void
+visitRotate
+(
+LRotate
+*
+ins
+)
+;
+void
 visitRandom
 (
 LRandom
