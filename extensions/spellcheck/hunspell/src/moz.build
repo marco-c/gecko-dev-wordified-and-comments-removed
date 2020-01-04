@@ -93,7 +93,7 @@ MPL
 0
 /
 .
-SOURCES
+UNIFIED_SOURCES
 +
 =
 [
@@ -109,11 +109,6 @@ cxx
 '
 '
 csutil
-.
-cxx
-'
-'
-dictmgr
 .
 cxx
 '
