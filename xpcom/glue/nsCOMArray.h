@@ -307,7 +307,7 @@ uint32_t
 aCount
 )
 ;
-bool
+void
 ReplaceObjectAt
 (
 nsISupports
@@ -1356,7 +1356,7 @@ aCount
 )
 ;
 }
-bool
+void
 ReplaceObjectAt
 (
 T
@@ -1366,7 +1366,6 @@ int32_t
 aIndex
 )
 {
-return
 nsCOMArray_base
 :
 :

@@ -854,7 +854,7 @@ i
 ;
 }
 }
-bool
+void
 nsCOMArray_base
 :
 :
@@ -899,9 +899,6 @@ NS_IF_RELEASE
 (
 oldObject
 )
-;
-return
-true
 ;
 }
 bool

@@ -638,9 +638,6 @@ elementRef
 aElement
 ;
 }
-bool
-result
-=
 mArray
 .
 ReplaceObjectAt
@@ -650,11 +647,7 @@ aIndex
 )
 ;
 return
-result
-?
 NS_OK
-:
-NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
