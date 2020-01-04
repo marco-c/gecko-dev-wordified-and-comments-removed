@@ -191,3 +191,14 @@ ext
 test
 .
 js
+content
+/
+extensions
+/
+ext
+-
+c
+-
+runtime
+.
+js
