@@ -5098,6 +5098,14 @@ symlink
 options
 .
 symlink
+and
+hasattr
+(
+os
+'
+symlink
+'
+)
 )
     
 if
