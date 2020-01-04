@@ -233,7 +233,7 @@ Element
 >
 mGlyphIdMap
 ;
-nsAutoCString
+nsCString
 mSVGGlyphsDocumentURI
 ;
 }
