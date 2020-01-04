@@ -193,7 +193,7 @@ MULTITOUCH_START
 break
 ;
 case
-NS_TOUCH_MOVE
+eTouchMove
 :
 mType
 =
@@ -421,7 +421,7 @@ MULTITOUCH_MOVE
 :
 touchEventMessage
 =
-NS_TOUCH_MOVE
+eTouchMove
 ;
 break
 ;

@@ -5203,7 +5203,7 @@ case
 eTouchStart
 :
 case
-NS_TOUCH_MOVE
+eTouchMove
 :
 case
 NS_TOUCH_END

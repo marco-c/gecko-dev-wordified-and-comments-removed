@@ -1624,7 +1624,7 @@ return
 self
 sendTouchEvent
 :
-NS_TOUCH_MOVE
+eTouchMove
 touches
 :
 [

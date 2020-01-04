@@ -1328,7 +1328,7 @@ mEndTouchIsClick
 )
 ;
 case
-NS_TOUCH_MOVE
+eTouchMove
 :
 {
 if

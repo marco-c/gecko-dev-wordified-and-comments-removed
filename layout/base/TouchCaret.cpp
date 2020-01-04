@@ -3448,7 +3448,7 @@ AsMouseEvent
 break
 ;
 case
-NS_TOUCH_MOVE
+eTouchMove
 :
 status
 =

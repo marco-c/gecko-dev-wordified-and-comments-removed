@@ -631,7 +631,7 @@ false
 break
 ;
 case
-NS_TOUCH_MOVE
+eTouchMove
 :
 case
 eMouseMove

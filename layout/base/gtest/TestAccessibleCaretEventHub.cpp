@@ -790,7 +790,7 @@ aY
 return
 CreateTouchEvent
 (
-NS_TOUCH_MOVE
+eTouchMove
 aX
 aY
 )

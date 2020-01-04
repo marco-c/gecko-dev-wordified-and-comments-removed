@@ -4617,7 +4617,7 @@ ACTION_MOVE
 {
 type
 =
-NS_TOUCH_MOVE
+eTouchMove
 ;
 break
 ;
