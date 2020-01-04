@@ -2763,10 +2763,11 @@ function
 (
 )
 {
-window
+SpecialPowers
 .
-removeEventListener
+removeSystemEventListener
 (
+window
 "
 wheel
 "
@@ -2891,10 +2892,11 @@ waitForPaints
 ;
 }
 ;
-aWindow
+SpecialPowers
 .
-addEventListener
+addSystemEventListener
 (
+aWindow
 "
 wheel
 "
