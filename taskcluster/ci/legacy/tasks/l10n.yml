@@ -229,11 +229,7 @@ home
 /
 worker
 /
-workspace
-/
-build
-/
-upload
+artifacts
 /
 '
 expires
@@ -401,3 +397,6 @@ tier
 symbol
 :
 L10n
+jobKind
+:
+build

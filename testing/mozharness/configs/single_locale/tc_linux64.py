@@ -209,11 +209,7 @@ home
 /
 worker
 /
-workspace
-/
-build
-/
-upload
+artifacts
 /
 '
     
