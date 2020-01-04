@@ -390,6 +390,8 @@ nsSMILValueArray
 ;
 enum
 nsSMILCalcMode
+:
+uint8_t
 {
 CALC_LINEAR
 CALC_DISCRETE

@@ -1033,6 +1033,7 @@ week
 NS_FORM_INPUT_WEEK
 }
 {
+nullptr
 0
 }
 }
@@ -1155,6 +1156,7 @@ autocapitalized
 NS_INPUT_INPUTMODE_AUTOCAPITALIZED
 }
 {
+nullptr
 0
 }
 }
@@ -1443,9 +1445,6 @@ array
 true
 )
 ;
-Unused
-<
-<
 NS_WARN_IF
 (
 NS_FAILED
@@ -1502,16 +1501,12 @@ true
 false
 )
 ;
-NS_WARNING_ASSERTION
+NS_WARN_IF
 (
-NS_SUCCEEDED
+NS_FAILED
 (
 rv
 )
-"
-DispatchTrustedEvent
-failed
-"
 )
 ;
 rv

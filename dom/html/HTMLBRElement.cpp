@@ -132,6 +132,7 @@ both
 NS_STYLE_CLEAR_BOTH
 }
 {
+nullptr
 0
 }
 }

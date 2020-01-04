@@ -502,6 +502,7 @@ off
 NS_FORM_AUTOCOMPLETE_OFF
 }
 {
+nullptr
 0
 }
 }

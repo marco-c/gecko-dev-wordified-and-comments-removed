@@ -9,6 +9,8 @@ mozilla
 {
 enum
 CORSMode
+:
+uint8_t
 {
 CORS_NONE
 CORS_ANONYMOUS

@@ -154,6 +154,7 @@ center
 NS_STYLE_TEXT_ALIGN_CENTER
 }
 {
+nullptr
 0
 }
 }

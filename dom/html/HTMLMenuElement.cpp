@@ -107,6 +107,8 @@ dom
 {
 enum
 MenuType
+:
+uint8_t
 {
 MENU_TYPE_CONTEXT
 =
@@ -145,6 +147,7 @@ list
 MENU_TYPE_LIST
 }
 {
+nullptr
 0
 }
 }

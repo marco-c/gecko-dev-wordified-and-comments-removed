@@ -2637,6 +2637,8 @@ NotifyShutdownEvent
 ;
 enum
 PreloadAttrValue
+:
+uint8_t
 {
 PRELOAD_ATTR_EMPTY
 PRELOAD_ATTR_NONE

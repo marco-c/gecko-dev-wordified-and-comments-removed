@@ -101,6 +101,8 @@ NS_ORIGINAL_CHECKED_VALUE
 )
 enum
 CmdType
+:
+uint8_t
 {
 CMD_TYPE_MENUITEM
 =
@@ -139,6 +141,7 @@ radio
 CMD_TYPE_RADIO
 }
 {
+nullptr
 0
 }
 }

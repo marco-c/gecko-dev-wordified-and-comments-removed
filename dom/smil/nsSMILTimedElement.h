@@ -1053,6 +1053,8 @@ mMax
 ;
 enum
 nsSMILFillMode
+:
+uint8_t
 {
 FILL_REMOVE
 FILL_FREEZE
@@ -1072,6 +1074,8 @@ sFillModeTable
 ;
 enum
 nsSMILRestartMode
+:
+uint8_t
 {
 RESTART_ALWAYS
 RESTART_WHENNOTACTIVE

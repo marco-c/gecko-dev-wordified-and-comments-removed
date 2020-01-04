@@ -169,6 +169,7 @@ top
 NS_STYLE_VERTICAL_ALIGN_TOP
 }
 {
+nullptr
 0
 }
 }
