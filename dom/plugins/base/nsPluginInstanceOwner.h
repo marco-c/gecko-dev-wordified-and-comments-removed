@@ -924,6 +924,11 @@ GetImageContainer
 )
 ;
 bool
+NeedsScrollImageLayer
+(
+)
+;
+bool
 UpdateScrollState
 (
 bool
