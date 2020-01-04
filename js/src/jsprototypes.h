@@ -375,7 +375,7 @@ real
 (
 Iterator
 19
-InitIteratorClasses
+InitIteratorClass
 OCLASP
 (
 PropertyIterator
