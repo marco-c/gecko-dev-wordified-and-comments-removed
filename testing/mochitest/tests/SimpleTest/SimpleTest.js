@@ -4334,7 +4334,7 @@ removeMessageListener
 "
 WaitForFocus
 :
-ChildFocused
+FocusChild
 "
 focusChild
 )
@@ -4619,6 +4619,12 @@ ChildFocused
 "
 waitTest
 )
+;
+SimpleTest
+.
+_pendingWaitForFocusCount
+-
+-
 ;
 setTimeout
 (
