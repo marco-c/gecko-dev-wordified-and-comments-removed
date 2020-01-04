@@ -260,9 +260,15 @@ promiseFlushed
 then
 (
 (
+success
 )
 =
 >
+{
+if
+(
+success
+)
 {
 throw
 new
@@ -275,6 +281,7 @@ have
 failed
 "
 )
+}
 }
 )
 ;
