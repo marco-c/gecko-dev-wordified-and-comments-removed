@@ -3283,6 +3283,9 @@ if
 (
 !
 apzc
+&
+&
+mRootNode
 )
 {
 apzc
