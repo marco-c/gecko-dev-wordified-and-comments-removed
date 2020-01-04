@@ -171,6 +171,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsIAboutNewTabService
+.
+idl
+'
+'
 nsIBrowserGlue
 .
 idl
