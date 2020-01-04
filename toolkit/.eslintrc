@@ -470,8 +470,6 @@ case
 /
 No
 labels
-/
-/
 "
 no
 -
@@ -617,8 +615,6 @@ No
 overwriting
 defined
 functions
-/
-/
 "
 no
 -
@@ -759,8 +755,6 @@ reassigning
 native
 JS
 objects
-/
-/
 "
 no
 -
@@ -779,8 +773,6 @@ foo
 in
 bar
 )
-/
-/
 "
 no
 -
