@@ -20803,6 +20803,14 @@ gBrowserTabsRemoteAutostart
 =
 true
 ;
+prefEnabled
+=
+true
+;
+status
+=
+kE10sEnabledByUser
+;
 }
 mozilla
 :
