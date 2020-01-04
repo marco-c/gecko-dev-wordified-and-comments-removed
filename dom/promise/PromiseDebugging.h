@@ -371,6 +371,15 @@ FlushRejections
 ;
 friend
 class
+mozilla
+:
+:
+dom
+:
+:
+workers
+:
+:
 WorkerPrivate
 ;
 private
