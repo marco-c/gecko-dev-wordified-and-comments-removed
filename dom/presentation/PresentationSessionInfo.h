@@ -707,6 +707,11 @@ nsACString
 aAddress
 )
 ;
+nsresult
+ContinueReconnect
+(
+)
+;
 nsCOMPtr
 <
 nsIServerSocket
@@ -718,6 +723,11 @@ nsCOMPtr
 nsIPresentationServiceCallback
 >
 mReconnectCallback
+;
+bool
+mIsReconnecting
+=
+false
 ;
 }
 ;
