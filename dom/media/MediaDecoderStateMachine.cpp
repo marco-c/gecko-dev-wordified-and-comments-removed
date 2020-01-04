@@ -3635,9 +3635,6 @@ aDecodeStartTime
 ;
 if
 (
-mSentFirstFrameLoadedEvent
-&
-&
 THRESHOLD_FACTOR
 *
 DurationToUsecs
@@ -10351,15 +10348,6 @@ case
 DECODER_STATE_DECODING
 :
 {
-if
-(
-!
-mSentFirstFrameLoadedEvent
-)
-{
-return
-;
-}
 if
 (
 mPlayState
