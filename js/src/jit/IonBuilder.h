@@ -4414,17 +4414,6 @@ SimdTypeDescr
 target
 )
 ;
-static
-MIRType
-SimdTypeDescrToMIRType
-(
-SimdTypeDescr
-:
-:
-Type
-type
-)
-;
 bool
 canInlineSimd
 (

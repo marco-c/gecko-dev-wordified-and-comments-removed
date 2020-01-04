@@ -377,10 +377,7 @@ referenceType
 )
 const
 ;
-SimdTypeDescr
-:
-:
-Type
+SimdType
 simdType
 (
 )
