@@ -1034,7 +1034,7 @@ flat
 )
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 the
