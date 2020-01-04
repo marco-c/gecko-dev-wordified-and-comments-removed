@@ -224,6 +224,12 @@ PAN_INTO_VIEW_ONLY
 <
 <
 1
+ONLY_ZOOM_TO_DEFAULT_SCALE
+=
+1
+<
+<
+2
 }
 ;
 class

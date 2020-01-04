@@ -11563,6 +11563,17 @@ layers
 PAN_INTO_VIEW_ONLY
 ;
 }
+else
+{
+flags
+|
+=
+layers
+:
+:
+ONLY_ZOOM_TO_DEFAULT_SCALE
+;
+}
 CSSRect
 bounds
 =
