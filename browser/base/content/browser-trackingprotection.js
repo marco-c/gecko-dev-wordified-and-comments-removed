@@ -1127,6 +1127,7 @@ initForBrowser
 gBrowser
 .
 selectedBrowser
+window
 )
 ;
 UITour
