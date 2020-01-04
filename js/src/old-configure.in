@@ -8095,6 +8095,12 @@ CXXFLAGS
 fno
 -
 common
+-
+stdlib
+=
+libc
++
++
 "
 DLL_SUFFIX
 =
