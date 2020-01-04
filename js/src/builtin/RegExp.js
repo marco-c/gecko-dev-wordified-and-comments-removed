@@ -616,6 +616,14 @@ ToString
 replaceValue
 )
 ;
+if
+(
+replaceValue
+.
+length
+>
+1
+)
 firstDollarIndex
 =
 callFunction
