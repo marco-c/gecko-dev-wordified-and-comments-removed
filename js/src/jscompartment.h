@@ -2553,11 +2553,6 @@ traceOrMark
 )
 ;
 void
-finishRoots
-(
-)
-;
-void
 traceOutgoingCrossCompartmentWrappers
 (
 JSTracer

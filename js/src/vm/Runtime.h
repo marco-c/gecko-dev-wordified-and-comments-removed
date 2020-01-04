@@ -3339,17 +3339,6 @@ finishAtoms
 (
 )
 ;
-bool
-atomsAreFinished
-(
-)
-const
-{
-return
-!
-atoms_
-;
-}
 void
 sweepAtoms
 (

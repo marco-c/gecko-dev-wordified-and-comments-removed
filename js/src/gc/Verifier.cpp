@@ -854,9 +854,10 @@ State
 :
 MarkRoots
 ;
-traceRuntime
+markRuntime
 (
 trc
+TraceRuntime
 prep
 .
 session
@@ -2378,9 +2379,13 @@ rt
 >
 gc
 .
-traceRuntime
+markRuntime
 (
 this
+GCRuntime
+:
+:
+TraceRuntime
 lock
 )
 ;

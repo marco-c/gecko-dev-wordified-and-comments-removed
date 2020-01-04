@@ -4235,11 +4235,6 @@ JSRuntime
 rt
 )
 ;
-void
-finish
-(
-)
-;
 #
 ifdef
 JS_GC_ZEAL
