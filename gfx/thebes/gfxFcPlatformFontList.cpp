@@ -1911,6 +1911,9 @@ mFontData
 )
 {
 return
+gfxFontUtils
+:
+:
 GetTableFromFontData
 (
 mFontData
