@@ -187,7 +187,11 @@ name
 row
 )
 .
-value
+textContent
+.
+trim
+(
+)
 ;
 switch
 (

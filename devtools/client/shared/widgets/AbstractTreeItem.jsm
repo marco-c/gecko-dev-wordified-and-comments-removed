@@ -1459,12 +1459,6 @@ e
 {
 e
 .
-preventDefault
-(
-)
-;
-e
-.
 stopPropagation
 (
 )
