@@ -200,7 +200,7 @@ container
 =
 tooltip
 .
-content
+panel
 ;
 let
 containerRect

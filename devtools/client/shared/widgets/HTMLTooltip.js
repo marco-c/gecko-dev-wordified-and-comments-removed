@@ -418,6 +418,8 @@ function
 content
 width
 height
+=
+Infinity
 )
 {
 let
