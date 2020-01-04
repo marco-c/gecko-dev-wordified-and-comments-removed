@@ -2689,6 +2689,13 @@ kTextRenderingKTable
 static
 const
 KTableEntry
+kColorAdjustKTable
+[
+]
+;
+static
+const
+KTableEntry
 kColorInterpolationKTable
 [
 ]
