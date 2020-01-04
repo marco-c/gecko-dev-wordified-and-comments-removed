@@ -244,5 +244,11 @@ DOMString
 (
 )
 ;
+iterable
+<
+DOMString
+?
+>
+;
 }
 ;
