@@ -210,29 +210,6 @@ age
 100
 "
   
-elif
-request
-.
-ws_protocol
-=
-=
-"
-test
--
-49
-"
-:
-    
-request
-.
-ws_protocol
-=
-"
-teST
--
-49
-"
-  
 else
 :
     
