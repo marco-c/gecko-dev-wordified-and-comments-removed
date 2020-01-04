@@ -853,11 +853,9 @@ notification
 ;
 gTestBrowser
 .
-contentWindow
+webNavigation
 .
-history
-.
-back
+goBack
 (
 )
 ;
