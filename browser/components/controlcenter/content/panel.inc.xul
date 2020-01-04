@@ -217,6 +217,11 @@ popup
 -
 mainView
 "
+flex
+=
+"
+1
+"
 >
 <
 !
@@ -1062,7 +1067,7 @@ popup
 -
 permission
 -
-empty
+reload
 -
 hint
 "
@@ -1070,7 +1075,7 @@ hint
 &
 identity
 .
-permissionsEmpty
+permissionsReloadHint
 ;
 <
 /
@@ -1087,7 +1092,7 @@ popup
 -
 permission
 -
-reload
+empty
 -
 hint
 "
@@ -1095,7 +1100,7 @@ hint
 &
 identity
 .
-permissionsReloadHint
+permissionsEmpty
 ;
 <
 /
