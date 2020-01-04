@@ -415,6 +415,7 @@ new
 request
 '
 )
+;
 equal
 (
 registers

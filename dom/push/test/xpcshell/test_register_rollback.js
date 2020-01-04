@@ -438,17 +438,7 @@ failure
 )
 ;
 yield
-waitForPromise
-(
 unregisterPromise
-DEFAULT_TIMEOUT
-'
-Unregister
-request
-timed
-out
-'
-)
 ;
 equal
 (
