@@ -95,6 +95,15 @@ nsINavHistoryService
 TRANSITION_DOWNLOAD
 ;
 const
+TRANSITION_RELOAD
+=
+Ci
+.
+nsINavHistoryService
+.
+TRANSITION_RELOAD
+;
+const
 TITLE_LENGTH_MAX
 =
 4096
