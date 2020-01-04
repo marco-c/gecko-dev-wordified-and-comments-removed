@@ -77,9 +77,13 @@ null
 )
 {
 throw
+new
+Error
+(
 Cr
 .
 NS_ERROR_NO_AGGREGATION
+)
 ;
 }
 return

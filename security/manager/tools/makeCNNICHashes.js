@@ -1619,6 +1619,9 @@ length
 )
 {
 throw
+new
+Error
+(
 "
 Usage
 :
@@ -1626,9 +1629,13 @@ makeCNNICHashes
 .
 js
 <
+PEM
 intermediates
 file
 >
+"
++
+"
 <
 path
 to
@@ -1637,6 +1644,7 @@ of
 certificates
 >
 "
+)
 ;
 }
 Services

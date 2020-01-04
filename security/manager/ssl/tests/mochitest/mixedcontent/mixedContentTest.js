@@ -985,11 +985,15 @@ break
 default
 :
 throw
+new
+Error
+(
 "
 Invalid
 isSecurityState
 state
 "
+)
 ;
 }
 }

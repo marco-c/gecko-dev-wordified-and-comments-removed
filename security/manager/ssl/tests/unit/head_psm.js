@@ -1416,6 +1416,9 @@ SSL_ClearSessionCache
 )
 {
 throw
+new
+Error
+(
 "
 Failed
 to
@@ -1424,6 +1427,7 @@ SSL
 session
 cache
 "
+)
 ;
 }
 }
@@ -3509,11 +3513,13 @@ this
 ;
 }
 throw
-Components
-.
-results
+new
+Error
+(
+Cr
 .
 NS_ERROR_NO_INTERFACE
+)
 ;
 }
 }
