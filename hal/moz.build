@@ -345,6 +345,13 @@ cpp
 '
 gonk
 /
+GonkSensorsRegistryInterface
+.
+cpp
+'
+'
+gonk
+/
 GonkSwitch
 .
 cpp
