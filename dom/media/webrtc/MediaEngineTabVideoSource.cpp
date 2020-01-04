@@ -703,11 +703,6 @@ BaseAllocationHandle
 *
 *
 aOutHandle
-const
-char
-*
-*
-aOutBadConstraint
 )
 {
 mWindowId
@@ -742,7 +737,6 @@ nullptr
 aConstraints
 aPrefs
 aDeviceId
-aOutBadConstraint
 )
 ;
 }
@@ -773,11 +767,6 @@ const
 nsString
 &
 aDeviceId
-const
-char
-*
-*
-aOutBadConstraint
 )
 {
 MOZ_ASSERT

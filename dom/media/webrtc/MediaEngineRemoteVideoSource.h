@@ -379,11 +379,6 @@ BaseAllocationHandle
 *
 *
 aOutHandle
-const
-char
-*
-*
-aOutBadConstraint
 )
 override
 ;
@@ -438,11 +433,6 @@ const
 nsString
 &
 aDeviceId
-const
-char
-*
-*
-aOutBadConstraint
 )
 override
 ;

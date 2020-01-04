@@ -3917,11 +3917,6 @@ const
 nsACString
 &
 aOrigin
-const
-char
-*
-*
-aOutBadConstraint
 )
 {
 return
@@ -3940,7 +3935,6 @@ getter_AddRefs
 (
 mAllocationHandle
 )
-aOutBadConstraint
 )
 ;
 }
@@ -3961,11 +3955,6 @@ const
 MediaEnginePrefs
 &
 aPrefs
-const
-char
-*
-*
-aOutBadConstraint
 )
 {
 return
@@ -3980,7 +3969,6 @@ mAllocationHandle
 aConstraints
 aPrefs
 mID
-aOutBadConstraint
 )
 ;
 }
@@ -6323,8 +6311,6 @@ Allocate
 constraints
 mPrefs
 mOrigin
-&
-badConstraint
 )
 ;
 if
@@ -6350,10 +6336,6 @@ rv
 =
 =
 NS_ERROR_NOT_AVAILABLE
-&
-&
-!
-badConstraint
 )
 {
 nsTArray
@@ -6416,8 +6398,6 @@ Allocate
 constraints
 mPrefs
 mOrigin
-&
-badConstraint
 )
 ;
 if
@@ -6443,10 +6423,6 @@ rv
 =
 =
 NS_ERROR_NOT_AVAILABLE
-&
-&
-!
-badConstraint
 )
 {
 nsTArray
@@ -17481,8 +17457,6 @@ mgr
 -
 >
 mPrefs
-&
-badConstraint
 )
 ;
 if
@@ -17491,10 +17465,6 @@ rv
 =
 =
 NS_ERROR_NOT_AVAILABLE
-&
-&
-!
-badConstraint
 )
 {
 nsTArray
@@ -17540,8 +17510,6 @@ mgr
 -
 >
 mPrefs
-&
-badConstraint
 )
 ;
 if
@@ -17550,10 +17518,6 @@ rv
 =
 =
 NS_ERROR_NOT_AVAILABLE
-&
-&
-!
-badConstraint
 )
 {
 nsTArray
