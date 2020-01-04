@@ -2220,6 +2220,9 @@ set
 AUTOCONF
 '
 '
+AWK
+'
+'
 DISABLE_EXPORT_JS
 '
 '

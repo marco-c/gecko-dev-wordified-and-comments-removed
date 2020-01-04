@@ -836,7 +836,6 @@ dnl
 =
 MISSING_X
 =
-AC_PROG_AWK
 dnl
 Initialize
 the
