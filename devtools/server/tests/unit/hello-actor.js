@@ -41,7 +41,7 @@ HelloActor
 =
 protocol
 .
-ActorClassWithSpec
+ActorClass
 (
 helloSpec
 {

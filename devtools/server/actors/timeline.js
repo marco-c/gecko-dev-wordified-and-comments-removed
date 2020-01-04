@@ -102,7 +102,7 @@ TimelineActor
 =
 protocol
 .
-ActorClassWithSpec
+ActorClass
 (
 timelineSpec
 {

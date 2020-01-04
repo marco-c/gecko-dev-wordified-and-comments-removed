@@ -95,7 +95,7 @@ ActorActorFront
 =
 protocol
 .
-FrontClassWithSpec
+FrontClass
 (
 actorActorSpec
 {
@@ -276,7 +276,7 @@ ActorRegistryFront
 =
 protocol
 .
-FrontClassWithSpec
+FrontClass
 (
 actorRegistrySpec
 {

@@ -116,7 +116,7 @@ MemoryActor
 =
 protocol
 .
-ActorClassWithSpec
+ActorClass
 (
 memorySpec
 {

@@ -84,7 +84,7 @@ object
 ;
 const
 {
-ActorClassWithSpec
+ActorClass
 Arg
 RetVal
 method
@@ -577,7 +577,7 @@ null
 let
 SourceActor
 =
-ActorClassWithSpec
+ActorClass
 (
 sourceSpec
 {

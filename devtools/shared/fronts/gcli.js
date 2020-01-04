@@ -6,7 +6,7 @@ strict
 const
 {
 Front
-FrontClassWithSpec
+FrontClass
 }
 =
 require
@@ -45,7 +45,7 @@ exports
 .
 GcliFront
 =
-FrontClassWithSpec
+FrontClass
 (
 gcliSpec
 {

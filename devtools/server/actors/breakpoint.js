@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-ActorClassWithSpec
+ActorClass
 }
 =
 require
@@ -90,7 +90,7 @@ setBreakpointAtEntryPoints
 let
 BreakpointActor
 =
-ActorClassWithSpec
+ActorClass
 (
 breakpointSpec
 {

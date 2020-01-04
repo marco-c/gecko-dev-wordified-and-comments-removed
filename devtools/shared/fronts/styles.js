@@ -19,7 +19,7 @@ stylesheets
 const
 {
 Front
-FrontClassWithSpec
+FrontClass
 custom
 preEvent
 }
@@ -133,7 +133,7 @@ RuleRewriter
 const
 PageStyleFront
 =
-FrontClassWithSpec
+FrontClass
 (
 pageStyleSpec
 {
@@ -465,7 +465,7 @@ PageStyleFront
 const
 StyleRuleFront
 =
-FrontClassWithSpec
+FrontClass
 (
 styleRuleSpec
 {

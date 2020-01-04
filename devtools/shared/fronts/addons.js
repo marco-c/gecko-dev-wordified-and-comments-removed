@@ -40,7 +40,7 @@ AddonsFront
 =
 protocol
 .
-FrontClassWithSpec
+FrontClass
 (
 addonsSpec
 {

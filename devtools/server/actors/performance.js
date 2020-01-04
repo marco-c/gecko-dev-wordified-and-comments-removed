@@ -34,7 +34,7 @@ task
 const
 {
 Actor
-ActorClassWithSpec
+ActorClass
 }
 =
 require
@@ -231,7 +231,7 @@ stopped
 var
 PerformanceActor
 =
-ActorClassWithSpec
+ActorClass
 (
 performanceSpec
 {

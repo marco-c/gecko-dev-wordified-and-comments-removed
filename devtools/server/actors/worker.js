@@ -304,7 +304,7 @@ WorkerActor
 =
 protocol
 .
-ActorClassWithSpec
+ActorClass
 (
 workerSpec
 {
@@ -1584,7 +1584,7 @@ PushSubscriptionActor
 =
 protocol
 .
-ActorClassWithSpec
+ActorClass
 (
 pushSubscriptionSpec
 {
@@ -1711,7 +1711,7 @@ ServiceWorkerRegistrationActor
 =
 protocol
 .
-ActorClassWithSpec
+ActorClass
 (
 serviceWorkerRegistrationSpec
 {

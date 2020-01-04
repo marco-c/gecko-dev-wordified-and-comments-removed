@@ -1,7 +1,7 @@
 const
 {
 Actor
-ActorClassWithSpec
+ActorClass
 }
 =
 require
@@ -50,7 +50,7 @@ core
 var
 PerformanceEntriesActor
 =
-ActorClassWithSpec
+ActorClass
 (
 performanceSpec
 {

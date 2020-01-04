@@ -162,7 +162,7 @@ main
 ;
 const
 {
-ActorClassWithSpec
+ActorClass
 }
 =
 require
@@ -1662,7 +1662,7 @@ false
 const
 ThreadActor
 =
-ActorClassWithSpec
+ActorClass
 (
 threadSpec
 {

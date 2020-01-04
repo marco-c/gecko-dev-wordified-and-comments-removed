@@ -159,7 +159,7 @@ DeviceActor
 =
 protocol
 .
-ActorClassWithSpec
+ActorClass
 (
 deviceSpec
 {

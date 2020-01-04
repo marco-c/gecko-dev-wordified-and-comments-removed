@@ -24,7 +24,7 @@ string
 const
 {
 Front
-FrontClassWithSpec
+FrontClass
 }
 =
 require
@@ -98,7 +98,7 @@ core
 const
 OldStyleSheetFront
 =
-FrontClassWithSpec
+FrontClass
 (
 oldStyleSheetSpec
 {
@@ -431,7 +431,7 @@ OldStyleSheetFront
 const
 StyleEditorFront
 =
-FrontClassWithSpec
+FrontClass
 (
 styleEditorSpec
 {

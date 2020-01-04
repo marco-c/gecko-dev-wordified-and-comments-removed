@@ -114,7 +114,7 @@ protocol
 ;
 const
 {
-ActorClassWithSpec
+ActorClass
 Actor
 }
 =
@@ -185,7 +185,7 @@ exports
 .
 CssPropertiesActor
 =
-ActorClassWithSpec
+ActorClass
 (
 cssPropertiesSpec
 {

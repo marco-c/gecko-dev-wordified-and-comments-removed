@@ -264,7 +264,7 @@ CSSUsageActor
 =
 protocol
 .
-ActorClassWithSpec
+ActorClass
 (
 cssUsageSpec
 {

@@ -260,7 +260,7 @@ OldStyleSheetActor
 =
 protocol
 .
-ActorClassWithSpec
+ActorClass
 (
 oldStyleSheetSpec
 {
@@ -1331,7 +1331,7 @@ StyleEditorActor
 =
 protocol
 .
-ActorClassWithSpec
+ActorClass
 (
 styleEditorSpec
 {

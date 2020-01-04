@@ -6,7 +6,7 @@ strict
 const
 {
 Front
-FrontClassWithSpec
+FrontClass
 custom
 preEvent
 }
@@ -60,7 +60,7 @@ task
 const
 AnimationPlayerFront
 =
-FrontClassWithSpec
+FrontClass
 (
 animationPlayerSpec
 {
@@ -532,7 +532,7 @@ AnimationPlayerFront
 const
 AnimationsFront
 =
-FrontClassWithSpec
+FrontClass
 (
 animationsSpec
 {

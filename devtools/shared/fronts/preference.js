@@ -40,7 +40,7 @@ PreferenceFront
 =
 protocol
 .
-FrontClassWithSpec
+FrontClass
 (
 preferenceSpec
 {

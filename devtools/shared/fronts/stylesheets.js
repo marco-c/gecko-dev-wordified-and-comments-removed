@@ -6,7 +6,7 @@ strict
 const
 {
 Front
-FrontClassWithSpec
+FrontClass
 }
 =
 require
@@ -101,7 +101,7 @@ core
 const
 OriginalSourceFront
 =
-FrontClassWithSpec
+FrontClass
 (
 originalSourceSpec
 {
@@ -214,7 +214,7 @@ OriginalSourceFront
 const
 MediaRuleFront
 =
-FrontClassWithSpec
+FrontClass
 (
 mediaRuleSpec
 {
@@ -432,7 +432,7 @@ MediaRuleFront
 const
 StyleSheetFront
 =
-FrontClassWithSpec
+FrontClass
 (
 styleSheetSpec
 {
@@ -799,7 +799,7 @@ StyleSheetFront
 const
 StyleSheetsFront
 =
-FrontClassWithSpec
+FrontClass
 (
 styleSheetsSpec
 {

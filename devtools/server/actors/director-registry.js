@@ -535,7 +535,7 @@ DirectorRegistryActor
 =
 protocol
 .
-ActorClassWithSpec
+ActorClass
 (
 directorRegistrySpec
 {

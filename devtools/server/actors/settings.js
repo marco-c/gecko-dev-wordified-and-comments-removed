@@ -417,7 +417,7 @@ SettingsActor
 =
 protocol
 .
-ActorClassWithSpec
+ActorClass
 (
 settingsSpec
 {

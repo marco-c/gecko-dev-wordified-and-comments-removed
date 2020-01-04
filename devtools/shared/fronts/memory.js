@@ -99,7 +99,7 @@ MemoryFront
 =
 protocol
 .
-FrontClassWithSpec
+FrontClass
 (
 memorySpec
 {

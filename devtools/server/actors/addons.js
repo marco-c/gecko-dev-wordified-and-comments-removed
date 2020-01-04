@@ -100,7 +100,7 @@ AddonsActor
 =
 protocol
 .
-ActorClassWithSpec
+ActorClass
 (
 addonsSpec
 {

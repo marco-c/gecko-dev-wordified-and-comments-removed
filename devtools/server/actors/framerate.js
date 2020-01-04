@@ -6,7 +6,7 @@ strict
 const
 {
 Actor
-ActorClassWithSpec
+ActorClass
 }
 =
 require
@@ -100,7 +100,7 @@ exports
 .
 FramerateActor
 =
-ActorClassWithSpec
+ActorClass
 (
 framerateSpec
 {
