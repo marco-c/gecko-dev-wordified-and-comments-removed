@@ -2061,6 +2061,9 @@ true
 isWebExtensionContentScript
 :
 true
+wantExportHelpers
+:
+true
 wantGlobalProperties
 :
 [
