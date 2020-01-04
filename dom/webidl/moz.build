@@ -3528,6 +3528,11 @@ BluetoothMapRequestHandle
 webidl
 '
 '
+BluetoothObexAuthHandle
+.
+webidl
+'
+'
 BluetoothPairingHandle
 .
 webidl
@@ -4229,6 +4234,11 @@ webidl
 '
 '
 BluetoothMapSetMessageStatusEvent
+.
+webidl
+'
+'
+BluetoothObexAuthEvent
 .
 webidl
 '
