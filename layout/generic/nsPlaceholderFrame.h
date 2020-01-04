@@ -55,6 +55,9 @@ PLACEHOLDER_FOR_FIXEDPOS
 |
 \
 PLACEHOLDER_FOR_POPUP
+|
+\
+PLACEHOLDER_FOR_TOPLAYER
 )
 class
 nsPlaceholderFrame
@@ -129,6 +132,12 @@ aTypeBit
 =
 =
 PLACEHOLDER_FOR_POPUP
+|
+|
+aTypeBit
+=
+=
+PLACEHOLDER_FOR_TOPLAYER
 "
 Unexpected
 type
