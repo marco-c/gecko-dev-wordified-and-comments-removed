@@ -5941,6 +5941,26 @@ query_buildid
 (
 )
         
+repo_path
+=
+self
+.
+_query_repo
+(
+)
+        
+assert
+repo_path
+        
+env
+[
+'
+MOZ_SOURCE_REPO
+'
+]
+=
+repo_path
+        
 if
 self
 .
