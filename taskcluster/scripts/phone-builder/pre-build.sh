@@ -175,12 +175,12 @@ https
 :
 /
 /
-git
+github
 .
-mozilla
-.
-org
+com
 /
+mozilla
+-
 b2g
 /
 B2G
