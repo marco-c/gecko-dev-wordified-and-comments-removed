@@ -1119,10 +1119,6 @@ f
 defines
 =
 defines
-                                     
-silence_missing_directive_warnings
-=
-True
 )
         
 elif

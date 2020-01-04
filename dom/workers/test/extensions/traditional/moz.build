@@ -137,6 +137,11 @@ install
 .
 rdf
 '
+]
+FINAL_TARGET_FILES
++
+=
+[
 '
 worker
 .
