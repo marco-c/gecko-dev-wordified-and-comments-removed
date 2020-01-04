@@ -4070,6 +4070,12 @@ i
 ;
 if
 (
+!
+result
+.
+mNoise
+&
+&
 result
 .
 CompleteHash
