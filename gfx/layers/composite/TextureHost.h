@@ -245,6 +245,9 @@ class
 CompositableParentManager
 ;
 class
+CompositorBridgeParent
+;
+class
 SurfaceDescriptor
 ;
 class
@@ -1301,9 +1304,9 @@ PTextureParent
 *
 CreateIPDLActor
 (
-CompositableParentManager
+ISurfaceAllocator
 *
-aManager
+aAllocator
 const
 SurfaceDescriptor
 &

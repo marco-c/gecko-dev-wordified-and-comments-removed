@@ -113,6 +113,10 @@ PLayerTransaction
 ;
 include
 protocol
+PCompositorBridge
+;
+include
+protocol
 PImageBridge
 ;
 include
@@ -190,7 +194,7 @@ PTexture
 manager
 PImageBridge
 or
-PLayerTransaction
+PCompositorBridge
 ;
 child
 :
