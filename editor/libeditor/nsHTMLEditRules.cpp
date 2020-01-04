@@ -907,7 +907,7 @@ nullptr
 mRangeItem
 =
 new
-nsRangeStore
+RangeItem
 (
 )
 ;
@@ -27070,7 +27070,7 @@ nsTArray
 <
 OwningNonNull
 <
-nsRangeStore
+RangeItem
 >
 >
 rangeItemArray
@@ -27104,7 +27104,7 @@ i
 ]
 =
 new
-nsRangeStore
+RangeItem
 (
 )
 ;
@@ -28661,7 +28661,7 @@ nsHTMLEditRules
 :
 BustUpInlinesAtRangeEndpoints
 (
-nsRangeStore
+RangeItem
 &
 item
 )

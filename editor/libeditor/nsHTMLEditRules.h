@@ -1723,7 +1723,10 @@ aNodeArray
 nsresult
 BustUpInlinesAtRangeEndpoints
 (
-nsRangeStore
+mozilla
+:
+:
+RangeItem
 &
 inRange
 )
@@ -2179,7 +2182,10 @@ mNewBlock
 ;
 RefPtr
 <
-nsRangeStore
+mozilla
+:
+:
+RangeItem
 >
 mRangeItem
 ;
