@@ -1329,8 +1329,6 @@ if
 mFirst
 &
 &
-NS_WARN_IF
-(
 !
 NodeIsInTraversalRange
 (
@@ -1340,7 +1338,6 @@ startNode
 startIndx
 endNode
 endIndx
-)
 )
 )
 {
@@ -1503,8 +1500,6 @@ mLast
 ;
 if
 (
-NS_WARN_IF
-(
 !
 NodeIsInTraversalRange
 (
@@ -1514,7 +1509,6 @@ startNode
 startIndx
 endNode
 endIndx
-)
 )
 )
 {
@@ -1631,18 +1625,12 @@ cChild
 }
 if
 (
-NS_WARN_IF
-(
 !
 mFirst
-)
 |
 |
-NS_WARN_IF
-(
 !
 mLast
-)
 )
 {
 mFirst
