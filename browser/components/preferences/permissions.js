@@ -1659,6 +1659,8 @@ this
 _removePermissionFromList
 (
 permission
+.
+principal
 )
 ;
 }
