@@ -1230,6 +1230,11 @@ ActivityHandlerHelper
 java
 '
 '
+AlarmReceiver
+.
+java
+'
+'
 AndroidGamepadManager
 .
 java
