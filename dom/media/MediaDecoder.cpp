@@ -4989,8 +4989,11 @@ ResetConnectionState
 (
 )
 ;
-Shutdown
+MOZ_ASSERT
 (
+IsShutdown
+(
+)
 )
 ;
 }
