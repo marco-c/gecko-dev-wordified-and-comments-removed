@@ -167,6 +167,12 @@ TLS_VERSION_1_2
 =
 3
 ;
+const
+short
+TLS_VERSION_1_3
+=
+4
+;
 readonly
 attribute
 unsigned
