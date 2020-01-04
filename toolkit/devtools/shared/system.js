@@ -81,8 +81,6 @@ commonjs
 node
 /
 os
-.
-js
 "
 )
 ;
