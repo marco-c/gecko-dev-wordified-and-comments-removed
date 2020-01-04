@@ -19,6 +19,9 @@ txExprParser
 h
 "
 class
+txStylesheetCompilerState
+;
+class
 txPatternParser
 :
 public
@@ -27,8 +30,7 @@ txExprParser
 public
 :
 static
-txPattern
-*
+nsresult
 createPattern
 (
 const
@@ -38,6 +40,10 @@ aPattern
 txIParseContext
 *
 aContext
+txPattern
+*
+*
+aResult
 )
 ;
 protected
