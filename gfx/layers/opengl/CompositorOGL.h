@@ -1158,10 +1158,7 @@ mRenderOffset
 private
 :
 virtual
-gfx
-:
-:
-IntSize
+LayoutDeviceIntSize
 GetWidgetSize
 (
 )
@@ -1232,10 +1229,7 @@ nsIWidget
 *
 mWidget
 ;
-gfx
-:
-:
-IntSize
+LayoutDeviceIntSize
 mWidgetSize
 ;
 RefPtr

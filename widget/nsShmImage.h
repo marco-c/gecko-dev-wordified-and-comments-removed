@@ -145,10 +145,7 @@ const
 mozilla
 :
 :
-gfx
-:
-:
-IntSize
+LayoutDeviceIntSize
 &
 aSize
 Display
@@ -179,10 +176,7 @@ const
 mozilla
 :
 :
-gfx
-:
-:
-IntSize
+LayoutDeviceIntSize
 &
 aSize
 Display
@@ -270,7 +264,7 @@ aDisplay
 Drawable
 aWindow
 const
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aRegion
 )
@@ -297,10 +291,7 @@ endif
 mozilla
 :
 :
-gfx
-:
-:
-IntSize
+LayoutDeviceIntSize
 Size
 (
 )
@@ -374,10 +365,7 @@ mInfo
 mozilla
 :
 :
-gfx
-:
-:
-IntSize
+LayoutDeviceIntSize
 mSize
 ;
 mozilla

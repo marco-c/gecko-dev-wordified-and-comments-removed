@@ -14808,7 +14808,7 @@ nsChildView
 :
 StartRemoteDrawingInRegion
 (
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aInvalidRegion
 )
@@ -14858,13 +14858,7 @@ nullptr
 LayoutDeviceIntRegion
 dirtyRegion
 (
-LayoutDeviceIntRegion
-:
-:
-FromUnknownRegion
-(
 aInvalidRegion
-)
 )
 ;
 LayoutDeviceIntSize
@@ -14953,10 +14947,6 @@ mBasicCompositorImage
 -
 >
 GetUpdateRegion
-(
-)
-.
-ToUnknownRegion
 (
 )
 ;

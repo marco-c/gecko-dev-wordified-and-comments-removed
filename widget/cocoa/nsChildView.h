@@ -2025,7 +2025,7 @@ DrawTarget
 >
 StartRemoteDrawingInRegion
 (
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aInvalidRegion
 )

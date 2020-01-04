@@ -3361,7 +3361,7 @@ EndScene
 (
 )
 ;
-IntSize
+LayoutDeviceIntSize
 oldSize
 =
 mSize
@@ -3540,10 +3540,6 @@ mSize
 rect
 .
 Size
-(
-)
-.
-ToUnknownSize
 (
 )
 ;

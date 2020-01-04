@@ -9201,10 +9201,6 @@ dt
 GetDrawTarget
 (
 region
-.
-ToUnknownRegion
-(
-)
 )
 ;
 if
@@ -9573,10 +9569,6 @@ Put
 mXDisplay
 mXWindow
 region
-.
-ToUnknownRegion
-(
-)
 )
 ;
 }
@@ -27003,7 +26995,7 @@ nsWindow
 GetDrawTarget
 (
 const
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aRegion
 )
@@ -27018,7 +27010,7 @@ return
 nullptr
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 bounds
 =
 aRegion
@@ -27027,7 +27019,7 @@ GetBounds
 (
 )
 ;
-IntSize
+LayoutDeviceIntSize
 size
 (
 bounds
@@ -27122,6 +27114,10 @@ mXDisplay
 mXWindow
 mXVisual
 size
+.
+ToUnknownSize
+(
+)
 )
 ;
 if
@@ -27181,7 +27177,7 @@ nsWindow
 :
 StartRemoteDrawingInRegion
 (
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aInvalidRegion
 )
@@ -27202,7 +27198,7 @@ EndRemoteDrawingInRegion
 DrawTarget
 *
 aDrawTarget
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aInvalidRegion
 )

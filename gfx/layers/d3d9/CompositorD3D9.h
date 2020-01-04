@@ -581,10 +581,7 @@ aCode
 )
 ;
 virtual
-gfx
-:
-:
-IntSize
+LayoutDeviceIntSize
 GetWidgetSize
 (
 )
@@ -623,10 +620,7 @@ CompositingRenderTargetD3D9
 >
 mCurrentRT
 ;
-gfx
-:
-:
-IntSize
+LayoutDeviceIntSize
 mSize
 ;
 uint32_t

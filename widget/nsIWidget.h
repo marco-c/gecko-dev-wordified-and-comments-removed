@@ -2325,7 +2325,7 @@ DrawTarget
 >
 StartRemoteDrawingInRegion
 (
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aInvalidRegion
 )
@@ -2357,7 +2357,7 @@ gfx
 DrawTarget
 *
 aDrawTarget
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aInvalidRegion
 )
