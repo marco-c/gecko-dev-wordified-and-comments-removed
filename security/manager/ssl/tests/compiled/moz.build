@@ -137,3 +137,13 @@ USE_LIBS
 nss
 '
 ]
+DEFINES
+[
+'
+CERT_AddTempCertToPerm
+'
+]
+=
+'
+__CERT_AddTempCertToPerm
+'

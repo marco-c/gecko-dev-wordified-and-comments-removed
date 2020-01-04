@@ -220,6 +220,16 @@ WifiUtils
 cpp
 '
 ]
+DEFINES
+[
+'
+CERT_AddTempCertToPerm
+'
+]
+=
+'
+__CERT_AddTempCertToPerm
+'
 FINAL_LIBRARY
 =
 '

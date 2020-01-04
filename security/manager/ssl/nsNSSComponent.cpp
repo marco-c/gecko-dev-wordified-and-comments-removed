@@ -1,8 +1,4 @@
 #
-define
-CERT_AddTempCertToPerm
-__CERT_AddTempCertToPerm
-#
 include
 "
 nsNSSComponent
