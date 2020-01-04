@@ -109,9 +109,6 @@ class
 SharedArrayBufferObject
 ;
 class
-SharedTypedArrayObject
-;
-class
 BaseShape
 ;
 class
