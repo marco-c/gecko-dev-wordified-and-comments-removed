@@ -1003,6 +1003,11 @@ JSOP_CALLEE
 \
 _
 (
+JSOP_GETRVAL
+)
+\
+_
+(
 JSOP_SETRVAL
 )
 \
