@@ -331,6 +331,11 @@ PrintTargetRecording
 .
 h
 '
+'
+PrintTargetThebes
+.
+h
+'
 ]
 if
 CONFIG
@@ -1165,6 +1170,11 @@ cpp
 '
 '
 PrintTargetRecording
+.
+cpp
+'
+'
+PrintTargetThebes
 .
 cpp
 '
