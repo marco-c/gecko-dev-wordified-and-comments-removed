@@ -7245,12 +7245,16 @@ childFrame
 lastParentContinuation
 -
 >
-GetLastChild
+GetChildList
 (
 nsIFrame
 :
 :
 kPrincipalList
+)
+.
+LastChild
+(
 )
 ;
 if
