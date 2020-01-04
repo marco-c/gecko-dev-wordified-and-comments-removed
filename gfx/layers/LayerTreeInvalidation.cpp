@@ -673,15 +673,6 @@ ToUnknownRegion
 (
 )
 )
-mInvalidRegion
-(
-aLayer
--
->
-GetInvalidRegion
-(
-)
-)
 mPostXScale
 (
 aLayer
@@ -1102,6 +1093,10 @@ mLayer
 GetInvalidRegion
 (
 )
+.
+GetRegion
+(
+)
 mTransform
 )
 ;
@@ -1333,9 +1328,6 @@ mAncestorMaskLayers
 ;
 nsIntRegion
 mVisibleRegion
-;
-nsIntRegion
-mInvalidRegion
 ;
 Matrix4x4
 mTransform
