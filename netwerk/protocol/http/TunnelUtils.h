@@ -595,6 +595,11 @@ reason
 override
 final
 ;
+bool
+ConnectedReadyForInput
+(
+)
+;
 private
 :
 friend
