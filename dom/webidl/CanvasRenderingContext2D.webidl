@@ -527,6 +527,7 @@ NewObject
 Throws
 ]
 CanvasPattern
+?
 createPattern
 (
 CanvasImageSource
