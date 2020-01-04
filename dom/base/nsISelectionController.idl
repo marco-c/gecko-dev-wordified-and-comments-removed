@@ -2168,7 +2168,7 @@ nsISelectionController
 :
 :
 SELECTION_IME_SELECTEDCONVERTEDTEXT
-SELECTION_ACCESSIBILITY
+eAccessibility
 =
 nsISelectionController
 :

@@ -696,7 +696,7 @@ case
 SelectionType
 :
 :
-SELECTION_ACCESSIBILITY
+eAccessibility
 :
 return
 "
@@ -823,7 +823,7 @@ case
 SelectionType
 :
 :
-SELECTION_ACCESSIBILITY
+eAccessibility
 :
 case
 SelectionType
@@ -1529,7 +1529,7 @@ case
 SelectionType
 :
 :
-SELECTION_ACCESSIBILITY
+eAccessibility
 :
 return
 6
@@ -1612,7 +1612,7 @@ eIMESelectedClause
 SelectionType
 :
 :
-SELECTION_ACCESSIBILITY
+eAccessibility
 SelectionType
 :
 :
