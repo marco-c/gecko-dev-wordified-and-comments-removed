@@ -233,6 +233,10 @@ eLoadError
 )
 NS_EVENT_MESSAGE
 (
+eLoadEnd
+)
+NS_EVENT_MESSAGE
+(
 ePopState
 )
 NS_EVENT_MESSAGE
