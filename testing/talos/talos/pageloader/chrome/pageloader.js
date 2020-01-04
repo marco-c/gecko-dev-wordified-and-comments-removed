@@ -2484,9 +2484,10 @@ if
 profilingInfo
 )
 {
+yield
 Profiler
 .
-finishTest
+finishTestAsync
 (
 )
 ;
