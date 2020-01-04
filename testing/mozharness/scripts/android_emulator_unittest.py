@@ -64,6 +64,7 @@ script
 import
 BaseScript
 PreScriptAction
+PostScriptAction
 from
 mozharness
 .
@@ -426,12 +427,7 @@ run
 -
 tests
 '
-                         
-'
-stop
--
-emulator
-'
+                        
 ]
             
 default_actions
@@ -476,12 +472,7 @@ run
 -
 tests
 '
-                             
-'
-stop
--
-emulator
-'
+                            
 ]
             
 require_config_file
@@ -6207,10 +6198,23 @@ level
 log_level
 )
     
+PostScriptAction
+(
+'
+run
+-
+tests
+'
+)
+    
 def
 stop_emulator
 (
 self
+action
+success
+=
+None
 )
 :
         
@@ -6307,6 +6311,19 @@ hang
 '
 '
         
+if
+self
+.
+config
+.
+get
+(
+'
+blob_upload_branch
+'
+)
+:
+            
 self
 .
 _kill_processes

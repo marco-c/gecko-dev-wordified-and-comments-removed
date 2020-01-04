@@ -513,12 +513,6 @@ run
 -
 tests
 '
-        
-'
-stop
--
-emulator
-'
     
 ]
     

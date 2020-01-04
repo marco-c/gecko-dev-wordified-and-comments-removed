@@ -379,12 +379,6 @@ run
 -
 tests
 '
-        
-'
-stop
--
-emulator
-'
     
 ]
     

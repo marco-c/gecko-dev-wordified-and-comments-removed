@@ -462,12 +462,6 @@ run
 -
 tests
 '
-        
-'
-stop
--
-emulator
-'
     
 ]
     

@@ -61,6 +61,7 @@ import
 BaseScript
 PostScriptRun
 PreScriptAction
+PostScriptAction
 from
 mozharness
 .
@@ -377,12 +378,7 @@ run
 -
 tests
 '
-                         
-'
-stop
--
-emulators
-'
+                        
 ]
             
 default_actions
@@ -421,12 +417,7 @@ run
 -
 tests
 '
-                             
-'
-stop
--
-emulators
-'
+                            
 ]
             
 require_config_file
@@ -6806,10 +6797,23 @@ level
 joint_log_level
 )
     
+PostScriptAction
+(
+'
+run
+-
+tests
+'
+)
+    
 def
 stop_emulators
 (
 self
+action
+success
+=
+None
 )
 :
         
