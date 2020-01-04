@@ -99,6 +99,21 @@ option
 Option
 )
         
+if
+option
+.
+possible_origins
+=
+=
+(
+'
+implied
+'
+)
+:
+            
+return
+        
 target
 =
 self
