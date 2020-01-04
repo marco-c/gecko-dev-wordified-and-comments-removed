@@ -89,6 +89,13 @@ AccessCheck
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 namespace
 mozilla
 {

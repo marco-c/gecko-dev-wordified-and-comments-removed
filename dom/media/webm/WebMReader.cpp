@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 WebMReader
 .
 h

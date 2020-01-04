@@ -55,6 +55,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsOfflineCacheUpdate
 .
 h

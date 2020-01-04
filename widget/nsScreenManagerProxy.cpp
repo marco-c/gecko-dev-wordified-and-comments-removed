@@ -35,6 +35,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsIAppShell
 .
 h

@@ -118,6 +118,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsIWidgetListener
 .
 h

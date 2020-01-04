@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsIControllers
 .
 h

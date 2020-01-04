@@ -108,6 +108,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsIArrayBufferInputStream
 .
 h

@@ -43,6 +43,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsIMutableArray
 .
 h

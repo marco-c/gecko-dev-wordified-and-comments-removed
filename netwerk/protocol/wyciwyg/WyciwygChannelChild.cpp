@@ -64,6 +64,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsStringStream
 .
 h
