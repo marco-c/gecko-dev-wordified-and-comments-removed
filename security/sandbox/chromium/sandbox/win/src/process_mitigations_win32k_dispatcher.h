@@ -9,7 +9,7 @@ include
 "
 base
 /
-basictypes
+macros
 .
 h
 "
@@ -49,9 +49,9 @@ policy_base
 ProcessMitigationsWin32KDispatcher
 (
 )
+override
 {
 }
-virtual
 bool
 SetupService
 (
@@ -61,6 +61,7 @@ manager
 int
 service
 )
+override
 ;
 private
 :

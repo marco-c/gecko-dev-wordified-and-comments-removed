@@ -7,6 +7,13 @@ SANDBOX_SRC_HANDLE_CLOSER_H_
 #
 include
 <
+stddef
+.
+h
+>
+#
+include
+<
 map
 >
 #
@@ -19,7 +26,7 @@ include
 "
 base
 /
-basictypes
+macros
 .
 h
 "
@@ -151,6 +158,11 @@ HandleCloser
 {
 public
 :
+HandleCloser
+(
+)
+;
+~
 HandleCloser
 (
 )

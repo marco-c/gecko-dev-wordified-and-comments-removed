@@ -7,15 +7,6 @@ SANDBOX_SRC_PROCESS_MITIGATIONS_WIN32K_POLICY_H_
 #
 include
 "
-base
-/
-basictypes
-.
-h
-"
-#
-include
-"
 sandbox
 /
 win

@@ -574,6 +574,7 @@ argc
 1
 )
 {
+return
 SBOX_TEST_FAILED_TO_EXECUTE_COMMAND
 ;
 }
@@ -774,7 +775,6 @@ OBJECT_ATTRIBUTES
 obj_attributes
 =
 {
-0
 }
 ;
 InitializeObjectAttributes
@@ -795,7 +795,6 @@ IO_STATUS_BLOCK
 io_block
 =
 {
-0
 }
 ;
 NTSTATUS
@@ -945,7 +944,6 @@ OBJECT_ATTRIBUTES
 obj_attributes
 =
 {
-0
 }
 ;
 InitializeObjectAttributes
@@ -966,7 +964,6 @@ IO_STATUS_BLOCK
 io_block
 =
 {
-0
 }
 ;
 NTSTATUS
@@ -1077,21 +1074,18 @@ ULARGE_INTEGER
 free_user
 =
 {
-0
 }
 ;
 ULARGE_INTEGER
 total
 =
 {
-0
 }
 ;
 ULARGE_INTEGER
 free_total
 =
 {
-0
 }
 ;
 if
@@ -1335,7 +1329,6 @@ OBJECT_ATTRIBUTES
 obj_attributes
 =
 {
-0
 }
 ;
 InitializeObjectAttributes
@@ -1353,14 +1346,12 @@ FILE_BASIC_INFORMATION
 info
 =
 {
-0
 }
 ;
 FILE_NETWORK_OPEN_INFORMATION
 full_info
 =
 {
-0
 }
 ;
 NTSTATUS
@@ -1855,7 +1846,6 @@ MAX_PATH
 ]
 =
 {
-0
 }
 ;
 wsprintf
@@ -1884,7 +1874,6 @@ MAX_PATH
 ]
 =
 {
-0
 }
 ;
 wsprintf
@@ -1913,7 +1902,6 @@ MAX_PATH
 ]
 =
 {
-0
 }
 ;
 wsprintf
@@ -2067,12 +2055,14 @@ std
 :
 wstring
 path
+(
+temp_file_name
+)
 ;
 EXPECT_TRUE
 (
 ConvertToLongPath
 (
-temp_file_name
 &
 path
 )
@@ -2109,7 +2099,6 @@ MAX_PATH
 ]
 =
 {
-0
 }
 ;
 wsprintf
@@ -2281,7 +2270,6 @@ MAX_PATH
 ]
 =
 {
-0
 }
 ;
 wsprintf
@@ -3063,7 +3051,6 @@ MAX_PATH
 ]
 =
 {
-0
 }
 ;
 wsprintf

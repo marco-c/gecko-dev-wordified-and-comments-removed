@@ -63,6 +63,9 @@ obj_attr
 UNICODE_STRING
 *
 uni_name
+SECURITY_QUALITY_OF_SERVICE
+*
+security_qos
 )
 {
 static
@@ -125,6 +128,13 @@ attributes
 root
 NULL
 )
+;
+obj_attr
+-
+>
+SecurityQualityOfService
+=
+security_qos
 ;
 }
 }

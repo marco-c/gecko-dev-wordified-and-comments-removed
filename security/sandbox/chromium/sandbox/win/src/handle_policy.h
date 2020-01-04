@@ -12,15 +12,6 @@ string
 #
 include
 "
-base
-/
-basictypes
-.
-h
-"
-#
-include
-"
 sandbox
 /
 win

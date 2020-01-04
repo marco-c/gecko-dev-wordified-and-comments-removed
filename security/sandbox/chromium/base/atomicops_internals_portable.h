@@ -9,6 +9,15 @@ include
 <
 atomic
 >
+#
+include
+"
+build
+/
+build_config
+.
+h
+"
 namespace
 base
 {

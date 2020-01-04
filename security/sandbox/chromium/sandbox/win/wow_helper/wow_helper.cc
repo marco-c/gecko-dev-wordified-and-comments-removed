@@ -8,6 +8,13 @@ h
 #
 include
 <
+stddef
+.
+h
+>
+#
+include
+<
 string
 >
 #
@@ -222,7 +229,7 @@ command_line
 int
 )
 {
-COMPILE_ASSERT
+static_assert
 (
 sizeof
 (
@@ -234,7 +241,11 @@ sizeof
 (
 DWORD
 )
-unsupported_32_bits
+"
+unsupported
+32
+bits
+"
 )
 ;
 if

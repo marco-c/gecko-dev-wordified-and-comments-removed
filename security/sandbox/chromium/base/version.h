@@ -7,6 +7,13 @@ BASE_VERSION_H_
 #
 include
 <
+stdint
+.
+h
+>
+#
+include
+<
 string
 >
 #
@@ -20,15 +27,6 @@ include
 base
 /
 base_export
-.
-h
-"
-#
-include
-"
-base
-/
-basictypes
 .
 h
 "
@@ -143,7 +141,7 @@ std
 :
 vector
 <
-uint16
+uint32_t
 >
 &
 components
@@ -162,7 +160,7 @@ std
 :
 vector
 <
-uint16
+uint32_t
 >
 components_
 ;

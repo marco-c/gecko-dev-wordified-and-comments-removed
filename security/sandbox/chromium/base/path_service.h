@@ -54,7 +54,6 @@ FilePath
 class
 ScopedPathOverride
 ;
-}
 class
 BASE_EXPORT
 PathService
@@ -67,9 +66,6 @@ Get
 (
 int
 key
-base
-:
-:
 FilePath
 *
 path
@@ -82,9 +78,6 @@ Override
 int
 key
 const
-base
-:
-:
 FilePath
 &
 path
@@ -97,9 +90,6 @@ OverrideAndCreateIfNeeded
 int
 key
 const
-base
-:
-:
 FilePath
 &
 path
@@ -117,9 +107,6 @@ ProviderFunc
 )
 (
 int
-base
-:
-:
 FilePath
 *
 )
@@ -146,9 +133,6 @@ private
 :
 friend
 class
-base
-:
-:
 ScopedPathOverride
 ;
 FRIEND_TEST_ALL_PREFIXES
@@ -166,6 +150,13 @@ key
 )
 ;
 }
+;
+}
+using
+base
+:
+:
+PathService
 ;
 #
 endif

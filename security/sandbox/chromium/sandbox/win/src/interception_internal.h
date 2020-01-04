@@ -6,6 +6,13 @@ define
 SANDBOX_SRC_INTERCEPTION_INTERNAL_H_
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
 "
 sandbox
 /

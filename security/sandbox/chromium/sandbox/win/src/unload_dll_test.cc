@@ -286,7 +286,7 @@ SBOX_TEST_FAILED
 TEST
 (
 UnloadDllTest
-DISABLED_BaselineAvicapDll
+BaselineAvicapDll
 )
 {
 TestRunner
@@ -367,7 +367,7 @@ dll
 TEST
 (
 UnloadDllTest
-DISABLED_UnloadAviCapDllNoPatching
+UnloadAviCapDllNoPatching
 )
 {
 TestRunner
@@ -453,7 +453,7 @@ dll
 TEST
 (
 UnloadDllTest
-DISABLED_UnloadAviCapDllWithPatching
+UnloadAviCapDllWithPatching
 )
 {
 TestRunner

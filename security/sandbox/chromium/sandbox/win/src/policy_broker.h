@@ -24,6 +24,11 @@ class
 TargetProcess
 ;
 bool
+InitGlobalNt
+(
+)
+;
+bool
 SetupBasicInterceptions
 (
 InterceptionManager

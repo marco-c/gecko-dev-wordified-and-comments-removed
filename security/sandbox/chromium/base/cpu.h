@@ -42,6 +42,7 @@ SSSE3
 SSE41
 SSE42
 AVX
+AVX2
 MAX_INTEL_MICRO_ARCHITECTURE
 }
 ;
@@ -211,13 +212,13 @@ has_avx_
 ;
 }
 bool
-has_avx_hardware
+has_avx2
 (
 )
 const
 {
 return
-has_avx_hardware_
+has_avx2_
 ;
 }
 bool
@@ -324,7 +325,7 @@ bool
 has_avx_
 ;
 bool
-has_avx_hardware_
+has_avx2_
 ;
 bool
 has_aesni_

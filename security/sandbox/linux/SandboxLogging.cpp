@@ -34,6 +34,13 @@ h
 #
 include
 <
+string
+.
+h
+>
+#
+include
+<
 sys
 /
 uio

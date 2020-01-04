@@ -4,6 +4,13 @@ SANDBOX_WIN_SRC_INTERNAL_TYPES_H_
 #
 define
 SANDBOX_WIN_SRC_INTERNAL_TYPES_H_
+#
+include
+<
+stdint
+.
+h
+>
 namespace
 sandbox
 {
@@ -71,7 +78,7 @@ CountedBuffer
 void
 *
 buffer
-uint32
+uint32_t
 size
 )
 :
@@ -85,7 +92,7 @@ buffer
 )
 {
 }
-uint32
+uint32_t
 Size
 (
 )
@@ -108,7 +115,7 @@ buffer_
 }
 private
 :
-uint32
+uint32_t
 size_
 ;
 void

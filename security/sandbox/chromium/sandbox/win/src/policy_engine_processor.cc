@@ -1,5 +1,19 @@
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
+<
+stdint
+.
+h
+>
+#
+include
 "
 sandbox
 /
@@ -78,7 +92,7 @@ IsAction
 )
 )
 {
-uint32
+uint32_t
 options
 =
 context
@@ -122,7 +136,7 @@ PolicyProcessor
 :
 Evaluate
 (
-uint32
+uint32_t
 options
 ParameterSet
 *

@@ -7,6 +7,20 @@ BASE_STRINGS_STRING_NUMBER_CONVERSIONS_H_
 #
 include
 <
+stddef
+.
+h
+>
+#
+include
+<
+stdint
+.
+h
+>
+#
+include
+<
 string
 >
 #
@@ -20,15 +34,6 @@ include
 base
 /
 base_export
-.
-h
-"
-#
-include
-"
-base
-/
-basictypes
 .
 h
 "
@@ -102,7 +107,7 @@ std
 string
 Int64ToString
 (
-int64
+int64_t
 value
 )
 ;
@@ -110,7 +115,7 @@ BASE_EXPORT
 string16
 Int64ToString16
 (
-int64
+int64_t
 value
 )
 ;
@@ -121,7 +126,7 @@ std
 string
 Uint64ToString
 (
-uint64
+uint64_t
 value
 )
 ;
@@ -129,7 +134,7 @@ BASE_EXPORT
 string16
 Uint64ToString16
 (
-uint64
+uint64_t
 value
 )
 ;
@@ -223,7 +228,7 @@ const
 StringPiece
 &
 input
-int64
+int64_t
 *
 output
 )
@@ -236,7 +241,7 @@ const
 StringPiece16
 &
 input
-int64
+int64_t
 *
 output
 )
@@ -249,7 +254,7 @@ const
 StringPiece
 &
 input
-uint64
+uint64_t
 *
 output
 )
@@ -262,7 +267,7 @@ const
 StringPiece16
 &
 input
-uint64
+uint64_t
 *
 output
 )
@@ -345,7 +350,7 @@ const
 StringPiece
 &
 input
-uint32
+uint32_t
 *
 output
 )
@@ -358,7 +363,7 @@ const
 StringPiece
 &
 input
-int64
+int64_t
 *
 output
 )
@@ -371,7 +376,7 @@ const
 StringPiece
 &
 input
-uint64
+uint64_t
 *
 output
 )
@@ -392,7 +397,7 @@ std
 :
 vector
 <
-uint8
+uint8_t
 >
 *
 output

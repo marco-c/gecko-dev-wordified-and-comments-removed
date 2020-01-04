@@ -13,6 +13,13 @@ h
 "
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
 "
 base
 /
@@ -825,7 +832,7 @@ DCHECK_NT
 GetInternalThunkSize
 (
 )
->
+<
 =
 sizeof
 (

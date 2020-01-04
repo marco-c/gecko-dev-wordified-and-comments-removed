@@ -28,7 +28,7 @@ include
 "
 base
 /
-basictypes
+macros
 .
 h
 "
@@ -54,6 +54,9 @@ platform_thread
 .
 h
 "
+namespace
+base
+{
 template
 <
 typename
@@ -62,9 +65,6 @@ T
 struct
 DefaultSingletonTraits
 ;
-namespace
-base
-{
 class
 BASE_EXPORT
 ThreadIdNameManager
@@ -104,8 +104,11 @@ SetName
 PlatformThreadId
 id
 const
-char
-*
+std
+:
+:
+string
+&
 name
 )
 ;

@@ -34,6 +34,15 @@ compiler_specific
 .
 h
 "
+#
+include
+"
+build
+/
+build_config
+.
+h
+"
 namespace
 base
 {
@@ -44,6 +53,7 @@ std
 string
 StringPrintf
 (
+_Printf_format_string_
 const
 char
 *
@@ -61,10 +71,9 @@ WARN_UNUSED_RESULT
 ;
 #
 if
-!
 defined
 (
-OS_ANDROID
+OS_WIN
 )
 BASE_EXPORT
 std
@@ -73,6 +82,7 @@ std
 wstring
 StringPrintf
 (
+_Printf_format_string_
 const
 wchar_t
 *
@@ -126,6 +136,7 @@ std
 string
 *
 dst
+_Printf_format_string_
 const
 char
 *
@@ -142,10 +153,9 @@ PRINTF_FORMAT
 ;
 #
 if
-!
 defined
 (
-OS_ANDROID
+OS_WIN
 )
 BASE_EXPORT
 const
@@ -162,6 +172,7 @@ std
 wstring
 *
 dst
+_Printf_format_string_
 const
 wchar_t
 *
@@ -188,6 +199,7 @@ std
 string
 *
 dst
+_Printf_format_string_
 const
 char
 *
@@ -204,10 +216,9 @@ PRINTF_FORMAT
 ;
 #
 if
-!
 defined
 (
-OS_ANDROID
+OS_WIN
 )
 BASE_EXPORT
 void
@@ -219,6 +230,7 @@ std
 wstring
 *
 dst
+_Printf_format_string_
 const
 wchar_t
 *
@@ -260,10 +272,9 @@ PRINTF_FORMAT
 ;
 #
 if
-!
 defined
 (
-OS_ANDROID
+OS_WIN
 )
 BASE_EXPORT
 void

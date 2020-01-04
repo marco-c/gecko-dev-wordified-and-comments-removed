@@ -13,6 +13,13 @@ h
 >
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
 "
 base
 /
@@ -25,7 +32,7 @@ include
 "
 base
 /
-basictypes
+macros
 .
 h
 "
@@ -81,7 +88,6 @@ startup_info_
 StartupInfo
 ;
 }
-const
 LPSTARTUPINFOW
 startup_info
 (

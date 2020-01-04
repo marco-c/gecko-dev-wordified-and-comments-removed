@@ -6,6 +6,20 @@ define
 SANDBOX_SRC_CROSSCALL_CLIENT_H_
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
+<
+stdint
+.
+h
+>
+#
+include
 "
 sandbox
 /
@@ -34,7 +48,7 @@ namespace
 sandbox
 {
 const
-uint32
+uint32_t
 kIPCChannelSize
 =
 1024
@@ -88,7 +102,7 @@ return
 true
 ;
 }
-uint32
+uint32_t
 GetSize
 (
 )
@@ -115,7 +129,7 @@ GetType
 (
 )
 {
-COMPILE_ASSERT
+static_assert
 (
 sizeof
 (
@@ -125,9 +139,12 @@ T
 =
 sizeof
 (
-uint32
+uint32_t
 )
-need_specialization
+"
+specialization
+needed
+"
 )
 ;
 return
@@ -193,7 +210,7 @@ return
 true
 ;
 }
-uint32
+uint32_t
 GetSize
 (
 )
@@ -284,7 +301,7 @@ return
 true
 ;
 }
-uint32
+uint32_t
 GetSize
 (
 )
@@ -302,7 +319,7 @@ t_
 :
 static_cast
 <
-uint32
+uint32_t
 >
 (
 StringLength
@@ -326,7 +343,7 @@ EXCEPTION_EXECUTE_HANDLER
 )
 {
 return
-kuint32max
+UINT32_MAX
 ;
 }
 }
@@ -474,7 +491,7 @@ buffer
 )
 ;
 }
-uint32
+uint32_t
 GetSize
 (
 )
@@ -608,7 +625,7 @@ buffer
 )
 ;
 }
-uint32
+uint32_t
 GetSize
 (
 )
@@ -666,7 +683,7 @@ InOutCountedBuffer
 void
 *
 buffer
-uint32
+uint32_t
 size
 )
 :
@@ -758,7 +775,7 @@ return
 true
 ;
 }
-uint32
+uint32_t
 GetSize
 (
 )
@@ -859,13 +876,17 @@ num
 params
 )
 \
-COMPILE_ASSERT
+static_assert
 (
 kMaxIpcParams
 >
 =
 num
-too_many_parameters
+"
+too
+many
+parameters
+"
 )
 ;
 \
@@ -1008,7 +1029,7 @@ CrossCall
 IPCProvider
 &
 ipc_provider
-uint32
+uint32_t
 tag
 const
 Par1
@@ -1080,7 +1101,7 @@ CrossCall
 IPCProvider
 &
 ipc_provider
-uint32
+uint32_t
 tag
 const
 Par1
@@ -1170,7 +1191,7 @@ CrossCall
 IPCProvider
 &
 ipc_provider
-uint32
+uint32_t
 tag
 const
 Par1
@@ -1278,7 +1299,7 @@ CrossCall
 IPCProvider
 &
 ipc_provider
-uint32
+uint32_t
 tag
 const
 Par1
@@ -1404,7 +1425,7 @@ CrossCall
 IPCProvider
 &
 ipc_provider
-uint32
+uint32_t
 tag
 const
 Par1
@@ -1548,7 +1569,7 @@ CrossCall
 IPCProvider
 &
 ipc_provider
-uint32
+uint32_t
 tag
 const
 Par1
@@ -1710,7 +1731,7 @@ CrossCall
 IPCProvider
 &
 ipc_provider
-uint32
+uint32_t
 tag
 const
 Par1

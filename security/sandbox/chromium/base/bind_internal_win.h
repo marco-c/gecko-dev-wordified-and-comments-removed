@@ -5,6 +5,15 @@ BASE_BIND_INTERNAL_WIN_H_
 define
 BASE_BIND_INTERNAL_WIN_H_
 #
+include
+"
+build
+/
+build_config
+.
+h
+"
+#
 if
 !
 defined
@@ -55,9 +64,7 @@ public
 :
 typedef
 R
-(
 RunType
-)
 (
 Args
 .
@@ -162,9 +169,7 @@ public
 :
 typedef
 R
-(
 RunType
-)
 (
 Args
 .

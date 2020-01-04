@@ -14,6 +14,13 @@ h
 #
 include
 <
+stdint
+.
+h
+>
+#
+include
+<
 string
 >
 #
@@ -437,9 +444,9 @@ const
 ClientInfo
 &
 client_info
-uint32
+uint32_t
 desired_access
-uint32
+uint32_t
 thread_id
 HANDLE
 *
@@ -528,6 +535,8 @@ thread_id
 ;
 HANDLE
 local_handle
+=
+NULL
 ;
 NTSTATUS
 status
@@ -595,9 +604,9 @@ const
 ClientInfo
 &
 client_info
-uint32
+uint32_t
 desired_access
-uint32
+uint32_t
 process_id
 HANDLE
 *
@@ -680,6 +689,8 @@ process_id
 ;
 HANDLE
 local_handle
+=
+NULL
 ;
 NTSTATUS
 status
@@ -749,7 +760,7 @@ ClientInfo
 client_info
 HANDLE
 process
-uint32
+uint32_t
 desired_access
 HANDLE
 *
@@ -787,6 +798,8 @@ STATUS_ACCESS_DENIED
 ;
 HANDLE
 local_handle
+=
+NULL
 ;
 NTSTATUS
 status
@@ -855,9 +868,9 @@ ClientInfo
 client_info
 HANDLE
 process
-uint32
+uint32_t
 desired_access
-uint32
+uint32_t
 attributes
 HANDLE
 *
@@ -895,6 +908,8 @@ STATUS_ACCESS_DENIED
 ;
 HANDLE
 local_handle
+=
+NULL
 ;
 NTSTATUS
 status

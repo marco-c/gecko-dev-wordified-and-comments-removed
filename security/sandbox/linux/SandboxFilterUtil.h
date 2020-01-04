@@ -20,9 +20,9 @@ sandbox
 /
 linux
 /
-services
+bpf_dsl
 /
-linux_syscalls
+policy
 .
 h
 "
@@ -33,9 +33,9 @@ sandbox
 /
 linux
 /
-bpf_dsl
+system_headers
 /
-policy
+linux_syscalls
 .
 h
 "

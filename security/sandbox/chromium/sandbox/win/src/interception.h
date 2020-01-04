@@ -7,6 +7,13 @@ SANDBOX_SRC_INTERCEPTION_H_
 #
 include
 <
+stddef
+.
+h
+>
+#
+include
+<
 list
 >
 #
@@ -19,7 +26,7 @@ include
 "
 base
 /
-basictypes
+gtest_prod_util
 .
 h
 "
@@ -28,7 +35,7 @@ include
 "
 base
 /
-gtest_prod_util
+macros
 .
 h
 "
@@ -163,6 +170,15 @@ private
 struct
 InterceptionData
 {
+InterceptionData
+(
+)
+;
+~
+InterceptionData
+(
+)
+;
 InterceptionType
 type
 ;
