@@ -2235,6 +2235,14 @@ Terminate
 (
 )
 ;
+assert
+(
+_hRecThread
+=
+=
+NULL
+)
+;
 SAFE_RELEASE
 (
 _ptrEnumerator
