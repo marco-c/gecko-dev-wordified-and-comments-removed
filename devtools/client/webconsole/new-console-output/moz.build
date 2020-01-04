@@ -148,15 +148,6 @@ XPCSHELL_TESTS_MANIFESTS
 '
 test
 /
-actions
-/
-xpcshell
-.
-ini
-'
-'
-test
-/
 store
 /
 xpcshell
