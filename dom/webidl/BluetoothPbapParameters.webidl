@@ -260,14 +260,14 @@ enum
 vCardOrderType
 {
 "
-alphabetical
-"
-"
 indexed
 "
 /
 /
 default
+"
+alphabetical
+"
 "
 phonetical
 "
