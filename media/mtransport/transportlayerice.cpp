@@ -421,10 +421,6 @@ TL_SET_STATE
 TS_OPEN
 )
 ;
-ResetOldStream
-(
-)
-;
 }
 }
 void
@@ -799,10 +795,6 @@ component_
 TL_SET_STATE
 (
 TS_OPEN
-)
-;
-ResetOldStream
-(
 )
 ;
 }

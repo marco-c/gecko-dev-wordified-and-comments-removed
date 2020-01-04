@@ -3199,6 +3199,11 @@ RollbackIceRestart
 (
 )
 ;
+void
+FinalizeIceRestart
+(
+)
+;
 #
 if
 !
