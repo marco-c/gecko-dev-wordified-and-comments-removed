@@ -6,6 +6,8 @@ mozilla
 gecko
 .
 telemetry
+.
+pings
 ;
 import
 android
@@ -86,6 +88,7 @@ util
 .
 Locale
 ;
+public
 class
 TelemetryCorePingBuilder
 extends
