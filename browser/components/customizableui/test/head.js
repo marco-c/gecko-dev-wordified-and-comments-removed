@@ -1414,11 +1414,9 @@ if
 (
 newTabBrowser
 .
-contentDocument
+currentURI
 .
-location
-.
-href
+spec
 =
 =
 "
@@ -1469,11 +1467,7 @@ true
 ;
 newTabBrowser
 .
-contentDocument
-.
-location
-.
-replace
+loadURI
 (
 "
 about
