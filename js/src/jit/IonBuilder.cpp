@@ -29246,6 +29246,9 @@ count
 +
 ;
 }
+if
+(
+!
 retPhi
 -
 >
@@ -29253,6 +29256,9 @@ reserveLength
 (
 count
 )
+)
+return
+false
 ;
 for
 (
