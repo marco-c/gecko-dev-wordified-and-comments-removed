@@ -382,7 +382,7 @@ eDOMRootDirectory
 Directory
 :
 :
-eNotRootDirectory
+eNotDOMRootDirectory
 ;
 return
 task
@@ -1225,7 +1225,7 @@ mType
 Directory
 :
 :
-eNotRootDirectory
+eNotDOMRootDirectory
 )
 {
 return
@@ -2148,7 +2148,7 @@ directoryPath
 Directory
 :
 :
-eNotRootDirectory
+eNotDOMRootDirectory
 mFileSystem
 )
 ;

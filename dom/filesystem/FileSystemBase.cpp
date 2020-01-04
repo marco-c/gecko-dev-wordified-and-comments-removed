@@ -43,7 +43,7 @@ FileSystemBase
 FileSystemBase
 :
 :
-FromString
+DeserializeDOMPath
 (
 const
 nsAString
