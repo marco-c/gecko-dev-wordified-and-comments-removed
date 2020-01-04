@@ -10418,8 +10418,12 @@ endNodeOffset
 mSelection
 -
 >
-EndBatchChanges
+EndBatchChangesInternal
 (
+aEvent
+-
+>
+mReason
 )
 ;
 NS_ENSURE_SUCCESS
