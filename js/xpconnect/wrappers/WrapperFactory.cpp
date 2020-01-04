@@ -837,7 +837,6 @@ obj
 XPCCallContext
 ccx
 (
-JS_CALLER
 cx
 obj
 )

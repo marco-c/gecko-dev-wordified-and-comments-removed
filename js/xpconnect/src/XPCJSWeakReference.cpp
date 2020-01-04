@@ -84,7 +84,6 @@ toObject
 XPCCallContext
 ccx
 (
-NATIVE_CALLER
 cx
 )
 ;

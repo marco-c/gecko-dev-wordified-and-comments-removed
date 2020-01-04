@@ -2187,7 +2187,6 @@ true
 XPCCallContext
 ccx
 (
-NATIVE_CALLER
 aes
 .
 cx
@@ -4289,7 +4288,6 @@ true
 XPCCallContext
 ccx
 (
-NATIVE_CALLER
 aes
 .
 cx
