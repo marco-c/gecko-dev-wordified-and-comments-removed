@@ -1059,7 +1059,7 @@ BGRAColor
 Green
 (
 )
-46
+47
 )
 )
 ;
@@ -1076,7 +1076,7 @@ BGRAColor
 Red
 (
 )
-6
+27
 )
 )
 ;
@@ -1110,7 +1110,7 @@ BGRAColor
 Red
 (
 )
-6
+27
 )
 )
 ;
