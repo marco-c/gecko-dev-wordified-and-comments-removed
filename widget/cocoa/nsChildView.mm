@@ -24565,7 +24565,7 @@ eGestureState_RotateGesture
 :
 msg
 =
-NS_SIMPLE_GESTURE_ROTATE_UPDATE
+eRotateGestureUpdate
 ;
 break
 ;

@@ -1784,12 +1784,14 @@ eRotateGesture
 ;
 }
 else
+{
 evt
 .
 mMessage
 =
-NS_SIMPLE_GESTURE_ROTATE_UPDATE
+eRotateGestureUpdate
 ;
+}
 }
 break
 ;
