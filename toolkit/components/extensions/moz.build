@@ -142,6 +142,16 @@ toolkit
 manifest
 '
 ]
+TESTING_JS_MODULES
++
+=
+[
+'
+ExtensionXPCShellUtils
+.
+jsm
+'
+]
 DIRS
 +
 =

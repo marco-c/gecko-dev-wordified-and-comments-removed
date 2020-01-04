@@ -15,6 +15,8 @@ let
 normalized
 =
 yield
+ExtensionTestUtils
+.
 normalizeManifest
 (
 {
@@ -106,6 +108,8 @@ string
 normalized
 =
 yield
+ExtensionTestUtils
+.
 normalizeManifest
 (
 {

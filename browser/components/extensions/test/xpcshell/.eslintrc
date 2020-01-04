@@ -27,4 +27,15 @@ xpcshell
 .
 eslintrc
 "
+"
+globals
+"
+:
+{
+"
+browser
+"
+:
+false
+}
 }
