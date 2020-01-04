@@ -2822,6 +2822,10 @@ Destroy
 (
 )
 {
+mBrowserDOMWindow
+=
+nullptr
+;
 if
 (
 mIsDestroyed

@@ -24590,7 +24590,7 @@ browserDOMWin
 *
 aResult
 =
-NS_ERROR_FAILURE
+NS_ERROR_ABORT
 ;
 return
 true
