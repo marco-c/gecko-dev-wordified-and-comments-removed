@@ -199,6 +199,9 @@ override
 DrawResult
 PaintBorderBackground
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsRenderingContext
 &
 aRenderingContext
@@ -208,8 +211,6 @@ const
 nsRect
 &
 aDirtyRect
-uint32_t
-aBGFlags
 )
 ;
 #
