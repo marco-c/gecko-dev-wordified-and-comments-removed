@@ -35,6 +35,15 @@ VisibleForTesting
 import
 android
 .
+support
+.
+annotation
+.
+WorkerThread
+;
+import
+android
+.
 util
 .
 Log
@@ -344,6 +353,7 @@ FileLastModifiedComparator
 (
 )
 ;
+WorkerThread
 public
 TelemetryJSONFilePingStore
 (
