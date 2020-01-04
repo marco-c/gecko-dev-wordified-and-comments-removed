@@ -678,17 +678,6 @@ IsEmpty
 )
 {
 \
-AutoSafeJSContext
-cx
-;
-\
-JSAutoRequest
-ar
-(
-cx
-)
-;
-\
 for
 (
 uint32_t
@@ -718,7 +707,6 @@ index
 >
 _func
 (
-cx
 __VA_ARGS__
 )
 ;
@@ -10307,7 +10295,6 @@ workerPrivate
 >
 RegisterSharedWorker
 (
-aCx
 sharedWorker
 channel
 -

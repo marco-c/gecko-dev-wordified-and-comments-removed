@@ -1055,9 +1055,6 @@ aRv
 void
 UpdateRuntimeOptions
 (
-JSContext
-*
-aCx
 const
 JS
 :
@@ -1070,9 +1067,6 @@ aRuntimeOptions
 void
 UpdateLanguages
 (
-JSContext
-*
-aCx
 const
 nsTArray
 <
@@ -1085,9 +1079,6 @@ aLanguages
 void
 UpdatePreference
 (
-JSContext
-*
-aCx
 WorkerPreference
 aPref
 bool
@@ -1097,9 +1088,6 @@ aValue
 void
 UpdateJSWorkerMemoryParameter
 (
-JSContext
-*
-aCx
 JSGCParamKey
 key
 uint32_t
@@ -1112,9 +1100,6 @@ JS_GC_ZEAL
 void
 UpdateGCZeal
 (
-JSContext
-*
-aCx
 uint8_t
 aGCZeal
 uint32_t
@@ -1126,9 +1111,6 @@ endif
 void
 GarbageCollect
 (
-JSContext
-*
-aCx
 bool
 aShrinking
 )
@@ -1136,9 +1118,6 @@ aShrinking
 void
 CycleCollect
 (
-JSContext
-*
-aCx
 bool
 aDummy
 )
@@ -1146,9 +1125,6 @@ aDummy
 void
 OfflineStatusChangeEvent
 (
-JSContext
-*
-aCx
 bool
 aIsOffline
 )
@@ -1156,9 +1132,6 @@ aIsOffline
 bool
 RegisterSharedWorker
 (
-JSContext
-*
-aCx
 SharedWorker
 *
 aSharedWorker
@@ -3312,9 +3285,6 @@ aRuntimeOptions
 void
 UpdateLanguagesInternal
 (
-JSContext
-*
-aCx
 const
 nsTArray
 <
@@ -3327,9 +3297,6 @@ aLanguages
 void
 UpdatePreferenceInternal
 (
-JSContext
-*
-aCx
 WorkerPreference
 aPref
 bool
@@ -3409,9 +3376,6 @@ aCollectChildren
 void
 CycleCollectInternal
 (
-JSContext
-*
-aCx
 bool
 aCollectChildren
 )
@@ -3419,9 +3383,6 @@ aCollectChildren
 void
 OfflineStatusChangeEventInternal
 (
-JSContext
-*
-aCx
 bool
 aIsOffline
 )
