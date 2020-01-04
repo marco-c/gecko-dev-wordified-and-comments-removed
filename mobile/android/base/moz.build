@@ -2132,13 +2132,6 @@ java
 '
 firstrun
 /
-ImportPanel
-.
-java
-'
-'
-firstrun
-/
 RestrictedWelcomePanel
 .
 java
