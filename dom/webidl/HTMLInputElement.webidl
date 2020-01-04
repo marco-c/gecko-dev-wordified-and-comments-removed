@@ -505,12 +505,13 @@ value
 ;
 [
 Throws
-Pref
+Func
 =
 "
-dom
-.
-experimental_forms
+HTMLInputElement
+:
+:
+ValueAsDateEnabled
 "
 ]
 attribute

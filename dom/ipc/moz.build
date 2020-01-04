@@ -335,6 +335,11 @@ CrashReporterParent
 cpp
 '
 '
+DatePickerParent
+.
+cpp
+'
+'
 FilePickerParent
 .
 cpp
@@ -550,6 +555,11 @@ ipdl
 '
 '
 PCycleCollectWithLogs
+.
+ipdl
+'
+'
+PDatePicker
 .
 ipdl
 '
