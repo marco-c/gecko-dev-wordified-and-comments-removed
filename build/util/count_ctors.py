@@ -1,7 +1,9 @@
 import
-subprocess
+json
 import
 re
+import
+subprocess
 import
 sys
 def
@@ -287,9 +289,10 @@ argv
 ]
 :
         
-output
+perfherder_data
 =
 {
+            
 "
 framework
 "
@@ -303,12 +306,14 @@ name
 build_metrics
 "
 }
+            
 "
 suites
 "
 :
 [
 {
+                
 "
 name
 "
@@ -316,12 +321,14 @@ name
 "
 compiler_metrics
 "
+                
 "
 subtests
 "
 :
 [
 {
+                    
 "
 name
 "
@@ -329,6 +336,7 @@ name
 "
 num_constructors
 "
+                    
 "
 value
 "
@@ -337,10 +345,13 @@ count_ctors
 (
 f
 )
+                
 }
 ]
 }
+            
 ]
+        
 }
         
 print
@@ -351,4 +362,9 @@ PERFHERDER_DATA
 s
 "
 %
-output
+json
+.
+dumps
+(
+perfherder_data
+)
