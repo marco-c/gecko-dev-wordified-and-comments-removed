@@ -14,6 +14,9 @@ Ci
 utils
 :
 Cu
+results
+:
+Cr
 }
 =
 Components
@@ -520,7 +523,7 @@ cancel
 (
 Cr
 .
-NS_ERROR_NOT_ALLOWED_ERR
+NS_ERROR_DOM_NOT_ALLOWED_ERR
 )
 ;
 return
@@ -545,7 +548,7 @@ cancel
 (
 Cr
 .
-NS_ERROR_NOT_FOUND_ERR
+NS_ERROR_DOM_NOT_FOUND_ERR
 )
 ;
 return
