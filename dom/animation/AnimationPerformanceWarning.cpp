@@ -187,7 +187,7 @@ ToLocalizedStringWithIntParams
 >
 (
 "
-AnimationWarningContentTooSmall
+CompositorAnimationWarningContentTooSmall
 "
 aLocalizedString
 )
@@ -235,7 +235,7 @@ ToLocalizedStringWithIntParams
 >
 (
 "
-AnimationWarningContentTooLarge
+CompositorAnimationWarningContentTooLarge
 "
 aLocalizedString
 )
@@ -250,7 +250,7 @@ TransformBackfaceVisibilityHidden
 key
 =
 "
-AnimationWarningTransformBackfaceVisibilityHidden
+CompositorAnimationWarningTransformBackfaceVisibilityHidden
 "
 ;
 break
@@ -264,7 +264,7 @@ TransformPreserve3D
 key
 =
 "
-AnimationWarningTransformPreserve3D
+CompositorAnimationWarningTransformPreserve3D
 "
 ;
 break
@@ -278,7 +278,7 @@ TransformSVG
 key
 =
 "
-AnimationWarningTransformSVG
+CompositorAnimationWarningTransformSVG
 "
 ;
 break
@@ -292,7 +292,7 @@ TransformWithGeometricProperties
 key
 =
 "
-AnimationWarningTransformWithGeometricProperties
+CompositorAnimationWarningTransformWithGeometricProperties
 "
 ;
 break
@@ -306,7 +306,7 @@ TransformFrameInactive
 key
 =
 "
-AnimationWarningTransformFrameInactive
+CompositorAnimationWarningTransformFrameInactive
 "
 ;
 break
@@ -320,7 +320,7 @@ OpacityFrameInactive
 key
 =
 "
-AnimationWarningOpacityFrameInactive
+CompositorAnimationWarningOpacityFrameInactive
 "
 ;
 break

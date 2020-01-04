@@ -472,6 +472,13 @@ of
 warnings
 )
 {
+let
+warningID
+=
+"
+CompositorAnimationWarningTransformWithGeometricProperties
+"
+;
 if
 (
 warning
@@ -488,9 +495,7 @@ L10N
 .
 getStr
 (
-"
-AnimationWarningTransformWithGeometricProperties
-"
+warningID
 )
 )
 {
