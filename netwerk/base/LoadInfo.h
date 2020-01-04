@@ -244,6 +244,9 @@ mSecurityFlags
 nsContentPolicyType
 mInternalContentPolicyType
 ;
+LoadTainting
+mTainting
+;
 bool
 mUpgradeInsecureRequests
 ;
