@@ -1732,15 +1732,7 @@ aIn
 nsresult
 rv
 =
-nsSimpleUnicharStreamFactory
-:
-:
-GetInstance
-(
-)
--
->
-CreateInstanceFromUTF8Stream
+NS_NewUnicharInputStream
 (
 aIn
 getter_AddRefs

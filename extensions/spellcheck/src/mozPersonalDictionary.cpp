@@ -1180,15 +1180,7 @@ convStream
 ;
 rv
 =
-nsSimpleUnicharStreamFactory
-:
-:
-GetInstance
-(
-)
--
->
-CreateInstanceFromUTF8Stream
+NS_NewUnicharInputStream
 (
 inStream
 getter_AddRefs
