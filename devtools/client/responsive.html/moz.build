@@ -147,11 +147,6 @@ types
 .
 js
 '
-'
-ua
-.
-css
-'
 )
 XPCSHELL_TESTS_MANIFESTS
 +

@@ -112,11 +112,4 @@ viewport
 .
 svg
 '
-'
-select
--
-arrow
-.
-svg
-'
 )

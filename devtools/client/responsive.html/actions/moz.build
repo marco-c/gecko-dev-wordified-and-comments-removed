@@ -96,11 +96,6 @@ MPL
 DevToolsModules
 (
 '
-devices
-.
-js
-'
-'
 index
 .
 js
