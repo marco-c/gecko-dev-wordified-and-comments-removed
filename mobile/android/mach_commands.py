@@ -299,6 +299,25 @@ GRADLE
 +
 args
             
+append_env
+=
+{
+'
+GRADLE_OPTS
+'
+:
+'
+-
+Dfile
+.
+encoding
+=
+utf
+-
+8
+'
+}
+            
 pass_thru
 =
 True
