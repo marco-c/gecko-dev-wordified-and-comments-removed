@@ -143,6 +143,11 @@ Utils
 .
 h
 '
+'
+WeakRef
+.
+h
+'
 ]
 SOURCES
 +
@@ -155,6 +160,11 @@ cpp
 '
 '
 Utils
+.
+cpp
+'
+'
+WeakRef
 .
 cpp
 '
