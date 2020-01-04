@@ -134,6 +134,11 @@ devices
 js
 '
 '
+events
+.
+js
+'
+'
 index
 .
 css
