@@ -234,6 +234,12 @@ mAnyInUse
 =
 false
 ;
+StaticMutex
+AudioInputCubeb
+:
+:
+sMutex
+;
 void
 AudioInputCubeb
 :
@@ -473,6 +479,12 @@ device_id
 }
 }
 }
+StaticMutexAutoLock
+lock
+(
+sMutex
+)
+;
 if
 (
 mDevices
