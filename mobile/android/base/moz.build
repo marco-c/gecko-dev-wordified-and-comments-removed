@@ -2396,13 +2396,6 @@ SyncPanel
 java
 '
 '
-firstrun
-/
-WelcomePanel
-.
-java
-'
-'
 FormAssistPopup
 .
 java
