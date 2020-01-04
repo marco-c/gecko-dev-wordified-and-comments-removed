@@ -3813,6 +3813,12 @@ typ
 host
 "
 ;
+std
+:
+:
+string
+mid
+;
 bool
 skipped
 ;
@@ -3827,9 +3833,9 @@ candidate
 str
 (
 )
-"
-"
 level
+&
+mid
 &
 skipped
 )

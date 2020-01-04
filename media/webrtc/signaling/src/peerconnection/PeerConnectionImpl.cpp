@@ -13306,8 +13306,9 @@ mJsepSession
 AddLocalIceCandidate
 (
 candidate
-mid
 level
+&
+mid
 &
 skipped
 )
@@ -13389,6 +13390,8 @@ c_str
 (
 )
 )
+;
+return
 ;
 }
 if

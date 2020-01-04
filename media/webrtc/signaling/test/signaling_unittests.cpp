@@ -1069,6 +1069,7 @@ string
 strSampleMid
 =
 "
+sdparta
 "
 ;
 static
@@ -8217,6 +8218,13 @@ signaling_state
 (
 )
 endState
+)
+;
+ASSERT_NE
+(
+"
+"
+mid
 )
 ;
 }
