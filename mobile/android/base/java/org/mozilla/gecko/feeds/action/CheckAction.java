@@ -480,7 +480,7 @@ close
 )
 ;
 }
-notify
+showNotification
 (
 updatedFeeds
 )
@@ -586,7 +586,7 @@ null
 }
 private
 void
-notify
+showNotification
 (
 List
 <
@@ -624,7 +624,7 @@ feedCount
 1
 )
 {
-notifySingle
+showNotificationForSingleUpdate
 (
 updatedFeeds
 .
@@ -637,7 +637,7 @@ get
 }
 else
 {
-notifyMultiple
+showNotificationForMultipleUpdates
 (
 updatedFeeds
 )
@@ -665,7 +665,7 @@ content_update
 }
 private
 void
-notifySingle
+showNotificationForSingleUpdate
 (
 Feed
 feed
@@ -917,7 +917,7 @@ notification
 }
 private
 void
-notifyMultiple
+showNotificationForMultipleUpdates
 (
 List
 <
