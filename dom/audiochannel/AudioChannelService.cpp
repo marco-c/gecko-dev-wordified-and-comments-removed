@@ -1778,6 +1778,14 @@ aMuted
 window
 -
 >
+GetMediaSuspended
+(
+)
+|
+|
+window
+-
+>
 GetAudioMuted
 (
 )

@@ -8167,3 +8167,13 @@ enabled
 true
 )
 ;
+pref
+(
+"
+media
+.
+useAudioChannelAPI
+"
+true
+)
+;
