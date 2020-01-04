@@ -1463,6 +1463,9 @@ TextureHost
 mNotifyNotUsedAfterComposition
 ;
 TimeStamp
+mLastCompositionEndTime
+;
+TimeStamp
 mCompositionTime
 ;
 TimeStamp
