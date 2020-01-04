@@ -171,6 +171,12 @@ ProtocolUtils
 .
 h
 '
+    
+'
+nsTHashtable
+.
+h
+'
 )
 CppIncludes
 =

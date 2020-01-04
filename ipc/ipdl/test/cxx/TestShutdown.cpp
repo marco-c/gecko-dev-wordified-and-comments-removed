@@ -100,7 +100,7 @@ ManagedPTestShutdownSubParent
 (
 )
 .
-Length
+Count
 (
 )
 =
@@ -174,7 +174,7 @@ ManagedPTestShutdownSubsubParent
 (
 )
 .
-Length
+Count
 (
 )
 )
@@ -213,7 +213,7 @@ ManagedPTestShutdownSubsubParent
 (
 )
 .
-Length
+Count
 (
 )
 =
@@ -1035,7 +1035,7 @@ ManagedPTestShutdownSubChild
 (
 )
 .
-Length
+Count
 (
 )
 =
@@ -1109,7 +1109,7 @@ ManagedPTestShutdownSubsubChild
 (
 )
 .
-Length
+Count
 (
 )
 )
@@ -1148,7 +1148,7 @@ ManagedPTestShutdownSubsubChild
 (
 )
 .
-Length
+Count
 (
 )
 =
