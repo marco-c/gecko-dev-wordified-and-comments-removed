@@ -379,6 +379,9 @@ include
 ProtocolTypes
 ;
 include
+PBackgroundSharedTypes
+;
+include
 PContentPermission
 ;
 include
@@ -4595,6 +4598,18 @@ the
 manifest
 *
 param
+loadingPrincipal
+*
+Principal
+of
+the
+document
+that
+referred
+the
+manifest
+*
+param
 stickDocument
 *
 True
@@ -4767,6 +4782,8 @@ URIParams
 manifestURI
 URIParams
 documentURI
+PrincipalInfo
+loadingPrincipal
 bool
 stickDocument
 TabId

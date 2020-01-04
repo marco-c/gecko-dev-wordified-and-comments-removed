@@ -367,6 +367,9 @@ aManifestURI
 nsIURI
 *
 aDocumentURI
+nsIPrincipal
+*
+aLoadingPrincipal
 nsIDOMDocument
 *
 aDocument
@@ -431,6 +434,10 @@ mDocumentURI
 =
 aDocumentURI
 ;
+mLoadingPrincipal
+=
+aLoadingPrincipal
+;
 if
 (
 aDocument
@@ -479,6 +486,7 @@ Init
 (
 aManifestURI
 aDocumentURI
+aLoadingPrincipal
 nullptr
 aCustomProfileDir
 aAppID

@@ -225,6 +225,12 @@ mDocumentURI
 ;
 nsCOMPtr
 <
+nsIPrincipal
+>
+mLoadingPrincipal
+;
+nsCOMPtr
+<
 nsIObserverService
 >
 mObserverService
