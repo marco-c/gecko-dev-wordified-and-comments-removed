@@ -80,7 +80,7 @@ mInitialized
 mozilla
 :
 :
-ScopedPK11SymKey
+UniquePK11SymKey
 mWrappingKey
 ;
 static

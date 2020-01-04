@@ -22,13 +22,6 @@ h
 #
 include
 "
-ScopedNSSTypes
-.
-h
-"
-#
-include
-"
 TLSServer
 .
 h
@@ -138,7 +131,7 @@ return
 nullptr
 ;
 }
-ScopedSECKEYPublicKey
+UniqueSECKEYPublicKey
 publicKey
 (
 CERT_ExtractPublicKey
@@ -169,6 +162,10 @@ RSA_PKCS1
 )
 *
 publicKey
+.
+get
+(
+)
 privateKey
 .
 release

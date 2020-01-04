@@ -2750,7 +2750,7 @@ TimeStamp
 mJobStartTime
 ;
 const
-ScopedSECItem
+UniqueSECItem
 mStapledOCSPResponse
 ;
 }
@@ -3453,7 +3453,7 @@ get
 return
 ;
 }
-SECItem
+ScopedAutoSECItem
 altNameExtension
 ;
 SECStatus
@@ -3555,13 +3555,6 @@ get
 )
 &
 altNameExtension
-)
-;
-PORT_Free
-(
-altNameExtension
-.
-data
 )
 ;
 if
@@ -5918,6 +5911,10 @@ mInfoObject
 mCert
 mPeerCertChain
 mStapledOCSPResponse
+.
+get
+(
+)
 mProviderFlags
 mTime
 )
