@@ -20,7 +20,7 @@ background
 .
 fxa
 .
-FxAccountClient10
+FxAccountClient20
 .
 RequestDelegate
 ;
@@ -35,7 +35,7 @@ background
 .
 fxa
 .
-FxAccountClient10
+FxAccountClient20
 .
 StatusResponse
 ;
@@ -50,7 +50,7 @@ background
 .
 fxa
 .
-FxAccountClient10
+FxAccountClient20
 .
 TwoKeys
 ;
