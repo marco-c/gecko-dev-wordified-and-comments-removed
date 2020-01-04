@@ -36,7 +36,7 @@ libraryName
 )
 {
 return
-LoadLibrary
+LoadLibraryA
 (
 libraryName
 )

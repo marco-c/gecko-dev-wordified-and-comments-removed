@@ -63,7 +63,7 @@ moduleName
 {
 fModule
 =
-LoadLibrary
+LoadLibraryA
 (
 moduleName
 )
