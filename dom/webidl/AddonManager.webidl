@@ -266,6 +266,16 @@ uninstall
 (
 )
 ;
+Promise
+<
+void
+>
+setEnabled
+(
+boolean
+value
+)
+;
 }
 ;
 [
