@@ -150,6 +150,14 @@ plain
 "
 #
 define
+kRTFMime
+"
+text
+/
+rtf
+"
+#
+define
 kUnicodeMime
 "
 text

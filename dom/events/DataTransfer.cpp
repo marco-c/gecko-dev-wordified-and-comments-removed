@@ -5732,6 +5732,7 @@ formats
 {
 kFileMime
 kHTMLMime
+kRTFMime
 kURLMime
 kURLDataMime
 kUnicodeMime
@@ -5916,6 +5917,7 @@ formats
 {
 kFileMime
 kHTMLMime
+kRTFMime
 kURLMime
 kURLDataMime
 kUnicodeMime
