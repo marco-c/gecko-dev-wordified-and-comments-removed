@@ -474,12 +474,6 @@ GetRoot
 (
 )
 ;
-NS_ENSURE_TRUE
-(
-bodyContent
-NS_ERROR_FAILURE
-)
-;
 DeleteRefToAnonymousNode
 (
 mAddColumnBeforeButton
