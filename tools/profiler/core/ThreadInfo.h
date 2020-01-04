@@ -209,7 +209,6 @@ mProfile
 ;
 void
 *
-const
 mStackTop
 ;
 #
