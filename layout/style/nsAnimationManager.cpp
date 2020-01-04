@@ -1441,10 +1441,14 @@ SpecifiedTiming
 oldEffect
 -
 >
-CopyPropertiesFrom
+UpdateProperties
 (
-*
 newEffect
+-
+>
+Properties
+(
+)
 )
 ;
 }
