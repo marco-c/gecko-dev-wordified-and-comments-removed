@@ -5236,7 +5236,7 @@ mClipRects
 .
 IsEqualInterior
 (
-nsIntRect
+LayoutDeviceIntRect
 (
 0
 0
@@ -25818,7 +25818,7 @@ CreateHRGNFromArray
 const
 nsTArray
 <
-nsIntRect
+LayoutDeviceIntRect
 >
 &
 aRects
@@ -25927,7 +25927,7 @@ Length
 (
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 bounds
 ;
 for
@@ -25951,7 +25951,7 @@ i
 )
 {
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 r
 =
@@ -26049,7 +26049,7 @@ SetWindowClipRegion
 const
 nsTArray
 <
-nsIntRect
+LayoutDeviceIntRect
 >
 &
 aRects

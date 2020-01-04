@@ -8270,7 +8270,7 @@ static
 bool
 ExtractExposeRegion
 (
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aRegion
 GdkEventExpose
@@ -8343,7 +8343,7 @@ aRegion
 Or
 (
 aRegion
-nsIntRect
+LayoutDeviceIntRect
 (
 r
 -
@@ -8439,7 +8439,7 @@ static
 bool
 ExtractExposeRegion
 (
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aRegion
 cairo_t
@@ -8521,7 +8521,7 @@ aRegion
 Or
 (
 aRegion
-nsIntRect
+LayoutDeviceIntRect
 (
 r
 .
@@ -8661,7 +8661,7 @@ listener
 return
 FALSE
 ;
-nsIntRegion
+LayoutDeviceIntRegion
 exposeRegion
 ;
 #
@@ -8707,7 +8707,7 @@ GdkScaleFactor
 (
 )
 ;
-nsIntRegion
+LayoutDeviceIntRegion
 region
 =
 exposeRegion
@@ -8776,6 +8776,10 @@ clientLayers
 SendInvalidRegion
 (
 region
+.
+ToUnknownRegion
+(
+)
 )
 ;
 }
@@ -8891,7 +8895,7 @@ region
 And
 (
 region
-nsIntRect
+LayoutDeviceIntRect
 (
 0
 0
@@ -9027,7 +9031,7 @@ gdkWin
 {
 nsAutoTArray
 <
-nsIntRect
+LayoutDeviceIntRect
 1
 >
 clipRects
@@ -9072,7 +9076,7 @@ Length
 i
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 r
 =
 clipRects
@@ -9083,10 +9087,6 @@ i
 bounds
 .
 TopLeft
-(
-)
-.
-ToUnknownPoint
 (
 )
 ;
@@ -9147,6 +9147,10 @@ PaintWindow
 (
 this
 region
+.
+ToUnknownRegion
+(
+)
 )
 ;
 listener
@@ -9169,6 +9173,10 @@ dt
 GetDrawTarget
 (
 region
+.
+ToUnknownRegion
+(
+)
 )
 ;
 if
@@ -9205,6 +9213,10 @@ region
 GetBounds
 (
 )
+.
+ToUnknownRect
+(
+)
 ;
 dt
 -
@@ -9227,6 +9239,10 @@ ClipToRegion
 (
 dt
 region
+.
+ToUnknownRegion
+(
+)
 )
 ;
 }
@@ -9402,6 +9418,10 @@ PaintWindow
 (
 this
 region
+.
+ToUnknownRegion
+(
+)
 )
 ;
 }
@@ -9529,6 +9549,10 @@ Put
 mXDisplay
 mXWindow
 region
+.
+ToUnknownRegion
+(
+)
 )
 ;
 }
@@ -18041,7 +18065,7 @@ SetWindowClipRegion
 const
 nsTArray
 <
-nsIntRect
+LayoutDeviceIntRect
 >
 &
 aRects
@@ -18052,7 +18076,7 @@ aIntersectWithExisting
 const
 nsTArray
 <
-nsIntRect
+LayoutDeviceIntRect
 >
 *
 newRects
@@ -18062,7 +18086,7 @@ aRects
 ;
 nsAutoTArray
 <
-nsIntRect
+LayoutDeviceIntRect
 1
 >
 intersectRects
@@ -18074,7 +18098,7 @@ aIntersectWithExisting
 {
 nsAutoTArray
 <
-nsIntRect
+LayoutDeviceIntRect
 1
 >
 existingRects
@@ -18085,7 +18109,7 @@ GetWindowClipRegion
 existingRects
 )
 ;
-nsIntRegion
+LayoutDeviceIntRegion
 existingRegion
 =
 RegionFromArray
@@ -18093,7 +18117,7 @@ RegionFromArray
 existingRects
 )
 ;
-nsIntRegion
+LayoutDeviceIntRegion
 newRegion
 =
 RegionFromArray
@@ -18101,7 +18125,7 @@ RegionFromArray
 aRects
 )
 ;
-nsIntRegion
+LayoutDeviceIntRegion
 intersectRegion
 ;
 intersectRegion
@@ -18216,7 +18240,7 @@ i
 )
 {
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 r
 =
@@ -18299,7 +18323,7 @@ i
 )
 {
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 r
 =

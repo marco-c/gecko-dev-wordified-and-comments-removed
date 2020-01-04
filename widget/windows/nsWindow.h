@@ -2260,7 +2260,7 @@ SetWindowClipRegion
 const
 nsTArray
 <
-nsIntRect
+LayoutDeviceIntRect
 >
 &
 aRects

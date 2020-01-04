@@ -2894,7 +2894,7 @@ bounds
 ;
 nsTArray
 <
-nsIntRect
+LayoutDeviceIntRect
 >
 clipRects
 ;
@@ -2930,6 +2930,9 @@ i
 nsRect
 rr
 =
+LayoutDeviceIntRect
+:
+:
 ToAppUnits
 (
 clipRects
@@ -2940,10 +2943,6 @@ i
 bounds
 .
 TopLeft
-(
-)
-.
-ToUnknownPoint
 (
 )
 AppUnitsPerDevPixel

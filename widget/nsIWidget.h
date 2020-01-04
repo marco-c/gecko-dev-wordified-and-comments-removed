@@ -1806,7 +1806,7 @@ mBounds
 ;
 nsTArray
 <
-nsIntRect
+LayoutDeviceIntRect
 >
 mClipRegion
 ;
@@ -1834,7 +1834,7 @@ SetWindowClipRegion
 const
 nsTArray
 <
-nsIntRect
+LayoutDeviceIntRect
 >
 &
 aRects
@@ -1850,7 +1850,7 @@ GetWindowClipRegion
 (
 nsTArray
 <
-nsIntRect
+LayoutDeviceIntRect
 >
 *
 aRects

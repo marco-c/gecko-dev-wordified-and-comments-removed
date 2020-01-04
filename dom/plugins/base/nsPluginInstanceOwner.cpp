@@ -14617,7 +14617,7 @@ SetPluginPort
 (
 )
 ;
-nsIntSize
+LayoutDeviceIntSize
 widgetClip
 =
 mPluginFrame

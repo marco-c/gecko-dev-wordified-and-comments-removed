@@ -277,11 +277,11 @@ bool
 RecvUpdatePluginConfigurations
 (
 const
-nsIntPoint
+LayoutDeviceIntPoint
 &
 aContentOffset
 const
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aVisibleRegion
 nsTArray
