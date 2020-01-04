@@ -42,7 +42,6 @@ var
 C
 of
 [
-Array
 Map
 Set
 Int8Array
@@ -75,7 +74,6 @@ for
 C
 of
 [
-Array
 Map
 Set
 TypedArray

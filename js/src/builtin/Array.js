@@ -3607,15 +3607,6 @@ array
 ;
 }
 function
-ArraySpecies
-(
-)
-{
-return
-this
-;
-}
-function
 ArrayConcat
 (
 arg1
