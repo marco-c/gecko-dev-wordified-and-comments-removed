@@ -854,6 +854,17 @@ pathvar
 =
 libpath
         
+if
+mozinfo
+.
+info
+[
+"
+asan
+"
+]
+:
+            
 llvmsym
 =
 os
@@ -871,7 +882,7 @@ llvm
 symbolizer
 "
 )
-        
+            
 if
 os
 .
@@ -882,7 +893,7 @@ isfile
 llvmsym
 )
 :
-            
+                
 env
 [
 "
@@ -891,7 +902,7 @@ ASAN_SYMBOLIZER_PATH
 ]
 =
 llvmsym
-            
+                
 self
 .
 log
@@ -909,10 +920,10 @@ s
 %
 llvmsym
 )
-        
+            
 else
 :
-            
+                
 self
 .
 log
