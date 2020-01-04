@@ -1919,7 +1919,7 @@ mUnassociatedIcons
 .
 RemoveEntry
 (
-aFaviconURI
+iconKey
 )
 ;
 }

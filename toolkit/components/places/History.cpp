@@ -8263,7 +8263,7 @@ mObservers
 .
 RemoveEntry
 (
-aURI
+key
 )
 ;
 return
