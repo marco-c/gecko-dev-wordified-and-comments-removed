@@ -1286,7 +1286,7 @@ _onSourcePrefChanged
 ;
 this
 .
-viewedElement
+_viewedElement
 =
 null
 ;
@@ -1521,7 +1521,7 @@ element
 {
 this
 .
-viewedElement
+_viewedElement
 =
 null
 ;
@@ -1583,7 +1583,7 @@ element
 =
 this
 .
-viewedElement
+_viewedElement
 )
 {
 return
@@ -1597,7 +1597,7 @@ undefined
 }
 this
 .
-viewedElement
+_viewedElement
 =
 element
 ;
@@ -2277,7 +2277,7 @@ if
 !
 this
 .
-viewedElement
+_viewedElement
 )
 {
 return
@@ -2293,7 +2293,7 @@ viewedElement
 =
 this
 .
-viewedElement
+_viewedElement
 ;
 return
 promise
@@ -2314,7 +2314,7 @@ getComputed
 (
 this
 .
-viewedElement
+_viewedElement
 {
 filter
 :
@@ -2353,7 +2353,7 @@ viewedElement
 =
 this
 .
-viewedElement
+_viewedElement
 )
 {
 return
@@ -3596,7 +3596,7 @@ function
 {
 this
 .
-viewedElement
+_viewedElement
 =
 null
 ;
@@ -4062,7 +4062,7 @@ null
 _matchedSelectorViews
 :
 null
-prevViewedElement
+_prevViewedElement
 :
 null
 get
@@ -4121,7 +4121,7 @@ this
 .
 tree
 .
-viewedElement
+_viewedElement
 )
 {
 return
@@ -4942,7 +4942,7 @@ if
 (
 this
 .
-prevViewedElement
+_prevViewedElement
 !
 =
 =
@@ -4950,7 +4950,7 @@ this
 .
 tree
 .
-viewedElement
+_viewedElement
 )
 {
 this
@@ -4961,13 +4961,13 @@ null
 ;
 this
 .
-prevViewedElement
+_prevViewedElement
 =
 this
 .
 tree
 .
-viewedElement
+_viewedElement
 ;
 }
 if
@@ -4977,7 +4977,7 @@ this
 .
 tree
 .
-viewedElement
+_viewedElement
 |
 |
 !
@@ -5200,7 +5200,7 @@ this
 .
 tree
 .
-viewedElement
+_viewedElement
 this
 .
 name
@@ -7279,7 +7279,7 @@ this
 .
 view
 .
-viewedElement
+_viewedElement
 )
 {
 this
