@@ -935,7 +935,9 @@ xpi
 '
 application
 /
-zip
+x
+-
+xpinstall
 '
 }
 class
