@@ -1475,7 +1475,7 @@ notifications
 nsIMEUpdatePreference
 :
 :
-DEFAULT_CONDITIONS_OF_NOTIFYING_CHANGES
+NOTIFY_NOTHING
 ;
 if
 (

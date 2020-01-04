@@ -27007,8 +27007,8 @@ sEnabledTextStore
 mDocumentMgr
 )
 {
+return
 nsIMEUpdatePreference
-updatePreference
 (
 nsIMEUpdatePreference
 :
@@ -27030,15 +27030,6 @@ nsIMEUpdatePreference
 :
 NOTIFY_DURING_DEACTIVE
 )
-;
-updatePreference
-.
-DontNotifyChangesCausedByComposition
-(
-)
-;
-return
-updatePreference
 ;
 }
 }
