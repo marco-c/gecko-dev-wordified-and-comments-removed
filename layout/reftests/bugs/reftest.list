@@ -26343,9 +26343,6 @@ fuzzy
 -
 if
 (
-browserIsRemote
-&
-&
 cocoaWidget
 103
 133
@@ -26392,9 +26389,6 @@ fuzzy
 -
 if
 (
-browserIsRemote
-&
-&
 winWidget
 73
 133
@@ -26403,9 +26397,6 @@ fuzzy
 -
 if
 (
-browserIsRemote
-&
-&
 cocoaWidget
 103
 133
