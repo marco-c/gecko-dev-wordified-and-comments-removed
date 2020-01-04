@@ -16374,6 +16374,16 @@ nsIntRect
 itemVisibleRect
 =
 itemDrawRect
+;
+if
+(
+!
+shouldFixToViewport
+)
+{
+itemVisibleRect
+=
+itemVisibleRect
 .
 Intersect
 (
@@ -16389,6 +16399,7 @@ false
 )
 )
 ;
+}
 if
 (
 maxLayers
