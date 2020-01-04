@@ -544,14 +544,14 @@ const
 int32_t
 MAX_VIDEO_WIDTH
 =
-4000
+8192
 ;
 static
 const
 int32_t
 MAX_VIDEO_HEIGHT
 =
-3000
+4608
 ;
 void
 ScaleDisplayByAspectRatio
