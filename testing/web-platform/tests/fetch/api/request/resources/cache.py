@@ -222,6 +222,16 @@ Control
 None
 )
     
+ignore
+=
+"
+ignore
+"
+in
+request
+.
+GET
+    
 server_state
 =
 request
@@ -252,9 +262,14 @@ dict
 )
     
 if
-inm
+not
+ignore
 :
         
+if
+inm
+:
+            
 state
 [
 "
@@ -267,11 +282,11 @@ Match
 ]
 =
 inm
-    
+        
 if
 ims
 :
-        
+            
 state
 [
 "
@@ -284,11 +299,11 @@ Since
 ]
 =
 ims
-    
+        
 if
 pragma
 :
-        
+            
 state
 [
 "
@@ -297,11 +312,11 @@ Pragma
 ]
 =
 pragma
-    
+        
 if
 cache_control
 :
-        
+            
 state
 [
 "
