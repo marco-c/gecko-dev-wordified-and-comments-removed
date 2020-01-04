@@ -4163,10 +4163,7 @@ GetResource
 )
 )
 ;
-nsTArray
-<
-MediaByteRange
->
+MediaByteRangeSet
 ranges
 ;
 resource
@@ -6277,10 +6274,7 @@ GetResource
 )
 )
 ;
-nsTArray
-<
-MediaByteRange
->
+MediaByteRangeSet
 byteRanges
 ;
 nsresult

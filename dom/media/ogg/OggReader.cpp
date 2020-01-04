@@ -6215,10 +6215,7 @@ GetResource
 )
 )
 ;
-nsTArray
-<
-MediaByteRange
->
+MediaByteRangeSet
 cached
 ;
 nsresult
@@ -6258,7 +6255,7 @@ index
 +
 )
 {
-MediaByteRange
+auto
 &
 range
 =
@@ -9579,10 +9576,7 @@ GetResource
 )
 )
 ;
-nsTArray
-<
-MediaByteRange
->
+MediaByteRangeSet
 ranges
 ;
 nsresult

@@ -3641,10 +3641,7 @@ buffered
 ;
 }
 }
-nsTArray
-<
-MediaByteRange
->
+MediaByteRangeSet
 ranges
 ;
 nsresult
@@ -3919,10 +3916,7 @@ GetResource
 )
 )
 ;
-nsTArray
-<
-MediaByteRange
->
+MediaByteRangeSet
 byteRanges
 ;
 nsresult

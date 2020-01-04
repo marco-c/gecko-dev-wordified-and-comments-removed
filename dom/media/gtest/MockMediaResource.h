@@ -345,10 +345,7 @@ virtual
 nsresult
 GetCachedRanges
 (
-nsTArray
-<
-MediaByteRange
->
+MediaByteRangeSet
 &
 aRanges
 )
@@ -401,10 +398,7 @@ char
 *
 mFileName
 ;
-nsTArray
-<
-MediaByteRange
->
+MediaByteRangeSet
 mRanges
 ;
 Atomic

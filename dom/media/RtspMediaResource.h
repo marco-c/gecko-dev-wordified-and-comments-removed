@@ -341,10 +341,7 @@ false
 nsresult
 GetCachedRanges
 (
-nsTArray
-<
-MediaByteRange
->
+MediaByteRangeSet
 &
 aRanges
 )
