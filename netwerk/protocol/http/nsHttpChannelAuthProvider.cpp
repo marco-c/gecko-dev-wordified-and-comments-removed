@@ -329,7 +329,7 @@ nsHttpChannelAuthProvider
 :
 sAuthAllowPref
 =
-SUBRESOURCE_AUTH_DIALOG_DISALLOW_CROSS_ORIGIN
+SUBRESOURCE_AUTH_DIALOG_ALLOW_ALL
 ;
 void
 nsHttpChannelAuthProvider
@@ -361,13 +361,15 @@ network
 .
 auth
 .
-allow
--
 subresource
 -
+http
+-
 auth
+-
+allow
 "
-SUBRESOURCE_AUTH_DIALOG_DISALLOW_CROSS_ORIGIN
+SUBRESOURCE_AUTH_DIALOG_ALLOW_ALL
 )
 ;
 }
