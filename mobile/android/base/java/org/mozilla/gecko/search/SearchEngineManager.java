@@ -2503,6 +2503,14 @@ xml
 "
 )
 ;
+if
+(
+pluginIn
+!
+=
+null
+)
+{
 final
 SearchEngine
 engine
@@ -2536,6 +2544,7 @@ name
 return
 engine
 ;
+}
 }
 }
 }
