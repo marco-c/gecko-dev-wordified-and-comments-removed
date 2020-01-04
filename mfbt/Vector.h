@@ -510,6 +510,7 @@ aU
 }
 static
 inline
+MOZ_MUST_USE
 bool
 growTo
 (
@@ -924,6 +925,7 @@ aT
 }
 static
 inline
+MOZ_MUST_USE
 bool
 growTo
 (

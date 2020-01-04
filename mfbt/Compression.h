@@ -69,6 +69,7 @@ aMaxOutputSize
 ;
 static
 MFBT_API
+MOZ_MUST_USE
 bool
 decompress
 (
@@ -85,6 +86,7 @@ aOutputSize
 ;
 static
 MFBT_API
+MOZ_MUST_USE
 bool
 decompress
 (
