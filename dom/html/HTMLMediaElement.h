@@ -573,14 +573,9 @@ TabIndexDefault
 )
 override
 ;
+virtual
 void
 NotifyOwnerDocumentActivityChanged
-(
-)
-;
-virtual
-bool
-NotifyOwnerDocumentActivityChangedInternal
 (
 )
 ;

@@ -5855,7 +5855,7 @@ if
 videoHasChanged
 )
 {
-NotifyOwnerDocumentActivityChangedInternal
+NotifyOwnerDocumentActivityChanged
 (
 )
 ;
@@ -13213,7 +13213,7 @@ RegisterActivityObserver
 (
 )
 ;
-NotifyOwnerDocumentActivityChangedInternal
+NotifyOwnerDocumentActivityChanged
 (
 )
 ;
@@ -17661,7 +17661,7 @@ AddMediaElementToURITable
 (
 )
 ;
-NotifyOwnerDocumentActivityChangedInternal
+NotifyOwnerDocumentActivityChanged
 (
 )
 ;
@@ -19825,7 +19825,7 @@ HasVideo
 )
 )
 {
-NotifyOwnerDocumentActivityChangedInternal
+NotifyOwnerDocumentActivityChanged
 (
 )
 ;
@@ -24127,19 +24127,6 @@ NotifyOwnerDocumentActivityChanged
 (
 )
 {
-NotifyOwnerDocumentActivityChangedInternal
-(
-)
-;
-}
-bool
-HTMLMediaElement
-:
-:
-NotifyOwnerDocumentActivityChangedInternal
-(
-)
-{
 bool
 visible
 =
@@ -24212,9 +24199,6 @@ IsActive
 AddRemoveSelfReference
 (
 )
-;
-return
-pauseElement
 ;
 }
 void

@@ -510,8 +510,8 @@ bool
 aValue
 )
 ;
-bool
-NotifyOwnerDocumentActivityChangedInternal
+void
+NotifyOwnerDocumentActivityChanged
 (
 )
 override
