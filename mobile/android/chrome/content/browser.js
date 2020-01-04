@@ -23460,7 +23460,7 @@ null
 ;
 }
 }
-makeOpenSearchMessage
+sendOpenSearchMessage
 :
 function
 (
@@ -23729,7 +23729,10 @@ length
 return
 null
 ;
-return
+Messaging
+.
+sendRequest
+(
 {
 type
 :
@@ -23747,6 +23750,7 @@ visible
 :
 true
 }
+)
 ;
 }
 )
@@ -24564,11 +24568,9 @@ DOMLinkAdded
 "
 )
 {
-jsonMessage
-=
 this
 .
-makeOpenSearchMessage
+sendOpenSearchMessage
 (
 target
 )
