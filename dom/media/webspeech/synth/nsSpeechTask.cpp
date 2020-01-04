@@ -1463,10 +1463,6 @@ DispatchStartInner
 (
 )
 {
-CreateAudioChannelAgent
-(
-)
-;
 nsSynthVoiceRegistry
 :
 :
@@ -1558,6 +1554,10 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+CreateAudioChannelAgent
+(
+)
+;
 mUtterance
 -
 >
@@ -1658,10 +1658,6 @@ uint32_t
 aCharIndex
 )
 {
-DestroyAudioChannelAgent
-(
-)
-;
 if
 (
 !
@@ -1717,6 +1713,10 @@ DispatchEnd
 n
 "
 )
+)
+;
+DestroyAudioChannelAgent
+(
 )
 ;
 MOZ_ASSERT
