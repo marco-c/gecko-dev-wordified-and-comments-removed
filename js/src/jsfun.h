@@ -2199,6 +2199,11 @@ isInterpretedLazy
 ;
 if
 (
+lazyScriptOrNull
+(
+)
+&
+&
 !
 lazyScript
 (
