@@ -304,6 +304,11 @@ Finder
 jsm
 '
 '
+FinderHighlighter
+.
+jsm
+'
+'
 Geometry
 .
 jsm
