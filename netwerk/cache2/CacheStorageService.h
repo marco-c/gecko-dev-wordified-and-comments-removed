@@ -591,8 +591,9 @@ CacheStorage
 const
 *
 aStorage
-nsIURI
-*
+const
+nsACString
+&
 aURI
 const
 nsACString
@@ -613,8 +614,9 @@ CacheStorage
 const
 *
 aStorage
-nsIURI
-*
+const
+nsACString
+&
 aURI
 const
 nsACString
@@ -632,8 +634,9 @@ CacheStorage
 const
 *
 aStorage
-nsIURI
-*
+const
+nsACString
+&
 aURI
 const
 nsACString
@@ -765,8 +768,9 @@ nsCSubstring
 const
 &
 aContextKey
-nsIURI
-*
+const
+nsACString
+&
 aURI
 const
 nsACString
