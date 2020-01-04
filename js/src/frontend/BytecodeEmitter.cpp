@@ -22469,6 +22469,17 @@ StmtType
 CATCH
 ;
 stmt
+-
+>
+staticBlock
+(
+)
+.
+setIsForCatchParameters
+(
+)
+;
+stmt
 =
 stmt
 -
