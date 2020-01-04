@@ -840,7 +840,6 @@ Task
 spawn
 (
 function
-*
 (
 )
 {
