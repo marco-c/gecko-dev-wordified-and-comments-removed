@@ -120,8 +120,8 @@ mozilla
 gfx
 :
 :
-Mutex
-mMutex
+CriticalSection
+mSection
 ;
 explicit
 SanityChecker
@@ -169,11 +169,11 @@ MaybeYieldThread
 (
 )
 ;
-MutexAutoLock
+CriticalSectionAutoEnter
 lock
 (
 &
-mMutex
+mSection
 )
 ;
 ASSERT_EQ
