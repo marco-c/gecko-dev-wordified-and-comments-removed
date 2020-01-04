@@ -629,6 +629,11 @@ hostname
 )
 )
 {
+if
+(
+gNeckoChild
+)
+{
 gNeckoChild
 -
 >
@@ -641,6 +646,7 @@ hostname
 flags
 )
 ;
+}
 }
 return
 NS_OK
@@ -858,6 +864,11 @@ hostname
 )
 )
 {
+if
+(
+gNeckoChild
+)
+{
 gNeckoChild
 -
 >
@@ -871,6 +882,7 @@ flags
 aReason
 )
 ;
+}
 }
 return
 NS_OK
@@ -1428,6 +1440,11 @@ IsNeckoChild
 )
 )
 {
+if
+(
+gNeckoChild
+)
+{
 gNeckoChild
 -
 >
@@ -1445,6 +1462,7 @@ mTail
 mFlags
 )
 ;
+}
 }
 else
 {
