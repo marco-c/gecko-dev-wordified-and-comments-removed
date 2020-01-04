@@ -1,5 +1,8 @@
 #
-Can
+The
+following
+line
+can
 be
 removed
 once
@@ -20,7 +23,7 @@ client
 =
 2
 .
-0
+1
 .
 0
 marionette
@@ -30,9 +33,9 @@ driver
 =
 1
 .
-1
+2
 .
-1
+0
 mozinfo
 >
 =
