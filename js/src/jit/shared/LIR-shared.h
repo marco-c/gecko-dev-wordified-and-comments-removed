@@ -3346,7 +3346,7 @@ mir
 )
 -
 >
-templateObject
+isVMCall
 (
 )
 ?
@@ -3590,7 +3590,7 @@ mir
 )
 -
 >
-templateObject
+isVMCall
 (
 )
 ?

@@ -26568,6 +26568,8 @@ initialHeap
 jsbytecode
 *
 pc
+bool
+vmCall
 )
 :
 MUnaryInstruction
@@ -26589,6 +26591,10 @@ false
 pc_
 (
 pc
+)
+vmCall_
+(
+vmCall
 )
 {
 setResultType

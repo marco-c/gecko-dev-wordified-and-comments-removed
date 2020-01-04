@@ -2635,6 +2635,9 @@ newArrayTryVM
 bool
 *
 emitted
+JSObject
+*
+templateObject
 uint32_t
 length
 )
@@ -2667,6 +2670,9 @@ newObjectTryVM
 bool
 *
 emitted
+JSObject
+*
+templateObject
 )
 ;
 MOZ_MUST_USE
