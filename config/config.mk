@@ -747,7 +747,7 @@ FINAL_TARGET
 '
 ifdef
 XPI_NAME
-DEFINES
+ACDEFINES
 +
 =
 -
@@ -3300,7 +3300,7 @@ want
 this
 definition
 .
-DEFINES
+ACDEFINES
 +
 =
 -
@@ -4523,8 +4523,3 @@ systems
 .
 export
 NONASCII
-DEFINES
-+
-=
--
-DNO_NSPR_10_SUPPORT

@@ -620,6 +620,10 @@ preprocessor
 DEFINES
 )
 \
+(
+ACDEFINES
+)
+\
 -
 DANDROID_PACKAGE_NAME
 =

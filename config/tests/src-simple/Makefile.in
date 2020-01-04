@@ -92,7 +92,7 @@ mk
 XPI_NAME
 =
 test_jar_mn
-DEFINES
+ACDEFINES
 +
 =
 \

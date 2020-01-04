@@ -370,6 +370,9 @@ py
 (
 DEFINES
 )
+(
+ACDEFINES
+)
 \
 -
 -
