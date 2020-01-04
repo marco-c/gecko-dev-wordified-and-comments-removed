@@ -724,12 +724,13 @@ checkNoGCRooters
 (
 )
 ;
-FinishPersistentRootedChains
-(
 cx
 -
 >
 roots
+.
+finishPersistentRoots
+(
 )
 ;
 if
