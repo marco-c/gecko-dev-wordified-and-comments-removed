@@ -448,7 +448,7 @@ aFlags
 override
 ;
 virtual
-nsresult
+DrawResult
 PaintSVG
 (
 gfxContext

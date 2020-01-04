@@ -280,7 +280,7 @@ aResult
 #
 endif
 virtual
-nsresult
+DrawResult
 PaintSVG
 (
 gfxContext

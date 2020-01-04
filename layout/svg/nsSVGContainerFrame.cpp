@@ -1031,7 +1031,7 @@ return
 foundTransform
 ;
 }
-nsresult
+DrawResult
 nsSVGDisplayContainerFrame
 :
 :
@@ -1112,7 +1112,10 @@ mOpacity
 )
 {
 return
-NS_OK
+DrawResult
+:
+:
+SUCCESS
 ;
 }
 gfxMatrix
@@ -1163,7 +1166,10 @@ IsSingular
 )
 {
 return
-NS_OK
+DrawResult
+:
+:
+SUCCESS
 ;
 }
 }
@@ -1284,7 +1290,10 @@ aDirtyRect
 ;
 }
 return
-NS_OK
+DrawResult
+:
+:
+SUCCESS
 ;
 }
 nsIFrame

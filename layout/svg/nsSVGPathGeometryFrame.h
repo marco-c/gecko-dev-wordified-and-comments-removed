@@ -321,7 +321,7 @@ GetCanvasTM
 protected
 :
 virtual
-nsresult
+DrawResult
 PaintSVG
 (
 gfxContext

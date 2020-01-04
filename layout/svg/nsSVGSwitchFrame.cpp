@@ -160,7 +160,7 @@ aLists
 override
 ;
 virtual
-nsresult
+DrawResult
 PaintSVG
 (
 gfxContext
@@ -367,7 +367,7 @@ aLists
 ;
 }
 }
-nsresult
+DrawResult
 nsSVGSwitchFrame
 :
 :
@@ -437,7 +437,10 @@ mOpacity
 0
 )
 return
-NS_OK
+DrawResult
+:
+:
+SUCCESS
 ;
 nsIFrame
 *
@@ -509,7 +512,10 @@ aDirtyRect
 ;
 }
 return
-NS_OK
+DrawResult
+:
+:
+SUCCESS
 ;
 }
 nsIFrame

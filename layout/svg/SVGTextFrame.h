@@ -817,6 +817,16 @@ mozilla
 SVGTextContextPaint
 SVGTextContextPaint
 ;
+typedef
+mozilla
+:
+:
+image
+:
+:
+DrawResult
+DrawResult
+;
 protected
 :
 explicit
@@ -1011,7 +1021,7 @@ aFlags
 override
 ;
 virtual
-nsresult
+DrawResult
 PaintSVG
 (
 gfxContext
