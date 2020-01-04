@@ -3318,7 +3318,7 @@ true
 "
 but
 no
-screenShareVideoObject
+screenShareMediaElement
 is
 present
 "
@@ -3337,7 +3337,7 @@ receivingScreenShare
 :
 true
 "
-screenShareVideoObject
+screenShareMediaElement
 "
 :
 null
@@ -3391,7 +3391,7 @@ false
 +
 "
 and
-screenShareVideoObject
+screenShareMediaElement
 is
 null
 "
@@ -3410,7 +3410,7 @@ receivingScreenShare
 :
 false
 "
-screenShareVideoObject
+screenShareMediaElement
 "
 :
 null
@@ -3456,7 +3456,7 @@ a
 loading
 screen
 if
-screenShareVideoObject
+screenShareMediaElement
 is
 set
 "
@@ -3487,7 +3487,7 @@ receivingScreenShare
 :
 true
 "
-screenShareVideoObject
+screenShareMediaElement
 "
 :
 videoElement
@@ -3584,7 +3584,7 @@ roomState
 ROOM_STATES
 .
 HAS_PARTICIPANTS
-localSrcVideoObject
+localSrcMediaElement
 :
 videoElement
 videoMuted
@@ -3692,7 +3692,7 @@ loading
 screen
 when
 no
-srcVideoObject
+srcMediaElement
 "
 function
 (
@@ -3708,7 +3708,7 @@ roomState
 ROOM_STATES
 .
 MEDIA_WAIT
-remoteSrcVideoObject
+remoteSrcMediaElement
 :
 null
 }
@@ -3755,7 +3755,7 @@ local
 loading
 screen
 when
-srcVideoObject
+srcMediaElement
 is
 set
 "
@@ -3773,7 +3773,7 @@ roomState
 ROOM_STATES
 .
 MEDIA_WAIT
-localSrcVideoObject
+localSrcMediaElement
 :
 videoElement
 }
@@ -3818,7 +3818,7 @@ remote
 loading
 screen
 when
-srcVideoObject
+srcMediaElement
 is
 set
 "
@@ -3836,7 +3836,7 @@ roomState
 ROOM_STATES
 .
 HAS_PARTICIPANTS
-remoteSrcVideoObject
+remoteSrcMediaElement
 :
 videoElement
 }
@@ -3904,7 +3904,7 @@ roomState
 ROOM_STATES
 .
 HAS_PARTICIPANTS
-remoteSrcVideoObject
+remoteSrcMediaElement
 :
 videoElement
 remoteVideoEnabled
@@ -3974,7 +3974,7 @@ roomState
 ROOM_STATES
 .
 HAS_PARTICIPANTS
-remoteSrcVideoObject
+remoteSrcMediaElement
 :
 videoElement
 remoteVideoEnabled
@@ -4048,7 +4048,7 @@ roomState
 ROOM_STATES
 .
 HAS_PARTICIPANTS
-remoteSrcVideoObject
+remoteSrcMediaElement
 :
 videoElement
 mediaConnected
@@ -4122,7 +4122,7 @@ roomState
 ROOM_STATES
 .
 HAS_PARTICIPANTS
-remoteSrcVideoObject
+remoteSrcMediaElement
 :
 videoElement
 mediaConnected
@@ -4192,7 +4192,7 @@ roomState
 ROOM_STATES
 .
 MEDIA_WAIT
-remoteSrcVideoObject
+remoteSrcMediaElement
 :
 videoElement
 remoteVideoEnabled
@@ -4264,7 +4264,7 @@ roomState
 ROOM_STATES
 .
 CLOSING
-remoteSrcVideoObject
+remoteSrcMediaElement
 :
 videoElement
 remoteVideoEnabled
@@ -4337,7 +4337,7 @@ roomState
 ROOM_STATES
 .
 HAS_PARTICIPANTS
-remoteSrcVideoObject
+remoteSrcMediaElement
 :
 videoElement
 remoteVideoEnabled
@@ -4393,7 +4393,7 @@ HAS_PARTICIPANTS
 "
 +
 "
-remoteSrcVideoObject
+remoteSrcMediaElement
 is
 false
 mediaConnected
@@ -4414,7 +4414,7 @@ roomState
 ROOM_STATES
 .
 HAS_PARTICIPANTS
-remoteSrcVideoObject
+remoteSrcMediaElement
 :
 null
 remoteVideoEnabled

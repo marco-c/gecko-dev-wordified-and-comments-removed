@@ -842,7 +842,7 @@ roomState
 ROOM_STATES
 .
 HAS_PARTICIPANTS
-remoteSrcVideoObject
+remoteSrcMediaElement
 :
 false
 }
@@ -981,7 +981,7 @@ roomState
 ROOM_STATES
 .
 HAS_PARTICIPANTS
-remoteSrcVideoObject
+remoteSrcMediaElement
 :
 false
 }
@@ -1012,7 +1012,7 @@ receivingScreenShare
 receiving
 :
 true
-srcVideoObject
+srcMediaElement
 :
 false
 }
@@ -1026,7 +1026,7 @@ receivingScreenShare
 receiving
 :
 true
-srcVideoObject
+srcMediaElement
 :
 false
 }
@@ -1171,7 +1171,7 @@ HAS_PARTICIPANTS
 mediaConnected
 :
 false
-remoteSrcVideoObject
+remoteSrcMediaElement
 :
 false
 }

@@ -8202,7 +8202,7 @@ mediaType
 "
 local
 "
-srcVideoObject
+srcMediaElement
 :
 {
 fake
@@ -8313,7 +8313,7 @@ mediaType
 "
 local
 "
-srcVideoObject
+srcMediaElement
 :
 {
 fake
@@ -9157,7 +9157,7 @@ view
 mountTestComponent
 (
 {
-localSrcVideoObject
+localSrcMediaElement
 :
 null
 localPosterUrl
@@ -9231,7 +9231,7 @@ view
 mountTestComponent
 (
 {
-localSrcVideoObject
+localSrcMediaElement
 :
 {
 }
@@ -9307,7 +9307,7 @@ view
 mountTestComponent
 (
 {
-localSrcVideoObject
+localSrcMediaElement
 :
 {
 }
@@ -9388,7 +9388,7 @@ view
 mountTestComponent
 (
 {
-remoteSrcVideoObject
+remoteSrcMediaElement
 :
 null
 remotePosterUrl
@@ -9462,7 +9462,7 @@ view
 mountTestComponent
 (
 {
-remoteSrcVideoObject
+remoteSrcMediaElement
 :
 {
 }
@@ -9538,7 +9538,7 @@ view
 mountTestComponent
 (
 {
-remoteSrcVideoObject
+remoteSrcMediaElement
 :
 {
 }

@@ -511,7 +511,7 @@ Boolean
 isLocal
 :
 Boolean
-srcVideoObject
+srcMediaElement
 :
 Object
 }

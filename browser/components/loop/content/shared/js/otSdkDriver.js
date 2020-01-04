@@ -2486,7 +2486,7 @@ HAS_VIDEO
 isLocal
 :
 false
-srcVideoObject
+srcMediaElement
 :
 sdkSubscriberVideo
 }
@@ -2608,7 +2608,7 @@ ReceivingScreenShare
 receiving
 :
 true
-srcVideoObject
+srcMediaElement
 :
 sdkSubscriberVideo
 }
@@ -3056,7 +3056,7 @@ hasVideo
 isLocal
 :
 true
-srcVideoObject
+srcMediaElement
 :
 sdkLocalVideo
 }
