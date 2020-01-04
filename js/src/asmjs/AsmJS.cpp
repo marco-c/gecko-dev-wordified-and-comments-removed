@@ -5892,7 +5892,7 @@ isBool32x4
 ;
 }
 bool
-isVarType
+isArgType
 (
 )
 const
@@ -5926,7 +5926,7 @@ const
 {
 MOZ_ASSERT
 (
-isVarType
+isArgType
 (
 )
 )
@@ -25064,7 +25064,7 @@ true
 }
 static
 bool
-CheckIsVarType
+CheckIsArgType
 (
 FunctionValidator
 &
@@ -25081,7 +25081,7 @@ if
 !
 type
 .
-isVarType
+isArgType
 (
 )
 )
@@ -25181,7 +25181,7 @@ if
 !
 CheckCallArgs
 <
-CheckIsVarType
+CheckIsArgType
 >
 (
 f
@@ -25825,7 +25825,7 @@ if
 !
 CheckCallArgs
 <
-CheckIsVarType
+CheckIsArgType
 >
 (
 f
