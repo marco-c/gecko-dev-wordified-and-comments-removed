@@ -143,9 +143,6 @@ class
 DatabaseSpec
 ;
 class
-FileManager
-;
-class
 IDBFactory
 ;
 class
@@ -227,12 +224,6 @@ nsAutoPtr
 DatabaseSpec
 >
 mPreviousSpec
-;
-nsRefPtr
-<
-FileManager
->
-mFileManager
 ;
 BackgroundDatabaseChild
 *
