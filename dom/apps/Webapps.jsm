@@ -25858,9 +25858,3 @@ aApplicationCache
 }
 }
 ;
-DOMApplicationRegistry
-.
-init
-(
-)
-;
