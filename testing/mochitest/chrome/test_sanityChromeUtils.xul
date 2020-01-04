@@ -700,6 +700,16 @@ actualData
 ;
 }
 }
+{
+type
+:
+"
+Files
+"
+data
+:
+null
+}
 ]
 ]
 ;
