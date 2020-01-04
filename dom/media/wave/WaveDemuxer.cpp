@@ -1956,7 +1956,13 @@ usPerDataChunk
 =
 USECS_PER_S
 *
+static_cast
+<
+double
+>
+(
 mSamplesPerChunk
+)
 /
 mSamplesPerSecond
 ;
