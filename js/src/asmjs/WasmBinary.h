@@ -71,6 +71,17 @@ decl
 static
 const
 char
+ImportSection
+[
+]
+=
+"
+import
+"
+;
+static
+const
+char
 ExportSection
 [
 ]
