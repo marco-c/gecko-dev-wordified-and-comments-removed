@@ -6755,11 +6755,13 @@ nsLayoutUtils
 :
 SFE_PREFER_NO_PREMULTIPLY_ALPHA
 ;
+RefPtr
+<
 gfx
 :
 :
 DrawTarget
-*
+>
 idealDrawTarget
 =
 nullptr
