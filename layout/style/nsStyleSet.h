@@ -782,6 +782,14 @@ Shutdown
 )
 ;
 void
+AddStyleContextRoot
+(
+nsStyleContext
+*
+aStyleContext
+)
+;
+void
 NotifyStyleContextDestroyed
 (
 nsStyleContext
