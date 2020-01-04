@@ -3119,9 +3119,8 @@ Wait
 tab
 event
 :
-"
-+
 load
+"
 )
 ;
 let
