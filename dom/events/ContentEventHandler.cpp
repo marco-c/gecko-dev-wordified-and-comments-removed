@@ -7509,6 +7509,17 @@ if
 (
 !
 endOffset
+&
+&
+aRange
+-
+>
+GetStartParent
+(
+)
+!
+=
+endNode
 )
 {
 nextNodeOfRangeEnd
