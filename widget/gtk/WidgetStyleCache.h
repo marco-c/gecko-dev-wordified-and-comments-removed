@@ -55,6 +55,10 @@ GtkTextDirection
 aDirection
 =
 GTK_TEXT_DIR_LTR
+GtkStateFlags
+aStateFlags
+=
+GTK_STATE_FLAG_NORMAL
 StyleFlags
 aFlags
 =
