@@ -223,6 +223,17 @@ uint8_t
 prevMemoryBase
 )
 ;
+friend
+class
+Table
+;
+WasmInstanceObject
+*
+objectUnbarriered
+(
+)
+const
+;
 public
 :
 Instance
