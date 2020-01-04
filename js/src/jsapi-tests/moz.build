@@ -514,6 +514,11 @@ testThreadingMutex
 cpp
 '
 '
+testThreadingThread
+.
+cpp
+'
+'
 testToIntWidth
 .
 cpp
