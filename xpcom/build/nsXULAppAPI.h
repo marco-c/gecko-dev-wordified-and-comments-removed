@@ -417,7 +417,6 @@ GeckoProcessType_Plugin
 GeckoProcessType_Content
 GeckoProcessType_IPDLUnitTest
 GeckoProcessType_GMPlugin
-GeckoProcessType_GPU
 GeckoProcessType_End
 GeckoProcessType_Invalid
 =
@@ -448,9 +447,6 @@ ipdlunittest
 "
 "
 geckomediaplugin
-"
-"
-gpu
 "
 }
 ;

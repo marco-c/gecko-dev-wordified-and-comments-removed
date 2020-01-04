@@ -5123,11 +5123,6 @@ true
 break
 ;
 case
-GeckoProcessType_GPU
-:
-break
-;
-case
 GeckoProcessType_Default
 :
 default

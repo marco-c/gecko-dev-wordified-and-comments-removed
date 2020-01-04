@@ -26,7 +26,7 @@ namespace
 mozilla
 {
 namespace
-ipc
+plugins
 {
 template
 <
