@@ -719,13 +719,6 @@ finishFuncDefs
 (
 )
 ;
-bool
-setStartFunction
-(
-uint32_t
-funcIndex
-)
-;
 MOZ_MUST_USE
 bool
 addDataSegment

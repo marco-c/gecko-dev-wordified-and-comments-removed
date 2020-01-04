@@ -102,17 +102,6 @@ export
 static
 const
 char
-StartSectionId
-[
-]
-=
-"
-start
-"
-;
-static
-const
-char
 CodeSectionId
 [
 ]
