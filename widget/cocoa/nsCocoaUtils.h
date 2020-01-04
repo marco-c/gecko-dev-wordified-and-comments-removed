@@ -783,6 +783,15 @@ aOutDeltaY
 )
 ;
 static
+BOOL
+EventHasPhaseInformation
+(
+NSEvent
+*
+aEvent
+)
+;
+static
 void
 HideOSChromeOnScreen
 (
