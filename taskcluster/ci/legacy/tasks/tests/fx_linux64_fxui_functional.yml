@@ -114,10 +114,6 @@ test_packages_location
 }
 "
 }
--
--
--
-e10s
 env
 :
 MOZHARNESS_SCRIPT
@@ -170,7 +166,6 @@ ui
 -
 tests
 functional
-e10s
 '
 description
 :
@@ -180,7 +175,6 @@ ui
 -
 tests
 functional
-e10s
 run
 extra
 :
@@ -191,9 +185,6 @@ name
 firefox
 -
 ui
-flavor
-:
-functional
 treeherder
 :
 groupName
@@ -209,13 +200,8 @@ groupSymbol
 tc
 -
 Fxfn
--
-e10s
 symbol
 :
 en
 -
 US
-tier
-:
-2
