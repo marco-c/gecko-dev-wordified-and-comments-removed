@@ -3534,11 +3534,6 @@ Type
 AppendBuffer
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
-(
-mSourceBufferAttributes
-)
-;
 mCurrentTask
 -
 >
