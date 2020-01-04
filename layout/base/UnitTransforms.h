@@ -37,7 +37,7 @@ RenderTargetIsParentLayerForRoot
 ParentLayerToLayerForRootComposition
 MovingDownToChildren
 TransformNotAvailable
-LayoutDeviceToScreenForUntransformedEvent
+LayoutDeviceIsScreenForUntransformedEvent
 LayoutDeviceIsScreenForTabDims
 }
 ;

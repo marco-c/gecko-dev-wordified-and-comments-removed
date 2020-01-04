@@ -378,7 +378,7 @@ mPanStartPoint
 PixelCastJustification
 :
 :
-LayoutDeviceToScreenForUntransformedEvent
+LayoutDeviceIsScreenForUntransformedEvent
 )
 )
 )

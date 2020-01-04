@@ -100,6 +100,12 @@ TimeDuration
 aDelay
 )
 ;
+static
+bool
+IsControllerThread
+(
+)
+;
 }
 ;
 class
