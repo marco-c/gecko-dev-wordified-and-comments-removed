@@ -257,6 +257,9 @@ generateQI
 [
 Ci
 .
+nsIPresentationSessionTransportBuilder
+Ci
+.
 nsIPresentationDataChannelSessionTransportBuilder
 Ci
 .
