@@ -204,12 +204,12 @@ mShutdown
 true
 ;
 }
-nsPIDOMWindowInner
+nsISupports
 *
 FileSystemBase
 :
 :
-GetWindow
+GetParentObject
 (
 )
 const

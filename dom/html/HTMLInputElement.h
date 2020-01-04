@@ -2986,7 +2986,7 @@ nsPresContext
 aPresContext
 )
 ;
-nsresult
+void
 UpdateFileList
 (
 )
