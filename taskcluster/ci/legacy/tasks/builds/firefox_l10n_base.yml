@@ -94,6 +94,8 @@ project
 }
 }
 -
+l10n
+-
 {
 {
 build_name
