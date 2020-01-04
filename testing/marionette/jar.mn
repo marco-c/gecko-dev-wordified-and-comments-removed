@@ -237,6 +237,16 @@ proxy
 .
 js
 )
+content
+/
+capture
+.
+js
+(
+capture
+.
+js
+)
 #
 ifdef
 ENABLE_TESTS
