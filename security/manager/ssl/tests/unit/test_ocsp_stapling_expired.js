@@ -69,6 +69,7 @@ OCSP
 request
 "
 +
+(
 aExpectedRequestCount
 =
 =
@@ -80,6 +81,7 @@ aExpectedRequestCount
 "
 s
 "
+)
 )
 ;
 }
@@ -131,7 +133,9 @@ args
 good
 "
 "
-localhostAndExampleCom
+default
+-
+ee
 "
 "
 unused
@@ -142,7 +146,9 @@ unused
 expiredresponse
 "
 "
-localhostAndExampleCom
+default
+-
+ee
 "
 "
 unused
@@ -153,7 +159,9 @@ unused
 oldvalidperiod
 "
 "
-localhostAndExampleCom
+default
+-
+ee
 "
 "
 unused
@@ -164,7 +172,9 @@ unused
 revoked
 "
 "
-localhostAndExampleCom
+default
+-
+ee
 "
 "
 unused
@@ -175,7 +185,9 @@ unused
 unknown
 "
 "
-localhostAndExampleCom
+default
+-
+ee
 "
 "
 unused
@@ -242,7 +254,7 @@ willNotRetry
 var
 willRetry
 =
-4
+8
 ;
 function
 run_test
