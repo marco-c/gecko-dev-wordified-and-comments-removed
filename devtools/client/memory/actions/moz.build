@@ -64,6 +64,11 @@ MPL
 DevToolsModules
 (
 '
+allocations
+.
+js
+'
+'
 breakdown
 .
 js
