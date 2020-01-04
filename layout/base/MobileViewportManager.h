@@ -84,6 +84,11 @@ RequestReflow
 (
 )
 ;
+void
+ResolutionUpdated
+(
+)
+;
 private
 :
 ~
@@ -96,6 +101,11 @@ RefreshViewportSize
 (
 bool
 aForceAdjustResolution
+)
+;
+void
+RefreshSPCSPS
+(
 )
 ;
 mozilla
