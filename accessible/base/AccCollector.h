@@ -52,15 +52,6 @@ AccCollector
 ;
 protected
 :
-virtual
-void
-AppendObject
-(
-Accessible
-*
-aAccessible
-)
-;
 filters
 :
 :
@@ -181,7 +172,6 @@ GetEmbeddedObject
 )
 {
 }
-virtual
 void
 AppendObject
 (
@@ -189,7 +179,6 @@ Accessible
 *
 aAccessible
 )
-override
 ;
 friend
 class
