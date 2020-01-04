@@ -158,6 +158,13 @@ this
 props
 .
 dispatch
+object
+:
+this
+.
+props
+.
+object
 }
 )
 DomTree

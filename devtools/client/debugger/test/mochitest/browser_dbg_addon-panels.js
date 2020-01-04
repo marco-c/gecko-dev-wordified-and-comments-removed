@@ -146,6 +146,9 @@ jsdebugger
 "
 scratchpad
 "
+"
+dom
+"
 ]
 ;
 is
