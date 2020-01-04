@@ -4039,7 +4039,7 @@ aBuilder
 )
 ;
 nsRect
-GetClippedBoundsUpTo
+GetScrollClippedBoundsUpTo
 (
 nsDisplayListBuilder
 *
@@ -5709,7 +5709,7 @@ aBuilder
 const
 ;
 nsRect
-GetClippedBoundsUpTo
+GetScrollClippedBoundsUpTo
 (
 nsDisplayListBuilder
 *
@@ -9527,7 +9527,7 @@ mBounds
 =
 mList
 .
-GetClippedBoundsUpTo
+GetScrollClippedBoundsUpTo
 (
 aBuilder
 mScrollClip

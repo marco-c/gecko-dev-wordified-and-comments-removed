@@ -23442,7 +23442,7 @@ bounds
 aChildren
 -
 >
-GetClippedBoundsUpTo
+GetScrollClippedBoundsUpTo
 (
 aBuilder
 containerScrollClip

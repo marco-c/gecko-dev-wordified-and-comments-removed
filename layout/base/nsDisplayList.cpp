@@ -7605,7 +7605,7 @@ nsRect
 nsDisplayList
 :
 :
-GetClippedBoundsUpTo
+GetScrollClippedBoundsUpTo
 (
 nsDisplayListBuilder
 *
@@ -7653,7 +7653,7 @@ bounds
 i
 -
 >
-GetClippedBoundsUpTo
+GetScrollClippedBoundsUpTo
 (
 aBuilder
 aIncludeScrollClipsUpTo
@@ -11958,7 +11958,7 @@ nsRect
 nsDisplayItem
 :
 :
-GetClippedBoundsUpTo
+GetScrollClippedBoundsUpTo
 (
 nsDisplayListBuilder
 *
