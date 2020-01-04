@@ -2645,17 +2645,6 @@ interactive
 False
 )
         
-push_epoch
-=
-int
-(
-time
-.
-time
-(
-)
-)
-        
 vcs_info
 =
 query_vcs_info
@@ -2683,12 +2672,6 @@ set
 if
 vcs_info
 :
-            
-push_epoch
-=
-vcs_info
-.
-pushdate
             
 logger
 .
@@ -2819,7 +2802,12 @@ time
 .
 gmtime
 (
-push_epoch
+params
+[
+'
+pushdate
+'
+]
 )
 )
         
@@ -2983,7 +2971,12 @@ pushdate
 rank
 '
 :
-push_epoch
+params
+[
+'
+pushdate
+'
+]
             
 '
 owner
