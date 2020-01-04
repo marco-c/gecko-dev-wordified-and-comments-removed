@@ -2130,7 +2130,7 @@ i1
 InstImm
 *
 )
-inst0
+i0
 -
 >
 next
@@ -2145,7 +2145,7 @@ i2
 InstReg
 *
 )
-inst1
+i1
 -
 >
 next
@@ -2160,7 +2160,7 @@ i3
 InstImm
 *
 )
-inst2
+i2
 -
 >
 next
@@ -2175,7 +2175,7 @@ i5
 InstImm
 *
 )
-inst3
+i3
 -
 >
 next
@@ -2461,7 +2461,7 @@ i1
 InstImm
 *
 )
-inst0
+i0
 -
 >
 next
@@ -2476,7 +2476,7 @@ i2
 InstReg
 *
 )
-inst1
+i1
 -
 >
 next
@@ -2491,7 +2491,7 @@ i3
 InstImm
 *
 )
-inst2
+i2
 -
 >
 next
@@ -2506,7 +2506,7 @@ i5
 InstImm
 *
 )
-inst3
+i3
 -
 >
 next
