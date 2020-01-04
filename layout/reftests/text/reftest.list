@@ -3584,7 +3584,9 @@ fails
 -
 if
 (
-cocoaWidget
+OSX
+<
+1008
 )
 =
 =
@@ -3608,9 +3610,6 @@ spacing
 ref
 .
 html
-#
-bug
-739117
 #
 harfbuzz
 fallback
