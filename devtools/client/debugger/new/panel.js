@@ -66,7 +66,7 @@ else
 {
 targetPromise
 =
-promise
+Promise
 .
 resolve
 (
