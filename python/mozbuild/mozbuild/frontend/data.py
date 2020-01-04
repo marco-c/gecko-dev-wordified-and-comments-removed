@@ -2468,7 +2468,7 @@ is_sdk
 =
 is_sdk
 class
-RustRlibLibrary
+RustCrate
 (
 Library
 )
