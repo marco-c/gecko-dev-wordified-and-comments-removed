@@ -14,13 +14,11 @@ while
 (
 0
 )
-{
 function
 Uint8ClampedArray
 (
 )
 {
-}
 }
 }
 }

@@ -63,7 +63,7 @@ static_assert
 JSErr_Limit
 =
 =
-424
+421
 "
 GREETINGS
 POTENTIAL

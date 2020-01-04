@@ -5,11 +5,9 @@ x
 in
 x
 )
-{
 function
 x
 (
 )
 {
-}
 }

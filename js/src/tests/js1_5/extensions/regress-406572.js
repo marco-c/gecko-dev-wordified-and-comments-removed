@@ -97,6 +97,11 @@ readonly
 "
 )
 ;
+actual
+=
+"
+"
+;
 if
 (
 1
@@ -113,6 +118,14 @@ return
 actual
 =
 "
+FAIL
+:
+this
+line
+should
+never
+be
+reached
 "
 ;
 window

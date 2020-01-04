@@ -774,11 +774,6 @@ BindNameCache
 \
 _
 (
-CallBindVar
-)
-\
-_
-(
 GuardShape
 )
 \

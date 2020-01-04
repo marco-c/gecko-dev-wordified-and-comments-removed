@@ -43,6 +43,17 @@ printStatus
 summary
 )
 ;
+if
+(
+typeof
+uneval
+!
+=
+'
+undefined
+'
+)
+{
 function
 a
 (
@@ -140,3 +151,4 @@ actual
 summary
 )
 ;
+}

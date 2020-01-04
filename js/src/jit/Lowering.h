@@ -1626,14 +1626,6 @@ ins
 )
 ;
 void
-visitCallBindVar
-(
-MCallBindVar
-*
-ins
-)
-;
-void
 visitGuardObjectIdentity
 (
 MGuardObjectIdentity
