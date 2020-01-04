@@ -9095,7 +9095,13 @@ thebesContext
 >
 SetColor
 (
+Color
+:
+:
+FromABGR
+(
 fgColor
+)
 )
 ;
 thebesContext

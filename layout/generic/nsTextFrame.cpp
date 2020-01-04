@@ -27870,7 +27870,10 @@ aCtx
 >
 SetColor
 (
-gfxRGBA
+Color
+:
+:
+FromABGR
 (
 shadowColor
 )
@@ -31344,7 +31347,10 @@ aCtx
 >
 SetColor
 (
-gfxRGBA
+Color
+:
+:
+FromABGR
 (
 aTextColor
 )

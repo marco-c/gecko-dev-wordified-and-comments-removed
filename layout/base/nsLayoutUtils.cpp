@@ -27702,7 +27702,10 @@ aDestCtx
 >
 SetColor
 (
-gfxRGBA
+Color
+:
+:
+FromABGR
 (
 shadowColor
 )

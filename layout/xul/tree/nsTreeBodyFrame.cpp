@@ -17108,6 +17108,11 @@ ctx
 >
 SetColor
 (
+Color
+:
+:
+FromABGR
+(
 textContext
 -
 >
@@ -17117,6 +17122,7 @@ StyleColor
 -
 >
 mColor
+)
 )
 ;
 nsLayoutUtils

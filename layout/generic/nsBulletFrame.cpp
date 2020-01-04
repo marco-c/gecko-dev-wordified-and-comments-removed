@@ -2133,6 +2133,11 @@ ThebesContext
 >
 SetColor
 (
+Color
+:
+:
+FromABGR
+(
 nsLayoutUtils
 :
 :
@@ -2140,6 +2145,7 @@ GetColor
 (
 this
 eCSSProperty_color
+)
 )
 )
 ;
