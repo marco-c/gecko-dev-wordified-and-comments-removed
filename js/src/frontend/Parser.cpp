@@ -957,7 +957,7 @@ kind
 Definition
 :
 :
-CONST
+CONSTANT
 )
 prevDef
 =
@@ -1036,7 +1036,7 @@ kind
 Definition
 :
 :
-CONST
+CONSTANT
 )
 ?
 pn
@@ -1215,7 +1215,7 @@ kind
 Definition
 :
 :
-CONST
+CONSTANT
 !
 lexdeps
 -
@@ -1251,7 +1251,7 @@ kind
 Definition
 :
 :
-CONST
+CONSTANT
 )
 pn
 -
@@ -1565,7 +1565,7 @@ case
 Definition
 :
 :
-CONST
+CONSTANT
 :
 dn
 -
@@ -2191,7 +2191,7 @@ atom
 Definition
 :
 :
-CONST
+CONSTANT
 )
 ;
 decls_
@@ -2316,7 +2316,7 @@ case
 Definition
 :
 :
-CONST
+CONSTANT
 :
 kind
 =
@@ -5554,7 +5554,7 @@ kind
 Definition
 :
 :
-CONST
+CONSTANT
 )
 ;
 if
@@ -10051,7 +10051,7 @@ kind
 Definition
 :
 :
-CONST
+CONSTANT
 |
 |
 dn
@@ -11114,7 +11114,7 @@ dn
 Definition
 :
 :
-CONST
+CONSTANT
 |
 |
 dn
@@ -15771,7 +15771,7 @@ bindingKind
 Definition
 :
 :
-CONST
+CONSTANT
 ;
 else
 bindingKind
@@ -17175,7 +17175,7 @@ dn_kind
 Definition
 :
 :
-CONST
+CONSTANT
 |
 |
 (

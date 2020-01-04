@@ -2649,7 +2649,10 @@ js_import_str
 ;
 MOZ_ASSERT
 (
+size_t
+(
 kind
+)
 <
 ArrayLength
 (

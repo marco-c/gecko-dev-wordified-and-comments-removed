@@ -6620,7 +6620,7 @@ case
 Definition
 :
 :
-CONST
+CONSTANT
 :
 return
 dn
@@ -8131,7 +8131,7 @@ case
 Definition
 :
 :
-CONST
+CONSTANT
 :
 case
 Definition
