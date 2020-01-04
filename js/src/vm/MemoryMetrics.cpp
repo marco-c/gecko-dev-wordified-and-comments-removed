@@ -4078,7 +4078,7 @@ size_t
 (
 JS_GetGCParameter
 (
-rt
+cx
 JSGC_TOTAL_CHUNKS
 )
 )
@@ -4097,7 +4097,7 @@ size_t
 (
 JS_GetGCParameter
 (
-rt
+cx
 JSGC_UNUSED_CHUNKS
 )
 )

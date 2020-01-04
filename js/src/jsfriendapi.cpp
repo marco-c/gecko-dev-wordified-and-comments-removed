@@ -3154,13 +3154,13 @@ js
 :
 AreGCGrayBitsValid
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 {
 return
-rt
+cx
 -
 >
 gc
