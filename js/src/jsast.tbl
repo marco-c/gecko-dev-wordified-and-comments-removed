@@ -401,16 +401,6 @@ metaProperty
 )
 ASTDEF
 (
-AST_SUPER
-"
-Super
-"
-"
-super
-"
-)
-ASTDEF
-(
 AST_EMPTY_STMT
 "
 EmptyStatement
