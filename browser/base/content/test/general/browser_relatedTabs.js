@@ -1,7 +1,5 @@
-add_task
-(
 function
-*
+test
 (
 )
 {
@@ -28,12 +26,6 @@ tabs
 [
 ]
 ;
-let
-promises
-=
-[
-]
-;
 function
 addTab
 (
@@ -41,9 +33,10 @@ aURL
 aReferrer
 )
 {
-let
-tab
-=
+tabs
+.
+push
+(
 gBrowser
 .
 addTab
@@ -55,26 +48,9 @@ referrerURI
 aReferrer
 }
 )
-;
-tabs
-.
-push
-(
-tab
-)
-;
-return
-BrowserTestUtils
-.
-browserLoaded
-(
-tab
-.
-linkedBrowser
 )
 ;
 }
-yield
 addTab
 (
 "
@@ -102,7 +78,6 @@ tabs
 0
 ]
 ;
-yield
 addTab
 (
 "
@@ -121,7 +96,6 @@ test
 "
 )
 ;
-yield
 addTab
 (
 "
@@ -143,7 +117,6 @@ gBrowser
 currentURI
 )
 ;
-yield
 addTab
 (
 "
@@ -187,7 +160,6 @@ tabs
 0
 ]
 ;
-yield
 addTab
 (
 "
@@ -218,7 +190,6 @@ tabs
 3
 ]
 ;
-yield
 addTab
 (
 "
@@ -251,7 +222,6 @@ pop
 )
 )
 ;
-yield
 addTab
 (
 "
@@ -274,7 +244,6 @@ selectedTab
 1
 )
 ;
-yield
 addTab
 (
 "
@@ -296,12 +265,10 @@ gBrowser
 currentURI
 )
 ;
-yield
 addTab
 (
 )
 ;
-yield
 addTab
 (
 "
@@ -515,5 +482,3 @@ gBrowser
 )
 ;
 }
-)
-;
