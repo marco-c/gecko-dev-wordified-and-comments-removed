@@ -124,6 +124,14 @@ getPreferedLocales
 true
 )
 ;
+Services
+.
+strings
+.
+flushBundles
+(
+)
+;
 function
 getLocaleURL
 (
