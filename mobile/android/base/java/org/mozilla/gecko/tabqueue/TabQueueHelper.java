@@ -206,11 +206,6 @@ AppConstants
 Versions
 .
 feature11Plus
-&
-&
-AppConstants
-.
-MOZ_ANDROID_TAB_QUEUE
 ;
 public
 static
