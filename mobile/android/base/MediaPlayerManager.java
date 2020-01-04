@@ -114,6 +114,17 @@ mozilla
 .
 gecko
 .
+annotation
+.
+ReflectionTarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 AppConstants
 .
 Versions
@@ -173,7 +184,7 @@ Fragment
 implements
 NativeEventListener
 {
-JNITarget
+ReflectionTarget
 public
 static
 MediaPlayerManager
@@ -215,7 +226,7 @@ LOGTAG
 GeckoMediaPlayerManager
 "
 ;
-JNITarget
+ReflectionTarget
 public
 static
 final
