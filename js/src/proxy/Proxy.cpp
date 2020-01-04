@@ -4622,14 +4622,10 @@ class_
 MOZ_ASSERT
 (
 !
-getClass
+IsWindowProxy
 (
+this
 )
--
->
-ext
-.
-innerObject
 )
 ;
 MOZ_ASSERT
