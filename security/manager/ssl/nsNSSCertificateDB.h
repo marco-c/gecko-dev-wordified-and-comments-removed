@@ -7,6 +7,13 @@ nsNSSCertificateDB_h
 #
 include
 "
+ScopedNSSTypes
+.
+h
+"
+#
+include
+"
 certt
 .
 h
@@ -55,7 +62,7 @@ h
 #
 include
 "
-ScopedNSSTypes
+nsString
 .
 h
 "
