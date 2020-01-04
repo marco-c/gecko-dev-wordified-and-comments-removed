@@ -484,7 +484,8 @@ err
 message
 |
 |
-null
+"
+"
 stacktrace
 :
 err
@@ -492,7 +493,8 @@ err
 stack
 |
 |
-null
+"
+"
 }
 ;
 return
