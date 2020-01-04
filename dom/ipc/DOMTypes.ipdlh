@@ -309,6 +309,9 @@ length
 int64_t
 modDate
 ;
+bool
+isDirectory
+;
 /
 /
 This

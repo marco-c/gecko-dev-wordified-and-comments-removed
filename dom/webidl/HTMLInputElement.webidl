@@ -1262,8 +1262,9 @@ filesystem
 .
 enabled
 "
+Frozen
 Cached
-Constant
+Pure
 ]
 readonly
 attribute
