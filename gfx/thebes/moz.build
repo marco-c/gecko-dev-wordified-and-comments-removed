@@ -314,7 +314,7 @@ gfx
 =
 [
 '
-DeviceManagerD3D11
+DeviceManagerDx
 .
 h
 '
@@ -1252,7 +1252,7 @@ D3D11Checks
 cpp
 '
 '
-DeviceManagerD3D11
+DeviceManagerDx
 .
 cpp
 '

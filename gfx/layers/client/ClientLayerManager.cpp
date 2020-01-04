@@ -280,7 +280,7 @@ mozilla
 /
 gfx
 /
-DeviceManagerD3D11
+DeviceManagerDx
 .
 h
 "
@@ -3462,7 +3462,7 @@ ifdef
 XP_WIN
 if
 (
-DeviceManagerD3D11
+DeviceManagerDx
 :
 :
 Get

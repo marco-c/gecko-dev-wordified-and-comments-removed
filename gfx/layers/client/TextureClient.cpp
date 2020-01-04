@@ -271,7 +271,7 @@ mozilla
 /
 gfx
 /
-DeviceManagerD3D11
+DeviceManagerDx
 .
 h
 "
@@ -4188,7 +4188,7 @@ ALLOC_FOR_OUT_OF_BAND_CONTENT
 )
 &
 &
-DeviceManagerD3D11
+DeviceManagerDx
 :
 :
 Get
@@ -4764,7 +4764,7 @@ ALLOC_FOR_OUT_OF_BAND_CONTENT
 )
 &
 &
-DeviceManagerD3D11
+DeviceManagerDx
 :
 :
 Get

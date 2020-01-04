@@ -187,7 +187,7 @@ class
 FeatureState
 ;
 class
-DeviceManagerD3D11
+DeviceManagerDx
 ;
 }
 namespace
@@ -337,7 +337,7 @@ mozilla
 gfx
 :
 :
-DeviceManagerD3D11
+DeviceManagerDx
 ;
 public
 :
@@ -948,6 +948,11 @@ InitDWriteSupport
 )
 ;
 void
+InitializeDirectDraw
+(
+)
+;
+void
 DisableD2D
 (
 mozilla
@@ -985,6 +990,11 @@ InitializeD3D11Config
 ;
 void
 InitializeD2DConfig
+(
+)
+;
+void
+InitializeDirectDrawConfig
 (
 )
 ;

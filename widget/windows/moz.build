@@ -352,11 +352,6 @@ WidgetTraceEvent
 cpp
 '
 '
-WinCompositorWidget
-.
-cpp
-'
-'
 WindowHook
 .
 cpp
@@ -418,6 +413,11 @@ cpp
 '
 '
 nsWidgetFactory
+.
+cpp
+'
+'
+WinCompositorWidget
 .
 cpp
 '

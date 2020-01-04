@@ -30,7 +30,7 @@ mozilla
 /
 gfx
 /
-DeviceManagerD3D11
+DeviceManagerDx
 .
 h
 "
@@ -90,7 +90,7 @@ size
 :
 mDevice11
 (
-DeviceManagerD3D11
+DeviceManagerDx
 :
 :
 Get
@@ -135,7 +135,7 @@ IsValid
 {
 if
 (
-DeviceManagerD3D11
+DeviceManagerDx
 :
 :
 Get
