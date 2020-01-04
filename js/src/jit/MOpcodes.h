@@ -1274,11 +1274,6 @@ InterruptCheck
 \
 _
 (
-AsmJSInterruptCheck
-)
-\
-_
-(
 GetDOMProperty
 )
 \

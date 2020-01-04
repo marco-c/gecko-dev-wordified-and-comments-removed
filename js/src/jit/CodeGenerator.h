@@ -3131,14 +3131,6 @@ ins
 )
 ;
 void
-visitAsmJSInterruptCheck
-(
-LAsmJSInterruptCheck
-*
-lir
-)
-;
-void
 visitWasmTrap
 (
 LWasmTrap
