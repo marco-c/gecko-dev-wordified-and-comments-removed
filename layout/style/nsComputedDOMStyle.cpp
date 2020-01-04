@@ -30461,6 +30461,13 @@ mPosition
 .
 IsInitialValue
 (
+nsStyleImageLayers
+:
+:
+LayerType
+:
+:
+Mask
 )
 |
 |
