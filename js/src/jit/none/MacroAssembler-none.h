@@ -715,7 +715,7 @@ Register
 WasmTableCallIndexReg
 =
 {
-Register
+Registers
 :
 :
 invalid_reg
