@@ -141,7 +141,7 @@ instances
 every
 time
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -159,7 +159,7 @@ options
 )
 ;
 [
-Throws
+NewObject
 Func
 =
 "
@@ -189,7 +189,7 @@ url
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
