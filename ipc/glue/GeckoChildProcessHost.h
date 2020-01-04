@@ -706,6 +706,9 @@ const
 char
 *
 origLogName
+nsACString
+&
+buffer
 )
 ;
 std
