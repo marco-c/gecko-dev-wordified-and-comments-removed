@@ -229,8 +229,10 @@ JS
 :
 Handle
 <
-JSObject
-*
+JS
+:
+:
+Value
 >
 receiver
 JS

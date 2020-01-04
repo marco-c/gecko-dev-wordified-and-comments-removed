@@ -378,7 +378,7 @@ uint64_t
 &
 objId
 const
-ObjectVariant
+JSVariant
 &
 receiverVar
 const
@@ -1135,7 +1135,7 @@ ObjectId
 &
 objId
 const
-ObjectVariant
+JSVariant
 &
 receiverVar
 const

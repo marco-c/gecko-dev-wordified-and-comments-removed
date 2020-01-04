@@ -77075,8 +77075,10 @@ JS
 :
 Handle
 <
-JSObject
-*
+JS
+:
+:
+Value
 >
 '
 '
@@ -77495,6 +77497,7 @@ GetPropertyOnPrototype
 (
 cx
 proxy
+receiver
 id
 &
 foundOnPrototype

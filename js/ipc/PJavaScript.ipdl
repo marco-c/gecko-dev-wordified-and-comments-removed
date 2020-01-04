@@ -338,7 +338,7 @@ Get
 (
 uint64_t
 objId
-ObjectVariant
+JSVariant
 receiver
 JSIDVariant
 id

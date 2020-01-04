@@ -272,7 +272,7 @@ proxy
 JS
 :
 :
-HandleObject
+HandleValue
 receiver
 JS
 :
@@ -907,7 +907,7 @@ ObjectId
 &
 objId
 const
-ObjectVariant
+JSVariant
 &
 receiverVar
 const
