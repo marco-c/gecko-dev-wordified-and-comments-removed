@@ -2219,10 +2219,6 @@ can_test_also_wasm_baseline
 True
     
 if
-options
-.
-debugger
-or
 all
 (
 [
@@ -2968,6 +2964,11 @@ display_job
 job
 )
 :
+                
+flags
+=
+"
+"
                 
 if
 len
