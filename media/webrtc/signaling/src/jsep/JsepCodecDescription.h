@@ -141,6 +141,10 @@ mStronglyPreferred
 (
 false
 )
+mNegotiated
+(
+false
+)
 {
 }
 virtual
@@ -347,6 +351,10 @@ SdpMediaSection
 remoteMsection
 )
 {
+mNegotiated
+=
+true
+;
 return
 true
 ;
@@ -684,6 +692,9 @@ mEnabled
 ;
 bool
 mStronglyPreferred
+;
+bool
+mNegotiated
 ;
 }
 ;
