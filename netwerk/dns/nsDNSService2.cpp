@@ -2409,7 +2409,6 @@ kPrefDnsNotifyResolution
 notifyResolution
 )
 ;
-}
 if
 (
 mFirstTime
@@ -2419,11 +2418,6 @@ mFirstTime
 =
 false
 ;
-if
-(
-prefs
-)
-{
 prefs
 -
 >
@@ -2541,6 +2535,7 @@ false
 )
 ;
 }
+}
 nsCOMPtr
 <
 nsIObserverService
@@ -2590,7 +2585,6 @@ NS_NETWORK_LINK_TOPIC
 false
 )
 ;
-}
 }
 nsDNSPrefetch
 :
