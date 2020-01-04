@@ -94,6 +94,15 @@ Object
 ;
 do_check_eq
 (
+sb
+.
+Object
+.
+prototype
+.
+toString
+.
+call
 (
 new
 sb
@@ -101,10 +110,6 @@ sb
 Uint16Array
 (
 )
-)
-.
-toString
-(
 )
 '
 [

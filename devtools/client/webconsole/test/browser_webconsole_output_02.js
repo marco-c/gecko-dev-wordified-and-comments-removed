@@ -530,10 +530,11 @@ Int32Array
 printOutput
 :
 "
-[
-object
-Int32Array
-]
+1
+287
+8651
+40983
+8754
 "
 inspectable
 :
