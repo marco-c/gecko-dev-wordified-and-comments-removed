@@ -773,6 +773,17 @@ external
 endif
 [
 Throws
+Pref
+=
+"
+browser
+.
+cache
+.
+offline
+.
+enable
+"
 ]
 readonly
 attribute
