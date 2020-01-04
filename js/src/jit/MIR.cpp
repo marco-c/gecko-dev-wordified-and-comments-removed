@@ -30853,6 +30853,8 @@ MIRType
 resultType
 size_t
 spIncrement
+bool
+preservesTlsReg
 )
 {
 MAsmJSCall
@@ -30868,6 +30870,7 @@ MAsmJSCall
 desc
 callee
 spIncrement
+preservesTlsReg
 )
 ;
 call

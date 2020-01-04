@@ -55736,6 +55736,9 @@ argRegs_
 size_t
 spIncrement_
 ;
+bool
+preservesTlsReg_
+;
 MAsmJSCall
 (
 const
@@ -55749,6 +55752,8 @@ Callee
 callee
 size_t
 spIncrement
+bool
+preservesTlsReg
 )
 :
 desc_
@@ -55762,6 +55767,10 @@ callee
 spIncrement_
 (
 spIncrement
+)
+preservesTlsReg_
+(
+preservesTlsReg
 )
 {
 }
@@ -55836,6 +55845,8 @@ MIRType
 resultType
 size_t
 spIncrement
+bool
+preservesTlsReg
 )
 ;
 size_t
@@ -55950,6 +55961,16 @@ const
 {
 return
 spIncrement_
+;
+}
+bool
+preservesTlsReg
+(
+)
+const
+{
+return
+preservesTlsReg_
 ;
 }
 bool

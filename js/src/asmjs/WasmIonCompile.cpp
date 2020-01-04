@@ -4304,6 +4304,9 @@ stackArgs_
 bool
 childClobbers_
 ;
+bool
+preservesTlsReg_
+;
 friend
 class
 FunctionCompiler
@@ -4332,6 +4335,10 @@ spIncrement_
 0
 )
 childClobbers_
+(
+false
+)
+preservesTlsReg_
 (
 false
 )
@@ -4485,6 +4492,13 @@ inDeadCode
 )
 )
 return
+true
+;
+args
+-
+>
+preservesTlsReg_
+=
 true
 ;
 return
@@ -4860,6 +4874,9 @@ ret
 args
 .
 spIncrement_
+args
+.
+preservesTlsReg_
 )
 ;
 if
