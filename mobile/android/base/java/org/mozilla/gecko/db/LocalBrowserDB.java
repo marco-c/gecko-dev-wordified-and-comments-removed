@@ -554,7 +554,7 @@ ConsumedInputStream
 public
 class
 LocalBrowserDB
-implements
+extends
 BrowserDB
 {
 public

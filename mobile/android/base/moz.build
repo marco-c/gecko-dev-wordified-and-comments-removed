@@ -2543,13 +2543,6 @@ java
 '
 db
 /
-StubBrowserDB
-.
-java
-'
-'
-db
-/
 SuggestedSites
 .
 java
