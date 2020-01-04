@@ -16435,7 +16435,7 @@ if
 !
 e
 .
-writeU32
+writeVarU32
 (
 c
 .
@@ -16500,7 +16500,7 @@ if
 !
 e
 .
-writeU32
+writeVarU32
 (
 c
 .
@@ -16660,7 +16660,7 @@ F32Const
 &
 e
 .
-writeF32
+writeFixedF32
 (
 c
 .
@@ -16693,7 +16693,7 @@ F64Const
 &
 e
 .
-writeF64
+writeFixedF64
 (
 c
 .
@@ -18929,7 +18929,7 @@ if
 !
 e
 .
-writeData
+writeRawData
 (
 bytes
 .
@@ -19126,7 +19126,7 @@ if
 !
 e
 .
-writeU32
+writeFixedU32
 (
 MagicNumber
 )
@@ -19139,7 +19139,7 @@ if
 !
 e
 .
-writeU32
+writeFixedU32
 (
 EncodingVersion
 )
