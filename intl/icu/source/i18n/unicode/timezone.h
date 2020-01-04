@@ -201,6 +201,9 @@ createDefault
 void
 )
 ;
+#
+define
+ICU_TZ_HAS_RECREATE_DEFAULT
 static
 void
 U_EXPORT2
