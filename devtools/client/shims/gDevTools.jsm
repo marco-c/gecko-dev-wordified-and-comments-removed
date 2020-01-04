@@ -158,9 +158,6 @@ EXPORTED_SYMBOLS
 gDevTools
 "
 "
-DevTools
-"
-"
 gDevToolsBrowser
 "
 ]
