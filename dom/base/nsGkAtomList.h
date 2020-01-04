@@ -279,6 +279,13 @@ activetitlebarcolor
 )
 GK_ATOM
 (
+activateontab
+"
+activateontab
+"
+)
+GK_ATOM
+(
 actuate
 "
 actuate

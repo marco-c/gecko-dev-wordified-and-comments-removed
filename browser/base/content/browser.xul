@@ -1930,6 +1930,11 @@ rolluponmousewheel
 "
 true
 "
+activateontab
+=
+"
+true
+"
 #
 ifdef
 XP_WIN
