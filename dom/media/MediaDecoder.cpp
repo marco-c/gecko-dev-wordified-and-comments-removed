@@ -2254,10 +2254,6 @@ ChangeState
 PLAY_STATE_SHUTDOWN
 )
 ;
-mOwner
-=
-nullptr
-;
 MediaShutdownManager
 :
 :

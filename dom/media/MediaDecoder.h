@@ -1741,6 +1741,7 @@ aMetadata
 ;
 MediaDecoderOwner
 *
+const
 mOwner
 ;
 FrameStatistics
