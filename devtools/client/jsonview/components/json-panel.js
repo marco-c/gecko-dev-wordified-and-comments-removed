@@ -568,11 +568,6 @@ onFilter
 this
 .
 onFilter
-.
-bind
-(
-this
-)
 columns
 :
 columns
