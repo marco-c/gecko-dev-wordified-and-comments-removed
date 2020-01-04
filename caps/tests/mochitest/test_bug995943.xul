@@ -365,7 +365,8 @@ SimpleTest
 .
 expectAssertions
 (
-5
+6
+9
 )
 ;
 /
