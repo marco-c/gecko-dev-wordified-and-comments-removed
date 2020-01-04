@@ -558,6 +558,16 @@ OPTGROUP
 '
 )
 {
+if
+(
+child
+.
+hidden
+)
+{
+continue
+;
+}
 let
 textContent
 =
