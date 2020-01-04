@@ -6852,6 +6852,17 @@ entry
 >
 mTimingFunction
 =
+segment
+.
+mToKey
+=
+=
+1
+.
+0f
+?
+nullptr
+:
 &
 segment
 .
