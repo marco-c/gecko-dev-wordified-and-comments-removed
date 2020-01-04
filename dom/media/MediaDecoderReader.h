@@ -190,15 +190,6 @@ MetadataHolder
 }
 }
 ;
-enum
-class
-ReadMetadataFailureReason
-:
-int8_t
-{
-METADATA_ERROR
-}
-;
 class
 MediaDecoderReader
 {
@@ -239,7 +230,7 @@ RefPtr
 <
 MetadataHolder
 >
-ReadMetadataFailureReason
+MediaResult
 IsExclusive
 >
 ;

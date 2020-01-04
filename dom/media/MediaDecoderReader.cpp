@@ -1723,10 +1723,6 @@ AsyncReadMetadata
 (
 )
 {
-typedef
-ReadMetadataFailureReason
-Reason
-;
 MOZ_ASSERT
 (
 OnTaskQueue
@@ -1833,10 +1829,7 @@ MetadataPromise
 :
 CreateAndReject
 (
-Reason
-:
-:
-METADATA_ERROR
+NS_ERROR_DOM_MEDIA_METADATA_ERR
 __func__
 )
 ;
