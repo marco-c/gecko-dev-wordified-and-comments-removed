@@ -7690,9 +7690,9 @@ MOZ_ASSERT
 aWheelEvent
 -
 >
-mFlags
-.
-mDefaultPrevented
+DefaultPrevented
+(
+)
 )
 ;
 if

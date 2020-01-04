@@ -5193,9 +5193,9 @@ NotifyIdleServiceOfUserActivity
 return
 aKeyEvent
 .
-mFlags
-.
-mDefaultPrevented
+DefaultPrevented
+(
+)
 ?
 nsEventStatus_eConsumeNoDefault
 :

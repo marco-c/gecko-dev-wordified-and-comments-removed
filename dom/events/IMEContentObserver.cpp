@@ -3128,9 +3128,9 @@ mIsTrusted
 aMouseEvent
 -
 >
-mFlags
-.
-mDefaultPrevented
+DefaultPrevented
+(
+)
 |
 |
 !

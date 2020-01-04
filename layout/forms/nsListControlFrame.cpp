@@ -8431,9 +8431,9 @@ if
 keyEvent
 -
 >
-mFlags
-.
-mDefaultPrevented
+DefaultPrevented
+(
+)
 )
 {
 return

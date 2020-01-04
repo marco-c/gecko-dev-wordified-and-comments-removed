@@ -621,9 +621,9 @@ return
 mEvent
 -
 >
-mFlags
-.
-mDefaultPrevented
+DefaultPrevented
+(
+)
 ;
 }
 bool
