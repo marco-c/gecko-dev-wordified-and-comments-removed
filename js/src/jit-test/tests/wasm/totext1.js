@@ -633,6 +633,9 @@ br_table
 3
 1
 (
+nop
+)
+(
 i32
 .
 const
