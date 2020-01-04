@@ -3887,6 +3887,11 @@ record
 =
 >
 {
+if
+(
+record
+)
+{
 gPushNotifier
 .
 notifySubscriptionModified
@@ -3899,6 +3904,7 @@ record
 principal
 )
 ;
+}
 return
 record
 ;

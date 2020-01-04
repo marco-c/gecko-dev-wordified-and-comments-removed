@@ -776,6 +776,16 @@ true
 "
 dom
 .
+push
+.
+maxRecentMessageIDsPerSubscription
+"
+0
+]
+[
+"
+dom
+.
 serviceWorkers
 .
 exemptFromPerDomainMax
