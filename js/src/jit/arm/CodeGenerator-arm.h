@@ -1124,6 +1124,15 @@ LAsmJSPassStackArgI64
 lir
 )
 ;
+virtual
+void
+visitAsmSelectI64
+(
+LAsmSelectI64
+*
+lir
+)
+;
 void
 visitOutOfLineBailout
 (
