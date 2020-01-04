@@ -4710,7 +4710,8 @@ nsDefaultURIFixup
 IsDomainWhitelisted
 (
 const
-nsAutoCString
+nsACString
+&
 aAsciiHost
 const
 uint32_t
@@ -4820,10 +4821,7 @@ aResult
 =
 IsDomainWhitelisted
 (
-nsAutoCString
-(
 aDomain
-)
 aDotLoc
 )
 ;
