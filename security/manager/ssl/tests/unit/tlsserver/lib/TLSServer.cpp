@@ -1033,7 +1033,7 @@ return
 rv
 ;
 }
-SECItem
+ScopedAutoSECItem
 certDER
 ;
 rv
@@ -1084,13 +1084,6 @@ nullptr
 false
 true
 )
-)
-;
-PORT_Free
-(
-certDER
-.
-data
 )
 ;
 if
