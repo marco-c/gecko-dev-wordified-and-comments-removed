@@ -536,14 +536,6 @@ return
 snapshotOffset_
 ;
 }
-void
-fixUpOffset
-(
-MacroAssembler
-&
-masm
-)
-;
 }
 ;
 static
