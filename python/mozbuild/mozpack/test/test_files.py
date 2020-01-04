@@ -8683,7 +8683,7 @@ result
 )
     
 def
-test_jar_finder
+test_tar_finder
 (
 self
 )
@@ -8735,8 +8735,7 @@ close
 (
 )
         
-tarreader
-=
+with
 tarfile
 .
 open
@@ -8755,7 +8754,7 @@ tar
 bz2
 '
 )
-                                 
+                          
 mode
 =
 '
@@ -8764,7 +8763,10 @@ r
 bz2
 '
 )
-        
+as
+tarreader
+:
+            
 self
 .
 finder
@@ -8785,13 +8787,13 @@ bz2
 )
 tarreader
 )
-        
+            
 self
 .
 do_match_test
 (
 )
-        
+            
 self
 .
 assertIsNone
@@ -8811,7 +8813,7 @@ exist
 '
 )
 )
-        
+            
 self
 .
 assertIsInstance
