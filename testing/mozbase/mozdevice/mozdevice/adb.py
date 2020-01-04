@@ -11028,6 +11028,22 @@ root
 root
 )
         
+if
+not
+parents
+or
+not
+self
+.
+is_dir
+(
+path
+root
+=
+root
+)
+:
+            
 self
 .
 shell_output
