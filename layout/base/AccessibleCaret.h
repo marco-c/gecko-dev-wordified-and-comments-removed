@@ -103,7 +103,6 @@ mozilla
 {
 class
 AccessibleCaret
-final
 {
 public
 :
@@ -115,6 +114,7 @@ nsIPresShell
 aPresShell
 )
 ;
+virtual
 ~
 AccessibleCaret
 (
@@ -143,6 +143,7 @@ return
 mAppearance
 ;
 }
+virtual
 void
 SetAppearance
 (
@@ -195,6 +196,7 @@ NormalNotShown
 )
 ;
 }
+virtual
 void
 SetSelectionBarEnabled
 (
@@ -213,6 +215,7 @@ Changed
 Invisible
 }
 ;
+virtual
 PositionChangedResult
 SetPosition
 (
@@ -276,7 +279,7 @@ GetContentNode
 )
 ;
 }
-private
+protected
 :
 void
 SetCaretElementStyle
