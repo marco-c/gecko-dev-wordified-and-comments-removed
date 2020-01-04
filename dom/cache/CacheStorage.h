@@ -155,7 +155,7 @@ nsIPrincipal
 *
 aPrincipal
 bool
-aPrivateBrowsing
+aStorageDisabled
 bool
 aForceTrustedOrigin
 ErrorResult
