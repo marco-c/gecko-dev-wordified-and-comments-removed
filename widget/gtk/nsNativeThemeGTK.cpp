@@ -950,7 +950,7 @@ aWidgetType
 nsIFrame
 *
 aFrame
-GtkThemeWidgetType
+WidgetNodeType
 &
 aGtkWidgetType
 GtkWidgetState
@@ -3080,7 +3080,7 @@ ThemeRenderer
 (
 GtkWidgetState
 aState
-GtkThemeWidgetType
+WidgetNodeType
 aGTKWidgetType
 gint
 aFlags
@@ -3144,7 +3144,7 @@ private
 GtkWidgetState
 mState
 ;
-GtkThemeWidgetType
+WidgetNodeType
 mGTKWidgetType
 ;
 gint
@@ -3631,7 +3631,7 @@ DrawTarget
 aDrawTarget
 GtkWidgetState
 aState
-GtkThemeWidgetType
+WidgetNodeType
 aGTKWidgetType
 gint
 aFlags
@@ -4899,7 +4899,7 @@ aDirtyRect
 GtkWidgetState
 state
 ;
-GtkThemeWidgetType
+WidgetNodeType
 gtkWidgetType
 ;
 GtkTextDirection
@@ -5691,7 +5691,7 @@ case
 NS_THEME_TAB
 :
 {
-GtkThemeWidgetType
+WidgetNodeType
 gtkWidgetType
 ;
 gint
@@ -5768,7 +5768,7 @@ MOZ_FALLTHROUGH
 default
 :
 {
-GtkThemeWidgetType
+WidgetNodeType
 gtkWidgetType
 ;
 if
@@ -5975,7 +5975,7 @@ SizeTo
 0
 )
 ;
-GtkThemeWidgetType
+WidgetNodeType
 gtkWidgetType
 ;
 if

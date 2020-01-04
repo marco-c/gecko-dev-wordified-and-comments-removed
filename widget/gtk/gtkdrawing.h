@@ -272,7 +272,7 @@ MOZ_GTK_SPLITTER_VERTICAL
 MOZ_GTK_WINDOW
 MOZ_GTK_INFO_BAR
 }
-GtkThemeWidgetType
+WidgetNodeType
 ;
 gint
 moz_gtk_init
@@ -318,7 +318,7 @@ MOZ_WIDGET_GTK
 gint
 moz_gtk_widget_paint
 (
-GtkThemeWidgetType
+WidgetNodeType
 widget
 GdkDrawable
 *
@@ -343,7 +343,7 @@ else
 gint
 moz_gtk_widget_paint
 (
-GtkThemeWidgetType
+WidgetNodeType
 widget
 cairo_t
 *
@@ -365,7 +365,7 @@ endif
 gint
 moz_gtk_get_widget_border
 (
-GtkThemeWidgetType
+WidgetNodeType
 widget
 gint
 *
@@ -531,7 +531,7 @@ height
 void
 moz_gtk_get_arrow_size
 (
-GtkThemeWidgetType
+WidgetNodeType
 widgetType
 gint
 *
