@@ -114,6 +114,7 @@ uint32_t
 TotalVideoFrames
 (
 )
+const
 {
 return
 mTotalFrames
@@ -123,6 +124,7 @@ uint32_t
 DroppedVideoFrames
 (
 )
+const
 {
 return
 mDroppedFrames
@@ -132,6 +134,7 @@ uint32_t
 CorruptedVideoFrames
 (
 )
+const
 {
 return
 mCorruptedFrames
