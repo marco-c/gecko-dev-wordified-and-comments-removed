@@ -24,7 +24,7 @@ super
 (
 CANNOT_RESUME_WHEN_NO_ACCOUNTS_EXIST
 "
-settings
+manage
 "
 )
 ;

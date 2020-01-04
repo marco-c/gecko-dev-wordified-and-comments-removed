@@ -24,7 +24,7 @@ super
 (
 CANNOT_RESUME_WHEN_ACCOUNTS_EXIST
 "
-signin
+signup
 "
 )
 ;
