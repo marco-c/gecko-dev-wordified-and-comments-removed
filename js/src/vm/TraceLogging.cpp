@@ -2517,6 +2517,7 @@ events
 .
 hasSpaceForAdd
 (
+3
 )
 )
 {
@@ -2539,6 +2540,7 @@ events
 .
 ensureSpaceBeforeAdd
 (
+3
 )
 )
 {
@@ -2741,11 +2743,10 @@ MOZ_ASSERT
 (
 events
 .
-capacity
+hasSpaceForAdd
 (
-)
->
 2
+)
 )
 ;
 EventEntry
