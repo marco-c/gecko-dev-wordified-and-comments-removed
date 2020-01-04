@@ -1422,7 +1422,7 @@ Cancel
 (
 )
 {
-DoCancel
+CancelNoUpdate
 (
 )
 ;
@@ -1704,7 +1704,7 @@ LimitBehavior
 aLimitBehavior
 )
 {
-DoPlay
+PlayNoUpdate
 (
 aRv
 aLimitBehavior
@@ -1726,7 +1726,7 @@ ErrorResult
 aRv
 )
 {
-DoPause
+PauseNoUpdate
 (
 aRv
 )
@@ -2610,7 +2610,7 @@ void
 Animation
 :
 :
-DoCancel
+CancelNoUpdate
 (
 )
 {
@@ -3274,7 +3274,7 @@ void
 Animation
 :
 :
-DoPlay
+PlayNoUpdate
 (
 ErrorResult
 &
@@ -3662,7 +3662,7 @@ void
 Animation
 :
 :
-DoPause
+PauseNoUpdate
 (
 ErrorResult
 &

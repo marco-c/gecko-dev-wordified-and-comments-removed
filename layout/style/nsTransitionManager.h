@@ -483,7 +483,7 @@ PlayFromStyle
 ErrorResult
 rv
 ;
-DoPlay
+PlayNoUpdate
 (
 rv
 Animation
