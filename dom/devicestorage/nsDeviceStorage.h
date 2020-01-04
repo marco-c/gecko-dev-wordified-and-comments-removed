@@ -510,8 +510,12 @@ NS_DISPATCH_NORMAL
 void
 Dispatch
 (
+already_AddRefed
+<
 nsIRunnable
-*
+>
+&
+&
 aRunnable
 )
 {
@@ -532,7 +536,13 @@ mIOThread
 >
 Dispatch
 (
+mozilla
+:
+:
+Move
+(
 aRunnable
+)
 NS_DISPATCH_NORMAL
 )
 ;
