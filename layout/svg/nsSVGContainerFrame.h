@@ -385,7 +385,7 @@ const
 override
 ;
 virtual
-nsresult
+DrawResult
 PaintSVG
 (
 gfxContext

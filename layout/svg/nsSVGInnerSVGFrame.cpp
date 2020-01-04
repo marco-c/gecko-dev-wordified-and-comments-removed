@@ -76,6 +76,13 @@ mozilla
 :
 gfx
 ;
+using
+namespace
+mozilla
+:
+:
+image
+;
 nsIFrame
 *
 NS_NewSVGInnerSVGFrame
@@ -195,7 +202,7 @@ nsGkAtoms
 svgInnerSVGFrame
 ;
 }
-nsresult
+DrawResult
 nsSVGInnerSVGFrame
 :
 :
@@ -309,7 +316,10 @@ height
 )
 {
 return
-NS_OK
+DrawResult
+:
+:
+SUCCESS
 ;
 }
 autoSR

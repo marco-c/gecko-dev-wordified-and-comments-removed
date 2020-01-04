@@ -1437,7 +1437,7 @@ aOffset
 {
 }
 virtual
-void
+DrawResult
 Paint
 (
 gfxContext
@@ -1536,6 +1536,12 @@ FrameLayerBuilder
 DrawPaintedLayer
 mBuilder
 )
+;
+return
+DrawResult
+:
+:
+SUCCESS
 ;
 }
 private
@@ -3518,6 +3524,8 @@ cssPxToDevPxMatrix
 clippedMaskTransform
 maskSurface
 maskTransform
+&
+result
 )
 ;
 if
