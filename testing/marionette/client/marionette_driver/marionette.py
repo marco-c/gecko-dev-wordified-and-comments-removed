@@ -4195,20 +4195,20 @@ None
 timeout
 =
 None
+                 
 socket_timeout
 =
-None
-                 
+DEFAULT_SOCKET_TIMEOUT
 device_serial
 =
 None
 adb_path
 =
 None
+                 
 process_args
 =
 None
-                 
 adb_host
 =
 None
@@ -4218,10 +4218,10 @@ None
 prefs
 =
 None
+                 
 startup_timeout
 =
 None
-                 
 workspace
 =
 None
@@ -4343,10 +4343,6 @@ self
 socket_timeout
 =
 socket_timeout
-or
-self
-.
-DEFAULT_SOCKET_TIMEOUT
         
 self
 .
