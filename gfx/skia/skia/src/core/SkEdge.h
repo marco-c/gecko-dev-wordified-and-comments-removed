@@ -33,10 +33,9 @@ top
 y0
 )
 (
+SkLeftShift
 (
 top
-<
-<
 6
 )
 +

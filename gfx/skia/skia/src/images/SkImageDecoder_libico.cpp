@@ -102,6 +102,7 @@ buffer
 begin
 ]
 +
+SkLeftShift
 (
 buffer
 [
@@ -109,8 +110,6 @@ begin
 +
 1
 ]
-<
-<
 8
 )
 #
@@ -125,6 +124,7 @@ buffer
 begin
 ]
 +
+SkLeftShift
 (
 buffer
 [
@@ -132,11 +132,10 @@ begin
 +
 1
 ]
-<
-<
 8
 )
 +
+SkLeftShift
 (
 buffer
 [
@@ -144,11 +143,10 @@ begin
 +
 2
 ]
-<
-<
 16
 )
 +
+SkLeftShift
 (
 buffer
 [
@@ -156,8 +154,6 @@ begin
 +
 3
 ]
-<
-<
 24
 )
 SkICOImageDecoder

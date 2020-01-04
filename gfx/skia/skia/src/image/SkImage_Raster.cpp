@@ -251,9 +251,10 @@ if
 (
 rowBytes
 <
-SkImageMinRowBytes
-(
 info
+.
+minRowBytes
+(
 )
 )
 {
@@ -352,6 +353,8 @@ SkData
 *
 onRefEncoded
 (
+GrContext
+*
 )
 const
 override
@@ -859,6 +862,8 @@ SkImage_Raster
 :
 onRefEncoded
 (
+GrContext
+*
 )
 const
 {

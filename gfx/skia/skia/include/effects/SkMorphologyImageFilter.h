@@ -48,8 +48,8 @@ dst
 const
 override
 ;
-bool
-onFilterBounds
+void
+onFilterNodeBounds
 (
 const
 SkIRect
@@ -62,6 +62,7 @@ ctm
 SkIRect
 *
 dst
+MapDirection
 )
 const
 override

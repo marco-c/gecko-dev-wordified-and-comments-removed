@@ -583,6 +583,8 @@ readPixels
 SkBitmap
 *
 dst
+SkColorType
+colorType
 const
 SkIRect
 *
@@ -709,6 +711,8 @@ onReadPixels
 SkBitmap
 *
 dst
+SkColorType
+colorType
 const
 SkIRect
 *

@@ -649,6 +649,13 @@ count
 )
 ;
 }
+#
+include
+"
+SkModeColorFilter
+.
+h
+"
 SK_DEFINE_FLATTENABLE_REGISTRAR_GROUP_START
 (
 SkColorFilter
@@ -656,5 +663,9 @@ SkColorFilter
 SK_DEFINE_FLATTENABLE_REGISTRAR_ENTRY
 (
 SkComposeColorFilter
+)
+SK_DEFINE_FLATTENABLE_REGISTRAR_ENTRY
+(
+SkModeColorFilter
 )
 SK_DEFINE_FLATTENABLE_REGISTRAR_GROUP_END

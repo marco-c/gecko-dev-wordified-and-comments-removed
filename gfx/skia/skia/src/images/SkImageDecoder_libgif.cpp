@@ -1961,7 +1961,10 @@ alp
 bm
 )
 ;
-SkAutoMalloc
+SkAutoTMalloc
+<
+uint8_t
+>
 storage
 (
 innerWidth
@@ -1971,10 +1974,6 @@ uint8_t
 *
 scanline
 =
-(
-uint8_t
-*
-)
 storage
 .
 get

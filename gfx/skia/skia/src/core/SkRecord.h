@@ -463,7 +463,7 @@ T
 >
 SK_WHEN
 (
-skstd
+std
 :
 :
 is_empty
@@ -500,7 +500,7 @@ T
 SK_WHEN
 (
 !
-skstd
+std
 :
 :
 is_empty

@@ -1184,7 +1184,7 @@ push
 =
 node
 ;
-memcpy
+sk_careful_memcpy
 (
 node
 -

@@ -49,7 +49,7 @@ include
 "
 glsl
 /
-GrGLSLProgramBuilder
+GrGLSLFragmentShaderBuilder
 .
 h
 "
@@ -58,7 +58,7 @@ include
 "
 glsl
 /
-GrGLSLFragmentShaderBuilder
+GrGLSLUniformHandler
 .
 h
 "
@@ -1021,12 +1021,12 @@ private
 void
 emitBlendCodeForDstRead
 (
-GrGLSLXPBuilder
-*
-pb
 GrGLSLXPFragmentBuilder
 *
 fragBuilder
+GrGLSLUniformHandler
+*
+uniformHandler
 const
 char
 *

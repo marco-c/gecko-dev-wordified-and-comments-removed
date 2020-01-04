@@ -58,7 +58,10 @@ SK_TRACEHR
 _hr
 _msg
 )
+sk_ignore_unused_variable
+(
 _hr
+)
 #
 endif
 #

@@ -130,6 +130,8 @@ SkData
 *
 refEncoded
 (
+GrContext
+*
 )
 ;
 bool
@@ -320,7 +322,7 @@ fUniqueID
 ;
 friend
 class
-Cacherator_GrTextureMaker
+GrImageTextureMaker
 ;
 }
 ;

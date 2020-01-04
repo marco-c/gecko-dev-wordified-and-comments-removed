@@ -41,7 +41,7 @@ fSpecular
 }
 ;
 static
-SkEmbossMaskFilter
+SkMaskFilter
 *
 Create
 (
@@ -63,7 +63,6 @@ getFormat
 const
 override
 ;
-virtual
 bool
 filterMask
 (

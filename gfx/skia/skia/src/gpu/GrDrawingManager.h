@@ -46,6 +46,9 @@ class
 GrDrawContext
 ;
 class
+GrSingleOWner
+;
+class
 GrSoftwarePathRenderer
 ;
 class
@@ -174,6 +177,9 @@ GrDrawTarget
 Options
 &
 optionsForDrawTargets
+GrSingleOwner
+*
+singleOwner
 )
 :
 fContext
@@ -183,6 +189,10 @@ context
 fOptionsForDrawTargets
 (
 optionsForDrawTargets
+)
+fSingleOwner
+(
+singleOwner
 )
 fAbandoned
 (
@@ -214,6 +224,10 @@ context
 resourceProvider
 (
 )
+)
+fFlushing
+(
+false
 )
 {
 sk_bzero
@@ -274,6 +288,10 @@ GrDrawTarget
 Options
 fOptionsForDrawTargets
 ;
+GrSingleOwner
+*
+fSingleOwner
+;
 bool
 fAbandoned
 ;
@@ -308,6 +326,9 @@ fSoftwarePathRenderer
 ;
 GrBatchFlushState
 fFlushState
+;
+bool
+fFlushing
 ;
 }
 ;

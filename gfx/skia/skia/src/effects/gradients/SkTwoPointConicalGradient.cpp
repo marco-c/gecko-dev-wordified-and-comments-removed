@@ -1239,12 +1239,6 @@ fFlags
 &
 =
 ~
-kHasSpan16_Flag
-;
-fFlags
-&
-=
-~
 kOpaqueAlpha_Flag
 ;
 }

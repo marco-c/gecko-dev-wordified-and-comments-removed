@@ -61,7 +61,7 @@ SkMatrixConvolutionImageFilter
 )
 ;
 static
-SkMatrixConvolutionImageFilter
+SkImageFilter
 *
 Create
 (
@@ -169,8 +169,8 @@ loc
 const
 override
 ;
-bool
-onFilterBounds
+void
+onFilterNodeBounds
 (
 const
 SkIRect
@@ -180,6 +180,14 @@ SkMatrix
 &
 SkIRect
 *
+MapDirection
+)
+const
+override
+;
+bool
+canComputeFastBounds
+(
 )
 const
 override

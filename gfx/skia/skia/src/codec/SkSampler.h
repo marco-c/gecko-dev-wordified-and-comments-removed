@@ -7,6 +7,13 @@ SkSampler_DEFINED
 #
 include
 "
+SkCodec
+.
+h
+"
+#
+include
+"
 SkTypes
 .
 h

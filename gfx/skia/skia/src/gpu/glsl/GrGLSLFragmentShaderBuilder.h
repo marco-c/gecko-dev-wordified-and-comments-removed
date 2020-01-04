@@ -462,6 +462,10 @@ fHasReadFragmentPosition
 ;
 friend
 class
+GrGLSLProgramBuilder
+;
+friend
+class
 GrGLProgramBuilder
 ;
 typedef

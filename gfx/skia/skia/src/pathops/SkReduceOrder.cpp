@@ -793,7 +793,7 @@ sideBx
 )
 :
 !
-AlmostEqualUlps
+AlmostEqualUlps_Pin
 (
 sideAx
 sideBx
@@ -890,7 +890,7 @@ sideBy
 )
 :
 !
-AlmostEqualUlps
+AlmostEqualUlps_Pin
 (
 sideAy
 sideBy

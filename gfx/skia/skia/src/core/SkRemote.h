@@ -447,10 +447,8 @@ saveLayer
 ID
 bounds
 CommonIDs
-SkCanvas
-:
-:
-SaveFlags
+uint32_t
+saveLayerFlags
 )
 =
 0

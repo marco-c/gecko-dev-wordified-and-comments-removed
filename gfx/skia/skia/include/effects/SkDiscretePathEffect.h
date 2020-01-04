@@ -21,7 +21,7 @@ SkPathEffect
 public
 :
 static
-SkDiscretePathEffect
+SkPathEffect
 *
 Create
 (

@@ -1334,7 +1334,7 @@ char
 extension
 )
 {
-int
+size_t
 extensionLength
 =
 strlen

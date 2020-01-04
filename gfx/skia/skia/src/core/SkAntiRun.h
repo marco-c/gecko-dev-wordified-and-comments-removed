@@ -232,11 +232,6 @@ x
 =
 0
 ;
-lastAlpha
-+
-=
-x
-;
 SkDEBUGCODE
 (
 this

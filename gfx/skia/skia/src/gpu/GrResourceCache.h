@@ -134,7 +134,7 @@ const
 int
 kDefaultMaxUnusedFlushes
 =
-1024
+64
 ;
 class
 ResourceAccess

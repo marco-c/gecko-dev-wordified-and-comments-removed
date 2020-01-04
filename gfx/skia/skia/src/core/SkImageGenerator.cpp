@@ -958,6 +958,7 @@ SkImageGenerator
 :
 onRefEncodedData
 (
+SK_REFENCODEDDATA_CTXPARAM
 )
 {
 return

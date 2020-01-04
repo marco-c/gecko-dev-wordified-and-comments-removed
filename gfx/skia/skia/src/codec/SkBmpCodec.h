@@ -58,8 +58,10 @@ static
 bool
 IsBmp
 (
-SkStream
+const
+void
 *
+size_t
 )
 ;
 static
@@ -166,13 +168,6 @@ int32_t
 height
 )
 const
-;
-uint32_t
-computeNumColors
-(
-uint32_t
-numColors
-)
 ;
 uint16_t
 bitsPerPixel

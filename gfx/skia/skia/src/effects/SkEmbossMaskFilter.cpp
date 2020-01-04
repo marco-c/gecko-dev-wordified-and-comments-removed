@@ -47,7 +47,7 @@ SkString
 .
 h
 "
-SkEmbossMaskFilter
+SkMaskFilter
 *
 SkEmbossMaskFilter
 :

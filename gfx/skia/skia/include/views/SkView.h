@@ -28,6 +28,11 @@ h
 #
 include
 "
+.
+.
+/
+private
+/
 SkTDict
 .
 h

@@ -487,7 +487,11 @@ draw
 }
 #
 else
-sk_parallel_for
+SkTaskGroup
+(
+)
+.
+batch
 (
 fThreadSafeDrawData
 .

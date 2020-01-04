@@ -224,7 +224,7 @@ tmp
 }
 else
 {
-memcpy
+sk_careful_memcpy
 (
 fArray
 src

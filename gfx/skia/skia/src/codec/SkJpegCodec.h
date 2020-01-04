@@ -39,6 +39,13 @@ SkStream
 .
 h
 "
+#
+include
+"
+SkTemplates
+.
+h
+"
 extern
 "
 C
@@ -64,8 +71,10 @@ static
 bool
 IsJpeg
 (
-SkStream
+const
+void
 *
+size_t
 )
 ;
 static
@@ -254,7 +263,10 @@ const
 int
 fReadyState
 ;
-SkAutoMalloc
+SkAutoTMalloc
+<
+uint8_t
+>
 fStorage
 ;
 uint8_t

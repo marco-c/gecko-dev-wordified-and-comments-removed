@@ -111,7 +111,7 @@ include
 "
 glsl
 /
-GrGLSLProgramBuilder
+GrGLSLProgramDataManager
 .
 h
 "
@@ -120,7 +120,7 @@ include
 "
 glsl
 /
-GrGLSLProgramDataManager
+GrGLSLUniformHandler
 .
 h
 "
@@ -968,12 +968,12 @@ fInputColor
 void
 emitBlendCodeForDstRead
 (
-GrGLSLXPBuilder
-*
-pb
 GrGLSLXPFragmentBuilder
 *
 fragBuilder
+GrGLSLUniformHandler
+*
+uniformHandler
 const
 char
 *

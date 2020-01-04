@@ -832,7 +832,7 @@ size
 size
 )
 ;
-memcpy
+sk_careful_memcpy
 (
 this
 -
@@ -917,7 +917,7 @@ size_t
 size
 )
 {
-memcpy
+sk_careful_memcpy
 (
 this
 -

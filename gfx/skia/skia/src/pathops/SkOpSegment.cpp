@@ -2539,6 +2539,16 @@ prev
 (
 )
 ;
+if
+(
+!
+prev
+)
+{
+return
+nullptr
+;
+}
 SkOpSpan
 *
 span
@@ -12335,6 +12345,9 @@ midPt
 fY
 }
 {
+(
+double
+)
 midPt
 .
 fX
@@ -12342,6 +12355,9 @@ fX
 dxdy
 .
 fY
+(
+double
+)
 midPt
 .
 fY

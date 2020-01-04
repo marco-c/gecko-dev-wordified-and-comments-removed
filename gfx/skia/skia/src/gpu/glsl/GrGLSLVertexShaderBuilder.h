@@ -21,6 +21,10 @@ h
 class
 GrGLSLVarying
 ;
+#
+define
+GR_SIGNIFICANT_POW2_DECIMAL_DIG
+11
 class
 GrGLSLVertexBuilder
 :

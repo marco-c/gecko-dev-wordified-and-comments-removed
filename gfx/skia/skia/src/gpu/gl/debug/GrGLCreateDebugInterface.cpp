@@ -2235,6 +2235,17 @@ n
 i
 )
 {
+GrAlwaysAssert
+(
+ids
+[
+i
+]
+=
+=
+0
+)
+;
 GrFakeRefObj
 *
 obj

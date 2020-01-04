@@ -20,11 +20,9 @@ h
 "
 #
 include
-"
-SkUtility
-.
-h
-"
+<
+utility
+>
 template
 <
 typename
@@ -341,7 +339,7 @@ fObj
 )
 T
 (
-skstd
+std
 :
 :
 forward
@@ -420,7 +418,7 @@ fObj
 )
 T
 (
-skstd
+std
 :
 :
 forward
@@ -506,7 +504,7 @@ fObj
 )
 T
 (
-skstd
+std
 :
 :
 forward
@@ -592,7 +590,7 @@ fObj
 )
 T
 (
-skstd
+std
 :
 :
 forward

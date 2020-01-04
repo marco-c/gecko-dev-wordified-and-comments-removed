@@ -55,10 +55,6 @@ float
 sigmaX
 float
 sigmaY
-GrTextureProvider
-:
-:
-SizeConstraint
 )
 ;
 #

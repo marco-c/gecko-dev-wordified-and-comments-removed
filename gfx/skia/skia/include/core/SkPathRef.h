@@ -403,6 +403,12 @@ pts
 ]
 )
 ;
+uint8_t
+peek
+(
+)
+const
+;
 SkScalar
 conicWeight
 (

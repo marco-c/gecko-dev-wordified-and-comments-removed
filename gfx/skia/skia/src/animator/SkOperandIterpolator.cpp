@@ -351,7 +351,7 @@ T
 int
 index
 ;
-SkBool
+bool
 exact
 ;
 Result

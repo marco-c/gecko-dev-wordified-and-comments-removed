@@ -88,6 +88,14 @@ DstTexture
 )
 ;
 static
+const
+GrXferProcessor
+&
+SimpleSrcOverXP
+(
+)
+;
+static
 inline
 void
 SrcOverInvariantBlendedColor

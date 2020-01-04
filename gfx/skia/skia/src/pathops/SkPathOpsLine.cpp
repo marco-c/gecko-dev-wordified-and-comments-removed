@@ -287,6 +287,16 @@ return
 1
 ;
 }
+if
+(
+!
+denom
+)
+{
+return
+0
+;
+}
 double
 t
 =
@@ -398,7 +408,7 @@ tiniest
 if
 (
 !
-AlmostEqualUlps
+AlmostEqualUlps_Pin
 (
 largest
 largest

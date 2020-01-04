@@ -137,8 +137,8 @@ const
 override
 ;
 virtual
-bool
-onFilterBounds
+void
+onFilterNodeBounds
 (
 const
 SkIRect
@@ -150,6 +150,7 @@ SkMatrix
 SkIRect
 *
 dst
+MapDirection
 )
 const
 override

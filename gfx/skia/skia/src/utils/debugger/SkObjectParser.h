@@ -208,13 +208,10 @@ region
 static
 SkString
 *
-SaveFlagsToString
+SaveLayerFlagsToString
 (
-SkCanvas
-:
-:
-SaveFlags
-flags
+uint32_t
+saveLayerFlags
 )
 ;
 static

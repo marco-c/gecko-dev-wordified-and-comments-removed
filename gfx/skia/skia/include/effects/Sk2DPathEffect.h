@@ -190,7 +190,7 @@ Sk2DPathEffect
 public
 :
 static
-SkLine2DPathEffect
+SkPathEffect
 *
 Create
 (
@@ -305,7 +305,7 @@ Sk2DPathEffect
 public
 :
 static
-SkPath2DPathEffect
+SkPathEffect
 *
 Create
 (

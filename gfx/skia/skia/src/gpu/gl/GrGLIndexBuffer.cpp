@@ -39,9 +39,15 @@ gpu
 desc
 .
 fSizeInBytes
+GrGLBufferImpl
+:
+:
+kDynamicDraw_Usage
+=
+=
 desc
 .
-fDynamic
+fUsage
 0
 =
 =

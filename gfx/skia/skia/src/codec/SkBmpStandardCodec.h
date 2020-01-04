@@ -204,9 +204,12 @@ opts
 )
 override
 ;
-Result
+void
 decodeIcoMask
 (
+SkStream
+*
+stream
 const
 SkImageInfo
 &
@@ -255,6 +258,10 @@ fSrcBuffer
 const
 bool
 fInIco
+;
+const
+size_t
+fAndMaskRowBytes
 ;
 typedef
 SkBmpCodec

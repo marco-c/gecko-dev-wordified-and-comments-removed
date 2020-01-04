@@ -99,8 +99,8 @@ const
 GrPipeline
 &
 const
-GrGLGpu
-*
+GrGLSLCaps
+&
 )
 ;
 }

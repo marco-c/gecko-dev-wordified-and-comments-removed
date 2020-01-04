@@ -392,6 +392,9 @@ uint8_t
 fFragPosKey
 ;
 uint8_t
+fOutputSwizzle
+;
+uint8_t
 fSnapVerticesToPixelCenters
 ;
 int8_t
@@ -404,17 +407,6 @@ uint8_t
 fIgnoresCoverage
 ;
 }
-;
-GR_STATIC_ASSERT
-(
-sizeof
-(
-KeyHeader
-)
-=
-=
-5
-)
 ;
 int
 numColorEffects

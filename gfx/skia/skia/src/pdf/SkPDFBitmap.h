@@ -21,6 +21,8 @@ SkPDFCreateBitmapObject
 const
 SkImage
 *
+SkPixelSerializer
+*
 )
 ;
 #

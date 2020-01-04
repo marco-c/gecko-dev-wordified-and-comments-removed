@@ -440,6 +440,16 @@ for
 ;
 )
 {
+if
+(
+!
+data
+)
+{
+return
+false
+;
+}
 data
 =
 skip_ws

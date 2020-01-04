@@ -133,7 +133,7 @@ T
 int
 *
 index
-SkBool
+bool
 *
 exact
 )

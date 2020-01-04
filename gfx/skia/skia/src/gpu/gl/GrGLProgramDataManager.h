@@ -55,9 +55,6 @@ class
 GrGLProgram
 ;
 class
-GrGLProgramBuilder
-;
-class
 GrGLProgramDataManager
 :
 public

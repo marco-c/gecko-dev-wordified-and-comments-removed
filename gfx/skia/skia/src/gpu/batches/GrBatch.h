@@ -36,6 +36,9 @@ GrCaps
 class
 GrBatchFlushState
 ;
+class
+GrRenderTarget
+;
 #
 define
 GR_BATCH_SPEW
@@ -432,6 +435,16 @@ const
 virtual
 SkString
 dumpInfo
+(
+)
+const
+=
+0
+;
+virtual
+GrRenderTarget
+*
+renderTarget
 (
 )
 const

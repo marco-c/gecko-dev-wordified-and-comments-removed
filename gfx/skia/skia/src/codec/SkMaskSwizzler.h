@@ -67,10 +67,7 @@ Options
 options
 )
 ;
-SkSwizzler
-:
-:
-ResultAlpha
+void
 swizzle
 (
 void
@@ -137,10 +134,7 @@ zeroInit
 private
 :
 typedef
-SkSwizzler
-:
-:
-ResultAlpha
+void
 (
 *
 RowProc

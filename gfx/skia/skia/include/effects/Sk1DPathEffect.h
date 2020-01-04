@@ -122,7 +122,7 @@ kStyleCount
 }
 ;
 static
-SkPath1DPathEffect
+SkPathEffect
 *
 Create
 (

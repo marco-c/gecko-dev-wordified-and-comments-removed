@@ -771,6 +771,16 @@ size
 )
 const
 {
+if
+(
+!
+fBlock
+)
+{
+return
+0
+;
+}
 return
 SkTMin
 (

@@ -248,11 +248,6 @@ ctx
 cache
 (
 )
-ctx
-.
-sizeConstraint
-(
-)
 )
 ;
 return
@@ -267,7 +262,6 @@ src
 localCtx
 result
 offset
-false
 )
 ;
 }

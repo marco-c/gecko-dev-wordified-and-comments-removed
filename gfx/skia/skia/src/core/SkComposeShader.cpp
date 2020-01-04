@@ -740,15 +740,6 @@ getPaintAlpha
 )
 )
 ;
-#
-ifdef
-SK_BUILD_FOR_ANDROID
-scale
-=
-256
-;
-#
-endif
 SkPMColor
 tmp
 [

@@ -41,6 +41,9 @@ GrInvariantOutput
 class
 GrGLSLTextureSampler
 ;
+class
+GrGLSLUniformHandler
+;
 struct
 SkRect
 ;
@@ -404,6 +407,9 @@ sampleTexture
 GrGLSLShaderBuilder
 *
 builder
+GrGLSLUniformHandler
+*
+uniformHandler
 const
 GrGLSLCaps
 *

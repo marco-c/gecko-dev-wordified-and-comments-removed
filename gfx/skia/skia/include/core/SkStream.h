@@ -96,7 +96,7 @@ size
 ;
 }
 virtual
-bool
+size_t
 peek
 (
 void
@@ -106,7 +106,7 @@ size_t
 const
 {
 return
-false
+0
 ;
 }
 virtual
@@ -978,7 +978,7 @@ isAtEnd
 const
 override
 ;
-bool
+size_t
 peek
 (
 void
@@ -1119,6 +1119,11 @@ flush
 (
 )
 override
+;
+void
+fsync
+(
+)
 ;
 size_t
 bytesWritten

@@ -144,8 +144,8 @@ loc
 const
 override
 ;
-bool
-onFilterBounds
+void
+onFilterNodeBounds
 (
 const
 SkIRect
@@ -157,6 +157,7 @@ SkMatrix
 SkIRect
 *
 dst
+MapDirection
 )
 const
 override

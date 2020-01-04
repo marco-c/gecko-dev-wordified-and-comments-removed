@@ -239,7 +239,7 @@ so
 ;
 gLibs
 .
-fGLLib
+fEGLLib
 =
 DynamicLoadLibrary
 (

@@ -315,15 +315,9 @@ NinePatch
 :
 fCache
 (
-NULL
+nullptr
 )
 {
-fMask
-.
-fImage
-=
-NULL
-;
 }
 ~
 NinePatch

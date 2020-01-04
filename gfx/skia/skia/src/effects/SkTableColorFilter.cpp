@@ -1938,7 +1938,7 @@ include
 "
 glsl
 /
-GrGLSLProgramBuilder
+GrGLSLProgramDataManager
 .
 h
 "
@@ -1947,7 +1947,7 @@ include
 "
 glsl
 /
-GrGLSLProgramDataManager
+GrGLSLUniformHandler
 .
 h
 "
@@ -2360,12 +2360,12 @@ fRGBAYValuesUni
 =
 args
 .
-fBuilder
+fUniformHandler
 -
 >
 addUniform
 (
-GrGLSLFPBuilder
+GrGLSLUniformHandler
 :
 :
 kFragment_Visibility
@@ -2634,6 +2634,8 @@ fragBuilder
 codeAppend
 (
 "
+.
+a
 ;
 \
 n
@@ -2704,6 +2706,8 @@ fragBuilder
 codeAppend
 (
 "
+.
+a
 ;
 \
 n
@@ -2774,6 +2778,8 @@ fragBuilder
 codeAppend
 (
 "
+.
+a
 ;
 \
 n
@@ -2844,6 +2850,8 @@ fragBuilder
 codeAppend
 (
 "
+.
+a
 ;
 \
 n
@@ -3060,9 +3068,6 @@ flags
 fTextureAccess
 (
 texture
-"
-a
-"
 )
 fFlags
 (

@@ -21,7 +21,7 @@ SkPathEffect
 public
 :
 static
-SkCornerPathEffect
+SkPathEffect
 *
 Create
 (
@@ -37,12 +37,6 @@ radius
 )
 ;
 }
-virtual
-~
-SkCornerPathEffect
-(
-)
-;
 virtual
 bool
 filterPath
@@ -88,6 +82,12 @@ true
 endif
 protected
 :
+virtual
+~
+SkCornerPathEffect
+(
+)
+;
 explicit
 SkCornerPathEffect
 (

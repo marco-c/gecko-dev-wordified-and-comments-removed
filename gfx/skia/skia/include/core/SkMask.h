@@ -14,6 +14,16 @@ h
 struct
 SkMask
 {
+SkMask
+(
+)
+:
+fImage
+(
+nullptr
+)
+{
+}
 enum
 Format
 {
