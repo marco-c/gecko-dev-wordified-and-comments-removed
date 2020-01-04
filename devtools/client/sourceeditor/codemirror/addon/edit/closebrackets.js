@@ -1004,7 +1004,6 @@ pos
 ;
 var
 type
-next
 ;
 for
 (

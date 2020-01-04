@@ -1178,10 +1178,11 @@ function
 var
 state
 =
-htmlMode
+CodeMirror
 .
 startState
 (
+htmlMode
 )
 ;
 return

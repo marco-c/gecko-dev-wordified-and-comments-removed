@@ -126,7 +126,6 @@ line
 )
 ;
 var
-startCh
 tokenType
 ;
 function
@@ -752,7 +751,7 @@ semi
 }
 }
 var
-start
+startLine
 =
 start
 .
@@ -761,7 +760,7 @@ has
 =
 hasImport
 (
-start
+startLine
 )
 prev
 ;
@@ -773,7 +772,7 @@ has
 |
 hasImport
 (
-start
+startLine
 -
 1
 )
@@ -785,7 +784,7 @@ prev
 =
 hasImport
 (
-start
+startLine
 -
 2
 )
@@ -799,7 +798,7 @@ end
 line
 =
 =
-start
+startLine
 -
 1
 )
@@ -859,7 +858,7 @@ CodeMirror
 .
 Pos
 (
-start
+startLine
 has
 .
 startCh
@@ -1006,7 +1005,7 @@ start
 ;
 }
 var
-start
+startLine
 =
 start
 .
@@ -1015,7 +1014,7 @@ has
 =
 hasInclude
 (
-start
+startLine
 )
 ;
 if
@@ -1028,7 +1027,7 @@ null
 |
 hasInclude
 (
-start
+startLine
 -
 1
 )
@@ -1044,7 +1043,7 @@ for
 var
 end
 =
-start
+startLine
 ;
 ;
 )
@@ -1081,7 +1080,7 @@ CodeMirror
 .
 Pos
 (
-start
+startLine
 has
 +
 1
