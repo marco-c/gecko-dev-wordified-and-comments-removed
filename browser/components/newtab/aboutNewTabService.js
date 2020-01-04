@@ -167,6 +167,8 @@ REMOTE_NEWTAB_PATH
 =
 "
 /
+newtab
+/
 v
 %
 VERSION
