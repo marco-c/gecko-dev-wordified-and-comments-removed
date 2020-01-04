@@ -113,6 +113,11 @@ UNIFIED_SOURCES
 =
 [
 '
+DisplayDeviceProvider
+.
+cpp
+'
+'
 MulticastDNSDeviceProvider
 .
 cpp
