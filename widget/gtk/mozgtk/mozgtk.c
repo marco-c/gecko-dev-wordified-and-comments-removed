@@ -2176,6 +2176,10 @@ gtk_style_context_add_region
 )
 STUB
 (
+gtk_style_context_get
+)
+STUB
+(
 gtk_style_context_get_background_color
 )
 STUB
@@ -2233,6 +2237,10 @@ gtk_tree_view_column_get_button
 STUB
 (
 gtk_widget_get_preferred_size
+)
+STUB
+(
+gtk_widget_get_state_flags
 )
 STUB
 (
