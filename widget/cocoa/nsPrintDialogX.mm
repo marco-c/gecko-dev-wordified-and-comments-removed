@@ -515,7 +515,15 @@ printPanel
 panel
 setOptions
 :
+NSPrintPanelShowsCopies
+|
+NSPrintPanelShowsPageRange
+|
 NSPrintPanelShowsPaperSize
+|
+NSPrintPanelShowsOrientation
+|
+NSPrintPanelShowsScaling
 ]
 ;
 PrintPanelAccessoryController
