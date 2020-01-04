@@ -16,6 +16,16 @@ bar
 (
 )
 ;
+readonly
+attribute
+Promise
+<
+DOMString
+>
+[
+]
+baz
+;
 }
 ;
 /

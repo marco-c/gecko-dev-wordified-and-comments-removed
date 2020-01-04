@@ -40,6 +40,11 @@ name
 fillPattern
 "
 "
+required
+"
+:
+false
+"
 idlType
 "
 :
@@ -120,6 +125,11 @@ name
 strokePattern
 "
 "
+required
+"
+:
+false
+"
 idlType
 "
 :
@@ -192,6 +202,11 @@ name
 "
 position
 "
+"
+required
+"
+:
+false
 "
 idlType
 "
@@ -290,6 +305,11 @@ name
 "
 hydrometry
 "
+"
+required
+"
+:
+false
 "
 idlType
 "

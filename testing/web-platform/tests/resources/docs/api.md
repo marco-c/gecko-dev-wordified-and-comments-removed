@@ -90,6 +90,7 @@ into
 the
 document
 :
+html
 <
 script
 src
@@ -330,6 +331,7 @@ test
 )
 function
 :
+js
 test
 (
 test_function
@@ -356,6 +358,7 @@ test
 would
 be
 :
+js
 test
 (
 function
@@ -490,6 +493,7 @@ object
 using
 async_test
 :
+js
 async_test
 (
 name
@@ -534,6 +538,7 @@ the
 test
 assertions
 :
+js
 t
 .
 step
@@ -564,6 +569,7 @@ must
 be
 called
 :
+js
 t
 .
 done
@@ -608,6 +614,7 @@ be
 rewritten
 as
 :
+js
 async_test
 (
 function
@@ -724,6 +731,7 @@ step
 .
 For
 example
+js
 object
 .
 some_event
@@ -761,6 +769,7 @@ used
 For
 example
 :
+js
 object
 .
 some_event
@@ -812,6 +821,7 @@ based
 on
 Promises
 :
+js
 promise_test
 (
 test_function
@@ -857,6 +867,7 @@ E
 g
 .
 :
+js
 function
 foo
 (
@@ -1006,6 +1017,7 @@ need
 to
 reject
 :
+js
 promise_rejects
 (
 test_object
@@ -1046,6 +1058,7 @@ with
 a
 TypeError
 :
+js
 function
 bar
 (
@@ -1140,6 +1153,7 @@ to
 use
 EventWatcher
 :
+js
 var
 t
 =
@@ -1520,6 +1534,7 @@ wrapper
 For
 example
 :
+html
 <
 !
 doctype
@@ -1644,16 +1659,20 @@ asserts
 ]
 (
 #
-asserts
+list
+-
+of
+-
+assertions
 )
 section
 below
-.
 .
 The
 general
 signature
 is
+js
 assert_something
 (
 actual
@@ -1834,6 +1853,7 @@ known
 .
 For
 example
+js
 test
 (
 function
@@ -2000,6 +2020,7 @@ the
 step_timeout
 function
 :
+js
 var
 t
 =
@@ -2213,6 +2234,7 @@ a
 meta
 element
 :
+html
 <
 meta
 name
@@ -2352,6 +2374,7 @@ argument
 version
 is
 :
+js
 setup
 (
 func
@@ -2826,6 +2849,7 @@ in
 a
 list
 :
+js
 generate_tests
 (
 test_function
@@ -2835,6 +2859,7 @@ properties
 For
 example
 :
+js
 generate_tests
 (
 assert_equals
@@ -2869,6 +2894,7 @@ Is
 equivalent
 to
 :
+js
 test
 (
 function
@@ -3779,6 +3805,7 @@ worker
 .
 js
 :
+js
 importScripts
 (
 "
@@ -3843,6 +3870,7 @@ test
 .
 html
 :
+html
 <
 !
 DOCTYPE

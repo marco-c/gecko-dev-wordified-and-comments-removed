@@ -5750,6 +5750,16 @@ object
 "
 object
 "
+|
+|
+typeof
+object
+=
+=
+=
+"
+function
+"
 name
 description
 "

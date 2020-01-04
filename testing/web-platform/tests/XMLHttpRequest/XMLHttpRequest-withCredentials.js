@@ -362,6 +362,12 @@ ms
 "
 false
 )
+client
+.
+send
+(
+)
+;
 assert_throws
 (
 "

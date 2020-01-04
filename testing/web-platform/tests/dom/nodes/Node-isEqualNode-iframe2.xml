@@ -1,0 +1,17 @@
+<
+!
+DOCTYPE
+foo
+[
+<
+!
+ELEMENT
+foo
+EMPTY
+>
+]
+>
+<
+foo
+/
+>

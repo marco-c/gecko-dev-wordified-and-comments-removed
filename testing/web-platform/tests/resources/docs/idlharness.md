@@ -27,6 +27,7 @@ include
 the
 following
 :
+html
 <
 script
 src
@@ -137,6 +138,7 @@ copy
 -
 paste
 :
+js
 var
 s
 =
@@ -315,6 +317,7 @@ similar
 Sample
 usage
 :
+js
 var
 idl_array
 =
@@ -1024,6 +1027,7 @@ suite
 has
 something
 like
+js
 .
 add_objects
 (
