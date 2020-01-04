@@ -127,10 +127,8 @@ Logging
 h
 "
 extern
-mozilla
-:
-:
-LazyLogModule
+PRLogModuleInfo
+*
 gStorageLog
 ;
 namespace

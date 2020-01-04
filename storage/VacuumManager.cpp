@@ -189,10 +189,8 @@ VACUUM_INTERVAL_SECONDS
 days
 .
 extern
-mozilla
-:
-:
-LazyLogModule
+PRLogModuleInfo
+*
 gStorageLog
 ;
 namespace
