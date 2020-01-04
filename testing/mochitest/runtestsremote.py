@@ -49,7 +49,7 @@ fennecLogcatFilters
 from
 runtests
 import
-MochitestDesktop
+Mochitest
 MessageLogger
 from
 mochitest_options
@@ -86,7 +86,7 @@ __file__
 class
 MochiRemote
 (
-MochitestDesktop
+Mochitest
 )
 :
     
@@ -117,7 +117,7 @@ options
 )
 :
         
-MochitestDesktop
+Mochitest
 .
 __init__
 (
@@ -420,7 +420,7 @@ remoteNSPR
 blobberUploadDir
 )
         
-MochitestDesktop
+Mochitest
 .
 cleanup
 (
@@ -1044,7 +1044,7 @@ switchToLocalPaths
 options
 )
         
-MochitestDesktop
+Mochitest
 .
 startServers
 (
@@ -1083,7 +1083,7 @@ options
         
 manifest
 =
-MochitestDesktop
+Mochitest
 .
 buildProfile
 (
@@ -1225,7 +1225,7 @@ MOZ_HIDE_RESULTS_TABLE
         
 retVal
 =
-MochitestDesktop
+Mochitest
 .
 buildURLOptions
 (
@@ -1633,7 +1633,7 @@ False
         
 browserEnv
 =
-MochitestDesktop
+Mochitest
 .
 buildBrowserEnv
 (
