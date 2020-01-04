@@ -205,6 +205,14 @@ h
 '
     
 '
+shellmoduleloader
+.
+out
+.
+h
+'
+    
+'
 unicode
 /
 locid
