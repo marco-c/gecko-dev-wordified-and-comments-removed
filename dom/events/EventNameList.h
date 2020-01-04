@@ -807,7 +807,7 @@ eClipboardEventClass
 EVENT
 (
 paste
-NS_PASTE
+ePaste
 EventNameType_HTMLXUL
 eClipboardEventClass
 )

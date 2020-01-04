@@ -5150,7 +5150,7 @@ if
 aEventMessage
 =
 =
-NS_PASTE
+ePaste
 )
 {
 ForceCompositionEnd

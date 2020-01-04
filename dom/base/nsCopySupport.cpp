@@ -2829,7 +2829,7 @@ eCopy
 aEventMessage
 =
 =
-NS_PASTE
+ePaste
 "
 Invalid
 clipboard
@@ -3119,7 +3119,7 @@ aEventMessage
 aEventMessage
 =
 =
-NS_PASTE
+ePaste
 aClipboardType
 )
 ;
@@ -3175,7 +3175,7 @@ if
 aEventMessage
 =
 =
-NS_PASTE
+ePaste
 )
 {
 if

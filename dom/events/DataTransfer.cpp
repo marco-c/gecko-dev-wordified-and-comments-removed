@@ -453,7 +453,7 @@ if
 aEventMessage
 =
 =
-NS_PASTE
+ePaste
 )
 {
 CacheExternalClipboardFormats
@@ -1161,7 +1161,7 @@ eLegacyDragDrop
 mEventMessage
 !
 =
-NS_PASTE
+ePaste
 )
 {
 return
@@ -2405,7 +2405,7 @@ eCopy
 mEventMessage
 =
 =
-NS_PASTE
+ePaste
 )
 )
 {
@@ -2612,7 +2612,7 @@ eCopy
 mEventMessage
 =
 =
-NS_PASTE
+ePaste
 )
 )
 {
@@ -2668,7 +2668,7 @@ eLegacyDragDrop
 mEventMessage
 !
 =
-NS_PASTE
+ePaste
 &
 &
 !
@@ -3171,7 +3171,7 @@ eCopy
 mEventMessage
 =
 =
-NS_PASTE
+ePaste
 )
 )
 {
@@ -3400,7 +3400,7 @@ eCopy
 mEventMessage
 =
 =
-NS_PASTE
+ePaste
 )
 )
 {
@@ -3480,7 +3480,7 @@ eCopy
 mEventMessage
 !
 =
-NS_PASTE
+ePaste
 )
 )
 ;
@@ -5794,7 +5794,7 @@ NS_ASSERTION
 mEventMessage
 =
 =
-NS_PASTE
+ePaste
 "
 caching
 clipboard
@@ -6109,7 +6109,7 @@ if
 mEventMessage
 =
 =
-NS_PASTE
+ePaste
 )
 {
 MOZ_ASSERT

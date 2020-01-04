@@ -496,7 +496,7 @@ event
 mMessage
 =
 =
-NS_PASTE
+ePaste
 nsIClipboard
 :
 :
