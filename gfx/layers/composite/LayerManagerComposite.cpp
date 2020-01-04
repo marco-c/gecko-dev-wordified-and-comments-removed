@@ -6015,7 +6015,6 @@ mCompositor
 SetDispAcquireFence
 (
 mRoot
-mirrorScreenWidget
 )
 ;
 RefPtr
