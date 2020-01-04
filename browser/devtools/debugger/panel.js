@@ -182,7 +182,6 @@ this
 )
 ;
 }
-;
 exports
 .
 DebuggerPanel
