@@ -568,7 +568,6 @@ NotifyInputData
 MediaStreamGraph
 *
 aGraph
-const
 AudioDataValue
 *
 aBuffer
@@ -1684,7 +1683,6 @@ NotifyInputData
 MediaStreamGraph
 *
 aGraph
-const
 AudioDataValue
 *
 aBuffer
@@ -2054,7 +2052,6 @@ NotifyInputData
 MediaStreamGraph
 *
 aGraph
-const
 AudioDataValue
 *
 aBuffer

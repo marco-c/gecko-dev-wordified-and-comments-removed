@@ -801,7 +801,6 @@ aStream
 void
 *
 aUser
-const
 void
 *
 aInputBuffer
@@ -838,7 +837,6 @@ aUser
 long
 DataCallback
 (
-const
 AudioDataValue
 *
 aInputBuffer
