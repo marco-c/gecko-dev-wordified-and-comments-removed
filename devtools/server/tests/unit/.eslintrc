@@ -25,16 +25,6 @@ extends
 .
 /
 .
-.
-/
-.
-.
-/
-browser
-/
-devtools
-/
-.
 eslintrc
 .
 xpcshell
