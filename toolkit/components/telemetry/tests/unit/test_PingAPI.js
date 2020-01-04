@@ -403,8 +403,11 @@ archivedPings
 }
 )
 ;
+add_task
+(
 function
-run_test
+*
+test_setup
 (
 )
 {
@@ -413,6 +416,7 @@ do_get_profile
 true
 )
 ;
+yield
 setEmptyPrefWatchlist
 (
 )
@@ -427,11 +431,9 @@ PREF_TELEMETRY_ENABLED
 true
 )
 ;
-run_next_test
-(
+}
 )
 ;
-}
 add_task
 (
 function

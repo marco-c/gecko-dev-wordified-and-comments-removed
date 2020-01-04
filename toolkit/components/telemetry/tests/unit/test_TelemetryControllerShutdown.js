@@ -214,8 +214,11 @@ plain
 )
 ;
 }
+add_task
+(
 function
-run_test
+*
+test_setup
 (
 )
 {
@@ -248,6 +251,7 @@ XPCShell
 "
 )
 ;
+yield
 setEmptyPrefWatchlist
 (
 )
@@ -272,11 +276,9 @@ PREF_FHR_UPLOAD_ENABLED
 true
 )
 ;
-run_next_test
-(
+}
 )
 ;
-}
 add_task
 (
 function

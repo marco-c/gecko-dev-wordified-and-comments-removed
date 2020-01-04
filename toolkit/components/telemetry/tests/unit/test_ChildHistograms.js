@@ -643,6 +643,7 @@ if
 runningInParent
 )
 {
+yield
 setEmptyPrefWatchlist
 (
 )

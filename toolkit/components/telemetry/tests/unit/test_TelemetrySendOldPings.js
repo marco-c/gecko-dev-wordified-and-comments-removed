@@ -616,8 +616,11 @@ gSeenPings
 +
 ;
 }
+add_task
+(
 function
-run_test
+*
+test_setup
 (
 )
 {
@@ -663,6 +666,7 @@ XPCShell
 "
 )
 ;
+yield
 setEmptyPrefWatchlist
 (
 )
@@ -702,11 +706,9 @@ PingServer
 port
 )
 ;
-run_next_test
-(
+}
 )
 ;
-}
 add_task
 (
 function
