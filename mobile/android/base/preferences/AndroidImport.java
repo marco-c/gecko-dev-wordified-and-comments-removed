@@ -128,6 +128,7 @@ util
 .
 ArrayList
 ;
+public
 class
 AndroidImport
 implements
