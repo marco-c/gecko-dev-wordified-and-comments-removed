@@ -3437,6 +3437,16 @@ String8
 s
 )
 {
+if
+(
+!
+s
+)
+{
+return
+false
+;
+}
 time_t
 time_1970
 =
