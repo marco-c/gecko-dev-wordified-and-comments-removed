@@ -90,10 +90,6 @@ WebGLContextBoundObject
 (
 webgl
 )
-mCanBeAvailable
-(
-false
-)
 mGLName
 (
 0
