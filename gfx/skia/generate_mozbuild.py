@@ -1543,6 +1543,15 @@ CXXFLAGS
 -
 Wno
 -
+deprecated
+-
+declarations
+'
+        
+'
+-
+Wno
+-
 overloaded
 -
 virtual
@@ -1552,18 +1561,18 @@ virtual
 -
 Wno
 -
-unused
+sign
 -
-function
+compare
 '
         
 '
 -
 Wno
 -
-deprecated
+unused
 -
-declarations
+function
 '
     
 ]
@@ -1581,6 +1590,15 @@ CXXFLAGS
 +
 =
 [
+            
+'
+-
+Wno
+-
+implicit
+-
+fallthrough
+'
             
 '
 -
@@ -1622,6 +1640,7 @@ CXXFLAGS
 +
 =
 [
+            
 '
 -
 Wno
@@ -1630,6 +1649,16 @@ logical
 -
 op
 '
+            
+'
+-
+Wno
+-
+maybe
+-
+uninitialized
+'
+        
 ]
     
 if
