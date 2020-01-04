@@ -40,6 +40,11 @@ LOG
 #
 undef
 LOG_ENABLED
+extern
+PRLogModuleInfo
+*
+gCamerasParentLog
+;
 #
 define
 LOG
