@@ -6004,6 +6004,9 @@ addonId
 AutoJSAPI
 jsapi
 ;
+if
+(
+!
 jsapi
 .
 Init
@@ -6015,6 +6018,9 @@ PrivilegedJunkScope
 (
 )
 )
+)
+return
+false
 ;
 addonId
 =
@@ -6070,6 +6076,9 @@ addonId
 AutoJSAPI
 jsapi
 ;
+if
+(
+!
 jsapi
 .
 Init
@@ -6081,6 +6090,9 @@ PrivilegedJunkScope
 (
 )
 )
+)
+return
+false
 ;
 addonId
 =

@@ -299,6 +299,7 @@ Init
 (
 )
 ;
+MOZ_MUST_USE
 bool
 Init
 (
@@ -307,6 +308,7 @@ nsIGlobalObject
 aGlobalObject
 )
 ;
+MOZ_MUST_USE
 bool
 Init
 (
@@ -315,6 +317,7 @@ JSObject
 aObject
 )
 ;
+MOZ_MUST_USE
 bool
 Init
 (
@@ -326,6 +329,7 @@ JSContext
 aCx
 )
 ;
+MOZ_MUST_USE
 bool
 Init
 (
@@ -334,6 +338,7 @@ nsPIDOMWindowInner
 aWindow
 )
 ;
+MOZ_MUST_USE
 bool
 Init
 (
@@ -345,6 +350,7 @@ JSContext
 aCx
 )
 ;
+MOZ_MUST_USE
 bool
 Init
 (
@@ -353,6 +359,7 @@ nsGlobalWindow
 aWindow
 )
 ;
+MOZ_MUST_USE
 bool
 Init
 (
@@ -435,6 +442,7 @@ cx
 ;
 }
 ;
+MOZ_MUST_USE
 bool
 StealException
 (
@@ -451,6 +459,7 @@ Value
 aVal
 )
 ;
+MOZ_MUST_USE
 bool
 PeekException
 (
