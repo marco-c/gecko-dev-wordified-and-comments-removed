@@ -1121,16 +1121,6 @@ Browser
 ;
 }
 void
-SetStopped
-(
-)
-{
-mStopped
-=
-true
-;
-}
-void
 Invalidate
 (
 )
