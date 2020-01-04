@@ -329,7 +329,7 @@ file
 .
 append
 (
-FILE_PERMS_TEST
+FILE_UPDATE_TEST
 )
 ;
 file

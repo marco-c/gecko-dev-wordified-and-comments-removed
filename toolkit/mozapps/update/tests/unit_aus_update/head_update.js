@@ -1,3 +1,8 @@
+const
+IS_SERVICE_TEST
+=
+false
+;
 load
 (
 "

@@ -838,7 +838,7 @@ gDefaultPrefBranch
 .
 setCharPref
 (
-PREF_APP_PARTNER_BRANCH
+PREFBRANCH_APP_PARTNER
 +
 "
 test_partner1
@@ -852,7 +852,7 @@ gDefaultPrefBranch
 .
 setCharPref
 (
-PREF_APP_PARTNER_BRANCH
+PREFBRANCH_APP_PARTNER
 +
 "
 test_partner2

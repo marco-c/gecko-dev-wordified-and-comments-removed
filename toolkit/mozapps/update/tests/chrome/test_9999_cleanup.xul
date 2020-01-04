@@ -512,7 +512,7 @@ file
 .
 append
 (
-FILE_UPDATE_ARCHIVE
+FILE_UPDATE_MAR
 )
 ;
 ok

@@ -195,16 +195,6 @@ STATE_FAILED
 23
 "
 ;
-const
-STATE_FAILED_WRITE_ERROR_FILE_COPY
-=
-STATE_FAILED
-+
-"
-:
-61
-"
-;
 function
 getRemoteUpdatesXMLString
 (
