@@ -540,7 +540,6 @@ suppressGC
 {
 minorGC
 (
-cx
 JS
 :
 :
@@ -1323,7 +1322,6 @@ hasPendingInterrupt
 )
 gcIfRequested
 (
-cx
 )
 ;
 if

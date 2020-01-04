@@ -1732,7 +1732,6 @@ gc
 .
 minorGC
 (
-this
 reason
 )
 ;
