@@ -405,7 +405,11 @@ int32_t
 sAutoMemoryCacheCapacity
 ;
 static
+Atomic
+<
 uint32_t
+Relaxed
+>
 sDiskCacheCapacity
 ;
 static
