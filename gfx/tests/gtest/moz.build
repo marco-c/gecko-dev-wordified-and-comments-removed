@@ -198,6 +198,11 @@ TestTextures
 .
 cpp
 '
+'
+TestTreeTraversal
+.
+cpp
+'
 #
 Test
 works
