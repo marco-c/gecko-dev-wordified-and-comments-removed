@@ -984,6 +984,25 @@ pattern
 )
 :
             
+p
+=
+p
+.
+replace
+(
+'
+/
+%
+s
+/
+'
+%
+SDK_RELEASE
+'
+/
+'
+)
+            
 relpath
 =
 '
