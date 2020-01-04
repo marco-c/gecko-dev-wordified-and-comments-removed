@@ -1609,6 +1609,9 @@ mType
 TimeUnit
 (
 )
+TimeUnit
+(
+)
 )
 ;
 {
@@ -1893,6 +1896,13 @@ Seek
 (
 mType
 aTime
+TimeUnit
+:
+:
+FromMicroseconds
+(
+EOS_FUZZ_US
+)
 )
 ;
 {
