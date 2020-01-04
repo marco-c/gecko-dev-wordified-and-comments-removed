@@ -630,12 +630,6 @@ why
 )
 override
 ;
-MOZ_NORETURN
-void
-QuickExit
-(
-)
-;
 virtual
 bool
 RecvProcessNativeEventsInInterruptCall

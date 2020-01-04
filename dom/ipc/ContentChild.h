@@ -2613,12 +2613,6 @@ aReason
 )
 override
 ;
-MOZ_NORETURN
-void
-QuickExit
-(
-)
-;
 InfallibleTArray
 <
 nsAutoPtr

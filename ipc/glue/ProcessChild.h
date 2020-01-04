@@ -98,6 +98,12 @@ gProcessChild
 mUILoop
 ;
 }
+static
+void
+QuickExit
+(
+)
+;
 protected
 :
 static
