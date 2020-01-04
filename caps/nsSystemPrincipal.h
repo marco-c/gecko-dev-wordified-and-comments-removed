@@ -212,6 +212,16 @@ return
 true
 ;
 }
+PrincipalKind
+Kind
+(
+)
+override
+{
+return
+eSystemPrincipal
+;
+}
 }
 ;
 #
