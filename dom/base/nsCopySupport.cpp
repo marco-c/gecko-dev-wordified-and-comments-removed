@@ -789,11 +789,6 @@ Init
 domDoc
 mimeType
 aFlags
-|
-nsIDocumentEncoder
-:
-:
-OutputDisallowLineBreaking
 )
 ;
 NS_ENSURE_SUCCESS
