@@ -242,14 +242,14 @@ EXTRA_COMPONENTS
 '
 devtools
 -
-startup
+clhandler
 .
 js
 '
 '
 devtools
 -
-startup
+clhandler
 .
 manifest
 '
