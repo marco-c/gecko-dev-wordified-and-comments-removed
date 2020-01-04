@@ -112,11 +112,6 @@ size_t
 framesToProcess
 )
 ;
-void
-reset
-(
-)
-;
 int
 inputReadIndex
 (

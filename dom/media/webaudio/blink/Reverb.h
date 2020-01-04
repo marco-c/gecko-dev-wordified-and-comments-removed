@@ -107,11 +107,6 @@ size_t
 framesToProcess
 )
 ;
-void
-reset
-(
-)
-;
 size_t
 impulseResponseLength
 (
