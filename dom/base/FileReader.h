@@ -129,9 +129,9 @@ public
 :
 FileReader
 (
-nsPIDOMWindow
+nsIGlobalObject
 *
-aWindow
+aGlobal
 workers
 :
 :
