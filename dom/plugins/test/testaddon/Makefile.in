@@ -84,6 +84,9 @@ plugin
 npswftest
 .
 plugin
+npctrltest
+.
+plugin
 addon_file_name
 =
 testaddon_
@@ -120,6 +123,13 @@ DLL_SUFFIX
 DLL_PREFIX
 )
 npswftest
+(
+DLL_SUFFIX
+)
+(
+DLL_PREFIX
+)
+npctrltest
 (
 DLL_SUFFIX
 )
