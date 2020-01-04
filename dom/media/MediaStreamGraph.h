@@ -528,7 +528,7 @@ MediaStreamTrackListener
 }
 ;
 class
-DirectMediaStreamListener
+MediaStreamDirectListener
 :
 public
 MediaStreamListener
@@ -537,7 +537,7 @@ public
 :
 virtual
 ~
-DirectMediaStreamListener
+MediaStreamDirectListener
 (
 )
 {
@@ -565,7 +565,7 @@ aMedia
 }
 ;
 class
-DirectMediaStreamTrackListener
+MediaStreamTrackDirectListener
 :
 public
 MediaStreamTrackListener
@@ -625,7 +625,7 @@ protected
 :
 virtual
 ~
-DirectMediaStreamTrackListener
+MediaStreamTrackDirectListener
 (
 )
 {
@@ -1250,7 +1250,7 @@ virtual
 void
 AddDirectTrackListener
 (
-DirectMediaStreamTrackListener
+MediaStreamTrackDirectListener
 *
 aListener
 TrackID
@@ -1261,7 +1261,7 @@ virtual
 void
 RemoveDirectTrackListener
 (
-DirectMediaStreamTrackListener
+MediaStreamTrackDirectListener
 *
 aListener
 TrackID
@@ -1601,7 +1601,7 @@ AddDirectTrackListenerImpl
 (
 already_AddRefed
 <
-DirectMediaStreamTrackListener
+MediaStreamTrackDirectListener
 >
 aListener
 TrackID
@@ -1612,7 +1612,7 @@ virtual
 void
 RemoveDirectTrackListenerImpl
 (
-DirectMediaStreamTrackListener
+MediaStreamTrackDirectListener
 *
 aListener
 TrackID
@@ -2493,7 +2493,7 @@ aEvent
 void
 AddDirectListener
 (
-DirectMediaStreamListener
+MediaStreamDirectListener
 *
 aListener
 )
@@ -2501,7 +2501,7 @@ aListener
 void
 RemoveDirectListener
 (
-DirectMediaStreamListener
+MediaStreamDirectListener
 *
 aListener
 )
@@ -2769,7 +2769,7 @@ AddDirectTrackListenerImpl
 (
 already_AddRefed
 <
-DirectMediaStreamTrackListener
+MediaStreamTrackDirectListener
 >
 aListener
 TrackID
@@ -2780,7 +2780,7 @@ override
 void
 RemoveDirectTrackListenerImpl
 (
-DirectMediaStreamTrackListener
+MediaStreamTrackDirectListener
 *
 aListener
 TrackID
@@ -2903,7 +2903,7 @@ nsTArray
 <
 RefPtr
 <
-DirectMediaStreamListener
+MediaStreamDirectListener
 >
 >
 mDirectListeners
@@ -2912,7 +2912,7 @@ nsTArray
 <
 TrackBound
 <
-DirectMediaStreamTrackListener
+MediaStreamTrackDirectListener
 >
 >
 mDirectTrackListeners

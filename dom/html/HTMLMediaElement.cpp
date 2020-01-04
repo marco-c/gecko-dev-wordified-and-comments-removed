@@ -1107,7 +1107,7 @@ HTMLMediaElement
 StreamSizeListener
 :
 public
-DirectMediaStreamTrackListener
+MediaStreamTrackDirectListener
 {
 public
 :

@@ -124,7 +124,7 @@ nsTArray
 <
 RefPtr
 <
-DirectMediaStreamTrackListener
+MediaStreamTrackDirectListener
 >
 >
 mOwnedDirectListeners
@@ -179,7 +179,7 @@ AddDirectTrackListenerImpl
 (
 already_AddRefed
 <
-DirectMediaStreamTrackListener
+MediaStreamTrackDirectListener
 >
 aListener
 TrackID
@@ -190,7 +190,7 @@ override
 void
 RemoveDirectTrackListenerImpl
 (
-DirectMediaStreamTrackListener
+MediaStreamTrackDirectListener
 *
 aListener
 TrackID
@@ -217,7 +217,7 @@ nsTArray
 <
 TrackBound
 <
-DirectMediaStreamTrackListener
+MediaStreamTrackDirectListener
 >
 >
 mPendingDirectTrackListeners

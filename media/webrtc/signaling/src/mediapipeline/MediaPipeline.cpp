@@ -5580,7 +5580,7 @@ MediaPipelineTransmit
 PipelineListener
 :
 public
-DirectMediaStreamTrackListener
+MediaStreamTrackDirectListener
 {
 friend
 class

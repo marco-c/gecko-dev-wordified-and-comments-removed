@@ -378,7 +378,7 @@ Fake_MediaStreamListener
 }
 ;
 class
-Fake_DirectMediaStreamListener
+Fake_MediaStreamDirectListener
 :
 public
 Fake_MediaStreamListener
@@ -387,7 +387,7 @@ protected
 :
 virtual
 ~
-Fake_DirectMediaStreamListener
+Fake_MediaStreamDirectListener
 (
 )
 {
@@ -474,7 +474,7 @@ aQueuedMedia
 }
 ;
 class
-Fake_DirectMediaStreamTrackListener
+Fake_MediaStreamTrackDirectListener
 :
 public
 Fake_MediaStreamTrackListener
@@ -483,7 +483,7 @@ protected
 :
 virtual
 ~
-Fake_DirectMediaStreamTrackListener
+Fake_MediaStreamTrackDirectListener
 (
 )
 {
@@ -1798,7 +1798,7 @@ aListener
 void
 AddDirectListener
 (
-Fake_DirectMediaStreamTrackListener
+Fake_MediaStreamTrackDirectListener
 *
 aListener
 )
@@ -1813,7 +1813,7 @@ aListener
 >
 NotifyDirectListenerInstalled
 (
-Fake_DirectMediaStreamTrackListener
+Fake_MediaStreamTrackDirectListener
 :
 :
 InstallationResult
@@ -1826,7 +1826,7 @@ STREAM_NOT_SUPPORTED
 void
 RemoveDirectListener
 (
-Fake_DirectMediaStreamTrackListener
+Fake_MediaStreamTrackDirectListener
 *
 aListener
 )
@@ -2699,16 +2699,16 @@ Fake_MediaStreamListener
 MediaStreamListener
 ;
 typedef
-Fake_DirectMediaStreamListener
-DirectMediaStreamListener
+Fake_MediaStreamDirectListener
+MediaStreamDirectListener
 ;
 typedef
 Fake_MediaStreamTrackListener
 MediaStreamTrackListener
 ;
 typedef
-Fake_DirectMediaStreamTrackListener
-DirectMediaStreamTrackListener
+Fake_MediaStreamTrackDirectListener
+MediaStreamTrackDirectListener
 ;
 typedef
 Fake_DOMMediaStream

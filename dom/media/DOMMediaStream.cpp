@@ -3608,7 +3608,7 @@ DOMMediaStream
 :
 AddDirectListener
 (
-DirectMediaStreamListener
+MediaStreamDirectListener
 *
 aListener
 )
@@ -3659,7 +3659,7 @@ DOMMediaStream
 :
 RemoveDirectListener
 (
-DirectMediaStreamListener
+MediaStreamDirectListener
 *
 aListener
 )

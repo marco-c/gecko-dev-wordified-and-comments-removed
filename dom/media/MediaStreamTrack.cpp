@@ -1746,7 +1746,7 @@ MediaStreamTrack
 :
 AddDirectListener
 (
-DirectMediaStreamTrackListener
+MediaStreamTrackDirectListener
 *
 aListener
 )
@@ -1819,7 +1819,7 @@ MediaStreamTrack
 :
 RemoveDirectListener
 (
-DirectMediaStreamTrackListener
+MediaStreamTrackDirectListener
 *
 aListener
 )

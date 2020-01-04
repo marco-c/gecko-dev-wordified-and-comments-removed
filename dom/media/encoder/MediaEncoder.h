@@ -73,7 +73,7 @@ class
 MediaEncoder
 :
 public
-DirectMediaStreamListener
+MediaStreamDirectListener
 {
 public
 :

@@ -89,7 +89,7 @@ class
 MediaStreamTrackListener
 ;
 class
-DirectMediaStreamTrackListener
+MediaStreamTrackDirectListener
 ;
 class
 PeerConnectionImpl
@@ -949,7 +949,7 @@ aListener
 void
 AddDirectListener
 (
-DirectMediaStreamTrackListener
+MediaStreamTrackDirectListener
 *
 aListener
 )
@@ -957,7 +957,7 @@ aListener
 void
 RemoveDirectListener
 (
-DirectMediaStreamTrackListener
+MediaStreamTrackDirectListener
 *
 aListener
 )
