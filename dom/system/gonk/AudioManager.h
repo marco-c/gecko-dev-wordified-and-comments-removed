@@ -248,6 +248,16 @@ return
 mLastDevices
 ;
 }
+bool
+IsVolumeIndexesChanged
+(
+)
+;
+void
+ClearVolumeIndexesChanged
+(
+)
+;
 void
 InitStreamVolume
 (
@@ -338,6 +348,9 @@ mLastDevices
 ;
 bool
 mIsDevicesChanged
+;
+bool
+mIsVolumeIndexesChanged
 ;
 nsDataHashtable
 <
