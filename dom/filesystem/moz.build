@@ -265,6 +265,12 @@ dom
 /
 base
 '
+'
+/
+dom
+/
+workers
+'
 ]
 if
 CONFIG

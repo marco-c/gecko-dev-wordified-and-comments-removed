@@ -131,6 +131,9 @@ FileSystemFileResponse
 nsString
 realPath
 ;
+nsString
+domPath
+;
 }
 ;
 struct
