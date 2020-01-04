@@ -726,11 +726,6 @@ className
 "
 arrayLeftBracket
 "
-role
-:
-"
-presentation
-"
 object
 :
 object
@@ -747,11 +742,6 @@ className
 :
 "
 arrayRightBracket
-"
-role
-:
-"
-presentation
 "
 object
 :

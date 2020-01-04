@@ -740,11 +740,6 @@ className
 "
 objectLeftBrace
 "
-role
-:
-"
-presentation
-"
 object
 :
 object
@@ -761,11 +756,6 @@ className
 :
 "
 objectRightBrace
-"
-role
-:
-"
-presentation
 "
 object
 :
