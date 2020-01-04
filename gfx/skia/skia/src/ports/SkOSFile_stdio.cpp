@@ -266,8 +266,6 @@ file
 endif
 file
 =
-:
-:
 fopen
 (
 path
@@ -360,8 +358,6 @@ f
 )
 {
 return
-:
-:
 fgets
 (
 str
@@ -409,8 +405,6 @@ f
 long
 curr
 =
-:
-:
 ftell
 (
 f
@@ -427,8 +421,6 @@ return
 0
 ;
 }
-:
-:
 fseek
 (
 f
@@ -439,8 +431,6 @@ SEEK_END
 long
 size
 =
-:
-:
 ftell
 (
 f
@@ -458,8 +448,6 @@ size
 0
 ;
 }
-:
-:
 fseek
 (
 f
@@ -524,8 +512,6 @@ nullptr
 size_t
 curr
 =
-:
-:
 ftell
 (
 f
@@ -587,8 +573,6 @@ return
 int
 err
 =
-:
-:
 fseek
 (
 f
@@ -663,8 +647,6 @@ byteCount
 }
 else
 return
-:
-:
 fread
 (
 buffer
@@ -694,8 +676,6 @@ f
 )
 ;
 return
-:
-:
 fwrite
 (
 buffer
@@ -718,8 +698,6 @@ SkASSERT
 f
 )
 ;
-:
-:
 fflush
 (
 f
@@ -766,15 +744,11 @@ _NEWLIB_VERSION
 int
 fd
 =
-:
-:
 fileno
 (
 f
 )
 ;
-:
-:
 fsync
 (
 fd
@@ -796,8 +770,6 @@ byteCount
 int
 err
 =
-:
-:
 fseek
 (
 f
@@ -828,8 +800,6 @@ byteCount
 int
 err
 =
-:
-:
 fseek
 (
 f
@@ -855,8 +825,6 @@ f
 long
 curr
 =
-:
-:
 ftell
 (
 f
@@ -890,8 +858,6 @@ SkASSERT
 f
 )
 ;
-:
-:
 fclose
 (
 f
