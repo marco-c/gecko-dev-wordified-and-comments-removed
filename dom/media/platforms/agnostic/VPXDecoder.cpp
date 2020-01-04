@@ -1327,15 +1327,6 @@ DECODE_ERROR
 ;
 }
 else
-if
-(
-mTaskQueue
--
->
-IsEmpty
-(
-)
-)
 {
 mCallback
 -
