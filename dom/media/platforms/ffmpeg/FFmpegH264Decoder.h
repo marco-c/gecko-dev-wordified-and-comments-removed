@@ -235,10 +235,6 @@ mDisplayWidth
 uint32_t
 mDisplayHeight
 ;
-AVCodecParserContext
-*
-mCodecParser
-;
 }
 ;
 }
