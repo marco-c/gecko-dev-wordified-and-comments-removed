@@ -2548,7 +2548,7 @@ this
 nsLayoutUtils
 :
 :
-HasCurrentAnimationOfProperty
+HasRelevantAnimationOfProperty
 (
 this
 eCSSProperty_transform
@@ -5509,10 +5509,10 @@ IsSVGTransformed
 mContent
 &
 &
-EffectCompositor
+nsLayoutUtils
 :
 :
-HasAnimationsForCompositor
+HasRelevantAnimationOfProperty
 (
 this
 eCSSProperty_transform
@@ -5599,10 +5599,10 @@ NS_STYLE_WILL_CHANGE_OPACITY
 mContent
 &
 &
-EffectCompositor
+nsLayoutUtils
 :
 :
-HasAnimationsForCompositor
+HasRelevantAnimationOfProperty
 (
 this
 eCSSProperty_opacity
