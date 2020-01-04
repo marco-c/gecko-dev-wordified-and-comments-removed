@@ -565,3 +565,16 @@ MOZ_SWITCHBOARD
 =
 1
 fi
+#
+Use
+native
+Firefox
+Accounts
+UI
+regardless
+of
+channel
+.
+MOZ_ANDROID_NATIVE_ACCOUNT_UI
+=
+1
