@@ -3281,7 +3281,8 @@ PluginWidgetChild
 aActor
 )
 ;
-NS_IMETHOD
+virtual
+void
 ReparentNativeWidget
 (
 nsIWidget

@@ -1704,7 +1704,8 @@ GetXULWindowWidget
 (
 )
 ;
-NS_IMETHOD
+virtual
+void
 ReparentNativeWidget
 (
 nsIWidget

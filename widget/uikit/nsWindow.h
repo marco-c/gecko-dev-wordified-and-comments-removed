@@ -431,15 +431,6 @@ GetInputContext
 (
 )
 ;
-NS_IMETHOD
-ReparentNativeWidget
-(
-nsIWidget
-*
-aNewParent
-)
-override
-;
 protected
 :
 virtual

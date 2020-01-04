@@ -3773,7 +3773,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -3804,7 +3804,6 @@ eWindowType_popup
 )
 {
 return
-NS_OK
 ;
 }
 HWND
@@ -3853,9 +3852,6 @@ newParent
 )
 ;
 }
-return
-NS_OK
-;
 }
 nsIWidget
 *

@@ -1698,7 +1698,8 @@ eBorderStyle_title
 )
 ;
 }
-NS_IMETHOD
+virtual
+void
 ReparentNativeWidget
 (
 nsIWidget
@@ -1706,9 +1707,8 @@ nsIWidget
 aNewParent
 )
 override
-=
-0
-;
+{
+}
 virtual
 const
 SizeConstraints

@@ -969,15 +969,6 @@ LAYER_MANAGER_CURRENT
 )
 override
 ;
-NS_IMETHOD
-ReparentNativeWidget
-(
-nsIWidget
-*
-aNewParent
-)
-override
-;
 virtual
 bool
 NeedsPaint
