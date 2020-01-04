@@ -1054,6 +1054,10 @@ aEvent
 void
 RequestContentRepaint
 (
+bool
+aUserAction
+=
+true
 )
 ;
 void
