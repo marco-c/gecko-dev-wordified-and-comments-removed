@@ -587,7 +587,7 @@ nodePath
 =
 self
 .
-getNodeOrNpmPath
+get_node_or_npm_path
 (
 "
 node
@@ -627,7 +627,7 @@ npmPath
 =
 self
 .
-getNodeOrNpmPath
+get_node_or_npm_path
 (
 "
 npm
@@ -645,7 +645,7 @@ return
 if
 self
 .
-eslintModuleHasIssues
+eslint_module_has_issues
 (
 )
 :
@@ -1000,7 +1000,7 @@ npmPath
 =
 self
 .
-getNodeOrNpmPath
+get_node_or_npm_path
 (
 "
 npm
@@ -1147,7 +1147,7 @@ success
 =
 self
 .
-callProcess
+call_process
 (
 pkg
 cmd
@@ -1225,7 +1225,7 @@ orig_cwd
 )
     
 def
-callProcess
+call_process
 (
 self
 name
@@ -1324,7 +1324,7 @@ return
 True
     
 def
-eslintModuleHasIssues
+eslint_module_has_issues
 (
 self
 )
@@ -1509,7 +1509,7 @@ npmPath
 =
 self
 .
-getNodeOrNpmPath
+get_node_or_npm_path
 (
 "
 npm
@@ -1588,7 +1588,7 @@ return
 False
     
 def
-getPossibleNodePathsWin
+get_possible_node_paths_win
 (
 self
 )
@@ -1718,7 +1718,7 @@ nodejs
 )
     
 def
-getNodeOrNpmPath
+get_node_or_npm_path
 (
 self
 filename
@@ -1791,7 +1791,7 @@ path
 =
 self
 .
-getPossibleNodePathsWin
+get_possible_node_paths_win
 (
 )
 )
@@ -1898,7 +1898,7 @@ appPaths
 =
 self
 .
-getPossibleNodePathsWin
+get_possible_node_paths_win
 (
 )
             
