@@ -436,10 +436,6 @@ onloadedmetadata
 ;
 attribute
 EventHandler
-onloadend
-;
-attribute
-EventHandler
 onloadstart
 ;
 attribute
