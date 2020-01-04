@@ -2359,8 +2359,9 @@ rval
 =
 s
 .
-read
+maybeRead
 (
+fallback
 )
 ;
 else
