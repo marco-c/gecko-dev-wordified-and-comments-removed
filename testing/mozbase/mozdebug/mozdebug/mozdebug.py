@@ -276,6 +276,16 @@ gdb
 ]
       
 '
+android
+'
+:
+[
+'
+gdb
+'
+]
+      
+'
 unknown
 '
 :
