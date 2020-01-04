@@ -217,6 +217,11 @@ PseudoElementHashEntry
 .
 h
 '
+'
+TimingParams
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -294,6 +299,11 @@ cpp
 '
 '
 PendingAnimationTracker
+.
+cpp
+'
+'
+TimingParams
 .
 cpp
 '

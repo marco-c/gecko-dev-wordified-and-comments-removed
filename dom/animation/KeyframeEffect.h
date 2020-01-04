@@ -109,6 +109,15 @@ include
 "
 mozilla
 /
+TimingParams
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 AnimationEffectReadOnly
