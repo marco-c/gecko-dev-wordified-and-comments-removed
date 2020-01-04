@@ -1260,13 +1260,6 @@ cpp
 '
 asmjs
 /
-Wasm
-.
-cpp
-'
-'
-asmjs
-/
 WasmBaselineCompile
 .
 cpp
@@ -1310,6 +1303,13 @@ cpp
 asmjs
 /
 WasmCode
+.
+cpp
+'
+'
+asmjs
+/
+WasmCompile
 .
 cpp
 '

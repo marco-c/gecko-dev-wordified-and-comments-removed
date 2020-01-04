@@ -33,15 +33,6 @@ include
 "
 asmjs
 /
-Wasm
-.
-h
-"
-#
-include
-"
-asmjs
-/
 WasmInstance
 .
 h

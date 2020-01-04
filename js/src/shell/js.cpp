@@ -347,7 +347,7 @@ include
 "
 asmjs
 /
-Wasm
+WasmJS
 .
 h
 "
