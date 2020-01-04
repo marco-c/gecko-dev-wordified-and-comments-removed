@@ -3389,7 +3389,7 @@ false
 fun
 -
 >
-initAtom
+setAtom
 (
 atom
 )
