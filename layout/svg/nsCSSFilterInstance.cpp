@@ -1602,7 +1602,7 @@ AppUnitsToFloatCSSPixels
 aRadiusInFrameSpace
 )
 ;
-gfxSize
+Size
 radiusInFilterSpace
 (
 radiusInFrameSpaceInCSSPx
@@ -1671,11 +1671,11 @@ Size
 )
 ;
 }
-gfxFloat
+Float
 maxStdDeviation
 =
 (
-gfxFloat
+Float
 )
 kMaxStdDeviation
 ;
@@ -1710,10 +1710,7 @@ maxStdDeviation
 )
 ;
 return
-ToSize
-(
 radiusInFilterSpace
-)
 ;
 }
 IntPoint
