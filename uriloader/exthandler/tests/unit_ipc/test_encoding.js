@@ -1664,10 +1664,10 @@ initChildTestEnv
 )
 ;
 for
-each
 (
+let
 set
-in
+of
 tests
 )
 httpserver
