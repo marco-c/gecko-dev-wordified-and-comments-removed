@@ -3487,6 +3487,13 @@ fdlibm
 trunc
 #
 define
+truncf
+fdlibm
+:
+:
+truncf
+#
+define
 floorf
 fdlibm
 :
