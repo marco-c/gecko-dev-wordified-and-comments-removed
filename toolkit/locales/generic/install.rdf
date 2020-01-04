@@ -72,6 +72,12 @@ MPL
 #
 filter
 substitution
+#
+include
+TK_DEFINES
+#
+include
+APP_DEFINES
 -
 -
 >
