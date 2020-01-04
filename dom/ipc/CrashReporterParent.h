@@ -142,6 +142,14 @@ aPairName
 )
 ;
 bool
+UseMinidump
+(
+nsIFile
+*
+aMinidump
+)
+;
+bool
 GenerateChildData
 (
 const
