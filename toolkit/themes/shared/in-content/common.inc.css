@@ -845,6 +845,14 @@ not
 .
 menu
 -
+accel
+)
+:
+not
+(
+.
+menu
+-
 text
 )
 xul

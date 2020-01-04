@@ -19,6 +19,14 @@ inc
 .
 css
 label
+:
+not
+(
+.
+menu
+-
+text
+)
 textbox
 description
 .
