@@ -1775,7 +1775,7 @@ favicon
 }
 private
 static
-GeckoView
+LayerView
 sLayerView
 ;
 public
@@ -1783,7 +1783,7 @@ static
 void
 setLayerView
 (
-GeckoView
+LayerView
 lv
 )
 {
@@ -1840,7 +1840,7 @@ IME_STATE_DISABLED
 RobocopTarget
 public
 static
-GeckoView
+LayerView
 getLayerView
 (
 )
@@ -12800,7 +12800,7 @@ viewSizeChanged
 (
 )
 {
-GeckoView
+LayerView
 v
 =
 getLayerView

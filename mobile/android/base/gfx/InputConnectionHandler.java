@@ -4,6 +4,8 @@ org
 mozilla
 .
 gecko
+.
+gfx
 ;
 import
 android
@@ -37,8 +39,9 @@ inputmethod
 .
 InputConnection
 ;
+public
 interface
-InputConnectionListener
+InputConnectionHandler
 {
 Handler
 getHandler
