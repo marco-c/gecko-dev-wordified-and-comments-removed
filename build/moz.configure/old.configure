@@ -2186,13 +2186,6 @@ sqlite
 -
 enable
 -
-systrace
-'
-'
--
--
-enable
--
 tasktracer
 '
 '
