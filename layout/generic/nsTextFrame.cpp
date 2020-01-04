@@ -25282,7 +25282,7 @@ AppUnitsPerDevPixel
 (
 )
 ;
-gfxFloat
+Float
 gfxWidth
 =
 (
@@ -25318,7 +25318,7 @@ maxAscent
 /
 appUnitsPerDevUnit
 ;
-gfxFloat
+Float
 gfxUnderlineSize
 =
 underlineSize
@@ -25341,7 +25341,7 @@ nsCSSRendering
 GetTextDecorationRect
 (
 aPresContext
-gfxSize
+Size
 (
 gfxWidth
 gfxUnderlineSize
@@ -25362,7 +25362,7 @@ nsCSSRendering
 GetTextDecorationRect
 (
 aPresContext
-gfxSize
+Size
 (
 gfxWidth
 gfxUnderlineSize
@@ -25601,7 +25601,7 @@ nsCSSRendering
 GetTextDecorationRect
 (
 aPresContext
-gfxSize
+Size
 (
 gfxWidth
 metrics
@@ -25786,7 +25786,7 @@ nsCSSRendering
 GetTextDecorationRect
 (
 aPresContext
-gfxSize
+Size
 (
 gfxWidth
 metrics
@@ -25971,7 +25971,7 @@ nsCSSRendering
 GetTextDecorationRect
 (
 aPresContext
-gfxSize
+Size
 (
 gfxWidth
 metrics
@@ -26403,13 +26403,13 @@ nscolor
 *
 aOverrideColor
 const
-gfxPoint
+Point
 &
 aPt
 gfxFloat
 aICoordInFrame
 const
-gfxSize
+Size
 &
 aLineSize
 gfxFloat
@@ -26458,14 +26458,8 @@ ToRect
 (
 aDirtyRect
 )
-ToPoint
-(
 aPt
-)
-ToSize
-(
 aLineSize
-)
 aAscent
 aOffset
 aDecoration
@@ -26564,7 +26558,7 @@ TextRangeStyle
 &
 aRangeStyle
 const
-gfxPoint
+Point
 &
 aPt
 gfxFloat
@@ -26591,13 +26585,13 @@ uint8_t
 aDecoration
 )
 {
-gfxPoint
+Point
 pt
 (
 aPt
 )
 ;
-gfxSize
+Size
 size
 (
 aWidth
@@ -29440,7 +29434,7 @@ AppUnitsPerDevPixel
 (
 )
 ;
-gfxPoint
+Point
 pt
 ;
 if
@@ -32126,7 +32120,7 @@ measure
 )
 ;
 }
-gfxPoint
+Point
 decPt
 (
 x
@@ -32137,7 +32131,7 @@ y
 app
 )
 ;
-gfxFloat
+Float
 &
 bCoord
 =
@@ -32151,7 +32145,7 @@ decPt
 .
 y
 ;
-gfxSize
+Size
 decSize
 (
 measure
@@ -34000,7 +33994,7 @@ continue
 nsRect
 decorationArea
 ;
-gfxSize
+Size
 size
 (
 aPresContext

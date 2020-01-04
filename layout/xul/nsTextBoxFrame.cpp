@@ -2049,7 +2049,7 @@ ThebesContext
 (
 )
 ;
-gfxPoint
+Point
 pt
 (
 presContext
@@ -2072,7 +2072,7 @@ y
 )
 )
 ;
-gfxFloat
+Float
 width
 =
 presContext
@@ -2157,7 +2157,7 @@ AppUnitsToGfxUnits
 offset
 )
 ;
-gfxFloat
+Float
 sizePixel
 =
 presContext
@@ -2198,7 +2198,7 @@ dirtyRect
 underColor
 pt
 xInFrame
-gfxSize
+Size
 (
 width
 sizePixel
@@ -2241,7 +2241,7 @@ dirtyRect
 overColor
 pt
 xInFrame
-gfxSize
+Size
 (
 width
 sizePixel
@@ -2693,7 +2693,7 @@ dirtyRect
 strikeColor
 pt
 xInFrame
-gfxSize
+Size
 (
 width
 sizePixel
