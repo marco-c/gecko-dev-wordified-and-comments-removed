@@ -111,13 +111,6 @@ h
 #
 include
 "
-nsCORSListenerProxy
-.
-h
-"
-#
-include
-"
 nsISupportsPriority
 .
 h

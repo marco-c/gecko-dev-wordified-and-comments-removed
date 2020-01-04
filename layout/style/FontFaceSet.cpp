@@ -153,13 +153,6 @@ h
 #
 include
 "
-nsCORSListenerProxy
-.
-h
-"
-#
-include
-"
 nsContentPolicyUtils
 .
 h

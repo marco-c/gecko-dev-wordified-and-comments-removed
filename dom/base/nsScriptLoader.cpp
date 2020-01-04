@@ -267,13 +267,6 @@ h
 #
 include
 "
-nsCORSListenerProxy
-.
-h
-"
-#
-include
-"
 nsProxyRelease
 .
 h

@@ -102,13 +102,6 @@ h
 #
 include
 "
-nsCORSListenerProxy
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h
