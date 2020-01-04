@@ -1238,6 +1238,7 @@ n
 "
 "
 uniform
+highp
 sampler2DArray
 tex2DArray
 ;

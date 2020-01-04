@@ -1161,6 +1161,7 @@ mHeader
 ;
 header
 (
+mHeader
 &
 builtInFunctionEmulator
 )
@@ -1722,20 +1723,15 @@ OutputHLSL
 :
 header
 (
+TInfoSinkBase
+&
+out
 const
 BuiltInFunctionEmulator
 *
 builtInFunctionEmulator
 )
 {
-TInfoSinkBase
-&
-out
-=
-getInfoSink
-(
-)
-;
 TString
 varyings
 ;
@@ -5899,6 +5895,137 @@ m
 n
 "
 ;
+if
+(
+textureFunction
+-
+>
+method
+=
+=
+TextureFunction
+:
+:
+IMPLICIT
+)
+{
+out
+<
+<
+"
+float2
+tSized
+=
+float2
+(
+t
+.
+x
+*
+width
+t
+.
+y
+*
+height
+)
+;
+\
+n
+"
+"
+float2
+dx
+=
+ddx
+(
+tSized
+)
+;
+\
+n
+"
+"
+float2
+dy
+=
+ddy
+(
+tSized
+)
+;
+\
+n
+"
+"
+float
+lod
+=
+0
+.
+5f
+*
+log2
+(
+max
+(
+dot
+(
+dx
+dx
+)
+dot
+(
+dy
+dy
+)
+)
+)
+;
+\
+n
+"
+"
+mip
+=
+uint
+(
+min
+(
+max
+(
+round
+(
+lod
+)
+0
+)
+levels
+-
+1
+)
+)
+;
+\
+n
+"
+"
+x
+.
+GetDimensions
+(
+mip
+width
+height
+layers
+levels
+)
+;
+\
+n
+"
+;
+}
 }
 else
 if
@@ -9062,6 +9189,7 @@ EOpEqual
 {
 outputTriplet
 (
+out
 visit
 "
 (
@@ -9073,7 +9201,6 @@ visit
 "
 )
 "
-out
 )
 ;
 }
@@ -9081,6 +9208,7 @@ else
 {
 outputTriplet
 (
+out
 visit
 "
 (
@@ -9092,7 +9220,6 @@ visit
 "
 )
 "
-out
 )
 ;
 }
@@ -9142,6 +9269,7 @@ type
 ;
 outputTriplet
 (
+out
 visit
 (
 functionName
@@ -9159,7 +9287,6 @@ c_str
 "
 )
 "
-out
 )
 ;
 }
@@ -9200,6 +9327,7 @@ structure
 ;
 outputTriplet
 (
+out
 visit
 (
 functionName
@@ -9217,7 +9345,6 @@ c_str
 "
 )
 "
-out
 )
 ;
 }
@@ -9241,6 +9368,7 @@ isVector
 ;
 outputTriplet
 (
+out
 visit
 "
 all
@@ -9253,7 +9381,6 @@ all
 "
 )
 "
-out
 )
 ;
 }
@@ -9485,6 +9612,7 @@ getType
 ;
 outputTriplet
 (
+out
 visit
 (
 functionName
@@ -9509,6 +9637,7 @@ else
 {
 outputTriplet
 (
+out
 visit
 "
 (
@@ -9736,6 +9865,7 @@ EOpAddAssign
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -9756,6 +9886,7 @@ EOpSubAssign
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -9776,6 +9907,7 @@ EOpMulAssign
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -9796,6 +9928,7 @@ EOpVectorTimesScalarAssign
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -9816,6 +9949,7 @@ EOpMatrixTimesScalarAssign
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -9988,6 +10122,7 @@ EOpDivAssign
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -10008,6 +10143,7 @@ EOpIModAssign
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -10028,6 +10164,7 @@ EOpBitShiftLeftAssign
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -10049,6 +10186,7 @@ EOpBitShiftRightAssign
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -10070,6 +10208,7 @@ EOpBitwiseAndAssign
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -10090,6 +10229,7 @@ EOpBitwiseXorAssign
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -10110,6 +10250,7 @@ EOpBitwiseOrAssign
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -10239,6 +10380,7 @@ else
 {
 outputTriplet
 (
+out
 visit
 "
 "
@@ -10277,6 +10419,7 @@ EbtInterfaceBlock
 ;
 outputTriplet
 (
+out
 visit
 "
 "
@@ -10672,6 +10815,7 @@ EOpAdd
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -10691,6 +10835,7 @@ EOpSub
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -10710,6 +10855,7 @@ EOpMul
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -10729,6 +10875,7 @@ EOpDiv
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -10748,6 +10895,7 @@ EOpIMod
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -10767,6 +10915,7 @@ EOpBitShiftLeft
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -10787,6 +10936,7 @@ EOpBitShiftRight
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -10807,6 +10957,7 @@ EOpBitwiseAnd
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -10826,6 +10977,7 @@ EOpBitwiseXor
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -10845,6 +10997,7 @@ EOpBitwiseOr
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -10895,6 +11048,7 @@ EOpLessThan
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -10914,6 +11068,7 @@ EOpGreaterThan
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -10933,6 +11088,7 @@ EOpLessThanEqual
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -10953,6 +11109,7 @@ EOpGreaterThanEqual
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -10973,6 +11130,7 @@ EOpVectorTimesScalar
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -10992,6 +11150,7 @@ EOpMatrixTimesScalar
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -11011,6 +11170,7 @@ EOpVectorTimesMatrix
 :
 outputTriplet
 (
+out
 visit
 "
 mul
@@ -11033,6 +11193,7 @@ EOpMatrixTimesVector
 :
 outputTriplet
 (
+out
 visit
 "
 mul
@@ -11055,6 +11216,7 @@ EOpMatrixTimesMatrix
 :
 outputTriplet
 (
+out
 visit
 "
 transpose
@@ -11099,6 +11261,7 @@ hasSideEffects
 ;
 outputTriplet
 (
+out
 visit
 "
 (
@@ -11124,6 +11287,7 @@ true
 ;
 outputTriplet
 (
+out
 visit
 "
 xor
@@ -11159,6 +11323,7 @@ hasSideEffects
 ;
 outputTriplet
 (
+out
 visit
 "
 (
@@ -11199,6 +11364,14 @@ TIntermUnary
 node
 )
 {
+TInfoSinkBase
+&
+out
+=
+getInfoSink
+(
+)
+;
 switch
 (
 node
@@ -11214,6 +11387,7 @@ EOpNegative
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -11233,6 +11407,7 @@ EOpPositive
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -11252,6 +11427,7 @@ EOpVectorLogicalNot
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -11271,6 +11447,7 @@ EOpLogicalNot
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -11290,6 +11467,7 @@ EOpBitwiseNot
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -11309,6 +11487,7 @@ EOpPostIncrement
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -11329,6 +11508,7 @@ EOpPostDecrement
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -11349,6 +11529,7 @@ EOpPreIncrement
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -11369,6 +11550,7 @@ EOpPreDecrement
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -11389,6 +11571,7 @@ EOpRadians
 :
 outputTriplet
 (
+out
 visit
 "
 radians
@@ -11408,6 +11591,7 @@ EOpDegrees
 :
 outputTriplet
 (
+out
 visit
 "
 degrees
@@ -11427,6 +11611,7 @@ EOpSin
 :
 outputTriplet
 (
+out
 visit
 "
 sin
@@ -11446,6 +11631,7 @@ EOpCos
 :
 outputTriplet
 (
+out
 visit
 "
 cos
@@ -11465,6 +11651,7 @@ EOpTan
 :
 outputTriplet
 (
+out
 visit
 "
 tan
@@ -11484,6 +11671,7 @@ EOpAsin
 :
 outputTriplet
 (
+out
 visit
 "
 asin
@@ -11503,6 +11691,7 @@ EOpAcos
 :
 outputTriplet
 (
+out
 visit
 "
 acos
@@ -11522,6 +11711,7 @@ EOpAtan
 :
 outputTriplet
 (
+out
 visit
 "
 atan
@@ -11541,6 +11731,7 @@ EOpSinh
 :
 outputTriplet
 (
+out
 visit
 "
 sinh
@@ -11560,6 +11751,7 @@ EOpCosh
 :
 outputTriplet
 (
+out
 visit
 "
 cosh
@@ -11579,6 +11771,7 @@ EOpTanh
 :
 outputTriplet
 (
+out
 visit
 "
 tanh
@@ -11608,6 +11801,7 @@ getUseEmulatedFunction
 ;
 writeEmulatedFunctionTriplet
 (
+out
 visit
 "
 asinh
@@ -11632,6 +11826,7 @@ getUseEmulatedFunction
 ;
 writeEmulatedFunctionTriplet
 (
+out
 visit
 "
 acosh
@@ -11656,6 +11851,7 @@ getUseEmulatedFunction
 ;
 writeEmulatedFunctionTriplet
 (
+out
 visit
 "
 atanh
@@ -11670,6 +11866,7 @@ EOpExp
 :
 outputTriplet
 (
+out
 visit
 "
 exp
@@ -11689,6 +11886,7 @@ EOpLog
 :
 outputTriplet
 (
+out
 visit
 "
 log
@@ -11708,6 +11906,7 @@ EOpExp2
 :
 outputTriplet
 (
+out
 visit
 "
 exp2
@@ -11727,6 +11926,7 @@ EOpLog2
 :
 outputTriplet
 (
+out
 visit
 "
 log2
@@ -11746,6 +11946,7 @@ EOpSqrt
 :
 outputTriplet
 (
+out
 visit
 "
 sqrt
@@ -11765,6 +11966,7 @@ EOpInverseSqrt
 :
 outputTriplet
 (
+out
 visit
 "
 rsqrt
@@ -11784,6 +11986,7 @@ EOpAbs
 :
 outputTriplet
 (
+out
 visit
 "
 abs
@@ -11803,6 +12006,7 @@ EOpSign
 :
 outputTriplet
 (
+out
 visit
 "
 sign
@@ -11822,6 +12026,7 @@ EOpFloor
 :
 outputTriplet
 (
+out
 visit
 "
 floor
@@ -11841,6 +12046,7 @@ EOpTrunc
 :
 outputTriplet
 (
+out
 visit
 "
 trunc
@@ -11860,6 +12066,7 @@ EOpRound
 :
 outputTriplet
 (
+out
 visit
 "
 round
@@ -11889,6 +12096,7 @@ getUseEmulatedFunction
 ;
 writeEmulatedFunctionTriplet
 (
+out
 visit
 "
 roundEven
@@ -11903,6 +12111,7 @@ EOpCeil
 :
 outputTriplet
 (
+out
 visit
 "
 ceil
@@ -11922,6 +12131,7 @@ EOpFract
 :
 outputTriplet
 (
+out
 visit
 "
 frac
@@ -11941,6 +12151,7 @@ EOpIsNan
 :
 outputTriplet
 (
+out
 visit
 "
 isnan
@@ -11964,6 +12175,7 @@ EOpIsInf
 :
 outputTriplet
 (
+out
 visit
 "
 isinf
@@ -11983,6 +12195,7 @@ EOpFloatBitsToInt
 :
 outputTriplet
 (
+out
 visit
 "
 asint
@@ -12002,6 +12215,7 @@ EOpFloatBitsToUint
 :
 outputTriplet
 (
+out
 visit
 "
 asuint
@@ -12021,6 +12235,7 @@ EOpIntBitsToFloat
 :
 outputTriplet
 (
+out
 visit
 "
 asfloat
@@ -12040,6 +12255,7 @@ EOpUintBitsToFloat
 :
 outputTriplet
 (
+out
 visit
 "
 asfloat
@@ -12069,6 +12285,7 @@ getUseEmulatedFunction
 ;
 writeEmulatedFunctionTriplet
 (
+out
 visit
 "
 packSnorm2x16
@@ -12093,6 +12310,7 @@ getUseEmulatedFunction
 ;
 writeEmulatedFunctionTriplet
 (
+out
 visit
 "
 packUnorm2x16
@@ -12117,6 +12335,7 @@ getUseEmulatedFunction
 ;
 writeEmulatedFunctionTriplet
 (
+out
 visit
 "
 packHalf2x16
@@ -12141,6 +12360,7 @@ getUseEmulatedFunction
 ;
 writeEmulatedFunctionTriplet
 (
+out
 visit
 "
 unpackSnorm2x16
@@ -12165,6 +12385,7 @@ getUseEmulatedFunction
 ;
 writeEmulatedFunctionTriplet
 (
+out
 visit
 "
 unpackUnorm2x16
@@ -12189,6 +12410,7 @@ getUseEmulatedFunction
 ;
 writeEmulatedFunctionTriplet
 (
+out
 visit
 "
 unpackHalf2x16
@@ -12203,6 +12425,7 @@ EOpLength
 :
 outputTriplet
 (
+out
 visit
 "
 length
@@ -12222,6 +12445,7 @@ EOpNormalize
 :
 outputTriplet
 (
+out
 visit
 "
 normalize
@@ -12249,6 +12473,7 @@ mOutputLod0Function
 {
 outputTriplet
 (
+out
 visit
 "
 (
@@ -12268,6 +12493,7 @@ else
 {
 outputTriplet
 (
+out
 visit
 "
 ddx
@@ -12296,6 +12522,7 @@ mOutputLod0Function
 {
 outputTriplet
 (
+out
 visit
 "
 (
@@ -12315,6 +12542,7 @@ else
 {
 outputTriplet
 (
+out
 visit
 "
 ddy
@@ -12343,6 +12571,7 @@ mOutputLod0Function
 {
 outputTriplet
 (
+out
 visit
 "
 (
@@ -12362,6 +12591,7 @@ else
 {
 outputTriplet
 (
+out
 visit
 "
 fwidth
@@ -12382,6 +12612,7 @@ EOpTranspose
 :
 outputTriplet
 (
+out
 visit
 "
 transpose
@@ -12401,6 +12632,7 @@ EOpDeterminant
 :
 outputTriplet
 (
+out
 visit
 "
 determinant
@@ -12433,6 +12665,7 @@ getUseEmulatedFunction
 ;
 writeEmulatedFunctionTriplet
 (
+out
 visit
 "
 inverse
@@ -12447,6 +12680,7 @@ EOpAny
 :
 outputTriplet
 (
+out
 visit
 "
 any
@@ -12466,6 +12700,7 @@ EOpAll
 :
 outputTriplet
 (
+out
 visit
 "
 all
@@ -12533,6 +12768,7 @@ mInsideFunction
 {
 outputLineDirective
 (
+out
 node
 -
 >
@@ -12595,6 +12831,7 @@ sit
 {
 outputLineDirective
 (
+out
 (
 *
 sit
@@ -12696,6 +12933,7 @@ mInsideFunction
 {
 outputLineDirective
 (
+out
 node
 -
 >
@@ -13342,6 +13580,7 @@ EOpComma
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -14689,6 +14928,7 @@ EOpParameters
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -14712,6 +14952,7 @@ EOpConstructFloat
 :
 outputConstructor
 (
+out
 visit
 node
 -
@@ -14737,6 +14978,7 @@ EOpConstructVec2
 :
 outputConstructor
 (
+out
 visit
 node
 -
@@ -14762,6 +15004,7 @@ EOpConstructVec3
 :
 outputConstructor
 (
+out
 visit
 node
 -
@@ -14787,6 +15030,7 @@ EOpConstructVec4
 :
 outputConstructor
 (
+out
 visit
 node
 -
@@ -14812,6 +15056,7 @@ EOpConstructBool
 :
 outputConstructor
 (
+out
 visit
 node
 -
@@ -14837,6 +15082,7 @@ EOpConstructBVec2
 :
 outputConstructor
 (
+out
 visit
 node
 -
@@ -14862,6 +15108,7 @@ EOpConstructBVec3
 :
 outputConstructor
 (
+out
 visit
 node
 -
@@ -14887,6 +15134,7 @@ EOpConstructBVec4
 :
 outputConstructor
 (
+out
 visit
 node
 -
@@ -14912,6 +15160,7 @@ EOpConstructInt
 :
 outputConstructor
 (
+out
 visit
 node
 -
@@ -14937,6 +15186,7 @@ EOpConstructIVec2
 :
 outputConstructor
 (
+out
 visit
 node
 -
@@ -14962,6 +15212,7 @@ EOpConstructIVec3
 :
 outputConstructor
 (
+out
 visit
 node
 -
@@ -14987,6 +15238,7 @@ EOpConstructIVec4
 :
 outputConstructor
 (
+out
 visit
 node
 -
@@ -15012,6 +15264,7 @@ EOpConstructUInt
 :
 outputConstructor
 (
+out
 visit
 node
 -
@@ -15037,6 +15290,7 @@ EOpConstructUVec2
 :
 outputConstructor
 (
+out
 visit
 node
 -
@@ -15062,6 +15316,7 @@ EOpConstructUVec3
 :
 outputConstructor
 (
+out
 visit
 node
 -
@@ -15087,6 +15342,7 @@ EOpConstructUVec4
 :
 outputConstructor
 (
+out
 visit
 node
 -
@@ -15112,6 +15368,7 @@ EOpConstructMat2
 :
 outputConstructor
 (
+out
 visit
 node
 -
@@ -15137,6 +15394,7 @@ EOpConstructMat2x3
 :
 outputConstructor
 (
+out
 visit
 node
 -
@@ -15162,6 +15420,7 @@ EOpConstructMat2x4
 :
 outputConstructor
 (
+out
 visit
 node
 -
@@ -15187,6 +15446,7 @@ EOpConstructMat3x2
 :
 outputConstructor
 (
+out
 visit
 node
 -
@@ -15212,6 +15472,7 @@ EOpConstructMat3
 :
 outputConstructor
 (
+out
 visit
 node
 -
@@ -15237,6 +15498,7 @@ EOpConstructMat3x4
 :
 outputConstructor
 (
+out
 visit
 node
 -
@@ -15262,6 +15524,7 @@ EOpConstructMat4x2
 :
 outputConstructor
 (
+out
 visit
 node
 -
@@ -15287,6 +15550,7 @@ EOpConstructMat4x3
 :
 outputConstructor
 (
+out
 visit
 node
 -
@@ -15312,6 +15576,7 @@ EOpConstructMat4
 :
 outputConstructor
 (
+out
 visit
 node
 -
@@ -15397,6 +15662,7 @@ getSequence
 ;
 outputTriplet
 (
+out
 visit
 (
 structName
@@ -15425,6 +15691,7 @@ EOpLessThan
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -15444,6 +15711,7 @@ EOpGreaterThan
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -15463,6 +15731,7 @@ EOpLessThanEqual
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -15483,6 +15752,7 @@ EOpGreaterThanEqual
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -15503,6 +15773,7 @@ EOpVectorEqual
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -15523,6 +15794,7 @@ EOpVectorNotEqual
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -15553,6 +15825,7 @@ getUseEmulatedFunction
 ;
 writeEmulatedFunctionTriplet
 (
+out
 visit
 "
 mod
@@ -15567,6 +15840,7 @@ EOpModf
 :
 outputTriplet
 (
+out
 visit
 "
 modf
@@ -15586,6 +15860,7 @@ EOpPow
 :
 outputTriplet
 (
+out
 visit
 "
 pow
@@ -15633,6 +15908,7 @@ getUseEmulatedFunction
 ;
 writeEmulatedFunctionTriplet
 (
+out
 visit
 "
 atan
@@ -15647,6 +15923,7 @@ EOpMin
 :
 outputTriplet
 (
+out
 visit
 "
 min
@@ -15666,6 +15943,7 @@ EOpMax
 :
 outputTriplet
 (
+out
 visit
 "
 max
@@ -15685,6 +15963,7 @@ EOpClamp
 :
 outputTriplet
 (
+out
 visit
 "
 clamp
@@ -15756,6 +16035,7 @@ getUseEmulatedFunction
 ;
 writeEmulatedFunctionTriplet
 (
+out
 visit
 "
 mix
@@ -15768,6 +16048,7 @@ else
 {
 outputTriplet
 (
+out
 visit
 "
 lerp
@@ -15789,6 +16070,7 @@ EOpStep
 :
 outputTriplet
 (
+out
 visit
 "
 step
@@ -15808,6 +16090,7 @@ EOpSmoothStep
 :
 outputTriplet
 (
+out
 visit
 "
 smoothstep
@@ -15827,6 +16110,7 @@ EOpDistance
 :
 outputTriplet
 (
+out
 visit
 "
 distance
@@ -15846,6 +16130,7 @@ EOpDot
 :
 outputTriplet
 (
+out
 visit
 "
 dot
@@ -15865,6 +16150,7 @@ EOpCross
 :
 outputTriplet
 (
+out
 visit
 "
 cross
@@ -15894,6 +16180,7 @@ getUseEmulatedFunction
 ;
 writeEmulatedFunctionTriplet
 (
+out
 visit
 "
 faceforward
@@ -15908,6 +16195,7 @@ EOpReflect
 :
 outputTriplet
 (
+out
 visit
 "
 reflect
@@ -15927,6 +16215,7 @@ EOpRefract
 :
 outputTriplet
 (
+out
 visit
 "
 refract
@@ -15956,6 +16245,7 @@ getUseEmulatedFunction
 ;
 writeEmulatedFunctionTriplet
 (
+out
 visit
 "
 outerProduct
@@ -15970,6 +16260,7 @@ EOpMul
 :
 outputTriplet
 (
+out
 visit
 "
 (
@@ -16001,19 +16292,14 @@ OutputHLSL
 :
 writeSelection
 (
+TInfoSinkBase
+&
+out
 TIntermSelection
 *
 node
 )
 {
-TInfoSinkBase
-&
-out
-=
-getInfoSink
-(
-)
-;
 out
 <
 <
@@ -16046,6 +16332,7 @@ n
 ;
 outputLineDirective
 (
+out
 node
 -
 >
@@ -16134,6 +16421,7 @@ n
 }
 outputLineDirective
 (
+out
 node
 -
 >
@@ -16165,6 +16453,7 @@ n
 ;
 outputLineDirective
 (
+out
 node
 -
 >
@@ -16224,6 +16513,7 @@ this
 ;
 outputLineDirective
 (
+out
 node
 -
 >
@@ -16347,6 +16637,7 @@ FLATTEN
 }
 writeSelection
 (
+out
 node
 )
 ;
@@ -16367,6 +16658,14 @@ TIntermSwitch
 node
 )
 {
+TInfoSinkBase
+&
+out
+=
+getInfoSink
+(
+)
+;
 if
 (
 node
@@ -16398,6 +16697,7 @@ getStatementList
 ;
 outputTriplet
 (
+out
 visit
 "
 switch
@@ -16415,6 +16715,7 @@ else
 {
 outputTriplet
 (
+out
 visit
 "
 switch
@@ -16449,6 +16750,14 @@ TIntermCase
 node
 )
 {
+TInfoSinkBase
+&
+out
+=
+getInfoSink
+(
+)
+;
 if
 (
 node
@@ -16461,6 +16770,7 @@ hasCondition
 {
 outputTriplet
 (
+out
 visit
 "
 case
@@ -16482,14 +16792,6 @@ true
 }
 else
 {
-TInfoSinkBase
-&
-out
-=
-getInfoSink
-(
-)
-;
 out
 <
 <
@@ -16516,8 +16818,17 @@ TIntermConstantUnion
 node
 )
 {
+TInfoSinkBase
+&
+out
+=
+getInfoSink
+(
+)
+;
 writeConstantUnion
 (
+out
 node
 -
 >
@@ -16572,6 +16883,14 @@ node
 >
 0
 ;
+TInfoSinkBase
+&
+out
+=
+getInfoSink
+(
+)
+;
 if
 (
 mOutputType
@@ -16584,6 +16903,7 @@ if
 (
 handleExcessiveLoop
 (
+out
 node
 )
 )
@@ -16601,14 +16921,6 @@ false
 ;
 }
 }
-TInfoSinkBase
-&
-out
-=
-getInfoSink
-(
-)
-;
 const
 char
 *
@@ -16661,6 +16973,7 @@ n
 ;
 outputLineDirective
 (
+out
 node
 -
 >
@@ -16787,6 +17100,7 @@ n
 ;
 outputLineDirective
 (
+out
 node
 -
 >
@@ -16851,6 +17165,7 @@ n
 }
 outputLineDirective
 (
+out
 node
 -
 >
@@ -16876,6 +17191,7 @@ ELoopDoWhile
 {
 outputLineDirective
 (
+out
 node
 -
 >
@@ -16980,6 +17296,7 @@ EOpKill
 :
 outputTriplet
 (
+out
 visit
 "
 discard
@@ -17075,6 +17392,7 @@ EOpContinue
 :
 outputTriplet
 (
+out
 visit
 "
 continue
@@ -17310,6 +17628,9 @@ OutputHLSL
 :
 handleExcessiveLoop
 (
+TInfoSinkBase
+&
+out
 TIntermLoop
 *
 node
@@ -17320,14 +17641,6 @@ int
 MAX_LOOP_ITERATIONS
 =
 254
-;
-TInfoSinkBase
-&
-out
-=
-getInfoSink
-(
-)
 ;
 TIntermSymbol
 *
@@ -18207,6 +18520,7 @@ n
 ;
 outputLineDirective
 (
+out
 node
 -
 >
@@ -18252,6 +18566,7 @@ this
 }
 outputLineDirective
 (
+out
 node
 -
 >
@@ -18336,6 +18651,9 @@ OutputHLSL
 :
 outputTriplet
 (
+TInfoSinkBase
+&
+out
 Visit
 visit
 const
@@ -18350,9 +18668,6 @@ const
 char
 *
 postString
-TInfoSinkBase
-&
-out
 )
 {
 if
@@ -18404,42 +18719,11 @@ void
 OutputHLSL
 :
 :
-outputTriplet
-(
-Visit
-visit
-const
-char
-*
-preString
-const
-char
-*
-inString
-const
-char
-*
-postString
-)
-{
-outputTriplet
-(
-visit
-preString
-inString
-postString
-getInfoSink
-(
-)
-)
-;
-}
-void
-OutputHLSL
-:
-:
 outputLineDirective
 (
+TInfoSinkBase
+&
+out
 int
 line
 )
@@ -18460,14 +18744,6 @@ line
 )
 )
 {
-TInfoSinkBase
-&
-out
-=
-getInfoSink
-(
-)
-;
 out
 <
 <
@@ -18784,6 +19060,9 @@ OutputHLSL
 :
 outputConstructor
 (
+TInfoSinkBase
+&
+out
 Visit
 visit
 const
@@ -18814,14 +19093,6 @@ UNIMPLEMENTED
 )
 ;
 }
-TInfoSinkBase
-&
-out
-=
-getInfoSink
-(
-)
-;
 if
 (
 visit
@@ -18893,6 +19164,9 @@ OutputHLSL
 :
 writeConstantUnion
 (
+TInfoSinkBase
+&
+out
 const
 TType
 &
@@ -18904,14 +19178,6 @@ const
 constUnion
 )
 {
-TInfoSinkBase
-&
-out
-=
-getInfoSink
-(
-)
-;
 const
 TConstantUnion
 *
@@ -19000,6 +19266,7 @@ constUnionIterated
 =
 writeConstantUnion
 (
+out
 *
 fieldType
 constUnionIterated
@@ -19105,6 +19372,9 @@ OutputHLSL
 :
 writeEmulatedFunctionTriplet
 (
+TInfoSinkBase
+&
+out
 Visit
 visit
 const
@@ -19126,6 +19396,7 @@ preStr
 ;
 outputTriplet
 (
+out
 visit
 preString
 .
@@ -19830,21 +20101,9 @@ selection
 nullptr
 )
 {
-ASSERT
-(
-mInfoSinkStack
-.
-top
-(
-)
-=
-=
-&
-out
-)
-;
 writeSelection
 (
+out
 selection
 )
 ;

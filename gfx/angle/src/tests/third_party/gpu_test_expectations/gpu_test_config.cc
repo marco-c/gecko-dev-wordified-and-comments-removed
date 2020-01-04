@@ -1154,6 +1154,15 @@ GPUTestConfig
 :
 kOsMacYosemite
 ;
+case
+11
+:
+return
+GPUTestConfig
+:
+:
+kOsMacElCapitan
+;
 }
 }
 #
@@ -1841,6 +1850,9 @@ kOsMacMavericks
 :
 case
 kOsMacYosemite
+:
+case
+kOsMacElCapitan
 :
 case
 kOsLinux

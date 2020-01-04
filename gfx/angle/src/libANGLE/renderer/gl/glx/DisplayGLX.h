@@ -278,6 +278,14 @@ SwapControlData
 data
 )
 ;
+bool
+isValidWindowVisualId
+(
+int
+visualId
+)
+const
+;
 private
 :
 const
@@ -388,6 +396,9 @@ glx
 FBConfig
 >
 configIdToGLXConfig
+;
+EGLint
+mRequestedVisual
 ;
 glx
 :

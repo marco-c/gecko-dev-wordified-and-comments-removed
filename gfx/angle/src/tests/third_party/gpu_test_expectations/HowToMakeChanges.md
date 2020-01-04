@@ -159,7 +159,6 @@ git
 revert
 HEAD
 ~
-2
 *
 rm
 angle
@@ -172,7 +171,6 @@ git
 diff
 HEAD
 ~
-1
 (
 )
 ls

@@ -310,7 +310,7 @@ WillOnce
 (
 Return
 (
-GL_FRAMEBUFFER_COMPLETE
+true
 )
 )
 .
@@ -318,7 +318,7 @@ WillOnce
 (
 Return
 (
-GL_FRAMEBUFFER_COMPLETE
+true
 )
 )
 ;

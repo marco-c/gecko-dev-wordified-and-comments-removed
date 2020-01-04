@@ -101,6 +101,15 @@ BinaryOutputStream
 )
 )
 ;
+MOCK_METHOD1
+(
+setBinaryRetrievableHint
+void
+(
+bool
+)
+)
+;
 MOCK_METHOD2
 (
 link

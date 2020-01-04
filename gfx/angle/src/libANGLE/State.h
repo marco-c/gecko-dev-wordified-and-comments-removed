@@ -987,13 +987,6 @@ getArrayBufferId
 )
 const
 ;
-bool
-removeArrayBufferBinding
-(
-GLuint
-buffer
-)
-;
 void
 setGenericUniformBufferBinding
 (
@@ -1069,6 +1062,13 @@ GLenum
 target
 )
 const
+;
+void
+detachBuffer
+(
+GLuint
+bufferName
+)
 ;
 void
 setEnableVertexAttribArray

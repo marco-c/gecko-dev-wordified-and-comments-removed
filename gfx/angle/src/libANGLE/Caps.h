@@ -269,6 +269,9 @@ bool
 depthTextures
 ;
 bool
+depth32
+;
+bool
 textureStorage
 ;
 bool
@@ -795,6 +798,9 @@ bool
 platformBase
 ;
 bool
+platformDevice
+;
+bool
 platformANGLE
 ;
 bool
@@ -802,6 +808,15 @@ platformANGLED3D
 ;
 bool
 platformANGLEOpenGL
+;
+bool
+deviceCreation
+;
+bool
+deviceCreationD3D11
+;
+bool
+x11Visual
 ;
 bool
 clientGetAllProcAddresses

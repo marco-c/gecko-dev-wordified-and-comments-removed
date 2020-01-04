@@ -87,6 +87,10 @@ eglCreateImageKHR
 51
 eglDestroyImageKHR
 52
+eglCreateDeviceANGLE
+53
+eglReleaseDeviceANGLE
+54
 ;
 1
 .

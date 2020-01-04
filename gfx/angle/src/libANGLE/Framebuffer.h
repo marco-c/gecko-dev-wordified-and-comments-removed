@@ -239,6 +239,12 @@ return
 mColorAttachments
 ;
 }
+bool
+attachmentsHaveSameDimensions
+(
+)
+const
+;
 private
 :
 friend
@@ -504,6 +510,12 @@ const
 ;
 size_t
 getNumColorBuffers
+(
+)
+const
+;
+bool
+hasDepth
 (
 )
 const

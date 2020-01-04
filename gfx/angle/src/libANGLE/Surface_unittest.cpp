@@ -194,7 +194,7 @@ void
 )
 )
 ;
-MOCK_METHOD1
+MOCK_METHOD2
 (
 bindTexImage
 egl
@@ -202,6 +202,11 @@ egl
 :
 Error
 (
+gl
+:
+:
+Texture
+*
 EGLint
 )
 )

@@ -160,6 +160,8 @@ GLenum
 destFormat
 GLenum
 filter
+bool
+maskOffAlpha
 )
 ;
 gl
@@ -733,6 +735,12 @@ LazyShader
 ID3D11GeometryShader
 >
 mQuad3DGS
+;
+d3d11
+:
+:
+LazyBlendState
+mAlphaMaskBlendState
 ;
 ID3D11Buffer
 *

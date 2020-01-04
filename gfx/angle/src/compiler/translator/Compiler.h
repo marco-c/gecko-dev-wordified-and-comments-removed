@@ -799,6 +799,13 @@ size_t
 index
 )
 ;
+void
+initSamplerDefaultPrecision
+(
+TBasicType
+samplerType
+)
+;
 class
 UnusedPredicate
 ;

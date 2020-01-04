@@ -411,6 +411,12 @@ PbufferSurfaceGLX
 :
 bindTexImage
 (
+gl
+:
+:
+Texture
+*
+texture
 EGLint
 buffer
 )

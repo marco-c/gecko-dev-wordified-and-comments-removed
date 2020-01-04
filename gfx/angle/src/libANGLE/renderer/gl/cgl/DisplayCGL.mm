@@ -591,6 +591,7 @@ getRenderer
 )
 window
 mFunctions
+mContext
 )
 ;
 }

@@ -145,6 +145,10 @@ gl
 DepthStencilState
 &
 dsState
+bool
+disableDepth
+bool
+disableStencil
 ID3D11DepthStencilState
 *
 *

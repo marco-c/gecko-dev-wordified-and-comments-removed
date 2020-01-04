@@ -1107,6 +1107,9 @@ defines
 "
 GL_GLEXT_PROTOTYPES
 "
+"
+EGL_EGLEXT_PROTOTYPES
+"
 ]
 if
 (

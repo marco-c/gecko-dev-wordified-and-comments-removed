@@ -147,6 +147,12 @@ egl
 Error
 bindTexImage
 (
+gl
+:
+:
+Texture
+*
+texture
 EGLint
 buffer
 )

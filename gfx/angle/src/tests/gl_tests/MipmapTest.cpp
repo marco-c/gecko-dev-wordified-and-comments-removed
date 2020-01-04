@@ -1169,6 +1169,7 @@ highp
 float
 ;
 uniform
+highp
 sampler2DArray
 tex
 ;
@@ -1343,6 +1344,7 @@ highp
 float
 ;
 uniform
+highp
 sampler3D
 tex
 ;

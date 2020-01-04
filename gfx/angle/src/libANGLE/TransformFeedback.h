@@ -167,6 +167,13 @@ getIndexedBufferCount
 )
 const
 ;
+void
+detachBuffer
+(
+GLuint
+bufferName
+)
+;
 rx
 :
 :

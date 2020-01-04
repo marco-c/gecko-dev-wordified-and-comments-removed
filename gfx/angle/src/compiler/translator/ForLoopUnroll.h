@@ -34,6 +34,8 @@ ForLoopUnrollMarker
 (
 UnrollCondition
 condition
+bool
+hasRunLoopValidation
 )
 :
 TIntermTraverser
@@ -53,6 +55,10 @@ false
 mVisitSamplerArrayIndexNodeInsideLoop
 (
 false
+)
+mHasRunLoopValidation
+(
+hasRunLoopValidation
 )
 {
 }
@@ -108,6 +114,9 @@ mSamplerArrayIndexIsFloatLoopIndex
 ;
 bool
 mVisitSamplerArrayIndexNodeInsideLoop
+;
+bool
+mHasRunLoopValidation
 ;
 }
 ;
