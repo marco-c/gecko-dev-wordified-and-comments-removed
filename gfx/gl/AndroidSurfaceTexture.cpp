@@ -947,6 +947,7 @@ Matrix4x4
 &
 aMatrix
 )
+const
 {
 JNIEnv
 *
