@@ -6206,6 +6206,9 @@ else
 {
 boxBSize
 =
+nsLayoutUtils
+:
+:
 ComputeBSizeValue
 (
 blockContentSize
