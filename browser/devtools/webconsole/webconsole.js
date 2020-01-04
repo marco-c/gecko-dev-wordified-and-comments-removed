@@ -8567,6 +8567,15 @@ owner
 target
 )
 ;
+if
+(
+!
+toolbox
+)
+{
+return
+;
+}
 return
 toolbox
 .
