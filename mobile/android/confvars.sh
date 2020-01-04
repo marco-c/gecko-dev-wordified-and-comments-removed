@@ -309,15 +309,6 @@ MOZ_SERVICES_HEALTHREPORT
 1
 #
 Enable
-runtime
-locale
-switching
-.
-MOZ_LOCALE_SWITCHER
-=
-1
-#
-Enable
 second
 screen
 using
