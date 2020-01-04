@@ -645,13 +645,13 @@ override
 ;
 static
 bool
-AreAnyFallbackCiphersEnabled
+AreAnyWeakCiphersEnabled
 (
 )
 ;
 static
 void
-UseFallbackCiphersOnSocket
+UseWeakCiphersOnSocket
 (
 PRFileDesc
 *
