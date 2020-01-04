@@ -12961,7 +12961,7 @@ self
 )
 :
         
-el
+el_or_ref
 =
 self
 .
@@ -12977,12 +12977,23 @@ value
 "
 )
         
+if
+self
+.
+protocol
+<
+3
+:
+            
 return
 HTMLElement
 (
 self
-el
+el_or_ref
 )
+        
+return
+el_or_ref
     
 def
 log
