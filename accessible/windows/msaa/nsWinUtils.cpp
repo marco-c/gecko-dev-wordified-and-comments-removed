@@ -206,7 +206,7 @@ OwnerDoc
 )
 -
 >
-GetWindow
+GetInnerWindow
 (
 )
 )
