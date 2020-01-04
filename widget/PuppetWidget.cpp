@@ -4985,6 +4985,9 @@ nativeData
 ;
 }
 case
+NS_NATIVE_WINDOW
+:
+case
 NS_NATIVE_WIDGET
 :
 case
@@ -5009,9 +5012,6 @@ instead
 "
 )
 ;
-case
-NS_NATIVE_WINDOW
-:
 case
 NS_NATIVE_PLUGIN_PORT
 :
