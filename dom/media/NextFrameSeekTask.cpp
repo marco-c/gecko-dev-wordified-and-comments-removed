@@ -491,6 +491,12 @@ __func__
 ;
 if
 (
+!
+IsVideoRequestPending
+(
+)
+&
+&
 NeedMoreVideo
 (
 )
@@ -564,11 +570,6 @@ if
 (
 !
 IsVideoDecoding
-(
-)
-|
-|
-IsVideoRequestPending
 (
 )
 )
