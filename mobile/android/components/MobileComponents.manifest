@@ -409,9 +409,6 @@ cb7d69325cd9
 }
 #
 endif
-#
-ifndef
-MOZ_ANDROID_NATIVE_ACCOUNT_UI
 contract
 mozilla
 .
@@ -439,8 +436,6 @@ aebf
 -
 cb7d69325cd9
 }
-#
-endif
 contract
 mozilla
 .

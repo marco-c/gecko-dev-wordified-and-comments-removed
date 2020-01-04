@@ -88,9 +88,6 @@ about
 .
 dtd
 )
-#
-ifndef
-MOZ_ANDROID_NATIVE_ACCOUNT_UI
 locale
 /
 AB_CD
@@ -125,8 +122,6 @@ aboutAccounts
 .
 properties
 )
-#
-endif
 locale
 /
 AB_CD

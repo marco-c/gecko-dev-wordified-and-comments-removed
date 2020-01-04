@@ -91,9 +91,6 @@ about
 .
 css
 )
-#
-ifndef
-MOZ_ANDROID_NATIVE_ACCOUNT_UI
 skin
 /
 aboutAccounts
@@ -104,8 +101,6 @@ aboutAccounts
 .
 css
 )
-#
-endif
 skin
 /
 aboutAddons

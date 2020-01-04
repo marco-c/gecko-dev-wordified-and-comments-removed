@@ -4421,14 +4421,6 @@ AccessFu
 }
 if
 (
-!
-AppConstants
-.
-MOZ_ANDROID_NATIVE_ACCOUNT_UI
-)
-{
-if
-(
 ParentalControls
 .
 isAllowed
@@ -4507,7 +4499,6 @@ Accounts
 "
 )
 ;
-}
 }
 Messaging
 .

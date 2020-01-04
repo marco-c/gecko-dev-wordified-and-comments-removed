@@ -677,9 +677,6 @@ js
 )
 #
 endif
-#
-ifndef
-MOZ_ANDROID_NATIVE_ACCOUNT_UI
 content
 /
 aboutAccounts
@@ -704,8 +701,6 @@ aboutAccounts
 .
 js
 )
-#
-endif
 content
 /
 aboutLogins
