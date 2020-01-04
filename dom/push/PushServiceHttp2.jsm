@@ -3950,6 +3950,13 @@ updateRegistrationAndNotifyApp
 aSubscriptionUri
 recordNew
 )
+.
+catch
+(
+Cu
+.
+reportError
+)
 ;
 }
 }
@@ -3971,6 +3978,13 @@ _mainPushService
 dropRegistrationAndNotifyApp
 (
 aSubscriptionUri
+)
+.
+catch
+(
+Cu
+.
+reportError
 )
 ;
 }
