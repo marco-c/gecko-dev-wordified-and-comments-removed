@@ -1284,6 +1284,17 @@ aInsertedContent
 )
 ;
 void
+ProcessContentInserted
+(
+Accessible
+*
+aContainer
+nsIContent
+*
+aInsertedContent
+)
+;
+void
 ProcessInvalidationList
 (
 )
