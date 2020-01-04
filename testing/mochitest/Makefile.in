@@ -546,15 +546,6 @@ mobile
 /
 android
 )
-JAVA_CLASSPATH
-=
-(
-ANDROID_SDK
-)
-/
-android
-.
-jar
 include
 (
 topsrcdir

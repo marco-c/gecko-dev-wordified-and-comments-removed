@@ -103,15 +103,6 @@ signing
 them
 all
 .
-JAVA_CLASSPATH
-=
-(
-ANDROID_SDK
-)
-/
-android
-.
-jar
 include
 (
 topsrcdir
