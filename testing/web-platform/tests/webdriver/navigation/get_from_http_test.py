@@ -86,9 +86,7 @@ self
 .
 driver
 .
-get_current_url
-(
-)
+current_url
         
 self
 .
@@ -154,9 +152,7 @@ self
 .
 driver
 .
-get_current_url
-(
-)
+current_url
         
 self
 .
@@ -230,9 +226,7 @@ self
 .
 driver
 .
-get_current_url
-(
-)
+current_url
         
 self
 .
@@ -306,9 +300,7 @@ self
 .
 driver
 .
-get_current_url
-(
-)
+current_url
         
 self
 .
@@ -363,9 +355,7 @@ self
 .
 driver
 .
-get_current_url
-(
-)
+current_url
         
 self
 .

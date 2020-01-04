@@ -37,7 +37,9 @@ __file__
 import
 base_test
 from
-webdriver
+selenium
+.
+common
 import
 exceptions
 class

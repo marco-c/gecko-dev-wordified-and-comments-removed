@@ -37,9 +37,18 @@ __file__
 import
 base_test
 from
-webdriver
+selenium
+.
+common
 import
 exceptions
+from
+selenium
+.
+webdriver
+.
+support
+import
 wait
 class
 AlertsQuitTest
@@ -74,7 +83,7 @@ ignored_exceptions
 [
 exceptions
 .
-NoSuchAlertException
+NoAlertPresentException
 ]
 )
         
@@ -113,7 +122,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 '
 #

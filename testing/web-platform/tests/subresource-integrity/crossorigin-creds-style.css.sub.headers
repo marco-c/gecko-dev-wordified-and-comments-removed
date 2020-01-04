@@ -24,12 +24,11 @@ domains
 ]
 }
 }
-:
 {
 {
-location
+GET
 [
-port
+acao_port
 ]
 }
 }

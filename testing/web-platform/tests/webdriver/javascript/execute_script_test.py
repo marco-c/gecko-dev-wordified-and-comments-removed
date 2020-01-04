@@ -36,6 +36,16 @@ __file__
 )
 import
 base_test
+from
+selenium
+.
+webdriver
+.
+remote
+.
+webelement
+import
+WebElement
 class
 ExecuteScriptTest
 (

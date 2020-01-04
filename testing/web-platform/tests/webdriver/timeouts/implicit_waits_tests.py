@@ -37,7 +37,9 @@ __file__
 import
 base_test
 from
-webdriver
+selenium
+.
+common
 import
 exceptions
 class
@@ -93,7 +95,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 "
 #
@@ -105,7 +107,7 @@ self
 .
 driver
 .
-set_implicit_timeout
+implicitly_wait
 (
 3
 )
@@ -120,7 +122,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 "
 #
@@ -139,7 +141,7 @@ self
 .
 driver
 .
-set_implicit_timeout
+implicitly_wait
 (
 0
 .
@@ -153,7 +155,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 "
 #
@@ -219,7 +221,7 @@ self
 .
 driver
 .
-set_implicit_timeout
+implicitly_wait
 (
 3
 )
@@ -228,7 +230,7 @@ self
 .
 driver
 .
-set_implicit_timeout
+implicitly_wait
 (
 0
 )
@@ -240,7 +242,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 "
 #
@@ -308,7 +310,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 "
 #
@@ -320,7 +322,7 @@ self
 .
 driver
 .
-set_implicit_timeout
+implicitly_wait
 (
 2
 )
@@ -343,7 +345,7 @@ self
 .
 driver
 .
-find_elements_by_css
+find_elements_by_css_selector
 (
 "
 .
@@ -375,7 +377,7 @@ self
 .
 driver
 .
-set_implicit_timeout
+implicitly_wait
 (
 0
 .
@@ -388,7 +390,7 @@ self
 .
 driver
 .
-find_elements_by_css
+find_elements_by_css_selector
 (
 "
 .
@@ -420,7 +422,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 "
 #
@@ -432,7 +434,7 @@ self
 .
 driver
 .
-set_implicit_timeout
+implicitly_wait
 (
 1
 .
@@ -443,7 +445,7 @@ self
 .
 driver
 .
-set_implicit_timeout
+implicitly_wait
 (
 0
 )
@@ -460,7 +462,7 @@ self
 .
 driver
 .
-find_elements_by_css
+find_elements_by_css_selector
 (
 "
 .

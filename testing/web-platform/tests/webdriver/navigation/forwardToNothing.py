@@ -80,7 +80,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 "
 body
@@ -93,7 +93,7 @@ self
 .
 driver
 .
-go_forward
+forward
 (
 )
         
@@ -103,7 +103,7 @@ self
 .
 driver
 .
-find_element_by_css
+find_element_by_css_selector
 (
 "
 body

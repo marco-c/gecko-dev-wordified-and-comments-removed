@@ -170,9 +170,7 @@ self
 .
 driver
 .
-get_current_url
-(
-)
+current_url
 )
 if
 __name__

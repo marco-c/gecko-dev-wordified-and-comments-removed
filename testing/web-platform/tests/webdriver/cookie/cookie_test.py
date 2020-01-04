@@ -37,7 +37,9 @@ __file__
 import
 base_test
 from
-webdriver
+selenium
+.
+common
 import
 exceptions
 class
@@ -87,18 +89,6 @@ self
 )
 :
         
-name
-=
-'
-foo
-'
-        
-value
-=
-'
-bar
-'
-        
 self
 .
 driver
@@ -110,12 +100,16 @@ add_cookie
 name
 '
 :
-name
+'
+foo
+'
 '
 value
 '
 :
-value
+'
+bar
+'
 }
 )
     
@@ -132,16 +126,6 @@ name
 foo
 '
         
-value
-=
-'
-bar
-'
-        
-secure
-=
-True
-        
 self
 .
 driver
@@ -154,13 +138,15 @@ name
 '
 :
 name
-                                 
+                                
 '
 value
 '
 :
-value
-                                 
+'
+bar
+'
+                                
 '
 path
 '
@@ -168,12 +154,14 @@ path
 '
 /
 '
-                                 
+                                
 '
 secure
 '
 :
-secure
+(
+True
+)
 }
 )
         
@@ -276,12 +264,6 @@ foo
 bar
 '
         
-value
-=
-'
-foobar
-'
-        
 try
 :
             
@@ -301,7 +283,9 @@ invalid_name
 value
 '
 :
-value
+'
+foobar
+'
 }
 )
             
@@ -341,12 +325,6 @@ self
 )
 :
         
-val
-=
-'
-foobar
-'
-        
 try
 :
             
@@ -366,7 +344,9 @@ None
 value
 '
 :
-val
+'
+foobar
+'
 }
 )
             
