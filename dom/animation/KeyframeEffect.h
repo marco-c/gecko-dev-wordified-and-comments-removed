@@ -1069,7 +1069,7 @@ aStates
 const
 ;
 bool
-ShouldBlockCompositorAnimations
+ShouldBlockAsyncTransformAnimations
 (
 const
 nsIFrame
