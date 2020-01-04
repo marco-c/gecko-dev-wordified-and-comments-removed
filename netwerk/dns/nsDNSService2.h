@@ -125,6 +125,12 @@ mallocSizeOf
 )
 const
 ;
+bool
+GetOffline
+(
+)
+const
+;
 private
 :
 ~
@@ -199,9 +205,6 @@ mBlockDotOnion
 ;
 bool
 mFirstTime
-;
-bool
-mOffline
 ;
 bool
 mNotifyResolution
