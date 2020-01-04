@@ -1140,6 +1140,10 @@ const
 nsHttpResponseHead
 *
 responseHead
+const
+uint32_t
+&
+redirectFlags
 nsIChannel
 *
 *

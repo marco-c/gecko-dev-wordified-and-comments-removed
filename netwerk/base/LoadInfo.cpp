@@ -1537,6 +1537,13 @@ NS_ENSURE_ARG
 aPrincipal
 )
 ;
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 mRedirectChainIncludingInternalRedirects
 .
 AppendElement
