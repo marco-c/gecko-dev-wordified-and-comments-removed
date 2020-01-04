@@ -596,12 +596,6 @@ mRealTime
 ;
 }
 bool
-OnDecodeTaskQueue
-(
-)
-const
-;
-bool
 OnTaskQueue
 (
 )
