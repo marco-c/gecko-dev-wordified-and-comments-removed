@@ -7603,9 +7603,9 @@ final
 String
 thisDevice
 =
-ReadingListProvider
-.
-PLACEHOLDER_THIS_DEVICE
+"
+_fake_device_name_that_will_be_discarded_in_the_next_migration_
+"
 ;
 db
 .
