@@ -41846,6 +41846,17 @@ if
 forceInlineCaches
 (
 )
+&
+&
+obj
+-
+>
+is
+<
+GlobalObject
+>
+(
+)
 )
 {
 TemporaryTypeSet
