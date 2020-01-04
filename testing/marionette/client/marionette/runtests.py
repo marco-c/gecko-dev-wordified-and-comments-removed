@@ -484,6 +484,23 @@ Success
 "
 "
     
+logger
+=
+mozlog
+.
+commandline
+.
+setup_logging
+(
+'
+Marionette
+test
+runner
+'
+{
+}
+)
+    
 try
 :
         
@@ -515,6 +532,21 @@ exit
 except
 Exception
 :
+        
+logger
+.
+error
+(
+'
+Failure
+during
+harness
+setup
+'
+exc_info
+=
+True
+)
         
 sys
 .
