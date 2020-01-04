@@ -5719,9 +5719,32 @@ isMaplikeOrSetlike
 )
 :
                 
+if
 member
 .
-slotIndex
+slotIndices
+is
+None
+:
+                    
+member
+.
+slotIndices
+=
+dict
+(
+)
+                
+member
+.
+slotIndices
+[
+self
+.
+identifier
+.
+name
+]
 =
 self
 .
@@ -22670,7 +22693,7 @@ readonly
         
 self
 .
-slotIndex
+slotIndices
 =
 None
         
@@ -23913,7 +23936,7 @@ False
         
 self
 .
-slotIndex
+slotIndices
 =
 None
         

@@ -146,10 +146,12 @@ def
 memberReservedSlot
 (
 member
+descriptor
 )
 :
     
 return
+(
 "
 (
 DOM_INSTANCE_RESERVED_SLOTS
@@ -159,9 +161,20 @@ d
 )
 "
 %
+            
 member
 .
-slotIndex
+slotIndices
+[
+descriptor
+.
+interface
+.
+identifier
+.
+name
+]
+)
 def
 toStringBool
 (
@@ -14150,7 +14163,7 @@ and
             
 m
 .
-slotIndex
+slotIndices
 is
 not
 None
@@ -25937,25 +25950,6 @@ slots
 "
 "
                     
-slot
-=
-memberReservedSlot
-(
-m
-)
-                    
-interface
-=
-self
-.
-descriptor
-.
-interface
-.
-identifier
-.
-name
-                    
 member
 =
 m
@@ -26098,6 +26092,9 @@ memberReservedSlot
 self
 .
 member
+self
+.
+descriptor
 )
         
 if
@@ -50260,7 +50257,7 @@ self
 .
 idlNode
 .
-slotIndex
+slotIndices
 is
 not
 None
@@ -50599,6 +50596,9 @@ memberReservedSlot
 self
 .
 idlNode
+self
+.
+descriptor
 )
 )
             
@@ -53901,7 +53901,7 @@ wrapperCache
 and
 attr
 .
-slotIndex
+slotIndices
 is
 not
 None
@@ -57988,7 +57988,7 @@ self
 .
 attr
 .
-slotIndex
+slotIndices
 is
 not
 None
@@ -58259,6 +58259,9 @@ memberReservedSlot
 self
 .
 attr
+self
+.
+descriptor
 )
                 
 maybeWrap
@@ -60148,7 +60151,7 @@ rstrip
         
 slotAssert
 =
-dedent
+fill
 (
             
 "
@@ -60157,8 +60160,9 @@ dedent
             
 static_assert
 (
-%
-s
+{
+slotIndex
+}
 <
 =
 JSJitInfo
@@ -60175,11 +60179,45 @@ fit
 )
 ;
             
-"
-"
-"
-%
+static_assert
+(
+{
 slotIndex
+}
+<
+{
+classReservedSlots
+}
+"
+There
+is
+no
+slot
+for
+us
+"
+)
+;
+            
+"
+"
+"
+            
+slotIndex
+=
+slotIndex
+            
+classReservedSlots
+=
+INSTANCE_RESERVED_SLOTS
++
+self
+.
+descriptor
+.
+interface
+.
+totalMembersInSlots
 )
         
 if
@@ -60527,7 +60565,7 @@ self
 .
 member
 .
-slotIndex
+slotIndices
 is
 not
 None
@@ -60559,6 +60597,9 @@ memberReservedSlot
 self
 .
 member
+self
+.
+descriptor
 )
             
 else
@@ -106441,6 +106482,7 @@ slot
 memberReservedSlot
 (
 maplikeOrSetlike
+descriptor
 )
         
 func_prefix
