@@ -8632,6 +8632,17 @@ this
 )
 )
 ;
+reset
+(
+)
+;
+return
+Promise
+.
+resolve
+(
+)
+;
 }
 ;
 if

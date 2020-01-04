@@ -427,15 +427,3 @@ telemetry
 '
 docs
 '
-SPHINX_TREES
-[
-'
-healthreport
-'
-]
-=
-'
-docs
-/
-fhr
-'

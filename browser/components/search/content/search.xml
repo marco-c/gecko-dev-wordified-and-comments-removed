@@ -3369,7 +3369,7 @@ null
 }
 BrowserSearch
 .
-recordSearchInTelemetry
+recordSearchInHealthReport
 (
 engine
 "

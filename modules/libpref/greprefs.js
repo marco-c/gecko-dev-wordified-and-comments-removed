@@ -33,11 +33,9 @@ include
 .
 .
 /
-toolkit
+services
 /
-components
-/
-telemetry
+datareporting
 /
 datareporting
 -
@@ -86,11 +84,9 @@ include
 .
 .
 /
-toolkit
+services
 /
-components
-/
-telemetry
+healthreport
 /
 healthreport
 -
