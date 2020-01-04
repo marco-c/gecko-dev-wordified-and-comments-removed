@@ -54,6 +54,9 @@ class
 nsHttpResponseHead
 ;
 class
+InterceptStreamListener
+;
+class
 InterceptedChannelBase
 :
 public
@@ -300,9 +303,9 @@ nsIInputStream
 >
 mSynthesizedInput
 ;
-nsCOMPtr
+RefPtr
 <
-nsIStreamListener
+InterceptStreamListener
 >
 mStreamListener
 ;
@@ -316,7 +319,7 @@ aChannel
 nsINetworkInterceptController
 *
 aController
-nsIStreamListener
+InterceptStreamListener
 *
 aListener
 )
