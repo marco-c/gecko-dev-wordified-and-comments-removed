@@ -1190,6 +1190,17 @@ locationURI
 flags
 )
 {
+if
+(
+!
+webProgress
+.
+isTopLevel
+)
+{
+return
+;
+}
 let
 gBrowser
 =
