@@ -238,11 +238,6 @@ view
 js
 '
 '
-Parser
-.
-jsm
-'
-'
 poller
 .
 js

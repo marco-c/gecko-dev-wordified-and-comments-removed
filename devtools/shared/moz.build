@@ -286,6 +286,11 @@ parser
 js
 '
 '
+Parser
+.
+jsm
+'
+'
 path
 .
 js
