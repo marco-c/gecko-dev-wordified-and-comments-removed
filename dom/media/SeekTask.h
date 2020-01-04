@@ -237,10 +237,6 @@ MediaDecoderReaderWrapper
 >
 mReader
 ;
-SeekJob
-&
-mSeekJob
-;
 SeekTarget
 &
 mTarget

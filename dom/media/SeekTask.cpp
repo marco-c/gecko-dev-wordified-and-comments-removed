@@ -56,13 +56,9 @@ mReader
 (
 aReader
 )
-mSeekJob
-(
-aSeekJob
-)
 mTarget
 (
-mSeekJob
+aSeekJob
 .
 mTarget
 )

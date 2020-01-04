@@ -270,8 +270,6 @@ HasAudio
 )
 |
 |
-mSeekJob
-.
 mTarget
 .
 IsVideoOnly
@@ -621,13 +619,6 @@ AudioData
 MOZ_ASSERT
 (
 audio
-&
-&
-mSeekJob
-.
-Exists
-(
-)
 &
 &
 mTarget
@@ -1105,15 +1096,6 @@ GetEndTime
 )
 )
 ;
-MOZ_ASSERT
-(
-mSeekJob
-.
-Exists
-(
-)
-)
-;
 const
 int64_t
 target
@@ -1543,8 +1525,6 @@ mDiscontinuity
 ;
 if
 (
-mSeekJob
-.
 mTarget
 .
 IsVideoOnly
@@ -1710,8 +1690,6 @@ MediaData
 AUDIO_DATA
 &
 &
-mSeekJob
-.
 mTarget
 .
 IsVideoOnly
@@ -2220,8 +2198,6 @@ aData
 {
 if
 (
-mSeekJob
-.
 mTarget
 .
 IsVideoOnly
