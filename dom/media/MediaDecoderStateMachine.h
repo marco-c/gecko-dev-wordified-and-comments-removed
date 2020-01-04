@@ -1249,7 +1249,13 @@ EnqueueFirstFrameLoadedEvent
 (
 )
 ;
-void
+RefPtr
+<
+MediaDecoder
+:
+:
+SeekPromise
+>
 InitiateSeek
 (
 SeekJob
