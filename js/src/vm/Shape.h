@@ -1814,6 +1814,16 @@ Concrete
 Shape
 >
 ;
+friend
+class
+js
+:
+:
+gc
+:
+:
+RelocationOverlay
+;
 protected
 :
 HeapPtrBaseShape

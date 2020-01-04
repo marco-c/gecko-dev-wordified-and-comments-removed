@@ -893,6 +893,16 @@ friend
 class
 JSRope
 ;
+friend
+class
+js
+:
+:
+gc
+:
+:
+RelocationOverlay
+;
 protected
 :
 template
