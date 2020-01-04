@@ -26507,10 +26507,6 @@ FinishAndStoreOverflow
 aDesiredSize
 )
 ;
-aStatus
-=
-NS_FRAME_COMPLETE
-;
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
