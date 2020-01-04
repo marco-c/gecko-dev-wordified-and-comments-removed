@@ -1323,11 +1323,6 @@ mCaptured
 false
 )
 {
-bool
-startWithAudioDriver
-=
-true
-;
 MediaStreamGraph
 *
 graph
@@ -1347,7 +1342,10 @@ MediaStreamGraph
 :
 GetInstance
 (
-startWithAudioDriver
+MediaStreamGraph
+:
+:
+AUDIO_THREAD_DRIVER
 aChannel
 )
 ;
