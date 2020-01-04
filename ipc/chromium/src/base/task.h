@@ -345,7 +345,6 @@ Task
 {
 }
 virtual
-B2G_ACL_EXPORT
 ~
 Task
 (

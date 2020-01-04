@@ -179,11 +179,6 @@ SharedObject
 )
 HTML_TAG
 (
-extapp
-ExtApp
-)
-HTML_TAG
-(
 fieldset
 FieldSet
 )

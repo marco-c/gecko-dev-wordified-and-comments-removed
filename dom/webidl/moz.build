@@ -1030,11 +1030,6 @@ HTMLEmbedElement
 webidl
 '
 '
-HTMLExtAppElement
-.
-webidl
-'
-'
 HTMLFieldSetElement
 .
 webidl
@@ -3907,11 +3902,6 @@ webidl
 '
 '
 ErrorEvent
-.
-webidl
-'
-'
-ExternalAppEvent
 .
 webidl
 '

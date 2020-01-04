@@ -340,11 +340,6 @@ HTMLDivElement
 h
 '
 '
-HTMLExtAppElement
-.
-h
-'
-'
 HTMLFieldSetElement
 .
 h
@@ -726,11 +721,6 @@ cpp
 '
 '
 HTMLElement
-.
-cpp
-'
-'
-HTMLExtAppElement
 .
 cpp
 '

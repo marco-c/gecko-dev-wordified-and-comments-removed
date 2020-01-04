@@ -108,11 +108,6 @@ nsIDeviceSensors
 idl
 '
 '
-nsIExternalApplication
-.
-idl
-'
-'
 nsIGConfService
 .
 idl

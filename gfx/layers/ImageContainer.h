@@ -1517,7 +1517,6 @@ mozilla
 ReentrantMonitor
 ReentrantMonitor
 ;
-B2G_ACL_EXPORT
 ~
 ImageContainer
 (

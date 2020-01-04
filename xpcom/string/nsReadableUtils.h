@@ -442,7 +442,6 @@ nsACString
 aSource
 )
 ;
-B2G_ACL_EXPORT
 char
 *
 ToNewUTF8String

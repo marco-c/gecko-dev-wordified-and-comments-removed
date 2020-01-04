@@ -189,7 +189,6 @@ DestructionObserver
 destruction_observer
 )
 ;
-B2G_ACL_EXPORT
 void
 PostTask
 (

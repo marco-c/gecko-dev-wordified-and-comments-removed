@@ -1702,7 +1702,6 @@ void
 aClosure
 )
 ;
-B2G_ACL_EXPORT
 void
 Finalize
 (
