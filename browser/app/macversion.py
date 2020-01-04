@@ -105,6 +105,8 @@ exit
 (
 1
 )
+define
+MOZ_BUILDID
 buildid
 =
 open
@@ -118,6 +120,10 @@ r
 )
 .
 read
+(
+)
+.
+split
 (
 )
 majorVersion

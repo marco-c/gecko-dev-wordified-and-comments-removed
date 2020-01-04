@@ -583,9 +583,9 @@ buildid
 DEPTH
 )
 /
-config
-/
 buildid
+.
+h
 )
 .
 PHONY
