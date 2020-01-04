@@ -132,7 +132,9 @@ h
 #
 include
 "
-prprf
+mozilla
+/
+Snprintf
 .
 h
 "
@@ -851,10 +853,9 @@ bufferSize
 int
 writtenCount
 =
-PR_snprintf
+snprintf_literal
 (
 buffer
-bufferSize
 "
 FPS
 Data
@@ -941,10 +942,9 @@ nextTimeStamp
 ;
 writtenCount
 =
-PR_snprintf
+snprintf_literal
 (
 buffer
-bufferSize
 "
 %
 f
@@ -1411,7 +1411,7 @@ second
 length
 +
 =
-PR_snprintf
+snprintf
 (
 buffer
 +
