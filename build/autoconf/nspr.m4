@@ -992,7 +992,7 @@ ifelse
 ]
 )
 fi
-AC_SUBST
+AC_SUBST_LIST
 (
 NSPR_CFLAGS
 )

@@ -857,7 +857,7 @@ ifelse
 ]
 )
 fi
-AC_SUBST
+AC_SUBST_LIST
 (
 NSS_CFLAGS
 )
