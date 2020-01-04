@@ -6099,6 +6099,16 @@ true
 pref
 (
 "
+findbar
+.
+modalHighlight
+"
+true
+)
+;
+pref
+(
+"
 accessibility
 .
 loadedInLastSession
