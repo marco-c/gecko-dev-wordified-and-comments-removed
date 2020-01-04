@@ -272,7 +272,7 @@ UnsafeInPrerendering
 void
 assign
 (
-DOMString
+USVString
 url
 )
 ;
@@ -284,7 +284,7 @@ UnsafeInPrerendering
 void
 replace
 (
-DOMString
+USVString
 url
 )
 ;
