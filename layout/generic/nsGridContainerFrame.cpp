@@ -28823,6 +28823,10 @@ GetContent
 )
 ;
 }
+RenumberLists
+(
+)
+;
 #
 ifdef
 DEBUG
@@ -30701,6 +30705,10 @@ IntrinsicISizeType
 aConstraint
 )
 {
+RenumberLists
+(
+)
+;
 GridReflowInput
 state
 (
