@@ -7381,11 +7381,11 @@ APZStateChange
 APZStateChange
 :
 :
-TransformBegin
+eTransformBegin
 APZStateChange
 :
 :
-APZStateChangeSentinel
+eSentinel
 >
 {
 }

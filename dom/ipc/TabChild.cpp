@@ -7980,7 +7980,7 @@ GeckoContentController
 APZStateChange
 :
 :
-TransformEnd
+eTransformEnd
 )
 {
 nsCOMPtr

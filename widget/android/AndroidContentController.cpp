@@ -575,7 +575,7 @@ GeckoContentController
 APZStateChange
 :
 :
-TransformEnd
+eTransformEnd
 )
 {
 observerService
@@ -627,7 +627,7 @@ GeckoContentController
 APZStateChange
 :
 :
-TransformBegin
+eTransformBegin
 )
 {
 observerService

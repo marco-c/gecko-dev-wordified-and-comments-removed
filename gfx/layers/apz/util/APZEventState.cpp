@@ -1752,7 +1752,7 @@ case
 APZStateChange
 :
 :
-TransformBegin
+eTransformBegin
 :
 {
 nsIScrollableFrame
@@ -1873,7 +1873,7 @@ case
 APZStateChange
 :
 :
-TransformEnd
+eTransformEnd
 :
 {
 mActiveAPZTransforms
@@ -1994,7 +1994,7 @@ case
 APZStateChange
 :
 :
-StartTouch
+eStartTouch
 :
 {
 mActiveElementManager
@@ -2012,7 +2012,7 @@ case
 APZStateChange
 :
 :
-StartPanning
+eStartPanning
 :
 {
 mActiveElementManager
@@ -2029,7 +2029,7 @@ case
 APZStateChange
 :
 :
-EndTouch
+eEndTouch
 :
 {
 mEndTouchIsClick
@@ -2046,8 +2046,17 @@ HandleTouchEnd
 break
 ;
 }
-default
+case
+APZStateChange
 :
+:
+eSentinel
+:
+MOZ_ASSERT
+(
+false
+)
+;
 break
 ;
 }
