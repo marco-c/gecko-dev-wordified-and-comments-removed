@@ -314,7 +314,7 @@ jumpLabel
 )
 -
 >
-src
+target
 (
 )
 )
@@ -404,7 +404,7 @@ ma_li
 ScratchRegister
 cl
 .
-dest
+patchAt
 (
 )
 )
@@ -418,7 +418,7 @@ ScratchRegister
 ;
 cl
 .
-src
+target
 (
 )
 -
@@ -564,7 +564,7 @@ jumpLabel
 )
 -
 >
-dest
+patchAt
 (
 )
 )

@@ -950,7 +950,7 @@ Bind
 uint8_t
 *
 rawCode
-AbsoluteLabel
+CodeOffset
 *
 label
 const

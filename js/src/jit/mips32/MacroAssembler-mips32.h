@@ -257,7 +257,7 @@ ma_li
 (
 Register
 dest
-AbsoluteLabel
+CodeOffset
 *
 label
 )
