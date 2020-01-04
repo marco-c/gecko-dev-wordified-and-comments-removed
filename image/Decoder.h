@@ -715,6 +715,12 @@ aCount
 ;
 virtual
 void
+BeforeFinishInternal
+(
+)
+;
+virtual
+void
 FinishInternal
 (
 )

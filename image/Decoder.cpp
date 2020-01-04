@@ -761,6 +761,10 @@ CompleteDecode
 (
 )
 {
+BeforeFinishInternal
+(
+)
+;
 if
 (
 !
@@ -1610,6 +1614,15 @@ Decoder
 :
 :
 InitInternal
+(
+)
+{
+}
+void
+Decoder
+:
+:
+BeforeFinishInternal
 (
 )
 {

@@ -381,6 +381,13 @@ override
 ;
 virtual
 void
+BeforeFinishInternal
+(
+)
+override
+;
+virtual
+void
 FinishInternal
 (
 )
