@@ -6966,9 +6966,9 @@ notification
 anchor
 -
 icon
-web
+desktop
 -
-notifications
+notification
 -
 icon
 "
@@ -7290,7 +7290,7 @@ notification
 anchor
 -
 icon
-pointer
+pointerLock
 -
 icon
 "
