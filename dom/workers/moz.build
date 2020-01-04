@@ -421,6 +421,11 @@ ServiceWorkerPrivate
 cpp
 '
 '
+ServiceWorkerRegisterJob
+.
+cpp
+'
+'
 ServiceWorkerRegistrar
 .
 cpp
