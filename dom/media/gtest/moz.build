@@ -233,11 +233,6 @@ TestVideoTrackEncoder
 cpp
 '
 '
-TestVorbisTrackEncoder
-.
-cpp
-'
-'
 TestWebMWriter
 .
 cpp
