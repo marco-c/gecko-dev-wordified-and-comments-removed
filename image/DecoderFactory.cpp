@@ -538,7 +538,7 @@ decoder
 GetDecoder
 (
 aType
-aImage
+nullptr
 bool
 (
 aDecoderFlags
@@ -690,6 +690,7 @@ task
 new
 DecodingTask
 (
+aImage
 WrapNotNull
 (
 decoder
