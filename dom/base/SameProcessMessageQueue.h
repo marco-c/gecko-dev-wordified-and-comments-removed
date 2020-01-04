@@ -34,9 +34,6 @@ namespace
 dom
 {
 class
-CancelableRunnable
-;
-class
 SameProcessMessageQueue
 {
 public
@@ -112,10 +109,6 @@ Get
 ;
 private
 :
-friend
-class
-CancelableRunnable
-;
 nsTArray
 <
 RefPtr
