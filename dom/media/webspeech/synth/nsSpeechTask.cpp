@@ -169,7 +169,6 @@ GetCurrentCharOffset
 ;
 }
 }
-virtual
 void
 NotifyEvent
 (
@@ -243,7 +242,6 @@ break
 ;
 }
 }
-virtual
 void
 NotifyBlockingChanged
 (
