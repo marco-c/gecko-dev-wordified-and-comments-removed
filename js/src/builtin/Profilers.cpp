@@ -2227,11 +2227,6 @@ record
 "
 -
 -
-append
-"
-"
--
--
 pid
 "
 mainPidStr
@@ -2299,10 +2294,9 @@ graph
 "
 ;
 }
-char
-*
+UniqueChars
 flags2
-=
+(
 (
 char
 *
@@ -2316,6 +2310,7 @@ flags
 +
 1
 )
+)
 ;
 if
 (
@@ -2328,6 +2323,10 @@ false
 strcpy
 (
 flags2
+.
+get
+(
+)
 flags
 )
 ;
@@ -2342,6 +2341,10 @@ tok
 strtok_r
 (
 flags2
+.
+get
+(
+)
 "
 "
 &
@@ -2435,7 +2438,6 @@ exit
 )
 ;
 }
-else
 if
 (
 childPid
@@ -2458,8 +2460,6 @@ return
 true
 ;
 }
-else
-{
 UnsafeError
 (
 "
@@ -2477,7 +2477,6 @@ n
 return
 false
 ;
-}
 }
 bool
 js_StopPerf
