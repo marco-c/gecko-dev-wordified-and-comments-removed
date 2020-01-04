@@ -584,6 +584,14 @@ nsITabParent
 aTabParent
 )
 ;
+nsresult
+SwapRemoteBrowser
+(
+nsITabParent
+*
+aTabParent
+)
+;
 void
 SetDetachedSubdocView
 (

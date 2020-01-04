@@ -236,6 +236,14 @@ InitBrowserElementAPI
 (
 )
 {
+if
+(
+mBrowserElementAPI
+)
+{
+return
+;
+}
 bool
 isBrowserOrApp
 ;
