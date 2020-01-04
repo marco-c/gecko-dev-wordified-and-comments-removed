@@ -4537,10 +4537,6 @@ if
 task
 )
 {
-DoError
-(
-)
-;
 return
 NS_ERROR_FAILURE
 ;
@@ -4714,14 +4710,6 @@ if
 mAnimationState
 )
 {
-mAnimationState
--
->
-SetDoneDecoding
-(
-false
-)
-;
 Decode
 (
 mSize
