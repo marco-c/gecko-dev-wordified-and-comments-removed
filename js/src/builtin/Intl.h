@@ -12,6 +12,9 @@ NamespaceImports
 h
 "
 #
+if
+ENABLE_INTL_API
+#
 include
 "
 unicode
@@ -20,6 +23,8 @@ utypes
 .
 h
 "
+#
+endif
 namespace
 js
 {
@@ -230,6 +235,9 @@ Value
 vp
 )
 ;
+#
+if
+ENABLE_INTL_API
 inline
 const
 UChar
@@ -275,6 +283,8 @@ chars
 )
 ;
 }
+#
+endif
 }
 #
 endif
