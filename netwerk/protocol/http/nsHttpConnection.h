@@ -1093,6 +1093,9 @@ mWaitingFor0RTTResponse
 int64_t
 mContentBytesWritten0RTT
 ;
+bool
+mEarlyDataNegotiated
+;
 }
 ;
 }
