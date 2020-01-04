@@ -252,11 +252,6 @@ nsTransform2D
 .
 h
 '
-'
-RegionBuilder
-.
-h
-'
 ]
 EXPORTS
 .
