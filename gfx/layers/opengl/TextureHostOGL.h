@@ -2110,7 +2110,8 @@ mTextureSource
 ;
 }
 ;
-bool
+CompositorOGL
+*
 AssertGLCompositor
 (
 Compositor
