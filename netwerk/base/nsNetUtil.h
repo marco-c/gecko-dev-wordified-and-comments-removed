@@ -2052,7 +2052,7 @@ uint32_t
 aAppID
 bool
 *
-aIsInBrowserElement
+aIsInIsolatedMozBrowserElement
 )
 ;
 nsresult

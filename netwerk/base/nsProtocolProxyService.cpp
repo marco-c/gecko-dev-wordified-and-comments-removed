@@ -462,7 +462,7 @@ channel
 uint32_t
 aAppId
 bool
-aIsInBrowser
+aIsInIsolatedMozBrowser
 uint32_t
 aResolveFlags
 nsIProtocolProxyCallback
@@ -498,9 +498,9 @@ mAppId
 (
 aAppId
 )
-mIsInBrowser
+mIsInIsolatedMozBrowser
 (
-aIsInBrowser
+aIsInIsolatedMozBrowser
 )
 mCallback
 (
@@ -1022,7 +1022,7 @@ nsAsyncResolveRequest
 mPPS
 mChannel
 mAppId
-mIsInBrowser
+mIsInIsolatedMozBrowser
 mResolveFlags
 mCallback
 )
@@ -1039,7 +1039,7 @@ AsyncGetProxyForURI
 (
 proxyURI
 mAppId
-mIsInBrowser
+mIsInIsolatedMozBrowser
 newRequest
 true
 )
@@ -1171,7 +1171,7 @@ uint32_t
 mAppId
 ;
 bool
-mIsInBrowser
+mIsInIsolatedMozBrowser
 ;
 nsCOMPtr
 <
@@ -5624,7 +5624,7 @@ appId
 NECKO_NO_APP_ID
 ;
 bool
-isInBrowser
+isInIsolatedMozBrowser
 =
 false
 ;
@@ -5634,7 +5634,7 @@ channel
 &
 appId
 &
-isInBrowser
+isInIsolatedMozBrowser
 )
 ;
 *
@@ -5654,7 +5654,7 @@ nsAsyncResolveRequest
 this
 channel
 appId
-isInBrowser
+isInIsolatedMozBrowser
 flags
 callback
 )
@@ -5696,7 +5696,7 @@ Resolve_Internal
 (
 channel
 appId
-isInBrowser
+isInIsolatedMozBrowser
 info
 flags
 &
@@ -5795,7 +5795,7 @@ AsyncGetProxyForURI
 (
 uri
 appId
-isInBrowser
+isInIsolatedMozBrowser
 ctx
 true
 )

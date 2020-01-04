@@ -3679,7 +3679,7 @@ args
 }
 static
 bool
-PACIsInBrowser
+PACIsInIsolatedMozBrowser
 (
 JSContext
 *
@@ -3720,7 +3720,7 @@ NS_IsMainThread
 NS_WARNING
 (
 "
-PACIsInBrowser
+PACIsInIsolatedMozBrowser
 on
 Main
 Thread
@@ -3748,11 +3748,13 @@ GetRunning
 NS_WARNING
 (
 "
-PACIsInBrowser
+PACIsInIsolatedMozBrowser
 without
 a
 running
 ProxyAutoConfig
+"
+"
 object
 "
 )
@@ -3767,7 +3769,7 @@ GetRunning
 )
 -
 >
-IsInBrowser
+IsInIsolatedMozBrowser
 (
 args
 )
@@ -3969,9 +3971,9 @@ PACMyAppOrigin
 JS_FS
 (
 "
-isInBrowser
+isInIsolatedMozBrowser
 "
-PACIsInBrowser
+PACIsInIsolatedMozBrowser
 0
 0
 )
@@ -4793,7 +4795,7 @@ nsString
 &
 aAppOrigin
 bool
-aIsInBrowser
+aIsInIsolatedMozBrowser
 nsACString
 &
 result
@@ -4870,9 +4872,9 @@ mRunningAppOrigin
 =
 aAppOrigin
 ;
-mRunningIsInBrowser
+mRunningIsInIsolatedMozBrowser
 =
-aIsInBrowser
+aIsInIsolatedMozBrowser
 ;
 nsresult
 rv
@@ -5968,7 +5970,7 @@ bool
 ProxyAutoConfig
 :
 :
-IsInBrowser
+IsInIsolatedMozBrowser
 (
 const
 JS
@@ -5987,7 +5989,7 @@ rval
 .
 setBoolean
 (
-mRunningIsInBrowser
+mRunningIsInIsolatedMozBrowser
 )
 ;
 return

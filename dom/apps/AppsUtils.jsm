@@ -1035,7 +1035,7 @@ null
 appId
 :
 aAppId
-isInBrowserElement
+isInIsolatedMozBrowserElement
 :
 aInIsolatedMozBrowser
 originAttributes

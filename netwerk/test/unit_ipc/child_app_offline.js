@@ -97,7 +97,7 @@ notificationCallbacks
 appId
 :
 appId
-isInBrowserElement
+isInIsolatedMozBrowserElement
 :
 inIsolatedMozBrowser
 originAttributes

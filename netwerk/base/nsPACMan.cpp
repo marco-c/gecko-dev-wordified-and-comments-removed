@@ -727,7 +727,7 @@ uri
 uint32_t
 appId
 bool
-isInBrowser
+isInIsolatedMozBrowser
 nsPACManCallback
 *
 callback
@@ -743,9 +743,9 @@ mAppId
 (
 appId
 )
-mIsInBrowser
+mIsInIsolatedMozBrowser
 (
-isInBrowser
+isInIsolatedMozBrowser
 )
 mCallback
 (
@@ -1238,7 +1238,7 @@ uri
 uint32_t
 appId
 bool
-isInBrowser
+isInIsolatedMozBrowser
 nsPACManCallback
 *
 callback
@@ -1310,7 +1310,7 @@ PendingPACQuery
 this
 uri
 appId
-isInBrowser
+isInIsolatedMozBrowser
 callback
 mainThreadResponse
 )
@@ -2404,7 +2404,7 @@ mAppOrigin
 query
 -
 >
-mIsInBrowser
+mIsInIsolatedMozBrowser
 pacString
 )
 ;

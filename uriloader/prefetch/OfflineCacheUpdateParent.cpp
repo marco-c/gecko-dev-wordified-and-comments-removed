@@ -886,11 +886,11 @@ NS_IMETHODIMP
 OfflineCacheUpdateParent
 :
 :
-GetIsInBrowserElement
+GetIsInIsolatedMozBrowserElement
 (
 bool
 *
-aIsInBrowserElement
+aIsInIsolatedMozBrowserElement
 )
 {
 NS_ENSURE_TRUE
@@ -905,7 +905,7 @@ mLoadingPrincipal
 >
 GetIsInIsolatedMozBrowserElement
 (
-aIsInBrowserElement
+aIsInIsolatedMozBrowserElement
 )
 ;
 }

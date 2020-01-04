@@ -699,7 +699,7 @@ myAppOrigin
 "
 &
 &
-isInBrowser
+isInIsolatedMozBrowser
 (
 )
 )

@@ -121,7 +121,7 @@ aArgs
 )
 ;
 bool
-IsInBrowser
+IsInIsolatedMozBrowser
 (
 const
 JS
@@ -165,7 +165,7 @@ nsString
 &
 aAppOrigin
 bool
-aIsInBrowser
+aIsInIsolatedMozBrowser
 nsACString
 &
 result
@@ -246,7 +246,7 @@ nsString
 mRunningAppOrigin
 ;
 bool
-mRunningIsInBrowser
+mRunningIsInIsolatedMozBrowser
 ;
 nsCOMPtr
 <
