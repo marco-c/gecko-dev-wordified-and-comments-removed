@@ -4032,12 +4032,6 @@ MOZ_FALLTHROUGH
 case
 GCLock
 :
-gc
-.
-assertCanLock
-(
-)
-;
 break
 ;
 default
