@@ -110,7 +110,7 @@ nsresult
 aLoadResult
 )
 ;
-bool
+void
 LoadMainScript
 (
 JSContext
@@ -122,6 +122,9 @@ nsAString
 aScriptURL
 WorkerScriptType
 aWorkerScriptType
+ErrorResult
+&
+aRv
 )
 ;
 void
