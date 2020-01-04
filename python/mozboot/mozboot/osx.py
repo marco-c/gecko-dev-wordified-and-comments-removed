@@ -2752,6 +2752,12 @@ python27
 '
             
 '
+py27
+-
+readline
+'
+            
+'
 mercurial
 '
             
