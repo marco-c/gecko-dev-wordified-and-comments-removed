@@ -2253,7 +2253,7 @@ this
 ;
 JS_SetDestroyZoneCallback
 (
-mJSRuntime
+mJSContext
 XPCStringConvert
 :
 :
@@ -2262,7 +2262,7 @@ FreeZoneCache
 ;
 JS_SetSweepZoneCallback
 (
-mJSRuntime
+mJSContext
 XPCStringConvert
 :
 :
