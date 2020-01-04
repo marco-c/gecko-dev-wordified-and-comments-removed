@@ -689,6 +689,9 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+ANDROID
 static
 nsCString
 GetDeviceModelId
@@ -771,6 +774,8 @@ EmptyCString
 )
 ;
 }
+#
+endif
 nsHttpHandler
 *
 gHttpHandler
