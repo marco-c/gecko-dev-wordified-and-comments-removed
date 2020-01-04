@@ -7738,8 +7738,8 @@ server
 mServerIf
 aServiceHandle
 aCharacteristicUuid
-aPermissions
 aProperties
+aPermissions
 new
 ServerAddCharacteristicResultHandler
 (
