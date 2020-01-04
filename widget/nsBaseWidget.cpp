@@ -1107,10 +1107,6 @@ Destroy
 (
 )
 ;
-mCompositorChild
-=
-nullptr
-;
 }
 if
 (
@@ -1123,10 +1119,6 @@ mCompositorVsyncDispatcher
 Shutdown
 (
 )
-;
-mCompositorVsyncDispatcher
-=
-nullptr
 ;
 }
 }

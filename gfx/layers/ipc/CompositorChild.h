@@ -445,12 +445,6 @@ SendRequestNotifyAfterRemotePaint
 (
 )
 ;
-static
-void
-ShutdownLayersIPC
-(
-)
-;
 private
 :
 virtual
