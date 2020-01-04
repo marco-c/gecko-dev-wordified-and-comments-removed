@@ -2344,6 +2344,8 @@ mozilla
 .
 gecko
 .
+notifications
+.
 NotificationReceiver
 "
 android
@@ -3347,6 +3349,8 @@ org
 mozilla
 .
 gecko
+.
+notifications
 .
 NotificationService
 "

@@ -4,6 +4,8 @@ org
 mozilla
 .
 gecko
+.
+notifications
 ;
 import
 android
@@ -54,6 +56,15 @@ v4
 app
 .
 NotificationManagerCompat
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+R
 ;
 import
 org

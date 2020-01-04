@@ -4,6 +4,17 @@ org
 mozilla
 .
 gecko
+.
+notifications
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+GeckoThread
 ;
 import
 org

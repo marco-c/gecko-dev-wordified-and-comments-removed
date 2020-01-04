@@ -68,6 +68,17 @@ mozilla
 .
 gecko
 .
+notifications
+.
+ServiceNotificationClient
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 util
 .
 NativeEventListener
