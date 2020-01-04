@@ -4399,16 +4399,12 @@ params
 ]
 =
 {
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 directive
 missing
 "
-)
-.
-get
-(
 )
 }
 ;
@@ -4481,7 +4477,7 @@ params
 ]
 =
 {
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 upgrade
@@ -4490,10 +4486,6 @@ insecure
 -
 requests
 "
-)
-.
-get
-(
 )
 }
 ;
@@ -4617,7 +4609,7 @@ params
 ]
 =
 {
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 '
@@ -4626,10 +4618,6 @@ unsafe
 inline
 '
 "
-)
-.
-get
-(
 )
 }
 ;

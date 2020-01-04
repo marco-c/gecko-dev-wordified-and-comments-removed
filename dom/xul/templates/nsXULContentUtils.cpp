@@ -382,13 +382,9 @@ gRDF
 >
 GetLiteral
 (
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 val
-)
-.
-get
-(
 )
 &
 (
