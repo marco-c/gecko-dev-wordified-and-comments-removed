@@ -685,7 +685,7 @@ consumeOutsideClicks
 true
 useXulWrapper
 =
-true
+false
 }
 =
 {
