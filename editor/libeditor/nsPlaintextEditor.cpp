@@ -4815,7 +4815,7 @@ kungFuDeathGrip
 mRules
 )
 ;
-nsAutoUpdateViewBatch
+AutoUpdateViewBatch
 beginViewBatching
 (
 this
@@ -4948,7 +4948,7 @@ kungFuDeathGrip
 mRules
 )
 ;
-nsAutoUpdateViewBatch
+AutoUpdateViewBatch
 beginViewBatching
 (
 this
