@@ -13302,6 +13302,8 @@ strings
 [
 channel
 ]
+.
+value
 )
 )
 ;
