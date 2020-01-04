@@ -495,14 +495,6 @@ aFallbackKey
 override
 ;
 NS_IMETHOD
-ForceIntercepted
-(
-uint64_t
-aInterceptionID
-)
-override
-;
-NS_IMETHOD
 SetPriority
 (
 int32_t
@@ -1759,6 +1751,7 @@ INTERCEPTED
 }
 mInterceptCache
 ;
+const
 uint64_t
 mInterceptionID
 ;
