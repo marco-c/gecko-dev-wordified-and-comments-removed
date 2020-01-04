@@ -56,8 +56,6 @@ MPL
 export
 :
 :
-ifndef
-LIBXUL_SDK
 (
 call
 SUBMAKE
@@ -76,7 +74,6 @@ parser
 /
 xpidl
 )
-endif
 (
 call
 py_action

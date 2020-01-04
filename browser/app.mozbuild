@@ -61,15 +61,6 @@ MPL
 0
 /
 .
-if
-not
-CONFIG
-[
-'
-LIBXUL_SDK
-'
-]
-:
 include
 (
 '

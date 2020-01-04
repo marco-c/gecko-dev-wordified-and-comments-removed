@@ -94,15 +94,6 @@ MPL
 /
 .
 if
-not
-CONFIG
-[
-'
-LIBXUL_SDK
-'
-]
-:
-if
 CONFIG
 [
 '

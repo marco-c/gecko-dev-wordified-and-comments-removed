@@ -316,8 +316,6 @@ endif
 JavaScript
 Shell
 packaging
-ifndef
-LIBXUL_SDK
 JSSHELL_BINS
 =
 \
@@ -574,9 +572,6 @@ PKG_JSSHELL
 JSSHELL_BINS
 )
 )
-endif
-#
-LIBXUL_SDK
 _ABS_DIST
 =
 (
