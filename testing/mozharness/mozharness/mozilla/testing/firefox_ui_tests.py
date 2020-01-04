@@ -2801,6 +2801,10 @@ external_attr
 &
 0x1FF
                     
+if
+mode
+:
+                        
 os
 .
 chmod
