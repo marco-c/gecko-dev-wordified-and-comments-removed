@@ -154,9 +154,9 @@ require
 "
 devtools
 /
-server
+client
 /
-actors
+fronts
 /
 stylesheets
 "
@@ -182,9 +182,9 @@ require
 "
 devtools
 /
-server
+client
 /
-actors
+fronts
 /
 styleeditor
 "

@@ -35,8 +35,6 @@ shared
 specs
 /
 stylesheets
-.
-js
 "
 )
 ;
