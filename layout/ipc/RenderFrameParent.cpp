@@ -1985,6 +1985,10 @@ aContent
 {
 MOZ_ASSERT
 (
+!
+mFrameLoader
+|
+|
 mFrameLoader
 -
 >
@@ -2699,10 +2703,14 @@ LayerManager
 >
 lm
 =
+mFrameLoader
+?
 GetFrom
 (
 mFrameLoader
 )
+:
+nullptr
 ;
 if
 (
