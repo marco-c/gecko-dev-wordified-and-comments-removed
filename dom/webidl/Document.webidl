@@ -1688,7 +1688,7 @@ Moz
 /
 /
 versions
-hve
+have
 it
 uppercase
 .
