@@ -4964,11 +4964,15 @@ windowSize
 mirrorScreen
 -
 >
-GetNaturalBoundsUntyped
+GetNaturalBounds
 (
 )
 .
 Size
+(
+)
+.
+ToUnknownSize
 (
 )
 ;
