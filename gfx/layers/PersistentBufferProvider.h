@@ -346,6 +346,8 @@ PersistentBufferProviderShared
 :
 public
 PersistentBufferProvider
+public
+ActiveResource
 {
 public
 :
@@ -464,6 +466,13 @@ return
 mFront
 ;
 }
+virtual
+void
+NotifyInactive
+(
+)
+override
+;
 protected
 :
 PersistentBufferProviderShared
@@ -523,6 +532,12 @@ RefPtr
 TextureClient
 >
 mBack
+;
+RefPtr
+<
+TextureClient
+>
+mBuffer
 ;
 RefPtr
 <
