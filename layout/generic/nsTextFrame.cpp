@@ -4246,10 +4246,6 @@ mOffsetIntoTextRun
 (
 aOffsetIntoTextRun
 )
-mChangedBreaks
-(
-false
-)
 {
 }
 virtual
@@ -4282,10 +4278,6 @@ mContext
 )
 )
 {
-mChangedBreaks
-=
-true
-;
 mTextRun
 -
 >
@@ -4482,9 +4474,6 @@ mContext
 ;
 uint32_t
 mOffsetIntoTextRun
-;
-bool
-mChangedBreaks
 ;
 }
 ;
