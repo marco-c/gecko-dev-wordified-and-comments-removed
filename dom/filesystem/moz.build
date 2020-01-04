@@ -148,6 +148,11 @@ FileSystemUtils
 h
 '
 '
+GetFilesHelper
+.
+h
+'
+'
 OSFileSystem
 .
 h
@@ -209,6 +214,11 @@ cpp
 '
 '
 GetFileOrDirectoryTask
+.
+cpp
+'
+'
+GetFilesHelper
 .
 cpp
 '
