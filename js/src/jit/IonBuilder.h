@@ -1080,6 +1080,9 @@ header
 jsbytecode
 *
 loopEntry
+jsbytecode
+*
+beforeLoopEntry
 )
 ;
 MBasicBlock
