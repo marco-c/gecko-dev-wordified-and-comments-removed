@@ -237,6 +237,9 @@ MessagePort
 ?
 source
 ;
+[
+SameObject
+]
 readonly
 attribute
 MessagePortList
