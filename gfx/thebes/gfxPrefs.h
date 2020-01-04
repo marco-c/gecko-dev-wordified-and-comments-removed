@@ -2864,7 +2864,7 @@ acceleration
 .
 disabled
 "
-LayersAccelerationDisabled
+LayersAccelerationDisabledDoNotUseDirectly
 bool
 false
 )
@@ -2942,7 +2942,7 @@ force
 -
 enabled
 "
-LayersAccelerationForceEnabled
+LayersAccelerationForceEnabledDoNotUseDirectly
 bool
 false
 )

@@ -185,16 +185,6 @@ Initialize
 (
 )
 {
-bool
-force
-=
-gfxPrefs
-:
-:
-LayersAccelerationForceEnabled
-(
-)
-;
 ScopedGfxFeatureReporter
 reporter
 (
@@ -202,7 +192,6 @@ reporter
 D3D9
 Layers
 "
-force
 )
 ;
 MOZ_ASSERT
