@@ -556,6 +556,13 @@ h
 #
 include
 "
+nsBidiKeyboard
+.
+h
+"
+#
+include
+"
 nsIGfxInfo
 .
 h
@@ -21337,6 +21344,13 @@ HKL
 (
 lParam
 )
+)
+;
+nsBidiKeyboard
+:
+:
+OnLayoutChange
+(
 )
 ;
 result

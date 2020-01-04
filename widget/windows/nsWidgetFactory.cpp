@@ -929,6 +929,10 @@ kNS_BIDIKEYBOARD_CID
 false
 nullptr
 nsBidiKeyboardConstructor
+Module
+:
+:
+MAIN_PROCESS_ONLY
 }
 {
 &
@@ -1363,6 +1367,10 @@ bidikeyboard
 "
 &
 kNS_BIDIKEYBOARD_CID
+Module
+:
+:
+MAIN_PROCESS_ONLY
 }
 {
 "
