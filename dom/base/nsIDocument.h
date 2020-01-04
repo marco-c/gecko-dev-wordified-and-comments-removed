@@ -2209,7 +2209,7 @@ mozilla
 :
 :
 StyleSheetHandle
-FirstAdditionalAuthorSheet
+GetFirstAdditionalAuthorSheet
 (
 )
 =

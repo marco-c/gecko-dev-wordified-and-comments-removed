@@ -20029,7 +20029,7 @@ StyleSheetHandle
 nsDocument
 :
 :
-FirstAdditionalAuthorSheet
+GetFirstAdditionalAuthorSheet
 (
 )
 {

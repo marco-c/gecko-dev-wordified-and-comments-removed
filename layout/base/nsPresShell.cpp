@@ -6626,7 +6626,7 @@ firstAuthorSheet
 mDocument
 -
 >
-FirstAdditionalAuthorSheet
+GetFirstAdditionalAuthorSheet
 (
 )
 ;

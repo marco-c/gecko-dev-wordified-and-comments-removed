@@ -3745,7 +3745,7 @@ MOZ_ASSERT
 aDocument
 -
 >
-FirstAdditionalAuthorSheet
+GetFirstAdditionalAuthorSheet
 (
 )
 |
@@ -3753,7 +3753,7 @@ FirstAdditionalAuthorSheet
 aDocument
 -
 >
-FirstAdditionalAuthorSheet
+GetFirstAdditionalAuthorSheet
 (
 )
 -
@@ -3783,7 +3783,7 @@ sheet
 aDocument
 -
 >
-FirstAdditionalAuthorSheet
+GetFirstAdditionalAuthorSheet
 (
 )
 -
