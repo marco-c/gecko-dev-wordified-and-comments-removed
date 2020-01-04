@@ -1196,7 +1196,7 @@ mFloatEdge
 default
 :
 case
-NS_STYLE_FLOAT_EDGE_CONTENT
+NS_STYLE_FLOAT_EDGE_CONTENT_BOX
 :
 aResult
 .
@@ -1229,7 +1229,7 @@ wm
 break
 ;
 case
-NS_STYLE_FLOAT_EDGE_MARGIN
+NS_STYLE_FLOAT_EDGE_MARGIN_BOX
 :
 {
 aResult
