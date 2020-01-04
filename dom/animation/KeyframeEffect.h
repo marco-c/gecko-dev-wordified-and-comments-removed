@@ -1311,11 +1311,6 @@ nsStyleContext
 >
 GetTargetStyleContext
 (
-nsIDocument
-*
-aDoc
-=
-nullptr
 )
 ;
 Maybe
