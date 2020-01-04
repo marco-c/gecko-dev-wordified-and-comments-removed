@@ -2140,6 +2140,13 @@ GetController
 aTarget
 )
 ;
+aEvent
+-
+>
+PreventDefault
+(
+)
+;
 if
 (
 mEventName
@@ -2287,13 +2294,6 @@ NS_OK
 }
 }
 }
-aEvent
--
->
-PreventDefault
-(
-)
-;
 if
 (
 controller
