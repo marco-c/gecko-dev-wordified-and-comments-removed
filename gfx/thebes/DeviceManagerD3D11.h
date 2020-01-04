@@ -229,7 +229,7 @@ DisableD3D11AfterCrash
 )
 ;
 void
-AttemptD3D11DeviceCreation
+CreateCompositorDevice
 (
 mozilla
 :
@@ -243,7 +243,7 @@ d3d11
 )
 ;
 bool
-AttemptD3D11DeviceCreationHelper
+CreateCompositorDeviceHelper
 (
 mozilla
 :
@@ -268,7 +268,7 @@ aOutDevice
 )
 ;
 void
-AttemptWARPDeviceCreation
+CreateWARPCompositorDevice
 (
 )
 ;
@@ -279,7 +279,7 @@ gfx
 :
 :
 FeatureStatus
-AttemptD3D11ContentDeviceCreation
+CreateContentDevice
 (
 )
 ;
