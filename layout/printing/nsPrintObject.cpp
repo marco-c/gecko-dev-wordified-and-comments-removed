@@ -332,6 +332,14 @@ do_GetInterface
 mDocShell
 )
 ;
+mozilla
+:
+:
+Unused
+<
+<
+dummy
+;
 nsCOMPtr
 <
 nsIContentViewer

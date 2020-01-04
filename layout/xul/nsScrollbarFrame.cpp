@@ -302,7 +302,7 @@ nsCOMPtr
 <
 nsIContent
 >
-kungFuDeathGrip
+content
 (
 mContent
 )
@@ -312,7 +312,7 @@ scrollable
 >
 CurPosAttributeChanged
 (
-mContent
+content
 )
 ;
 return
