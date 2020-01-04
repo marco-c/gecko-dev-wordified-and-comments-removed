@@ -534,6 +534,8 @@ OnValueChanged
 (
 bool
 aNotify
+bool
+aWasInteractiveUserChange
 )
 override
 ;
@@ -1381,6 +1383,9 @@ mControllers
 ;
 bool
 mValueChanged
+;
+bool
+mLastValueChangeWasInteractive
 ;
 bool
 mHandlingSelect

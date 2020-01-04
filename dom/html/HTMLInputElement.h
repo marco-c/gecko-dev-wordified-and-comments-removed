@@ -1000,6 +1000,8 @@ OnValueChanged
 (
 bool
 aNotify
+bool
+aWasInteractiveUserChange
 )
 override
 ;
@@ -3850,6 +3852,11 @@ mDisabledChanged
 ;
 bool
 mValueChanged
+:
+1
+;
+bool
+mLastValueChangeWasInteractive
 :
 1
 ;

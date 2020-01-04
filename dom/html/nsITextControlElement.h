@@ -350,6 +350,8 @@ OnValueChanged
 (
 bool
 aNotify
+bool
+aWasInteractiveUserChange
 )
 =
 0
