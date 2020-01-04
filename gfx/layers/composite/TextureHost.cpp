@@ -3666,9 +3666,7 @@ aShmem
 }
 else
 {
-gfxCriticalError
-(
-)
+gfxCriticalNote
 <
 <
 "
