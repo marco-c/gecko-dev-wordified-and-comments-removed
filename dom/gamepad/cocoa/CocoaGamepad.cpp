@@ -1726,7 +1726,9 @@ b
 {
 NewButtonEvent
 (
-i
+gamepad
+.
+mSuperIndex
 numButtons
 -
 4
@@ -1809,7 +1811,9 @@ min
 ;
 NewAxisMoveEvent
 (
-i
+gamepad
+.
+mSuperIndex
 axis
 -
 >
@@ -1912,7 +1916,9 @@ pressed
 }
 NewButtonEvent
 (
-i
+gamepad
+.
+mSuperIndex
 button
 -
 >
