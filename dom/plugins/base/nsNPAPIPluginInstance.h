@@ -438,13 +438,6 @@ aContentsScaleFactor
 )
 ;
 nsresult
-CSSZoomFactorChanged
-(
-float
-aCSSZoomFactor
-)
-;
-nsresult
 GetJSObject
 (
 JSContext
@@ -1358,11 +1351,6 @@ CarbonNPAPIFailure
 ;
 double
 GetContentsScaleFactor
-(
-)
-;
-float
-GetCSSZoomFactor
 (
 )
 ;

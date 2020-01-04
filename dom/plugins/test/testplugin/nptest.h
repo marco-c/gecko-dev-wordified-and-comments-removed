@@ -377,9 +377,6 @@ void
 *
 placeholderWnd
 ;
-double
-cssZoomFactor
-;
 }
 InstanceData
 ;

@@ -5296,6 +5296,9 @@ IsForPainting
 mInstanceOwner
 )
 {
+#
+ifdef
+XP_MACOSX
 mInstanceOwner
 -
 >
@@ -5303,9 +5306,6 @@ ResolutionMayHaveChanged
 (
 )
 ;
-#
-ifdef
-XP_MACOSX
 mInstanceOwner
 -
 >
