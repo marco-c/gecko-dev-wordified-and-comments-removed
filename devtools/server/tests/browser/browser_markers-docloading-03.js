@@ -221,9 +221,10 @@ waitForTime
 )
 ;
 yield
-closeDebuggerClient
-(
 client
+.
+close
+(
 )
 ;
 gBrowser

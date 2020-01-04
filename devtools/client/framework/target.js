@@ -2371,6 +2371,10 @@ _client
 .
 close
 (
+)
+.
+then
+(
 cleanupAndResolve
 )
 ;

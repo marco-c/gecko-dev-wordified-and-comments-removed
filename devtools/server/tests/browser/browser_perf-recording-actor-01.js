@@ -574,9 +574,10 @@ destroy
 )
 ;
 yield
-closeDebuggerClient
-(
 client
+.
+close
+(
 )
 ;
 gBrowser

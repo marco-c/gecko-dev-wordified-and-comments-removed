@@ -241,9 +241,10 @@ destroy
 )
 ;
 yield
-closeDebuggerClient
-(
 client
+.
+close
+(
 )
 ;
 ok

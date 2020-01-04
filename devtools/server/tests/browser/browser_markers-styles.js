@@ -207,9 +207,10 @@ restyleHint
 )
 ;
 yield
-closeDebuggerClient
-(
 client
+.
+close
+(
 )
 ;
 gBrowser

@@ -165,9 +165,10 @@ property
 )
 ;
 yield
-closeDebuggerClient
-(
 client
+.
+close
+(
 )
 ;
 gBrowser

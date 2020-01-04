@@ -242,9 +242,10 @@ retrieved
 )
 ;
 yield
-closeDebuggerClient
-(
 client
+.
+close
+(
 )
 ;
 gBrowser

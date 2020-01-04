@@ -333,6 +333,10 @@ gClient
 .
 close
 (
+)
+.
+then
+(
 run_next_test
 )
 ;

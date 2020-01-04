@@ -887,6 +887,10 @@ aClient
 .
 close
 (
+)
+.
+then
+(
 function
 (
 )

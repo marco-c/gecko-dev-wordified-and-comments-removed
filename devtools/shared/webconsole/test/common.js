@@ -907,6 +907,10 @@ dbgClient
 .
 close
 (
+)
+.
+then
+(
 aCallback
 )
 ;

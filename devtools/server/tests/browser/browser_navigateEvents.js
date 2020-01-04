@@ -974,6 +974,10 @@ client
 .
 close
 (
+)
+.
+then
+(
 function
 (
 )

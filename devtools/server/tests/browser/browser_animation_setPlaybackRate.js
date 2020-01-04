@@ -321,9 +321,10 @@ updated
 ;
 }
 yield
-closeDebuggerClient
-(
 client
+.
+close
+(
 )
 ;
 gBrowser

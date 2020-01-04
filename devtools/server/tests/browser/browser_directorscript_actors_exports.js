@@ -337,9 +337,10 @@ errorUndefinedAttachMethod
 )
 ;
 yield
-closeDebuggerClient
-(
 client
+.
+close
+(
 )
 ;
 gBrowser
