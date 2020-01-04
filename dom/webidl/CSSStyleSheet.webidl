@@ -156,6 +156,11 @@ cssRules
 ;
 [
 ChromeOnly
+BinaryName
+=
+"
+parsingModeDOM
+"
 ]
 readonly
 attribute
