@@ -190,7 +190,10 @@ usage
 =
 '
 %
+(
 prog
+)
+s
 [
 options
 ]
@@ -207,7 +210,10 @@ version
 =
 "
 %
+(
 prog
+)
+s
 {
 version
 }
