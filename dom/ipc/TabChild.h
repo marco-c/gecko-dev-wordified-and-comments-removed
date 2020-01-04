@@ -1294,6 +1294,10 @@ aOrientation
 const
 LayoutDeviceIntPoint
 &
+aClientOffset
+const
+LayoutDeviceIntPoint
+&
 aChromeDisp
 )
 override
@@ -2367,6 +2371,16 @@ aOut
 )
 ;
 LayoutDeviceIntPoint
+GetClientOffset
+(
+)
+const
+{
+return
+mClientOffset
+;
+}
+LayoutDeviceIntPoint
 GetChromeDisplacement
 (
 )
@@ -2967,6 +2981,9 @@ mHasValidInnerSize
 ;
 bool
 mDestroyed
+;
+LayoutDeviceIntPoint
+mClientOffset
 ;
 LayoutDeviceIntPoint
 mChromeDisp

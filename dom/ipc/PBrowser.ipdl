@@ -3275,6 +3275,8 @@ size
 ScreenOrientationInternal
 orientation
 LayoutDeviceIntPoint
+clientOffset
+LayoutDeviceIntPoint
 chromeDisp
 )
 compressall

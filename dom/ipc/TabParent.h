@@ -2343,6 +2343,9 @@ nsSizeMode
 mSizeMode
 ;
 LayoutDeviceIntPoint
+mClientOffset
+;
+LayoutDeviceIntPoint
 mChromeOffset
 ;
 private
