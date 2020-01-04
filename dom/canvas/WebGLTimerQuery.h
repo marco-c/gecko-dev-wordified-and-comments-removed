@@ -40,6 +40,11 @@ WebGLRefCountedObject
 WebGLTimerQuery
 >
 public
+LinkedListElement
+<
+WebGLTimerQuery
+>
+public
 WebGLContextBoundObject
 {
 public
