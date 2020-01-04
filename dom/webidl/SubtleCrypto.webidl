@@ -696,6 +696,14 @@ DOMString
 )
 AlgorithmIdentifier
 ;
+[
+Exposed
+=
+(
+Window
+Worker
+)
+]
 interface
 SubtleCrypto
 {

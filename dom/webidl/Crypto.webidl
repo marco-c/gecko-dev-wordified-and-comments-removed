@@ -134,6 +134,12 @@ interface
 /
 [
 NoInterfaceObject
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 GlobalCrypto
@@ -148,8 +154,6 @@ crypto
 ;
 }
 ;
-/
-/
 [
 Exposed
 =

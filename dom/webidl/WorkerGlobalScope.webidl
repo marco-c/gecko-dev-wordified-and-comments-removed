@@ -332,6 +332,10 @@ GlobalFetch
 ;
 WorkerGlobalScope
 implements
+GlobalCrypto
+;
+WorkerGlobalScope
+implements
 IDBEnvironment
 ;
 WorkerGlobalScope
