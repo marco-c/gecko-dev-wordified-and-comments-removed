@@ -354,13 +354,13 @@ endif
 if
 defined
 (
-SPS_ARCH_arm
+__arm__
 )
 &
 &
 defined
 (
-MOZ_WIDGET_GONK
+ANDROID
 )
 #
 define
