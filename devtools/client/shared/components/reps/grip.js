@@ -124,6 +124,13 @@ React
 PropTypes
 .
 string
+isInterestingProp
+:
+React
+.
+PropTypes
+.
+func
 }
 getTitle
 :
@@ -236,6 +243,14 @@ max
 let
 isInterestingProp
 =
+this
+.
+props
+.
+isInterestingProp
+|
+|
+(
 (
 type
 value
@@ -280,6 +295,7 @@ length
 )
 ;
 }
+)
 ;
 let
 ownProperties
@@ -346,6 +362,7 @@ length
 (
 t
 value
+name
 )
 =
 >
@@ -356,6 +373,7 @@ isInterestingProp
 (
 t
 value
+name
 )
 ;
 }
@@ -716,6 +734,7 @@ filter
 (
 type
 value
+name
 )
 )
 {
