@@ -150,7 +150,7 @@ initiatorType
 Func
 =
 "
-nsPerformance
+Performance
 :
 :
 IsObserverEnabled

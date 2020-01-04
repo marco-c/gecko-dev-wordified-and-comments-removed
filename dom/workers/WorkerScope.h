@@ -91,6 +91,9 @@ ImageBitmapFormat
 uint32_t
 ;
 class
+Performance
+;
+class
 Promise
 ;
 class
@@ -120,9 +123,6 @@ ServiceWorkerClients
 ;
 class
 WorkerPrivate
-;
-class
-Performance
 ;
 class
 WorkerGlobalScope

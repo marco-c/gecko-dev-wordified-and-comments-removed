@@ -61,7 +61,7 @@ PerformanceResourceTiming
 PerformanceTiming
 *
 aPerformanceTiming
-nsPerformance
+Performance
 *
 aPerformance
 const

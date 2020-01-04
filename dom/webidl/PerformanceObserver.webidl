@@ -148,7 +148,7 @@ observer
 Func
 =
 "
-nsPerformance
+Performance
 :
 :
 IsObserverEnabled

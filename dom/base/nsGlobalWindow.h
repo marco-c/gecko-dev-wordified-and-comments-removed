@@ -6959,7 +6959,13 @@ ErrorResult
 aError
 )
 ;
-nsPerformance
+mozilla
+:
+:
+dom
+:
+:
+Performance
 *
 GetPerformance
 (

@@ -99,7 +99,7 @@ if
 newWindow
 )
 {
-nsPerformance
+Performance
 *
 perf
 =

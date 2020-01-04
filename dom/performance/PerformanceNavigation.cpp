@@ -49,7 +49,7 @@ PerformanceNavigation
 :
 PerformanceNavigation
 (
-nsPerformance
+Performance
 *
 aPerformance
 )

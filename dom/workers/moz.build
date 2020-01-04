@@ -236,11 +236,6 @@ bindings
 =
 [
 '
-Performance
-.
-h
-'
-'
 ServiceWorker
 .
 h
@@ -317,11 +312,6 @@ cpp
 '
 '
 FileReaderSync
-.
-cpp
-'
-'
-Performance
 .
 cpp
 '

@@ -245,7 +245,7 @@ Performance
 Func
 =
 "
-nsPerformance
+Performance
 :
 :
 IsEnabled
@@ -260,7 +260,7 @@ getEntries
 Func
 =
 "
-nsPerformance
+Performance
 :
 :
 IsEnabled
@@ -277,7 +277,7 @@ entryType
 Func
 =
 "
-nsPerformance
+Performance
 :
 :
 IsEnabled
@@ -332,7 +332,7 @@ Performance
 Func
 =
 "
-nsPerformance
+Performance
 :
 :
 IsEnabled
@@ -347,7 +347,7 @@ clearResourceTimings
 Func
 =
 "
-nsPerformance
+Performance
 :
 :
 IsEnabled
@@ -365,7 +365,7 @@ maxSize
 Func
 =
 "
-nsPerformance
+Performance
 :
 :
 IsEnabled
@@ -451,7 +451,7 @@ Performance
 Func
 =
 "
-nsPerformance
+Performance
 :
 :
 IsEnabled
@@ -469,7 +469,7 @@ markName
 Func
 =
 "
-nsPerformance
+Performance
 :
 :
 IsEnabled
@@ -487,7 +487,7 @@ markName
 Func
 =
 "
-nsPerformance
+Performance
 :
 :
 IsEnabled
@@ -511,7 +511,7 @@ endMark
 Func
 =
 "
-nsPerformance
+Performance
 :
 :
 IsEnabled
