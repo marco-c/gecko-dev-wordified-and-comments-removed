@@ -2321,7 +2321,7 @@ importIndex
 unsigned
 argc
 const
-Value
+uint64_t
 *
 argv
 MutableHandleValue

@@ -2421,6 +2421,7 @@ UnreachableTrap
 HandleExecutionInterrupt
 InvokeImport_Void
 InvokeImport_I32
+InvokeImport_I64
 InvokeImport_F64
 CoerceInPlace_ToInt32
 CoerceInPlace_ToNumber
@@ -2436,6 +2437,19 @@ imm
 ExclusiveContext
 *
 cx
+)
+;
+bool
+ReadI64Object
+(
+JSContext
+*
+cx
+HandleValue
+v
+int64_t
+*
+val
 )
 ;
 enum

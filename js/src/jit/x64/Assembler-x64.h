@@ -672,6 +672,14 @@ r15
 ;
 static
 MOZ_CONSTEXPR_VAR
+Register64
+ReturnReg64
+(
+rax
+)
+;
+static
+MOZ_CONSTEXPR_VAR
 FloatRegister
 ReturnFloat32Reg
 =

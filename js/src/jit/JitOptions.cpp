@@ -667,6 +667,12 @@ disableUnboxedObjects
 false
 )
 ;
+SET_DEFAULT
+(
+wasmTestMode
+false
+)
+;
 }
 bool
 DefaultJitOptions
