@@ -4473,6 +4473,9 @@ _addingHeuristicFirstMatch
 =
 true
 ;
+let
+hasHeuristic
+=
 yield
 this
 .
@@ -4487,6 +4490,20 @@ _addingHeuristicFirstMatch
 =
 false
 ;
+if
+(
+!
+this
+.
+pending
+)
+return
+;
+if
+(
+hasHeuristic
+)
+{
 yield
 this
 .
@@ -4506,6 +4523,7 @@ pending
 )
 return
 ;
+}
 if
 (
 this
@@ -4718,6 +4736,7 @@ matched
 )
 {
 return
+true
 ;
 }
 }
@@ -4749,6 +4768,7 @@ matched
 )
 {
 return
+true
 ;
 }
 }
@@ -4786,6 +4806,7 @@ matched
 )
 {
 return
+true
 ;
 }
 }
@@ -4815,6 +4836,7 @@ matched
 )
 {
 return
+true
 ;
 }
 }
@@ -4846,6 +4868,7 @@ matched
 )
 {
 return
+true
 ;
 }
 }
@@ -4882,9 +4905,13 @@ matched
 )
 {
 return
+true
 ;
 }
 }
+return
+false
+;
 }
 *
 _matchSearchSuggestions
