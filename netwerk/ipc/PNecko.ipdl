@@ -795,6 +795,13 @@ URIParams
 uri
 )
 ;
+async
+SpeculativeConnectRequest
+(
+nsCString
+notificationData
+)
+;
 both
 :
 /
