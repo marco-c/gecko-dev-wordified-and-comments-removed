@@ -202,6 +202,10 @@ mScrollClip
 (
 nullptr
 )
+mScrollClipForPerspectiveChild
+(
+nullptr
+)
 mInTransformedSubtree
 (
 false
@@ -255,6 +259,10 @@ NS_RGBA
 )
 )
 mScrollClip
+(
+nullptr
+)
+mScrollClipForPerspectiveChild
 (
 nullptr
 )
@@ -323,6 +331,12 @@ mScrollClip
 aParent
 .
 mScrollClip
+)
+mScrollClipForPerspectiveChild
+(
+aParent
+.
+mScrollClipForPerspectiveChild
 )
 mInTransformedSubtree
 (
@@ -404,6 +418,11 @@ const
 DisplayItemScrollClip
 *
 mScrollClip
+;
+const
+DisplayItemScrollClip
+*
+mScrollClipForPerspectiveChild
 ;
 bool
 mInTransformedSubtree
