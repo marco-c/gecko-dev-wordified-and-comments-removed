@@ -26638,14 +26638,11 @@ spec
 "
 ;
 }
-else
-{
 return
 "
 null
 "
 ;
-}
 }
 log
 :
