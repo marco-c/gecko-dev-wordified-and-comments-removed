@@ -1030,6 +1030,16 @@ bool
 aIsParent
 )
 ;
+MOZ_NEVER_INLINE
+void
+LogicError
+(
+const
+char
+*
+aMsg
+)
+;
 struct
 PrivateIPDLInterface
 {
