@@ -1077,8 +1077,6 @@ name
 "
 '
 +
-identity
-.
 name
 +
 '
