@@ -8354,7 +8354,7 @@ res
 if
 (
 aTarget
-=
+<
 =
 aRange
 .
