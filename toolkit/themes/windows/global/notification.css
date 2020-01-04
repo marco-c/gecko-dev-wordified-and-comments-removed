@@ -1624,9 +1624,17 @@ default
 theme
 )
 {
+.
+popup
+-
+notification
+-
+warning
+{
 color
 :
 #
 aa1b08
 ;
+}
 }
