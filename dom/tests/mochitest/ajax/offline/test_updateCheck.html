@@ -380,6 +380,19 @@ Ci
 nsIOfflineCacheUpdateService
 )
 ;
+var
+systemPrincipal
+=
+SpecialPowers
+.
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
+;
 function
 manifestCached
 (
@@ -398,6 +411,7 @@ updateService
 checkForUpdate
 (
 manifestURI
+systemPrincipal
 0
 false
 {
@@ -462,6 +476,7 @@ updateService
 checkForUpdate
 (
 manifestURI
+systemPrincipal
 0
 false
 {
@@ -541,6 +556,7 @@ updateService
 checkForUpdate
 (
 manifestURI
+systemPrincipal
 0
 false
 {
@@ -636,6 +652,7 @@ updateService
 checkForUpdate
 (
 manifestURI
+systemPrincipal
 0
 false
 {

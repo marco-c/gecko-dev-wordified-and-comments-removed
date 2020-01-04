@@ -302,6 +302,19 @@ errorReceived
 =
 false
 ;
+var
+systemPrincipal
+=
+SpecialPowers
+.
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
+;
 function
 finish
 (
@@ -621,6 +634,7 @@ scheduleUpdate
 (
 manifestURI
 documentURI
+systemPrincipal
 window
 )
 ;

@@ -594,6 +594,13 @@ scheduleUpdate
 (
 manifestURL
 pageURL
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 null
 )
 ;
