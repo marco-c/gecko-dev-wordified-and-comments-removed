@@ -41,7 +41,7 @@ kKeyMapping
 0
 0
 NS_VK_HOME
-0
+NS_VK_ESCAPE
 0
 NS_VK_SLEEP
 NS_VK_0
