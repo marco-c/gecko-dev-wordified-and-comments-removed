@@ -1318,7 +1318,7 @@ PR_WaitCondVar
 PRCondVar
 *
 cvar
-uint32_t
+PRIntervalTime
 timeout
 )
 {

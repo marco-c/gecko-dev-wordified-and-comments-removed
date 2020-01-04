@@ -56,6 +56,11 @@ nspr
 CondVar
 PRCondVar
 ;
+using
+PRIntervalTime
+=
+uint32_t
+;
 enum
 PRThreadType
 {
@@ -367,7 +372,7 @@ PR_WaitCondVar
 PRCondVar
 *
 cvar
-uint32_t
+PRIntervalTime
 timeout
 )
 ;
