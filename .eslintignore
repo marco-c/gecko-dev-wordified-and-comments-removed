@@ -435,11 +435,6 @@ devtools
 exclusions
 devtools
 /
-*
-.
-js
-devtools
-/
 client
 /
 canvasdebugger

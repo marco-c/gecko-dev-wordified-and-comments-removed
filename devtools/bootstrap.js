@@ -91,7 +91,6 @@ telemetry
 "
 )
 ;
-;
 let
 telemetry
 =
@@ -334,7 +333,6 @@ null
 }
 ;
 }
-;
 let
 getTopLevelWindow
 =
@@ -400,6 +398,7 @@ event
 .
 view
 )
+;
 let
 isBrowser
 =
