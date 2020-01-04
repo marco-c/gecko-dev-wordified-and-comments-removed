@@ -3791,7 +3791,7 @@ if
 !
 blockedPopup
 .
-popupWindowURI
+popupWindowURIspec
 )
 continue
 ;
@@ -3800,9 +3800,7 @@ popupURIspec
 =
 blockedPopup
 .
-popupWindowURI
-.
-spec
+popupWindowURIspec
 ;
 if
 (
@@ -3820,6 +3818,16 @@ popupURIspec
 about
 :
 blank
+"
+|
+|
+popupURIspec
+=
+=
+"
+<
+self
+>
 "
 |
 |
@@ -4114,7 +4122,7 @@ popups
 i
 ]
 .
-popupWindowURI
+popupWindowURIspec
 )
 aBrowser
 .
