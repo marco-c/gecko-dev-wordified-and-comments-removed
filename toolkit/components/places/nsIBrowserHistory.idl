@@ -546,6 +546,17 @@ a
 batch
 .
 *
+*
+deprecated
+Please
+use
+PlacesUtils
+.
+history
+.
+removeVisitsByFilter
+instead
+*
 /
 void
 removeVisitsByTimeframe
