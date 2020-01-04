@@ -740,6 +740,11 @@ WidgetMessageUtils
 .
 h
 '
+'
+WindowSurface
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -1090,6 +1095,11 @@ SOURCES
 [
 '
 nsShmImage
+.
+cpp
+'
+'
+WindowSurfaceX11SHM
 .
 cpp
 '

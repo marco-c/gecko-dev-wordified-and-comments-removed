@@ -123,6 +123,13 @@ h
 #
 include
 "
+nsThreadUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Preferences
