@@ -1013,6 +1013,7 @@ TimeUnit
 &
 aDuration
 )
+override
 {
 nsresult
 rv
