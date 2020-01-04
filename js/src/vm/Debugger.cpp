@@ -4631,6 +4631,7 @@ Closure
 {
 public
 :
+explicit
 ReportExceptionClosure
 (
 RootedValue
