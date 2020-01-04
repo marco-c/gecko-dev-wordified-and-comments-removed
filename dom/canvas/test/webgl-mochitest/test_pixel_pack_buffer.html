@@ -1811,6 +1811,16 @@ PACK_SKIP_ROWS
 3
 )
 ;
+}
+function
+RunTest
+(
+)
+{
+Test
+(
+)
+;
 SimpleTest
 .
 finish
@@ -1868,7 +1878,7 @@ SpecialPowers
 pushPrefEnv
 (
 prefEnv
-Test
+RunTest
 )
 ;
 }
@@ -1892,7 +1902,7 @@ anyway
 '
 )
 ;
-Test
+RunTest
 (
 )
 ;
