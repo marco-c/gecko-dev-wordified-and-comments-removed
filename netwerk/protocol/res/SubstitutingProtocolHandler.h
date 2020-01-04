@@ -190,10 +190,6 @@ const
 nsACString
 &
 aPath
-const
-nsACString
-&
-aPathname
 nsACString
 &
 aResult
