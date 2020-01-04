@@ -6965,11 +6965,7 @@ e
 }
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 Feeds
@@ -6980,7 +6976,6 @@ args
 .
 toString
 (
-)
 )
 )
 ;
@@ -7080,11 +7075,7 @@ true
 }
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 SearchEngines
@@ -7095,7 +7086,6 @@ args
 .
 toString
 (
-)
 )
 )
 ;
@@ -8730,11 +8720,7 @@ which
 {
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 CharEncoding
@@ -8745,7 +8731,6 @@ codeArray
 [
 which
 ]
-)
 )
 ;
 dialog
@@ -15064,11 +15049,7 @@ item
 {
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 Menu
@@ -15084,7 +15065,6 @@ info
 id
 -
 ADDON_MENU_OFFSET
-)
 )
 )
 ;
@@ -18620,11 +18600,7 @@ pdf
 ;
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 SaveAs
@@ -18632,7 +18608,6 @@ SaveAs
 PDF
 "
 null
-)
 )
 ;
 return
@@ -18893,11 +18868,7 @@ char_encoding
 {
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 CharEncoding
@@ -18905,7 +18876,6 @@ CharEncoding
 Get
 "
 null
-)
 )
 ;
 return
@@ -19032,11 +19002,7 @@ e
 }
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 DesktopMode
@@ -19047,7 +19013,6 @@ args
 .
 toString
 (
-)
 )
 )
 ;
@@ -20023,11 +19988,7 @@ FEEDBACK_LAUNCH_COUNT
 {
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 Feedback
@@ -20035,7 +19996,6 @@ Feedback
 Show
 "
 null
-)
 )
 ;
 }

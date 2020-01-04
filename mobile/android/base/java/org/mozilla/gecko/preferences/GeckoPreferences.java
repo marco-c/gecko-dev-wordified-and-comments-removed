@@ -4995,11 +4995,7 @@ restoreDefaultSearchEngines
 {
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 SearchEngines
@@ -5008,15 +5004,10 @@ RestoreDefaults
 "
 null
 )
-)
 ;
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 SearchEngines
@@ -5024,7 +5015,6 @@ SearchEngines
 GetVisible
 "
 null
-)
 )
 ;
 }
