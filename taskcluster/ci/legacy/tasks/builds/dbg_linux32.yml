@@ -118,6 +118,9 @@ taskcluster
 symbol
 :
 B
+tier
+:
+2
 collection
 :
 debug
