@@ -1891,6 +1891,17 @@ nullptr
 ;
 }
 else
+if
+(
+aFrame
+-
+>
+GetStateBits
+(
+)
+&
+NS_FRAME_HAS_CHILD_WITH_VIEW
+)
 {
 nsIFrame
 :
