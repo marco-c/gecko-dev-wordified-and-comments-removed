@@ -1878,6 +1878,7 @@ CallbackTracer
 {
 public
 :
+explicit
 CheckHeapTracer
 (
 JSRuntime
