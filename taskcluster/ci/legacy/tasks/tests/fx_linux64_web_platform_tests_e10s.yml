@@ -255,8 +255,6 @@ web
 platform
 -
 tests
--
-e10s
 chunks
 :
 total
