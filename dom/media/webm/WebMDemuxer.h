@@ -783,17 +783,6 @@ GetBuffered
 )
 override
 ;
-int64_t
-GetEvictionOffset
-(
-media
-:
-:
-TimeUnit
-aTime
-)
-override
-;
 void
 BreakCycles
 (
