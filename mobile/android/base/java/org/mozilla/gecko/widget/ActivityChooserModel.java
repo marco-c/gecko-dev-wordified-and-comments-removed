@@ -4239,15 +4239,6 @@ firefoxAccountsExist
 (
 mContext
 )
-&
-&
-!
-SyncAccounts
-.
-syncAccountsExist
-(
-mContext
-)
 )
 {
 return
