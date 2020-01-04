@@ -168,9 +168,6 @@ notification
 tag
 *
 /
-[
-implicit_jscontext
-]
 void
 handle
 (
@@ -235,9 +232,6 @@ call
 .
 *
 /
-[
-implicit_jscontext
-]
 void
 done
 (
