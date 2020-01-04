@@ -1,9 +1,9 @@
 #
 ifndef
-nsTableOuterFrame_h__
+nsTableWrapperFrame_h__
 #
 define
-nsTableOuterFrame_h__
+nsTableWrapperFrame_h__
 #
 include
 "
@@ -51,7 +51,7 @@ nsTableFrame
 h
 "
 class
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 public
 nsContainerFrame
@@ -62,12 +62,12 @@ NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
 NS_DECL_QUERYFRAME_TARGET
 (
-nsTableOuterFrame
+nsTableWrapperFrame
 )
 friend
-nsTableOuterFrame
+nsTableWrapperFrame
 *
-NS_NewTableOuterFrame
+NS_NewTableWrapperFrame
 (
 nsIPresShell
 *
@@ -636,7 +636,7 @@ aColIdx
 protected
 :
 explicit
-nsTableOuterFrame
+nsTableWrapperFrame
 (
 nsStyleContext
 *
@@ -645,7 +645,7 @@ aContext
 ;
 virtual
 ~
-nsTableOuterFrame
+nsTableWrapperFrame
 (
 )
 ;

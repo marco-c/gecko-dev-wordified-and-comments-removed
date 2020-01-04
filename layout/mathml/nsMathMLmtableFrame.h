@@ -30,7 +30,7 @@ h
 #
 include
 "
-nsTableOuterFrame
+nsTableWrapperFrame
 .
 h
 "
@@ -52,7 +52,7 @@ class
 nsMathMLmtableOuterFrame
 :
 public
-nsTableOuterFrame
+nsTableWrapperFrame
 public
 nsMathMLFrame
 {
@@ -118,7 +118,7 @@ const
 override
 {
 return
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 IsFrameOfType
@@ -145,7 +145,7 @@ nsStyleContext
 aContext
 )
 :
-nsTableOuterFrame
+nsTableWrapperFrame
 (
 aContext
 )

@@ -128,7 +128,7 @@ h
 #
 include
 "
-nsTableOuterFrame
+nsTableWrapperFrame
 .
 h
 "
@@ -671,8 +671,8 @@ GetParent
 table
 constructed
 without
-outer
 table
+wrapper
 "
 )
 ;

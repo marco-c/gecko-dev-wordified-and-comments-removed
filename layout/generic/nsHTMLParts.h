@@ -732,11 +732,11 @@ aContext
 )
 ;
 class
-nsTableOuterFrame
+nsTableWrapperFrame
 ;
-nsTableOuterFrame
+nsTableWrapperFrame
 *
-NS_NewTableOuterFrame
+NS_NewTableWrapperFrame
 (
 nsIPresShell
 *

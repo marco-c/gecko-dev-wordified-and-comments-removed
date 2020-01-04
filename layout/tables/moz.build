@@ -176,11 +176,6 @@ nsTableFrame
 cpp
 '
 '
-nsTableOuterFrame
-.
-cpp
-'
-'
 nsTablePainter
 .
 cpp
@@ -192,6 +187,11 @@ cpp
 '
 '
 nsTableRowGroupFrame
+.
+cpp
+'
+'
+nsTableWrapperFrame
 .
 cpp
 '

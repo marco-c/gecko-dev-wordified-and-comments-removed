@@ -12135,8 +12135,8 @@ tableOuterFrame
 table
 not
 inside
-outer
 table
+wrapper
 "
 )
 ;

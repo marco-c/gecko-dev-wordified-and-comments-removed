@@ -153,7 +153,7 @@ h
 #
 include
 "
-nsTableOuterFrame
+nsTableWrapperFrame
 .
 h
 "
@@ -14333,7 +14333,7 @@ break
 }
 else
 {
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 tableFrame
 =

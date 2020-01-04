@@ -205,7 +205,7 @@ h
 #
 include
 "
-nsTableOuterFrame
+nsTableWrapperFrame
 .
 h
 "
@@ -2266,7 +2266,7 @@ ColCount
 (
 )
 {
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 tableFrame
 =
@@ -2301,7 +2301,7 @@ RowCount
 (
 )
 {
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 tableFrame
 =
@@ -2336,7 +2336,7 @@ SelectedCellCount
 (
 )
 {
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 tableFrame
 =
@@ -2612,7 +2612,7 @@ Accessible
 aCells
 )
 {
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 tableFrame
 =
@@ -2811,7 +2811,7 @@ uint32_t
 aCells
 )
 {
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 tableFrame
 =
@@ -3094,7 +3094,7 @@ uint32_t
 aColIdx
 )
 {
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 tableFrame
 =
@@ -3164,7 +3164,7 @@ uint32_t
 aColIdx
 )
 {
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 tableFrame
 =
@@ -3208,7 +3208,7 @@ uint32_t
 aCellIdx
 )
 {
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 tableFrame
 =
@@ -3267,7 +3267,7 @@ uint32_t
 aCellIdx
 )
 {
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 tableFrame
 =
@@ -3332,7 +3332,7 @@ int32_t
 aColIdx
 )
 {
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 tableFrame
 =
@@ -3373,7 +3373,7 @@ uint32_t
 aColIdx
 )
 {
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 tableFrame
 =
@@ -3418,7 +3418,7 @@ uint32_t
 aColIdx
 )
 {
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 tableFrame
 =
@@ -3581,7 +3581,7 @@ uint32_t
 aColIdx
 )
 {
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 tableFrame
 =
@@ -3804,7 +3804,7 @@ nsISelectionPrivate
 TABLESELECTION_ROW
 )
 ;
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 tableFrame
 =
@@ -3983,7 +3983,7 @@ bool
 aIsOuter
 )
 {
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 tableFrame
 =
@@ -5151,7 +5151,7 @@ columns
 )
 ;
 }
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 tableFrame
 =

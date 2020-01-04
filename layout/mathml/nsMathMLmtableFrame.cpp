@@ -3171,7 +3171,7 @@ nsIMathMLFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsTableOuterFrame
+nsTableWrapperFrame
 )
 nsContainerFrame
 *
@@ -3754,7 +3754,7 @@ aStatus
 nsAutoString
 value
 ;
-nsTableOuterFrame
+nsTableWrapperFrame
 :
 :
 Reflow

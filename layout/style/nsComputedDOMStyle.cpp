@@ -2464,8 +2464,8 @@ NS_ASSERTION
 (
 mInnerFrame
 "
-Outer
 table
+wrapper
 must
 have
 an
@@ -2483,8 +2483,8 @@ GetNextSibling
 (
 )
 "
-Outer
 table
+wrapper
 frames
 should
 have

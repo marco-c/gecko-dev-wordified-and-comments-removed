@@ -523,7 +523,7 @@ nsIFrame
 )
 friend
 class
-nsTableOuterFrame
+nsTableWrapperFrame
 ;
 friend
 nsTableFrame

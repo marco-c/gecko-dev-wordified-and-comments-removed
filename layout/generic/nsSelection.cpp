@@ -114,7 +114,7 @@ h
 #
 include
 "
-nsTableOuterFrame
+nsTableWrapperFrame
 .
 h
 "
@@ -11444,7 +11444,7 @@ index
 return
 NS_ERROR_NULL_POINTER
 ;
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 tableFrame
 =
@@ -11865,7 +11865,7 @@ index
 return
 NS_ERROR_NULL_POINTER
 ;
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 tableFrame
 =
@@ -12151,7 +12151,7 @@ table
 return
 NS_ERROR_NULL_POINTER
 ;
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 tableFrame
 =

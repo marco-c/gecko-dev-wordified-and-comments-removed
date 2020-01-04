@@ -593,7 +593,7 @@ h
 #
 include
 "
-nsTableOuterFrame
+nsTableWrapperFrame
 .
 h
 "
@@ -8798,7 +8798,7 @@ outerStyleContext
 else
 newFrame
 =
-NS_NewTableOuterFrame
+NS_NewTableWrapperFrame
 (
 mPresShell
 outerStyleContext
@@ -33782,9 +33782,9 @@ only
 a
 child
 of
-an
-outer
+a
 table
+wrapper
 frame
 "
 )
@@ -36383,11 +36383,11 @@ nsStyleContext
 aStyleContext
 )
 {
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 newFrame
 =
-NS_NewTableOuterFrame
+NS_NewTableWrapperFrame
 (
 aPresShell
 aStyleContext

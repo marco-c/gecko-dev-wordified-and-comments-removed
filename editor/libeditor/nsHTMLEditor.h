@@ -223,7 +223,7 @@ class
 nsILinkHandler
 ;
 class
-nsTableOuterFrame
+nsTableWrapperFrame
 ;
 class
 nsIDOMRange
@@ -1925,7 +1925,7 @@ int32_t
 aRowSpan
 )
 ;
-nsTableOuterFrame
+nsTableWrapperFrame
 *
 GetTableFrame
 (
