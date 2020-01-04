@@ -108,9 +108,6 @@ nsChangeHint_ReflowChangesSizeOrPosition
 nsChangeHint_UpdateComputedBSize
 =
 0x1000000
-nsChangeHint_UpdateUsesOpacity
-=
-0x2000000
 }
 ;
 inline
@@ -529,9 +526,6 @@ nsChangeHint_ClearAncestorIntrinsics
 |
 \
 nsChangeHint_UpdateComputedBSize
-|
-\
-nsChangeHint_UpdateUsesOpacity
 )
 inline
 nsChangeHint
@@ -572,8 +566,6 @@ nsChangeHint_UpdateContainingBlock
 nsChangeHint_BorderStyleNoneChange
 |
 nsChangeHint_UpdateComputedBSize
-|
-nsChangeHint_UpdateUsesOpacity
 )
 )
 ;

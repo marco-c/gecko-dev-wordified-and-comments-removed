@@ -21985,9 +21985,6 @@ ReflowChangesSizeOrPosition
 "
 UpdateComputedBSize
 "
-"
-UpdateUsesOpacity
-"
 }
 ;
 uint32_t
