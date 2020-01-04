@@ -797,17 +797,6 @@ aOther
 )
 const
 ;
-virtual
-bool
-IsUsingCustomCompositeOrder
-(
-)
-const
-{
-return
-false
-;
-}
 void
 SetIsRunningOnCompositor
 (
