@@ -583,7 +583,7 @@ path
                 
 continue
             
-name
+kind_name
 =
 os
 .
@@ -610,7 +610,7 @@ from
 .
 format
 (
-name
+kind_name
 path
 )
 )
@@ -792,12 +792,24 @@ impl_class
 a
 )
             
-yield
+for
+task
+in
 impl_class
+.
+load_tasks
 (
+kind_name
 path
 config
+self
+.
+parameters
 )
+:
+                
+yield
+task
     
 def
 _run
@@ -824,7 +836,7 @@ all_tasks
 }
         
 for
-kind
+task
 in
 self
 .
@@ -833,19 +845,6 @@ _load_kinds
 )
 :
             
-for
-task
-in
-kind
-.
-load_tasks
-(
-self
-.
-parameters
-)
-:
-                
 if
 task
 .
@@ -853,7 +852,7 @@ label
 in
 all_tasks
 :
-                    
+                
 raise
 Exception
 (
@@ -868,7 +867,7 @@ task
 .
 label
 )
-                
+            
 all_tasks
 [
 task
@@ -931,11 +930,8 @@ depname
 in
 t
 .
-kind
-.
-get_task_dependencies
+get_dependencies
 (
-t
 full_task_set
 )
 :
