@@ -68,3 +68,13 @@ Setup
 js
 '
 ]
+EXTRA_JS_MODULES
++
+=
+[
+'
+MessagesBridge
+.
+jsm
+'
+]

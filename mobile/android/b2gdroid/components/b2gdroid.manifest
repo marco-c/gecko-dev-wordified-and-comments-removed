@@ -17,6 +17,9 @@ e2c80added2c
 Setup
 .
 js
+process
+=
+main
 contract
 mozilla
 .
@@ -40,6 +43,9 @@ a40c
 -
 e2c80added2c
 }
+process
+=
+main
 category
 profile
 -
@@ -58,3 +64,6 @@ b2gdroid
 setup
 ;
 1
+process
+=
+main
