@@ -376,10 +376,6 @@ GetScrollMetadata
 ;
 m
 .
-GetMetrics
-(
-)
-.
 SetForceDisableApz
 (
 true

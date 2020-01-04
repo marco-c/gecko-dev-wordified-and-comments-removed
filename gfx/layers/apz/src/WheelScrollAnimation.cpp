@@ -322,7 +322,9 @@ overscroll
 .
 y
 !
-aFrameMetrics
+mApzc
+.
+mScrollMetadata
 .
 AllowVerticalScrollWithWheel
 (

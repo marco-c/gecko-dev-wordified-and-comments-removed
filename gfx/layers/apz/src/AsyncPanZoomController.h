@@ -575,7 +575,7 @@ HasScrollgrab
 const
 {
 return
-mFrameMetrics
+mScrollMetadata
 .
 GetHasScrollgrab
 (
@@ -1159,7 +1159,11 @@ mMonitor
 ;
 private
 :
+ScrollMetadata
+mLastContentPaintMetadata
+;
 FrameMetrics
+&
 mLastContentPaintMetrics
 ;
 FrameMetrics
@@ -1531,7 +1535,7 @@ mMonitor
 )
 ;
 return
-mFrameMetrics
+mScrollMetadata
 .
 IsLayersIdRoot
 (
@@ -1578,7 +1582,7 @@ GetScrollHandoffParentId
 const
 {
 return
-mFrameMetrics
+mScrollMetadata
 .
 GetScrollParentId
 (

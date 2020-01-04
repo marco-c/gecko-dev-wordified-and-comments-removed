@@ -43692,7 +43692,7 @@ AppUnitsPerDevPixel
 )
 )
 ;
-metrics
+metadata
 .
 SetLineScrollAmount
 (
@@ -43726,7 +43726,7 @@ AppUnitsPerDevPixel
 )
 )
 ;
-metrics
+metadata
 .
 SetPageScrollAmount
 (
@@ -43758,7 +43758,7 @@ GetParent
 )
 )
 {
-metrics
+metadata
 .
 SetAllowVerticalScrollWithWheel
 (
@@ -43766,7 +43766,7 @@ true
 )
 ;
 }
-metrics
+metadata
 .
 SetUsesContainerScrolling
 (
@@ -43822,7 +43822,7 @@ SetIsRootContent
 aIsRootContent
 )
 ;
-metrics
+metadata
 .
 SetScrollParentId
 (
@@ -43885,7 +43885,7 @@ GetDocumentElement
 )
 )
 {
-metrics
+metadata
 .
 SetIsLayersIdRoot
 (
@@ -44287,7 +44287,7 @@ Describe
 contentDescription
 )
 ;
-metrics
+metadata
 .
 SetContentDescription
 (
@@ -44312,7 +44312,7 @@ scrollId
 "
 contentDescription
 "
-metrics
+metadata
 .
 GetContentDescription
 (
@@ -44356,7 +44356,7 @@ GetContent
 )
 )
 {
-metrics
+metadata
 .
 SetHasScrollgrab
 (
@@ -44374,7 +44374,7 @@ if
 isRootScrollFrame
 )
 {
-metrics
+metadata
 .
 SetBackgroundColor
 (
@@ -44412,7 +44412,7 @@ backgroundStyle
 )
 )
 {
-metrics
+metadata
 .
 SetBackgroundColor
 (
@@ -44444,7 +44444,7 @@ aContent
 )
 )
 {
-metrics
+metadata
 .
 SetForceDisableApz
 (
