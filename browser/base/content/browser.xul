@@ -6066,6 +6066,11 @@ type
 "
 autocomplete
 "
+inputtype
+=
+"
+url
+"
 autocompletesearch
 =
 "

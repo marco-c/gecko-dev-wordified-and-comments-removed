@@ -338,6 +338,11 @@ type
 "
 autocomplete
 "
+inputtype
+=
+"
+search
+"
 flex
 =
 "

@@ -381,6 +381,8 @@ tooltiptext
 inputtooltiptext
 value
 type
+=
+inputtype
 maxlength
 disabled
 size
