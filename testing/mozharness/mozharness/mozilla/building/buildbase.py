@@ -7334,6 +7334,22 @@ latest
 '
 )
         
+post_upload_cmd
+.
+extend
+(
+c
+.
+get
+(
+'
+post_upload_extra
+'
+[
+]
+)
+)
+        
 return
 post_upload_cmd
     
