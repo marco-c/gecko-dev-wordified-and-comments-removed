@@ -508,7 +508,10 @@ const
 0
 ;
 enum
+class
 ConversionRequired
+:
+uint8_t
 {
 kNeedNone
 kNeedAVCC
@@ -583,7 +586,10 @@ aParams
 }
 ;
 enum
+class
 MediaDataDecoderError
+:
+uint8_t
 {
 FATAL_ERROR
 DECODE_ERROR
@@ -672,7 +678,10 @@ MediaDataDecoder
 public
 :
 enum
+class
 DecoderFailureReason
+:
+uint8_t
 {
 INIT_ERROR
 CANCELED

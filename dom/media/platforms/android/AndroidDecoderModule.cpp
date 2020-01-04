@@ -836,10 +836,16 @@ IsVideo
 )
 {
 return
+ConversionRequired
+:
+:
 kNeedAnnexB
 ;
 }
 return
+ConversionRequired
+:
+:
 kNeedNone
 ;
 }
