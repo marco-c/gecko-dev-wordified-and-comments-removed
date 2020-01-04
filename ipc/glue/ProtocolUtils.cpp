@@ -1535,8 +1535,6 @@ const
 char
 *
 aMsg
-ProcessId
-aOtherPid
 bool
 aIsParent
 )

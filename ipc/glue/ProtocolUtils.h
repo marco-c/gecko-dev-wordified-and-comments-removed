@@ -1026,11 +1026,6 @@ const
 char
 *
 aMsg
-base
-:
-:
-ProcessId
-aOtherPid
 bool
 aIsParent
 )
