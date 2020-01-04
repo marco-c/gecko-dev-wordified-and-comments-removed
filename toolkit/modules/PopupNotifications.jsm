@@ -3926,6 +3926,12 @@ length
 )
 return
 ;
+event
+.
+stopPropagation
+(
+)
+;
 let
 anchor
 =
