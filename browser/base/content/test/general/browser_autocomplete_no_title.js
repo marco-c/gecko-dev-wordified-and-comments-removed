@@ -189,7 +189,7 @@ is
 (
 result
 .
-_title
+_titleText
 .
 textContent
 "
