@@ -1318,6 +1318,9 @@ name_
 bool
 offerer_
 ;
+bool
+ice_controlling_set_
+;
 std
 :
 :
