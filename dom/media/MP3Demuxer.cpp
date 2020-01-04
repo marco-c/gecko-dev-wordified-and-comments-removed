@@ -3669,7 +3669,7 @@ RawChannelMode
 const
 {
 return
-0xF
+0x3
 &
 mRaw
 [
@@ -3680,7 +3680,7 @@ CHANNELMODE_MODEEXT_COPY_ORIG_EMPH
 ]
 >
 >
-4
+6
 ;
 }
 int32_t
