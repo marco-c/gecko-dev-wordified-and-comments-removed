@@ -1821,8 +1821,6 @@ BluetoothUuid
 :
 :
 BASE
-(
-)
 ;
 if
 (
