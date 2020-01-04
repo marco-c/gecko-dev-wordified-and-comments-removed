@@ -1,8 +1,3 @@
-function
-test
-(
-)
-{
 let
 loader
 =
@@ -91,9 +86,8 @@ js
 this
 )
 ;
-let
-tests
-=
+run_test_subset
+(
 [
 test_locbar_suggestion_retention
 (
@@ -131,10 +125,5 @@ history
 false
 )
 ]
-;
-run_test_subset
-(
-tests
 )
 ;
-}

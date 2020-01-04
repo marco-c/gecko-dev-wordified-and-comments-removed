@@ -1,13 +1,3 @@
-requestLongerTimeout
-(
-2
-)
-;
-function
-test
-(
-)
-{
 let
 loader
 =
@@ -125,10 +115,6 @@ nsIXULRuntime
 ;
 run_test_subset
 (
-Array
-.
-concat
-(
 [
 test_custom_retention
 (
@@ -148,8 +134,6 @@ acceptCookies
 custom
 "
 )
-]
-[
 test_custom_retention
 (
 "
@@ -174,8 +158,6 @@ custom
 always
 "
 )
-]
-[
 test_custom_retention
 (
 "
@@ -235,6 +217,4 @@ remember
 )
 ]
 )
-)
 ;
-}

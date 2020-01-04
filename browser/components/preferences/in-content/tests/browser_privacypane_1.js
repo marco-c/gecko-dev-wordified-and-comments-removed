@@ -1,13 +1,3 @@
-function
-test
-(
-)
-{
-requestLongerTimeout
-(
-2
-)
-;
 let
 loader
 =
@@ -107,4 +97,3 @@ test_dependent_prefs
 ]
 )
 ;
-}

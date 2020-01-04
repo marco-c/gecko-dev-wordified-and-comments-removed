@@ -1,8 +1,3 @@
-function
-test
-(
-)
-{
 let
 loader
 =
@@ -142,4 +137,3 @@ remember
 ]
 )
 ;
-}
