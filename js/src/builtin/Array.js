@@ -3249,10 +3249,12 @@ true
 var
 next
 =
+callFunction
+(
 iterator
 .
 next
-(
+iterator
 )
 ;
 if
