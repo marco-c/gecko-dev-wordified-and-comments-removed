@@ -1693,7 +1693,7 @@ arrayLength
 setterElemSize
 )
 {
-ErrorInvalidOperation
+ErrorInvalidValue
 (
 "
 %
