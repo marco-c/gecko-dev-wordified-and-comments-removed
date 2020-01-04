@@ -635,7 +635,7 @@ bool
 ImageWrapper
 :
 :
-WillDrawOpaqueNow
+IsOpaque
 (
 )
 {
@@ -643,7 +643,7 @@ return
 mInnerImage
 -
 >
-WillDrawOpaqueNow
+IsOpaque
 (
 )
 ;

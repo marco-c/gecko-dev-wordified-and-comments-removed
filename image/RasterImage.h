@@ -940,11 +940,6 @@ CanDiscard
 (
 )
 ;
-bool
-IsOpaque
-(
-)
-;
 protected
 :
 explicit

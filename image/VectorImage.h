@@ -132,7 +132,6 @@ aLastPart
 )
 override
 ;
-virtual
 void
 OnSurfaceDiscarded
 (

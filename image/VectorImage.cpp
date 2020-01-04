@@ -2540,7 +2540,7 @@ bool
 VectorImage
 :
 :
-WillDrawOpaqueNow
+IsOpaque
 (
 )
 {

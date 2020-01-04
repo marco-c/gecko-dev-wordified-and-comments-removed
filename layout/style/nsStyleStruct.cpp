@@ -9559,7 +9559,7 @@ if
 imageContainer
 -
 >
-WillDrawOpaqueNow
+IsOpaque
 (
 )
 )

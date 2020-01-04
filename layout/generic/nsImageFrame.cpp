@@ -7430,7 +7430,7 @@ mImage
 mImage
 -
 >
-WillDrawOpaqueNow
+IsOpaque
 (
 )
 )
