@@ -1203,6 +1203,17 @@ return
 false
 ;
 }
+virtual
+bool
+RespectsFontStyleSmoothing
+(
+)
+const
+{
+return
+false
+;
+}
 bool
 UseCmapsDuringSystemFallback
 (

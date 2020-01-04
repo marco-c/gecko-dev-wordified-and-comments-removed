@@ -235,6 +235,17 @@ true
 ;
 }
 bool
+RespectsFontStyleSmoothing
+(
+)
+const
+override
+{
+return
+true
+;
+}
+bool
 RequiresAcceleratedGLContextForCompositorOGL
 (
 )
