@@ -1197,6 +1197,12 @@ endif
 struct
 AutoEnterAnalysis
 {
+UniquePtr
+<
+UnboxedLayout
+>
+unboxedLayoutToCleanUp
+;
 gc
 :
 :
