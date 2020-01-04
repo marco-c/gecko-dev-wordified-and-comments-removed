@@ -1362,6 +1362,13 @@ GetRedirectMode
 )
 )
 ;
+mRequest
+-
+>
+MaybeSkipCacheIfPerformingRevalidation
+(
+)
+;
 internalChan
 -
 >

@@ -1062,6 +1062,11 @@ IsClientRequest
 )
 const
 ;
+void
+MaybeSkipCacheIfPerformingRevalidation
+(
+)
+;
 static
 RequestMode
 MapChannelToRequestMode
