@@ -1185,7 +1185,7 @@ transform2d
 ;
 Maybe
 <
-nsIntPoint
+IntPoint
 >
 integerTranslation
 ;
@@ -1213,7 +1213,10 @@ integerTranslation
 =
 Some
 (
-TruncatedToInt
+IntPoint
+:
+:
+Truncate
 (
 transform2d
 .

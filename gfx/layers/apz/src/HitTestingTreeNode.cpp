@@ -1016,10 +1016,13 @@ HitTestResult
 HitNothing
 ;
 }
-LayerIntPoint
+auto
 point
 =
-RoundedToInt
+LayerIntPoint
+:
+:
+Round
 (
 pointInLayerPixels
 .

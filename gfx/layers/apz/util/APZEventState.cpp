@@ -1199,10 +1199,13 @@ WidgetModifiersToDOMModifiers
 aModifiers
 )
 ;
-LayoutDeviceIntPoint
+auto
 ldPoint
 =
-RoundedToInt
+LayoutDeviceIntPoint
+:
+:
+Round
 (
 point
 *

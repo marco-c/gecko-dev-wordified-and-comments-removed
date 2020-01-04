@@ -1817,10 +1817,10 @@ aGuid
 aScale
 ;
 return
-gfx
+LayoutDeviceIntPoint
 :
 :
-RoundedToInt
+Round
 (
 point
 )

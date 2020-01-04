@@ -618,7 +618,13 @@ GetScaledTileSize
 const
 {
 return
-RoundedToInt
+gfx
+:
+:
+IntSize
+:
+:
+Round
 (
 gfx
 :
