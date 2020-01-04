@@ -498,8 +498,9 @@ else
 value
 )
 if
-not
 value
+is
+not_found
 and
 not
 allow_missing
