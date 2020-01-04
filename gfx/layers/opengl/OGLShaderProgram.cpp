@@ -43,6 +43,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+Compositor
+.
+h
+"
+#
+include
+"
 nsAString
 .
 h
@@ -553,6 +564,9 @@ ShaderConfigOGL
 :
 SetCompositionOp
 (
+gfx
+:
+:
 CompositionOp
 aOp
 )
@@ -584,6 +598,9 @@ AddUniforms
 result
 )
 ;
+gfx
+:
+:
 CompositionOp
 blendOp
 =
