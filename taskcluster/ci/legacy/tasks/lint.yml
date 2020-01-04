@@ -280,6 +280,11 @@ head_rev
 }
 }
 '
+features
+:
+taskclusterProxy
+:
+true
 extra
 :
 build_product
