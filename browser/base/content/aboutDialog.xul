@@ -711,7 +711,7 @@ oncommand
 "
 gAppUpdater
 .
-doUpdate
+startDownload
 (
 )
 ;
