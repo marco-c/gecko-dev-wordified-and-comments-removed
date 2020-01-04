@@ -2538,14 +2538,6 @@ GetLength
 >
 =
 0
-&
-&
-mDecoder
--
->
-IsMediaSeekable
-(
-)
 )
 {
 int64_t
