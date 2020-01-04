@@ -86,9 +86,6 @@ net
 {
 enum
 {
-SPDY_VERSION_31
-=
-4
 HTTP_VERSION_2
 =
 5
