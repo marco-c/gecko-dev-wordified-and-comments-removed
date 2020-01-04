@@ -7963,11 +7963,8 @@ test
 liTestFail
 .
 className
-=
-liTestFail
-.
-className
 +
+=
 "
 fail
 "
@@ -8059,11 +8056,8 @@ test
 liTestFail
 .
 className
-=
-liTestFail
-.
-className
 +
+=
 "
 fail
 "
