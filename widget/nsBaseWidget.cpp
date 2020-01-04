@@ -2190,7 +2190,7 @@ nsIWidget
 aChild
 )
 {
-NS_PRECONDITION
+MOZ_RELEASE_ASSERT
 (
 !
 aChild
@@ -2236,16 +2236,12 @@ aChild
 }
 else
 {
-NS_ASSERTION
+MOZ_RELEASE_ASSERT
 (
 mLastChild
-"
-Bogus
-state
-"
 )
 ;
-NS_ASSERTION
+MOZ_RELEASE_ASSERT
 (
 !
 mLastChild
@@ -2254,10 +2250,6 @@ mLastChild
 GetNextSibling
 (
 )
-"
-Bogus
-state
-"
 )
 ;
 mLastChild
@@ -2332,7 +2324,7 @@ kids
 ;
 #
 else
-NS_ASSERTION
+MOZ_RELEASE_ASSERT
 (
 aChild
 -
