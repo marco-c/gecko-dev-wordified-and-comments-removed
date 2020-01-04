@@ -168,12 +168,6 @@ Init
 )
 ;
 static
-bool
-IsServiceAvailable
-(
-)
-;
-static
 nsresult
 ResetAndReadUserPrefs
 (
