@@ -201,6 +201,13 @@ true
 copy
 -
 >
+mReferrer
+=
+mReferrer
+;
+copy
+-
+>
 mReferrerPolicy
 =
 mReferrerPolicy
