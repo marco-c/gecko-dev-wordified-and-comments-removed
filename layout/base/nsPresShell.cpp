@@ -17329,10 +17329,6 @@ AnimationManager
 >
 FlushAnimations
 (
-CommonAnimationManager
-:
-:
-Cannot_Throttle
 )
 ;
 }
@@ -17356,10 +17352,6 @@ TransitionManager
 >
 FlushAnimations
 (
-CommonAnimationManager
-:
-:
-Cannot_Throttle
 )
 ;
 }
