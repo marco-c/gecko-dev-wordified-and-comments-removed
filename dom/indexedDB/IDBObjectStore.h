@@ -943,6 +943,9 @@ IDBRequest
 >
 OpenCursor
 (
+JSContext
+*
+aCx
 IDBCursorDirection
 aDirection
 ErrorResult
@@ -958,7 +961,7 @@ return
 OpenCursorInternal
 (
 false
-nullptr
+aCx
 JS
 :
 :

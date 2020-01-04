@@ -479,6 +479,11 @@ aTransaction
 {
 MOZ_ASSERT
 (
+aCx
+)
+;
+MOZ_ASSERT
+(
 aDatabase
 )
 ;
