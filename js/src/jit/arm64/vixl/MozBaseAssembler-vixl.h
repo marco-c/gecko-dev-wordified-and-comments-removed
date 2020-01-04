@@ -86,6 +86,7 @@ AssemblerBufferWithConstantPools
 4
 Instruction
 MozBaseAssembler
+NumShortBranchRangeTypes
 >
 ARMBuffer
 ;
