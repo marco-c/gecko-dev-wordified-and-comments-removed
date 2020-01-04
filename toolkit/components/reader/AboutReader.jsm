@@ -3827,7 +3827,9 @@ obs
 .
 notifyObservers
 (
-null
+this
+.
+_win
 "
 AboutReader
 :
