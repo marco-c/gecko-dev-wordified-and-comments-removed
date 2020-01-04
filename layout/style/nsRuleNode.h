@@ -731,6 +731,8 @@ aSID
 nsStyleContext
 *
 aStyleContext
+bool
+aCanComputeData
 )
 const
 {
@@ -752,6 +754,16 @@ mEntries
 [
 aSID
 ]
+;
+}
+if
+(
+!
+aCanComputeData
+)
+{
+return
+nullptr
 ;
 }
 return
@@ -1404,6 +1416,8 @@ aSID
 nsStyleContext
 *
 aStyleContext
+bool
+aCanComputeData
 )
 {
 if
@@ -1427,6 +1441,7 @@ GetStyleData
 (
 aSID
 aStyleContext
+aCanComputeData
 )
 ;
 }
@@ -1603,6 +1618,9 @@ name_
 nsStyleContext
 *
 aContext
+\
+bool
+aCanComputeData
 )
 {
 \
@@ -1629,8 +1647,10 @@ eStyleStruct_
 #
 name_
 aContext
+aCanComputeData
 )
 )
+\
 :
 nullptr
 ;
@@ -4045,6 +4065,7 @@ GetStyle
 name_
 (
 aContext
+aComputeData
 )
 ;
 \
