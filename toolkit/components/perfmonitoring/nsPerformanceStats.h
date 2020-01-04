@@ -248,9 +248,6 @@ nsPerformanceGroup
 bool
 mIsAvailable
 ;
-bool
-mDisposed
-;
 const
 uint64_t
 mProcessId
