@@ -793,11 +793,18 @@ CanvasCaptureMediaStream
 :
 CanvasCaptureMediaStream
 (
+nsPIDOMWindowInner
+*
+aWindow
 HTMLCanvasElement
 *
 aCanvas
 )
 :
+DOMMediaStream
+(
+aWindow
+)
 mCanvas
 (
 aCanvas
@@ -1026,6 +1033,7 @@ stream
 new
 CanvasCaptureMediaStream
 (
+aWindow
 aCanvas
 )
 ;
@@ -1053,7 +1061,6 @@ stream
 >
 InitSourceStream
 (
-aWindow
 graph
 )
 ;

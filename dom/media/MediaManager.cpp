@@ -3048,6 +3048,7 @@ stream
 new
 nsDOMUserMediaStream
 (
+aWindow
 aListener
 aAudioDevice
 aVideoDevice
@@ -3058,7 +3059,6 @@ stream
 >
 InitSourceStream
 (
-aWindow
 aMSG
 )
 ;
@@ -3072,6 +3072,9 @@ forget
 }
 nsDOMUserMediaStream
 (
+nsPIDOMWindowInner
+*
+aWindow
 GetUserMediaCallbackMediaStreamListener
 *
 aListener
@@ -3083,6 +3086,10 @@ VideoDevice
 aVideoDevice
 )
 :
+DOMLocalMediaStream
+(
+aWindow
+)
 mListener
 (
 aListener
