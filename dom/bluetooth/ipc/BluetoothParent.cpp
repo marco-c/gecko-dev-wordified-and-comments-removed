@@ -2955,7 +2955,7 @@ SetPinCodeInternal
 (
 aRequest
 .
-path
+address
 (
 )
 aRequest
@@ -3009,7 +3009,7 @@ SetPasskeyInternal
 (
 aRequest
 .
-path
+address
 (
 )
 aRequest
@@ -3063,7 +3063,7 @@ SetPairingConfirmationInternal
 (
 aRequest
 .
-path
+address
 (
 )
 true
@@ -3113,7 +3113,7 @@ SetPairingConfirmationInternal
 (
 aRequest
 .
-path
+address
 (
 )
 false
