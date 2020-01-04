@@ -2882,13 +2882,7 @@ state
 mController
 )
 ;
-state
--
->
-mController
--
->
-DispatchToRepaintThread
+NS_DispatchToMainThread
 (
 NewRunnableMethod
 (

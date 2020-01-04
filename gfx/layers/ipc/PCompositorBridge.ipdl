@@ -115,10 +115,6 @@ PlatformWidgetTypes
 ;
 include
 protocol
-PAPZ
-;
-include
-protocol
 PAPZCTreeManager
 ;
 include
@@ -485,9 +481,6 @@ sync
 protocol
 PCompositorBridge
 {
-manages
-PAPZ
-;
 manages
 PAPZCTreeManager
 ;
@@ -983,13 +976,6 @@ AsyncPanZoomEnabled
 is
 true
 .
-async
-PAPZ
-(
-uint64_t
-layersId
-)
-;
 async
 PAPZCTreeManager
 (
