@@ -3312,6 +3312,13 @@ BINPATH
 /
 components
 /
+PresentationDevicePrompt
+.
+js
+BINPATH
+/
+components
+/
 PromptService
 .
 js
