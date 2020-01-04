@@ -505,12 +505,10 @@ IconTabWidget
 mTabWidget
 ;
 private
-static
 View
 mMenuButton
 ;
 private
-static
 ImageButton
 mAddTab
 ;
