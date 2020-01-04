@@ -9177,15 +9177,6 @@ MOZ_ASSERT
 finishedFunctionBodies_
 )
 ;
-masm
-(
-)
-.
-haltingAlign
-(
-AsmJSPageSize
-)
-;
 module_
 -
 >
