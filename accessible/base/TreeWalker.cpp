@@ -1342,6 +1342,15 @@ RelocateARIAOwnedIfNeeded
 (
 aNode
 )
+&
+&
+!
+aNode
+-
+>
+IsXULElement
+(
+)
 )
 {
 *
