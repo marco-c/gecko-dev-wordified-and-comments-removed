@@ -10155,6 +10155,12 @@ this
 .
 selectedIndex
 =
+this
+.
+_isFirstResultHeuristic
+?
+0
+:
 -
 1
 ;
