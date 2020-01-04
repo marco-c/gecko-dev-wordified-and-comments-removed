@@ -1915,6 +1915,11 @@ PresentationDeviceInfoManager
 webidl
 '
 '
+PresentationReceiver
+.
+webidl
+'
+'
 PresentationRequest
 .
 webidl
@@ -3434,11 +3439,6 @@ webidl
 '
 '
 BluetoothGatt
-.
-webidl
-'
-'
-BluetoothGattAttributeEvent
 .
 webidl
 '
