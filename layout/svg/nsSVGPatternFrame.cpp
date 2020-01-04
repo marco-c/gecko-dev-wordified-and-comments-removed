@@ -223,7 +223,7 @@ nsStyleContext
 aContext
 )
 :
-nsSVGPatternFrameBase
+nsSVGPaintServerFrame
 (
 aContext
 )
@@ -401,7 +401,7 @@ this
 ;
 }
 return
-nsSVGPatternFrameBase
+nsSVGPaintServerFrame
 :
 :
 AttributeChanged
@@ -454,7 +454,7 @@ pattern
 "
 )
 ;
-nsSVGPatternFrameBase
+nsSVGPaintServerFrame
 :
 :
 Init
