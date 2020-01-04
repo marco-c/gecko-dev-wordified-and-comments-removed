@@ -554,6 +554,11 @@ TruncateToInt32
 \
 _
 (
+WrapInt64ToInt32
+)
+\
+_
+(
 ToString
 )
 \
