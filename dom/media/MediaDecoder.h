@@ -1449,6 +1449,14 @@ double
 aValue
 )
 {
+MOZ_ASSERT
+(
+!
+IsShutdown
+(
+)
+)
+;
 mExplicitDuration
 .
 Set
