@@ -1988,12 +1988,6 @@ DOMWindowClose
 "
 )
 ;
-aEvent
-.
-preventDefault
-(
-)
-;
 }
 false
 )
