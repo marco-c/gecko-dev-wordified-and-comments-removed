@@ -151,6 +151,11 @@ CDMProxy
 h
 '
 '
+DecryptorProxyCallback
+.
+h
+'
+'
 DetailedPromise
 .
 h

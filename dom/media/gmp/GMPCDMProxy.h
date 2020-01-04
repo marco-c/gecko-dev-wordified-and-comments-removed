@@ -846,9 +846,6 @@ GMPDecryptorProxy
 *
 mCDM
 ;
-CDMCaps
-mCapabilites
-;
 nsAutoPtr
 <
 GMPCDMCallbackProxy
