@@ -92,9 +92,7 @@ this
 enum
 OrientType
 {
-vertical
-=
-0
+eVertical
 horizontal
 =
 1
@@ -123,7 +121,7 @@ eScrollPortEventClass
 )
 orient
 (
-vertical
+eVertical
 )
 {
 }
