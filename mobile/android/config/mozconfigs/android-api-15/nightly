@@ -107,16 +107,6 @@ MOZ_ANDROID_GECKOLIBS_AAR
 "
 topsrcdir
 /
-build
-/
-mozconfig
-.
-rust
-"
-.
-"
-topsrcdir
-/
 mobile
 /
 android
