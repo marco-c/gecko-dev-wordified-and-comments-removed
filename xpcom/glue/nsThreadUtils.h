@@ -3190,7 +3190,7 @@ Storages
 >
 mArgs
 ;
-public
+private
 :
 virtual
 ~
@@ -3204,6 +3204,8 @@ Revoke
 ;
 }
 ;
+public
+:
 template
 <
 typename
