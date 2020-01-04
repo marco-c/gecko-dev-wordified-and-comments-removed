@@ -7407,7 +7407,7 @@ UndefinedValue
 )
 )
 ;
-JS_SetInterruptCallback
+JS_AddInterruptCallback
 (
 cx
 XPCShellInterruptCallback
