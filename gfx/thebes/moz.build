@@ -755,11 +755,6 @@ gfxFT2FontBase
 h
 '
 '
-gfxQPainterSurface
-.
-h
-'
-'
 gfxQtNativeRenderer
 .
 h
@@ -805,11 +800,6 @@ cpp
 '
 '
 gfxFT2Utils
-.
-cpp
-'
-'
-gfxQPainterSurface
 .
 cpp
 '
