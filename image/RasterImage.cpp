@@ -3663,6 +3663,14 @@ AnimationState
 ;
 if
 (
+GetCurrentFrameIndex
+(
+)
+=
+=
+0
+&
+&
 mFrameAnimator
 -
 >
@@ -3670,9 +3678,7 @@ GetTimeoutForFrame
 (
 *
 mAnimationState
-GetCurrentFrameIndex
-(
-)
+0
 )
 <
 0
