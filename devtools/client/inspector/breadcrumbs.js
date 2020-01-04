@@ -3854,6 +3854,14 @@ function
 (
 )
 {
+if
+(
+!
+this
+.
+isDestroyed
+)
+{
 let
 element
 =
@@ -3886,6 +3894,7 @@ smooth
 }
 )
 ;
+}
 }
 updateSelectors
 :

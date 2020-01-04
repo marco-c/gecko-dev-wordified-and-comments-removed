@@ -437,7 +437,7 @@ checkedButton
 getAttribute
 (
 "
-tooltiptext
+title
 "
 )
 node
