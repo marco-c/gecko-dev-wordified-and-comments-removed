@@ -14397,6 +14397,17 @@ bool
 lazy
 )
 {
+JS
+:
+:
+CompartmentOptions
+options
+;
+SetStandardCompartmentOptions
+(
+options
+)
+;
 RootedObject
 obj
 (
@@ -14411,6 +14422,7 @@ JS
 :
 :
 DontFireOnNewGlobalHook
+options
 )
 )
 ;

@@ -174,6 +174,12 @@ rt
 system_principals
 )
 ;
+JS
+:
+:
+CompartmentOptions
+options
+;
 trusted_glob
 .
 init
@@ -190,6 +196,7 @@ JS
 :
 :
 FireOnNewGlobalHook
+options
 )
 )
 ;

@@ -8953,13 +8953,6 @@ JS
 CompartmentOptions
 &
 options
-=
-JS
-:
-:
-CompartmentOptions
-(
-)
 )
 ;
 extern

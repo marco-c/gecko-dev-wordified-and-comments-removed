@@ -169,6 +169,12 @@ test_CallNonGenericMethodOnProxy
 JS
 :
 :
+CompartmentOptions
+options
+;
+JS
+:
+:
 RootedObject
 globalA
 (
@@ -184,6 +190,7 @@ JS
 :
 :
 FireOnNewGlobalHook
+options
 )
 )
 ;
@@ -289,6 +296,12 @@ Int32Value
 JS
 :
 :
+CompartmentOptions
+options
+;
+JS
+:
+:
 RootedObject
 globalB
 (
@@ -304,6 +317,7 @@ JS
 :
 :
 FireOnNewGlobalHook
+options
 )
 )
 ;

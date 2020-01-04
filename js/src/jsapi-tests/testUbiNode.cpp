@@ -360,6 +360,12 @@ zone
 )
 )
 ;
+JS
+:
+:
+CompartmentOptions
+globalOptions
+;
 RootedObject
 global2
 (
@@ -375,6 +381,7 @@ JS
 :
 :
 FireOnNewGlobalHook
+globalOptions
 )
 )
 ;
@@ -723,6 +730,12 @@ compartment
 )
 )
 ;
+JS
+:
+:
+CompartmentOptions
+globalOptions
+;
 RootedObject
 global2
 (
@@ -738,6 +751,7 @@ JS
 :
 :
 FireOnNewGlobalHook
+globalOptions
 )
 )
 ;
