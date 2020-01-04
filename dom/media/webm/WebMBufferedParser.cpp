@@ -688,6 +688,8 @@ mSize
 mLength
 )
 ;
+MOZ_FALLTHROUGH
+;
 default
 :
 mSkipBytes

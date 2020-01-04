@@ -9267,6 +9267,8 @@ WindowID
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 dom
 :
