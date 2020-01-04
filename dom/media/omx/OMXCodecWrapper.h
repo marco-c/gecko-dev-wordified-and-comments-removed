@@ -200,6 +200,7 @@ CodecType
 AAC_ENC
 AMR_NB_ENC
 AVC_ENC
+EVRC_ENC
 TYPE_COUNT
 }
 ;
@@ -249,6 +250,13 @@ static
 OMXAudioEncoder
 *
 CreateAMRNBEncoder
+(
+)
+;
+static
+OMXAudioEncoder
+*
+CreateEVRCEncoder
 (
 )
 ;
@@ -444,6 +452,9 @@ mStarted
 ;
 bool
 mAMRCSDProvided
+;
+bool
+mEVRCCSDProvided
 ;
 }
 ;

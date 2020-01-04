@@ -55,6 +55,16 @@ TYPE_FRAG_3GP
 <
 1
 ;
+const
+static
+uint32_t
+TYPE_FRAG_3G2
+=
+1
+<
+<
+2
+;
 ISOMediaWriter
 (
 uint32_t

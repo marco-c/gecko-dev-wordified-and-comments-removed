@@ -652,6 +652,14 @@ audio
 "
 #
 define
+AUDIO_3GPP2
+"
+audio
+/
+3gpp2
+"
+#
+define
 AUDIO_MIDI
 "
 audio

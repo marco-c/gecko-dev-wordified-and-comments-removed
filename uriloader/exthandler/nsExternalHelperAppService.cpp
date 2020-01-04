@@ -2799,6 +2799,16 @@ AUDIO_3GPP
 Audio
 "
 }
+{
+AUDIO_3GPP2
+"
+3g2
+"
+"
+3GPP2
+Audio
+"
+}
 #
 endif
 {
