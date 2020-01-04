@@ -4553,14 +4553,6 @@ Constructor
 [
 implicit_jscontext
 ]
-readonly
-attribute
-jsval
-lastResult
-;
-[
-implicit_jscontext
-]
 /
 /
 A
