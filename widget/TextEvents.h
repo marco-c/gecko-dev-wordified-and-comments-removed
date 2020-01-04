@@ -285,7 +285,7 @@ mKeyCode
 (
 0
 )
-charCode
+mCharCode
 (
 0
 )
@@ -402,7 +402,7 @@ mKeyCode
 (
 0
 )
-charCode
+mCharCode
 (
 0
 )
@@ -658,7 +658,7 @@ uint32_t
 mKeyCode
 ;
 uint32_t
-charCode
+mCharCode
 ;
 uint32_t
 mPseudoCharCode
@@ -764,7 +764,7 @@ mMessage
 =
 eKeyPress
 ?
-charCode
+mCharCode
 :
 mPseudoCharCode
 ;
@@ -784,7 +784,7 @@ mMessage
 eKeyPress
 )
 {
-charCode
+mCharCode
 =
 aCharCode
 ;
@@ -1005,11 +1005,11 @@ aEvent
 .
 mKeyCode
 ;
-charCode
+mCharCode
 =
 aEvent
 .
-charCode
+mCharCode
 ;
 mPseudoCharCode
 =

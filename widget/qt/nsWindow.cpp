@@ -5040,11 +5040,13 @@ isPrint
 {
 aEvent
 .
-charCode
+mCharCode
 =
+static_cast
+<
+uint32_t
+>
 (
-int32_t
-)
 aQEvent
 -
 >
@@ -5057,6 +5059,7 @@ text
 .
 unicode
 (
+)
 )
 ;
 aEvent
@@ -5076,7 +5079,7 @@ else
 {
 aEvent
 .
-charCode
+mCharCode
 =
 0
 ;

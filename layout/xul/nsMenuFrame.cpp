@@ -1831,10 +1831,11 @@ IsOpen
 keyEvent
 -
 >
-charCode
+mCharCode
 =
 =
-NS_VK_SPACE
+'
+'
 &
 &
 !

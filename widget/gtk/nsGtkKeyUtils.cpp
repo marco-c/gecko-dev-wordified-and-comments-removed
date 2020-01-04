@@ -6303,7 +6303,7 @@ aKeyEvent
 mKeyCode
 aKeyEvent
 .
-charCode
+mCharCode
 )
 )
 ;
@@ -6362,7 +6362,7 @@ mKeyCode
 0x
 %
 02X
-charCode
+mCharCode
 =
 0x
 %
@@ -6378,7 +6378,7 @@ aKeyEvent
 mKeyCode
 aKeyEvent
 .
-charCode
+mCharCode
 level
 )
 )
@@ -6576,7 +6576,7 @@ mKeyCode
 0x
 %
 02X
-charCode
+mCharCode
 =
 0x
 %
@@ -6608,7 +6608,7 @@ aKeyEvent
 mKeyCode
 aKeyEvent
 .
-charCode
+mCharCode
 level
 altCharCodes
 .
@@ -6669,7 +6669,7 @@ mKeyCode
 0x
 %
 02X
-charCode
+mCharCode
 =
 0x
 %
@@ -6703,7 +6703,7 @@ aKeyEvent
 mKeyCode
 aKeyEvent
 .
-charCode
+mCharCode
 level
 altCharCodes
 .
@@ -6888,7 +6888,7 @@ mKeyCode
 0x
 %
 02X
-charCode
+mCharCode
 =
 0x
 %
@@ -6944,7 +6944,7 @@ aKeyEvent
 mKeyCode
 aKeyEvent
 .
-charCode
+mCharCode
 level
 minGroup
 altCharCodes

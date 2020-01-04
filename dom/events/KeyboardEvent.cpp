@@ -768,7 +768,7 @@ AsKeyboardEvent
 )
 -
 >
-charCode
+mCharCode
 ;
 }
 switch
@@ -821,7 +821,7 @@ AsKeyboardEvent
 )
 -
 >
-charCode
+mCharCode
 ;
 default
 :
@@ -1401,7 +1401,7 @@ aKeyCode
 keyEvent
 -
 >
-charCode
+mCharCode
 =
 aCharCode
 ;

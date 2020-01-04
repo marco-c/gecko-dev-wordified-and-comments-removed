@@ -13152,7 +13152,7 @@ keyEvent
 mKeyCode
 keyEvent
 .
-charCode
+mCharCode
 )
 ;
 const

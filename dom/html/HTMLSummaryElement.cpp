@@ -358,13 +358,11 @@ if
 keyboardEvent
 -
 >
-charCode
+mCharCode
 =
 =
-nsIDOMKeyEvent
-:
-:
-DOM_VK_SPACE
+'
+'
 )
 {
 aVisitor

@@ -6442,7 +6442,7 @@ char16_t
 (
 aKeyEvent
 .
-charCode
+mCharCode
 )
 ;
 MOZ_LOG
@@ -6486,7 +6486,7 @@ mMessage
 =
 %
 s
-charCode
+mCharCode
 =
 0x
 %
@@ -6523,7 +6523,7 @@ aKeyEvent
 )
 aKeyEvent
 .
-charCode
+mCharCode
 uniChar
 ?
 NS_ConvertUTF16toUTF8
@@ -6564,7 +6564,7 @@ insertStringForCharCode
 /
 /
 The
-charCode
+mCharCode
 was
 set
 from
@@ -6607,7 +6607,7 @@ we
 need
 to
 modify
-charCode
+mCharCode
 value
 here
 .
@@ -6686,7 +6686,7 @@ mKeyCode
 X
 aKeyEvent
 .
-charCode
+mCharCode
 =
 0x
 %
@@ -6698,7 +6698,7 @@ aKeyEvent
 mKeyCode
 aKeyEvent
 .
-charCode
+mCharCode
 )
 )
 ;
@@ -7372,7 +7372,7 @@ the
 "
 character
 replacing
-charCode
+mCharCode
 with
 shiftedChar
 /
@@ -14396,7 +14396,7 @@ isChar
 {
 keypressEvent
 .
-charCode
+mCharCode
 =
 str
 .
@@ -14424,7 +14424,7 @@ if
 !
 keypressEvent
 .
-charCode
+mCharCode
 )
 {
 keypressEvent
@@ -14438,7 +14438,7 @@ ComputeKeyCodeFromChar
 (
 keypressEvent
 .
-charCode
+mCharCode
 )
 ;
 }
@@ -26066,7 +26066,7 @@ aKeyEvent
 mKeyCode
 aKeyEvent
 .
-charCode
+mCharCode
 aKeyEvent
 .
 mModifiers
@@ -26210,7 +26210,7 @@ if
 (
 aKeyEvent
 .
-charCode
+mCharCode
 )
 {
 characters
@@ -26230,7 +26230,7 @@ unichar
 (
 aKeyEvent
 .
-charCode
+mCharCode
 )
 )
 length

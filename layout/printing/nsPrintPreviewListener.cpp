@@ -687,7 +687,7 @@ if
 keyEvent
 -
 >
-charCode
+mCharCode
 =
 =
 '

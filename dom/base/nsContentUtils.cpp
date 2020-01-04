@@ -35114,7 +35114,7 @@ aKeyCode
 ;
 event
 .
-charCode
+mCharCode
 =
 aCharCode
 ;
@@ -35129,7 +35129,7 @@ aKeyCode
 ;
 event
 .
-charCode
+mCharCode
 =
 0
 ;

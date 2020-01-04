@@ -6946,7 +6946,7 @@ wParam
 {
 keypressEvent
 .
-charCode
+mCharCode
 =
 static_cast
 <
@@ -7330,7 +7330,7 @@ mWidget
 ;
 keypressEvent
 .
-charCode
+mCharCode
 =
 uniChar
 ;
@@ -7339,7 +7339,7 @@ if
 !
 keypressEvent
 .
-charCode
+mCharCode
 )
 {
 keypressEvent

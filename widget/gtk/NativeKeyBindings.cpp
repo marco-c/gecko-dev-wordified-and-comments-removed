@@ -1131,7 +1131,7 @@ if
 (
 aEvent
 .
-charCode
+mCharCode
 )
 {
 keyval
@@ -1140,7 +1140,7 @@ gdk_unicode_to_keyval
 (
 aEvent
 .
-charCode
+mCharCode
 )
 ;
 }
@@ -1237,7 +1237,7 @@ ch
 =
 aEvent
 .
-charCode
+mCharCode
 )
 {
 keyval

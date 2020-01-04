@@ -1866,13 +1866,11 @@ eTypedBreak
 }
 if
 (
+!
 nativeKeyEvent
 -
 >
-charCode
-=
-=
-0
+mCharCode
 |
 |
 nativeKeyEvent
@@ -1929,7 +1927,7 @@ str
 nativeKeyEvent
 -
 >
-charCode
+mCharCode
 )
 ;
 return
