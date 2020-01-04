@@ -580,6 +580,15 @@ final
 override
 ;
 virtual
+bool
+HasError
+(
+)
+const
+final
+override
+;
+virtual
 void
 LoadAborted
 (

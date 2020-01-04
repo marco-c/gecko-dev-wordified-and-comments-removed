@@ -86,6 +86,17 @@ DecodeError
 override
 {
 }
+bool
+HasError
+(
+)
+const
+override
+{
+return
+false
+;
+}
 void
 LoadAborted
 (
