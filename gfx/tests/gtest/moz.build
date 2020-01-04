@@ -122,6 +122,11 @@ TestArena
 cpp
 '
 '
+TestArrayView
+.
+cpp
+'
+'
 TestBufferRotation
 .
 cpp

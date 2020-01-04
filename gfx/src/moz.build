@@ -274,6 +274,11 @@ AppUnits
 .
 h
 '
+'
+ArrayView
+.
+h
+'
 ]
 if
 CONFIG
