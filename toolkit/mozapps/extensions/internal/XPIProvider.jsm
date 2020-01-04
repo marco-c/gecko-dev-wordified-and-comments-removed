@@ -7293,7 +7293,9 @@ Promise
 .
 resolve
 (
-undefined
+AddonManager
+.
+SIGNEDSTATE_NOT_REQUIRED
 )
 ;
 let
@@ -7431,7 +7433,9 @@ Promise
 .
 resolve
 (
-undefined
+AddonManager
+.
+SIGNEDSTATE_NOT_REQUIRED
 )
 ;
 let
@@ -25147,7 +25151,9 @@ addon
 signedState
 =
 =
-undefined
+AddonManager
+.
+SIGNEDSTATE_NOT_REQUIRED
 )
 {
 let
