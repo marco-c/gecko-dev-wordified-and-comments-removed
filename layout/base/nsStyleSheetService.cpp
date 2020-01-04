@@ -1002,6 +1002,10 @@ css
 :
 Loader
 (
+StyleBackendType
+:
+:
+Gecko
 )
 ;
 StyleSheetHandle
@@ -1227,6 +1231,10 @@ css
 :
 Loader
 (
+StyleBackendType
+:
+:
+Gecko
 )
 ;
 StyleSheetHandle
