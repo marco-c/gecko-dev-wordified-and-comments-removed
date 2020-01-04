@@ -1323,6 +1323,8 @@ mEndTouchIsClick
 false
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 eTouchCancel
 :
@@ -1333,6 +1335,8 @@ HandleTouchEndEvent
 (
 mEndTouchIsClick
 )
+;
+MOZ_FALLTHROUGH
 ;
 case
 eTouchMove
