@@ -2467,6 +2467,11 @@ document
 popupNode
 )
 "
+closemenu
+=
+"
+single
+"
 class
 =
 "
@@ -2513,6 +2518,11 @@ document
 .
 popupNode
 )
+"
+closemenu
+=
+"
+single
 "
 class
 =
