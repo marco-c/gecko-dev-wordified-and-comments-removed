@@ -232,6 +232,9 @@ nsIAppStartup
 eRestart
 )
 ;
+return
+undefined
+;
 }
 urlSecurityCheck
 :

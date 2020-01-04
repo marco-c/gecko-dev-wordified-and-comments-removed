@@ -1161,6 +1161,9 @@ args
 )
 ;
 }
+return
+undefined
+;
 }
 _loadViewSourceDeprecated
 (

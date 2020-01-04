@@ -447,6 +447,9 @@ true
 }
 ;
 }
+return
+undefined
+;
 }
 var
 sendHeaders
@@ -582,6 +585,9 @@ _good
 }
 ;
 }
+return
+undefined
+;
 }
 var
 beforeRedirect

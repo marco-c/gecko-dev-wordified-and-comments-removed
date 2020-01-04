@@ -3164,6 +3164,9 @@ setupContentTelemetry
 break
 ;
 }
+return
+undefined
+;
 }
 get
 clientID

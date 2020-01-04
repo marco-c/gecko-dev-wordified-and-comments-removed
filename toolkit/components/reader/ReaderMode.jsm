@@ -2494,6 +2494,9 @@ dir
 )
 ;
 }
+return
+undefined
+;
 }
 )
 ;

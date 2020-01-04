@@ -319,12 +319,13 @@ if
 finished
 )
 {
-return
 do_check_eq
 (
 asource
 bsource
 )
+;
+return
 ;
 }
 try

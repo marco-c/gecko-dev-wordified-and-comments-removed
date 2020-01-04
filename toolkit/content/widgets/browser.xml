@@ -6323,6 +6323,9 @@ audioPlaybackStopped
 break
 ;
 }
+return
+undefined
+;
 ]
 ]
 >

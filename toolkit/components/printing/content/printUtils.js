@@ -514,6 +514,9 @@ windowID
 browser
 )
 ;
+return
+undefined
+;
 }
 printPreview
 :
@@ -1520,6 +1523,9 @@ break
 ;
 }
 }
+return
+undefined
+;
 }
 setPrinterDefaultsForSelectedPrinter
 :

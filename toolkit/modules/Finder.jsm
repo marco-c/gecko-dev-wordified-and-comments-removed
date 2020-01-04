@@ -1631,6 +1631,9 @@ _notifyMatchesCount
 result
 )
 ;
+return
+undefined
+;
 }
 _countMatchesInWindow
 :

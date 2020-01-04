@@ -2341,6 +2341,9 @@ _onSchedulerTick
 break
 ;
 }
+return
+undefined
+;
 }
 _onSchedulerTick
 :
@@ -9012,6 +9015,9 @@ options
 break
 ;
 }
+return
+undefined
+;
 }
 shutdownChromeProcess
 :

@@ -69,11 +69,14 @@ findbar
 .
 hidden
 )
-return
+{
 resolve
 (
 )
 ;
+return
+;
+}
 findbar
 .
 addEventListener

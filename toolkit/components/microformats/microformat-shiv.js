@@ -4709,6 +4709,9 @@ dateFormat
 )
 ;
 }
+return
+undefined
+;
 }
 else
 {

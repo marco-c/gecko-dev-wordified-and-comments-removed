@@ -1141,6 +1141,9 @@ filePath
 ;
 }
 }
+return
+undefined
+;
 }
 .
 bind

@@ -5678,6 +5678,9 @@ return
 false
 ;
 }
+return
+undefined
+;
 ]
 ]
 >
@@ -5803,6 +5806,9 @@ shouldFastFind
 )
 ;
 }
+return
+undefined
+;
 ]
 ]
 >
@@ -7972,6 +7978,9 @@ _findAgain
 (
 aFindPrevious
 )
+;
+return
+undefined
 ;
 ]
 ]

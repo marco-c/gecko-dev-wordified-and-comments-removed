@@ -5617,10 +5617,15 @@ _amount
 ;
 default
 :
-assertInput
-(
-false
+throw
 "
+Invalid
+memory
+report
+(
+s
+)
+:
 bad
 units
 in
@@ -5628,7 +5633,6 @@ TreeNode
 .
 toString
 "
-)
 ;
 }
 }

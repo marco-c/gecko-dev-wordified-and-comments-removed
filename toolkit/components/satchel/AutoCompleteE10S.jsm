@@ -1409,6 +1409,9 @@ clearResults
 break
 ;
 }
+return
+undefined
+;
 }
 handleEnter
 :

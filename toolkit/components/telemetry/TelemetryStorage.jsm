@@ -2354,6 +2354,9 @@ add
 (
 )
 ;
+return
+undefined
+;
 }
 )
 loadArchivedPing
@@ -4360,6 +4363,9 @@ _enforcePendingPingsQuotaTask
 null
 ;
 }
+return
+undefined
+;
 }
 )
 _enforcePendingPingsQuota
@@ -6193,6 +6199,9 @@ _removePendingPingsTask
 null
 ;
 }
+return
+undefined
+;
 }
 )
 removePendingPings

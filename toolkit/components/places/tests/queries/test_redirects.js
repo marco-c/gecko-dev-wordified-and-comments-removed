@@ -283,6 +283,9 @@ return
 i
 ;
 }
+return
+undefined
+;
 }
 function
 comparator
