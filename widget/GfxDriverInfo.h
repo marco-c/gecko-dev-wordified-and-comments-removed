@@ -316,6 +316,11 @@ VendorNVIDIA
 VendorAMD
 VendorATI
 VendorMicrosoft
+VendorMesaAll
+VendorMesaLLVMPipe
+VendorMesaSoftPipe
+VendorMesaSWRast
+VendorMesaUnknown
 DeviceVendorMax
 }
 ;
@@ -918,6 +923,12 @@ if
 defined
 (
 XP_WIN
+)
+|
+|
+defined
+(
+MOZ_X11
 )
 int
 a
