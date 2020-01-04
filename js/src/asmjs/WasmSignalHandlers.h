@@ -14,7 +14,7 @@ XP_DARWIN
 &
 defined
 (
-ASMJS_MAY_USE_SIGNAL_HANDLERS_FOR_OOB
+ASMJS_MAY_USE_SIGNAL_HANDLERS
 )
 #
 include
@@ -70,7 +70,7 @@ XP_DARWIN
 &
 defined
 (
-ASMJS_MAY_USE_SIGNAL_HANDLERS_FOR_OOB
+ASMJS_MAY_USE_SIGNAL_HANDLERS
 )
 class
 MachExceptionHandler
@@ -138,6 +138,14 @@ rt
 ;
 #
 endif
+bool
+IsPCInWasmCode
+(
+void
+*
+pc
+)
+;
 }
 }
 #
