@@ -1713,11 +1713,6 @@ GeckoEditableListener
 java
 '
 '
-GeckoEvent
-.
-java
-'
-'
 GeckoHalDefines
 .
 java

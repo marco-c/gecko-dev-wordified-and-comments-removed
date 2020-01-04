@@ -37,15 +37,6 @@ mozilla
 .
 gecko
 .
-GeckoEvent
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 db
 .
 BrowserContract

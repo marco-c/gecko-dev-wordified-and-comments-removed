@@ -48,15 +48,6 @@ mozilla
 .
 gecko
 .
-GeckoEvent
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 util
 .
 GeckoEventListener

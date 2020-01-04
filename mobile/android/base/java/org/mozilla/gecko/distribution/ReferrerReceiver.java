@@ -48,15 +48,6 @@ GeckoAppShell
 import
 org
 .
-mozilla
-.
-gecko
-.
-GeckoEvent
-;
-import
-org
-.
 json
 .
 JSONException
