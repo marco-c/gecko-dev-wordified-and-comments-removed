@@ -192,7 +192,7 @@ this
 ;
 }
 return
-nsSVGMarkerFrameBase
+nsSVGContainerFrame
 :
 :
 AttributeChanged
@@ -245,7 +245,7 @@ marker
 "
 )
 ;
-nsSVGMarkerFrameBase
+nsSVGContainerFrame
 :
 :
 Init

@@ -82,15 +82,11 @@ SVGSVGElement
 struct
 nsSVGMark
 ;
-typedef
-nsSVGContainerFrame
-nsSVGMarkerFrameBase
-;
 class
 nsSVGMarkerFrame
 :
 public
-nsSVGMarkerFrameBase
+nsSVGContainerFrame
 {
 friend
 class
@@ -119,7 +115,7 @@ nsStyleContext
 aContext
 )
 :
-nsSVGMarkerFrameBase
+nsSVGContainerFrame
 (
 aContext
 )
