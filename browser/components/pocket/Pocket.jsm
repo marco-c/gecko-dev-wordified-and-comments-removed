@@ -119,6 +119,8 @@ get
 site
 (
 )
+{
+return
 Services
 .
 prefs
@@ -133,6 +135,8 @@ pocket
 site
 "
 )
+;
+}
 get
 listURL
 (
