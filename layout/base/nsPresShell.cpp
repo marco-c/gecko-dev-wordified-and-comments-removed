@@ -26569,14 +26569,6 @@ mDocument
 IsResourceDoc
 (
 )
-|
-|
-mDocument
--
->
-IsXULDocument
-(
-)
 )
 {
 return
