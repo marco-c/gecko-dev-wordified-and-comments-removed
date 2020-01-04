@@ -1667,10 +1667,6 @@ gtk_toolbar_new
 )
 STUB
 (
-gtk_tooltip_get_type
-)
-STUB
-(
 gtk_tree_view_append_column
 )
 STUB
