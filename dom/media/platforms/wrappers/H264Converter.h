@@ -177,6 +177,11 @@ PlatformDecoderModule
 >
 mPDM
 ;
+const
+VideoInfo
+&
+mOriginalConfig
+;
 VideoInfo
 mCurrentConfig
 ;

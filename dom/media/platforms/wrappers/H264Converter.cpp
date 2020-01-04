@@ -84,6 +84,10 @@ mPDM
 (
 aPDM
 )
+mOriginalConfig
+(
+aConfig
+)
 mCurrentConfig
 (
 aConfig
@@ -508,7 +512,11 @@ mPDM
 >
 CreateVideoDecoder
 (
+mNeedAVCC
+?
 mCurrentConfig
+:
+mOriginalConfig
 mLayersBackend
 mImageContainer
 mVideoTaskQueue
