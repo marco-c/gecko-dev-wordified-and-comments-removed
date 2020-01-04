@@ -2896,6 +2896,17 @@ PER_ARCH
 ;
 inline
 void
+mulBy3
+(
+Register
+src
+Register
+dest
+)
+PER_ARCH
+;
+inline
+void
 lshiftPtr
 (
 Imm32
