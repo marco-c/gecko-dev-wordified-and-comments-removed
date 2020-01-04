@@ -1346,6 +1346,11 @@ fop
 )
 ;
 void
+clearDependentAsmJSModules
+(
+)
+;
+void
 removeDependentAsmJSModule
 (
 DependentAsmJSModuleExit
@@ -1690,6 +1695,10 @@ ION_PENDING_SCRIPT
 pendingBuilder_
 =
 builder
+;
+clearDependentAsmJSModules
+(
+)
 ;
 script
 -
