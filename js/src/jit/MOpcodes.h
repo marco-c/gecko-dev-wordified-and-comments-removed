@@ -1351,6 +1351,11 @@ _
 (
 ArrowNewTarget
 )
+\
+_
+(
+CheckReturn
+)
 #
 define
 FORWARD_DECLARE

@@ -1781,6 +1781,16 @@ Kind
 declKind
 )
 ;
+bool
+ThrowUninitializedThis
+(
+JSContext
+*
+cx
+AbstractFramePtr
+frame
+)
+;
 }
 #
 endif

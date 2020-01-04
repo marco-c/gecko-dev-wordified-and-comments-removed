@@ -1815,5 +1815,10 @@ _
 (
 ArrowNewTarget
 )
+\
+_
+(
+CheckReturn
+)
 #
 endif
