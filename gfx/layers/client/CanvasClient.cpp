@@ -678,6 +678,13 @@ GetSize
 )
 )
 ;
+t
+-
+>
+mFrameID
+=
+mFrameID
+;
 GetForwarder
 (
 )
@@ -2167,6 +2174,13 @@ GetSize
 (
 )
 )
+;
+t
+-
+>
+mFrameID
+=
+mFrameID
 ;
 forwarder
 -
