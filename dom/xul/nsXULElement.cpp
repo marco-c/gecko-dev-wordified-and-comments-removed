@@ -5926,17 +5926,6 @@ mMessage
 =
 =
 eDragStart
-|
-|
-aVisitor
-.
-mEvent
--
->
-mMessage
-=
-=
-eLegacyDragGesture
 )
 )
 {
