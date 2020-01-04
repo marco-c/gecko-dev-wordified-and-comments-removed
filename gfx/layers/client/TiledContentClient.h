@@ -1151,6 +1151,11 @@ mPaintFinished
 :
 1
 ;
+bool
+mHasTransformAnimation
+:
+1
+;
 void
 ResetPaintData
 (
