@@ -285,6 +285,9 @@ MetadataDecodingTask
 )
 {
 }
+Mutex
+mMutex
+;
 NotNull
 <
 RefPtr
