@@ -2068,6 +2068,11 @@ ICStubCodeMap
 >
 (
 cx
+-
+>
+runtime
+(
+)
 )
 ;
 if
@@ -3616,7 +3621,6 @@ stubCodes_
 >
 sweep
 (
-fop
 )
 ;
 if
