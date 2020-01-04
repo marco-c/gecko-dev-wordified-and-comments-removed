@@ -1135,7 +1135,7 @@ total
 ;
 }
 size_t
-usedSpace
+spaceToEnd
 (
 )
 const
@@ -1830,8 +1830,6 @@ gcreason
 :
 Reason
 reason
-size_t
-usedSpace
 double
 promotionRate
 )
