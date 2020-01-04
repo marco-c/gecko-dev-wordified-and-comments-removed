@@ -1733,7 +1733,8 @@ uintptr_t
 p
 )
 <
-32
+=
+LargestTaggedNullCellPointer
 ;
 }
 template

@@ -284,6 +284,11 @@ testGCStoreBufferRemoval
 cpp
 '
 '
+testGCUniqueId
+.
+cpp
+'
+'
 testGetPropertyDescriptor
 .
 cpp
