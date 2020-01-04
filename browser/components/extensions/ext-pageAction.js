@@ -26,7 +26,6 @@ var
 {
 EventManager
 DefaultWeakMap
-ignoreEvent
 runSafe
 }
 =

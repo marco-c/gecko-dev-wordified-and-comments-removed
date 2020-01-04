@@ -58,7 +58,6 @@ jsm
 var
 {
 EventManager
-ignoreEvent
 runSafe
 }
 =
