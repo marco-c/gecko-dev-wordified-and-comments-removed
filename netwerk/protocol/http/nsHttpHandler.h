@@ -1395,8 +1395,10 @@ mAuthCache
 nsHttpAuthCache
 mPrivateAuthCache
 ;
+RefPtr
+<
 nsHttpConnectionMgr
-*
+>
 mConnMgr
 ;
 uint8_t
