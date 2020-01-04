@@ -797,7 +797,7 @@ NS_ERROR_FAILURE
 }
 mAudioClock
 .
-SetPlaybackRateUnlocked
+SetPlaybackRate
 (
 aPlaybackRate
 )
@@ -3412,7 +3412,7 @@ void
 AudioClock
 :
 :
-SetPlaybackRateUnlocked
+SetPlaybackRate
 (
 double
 aPlaybackRate

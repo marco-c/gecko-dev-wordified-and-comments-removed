@@ -178,7 +178,7 @@ frames
 const
 ;
 void
-SetPlaybackRateUnlocked
+SetPlaybackRate
 (
 double
 aPlaybackRate
