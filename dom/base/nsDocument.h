@@ -592,15 +592,6 @@ mDocument
 ;
 public
 :
-RefPtr
-<
-gfx
-:
-:
-VRDeviceProxy
->
-mVRHMDDevice
-;
 bool
 mIsCallerChrome
 =
