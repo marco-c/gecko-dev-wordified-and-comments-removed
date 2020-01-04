@@ -30623,16 +30623,6 @@ HTTP_OFFLINE_CACHE_DOCUMENT_LOAD
 true
 )
 ;
-if
-(
-nsContentUtils
-:
-:
-ServiceWorkerInterceptionEnabled
-(
-)
-)
-{
 nsCOMPtr
 <
 nsIDeprecationWarner
@@ -30661,7 +30651,6 @@ eAppCache
 false
 )
 ;
-}
 }
 }
 }

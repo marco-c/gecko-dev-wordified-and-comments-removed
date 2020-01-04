@@ -4008,17 +4008,6 @@ dom
 .
 serviceWorkers
 .
-interception
-.
-enabled
-'
-:
-true
-'
-dom
-.
-serviceWorkers
-.
 testing
 .
 enabled

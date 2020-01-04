@@ -1343,15 +1343,6 @@ dom
 .
 serviceWorkers
 .
-interception
-.
-enabled
-:
-true
-dom
-.
-serviceWorkers
-.
 exemptFromPerDomainMax
 :
 true
