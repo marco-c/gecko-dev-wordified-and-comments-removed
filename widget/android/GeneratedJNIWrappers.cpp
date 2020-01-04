@@ -10341,7 +10341,7 @@ mozilla
 jni
 :
 :
-ByteBuffer
+Object
 :
 :
 Param
@@ -12588,7 +12588,7 @@ mozilla
 jni
 :
 :
-ByteBuffer
+Object
 :
 :
 Param

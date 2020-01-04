@@ -441,7 +441,7 @@ zoomedViewRect
 jni
 :
 :
-ByteBuffer
+Object
 :
 :
 Param
@@ -465,7 +465,7 @@ tabId
 jni
 :
 :
-ByteBuffer
+Object
 :
 :
 Param
