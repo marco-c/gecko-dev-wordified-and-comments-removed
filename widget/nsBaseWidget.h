@@ -2380,6 +2380,11 @@ OnRenderingDeviceReset
 (
 )
 ;
+bool
+UseAPZ
+(
+)
+;
 protected
 :
 virtual
