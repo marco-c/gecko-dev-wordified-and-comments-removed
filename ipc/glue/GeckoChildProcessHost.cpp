@@ -4902,6 +4902,10 @@ cmdLine
 command_line_string
 (
 )
+.
+c_str
+(
+)
 )
 ;
 }
