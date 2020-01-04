@@ -2687,16 +2687,17 @@ fcxx
 exceptions
 '
                 
-'
+"
 MOZBUILD_CXXFLAGS
 +
 =
--
-include
-foo
-.
-h
 '
+-
+option
+with
+spaces
+'
+"
             
 ]
             
@@ -2706,14 +2707,18 @@ MOZBUILD_LDFLAGS
 :
 [
                 
-'
+"
 MOZBUILD_LDFLAGS
 +
 =
--
-framework
-Foo
 '
+-
+ld
+flag
+with
+spaces
+'
+"
                 
 '
 MOZBUILD_LDFLAGS

@@ -169,10 +169,9 @@ exceptions
 '
 '
 -
-include
-foo
-.
-h
+option
+with
+spaces
 '
 ]
 LDFLAGS
@@ -181,8 +180,10 @@ LDFLAGS
 [
 '
 -
-framework
-Foo
+ld
+flag
+with
+spaces
 '
 '
 -
