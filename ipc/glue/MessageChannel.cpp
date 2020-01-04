@@ -1863,7 +1863,7 @@ mDequeueOneTask
 new
 RefCountedTask
 (
-NewCancelableRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -1879,7 +1879,7 @@ mOnChannelConnectedTask
 new
 RefCountedTask
 (
-NewCancelableRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -9094,7 +9094,7 @@ IsOnCxxStack
 {
 mChannelErrorTask
 =
-NewCancelableRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -9156,7 +9156,7 @@ return
 ;
 mChannelErrorTask
 =
-NewCancelableRunnableMethod
+NewRunnableMethod
 (
 this
 &
