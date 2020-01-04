@@ -338,7 +338,10 @@ destructorSafeDestroyNSSReference
 ;
 shutdown
 (
-calledFromObject
+ShutdownCalledFrom
+:
+:
+Object
 )
 ;
 }
@@ -458,7 +461,10 @@ destructorSafeDestroyNSSReference
 ;
 shutdown
 (
-calledFromObject
+ShutdownCalledFrom
+:
+:
+Object
 )
 ;
 }
@@ -572,7 +578,10 @@ destructorSafeDestroyNSSReference
 ;
 shutdown
 (
-calledFromObject
+ShutdownCalledFrom
+:
+:
+Object
 )
 ;
 }

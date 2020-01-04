@@ -452,7 +452,10 @@ destructorSafeDestroyNSSReference
 ;
 shutdown
 (
-calledFromObject
+ShutdownCalledFrom
+:
+:
+Object
 )
 ;
 }
@@ -4103,7 +4106,10 @@ return
 }
 shutdown
 (
-calledFromObject
+ShutdownCalledFrom
+:
+:
+Object
 )
 ;
 }

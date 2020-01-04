@@ -2249,7 +2249,10 @@ return
 }
 shutdown
 (
-calledFromObject
+ShutdownCalledFrom
+:
+:
+Object
 )
 ;
 }
@@ -4084,7 +4087,10 @@ return
 }
 shutdown
 (
-calledFromObject
+ShutdownCalledFrom
+:
+:
+Object
 )
 ;
 MOZ_ASSERT
