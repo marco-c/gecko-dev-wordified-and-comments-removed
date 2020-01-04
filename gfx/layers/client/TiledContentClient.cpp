@@ -6834,10 +6834,6 @@ Optimal2DFormatForContent
 (
 content
 )
-TextureFlags
-:
-:
-IMMEDIATE_UPLOAD
 )
 )
 ;

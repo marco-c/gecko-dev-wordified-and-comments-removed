@@ -88,8 +88,6 @@ gfx
 :
 SurfaceFormat
 aFormat
-TextureFlags
-aFlags
 gfx
 :
 :
@@ -107,10 +105,6 @@ aAllocator
 mFormat
 (
 aFormat
-)
-mFlags
-(
-aFlags
 )
 mSize
 (
@@ -598,7 +592,10 @@ BackendType
 :
 :
 NONE
-mFlags
+TextureFlags
+:
+:
+IMMEDIATE_UPLOAD
 ALLOC_DEFAULT
 )
 ;
@@ -619,7 +616,10 @@ BackendSelector
 :
 :
 Content
-mFlags
+TextureFlags
+:
+:
+IMMEDIATE_UPLOAD
 )
 ;
 }
