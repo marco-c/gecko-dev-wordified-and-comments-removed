@@ -48,7 +48,7 @@ h
 namespace
 mozilla
 {
-NS_METHOD
+nsresult
 DebuggerOnGCRunnable
 :
 :
