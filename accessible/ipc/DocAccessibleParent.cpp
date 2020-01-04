@@ -203,10 +203,7 @@ return
 true
 ;
 }
-DebugOnly
-<
 uint32_t
->
 consumed
 =
 AddSubtree
@@ -237,6 +234,16 @@ Length
 )
 )
 ;
+if
+(
+!
+consumed
+)
+{
+return
+true
+;
+}
 #
 ifdef
 DEBUG
