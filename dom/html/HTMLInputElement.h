@@ -3764,14 +3764,9 @@ GetFilesHelper
 >
 mGetFilesNonRecursiveHelper
 ;
-#
-ifndef
-MOZ_CHILD_PERMISSIONS
 nsString
 mFirstFilePath
 ;
-#
-endif
 RefPtr
 <
 FileList
