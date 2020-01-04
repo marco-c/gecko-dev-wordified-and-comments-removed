@@ -2242,7 +2242,7 @@ Animation
 :
 ComposeStyle
 (
-RefPtr
+nsRefPtr
 <
 AnimValuesStyleRule
 >
@@ -4459,7 +4459,7 @@ IsPending
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsRunnableMethod
 <
@@ -4634,7 +4634,7 @@ GetCurrentTimeAsDouble
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 AnimationPlaybackEvent
 >
@@ -4658,7 +4658,7 @@ SetTrusted
 true
 )
 ;
-RefPtr
+nsRefPtr
 <
 AsyncEventDispatcher
 >

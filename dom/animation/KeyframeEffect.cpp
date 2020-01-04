@@ -1635,7 +1635,7 @@ KeyframeEffectReadOnly
 :
 ComposeStyle
 (
-RefPtr
+nsRefPtr
 <
 AnimValuesStyleRule
 >
