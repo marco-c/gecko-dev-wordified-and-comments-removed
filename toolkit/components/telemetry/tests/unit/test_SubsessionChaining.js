@@ -825,9 +825,13 @@ Map
 [
 [
 PREF_TEST
+{
+what
+:
 TelemetryEnvironment
 .
 RECORD_PREF_VALUE
+}
 ]
 ]
 )
