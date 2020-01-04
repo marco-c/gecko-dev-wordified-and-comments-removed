@@ -287,6 +287,11 @@ MDefinition
 rhs
 )
 ;
+template
+<
+size_t
+Temps
+>
 void
 lowerForShiftInt64
 (
@@ -296,7 +301,7 @@ INT64_PIECES
 INT64_PIECES
 +
 1
-0
+Temps
 >
 *
 ins
