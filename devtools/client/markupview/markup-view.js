@@ -3991,11 +3991,6 @@ type
 "
 childList
 "
-|
-|
-"
-nativeAnonymousChildList
-"
 )
 {
 container
