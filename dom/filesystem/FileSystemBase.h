@@ -18,9 +18,6 @@ nsString
 .
 h
 "
-class
-nsPIDOMWindowInner
-;
 namespace
 mozilla
 {
@@ -78,9 +75,9 @@ const
 0
 ;
 virtual
-nsPIDOMWindowInner
+nsISupports
 *
-GetWindow
+GetParentObject
 (
 )
 const
