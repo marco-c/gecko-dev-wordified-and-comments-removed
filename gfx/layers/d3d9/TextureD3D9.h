@@ -1113,6 +1113,13 @@ mDesc
 }
 private
 :
+virtual
+void
+FinalizeOnIPDLThread
+(
+)
+override
+;
 RefPtr
 <
 IDirect3DDevice9
