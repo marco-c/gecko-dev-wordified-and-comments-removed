@@ -322,6 +322,11 @@ ReturnStopIteration
 }
 ;
 struct
+ReturnDeadCPOW
+{
+}
+;
+struct
 ReturnException
 {
 JSVariant
@@ -343,6 +348,8 @@ ReturnStatus
 ReturnSuccess
 ;
 ReturnStopIteration
+;
+ReturnDeadCPOW
 ;
 ReturnException
 ;
