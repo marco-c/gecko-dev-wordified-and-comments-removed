@@ -782,6 +782,13 @@ aLayer
 nsIntRegion
 &
 aOpaqueRegion
+const
+Maybe
+<
+ParentLayerIntRect
+>
+&
+aClipFromAncestors
 )
 ;
 class
