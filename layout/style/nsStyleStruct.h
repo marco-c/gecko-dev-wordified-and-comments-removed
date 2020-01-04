@@ -2512,10 +2512,7 @@ Layer
 nsStyleImage
 mImage
 ;
-nsCOMPtr
-<
-nsIURI
->
+FragmentOrURL
 mSourceURI
 ;
 Position
