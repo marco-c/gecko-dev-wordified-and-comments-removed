@@ -1415,7 +1415,7 @@ DrawableRef
 )
 -
 >
-WaitUntilComplete
+WaitUntilFinished
 (
 )
 ;
@@ -2349,7 +2349,7 @@ if
 frameRef
 -
 >
-IsImageComplete
+IsFinished
 (
 )
 )
@@ -5520,12 +5520,12 @@ aRegion
 )
 ;
 bool
-frameIsComplete
+frameIsFinished
 =
 aFrameRef
 -
 >
-IsImageComplete
+IsFinished
 (
 )
 ;
@@ -5659,7 +5659,7 @@ TEMPORARY_ERROR
 if
 (
 !
-frameIsComplete
+frameIsFinished
 )
 {
 return
@@ -5876,7 +5876,7 @@ IsNull
 ref
 -
 >
-IsImageComplete
+IsFinished
 (
 )
 ;

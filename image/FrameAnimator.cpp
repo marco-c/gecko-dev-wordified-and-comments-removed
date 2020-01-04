@@ -460,7 +460,7 @@ nextFrame
 nextFrame
 -
 >
-IsImageComplete
+IsFinished
 (
 )
 )

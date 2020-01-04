@@ -695,7 +695,7 @@ IsPlaceholder
 mSurface
 -
 >
-IsImageComplete
+IsFinished
 (
 )
 ;

@@ -470,13 +470,13 @@ Abort
 )
 ;
 bool
-IsImageComplete
+IsFinished
 (
 )
 const
 ;
 void
-WaitUntilComplete
+WaitUntilFinished
 (
 )
 const
@@ -703,7 +703,7 @@ AssertImageDataLocked
 const
 ;
 bool
-IsImageCompleteInternal
+AreAllPixelsWritten
 (
 )
 const
@@ -924,6 +924,9 @@ mHasNoAlpha
 ;
 bool
 mAborted
+;
+bool
+mFinished
 ;
 bool
 mOptimizable
