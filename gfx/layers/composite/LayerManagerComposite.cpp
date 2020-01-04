@@ -5496,7 +5496,7 @@ aTransform
 .
 TransformAndClipBounds
 (
-ToRect
+IntRectToRect
 (
 *
 rect

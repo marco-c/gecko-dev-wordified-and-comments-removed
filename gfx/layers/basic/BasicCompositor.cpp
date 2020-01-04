@@ -3008,7 +3008,7 @@ mDrawTarget
 >
 FillRect
 (
-ToRect
+IntRectToRect
 (
 mInvalidRegion
 .

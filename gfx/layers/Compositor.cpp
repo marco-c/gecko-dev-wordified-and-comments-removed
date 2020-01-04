@@ -336,7 +336,7 @@ DiagnosticFlags
 :
 :
 REGION_RECT
-ToRect
+IntRectToRect
 (
 *
 rect
@@ -351,7 +351,7 @@ aFlashCounter
 DrawDiagnostics
 (
 aFlags
-ToRect
+IntRectToRect
 (
 aVisibleRegion
 .

@@ -4494,10 +4494,7 @@ Init
 (
 ThebesRect
 (
-ToRect
-(
 outerRect
-)
 )
 zeroSpread
 aBlurRadius
@@ -4535,11 +4532,11 @@ maskPath
 GetBoxShadowInsetPath
 (
 minDrawTarget
-ToRect
+IntRectToRect
 (
 outerRect
 )
-ToRect
+IntRectToRect
 (
 innerRect
 )

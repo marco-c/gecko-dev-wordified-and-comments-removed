@@ -26444,8 +26444,11 @@ aContext
 >
 Rectangle
 (
+ThebesRect
+(
 *
 iterRect
+)
 )
 ;
 aContext

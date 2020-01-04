@@ -1700,7 +1700,10 @@ ToRect
 (
 FilterSpaceToUserSpace
 (
+ThebesRect
+(
 neededRect
+)
 )
 )
 pattern
@@ -1892,7 +1895,10 @@ r
 =
 FilterSpaceToUserSpace
 (
+ThebesRect
+(
 neededRect
+)
 )
 ;
 r
@@ -2179,7 +2185,7 @@ RenderFilterDescription
 (
 dt
 mFilterDescription
-ToRect
+IntRectToRect
 (
 filterRect
 )

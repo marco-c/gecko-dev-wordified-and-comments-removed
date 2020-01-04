@@ -262,6 +262,8 @@ aTwo
 gfxRect
 ourRect
 =
+ThebesRect
+(
 aOne
 -
 >
@@ -272,10 +274,13 @@ GetEffectiveVisibleRegion
 GetBounds
 (
 )
+)
 ;
 gfxRect
 otherRect
 =
+ThebesRect
+(
 aTwo
 -
 >
@@ -285,6 +290,7 @@ GetEffectiveVisibleRegion
 .
 GetBounds
 (
+)
 )
 ;
 MOZ_ASSERT

@@ -5616,7 +5616,10 @@ Snapshot
 (
 )
 aTarget
+ThebesRect
+(
 bounds
+)
 effectiveTransform
 destRect
 )

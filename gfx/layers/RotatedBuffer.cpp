@@ -555,7 +555,7 @@ aTarget
 >
 ClearRect
 (
-ToRect
+IntRectToRect
 (
 fillRect
 )
@@ -568,10 +568,7 @@ aTarget
 >
 PushClipRect
 (
-gfx
-:
-:
-ToRect
+IntRectToRect
 (
 fillRect
 )
@@ -727,7 +724,7 @@ aTarget
 DrawSurface
 (
 snapshot
-ToRect
+IntRectToRect
 (
 fillRect
 )
