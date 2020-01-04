@@ -310,6 +310,10 @@ OnStopRequest
 (
 nsresult
 channelStatus
+nsCString
+aErrorMsg
+bool
+aUseUTF8
 )
 ;
 async

@@ -102,6 +102,11 @@ nsIFTPChannel
 .
 idl
 '
+'
+nsIFTPChannelParentInternal
+.
+idl
+'
 ]
 XPIDL_MODULE
 =

@@ -292,6 +292,14 @@ const
 nsresult
 &
 channelStatus
+const
+nsCString
+&
+aErrorMsg
+const
+bool
+&
+aUseUTF8
 )
 override
 ;
@@ -406,6 +414,12 @@ const
 nsresult
 &
 statusCode
+const
+nsCString
+&
+aErrorMsg
+bool
+aUseUTF8
 )
 ;
 void
