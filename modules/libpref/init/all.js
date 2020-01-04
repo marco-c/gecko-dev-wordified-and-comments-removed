@@ -23107,9 +23107,9 @@ ui
 .
 osk
 .
-require_tablet_mode
+require_win10
 "
-true
+false
 )
 ;
 pref
