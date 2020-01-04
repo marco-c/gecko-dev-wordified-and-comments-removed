@@ -1898,7 +1898,6 @@ offset
 )
 const
 ;
-const
 PCCounts
 *
 getImmediatePrecedingPCCounts
@@ -1906,7 +1905,6 @@ getImmediatePrecedingPCCounts
 size_t
 offset
 )
-const
 ;
 const
 PCCounts
@@ -6399,6 +6397,14 @@ pc
 ;
 uint64_t
 getHitCount
+(
+jsbytecode
+*
+pc
+)
+;
+void
+incHitCount
 (
 jsbytecode
 *
