@@ -38,7 +38,7 @@ uint32_t
 aRunID
 )
 ;
-bool
+nsresult
 FindPluginsForContent
 (
 uint32_t

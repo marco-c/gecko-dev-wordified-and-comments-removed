@@ -419,7 +419,7 @@ aIncludeDisabled
 false
 )
 ;
-void
+nsresult
 FindPluginsForContent
 (
 uint32_t
