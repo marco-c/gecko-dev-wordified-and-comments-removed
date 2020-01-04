@@ -13395,8 +13395,8 @@ JS
 HandleValueArray
 &
 args
-MutableHandleObject
-objp
+MutableHandleValue
+rval
 )
 ;
 extern
@@ -13421,8 +13421,8 @@ JS
 HandleValueArray
 &
 args
-MutableHandleObject
-objp
+MutableHandleValue
+rval
 )
 ;
 }
