@@ -1791,7 +1791,7 @@ CONTINUE_EMPTY
 ;
 }
 static
-nsresult
+void
 ReparentFrameViewTo
 (
 nsIFrame
@@ -1838,7 +1838,6 @@ menuPopupFrame
 )
 {
 return
-NS_OK
 ;
 }
 #
@@ -1974,9 +1973,6 @@ aOldParentView
 }
 }
 }
-return
-NS_OK
-;
 }
 void
 nsContainerFrame
@@ -2488,7 +2484,6 @@ oldParentView
 newParentView
 )
 {
-return
 ReparentFrameViewTo
 (
 aChildFrame
