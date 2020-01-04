@@ -296,11 +296,31 @@ except
 Empty
 :
             
+try
+:
+                
 proc
 .
 terminate
 (
 )
+            
+except
+WindowsError
+as
+ex
+:
+                
+if
+ex
+.
+winerror
+!
+=
+5
+:
+                    
+raise
             
 fin
 =
