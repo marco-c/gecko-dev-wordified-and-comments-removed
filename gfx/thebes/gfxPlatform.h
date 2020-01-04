@@ -690,6 +690,10 @@ aTarget
 gfxASurface
 *
 aSurface
+bool
+aIsPlugin
+=
+false
 )
 ;
 static

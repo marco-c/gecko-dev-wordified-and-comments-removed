@@ -4395,6 +4395,11 @@ MarkDirty
 ur
 )
 ;
+bool
+isPlugin
+=
+true
+;
 RefPtr
 <
 gfx
@@ -4416,6 +4421,7 @@ GetSourceSurfaceForSurface
 (
 nullptr
 surface
+isPlugin
 )
 ;
 RefPtr
