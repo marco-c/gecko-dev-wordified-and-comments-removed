@@ -61,7 +61,9 @@ renderPhase
 0
 )
 ;
-void
+const
+float
+*
 process
 (
 FFTBlock
@@ -71,9 +73,6 @@ const
 float
 *
 sourceP
-float
-*
-destP
 )
 ;
 void

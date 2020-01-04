@@ -55,6 +55,7 @@ numberOfFrames
 int
 accumulate
 (
+const
 float
 *
 source
