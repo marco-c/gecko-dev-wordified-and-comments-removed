@@ -1068,9 +1068,11 @@ libs
 *
 XPI_ROOT_APPID
 =
+'
 (
 XPI_ROOT_APPID
 )
+'
 (
 MAKE
 )
@@ -1192,9 +1194,11 @@ locale
 *
 XPI_ROOT_APPID
 =
+'
 (
 XPI_ROOT_APPID
 )
+'
 (
 MAKE
 )
