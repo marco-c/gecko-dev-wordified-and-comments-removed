@@ -3698,6 +3698,8 @@ JSContext
 cx
 HandleObject
 callee
+HandleObject
+newTarget
 MutableHandleValue
 rval
 )

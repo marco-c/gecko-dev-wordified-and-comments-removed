@@ -24605,6 +24605,11 @@ callInfo
 fun
 (
 )
+callInfo
+.
+getNewTarget
+(
+)
 )
 ;
 if
@@ -30267,6 +30272,9 @@ createThisScripted
 MDefinition
 *
 callee
+MDefinition
+*
+newTarget
 )
 {
 MInstruction
@@ -30293,7 +30301,7 @@ New
 alloc
 (
 )
-callee
+newTarget
 names
 (
 )
@@ -30328,7 +30336,7 @@ New
 alloc
 (
 )
-callee
+newTarget
 names
 (
 )
@@ -30370,6 +30378,7 @@ alloc
 (
 )
 callee
+newTarget
 getProto
 )
 ;
@@ -31175,6 +31184,9 @@ target
 MDefinition
 *
 callee
+MDefinition
+*
+newTarget
 )
 {
 if
@@ -31210,6 +31222,7 @@ alloc
 (
 )
 callee
+newTarget
 )
 ;
 current
@@ -31340,6 +31353,7 @@ return
 createThisScripted
 (
 callee
+newTarget
 )
 ;
 }
@@ -33370,6 +33384,11 @@ target
 callInfo
 .
 fun
+(
+)
+callInfo
+.
+getNewTarget
 (
 )
 )

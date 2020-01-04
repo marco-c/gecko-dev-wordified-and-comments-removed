@@ -1582,6 +1582,9 @@ createThisScripted
 MDefinition
 *
 callee
+MDefinition
+*
+newTarget
 )
 ;
 MDefinition
@@ -1615,6 +1618,9 @@ target
 MDefinition
 *
 callee
+MDefinition
+*
+newTarget
 )
 ;
 MInstruction
