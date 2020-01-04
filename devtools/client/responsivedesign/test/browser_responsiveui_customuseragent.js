@@ -160,6 +160,7 @@ to
 CHROME_UA
 )
 ;
+yield
 setUserAgent
 (
 CHROME_UA
@@ -179,6 +180,7 @@ UA
 "
 )
 ;
+yield
 setUserAgent
 (
 "
@@ -202,6 +204,7 @@ to
 CHROME_UA
 )
 ;
+yield
 setUserAgent
 (
 CHROME_UA
@@ -254,6 +257,7 @@ DEFAULT_UA
 )
 ;
 function
+*
 setUserAgent
 (
 ua
@@ -297,11 +301,25 @@ value
 =
 ua
 ;
+let
+onUAChanged
+=
+once
+(
+mgr
+"
+userAgentChanged
+"
+)
+;
 input
 .
 blur
 (
 )
+;
+yield
+onUAChanged
 ;
 if
 (
