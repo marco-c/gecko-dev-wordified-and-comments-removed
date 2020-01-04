@@ -744,6 +744,9 @@ callback
 ;
 }
 }
+return
+undefined
+;
 }
 classID
 :

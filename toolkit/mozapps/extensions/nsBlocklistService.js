@@ -2045,6 +2045,9 @@ name
 )
 ;
 }
+return
+undefined
+;
 }
 isAddonBlocklisted
 :

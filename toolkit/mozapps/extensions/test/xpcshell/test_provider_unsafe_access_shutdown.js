@@ -85,6 +85,9 @@ shutdownCallback
 (
 )
 ;
+return
+undefined
+;
 }
 getAddonByID
 (

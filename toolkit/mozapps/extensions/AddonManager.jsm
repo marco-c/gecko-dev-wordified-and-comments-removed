@@ -3266,6 +3266,9 @@ return
 provider
 ;
 }
+return
+undefined
+;
 }
 startup
 :
