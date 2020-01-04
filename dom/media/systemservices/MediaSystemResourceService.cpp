@@ -1062,8 +1062,6 @@ erase
 it
 )
 ;
-return
-;
 }
 else
 {
