@@ -259,7 +259,7 @@ mDirection
 (
 0
 )
-clickCount
+mClickCount
 (
 0
 )
@@ -306,7 +306,7 @@ aOther
 .
 mDirection
 )
-clickCount
+mClickCount
 (
 0
 )
@@ -386,7 +386,7 @@ uint32_t
 mDirection
 ;
 uint32_t
-clickCount
+mClickCount
 ;
 double
 delta
@@ -420,11 +420,11 @@ aEvent
 .
 delta
 ;
-clickCount
+mClickCount
 =
 aEvent
 .
-clickCount
+mClickCount
 ;
 }
 }

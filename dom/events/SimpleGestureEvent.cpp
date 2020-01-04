@@ -341,7 +341,7 @@ AsSimpleGestureEvent
 )
 -
 >
-clickCount
+mClickCount
 ;
 }
 NS_IMETHODIMP
@@ -478,7 +478,7 @@ aDeltaArg
 simpleGestureEvent
 -
 >
-clickCount
+mClickCount
 =
 aClickCountArg
 ;

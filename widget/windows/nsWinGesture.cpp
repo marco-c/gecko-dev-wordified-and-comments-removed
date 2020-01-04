@@ -1798,7 +1798,7 @@ eTapGesture
 ;
 evt
 .
-clickCount
+mClickCount
 =
 1
 ;
@@ -1815,7 +1815,7 @@ ePressTapGesture
 ;
 evt
 .
-clickCount
+mClickCount
 =
 1
 ;

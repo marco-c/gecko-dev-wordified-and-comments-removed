@@ -5858,7 +5858,7 @@ aDelta
 ;
 event
 .
-clickCount
+mClickCount
 =
 aClickCount
 ;

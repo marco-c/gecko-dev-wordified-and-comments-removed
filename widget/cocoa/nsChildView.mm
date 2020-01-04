@@ -24742,7 +24742,7 @@ geckoEvent
 ;
 geckoEvent
 .
-clickCount
+mClickCount
 =
 1
 ;
