@@ -463,6 +463,10 @@ aStateMask
 ;
 private
 :
+nsPresContext
+*
+mPresContext
+;
 UniquePtr
 <
 RawServoStyleSet
