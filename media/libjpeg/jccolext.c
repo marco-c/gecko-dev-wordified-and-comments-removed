@@ -35,7 +35,7 @@ g
 b
 ;
 register
-INT32
+JLONG
 *
 ctab
 =
@@ -315,7 +315,7 @@ g
 b
 ;
 register
-INT32
+JLONG
 *
 ctab
 =

@@ -119,6 +119,9 @@ simd
 revert_files
 =
 "
+1050342
+.
+diff
 jconfig
 .
 h
@@ -128,9 +131,6 @@ h
 moz
 .
 build
-Makefile
-.
-in
 MOZCHANGES
 mozilla
 .

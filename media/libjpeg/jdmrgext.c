@@ -77,7 +77,7 @@ upsample
 >
 Cb_b_tab
 ;
-INT32
+JLONG
 *
 Crgtab
 =
@@ -86,7 +86,7 @@ upsample
 >
 Cr_g_tab
 ;
-INT32
+JLONG
 *
 Cbgtab
 =
@@ -532,7 +532,7 @@ upsample
 >
 Cb_b_tab
 ;
-INT32
+JLONG
 *
 Crgtab
 =
@@ -541,7 +541,7 @@ upsample
 >
 Cr_g_tab
 ;
-INT32
+JLONG
 *
 Cbgtab
 =

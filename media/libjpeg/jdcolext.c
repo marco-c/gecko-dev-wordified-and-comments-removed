@@ -87,7 +87,7 @@ cconvert
 Cb_b_tab
 ;
 register
-INT32
+JLONG
 *
 Crgtab
 =
@@ -97,7 +97,7 @@ cconvert
 Cr_g_tab
 ;
 register
-INT32
+JLONG
 *
 Cbgtab
 =

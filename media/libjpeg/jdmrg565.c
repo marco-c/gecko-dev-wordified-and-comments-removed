@@ -77,7 +77,7 @@ upsample
 >
 Cb_b_tab
 ;
-INT32
+JLONG
 *
 Crgtab
 =
@@ -86,7 +86,7 @@ upsample
 >
 Cr_g_tab
 ;
-INT32
+JLONG
 *
 Cbgtab
 =
@@ -101,7 +101,7 @@ r
 g
 b
 ;
-INT32
+JLONG
 rgb
 ;
 SHIFT_TEMPS
@@ -434,6 +434,9 @@ INT16
 )
 outptr
 =
+(
+INT16
+)
 rgb
 ;
 }
@@ -517,7 +520,7 @@ upsample
 >
 Cb_b_tab
 ;
-INT32
+JLONG
 *
 Crgtab
 =
@@ -526,7 +529,7 @@ upsample
 >
 Cr_g_tab
 ;
-INT32
+JLONG
 *
 Cbgtab
 =
@@ -535,7 +538,7 @@ upsample
 >
 Cb_g_tab
 ;
-INT32
+JLONG
 d0
 =
 dither_matrix
@@ -554,7 +557,7 @@ r
 g
 b
 ;
-INT32
+JLONG
 rgb
 ;
 SHIFT_TEMPS
@@ -937,6 +940,9 @@ INT16
 )
 outptr
 =
+(
+INT16
+)
 rgb
 ;
 }
@@ -1022,7 +1028,7 @@ upsample
 >
 Cb_b_tab
 ;
-INT32
+JLONG
 *
 Crgtab
 =
@@ -1031,7 +1037,7 @@ upsample
 >
 Cr_g_tab
 ;
-INT32
+JLONG
 *
 Cbgtab
 =
@@ -1046,7 +1052,7 @@ r
 g
 b
 ;
-INT32
+JLONG
 rgb
 ;
 SHIFT_TEMPS
@@ -1509,6 +1515,9 @@ INT16
 )
 outptr0
 =
+(
+INT16
+)
 rgb
 ;
 y
@@ -1562,6 +1571,9 @@ INT16
 )
 outptr1
 =
+(
+INT16
+)
 rgb
 ;
 }
@@ -1647,7 +1659,7 @@ upsample
 >
 Cb_b_tab
 ;
-INT32
+JLONG
 *
 Crgtab
 =
@@ -1656,7 +1668,7 @@ upsample
 >
 Cr_g_tab
 ;
-INT32
+JLONG
 *
 Cbgtab
 =
@@ -1665,7 +1677,7 @@ upsample
 >
 Cb_g_tab
 ;
-INT32
+JLONG
 d0
 =
 dither_matrix
@@ -1678,7 +1690,7 @@ output_scanline
 DITHER_MASK
 ]
 ;
-INT32
+JLONG
 d1
 =
 dither_matrix
@@ -1701,7 +1713,7 @@ r
 g
 b
 ;
-INT32
+JLONG
 rgb
 ;
 SHIFT_TEMPS
@@ -2252,6 +2264,9 @@ INT16
 )
 outptr0
 =
+(
+INT16
+)
 rgb
 ;
 y
@@ -2317,6 +2332,9 @@ INT16
 )
 outptr1
 =
+(
+INT16
+)
 rgb
 ;
 }

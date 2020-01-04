@@ -402,11 +402,11 @@ LOCFSERROR
 #
 else
 typedef
-INT32
+JLONG
 FSERROR
 ;
 typedef
-INT32
+JLONG
 LOCFSERROR
 ;
 #
@@ -792,7 +792,7 @@ int
 (
 (
 (
-INT32
+JLONG
 )
 j
 *
@@ -830,7 +830,7 @@ int
 (
 (
 (
-INT32
+JLONG
 )
 (
 2
@@ -1424,7 +1424,7 @@ int
 j
 k
 ;
-INT32
+JLONG
 num
 den
 ;
@@ -1463,7 +1463,7 @@ ODITHER_CELLS
 *
 (
 (
-INT32
+JLONG
 )
 (
 ncolors
@@ -1506,7 +1506,7 @@ num
 =
 (
 (
-INT32
+JLONG
 )
 (
 ODITHER_CELLS

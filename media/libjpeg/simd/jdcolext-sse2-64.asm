@@ -30,6 +30,9 @@ Cendio
 AB
 ;
 Copyright
+(
+C
+)
 2009
 2012
 D
@@ -37,11 +40,12 @@ D
 R
 .
 Commander
+.
 ;
 ;
 Based
 on
-;
+the
 x86
 SIMD
 extension

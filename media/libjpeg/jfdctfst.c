@@ -57,7 +57,7 @@ define
 FIX_0_382683433
 (
 (
-INT32
+JLONG
 )
 98
 )
@@ -76,7 +76,7 @@ define
 FIX_0_541196100
 (
 (
-INT32
+JLONG
 )
 139
 )
@@ -95,7 +95,7 @@ define
 FIX_0_707106781
 (
 (
-INT32
+JLONG
 )
 181
 )
@@ -114,7 +114,7 @@ define
 FIX_1_306562965
 (
 (
-INT32
+JLONG
 )
 334
 )

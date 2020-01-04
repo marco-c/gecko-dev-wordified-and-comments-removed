@@ -828,7 +828,7 @@ DESCALE
 MULTIPLY16V16
 (
 (
-INT32
+JLONG
 )
 qtbl
 -
@@ -838,7 +838,7 @@ quantval
 i
 ]
 (
-INT32
+JLONG
 )
 aanscales
 [

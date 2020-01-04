@@ -42,7 +42,7 @@ next_output_byte
 size_t
 free_in_buffer
 ;
-INT32
+size_t
 put_buffer
 ;
 int
@@ -834,11 +834,11 @@ size
 )
 {
 register
-INT32
+size_t
 put_buffer
 =
 (
-INT32
+size_t
 )
 code
 ;
@@ -882,7 +882,7 @@ put_buffer
 (
 (
 (
-INT32
+size_t
 )
 1
 )

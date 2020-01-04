@@ -1,4 +1,11 @@
 #
+include
+"
+jconfigint
+.
+h
+"
+#
 define
 HUFF_LOOKAHEAD
 8
@@ -14,13 +21,13 @@ lookahead
 typedef
 struct
 {
-INT32
+JLONG
 maxcode
 [
 18
 ]
 ;
-INT32
+JLONG
 valoffset
 [
 18
@@ -114,7 +121,8 @@ bits
 #
 else
 typedef
-INT32
+unsigned
+long
 bit_buf_type
 ;
 #

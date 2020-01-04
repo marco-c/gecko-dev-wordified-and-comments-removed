@@ -28,7 +28,7 @@ d
 (
 (
 (
-INT32
+JLONG
 )
 a
 <
@@ -38,7 +38,7 @@ a
 |
 (
 (
-INT32
+JLONG
 )
 c
 <
@@ -48,7 +48,7 @@ c
 |
 (
 (
-INT32
+JLONG
 )
 d
 <
@@ -59,7 +59,7 @@ d
 b
 )
 const
-INT32
+JLONG
 jpeg_aritab
 [
 113

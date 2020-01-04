@@ -22,10 +22,10 @@ struct
 jpeg_entropy_decoder
 pub
 ;
-INT32
+JLONG
 c
 ;
-INT32
+JLONG
 a
 ;
 int
@@ -189,7 +189,7 @@ nl
 nm
 ;
 register
-INT32
+JLONG
 qe
 temp
 ;
@@ -2211,9 +2211,13 @@ blkn
 block
 =
 MCU_data
+?
+MCU_data
 [
 blkn
 ]
+:
+NULL
 ;
 ci
 =
@@ -2529,6 +2533,10 @@ ci
 v
 ;
 }
+if
+(
+block
+)
 (
 *
 block
@@ -2819,6 +2827,10 @@ v
 -
 v
 ;
+if
+(
+block
+)
 (
 *
 block

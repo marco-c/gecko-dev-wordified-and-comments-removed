@@ -90,7 +90,7 @@ define
 FIX_1_082392200
 (
 (
-INT32
+JLONG
 )
 277
 )
@@ -109,7 +109,7 @@ define
 FIX_1_414213562
 (
 (
-INT32
+JLONG
 )
 362
 )
@@ -128,7 +128,7 @@ define
 FIX_1_847759065
 (
 (
-INT32
+JLONG
 )
 473
 )
@@ -147,7 +147,7 @@ define
 FIX_2_613125930
 (
 (
-INT32
+JLONG
 )
 669
 )

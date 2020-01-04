@@ -636,7 +636,7 @@ boolean
 is_arith
 )
 {
-INT32
+JLONG
 length
 ;
 int
@@ -1010,7 +1010,7 @@ j_decompress_ptr
 cinfo
 )
 {
-INT32
+JLONG
 length
 ;
 int
@@ -1442,7 +1442,7 @@ j_decompress_ptr
 cinfo
 )
 {
-INT32
+JLONG
 length
 ;
 int
@@ -1661,7 +1661,7 @@ j_decompress_ptr
 cinfo
 )
 {
-INT32
+JLONG
 length
 ;
 UINT8
@@ -1868,7 +1868,7 @@ count
 |
 (
 (
-INT32
+JLONG
 )
 count
 )
@@ -2102,7 +2102,7 @@ j_decompress_ptr
 cinfo
 )
 {
-INT32
+JLONG
 length
 ;
 int
@@ -2436,7 +2436,7 @@ j_decompress_ptr
 cinfo
 )
 {
-INT32
+JLONG
 length
 ;
 unsigned
@@ -2560,15 +2560,15 @@ data
 unsigned
 int
 datalen
-INT32
+JLONG
 remaining
 )
 {
-INT32
+JLONG
 totallen
 =
 (
-INT32
+JLONG
 )
 datalen
 +
@@ -2842,7 +2842,7 @@ totallen
 =
 (
 (
-INT32
+JLONG
 )
 GETJOCTET
 (
@@ -2853,7 +2853,7 @@ data
 )
 *
 (
-INT32
+JLONG
 )
 GETJOCTET
 (
@@ -2864,7 +2864,7 @@ data
 )
 *
 (
-INT32
+JLONG
 )
 3
 )
@@ -3062,7 +3062,7 @@ data
 unsigned
 int
 datalen
-INT32
+JLONG
 remaining
 )
 {
@@ -3278,7 +3278,7 @@ j_decompress_ptr
 cinfo
 )
 {
-INT32
+JLONG
 length
 ;
 JOCTET
@@ -3502,7 +3502,7 @@ JOCTET
 *
 data
 ;
-INT32
+JLONG
 length
 =
 0
@@ -3997,7 +3997,7 @@ j_decompress_ptr
 cinfo
 )
 {
-INT32
+JLONG
 length
 ;
 INPUT_VARS

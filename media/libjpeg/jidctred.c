@@ -90,7 +90,7 @@ define
 FIX_0_211164243
 (
 (
-INT32
+JLONG
 )
 1730
 )
@@ -109,7 +109,7 @@ define
 FIX_0_509795579
 (
 (
-INT32
+JLONG
 )
 4176
 )
@@ -128,7 +128,7 @@ define
 FIX_0_601344887
 (
 (
-INT32
+JLONG
 )
 4926
 )
@@ -147,7 +147,7 @@ define
 FIX_0_720959822
 (
 (
-INT32
+JLONG
 )
 5906
 )
@@ -166,7 +166,7 @@ define
 FIX_0_765366865
 (
 (
-INT32
+JLONG
 )
 6270
 )
@@ -185,7 +185,7 @@ define
 FIX_0_850430095
 (
 (
-INT32
+JLONG
 )
 6967
 )
@@ -204,7 +204,7 @@ define
 FIX_0_899976223
 (
 (
-INT32
+JLONG
 )
 7373
 )
@@ -223,7 +223,7 @@ define
 FIX_1_061594337
 (
 (
-INT32
+JLONG
 )
 8697
 )
@@ -242,7 +242,7 @@ define
 FIX_1_272758580
 (
 (
-INT32
+JLONG
 )
 10426
 )
@@ -261,7 +261,7 @@ define
 FIX_1_451774981
 (
 (
-INT32
+JLONG
 )
 11893
 )
@@ -280,7 +280,7 @@ define
 FIX_1_847759065
 (
 (
-INT32
+JLONG
 )
 15137
 )
@@ -299,7 +299,7 @@ define
 FIX_2_172734803
 (
 (
-INT32
+JLONG
 )
 17799
 )
@@ -318,7 +318,7 @@ define
 FIX_2_562915447
 (
 (
-INT32
+JLONG
 )
 20995
 )
@@ -337,7 +337,7 @@ define
 FIX_3_624509785
 (
 (
-INT32
+JLONG
 )
 29692
 )
@@ -559,13 +559,13 @@ JDIMENSION
 output_col
 )
 {
-INT32
+JLONG
 tmp0
 tmp2
 tmp10
 tmp12
 ;
-INT32
+JLONG
 z1
 z2
 z3
@@ -1196,7 +1196,7 @@ int
 DESCALE
 (
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -1253,7 +1253,7 @@ tmp0
 LEFT_SHIFT
 (
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -1269,7 +1269,7 @@ tmp2
 MULTIPLY
 (
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -1281,7 +1281,7 @@ FIX_1_847759065
 MULTIPLY
 (
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -1306,7 +1306,7 @@ tmp2
 z1
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -1316,7 +1316,7 @@ wsptr
 z2
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -1326,7 +1326,7 @@ wsptr
 z3
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -1336,7 +1336,7 @@ wsptr
 z4
 =
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -1533,7 +1533,7 @@ JDIMENSION
 output_col
 )
 {
-INT32
+JLONG
 tmp0
 tmp10
 z1
@@ -1995,7 +1995,7 @@ int
 DESCALE
 (
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -2038,7 +2038,7 @@ tmp10
 LEFT_SHIFT
 (
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -2054,7 +2054,7 @@ tmp0
 MULTIPLY
 (
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -2067,7 +2067,7 @@ FIX_0_720959822
 MULTIPLY
 (
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -2079,7 +2079,7 @@ FIX_0_850430095
 MULTIPLY
 (
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -2092,7 +2092,7 @@ FIX_1_272758580
 MULTIPLY
 (
 (
-INT32
+JLONG
 )
 wsptr
 [
@@ -2231,7 +2231,7 @@ int
 DESCALE
 (
 (
-INT32
+JLONG
 )
 dcval
 3

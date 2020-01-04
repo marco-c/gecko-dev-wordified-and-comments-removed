@@ -44,15 +44,15 @@ int
 *
 Cb_b_tab
 ;
-INT32
+JLONG
 *
 Cr_g_tab
 ;
-INT32
+JLONG
 *
 Cb_g_tab
 ;
-INT32
+JLONG
 *
 rgb_y_tab
 ;
@@ -84,7 +84,7 @@ define
 ONE_HALF
 (
 (
-INT32
+JLONG
 )
 1
 <
@@ -103,7 +103,7 @@ x
 )
 (
 (
-INT32
+JLONG
 )
 (
 (
@@ -597,7 +597,7 @@ cconvert
 int
 i
 ;
-INT32
+JLONG
 x
 ;
 SHIFT_TEMPS
@@ -681,7 +681,7 @@ cconvert
 Cr_g_tab
 =
 (
-INT32
+JLONG
 *
 )
 (
@@ -708,7 +708,7 @@ MAXJSAMPLE
 *
 sizeof
 (
-INT32
+JLONG
 )
 )
 ;
@@ -718,7 +718,7 @@ cconvert
 Cb_g_tab
 =
 (
-INT32
+JLONG
 *
 )
 (
@@ -745,7 +745,7 @@ MAXJSAMPLE
 *
 sizeof
 (
-INT32
+JLONG
 )
 )
 ;
@@ -1026,11 +1026,11 @@ cinfo
 >
 cconvert
 ;
-INT32
+JLONG
 *
 rgb_y_tab
 ;
-INT32
+JLONG
 i
 ;
 cconvert
@@ -1041,7 +1041,7 @@ rgb_y_tab
 rgb_y_tab
 =
 (
-INT32
+JLONG
 *
 )
 (
@@ -1065,7 +1065,7 @@ TABLE_SIZE
 *
 sizeof
 (
-INT32
+JLONG
 )
 )
 )
@@ -1174,7 +1174,7 @@ g
 b
 ;
 register
-INT32
+JLONG
 *
 ctab
 =
@@ -2112,7 +2112,7 @@ cconvert
 Cb_b_tab
 ;
 register
-INT32
+JLONG
 *
 Crgtab
 =
@@ -2122,7 +2122,7 @@ cconvert
 Cr_g_tab
 ;
 register
-INT32
+JLONG
 *
 Cbgtab
 =
@@ -2577,7 +2577,11 @@ x
 (
 (
 (
+(
 x
+)
+&
+0xFF
 )
 <
 <
@@ -2599,7 +2603,7 @@ x
 )
 static
 const
-INT32
+JLONG
 dither_matrix
 [
 4

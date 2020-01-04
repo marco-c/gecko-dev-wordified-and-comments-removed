@@ -27,7 +27,7 @@ AB
 ;
 Based
 on
-;
+the
 x86
 SIMD
 extension

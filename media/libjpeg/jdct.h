@@ -43,7 +43,7 @@ endif
 #
 else
 typedef
-INT32
+JLONG
 DCTELEM
 ;
 typedef
@@ -84,7 +84,7 @@ factors
 #
 else
 typedef
-INT32
+JLONG
 IFAST_MULT_TYPE
 ;
 #
@@ -522,7 +522,7 @@ define
 ONE
 (
 (
-INT32
+JLONG
 )
 1
 )
@@ -543,7 +543,7 @@ x
 )
 (
 (
-INT32
+JLONG
 )
 (
 (
@@ -637,7 +637,7 @@ var
 *
 (
 (
-INT32
+JLONG
 )
 (
 const
