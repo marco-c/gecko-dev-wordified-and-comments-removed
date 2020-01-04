@@ -814,6 +814,10 @@ MediaStream
 aInputStream
 TrackID
 aInputTrackID
+TrackID
+aTrackID
+=
+TRACK_ANY
 )
 const
 ;
