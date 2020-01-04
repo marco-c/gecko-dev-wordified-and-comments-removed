@@ -43,6 +43,13 @@ h
 #
 include
 "
+WSRunObject
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -342,13 +349,6 @@ h
 include
 "
 nsUnicharUtils
-.
-h
-"
-#
-include
-"
-nsWSRunObject
 .
 h
 "
@@ -2508,7 +2508,7 @@ mRangeItem
 endNode
 )
 ;
-nsWSRunObject
+WSRunObject
 (
 mHTMLEditor
 mRangeItem
@@ -2556,7 +2556,7 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsWSRunObject
+WSRunObject
 (
 mHTMLEditor
 mRangeItem
@@ -6586,7 +6586,7 @@ doc
 }
 else
 {
-nsWSRunObject
+WSRunObject
 wsObj
 (
 mHTMLEditor
@@ -7049,7 +7049,7 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsWSRunObject
+WSRunObject
 wsObj
 (
 mHTMLEditor
@@ -7856,7 +7856,7 @@ brNode
 }
 else
 {
-nsWSRunObject
+WSRunObject
 wsObj
 (
 mHTMLEditor
@@ -8122,7 +8122,7 @@ res
 }
 else
 {
-nsWSRunObject
+WSRunObject
 wsObj
 (
 mHTMLEditor
@@ -8427,7 +8427,7 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsWSRunObject
+WSRunObject
 wsObj
 (
 mHTMLEditor
@@ -8648,7 +8648,7 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsWSRunObject
+WSRunObject
 wsObj
 (
 mHTMLEditor
@@ -8720,7 +8720,7 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsWSRunObject
+WSRunObject
 wsObjAfterBR
 (
 mHTMLEditor
@@ -9361,7 +9361,7 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsWSRunObject
+WSRunObject
 wsObj
 (
 mHTMLEditor
@@ -9716,7 +9716,7 @@ mHTMLEditor
 ;
 res
 =
-nsWSRunObject
+WSRunObject
 :
 :
 PrepareToDeleteRange
@@ -10092,7 +10092,7 @@ otherNode
 ;
 res
 =
-nsWSRunObject
+WSRunObject
 :
 :
 PrepareToDeleteNode
@@ -10151,7 +10151,7 @@ IsContent
 ;
 res
 =
-nsWSRunObject
+WSRunObject
 :
 :
 PrepareToDeleteNode
@@ -11066,7 +11066,7 @@ mHTMLEditor
 ;
 res
 =
-nsWSRunObject
+WSRunObject
 :
 :
 PrepareToDeleteRange
@@ -12180,7 +12180,7 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsWSRunObject
+WSRunObject
 wsObj
 (
 mHTMLEditor
@@ -12834,13 +12834,13 @@ rightOffset
 ;
 res
 =
-nsWSRunObject
+WSRunObject
 :
 :
 ScrubBlockBoundary
 (
 mHTMLEditor
-nsWSRunObject
+WSRunObject
 :
 :
 kBlockEnd
@@ -12880,13 +12880,13 @@ rightOffset
 ;
 res
 =
-nsWSRunObject
+WSRunObject
 :
 :
 ScrubBlockBoundary
 (
 mHTMLEditor
-nsWSRunObject
+WSRunObject
 :
 :
 kAfterBlock
@@ -13061,13 +13061,13 @@ leftOffset
 {
 res
 =
-nsWSRunObject
+WSRunObject
 :
 :
 ScrubBlockBoundary
 (
 mHTMLEditor
-nsWSRunObject
+WSRunObject
 :
 :
 kBlockStart
@@ -13107,13 +13107,13 @@ leftOffset
 ;
 res
 =
-nsWSRunObject
+WSRunObject
 :
 :
 ScrubBlockBoundary
 (
 mHTMLEditor
-nsWSRunObject
+WSRunObject
 :
 :
 kBeforeBlock
@@ -13405,7 +13405,7 @@ else
 {
 res
 =
-nsWSRunObject
+WSRunObject
 :
 :
 PrepareToJoinBlocks
@@ -23756,7 +23756,7 @@ return
 nullptr
 ;
 }
-nsWSRunObject
+WSRunObject
 wsTester
 (
 mHTMLEditor
@@ -24135,7 +24135,7 @@ while
 true
 )
 {
-nsWSRunObject
+WSRunObject
 wsObj
 (
 mHTMLEditor
@@ -24254,7 +24254,7 @@ while
 true
 )
 {
-nsWSRunObject
+WSRunObject
 wsObj
 (
 mHTMLEditor
@@ -24799,7 +24799,7 @@ offset
 WSType
 wsType
 ;
-nsWSRunObject
+WSRunObject
 wsEndObj
 (
 mHTMLEditor
@@ -25007,7 +25007,7 @@ newEndOffset
 ;
 }
 }
-nsWSRunObject
+WSRunObject
 wsStartObj
 (
 mHTMLEditor
@@ -29723,7 +29723,7 @@ aNode
 nsresult
 res
 =
-nsWSRunObject
+WSRunObject
 :
 :
 PrepareToSplitAcrossBlocks
@@ -30761,7 +30761,7 @@ aSelNode
 ;
 res
 =
-nsWSRunObject
+WSRunObject
 :
 :
 PrepareToSplitAcrossBlocks
@@ -31403,7 +31403,7 @@ aNode
 ;
 res
 =
-nsWSRunObject
+WSRunObject
 :
 :
 PrepareToSplitAcrossBlocks
@@ -31790,7 +31790,7 @@ NS_OK
 }
 else
 {
-nsWSRunObject
+WSRunObject
 wsObj
 (
 mHTMLEditor
@@ -34593,7 +34593,7 @@ mHTMLEditor
 )
 ;
 return
-nsWSRunObject
+WSRunObject
 (
 mHTMLEditor
 selNode

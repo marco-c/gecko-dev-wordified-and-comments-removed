@@ -36,6 +36,13 @@ h
 #
 include
 "
+WSRunObject
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -553,13 +560,6 @@ h
 include
 "
 nsTreeSanitizer
-.
-h
-"
-#
-include
-"
-nsWSRunObject
 .
 h
 "
@@ -1771,7 +1771,7 @@ parentNode
 offsetOfNewNode
 )
 ;
-nsWSRunObject
+WSRunObject
 wsObj
 (
 this
@@ -2953,7 +2953,7 @@ selNode
 selOffset
 ;
 }
-nsWSRunObject
+WSRunObject
 wsRunObj
 (
 this
@@ -3039,7 +3039,7 @@ mStartReasonNode
 selOffset
 )
 ;
-nsWSRunObject
+WSRunObject
 wsRunObj
 (
 this
