@@ -1131,10 +1131,12 @@ aSample
 >
 mDuration
 b
-aSample
+!
+!
+mFrame
 -
 >
-mKeyframe
+key_frame
 -
 1
 gfx
