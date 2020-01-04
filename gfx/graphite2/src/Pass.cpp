@@ -5371,6 +5371,8 @@ unsigned
 r
 .
 sort
++
+curr_context
 -
 r
 .
@@ -5386,8 +5388,6 @@ slotMap
 size
 (
 )
--
-curr_context
 |
 |
 curr_context
