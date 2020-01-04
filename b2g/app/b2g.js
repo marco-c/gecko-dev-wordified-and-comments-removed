@@ -6856,16 +6856,6 @@ pref
 "
 apz
 .
-displayport_expiry_ms
-"
-0
-)
-;
-pref
-(
-"
-apz
-.
 axis_lock
 .
 mode
