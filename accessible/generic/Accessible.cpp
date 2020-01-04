@@ -8102,7 +8102,7 @@ view
 frame
 -
 >
-GetViewExternal
+GetView
 (
 )
 ;

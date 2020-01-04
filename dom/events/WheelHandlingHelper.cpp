@@ -1009,7 +1009,7 @@ r
 sTargetFrame
 -
 >
-GetScreenRectExternal
+GetScreenRect
 (
 )
 ;
