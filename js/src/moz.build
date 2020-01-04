@@ -2508,13 +2508,6 @@ cpp
 '
 vm
 /
-SharedImmutableStringsCache
-.
-cpp
-'
-'
-vm
-/
 SPSProfiler
 .
 cpp

@@ -464,11 +464,6 @@ testSetPropertyIgnoringNamedGetter
 cpp
 '
 '
-testSharedImmutableStringsCache
-.
-cpp
-'
-'
 testSourcePolicy
 .
 cpp
