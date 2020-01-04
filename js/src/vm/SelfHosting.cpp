@@ -13758,7 +13758,7 @@ fun
 >
 getExtendedSlot
 (
-0
+LAZY_FUNCTION_NAME_SLOT
 )
 .
 toString

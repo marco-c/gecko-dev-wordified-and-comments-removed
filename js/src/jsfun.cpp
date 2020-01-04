@@ -7264,7 +7264,7 @@ fun
 >
 getExtendedSlot
 (
-0
+LAZY_FUNCTION_NAME_SLOT
 )
 .
 toString
@@ -7497,7 +7497,7 @@ MOZ_ASSERT
 (
 getExtendedSlot
 (
-0
+LAZY_FUNCTION_NAME_SLOT
 )
 .
 toString
