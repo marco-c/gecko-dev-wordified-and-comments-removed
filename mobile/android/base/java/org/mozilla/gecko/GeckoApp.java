@@ -2148,11 +2148,7 @@ isFullScreen
 {
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 FullScreen
@@ -2160,7 +2156,6 @@ FullScreen
 Exit
 "
 null
-)
 )
 ;
 }
@@ -2457,11 +2452,7 @@ ex
 }
 GeckoAppShell
 .
-sendEventToGeckoSync
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 Browser
@@ -2472,7 +2463,6 @@ res
 .
 toString
 (
-)
 )
 )
 ;
@@ -4203,11 +4193,7 @@ i
 ;
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 Permissions
@@ -4218,7 +4204,6 @@ permissionsToClear
 .
 toString
 (
-)
 )
 )
 ;
@@ -7596,11 +7581,7 @@ false
 }
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 Session
@@ -7608,7 +7589,6 @@ Session
 Restore
 "
 restoreMessage
-)
 )
 ;
 }
@@ -8074,11 +8054,7 @@ geckoConnected
 ;
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 Viewport
@@ -8086,7 +8062,6 @@ Viewport
 Flush
 "
 null
-)
 )
 ;
 }
@@ -8915,7 +8890,7 @@ GeckoPreferences
 .
 PREFS_RESTORE_SESSION
 "
-always
+quit
 "
 )
 ;
@@ -11716,11 +11691,7 @@ isFullScreen
 {
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 FullScreen
@@ -11728,7 +11699,6 @@ FullScreen
 Exit
 "
 null
-)
 )
 ;
 return
@@ -12305,11 +12275,7 @@ result
 {
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 Update
@@ -12317,7 +12283,6 @@ Update
 CheckResult
 "
 result
-)
 )
 ;
 }

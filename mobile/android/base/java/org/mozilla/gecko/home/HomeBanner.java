@@ -455,11 +455,7 @@ dismiss
 ;
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 HomeBanner
@@ -471,7 +467,6 @@ String
 )
 getTag
 (
-)
 )
 )
 ;
@@ -507,11 +502,7 @@ dismiss
 ;
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 HomeBanner
@@ -523,7 +514,6 @@ String
 )
 getTag
 (
-)
 )
 )
 ;
@@ -646,11 +636,7 @@ update
 {
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 HomeBanner
@@ -658,7 +644,6 @@ HomeBanner
 Get
 "
 null
-)
 )
 ;
 }
@@ -834,11 +819,7 @@ VISIBLE
 ;
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 HomeBanner
@@ -846,7 +827,6 @@ HomeBanner
 Shown
 "
 id
-)
 )
 ;
 setEnabled
