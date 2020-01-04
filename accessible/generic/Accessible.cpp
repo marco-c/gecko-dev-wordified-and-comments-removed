@@ -17,7 +17,7 @@ h
 #
 include
 "
-AccCollector
+EmbeddedObjCollector
 .
 h
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_a11y_AccCollector_h__
+mozilla_a11y_EmbeddedObjCollector_h__
 #
 define
-mozilla_a11y_AccCollector_h__
+mozilla_a11y_EmbeddedObjCollector_h__
 #
 include
 "
