@@ -38,6 +38,7 @@ WGL
 CGL
 GLX
 EGL
+EAGL
 }
 ;
 enum
