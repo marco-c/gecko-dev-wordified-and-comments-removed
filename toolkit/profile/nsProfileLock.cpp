@@ -1032,11 +1032,6 @@ rv
 NS_ERROR_FAILURE
 ;
 }
-else
-mHaveLock
-=
-true
-;
 }
 else
 {
@@ -1542,10 +1537,6 @@ symlink_rv
 rv
 =
 NS_OK
-;
-mHaveLock
-=
-true
 ;
 mPidLockFileName
 =
@@ -2428,6 +2419,13 @@ NS_ERROR_FILE_ACCESS_DENIED
 }
 #
 endif
+if
+(
+NS_SUCCEEDED
+(
+rv
+)
+)
 mHaveLock
 =
 true
