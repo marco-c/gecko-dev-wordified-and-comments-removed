@@ -610,6 +610,11 @@ StyleSheetInfo
 .
 h
 '
+'
+StyleSheetInlines
+.
+h
+'
 ]
 EXPORTS
 .

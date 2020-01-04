@@ -5344,6 +5344,13 @@ ReferrerPolicy
 aReferrerPolicy
 )
 :
+StyleSheet
+(
+StyleBackendType
+:
+:
+Gecko
+)
 mTitle
 (
 )
@@ -5401,6 +5408,13 @@ SRIMetadata
 aIntegrity
 )
 :
+StyleSheet
+(
+StyleBackendType
+:
+:
+Gecko
+)
 mTitle
 (
 )
