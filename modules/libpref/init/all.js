@@ -600,7 +600,7 @@ workers
 .
 maxPerDomain
 "
-20
+50
 )
 ;
 pref
