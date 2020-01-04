@@ -52,6 +52,15 @@ h
 #
 include
 "
+mozilla
+/
+OperatorNewExtensions
+.
+h
+"
+#
+include
+"
 nsAlgorithm
 .
 h
@@ -1229,6 +1238,7 @@ PLDHashTable
 ;
 new
 (
+KnownNotNull
 this
 )
 PLDHashTable
