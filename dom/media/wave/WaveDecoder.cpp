@@ -185,13 +185,6 @@ return
 false
 ;
 }
-PDMFactory
-:
-:
-Init
-(
-)
-;
 RefPtr
 <
 PDMFactory

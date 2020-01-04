@@ -920,13 +920,6 @@ thread
 "
 )
 ;
-PDMFactory
-:
-:
-Init
-(
-)
-;
 InitLayersBackendType
 (
 )

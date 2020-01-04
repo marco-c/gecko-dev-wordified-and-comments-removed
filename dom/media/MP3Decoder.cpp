@@ -116,13 +116,6 @@ IsEnabled
 (
 )
 {
-PDMFactory
-:
-:
-Init
-(
-)
-;
 RefPtr
 <
 PDMFactory
