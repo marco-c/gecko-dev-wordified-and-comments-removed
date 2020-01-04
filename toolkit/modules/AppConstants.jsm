@@ -530,6 +530,17 @@ else
 false
 #
 endif
+MOZ_NATIVE_NSS
+:
+#
+ifdef
+MOZ_NATIVE_NSS
+true
+#
+else
+false
+#
+endif
 MOZ_PLACES
 :
 #
