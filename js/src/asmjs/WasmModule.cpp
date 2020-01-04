@@ -4616,13 +4616,6 @@ module_
 out
 -
 >
-isAsmJS_
-=
-isAsmJS_
-;
-out
--
->
 profilingEnabled_
 =
 profilingEnabled_
@@ -4766,8 +4759,6 @@ Module
 (
 UniqueModuleData
 module
-AsmJSBool
-isAsmJS
 )
 :
 module_
@@ -4775,13 +4766,6 @@ module_
 Move
 (
 module
-)
-)
-isAsmJS_
-(
-bool
-(
-isAsmJS
 )
 )
 staticallyLinked_
