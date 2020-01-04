@@ -1178,6 +1178,15 @@ LCtzI64
 ins
 )
 ;
+virtual
+void
+visitNotI64
+(
+LNotI64
+*
+ins
+)
+;
 void
 visitOutOfLineBailout
 (
