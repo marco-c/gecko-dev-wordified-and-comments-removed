@@ -98,6 +98,15 @@ extensions
 /
 ext
 -
+downloads
+.
+js
+content
+/
+extensions
+/
+ext
+-
 notifications
 .
 js
