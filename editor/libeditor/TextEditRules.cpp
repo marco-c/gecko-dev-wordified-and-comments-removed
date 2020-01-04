@@ -720,7 +720,7 @@ mLockRulesSniffing
 return
 NS_OK
 ;
-nsAutoLockRulesSniffing
+AutoLockRulesSniffing
 lockIt
 (
 this
@@ -814,7 +814,7 @@ mLockRulesSniffing
 return
 NS_OK
 ;
-nsAutoLockRulesSniffing
+AutoLockRulesSniffing
 lockIt
 (
 this
