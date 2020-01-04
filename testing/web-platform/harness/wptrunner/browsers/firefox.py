@@ -874,6 +874,16 @@ hostnames
 )
                                       
 "
+network
+.
+proxy
+.
+type
+"
+:
+0
+                                      
+"
 places
 .
 history
