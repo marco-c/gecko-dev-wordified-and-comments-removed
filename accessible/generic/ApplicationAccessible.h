@@ -176,13 +176,6 @@ FocusedChild
 override
 ;
 virtual
-void
-InvalidateChildren
-(
-)
-override
-;
-virtual
 KeyBinding
 AccessKey
 (

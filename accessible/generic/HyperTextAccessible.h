@@ -212,7 +212,7 @@ override
 ;
 virtual
 void
-InvalidateChildren
+Shutdown
 (
 )
 override

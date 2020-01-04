@@ -9265,7 +9265,7 @@ void
 HyperTextAccessible
 :
 :
-InvalidateChildren
+Shutdown
 (
 )
 {
@@ -9278,7 +9278,7 @@ Clear
 AccessibleWrap
 :
 :
-InvalidateChildren
+Shutdown
 (
 )
 ;

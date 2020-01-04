@@ -537,15 +537,6 @@ return
 0
 ;
 }
-void
-ApplicationAccessible
-:
-:
-InvalidateChildren
-(
-)
-{
-}
 KeyBinding
 ApplicationAccessible
 :

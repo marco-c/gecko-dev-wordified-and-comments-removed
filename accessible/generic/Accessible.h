@@ -883,12 +883,6 @@ EnsureChildren
 (
 )
 ;
-virtual
-void
-InvalidateChildren
-(
-)
-;
 bool
 AppendChild
 (

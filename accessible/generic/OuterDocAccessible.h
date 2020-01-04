@@ -82,13 +82,6 @@ aWhichChild
 override
 ;
 virtual
-void
-InvalidateChildren
-(
-)
-override
-;
-virtual
 bool
 InsertChildAt
 (
