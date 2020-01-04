@@ -92,7 +92,7 @@ include
 "
 .
 /
-buffer
+decode
 .
 h
 "
@@ -101,7 +101,7 @@ include
 "
 .
 /
-decode
+buffer
 .
 h
 "
@@ -6906,6 +6906,16 @@ file
 &
 table_idx
 )
+)
+|
+|
+table_idx
+>
+=
+tables
+.
+size
+(
 )
 )
 {

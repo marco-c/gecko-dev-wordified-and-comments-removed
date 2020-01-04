@@ -144,7 +144,7 @@ include
 "
 .
 /
-buffer
+decode
 .
 h
 "
@@ -153,7 +153,7 @@ include
 "
 .
 /
-decode
+buffer
 .
 h
 "
