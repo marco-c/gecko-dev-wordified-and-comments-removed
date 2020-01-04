@@ -238,12 +238,3 @@ details
 .
 "
 fi
-patch
--
-p3
-<
-.
-/
-bug1271866
-.
-patch
