@@ -424,6 +424,12 @@ SGN_DestroyContext_true
 )
 MOZ_TYPE_SPECIFIC_SCOPED_POINTER_TEMPLATE
 (
+ScopedSGNDigestInfo
+SGNDigestInfo
+SGN_DestroyDigestInfo
+)
+MOZ_TYPE_SPECIFIC_SCOPED_POINTER_TEMPLATE
+(
 ScopedVFYContext
 VFYContext
 mozilla
