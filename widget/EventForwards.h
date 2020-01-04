@@ -309,6 +309,9 @@ EventFlags
 class
 WidgetEventTime
 ;
+class
+NativeEventData
+;
 struct
 AlternativeCharCode
 ;
