@@ -59,7 +59,7 @@ namespace
 mozilla
 {
 class
-CompositorVsyncDispatcher
+VsyncObserver
 ;
 namespace
 layers
@@ -387,12 +387,12 @@ EndBackBufferDrawing
 )
 ;
 virtual
-already_AddRefed
-<
-CompositorVsyncDispatcher
->
-GetCompositorVsyncDispatcher
+void
+ObserveVsync
 (
+VsyncObserver
+*
+aObserver
 )
 =
 0
