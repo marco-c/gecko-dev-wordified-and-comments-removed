@@ -1378,6 +1378,7 @@ GetFrameStatistics
 )
 {
 return
+*
 mFrameStats
 ;
 }
@@ -1746,7 +1747,11 @@ MediaDecoderOwner
 const
 mOwner
 ;
+const
+RefPtr
+<
 FrameStatistics
+>
 mFrameStats
 ;
 const

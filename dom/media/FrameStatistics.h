@@ -12,6 +12,11 @@ FrameStatistics
 {
 public
 :
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+FrameStatistics
+)
+;
 FrameStatistics
 (
 )
@@ -209,6 +214,12 @@ mCorruptFrames
 }
 private
 :
+~
+FrameStatistics
+(
+)
+{
+}
 ReentrantMonitor
 mReentrantMonitor
 ;

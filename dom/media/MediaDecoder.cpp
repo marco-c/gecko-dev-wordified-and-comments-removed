@@ -2199,6 +2199,13 @@ mOwner
 (
 aOwner
 )
+mFrameStats
+(
+new
+FrameStatistics
+(
+)
+)
 mVideoFrameContainer
 (
 aOwner
