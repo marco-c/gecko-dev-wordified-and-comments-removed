@@ -480,6 +480,9 @@ aOld
 void
 InitializePlugins
 (
+AbstractThread
+*
+aAbstractGMPThread
 )
 override
 ;

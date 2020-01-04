@@ -339,6 +339,9 @@ virtual
 void
 InitializePlugins
 (
+AbstractThread
+*
+aAbstractGMPThread
 )
 =
 0
