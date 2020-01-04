@@ -5179,6 +5179,16 @@ hasAttribute
 soundplaying
 "
 )
+&
+&
+this
+.
+mBrowser
+.
+lastURI
+!
+=
+aLocation
 )
 {
 this
