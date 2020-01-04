@@ -863,6 +863,15 @@ port
 )
 ;
 bool
+isInsecureFallbackSite
+(
+const
+nsACString
+&
+hostname
+)
+;
+bool
 mFalseStartRequireNPN
 ;
 bool
