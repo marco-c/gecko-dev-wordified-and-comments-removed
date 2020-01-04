@@ -161,10 +161,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 shared

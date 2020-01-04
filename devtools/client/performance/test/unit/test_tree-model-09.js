@@ -425,9 +425,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 timeline
@@ -529,10 +526,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 promise
@@ -579,9 +572,6 @@ js
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /

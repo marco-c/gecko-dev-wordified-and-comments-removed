@@ -129,10 +129,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 shared
@@ -238,10 +234,6 @@ EventEmitter
 resource
 :
 /
-/
-gre
-/
-modules
 /
 devtools
 /

@@ -258,9 +258,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -288,9 +285,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -318,9 +312,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -347,9 +338,6 @@ VariablesViewController
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /

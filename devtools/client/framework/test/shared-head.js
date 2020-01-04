@@ -74,9 +74,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -123,9 +120,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -151,10 +145,6 @@ scopedCuImport
 resource
 :
 /
-/
-gre
-/
-modules
 /
 devtools
 /

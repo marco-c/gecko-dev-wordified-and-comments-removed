@@ -52,9 +52,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client

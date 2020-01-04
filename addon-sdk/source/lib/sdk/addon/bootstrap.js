@@ -1011,10 +1011,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 "

@@ -751,9 +751,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -11020,9 +11017,6 @@ isModuleLoaded
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /

@@ -58,9 +58,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -135,10 +132,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 shared
@@ -200,9 +193,6 @@ WORKER_URL
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /

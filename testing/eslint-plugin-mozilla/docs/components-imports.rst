@@ -104,9 +104,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 ViewHelpers

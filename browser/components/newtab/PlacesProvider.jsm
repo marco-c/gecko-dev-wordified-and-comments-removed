@@ -135,10 +135,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 event

@@ -71,9 +71,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 "
 }

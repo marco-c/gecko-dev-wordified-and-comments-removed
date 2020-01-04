@@ -76,10 +76,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 "

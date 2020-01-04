@@ -52,10 +52,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 Loader

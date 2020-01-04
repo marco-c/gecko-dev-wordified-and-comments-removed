@@ -232,10 +232,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 shared
@@ -422,9 +418,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -467,9 +460,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -509,9 +499,6 @@ import
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /
@@ -625,9 +612,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -654,9 +638,6 @@ VariablesViewController
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /
@@ -3217,10 +3198,6 @@ DevToolsWorker
 resource
 :
 /
-/
-gre
-/
-modules
 /
 devtools
 /

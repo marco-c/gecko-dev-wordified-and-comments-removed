@@ -34,9 +34,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client

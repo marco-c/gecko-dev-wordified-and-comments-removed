@@ -2247,10 +2247,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 server

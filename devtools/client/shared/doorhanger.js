@@ -50,9 +50,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client

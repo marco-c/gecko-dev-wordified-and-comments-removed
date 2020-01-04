@@ -53,10 +53,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 shared
@@ -139,9 +135,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -202,9 +195,6 @@ react
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /

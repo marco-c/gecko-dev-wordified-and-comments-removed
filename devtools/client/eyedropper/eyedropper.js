@@ -62,10 +62,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 shared
@@ -795,9 +791,6 @@ loadFrameScript
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /

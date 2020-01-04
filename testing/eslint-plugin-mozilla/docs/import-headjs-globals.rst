@@ -175,9 +175,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 ViewHelpers

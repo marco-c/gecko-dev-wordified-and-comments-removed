@@ -91,10 +91,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 shared
@@ -117,9 +113,6 @@ VariablesView
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /

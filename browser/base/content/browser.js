@@ -1467,9 +1467,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -1531,9 +1528,6 @@ import
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /
@@ -40028,9 +40022,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -40055,9 +40046,6 @@ gDevToolsBrowser
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /
@@ -40098,10 +40086,6 @@ import
 resource
 :
 /
-/
-gre
-/
-modules
 /
 devtools
 /
@@ -40471,9 +40455,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -40549,9 +40530,6 @@ import
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /
@@ -40633,10 +40611,6 @@ import
 resource
 :
 /
-/
-gre
-/
-modules
 /
 devtools
 /

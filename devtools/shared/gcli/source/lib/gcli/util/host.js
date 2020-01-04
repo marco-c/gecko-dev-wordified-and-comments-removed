@@ -506,10 +506,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 '

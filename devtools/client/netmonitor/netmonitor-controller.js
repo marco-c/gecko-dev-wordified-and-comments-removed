@@ -422,9 +422,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -447,9 +444,6 @@ import
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /
@@ -474,9 +468,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -499,9 +490,6 @@ import
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /
@@ -530,10 +518,6 @@ import
 resource
 :
 /
-/
-gre
-/
-modules
 /
 devtools
 /
@@ -687,9 +671,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -717,9 +698,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -744,9 +722,6 @@ CurlUtils
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /

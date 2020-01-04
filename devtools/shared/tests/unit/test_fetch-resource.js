@@ -11,10 +11,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 shared
@@ -31,10 +27,6 @@ URL_NOT_FOUND
 resource
 :
 /
-/
-gre
-/
-modules
 /
 devtools
 /

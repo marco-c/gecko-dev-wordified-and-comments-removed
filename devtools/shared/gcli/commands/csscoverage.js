@@ -35,9 +35,6 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
 /
 client
@@ -124,9 +121,6 @@ Chart
 resource
 :
 /
-/
-/
-modules
 /
 devtools
 /
