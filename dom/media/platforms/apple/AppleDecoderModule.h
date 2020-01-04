@@ -150,10 +150,6 @@ static
 bool
 sIsVDAAvailable
 ;
-static
-bool
-sForceVDA
-;
 }
 ;
 }

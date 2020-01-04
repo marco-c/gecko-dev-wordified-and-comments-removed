@@ -36,15 +36,6 @@ OscillatorNodeBinding
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Preferences
-.
-h
-"
 namespace
 mozilla
 {

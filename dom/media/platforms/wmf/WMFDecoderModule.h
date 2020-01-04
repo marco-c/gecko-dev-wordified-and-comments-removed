@@ -136,12 +136,6 @@ GetNumDecoderThreads
 ;
 static
 bool
-LowLatencyMFTEnabled
-(
-)
-;
-static
-bool
 HasAAC
 (
 )

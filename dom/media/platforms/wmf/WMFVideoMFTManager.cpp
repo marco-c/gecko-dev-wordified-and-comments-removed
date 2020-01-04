@@ -20,6 +20,13 @@ h
 #
 include
 "
+MediaPrefs
+.
+h
+"
+#
+include
+"
 WMFUtils
 .
 h
@@ -1197,10 +1204,10 @@ GetNumDecoderThreads
 ;
 if
 (
-WMFDecoderModule
+MediaPrefs
 :
 :
-LowLatencyMFTEnabled
+PDMWMFLowLatencyEnabled
 (
 )
 )
