@@ -1950,6 +1950,17 @@ JSObject
 *
 )
 ;
+bool
+ThreadSafeIsChromeOrXBL
+(
+JSContext
+*
+cx
+JSObject
+*
+obj
+)
+;
 }
 }
 #
