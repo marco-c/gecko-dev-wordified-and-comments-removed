@@ -2074,6 +2074,16 @@ BoxCallback
 {
 public
 :
+BoxCallback
+(
+)
+:
+mIncludeCaptionBoxForTable
+(
+true
+)
+{
+}
 virtual
 void
 AddBox
@@ -2084,6 +2094,9 @@ aFrame
 )
 =
 0
+;
+bool
+mIncludeCaptionBoxForTable
 ;
 }
 ;
