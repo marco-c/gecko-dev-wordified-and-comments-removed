@@ -946,6 +946,13 @@ mp4
 "
 video
 /
+x
+-
+m4v
+"
+"
+video
+/
 3gpp
 "
 "
@@ -1348,6 +1355,13 @@ mp4
 video
 /
 mp4
+"
+"
+video
+/
+x
+-
+m4v
 "
 nullptr
 }
