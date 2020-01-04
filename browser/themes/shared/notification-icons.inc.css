@@ -239,6 +239,14 @@ anchor
 -
 icon
 :
+not
+(
+.
+in
+-
+use
+)
+:
 hover
 {
 fill
@@ -2287,6 +2295,8 @@ fill
 :
 #
 d92215
+!
+important
 ;
 }
 #
