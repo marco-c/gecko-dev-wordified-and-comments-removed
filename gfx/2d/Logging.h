@@ -296,6 +296,7 @@ GetFontFileDataFailed
 MessageChannelCloseFailure
 TextureAliveAfterShutdown
 InvalidContext
+InvalidCommandList
 MustBeLessThanThis
 =
 101
