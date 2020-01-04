@@ -4014,6 +4014,12 @@ PR_END_OF_FILE_ERROR
 return
 17
 ;
+case
+SSL_ERROR_INTERNAL_ERROR_ALERT
+:
+return
+18
+;
 default
 :
 return
@@ -10795,6 +10801,15 @@ fd
 ;
 if
 (
+range
+.
+max
+<
+SSL_LIBRARY_VERSION_TLS_1_2
+)
+{
+if
+(
 SECSuccess
 !
 =
@@ -10809,6 +10824,7 @@ true
 return
 NS_ERROR_FAILURE
 ;
+}
 }
 if
 (
