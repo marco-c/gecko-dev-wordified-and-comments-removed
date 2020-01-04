@@ -3082,6 +3082,9 @@ LRandom
 ins
 )
 ;
+#
+ifdef
+DEBUG
 void
 emitDebugForceBailing
 (
@@ -3090,6 +3093,8 @@ LInstruction
 lir
 )
 ;
+#
+endif
 IonScriptCounts
 *
 extractScriptCounts
