@@ -2238,6 +2238,16 @@ aDoc
 ;
 static
 bool
+IsScriptType
+(
+const
+nsACString
+&
+aContentType
+)
+;
+static
+bool
 IsPlainTextType
 (
 const
