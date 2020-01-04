@@ -44,6 +44,15 @@ JSAtom
 name
 )
 ;
+JSAtom
+*
+GetSelfHostedFunctionName
+(
+JSFunction
+*
+fun
+)
+;
 bool
 IsCallSelfHostedNonGenericMethod
 (
