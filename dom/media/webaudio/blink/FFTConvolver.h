@@ -96,6 +96,12 @@ FFTSize
 ;
 }
 size_t
+latencyFrames
+(
+)
+const
+;
+size_t
 sizeOfExcludingThis
 (
 mozilla

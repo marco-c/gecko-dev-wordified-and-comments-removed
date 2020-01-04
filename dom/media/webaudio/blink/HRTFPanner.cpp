@@ -1473,7 +1473,17 @@ MaxDelayTicks
 (
 )
 +
+m_convolverL1
+.
 fftSize
+(
+)
+/
+2
++
+m_convolverL1
+.
+latencyFrames
 (
 )
 ;
