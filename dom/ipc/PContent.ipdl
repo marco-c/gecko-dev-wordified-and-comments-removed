@@ -3625,6 +3625,12 @@ Principal
 principal
 )
 ;
+OpenNotificationSettings
+(
+Principal
+principal
+)
+;
 PPSMContentDownloader
 (
 uint32_t
