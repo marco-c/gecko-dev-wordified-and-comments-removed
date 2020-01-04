@@ -6371,6 +6371,12 @@ case
 ScopeIter
 :
 :
+Module
+:
+case
+ScopeIter
+:
+:
 Call
 :
 case

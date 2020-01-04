@@ -829,6 +829,10 @@ const
 Binding
 *
 bindingArray
+bool
+isModule
+=
+false
 )
 ;
 bool
