@@ -488,6 +488,10 @@ mOCSPStaplingEnabled
 (
 false
 )
+mOCSPMustStapleEnabled
+(
+false
+)
 {
 mIOLayerHelpers
 .
