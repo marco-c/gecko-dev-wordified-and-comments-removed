@@ -4252,7 +4252,7 @@ init
 addEventListener
 (
 "
-DOMContentLoaded
+DOMWindowCreated
 "
 this
 )
@@ -4265,7 +4265,7 @@ uninit
 removeEventListener
 (
 "
-DOMContentLoaded
+DOMWindowCreated
 "
 this
 )
