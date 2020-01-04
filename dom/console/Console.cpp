@@ -179,7 +179,7 @@ h
 #
 include
 "
-xpcprivate
+xpcpublic
 .
 h
 "
@@ -4543,11 +4543,11 @@ JSPROP_ENUMERATE
 return
 ;
 }
-nsXPConnect
+nsIXPConnect
 *
 xpc
 =
-nsXPConnect
+nsContentUtils
 :
 :
 XPConnect
