@@ -510,12 +510,14 @@ mAsyncExecutionThread
 bool
 mAsyncExecutionThreadShuttingDown
 ;
-DebugOnly
-<
+#
+ifdef
+DEBUG
 bool
->
 mAsyncExecutionThreadIsAlive
 ;
+#
+endif
 bool
 mConnectionClosed
 ;
