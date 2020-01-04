@@ -3168,11 +3168,6 @@ signedState
 addon
 .
 signedState
-isSystem
-:
-addon
-.
-isSystem
 }
 ;
 if
