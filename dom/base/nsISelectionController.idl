@@ -2132,7 +2132,7 @@ nsISelectionController
 :
 :
 SELECTION_NONE
-SELECTION_NORMAL
+eNormal
 =
 nsISelectionController
 :

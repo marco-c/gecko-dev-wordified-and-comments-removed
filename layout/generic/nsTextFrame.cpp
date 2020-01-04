@@ -28377,7 +28377,7 @@ case
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 :
 return
 aTextPaintStyle
@@ -28648,7 +28648,7 @@ case
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 :
 return
 aTextPaintStyle
@@ -35241,7 +35241,7 @@ mSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 {
 found

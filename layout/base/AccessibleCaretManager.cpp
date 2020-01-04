@@ -3113,7 +3113,7 @@ GetSelection
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 }

@@ -2792,7 +2792,7 @@ GetCurrentSelection
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 NS_ENSURE_TRUE

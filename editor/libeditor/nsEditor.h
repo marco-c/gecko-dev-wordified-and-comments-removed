@@ -1930,7 +1930,7 @@ mozilla
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 nsresult

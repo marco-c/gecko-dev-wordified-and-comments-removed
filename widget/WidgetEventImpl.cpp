@@ -511,7 +511,7 @@ return
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 ;
 }
 }

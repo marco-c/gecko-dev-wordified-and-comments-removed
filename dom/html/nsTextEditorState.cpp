@@ -1692,7 +1692,7 @@ GetSelection
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 if
@@ -1880,7 +1880,7 @@ GetSelection
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 if

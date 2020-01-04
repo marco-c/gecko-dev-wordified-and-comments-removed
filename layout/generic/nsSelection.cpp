@@ -612,7 +612,7 @@ case
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 :
 return
 "
@@ -787,7 +787,7 @@ case
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 :
 case
 SelectionType
@@ -1475,7 +1475,7 @@ case
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 :
 return
 0
@@ -1588,7 +1588,7 @@ kSelectionTypes
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 SelectionType
 :
 :
@@ -1659,7 +1659,7 @@ return
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 ;
 }
 return
@@ -2329,7 +2329,7 @@ GetIndexFromSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 if
@@ -2664,7 +2664,7 @@ GetIndexFromSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 caret
@@ -2846,7 +2846,7 @@ GetIndexFromSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 if
@@ -3691,7 +3691,7 @@ GetIndexFromSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 if
@@ -3728,7 +3728,7 @@ GetIndexFromSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 if
@@ -3882,7 +3882,7 @@ GetIndexFromSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 RefPtr
@@ -6020,7 +6020,7 @@ GetIndexFromSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 if
@@ -6258,7 +6258,7 @@ GetIndexFromSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 if
@@ -6553,7 +6553,7 @@ GetIndexFromSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 AutoPrepareFocusRange
@@ -6965,7 +6965,7 @@ GetIndexFromSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 if
@@ -7010,7 +7010,7 @@ GetIndexFromSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 if
@@ -7112,7 +7112,7 @@ GetIndexFromSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 if
@@ -7615,7 +7615,7 @@ NotifySelectionListeners
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 }
@@ -7755,7 +7755,7 @@ NotifySelectionListeners
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 }
@@ -8712,7 +8712,7 @@ GetSelection
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 if
@@ -8998,7 +8998,7 @@ GetIndexFromSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 RefPtr
@@ -9683,7 +9683,7 @@ GetIndexFromSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 AutoPrepareFocusRange
@@ -9782,7 +9782,7 @@ NotifySelectionListeners
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 }
@@ -9914,7 +9914,7 @@ GetIndexFromSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 if
@@ -10093,7 +10093,7 @@ GetIndexFromSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 if
@@ -11430,7 +11430,7 @@ GetIndexFromSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 if
@@ -11851,7 +11851,7 @@ GetIndexFromSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 if
@@ -12631,7 +12631,7 @@ GetIndexFromSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 if
@@ -12698,7 +12698,7 @@ GetIndexFromSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 if
@@ -13664,7 +13664,7 @@ GetIndexFromSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 if
@@ -13722,7 +13722,7 @@ GetIndexFromSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 if
@@ -13806,7 +13806,7 @@ GetIndexFromSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 if
@@ -14093,7 +14093,7 @@ GetIndexFromSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 ;
 mDomSelections
@@ -14174,7 +14174,7 @@ mSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 mUserInitiated
 (
@@ -14213,7 +14213,7 @@ mSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 mUserInitiated
 (
@@ -15729,7 +15729,7 @@ mSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 &
 &
 nsFrameSelection
@@ -20555,7 +20555,7 @@ mSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 {
 SetInterlinePosition
@@ -27140,7 +27140,7 @@ GetSelection
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 :
 nullptr

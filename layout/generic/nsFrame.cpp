@@ -8659,7 +8659,7 @@ mSelectionType
 SelectionType
 :
 :
-SELECTION_NORMAL
+eNormal
 )
 {
 normal
