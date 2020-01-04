@@ -1015,7 +1015,7 @@ AnimationCollection
 CommonAnimationManager
 :
 :
-GetAnimations
+GetAnimationCollection
 (
 dom
 :
@@ -1453,7 +1453,7 @@ AnimationCollection
 *
 collection
 =
-GetAnimations
+GetAnimationCollection
 (
 aElement
 aPseudoType

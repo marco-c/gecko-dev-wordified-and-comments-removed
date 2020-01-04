@@ -4734,7 +4734,7 @@ return
 manager
 -
 >
-GetAnimations
+GetAnimationCollection
 (
 targetElement
 targetPseudoType

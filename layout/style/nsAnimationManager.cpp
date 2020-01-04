@@ -1570,7 +1570,7 @@ AnimationCollection
 *
 collection
 =
-GetAnimations
+GetAnimationCollection
 (
 aElement
 aStyleContext
@@ -2156,7 +2156,7 @@ else
 {
 collection
 =
-GetAnimations
+GetAnimationCollection
 (
 aElement
 aStyleContext
@@ -2334,7 +2334,7 @@ AnimationCollection
 *
 collection
 =
-GetAnimations
+GetAnimationCollection
 (
 aElement
 aPseudoType

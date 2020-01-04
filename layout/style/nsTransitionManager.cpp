@@ -1336,7 +1336,7 @@ AnimationCollection
 *
 collection
 =
-GetAnimations
+GetAnimationCollection
 (
 aElement
 pseudoType
@@ -3118,7 +3118,7 @@ aElementTransitions
 {
 aElementTransitions
 =
-GetAnimations
+GetAnimationCollection
 (
 aElement
 aNewStyleContext
@@ -3342,7 +3342,7 @@ AnimationCollection
 *
 collection
 =
-GetAnimations
+GetAnimationCollection
 (
 aElement
 aPseudoType
@@ -3615,7 +3615,7 @@ AnimationManager
 )
 -
 >
-GetAnimations
+GetAnimationCollection
 (
 aTransitions
 -
@@ -3660,7 +3660,7 @@ TransitionManager
 )
 -
 >
-GetAnimations
+GetAnimationCollection
 (
 aAnimations
 -
@@ -3706,7 +3706,7 @@ TransitionManager
 )
 -
 >
-GetAnimations
+GetAnimationCollection
 (
 aAnimations
 -
