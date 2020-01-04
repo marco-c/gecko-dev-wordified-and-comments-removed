@@ -876,9 +876,6 @@ class
 TracksAvailableCallback
 :
 public
-DOMMediaStream
-:
-:
 OnTracksAvailableCallback
 {
 public
@@ -902,9 +899,6 @@ PeerConnectionObserver
 >
 aObserver
 )
-:
-DOMMediaStream
-:
 :
 OnTracksAvailableCallback
 (

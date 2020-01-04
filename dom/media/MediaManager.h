@@ -1502,9 +1502,6 @@ already_AddRefed
 DOMMediaStream
 >
 aStream
-DOMMediaStream
-:
-:
 OnTracksAvailableCallback
 *
 aOnTracksAvailableCallback
@@ -1580,9 +1577,6 @@ mStream
 ;
 nsAutoPtr
 <
-DOMMediaStream
-:
-:
 OnTracksAvailableCallback
 >
 mOnTracksAvailableCallback
@@ -1638,9 +1632,6 @@ already_AddRefed
 DOMMediaStream
 >
 aStream
-DOMMediaStream
-:
-:
 OnTracksAvailableCallback
 *
 aOnTracksAvailableCallback
@@ -1676,9 +1667,6 @@ mStream
 ;
 nsAutoPtr
 <
-DOMMediaStream
-:
-:
 OnTracksAvailableCallback
 >
 mOnTracksAvailableCallback

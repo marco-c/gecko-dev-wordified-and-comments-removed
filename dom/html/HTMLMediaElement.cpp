@@ -13841,9 +13841,6 @@ HTMLMediaElement
 MediaStreamTracksAvailableCallback
 :
 public
-DOMMediaStream
-:
-:
 OnTracksAvailableCallback
 {
 public
@@ -13855,9 +13852,6 @@ HTMLMediaElement
 *
 aElement
 )
-:
-DOMMediaStream
-:
 :
 OnTracksAvailableCallback
 (
