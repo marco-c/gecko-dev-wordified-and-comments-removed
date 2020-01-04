@@ -1524,7 +1524,7 @@ ingress_allowed
 r_log
 (
 LOG_GENERIC
-LOG_INFO
+LOG_DEBUG
 "
 TestNrSocket
 %
@@ -1673,7 +1673,7 @@ else
 r_log
 (
 LOG_GENERIC
-LOG_INFO
+LOG_DEBUG
 "
 TestNrSocket
 %
@@ -2139,7 +2139,7 @@ empty
 r_log
 (
 LOG_GENERIC
-LOG_INFO
+LOG_DEBUG
 "
 TestNrSocket
 %
@@ -2200,7 +2200,7 @@ size
 r_log
 (
 LOG_GENERIC
-LOG_INFO
+LOG_DEBUG
 "
 PortMapping
 %
@@ -3336,7 +3336,7 @@ test_sock_v
 r_log
 (
 LOG_GENERIC
-LOG_INFO
+LOG_DEBUG
 "
 TestNrSocket
 %
@@ -3683,7 +3683,7 @@ front
 r_log
 (
 LOG_GENERIC
-LOG_INFO
+LOG_DEBUG
 "
 PortMapping
 %
@@ -3791,7 +3791,7 @@ else
 r_log
 (
 LOG_GENERIC
-LOG_INFO
+LOG_DEBUG
 "
 Would
 block
@@ -3850,7 +3850,7 @@ IPPROTO_TCP
 r_log
 (
 LOG_GENERIC
-LOG_INFO
+LOG_DEBUG
 "
 PortMapping
 %
@@ -3919,7 +3919,7 @@ R_WOULDBLOCK
 r_log
 (
 LOG_GENERIC
-LOG_INFO
+LOG_DEBUG
 "
 Enqueueing
 UDP
