@@ -66,6 +66,12 @@ DashInfo
 info
 )
 ;
+const
+SkScalar
+kMaxDashCount
+=
+1000000
+;
 bool
 InternalFilter
 (
