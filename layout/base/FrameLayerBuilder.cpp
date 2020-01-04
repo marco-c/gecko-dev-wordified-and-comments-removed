@@ -16263,9 +16263,8 @@ item
 )
 -
 >
-MayBeAnimated
+ShouldPrerender
 (
-mBuilder
 )
 ;
 ParentLayerIntRect
