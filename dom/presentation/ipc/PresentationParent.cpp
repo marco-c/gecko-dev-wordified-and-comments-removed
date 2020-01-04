@@ -796,7 +796,7 @@ mActorDestroyed
 !
 SendNotifySessionStateChange
 (
-nsAutoString
+nsString
 (
 aSessionId
 )
@@ -839,11 +839,11 @@ mActorDestroyed
 !
 SendNotifyMessage
 (
-nsAutoString
+nsString
 (
 aSessionId
 )
-nsAutoCString
+nsCString
 (
 aData
 )
@@ -884,7 +884,7 @@ mActorDestroyed
 SendNotifySessionConnect
 (
 aWindowId
-nsAutoString
+nsString
 (
 aSessionId
 )
@@ -1042,6 +1042,7 @@ aRequest
 deviceId
 (
 )
+0
 this
 )
 ;

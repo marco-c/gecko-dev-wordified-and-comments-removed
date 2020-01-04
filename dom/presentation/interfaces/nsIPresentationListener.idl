@@ -227,7 +227,9 @@ void
 notifySessionConnect
 (
 in
-uint64_t
+unsigned
+long
+long
 windowId
 in
 DOMString

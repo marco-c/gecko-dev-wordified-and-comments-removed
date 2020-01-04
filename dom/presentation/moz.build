@@ -389,6 +389,17 @@ PPresentationRequest
 ipdl
 '
 ]
+LOCAL_INCLUDES
++
+=
+[
+'
+.
+.
+/
+base
+'
+]
 include
 (
 '
