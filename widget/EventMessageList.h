@@ -1000,7 +1000,7 @@ eMediaEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_DURATIONCHANGE
+eDurationChange
 eMediaEventFirst
 +
 18
