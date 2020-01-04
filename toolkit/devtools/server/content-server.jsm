@@ -160,6 +160,12 @@ init
 (
 )
 ;
+DebuggerServer
+.
+isInChildProcess
+=
+true
+;
 }
 DebuggerServer
 .
@@ -202,6 +208,12 @@ connectToParent
 prefix
 mm
 )
+;
+conn
+.
+parentMessageManager
+=
+mm
 ;
 let
 {
