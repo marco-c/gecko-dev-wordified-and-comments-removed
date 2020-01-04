@@ -20647,10 +20647,9 @@ AssertIsOnWorkerThread
 ;
 MOZ_ASSERT
 (
-!
 mSyncLoopStack
 .
-Length
+IsEmpty
 (
 )
 )
@@ -22269,10 +22268,9 @@ nestedEventTarget
 ;
 if
 (
-!
 mSyncLoopStack
 .
-Length
+IsEmpty
 (
 )
 &
@@ -23421,9 +23419,10 @@ Running
 {
 if
 (
+!
 mSyncLoopStack
 .
-Length
+IsEmpty
 (
 )
 )
