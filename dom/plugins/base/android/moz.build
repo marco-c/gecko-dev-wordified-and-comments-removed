@@ -143,11 +143,6 @@ ANPNativeWindow
 cpp
 '
 '
-ANPOpenGL
-.
-cpp
-'
-'
 ANPSurface
 .
 cpp
