@@ -1128,6 +1128,14 @@ clickElement
 )
 ;
 let
+goBackFn
+=
+dispatch
+(
+goBack
+)
+;
+let
 getElementAttributeFn
 =
 dispatch
@@ -1327,7 +1335,7 @@ Marionette
 :
 goBack
 "
-goBack
+goBackFn
 )
 ;
 addMessageListenerId
@@ -1968,7 +1976,7 @@ Marionette
 :
 goBack
 "
-goBack
+goBackFn
 )
 ;
 removeMessageListenerId
@@ -7512,7 +7520,6 @@ source
 function
 goBack
 (
-msg
 )
 {
 curFrame
@@ -7521,15 +7528,6 @@ history
 .
 back
 (
-)
-;
-sendOk
-(
-msg
-.
-json
-.
-command_id
 )
 ;
 }
