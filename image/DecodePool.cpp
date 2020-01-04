@@ -1034,8 +1034,15 @@ NS_IsMainThread
 ;
 sNumCores
 =
+max
+<
+int32_t
+>
+(
 PR_GetNumberOfProcessors
 (
+)
+1
 )
 ;
 DecodePool
