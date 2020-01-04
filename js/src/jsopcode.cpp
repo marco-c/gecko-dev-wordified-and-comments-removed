@@ -6634,10 +6634,7 @@ decompilePCForStackOperand
 (
 pc
 -
-int32_t
-(
 3
-)
 )
 &
 &
