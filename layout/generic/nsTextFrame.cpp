@@ -28408,7 +28408,7 @@ iOffset
 mTextRun
 -
 >
-IsRightToLeft
+IsInlineReversed
 (
 )
 ?
@@ -28632,7 +28632,7 @@ if
 mTextRun
 -
 >
-IsRightToLeft
+IsInlineReversed
 (
 )
 )
@@ -30797,12 +30797,12 @@ ThebesContext
 ;
 const
 bool
-rtl
+reversed
 =
 mTextRun
 -
 >
-IsRightToLeft
+IsInlineReversed
 (
 )
 ;
@@ -30907,7 +30907,7 @@ textBaselinePt
 .
 y
 =
-rtl
+reversed
 ?
 aPt
 .
@@ -30930,7 +30930,7 @@ textBaselinePt
 =
 gfxPoint
 (
-rtl
+reversed
 ?
 gfxFloat
 (
@@ -31020,7 +31020,7 @@ textBaselinePt
 y
 +
 =
-rtl
+reversed
 ?
 -
 snappedEndEdge
@@ -31035,7 +31035,7 @@ textBaselinePt
 x
 +
 =
-rtl
+reversed
 ?
 -
 snappedEndEdge
@@ -32744,7 +32744,7 @@ IsVertical
 mTextRun
 -
 >
-IsRightToLeft
+IsInlineReversed
 (
 )
 ?
@@ -32765,7 +32765,7 @@ y
 mTextRun
 -
 >
-IsRightToLeft
+IsInlineReversed
 (
 )
 ?
@@ -34057,7 +34057,7 @@ if
 mTextRun
 -
 >
-IsRightToLeft
+IsInlineReversed
 (
 )
 )
@@ -34092,7 +34092,7 @@ if
 mTextRun
 -
 >
-IsRightToLeft
+IsInlineReversed
 (
 )
 )
