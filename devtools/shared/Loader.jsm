@@ -235,6 +235,8 @@ resource
 /
 devtools
 /
+shared
+/
 acorn
 "
 "
@@ -251,6 +253,8 @@ resource
 /
 /
 devtools
+/
+shared
 /
 acorn
 /
