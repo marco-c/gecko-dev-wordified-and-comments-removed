@@ -594,9 +594,14 @@ ContentDecryptionModule
 :
 kVersion
 kEMEKeySystemWidevine
-strlen
+.
+get
 (
+)
 kEMEKeySystemWidevine
+.
+Length
+(
 )
 &
 GetCdmHost
