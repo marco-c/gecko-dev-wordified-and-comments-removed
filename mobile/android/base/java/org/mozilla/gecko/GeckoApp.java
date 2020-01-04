@@ -3784,6 +3784,16 @@ getElapsed
 )
 ;
 }
+GeckoApplication
+.
+get
+(
+)
+.
+onDelayedStartup
+(
+)
+;
 }
 else
 if
