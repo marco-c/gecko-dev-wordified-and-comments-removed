@@ -375,6 +375,7 @@ bool
 IsWaitForDataSupported
 (
 )
+const
 {
 return
 false
@@ -500,6 +501,7 @@ bool
 UseBufferingHeuristics
 (
 )
+const
 {
 return
 true

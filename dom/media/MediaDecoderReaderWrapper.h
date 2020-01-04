@@ -240,6 +240,7 @@ bool
 IsWaitForDataSupported
 (
 )
+const
 {
 return
 mReader
@@ -269,6 +270,7 @@ bool
 UseBufferingHeuristics
 (
 )
+const
 {
 return
 mReader
