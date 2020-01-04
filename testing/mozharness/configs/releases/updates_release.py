@@ -477,4 +477,10 @@ localtest
 }
     
 }
+    
+"
+balrog_use_dummy_suffix
+"
+:
+False
 }
