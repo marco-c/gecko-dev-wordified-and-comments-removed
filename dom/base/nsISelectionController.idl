@@ -2126,7 +2126,7 @@ eInvalid
 =
 -
 1
-SELECTION_NONE
+eNone
 =
 nsISelectionController
 :

@@ -598,7 +598,7 @@ case
 SelectionType
 :
 :
-SELECTION_NONE
+eNone
 :
 return
 "
@@ -781,7 +781,7 @@ case
 SelectionType
 :
 :
-SELECTION_NONE
+eNone
 :
 case
 SelectionType

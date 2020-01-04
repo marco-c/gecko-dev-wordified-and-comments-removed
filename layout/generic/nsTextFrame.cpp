@@ -28915,7 +28915,7 @@ mSelectionType
 SelectionType
 :
 :
-SELECTION_NONE
+eNone
 ;
 TextRangeStyle
 style
@@ -31933,7 +31933,7 @@ selectionType
 SelectionType
 :
 :
-SELECTION_NONE
+eNone
 ;
 while
 (
@@ -31994,7 +31994,7 @@ selectionType
 SelectionType
 :
 :
-SELECTION_NONE
+eNone
 |
 |
 sdptr
