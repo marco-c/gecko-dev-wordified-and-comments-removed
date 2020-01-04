@@ -35,10 +35,6 @@ Color
 import
 com
 .
-jayway
-.
-android
-.
 robotium
 .
 solo
