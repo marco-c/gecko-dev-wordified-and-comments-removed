@@ -204,9 +204,13 @@ navigation
 tabs
 -
 menu
+-
+item
 {
-display
+flex
+-
+grow
 :
-block
+0
 ;
 }
