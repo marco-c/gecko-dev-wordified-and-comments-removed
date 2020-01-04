@@ -9159,7 +9159,7 @@ mWindowRaised
 ;
 event
 .
-isRefocus
+mIsRefocus
 =
 mIsRefocus
 ;
