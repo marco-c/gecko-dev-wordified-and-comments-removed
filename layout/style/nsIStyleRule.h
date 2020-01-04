@@ -64,6 +64,14 @@ aRuleData
 =
 0
 ;
+virtual
+bool
+MightMapInheritedStyleData
+(
+)
+=
+0
+;
 #
 ifdef
 DEBUG
