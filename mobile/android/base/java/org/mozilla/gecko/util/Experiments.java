@@ -25,4 +25,16 @@ history
 menu
 "
 ;
+public
+static
+final
+String
+SEARCH_TERM
+=
+"
+search
+-
+term
+"
+;
 }
