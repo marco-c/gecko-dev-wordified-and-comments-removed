@@ -132,6 +132,13 @@ editor
 js
 '
 '
+measuring
+-
+tool
+.
+js
+'
+'
 rect
 .
 js

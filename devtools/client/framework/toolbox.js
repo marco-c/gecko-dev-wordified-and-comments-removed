@@ -839,6 +839,17 @@ button
 rulers
 "
 }
+{
+id
+:
+"
+command
+-
+button
+-
+measure
+"
+}
 ]
 ;
 function
