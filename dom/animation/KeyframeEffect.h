@@ -992,12 +992,6 @@ aIsRunning
 )
 ;
 bool
-CanThrottle
-(
-)
-const
-;
-bool
 ShouldBlockCompositorAnimations
 (
 const
@@ -1127,6 +1121,12 @@ private
 nsIFrame
 *
 GetAnimationFrame
+(
+)
+const
+;
+bool
+CanThrottle
 (
 )
 const
