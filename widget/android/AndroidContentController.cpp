@@ -366,9 +366,6 @@ y
 nsAppShell
 :
 :
-gAppShell
--
->
 PostEvent
 (
 AndroidGeckoEvent
