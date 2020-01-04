@@ -1069,6 +1069,10 @@ innerWidth
 aContentWindow
 .
 scrollMaxX
+-
+aContentWindow
+.
+scrollMinX
 height
 :
 aContentWindow
@@ -1078,6 +1082,10 @@ innerHeight
 aContentWindow
 .
 scrollMaxY
+-
+aContentWindow
+.
+scrollMinY
 }
 ;
 }

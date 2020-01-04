@@ -1621,6 +1621,11 @@ if
 window
 .
 scrollMaxX
+!
+=
+window
+.
+scrollMinX
 )
 {
 document

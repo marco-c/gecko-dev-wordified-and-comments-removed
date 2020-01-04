@@ -1370,6 +1370,10 @@ innerWidth
 window
 .
 scrollMaxX
+-
+window
+.
+scrollMinX
 ;
 height
 =
@@ -1380,6 +1384,10 @@ innerHeight
 window
 .
 scrollMaxY
+-
+window
+.
+scrollMinY
 ;
 }
 else
