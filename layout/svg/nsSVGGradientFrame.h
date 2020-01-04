@@ -86,15 +86,11 @@ SVGRadialGradientElement
 ;
 }
 }
-typedef
-nsSVGPaintServerFrame
-nsSVGGradientFrameBase
-;
 class
 nsSVGGradientFrame
 :
 public
-nsSVGGradientFrameBase
+nsSVGPaintServerFrame
 {
 typedef
 mozilla
