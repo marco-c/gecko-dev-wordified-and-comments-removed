@@ -2303,9 +2303,9 @@ ir
 /
 Bug
 1228542
-loadAndRegisterAuthorSheet
-(
-win
+var
+url
+=
 getStyle
 (
 '
@@ -2317,6 +2317,11 @@ rgb
 )
 '
 )
+;
+loadAndRegisterAuthorSheet
+(
+win
+url
 )
 ;
 /
@@ -2361,6 +2366,12 @@ close
 )
 )
 (
+)
+;
+unregisterAuthorSheet
+(
+win
+url
 )
 ;
 SimpleTest
