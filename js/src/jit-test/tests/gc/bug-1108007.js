@@ -49,6 +49,16 @@ Object
 create
 (
 {
+global
+:
+newGlobal
+(
+{
+cloneSingletons
+:
+true
+}
+)
 }
 {
 saveBytecode

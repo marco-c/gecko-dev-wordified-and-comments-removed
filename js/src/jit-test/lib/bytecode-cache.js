@@ -72,6 +72,11 @@ global
 =
 newGlobal
 (
+{
+cloneSingletons
+:
+true
+}
 )
 ;
 if
