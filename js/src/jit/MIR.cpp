@@ -6209,7 +6209,7 @@ printf
 %
 s
 "
-js_CodeName
+CodeName
 [
 jsop
 (

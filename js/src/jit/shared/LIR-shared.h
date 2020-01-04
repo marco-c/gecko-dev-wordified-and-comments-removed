@@ -8337,7 +8337,7 @@ extraName
 const
 {
 return
-js_CodeName
+CodeName
 [
 jsop_
 ]
@@ -8528,7 +8528,7 @@ extraName
 const
 {
 return
-js_CodeName
+CodeName
 [
 jsop_
 ]
@@ -10617,7 +10617,7 @@ BailoutsDisabled
 "
 ;
 return
-js_CodeName
+CodeName
 [
 op_
 ]
@@ -10689,7 +10689,7 @@ extraName
 const
 {
 return
-js_CodeName
+CodeName
 [
 jsop_
 ]
@@ -10775,7 +10775,7 @@ extraName
 const
 {
 return
-js_CodeName
+CodeName
 [
 op_
 ]
@@ -12423,7 +12423,7 @@ extraName
 const
 {
 return
-js_CodeName
+CodeName
 [
 jsop_
 ]
@@ -12481,7 +12481,7 @@ extraName
 const
 {
 return
-js_CodeName
+CodeName
 [
 jsop_
 ]
@@ -12619,7 +12619,7 @@ extraName
 const
 {
 return
-js_CodeName
+CodeName
 [
 jsop_
 ]

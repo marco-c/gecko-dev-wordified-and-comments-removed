@@ -5095,7 +5095,7 @@ if
 (
 !
 (
-js_CodeSpec
+CodeSpec
 [
 node
 -

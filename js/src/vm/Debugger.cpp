@@ -25943,7 +25943,7 @@ frontOffset
 ;
 if
 (
-js_CodeSpec
+CodeSpec
 [
 op
 ]

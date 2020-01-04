@@ -295,7 +295,10 @@ INDEX_LIMIT_LOG2
 ;
 const
 JSCodeSpec
-js_CodeSpec
+js
+:
+:
+CodeSpec
 [
 ]
 =
@@ -330,11 +333,14 @@ MAKE_CODESPEC
 ;
 const
 unsigned
-js_NumCodeSpecs
+js
+:
+:
+NumCodeSpecs
 =
 JS_ARRAY_LENGTH
 (
-js_CodeSpec
+CodeSpec
 )
 ;
 static
@@ -373,7 +379,10 @@ const
 char
 *
 const
-js_CodeName
+js
+:
+:
+CodeName
 [
 ]
 =
@@ -425,7 +434,7 @@ pc
 ;
 MOZ_ASSERT
 (
-js_CodeSpec
+CodeSpec
 [
 op
 ]
@@ -536,7 +545,7 @@ JSCodeSpec
 &
 cs
 =
-js_CodeSpec
+CodeSpec
 [
 op
 ]
@@ -557,7 +566,7 @@ nuses
 ;
 MOZ_ASSERT
 (
-js_CodeSpec
+CodeSpec
 [
 op
 ]
@@ -671,7 +680,7 @@ JSCodeSpec
 &
 cs
 =
-js_CodeSpec
+CodeSpec
 [
 op
 ]
@@ -4510,7 +4519,7 @@ JSCodeSpec
 cs
 =
 &
-js_CodeSpec
+CodeSpec
 [
 op
 ]
@@ -4562,7 +4571,7 @@ sp
 %
 s
 "
-js_CodeName
+CodeName
 [
 op
 ]
@@ -5678,7 +5687,7 @@ op
 {
 switch
 (
-js_CodeSpec
+CodeSpec
 [
 op
 ]
@@ -9521,7 +9530,7 @@ char
 *
 name
 =
-js_CodeName
+CodeName
 [
 op
 ]

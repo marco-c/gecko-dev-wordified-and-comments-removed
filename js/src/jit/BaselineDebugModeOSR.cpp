@@ -1590,7 +1590,7 @@ ICEntryKindToString
 (
 frameKind
 )
-js_CodeName
+CodeName
 [
 (
 JSOp
@@ -1662,7 +1662,7 @@ script
 lineno
 (
 )
-js_CodeName
+CodeName
 [
 (
 JSOp

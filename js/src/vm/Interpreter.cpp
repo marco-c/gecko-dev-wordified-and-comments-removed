@@ -9335,7 +9335,7 @@ JSOP_TRY
 {
 MOZ_ASSERT
 (
-js_CodeSpec
+CodeSpec
 [
 *
 REGS
@@ -9934,7 +9934,7 @@ jit_return
 :
 MOZ_ASSERT
 (
-js_CodeSpec
+CodeSpec
 [
 *
 REGS
@@ -10241,7 +10241,7 @@ JS_BEGIN_MACRO
 \
 MOZ_ASSERT
 (
-js_CodeSpec
+CodeSpec
 [
 *
 REGS

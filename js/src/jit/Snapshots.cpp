@@ -1995,7 +1995,7 @@ s
 MIR
 :
 "
-js_CodeName
+CodeName
 [
 pcOpcode_
 ]

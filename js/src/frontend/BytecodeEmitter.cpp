@@ -1369,7 +1369,7 @@ op
 ;
 if
 (
-js_CodeSpec
+CodeSpec
 [
 op
 ]
@@ -2307,7 +2307,7 @@ op
 {
 if
 (
-js_CodeSpec
+CodeSpec
 [
 op
 ]
@@ -4555,7 +4555,7 @@ len
 =
 size_t
 (
-js_CodeSpec
+CodeSpec
 [
 op
 ]
@@ -4646,7 +4646,7 @@ const
 size_t
 len
 =
-js_CodeSpec
+CodeSpec
 [
 op
 ]
@@ -5219,7 +5219,7 @@ n
 1
 =
 =
-js_CodeSpec
+CodeSpec
 [
 op
 ]
@@ -12212,7 +12212,7 @@ JSCodeSpec
 cs
 =
 &
-js_CodeSpec
+CodeSpec
 [
 pn
 -

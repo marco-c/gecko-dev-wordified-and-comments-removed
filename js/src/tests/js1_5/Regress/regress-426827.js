@@ -13,7 +13,7 @@ assert
 :
 !
 (
-js_CodeSpec
+CodeSpec
 [
 op2
 ]

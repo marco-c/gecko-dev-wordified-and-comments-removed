@@ -130,7 +130,7 @@ pc
 ;
 if
 (
-js_CodeSpec
+CodeSpec
 [
 *
 pc
@@ -150,7 +150,7 @@ pc
 )
 ;
 return
-js_CodeSpec
+CodeSpec
 [
 *
 pc

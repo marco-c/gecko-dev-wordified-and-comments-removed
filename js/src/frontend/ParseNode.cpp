@@ -2400,7 +2400,7 @@ op
 &
 &
 (
-js_CodeSpec
+CodeSpec
 [
 op
 ]
