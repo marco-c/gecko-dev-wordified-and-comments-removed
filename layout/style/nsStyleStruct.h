@@ -5301,6 +5301,16 @@ nsStyleBackground
 Position
 Position
 ;
+uint16_t
+ComputedJustifyContent
+(
+const
+nsStyleDisplay
+*
+aDisplay
+)
+const
+;
 uint8_t
 ComputedJustifyItems
 (
@@ -5404,6 +5414,9 @@ aDisplay
 )
 const
 ;
+uint16_t
+mJustifyContent
+;
 uint8_t
 mJustifyItems
 ;
@@ -5417,9 +5430,6 @@ mFlexDirection
 ;
 uint8_t
 mFlexWrap
-;
-uint8_t
-mJustifyContent
 ;
 uint8_t
 mObjectFit
