@@ -19,7 +19,7 @@ h
 elif
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 |
 |
@@ -414,7 +414,7 @@ pthread_self
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 |
 |

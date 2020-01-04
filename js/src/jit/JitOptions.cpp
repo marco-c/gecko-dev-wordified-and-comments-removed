@@ -454,7 +454,7 @@ true
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 SET_DEFAULT
 (

@@ -115,7 +115,7 @@ h
 "
 #
 ifdef
-XP_MACOSX
+XP_DARWIN
 #
 include
 "
@@ -3762,7 +3762,7 @@ data
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 &
 &

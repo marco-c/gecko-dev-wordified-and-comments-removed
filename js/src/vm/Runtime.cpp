@@ -58,7 +58,7 @@ h
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 #
 include
@@ -4547,7 +4547,7 @@ systemTime
 if
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 mach_msg_type_number_t
 count

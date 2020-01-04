@@ -172,7 +172,7 @@ ANDROID
 |
 defined
 (
-XP_MACOSX
+XP_DARWIN
 )
 |
 |

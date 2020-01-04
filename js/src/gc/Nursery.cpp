@@ -565,7 +565,7 @@ numNurseryChunks_
 {
 #
 ifndef
-XP_MACOSX
+XP_DARWIN
 uintptr_t
 decommitStart
 =
