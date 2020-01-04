@@ -85,6 +85,11 @@ LaunchControlPanelDefaultsSelectionUI
 )
 ;
 nsresult
+LaunchControlPanelDefaultPrograms
+(
+)
+;
+nsresult
 LaunchModernSettingsDialogDefaultApps
 (
 )
