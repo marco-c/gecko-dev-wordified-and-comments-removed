@@ -798,13 +798,6 @@ notifyWorkers
 '
 :
 false
-'
-testing
-.
-notifyAllObservers
-'
-:
-true
 }
 prefs
 )
