@@ -1210,7 +1210,7 @@ pageaction
 "
 null
 "
-reader
+reading_list
 "
 )
 ;
