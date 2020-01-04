@@ -325,6 +325,7 @@ url
 label
 tooltip
 icon
+invertIconForLightTheme
 }
 =
 validate
@@ -367,6 +368,9 @@ tooltip
 icon
 :
 icon
+invertIconForLightTheme
+:
+invertIconForLightTheme
 isTargetSupported
 :
 target
