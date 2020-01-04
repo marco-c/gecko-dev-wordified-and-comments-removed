@@ -1019,6 +1019,15 @@ nsIChannel
 aChannel
 )
 ;
+static
+RequestCredentials
+MapChannelToRequestCredentials
+(
+nsIChannel
+*
+aChannel
+)
+;
 private
 :
 explicit
