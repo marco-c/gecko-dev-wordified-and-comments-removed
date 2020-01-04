@@ -1806,6 +1806,16 @@ marionette_harness_tests
 .
 py
 '
+-
+'
+testing
+/
+config
+/
+marionette_harness_test_requirements
+.
+txt
+'
 linux64
 -
 gcc

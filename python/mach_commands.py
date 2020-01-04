@@ -559,26 +559,6 @@ if
 tests
 :
                     
-self
-.
-virtualenv_manager
-.
-install_pip_package
-(
-                       
-'
-pytest
-=
-=
-2
-.
-9
-.
-1
-'
-                    
-)
-                    
 test_objects
 =
 [
