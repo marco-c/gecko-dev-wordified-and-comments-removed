@@ -20,6 +20,9 @@ browser
 devtools
 /
 client
+"
++
+"
 /
 sourceeditor
 /

@@ -21,6 +21,9 @@ devtools
 /
 client
 /
+"
++
+"
 sourceeditor
 /
 test

@@ -46,6 +46,7 @@ sourceeditor
 /
 test
 "
+;
 const
 injectedText
 =

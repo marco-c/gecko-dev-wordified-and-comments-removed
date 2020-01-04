@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 window
 .
 addEventListener
@@ -7,7 +12,6 @@ editorReady
 "
 function
 (
-event
 )
 {
 editor
