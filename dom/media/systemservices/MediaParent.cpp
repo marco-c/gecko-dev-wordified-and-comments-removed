@@ -2580,6 +2580,10 @@ aActor
 delete
 sIPCServingParent
 ;
+sIPCServingParent
+=
+nullptr
+;
 return
 true
 ;
