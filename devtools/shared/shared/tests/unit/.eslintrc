@@ -32,8 +32,6 @@ extends
 /
 devtools
 /
-client
-/
 .
 eslintrc
 .

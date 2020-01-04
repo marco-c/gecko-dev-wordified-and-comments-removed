@@ -91,12 +91,12 @@ Task
 :
 true
 "
-XPCOMUtils
+XPCNativeWrapper
 "
 :
 true
 "
-XPCNativeWrapper
+XPCOMUtils
 "
 :
 true
