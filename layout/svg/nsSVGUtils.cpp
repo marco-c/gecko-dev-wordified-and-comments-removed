@@ -2459,7 +2459,7 @@ opacity
 aFrame
 -
 >
-StyleDisplay
+StyleEffects
 (
 )
 -
@@ -6733,7 +6733,7 @@ opacity
 aFrame
 -
 >
-StyleDisplay
+StyleEffects
 (
 )
 -

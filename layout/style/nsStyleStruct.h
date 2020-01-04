@@ -9924,10 +9924,6 @@ nsChangeHint
 (
 NS_STYLE_HINT_FRAMECHANGE
 |
-nsChangeHint_UpdateOpacityLayer
-|
-nsChangeHint_UpdateUsesOpacity
-|
 nsChangeHint_UpdateTransformLayer
 |
 nsChangeHint_UpdateOverflow
@@ -9971,9 +9967,6 @@ css
 URLValue
 >
 mBinding
-;
-float
-mOpacity
 ;
 uint8_t
 mDisplay
@@ -14395,6 +14388,10 @@ nsChangeHint_SchedulePaint
 |
 nsChangeHint_RepaintFrame
 |
+nsChangeHint_UpdateOpacityLayer
+|
+nsChangeHint_UpdateUsesOpacity
+|
 nsChangeHint_NeutralChange
 ;
 }
@@ -14420,6 +14417,9 @@ mBoxShadow
 ;
 nsRect
 mClip
+;
+float
+mOpacity
 ;
 uint8_t
 mClipFlags

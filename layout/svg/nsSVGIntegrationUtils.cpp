@@ -1734,7 +1734,7 @@ opacity
 aFrame
 -
 >
-StyleDisplay
+StyleEffects
 (
 )
 -

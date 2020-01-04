@@ -8241,7 +8241,7 @@ GetChildren
 f
 -
 >
-StyleDisplay
+StyleEffects
 (
 )
 -
@@ -21963,7 +21963,7 @@ mOpacity
 aFrame
 -
 >
-StyleDisplay
+StyleEffects
 (
 )
 -
@@ -33069,7 +33069,7 @@ opacity
 mFrame
 -
 >
-StyleDisplay
+StyleEffects
 (
 )
 -
@@ -33609,7 +33609,7 @@ if
 mFrame
 -
 >
-StyleDisplay
+StyleEffects
 (
 )
 -
@@ -33641,7 +33641,7 @@ f
 mFrame
 -
 >
-StyleDisplay
+StyleEffects
 (
 )
 -
