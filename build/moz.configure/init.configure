@@ -2094,7 +2094,6 @@ collect
 them
 .
 template
-advanced
 def
 early_options
 (
@@ -2108,6 +2107,7 @@ depends
 help
 '
 )
+advanced
 def
 early_options
 (

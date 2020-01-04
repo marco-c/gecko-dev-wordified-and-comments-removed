@@ -704,6 +704,14 @@ _implied_options
         
 self
 .
+_prepared_functions
+=
+set
+(
+)
+        
+self
+.
 _helper
 =
 CommandLineHelper
@@ -3080,13 +3088,11 @@ func
 )
         
 if
-isinstance
-(
 func
+in
+self
 .
-func_globals
-SandboxedGlobal
-)
+_prepared_functions
 :
             
 return
@@ -3164,6 +3170,15 @@ func
 func_closure
         
 )
+)
+        
+self
+.
+_prepared_functions
+.
+add
+(
+func
 )
         
 return
