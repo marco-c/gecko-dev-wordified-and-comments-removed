@@ -428,6 +428,16 @@ JobScheduler_win32
 cpp
 '
 '
+NativeFontResourceDWrite
+.
+cpp
+'
+'
+NativeFontResourceGDI
+.
+cpp
+'
+'
 PathD2D
 .
 cpp

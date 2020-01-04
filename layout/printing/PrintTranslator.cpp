@@ -234,6 +234,10 @@ aRecording
 good
 (
 )
+|
+|
+!
+recordedEvent
 )
 {
 return
