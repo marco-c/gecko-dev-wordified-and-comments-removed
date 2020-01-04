@@ -671,18 +671,25 @@ which
 (
 self
 command
+path
+=
+None
 )
 :
         
 for
 parent
 in
+(
+path
+or
 self
 .
 _search_path
+)
 :
             
-path
+candidate
 =
 mozpath
 .
@@ -701,12 +708,12 @@ path
 .
 exists
 (
-path
+candidate
 )
 :
                 
 return
-path
+candidate
         
 raise
 WhichError
