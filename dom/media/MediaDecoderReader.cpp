@@ -2473,12 +2473,6 @@ Shutdown
 (
 )
 ;
-RefPtr
-<
-ShutdownPromise
->
-p
-;
 mDecoder
 =
 nullptr

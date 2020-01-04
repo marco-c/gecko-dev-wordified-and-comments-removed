@@ -59599,12 +59599,6 @@ aRetVal
 NS_OK
 )
 ;
-nsCOMPtr
-<
-nsIVariant
->
-result
-;
 if
 (
 !
