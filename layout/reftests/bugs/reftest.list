@@ -31447,6 +31447,9 @@ fuzzy
 -
 if
 (
+asyncPan
+&
+&
 !
 layersGPUAccelerated
 41

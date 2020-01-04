@@ -251,13 +251,6 @@ ChildIterator
 h
 "
 #
-include
-"
-Layers
-.
-h
-"
-#
 ifdef
 ACCESSIBILITY
 #
@@ -275,10 +268,6 @@ mozilla
 using
 namespace
 layers
-;
-using
-namespace
-dom
 ;
 #
 define
