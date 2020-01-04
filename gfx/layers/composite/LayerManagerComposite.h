@@ -1121,8 +1121,17 @@ aTransform
 )
 ;
 void
+UpdateAndRender
+(
+)
+;
+void
 Render
 (
+const
+nsIntRegion
+&
+aInvalidRegion
 )
 ;
 #
