@@ -49,13 +49,6 @@ h
 #
 include
 "
-nsIPackagedAppChannelListener
-.
-h
-"
-#
-include
-"
 nsCOMArray
 .
 h
@@ -262,9 +255,6 @@ aURI
 nsICacheEntryOpenCallback
 *
 aCallback
-nsIChannel
-*
-aRequester
 )
 ;
 nsresult
@@ -467,12 +457,6 @@ RefPtr
 PackagedAppVerifier
 >
 mVerifier
-;
-nsCOMArray
-<
-nsIPackagedAppChannelListener
->
-mRequesters
 ;
 nsCString
 mPackageOrigin

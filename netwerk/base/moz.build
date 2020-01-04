@@ -433,11 +433,6 @@ nsIPACGenerator
 idl
 '
 '
-nsIPackagedAppChannelListener
-.
-idl
-'
-'
 nsIPackagedAppService
 .
 idl
