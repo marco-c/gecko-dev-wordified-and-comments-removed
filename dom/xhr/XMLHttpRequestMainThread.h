@@ -1939,11 +1939,6 @@ AllowUploadProgress
 (
 )
 ;
-void
-RootJSResultObjects
-(
-)
-;
 virtual
 void
 DisconnectFromOwner
