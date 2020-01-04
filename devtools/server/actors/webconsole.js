@@ -1991,6 +1991,11 @@ ConsoleAPIListener
 (
 window
 this
+this
+.
+parentActor
+.
+consoleAPIListenerOptions
 )
 ;
 this

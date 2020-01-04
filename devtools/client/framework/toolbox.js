@@ -4965,6 +4965,13 @@ this
 target
 .
 isAddon
+|
+|
+this
+.
+target
+.
+isWebExtension
 )
 {
 this

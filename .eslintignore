@@ -865,6 +865,16 @@ server
 /
 actors
 /
+webextension
+.
+js
+!
+devtools
+/
+server
+/
+actors
+/
 styles
 .
 js

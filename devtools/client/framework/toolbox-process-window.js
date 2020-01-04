@@ -351,6 +351,12 @@ chrome
 true
 isTabActor
 :
+addonActor
+.
+isWebExtension
+?
+true
+:
 false
 }
 )
