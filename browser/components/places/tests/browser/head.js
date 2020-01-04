@@ -1858,11 +1858,6 @@ true
 yield
 contextPromise
 ;
-return
-gContextMenuContentData
-.
-popupNode
-;
 }
 )
 ;
