@@ -115,6 +115,12 @@ class
 TypedObjectModuleObject
 ;
 class
+StaticBlockObject
+;
+class
+ClonedBlockObject
+;
+class
 GlobalObject
 :
 public
@@ -156,6 +162,7 @@ FROM_BUFFER_INT32
 FROM_BUFFER_FLOAT32
 FROM_BUFFER_FLOAT64
 FROM_BUFFER_UINT8CLAMPED
+LEXICAL_SCOPE
 ARRAY_ITERATOR_PROTO
 STRING_ITERATOR_PROTO
 LEGACY_GENERATOR_OBJECT_PROTO
@@ -231,6 +238,13 @@ errorNumber
 ;
 public
 :
+ClonedBlockObject
+&
+lexicalScope
+(
+)
+const
+;
 void
 setThrowTypeError
 (
