@@ -16693,6 +16693,12 @@ mDownstreamState
 =
 =
 NOT_USING_NETWORK
+|
+|
+mDownstreamState
+=
+=
+BUFFERING_FRAME_HEADER
 )
 {
 return
@@ -17045,6 +17051,11 @@ return
 NS_OK
 ;
 }
+MOZ_ASSERT
+(
+false
+)
+;
 return
 NS_ERROR_UNEXPECTED
 ;
