@@ -386,11 +386,11 @@ this
 ;
 if
 (
-mBuffer
+mBackBuffer
 &
 &
 (
-mBuffer
+mBackBuffer
 -
 >
 IsImmutable
@@ -398,7 +398,7 @@ IsImmutable
 )
 |
 |
-mBuffer
+mBackBuffer
 -
 >
 GetSize
@@ -414,9 +414,9 @@ autoRemove
 .
 mTexture
 =
-mBuffer
+mBackBuffer
 ;
-mBuffer
+mBackBuffer
 =
 nullptr
 ;
@@ -429,7 +429,7 @@ false
 if
 (
 !
-mBuffer
+mBackBuffer
 )
 {
 bool
@@ -510,7 +510,7 @@ TextureFlags
 ORIGIN_BOTTOM_LEFT
 ;
 }
-mBuffer
+mBackBuffer
 =
 CreateTextureClientForCanvas
 (
@@ -523,7 +523,7 @@ aLayer
 if
 (
 !
-mBuffer
+mBackBuffer
 )
 {
 NS_WARNING
@@ -542,7 +542,7 @@ return
 }
 MOZ_ASSERT
 (
-mBuffer
+mBackBuffer
 -
 >
 CanExposeDrawTarget
@@ -564,7 +564,7 @@ false
 TextureClientAutoLock
 autoLock
 (
-mBuffer
+mBackBuffer
 OpenMode
 :
 :
@@ -581,7 +581,7 @@ Succeeded
 )
 )
 {
-mBuffer
+mBackBuffer
 =
 nullptr
 ;
@@ -594,7 +594,7 @@ DrawTarget
 >
 target
 =
-mBuffer
+mBackBuffer
 -
 >
 BorrowDrawTarget
@@ -628,11 +628,11 @@ bufferCreated
 !
 AddTextureClient
 (
-mBuffer
+mBackBuffer
 )
 )
 {
-mBuffer
+mBackBuffer
 =
 nullptr
 ;
@@ -672,7 +672,7 @@ t
 >
 mTextureClient
 =
-mBuffer
+mBackBuffer
 ;
 t
 -
@@ -686,7 +686,7 @@ nsIntPoint
 0
 0
 )
-mBuffer
+mBackBuffer
 -
 >
 GetSize
@@ -729,7 +729,7 @@ this
 textures
 )
 ;
-mBuffer
+mBackBuffer
 -
 >
 SyncWithObject
@@ -745,6 +745,13 @@ GetSyncObject
 )
 ;
 }
+mBackBuffer
+.
+swap
+(
+mFrontBuffer
+)
+;
 }
 already_AddRefed
 <

@@ -334,7 +334,9 @@ Clear
 )
 override
 {
-mBuffer
+mBackBuffer
+=
+mFrontBuffer
 =
 nullptr
 ;
@@ -398,7 +400,9 @@ OnDetach
 )
 override
 {
-mBuffer
+mBackBuffer
+=
+mFrontBuffer
 =
 nullptr
 ;
@@ -432,7 +436,13 @@ RefPtr
 <
 TextureClient
 >
-mBuffer
+mBackBuffer
+;
+RefPtr
+<
+TextureClient
+>
+mFrontBuffer
 ;
 }
 ;
