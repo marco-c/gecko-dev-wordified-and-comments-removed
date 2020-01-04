@@ -524,6 +524,13 @@ Shutdown
 ;
 }
 }
+mMainThread
+-
+>
+WaitForAllAsynchronousShutdowns
+(
+)
+;
 NS_ProcessPendingEvents
 (
 mMainThread

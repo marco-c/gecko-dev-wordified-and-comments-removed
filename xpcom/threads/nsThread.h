@@ -190,6 +190,11 @@ nsThreadShutdownContext
 aContext
 )
 ;
+void
+WaitForAllAsynchronousShutdowns
+(
+)
+;
 protected
 :
 class
