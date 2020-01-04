@@ -58234,15 +58234,6 @@ OS_ARCH
 "
 WINNT
 "
--
-o
-"
-MOZ_WIDGET_TOOLKIT
-"
-=
-"
-android
-"
 ;
 then
 MOZ_CHROME_FILE_FORMAT
