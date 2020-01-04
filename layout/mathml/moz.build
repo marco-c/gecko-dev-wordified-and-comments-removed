@@ -340,13 +340,13 @@ if
 CONFIG
 [
 '
-TARGET_MD_ARCH
+OS_TARGET
 '
 ]
 =
 =
 '
-win32
+WINNT
 '
 :
 RESOURCE_FILES
