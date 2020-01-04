@@ -2554,10 +2554,15 @@ audioTrackPresent
 =
 true
 ;
+#
+ifdef
+MOZ_WEBRTC
 shouldAEC
 =
 true
 ;
+#
+endif
 }
 #
 ifdef
