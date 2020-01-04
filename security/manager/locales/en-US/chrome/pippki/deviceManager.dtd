@@ -79,7 +79,7 @@ NOTE
 (
 devmgr
 .
-style
+style2
 )
 :
 This
@@ -121,11 +121,11 @@ fit
 ENTITY
 devmgr
 .
-style
+style2
 "
 width
 :
-52em
+67em
 ;
 height
 :
