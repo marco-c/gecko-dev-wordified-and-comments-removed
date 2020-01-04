@@ -136,6 +136,15 @@ facingMode
 DOMString
 deviceId
 ;
+boolean
+echoCancellation
+;
+boolean
+mozNoiseSuppression
+;
+boolean
+mozAutoGainControl
+;
 /
 /
 Mozilla
