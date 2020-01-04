@@ -78,8 +78,10 @@ struct
 JSContext
 ;
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gUDPSocketLog
 ;
 #

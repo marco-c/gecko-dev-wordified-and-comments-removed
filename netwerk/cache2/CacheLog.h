@@ -20,11 +20,8 @@ namespace
 net
 {
 extern
-PRLogModuleInfo
-*
-GetCache2Log
-(
-)
+LazyLogModule
+gCache2Log
 ;
 #
 define
@@ -34,9 +31,7 @@ x
 )
 MOZ_LOG
 (
-GetCache2Log
-(
-)
+gCache2Log
 mozilla
 :
 :
@@ -53,9 +48,7 @@ LOG_ENABLED
 )
 MOZ_LOG_TEST
 (
-GetCache2Log
-(
-)
+gCache2Log
 mozilla
 :
 :

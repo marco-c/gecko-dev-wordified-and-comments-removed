@@ -150,8 +150,10 @@ PBackgroundParent
 h
 "
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gUDPSocketLog
 ;
 #

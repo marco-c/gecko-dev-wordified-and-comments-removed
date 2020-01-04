@@ -4770,10 +4770,6 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-CACHE_LOG_INIT
-(
-)
-;
 nsresult
 rv
 ;

@@ -114,8 +114,10 @@ struct
 PRPollDesc
 ;
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gSocketTransportLog
 ;
 #
@@ -153,8 +155,10 @@ LogLevel
 Debug
 )
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gUDPSocketLog
 ;
 #

@@ -252,8 +252,10 @@ nsFtpProtocolHandler
 gFtpHandler
 ;
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gFTPLog
 ;
 #

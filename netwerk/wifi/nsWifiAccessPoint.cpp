@@ -29,8 +29,10 @@ Logging
 h
 "
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gWifiMonitorLog
 ;
 #

@@ -137,8 +137,10 @@ h
 #
 endif
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gWifiMonitorLog
 ;
 #

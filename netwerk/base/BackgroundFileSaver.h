@@ -78,9 +78,6 @@ nsIThread
 class
 nsIX509CertList
 ;
-struct
-PRLogModuleInfo
-;
 namespace
 mozilla
 {
@@ -131,11 +128,6 @@ virtual
 BackgroundFileSaver
 (
 )
-;
-static
-PRLogModuleInfo
-*
-prlog
 ;
 void
 destructorSafeDestroyNSSReference

@@ -250,11 +250,6 @@ nsCOMArray
 .
 h
 "
-extern
-PRLogModuleInfo
-*
-gHttpLog
-;
 class
 nsPerformance
 ;
@@ -273,6 +268,13 @@ LogCollector
 namespace
 net
 {
+extern
+mozilla
+:
+:
+LazyLogModule
+gHttpLog
+;
 class
 HttpBaseChannel
 :

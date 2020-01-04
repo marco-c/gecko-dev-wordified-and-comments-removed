@@ -108,8 +108,10 @@ net
 gNeckoChild
 ;
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gUDPSocketLog
 ;
 #
