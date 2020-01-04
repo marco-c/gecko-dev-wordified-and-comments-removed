@@ -36,6 +36,9 @@ class
 Directory
 ;
 class
+FileSystemDirectoryReader
+;
+class
 FileSystemDirectoryEntry
 :
 public

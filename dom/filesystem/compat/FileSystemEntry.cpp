@@ -26,6 +26,17 @@ mozilla
 /
 dom
 /
+FileSystemEntryBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 UnionTypes
 .
 h

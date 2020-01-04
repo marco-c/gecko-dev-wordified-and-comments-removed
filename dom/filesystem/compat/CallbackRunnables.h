@@ -43,6 +43,9 @@ namespace
 dom
 {
 class
+FileSystemEntriesCallback
+;
+class
 EntryCallbackRunnable
 final
 :

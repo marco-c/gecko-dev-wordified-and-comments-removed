@@ -25,6 +25,9 @@ class
 File
 ;
 class
+BlobCallback
+;
+class
 FileSystemFileEntry
 final
 :

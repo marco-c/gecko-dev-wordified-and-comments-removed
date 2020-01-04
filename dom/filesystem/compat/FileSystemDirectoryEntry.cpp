@@ -37,6 +37,17 @@ mozilla
 /
 dom
 /
+FileSystemDirectoryEntryBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 FileSystemUtils
 .
 h
