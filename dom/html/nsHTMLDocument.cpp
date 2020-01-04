@@ -4626,8 +4626,10 @@ ErrorResult
 rv
 )
 {
+nsCOMPtr
+<
 Element
-*
+>
 root
 =
 GetRootElement
