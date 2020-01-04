@@ -1558,6 +1558,9 @@ contact
 options
 .
 contact
+outgoing
+:
+true
 }
 )
 )
@@ -4153,6 +4156,9 @@ TERMINATED
 contact
 :
 contact
+outgoing
+:
+true
 }
 )
 ;
@@ -4276,6 +4282,14 @@ ALERTING
 outgoing
 :
 false
+callerId
+:
+"
+fake
+invalid
+.
+com
+"
 }
 )
 ;
