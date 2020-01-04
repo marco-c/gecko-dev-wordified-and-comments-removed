@@ -3865,6 +3865,7 @@ fun_resolve
 fun_mayResolve
 nullptr
 nullptr
+nullptr
 fun_hasInstance
 nullptr
 fun_trace
@@ -11270,6 +11271,8 @@ unsigned
 flags
 AllocKind
 allocKind
+NewObjectKind
+newKind
 )
 {
 GetterOp
@@ -11385,7 +11388,7 @@ JSFunction
 INTERPRETED_LAZY
 atom
 allocKind
-GenericObject
+newKind
 obj
 )
 ;
@@ -11405,6 +11408,7 @@ native
 nargs
 atom
 allocKind
+newKind
 )
 ;
 else
@@ -11417,6 +11421,7 @@ native
 nargs
 atom
 allocKind
+newKind
 )
 ;
 if

@@ -481,9 +481,7 @@ errorMessage
 :
 /
 property
-"
 someExpandoProperty
-"
 \
 (
 reason
@@ -508,9 +506,7 @@ errorMessage
 :
 /
 property
-"
 getterProp
-"
 \
 (
 reason

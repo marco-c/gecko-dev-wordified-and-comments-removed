@@ -1909,9 +1909,6 @@ constructor
 "
 toGMTString
 "
-Symbol
-.
-toPrimitive
 ]
 ;
 gPrototypeProperties

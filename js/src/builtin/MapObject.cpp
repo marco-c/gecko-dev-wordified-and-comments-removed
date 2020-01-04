@@ -489,6 +489,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 MapIteratorObject
 :
 :
@@ -1187,6 +1188,7 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Map
 )
+nullptr
 nullptr
 nullptr
 nullptr
@@ -4659,6 +4661,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 SetIteratorObject
 :
 :
@@ -5463,6 +5466,7 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Set
 )
+nullptr
 nullptr
 nullptr
 nullptr

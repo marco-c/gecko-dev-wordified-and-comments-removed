@@ -3267,6 +3267,13 @@ mayResolve
 *
 /
                 
+nullptr
+/
+*
+convert
+*
+/
+                
 {
 finalize
 }
@@ -4175,6 +4182,13 @@ mayResolve
 nullptr
 /
 *
+convert
+*
+/
+                
+nullptr
+/
+*
 finalize
 *
 /
@@ -4755,6 +4769,13 @@ nullptr
 /
 *
 mayResolve
+*
+/
+                
+nullptr
+/
+*
+convert
 *
 /
                 

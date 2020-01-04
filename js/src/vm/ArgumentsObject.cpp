@@ -3963,6 +3963,7 @@ MappedArgumentsObject
 :
 obj_resolve
 nullptr
+nullptr
 ArgumentsObject
 :
 :
@@ -4020,6 +4021,7 @@ UnmappedArgumentsObject
 :
 :
 obj_resolve
+nullptr
 nullptr
 ArgumentsObject
 :

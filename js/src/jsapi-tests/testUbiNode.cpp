@@ -54,10 +54,6 @@ JS
 :
 RootedString
 ;
-using
-namespace
-js
-;
 BEGIN_TEST
 (
 test_ubiNodeZone

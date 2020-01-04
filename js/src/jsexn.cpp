@@ -377,6 +377,13 @@ mayResolve
 *
 /
 \
+nullptr
+/
+*
+convert
+*
+/
+\
 exn_finalize
 \
 nullptr
@@ -459,6 +466,7 @@ ErrorObject
 :
 RESERVED_SLOTS
 )
+nullptr
 nullptr
 nullptr
 nullptr

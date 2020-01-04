@@ -5808,6 +5808,7 @@ nullptr
 nullptr
 nullptr
 nullptr
+nullptr
 AsmJSModuleObject_finalize
 nullptr
 nullptr
