@@ -730,7 +730,7 @@ border
 aBox
 -
 >
-GetBorder
+GetXULBorder
 (
 border
 )

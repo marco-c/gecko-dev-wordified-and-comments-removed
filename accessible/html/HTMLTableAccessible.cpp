@@ -5222,7 +5222,7 @@ border
 cellFrame
 -
 >
-GetBorder
+GetXULBorder
 (
 border
 )

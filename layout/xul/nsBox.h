@@ -125,7 +125,7 @@ override
 ;
 virtual
 nsresult
-GetBorder
+GetXULBorder
 (
 nsMargin
 &

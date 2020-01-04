@@ -1990,7 +1990,7 @@ IsXULCollapsed
 box
 -
 >
-GetBorder
+GetXULBorder
 (
 border
 )
@@ -2241,7 +2241,7 @@ aIsHorizontal
 box
 -
 >
-GetBorder
+GetXULBorder
 (
 border
 )

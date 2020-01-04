@@ -42830,7 +42830,7 @@ ComputedPhysicalPadding
 parentFrame
 -
 >
-GetBorder
+GetXULBorder
 (
 parentReflowState
 .

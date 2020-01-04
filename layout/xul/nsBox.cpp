@@ -1084,7 +1084,7 @@ SizeTo
 nsresult
 rv
 =
-GetBorder
+GetXULBorder
 (
 aBorderAndPadding
 )
@@ -1132,7 +1132,7 @@ nsresult
 nsBox
 :
 :
-GetBorder
+GetXULBorder
 (
 nsMargin
 &
