@@ -38,15 +38,6 @@ stdlib
 h
 >
 static
-const
-int64_t
-kCookieStaleThreshold
-=
-60
-*
-PR_USEC_PER_SEC
-;
-static
 inline
 void
 StrBlockCopy
@@ -496,7 +487,9 @@ LastAccessed
 (
 )
 >
-kCookieStaleThreshold
+mCookieStaleThreshold
+*
+PR_USEC_PER_SEC
 ;
 }
 NS_IMETHODIMP
