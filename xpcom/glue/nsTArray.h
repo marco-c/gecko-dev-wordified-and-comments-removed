@@ -2065,7 +2065,7 @@ aElemSize
 }
 static
 void
-CopyNonOverlappingRegionWithHeader
+MoveNonOverlappingRegionWithHeader
 (
 void
 *
@@ -2312,7 +2312,7 @@ srcElem
 }
 static
 void
-CopyNonOverlappingRegionWithHeader
+MoveNonOverlappingRegionWithHeader
 (
 void
 *
@@ -2358,7 +2358,7 @@ destHeader
 *
 srcHeader
 ;
-CopyNonOverlappingRegion
+MoveNonOverlappingRegion
 (
 static_cast
 <
