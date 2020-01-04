@@ -549,7 +549,7 @@ spawn
 (
 ui
 .
-getViewportMessageManager
+getViewportBrowser
 (
 )
 args

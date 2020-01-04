@@ -7,9 +7,17 @@ const
 TEST_URL
 =
 "
-about
+data
 :
-logo
+text
+/
+html
+;
+charset
+=
+utf
+-
+8
 "
 ;
 addRDMTask
@@ -125,7 +133,7 @@ spawn
 (
 ui
 .
-getViewportMessageManager
+getViewportBrowser
 (
 )
 {
@@ -407,7 +415,7 @@ spawn
 (
 ui
 .
-getViewportMessageManager
+getViewportBrowser
 (
 )
 {
