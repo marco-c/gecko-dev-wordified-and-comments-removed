@@ -3876,6 +3876,7 @@ mLayerManager
 =
 nullptr
 ;
+}
 {
 MonitorAutoLock
 lock
@@ -3891,7 +3892,6 @@ erase
 mRootLayerTreeID
 )
 ;
-}
 }
 if
 (

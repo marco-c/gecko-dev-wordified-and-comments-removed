@@ -2433,6 +2433,12 @@ mAPZC
 ;
 RefPtr
 <
+GeckoContentController
+>
+mRootContentController
+;
+RefPtr
+<
 APZEventState
 >
 mAPZEventState
