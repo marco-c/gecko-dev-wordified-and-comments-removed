@@ -18084,7 +18084,7 @@ isChrome
 JS
 :
 :
-AutoFilename
+UniqueChars
 fileName
 ;
 if

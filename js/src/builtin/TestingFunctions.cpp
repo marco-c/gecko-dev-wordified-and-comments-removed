@@ -13236,16 +13236,7 @@ namespace
 heaptools
 {
 typedef
-UniquePtr
-<
-char16_t
-[
-]
-JS
-:
-:
-FreePolicy
->
+UniqueTwoByteChars
 EdgeName
 ;
 class
@@ -14476,7 +14467,7 @@ get
 JS
 :
 :
-AutoFilename
+UniqueChars
 filename
 ;
 unsigned
@@ -14967,7 +14958,7 @@ get
 JS
 :
 :
-AutoFilename
+UniqueChars
 filename
 ;
 unsigned

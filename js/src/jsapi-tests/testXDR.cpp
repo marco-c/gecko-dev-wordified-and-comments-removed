@@ -993,14 +993,7 @@ strlen
 sm
 )
 ;
-UniquePtr
-<
-char16_t
-JS
-:
-:
-FreePolicy
->
+UniqueTwoByteChars
 expected_wrapper
 (
 js

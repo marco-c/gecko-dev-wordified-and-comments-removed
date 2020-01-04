@@ -1999,7 +1999,7 @@ fragments
 .
 append
 (
-make_string_copy
+DuplicateString
 (
 buffer
 )
@@ -2064,7 +2064,7 @@ fragments
 .
 append
 (
-make_string_copy
+DuplicateString
 (
 "
 Summary
@@ -2222,7 +2222,7 @@ fragments
 .
 append
 (
-make_string_copy
+DuplicateString
 (
 buffer
 )
@@ -2327,7 +2327,7 @@ fragments
 .
 append
 (
-make_string_copy
+DuplicateString
 (
 buffer
 )
@@ -2404,7 +2404,7 @@ fragments
 .
 append
 (
-make_string_copy
+DuplicateString
 (
 buffer
 )
@@ -2564,7 +2564,7 @@ fragments
 .
 append
 (
-make_string_copy
+DuplicateString
 (
 buffer
 )
@@ -2630,7 +2630,7 @@ fragments
 .
 append
 (
-make_string_copy
+DuplicateString
 (
 buffer
 )
@@ -3195,7 +3195,7 @@ bytesPerMiB
 )
 ;
 return
-make_string_copy
+DuplicateString
 (
 buffer
 )
@@ -3388,7 +3388,7 @@ start
 )
 ;
 return
-make_string_copy
+DuplicateString
 (
 buffer
 )
@@ -3560,7 +3560,7 @@ fragments
 .
 append
 (
-make_string_copy
+DuplicateString
 (
 buffer
 )
@@ -3636,7 +3636,7 @@ fragments
 .
 append
 (
-make_string_copy
+DuplicateString
 (
 buffer
 )
@@ -3752,7 +3752,7 @@ longest
 )
 ;
 return
-make_string_copy
+DuplicateString
 (
 buffer
 )
@@ -3784,7 +3784,7 @@ fragments
 .
 append
 (
-make_string_copy
+DuplicateString
 (
 "
 {
@@ -3810,7 +3810,7 @@ fragments
 .
 append
 (
-make_string_copy
+DuplicateString
 (
 "
 \
@@ -3859,7 +3859,7 @@ fragments
 .
 append
 (
-make_string_copy
+DuplicateString
 (
 "
 {
@@ -3889,7 +3889,7 @@ fragments
 .
 append
 (
-make_string_copy
+DuplicateString
 (
 "
 \
@@ -3926,7 +3926,7 @@ fragments
 .
 append
 (
-make_string_copy
+DuplicateString
 (
 "
 }
@@ -3955,7 +3955,7 @@ fragments
 .
 append
 (
-make_string_copy
+DuplicateString
 (
 "
 "
@@ -3979,7 +3979,7 @@ fragments
 .
 append
 (
-make_string_copy
+DuplicateString
 (
 "
 ]
@@ -4012,7 +4012,7 @@ fragments
 .
 append
 (
-make_string_copy
+DuplicateString
 (
 "
 }
@@ -4381,7 +4381,7 @@ STAT_DESTROY_CHUNK
 )
 ;
 return
-make_string_copy
+DuplicateString
 (
 buffer
 )
@@ -4631,7 +4631,7 @@ end
 )
 ;
 return
-make_string_copy
+DuplicateString
 (
 buffer
 )
@@ -4837,7 +4837,7 @@ fragments
 .
 append
 (
-make_string_copy
+DuplicateString
 (
 buffer
 )

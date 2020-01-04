@@ -984,16 +984,7 @@ isObject
 )
 )
 ;
-UniquePtr
-<
-char16_t
-[
-]
-JS
-:
-:
-FreePolicy
->
+UniqueTwoByteChars
 ctorName
 ;
 CHECK

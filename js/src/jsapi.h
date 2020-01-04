@@ -20227,13 +20227,6 @@ length
 namespace
 JS
 {
-typedef
-js
-:
-:
-UniqueChars
-AutoFilename
-;
 extern
 JS_PUBLIC_API
 (
@@ -20244,7 +20237,7 @@ DescribeScriptedCaller
 JSContext
 *
 cx
-AutoFilename
+UniqueChars
 *
 filename
 =

@@ -1879,16 +1879,7 @@ jsbytecode
 pc
 )
 ;
-UniquePtr
-<
-char
-[
-]
-JS
-:
-:
-FreePolicy
->
+UniqueChars
 DecompileValueGenerator
 (
 JSContext

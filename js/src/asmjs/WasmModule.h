@@ -1044,6 +1044,8 @@ public
 UniquePtr
 <
 CharT
+[
+]
 JS
 :
 :
@@ -1054,6 +1056,8 @@ typedef
 UniquePtr
 <
 CharT
+[
+]
 JS
 :
 :

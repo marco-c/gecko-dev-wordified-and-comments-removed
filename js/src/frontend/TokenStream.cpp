@@ -3898,16 +3898,7 @@ const
 char
 *
 errorMsgPragma
-UniquePtr
-<
-char16_t
-[
-]
-JS
-:
-:
-FreePolicy
->
+UniqueTwoByteChars
 *
 destination
 )

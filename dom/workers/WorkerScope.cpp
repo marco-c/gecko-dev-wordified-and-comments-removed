@@ -3929,8 +3929,8 @@ aMessage
 JS
 :
 :
-AutoFilename
-afn
+UniqueChars
+chars
 ;
 uint32_t
 lineno
@@ -3944,7 +3944,7 @@ DescribeScriptedCaller
 (
 aCx
 &
-afn
+chars
 &
 lineno
 )
@@ -3954,7 +3954,7 @@ filename
 (
 NS_ConvertUTF8toUTF16
 (
-afn
+chars
 .
 get
 (

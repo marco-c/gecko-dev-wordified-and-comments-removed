@@ -2681,7 +2681,7 @@ scheme
 JS
 :
 :
-AutoFilename
+UniqueChars
 filename
 ;
 if

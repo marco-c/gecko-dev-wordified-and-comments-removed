@@ -4676,7 +4676,7 @@ column
 JS
 :
 :
-AutoFilename
+UniqueChars
 file
 ;
 if
@@ -5601,7 +5601,7 @@ column
 JS
 :
 :
-AutoFilename
+UniqueChars
 file
 ;
 if

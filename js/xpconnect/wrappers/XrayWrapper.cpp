@@ -958,7 +958,7 @@ str
 return
 false
 ;
-AutoFilename
+UniqueChars
 filename
 ;
 unsigned

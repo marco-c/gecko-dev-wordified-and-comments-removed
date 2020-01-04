@@ -302,14 +302,7 @@ TraceLoggerEventPayload
 uint32_t
 textId_
 ;
-UniquePtr
-<
-char
-JS
-:
-:
-FreePolicy
->
+UniqueChars
 string_
 ;
 uint32_t

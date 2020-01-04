@@ -375,7 +375,7 @@ filenameStr
 JS
 :
 :
-AutoFilename
+UniqueChars
 scriptFilename
 ;
 if
