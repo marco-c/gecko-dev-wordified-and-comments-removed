@@ -124,7 +124,7 @@ const
 int
 kVsyncTimeoutMS
 =
-50
+80
 ;
 class
 TestVsyncObserver
