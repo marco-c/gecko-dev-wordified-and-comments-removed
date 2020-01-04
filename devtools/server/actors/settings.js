@@ -192,7 +192,7 @@ stream
 =
 chan
 .
-open
+open2
 (
 )
 ;
