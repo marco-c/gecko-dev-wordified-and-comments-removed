@@ -104,6 +104,11 @@ COMPtrHolder
 h
 '
 '
+DispatchForwarder
+.
+h
+'
+'
 EnsureMTA
 .
 h
@@ -188,6 +193,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+DispatchForwarder
+.
+cpp
+'
 '
 EnsureMTA
 .
