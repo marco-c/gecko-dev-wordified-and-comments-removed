@@ -378,8 +378,6 @@ attribute
 EventHandler
 oninactive
 ;
-/
-/
 attribute
 EventHandler
 onaddtrack
