@@ -795,14 +795,8 @@ this
 OpusDataDecoder
 :
 :
-Decode
-RefPtr
-<
-MediaRawData
->
-(
+ProcessDecode
 aSample
-)
 )
 )
 ;
@@ -814,7 +808,7 @@ void
 OpusDataDecoder
 :
 :
-Decode
+ProcessDecode
 (
 MediaRawData
 *
@@ -1744,7 +1738,7 @@ void
 OpusDataDecoder
 :
 :
-DoDrain
+ProcessDrain
 (
 )
 {
@@ -1776,7 +1770,7 @@ this
 OpusDataDecoder
 :
 :
-DoDrain
+ProcessDrain
 )
 )
 ;
