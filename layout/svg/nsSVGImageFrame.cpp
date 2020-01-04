@@ -323,6 +323,8 @@ void
 OnVisibilityChange
 (
 Visibility
+aOldVisibility
+Visibility
 aNewVisibility
 Maybe
 <
@@ -977,6 +979,8 @@ nsSVGImageFrame
 OnVisibilityChange
 (
 Visibility
+aOldVisibility
+Visibility
 aNewVisibility
 Maybe
 <
@@ -1007,6 +1011,7 @@ nsSVGPathGeometryFrame
 :
 OnVisibilityChange
 (
+aOldVisibility
 aNewVisibility
 aNonvisibleAction
 )
@@ -1019,6 +1024,7 @@ imageLoader
 >
 OnVisibilityChange
 (
+aOldVisibility
 aNewVisibility
 aNonvisibleAction
 )
@@ -1028,6 +1034,7 @@ nsSVGPathGeometryFrame
 :
 OnVisibilityChange
 (
+aOldVisibility
 aNewVisibility
 aNonvisibleAction
 )

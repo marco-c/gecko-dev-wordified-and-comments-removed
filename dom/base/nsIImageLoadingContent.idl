@@ -1228,6 +1228,14 @@ state
 *
 *
 param
+aOldVisibility
+The
+previous
+visibility
+state
+.
+*
+param
 aNewVisibility
 The
 new
@@ -1294,6 +1302,9 @@ notxpcom
 void
 onVisibilityChange
 (
+in
+Visibility
+aOldVisibility
 in
 Visibility
 aNewVisibility

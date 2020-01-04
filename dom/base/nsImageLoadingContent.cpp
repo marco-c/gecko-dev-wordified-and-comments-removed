@@ -5472,6 +5472,8 @@ nsImageLoadingContent
 OnVisibilityChange
 (
 Visibility
+aOldVisibility
+Visibility
 aNewVisibility
 const
 Maybe
@@ -5499,6 +5501,17 @@ Visibility
 :
 IN_DISPLAYPORT
 :
+if
+(
+aOldVisibility
+=
+=
+Visibility
+:
+:
+NONVISIBLE
+)
+{
 TrackImage
 (
 mCurrentRequest
@@ -5509,6 +5522,7 @@ TrackImage
 mPendingRequest
 )
 ;
+}
 break
 ;
 case
