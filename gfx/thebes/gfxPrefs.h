@@ -189,6 +189,10 @@ class
 gfxPrefs
 final
 {
+friend
+class
+gfxWindowsPlatform
+;
 private
 :
 PreferenceAccessImpl
