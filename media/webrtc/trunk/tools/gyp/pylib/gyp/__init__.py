@@ -379,6 +379,17 @@ flavor
 '
 )
   
+default_variables
+[
+'
+PYTHON
+'
+]
+=
+sys
+.
+executable
+  
 if
 format
 .
