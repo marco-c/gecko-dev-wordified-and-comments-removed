@@ -144,6 +144,12 @@ ProcessFlush
 )
 override
 ;
+void
+InitCodecContext
+(
+)
+override
+;
 static
 AVCodecID
 GetCodecId
@@ -217,6 +223,10 @@ mDisplay
 ;
 nsIntRect
 mImage
+;
+AVCodecParserContext
+*
+mCodecParser
 ;
 class
 PtsCorrectionContext

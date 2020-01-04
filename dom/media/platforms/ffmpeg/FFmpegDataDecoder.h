@@ -152,6 +152,13 @@ ProcessShutdown
 (
 )
 ;
+virtual
+void
+InitCodecContext
+(
+)
+{
+}
 AVFrame
 *
 PrepareFrame
@@ -198,10 +205,6 @@ Atomic
 bool
 >
 mIsFlushing
-;
-AVCodecParserContext
-*
-mCodecParser
 ;
 private
 :

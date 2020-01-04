@@ -85,6 +85,12 @@ ProcessDrain
 )
 override
 ;
+void
+InitCodecContext
+(
+)
+override
+;
 static
 AVCodecID
 GetCodecId
