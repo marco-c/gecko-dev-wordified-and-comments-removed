@@ -150,6 +150,17 @@ include
 "
 jit
 /
+BaselineFrameInfo
+-
+inl
+.
+h
+"
+#
+include
+"
+jit
+/
 MacroAssembler
 -
 inl
