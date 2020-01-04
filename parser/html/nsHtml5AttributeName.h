@@ -1735,11 +1735,6 @@ ATTR_ROWLINES
 static
 nsHtml5AttributeName
 *
-ATTR_REFERRER
-;
-static
-nsHtml5AttributeName
-*
 ATTR_SEAMLESS
 ;
 static
@@ -2951,6 +2946,11 @@ static
 nsHtml5AttributeName
 *
 ATTR_PRIMITIVEUNITS
+;
+static
+nsHtml5AttributeName
+*
+ATTR_REFERRERPOLICY
 ;
 static
 nsHtml5AttributeName
