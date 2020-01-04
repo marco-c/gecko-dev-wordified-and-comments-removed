@@ -117,11 +117,6 @@ gfxWordCacheTest
 cpp
 '
 '
-TestArena
-.
-cpp
-'
-'
 TestAsyncPanZoomController
 .
 cpp
@@ -178,11 +173,6 @@ cpp
 '
 '
 TestSkipChars
-.
-cpp
-'
-'
-TestTaskScheduler
 .
 cpp
 '
