@@ -1970,15 +1970,6 @@ FAILURE
 )
 ;
 }
-mBPP
-=
-bmpDecoder
--
->
-GetBitsPerPixel
-(
-)
-;
 uint16_t
 numColors
 =
