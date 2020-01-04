@@ -8119,9 +8119,15 @@ Combines3DTransformWithAncestors
 aFrame
 -
 >
-Extend3DContext
+StyleDisplay
 (
 )
+-
+>
+mTransformStyle
+=
+=
+NS_STYLE_TRANSFORM_STYLE_PRESERVE_3D
 )
 {
 if
