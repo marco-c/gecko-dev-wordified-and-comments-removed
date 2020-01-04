@@ -713,7 +713,7 @@ ScriptLoader
 )
 -
 >
-AddExecuteBlocker
+AddParserBlockingScriptExecutionBlocker
 (
 )
 ;
@@ -837,7 +837,7 @@ ScriptLoader
 )
 -
 >
-RemoveExecuteBlocker
+RemoveParserBlockingScriptExecutionBlocker
 (
 )
 ;
@@ -1493,7 +1493,7 @@ ScriptLoader
 )
 -
 >
-AddExecuteBlocker
+AddParserBlockingScriptExecutionBlocker
 (
 )
 ;
@@ -1530,7 +1530,7 @@ ScriptLoader
 )
 -
 >
-RemoveExecuteBlocker
+RemoveParserBlockingScriptExecutionBlocker
 (
 )
 ;
@@ -1567,7 +1567,7 @@ i
 ]
 -
 >
-RemoveExecuteBlocker
+RemoveParserBlockingScriptExecutionBlocker
 (
 )
 ;
@@ -1671,7 +1671,7 @@ return
 aScriptLoader
 -
 >
-AddExecuteBlocker
+AddParserBlockingScriptExecutionBlocker
 (
 )
 ;
@@ -1697,7 +1697,7 @@ aScriptLoader
 aScriptLoader
 -
 >
-RemoveExecuteBlocker
+RemoveParserBlockingScriptExecutionBlocker
 (
 )
 ;
