@@ -4419,6 +4419,7 @@ uint8
 rgb_buf
 int
 width
+const
 int16
 *
 kCoefficientsRgbY
@@ -4991,6 +4992,7 @@ int
 width
 int
 source_dx
+const
 int16
 *
 kCoefficientsRgbY
@@ -5714,6 +5716,7 @@ int
 width
 int
 source_dx
+const
 int16
 *
 kCoefficientsRgbY
