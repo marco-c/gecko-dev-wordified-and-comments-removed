@@ -52,7 +52,7 @@ uint8_t
 ArrayBufferObjectMaybeShared
 :
 :
-dataPointerMaybeShared
+dataPointerEither
 (
 )
 {

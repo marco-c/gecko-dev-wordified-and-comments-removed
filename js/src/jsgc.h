@@ -283,12 +283,6 @@ SharedArrayBufferObject
 \
 D
 (
-SharedTypedArrayObject
-*
-)
-\
-D
-(
 ImportEntryObject
 *
 )

@@ -20911,7 +20911,7 @@ TypedArrayObject
 (
 )
 .
-buffer
+hasBuffer
 (
 )
 )

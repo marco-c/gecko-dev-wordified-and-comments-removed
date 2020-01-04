@@ -104,7 +104,7 @@ SharedMem
 uint8_t
 *
 >
-dataPointerMaybeShared
+dataPointerEither
 (
 )
 ;
@@ -1381,7 +1381,7 @@ JSObject
 public
 :
 static
-ArrayBufferObject
+ArrayBufferObjectMaybeShared
 *
 bufferObject
 (
@@ -1406,12 +1406,12 @@ newData
 ;
 uint8_t
 *
-dataPointer
+dataPointerUnshared
 (
 )
 ;
 void
-setDataPointer
+setDataPointerUnshared
 (
 uint8_t
 *

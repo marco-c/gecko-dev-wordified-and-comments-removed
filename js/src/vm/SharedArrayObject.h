@@ -482,6 +482,14 @@ HandleObject
 o
 )
 ;
+bool
+IsSharedArrayBuffer
+(
+JSObject
+*
+o
+)
+;
 SharedArrayBufferObject
 &
 AsSharedArrayBuffer
