@@ -12671,6 +12671,7 @@ NS_SUCCEEDED
 rv
 )
 codecs
+nullptr
 )
 ;
 }
@@ -13073,6 +13074,7 @@ CreateDecoder
 (
 mimeType
 this
+nullptr
 )
 ;
 if

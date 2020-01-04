@@ -101,6 +101,9 @@ const
 nsAString
 &
 aCodecs
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 ;
 static
@@ -111,6 +114,9 @@ const
 nsAString
 &
 aMIMEType
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 ;
 static

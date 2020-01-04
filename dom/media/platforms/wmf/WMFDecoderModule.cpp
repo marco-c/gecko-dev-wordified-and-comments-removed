@@ -502,6 +502,9 @@ aVideoTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 {
 nsAutoPtr
@@ -580,6 +583,9 @@ aAudioTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 {
 nsAutoPtr
@@ -1017,6 +1023,9 @@ const
 nsACString
 &
 aMimeType
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 const
 {

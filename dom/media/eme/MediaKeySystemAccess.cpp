@@ -1794,6 +1794,7 @@ MP4Decoder
 CanHandleMediaType
 (
 aContentType
+nullptr
 )
 ;
 }
@@ -1905,6 +1906,7 @@ MP4Decoder
 CanHandleMediaType
 (
 aContentType
+nullptr
 )
 ;
 }

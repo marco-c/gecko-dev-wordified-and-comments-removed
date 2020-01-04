@@ -394,6 +394,9 @@ static
 bool
 IsWebMForced
 (
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 {
 bool
@@ -412,6 +415,7 @@ video
 mp4
 "
 )
+aDiagnostics
 )
 ;
 bool
@@ -454,6 +458,9 @@ const
 nsAString
 &
 aType
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 {
 if
@@ -563,6 +570,7 @@ DecoderTraits
 IsMP4TypeAndEnabled
 (
 mimeTypeUTF8
+aDiagnostics
 )
 )
 {
@@ -607,6 +615,7 @@ get
 (
 )
 codecs
+aDiagnostics
 )
 =
 =
@@ -688,6 +697,7 @@ mimeTypeUTF8
 |
 IsWebMForced
 (
+aDiagnostics
 )
 )
 )
@@ -712,6 +722,7 @@ get
 (
 )
 codecs
+aDiagnostics
 )
 =
 =
@@ -1156,6 +1167,7 @@ mozilla
 IsTypeSupported
 (
 aType
+nullptr
 )
 ;
 MSE_API
@@ -1798,6 +1810,7 @@ mozilla
 IsTypeSupported
 (
 aType
+nullptr
 )
 ;
 #

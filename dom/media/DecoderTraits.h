@@ -24,6 +24,9 @@ class
 AbstractMediaDecoder
 ;
 class
+DecoderDoctorDiagnostics
+;
+class
 MediaDecoder
 ;
 class
@@ -59,6 +62,9 @@ const
 nsAString
 &
 aRequestedCodecs
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 ;
 static
@@ -73,6 +79,9 @@ const
 nsAString
 &
 aRequestedCodecs
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 ;
 static
@@ -83,6 +92,9 @@ const
 char
 *
 aMIMEType
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 ;
 static
@@ -99,6 +111,9 @@ aType
 MediaDecoderOwner
 *
 aOwner
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 ;
 static
@@ -163,6 +178,9 @@ const
 nsACString
 &
 aType
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 ;
 }

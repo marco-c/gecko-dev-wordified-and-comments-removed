@@ -1193,6 +1193,9 @@ const
 nsACString
 &
 aType
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 const
 nsAString
 &
@@ -1211,6 +1214,7 @@ CanHandleMediaType
 (
 aType
 aCodecs
+aDiagnostics
 )
 ;
 }
@@ -1226,6 +1230,9 @@ const
 nsACString
 &
 aType
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 {
 #
@@ -1235,6 +1242,7 @@ return
 IsMP4SupportedType
 (
 aType
+aDiagnostics
 )
 ;
 #
@@ -1352,6 +1360,9 @@ const
 char
 *
 aMIMEType
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 {
 if
@@ -1429,6 +1440,7 @@ false
 EmptyString
 (
 )
+aDiagnostics
 )
 !
 =
@@ -1449,6 +1461,9 @@ const
 nsAString
 &
 aRequestedCodecs
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 {
 char
@@ -1576,6 +1591,7 @@ nsDependentCString
 (
 aMIMEType
 )
+aDiagnostics
 )
 )
 {
@@ -1587,6 +1603,7 @@ nsDependentCString
 (
 aMIMEType
 )
+aDiagnostics
 aRequestedCodecs
 )
 )
@@ -1869,6 +1886,9 @@ const
 nsAString
 &
 aRequestedCodecs
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 {
 MOZ_ASSERT
@@ -1890,6 +1910,7 @@ CanHandleCodecsType
 (
 aMIMEType
 aRequestedCodecs
+aDiagnostics
 )
 ;
 if
@@ -1969,6 +1990,7 @@ nsDependentCString
 (
 aMIMEType
 )
+aDiagnostics
 )
 )
 {
@@ -2146,6 +2168,9 @@ aType
 MediaDecoderOwner
 *
 aOwner
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 {
 MOZ_ASSERT
@@ -2169,6 +2194,7 @@ if
 IsMP4SupportedType
 (
 aType
+aDiagnostics
 )
 )
 {
@@ -2563,6 +2589,9 @@ aType
 MediaDecoderOwner
 *
 aOwner
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 {
 MOZ_ASSERT
@@ -2577,6 +2606,7 @@ InstantiateDecoder
 (
 aType
 aOwner
+aDiagnostics
 )
 ;
 }
@@ -2627,6 +2657,7 @@ if
 IsMP4SupportedType
 (
 aType
+nullptr
 )
 )
 {
@@ -3042,6 +3073,7 @@ MOZ_FMP4
 IsMP4SupportedType
 (
 aType
+nullptr
 )
 |
 |

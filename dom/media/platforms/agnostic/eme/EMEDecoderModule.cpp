@@ -1182,6 +1182,9 @@ aVideoTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 {
 MOZ_ASSERT
@@ -1260,6 +1263,7 @@ CreateDecoder
 aConfig
 aVideoTaskQueue
 aCallback
+aDiagnostics
 aLayersBackend
 aImageContainer
 )
@@ -1328,6 +1332,9 @@ aAudioTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 {
 MOZ_ASSERT
@@ -1404,6 +1411,7 @@ CreateDecoder
 aConfig
 aAudioTaskQueue
 aCallback
+aDiagnostics
 )
 )
 ;
@@ -1497,6 +1505,9 @@ const
 nsACString
 &
 aMimeType
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 const
 {

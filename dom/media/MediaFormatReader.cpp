@@ -2144,6 +2144,7 @@ mTaskQueue
 decoder
 .
 mCallback
+nullptr
 )
 ;
 break
@@ -2186,6 +2187,7 @@ mTaskQueue
 decoder
 .
 mCallback
+nullptr
 mLayersBackendType
 GetImageContainer
 (

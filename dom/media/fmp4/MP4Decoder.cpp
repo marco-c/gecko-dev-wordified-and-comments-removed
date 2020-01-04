@@ -357,6 +357,9 @@ const
 nsAString
 &
 aCodecs
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 {
 if
@@ -686,6 +689,7 @@ platform
 SupportsMimeType
 (
 codecMime
+aDiagnostics
 )
 )
 {
@@ -708,6 +712,9 @@ const
 nsAString
 &
 aContentType
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 {
 nsContentTypeParser
@@ -762,6 +769,7 @@ NS_ConvertUTF16toUTF8
 mimeType
 )
 codecs
+aDiagnostics
 )
 ;
 }
@@ -962,6 +970,7 @@ CreateDecoder
 (
 aConfig
 aTaskQueue
+nullptr
 nullptr
 aBackend
 nullptr

@@ -48,6 +48,9 @@ aVideoTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 ;
 virtual
@@ -160,6 +163,9 @@ private
 nsresult
 CreateDecoder
 (
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 ;
 nsresult
