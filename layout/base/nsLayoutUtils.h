@@ -5369,6 +5369,15 @@ Selection
 aSel
 )
 ;
+static
+bool
+IsScrollFrameWithSnapping
+(
+nsIFrame
+*
+aFrame
+)
+;
 private
 :
 static
