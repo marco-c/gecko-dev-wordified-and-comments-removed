@@ -534,6 +534,16 @@ aMallocSizeOf
 )
 const
 ;
+bool
+GetLocalURLFlag
+(
+)
+const
+{
+return
+mLocalURLFlag
+;
+}
 private
 :
 mutable
@@ -568,6 +578,9 @@ private
 mutable
 bool
 mURIResolved
+;
+bool
+mLocalURLFlag
 ;
 URLValueData
 (
