@@ -373,6 +373,11 @@ NewTabUtils
 jsm
 '
 '
+NLP
+.
+jsm
+'
+'
 ObjectUtils
 .
 jsm
