@@ -73,7 +73,7 @@ network
 .
 mnc
 "
-260
+410
 "
 "
 network

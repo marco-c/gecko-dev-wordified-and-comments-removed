@@ -80,7 +80,7 @@ is
 iccInfo
 .
 mnc
-260
+410
 )
 ;
 is
