@@ -9,17 +9,6 @@ js
 "
 )
 ;
-if
-(
-!
-wasmIsSupported
-(
-)
-)
-quit
-(
-)
-;
 const
 magic0
 =
