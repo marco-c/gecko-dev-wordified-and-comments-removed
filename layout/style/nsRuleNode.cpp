@@ -24911,6 +24911,12 @@ prop
 =
 =
 eCSSProperty_UNKNOWN
+|
+|
+prop
+=
+=
+eCSSPropertyExtra_variable
 )
 {
 transition
@@ -24918,6 +24924,7 @@ transition
 >
 SetUnknownProperty
 (
+prop
 propertyStr
 )
 ;
