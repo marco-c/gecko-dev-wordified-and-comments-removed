@@ -2726,8 +2726,6 @@ false
 bool
 emitForOf
 (
-StmtType
-type
 ParseNode
 *
 pn
