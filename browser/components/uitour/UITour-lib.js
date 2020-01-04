@@ -16,7 +16,6 @@ Mozilla
 }
 ;
 }
-;
 (
 function
 (
