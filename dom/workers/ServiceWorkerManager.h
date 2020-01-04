@@ -792,6 +792,17 @@ ServiceWorker
 aWorker
 )
 ;
+already_AddRefed
+<
+ServiceWorker
+>
+GetOrCreateInstance
+(
+nsPIDOMWindowInner
+*
+aWindow
+)
+;
 }
 ;
 #

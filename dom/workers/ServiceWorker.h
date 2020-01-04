@@ -76,7 +76,7 @@ DOMEventTargetHelper
 {
 friend
 class
-ServiceWorkerManager
+ServiceWorkerInfo
 ;
 public
 :
