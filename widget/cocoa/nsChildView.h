@@ -1245,6 +1245,15 @@ indexString
 )
 override
 ;
+NS_IMETHOD
+GetSelectionAsPlaintext
+(
+nsAString
+&
+aResult
+)
+override
+;
 NS_IMETHOD_
 (
 void
