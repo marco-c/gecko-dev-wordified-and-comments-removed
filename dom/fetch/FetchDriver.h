@@ -315,7 +315,6 @@ enum
 MainFetchOpType
 {
 NETWORK_ERROR
-BASIC_FETCH
 HTTP_FETCH
 NUM_MAIN_FETCH_OPS
 }
@@ -375,11 +374,6 @@ SetTaintingAndGetNextOp
 ;
 nsresult
 ContinueFetch
-(
-)
-;
-nsresult
-BasicFetch
 (
 )
 ;
