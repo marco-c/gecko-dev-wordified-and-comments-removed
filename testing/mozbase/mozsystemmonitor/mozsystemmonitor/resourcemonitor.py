@@ -1671,9 +1671,9 @@ _pipe
 .
 poll
 (
-0
-.
 1
+.
+0
 )
 :
             
@@ -1708,7 +1708,7 @@ done
 =
 True
                 
-continue
+break
             
 io
 =
