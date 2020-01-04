@@ -2206,7 +2206,7 @@ ContentNotificationsDelegate
 NonNull
 private
 SearchEngineManager
-searchEngineManager
+mSearchEngineManager
 ;
 private
 TelemetryDispatcher
@@ -4107,7 +4107,7 @@ getName
 )
 )
 ;
-searchEngineManager
+mSearchEngineManager
 =
 new
 SearchEngineManager
@@ -5850,7 +5850,7 @@ getAbsolutePath
 }
 )
 ;
-searchEngineManager
+mSearchEngineManager
 .
 getEngine
 (
@@ -7248,7 +7248,7 @@ destroy
 )
 ;
 }
-searchEngineManager
+mSearchEngineManager
 .
 unregisterListeners
 (
