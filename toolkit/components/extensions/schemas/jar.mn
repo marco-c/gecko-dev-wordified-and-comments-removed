@@ -74,3 +74,12 @@ schemas
 cookies
 .
 json
+content
+/
+extensions
+/
+schemas
+/
+web_request
+.
+json
