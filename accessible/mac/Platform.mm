@@ -588,6 +588,17 @@ bool
 )
 {
 }
+void
+ProxySelectionEvent
+(
+ProxyAccessible
+*
+ProxyAccessible
+*
+uint32_t
+)
+{
+}
 }
 /
 /

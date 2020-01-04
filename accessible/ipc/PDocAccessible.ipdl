@@ -343,6 +343,17 @@ bool
 aFromUser
 )
 ;
+async
+SelectionEvent
+(
+uint64_t
+aID
+uint64_t
+aWidgetID
+uint32_t
+aType
+)
+;
 /
 *
 *
