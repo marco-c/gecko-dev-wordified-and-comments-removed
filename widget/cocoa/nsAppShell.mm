@@ -248,13 +248,6 @@ h
 #
 include
 "
-nsMenuBarX
-.
-h
-"
-#
-include
-"
 nsToolkit
 .
 h
@@ -4289,13 +4282,6 @@ mStarted
 true
 ;
 AddScreenWakeLockListener
-(
-)
-;
-nsMenuBarX
-:
-:
-ResetNativeApplicationMenu
 (
 )
 ;
