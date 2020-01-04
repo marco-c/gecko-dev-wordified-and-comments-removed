@@ -3852,12 +3852,12 @@ gr_faceinfo
 :
 gr_space_none
 ;
+}
 ReleaseGrFace
 (
 face
 )
 ;
-}
 mGraphiteSpaceContextualsInitialized
 =
 true
@@ -4832,6 +4832,8 @@ GetGrFace
 ;
 result
 =
+face
+?
 gr_face_find_fref
 (
 face
@@ -4840,6 +4842,8 @@ aFeatureTag
 !
 =
 nullptr
+:
+false
 ;
 ReleaseGrFace
 (
