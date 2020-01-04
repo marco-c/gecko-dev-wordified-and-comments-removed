@@ -132,6 +132,8 @@ LayersBackend
 aCompositorBackend
 bool
 aNeutered
+bool
+aIsWriteOnly
 )
 :
 mRenderer
@@ -153,6 +155,10 @@ aCompositorBackend
 mNeutered
 (
 aNeutered
+)
+mIsWriteOnly
+(
+aIsWriteOnly
 )
 {
 }
@@ -192,6 +198,10 @@ mAttrDirty
 false
 )
 mNeutered
+(
+false
+)
+mIsWriteOnly
 (
 false
 )
@@ -885,6 +895,7 @@ mWidth
 mHeight
 mCompositorBackendType
 mNeutered
+mIsWriteOnly
 )
 ;
 }
