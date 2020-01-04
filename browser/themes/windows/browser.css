@@ -850,6 +850,13 @@ true
 ~
 #
 TabsToolbar
+:
+not
+(
+[
+inFullscreen
+]
+)
 #
 toolbar
 -
@@ -869,6 +876,13 @@ inactive
 ~
 #
 TabsToolbar
+:
+not
+(
+[
+inFullscreen
+]
+)
 {
 margin
 -
