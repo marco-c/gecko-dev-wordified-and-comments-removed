@@ -772,6 +772,10 @@ HasPendingEvents
 void
 ProcessPendingRequests
 (
+int
+transaction
+int
+prio
 )
 ;
 bool
