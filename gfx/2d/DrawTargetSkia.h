@@ -853,7 +853,7 @@ GrContext
 >
 mGrContext
 ;
-uint32_t
+GrGLuint
 mTexture
 ;
 #
