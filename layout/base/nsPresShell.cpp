@@ -24660,6 +24660,8 @@ SetRestoreResolution
 (
 float
 aResolution
+LayoutDeviceIntSize
+aDisplaySize
 )
 {
 if
@@ -24673,6 +24675,7 @@ mMobileViewportManager
 SetRestoreResolution
 (
 aResolution
+aDisplaySize
 )
 ;
 }

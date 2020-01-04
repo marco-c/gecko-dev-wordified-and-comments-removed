@@ -2675,6 +2675,10 @@ SetRestoreResolution
 (
 float
 aResolution
+uint32_t
+aDisplayWidth
+uint32_t
+aDisplayHeight
 )
 {
 nsIPresShell
@@ -2701,6 +2705,11 @@ presShell
 SetRestoreResolution
 (
 aResolution
+LayoutDeviceIntSize
+(
+aDisplayWidth
+aDisplayHeight
+)
 )
 ;
 return
