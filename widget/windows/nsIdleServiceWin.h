@@ -59,6 +59,7 @@ uint32_t
 *
 aIdleTime
 )
+override
 ;
 static
 already_AddRefed
@@ -129,6 +130,7 @@ bool
 UsePollMode
 (
 )
+override
 ;
 }
 ;

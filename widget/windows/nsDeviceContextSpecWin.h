@@ -79,6 +79,7 @@ gfxASurface
 *
 surface
 )
+override
 ;
 NS_IMETHOD
 BeginDocument
@@ -95,6 +96,7 @@ aStartPage
 int32_t
 aEndPage
 )
+override
 {
 return
 NS_OK
@@ -104,6 +106,7 @@ NS_IMETHOD
 EndDocument
 (
 )
+override
 {
 return
 NS_OK
@@ -113,6 +116,7 @@ NS_IMETHOD
 BeginPage
 (
 )
+override
 {
 return
 NS_OK
@@ -122,6 +126,7 @@ NS_IMETHOD
 EndPage
 (
 )
+override
 {
 return
 NS_OK
@@ -139,6 +144,7 @@ aPS
 bool
 aIsPrintPreview
 )
+override
 ;
 void
 GetDriverName
