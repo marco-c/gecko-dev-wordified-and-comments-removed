@@ -295,16 +295,6 @@ aMerge
 override
 ;
 NS_IMETHOD
-SetEmptyRequestHeader
-(
-const
-nsACString
-&
-aHeader
-)
-override
-;
-NS_IMETHOD
 RedirectTo
 (
 nsIURI
