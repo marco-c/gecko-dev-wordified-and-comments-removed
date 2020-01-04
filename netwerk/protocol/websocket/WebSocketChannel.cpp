@@ -9644,6 +9644,8 @@ msgType
 =
 kMsgTypeBinaryString
 ;
+MOZ_FALLTHROUGH
+;
 case
 kMsgTypeBinaryString
 :

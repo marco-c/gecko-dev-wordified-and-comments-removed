@@ -6392,6 +6392,8 @@ ChangeState
 SENDING_BODY
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 SENDING_BODY
 :

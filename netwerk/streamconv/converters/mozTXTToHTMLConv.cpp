@@ -205,6 +205,8 @@ quot
 break
 ;
 }
+MOZ_FALLTHROUGH
+;
 default
 :
 aStringToAppendTo
@@ -400,6 +402,8 @@ i
 break
 ;
 }
+MOZ_FALLTHROUGH
+;
 default
 :
 i
@@ -2860,6 +2864,8 @@ RFC2396E
 ]
 =
 unchecked
+;
+MOZ_FALLTHROUGH
 ;
 case
 '

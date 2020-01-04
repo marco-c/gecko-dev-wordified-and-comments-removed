@@ -1893,6 +1893,8 @@ stop
 =
 true
 ;
+MOZ_FALLTHROUGH
+;
 case
 '
 /

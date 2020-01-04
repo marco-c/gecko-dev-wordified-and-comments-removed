@@ -4523,6 +4523,8 @@ RESULT_RETRY
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 2
 :
@@ -4819,6 +4821,8 @@ RESULT_RETRY
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 3
 :
@@ -5269,6 +5273,8 @@ RESULT_RETRY
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 4
 :
@@ -5450,6 +5456,8 @@ version
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 5
 :
@@ -5703,6 +5711,8 @@ version
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 6
 :
@@ -5982,6 +5992,8 @@ rv
 RESULT_RETRY
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 COOKIES_SCHEMA_VERSION
 :
@@ -6024,6 +6036,8 @@ RESULT_RETRY
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 default
 :
 {

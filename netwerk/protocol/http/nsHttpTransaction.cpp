@@ -6530,6 +6530,8 @@ mPreserveStream
 =
 true
 ;
+MOZ_FALLTHROUGH
+;
 case
 204
 :

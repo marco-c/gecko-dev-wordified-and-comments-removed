@@ -634,6 +634,8 @@ mHash
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 CacheIndex
 :
@@ -2015,6 +2017,8 @@ FinishWrite
 (
 false
 )
+;
+MOZ_FALLTHROUGH
 ;
 case
 READY
@@ -5670,6 +5674,8 @@ GetEntry
 (
 hash
 )
+;
+MOZ_FALLTHROUGH
 ;
 case
 BUILDING
