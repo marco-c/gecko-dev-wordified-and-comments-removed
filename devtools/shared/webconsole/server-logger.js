@@ -627,13 +627,14 @@ case
 examineHeaders
 "
 :
-return
 this
 .
 onExamineHeaders
 (
 msg
 )
+;
+break
 ;
 default
 :
@@ -919,7 +920,7 @@ _matchRequest
 :
 function
 (
-aChannel
+channel
 )
 {
 trace
@@ -954,12 +955,12 @@ true
 if
 (
 !
-aChannel
+channel
 .
 loadInfo
 &
 &
-aChannel
+channel
 .
 loadInfo
 .
@@ -970,7 +971,7 @@ loadingDocument
 null
 &
 &
-aChannel
+channel
 .
 loadInfo
 .
@@ -998,7 +999,7 @@ NetworkHelper
 .
 getWindowForRequest
 (
-aChannel
+channel
 )
 ;
 while
