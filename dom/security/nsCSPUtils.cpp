@@ -5129,6 +5129,12 @@ check
 "
 )
 ;
+outViolatedDirective
+.
+Truncate
+(
+)
+;
 nsCSPDirective
 *
 defaultDir
