@@ -4851,13 +4851,6 @@ mPreferredCodec
 ;
 }
 ;
-#
-if
-!
-defined
-(
-MOZILLA_XPCOMRT_API
-)
 class
 ConfigureCodec
 {
@@ -5506,8 +5499,6 @@ mUseTmmbr
 ;
 }
 ;
-#
-endif
 nsresult
 PeerConnectionImpl
 :
@@ -5516,13 +5507,6 @@ ConfigureJsepSessionCodecs
 (
 )
 {
-#
-if
-!
-defined
-(
-MOZILLA_XPCOMRT_API
-)
 nsresult
 res
 ;
@@ -5688,8 +5672,6 @@ SortCodecs
 comparator
 )
 ;
-#
-endif
 return
 NS_OK
 ;

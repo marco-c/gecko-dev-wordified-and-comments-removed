@@ -4,13 +4,6 @@ FakeLogging_h
 #
 define
 FakeLogging_h
-#
-if
-!
-defined
-(
-MOZILLA_XPCOMRT_API
-)
 namespace
 mozilla
 {
@@ -38,7 +31,5 @@ aFmt
 }
 }
 }
-#
-endif
 #
 endif

@@ -59,13 +59,6 @@ nsXULAppAPI
 h
 "
 #
-if
-!
-defined
-(
-MOZILLA_XPCOMRT_API
-)
-#
 include
 "
 mozilla
@@ -74,8 +67,6 @@ Preferences
 .
 h
 "
-#
-endif
 #
 else
 #
@@ -305,13 +296,6 @@ bool
 aMultiLog
 )
 {
-#
-if
-!
-defined
-(
-MOZILLA_XPCOMRT_API
-)
 *
 aMultiLog
 =
@@ -424,8 +408,6 @@ aec_dump_max_size
 )
 )
 ;
-#
-endif
 }
 #
 endif

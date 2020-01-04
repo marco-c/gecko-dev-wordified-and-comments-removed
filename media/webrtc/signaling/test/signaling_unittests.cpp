@@ -12724,13 +12724,6 @@ stun_port_
 ;
 }
 ;
-#
-if
-!
-defined
-(
-MOZILLA_XPCOMRT_API
-)
 static
 void
 SetIntPrefOnMainThread
@@ -12945,8 +12938,6 @@ mPrefs
 ;
 }
 ;
-#
-endif
 TEST_P
 (
 SignalingTest
@@ -26362,13 +26353,6 @@ OFFER_AV
 )
 ;
 }
-#
-if
-!
-defined
-(
-MOZILLA_XPCOMRT_API
-)
 TEST_P
 (
 SignalingTest
@@ -27074,8 +27058,6 @@ short
 )
 ;
 }
-#
-endif
 TEST_P
 (
 SignalingTest
