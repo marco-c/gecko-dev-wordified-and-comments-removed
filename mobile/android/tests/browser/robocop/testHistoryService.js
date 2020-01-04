@@ -295,7 +295,7 @@ url
 const
 PENDING_VISIT_WAIT
 =
-4000
+6000
 ;
 var
 gVisitURLs
