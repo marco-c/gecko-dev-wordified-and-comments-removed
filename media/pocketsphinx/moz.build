@@ -386,17 +386,6 @@ discards
 qualifiers
 '
 ]
-if
-CONFIG
-[
-'
-GKMEDIAS_SHARED_LIBRARY
-'
-]
-:
-NO_VISIBILITY_FLAGS
-=
-True
 #
 We
 allow

@@ -813,17 +813,6 @@ PGMPVideoEncoder
 ipdl
 '
 ]
-if
-CONFIG
-[
-'
-GKMEDIAS_SHARED_LIBRARY
-'
-]
-:
-NO_VISIBILITY_FLAGS
-=
-True
 #
 comment
 this
