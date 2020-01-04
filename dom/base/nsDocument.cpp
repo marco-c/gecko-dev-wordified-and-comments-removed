@@ -34654,8 +34654,8 @@ CSSToScreenScale
 (
 scaleToFit
 )
-false
-false
+true
+true
 )
 ;
 }
