@@ -846,6 +846,10 @@ ServiceWorkerJobBase
 ;
 friend
 class
+ServiceWorkerScriptJobBase
+;
+friend
+class
 ServiceWorkerRegistrationInfo
 ;
 friend
