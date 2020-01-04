@@ -5967,7 +5967,7 @@ id
 ;
 Rooted
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 (

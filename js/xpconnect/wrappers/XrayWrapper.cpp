@@ -787,7 +787,7 @@ HandleId
 id
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )
@@ -1370,7 +1370,7 @@ HandleId
 id
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 outDesc
 )
@@ -1446,7 +1446,7 @@ HandleId
 id
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 outDesc
 )
@@ -1499,7 +1499,7 @@ nullptr
 ;
 Rooted
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 (
@@ -1842,7 +1842,7 @@ HandleId
 id
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )
@@ -1974,7 +1974,7 @@ isWebExtensionContentScript
 {
 Rooted
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 innerDesc
 (
@@ -3251,7 +3251,7 @@ target
 ;
 Rooted
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 (
@@ -3315,12 +3315,12 @@ HandleId
 id
 Handle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 Handle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 existingDesc
 ObjectOpResult
@@ -3597,7 +3597,7 @@ false
 }
 Rooted
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 wrappedDesc
 (
@@ -3972,7 +3972,7 @@ i
 {
 Rooted
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 (
@@ -6108,7 +6108,7 @@ HandleId
 id
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )
@@ -7061,7 +7061,7 @@ HandleId
 id
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )
@@ -7447,7 +7447,7 @@ HandleId
 id
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )
@@ -7655,12 +7655,12 @@ HandleId
 id
 Handle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 Handle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 existingDesc
 JS
@@ -8226,7 +8226,7 @@ HandleId
 id
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )
@@ -8543,12 +8543,12 @@ HandleId
 id
 Handle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 Handle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 existingDesc
 JS
@@ -9271,7 +9271,7 @@ false
 ;
 Rooted
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 (
@@ -9836,7 +9836,7 @@ JS
 :
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )
@@ -10205,7 +10205,7 @@ JS
 :
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )
@@ -10301,12 +10301,12 @@ JSContext
 *
 cx
 const
-JSPropertyDescriptor
+PropertyDescriptor
 *
 orig
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 wrapped
 )
@@ -10618,7 +10618,7 @@ HandleId
 id
 Handle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 ObjectOpResult
@@ -10640,7 +10640,7 @@ SET
 ;
 Rooted
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 existing_desc
 (
@@ -10856,7 +10856,7 @@ false
 ;
 Rooted
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 wrappedDesc
 (

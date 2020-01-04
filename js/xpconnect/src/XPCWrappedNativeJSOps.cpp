@@ -1845,7 +1845,7 @@ HasInterposition
 {
 Rooted
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 (

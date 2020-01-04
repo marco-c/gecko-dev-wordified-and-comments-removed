@@ -931,7 +931,10 @@ JS
 :
 Handle
 <
-JSPropertyDescriptor
+JS
+:
+:
+PropertyDescriptor
 >
 desc
 JS
@@ -1062,7 +1065,10 @@ JS
 :
 MutableHandle
 <
-JSPropertyDescriptor
+JS
+:
+:
+PropertyDescriptor
 >
 desc
 )

@@ -381,7 +381,7 @@ HandleId
 id
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )
@@ -401,7 +401,7 @@ HandleId
 id
 Handle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 ObjectOpResult
@@ -613,7 +613,7 @@ HandleId
 id
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )
@@ -951,7 +951,7 @@ HandleId
 id
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )
@@ -984,7 +984,7 @@ HandleId
 id
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )
@@ -1079,7 +1079,7 @@ HandleId
 id
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )
@@ -1112,7 +1112,7 @@ HandleId
 id
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )
@@ -1207,7 +1207,7 @@ HandleId
 id
 Handle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 ObjectOpResult
@@ -1244,7 +1244,7 @@ HandleId
 id
 Handle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 ObjectOpResult
@@ -2333,7 +2333,7 @@ JS
 :
 Rooted
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 propDesc
 (

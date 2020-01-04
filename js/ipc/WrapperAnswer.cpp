@@ -598,7 +598,7 @@ rs
 ;
 Rooted
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 (
@@ -783,7 +783,7 @@ rs
 ;
 Rooted
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 (
@@ -963,7 +963,7 @@ rs
 ;
 Rooted
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 (

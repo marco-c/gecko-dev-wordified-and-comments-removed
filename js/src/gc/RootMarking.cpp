@@ -1243,7 +1243,7 @@ setter
 ;
 }
 void
-JSPropertyDescriptor
+PropertyDescriptor
 :
 :
 trace

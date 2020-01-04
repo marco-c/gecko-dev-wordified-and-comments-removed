@@ -246,10 +246,6 @@ typedef
 JSSetterOp
 SetterOp
 ;
-typedef
-JSPropertyDescriptor
-PropertyDescriptor
-;
 static
 const
 uint32_t

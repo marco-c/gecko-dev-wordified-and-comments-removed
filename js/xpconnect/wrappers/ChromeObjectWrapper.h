@@ -86,7 +86,10 @@ JS
 :
 Handle
 <
-JSPropertyDescriptor
+JS
+:
+:
+PropertyDescriptor
 >
 desc
 JS

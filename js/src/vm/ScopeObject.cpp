@@ -3395,7 +3395,7 @@ HandleId
 id
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )
@@ -4479,7 +4479,7 @@ HandleId
 id
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )
@@ -7259,7 +7259,7 @@ HandleId
 id
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )

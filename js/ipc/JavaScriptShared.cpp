@@ -2562,7 +2562,7 @@ JSContext
 cx
 Handle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 PPropertyDescriptor
@@ -2897,7 +2897,7 @@ PPropertyDescriptor
 in
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 out
 )

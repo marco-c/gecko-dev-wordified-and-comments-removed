@@ -2609,7 +2609,10 @@ false
 ;
 Rooted
 <
-JSPropertyDescriptor
+JS
+:
+:
+PropertyDescriptor
 >
 pd
 (
@@ -3345,7 +3348,7 @@ cx
 Op
 &
 op
-JSPropertyDescriptor
+PropertyDescriptor
 *
 desc
 unsigned
@@ -3469,7 +3472,7 @@ JS
 :
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )
@@ -3689,7 +3692,7 @@ JS
 :
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )

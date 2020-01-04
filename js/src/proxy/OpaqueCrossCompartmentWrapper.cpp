@@ -67,7 +67,7 @@ HandleId
 id
 Handle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 ObjectOpResult
@@ -488,7 +488,7 @@ HandleId
 id
 MutableHandle
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 )

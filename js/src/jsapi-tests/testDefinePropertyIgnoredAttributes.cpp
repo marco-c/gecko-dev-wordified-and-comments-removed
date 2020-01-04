@@ -69,7 +69,10 @@ JS
 :
 Handle
 <
-JSPropertyDescriptor
+JS
+:
+:
+PropertyDescriptor
 >
 desc
 PropertyDescriptorKind
@@ -194,7 +197,10 @@ JS
 :
 Rooted
 <
-JSPropertyDescriptor
+JS
+:
+:
+PropertyDescriptor
 >
 desc
 (
