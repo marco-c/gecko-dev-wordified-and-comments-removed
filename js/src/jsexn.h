@@ -177,7 +177,15 @@ JSEXN_URIERR
 JSProto_URIError
 &
 &
-JSEXN_URIERR
+JSProto_Error
++
+JSEXN_DEBUGGEEWOULDRUN
+=
+=
+JSProto_DebuggeeWouldRun
+&
+&
+JSEXN_DEBUGGEEWOULDRUN
 +
 1
 =
