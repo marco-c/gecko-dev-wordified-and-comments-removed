@@ -156,12 +156,6 @@ const
 =
 0
 ;
-SeekJob
-&
-GetSeekJob
-(
-)
-;
 SeekTarget
 &
 GetSeekTarget
@@ -189,7 +183,6 @@ MediaDecoderReaderWrapper
 *
 aReader
 SeekJob
-&
 &
 aSeekJob
 )
@@ -251,6 +244,7 @@ MediaDecoderReaderWrapper
 mReader
 ;
 SeekJob
+&
 mSeekJob
 ;
 SeekTarget

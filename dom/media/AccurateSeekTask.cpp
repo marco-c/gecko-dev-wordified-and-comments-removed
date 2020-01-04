@@ -216,7 +216,6 @@ MediaDecoderReaderWrapper
 aReader
 SeekJob
 &
-&
 aSeekJob
 const
 MediaInfo
@@ -238,10 +237,7 @@ SeekTask
 aDecoderID
 aThread
 aReader
-Move
-(
 aSeekJob
-)
 )
 mCurrentTimeBeforeSeek
 (

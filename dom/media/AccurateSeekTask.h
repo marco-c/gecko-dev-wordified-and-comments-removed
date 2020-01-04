@@ -58,7 +58,6 @@ MediaDecoderReaderWrapper
 aReader
 SeekJob
 &
-&
 aSeekJob
 const
 MediaInfo

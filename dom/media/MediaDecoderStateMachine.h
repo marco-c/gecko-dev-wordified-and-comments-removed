@@ -1560,6 +1560,9 @@ PLAY_STATE_PLAYING
 SeekJob
 mQueuedSeek
 ;
+SeekJob
+mCurrentSeek
+;
 RefPtr
 <
 SeekTask
