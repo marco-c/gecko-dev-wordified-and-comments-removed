@@ -4086,6 +4086,10 @@ get_preferred_sample_rate
 =
 opensl_get_preferred_sample_rate
 .
+enumerate_devices
+=
+NULL
+.
 destroy
 =
 opensl_destroy

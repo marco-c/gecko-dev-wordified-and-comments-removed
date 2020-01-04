@@ -181,6 +181,14 @@ synth_state
 )
 )
 ;
+if
+(
+!
+synth
+)
+return
+NULL
+;
 for
 (
 int
