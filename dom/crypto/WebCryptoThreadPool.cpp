@@ -272,6 +272,14 @@ if
 mPool
 )
 {
+NS_ENSURE_TRUE
+(
+EnsureNSSInitializedChromeOrContent
+(
+)
+NS_ERROR_FAILURE
+)
+;
 nsCOMPtr
 <
 nsIThreadPool
