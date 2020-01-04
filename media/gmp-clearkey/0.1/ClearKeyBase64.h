@@ -22,7 +22,7 @@ stdint
 h
 >
 bool
-DecodeBase64KeyOrId
+DecodeBase64
 (
 const
 std
