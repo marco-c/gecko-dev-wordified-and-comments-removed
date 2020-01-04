@@ -4708,6 +4708,9 @@ USE_LIBS
 =
 [
 '
+fdlibm
+'
+'
 nspr
 '
 '
