@@ -175,6 +175,9 @@ OS_LIBS
 esent
 '
 '
+netapi32
+'
+'
 ole32
 '
 '
@@ -193,6 +196,11 @@ DELAYLOAD_DLLS
 [
 '
 esent
+.
+dll
+'
+'
+netapi32
 .
 dll
 '

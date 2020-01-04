@@ -181,6 +181,11 @@ dbghelp
 dll
 '
 '
+netapi32
+.
+dll
+'
+'
 PowrProf
 .
 dll
@@ -1849,6 +1854,9 @@ imm32
 '
 '
 msimg32
+'
+'
+netapi32
 '
 '
 shlwapi
