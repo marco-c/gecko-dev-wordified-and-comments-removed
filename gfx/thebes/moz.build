@@ -327,6 +327,11 @@ PrintTarget
 h
 '
 '
+PrintTargetRecording
+.
+h
+'
+'
 PrintTargetThebes
 .
 h
@@ -1150,6 +1155,11 @@ cpp
 '
 '
 PrintTarget
+.
+cpp
+'
+'
+PrintTargetRecording
 .
 cpp
 '
