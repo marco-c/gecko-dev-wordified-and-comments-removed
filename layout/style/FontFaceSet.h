@@ -271,8 +271,8 @@ uint32_t
 aWeight
 int32_t
 aStretch
-uint8_t
-aStyle
+uint32_t
+aItalicStyle
 const
 nsTArray
 <
@@ -931,9 +931,9 @@ aWeight
 int32_t
 &
 aStretch
-uint8_t
+uint32_t
 &
-aStyle
+aItalicStyle
 ErrorResult
 &
 aRv

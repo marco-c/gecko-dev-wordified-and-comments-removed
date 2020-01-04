@@ -172,8 +172,8 @@ uint16_t
 aWeight
 int16_t
 aStretch
-uint8_t
-aStyle
+bool
+aItalic
 )
 override
 ;
@@ -198,8 +198,8 @@ uint16_t
 aWeight
 int16_t
 aStretch
-uint8_t
-aStyle
+bool
+aItalic
 const
 uint8_t
 *

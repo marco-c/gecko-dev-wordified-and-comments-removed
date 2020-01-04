@@ -910,8 +910,8 @@ nsAString
 aName
 gfxWindowsFontType
 aFontType
-uint8_t
-aStyle
+bool
+aItalic
 uint16_t
 aWeight
 int16_t
@@ -936,8 +936,8 @@ uint16_t
 aWeight
 int16_t
 aStretch
-uint8_t
-aStyle
+bool
+aItalic
 )
 ;
 uint8_t
@@ -979,8 +979,8 @@ nsAString
 aFaceName
 gfxWindowsFontType
 aFontType
-uint8_t
-aStyle
+bool
+aItalic
 uint16_t
 aWeight
 int16_t
@@ -1163,8 +1163,8 @@ uint16_t
 aWeight
 int16_t
 aStretch
-uint8_t
-aStyle
+bool
+aItalic
 )
 ;
 virtual
@@ -1180,8 +1180,8 @@ uint16_t
 aWeight
 int16_t
 aStretch
-uint8_t
-aStyle
+bool
+aItalic
 const
 uint8_t
 *
