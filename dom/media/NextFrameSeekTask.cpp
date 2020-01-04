@@ -1014,7 +1014,7 @@ void
 NextFrameSeekTask
 :
 :
-CheckIfSeekComplete
+MaybeFinishSeek
 (
 )
 {
@@ -1160,7 +1160,7 @@ mSeekedAudioData
 =
 aAudioSample
 ;
-CheckIfSeekComplete
+MaybeFinishSeek
 (
 )
 ;
@@ -1214,7 +1214,7 @@ u
 aReason
 )
 ;
-CheckIfSeekComplete
+MaybeFinishSeek
 (
 )
 ;
@@ -1303,7 +1303,7 @@ mSeekedVideoData
 aVideoSample
 ;
 }
-CheckIfSeekComplete
+MaybeFinishSeek
 (
 )
 ;
@@ -1379,7 +1379,7 @@ GetSize
 0
 )
 {
-CheckIfSeekComplete
+MaybeFinishSeek
 (
 )
 ;
@@ -1452,7 +1452,7 @@ mIsVideoQueueFinished
 =
 true
 ;
-CheckIfSeekComplete
+MaybeFinishSeek
 (
 )
 ;
@@ -1645,7 +1645,7 @@ WaitCallbackData
 aData
 )
 {
-CheckIfSeekComplete
+MaybeFinishSeek
 (
 )
 ;

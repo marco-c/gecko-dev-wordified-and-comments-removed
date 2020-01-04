@@ -160,7 +160,7 @@ IsVideoSeekComplete
 const
 ;
 void
-CheckIfSeekComplete
+MaybeFinishSeek
 (
 )
 ;
