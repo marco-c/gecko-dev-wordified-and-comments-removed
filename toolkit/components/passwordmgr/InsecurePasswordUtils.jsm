@@ -268,7 +268,7 @@ consoleMsg
 )
 ;
 }
-_checkIfURIisSecure
+checkIfURIisSecure
 :
 function
 (
@@ -404,7 +404,7 @@ if
 !
 this
 .
-_checkIfURIisSecure
+checkIfURIisSecure
 (
 uri
 )
@@ -461,7 +461,7 @@ isSafePage
 =
 this
 .
-_checkIfURIisSecure
+checkIfURIisSecure
 (
 pageURI
 )
