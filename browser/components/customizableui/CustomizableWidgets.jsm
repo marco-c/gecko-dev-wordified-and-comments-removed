@@ -3291,7 +3291,7 @@ clients
 const
 maxTabs
 =
-15
+50
 ;
 for
 (
