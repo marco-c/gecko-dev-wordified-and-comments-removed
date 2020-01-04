@@ -131,9 +131,6 @@ RingBuffer
 far_pre_buf
 ;
 int
-lastError
-;
-int
 farend_started
 ;
 AecCore

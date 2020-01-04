@@ -345,7 +345,7 @@ mult
 int
 sampFreq
 ;
-int
+size_t
 num_bands
 ;
 uint32_t
@@ -447,7 +447,10 @@ float
 delay_quality_threshold
 ;
 int
-reported_delay_enabled
+frame_count
+;
+int
+delay_agnostic_enabled
 ;
 int
 extended_filter_enabled
@@ -483,6 +486,10 @@ outFile
 rtc_WavWriter
 *
 outLinearFile
+;
+rtc_WavWriter
+*
+e_fft_file
 ;
 uint32_t
 debugWritten
