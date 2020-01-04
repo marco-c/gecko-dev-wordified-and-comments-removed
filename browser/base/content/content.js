@@ -797,6 +797,18 @@ nsIDOMWindowUtils
 .
 outerWindowID
 ;
+let
+loginFillInfo
+=
+LoginManagerContent
+.
+getFieldContext
+(
+event
+.
+target
+)
+;
 if
 (
 Services
@@ -1159,6 +1171,7 @@ contentDisposition
 frameOuterWindowID
 selectionInfo
 disableSetDesktopBg
+loginFillInfo
 }
 {
 event
@@ -1240,6 +1253,7 @@ selectionInfo
 disableSetDesktopBackground
 :
 disableSetDesktopBg
+loginFillInfo
 }
 ;
 }

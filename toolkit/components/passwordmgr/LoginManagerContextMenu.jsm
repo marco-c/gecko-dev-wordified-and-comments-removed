@@ -320,7 +320,7 @@ event
 {
 this
 .
-_fillPassword
+_fillTargetField
 (
 login
 inputElement
@@ -582,7 +582,7 @@ return
 duplicates
 ;
 }
-_fillPassword
+_fillTargetField
 (
 login
 inputElement

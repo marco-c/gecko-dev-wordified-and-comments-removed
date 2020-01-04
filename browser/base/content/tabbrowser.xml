@@ -27399,6 +27399,13 @@ aMessage
 data
 .
 disableSetDesktopBg
+loginFillInfo
+:
+aMessage
+.
+data
+.
+loginFillInfo
 }
 ;
 let
