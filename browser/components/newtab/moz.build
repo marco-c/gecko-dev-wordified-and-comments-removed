@@ -131,6 +131,11 @@ NewTabURL
 jsm
 '
 '
+PlacesProvider
+.
+jsm
+'
+'
 RemoteAboutNewTab
 .
 jsm
