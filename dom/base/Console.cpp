@@ -4382,7 +4382,6 @@ aStackFrame
 >
 GetAsyncCause
 (
-aCx
 cause
 )
 ;
@@ -4522,7 +4521,6 @@ stack
 >
 GetAsyncCaller
 (
-aCx
 getter_AddRefs
 (
 caller
