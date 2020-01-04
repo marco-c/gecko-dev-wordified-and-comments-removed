@@ -3819,9 +3819,6 @@ const
 void
 CancelAllTimeouts
 (
-JSContext
-*
-aCx
 )
 ;
 bool
