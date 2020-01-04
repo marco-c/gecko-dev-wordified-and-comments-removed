@@ -477,7 +477,7 @@ ReceiveSocketData
 (
 int
 aIndex
-nsAutoPtr
+UniquePtr
 <
 UnixSocketBuffer
 >

@@ -7,7 +7,9 @@ mozilla_ipc_streamsocketconsumer_h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -31,7 +33,7 @@ ReceiveSocketData
 (
 int
 aIndex
-nsAutoPtr
+UniquePtr
 <
 UnixSocketBuffer
 >

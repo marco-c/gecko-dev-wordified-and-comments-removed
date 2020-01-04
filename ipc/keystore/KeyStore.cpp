@@ -4925,7 +4925,7 @@ ReceiveSocketData
 (
 int
 aIndex
-nsAutoPtr
+UniquePtr
 <
 UnixSocketBuffer
 >
@@ -4978,6 +4978,10 @@ result
 ReadCommand
 (
 aMessage
+.
+get
+(
+)
 )
 ;
 break
@@ -4990,6 +4994,10 @@ result
 ReadLength
 (
 aMessage
+.
+get
+(
+)
 )
 ;
 break
@@ -5002,6 +5010,10 @@ result
 ReadData
 (
 aMessage
+.
+get
+(
+)
 )
 ;
 break

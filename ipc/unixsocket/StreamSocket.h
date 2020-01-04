@@ -50,7 +50,7 @@ aIndex
 void
 ReceiveSocketData
 (
-nsAutoPtr
+UniquePtr
 <
 UnixSocketBuffer
 >

@@ -644,7 +644,7 @@ mBuffer
 }
 private
 :
-nsAutoPtr
+UniquePtr
 <
 UnixSocketBuffer
 >
@@ -1074,7 +1074,7 @@ StreamSocket
 :
 ReceiveSocketData
 (
-nsAutoPtr
+UniquePtr
 <
 UnixSocketBuffer
 >
