@@ -308,15 +308,6 @@ GetRootNode
 (
 )
 {
-if
-(
-!
-mRootNode
-)
-CreateRootNode
-(
-)
-;
 return
 mRootNode
 ;
