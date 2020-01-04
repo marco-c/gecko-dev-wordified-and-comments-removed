@@ -1166,6 +1166,16 @@ OFF
 "
 )
                   
+"
+-
+DLIBCXX_LIBCPPABI_VERSION
+=
+\
+"
+\
+"
+"
+                  
 src_dir
 ]
 ;
