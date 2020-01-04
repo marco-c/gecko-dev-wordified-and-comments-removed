@@ -534,9 +534,13 @@ apk
 DEPTH
 )
 /
-build
-/
 mobile
+/
+android
+/
+tests
+/
+browser
 /
 robocop
 /

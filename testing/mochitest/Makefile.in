@@ -580,9 +580,13 @@ RELEASE_SIGN_ANDROID_APK
 DEPTH
 )
 /
-build
-/
 mobile
+/
+android
+/
+tests
+/
+browser
 /
 robocop
 /
