@@ -70677,6 +70677,8 @@ export
 JS_STANDALONE
 =
 no
+unset
+MOZ_BUILD_APP
 export
 DIST
 export

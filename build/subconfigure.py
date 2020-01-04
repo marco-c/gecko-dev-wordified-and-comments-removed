@@ -1952,6 +1952,16 @@ configure
 py
 '
 )
+                
+'
+-
+-
+enable
+-
+project
+=
+js
+'
             
 ]
             
