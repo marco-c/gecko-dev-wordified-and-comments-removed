@@ -1,3 +1,10 @@
+altgraph
+.
+pth
+:
+python
+/
+altgraph
 marionette_driver
 .
 pth
@@ -142,6 +149,13 @@ licenses
 /
 ply
 /
+macholib
+.
+pth
+:
+python
+/
+macholib
 mock
 .
 pth
