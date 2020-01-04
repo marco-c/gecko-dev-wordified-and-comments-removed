@@ -71,6 +71,10 @@ rank
 client_id
 access_token
 log_obj
+                 
+task_id
+=
+None
 )
 :
         
@@ -165,6 +169,8 @@ self
 .
 task_id
 =
+task_id
+or
 taskcluster
 .
 slugId
@@ -1161,6 +1167,7 @@ set_bbb_artifacts
 (
 self
 task_id
+properties_file_path
 )
 :
         
@@ -1171,9 +1178,7 @@ Find
 BBB
 artifacts
 through
-properties
-.
-json
+properties_file_path
 and
 set
 them
@@ -1194,15 +1199,14 @@ self
 url_to_artifact
 (
 task_id
+properties_file_path
+)
+)
+[
 '
-public
-/
 properties
-.
-json
 '
-)
-)
+]
         
 self
 .
@@ -1214,9 +1218,6 @@ p
 '
 packageUrl
 '
-]
-[
-0
 ]
 if
 p
@@ -1235,9 +1236,6 @@ p
 '
 testPackagesUrl
 '
-]
-[
-0
 ]
 if
 p
@@ -1256,9 +1254,6 @@ p
 '
 symbolsUrl
 '
-]
-[
-0
 ]
 if
 p
@@ -1687,7 +1682,23 @@ self
 .
 set_bbb_artifacts
 (
+                    
+task_id
+=
 parent_id
+                    
+properties_file_path
+=
+'
+public
+/
+build
+/
+buildbot_properties
+.
+json
+'
+                
 )
         
 else
@@ -1706,5 +1717,21 @@ self
 .
 set_bbb_artifacts
 (
+                
+task_id
+=
 parent_id
+                
+properties_file_path
+=
+'
+public
+/
+build
+/
+buildbot_properties
+.
+json
+'
+            
 )
