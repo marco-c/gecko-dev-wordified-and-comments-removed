@@ -17642,12 +17642,12 @@ isForeground
 {
 color
 =
-mStyleContext
--
->
-GetTextFillColor
+StyleColor
 (
 )
+-
+>
+mColor
 ;
 }
 SetToRGBAColor

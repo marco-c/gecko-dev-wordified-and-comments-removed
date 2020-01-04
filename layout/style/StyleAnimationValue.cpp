@@ -19757,9 +19757,12 @@ color
 aStyleContext
 -
 >
-GetTextFillColor
+StyleColor
 (
 )
+-
+>
+mColor
 ;
 }
 aComputedValue

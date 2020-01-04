@@ -1780,12 +1780,7 @@ nsLayoutUtils
 GetColor
 (
 f
-context
--
->
-GetTextFillColorProp
-(
-)
+eCSSProperty_color
 )
 ;
 }
