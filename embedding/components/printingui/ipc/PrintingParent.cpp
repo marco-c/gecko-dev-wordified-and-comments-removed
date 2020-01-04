@@ -157,6 +157,11 @@ result
 =
 NS_ERROR_FAILURE
 ;
+*
+notifyOnOpen
+=
+false
+;
 nsCOMPtr
 <
 nsIDOMWindow
