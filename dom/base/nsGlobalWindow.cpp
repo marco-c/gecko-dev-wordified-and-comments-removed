@@ -14706,7 +14706,7 @@ case
 eResize
 :
 case
-NS_PAGE_UNLOAD
+eUnload
 :
 case
 NS_LOAD
@@ -14768,7 +14768,7 @@ mEvent
 mMessage
 =
 =
-NS_PAGE_UNLOAD
+eUnload
 &
 &
 aVisitor

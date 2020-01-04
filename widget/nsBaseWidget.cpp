@@ -12264,9 +12264,9 @@ NS_AFTER_SCRIPT_EXECUTE
 ;
 _ASSIGN_eventName
 (
-NS_PAGE_UNLOAD
+eUnload
 "
-NS_PAGE_UNLOAD
+eUnload
 "
 )
 ;
