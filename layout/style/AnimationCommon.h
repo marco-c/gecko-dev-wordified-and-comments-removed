@@ -950,12 +950,9 @@ aRefreshTime
 enum
 CanAnimateFlags
 {
-CanAnimate_HasGeometricProperty
-=
-1
 CanAnimate_AllowPartial
 =
-2
+1
 }
 ;
 enum
