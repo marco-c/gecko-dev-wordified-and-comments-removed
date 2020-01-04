@@ -825,7 +825,7 @@ What
 Null
 key
 in
-pldhash
+PLDHashTable
 entry
 ?
 "

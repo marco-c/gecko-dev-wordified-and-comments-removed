@@ -7,7 +7,7 @@ SpanningCellSorter_h
 #
 include
 "
-pldhash
+PLDHashTable
 .
 h
 "

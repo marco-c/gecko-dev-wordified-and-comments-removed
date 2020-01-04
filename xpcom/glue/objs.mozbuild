@@ -217,7 +217,7 @@ nsWeakReference
 cpp
 '
 '
-pldhash
+PLDHashTable
 .
 cpp
 '

@@ -1,9 +1,9 @@
 #
 ifndef
-pldhash_h___
+PLDHashTable_h
 #
 define
-pldhash_h___
+PLDHashTable_h
 #
 include
 "
