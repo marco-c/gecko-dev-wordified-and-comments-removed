@@ -13,16 +13,6 @@ Logging
 .
 h
 "
-extern
-mozilla
-:
-:
-LogModule
-*
-GetPDMLog
-(
-)
-;
 #
 define
 FFMPEG_LOG
@@ -33,9 +23,7 @@ FFMPEG_LOG
 )
 MOZ_LOG
 (
-GetPDMLog
-(
-)
+sPDMLog
 mozilla
 :
 :

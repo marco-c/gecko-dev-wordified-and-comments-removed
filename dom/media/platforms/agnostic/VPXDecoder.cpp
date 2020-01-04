@@ -59,16 +59,6 @@ algorithm
 #
 undef
 LOG
-extern
-mozilla
-:
-:
-LogModule
-*
-GetPDMLog
-(
-)
-;
 #
 define
 LOG
@@ -80,9 +70,7 @@ arg
 )
 MOZ_LOG
 (
-GetPDMLog
-(
-)
+sPDMLog
 mozilla
 :
 :

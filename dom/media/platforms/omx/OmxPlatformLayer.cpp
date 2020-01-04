@@ -44,16 +44,6 @@ h
 "
 #
 endif
-extern
-mozilla
-:
-:
-LogModule
-*
-GetPDMLog
-(
-)
-;
 #
 ifdef
 LOG
@@ -73,9 +63,7 @@ arg
 )
 MOZ_LOG
 (
-GetPDMLog
-(
-)
+sPDMLog
 mozilla
 :
 :

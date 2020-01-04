@@ -207,11 +207,6 @@ PDMFactory
 cpp
 '
 '
-PlatformDecoderModule
-.
-cpp
-'
-'
 wrappers
 /
 FuzzingWrapper

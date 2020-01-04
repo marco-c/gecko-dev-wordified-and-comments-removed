@@ -104,16 +104,6 @@ gfxPlatform
 .
 h
 "
-extern
-mozilla
-:
-:
-LogModule
-*
-GetPDMLog
-(
-)
-;
 #
 define
 LOG
@@ -124,9 +114,7 @@ LOG
 )
 MOZ_LOG
 (
-GetPDMLog
-(
-)
+sPDMLog
 mozilla
 :
 :
