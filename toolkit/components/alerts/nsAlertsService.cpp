@@ -495,7 +495,6 @@ aAlertListener
 aAlertName
 aBidi
 aLang
-aPrincipal
 aInPrivateBrowsing
 )
 ;

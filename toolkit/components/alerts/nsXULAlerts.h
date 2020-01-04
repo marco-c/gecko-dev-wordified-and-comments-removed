@@ -89,9 +89,6 @@ const
 nsAString
 &
 aLang
-nsIPrincipal
-*
-aPrincipal
 bool
 aInPrivateBrowsing
 )
