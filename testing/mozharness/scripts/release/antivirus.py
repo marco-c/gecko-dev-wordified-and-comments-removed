@@ -1254,6 +1254,8 @@ retry_exceptions
 (
 S3CopyError
 S3ResponseError
+                                           
+IOError
 )
 )
         
