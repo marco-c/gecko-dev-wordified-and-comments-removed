@@ -2150,7 +2150,7 @@ nsISelectionController
 :
 :
 SELECTION_IME_RAWINPUT
-SELECTION_IME_SELECTEDRAWTEXT
+eIMESelectedRawClause
 =
 nsISelectionController
 :

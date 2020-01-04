@@ -654,7 +654,7 @@ case
 SelectionType
 :
 :
-SELECTION_IME_SELECTEDRAWTEXT
+eIMESelectedRawClause
 :
 return
 "
@@ -805,7 +805,7 @@ case
 SelectionType
 :
 :
-SELECTION_IME_SELECTEDRAWTEXT
+eIMESelectedRawClause
 :
 case
 SelectionType
@@ -1502,7 +1502,7 @@ case
 SelectionType
 :
 :
-SELECTION_IME_SELECTEDRAWTEXT
+eIMESelectedRawClause
 :
 return
 3
@@ -1600,7 +1600,7 @@ eIMERawClause
 SelectionType
 :
 :
-SELECTION_IME_SELECTEDRAWTEXT
+eIMESelectedRawClause
 SelectionType
 :
 :
