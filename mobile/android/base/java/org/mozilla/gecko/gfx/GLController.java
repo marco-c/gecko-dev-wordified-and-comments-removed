@@ -454,9 +454,13 @@ return
 }
 if
 (
-GeckoThread
+mView
 .
-isRunning
+getLayerClient
+(
+)
+.
+isGeckoReady
 (
 )
 )

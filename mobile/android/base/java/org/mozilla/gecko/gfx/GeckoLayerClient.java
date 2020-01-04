@@ -294,6 +294,7 @@ ZoomConstraints
 mZoomConstraints
 ;
 private
+volatile
 boolean
 mGeckoIsReady
 ;
@@ -550,9 +551,18 @@ listener
 )
 ;
 }
+boolean
+isGeckoReady
+(
+)
+{
+return
+mGeckoIsReady
+;
+}
 public
 void
-notifyGeckoReady
+onGeckoReady
 (
 )
 {
