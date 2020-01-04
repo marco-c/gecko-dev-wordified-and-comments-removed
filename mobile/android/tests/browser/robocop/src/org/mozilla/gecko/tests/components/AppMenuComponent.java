@@ -1212,13 +1212,6 @@ assertMenuIsNotOpen
 ;
 if
 (
-HardwareUtils
-.
-hasMenuButton
-(
-)
-|
-|
 DeviceHelper
 .
 isTablet

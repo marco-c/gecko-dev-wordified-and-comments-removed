@@ -379,14 +379,6 @@ menuButtonMarginView
 !
 =
 null
-&
-&
-!
-HardwareUtils
-.
-hasMenuButton
-(
-)
 )
 {
 menuButtonMarginView
