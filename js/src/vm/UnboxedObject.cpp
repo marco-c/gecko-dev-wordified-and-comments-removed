@@ -495,6 +495,17 @@ IntArgReg1
 ;
 #
 endif
+#
+ifdef
+JS_CODEGEN_ARM64
+masm
+.
+initStackPtr
+(
+)
+;
+#
+endif
 MOZ_ASSERT
 (
 propertiesReg
