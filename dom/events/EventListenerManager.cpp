@@ -5211,11 +5211,9 @@ TimelineMarker
 {
 public
 :
+explicit
 EventTimelineMarker
 (
-nsDocShell
-*
-aDocShell
 TracingMetadata
 aMetaData
 uint16_t
@@ -5228,12 +5226,11 @@ aCause
 :
 TimelineMarker
 (
-aDocShell
 "
 DOMEvent
 "
-aMetaData
 aCause
+aMetaData
 )
 mPhase
 (
@@ -5673,7 +5670,6 @@ MakeUnique
 EventTimelineMarker
 >
 (
-ds
 TRACING_INTERVAL_START
 phase
 typeStr

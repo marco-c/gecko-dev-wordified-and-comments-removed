@@ -53470,11 +53470,9 @@ TimelineMarker
 {
 public
 :
+explicit
 JavascriptTimelineMarker
 (
-nsDocShell
-*
-aDocShell
 const
 char
 *
@@ -53497,13 +53495,12 @@ aLineNumber
 :
 TimelineMarker
 (
-aDocShell
 aName
-TRACING_INTERVAL_START
 NS_ConvertUTF8toUTF16
 (
 aReason
 )
+TRACING_INTERVAL_START
 NO_STACK
 )
 mFunctionName
@@ -53732,7 +53729,6 @@ MakeUnique
 JavascriptTimelineMarker
 >
 (
-this
 "
 Javascript
 "

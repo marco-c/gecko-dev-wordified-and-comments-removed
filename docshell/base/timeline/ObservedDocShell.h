@@ -1,9 +1,9 @@
 #
 ifndef
-ObservedDocShell_h_
+mozilla_ObservedDocShell_h_
 #
 define
-ObservedDocShell_h_
+mozilla_ObservedDocShell_h_
 #
 include
 "

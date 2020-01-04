@@ -440,11 +440,9 @@ TimelineMarker
 {
 public
 :
+explicit
 RestyleTimelineMarker
 (
-nsDocShell
-*
-aDocShell
 TracingMetadata
 aMetaData
 nsRestyleHint
@@ -453,7 +451,6 @@ aRestyleHint
 :
 TimelineMarker
 (
-aDocShell
 "
 Styles
 "
@@ -1834,7 +1831,6 @@ MakeUnique
 RestyleTimelineMarker
 >
 (
-docShell
 TRACING_INTERVAL_START
 data
 -
@@ -1950,7 +1946,6 @@ MakeUnique
 RestyleTimelineMarker
 >
 (
-docShell
 TRACING_INTERVAL_END
 data
 -
@@ -2174,7 +2169,6 @@ MakeUnique
 RestyleTimelineMarker
 >
 (
-docShell
 TRACING_INTERVAL_START
 currentRestyle
 -
@@ -2234,7 +2228,6 @@ MakeUnique
 RestyleTimelineMarker
 >
 (
-docShell
 TRACING_INTERVAL_END
 currentRestyle
 -
