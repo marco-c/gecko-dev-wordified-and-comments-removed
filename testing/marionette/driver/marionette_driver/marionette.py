@@ -4219,6 +4219,10 @@ None
 startup_timeout
 =
 None
+                 
+workspace
+=
+None
 )
 :
         
@@ -4593,6 +4597,7 @@ profile
 app_args
 =
 app_args
+                                           
 symbols_path
 =
 symbols_path
@@ -4609,6 +4614,10 @@ addons
 self
 .
 addons
+                                           
+workspace
+=
+workspace
 )
             
 self
