@@ -558,6 +558,23 @@ result
 .
 append
 (
+MOZ_UTF16
+(
+'
+'
+)
+)
+)
+return
+false
+;
+if
+(
+!
+result
+.
+append
+(
 prefix
 .
 begin
@@ -1109,7 +1126,6 @@ MOZ_UTF16
 func
 "
 )
-6
 )
 calleeIndex
 &
@@ -1267,7 +1283,6 @@ MOZ_UTF16
 type
 "
 )
-6
 )
 sigIndex
 &
@@ -1582,7 +1597,6 @@ MOZ_UTF16
 import
 "
 )
-8
 )
 importIndex
 &
@@ -1786,7 +1800,6 @@ MOZ_UTF16
 label
 "
 )
-7
 )
 c
 .
@@ -3680,7 +3693,6 @@ MOZ_UTF16
 var
 "
 )
-5
 )
 getLocalId
 &
@@ -3788,7 +3800,6 @@ MOZ_UTF16
 var
 "
 )
-5
 )
 setLocalId
 &
@@ -6353,7 +6364,6 @@ MOZ_UTF16
 type
 "
 )
-6
 )
 sigIndex
 &
@@ -7121,7 +7131,6 @@ MOZ_UTF16
 type
 "
 )
-6
 )
 sigIndex
 &
@@ -7219,7 +7228,6 @@ MOZ_UTF16
 import
 "
 )
-8
 )
 importIndex
 &
@@ -7701,7 +7709,6 @@ MOZ_UTF16
 memory
 "
 )
-6
 )
 )
 ;
@@ -8296,7 +8303,6 @@ MOZ_UTF16
 func
 "
 )
-6
 )
 funcIndex
 &
@@ -8395,7 +8401,6 @@ MOZ_UTF16
 var
 "
 )
-5
 )
 i
 &
@@ -8572,7 +8577,6 @@ MOZ_UTF16
 type
 "
 )
-6
 )
 sigIndex
 &
