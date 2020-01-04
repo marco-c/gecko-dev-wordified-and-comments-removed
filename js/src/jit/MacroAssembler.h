@@ -2850,6 +2850,17 @@ x64
 ;
 inline
 void
+subDouble
+(
+FloatRegister
+src
+FloatRegister
+dest
+)
+PER_SHARED_ARCH
+;
+inline
+void
 lshiftPtr
 (
 Imm32
