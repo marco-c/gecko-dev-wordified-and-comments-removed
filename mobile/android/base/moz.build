@@ -2093,7 +2093,7 @@ java
 '
 distribution
 /
-PartnerBookmarksProviderClient
+PartnerBookmarksProviderProxy
 .
 java
 '
