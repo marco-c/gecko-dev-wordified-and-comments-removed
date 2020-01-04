@@ -154,6 +154,11 @@ host
 "
 )
 ;
+yield
+waitForTick
+(
+)
+;
 let
 btn
 =
@@ -200,7 +205,7 @@ frames
 =
 menu
 .
-menuitems
+items
 ;
 is
 (

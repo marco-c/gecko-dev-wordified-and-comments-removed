@@ -205,7 +205,7 @@ frames
 =
 menu
 .
-menuitems
+items
 ;
 is
 (
