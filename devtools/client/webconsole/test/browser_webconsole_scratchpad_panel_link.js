@@ -399,16 +399,11 @@ matched
 querySelector
 (
 "
+a
 .
 message
 -
 location
-.
-frame
--
-link
--
-filename
 "
 )
 ;
