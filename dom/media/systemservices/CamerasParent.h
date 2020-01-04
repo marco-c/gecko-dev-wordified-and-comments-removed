@@ -568,6 +568,9 @@ mCallbacks
 Mutex
 mCallbackMutex
 ;
+Mutex
+mEngineMutex
+;
 mozilla
 :
 :
