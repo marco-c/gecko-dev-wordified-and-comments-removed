@@ -846,6 +846,13 @@ mIdleThreadLimit
 |
 |
 (
+mIdleThreadTimeout
+!
+=
+UINT32_MAX
+&
+&
+(
 now
 -
 idleSince
@@ -853,6 +860,7 @@ idleSince
 >
 =
 timeout
+)
 )
 {
 exitThread
