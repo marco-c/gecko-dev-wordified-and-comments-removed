@@ -891,6 +891,11 @@ nsIGlobalObject
 aGlobalObject
 )
 ;
+~
+AutoIncumbentScript
+(
+)
+;
 private
 :
 JS
@@ -918,6 +923,11 @@ aIsMainThread
 NS_IsMainThread
 (
 )
+)
+;
+~
+AutoNoJSAPI
+(
 )
 ;
 private
