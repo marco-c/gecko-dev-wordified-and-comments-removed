@@ -34,15 +34,11 @@ nsDisplayList
 .
 h
 "
-typedef
-nsAtomicContainerFrame
-nsFormControlFrameSuper
-;
 class
 nsFormControlFrame
 :
 public
-nsFormControlFrameSuper
+nsAtomicContainerFrame
 public
 nsIFormControlFrame
 {
@@ -75,7 +71,7 @@ const
 override
 {
 return
-nsFormControlFrameSuper
+nsAtomicContainerFrame
 :
 :
 IsFrameOfType
