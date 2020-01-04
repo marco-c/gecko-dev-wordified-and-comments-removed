@@ -242,7 +242,7 @@ closure
 #
 define
 JS_STRUCTURED_CLONE_VERSION
-5
+6
 struct
 JSStructuredCloneCallbacks
 {
