@@ -11682,9 +11682,13 @@ DoRunLoop
 cx
 )
 ;
-JS_ReportPendingException
+MOZ_ASSERT
+(
+!
+JS_IsExceptionPending
 (
 cx
+)
 )
 ;
 }
