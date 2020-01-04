@@ -705,6 +705,11 @@ Visibility
 .
 h
 '
+'
+VisibilityIPC
+.
+h
+'
 ]
 EXPORTS
 .

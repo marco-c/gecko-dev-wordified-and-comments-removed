@@ -19602,7 +19602,7 @@ return
 compositorChild
 -
 >
-SendClearApproximatelyVisibleRegions
+SendClearVisibleRegions
 (
 layersId
 presShellId
@@ -19674,8 +19674,12 @@ viewId
 compositorChild
 -
 >
-SendNotifyApproximatelyVisibleRegion
+SendUpdateVisibleRegion
 (
+VisibilityCounter
+:
+:
+MAY_BECOME_VISIBLE
 guid
 *
 region
@@ -19748,8 +19752,12 @@ viewId
 compositorChild
 -
 >
-SendNotifyApproximatelyVisibleRegion
+SendUpdateVisibleRegion
 (
+VisibilityCounter
+:
+:
+IN_DISPLAYPORT
 guid
 *
 region
