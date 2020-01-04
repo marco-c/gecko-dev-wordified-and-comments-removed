@@ -97,7 +97,7 @@ test_certificates
 =
 (
 '
-ev_ee_39_months
+ev_ee_27_months
 -
 ev_int_60_months
 -
@@ -106,7 +106,7 @@ evroot
 pem
 '
 '
-ev_ee_40_months
+ev_ee_28_months
 -
 ev_int_60_months
 -
