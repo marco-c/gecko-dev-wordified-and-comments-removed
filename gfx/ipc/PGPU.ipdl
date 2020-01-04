@@ -216,6 +216,8 @@ GfxVarUpdate
 [
 ]
 vars
+DevicePrefs
+devicePrefs
 )
 ;
 async

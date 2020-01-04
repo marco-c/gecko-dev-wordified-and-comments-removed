@@ -1388,6 +1388,13 @@ recreating
 )
 ;
 }
+if
+(
+XRE_IsParentProcess
+(
+)
+)
+{
 D3D11Checks
 :
 :
@@ -1396,6 +1403,7 @@ WarnOnAdapterMismatch
 mCompositorDevice
 )
 ;
+}
 mCompositorDevice
 -
 >

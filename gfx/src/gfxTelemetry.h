@@ -25,6 +25,7 @@ Available
 ForceEnabled
 CrashedOnStartup
 Broken
+LAST
 }
 ;
 const

@@ -136,6 +136,16 @@ aFeature
 ;
 static
 void
+Inherit
+(
+Feature
+aFeature
+FeatureStatus
+aStatus
+)
+;
+static
+void
 Disable
 (
 Feature

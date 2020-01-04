@@ -87,6 +87,10 @@ GfxVarUpdate
 &
 &
 vars
+const
+DevicePrefs
+&
+devicePrefs
 )
 override
 ;
