@@ -241,6 +241,12 @@ mIsCFF
 bool
 mIsCFFInitialized
 ;
+nsTHashtable
+<
+nsUint32HashKey
+>
+mAvailableTables
+;
 }
 ;
 class
