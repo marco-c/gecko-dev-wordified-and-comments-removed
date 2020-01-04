@@ -13863,15 +13863,6 @@ propertyToCheck
 )
 )
 {
-NS_WARNING
-(
-"
-failure
-in
-BuildStyleRule
-"
-)
-;
 return
 nullptr
 ;
