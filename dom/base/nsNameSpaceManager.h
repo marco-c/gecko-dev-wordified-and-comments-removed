@@ -129,6 +129,14 @@ nsAString
 aURI
 )
 ;
+int32_t
+GetNameSpaceID
+(
+nsIAtom
+*
+aURI
+)
+;
 bool
 HasElementCreator
 (
