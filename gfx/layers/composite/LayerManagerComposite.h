@@ -782,6 +782,9 @@ aLayer
 nsIntRegion
 &
 aOpaqueRegion
+LayerIntRegion
+&
+aVisibleRegion
 )
 ;
 class
