@@ -63,6 +63,10 @@ JS
 :
 RootedString
 ;
+using
+namespace
+js
+;
 struct
 FakeNode
 {
