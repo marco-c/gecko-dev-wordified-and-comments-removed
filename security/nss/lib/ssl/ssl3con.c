@@ -19138,6 +19138,12 @@ hashType
 )
 {
 case
+ssl_hash_sha512
+:
+return
+CKM_SHA512
+;
+case
 ssl_hash_sha384
 :
 return
@@ -19151,6 +19157,12 @@ ssl_hash_none
 :
 return
 CKM_SHA256
+;
+case
+ssl_hash_sha1
+:
+return
+CKM_SHA_1
 ;
 default
 :
