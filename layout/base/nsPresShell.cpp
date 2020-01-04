@@ -39885,7 +39885,10 @@ docShell
 "
 Reflow
 "
-TRACING_INTERVAL_START
+MarkerTracingType
+:
+:
+START
 )
 ;
 }
@@ -40841,7 +40844,10 @@ docShell
 "
 Reflow
 "
-TRACING_INTERVAL_END
+MarkerTracingType
+:
+:
+END
 )
 ;
 }

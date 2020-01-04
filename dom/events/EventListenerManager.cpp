@@ -5585,7 +5585,10 @@ EventTimelineMarker
 (
 typeStr
 phase
-TRACING_INTERVAL_START
+MarkerTracingType
+:
+:
+START
 )
 ;
 TimelineConsumers
@@ -5657,7 +5660,10 @@ ds
 "
 DOMEvent
 "
-TRACING_INTERVAL_END
+MarkerTracingType
+:
+:
+END
 )
 ;
 }

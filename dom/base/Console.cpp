@@ -4929,9 +4929,15 @@ aMethodName
 =
 MethodTime
 ?
-TRACING_INTERVAL_START
+MarkerTracingType
 :
-TRACING_INTERVAL_END
+:
+START
+:
+MarkerTracingType
+:
+:
+END
 )
 ;
 TimelineConsumers

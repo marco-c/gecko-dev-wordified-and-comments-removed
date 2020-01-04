@@ -150,6 +150,11 @@ TimelineMarker
 h
 '
 '
+TimelineMarkerEnums
+.
+h
+'
+'
 TimestampTimelineMarker
 .
 h

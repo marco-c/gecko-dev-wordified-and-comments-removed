@@ -47,7 +47,10 @@ TimelineMarker
 "
 Layer
 "
-TRACING_EVENT
+MarkerTracingType
+:
+:
+HELPER_EVENT
 )
 mRegion
 (

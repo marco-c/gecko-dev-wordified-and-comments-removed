@@ -38,8 +38,8 @@ RestyleTimelineMarker
 (
 nsRestyleHint
 aRestyleHint
-TracingMetadata
-aMetaData
+MarkerTracingType
+aTracingType
 )
 :
 TimelineMarker
@@ -47,7 +47,7 @@ TimelineMarker
 "
 Styles
 "
-aMetaData
+aTracingType
 )
 {
 if
@@ -88,12 +88,15 @@ override
 {
 if
 (
-GetMetaData
+GetTracingType
 (
 )
 =
 =
-TRACING_INTERVAL_START
+MarkerTracingType
+:
+:
+START
 )
 {
 aMarker

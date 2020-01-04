@@ -42,8 +42,8 @@ nsAString
 aType
 uint16_t
 aPhase
-TracingMetadata
-aMetaData
+MarkerTracingType
+aTracingType
 )
 :
 TimelineMarker
@@ -51,7 +51,7 @@ TimelineMarker
 "
 DOMEvent
 "
-aMetaData
+aTracingType
 )
 mType
 (
@@ -81,12 +81,15 @@ override
 {
 if
 (
-GetMetaData
+GetTracingType
 (
 )
 =
 =
-TRACING_INTERVAL_START
+MarkerTracingType
+:
+:
+START
 )
 {
 aMarker

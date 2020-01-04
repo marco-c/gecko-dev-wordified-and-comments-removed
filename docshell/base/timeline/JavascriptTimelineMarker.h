@@ -72,8 +72,8 @@ char16_t
 aFileName
 uint32_t
 aLineNumber
-TracingMetadata
-aMetaData
+MarkerTracingType
+aTracingType
 )
 :
 TimelineMarker
@@ -81,7 +81,10 @@ TimelineMarker
 "
 Javascript
 "
-aMetaData
+aTracingType
+MarkerStackRequest
+:
+:
 NO_STACK
 )
 mCause

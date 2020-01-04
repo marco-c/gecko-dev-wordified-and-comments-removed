@@ -6628,7 +6628,10 @@ docShell
 "
 Paint
 "
-TRACING_INTERVAL_START
+MarkerTracingType
+:
+:
+START
 )
 ;
 }
@@ -6731,7 +6734,10 @@ docShell
 "
 Paint
 "
-TRACING_INTERVAL_END
+MarkerTracingType
+:
+:
+END
 )
 ;
 }

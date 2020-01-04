@@ -292,8 +292,8 @@ const
 char
 *
 aName
-TracingMetadata
-aMetaData
+MarkerTracingType
+aTracingType
 )
 {
 if
@@ -322,7 +322,7 @@ TimelineMarker
 >
 (
 aName
-aMetaData
+aTracingType
 )
 )
 )
@@ -346,8 +346,8 @@ const
 TimeStamp
 &
 aTime
-TracingMetadata
-aMetaData
+MarkerTracingType
+aTracingType
 )
 {
 if
@@ -377,7 +377,7 @@ TimelineMarker
 (
 aName
 aTime
-aMetaData
+aTracingType
 )
 )
 )
@@ -441,8 +441,8 @@ const
 char
 *
 aName
-TracingMetadata
-aMetaData
+MarkerTracingType
+aTracingType
 )
 {
 AddMarkerForDocShell
@@ -456,7 +456,7 @@ nsDocShell
 aDocShell
 )
 aName
-aMetaData
+aTracingType
 )
 ;
 }
@@ -477,8 +477,8 @@ const
 TimeStamp
 &
 aTime
-TracingMetadata
-aMetaData
+MarkerTracingType
+aTracingType
 )
 {
 AddMarkerForDocShell
@@ -493,7 +493,7 @@ aDocShell
 )
 aName
 aTime
-aMetaData
+aTracingType
 )
 ;
 }
@@ -551,8 +551,8 @@ const
 char
 *
 aName
-TracingMetadata
-aMetaData
+MarkerTracingType
+aTracingType
 )
 {
 for
@@ -597,7 +597,7 @@ front
 (
 )
 aName
-aMetaData
+aTracingType
 )
 ;
 }
@@ -612,8 +612,8 @@ const
 char
 *
 aName
-TracingMetadata
-aMetaData
+MarkerTracingType
+aTracingType
 )
 {
 Vector
@@ -641,7 +641,7 @@ AddMarkerForDocShellsList
 (
 docShells
 aName
-aMetaData
+aTracingType
 )
 ;
 }
