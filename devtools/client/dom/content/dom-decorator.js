@@ -112,9 +112,6 @@ return
 names
 ;
 }
-return
-null
-;
 }
 getValueRep
 :
