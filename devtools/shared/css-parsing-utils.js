@@ -1307,9 +1307,14 @@ current
 current
 +
 =
+CSS
+.
+escape
+(
 token
 .
 text
+)
 ;
 }
 }
