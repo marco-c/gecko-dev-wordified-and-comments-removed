@@ -10,7 +10,7 @@ MOZ_IS_GCC
 0
 #
 define
-MOS_IS_MSVC
+MOZ_IS_MSVC
 0
 #
 if
