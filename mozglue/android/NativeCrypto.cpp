@@ -674,6 +674,8 @@ digest
 ;
 }
 delete
+[
+]
 digest
 ;
 return
