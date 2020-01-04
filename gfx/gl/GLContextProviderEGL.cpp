@@ -4632,16 +4632,6 @@ out_failureId
 )
 )
 {
-*
-out_failureId
-=
-NS_LITERAL_CSTRING
-(
-"
-FEATURE_FAILURE_EGL_LIB_INIT
-"
-)
-;
 return
 nullptr
 ;
