@@ -74,8 +74,6 @@ NotPseudo
 class
 nsCSSPseudoClasses
 {
-public
-:
 typedef
 mozilla
 :
@@ -83,6 +81,8 @@ mozilla
 CSSPseudoClassType
 Type
 ;
+public
+:
 static
 void
 AddRefAtoms
