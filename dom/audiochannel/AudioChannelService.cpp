@@ -1117,6 +1117,8 @@ RegisterAudioChannelAgent
 AudioChannelAgent
 *
 aAgent
+AudibleState
+aAudible
 )
 {
 MOZ_ASSERT
@@ -1180,6 +1182,7 @@ winData
 AppendAgent
 (
 aAgent
+aAudible
 )
 ;
 MaybeSendStatusUpdate
@@ -4662,6 +4665,8 @@ AppendAgent
 AudioChannelAgent
 *
 aAgent
+AudibleState
+aAudible
 )
 {
 MOZ_ASSERT
@@ -4681,6 +4686,12 @@ AudioCaptureState
 :
 :
 eCapturing
+)
+;
+AudioAudibleChanged
+(
+aAgent
+aAudible
 )
 ;
 }

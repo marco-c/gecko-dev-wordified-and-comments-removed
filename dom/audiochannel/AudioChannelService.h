@@ -264,6 +264,8 @@ RegisterAudioChannelAgent
 AudioChannelAgent
 *
 aAgent
+AudibleState
+aAudible
 )
 ;
 void
@@ -703,6 +705,8 @@ AppendAgent
 AudioChannelAgent
 *
 aAgent
+AudibleState
+aAudible
 )
 ;
 void
