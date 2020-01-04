@@ -100,7 +100,7 @@ hasValues
 return
 SwitchBoard
 .
-getExperimentValueFromJson
+getExperimentValuesFromJson
 (
 context
 experimentName
