@@ -61,8 +61,7 @@ js
 gc
 :
 :
-AutoFinishGC
-finish
+FinishGC
 (
 rt
 )

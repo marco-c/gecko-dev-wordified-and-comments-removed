@@ -5634,8 +5634,7 @@ dest
 gc
 :
 :
-AutoFinishGC
-finishGC
+FinishGC
 (
 rt
 )
