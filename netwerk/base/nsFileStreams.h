@@ -582,12 +582,6 @@ nsPartialFileInputStream
 )
 {
 }
-inline
-nsresult
-DoPendingOpen
-(
-)
-;
 private
 :
 uint64_t
