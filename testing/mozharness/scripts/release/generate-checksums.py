@@ -593,6 +593,16 @@ virtualenv_path
 "
 venv
 "
+                
+'
+buildbot_json_path
+'
+:
+'
+buildprops
+.
+json
+'
             
 }
             
