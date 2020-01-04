@@ -450,7 +450,7 @@ mTabWidget
 ;
 private
 static
-ImageButton
+View
 mMenuButton
 ;
 private
@@ -805,9 +805,6 @@ this
 ;
 mMenuButton
 =
-(
-ImageButton
-)
 findViewById
 (
 R

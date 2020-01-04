@@ -464,7 +464,9 @@ android
 layout_height
 =
 "
-16dp
+dimen
+/
+browser_toolbar_menu_icon_height
 "
 android
 :
