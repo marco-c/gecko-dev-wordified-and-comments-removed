@@ -3,12 +3,6 @@ MANIFEST
 .
 in
 include
-external
--
-media
--
-tests
--
 requirements
 .
 txt
