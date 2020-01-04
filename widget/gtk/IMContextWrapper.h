@@ -632,6 +632,9 @@ mLayoutChanged
 bool
 mSetCursorPositionOnKeyEvent
 ;
+bool
+mPendingResettingIMContext
+;
 static
 IMContextWrapper
 *
