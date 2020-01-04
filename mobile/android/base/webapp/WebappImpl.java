@@ -966,7 +966,7 @@ null
 Override
 protected
 void
-loadStartupTabWithAboutHome
+loadStartupTab
 (
 final
 int
