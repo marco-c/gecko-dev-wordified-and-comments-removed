@@ -4488,7 +4488,7 @@ mozL10n
 get
 (
 "
-copy_url_button2
+copy_link_menuitem
 "
 )
 }
@@ -4528,7 +4528,7 @@ mozL10n
 get
 (
 "
-email_link_button
+email_link_menuitem
 "
 )
 }
@@ -4568,7 +4568,7 @@ mozL10n
 get
 (
 "
-rooms_list_delete_tooltip
+delete_conversation_menuitem
 "
 )
 }

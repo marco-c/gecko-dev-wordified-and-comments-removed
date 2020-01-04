@@ -1623,7 +1623,7 @@ textContent
 eql
 (
 "
-invite_copy_triggered
+invite_copied_link_button
 "
 )
 ;
@@ -1708,7 +1708,7 @@ textContent
 eql
 (
 "
-invite_copy_triggered
+invite_copied_link_button
 "
 )
 ;
@@ -1790,7 +1790,7 @@ textContent
 eql
 (
 "
-invite_copy_button
+invite_copy_link_button
 "
 )
 ;
@@ -1894,7 +1894,7 @@ textContent
 eql
 (
 "
-invite_copy_button
+invite_copy_link_button
 "
 )
 ;
