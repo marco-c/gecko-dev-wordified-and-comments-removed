@@ -611,7 +611,6 @@ CONFIRM_AGE_DEFAULT_SEC
 NS_IMPL_ISUPPORTS
 (
 nsUrlClassifierDBServiceWorker
-nsIUrlClassifierDBServiceWorker
 nsIUrlClassifierDBService
 )
 nsUrlClassifierDBServiceWorker
@@ -2872,7 +2871,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsUrlClassifierDBServiceWorker
 :
 :
@@ -2918,7 +2917,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsUrlClassifierDBServiceWorker
 :
 :
@@ -3312,7 +3311,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsUrlClassifierDBServiceWorker
 :
 :
