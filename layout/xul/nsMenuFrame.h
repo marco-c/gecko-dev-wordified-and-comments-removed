@@ -235,7 +235,7 @@ ifdef
 DEBUG_LAYOUT
 virtual
 nsresult
-SetDebug
+SetXULDebug
 (
 nsBoxLayoutState
 &
@@ -830,7 +830,7 @@ protected
 ifdef
 DEBUG_LAYOUT
 nsresult
-SetDebug
+SetXULDebug
 (
 nsBoxLayoutState
 &

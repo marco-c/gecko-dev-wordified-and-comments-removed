@@ -3962,7 +3962,7 @@ nsresult
 nsBoxFrame
 :
 :
-SetDebug
+SetXULDebug
 (
 nsBoxLayoutState
 &
@@ -8076,7 +8076,7 @@ child
 child
 -
 >
-SetDebug
+SetXULDebug
 (
 aState
 aDebug

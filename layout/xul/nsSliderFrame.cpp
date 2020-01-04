@@ -1778,14 +1778,14 @@ mState
 &
 NS_STATE_SET_TO_DEBUG
 )
-SetDebug
+SetXULDebug
 (
 aState
 true
 )
 ;
 else
-SetDebug
+SetXULDebug
 (
 aState
 false

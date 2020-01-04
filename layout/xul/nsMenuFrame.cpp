@@ -3405,7 +3405,7 @@ nsresult
 nsMenuFrame
 :
 :
-SetDebug
+SetXULDebug
 (
 nsBoxLayoutState
 &
@@ -3449,7 +3449,7 @@ debugChanged
 nsBoxFrame
 :
 :
-SetDebug
+SetXULDebug
 (
 aState
 aDebug
@@ -3467,7 +3467,7 @@ if
 (
 popupFrame
 )
-SetDebug
+SetXULDebug
 (
 aState
 popupFrame
@@ -3483,7 +3483,7 @@ nsresult
 nsMenuFrame
 :
 :
-SetDebug
+SetXULDebug
 (
 nsBoxLayoutState
 &
@@ -3520,7 +3520,7 @@ IsXULBoxFrame
 aList
 -
 >
-SetDebug
+SetXULDebug
 (
 aState
 aDebug
@@ -5837,7 +5837,7 @@ PresContext
 )
 )
 ;
-SetDebug
+SetXULDebug
 (
 state
 aFrameList
@@ -5970,7 +5970,7 @@ PresContext
 )
 )
 ;
-SetDebug
+SetXULDebug
 (
 state
 aFrameList

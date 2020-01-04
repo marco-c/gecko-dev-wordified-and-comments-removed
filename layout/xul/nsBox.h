@@ -215,7 +215,7 @@ override
 ;
 virtual
 nsresult
-SetDebug
+SetXULDebug
 (
 nsBoxLayoutState
 &

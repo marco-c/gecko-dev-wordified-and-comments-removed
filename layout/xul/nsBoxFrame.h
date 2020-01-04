@@ -228,7 +228,7 @@ ifdef
 DEBUG_LAYOUT
 virtual
 nsresult
-SetDebug
+SetXULDebug
 (
 nsBoxLayoutState
 &
@@ -827,7 +827,7 @@ private
 ifdef
 DEBUG_LAYOUT
 nsresult
-SetDebug
+SetXULDebug
 (
 nsPresContext
 *

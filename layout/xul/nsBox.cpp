@@ -466,14 +466,14 @@ mState
 &
 NS_STATE_SET_TO_DEBUG
 )
-SetDebug
+SetXULDebug
 (
 aState
 true
 )
 ;
 else
-SetDebug
+SetXULDebug
 (
 aState
 false
@@ -488,7 +488,7 @@ mState
 NS_STATE_IS_ROOT
 )
 {
-SetDebug
+SetXULDebug
 (
 aState
 gDebug
@@ -4224,7 +4224,7 @@ nsresult
 nsBox
 :
 :
-SetDebug
+SetXULDebug
 (
 nsBoxLayoutState
 &
