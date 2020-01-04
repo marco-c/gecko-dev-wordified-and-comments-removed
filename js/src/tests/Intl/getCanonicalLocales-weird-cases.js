@@ -70,7 +70,7 @@ weird
 of
 weirdCases
 )
-assertShallowArray
+assertEqArray
 (
 Intl
 .

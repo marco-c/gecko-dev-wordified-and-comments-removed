@@ -15,7 +15,7 @@ length
 1
 )
 ;
-assertShallowArray
+assertEqArray
 (
 gCL
 (
@@ -24,7 +24,7 @@ gCL
 ]
 )
 ;
-assertShallowArray
+assertEqArray
 (
 gCL
 (
@@ -43,7 +43,7 @@ CD
 ]
 )
 ;
-assertShallowArray
+assertEqArray
 (
 gCL
 (
@@ -64,7 +64,7 @@ CD
 ]
 )
 ;
-assertShallowArray
+assertEqArray
 (
 gCL
 (
@@ -91,7 +91,7 @@ ff
 ]
 )
 ;
-assertShallowArray
+assertEqArray
 (
 gCL
 (
@@ -107,7 +107,7 @@ a
 ]
 )
 ;
-assertShallowArray
+assertEqArray
 (
 gCL
 (
@@ -118,7 +118,7 @@ gCL
 ]
 )
 ;
-assertShallowArray
+assertEqArray
 (
 gCL
 (
@@ -151,7 +151,7 @@ islamicc
 ]
 )
 ;
-assertShallowArray
+assertEqArray
 (
 gCL
 (
@@ -184,7 +184,7 @@ thai
 ]
 )
 ;
-assertShallowArray
+assertEqArray
 (
 gCL
 (
@@ -194,7 +194,7 @@ NaN
 ]
 )
 ;
-assertShallowArray
+assertEqArray
 (
 gCL
 (
@@ -225,7 +225,7 @@ length
 =
 1
 ;
-assertShallowArray
+assertEqArray
 (
 gCL
 (

@@ -1,4 +1,4 @@
-assertShallowArray
+assertEqArray
 (
 Intl
 .
@@ -63,7 +63,7 @@ US
 ]
 )
 ;
-assertShallowArray
+assertEqArray
 (
 locales
 [
