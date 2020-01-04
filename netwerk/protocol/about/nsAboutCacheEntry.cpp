@@ -1042,6 +1042,11 @@ nsICacheStorage
 :
 :
 OPEN_READONLY
+|
+nsICacheStorage
+:
+:
+OPEN_SECRETLY
 this
 )
 ;
