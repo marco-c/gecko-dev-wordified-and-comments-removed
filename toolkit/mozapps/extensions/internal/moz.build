@@ -135,6 +135,11 @@ LightweightThemeImageOptimizer
 jsm
 '
 '
+ProductAddonChecker
+.
+jsm
+'
+'
 SpellCheckDictionaryBootstrap
 .
 js
