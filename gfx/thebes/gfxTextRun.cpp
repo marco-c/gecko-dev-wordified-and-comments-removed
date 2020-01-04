@@ -10970,11 +10970,10 @@ newCh
 ;
 }
 }
-PRLogModuleInfo
+LogModule
 *
 log
 =
-(
 mStyle
 .
 systemFont
@@ -10993,7 +10992,6 @@ gfxPlatform
 GetLog
 (
 eGfxLog_textrun
-)
 )
 ;
 bool
@@ -14783,11 +14781,10 @@ aLength
 #
 ifndef
 RELEASE_BUILD
-PRLogModuleInfo
+LogModule
 *
 log
 =
-(
 mStyle
 .
 systemFont
@@ -14806,7 +14803,6 @@ gfxPlatform
 GetLog
 (
 eGfxLog_textrun
-)
 )
 ;
 if

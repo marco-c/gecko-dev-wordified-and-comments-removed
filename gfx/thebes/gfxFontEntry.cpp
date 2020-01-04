@@ -6732,7 +6732,7 @@ mCount
 +
 +
 ;
-PRLogModuleInfo
+LogModule
 *
 log
 =

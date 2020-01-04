@@ -4559,7 +4559,7 @@ char
 aURL
 )
 {
-PRLogModuleInfo
+LogModule
 *
 tpLog
 =

@@ -1509,7 +1509,10 @@ RGB24
 ;
 }
 static
-PRLogModuleInfo
+mozilla
+:
+:
+LogModule
 *
 GetLog
 (

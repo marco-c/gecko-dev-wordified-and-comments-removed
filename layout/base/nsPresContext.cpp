@@ -1189,7 +1189,7 @@ mCounterStylesDirty
 =
 true
 ;
-PRLogModuleInfo
+LogModule
 *
 log
 =
