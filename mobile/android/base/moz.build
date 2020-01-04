@@ -3688,13 +3688,6 @@ HomeScreenPrompt
 java
 '
 '
-promotion
-/
-SimpleHelperUI
-.
-java
-'
-'
 prompts
 /
 ColorPickerInput
@@ -7236,6 +7229,9 @@ MOZ_INSTALL_TRACKING
 '
 '
 MOZ_ANDROID_GCM
+'
+'
+MOZ_ANDROID_EXCLUDE_FONTS
 '
 )
 :
