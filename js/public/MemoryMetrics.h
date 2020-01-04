@@ -2848,6 +2848,15 @@ isTotals
 )
 ;
 }
+CompartmentStats
+(
+const
+CompartmentStats
+&
+)
+=
+delete
+;
 ~
 CompartmentStats
 (
