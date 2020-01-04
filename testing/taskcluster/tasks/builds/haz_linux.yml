@@ -197,8 +197,6 @@ cache
 TOOLTOOL_MANIFEST
 :
 '
-gecko
-/
 browser
 /
 config
@@ -269,13 +267,15 @@ builder
 /
 build
 -
-browser
--
 haz
 -
 linux
 .
 sh
+-
+-
+project
+browser
 HOME
 /
 workspace
