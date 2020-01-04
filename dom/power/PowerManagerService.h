@@ -35,6 +35,13 @@ h
 #
 include
 "
+nsIDOMWakeLockListener
+.
+h
+"
+#
+include
+"
 nsIPowerManagerService
 .
 h
