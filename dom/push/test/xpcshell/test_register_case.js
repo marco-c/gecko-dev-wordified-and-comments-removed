@@ -236,10 +236,13 @@ newRecord
 yield
 waitForPromise
 (
-PushNotificationService
+PushService
 .
 register
 (
+{
+scope
+:
 '
 https
 :
@@ -251,6 +254,8 @@ net
 /
 case
 '
+originAttributes
+:
 ChromeUtils
 .
 originAttributesToSuffix
@@ -268,6 +273,7 @@ inBrowser
 false
 }
 )
+}
 )
 DEFAULT_TIMEOUT
 '
@@ -285,7 +291,7 @@ equal
 (
 newRecord
 .
-pushEndpoint
+endpoint
 '
 https
 :
