@@ -983,9 +983,15 @@ size
 case
 1
 :
+return
+true
+;
 case
 2
 :
+return
+true
+;
 case
 4
 :
