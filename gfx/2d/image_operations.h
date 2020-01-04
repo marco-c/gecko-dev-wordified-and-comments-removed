@@ -340,7 +340,7 @@ M_PI
 ;
 return
 (
-sin
+sinf
 (
 xpi
 )
@@ -348,7 +348,7 @@ xpi
 xpi
 )
 *
-sin
+sinf
 (
 xpi
 /
@@ -447,7 +447,7 @@ M_PI
 return
 (
 (
-sin
+sinf
 (
 xpi
 )
@@ -464,7 +464,7 @@ xpi
 .
 46f
 *
-cos
+cosf
 (
 xpi
 /
