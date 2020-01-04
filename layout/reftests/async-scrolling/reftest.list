@@ -733,6 +733,10 @@ if
 browserIsRemote
 &
 &
+!
+skiaContent
+&
+&
 (
 cocoaWidget
 |
