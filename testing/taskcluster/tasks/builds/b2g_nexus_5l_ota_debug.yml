@@ -184,6 +184,17 @@ DEBUG
 DOGFOOD
 :
 1
+MOZHARNESS_CONFIG
+:
+b2g
+/
+taskcluster
+-
+phone
+-
+fota
+.
+py
 command
 :
 -
