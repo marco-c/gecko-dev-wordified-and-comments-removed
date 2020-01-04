@@ -105,3 +105,13 @@ crashtest
 list
 '
 ]
+PYTHON_UNIT_TESTS
++
+=
+[
+'
+test_foo
+.
+py
+'
+]
