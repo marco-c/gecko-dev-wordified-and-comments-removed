@@ -3887,6 +3887,12 @@ case
 eCSSProperty_background_size
 :
 case
+eCSSProperty_mask_position
+:
+case
+eCSSProperty_mask_size
+:
+case
 eCSSProperty_grid_auto_columns
 :
 case

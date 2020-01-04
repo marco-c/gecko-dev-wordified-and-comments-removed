@@ -854,6 +854,11 @@ activecaption
 )
 CSS_KEY
 (
+add
+add
+)
+CSS_KEY
+(
 additive
 additive
 )
@@ -1581,6 +1586,11 @@ ex
 )
 CSS_KEY
 (
+exclude
+exclude
+)
+CSS_KEY
+(
 exclusion
 exclusion
 )
@@ -1962,6 +1972,11 @@ CSS_KEY
 (
 interpolatematrix
 interpolatematrix
+)
+CSS_KEY
+(
+intersect
+intersect
 )
 CSS_KEY
 (
@@ -3279,6 +3294,11 @@ CSS_KEY
 (
 subgrid
 subgrid
+)
+CSS_KEY
+(
+substract
+substract
 )
 CSS_KEY
 (
