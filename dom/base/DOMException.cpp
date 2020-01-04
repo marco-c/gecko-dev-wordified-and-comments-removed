@@ -349,6 +349,9 @@ BtRmtDevDownError
 BtAuthRejectedError
 =
 0
+PermissionDeniedError
+=
+0
 }
 ;
 #
