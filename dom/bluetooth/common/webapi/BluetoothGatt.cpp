@@ -1077,9 +1077,6 @@ nullptr
 nullptr
 )
 ;
-nsresult
-rv
-=
 event
 -
 >
@@ -1091,11 +1088,6 @@ GATT_CONNECTION_STATE_CHANGED_ID
 )
 false
 false
-)
-;
-NS_ENSURE_SUCCESS_VOID
-(
-rv
 )
 ;
 DispatchTrustedEvent
