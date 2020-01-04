@@ -173,7 +173,10 @@ GonkAudioDecoderManager
 __VA_ARGS__
 )
 extern
-PRLogModuleInfo
+mozilla
+:
+:
+LogModule
 *
 GetPDMLog
 (

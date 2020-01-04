@@ -43,7 +43,10 @@ inttypes
 h
 >
 extern
-PRLogModuleInfo
+mozilla
+:
+:
+LogModule
 *
 GetPDMLog
 (

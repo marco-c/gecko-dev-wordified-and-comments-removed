@@ -91,8 +91,7 @@ sPreferredSampleRate
 ;
 }
 extern
-PRLogModuleInfo
-*
+LazyLogModule
 gAudioStreamLog
 ;
 static
@@ -443,15 +442,6 @@ InitLibrary
 (
 )
 {
-gAudioStreamLog
-=
-PR_NewLogModule
-(
-"
-AudioStream
-"
-)
-;
 PrefChanged
 (
 PREF_VOLUME_SCALE

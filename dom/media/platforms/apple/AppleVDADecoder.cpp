@@ -136,7 +136,10 @@ h
 #
 endif
 extern
-PRLogModuleInfo
+mozilla
+:
+:
+LogModule
 *
 GetPDMLog
 (

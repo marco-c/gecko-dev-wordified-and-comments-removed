@@ -28,7 +28,7 @@ mozilla
 dom
 ;
 extern
-PRLogModuleInfo
+LogModule
 *
 GetMediaManagerLog
 (

@@ -52,7 +52,10 @@ endif
 undef
 LOG
 extern
-PRLogModuleInfo
+mozilla
+:
+:
+LogModule
 *
 GetSpeechSynthLog
 (

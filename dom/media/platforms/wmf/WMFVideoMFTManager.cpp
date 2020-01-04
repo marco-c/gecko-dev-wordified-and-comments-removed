@@ -133,7 +133,10 @@ nsPrintfCString
 h
 "
 extern
-PRLogModuleInfo
+mozilla
+:
+:
+LogModule
 *
 GetPDMLog
 (

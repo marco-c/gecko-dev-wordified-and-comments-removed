@@ -144,8 +144,7 @@ OGG_ESTIMATE_BUFFERED
 #
 endif
 extern
-PRLogModuleInfo
-*
+LazyLogModule
 gMediaDecoderLog
 ;
 #
