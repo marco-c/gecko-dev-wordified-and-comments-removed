@@ -221,6 +221,10 @@ mCallback
 >
 Error
 (
+MediaDataDecoderError
+:
+:
+FATAL_ERROR
 )
 ;
 }

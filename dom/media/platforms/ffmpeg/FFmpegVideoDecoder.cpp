@@ -1069,7 +1069,7 @@ return
 DecodeResult
 :
 :
-DECODE_ERROR
+FATAL_ERROR
 ;
 }
 mFrame
@@ -1688,7 +1688,7 @@ return
 DecodeResult
 :
 :
-DECODE_ERROR
+FATAL_ERROR
 ;
 }
 mCallback
