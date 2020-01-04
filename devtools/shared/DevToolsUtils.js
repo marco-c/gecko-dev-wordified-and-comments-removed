@@ -1045,6 +1045,8 @@ hasSafeGetter
 aDesc
 )
 {
+try
+{
 let
 fn
 =
@@ -1083,6 +1085,16 @@ script
 =
 undefined
 ;
+}
+catch
+(
+e
+)
+{
+return
+false
+;
+}
 }
 ;
 exports
