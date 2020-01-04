@@ -8627,6 +8627,7 @@ global
 >
 isOwnGlobal
 (
+trc
 )
 )
 return
