@@ -14468,7 +14468,7 @@ encoder
 (
 )
 .
-writeI32
+writeVarU32
 (
 i32
 )
