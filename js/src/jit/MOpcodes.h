@@ -1254,11 +1254,6 @@ SetDOMProperty
 \
 _
 (
-IsConstructor
-)
-\
-_
-(
 IsCallable
 )
 \
