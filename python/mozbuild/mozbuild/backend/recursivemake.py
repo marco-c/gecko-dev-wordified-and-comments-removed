@@ -5732,9 +5732,7 @@ full_path
 .
 startswith
 (
-self
-.
-environment
+backend_file
 .
 topsrcdir
 )
@@ -5753,9 +5751,7 @@ full_path
 [
 len
 (
-self
-.
-environment
+backend_file
 .
 topsrcdir
 )
