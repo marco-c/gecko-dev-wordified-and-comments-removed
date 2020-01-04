@@ -27705,10 +27705,9 @@ JS
 :
 HandleValue
 asyncStack
-JS
-:
-:
-HandleString
+const
+char
+*
 asyncCause
 )
 override
@@ -27801,10 +27800,9 @@ JS
 :
 HandleValue
 asyncStack
-JS
-:
-:
-HandleString
+const
+char
+*
 asyncCause
 )
 override
