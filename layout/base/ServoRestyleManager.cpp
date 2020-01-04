@@ -37,6 +37,13 @@ h
 #
 include
 "
+nsPrintfCString
+.
+h
+"
+#
+include
+"
 nsStyleChangeList
 .
 h
