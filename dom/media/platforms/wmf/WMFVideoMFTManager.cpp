@@ -743,7 +743,7 @@ sD3D9BlacklistingCache
 ;
 static
 const
-nsACString
+nsCString
 &
 FindDXVABlacklistedDLL
 (
@@ -1433,7 +1433,7 @@ mBlacklistedDLL
 }
 static
 const
-nsACString
+nsCString
 &
 FindD3D11BlacklistedDLL
 (
@@ -1461,7 +1461,7 @@ dlls
 }
 static
 const
-nsACString
+nsCString
 &
 FindD3D9BlacklistedDLL
 (
@@ -1570,7 +1570,7 @@ IsWin8OrLater
 )
 {
 const
-nsACString
+nsCString
 &
 blacklistedDLL
 =
@@ -1602,6 +1602,10 @@ DLL
 s
 "
 blacklistedDLL
+.
+get
+(
+)
 )
 ;
 }
@@ -1647,7 +1651,7 @@ NS_LITERAL_CSTRING
 ;
 }
 const
-nsACString
+nsCString
 &
 blacklistedDLL
 =
@@ -1678,6 +1682,10 @@ DLL
 s
 "
 blacklistedDLL
+.
+get
+(
+)
 )
 ;
 }
