@@ -1124,7 +1124,7 @@ IsCurrentThreadRunningChromeWorker
 )
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 Event
 :
 :
@@ -1287,7 +1287,7 @@ mTarget
 )
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 Event
 :
 :

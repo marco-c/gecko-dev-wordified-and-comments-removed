@@ -229,12 +229,12 @@ HasEverBeenRead
 const
 override
 ;
-NS_METHOD
+nsresult
 Close
 (
 )
 ;
-NS_METHOD
+nsresult
 Available
 (
 uint64_t
@@ -242,7 +242,7 @@ uint64_t
 aNumAvailableOut
 )
 ;
-NS_METHOD
+nsresult
 Read
 (
 char
@@ -255,7 +255,7 @@ uint32_t
 aNumReadOut
 )
 ;
-NS_METHOD
+nsresult
 ReadSegments
 (
 nsWriteSegmentFun
@@ -270,7 +270,7 @@ uint32_t
 aNumReadOut
 )
 ;
-NS_METHOD
+nsresult
 IsNonBlocking
 (
 bool
@@ -905,7 +905,7 @@ return
 mHasEverBeenRead
 ;
 }
-NS_IMETHODIMP
+nsresult
 ReadStream
 :
 :
@@ -934,7 +934,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 ReadStream
 :
 :
@@ -976,7 +976,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 ReadStream
 :
 :
@@ -1049,7 +1049,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 ReadStream
 :
 :
@@ -1148,7 +1148,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 ReadStream
 :
 :

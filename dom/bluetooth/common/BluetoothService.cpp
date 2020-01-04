@@ -555,7 +555,7 @@ aEnabled
 )
 {
 }
-NS_METHOD
+NS_IMETHODIMP
 BluetoothService
 :
 :

@@ -852,7 +852,7 @@ CoreLocationObjects
 {
 public
 :
-NS_METHOD
+nsresult
 Init
 (
 CoreLocationLocationProvider
