@@ -798,6 +798,8 @@ getPreviewForTab
 (
 tab
 )
+{
+return
 window
 .
 gTaskbarTabGroup
@@ -807,10 +809,13 @@ previewFromTab
 tab
 )
 ;
+}
 function
 checkSelectedTab
 (
 )
+{
+return
 getPreviewForTab
 (
 gBrowser
@@ -820,11 +825,14 @@ selectedTab
 .
 active
 ;
+}
 function
 isTabSelected
 (
 idx
 )
+{
+return
 gBrowser
 .
 tabs
@@ -834,6 +842,7 @@ idx
 .
 selected
 ;
+}
 function
 createThumbnailSurface
 (
