@@ -478,6 +478,13 @@ MOZ_LANGPACK_EID
 )
 \
 -
+DMOZ_APP_ID
+=
+(
+MOZ_APP_ID
+)
+\
+-
 DMOZ_APP_VERSION
 =
 (
@@ -1490,8 +1497,12 @@ I
 APP_DEFINES
 )
 (
-srcdir
+MOZILLA_DIR
 )
+/
+toolkit
+/
+locales
 /
 generic
 /
