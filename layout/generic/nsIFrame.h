@@ -3185,6 +3185,7 @@ nsFrameList
 PrincipalChildList
 (
 )
+const
 {
 return
 GetChildList
