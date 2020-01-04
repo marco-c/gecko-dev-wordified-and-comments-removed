@@ -5679,6 +5679,14 @@ NS_ERROR_FAILURE
 )
 ;
 }
+JS
+:
+:
+ExposeObjectToActiveJS
+(
+obj
+)
+;
 vp
 .
 setObject

@@ -8305,6 +8305,11 @@ NS_ERROR_FAILURE
 )
 ;
 }
+ExposeObjectToActiveJS
+(
+obj
+)
+;
 desc
 .
 value
@@ -10023,6 +10028,11 @@ Throw
 (
 cx
 NS_ERROR_FAILURE
+)
+;
+ExposeObjectToActiveJS
+(
+childObj
 )
 ;
 FillPropertyDescriptor
