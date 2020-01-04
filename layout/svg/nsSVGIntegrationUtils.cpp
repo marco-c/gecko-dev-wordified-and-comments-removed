@@ -135,6 +135,15 @@ nsCSSRendering
 .
 h
 "
+#
+include
+"
+mozilla
+/
+unused
+.
+h
+"
 using
 namespace
 mozilla
@@ -2400,6 +2409,9 @@ rc
 target
 )
 ;
+Unused
+<
+<
 nsCSSRendering
 :
 :

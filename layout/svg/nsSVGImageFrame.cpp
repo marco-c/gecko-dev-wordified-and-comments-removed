@@ -129,6 +129,15 @@ nsIReflowCallback
 .
 h
 "
+#
+include
+"
+mozilla
+/
+unused
+.
+h
+"
 using
 namespace
 mozilla
@@ -1658,6 +1667,9 @@ appUnitsPerDevPx
 )
 )
 ;
+Unused
+<
+<
 nsLayoutUtils
 :
 :
@@ -1689,6 +1701,9 @@ drawFlags
 }
 else
 {
+Unused
+<
+<
 nsLayoutUtils
 :
 :
