@@ -118,6 +118,13 @@ PrincipalInfo
 &
 aTriggeringPrincipalInfo
 const
+ipc
+:
+:
+PrincipalInfo
+&
+aPrincipalToInheritInfo
+const
 uint32_t
 &
 aSecurityFlags
