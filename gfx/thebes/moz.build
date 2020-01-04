@@ -268,11 +268,6 @@ gfxSharedImageSurface
 h
 '
 '
-gfxSharedQuartzSurface
-.
-h
-'
-'
 gfxSkipChars
 .
 h

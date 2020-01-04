@@ -67,13 +67,6 @@ gfxPlatform
 .
 h
 "
-#
-include
-"
-gfxSharedQuartzSurface
-.
-h
-"
 using
 namespace
 mozilla
