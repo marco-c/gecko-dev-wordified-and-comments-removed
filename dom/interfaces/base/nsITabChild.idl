@@ -131,6 +131,17 @@ canFocus
 )
 ;
 [
+notxpcom
+]
+void
+sendGetTabCount
+(
+out
+uint32_t
+tabCount
+)
+;
+[
 noscript
 notxpcom
 ]

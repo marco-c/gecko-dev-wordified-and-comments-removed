@@ -2285,6 +2285,16 @@ override
 ;
 virtual
 bool
+RecvGetTabCount
+(
+uint32_t
+*
+aValue
+)
+override
+;
+virtual
+bool
 RecvAudioChannelActivityNotification
 (
 const
