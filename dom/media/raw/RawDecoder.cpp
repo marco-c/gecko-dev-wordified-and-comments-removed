@@ -41,7 +41,6 @@ RawReader
 (
 this
 )
-true
 )
 ;
 }

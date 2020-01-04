@@ -186,8 +186,6 @@ public
 :
 MediaDecoderReaderWrapper
 (
-bool
-aIsRealTime
 AbstractThread
 *
 aOwnerThread

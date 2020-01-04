@@ -7402,14 +7402,6 @@ false
 )
 ;
 return
-mDecoderStateMachine
--
->
-IsRealTime
-(
-)
-|
-|
 GetStatistics
 (
 )
