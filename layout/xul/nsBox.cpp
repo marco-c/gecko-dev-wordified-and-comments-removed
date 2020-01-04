@@ -681,7 +681,7 @@ nsresult
 nsBox
 :
 :
-EndLayout
+EndXULLayout
 (
 nsBoxLayoutState
 &
@@ -2088,7 +2088,7 @@ aState
 box
 -
 >
-EndLayout
+EndXULLayout
 (
 aState
 )
