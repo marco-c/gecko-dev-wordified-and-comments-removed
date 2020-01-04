@@ -286,6 +286,11 @@ testGCHeapPostBarriers
 cpp
 '
 '
+testGCHooks
+.
+cpp
+'
+'
 testGCMarking
 .
 cpp
