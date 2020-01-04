@@ -137,6 +137,9 @@ apply
 .
 *
 /
+[
+NoInterfaceObject
+]
 interface
 SVGUnitTypes
 {
