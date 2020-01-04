@@ -66,6 +66,12 @@ DARWIN
 |
 defined
 (
+__DragonFly__
+)
+|
+|
+defined
+(
 __FreeBSD__
 )
 #
