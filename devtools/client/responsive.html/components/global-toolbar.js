@@ -65,11 +65,6 @@ exports
 createClass
 (
 {
-displayName
-:
-"
-GlobalToolbar
-"
 propTypes
 :
 {
@@ -100,6 +95,11 @@ screenshot
 .
 isRequired
 }
+displayName
+:
+"
+GlobalToolbar
+"
 mixins
 :
 [

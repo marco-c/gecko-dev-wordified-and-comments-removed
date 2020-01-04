@@ -138,11 +138,6 @@ App
 createClass
 (
 {
-displayName
-:
-"
-App
-"
 propTypes
 :
 {
@@ -195,6 +190,11 @@ screenshot
 .
 isRequired
 }
+displayName
+:
+"
+App
+"
 onBrowserMounted
 (
 )
