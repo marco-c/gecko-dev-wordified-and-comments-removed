@@ -190,7 +190,7 @@ transparent
 "
 >
 <
-RelativeLayout
+FrameLayout
 android
 :
 id
@@ -512,7 +512,7 @@ hardware
 >
 <
 /
-RelativeLayout
+FrameLayout
 >
 <
 org
