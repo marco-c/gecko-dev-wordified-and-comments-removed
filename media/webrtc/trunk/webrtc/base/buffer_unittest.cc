@@ -63,7 +63,7 @@ EXPECT_EQ
 0U
 buf
 .
-length
+size
 (
 )
 )
@@ -106,7 +106,7 @@ EXPECT_EQ
 0U
 buf
 .
-length
+size
 (
 )
 )
@@ -154,7 +154,7 @@ kTestData
 )
 buf
 .
-length
+size
 (
 )
 )
@@ -229,7 +229,7 @@ kTestData
 )
 buf
 .
-length
+size
 (
 )
 )
@@ -305,7 +305,7 @@ kTestData
 )
 buf2
 .
-length
+size
 (
 )
 )
@@ -384,7 +384,7 @@ kTestData
 )
 buf1
 .
-length
+size
 (
 )
 )
@@ -455,7 +455,7 @@ kTestData
 )
 buf
 .
-length
+size
 (
 )
 )
@@ -529,7 +529,7 @@ kTestData
 )
 buf
 .
-length
+size
 (
 )
 )
@@ -594,7 +594,7 @@ kTestData
 TEST
 (
 BufferTest
-TestSetLengthSmaller
+TestSetSizeSmaller
 )
 {
 Buffer
@@ -613,7 +613,7 @@ kTestData
 ;
 buf
 .
-SetLength
+SetSize
 (
 sizeof
 (
@@ -633,7 +633,7 @@ kTestData
 2
 buf
 .
-length
+size
 (
 )
 )
@@ -675,7 +675,7 @@ kTestData
 TEST
 (
 BufferTest
-TestSetLengthLarger
+TestSetSizeLarger
 )
 {
 Buffer
@@ -694,7 +694,7 @@ kTestData
 ;
 buf
 .
-SetLength
+SetSize
 (
 sizeof
 (
@@ -714,7 +714,7 @@ kTestData
 2
 buf
 .
-length
+size
 (
 )
 )
@@ -793,7 +793,7 @@ kTestData
 )
 buf
 .
-length
+size
 (
 )
 )
@@ -866,7 +866,7 @@ kTestData
 )
 buf
 .
-length
+size
 (
 )
 )
@@ -908,7 +908,7 @@ kTestData
 TEST
 (
 BufferTest
-TestSetCapacityThenSetLength
+TestSetCapacityThenSetSize
 )
 {
 Buffer
@@ -954,7 +954,7 @@ kTestData
 ;
 buf
 .
-SetLength
+SetSize
 (
 sizeof
 (
@@ -974,7 +974,7 @@ kTestData
 2
 buf
 .
-length
+size
 (
 )
 )
@@ -1067,7 +1067,7 @@ EXPECT_EQ
 0U
 buf1
 .
-length
+size
 (
 )
 )
@@ -1090,7 +1090,7 @@ kTestData
 )
 buf2
 .
-length
+size
 (
 )
 )

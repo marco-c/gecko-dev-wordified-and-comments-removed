@@ -1647,6 +1647,7 @@ RenderFrame
 (
 const
 uint32_t
+const
 I420VideoFrame
 &
 videoFrame
@@ -1659,12 +1660,8 @@ Enter
 )
 ;
 _bufferToRender
-.
-SwapFrame
-(
-&
+=
 videoFrame
-)
 ;
 _renderCritSect
 .

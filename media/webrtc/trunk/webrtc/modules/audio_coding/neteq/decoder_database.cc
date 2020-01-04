@@ -34,9 +34,7 @@ modules
 /
 audio_coding
 /
-neteq
-/
-interface
+codecs
 /
 audio_decoder
 .
@@ -174,7 +172,7 @@ if
 (
 rtp_payload_type
 >
-kMaxRtpPayloadType
+0x7F
 )
 {
 return
@@ -184,9 +182,6 @@ kInvalidRtpPayloadType
 if
 (
 !
-AudioDecoder
-:
-:
 CodecSupported
 (
 codec_type
@@ -200,9 +195,6 @@ kCodecNotSupported
 int
 fs_hz
 =
-AudioDecoder
-:
-:
 CodecSampleRateHz
 (
 codec_type
@@ -295,9 +287,6 @@ kInvalidRtpPayloadType
 if
 (
 !
-AudioDecoder
-:
-:
 CodecSupported
 (
 codec_type
@@ -386,11 +375,7 @@ insert
 std
 :
 :
-pair
-<
-uint8_t
-DecoderInfo
->
+make_pair
 (
 rtp_payload_type
 info
@@ -682,9 +667,6 @@ AudioDecoder
 *
 decoder
 =
-AudioDecoder
-:
-:
 CreateAudioDecoder
 (
 info

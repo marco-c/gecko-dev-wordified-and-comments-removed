@@ -387,6 +387,9 @@ rtp_receive_timestamp
 )
 ;
 }
+rtc
+:
+:
 scoped_ptr
 <
 InitialDelayManager
@@ -1573,12 +1576,6 @@ rtp_info_
 &
 rtp_receive_timestamp_
 )
-;
-const
-uint8_t
-kCngPayloadType
-=
-1
 ;
 rtp_info_
 .

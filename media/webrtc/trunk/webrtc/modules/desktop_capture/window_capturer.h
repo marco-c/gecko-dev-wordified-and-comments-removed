@@ -156,11 +156,9 @@ bool
 BringSelectedWindowToFront
 (
 )
-{
-return
-true
+=
+0
 ;
-}
 }
 ;
 }

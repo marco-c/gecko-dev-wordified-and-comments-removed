@@ -46,7 +46,7 @@ WebRtcIsacfix_DecodeImpl
 int16_t
 *
 signal_out16
-ISACFIX_DecInst_t
+IsacFixDecoderInstance
 *
 ISACdec_obj
 int16_t
@@ -60,7 +60,7 @@ WebRtcIsacfix_DecodePlcImpl
 int16_t
 *
 decoded
-ISACFIX_DecInst_t
+IsacFixDecoderInstance
 *
 ISACdec_obj
 int16_t
@@ -74,7 +74,7 @@ WebRtcIsacfix_EncodeImpl
 int16_t
 *
 in
-ISACFIX_EncInst_t
+IsacFixEncoderInstance
 *
 ISACenc_obj
 BwEstimatorstr
@@ -87,7 +87,7 @@ CodingMode
 int
 WebRtcIsacfix_EncodeStoredData
 (
-ISACFIX_EncInst_t
+IsacFixEncoderInstance
 *
 ISACenc_obj
 int

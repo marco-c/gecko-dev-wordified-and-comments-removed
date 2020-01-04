@@ -34,7 +34,7 @@ int16_t
 lsfdeqold
 int16_t
 length
-iLBC_Enc_Inst_t
+IlbcEncoder
 *
 iLBCenc_inst
 )

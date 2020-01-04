@@ -119,9 +119,6 @@ max_payload_len
 )
 ;
 case
-kRtpVideoVp9
-:
-case
 kRtpVideoGeneric
 :
 return
@@ -179,9 +176,6 @@ RtpDepacketizerVp8
 (
 )
 ;
-case
-kRtpVideoVp9
-:
 case
 kRtpVideoGeneric
 :

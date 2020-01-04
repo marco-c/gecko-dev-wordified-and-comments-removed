@@ -111,7 +111,7 @@ RemoteNtpTimeEstimator
 :
 UpdateRtcpTimestamp
 (
-uint16_t
+int64_t
 rtt
 uint32_t
 ntp_secs

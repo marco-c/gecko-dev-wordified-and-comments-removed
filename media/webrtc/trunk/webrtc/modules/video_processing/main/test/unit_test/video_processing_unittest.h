@@ -192,8 +192,7 @@ int
 size_uv_
 ;
 const
-unsigned
-int
+size_t
 frame_length_
 ;
 }

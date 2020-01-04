@@ -59,13 +59,13 @@ frame_number
 int
 packets_dropped
 ;
-int
+size_t
 total_packets
 ;
 int
 bit_rate_in_kbps
 ;
-int
+size_t
 encoded_frame_length_in_bytes
 ;
 webrtc

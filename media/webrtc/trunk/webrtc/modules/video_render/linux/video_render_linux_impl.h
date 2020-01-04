@@ -63,15 +63,6 @@ Init
 ;
 virtual
 int32_t
-ChangeUniqueId
-(
-const
-int32_t
-id
-)
-;
-virtual
-int32_t
 ChangeWindow
 (
 void

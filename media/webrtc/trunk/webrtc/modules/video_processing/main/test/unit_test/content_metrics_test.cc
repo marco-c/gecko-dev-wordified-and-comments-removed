@@ -109,6 +109,9 @@ width_
 height_
 )
 ;
+rtc
+:
+:
 scoped_ptr
 <
 uint8_t
@@ -158,7 +161,7 @@ get
 width_
 height_
 0
-kRotateNone
+kVideoRotation_0
 &
 video_frame_
 )

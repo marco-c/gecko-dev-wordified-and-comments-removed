@@ -37,15 +37,13 @@ public
 AsyncResolverInterface
 (
 )
-{
-}
+;
 virtual
 ~
 AsyncResolverInterface
 (
 )
-{
-}
+;
 virtual
 void
 Start

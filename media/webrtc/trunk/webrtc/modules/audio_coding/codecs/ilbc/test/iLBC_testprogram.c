@@ -93,7 +93,7 @@ h
 short
 encode
 (
-iLBC_Enc_Inst_t
+IlbcEncoder
 *
 iLBCenc_inst
 int16_t
@@ -127,7 +127,7 @@ no_of_bytes
 short
 decode
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 iLBCdec_inst
 short
@@ -268,10 +268,10 @@ noOfLostBlocks
 short
 mode
 ;
-iLBC_Enc_Inst_t
+IlbcEncoder
 Enc_Inst
 ;
-iLBC_Dec_Inst_t
+IlbcDecoder
 Dec_Inst
 ;
 short

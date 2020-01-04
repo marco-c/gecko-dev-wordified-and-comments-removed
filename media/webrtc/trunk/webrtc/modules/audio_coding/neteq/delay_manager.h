@@ -38,9 +38,7 @@ audio_coding
 /
 neteq
 /
-interface
-/
-audio_decoder
+audio_decoder_impl
 .
 h
 "

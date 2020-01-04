@@ -107,10 +107,10 @@ packet_loss_burst_length
 )
 {
 }
-int
+size_t
 packet_size_in_bytes
 ;
-int
+size_t
 max_payload_size_in_bytes
 ;
 PacketLossMode
@@ -179,7 +179,6 @@ PacketManipulatorImpl
 (
 )
 ;
-virtual
 int
 ManipulatePackets
 (
@@ -190,7 +189,7 @@ EncodedImage
 *
 encoded_image
 )
-OVERRIDE
+override
 ;
 virtual
 void

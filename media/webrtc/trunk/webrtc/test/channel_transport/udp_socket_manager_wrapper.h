@@ -73,17 +73,6 @@ numOfWorkThreads
 0
 ;
 virtual
-int32_t
-ChangeUniqueId
-(
-const
-int32_t
-id
-)
-=
-0
-;
-virtual
 bool
 Start
 (

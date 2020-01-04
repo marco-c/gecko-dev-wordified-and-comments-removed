@@ -255,6 +255,12 @@ deps
 "
 .
 .
+:
+webrtc_common
+"
+"
+.
+.
 /
 video_engine
 :

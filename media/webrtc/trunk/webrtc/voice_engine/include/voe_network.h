@@ -76,8 +76,7 @@ const
 void
 *
 data
-unsigned
-int
+size_t
 length
 )
 =
@@ -93,8 +92,7 @@ const
 void
 *
 data
-unsigned
-int
+size_t
 length
 const
 PacketTime
@@ -116,8 +114,7 @@ const
 void
 *
 data
-unsigned
-int
+size_t
 length
 )
 =

@@ -427,7 +427,7 @@ current
 int
 max
 =
-1
+0
 ;
 int
 maxpos
@@ -518,7 +518,7 @@ if
 (
 max
 >
-1
+0
 )
 {
 int

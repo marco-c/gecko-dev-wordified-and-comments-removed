@@ -222,6 +222,9 @@ ScreenCapturerWinMagnifier
 :
 ScreenCapturerWinMagnifier
 (
+rtc
+:
+:
 scoped_ptr
 <
 ScreenCapturer
@@ -453,6 +456,9 @@ GetLastError
 ;
 }
 }
+rtc
+:
+:
 scoped_ptr
 <
 Desktop
@@ -2293,6 +2299,9 @@ CreateSharedMemory
 buffer_size
 )
 ;
+rtc
+:
+:
 scoped_ptr
 <
 DesktopFrame

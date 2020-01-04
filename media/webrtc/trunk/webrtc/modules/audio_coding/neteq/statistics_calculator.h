@@ -152,6 +152,13 @@ waiting_time_ms
 )
 ;
 void
+SecondaryDecodedSamples
+(
+int
+num_samples
+)
+;
+void
 GetNetworkStatistics
 (
 int
@@ -223,7 +230,7 @@ int
 added_zero_samples_
 ;
 uint32_t
-expanded_voice_samples_
+expanded_speech_samples_
 ;
 uint32_t
 expanded_noise_samples_
@@ -248,6 +255,9 @@ len_waiting_times_
 ;
 int
 next_waiting_time_index_
+;
+uint32_t
+secondary_decoded_samples_
 ;
 DISALLOW_COPY_AND_ASSIGN
 (

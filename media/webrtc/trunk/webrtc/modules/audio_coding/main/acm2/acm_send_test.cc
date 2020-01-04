@@ -323,7 +323,13 @@ filter_
 .
 test
 (
+static_cast
+<
+size_t
+>
+(
 payload_type_
+)
 )
 )
 {
@@ -448,7 +454,7 @@ const
 uint8_t
 *
 payload_data
-uint16_t
+size_t
 payload_len_bytes
 const
 RTPFragmentationHeader
@@ -542,7 +548,13 @@ packet_memory
 1
 ]
 =
+static_cast
+<
+uint8_t
+>
+(
 payload_type_
+)
 ;
 packet_memory
 [

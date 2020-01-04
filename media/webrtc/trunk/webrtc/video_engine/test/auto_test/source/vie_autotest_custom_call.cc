@@ -38,9 +38,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
+base
 /
 scoped_ptr
 .
@@ -423,7 +421,6 @@ std
 endl
 ;
 }
-virtual
 void
 SuspendChange
 (
@@ -432,7 +429,7 @@ video_channel
 bool
 is_suspended
 )
-OVERRIDE
+override
 {
 std
 :
@@ -1891,7 +1888,7 @@ remb
 =
 true
 ;
-webrtc
+rtc
 :
 :
 scoped_ptr
@@ -1906,7 +1903,7 @@ VideoChannelTransport
 >
 video_channel_transport
 ;
-webrtc
+rtc
 :
 :
 scoped_ptr
@@ -10053,7 +10050,7 @@ webrtc
 RtcpStatistics
 rtcp_stats
 ;
-int
+int64_t
 rtt_ms
 =
 0
@@ -10425,7 +10422,9 @@ sent
 <
 sent
 .
-bytes
+transmitted
+.
+payload_bytes
 <
 <
 std
@@ -10449,6 +10448,8 @@ sent
 <
 <
 sent
+.
+transmitted
 .
 packets
 <
@@ -10475,7 +10476,9 @@ received
 <
 received
 .
-bytes
+transmitted
+.
+payload_bytes
 <
 <
 std
@@ -10499,6 +10502,8 @@ received
 <
 <
 received
+.
+transmitted
 .
 packets
 <
@@ -10902,7 +10907,7 @@ error
 vie_codec
 -
 >
-GetReceiveCodecStatistics
+GetReceiveCodecStastistics
 (
 video_channel
 key_frames
@@ -10963,7 +10968,7 @@ error
 vie_codec
 -
 >
-GetSendCodecStatistics
+GetSendCodecStastistics
 (
 video_channel
 key_frames

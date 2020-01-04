@@ -92,7 +92,7 @@ MOCK_METHOD2
 Fill
 void
 (
-uint32_t
+size_t
 frameSizeBytes
 bool
 deltaFrame

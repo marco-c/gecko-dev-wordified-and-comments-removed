@@ -139,7 +139,6 @@ rtpMod
 ;
 protected
 :
-virtual
 void
 IncomingRTPPacket
 (
@@ -148,7 +147,7 @@ int8_t
 *
 incomingRtpPacket
 const
-int32_t
+size_t
 rtpPacketLength
 const
 int8_t
@@ -158,9 +157,8 @@ const
 uint16_t
 fromPort
 )
-OVERRIDE
+override
 ;
-virtual
 void
 IncomingRTCPPacket
 (
@@ -169,7 +167,7 @@ int8_t
 *
 incomingRtcpPacket
 const
-int32_t
+size_t
 rtcpPacketLength
 const
 int8_t
@@ -179,7 +177,7 @@ const
 uint16_t
 fromPort
 )
-OVERRIDE
+override
 ;
 private
 :
@@ -200,7 +198,7 @@ int8_t
 *
 incomingRtpPacket
 const
-int32_t
+size_t
 rtpPacketLength
 const
 int8_t
@@ -240,13 +238,7 @@ uint8_t
 *
 )
 incomingRtpPacket
-static_cast
-<
-uint16_t
->
-(
 rtpPacketLength
-)
 )
 ;
 }
@@ -261,7 +253,7 @@ int8_t
 *
 incomingRtcpPacket
 const
-int32_t
+size_t
 rtcpPacketLength
 const
 int8_t
@@ -301,13 +293,7 @@ uint8_t
 *
 )
 incomingRtcpPacket
-static_cast
-<
-uint16_t
->
-(
 rtcpPacketLength
-)
 )
 ;
 }

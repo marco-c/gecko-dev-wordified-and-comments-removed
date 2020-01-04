@@ -280,11 +280,11 @@ Thread
 thread
 )
 ;
-virtual
 ~
 CpuMonitor
 (
 )
+override
 ;
 void
 set_thread
@@ -320,7 +320,6 @@ SignalUpdate
 ;
 protected
 :
-virtual
 void
 OnMessage
 (
@@ -331,6 +330,7 @@ Message
 *
 msg
 )
+override
 ;
 void
 OnMessageQueueDestroyed

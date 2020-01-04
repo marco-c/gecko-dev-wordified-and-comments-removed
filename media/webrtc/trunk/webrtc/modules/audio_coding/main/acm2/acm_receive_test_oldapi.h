@@ -20,11 +20,9 @@ include
 "
 webrtc
 /
-system_wrappers
+base
 /
-interface
-/
-clock
+scoped_ptr
 .
 h
 "
@@ -37,7 +35,7 @@ system_wrappers
 /
 interface
 /
-scoped_ptr
+clock
 .
 h
 "
@@ -126,6 +124,9 @@ AfterGetAudio
 SimulatedClock
 clock_
 ;
+rtc
+:
+:
 scoped_ptr
 <
 AudioCodingModule
@@ -185,7 +186,7 @@ void
 AfterGetAudio
 (
 )
-OVERRIDE
+override
 ;
 const
 int

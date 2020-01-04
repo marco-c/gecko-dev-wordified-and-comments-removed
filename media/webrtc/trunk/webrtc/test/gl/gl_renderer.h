@@ -63,7 +63,6 @@ VideoRenderer
 {
 public
 :
-virtual
 void
 RenderFrame
 (
@@ -77,7 +76,7 @@ frame
 int
 time_to_render_ms
 )
-OVERRIDE
+override
 ;
 protected
 :

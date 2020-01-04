@@ -776,7 +776,7 @@ int
 minBytes
 ;
 }
-ISAC_SaveEncData_t
+IsacSaveEncoderData
 ;
 typedef
 struct
@@ -846,7 +846,7 @@ pitchanalysisstr_obj
 FFTstr
 fftstr_obj
 ;
-ISAC_SaveEncData_t
+IsacSaveEncoderData
 SaveEnc_obj
 ;
 int

@@ -212,13 +212,12 @@ PhysicalSocketServer
 (
 )
 ;
-virtual
 ~
 PhysicalSocketServer
 (
 )
+override
 ;
-virtual
 Socket
 *
 CreateSocket
@@ -226,8 +225,8 @@ CreateSocket
 int
 type
 )
+override
 ;
-virtual
 Socket
 *
 CreateSocket
@@ -237,8 +236,8 @@ family
 int
 type
 )
+override
 ;
-virtual
 AsyncSocket
 *
 CreateAsyncSocket
@@ -246,8 +245,8 @@ CreateAsyncSocket
 int
 type
 )
+override
 ;
-virtual
 AsyncSocket
 *
 CreateAsyncSocket
@@ -257,6 +256,7 @@ family
 int
 type
 )
+override
 ;
 AsyncSocket
 *
@@ -266,7 +266,6 @@ SOCKET
 s
 )
 ;
-virtual
 bool
 Wait
 (
@@ -275,12 +274,13 @@ cms
 bool
 process_io
 )
+override
 ;
-virtual
 void
 WakeUp
 (
 )
+override
 ;
 void
 Add

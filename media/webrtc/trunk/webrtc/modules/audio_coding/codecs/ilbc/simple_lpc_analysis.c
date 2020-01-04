@@ -42,7 +42,7 @@ lsf
 int16_t
 *
 data
-iLBC_Enc_Inst_t
+IlbcEncoder
 *
 iLBCenc_inst
 )

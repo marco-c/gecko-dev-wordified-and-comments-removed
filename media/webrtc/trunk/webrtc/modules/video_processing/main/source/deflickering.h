@@ -54,13 +54,6 @@ VPMDeflickering
 (
 )
 ;
-int32_t
-ChangeUniqueId
-(
-int32_t
-id
-)
-;
 void
 Reset
 (
@@ -137,9 +130,6 @@ kMaxOnlyLength
 =
 5
 }
-;
-int32_t
-id_
 ;
 uint32_t
 mean_buffer_length_

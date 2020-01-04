@@ -108,7 +108,6 @@ out_file_
 )
 ;
 }
-virtual
 bool
 WriteArray
 (
@@ -119,7 +118,7 @@ audio
 size_t
 num_samples
 )
-OVERRIDE
+override
 {
 assert
 (

@@ -18,11 +18,6 @@ h
 namespace
 rtc
 {
-typedef
-struct
-MD5Context
-MD5_CTX
-;
 struct
 MD5Context
 {

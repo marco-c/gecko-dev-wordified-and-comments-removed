@@ -43,7 +43,7 @@ const
 uint8_t
 *
 payload
-int
+size_t
 payload_length_bytes
 DtmfEvent
 *

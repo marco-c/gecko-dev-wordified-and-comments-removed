@@ -24,7 +24,7 @@ enum
 {
 kMaxBandFrameLength
 =
-240
+320
 }
 ;
 static

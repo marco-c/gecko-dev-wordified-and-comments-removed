@@ -1014,7 +1014,10 @@ size
 size_t
 len
 =
-_min
+std
+:
+:
+min
 (
 end_
 -
@@ -1044,7 +1047,10 @@ else
 {
 size_
 =
-_max
+std
+:
+:
+max
 (
 size
 3

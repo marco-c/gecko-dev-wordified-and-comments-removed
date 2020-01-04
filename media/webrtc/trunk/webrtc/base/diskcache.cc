@@ -26,6 +26,11 @@ h
 endif
 #
 include
+<
+algorithm
+>
+#
+include
 "
 webrtc
 /
@@ -168,11 +173,11 @@ index
 )
 {
 }
-virtual
 ~
 DiskCacheAdapter
 (
 )
+override
 {
 Close
 (
@@ -629,7 +634,10 @@ entry
 >
 streams
 =
-stdmax
+std
+:
+:
+max
 (
 entry
 -

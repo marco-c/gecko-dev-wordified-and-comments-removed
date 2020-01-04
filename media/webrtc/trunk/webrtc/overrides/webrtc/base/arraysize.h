@@ -1,0 +1,17 @@
+#
+ifndef
+OVERRIDES_WEBRTC_BASE_ARRAYSIZE_H__
+#
+define
+OVERRIDES_WEBRTC_BASE_ARRAYSIZE_H__
+#
+include
+"
+base
+/
+macros
+.
+h
+"
+#
+endif

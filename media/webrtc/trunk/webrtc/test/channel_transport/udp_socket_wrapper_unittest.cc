@@ -109,16 +109,6 @@ uint8_t
 )
 )
 ;
-MOCK_METHOD1
-(
-ChangeUniqueId
-int32_t
-(
-const
-int32_t
-)
-)
-;
 MOCK_METHOD0
 (
 Start

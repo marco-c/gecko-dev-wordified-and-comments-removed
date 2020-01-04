@@ -115,8 +115,6 @@ webrtc_root
 /
 system_wrappers
 /
-source
-/
 system_wrappers
 .
 gyp
@@ -137,6 +135,13 @@ paced_sender
 h
 '
 '
+include
+/
+packet_router
+.
+h
+'
+'
 bitrate_prober
 .
 cc
@@ -148,6 +153,11 @@ h
 '
 '
 paced_sender
+.
+cc
+'
+'
+packet_router
 .
 cc
 '

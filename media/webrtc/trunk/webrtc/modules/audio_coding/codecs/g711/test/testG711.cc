@@ -188,10 +188,10 @@ decoded
 480
 ]
 ;
-int16_t
+uint8_t
 streamdata
 [
-500
+1000
 ]
 ;
 int16_t

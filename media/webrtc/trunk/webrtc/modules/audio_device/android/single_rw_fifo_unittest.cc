@@ -38,9 +38,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
+base
 /
 scoped_ptr
 .
@@ -430,6 +428,9 @@ protected
 SingleRwFifo
 fifo_
 ;
+rtc
+:
+:
 scoped_ptr
 <
 int8_t

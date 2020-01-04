@@ -81,12 +81,6 @@ kPi
 .
 14159265
 ;
-const
-int
-kDefaultProcessIntervalMs
-=
-30
-;
 static
 int
 GaussianRandom
@@ -1048,7 +1042,7 @@ packet
 ;
 }
 }
-int
+int64_t
 FakeNetworkPipe
 :
 :
@@ -1066,6 +1060,12 @@ get
 (
 )
 )
+;
+const
+int64_t
+kDefaultProcessIntervalMs
+=
+30
 ;
 if
 (
@@ -1096,10 +1096,8 @@ std
 :
 :
 max
-(
-static_cast
 <
-int
+int64_t
 >
 (
 next_process_time_
@@ -1109,7 +1107,6 @@ TickTime
 :
 MillisecondTimestamp
 (
-)
 )
 0
 )

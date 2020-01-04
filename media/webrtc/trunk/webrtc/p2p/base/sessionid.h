@@ -1,0 +1,12 @@
+#
+ifndef
+WEBRTC_P2P_BASE_SESSIONID_H_
+#
+define
+WEBRTC_P2P_BASE_SESSIONID_H_
+namespace
+cricket
+{
+}
+#
+endif

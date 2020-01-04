@@ -475,7 +475,7 @@ iLBC_bits
 ;
 typedef
 struct
-iLBC_Enc_Inst_t_
+IlbcEncoder_
 {
 int16_t
 mode
@@ -576,11 +576,11 @@ diff
 #
 endif
 }
-iLBC_Enc_Inst_t
+IlbcEncoder
 ;
 typedef
 struct
-iLBC_Dec_Inst_t_
+IlbcDecoder_
 {
 int16_t
 mode
@@ -692,7 +692,7 @@ ENH_NBLOCKS_TOT
 ]
 ;
 }
-iLBC_Dec_Inst_t
+IlbcDecoder
 ;
 #
 endif

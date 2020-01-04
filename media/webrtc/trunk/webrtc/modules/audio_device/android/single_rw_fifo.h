@@ -9,11 +9,9 @@ include
 "
 webrtc
 /
-system_wrappers
+base
 /
-interface
-/
-atomic32
+scoped_ptr
 .
 h
 "
@@ -26,7 +24,7 @@ system_wrappers
 /
 interface
 /
-scoped_ptr
+atomic32
 .
 h
 "
@@ -102,6 +100,9 @@ capacity_
 ;
 }
 private
+:
+rtc
+:
 :
 scoped_ptr
 <

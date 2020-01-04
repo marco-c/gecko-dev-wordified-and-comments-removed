@@ -115,8 +115,6 @@ webrtc_root
 /
 system_wrappers
 /
-source
-/
 system_wrappers
 .
 gyp

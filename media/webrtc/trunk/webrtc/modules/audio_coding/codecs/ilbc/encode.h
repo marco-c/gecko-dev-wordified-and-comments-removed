@@ -21,7 +21,7 @@ const
 int16_t
 *
 block
-iLBC_Enc_Inst_t
+IlbcEncoder
 *
 iLBCenc_inst
 )

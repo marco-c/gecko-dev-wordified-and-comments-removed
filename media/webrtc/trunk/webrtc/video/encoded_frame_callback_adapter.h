@@ -62,6 +62,7 @@ virtual
 int32_t
 Encoded
 (
+const
 EncodedImage
 &
 encodedImage

@@ -241,7 +241,7 @@ VCMRttFilter
 :
 Update
 (
-uint32_t
+int64_t
 rttMs
 )
 {
@@ -410,7 +410,7 @@ VCMRttFilter
 :
 JumpDetection
 (
-uint32_t
+int64_t
 rttMs
 )
 {
@@ -560,7 +560,7 @@ VCMRttFilter
 :
 DriftDetection
 (
-uint32_t
+int64_t
 rttMs
 )
 {
@@ -640,7 +640,7 @@ VCMRttFilter
 :
 ShortRttFilter
 (
-uint32_t
+int64_t
 *
 buf
 uint32_t
@@ -722,7 +722,7 @@ length
 )
 ;
 }
-uint32_t
+int64_t
 VCMRttFilter
 :
 :
@@ -734,7 +734,7 @@ const
 return
 static_cast
 <
-uint32_t
+int64_t
 >
 (
 _maxRtt

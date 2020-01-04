@@ -84,7 +84,7 @@ Packet
 NextPacket
 (
 )
-OVERRIDE
+override
 ;
 private
 :
@@ -110,8 +110,11 @@ const
 size_t
 packet_len_bytes_
 ;
-int16_t
+uint8_t
 encoded_sample_
+[
+2
+]
 ;
 const
 int

@@ -35,6 +35,9 @@ include
 <
 sstream
 >
+namespace
+rtc
+{
 bool
 GetStringFromJson
 (
@@ -1885,4 +1888,5 @@ size
 1
 )
 ;
+}
 }

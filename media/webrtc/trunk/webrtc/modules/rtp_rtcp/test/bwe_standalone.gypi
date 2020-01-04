@@ -124,8 +124,6 @@ webrtc_root
 /
 system_wrappers
 /
-source
-/
 system_wrappers
 .
 gyp
@@ -238,8 +236,6 @@ webrtc_root
 )
 /
 system_wrappers
-/
-source
 /
 system_wrappers
 .

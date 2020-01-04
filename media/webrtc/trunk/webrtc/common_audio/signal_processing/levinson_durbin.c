@@ -20,6 +20,7 @@ SPL_LEVINSON_MAXORDER
 int16_t
 WebRtcSpl_LevinsonDurbin
 (
+const
 int32_t
 *
 R

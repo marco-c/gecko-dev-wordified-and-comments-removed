@@ -74,6 +74,9 @@ clock_
 int64_t
 last_loss_rate_update_time_ms_
 ;
+rtc
+:
+:
 scoped_ptr
 <
 rtc

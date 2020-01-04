@@ -19,7 +19,6 @@ NETEQTEST_RTPpacket
 {
 public
 :
-virtual
 int
 readFromFile
 (
@@ -27,9 +26,8 @@ FILE
 *
 fp
 )
-OVERRIDE
+override
 ;
-virtual
 int
 writeToFile
 (
@@ -37,14 +35,13 @@ FILE
 *
 fp
 )
-OVERRIDE
+override
 ;
-virtual
 void
 parseHeader
 (
 )
-OVERRIDE
+override
 ;
 }
 ;

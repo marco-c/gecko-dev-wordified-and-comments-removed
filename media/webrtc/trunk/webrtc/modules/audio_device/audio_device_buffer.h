@@ -63,9 +63,6 @@ class
 AudioDeviceObserver
 ;
 class
-MediaFile
-;
-class
 AudioDeviceBuffer
 {
 public

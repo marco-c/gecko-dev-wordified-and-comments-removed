@@ -16,12 +16,14 @@ h
 void
 WebRtcSpl_FilterMAFastQ12
 (
+const
 int16_t
 *
 in_ptr
 int16_t
 *
 out_ptr
+const
 int16_t
 *
 B

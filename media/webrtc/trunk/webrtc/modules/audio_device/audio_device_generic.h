@@ -812,6 +812,13 @@ par4
 )
 ;
 virtual
+bool
+BuiltInAECIsAvailable
+(
+)
+const
+;
+virtual
 int32_t
 EnableBuiltInAEC
 (

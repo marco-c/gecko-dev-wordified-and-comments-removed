@@ -211,6 +211,9 @@ time_ms_
 time_ms
 )
 {
+rtc
+:
+:
 scoped_ptr
 <
 RtpHeaderParser
@@ -279,6 +282,9 @@ time_ms_
 time_ms
 )
 {
+rtc
+:
+:
 scoped_ptr
 <
 RtpHeaderParser

@@ -113,7 +113,7 @@ _owner
 ;
 NSLock
 *
-lock_
+_lock
 ;
 QTCaptureSession
 *

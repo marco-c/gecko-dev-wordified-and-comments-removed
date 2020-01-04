@@ -172,6 +172,9 @@ Revert
 (
 )
 ;
+rtc
+:
+:
 scoped_ptr
 <
 Desktop

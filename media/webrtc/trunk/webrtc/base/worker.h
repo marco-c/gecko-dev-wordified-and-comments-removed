@@ -44,11 +44,11 @@ Worker
 (
 )
 ;
-virtual
 ~
 Worker
 (
 )
+override
 ;
 bool
 StartWork
@@ -93,7 +93,6 @@ OnStop
 ;
 private
 :
-virtual
 void
 OnMessage
 (
@@ -101,6 +100,7 @@ Message
 *
 msg
 )
+override
 ;
 Thread
 *

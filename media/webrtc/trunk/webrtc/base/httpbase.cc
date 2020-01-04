@@ -1141,7 +1141,6 @@ size
 )
 {
 }
-virtual
 StreamResult
 DoReserve
 (
@@ -1151,6 +1150,7 @@ int
 *
 error
 )
+override
 {
 return
 (
@@ -1195,12 +1195,12 @@ HE_DEFAULT
 )
 {
 }
-virtual
 StreamState
 GetState
 (
 )
 const
+override
 {
 if
 (
@@ -1229,7 +1229,6 @@ return
 SS_OPENING
 ;
 }
-virtual
 StreamResult
 Read
 (
@@ -1245,6 +1244,7 @@ int
 *
 error
 )
+override
 {
 if
 (
@@ -1438,7 +1438,6 @@ return
 result
 ;
 }
-virtual
 StreamResult
 Write
 (
@@ -1455,6 +1454,7 @@ int
 *
 error
 )
+override
 {
 if
 (
@@ -1470,11 +1470,11 @@ return
 SR_ERROR
 ;
 }
-virtual
 void
 Close
 (
 )
+override
 {
 if
 (
@@ -1522,7 +1522,6 @@ SE_READ
 }
 }
 }
-virtual
 bool
 GetAvailable
 (
@@ -1531,6 +1530,7 @@ size_t
 size
 )
 const
+override
 {
 if
 (
@@ -2479,6 +2479,10 @@ SR_EOS
 read_error
 =
 0
+;
+FALLTHROUGH
+(
+)
 ;
 case
 SR_ERROR

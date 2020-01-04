@@ -177,7 +177,7 @@ enable
 ;
 virtual
 int
-GetSendCodecStatistics
+GetSendCodecStastistics
 (
 const
 int
@@ -195,7 +195,7 @@ const
 ;
 virtual
 int
-GetReceiveCodecStatistics
+GetReceiveCodecStastistics
 (
 const
 int
@@ -223,6 +223,15 @@ int
 delay_ms
 )
 const
+;
+uint32_t
+GetLastObservedBitrateBps
+(
+int
+video_channel
+)
+const
+override
 ;
 virtual
 int

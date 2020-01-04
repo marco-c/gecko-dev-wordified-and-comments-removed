@@ -36,9 +36,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
+base
 /
 scoped_ptr
 .
@@ -219,6 +217,9 @@ output
 kInputLength
 ]
 ;
+rtc
+:
+:
 scoped_ptr
 <
 FIRFilter
@@ -290,6 +291,9 @@ output
 kInputLength
 ]
 ;
+rtc
+:
+:
 scoped_ptr
 <
 FIRFilter
@@ -400,6 +404,9 @@ output
 kInputLength
 ]
 ;
+rtc
+:
+:
 scoped_ptr
 <
 FIRFilter
@@ -497,6 +504,9 @@ output
 kInputLength
 ]
 ;
+rtc
+:
+:
 scoped_ptr
 <
 FIRFilter
@@ -594,6 +604,9 @@ output
 kInputLength
 ]
 ;
+rtc
+:
+:
 scoped_ptr
 <
 FIRFilter
@@ -714,6 +727,9 @@ output
 kInputLength
 ]
 ;
+rtc
+:
+:
 scoped_ptr
 <
 FIRFilter
@@ -966,6 +982,9 @@ output_block_based
 kInputLength
 ]
 ;
+rtc
+:
+:
 scoped_ptr
 <
 FIRFilter
@@ -1155,6 +1174,9 @@ output
 kConstantInputLength
 ]
 ;
+rtc
+:
+:
 scoped_ptr
 <
 FIRFilter
@@ -1321,6 +1343,9 @@ output
 kHighFrequencyInputLength
 ]
 ;
+rtc
+:
+:
 scoped_ptr
 <
 FIRFilter
@@ -1409,6 +1434,9 @@ output_swaped
 kCoefficientsLength
 ]
 ;
+rtc
+:
+:
 scoped_ptr
 <
 FIRFilter

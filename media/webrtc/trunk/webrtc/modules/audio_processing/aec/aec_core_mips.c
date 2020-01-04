@@ -3589,6 +3589,7 @@ num
 ;
 if
 (
+(
 aec
 -
 >
@@ -3596,6 +3597,16 @@ sampFreq
 =
 =
 32000
+|
+|
+aec
+-
+>
+sampFreq
+=
+=
+48000
+)
 &
 &
 flagHbandCn

@@ -199,13 +199,13 @@ capture_id
 ;
 virtual
 int
-SetRotateCapturedFrames
+SetVideoRotation
 (
 const
 int
 capture_id
 const
-RotateCapturedFrame
+VideoRotation
 rotation
 )
 ;
@@ -300,7 +300,7 @@ const
 char
 *
 unique_idUTF8
-RotateCapturedFrame
+VideoRotation
 &
 orientation
 )

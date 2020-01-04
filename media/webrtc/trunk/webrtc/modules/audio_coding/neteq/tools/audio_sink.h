@@ -136,7 +136,6 @@ right
 )
 {
 }
-virtual
 bool
 WriteArray
 (
@@ -147,7 +146,7 @@ audio
 size_t
 num_samples
 )
-OVERRIDE
+override
 {
 return
 left_sink_

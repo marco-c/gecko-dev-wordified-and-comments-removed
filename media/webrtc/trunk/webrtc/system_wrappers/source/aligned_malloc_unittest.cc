@@ -52,9 +52,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
+base
 /
 scoped_ptr
 .
@@ -81,6 +79,9 @@ size_t
 alignment
 )
 {
+rtc
+:
+:
 scoped_ptr
 <
 char
@@ -167,6 +168,9 @@ left_misalignment
 =
 1
 ;
+rtc
+:
+:
 scoped_ptr
 <
 char

@@ -15,7 +15,7 @@ h
 int16_t
 WebRtcIlbcfix_FrameClassify
 (
-iLBC_Enc_Inst_t
+IlbcEncoder
 *
 iLBCenc_inst
 int16_t
@@ -70,9 +70,12 @@ scale
 =
 WebRtcSpl_GetSizeInBits
 (
-WEBRTC_SPL_MUL_16_16
+(
+uint32_t
+)
 (
 max
+*
 max
 )
 )

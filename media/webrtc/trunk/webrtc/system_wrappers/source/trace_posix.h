@@ -45,13 +45,12 @@ TracePosix
 (
 )
 ;
-virtual
 ~
 TracePosix
 (
 )
+override
 ;
-virtual
 int32_t
 AddTime
 (
@@ -63,9 +62,8 @@ TraceLevel
 level
 )
 const
-OVERRIDE
+override
 ;
-virtual
 int32_t
 AddDateTimeInfo
 (
@@ -74,7 +72,7 @@ char
 trace_message
 )
 const
-OVERRIDE
+override
 ;
 private
 :

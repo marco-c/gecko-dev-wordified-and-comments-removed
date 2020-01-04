@@ -107,7 +107,7 @@ payload_size_
 =
 payload_size
 ;
-uint32_t
+size_t
 num_packets
 =
 (

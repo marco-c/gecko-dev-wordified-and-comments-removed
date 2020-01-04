@@ -141,9 +141,9 @@ const
 Packet
 *
 packet
-int
+size_t
 bytes_per_ms
-int
+uint32_t
 timestamps_per_ms
 PacketList
 *
@@ -158,9 +158,9 @@ const
 Packet
 *
 packet
-int
+size_t
 bytes_per_frame
-int
+uint32_t
 timestamps_per_frame
 PacketList
 *

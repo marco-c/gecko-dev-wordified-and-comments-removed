@@ -22,6 +22,15 @@ kDefaultSampleRate
 10
 /
 1000
+kBytesPerFrame
+=
+kNumChannels
+*
+(
+16
+/
+8
+)
 }
 ;
 class

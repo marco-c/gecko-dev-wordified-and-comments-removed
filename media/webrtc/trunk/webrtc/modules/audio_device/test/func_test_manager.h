@@ -776,8 +776,13 @@ std
 string
 _playoutFile8
 ;
+rtc
+:
+:
+scoped_ptr
+<
 ProcessThread
-*
+>
 _processThread
 ;
 AudioDeviceModule

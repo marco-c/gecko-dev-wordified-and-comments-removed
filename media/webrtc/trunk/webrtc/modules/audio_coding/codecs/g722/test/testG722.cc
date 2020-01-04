@@ -211,12 +211,12 @@ decoded
 960
 ]
 ;
-int16_t
+uint8_t
 streamdata
 [
 80
 *
-3
+6
 ]
 ;
 int16_t
@@ -674,10 +674,6 @@ err
 =
 WebRtcG722_Decode
 (
-(
-G722DecInst
-*
-)
 G722dec_inst
 streamdata
 stream_len

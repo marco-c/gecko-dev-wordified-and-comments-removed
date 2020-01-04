@@ -250,7 +250,7 @@ int8_t
 *
 incoming_rtp_packet
 const
-int32_t
+size_t
 packet_length
 const
 char
@@ -284,7 +284,7 @@ int8_t
 *
 incoming_rtcp_packet
 const
-int32_t
+size_t
 packet_length
 const
 char
@@ -492,7 +492,7 @@ int8_t
 *
 incoming_rtp_packet
 const
-int32_t
+size_t
 packet_length
 const
 char
@@ -526,7 +526,7 @@ int8_t
 *
 incoming_rtcp_packet
 const
-int32_t
+size_t
 packet_length
 const
 char

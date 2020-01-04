@@ -256,6 +256,10 @@ maxFPS
 =
 kDefaultFrameRate
 ;
+capture_device_
+=
+nil
+;
 }
 VideoCaptureIos
 :
@@ -274,6 +278,10 @@ is_capturing_
 capture_device_
 stopCapture
 ]
+;
+capture_device_
+=
+nil
 ;
 }
 }

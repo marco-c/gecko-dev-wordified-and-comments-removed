@@ -133,7 +133,6 @@ RtcpCollectorTransport
 )
 {
 }
-virtual
 int
 SendPacket
 (
@@ -141,9 +140,9 @@ int
 const
 void
 *
-int
+size_t
 )
-OVERRIDE
+override
 {
 EXPECT_TRUE
 (
@@ -154,7 +153,6 @@ return
 0
 ;
 }
-virtual
 int
 SendRTCPPacket
 (
@@ -164,10 +162,10 @@ const
 void
 *
 data
-int
+size_t
 len
 )
-OVERRIDE
+override
 {
 const
 uint8_t
@@ -244,6 +242,12 @@ payloadType
 =
 =
 201
+&
+&
+len
+>
+=
+20
 )
 {
 buf
@@ -420,7 +424,7 @@ remb_ssrc
 int
 channel
 ;
-int
+size_t
 length
 ;
 webrtc
@@ -450,7 +454,7 @@ const
 uint8_t
 *
 buf
-int
+size_t
 length
 Packet
 *
@@ -518,7 +522,7 @@ return
 false
 ;
 }
-uint8_t
+size_t
 ssrcs
 =
 buf
@@ -616,7 +620,7 @@ buf
 ;
 for
 (
-uint8_t
+size_t
 i
 =
 0
@@ -737,12 +741,11 @@ ViENetworkTest
 )
 {
 }
-virtual
 void
 SetUp
 (
 )
-OVERRIDE
+override
 {
 EXPECT_EQ
 (
@@ -790,12 +793,11 @@ transport
 )
 ;
 }
-virtual
 void
 TearDown
 (
 )
-OVERRIDE
+override
 {
 EXPECT_EQ
 (

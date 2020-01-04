@@ -50,7 +50,7 @@ h
 int16_t
 WebRtcIlbcfix_EncoderAssign
 (
-iLBC_encinst_t
+IlbcEncoderInstance
 *
 *
 iLBC_encinst
@@ -66,7 +66,7 @@ size
 iLBC_encinst
 =
 (
-iLBC_encinst_t
+IlbcEncoderInstance
 *
 )
 ILBCENC_inst_Addr
@@ -76,7 +76,7 @@ size
 =
 sizeof
 (
-iLBC_Enc_Inst_t
+IlbcEncoder
 )
 /
 sizeof
@@ -112,7 +112,7 @@ return
 int16_t
 WebRtcIlbcfix_DecoderAssign
 (
-iLBC_decinst_t
+IlbcDecoderInstance
 *
 *
 iLBC_decinst
@@ -128,7 +128,7 @@ size
 iLBC_decinst
 =
 (
-iLBC_decinst_t
+IlbcDecoderInstance
 *
 )
 ILBCDEC_inst_Addr
@@ -138,7 +138,7 @@ size
 =
 sizeof
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 )
 /
 sizeof
@@ -174,7 +174,7 @@ return
 int16_t
 WebRtcIlbcfix_EncoderCreate
 (
-iLBC_encinst_t
+IlbcEncoderInstance
 *
 *
 iLBC_encinst
@@ -184,14 +184,14 @@ iLBC_encinst
 iLBC_encinst
 =
 (
-iLBC_encinst_t
+IlbcEncoderInstance
 *
 )
 malloc
 (
 sizeof
 (
-iLBC_Enc_Inst_t
+IlbcEncoder
 )
 )
 ;
@@ -227,7 +227,7 @@ return
 int16_t
 WebRtcIlbcfix_DecoderCreate
 (
-iLBC_decinst_t
+IlbcDecoderInstance
 *
 *
 iLBC_decinst
@@ -237,14 +237,14 @@ iLBC_decinst
 iLBC_decinst
 =
 (
-iLBC_decinst_t
+IlbcDecoderInstance
 *
 )
 malloc
 (
 sizeof
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 )
 )
 ;
@@ -280,7 +280,7 @@ return
 int16_t
 WebRtcIlbcfix_EncoderFree
 (
-iLBC_encinst_t
+IlbcEncoderInstance
 *
 iLBC_encinst
 )
@@ -299,7 +299,7 @@ return
 int16_t
 WebRtcIlbcfix_DecoderFree
 (
-iLBC_decinst_t
+IlbcDecoderInstance
 *
 iLBC_decinst
 )
@@ -318,7 +318,7 @@ return
 int16_t
 WebRtcIlbcfix_EncoderInit
 (
-iLBC_encinst_t
+IlbcEncoderInstance
 *
 iLBCenc_inst
 int16_t
@@ -346,7 +346,7 @@ mode
 WebRtcIlbcfix_InitEncode
 (
 (
-iLBC_Enc_Inst_t
+IlbcEncoder
 *
 )
 iLBCenc_inst
@@ -372,7 +372,7 @@ return
 int16_t
 WebRtcIlbcfix_Encode
 (
-iLBC_encinst_t
+IlbcEncoderInstance
 *
 iLBCenc_inst
 const
@@ -381,7 +381,7 @@ int16_t
 speechIn
 int16_t
 len
-int16_t
+uint8_t
 *
 encoded
 )
@@ -404,7 +404,7 @@ len
 =
 (
 (
-iLBC_Enc_Inst_t
+IlbcEncoder
 *
 )
 iLBCenc_inst
@@ -436,7 +436,7 @@ len
 *
 (
 (
-iLBC_Enc_Inst_t
+IlbcEncoder
 *
 )
 iLBCenc_inst
@@ -455,7 +455,7 @@ len
 *
 (
 (
-iLBC_Enc_Inst_t
+IlbcEncoder
 *
 )
 iLBCenc_inst
@@ -491,6 +491,8 @@ uint16_t
 &
 encoded
 [
+2
+*
 encpos
 ]
 &
@@ -499,7 +501,7 @@ speechIn
 pos
 ]
 (
-iLBC_Enc_Inst_t
+IlbcEncoder
 *
 )
 iLBCenc_inst
@@ -517,7 +519,7 @@ if
 (
 (
 (
-iLBC_Enc_Inst_t
+IlbcEncoder
 *
 )
 iLBCenc_inst
@@ -536,7 +538,7 @@ pos
 =
 (
 (
-iLBC_Enc_Inst_t
+IlbcEncoder
 *
 )
 iLBCenc_inst
@@ -552,7 +554,7 @@ encpos
 =
 (
 (
-iLBC_Enc_Inst_t
+IlbcEncoder
 *
 )
 iLBCenc_inst
@@ -574,7 +576,7 @@ encpos
 int16_t
 WebRtcIlbcfix_DecoderInit
 (
-iLBC_decinst_t
+IlbcDecoderInstance
 *
 iLBCdec_inst
 int16_t
@@ -602,7 +604,7 @@ mode
 WebRtcIlbcfix_InitDecode
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -629,7 +631,7 @@ return
 int16_t
 WebRtcIlbcfix_DecoderInit20Ms
 (
-iLBC_decinst_t
+IlbcDecoderInstance
 *
 iLBCdec_inst
 )
@@ -637,7 +639,7 @@ iLBCdec_inst
 WebRtcIlbcfix_InitDecode
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -654,7 +656,7 @@ return
 int16_t
 WebRtcIlbcfix_Decoderinit30Ms
 (
-iLBC_decinst_t
+IlbcDecoderInstance
 *
 iLBCdec_inst
 )
@@ -662,7 +664,7 @@ iLBCdec_inst
 WebRtcIlbcfix_InitDecode
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -679,11 +681,11 @@ return
 int16_t
 WebRtcIlbcfix_Decode
 (
-iLBC_decinst_t
+IlbcDecoderInstance
 *
 iLBCdec_inst
 const
-int16_t
+uint8_t
 *
 encoded
 int16_t
@@ -709,7 +711,7 @@ len
 =
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -728,7 +730,7 @@ len
 *
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -747,7 +749,7 @@ len
 *
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -765,7 +767,7 @@ if
 (
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -812,7 +814,7 @@ WebRtcIlbcfix_InitDecode
 (
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -820,7 +822,7 @@ iLBCdec_inst
 30
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -877,7 +879,7 @@ WebRtcIlbcfix_InitDecode
 (
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -885,7 +887,7 @@ iLBCdec_inst
 20
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -914,7 +916,7 @@ i
 *
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -936,7 +938,7 @@ i
 *
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -953,11 +955,13 @@ uint16_t
 &
 encoded
 [
+2
+*
 i
 *
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -967,7 +971,7 @@ iLBCdec_inst
 no_of_words
 ]
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -990,7 +994,7 @@ i
 *
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -1004,11 +1008,11 @@ blockl
 int16_t
 WebRtcIlbcfix_Decode20Ms
 (
-iLBC_decinst_t
+IlbcDecoderInstance
 *
 iLBCdec_inst
 const
-int16_t
+uint8_t
 *
 encoded
 int16_t
@@ -1034,7 +1038,7 @@ len
 =
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -1053,7 +1057,7 @@ len
 *
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -1072,7 +1076,7 @@ len
 *
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -1100,7 +1104,7 @@ i
 *
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -1122,7 +1126,7 @@ i
 *
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -1139,11 +1143,13 @@ uint16_t
 &
 encoded
 [
+2
+*
 i
 *
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -1153,7 +1159,7 @@ iLBCdec_inst
 no_of_words
 ]
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -1176,7 +1182,7 @@ i
 *
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -1190,11 +1196,11 @@ blockl
 int16_t
 WebRtcIlbcfix_Decode30Ms
 (
-iLBC_decinst_t
+IlbcDecoderInstance
 *
 iLBCdec_inst
 const
-int16_t
+uint8_t
 *
 encoded
 int16_t
@@ -1220,7 +1226,7 @@ len
 =
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -1239,7 +1245,7 @@ len
 *
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -1258,7 +1264,7 @@ len
 *
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -1286,7 +1292,7 @@ i
 *
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -1308,7 +1314,7 @@ i
 *
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -1325,11 +1331,13 @@ uint16_t
 &
 encoded
 [
+2
+*
 i
 *
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -1339,7 +1347,7 @@ iLBCdec_inst
 no_of_words
 ]
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -1362,7 +1370,7 @@ i
 *
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -1376,7 +1384,7 @@ blockl
 int16_t
 WebRtcIlbcfix_DecodePlc
 (
-iLBC_decinst_t
+IlbcDecoderInstance
 *
 iLBCdec_inst
 int16_t
@@ -1416,7 +1424,7 @@ i
 *
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -1428,7 +1436,7 @@ blockl
 &
 dummy
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -1442,7 +1450,7 @@ noOfLostFrames
 *
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -1456,7 +1464,7 @@ blockl
 int16_t
 WebRtcIlbcfix_NetEqPlc
 (
-iLBC_decinst_t
+IlbcDecoderInstance
 *
 iLBCdec_inst
 int16_t
@@ -1488,7 +1496,7 @@ WebRtcSpl_MemSetW16
 (
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst
@@ -1502,7 +1510,7 @@ ENH_BUFL
 ;
 (
 (
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 )
 iLBCdec_inst

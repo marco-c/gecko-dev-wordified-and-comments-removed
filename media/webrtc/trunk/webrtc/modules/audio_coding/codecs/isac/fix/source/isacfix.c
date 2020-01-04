@@ -524,7 +524,7 @@ malloc
 *
 sizeof
 (
-ISAC_SaveEncData_t
+IsacSaveEncoderData
 )
 )
 ;

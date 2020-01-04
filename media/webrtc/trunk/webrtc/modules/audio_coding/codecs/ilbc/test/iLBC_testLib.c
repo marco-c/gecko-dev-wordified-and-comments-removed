@@ -96,11 +96,11 @@ blockcount
 =
 0
 ;
-iLBC_encinst_t
+IlbcEncoderInstance
 *
 Enc_Inst
 ;
-iLBC_decinst_t
+IlbcDecoderInstance
 *
 Dec_Inst
 ;

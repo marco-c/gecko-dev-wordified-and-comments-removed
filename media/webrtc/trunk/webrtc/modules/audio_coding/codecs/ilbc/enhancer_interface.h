@@ -20,7 +20,7 @@ out
 int16_t
 *
 in
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 iLBCdec_inst
 )

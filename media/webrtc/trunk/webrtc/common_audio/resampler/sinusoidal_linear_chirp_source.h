@@ -58,7 +58,6 @@ SinusoidalLinearChirpSource
 )
 {
 }
-virtual
 void
 Run
 (
@@ -68,7 +67,7 @@ float
 *
 destination
 )
-OVERRIDE
+override
 ;
 double
 Frequency

@@ -4385,17 +4385,6 @@ kReportBlockLength
 1
 )
 ;
-RtcpPacketParser
-parser
-;
-parser
-.
-Parse
-(
-packet
-len
-)
-;
 EXPECT_EQ
 (
 0U

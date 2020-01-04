@@ -63,7 +63,6 @@ Transport
 transport
 )
 ;
-virtual
 int
 SendPacket
 (
@@ -72,12 +71,11 @@ const
 void
 *
 packet
-int
+size_t
 length
 )
-OVERRIDE
+override
 ;
-virtual
 int
 SendRTCPPacket
 (
@@ -86,10 +84,10 @@ const
 void
 *
 packet
-int
+size_t
 length
 )
-OVERRIDE
+override
 ;
 void
 Enable

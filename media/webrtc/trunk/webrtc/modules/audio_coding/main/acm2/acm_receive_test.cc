@@ -863,6 +863,9 @@ Run
 {
 for
 (
+rtc
+:
+:
 scoped_ptr
 <
 Packet
@@ -1053,17 +1056,11 @@ packet
 payload
 (
 )
-static_cast
-<
-int32_t
->
-(
 packet
 -
 >
 payload_length_bytes
 (
-)
 )
 header
 )

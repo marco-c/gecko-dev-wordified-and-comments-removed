@@ -85,7 +85,7 @@ const
 int8_t
 *
 buf
-int32_t
+size_t
 len
 const
 SocketAddress
@@ -122,17 +122,6 @@ disableGQOS
 =
 false
 )
-;
-virtual
-int32_t
-ChangeUniqueId
-(
-const
-int32_t
-id
-)
-=
-0
 ;
 virtual
 bool
@@ -231,7 +220,7 @@ const
 int8_t
 *
 buf
-int32_t
+size_t
 len
 const
 SocketAddress

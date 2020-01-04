@@ -221,14 +221,6 @@ TrafficControlWindows
 gtc
 )
 ;
-int32_t
-ChangeUniqueId
-(
-const
-int32_t
-id
-)
-;
 ULONG
 TcRegisterClient
 (
@@ -328,9 +320,6 @@ const
 int32_t
 id
 )
-;
-int32_t
-_id
 ;
 TCI_CLIENT_FUNC_LIST
 QoSFunctions

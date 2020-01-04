@@ -121,6 +121,9 @@ gyp
 :
 common_audio
 '
+'
+audio_encoder_interface
+'
 ]
 '
 include_dirs
@@ -166,6 +169,13 @@ sources
 '
 interface
 /
+audio_encoder_ilbc
+.
+h
+'
+'
+interface
+/
 ilbc
 .
 h
@@ -179,6 +189,11 @@ c
 abs_quant_loop
 .
 c
+'
+'
+audio_encoder_ilbc
+.
+cc
 '
 '
 augmented_cb_corr

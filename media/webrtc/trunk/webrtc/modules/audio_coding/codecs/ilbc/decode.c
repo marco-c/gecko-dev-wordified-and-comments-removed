@@ -104,7 +104,7 @@ const
 uint16_t
 *
 bytes
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 iLBCdec_inst
 int16_t

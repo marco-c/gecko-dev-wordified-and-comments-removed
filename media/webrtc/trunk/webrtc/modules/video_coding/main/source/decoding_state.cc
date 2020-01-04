@@ -221,7 +221,7 @@ false
 ;
 return
 !
-IsNewerOrSameTimestamp
+IsNewerTimestamp
 (
 frame
 -
@@ -263,7 +263,7 @@ false
 ;
 return
 !
-IsNewerOrSameTimestamp
+IsNewerTimestamp
 (
 packet
 -
@@ -963,7 +963,6 @@ seq_num
 const
 {
 return
-(
 seq_num
 =
 =
@@ -975,7 +974,6 @@ uint16_t
 sequence_num_
 +
 1
-)
 )
 ;
 }

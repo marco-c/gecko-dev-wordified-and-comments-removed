@@ -145,9 +145,6 @@ string
 version
 )
 ;
-#
-ifndef
-WEBRTC_MOZILLA_BUILD
 bool
 RunAppleScript
 (
@@ -160,8 +157,6 @@ string
 script
 )
 ;
-#
-endif
 #
 endif
 }

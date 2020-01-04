@@ -70,6 +70,9 @@ DesktopCaptureOptions
 options
 )
 {
+rtc
+:
+:
 scoped_ptr
 <
 ScreenCapturer

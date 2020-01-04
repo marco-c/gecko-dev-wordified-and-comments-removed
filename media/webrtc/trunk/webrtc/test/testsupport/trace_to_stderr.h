@@ -42,11 +42,11 @@ bool
 override_time
 )
 ;
-virtual
 ~
 TraceToStderr
 (
 )
+override
 ;
 virtual
 void
@@ -56,7 +56,6 @@ float
 time
 )
 ;
-virtual
 void
 Print
 (
@@ -69,7 +68,7 @@ msg_array
 int
 length
 )
-OVERRIDE
+override
 ;
 private
 :

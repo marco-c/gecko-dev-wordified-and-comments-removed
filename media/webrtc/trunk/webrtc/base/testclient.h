@@ -90,6 +90,13 @@ size
 ;
 }
 ;
+static
+const
+int
+kTimeoutMs
+=
+5000
+;
 explicit
 TestClient
 (
@@ -102,6 +109,7 @@ socket
 TestClient
 (
 )
+override
 ;
 SocketAddress
 address
@@ -188,6 +196,8 @@ Packet
 *
 NextPacket
 (
+int
+timeout_ms
 )
 ;
 bool
@@ -237,7 +247,7 @@ private
 static
 const
 int
-kTimeout
+kNoPacketTimeoutMs
 =
 1000
 ;

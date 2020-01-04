@@ -16,12 +16,12 @@ h
 typedef
 struct
 iLBC_encinst_t_
-iLBC_encinst_t
+IlbcEncoderInstance
 ;
 typedef
 struct
 iLBC_decinst_t_
-iLBC_decinst_t
+IlbcDecoderInstance
 ;
 #
 define
@@ -44,7 +44,7 @@ endif
 int16_t
 WebRtcIlbcfix_EncoderAssign
 (
-iLBC_encinst_t
+IlbcEncoderInstance
 *
 *
 iLBC_encinst
@@ -59,7 +59,7 @@ size
 int16_t
 WebRtcIlbcfix_DecoderAssign
 (
-iLBC_decinst_t
+IlbcDecoderInstance
 *
 *
 iLBC_decinst
@@ -74,7 +74,7 @@ size
 int16_t
 WebRtcIlbcfix_EncoderCreate
 (
-iLBC_encinst_t
+IlbcEncoderInstance
 *
 *
 iLBC_encinst
@@ -83,7 +83,7 @@ iLBC_encinst
 int16_t
 WebRtcIlbcfix_DecoderCreate
 (
-iLBC_decinst_t
+IlbcDecoderInstance
 *
 *
 iLBC_decinst
@@ -92,7 +92,7 @@ iLBC_decinst
 int16_t
 WebRtcIlbcfix_EncoderFree
 (
-iLBC_encinst_t
+IlbcEncoderInstance
 *
 iLBC_encinst
 )
@@ -100,7 +100,7 @@ iLBC_encinst
 int16_t
 WebRtcIlbcfix_DecoderFree
 (
-iLBC_decinst_t
+IlbcDecoderInstance
 *
 iLBC_decinst
 )
@@ -108,7 +108,7 @@ iLBC_decinst
 int16_t
 WebRtcIlbcfix_EncoderInit
 (
-iLBC_encinst_t
+IlbcEncoderInstance
 *
 iLBCenc_inst
 int16_t
@@ -118,7 +118,7 @@ frameLen
 int16_t
 WebRtcIlbcfix_Encode
 (
-iLBC_encinst_t
+IlbcEncoderInstance
 *
 iLBCenc_inst
 const
@@ -127,7 +127,7 @@ int16_t
 speechIn
 int16_t
 len
-int16_t
+uint8_t
 *
 encoded
 )
@@ -135,7 +135,7 @@ encoded
 int16_t
 WebRtcIlbcfix_DecoderInit
 (
-iLBC_decinst_t
+IlbcDecoderInstance
 *
 iLBCdec_inst
 int16_t
@@ -145,7 +145,7 @@ frameLen
 int16_t
 WebRtcIlbcfix_DecoderInit20Ms
 (
-iLBC_decinst_t
+IlbcDecoderInstance
 *
 iLBCdec_inst
 )
@@ -153,7 +153,7 @@ iLBCdec_inst
 int16_t
 WebRtcIlbcfix_Decoderinit30Ms
 (
-iLBC_decinst_t
+IlbcDecoderInstance
 *
 iLBCdec_inst
 )
@@ -161,11 +161,11 @@ iLBCdec_inst
 int16_t
 WebRtcIlbcfix_Decode
 (
-iLBC_decinst_t
+IlbcDecoderInstance
 *
 iLBCdec_inst
 const
-int16_t
+uint8_t
 *
 encoded
 int16_t
@@ -181,11 +181,11 @@ speechType
 int16_t
 WebRtcIlbcfix_Decode20Ms
 (
-iLBC_decinst_t
+IlbcDecoderInstance
 *
 iLBCdec_inst
 const
-int16_t
+uint8_t
 *
 encoded
 int16_t
@@ -201,11 +201,11 @@ speechType
 int16_t
 WebRtcIlbcfix_Decode30Ms
 (
-iLBC_decinst_t
+IlbcDecoderInstance
 *
 iLBCdec_inst
 const
-int16_t
+uint8_t
 *
 encoded
 int16_t
@@ -221,7 +221,7 @@ speechType
 int16_t
 WebRtcIlbcfix_DecodePlc
 (
-iLBC_decinst_t
+IlbcDecoderInstance
 *
 iLBCdec_inst
 int16_t
@@ -234,7 +234,7 @@ noOfLostFrames
 int16_t
 WebRtcIlbcfix_NetEqPlc
 (
-iLBC_decinst_t
+IlbcDecoderInstance
 *
 iLBCdec_inst
 int16_t

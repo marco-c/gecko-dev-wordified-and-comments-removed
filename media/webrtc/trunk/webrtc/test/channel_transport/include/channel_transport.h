@@ -52,7 +52,6 @@ VoiceChannelTransport
 (
 )
 ;
-virtual
 void
 IncomingRTPPacket
 (
@@ -61,7 +60,7 @@ int8_t
 *
 incoming_rtp_packet
 const
-int32_t
+size_t
 packet_length
 const
 char
@@ -69,9 +68,8 @@ char
 const
 uint16_t
 )
-OVERRIDE
+override
 ;
-virtual
 void
 IncomingRTCPPacket
 (
@@ -80,7 +78,7 @@ int8_t
 *
 incoming_rtcp_packet
 const
-int32_t
+size_t
 packet_length
 const
 char
@@ -88,7 +86,7 @@ char
 const
 uint16_t
 )
-OVERRIDE
+override
 ;
 int
 SetLocalReceiver
@@ -146,7 +144,6 @@ VideoChannelTransport
 (
 )
 ;
-virtual
 void
 IncomingRTPPacket
 (
@@ -155,7 +152,7 @@ int8_t
 *
 incoming_rtp_packet
 const
-int32_t
+size_t
 packet_length
 const
 char
@@ -163,9 +160,8 @@ char
 const
 uint16_t
 )
-OVERRIDE
+override
 ;
-virtual
 void
 IncomingRTCPPacket
 (
@@ -174,7 +170,7 @@ int8_t
 *
 incoming_rtcp_packet
 const
-int32_t
+size_t
 packet_length
 const
 char
@@ -182,7 +178,7 @@ char
 const
 uint16_t
 )
-OVERRIDE
+override
 ;
 int
 SetLocalReceiver

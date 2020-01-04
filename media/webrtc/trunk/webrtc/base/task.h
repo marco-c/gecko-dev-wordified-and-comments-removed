@@ -71,11 +71,11 @@ TaskParent
 parent
 )
 ;
-virtual
 ~
 Task
 (
 )
+override
 ;
 int32
 unique_id
@@ -279,11 +279,7 @@ int
 ProcessResponse
 (
 )
-{
-return
-STATE_DONE
 ;
-}
 void
 ResetTimeout
 (
@@ -311,11 +307,7 @@ int
 OnTimeout
 (
 )
-{
-return
-STATE_DONE
 ;
-}
 private
 :
 void

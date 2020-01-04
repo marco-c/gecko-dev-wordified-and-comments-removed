@@ -66,6 +66,7 @@ MOCK_METHOD3
 Encoded
 int32_t
 (
+const
 EncodedImage
 &
 encodedImage
@@ -114,7 +115,7 @@ VideoCodec
 codecSettings
 int32_t
 numberOfCores
-uint32_t
+size_t
 maxPayloadSize
 )
 )
@@ -179,7 +180,7 @@ int32_t
 (
 uint32_t
 packetLoss
-int
+int64_t
 rtt
 )
 )

@@ -66,7 +66,7 @@ WEBRTC_POSIX
 )
 #
 ifdef
-WEBRTC_BSD
+BSD
 #
 include
 <

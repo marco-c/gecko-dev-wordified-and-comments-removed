@@ -332,9 +332,9 @@ updStartPos
 (
 int16_t
 )
-WEBRTC_SPL_MUL_16_16
 (
 searchSegStartPos
+*
 4
 )
 +
@@ -477,9 +477,9 @@ fraction
 (
 int16_t
 )
-WEBRTC_SPL_MUL_16_16
 (
 tloc2
+*
 ENH_UPS0
 )
 -

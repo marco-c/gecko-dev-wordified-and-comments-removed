@@ -132,6 +132,7 @@ int
 RealInitializeLocked
 (
 )
+NO_THREAD_SAFETY_ANALYSIS
 {
 return
 AudioProcessingImpl

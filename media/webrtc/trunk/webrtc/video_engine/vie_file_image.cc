@@ -370,7 +370,7 @@ picture
 .
 height
 0
-kRotateNone
+kVideoRotation_0
 video_frame
 )
 ;

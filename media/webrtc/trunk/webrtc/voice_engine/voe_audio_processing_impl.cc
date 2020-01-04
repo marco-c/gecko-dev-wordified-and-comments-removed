@@ -5866,6 +5866,9 @@ delay_median
 int
 &
 delay_std
+float
+&
+fraction_poor_delays
 )
 {
 WEBRTC_TRACE
@@ -5890,6 +5893,9 @@ median
 =
 ?
 std
+=
+?
+fraction_poor_delays
 =
 ?
 )
@@ -5983,6 +5989,11 @@ std
 =
 0
 ;
+float
+poor_fraction
+=
+0
+;
 if
 (
 _shared
@@ -6004,6 +6015,8 @@ GetDelayMetrics
 median
 &
 std
+&
+poor_fraction
 )
 )
 {
@@ -6049,6 +6062,10 @@ delay_std
 =
 std
 ;
+fraction_poor_delays
+=
+poor_fraction
+;
 WEBRTC_TRACE
 (
 kTraceStateInfo
@@ -6079,8 +6096,15 @@ delay_std
 %
 d
 "
+"
+fraction_poor_delays
+=
+%
+f
+"
 delay_median
 delay_std
+fraction_poor_delays
 )
 ;
 return

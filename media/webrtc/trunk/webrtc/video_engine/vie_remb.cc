@@ -664,15 +664,6 @@ SetREMBData
 (
 bitrate_
 ssrcs
-.
-size
-(
-)
-&
-ssrcs
-[
-0
-]
 )
 ;
 }

@@ -181,13 +181,6 @@ Wait
 timeout_ms_
 )
 ;
-observation_complete_
--
->
-Reset
-(
-)
-;
 return
 result
 ;
@@ -536,7 +529,6 @@ on_rtcp
 }
 private
 :
-virtual
 bool
 SendRtp
 (
@@ -547,7 +539,7 @@ packet
 size_t
 length
 )
-OVERRIDE
+override
 {
 EXPECT_FALSE
 (
@@ -618,7 +610,6 @@ return
 true
 ;
 }
-virtual
 bool
 SendRtcp
 (
@@ -629,7 +620,7 @@ packet
 size_t
 length
 )
-OVERRIDE
+override
 {
 EXPECT_TRUE
 (
@@ -720,6 +711,9 @@ on_rtcp_
 protected
 :
 const
+rtc
+:
+:
 scoped_ptr
 <
 CriticalSectionWrapper
@@ -727,6 +721,9 @@ CriticalSectionWrapper
 crit_
 ;
 const
+rtc
+:
+:
 scoped_ptr
 <
 EventWrapper
@@ -734,6 +731,9 @@ EventWrapper
 observation_complete_
 ;
 const
+rtc
+:
+:
 scoped_ptr
 <
 RtpHeaderParser

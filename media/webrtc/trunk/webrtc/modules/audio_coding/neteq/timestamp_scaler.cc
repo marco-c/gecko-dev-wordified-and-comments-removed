@@ -232,6 +232,8 @@ denominator_
 =
 3
 ;
+break
+;
 }
 case
 kDecoderAVT

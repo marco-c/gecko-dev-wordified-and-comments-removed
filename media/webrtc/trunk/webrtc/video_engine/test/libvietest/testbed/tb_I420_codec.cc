@@ -166,7 +166,7 @@ SetChannelParameters
 (
 uint32_t
 packetLoss
-int
+int64_t
 rtt
 )
 {
@@ -194,7 +194,7 @@ VideoCodec
 *
 inst
 int32_t
-uint32_t
+size_t
 )
 {
 _functionCalls
@@ -430,8 +430,7 @@ width
 (
 )
 ;
-unsigned
-int
+size_t
 reqSize
 =
 webrtc
@@ -558,6 +557,8 @@ _encodedCompleteCallback
 Encoded
 (
 _encodedImage
+NULL
+NULL
 )
 ;
 return
@@ -928,17 +929,6 @@ WEBRTC_VIDEO_CODEC_UNINITIALIZED
 }
 if
 (
-static_cast
-<
-int
->
-(
-inputImage
-.
-_length
-)
-!
-=
 webrtc
 :
 :
@@ -951,6 +941,11 @@ kI420
 _width
 _height
 )
+!
+=
+inputImage
+.
+_length
 )
 {
 return
@@ -977,7 +972,7 @@ _height
 webrtc
 :
 :
-kRotateNone
+kVideoRotation_0
 &
 _decodedImage
 )

@@ -62,7 +62,7 @@ uint8_t
 *
 ptr
 const
-uint32_t
+size_t
 size
 const
 WebRtcRTPHeader
@@ -76,7 +76,7 @@ const
 uint8_t
 *
 ptr
-uint32_t
+size_t
 size
 uint16_t
 seqNum
@@ -108,7 +108,7 @@ uint8_t
 *
 dataPtr
 ;
-uint32_t
+size_t
 sizeBytes
 ;
 bool

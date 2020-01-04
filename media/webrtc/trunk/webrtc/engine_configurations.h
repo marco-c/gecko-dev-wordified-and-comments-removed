@@ -38,13 +38,8 @@ endif
 define
 WEBRTC_CODEC_AVT
 #
-ifndef
-WEBRTC_CODEC_PCM16
-#
 define
 WEBRTC_CODEC_PCM16
-#
-endif
 #
 if
 !
@@ -88,9 +83,6 @@ WEBRTC_VOICE_ENGINE_ECHO
 #
 define
 WEBRTC_VOICE_ENGINE_NR
-#
-define
-WEBRTC_VOE_EXTERNAL_REC_AND_PLAYOUT
 #
 if
 !

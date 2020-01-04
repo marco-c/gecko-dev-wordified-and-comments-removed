@@ -124,7 +124,7 @@ Release
 (
 )
 ;
-uint16_t
+size_t
 length
 ;
 uint8_t
@@ -316,7 +316,7 @@ protection_factor
 )
 ;
 static
-uint16_t
+size_t
 PacketOverhead
 (
 )

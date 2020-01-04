@@ -172,7 +172,7 @@ payload
 )
 const
 ;
-int16_t
+size_t
 payloadLen
 (
 )
@@ -340,7 +340,7 @@ _memSize
 int16_t
 _datagramLen
 ;
-int16_t
+size_t
 _payloadLen
 ;
 webrtc

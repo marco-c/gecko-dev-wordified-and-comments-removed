@@ -33,7 +33,9 @@ include
 "
 webrtc
 /
-call
+base
+/
+scoped_ptr
 .
 h
 "
@@ -42,11 +44,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
-/
-scoped_ptr
+call
 .
 h
 "
@@ -245,6 +243,9 @@ int
 kPacketSize
 )
 {
+rtc
+:
+:
 scoped_ptr
 <
 uint8_t
@@ -309,6 +310,9 @@ kPacketSize
 capacity_kbps
 ;
 }
+rtc
+:
+:
 scoped_ptr
 <
 MockReceiver
@@ -357,6 +361,9 @@ link_capacity_kbps
 =
 80
 ;
+rtc
+:
+:
 scoped_ptr
 <
 FakeNetworkPipe
@@ -568,6 +575,9 @@ link_capacity_kbps
 =
 80
 ;
+rtc
+:
+:
 scoped_ptr
 <
 FakeNetworkPipe
@@ -748,6 +758,9 @@ link_capacity_kbps
 =
 80
 ;
+rtc
+:
+:
 scoped_ptr
 <
 FakeNetworkPipe
@@ -866,6 +879,9 @@ link_capacity_kbps
 =
 80
 ;
+rtc
+:
+:
 scoped_ptr
 <
 FakeNetworkPipe
@@ -1030,6 +1046,9 @@ link_capacity_kbps
 =
 80
 ;
+rtc
+:
+:
 scoped_ptr
 <
 FakeNetworkPipe
@@ -1347,6 +1366,9 @@ link_capacity_kbps
 =
 80
 ;
+rtc
+:
+:
 scoped_ptr
 <
 FakeNetworkPipe

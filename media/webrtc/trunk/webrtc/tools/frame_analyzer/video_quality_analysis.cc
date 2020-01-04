@@ -1973,6 +1973,7 @@ output
 %
 f
 ]
+score
 \
 n
 "

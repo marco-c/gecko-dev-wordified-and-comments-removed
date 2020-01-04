@@ -198,7 +198,7 @@ GetName
 )
 const
 ;
-int32_t
+size_t
 GetFrameLength
 (
 )

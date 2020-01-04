@@ -29,6 +29,15 @@ time_to_render_ms
 =
 0
 ;
+virtual
+bool
+IsTextureSupported
+(
+)
+const
+=
+0
+;
 protected
 :
 virtual

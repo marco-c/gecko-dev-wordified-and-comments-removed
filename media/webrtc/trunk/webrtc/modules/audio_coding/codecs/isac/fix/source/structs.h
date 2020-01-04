@@ -638,7 +638,7 @@ int
 minBytes
 ;
 }
-ISAC_SaveEncData_t
+IsacSaveEncoderData
 ;
 typedef
 struct
@@ -702,7 +702,7 @@ interpolatorstr_obj
 ;
 #
 endif
-ISAC_SaveEncData_t
+IsacSaveEncoderData
 *
 SaveEnc_ptr
 ;
@@ -722,7 +722,7 @@ int16_t
 enforceFrameSize
 ;
 }
-ISACFIX_EncInst_t
+IsacFixEncoderInstance
 ;
 typedef
 struct
@@ -751,15 +751,15 @@ decimatorstr_obj
 #
 endif
 }
-ISACFIX_DecInst_t
+IsacFixDecoderInstance
 ;
 typedef
 struct
 {
-ISACFIX_EncInst_t
+IsacFixEncoderInstance
 ISACenc_obj
 ;
-ISACFIX_DecInst_t
+IsacFixDecoderInstance
 ISACdec_obj
 ;
 BwEstimatorstr

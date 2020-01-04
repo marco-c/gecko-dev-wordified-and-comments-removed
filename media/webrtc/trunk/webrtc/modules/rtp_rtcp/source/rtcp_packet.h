@@ -217,7 +217,6 @@ Empty
 }
 protected
 :
-virtual
 void
 Create
 (
@@ -231,7 +230,7 @@ size_t
 max_length
 )
 const
-OVERRIDE
+override
 ;
 private
 :
@@ -514,7 +513,6 @@ block
 ;
 protected
 :
-virtual
 void
 Create
 (
@@ -528,7 +526,7 @@ size_t
 max_length
 )
 const
-OVERRIDE
+override
 ;
 private
 :
@@ -655,7 +653,6 @@ block
 ;
 protected
 :
-virtual
 void
 Create
 (
@@ -669,7 +666,7 @@ size_t
 max_length
 )
 const
-OVERRIDE
+override
 ;
 private
 :
@@ -762,7 +759,6 @@ jitter
 ;
 protected
 :
-virtual
 void
 Create
 (
@@ -776,7 +772,7 @@ size_t
 max_length
 )
 const
-OVERRIDE
+override
 ;
 private
 :
@@ -876,7 +872,6 @@ null_octets
 ;
 protected
 :
-virtual
 void
 Create
 (
@@ -890,7 +885,7 @@ size_t
 max_length
 )
 const
-OVERRIDE
+override
 ;
 private
 :
@@ -981,7 +976,6 @@ csrc
 ;
 protected
 :
-virtual
 void
 Create
 (
@@ -995,7 +989,7 @@ size_t
 max_length
 )
 const
-OVERRIDE
+override
 ;
 private
 :
@@ -1194,7 +1188,6 @@ data_length
 }
 protected
 :
-virtual
 void
 Create
 (
@@ -1208,7 +1201,7 @@ size_t
 max_length
 )
 const
-OVERRIDE
+override
 ;
 private
 :
@@ -1307,7 +1300,6 @@ ssrc
 }
 protected
 :
-virtual
 void
 Create
 (
@@ -1321,7 +1313,7 @@ size_t
 max_length
 )
 const
-OVERRIDE
+override
 ;
 private
 :
@@ -1490,7 +1482,6 @@ picture_id
 }
 protected
 :
-virtual
 void
 Create
 (
@@ -1504,7 +1495,7 @@ size_t
 max_length
 )
 const
-OVERRIDE
+override
 ;
 private
 :
@@ -1621,7 +1612,6 @@ length
 ;
 protected
 :
-virtual
 void
 Create
 (
@@ -1635,7 +1625,7 @@ size_t
 max_length
 )
 const
-OVERRIDE
+override
 ;
 private
 :
@@ -1785,7 +1775,6 @@ picture_id
 ;
 protected
 :
-virtual
 void
 Create
 (
@@ -1799,7 +1788,7 @@ size_t
 max_length
 )
 const
-OVERRIDE
+override
 ;
 private
 :
@@ -1936,7 +1925,6 @@ seq_num
 }
 protected
 :
-virtual
 void
 Create
 (
@@ -1950,7 +1938,7 @@ size_t
 max_length
 )
 const
-OVERRIDE
+override
 ;
 private
 :
@@ -2098,7 +2086,6 @@ overhead
 }
 protected
 :
-virtual
 void
 Create
 (
@@ -2112,7 +2099,7 @@ size_t
 max_length
 )
 const
-OVERRIDE
+override
 ;
 private
 :
@@ -2215,7 +2202,6 @@ overhead
 ;
 protected
 :
-virtual
 void
 Create
 (
@@ -2229,7 +2215,7 @@ size_t
 max_length
 )
 const
-OVERRIDE
+override
 ;
 private
 :
@@ -2372,7 +2358,6 @@ bitrate_bps
 }
 protected
 :
-virtual
 void
 Create
 (
@@ -2386,7 +2371,7 @@ size_t
 max_length
 )
 const
-OVERRIDE
+override
 ;
 private
 :
@@ -2522,7 +2507,6 @@ voip_metric
 ;
 protected
 :
-virtual
 void
 Create
 (
@@ -2536,7 +2520,7 @@ size_t
 max_length
 )
 const
-OVERRIDE
+override
 ;
 private
 :

@@ -6,6 +6,13 @@ define
 WEBRTC_MODULES_AUDIO_CODING_CODECS_CNG_MAIN_INTERFACE_WEBRTC_CNG_H_
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
 "
 webrtc
 /
@@ -147,7 +154,7 @@ cng_inst
 uint8_t
 *
 SID
-int16_t
+size_t
 length
 )
 ;

@@ -45,6 +45,9 @@ h
 "
 #
 endif
+namespace
+rtc
+{
 bool
 GetIntFromJson
 (
@@ -635,5 +638,6 @@ Value
 json
 )
 ;
+}
 #
 endif

@@ -95,6 +95,11 @@ string
 user_agent
 )
 ;
+~
+HttpRequest
+(
+)
+;
 void
 Send
 (

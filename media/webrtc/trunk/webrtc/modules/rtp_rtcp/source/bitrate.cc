@@ -146,7 +146,7 @@ Bitrate
 Update
 (
 const
-int32_t
+size_t
 bytes
 )
 {

@@ -85,6 +85,9 @@ clock_
 SimulatedClock
 clock_
 ;
+rtc
+:
+:
 scoped_ptr
 <
 NetworkPredictor

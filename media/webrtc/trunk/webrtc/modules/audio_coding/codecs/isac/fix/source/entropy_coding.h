@@ -103,7 +103,7 @@ sizeQ11
 Bitstr_enc
 *
 streamdata
-ISAC_SaveEncData_t
+IsacSaveEncoderData
 *
 encData
 transcode_obj
@@ -120,7 +120,7 @@ gain_lo_hiQ17
 Bitstr_enc
 *
 streamdata
-ISAC_SaveEncData_t
+IsacSaveEncoderData
 *
 encData
 )
@@ -178,7 +178,7 @@ PitchGains_Q12
 Bitstr_enc
 *
 streamdata
-ISAC_SaveEncData_t
+IsacSaveEncoderData
 *
 encData
 )
@@ -195,7 +195,7 @@ PitchGain_Q12
 Bitstr_enc
 *
 streamdata
-ISAC_SaveEncData_t
+IsacSaveEncoderData
 *
 encData
 )

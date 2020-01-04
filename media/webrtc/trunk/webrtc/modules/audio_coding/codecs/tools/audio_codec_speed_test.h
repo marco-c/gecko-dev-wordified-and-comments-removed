@@ -29,9 +29,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
+base
 /
 scoped_ptr
 .
@@ -166,6 +164,9 @@ input_length_sample_
 int
 output_length_sample_
 ;
+rtc
+:
+:
 scoped_ptr
 <
 int16_t
@@ -174,6 +175,9 @@ int16_t
 >
 in_data_
 ;
+rtc
+:
+:
 scoped_ptr
 <
 int16_t
@@ -188,6 +192,9 @@ data_pointer_
 size_t
 loop_length_samples_
 ;
+rtc
+:
+:
 scoped_ptr
 <
 uint8_t

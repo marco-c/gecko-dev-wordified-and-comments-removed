@@ -498,7 +498,7 @@ const
 char
 *
 deviceUniqueIdUTF8
-VideoCaptureRotation
+VideoRotation
 &
 orientation
 )
@@ -520,14 +520,14 @@ Camera
 {
 orientation
 =
-kCameraRotate0
+kVideoRotation_0
 ;
 }
 else
 {
 orientation
 =
-kCameraRotate90
+kVideoRotation_90
 ;
 }
 return

@@ -61,12 +61,11 @@ AudioDeviceUtilityDummy
 )
 {
 }
-virtual
 int32_t
 Init
 (
 )
-OVERRIDE
+override
 ;
 }
 ;

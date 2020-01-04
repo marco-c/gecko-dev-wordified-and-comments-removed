@@ -1926,7 +1926,7 @@ videoFrame
 kYPlaneIndex
 )
 ;
-int
+size_t
 yPlaneBytesPerRow
 =
 CVPixelBufferGetBytesPerRowOfPlane
@@ -1935,7 +1935,7 @@ videoFrame
 kYPlaneIndex
 )
 ;
-int
+size_t
 yPlaneHeight
 =
 CVPixelBufferGetHeightOfPlane
@@ -1944,7 +1944,7 @@ videoFrame
 kYPlaneIndex
 )
 ;
-int
+size_t
 uvPlaneBytesPerRow
 =
 CVPixelBufferGetBytesPerRowOfPlane
@@ -1953,7 +1953,7 @@ videoFrame
 kUVPlaneIndex
 )
 ;
-int
+size_t
 uvPlaneHeight
 =
 CVPixelBufferGetHeightOfPlane
@@ -1962,7 +1962,7 @@ videoFrame
 kUVPlaneIndex
 )
 ;
-int
+size_t
 frameSize
 =
 yPlaneBytesPerRow

@@ -193,12 +193,11 @@ NULL
 )
 ;
 }
-virtual
 void
 Run
 (
 )
-OVERRIDE
+override
 {
 thread_checker_class_
 -
@@ -267,12 +266,11 @@ NULL
 )
 ;
 }
-virtual
 void
 Run
 (
 )
-OVERRIDE
+override
 {
 thread_checker_class_
 .

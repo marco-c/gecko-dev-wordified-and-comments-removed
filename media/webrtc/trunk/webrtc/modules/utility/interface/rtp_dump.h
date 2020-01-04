@@ -87,7 +87,7 @@ const
 uint8_t
 *
 packet
-uint16_t
+size_t
 packetLength
 )
 =

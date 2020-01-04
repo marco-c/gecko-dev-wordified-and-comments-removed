@@ -158,6 +158,12 @@ std
 =
 2
 ;
+optional
+float
+fraction_poor_delays
+=
+3
+;
 }
 optional
 DelayMetrics
@@ -176,6 +182,12 @@ float
 ns_speech_probability_average
 =
 14
+;
+optional
+bool
+use_aec_extended_filter
+=
+15
 ;
 }
 message

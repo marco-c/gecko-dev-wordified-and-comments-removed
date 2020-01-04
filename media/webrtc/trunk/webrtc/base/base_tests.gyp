@@ -363,6 +363,11 @@ criticalsection_unittest
 cc
 '
 '
+event_tracer_unittest
+.
+cc
+'
+'
 event_unittest
 .
 cc
@@ -422,7 +427,6 @@ messagedigest_unittest
 .
 cc
 '
-#
 '
 messagequeue_unittest
 .

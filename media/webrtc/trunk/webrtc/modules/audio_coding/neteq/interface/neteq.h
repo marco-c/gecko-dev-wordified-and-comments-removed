@@ -47,9 +47,7 @@ audio_coding
 /
 neteq
 /
-interface
-/
-audio_decoder
+audio_decoder_impl
 .
 h
 "
@@ -90,10 +88,16 @@ uint16_t
 expand_rate
 ;
 uint16_t
+speech_expand_rate
+;
+uint16_t
 preemptive_rate
 ;
 uint16_t
 accelerate_rate
+;
+uint16_t
+secondary_decoded_rate
 ;
 int32_t
 clockdrift_ppm
@@ -269,7 +273,7 @@ const
 uint8_t
 *
 payload
-int
+size_t
 length_bytes
 uint32_t
 receive_timestamp

@@ -238,6 +238,9 @@ frameNum
 =
 0
 ;
+rtc
+:
+:
 scoped_ptr
 <
 uint8_t
@@ -287,7 +290,7 @@ get
 width_
 height_
 0
-kRotateNone
+kVideoRotation_0
 &
 video_frame_
 )
@@ -583,6 +586,9 @@ half_width_
 half_width_
 )
 ;
+rtc
+:
+:
 scoped_ptr
 <
 uint8_t
@@ -632,7 +638,7 @@ get
 width_
 height_
 0
-kRotateNone
+kVideoRotation_0
 &
 video_frame_
 )
@@ -670,7 +676,7 @@ get
 width_
 height_
 0
-kRotateNone
+kVideoRotation_0
 &
 refVideoFrame
 )
@@ -757,6 +763,9 @@ source
 file
 "
 ;
+rtc
+:
+:
 scoped_ptr
 <
 uint8_t
@@ -813,7 +822,7 @@ get
 width_
 height_
 0
-kRotateNone
+kVideoRotation_0
 &
 testVideoFrame
 )

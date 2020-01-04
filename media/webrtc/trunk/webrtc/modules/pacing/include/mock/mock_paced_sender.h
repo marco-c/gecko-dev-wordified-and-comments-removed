@@ -95,7 +95,7 @@ uint16_t
 sequence_number
 int64_t
 capture_time_ms
-int
+size_t
 bytes
 bool
 retransmission
@@ -105,7 +105,7 @@ retransmission
 MOCK_CONST_METHOD0
 (
 QueueInMs
-int
+int64_t
 (
 )
 )

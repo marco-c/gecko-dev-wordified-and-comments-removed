@@ -291,11 +291,11 @@ HttpBase
 (
 )
 ;
-virtual
 ~
 HttpBase
 (
 )
+override
 ;
 void
 notify
@@ -466,7 +466,6 @@ int
 error
 )
 ;
-virtual
 ProcessResult
 ProcessLeader
 (
@@ -480,8 +479,8 @@ HttpError
 *
 error
 )
+override
 ;
-virtual
 ProcessResult
 ProcessHeader
 (
@@ -501,8 +500,8 @@ HttpError
 *
 error
 )
+override
 ;
-virtual
 ProcessResult
 ProcessHeaderComplete
 (
@@ -515,8 +514,8 @@ HttpError
 *
 error
 )
+override
 ;
-virtual
 ProcessResult
 ProcessData
 (
@@ -533,14 +532,15 @@ HttpError
 *
 error
 )
+override
 ;
-virtual
 void
 OnComplete
 (
 HttpError
 err
 )
+override
 ;
 private
 :

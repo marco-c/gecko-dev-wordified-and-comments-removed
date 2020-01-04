@@ -25,6 +25,11 @@ h
 >
 #
 include
+<
+algorithm
+>
+#
+include
 "
 webrtc
 /
@@ -643,10 +648,10 @@ sizeof
 ICMP_ECHO_REPLY
 )
 +
-rtc
+std
 :
 :
-_max
+max
 <
 uint32
 >

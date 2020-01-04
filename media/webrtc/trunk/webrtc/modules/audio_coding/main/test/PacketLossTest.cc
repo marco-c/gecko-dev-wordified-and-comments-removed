@@ -583,6 +583,9 @@ return
 ;
 #
 else
+rtc
+:
+:
 scoped_ptr
 <
 AudioCodingModule

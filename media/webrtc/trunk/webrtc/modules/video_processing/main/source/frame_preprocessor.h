@@ -98,14 +98,6 @@ VPMFramePreprocessor
 (
 )
 ;
-int32_t
-ChangeUniqueId
-(
-const
-int32_t
-id
-)
-;
 void
 Reset
 (
@@ -202,9 +194,6 @@ kSkipFrameCA
 =
 2
 }
-;
-int32_t
-id_
 ;
 VideoContentMetrics
 *

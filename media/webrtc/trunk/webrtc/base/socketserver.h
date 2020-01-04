@@ -29,6 +29,14 @@ SocketFactory
 {
 public
 :
+static
+const
+int
+kForever
+=
+-
+1
+;
 virtual
 void
 SetMessageQueue

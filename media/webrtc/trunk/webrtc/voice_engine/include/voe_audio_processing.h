@@ -447,6 +447,9 @@ delay_median
 int
 &
 delay_std
+float
+&
+fraction_poor_delays
 )
 =
 0

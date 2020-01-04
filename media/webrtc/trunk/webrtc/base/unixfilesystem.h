@@ -39,11 +39,11 @@ UnixFilesystem
 (
 )
 ;
-virtual
 ~
 UnixFilesystem
 (
 )
+override
 ;
 #
 if
@@ -85,7 +85,6 @@ folder
 ;
 #
 endif
-virtual
 FileStream
 *
 OpenFile
@@ -102,8 +101,8 @@ string
 &
 mode
 )
+override
 ;
-virtual
 bool
 CreatePrivateFile
 (
@@ -112,8 +111,8 @@ Pathname
 &
 filename
 )
+override
 ;
-virtual
 bool
 DeleteFile
 (
@@ -122,8 +121,8 @@ Pathname
 &
 filename
 )
+override
 ;
-virtual
 bool
 DeleteEmptyFolder
 (
@@ -132,6 +131,7 @@ Pathname
 &
 folder
 )
+override
 ;
 virtual
 bool
@@ -145,7 +145,6 @@ mode_t
 mode
 )
 ;
-virtual
 bool
 CreateFolder
 (
@@ -154,8 +153,8 @@ Pathname
 &
 pathname
 )
+override
 ;
-virtual
 bool
 MoveFile
 (
@@ -168,8 +167,8 @@ Pathname
 &
 new_path
 )
+override
 ;
-virtual
 bool
 MoveFolder
 (
@@ -182,8 +181,8 @@ Pathname
 &
 new_path
 )
+override
 ;
-virtual
 bool
 CopyFile
 (
@@ -196,8 +195,8 @@ Pathname
 &
 new_path
 )
+override
 ;
-virtual
 bool
 IsFolder
 (
@@ -206,8 +205,8 @@ Pathname
 &
 pathname
 )
+override
 ;
-virtual
 bool
 IsTemporaryPath
 (
@@ -216,8 +215,8 @@ Pathname
 &
 pathname
 )
+override
 ;
-virtual
 bool
 IsFile
 (
@@ -226,8 +225,8 @@ Pathname
 &
 pathname
 )
+override
 ;
-virtual
 bool
 IsAbsent
 (
@@ -236,8 +235,8 @@ Pathname
 &
 pathname
 )
+override
 ;
-virtual
 std
 :
 :
@@ -256,8 +255,8 @@ string
 &
 prefix
 )
+override
 ;
-virtual
 bool
 GetTemporaryFolder
 (
@@ -274,8 +273,8 @@ string
 *
 append
 )
+override
 ;
-virtual
 bool
 GetFileSize
 (
@@ -287,8 +286,8 @@ size_t
 *
 size
 )
+override
 ;
-virtual
 bool
 GetFileTime
 (
@@ -302,8 +301,8 @@ time_t
 *
 time
 )
+override
 ;
-virtual
 bool
 GetAppPathname
 (
@@ -311,8 +310,8 @@ Pathname
 *
 path
 )
+override
 ;
-virtual
 bool
 GetAppDataFolder
 (
@@ -322,8 +321,8 @@ path
 bool
 per_user
 )
+override
 ;
-virtual
 bool
 GetAppTempFolder
 (
@@ -331,8 +330,8 @@ Pathname
 *
 path
 )
+override
 ;
-virtual
 bool
 GetDiskFreeSpace
 (
@@ -344,12 +343,13 @@ int64
 *
 freebytes
 )
+override
 ;
-virtual
 Pathname
 GetCurrentDirectory
 (
 )
+override
 ;
 private
 :

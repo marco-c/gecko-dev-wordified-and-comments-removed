@@ -9,11 +9,9 @@ include
 "
 webrtc
 /
-modules
+base
 /
-interface
-/
-module_common_types
+scoped_ptr
 .
 h
 "
@@ -22,11 +20,11 @@ include
 "
 webrtc
 /
-system_wrappers
+modules
 /
 interface
 /
-scoped_ptr
+module_common_types
 .
 h
 "

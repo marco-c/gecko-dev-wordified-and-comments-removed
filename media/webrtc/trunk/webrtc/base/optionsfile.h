@@ -33,6 +33,11 @@ string
 path
 )
 ;
+~
+OptionsFile
+(
+)
+;
 bool
 Load
 (

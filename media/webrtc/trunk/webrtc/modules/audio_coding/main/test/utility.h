@@ -545,8 +545,8 @@ VADCallback
 int32_t
 InFrameType
 (
-int16_t
-frameType
+FrameType
+frame_type
 )
 ;
 void
@@ -564,7 +564,7 @@ private
 uint32_t
 _numFrameTypes
 [
-6
+5
 ]
 ;
 }

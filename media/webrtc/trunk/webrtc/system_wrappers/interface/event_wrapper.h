@@ -57,14 +57,6 @@ Set
 0
 ;
 virtual
-bool
-Reset
-(
-)
-=
-0
-;
-virtual
 EventTypeWrapper
 Wait
 (

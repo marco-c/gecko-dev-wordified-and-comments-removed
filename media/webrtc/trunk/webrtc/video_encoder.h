@@ -64,6 +64,7 @@ virtual
 int32_t
 Encoded
 (
+const
 EncodedImage
 &
 encoded_image
@@ -71,14 +72,10 @@ const
 CodecSpecificInfo
 *
 codec_specific_info
-=
-NULL
 const
 RTPFragmentationHeader
 *
 fragmentation
-=
-NULL
 )
 =
 0
@@ -141,7 +138,7 @@ VideoCodec
 codec_settings
 int32_t
 number_of_cores
-uint32_t
+size_t
 max_payload_size
 )
 =
@@ -198,7 +195,7 @@ SetChannelParameters
 (
 uint32_t
 packet_loss
-int
+int64_t
 rtt
 )
 =

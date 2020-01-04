@@ -4269,6 +4269,10 @@ encoded
 lenEncodedLBBytes
 )
 ;
+numSamplesLB
+=
+0
+;
 numDecodedBytesLB
 =
 WebRtcIsac_DecodeLb

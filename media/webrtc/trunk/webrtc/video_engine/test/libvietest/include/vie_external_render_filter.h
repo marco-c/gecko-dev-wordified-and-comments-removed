@@ -80,7 +80,7 @@ virtual
 int
 Transform
 (
-int
+size_t
 size
 unsigned
 char

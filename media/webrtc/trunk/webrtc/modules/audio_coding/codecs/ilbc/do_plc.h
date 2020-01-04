@@ -30,7 +30,7 @@ int16_t
 lpc
 int16_t
 inlag
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 iLBCdec_inst
 )

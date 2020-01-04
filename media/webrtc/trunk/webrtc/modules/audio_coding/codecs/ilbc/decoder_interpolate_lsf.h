@@ -25,7 +25,7 @@ int16_t
 lsfdeq
 int16_t
 length
-iLBC_Dec_Inst_t
+IlbcDecoder
 *
 iLBCdec_inst
 )

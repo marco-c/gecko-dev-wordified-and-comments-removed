@@ -103,6 +103,15 @@ type
 static_library
 '
 '
+dependencies
+'
+:
+[
+'
+audio_encoder_interface
+'
+]
+'
 include_dirs
 '
 :

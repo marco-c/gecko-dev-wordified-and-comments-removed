@@ -467,7 +467,6 @@ FrameForDecoding
 0
 render_time_ms
 false
-NULL
 )
 ;
 if
@@ -489,6 +488,9 @@ return
 true
 ;
 }
+rtc
+:
+:
 scoped_ptr
 <
 SimulatedClock
@@ -504,6 +506,9 @@ event_factory_
 VCMReceiver
 receiver_
 ;
+rtc
+:
+:
 scoped_ptr
 <
 StreamGenerator

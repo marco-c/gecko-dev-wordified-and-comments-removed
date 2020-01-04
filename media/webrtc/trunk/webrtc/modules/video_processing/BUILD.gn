@@ -99,7 +99,7 @@ gni
 )
 build_video_processing_sse2
 =
-cpu_arch
+current_cpu
 =
 =
 "
@@ -107,7 +107,7 @@ x86
 "
 |
 |
-cpu_arch
+current_cpu
 =
 =
 "

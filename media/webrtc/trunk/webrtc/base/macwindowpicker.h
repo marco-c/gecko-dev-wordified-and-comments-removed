@@ -34,14 +34,14 @@ MacWindowPicker
 MacWindowPicker
 (
 )
+override
 ;
-virtual
 bool
 Init
 (
 )
+override
 ;
-virtual
 bool
 IsVisible
 (
@@ -50,8 +50,8 @@ WindowId
 &
 id
 )
+override
 ;
-virtual
 bool
 MoveToFront
 (
@@ -60,8 +60,8 @@ WindowId
 &
 id
 )
+override
 ;
-virtual
 bool
 GetWindowList
 (
@@ -69,8 +69,8 @@ WindowDescriptionList
 *
 descriptions
 )
+override
 ;
-virtual
 bool
 GetDesktopList
 (
@@ -78,8 +78,8 @@ DesktopDescriptionList
 *
 descriptions
 )
+override
 ;
-virtual
 bool
 GetDesktopDimensions
 (
@@ -94,6 +94,7 @@ int
 *
 height
 )
+override
 ;
 private
 :

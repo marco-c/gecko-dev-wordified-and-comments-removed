@@ -124,23 +124,6 @@ audio_coding
 /
 main
 /
-acm2
-/
-acm_opus
-.
-h
-"
-#
-include
-"
-webrtc
-/
-modules
-/
-audio_coding
-/
-main
-/
 test
 /
 TestStereo
@@ -448,6 +431,7 @@ WebRtcOpus_EncoderCreate
 &
 opus_mono_encoder_
 1
+0
 )
 -
 1
@@ -460,6 +444,7 @@ WebRtcOpus_EncoderCreate
 &
 opus_stereo_encoder_
 2
+1
 )
 -
 1
@@ -491,7 +476,7 @@ opus_stereo_decoder_
 ;
 ASSERT_GT
 (
-WebRtcOpus_DecoderInitNew
+WebRtcOpus_DecoderInit
 (
 opus_mono_decoder_
 )
@@ -501,7 +486,7 @@ opus_mono_decoder_
 ;
 ASSERT_GT
 (
-WebRtcOpus_DecoderInitNew
+WebRtcOpus_DecoderInit
 (
 opus_stereo_decoder_
 )
@@ -1342,7 +1327,7 @@ lost_packet
 decoded_samples
 +
 =
-WebRtcOpus_DecodeNew
+WebRtcOpus_Decode
 (
 opus_mono_decoder_
 bitstream
@@ -1390,7 +1375,7 @@ lost_packet
 decoded_samples
 +
 =
-WebRtcOpus_DecodeNew
+WebRtcOpus_Decode
 (
 opus_stereo_decoder_
 bitstream

@@ -47,13 +47,6 @@ VPMBrightnessDetection
 (
 )
 ;
-int32_t
-ChangeUniqueId
-(
-int32_t
-id
-)
-;
 void
 Reset
 (
@@ -77,9 +70,6 @@ stats
 ;
 private
 :
-int32_t
-id_
-;
 uint32_t
 frame_cnt_bright_
 ;

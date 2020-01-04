@@ -160,7 +160,7 @@ end
 =
 TimeAfter
 (
-kTimeout
+kTimeoutMs
 )
 ;
 while
@@ -289,6 +289,8 @@ TestClient
 :
 NextPacket
 (
+int
+timeout_ms
 )
 {
 uint32
@@ -296,7 +298,7 @@ end
 =
 TimeAfter
 (
-kTimeout
+timeout_ms
 )
 ;
 while
@@ -428,6 +430,7 @@ packet
 =
 NextPacket
 (
+kTimeoutMs
 )
 ;
 if
@@ -498,6 +501,7 @@ packet
 =
 NextPacket
 (
+kNoPacketTimeoutMs
 )
 ;
 res

@@ -93,6 +93,13 @@ ResumePlaying
 (
 )
 ;
+void
+WaitForTransmittedPackets
+(
+int32_t
+packet_count
+)
+;
 private
 :
 void

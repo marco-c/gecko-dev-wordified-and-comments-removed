@@ -17,12 +17,6 @@ vector
 #
 include
 "
-third_party
-/
-libyuv
-/
-include
-/
 libyuv
 /
 compare
@@ -32,12 +26,6 @@ h
 #
 include
 "
-third_party
-/
-libyuv
-/
-include
-/
 libyuv
 /
 convert

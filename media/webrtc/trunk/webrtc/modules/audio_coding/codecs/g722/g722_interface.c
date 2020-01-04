@@ -55,7 +55,7 @@ malloc
 (
 sizeof
 (
-g722_encode_state_t
+G722EncoderState
 )
 )
 ;
@@ -101,7 +101,7 @@ G722EncInst
 WebRtc_g722_encode_init
 (
 (
-g722_encode_state_t
+G722EncoderState
 *
 )
 G722enc_inst
@@ -141,7 +141,7 @@ return
 WebRtc_g722_encode_release
 (
 (
-g722_encode_state_t
+G722EncoderState
 *
 )
 G722enc_inst
@@ -154,12 +154,13 @@ WebRtcG722_Encode
 G722EncInst
 *
 G722enc_inst
+const
 int16_t
 *
 speechIn
 int16_t
 len
-int16_t
+uint8_t
 *
 encoded
 )
@@ -180,7 +181,7 @@ return
 WebRtc_g722_encode
 (
 (
-g722_encode_state_t
+G722EncoderState
 *
 )
 G722enc_inst
@@ -210,7 +211,7 @@ malloc
 (
 sizeof
 (
-g722_decode_state_t
+G722DecoderState
 )
 )
 ;
@@ -256,7 +257,7 @@ G722DecInst
 WebRtc_g722_decode_init
 (
 (
-g722_decode_state_t
+G722DecoderState
 *
 )
 G722dec_inst
@@ -296,7 +297,7 @@ return
 WebRtc_g722_decode_release
 (
 (
-g722_decode_state_t
+G722DecoderState
 *
 )
 G722dec_inst
@@ -309,7 +310,8 @@ WebRtcG722_Decode
 G722DecInst
 *
 G722dec_inst
-int16_t
+const
+uint8_t
 *
 encoded
 int16_t
@@ -331,15 +333,11 @@ return
 WebRtc_g722_decode
 (
 (
-g722_decode_state_t
+G722DecoderState
 *
 )
 G722dec_inst
 decoded
-(
-uint8_t
-*
-)
 encoded
 len
 )

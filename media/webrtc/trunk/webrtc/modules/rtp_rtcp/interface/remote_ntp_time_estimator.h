@@ -9,11 +9,9 @@ include
 "
 webrtc
 /
-system_wrappers
+base
 /
-interface
-/
-rtp_to_ntp
+scoped_ptr
 .
 h
 "
@@ -26,7 +24,7 @@ system_wrappers
 /
 interface
 /
-scoped_ptr
+rtp_to_ntp
 .
 h
 "
@@ -60,7 +58,7 @@ RemoteNtpTimeEstimator
 bool
 UpdateRtcpTimestamp
 (
-uint16_t
+int64_t
 rtt
 uint32_t
 ntp_secs
@@ -83,6 +81,9 @@ Clock
 *
 clock_
 ;
+rtc
+:
+:
 scoped_ptr
 <
 TimestampExtrapolator

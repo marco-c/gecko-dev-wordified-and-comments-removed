@@ -404,6 +404,7 @@ OnIncomingCapturedFrame
 const
 int32_t
 id
+const
 I420VideoFrame
 &
 frame
@@ -416,9 +417,8 @@ started_
 input_
 -
 >
-SwapFrame
+IncomingCapturedFrame
 (
-&
 frame
 )
 ;

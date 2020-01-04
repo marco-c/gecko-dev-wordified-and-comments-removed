@@ -40,9 +40,7 @@ audio_coding
 /
 neteq
 /
-interface
-/
-audio_decoder
+audio_decoder_impl
 .
 h
 "
@@ -73,9 +71,6 @@ h
 namespace
 webrtc
 {
-class
-AudioDecoder
-;
 class
 DecoderDatabase
 {
@@ -188,13 +183,6 @@ bool
 external
 ;
 }
-;
-static
-const
-uint8_t
-kMaxRtpPayloadType
-=
-0x7F
 ;
 static
 const

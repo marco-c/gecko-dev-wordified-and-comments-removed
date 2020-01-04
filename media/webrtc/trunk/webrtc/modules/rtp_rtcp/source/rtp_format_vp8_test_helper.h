@@ -81,10 +81,10 @@ bool
 Init
 (
 const
-int
+size_t
 *
 partition_sizes
-int
+size_t
 num_partitions
 )
 ;
@@ -95,7 +95,7 @@ RtpPacketizerVp8
 *
 packetizer
 const
-int
+size_t
 *
 expected_sizes
 const
@@ -106,7 +106,7 @@ const
 bool
 *
 expected_frag_start
-int
+size_t
 expected_num_packets
 )
 ;
@@ -121,7 +121,7 @@ return
 payload_data_
 ;
 }
-int
+size_t
 payload_size
 (
 )
@@ -142,7 +142,7 @@ return
 fragmentation_
 ;
 }
-int
+size_t
 buffer_size
 (
 )
@@ -191,7 +191,7 @@ CheckTIDAndKeyIdx
 void
 CheckPayload
 (
-int
+size_t
 payload_end
 )
 ;
@@ -206,9 +206,9 @@ const
 void
 CheckPacket
 (
-int
+size_t
 send_bytes
-int
+size_t
 expect_bytes
 bool
 last
@@ -240,10 +240,10 @@ hdr_info_
 int
 payload_start_
 ;
-int
+size_t
 payload_size_
 ;
-int
+size_t
 buffer_size_
 ;
 bool

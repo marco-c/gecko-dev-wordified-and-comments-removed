@@ -162,8 +162,6 @@ webrtc_root
 /
 system_wrappers
 /
-source
-/
 system_wrappers
 .
 gyp
@@ -191,6 +189,11 @@ sources
 :
 [
 '
+i420_buffer_pool_unittest
+.
+cc
+'
+'
 i420_video_frame_unittest
 .
 cc
@@ -206,16 +209,6 @@ cc
 libyuv
 /
 scaler_unittest
-.
-cc
-'
-'
-plane_unittest
-.
-cc
-'
-'
-texture_video_frame_unittest
 .
 cc
 '

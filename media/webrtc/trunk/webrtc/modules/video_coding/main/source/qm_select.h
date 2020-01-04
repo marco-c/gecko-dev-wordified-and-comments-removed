@@ -515,10 +515,8 @@ height
 void
 UpdateEncodedSize
 (
-int
+size_t
 encoded_size
-FrameType
-encoded_frame_type
 )
 ;
 void
@@ -541,13 +539,6 @@ VCMResolutionScale
 *
 *
 qm
-)
-;
-void
-SetCPULoadState
-(
-CPULoadState
-state
 )
 ;
 private
@@ -629,6 +620,11 @@ AdjustAction
 ;
 void
 ConvertSpatialFractionalToWhole
+(
+)
+;
+bool
+EvenFrameSize
 (
 )
 ;
@@ -748,9 +744,6 @@ kDownActionHistorySize
 int
 num_layers_
 ;
-CPULoadState
-loadstate_
-;
 }
 ;
 class
@@ -785,7 +778,7 @@ float
 total_rate
 float
 framerate
-uint32_t
+int64_t
 rtt_time
 uint8_t
 packet_loss
@@ -809,7 +802,7 @@ private
 float
 prev_total_rate_
 ;
-uint32_t
+int64_t
 prev_rtt_time_
 ;
 uint8_t

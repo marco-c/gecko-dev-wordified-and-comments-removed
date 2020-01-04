@@ -1104,6 +1104,10 @@ flags
 =
 VP8_EFLAG_NO_REF_GF
 ;
+FALLTHROUGH
+(
+)
+;
 case
 kTemporalUpdateGolden
 :
@@ -1137,6 +1141,10 @@ flags
 =
 VP8_EFLAG_NO_REF_GF
 ;
+FALLTHROUGH
+(
+)
+;
 case
 kTemporalUpdateAltref
 :
@@ -1159,6 +1167,10 @@ flags
 |
 =
 VP8_EFLAG_NO_REF_ARF
+;
+FALLTHROUGH
+(
+)
 ;
 case
 kTemporalUpdateNone

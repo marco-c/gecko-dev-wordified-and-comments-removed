@@ -93,7 +93,7 @@ kConfigReordering
 false
 ;
 const
-uint32_t
+int64_t
 kConfigRttMs
 =
 0
@@ -332,7 +332,7 @@ kConfigRenderDelayMs
 kConfigMinPlayoutDelayMs
 )
 ;
-webrtc
+rtc
 :
 :
 scoped_ptr

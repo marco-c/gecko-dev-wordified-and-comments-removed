@@ -85,15 +85,6 @@ Init
 ;
 virtual
 int32_t
-ChangeUniqueId
-(
-const
-int32_t
-id
-)
-;
-virtual
-int32_t
 ChangeWindow
 (
 void
@@ -350,6 +341,7 @@ RenderFrame
 const
 uint32_t
 streamId
+const
 I420VideoFrame
 &
 videoFrame
@@ -357,9 +349,6 @@ videoFrame
 ;
 private
 :
-int32_t
-_id
-;
 CriticalSectionWrapper
 &
 _critSect

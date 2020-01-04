@@ -9,9 +9,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
+base
 /
 scoped_ptr
 .
@@ -84,6 +82,9 @@ samples_per_10_ms_
 int
 bytes_per_10_ms_
 ;
+rtc
+:
+:
 scoped_ptr
 <
 int8_t

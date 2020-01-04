@@ -2,17 +2,6 @@ kjellander
 webrtc
 .
 org
-per
--
-file
-tsan_suppressions_webrtc
-.
-cc
-=
-pbos
-webrtc
-.
-org
 #
 These
 are

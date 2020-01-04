@@ -267,7 +267,7 @@ Pathname
 path
 int64
 *
-freebytes
+free_bytes
 )
 ;
 virtual

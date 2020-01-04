@@ -592,6 +592,13 @@ j
 }
 }
 }
+#
+if
+!
+defined
+(
+WEBRTC_ARCH_ARM64_NEON
+)
 static
 float32x4_t
 vdivq_f32
@@ -748,6 +755,8 @@ x
 ;
 ;
 }
+#
+endif
 static
 void
 ScaleErrorSignalNEON

@@ -78,9 +78,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
+base
 /
 scoped_ptr
 .
@@ -808,6 +806,9 @@ size
 +
 6
 ;
+rtc
+:
+:
 scoped_ptr
 <
 char

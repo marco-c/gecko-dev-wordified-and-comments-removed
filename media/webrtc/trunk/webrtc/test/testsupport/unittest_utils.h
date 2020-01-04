@@ -11,13 +11,13 @@ namespace
 test
 {
 const
-int
+size_t
 kPacketSizeInBytes
 =
 1500
 ;
 const
-int
+size_t
 kPacketDataLength
 =
 kPacketSizeInBytes

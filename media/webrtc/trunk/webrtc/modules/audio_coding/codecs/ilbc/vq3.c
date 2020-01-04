@@ -85,11 +85,9 @@ pos
 ;
 dist
 =
-WEBRTC_SPL_MUL_16_16
-(
 tmp
+*
 tmp
-)
 ;
 for
 (
@@ -123,11 +121,9 @@ i
 dist
 +
 =
-WEBRTC_SPL_MUL_16_16
-(
 tmp
+*
 tmp
-)
 ;
 }
 if

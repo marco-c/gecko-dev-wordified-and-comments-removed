@@ -93,7 +93,7 @@ int
 video_channel
 const
 unsigned
-int
+char
 pl_type
 VideoDecoder
 *

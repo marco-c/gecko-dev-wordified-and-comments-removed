@@ -315,10 +315,14 @@ crossCorrSqMod
 (
 int16_t
 )
-WEBRTC_SPL_MUL_16_16_RSFT
+(
 (
 crossCorrmod
+*
 crossCorrmod
+)
+>
+>
 16
 )
 ;

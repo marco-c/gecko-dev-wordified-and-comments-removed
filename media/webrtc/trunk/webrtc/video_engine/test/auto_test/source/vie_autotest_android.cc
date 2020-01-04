@@ -178,7 +178,6 @@ VoiceEngine
 SetAndroidObjects
 (
 javaVM
-env
 context
 )
 ;
@@ -517,12 +516,6 @@ break
 case
 8
 :
-vieAutoTest
-.
-ViERtpRtcpExtendedTest
-(
-)
-;
 break
 ;
 default

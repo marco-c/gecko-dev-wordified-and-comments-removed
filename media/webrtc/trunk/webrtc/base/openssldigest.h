@@ -51,15 +51,15 @@ algorithm
 OpenSSLDigest
 (
 )
+override
 ;
-virtual
 size_t
 Size
 (
 )
 const
+override
 ;
-virtual
 void
 Update
 (
@@ -70,8 +70,8 @@ buf
 size_t
 len
 )
+override
 ;
-virtual
 size_t
 Finish
 (
@@ -81,6 +81,7 @@ buf
 size_t
 len
 )
+override
 ;
 static
 bool

@@ -9,13 +9,9 @@ include
 "
 webrtc
 /
-modules
+common_audio
 /
-audio_processing
-/
-aec
-/
-aec_core
+ring_buffer
 .
 h
 "
@@ -28,9 +24,9 @@ modules
 /
 audio_processing
 /
-utility
+aec
 /
-ring_buffer
+aec_core
 .
 h
 "
@@ -145,7 +141,7 @@ AecCore
 aec
 ;
 }
-aecpc_t
+Aec
 ;
 #
 endif

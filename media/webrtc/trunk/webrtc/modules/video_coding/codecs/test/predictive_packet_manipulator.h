@@ -79,12 +79,11 @@ result
 ;
 protected
 :
-virtual
 double
 RandomUniform
 (
 )
-OVERRIDE
+override
 ;
 private
 :

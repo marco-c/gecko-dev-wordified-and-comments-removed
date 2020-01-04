@@ -140,7 +140,9 @@ include
 "
 webrtc
 /
-common_types
+base
+/
+scoped_ptr
 .
 h
 "
@@ -149,11 +151,7 @@ include
 "
 webrtc
 /
-system_wrappers
-/
-interface
-/
-scoped_ptr
+common_types
 .
 h
 "
@@ -903,6 +901,9 @@ static
 Logging
 g_Logging
 ;
+rtc
+:
+:
 scoped_ptr
 <
 CriticalSectionWrapper

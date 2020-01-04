@@ -414,6 +414,11 @@ Profiler
 {
 public
 :
+~
+Profiler
+(
+)
+;
 void
 StartEvent
 (
@@ -503,8 +508,7 @@ private
 Profiler
 (
 )
-{
-}
+;
 typedef
 std
 :
