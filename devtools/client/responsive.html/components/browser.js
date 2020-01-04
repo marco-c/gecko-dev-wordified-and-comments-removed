@@ -478,6 +478,11 @@ noisolation
 "
 true
 "
+allowfullscreen
+=
+"
+true
+"
 src
 =
 "
