@@ -476,7 +476,7 @@ false
 let
 commitPromise
 =
-promiseAfterCommit
+promiseAfterCache
 (
 )
 ;
@@ -519,7 +519,7 @@ do_check_eq
 typeof
 metadata
 .
-searchdefaultexpir
+searchDefaultExpir
 "
 undefined
 "
@@ -530,7 +530,7 @@ do_check_eq
 typeof
 metadata
 .
-searchdefault
+searchDefault
 "
 undefined
 "
@@ -541,7 +541,7 @@ do_check_eq
 typeof
 metadata
 .
-searchdefaulthash
+searchDefaultHash
 "
 undefined
 "
@@ -577,7 +577,7 @@ should_get_geo_defaults_only_once
 let
 commitPromise
 =
-promiseAfterCommit
+promiseAfterCache
 (
 )
 ;
@@ -657,7 +657,7 @@ do_check_eq
 typeof
 metadata
 .
-searchdefaultexpir
+searchDefaultExpir
 "
 number
 "
@@ -667,7 +667,7 @@ do_check_true
 (
 metadata
 .
-searchdefaultexpir
+searchDefaultExpir
 >
 Date
 .
@@ -681,7 +681,7 @@ do_check_eq
 typeof
 metadata
 .
-searchdefault
+searchDefault
 "
 string
 "
@@ -691,7 +691,7 @@ do_check_eq
 (
 metadata
 .
-searchdefault
+searchDefault
 "
 Test
 search
@@ -704,7 +704,7 @@ do_check_eq
 typeof
 metadata
 .
-searchdefaulthash
+searchDefaultHash
 "
 string
 "
@@ -714,7 +714,7 @@ do_check_eq
 (
 metadata
 .
-searchdefaulthash
+searchDefaultHash
 .
 length
 44
@@ -770,7 +770,7 @@ countryCode
 let
 commitPromise
 =
-promiseAfterCommit
+promiseAfterCache
 (
 )
 ;
@@ -805,7 +805,7 @@ forceExpiration
 let
 commitPromise
 =
-promiseAfterCommit
+promiseAfterCache
 (
 )
 ;
@@ -843,7 +843,7 @@ do_check_eq
 typeof
 metadata
 .
-searchdefaultexpir
+searchDefaultExpir
 "
 number
 "
@@ -853,7 +853,7 @@ do_check_true
 (
 metadata
 .
-searchdefaultexpir
+searchDefaultExpir
 >
 =
 date
@@ -867,7 +867,7 @@ do_check_true
 (
 metadata
 .
-searchdefaultexpir
+searchDefaultExpir
 <
 date
 +
@@ -904,11 +904,11 @@ hash
 =
 metadata
 .
-searchdefaulthash
+searchDefaultHash
 ;
 metadata
 .
-searchdefaulthash
+searchDefaultHash
 =
 "
 broken
@@ -923,7 +923,7 @@ metadata
 let
 commitPromise
 =
-promiseAfterCommit
+promiseAfterCache
 (
 )
 ;
@@ -987,7 +987,7 @@ do_check_eq
 typeof
 metadata
 .
-searchdefaulthash
+searchDefaultHash
 "
 string
 "
@@ -997,7 +997,7 @@ do_check_eq
 (
 metadata
 .
-searchdefaulthash
+searchDefaultHash
 hash
 )
 ;
@@ -1093,7 +1093,7 @@ forceExpiration
 let
 commitPromise
 =
-promiseAfterCommit
+promiseAfterCache
 (
 )
 ;
@@ -1151,7 +1151,7 @@ forceExpiration
 ;
 commitPromise
 =
-promiseAfterCommit
+promiseAfterCache
 (
 )
 ;
@@ -1327,7 +1327,7 @@ now
 let
 commitPromise
 =
-promiseAfterCommit
+promiseAfterCache
 (
 )
 ;
@@ -1356,7 +1356,7 @@ do_check_eq
 typeof
 metadata
 .
-searchdefaultexpir
+searchDefaultExpir
 "
 number
 "
@@ -1366,7 +1366,7 @@ do_check_true
 (
 metadata
 .
-searchdefaultexpir
+searchDefaultExpir
 >
 =
 date
@@ -1380,7 +1380,7 @@ do_check_true
 (
 metadata
 .
-searchdefaultexpir
+searchDefaultExpir
 <
 date
 +
