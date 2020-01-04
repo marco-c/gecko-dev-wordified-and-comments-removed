@@ -13005,6 +13005,8 @@ aBackgroundRect
 nsDisplayList
 *
 aList
+bool
+aAllowWillPaintBorderOptimization
 )
 {
 nsStyleContext
@@ -13179,6 +13181,9 @@ true
 bool
 willPaintBorder
 =
+aAllowWillPaintBorderOptimization
+&
+&
 !
 isThemed
 &
