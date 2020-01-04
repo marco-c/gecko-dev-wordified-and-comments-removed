@@ -921,6 +921,7 @@ SkASSERT
 (
 d0
 <
+=
 fPathLength
 )
 ;
