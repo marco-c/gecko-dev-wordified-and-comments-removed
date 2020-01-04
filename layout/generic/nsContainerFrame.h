@@ -864,6 +864,10 @@ NS_DECLARE_FRAME_PROPERTY_FRAMELIST
 (
 ExcessOverflowContainersProperty
 )
+NS_DECLARE_FRAME_PROPERTY_FRAMELIST
+(
+BackdropProperty
+)
 #
 ifdef
 DEBUG

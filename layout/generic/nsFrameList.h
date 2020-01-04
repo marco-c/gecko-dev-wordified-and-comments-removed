@@ -118,9 +118,12 @@ kBulletList
 kPushedFloatsList
 =
 0x2000
-kNoReflowPrincipalList
+kBackdropList
 =
 0x4000
+kNoReflowPrincipalList
+=
+0x8000
 }
 ;
 }
