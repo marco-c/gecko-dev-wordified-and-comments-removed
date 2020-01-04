@@ -7069,7 +7069,7 @@ sizeNewSamples
 ;
 }
 }
-void
+bool
 TrackBuffersManager
 :
 :
@@ -7096,6 +7096,7 @@ isSome
 )
 {
 return
+true
 ;
 }
 TrackBuffer
@@ -7143,6 +7144,7 @@ size_t
 )
 ;
 return
+true
 ;
 }
 TimeInterval
@@ -7200,6 +7202,7 @@ Length
 )
 ;
 return
+true
 ;
 }
 for
@@ -7281,11 +7284,13 @@ i
 )
 ;
 return
+true
 ;
 }
 }
-MOZ_CRASH
+NS_ASSERTION
 (
+false
 "
 Insertion
 Index
@@ -7293,6 +7298,9 @@ Not
 Found
 "
 )
+;
+return
+false
 ;
 }
 void
@@ -7412,6 +7420,9 @@ refOr
 )
 ;
 }
+if
+(
+!
 CheckNextInsertionIndex
 (
 aTrackData
@@ -7429,7 +7440,17 @@ aSamples
 mTime
 )
 )
+)
+{
+RejectProcessing
+(
+NS_ERROR_FAILURE
+__func__
+)
 ;
+return
+;
+}
 if
 (
 trackBuffer
