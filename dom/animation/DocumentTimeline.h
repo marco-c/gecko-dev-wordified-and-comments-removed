@@ -222,6 +222,15 @@ aAnimation
 override
 ;
 void
+RemoveAnimation
+(
+Animation
+*
+aAnimation
+)
+override
+;
+void
 WillRefresh
 (
 TimeStamp
