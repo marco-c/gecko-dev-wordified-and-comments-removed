@@ -1028,7 +1028,7 @@ aChild
 )
 ;
 nsresult
-IMEEndComposition
+RequestIMEToCommitComposition
 (
 bool
 aCancel

@@ -819,7 +819,7 @@ override
 ;
 virtual
 bool
-RecvEndIMEComposition
+RecvRequestIMEToCommitComposition
 (
 const
 bool
@@ -827,10 +827,10 @@ bool
 aCancel
 bool
 *
-aNoCompositionEvent
+aIsCommitted
 nsString
 *
-aComposition
+aCommittedString
 )
 override
 ;
