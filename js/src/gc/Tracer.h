@@ -43,7 +43,7 @@ TraceEdge
 JSTracer
 *
 trc
-BarrieredBase
+WriteBarrieredBase
 <
 T
 >
@@ -128,7 +128,7 @@ JSTracer
 trc
 size_t
 len
-BarrieredBase
+WriteBarrieredBase
 <
 T
 >
@@ -176,7 +176,7 @@ trc
 JSObject
 *
 src
-BarrieredBase
+WriteBarrieredBase
 <
 T
 >

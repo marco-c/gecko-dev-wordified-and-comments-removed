@@ -1599,7 +1599,7 @@ T
 bool
 IsMarked
 (
-BarrieredBase
+WriteBarrieredBase
 <
 T
 >
@@ -1644,7 +1644,7 @@ T
 bool
 IsAboutToBeFinalized
 (
-BarrieredBase
+WriteBarrieredBase
 <
 T
 >
