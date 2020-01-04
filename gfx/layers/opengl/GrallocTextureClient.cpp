@@ -77,6 +77,13 @@ h
 #
 include
 "
+gfxPrefs
+.
+h
+"
+#
+include
+"
 SharedSurfaceGralloc
 .
 h
