@@ -148,11 +148,6 @@ MailtoProtocolHandler
 js
 '
 '
-MobileIdentityUIGlue
-.
-js
-'
-'
 OMAContentHandler
 .
 js
