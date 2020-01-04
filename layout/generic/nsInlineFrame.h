@@ -23,15 +23,11 @@ h
 class
 nsLineLayout
 ;
-typedef
-nsContainerFrame
-nsInlineFrameBase
-;
 class
 nsInlineFrame
 :
 public
-nsInlineFrameBase
+nsContainerFrame
 {
 public
 :
