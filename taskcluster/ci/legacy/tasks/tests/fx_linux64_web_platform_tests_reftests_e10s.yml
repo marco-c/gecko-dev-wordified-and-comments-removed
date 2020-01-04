@@ -220,6 +220,8 @@ platform
 tests
 -
 reftests
+-
+e10s
 treeherder
 :
 groupName
