@@ -3297,6 +3297,12 @@ defer
 ;
 DownloadIntegration
 .
+dontCheckRuntimePermissions
+=
+true
+;
+DownloadIntegration
+.
 _deferTestOpenFile
 .
 promise
