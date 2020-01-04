@@ -1808,8 +1808,6 @@ const
 ScreenMargin
 &
 aFixedLayerMargins
-bool
-aTransformAffectsLayerClip
 )
 {
 FrameMetrics
@@ -1945,7 +1943,6 @@ aTransformScrollId
 aPreviousTransformForRoot
 aCurrentTransformForRoot
 aFixedLayerMargins
-true
 )
 ;
 }
@@ -2202,7 +2199,10 @@ XMost
 bool
 adjustClipRect
 =
-aTransformAffectsLayerClip
+aLayer
+!
+=
+aTransformedSubtreeRoot
 &
 &
 aLayer
@@ -4187,11 +4187,6 @@ GetScrollId
 oldTransform
 transformWithoutOverscrollOrOmta
 fixedLayerMargins
-asyncClip
-.
-isSome
-(
-)
 )
 ;
 asyncClip
@@ -5915,7 +5910,6 @@ GetLocalTransform
 (
 )
 fixedLayerMargins
-false
 )
 ;
 ExpandRootClipRect
