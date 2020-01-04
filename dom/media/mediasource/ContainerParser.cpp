@@ -109,15 +109,6 @@ GetMediaSourceSamplesLog
 )
 ;
 #
-ifdef
-_MSC_VER
-#
-define
-__func__
-__FUNCTION__
-#
-endif
-#
 define
 STRINGIFY
 (
