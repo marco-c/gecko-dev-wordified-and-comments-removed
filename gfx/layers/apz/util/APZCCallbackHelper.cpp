@@ -1066,13 +1066,15 @@ GetResolution
 ;
 if
 (
-presShellResolution
 !
-=
+FuzzyEqualsMultiplicative
+(
+presShellResolution
 aMetrics
 .
 GetPresShellResolution
 (
+)
 )
 )
 {
