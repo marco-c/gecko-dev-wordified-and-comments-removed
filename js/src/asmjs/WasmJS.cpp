@@ -2658,7 +2658,7 @@ instance
 (
 )
 .
-trace
+tracePrivate
 (
 trc
 )
