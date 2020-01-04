@@ -10463,11 +10463,9 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 WINDOWSTATEHOLDER_IID
 )
 NS_DECL_ISUPPORTS
+explicit
 WindowStateHolder
 (
-nsIScriptContext
-*
-aContext
 nsGlobalWindow
 *
 aWindow
@@ -10530,9 +10528,6 @@ WindowStateHolder
 :
 WindowStateHolder
 (
-nsIScriptContext
-*
-aContext
 nsGlobalWindow
 *
 aWindow
@@ -10544,10 +10539,10 @@ aWindow
 )
 mInnerWindowReflector
 (
-aContext
--
->
-GetNativeContext
+nsContentUtils
+:
+:
+RootingCx
 (
 )
 aWindow
@@ -54665,7 +54660,6 @@ state
 new
 WindowStateHolder
 (
-mContext
 inner
 )
 ;
