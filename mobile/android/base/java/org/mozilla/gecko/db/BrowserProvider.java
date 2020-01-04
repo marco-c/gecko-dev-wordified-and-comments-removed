@@ -4693,7 +4693,7 @@ String
 ]
 ;
 boolean
-firstClause
+hasProcessedAnySuggestedSites
 =
 true
 ;
@@ -4748,7 +4748,7 @@ moveToNext
 if
 (
 !
-firstClause
+hasProcessedAnySuggestedSites
 )
 {
 suggestedSitesBuilder
@@ -4764,7 +4764,7 @@ ALL
 }
 else
 {
-firstClause
+hasProcessedAnySuggestedSites
 =
 false
 ;
@@ -5037,6 +5037,12 @@ totalLimitArgs
 )
 )
 ;
+if
+(
+!
+hasProcessedAnySuggestedSites
+)
+{
 db
 .
 execSQL
@@ -5204,6 +5210,7 @@ suggestedLimitArgs
 )
 )
 ;
+}
 final
 SQLiteCursor
 c
