@@ -263,6 +263,15 @@ callContentFunction
 \
 macro
 (
+std_Function_apply
+std_Function_apply
+"
+std_Function_apply
+"
+)
+\
+macro
+(
 callee
 callee
 "
