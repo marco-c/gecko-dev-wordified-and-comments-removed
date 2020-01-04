@@ -2561,14 +2561,13 @@ MathCache
 *
 cache
 =
-compartment
--
->
-runtime
+GetJSContextFromMainThread
 (
 )
 -
 >
+caches
+.
 maybeGetMathCache
 (
 )

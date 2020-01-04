@@ -108,7 +108,7 @@ include
 "
 vm
 /
-NativeObject
+Caches
 -
 inl
 .
@@ -119,7 +119,7 @@ include
 "
 vm
 /
-Runtime
+NativeObject
 -
 inl
 .
@@ -8377,11 +8377,8 @@ asJSContext
 ncx
 -
 >
-runtime
-(
-)
--
->
+caches
+.
 newObjectCache
 .
 invalidateEntriesForShape
