@@ -3184,16 +3184,7 @@ css
 :
 Rule
 *
-aOldStyleRule
-mozilla
-:
-:
-css
-:
-:
-Rule
-*
-aNewStyleRule
+aStyleRule
 )
 override
 ;

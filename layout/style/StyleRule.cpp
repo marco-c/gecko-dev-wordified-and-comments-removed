@@ -5744,7 +5744,6 @@ StyleRuleChanged
 (
 sheet
 mRule
-mRule
 )
 ;
 }
