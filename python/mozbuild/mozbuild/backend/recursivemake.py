@@ -9449,15 +9449,6 @@ in
 files
 :
                 
-if
-not
-isinstance
-(
-f
-ObjDirPath
-)
-:
-                    
 dest
 =
 mozpath
@@ -9466,13 +9457,25 @@ join
 (
 reltarget
 path
+                                    
 mozpath
 .
 basename
 (
 f
+.
+full_path
 )
 )
+                
+if
+not
+isinstance
+(
+f
+ObjDirPath
+)
+:
                     
 install_manifest
 .
@@ -9486,6 +9489,13 @@ dest
                 
 else
 :
+                    
+install_manifest
+.
+add_optional_exists
+(
+dest
+)
                     
 backend_file
 .
