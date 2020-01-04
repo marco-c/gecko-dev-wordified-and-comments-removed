@@ -456,6 +456,17 @@ reason
 =
 >
 {
+if
+(
+id
+!
+=
+ADDON_ID
+)
+{
+return
+;
+}
 Assert
 .
 equal
