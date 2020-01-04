@@ -466,9 +466,7 @@ void
 *
 activation
 ;
-const
-char
-*
+UniqueChars
 label
 ;
 }
