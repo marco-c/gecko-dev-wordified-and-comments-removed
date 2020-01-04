@@ -462,6 +462,7 @@ this
 restoreTabContent
 (
 null
+false
 callbacks
 .
 onLoadFinished
@@ -600,6 +601,7 @@ restoreTabContent
 function
 (
 loadArguments
+isRemotenessUpdate
 finishCallback
 )
 {
@@ -647,7 +649,7 @@ finishCallback
 if
 (
 !
-loadArguments
+isRemotenessUpdate
 )
 {
 webNavigation

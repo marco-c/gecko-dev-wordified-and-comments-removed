@@ -718,6 +718,7 @@ gContentRestore
 restoreTabContent
 (
 loadArguments
+isRemotenessUpdate
 (
 )
 =
