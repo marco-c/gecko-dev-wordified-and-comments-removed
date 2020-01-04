@@ -291,6 +291,9 @@ TextureClientPool
 #
 endif
 class
+TextureForwarder
+;
+class
 KeepAlive
 ;
 enum
@@ -1065,7 +1068,7 @@ TextureClient
 >
 CreateForDrawing
 (
-CompositableForwarder
+TextureForwarder
 *
 aAllocator
 gfx
