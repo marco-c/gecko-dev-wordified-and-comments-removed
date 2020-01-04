@@ -236,6 +236,22 @@ eNotCapturing
 false
 }
 ;
+enum
+AudibleChangedReasons
+:
+uint32_t
+{
+eVolumeChanged
+=
+0
+eDataAudibleChanged
+=
+1
+ePauseStateChanged
+=
+2
+}
+;
 static
 already_AddRefed
 <
@@ -317,6 +333,8 @@ AudioChannelAgent
 aAgent
 AudibleState
 aAudible
+AudibleChangedReasons
+aReason
 )
 ;
 float
@@ -733,6 +751,8 @@ AudioChannelAgent
 aAgent
 AudibleState
 aAudible
+AudibleChangedReasons
+aReason
 )
 ;
 void
@@ -800,6 +820,8 @@ AppendAudibleAgentIfNotContained
 AudioChannelAgent
 *
 aAgent
+AudibleChangedReasons
+aReason
 )
 ;
 void
@@ -808,6 +830,8 @@ RemoveAudibleAgentIfContained
 AudioChannelAgent
 *
 aAgent
+AudibleChangedReasons
+aReason
 )
 ;
 void
@@ -846,6 +870,8 @@ nsPIDOMWindowOuter
 aWindow
 AudibleState
 aAudible
+AudibleChangedReasons
+aReason
 )
 ;
 void
