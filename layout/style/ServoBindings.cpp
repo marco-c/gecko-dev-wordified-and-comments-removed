@@ -723,7 +723,6 @@ css
 SheetParsingMode
 mode
 )
-;
 {
 MOZ_CRASH
 (
