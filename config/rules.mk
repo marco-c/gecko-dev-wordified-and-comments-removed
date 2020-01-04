@@ -10070,12 +10070,10 @@ jar_maker
 QUIET
 )
 -
-j
+d
 (
 FINAL_TARGET
 )
-/
-chrome
 \
 (
 MAKE_JARS_FLAGS

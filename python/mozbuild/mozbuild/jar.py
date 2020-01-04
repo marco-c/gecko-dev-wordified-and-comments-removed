@@ -1575,7 +1575,7 @@ add_option
 (
 '
 -
-j
+d
 '
 type
 =
@@ -1585,7 +1585,7 @@ string
 help
 =
 '
-jarfile
+base
 directory
 '
 )
@@ -2721,6 +2721,9 @@ path
 join
 (
 jardir
+'
+chrome
+'
 jarinfo
 .
 name
@@ -4193,5 +4196,5 @@ makeJar
 infile
 options
 .
-j
+d
 )

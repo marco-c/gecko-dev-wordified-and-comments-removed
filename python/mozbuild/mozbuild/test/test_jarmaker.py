@@ -1280,22 +1280,6 @@ jar
 '
 )
         
-jardir
-=
-os
-.
-path
-.
-join
-(
-self
-.
-builddir
-'
-chrome
-'
-)
-        
 if
 '
 topsourcedir
@@ -1350,7 +1334,9 @@ jm
 makeJar
 (
 infile
-jardir
+self
+.
+builddir
 )
         
 cwd
@@ -1932,22 +1918,6 @@ self
 .
 srcdir
         
-jardir
-=
-os
-.
-path
-.
-join
-(
-self
-.
-builddir
-'
-chrome
-'
-)
-        
 jm
 .
 makeJar
@@ -1967,7 +1937,9 @@ jar
 mn
 '
 )
-jardir
+self
+.
+builddir
 )
         
 srcbar
@@ -2675,22 +2647,6 @@ self
 .
 srcdir
         
-jardir
-=
-os
-.
-path
-.
-join
-(
-self
-.
-builddir
-'
-chrome
-'
-)
-        
 jm
 .
 makeJar
@@ -2710,7 +2666,9 @@ jar
 mn
 '
 )
-jardir
+self
+.
+builddir
 )
         
 expected_symlinks
