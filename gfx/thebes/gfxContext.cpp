@@ -429,7 +429,7 @@ gfxContext
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 DrawTarget
 *
@@ -471,7 +471,7 @@ in
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 "
 <
 <
@@ -512,7 +512,7 @@ gfxContext
 gfxContext
 :
 :
-ForDrawTargetWithTransform
+CreatePreservingTransformOrNull
 (
 DrawTarget
 *
@@ -544,7 +544,7 @@ in
 gfxContext
 :
 :
-ForDrawTargetWithTransform
+CreatePreservingTransformOrNull
 "
 <
 <

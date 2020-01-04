@@ -4492,7 +4492,7 @@ ctx
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 mDrawTarget
 )

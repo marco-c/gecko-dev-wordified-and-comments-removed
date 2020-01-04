@@ -4032,7 +4032,7 @@ ctxt
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 mSinglePaintDrawTarget
 )
@@ -5782,7 +5782,7 @@ ctx
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 drawTarget
 )

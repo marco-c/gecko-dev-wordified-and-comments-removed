@@ -25227,7 +25227,7 @@ ctx
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 tempDT
 tmpDTRect

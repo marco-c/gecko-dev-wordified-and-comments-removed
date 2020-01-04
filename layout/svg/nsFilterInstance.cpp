@@ -1611,7 +1611,7 @@ gfx
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 offscreenDT
 )
@@ -1980,7 +1980,7 @@ ctx
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 offscreenDT
 )

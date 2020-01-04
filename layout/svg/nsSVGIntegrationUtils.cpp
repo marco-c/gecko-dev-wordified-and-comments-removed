@@ -1838,7 +1838,7 @@ maskContext
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 maskDT
 )
@@ -3020,7 +3020,7 @@ target
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 targetDT
 )

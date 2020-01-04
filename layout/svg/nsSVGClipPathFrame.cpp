@@ -542,7 +542,7 @@ ctx
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 maskDT
 )

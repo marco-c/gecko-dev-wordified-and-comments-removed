@@ -2339,7 +2339,7 @@ tmpCtx
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 target
 )
@@ -2928,7 +2928,7 @@ tmpCtx
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 scaledDT
 )
@@ -6474,7 +6474,7 @@ context
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 dt
 )

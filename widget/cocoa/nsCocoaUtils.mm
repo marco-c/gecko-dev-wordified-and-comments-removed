@@ -3100,7 +3100,7 @@ context
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 drawTarget
 )

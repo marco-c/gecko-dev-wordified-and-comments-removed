@@ -8303,7 +8303,7 @@ targetContext
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 mBackingSurface
 )

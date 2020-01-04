@@ -33344,7 +33344,7 @@ destCtx
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 tempDT
 imageRect

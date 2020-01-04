@@ -2525,7 +2525,7 @@ targetContext
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 dt
 )
@@ -2676,7 +2676,7 @@ targetContext
 gfxContext
 :
 :
-ForDrawTarget
+CreateOrNull
 (
 dt
 )
