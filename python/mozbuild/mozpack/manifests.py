@@ -916,6 +916,13 @@ warnings
                 
 continue
             
+if
+record_type
+>
+=
+0
+:
+                
 raise
 UnreadableInstallManifest
 (
@@ -928,7 +935,7 @@ type
 d
 '
 %
-                
+                    
 record_type
 )
     
