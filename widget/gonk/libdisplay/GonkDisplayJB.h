@@ -207,6 +207,14 @@ int
 aDpy
 )
 ;
+int
+DoQueueBuffer
+(
+ANativeWindowBuffer
+*
+buf
+)
+;
 hw_module_t
 const
 *

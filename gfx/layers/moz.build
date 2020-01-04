@@ -1387,6 +1387,13 @@ layers
 =
 [
 '
+basic
+/
+GrallocTextureHostBasic
+.
+h
+'
+'
 ipc
 /
 ShadowLayerUtilsGralloc
@@ -1398,6 +1405,13 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+basic
+/
+GrallocTextureHostBasic
+.
+cpp
+'
 '
 GrallocImages
 .

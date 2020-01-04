@@ -889,12 +889,6 @@ case
 SurfaceDescriptor
 :
 :
-TNewSurfaceDescriptorGralloc
-:
-case
-SurfaceDescriptor
-:
-:
 TSurfaceTextureDescriptor
 :
 return
@@ -905,6 +899,12 @@ aDeallocator
 aFlags
 )
 ;
+case
+SurfaceDescriptor
+:
+:
+TNewSurfaceDescriptorGralloc
+:
 case
 SurfaceDescriptor
 :
