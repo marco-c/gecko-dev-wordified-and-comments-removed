@@ -542,12 +542,9 @@ blank
 }
 }
 }
-ensureEventFired
+ensureFrameLoaded
 (
 browser
-"
-load
-"
 )
 .
 then
