@@ -181,7 +181,7 @@ Get
 )
 -
 >
-HasKeyForKeyId
+HasSeenKeyId
 (
 *
 it
