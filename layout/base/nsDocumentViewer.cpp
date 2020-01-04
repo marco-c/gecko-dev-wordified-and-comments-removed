@@ -14254,6 +14254,16 @@ GetIsPrinting
 )
 )
 ;
+NS_ENSURE_STATE
+(
+mContainer
+)
+;
+NS_ENSURE_STATE
+(
+mDeviceContext
+)
+;
 if
 (
 !
