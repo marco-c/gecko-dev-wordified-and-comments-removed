@@ -347,7 +347,10 @@ const
 nsTArray
 <
 const
-NormalizedConstraintSet
+dom
+:
+:
+MediaTrackConstraintSet
 *
 >
 &
