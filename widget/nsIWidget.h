@@ -1740,16 +1740,6 @@ GetClientBounds
 0
 ;
 NS_IMETHOD
-GetNonClientMargins
-(
-LayoutDeviceIntMargin
-&
-aMargins
-)
-=
-0
-;
-NS_IMETHOD
 SetNonClientMargins
 (
 LayoutDeviceIntMargin
