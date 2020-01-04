@@ -104683,7 +104683,7 @@ False
 wrapScope
 =
 '
-CallbackPreserveColor
+CallbackKnownNotGray
 (
 )
 '
@@ -107793,7 +107793,7 @@ atomsCache
 JS_SetPropertyById
 (
 cx
-CallbackPreserveColor
+CallbackKnownNotGray
 (
 )
 atomsCache
