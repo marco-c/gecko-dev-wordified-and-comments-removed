@@ -157,6 +157,11 @@ filterTooltip
 view
 )
 ;
+yield
+waitForTick
+(
+)
+;
 }
 )
 ;
