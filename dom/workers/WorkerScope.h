@@ -563,10 +563,6 @@ IMPL_EVENT_HANDLER
 (
 offline
 )
-IMPL_EVENT_HANDLER
-(
-close
-)
 void
 Dump
 (

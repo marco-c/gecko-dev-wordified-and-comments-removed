@@ -356,10 +356,6 @@ partial
 interface
 WorkerGlobalScope
 {
-attribute
-EventHandler
-onclose
-;
 void
 dump
 (
