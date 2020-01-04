@@ -121,7 +121,7 @@ mRestyleHint
 }
 private
 :
-nsAutoString
+nsString
 mRestyleHint
 ;
 }

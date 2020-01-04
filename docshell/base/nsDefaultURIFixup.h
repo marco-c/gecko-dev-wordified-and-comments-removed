@@ -222,7 +222,7 @@ mKeywordProviderName
 nsString
 mKeywordAsSent
 ;
-nsAutoCString
+nsCString
 mOriginalInput
 ;
 }
