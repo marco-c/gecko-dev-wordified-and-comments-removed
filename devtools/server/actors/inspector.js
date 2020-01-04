@@ -4389,11 +4389,14 @@ get
 formProperties
 (
 )
+{
+return
 this
 .
 _form
 .
 props
+}
 startModifyingAttributes
 :
 function
