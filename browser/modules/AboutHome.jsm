@@ -604,7 +604,7 @@ PlacesCommandHook
 showPlacesOrganizer
 (
 "
-AllBookmarks
+UnfiledBookmarks
 "
 )
 ;
