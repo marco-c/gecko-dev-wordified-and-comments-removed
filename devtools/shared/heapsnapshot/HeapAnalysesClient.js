@@ -162,6 +162,13 @@ function
 (
 snapshotFilePath
 censusOptions
+=
+{
+}
+requestOptions
+=
+{
+}
 )
 {
 return
@@ -177,6 +184,7 @@ takeCensus
 {
 snapshotFilePath
 censusOptions
+requestOptions
 }
 )
 ;
