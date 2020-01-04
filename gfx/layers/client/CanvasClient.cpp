@@ -1581,11 +1581,10 @@ mSize
 height
 ;
 {
-ScopedPackAlignment
-autoAlign
+ScopedPackState
+scopedPackState
 (
 gl
-4
 )
 ;
 MOZ_ASSERT
