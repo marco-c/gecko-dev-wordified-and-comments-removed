@@ -4039,6 +4039,14 @@ eCSSKeyword_scrollbar_small
 NS_THEME_SCROLLBAR_SMALL
 }
 {
+eCSSKeyword_scrollbar_horizontal
+NS_THEME_SCROLLBAR_HORIZONTAL
+}
+{
+eCSSKeyword_scrollbar_vertical
+NS_THEME_SCROLLBAR_VERTICAL
+}
+{
 eCSSKeyword_scrollbarbutton_up
 NS_THEME_SCROLLBAR_BUTTON_UP
 }
