@@ -265,6 +265,10 @@ utilities
 "
 )
 ;
+visibility
+:
+hidden
+;
 }
 #
 alertSettings
@@ -294,7 +298,9 @@ radius
 #
 alertSettings
 [
+"
 open
+"
 ]
 #
 alertSettings
