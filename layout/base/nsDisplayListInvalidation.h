@@ -530,6 +530,9 @@ override
 nsRect
 mPositioningArea
 ;
+nsRect
+mDestArea
+;
 }
 ;
 class
