@@ -260,6 +260,10 @@ cb_arg_
 (
 cb_arg
 )
+canceled_
+(
+false
+)
 {
 }
 NS_IMETHOD
@@ -327,6 +331,9 @@ addr
 void
 *
 cb_arg_
+;
+bool
+canceled_
 ;
 }
 ;
