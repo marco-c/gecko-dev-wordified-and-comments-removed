@@ -375,6 +375,12 @@ DIALOG
 dialog
 "
 )
+DOORHANGER
+(
+"
+doorhanger
+"
+)
 GRID_ITEM
 (
 "

@@ -1492,6 +1492,15 @@ from
 a
 dialog
 .
+doorhanger
+Action
+triggered
+from
+a
+doorhanger
+popup
+prompt
+.
 griditem
 Action
 triggered
