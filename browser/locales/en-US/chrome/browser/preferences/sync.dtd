@@ -772,11 +772,12 @@ picture
 <
 !
 ENTITY
-manage
+manageAccount
 .
 label
 "
 Manage
+Account
 "
 >
 <
