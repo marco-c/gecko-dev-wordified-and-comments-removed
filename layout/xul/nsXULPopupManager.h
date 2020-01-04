@@ -1451,8 +1451,6 @@ nsMenuPopupFrame
 >
 &
 aFrames
-bool
-aDeselectMenu
 )
 ;
 void
