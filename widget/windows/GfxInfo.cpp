@@ -6455,7 +6455,10 @@ FEATURE_FAILURE_BUG_1153381
 ;
 APPEND_TO_DRIVER_BLOCKLIST2
 (
-DRIVER_OS_ALL
+OperatingSystem
+:
+:
+Windows
 (
 nsAString
 &
@@ -6494,7 +6497,10 @@ WEBGL_NATIVE_GL_OLD_AMD
 ;
 APPEND_TO_DRIVER_BLOCKLIST2
 (
-DRIVER_OS_ALL
+OperatingSystem
+:
+:
+Windows
 (
 nsAString
 &
@@ -6533,7 +6539,10 @@ WEBGL_NATIVE_GL_OLD_INTEL
 ;
 APPEND_TO_DRIVER_BLOCKLIST2
 (
-DRIVER_OS_ALL
+OperatingSystem
+:
+:
+Windows
 (
 nsAString
 &
