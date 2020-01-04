@@ -206,9 +206,7 @@ upload
 -
 public
 /
-{
-DEVICE
-}
+*
 .
 blobfree
 -
@@ -227,9 +225,7 @@ upload
 -
 public
 /
-{
-DEVICE
-}
+*
 .
 blobfree
 -
@@ -241,6 +237,7 @@ HOME
 artifacts
 -
 public
+/
 fi
 if
 [
