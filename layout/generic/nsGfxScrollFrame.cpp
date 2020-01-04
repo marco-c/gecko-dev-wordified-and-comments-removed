@@ -13241,7 +13241,7 @@ GetContent
 )
 ;
 bool
-shouldBuildLayer
+couldBuildLayer
 =
 false
 ;
@@ -13250,14 +13250,14 @@ if
 mWillBuildScrollableLayer
 )
 {
-shouldBuildLayer
+couldBuildLayer
 =
 true
 ;
 }
 else
 {
-shouldBuildLayer
+couldBuildLayer
 =
 nsLayoutUtils
 :
@@ -13577,7 +13577,7 @@ AutoCurrentScrollParentIdSetter
 idSetter
 (
 aBuilder
-shouldBuildLayer
+couldBuildLayer
 &
 &
 mScrolledFrame
@@ -13898,7 +13898,7 @@ LayoutUseContainersForRootFrames
 {
 MOZ_ASSERT
 (
-shouldBuildLayer
+couldBuildLayer
 &
 &
 mScrolledFrame
@@ -13956,7 +13956,7 @@ usingDisplayPort
 }
 if
 (
-shouldBuildLayer
+couldBuildLayer
 )
 {
 nsDisplayLayerEventRegions
@@ -13977,9 +13977,6 @@ IsPaintingToWindow
 &
 !
 mWillBuildScrollableLayer
-&
-&
-shouldBuildLayer
 &
 &
 aBuilder
