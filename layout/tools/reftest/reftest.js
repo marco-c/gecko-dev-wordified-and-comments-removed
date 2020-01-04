@@ -3574,7 +3574,7 @@ azureSkiaGL
 =
 info
 .
-AzureSkiaAccelerated
+AzureCanvasAccelerated
 ;
 sandbox
 .
