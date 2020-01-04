@@ -152,11 +152,7 @@ CanDetach
 (
 )
 const
-{
-return
-mCanDetach
 ;
-}
 GLContext
 *
 AttachedContext
@@ -287,11 +283,6 @@ GLuint
 aTexture
 )
 ;
-void
-UpdateCanDetach
-(
-)
-;
 GLuint
 mTexture
 ;
@@ -322,9 +313,6 @@ mSurface
 GLContext
 *
 mAttachedContext
-;
-bool
-mCanDetach
 ;
 RefPtr
 <
