@@ -1287,12 +1287,15 @@ js_null_str
 JOF_BYTE
 )
 \
+\
 macro
 (
-JSOP_UNUSED65
+JSOP_IS_CONSTRUCTING
 65
 "
-unused65
+is
+-
+constructing
 "
 NULL
 1

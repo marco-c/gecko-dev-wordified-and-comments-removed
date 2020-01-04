@@ -1144,6 +1144,11 @@ _
 (
 JSOP_JUMPTARGET
 )
+\
+_
+(
+JSOP_IS_CONSTRUCTING
+)
 class
 BaselineCompiler
 :
