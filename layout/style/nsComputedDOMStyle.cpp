@@ -21946,12 +21946,15 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
+uint8_t
+(
 StyleUserInterface
 (
 )
 -
 >
 mUserFocus
+)
 nsCSSProps
 :
 :

@@ -14002,7 +14002,10 @@ uiData
 mUserFocus
 =
 =
-NS_STYLE_USER_FOCUS_NORMAL
+StyleUserFocus
+:
+:
+Normal
 )
 {
 if

@@ -40527,7 +40527,10 @@ ui
 mUserFocus
 !
 =
-NS_STYLE_USER_FOCUS_IGNORE
+StyleUserFocus
+:
+:
+Ignore
 &
 &
 ui
@@ -40536,7 +40539,10 @@ ui
 mUserFocus
 !
 =
-NS_STYLE_USER_FOCUS_NONE
+StyleUserFocus
+:
+:
+None_
 )
 {
 tabIndex

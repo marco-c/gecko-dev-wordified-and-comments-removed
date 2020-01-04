@@ -12272,7 +12272,10 @@ mUserInput
 uint8_t
 mUserModify
 ;
-uint8_t
+mozilla
+:
+:
+StyleUserFocus
 mUserFocus
 ;
 uint8_t

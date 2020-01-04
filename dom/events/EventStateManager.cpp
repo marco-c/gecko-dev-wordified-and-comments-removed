@@ -12722,7 +12722,10 @@ ui
 mUserFocus
 =
 =
-NS_STYLE_USER_FOCUS_IGNORE
+StyleUserFocus
+:
+:
+Ignore
 )
 ;
 if
