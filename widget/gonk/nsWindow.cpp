@@ -3567,11 +3567,11 @@ return
 LOCAL_GL_NONE
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 nsWindow
 :
 :
-GetNaturalBoundsUntyped
+GetNaturalBounds
 (
 )
 {
@@ -3580,10 +3580,6 @@ mScreen
 -
 >
 GetNaturalBounds
-(
-)
-.
-ToUnknownRect
 (
 )
 ;

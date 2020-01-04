@@ -503,8 +503,11 @@ GetGLFrameBufferFormat
 override
 ;
 virtual
-nsIntRect
-GetNaturalBoundsUntyped
+mozilla
+:
+:
+LayoutDeviceIntRect
+GetNaturalBounds
 (
 )
 override
