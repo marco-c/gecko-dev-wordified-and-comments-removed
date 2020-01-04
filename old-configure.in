@@ -14272,6 +14272,11 @@ _SAVE_LDFLAGS
 "
 LDFLAGS
 "
+_SAVE_LIBS
+=
+"
+LIBS
+"
 LDFLAGS
 =
 "
@@ -14725,6 +14730,11 @@ LDFLAGS
 =
 "
 _SAVE_LDFLAGS
+"
+LIBS
+=
+"
+_SAVE_LIBS
 "
 fi
 #
