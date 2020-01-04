@@ -611,3 +611,15 @@ busyTimeout
 10000
 )
 ;
+pref
+(
+"
+devtools
+.
+webide
+.
+autosaveFiles
+"
+true
+)
+;
