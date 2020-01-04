@@ -17109,7 +17109,12 @@ TouchBlockState
 *
 block
 =
-CurrentTouchBlock
+CurrentInputBlock
+(
+)
+-
+>
+AsTouchBlock
 (
 )
 )
