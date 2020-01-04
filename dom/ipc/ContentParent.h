@@ -4539,6 +4539,13 @@ aPrincipal
 )
 override
 ;
+virtual
+bool
+RecvNotifyLowMemory
+(
+)
+override
+;
 GeckoChildProcessHost
 *
 mSubprocess
