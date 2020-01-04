@@ -444,6 +444,7 @@ SUBTLECRYPTO_METHOD_BODY
 (
 ImportKey
 aRv
+mParent
 cx
 format
 keyData
@@ -562,6 +563,7 @@ SUBTLECRYPTO_METHOD_BODY
 (
 DeriveKey
 aRv
+mParent
 cx
 algorithm
 baseKey
@@ -697,6 +699,7 @@ SUBTLECRYPTO_METHOD_BODY
 (
 UnwrapKey
 aRv
+mParent
 cx
 format
 wrappedKey
