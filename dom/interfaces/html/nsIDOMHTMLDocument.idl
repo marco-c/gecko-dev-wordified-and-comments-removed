@@ -223,17 +223,6 @@ DOMString
 elementName
 )
 ;
-nsIDOMNodeList
-getItems
-(
-[
-optional
-]
-in
-DOMString
-types
-)
-;
 /
 /
 If

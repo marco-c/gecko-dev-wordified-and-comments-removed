@@ -196,11 +196,6 @@ EXPORTS
 =
 [
 '
-HTMLPropertiesCollection
-.
-h
-'
-'
 nsFormSubmission
 .
 h
@@ -876,11 +871,6 @@ cpp
 '
 '
 HTMLProgressElement
-.
-cpp
-'
-'
-HTMLPropertiesCollection
 .
 cpp
 '
