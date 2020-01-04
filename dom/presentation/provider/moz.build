@@ -105,6 +105,11 @@ UNIFIED_SOURCES
 =
 [
 '
+DeviceProviderHelpers
+.
+cpp
+'
+'
 DisplayDeviceProvider
 .
 cpp
