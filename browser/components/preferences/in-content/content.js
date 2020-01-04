@@ -720,6 +720,8 @@ yes
 params
 )
 ;
+try
+{
 Services
 .
 telemetry
@@ -735,6 +737,13 @@ add
 (
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 }
 showPopupExceptions
 :
