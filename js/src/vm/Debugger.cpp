@@ -6219,8 +6219,6 @@ ac
 MutableHandleValue
 *
 vp
-bool
-callHook
 const
 Maybe
 <
@@ -6273,9 +6271,6 @@ isExceptionPending
 {
 if
 (
-callHook
-&
-&
 uncaughtExceptionHook
 )
 {
@@ -6406,8 +6401,6 @@ AutoCompartment
 ac
 MutableHandleValue
 vp
-bool
-callHook
 const
 Maybe
 <
@@ -6425,7 +6418,6 @@ handleUncaughtExceptionHelper
 ac
 &
 vp
-callHook
 thisVForCheck
 frame
 )
@@ -6443,8 +6435,6 @@ AutoCompartment
 >
 &
 ac
-bool
-callHook
 )
 {
 return
@@ -6452,7 +6442,6 @@ handleUncaughtExceptionHelper
 (
 ac
 nullptr
-callHook
 mozilla
 :
 :
@@ -7356,7 +7345,6 @@ handleUncaughtException
 (
 ac
 vp
-true
 thisVForCheck
 frame
 )
@@ -7414,7 +7402,6 @@ handleUncaughtException
 (
 ac
 vp
-true
 thisVForCheck
 frame
 )
@@ -8422,7 +8409,6 @@ rv
 handleUncaughtException
 (
 ac
-true
 )
 ;
 }
@@ -8587,7 +8573,6 @@ rv
 handleUncaughtException
 (
 ac
-true
 )
 ;
 }
@@ -10034,7 +10019,6 @@ handleUncaughtException
 (
 ac
 vp
-true
 )
 ;
 MOZ_ASSERT
@@ -10953,7 +10937,6 @@ handleUncaughtException
 (
 ac
 vp
-true
 )
 ;
 MOZ_ASSERT
