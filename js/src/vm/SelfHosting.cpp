@@ -2736,7 +2736,7 @@ obj
 GlobalObject
 :
 :
-getOrCreateLegacyIteratorPrototype
+getOrCreateIteratorPrototype
 (
 cx
 cx
@@ -3152,7 +3152,7 @@ cx
 GlobalObject
 :
 :
-getOrCreateLegacyIteratorPrototype
+getOrCreateIteratorPrototype
 (
 cx
 cx

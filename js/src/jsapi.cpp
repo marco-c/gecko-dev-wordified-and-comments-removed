@@ -5562,7 +5562,7 @@ return
 GlobalObject
 :
 :
-getOrCreateLegacyIteratorPrototype
+getOrCreateIteratorPrototype
 (
 cx
 global

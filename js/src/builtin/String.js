@@ -766,15 +766,6 @@ iterator
 ;
 }
 function
-StringIteratorIdentity
-(
-)
-{
-return
-this
-;
-}
-function
 StringIteratorNext
 (
 )

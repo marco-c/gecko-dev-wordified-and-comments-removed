@@ -42,7 +42,7 @@ assertEq
 iter
 instanceof
 Iterator
-true
+false
 )
 ;
 assertEq
