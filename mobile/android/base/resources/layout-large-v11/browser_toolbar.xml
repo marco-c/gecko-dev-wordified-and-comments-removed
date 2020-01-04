@@ -383,6 +383,8 @@ style
 UrlBar
 .
 ImageButton
+.
+BrowserToolbarColors
 "
 android
 :
@@ -544,6 +546,8 @@ style
 UrlBar
 .
 ImageButton
+.
+BrowserToolbarColors
 "
 android
 :
@@ -1099,6 +1103,8 @@ style
 UrlBar
 .
 ImageButton
+.
+BrowserToolbarColors
 "
 android
 :
