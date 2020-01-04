@@ -3117,15 +3117,6 @@ GetWindowProviderForContentProcess
 )
 ;
 static
-already_AddRefed
-<
-nsPIDOMWindow
->
-GetMostRecentNonPBWindow
-(
-)
-;
-static
 void
 WarnScriptWasIgnored
 (
