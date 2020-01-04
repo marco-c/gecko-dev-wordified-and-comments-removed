@@ -216,7 +216,7 @@ synthesizeMouse
 editor
 .
 input
-2
+1
 1
 {
 }
@@ -293,7 +293,7 @@ synthesizeMouse
 editor
 .
 input
-2
+1
 1
 {
 clickCount
