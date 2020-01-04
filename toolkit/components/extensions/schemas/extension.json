@@ -826,6 +826,13 @@ checkbox
 .
 "
 "
+async
+"
+:
+"
+callback
+"
+"
 parameters
 "
 :
@@ -948,6 +955,13 @@ URLs
 '
 checkbox
 .
+"
+"
+async
+"
+:
+"
+callback
 "
 "
 parameters

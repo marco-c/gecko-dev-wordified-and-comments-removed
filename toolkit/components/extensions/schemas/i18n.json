@@ -325,6 +325,13 @@ getUILanguage
 .
 "
 "
+async
+"
+:
+"
+callback
+"
+"
 parameters
 "
 :
@@ -751,6 +758,13 @@ text
 using
 CLD
 .
+"
+"
+async
+"
+:
+"
+callback
 "
 "
 parameters

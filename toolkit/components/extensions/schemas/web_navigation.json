@@ -377,6 +377,13 @@ ID
 .
 "
 "
+async
+"
+:
+"
+callback
+"
+"
 parameters
 "
 :
@@ -775,6 +782,13 @@ a
 given
 tab
 .
+"
+"
+async
+"
+:
+"
+callback
 "
 "
 parameters

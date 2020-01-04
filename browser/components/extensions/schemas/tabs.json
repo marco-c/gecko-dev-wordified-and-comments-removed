@@ -6779,6 +6779,13 @@ doc
 .
 "
 "
+async
+"
+:
+"
+callback
+"
+"
 parameters
 "
 :
@@ -7013,6 +7020,13 @@ content
 scripts
 doc
 .
+"
+"
+async
+"
+:
+"
+callback
 "
 "
 parameters
