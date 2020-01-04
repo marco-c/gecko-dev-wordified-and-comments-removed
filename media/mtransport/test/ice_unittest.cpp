@@ -7750,7 +7750,7 @@ res
 ;
 }
 class
-IceGatherTest
+WebRtcIceGatherTest
 :
 public
 StunTest
@@ -8712,14 +8712,14 @@ peer_
 }
 ;
 class
-IceConnectTest
+WebRtcIceConnectTest
 :
 public
 StunTest
 {
 public
 :
-IceConnectTest
+WebRtcIceConnectTest
 (
 )
 :
@@ -9914,7 +9914,7 @@ WrapRunnable
 (
 this
 &
-IceConnectTest
+WebRtcIceConnectTest
 :
 :
 CloseP1
@@ -10060,14 +10060,14 @@ block_udp_
 }
 ;
 class
-PrioritizerTest
+WebRtcIcePrioritizerTest
 :
 public
 StunTest
 {
 public
 :
-PrioritizerTest
+WebRtcIcePrioritizerTest
 (
 )
 :
@@ -10078,7 +10078,7 @@ nullptr
 {
 }
 ~
-PrioritizerTest
+WebRtcIcePrioritizerTest
 (
 )
 {
@@ -10370,14 +10370,14 @@ prioritizer_
 }
 ;
 class
-PacketFilterTest
+WebRtcIcePacketFilterTest
 :
 public
 StunTest
 {
 public
 :
-PacketFilterTest
+WebRtcIcePacketFilterTest
 (
 )
 :
@@ -10454,7 +10454,7 @@ WrapRunnable
 (
 this
 &
-PacketFilterTest
+WebRtcIcePacketFilterTest
 :
 :
 TearDown_s
@@ -10700,7 +10700,7 @@ ice_ctx_
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestGatherFakeStunServerHostnameNoResolver
 )
 {
@@ -10736,7 +10736,7 @@ Gather
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestGatherFakeStunServerTcpHostnameNoResolver
 )
 {
@@ -10787,7 +10787,7 @@ TCP
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestGatherFakeStunServerIpAddress
 )
 {
@@ -10832,7 +10832,7 @@ Gather
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestGatherStunServerIpAddressDefaultRouteOnly
 )
 {
@@ -10910,7 +10910,7 @@ host
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestGatherFakeStunServerHostname
 )
 {
@@ -10955,7 +10955,7 @@ Gather
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestGatherFakeStunBogusHostname
 )
 {
@@ -10988,7 +10988,7 @@ Gather
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestGatherDNSStunServerIpAddress
 )
 {
@@ -11055,7 +11055,7 @@ raddr
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestGatherDNSStunServerIpAddressTcp
 )
 {
@@ -11171,7 +11171,7 @@ active
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestGatherDNSStunServerHostname
 )
 {
@@ -11238,7 +11238,7 @@ raddr
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestGatherDNSStunServerHostnameTcp
 )
 {
@@ -11342,7 +11342,7 @@ active
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestGatherDNSStunServerHostnameBothUdpTcp
 )
 {
@@ -11450,7 +11450,7 @@ TCP
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestGatherDNSStunServerIpAddressBothUdpTcp
 )
 {
@@ -11558,7 +11558,7 @@ TCP
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestGatherDNSStunBogusHostname
 )
 {
@@ -11600,7 +11600,7 @@ UDP
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestGatherDNSStunBogusHostnameTcp
 )
 {
@@ -11646,7 +11646,7 @@ TCP
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestDefaultCandidate
 )
 {
@@ -11689,7 +11689,7 @@ default_candidate
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestGatherTurn
 )
 {
@@ -11726,7 +11726,7 @@ Gather
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestGatherTurnTcp
 )
 {
@@ -11763,7 +11763,7 @@ Gather
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestGatherDisableComponent
 )
 {
@@ -11892,7 +11892,7 @@ sp1
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestGatherVerifyNoLoopback
 )
 {
@@ -11920,7 +11920,7 @@ StreamHasMatchingCandidate
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestGatherAllowLoopback
 )
 {
@@ -11971,7 +11971,7 @@ StreamHasMatchingCandidate
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestGatherTcpDisabled
 )
 {
@@ -12028,7 +12028,7 @@ UDP
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestBogusCandidate
 )
 {
@@ -12048,7 +12048,7 @@ kBogusIceCandidate
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 VerifyTestStunServer
 )
 {
@@ -12091,7 +12091,7 @@ StreamHasMatchingCandidate
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 VerifyTestStunTcpServer
 )
 {
@@ -12139,7 +12139,7 @@ tcptype
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 VerifyTestStunServerV6
 )
 {
@@ -12189,7 +12189,7 @@ beef
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 VerifyTestStunServerFQDN
 )
 {
@@ -12239,7 +12239,7 @@ StreamHasMatchingCandidate
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 VerifyTestStunServerV6FQDN
 )
 {
@@ -12296,7 +12296,7 @@ beef
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestStunServerReturnsWildcardAddr
 )
 {
@@ -12341,7 +12341,7 @@ StreamHasMatchingCandidate
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestStunServerReturnsWildcardAddrV6
 )
 {
@@ -12391,7 +12391,7 @@ StreamHasMatchingCandidate
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestStunServerReturnsPort0
 )
 {
@@ -12437,7 +12437,7 @@ StreamHasMatchingCandidate
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestStunServerReturnsLoopbackAddr
 )
 {
@@ -12482,7 +12482,7 @@ StreamHasMatchingCandidate
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestStunServerReturnsLoopbackAddrV6
 )
 {
@@ -12534,7 +12534,7 @@ StreamHasMatchingCandidate
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestStunServerTrickle
 )
 {
@@ -12612,7 +12612,7 @@ StreamHasMatchingCandidate
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestFakeStunServerNatedDefaultRouteOnly
 )
 {
@@ -12731,7 +12731,7 @@ type
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestFakeStunServerNoNatDefaultRouteOnly
 )
 {
@@ -12804,7 +12804,7 @@ srflx
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestStunTcpServerTrickle
 )
 {
@@ -12888,7 +12888,7 @@ tcptype
 }
 TEST_F
 (
-IceGatherTest
+WebRtcIceGatherTest
 TestStunTcpAndUdpServerTrickle
 )
 {
@@ -13036,7 +13036,7 @@ tcptype
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestGather
 )
 {
@@ -13058,7 +13058,7 @@ Gather
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestGatherTcp
 )
 {
@@ -13086,7 +13086,7 @@ Gather
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestGatherAutoPrioritize
 )
 {
@@ -13114,7 +13114,7 @@ Gather
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnect
 )
 {
@@ -13140,7 +13140,7 @@ Connect
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectTcp
 )
 {
@@ -13196,7 +13196,7 @@ Connect
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 DISABLED_TestConnectTcpSo
 )
 {
@@ -13252,7 +13252,7 @@ Connect
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 DISABLED_TestConnectDefaultRouteOnly
 )
 {
@@ -13304,7 +13304,7 @@ Connect
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestLoopbackOnlySortOf
 )
 {
@@ -13356,7 +13356,7 @@ Connect
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectBothControllingP1Wins
 )
 {
@@ -13420,7 +13420,7 @@ Connect
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectBothControllingP2Wins
 )
 {
@@ -13484,7 +13484,7 @@ Connect
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectIceLiteOfferer
 )
 {
@@ -13517,7 +13517,7 @@ Connect
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestTrickleBothControllingP1Wins
 )
 {
@@ -13612,7 +13612,7 @@ AssertCheckingReached
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestTrickleBothControllingP2Wins
 )
 {
@@ -13707,7 +13707,7 @@ AssertCheckingReached
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestTrickleIceLiteOfferer
 )
 {
@@ -13771,7 +13771,7 @@ AssertCheckingReached
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestGatherFullCone
 )
 {
@@ -13813,7 +13813,7 @@ Gather
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestGatherFullConeAutoPrioritize
 )
 {
@@ -13861,7 +13861,7 @@ Gather
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectFullCone
 )
 {
@@ -13925,7 +13925,7 @@ Connect
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectNoNatRouteOnly
 )
 {
@@ -13982,7 +13982,7 @@ Connect
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectFullConeDefaultRouteOnly
 )
 {
@@ -14053,7 +14053,7 @@ Connect
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestGatherAddressRestrictedCone
 )
 {
@@ -14095,7 +14095,7 @@ Gather
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectAddressRestrictedCone
 )
 {
@@ -14159,7 +14159,7 @@ Connect
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestGatherPortRestrictedCone
 )
 {
@@ -14201,7 +14201,7 @@ Gather
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectPortRestrictedCone
 )
 {
@@ -14265,7 +14265,7 @@ Connect
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestGatherSymmetricNat
 )
 {
@@ -14307,7 +14307,7 @@ Gather
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectSymmetricNat
 )
 {
@@ -14413,7 +14413,7 @@ Connect
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestGatherNatBlocksUDP
 )
 {
@@ -14528,7 +14528,7 @@ kDefaultTimeout
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectNatBlocksUDP
 )
 {
@@ -14691,7 +14691,7 @@ Connect
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectTwoComponents
 )
 {
@@ -14717,7 +14717,7 @@ Connect
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectTwoComponentsDisableSecond
 )
 {
@@ -14761,7 +14761,7 @@ Connect
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectP2ThenP1
 )
 {
@@ -14800,7 +14800,7 @@ WaitForComplete
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectP2ThenP1Trickle
 )
 {
@@ -14845,7 +14845,7 @@ WaitForComplete
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectP2ThenP1TrickleTwoComponents
 )
 {
@@ -14928,7 +14928,7 @@ WaitForComplete
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectAutoPrioritize
 )
 {
@@ -14960,7 +14960,7 @@ Connect
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectTrickleOneStreamOneComponent
 )
 {
@@ -15017,7 +15017,7 @@ AssertCheckingReached
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectTrickleTwoStreamsOneComponent
 )
 {
@@ -15578,7 +15578,7 @@ candidates
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectTrickleAddStreamDuringICE
 )
 {
@@ -15682,7 +15682,7 @@ AssertCheckingReached
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectTrickleAddStreamAfterICE
 )
 {
@@ -15819,7 +15819,7 @@ AssertCheckingReached
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 RemoveStream
 )
 {
@@ -15935,7 +15935,7 @@ ConnectTrickle
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 P1NoTrickle
 )
 {
@@ -16005,7 +16005,7 @@ ice_complete
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 P2NoTrickle
 )
 {
@@ -16075,7 +16075,7 @@ ice_complete
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 RemoveAndAddStream
 )
 {
@@ -16243,7 +16243,7 @@ ice_complete
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 RemoveStreamBeforeGather
 )
 {
@@ -16331,7 +16331,7 @@ ice_complete
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 RemoveStreamDuringGather
 )
 {
@@ -16414,7 +16414,7 @@ ice_complete
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 RemoveStreamDuringConnect
 )
 {
@@ -16519,7 +16519,7 @@ ice_complete
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectRealTrickleOneStreamOneComponent
 )
 {
@@ -16585,7 +16585,7 @@ AssertCheckingReached
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestSendReceive
 )
 {
@@ -16615,7 +16615,7 @@ SendReceive
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestSendReceiveTcp
 )
 {
@@ -16675,7 +16675,7 @@ SendReceive
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 DISABLED_TestSendReceiveTcpSo
 )
 {
@@ -16735,7 +16735,7 @@ SendReceive
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectTurn
 )
 {
@@ -16779,7 +16779,7 @@ Connect
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectTurnWithDelay
 )
 {
@@ -16849,7 +16849,7 @@ WaitForComplete
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectTurnWithNormalTrickleDelay
 )
 {
@@ -16941,7 +16941,7 @@ AssertCheckingReached
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectTurnWithNormalTrickleDelayOneSided
 )
 {
@@ -17030,7 +17030,7 @@ AssertCheckingReached
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectTurnWithLargeTrickleDelay
 )
 {
@@ -17129,7 +17129,7 @@ AssertCheckingReached
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectTurnTcp
 )
 {
@@ -17174,7 +17174,7 @@ Connect
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectTurnOnly
 )
 {
@@ -17241,7 +17241,7 @@ Connect
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectTurnTcpOnly
 )
 {
@@ -17310,7 +17310,7 @@ Connect
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestSendReceiveTurnOnly
 )
 {
@@ -17381,7 +17381,7 @@ SendReceive
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestSendReceiveTurnTcpOnly
 )
 {
@@ -17454,7 +17454,7 @@ SendReceive
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestSendReceiveTurnBothOnly
 )
 {
@@ -17590,7 +17590,7 @@ SendReceive
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestConnectShutdownOneSide
 )
 {
@@ -17616,7 +17616,7 @@ ConnectThenDelete
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestPollCandPairsBeforeConnect
 )
 {
@@ -17704,7 +17704,7 @@ size
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestPollCandPairsAfterConnect
 )
 {
@@ -17840,7 +17840,7 @@ pairs
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestHostCandPairingFilter
 )
 {
@@ -18075,7 +18075,7 @@ host_net
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestSrflxCandPairingFilter
 )
 {
@@ -18424,7 +18424,7 @@ addr
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestPollCandPairsDuringConnect
 )
 {
@@ -18586,7 +18586,7 @@ pairs2
 }
 TEST_F
 (
-IceConnectTest
+WebRtcIceConnectTest
 TestRLogRingBuffer
 )
 {
@@ -18920,7 +18920,7 @@ size
 }
 TEST_F
 (
-PrioritizerTest
+WebRtcIcePrioritizerTest
 TestPrioritizer
 )
 {
@@ -19163,7 +19163,7 @@ HasLowerPreference
 }
 TEST_F
 (
-PacketFilterTest
+WebRtcIcePacketFilterTest
 TestSendNonStunPacket
 )
 {
@@ -19193,7 +19193,7 @@ false
 }
 TEST_F
 (
-PacketFilterTest
+WebRtcIcePacketFilterTest
 TestRecvNonStunPacket
 )
 {
@@ -19223,7 +19223,7 @@ false
 }
 TEST_F
 (
-PacketFilterTest
+WebRtcIcePacketFilterTest
 TestSendStunPacket
 )
 {
@@ -19288,7 +19288,7 @@ msg
 }
 TEST_F
 (
-PacketFilterTest
+WebRtcIcePacketFilterTest
 TestRecvStunPacketWithoutAPendingId
 )
 {
@@ -19414,7 +19414,7 @@ msg
 }
 TEST_F
 (
-PacketFilterTest
+WebRtcIcePacketFilterTest
 TestRecvStunPacketWithoutAPendingAddress
 )
 {
@@ -19527,7 +19527,7 @@ msg
 }
 TEST_F
 (
-PacketFilterTest
+WebRtcIcePacketFilterTest
 TestRecvStunPacketWithPendingIdAndAddress
 )
 {
@@ -19756,7 +19756,7 @@ msg
 }
 TEST_F
 (
-PacketFilterTest
+WebRtcIcePacketFilterTest
 TestSendNonRequestStunPacket
 )
 {
@@ -19920,7 +19920,7 @@ msg
 }
 TEST
 (
-InternalsTest
+WebRtcIceInternalsTest
 TestAddBogusAttribute
 )
 {
