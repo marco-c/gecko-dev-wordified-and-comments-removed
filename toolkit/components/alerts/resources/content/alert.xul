@@ -318,6 +318,11 @@ class
 alertTitle
 plain
 "
+crop
+=
+"
+end
+"
 /
 >
 <
