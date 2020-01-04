@@ -702,7 +702,7 @@ aContent
 ;
 static
 bool
-GetDisplayPortForVisibilityTesting
+GetDisplayPortRelativeToScrollFrameForVisibilityTesting
 (
 nsIContent
 *
@@ -710,8 +710,6 @@ aContent
 nsRect
 *
 aResult
-=
-nullptr
 )
 ;
 enum
