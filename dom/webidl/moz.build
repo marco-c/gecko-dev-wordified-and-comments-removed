@@ -1420,6 +1420,11 @@ KeyEvent
 webidl
 '
 '
+Keyframe
+.
+webidl
+'
+'
 KeyframeEffect
 .
 webidl
