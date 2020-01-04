@@ -2508,6 +2508,9 @@ armed
 %
 p
 )
+%
+s
+connected
 "
 sock
 -
@@ -2535,6 +2538,17 @@ sock
 -
 >
 pending
+sock
+-
+>
+connected
+?
+"
+"
+:
+"
+not
+"
 )
 ;
 }
