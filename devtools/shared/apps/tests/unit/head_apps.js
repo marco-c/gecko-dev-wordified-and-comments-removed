@@ -494,12 +494,6 @@ jsm
 '
 )
 ;
-DOMApplicationRegistry
-.
-allAppsLaunchable
-=
-true
-;
 let
 {
 WebappsActor

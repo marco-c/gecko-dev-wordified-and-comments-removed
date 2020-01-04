@@ -196,13 +196,6 @@ waitForExplicitFinish
 (
 )
 ;
-SpecialPowers
-.
-setAllAppsLaunchable
-(
-true
-)
-;
 function
 runTests
 (
