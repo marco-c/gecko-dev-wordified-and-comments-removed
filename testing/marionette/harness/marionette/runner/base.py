@@ -3054,6 +3054,11 @@ if
 prefs_args
 :
             
+misformatted
+=
+[
+]
+            
 for
 pref
 in
@@ -3067,8 +3072,16 @@ in
 pref
 :
                     
-continue
+misformatted
+.
+append
+(
+pref
+)
                 
+else
+:
+                    
 cli_prefs
 .
 append
@@ -3079,6 +3092,47 @@ split
 (
 separator
 1
+)
+)
+            
+if
+misformatted
+:
+                
+self
+.
+_print_message
+(
+"
+Warning
+:
+Ignoring
+preferences
+not
+in
+key
+{
+}
+value
+format
+:
+{
+}
+\
+n
+"
+                                    
+.
+format
+(
+separator
+"
+"
+.
+join
+(
+misformatted
+)
 )
 )
         
