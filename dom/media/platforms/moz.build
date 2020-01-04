@@ -126,6 +126,11 @@ VPXDecoder
 h
 '
 '
+PDMFactory
+.
+h
+'
+'
 PlatformDecoderModule
 .
 h

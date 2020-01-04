@@ -18,6 +18,13 @@ h
 #
 include
 "
+PDMFactory
+.
+h
+"
+#
+include
+"
 gmp
 -
 decryption
@@ -45,7 +52,7 @@ EMEDecoderModule
 CDMProxy
 *
 aProxy
-PlatformDecoderModule
+PDMFactory
 *
 aPDM
 bool
@@ -60,6 +67,8 @@ EMEDecoderModule
 (
 )
 ;
+protected
+:
 already_AddRefed
 <
 MediaDataDecoder
@@ -179,7 +188,7 @@ mProxy
 ;
 nsRefPtr
 <
-PlatformDecoderModule
+PDMFactory
 >
 mPDM
 ;
