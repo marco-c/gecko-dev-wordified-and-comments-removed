@@ -5782,6 +5782,9 @@ expert_bad_cert
 false
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 pref
 (
 "
@@ -5798,6 +5801,8 @@ enabled
 true
 )
 ;
+#
+endif
 pref
 (
 "
