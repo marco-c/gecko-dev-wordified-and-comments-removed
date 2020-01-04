@@ -6288,6 +6288,15 @@ all
 <
 !
 ENTITY
+home_restore_all
+"
+Restore
+all
+"
+>
+<
+!
+ENTITY
 home_closed_tabs_number
 "
 &

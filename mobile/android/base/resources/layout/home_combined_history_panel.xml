@@ -379,7 +379,7 @@ id
 +
 id
 /
-clear_history_button
+history_panel_footer_button
 "
 style
 =
@@ -391,15 +391,6 @@ Widget
 Home
 .
 ActionButton
-"
-android
-:
-text
-=
-"
-string
-/
-home_clear_history_button
 "
 android
 :
