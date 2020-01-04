@@ -124,6 +124,9 @@ const
 nsStyleFilter
 &
 aFilter
+nsIFrame
+*
+aTargetFrame
 nsIContent
 *
 aTargetContent
@@ -277,6 +280,9 @@ nsSVGFilterFrame
 *
 GetFilterFrame
 (
+nsIFrame
+*
+aTargetFrame
 )
 ;
 IntRect

@@ -472,6 +472,9 @@ nsStyleFilter
 >
 &
 aFilterChain
+nsIFrame
+*
+aTargetFrame
 )
 ;
 nsresult
@@ -481,6 +484,9 @@ const
 nsStyleFilter
 &
 aFilter
+nsIFrame
+*
+aTargetFrame
 )
 ;
 void
