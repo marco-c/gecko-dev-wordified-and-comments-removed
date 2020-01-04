@@ -14623,6 +14623,9 @@ gfxUtils
 :
 sDumpPaintFile
 "
+<
+script
+>
 array
 [
 \
@@ -14665,6 +14668,12 @@ sDumpPaintFile
 \
 "
 ;
+<
+/
+script
+>
+\
+n
 "
 )
 ;
