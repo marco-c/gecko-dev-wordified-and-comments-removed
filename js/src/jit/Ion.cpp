@@ -8026,16 +8026,10 @@ logger
 TraceLogger_RenumberBlocks
 )
 ;
-if
-(
-!
 RenumberBlocks
 (
 graph
 )
-)
-return
-false
 ;
 gs
 .
