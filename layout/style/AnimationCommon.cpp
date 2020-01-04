@@ -3625,16 +3625,6 @@ MostRecentRefresh
 if
 (
 !
-CanPerformOnCompositorThread
-(
-CanAnimateFlags
-(
-0
-)
-)
-|
-|
-!
 CanThrottleAnimation
 (
 now
