@@ -3287,7 +3287,9 @@ ScheduleSegmentParserLoop
 self
 ]
 (
-nsresult
+const
+MediaResult
+&
 aRejectValue
 )
 {
@@ -3405,7 +3407,9 @@ TrackBuffersManager
 :
 RejectAppend
 (
-nsresult
+const
+MediaResult
+&
 aRejectValue
 const
 char
@@ -3419,9 +3423,13 @@ MSE_DEBUG
 rv
 =
 %
-d
+u
 "
 aRejectValue
+.
+Code
+(
+)
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
@@ -6008,7 +6016,9 @@ TrackBuffersManager
 :
 RejectProcessing
 (
-nsresult
+const
+MediaResult
+&
 aRejectValue
 const
 char
