@@ -4176,7 +4176,7 @@ false
 ;
 DECL_GFX_PREF
 (
-Once
+Live
 "
 webgl
 .
