@@ -2686,6 +2686,8 @@ void
 testWithNotEnoughSpaceForTemporaryFile
 (
 )
+throws
+Exception
 {
 DownloadContent
 content
@@ -2740,6 +2742,8 @@ void
 testWithNotEnoughSpaceForDestinationFile
 (
 )
+throws
+Exception
 {
 DownloadContent
 content
@@ -2794,6 +2798,8 @@ void
 testWithEnoughSpaceForEverything
 (
 )
+throws
+Exception
 {
 DownloadContent
 content
