@@ -367,6 +367,13 @@ h
 "
 #
 include
+"
+nsRubyTextContainerFrame
+.
+h
+"
+#
+include
 <
 algorithm
 >
