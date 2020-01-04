@@ -653,7 +653,7 @@ caption
 label
 >
 &
-passwords
+logins
 .
 label
 ;
@@ -684,7 +684,7 @@ label
 =
 "
 &
-rememberPasswords
+rememberLogins
 .
 label
 ;
@@ -693,7 +693,7 @@ accesskey
 =
 "
 &
-rememberPasswords
+rememberLogins
 .
 accesskey
 ;
@@ -920,7 +920,7 @@ label
 =
 "
 &
-savedPasswords
+savedLogins
 .
 label
 ;
@@ -929,7 +929,7 @@ accesskey
 =
 "
 &
-savedPasswords
+savedLogins
 .
 accesskey
 ;
