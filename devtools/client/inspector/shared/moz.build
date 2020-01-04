@@ -96,6 +96,15 @@ MPL
 DevToolsModules
 (
 '
+dom
+-
+node
+-
+preview
+.
+js
+'
+'
 style
 -
 inspector

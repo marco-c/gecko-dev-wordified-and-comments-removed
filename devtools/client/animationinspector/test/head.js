@@ -1528,6 +1528,8 @@ if
 !
 t
 .
+previewer
+.
 nodeFront
 )
 {

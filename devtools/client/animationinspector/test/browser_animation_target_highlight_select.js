@@ -115,6 +115,8 @@ highlightingEl
 =
 targetNodeComponent
 .
+previewer
+.
 previewEl
 ;
 info
@@ -213,6 +215,8 @@ fired
 is
 (
 targetNodeComponent
+.
+previewer
 .
 nodeFront
 nodeFront
@@ -413,6 +417,8 @@ nodeEl
 =
 targetNodeComponent
 .
+previewer
+.
 previewEl
 ;
 EventUtils
@@ -445,6 +451,8 @@ selection
 .
 nodeFront
 targetNodeComponent
+.
+previewer
 .
 nodeFront
 "

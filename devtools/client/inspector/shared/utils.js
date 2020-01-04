@@ -5,7 +5,6 @@ strict
 ;
 const
 {
-Cc
 Ci
 Cu
 }

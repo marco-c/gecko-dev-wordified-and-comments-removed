@@ -71,10 +71,17 @@ targetNodes
 0
 ]
 ;
+let
+{
+previewer
+}
+=
+targetNodeComponent
+;
 if
 (
 !
-targetNodeComponent
+previewer
 .
 nodeFront
 )
@@ -94,7 +101,7 @@ retrieved
 }
 is
 (
-targetNodeComponent
+previewer
 .
 el
 .
@@ -122,7 +129,7 @@ correct
 let
 highlighterEl
 =
-targetNodeComponent
+previewer
 .
 el
 .
