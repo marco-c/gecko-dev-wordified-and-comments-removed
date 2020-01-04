@@ -149,7 +149,7 @@ errorCallback
 void
 moveTo
 (
-DirectoryEntry
+FileSystemDirectoryEntry
 parent
 optional
 DOMString
@@ -167,7 +167,7 @@ errorCallback
 void
 copyTo
 (
-DirectoryEntry
+FileSystemDirectoryEntry
 parent
 optional
 DOMString
@@ -257,7 +257,7 @@ handleEvent
 NoInterfaceObject
 ]
 interface
-DirectoryEntry
+FileSystemDirectoryEntry
 :
 FileSystemEntry
 {
@@ -503,7 +503,7 @@ name
 ;
 readonly
 attribute
-DirectoryEntry
+FileSystemDirectoryEntry
 root
 ;
 }

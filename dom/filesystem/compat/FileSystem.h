@@ -57,7 +57,7 @@ namespace
 dom
 {
 class
-DirectoryEntry
+FileSystemDirectoryEntry
 ;
 class
 FileSystemEntry
@@ -138,7 +138,7 @@ aName
 mName
 ;
 }
-DirectoryEntry
+FileSystemDirectoryEntry
 *
 Root
 (
@@ -191,7 +191,7 @@ mParent
 ;
 RefPtr
 <
-DirectoryEntry
+FileSystemDirectoryEntry
 >
 mRoot
 ;

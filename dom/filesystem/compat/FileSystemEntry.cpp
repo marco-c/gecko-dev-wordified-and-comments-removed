@@ -8,7 +8,7 @@ h
 #
 include
 "
-DirectoryEntry
+FileSystemDirectoryEntry
 .
 h
 "
@@ -135,7 +135,7 @@ IsDirectory
 entry
 =
 new
-DirectoryEntry
+FileSystemDirectoryEntry
 (
 aGlobalObject
 aFileOrDirectory

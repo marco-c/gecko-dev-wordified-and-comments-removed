@@ -317,7 +317,7 @@ aSuccessCallback
 ErrorCallback
 *
 aErrorCallback
-DirectoryEntry
+FileSystemDirectoryEntry
 :
 :
 GetInternalType
@@ -435,7 +435,7 @@ if
 mType
 =
 =
-DirectoryEntry
+FileSystemDirectoryEntry
 :
 :
 eGetFile
@@ -499,7 +499,7 @@ MOZ_ASSERT
 mType
 =
 =
-DirectoryEntry
+FileSystemDirectoryEntry
 :
 :
 eGetDirectory
@@ -534,12 +534,12 @@ return
 }
 RefPtr
 <
-DirectoryEntry
+FileSystemDirectoryEntry
 >
 entry
 =
 new
-DirectoryEntry
+FileSystemDirectoryEntry
 (
 mGlobal
 directory

@@ -407,12 +407,12 @@ return
 }
 RefPtr
 <
-DirectoryEntry
+FileSystemDirectoryEntry
 >
 entry
 =
 new
-DirectoryEntry
+FileSystemDirectoryEntry
 (
 mGlobal
 directory

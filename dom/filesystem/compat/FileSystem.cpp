@@ -8,7 +8,7 @@ h
 #
 include
 "
-RootDirectoryEntry
+FileSystemRootDirectoryEntry
 .
 h
 "
@@ -259,7 +259,7 @@ mRoot
 mRoot
 =
 new
-RootDirectoryEntry
+FileSystemRootDirectoryEntry
 (
 mParent
 aEntries
