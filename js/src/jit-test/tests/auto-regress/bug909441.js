@@ -58,10 +58,6 @@ x
 "
 {
 \
-newContext
-:
-true
-\
 catchTermination
 :
 (

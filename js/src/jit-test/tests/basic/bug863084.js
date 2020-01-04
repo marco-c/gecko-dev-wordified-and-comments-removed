@@ -79,9 +79,6 @@ this
 global
 :
 z
-newContext
-:
-7
 catchTermination
 :
 this

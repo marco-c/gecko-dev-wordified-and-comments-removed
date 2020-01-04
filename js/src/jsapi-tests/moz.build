@@ -164,11 +164,6 @@ testCloneScript
 cpp
 '
 '
-testContexts
-.
-cpp
-'
-'
 testDateToLocaleString
 .
 cpp

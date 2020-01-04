@@ -29,11 +29,6 @@ evaluate
 '
 debugger
 '
-{
-newContext
-:
-true
-}
 )
 }
 "

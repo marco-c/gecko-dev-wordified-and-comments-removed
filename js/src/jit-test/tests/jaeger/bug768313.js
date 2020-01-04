@@ -18,11 +18,6 @@ f
 ;
 }
 '
-{
-newContext
-:
-true
-}
 )
 ;
 for
