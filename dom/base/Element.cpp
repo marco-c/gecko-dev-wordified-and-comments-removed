@@ -2426,6 +2426,10 @@ bindingURL
 -
 >
 mOriginPrincipal
+.
+get
+(
+)
 ;
 bool
 dummy
