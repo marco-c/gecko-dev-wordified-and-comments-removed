@@ -104,10 +104,9 @@ tmp
 mContext
 -
 >
-UpdateNodeCount
+UnregisterNode
 (
--
-1
+tmp
 )
 ;
 }
@@ -292,9 +291,9 @@ GetParentObject
 aContext
 -
 >
-UpdateNodeCount
+RegisterNode
 (
-1
+this
 )
 ;
 }
@@ -364,10 +363,9 @@ mContext
 mContext
 -
 >
-UpdateNodeCount
+UnregisterNode
 (
--
-1
+this
 )
 ;
 }
