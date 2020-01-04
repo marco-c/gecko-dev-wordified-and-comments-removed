@@ -2035,11 +2035,16 @@ parentIndex
 1
 )
 {
+#
+ifdef
+DEBUG
 setCheckEdges
 (
 false
 )
 ;
+#
+endif
 }
 bool
 CheckHeapTracer
