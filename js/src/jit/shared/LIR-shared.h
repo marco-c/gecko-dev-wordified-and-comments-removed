@@ -31969,7 +31969,7 @@ toAsmJSAtomicBinopHeap
 }
 ;
 class
-LWasmLoadGlobalVar
+LAsmJSLoadGlobalVar
 :
 public
 LInstructionHelper
@@ -31983,10 +31983,10 @@ public
 :
 LIR_HEADER
 (
-WasmLoadGlobalVar
+AsmJSLoadGlobalVar
 )
 ;
-MWasmLoadGlobalVar
+MAsmJSLoadGlobalVar
 *
 mir
 (
@@ -31997,7 +31997,7 @@ return
 mir_
 -
 >
-toWasmLoadGlobalVar
+toAsmJSLoadGlobalVar
 (
 )
 ;
@@ -32005,7 +32005,7 @@ toWasmLoadGlobalVar
 }
 ;
 class
-LWasmStoreGlobalVar
+LAsmJSStoreGlobalVar
 :
 public
 LInstructionHelper
@@ -32019,11 +32019,11 @@ public
 :
 LIR_HEADER
 (
-WasmStoreGlobalVar
+AsmJSStoreGlobalVar
 )
 ;
 explicit
-LWasmStoreGlobalVar
+LAsmJSStoreGlobalVar
 (
 const
 LAllocation
@@ -32038,7 +32038,7 @@ value
 )
 ;
 }
-MWasmStoreGlobalVar
+MAsmJSStoreGlobalVar
 *
 mir
 (
@@ -32049,7 +32049,7 @@ return
 mir_
 -
 >
-toWasmStoreGlobalVar
+toAsmJSStoreGlobalVar
 (
 )
 ;

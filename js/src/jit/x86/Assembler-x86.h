@@ -6412,10 +6412,7 @@ dest
 ;
 append
 (
-wasm
-:
-:
-GlobalAccess
+AsmJSGlobalAccess
 (
 label
 wasm

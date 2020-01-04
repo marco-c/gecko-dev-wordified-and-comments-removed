@@ -2395,9 +2395,9 @@ void
 CodeGeneratorARM64
 :
 :
-visitWasmLoadGlobalVar
+visitAsmJSLoadGlobalVar
 (
-LWasmLoadGlobalVar
+LAsmJSLoadGlobalVar
 *
 ins
 )
@@ -2405,7 +2405,7 @@ ins
 MOZ_CRASH
 (
 "
-visitWasmLoadGlobalVar
+visitAsmJSLoadGlobalVar
 "
 )
 ;
@@ -2414,9 +2414,9 @@ void
 CodeGeneratorARM64
 :
 :
-visitWasmStoreGlobalVar
+visitAsmJSStoreGlobalVar
 (
-LWasmStoreGlobalVar
+LAsmJSStoreGlobalVar
 *
 ins
 )
@@ -2424,7 +2424,7 @@ ins
 MOZ_CRASH
 (
 "
-visitWasmStoreGlobalVar
+visitAsmJSStoreGlobalVar
 "
 )
 ;

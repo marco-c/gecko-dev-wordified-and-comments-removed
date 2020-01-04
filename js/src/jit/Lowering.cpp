@@ -26613,9 +26613,9 @@ void
 LIRGenerator
 :
 :
-visitWasmLoadGlobalVar
+visitAsmJSLoadGlobalVar
 (
-MWasmLoadGlobalVar
+MAsmJSLoadGlobalVar
 *
 ins
 )
@@ -26628,7 +26628,7 @@ alloc
 (
 )
 )
-LWasmLoadGlobalVar
+LAsmJSLoadGlobalVar
 ins
 )
 ;
@@ -26637,9 +26637,9 @@ void
 LIRGenerator
 :
 :
-visitWasmStoreGlobalVar
+visitAsmJSStoreGlobalVar
 (
-MWasmStoreGlobalVar
+MAsmJSStoreGlobalVar
 *
 ins
 )
@@ -26652,7 +26652,7 @@ alloc
 (
 )
 )
-LWasmStoreGlobalVar
+LAsmJSStoreGlobalVar
 (
 useRegisterAtStart
 (

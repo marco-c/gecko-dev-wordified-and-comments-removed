@@ -873,13 +873,13 @@ case
 MDefinition
 :
 :
-Op_WasmLoadGlobalVar
+Op_AsmJSLoadGlobalVar
 :
 case
 MDefinition
 :
 :
-Op_WasmStoreGlobalVar
+Op_AsmJSStoreGlobalVar
 :
 case
 MDefinition
