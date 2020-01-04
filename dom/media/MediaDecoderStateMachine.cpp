@@ -11028,10 +11028,6 @@ StopPlayback
 )
 ;
 }
-MaybeStartPlayback
-(
-)
-;
 if
 (
 VideoQueue
@@ -11070,6 +11066,10 @@ IsFinished
 )
 )
 {
+MaybeStartPlayback
+(
+)
+;
 UpdateRenderedVideoFrames
 (
 )
