@@ -841,9 +841,11 @@ Object
 assign
 (
 {
-debug
+loglevel
 :
-true
+'
+all
+'
 serverURL
 :
 '
