@@ -368,7 +368,7 @@ GetReferenceBox
 )
 {
 case
-StyleClipShapeSizing
+StyleClipPathGeometryBox
 :
 :
 Content
@@ -385,7 +385,7 @@ GetContentRectRelativeToSelf
 break
 ;
 case
-StyleClipShapeSizing
+StyleClipPathGeometryBox
 :
 :
 Padding
@@ -402,7 +402,7 @@ GetPaddingRectRelativeToSelf
 break
 ;
 case
-StyleClipShapeSizing
+StyleClipPathGeometryBox
 :
 :
 Margin
