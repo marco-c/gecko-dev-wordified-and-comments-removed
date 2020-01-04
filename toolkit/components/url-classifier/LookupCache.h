@@ -346,11 +346,11 @@ Open
 )
 ;
 nsresult
-UpdateDirHandle
+UpdateRootDirHandle
 (
 nsIFile
 *
-aStoreDirectory
+aRootStoreDirectory
 )
 ;
 nsresult
@@ -473,6 +473,12 @@ mPrimed
 ;
 nsCString
 mTableName
+;
+nsCOMPtr
+<
+nsIFile
+>
+mRootStoreDirectory
 ;
 nsCOMPtr
 <
