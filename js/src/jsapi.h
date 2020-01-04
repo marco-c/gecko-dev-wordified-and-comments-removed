@@ -20602,9 +20602,9 @@ void
 )
 JS_AbortIfWrongThread
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 extern

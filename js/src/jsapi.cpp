@@ -30446,9 +30446,9 @@ void
 )
 JS_AbortIfWrongThread
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 {
 if
@@ -30456,7 +30456,7 @@ if
 !
 CurrentThreadCanAccessRuntime
 (
-rt
+cx
 )
 )
 MOZ_CRASH
@@ -30478,7 +30478,7 @@ get
 >
 associatedWith
 (
-rt
+cx
 )
 )
 MOZ_CRASH
