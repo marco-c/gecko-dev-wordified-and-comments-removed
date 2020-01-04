@@ -1800,10 +1800,7 @@ this
 nsresult
 OpenAudioInput
 (
-CubebUtils
-:
-:
-AudioDeviceID
+int
 aID
 AudioDataListener
 *
@@ -2924,10 +2921,7 @@ virtual
 nsresult
 OpenAudioInput
 (
-CubebUtils
-:
-:
-AudioDeviceID
+int
 aID
 AudioDataListener
 *
