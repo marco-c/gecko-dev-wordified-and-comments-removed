@@ -406,7 +406,7 @@ VRHMDSensorState
 aState
 )
 ;
-async
+sync
 SetHaveEventListener
 (
 bool
