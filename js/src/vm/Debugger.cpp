@@ -43662,6 +43662,11 @@ report
 errorNumber
 )
 ;
+if
+(
+efs
+)
+{
 RootedString
 str
 (
@@ -43708,9 +43713,11 @@ setString
 str
 )
 ;
+return
+true
+;
 }
-else
-{
+}
 args
 .
 rval
@@ -43721,7 +43728,6 @@ setUndefined
 (
 )
 ;
-}
 return
 true
 ;
