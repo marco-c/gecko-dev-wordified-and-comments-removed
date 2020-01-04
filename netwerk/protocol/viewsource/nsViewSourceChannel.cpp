@@ -302,7 +302,7 @@ nullptr
 nsILoadInfo
 :
 :
-SEC_REQUIRE_SAME_ORIGIN_DATA_IS_BLOCKED
+SEC_NORMAL
 nsIContentPolicy
 :
 :

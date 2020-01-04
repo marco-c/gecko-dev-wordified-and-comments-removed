@@ -514,7 +514,7 @@ securityFlags
 nsILoadInfo
 :
 :
-SEC_ALLOW_CROSS_ORIGIN_DATA_IS_NULL
+SEC_NORMAL
 ;
 policyType
 =
