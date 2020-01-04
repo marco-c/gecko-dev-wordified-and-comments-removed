@@ -286,9 +286,7 @@ document
 getElementById
 (
 "
-Tools
-:
-ResponsiveUI
+menu_responsiveUI
 "
 )
 .

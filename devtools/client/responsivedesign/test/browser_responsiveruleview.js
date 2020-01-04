@@ -563,9 +563,7 @@ document
 getElementById
 (
 "
-Tools
-:
-ResponsiveUI
+menu_responsiveUI
 "
 )
 .
@@ -600,9 +598,7 @@ document
 getElementById
 (
 "
-Tools
-:
-ResponsiveUI
+menu_responsiveUI
 "
 )
 .
