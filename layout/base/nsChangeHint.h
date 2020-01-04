@@ -195,6 +195,16 @@ nsChangeHint_UpdateBackgroundPosition
 <
 <
 26
+nsChangeHint_AllHints
+=
+(
+1
+<
+<
+27
+)
+-
+1
 }
 ;
 inline
