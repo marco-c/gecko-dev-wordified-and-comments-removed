@@ -1250,10 +1250,10 @@ destination
                          
 sleeptime
 =
-5
+30
 max_sleeptime
 =
-60
+150
                          
 retry_exceptions
 =
