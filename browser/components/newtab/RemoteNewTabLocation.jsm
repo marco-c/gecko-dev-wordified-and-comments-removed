@@ -63,7 +63,7 @@ mozilla
 .
 net
 /
-v2
+v0
 /
 nightly
 /
