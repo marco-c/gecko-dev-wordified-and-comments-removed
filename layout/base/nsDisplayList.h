@@ -10486,6 +10486,8 @@ aFrame
 nsDisplayList
 *
 aList
+uint8_t
+aBlendMode
 const
 DisplayItemScrollClip
 *
@@ -10614,6 +10616,11 @@ MixBlendMode
 "
 TYPE_MIX_BLEND_MODE
 )
+private
+:
+uint8_t
+mBlendMode
+;
 }
 ;
 class
