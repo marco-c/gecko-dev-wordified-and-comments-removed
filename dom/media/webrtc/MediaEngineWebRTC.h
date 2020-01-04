@@ -2425,11 +2425,6 @@ Shutdown
 )
 override
 ;
-bool
-SupportsDuplex
-(
-)
-;
 void
 EnumerateVideoDevices
 (
