@@ -4060,6 +4060,11 @@ SurfaceMode
 SURFACE_SINGLE_CHANNEL_ALPHA
 ;
 }
+bool
+IsOpaqueForVisibility
+(
+)
+;
 void
 SetUserData
 (
