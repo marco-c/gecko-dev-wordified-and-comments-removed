@@ -339,7 +339,7 @@ DaemonSocketPDU
 DaemonSocketPDU
 :
 :
-PDU_MAX_PAYLOAD_LENGTH
+MAX_PAYLOAD_LENGTH
 )
 ;
 }
