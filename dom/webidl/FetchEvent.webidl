@@ -166,6 +166,12 @@ request
 ;
 readonly
 attribute
+DOMString
+?
+clientId
+;
+readonly
+attribute
 boolean
 isReload
 ;
@@ -191,6 +197,12 @@ EventInit
 {
 Request
 request
+;
+DOMString
+?
+clientId
+=
+null
 ;
 boolean
 isReload
