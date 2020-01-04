@@ -475,7 +475,6 @@ mCompositorVsyncScheduler
 >
 SetNeedsComposite
 (
-true
 )
 ;
 }

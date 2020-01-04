@@ -368,8 +368,6 @@ aVsyncTimestamp
 void
 SetNeedsComposite
 (
-bool
-aSchedule
 )
 ;
 void
