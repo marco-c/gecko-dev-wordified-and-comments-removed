@@ -1259,16 +1259,6 @@ mathfont
 properties
 "
 )
-nsContentUtils
-:
-:
-GetSystemPrincipal
-(
-)
-nsIContentPolicy
-:
-:
-TYPE_OTHER
 )
 ;
 if
