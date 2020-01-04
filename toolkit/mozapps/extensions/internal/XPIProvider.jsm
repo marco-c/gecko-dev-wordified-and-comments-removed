@@ -34154,10 +34154,6 @@ global
 {
 let
 activeAddon
-;
-if
-(
-activeAddon
 =
 XPIProvider
 .
@@ -34169,6 +34165,10 @@ this
 .
 id
 )
+;
+if
+(
+activeAddon
 )
 {
 activeAddon
