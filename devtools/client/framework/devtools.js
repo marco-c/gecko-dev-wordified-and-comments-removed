@@ -290,6 +290,13 @@ DevTools
 prototype
 =
 {
+chromeWindowType
+:
+"
+navigator
+:
+browser
+"
 registerDefaults
 (
 )

@@ -2296,11 +2296,9 @@ wm
 .
 getMostRecentWindow
 (
-"
-navigator
-:
-browser
-"
+gDevTools
+.
+chromeWindowType
 )
 ;
 }

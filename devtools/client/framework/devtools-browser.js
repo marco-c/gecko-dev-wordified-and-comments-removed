@@ -3727,11 +3727,9 @@ wm
 .
 getEnumerator
 (
-"
-navigator
-:
-browser
-"
+gDevTools
+.
+chromeWindowType
 )
 ;
 while
