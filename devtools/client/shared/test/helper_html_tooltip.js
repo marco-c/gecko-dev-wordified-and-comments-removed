@@ -9,7 +9,14 @@ showTooltip
 (
 tooltip
 anchor
+{
 position
+x
+y
+}
+=
+{
+}
 )
 {
 let
@@ -31,6 +38,8 @@ show
 anchor
 {
 position
+x
+y
 }
 )
 ;
