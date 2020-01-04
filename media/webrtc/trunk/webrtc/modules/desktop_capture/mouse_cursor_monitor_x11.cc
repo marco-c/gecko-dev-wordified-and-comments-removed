@@ -262,6 +262,8 @@ DesktopCaptureOptions
 options
 Window
 window
+Window
+inner_window
 )
 ;
 virtual
@@ -335,6 +337,9 @@ mode_
 Window
 window_
 ;
+Window
+inner_window_
+;
 bool
 have_xfixes_
 ;
@@ -366,6 +371,8 @@ DesktopCaptureOptions
 options
 Window
 window
+Window
+inner_window
 )
 :
 x_display_
@@ -387,6 +394,10 @@ SHAPE_AND_POSITION
 window_
 (
 window
+)
+inner_window_
+(
+inner_window
 )
 have_xfixes_
 (
@@ -619,7 +630,7 @@ XQueryPointer
 display
 (
 )
-window_
+inner_window
 &
 root_window
 &
@@ -995,7 +1006,8 @@ x_display
 return
 NULL
 ;
-window
+WindowId
+outer_window
 =
 GetTopLevelWindow
 (
@@ -1014,7 +1026,7 @@ window
 ;
 if
 (
-window
+outer_window
 =
 =
 None
@@ -1027,6 +1039,7 @@ new
 MouseCursorMonitorX11
 (
 options
+outer_window
 window
 )
 ;
@@ -1058,11 +1071,9 @@ x_display
 return
 NULL
 ;
-return
-new
-MouseCursorMonitorX11
-(
-options
+WindowId
+window
+=
 DefaultRootWindow
 (
 options
@@ -1076,6 +1087,14 @@ display
 (
 )
 )
+;
+return
+new
+MouseCursorMonitorX11
+(
+options
+window
+window
 )
 ;
 }
