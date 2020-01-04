@@ -668,6 +668,7 @@ telemetry
 .
 getHistogramById
 (
+id
 )
 .
 add
