@@ -45,6 +45,19 @@ const
 char
 *
 aFileName
+const
+nsACString
+&
+aMimeType
+=
+NS_LITERAL_CSTRING
+(
+"
+video
+/
+mp4
+"
+)
 )
 ;
 nsIURI
@@ -382,6 +395,7 @@ int
 >
 mEntry
 ;
+const
 nsCString
 mContentType
 ;
