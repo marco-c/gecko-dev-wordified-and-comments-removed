@@ -519,6 +519,17 @@ aLayersId
 GeckoContentController
 *
 aController
+TaskThrottler
+&
+aPaintThrottler
+)
+;
+public
+:
+virtual
+TimeStamp
+GetFrameTime
+(
 )
 ;
 public
