@@ -550,8 +550,9 @@ scriptSecurityManager
 createCodebasePrincipal
 (
 principalURI
-{
-}
+aPrincipal
+.
+originAttributes
 )
 ;
 try
