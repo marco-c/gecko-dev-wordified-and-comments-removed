@@ -1546,7 +1546,7 @@ else
 messageString
 =
 "
-generic_failure_title
+generic_failure_message
 "
 ;
 }

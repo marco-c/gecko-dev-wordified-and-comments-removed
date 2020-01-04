@@ -1197,7 +1197,7 @@ mozL10n
 get
 (
 "
-generic_failure_title
+generic_failure_message
 "
 )
 }

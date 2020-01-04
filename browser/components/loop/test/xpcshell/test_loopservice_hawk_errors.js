@@ -957,7 +957,7 @@ friendlyMessage
 getLoopString
 (
 "
-generic_failure_title
+generic_failure_message
 "
 )
 )
