@@ -276,8 +276,6 @@ BluetoothService
 cpp
 '
 '
-bluetooth2
-/
 ipc
 /
 BluetoothChild
@@ -285,8 +283,6 @@ BluetoothChild
 cpp
 '
 '
-bluetooth2
-/
 ipc
 /
 BluetoothParent
@@ -294,8 +290,6 @@ BluetoothParent
 cpp
 '
 '
-bluetooth2
-/
 ipc
 /
 BluetoothServiceChildProcess
@@ -311,8 +305,6 @@ LOCAL_INCLUDES
 bluetooth2
 '
 '
-bluetooth2
-/
 ipc
 '
 ]
@@ -720,8 +712,6 @@ ipc
 =
 [
 '
-bluetooth2
-/
 ipc
 /
 BluetoothMessageUtils
@@ -846,8 +836,6 @@ IPDL_SOURCES
 =
 [
 '
-bluetooth2
-/
 ipc
 /
 BluetoothTypes
@@ -855,8 +843,6 @@ BluetoothTypes
 ipdlh
 '
 '
-bluetooth2
-/
 ipc
 /
 PBluetooth
@@ -864,8 +850,6 @@ PBluetooth
 ipdl
 '
 '
-bluetooth2
-/
 ipc
 /
 PBluetoothRequest
