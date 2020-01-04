@@ -58,6 +58,9 @@ _enumerator
 _allFonts
 :
 null
+_langGroupSupported
+:
+false
 buildFontList
 :
 function
@@ -376,6 +379,12 @@ fonts
 length
 )
 {
+this
+.
+_langGroupSupported
+=
+true
+;
 var
 builtItem
 =
@@ -595,6 +604,10 @@ undefined
 let
 defaultValue
 =
+this
+.
+_langGroupSupported
+?
 aElement
 .
 firstChild
@@ -607,6 +620,9 @@ getAttribute
 value
 "
 )
+:
+"
+"
 ;
 let
 fontNameList
