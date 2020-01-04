@@ -51,6 +51,8 @@ curl
 jq
 \
 python
+\
+sudo
 BUILD
 =
 /
