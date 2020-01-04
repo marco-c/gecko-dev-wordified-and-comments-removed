@@ -20538,7 +20538,7 @@ Scalar
 :
 :
 Type
-SimdTypeToScalarType
+SimdTypeToArrayElementType
 (
 SimdTypeDescr
 :
@@ -20928,7 +20928,7 @@ Scalar
 Type
 simdType
 =
-SimdTypeToScalarType
+SimdTypeToArrayElementType
 (
 type
 )
@@ -21066,7 +21066,7 @@ Scalar
 Type
 simdType
 =
-SimdTypeToScalarType
+SimdTypeToArrayElementType
 (
 type
 )
