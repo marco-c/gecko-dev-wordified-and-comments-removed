@@ -268,6 +268,10 @@ define
 JS_HAS_CLASSES
 1
 #
+define
+JS_HAS_EXPONENTIATION
+1
+#
 endif
 #
 endif
