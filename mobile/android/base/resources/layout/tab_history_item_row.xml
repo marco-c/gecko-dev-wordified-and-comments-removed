@@ -148,9 +148,9 @@ android
 background
 =
 "
-drawable
+color
 /
-action_bar_button
+state_pressed_toolbar_grey_pressed
 "
 >
 <
