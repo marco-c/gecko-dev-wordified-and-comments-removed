@@ -318,7 +318,7 @@ final
 Integer
 DEVICE_REGISTRATION_VERSION
 =
-1
+2
 ;
 private
 static
