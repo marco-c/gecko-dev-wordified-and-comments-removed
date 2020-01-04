@@ -6306,7 +6306,7 @@ call
 -
 button3
 .
-tooltiptext
+tooltiptext2
 "
 privateBrowsingTooltiptext
 :
