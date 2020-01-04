@@ -25,10 +25,6 @@ const
 STRINGS_URI
 =
 "
-chrome
-:
-/
-/
 global
 /
 locale

@@ -100,10 +100,6 @@ const
 STRINGS_URI
 =
 "
-chrome
-:
-/
-/
 devtools
 /
 locale
@@ -117,10 +113,6 @@ const
 STRINGS_INSPECTOR
 =
 "
-chrome
-:
-/
-/
 devtools
 -
 shared

@@ -75,10 +75,6 @@ new
 LocalizationHelper
 (
 "
-chrome
-:
-/
-/
 devtools
 /
 locale
@@ -96,10 +92,6 @@ new
 LocalizationHelper
 (
 "
-chrome
-:
-/
-/
 devtools
 /
 locale

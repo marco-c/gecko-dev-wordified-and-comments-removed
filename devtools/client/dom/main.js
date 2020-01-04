@@ -133,10 +133,6 @@ new
 LocalizationHelper
 (
 "
-chrome
-:
-/
-/
 devtools
 /
 locale
