@@ -802,6 +802,7 @@ runTests
 aURL
 aGetResultFuncs
 aCompareResultFunc
+aBeforeFunc
 )
 {
 let
@@ -944,6 +945,17 @@ of
 ]
 )
 {
+if
+(
+aBeforeFunc
+)
+{
+yield
+aBeforeFunc
+(
+)
+;
+}
 let
 tabInfoA
 =
