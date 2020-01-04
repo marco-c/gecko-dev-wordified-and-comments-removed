@@ -418,13 +418,6 @@ drawable
 /
 shaped_button
 "
-android
-:
-visibility
-=
-"
-gone
-"
 >
 <
 org
