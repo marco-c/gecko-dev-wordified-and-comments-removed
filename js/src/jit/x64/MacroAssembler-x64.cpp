@@ -1607,6 +1607,10 @@ start
 scratch
 )
 ;
+asMasm
+(
+)
+.
 addPtr
 (
 ptr
@@ -1755,6 +1759,10 @@ asRawBits
 scratch
 )
 ;
+asMasm
+(
+)
+.
 addPtr
 (
 value
