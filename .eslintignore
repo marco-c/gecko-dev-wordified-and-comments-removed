@@ -942,6 +942,16 @@ transport
 /
 *
 *
+!
+devtools
+/
+shared
+/
+transport
+/
+transport
+.
+js
 devtools
 /
 shared
