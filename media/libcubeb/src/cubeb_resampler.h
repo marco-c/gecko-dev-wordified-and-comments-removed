@@ -71,6 +71,9 @@ cubeb_resampler
 resampler
 void
 *
+input_buffer
+void
+*
 buffer
 long
 frames_needed
