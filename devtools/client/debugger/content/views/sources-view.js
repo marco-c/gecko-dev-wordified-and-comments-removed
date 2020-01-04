@@ -608,6 +608,7 @@ initialize
 :
 function
 (
+isWorker
 )
 {
 dumpn
@@ -889,6 +890,10 @@ if
 Prefs
 .
 prettyPrintEnabled
+&
+&
+!
+isWorker
 )
 {
 this
