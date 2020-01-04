@@ -468,8 +468,14 @@ introURL
 )
 +
 "
-#
-step2
+?
+step
+=
+2
+&
+newtab
+=
+true
 "
 ;
 let
