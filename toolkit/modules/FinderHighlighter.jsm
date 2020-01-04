@@ -2564,6 +2564,13 @@ _getWindow
 (
 )
 ;
+this
+.
+hide
+(
+window
+)
+;
 let
 dict
 =
