@@ -4931,6 +4931,10 @@ nsCSSProps
 :
 eEnabledForAllContent
 aTarget
+nsCSSPseudoElements
+:
+:
+ePseudo_NotPseudoElement
 pair
 .
 mValues
@@ -6027,6 +6031,10 @@ nsCSSProps
 :
 eEnabledForAllContent
 aTarget
+nsCSSPseudoElements
+:
+:
+ePseudo_NotPseudoElement
 pair
 .
 mValues
@@ -6307,6 +6315,10 @@ nsCSSProps
 :
 eEnabledForAllContent
 aTarget
+nsCSSPseudoElements
+:
+:
+ePseudo_NotPseudoElement
 pair
 .
 mValues

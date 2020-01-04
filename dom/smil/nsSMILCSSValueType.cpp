@@ -1725,6 +1725,10 @@ ComputeValue
 (
 aPropID
 aTargetElement
+nsCSSPseudoElements
+:
+:
+ePseudo_NotPseudoElement
 subString
 true
 aStyleAnimValue
