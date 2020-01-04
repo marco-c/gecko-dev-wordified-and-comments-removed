@@ -130,11 +130,13 @@ aSpeechSynthesis
 )
 ;
 void
-Init
+InitDirectAudio
 (
-ProcessedMediaStream
-*
-aStream
+)
+;
+void
+InitIndirectAudio
+(
 )
 ;
 void

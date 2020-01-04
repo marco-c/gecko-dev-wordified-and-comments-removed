@@ -347,12 +347,6 @@ SpeechSynthesisChild
 *
 mSpeechSynthChild
 ;
-nsRefPtr
-<
-ProcessedMediaStream
->
-mStream
-;
 bool
 mUseGlobalQueue
 ;
