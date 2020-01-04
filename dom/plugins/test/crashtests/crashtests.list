@@ -30,7 +30,13 @@ script
 .
 html
 asserts
+-
+if
 (
+winWidget
+&
+&
+browserIsRemote
 0
 -
 1
