@@ -130,11 +130,6 @@ WEBIDL_FILES
 =
 [
 '
-AbortablePromise
-.
-webidl
-'
-'
 AbstractWorker
 .
 webidl
