@@ -93,7 +93,7 @@ aController
 )
 override
 ;
-already_AddRefed
+RefPtr
 <
 IAPZCTreeManager
 >

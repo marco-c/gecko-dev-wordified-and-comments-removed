@@ -133,7 +133,7 @@ aController
 0
 ;
 virtual
-already_AddRefed
+RefPtr
 <
 IAPZCTreeManager
 >

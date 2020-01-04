@@ -52,6 +52,9 @@ aChild
 CompositorWidgetDelegate
 *
 aWidgetDelegate
+APZCTreeManagerChild
+*
+aAPZ
 const
 uint64_t
 &
@@ -75,7 +78,7 @@ aController
 )
 override
 ;
-already_AddRefed
+RefPtr
 <
 IAPZCTreeManager
 >
@@ -90,6 +93,14 @@ Shutdown
 (
 )
 override
+;
+private
+:
+RefPtr
+<
+APZCTreeManagerChild
+>
+mAPZ
 ;
 }
 ;

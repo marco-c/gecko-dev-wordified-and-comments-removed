@@ -215,7 +215,7 @@ aController
 )
 ;
 }
-already_AddRefed
+RefPtr
 <
 IAPZCTreeManager
 >
