@@ -74,6 +74,13 @@ node
 ]
 )
 ;
+yield
+DevToolsUtils
+.
+waitForTick
+(
+)
+;
 forceCC
 (
 )

@@ -127,6 +127,13 @@ actorIDs
 ]
 )
 ;
+yield
+DevToolsUtils
+.
+waitForTick
+(
+)
+;
 forceCC
 (
 )
