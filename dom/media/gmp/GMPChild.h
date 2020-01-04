@@ -300,10 +300,6 @@ virtual
 bool
 RecvCrashPluginNow
 (
-const
-GMPCrashReason
-&
-aReason
 )
 override
 ;

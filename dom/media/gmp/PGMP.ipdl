@@ -128,18 +128,6 @@ TabMessageUtils
 h
 "
 ;
-using
-mozilla
-:
-:
-GMPCrashReason
-from
-"
-GMPUtils
-.
-h
-"
-;
 namespace
 mozilla
 {
@@ -207,8 +195,6 @@ BeginAsyncShutdown
 async
 CrashPluginNow
 (
-GMPCrashReason
-aReason
 )
 ;
 intr

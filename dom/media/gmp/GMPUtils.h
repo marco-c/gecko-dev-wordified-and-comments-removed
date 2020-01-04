@@ -123,14 +123,6 @@ uint8_t
 aBytes
 )
 ;
-enum
-GMPCrashReason
-{
-kPrefChange
-kGmpApiTimeout
-kInvalid
-}
-;
 bool
 FileExists
 (
