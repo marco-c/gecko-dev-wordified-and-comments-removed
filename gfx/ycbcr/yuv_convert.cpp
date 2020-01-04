@@ -57,10 +57,7 @@ kFractionBits
 1
 )
 ;
-NS_GFX_
-(
 YUVType
-)
 TypeFromSize
 (
 int
@@ -119,10 +116,7 @@ YV12
 ;
 }
 }
-NS_GFX_
-(
 void
-)
 ConvertYCbCrToRGB32
 (
 const
@@ -782,10 +776,7 @@ source_y_fraction
 )
 ;
 }
-NS_GFX_
-(
 void
-)
 ScaleYCbCrToRGB32
 (
 const

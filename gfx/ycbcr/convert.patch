@@ -530,10 +530,7 @@ width
 -
 }
 +
-NS_GFX_
-(
 void
-)
 ConvertYCbCrToRGB32
 (
 const
@@ -2071,10 +2068,7 @@ filter
 )
 {
 +
-NS_GFX_
-(
 void
-)
 ScaleYCbCrToRGB32
 (
 const
@@ -3357,10 +3351,7 @@ yuv_type
 )
 ;
 +
-NS_GFX_
-(
 void
-)
 ConvertYCbCrToRGB32
 (
 const
@@ -3489,10 +3480,7 @@ namespace
 media
 -
 +
-NS_GFX_
-(
 void
-)
 ScaleYCbCrToRGB32
 (
 const

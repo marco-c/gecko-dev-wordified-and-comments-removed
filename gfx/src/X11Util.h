@@ -71,13 +71,6 @@ h
 #
 include
 "
-gfxCore
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Scoped
@@ -204,7 +197,6 @@ ScopedXFree
 ScopedXFreePtrTraits
 )
 class
-NS_GFX
 ScopedXErrorHandler
 {
 public

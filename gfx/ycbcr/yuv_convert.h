@@ -11,13 +11,6 @@ chromium_types
 .
 h
 "
-#
-include
-"
-gfxCore
-.
-h
-"
 namespace
 mozilla
 {
@@ -68,10 +61,7 @@ FILTER_BILINEAR
 3
 }
 ;
-NS_GFX_
-(
 YUVType
-)
 TypeFromSize
 (
 int
@@ -84,10 +74,7 @@ int
 cbcrheight
 )
 ;
-NS_GFX_
-(
 void
-)
 ConvertYCbCrToRGB32
 (
 const
@@ -123,10 +110,7 @@ YUVType
 yuv_type
 )
 ;
-NS_GFX_
-(
 void
-)
 ScaleYCbCrToRGB32
 (
 const

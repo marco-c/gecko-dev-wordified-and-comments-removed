@@ -26,13 +26,6 @@ algorithm
 #
 include
 "
-gfxCore
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Likely
@@ -102,7 +95,6 @@ IntRect
 nsIntRect
 ;
 struct
-NS_GFX
 nsRect
 :
 public
@@ -1627,7 +1619,6 @@ aAppUnitsPerPixel
 ifdef
 DEBUG
 extern
-NS_GFX
 FILE
 *
 operator

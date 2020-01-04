@@ -14,13 +14,6 @@ h
 #
 include
 "
-gfxCore
-.
-h
-"
-#
-include
-"
 nsISupports
 .
 h
@@ -42,7 +35,6 @@ Attributes
 h
 "
 class
-NS_GFX
 nsScriptableRegion
 final
 :

@@ -38,10 +38,7 @@ gfx
 #
 ifdef
 HAVE_YCBCR_TO_RGB565
-NS_GFX_
-(
 void
-)
 ConvertYCbCrToRGB565
 (
 const
@@ -77,10 +74,7 @@ YUVType
 yuv_type
 )
 ;
-NS_GFX_
-(
 bool
-)
 IsConvertYCbCrToRGB565Fast
 (
 int
@@ -95,10 +89,7 @@ YUVType
 yuv_type
 )
 ;
-NS_GFX_
-(
 void
-)
 ScaleYCbCrToRGB565
 (
 const
@@ -140,10 +131,7 @@ ScaleFilter
 filter
 )
 ;
-NS_GFX_
-(
 bool
-)
 IsScaleYCbCrToRGB565Fast
 (
 int

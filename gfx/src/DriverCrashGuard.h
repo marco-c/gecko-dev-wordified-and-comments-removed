@@ -7,13 +7,6 @@ gfx_src_DriverCrashGuard_h__
 #
 include
 "
-gfxCore
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

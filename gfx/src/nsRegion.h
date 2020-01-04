@@ -30,13 +30,6 @@ h
 #
 include
 "
-gfxCore
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ToString
@@ -1871,7 +1864,6 @@ mImpl
 }
 ;
 class
-NS_GFX
 nsRegionRectIterator
 {
 const
@@ -2100,7 +2092,6 @@ typename
 Margin
 >
 class
-NS_GFX
 BaseIntRegion
 {
 friend
@@ -3626,7 +3617,6 @@ ToString
 ;
 }
 class
-NS_GFX
 RectIterator
 {
 nsRegionRectIterator
@@ -3880,7 +3870,6 @@ this
 }
 }
 class
-NS_GFX
 nsIntRegion
 :
 public

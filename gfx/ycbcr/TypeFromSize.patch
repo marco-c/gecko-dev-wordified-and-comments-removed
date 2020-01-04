@@ -95,10 +95,7 @@ kFractionBits
 )
 ;
 +
-NS_GFX_
-(
 YUVType
-)
 TypeFromSize
 (
 int
@@ -184,10 +181,7 @@ to
 bit
 ARGB
 .
-NS_GFX_
-(
 void
-)
 ConvertYCbCrToRGB32
 (
 const
@@ -318,10 +312,7 @@ filter
 }
 ;
 +
-NS_GFX_
-(
 YUVType
-)
 TypeFromSize
 (
 int
@@ -358,10 +349,7 @@ depending
 on
 source
 format
-NS_GFX_
-(
 void
-)
 ConvertYCbCrToRGB32
 (
 const

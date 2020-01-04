@@ -23,13 +23,6 @@ h
 #
 include
 "
-gfxCore
-.
-h
-"
-#
-include
-"
 gfxFontFamilyList
 .
 h
@@ -146,7 +139,6 @@ kGenericFont_fantasy
 0x20
 ;
 struct
-NS_GFX
 nsFont
 {
 mozilla

@@ -18,13 +18,6 @@ nsWeakReference
 .
 h
 "
-#
-include
-"
-gfxCore
-.
-h
-"
 class
 nsPrintSession
 :
