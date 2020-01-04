@@ -281,17 +281,10 @@ split
             
 config_guess
 =
-MozbuildObject
+base
 .
 resolve_config_guess
 (
-base
-.
-mozconfig
-                                                               
-base
-.
-topsrcdir
 )
             
 self
