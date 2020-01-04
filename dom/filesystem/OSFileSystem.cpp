@@ -91,15 +91,6 @@ mLocalRootPath
 =
 aRootDir
 ;
-FileSystemUtils
-:
-:
-LocalPathToNormalizedPath
-(
-mLocalRootPath
-mNormalizedLocalRootPath
-)
-;
 mRequiresPermissionChecks
 =
 false
