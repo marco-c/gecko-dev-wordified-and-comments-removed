@@ -261,13 +261,12 @@ Corporation
 define
 CertIssuerDownload
 "
-DigiCert
-SHA2
-Assured
-ID
+Thawte
 Code
 Signing
 CA
+-
+G2
 "
 #
 Dialog
