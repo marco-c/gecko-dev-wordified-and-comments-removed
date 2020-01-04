@@ -362,6 +362,8 @@ click
 let
 promise1
 =
+BrowserTestUtils
+.
 crashBrowser
 (
 browser
