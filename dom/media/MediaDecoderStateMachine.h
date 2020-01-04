@@ -3085,9 +3085,6 @@ mDropAudioUntilNextDiscontinuity
 bool
 mDropVideoUntilNextDiscontinuity
 ;
-bool
-mDecodeToSeekTarget
-;
 MozPromiseRequestHolder
 <
 MediaDecoderReader

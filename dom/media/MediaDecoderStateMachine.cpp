@@ -963,10 +963,6 @@ mDropVideoUntilNextDiscontinuity
 (
 false
 )
-mDecodeToSeekTarget
-(
-false
-)
 mCurrentTimeBeforeSeek
 (
 0
@@ -4938,10 +4934,6 @@ sample
 "
 )
 ;
-mDecodeToSeekTarget
-=
-false
-;
 SeekCompleted
 (
 )
@@ -7690,13 +7682,6 @@ mSeekRequest
 Complete
 (
 )
-;
-self
--
->
-mDecodeToSeekTarget
-=
-true
 ;
 self
 -
@@ -11270,10 +11255,6 @@ true
 mDropVideoUntilNextDiscontinuity
 =
 true
-;
-mDecodeToSeekTarget
-=
-false
 ;
 mMetadataRequest
 .
