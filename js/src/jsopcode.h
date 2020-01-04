@@ -2804,6 +2804,7 @@ PCCounts
 &
 rhs
 )
+const
 {
 return
 pcOffset_
