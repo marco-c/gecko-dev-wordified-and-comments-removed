@@ -7397,8 +7397,6 @@ None
 {
 TokenKind
 tt
-=
-TOK_EOF
 ;
 if
 (
@@ -14740,8 +14738,6 @@ false
 ;
 uint32_t
 statementBegin
-=
-0
 ;
 for
 (
@@ -14751,8 +14747,6 @@ for
 {
 TokenKind
 tt
-=
-TOK_EOF
 ;
 if
 (
@@ -15112,8 +15106,6 @@ label
 {
 TokenKind
 tt
-=
-TOK_EOF
 ;
 if
 (
@@ -26754,8 +26746,6 @@ false
 ;
 uint32_t
 statementBegin
-=
-0
 ;
 while
 (
@@ -27596,8 +27586,6 @@ exprNode
 ;
 TokenKind
 tt
-=
-TOK_EOF
 ;
 if
 (
@@ -28037,8 +28025,6 @@ PNK_YIELD
 ;
 TokenKind
 tt
-=
-TOK_EOF
 ;
 if
 (
@@ -28310,8 +28296,6 @@ exprNode
 ;
 TokenKind
 tt
-=
-TOK_EOF
 ;
 if
 (
@@ -28969,8 +28953,6 @@ begin
 ;
 TokenKind
 tt
-=
-TOK_EOF
 ;
 if
 (
@@ -33074,8 +33056,6 @@ ungetToken
 ;
 TokenKind
 next
-=
-TOK_EOF
 ;
 if
 (
@@ -33740,8 +33720,6 @@ false
 }
 unsigned
 errnum
-=
-0
 ;
 const
 char
