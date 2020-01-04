@@ -470,11 +470,13 @@ browser
 /
 skin
 /
-notification
+web
 -
-64
+notifications
+-
+icon
 .
-png
+svg
 )
 ;
 }
