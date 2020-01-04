@@ -2300,7 +2300,12 @@ GetSize
 )
 =
 =
-aSize
+frameRef
+-
+>
+GetImageSize
+(
+)
 )
 {
 frameSurf
