@@ -662,9 +662,7 @@ if
 (
 MOZ_LOG_TEST
 (
-GetImgLog
-(
-)
+gImgLog
 LogLevel
 :
 :
@@ -722,9 +720,7 @@ spec
 ;
 LOG_FUNC_WITH_PARAM
 (
-GetImgLog
-(
-)
+gImgLog
 "
 ProgressTracker
 :
@@ -747,9 +743,7 @@ else
 {
 LOG_FUNC_WITH_PARAM
 (
-GetImgLog
-(
-)
+gImgLog
 "
 ProgressTracker
 :
@@ -988,9 +982,7 @@ if
 (
 MOZ_LOG_TEST
 (
-GetImgLog
-(
-)
+gImgLog
 LogLevel
 :
 :
@@ -1040,9 +1032,7 @@ spec
 }
 LOG_FUNC_WITH_PARAM
 (
-GetImgLog
-(
-)
+gImgLog
 "
 ProgressTracker
 :
@@ -1843,9 +1833,7 @@ spec
 }
 LOG_SCOPE_WITH_PARAM
 (
-GetImgLog
-(
-)
+gImgLog
 "
 ProgressTracker
 :
