@@ -464,6 +464,16 @@ mozilla
 gfx
 :
 :
+ExtendMode
+ExtendMode
+;
+typedef
+mozilla
+:
+:
+gfx
+:
+:
 Filter
 Filter
 ;
@@ -3704,6 +3714,8 @@ nsRect
 aDirty
 uint32_t
 aImageFlags
+ExtendMode
+aExtendMode
 )
 ;
 static
