@@ -222,6 +222,10 @@ aListener
 const
 nsACString
 &
+aPackageOrigin
+const
+nsACString
+&
 aSignature
 nsICacheEntry
 *
@@ -374,6 +378,9 @@ mIsFirstResource
 ;
 bool
 mIsPackageSigned
+;
+bool
+mBypassVerification
 ;
 nsCOMPtr
 <

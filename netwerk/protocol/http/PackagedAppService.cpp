@@ -1909,6 +1909,7 @@ new
 PackagedAppVerifier
 (
 this
+mPackageOrigin
 signature
 packageCacheEntry
 )
