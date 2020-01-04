@@ -414,12 +414,16 @@ hexrgb
 ;
 ASSERT_TRUE
 (
-NS_HexToRGB
+NS_HexToRGBA
 (
 NS_ConvertASCIItoUTF16
 (
 cbuf
 )
+nsHexColorType
+:
+:
+NoAlpha
 &
 hexrgb
 )
