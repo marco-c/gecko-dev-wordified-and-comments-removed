@@ -3713,8 +3713,6 @@ aViewManager
 nsStyleSet
 *
 aStyleSet
-nsCompatibility
-aCompatMode
 )
 {
 NS_PRECONDITION

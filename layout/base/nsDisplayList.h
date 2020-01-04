@@ -5621,11 +5621,6 @@ const
 nsRect
 &
 aListVisibleBounds
-nsIFrame
-*
-aDisplayPortFrame
-=
-nullptr
 )
 ;
 bool
@@ -5637,11 +5632,6 @@ aBuilder
 nsRegion
 *
 aVisibleRegion
-nsIFrame
-*
-aDisplayPortFrame
-=
-nullptr
 )
 ;
 bool
@@ -7696,9 +7686,6 @@ const
 nsRect
 &
 aRect
-bool
-*
-aSnap
 )
 ;
 virtual

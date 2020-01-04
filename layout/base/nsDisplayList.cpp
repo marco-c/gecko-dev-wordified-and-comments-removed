@@ -7744,9 +7744,6 @@ aBuilder
 nsRegion
 *
 aVisibleRegion
-nsIFrame
-*
-aDisplayPortFrame
 )
 {
 PROFILER_LABEL
@@ -7794,7 +7791,6 @@ r
 GetBounds
 (
 )
-aDisplayPortFrame
 )
 ;
 }
@@ -8001,9 +7997,6 @@ const
 nsRect
 &
 aListVisibleBounds
-nsIFrame
-*
-aDisplayPortFrame
 )
 {
 #
@@ -14774,9 +14767,6 @@ const
 nsRect
 &
 aRect
-bool
-*
-aSnap
 )
 {
 nsRegion
@@ -15072,7 +15062,6 @@ layer
 .
 mClip
 mBounds
-aSnap
 )
 ;
 }
@@ -17154,7 +17143,6 @@ bottomLayer
 .
 mClip
 borderBox
-aSnap
 )
 ;
 }
@@ -23691,11 +23679,6 @@ aBuilder
 &
 childVisibleRegion
 boundedRect
-usingDisplayPort
-?
-mFrame
-:
-nullptr
 )
 ;
 if

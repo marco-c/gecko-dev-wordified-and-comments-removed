@@ -216,8 +216,6 @@ aViewManager
 nsStyleSet
 *
 aStyleSet
-nsCompatibility
-aCompatMode
 )
 ;
 virtual

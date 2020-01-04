@@ -5775,8 +5775,6 @@ aViewManager
 nsStyleSet
 *
 aStyleSet
-nsCompatibility
-aCompatMode
 )
 ;
 void

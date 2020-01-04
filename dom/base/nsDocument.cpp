@@ -16547,7 +16547,6 @@ doCreateShell
 aContext
 aViewManager
 aStyleSet
-eCompatibility_FullStandards
 )
 ;
 }
@@ -16569,8 +16568,6 @@ aViewManager
 nsStyleSet
 *
 aStyleSet
-nsCompatibility
-aCompatMode
 )
 {
 NS_ASSERTION
@@ -16618,7 +16615,6 @@ this
 aContext
 aViewManager
 aStyleSet
-aCompatMode
 )
 ;
 mPresShell
