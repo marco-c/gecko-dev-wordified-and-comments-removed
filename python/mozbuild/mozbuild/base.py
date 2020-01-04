@@ -45,7 +45,9 @@ mozfile
 .
 mozfile
 import
-rmtree
+remove
+as
+mozfileremove
 from
 .
 backend
@@ -1981,7 +1983,7 @@ topobjdir
 else
 :
             
-rmtree
+mozfileremove
 (
 self
 .
