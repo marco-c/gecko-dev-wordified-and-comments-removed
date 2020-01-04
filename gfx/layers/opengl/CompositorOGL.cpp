@@ -3373,7 +3373,7 @@ mPixelsFilled
 0
 ;
 #
-if
+ifdef
 MOZ_WIDGET_ANDROID
 TexturePoolOGL
 :
@@ -3460,9 +3460,6 @@ height
 )
 ;
 }
-#
-ifndef
-MOZ_WIDGET_ANDROID
 mGLContext
 -
 >
@@ -3492,8 +3489,6 @@ LOCAL_GL_COLOR_BUFFER_BIT
 LOCAL_GL_DEPTH_BUFFER_BIT
 )
 ;
-#
-endif
 }
 void
 CompositorOGL
