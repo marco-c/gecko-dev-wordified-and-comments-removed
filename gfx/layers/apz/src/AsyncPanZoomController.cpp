@@ -13487,6 +13487,10 @@ NOTHING
 }
 if
 (
+!
+continueAnimation
+|
+|
 wantsRepaints
 )
 {
