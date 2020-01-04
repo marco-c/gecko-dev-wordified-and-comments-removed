@@ -1647,6 +1647,7 @@ Param
 GetThisArg
 (
 )
+const
 {
 return
 mThisArg
@@ -1658,6 +1659,7 @@ IsTarget
 NativeCallType
 call
 )
+const
 {
 return
 call
@@ -1678,6 +1680,7 @@ T
 &
 &
 )
+const
 {
 return
 false
