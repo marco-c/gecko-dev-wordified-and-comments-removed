@@ -197,15 +197,6 @@ length
 =
 =
 1
-&
-&
-!
-script
--
->
-hasRegexps
-(
-)
 ;
 }
 HashNumber

@@ -625,9 +625,6 @@ constList
 CGObjectList
 objectList
 ;
-CGObjectList
-regexpList
-;
 CGTryNoteList
 tryNoteList
 ;

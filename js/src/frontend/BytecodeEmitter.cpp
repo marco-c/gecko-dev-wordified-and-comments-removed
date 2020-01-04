@@ -39967,7 +39967,7 @@ if
 !
 emitRegExp
 (
-regexpList
+objectList
 .
 add
 (
