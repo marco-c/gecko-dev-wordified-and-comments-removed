@@ -657,6 +657,17 @@ aMallocSizeOf
 )
 ;
 }
+virtual
+bool
+IsExpectingMoreData
+(
+)
+override
+{
+return
+false
+;
+}
 void
 AppendData
 (
