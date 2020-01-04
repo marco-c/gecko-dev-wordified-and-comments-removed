@@ -1005,7 +1005,7 @@ WriteParam
 aMsg
 aParam
 .
-isMomentum
+mIsMomentum
 )
 ;
 WriteParam
@@ -1210,7 +1210,7 @@ aIter
 aResult
 -
 >
-isMomentum
+mIsMomentum
 )
 &
 &

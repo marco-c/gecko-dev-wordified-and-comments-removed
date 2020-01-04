@@ -1724,7 +1724,7 @@ true
 ;
 wheelEvent
 .
-isMomentum
+mIsMomentum
 =
 IsMomentum
 (
@@ -2078,7 +2078,7 @@ mIsMomentum
 (
 aWheelEvent
 .
-isMomentum
+mIsMomentum
 )
 mAllowToOverrideSystemScrollSpeed
 (
@@ -2190,7 +2190,7 @@ mMayHaveMomentum
 ;
 wheelEvent
 .
-isMomentum
+mIsMomentum
 =
 mIsMomentum
 ;

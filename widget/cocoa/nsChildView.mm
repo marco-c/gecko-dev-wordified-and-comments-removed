@@ -29814,7 +29814,7 @@ DOM_DELTA_LINE
 outWheelEvent
 -
 >
-isMomentum
+mIsMomentum
 =
 nsCocoaUtils
 :

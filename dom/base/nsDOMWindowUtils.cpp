@@ -3577,7 +3577,7 @@ aDeltaMode
 ;
 wheelEvent
 .
-isMomentum
+mIsMomentum
 =
 (
 aOptions

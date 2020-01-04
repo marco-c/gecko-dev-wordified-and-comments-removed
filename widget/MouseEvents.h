@@ -1437,7 +1437,7 @@ mCustomizedByUserPrefs
 (
 false
 )
-isMomentum
+mIsMomentum
 (
 false
 )
@@ -1548,7 +1548,7 @@ mMayHaveMomentum
 (
 false
 )
-isMomentum
+mIsMomentum
 (
 false
 )
@@ -1698,7 +1698,7 @@ bool
 mMayHaveMomentum
 ;
 bool
-isMomentum
+mIsMomentum
 ;
 bool
 mIsNoLineOrPageDelta
@@ -1882,11 +1882,11 @@ aEvent
 .
 mMayHaveMomentum
 ;
-isMomentum
+mIsMomentum
 =
 aEvent
 .
-isMomentum
+mIsMomentum
 ;
 mIsNoLineOrPageDelta
 =
