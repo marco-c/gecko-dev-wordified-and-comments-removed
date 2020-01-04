@@ -881,7 +881,7 @@ reservoir
 )
 ;
 }
-void
+bool
 allocateStorage
 (
 size_t
