@@ -149,11 +149,6 @@ mozilla
 =
 [
 '
-CDMCallbackProxy
-.
-h
-'
-'
 CDMCaps
 .
 h
@@ -178,11 +173,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-CDMCallbackProxy
-.
-cpp
-'
 '
 CDMCaps
 .

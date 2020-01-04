@@ -77,7 +77,7 @@ class
 MediaRawData
 ;
 class
-CDMCallbackProxy
+GMPCDMCallbackProxy
 ;
 namespace
 dom
@@ -1010,7 +1010,7 @@ mCapabilites
 ;
 nsAutoPtr
 <
-CDMCallbackProxy
+GMPCDMCallbackProxy
 >
 mCallback
 ;

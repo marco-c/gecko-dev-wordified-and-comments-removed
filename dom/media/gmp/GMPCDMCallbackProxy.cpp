@@ -1,9 +1,7 @@
 #
 include
 "
-mozilla
-/
-CDMCallbackProxy
+GMPCDMCallbackProxy
 .
 h
 "
@@ -85,10 +83,10 @@ h
 namespace
 mozilla
 {
-CDMCallbackProxy
+GMPCDMCallbackProxy
 :
 :
-CDMCallbackProxy
+GMPCDMCallbackProxy
 (
 CDMProxy
 *
@@ -172,7 +170,7 @@ mSid
 }
 ;
 void
-CDMCallbackProxy
+GMPCDMCallbackProxy
 :
 :
 SetSessionId
@@ -285,7 +283,7 @@ mSuccess
 }
 ;
 void
-CDMCallbackProxy
+GMPCDMCallbackProxy
 :
 :
 ResolveLoadSessionPromise
@@ -328,7 +326,7 @@ task
 ;
 }
 void
-CDMCallbackProxy
+GMPCDMCallbackProxy
 :
 :
 ResolvePromise
@@ -437,7 +435,7 @@ mMsg
 }
 ;
 void
-CDMCallbackProxy
+GMPCDMCallbackProxy
 :
 :
 RejectPromise
@@ -583,7 +581,7 @@ mMsg
 }
 ;
 void
-CDMCallbackProxy
+GMPCDMCallbackProxy
 :
 :
 SessionMessage
@@ -707,7 +705,7 @@ mTimestamp
 }
 ;
 void
-CDMCallbackProxy
+GMPCDMCallbackProxy
 :
 :
 ExpirationChange
@@ -753,7 +751,7 @@ task
 ;
 }
 void
-CDMCallbackProxy
+GMPCDMCallbackProxy
 :
 :
 SessionClosed
@@ -976,7 +974,7 @@ mMsg
 }
 ;
 void
-CDMCallbackProxy
+GMPCDMCallbackProxy
 :
 :
 SessionError
@@ -1030,7 +1028,7 @@ task
 ;
 }
 void
-CDMCallbackProxy
+GMPCDMCallbackProxy
 :
 :
 KeyStatusChanged
@@ -1133,7 +1131,7 @@ task
 }
 }
 void
-CDMCallbackProxy
+GMPCDMCallbackProxy
 :
 :
 Decrypted
@@ -1173,7 +1171,7 @@ aDecryptedData
 ;
 }
 void
-CDMCallbackProxy
+GMPCDMCallbackProxy
 :
 :
 Terminated

@@ -1,9 +1,9 @@
 #
 ifndef
-CDMCallbackProxy_h_
+GMPCDMCallbackProxy_h_
 #
 define
-CDMCallbackProxy_h_
+GMPCDMCallbackProxy_h_
 #
 include
 "
@@ -33,7 +33,7 @@ namespace
 mozilla
 {
 class
-CDMCallbackProxy
+GMPCDMCallbackProxy
 :
 public
 GMPDecryptorProxyCallback
@@ -186,7 +186,7 @@ Terminated
 override
 ;
 ~
-CDMCallbackProxy
+GMPCDMCallbackProxy
 (
 )
 {
@@ -198,7 +198,7 @@ class
 CDMProxy
 ;
 explicit
-CDMCallbackProxy
+GMPCDMCallbackProxy
 (
 CDMProxy
 *

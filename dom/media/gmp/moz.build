@@ -371,6 +371,11 @@ GMPCallbackBase
 h
 '
 '
+GMPCDMCallbackProxy
+.
+h
+'
+'
 GMPChild
 .
 h
@@ -616,6 +621,11 @@ cpp
 '
 '
 GMPAudioHost
+.
+cpp
+'
+'
+GMPCDMCallbackProxy
 .
 cpp
 '
