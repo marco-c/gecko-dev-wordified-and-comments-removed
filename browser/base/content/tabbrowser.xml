@@ -8373,6 +8373,13 @@ mCurrentTab
 )
 ;
 }
+updateUserContextUIIndicator
+(
+gBrowser
+.
+selectedBrowser
+)
+;
 this
 .
 tabContainer
