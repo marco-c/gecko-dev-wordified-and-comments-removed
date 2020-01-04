@@ -3396,15 +3396,6 @@ Label
 target
 )
 ;
-Label
-*
-getJumpLabelForBranch
-(
-MBasicBlock
-*
-block
-)
-;
 void
 emitStoreElementTyped
 (

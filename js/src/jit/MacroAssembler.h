@@ -4151,7 +4151,12 @@ Imm64
 val
 Label
 *
-label
+success
+Label
+*
+fail
+=
+nullptr
 )
 DEFINED_ON
 (
@@ -4172,7 +4177,12 @@ Register64
 rhs
 Label
 *
-label
+success
+Label
+*
+fail
+=
+nullptr
 )
 DEFINED_ON
 (
