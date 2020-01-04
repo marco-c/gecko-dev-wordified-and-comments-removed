@@ -2714,6 +2714,13 @@ fxAccountsClient
 signOut
 (
 sessionToken
+{
+service
+:
+"
+sync
+"
+}
 )
 ;
 }
