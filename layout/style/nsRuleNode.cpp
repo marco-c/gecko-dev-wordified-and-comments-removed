@@ -25656,7 +25656,7 @@ display
 >
 mTransitions
 .
-SetLength
+SetLengthNonZero
 (
 numTransitions
 )
@@ -26772,7 +26772,7 @@ display
 >
 mAnimations
 .
-SetLength
+SetLengthNonZero
 (
 numAnimations
 )
