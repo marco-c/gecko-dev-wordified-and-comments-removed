@@ -3698,7 +3698,7 @@ SVGContextPaint
 *
 contextPaint
 =
-nsSVGUtils
+SVGContextPaint
 :
 :
 GetContextPaint
@@ -4078,7 +4078,7 @@ SVGContextPaint
 *
 contextPaint
 =
-nsSVGUtils
+SVGContextPaint
 :
 :
 GetContextPaint

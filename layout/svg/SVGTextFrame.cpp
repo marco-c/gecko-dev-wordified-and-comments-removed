@@ -11533,7 +11533,7 @@ SVGContextPaint
 *
 outerContextPaint
 =
-nsSVGUtils
+SVGContextPaint
 :
 :
 GetContextPaint
@@ -11582,10 +11582,9 @@ contextPaint
 DrawMode
 drawMode
 =
-nsSVGUtils
-:
-:
-SetupContextPaint
+contextPaint
+.
+Init
 (
 &
 aDrawTarget
@@ -11596,8 +11595,6 @@ CurrentMatrix
 )
 frame
 outerContextPaint
-&
-contextPaint
 )
 ;
 if
