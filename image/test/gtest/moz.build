@@ -222,6 +222,12 @@ bmp
 '
 '
 transparent
+-
+if
+-
+within
+-
+ico
 .
 bmp
 '

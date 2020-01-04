@@ -967,8 +967,10 @@ TEST_CASE_IS_TRANSPARENT
 ;
 }
 ImageTestCase
-TransparentBMPWhenBMPAlphaEnabledTestCase
+TransparentIfWithinICOBMPTestCase
 (
+TestCaseFlags
+aFlags
 )
 {
 return
@@ -976,6 +978,12 @@ ImageTestCase
 (
 "
 transparent
+-
+if
+-
+within
+-
+ico
 .
 bmp
 "
@@ -989,6 +997,7 @@ IntSize
 32
 32
 )
+aFlags
 )
 ;
 }
