@@ -1420,12 +1420,6 @@ LOCAL_INCLUDES
 /
 dom
 /
-workers
-'
-'
-/
-dom
-/
 xml
 '
 ]
