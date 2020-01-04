@@ -1141,6 +1141,12 @@ self
 proc
 =
 None
+            
+self
+.
+connected
+=
+False
         
 shutil
 .
