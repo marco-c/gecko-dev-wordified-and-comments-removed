@@ -251,6 +251,13 @@ gtest_prod
 .
 h
 '
+'
+mozilla
+/
+MozGTestBench
+.
+h
+'
 ]
 #
 GTest
@@ -692,6 +699,13 @@ cc
 mozilla
 /
 GTestRunner
+.
+cpp
+'
+'
+mozilla
+/
+MozGTestBench
 .
 cpp
 '
