@@ -2379,13 +2379,13 @@ name
 {
 return
 new
-EventManager
+SingletonEventManager
 (
 this
 .
 context
 name
-fire
+callback
 =
 >
 {
@@ -2532,10 +2532,9 @@ cloneScope
 let
 result
 =
-fire
-.
-withoutClone
+runSafeSyncWithoutClone
 (
+callback
 message
 sender
 sendResponse
@@ -2554,7 +2553,6 @@ valid
 =
 false
 ;
-}
 if
 (
 !
@@ -2573,6 +2571,7 @@ false
 }
 )
 ;
+}
 }
 }
 ;
