@@ -28885,36 +28885,25 @@ or
 isCallbackReturnValue
 :
         
-declType
+smartPtrType
 =
-CGGeneric
-(
 "
 RefPtr
-<
-%
-s
->
 "
-%
-name
-)
     
 else
 :
         
+smartPtrType
+=
+"
+OwningNonNull
+"
+    
 declType
 =
 CGGeneric
 (
-"
-OwningNonNull
-<
-%
-s
->
-"
-%
 name
 )
     
@@ -28928,7 +28917,11 @@ CGTemplatedType
 (
 "
 RootedCallback
+%
+s
 "
+%
+smartPtrType
 declType
 )
         
@@ -28940,6 +28933,14 @@ cx
     
 else
 :
+        
+declType
+=
+CGTemplatedType
+(
+smartPtrType
+declType
+)
         
 declArgs
 =
