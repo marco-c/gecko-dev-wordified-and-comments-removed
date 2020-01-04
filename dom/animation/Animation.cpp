@@ -715,7 +715,7 @@ UpdateTiming
 SeekFlag
 :
 :
-NoSeek
+DidSeek
 SyncNotifyFlag
 :
 :
