@@ -219,12 +219,6 @@ RenderFrameParent
 nsFrameLoader
 *
 aFrameLoader
-TextureFactoryIdentifier
-*
-aTextureFactoryIdentifier
-uint64_t
-*
-aId
 bool
 *
 aSuccess
