@@ -377,7 +377,7 @@ volatile
 boolean
 mCompositorCreated
 ;
-protected
+private
 class
 Compositor
 extends
@@ -1960,7 +1960,7 @@ npzc
 }
 }
 protected
-Compositor
+Object
 getCompositor
 (
 )

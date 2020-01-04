@@ -725,7 +725,7 @@ Window
 instance
 GeckoView
 view
-Compositor
+Object
 compositor
 String
 chromeURI
@@ -755,7 +755,7 @@ reattach
 (
 GeckoView
 view
-Compositor
+Object
 compositor
 )
 ;
@@ -1263,6 +1263,9 @@ GeckoView
 .
 class
 this
+Object
+.
+class
 getCompositor
 (
 )
@@ -1326,6 +1329,9 @@ GeckoView
 .
 class
 this
+Object
+.
+class
 getCompositor
 (
 )

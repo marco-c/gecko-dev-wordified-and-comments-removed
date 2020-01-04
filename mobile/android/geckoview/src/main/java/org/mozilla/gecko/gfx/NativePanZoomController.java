@@ -1345,7 +1345,6 @@ disposeNative
 )
 ;
 }
-Override
 WrapForJNI
 (
 calledFrom
@@ -1353,7 +1352,13 @@ calledFrom
 "
 ui
 "
+dispatchTo
+=
+"
+gecko
+"
 )
+Override
 protected
 native
 void
