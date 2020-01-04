@@ -1527,14 +1527,6 @@ enabled
 False
         
 '
-dom
-.
-report_all_js_exceptions
-'
-:
-True
-        
-'
 extensions
 .
 getAddons
