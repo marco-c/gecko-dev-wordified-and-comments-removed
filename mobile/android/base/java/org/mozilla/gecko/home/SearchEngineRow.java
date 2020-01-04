@@ -1953,11 +1953,10 @@ currentSearchHistory
 )
 )
 {
-searchHistorySuggestions
+searchHistoryIterator
 .
 remove
 (
-currentSearchHistory
 )
 ;
 }
