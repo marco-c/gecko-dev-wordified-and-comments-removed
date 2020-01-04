@@ -208,7 +208,7 @@ assertThrowsInstanceOf
 >
 Atomics
 .
-futexWait
+wait
 (
 view
 0
@@ -225,7 +225,7 @@ assertThrowsInstanceOf
 >
 Atomics
 .
-futexWake
+wake
 (
 view
 0
@@ -273,7 +273,7 @@ assertThrowsInstanceOf
 >
 Atomics
 .
-futexWait
+wait
 (
 view
 0
@@ -290,7 +290,7 @@ assertThrowsInstanceOf
 >
 Atomics
 .
-futexWake
+wake
 (
 view
 0
@@ -340,7 +340,7 @@ assertThrowsInstanceOf
 >
 Atomics
 .
-futexWait
+wait
 (
 view
 0
@@ -357,7 +357,7 @@ assertThrowsInstanceOf
 >
 Atomics
 .
-futexWake
+wake
 (
 view
 0
@@ -473,7 +473,7 @@ assertThrowsInstanceOf
 >
 Atomics
 .
-futexWait
+wait
 (
 view
 Idx
@@ -490,7 +490,7 @@ assertThrowsInstanceOf
 >
 Atomics
 .
-futexWake
+wake
 (
 view
 Idx

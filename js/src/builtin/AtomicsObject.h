@@ -216,7 +216,7 @@ vp
 )
 ;
 bool
-atomics_futexWait
+atomics_wait
 (
 JSContext
 *
@@ -229,7 +229,7 @@ vp
 )
 ;
 bool
-atomics_futexWake
+atomics_wake
 (
 JSContext
 *

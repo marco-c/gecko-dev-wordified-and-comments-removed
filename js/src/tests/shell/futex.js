@@ -487,7 +487,7 @@ assertEq
 (
 Atomics
 .
-futexWake
+wake
 (
 mem
 0
@@ -511,7 +511,7 @@ assertEq
 (
 Atomics
 .
-futexWait
+wait
 (
 mem
 0
@@ -597,7 +597,7 @@ assertEq
 (
 Atomics
 .
-futexWake
+wake
 (
 mem
 0
@@ -634,7 +634,7 @@ assertEq
 (
 Atomics
 .
-futexWait
+wait
 (
 mem
 0
@@ -698,7 +698,7 @@ timeout
 ;
 Atomics
 .
-futexWait
+wait
 (
 mem
 0
@@ -728,7 +728,7 @@ assertEq
 (
 Atomics
 .
-futexWait
+wait
 (
 mem
 0
