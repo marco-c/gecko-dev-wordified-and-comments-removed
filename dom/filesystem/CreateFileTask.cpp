@@ -1076,7 +1076,9 @@ Work
 )
 {
 class
+MOZ_RAII
 AutoClose
+final
 {
 public
 :
