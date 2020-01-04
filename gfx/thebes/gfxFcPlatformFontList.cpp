@@ -6550,13 +6550,6 @@ foundLang
 ;
 if
 (
-fcLang
-.
-IsEmpty
-(
-)
-|
-|
 prefFonts
 -
 >
@@ -6566,9 +6559,6 @@ Length
 >
 =
 limit
-|
-|
-foundLang
 )
 {
 break
