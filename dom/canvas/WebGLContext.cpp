@@ -6515,8 +6515,12 @@ if
 gl
 -
 >
-HasRobustness
+IsSupported
 (
+GLFeature
+:
+:
+robustness
 )
 )
 {
