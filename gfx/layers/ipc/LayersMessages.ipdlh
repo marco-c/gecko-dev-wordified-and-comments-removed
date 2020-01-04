@@ -1392,6 +1392,9 @@ scrollbarDirection
 float
 scrollbarThumbRatio
 ;
+bool
+isScrollbarContainer
+;
 int8_t
 mixBlendMode
 ;
