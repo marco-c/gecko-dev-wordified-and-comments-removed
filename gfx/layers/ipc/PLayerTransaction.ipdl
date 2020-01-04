@@ -432,6 +432,10 @@ Edit
 [
 ]
 cset
+OpDestroy
+[
+]
+toDestroy
 uint64_t
 id
 TargetConfig
@@ -490,6 +494,10 @@ Edit
 [
 ]
 cset
+OpDestroy
+[
+]
+toDestroy
 uint64_t
 id
 TargetConfig

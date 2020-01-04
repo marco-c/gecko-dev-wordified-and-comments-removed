@@ -679,6 +679,15 @@ return
 mAttached
 ;
 }
+static
+void
+ReceivedDestroy
+(
+PCompositableParent
+*
+aActor
+)
+;
 virtual
 void
 Dump
