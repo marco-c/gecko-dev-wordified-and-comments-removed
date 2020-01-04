@@ -1115,8 +1115,16 @@ aSample
 mTimecode
 mInfo
 .
-ImageRect
+ScaledImageRect
 (
+img
+-
+>
+d_w
+img
+-
+>
+d_h
 )
 )
 ;
