@@ -3192,7 +3192,7 @@ mContext
 mPixelStoreUnpackAlignment
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 checked_byteLength
 .
