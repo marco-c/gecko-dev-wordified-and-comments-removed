@@ -232,6 +232,10 @@ mOwning
 (
 true
 )
+mSegments
+(
+aAP
+)
 mSize
 (
 0
@@ -918,6 +922,7 @@ BorrowingAllocPolicy
 (
 )
 )
+const
 ;
 template
 <
@@ -1698,6 +1703,7 @@ aSuccess
 BorrowingAllocPolicy
 aAP
 )
+const
 {
 BufferList
 <
