@@ -267,7 +267,7 @@ lazyRequireGetter
 (
 this
 "
-sourceUtils
+viewSource
 "
 "
 devtools
@@ -276,9 +276,9 @@ client
 /
 shared
 /
-source
+view
 -
-utils
+source
 "
 )
 ;
@@ -1674,7 +1674,7 @@ aSourceURL
 aSourceLine
 )
 {
-sourceUtils
+viewSource
 .
 viewSourceInScratchpad
 (

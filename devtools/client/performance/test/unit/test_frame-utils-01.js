@@ -606,7 +606,7 @@ functionName
 fileName
 "
 "
-hostName
+host
 "
 "
 url
@@ -918,6 +918,8 @@ js
 "
 "
 localhost
+:
+8888
 "
 "
 http
@@ -956,6 +958,8 @@ js
 "
 "
 localhost
+:
+8888
 "
 "
 http
@@ -992,6 +996,8 @@ world
 "
 "
 localhost
+:
+8888
 "
 "
 http
@@ -1025,6 +1031,8 @@ world
 "
 "
 localhost
+:
+8888
 "
 "
 http
@@ -1066,6 +1074,8 @@ html
 "
 "
 localhost
+:
+8888
 "
 "
 http
@@ -1110,6 +1120,8 @@ html
 "
 "
 localhost
+:
+8888
 "
 "
 http

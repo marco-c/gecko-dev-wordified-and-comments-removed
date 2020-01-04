@@ -685,7 +685,7 @@ functionName
 fileName
 "
 "
-hostName
+host
 "
 "
 url
@@ -1004,6 +1004,8 @@ js
 "
 "
 localhost
+:
+8888
 "
 "
 http

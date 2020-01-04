@@ -96,6 +96,11 @@ MPL
 DevToolsModules
 (
 '
+frame
+.
+js
+'
+'
 tree
 .
 js

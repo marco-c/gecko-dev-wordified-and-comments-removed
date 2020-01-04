@@ -64,11 +64,6 @@ MPL
 DevToolsModules
 (
 '
-frame
-.
-js
-'
-'
 heap
 .
 js
