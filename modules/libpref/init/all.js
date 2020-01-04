@@ -661,7 +661,7 @@ opaque
 .
 enabled
 "
-false
+true
 )
 ;
 pref
