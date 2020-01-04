@@ -580,6 +580,12 @@ override
 nsresult
 GetAddress
 (
+)
+;
+nsresult
+OnGetAddress
+(
+const
 nsACString
 &
 aAddress
