@@ -115,9 +115,9 @@ require
 "
 devtools
 /
-server
+shared
 /
-actors
+fronts
 /
 memory
 "
