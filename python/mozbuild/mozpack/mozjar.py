@@ -3198,6 +3198,10 @@ True
 optimize
 =
 True
+                 
+compress_level
+=
+9
 )
 :
         
@@ -3268,6 +3272,36 @@ Gecko
 or
 not
 .
+compress_level
+        
+defines
+the
+zlib
+compression
+level
+.
+It
+must
+be
+a
+value
+between
+0
+and
+9
+        
+and
+defaults
+to
+9
+the
+highest
+and
+slowest
+level
+of
+compression
+.
         
 '
 '
@@ -3303,6 +3337,12 @@ self
 _compress
 =
 compress
+        
+self
+.
+_compress_level
+=
+compress_level
         
 self
 .
@@ -4273,6 +4313,11 @@ deflater
 Deflater
 (
 compress
+compress_level
+=
+self
+.
+_compress_level
 )
             
 if
@@ -4718,6 +4763,9 @@ self
 compress
 =
 True
+compress_level
+=
+9
 )
 :
         
@@ -4773,10 +4821,11 @@ zlib
 .
 compressobj
 (
-9
+compress_level
 zlib
 .
 DEFLATED
+                                              
 -
 MAX_WBITS
 )
