@@ -3158,7 +3158,12 @@ changed
 {
 isPaused
 :
-false
+!
+this
+.
+isAtLeastOneAnimationPlaying
+(
+)
 isMoving
 :
 false
