@@ -168,6 +168,12 @@ public
 :
 DecodeToSurfaceRunnable
 (
+nsRefPtr
+<
+SourceSurface
+>
+&
+aSurface
 nsIInputStream
 *
 aInputStream
@@ -177,6 +183,10 @@ ImageTestCase
 aTestCase
 )
 :
+mSurface
+(
+aSurface
+)
 mInputStream
 (
 aInputStream
@@ -205,11 +215,7 @@ Go
 (
 )
 {
-nsRefPtr
-<
-SourceSurface
->
-surface
+mSurface
 =
 ImageOps
 :
@@ -231,7 +237,7 @@ DECODE_FLAGS_DEFAULT
 ;
 ASSERT_TRUE
 (
-surface
+mSurface
 !
 =
 nullptr
@@ -243,7 +249,7 @@ SurfaceType
 :
 :
 DATA
-surface
+mSurface
 -
 >
 GetType
@@ -253,7 +259,7 @@ GetType
 ;
 EXPECT_TRUE
 (
-surface
+mSurface
 -
 >
 GetFormat
@@ -267,7 +273,7 @@ SurfaceFormat
 B8G8R8X8
 |
 |
-surface
+mSurface
 -
 >
 GetFormat
@@ -286,7 +292,7 @@ EXPECT_EQ
 mTestCase
 .
 mSize
-surface
+mSurface
 -
 >
 GetSize
@@ -298,7 +304,7 @@ EXPECT_TRUE
 (
 IsSolidColor
 (
-surface
+mSurface
 BGRAColor
 :
 :
@@ -316,6 +322,13 @@ TEST_CASE_IS_FUZZY
 }
 private
 :
+nsRefPtr
+<
+SourceSurface
+>
+&
+mSurface
+;
 nsCOMPtr
 <
 nsIInputStream
@@ -384,6 +397,12 @@ rv
 )
 )
 ;
+nsRefPtr
+<
+SourceSurface
+>
+surface
+;
 nsCOMPtr
 <
 nsIRunnable
@@ -393,6 +412,7 @@ runnable
 new
 DecodeToSurfaceRunnable
 (
+surface
 inputStream
 aTestCase
 )
@@ -415,6 +435,10 @@ thread
 Shutdown
 (
 )
+;
+surface
+=
+nullptr
 ;
 }
 TEST
