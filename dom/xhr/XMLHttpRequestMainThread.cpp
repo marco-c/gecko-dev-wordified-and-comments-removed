@@ -1181,9 +1181,6 @@ Init
 nsIPrincipal
 *
 aPrincipal
-nsIScriptContext
-*
-aScriptContext
 nsIGlobalObject
 *
 aGlobalObject
