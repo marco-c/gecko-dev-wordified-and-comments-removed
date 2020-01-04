@@ -677,9 +677,6 @@ WebGLContextLossHandler
 :
 Notify
 (
-JSContext
-*
-aCx
 dom
 :
 :

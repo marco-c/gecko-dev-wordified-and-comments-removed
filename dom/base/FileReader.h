@@ -362,9 +362,6 @@ aRv
 bool
 Notify
 (
-JSContext
-*
-aCx
 workers
 :
 :

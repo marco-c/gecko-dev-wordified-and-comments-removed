@@ -10454,9 +10454,6 @@ NotificationFeature
 :
 Notify
 (
-JSContext
-*
-aCx
 Status
 aStatus
 )

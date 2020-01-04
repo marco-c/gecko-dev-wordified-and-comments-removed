@@ -3371,9 +3371,6 @@ FetchBodyFeature
 bool
 Notify
 (
-JSContext
-*
-aCx
 workers
 :
 :

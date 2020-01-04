@@ -326,9 +326,6 @@ virtual
 bool
 Notify
 (
-JSContext
-*
-aCx
 workers
 :
 :

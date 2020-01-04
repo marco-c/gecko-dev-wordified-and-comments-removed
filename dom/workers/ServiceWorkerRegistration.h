@@ -752,9 +752,6 @@ mScope
 bool
 Notify
 (
-JSContext
-*
-aCx
 workers
 :
 :

@@ -254,9 +254,6 @@ Feature
 :
 Notify
 (
-JSContext
-*
-aCx
 Status
 aStatus
 )

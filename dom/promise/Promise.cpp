@@ -12103,9 +12103,6 @@ PromiseReportRejectFeature
 :
 Notify
 (
-JSContext
-*
-aCx
 workers
 :
 :
@@ -13073,9 +13070,6 @@ PromiseWorkerProxy
 :
 Notify
 (
-JSContext
-*
-aCx
 Status
 aStatus
 )

@@ -127,9 +127,6 @@ DisableTimer
 bool
 Notify
 (
-JSContext
-*
-aCx
 dom
 :
 :

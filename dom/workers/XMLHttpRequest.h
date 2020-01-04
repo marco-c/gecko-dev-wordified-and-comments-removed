@@ -341,9 +341,6 @@ Unpin
 bool
 Notify
 (
-JSContext
-*
-aCx
 Status
 aStatus
 )
