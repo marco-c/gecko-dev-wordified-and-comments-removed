@@ -136,6 +136,11 @@ AnimationEffectReadOnly
 h
 '
 '
+AnimationEffectTimingReadOnly
+.
+h
+'
+'
 AnimationTimeline
 .
 h
@@ -209,6 +214,11 @@ cpp
 '
 '
 AnimationEffectReadOnly
+.
+cpp
+'
+'
+AnimationEffectTimingReadOnly
 .
 cpp
 '

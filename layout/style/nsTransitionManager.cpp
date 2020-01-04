@@ -286,7 +286,9 @@ sampled
 AnimationTiming
 timingToUse
 =
-mTiming
+Timing
+(
+)
 ;
 timingToUse
 .
