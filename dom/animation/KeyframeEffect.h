@@ -1184,6 +1184,12 @@ CalculateCumulativeChangeHint
 (
 )
 ;
+bool
+CanIgnoreIfNotVisible
+(
+)
+const
+;
 protected
 :
 KeyframeEffectReadOnly
