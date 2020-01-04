@@ -1005,6 +1005,14 @@ aState
 )
 override
 ;
+NS_IMETHOD
+SetFakeModal
+(
+bool
+aState
+)
+override
+;
 virtual
 bool
 IsVisible
@@ -1868,6 +1876,10 @@ nsIWidget
 *
 mParent
 ;
+nsIWidget
+*
+mAncestorLink
+;
 BaseWindow
 *
 mWindow
@@ -1917,6 +1929,9 @@ mInFullScreenTransition
 ;
 bool
 mModal
+;
+bool
+mFakeModal
 ;
 bool
 mSupportsNativeFullScreen
