@@ -3530,6 +3530,11 @@ NotificationHelper
 java
 '
 '
+NotificationReceiver
+.
+java
+'
+'
 notifications
 /
 WhatsNewReceiver
