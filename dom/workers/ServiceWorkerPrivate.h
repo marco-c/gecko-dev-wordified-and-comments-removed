@@ -271,6 +271,11 @@ return
 mWorkerPrivate
 ;
 }
+void
+Activated
+(
+)
+;
 private
 :
 enum
@@ -384,6 +389,15 @@ nsISupports
 >
 >
 mSupportsArray
+;
+nsTArray
+<
+RefPtr
+<
+WorkerRunnable
+>
+>
+mPendingFunctionalEvents
 ;
 }
 ;
