@@ -5563,7 +5563,7 @@ fling_stopped_threshold
 "
 0
 .
-1
+0
 "
 )
 ;

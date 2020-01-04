@@ -8841,6 +8841,12 @@ sContextGetter
 cg
 ;
 }
+WrapForJNI
+(
+allowMultithread
+=
+true
+)
 public
 static
 Context
