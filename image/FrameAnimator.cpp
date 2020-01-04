@@ -277,7 +277,6 @@ timeout
 =
 GetTimeoutForFrame
 (
-aState
 i
 )
 ;
@@ -352,7 +351,6 @@ timeout
 =
 GetTimeoutForFrame
 (
-aState
 aState
 .
 mCurrentAnimationFrameIndex
@@ -664,7 +662,6 @@ if
 (
 GetTimeoutForFrame
 (
-aState
 nextFrameIndex
 )
 =
@@ -1081,9 +1078,6 @@ FrameAnimator
 :
 GetTimeoutForFrame
 (
-AnimationState
-&
-aState
 uint32_t
 aFrameNum
 )
@@ -1116,20 +1110,6 @@ return
 data
 .
 mTimeout
-;
-}
-if
-(
-aFrameNum
-=
-=
-0
-)
-{
-return
-aState
-.
-mFirstFrameTimeout
 ;
 }
 NS_WARNING
