@@ -4089,6 +4089,15 @@ if
 subjectPrincipal
 &
 &
+!
+subjectPrincipal
+-
+>
+GetIsExpandedPrincipal
+(
+)
+&
+&
 docShell
 -
 >
