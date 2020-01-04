@@ -5811,11 +5811,6 @@ ProcessArchitecture
 aArch
 )
 {
-SetHandle
-(
-mExistingProcessHandle
-)
-;
 OpenPrivilegedHandle
 (
 base
