@@ -406,7 +406,7 @@ http
 /
 transport_security_state_static
 .
-certs
+pins
 ?
 format
 =
