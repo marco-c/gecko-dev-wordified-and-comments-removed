@@ -1360,7 +1360,7 @@ const
 nsACString
 &
 origin
-RefPtr
+nsRefPtr
 <
 nsStandardURL
 >
@@ -1412,7 +1412,7 @@ const
 nsACString
 &
 origin
-RefPtr
+nsRefPtr
 <
 nsStandardURL
 >
@@ -1511,7 +1511,7 @@ Append
 hostHeader
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsStandardURL
 >
@@ -4478,7 +4478,7 @@ this
 )
 ;
 return
-NS_ERROR_ILLEGAL_VALUE
+rv
 ;
 }
 nsAutoCString
@@ -4874,7 +4874,7 @@ this
 )
 ;
 return
-NS_ERROR_ILLEGAL_VALUE
+rv
 ;
 }
 nsCString
@@ -6707,7 +6707,7 @@ MapStreamToPlainText
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 SpdyConnectTransaction
 >
@@ -6746,7 +6746,7 @@ MapStreamToHttpConnection
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 SpdyConnectTransaction
 >
