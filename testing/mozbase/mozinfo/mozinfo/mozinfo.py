@@ -568,19 +568,19 @@ os_version
     
 if
 not
+distro
+and
+not
 os_version
 and
-"
-ARCH
-"
-in
-release
+not
+codename
 :
         
 distro
 =
 '
-arch
+lfs
 '
         
 version
