@@ -2403,7 +2403,7 @@ false
 nsHttpHeaderArray
 :
 :
-eVarietyDefault
+eVarietyOverride
 )
 ;
 if
@@ -2442,7 +2442,7 @@ false
 nsHttpHeaderArray
 :
 :
-eVarietyDefault
+eVarietyOverride
 )
 ;
 if
