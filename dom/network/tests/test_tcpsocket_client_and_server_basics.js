@@ -2120,16 +2120,6 @@ connectedResult
 .
 queue
 ;
-bigUint8Array
-.
-toString
-=
-Object
-.
-prototype
-.
-toString
-;
 is
 (
 clientSocket

@@ -1,15 +1,3 @@
-Uint8ClampedArray
-.
-prototype
-.
-toString
-=
-Object
-.
-prototype
-.
-toString
-;
 function
 A
 (

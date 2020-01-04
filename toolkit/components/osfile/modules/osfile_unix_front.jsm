@@ -4126,16 +4126,6 @@ getTime
 }
 if
 (
-typeof
-date
-!
-=
-=
-"
-number
-"
-|
-|
 isNaN
 (
 date

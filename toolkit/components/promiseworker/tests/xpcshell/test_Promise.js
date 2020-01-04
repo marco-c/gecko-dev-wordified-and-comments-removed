@@ -777,15 +777,10 @@ Assert
 .
 equal
 (
-Object
-.
-prototype
+result
 .
 toString
-.
-call
 (
-result
 )
 "
 [

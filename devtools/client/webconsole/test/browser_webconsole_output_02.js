@@ -530,11 +530,10 @@ Int32Array
 printOutput
 :
 "
-1
-287
-8651
-40983
-8754
+[
+object
+Int32Array
+]
 "
 inspectable
 :
