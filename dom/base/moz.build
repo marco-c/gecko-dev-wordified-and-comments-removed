@@ -1079,6 +1079,11 @@ WebSocket
 .
 h
 '
+'
+WindowOrientationObserver
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -1796,6 +1801,11 @@ cpp
 '
 '
 WindowNamedPropertiesHandler
+.
+cpp
+'
+'
+WindowOrientationObserver
 .
 cpp
 '
