@@ -1177,7 +1177,7 @@ EnsureTimeStretcherInitializedUnlocked
 )
 ;
 bool
-IsValidAudioFormat
+Downmix
 (
 Chunk
 *
@@ -1262,9 +1262,18 @@ mState
 bool
 mIsFirst
 ;
+bool
+mIsMonoAudioEnabled
+;
 DataSource
 &
 mDataSource
+;
+UniquePtr
+<
+AudioConverter
+>
+mAudioConverter
 ;
 }
 ;
