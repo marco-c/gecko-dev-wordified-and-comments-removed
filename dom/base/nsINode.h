@@ -228,7 +228,7 @@ extern
 C
 "
 void
-Servo_DropNodeData
+Servo_NodeData_Drop
 (
 ServoNodeData
 *
@@ -259,7 +259,7 @@ aPtr
 )
 const
 {
-Servo_DropNodeData
+Servo_NodeData_Drop
 (
 aPtr
 )
