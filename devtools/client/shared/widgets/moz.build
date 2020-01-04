@@ -93,6 +93,14 @@ MPL
 0
 /
 .
+DIRS
++
+=
+[
+'
+tooltip
+'
+]
 DevToolsModules
 (
 '

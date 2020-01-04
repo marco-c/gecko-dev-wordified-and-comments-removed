@@ -299,12 +299,11 @@ let
 isValid
 =
 yield
+isHoverTooltipTarget
+(
 markup
 .
 tooltip
-.
-isValidHoverTarget
-(
 element
 )
 ;
