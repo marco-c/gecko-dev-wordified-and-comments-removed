@@ -75,6 +75,9 @@ AbstractTimelineMarker
 >
 mTimelineMarkers
 ;
+bool
+mPopping
+;
 nsTArray
 <
 UniquePtr
