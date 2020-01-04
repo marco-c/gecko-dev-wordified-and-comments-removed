@@ -631,7 +631,7 @@ aParent
 nsNativeWidget
 aNativeParent
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 nsWidgetInitData
@@ -667,6 +667,10 @@ aParent
 mBounds
 =
 aRect
+.
+ToUnknownRect
+(
+)
 ;
 MozQWidget
 *

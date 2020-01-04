@@ -466,7 +466,7 @@ get
 (
 )
 nullptr
-nsIntRect
+LayoutDeviceIntRect
 (
 0
 0

@@ -3170,7 +3170,7 @@ aParent
 nsNativeWidget
 aNativeParent
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 nsWidgetInitData
@@ -3389,6 +3389,10 @@ else
 mBounds
 =
 aRect
+.
+ToUnknownRect
+(
+)
 ;
 }
 ALOG
@@ -3458,7 +3462,13 @@ Inherited
 BaseCreate
 (
 aParent
+LayoutDeviceIntRect
+:
+:
+FromUnknownRect
+(
 mBounds
+)
 aInitData
 )
 ;

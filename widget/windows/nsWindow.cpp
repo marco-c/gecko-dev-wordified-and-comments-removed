@@ -1790,7 +1790,7 @@ aParent
 nsNativeWidget
 aNativeParent
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 nsWidgetInitData
@@ -1864,6 +1864,10 @@ baseParent
 mBounds
 =
 aRect
+.
+ToUnknownRect
+(
+)
 ;
 nsToolkit
 :

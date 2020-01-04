@@ -4538,7 +4538,7 @@ mWindowType
 =
 eWindowType_child
 ;
-nsIntRect
+LayoutDeviceIntRect
 bounds
 (
 mInitInfo

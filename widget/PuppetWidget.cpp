@@ -437,7 +437,7 @@ aParent
 nsNativeWidget
 aNativeParent
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 nsWidgetInitData
@@ -470,6 +470,10 @@ aInitData
 mBounds
 =
 aRect
+.
+ToUnknownRect
+(
+)
 ;
 mEnabled
 =
@@ -667,7 +671,7 @@ PuppetWidget
 CreateChild
 (
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 nsWidgetInitData

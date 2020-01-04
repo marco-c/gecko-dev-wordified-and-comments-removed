@@ -2235,7 +2235,7 @@ view
 )
 return
 ;
-nsIntRect
+LayoutDeviceIntRect
 curDevSize
 =
 view
@@ -2422,7 +2422,7 @@ view
 )
 return
 ;
-nsIntRect
+LayoutDeviceIntRect
 curDevSize
 =
 view

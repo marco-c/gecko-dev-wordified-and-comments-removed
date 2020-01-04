@@ -947,7 +947,7 @@ aParent
 nsNativeWidget
 aNativeParent
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 nsWidgetInitData
@@ -1764,7 +1764,7 @@ nsresult
 CreatePopupContentView
 (
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 )

@@ -1294,7 +1294,7 @@ nsIWidget
 CreateChild
 (
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 nsWidgetInitData
@@ -1752,7 +1752,7 @@ nsIWidget
 *
 aParent
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 nsWidgetInitData

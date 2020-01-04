@@ -2667,7 +2667,7 @@ aParent
 nsNativeWidget
 aNativeParent
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 nsWidgetInitData
@@ -2800,6 +2800,10 @@ aNativeParent
 mBounds
 =
 aRect
+.
+ToUnknownRect
+(
+)
 ;
 if
 (
@@ -2839,7 +2843,13 @@ height
 BaseCreate
 (
 nullptr
+LayoutDeviceIntRect
+:
+:
+FromUnknownRect
+(
 mBounds
+)
 aInitData
 )
 ;

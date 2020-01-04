@@ -14640,7 +14640,7 @@ aParent
 nsNativeWidget
 aNativeParent
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 nsWidgetInitData
@@ -14747,6 +14747,10 @@ listenForResizes
 mBounds
 =
 aRect
+.
+ToUnknownRect
+(
+)
 ;
 ConstrainSize
 (

@@ -753,10 +753,6 @@ nsIWidget
 parentWidget
 nullptr
 r
-.
-ToUnknownRect
-(
-)
 &
 widgetInitData
 )
