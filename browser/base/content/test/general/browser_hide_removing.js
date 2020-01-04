@@ -127,6 +127,8 @@ function
 checkRemoved
 (
 )
+{
+return
 setTimeout
 (
 function
@@ -144,11 +146,14 @@ length
 =
 1
 )
-return
+{
 checkRemoved
 (
 )
 ;
+return
+;
+}
 is
 (
 numVisBeforeHide
@@ -188,6 +193,8 @@ finish
 }
 50
 )
+;
+}
 )
 (
 )

@@ -5,10 +5,13 @@ function
 doc
 (
 )
+{
+return
 browser
 .
 contentDocument
 ;
+}
 function
 setHandlerFunc
 (

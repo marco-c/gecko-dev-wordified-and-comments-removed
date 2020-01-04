@@ -278,10 +278,9 @@ items
 .
 filter
 (
-function
-(
 item
-)
+=
+>
 item
 .
 getAttribute

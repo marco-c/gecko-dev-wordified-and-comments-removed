@@ -590,9 +590,10 @@ defer
 ;
 setTimeout
 (
-function
 (
 )
+=
+>
 deferred
 .
 resolve

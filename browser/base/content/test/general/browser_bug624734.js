@@ -107,9 +107,10 @@ STATUS_UPDATING
 {
 waitForCondition
 (
-function
 (
 )
+=
+>
 BookmarkingUI
 .
 status

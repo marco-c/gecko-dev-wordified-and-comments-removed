@@ -6,6 +6,8 @@ index
 (
 tab
 )
+{
+return
 Array
 .
 indexOf
@@ -16,6 +18,7 @@ tabs
 tab
 )
 ;
+}
 function
 indexTest
 (

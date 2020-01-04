@@ -35,9 +35,10 @@ __defineGetter__
 "
 tab
 "
-function
 (
 )
+=
+>
 gBrowser
 .
 tabs

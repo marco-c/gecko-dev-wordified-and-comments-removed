@@ -1106,10 +1106,9 @@ gInvokedMethods
 .
 forEach
 (
-function
-(
 method
-)
+=
+>
 info
 (
 method

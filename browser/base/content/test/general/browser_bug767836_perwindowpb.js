@@ -261,9 +261,10 @@ win
 {
 executeSoon
 (
-function
 (
 )
+=
+>
 aCallback
 (
 win

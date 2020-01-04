@@ -513,9 +513,10 @@ disabled
 ;
 waitForCondition
 (
-function
 (
 )
+=
+>
 gTestWin
 .
 content
