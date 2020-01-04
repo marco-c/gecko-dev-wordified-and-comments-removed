@@ -776,17 +776,6 @@ get
 )
 ;
 }
-inline
-uint32_t
-ShadingLanguageVersion
-(
-)
-const
-{
-return
-mShadingLanguageVersion
-;
-}
 GLVendor
 Vendor
 (
@@ -877,9 +866,6 @@ mVersionString
 ;
 ContextProfile
 mProfile
-;
-uint32_t
-mShadingLanguageVersion
 ;
 GLVendor
 mVendor

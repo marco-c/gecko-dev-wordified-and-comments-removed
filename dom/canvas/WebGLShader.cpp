@@ -450,6 +450,12 @@ glesslVersion
 case
 100
 :
+if
+(
+!
+versionStrLen
+)
+{
 reversionedSource
 .
 insert
@@ -464,6 +470,7 @@ n
 "
 )
 ;
+}
 break
 ;
 case
