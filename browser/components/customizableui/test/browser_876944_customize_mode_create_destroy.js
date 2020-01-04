@@ -239,7 +239,7 @@ AREA_PANEL
 let
 expectedPlaceholders
 =
-2
+1
 +
 (
 isInDevEdition
@@ -392,17 +392,13 @@ panel
 ;
 expectedPlaceholders
 =
-1
-+
-(
 isInDevEdition
 (
 )
 ?
 1
 :
-0
-)
+3
 ;
 is
 (
