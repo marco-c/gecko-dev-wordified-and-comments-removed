@@ -983,11 +983,14 @@ InitializeWithDrawTarget
 (
 nsIDocShell
 *
+NotNull
+<
 gfx
 :
 :
 DrawTarget
 *
+>
 )
 override
 {

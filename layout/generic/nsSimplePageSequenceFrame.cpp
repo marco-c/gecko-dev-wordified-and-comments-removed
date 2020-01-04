@@ -3012,7 +3012,10 @@ ctx
 InitializeWithDrawTarget
 (
 nullptr
+WrapNotNull
+(
 canvasTarget
+)
 )
 ;
 nsWeakFrame
