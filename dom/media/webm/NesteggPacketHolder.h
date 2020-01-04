@@ -343,6 +343,10 @@ mQueue
 front
 (
 )
+.
+forget
+(
+)
 ;
 mQueue
 .

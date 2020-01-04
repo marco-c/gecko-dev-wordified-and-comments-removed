@@ -1721,6 +1721,10 @@ mSampleQueue
 front
 (
 )
+.
+forget
+(
+)
 ;
 mSampleQueue
 .
