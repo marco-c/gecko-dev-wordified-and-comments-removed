@@ -1276,6 +1276,15 @@ ins
 ;
 virtual
 void
+visitSubI64
+(
+LSubI64
+*
+ins
+)
+;
+virtual
+void
 visitMulI
 (
 LMulI
