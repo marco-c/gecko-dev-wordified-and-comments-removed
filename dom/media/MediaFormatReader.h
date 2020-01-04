@@ -159,11 +159,9 @@ HasVideo
 override
 {
 return
-mInfo
+mVideo
 .
-HasVideo
-(
-)
+mTrackDemuxer
 ;
 }
 bool
@@ -173,11 +171,9 @@ HasAudio
 override
 {
 return
-mInfo
+mAudio
 .
-HasAudio
-(
-)
+mTrackDemuxer
 ;
 }
 nsRefPtr
