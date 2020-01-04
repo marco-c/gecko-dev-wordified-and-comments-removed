@@ -12352,6 +12352,15 @@ sync
 /
 net
 /
+GzipNonChunkedCompressingEntity
+.
+java
+'
+'
+sync
+/
+net
+/
 HandleProgressException
 .
 java
