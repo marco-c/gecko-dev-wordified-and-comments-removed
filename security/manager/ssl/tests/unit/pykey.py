@@ -4290,12 +4290,6 @@ toPEM
 (
 )
 )
-    
-output
-.
-force_update
-=
-True
 if
 __name__
 =
