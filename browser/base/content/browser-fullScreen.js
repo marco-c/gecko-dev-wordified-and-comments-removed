@@ -1948,7 +1948,7 @@ hidden
 )
 ;
 let
-hostLabel
+hostElem
 =
 document
 .
@@ -1987,9 +1987,9 @@ jsm
 utils
 )
 ;
-hostLabel
+hostElem
 .
-value
+textContent
 =
 utils
 .
