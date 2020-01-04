@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+HTMLEditor
+.
+h
+"
+#
+include
+"
 nsHTMLObjectResizer
 .
 h
@@ -109,13 +118,6 @@ h
 #
 include
 "
-nsHTMLEditor
-.
-h
-"
-#
-include
-"
 nsIAtom
 .
 h
@@ -200,13 +202,6 @@ h
 #
 include
 "
-nsIHTMLEditor
-.
-h
-"
-#
-include
-"
 nsIHTMLObjectResizeListener
 .
 h
@@ -281,17 +276,6 @@ algorithm
 >
 class
 nsISelection
-;
-using
-namespace
-mozilla
-;
-using
-namespace
-mozilla
-:
-:
-dom
 ;
 NS_IMPL_ISUPPORTS
 (
@@ -403,6 +387,7 @@ NotifySelectionChanged
 (
 nsIDOMDocument
 *
+aDOMDocument
 nsISelection
 *
 aSelection
@@ -559,11 +544,18 @@ return
 NS_OK
 ;
 }
+namespace
+mozilla
+{
+using
+namespace
+dom
+;
 already_AddRefed
 <
 Element
 >
-nsHTMLEditor
+HTMLEditor
 :
 :
 CreateResizer
@@ -794,7 +786,7 @@ already_AddRefed
 <
 Element
 >
-nsHTMLEditor
+HTMLEditor
 :
 :
 CreateShadow
@@ -895,7 +887,7 @@ already_AddRefed
 <
 Element
 >
-nsHTMLEditor
+HTMLEditor
 :
 :
 CreateResizingInfo
@@ -953,7 +945,7 @@ forget
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetAllResizersPosition
@@ -1302,7 +1294,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 RefreshResizers
@@ -1370,7 +1362,7 @@ mResizedObjectY
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 ShowResizers
@@ -1404,7 +1396,7 @@ res
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 ShowResizersInner
@@ -1790,12 +1782,11 @@ res
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 HideResizers
 (
-void
 )
 {
 NS_ENSURE_TRUE
@@ -2175,7 +2166,7 @@ NS_OK
 ;
 }
 void
-nsHTMLEditor
+HTMLEditor
 :
 :
 HideShadowAndInfo
@@ -2230,7 +2221,7 @@ true
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 StartResizing
@@ -2651,7 +2642,7 @@ result
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 MouseDown
@@ -2793,7 +2784,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 MouseUp
@@ -2883,7 +2874,7 @@ NS_OK
 ;
 }
 void
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetResizeIncrements
@@ -2922,7 +2913,7 @@ aPreserveRatio
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetResizingInfoPosition
@@ -3348,7 +3339,7 @@ res
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetShadowPosition
@@ -3438,7 +3429,7 @@ NS_OK
 ;
 }
 int32_t
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetNewResizingIncrement
@@ -3656,7 +3647,7 @@ result
 ;
 }
 int32_t
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetNewResizingX
@@ -3700,7 +3691,7 @@ max
 ;
 }
 int32_t
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetNewResizingY
@@ -3744,7 +3735,7 @@ max
 ;
 }
 int32_t
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetNewResizingWidth
@@ -3781,7 +3772,7 @@ resized
 ;
 }
 int32_t
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetNewResizingHeight
@@ -3818,7 +3809,7 @@ resized
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 MouseMove
@@ -4196,7 +4187,7 @@ NS_OK
 ;
 }
 void
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetFinalSize
@@ -4735,7 +4726,7 @@ RefreshResizers
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetResizedObject
@@ -4776,7 +4767,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetObjectResizingEnabled
@@ -4796,7 +4787,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetObjectResizingEnabled
@@ -4814,7 +4805,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 AddObjectResizeEventListener
@@ -4873,7 +4864,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 RemoveObjectResizeEventListener
@@ -4933,4 +4924,5 @@ aListener
 return
 NS_OK
 ;
+}
 }

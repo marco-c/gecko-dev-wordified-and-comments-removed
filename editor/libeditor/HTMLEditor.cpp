@@ -1,7 +1,9 @@
 #
 include
 "
-nsHTMLEditor
+mozilla
+/
+HTMLEditor
 .
 h
 "
@@ -326,6 +328,13 @@ h
 #
 include
 "
+nsHTMLObjectResizer
+.
+h
+"
+#
+include
+"
 nsIWidget
 .
 h
@@ -442,22 +451,15 @@ StyleSheetHandleInlines
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 using
 namespace
-mozilla
-:
-:
 dom
 ;
 using
 namespace
-mozilla
-:
-:
 widget
 ;
 static
@@ -512,16 +514,13 @@ namedanchor
 )
 ;
 }
-nsHTMLEditor
+HTMLEditor
 :
 :
-nsHTMLEditor
+HTMLEditor
 (
 )
 :
-nsPlaintextEditor
-(
-)
 mCRInParagraphCreatesParagraph
 (
 false
@@ -676,11 +675,11 @@ mGridSize
 )
 {
 }
-nsHTMLEditor
+HTMLEditor
 :
 :
 ~
-nsHTMLEditor
+HTMLEditor
 (
 )
 {
@@ -828,7 +827,7 @@ RemoveEventListeners
 ;
 }
 void
-nsHTMLEditor
+HTMLEditor
 :
 :
 HideAnonymousEditingUIs
@@ -862,11 +861,11 @@ HideResizers
 }
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
-nsHTMLEditor
+HTMLEditor
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
-nsHTMLEditor
+HTMLEditor
 nsPlaintextEditor
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
@@ -887,7 +886,7 @@ HideAnonymousEditingUIs
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
-nsHTMLEditor
+HTMLEditor
 nsPlaintextEditor
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
@@ -1005,17 +1004,17 @@ mAddRowAfterButton
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_ADDREF_INHERITED
 (
-nsHTMLEditor
+HTMLEditor
 nsEditor
 )
 NS_IMPL_RELEASE_INHERITED
 (
-nsHTMLEditor
+HTMLEditor
 nsEditor
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
-nsHTMLEditor
+HTMLEditor
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -1054,7 +1053,7 @@ NS_INTERFACE_MAP_END_INHERITING
 nsPlaintextEditor
 )
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 Init
@@ -1389,7 +1388,7 @@ result
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 PreDestroy
@@ -1465,7 +1464,7 @@ aDestroyingFrames
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetRootElement
@@ -1611,7 +1610,7 @@ already_AddRefed
 <
 nsIContent
 >
-nsHTMLEditor
+HTMLEditor
 :
 :
 FindSelectionRoot
@@ -1825,7 +1824,7 @@ forget
 ;
 }
 void
-nsHTMLEditor
+HTMLEditor
 :
 :
 CreateEventListeners
@@ -1848,7 +1847,7 @@ HTMLEditorEventListener
 }
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 InstallEventListeners
@@ -1892,7 +1891,7 @@ this
 ;
 }
 void
-nsHTMLEditor
+HTMLEditor
 :
 :
 RemoveEventListeners
@@ -1998,7 +1997,7 @@ RemoveEventListeners
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetFlags
@@ -2042,7 +2041,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 InitRules
@@ -2081,7 +2080,7 @@ this
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 BeginningOfDocument
@@ -2446,7 +2445,7 @@ selOffset
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 HandleKeyPressEvent
@@ -3318,7 +3317,7 @@ assertstr
 endif
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 NodeIsBlockStatic
@@ -3471,7 +3470,7 @@ isBlock
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 NodeIsBlockStatic
@@ -3528,7 +3527,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 NodeIsBlock
@@ -3550,7 +3549,7 @@ aIsBlock
 ;
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsBlockNode
@@ -3571,7 +3570,7 @@ aNode
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetDocumentTitle
@@ -3636,7 +3635,7 @@ transaction
 }
 Element
 *
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetBlockNodeParent
@@ -3702,7 +3701,7 @@ nullptr
 }
 nsIDOMNode
 *
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetBlockNodeParent
@@ -3758,7 +3757,7 @@ node
 }
 Element
 *
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetBlock
@@ -3794,7 +3793,7 @@ aNode
 ;
 }
 void
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsNextCharInNodeWhitespace
@@ -3971,7 +3970,7 @@ aOffset
 }
 }
 void
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsPrevCharInNodeWhitespace
@@ -4142,7 +4141,7 @@ aOffset
 }
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsVisBreak
@@ -4332,7 +4331,7 @@ true
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetIsDocumentEditable
@@ -4372,7 +4371,7 @@ NS_OK
 ;
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsModifiable
@@ -4387,7 +4386,7 @@ IsReadonly
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 UpdateBaseURL
@@ -4464,7 +4463,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 TypedText
@@ -4523,7 +4522,7 @@ aAction
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 TabInTable
@@ -4837,7 +4836,7 @@ NS_OK
 }
 Element
 *
-nsHTMLEditor
+HTMLEditor
 :
 :
 CreateBR
@@ -4904,7 +4903,7 @@ ret
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 CreateBR
@@ -4952,7 +4951,7 @@ aSelect
 ;
 }
 void
-nsHTMLEditor
+HTMLEditor
 :
 :
 CollapseSelectionToDeepestNonTableFirstChild
@@ -5072,7 +5071,7 @@ node
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 ReplaceHeadContentsWithHTML
@@ -5401,7 +5400,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 RebuildDocumentFromSource
@@ -6102,7 +6101,7 @@ BeginningOfDocument
 ;
 }
 void
-nsHTMLEditor
+HTMLEditor
 :
 :
 NormalizeEOLInsertPosition
@@ -6302,7 +6301,7 @@ brOffset
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 InsertElementAtSelection
@@ -6734,7 +6733,7 @@ res
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 InsertNodeAtPoint
@@ -6989,7 +6988,7 @@ res
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 SelectElement
@@ -7127,7 +7126,7 @@ res
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetCaretAfterElement
@@ -7248,7 +7247,7 @@ res
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetParagraphFormat
@@ -7310,7 +7309,7 @@ tag
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetParagraphState
@@ -7370,7 +7369,7 @@ outFormat
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetBackgroundColorState
@@ -7419,7 +7418,7 @@ res
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetHighlightColorState
@@ -7473,7 +7472,7 @@ res
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetCSSBackgroundColorState
@@ -7813,7 +7812,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetHTMLBackgroundColorState
@@ -7984,7 +7983,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetListState
@@ -8061,7 +8060,7 @@ aDL
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetListItemState
@@ -8138,7 +8137,7 @@ aDD
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetAlignment
@@ -8204,7 +8203,7 @@ aAlign
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetIndentState
@@ -8267,7 +8266,7 @@ aCanOutdent
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 MakeOrChangeList
@@ -8671,7 +8670,7 @@ res
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 RemoveList
@@ -8826,7 +8825,7 @@ res
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 MakeDefinitionItem
@@ -8971,7 +8970,7 @@ res
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 InsertBasicBlock
@@ -9346,7 +9345,7 @@ res
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 Indent
@@ -9800,7 +9799,7 @@ res
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 Align
@@ -9933,7 +9932,7 @@ already_AddRefed
 <
 Element
 >
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetElementOrParentByTagName
@@ -10366,7 +10365,7 @@ nullptr
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetElementOrParentByTagName
@@ -10457,7 +10456,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetSelectedElement
@@ -11356,7 +11355,7 @@ already_AddRefed
 <
 Element
 >
-nsHTMLEditor
+HTMLEditor
 :
 :
 CreateElementWithDefaults
@@ -11675,7 +11674,7 @@ forget
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 CreateElementWithDefaults
@@ -11749,7 +11748,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 InsertLinkAroundSelection
@@ -12026,7 +12025,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetHTMLBackgroundColor
@@ -12235,7 +12234,7 @@ res
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetBodyAttribute
@@ -12290,7 +12289,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetLinkedObjects
@@ -12499,7 +12498,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 AddStyleSheet
@@ -12534,7 +12533,7 @@ aURL
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 ReplaceStyleSheet
@@ -12655,7 +12654,7 @@ this
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 RemoveStyleSheet
@@ -12755,7 +12754,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 AddOverrideStyleSheet
@@ -12886,7 +12885,7 @@ sheet
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 ReplaceOverrideStyleSheet
@@ -12956,7 +12955,7 @@ aURL
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 RemoveOverrideStyleSheet
@@ -13034,7 +13033,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 EnableStyleSheet
@@ -13129,7 +13128,7 @@ aEnable
 ;
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 EnableExistingStyleSheet
@@ -13226,7 +13225,7 @@ false
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 AddNewStyleSheetToList
@@ -13294,7 +13293,7 @@ NS_ERROR_UNEXPECTED
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 RemoveStyleSheetFromList
@@ -13348,7 +13347,7 @@ NS_OK
 ;
 }
 StyleSheetHandle
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetStyleSheetForURL
@@ -13401,7 +13400,7 @@ foundIndex
 ;
 }
 void
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetURLForStyleSheet
@@ -13442,7 +13441,7 @@ foundIndex
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetEmbeddedObjects
@@ -13680,7 +13679,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 DeleteSelectionImpl
@@ -14011,7 +14010,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 DeleteNode
@@ -14040,7 +14039,7 @@ node
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 DeleteNode
@@ -14092,7 +14091,7 @@ aNode
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 DeleteText
@@ -14133,7 +14132,7 @@ aLength
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 InsertTextImpl
@@ -14184,7 +14183,7 @@ aDoc
 ;
 }
 void
-nsHTMLEditor
+HTMLEditor
 :
 :
 ContentAppended
@@ -14213,7 +14212,7 @@ eAppended
 ;
 }
 void
-nsHTMLEditor
+HTMLEditor
 :
 :
 ContentInserted
@@ -14242,7 +14241,7 @@ eInserted
 ;
 }
 void
-nsHTMLEditor
+HTMLEditor
 :
 :
 DoContentInserted
@@ -14296,7 +14295,7 @@ NewRunnableMethod
 (
 this
 &
-nsHTMLEditor
+HTMLEditor
 :
 :
 ResetRootElementAndEventTarget
@@ -14455,7 +14454,7 @@ range
 }
 }
 void
-nsHTMLEditor
+HTMLEditor
 :
 :
 ContentRemoved
@@ -14503,7 +14502,7 @@ NewRunnableMethod
 (
 this
 &
-nsHTMLEditor
+HTMLEditor
 :
 :
 ResetRootElementAndEventTarget
@@ -14573,7 +14572,7 @@ NS_IMETHODIMP_
 (
 bool
 )
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsModifiableNode
@@ -14602,7 +14601,7 @@ node
 ;
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsModifiableNode
@@ -14626,7 +14625,7 @@ IsEditable
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetIsSelectionEditable
@@ -14846,7 +14845,7 @@ childCount
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetHeadContentsAsHTML
@@ -15063,7 +15062,7 @@ res
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 DebugUnitTests
@@ -15128,7 +15127,7 @@ NS_ERROR_NOT_IMPLEMENTED
 endif
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 StyleSheetLoaded
@@ -15268,7 +15267,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 StartOperation
@@ -15319,7 +15318,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 EndOperation
@@ -15367,7 +15366,7 @@ res
 ;
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 TagCanContainTag
@@ -15449,7 +15448,7 @@ childTagEnum
 ;
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsContainer
@@ -15520,7 +15519,7 @@ tagEnum
 ;
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsContainer
@@ -15559,7 +15558,7 @@ node
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 SelectEntireDocument
@@ -15653,7 +15652,7 @@ aSelection
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 SelectAll
@@ -15852,7 +15851,7 @@ rootElement
 ;
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsTextPropertySetByContent
@@ -15907,7 +15906,7 @@ isSet
 ;
 }
 void
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsTextPropertySetByContent
@@ -16170,7 +16169,7 @@ nullptr
 }
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetCaretInTableCell
@@ -16288,7 +16287,7 @@ node
 }
 Element
 *
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetEnclosingTable
@@ -16348,7 +16347,7 @@ nullptr
 }
 nsIDOMNode
 *
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetEnclosingTable
@@ -16366,7 +16365,7 @@ null
 node
 passed
 to
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetEnclosingTable
@@ -16417,7 +16416,7 @@ ret
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 CollapseAdjacentTextNodes
@@ -16713,7 +16712,7 @@ result
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetSelectionAtDocumentStart
@@ -16752,7 +16751,7 @@ rootElement
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 RemoveBlockContainer
@@ -17045,7 +17044,7 @@ NS_OK
 }
 nsIContent
 *
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetPriorHTMLSibling
@@ -17098,7 +17097,7 @@ node
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetPriorHTMLSibling
@@ -17159,7 +17158,7 @@ NS_OK
 }
 nsIContent
 *
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetPriorHTMLSibling
@@ -17214,7 +17213,7 @@ node
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetPriorHTMLSibling
@@ -17278,7 +17277,7 @@ NS_OK
 }
 nsIContent
 *
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetNextHTMLSibling
@@ -17331,7 +17330,7 @@ node
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetNextHTMLSibling
@@ -17392,7 +17391,7 @@ NS_OK
 }
 nsIContent
 *
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetNextHTMLSibling
@@ -17447,7 +17446,7 @@ node
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetNextHTMLSibling
@@ -17511,7 +17510,7 @@ NS_OK
 }
 nsIContent
 *
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetPriorHTMLNode
@@ -17550,7 +17549,7 @@ aNoBlockCrossing
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetPriorHTMLNode
@@ -17609,7 +17608,7 @@ NS_OK
 }
 nsIContent
 *
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetPriorHTMLNode
@@ -17651,7 +17650,7 @@ aNoBlockCrossing
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetPriorHTMLNode
@@ -17713,7 +17712,7 @@ NS_OK
 }
 nsIContent
 *
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetNextHTMLNode
@@ -17762,7 +17761,7 @@ result
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetNextHTMLNode
@@ -17821,7 +17820,7 @@ NS_OK
 }
 nsIContent
 *
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetNextHTMLNode
@@ -17868,7 +17867,7 @@ content
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetNextHTMLNode
@@ -17929,7 +17928,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsFirstEditableChild
@@ -18005,7 +18004,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsLastEditableChild
@@ -18082,7 +18081,7 @@ NS_OK
 }
 nsIContent
 *
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetFirstEditableChild
@@ -18132,7 +18131,7 @@ child
 }
 nsIContent
 *
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetLastEditableChild
@@ -18182,7 +18181,7 @@ child
 }
 nsIContent
 *
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetFirstEditableLeaf
@@ -18255,7 +18254,7 @@ child
 }
 nsIContent
 *
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetLastEditableLeaf
@@ -18328,7 +18327,7 @@ child
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsVisTextNode
@@ -18555,7 +18554,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsEmptyNode
@@ -18597,7 +18596,7 @@ aSafeToAskFrames
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsEmptyNode
@@ -18649,7 +18648,7 @@ seenBR
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsEmptyNodeImpl
@@ -19047,7 +19046,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetAttributeOrEquivalent
@@ -19320,7 +19319,7 @@ res
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 RemoveAttributeOrEquivalent
@@ -19456,7 +19455,7 @@ res
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetIsCSSEnabled
@@ -19516,7 +19515,7 @@ flags
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetCSSBackgroundColor
@@ -20241,7 +20240,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetBackgroundColor
@@ -20285,7 +20284,7 @@ res
 ;
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 AreNodesSameType
@@ -20387,7 +20386,7 @@ AsDOMNode
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 CopyLastEditableChildStyles
@@ -20786,7 +20785,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetElementOrigin
@@ -20918,7 +20917,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 EndUpdateViewBatch
@@ -20978,7 +20977,7 @@ res
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetSelectionContainer
@@ -21028,7 +21027,7 @@ NS_OK
 }
 Element
 *
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetSelectionContainer
@@ -21363,7 +21362,7 @@ nullptr
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsAnonymousElement
@@ -21408,7 +21407,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetReturnInParagraphCreatesNewParagraph
@@ -21426,7 +21425,7 @@ NS_OK
 ;
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetReturnInParagraphCreatesNewParagraph
@@ -21438,7 +21437,7 @@ mCRInParagraphCreatesParagraph
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetReturnInParagraphCreatesNewParagraph
@@ -21461,7 +21460,7 @@ already_AddRefed
 <
 nsIContent
 >
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetFocusedContent
@@ -21638,7 +21637,7 @@ already_AddRefed
 <
 nsIContent
 >
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetFocusedContentForIME
@@ -21701,7 +21700,7 @@ forget
 ;
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsActiveInDOMWindow
@@ -21834,12 +21833,9 @@ return
 true
 ;
 }
-dom
-:
-:
 Element
 *
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetActiveEditingHost
@@ -21987,15 +21983,9 @@ GetEditingHost
 }
 already_AddRefed
 <
-mozilla
-:
-:
-dom
-:
-:
 EventTarget
 >
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetDOMEventTarget
@@ -22042,7 +22032,7 @@ forget
 ;
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 ShouldReplaceRootElement
@@ -22083,7 +22073,7 @@ mRootElement
 ;
 }
 void
-nsHTMLEditor
+HTMLEditor
 :
 :
 ResetRootElementAndEventTarget
@@ -22211,7 +22201,7 @@ SyncRealTimeSpell
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetBodyElement
@@ -22268,7 +22258,7 @@ already_AddRefed
 <
 nsINode
 >
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetFocusedNode
@@ -22378,7 +22368,7 @@ forget
 ;
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 OurWindowHasFocus
@@ -22465,7 +22455,7 @@ focusedWindow
 ;
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsAcceptableInputEvent
@@ -22778,7 +22768,7 @@ IsActiveInDOMWindow
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetPreferredIMEState
@@ -22842,7 +22832,7 @@ already_AddRefed
 <
 nsIContent
 >
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetInputEventTargetContent
@@ -22868,7 +22858,7 @@ forget
 ;
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsEditable
@@ -22917,12 +22907,9 @@ return
 true
 ;
 }
-dom
-:
-:
 Element
 *
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetEditorRoot
@@ -22934,4 +22921,5 @@ GetActiveEditingHost
 (
 )
 ;
+}
 }

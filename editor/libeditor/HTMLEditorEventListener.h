@@ -21,12 +21,12 @@ h
 class
 nsEditor
 ;
-class
-nsHTMLEditor
-;
 namespace
 mozilla
 {
+class
+HTMLEditor
+;
 class
 HTMLEditorEventListener
 final
@@ -96,7 +96,7 @@ aMouseEvent
 override
 ;
 inline
-nsHTMLEditor
+HTMLEditor
 *
 GetHTMLEditor
 (

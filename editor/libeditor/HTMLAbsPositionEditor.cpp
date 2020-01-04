@@ -1,5 +1,14 @@
 #
 include
+"
+mozilla
+/
+HTMLEditor
+.
+h
+"
+#
+include
 <
 math
 .
@@ -126,13 +135,6 @@ h
 include
 "
 nsGkAtoms
-.
-h
-"
-#
-include
-"
-nsHTMLEditor
 .
 h
 "
@@ -302,15 +304,11 @@ include
 <
 algorithm
 >
-using
 namespace
 mozilla
-;
+{
 using
 namespace
-mozilla
-:
-:
 dom
 ;
 #
@@ -318,7 +316,7 @@ define
 BLACK_BG_RGB_TRIGGER
 0xd0
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 AbsolutePositionSelection
@@ -443,7 +441,7 @@ res
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetAbsolutelyPositionedSelectionContainer
@@ -573,7 +571,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetSelectionContainerAbsolutelyPositioned
@@ -598,7 +596,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetAbsolutePositioningEnabled
@@ -618,7 +616,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetAbsolutePositioningEnabled
@@ -636,7 +634,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 RelativeChangeElementZIndex
@@ -717,7 +715,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetElementZIndex
@@ -775,7 +773,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 RelativeChangeZIndex
@@ -906,7 +904,7 @@ res
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetElementZIndex
@@ -1156,7 +1154,7 @@ already_AddRefed
 <
 Element
 >
-nsHTMLEditor
+HTMLEditor
 :
 :
 CreateGrabber
@@ -1250,7 +1248,7 @@ forget
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 RefreshGrabber
@@ -1321,7 +1319,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 HideGrabber
@@ -1436,7 +1434,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 ShowGrabberOnElement
@@ -1549,7 +1547,7 @@ RefreshGrabber
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 StartMoving
@@ -1668,7 +1666,7 @@ res
 ;
 }
 void
-nsHTMLEditor
+HTMLEditor
 :
 :
 SnapToGrid
@@ -1744,7 +1742,7 @@ mGridSize
 }
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 GrabberClicked
@@ -1840,7 +1838,7 @@ res
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 EndMoving
@@ -2007,7 +2005,7 @@ selection
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetFinalPosition
@@ -2152,7 +2150,7 @@ RefreshResizers
 ;
 }
 void
-nsHTMLEditor
+HTMLEditor
 :
 :
 AddPositioningOffset
@@ -2195,7 +2193,7 @@ positioningOffset
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 AbsolutelyPositionElement
@@ -2616,7 +2614,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetSnapToGridEnabled
@@ -2634,7 +2632,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetSnapToGridEnabled
@@ -2654,7 +2652,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetGridSize
@@ -2672,7 +2670,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetGridSize
@@ -2692,7 +2690,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetElementPosition
@@ -2735,14 +2733,11 @@ NS_OK
 ;
 }
 void
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetElementPosition
 (
-dom
-:
-:
 Element
 &
 aElement
@@ -2788,7 +2783,7 @@ aY
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetPositionedElement
@@ -2829,7 +2824,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 CheckPositionedElementBGandFG
@@ -3217,4 +3212,5 @@ NS_OK
 return
 NS_OK
 ;
+}
 }

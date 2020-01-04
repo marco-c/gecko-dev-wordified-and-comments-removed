@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+HTMLEditor
+.
+h
+"
+#
+include
+"
 EditorUtils
 .
 h
@@ -141,13 +150,6 @@ h
 #
 include
 "
-nsHTMLEditor
-.
-h
-"
-#
-include
-"
 nsIAtom
 .
 h
@@ -274,22 +276,18 @@ h
 class
 nsISupports
 ;
-using
 namespace
 mozilla
-;
+{
 using
 namespace
-mozilla
-:
-:
 dom
 ;
 static
 bool
 IsEmptyTextNode
 (
-nsHTMLEditor
+HTMLEditor
 *
 aThis
 nsINode
@@ -330,7 +328,7 @@ isEmptyTextNode
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 AddDefaultProperty
@@ -426,7 +424,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 RemoveDefaultProperty
@@ -491,7 +489,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 RemoveAllDefaultProperties
@@ -541,7 +539,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetInlineProperty
@@ -1105,7 +1103,7 @@ NS_OK
 ;
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsSimpleModifiableNode
@@ -1475,7 +1473,7 @@ element
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetInlinePropertyOnTextNode
@@ -1763,7 +1761,7 @@ aValue
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetInlinePropertyOnNodeImpl
@@ -2297,7 +2295,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 SetInlinePropertyOnNode
@@ -2534,7 +2532,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 SplitStyleAboveRange
@@ -2701,7 +2699,7 @@ res
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 SplitStyleAbovePoint
@@ -2976,7 +2974,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 ClearStyle
@@ -3301,7 +3299,7 @@ NS_OK
 ;
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 NodeIsProperty
@@ -3347,7 +3345,7 @@ a
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 ApplyDefaultProperties
@@ -3429,7 +3427,7 @@ res
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 RemoveStyleInside
@@ -3994,7 +3992,7 @@ NS_OK
 ;
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsOnlyAttribute
@@ -4122,7 +4120,7 @@ true
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 PromoteRangeIfStartsOrEndsInNamedAnchor
@@ -4385,7 +4383,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 PromoteInlineRange
@@ -4609,7 +4607,7 @@ NS_OK
 ;
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsAtFrontOfNode
@@ -4682,7 +4680,7 @@ true
 ;
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsAtEndOfNode
@@ -4764,7 +4762,7 @@ false
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetInlinePropertyBase
@@ -5576,7 +5574,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetInlineProperty
@@ -5675,7 +5673,7 @@ nullptr
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetInlinePropertyWithAttrValue
@@ -5778,7 +5776,7 @@ outValue
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 RemoveAllInlineProperties
@@ -5827,7 +5825,7 @@ ApplyDefaultProperties
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 RemoveInlineProperty
@@ -5851,7 +5849,7 @@ aAttribute
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 RemoveInlinePropertyImpl
@@ -6514,7 +6512,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 IncreaseFontSize
@@ -6532,7 +6530,7 @@ incr
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 DecreaseFontSize
@@ -6550,7 +6548,7 @@ decr
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 RelativeFontChange
@@ -7125,7 +7123,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 RelativeFontChangeOnTextNode
@@ -7412,7 +7410,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 RelativeFontChangeHelper
@@ -7569,7 +7567,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 RelativeFontChangeOnNode
@@ -7855,7 +7853,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetFontFaceState
@@ -8034,7 +8032,7 @@ res
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetFontColorState
@@ -8156,7 +8154,7 @@ res
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetIsCSSEnabled
@@ -8181,9 +8179,6 @@ static
 bool
 HasNonEmptyAttribute
 (
-dom
-:
-:
 Element
 *
 aElement
@@ -8221,14 +8216,11 @@ IsEmpty
 ;
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 HasStyleOrIdOrClass
 (
-dom
-:
-:
 Element
 *
 aElement
@@ -8271,14 +8263,11 @@ id
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 RemoveElementIfNoStyleOrIdOrClass
 (
-dom
-:
-:
 Element
 &
 aElement
@@ -8330,4 +8319,5 @@ RemoveContainer
 aElement
 )
 ;
+}
 }

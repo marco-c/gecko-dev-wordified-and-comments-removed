@@ -1,5 +1,14 @@
 #
 include
+"
+mozilla
+/
+HTMLEditor
+.
+h
+"
+#
+include
 <
 string
 .
@@ -212,13 +221,6 @@ h
 include
 "
 nsGkAtoms
-.
-h
-"
-#
-include
-"
-nsHTMLEditor
 .
 h
 "
@@ -588,15 +590,11 @@ nsILoadContext
 class
 nsISupports
 ;
-using
 namespace
 mozilla
-;
+{
 using
 namespace
-mozilla
-:
-:
 dom
 ;
 #
@@ -656,7 +654,7 @@ aResult
 )
 ;
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 LoadHTML
@@ -964,7 +962,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 InsertHTML
@@ -999,7 +997,7 @@ true
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 InsertHTMLWithContext
@@ -1049,7 +1047,7 @@ false
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 DoInsertHTMLWithContext
@@ -3270,7 +3268,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 AddInsertionListener
@@ -3311,7 +3309,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 RemoveInsertionListener
@@ -3339,7 +3337,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 DoContentFilterCallback
@@ -3432,7 +3430,7 @@ NS_OK
 ;
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 IsInLink
@@ -3522,7 +3520,7 @@ false
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 StripFormattingNodes
@@ -3675,7 +3673,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 PrepareTransferable
@@ -3683,7 +3681,7 @@ PrepareTransferable
 nsITransferable
 *
 *
-transferable
+aTransferable
 )
 {
 return
@@ -3691,7 +3689,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 PrepareHTMLTransferable
@@ -4234,7 +4232,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 ParseCFHTML
@@ -4796,13 +4794,13 @@ NS_OK
 }
 NS_IMPL_ISUPPORTS
 (
-nsHTMLEditor
+HTMLEditor
 :
 :
 BlobReader
 nsIEditorBlobListener
 )
-nsHTMLEditor
+HTMLEditor
 :
 :
 BlobReader
@@ -4813,9 +4811,9 @@ BlobReader
 BlobImpl
 *
 aBlob
-nsHTMLEditor
+HTMLEditor
 *
-aEditor
+aHTMLEditor
 bool
 aIsSafe
 nsIDOMDocument
@@ -4834,9 +4832,9 @@ mBlob
 (
 aBlob
 )
-mEditor
+mHTMLEditor
 (
-aEditor
+aHTMLEditor
 )
 mIsSafe
 (
@@ -4866,7 +4864,7 @@ mBlob
 ;
 MOZ_ASSERT
 (
-mEditor
+mHTMLEditor
 )
 ;
 MOZ_ASSERT
@@ -4876,7 +4874,7 @@ mDestinationNode
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 BlobReader
@@ -4929,12 +4927,12 @@ rv
 AutoEditBatch
 beginBatching
 (
-mEditor
+mHTMLEditor
 )
 ;
 rv
 =
-mEditor
+mHTMLEditor
 -
 >
 DoInsertHTMLWithContext
@@ -4963,7 +4961,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 BlobReader
@@ -5047,7 +5045,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 InsertObject
@@ -5433,7 +5431,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 InsertFromTransferable
@@ -6088,7 +6086,7 @@ aOutputString
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 InsertFromDataTransfer
@@ -6594,7 +6592,7 @@ NS_OK
 ;
 }
 bool
-nsHTMLEditor
+HTMLEditor
 :
 :
 HavePrivateHTMLFlavor
@@ -6657,7 +6655,7 @@ false
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 Paste
@@ -7102,7 +7100,7 @@ true
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 PasteTransferable
@@ -7176,7 +7174,7 @@ true
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 PasteNoFormatting
@@ -7345,7 +7343,7 @@ kGIFImageMime
 }
 ;
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 CanPaste
@@ -7472,7 +7470,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 CanPasteTransferable
@@ -7642,7 +7640,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 PasteAsQuotation
@@ -7675,7 +7673,7 @@ aSelectionType
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 PasteAsCitedQuotation
@@ -7846,7 +7844,7 @@ aSelectionType
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 PasteAsPlaintextQuotation
@@ -8111,7 +8109,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 InsertTextWithQuotations
@@ -8373,7 +8371,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 InsertAsQuotation
@@ -8416,7 +8414,7 @@ aNodeInserted
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 InsertAsPlaintextQuotation
@@ -8716,7 +8714,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 StripCites
@@ -8733,7 +8731,7 @@ StripCites
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 Rewrap
@@ -8753,7 +8751,7 @@ aRespectNewlines
 ;
 }
 NS_IMETHODIMP
-nsHTMLEditor
+HTMLEditor
 :
 :
 InsertAsCitedQuotation
@@ -9422,7 +9420,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 CreateDOMFragmentFromPaste
@@ -9971,7 +9969,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLEditor
+HTMLEditor
 :
 :
 ParseFragment
@@ -10079,7 +10077,7 @@ rv
 ;
 }
 void
-nsHTMLEditor
+HTMLEditor
 :
 :
 CreateListOfNodesToPaste
@@ -10205,7 +10203,7 @@ outNodeList
 ;
 }
 void
-nsHTMLEditor
+HTMLEditor
 :
 :
 GetListAndTableParents
@@ -10324,7 +10322,7 @@ AsElement
 }
 }
 int32_t
-nsHTMLEditor
+HTMLEditor
 :
 :
 DiscoverPartialListsAndTables
@@ -10590,7 +10588,7 @@ ret
 }
 nsINode
 *
-nsHTMLEditor
+HTMLEditor
 :
 :
 ScanForListAndTableStructure
@@ -10817,7 +10815,7 @@ nullptr
 ;
 }
 void
-nsHTMLEditor
+HTMLEditor
 :
 :
 ReplaceOrphanedStructure
@@ -11003,6 +11001,7 @@ InsertElementAt
 replaceNode
 )
 ;
+}
 }
 }
 }

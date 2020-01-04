@@ -53,14 +53,14 @@ Text
 h
 "
 class
-nsHTMLEditor
-;
-class
 nsIDOMNode
 ;
 namespace
 mozilla
 {
+class
+HTMLEditor
+;
 class
 HTMLEditRules
 ;
@@ -545,7 +545,7 @@ eAfter
 ;
 WSRunObject
 (
-nsHTMLEditor
+HTMLEditor
 *
 aHTMLEditor
 nsINode
@@ -557,7 +557,7 @@ aOffset
 ;
 WSRunObject
 (
-nsHTMLEditor
+HTMLEditor
 *
 aHTMLEditor
 nsIDOMNode
@@ -576,7 +576,7 @@ static
 nsresult
 ScrubBlockBoundary
 (
-nsHTMLEditor
+HTMLEditor
 *
 aHTMLEditor
 BlockBoundary
@@ -595,7 +595,7 @@ static
 nsresult
 PrepareToJoinBlocks
 (
-nsHTMLEditor
+HTMLEditor
 *
 aHTMLEditor
 dom
@@ -616,7 +616,7 @@ static
 nsresult
 PrepareToDeleteRange
 (
-nsHTMLEditor
+HTMLEditor
 *
 aHTMLEditor
 nsCOMPtr
@@ -643,7 +643,7 @@ static
 nsresult
 PrepareToDeleteNode
 (
-nsHTMLEditor
+HTMLEditor
 *
 aHTMLEditor
 nsIContent
@@ -655,7 +655,7 @@ static
 nsresult
 PrepareToSplitAcrossBlocks
 (
-nsHTMLEditor
+HTMLEditor
 *
 aHTMLEditor
 nsCOMPtr
@@ -1281,7 +1281,7 @@ WSFragment
 *
 mEndRun
 ;
-nsHTMLEditor
+HTMLEditor
 *
 mHTMLEditor
 ;
@@ -1291,7 +1291,7 @@ HTMLEditRules
 ;
 friend
 class
-nsHTMLEditor
+HTMLEditor
 ;
 }
 ;
