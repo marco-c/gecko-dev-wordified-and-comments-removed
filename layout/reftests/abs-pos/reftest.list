@@ -1322,12 +1322,6 @@ fuzzy
 if
 (
 Android
-&
-&
-AndroidVersion
->
-=
-15
 12
 50
 )
@@ -1362,12 +1356,6 @@ fuzzy
 if
 (
 Android
-&
-&
-AndroidVersion
->
-=
-15
 12
 50
 )

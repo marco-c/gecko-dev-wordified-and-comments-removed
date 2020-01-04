@@ -2418,12 +2418,6 @@ if
 (
 (
 Android
-&
-&
-AndroidVersion
-!
-=
-15
 )
 |
 |

@@ -162,18 +162,6 @@ asyncPan
 -
 8
 )
-skip
--
-if
-(
-Android
-&
-&
-AndroidVersion
-=
-=
-17
-)
 HTTP
 (
 .
@@ -196,8 +184,6 @@ html
 #
 bug
 1019192
-bug
-936226
 asserts
 -
 if

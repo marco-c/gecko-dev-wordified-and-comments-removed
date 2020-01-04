@@ -1042,11 +1042,6 @@ skip
 if
 (
 Android
-&
-&
-AndroidVersion
->
-15
 )
 HTTP
 (
@@ -1100,11 +1095,6 @@ skip
 if
 (
 Android
-&
-&
-AndroidVersion
->
-15
 )
 HTTP
 (

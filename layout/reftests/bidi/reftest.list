@@ -98,17 +98,6 @@ bidi
 ref
 .
 html
-fails
--
-if
-(
-Android
-&
-&
-AndroidVersion
-<
-15
-)
 =
 =
 bidi
@@ -123,9 +112,6 @@ bidi
 ref
 .
 html
-#
-bug
-736726
 =
 =
 bidi
