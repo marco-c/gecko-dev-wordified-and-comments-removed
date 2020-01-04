@@ -139,9 +139,6 @@ apply
 .
 *
 /
-[
-NoInterfaceObject
-]
 interface
 SVGZoomAndPan
 {
