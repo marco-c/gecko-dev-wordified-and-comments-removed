@@ -1498,6 +1498,14 @@ GetMozMediaSourceObject
 )
 const
 ;
+void
+GetMozDebugReaderData
+(
+nsAString
+&
+aString
+)
+;
 already_AddRefed
 <
 DOMMediaStream

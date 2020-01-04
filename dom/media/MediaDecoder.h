@@ -1430,6 +1430,16 @@ NextFrameBufferedStatus
 (
 )
 ;
+virtual
+void
+GetMozDebugReaderData
+(
+nsAString
+&
+aString
+)
+{
+}
 protected
 :
 virtual

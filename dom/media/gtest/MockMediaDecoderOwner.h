@@ -22,7 +22,6 @@ MediaDecoderOwner
 {
 public
 :
-virtual
 nsresult
 DispatchAsyncEvent
 (
@@ -37,7 +36,6 @@ return
 NS_OK
 ;
 }
-virtual
 void
 FireTimeUpdate
 (
@@ -47,7 +45,6 @@ aPeriodic
 override
 {
 }
-virtual
 bool
 GetPaused
 (
@@ -58,7 +55,6 @@ return
 false
 ;
 }
-virtual
 void
 MetadataLoaded
 (
@@ -76,7 +72,6 @@ aTags
 override
 {
 }
-virtual
 void
 NetworkError
 (
@@ -84,7 +79,6 @@ NetworkError
 override
 {
 }
-virtual
 void
 DecodeError
 (
@@ -92,7 +86,6 @@ DecodeError
 override
 {
 }
-virtual
 void
 LoadAborted
 (
@@ -100,7 +93,6 @@ LoadAborted
 override
 {
 }
-virtual
 void
 PlaybackEnded
 (
@@ -108,7 +100,6 @@ PlaybackEnded
 override
 {
 }
-virtual
 void
 SeekStarted
 (
@@ -116,7 +107,6 @@ SeekStarted
 override
 {
 }
-virtual
 void
 SeekCompleted
 (
@@ -124,7 +114,6 @@ SeekCompleted
 override
 {
 }
-virtual
 void
 DownloadProgressed
 (
@@ -132,7 +121,6 @@ DownloadProgressed
 override
 {
 }
-virtual
 void
 UpdateReadyState
 (
@@ -140,7 +128,6 @@ UpdateReadyState
 override
 {
 }
-virtual
 void
 FirstFrameLoaded
 (
@@ -151,7 +138,6 @@ override
 #
 ifdef
 MOZ_EME
-virtual
 void
 DispatchEncrypted
 (
@@ -172,7 +158,6 @@ override
 }
 #
 endif
-virtual
 bool
 IsActive
 (
@@ -184,7 +169,6 @@ return
 true
 ;
 }
-virtual
 bool
 IsHidden
 (
@@ -196,7 +180,6 @@ return
 false
 ;
 }
-virtual
 void
 DownloadSuspended
 (
@@ -204,7 +187,6 @@ DownloadSuspended
 override
 {
 }
-virtual
 void
 DownloadResumed
 (
@@ -214,7 +196,6 @@ aForceNetworkLoading
 override
 {
 }
-virtual
 void
 NotifySuspendedByCache
 (
@@ -224,7 +205,6 @@ aIsSuspended
 override
 {
 }
-virtual
 void
 NotifyDecoderPrincipalChanged
 (
@@ -232,7 +212,6 @@ NotifyDecoderPrincipalChanged
 override
 {
 }
-virtual
 VideoFrameContainer
 *
 GetVideoFrameContainer
@@ -244,7 +223,6 @@ return
 nullptr
 ;
 }
-virtual
 void
 ResetConnectionState
 (
