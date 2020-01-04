@@ -277,7 +277,7 @@ save
 {
 this
 .
-save
+onEditorSaveRequested
 (
 )
 ;
@@ -441,7 +441,7 @@ error
 )
 ;
 }
-save
+onEditorSaveRequested
 :
 function
 (
