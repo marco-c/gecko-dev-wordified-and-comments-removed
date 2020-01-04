@@ -494,10 +494,9 @@ ReaderShutdown
 void
 OnNotDemuxed
 (
-MediaDecoderReader
-:
-:
-NotDecodedReason
+const
+MediaResult
+&
 aReason
 )
 {

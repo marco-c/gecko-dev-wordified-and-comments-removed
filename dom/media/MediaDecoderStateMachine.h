@@ -860,11 +860,10 @@ MediaData
 :
 Type
 aType
-MediaDecoderReader
-:
-:
-NotDecodedReason
-aReason
+const
+MediaResult
+&
+aError
 )
 ;
 void

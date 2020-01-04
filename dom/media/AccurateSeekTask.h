@@ -174,10 +174,9 @@ MediaData
 :
 :
 Type
-MediaDecoderReader
-:
-:
-NotDecodedReason
+const
+MediaResult
+&
 )
 ;
 void

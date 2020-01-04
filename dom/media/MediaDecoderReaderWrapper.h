@@ -72,10 +72,7 @@ Variant
 <
 MediaData
 *
-MediaDecoderReader
-:
-:
-NotDecodedReason
+MediaResult
 >
 AudioCallbackData
 ;
@@ -88,10 +85,7 @@ MediaData
 *
 TimeStamp
 >
-MediaDecoderReader
-:
-:
-NotDecodedReason
+MediaResult
 >
 VideoCallbackData
 ;

@@ -540,7 +540,7 @@ mSeekPromise
 .
 RejectIfExists
 (
-NS_ERROR_FAILURE
+NS_ERROR_DOM_MEDIA_CANCELED
 __func__
 )
 ;
@@ -578,7 +578,7 @@ mAudio
 .
 RejectPromise
 (
-CANCELED
+NS_ERROR_DOM_MEDIA_CANCELED
 __func__
 )
 ;
@@ -689,7 +689,7 @@ mVideo
 .
 RejectPromise
 (
-CANCELED
+NS_ERROR_DOM_MEDIA_CANCELED
 __func__
 )
 ;
@@ -2925,7 +2925,7 @@ MediaDataPromise
 :
 CreateAndReject
 (
-DECODE_ERROR
+NS_ERROR_DOM_MEDIA_FATAL_ERR
 __func__
 )
 ;
@@ -2956,7 +2956,7 @@ MediaDataPromise
 :
 CreateAndReject
 (
-CANCELED
+NS_ERROR_DOM_MEDIA_CANCELED
 __func__
 )
 ;
@@ -2983,7 +2983,7 @@ MediaDataPromise
 :
 CreateAndReject
 (
-CANCELED
+NS_ERROR_DOM_MEDIA_CANCELED
 __func__
 )
 ;
@@ -3001,7 +3001,7 @@ MediaDataPromise
 :
 CreateAndReject
 (
-CANCELED
+NS_ERROR_DOM_MEDIA_CANCELED
 __func__
 )
 ;
@@ -3256,7 +3256,7 @@ decoder
 .
 RejectPromise
 (
-CANCELED
+NS_ERROR_DOM_MEDIA_CANCELED
 __func__
 )
 ;
@@ -3553,7 +3553,7 @@ MediaDataPromise
 :
 CreateAndReject
 (
-DECODE_ERROR
+NS_ERROR_DOM_MEDIA_FATAL_ERR
 __func__
 )
 ;
@@ -3571,7 +3571,7 @@ MediaDataPromise
 :
 CreateAndReject
 (
-CANCELED
+NS_ERROR_DOM_MEDIA_CANCELED
 __func__
 )
 ;
@@ -3602,7 +3602,7 @@ MediaDataPromise
 :
 CreateAndReject
 (
-CANCELED
+NS_ERROR_DOM_MEDIA_CANCELED
 __func__
 )
 ;
@@ -3629,7 +3629,7 @@ MediaDataPromise
 :
 CreateAndReject
 (
-CANCELED
+NS_ERROR_DOM_MEDIA_CANCELED
 __func__
 )
 ;
@@ -6828,7 +6828,13 @@ decoder
 .
 RejectPromise
 (
-DECODE_ERROR
+decoder
+.
+mError
+.
+ref
+(
+)
 __func__
 )
 ;
@@ -6889,7 +6895,7 @@ decoder
 .
 RejectPromise
 (
-END_OF_STREAM
+NS_ERROR_DOM_MEDIA_END_OF_STREAM
 __func__
 )
 ;
@@ -6990,7 +6996,7 @@ decoder
 .
 RejectPromise
 (
-WAITING_FOR_DATA
+NS_ERROR_DOM_MEDIA_WAITING_FOR_DATA
 __func__
 )
 ;
@@ -7078,7 +7084,7 @@ decoder
 .
 RejectPromise
 (
-END_OF_STREAM
+NS_ERROR_DOM_MEDIA_END_OF_STREAM
 __func__
 )
 ;
@@ -8074,7 +8080,7 @@ mVideo
 .
 RejectPromise
 (
-CANCELED
+NS_ERROR_DOM_MEDIA_CANCELED
 __func__
 )
 ;
@@ -8125,7 +8131,7 @@ mAudio
 .
 RejectPromise
 (
-CANCELED
+NS_ERROR_DOM_MEDIA_CANCELED
 __func__
 )
 ;
@@ -8977,7 +8983,7 @@ mVideo
 .
 RejectPromise
 (
-CANCELED
+NS_ERROR_DOM_MEDIA_CANCELED
 __func__
 )
 ;
