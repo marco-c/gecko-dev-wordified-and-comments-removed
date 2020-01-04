@@ -296,6 +296,11 @@ options
 SH_UNROLL_FOR_LOOP_WITH_SAMPLER_ARRAY_INDEX
 ;
 }
+options
+|
+=
+SH_REGENERATE_STRUCT_NAMES
+;
 }
 #
 endif
