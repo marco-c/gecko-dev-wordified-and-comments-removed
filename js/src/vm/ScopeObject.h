@@ -1314,6 +1314,13 @@ HandleAtom
 exportName
 )
 ;
+bool
+hasImportBinding
+(
+HandlePropertyName
+name
+)
+;
 private
 :
 static
