@@ -7,7 +7,6 @@ const
 {
 Cc
 Ci
-Cu
 }
 =
 require
@@ -2733,11 +2732,11 @@ options
 .
 forEach
 (
-rule
+oneRule
 =
 >
 {
-rule
+oneRule
 .
 pseudoElement
 =
@@ -2747,7 +2746,7 @@ rules
 .
 push
 (
-rule
+oneRule
 )
 ;
 }
@@ -2761,7 +2760,7 @@ showElementStyles
 for
 (
 let
-pseudo
+readPseudo
 of
 PSEUDO_ELEMENTS_TO_READ
 )
@@ -2771,14 +2770,14 @@ this
 _getElementRules
 (
 bindingElement
-pseudo
+readPseudo
 inherited
 options
 )
 .
 forEach
 (
-rule
+oneRule
 =
 >
 {
@@ -2786,7 +2785,7 @@ rules
 .
 push
 (
-rule
+oneRule
 )
 ;
 }
@@ -4334,9 +4333,6 @@ PageStyleActor
 =
 PageStyleActor
 ;
-var
-PageStyleFront
-=
 protocol
 .
 FrontClass
@@ -5167,6 +5163,7 @@ rawRule
 "
 ]
 "
+;
 }
 form
 :
@@ -6775,7 +6772,6 @@ _parentSheet
 let
 [
 selector
-pseudoProp
 ]
 =
 value
@@ -7108,9 +7104,6 @@ modifiedStylesReturn
 }
 )
 ;
-var
-StyleRuleFront
-=
 protocol
 .
 FrontClass
@@ -8091,7 +8084,6 @@ function
 (
 index
 name
-newName
 )
 {
 this
@@ -8132,10 +8124,6 @@ createProperty
 :
 function
 (
-index
-name
-value
-priority
 )
 {
 }
