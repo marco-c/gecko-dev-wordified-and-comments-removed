@@ -3409,10 +3409,8 @@ have_modern_ssl
 hasattr
 (
 ssl
-.
-SSLContext
 '
-load_default_certs
+SSLContext
 '
 )
         
