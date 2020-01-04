@@ -10414,7 +10414,12 @@ styleSet
 )
 {
 return
-true
+mShell
+-
+>
+DidInitialize
+(
+)
 ;
 }
 return
