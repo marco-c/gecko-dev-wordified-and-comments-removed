@@ -5154,16 +5154,6 @@ i
 -
 >
 name
-;
-if
-(
-i
--
->
-streams
-)
-{
-os
 <
 <
 "
@@ -5174,9 +5164,6 @@ i
 -
 >
 streams
-;
-}
-os
 <
 <
 CRLF
