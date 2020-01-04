@@ -160,6 +160,10 @@ cx
 const
 TraceLoggerTextId
 id
+const
+ReadOnlyCompileOptions
+&
+options
 )
 ;
 private
@@ -525,6 +529,10 @@ cx
 const
 TraceLoggerTextId
 id
+const
+ReadOnlyCompileOptions
+&
+options
 )
 :
 logger
@@ -559,6 +567,7 @@ event
 (
 logger
 TraceLogger_AnnotateScripts
+options
 )
 scriptLogger
 (
@@ -604,6 +613,7 @@ traceLogger
 (
 cx
 logId
+options
 )
 keepAtoms
 (
@@ -3584,6 +3594,7 @@ traceLogger
 (
 cx
 TraceLogger_ParserCompileLazy
+options
 )
 ;
 Parser
