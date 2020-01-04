@@ -319,7 +319,7 @@ case
 NS_DRAGDROP_GESTURE
 :
 case
-NS_DRAGDROP_DRAG
+eDrag
 :
 case
 eDragEnd

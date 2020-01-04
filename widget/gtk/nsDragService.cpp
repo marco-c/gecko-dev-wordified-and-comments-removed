@@ -8756,7 +8756,7 @@ false
 ;
 FireDragEventAtSource
 (
-NS_DRAGDROP_DRAG
+eDrag
 )
 ;
 mTargetWindow

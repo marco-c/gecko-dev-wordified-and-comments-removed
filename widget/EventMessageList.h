@@ -461,7 +461,7 @@ eDragDropEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_DRAGDROP_DRAG
+eDrag
 eDragDropEventFirst
 +
 5
