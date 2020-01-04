@@ -78,7 +78,7 @@ http
 :
 /
 /
-mxr
+dxr
 .
 mozilla
 .

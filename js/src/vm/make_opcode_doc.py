@@ -91,7 +91,7 @@ http
 :
 /
 /
-mxr
+dxr
 .
 mozilla
 .

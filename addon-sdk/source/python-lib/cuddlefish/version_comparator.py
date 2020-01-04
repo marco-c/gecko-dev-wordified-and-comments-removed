@@ -46,13 +46,15 @@ http
 :
 /
 /
-mxr
+dxr
 .
 mozilla
 .
 org
 /
 mozilla
+-
+central
 /
 source
 /
