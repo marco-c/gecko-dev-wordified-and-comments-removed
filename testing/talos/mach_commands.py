@@ -370,6 +370,12 @@ config
 {
             
 '
+run_local
+'
+:
+True
+            
+'
 talos_json
 '
 :
