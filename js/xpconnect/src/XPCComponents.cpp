@@ -6977,6 +6977,8 @@ public
 nsXPCConstructor
 (
 )
+=
+delete
 ;
 nsXPCConstructor
 (

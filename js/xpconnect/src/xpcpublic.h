@@ -971,6 +971,8 @@ chars
 XPCStringConvert
 (
 )
+=
+delete
 ;
 }
 ;

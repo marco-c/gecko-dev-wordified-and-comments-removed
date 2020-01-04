@@ -2851,6 +2851,8 @@ XPCCallContext
 &
 r
 )
+=
+delete
 ;
 XPCCallContext
 &
@@ -2862,6 +2864,8 @@ XPCCallContext
 &
 r
 )
+=
+delete
 ;
 private
 :
@@ -3982,6 +3986,8 @@ XPCWrappedNativeScope
 XPCWrappedNativeScope
 (
 )
+=
+delete
 ;
 private
 :
@@ -4776,6 +4782,8 @@ aInfo
 XPCNativeInterface
 (
 )
+=
+delete
 ;
 XPCNativeInterface
 (
@@ -4843,6 +4851,8 @@ XPCNativeInterface
 &
 r
 )
+=
+delete
 ;
 XPCNativeInterface
 &
@@ -4854,6 +4864,8 @@ XPCNativeInterface
 &
 r
 )
+=
+delete
 ;
 private
 :
@@ -6174,6 +6186,8 @@ XPCNativeScriptableInfo
 &
 r
 )
+=
+delete
 ;
 XPCNativeScriptableInfo
 &
@@ -6185,6 +6199,8 @@ XPCNativeScriptableInfo
 &
 r
 )
+=
+delete
 ;
 private
 :
@@ -6762,6 +6778,8 @@ XPCWrappedNativeProto
 &
 r
 )
+=
+delete
 ;
 XPCWrappedNativeProto
 &
@@ -6773,6 +6791,8 @@ XPCWrappedNativeProto
 &
 r
 )
+=
+delete
 ;
 XPCWrappedNativeProto
 (
@@ -8184,6 +8204,8 @@ protected
 XPCWrappedNative
 (
 )
+=
+delete
 ;
 XPCWrappedNative
 (
@@ -8616,6 +8638,8 @@ nsXPCWrappedJSClass
 nsXPCWrappedJSClass
 (
 )
+=
+delete
 ;
 nsXPCWrappedJSClass
 (
@@ -9319,6 +9343,8 @@ XPCJSObjectHolder
 XPCJSObjectHolder
 (
 )
+=
+delete
 ;
 JS
 :
@@ -9746,6 +9772,8 @@ private
 XPCConvert
 (
 )
+=
+delete
 ;
 }
 ;
@@ -10141,6 +10169,8 @@ aInfo
 nsJSIID
 (
 )
+=
+delete
 ;
 private
 :
