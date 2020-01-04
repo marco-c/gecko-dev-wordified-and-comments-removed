@@ -138,12 +138,14 @@ cssWarning
 "
 Unknown
 property
-'
+\
+u2018
 -
 moz
 -
 opacity
-'
+\
+u2019
 .
 Declaration
 dropped

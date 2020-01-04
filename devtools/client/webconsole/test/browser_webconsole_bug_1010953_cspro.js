@@ -71,8 +71,8 @@ Policy
 :
 The
 page
-'
-s
+\
+u2019s
 settings
 "
 +
@@ -105,8 +105,7 @@ png
 "
 (
 \
-"
-img
+u201cimg
 -
 src
 http
@@ -117,7 +116,7 @@ example
 .
 com
 \
-"
+u201d
 )
 .
 "
@@ -133,8 +132,7 @@ Policy
 The
 page
 \
-'
-s
+u2019s
 settings
 "
 +
@@ -167,8 +165,7 @@ js
 "
 (
 \
-"
-script
+u201cscript
 -
 src
 http
@@ -179,7 +176,7 @@ example
 .
 com
 \
-"
+u201d
 )
 .
 A

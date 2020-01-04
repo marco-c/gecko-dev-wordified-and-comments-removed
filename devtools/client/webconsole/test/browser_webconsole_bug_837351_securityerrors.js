@@ -140,8 +140,7 @@ mixed
 active
 content
 \
-"
-http
+u201chttp
 :
 /
 /
@@ -150,7 +149,7 @@ example
 com
 /
 \
-"
+u201d
 "
 category
 :

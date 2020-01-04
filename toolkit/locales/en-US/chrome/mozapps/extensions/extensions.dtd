@@ -155,7 +155,6 @@ label
 "
 You
 don
-'
 t
 have
 any
@@ -193,7 +192,6 @@ label
 "
 You
 haven
-'
 t
 recently
 updated
@@ -1462,7 +1460,6 @@ this
 add
 -
 on
-'
 s
 options
 "
@@ -1493,7 +1490,6 @@ this
 add
 -
 on
-'
 s
 preferences
 "
@@ -1725,7 +1721,6 @@ footer
 "
 When
 you
-'
 re
 connected
 to
@@ -1893,7 +1888,6 @@ updates
 only
 if
 that
-'
 s
 the
 default
@@ -1947,7 +1941,6 @@ updateManual
 tooltip
 "
 Don
-'
 t
 automatically
 install
@@ -2070,7 +2063,6 @@ this
 add
 -
 on
-'
 s
 options
 "
@@ -2113,7 +2105,6 @@ this
 add
 -
 on
-'
 s
 preferences
 "
@@ -2940,7 +2931,6 @@ info
 label
 "
 What
-'
 s
 this
 ?

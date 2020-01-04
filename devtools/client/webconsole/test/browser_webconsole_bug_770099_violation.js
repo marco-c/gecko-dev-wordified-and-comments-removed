@@ -63,8 +63,8 @@ Policy
 :
 The
 page
-'
-s
+\
+u2019s
 settings
 "
 +
@@ -94,8 +94,7 @@ test
 png
 (
 \
-"
-default
+u201cdefault
 -
 src
 "
@@ -109,7 +108,7 @@ example
 .
 com
 \
-"
+u201d
 )
 .
 "

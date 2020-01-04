@@ -124,8 +124,7 @@ mixed
 active
 content
 \
-"
-http
+u201chttp
 :
 /
 /
@@ -134,7 +133,7 @@ example
 com
 /
 \
-"
+u201d
 "
 category
 :
@@ -167,8 +166,7 @@ mixed
 active
 content
 \
-"
-http
+u201chttp
 :
 /
 /
@@ -177,7 +175,7 @@ example
 com
 /
 \
-"
+u201d
 "
 category
 :
@@ -378,8 +376,7 @@ content
 +
 "
 \
-"
-http
+u201chttp
 :
 /
 /
@@ -388,7 +385,7 @@ example
 com
 /
 \
-"
+u201d
 on
 a
 secure
@@ -430,8 +427,7 @@ content
 +
 "
 \
-"
-http
+u201chttp
 :
 /
 /
@@ -451,7 +447,7 @@ blue
 .
 png
 \
-"
+u201d
 "
 +
 "
