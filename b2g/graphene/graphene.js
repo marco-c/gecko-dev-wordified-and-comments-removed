@@ -566,3 +566,15 @@ true
 ;
 #
 endif
+pref
+(
+"
+devtools
+.
+selfxss
+.
+count
+"
+5
+)
+;
