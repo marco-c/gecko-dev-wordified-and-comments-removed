@@ -235,6 +235,9 @@ OS_LIBS
 '
 msimg32
 '
+'
+imm32
+'
 ]
 #
 must
