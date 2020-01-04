@@ -450,16 +450,4 @@ observer
 serialize
 (
 )
-.
-encode
-(
-'
-utf
--
-8
-'
-'
-replace
-'
-)
 )
