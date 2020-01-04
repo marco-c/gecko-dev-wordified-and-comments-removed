@@ -2426,8 +2426,6 @@ aSource
 ProcessedMediaStream
 *
 aDest
-uint32_t
-aFlags
 uint16_t
 aInputNumber
 uint16_t
@@ -2441,10 +2439,6 @@ aSource
 mDest
 (
 aDest
-)
-mFlags
-(
-aFlags
 )
 mInputNumber
 (
@@ -2482,16 +2476,6 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 MediaInputPort
 )
-enum
-{
-FLAG_BLOCK_INPUT
-=
-0x01
-FLAG_BLOCK_OUTPUT
-=
-0x02
-}
-;
 void
 Init
 (
@@ -2646,9 +2630,6 @@ mSource
 ProcessedMediaStream
 *
 mDest
-;
-uint32_t
-mFlags
 ;
 const
 uint16_t
