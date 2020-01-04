@@ -3095,11 +3095,10 @@ MaxDifference
 )
 {
 return
-NS_SubtractHint
-(
 NS_STYLE_HINT_REFLOW
+&
+~
 nsChangeHint_ClearDescendantIntrinsics
-)
 ;
 }
 static

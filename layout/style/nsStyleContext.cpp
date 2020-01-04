@@ -4414,10 +4414,10 @@ compare
 |
 \
 (
-NS_SubtractHint
 (
 maxDifference
-\
+&
+~
 differenceAlwaysHandledForDescendants
 )
 &
@@ -5633,11 +5633,10 @@ nsChangeHint_RepaintFrame
 }
 }
 return
-NS_SubtractHint
-(
 hint
+&
+~
 nsChangeHint_NeutralChange
-)
 ;
 }
 #
