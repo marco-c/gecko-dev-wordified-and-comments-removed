@@ -13415,6 +13415,8 @@ eventRegions
 )
 ;
 }
+else
+{
 nsDisplayLayerEventRegions
 *
 eventRegions
@@ -13440,6 +13442,7 @@ aBuilder
 child
 )
 ;
+}
 }
 }
 if
