@@ -714,16 +714,6 @@ nsChangeHint_AllReflowHints
 )
 #
 define
-NS_STYLE_HINT_FRAMECHANGE
-\
-nsChangeHint
-(
-NS_STYLE_HINT_REFLOW
-|
-nsChangeHint_ReconstructFrame
-)
-#
-define
 nsChangeHint_Hints_CanIgnoreIfNotVisible
 \
 nsChangeHint
