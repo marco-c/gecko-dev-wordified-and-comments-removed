@@ -1220,7 +1220,7 @@ StyleClear
 aBreakType
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 IsBlock
 (
@@ -1235,7 +1235,7 @@ before
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aBreakType
 =
@@ -1349,7 +1349,7 @@ StyleClear
 aBreakType
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 IsBlock
