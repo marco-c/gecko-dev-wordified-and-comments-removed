@@ -314,11 +314,6 @@ update_channel
 '
 ssh_key_dir
 '
-                        
-'
-stage_product
-'
-                        
 )
 runtime_config_tokens
 =
@@ -1076,12 +1071,6 @@ setup
                 
 "
 repack
-"
-                
-"
-create
--
-virtualenv
 "
                 
 "
@@ -7341,6 +7330,24 @@ credentials
 )
             
 return
+        
+self
+.
+disable_mock
+(
+)
+        
+self
+.
+create_virtualenv
+(
+)
+        
+self
+.
+enable_mock
+(
+)
         
 self
 .
