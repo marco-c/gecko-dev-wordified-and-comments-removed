@@ -509,15 +509,6 @@ MOZ_ANDROID_GCM
 fi
 #
 Enable
-Firefox
-Account
-avatars
-.
-MOZ_ANDROID_FIREFOX_ACCOUNT_PROFILES
-=
-1
-#
-Enable
 checking
 that
 add
