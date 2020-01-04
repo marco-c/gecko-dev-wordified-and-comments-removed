@@ -4892,15 +4892,6 @@ test
 (
 name
 )
-|
-|
-!
-reSimpleString
-.
-test
-(
-value
-)
 )
 {
 log
