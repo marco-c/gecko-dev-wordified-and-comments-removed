@@ -4595,7 +4595,7 @@ HandleObject
 regexp
 HandleString
 input
-uint32_t
+int32_t
 lastIndex
 bool
 sticky
@@ -4609,9 +4609,9 @@ output
 MOZ_ASSERT
 (
 lastIndex
-<
+>
 =
-INT32_MAX
+0
 )
 ;
 if
@@ -4965,9 +4965,9 @@ result
 MOZ_ASSERT
 (
 lastIndex
-<
+>
 =
-INT32_MAX
+0
 )
 ;
 if
@@ -5369,7 +5369,7 @@ HandleObject
 regexp
 HandleString
 input
-uint32_t
+int32_t
 lastIndex
 bool
 sticky
@@ -5381,9 +5381,9 @@ endIndex
 MOZ_ASSERT
 (
 lastIndex
-<
+>
 =
-INT32_MAX
+0
 )
 ;
 size_t
