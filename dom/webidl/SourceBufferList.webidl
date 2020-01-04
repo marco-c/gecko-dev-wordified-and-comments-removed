@@ -183,6 +183,14 @@ unsigned
 long
 length
 ;
+attribute
+EventHandler
+onaddsourcebuffer
+;
+attribute
+EventHandler
+onremovesourcebuffer
+;
 getter
 SourceBuffer
 (
