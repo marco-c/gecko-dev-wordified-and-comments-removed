@@ -7064,6 +7064,10 @@ mViewportType
 Unknown
 )
 {
+mDefaultElementType
+=
+kNameSpaceID_XHTML
+;
 SetContentTypeInternal
 (
 nsDependentCString
