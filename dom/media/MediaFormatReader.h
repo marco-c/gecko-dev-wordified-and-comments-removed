@@ -215,14 +215,6 @@ return
 mSeekable
 ;
 }
-int64_t
-GetEvictionOffset
-(
-double
-aTime
-)
-override
-;
 protected
 :
 void
