@@ -2493,7 +2493,6 @@ automigrate
 {
 try
 {
-return
 AutoMigrate
 .
 migrate
@@ -2502,6 +2501,8 @@ aProfileStartup
 aMigratorKey
 aProfileToMigrate
 )
+;
+return
 ;
 }
 catch
