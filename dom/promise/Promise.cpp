@@ -566,14 +566,6 @@ NS_DECL_OWNINGTHREAD
 ;
 }
 ;
-enum
-{
-SLOT_PROMISE
-=
-0
-SLOT_DATA
-}
-;
 namespace
 {
 void
@@ -608,6 +600,9 @@ js
 SetFunctionNativeReserved
 (
 aResolveFunc
+Promise
+:
+:
 SLOT_DATA
 JS
 :
@@ -625,6 +620,9 @@ js
 SetFunctionNativeReserved
 (
 aRejectFunc
+Promise
+:
+:
 SLOT_DATA
 JS
 :
@@ -666,6 +664,9 @@ js
 GetFunctionNativeReserved
 (
 aFunc
+Promise
+:
+:
 SLOT_DATA
 )
 ;
@@ -702,6 +703,9 @@ js
 GetFunctionNativeReserved
 (
 otherFuncObj
+Promise
+:
+:
 SLOT_DATA
 )
 .
@@ -716,6 +720,9 @@ js
 SetFunctionNativeReserved
 (
 aFunc
+Promise
+:
+:
 SLOT_DATA
 JS
 :
@@ -731,6 +738,9 @@ js
 SetFunctionNativeReserved
 (
 otherFuncObj
+Promise
+:
+:
 SLOT_DATA
 JS
 :
@@ -774,6 +784,9 @@ js
 GetFunctionNativeReserved
 (
 aFunc
+Promise
+:
+:
 SLOT_PROMISE
 )
 ;
