@@ -356,6 +356,15 @@ aNewBytes
 )
 ;
 extern
+bool
+NS_InputStreamIsCloneable
+(
+nsIInputStream
+*
+aSource
+)
+;
+extern
 nsresult
 NS_CloneInputStream
 (
