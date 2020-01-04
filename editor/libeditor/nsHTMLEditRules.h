@@ -748,8 +748,8 @@ aHandled
 nsresult
 StandardBreakImpl
 (
-nsIDOMNode
-*
+nsINode
+&
 aNode
 int32_t
 aOffset
@@ -760,7 +760,7 @@ dom
 :
 :
 Selection
-*
+&
 aSelection
 )
 ;
