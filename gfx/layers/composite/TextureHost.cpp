@@ -355,7 +355,7 @@ public
 explicit
 TextureParent
 (
-ISurfaceAllocator
+HostIPCAllocator
 *
 aAllocator
 )
@@ -422,7 +422,7 @@ Destroy
 )
 override
 ;
-ISurfaceAllocator
+HostIPCAllocator
 *
 mSurfaceAllocator
 ;
@@ -447,7 +447,7 @@ TextureHost
 :
 CreateIPDLActor
 (
-ISurfaceAllocator
+HostIPCAllocator
 *
 aAllocator
 const
@@ -4126,7 +4126,7 @@ TextureParent
 :
 TextureParent
 (
-ISurfaceAllocator
+HostIPCAllocator
 *
 aSurfaceAllocator
 )

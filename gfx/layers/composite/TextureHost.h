@@ -251,6 +251,9 @@ class
 SurfaceDescriptor
 ;
 class
+HostIPCAllocator
+;
+class
 ISurfaceAllocator
 ;
 class
@@ -1325,7 +1328,7 @@ PTextureParent
 *
 CreateIPDLActor
 (
-ISurfaceAllocator
+HostIPCAllocator
 *
 aAllocator
 const

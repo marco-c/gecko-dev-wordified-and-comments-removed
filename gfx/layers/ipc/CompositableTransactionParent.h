@@ -80,7 +80,7 @@ class
 CompositableParentManager
 :
 public
-ISurfaceAllocator
+HostIPCAllocator
 {
 public
 :
@@ -114,17 +114,6 @@ void
 SendPendingAsyncMessages
 (
 )
-;
-virtual
-base
-:
-:
-ProcessId
-GetChildProcessId
-(
-)
-=
-0
 ;
 void
 DestroyActor
