@@ -646,6 +646,15 @@ mIsATI
 ;
 }
 bool
+IsMesa
+(
+)
+{
+return
+mClientIsMesa
+;
+}
+bool
 GLXVersionCheck
 (
 int
