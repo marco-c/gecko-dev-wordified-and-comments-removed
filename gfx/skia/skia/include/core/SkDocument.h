@@ -210,14 +210,13 @@ void
 setMetadata
 (
 const
-SkTArray
-<
 SkDocument
 :
 :
 Attribute
->
-&
+[
+]
+int
 const
 SkTime
 :

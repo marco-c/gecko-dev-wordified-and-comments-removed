@@ -38,7 +38,7 @@ fSuppressDualSourceBlending
 (
 false
 )
-fGeometryBufferMapThreshold
+fBufferMapThreshold
 (
 -
 1
@@ -60,6 +60,11 @@ fDrawBatchBounds
 false
 )
 fMaxBatchLookback
+(
+-
+1
+)
+fMaxBatchLookahead
 (
 -
 1
@@ -86,7 +91,7 @@ bool
 fSuppressDualSourceBlending
 ;
 int
-fGeometryBufferMapThreshold
+fBufferMapThreshold
 ;
 bool
 fUseDrawInsteadOfPartialRenderTargetWrite
@@ -102,6 +107,9 @@ fDrawBatchBounds
 ;
 int
 fMaxBatchLookback
+;
+int
+fMaxBatchLookahead
 ;
 bool
 fUseShaderSwizzling

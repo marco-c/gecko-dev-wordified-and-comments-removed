@@ -14,6 +14,13 @@ h
 #
 include
 "
+SkColorSpace
+.
+h
+"
+#
+include
+"
 SkEncodedFormat
 .
 h

@@ -72,6 +72,8 @@ transforms
 )
 ;
 }
+protected
+:
 template
 <
 class
@@ -132,8 +134,6 @@ transforms
 )
 ;
 }
-protected
-:
 void
 emitTransforms
 (

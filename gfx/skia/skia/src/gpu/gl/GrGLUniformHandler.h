@@ -25,13 +25,6 @@ h
 class
 GrGLCaps
 ;
-static
-const
-int
-kUniformsPerBlock
-=
-8
-;
 class
 GrGLUniformHandler
 :
@@ -40,6 +33,13 @@ GrGLSLUniformHandler
 {
 public
 :
+static
+const
+int
+kUniformsPerBlock
+=
+8
+;
 const
 GrGLSLShaderVar
 &
@@ -137,7 +137,8 @@ override
 void
 appendUniformDecls
 (
-ShaderVisibility
+GrShaderFlags
+visibility
 SkString
 *
 )

@@ -189,7 +189,7 @@ GrGLSLPrimitiveProcessor
 :
 setupUniformColor
 (
-GrGLSLFragmentBuilder
+GrGLSLPPFragmentBuilder
 *
 fragBuilder
 GrGLSLUniformHandler
@@ -222,10 +222,7 @@ uniformHandler
 >
 addUniform
 (
-GrGLSLUniformHandler
-:
-:
-kFragment_Visibility
+kFragment_GrShaderFlag
 kVec4f_GrSLType
 kDefault_GrSLPrecision
 "

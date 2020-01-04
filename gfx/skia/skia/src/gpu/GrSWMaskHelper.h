@@ -7,6 +7,13 @@ GrSWMaskHelper_DEFINED
 #
 include
 "
+SkAutoPixmapStorage
+.
+h
+"
+#
+include
+"
 GrColor
 .
 h

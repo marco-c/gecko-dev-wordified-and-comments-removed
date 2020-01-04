@@ -136,7 +136,7 @@ kIndicesPerAAFillRect
 30
 ;
 const
-GrIndexBuffer
+GrBuffer
 *
 get_index_buffer
 (
@@ -1272,7 +1272,7 @@ setUnknownSingleComponent
 }
 static
 const
-GrIndexBuffer
+GrBuffer
 *
 GetIndexBuffer
 (

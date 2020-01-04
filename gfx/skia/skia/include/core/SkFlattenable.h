@@ -89,8 +89,10 @@ private
 :
 \
 static
+sk_sp
+<
 SkFlattenable
-*
+>
 CreateProc
 (
 SkReadBuffer
@@ -170,8 +172,10 @@ kSkXfermode_Type
 }
 ;
 typedef
+sk_sp
+<
 SkFlattenable
-*
+>
 (
 *
 Factory

@@ -43,10 +43,6 @@ define
 SK_RASTERIZE_EVEN_ROUNDING
 #
 define
-GR_GL_PER_GL_FUNC_CALLBACK
-1
-#
-define
 MOZ_SKIA
 1
 #

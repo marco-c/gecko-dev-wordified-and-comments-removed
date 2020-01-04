@@ -31,6 +31,15 @@ SkDeflateWStream
 (
 SkWStream
 *
+int
+compressionLevel
+=
+-
+1
+bool
+gzip
+=
+false
 )
 ;
 ~
@@ -65,7 +74,10 @@ private
 struct
 Impl
 ;
-SkAutoTDelete
+std
+:
+:
+unique_ptr
 <
 Impl
 >

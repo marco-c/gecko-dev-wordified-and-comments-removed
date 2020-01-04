@@ -7,6 +7,13 @@ SkFDot6_DEFINED
 #
 include
 "
+SkFixed
+.
+h
+"
+#
+include
+"
 SkScalar
 .
 h
@@ -300,6 +307,10 @@ x
 .
 015625f
 )
+#
+define
+SkFDot6ToFloat
+SkFDot6ToScalar
 inline
 SkFixed
 SkFDot6Div

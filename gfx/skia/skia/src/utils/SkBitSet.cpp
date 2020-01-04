@@ -126,7 +126,7 @@ fBitCount
 ;
 fBitData
 .
-free
+reset
 (
 )
 ;

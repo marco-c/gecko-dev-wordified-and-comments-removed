@@ -181,7 +181,7 @@ private
 bool
 fDone
 ;
-SkPODSpinlock
+SkSpinlock
 fSpinlock
 ;
 }

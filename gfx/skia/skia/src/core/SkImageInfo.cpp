@@ -360,6 +360,9 @@ kRGBA_8888_SkColorType
 case
 kBGRA_8888_SkColorType
 :
+case
+kRGBA_F16_SkColorType
+:
 if
 (
 kUnknown_SkAlphaType

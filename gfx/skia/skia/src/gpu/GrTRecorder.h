@@ -1752,8 +1752,12 @@ TItem
 &
 )
 {
-SK_CRASH
+SK_ABORT
 (
+"
+Invalid
+Operation
+"
 )
 ;
 }

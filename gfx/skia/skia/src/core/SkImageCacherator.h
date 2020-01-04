@@ -217,6 +217,8 @@ SkImage
 :
 :
 CachingHint
+bool
+willBeMipped
 )
 ;
 #

@@ -6,6 +6,11 @@ define
 SkTaskGroup_DEFINED
 #
 include
+<
+functional
+>
+#
+include
 "
 SkTypes
 .
@@ -25,9 +30,6 @@ SkTemplates
 .
 h
 "
-struct
-SkRunnable
-;
 class
 SkTaskGroup
 :
@@ -74,13 +76,6 @@ wait
 )
 ;
 }
-void
-add
-(
-SkRunnable
-*
-)
-;
 void
 add
 (

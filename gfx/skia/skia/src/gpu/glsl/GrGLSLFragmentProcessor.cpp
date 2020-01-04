@@ -173,7 +173,7 @@ SkASSERT
 outputColor
 )
 ;
-GrGLSLFragmentBuilder
+GrGLSLFPFragmentBuilder
 *
 fragBuilder
 =
@@ -251,7 +251,7 @@ EmitArgs
 args
 )
 {
-GrGLSLFragmentBuilder
+GrGLSLFPFragmentBuilder
 *
 fragBuilder
 =

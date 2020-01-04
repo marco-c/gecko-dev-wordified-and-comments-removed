@@ -105,7 +105,7 @@ kDefault_GrSLPrecision
 precision
 |
 |
-GrSLTypeIsFloatType
+GrSLTypeIsNumeric
 (
 type
 )
@@ -167,7 +167,7 @@ kDefault_GrSLPrecision
 precision
 |
 |
-GrSLTypeIsFloatType
+GrSLTypeIsNumeric
 (
 type
 )
@@ -231,7 +231,7 @@ kDefault_GrSLPrecision
 precision
 |
 |
-GrSLTypeIsFloatType
+GrSLTypeIsNumeric
 (
 type
 )
@@ -296,7 +296,7 @@ kDefault_GrSLPrecision
 precision
 |
 |
-GrSLTypeIsFloatType
+GrSLTypeIsNumeric
 (
 type
 )
@@ -362,7 +362,7 @@ kDefault_GrSLPrecision
 precision
 |
 |
-GrSLTypeIsFloatType
+GrSLTypeIsNumeric
 (
 type
 )

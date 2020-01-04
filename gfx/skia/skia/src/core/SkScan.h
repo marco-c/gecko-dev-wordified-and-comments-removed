@@ -7,6 +7,13 @@ SkScan_DEFINED
 #
 include
 "
+SkFixed
+.
+h
+"
+#
+include
+"
 SkRect
 .
 h

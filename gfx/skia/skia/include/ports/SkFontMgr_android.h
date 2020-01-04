@@ -61,6 +61,9 @@ char
 *
 fFallbackFontsXml
 ;
+bool
+fIsolated
+;
 }
 ;
 SK_API

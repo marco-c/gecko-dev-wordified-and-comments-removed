@@ -277,6 +277,11 @@ SkMask
 :
 Format
 format
+=
+SkMask
+:
+:
+kARGB32_Format
 ;
 switch
 (

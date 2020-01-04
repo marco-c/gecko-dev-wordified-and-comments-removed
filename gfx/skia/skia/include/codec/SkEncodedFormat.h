@@ -18,6 +18,7 @@ kWEBP_SkEncodedFormat
 kPKM_SkEncodedFormat
 kKTX_SkEncodedFormat
 kASTC_SkEncodedFormat
+kDNG_SkEncodedFormat
 }
 ;
 #

@@ -40,13 +40,6 @@ SkCodecPriv
 .
 h
 "
-#
-include
-"
-SkImageDecoder
-.
-h
-"
 SkBitmapRegionDecoder
 *
 SkBitmapRegionDecoder
@@ -121,7 +114,7 @@ NewFromStream
 (
 streamDeleter
 .
-detach
+release
 (
 )
 )
@@ -225,7 +218,7 @@ SkBitmapRegionCanvas
 (
 codec
 .
-detach
+release
 (
 )
 )
@@ -248,7 +241,7 @@ NewFromStream
 (
 streamDeleter
 .
-detach
+release
 (
 )
 )
@@ -327,7 +320,7 @@ SkBitmapRegionCodec
 (
 codec
 .
-detach
+release
 (
 )
 )

@@ -87,7 +87,7 @@ endif
 }
 ;
 void
-detach
+release
 (
 )
 ;

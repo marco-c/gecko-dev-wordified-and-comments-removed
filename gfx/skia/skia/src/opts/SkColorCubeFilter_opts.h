@@ -431,11 +431,6 @@ Sk4b
 :
 Load
 (
-(
-const
-uint8_t
-*
-)
 &
 lutColor00
 )
@@ -457,11 +452,6 @@ Sk4b
 :
 Load
 (
-(
-const
-uint8_t
-*
-)
 &
 lutColor01
 )
@@ -483,11 +473,6 @@ Sk4b
 :
 Load
 (
-(
-const
-uint8_t
-*
-)
 &
 lutColor10
 )
@@ -509,11 +494,6 @@ Sk4b
 :
 Load
 (
-(
-const
-uint8_t
-*
-)
 &
 lutColor11
 )

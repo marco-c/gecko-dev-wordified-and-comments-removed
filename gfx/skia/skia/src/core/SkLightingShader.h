@@ -128,7 +128,7 @@ finish
 return
 fLights
 .
-detach
+release
 (
 )
 ;
@@ -212,9 +212,11 @@ INHERITED
 }
 ;
 static
+sk_sp
+<
 SkShader
-*
-Create
+>
+Make
 (
 const
 SkBitmap

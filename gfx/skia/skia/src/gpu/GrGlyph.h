@@ -35,6 +35,13 @@ h
 #
 include
 "
+SkFixed
+.
+h
+"
+#
+include
+"
 SkPath
 .
 h
@@ -152,7 +159,7 @@ height
 ;
 }
 void
-free
+reset
 (
 )
 {

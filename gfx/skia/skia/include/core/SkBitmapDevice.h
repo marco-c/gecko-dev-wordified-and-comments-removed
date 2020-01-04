@@ -643,9 +643,11 @@ SkPaint
 )
 override
 ;
+sk_sp
+<
 SkSurface
-*
-newSurface
+>
+makeSurface
 (
 const
 SkImageInfo

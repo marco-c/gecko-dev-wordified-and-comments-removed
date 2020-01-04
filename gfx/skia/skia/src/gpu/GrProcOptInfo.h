@@ -28,9 +28,6 @@ class
 GrPrimitiveProcessor
 ;
 class
-GrProcessor
-;
-class
 GrProcOptInfo
 {
 public
@@ -62,10 +59,6 @@ true
 fInputColor
 (
 0
-)
-fReadsFragPosition
-(
-false
 )
 {
 }
@@ -247,16 +240,6 @@ return
 fInputColor
 ;
 }
-bool
-readsFragPosition
-(
-)
-const
-{
-return
-fReadsFragPosition
-;
-}
 private
 :
 void
@@ -270,8 +253,6 @@ const
 ]
 int
 cnt
-bool
-initWillReadFragPosition
 )
 ;
 GrInvariantOutput
@@ -285,9 +266,6 @@ fInputColorIsUsed
 ;
 GrColor
 fInputColor
-;
-bool
-fReadsFragPosition
 ;
 }
 ;

@@ -101,6 +101,12 @@ substitutes
 const
 override
 ;
+void
+drop
+(
+)
+override
+;
 protected
 :
 SkPDFStream
@@ -142,7 +148,10 @@ memoryStream
 }
 private
 :
-SkAutoTDelete
+std
+:
+:
+unique_ptr
 <
 SkStreamRewindable
 >

@@ -734,6 +734,8 @@ glyph
 >
 fAdvanceX
 =
+SkFixedToFloat
+(
 fTestFont
 -
 >
@@ -746,6 +748,7 @@ getGlyphID
 (
 )
 ]
+)
 ;
 glyph
 -
@@ -794,6 +797,8 @@ glyph
 >
 fAdvanceX
 =
+SkFixedToFloat
+(
 fTestFont
 -
 >
@@ -806,6 +811,7 @@ getGlyphID
 (
 )
 ]
+)
 ;
 glyph
 -
@@ -1228,14 +1234,14 @@ fMatrix
 .
 mapXY
 (
-SkFixedToScalar
+SkFloatToScalar
 (
 glyph
 -
 >
 fAdvanceX
 )
-SkFixedToScalar
+SkFloatToScalar
 (
 glyph
 -
@@ -1249,7 +1255,7 @@ glyph
 >
 fAdvanceX
 =
-SkScalarToFixed
+SkScalarToFloat
 (
 advance
 .
@@ -1261,7 +1267,7 @@ glyph
 >
 fAdvanceY
 =
-SkScalarToFixed
+SkScalarToFloat
 (
 advance
 .
@@ -1294,14 +1300,14 @@ fMatrix
 .
 mapXY
 (
-SkFixedToScalar
+SkFloatToScalar
 (
 glyph
 -
 >
 fAdvanceX
 )
-SkFixedToScalar
+SkFloatToScalar
 (
 glyph
 -
@@ -1315,7 +1321,7 @@ glyph
 >
 fAdvanceX
 =
-SkScalarToFixed
+SkScalarToFloat
 (
 advance
 .
@@ -1327,7 +1333,7 @@ glyph
 >
 fAdvanceY
 =
-SkScalarToFixed
+SkScalarToFloat
 (
 advance
 .

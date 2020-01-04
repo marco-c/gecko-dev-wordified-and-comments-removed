@@ -151,6 +151,12 @@ dump
 ;
 static
 void
+PurgeAllCaches
+(
+)
+;
+static
+void
 SetFlags
 (
 const

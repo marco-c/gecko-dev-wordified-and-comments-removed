@@ -389,7 +389,10 @@ struct
 KeyHeader
 {
 uint8_t
-fFragPosKey
+fSurfaceOriginKey
+;
+uint8_t
+fSamplePatternKey
 ;
 uint8_t
 fOutputSwizzle

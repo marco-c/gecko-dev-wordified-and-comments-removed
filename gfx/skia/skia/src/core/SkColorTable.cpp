@@ -564,7 +564,7 @@ SkColorTable
 (
 colors
 .
-detach
+release
 (
 )
 count

@@ -68,6 +68,9 @@ SkRemotableFontMgr
 struct
 IDWriteFactory
 ;
+struct
+IDWriteFontCollection
+;
 SK_API
 SkTypeface
 *
@@ -102,6 +105,11 @@ SkFontMgr_New_DirectWrite
 IDWriteFactory
 *
 factory
+=
+NULL
+IDWriteFontCollection
+*
+collection
 =
 NULL
 )

@@ -1915,7 +1915,7 @@ glyph
 >
 fAdvanceX
 =
-SkScalarToFixed
+SkScalarToFloat
 (
 vecs
 [
@@ -1930,7 +1930,7 @@ glyph
 >
 fAdvanceY
 =
-SkScalarToFixed
+SkScalarToFloat
 (
 vecs
 [

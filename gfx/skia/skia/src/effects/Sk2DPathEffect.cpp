@@ -728,8 +728,10 @@ dstP
 ;
 }
 }
+sk_sp
+<
 SkFlattenable
-*
+>
 SkLine2DPathEffect
 :
 :
@@ -764,7 +766,7 @@ return
 SkLine2DPathEffect
 :
 :
-Create
+Make
 (
 width
 matrix
@@ -893,8 +895,10 @@ p
 )
 {
 }
+sk_sp
+<
 SkFlattenable
-*
+>
 SkPath2DPathEffect
 :
 :
@@ -931,7 +935,7 @@ return
 SkPath2DPathEffect
 :
 :
-Create
+Make
 (
 matrix
 path

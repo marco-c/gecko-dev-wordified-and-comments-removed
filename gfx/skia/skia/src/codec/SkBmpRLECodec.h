@@ -209,6 +209,14 @@ opts
 )
 override
 ;
+bool
+skipRows
+(
+int
+count
+)
+override
+;
 SkSampler
 *
 getSampler
@@ -245,6 +253,10 @@ fStreamBuffer
 size_t
 fRLEBytes
 ;
+const
+size_t
+fOrigRLEBytes
+;
 uint32_t
 fCurrRLEByte
 ;
@@ -256,6 +268,9 @@ SkAutoTDelete
 SkSampler
 >
 fSampler
+;
+int
+fLinesToSkip
 ;
 typedef
 SkBmpCodec

@@ -25,5 +25,12 @@ char
 dir
 )
 ;
+SK_API
+SkFontMgr
+*
+SkFontMgr_New_Custom_Empty
+(
+)
+;
 #
 endif

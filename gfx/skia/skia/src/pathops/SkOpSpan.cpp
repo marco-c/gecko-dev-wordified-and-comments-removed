@@ -826,7 +826,7 @@ upCast
 )
 -
 >
-detach
+release
 (
 kept
 )
@@ -1917,7 +1917,7 @@ fT
 span
 -
 >
-detach
+release
 (
 this
 -
@@ -2204,7 +2204,7 @@ void
 SkOpSpan
 :
 :
-detach
+release
 (
 SkOpPtT
 *
@@ -2275,7 +2275,7 @@ segment
 )
 -
 >
-detach
+release
 (
 this
 )

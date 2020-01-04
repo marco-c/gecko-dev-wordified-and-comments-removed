@@ -6,7 +6,7 @@ SkSpinlock
 h
 "
 void
-SkPODSpinlock
+SkSpinlock
 :
 :
 contendedAcquire
@@ -15,10 +15,10 @@ contendedAcquire
 {
 while
 (
-sk_atomic_exchange
-(
-&
 fLocked
+.
+exchange
+(
 true
 sk_memory_order_acquire
 )

@@ -49,6 +49,13 @@ h
 #
 include
 "
+SkPaint
+.
+h
+"
+#
+include
+"
 SkPicture
 .
 h

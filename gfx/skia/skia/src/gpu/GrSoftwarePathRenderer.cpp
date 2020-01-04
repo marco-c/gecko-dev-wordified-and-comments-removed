@@ -22,13 +22,6 @@ h
 #
 include
 "
-GrVertexBuffer
-.
-h
-"
-#
-include
-"
 batches
 /
 GrRectBatchFactory

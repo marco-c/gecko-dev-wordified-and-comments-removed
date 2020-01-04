@@ -3451,12 +3451,6 @@ defined
 _WIN32
 &
 &
-_MSC_VER
->
-=
-1300
-&
-&
 defined
 _INC_CRTDBG
 int

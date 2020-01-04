@@ -395,7 +395,7 @@ nullptr
 ;
 }
 void
-detach
+release
 (
 SkCoincidentSpans
 *
@@ -467,7 +467,7 @@ return
 fHead
 ;
 }
-void
+bool
 mark
 (
 )

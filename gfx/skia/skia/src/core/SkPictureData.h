@@ -415,8 +415,11 @@ numOperations
 ;
 }
 const
+sk_sp
+<
 SkData
-*
+>
+&
 opData
 (
 )
@@ -788,8 +791,10 @@ SkPath
 >
 fPaths
 ;
+sk_sp
+<
 SkData
-*
+>
 fOpData
 ;
 const

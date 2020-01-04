@@ -7,13 +7,6 @@ GrTracing_DEFINED
 #
 include
 "
-GrDrawTarget
-.
-h
-"
-#
-include
-"
 GrGpu
 .
 h
@@ -51,9 +44,6 @@ public
 :
 GrGpuTraceMarkerGenerator
 (
-GrDrawTarget
-*
-target
 )
 {
 }

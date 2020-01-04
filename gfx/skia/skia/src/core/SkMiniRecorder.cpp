@@ -365,7 +365,9 @@ State
 kEmpty
 )
 {
-delete
+(
+void
+)
 this
 -
 >
@@ -612,8 +614,10 @@ y
 #
 undef
 TRY_TO_STORE
+sk_sp
+<
 SkPicture
-*
+>
 SkMiniRecorder
 :
 :
@@ -651,10 +655,12 @@ kEmpty
 ;
 \
 return
-new
+sk_make_sp
+<
 SkMiniPicture
 <
 Type
+>
 >
 (
 cull
@@ -683,7 +689,7 @@ State
 kEmpty
 :
 return
-SkRef
+sk_ref_sp
 (
 gEmptyPicture
 .

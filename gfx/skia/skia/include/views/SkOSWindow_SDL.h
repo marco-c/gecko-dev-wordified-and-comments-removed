@@ -65,7 +65,7 @@ endif
 }
 ;
 void
-detach
+release
 (
 )
 ;

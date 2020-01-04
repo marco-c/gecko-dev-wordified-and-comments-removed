@@ -11,9 +11,6 @@ GrGeometryProcessor
 .
 h
 "
-class
-GrDrawState
-;
 namespace
 GrDefaultGeoProcFactory
 {

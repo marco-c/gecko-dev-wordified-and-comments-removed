@@ -33,9 +33,11 @@ const
 ;
 virtual
 bool
-flushAndWaitFence
+waitFence
 (
 SkPlatformGpuFence
+bool
+flush
 )
 const
 =

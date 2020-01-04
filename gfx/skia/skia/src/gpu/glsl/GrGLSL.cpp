@@ -50,7 +50,13 @@ case
 k330_GrGLSLGeneration
 :
 case
+k400_GrGLSLGeneration
+:
+case
 k310es_GrGLSLGeneration
+:
+case
+k320es_GrGLSLGeneration
 :
 return
 true

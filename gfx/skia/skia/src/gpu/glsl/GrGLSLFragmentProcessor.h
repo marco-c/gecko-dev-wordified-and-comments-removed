@@ -44,7 +44,7 @@ class
 GrGLSLFPBuilder
 ;
 class
-GrGLSLFragmentBuilder
+GrGLSLFPFragmentBuilder
 ;
 class
 GrGLSLUniformHandler
@@ -112,7 +112,7 @@ EmitArgs
 {
 EmitArgs
 (
-GrGLSLFragmentBuilder
+GrGLSLFPFragmentBuilder
 *
 fragBuilder
 GrGLSLUniformHandler
@@ -178,7 +178,7 @@ samplers
 )
 {
 }
-GrGLSLFragmentBuilder
+GrGLSLFPFragmentBuilder
 *
 fFragBuilder
 ;

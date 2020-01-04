@@ -8,6 +8,13 @@ h
 #
 include
 "
+SkFixed
+.
+h
+"
+#
+include
+"
 SkMath
 .
 h

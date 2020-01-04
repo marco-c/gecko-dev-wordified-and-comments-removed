@@ -334,7 +334,6 @@ int
 size
 .
 height
-kN32_SkColorType
 )
 ;
 [
@@ -2143,6 +2142,11 @@ CGLPixelFormatAttribute
 8
 kCGLPFAAccelerated
 kCGLPFADoubleBuffer
+kCGLPFAOpenGLProfile
+(
+CGLPixelFormatAttribute
+)
+kCGLOGLPVersion_3_2_Core
 (
 CGLPixelFormatAttribute
 )

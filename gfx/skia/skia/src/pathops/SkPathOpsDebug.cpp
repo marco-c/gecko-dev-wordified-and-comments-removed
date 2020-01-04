@@ -8115,7 +8115,7 @@ first
 break
 ;
 }
-SK_ALWAYSBREAK
+SkASSERT_RELEASE
 (
 !
 angles

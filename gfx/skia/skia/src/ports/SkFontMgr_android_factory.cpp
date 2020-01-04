@@ -153,6 +153,7 @@ kOnlyCustom
 gTestBasePath
 gTestFontsXml
 gTestFallbackFontsXml
+false
 }
 ;
 return

@@ -245,7 +245,7 @@ fDWriteFontFace1
 )
 )
 {
-SK_ALWAYSBREAK
+SkASSERT_RELEASE
 (
 nullptr
 =

@@ -613,8 +613,13 @@ break
 }
 default
 :
-SK_CRASH
+SK_ABORT
 (
+"
+Invalid
+Text
+Encoding
+"
 )
 ;
 }

@@ -767,8 +767,10 @@ return
 true
 ;
 }
+sk_sp
+<
 SkFlattenable
-*
+>
 SkCornerPathEffect
 :
 :
@@ -783,7 +785,7 @@ return
 SkCornerPathEffect
 :
 :
-Create
+Make
 (
 buffer
 .

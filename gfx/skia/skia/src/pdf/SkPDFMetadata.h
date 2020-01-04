@@ -33,7 +33,10 @@ Attribute
 >
 fInfo
 ;
-SkAutoTDelete
+std
+:
+:
+unique_ptr
 <
 const
 SkTime
@@ -43,7 +46,10 @@ DateTime
 >
 fCreation
 ;
-SkAutoTDelete
+std
+:
+:
+unique_ptr
 <
 const
 SkTime

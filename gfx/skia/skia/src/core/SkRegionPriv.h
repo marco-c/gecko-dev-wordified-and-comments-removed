@@ -217,8 +217,12 @@ size
 )
 )
 {
-SK_CRASH
+SK_ABORT
 (
+"
+Invalid
+Size
+"
 )
 ;
 }

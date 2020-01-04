@@ -43,6 +43,8 @@ GrTexture
 srcTexture
 bool
 canClobberSrc
+bool
+allowSRGBInputs
 const
 SkRect
 &

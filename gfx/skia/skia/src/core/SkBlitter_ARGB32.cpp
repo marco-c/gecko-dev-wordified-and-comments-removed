@@ -365,12 +365,6 @@ nullptr
 if
 defined
 _WIN32
-&
-&
-_MSC_VER
->
-=
-1300
 #
 pragma
 warning
@@ -1854,12 +1848,6 @@ rowBytes
 if
 defined
 _WIN32
-&
-&
-_MSC_VER
->
-=
-1300
 #
 pragma
 warning

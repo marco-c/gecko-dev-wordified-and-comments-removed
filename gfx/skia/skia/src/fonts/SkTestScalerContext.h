@@ -7,6 +7,13 @@ SkTestScalerContext_DEFINED
 #
 include
 "
+SkFixed
+.
+h
+"
+#
+include
+"
 SkPaint
 .
 h

@@ -133,7 +133,7 @@ AttachmentInfo
 )
 ;
 void
-detach
+release
 (
 )
 ;
@@ -348,6 +348,13 @@ fSurface
 ;
 EGLConfig
 fConfig
+;
+SkAutoTUnref
+<
+const
+GrGLInterface
+>
+fANGLEInterface
 ;
 #
 endif

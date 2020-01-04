@@ -19,9 +19,11 @@ SkSurface
 h
 "
 extern
+sk_sp
+<
 SkImage
-*
-SkNewImageFromPixelRef
+>
+SkMakeImageFromPixelRef
 (
 const
 SkImageInfo
@@ -44,9 +46,11 @@ kYes_ForceCopyMode
 }
 ;
 extern
+sk_sp
+<
 SkImage
-*
-SkNewImageFromRasterBitmap
+>
+SkMakeImageFromRasterBitmap
 (
 const
 SkBitmap
@@ -96,8 +100,7 @@ GrDeepCopyTexture
 GrTexture
 *
 src
-bool
-isBudgeted
+SkBudgeted
 )
 ;
 #

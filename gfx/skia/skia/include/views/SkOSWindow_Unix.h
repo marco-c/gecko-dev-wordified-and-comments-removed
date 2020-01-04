@@ -158,7 +158,7 @@ AttachmentInfo
 )
 ;
 void
-detach
+release
 (
 )
 ;

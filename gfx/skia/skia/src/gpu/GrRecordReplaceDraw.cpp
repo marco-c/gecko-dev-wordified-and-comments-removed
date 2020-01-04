@@ -559,9 +559,6 @@ record
 -
 >
 visit
-<
-void
->
 (
 fOps
 [
@@ -619,9 +616,6 @@ record
 -
 >
 visit
-<
-void
->
 (
 fIndex
 *

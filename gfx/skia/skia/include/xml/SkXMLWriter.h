@@ -7,6 +7,11 @@ SkXMLWriter_DEFINED
 #
 include
 "
+.
+.
+/
+private
+/
 SkTDArray
 .
 h

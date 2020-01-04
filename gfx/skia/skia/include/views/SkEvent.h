@@ -832,6 +832,12 @@ time
 )
 ;
 static
+SkMSec
+GetMSecsSinceStartup
+(
+)
+;
+static
 void
 Init
 (

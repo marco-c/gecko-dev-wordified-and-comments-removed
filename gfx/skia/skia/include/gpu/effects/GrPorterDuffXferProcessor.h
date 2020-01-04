@@ -207,7 +207,7 @@ const
 override
 ;
 bool
-willReadDstColor
+onWillReadDstColor
 (
 const
 GrCaps

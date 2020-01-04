@@ -126,11 +126,11 @@ SkDEBUGCODE
 static
 const
 uint32_t
-kVisibilityMask
+kVisMask
 =
-kVertex_Visibility
+kVertex_GrShaderFlag
 |
-kFragment_Visibility
+kFragment_GrShaderFlag
 )
 ;
 SkASSERT
@@ -140,7 +140,7 @@ SkASSERT
 =
 (
 ~
-kVisibilityMask
+kVisMask
 &
 visibility
 )
@@ -162,7 +162,7 @@ kDefault_GrSLPrecision
 precision
 |
 |
-GrSLTypeIsFloatType
+GrSLTypeAcceptsPrecision
 (
 type
 )
@@ -307,7 +307,7 @@ GrGLUniformHandler
 :
 appendUniformDecls
 (
-ShaderVisibility
+GrShaderFlags
 visibility
 SkString
 *

@@ -611,7 +611,12 @@ isValid
 ;
 if
 (
-!
+SkBudgeted
+:
+:
+kNo
+=
+=
 this
 -
 >
@@ -861,7 +866,7 @@ if
 this
 -
 >
-cacheAccess
+resourcePriv
 (
 )
 .

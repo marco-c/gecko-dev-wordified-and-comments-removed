@@ -127,12 +127,6 @@ SkScalar
 sigmaY
 )
 ;
-virtual
-~
-GrMatrixConvolutionEffect
-(
-)
-;
 const
 SkIRect
 &

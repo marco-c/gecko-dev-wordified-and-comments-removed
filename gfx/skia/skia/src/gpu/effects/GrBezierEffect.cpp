@@ -521,7 +521,7 @@ inConicCoeffs
 fName
 )
 ;
-GrGLSLFragmentBuilder
+GrGLSLPPFragmentBuilder
 *
 fragBuilder
 =
@@ -1859,10 +1859,7 @@ uniformHandler
 >
 addUniform
 (
-GrGLSLUniformHandler
-:
-:
-kFragment_Visibility
+kFragment_GrShaderFlag
 kFloat_GrSLType
 kHigh_GrSLPrecision
 "
@@ -2781,7 +2778,7 @@ inHairQuadEdge
 fName
 )
 ;
-GrGLSLFragmentBuilder
+GrGLSLPPFragmentBuilder
 *
 fragBuilder
 =
@@ -3440,10 +3437,7 @@ uniformHandler
 >
 addUniform
 (
-GrGLSLUniformHandler
-:
-:
-kFragment_Visibility
+kFragment_GrShaderFlag
 kFloat_GrSLType
 kDefault_GrSLPrecision
 "
@@ -4254,7 +4248,7 @@ inCubicCoeffs
 fName
 )
 ;
-GrGLSLFragmentBuilder
+GrGLSLPPFragmentBuilder
 *
 fragBuilder
 =

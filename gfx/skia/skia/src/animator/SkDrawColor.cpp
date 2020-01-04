@@ -267,12 +267,6 @@ hue
 if
 defined
 _WIN32
-&
-&
-_MSC_VER
->
-=
-1300
 #
 pragma
 warning
@@ -585,12 +579,6 @@ blue
 if
 defined
 _WIN32
-&
-&
-_MSC_VER
->
-=
-1300
 #
 pragma
 warning

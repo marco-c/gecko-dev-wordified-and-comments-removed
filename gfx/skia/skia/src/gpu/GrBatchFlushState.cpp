@@ -36,10 +36,6 @@ fGpu
 (
 gpu
 )
-fUploader
-(
-gpu
-)
 fResourceProvider
 (
 resourceProvider
@@ -52,9 +48,14 @@ fIndexPool
 (
 gpu
 )
-fCurrentToken
+fLastIssuedToken
 (
-0
+GrBatchDrawToken
+:
+:
+AlreadyFlushedToken
+(
+)
 )
 fLastFlushedToken
 (
@@ -74,7 +75,7 @@ vertexSize
 int
 vertexCount
 const
-GrVertexBuffer
+GrBuffer
 *
 *
 buffer
@@ -105,7 +106,7 @@ makeIndexSpace
 int
 indexCount
 const
-GrIndexBuffer
+GrBuffer
 *
 *
 buffer

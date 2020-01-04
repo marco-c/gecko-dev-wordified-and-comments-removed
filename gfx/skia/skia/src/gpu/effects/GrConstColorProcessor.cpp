@@ -77,7 +77,7 @@ args
 )
 override
 {
-GrGLSLFragmentBuilder
+GrGLSLFPFragmentBuilder
 *
 fragBuilder
 =
@@ -99,10 +99,7 @@ fUniformHandler
 >
 addUniform
 (
-GrGLSLUniformHandler
-:
-:
-kFragment_Visibility
+kFragment_GrShaderFlag
 kVec4f_GrSLType
 kMedium_GrSLPrecision
 "

@@ -306,7 +306,7 @@ stroke
 return
 path
 .
-detach
+release
 (
 )
 ;

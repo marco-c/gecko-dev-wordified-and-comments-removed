@@ -1943,7 +1943,7 @@ getRoot
 ;
 fParser
 .
-free
+reset
 (
 )
 ;

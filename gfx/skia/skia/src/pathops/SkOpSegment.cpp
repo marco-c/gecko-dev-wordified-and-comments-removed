@@ -3996,7 +3996,7 @@ void
 SkOpSegment
 :
 :
-detach
+release
 (
 const
 SkOpSpan
@@ -9337,7 +9337,7 @@ return
 false
 ;
 }
-void
+bool
 SkOpSegment
 :
 :
@@ -9368,14 +9368,17 @@ spanAddsCount
 (
 )
 ;
-SkASSERT
+if
 (
 addCount
->
-=
+<
 1
 )
+{
+return
+false
 ;
+}
 if
 (
 addCount
@@ -9960,6 +9963,9 @@ debugValidate
 (
 )
 ;
+return
+true
+;
 }
 void
 SkOpSegment
@@ -10032,7 +10038,7 @@ upCast
 )
 -
 >
-detach
+release
 (
 spanS
 -
@@ -10063,7 +10069,7 @@ upCast
 )
 -
 >
-detach
+release
 (
 test
 -

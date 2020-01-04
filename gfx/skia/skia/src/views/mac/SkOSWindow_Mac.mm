@@ -445,7 +445,7 @@ void
 SkOSWindow
 :
 :
-detach
+release
 (
 )
 {

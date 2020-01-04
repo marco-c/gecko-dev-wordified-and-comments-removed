@@ -3711,7 +3711,7 @@ new
 (
 fStorage
 .
-detach
+release
 (
 )
 )

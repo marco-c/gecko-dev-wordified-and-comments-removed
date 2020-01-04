@@ -3184,11 +3184,6 @@ local
 )
 const
 {
-SkASSERT
-(
-this
-)
-;
 if
 (
 local

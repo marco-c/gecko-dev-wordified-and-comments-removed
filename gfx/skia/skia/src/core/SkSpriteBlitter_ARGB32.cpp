@@ -1477,7 +1477,7 @@ SkSpriteBlitter
 SkSpriteBlitter
 :
 :
-ChooseD32
+ChooseL32
 (
 const
 SkPixmap

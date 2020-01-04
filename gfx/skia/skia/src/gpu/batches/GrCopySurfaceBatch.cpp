@@ -5,9 +5,11 @@ GrCopySurfaceBatch
 .
 h
 "
-static
 bool
-clip_srcrect_and_dstpoint
+GrCopySurfaceBatch
+:
+:
+ClipSrcRectAndDstPoint
 (
 const
 GrSurface
@@ -357,7 +359,7 @@ clippedDstPoint
 if
 (
 !
-clip_srcrect_and_dstpoint
+ClipSrcRectAndDstPoint
 (
 dst
 src

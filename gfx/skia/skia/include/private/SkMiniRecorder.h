@@ -104,8 +104,10 @@ SkPaint
 &
 )
 ;
+sk_sp
+<
 SkPicture
-*
+>
 detachAsPicture
 (
 const

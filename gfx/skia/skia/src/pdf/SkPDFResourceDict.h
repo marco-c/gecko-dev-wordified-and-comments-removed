@@ -41,9 +41,11 @@ kResourceTypeCount
 }
 ;
 static
+sk_sp
+<
 SkPDFDict
-*
-Create
+>
+Make
 (
 const
 SkTDArray

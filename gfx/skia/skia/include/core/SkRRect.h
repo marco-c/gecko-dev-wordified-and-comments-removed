@@ -1036,6 +1036,11 @@ y
 )
 const
 ;
+void
+scaleRadii
+(
+)
+;
 friend
 class
 SkPath

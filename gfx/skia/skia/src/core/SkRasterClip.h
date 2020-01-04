@@ -227,7 +227,7 @@ const
 SkRect
 &
 const
-SkISize
+SkIRect
 &
 SkRegion
 :
@@ -244,7 +244,7 @@ const
 SkRRect
 &
 const
-SkISize
+SkIRect
 &
 SkRegion
 :
@@ -261,7 +261,7 @@ const
 SkPath
 &
 const
-SkISize
+SkIRect
 &
 SkRegion
 :

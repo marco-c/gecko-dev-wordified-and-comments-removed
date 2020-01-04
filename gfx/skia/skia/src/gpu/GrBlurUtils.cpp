@@ -1630,6 +1630,12 @@ SkPaintToGrPaint
 context
 paint
 viewMatrix
+drawContext
+-
+>
+allowSRGBInputs
+(
+)
 &
 grPaint
 )

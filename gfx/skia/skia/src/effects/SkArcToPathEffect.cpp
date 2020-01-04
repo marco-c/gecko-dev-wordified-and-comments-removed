@@ -355,8 +355,10 @@ return
 true
 ;
 }
+sk_sp
+<
 SkFlattenable
-*
+>
 SkArcToPathEffect
 :
 :
@@ -371,7 +373,7 @@ return
 SkArcToPathEffect
 :
 :
-Create
+Make
 (
 buffer
 .

@@ -137,10 +137,10 @@ DataId
 )
 {
 }
-explicit
 DataId
 (
 DataId
+&
 &
 that
 )
@@ -941,7 +941,7 @@ fontIndex
 return
 fontIdSet
 .
-detach
+release
 (
 )
 ;

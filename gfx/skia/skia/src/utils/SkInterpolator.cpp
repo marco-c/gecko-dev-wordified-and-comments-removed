@@ -1,6 +1,13 @@
 #
 include
 "
+SkFixed
+.
+h
+"
+#
+include
+"
 SkInterpolator
 .
 h
