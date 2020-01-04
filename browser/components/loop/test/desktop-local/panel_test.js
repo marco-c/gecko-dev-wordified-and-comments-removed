@@ -4803,6 +4803,9 @@ mountRoomEntry
 dispatcher
 :
 dispatcher
+isOpenedRoom
+:
+false
 room
 :
 new
