@@ -292,7 +292,7 @@ MOZ_B2GDROID
 '
 ]
 :
-EXTRA_PP_COMPONENTS
+EXTRA_COMPONENTS
 +
 =
 [
@@ -315,7 +315,7 @@ MOZ_UPDATER
 '
 ]
 :
-EXTRA_PP_COMPONENTS
+EXTRA_COMPONENTS
 +
 =
 [
@@ -375,6 +375,11 @@ FxAccountsMgmtService
 jsm
 '
 '
+KillSwitchMain
+.
+jsm
+'
+'
 LogCapture
 .
 jsm
@@ -426,16 +431,6 @@ jsm
 '
 '
 WebappsUpdater
-.
-jsm
-'
-]
-EXTRA_PP_JS_MODULES
-+
-=
-[
-'
-KillSwitchMain
 .
 jsm
 '

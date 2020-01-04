@@ -89,7 +89,6 @@ arrow
 .
 svg
 )
-*
 content
 /
 settings
@@ -115,7 +114,6 @@ shell
 .
 html
 )
-*
 content
 /
 shell
@@ -210,7 +208,6 @@ js
 )
 #
 endif
-*
 content
 /
 devtools
