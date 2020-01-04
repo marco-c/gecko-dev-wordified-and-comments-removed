@@ -670,12 +670,6 @@ animationFinished
 =
 true
 ;
-ret
-.
-error
-=
-true
-;
 }
 if
 (
@@ -759,12 +753,6 @@ aState
 mCurrentAnimationFrameIndex
 =
 nextFrameIndex
-;
-ret
-.
-error
-=
-true
 ;
 return
 ret
