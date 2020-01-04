@@ -2984,4 +2984,14 @@ uri
 )
 ;
 }
+WrapForJNI
+RobocopTarget
+public
+static
+native
+void
+waitOnGecko
+(
+)
+;
 }
