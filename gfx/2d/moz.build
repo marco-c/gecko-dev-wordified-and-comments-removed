@@ -753,6 +753,11 @@ DrawEventRecorder
 cpp
 '
 '
+DrawingJob
+.
+cpp
+'
+'
 DrawTarget
 .
 cpp
