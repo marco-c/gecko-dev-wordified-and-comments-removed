@@ -3330,6 +3330,11 @@ JavaAddonManagerV1
 java
 '
 '
+LauncherActivity
+.
+java
+'
+'
 lwt
 /
 LightweightTheme
@@ -4067,13 +4072,6 @@ java
 '
 '
 Tab
-.
-java
-'
-'
-tabqueue
-/
-TabQueueDispatcher
 .
 java
 '
