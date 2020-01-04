@@ -43,7 +43,7 @@ module
 '
 (
 memory
-1
+0x10000
 '
 +
 '
@@ -273,7 +273,7 @@ module
 '
 (
 memory
-1
+0x10000
 '
 +
 '
@@ -523,7 +523,7 @@ module
 '
 (
 memory
-1
+0x10000
 '
 +
 '
@@ -755,7 +755,7 @@ module
 '
 (
 memory
-1
+0x10000
 '
 +
 '
@@ -1111,7 +1111,7 @@ wasmEvalText
 module
 (
 memory
-1
+0x10000
 )
 (
 func
@@ -1219,7 +1219,7 @@ wasmEvalText
 module
 (
 memory
-1
+0x10000
 )
 (
 func
@@ -1397,7 +1397,7 @@ wasmEvalText
 module
 (
 memory
-1
+0x10000
 )
 (
 func
@@ -1450,7 +1450,7 @@ wasmEvalText
 module
 (
 memory
-1
+0x10000
 )
 (
 func
@@ -1503,7 +1503,7 @@ wasmEvalText
 module
 (
 memory
-1
+0x10000
 )
 (
 func
@@ -1556,7 +1556,7 @@ wasmEvalText
 module
 (
 memory
-1
+0x10000
 )
 (
 func
@@ -1609,7 +1609,7 @@ wasmEvalText
 module
 (
 memory
-1
+0x10000
 )
 (
 func
@@ -1662,7 +1662,7 @@ wasmEvalText
 module
 (
 memory
-1
+0x10000
 )
 (
 func
