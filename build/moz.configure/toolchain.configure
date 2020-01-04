@@ -175,7 +175,7 @@ allow_missing
 =
 True
 )
-depends
+depends_if
 (
 yasm
 )
@@ -192,9 +192,6 @@ yasm_version
 (
 yasm
 )
-:
-if
-yasm
 :
 import
 subprocess
