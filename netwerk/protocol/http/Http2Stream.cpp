@@ -3403,10 +3403,7 @@ Http2Session
 :
 :
 FRAME_TYPE_PRIORITY
-Http2Session
-:
-:
-kFlag_PRIORITY
+0
 mPushSource
 -
 >
