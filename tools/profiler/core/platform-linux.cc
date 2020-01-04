@@ -1070,6 +1070,11 @@ void
 context
 )
 {
+int
+savedErrno
+=
+errno
+;
 if
 (
 !
@@ -1086,6 +1091,10 @@ sem_post
 &
 sSignalHandlingDone
 )
+;
+errno
+=
+savedErrno
 ;
 return
 ;
@@ -1199,6 +1208,10 @@ sem_post
 &
 sSignalHandlingDone
 )
+;
+errno
+=
+savedErrno
 ;
 }
 }
