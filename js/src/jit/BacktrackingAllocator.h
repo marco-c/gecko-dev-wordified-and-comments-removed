@@ -952,7 +952,7 @@ public
 static
 LiveRange
 *
-New
+FallibleNew
 (
 TempAllocator
 &
@@ -965,6 +965,18 @@ CodePosition
 to
 )
 {
+if
+(
+!
+alloc
+.
+ensureBallast
+(
+)
+)
+return
+nullptr
+;
 return
 new
 (

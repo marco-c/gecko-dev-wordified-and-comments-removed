@@ -951,7 +951,7 @@ range
 LiveRange
 :
 :
-New
+FallibleNew
 (
 alloc
 vreg
@@ -1001,7 +1001,7 @@ range
 LiveRange
 :
 :
-New
+FallibleNew
 (
 alloc
 oldRange
@@ -1424,7 +1424,7 @@ range
 LiveRange
 :
 :
-New
+FallibleNew
 (
 alloc
 vreg
@@ -2397,7 +2397,7 @@ range
 LiveRange
 :
 :
-New
+FallibleNew
 (
 alloc
 (
@@ -2461,7 +2461,7 @@ range
 LiveRange
 :
 :
-New
+FallibleNew
 (
 alloc
 (
@@ -5793,7 +5793,7 @@ preRange
 LiveRange
 :
 :
-New
+FallibleNew
 (
 alloc
 (
@@ -5834,7 +5834,7 @@ postRange
 LiveRange
 :
 :
-New
+FallibleNew
 (
 alloc
 (
@@ -12786,7 +12786,7 @@ range
 LiveRange
 :
 :
-New
+FallibleNew
 (
 alloc
 (
@@ -17123,7 +17123,7 @@ activeRange
 LiveRange
 :
 :
-New
+FallibleNew
 (
 alloc
 (
@@ -17370,7 +17370,7 @@ activeRange
 LiveRange
 :
 :
-New
+FallibleNew
 (
 alloc
 (
