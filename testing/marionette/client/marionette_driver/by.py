@@ -65,3 +65,9 @@ ANON_ATTRIBUTE
 anon
 attribute
 "
+    
+ANON
+=
+"
+anon
+"
