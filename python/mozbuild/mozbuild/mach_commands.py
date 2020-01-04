@@ -3070,7 +3070,7 @@ telemetry_data
 =
 monitor
 .
-record_resource_usage
+get_resource_usage
 (
 )
             
