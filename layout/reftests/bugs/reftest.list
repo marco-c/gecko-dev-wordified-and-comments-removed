@@ -21758,8 +21758,8 @@ fuzzy
 if
 (
 winWidget
-1
-1
+2
+2
 )
 fuzzy
 -
@@ -21775,7 +21775,7 @@ if
 (
 gtkWidget
 4
-3
+6
 )
 =
 =
@@ -21810,8 +21810,8 @@ fuzzy
 if
 (
 winWidget
-1
-1
+2
+2
 )
 fuzzy
 -
@@ -21827,7 +21827,7 @@ if
 (
 gtkWidget
 4
-3
+6
 )
 =
 =
@@ -21862,8 +21862,8 @@ fuzzy
 if
 (
 winWidget
-1
-1
+2
+2
 )
 fuzzy
 -
@@ -21879,7 +21879,7 @@ if
 (
 gtkWidget
 4
-3
+6
 )
 =
 =
