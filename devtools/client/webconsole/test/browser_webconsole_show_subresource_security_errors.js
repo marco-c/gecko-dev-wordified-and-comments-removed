@@ -117,11 +117,13 @@ loadBrowser
 browser
 )
 ;
-content
+BrowserTestUtils
 .
-location
-=
+loadURI
+(
+browser
 TEST_DOC
+)
 ;
 yield
 loaded
