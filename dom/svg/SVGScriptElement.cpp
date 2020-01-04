@@ -600,6 +600,16 @@ this
 )
 ;
 }
+if
+(
+!
+src
+.
+IsEmpty
+(
+)
+)
+{
 nsCOMPtr
 <
 nsIURI
@@ -621,6 +631,7 @@ nullptr
 baseURI
 )
 ;
+}
 mExternal
 =
 true
