@@ -683,7 +683,7 @@ RESERVED_SLOTS
 uint32_t
 aliasedBodyLevelLexicalBegin
 =
-UINT16_MAX
+LOCALNO_LIMIT
 ;
 for
 (
