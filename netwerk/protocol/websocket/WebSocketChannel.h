@@ -1051,13 +1051,6 @@ nsIDashboardEventNotifier
 >
 mConnectionLogService
 ;
-uint32_t
-mSerial
-;
-static
-uint32_t
-sSerialSeed
-;
 Atomic
 <
 uint64_t
