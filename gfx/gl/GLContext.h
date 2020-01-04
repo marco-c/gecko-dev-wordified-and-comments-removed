@@ -11686,6 +11686,8 @@ protected
 explicit
 GLContext
 (
+CreateContextFlags
+flags
 const
 SurfaceCaps
 &

@@ -39,6 +39,8 @@ override
 )
 GLContextWGL
 (
+CreateContextFlags
+flags
 const
 SurfaceCaps
 &
@@ -60,6 +62,8 @@ nullptr
 ;
 GLContextWGL
 (
+CreateContextFlags
+flags
 const
 SurfaceCaps
 &

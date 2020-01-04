@@ -175,6 +175,8 @@ GLContextEAGL
 :
 GLContextEAGL
 (
+CreateContextFlags
+flags
 const
 SurfaceCaps
 &
@@ -193,6 +195,7 @@ profile
 :
 GLContext
 (
+flags
 caps
 sharedContext
 isOffscreen
@@ -712,6 +715,8 @@ GLContext
 >
 CreateEAGLContext
 (
+CreateContextFlags
+flags
 bool
 aOffscreen
 GLContextEAGL
@@ -848,6 +853,7 @@ glContext
 new
 GLContextEAGL
 (
+flags
 caps
 context
 sharedContext
@@ -906,6 +912,10 @@ glContext
 =
 CreateEAGLContext
 (
+CreateContextFlags
+:
+:
+NONE
 false
 GetGlobalContextEAGL
 (
@@ -968,6 +978,7 @@ flags
 return
 CreateEAGLContext
 (
+flags
 true
 GetGlobalContextEAGL
 (

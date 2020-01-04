@@ -385,6 +385,8 @@ GLContextCGL
 :
 GLContextCGL
 (
+CreateContextFlags
+flags
 const
 SurfaceCaps
 &
@@ -400,6 +402,7 @@ profile
 :
 GLContext
 (
+flags
 caps
 nullptr
 isOffscreen
@@ -1150,6 +1153,10 @@ glContext
 new
 GLContextCGL
 (
+CreateContextFlags
+:
+:
+NONE
 caps
 context
 false
@@ -1366,6 +1373,7 @@ glContext
 new
 GLContextCGL
 (
+flags
 dummyCaps
 context
 true

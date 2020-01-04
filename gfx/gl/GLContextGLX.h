@@ -53,6 +53,8 @@ GLContextGLX
 >
 CreateGLContext
 (
+CreateContextFlags
+flags
 const
 SurfaceCaps
 &
@@ -255,6 +257,8 @@ GLContextProviderGLX
 ;
 GLContextGLX
 (
+CreateContextFlags
+flags
 const
 SurfaceCaps
 &

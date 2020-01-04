@@ -59,6 +59,8 @@ override
 )
 GLContextEAGL
 (
+CreateContextFlags
+flags
 const
 SurfaceCaps
 &

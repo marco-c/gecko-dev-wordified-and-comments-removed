@@ -900,6 +900,8 @@ GLContextEGL
 :
 GLContextEGL
 (
+CreateContextFlags
+flags
 const
 SurfaceCaps
 &
@@ -919,6 +921,7 @@ context
 :
 GLContext
 (
+flags
 caps
 shareContext
 isOffscreen
@@ -2283,6 +2286,7 @@ glContext
 new
 GLContextEGL
 (
+flags
 caps
 shareContext
 isOffscreen
@@ -3251,6 +3255,10 @@ glContext
 new
 GLContextEGL
 (
+CreateContextFlags
+:
+:
+NONE
 caps
 nullptr
 false

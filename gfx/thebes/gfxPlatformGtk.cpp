@@ -3087,6 +3087,13 @@ CreateGLContext
 gl
 :
 :
+CreateContextFlags
+:
+:
+NONE
+gl
+:
+:
 SurfaceCaps
 :
 :

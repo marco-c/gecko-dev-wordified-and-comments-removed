@@ -3178,6 +3178,8 @@ GLContextGLX
 :
 CreateGLContext
 (
+CreateContextFlags
+flags
 const
 SurfaceCaps
 &
@@ -3446,6 +3448,7 @@ glContext
 new
 GLContextGLX
 (
+flags
 caps
 shareContext
 isOffscreen
@@ -3984,6 +3987,8 @@ GLContextGLX
 :
 GLContextGLX
 (
+CreateContextFlags
+flags
 const
 SurfaceCaps
 &
@@ -4013,6 +4018,7 @@ profile
 :
 GLContext
 (
+flags
 caps
 shareContext
 isOffscreen
@@ -4245,6 +4251,10 @@ glContext
 new
 GLContextGLX
 (
+CreateContextFlags
+:
+:
+NONE
 caps
 nullptr
 false
@@ -4449,6 +4459,10 @@ GLContextGLX
 :
 CreateGLContext
 (
+CreateContextFlags
+:
+:
+NONE
 caps
 shareContext
 false
@@ -5044,6 +5058,8 @@ GLContextGLX
 >
 CreateOffscreenPixmapContext
 (
+CreateContextFlags
+flags
 const
 IntSize
 &
@@ -5327,6 +5343,7 @@ GLContextGLX
 :
 CreateGLContext
 (
+flags
 minCaps
 shareContext
 true
@@ -5349,6 +5366,7 @@ GLContextProviderGLX
 CreateHeadless
 (
 CreateContextFlags
+flags
 nsACString
 &
 aFailureId
@@ -5376,6 +5394,7 @@ Any
 return
 CreateOffscreenPixmapContext
 (
+flags
 dummySize
 dummyCaps
 aFailureId
@@ -5473,6 +5492,7 @@ gl
 =
 CreateOffscreenPixmapContext
 (
+flags
 size
 minBackbufferCaps
 aFailureId
