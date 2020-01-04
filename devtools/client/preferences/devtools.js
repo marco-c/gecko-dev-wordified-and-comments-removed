@@ -2698,6 +2698,18 @@ pref
 "
 devtools
 .
+webconsole
+.
+autoMultiline
+"
+true
+)
+;
+pref
+(
+"
+devtools
+.
 hud
 .
 loglimit
@@ -2880,7 +2892,7 @@ version
 ;
 #
 ifdef
-RELEASE_BUILD
+MOZ_DEV_EDITION
 pref
 (
 "
@@ -2890,7 +2902,7 @@ jsonview
 .
 enabled
 "
-false
+true
 )
 ;
 #
@@ -2904,7 +2916,7 @@ jsonview
 .
 enabled
 "
-true
+false
 )
 ;
 #
