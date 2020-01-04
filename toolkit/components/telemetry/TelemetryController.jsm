@@ -3145,6 +3145,12 @@ runCleanPingArchiveTask
 (
 )
 ;
+TelemetryStorage
+.
+removeFHRDatabase
+(
+)
+;
 this
 .
 _delayedInitTaskDeferred
