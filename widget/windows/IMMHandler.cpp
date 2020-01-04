@@ -3046,9 +3046,6 @@ case
 WM_IME_KEYUP
 :
 case
-WM_IME_REQUEST
-:
-case
 WM_IME_SELECT
 :
 aResult
@@ -3069,6 +3066,16 @@ false
 aRet
 =
 true
+;
+return
+true
+;
+case
+WM_IME_REQUEST
+:
+aRet
+=
+false
 ;
 return
 true
