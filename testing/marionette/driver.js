@@ -12888,15 +12888,7 @@ win
 .
 document
 .
-getElementsByTagName
-(
-"
-window
-"
-)
-[
-0
-]
+documentElement
 ;
 }
 let
