@@ -3484,11 +3484,7 @@ rval
 ;
 }
 return
-JS_WrapValue
-(
-cx
-rval
-)
+true
 ;
 }
 MOZ_ALWAYS_INLINE
