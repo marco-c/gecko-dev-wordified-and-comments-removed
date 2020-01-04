@@ -1187,14 +1187,6 @@ osfile
 /
 *
 *
-toolkit
-/
-components
-/
-passwordmgr
-/
-*
-*
 #
 Uses
 preprocessing
