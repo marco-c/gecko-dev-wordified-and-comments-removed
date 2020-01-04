@@ -46,10 +46,8 @@ mozilla
 namespace
 image
 {
+static
 void
-IDecodingTask
-:
-:
 NotifyProgress
 (
 NotNull
