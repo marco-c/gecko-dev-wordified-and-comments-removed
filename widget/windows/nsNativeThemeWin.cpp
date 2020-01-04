@@ -3786,7 +3786,6 @@ CHECKED
 ;
 }
 else
-if
 (
 isCheckbox
 &
