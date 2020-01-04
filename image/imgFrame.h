@@ -541,12 +541,6 @@ return
 mPaletteDepth
 ;
 }
-SurfaceFormat
-GetFormat
-(
-)
-const
-;
 AnimationData
 GetAnimationData
 (
