@@ -446,7 +446,7 @@ R
 .
 drawable
 .
-shareplane
+overlay_send_tab_icon
 )
 ;
 row
