@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-FILTERBAR_TOGGLE
+FILTER_BAR_TOGGLE
 }
 =
 require
@@ -28,7 +28,7 @@ return
 {
 type
 :
-FILTERBAR_TOGGLE
+FILTER_BAR_TOGGLE
 }
 ;
 }

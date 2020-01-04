@@ -226,10 +226,6 @@ filter
 log
 "
 )
-searchText
-:
-"
-"
 }
 )
 }
