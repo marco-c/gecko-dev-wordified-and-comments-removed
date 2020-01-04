@@ -4356,8 +4356,6 @@ JSRuntime
 rt
 )
 ;
-private
-:
 inline
 void
 init
@@ -4367,6 +4365,8 @@ JSRuntime
 rt
 )
 ;
+private
+:
 void
 decommitAllArenas
 (
