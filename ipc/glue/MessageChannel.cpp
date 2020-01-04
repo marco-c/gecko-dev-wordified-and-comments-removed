@@ -7629,11 +7629,15 @@ error
 ;
 Message
 call
-=
+(
+Move
+(
 mDeferred
 .
 top
 (
+)
+)
 )
 ;
 mDeferred
@@ -7680,7 +7684,10 @@ mPending
 .
 push_back
 (
+Move
+(
 call
+)
 )
 ;
 }
