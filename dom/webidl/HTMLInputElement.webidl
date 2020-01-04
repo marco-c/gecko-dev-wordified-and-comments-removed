@@ -626,6 +626,7 @@ vs
 signed
 attribute
 long
+?
 selectionStart
 ;
 [
@@ -633,6 +634,7 @@ Throws
 ]
 attribute
 long
+?
 selectionEnd
 ;
 [
@@ -640,6 +642,7 @@ Throws
 ]
 attribute
 DOMString
+?
 selectionDirection
 ;
 [

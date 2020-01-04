@@ -393,6 +393,7 @@ Throws
 attribute
 unsigned
 long
+?
 selectionStart
 ;
 [
@@ -401,6 +402,7 @@ Throws
 attribute
 unsigned
 long
+?
 selectionEnd
 ;
 [
@@ -408,6 +410,7 @@ Throws
 ]
 attribute
 DOMString
+?
 selectionDirection
 ;
 [
