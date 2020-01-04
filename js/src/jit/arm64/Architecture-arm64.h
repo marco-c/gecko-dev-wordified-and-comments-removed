@@ -2011,6 +2011,13 @@ ShadowStackSpace
 static
 const
 uint32_t
+JumpImmediateRange
+=
+UINT32_MAX
+;
+static
+const
+uint32_t
 ABIStackAlignment
 =
 16

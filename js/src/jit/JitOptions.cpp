@@ -550,6 +550,12 @@ smallFunctionMaxBytecodeLength_
 120
 )
 ;
+SET_DEFAULT
+(
+jumpThreshold
+UINT32_MAX
+)
+;
 const
 char
 *

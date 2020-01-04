@@ -105,6 +105,12 @@ using
 mozilla
 :
 :
+EnumeratedArray
+;
+using
+mozilla
+:
+:
 Move
 ;
 using
@@ -1304,7 +1310,7 @@ DeclaredSigPtrVector
 struct
 Offsets
 {
-MOZ_IMPLICIT
+explicit
 Offsets
 (
 uint32_t
@@ -2358,9 +2364,6 @@ Limit
 }
 ;
 typedef
-mozilla
-:
-:
 EnumeratedArray
 <
 JumpTarget

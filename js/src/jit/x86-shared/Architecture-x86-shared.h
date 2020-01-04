@@ -167,6 +167,13 @@ ShadowStackSpace
 ;
 #
 endif
+static
+const
+uint32_t
+JumpImmediateRange
+=
+INT32_MAX
+;
 class
 Registers
 {

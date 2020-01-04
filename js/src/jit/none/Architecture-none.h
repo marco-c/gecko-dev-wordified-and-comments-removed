@@ -801,6 +801,13 @@ ShadowStackSpace
 =
 0
 ;
+static
+const
+uint32_t
+JumpImmediateRange
+=
+INT32_MAX
+;
 #
 ifdef
 JS_NUNBOX32

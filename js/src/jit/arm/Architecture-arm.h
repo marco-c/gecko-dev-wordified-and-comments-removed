@@ -90,6 +90,17 @@ ShadowStackSpace
 static
 const
 uint32_t
+JumpImmediateRange
+=
+25
+*
+1024
+*
+1024
+;
+static
+const
+uint32_t
 BAILOUT_TABLE_ENTRY_SIZE
 =
 4
