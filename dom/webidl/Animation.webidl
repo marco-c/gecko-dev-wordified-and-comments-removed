@@ -186,8 +186,6 @@ optional
 AnimationTimeline
 ?
 timeline
-=
-null
 )
 ]
 interface

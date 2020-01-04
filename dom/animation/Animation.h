@@ -338,8 +338,13 @@ aGlobal
 KeyframeEffectReadOnly
 *
 aEffect
+const
+Optional
+<
 AnimationTimeline
 *
+>
+&
 aTimeline
 ErrorResult
 &
