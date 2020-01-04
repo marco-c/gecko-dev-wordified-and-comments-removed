@@ -142,8 +142,7 @@ void
 PermissionChanged
 (
 )
-{
-}
+;
 PermissionName
 mName
 ;
