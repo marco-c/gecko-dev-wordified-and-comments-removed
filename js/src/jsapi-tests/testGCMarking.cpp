@@ -880,6 +880,9 @@ isMarked
 )
 )
 ;
+#
+ifdef
+DEBUG
 auto
 currentGCNumber
 =
@@ -892,6 +895,8 @@ gcNumber
 (
 )
 ;
+#
+endif
 if
 (
 !
