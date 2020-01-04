@@ -1443,7 +1443,7 @@ msecd
 :
 msecd
 >
-UINT32_MAX
+DBL_MAX
 ?
 INFINITE
 :
