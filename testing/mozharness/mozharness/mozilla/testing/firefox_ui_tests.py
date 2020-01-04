@@ -73,7 +73,7 @@ mozilla
 vcstools
 import
 VCSToolsScript
-deprecated_options
+firefox_ui_tests_harness_config_options
 =
 [
     
@@ -332,7 +332,7 @@ symbols
 ]
 ]
 +
-deprecated_options
+firefox_ui_tests_harness_config_options
 \
     
 +
@@ -1549,12 +1549,18 @@ arguments
 "
 "
         
-config_options
+extra_harness_config_options
 =
 extra_harness_config_options
 or
 [
 ]
+        
+config_options
+=
+firefox_ui_tests_harness_config_options
++
+extra_harness_config_options
         
 args
 =
