@@ -3834,7 +3834,7 @@ start
 -
 1px
 ;
-padding
+margin
 -
 top
 :
@@ -3854,7 +3854,7 @@ margin
 1px
 )
 ;
-padding
+margin
 -
 bottom
 :
@@ -3868,14 +3868,6 @@ separator
 -
 margin
 )
-;
-background
--
-clip
-:
-content
--
-box
 ;
 background
 -
