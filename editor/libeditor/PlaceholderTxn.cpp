@@ -112,6 +112,14 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 PlaceholderTxn
 EditAggregateTxn
 )
+if
+(
+tmp
+-
+>
+mStartSel
+)
+{
 ImplCycleCollectionUnlink
 (
 *
@@ -121,6 +129,7 @@ tmp
 mStartSel
 )
 ;
+}
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mEndSel
@@ -132,6 +141,14 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 PlaceholderTxn
 EditAggregateTxn
 )
+if
+(
+tmp
+-
+>
+mStartSel
+)
+{
 ImplCycleCollectionTraverse
 (
 cb
@@ -146,6 +163,7 @@ mStartSel
 0
 )
 ;
+}
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mEndSel
