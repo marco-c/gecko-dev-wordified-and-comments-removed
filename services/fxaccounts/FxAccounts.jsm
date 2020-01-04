@@ -1157,8 +1157,10 @@ let
 key
 tokenValue
 ]
-in
-Iterator
+of
+Object
+.
+entries
 (
 data
 )
@@ -2960,8 +2962,10 @@ let
 key
 tokenInfo
 ]
-in
-Iterator
+of
+Object
+.
+entries
 (
 tokenInfos
 |

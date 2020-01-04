@@ -2421,8 +2421,10 @@ let
 id
 record
 ]
-in
-Iterator
+of
+Object
+.
+entries
 (
 this
 .

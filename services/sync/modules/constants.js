@@ -15,8 +15,10 @@ let
 key
 val
 ]
-in
-Iterator
+of
+Object
+.
+entries
 (
 {
 WEAVE_VERSION

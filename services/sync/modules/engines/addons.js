@@ -467,8 +467,10 @@ let
 id
 modified
 ]
-in
-Iterator
+of
+Object
+.
+entries
 (
 this
 .

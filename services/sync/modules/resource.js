@@ -610,8 +610,10 @@ let
 k
 v
 ]
-in
-Iterator
+of
+Object
+.
+entries
 (
 result
 .
@@ -657,8 +659,10 @@ let
 key
 value
 ]
-in
-Iterator
+of
+Object
+.
+entries
 (
 headers
 )

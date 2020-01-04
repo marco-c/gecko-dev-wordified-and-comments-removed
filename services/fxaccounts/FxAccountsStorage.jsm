@@ -412,7 +412,9 @@ name
 val
 ]
 of
-Iterator
+Object
+.
+entries
 (
 accountData
 )
@@ -754,7 +756,9 @@ name
 value
 ]
 of
-Iterator
+Object
+.
+entries
 (
 this
 .
@@ -785,7 +789,9 @@ name
 value
 ]
 of
-Iterator
+Object
+.
+entries
 (
 this
 .
@@ -1103,7 +1109,9 @@ name
 value
 ]
 of
-Iterator
+Object
+.
+entries
 (
 newFields
 )
@@ -1431,7 +1439,9 @@ name
 value
 ]
 of
-Iterator
+Object
+.
+entries
 (
 got
 .
@@ -1665,7 +1675,9 @@ name
 value
 ]
 of
-Iterator
+Object
+.
+entries
 (
 readSecure
 .
@@ -1914,7 +1926,9 @@ name
 value
 ]
 of
-Iterator
+Object
+.
+entries
 (
 this
 .

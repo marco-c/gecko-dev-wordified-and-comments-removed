@@ -537,8 +537,10 @@ let
 id
 value
 ]
-in
-Iterator
+of
+Object
+.
+entries
 (
 this
 .
