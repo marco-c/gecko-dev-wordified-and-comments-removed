@@ -2038,7 +2038,7 @@ true
 ;
 static
 void
-CopyElements
+CopyNonOverlappingRegion
 (
 void
 *
@@ -2065,7 +2065,7 @@ aElemSize
 }
 static
 void
-CopyHeaderAndElements
+CopyNonOverlappingRegionWithHeader
 (
 void
 *
@@ -2097,7 +2097,7 @@ aElemSize
 }
 static
 void
-MoveElements
+CopyOverlappingRegion
 (
 void
 *
@@ -2148,7 +2148,7 @@ false
 ;
 static
 void
-CopyElements
+CopyNonOverlappingRegion
 (
 void
 *
@@ -2260,7 +2260,7 @@ srcElem
 }
 static
 void
-CopyHeaderAndElements
+CopyNonOverlappingRegionWithHeader
 (
 void
 *
@@ -2306,7 +2306,7 @@ destHeader
 *
 srcHeader
 ;
-CopyElements
+CopyNonOverlappingRegion
 (
 static_cast
 <
@@ -2341,7 +2341,7 @@ aElemSize
 }
 static
 void
-MoveElements
+CopyOverlappingRegion
 (
 void
 *
@@ -2459,7 +2459,7 @@ srcElem
 }
 else
 {
-CopyElements
+CopyNonOverlappingRegion
 (
 aDest
 aSrc
@@ -7904,7 +7904,7 @@ nullptr
 copy_type
 :
 :
-CopyElements
+CopyNonOverlappingRegion
 (
 Elements
 (
