@@ -456,10 +456,6 @@ gfx
 Matrix4x4
 &
 aTransform
-bool
-aIs3D
-=
-false
 )
 ;
 void

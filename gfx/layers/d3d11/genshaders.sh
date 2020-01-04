@@ -239,16 +239,12 @@ makeShaderPS
 YCbCrShader
 makeShaderVS
 LayerQuadMaskVS
-makeShaderVS
-LayerQuadMask3DVS
 makeShaderPS
 SolidColorShaderMask
 makeShaderPS
 RGBShaderMask
 makeShaderPS
 RGBAShaderMask
-makeShaderPS
-RGBAShaderMask3D
 makeShaderPS
 YCbCrShaderMask
 makeShaderPS
@@ -262,8 +258,6 @@ makeShaderVS
 LayerQuadBlendVS
 makeShaderVS
 LayerQuadBlendMaskVS
-makeShaderVS
-LayerQuadBlendMask3DVS
 makeShaderPS
 BlendShader
 SRC

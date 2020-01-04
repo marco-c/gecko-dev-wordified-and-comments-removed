@@ -326,10 +326,6 @@ mMaskTexture
 (
 aMaskTexture
 )
-mIs3D
-(
-false
-)
 mSize
 (
 aSize
@@ -359,9 +355,6 @@ aPrefix
 TextureSource
 *
 mMaskTexture
-;
-bool
-mIs3D
 ;
 gfx
 :
