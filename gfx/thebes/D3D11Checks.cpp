@@ -646,7 +646,7 @@ bool
 D3D11Checks
 :
 :
-DoesD3D11DeviceWork
+DoesDeviceWork
 (
 )
 {
