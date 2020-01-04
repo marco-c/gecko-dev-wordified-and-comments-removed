@@ -349,13 +349,10 @@ StyleSet
 )
 -
 >
-ResolveStyleForNonElement
+ResolveStyleForText
 (
+mTextContent
 mStyleContext
-nsCSSAnonBoxes
-:
-:
-mozText
 )
 ;
 newFrame

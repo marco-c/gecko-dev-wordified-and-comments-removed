@@ -5772,13 +5772,10 @@ textStyleContext
 styleSet
 -
 >
-ResolveStyleForNonElement
+ResolveStyleForText
 (
+mDisplayContent
 mStyleContext
-nsCSSAnonBoxes
-:
-:
-mozText
 )
 ;
 mDisplayFrame
