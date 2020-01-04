@@ -1764,7 +1764,7 @@ ArrayObjectTable
 js
 :
 :
-GCHashMap
+GCRekeyableHashMap
 <
 ArrayObjectKey
 ReadBarrieredObjectGroup
