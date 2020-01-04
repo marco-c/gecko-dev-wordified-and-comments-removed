@@ -2446,6 +2446,13 @@ MediaEnginePrefs
 aPrefs
 )
 ;
+virtual
+void
+SetFakeDeviceChangeEvents
+(
+)
+override
+;
 void
 Shutdown
 (

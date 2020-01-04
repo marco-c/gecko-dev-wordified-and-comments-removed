@@ -13887,6 +13887,13 @@ onmozinterruptend
 )
 GK_ATOM
 (
+ondevicechange
+"
+ondevicechange
+"
+)
+GK_ATOM
+(
 cdataTagName
 "
 #
