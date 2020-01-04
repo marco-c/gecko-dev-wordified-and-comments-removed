@@ -45395,7 +45395,7 @@ dbg
 :
 SetDebuggerMallocSizeOf
 (
-rt
+cx
 moz_malloc_size_of
 )
 ;

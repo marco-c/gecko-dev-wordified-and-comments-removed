@@ -1996,9 +1996,9 @@ dbg
 :
 SetDebuggerMallocSizeOf
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 mozilla
 :
 :
@@ -2006,7 +2006,7 @@ MallocSizeOf
 mallocSizeOf
 )
 {
-rt
+cx
 -
 >
 debuggerMallocSizeOf
@@ -2029,13 +2029,13 @@ dbg
 :
 GetDebuggerMallocSizeOf
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 {
 return
-rt
+cx
 -
 >
 debuggerMallocSizeOf

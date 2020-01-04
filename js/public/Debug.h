@@ -584,9 +584,9 @@ void
 )
 SetDebuggerMallocSizeOf
 (
-JSRuntime
+JSContext
 *
-runtime
+cx
 mozilla
 :
 :
@@ -603,9 +603,9 @@ MallocSizeOf
 )
 GetDebuggerMallocSizeOf
 (
-JSRuntime
+JSContext
 *
-runtime
+cx
 )
 ;
 JS_PUBLIC_API
