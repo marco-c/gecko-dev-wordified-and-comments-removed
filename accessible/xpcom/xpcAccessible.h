@@ -24,6 +24,9 @@ class
 Accessible
 ;
 class
+AccessibleOrProxy
+;
+class
 xpcAccessible
 :
 public
@@ -474,6 +477,11 @@ private
 Accessible
 *
 Intl
+(
+)
+;
+AccessibleOrProxy
+IntlGeneric
 (
 )
 ;
