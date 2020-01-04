@@ -2054,6 +2054,9 @@ Category
 OTHER
 )
 ;
+bool
+EOS
+;
 {
 ReentrantMonitorAutoEnter
 mon
@@ -2120,6 +2123,10 @@ AppendFrom
 &
 mRawSegment
 )
+;
+EOS
+=
+mEndOfStream
 ;
 }
 VideoSegment
@@ -2434,7 +2441,7 @@ totalProcessedDuration
 ;
 if
 (
-mEndOfStream
+EOS
 )
 {
 VP8LOG

@@ -480,6 +480,11 @@ int
 aInputFlags
 =
 0
+bool
+*
+aSendEOS
+=
+nullptr
 )
 ;
 ~
@@ -667,6 +672,11 @@ int
 aInputFlags
 =
 0
+bool
+*
+aSendEOS
+=
+nullptr
 )
 ;
 #
