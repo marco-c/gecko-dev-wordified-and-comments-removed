@@ -96,6 +96,17 @@ JitCompartment
 .
 h
 "
+#
+include
+"
+gc
+/
+StoreBuffer
+-
+inl
+.
+h
+"
 using
 namespace
 js
