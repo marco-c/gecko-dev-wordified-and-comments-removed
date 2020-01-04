@@ -106,7 +106,6 @@ css
 )
 #
 endif
-*
 skin
 /
 aboutAddons
@@ -117,7 +116,6 @@ aboutAddons
 .
 css
 )
-*
 skin
 /
 aboutBase
@@ -143,7 +141,6 @@ css
 )
 #
 endif
-*
 skin
 /
 aboutDownloads
@@ -249,7 +246,6 @@ browser
 .
 css
 )
-*
 skin
 /
 content
@@ -267,6 +263,16 @@ config
 css
 (
 config
+.
+css
+)
+skin
+/
+defines
+.
+css
+(
+defines
 .
 css
 )
@@ -510,7 +516,6 @@ css
 #
 endif
 #
-*
 skin
 /
 aboutLogins
