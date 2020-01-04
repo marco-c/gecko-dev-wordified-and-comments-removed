@@ -979,6 +979,14 @@ OSX
 1
 45000
 )
+fuzzy
+-
+if
+(
+winWidget
+1
+36000
+)
 =
 =
 linear
