@@ -1492,13 +1492,16 @@ db
 "
 )
     
+try
+:
+        
 redo
 .
 retry
 (
 lambda
 :
-               
+                   
 sh
 .
 freshclam
@@ -1521,7 +1524,7 @@ _err_to_out
 True
 )
 )
-    
+        
 log
 .
 info
@@ -1529,6 +1532,25 @@ info
 "
 Done
 .
+"
+)
+    
+except
+sh
+.
+ErrorReturnCode
+:
+        
+log
+.
+warning
+(
+"
+Freshclam
+failed
+skipping
+DB
+update
 "
 )
     
