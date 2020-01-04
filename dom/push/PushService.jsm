@@ -1384,7 +1384,7 @@ this
 .
 _clearOriginData
 (
-data
+aData
 )
 .
 catch
