@@ -519,7 +519,7 @@ name_
 {
 \
 return
-mStyleContextHolder
+mStyleContext
 -
 >
 Style
@@ -4340,7 +4340,7 @@ nsRefPtr
 <
 nsStyleContext
 >
-mStyleContextHolder
+mStyleContext
 ;
 nsCOMPtr
 <

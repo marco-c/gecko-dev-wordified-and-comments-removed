@@ -1116,7 +1116,7 @@ false
 ;
 if
 (
-mStyleContextHolder
+mStyleContext
 )
 {
 length
@@ -2044,7 +2044,7 @@ aNeedsLayoutFlush
 MOZ_ASSERT
 (
 !
-mStyleContextHolder
+mStyleContext
 )
 ;
 nsCOMPtr
@@ -2236,7 +2236,7 @@ table
 )
 ;
 }
-mStyleContextHolder
+mStyleContext
 =
 mInnerFrame
 -
@@ -2247,7 +2247,7 @@ StyleContext
 ;
 NS_ASSERTION
 (
-mStyleContextHolder
+mStyleContext
 "
 Frame
 without
@@ -2262,10 +2262,10 @@ context
 if
 (
 !
-mStyleContextHolder
+mStyleContext
 |
 |
-mStyleContextHolder
+mStyleContext
 -
 >
 HasPseudoElementData
@@ -2278,14 +2278,14 @@ ifdef
 DEBUG
 if
 (
-mStyleContextHolder
+mStyleContext
 )
 {
 nsStyleContext
 *
 topWithPseudoElementData
 =
-mStyleContextHolder
+mStyleContext
 ;
 while
 (
@@ -2408,7 +2408,7 @@ get
 }
 #
 endif
-mStyleContextHolder
+mStyleContext
 =
 nsComputedDOMStyle
 :
@@ -2429,7 +2429,7 @@ mStyleType
 if
 (
 !
-mStyleContextHolder
+mStyleContext
 )
 {
 return
@@ -2441,7 +2441,7 @@ mPseudo
 |
 |
 !
-mStyleContextHolder
+mStyleContext
 -
 >
 HasPseudoElementData
@@ -2483,7 +2483,7 @@ if
 mExposeVisitedStyle
 &
 &
-mStyleContextHolder
+mStyleContext
 -
 >
 RelevantLinkVisited
@@ -2495,7 +2495,7 @@ nsStyleContext
 *
 styleIfVisited
 =
-mStyleContextHolder
+mStyleContext
 -
 >
 GetStyleIfVisited
@@ -2507,7 +2507,7 @@ if
 styleIfVisited
 )
 {
-mStyleContextHolder
+mStyleContext
 =
 styleIfVisited
 ;
@@ -2534,7 +2534,7 @@ mPresShell
 =
 nullptr
 ;
-mStyleContextHolder
+mStyleContext
 =
 nullptr
 ;
@@ -2744,7 +2744,7 @@ needsLayoutFlush
 if
 (
 !
-mStyleContextHolder
+mStyleContext
 )
 {
 aRv
@@ -2973,7 +2973,7 @@ false
 if
 (
 !
-mStyleContextHolder
+mStyleContext
 )
 {
 aFound
@@ -5038,8 +5038,8 @@ mSpecifiedTransform
 -
 >
 mHead
-mStyleContextHolder
-mStyleContextHolder
+mStyleContext
+mStyleContext
 -
 >
 PresContext
@@ -17014,7 +17014,7 @@ nsStyleContext
 *
 parentStyleContext
 =
-mStyleContextHolder
+mStyleContext
 -
 >
 GetParent
@@ -20699,7 +20699,7 @@ nsHTMLReflowState
 CalcLineHeight
 (
 mContent
-mStyleContextHolder
+mStyleContext
 blockHeight
 1
 .
