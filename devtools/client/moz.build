@@ -109,6 +109,11 @@ DIRS
 =
 [
 '
+aboutdebugging
+/
+components
+'
+'
 animationinspector
 '
 '
