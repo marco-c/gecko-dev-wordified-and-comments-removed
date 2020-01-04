@@ -259,9 +259,8 @@ MagicUninitializedLexical
 ;
 default
 :
-MOZ_ASSERT
+MOZ_ASSERT_UNREACHABLE
 (
-!
 "
 Unexpected
 magic
