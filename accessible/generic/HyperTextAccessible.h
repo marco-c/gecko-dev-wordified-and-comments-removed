@@ -845,7 +845,10 @@ CaretLineNumber
 (
 )
 ;
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 GetCaretRect
 (
 nsIWidget

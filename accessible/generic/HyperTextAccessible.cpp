@@ -7182,7 +7182,7 @@ return
 lineNumber
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 HyperTextAccessible
 :
 :
@@ -7220,7 +7220,7 @@ GetCaret
 NS_ENSURE_TRUE
 (
 caret
-nsIntRect
+LayoutDeviceIntRect
 (
 )
 )
@@ -7241,7 +7241,7 @@ if
 isVisible
 )
 return
-nsIntRect
+LayoutDeviceIntRect
 (
 )
 ;
@@ -7274,7 +7274,7 @@ IsEmpty
 )
 )
 return
-nsIntRect
+LayoutDeviceIntRect
 (
 )
 ;
@@ -7296,7 +7296,7 @@ NS_ENSURE_TRUE
 (
 *
 aWidget
-nsIntRect
+LayoutDeviceIntRect
 (
 )
 )
@@ -7308,11 +7308,14 @@ MoveBy
 offset
 )
 ;
-nsIntRect
-caretRect
-;
+LayoutDeviceIntRect
 caretRect
 =
+LayoutDeviceIntRect
+:
+:
+FromUnknownRect
+(
 rect
 .
 ToOutsidePixels
@@ -7329,6 +7332,7 @@ AppUnitsPerDevPixel
 (
 )
 )
+)
 ;
 caretRect
 .
@@ -7340,7 +7344,7 @@ aWidget
 )
 -
 >
-WidgetToScreenOffsetUntyped
+WidgetToScreenOffset
 (
 )
 -
@@ -7350,7 +7354,7 @@ aWidget
 )
 -
 >
-GetClientOffsetUntyped
+GetClientOffset
 (
 )
 )
