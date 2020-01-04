@@ -6118,7 +6118,7 @@ Next
 {
 if
 (
-iter
+it
 .
 UserData
 (
@@ -6133,7 +6133,7 @@ WIFI_ONLY
 {
 NotifyAppOfflineStatus
 (
-iter
+it
 .
 Key
 (
