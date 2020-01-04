@@ -32,6 +32,12 @@ nsIIPCSerializableURI
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 class
 nsSimpleNestedURI
 :
@@ -128,5 +134,7 @@ mInnerURI
 ;
 }
 ;
+}
+}
 #
 endif

@@ -121,6 +121,12 @@ mozilla
 :
 ipc
 ;
+namespace
+mozilla
+{
+namespace
+net
+{
 static
 NS_DEFINE_CID
 (
@@ -932,9 +938,6 @@ Truncate
 (
 )
 ;
-mozilla
-:
-:
 DebugOnly
 <
 int32_t
@@ -2345,9 +2348,6 @@ nsSimpleURI
 :
 SizeOfExcludingThis
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -2382,9 +2382,6 @@ nsSimpleURI
 :
 SizeOfIncludingThis
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -2401,4 +2398,6 @@ SizeOfExcludingThis
 aMallocSizeOf
 )
 ;
+}
+}
 }

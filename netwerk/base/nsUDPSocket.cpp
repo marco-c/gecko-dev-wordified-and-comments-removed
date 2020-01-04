@@ -204,17 +204,12 @@ h
 "
 #
 endif
-using
 namespace
 mozilla
-:
-:
+{
+namespace
 net
-;
-using
-namespace
-mozilla
-;
+{
 static
 const
 uint32_t
@@ -738,9 +733,6 @@ nsUDPMessage
 (
 )
 {
-mozilla
-:
-:
 DropJSObjects
 (
 this
@@ -880,9 +872,6 @@ mJsobj
 {
 mJsobj
 =
-mozilla
-:
-:
 dom
 :
 :
@@ -905,9 +894,6 @@ Elements
 )
 )
 ;
-mozilla
-:
-:
 HoldJSObjects
 (
 this
@@ -6000,4 +5986,6 @@ NS_ERROR_FAILURE
 return
 NS_OK
 ;
+}
+}
 }

@@ -46,6 +46,12 @@ nsIEventTarget
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 class
 nsStreamListenerTee
 :
@@ -107,5 +113,7 @@ mEventTarget
 ;
 }
 ;
+}
+}
 #
 endif

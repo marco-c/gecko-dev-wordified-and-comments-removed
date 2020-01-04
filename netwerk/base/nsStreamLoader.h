@@ -46,6 +46,12 @@ h
 class
 nsIRequest
 ;
+namespace
+mozilla
+{
+namespace
+net
+{
 class
 nsStreamLoader
 final
@@ -146,5 +152,7 @@ mData
 ;
 }
 ;
+}
+}
 #
 endif

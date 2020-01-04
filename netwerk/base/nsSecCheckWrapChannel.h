@@ -55,6 +55,12 @@ LoadInfo
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 class
 nsSecCheckWrapChannelBase
 :
@@ -246,5 +252,7 @@ mLoadInfo
 ;
 }
 ;
+}
+}
 #
 endif

@@ -30,6 +30,12 @@ h
 class
 nsILoadInfo
 ;
+namespace
+mozilla
+{
+namespace
+net
+{
 class
 nsViewSourceHandler
 final
@@ -88,5 +94,7 @@ gInstance
 ;
 }
 ;
+}
+}
 #
 endif

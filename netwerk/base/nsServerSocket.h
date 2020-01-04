@@ -46,8 +46,6 @@ net
 union
 NetAddr
 ;
-}
-}
 class
 nsServerSocket
 :
@@ -225,5 +223,7 @@ mKeepWhenOffline
 ;
 }
 ;
+}
+}
 #
 endif

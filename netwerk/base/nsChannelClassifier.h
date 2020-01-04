@@ -36,6 +36,12 @@ nsIHttpChannelInternal
 class
 nsIDocument
 ;
+namespace
+mozilla
+{
+namespace
+net
+{
 class
 nsChannelClassifier
 final
@@ -161,5 +167,7 @@ aChannel
 ;
 }
 ;
+}
+}
 #
 endif

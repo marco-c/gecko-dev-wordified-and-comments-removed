@@ -81,6 +81,12 @@ NS_BINHEXDECODER_CID
 }
 \
 }
+namespace
+mozilla
+{
+namespace
+net
+{
 typedef
 struct
 _binhex_header
@@ -298,5 +304,7 @@ mPosOutputBuff
 ;
 }
 ;
+}
+}
 #
 endif

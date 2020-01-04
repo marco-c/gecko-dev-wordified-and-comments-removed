@@ -121,6 +121,9 @@ dom
 namespace
 mozilla
 {
+namespace
+net
+{
 static
 void
 InheritOriginAttributes
@@ -2826,5 +2829,6 @@ tainting
 return
 NS_OK
 ;
+}
 }
 }

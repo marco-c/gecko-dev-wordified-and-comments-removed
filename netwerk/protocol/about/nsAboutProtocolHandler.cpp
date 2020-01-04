@@ -114,6 +114,12 @@ nsIScriptError
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 static
 NS_DEFINE_CID
 (
@@ -1647,4 +1653,6 @@ kNestedAboutURICID
 return
 NS_OK
 ;
+}
+}
 }

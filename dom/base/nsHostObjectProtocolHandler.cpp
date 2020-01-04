@@ -147,6 +147,9 @@ using
 mozilla
 :
 :
+net
+:
+:
 LoadInfo
 ;
 struct
@@ -3287,6 +3290,12 @@ else
 uri
 =
 new
+mozilla
+:
+:
+net
+:
+:
 nsSimpleURI
 (
 )

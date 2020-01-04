@@ -104,17 +104,12 @@ nsIFile
 .
 h
 "
-using
 namespace
 mozilla
-;
-using
+{
 namespace
-mozilla
-:
-:
 net
-;
+{
 static
 NS_DEFINE_CID
 (
@@ -1955,4 +1950,6 @@ mAddr
 return
 NS_OK
 ;
+}
+}
 }

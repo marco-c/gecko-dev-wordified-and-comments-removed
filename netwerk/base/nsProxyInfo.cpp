@@ -12,16 +12,18 @@ nsCOMPtr
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 NS_IMPL_ISUPPORTS
 (
 nsProxyInfo
 nsProxyInfo
 nsIProxyInfo
 )
-using
-namespace
-mozilla
-;
 NS_IMETHODIMP
 nsProxyInfo
 :
@@ -240,9 +242,6 @@ return
 NS_OK
 ;
 }
-namespace
-mozilla
-{
 extern
 const
 char
@@ -285,7 +284,6 @@ kProxyType_DIRECT
 [
 ]
 ;
-}
 bool
 nsProxyInfo
 :
@@ -365,4 +363,6 @@ mType
 =
 kProxyType_SOCKS5
 ;
+}
+}
 }

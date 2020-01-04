@@ -46,6 +46,9 @@ using
 mozilla
 :
 :
+net
+:
+:
 LoadInfo
 ;
 void

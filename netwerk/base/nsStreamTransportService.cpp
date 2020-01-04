@@ -105,6 +105,12 @@ Services
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 class
 nsInputStreamTransport
 :
@@ -1944,4 +1950,6 @@ nullptr
 return
 NS_OK
 ;
+}
+}
 }

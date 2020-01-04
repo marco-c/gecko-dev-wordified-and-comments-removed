@@ -72,6 +72,12 @@ h
 class
 nsIChannel
 ;
+namespace
+mozilla
+{
+namespace
+net
+{
 class
 nsAsyncRedirectVerifyHelper
 final
@@ -258,5 +264,7 @@ mResult
 ;
 }
 ;
+}
+}
 #
 endif

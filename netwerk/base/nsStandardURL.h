@@ -139,6 +139,12 @@ nsIFile
 class
 nsIURLParser
 ;
+namespace
+mozilla
+{
+namespace
+net
+{
 class
 nsStandardURL
 :
@@ -181,9 +187,6 @@ virtual
 size_t
 SizeOfExcludingThis
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -194,9 +197,6 @@ virtual
 size_t
 SizeOfIncludingThis
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -1695,6 +1695,8 @@ pos
 len
 )
 ;
+}
+}
 }
 #
 endif

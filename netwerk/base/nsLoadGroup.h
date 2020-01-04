@@ -85,6 +85,12 @@ nsIRequestContextService
 class
 nsITimedChannel
 ;
+namespace
+mozilla
+{
+namespace
+net
+{
 class
 nsLoadGroup
 :
@@ -249,5 +255,7 @@ mUserAgentOverrideCache
 ;
 }
 ;
+}
+}
 #
 endif

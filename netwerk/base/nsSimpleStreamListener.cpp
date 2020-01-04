@@ -5,6 +5,12 @@ nsSimpleStreamListener
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 NS_IMPL_ISUPPORTS
 (
 nsSimpleStreamListener
@@ -168,4 +174,6 @@ aObserver
 return
 NS_OK
 ;
+}
+}
 }

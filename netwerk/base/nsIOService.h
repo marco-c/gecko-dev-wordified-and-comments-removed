@@ -216,9 +216,6 @@ resource
 }
 ;
 class
-nsAsyncRedirectVerifyHelper
-;
-class
 nsINetworkLinkService
 ;
 class
@@ -245,8 +242,9 @@ net
 class
 NeckoChild
 ;
-}
-}
+class
+nsAsyncRedirectVerifyHelper
+;
 class
 nsIOService
 final
@@ -849,5 +847,7 @@ nsIOService
 *
 gIOService
 ;
+}
+}
 #
 endif

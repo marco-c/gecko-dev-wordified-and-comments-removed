@@ -53,6 +53,12 @@ URIUtils
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 NS_IMPL_ISUPPORTS_INHERITED
 (
 nsSimpleNestedURI
@@ -736,4 +742,6 @@ kSimpleNestedURICID
 return
 NS_OK
 ;
+}
+}
 }

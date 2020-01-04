@@ -20,6 +20,12 @@ Attributes
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 #
 define
 NS_DEVICEPROTOCOLHANDLER_CID
@@ -69,5 +75,7 @@ Init
 ;
 }
 ;
+}
+}
 #
 endif

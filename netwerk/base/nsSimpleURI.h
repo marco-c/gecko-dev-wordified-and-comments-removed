@@ -62,6 +62,12 @@ nsIIPCSerializableURI
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 #
 define
 NS_THIS_SIMPLEURI_IMPLEMENTATION_CID
@@ -139,9 +145,6 @@ virtual
 size_t
 SizeOfExcludingThis
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -152,9 +155,6 @@ virtual
 size_t
 SizeOfIncludingThis
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -232,5 +232,7 @@ mIsRefValid
 ;
 }
 ;
+}
+}
 #
 endif

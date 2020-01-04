@@ -1,4 +1,10 @@
 #
+ifndef
+nsSimpleStreamListener_h__
+#
+define
+nsSimpleStreamListener_h__
+#
 include
 "
 nsISimpleStreamListener
@@ -19,6 +25,12 @@ nsCOMPtr
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 class
 nsSimpleStreamListener
 :
@@ -59,3 +71,7 @@ mObserver
 ;
 }
 ;
+}
+}
+#
+endif

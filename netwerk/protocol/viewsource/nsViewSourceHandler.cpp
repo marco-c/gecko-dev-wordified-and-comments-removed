@@ -34,6 +34,12 @@ view
 -
 source
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 NS_IMPL_ISUPPORTS
 (
 nsViewSourceHandler
@@ -597,4 +603,6 @@ GetInstance
 return
 gInstance
 ;
+}
+}
 }

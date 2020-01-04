@@ -37,6 +37,12 @@ h
 class
 nsIURI
 ;
+namespace
+mozilla
+{
+namespace
+net
+{
 class
 nsAboutProtocolHandler
 :
@@ -205,5 +211,7 @@ mBaseURI
 ;
 }
 ;
+}
+}
 #
 endif

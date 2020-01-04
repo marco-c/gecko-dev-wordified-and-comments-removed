@@ -41,6 +41,12 @@ Attributes
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 class
 nsStreamListenerWrapper
 final
@@ -159,5 +165,7 @@ mListener
 ;
 }
 ;
+}
+}
 #
 endif

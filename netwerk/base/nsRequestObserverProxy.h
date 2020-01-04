@@ -46,6 +46,12 @@ nsProxyRelease
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 class
 nsARequestObserverEvent
 ;
@@ -117,9 +123,6 @@ class
 nsARequestObserverEvent
 :
 public
-mozilla
-:
-:
 Runnable
 {
 public
@@ -148,5 +151,7 @@ mRequest
 ;
 }
 ;
+}
+}
 #
 endif

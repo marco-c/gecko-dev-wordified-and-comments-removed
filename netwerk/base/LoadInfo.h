@@ -97,6 +97,9 @@ outLoadInfo
 )
 ;
 }
+namespace
+net
+{
 class
 MOZ_EXPORT
 LoadInfo
@@ -374,6 +377,7 @@ mIsPreflight
 ;
 }
 ;
+}
 }
 #
 endif

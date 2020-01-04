@@ -97,6 +97,9 @@ ContentParent
 namespace
 mozilla
 {
+namespace
+net
+{
 static
 LazyLogModule
 gResLog
@@ -1857,5 +1860,6 @@ get
 return
 rv
 ;
+}
 }
 }

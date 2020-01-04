@@ -26,6 +26,12 @@ nsSimpleURI
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 NS_IMPL_ISUPPORTS
 (
 nsDeviceProtocolHandler
@@ -298,4 +304,6 @@ false
 return
 NS_OK
 ;
+}
+}
 }

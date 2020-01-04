@@ -99,6 +99,9 @@ h
 namespace
 mozilla
 {
+namespace
+net
+{
 NS_IMPL_QUERY_INTERFACE
 (
 ExtensionProtocolHandler
@@ -555,9 +558,6 @@ loadInfo
 =
 static_cast
 <
-mozilla
-:
-:
 LoadInfo
 *
 >
@@ -734,5 +734,6 @@ result
 return
 NS_OK
 ;
+}
 }
 }

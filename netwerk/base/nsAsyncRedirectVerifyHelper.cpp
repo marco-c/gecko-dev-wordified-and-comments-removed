@@ -63,10 +63,13 @@ nsILoadInfo
 .
 h
 "
-static
+namespace
 mozilla
-:
-:
+{
+namespace
+net
+{
+static
 LazyLogModule
 gRedirectLog
 (
@@ -87,9 +90,6 @@ args
 MOZ_LOG
 (
 gRedirectLog
-mozilla
-:
-:
 LogLevel
 :
 :
@@ -106,9 +106,6 @@ class
 nsAsyncVerifyRedirectCallbackEvent
 :
 public
-mozilla
-:
-:
 Runnable
 {
 public
@@ -1192,4 +1189,6 @@ true
 return
 false
 ;
+}
+}
 }

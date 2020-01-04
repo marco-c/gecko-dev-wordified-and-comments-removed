@@ -5,6 +5,12 @@ nsInputStreamChannel
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 nsresult
 nsInputStreamChannel
 :
@@ -295,4 +301,6 @@ aBaseURI
 return
 NS_OK
 ;
+}
+}
 }

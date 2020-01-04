@@ -58,6 +58,9 @@ nsIIOService
 namespace
 mozilla
 {
+namespace
+net
+{
 class
 SubstitutingProtocolHandler
 {
@@ -296,6 +299,7 @@ aCID
 ;
 }
 ;
+}
 }
 #
 endif

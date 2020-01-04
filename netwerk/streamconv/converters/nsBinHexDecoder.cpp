@@ -101,6 +101,12 @@ include
 <
 algorithm
 >
+namespace
+mozilla
+{
+namespace
+net
+{
 nsBinHexDecoder
 :
 :
@@ -2362,4 +2368,6 @@ NS_ERROR_FAILURE
 return
 rv
 ;
+}
+}
 }

@@ -44,10 +44,12 @@ Logging
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
+namespace
+net
+{
 static
 LazyLogModule
 gRequestObserverProxyLog
@@ -69,9 +71,6 @@ args
 MOZ_LOG
 (
 gRequestObserverProxyLog
-mozilla
-:
-:
 LogLevel
 :
 :
@@ -810,4 +809,6 @@ event
 NS_DISPATCH_NORMAL
 )
 ;
+}
+}
 }

@@ -873,6 +873,9 @@ nsIAsyncVerifyRedirectCallback
 callback
 )
 {
+net
+:
+:
 nsAsyncRedirectAutoCallback
 autoCallback
 (

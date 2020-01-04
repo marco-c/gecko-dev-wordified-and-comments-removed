@@ -18,6 +18,12 @@ nsIInputStreamChannel
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 class
 nsInputStreamChannel
 :
@@ -100,5 +106,7 @@ mIsSrcdocChannel
 ;
 }
 ;
+}
+}
 #
 endif

@@ -259,6 +259,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+net
+;
 #
 define
 DISK_CACHE_ENABLE_PREF

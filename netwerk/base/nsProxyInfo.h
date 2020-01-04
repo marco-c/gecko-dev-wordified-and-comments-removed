@@ -64,6 +64,12 @@ abeb
 }
 \
 }
+namespace
+mozilla
+{
+namespace
+net
+{
 class
 nsProxyInfo
 final
@@ -253,5 +259,7 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 nsProxyInfo
 NS_PROXYINFO_IID
 )
+}
+}
 #
 endif

@@ -42,10 +42,13 @@ nsCOMPtr
 .
 h
 "
-static
+namespace
 mozilla
-:
-:
+{
+namespace
+net
+{
+static
 LazyLogModule
 gChannelWrapperLog
 (
@@ -63,9 +66,6 @@ args
 MOZ_LOG
 (
 gChannelWrapperLog
-mozilla
-:
-:
 LogLevel
 :
 :
@@ -709,4 +709,6 @@ Open
 aStream
 )
 ;
+}
+}
 }

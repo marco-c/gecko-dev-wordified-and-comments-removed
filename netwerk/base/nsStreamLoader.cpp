@@ -38,6 +38,12 @@ include
 <
 limits
 >
+namespace
+mozilla
+{
+namespace
+net
+{
 nsStreamLoader
 :
 :
@@ -607,4 +613,6 @@ CheckListenerChain
 return
 NS_OK
 ;
+}
+}
 }

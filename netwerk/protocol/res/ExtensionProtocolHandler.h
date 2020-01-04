@@ -21,6 +21,9 @@ h
 namespace
 mozilla
 {
+namespace
+net
+{
 class
 ExtensionProtocolHandler
 final
@@ -30,9 +33,6 @@ nsISubstitutingProtocolHandler
 public
 nsIProtocolHandlerWithDynamicFlags
 public
-mozilla
-:
-:
 SubstitutingProtocolHandler
 public
 nsSupportsWeakReference
@@ -43,18 +43,12 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIPROTOCOLHANDLERWITHDYNAMICFLAGS
 NS_FORWARD_NSIPROTOCOLHANDLER
 (
-mozilla
-:
-:
 SubstitutingProtocolHandler
 :
 :
 )
 NS_FORWARD_NSISUBSTITUTINGPROTOCOLHANDLER
 (
-mozilla
-:
-:
 SubstitutingProtocolHandler
 :
 :
@@ -160,6 +154,7 @@ override
 ;
 }
 ;
+}
 }
 #
 endif

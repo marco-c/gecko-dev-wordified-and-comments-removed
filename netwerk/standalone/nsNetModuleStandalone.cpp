@@ -414,6 +414,16 @@ nsSocketTransportService2
 .
 h
 "
+typedef
+mozilla
+:
+:
+net
+:
+:
+nsSocketTransportService
+nsSocketTransportService
+;
 #
 undef
 LOG
