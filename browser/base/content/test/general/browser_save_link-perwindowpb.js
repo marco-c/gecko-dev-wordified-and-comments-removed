@@ -243,8 +243,6 @@ clicked
 ;
 }
 testBrowser
-.
-contentWindow
 )
 ;
 }

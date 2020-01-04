@@ -638,8 +638,6 @@ aWindow
 gBrowser
 .
 selectedBrowser
-.
-contentWindow
 )
 ;
 }
