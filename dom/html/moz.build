@@ -330,6 +330,11 @@ HTMLDataListElement
 h
 '
 '
+HTMLDetailsElement
+.
+h
+'
+'
 HTMLDivElement
 .
 h
@@ -701,6 +706,11 @@ cpp
 '
 '
 HTMLDataListElement
+.
+cpp
+'
+'
+HTMLDetailsElement
 .
 cpp
 '
