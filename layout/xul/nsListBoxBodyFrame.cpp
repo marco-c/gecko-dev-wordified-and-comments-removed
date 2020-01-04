@@ -3992,7 +3992,7 @@ CreateRows
 nsRect
 clientRect
 ;
-GetClientRect
+GetXULClientRect
 (
 clientRect
 )

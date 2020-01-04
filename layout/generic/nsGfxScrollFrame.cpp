@@ -21766,7 +21766,7 @@ clientRect
 0
 )
 ;
-GetClientRect
+GetXULClientRect
 (
 clientRect
 )

@@ -1393,7 +1393,7 @@ aFlags
 nsRect
 constraintRect
 ;
-GetClientRect
+GetXULClientRect
 (
 constraintRect
 )
@@ -2032,7 +2032,7 @@ clientRect
 imageFrame
 -
 >
-GetClientRect
+GetXULClientRect
 (
 clientRect
 )

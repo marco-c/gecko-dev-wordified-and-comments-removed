@@ -1207,7 +1207,7 @@ clientRect
 aBox
 -
 >
-GetClientRect
+GetXULClientRect
 (
 clientRect
 )

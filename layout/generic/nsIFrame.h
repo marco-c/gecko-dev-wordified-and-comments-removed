@@ -6539,7 +6539,7 @@ nullptr
 ;
 }
 nsresult
-GetClientRect
+GetXULClientRect
 (
 nsRect
 &
