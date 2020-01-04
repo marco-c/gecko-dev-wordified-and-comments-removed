@@ -2532,7 +2532,7 @@ const
 gfx
 :
 :
-Rect
+IntRect
 &
 aScreenRect
 )

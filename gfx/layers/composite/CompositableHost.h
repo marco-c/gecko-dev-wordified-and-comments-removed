@@ -336,7 +336,7 @@ const
 gfx
 :
 :
-Rect
+IntRect
 &
 aClipRect
 const
