@@ -685,6 +685,11 @@ UnlockImageData
 (
 )
 ;
+bool
+CanOptimizeOpaqueImage
+(
+)
+;
 nsresult
 Optimize
 (
