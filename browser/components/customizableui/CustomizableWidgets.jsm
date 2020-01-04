@@ -1592,11 +1592,6 @@ icon
 let
 iconURL
 =
-PlacesUtils
-.
-getImageURLForResolution
-(
-win
 "
 moz
 -
@@ -1607,7 +1602,6 @@ favicon
 "
 +
 icon
-)
 ;
 item
 .
