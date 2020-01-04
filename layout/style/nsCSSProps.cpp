@@ -8996,7 +8996,7 @@ eCSSKeyword_end
 NS_STYLE_TEXT_ALIGN_END
 }
 {
-eCSSKeyword_true
+eCSSKeyword_unsafe
 NS_STYLE_TEXT_ALIGN_TRUE
 }
 {
@@ -9048,7 +9048,7 @@ eCSSKeyword_end
 NS_STYLE_TEXT_ALIGN_END
 }
 {
-eCSSKeyword_true
+eCSSKeyword_unsafe
 NS_STYLE_TEXT_ALIGN_TRUE
 }
 {
