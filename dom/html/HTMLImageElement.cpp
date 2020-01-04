@@ -2233,7 +2233,7 @@ aNotify
 ReferrerPolicy
 referrerPolicy
 =
-ReferrerPolicyFromString
+AttributeReferrerPolicyFromString
 (
 aValue
 )
@@ -2244,6 +2244,12 @@ if
 InResponsiveMode
 (
 )
+&
+&
+referrerPolicy
+!
+=
+RP_Unset
 &
 &
 referrerPolicy
