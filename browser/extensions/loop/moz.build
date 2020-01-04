@@ -93,6 +93,16 @@ MPL
 0
 /
 .
+DIRS
++
+=
+[
+'
+chrome
+/
+locale
+'
+]
 FINAL_TARGET_FILES
 .
 features
