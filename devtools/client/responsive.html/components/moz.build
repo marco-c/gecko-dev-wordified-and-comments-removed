@@ -109,6 +109,13 @@ browser
 js
 '
 '
+device
+-
+selector
+.
+js
+'
+'
 global
 -
 toolbar
