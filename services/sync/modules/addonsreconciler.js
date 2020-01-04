@@ -1277,6 +1277,11 @@ foreignInstall
 addon
 .
 foreignInstall
+isSyncable
+:
+addon
+.
+isSyncable
 }
 ;
 this
