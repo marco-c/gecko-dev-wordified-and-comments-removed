@@ -2915,7 +2915,7 @@ removeAllCookies
 addMessageListener
 (
 "
-storage
+debug
 :
 storage
 -
@@ -2946,7 +2946,7 @@ reply
 sendSyncMessage
 (
 "
-storage
+debug
 :
 storage
 -
@@ -4296,7 +4296,7 @@ mm
 addMessageListener
 (
 "
-storage
+debug
 :
 storage
 -
@@ -4392,7 +4392,7 @@ mm
 removeMessageListener
 (
 "
-storage
+debug
 :
 storage
 -
@@ -4452,7 +4452,7 @@ mm
 sendAsyncMessage
 (
 "
-storage
+debug
 :
 storage
 -
@@ -7657,7 +7657,7 @@ clearDBStore
 addMessageListener
 (
 "
-storage
+debug
 :
 storage
 -
@@ -7802,7 +7802,7 @@ deferred
 sendAsyncMessage
 (
 "
-storage
+debug
 :
 storage
 -
@@ -8017,7 +8017,7 @@ mm
 broadcastAsyncMessage
 (
 "
-storage
+debug
 :
 storage
 -
@@ -8075,7 +8075,7 @@ mm
 broadcastAsyncMessage
 (
 "
-storage
+debug
 :
 storage
 -
@@ -10386,7 +10386,7 @@ mm
 addMessageListener
 (
 "
-storage
+debug
 :
 storage
 -
@@ -10476,7 +10476,7 @@ mm
 removeMessageListener
 (
 "
-storage
+debug
 :
 storage
 -
