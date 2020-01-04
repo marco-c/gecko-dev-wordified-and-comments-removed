@@ -5351,6 +5351,11 @@ updateShapeAfterMovingGC
 (
 )
 ;
+void
+sweepDictionaryListPointer
+(
+)
+;
 static
 size_t
 offsetOfElements
