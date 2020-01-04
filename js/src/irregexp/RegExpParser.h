@@ -668,9 +668,12 @@ int
 max_out
 )
 ;
-widechar
+bool
 ParseClassCharacterEscape
 (
+widechar
+*
+code
 )
 ;
 bool
@@ -729,9 +732,9 @@ ParseClassAtom
 char16_t
 *
 char_class
-CharacterRange
+widechar
 *
-char_range
+value
 )
 ;
 RegExpTree
