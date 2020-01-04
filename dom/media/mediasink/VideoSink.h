@@ -284,6 +284,12 @@ Shutdown
 )
 override
 ;
+void
+DumpDebugInfo
+(
+)
+override
+;
 private
 :
 virtual

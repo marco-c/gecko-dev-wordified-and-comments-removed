@@ -269,6 +269,13 @@ Shutdown
 )
 {
 }
+virtual
+void
+DumpDebugInfo
+(
+)
+{
+}
 protected
 :
 virtual
