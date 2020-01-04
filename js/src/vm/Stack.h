@@ -1138,9 +1138,6 @@ uint32_t
 GLOBAL_OR_MODULE
 =
 0x1
-EVAL
-=
-0x8
 DEBUGGER_EVAL
 =
 0x10
@@ -1506,9 +1503,12 @@ isEvalFrame
 const
 {
 return
-flags_
-&
-EVAL
+script_
+-
+>
+isForEval
+(
+)
 ;
 }
 bool
