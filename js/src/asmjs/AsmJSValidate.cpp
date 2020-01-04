@@ -33955,7 +33955,7 @@ type
 Type
 :
 :
-Intish
+Int
 ;
 return
 true
@@ -34566,7 +34566,7 @@ type
 Type
 :
 :
-Intish
+Int
 ;
 return
 true
@@ -35068,7 +35068,7 @@ type
 Type
 :
 :
-Intish
+Int
 ;
 return
 true
@@ -35392,7 +35392,7 @@ type
 Type
 :
 :
-Intish
+Int
 ;
 return
 true
