@@ -6557,6 +6557,13 @@ function
 )
 {
 }
+notifyDeviceIdentitiesChanged
+:
+function
+(
+)
+{
+}
 }
 ;
 this

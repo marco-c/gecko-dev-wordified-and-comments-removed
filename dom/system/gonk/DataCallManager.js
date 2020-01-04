@@ -4883,6 +4883,13 @@ function
 )
 {
 }
+notifyDeviceIdentitiesChanged
+:
+function
+(
+)
+{
+}
 }
 ;
 function
