@@ -184,6 +184,11 @@ UNIFIED_SOURCES
 =
 [
 '
+AccessibleOrProxy
+.
+cpp
+'
+'
 AccEvent
 .
 cpp
