@@ -384,14 +384,6 @@ TOK_STRICT_RESERVED
 JSVERSION_DEFAULT
 )
 \
-macro
-(
-await
-await
-TOK_AWAIT
-JSVERSION_DEFAULT
-)
-\
 /
 *
 \
