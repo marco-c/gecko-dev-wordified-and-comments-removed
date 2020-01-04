@@ -1949,16 +1949,6 @@ ConsoleCommand
 messageText
 :
 executeString
-source
-:
-"
-javascript
-"
-type
-:
-"
-command
-"
 category
 :
 "

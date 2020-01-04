@@ -123,7 +123,7 @@ filters
 [
 message
 .
-severity
+level
 ]
 =
 =
