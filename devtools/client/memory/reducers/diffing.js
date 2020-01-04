@@ -5,6 +5,7 @@ strict
 ;
 const
 {
+immutableUpdate
 assert
 }
 =
@@ -37,7 +38,6 @@ constants
 ;
 const
 {
-immutableUpdate
 snapshotIsDiffable
 }
 =
