@@ -836,4 +836,8 @@ r
 >
 artifacts
 /
-XPI_NAME
+fxos
+-
+simulator
+.
+xpi
