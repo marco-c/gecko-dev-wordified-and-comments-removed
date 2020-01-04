@@ -879,7 +879,7 @@ protected
 :
 AsyncPanZoomController
 *
-MakeAPZCInstance
+NewAPZCInstance
 (
 uint64_t
 aLayersId
@@ -1335,7 +1335,7 @@ AsyncPanZoomController
 TestAPZCTreeManager
 :
 :
-MakeAPZCInstance
+NewAPZCInstance
 (
 uint64_t
 aLayersId

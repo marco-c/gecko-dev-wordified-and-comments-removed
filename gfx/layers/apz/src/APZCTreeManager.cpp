@@ -506,7 +506,7 @@ AsyncPanZoomController
 APZCTreeManager
 :
 :
-MakeAPZCInstance
+NewAPZCInstance
 (
 uint64_t
 aLayersId
@@ -1953,7 +1953,7 @@ FromMilliseconds
 }
 apzc
 =
-MakeAPZCInstance
+NewAPZCInstance
 (
 aLayersId
 state

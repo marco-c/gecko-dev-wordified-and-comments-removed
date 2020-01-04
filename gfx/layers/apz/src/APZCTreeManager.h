@@ -515,7 +515,7 @@ APZCTreeManager
 virtual
 AsyncPanZoomController
 *
-MakeAPZCInstance
+NewAPZCInstance
 (
 uint64_t
 aLayersId
