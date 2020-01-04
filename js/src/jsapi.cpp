@@ -6761,6 +6761,15 @@ uint32_t
 value
 )
 {
+rt
+-
+>
+gc
+.
+waitBackgroundSweepEnd
+(
+)
+;
 AutoLockGC
 lock
 (
