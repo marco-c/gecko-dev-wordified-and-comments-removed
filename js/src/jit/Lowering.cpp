@@ -27379,6 +27379,7 @@ Callee
 :
 Dynamic
 )
+{
 args
 [
 ins
@@ -27401,9 +27402,10 @@ callee
 dynamic
 (
 )
-CallTempReg0
+ABINonArgReg0
 )
 ;
+}
 LInstruction
 *
 lir
