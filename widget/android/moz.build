@@ -93,6 +93,9 @@ DIRS
 bindings
 '
 '
+fennec
+'
+'
 jni
 '
 ]
