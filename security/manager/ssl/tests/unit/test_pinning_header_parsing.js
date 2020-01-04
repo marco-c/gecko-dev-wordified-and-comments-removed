@@ -401,6 +401,7 @@ be
 expectedMaxAge
 }
 )
+;
 }
 let
 hostIsPinned
