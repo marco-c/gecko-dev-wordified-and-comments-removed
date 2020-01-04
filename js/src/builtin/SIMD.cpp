@@ -1546,7 +1546,7 @@ Func
 Operands
 )
 \
-JS_FN
+JS_INLINABLE_FN
 (
 #
 Name
@@ -1559,6 +1559,10 @@ simd_bool32x4_
 Name
 Operands
 0
+SimdBool32x4_
+#
+#
+Name
 )
 BOOL32X4_FUNCTION_LIST
 (
