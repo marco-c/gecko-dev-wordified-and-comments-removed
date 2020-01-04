@@ -12813,8 +12813,6 @@ queries
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-NS_ADDREF
-(
 (
 *
 queries
@@ -12824,6 +12822,13 @@ queries
 ]
 =
 query
+.
+forget
+(
+)
+.
+take
+(
 )
 ;
 *
