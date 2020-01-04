@@ -370,9 +370,9 @@ _spec
 nsAutoCString
 buffer
 ;
-(
-void
-)
+Unused
+<
+<
 GetSpec
 (
 buffer

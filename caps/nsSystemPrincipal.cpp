@@ -125,7 +125,7 @@ System
 Principal
 ]
 "
-void
+nsresult
 nsSystemPrincipal
 :
 :
@@ -142,6 +142,9 @@ AssignLiteral
 (
 SYSTEM_PRINCIPAL_SPEC
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

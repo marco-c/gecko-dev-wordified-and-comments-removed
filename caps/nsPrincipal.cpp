@@ -424,7 +424,7 @@ return
 NS_OK
 ;
 }
-void
+nsresult
 nsPrincipal
 :
 :
@@ -435,6 +435,7 @@ nsACString
 aStr
 )
 {
+return
 mCodebase
 -
 >
@@ -3576,7 +3577,7 @@ return
 false
 ;
 }
-void
+nsresult
 nsExpandedPrincipal
 :
 :
@@ -3639,6 +3640,9 @@ AppendLiteral
 nsAutoCString
 spec
 ;
+nsresult
+rv
+=
 nsJSPrincipals
 :
 :
@@ -3658,6 +3662,12 @@ GetScriptLocation
 spec
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
 aStr
 .
 Append
@@ -3675,6 +3685,9 @@ Append
 ]
 "
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

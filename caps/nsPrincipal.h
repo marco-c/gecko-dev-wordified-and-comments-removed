@@ -181,7 +181,7 @@ aOriginAttributes
 )
 ;
 virtual
-void
+nsresult
 GetScriptLocation
 (
 nsACString
@@ -431,7 +431,7 @@ IsOnCSSUnprefixingWhitelist
 override
 ;
 virtual
-void
+nsresult
 GetScriptLocation
 (
 nsACString

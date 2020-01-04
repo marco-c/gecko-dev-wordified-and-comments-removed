@@ -247,7 +247,7 @@ PrincipalOriginAttributes
 )
 ;
 virtual
-void
+nsresult
 GetScriptLocation
 (
 nsACString

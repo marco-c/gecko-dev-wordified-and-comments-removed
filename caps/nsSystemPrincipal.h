@@ -192,7 +192,7 @@ nsSystemPrincipal
 {
 }
 virtual
-void
+nsresult
 GetScriptLocation
 (
 nsACString

@@ -208,7 +208,7 @@ DEBUG_TOKEN
 ;
 }
 virtual
-void
+nsresult
 GetScriptLocation
 (
 nsACString
