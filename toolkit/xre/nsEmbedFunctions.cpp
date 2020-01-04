@@ -1368,15 +1368,6 @@ aChildData
 ;
 #
 ifdef
-HAS_DLL_BLOCKLIST
-DllBlocklist_Initialize
-(
-)
-;
-#
-endif
-#
-ifdef
 MOZ_JPROF
 setupProfilingStuff
 (
