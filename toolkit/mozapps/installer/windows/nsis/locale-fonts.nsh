@@ -2469,7 +2469,7 @@ ttf
 !
 endif
 ;
-Oriya
+Odia
 !
 if
 "
