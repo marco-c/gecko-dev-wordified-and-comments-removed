@@ -283,7 +283,9 @@ full_task_graph
 write_artifact
 (
 '
-target_tasks
+target
+-
+tasks
 .
 json
 '
