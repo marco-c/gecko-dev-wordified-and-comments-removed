@@ -17,6 +17,15 @@ IntegerPrintfMacros
 h
 "
 #
+include
+"
+mozilla
+/
+SizePrintfMacros
+.
+h
+"
+#
 if
 defined
 (
