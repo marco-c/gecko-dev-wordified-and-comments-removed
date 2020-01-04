@@ -1305,6 +1305,12 @@ tabList
 currentIndex
 )
 ;
+aEvent
+.
+preventDefault
+(
+)
+;
 break
 ;
 case

@@ -3420,6 +3420,12 @@ true
 }
 )
 ;
+event
+.
+preventDefault
+(
+)
+;
 }
 }
 openManageFirefoxAccount
@@ -3442,6 +3448,12 @@ event
 this
 .
 manageFirefoxAccount
+(
+)
+;
+event
+.
+preventDefault
 (
 )
 ;

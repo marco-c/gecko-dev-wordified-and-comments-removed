@@ -1380,6 +1380,12 @@ toString
 )
 )
 ;
+aEvent
+.
+preventDefault
+(
+)
+;
 }
 else
 {
