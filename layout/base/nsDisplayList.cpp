@@ -3465,7 +3465,13 @@ nsLayoutUtils
 :
 GetReferenceFrame
 (
+nsLayoutUtils
+:
+:
+GetCrossDocParentFrame
+(
 aFrame
+)
 )
 ;
 origin
