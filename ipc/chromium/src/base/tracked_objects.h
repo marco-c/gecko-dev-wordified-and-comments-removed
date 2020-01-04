@@ -31,6 +31,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticMutex
+.
+h
+"
+#
+include
+"
 base
 /
 message_loop
@@ -1185,7 +1194,10 @@ ThreadData
 first_
 ;
 static
-Lock
+mozilla
+:
+:
+StaticMutex
 list_lock_
 ;
 static

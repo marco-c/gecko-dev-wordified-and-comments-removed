@@ -44,6 +44,12 @@ base
 :
 TimeDelta
 ;
+using
+mozilla
+:
+:
+StaticMutexAutoLock
+;
 namespace
 tracked_objects
 {
@@ -343,7 +349,10 @@ first_
 =
 NULL
 ;
-Lock
+mozilla
+:
+:
+StaticMutex
 ThreadData
 :
 :
@@ -440,7 +449,7 @@ registry
 new
 ThreadData
 ;
-AutoLock
+StaticMutexAutoLock
 lock
 (
 list_lock_
@@ -682,7 +691,7 @@ first
 (
 )
 {
-AutoLock
+StaticMutexAutoLock
 lock
 (
 list_lock_
@@ -1075,7 +1084,7 @@ if
 status
 )
 {
-AutoLock
+StaticMutexAutoLock
 lock
 (
 list_lock_
@@ -1103,7 +1112,7 @@ return
 true
 ;
 }
-AutoLock
+StaticMutexAutoLock
 lock
 (
 list_lock_
@@ -1206,7 +1215,7 @@ ThreadData
 thread_data_list
 ;
 {
-AutoLock
+StaticMutexAutoLock
 lock
 (
 list_lock_
