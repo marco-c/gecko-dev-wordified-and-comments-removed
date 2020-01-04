@@ -89,6 +89,15 @@ Class
 h
 "
 #
+include
+"
+js
+/
+Utility
+.
+h
+"
+#
 if
 JS_STACK_GROWTH_DIRECTION
 >
@@ -9937,6 +9946,9 @@ JS
 :
 HandleObject
 obj
+AutoEnterOOMUnsafeRegion
+&
+oomUnsafe
 )
 const
 {

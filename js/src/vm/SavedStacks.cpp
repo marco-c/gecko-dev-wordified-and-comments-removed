@@ -7265,6 +7265,9 @@ JSContext
 cx
 HandleObject
 target
+AutoEnterOOMUnsafeRegion
+&
+oomUnsafe
 )
 const
 {
@@ -7304,9 +7307,6 @@ trial
 )
 return
 nullptr
-;
-AutoEnterOOMUnsafeRegion
-oomUnsafe
 ;
 RootedSavedFrame
 frame

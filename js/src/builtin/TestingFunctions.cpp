@@ -9844,6 +9844,9 @@ JSContext
 *
 cx
 HandleObject
+AutoEnterOOMUnsafeRegion
+&
+oomUnsafe
 )
 const
 override
@@ -9866,12 +9869,12 @@ JSContext
 *
 cx
 HandleObject
+AutoEnterOOMUnsafeRegion
+&
+oomUnsafe
 )
 const
 {
-AutoEnterOOMUnsafeRegion
-oomUnsafe
-;
 RootedObject
 obj
 (
