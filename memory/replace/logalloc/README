@@ -379,6 +379,9 @@ follows
 pid
 >
 <
+tid
+>
+<
 function
 >
 (
@@ -430,12 +433,14 @@ Example
 log
 :
 18545
+18545
 malloc
 (
 32
 )
 =
 0x7f90495120e0
+18545
 18545
 calloc
 (
@@ -445,6 +450,7 @@ calloc
 =
 0x7f9049537480
 18545
+18545
 realloc
 (
 0x7f90495120e0
@@ -452,6 +458,7 @@ realloc
 )
 =
 0x7f9049536680
+18545
 18545
 posix_memalign
 (
@@ -461,9 +468,11 @@ posix_memalign
 =
 0x7f9049583300
 18545
+18545
 jemalloc_stats
 (
 )
+18545
 18545
 free
 (
@@ -645,12 +654,14 @@ once
 preprocessed
 :
 1
+1
 malloc
 (
 32
 )
 =
 #
+1
 1
 1
 calloc
@@ -662,6 +673,7 @@ calloc
 #
 2
 1
+1
 realloc
 (
 #
@@ -670,6 +682,7 @@ realloc
 )
 =
 #
+1
 1
 1
 posix_memalign
@@ -681,9 +694,11 @@ posix_memalign
 #
 3
 1
+1
 jemalloc_stats
 (
 )
+1
 1
 free
 (
@@ -853,6 +868,7 @@ NR
 print
 "
 2
+1
 jemalloc_stats
 (
 )
@@ -933,7 +949,7 @@ replay
 the
 log
 against
-jemalloc3
+jemalloc4
 (
 which
 is

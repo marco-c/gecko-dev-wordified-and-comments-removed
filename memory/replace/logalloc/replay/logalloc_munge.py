@@ -420,8 +420,35 @@ result
 :
 ]
         
+if
+'
+'
+in
+func
+:
+            
+tid
+func
+=
+func
+.
+split
+(
+'
+'
+1
+)
+        
+else
+:
+            
+tid
+=
+pid
+        
 return
 pid
+tid
 func
 args
 result
@@ -514,6 +541,12 @@ IdMapping
 (
 )
     
+tids
+=
+IdMapping
+(
+)
+    
 for
 line
 in
@@ -534,6 +567,7 @@ try
 :
             
 pid
+tid
 func
 args
 result
@@ -550,6 +584,16 @@ pids
 int
 (
 pid
+)
+]
+            
+tid
+=
+tids
+[
+int
+(
+tid
 )
 ]
             
@@ -737,6 +781,8 @@ print
 %
 d
 %
+d
+%
 s
 (
 %
@@ -748,6 +794,7 @@ s
 %
 (
 pid
+tid
 func
 '
 '

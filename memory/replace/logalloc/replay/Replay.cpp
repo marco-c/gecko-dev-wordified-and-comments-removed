@@ -2069,6 +2069,17 @@ pid
 continue
 ;
 }
+parseNumber
+(
+line
+.
+SplitChar
+(
+'
+'
+)
+)
+;
 Buffer
 func
 =
