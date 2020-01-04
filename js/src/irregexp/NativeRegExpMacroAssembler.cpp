@@ -2140,12 +2140,6 @@ RegExp
 ;
 #
 endif
-AutoWritableJitCode
-awjc
-(
-code
-)
-;
 for
 (
 size_t

@@ -5904,6 +5904,7 @@ newStubCode
 togglePreBarriers
 (
 true
+DontReprotect
 )
 ;
 if

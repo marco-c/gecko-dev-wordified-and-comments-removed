@@ -2555,6 +2555,17 @@ TypeTagOnly
 TypeSet
 }
 ;
+enum
+ReprotectCode
+{
+Reprotect
+=
+true
+DontReprotect
+=
+false
+}
+;
 }
 }
 #

@@ -74,6 +74,15 @@ MacroAssembler
 &
 masm
 ;
+mozilla
+:
+:
+Maybe
+<
+AutoWritableJitCode
+>
+awjc
+;
 JitCode
 *
 fail
@@ -339,8 +348,9 @@ fail
 cx
 )
 ;
-AutoWritableJitCode
 awjc
+.
+emplace
 (
 result
 bytesNeeded

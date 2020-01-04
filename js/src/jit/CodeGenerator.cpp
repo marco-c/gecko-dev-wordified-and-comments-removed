@@ -8648,6 +8648,7 @@ code
 togglePreBarriers
 (
 true
+DontReprotect
 )
 ;
 return
@@ -9362,6 +9363,7 @@ code
 togglePreBarriers
 (
 true
+DontReprotect
 )
 ;
 return
@@ -51230,13 +51232,6 @@ adoptFallbackStubs
 stubSpace_
 )
 ;
-{
-AutoWritableJitCode
-awjc
-(
-code
-)
-;
 Assembler
 :
 :
@@ -51641,7 +51636,6 @@ cacheList_
 masm
 )
 ;
-}
 JitSpew
 (
 JitSpew_Codegen
@@ -52027,6 +52021,7 @@ ionScript
 toggleBarriers
 (
 true
+DontReprotect
 )
 ;
 if

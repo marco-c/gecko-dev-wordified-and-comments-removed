@@ -498,6 +498,8 @@ togglePreBarriers
 (
 bool
 enabled
+ReprotectCode
+reprotect
 )
 ;
 bool
@@ -1985,6 +1987,10 @@ toggleBarriers
 (
 bool
 enabled
+ReprotectCode
+reprotect
+=
+Reprotect
 )
 ;
 void

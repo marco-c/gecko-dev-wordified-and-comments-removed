@@ -1953,17 +1953,6 @@ false
 }
 }
 ;
-enum
-ReprotectCode
-{
-Reprotect
-=
-true
-DontReprotect
-=
-false
-}
-;
 class
 MOZ_STACK_CLASS
 MaybeAutoWritableJitCode

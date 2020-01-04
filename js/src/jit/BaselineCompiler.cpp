@@ -1333,6 +1333,7 @@ baselineScript
 toggleBarriers
 (
 true
+DontReprotect
 )
 ;
 if
@@ -1366,12 +1367,6 @@ baselineScript
 toggleProfilerInstrumentation
 (
 true
-)
-;
-AutoWritableJitCode
-awjc
-(
-code
 )
 ;
 for
