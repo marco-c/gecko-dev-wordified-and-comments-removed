@@ -694,7 +694,7 @@ enum
 class
 ExprType
 :
-uint8_t
+uint16_t
 {
 I32
 =
