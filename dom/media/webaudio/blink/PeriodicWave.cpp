@@ -440,6 +440,12 @@ max
 (
 )
 )
+m_normalizationScale
+(
+1
+.
+0f
+)
 {
 float
 nyquist
