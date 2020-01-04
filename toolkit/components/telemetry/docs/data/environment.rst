@@ -176,7 +176,14 @@ profile
 addons
 Structure
 :
+.
+.
+code
+-
+block
 :
+:
+js
 {
 build
 :

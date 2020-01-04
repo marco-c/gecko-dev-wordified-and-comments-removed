@@ -175,7 +175,14 @@ type
 .
 Structure
 :
+.
+.
+code
+-
+block
 :
+:
+js
 {
 type
 :

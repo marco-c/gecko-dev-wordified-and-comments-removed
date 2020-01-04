@@ -157,7 +157,14 @@ lifetime
 .
 Structure
 :
+.
+.
+code
+-
+block
 :
+:
+js
 {
 "
 v
@@ -527,6 +534,10 @@ experiments
 <
 string
 >
+/
+*
+*
+/
 ]
 /
 /
