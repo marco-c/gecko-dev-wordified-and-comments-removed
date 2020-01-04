@@ -1304,9 +1304,6 @@ mOverrideInternalTypes
 bool
 mPluginsDisabled
 ;
-bool
-mPluginsClickToPlay
-;
 nsTArray
 <
 RefPtr
