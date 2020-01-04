@@ -248,14 +248,6 @@ ins
 )
 ;
 void
-visitAsmJSLoadFuncPtr
-(
-MAsmJSLoadFuncPtr
-*
-ins
-)
-;
-void
 visitAsmJSCompareExchangeHeap
 (
 MAsmJSCompareExchangeHeap

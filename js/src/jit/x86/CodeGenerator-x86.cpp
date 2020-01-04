@@ -6022,6 +6022,7 @@ LAsmJSLoadFuncPtr
 ins
 )
 {
+const
 MAsmJSLoadFuncPtr
 *
 mir
