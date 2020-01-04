@@ -220,6 +220,15 @@ newURI
 spec2
 )
 ;
+const
+contentPolicyType
+=
+Ci
+.
+nsIContentPolicy
+.
+TYPE_DOCUMENT
+;
 let
 channel1
 =
@@ -234,6 +243,7 @@ uri1
 loadUsingSystemPrincipal
 :
 true
+contentPolicyType
 }
 )
 ;
@@ -251,6 +261,7 @@ uri2
 loadUsingSystemPrincipal
 :
 true
+contentPolicyType
 }
 )
 ;
@@ -471,7 +482,7 @@ null
 NS_ERROR_INVALID_ARG
 )
 ;
-do_check_true
+do_check_false
 (
 util
 .
@@ -481,7 +492,7 @@ channel1
 )
 )
 ;
-do_check_true
+do_check_false
 (
 util
 .
