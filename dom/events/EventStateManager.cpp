@@ -1426,6 +1426,14 @@ sPointerEventEnabled
 =
 false
 ;
+uint64_t
+EventStateManager
+:
+:
+sUserInputCounter
+=
+0
+;
 int32_t
 EventStateManager
 :
@@ -1538,6 +1546,12 @@ EventStateManager
 sDragOverContent
 =
 nullptr
+;
+TimeStamp
+EventStateManager
+:
+:
+sLatestUserInputStart
 ;
 TimeStamp
 EventStateManager
