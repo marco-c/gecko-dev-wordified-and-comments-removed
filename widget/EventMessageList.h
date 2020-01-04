@@ -1537,7 +1537,7 @@ eMediaRecorderEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_MEDIARECORDER_STOP
+eMediaRecorderStop
 eMediaRecorderEventFirst
 +
 3
