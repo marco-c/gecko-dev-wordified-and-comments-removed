@@ -1509,6 +1509,15 @@ ins
 ;
 LMoveGroup
 *
+getFixReuseMoveGroup
+(
+LInstruction
+*
+ins
+)
+;
+LMoveGroup
+*
 getMoveGroupAfter
 (
 LInstruction
