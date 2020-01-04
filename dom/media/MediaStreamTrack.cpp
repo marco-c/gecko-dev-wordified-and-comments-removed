@@ -381,7 +381,9 @@ mEnabled
 =
 aEnabled
 ;
-mOwningStream
+GetInputStream
+(
+)
 -
 >
 SetTrackEnabled

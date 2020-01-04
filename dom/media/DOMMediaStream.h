@@ -835,16 +835,6 @@ aListener
 {
 }
 virtual
-void
-SetTrackEnabled
-(
-TrackID
-aTrackID
-bool
-aEnabled
-)
-;
-virtual
 already_AddRefed
 <
 dom
