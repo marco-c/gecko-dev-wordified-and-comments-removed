@@ -2594,7 +2594,6 @@ return
 ;
 if
 (
-!
 JSREPORT_IS_WARNING
 (
 report
@@ -2602,9 +2601,7 @@ report
 flags
 )
 )
-return
-;
-CallErrorReporter
+CallWarningReporter
 (
 cx
 message

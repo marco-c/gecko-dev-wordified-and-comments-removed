@@ -4273,8 +4273,11 @@ destroyPrincipals
 JSReadPrincipalsOp
 readPrincipals
 ;
-JSErrorReporter
-errorReporter
+JS
+:
+:
+WarningReporter
+warningReporter
 ;
 JS
 :

@@ -16672,7 +16672,10 @@ JSContext
 *
 cx_
 ;
-JSErrorReporter
+JS
+:
+:
+WarningReporter
 oldReporter_
 ;
 public
@@ -16692,7 +16695,10 @@ cx
 {
 oldReporter_
 =
-JS_SetErrorReporter
+JS
+:
+:
+SetWarningReporter
 (
 cx_
 -
@@ -16709,7 +16715,10 @@ AutoSelfHostingErrorReporter
 (
 )
 {
-JS_SetErrorReporter
+JS
+:
+:
+SetWarningReporter
 (
 cx_
 -

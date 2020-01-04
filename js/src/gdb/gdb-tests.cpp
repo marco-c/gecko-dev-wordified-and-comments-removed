@@ -137,7 +137,7 @@ abort
 ;
 }
 void
-reportError
+reportWarning
 (
 JSContext
 *
@@ -286,10 +286,13 @@ runtime
 )
 )
 ;
-JS_SetErrorReporter
+JS
+:
+:
+SetWarningReporter
 (
 runtime
-reportError
+reportWarning
 )
 ;
 JSAutoRequest

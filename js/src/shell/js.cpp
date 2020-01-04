@@ -15981,7 +15981,10 @@ JS_SetFutexCanWait
 rt
 )
 ;
-JS_SetErrorReporter
+JS
+:
+:
+SetWarningReporter
 (
 rt
 WarningReporter
@@ -45039,7 +45042,10 @@ JS_SetFutexCanWait
 rt
 )
 ;
-JS_SetErrorReporter
+JS
+:
+:
+SetWarningReporter
 (
 rt
 WarningReporter

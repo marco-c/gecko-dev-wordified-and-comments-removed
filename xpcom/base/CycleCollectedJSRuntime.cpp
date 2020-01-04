@@ -2026,7 +2026,7 @@ mOwningThread
 }
 static
 void
-MozCrashErrorReporter
+MozCrashWarningReporter
 (
 JSContext
 *
@@ -2238,10 +2238,13 @@ mJSRuntime
 GetBuildId
 )
 ;
-JS_SetErrorReporter
+JS
+:
+:
+SetWarningReporter
 (
 mJSRuntime
-MozCrashErrorReporter
+MozCrashWarningReporter
 )
 ;
 static

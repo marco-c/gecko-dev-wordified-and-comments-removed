@@ -540,9 +540,12 @@ mIsMainThread
 ;
 Maybe
 <
-JSErrorReporter
+JS
+:
+:
+WarningReporter
 >
-mOldErrorReporter
+mOldWarningReporter
 ;
 void
 InitInternal

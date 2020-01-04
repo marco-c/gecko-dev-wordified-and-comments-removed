@@ -2166,7 +2166,7 @@ reportWarnings
 )
 ;
 void
-CallErrorReporter
+CallWarningReporter
 (
 JSContext
 *
