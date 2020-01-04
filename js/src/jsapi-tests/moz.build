@@ -294,6 +294,11 @@ testGCUniqueId
 cpp
 '
 '
+testGCWeakRef
+.
+cpp
+'
+'
 testGetPropertyDescriptor
 .
 cpp
