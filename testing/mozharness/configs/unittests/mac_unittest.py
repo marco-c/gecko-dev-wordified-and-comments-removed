@@ -2047,13 +2047,9 @@ xpcshell
 /
 tests
 /
-all
--
-test
--
-dirs
+xpcshell
 .
-list
+ini
 "
 ]
             
@@ -2113,13 +2109,9 @@ xpcshell
 /
 tests
 /
-all
--
-test
--
-dirs
+xpcshell
 .
-list
+ini
 "
 ]
             
