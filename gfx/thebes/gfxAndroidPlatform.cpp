@@ -1362,7 +1362,7 @@ FontHintingEnabled
 {
 #
 ifdef
-MOZ_WIDGET_ANDROID
+MOZ_USING_ANDROID_JAVA_WIDGETS
 return
 false
 ;
@@ -1407,7 +1407,7 @@ RequiresLinearZoom
 {
 #
 ifdef
-MOZ_WIDGET_ANDROID
+MOZ_USING_ANDROID_JAVA_WIDGETS
 return
 true
 ;
