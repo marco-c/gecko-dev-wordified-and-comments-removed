@@ -579,7 +579,7 @@ h
 if
 defined
 (
-MOZ_ANDROID_APZ
+MOZ_WIDGET_ANDROID
 )
 #
 include
@@ -763,7 +763,7 @@ PointTyped
 ;
 #
 ifdef
-MOZ_ANDROID_APZ
+MOZ_WIDGET_ANDROID
 typedef
 WidgetOverscrollEffect
 OverscrollEffect

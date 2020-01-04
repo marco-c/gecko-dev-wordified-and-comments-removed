@@ -2472,7 +2472,7 @@ aRootFrame
 if
 defined
 (
-MOZ_ANDROID_APZ
+MOZ_WIDGET_ANDROID
 )
 if
 (

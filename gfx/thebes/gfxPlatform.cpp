@@ -10234,7 +10234,7 @@ false
 endif
 #
 ifdef
-MOZ_ANDROID_APZ
+MOZ_WIDGET_ANDROID
 return
 true
 ;

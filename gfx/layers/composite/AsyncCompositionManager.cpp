@@ -3692,7 +3692,7 @@ rect
 }
 #
 ifdef
-MOZ_ANDROID_APZ
+MOZ_WIDGET_ANDROID
 static
 void
 MoveScrollbarForLayerMargin
@@ -4159,7 +4159,7 @@ GetMetrics
 if
 defined
 (
-MOZ_ANDROID_APZ
+MOZ_WIDGET_ANDROID
 )
 if
 (
@@ -6409,7 +6409,7 @@ foundRoot
 if
 defined
 (
-MOZ_ANDROID_APZ
+MOZ_WIDGET_ANDROID
 )
 MOZ_ASSERT
 (
