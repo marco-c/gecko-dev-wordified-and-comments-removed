@@ -109,9 +109,6 @@ mResponseBody
 nsCString
 mContentType
 ;
-bool
-mIsNavigation
-;
 virtual
 ~
 InterceptedJARChannel
@@ -130,8 +127,6 @@ aChannel
 nsINetworkInterceptController
 *
 aController
-bool
-aIsNavigation
 )
 ;
 NS_DECL_ISUPPORTS
