@@ -203,6 +203,8 @@ querySelector
 (
 "
 #
+global
+-
 toolbar
 "
 )

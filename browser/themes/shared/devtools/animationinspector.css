@@ -138,6 +138,8 @@ color3
 ;
 }
 #
+global
+-
 toolbar
 {
 border
@@ -194,6 +196,8 @@ height
 ;
 }
 #
+global
+-
 toolbar
 .
 label
