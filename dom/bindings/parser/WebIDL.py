@@ -9049,6 +9049,14 @@ identifier
 "
 ProbablyShortLivingObject
 "
+or
+                  
+identifier
+=
+=
+"
+NonOrdinaryGetPrototypeOf
+"
 )
 :
                 

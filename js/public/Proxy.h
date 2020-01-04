@@ -424,6 +424,8 @@ MutableHandleObject
 protop
 )
 const
+=
+0
 ;
 virtual
 bool

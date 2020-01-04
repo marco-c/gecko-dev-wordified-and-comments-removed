@@ -1315,16 +1315,6 @@ MutableHandleObject
 proto
 )
 {
-MOZ_ASSERT
-(
-proxy
--
->
-hasDynamicPrototype
-(
-)
-)
-;
 JS_CHECK_RECURSION
 (
 cx

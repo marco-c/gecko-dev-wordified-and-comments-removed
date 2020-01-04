@@ -164,6 +164,7 @@ document
 /
 [
 Unforgeable
+NonOrdinaryGetPrototypeOf
 ]
 interface
 Location
