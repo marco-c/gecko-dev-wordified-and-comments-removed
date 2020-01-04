@@ -2559,6 +2559,8 @@ DrawPathCallbacks
 aCallbacks
 bool
 aVertical
+gfxFloat
+aDecorationOffsetDir
 uint8_t
 aDecoration
 )
