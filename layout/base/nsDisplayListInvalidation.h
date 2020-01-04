@@ -672,6 +672,11 @@ nsDisplaySVGEffectsGeometry
 :
 public
 nsDisplayItemGeometry
+public
+nsImageGeometryMixin
+<
+nsDisplaySVGEffectsGeometry
+>
 {
 public
 :
