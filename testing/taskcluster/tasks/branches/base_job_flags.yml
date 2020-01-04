@@ -284,6 +284,13 @@ test
 .
 *
 /
+gtest
+:
+/
+gtest
+.
+*
+/
 jittest
 :
 /
@@ -960,6 +967,8 @@ ui
 test
 -
 unit
+-
+gtest
 -
 jetpack
 -
