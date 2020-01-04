@@ -648,7 +648,14 @@ about
 :
 looppanel
 "
-null
+{
+width
+:
+330
+height
+:
+410
+}
 callback
 )
 ;
