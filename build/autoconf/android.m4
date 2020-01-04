@@ -2582,6 +2582,17 @@ ANDROID_BUILD_TOOLS_VERSION
 )
 MOZ_ANDROID_AAR
 (
+customtabs
+ANDROID_SUPPORT_LIBRARY_VERSION
+android
+com
+/
+android
+/
+support
+)
+MOZ_ANDROID_AAR
+(
 appcompat
 -
 v7
