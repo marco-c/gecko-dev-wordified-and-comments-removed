@@ -958,6 +958,17 @@ isProfilerInstrumentationEnabled
 return
 true
 ;
+if
+(
+masm
+.
+oom
+(
+)
+)
+return
+false
+;
 MOZ_ASSERT
 (
 site
