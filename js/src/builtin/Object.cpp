@@ -5914,6 +5914,17 @@ obj_getOwnPropertyDescriptor
 2
 0
 )
+JS_SELF_HOSTED_FN
+(
+"
+getOwnPropertyDescriptors
+"
+"
+ObjectGetOwnPropertyDescriptors
+"
+1
+0
+)
 JS_FN
 (
 "
