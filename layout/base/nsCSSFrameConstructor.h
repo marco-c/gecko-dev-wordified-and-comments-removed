@@ -2397,6 +2397,8 @@ aState
 nsIAtom
 *
 aContainerType
+bool
+aIsWebkitBox
 )
 ;
 inline
@@ -2410,6 +2412,8 @@ aState
 nsIAtom
 *
 aContainerType
+bool
+aIsWebkitBox
 )
 ;
 inline
@@ -2842,6 +2846,8 @@ aState
 nsIAtom
 *
 aContainerType
+bool
+aIsWebkitBox
 )
 ;
 bool
