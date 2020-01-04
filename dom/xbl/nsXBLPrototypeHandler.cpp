@@ -2636,7 +2636,7 @@ controllers
 {
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindow
 >
 domWindow
 (
@@ -2650,6 +2650,7 @@ if
 (
 domWindow
 )
+{
 domWindow
 -
 >
@@ -2661,6 +2662,7 @@ controllers
 )
 )
 ;
+}
 }
 nsCOMPtr
 <

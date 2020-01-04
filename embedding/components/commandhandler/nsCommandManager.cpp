@@ -931,7 +931,16 @@ NS_ERROR_FAILURE
 }
 if
 (
+nsCOMPtr
+<
+nsPIDOMWindow
+>
+targetWindow
+=
+do_QueryInterface
+(
 aTargetWindow
+)
 )
 {
 nsCOMPtr
@@ -942,7 +951,7 @@ controllers
 ;
 rv
 =
-aTargetWindow
+targetWindow
 -
 >
 GetControllers

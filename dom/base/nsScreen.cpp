@@ -1395,7 +1395,7 @@ y
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindow
 >
 win
 =

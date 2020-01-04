@@ -3901,7 +3901,7 @@ GetDocShell
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindow
 >
 window
 ;
@@ -3930,16 +3930,12 @@ nsCOMPtr
 nsIDOMElement
 >
 frameElement
-;
+=
 window
 -
 >
 GetFrameElement
 (
-getter_AddRefs
-(
-frameElement
-)
 )
 ;
 nsCOMPtr

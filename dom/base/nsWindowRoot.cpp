@@ -1011,7 +1011,7 @@ else
 {
 nsCOMPtr
 <
-nsIDOMWindow
+nsPIDOMWindow
 >
 domWindow
 =

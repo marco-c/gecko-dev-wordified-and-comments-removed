@@ -746,16 +746,12 @@ nsCOMPtr
 nsIDOMNavigator
 >
 navigator
-;
+=
 mWindow
 -
 >
 GetNavigator
 (
-getter_AddRefs
-(
-navigator
-)
 )
 ;
 if

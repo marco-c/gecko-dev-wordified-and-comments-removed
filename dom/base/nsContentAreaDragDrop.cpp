@@ -1583,15 +1583,13 @@ NS_OK
 }
 else
 {
+selection
+=
 mWindow
 -
 >
 GetSelection
 (
-getter_AddRefs
-(
-selection
-)
 )
 ;
 if
