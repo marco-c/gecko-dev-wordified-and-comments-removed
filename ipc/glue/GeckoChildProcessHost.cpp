@@ -5413,6 +5413,12 @@ GeckoProcessType_Content
 mProcessType
 =
 =
+GeckoProcessType_GPU
+|
+|
+mProcessType
+=
+=
 GeckoProcessType_GMPlugin
 )
 {
