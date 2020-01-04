@@ -549,6 +549,11 @@ DoShutdown
 (
 )
 ;
+void
+StopIPC
+(
+)
+;
 EngineHelper
 mEngines
 [
