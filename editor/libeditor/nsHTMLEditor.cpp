@@ -6404,7 +6404,7 @@ bool
 cancel
 handled
 ;
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 EditAction
@@ -8346,7 +8346,7 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 EditAction
@@ -8744,7 +8744,7 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 EditAction
@@ -8899,7 +8899,7 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 EditAction
@@ -9044,7 +9044,7 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 EditAction
@@ -9444,7 +9444,7 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 opID
@@ -9866,7 +9866,7 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 EditAction
@@ -19608,7 +19608,7 @@ bool
 cancel
 handled
 ;
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 EditAction

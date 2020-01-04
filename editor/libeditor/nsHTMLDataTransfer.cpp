@@ -712,7 +712,7 @@ NS_ENSURE_STATE
 selection
 )
 ;
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 EditAction
@@ -1677,7 +1677,7 @@ CollapseToStart
 )
 ;
 }
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 EditAction
@@ -7724,7 +7724,7 @@ selection
 NS_ERROR_NULL_POINTER
 )
 ;
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 EditAction
@@ -8469,7 +8469,7 @@ nsIEditor
 eNext
 )
 ;
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 EditAction
@@ -8843,7 +8843,7 @@ nsIEditor
 eNext
 )
 ;
-nsTextRulesInfo
+TextRulesInfo
 ruleInfo
 (
 EditAction
