@@ -18,6 +18,9 @@ task
 :
 payload
 :
+maxRunTime
+:
+7200
 command
 :
 -
@@ -172,7 +175,7 @@ chunks
 :
 total
 :
-12
+8
 treeherder
 :
 groupName
