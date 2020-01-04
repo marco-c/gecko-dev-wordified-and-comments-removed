@@ -330,6 +330,9 @@ JumpSiteArray
 jumpThunks_
 ;
 bool
+tableExported_
+;
+bool
 parallel_
 ;
 uint32_t

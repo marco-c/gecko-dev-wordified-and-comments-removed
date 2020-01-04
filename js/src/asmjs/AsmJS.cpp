@@ -47345,6 +47345,12 @@ return
 false
 ;
 }
+RootedWasmTableObject
+table
+(
+cx
+)
+;
 if
 (
 !
@@ -47354,6 +47360,7 @@ instantiate
 (
 cx
 funcs
+table
 memory
 nullptr
 instanceObj
