@@ -273,9 +273,18 @@ mParent
 =
 nullptr
 ;
+if
+(
+DocAccessibleParent
+*
+parent
+=
 ParentDoc
 (
 )
+)
+{
+parent
 -
 >
 mChildDocs
@@ -285,6 +294,7 @@ RemoveElement
 this
 )
 ;
+}
 mParentDoc
 =
 nullptr

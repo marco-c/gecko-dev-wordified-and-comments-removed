@@ -980,6 +980,13 @@ DocAccessibleParent
 aChildDoc
 )
 ;
+childDoc
+-
+>
+Unbind
+(
+)
+;
 bool
 result
 =
