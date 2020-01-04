@@ -25002,10 +25002,6 @@ AC_SUBST
 (
 ac_configure_args
 )
-AC_SUBST
-(
-TOOLCHAIN_PREFIX
-)
 if
 test
 -

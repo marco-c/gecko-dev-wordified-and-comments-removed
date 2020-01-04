@@ -626,11 +626,15 @@ moz_webrtc_mediacodec
 android_toolchain
 =
 CONFIG
-[
+.
+get
+(
 '
 ANDROID_TOOLCHAIN
 '
-]
+'
+'
+)
 )
 flavors
 =

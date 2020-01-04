@@ -42,6 +42,9 @@ MOZ_AUTOMATION_UPLOAD_SYMBOLS
 NO_CACHE
 =
 1
+NO_NDK
+=
+1
 .
 "
 topsrcdir

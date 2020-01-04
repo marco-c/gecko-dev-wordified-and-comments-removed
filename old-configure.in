@@ -1214,15 +1214,6 @@ ANDROID_SOURCE
 "
 android_source
 "
-ANDROID_NDK
-=
-"
-{
-ANDROID_SOURCE
-}
-/
-ndk
-"
 dnl
 Default
 to
@@ -64117,10 +64108,6 @@ NS_PRINTING
 AC_SUBST
 (
 MOZ_HELP_VIEWER
-)
-AC_SUBST
-(
-TOOLCHAIN_PREFIX
 )
 AC_SUBST
 (
