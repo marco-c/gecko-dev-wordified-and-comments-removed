@@ -98,7 +98,7 @@ result
 =
 callFunction
 (
-std_Map_iterator_next
+MapIteratorNext
 entries
 )
 ;

@@ -936,7 +936,7 @@ value
 =
 callFunction
 (
-std_String_substring
+String_substring
 S
 index
 index
@@ -1782,7 +1782,7 @@ outputStr
 =
 callFunction
 (
-std_String_substring
+String_substring
 inputStr
 chunkStart
 i
@@ -1824,7 +1824,7 @@ outputStr
 =
 callFunction
 (
-std_String_substring
+String_substring
 inputStr
 chunkStart
 )
