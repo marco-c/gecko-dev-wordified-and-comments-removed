@@ -4,6 +4,13 @@ testScript
 script
 )
 {
+SimpleTest
+.
+requestLongerTimeout
+(
+2
+)
+;
 if
 (
 !
