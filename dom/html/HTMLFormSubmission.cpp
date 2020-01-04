@@ -3388,7 +3388,10 @@ GetEnumValue
 }
 }
 nsresult
-GetSubmissionFromForm
+HTMLFormSubmission
+:
+:
+GetFromForm
 (
 nsGenericHTMLElement
 *
