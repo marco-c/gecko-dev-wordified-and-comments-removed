@@ -14101,7 +14101,8 @@ tensPlace
 (
 percent
 )
-(
+{
+return
 (
 percent
 /
@@ -14109,7 +14110,8 @@ percent
 )
 |
 0
-)
+;
+}
 if
 (
 last
