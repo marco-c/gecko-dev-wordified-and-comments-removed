@@ -531,6 +531,9 @@ mURI
 nsAutoCString
 spec
 ;
+nsresult
+rv
+=
 mFontEntry
 -
 >
@@ -543,6 +546,12 @@ mURI
 GetSpec
 (
 spec
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 AppendUTF8toUTF16

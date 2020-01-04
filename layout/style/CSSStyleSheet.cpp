@@ -8105,6 +8105,9 @@ mOriginalSheetURI
 nsAutoCString
 str
 ;
+nsresult
+rv
+=
 mInner
 -
 >
@@ -8114,6 +8117,12 @@ mOriginalSheetURI
 GetSpec
 (
 str
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 CopyUTF8toUTF16

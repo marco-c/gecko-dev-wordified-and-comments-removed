@@ -147,7 +147,8 @@ StyleSheetHandle
 aSheet
 )
 ;
-void
+MOZ_MUST_USE
+nsresult
 ParseSheet
 (
 const

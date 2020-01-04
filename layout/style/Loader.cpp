@@ -7757,6 +7757,8 @@ mLineNumber
 }
 else
 {
+rv
+=
 aLoadData
 -
 >
@@ -7787,10 +7789,6 @@ aLoadData
 >
 mLineNumber
 )
-;
-rv
-=
-NS_OK
 ;
 }
 mParsingDatas

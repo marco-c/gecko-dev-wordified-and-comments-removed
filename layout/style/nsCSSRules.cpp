@@ -3897,6 +3897,10 @@ if
 (
 docURI
 )
+{
+nsresult
+rv
+=
 docURI
 -
 >
@@ -3905,6 +3909,13 @@ GetSpec
 docURISpec
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+false
+)
+;
+}
 for
 (
 URL
