@@ -3,7 +3,7 @@
 version
 "
 :
-4
+5
 "
 invocation
 "
@@ -23,11 +23,6 @@ dark
 -
 matter
 "
-"
-sampleBelowSize
-"
-:
-2500
 }
 "
 blockList
@@ -82,6 +77,11 @@ C
 "
 }
 {
+"
+req
+"
+:
+2500
 "
 alloc
 "

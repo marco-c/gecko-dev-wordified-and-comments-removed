@@ -45,7 +45,7 @@ import
 bisect_right
 outputVersion
 =
-4
+5
 allocatorFns
 =
 [
@@ -163,12 +163,6 @@ self
 usableSize
 =
 0
-        
-self
-.
-isSampled
-=
-False
         
 self
 .
@@ -302,10 +296,7 @@ int
 )
         
 for
-(
 usableSize
-isSampled
-)
 count
 in
 self
@@ -319,11 +310,8 @@ items
             
 negatedUsableSizes
 [
-(
 -
 usableSize
-isSampled
-)
 ]
 =
 count
@@ -398,18 +386,6 @@ r
 .
 usableSize
         
-self
-.
-isSampled
-=
-self
-.
-isSampled
-or
-r
-.
-isSampled
-        
 usableSizes1
 =
 self
@@ -433,7 +409,6 @@ int
         
 for
 usableSize
-isSampled
 in
 usableSizes1
 :
@@ -443,14 +418,10 @@ counts1
 usableSizes1
 [
 usableSize
-isSampled
 ]
             
 if
-(
 usableSize
-isSampled
-)
 in
 usableSizes2
 :
@@ -460,14 +431,12 @@ counts2
 usableSizes2
 [
 usableSize
-isSampled
 ]
                 
 del
 usableSizes2
 [
 usableSize
-isSampled
 ]
                 
 counts3
@@ -502,7 +471,6 @@ counts3
 usableSizes3
 [
 usableSize
-isSampled
 ]
 =
 counts3
@@ -513,14 +481,12 @@ else
 usableSizes3
 [
 usableSize
-isSampled
 ]
 =
 counts1
         
 for
 usableSize
-isSampled
 in
 usableSizes2
 :
@@ -529,15 +495,11 @@ usableSizes3
 [
 -
 usableSize
-isSampled
 ]
 =
-\
-                
 usableSizes2
 [
 usableSize
-isSampled
 ]
         
 self
@@ -545,27 +507,6 @@ self
 usableSizes
 =
 usableSizes3
-    
-staticmethod
-    
-def
-cmpByIsSampled
-(
-r1
-r2
-)
-:
-        
-return
-cmp
-(
-r2
-.
-isSampled
-r1
-.
-isSampled
-)
     
 staticmethod
     
@@ -630,16 +571,6 @@ r2
 reqSize
 )
 )
-or
-\
-               
-Record
-.
-cmpByIsSampled
-(
-r1
-r2
-)
     
 staticmethod
     
@@ -666,16 +597,6 @@ r2
 .
 slopSize
 )
-)
-or
-\
-               
-Record
-.
-cmpByIsSampled
-(
-r1
-r2
 )
     
 staticmethod
@@ -1653,15 +1574,6 @@ mode
 '
 ]
     
-sampleBelowSize
-=
-invocation
-[
-'
-sampleBelowSize
-'
-]
-    
 blockList
 =
 j
@@ -1688,6 +1600,53 @@ j
 frameTable
 '
 ]
+    
+unrecordedTraceID
+=
+'
+ut
+'
+    
+unrecordedFrameID
+=
+'
+uf
+'
+    
+traceTable
+[
+unrecordedTraceID
+]
+=
+[
+unrecordedFrameID
+]
+    
+frameTable
+[
+unrecordedFrameID
+]
+=
+\
+        
+'
+#
+00
+:
+(
+no
+stack
+trace
+recorded
+due
+to
+-
+-
+stacks
+=
+partial
+)
+'
     
 if
 mode
@@ -1746,12 +1705,6 @@ format
 mode
 )
 )
-    
-heapIsSampled
-=
-sampleBelowSize
->
-1
     
 if
 args
@@ -2149,11 +2102,14 @@ recordKeyPart
 allocatedAtTraceKey
 =
 block
-[
+.
+get
+(
 '
 alloc
 '
-]
+unrecordedTraceID
+)
         
 if
 mode
@@ -2267,10 +2223,26 @@ if
 '
 req
 '
+not
 in
 block
 :
             
+raise
+Exception
+(
+"
+'
+req
+'
+property
+missing
+in
+block
+'
+"
+)
+        
 reqSize
 =
 block
@@ -2279,7 +2251,7 @@ block
 req
 '
 ]
-            
+        
 slopSize
 =
 block
@@ -2291,48 +2263,6 @@ slop
 '
 0
 )
-            
-isSampled
-=
-False
-        
-else
-:
-            
-reqSize
-=
-sampleBelowSize
-            
-if
-'
-slop
-'
-in
-block
-:
-                
-raise
-Exception
-(
-"
-'
-slop
-'
-property
-in
-sampled
-block
-'
-"
-)
-            
-slopSize
-=
-0
-            
-isSampled
-=
-True
         
 if
 '
@@ -2409,16 +2339,6 @@ usableSize
 num
 *
 usableSize
-        
-record
-.
-isSampled
-=
-record
-.
-isSampled
-or
-isSampled
         
 if
 record
@@ -2511,10 +2431,7 @@ record
 .
 usableSizes
 [
-(
 usableSize
-isSampled
-)
 ]
 +
 =
@@ -2546,15 +2463,6 @@ mode
 digest
 [
 '
-sampleBelowSize
-'
-]
-=
-sampleBelowSize
-    
-digest
-[
-'
 heapUsableSize
 '
 ]
@@ -2569,15 +2477,6 @@ heapBlocks
 ]
 =
 heapBlocks
-    
-digest
-[
-'
-heapIsSampled
-'
-]
-=
-heapIsSampled
     
 if
 mode
@@ -2833,28 +2732,6 @@ mode
 d3
 [
 '
-sampleBelowSize
-'
-]
-=
-(
-d1
-[
-'
-sampleBelowSize
-'
-]
-d2
-[
-'
-sampleBelowSize
-'
-]
-)
-    
-d3
-[
-'
 heapUsableSize
 '
 ]
@@ -2891,27 +2768,6 @@ d1
 [
 '
 heapBlocks
-'
-]
-    
-d3
-[
-'
-heapIsSampled
-'
-]
-=
-d2
-[
-'
-heapIsSampled
-'
-]
-or
-d1
-[
-'
-heapIsSampled
 '
 ]
     
@@ -3079,30 +2935,12 @@ mode
 '
 ]
     
-sampleBelowSize
-=
-digest
-[
-'
-sampleBelowSize
-'
-]
-    
 heapUsableSize
 =
 digest
 [
 '
 heapUsableSize
-'
-]
-    
-heapIsSampled
-=
-digest
-[
-'
-heapIsSampled
 '
 ]
     
@@ -3196,7 +3034,6 @@ def
 number
 (
 n
-isSampled
 )
 :
         
@@ -3211,18 +3048,6 @@ comma
 as
 a
 separator
-and
-a
-'
-~
-'
-prefix
-if
-it
-'
-s
-        
-sampled
 .
 '
 '
@@ -3232,23 +3057,12 @@ return
 '
 {
 :
-}
-{
-:
 d
 }
 '
 .
 format
 (
-'
-~
-'
-if
-isSampled
-else
-'
-'
 n
 )
     
@@ -3515,12 +3329,6 @@ record
 .
 usableSize
             
-isSampled
-=
-record
-.
-isSampled
-            
 out
 (
 RecordKind
@@ -3563,7 +3371,6 @@ number
 record
 .
 numBlocks
-isSampled
 )
                        
 plural
@@ -3605,7 +3412,6 @@ number
 record
 .
 usableSize
-isSampled
 )
                        
 number
@@ -3613,7 +3419,6 @@ number
 record
 .
 reqSize
-isSampled
 )
                        
 number
@@ -3621,7 +3426,6 @@ number
 record
 .
 slopSize
-isSampled
 )
 )
 )
@@ -3630,20 +3434,12 @@ abscmp
 =
 lambda
 (
-(
 usableSize1
-_1a
+_1
 )
-_1b
-)
-\
-                            
-(
 (
 usableSize2
-_2a
-)
-_2b
+_2
 )
 :
 \
@@ -3752,10 +3548,7 @@ isFirst
 True
                     
 for
-(
 usableSize
-isSampled
-)
 count
 in
 usableSizes
@@ -3790,7 +3583,6 @@ format
 number
 (
 usableSize
-isSampled
 )
 )
 end
@@ -4075,7 +3867,6 @@ printInvocation
 n
 dmdEnvVar
 mode
-sampleBelowSize
 )
 :
         
@@ -4152,22 +3943,6 @@ mode
 out
 (
 '
-Sample
--
-below
-size
-=
-'
-+
-str
-(
-sampleBelowSize
-)
-)
-        
-out
-(
-'
 }
 \
 n
@@ -4229,7 +4004,6 @@ printInvocation
 '
 dmdEnvVar
 mode
-sampleBelowSize
 )
     
 else
@@ -4245,10 +4019,6 @@ dmdEnvVar
 0
 ]
 mode
-sampleBelowSize
-[
-0
-]
 )
         
 printInvocation
@@ -4261,10 +4031,6 @@ dmdEnvVar
 1
 ]
 mode
-sampleBelowSize
-[
-1
-]
 )
     
 if
@@ -4397,13 +4163,11 @@ format
 number
 (
 liveOrCumulativeUsableSize
-heapIsSampled
 )
                    
 number
 (
 liveOrCumulativeBlocks
-heapIsSampled
 )
 )
 )
@@ -4474,7 +4238,6 @@ Total
 number
 (
 heapUsableSize
-heapIsSampled
 )
                    
 100
@@ -4482,7 +4245,6 @@ heapIsSampled
 number
 (
 heapBlocks
-heapIsSampled
 )
                    
 100
@@ -4504,7 +4266,6 @@ Unreported
 number
 (
 unreportedUsableSize
-heapIsSampled
 )
                    
 perc
@@ -4516,7 +4277,6 @@ heapUsableSize
 number
 (
 unreportedBlocks
-heapIsSampled
 )
                    
 perc
@@ -4544,7 +4304,6 @@ reported
 number
 (
 onceReportedUsableSize
-heapIsSampled
 )
                    
 perc
@@ -4556,7 +4315,6 @@ heapUsableSize
 number
 (
 onceReportedBlocks
-heapIsSampled
 )
                    
 perc
@@ -4584,7 +4342,6 @@ reported
 number
 (
 twiceReportedUsableSize
-heapIsSampled
 )
                    
 perc
@@ -4596,7 +4353,6 @@ heapUsableSize
 number
 (
 twiceReportedBlocks
-heapIsSampled
 )
                    
 perc
@@ -5430,35 +5186,6 @@ j
 invocation
 '
 ]
-    
-if
-invocation
-[
-'
-sampleBelowSize
-'
-]
->
-1
-:
-        
-raise
-Exception
-(
-"
-Heap
-analysis
-is
-not
-going
-to
-work
-with
-sampled
-blocks
-.
-"
-)
     
 if
 invocation

@@ -3,7 +3,7 @@
 version
 "
 :
-4
+5
 "
 invocation
 "
@@ -19,6 +19,11 @@ dmdEnvVar
 mode
 =
 live
+-
+-
+stacks
+=
+full
 "
 "
 mode
@@ -27,11 +32,6 @@ mode
 "
 live
 "
-"
-sampleBelowSize
-"
-:
-1
 }
 "
 blockList

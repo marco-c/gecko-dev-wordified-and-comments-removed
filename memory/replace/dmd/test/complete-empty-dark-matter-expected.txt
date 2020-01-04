@@ -79,7 +79,7 @@ for
 testing
 -
 o
-full
+complete
 -
 empty
 -
@@ -90,7 +90,7 @@ matter
 actual
 .
 txt
-full
+complete
 -
 empty
 -
@@ -113,11 +113,9 @@ dark
 matter
 -
 -
-sample
--
-below
+stacks
 =
-1
+full
 '
 Mode
 =
@@ -126,12 +124,6 @@ dark
 -
 matter
 '
-Sample
--
-below
-size
-=
-1
 }
 #
 -

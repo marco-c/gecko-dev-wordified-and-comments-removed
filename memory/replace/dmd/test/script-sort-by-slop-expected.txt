@@ -122,12 +122,6 @@ Mode
 '
 live
 '
-Sample
--
-below
-size
-=
-1
 }
 #
 -

@@ -118,12 +118,6 @@ dark
 -
 matter
 '
-Sample
--
-below
-size
-=
-2500
 }
 #
 -
@@ -497,7 +491,6 @@ cpp
 }
 Unreported
 {
-~
 1
 block
 in
@@ -507,17 +500,14 @@ record
 4
 of
 4
-~
 2
 500
 bytes
 (
-~
 2
 500
 requested
 /
-~
 0
 slop
 )
@@ -773,7 +763,6 @@ Summary
 {
 Total
 :
-~
 1
 124
 804
@@ -785,7 +774,6 @@ bytes
 %
 )
 in
-~
 4
 blocks
 (
@@ -796,7 +784,6 @@ blocks
 )
 Unreported
 :
-~
 1
 124
 804
@@ -808,7 +795,6 @@ bytes
 %
 )
 in
-~
 4
 blocks
 (
@@ -821,7 +807,6 @@ Once
 -
 reported
 :
-~
 0
 bytes
 (
@@ -831,7 +816,6 @@ bytes
 %
 )
 in
-~
 0
 blocks
 (
@@ -844,7 +828,6 @@ Twice
 -
 reported
 :
-~
 0
 bytes
 (
@@ -854,7 +837,6 @@ bytes
 %
 )
 in
-~
 0
 blocks
 (
