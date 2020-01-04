@@ -77,6 +77,8 @@ function
 onBeginUpdateBatch
 (
 )
+{
+return
 this
 .
 validate
@@ -88,12 +90,16 @@ callee
 name
 arguments
 )
+;
+}
 onEndUpdateBatch
 :
 function
 onEndUpdateBatch
 (
 )
+{
+return
 this
 .
 validate
@@ -105,6 +111,8 @@ callee
 name
 arguments
 )
+;
+}
 onItemAdded
 :
 function
@@ -160,6 +168,8 @@ function
 onItemRemoved
 (
 )
+{
+return
 this
 .
 validate
@@ -171,6 +181,8 @@ callee
 name
 arguments
 )
+;
+}
 onItemChanged
 :
 function
@@ -202,6 +214,8 @@ get
 index
 (
 )
+{
+return
 PlacesUtils
 .
 bookmarks
@@ -212,6 +226,8 @@ this
 .
 id
 )
+;
+}
 type
 :
 aItemType
@@ -222,6 +238,8 @@ get
 url
 (
 )
+{
+return
 aItemType
 =
 =
@@ -245,10 +263,14 @@ id
 spec
 :
 null
+;
+}
 get
 title
 (
 )
+{
+return
 PlacesUtils
 .
 bookmarks
@@ -259,6 +281,8 @@ this
 .
 id
 )
+;
+}
 }
 )
 ;
@@ -269,6 +293,8 @@ function
 onItemVisited
 (
 )
+{
+return
 this
 .
 validate
@@ -280,6 +306,8 @@ callee
 name
 arguments
 )
+;
+}
 onItemMoved
 :
 function

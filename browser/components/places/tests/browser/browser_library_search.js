@@ -496,10 +496,9 @@ testCases
 .
 forEach
 (
-function
-(
 aTest
-)
+=
+>
 aTest
 (
 )
