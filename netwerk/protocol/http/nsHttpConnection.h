@@ -65,6 +65,13 @@ h
 #
 include
 "
+ARefBase
+.
+h
+"
+#
+include
+"
 nsIAsyncInputStream
 .
 h
@@ -126,6 +133,8 @@ public
 nsIInterfaceRequestor
 public
 NudgeTunnelCallback
+public
+ARefBase
 {
 virtual
 ~

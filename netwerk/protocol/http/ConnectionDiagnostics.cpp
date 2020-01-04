@@ -99,7 +99,7 @@ nsHttpConnectionMgr
 OnMsgPrintDiagnostics
 (
 int32_t
-void
+ARefBase
 *
 )
 {

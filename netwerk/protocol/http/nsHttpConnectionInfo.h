@@ -41,6 +41,13 @@ Logging
 .
 h
 "
+#
+include
+"
+ARefBase
+.
+h
+"
 extern
 PRLogModuleInfo
 *
@@ -54,6 +61,9 @@ net
 {
 class
 nsHttpConnectionInfo
+:
+public
+ARefBase
 {
 public
 :

@@ -79,6 +79,13 @@ DNS
 h
 "
 #
+include
+"
+ARefBase
+.
+h
+"
+#
 ifdef
 MOZ_WIDGET_GONK
 #
@@ -139,6 +146,8 @@ public
 nsIInputStreamCallback
 public
 nsIOutputStreamCallback
+public
+ARefBase
 {
 public
 :
