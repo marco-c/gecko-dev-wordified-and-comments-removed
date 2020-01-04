@@ -37543,7 +37543,6 @@ ctrlKey
 chars
 :
 "
-;
 "
 }
 "
@@ -37574,7 +37573,6 @@ shiftKey
 chars
 :
 "
-;
 "
 }
 "
@@ -37602,7 +37600,6 @@ ctrlKey
 chars
 :
 "
-'
 "
 }
 "
@@ -37633,7 +37630,6 @@ shiftKey
 chars
 :
 "
-'
 "
 }
 "
@@ -40148,7 +40144,8 @@ ctrlKey
 chars
 :
 "
-t
+\
+u0014
 "
 }
 )
