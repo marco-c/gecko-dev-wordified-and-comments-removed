@@ -33501,9 +33501,13 @@ FLAG_SYNC_DECODE
 ;
 if
 (
+!
 surface
 )
 {
+continue
+;
+}
 RefPtr
 <
 mozilla
@@ -33682,7 +33686,6 @@ GetFormat
 )
 )
 ;
-}
 continue
 ;
 }
