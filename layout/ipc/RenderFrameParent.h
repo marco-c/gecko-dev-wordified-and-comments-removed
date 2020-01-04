@@ -310,6 +310,9 @@ const
 CSSRect
 &
 aRect
+const
+uint32_t
+aFlags
 )
 ;
 void
