@@ -121,11 +121,11 @@ chrome
 :
 /
 /
-global
+devtools
+-
+shared
 /
 locale
-/
-devtools
 /
 gclicommands
 .

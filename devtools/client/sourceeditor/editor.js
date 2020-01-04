@@ -89,11 +89,9 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 locale
-/
-devtools
 /
 sourceeditor
 .

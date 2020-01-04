@@ -33,6 +33,12 @@ manager
 "
                  
 "
+devtools
+/
+shared
+"
+                 
+"
 mobile
 "
                  

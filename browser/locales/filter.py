@@ -33,6 +33,17 @@ manager
 "
                  
 "
+devtools
+/
+client
+"
+"
+devtools
+/
+shared
+"
+                 
+"
 browser
 "
 "
