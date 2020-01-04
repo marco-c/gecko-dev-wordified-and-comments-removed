@@ -955,6 +955,13 @@ GetCumulativeResolution
 override
 ;
 virtual
+float
+GetCumulativeScaleResolution
+(
+)
+override
+;
+virtual
 void
 Paint
 (
