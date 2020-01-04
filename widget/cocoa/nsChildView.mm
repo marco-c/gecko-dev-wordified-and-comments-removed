@@ -6016,8 +6016,11 @@ aModifierFlags
 timestamp
 :
 [
-NSDate
-timeIntervalSinceReferenceDate
+[
+NSProcessInfo
+processInfo
+]
+systemUptime
 ]
 windowNumber
 :
