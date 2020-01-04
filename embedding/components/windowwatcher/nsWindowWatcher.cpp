@@ -1927,6 +1927,13 @@ nullptr
 MOZ_ASSERT_IF
 (
 openedFromRemoteTab
+!
+aUrl
+)
+;
+MOZ_ASSERT_IF
+(
+openedFromRemoteTab
 XRE_IsParentProcess
 (
 )

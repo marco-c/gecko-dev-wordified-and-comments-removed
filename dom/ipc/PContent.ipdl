@@ -5551,8 +5551,6 @@ bool
 aPositionSpecified
 bool
 aSizeSpecified
-nsCString
-aURI
 nsString
 aName
 nsCString
