@@ -3976,6 +3976,13 @@ startCapturingFrames
 (
 )
 ;
+timeout_value
+=
+timeout_value
+|
+|
+8000
+;
 return
 addFinallyToPromise
 (
@@ -4034,7 +4041,7 @@ red
 )
 ]
 )
-2000
+timeout_value
 "
 Timed
 out
