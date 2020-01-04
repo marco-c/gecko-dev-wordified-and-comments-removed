@@ -1052,8 +1052,9 @@ profileMillis
 =
 profile
 .
-getProfileCreationDate
+getAndPersistProfileCreationDate
 (
+this
 )
 ;
 if

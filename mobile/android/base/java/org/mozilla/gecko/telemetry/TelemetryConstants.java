@@ -192,7 +192,7 @@ final
 int
 VERSION_VALUE
 =
-2
+3
 ;
 public
 static
