@@ -4188,6 +4188,9 @@ height
 :
 1
 ;
+%
+ifndef
+XP_WIN
 font
 -
 variant
@@ -4198,6 +4201,8 @@ asian
 :
 ruby
 ;
+%
+endif
 }
 supports
 (
