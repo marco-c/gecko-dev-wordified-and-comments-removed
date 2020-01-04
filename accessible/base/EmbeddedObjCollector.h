@@ -33,15 +33,12 @@ final
 {
 public
 :
-virtual
 ~
 EmbeddedObjCollector
 (
 )
 {
 }
-public
-:
 int32_t
 GetIndexAt
 (
