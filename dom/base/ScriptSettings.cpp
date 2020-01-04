@@ -681,7 +681,7 @@ if
 nsContentUtils
 :
 :
-SubjectPrincipal
+SubjectPrincipalOrSystemIfNativeCaller
 (
 )
 -
