@@ -165,6 +165,11 @@ bool
 aIsFinal
 )
 ;
+void
+DestroyMatchMap
+(
+)
+;
 public
 :
 nsXULTemplateBuilder
