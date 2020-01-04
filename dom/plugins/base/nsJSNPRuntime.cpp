@@ -10617,7 +10617,7 @@ return
 false
 ;
 JSType
-type
+hint
 ;
 if
 (
@@ -10630,7 +10630,7 @@ GetFirstArgumentAsTypeHint
 cx
 args
 &
-type
+hint
 )
 )
 return
@@ -10687,11 +10687,14 @@ toObject
 )
 ;
 return
-JS_DefaultValue
+JS
+:
+:
+ToPrimitive
 (
 cx
 objVal
-type
+hint
 args
 .
 rval
