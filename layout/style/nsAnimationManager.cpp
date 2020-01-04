@@ -980,6 +980,10 @@ owningPseudoType
 eAnimationStart
 mAnimationName
 elapsedTime
+ElapsedTimeToTimeStamp
+(
+elapsedTime
+)
 )
 )
 ;
@@ -1072,6 +1076,10 @@ owningPseudoType
 message
 mAnimationName
 elapsedTime
+ElapsedTimeToTimeStamp
+(
+elapsedTime
+)
 )
 )
 ;

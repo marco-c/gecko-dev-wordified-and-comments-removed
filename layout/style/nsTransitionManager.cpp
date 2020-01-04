@@ -757,6 +757,12 @@ Timing
 )
 .
 mIterationDuration
+AnimationTimeToTimeStamp
+(
+EffectEnd
+(
+)
+)
 )
 )
 ;

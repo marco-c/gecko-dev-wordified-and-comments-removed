@@ -112,6 +112,9 @@ mElement
 InternalAnimationEvent
 mEvent
 ;
+TimeStamp
+mTimeStamp
+;
 AnimationEventInfo
 (
 dom
@@ -135,6 +138,10 @@ const
 StickyTimeDuration
 &
 aElapsedTime
+const
+TimeStamp
+&
+aTimeStamp
 )
 :
 mElement
@@ -145,6 +152,10 @@ mEvent
 (
 true
 aMessage
+)
+mTimeStamp
+(
+aTimeStamp
 )
 {
 mEvent
@@ -198,6 +209,12 @@ aOther
 mEvent
 .
 mMessage
+)
+mTimeStamp
+(
+aOther
+.
+mTimeStamp
 )
 {
 mEvent
