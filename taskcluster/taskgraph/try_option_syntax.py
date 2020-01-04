@@ -1199,6 +1199,11 @@ tests
 should
 be
 triggered
+(
+-
+-
+rebuild
+)
         
 -
 interactive
@@ -1585,9 +1590,7 @@ add_argument
 '
 -
 -
-trigger
--
-tests
+rebuild
 '
 dest
 =
