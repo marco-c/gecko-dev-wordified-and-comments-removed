@@ -284,6 +284,14 @@ AnimationPlayState
 playState
 ;
 [
+Func
+=
+"
+nsDocument
+:
+:
+IsWebAnimationsEnabled
+"
 Throws
 ]
 readonly
