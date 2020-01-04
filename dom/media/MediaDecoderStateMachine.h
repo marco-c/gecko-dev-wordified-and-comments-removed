@@ -1911,11 +1911,10 @@ bool
 >
 mVideoCompleted
 ;
-Maybe
-<
 bool
->
 mPendingDormant
+=
+false
 ;
 bool
 mNotifyMetadataBeforeFirstFrame
