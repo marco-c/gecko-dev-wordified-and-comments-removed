@@ -13838,9 +13838,6 @@ enabled
 true
 )
 ;
-#
-ifndef
-RELEASE_BUILD
 pref
 (
 "
@@ -13853,8 +13850,6 @@ enabled
 true
 )
 ;
-#
-endif
 pref
 (
 "
