@@ -13841,6 +13841,12 @@ commitAllowingStateLoss
 (
 )
 ;
+mBrowserSearch
+.
+resetScrollState
+(
+)
+;
 }
 else
 {
