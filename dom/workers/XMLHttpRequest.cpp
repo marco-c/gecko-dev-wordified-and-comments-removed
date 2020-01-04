@@ -1775,7 +1775,10 @@ JSTracer
 aTrc
 )
 {
-JS_CallValueTracer
+JS
+:
+:
+TraceEdge
 (
 aTrc
 &
