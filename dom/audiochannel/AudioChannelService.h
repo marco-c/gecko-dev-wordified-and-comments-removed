@@ -940,6 +940,12 @@ aAgent
 )
 const
 ;
+bool
+IsInactiveWindow
+(
+)
+const
+;
 }
 ;
 AudioChannelWindow
