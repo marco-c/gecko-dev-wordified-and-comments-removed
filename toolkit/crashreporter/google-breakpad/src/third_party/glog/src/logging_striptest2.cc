@@ -1,0 +1,11 @@
+#
+define
+GOOGLE_STRIP_LOG
+2
+#
+include
+"
+logging_striptest_main
+.
+cc
+"

@@ -104,15 +104,6 @@ const
 =
 0
 ;
-virtual
-void
-Print
-(
-)
-const
-=
-0
-;
 }
 ;
 }

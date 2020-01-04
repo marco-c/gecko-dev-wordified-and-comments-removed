@@ -217,12 +217,6 @@ mozalloc_oom
 cpp
 '
 ]
-Library
-(
-'
-mozalloc
-'
-)
 FINAL_LIBRARY
 =
 '

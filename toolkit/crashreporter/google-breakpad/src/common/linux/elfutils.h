@@ -1,9 +1,9 @@
 #
 ifndef
-COMMON_LINUX_ELFUTILS_H_
+COMMON_LINUX_ELFUTILS_H__
 #
 define
-COMMON_LINUX_ELFUTILS_H_
+COMMON_LINUX_ELFUTILS_H__
 #
 include
 <
@@ -172,7 +172,7 @@ void
 *
 *
 section_start
-size_t
+int
 *
 section_size
 int
@@ -238,7 +238,7 @@ void
 *
 *
 segment_start
-size_t
+int
 *
 segment_size
 int

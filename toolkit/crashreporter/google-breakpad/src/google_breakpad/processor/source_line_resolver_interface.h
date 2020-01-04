@@ -111,8 +111,6 @@ module
 char
 *
 memory_buffer
-size_t
-memory_buffer_size
 )
 =
 0
@@ -140,18 +138,6 @@ module
 virtual
 bool
 HasModule
-(
-const
-CodeModule
-*
-module
-)
-=
-0
-;
-virtual
-bool
-IsModuleCorrupt
 (
 const
 CodeModule

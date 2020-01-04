@@ -1,9 +1,3 @@
-#
-ifndef
-COMMON_CONVERT_UTF_H_
-#
-define
-COMMON_CONVERT_UTF_H_
 typedef
 unsigned
 long
@@ -244,7 +238,5 @@ sourceEnd
 ifdef
 __cplusplus
 }
-#
-endif
 #
 endif

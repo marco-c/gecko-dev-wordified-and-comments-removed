@@ -424,7 +424,6 @@ test
 google
 -
 breakpad
--
 adb_shell
 mkdir
 "
@@ -442,8 +441,6 @@ test
 directory
 on
 device
-:
-TEST_DIR
 "
 #
 Ensure

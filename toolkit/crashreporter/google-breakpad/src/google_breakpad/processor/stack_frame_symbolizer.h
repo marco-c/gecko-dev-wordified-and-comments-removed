@@ -80,7 +80,6 @@ SymbolizerResult
 kNoError
 kError
 kInterrupt
-kWarningCorruptSymbols
 }
 ;
 StackFrameSymbolizer

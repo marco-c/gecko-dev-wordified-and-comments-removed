@@ -81,7 +81,7 @@ node
 const
 ;
 virtual
-bool
+void
 CopyFromProcess
 (
 void

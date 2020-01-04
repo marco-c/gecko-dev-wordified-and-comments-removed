@@ -1064,6 +1064,8 @@ num_fds
 +
 i
 )
+HANDLE_EINTR
+(
 close
 (
 reinterpret_cast
@@ -1080,6 +1082,7 @@ hdr
 [
 i
 ]
+)
 )
 ;
 return
@@ -1167,9 +1170,12 @@ if
 (
 signal_fd
 )
+HANDLE_EINTR
+(
 close
 (
 signal_fd
+)
 )
 ;
 return
@@ -1209,9 +1215,12 @@ kCrashContextSize
 )
 )
 {
+HANDLE_EINTR
+(
 close
 (
 signal_fd
+)
 )
 ;
 return
@@ -1240,9 +1249,12 @@ minidump_filename
 )
 ;
 }
+HANDLE_EINTR
+(
 close
 (
 signal_fd
+)
 )
 ;
 return
