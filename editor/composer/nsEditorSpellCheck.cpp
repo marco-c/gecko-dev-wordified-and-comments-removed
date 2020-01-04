@@ -2602,6 +2602,12 @@ Length
 0
 )
 {
+UpdateDictionaryHolder
+holder
+(
+this
+)
+;
 rv
 =
 SetCurrentDictionary
