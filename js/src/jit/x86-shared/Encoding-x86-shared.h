@@ -627,6 +627,9 @@ OP2_SHUFPS_VpsWpsIb
 OP2_PSRLD_VdqWdq
 =
 0xD2
+OP2_PMULLW_VdqWdq
+=
+0xD5
 OP2_MOVQ_WdVd
 =
 0xD6
