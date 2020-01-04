@@ -2969,7 +2969,7 @@ m_numColumns
 )
 <
 <
-24
+8
 )
 )
 ;
@@ -6881,12 +6881,6 @@ dbgout
 )
 const
 {
-KernCollider
-kerncoll
-(
-dbgout
-)
-;
 Slot
 *
 start
@@ -7134,7 +7128,6 @@ resolveKern
 seg
 s
 start
-kerncoll
 dir
 ymin
 ymax
@@ -8156,9 +8149,6 @@ GR_MAYBE_UNUSED
 Slot
 *
 start
-KernCollider
-&
-coll
 int
 dir
 float
@@ -8307,6 +8297,12 @@ bool
 isInit
 =
 false
+;
+KernCollider
+coll
+(
+dbgout
+)
 ;
 for
 (

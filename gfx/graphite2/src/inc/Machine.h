@@ -499,7 +499,7 @@ Machine
 check_final_stack
 (
 const
-int32
+stack_t
 *
 const
 sp

@@ -563,6 +563,9 @@ s
 pSlot
 ;
 s
+&
+&
+s
 !
 =
 end
@@ -572,7 +575,7 @@ s
 s
 -
 >
-next
+nextSibling
 (
 )
 )
@@ -657,6 +660,9 @@ s
 pSlot
 ;
 s
+&
+&
+s
 !
 =
 end
@@ -727,6 +733,9 @@ s
 =
 pFirst
 ;
+s
+&
+&
 s
 !
 =
@@ -865,6 +874,15 @@ weight
 (
 )
 ;
+if
+(
+tWeight
+=
+=
+0
+)
+continue
+;
 do
 {
 error
@@ -894,6 +912,9 @@ s
 =
 pFirst
 ;
+s
+&
+&
 s
 !
 =
