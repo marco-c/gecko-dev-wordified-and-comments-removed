@@ -4465,6 +4465,12 @@ mdnLinkClick
 (
 )
 ;
+event
+.
+preventDefault
+(
+)
+;
 }
 if
 (
