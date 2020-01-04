@@ -992,11 +992,8 @@ template
 struct
 MovableCellHasher
 <
-ReadBarriered
-<
 ScopeObject
 *
->
 >
 ;
 }
