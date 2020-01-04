@@ -2814,10 +2814,6 @@ No
 last
 modified
 time
-(
-bug
-1000338
-)
 "
 )
 ;
