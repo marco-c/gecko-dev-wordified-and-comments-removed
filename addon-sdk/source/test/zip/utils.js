@@ -368,7 +368,7 @@ file
 doesn
 '
 t
-exists
+exist
 :
 "
 +
