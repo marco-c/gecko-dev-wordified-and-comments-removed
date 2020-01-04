@@ -716,7 +716,7 @@ OverscrollHandoffChain
 FindFirstScrollable
 (
 const
-ScrollWheelInput
+InputData
 &
 aInput
 )
