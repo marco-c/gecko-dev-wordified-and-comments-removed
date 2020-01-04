@@ -29300,8 +29300,8 @@ TypedArrayObject
 )
 )
 ;
-RootedObject
-exportObj
+RootedWasmInstanceObject
+instanceObj
 (
 cx
 )
@@ -29318,7 +29318,7 @@ cx
 typedArray
 importObj
 &
-exportObj
+instanceObj
 )
 )
 {
