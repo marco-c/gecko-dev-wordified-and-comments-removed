@@ -194,7 +194,7 @@ aName
 ;
 }
 extern
-NS_METHOD
+nsresult
 NS_NewThread
 (
 nsIThread
@@ -221,7 +221,7 @@ size_t
 LEN
 >
 inline
-NS_METHOD
+nsresult
 NS_NewNamedThread
 (
 const
@@ -343,7 +343,7 @@ rv
 ;
 }
 extern
-NS_METHOD
+nsresult
 NS_GetCurrentThread
 (
 nsIThread
@@ -353,7 +353,7 @@ aResult
 )
 ;
 extern
-NS_METHOD
+nsresult
 NS_DispatchToCurrentThread
 (
 nsIRunnable
@@ -362,7 +362,7 @@ aEvent
 )
 ;
 extern
-NS_METHOD
+nsresult
 NS_DispatchToCurrentThread
 (
 already_AddRefed
@@ -375,7 +375,7 @@ aEvent
 )
 ;
 extern
-NS_METHOD
+nsresult
 NS_DispatchToMainThread
 (
 nsIRunnable
@@ -388,7 +388,7 @@ NS_DISPATCH_NORMAL
 )
 ;
 extern
-NS_METHOD
+nsresult
 NS_DispatchToMainThread
 (
 already_AddRefed
@@ -408,7 +408,7 @@ NS_DISPATCH_NORMAL
 ifndef
 XPCOM_GLUE_AVOID_NSPR
 extern
-NS_METHOD
+nsresult
 NS_ProcessPendingEvents
 (
 nsIThread

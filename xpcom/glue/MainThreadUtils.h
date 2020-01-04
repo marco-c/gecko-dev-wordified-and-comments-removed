@@ -15,7 +15,7 @@ class
 nsIThread
 ;
 extern
-NS_METHOD
+nsresult
 NS_GetMainThread
 (
 nsIThread
