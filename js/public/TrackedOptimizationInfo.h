@@ -361,7 +361,7 @@ ArraySeenNegativeIndex
 \
 _
 (
-TypedObjectNeutered
+TypedObjectHasDetachedBuffer
 )
 \
 _
