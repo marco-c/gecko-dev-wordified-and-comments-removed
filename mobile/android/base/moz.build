@@ -2396,6 +2396,13 @@ SyncPanel
 java
 '
 '
+firstrun
+/
+TabQueuePanel
+.
+java
+'
+'
 FormAssistPopup
 .
 java
