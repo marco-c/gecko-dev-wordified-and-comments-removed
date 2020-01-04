@@ -360,7 +360,7 @@ already_AddRefed
 DBusConnection
 >
 (
-dbus_bus_get
+dbus_bus_get_private
 (
 DBUS_BUS_SESSION
 &
