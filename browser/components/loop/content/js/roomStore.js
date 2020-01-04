@@ -310,7 +310,7 @@ pendingCreation
 false
 pendingInitialRetrieval
 :
-false
+true
 rooms
 :
 [
