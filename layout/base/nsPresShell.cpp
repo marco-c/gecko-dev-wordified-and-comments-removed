@@ -18243,7 +18243,7 @@ if
 styleSet
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 stylo
@@ -18258,6 +18258,18 @@ state
 "
 changes
 yet
+(
+only
+matters
+for
+chrome
+documents
+)
+.
+See
+bug
+1290285
+.
 "
 )
 ;
