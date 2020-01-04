@@ -4071,16 +4071,6 @@ aFrame
 )
 ;
 static
-nsIFrame
-*
-GetTransformRootFrame
-(
-nsIFrame
-*
-aFrame
-)
-;
-static
 uint32_t
 GetTextRunFlagsForStyle
 (
