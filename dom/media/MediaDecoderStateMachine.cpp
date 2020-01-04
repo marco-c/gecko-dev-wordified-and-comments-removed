@@ -4295,9 +4295,9 @@ VideoQueue
 GetSize
 (
 )
+<
 =
-=
-1
+2
 )
 {
 ScheduleStateMachine
