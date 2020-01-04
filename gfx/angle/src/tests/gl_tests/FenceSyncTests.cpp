@@ -892,7 +892,7 @@ BasicOperations
 {
 if
 (
-isIntel
+IsIntel
 (
 )
 &

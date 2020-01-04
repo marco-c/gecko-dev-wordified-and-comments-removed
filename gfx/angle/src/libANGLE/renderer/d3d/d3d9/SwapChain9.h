@@ -45,6 +45,9 @@ namespace
 rx
 {
 class
+NativeWindow9
+;
+class
 Renderer9
 ;
 class
@@ -60,7 +63,8 @@ SwapChain9
 Renderer9
 *
 renderer
-NativeWindow
+NativeWindow9
+*
 nativeWindow
 HANDLE
 shareHandle
@@ -210,6 +214,10 @@ mHeight
 ;
 EGLint
 mSwapInterval
+;
+NativeWindow9
+*
+mNativeWindow
 ;
 IDirect3DSwapChain9
 *

@@ -42,6 +42,13 @@ public
 :
 WindowSurfaceWGL
 (
+const
+egl
+:
+:
+SurfaceState
+&
+state
 RendererGL
 *
 renderer

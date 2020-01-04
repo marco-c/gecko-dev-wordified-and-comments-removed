@@ -803,6 +803,13 @@ WindowSurfaceCGL
 :
 WindowSurfaceCGL
 (
+const
+egl
+:
+:
+SurfaceState
+&
+state
 RendererGL
 *
 renderer
@@ -819,6 +826,7 @@ context
 :
 SurfaceGL
 (
+state
 renderer
 )
 mSwapLayer
@@ -1427,8 +1435,6 @@ texture
 height
 !
 =
-texture
-.
 height
 )
 {
@@ -1755,12 +1761,9 @@ const
 gl
 :
 :
-Framebuffer
-:
-:
-Data
+FramebufferState
 &
-data
+state
 )
 {
 /
@@ -1780,7 +1783,7 @@ new
 FramebufferGL
 (
 mFramebuffer
-data
+state
 mFunctions
 mWorkarounds
 mStateManager

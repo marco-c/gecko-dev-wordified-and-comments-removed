@@ -883,7 +883,7 @@ createSwapChain
 ID3D11Device
 *
 device
-DXGIFactory
+IDXGIFactory2
 *
 factory
 DXGI_FORMAT
@@ -896,7 +896,7 @@ int
 height
 bool
 containsAlpha
-DXGISwapChain
+IDXGISwapChain1
 *
 *
 swapChain

@@ -213,6 +213,16 @@ const
 const
 char
 *
+getClientString
+(
+int
+name
+)
+const
+;
+const
+char
+*
 queryExtensionsString
 (
 )

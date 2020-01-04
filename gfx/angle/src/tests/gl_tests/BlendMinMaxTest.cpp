@@ -204,7 +204,7 @@ return
 }
 if
 (
-isIntel
+IsIntel
 (
 )
 &
@@ -823,7 +823,7 @@ return
 }
 if
 (
-isIntel
+IsIntel
 (
 )
 &
@@ -876,7 +876,7 @@ return
 }
 if
 (
-isD3D11_FL93
+IsD3D11_FL93
 (
 )
 )
@@ -966,7 +966,7 @@ return
 }
 if
 (
-isIntel
+IsIntel
 (
 )
 &

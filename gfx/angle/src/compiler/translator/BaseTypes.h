@@ -742,6 +742,7 @@ EvqOut
 EvqInOut
 EvqConstReadOnly
 EvqInstanceID
+EvqVertexID
 EvqPosition
 EvqPointSize
 EvqFragCoord
@@ -1000,6 +1001,14 @@ EvqInstanceID
 return
 "
 InstanceID
+"
+;
+case
+EvqVertexID
+:
+return
+"
+VertexID
 "
 ;
 case

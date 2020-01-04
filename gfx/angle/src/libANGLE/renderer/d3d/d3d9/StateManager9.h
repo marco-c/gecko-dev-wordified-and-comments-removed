@@ -18,7 +18,7 @@ include
 "
 libANGLE
 /
-Data
+ContextState
 .
 h
 "
@@ -120,6 +120,11 @@ StateManager9
 )
 ;
 void
+initialize
+(
+)
+;
+void
 syncState
 (
 const
@@ -176,13 +181,6 @@ enabled
 void
 setViewportState
 (
-const
-gl
-:
-:
-Caps
-*
-caps
 const
 gl
 :
@@ -562,6 +560,9 @@ bitset
 DIRTY_BIT_MAX
 >
 DirtyBits
+;
+bool
+mUsingZeroColorMaskWorkaround
 ;
 gl
 :

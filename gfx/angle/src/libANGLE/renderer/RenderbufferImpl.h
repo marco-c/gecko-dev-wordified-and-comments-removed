@@ -34,7 +34,9 @@ include
 "
 libANGLE
 /
-FramebufferAttachment
+renderer
+/
+FramebufferAttachmentObjectImpl
 .
 h
 "

@@ -150,7 +150,7 @@ ASSERT
 mRenderer
 -
 >
-getRendererExtensions
+getNativeExtensions
 (
 )
 .

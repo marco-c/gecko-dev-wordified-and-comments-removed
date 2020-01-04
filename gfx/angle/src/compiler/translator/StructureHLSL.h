@@ -165,7 +165,7 @@ StructureHLSL
 (
 )
 ;
-void
+TString
 addConstructor
 (
 const

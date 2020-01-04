@@ -359,6 +359,16 @@ size_t
 numBytes
 )
 ;
+void
+lock
+(
+)
+;
+void
+unlock
+(
+)
+;
 protected
 :
 friend
@@ -566,6 +576,9 @@ const
 TPoolAllocator
 &
 )
+;
+bool
+mLocked
 ;
 }
 ;

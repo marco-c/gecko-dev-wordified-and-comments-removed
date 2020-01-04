@@ -679,6 +679,11 @@ TearDown
 )
 override
 {
+SafeRelease
+(
+mOffscreenSurfaceD3D11Texture
+)
+;
 if
 (
 mDisplay
@@ -753,11 +758,6 @@ destroy
 SafeDelete
 (
 mOSWindow
-)
-;
-SafeRelease
-(
-mOffscreenSurfaceD3D11Texture
 )
 ;
 }

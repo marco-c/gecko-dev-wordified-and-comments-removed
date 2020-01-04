@@ -28,7 +28,6 @@ T
 )
 {
 }
-explicit
 Optional
 (
 const

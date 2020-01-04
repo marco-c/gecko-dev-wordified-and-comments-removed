@@ -23,7 +23,7 @@ libANGLE
 /
 renderer
 /
-ImplFactory
+GLImplFactory
 .
 h
 "
@@ -49,7 +49,7 @@ Sampler
 rx
 :
 :
-ImplFactory
+GLImplFactory
 *
 factory
 GLuint

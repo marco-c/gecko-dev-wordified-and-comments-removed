@@ -653,6 +653,13 @@ return
 error
 ;
 }
+curRenderTarget
+-
+>
+signalDirty
+(
+)
+;
 mBuffer
 =
 nullptr

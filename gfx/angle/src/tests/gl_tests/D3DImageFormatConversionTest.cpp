@@ -14,8 +14,6 @@ libANGLE
 /
 renderer
 /
-d3d
-/
 imageformats
 .
 h
@@ -656,7 +654,7 @@ WriteColorFunctionR4G4B4A4
 {
 if
 (
-isIntel
+IsIntel
 (
 )
 &
@@ -714,7 +712,7 @@ WriteColorFunctionR5G5B5A1
 {
 if
 (
-isIntel
+IsIntel
 (
 )
 &
@@ -772,7 +770,7 @@ WriteColorFunctionR5G6B5
 {
 if
 (
-isIntel
+IsIntel
 (
 )
 &
@@ -830,7 +828,7 @@ WriteColorFunctionR8G8B8A8
 {
 if
 (
-isIntel
+IsIntel
 (
 )
 &
@@ -888,7 +886,7 @@ WriteColorFunctionR8G8B8
 {
 if
 (
-isIntel
+IsIntel
 (
 )
 &

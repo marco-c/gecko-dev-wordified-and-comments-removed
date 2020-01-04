@@ -197,7 +197,10 @@ result
 )
 ;
 virtual
-void
+gl
+:
+:
+Error
 markTransformFeedbackUsage
 (
 )

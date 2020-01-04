@@ -18,17 +18,6 @@ BufferImpl
 .
 h
 "
-#
-include
-"
-libANGLE
-/
-renderer
-/
-Renderer
-.
-h
-"
 namespace
 gl
 {

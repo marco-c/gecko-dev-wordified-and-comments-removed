@@ -121,7 +121,7 @@ PointCoordAndPointSizeCompliance
 {
 if
 (
-isIntel
+IsIntel
 (
 )
 &

@@ -48,6 +48,9 @@ class
 Renderer11
 ;
 class
+NativeWindow11
+;
+class
 SwapChain11
 :
 public
@@ -60,7 +63,8 @@ SwapChain11
 Renderer11
 *
 renderer
-NativeWindow
+NativeWindow11
+*
 nativeWindow
 HANDLE
 shareHandle
@@ -321,10 +325,14 @@ mSwapInterval
 bool
 mPassThroughResourcesInit
 ;
+NativeWindow11
+*
+mNativeWindow
+;
 bool
 mFirstSwap
 ;
-DXGISwapChain
+IDXGISwapChain
 *
 mSwapChain
 ;

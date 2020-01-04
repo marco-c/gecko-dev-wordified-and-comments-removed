@@ -34,6 +34,14 @@ finishDoesNotCauseQueriesToBeAvailable
 (
 false
 )
+alwaysCallUseProgramAfterLink
+(
+false
+)
+unpackOverlappingRowsSeparatelyUnpackBuffer
+(
+false
+)
 {
 }
 bool
@@ -50,6 +58,12 @@ doWhileGLSLCausesGPUHang
 ;
 bool
 finishDoesNotCauseQueriesToBeAvailable
+;
+bool
+alwaysCallUseProgramAfterLink
+;
+bool
+unpackOverlappingRowsSeparatelyUnpackBuffer
 ;
 }
 ;

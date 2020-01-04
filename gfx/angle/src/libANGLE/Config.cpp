@@ -680,7 +680,7 @@ attribIter
 +
 )
 {
-EGLint
+EGLAttrib
 attributeKey
 =
 attribIter
@@ -688,7 +688,7 @@ attribIter
 >
 first
 ;
-EGLint
+EGLAttrib
 attributeValue
 =
 attribIter
@@ -963,7 +963,7 @@ attribIter
 +
 )
 {
-EGLint
+EGLAttrib
 attributeKey
 =
 attribIter
@@ -971,7 +971,7 @@ attribIter
 >
 first
 ;
-EGLint
+EGLAttrib
 attributeValue
 =
 attribIter

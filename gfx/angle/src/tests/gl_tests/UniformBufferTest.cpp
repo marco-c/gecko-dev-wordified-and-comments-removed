@@ -231,7 +231,7 @@ Simple
 {
 if
 (
-isIntel
+IsIntel
 (
 )
 &
@@ -365,7 +365,7 @@ UniformBufferRange
 {
 if
 (
-isIntel
+IsIntel
 (
 )
 &
@@ -750,7 +750,7 @@ UniformBufferBindings
 {
 if
 (
-isIntel
+IsIntel
 (
 )
 &
@@ -1084,7 +1084,7 @@ UniformBufferManyUpdates
 {
 if
 (
-isIntel
+IsIntel
 (
 )
 &
@@ -1331,7 +1331,7 @@ ManyUniformBufferRange
 {
 if
 (
-isIntel
+IsIntel
 (
 )
 &

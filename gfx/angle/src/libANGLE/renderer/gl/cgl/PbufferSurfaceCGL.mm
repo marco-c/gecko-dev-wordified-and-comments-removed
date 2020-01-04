@@ -153,6 +153,13 @@ PbufferSurfaceCGL
 :
 PbufferSurfaceCGL
 (
+const
+egl
+:
+:
+SurfaceState
+&
+state
 RendererGL
 *
 renderer
@@ -168,6 +175,7 @@ functions
 :
 SurfaceGL
 (
+state
 renderer
 )
 mWidth
@@ -654,12 +662,9 @@ const
 gl
 :
 :
-Framebuffer
-:
-:
-Data
+FramebufferState
 &
-data
+state
 )
 {
 /
@@ -679,7 +684,7 @@ new
 FramebufferGL
 (
 mFramebuffer
-data
+state
 mFunctions
 mWorkarounds
 mStateManager

@@ -50,10 +50,7 @@ const
 gl
 :
 :
-VertexArray
-:
-:
-Data
+VertexArrayState
 &
 data
 )

@@ -41,10 +41,7 @@ const
 gl
 :
 :
-Shader
-:
-:
-Data
+ShaderState
 &
 data
 )
@@ -118,10 +115,7 @@ const
 gl
 :
 :
-Shader
-:
-:
-Data
+ShaderState
 &
 getData
 (
@@ -138,10 +132,7 @@ const
 gl
 :
 :
-Shader
-:
-:
-Data
+ShaderState
 &
 mData
 ;

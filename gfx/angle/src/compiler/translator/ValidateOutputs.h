@@ -99,7 +99,10 @@ std
 :
 set
 <
-TString
+std
+:
+:
+string
 >
 mVisitedSymbols
 ;

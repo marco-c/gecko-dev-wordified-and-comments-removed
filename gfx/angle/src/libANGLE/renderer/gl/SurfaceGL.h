@@ -31,6 +31,13 @@ public
 :
 SurfaceGL
 (
+const
+egl
+:
+:
+SurfaceState
+&
+state
 RendererGL
 *
 renderer
@@ -89,10 +96,7 @@ const
 gl
 :
 :
-Framebuffer
-:
-:
-Data
+FramebufferState
 &
 data
 )

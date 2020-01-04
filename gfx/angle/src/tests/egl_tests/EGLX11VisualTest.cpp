@@ -315,6 +315,10 @@ EGLX11VisualHintTest
 InvalidVisualID
 )
 {
+IgnoreANGLEPlatformMessages
+(
+)
+;
 static
 const
 int

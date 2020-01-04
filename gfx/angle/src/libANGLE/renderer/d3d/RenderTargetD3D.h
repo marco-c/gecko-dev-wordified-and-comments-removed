@@ -142,6 +142,13 @@ int
 count
 )
 ;
+virtual
+void
+signalDirty
+(
+)
+{
+}
 private
 :
 const

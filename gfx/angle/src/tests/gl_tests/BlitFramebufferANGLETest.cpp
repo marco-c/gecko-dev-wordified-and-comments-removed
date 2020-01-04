@@ -3634,7 +3634,7 @@ BlitStencil
 {
 if
 (
-isIntel
+IsIntel
 (
 )
 &

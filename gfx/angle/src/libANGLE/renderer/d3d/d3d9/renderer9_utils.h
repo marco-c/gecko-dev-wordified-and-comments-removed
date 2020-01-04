@@ -153,6 +153,13 @@ size_t
 baseLevel
 )
 ;
+D3DQUERYTYPE
+ConvertQueryType
+(
+GLenum
+queryType
+)
+;
 D3DMULTISAMPLE_TYPE
 GetMultisampleType
 (
