@@ -252,6 +252,12 @@ NumTimingArrays
 PHASE_LIMIT
 ]
 ;
+static
+void
+initialize
+(
+)
+;
 explicit
 Statistics
 (
