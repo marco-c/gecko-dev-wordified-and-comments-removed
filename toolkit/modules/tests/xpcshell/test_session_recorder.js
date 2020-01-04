@@ -309,6 +309,7 @@ run_next_test
 add_task
 (
 function
+*
 test_current_properties
 (
 )
@@ -457,6 +458,7 @@ onShutdown
 add_task
 (
 function
+*
 test_current_availability
 (
 )
@@ -846,6 +848,7 @@ run_next_test
 add_task
 (
 function
+*
 test_previous_clean
 (
 )
@@ -1102,6 +1105,7 @@ onShutdown
 add_task
 (
 function
+*
 test_previous_abort
 (
 )
@@ -1263,6 +1267,7 @@ onShutdown
 add_task
 (
 function
+*
 test_multiple_sessions
 (
 )
@@ -1526,6 +1531,7 @@ onShutdown
 add_task
 (
 function
+*
 test_record_activity
 (
 )

@@ -1665,6 +1665,7 @@ array
 add_task
 (
 function
+*
 test_FileAppender
 (
 )
@@ -2065,6 +2066,7 @@ n
 add_task
 (
 function
+*
 test_BoundedFileAppender
 (
 )
@@ -2394,6 +2396,7 @@ n
 add_task
 (
 function
+*
 log_message_with_params
 (
 )
@@ -3628,6 +3631,7 @@ null
 add_task
 (
 function
+*
 test_log_err_only
 (
 )
@@ -3733,6 +3737,7 @@ e
 add_task
 (
 function
+*
 test_structured_basic
 (
 )
@@ -3922,6 +3927,7 @@ structure
 add_task
 (
 function
+*
 log_message_with_params
 (
 )
@@ -4111,6 +4117,7 @@ Test
 add_task
 (
 function
+*
 format_errors
 (
 )

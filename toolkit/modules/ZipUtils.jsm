@@ -452,7 +452,10 @@ readFailed
 catch
 (
 e
+)
+{
 if
+(
 e
 .
 result
@@ -462,7 +465,6 @@ Cr
 .
 NS_BASE_STREAM_CLOSED
 )
-{
 deferred
 .
 resolve
@@ -474,12 +476,7 @@ close
 )
 )
 ;
-}
-catch
-(
-e
-)
-{
+else
 readFailed
 (
 e
@@ -578,6 +575,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {

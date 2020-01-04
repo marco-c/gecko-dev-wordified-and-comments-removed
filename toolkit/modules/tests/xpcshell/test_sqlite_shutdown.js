@@ -197,6 +197,7 @@ options
 ;
 }
 function
+*
 getDummyDatabase
 (
 name
@@ -296,14 +297,8 @@ _initialStatementCount
 +
 ;
 }
-throw
-new
-Task
-.
-Result
-(
+return
 c
-)
 ;
 }
 function

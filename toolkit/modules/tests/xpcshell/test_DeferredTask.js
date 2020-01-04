@@ -492,6 +492,7 @@ new
 DeferredTask
 (
 function
+*
 (
 )
 {
@@ -838,6 +839,7 @@ new
 DeferredTask
 (
 function
+*
 (
 )
 {
@@ -965,6 +967,7 @@ new
 DeferredTask
 (
 function
+*
 (
 )
 {
@@ -1289,6 +1292,7 @@ new
 DeferredTask
 (
 function
+*
 (
 )
 {
