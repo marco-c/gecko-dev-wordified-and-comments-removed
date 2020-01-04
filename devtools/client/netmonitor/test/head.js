@@ -2757,6 +2757,8 @@ requests
 menu
 -
 status
+-
+icon
 "
 )
 .
@@ -2807,10 +2809,6 @@ requests
 menu
 -
 status
--
-and
--
-method
 "
 )
 .
