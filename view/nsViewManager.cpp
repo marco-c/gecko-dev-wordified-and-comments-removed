@@ -2108,8 +2108,10 @@ NeedsPaint
 {
 for
 (
+RefPtr
+<
 nsViewManager
-*
+>
 vm
 =
 this
