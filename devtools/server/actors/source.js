@@ -115,7 +115,6 @@ DevToolsUtils
 ;
 const
 {
-dirname
 joinURI
 }
 =
@@ -360,8 +359,6 @@ else
 return
 joinURI
 (
-dirname
-(
 source
 .
 introductionScript
@@ -369,7 +366,6 @@ introductionScript
 source
 .
 url
-)
 source
 .
 displayURL
