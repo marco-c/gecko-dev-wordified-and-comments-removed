@@ -165,6 +165,8 @@ enabled
 ]
 interface
 SpeechSynthesis
+:
+EventTarget
 {
 readonly
 attribute
@@ -216,6 +218,10 @@ SpeechSynthesisVoice
 getVoices
 (
 )
+;
+attribute
+EventHandler
+onvoiceschanged
 ;
 [
 ChromeOnly

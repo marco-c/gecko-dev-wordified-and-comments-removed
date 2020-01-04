@@ -6569,6 +6569,13 @@ onvoicechange
 )
 GK_ATOM
 (
+onvoiceschanged
+"
+onvoiceschanged
+"
+)
+GK_ATOM
+(
 onwebkitAnimationEnd
 "
 onwebkitAnimationEnd
