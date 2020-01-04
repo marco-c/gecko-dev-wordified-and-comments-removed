@@ -340,6 +340,11 @@ null
 yield
 reInitPromise
 ;
+yield
+promiseAfterCache
+(
+)
+;
 }
 )
 ;
@@ -426,13 +431,6 @@ setCharPref
 (
 kUrlPref
 url
-)
-;
-let
-commitPromise
-=
-promiseAfterCache
-(
 )
 ;
 yield
