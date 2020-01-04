@@ -800,7 +800,7 @@ same
 object
 .
 But
-wierd
+weird
 interactions
 happen
 between
