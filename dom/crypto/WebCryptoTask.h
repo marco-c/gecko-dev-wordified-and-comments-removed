@@ -773,6 +773,9 @@ public
 :
 GenerateAsymmetricKeyTask
 (
+nsIGlobalObject
+*
+aGlobal
 JSContext
 *
 aCx
