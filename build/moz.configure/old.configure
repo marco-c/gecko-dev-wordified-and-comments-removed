@@ -1911,13 +1911,6 @@ versions
 -
 enable
 -
-rust
-'
-'
--
--
-enable
--
 safe
 -
 browsing

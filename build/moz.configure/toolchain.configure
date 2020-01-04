@@ -5278,3 +5278,11 @@ MOZ_DEBUG_FLAGS
 '
 debug_flags
 )
+include
+(
+'
+rust
+.
+configure
+'
+)
