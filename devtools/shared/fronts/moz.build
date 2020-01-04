@@ -181,6 +181,11 @@ memory
 js
 '
 '
+performance
+.
+js
+'
+'
 preference
 .
 js
