@@ -180,7 +180,7 @@ central
 GECKO_BASE_REPOSITORY
 :
 '
-http
+https
 :
 /
 /
@@ -219,11 +219,7 @@ maxRunTime
 command
 :
 -
-build
--
 phone
-.
-sh
 artifacts
 :
 '
