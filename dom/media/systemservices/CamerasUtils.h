@@ -42,11 +42,6 @@ mozilla
 namespace
 camera
 {
-nsresult
-SynchronouslyCreatePBackground
-(
-)
-;
 class
 ThreadDestructor
 :

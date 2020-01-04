@@ -285,10 +285,6 @@ existingBackgroundChild
 )
 )
 ;
-SynchronouslyCreatePBackground
-(
-)
-;
 existingBackgroundChild
 =
 ipc
@@ -297,7 +293,7 @@ ipc
 BackgroundChild
 :
 :
-GetForCurrentThread
+SynchronouslyCreateForCurrentThread
 (
 )
 ;

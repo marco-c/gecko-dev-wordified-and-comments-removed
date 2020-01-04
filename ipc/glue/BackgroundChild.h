@@ -124,6 +124,13 @@ aCallback
 )
 ;
 static
+PBackgroundChild
+*
+SynchronouslyCreateForCurrentThread
+(
+)
+;
+static
 mozilla
 :
 :
