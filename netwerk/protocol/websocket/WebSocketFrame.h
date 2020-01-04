@@ -64,6 +64,9 @@ WebSocketFrame
 (
 )
 ;
+DOMHighResTimeStamp
+mTimeStamp
+;
 bool
 mFinBit
 :

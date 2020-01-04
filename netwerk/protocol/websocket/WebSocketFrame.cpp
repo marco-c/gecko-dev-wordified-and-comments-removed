@@ -113,6 +113,12 @@ PR_GetCurrentThread
 gSocketThread
 )
 ;
+mTimeStamp
+=
+PR_Now
+(
+)
+;
 }
 WebSocketFrame
 :
@@ -178,6 +184,13 @@ NS_OK
 ;
 \
 }
+WSF_GETTER
+(
+GetTimeStamp
+mTimeStamp
+DOMHighResTimeStamp
+)
+;
 WSF_GETTER
 (
 GetFinBit
