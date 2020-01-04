@@ -34,7 +34,7 @@ GrAAStrokeRectBatch
 {
 GrDrawBatch
 *
-Create
+CreateFillBetweenRects
 (
 GrColor
 color
@@ -49,15 +49,7 @@ devOutside
 const
 SkRect
 &
-devOutsideAssist
-const
-SkRect
-&
 devInside
-bool
-miterStroke
-bool
-degenerate
 )
 ;
 GrDrawBatch
