@@ -6,6 +6,11 @@ define
 mozilla_image_sourcebuffer_h
 #
 include
+<
+algorithm
+>
+#
+include
 "
 mozilla
 /
