@@ -346,6 +346,10 @@ zeroDouble
 scratchDouble
 )
 ;
+asMasm
+(
+)
+.
 branchDouble
 (
 DoubleNotEqual
