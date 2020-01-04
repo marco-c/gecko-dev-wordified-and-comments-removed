@@ -11831,7 +11831,7 @@ GetContent
 nsLayoutUtils
 :
 :
-GetDisplayPort
+GetHighResolutionDisplayPort
 (
 content
 &
@@ -11916,7 +11916,7 @@ usingDisplayPort
 nsLayoutUtils
 :
 :
-GetDisplayPort
+GetHighResolutionDisplayPort
 (
 content
 &
