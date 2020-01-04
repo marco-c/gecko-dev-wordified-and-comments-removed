@@ -71,12 +71,14 @@ keygen
 finished
 "
 )
+{
 window
 .
 close
 (
 )
 ;
+}
 }
 }
 ;

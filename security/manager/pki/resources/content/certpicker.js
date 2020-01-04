@@ -71,13 +71,15 @@ selIndex
 <
 0
 )
+{
 selIndex
 =
 0
 ;
+}
 for
 (
-var
+let
 i
 =
 0
@@ -91,7 +93,7 @@ i
 +
 )
 {
-var
+let
 menuItemNode
 =
 document
@@ -103,7 +105,7 @@ menuitem
 "
 )
 ;
-var
+let
 nick
 =
 dialogParams
