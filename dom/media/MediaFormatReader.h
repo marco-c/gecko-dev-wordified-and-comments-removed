@@ -246,12 +246,6 @@ ForceZeroStartTime
 const
 override
 ;
-void
-ReleaseMediaResources
-(
-)
-override
-;
 nsresult
 ResetDecode
 (
@@ -1634,6 +1628,14 @@ mDormantEnabled
 ;
 #
 endif
+private
+:
+void
+ReleaseMediaResourcesInternal
+(
+)
+override
+;
 }
 ;
 }
