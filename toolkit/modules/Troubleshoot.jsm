@@ -1083,16 +1083,6 @@ getProperty
 version
 "
 )
-arch
-:
-sysInfo
-.
-getProperty
-(
-"
-arch
-"
-)
 version
 :
 AppConstants
