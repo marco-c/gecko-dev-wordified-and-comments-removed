@@ -352,9 +352,6 @@ OS_LIBS
 =
 [
 '
-psapi
-'
-'
 version
 '
 ]
