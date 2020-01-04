@@ -786,6 +786,13 @@ changeHint
 restyleHint
 )
 ;
+PostRestyleEvent
+(
+aElement
+restyleHint
+changeHint
+)
+;
 return
 NS_OK
 ;
