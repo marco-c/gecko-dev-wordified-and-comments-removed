@@ -2228,9 +2228,7 @@ file
 DIST
 )
 /
-upload
--
-properties
+mach_build_properties
 .
 json
 \
