@@ -24082,6 +24082,10 @@ if
 (
 !
 isSelected
+.
+value
+(
+)
 )
 {
 TextDecorations
