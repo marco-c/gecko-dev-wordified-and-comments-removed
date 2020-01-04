@@ -283,6 +283,8 @@ bool
 aIsDOMEventSynthesized
 bool
 aIsWidgetEventSynthesized
+int32_t
+aButtons
 )
 ;
 NS_IMETHOD

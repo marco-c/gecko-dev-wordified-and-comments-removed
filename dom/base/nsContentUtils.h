@@ -4956,6 +4956,8 @@ aY
 int32_t
 aButton
 int32_t
+aButtons
+int32_t
 aClickCount
 int32_t
 aModifiers
