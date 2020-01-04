@@ -2809,9 +2809,7 @@ GetWSNodes
 (
 )
 {
-:
-:
-DOMPoint
+EditorDOMPoint
 start
 (
 mNode
@@ -4873,9 +4871,7 @@ nsWSRunObject
 :
 GetPreviousWSNode
 (
-:
-:
-DOMPoint
+EditorDOMPoint
 aPoint
 nsINode
 *
@@ -5223,9 +5219,7 @@ nsWSRunObject
 :
 GetNextWSNode
 (
-:
-:
-DOMPoint
+EditorDOMPoint
 aPoint
 nsINode
 *
