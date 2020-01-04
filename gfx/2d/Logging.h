@@ -1652,9 +1652,10 @@ LogIt
 mMessage
 <
 <
-"
-0x
-"
+std
+:
+:
+showbase
 <
 <
 std
@@ -1666,6 +1667,12 @@ hex
 aHex
 .
 mVal
+<
+<
+std
+:
+:
+noshowbase
 <
 <
 std
