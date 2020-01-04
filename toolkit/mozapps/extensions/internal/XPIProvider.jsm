@@ -18085,6 +18085,11 @@ addon
 wrapper
 )
 ;
+return
+addon
+.
+wrapper
+;
 }
 )
 getAddonByInstanceID
