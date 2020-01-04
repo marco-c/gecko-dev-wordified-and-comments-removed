@@ -805,9 +805,8 @@ aTimeout
 FrameTimeout
 :
 :
-FromRawMilliseconds
+Forever
 (
-0
 )
 BlendMethod
 aBlendMethod
@@ -1003,6 +1002,9 @@ mProgress
 ;
 uint32_t
 mFrameCount
+;
+FrameTimeout
+mLoopLength
 ;
 TimeDuration
 mDecodeTime
