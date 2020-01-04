@@ -7522,7 +7522,11 @@ showContextRoomName
 useDesktopPaths
 =
 {
-false
+this
+.
+props
+.
+useDesktopPaths
 }
 /
 >
