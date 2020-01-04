@@ -49,6 +49,9 @@ h
 class
 nsINode
 ;
+class
+nsXMLHttpRequest
+;
 namespace
 mozilla
 {
@@ -195,6 +198,17 @@ outLoadInfo
 LoadInfo
 (
 )
+;
+void
+SetWithCredentialsSecFlag
+(
+)
+;
+friend
+class
+:
+:
+nsXMLHttpRequest
 ;
 nsCOMPtr
 <
