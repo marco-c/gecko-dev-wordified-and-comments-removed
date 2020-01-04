@@ -195,11 +195,10 @@ any
 more
 .
 Bug
-1273625
+1271829
 -
-Update
-win32
-rustc
-target
-to
-i686
+Compile
+nss
+with
+SSE2
+optimizations
