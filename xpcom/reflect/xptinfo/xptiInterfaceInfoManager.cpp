@@ -348,7 +348,20 @@ length
 )
 ;
 XPTCursor
+curs
+;
+NotNull
+<
+XPTCursor
+*
+>
 cursor
+=
+WrapNotNull
+(
+&
+curs
+)
 ;
 if
 (
@@ -359,7 +372,6 @@ XPT_MakeCursor
 state
 XPT_HEADER
 0
-&
 cursor
 )
 )
@@ -378,7 +390,6 @@ if
 XPT_DoHeader
 (
 gXPTIStructArena
-&
 cursor
 &
 header
