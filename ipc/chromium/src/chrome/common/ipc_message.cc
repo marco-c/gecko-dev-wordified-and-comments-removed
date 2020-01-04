@@ -203,7 +203,7 @@ const
 char
 *
 const
-name
+aName
 )
 :
 Pickle
@@ -388,7 +388,7 @@ Unknown
 endif
 InitLoggingVariables
 (
-name
+aName
 )
 ;
 }
@@ -618,12 +618,12 @@ const
 char
 *
 const
-name
+aName
 )
 {
 name_
 =
-name
+aName
 ;
 }
 Message
