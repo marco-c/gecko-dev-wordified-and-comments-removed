@@ -422,12 +422,8 @@ String
 ;
 Assert
 .
-throws
+equal
 (
-(
-)
-=
->
 Services
 .
 prefs
@@ -444,6 +440,10 @@ string
 noquotes
 "
 )
+"
+Test
+String
+"
 )
 ;
 Assert
