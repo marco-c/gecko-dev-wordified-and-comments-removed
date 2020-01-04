@@ -4858,7 +4858,7 @@ azure
 .
 accelerated
 "
-false
+true
 )
 ;
 #
