@@ -1387,9 +1387,6 @@ break
 case
 eIntID_MacGraphiteTheme
 :
-case
-eIntID_MacLionTheme
-:
 aResult
 =
 0

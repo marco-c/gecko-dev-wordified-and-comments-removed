@@ -2014,15 +2014,6 @@ NSGraphiteControlTint
 break
 ;
 case
-eIntID_MacLionTheme
-:
-aResult
-=
-1
-;
-break
-;
-case
 eIntID_MacYosemiteTheme
 :
 aResult
