@@ -814,7 +814,7 @@ h
 cls
 .
 __name__
-=
+!
 =
 '
 DeprecatedCommands
