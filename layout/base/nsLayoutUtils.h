@@ -5567,15 +5567,6 @@ aSel
 )
 ;
 static
-bool
-IsScrollFrameWithSnapping
-(
-nsIFrame
-*
-aFrame
-)
-;
-static
 CSSRect
 GetBoundingContentRect
 (
