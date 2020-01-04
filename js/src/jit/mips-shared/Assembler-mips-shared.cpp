@@ -7015,6 +7015,14 @@ label
 ;
 do
 {
+if
+(
+oom
+(
+)
+)
+return
+;
 Instruction
 *
 inst
@@ -7110,6 +7118,12 @@ label
 -
 >
 used
+(
+)
+&
+&
+!
+oom
 (
 )
 )
