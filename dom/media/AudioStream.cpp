@@ -1631,10 +1631,6 @@ defined
 (
 MOZ_B2G
 )
-mAudioChannel
-=
-aAudioChannel
-;
 params
 .
 stream_type
@@ -1649,16 +1645,6 @@ aAudioChannel
 ;
 #
 else
-mAudioChannel
-=
-dom
-:
-:
-AudioChannel
-:
-:
-Content
-;
 params
 .
 stream_type
