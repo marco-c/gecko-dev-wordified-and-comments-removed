@@ -188,6 +188,9 @@ DIRS
 encoder
 '
 '
+flac
+'
+'
 gmp
 '
 '
@@ -566,11 +569,6 @@ h
 '
 '
 FileBlockCache
-.
-h
-'
-'
-FlacFrameParser
 .
 h
 '
@@ -1103,11 +1101,6 @@ cpp
 '
 '
 FileBlockCache
-.
-cpp
-'
-'
-FlacFrameParser
 .
 cpp
 '
