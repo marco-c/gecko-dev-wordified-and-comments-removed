@@ -5471,7 +5471,6 @@ currCol
 imageRect
 twistyRect
 presContext
-rc
 twistyContext
 )
 ;
@@ -7060,7 +7059,6 @@ aColumn
 imageSize
 twistyRect
 presContext
-rc
 twistyContext
 )
 ;
@@ -7839,8 +7837,6 @@ twistyRect
 PresContext
 (
 )
-*
-aRenderingContext
 twistyContext
 )
 ;
@@ -9471,9 +9467,6 @@ aTwistyRect
 nsPresContext
 *
 aPresContext
-nsRenderingContext
-&
-aRenderingContext
 nsStyleContext
 *
 aTwistyContext
@@ -14780,7 +14773,6 @@ aColumn
 imageSize
 twistyRect
 aPresContext
-aRenderingContext
 twistyContext
 )
 ;
@@ -15711,7 +15703,6 @@ aColumn
 imageSize
 twistyRect
 aPresContext
-aRenderingContext
 twistyContext
 )
 ;
@@ -18328,7 +18319,6 @@ primaryCol
 imageSize
 twistyRect
 aPresContext
-aRenderingContext
 twistyContext
 )
 ;
