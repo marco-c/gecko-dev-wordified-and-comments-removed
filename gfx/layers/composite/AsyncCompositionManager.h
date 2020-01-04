@@ -483,6 +483,12 @@ aLayer
 bool
 *
 aOutFoundRoot
+Maybe
+<
+ParentLayerIntRect
+>
+&
+aClipDeferredToParent
 )
 ;
 void
