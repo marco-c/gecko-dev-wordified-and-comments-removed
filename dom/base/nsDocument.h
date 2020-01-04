@@ -6429,6 +6429,11 @@ MaybeRescheduleAnimationFrameNotifications
 (
 )
 ;
+void
+ClearAllBoxObjects
+(
+)
+;
 bool
 IsAboutPage
 (
