@@ -83,6 +83,13 @@ h
 #
 include
 "
+MediaResourceCallback
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Atomics
@@ -155,9 +162,6 @@ nsIPrincipal
 namespace
 mozilla
 {
-class
-MediaResourceCallback
-;
 class
 MediaChannelStatistics
 ;
@@ -1663,8 +1667,10 @@ int64_t
 aOffset
 )
 ;
+RefPtr
+<
 MediaResourceCallback
-*
+>
 mCallback
 ;
 nsCOMPtr

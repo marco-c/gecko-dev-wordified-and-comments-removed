@@ -12189,6 +12189,11 @@ originalResource
 CloneData
 (
 decoder
+-
+>
+GetResourceCallback
+(
+)
 )
 ;
 if
@@ -12428,6 +12433,11 @@ MediaResource
 Create
 (
 decoder
+-
+>
+GetResourceCallback
+(
+)
 aChannel
 )
 ;

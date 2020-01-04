@@ -1046,6 +1046,10 @@ get
 (
 )
 mCallback
+.
+get
+(
+)
 )
 ;
 mCallback
@@ -1642,6 +1646,10 @@ aRangeStart
 aRangeEnd
 aRangeTotal
 mCallback
+.
+get
+(
+)
 )
 ;
 return
@@ -1989,6 +1997,10 @@ mResource
 -
 >
 mCallback
+.
+get
+(
+)
 )
 ;
 closure
@@ -4118,6 +4130,10 @@ p
 "
 aOffset
 mCallback
+.
+get
+(
+)
 )
 ;
 CloseChannel
