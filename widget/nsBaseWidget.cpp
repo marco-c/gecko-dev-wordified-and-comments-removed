@@ -3949,6 +3949,7 @@ touchEvent
 aGuid
 aInputBlockId
 aApzResponse
+status
 )
 ;
 }
