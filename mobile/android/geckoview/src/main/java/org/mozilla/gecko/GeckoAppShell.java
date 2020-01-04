@@ -1306,14 +1306,6 @@ public
 static
 native
 void
-registerJavaUiThread
-(
-)
-;
-public
-static
-native
-void
 onSurfaceTextureFrameAvailable
 (
 Object

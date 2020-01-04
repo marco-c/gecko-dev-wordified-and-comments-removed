@@ -2610,9 +2610,7 @@ run
 (
 )
 {
-GeckoAppShell
-.
-registerJavaUiThread
+registerUiThread
 (
 )
 ;
@@ -3288,4 +3286,11 @@ data
 ;
 }
 }
+static
+native
+void
+registerUiThread
+(
+)
+;
 }
