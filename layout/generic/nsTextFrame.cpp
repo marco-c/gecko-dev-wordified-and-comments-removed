@@ -13634,7 +13634,7 @@ nsTextFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsTextFrameBase
+nsFrame
 )
 gfxSkipCharsIterator
 nsTextFrame
@@ -22299,7 +22299,7 @@ InvalidateFrame
 return
 ;
 }
-nsTextFrameBase
+nsFrame
 :
 :
 InvalidateFrame
@@ -22357,7 +22357,7 @@ InvalidateFrame
 return
 ;
 }
-nsTextFrameBase
+nsFrame
 :
 :
 InvalidateFrameWithRect
