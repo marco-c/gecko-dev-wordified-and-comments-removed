@@ -88,13 +88,6 @@ dirs
 {
 }
 '
-test_name_extension
-'
-:
-'
-_paint
-'
-'
 repository
 '
 :
