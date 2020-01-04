@@ -769,6 +769,16 @@ sizeNeeded
 isValid
 (
 )
+|
+|
+sizeNeeded
+.
+value
+(
+)
+>
+=
+INT32_MAX
 )
 {
 return
