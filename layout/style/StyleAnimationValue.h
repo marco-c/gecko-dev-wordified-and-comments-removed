@@ -453,7 +453,7 @@ eUnit_Shadow
 eUnit_Shape
 eUnit_Filter
 eUnit_Transform
-eUnit_BackgroundPosition
+eUnit_BackgroundPositionCoord
 eUnit_CSSValuePairList
 eUnit_UnparsedString
 }
@@ -1581,7 +1581,7 @@ eUnit_Shadow
 aUnit
 =
 =
-eUnit_BackgroundPosition
+eUnit_BackgroundPositionCoord
 ;
 }
 static
