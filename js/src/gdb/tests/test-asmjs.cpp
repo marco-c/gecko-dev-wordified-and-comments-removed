@@ -196,7 +196,13 @@ opts
 .
 asmJSOption
 =
-true
+JS
+:
+:
+AsmJSOption
+:
+:
+Enabled
 ;
 RootedValue
 rval
