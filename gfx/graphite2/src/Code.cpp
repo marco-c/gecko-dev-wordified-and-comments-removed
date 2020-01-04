@@ -522,6 +522,9 @@ _passtype
 int
 _stack_depth
 ;
+bool
+_in_ctxt_item
+;
 }
 ;
 struct
@@ -638,6 +641,10 @@ pt
 _stack_depth
 (
 0
+)
+_in_ctxt_item
+(
+false
 )
 {
 }
@@ -1767,10 +1774,7 @@ jump_past_end
 ;
 if
 (
-_pre_context
-!
-=
-0
+_in_ctxt_item
 )
 failure
 (
@@ -3047,6 +3051,10 @@ _pre_context
 0
 )
 ;
+_in_ctxt_item
+=
+true
+;
 _pre_context
 =
 _max
@@ -3159,6 +3167,10 @@ _rule_length
 _pre_context
 =
 0
+;
+_in_ctxt_item
+=
+false
 ;
 }
 else

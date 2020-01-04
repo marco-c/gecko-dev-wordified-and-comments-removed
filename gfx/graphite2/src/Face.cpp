@@ -1100,14 +1100,6 @@ seg
 s
 )
 ;
-seg
--
->
-finalise
-(
-0
-)
-;
 *
 dbgout
 <
