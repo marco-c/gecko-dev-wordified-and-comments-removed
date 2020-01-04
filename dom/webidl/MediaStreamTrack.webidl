@@ -373,6 +373,9 @@ viewportWidth
 ConstrainLong
 viewportHeight
 ;
+ConstrainBoolean
+echoCancellation
+;
 }
 ;
 dictionary

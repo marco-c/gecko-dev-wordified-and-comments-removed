@@ -177,12 +177,9 @@ be
 supported
 boolean
 echoCancellation
+=
+true
 ;
-/
-/
-to
-be
-supported
 boolean
 latency
 ;
