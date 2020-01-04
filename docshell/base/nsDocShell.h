@@ -2606,9 +2606,6 @@ bool
 mUseGlobalHistory
 ;
 bool
-mInPrivateBrowsing
-;
-bool
 mUseRemoteTabs
 ;
 bool
@@ -2691,6 +2688,9 @@ mBlankTiming
 ;
 uint32_t
 mFrameType
+;
+uint32_t
+mPrivateBrowsingId
 ;
 nsString
 mPaymentRequestId
