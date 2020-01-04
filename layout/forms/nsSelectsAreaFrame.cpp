@@ -592,8 +592,12 @@ listFrame
 >
 PaintFocus
 (
-*
 aCtx
+-
+>
+GetDrawTarget
+(
+)
 aBuilder
 -
 >

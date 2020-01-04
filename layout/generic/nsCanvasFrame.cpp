@@ -2420,8 +2420,12 @@ frame
 >
 PaintFocus
 (
-*
 aCtx
+-
+>
+GetDrawTarget
+(
+)
 ToReferenceFrame
 (
 )
@@ -3006,9 +3010,9 @@ nsCanvasFrame
 :
 PaintFocus
 (
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 nsPoint
 aPt
 )
@@ -3133,7 +3137,7 @@ PaintFocus
 PresContext
 (
 )
-aRenderingContext
+aDrawTarget
 focusRect
 color
 -

@@ -1150,9 +1150,9 @@ PaintFocus
 nsPresContext
 *
 aPresContext
-nsRenderingContext
-&
-aRenderingContext
+DrawTarget
+*
+aDrawTarget
 const
 nsRect
 &

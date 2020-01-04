@@ -432,8 +432,14 @@ override
 void
 PaintFocus
 (
-nsRenderingContext
-&
+mozilla
+:
+:
+gfx
+:
+:
+DrawTarget
+*
 aRenderingContext
 nsPoint
 aPt
