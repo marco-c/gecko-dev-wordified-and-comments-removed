@@ -142,6 +142,13 @@ isInExperimentLocal
 context
 ONBOARDING_A
 )
+&
+&
+AppConstants
+.
+Versions
+.
+preM
 )
 {
 panels
@@ -185,6 +192,13 @@ isInExperimentLocal
 context
 ONBOARDING_B
 )
+&
+&
+AppConstants
+.
+Versions
+.
+preM
 )
 {
 panels
