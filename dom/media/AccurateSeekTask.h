@@ -284,6 +284,12 @@ mDropAudioUntilNextDiscontinuity
 bool
 mDropVideoUntilNextDiscontinuity
 ;
+bool
+mDoneAudioSeeking
+;
+bool
+mDoneVideoSeeking
+;
 RefPtr
 <
 MediaData
