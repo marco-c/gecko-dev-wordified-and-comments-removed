@@ -246,6 +246,17 @@ XMLHttpRequestEventTarget
 h
 "
 #
+include
+"
+mozilla
+/
+dom
+/
+XMLHttpRequestString
+.
+h
+"
+#
 ifdef
 Status
 #
@@ -2310,7 +2321,7 @@ mHttpChannel
 nsCString
 mResponseBody
 ;
-nsString
+XMLHttpRequestString
 mResponseText
 ;
 uint32_t

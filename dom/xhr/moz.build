@@ -124,6 +124,11 @@ XMLHttpRequestMainThread
 h
 '
 '
+XMLHttpRequestString
+.
+h
+'
+'
 XMLHttpRequestUpload
 .
 h
@@ -145,6 +150,11 @@ cpp
 '
 '
 XMLHttpRequestMainThread
+.
+cpp
+'
+'
+XMLHttpRequestString
 .
 cpp
 '
