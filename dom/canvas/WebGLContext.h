@@ -463,6 +463,9 @@ class
 WebGLShaderPrecisionFormat
 ;
 class
+WebGLSync
+;
+class
 WebGLTexture
 ;
 class
@@ -7239,6 +7242,12 @@ LinkedList
 WebGLShader
 >
 mShaders
+;
+LinkedList
+<
+WebGLSync
+>
+mSyncs
 ;
 LinkedList
 <
