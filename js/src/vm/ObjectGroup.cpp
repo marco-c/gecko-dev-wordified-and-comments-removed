@@ -5040,8 +5040,8 @@ if
 GiveObjectGroup
 (
 cx
-oldObj
 newObj
+oldObj
 )
 )
 return
@@ -5064,8 +5064,8 @@ if
 GiveObjectGroup
 (
 cx
-newObj
 oldObj
+newObj
 )
 )
 return
@@ -5130,7 +5130,6 @@ if
 GiveObjectGroup
 (
 cx
-newObj
 &
 compare
 [
@@ -5140,6 +5139,7 @@ i
 toObject
 (
 )
+newObj
 )
 )
 return
@@ -5385,8 +5385,8 @@ if
 GiveObjectGroup
 (
 cx
-oldInnerObj
 newInnerObj
+oldInnerObj
 )
 )
 return
@@ -5408,8 +5408,8 @@ if
 GiveObjectGroup
 (
 cx
-newInnerObj
 oldInnerObj
+newInnerObj
 )
 )
 return
@@ -5519,13 +5519,13 @@ if
 GiveObjectGroup
 (
 cx
-newInnerObj
 &
 otherValue
 .
 toObject
 (
 )
+newInnerObj
 )
 )
 return
@@ -5720,8 +5720,8 @@ if
 GiveObjectGroup
 (
 cx
-oldInnerObj
 newInnerObj
+oldInnerObj
 )
 )
 return
@@ -5743,8 +5743,8 @@ if
 GiveObjectGroup
 (
 cx
-newInnerObj
 oldInnerObj
+newInnerObj
 )
 )
 return
@@ -5863,8 +5863,8 @@ if
 GiveObjectGroup
 (
 cx
-newInnerObj
 otherInnerObj
+newInnerObj
 )
 )
 return
