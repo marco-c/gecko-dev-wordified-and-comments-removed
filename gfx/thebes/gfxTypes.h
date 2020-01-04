@@ -55,7 +55,6 @@ gfxImageFormat
 ARGB32
 RGB24
 A8
-A1
 RGB16_565
 Unknown
 }
