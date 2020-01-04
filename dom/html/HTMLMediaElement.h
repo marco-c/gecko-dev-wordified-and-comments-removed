@@ -941,6 +941,14 @@ aTrack
 )
 ;
 void
+NotifyMediaTrackDisabled
+(
+MediaTrack
+*
+aTrack
+)
+;
+void
 NotifyMediaStreamTracksAvailable
 (
 DOMMediaStream
