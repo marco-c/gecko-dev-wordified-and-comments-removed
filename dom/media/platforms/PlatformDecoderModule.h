@@ -409,6 +409,17 @@ return
 NS_OK
 ;
 }
+virtual
+const
+char
+*
+GetDescriptionName
+(
+)
+const
+=
+0
+;
 }
 ;
 }
