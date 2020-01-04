@@ -55406,6 +55406,15 @@ mOriginAttributes
 =
 aAttrs
 ;
+SetPrivateBrowsing
+(
+mOriginAttributes
+.
+mPrivateBrowsingId
+>
+0
+)
+;
 }
 NS_IMETHODIMP
 nsDocShell
