@@ -1728,7 +1728,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_mozglue_GeckoLoader_loadGeckoLibsNative
 (
 JNIEnv
@@ -1825,7 +1825,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_mozglue_GeckoLoader_loadSQLiteLibsNative
 (
 JNIEnv
@@ -1943,7 +1943,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_mozglue_GeckoLoader_loadNSSLibsNative
 (
 JNIEnv
@@ -2077,7 +2077,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_mozglue_GeckoLoader_nativeRun
 (
 JNIEnv

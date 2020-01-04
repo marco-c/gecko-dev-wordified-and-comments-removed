@@ -58,7 +58,7 @@ default
 )
 )
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_mozglue_GeckoLoader_putenv
 (
 JNIEnv
@@ -128,7 +128,7 @@ default
 )
 )
 jobject
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_mozglue_DirectBufferAllocator_nativeAllocateDirectBuffer
 (
 JNIEnv
@@ -200,7 +200,7 @@ default
 )
 )
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_mozglue_DirectBufferAllocator_nativeFreeDirectBuffer
 (
 JNIEnv
@@ -239,7 +239,7 @@ default
 )
 )
 jlong
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_mozglue_NativeZip_getZip
 (
 JNIEnv
@@ -396,7 +396,7 @@ default
 )
 )
 jlong
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_mozglue_NativeZip_getZipFromByteBuffer
 (
 JNIEnv
@@ -505,7 +505,7 @@ default
 )
 )
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_mozglue_NativeZip__1release
 (
 JNIEnv
@@ -550,7 +550,7 @@ default
 )
 )
 jobject
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_mozglue_NativeZip__1getInputStream
 (
 JNIEnv

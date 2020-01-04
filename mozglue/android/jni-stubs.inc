@@ -23,7 +23,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoAppShell_registerJavaUiThread
 (
 JNIEnv
@@ -119,7 +119,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoAppShell_onResume
 (
 JNIEnv
@@ -217,7 +217,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoAppShell_onSurfaceTextureFrameAvailable
 (
 JNIEnv
@@ -319,7 +319,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoAppShell_dispatchMemoryPressure
 (
 JNIEnv
@@ -416,7 +416,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoAppShell_reportJavaCrash
 (
 JNIEnv
@@ -516,7 +516,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoAppShell_processNextNativeEvent
 (
 JNIEnv
@@ -618,7 +618,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoAppShell_notifyBatteryChange
 (
 JNIEnv
@@ -723,7 +723,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoAppShell_invalidateAndScheduleComposite
 (
 JNIEnv
@@ -821,7 +821,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoAppShell_scheduleResumeComposition
 (
 JNIEnv
@@ -923,7 +923,7 @@ C
 "
 NS_EXPORT
 jfloat
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoAppShell_computeRenderIntegrity
 (
 JNIEnv
@@ -1022,7 +1022,7 @@ C
 "
 NS_EXPORT
 jobject
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoAppShell_getSurfaceBits
 (
 JNIEnv
@@ -1124,7 +1124,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoAppShell_addPresentationSurface
 (
 JNIEnv
@@ -1224,7 +1224,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoAppShell_removePresentationSurface
 (
 JNIEnv
@@ -1324,7 +1324,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoAppShell_onFullScreenPluginHidden
 (
 JNIEnv
@@ -1424,7 +1424,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoAppShell_notifyGeckoOfEvent
 (
 JNIEnv
@@ -1525,7 +1525,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoAppShell_notifyGeckoObservers
 (
 JNIEnv
@@ -1627,7 +1627,7 @@ C
 "
 NS_EXPORT
 jlong
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoAppShell_runUiThreadCallback
 (
 JNIEnv
@@ -1726,7 +1726,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoAppShell_cameraCallbackBridge
 (
 JNIEnv
@@ -1825,7 +1825,7 @@ C
 "
 NS_EXPORT
 jdouble
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoJavaSampler_getProfilerTime
 (
 JNIEnv
@@ -1927,7 +1927,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoSmsManager_notifySmsReceived
 (
 JNIEnv
@@ -2040,7 +2040,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoSmsManager_notifySmsSent
 (
 JNIEnv
@@ -2156,7 +2156,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoSmsManager_notifySmsDelivery
 (
 JNIEnv
@@ -2269,7 +2269,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoSmsManager_notifySmsSendFailed
 (
 JNIEnv
@@ -2379,7 +2379,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoSmsManager_notifyGetSms
 (
 JNIEnv
@@ -2501,7 +2501,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoSmsManager_notifyGetSmsFailed
 (
 JNIEnv
@@ -2605,7 +2605,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoSmsManager_notifySmsDeleted
 (
 JNIEnv
@@ -2709,7 +2709,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoSmsManager_notifySmsDeleteFailed
 (
 JNIEnv
@@ -2813,7 +2813,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoSmsManager_notifySmsMarkedAsRead
 (
 JNIEnv
@@ -2917,7 +2917,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoSmsManager_notifySmsMarkAsReadFailed
 (
 JNIEnv
@@ -3021,7 +3021,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoSmsManager_notifyCursorError
 (
 JNIEnv
@@ -3131,7 +3131,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoSmsManager_notifyThreadCursorResult
 (
 JNIEnv
@@ -3260,7 +3260,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoSmsManager_notifyMessageCursorResult
 (
 JNIEnv
@@ -3384,7 +3384,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_GeckoSmsManager_notifyCursorDone
 (
 JNIEnv
@@ -3483,7 +3483,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_gfx_NativePanZoomController_abortAnimation
 (
 JNIEnv
@@ -3579,7 +3579,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_gfx_NativePanZoomController_init
 (
 JNIEnv
@@ -3676,7 +3676,7 @@ C
 "
 NS_EXPORT
 jboolean
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_gfx_NativePanZoomController_handleTouchEvent
 (
 JNIEnv
@@ -3778,7 +3778,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_gfx_NativePanZoomController_handleMotionEvent
 (
 JNIEnv
@@ -3877,7 +3877,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_gfx_NativePanZoomController_destroy
 (
 JNIEnv
@@ -3973,7 +3973,7 @@ C
 "
 NS_EXPORT
 jboolean
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_gfx_NativePanZoomController_getRedrawHint
 (
 JNIEnv
@@ -4072,7 +4072,7 @@ C
 "
 NS_EXPORT
 void
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_gfx_NativePanZoomController_setOverScrollMode
 (
 JNIEnv
@@ -4171,7 +4171,7 @@ C
 "
 NS_EXPORT
 jint
-JNICALL
+MOZ_JNICALL
 Java_org_mozilla_gecko_gfx_NativePanZoomController_getOverScrollMode
 (
 JNIEnv

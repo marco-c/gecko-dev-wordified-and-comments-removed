@@ -1844,6 +1844,27 @@ IsVoid
 class
 NativeStubImpl
 ;
+#
+ifdef
+__i386__
+#
+define
+MOZ_JNICALL
+JNICALL
+__attribute__
+(
+(
+force_align_arg_pointer
+)
+)
+#
+else
+#
+define
+MOZ_JNICALL
+JNICALL
+#
+endif
 template
 <
 class
@@ -1922,6 +1943,7 @@ Args
 )
 >
 static
+MOZ_JNICALL
 ReturnJNIType
 Wrap
 (
@@ -2060,6 +2082,7 @@ Args
 )
 >
 static
+MOZ_JNICALL
 ReturnJNIType
 Wrap
 (
@@ -2262,6 +2285,7 @@ Args
 )
 >
 static
+MOZ_JNICALL
 void
 Wrap
 (
@@ -2402,6 +2426,7 @@ Args
 )
 >
 static
+MOZ_JNICALL
 void
 Wrap
 (
@@ -2564,6 +2589,7 @@ LocalRef
 )
 >
 static
+MOZ_JNICALL
 void
 Wrap
 (
@@ -2736,6 +2762,7 @@ Args
 )
 >
 static
+MOZ_JNICALL
 ReturnJNIType
 Wrap
 (
@@ -2837,6 +2864,7 @@ Args
 )
 >
 static
+MOZ_JNICALL
 ReturnJNIType
 Wrap
 (
@@ -3004,6 +3032,7 @@ Args
 )
 >
 static
+MOZ_JNICALL
 void
 Wrap
 (
@@ -3111,6 +3140,7 @@ Args
 )
 >
 static
+MOZ_JNICALL
 void
 Wrap
 (
