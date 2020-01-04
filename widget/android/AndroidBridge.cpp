@@ -10861,7 +10861,7 @@ CallStaticObjectMethod
 sBridge
 -
 >
-jReadableByteChannel
+jChannels
 sBridge
 -
 >
