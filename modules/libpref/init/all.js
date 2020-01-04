@@ -5688,7 +5688,7 @@ azure
 backends
 "
 "
-skia
+cairo
 "
 )
 ;
@@ -29136,6 +29136,18 @@ mousewheel
 system_scroll_override_on_root_content
 .
 enabled
+"
+false
+)
+;
+pref
+(
+"
+browser
+.
+download
+.
+forward_oma_android_download_manager
 "
 false
 )
