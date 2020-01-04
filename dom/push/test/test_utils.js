@@ -186,6 +186,15 @@ iframe
 src
 =
 "
+http
+:
+/
+/
+mochi
+.
+test
+:
+8888
 /
 tests
 /
@@ -220,9 +229,8 @@ iframe
 null
 ;
 }
-waitOnWorkerMessage
+waitOnPushMessage
 (
-type
 )
 {
 return
@@ -232,9 +240,8 @@ iframe
 .
 contentWindow
 .
-waitOnWorkerMessage
+waitOnPushMessage
 (
-type
 )
 :
 Promise
