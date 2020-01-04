@@ -1805,6 +1805,9 @@ frameYResolution
 struct
 OpUseTiledLayerBuffer
 {
+PCompositable
+compositable
+;
 SurfaceDescriptorTiles
 tileLayerDescriptor
 ;
@@ -1813,6 +1816,9 @@ tileLayerDescriptor
 struct
 OpUseOverlaySource
 {
+PCompositable
+compositable
+;
 OverlaySource
 overlay
 ;
@@ -1824,6 +1830,9 @@ picture
 struct
 OpPaintTextureRegion
 {
+PCompositable
+compositable
+;
 ThebesBufferData
 bufferData
 ;
@@ -1849,6 +1858,9 @@ TextureHost
 struct
 OpRemoveTexture
 {
+PCompositable
+compositable
+;
 PTexture
 texture
 ;
@@ -2028,6 +2040,9 @@ empty
 struct
 OpUseTexture
 {
+PCompositable
+compositable
+;
 TimedTexture
 [
 ]
@@ -2038,6 +2053,9 @@ textures
 struct
 OpUseComponentAlphaTextures
 {
+PCompositable
+compositable
+;
 PTexture
 textureOnBlack
 ;
@@ -2081,7 +2099,7 @@ fence
 }
 ;
 union
-CompositableOperationDetail
+CompositableOperation
 {
 OpPaintTextureRegion
 ;
@@ -2096,17 +2114,6 @@ OpUseTexture
 OpUseComponentAlphaTextures
 ;
 OpUseOverlaySource
-;
-}
-;
-struct
-CompositableOperation
-{
-PCompositable
-compositable
-;
-CompositableOperationDetail
-detail
 ;
 }
 ;
