@@ -1959,6 +1959,10 @@ NS_FAILED
 (
 aReason
 )
+|
+|
+!
+mIsResponderReady
 )
 )
 {
