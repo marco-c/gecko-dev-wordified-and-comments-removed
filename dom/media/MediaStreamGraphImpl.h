@@ -597,13 +597,6 @@ GraphTime
 aTime
 )
 ;
-enum
-{
-INCLUDE_TRAILING_BLOCKED_INTERVAL
-=
-0x01
-}
-;
 GraphTime
 StreamTimeToGraphTimeWithBlocking
 (
@@ -612,10 +605,6 @@ MediaStream
 aStream
 StreamTime
 aTime
-uint32_t
-aFlags
-=
-0
 )
 ;
 void
