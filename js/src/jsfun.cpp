@@ -3252,7 +3252,7 @@ true
 ;
 }
 bool
-js
+JS
 :
 :
 OrdinaryHasInstance

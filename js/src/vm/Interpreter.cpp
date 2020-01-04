@@ -4244,9 +4244,6 @@ val
 ;
 }
 return
-js
-:
-:
 OrdinaryHasInstance
 (
 cx
