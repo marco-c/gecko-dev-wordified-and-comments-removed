@@ -864,7 +864,6 @@ return
 nullptr
 ;
 }
-virtual
 bool
 AddDirectListener
 (
@@ -872,12 +871,7 @@ MediaStreamDirectListener
 *
 aListener
 )
-{
-return
-false
 ;
-}
-virtual
 void
 RemoveDirectListener
 (
@@ -885,8 +879,7 @@ MediaStreamDirectListener
 *
 aListener
 )
-{
-}
+;
 virtual
 DOMLocalMediaStream
 *
