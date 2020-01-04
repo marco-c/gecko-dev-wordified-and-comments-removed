@@ -159,7 +159,7 @@ h
 if
 defined
 (
-__GLIBC__
+__linux__
 )
 #
 include
