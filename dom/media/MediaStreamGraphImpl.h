@@ -412,8 +412,6 @@ UpdateCurrentTimeForStreams
 (
 GraphTime
 aPrevCurrentTime
-GraphTime
-aNextCurrentTime
 )
 ;
 void
