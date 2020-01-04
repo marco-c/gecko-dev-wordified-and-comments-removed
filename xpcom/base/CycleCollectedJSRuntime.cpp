@@ -1873,6 +1873,10 @@ mDoingStableStates
 (
 false
 )
+mDisableMicroTaskCheckpoint
+(
+false
+)
 mOutOfMemoryState
 (
 OOMState
@@ -6327,6 +6331,12 @@ aRecursionDepth
 ;
 if
 (
+!
+mDisableMicroTaskCheckpoint
+)
+{
+if
+(
 NS_IsMainThread
 (
 )
@@ -6356,6 +6366,7 @@ PerformWorkerMicroTaskCheckpoint
 (
 )
 ;
+}
 }
 ProcessStableStateQueue
 (
