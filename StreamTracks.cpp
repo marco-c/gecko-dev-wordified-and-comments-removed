@@ -1,7 +1,7 @@
 #
 include
 "
-StreamBuffer
+StreamTracks
 .
 h
 "
@@ -43,7 +43,7 @@ msg
 ifdef
 DEBUG
 void
-StreamBuffer
+StreamTracks
 :
 :
 DumpTrackInfo
@@ -180,7 +180,7 @@ GetEnd
 #
 endif
 StreamTime
-StreamBuffer
+StreamTracks
 :
 :
 GetEnd
@@ -256,7 +256,7 @@ t
 ;
 }
 StreamTime
-StreamBuffer
+StreamTracks
 :
 :
 GetAllTracksEnd
@@ -345,12 +345,12 @@ return
 t
 ;
 }
-StreamBuffer
+StreamTracks
 :
 :
 Track
 *
-StreamBuffer
+StreamTracks
 :
 :
 FindTrack
@@ -482,7 +482,7 @@ nullptr
 ;
 }
 void
-StreamBuffer
+StreamTracks
 :
 :
 ForgetUpTo

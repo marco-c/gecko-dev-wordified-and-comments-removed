@@ -1,9 +1,9 @@
 #
 ifndef
-MOZILLA_STREAMBUFFER_H_
+MOZILLA_STREAMTRACKS_H_
 #
 define
-MOZILLA_STREAMBUFFER_H_
+MOZILLA_STREAMTRACKS_H_
 #
 include
 "
@@ -218,7 +218,7 @@ aInRate
 ;
 }
 class
-StreamBuffer
+StreamTracks
 {
 public
 :
@@ -630,7 +630,7 @@ private
 :
 friend
 class
-StreamBuffer
+StreamTracks
 ;
 StreamTime
 mStart
@@ -715,7 +715,7 @@ GetID
 }
 }
 ;
-StreamBuffer
+StreamTracks
 (
 )
 :
@@ -747,18 +747,18 @@ endif
 {
 MOZ_COUNT_CTOR
 (
-StreamBuffer
+StreamTracks
 )
 ;
 }
 ~
-StreamBuffer
+StreamTracks
 (
 )
 {
 MOZ_COUNT_DTOR
 (
-StreamBuffer
+StreamTracks
 )
 ;
 }
@@ -936,7 +936,7 @@ NS_WARNING
 Adding
 track
 to
-StreamBuffer
+StreamTracks
 that
 should
 have
@@ -1042,7 +1042,7 @@ explicit
 TrackIter
 (
 const
-StreamBuffer
+StreamTracks
 &
 aBuffer
 )
@@ -1067,7 +1067,7 @@ false
 TrackIter
 (
 const
-StreamBuffer
+StreamTracks
 &
 aBuffer
 MediaSegment
