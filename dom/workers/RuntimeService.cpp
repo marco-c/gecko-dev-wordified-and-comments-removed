@@ -3964,7 +3964,7 @@ true
 ;
 }
 class
-WorkerJSRuntime
+WorkerJSContext
 ;
 class
 WorkerThreadContextPrivate
@@ -3974,7 +3974,7 @@ PerThreadAtomCache
 {
 friend
 class
-WorkerJSRuntime
+WorkerJSContext
 ;
 WorkerPrivate
 *
@@ -4646,7 +4646,9 @@ nullptr
 }
 ;
 class
-WorkerJSRuntime
+MOZ_STACK_CLASS
+WorkerJSContext
+final
 :
 public
 mozilla
@@ -4657,7 +4659,7 @@ CycleCollectedJSContext
 public
 :
 explicit
-WorkerJSRuntime
+WorkerJSContext
 (
 WorkerPrivate
 *
@@ -4676,7 +4678,7 @@ aWorkerPrivate
 ;
 }
 ~
-WorkerJSRuntime
+WorkerJSContext
 (
 )
 {
@@ -12412,8 +12414,8 @@ nsCycleCollector_startup
 (
 )
 ;
-WorkerJSRuntime
-runtime
+WorkerJSContext
+context
 (
 mWorkerPrivate
 )
@@ -12421,7 +12423,7 @@ mWorkerPrivate
 nsresult
 rv
 =
-runtime
+context
 .
 Initialize
 (
@@ -12447,7 +12449,7 @@ JSContext
 *
 cx
 =
-runtime
+context
 .
 Context
 (
@@ -12469,8 +12471,6 @@ NS_ERROR
 Failed
 to
 create
-runtime
-and
 context
 !
 "
