@@ -60,6 +60,10 @@ Create
 nsPIDOMWindowInner
 *
 aWindow
+const
+nsAString
+&
+aSessionId
 )
 ;
 virtual
@@ -135,6 +139,10 @@ PresentationReceiver
 bool
 Init
 (
+const
+nsAString
+&
+aSessionId
 )
 ;
 void
