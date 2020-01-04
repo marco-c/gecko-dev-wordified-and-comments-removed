@@ -65,8 +65,10 @@ HTML_TAG
 _tag
 _classname
 )
-MOZ_UTF16
 (
+u
+"
+"
 #
 _tag
 )
@@ -76,8 +78,10 @@ HTML_HTMLELEMENT_TAG
 (
 _tag
 )
-MOZ_UTF16
 (
+u
+"
+"
 #
 _tag
 )

@@ -1837,6 +1837,7 @@ Write
 (
 NS_LITERAL_STRING
 (
+u
 "
 \
 xFFFC
@@ -5048,6 +5049,7 @@ Write
 (
 NS_LITERAL_STRING
 (
+u
 "
 \
 xFFFC
