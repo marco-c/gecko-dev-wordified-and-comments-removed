@@ -637,8 +637,8 @@ list
     
 deps
 =
-{
-}
+[
+]
     
 for
 dep
@@ -697,14 +697,25 @@ deppath
                 
 deps
 .
-update
+extend
 (
+[
+d
+for
+d
+in
 dependentlibs
 (
 deppath
 libpaths
 func
 )
+if
+not
+d
+in
+deps
+]
 )
                 
 if
@@ -720,11 +731,11 @@ icu
 :
                     
 deps
-[
-dep
-]
-=
+.
+append
+(
 deppath
+)
                 
 break
     
@@ -830,10 +841,9 @@ func
 )
     
 deps
-[
-lib
-]
-=
+.
+append
+(
 mozpath
 .
 join
@@ -844,6 +854,22 @@ libpaths
 ]
 lib
 )
+)
+    
+dependentlibs_output
+=
+[
+mozpath
+.
+basename
+(
+f
+)
+for
+f
+in
+deps
+]
     
 output
 .
@@ -856,11 +882,7 @@ n
 .
 join
 (
-deps
-.
-keys
-(
-)
+dependentlibs_output
 )
 +
 '
@@ -873,10 +895,6 @@ return
 set
 (
 deps
-.
-values
-(
-)
 )
 def
 main
