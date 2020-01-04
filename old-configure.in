@@ -5839,7 +5839,17 @@ _WARNINGS_CXXFLAGS
 }
 "
 fi
+if
+test
+-
+n
+"
+COMPILE_ENVIRONMENT
+"
+;
+then
 MOZ_CONFIG_SANITIZE
+fi
 dnl
 =
 =
