@@ -50,14 +50,12 @@ final
 {
 public
 :
-virtual
 ~
 nsNameSpaceManager
 (
 )
 {
 }
-virtual
 nsresult
 RegisterNameSpace
 (
@@ -70,7 +68,6 @@ int32_t
 aNameSpaceID
 )
 ;
-virtual
 nsresult
 GetNameSpaceURI
 (
@@ -123,7 +120,6 @@ aNameSpaceID
 )
 ;
 }
-virtual
 int32_t
 GetNameSpaceID
 (
@@ -133,7 +129,6 @@ nsAString
 aURI
 )
 ;
-virtual
 bool
 HasElementCreator
 (
