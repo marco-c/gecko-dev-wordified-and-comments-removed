@@ -363,6 +363,9 @@ then
 MOZ_FPU
 =
 vfp
+MOZ_FLOAT_ABI
+=
+softfp
 fi
 MOZ_ARG_WITH_STRING
 (
