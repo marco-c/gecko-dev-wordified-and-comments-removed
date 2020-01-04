@@ -87,7 +87,7 @@ media
 ICodec
 ;
 interface
-ICodecManager
+IMediaManager
 {
 /
 *

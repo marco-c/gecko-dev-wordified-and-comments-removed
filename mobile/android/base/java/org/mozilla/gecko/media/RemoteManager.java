@@ -203,7 +203,7 @@ CodecProxy
 ;
 private
 volatile
-ICodecManager
+IMediaManager
 mRemote
 ;
 private
@@ -275,7 +275,7 @@ printStackTrace
 }
 mRemote
 =
-ICodecManager
+IMediaManager
 .
 Stub
 .
@@ -431,7 +431,7 @@ new
 Intent
 (
 appCtxt
-CodecManager
+MediaManager
 .
 class
 )
