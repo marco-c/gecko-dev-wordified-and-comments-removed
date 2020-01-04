@@ -262,8 +262,7 @@ mobile
 /
 android
 '
-:
-if
+and
 CONFIG
 [
 '
@@ -277,16 +276,6 @@ DIRS
 [
 '
 mobile
-'
-]
-else
-:
-DIRS
-+
-=
-[
-'
-windows
 '
 ]
 else
