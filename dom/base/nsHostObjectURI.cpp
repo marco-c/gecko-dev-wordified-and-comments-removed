@@ -639,6 +639,10 @@ nsSimpleURI
 :
 RefHandlingEnum
 aRefHandlingMode
+const
+nsACString
+&
+newRef
 nsIURI
 *
 *
@@ -666,6 +670,7 @@ nsSimpleURI
 CloneInternal
 (
 aRefHandlingMode
+newRef
 getter_AddRefs
 (
 simpleClone
