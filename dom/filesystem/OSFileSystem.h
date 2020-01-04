@@ -48,6 +48,16 @@ aParent
 )
 ;
 virtual
+already_AddRefed
+<
+FileSystemBase
+>
+Clone
+(
+)
+override
+;
+virtual
 nsISupports
 *
 GetParentObject
