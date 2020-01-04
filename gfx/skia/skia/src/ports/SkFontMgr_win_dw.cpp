@@ -193,6 +193,7 @@ if
 nullptr
 =
 =
+*
 streamFontFileLoader
 )
 {
@@ -488,6 +489,7 @@ if
 nullptr
 =
 =
+*
 streamFontFileEnumerator
 )
 {
@@ -887,6 +889,7 @@ if
 nullptr
 =
 =
+*
 streamFontCollectionLoader
 )
 {

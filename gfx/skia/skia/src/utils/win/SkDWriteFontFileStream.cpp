@@ -644,6 +644,7 @@ if
 nullptr
 =
 =
+*
 streamFontFileStream
 )
 {
