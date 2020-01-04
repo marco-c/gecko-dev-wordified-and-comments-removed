@@ -103,6 +103,17 @@ JSObject
 aObj
 )
 ;
+bool
+ServiceWorkerNotificationAPIVisible
+(
+JSContext
+*
+aCx
+JSObject
+*
+aObj
+)
+;
 class
 ServiceWorkerRegistration
 final
