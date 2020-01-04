@@ -227,6 +227,11 @@ PackagedAppService
 h
 '
 '
+PackagedAppVerifier
+.
+h
+'
+'
 PHttpChannelParams
 .
 h
@@ -441,6 +446,11 @@ cpp
 '
 '
 PackagedAppService
+.
+cpp
+'
+'
+PackagedAppVerifier
 .
 cpp
 '

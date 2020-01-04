@@ -418,6 +418,11 @@ nsIPackagedAppService
 idl
 '
 '
+nsIPackagedAppVerifier
+.
+idl
+'
+'
 nsIParentChannel
 .
 idl
