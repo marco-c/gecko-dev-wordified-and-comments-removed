@@ -15,7 +15,7 @@ eWindowEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_XUL_CLOSE
+eWindowClose
 eWindowEventFirst
 +
 1

@@ -1440,7 +1440,7 @@ WidgetMouseEvent
 event
 (
 true
-NS_XUL_CLOSE
+eWindowClose
 nullptr
 WidgetMouseEvent
 :
@@ -3059,7 +3059,7 @@ WidgetMouseEvent
 event
 (
 true
-NS_XUL_CLOSE
+eWindowClose
 nullptr
 WidgetMouseEvent
 :

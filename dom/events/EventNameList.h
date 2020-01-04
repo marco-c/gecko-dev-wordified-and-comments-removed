@@ -1235,7 +1235,7 @@ eInputEventClass
 NON_IDL_EVENT
 (
 close
-NS_XUL_CLOSE
+eWindowClose
 EventNameType_XUL
 eBasicEventClass
 )
