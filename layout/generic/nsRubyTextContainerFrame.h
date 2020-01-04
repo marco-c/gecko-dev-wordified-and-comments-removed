@@ -11,10 +11,6 @@ nsBlockFrame
 .
 h
 "
-typedef
-nsContainerFrame
-nsRubyTextContainerFrameSuper
-;
 nsContainerFrame
 *
 NS_NewRubyTextContainerFrame
@@ -32,7 +28,7 @@ nsRubyTextContainerFrame
 final
 :
 public
-nsRubyTextContainerFrameSuper
+nsContainerFrame
 {
 public
 :
@@ -185,7 +181,7 @@ nsStyleContext
 aContext
 )
 :
-nsRubyTextContainerFrameSuper
+nsContainerFrame
 (
 aContext
 )

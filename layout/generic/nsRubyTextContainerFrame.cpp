@@ -157,7 +157,7 @@ false
 ;
 }
 return
-nsRubyTextContainerFrameSuper
+nsContainerFrame
 :
 :
 IsFrameOfType
@@ -179,7 +179,7 @@ nsFrameList
 aChildList
 )
 {
-nsRubyTextContainerFrameSuper
+nsContainerFrame
 :
 :
 SetInitialChildList
@@ -215,7 +215,7 @@ nsFrameList
 aFrameList
 )
 {
-nsRubyTextContainerFrameSuper
+nsContainerFrame
 :
 :
 AppendFrames
@@ -245,7 +245,7 @@ nsFrameList
 aFrameList
 )
 {
-nsRubyTextContainerFrameSuper
+nsContainerFrame
 :
 :
 InsertFrames
@@ -273,7 +273,7 @@ nsIFrame
 aOldFrame
 )
 {
-nsRubyTextContainerFrameSuper
+nsContainerFrame
 :
 :
 RemoveFrame
