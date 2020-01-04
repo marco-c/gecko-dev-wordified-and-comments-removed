@@ -248,11 +248,7 @@ HasInternalBuffer
 )
 const
 override
-{
-return
-true
 ;
-}
 virtual
 bool
 UpdateFromSurface

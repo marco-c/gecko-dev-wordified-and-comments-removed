@@ -460,6 +460,9 @@ size
 SurfaceFormat
 format
 ;
+bool
+hasInternalBuffer
+;
 }
 ;
 struct

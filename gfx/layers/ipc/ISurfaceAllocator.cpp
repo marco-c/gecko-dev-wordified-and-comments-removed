@@ -791,6 +791,12 @@ bufferDesc
 shmem
 ;
 }
+const
+bool
+hasIntermediateBuffer
+=
+true
+;
 *
 aBuffer
 =
@@ -800,6 +806,7 @@ RGBDescriptor
 (
 aSize
 format
+hasIntermediateBuffer
 )
 bufferDesc
 )
