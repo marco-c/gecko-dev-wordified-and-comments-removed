@@ -3471,9 +3471,7 @@ if
 DEBUG
 )
 {
-ThreadUtils
-.
-assertOnUiThread
+assertOnIcThread
 (
 )
 ;
