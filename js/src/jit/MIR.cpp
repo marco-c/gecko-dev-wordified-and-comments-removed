@@ -12553,6 +12553,15 @@ MIRType_Int32
 )
 return
 ;
+if
+(
+specialization_
+=
+=
+MIRType_None
+)
+return
+;
 MDefinition
 *
 left
