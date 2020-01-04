@@ -9666,7 +9666,7 @@ return
 FeatureStatus
 :
 :
-Crashed
+CrashedInHandler
 ;
 }
 if
@@ -9911,7 +9911,7 @@ return
 FeatureStatus
 :
 :
-Crashed
+CrashedInHandler
 ;
 }
 if
@@ -10329,7 +10329,7 @@ return
 FeatureStatus
 :
 :
-Crashed
+CrashedInHandler
 ;
 }
 if
@@ -10591,7 +10591,7 @@ return
 FeatureStatus
 :
 :
-Crashed
+CrashedInHandler
 ;
 }
 if
@@ -11073,7 +11073,7 @@ mD3D11Status
 FeatureStatus
 :
 :
-Crashed
+CrashedInHandler
 )
 {
 return
@@ -11182,7 +11182,7 @@ AttemptD3D11ImageBridgeDeviceCreation
 FeatureStatus
 :
 :
-Crashed
+CrashedInHandler
 )
 {
 DisableD3D11AfterCrash
@@ -11203,7 +11203,7 @@ AttemptD3D11ContentDeviceCreation
 FeatureStatus
 :
 :
-Crashed
+CrashedInHandler
 )
 {
 DisableD3D11AfterCrash
@@ -11233,7 +11233,7 @@ mD3D11Status
 FeatureStatus
 :
 :
-Crashed
+CrashedInHandler
 ;
 ResetD3D11Devices
 (

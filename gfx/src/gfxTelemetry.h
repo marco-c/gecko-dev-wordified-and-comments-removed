@@ -16,7 +16,7 @@ FeatureStatus
 {
 Unused
 Unavailable
-Crashed
+CrashedInHandler
 Blocked
 Blacklisted
 Failed
