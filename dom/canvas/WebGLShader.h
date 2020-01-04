@@ -189,6 +189,12 @@ CalcNumSamplerUniforms
 )
 const
 ;
+size_t
+NumAttributes
+(
+)
+const
+;
 void
 BindAttribLocation
 (

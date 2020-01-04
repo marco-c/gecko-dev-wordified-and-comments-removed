@@ -162,6 +162,12 @@ CalcNumSamplerUniforms
 )
 const
 ;
+size_t
+NumAttributes
+(
+)
+const
+;
 bool
 FindAttribUserNameByMappedName
 (
