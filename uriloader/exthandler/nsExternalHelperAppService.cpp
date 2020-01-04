@@ -2078,12 +2078,6 @@ webm
 if
 defined
 (
-MOZ_GSTREAMER
-)
-|
-|
-defined
-(
 MOZ_WMF
 )
 {
