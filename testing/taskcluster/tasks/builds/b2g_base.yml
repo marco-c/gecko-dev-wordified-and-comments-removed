@@ -66,6 +66,8 @@ public
 /
 build
 /
+target
+.
 test_packages
 .
 json

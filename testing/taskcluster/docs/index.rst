@@ -666,6 +666,8 @@ test_packages
 '
 public
 /
+target
+.
 test_packages
 .
 json
