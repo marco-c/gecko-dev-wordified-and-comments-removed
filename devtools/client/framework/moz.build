@@ -108,6 +108,13 @@ ini
 DevToolsModules
 (
 '
+attach
+-
+thread
+.
+js
+'
+'
 gDevTools
 .
 jsm
