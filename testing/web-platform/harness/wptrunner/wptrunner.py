@@ -188,11 +188,25 @@ ssl_env
 debug
 =
 None
+run_info_extras
+=
+None
 *
 *
 kwargs
 )
 :
+    
+if
+run_info_extras
+is
+None
+:
+        
+run_info_extras
+=
+{
+}
     
 run_info
 =
@@ -210,6 +224,10 @@ product
 debug
 =
 debug
+                                    
+extras
+=
+run_info_extras
 )
     
 test_manifests
@@ -683,6 +701,7 @@ executor_classes
 get_executor_kwargs
          
 env_options
+run_info_extras
 )
 =
 products
@@ -736,6 +755,15 @@ product
 debug
 =
 None
+                                            
+extras
+=
+run_info_extras
+(
+*
+*
+kwargs
+)
 )
             
 test_loader
@@ -756,8 +784,19 @@ test_loader
 get_loader
 (
 test_paths
+                                               
 product
+                                               
 ssl_env
+                                               
+run_info_extras
+=
+run_info_extras
+(
+*
+*
+kwargs
+)
                                                
 *
 *

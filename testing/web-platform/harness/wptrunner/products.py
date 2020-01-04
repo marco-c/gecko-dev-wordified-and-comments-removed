@@ -287,6 +287,36 @@ env_options
 (
 )
     
+run_info_extras
+=
+(
+getattr
+(
+module
+data
+[
+"
+run_info_extras
+"
+]
+)
+                       
+if
+"
+run_info_extras
+"
+in
+data
+else
+lambda
+*
+*
+kwargs
+:
+{
+}
+)
+    
 executor_classes
 =
 {
@@ -334,4 +364,5 @@ executor_classes
 executor_kwargs
             
 env_options
+run_info_extras
 )
