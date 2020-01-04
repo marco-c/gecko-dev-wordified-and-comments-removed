@@ -288,7 +288,7 @@ DocAccessibleParent
 h
 '
 '
-ProxyAccessibleBase
+ProxyAccessible
 .
 h
 '
@@ -308,7 +308,7 @@ DocAccessibleParent
 cpp
 '
 '
-ProxyAccessibleBase
+ProxyAccessible
 .
 cpp
 '
