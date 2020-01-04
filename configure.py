@@ -583,7 +583,7 @@ config
 .
 status
 '
-0755
+0o755
 )
     
 if

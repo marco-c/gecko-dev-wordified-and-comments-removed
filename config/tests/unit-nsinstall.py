@@ -1064,7 +1064,7 @@ testfile
             
 mode
 =
-0600
+0o600
             
 os
 .
