@@ -586,12 +586,6 @@ w
 =
 null
 ;
-var
-statePersistentAcrossSubtests
-=
-{
-}
-;
 function
 advanceSubtestExecution
 (
@@ -767,12 +761,6 @@ w
 SimpleTest
 =
 SimpleTest
-;
-w
-.
-statePersistentAcrossSubtests
-=
-statePersistentAcrossSubtests
 ;
 w
 .
