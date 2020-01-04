@@ -262,13 +262,6 @@ mobile
 /
 android
 '
-and
-CONFIG
-[
-'
-NIGHTLY_BUILD
-'
-]
 :
 DIRS
 +
