@@ -2330,6 +2330,11 @@ disabled
 preference
 .
 value
+|
+|
+preference
+.
+locked
 ;
 chooseFolder
 .
@@ -2339,6 +2344,11 @@ disabled
 preference
 .
 value
+|
+|
+preference
+.
+locked
 ;
 return
 undefined
