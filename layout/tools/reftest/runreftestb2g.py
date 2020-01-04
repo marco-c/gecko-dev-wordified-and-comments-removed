@@ -56,7 +56,7 @@ runreftestmulet
 import
 run_test_harness
 as
-run_mulet
+run_mulet_reftests
 from
 remotereftest
 import
@@ -3124,7 +3124,7 @@ options
 return
 retVal
 def
-run_remote
+run
 (
 *
 *
@@ -3172,6 +3172,15 @@ options
 def
 main
 (
+args
+=
+sys
+.
+argv
+[
+1
+:
+]
 )
 :
     
@@ -3189,6 +3198,7 @@ parser
 .
 parse_args
 (
+args
 )
     
 if
@@ -3198,7 +3208,7 @@ mulet
 :
         
 return
-run_mulet
+run_mulet_reftests
 (
 parser
 options
