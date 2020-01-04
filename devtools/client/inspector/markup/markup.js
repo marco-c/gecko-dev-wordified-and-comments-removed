@@ -1244,6 +1244,11 @@ type
 "
 arrow
 "
+useXulWrapper
+:
+"
+true
+"
 }
 )
 ;

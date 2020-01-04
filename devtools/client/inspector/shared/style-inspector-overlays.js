@@ -1185,6 +1185,9 @@ type
 "
 arrow
 "
+useXulWrapper
+:
+true
 }
 )
 ;
