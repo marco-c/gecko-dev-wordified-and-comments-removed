@@ -1298,7 +1298,7 @@ eDragEventClass
 NON_IDL_EVENT
 (
 draggesture
-NS_DRAGDROP_GESTURE
+eLegacyDragGesture
 EventNameType_XUL
 eDragEventClass
 )

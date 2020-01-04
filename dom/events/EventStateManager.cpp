@@ -2885,7 +2885,7 @@ break
 ;
 }
 case
-NS_DRAGDROP_GESTURE
+eLegacyDragGesture
 :
 if
 (
@@ -7010,7 +7010,7 @@ aEvent
 mFlags
 .
 mIsTrusted
-NS_DRAGDROP_GESTURE
+eLegacyDragGesture
 widget
 )
 ;

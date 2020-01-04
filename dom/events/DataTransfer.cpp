@@ -434,7 +434,7 @@ eDragStart
 aEventMessage
 =
 =
-NS_DRAGDROP_GESTURE
+eLegacyDragGesture
 )
 {
 mReadOnly
@@ -594,7 +594,7 @@ NS_ASSERTION
 aEventMessage
 !
 =
-NS_DRAGDROP_GESTURE
+eLegacyDragGesture
 &
 &
 aEventMessage

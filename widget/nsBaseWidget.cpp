@@ -12048,9 +12048,9 @@ eBlur
 ;
 _ASSIGN_eventName
 (
-NS_DRAGDROP_GESTURE
+eLegacyDragGesture
 "
-NS_DND_GESTURE
+eLegacyDragGesture
 "
 )
 ;

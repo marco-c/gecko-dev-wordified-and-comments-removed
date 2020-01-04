@@ -5873,7 +5873,7 @@ mEvent
 mMessage
 =
 =
-NS_DRAGDROP_GESTURE
+eLegacyDragGesture
 )
 )
 {
