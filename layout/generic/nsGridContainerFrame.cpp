@@ -15152,6 +15152,12 @@ childWM
 wm
 )
 ;
+LogicalSize
+percentBasis
+(
+childCBSize
+)
+;
 childCBSize
 .
 BSize
@@ -15178,6 +15184,8 @@ aState
 mReflowState
 child
 childCBSize
+&
+percentBasis
 )
 ;
 Maybe
@@ -15394,6 +15402,8 @@ aState
 mReflowState
 child
 childCBSize
+&
+percentBasis
 )
 ;
 if

@@ -6727,6 +6727,13 @@ const
 ;
 inline
 bool
+IsFlexOrGridContainer
+(
+)
+const
+;
+inline
+bool
 IsTableCaption
 (
 )
