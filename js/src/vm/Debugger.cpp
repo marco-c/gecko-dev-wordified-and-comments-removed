@@ -19633,9 +19633,15 @@ isUndefined
 )
 )
 {
+if
+(
+!
 matchAllDebuggeeGlobals
 (
 )
+)
+return
+false
 ;
 }
 else
