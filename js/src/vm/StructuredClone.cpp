@@ -3269,7 +3269,7 @@ datap
 =
 buf
 .
-extractRawBuffer
+extractOrCopyRawBuffer
 (
 )
 )

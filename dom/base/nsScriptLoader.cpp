@@ -7349,7 +7349,7 @@ mScriptTextBuf
 =
 aString
 .
-extractRawBuffer
+extractOrCopyRawBuffer
 (
 )
 ;

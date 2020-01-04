@@ -82,7 +82,7 @@ buf
 =
 cb
 .
-extractRawBuffer
+extractOrCopyRawBuffer
 (
 )
 ;

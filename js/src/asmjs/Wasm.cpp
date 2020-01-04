@@ -7163,7 +7163,7 @@ char
 )
 fieldBytes
 .
-extractRawBuffer
+extractOrCopyRawBuffer
 (
 )
 )

@@ -2446,7 +2446,7 @@ popCopy
 MOZ_WARN_UNUSED_RESULT
 T
 *
-extractRawBuffer
+extractOrCopyRawBuffer
 (
 )
 ;
@@ -5498,7 +5498,7 @@ AP
 >
 :
 :
-extractRawBuffer
+extractOrCopyRawBuffer
 (
 )
 {

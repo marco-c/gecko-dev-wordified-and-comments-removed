@@ -378,7 +378,7 @@ elems
 =
 mData
 .
-extractRawBuffer
+extractOrCopyRawBuffer
 (
 )
 ;
@@ -655,7 +655,7 @@ self
 >
 mData
 .
-extractRawBuffer
+extractOrCopyRawBuffer
 (
 )
 ;
