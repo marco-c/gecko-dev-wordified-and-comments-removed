@@ -281,7 +281,7 @@ index
 )
 const
 ;
-int32
+uint16
 getGlyphMetric
 (
 uint16

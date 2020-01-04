@@ -258,8 +258,6 @@ Segment
 seg
 uint8
 direction
-int
-maxSize
 )
 ;
 Slot
@@ -398,17 +396,6 @@ return
 m_dir
 ;
 }
-int
-decMax
-(
-)
-{
-return
--
--
-m_maxSize
-;
-}
 Segment
 &
 segment
@@ -435,9 +422,6 @@ m_precontext
 Slot
 *
 m_highwater
-;
-int
-m_maxSize
 ;
 uint8
 m_dir
@@ -982,8 +966,6 @@ Segment
 seg
 uint8
 direction
-int
-maxSize
 )
 :
 segment
@@ -1001,10 +983,6 @@ m_precontext
 m_highwater
 (
 0
-)
-m_maxSize
-(
-maxSize
 )
 m_dir
 (

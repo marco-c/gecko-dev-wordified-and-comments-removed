@@ -835,11 +835,10 @@ BITSET
 }
 {
 {
-do_
+do2
 (
 set_feat
 )
-NILOP
 }
 2
 "
