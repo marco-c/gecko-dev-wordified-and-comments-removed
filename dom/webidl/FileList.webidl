@@ -144,15 +144,8 @@ apply
 interface
 FileList
 {
-[
-Throws
-]
 getter
-(
 File
-or
-Directory
-)
 ?
 item
 (

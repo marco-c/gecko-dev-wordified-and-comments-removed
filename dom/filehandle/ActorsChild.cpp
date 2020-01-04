@@ -1337,6 +1337,10 @@ lastModified
 get_int64_t
 (
 )
+BlobDirState
+:
+:
+eUnknownIfDir
 )
 ;
 RefPtr
