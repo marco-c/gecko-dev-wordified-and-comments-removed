@@ -342,6 +342,13 @@ PVRManagerParent
 endpoint
 )
 ;
+async
+DeallocateLayerTreeId
+(
+uint64_t
+layersId
+)
+;
 }
 ;
 }
