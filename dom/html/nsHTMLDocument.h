@@ -206,8 +206,10 @@ aContext
 nsViewManager
 *
 aViewManager
-nsStyleSet
-*
+mozilla
+:
+:
+StyleSetHandle
 aStyleSet
 )
 override

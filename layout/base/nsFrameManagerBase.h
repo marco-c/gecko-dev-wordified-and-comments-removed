@@ -34,9 +34,6 @@ class
 nsIPresShell
 ;
 class
-nsStyleSet
-;
-class
 nsFrameManagerBase
 {
 public

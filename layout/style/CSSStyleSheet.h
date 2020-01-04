@@ -166,6 +166,9 @@ class
 nsMediaQueryResultCacheKey
 ;
 class
+nsStyleSet
+;
+class
 nsPresContext
 ;
 class

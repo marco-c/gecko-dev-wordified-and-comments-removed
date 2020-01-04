@@ -1199,8 +1199,7 @@ aContext
 nsViewManager
 *
 aViewManager
-nsStyleSet
-*
+StyleSetHandle
 aStyleSet
 )
 {

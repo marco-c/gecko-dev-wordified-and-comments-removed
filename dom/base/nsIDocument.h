@@ -354,9 +354,6 @@ class
 nsSMILAnimationController
 ;
 class
-nsStyleSet
-;
-class
 nsTextNode
 ;
 class
@@ -388,6 +385,9 @@ EventStates
 ;
 class
 PendingAnimationTracker
+;
+class
+StyleSetHandle
 ;
 class
 SVGAttrAnimationRuleProcessor
@@ -1405,8 +1405,10 @@ aContext
 nsViewManager
 *
 aViewManager
-nsStyleSet
-*
+mozilla
+:
+:
+StyleSetHandle
 aStyleSet
 )
 =

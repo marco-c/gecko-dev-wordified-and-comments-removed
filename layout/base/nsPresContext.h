@@ -670,8 +670,10 @@ mDocument
 #
 ifdef
 MOZILLA_INTERNAL_API
-nsStyleSet
-*
+mozilla
+:
+:
+StyleSetHandle
 StyleSet
 (
 )

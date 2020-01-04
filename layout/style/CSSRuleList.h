@@ -7,6 +7,15 @@ mozilla_dom_CSSRuleList_h
 #
 include
 "
+mozilla
+/
+CSSStyleSheet
+.
+h
+"
+#
+include
+"
 nsIDOMCSSRule
 .
 h
@@ -28,9 +37,6 @@ h
 namespace
 mozilla
 {
-class
-CSSStyleSheet
-;
 namespace
 dom
 {
