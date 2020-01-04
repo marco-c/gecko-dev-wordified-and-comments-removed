@@ -9912,22 +9912,6 @@ activate_virtualenv
 (
 )
         
-logging
-.
-getLogger
-(
-'
-taskcluster
-'
-)
-.
-setLevel
-(
-logging
-.
-DEBUG
-)
-        
 routes_file
 =
 os

@@ -7160,22 +7160,6 @@ activate_virtualenv
 (
 )
         
-logging
-.
-getLogger
-(
-'
-taskcluster
-'
-)
-.
-setLevel
-(
-logging
-.
-DEBUG
-)
-        
 branch
 =
 self
