@@ -46,6 +46,9 @@ arm64
 '
 mips32
 '
+'
+mips64
+'
 ]
 )
 all_shared_architecture_names
