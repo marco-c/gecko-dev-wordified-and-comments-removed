@@ -4719,10 +4719,6 @@ ScriptFrameIter
 iter
 (
 cx
-FrameIter
-:
-:
-GO_THROUGH_SAVED
 )
 ;
 MOZ_ASSERT
@@ -10414,10 +10410,6 @@ ScriptFrameIter
 iter
 (
 cx
-FrameIter
-:
-:
-GO_THROUGH_SAVED
 )
 ;
 MOZ_ASSERT
@@ -11803,10 +11795,6 @@ ScriptFrameIter
 iter
 (
 cx
-FrameIter
-:
-:
-GO_THROUGH_SAVED
 )
 ;
 bool

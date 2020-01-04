@@ -10164,10 +10164,6 @@ NonBuiltinScriptFrameIter
 iter
 (
 cx
-FrameIter
-:
-:
-GO_THROUGH_SAVED
 )
 ;
 !
@@ -10800,10 +10796,6 @@ ScriptFrameIter
 iter
 (
 cx
-FrameIter
-:
-:
-GO_THROUGH_SAVED
 )
 ;
 if
