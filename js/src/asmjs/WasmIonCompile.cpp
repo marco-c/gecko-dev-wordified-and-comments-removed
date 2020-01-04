@@ -6865,6 +6865,19 @@ uncheckedReadU32
 )
 ;
 }
+uint32_t
+readVarU32
+(
+)
+{
+return
+decoder_
+.
+uncheckedReadVarU32
+(
+)
+;
+}
 int32_t
 readI32
 (
@@ -7891,7 +7904,7 @@ slot
 =
 f
 .
-readU32
+readVarU32
 (
 )
 ;
@@ -7947,7 +7960,7 @@ globalDataOffset
 =
 f
 .
-readU32
+readVarU32
 (
 )
 ;
@@ -8520,7 +8533,7 @@ slot
 =
 f
 .
-readU32
+readVarU32
 (
 )
 ;
@@ -8579,7 +8592,7 @@ globalDataOffset
 =
 f
 .
-readU32
+readVarU32
 (
 )
 ;

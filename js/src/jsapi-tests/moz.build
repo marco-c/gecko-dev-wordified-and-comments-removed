@@ -504,6 +504,11 @@ testUTF8
 cpp
 '
 '
+testWasmLEB128
+.
+cpp
+'
+'
 testWeakMap
 .
 cpp
