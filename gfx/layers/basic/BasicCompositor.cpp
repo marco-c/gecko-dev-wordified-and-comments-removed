@@ -1533,6 +1533,9 @@ mozilla
 supports_ssse3
 (
 )
+&
+&
+false
 )
 return
 false
