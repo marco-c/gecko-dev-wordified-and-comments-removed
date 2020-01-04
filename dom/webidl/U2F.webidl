@@ -396,6 +396,17 @@ SignResponse
 response
 )
 ;
+[
+Pref
+=
+"
+security
+.
+webauth
+.
+u2f
+"
+]
 interface
 U2F
 {
