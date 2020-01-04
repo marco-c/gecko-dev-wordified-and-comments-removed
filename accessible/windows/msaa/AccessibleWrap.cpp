@@ -5996,10 +5996,13 @@ void
 *
 >
 (
+intptr_t
+(
 -
 aVarChild
 .
 lVal
+)
 )
 ;
 DocAccessible
