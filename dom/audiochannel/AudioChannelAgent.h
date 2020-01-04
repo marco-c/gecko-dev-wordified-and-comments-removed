@@ -100,6 +100,8 @@ WindowAudioCaptureChanged
 (
 uint64_t
 aInnerWindowID
+bool
+aCapture
 )
 ;
 nsPIDOMWindow
@@ -115,6 +117,12 @@ mWindow
 }
 uint64_t
 WindowID
+(
+)
+const
+;
+uint64_t
+InnerWindowID
 (
 )
 const

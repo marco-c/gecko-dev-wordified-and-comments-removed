@@ -286,13 +286,15 @@ aWindow
 )
 ;
 void
-RefreshAgentsCapture
+SetWindowAudioCaptured
 (
 nsPIDOMWindow
 *
 aWindow
 uint64_t
 aInnerWindowID
+bool
+aCapture
 )
 ;
 #
@@ -507,6 +509,10 @@ mWindowID
 (
 aWindowID
 )
+mIsAudioCaptured
+(
+false
+)
 {
 mChannels
 [
@@ -526,6 +532,9 @@ false
 }
 uint64_t
 mWindowID
+;
+bool
+mIsAudioCaptured
 ;
 AudioChannelConfig
 mChannels
