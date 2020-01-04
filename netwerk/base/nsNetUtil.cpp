@@ -51,9 +51,9 @@ h
 #
 include
 "
-nsNetUtil
+nsNetUtilInlines
 .
-inl
+h
 "
 #
 include

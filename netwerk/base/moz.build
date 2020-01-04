@@ -826,9 +826,9 @@ nsNetUtil
 h
 '
 '
-nsNetUtil
+nsNetUtilInlines
 .
-inl
+h
 '
 '
 nsReadLine
