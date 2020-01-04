@@ -5120,6 +5120,10 @@ ignore
 =
 (
 )
+                 
+find_dotfiles
+=
+False
 *
 *
 kargs
@@ -5251,6 +5255,12 @@ base
 *
 kargs
 )
+        
+self
+.
+find_dotfiles
+=
+find_dotfiles
         
 self
 .
@@ -5536,6 +5546,29 @@ startswith
 )
 :
                 
+if
+p
+in
+(
+'
+.
+'
+'
+.
+.
+'
+)
+:
+                    
+continue
+                
+if
+not
+self
+.
+find_dotfiles
+:
+                    
 continue
             
 for
