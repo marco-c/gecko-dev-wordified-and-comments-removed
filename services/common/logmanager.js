@@ -1063,16 +1063,6 @@ getLogger
 logName
 )
 ;
-log
-.
-level
-=
-Log
-.
-Level
-.
-All
-;
 for
 (
 let
