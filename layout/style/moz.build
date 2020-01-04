@@ -545,6 +545,11 @@ StyleAnimationValue
 .
 h
 '
+'
+StyleBackendType
+.
+h
+'
 ]
 EXPORTS
 .
