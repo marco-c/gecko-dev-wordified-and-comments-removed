@@ -41224,6 +41224,17 @@ aReferrerURI
 )
 ;
 }
+httpChannelInternal
+-
+>
+SetRedirectMode
+(
+nsIHttpChannelInternal
+:
+:
+REDIRECT_MODE_MANUAL
+)
+;
 }
 nsCOMPtr
 <
