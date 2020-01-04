@@ -681,8 +681,7 @@ respondsToSelector
 :
 selector
 (
-get_alternateActionIndex
-:
+_alternateActionIndex
 )
 ]
 )
