@@ -311,6 +311,15 @@ COMPILE_ENVIRONMENT
 1
 '
 )
+add_old_configure_assignment
+(
+'
+COMPILE_ENVIRONMENT
+'
+'
+1
+'
+)
 return
 bool
 (
