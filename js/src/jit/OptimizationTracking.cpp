@@ -6084,6 +6084,15 @@ nullptr
 ;
 }
 else
+if
+(
+site
+-
+>
+hasOptimizations
+(
+)
+)
 {
 site
 -
