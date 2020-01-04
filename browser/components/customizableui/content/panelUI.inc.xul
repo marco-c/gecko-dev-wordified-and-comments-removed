@@ -260,6 +260,15 @@ fxaSignInError
 label
 ;
 "
+unverifiedlabel
+=
+"
+&
+fxaUnverified
+.
+label
+;
+"
 onclick
 =
 "
