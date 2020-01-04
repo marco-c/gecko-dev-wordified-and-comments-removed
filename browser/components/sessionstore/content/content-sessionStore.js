@@ -845,6 +845,12 @@ collect
 (
 )
 ;
+MessageQueue
+.
+send
+(
+)
+;
 }
 addEventListener
 (
@@ -2459,6 +2465,14 @@ value
 ;
 }
 }
+this
+.
+_data
+.
+clear
+(
+)
+;
 durationMs
 =
 Date
