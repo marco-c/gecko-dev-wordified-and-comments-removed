@@ -1181,6 +1181,7 @@ asyncOpen
 (
 uri
 origin
+windowId
 listener
 context
 )

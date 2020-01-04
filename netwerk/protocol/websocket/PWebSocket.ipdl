@@ -185,6 +185,8 @@ URIParams
 aURI
 nsCString
 aOrigin
+uint64_t
+aInnerWindowID
 nsCString
 aProtocol
 bool

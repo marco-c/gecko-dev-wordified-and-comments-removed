@@ -251,6 +251,10 @@ nsCString
 &
 aOrigin
 const
+uint64_t
+&
+aInnerWindowID
+const
 nsCString
 &
 aProtocol
@@ -602,6 +606,7 @@ AsyncOpen
 (
 uri
 aOrigin
+aInnerWindowID
 this
 nullptr
 )

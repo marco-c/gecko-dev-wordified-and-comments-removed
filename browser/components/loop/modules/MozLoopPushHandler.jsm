@@ -377,6 +377,7 @@ asyncOpen
 (
 uri
 pushUri
+0
 this
 null
 )
