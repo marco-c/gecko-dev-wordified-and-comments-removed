@@ -3079,8 +3079,10 @@ rv
 ;
 channel
 =
-new
 nsSecCheckWrapChannel
+:
+:
+MaybeWrap
 (
 channel
 aLoadInfo
@@ -3135,8 +3137,10 @@ rv
 ;
 channel
 =
-new
 nsSecCheckWrapChannel
+:
+:
+MaybeWrap
 (
 channel
 aLoadInfo
