@@ -477,6 +477,7 @@ Nursery
 (
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (
@@ -721,6 +722,7 @@ pretenureGroups
 )
 ;
 MOZ_ALWAYS_INLINE
+MOZ_MUST_USE
 bool
 getForwardedPointer
 (
@@ -800,6 +802,7 @@ waitBackgroundFreeEnd
 (
 )
 ;
+MOZ_MUST_USE
 bool
 addedUniqueIdToCell
 (

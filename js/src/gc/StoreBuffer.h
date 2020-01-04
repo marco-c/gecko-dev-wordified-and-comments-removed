@@ -213,6 +213,7 @@ finish
 )
 ;
 }
+MOZ_MUST_USE
 bool
 init
 (
@@ -522,6 +523,7 @@ storage_
 )
 ;
 }
+MOZ_MUST_USE
 bool
 init
 (
@@ -2233,7 +2235,7 @@ return
 enabled_
 ;
 }
-bool
+void
 clear
 (
 )

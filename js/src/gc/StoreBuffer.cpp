@@ -279,7 +279,7 @@ enabled_
 false
 ;
 }
-bool
+void
 StoreBuffer
 :
 :
@@ -293,7 +293,6 @@ if
 enabled_
 )
 return
-true
 ;
 aboutToOverflow_
 =
@@ -332,9 +331,6 @@ bufferGeneric
 clear
 (
 )
-;
-return
-true
 ;
 }
 void

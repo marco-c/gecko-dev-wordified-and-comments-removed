@@ -57,7 +57,7 @@ size_t
 size
 )
 ;
-bool
+void
 MarkPagesInUse
 (
 void

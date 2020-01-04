@@ -4356,6 +4356,7 @@ size_t
 thingsPerArena
 )
 ;
+MOZ_MUST_USE
 bool
 decommitOneFreeArena
 (

@@ -26,6 +26,7 @@ gc
 ifdef
 JS_GC_TRACE
 extern
+MOZ_MUST_USE
 bool
 InitTrace
 (
@@ -137,6 +138,7 @@ group
 #
 else
 inline
+MOZ_MUST_USE
 bool
 InitTrace
 (
