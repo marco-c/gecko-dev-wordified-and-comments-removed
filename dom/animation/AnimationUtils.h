@@ -200,6 +200,12 @@ JSContext
 aCx
 )
 ;
+static
+bool
+IsOffscreenThrottlingEnabled
+(
+)
+;
 }
 ;
 }
