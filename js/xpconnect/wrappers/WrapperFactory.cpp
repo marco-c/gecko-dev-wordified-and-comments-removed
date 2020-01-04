@@ -1264,8 +1264,10 @@ Get
 obj
 )
 ;
+RefPtr
+<
 XPCNativeSet
-*
+>
 unionSet
 =
 XPCNativeSet
@@ -1303,6 +1305,10 @@ newwn
 SetSet
 (
 unionSet
+.
+forget
+(
+)
 )
 ;
 retObj
