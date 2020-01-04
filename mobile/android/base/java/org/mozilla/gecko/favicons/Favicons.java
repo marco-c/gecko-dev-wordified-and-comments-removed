@@ -1168,7 +1168,6 @@ listener
 )
 ;
 }
-public
 static
 Bitmap
 getSizedFaviconFromCache
