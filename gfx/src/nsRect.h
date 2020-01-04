@@ -721,12 +721,6 @@ aRect2
 )
 ;
 }
-bool
-Overflows
-(
-)
-const
-;
 MOZ_MUST_USE
 inline
 nsRect
