@@ -72,7 +72,7 @@ ProcessType
 elif
 defined
 (
-XP_MACOSX
+XP_UNIX
 )
 typedef
 pid_t
