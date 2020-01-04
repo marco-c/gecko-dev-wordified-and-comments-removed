@@ -2363,6 +2363,13 @@ int
 mReason
 ;
 }
+if
+(
+AutoPrefix
+(
+)
+)
+{
 mMessage
 <
 <
@@ -2371,6 +2378,7 @@ mMessage
 :
 "
 ;
+}
 }
 }
 void
