@@ -1026,3 +1026,6 @@ DumpFrameTree
 (
 )
 end
+source
+.
+gdbinit_python
