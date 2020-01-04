@@ -215,6 +215,12 @@ mMappingTable
 MAX_AUDIO_CHANNELS
 ]
 ;
+Atomic
+<
+bool
+>
+mIsFlushing
+;
 }
 ;
 }
