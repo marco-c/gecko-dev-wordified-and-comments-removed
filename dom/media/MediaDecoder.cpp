@@ -6089,6 +6089,13 @@ CanPlayThrough
 (
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 NS_ENSURE_TRUE
 (
 mDecoderStateMachine
