@@ -20,17 +20,6 @@ chrome
 /
 common
 /
-ipc_sync_channel
-.
-h
-"
-#
-include
-"
-chrome
-/
-common
-/
 message_router
 .
 h
