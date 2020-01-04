@@ -230,11 +230,8 @@ loader
 "
 :
 Loader
-"
 PromiseDebugging
-"
-:
-PromiseDebugging
+ThreadSafeChromeUtils
 }
 ;
 XPCOMUtils

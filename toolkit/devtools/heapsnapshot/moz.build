@@ -254,4 +254,9 @@ HeapAnalysesWorker
 .
 js
 '
+'
+HeapSnapshotFileUtils
+.
+js
+'
 ]
