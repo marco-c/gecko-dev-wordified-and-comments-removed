@@ -73,6 +73,13 @@ h
 #
 include
 "
+VideoFrameContainer
+.
+h
+"
+#
+include
+"
 nsError
 .
 h
