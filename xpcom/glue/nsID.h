@@ -259,6 +259,7 @@ _name
 )
 \
 static
+const
 nsCID
 k
 #
