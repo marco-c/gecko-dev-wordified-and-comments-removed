@@ -20356,15 +20356,15 @@ break
 function
 WebConsoleConnectionProxy
 (
-webConsole
+webConsoleFrame
 target
 )
 {
 this
 .
-owner
+webConsoleFrame
 =
-webConsole
+webConsoleFrame
 ;
 this
 .
@@ -20547,7 +20547,7 @@ WebConsoleConnectionProxy
 prototype
 =
 {
-owner
+webConsoleFrame
 :
 null
 target
@@ -20881,7 +20881,7 @@ form
 ;
 this
 .
-owner
+webConsoleFrame
 .
 onLocationChange
 (
@@ -21101,7 +21101,7 @@ _onCachedMessages
 ;
 this
 .
-owner
+webConsoleFrame
 .
 _onUpdateListeners
 (
@@ -21226,7 +21226,7 @@ timeStamp
 ;
 this
 .
-owner
+webConsoleFrame
 .
 displayCachedMessages
 (
@@ -21243,7 +21243,7 @@ _hasNativeConsoleAPI
 {
 this
 .
-owner
+webConsoleFrame
 .
 logWarningAboutReplacedAPI
 (
@@ -21279,7 +21279,7 @@ if
 (
 this
 .
-owner
+webConsoleFrame
 &
 &
 packet
@@ -21294,7 +21294,7 @@ _consoleActor
 {
 this
 .
-owner
+webConsoleFrame
 .
 handlePageError
 (
@@ -21318,7 +21318,7 @@ if
 (
 this
 .
-owner
+webConsoleFrame
 &
 &
 packet
@@ -21333,7 +21333,7 @@ _consoleActor
 {
 this
 .
-owner
+webConsoleFrame
 .
 handleLogMessage
 (
@@ -21355,7 +21355,7 @@ if
 (
 this
 .
-owner
+webConsoleFrame
 &
 &
 packet
@@ -21370,7 +21370,7 @@ _consoleActor
 {
 this
 .
-owner
+webConsoleFrame
 .
 handleConsoleAPICall
 (
@@ -21393,12 +21393,12 @@ if
 (
 this
 .
-owner
+webConsoleFrame
 )
 {
 this
 .
-owner
+webConsoleFrame
 .
 handleNetworkEvent
 (
@@ -21422,12 +21422,12 @@ if
 (
 this
 .
-owner
+webConsoleFrame
 )
 {
 this
 .
-owner
+webConsoleFrame
 .
 handleNetworkEventUpdate
 (
@@ -21450,7 +21450,7 @@ if
 (
 this
 .
-owner
+webConsoleFrame
 &
 &
 packet
@@ -21465,7 +21465,7 @@ _consoleActor
 {
 this
 .
-owner
+webConsoleFrame
 .
 handleFileActivity
 (
@@ -21489,7 +21489,7 @@ if
 (
 this
 .
-owner
+webConsoleFrame
 &
 &
 packet
@@ -21504,7 +21504,7 @@ _consoleActor
 {
 this
 .
-owner
+webConsoleFrame
 .
 handleReflowActivity
 (
@@ -21526,7 +21526,7 @@ if
 (
 this
 .
-owner
+webConsoleFrame
 &
 &
 packet
@@ -21541,7 +21541,7 @@ _consoleActor
 {
 this
 .
-owner
+webConsoleFrame
 .
 handleConsoleAPICall
 (
@@ -21565,7 +21565,7 @@ if
 (
 this
 .
-owner
+webConsoleFrame
 &
 &
 packet
@@ -21580,7 +21580,7 @@ _consoleActor
 {
 this
 .
-owner
+webConsoleFrame
 .
 jsterm
 .
@@ -21604,7 +21604,7 @@ if
 !
 this
 .
-owner
+webConsoleFrame
 )
 {
 return
@@ -21612,7 +21612,7 @@ return
 }
 this
 .
-owner
+webConsoleFrame
 .
 handleTabNavigated
 (
@@ -21886,7 +21886,7 @@ false
 ;
 this
 .
-owner
+webConsoleFrame
 =
 null
 ;
