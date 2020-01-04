@@ -175,15 +175,6 @@ MixedTest1A
 (
 )
 {
-dump
-(
-"
-XYZ
-\
-n
-"
-)
-;
 BrowserTestUtils
 .
 browserLoaded
