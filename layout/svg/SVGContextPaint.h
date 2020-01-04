@@ -568,6 +568,7 @@ mColor
 }
 mPaintDefinition
 ;
+MOZ_INIT_OUTSIDE_CTOR
 nsIFrame
 *
 mFrame
