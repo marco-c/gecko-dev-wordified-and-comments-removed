@@ -4758,6 +4758,7 @@ width
 ;
 }
 }
+toolbar
 .
 toolbarbutton
 -
@@ -4767,6 +4768,7 @@ toolbarbutton
 toolbarbutton
 -
 icon
+toolbar
 .
 toolbarbutton
 -
@@ -4808,6 +4810,7 @@ margin
 1px
 ;
 }
+toolbar
 .
 toolbarbutton
 -
@@ -4825,6 +4828,7 @@ primaryToolbarButtons
 toolbarbutton
 -
 icon
+toolbar
 .
 toolbarbutton
 -
