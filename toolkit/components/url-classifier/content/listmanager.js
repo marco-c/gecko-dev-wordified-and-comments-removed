@@ -190,7 +190,14 @@ msg
 ;
 dump
 (
+Services
+.
+urlFormatter
+.
+trimSensitiveURLs
+(
 msg
+)
 +
 "
 \
