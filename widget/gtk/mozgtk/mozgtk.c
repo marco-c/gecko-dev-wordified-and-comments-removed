@@ -2040,10 +2040,6 @@ gdk_device_manager_get_client_pointer
 )
 STUB
 (
-gdk_device_manager_list_devices
-)
-STUB
-(
 gdk_disable_multidevice
 )
 STUB

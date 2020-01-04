@@ -1472,10 +1472,15 @@ override
 ;
 virtual
 void
-RegisterTouchWindow
+ConfigureAPZCTreeManager
 (
 )
 override
+;
+void
+RegisterTouchWindow
+(
+)
 ;
 virtual
 nsresult

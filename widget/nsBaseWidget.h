@@ -2244,13 +2244,6 @@ WindowUsesOMTC
 )
 {
 }
-virtual
-void
-RegisterTouchWindow
-(
-)
-{
-}
 nsIDocument
 *
 GetDocument
