@@ -11582,7 +11582,7 @@ nsINode
 >
 arrayOfNodes
 ;
-nsTrivialFunctor
+TrivialFunctor
 functor
 ;
 nsDOMSubtreeIterator
@@ -27252,7 +27252,7 @@ iter
 .
 AppendList
 (
-nsTrivialFunctor
+TrivialFunctor
 (
 )
 aOutArrayOfNodes

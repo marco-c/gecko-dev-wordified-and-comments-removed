@@ -10179,7 +10179,7 @@ NS_ENSURE_SUCCESS
 rv
 )
 ;
-nsTrivialFunctor
+TrivialFunctor
 functor
 ;
 nsDOMSubtreeIterator

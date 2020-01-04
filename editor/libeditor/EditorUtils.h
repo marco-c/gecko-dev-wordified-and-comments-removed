@@ -625,8 +625,12 @@ aRange
 ;
 }
 ;
+namespace
+mozilla
+{
 class
-nsTrivialFunctor
+TrivialFunctor
+final
 :
 public
 nsBoolDomIterFunctor
@@ -651,9 +655,6 @@ true
 }
 }
 ;
-namespace
-mozilla
-{
 struct
 MOZ_STACK_CLASS
 EditorDOMPoint
