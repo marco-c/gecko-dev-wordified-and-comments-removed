@@ -69,7 +69,7 @@ if
 aRawPtr
 )
 {
-AddRefTraits
+ConstRemovingRefPtrTraits
 <
 T
 >
@@ -110,7 +110,7 @@ if
 oldPtr
 )
 {
-AddRefTraits
+ConstRemovingRefPtrTraits
 <
 T
 >
@@ -146,7 +146,7 @@ if
 mRawPtr
 )
 {
-AddRefTraits
+ConstRemovingRefPtrTraits
 <
 T
 >
@@ -192,7 +192,7 @@ if
 mRawPtr
 )
 {
-AddRefTraits
+ConstRemovingRefPtrTraits
 <
 T
 >
@@ -248,7 +248,7 @@ if
 mRawPtr
 )
 {
-AddRefTraits
+ConstRemovingRefPtrTraits
 <
 T
 >
@@ -345,7 +345,7 @@ if
 mRawPtr
 )
 {
-AddRefTraits
+ConstRemovingRefPtrTraits
 <
 T
 >
@@ -1239,7 +1239,7 @@ class
 U
 >
 struct
-AddRefTraits
+ConstRemovingRefPtrTraits
 {
 static
 void
@@ -1291,7 +1291,7 @@ class
 U
 >
 struct
-AddRefTraits
+ConstRemovingRefPtrTraits
 <
 const
 U
