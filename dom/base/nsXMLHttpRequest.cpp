@@ -11752,6 +11752,9 @@ GetLoadInfo
 ;
 static_cast
 <
+net
+:
+:
 LoadInfo
 *
 >
@@ -12135,6 +12138,9 @@ nsIStreamListener
 listener
 =
 new
+net
+:
+:
 nsStreamListenerWrapper
 (
 this
