@@ -2352,7 +2352,7 @@ excludeItems
 )
 {
 let
-node
+folderRoot
 =
 PlacesUtils
 .
@@ -2372,13 +2372,13 @@ try
 return
 gatherDataFunc
 (
-node
+folderRoot
 )
 ;
 }
 finally
 {
-node
+folderRoot
 .
 containerOpen
 =
