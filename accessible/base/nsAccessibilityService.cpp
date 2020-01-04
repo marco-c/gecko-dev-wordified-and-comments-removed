@@ -5641,7 +5641,7 @@ if
 aNode
 -
 >
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 )

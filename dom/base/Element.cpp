@@ -1213,7 +1213,7 @@ nsIDocument
 *
 doc
 =
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -1337,7 +1337,7 @@ nsIDocument
 *
 doc
 =
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -4835,7 +4835,7 @@ nsIDocument
 *
 doc
 =
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -5067,7 +5067,7 @@ MOZ_ASSERT
 doc
 =
 =
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 )

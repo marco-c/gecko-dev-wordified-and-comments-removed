@@ -5086,7 +5086,7 @@ aNode
 aNode
 -
 >
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 )

@@ -270,7 +270,7 @@ rv
 ;
 if
 (
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 )

@@ -335,7 +335,7 @@ NS_PRECONDITION
 aElement
 -
 >
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 =
@@ -847,7 +847,7 @@ if
 element
 -
 >
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 =
@@ -1227,7 +1227,7 @@ if
 element
 -
 >
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 !
@@ -1525,7 +1525,7 @@ if
 element
 -
 >
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 !
@@ -1638,7 +1638,7 @@ IsLeaf
 element
 -
 >
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 -
@@ -2017,7 +2017,7 @@ NS_PRECONDITION
 aElement
 -
 >
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 =
