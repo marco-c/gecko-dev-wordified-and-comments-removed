@@ -3218,9 +3218,16 @@ mScope
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-NS_DispatchToMainThread
+mWorkerPrivate
+-
+>
+DispatchToMainThread
 (
 runnable
+.
+forget
+(
+)
 )
 )
 ;
