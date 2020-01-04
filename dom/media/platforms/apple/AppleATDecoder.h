@@ -204,6 +204,17 @@ AudioConverter
 >
 mAudioConverter
 ;
+Atomic
+<
+bool
+>
+mIsFlushing
+;
+void
+ProcessFlush
+(
+)
+;
 void
 SubmitSample
 (
