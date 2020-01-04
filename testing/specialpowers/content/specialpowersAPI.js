@@ -10012,7 +10012,7 @@ loadExtension
 :
 function
 (
-ext
+url
 handler
 )
 {
@@ -10100,21 +10100,9 @@ resolve
 ;
 handler
 =
-Cu
-.
-waiveXrays
-(
 handler
-)
-;
-ext
-=
-Cu
 .
-waiveXrays
-(
-ext
-)
+wrappedJSObject
 ;
 let
 sp
@@ -10125,6 +10113,8 @@ let
 extension
 =
 {
+id
+url
 startup
 (
 )
@@ -10197,7 +10187,7 @@ _sendAsyncMessage
 SPLoadExtension
 "
 {
-ext
+url
 id
 }
 )
@@ -10242,7 +10232,6 @@ resolveStartup
 )
 ;
 }
-else
 if
 (
 msg
