@@ -1330,7 +1330,9 @@ layers
 .
 offmainthreadcomposition
 .
-enabled
+force
+-
+disabled
 "
 {
 what

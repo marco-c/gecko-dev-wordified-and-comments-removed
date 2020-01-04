@@ -20506,6 +20506,7 @@ remote
 let
 omtcEnabled
 =
+!
 gPrefService
 .
 getBoolPref
@@ -20515,7 +20516,9 @@ layers
 .
 offmainthreadcomposition
 .
-enabled
+force
+-
+disabled
 "
 )
 |
@@ -20545,13 +20548,15 @@ process
 tabs
 you
 must
-set
+unset
 the
 layers
 .
 offmainthreadcomposition
 .
-enabled
+force
+-
+disabled
 preference
 and
 restart
