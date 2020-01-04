@@ -3410,6 +3410,16 @@ dbValue
 ;
 }
 }
+public
+static
+final
+String
+READER_VIEW_SAVED_VALUE
+=
+"
+true
+"
+;
 }
 public
 static
