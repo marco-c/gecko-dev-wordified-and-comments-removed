@@ -1657,6 +1657,8 @@ JSProto_SavedFrame
 )
 |
 JSCLASS_IS_ANONYMOUS
+|
+JSCLASS_FOREGROUND_FINALIZE
 &
 SavedFrameClassOps
 &

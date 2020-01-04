@@ -138,7 +138,7 @@ class_
 "
 BarkWhenTracedClass
 "
-0
+JSCLASS_FOREGROUND_FINALIZE
 &
 BarkWhenTracedClassClassOps
 }

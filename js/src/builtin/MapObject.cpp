@@ -502,6 +502,8 @@ MapIteratorObject
 :
 SlotCount
 )
+|
+JSCLASS_FOREGROUND_FINALIZE
 &
 MapIteratorObjectClassOps
 }
@@ -1355,6 +1357,8 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Map
 )
+|
+JSCLASS_FOREGROUND_FINALIZE
 &
 MapObject
 :
@@ -4755,6 +4759,8 @@ SetIteratorObject
 :
 SlotCount
 )
+|
+JSCLASS_FOREGROUND_FINALIZE
 &
 SetIteratorObjectClassOps
 }
@@ -5551,6 +5557,8 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Set
 )
+|
+JSCLASS_FOREGROUND_FINALIZE
 &
 SetObject
 :

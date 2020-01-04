@@ -762,6 +762,8 @@ pm_class
 PerfMeasurement
 "
 JSCLASS_HAS_PRIVATE
+|
+JSCLASS_FOREGROUND_FINALIZE
 &
 pm_classOps
 }

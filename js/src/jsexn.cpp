@@ -348,6 +348,9 @@ ErrorObject
 :
 RESERVED_SLOTS
 )
+|
+\
+JSCLASS_FOREGROUND_FINALIZE
 \
 &
 ErrorObjectClassOps
