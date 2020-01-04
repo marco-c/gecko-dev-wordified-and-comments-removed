@@ -89,6 +89,7 @@ NOTPARALLEL
 annotation_processor_jar_files
 :
 =
+\
 (
 DEPTH
 )
@@ -100,7 +101,7 @@ annotationProcessors
 annotationProcessors
 .
 jar
-:
+\
 (
 ANDROID_TOOLS
 )
@@ -110,7 +111,7 @@ lib
 lint
 .
 jar
-:
+\
 (
 ANDROID_TOOLS
 )
@@ -122,6 +123,10 @@ lint
 checks
 .
 jar
+\
+(
+NULL
+)
 sdk_processor
 :
 =
@@ -150,7 +155,17 @@ ANDROID_TOOLS
 -
 classpath
 (
+subst
+(
+NULL
+)
+:
+(
+strip
+(
 annotation_processor_jar_files
+)
+)
 )
 \
 org
@@ -226,6 +241,9 @@ jar
 classes
 .
 txt
+(
+annotation_processor_jar_files
+)
 (
 sdk_processor
 )
