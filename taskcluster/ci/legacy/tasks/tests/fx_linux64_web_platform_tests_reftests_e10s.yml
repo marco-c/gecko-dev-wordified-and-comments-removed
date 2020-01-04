@@ -16,13 +16,6 @@ yml
 '
 task
 :
-workerType
-:
-desktop
--
-test
--
-xlarge
 payload
 :
 maxRunTime
@@ -247,3 +240,5 @@ e10s
 symbol
 :
 Wr
+-
+e10s
