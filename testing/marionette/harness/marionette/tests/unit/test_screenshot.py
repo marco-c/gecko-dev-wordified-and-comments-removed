@@ -7,6 +7,8 @@ imghdr
 import
 struct
 import
+time
+import
 urllib
 from
 unittest
@@ -666,6 +668,15 @@ switch_to_window
 "
 foo
 "
+)
+        
+time
+.
+sleep
+(
+0
+.
+002
 )
         
 ss
