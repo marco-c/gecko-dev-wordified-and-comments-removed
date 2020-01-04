@@ -1696,6 +1696,13 @@ int32_t
 aTimeout
 BlendMethod
 aBlendMethod
+const
+Maybe
+<
+nsIntRect
+>
+&
+aBlendRect
 )
 {
 MOZ_ASSERT
@@ -1758,6 +1765,7 @@ aFrameOpacity
 aDisposalMethod
 aTimeout
 aBlendMethod
+aBlendRect
 )
 ;
 mProgress

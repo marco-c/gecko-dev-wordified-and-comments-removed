@@ -3034,6 +3034,13 @@ int32_t
 aRawTimeout
 BlendMethod
 aBlendMethod
+const
+Maybe
+<
+IntRect
+>
+&
+aBlendRect
 )
 {
 MonitorAutoLock
@@ -3083,6 +3090,10 @@ aRawTimeout
 mBlendMethod
 =
 aBlendMethod
+;
+mBlendRect
+=
+aBlendRect
 ;
 ImageUpdatedInternal
 (
@@ -4094,6 +4105,7 @@ GetRect
 (
 )
 mBlendMethod
+mBlendRect
 mDisposalMethod
 hasAlpha
 )
