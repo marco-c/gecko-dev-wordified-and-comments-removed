@@ -336,6 +336,7 @@ CertifiedApps
 readonly
 attribute
 BluetoothPairingListener
+?
 pairingReqs
 ;
 /
