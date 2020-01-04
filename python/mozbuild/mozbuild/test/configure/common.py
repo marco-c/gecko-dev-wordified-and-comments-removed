@@ -13,6 +13,8 @@ os
 import
 subprocess
 import
+sys
+import
 tempfile
 import
 unittest
@@ -51,6 +53,36 @@ topobjdir
     
 topsrcdir
 )
+def
+ensure_exe_extension
+(
+path
+)
+:
+    
+if
+sys
+.
+platform
+.
+startswith
+(
+'
+win
+'
+)
+:
+        
+return
+path
++
+'
+.
+exe
+'
+    
+return
+path
 class
 ConfigureTestVFS
 (
@@ -724,8 +756,12 @@ _search_path
 )
 :
             
-candidate
+c
 =
+mozpath
+.
+abspath
+(
 mozpath
 .
 join
@@ -733,7 +769,20 @@ join
 parent
 command
 )
+)
             
+for
+candidate
+in
+(
+c
+ensure_exe_extension
+(
+c
+)
+)
+:
+                
 if
 self
 .
@@ -746,7 +795,7 @@ exists
 candidate
 )
 :
-                
+                    
 return
 candidate
         
