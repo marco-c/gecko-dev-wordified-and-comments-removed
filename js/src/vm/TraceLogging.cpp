@@ -2048,11 +2048,13 @@ script
 s
 :
 %
-u
+"
+PRIuSIZE
+"
 :
 %
-u
 "
+PRIuSIZE
 filename
 lineno
 colno
