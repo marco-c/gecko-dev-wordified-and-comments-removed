@@ -93,17 +93,6 @@ HOME
 workspace
 extra
 :
-treeherder
-:
-machine
-:
-platform
-:
-b2g
--
-device
--
-image
 locations
 :
 img
