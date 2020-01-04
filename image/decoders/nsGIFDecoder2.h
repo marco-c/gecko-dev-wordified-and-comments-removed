@@ -54,10 +54,7 @@ nsGIFDecoder2
 (
 )
 ;
-Maybe
-<
-TerminalState
->
+LexerResult
 DoDecode
 (
 SourceBufferIterator

@@ -1299,10 +1299,7 @@ mCurrentRow
 -
 ;
 }
-Maybe
-<
-TerminalState
->
+LexerResult
 nsBMPDecoder
 :
 :

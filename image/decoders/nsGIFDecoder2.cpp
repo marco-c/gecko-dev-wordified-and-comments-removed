@@ -1716,10 +1716,7 @@ from
 ;
 }
 }
-Maybe
-<
-TerminalState
->
+LexerResult
 nsGIFDecoder2
 :
 :

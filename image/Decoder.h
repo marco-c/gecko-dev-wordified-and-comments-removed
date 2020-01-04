@@ -724,10 +724,7 @@ InitInternal
 )
 ;
 virtual
-Maybe
-<
-TerminalState
->
+LexerResult
 DoDecode
 (
 SourceBufferIterator
