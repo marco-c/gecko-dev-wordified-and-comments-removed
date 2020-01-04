@@ -208,7 +208,11 @@ setBoolPref
 "
 image
 .
-high_quality_downscaling
+downscale
+-
+during
+-
+decode
 .
 enabled
 "
