@@ -2836,6 +2836,9 @@ mOriginAttributes
 uint32_t
 mJSRunToCompletionDepth
 ;
+uint32_t
+mTouchEventsOverride
+;
 nsresult
 DoFindItemWithName
 (

@@ -9591,8 +9591,10 @@ TouchEventsEnabled
 (
 JSContext
 *
+aCx
 JSObject
 *
+aGlobal
 )
 {
 return
@@ -9601,6 +9603,8 @@ TouchEvent
 :
 PrefEnabled
 (
+aCx
+aGlobal
 )
 ;
 }

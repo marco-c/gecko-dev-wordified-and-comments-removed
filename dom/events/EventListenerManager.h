@@ -1425,12 +1425,6 @@ aEventMessage
 )
 const
 ;
-nsIDocShell
-*
-GetDocShellForTarget
-(
-)
-;
 void
 ProcessApzAwareEventListenerAdd
 (
