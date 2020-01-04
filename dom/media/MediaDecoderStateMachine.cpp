@@ -846,7 +846,7 @@ mCurrentTimeBeforeSeek
 )
 mCorruptFrames
 (
-30
+60
 )
 mDecodingFirstFrame
 (
@@ -11600,7 +11600,7 @@ GetPresentedFrames
 (
 )
 >
-30
+60
 &
 &
 mCorruptFrames
@@ -11610,7 +11610,7 @@ mean
 )
 >
 =
-1
+2
 )
 {
 nsCOMPtr
