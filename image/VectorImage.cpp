@@ -3330,11 +3330,11 @@ RefPtr
 <
 SourceSurface
 >
-surface
+sourceSurface
 =
 result
 .
-DrawableRef
+Surface
 (
 )
 -
@@ -3345,7 +3345,7 @@ GetSurface
 ;
 if
 (
-surface
+sourceSurface
 )
 {
 RefPtr
@@ -3357,10 +3357,10 @@ svgDrawable
 new
 gfxSurfaceDrawable
 (
-surface
+sourceSurface
 result
 .
-DrawableRef
+Surface
 (
 )
 -

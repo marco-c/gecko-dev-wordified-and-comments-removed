@@ -1029,11 +1029,14 @@ aFrameNum
 return
 LookupResult
 (
+DrawableSurface
+(
 mCompositingFrame
 -
 >
 DrawableRef
 (
+)
 )
 MatchType
 :
@@ -1073,7 +1076,7 @@ result
 !
 result
 .
-DrawableRef
+Surface
 (
 )
 -
@@ -1342,7 +1345,7 @@ result
 ?
 result
 .
-DrawableRef
+Surface
 (
 )
 -
