@@ -3627,7 +3627,9 @@ Extension
 Capture
 "
 message
+{
 recipient
+}
 )
 ;
 }
@@ -3716,7 +3718,9 @@ DetectLanguage
 "
 {
 }
+{
 recipient
+}
 )
 ;
 }
@@ -4113,7 +4117,9 @@ Execute
 {
 options
 }
+{
 recipient
+}
 )
 ;
 }
