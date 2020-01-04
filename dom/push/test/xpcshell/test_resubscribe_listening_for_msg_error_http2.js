@@ -522,9 +522,6 @@ serverURL
 /
 subscribe
 "
-service
-:
-PushServiceHttp2
 db
 }
 )
