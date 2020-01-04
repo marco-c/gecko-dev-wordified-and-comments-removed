@@ -78,11 +78,8 @@ list
 Backgrounds
 and
 Borders
-Level
-3
-#
 include
-background3
+background
 /
 reftest
 .
