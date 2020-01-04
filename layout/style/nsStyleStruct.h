@@ -140,10 +140,13 @@ class
 nsIFrame
 ;
 class
-nsTextFrame
+nsIURI
 ;
 class
-nsIURI
+nsStyleContext
+;
+class
+nsTextFrame
 ;
 class
 imgIContainer
