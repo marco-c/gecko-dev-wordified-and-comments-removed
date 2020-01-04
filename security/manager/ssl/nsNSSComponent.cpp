@@ -8011,9 +8011,8 @@ if
 mNSSInitialized
 )
 {
-PR_ASSERT
+MOZ_ASSERT_UNREACHABLE
 (
-!
 "
 Trying
 to
