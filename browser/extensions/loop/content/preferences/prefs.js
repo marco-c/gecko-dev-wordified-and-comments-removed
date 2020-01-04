@@ -74,9 +74,9 @@ loop
 .
 gettingStarted
 .
-seen
+latestFTUVersion
 "
-false
+0
 )
 ;
 pref

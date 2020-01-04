@@ -903,11 +903,11 @@ case
 "
 gettingStarted
 .
-seen
+latestFTUVersion
 "
 :
 return
-true
+1
 ;
 }
 return

@@ -134,10 +134,10 @@ loop
 .
 gettingStarted
 .
-seen
+latestFTUVersion
 "
 :
-True
+0
     
 "
 media
