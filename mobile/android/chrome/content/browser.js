@@ -41628,6 +41628,14 @@ message
 Snackbars
 .
 LENGTH_INDEFINITE
+{
+backgroundColor
+:
+"
+#
+0096DD
+"
+}
 )
 ;
 }
