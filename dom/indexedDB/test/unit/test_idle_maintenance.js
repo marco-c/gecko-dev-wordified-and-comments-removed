@@ -55,7 +55,7 @@ null
 )
 ;
 let
-principal
+ssm
 =
 Cc
 [
@@ -76,10 +76,17 @@ Ci
 .
 nsIScriptSecurityManager
 )
+;
+let
+principal
+=
+ssm
 .
-getNoAppCodebasePrincipal
+createCodebasePrincipal
 (
 uri
+{
+}
 )
 ;
 info

@@ -73,9 +73,11 @@ Services
 .
 scriptSecurityManager
 .
-getNoAppCodebasePrincipal
+createCodebasePrincipal
 (
 TEST_URI_1
+{
+}
 )
 ;
 const
@@ -85,9 +87,11 @@ Services
 .
 scriptSecurityManager
 .
-getNoAppCodebasePrincipal
+createCodebasePrincipal
 (
 TEST_URI_2
+{
+}
 )
 ;
 const

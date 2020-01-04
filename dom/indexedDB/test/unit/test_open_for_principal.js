@@ -295,7 +295,7 @@ null
 )
 ;
 let
-principal
+ssm
 =
 Components
 .
@@ -320,10 +320,17 @@ interfaces
 .
 nsIScriptSecurityManager
 )
+;
+let
+principal
+=
+ssm
 .
-getNoAppCodebasePrincipal
+createCodebasePrincipal
 (
 uri
+{
+}
 )
 ;
 request

@@ -3156,9 +3156,11 @@ principal
 =
 sm
 .
-getNoAppCodebasePrincipal
+createCodebasePrincipal
 (
 URI
+{
+}
 )
 ;
 var
@@ -3622,9 +3624,11 @@ principal
 =
 sm
 .
-getNoAppCodebasePrincipal
+createCodebasePrincipal
 (
 URI
+{
+}
 )
 ;
 let
