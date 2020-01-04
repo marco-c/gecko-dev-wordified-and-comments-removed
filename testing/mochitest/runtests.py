@@ -15483,11 +15483,23 @@ timeout
             
 detectShutdownLeaks
 =
+False
+            
+if
+options
+.
+jscov_dir_prefix
+is
+None
+:
+                
+detectShutdownLeaks
+=
 mozinfo
 .
 info
 [
-                
+                    
 "
 debug
 "
@@ -15798,6 +15810,46 @@ stopServers
 (
 )
         
+ignoreMissingLeaks
+=
+options
+.
+ignoreMissingLeaks
+        
+leakThresholds
+=
+options
+.
+leakThresholds
+        
+if
+options
+.
+jscov_dir_prefix
+:
+            
+for
+processType
+in
+leakThresholds
+:
+                
+ignoreMissingLeaks
+.
+append
+(
+processType
+)
+                
+leakThresholds
+[
+processType
+]
+=
+sys
+.
+maxsize
+        
 mozleak
 .
 process_leak_log
@@ -15809,14 +15861,10 @@ leak_report_file
             
 leak_thresholds
 =
-options
-.
 leakThresholds
             
 ignore_missing_leaks
 =
-options
-.
 ignoreMissingLeaks
             
 log
