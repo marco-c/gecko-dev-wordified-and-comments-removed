@@ -753,6 +753,17 @@ bug1112501
 ref
 .
 html
+fuzzy
+-
+if
+(
+browserIsRemote
+&
+&
+winWidget
+102
+221
+)
 =
 =
 fieldset

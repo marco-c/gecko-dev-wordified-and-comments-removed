@@ -1224,6 +1224,17 @@ layersGPUAccelerated
 102
 98
 )
+fuzzy
+-
+if
+(
+browserIsRemote
+&
+&
+winWidget
+102
+107
+)
 =
 =
 select

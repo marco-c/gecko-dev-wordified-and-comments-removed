@@ -1478,6 +1478,16 @@ B2G
 |
 |
 Mulet
+|
+|
+(
+(
+browserIsRemote
+&
+&
+winWidget
+)
+)
 )
 fails
 -
