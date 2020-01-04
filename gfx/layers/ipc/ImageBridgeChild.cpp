@@ -2200,7 +2200,7 @@ WaitComplete
 }
 static
 void
-FlushAllImagesAsync
+FlushAllImagesAsyncInternal
 (
 ImageClient
 *
@@ -2321,7 +2321,7 @@ FROM_HERE
 NewRunnableFunction
 (
 &
-FlushAllImagesAsync
+FlushAllImagesAsyncInternal
 aClient
 )
 )
