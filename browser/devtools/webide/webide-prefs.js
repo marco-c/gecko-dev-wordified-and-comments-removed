@@ -620,6 +620,6 @@ webide
 .
 sidebars
 "
-false
+true
 )
 ;
