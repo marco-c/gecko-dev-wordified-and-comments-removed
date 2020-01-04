@@ -943,8 +943,8 @@ if
 (
 !
 addonId
-&
-&
+|
+|
 getAddonIdForWindow
 (
 window
