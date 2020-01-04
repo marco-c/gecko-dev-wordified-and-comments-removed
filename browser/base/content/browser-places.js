@@ -6419,6 +6419,11 @@ _recentlyBookmarkedObserver
 =
 null
 ;
+if
+(
+placesContextMenu
+)
+{
 placesContextMenu
 .
 removeEventListener
@@ -6429,6 +6434,7 @@ popupshowing
 onPlacesContextMenuShowing
 )
 ;
+}
 bookmarksMenu
 .
 removeEventListener
@@ -6467,6 +6473,11 @@ _recentlyBookmarkedObserver
 true
 )
 ;
+if
+(
+placesContextMenu
+)
+{
 placesContextMenu
 .
 addEventListener
@@ -6477,6 +6488,7 @@ popupshowing
 onPlacesContextMenuShowing
 )
 ;
+}
 bookmarksMenu
 .
 addEventListener
