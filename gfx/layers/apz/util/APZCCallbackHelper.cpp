@@ -3548,9 +3548,6 @@ flags
 .
 AppendElement
 (
-widget
-:
-:
 TouchActionHelper
 :
 :
