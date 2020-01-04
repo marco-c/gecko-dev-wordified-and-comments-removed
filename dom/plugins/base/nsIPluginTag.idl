@@ -342,6 +342,11 @@ attribute
 boolean
 clicktoplay
 ;
+readonly
+attribute
+boolean
+loaded
+;
 /
 /
 See
