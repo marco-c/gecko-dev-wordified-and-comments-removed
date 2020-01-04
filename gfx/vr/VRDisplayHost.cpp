@@ -346,7 +346,7 @@ AsTextureHost
 aTexture
 )
 ;
-AutoLockTextureHost
+AutoLockTextureHostWithoutCompositor
 autoLock
 (
 th
