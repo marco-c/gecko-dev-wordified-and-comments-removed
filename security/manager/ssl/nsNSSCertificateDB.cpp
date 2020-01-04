@@ -1803,12 +1803,8 @@ trustBits
 )
 )
 ;
-nsXPIDLCString
+UniquePORTString
 nickname
-;
-nickname
-.
-Adopt
 (
 CERT_MakeCANickname
 (
@@ -6437,12 +6433,8 @@ aTrust
 )
 ;
 }
-nsXPIDLCString
+UniquePORTString
 nickname
-;
-nickname
-.
-Adopt
 (
 CERT_MakeCANickname
 (
