@@ -2265,6 +2265,9 @@ TAR
 UNZIP
 '
 '
+USE_FC_FREETYPE
+'
+'
 WITHOUT_X
 '
 '
