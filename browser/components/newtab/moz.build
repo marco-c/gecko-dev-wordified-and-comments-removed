@@ -126,6 +126,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+NewTabPrefsProvider
+.
+jsm
+'
+'
 NewTabURL
 .
 jsm
