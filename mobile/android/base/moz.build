@@ -1767,13 +1767,6 @@ java
 '
 db
 /
-LoginsProvider
-.
-java
-'
-'
-db
-/
 PasswordsProvider
 .
 java
