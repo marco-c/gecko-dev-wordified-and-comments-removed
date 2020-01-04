@@ -134,6 +134,9 @@ mozIApplication
 namespace
 mozilla
 {
+class
+DocShellOriginAttributes
+;
 namespace
 dom
 {
@@ -917,6 +920,17 @@ MaybeUpdatePrimaryTabParent
 (
 TabParentChange
 aChange
+)
+;
+nsresult
+PopulateUserContextIdFromAttribute
+(
+mozilla
+:
+:
+DocShellOriginAttributes
+&
+aAttr
 )
 ;
 nsCOMPtr
