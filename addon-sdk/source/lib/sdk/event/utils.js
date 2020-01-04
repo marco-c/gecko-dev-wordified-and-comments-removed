@@ -1363,6 +1363,8 @@ object
 "
 )
 {
+try
+{
 this
 .
 _weakValue
@@ -1381,6 +1383,13 @@ undefined
 ;
 return
 ;
+}
+catch
+(
+e
+)
+{
+}
 }
 this
 .
