@@ -138,6 +138,13 @@ CONFIG
 WIN32_REDIST_DIR
 '
 ]
+and
+CONFIG
+[
+'
+COMPILE_ENVIRONMENT
+'
+]
 :
 for
 f
@@ -183,6 +190,13 @@ CONFIG
 [
 '
 WIN_UCRT_REDIST_DIR
+'
+]
+and
+CONFIG
+[
+'
+COMPILE_ENVIRONMENT
 '
 ]
 :
