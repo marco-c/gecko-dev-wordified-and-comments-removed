@@ -761,6 +761,9 @@ mIsPositionChangeEventPending
 bool
 mIsFlushingPendingNotifications
 ;
+bool
+mIsHandlingQueryContentEvent
+;
 class
 AChangeEvent
 :
