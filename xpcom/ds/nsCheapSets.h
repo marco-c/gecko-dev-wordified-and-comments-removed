@@ -140,7 +140,7 @@ mState
 ZERO
 ;
 }
-nsresult
+void
 Put
 (
 const
@@ -446,7 +446,7 @@ template
 typename
 EntryType
 >
-nsresult
+void
 nsCheapSet
 <
 EntryType
@@ -490,7 +490,6 @@ mState
 ONE
 ;
 return
-NS_OK
 ;
 case
 ONE
@@ -567,7 +566,6 @@ aVal
 )
 ;
 return
-NS_OK
 ;
 default
 :
@@ -580,7 +578,6 @@ state
 )
 ;
 return
-NS_OK
 ;
 }
 }
