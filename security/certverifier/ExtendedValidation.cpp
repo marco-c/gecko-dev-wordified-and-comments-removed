@@ -71,8 +71,10 @@ prinit
 h
 "
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gPIPNSSLog
 ;
 #

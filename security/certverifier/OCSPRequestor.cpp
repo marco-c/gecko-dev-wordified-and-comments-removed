@@ -64,8 +64,10 @@ secerr
 h
 "
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gCertVerifierLog
 ;
 namespace

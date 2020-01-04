@@ -62,8 +62,10 @@ nsPK11TokenDB
 h
 "
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 gPIPNSSLog
 ;
 NS_IMPL_ISUPPORTS
