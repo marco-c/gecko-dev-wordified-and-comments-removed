@@ -164,6 +164,12 @@ get
 )
 ;
 }
+uint64_t
+GetProcessToken
+(
+)
+const
+;
 bool
 IsConnected
 (
@@ -274,9 +280,8 @@ GPUChild
 >
 mGPUChild
 ;
-Listener
-*
-listener_
+uint64_t
+mProcessToken
 ;
 bool
 mShutdownRequested
