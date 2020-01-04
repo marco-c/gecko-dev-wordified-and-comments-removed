@@ -5939,6 +5939,11 @@ IsForBrowser
 )
 )
 ;
+if
+(
+browser
+)
+{
 RefPtr
 <
 TabParent
@@ -5964,6 +5969,7 @@ aFrameElement
 return
 constructedTabParent
 ;
+}
 }
 return
 nullptr
