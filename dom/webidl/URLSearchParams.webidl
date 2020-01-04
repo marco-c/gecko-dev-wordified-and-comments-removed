@@ -274,17 +274,12 @@ USVString
 value
 )
 ;
-/
-/
 iterable
 <
 USVString
 USVString
 >
 ;
--
-Bug
-1085284
 stringifier
 ;
 }
