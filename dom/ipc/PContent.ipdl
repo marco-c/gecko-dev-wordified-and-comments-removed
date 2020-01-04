@@ -184,6 +184,10 @@ PHal
 ;
 include
 protocol
+PHeapSnapshotTempFileHelper
+;
+include
+protocol
 PIcc
 ;
 include
@@ -1456,6 +1460,9 @@ PFMRadio
 ;
 manages
 PHal
+;
+manages
+PHeapSnapshotTempFileHelper
 ;
 manages
 PIcc
@@ -3283,6 +3290,11 @@ urgent
 )
 async
 PHal
+(
+)
+;
+async
+PHeapSnapshotTempFileHelper
 (
 )
 ;

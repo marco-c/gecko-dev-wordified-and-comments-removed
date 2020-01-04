@@ -232,6 +232,7 @@ loader
 Loader
 PromiseDebugging
 ThreadSafeChromeUtils
+HeapSnapshot
 }
 ;
 XPCOMUtils
