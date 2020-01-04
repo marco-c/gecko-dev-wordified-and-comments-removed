@@ -1800,13 +1800,6 @@ nsBidi
 {
 public
 :
-typedef
-mozilla
-:
-:
-FramePropertyDescriptor
-FramePropertyDescriptor
-;
 nsBidi
 (
 )

@@ -417,13 +417,6 @@ typedef
 mozilla
 :
 :
-FramePropertyDescriptor
-FramePropertyDescriptor
-;
-typedef
-mozilla
-:
-:
 FrameLayerBuilder
 FrameLayerBuilder
 ;

@@ -10818,6 +10818,8 @@ FrameProperties
 aProps
 const
 FramePropertyDescriptor
+<
+>
 *
 aProperty
 bool

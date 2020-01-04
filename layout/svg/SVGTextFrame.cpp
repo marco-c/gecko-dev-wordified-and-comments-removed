@@ -21571,6 +21571,8 @@ nsStyleSVG
 aFillOrStroke
 const
 FramePropertyDescriptor
+<
+>
 *
 aProperty
 )

@@ -24308,6 +24308,8 @@ T
 ;
 const
 FramePropertyDescriptor
+<
+>
 *
 prop
 =

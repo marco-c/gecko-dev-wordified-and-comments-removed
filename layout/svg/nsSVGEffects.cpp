@@ -1707,6 +1707,8 @@ nsIFrame
 aFrame
 const
 FramePropertyDescriptor
+<
+>
 *
 aProperty
 nsSVGRenderingObserver
@@ -1947,6 +1949,8 @@ nsIFrame
 aFrame
 const
 FramePropertyDescriptor
+<
+>
 *
 aProp
 )
@@ -2023,6 +2027,8 @@ nsIFrame
 aFrame
 const
 FramePropertyDescriptor
+<
+>
 *
 aProp
 )
@@ -2059,6 +2065,8 @@ nsIFrame
 aFrame
 const
 FramePropertyDescriptor
+<
+>
 *
 aProp
 )
@@ -2093,6 +2101,8 @@ nsIFrame
 aFrame
 const
 FramePropertyDescriptor
+<
+>
 *
 aProperty
 nsSVGRenderingObserver
@@ -2253,6 +2263,8 @@ nsIFrame
 aFrame
 const
 FramePropertyDescriptor
+<
+>
 *
 aProp
 )
@@ -2411,6 +2423,8 @@ nsStyleSVGPaint
 aPaint
 const
 FramePropertyDescriptor
+<
+>
 *
 aType
 )
