@@ -14756,9 +14756,6 @@ alloc
 MDefinition
 *
 obj
-MDefinition
-*
-undefinedVal
 )
 ;
 static
@@ -14772,6 +14769,17 @@ alloc
 MObjectState
 *
 state
+)
+;
+bool
+initFromTemplateObject
+(
+TempAllocator
+&
+alloc
+MDefinition
+*
+undefinedVal
 )
 ;
 MDefinition
