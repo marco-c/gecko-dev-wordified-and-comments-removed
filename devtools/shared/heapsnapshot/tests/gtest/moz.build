@@ -196,8 +196,6 @@ CXXFLAGS
 -
 Wno
 -
-error
-=
 inconsistent
 -
 missing
