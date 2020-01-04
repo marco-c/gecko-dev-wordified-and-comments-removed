@@ -354,6 +354,7 @@ StringBuilder
 ;
 try
 {
+final
 BufferedReader
 r
 =
@@ -376,6 +377,8 @@ resourceUri
 )
 )
 ;
+try
+{
 String
 line
 ;
@@ -400,6 +403,16 @@ fileContent
 append
 (
 line
+)
+;
+}
+}
+finally
+{
+r
+.
+close
+(
 )
 ;
 }
