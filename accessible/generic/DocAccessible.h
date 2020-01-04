@@ -1432,7 +1432,7 @@ aIPCDoc
 }
 friend
 class
-DocAccessibleChild
+DocAccessibleChildBase
 ;
 static
 void
