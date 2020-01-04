@@ -1681,15 +1681,6 @@ optimize
 -
 enable
 -
-more
--
-deterministic
-'
-'
--
--
-enable
--
 mozril
 -
 geoloc
