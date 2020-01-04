@@ -269,6 +269,9 @@ mBase
 nscoord
 mLimit
 ;
+nscoord
+mPosition
+;
 StateBits
 mState
 ;
