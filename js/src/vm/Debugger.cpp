@@ -1432,6 +1432,15 @@ object
 (
 dbg
 )
+debuggees
+(
+cx
+-
+>
+runtime
+(
+)
+)
 uncaughtExceptionHook
 (
 nullptr
@@ -1451,6 +1460,11 @@ false
 observedGCs
 (
 cx
+-
+>
+runtime
+(
+)
 )
 tenurePromotionsLog
 (
