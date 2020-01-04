@@ -590,7 +590,7 @@ eBasicEventClass
 EVENT
 (
 mozpointerlockchange
-NS_POINTERLOCKCHANGE
+ePointerLockChange
 EventNameType_HTML
 eBasicEventClass
 )

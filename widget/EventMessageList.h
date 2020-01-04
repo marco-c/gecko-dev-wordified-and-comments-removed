@@ -1463,7 +1463,7 @@ ePointerLockEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_POINTERLOCKCHANGE
+ePointerLockChange
 ePointerLockEventFirst
 )
 NS_EVENT_MESSAGE
