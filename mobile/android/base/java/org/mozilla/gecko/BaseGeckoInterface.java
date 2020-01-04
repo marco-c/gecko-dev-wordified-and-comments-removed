@@ -195,17 +195,6 @@ null
 }
 Override
 public
-SensorEventListener
-getSensorEventListener
-(
-)
-{
-return
-null
-;
-}
-Override
-public
 void
 doRestart
 (
