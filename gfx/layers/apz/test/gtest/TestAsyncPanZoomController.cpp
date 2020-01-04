@@ -2704,6 +2704,16 @@ SetAPZTouchStartTolerance
 0f
 )
 ;
+gfxPrefs
+:
+:
+SetAPZTouchMoveTolerance
+(
+0
+.
+0f
+)
+;
 const
 int
 OVERCOME_TOUCH_TOLERANCE
