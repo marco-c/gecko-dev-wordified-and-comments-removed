@@ -2641,6 +2641,15 @@ with
 -
 nspr
 -
+prefix
+'
+'
+-
+-
+with
+-
+nspr
+-
 cflags
 '
 '
