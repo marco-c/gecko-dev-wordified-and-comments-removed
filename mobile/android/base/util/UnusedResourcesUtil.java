@@ -243,11 +243,6 @@ R
 .
 drawable
 .
-suggestedsites_fxmarketplace
-R
-.
-drawable
-.
 suggestedsites_fxsupport
 R
 .
