@@ -2933,12 +2933,6 @@ mMediaStreamSizeListener
 ;
 RefPtr
 <
-VideoStreamTrack
->
-mSelectedVideoStreamTrack
-;
-RefPtr
-<
 MediaSource
 >
 mSrcMediaSource

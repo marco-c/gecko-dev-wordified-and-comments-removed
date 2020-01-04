@@ -41,9 +41,6 @@ class
 VideoTrack
 ;
 class
-VideoStreamTrack
-;
-class
 MediaTrackList
 :
 public
@@ -159,11 +156,6 @@ const
 nsAString
 &
 aLanguage
-VideoStreamTrack
-*
-aVideoTrack
-=
-nullptr
 )
 ;
 virtual
