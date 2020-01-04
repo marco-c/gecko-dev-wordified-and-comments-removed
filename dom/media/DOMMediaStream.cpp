@@ -149,6 +149,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+Promise
+.
+h
+"
+#
+include
+"
 MediaStreamGraph
 .
 h

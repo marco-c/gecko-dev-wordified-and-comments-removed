@@ -27,6 +27,17 @@ mozilla
 /
 dom
 /
+MediaDeviceInfo
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 MediaDevicesBinding
 .
 h

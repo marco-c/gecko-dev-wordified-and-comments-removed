@@ -45,6 +45,11 @@ ByteReader
 .
 h
 "
+#
+include
+<
+vector
+>
 namespace
 mozilla
 {
