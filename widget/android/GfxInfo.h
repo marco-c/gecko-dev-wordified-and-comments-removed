@@ -391,6 +391,9 @@ mOSVersion
 uint32_t
 mOSVersionInteger
 ;
+int32_t
+mSDKVersion
+;
 }
 ;
 }
