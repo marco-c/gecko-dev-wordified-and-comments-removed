@@ -54,6 +54,9 @@ class
 TrackInfo
 ;
 class
+VideoData
+;
+class
 OmxPlatformLayer
 {
 public
