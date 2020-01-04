@@ -416,8 +416,10 @@ onIonCompilation
 JSContext
 *
 cx
-AutoScriptVector
-&
+Handle
+<
+ScriptVector
+>
 scripts
 LSprinter
 &
