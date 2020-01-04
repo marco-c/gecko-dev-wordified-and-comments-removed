@@ -1160,7 +1160,6 @@ mInput
 new
 CameraPreviewMediaStream
 (
-this
 )
 ;
 mOwnedStream

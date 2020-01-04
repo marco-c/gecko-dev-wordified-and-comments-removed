@@ -140,16 +140,12 @@ AudioCaptureStream
 :
 AudioCaptureStream
 (
-DOMMediaStream
-*
-aWrapper
 TrackID
 aTrackId
 )
 :
 ProcessedMediaStream
 (
-aWrapper
 )
 mTrackId
 (

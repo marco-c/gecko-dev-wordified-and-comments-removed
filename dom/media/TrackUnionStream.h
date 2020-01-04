@@ -37,9 +37,6 @@ public
 explicit
 TrackUnionStream
 (
-DOMMediaStream
-*
-aWrapper
 )
 ;
 void

@@ -92,12 +92,8 @@ Image
 ;
 public
 :
-explicit
 CameraPreviewMediaStream
 (
-DOMMediaStream
-*
-aWrapper
 )
 ;
 virtual

@@ -80,7 +80,6 @@ aSampleRate
 :
 ProcessedMediaStream
 (
-nullptr
 )
 mEngine
 (

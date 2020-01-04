@@ -592,7 +592,6 @@ Normal
 >
 CreateSourceStream
 (
-nullptr
 )
 ;
 mIndirectAudio

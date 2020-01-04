@@ -49,9 +49,6 @@ public
 explicit
 AudioCaptureStream
 (
-DOMMediaStream
-*
-aWrapper
 TrackID
 aTrackId
 )

@@ -72,14 +72,10 @@ CameraPreviewMediaStream
 :
 CameraPreviewMediaStream
 (
-DOMMediaStream
-*
-aWrapper
 )
 :
 ProcessedMediaStream
 (
-aWrapper
 )
 mMutex
 (

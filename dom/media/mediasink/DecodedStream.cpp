@@ -607,7 +607,6 @@ Graph
 >
 CreateSourceStream
 (
-nullptr
 )
 )
 mListener
