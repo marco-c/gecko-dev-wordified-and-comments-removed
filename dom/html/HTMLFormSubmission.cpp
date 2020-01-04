@@ -247,7 +247,8 @@ mozilla
 namespace
 dom
 {
-static
+namespace
+{
 void
 SendJSWarning
 (
@@ -293,7 +294,6 @@ aWarningArgsLen
 )
 ;
 }
-static
 void
 RetrieveFileName
 (
@@ -707,7 +707,6 @@ filename
 )
 ;
 }
-static
 void
 HandleMailtoSubject
 (
@@ -1592,6 +1591,7 @@ NS_ERROR_OUT_OF_MEMORY
 return
 NS_OK
 ;
+}
 }
 nsFSMultipartFormData
 :
@@ -2537,6 +2537,8 @@ return
 rv
 ;
 }
+namespace
+{
 class
 nsFSTextPlain
 :
@@ -2952,6 +2954,7 @@ return
 rv
 ;
 }
+}
 nsEncodingFormSubmission
 :
 :
@@ -3141,7 +3144,8 @@ return
 NS_OK
 ;
 }
-static
+namespace
+{
 void
 GetSubmitCharset
 (
@@ -3324,7 +3328,6 @@ GetDocumentCharacterSet
 ;
 }
 }
-static
 void
 GetEnumAttr
 (
@@ -3381,6 +3384,7 @@ GetEnumValue
 (
 )
 ;
+}
 }
 }
 nsresult
