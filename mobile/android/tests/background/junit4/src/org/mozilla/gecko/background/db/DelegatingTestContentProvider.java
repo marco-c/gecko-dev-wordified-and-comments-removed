@@ -142,8 +142,6 @@ Uri
 uri
 )
 {
-try
-{
 return
 appendUriParam
 (
@@ -155,17 +153,6 @@ PARAM_IS_TEST
 1
 "
 )
-;
-}
-catch
-(
-Exception
-e
-)
-{
-}
-return
-null
 ;
 }
 Override
