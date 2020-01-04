@@ -7378,6 +7378,15 @@ SimdType
 type
 )
 ;
+const
+char
+*
+SimdTypeToString
+(
+SimdType
+type
+)
+;
 template
 <
 typename
