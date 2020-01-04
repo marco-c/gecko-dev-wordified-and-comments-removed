@@ -1735,6 +1735,7 @@ h
 fts
 .
 h
+functional
 gconf
 /
 gconf
@@ -2049,6 +2050,7 @@ iostream
 iostream
 .
 h
+istream
 iterator
 JavaControl
 .
