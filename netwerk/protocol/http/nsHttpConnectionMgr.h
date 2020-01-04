@@ -775,11 +775,6 @@ mUsingSpdy
 1
 ;
 bool
-mTestedSpdy
-:
-1
-;
-bool
 mInPreferredHash
 :
 1
@@ -1234,9 +1229,6 @@ RestrictConnections
 (
 nsConnectionEntry
 *
-bool
-=
-false
 )
 ;
 nsresult
