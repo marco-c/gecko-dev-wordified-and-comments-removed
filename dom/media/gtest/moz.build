@@ -187,6 +187,11 @@ TestVideoSegment
 cpp
 '
 '
+TestVideoUtils
+.
+cpp
+'
+'
 TestVPXDecoding
 .
 cpp
