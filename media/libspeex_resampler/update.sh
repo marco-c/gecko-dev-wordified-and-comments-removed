@@ -224,14 +224,3 @@ asm
 clobber
 .
 patch
-patch
--
-p3
-<
-handle
--
-memory
--
-error
-.
-patch
