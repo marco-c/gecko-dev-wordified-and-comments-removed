@@ -257,8 +257,10 @@ bool
 0
 ;
 virtual
+already_AddRefed
+<
 nsHttpConnection
-*
+>
 TakeHttpConnection
 (
 )
@@ -425,8 +427,10 @@ uint32_t
 override
 ;
 \
+already_AddRefed
+<
 nsHttpConnection
-*
+>
 TakeHttpConnection
 (
 )

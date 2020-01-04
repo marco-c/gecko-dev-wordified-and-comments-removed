@@ -394,10 +394,6 @@ mRequestSize
 (
 0
 )
-mConnection
-(
-nullptr
-)
 mRequestHead
 (
 nullptr
