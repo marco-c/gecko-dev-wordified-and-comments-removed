@@ -20000,11 +20000,15 @@ setFunction
 fun
 )
 ;
+Rooted
+<
 LazyScript
 *
+>
 lazy
-=
-nullptr
+(
+cx
+)
 ;
 if
 (
