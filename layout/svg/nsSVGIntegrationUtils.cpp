@@ -500,7 +500,7 @@ hasValidLayers
 style
 -
 >
-mLayers
+mMask
 .
 HasLayerWithImage
 (
@@ -2077,7 +2077,7 @@ hasValidLayers
 svgReset
 -
 >
-mLayers
+mMask
 .
 HasLayerWithImage
 (

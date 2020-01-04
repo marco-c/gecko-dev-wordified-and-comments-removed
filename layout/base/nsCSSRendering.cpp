@@ -14059,7 +14059,7 @@ StyleSVGReset
 )
 -
 >
-mLayers
+mMask
 :
 aBackgroundSC
 -
@@ -14069,7 +14069,7 @@ StyleBackground
 )
 -
 >
-mLayers
+mImage
 ;
 if
 (

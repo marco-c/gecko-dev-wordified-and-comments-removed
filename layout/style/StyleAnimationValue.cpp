@@ -18286,7 +18286,7 @@ styleStruct
 )
 -
 >
-mLayers
+mImage
 ;
 ExtractImageLayerPositionList
 (
@@ -18317,7 +18317,7 @@ styleStruct
 )
 -
 >
-mLayers
+mMask
 ;
 ExtractImageLayerPositionList
 (
@@ -18348,7 +18348,7 @@ styleStruct
 )
 -
 >
-mLayers
+mImage
 ;
 ExtractImageLayerSizePairList
 (
@@ -18379,7 +18379,7 @@ styleStruct
 )
 -
 >
-mLayers
+mMask
 ;
 ExtractImageLayerSizePairList
 (

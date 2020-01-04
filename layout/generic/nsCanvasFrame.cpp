@@ -2061,7 +2061,7 @@ layers
 bg
 -
 >
-mLayers
+mImage
 ;
 NS_FOR_VISIBLE_IMAGE_LAYERS_BACK_TO_FRONT
 (

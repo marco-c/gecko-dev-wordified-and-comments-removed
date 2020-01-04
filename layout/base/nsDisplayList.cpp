@@ -12387,7 +12387,7 @@ layer
 mBackgroundStyle
 -
 >
-mLayers
+mImage
 .
 mLayers
 [
@@ -13090,7 +13090,7 @@ i
 bg
 -
 >
-mLayers
+mImage
 )
 {
 if
@@ -13098,7 +13098,7 @@ if
 bg
 -
 >
-mLayers
+mImage
 .
 mLayers
 [
@@ -13120,7 +13120,7 @@ if
 bg
 -
 >
-mLayers
+mImage
 .
 mLayers
 [
@@ -13169,7 +13169,7 @@ layer
 bg
 -
 >
-mLayers
+mImage
 .
 mLayers
 [
@@ -13426,7 +13426,7 @@ if
 mBackgroundStyle
 -
 >
-mLayers
+mImage
 .
 mLayers
 .
@@ -13488,7 +13488,7 @@ layer
 mBackgroundStyle
 -
 >
-mLayers
+mImage
 .
 mLayers
 [
@@ -13586,7 +13586,7 @@ return
 mBackgroundStyle
 -
 >
-mLayers
+mImage
 .
 mLayers
 [
@@ -13603,7 +13603,7 @@ NS_STYLE_IMAGELAYER_ATTACHMENT_FIXED
 mBackgroundStyle
 -
 >
-mLayers
+mImage
 .
 mLayers
 [
@@ -13746,7 +13746,7 @@ layer
 mBackgroundStyle
 -
 >
-mLayers
+mImage
 .
 mLayers
 [
@@ -14101,7 +14101,7 @@ layer
 mBackgroundStyle
 -
 >
-mLayers
+mImage
 .
 mLayers
 [
@@ -15073,7 +15073,7 @@ layer
 mBackgroundStyle
 -
 >
-mLayers
+mImage
 .
 mLayers
 [
@@ -15207,7 +15207,7 @@ GetSize
 mBackgroundStyle
 -
 >
-mLayers
+mImage
 .
 mLayers
 [
@@ -15270,7 +15270,7 @@ layer
 mBackgroundStyle
 -
 >
-mLayers
+mImage
 .
 mLayers
 [
@@ -15700,7 +15700,7 @@ image
 mBackgroundStyle
 -
 >
-mLayers
+mImage
 .
 mLayers
 [
@@ -15990,7 +15990,7 @@ layer
 mBackgroundStyle
 -
 >
-mLayers
+mImage
 .
 mLayers
 [

@@ -848,7 +848,7 @@ return
 mBackgroundStyle
 -
 >
-mLayers
+mImage
 .
 mLayers
 [
@@ -865,7 +865,7 @@ NS_STYLE_IMAGELAYER_ATTACHMENT_FIXED
 mBackgroundStyle
 -
 >
-mLayers
+mImage
 .
 mLayers
 [
