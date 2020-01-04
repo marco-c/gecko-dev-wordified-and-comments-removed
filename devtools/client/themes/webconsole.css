@@ -3529,7 +3529,7 @@ height
 .
 webconsole
 -
-filteringbar
+filterbar
 -
 wrapper
 {
@@ -3557,7 +3557,7 @@ auto
 .
 webconsole
 -
-filteringbar
+filterbar
 -
 primary
 {
@@ -3569,13 +3569,15 @@ flex
 .
 webconsole
 -
-filteringbar
+filterbar
 -
 primary
 .
 devtools
 -
-searchinput
+plain
+-
+input
 {
 flex
 :
@@ -3583,5 +3585,11 @@ flex
 1
 100
 %
+;
+border
+-
+color
+:
+transparent
 ;
 }

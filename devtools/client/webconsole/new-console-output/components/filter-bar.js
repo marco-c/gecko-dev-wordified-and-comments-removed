@@ -373,7 +373,7 @@ devtools
 toolbar
 webconsole
 -
-filteringbar
+filterbar
 -
 primary
 "
@@ -460,7 +460,9 @@ className
 "
 devtools
 -
-searchinput
+plain
+-
+input
 "
 type
 :
