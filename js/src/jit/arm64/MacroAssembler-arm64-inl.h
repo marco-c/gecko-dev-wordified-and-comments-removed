@@ -867,7 +867,7 @@ value
 ;
 }
 void
-MacroAssemblerCompat
+MacroAssembler
 :
 :
 rshift64
@@ -878,10 +878,6 @@ Register64
 dest
 )
 {
-asMasm
-(
-)
-.
 rshiftPtr
 (
 imm
