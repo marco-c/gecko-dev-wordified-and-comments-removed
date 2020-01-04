@@ -646,6 +646,11 @@ nsMessageLoop
 cpp
 '
 '
+NSPRLogModulesParser
+.
+cpp
+'
+'
 nsSecurityConsoleMessage
 .
 cpp
