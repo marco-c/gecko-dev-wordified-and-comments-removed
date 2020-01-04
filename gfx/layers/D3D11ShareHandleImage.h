@@ -191,9 +191,6 @@ AllocateTexture
 D3D11RecycleAllocator
 *
 aAllocator
-ID3D11Device
-*
-aDevice
 )
 ;
 gfx
@@ -269,12 +266,6 @@ RefPtr
 TextureClient
 >
 mTextureClient
-;
-RefPtr
-<
-ID3D11Texture2D
->
-mTexture
 ;
 }
 ;
