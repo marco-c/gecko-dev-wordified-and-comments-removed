@@ -495,7 +495,7 @@ bool
 nsresult
 >
 >
-BlockTrackId
+BlockSourceTrackId
 (
 TrackID
 aTrackId

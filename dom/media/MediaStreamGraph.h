@@ -2932,7 +2932,7 @@ bool
 nsresult
 >
 >
-BlockTrackId
+BlockSourceTrackId
 (
 TrackID
 aTrackId
@@ -2941,7 +2941,7 @@ aTrackId
 private
 :
 void
-BlockTrackIdImpl
+BlockSourceTrackIdImpl
 (
 TrackID
 aTrackId

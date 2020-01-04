@@ -15432,7 +15432,7 @@ void
 MediaInputPort
 :
 :
-BlockTrackIdImpl
+BlockSourceTrackIdImpl
 (
 TrackID
 aTrackId
@@ -15456,7 +15456,7 @@ bool
 MediaInputPort
 :
 :
-BlockTrackId
+BlockSourceTrackId
 (
 TrackID
 aTrackId
@@ -15517,7 +15517,7 @@ override
 mPort
 -
 >
-BlockTrackIdImpl
+BlockSourceTrackIdImpl
 (
 mTrackId
 )
@@ -15909,7 +15909,7 @@ aBlockedTracks
 port
 -
 >
-BlockTrackIdImpl
+BlockSourceTrackIdImpl
 (
 trackID
 )
