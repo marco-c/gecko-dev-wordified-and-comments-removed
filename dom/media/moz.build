@@ -551,6 +551,11 @@ AudioStream
 h
 '
 '
+Benchmark
+.
+h
+'
+'
 BufferMediaResource
 .
 h
@@ -722,6 +727,11 @@ h
 '
 '
 nsIDocumentActivity
+.
+h
+'
+'
+QueueObject
 .
 h
 '
@@ -1038,6 +1048,11 @@ AudioTrackList
 cpp
 '
 '
+Benchmark
+.
+cpp
+'
+'
 CanvasCaptureMediaStream
 .
 cpp
@@ -1184,6 +1199,11 @@ cpp
 '
 '
 MP3FrameParser
+.
+cpp
+'
+'
+QueueObject
 .
 cpp
 '
