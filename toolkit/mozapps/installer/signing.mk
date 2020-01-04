@@ -83,11 +83,11 @@ OS_ARCH
 MOZ_INTERNAL_SIGNING_FORMAT
 :
 =
-sha2signcode
+osslsigncode
 MOZ_EXTERNAL_SIGNING_FORMAT
 :
 =
-sha2signcode
+osslsigncode
 SIGN_INCLUDES
 :
 =
