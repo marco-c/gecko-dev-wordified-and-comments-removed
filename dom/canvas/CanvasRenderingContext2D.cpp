@@ -20861,6 +20861,9 @@ RenderingMode
 OpenGLBackendMode
 &
 &
+mIsSkiaGL
+&
+&
 !
 srcSurf
 &
