@@ -1768,7 +1768,7 @@ fatal_exit_code
         
 self
 .
-download_unzip
+download_unpack
 (
 self
 .
@@ -1778,7 +1778,6 @@ config
 xre_url
 '
 ]
-                             
 dirs
 [
 '
