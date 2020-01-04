@@ -5398,7 +5398,7 @@ to
 orderFront
 :
 in
-LOGONLY
+TRY
 blocks
 .
 See
@@ -5406,7 +5406,7 @@ bmo
 bug
 470864
 .
-NS_OBJC_BEGIN_TRY_LOGONLY_BLOCK
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 [
 [
@@ -5425,7 +5425,7 @@ orderFront
 nil
 ]
 ;
-NS_OBJC_END_TRY_LOGONLY_BLOCK
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 SendSetZLevelEvent
 (
@@ -5630,7 +5630,7 @@ NSWindowAbove
 }
 else
 {
-NS_OBJC_BEGIN_TRY_LOGONLY_BLOCK
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 if
 (
@@ -5728,7 +5728,7 @@ makeKeyAndOrderFront
 nil
 ]
 ;
-NS_OBJC_END_TRY_LOGONLY_BLOCK
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 SendSetZLevelEvent
 (
@@ -6169,7 +6169,7 @@ a
 real
 window
 .
-NS_OBJC_BEGIN_TRY_LOGONLY_BLOCK
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 [
 sheetParent
@@ -6178,7 +6178,7 @@ makeKeyAndOrderFront
 nil
 ]
 ;
-NS_OBJC_END_TRY_LOGONLY_BLOCK
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 SendSetZLevelEvent
