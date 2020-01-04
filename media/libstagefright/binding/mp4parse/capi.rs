@@ -43,7 +43,6 @@ MP4PARSE_ERROR_BADARG
 :
 i32
 =
--
 1
 ;
 const
@@ -51,7 +50,6 @@ MP4PARSE_ERROR_INVALID
 :
 i32
 =
--
 2
 ;
 const
@@ -59,7 +57,6 @@ MP4PARSE_ERROR_UNSUPPORTED
 :
 i32
 =
--
 3
 ;
 const
@@ -67,7 +64,6 @@ MP4PARSE_ERROR_EOF
 :
 i32
 =
--
 4
 ;
 const
@@ -75,7 +71,6 @@ MP4PARSE_ASSERT
 :
 i32
 =
--
 5
 ;
 const
@@ -83,7 +78,6 @@ MP4PARSE_ERROR_IO
 :
 i32
 =
--
 6
 ;
 const
