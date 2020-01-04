@@ -878,6 +878,9 @@ def
 run_videos
 (
 self
+timeout
+=
+60
 )
 :
         
@@ -938,14 +941,16 @@ self
 .
 marionette
 url
-                                       
 stall_wait_time
 =
 60
-                                       
+                           
 set_duration
 =
 60
+timeout
+=
+timeout
 )
                 
 self
@@ -1299,6 +1304,9 @@ self
 .
 run_videos
 (
+timeout
+=
+120
 )
     
 def
@@ -1327,6 +1335,9 @@ self
 .
 run_videos
 (
+timeout
+=
+120
 )
     
 def
@@ -1355,6 +1366,9 @@ self
 .
 run_videos
 (
+timeout
+=
+120
 )
 reset_adobe_gmp_script
 =

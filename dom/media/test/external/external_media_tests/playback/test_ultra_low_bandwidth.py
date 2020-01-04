@@ -43,4 +43,7 @@ self
 .
 run_videos
 (
+timeout
+=
+120
 )
