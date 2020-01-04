@@ -178,6 +178,11 @@ TestNoDuplicateRefCntMember
 cpp
 '
 '
+TestNoExplicitMoveConstructor
+.
+cpp
+'
+'
 TestNonHeapClass
 .
 cpp
