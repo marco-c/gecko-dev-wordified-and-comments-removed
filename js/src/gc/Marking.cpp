@@ -1015,12 +1015,13 @@ gc
 isBackgroundSweeping
 (
 )
-&
-&
+!
 IsThingPoisoned
 (
 thing
 )
+|
+|
 !
 InFreeList
 (
