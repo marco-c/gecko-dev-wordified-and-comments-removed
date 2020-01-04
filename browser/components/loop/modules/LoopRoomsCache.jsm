@@ -501,6 +501,11 @@ FXA
 )
 {
 return
+Promise
+.
+resolve
+(
+)
 ;
 }
 let

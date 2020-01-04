@@ -1194,6 +1194,11 @@ room
 )
 {
 return
+Promise
+.
+resolve
+(
+)
 ;
 }
 this
