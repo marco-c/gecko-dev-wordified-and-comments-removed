@@ -165,9 +165,6 @@ app
 '
 fonts
 '
-'
-geckoview_library
-'
 ]
 if
 CONFIG
