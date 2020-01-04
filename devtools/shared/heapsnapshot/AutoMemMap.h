@@ -106,11 +106,11 @@ const
 char
 *
 filePath
-PRIntn
+int
 flags
 =
 PR_RDONLY
-PRIntn
+int
 mode
 =
 0

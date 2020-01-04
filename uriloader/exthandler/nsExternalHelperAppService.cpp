@@ -1568,7 +1568,7 @@ defined
 (
 XP_UNIX
 )
-PRUint32
+uint32_t
 permissions
 ;
 rv
