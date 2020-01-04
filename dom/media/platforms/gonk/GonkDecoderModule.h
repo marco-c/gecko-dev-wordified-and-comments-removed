@@ -97,12 +97,6 @@ aDiagnostics
 )
 override
 ;
-static
-void
-Init
-(
-)
-;
 ConversionRequired
 DecoderNeedsConversion
 (
