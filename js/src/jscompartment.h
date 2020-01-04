@@ -988,9 +988,6 @@ bool
 marked
 ;
 bool
-warnedAboutFlagsArgument
-;
-bool
 warnedAboutExprClosure
 ;
 #
@@ -2655,9 +2652,6 @@ DeprecatedLegacyGenerator
 DeprecatedExpressionClosure
 =
 3
-DeprecatedFlagsArgument
-=
-7
 DeprecatedBlockScopeFunRedecl
 =
 10

@@ -35,10 +35,6 @@ BUGNUMBER
 summary
 )
 ;
-enableMatchFlagArgument
-(
-)
-;
 var
 called
 ;
@@ -80,7 +76,7 @@ flags
 assertEq
 (
 called
-true
+false
 )
 ;
 called
@@ -102,7 +98,7 @@ flags
 assertEq
 (
 called
-true
+false
 )
 ;
 called
@@ -127,7 +123,7 @@ flags
 assertEq
 (
 called
-true
+false
 )
 ;
 if

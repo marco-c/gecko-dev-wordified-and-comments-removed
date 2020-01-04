@@ -298,10 +298,6 @@ marked
 (
 true
 )
-warnedAboutFlagsArgument
-(
-false
-)
 warnedAboutExprClosure
 (
 false

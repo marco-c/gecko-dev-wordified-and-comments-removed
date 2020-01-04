@@ -4543,6 +4543,9 @@ obsolete
 FlagsArgument
 =
 7
+(
+obsolete
+)
 RegExpSourceProp
 =
 8
@@ -4650,6 +4653,9 @@ obsolete
 FlagsArgument
 =
 7
+(
+obsolete
+)
 RegExpSourceProp
 =
 8
