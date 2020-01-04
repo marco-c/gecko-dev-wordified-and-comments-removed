@@ -5454,6 +5454,13 @@ catch
 e
 )
 {
+Cu
+.
+reportError
+(
+e
+)
+;
 gBrowser
 .
 updateBrowserRemotenessByURL
