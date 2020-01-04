@@ -562,6 +562,30 @@ TINDERBOX_OUTPUT
 '
 1
 '
+        
+'
+TOOLTOOL_CACHE
+'
+:
+'
+/
+c
+/
+builds
+/
+tooltool_cache
+'
+        
+'
+TOOLTOOL_HOME
+'
+:
+'
+/
+c
+/
+builds
+'
     
 }
     

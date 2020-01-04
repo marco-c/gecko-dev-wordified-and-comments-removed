@@ -321,6 +321,30 @@ and
 -
 abort
 '
+        
+'
+TOOLTOOL_CACHE
+'
+:
+'
+/
+c
+/
+builds
+/
+tooltool_cache
+'
+        
+'
+TOOLTOOL_HOME
+'
+:
+'
+/
+c
+/
+builds
+'
     
 }
     
