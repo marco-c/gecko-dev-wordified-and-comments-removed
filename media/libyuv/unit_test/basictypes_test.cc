@@ -24,7 +24,7 @@ libyuv
 {
 TEST_F
 (
-libyuvTest
+LibYUVBaseTest
 Endian
 )
 {
@@ -72,7 +72,7 @@ endif
 }
 TEST_F
 (
-libyuvTest
+LibYUVBaseTest
 SizeOfTypes
 )
 {
@@ -243,7 +243,7 @@ u64
 }
 TEST_F
 (
-libyuvTest
+LibYUVBaseTest
 SizeOfConstants
 )
 {
