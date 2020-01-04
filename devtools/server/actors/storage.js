@@ -4393,6 +4393,17 @@ host
 ;
 if
 (
+!
+storage
+)
+{
+return
+[
+]
+;
+}
+if
+(
 name
 )
 {
