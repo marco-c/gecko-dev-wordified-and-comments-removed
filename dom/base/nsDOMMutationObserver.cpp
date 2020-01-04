@@ -4741,6 +4741,9 @@ Suppressed
 return
 ;
 }
+AutoSafeJSContext
+cx
+;
 nsTArray
 <
 RefPtr
@@ -4877,6 +4880,11 @@ sCurrentObserver
 }
 delete
 observers
+;
+JS_CheckForInterrupt
+(
+cx
+)
 ;
 }
 if
