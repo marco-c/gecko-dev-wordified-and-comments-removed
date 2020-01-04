@@ -16340,7 +16340,7 @@ background
 -
 end
 [
-visuallyselected
+selected
 =
 true
 ]
@@ -16354,7 +16354,7 @@ background
 -
 start
 [
-visuallyselected
+selected
 =
 true
 ]
@@ -16469,7 +16469,7 @@ button
 not
 (
 [
-visuallyselected
+selected
 =
 "
 true
@@ -16545,7 +16545,7 @@ button
 not
 (
 [
-visuallyselected
+selected
 =
 "
 true
