@@ -4397,7 +4397,7 @@ mActiveTimer
 (
 aFlags
 &
-eAdjustingTimer
+eForceAdjustTimer
 )
 )
 return
@@ -8341,7 +8341,7 @@ mActiveTimer
 {
 EnsureTimerStarted
 (
-eAdjustingTimer
+eForceAdjustTimer
 )
 ;
 }

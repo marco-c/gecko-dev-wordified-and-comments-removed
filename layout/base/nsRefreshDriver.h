@@ -893,7 +893,7 @@ EnsureTimerStartedFlags
 eNone
 =
 0
-eAdjustingTimer
+eForceAdjustTimer
 =
 1
 <
