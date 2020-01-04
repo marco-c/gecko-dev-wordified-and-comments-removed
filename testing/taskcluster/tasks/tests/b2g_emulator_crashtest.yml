@@ -239,6 +239,12 @@ chunks
 total
 :
 5
+treeherderEnv
+:
+-
+production
+-
+staging
 treeherder
 :
 groupName
