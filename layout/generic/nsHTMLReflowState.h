@@ -1,9 +1,9 @@
 #
 ifndef
-nsHTMLReflowState_h___
+mozilla_nsHTMLReflowState_h
 #
 define
-nsHTMLReflowState_h___
+mozilla_nsHTMLReflowState_h
 #
 include
 "
@@ -269,6 +269,9 @@ NS_CSS_FRAME_TYPE_REPLACED
 NS_CSS_FRAME_TYPE_REPLACED_CONTAINS_BLOCK
 )
 )
+namespace
+mozilla
+{
 struct
 nsCSSOffsetState
 {
@@ -3207,5 +3210,6 @@ aFrameType
 ;
 }
 ;
+}
 #
 endif

@@ -90,9 +90,6 @@ nsIURI
 class
 nsILoadGroup
 ;
-struct
-nsHTMLReflowState
-;
 class
 nsHTMLReflowMetrics
 ;

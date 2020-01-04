@@ -57,6 +57,14 @@ nsStyleText
 class
 nsLineLayout
 {
+using
+nsHTMLReflowState
+=
+mozilla
+:
+:
+nsHTMLReflowState
+;
 public
 :
 nsLineLayout

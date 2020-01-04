@@ -21,9 +21,6 @@ h
 class
 nsBlockReflowState
 ;
-struct
-nsHTMLReflowState
-;
 class
 nsLineBox
 ;
@@ -33,6 +30,14 @@ nsPresContext
 class
 nsBlockReflowContext
 {
+using
+nsHTMLReflowState
+=
+mozilla
+:
+:
+nsHTMLReflowState
+;
 public
 :
 nsBlockReflowContext

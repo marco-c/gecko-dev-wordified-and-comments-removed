@@ -85,6 +85,14 @@ BRS_FLOAT_FRAGMENTS_INSIDE_COLUMN_ENABLED
 class
 nsBlockReflowState
 {
+using
+nsHTMLReflowState
+=
+mozilla
+:
+:
+nsHTMLReflowState
+;
 public
 :
 nsBlockReflowState

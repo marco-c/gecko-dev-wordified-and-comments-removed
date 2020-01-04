@@ -46,9 +46,6 @@ struct
 nsRect
 ;
 struct
-nsHTMLReflowState
-;
-struct
 nsSize
 ;
 class

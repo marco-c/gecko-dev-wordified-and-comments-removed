@@ -2584,6 +2584,9 @@ nsIFrame
 *
 aFrame
 const
+mozilla
+:
+:
 nsHTMLReflowState
 &
 aReflowState
@@ -2615,6 +2618,9 @@ nsIFrame
 mFrame
 ;
 const
+mozilla
+:
+:
 nsHTMLReflowState
 &
 mReflowState
@@ -2749,6 +2755,9 @@ DR_init_constraints_cookie
 nsIFrame
 *
 aFrame
+mozilla
+:
+:
 nsHTMLReflowState
 *
 aState
@@ -2775,6 +2784,9 @@ nsIFrame
 *
 mFrame
 ;
+mozilla
+:
+:
 nsHTMLReflowState
 *
 mState
@@ -2793,6 +2805,9 @@ DR_init_offsets_cookie
 nsIFrame
 *
 aFrame
+mozilla
+:
+:
 nsCSSOffsetState
 *
 aState
@@ -2822,6 +2837,9 @@ nsIFrame
 *
 mFrame
 ;
+mozilla
+:
+:
 nsCSSOffsetState
 *
 mState
@@ -2840,6 +2858,9 @@ DR_init_type_cookie
 nsIFrame
 *
 aFrame
+mozilla
+:
+:
 nsHTMLReflowState
 *
 aState
@@ -2854,6 +2875,9 @@ nsIFrame
 *
 mFrame
 ;
+mozilla
+:
+:
 nsHTMLReflowState
 *
 mState
