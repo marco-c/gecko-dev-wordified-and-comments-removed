@@ -424,7 +424,10 @@ EventTarget
 ChromeOnly
 Exposed
 =
+(
 Window
+System
+)
 BinaryName
 =
 "
