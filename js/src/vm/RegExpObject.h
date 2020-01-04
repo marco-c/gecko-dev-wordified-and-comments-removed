@@ -1972,6 +1972,17 @@ toBoolean
 )
 ;
 }
+static
+bool
+isOriginalFlagGetter
+(
+JSNative
+native
+unsigned
+*
+slot
+)
+;
 bool
 getShared
 (
