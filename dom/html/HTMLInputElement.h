@@ -3264,6 +3264,12 @@ return
 DoesMinMaxApply
 (
 )
+&
+&
+mType
+!
+=
+NS_FORM_INPUT_WEEK
 ;
 }
 bool
@@ -3288,6 +3294,12 @@ return
 DoesMinMaxApply
 (
 )
+&
+&
+mType
+!
+=
+NS_FORM_INPUT_WEEK
 ;
 }
 bool

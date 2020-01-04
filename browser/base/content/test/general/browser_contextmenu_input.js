@@ -1130,7 +1130,7 @@ add_task
 (
 function
 *
-test_date_time_color_range_input
+test_date_time_color_range_month_week_input
 (
 )
 {
@@ -1155,6 +1155,10 @@ input_color
 "
 #
 input_range
+"
+"
+#
+input_month
 "
 ]
 )
@@ -1394,7 +1398,7 @@ add_task
 (
 function
 *
-test_datetime_month_week_datetimelocal_input_todos
+test_datetime_datetimelocal_input_todos
 (
 )
 {
@@ -1406,9 +1410,6 @@ of
 [
 "
 datetime
-"
-"
-week
 "
 "
 datetime
