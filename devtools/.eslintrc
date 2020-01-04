@@ -137,6 +137,15 @@ plugin
 "
 mozilla
 /
+balanced
+-
+listeners
+"
+:
+2
+"
+mozilla
+/
 components
 -
 imports
