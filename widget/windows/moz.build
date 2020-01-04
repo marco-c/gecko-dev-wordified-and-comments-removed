@@ -139,6 +139,11 @@ WinMessages
 .
 h
 '
+'
+WinModifierKeyState
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
