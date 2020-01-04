@@ -316,6 +316,10 @@ const
 uint32_t
 &
 aCharIndex
+const
+uint32_t
+&
+aError
 )
 {
 SpeechSynthesisRequestChild
@@ -346,7 +350,7 @@ DispatchErrorImpl
 (
 aElapsedTime
 aCharIndex
-0
+aError
 )
 ;
 }
