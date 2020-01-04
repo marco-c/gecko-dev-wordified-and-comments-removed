@@ -126,7 +126,7 @@ bool
 RecvAsyncOpen
 (
 const
-URIParams
+OptionalURIParams
 &
 aURI
 const
@@ -165,6 +165,14 @@ const
 OptionalLoadInfoArgs
 &
 aLoadInfoArgs
+const
+OptionalTransportProvider
+&
+aTransportProvider
+const
+nsCString
+&
+aNegotiatedExtensions
 )
 override
 ;
