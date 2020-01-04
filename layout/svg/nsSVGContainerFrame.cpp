@@ -578,6 +578,12 @@ HasValidDimensions
 return
 ;
 }
+DisplayOutline
+(
+aBuilder
+aLists
+)
+;
 return
 BuildDisplayListForNonBlockChildren
 (

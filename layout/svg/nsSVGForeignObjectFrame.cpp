@@ -776,6 +776,12 @@ HasValidDimensions
 return
 ;
 }
+DisplayOutline
+(
+aBuilder
+aLists
+)
+;
 BuildDisplayListForNonBlockChildren
 (
 aBuilder
