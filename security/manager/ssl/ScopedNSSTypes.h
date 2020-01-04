@@ -42,6 +42,15 @@ include
 "
 mozilla
 /
+Casting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Likely
 .
 h
@@ -169,7 +178,7 @@ p
 )
 {
 return
-reinterpret_cast
+BitwiseCast
 <
 char
 *
@@ -192,7 +201,7 @@ p
 )
 {
 return
-reinterpret_cast
+BitwiseCast
 <
 const
 char
@@ -214,7 +223,7 @@ p
 )
 {
 return
-reinterpret_cast
+BitwiseCast
 <
 uint8_t
 *
@@ -237,7 +246,7 @@ p
 )
 {
 return
-reinterpret_cast
+BitwiseCast
 <
 const
 uint8_t
