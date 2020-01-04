@@ -92,8 +92,12 @@ MPL
 *
 /
 [
-ChromeOnly
 Constructor
+Func
+=
+"
+IsChromeOrXBL
+"
 ]
 interface
 ChromeNodeList
