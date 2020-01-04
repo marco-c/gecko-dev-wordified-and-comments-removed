@@ -422,7 +422,7 @@ Int32Array
 b
 3
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -437,7 +437,7 @@ Int32Array
 b
 4104
 )
-TypeError
+RangeError
 )
 ;
 assertThrowsInstanceOf
@@ -453,7 +453,7 @@ b
 4092
 2
 )
-TypeError
+RangeError
 )
 ;
 x2
