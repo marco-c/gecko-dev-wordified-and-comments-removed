@@ -46,6 +46,9 @@ windowpos
 }
 lParamData
 ;
+double
+contentsScaleFactor
+;
 }
 ;
 }
