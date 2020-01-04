@@ -672,6 +672,11 @@ RestyleManager
 h
 '
 '
+RestyleManagerBase
+.
+h
+'
+'
 RestyleManagerHandle
 .
 h
@@ -893,6 +898,11 @@ cpp
 '
 '
 RestyleManager
+.
+cpp
+'
+'
+RestyleManagerBase
 .
 cpp
 '

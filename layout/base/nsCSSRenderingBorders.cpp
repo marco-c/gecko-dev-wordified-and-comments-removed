@@ -127,6 +127,13 @@ h
 #
 include
 "
+nsIScriptError
+.
+h
+"
+#
+include
+"
 nsClassHashtable
 .
 h
