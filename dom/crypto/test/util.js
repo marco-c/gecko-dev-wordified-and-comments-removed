@@ -117,14 +117,6 @@ new
 Uint8Array
 (
 abv
-.
-buffer
-abv
-.
-byteOffset
-abv
-.
-byteLength
 )
 ;
 var
