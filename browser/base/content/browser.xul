@@ -155,9 +155,7 @@ devtools
 /
 skin
 /
-devtools
--
-browser
+common
 .
 css
 "
