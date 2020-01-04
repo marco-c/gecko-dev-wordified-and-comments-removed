@@ -395,6 +395,11 @@ Content
 TextureFlags
 :
 :
+DISALLOW_BIGIMAGE
+|
+TextureFlags
+:
+:
 IMMEDIATE_UPLOAD
 )
 ;
