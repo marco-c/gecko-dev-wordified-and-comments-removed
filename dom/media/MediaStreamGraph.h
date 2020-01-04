@@ -3248,6 +3248,10 @@ nsIRunnable
 aRunnable
 )
 {
+AssertOnGraphThreadOrNotRunning
+(
+)
+;
 *
 mPendingUpdateRunnables
 .
@@ -3311,6 +3315,12 @@ aRate
 uint32_t
 aChannels
 )
+;
+void
+AssertOnGraphThreadOrNotRunning
+(
+)
+const
 ;
 protected
 :
