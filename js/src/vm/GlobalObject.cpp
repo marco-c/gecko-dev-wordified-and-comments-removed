@@ -546,6 +546,16 @@ options
 wasm
 (
 )
+|
+|
+!
+wasm
+:
+:
+HasCompilerSupport
+(
+cx
+)
 ;
 #
 ifdef
