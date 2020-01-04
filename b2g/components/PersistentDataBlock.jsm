@@ -412,14 +412,9 @@ join
 else
 if
 (
-typeof
 data
-=
-=
-=
-"
-array
-"
+instanceof
+Array
 )
 {
 hexString
