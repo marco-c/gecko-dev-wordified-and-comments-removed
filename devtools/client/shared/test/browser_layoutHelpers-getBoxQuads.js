@@ -119,6 +119,7 @@ takesScrollingIntoAccount
 doc
 )
 ;
+yield
 takesZoomIntoAccount
 (
 doc
@@ -1477,6 +1478,7 @@ up
 ;
 }
 function
+*
 takesZoomIntoAccount
 (
 doc
@@ -1630,6 +1632,7 @@ out
 "
 )
 ;
+yield
 window
 .
 FullZoom
@@ -1713,6 +1716,7 @@ one
 "
 )
 ;
+yield
 window
 .
 FullZoom

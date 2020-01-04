@@ -140,6 +140,7 @@ image
 "
 )
 ;
+yield
 FullZoom
 .
 reset
@@ -227,6 +228,7 @@ persisted
 "
 )
 ;
+yield
 FullZoom
 .
 reset

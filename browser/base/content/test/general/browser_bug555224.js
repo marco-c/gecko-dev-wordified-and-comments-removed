@@ -65,6 +65,7 @@ removeTabAndWaitForLocationChange
 gBgTab
 )
 ;
+yield
 FullZoom
 .
 reset

@@ -153,6 +153,7 @@ updateBackgroundTabs
 false
 )
 ;
+yield
 FullZoom
 .
 reset
