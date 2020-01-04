@@ -152,8 +152,16 @@ char
 const
 *
 stream_name
+cubeb_devid
+input_device
 cubeb_stream_params
-stream_params
+*
+input_stream_params
+cubeb_devid
+output_device
+cubeb_stream_params
+*
+output_stream_params
 unsigned
 int
 latency
