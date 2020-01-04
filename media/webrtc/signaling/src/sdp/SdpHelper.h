@@ -526,6 +526,7 @@ proto
 )
 const
 ;
+static
 SdpMediaSection
 :
 :

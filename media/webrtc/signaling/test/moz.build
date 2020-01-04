@@ -149,6 +149,9 @@ GeckoCppUnitTests
 jsep_session_unittest
 '
 '
+jsep_track_unittest
+'
+'
 mediaconduit_unittests
 '
 '
