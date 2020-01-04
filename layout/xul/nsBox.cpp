@@ -1669,7 +1669,7 @@ heightSet
 nsIFrame
 :
 :
-AddCSSPrefSize
+AddXULPrefSize
 (
 this
 pref
@@ -1762,7 +1762,7 @@ heightSet
 nsIFrame
 :
 :
-AddCSSMinSize
+AddXULMinSize
 (
 aState
 this
@@ -1854,7 +1854,7 @@ heightSet
 nsIFrame
 :
 :
-AddCSSMaxSize
+AddXULMaxSize
 (
 this
 maxSize
@@ -1882,7 +1882,7 @@ flex
 nsIFrame
 :
 :
-AddCSSFlex
+AddXULFlex
 (
 this
 flex
@@ -2373,7 +2373,7 @@ bool
 nsIFrame
 :
 :
-AddCSSPrefSize
+AddXULPrefSize
 (
 nsIFrame
 *
@@ -2743,7 +2743,7 @@ bool
 nsIFrame
 :
 :
-AddCSSMinSize
+AddXULMinSize
 (
 nsBoxLayoutState
 &
@@ -3396,7 +3396,7 @@ bool
 nsIFrame
 :
 :
-AddCSSMaxSize
+AddXULMaxSize
 (
 nsIFrame
 *
@@ -3669,7 +3669,7 @@ bool
 nsIFrame
 :
 :
-AddCSSFlex
+AddXULFlex
 (
 nsIFrame
 *

@@ -6666,7 +6666,7 @@ const
 ;
 static
 bool
-AddCSSPrefSize
+AddXULPrefSize
 (
 nsIFrame
 *
@@ -6684,7 +6684,7 @@ aHeightSet
 ;
 static
 bool
-AddCSSMinSize
+AddXULMinSize
 (
 nsBoxLayoutState
 &
@@ -6705,7 +6705,7 @@ aHeightSet
 ;
 static
 bool
-AddCSSMaxSize
+AddXULMaxSize
 (
 nsIFrame
 *
@@ -6723,7 +6723,7 @@ aHeightSet
 ;
 static
 bool
-AddCSSFlex
+AddXULFlex
 (
 nsIFrame
 *

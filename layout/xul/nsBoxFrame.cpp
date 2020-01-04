@@ -3211,7 +3211,7 @@ if
 nsIFrame
 :
 :
-AddCSSPrefSize
+AddXULPrefSize
 (
 this
 size
@@ -3459,7 +3459,7 @@ if
 nsIFrame
 :
 :
-AddCSSMinSize
+AddXULMinSize
 (
 aBoxLayoutState
 this
@@ -3616,7 +3616,7 @@ if
 nsIFrame
 :
 :
-AddCSSMaxSize
+AddXULMaxSize
 (
 this
 size
@@ -7782,7 +7782,7 @@ heightSet
 nsIFrame
 :
 :
-AddCSSPrefSize
+AddXULPrefSize
 (
 child
 prefSizeCSS
@@ -7793,7 +7793,7 @@ heightSet
 nsIFrame
 :
 :
-AddCSSMinSize
+AddXULMinSize
 (
 state
 child
@@ -7805,7 +7805,7 @@ heightSet
 nsIFrame
 :
 :
-AddCSSMaxSize
+AddXULMaxSize
 (
 child
 maxSizeCSS
@@ -7816,7 +7816,7 @@ heightSet
 nsIFrame
 :
 :
-AddCSSFlex
+AddXULFlex
 (
 child
 flexCSS

@@ -41489,7 +41489,7 @@ completelyRedefined
 nsIFrame
 :
 :
-AddCSSPrefSize
+AddXULPrefSize
 (
 this
 size
@@ -41628,7 +41628,7 @@ completelyRedefined
 nsIFrame
 :
 :
-AddCSSMinSize
+AddXULMinSize
 (
 aState
 this
