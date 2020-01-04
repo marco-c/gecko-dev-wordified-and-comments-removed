@@ -100,9 +100,9 @@ common
 mercurial
 =
 =
-3
+2
 .
-7
+6
 .
 3
 mock
