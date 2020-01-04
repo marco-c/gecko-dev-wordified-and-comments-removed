@@ -22873,7 +22873,7 @@ browser
 .
 currentURI
 .
-specIgnoringRef
+spec
 }
 ;
 }
