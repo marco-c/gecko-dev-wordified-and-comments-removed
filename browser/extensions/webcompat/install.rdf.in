@@ -248,7 +248,7 @@ em
 :
 minVersion
 >
-FIREFOX_VERSION
+MOZ_APP_VERSION
 <
 /
 em
@@ -260,7 +260,7 @@ em
 :
 maxVersion
 >
-FIREFOX_VERSION
+MOZ_APP_MAXVERSION
 <
 /
 em
