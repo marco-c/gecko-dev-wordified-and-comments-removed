@@ -264,6 +264,8 @@ browser
 .
 safebrowsing
 .
+phishing
+.
 enabled
 "
 name
@@ -272,6 +274,8 @@ name
 browser
 .
 safebrowsing
+.
+phishing
 .
 enabled
 "

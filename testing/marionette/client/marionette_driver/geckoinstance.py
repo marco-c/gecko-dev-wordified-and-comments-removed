@@ -1435,6 +1435,8 @@ browser
 .
 safebrowsing
 .
+phishing
+.
 enabled
 '
 :

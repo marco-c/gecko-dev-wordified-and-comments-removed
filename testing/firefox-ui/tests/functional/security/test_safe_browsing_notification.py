@@ -202,6 +202,8 @@ browser
 .
 safebrowsing
 .
+phishing
+.
 enabled
 '
 True

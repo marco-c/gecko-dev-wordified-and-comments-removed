@@ -422,6 +422,8 @@ browser
 .
 safebrowsing
 .
+phishing
+.
 enabled
 "
 #

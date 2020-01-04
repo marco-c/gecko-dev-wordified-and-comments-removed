@@ -740,6 +740,8 @@ browser
 .
 safebrowsing
 .
+phishing
+.
 enabled
 '
 :
