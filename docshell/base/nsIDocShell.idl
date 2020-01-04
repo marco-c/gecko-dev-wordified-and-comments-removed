@@ -219,6 +219,9 @@ nsITabParent
 interface
 nsITabChild
 ;
+interface
+nsICommandManager
+;
 native
 TabChildRef
 (
@@ -7185,6 +7188,16 @@ nostdcall
 ]
 TabChildRef
 GetTabChild
+(
+)
+;
+[
+noscript
+nostdcall
+notxpcom
+]
+nsICommandManager
+GetCommandManager
 (
 )
 ;

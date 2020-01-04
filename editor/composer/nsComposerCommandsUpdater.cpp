@@ -1367,9 +1367,11 @@ nsICommandManager
 >
 manager
 =
-do_GetInterface
-(
 docShell
+-
+>
+GetCommandManager
+(
 )
 ;
 nsCOMPtr
