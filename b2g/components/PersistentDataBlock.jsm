@@ -628,7 +628,7 @@ if
 (
 AppConstants
 .
-widget
+platform
 !
 =
 "
@@ -1452,7 +1452,7 @@ if
 (
 AppConstants
 .
-widget
+platform
 !
 =
 "
@@ -3705,7 +3705,7 @@ if
 (
 AppConstants
 .
-widget
+platform
 !
 =
 "
