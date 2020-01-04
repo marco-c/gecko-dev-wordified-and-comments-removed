@@ -6847,19 +6847,6 @@ of
 ns
 )
 {
-if
-(
-wrapperFuncs
-.
-shouldInject
-(
-[
-namespace
-]
-name
-)
-)
-{
 entry
 .
 inject
@@ -6876,7 +6863,6 @@ wrapperFuncs
 )
 )
 ;
-}
 }
 if
 (
