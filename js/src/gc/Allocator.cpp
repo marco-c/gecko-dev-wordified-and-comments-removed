@@ -77,6 +77,10 @@ h
 "
 using
 namespace
+js
+;
+using
+namespace
 gc
 ;
 template
