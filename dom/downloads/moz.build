@@ -124,6 +124,7 @@ manifest
 '
 ]
 EXTRA_PP_COMPONENTS
++
 =
 [
 '
