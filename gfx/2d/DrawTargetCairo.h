@@ -193,6 +193,14 @@ DrawTargetCairo
 )
 ;
 virtual
+bool
+IsValid
+(
+)
+const
+override
+;
+virtual
 DrawTargetType
 GetType
 (
