@@ -429,6 +429,16 @@ true
 name
 :
 "
+WebGLContextEvent
+"
+disabled
+:
+true
+}
+{
+name
+:
+"
 WebGLFramebuffer
 "
 disabled
