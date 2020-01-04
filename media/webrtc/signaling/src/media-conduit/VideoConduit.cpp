@@ -3406,6 +3406,7 @@ RtcpFbFECIsSet
 ;
 if
 (
+(
 mExternalSendCodec
 &
 &
@@ -3419,6 +3420,7 @@ mExternalSendCodec
 -
 >
 mType
+)
 |
 |
 codecConfig
