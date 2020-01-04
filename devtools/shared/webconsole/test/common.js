@@ -586,6 +586,12 @@ Worker
 workerName
 )
 ;
+aState
+.
+_worker_ref
+=
+worker
+;
 worker
 .
 addEventListener
