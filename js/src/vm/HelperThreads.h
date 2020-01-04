@@ -1447,12 +1447,14 @@ void
 *
 callbackData
 ;
-JSScript
-*
+PersistentRootedScript
 script
 ;
+PersistentRooted
+<
 ScriptSourceObject
 *
+>
 sourceObject
 ;
 Vector
