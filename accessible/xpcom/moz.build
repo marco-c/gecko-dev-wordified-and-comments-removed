@@ -278,15 +278,3 @@ FINAL_LIBRARY
 '
 xul
 '
-if
-not
-CONFIG
-[
-'
-GNU_CXX
-'
-]
-:
-ALLOW_COMPILER_WARNINGS
-=
-True

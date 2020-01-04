@@ -276,17 +276,6 @@ CONFIG
 TK_CFLAGS
 '
 ]
-if
-CONFIG
-[
-'
-_MSC_VER
-'
-]
-:
-ALLOW_COMPILER_WARNINGS
-=
-True
 include
 (
 '
