@@ -461,6 +461,12 @@ onAttachedToWindow
 (
 )
 {
+super
+.
+onAttachedToWindow
+(
+)
+;
 if
 (
 HardwareUtils
