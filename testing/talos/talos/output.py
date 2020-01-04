@@ -13,21 +13,28 @@ filter
 import
 json
 import
-logging
-import
 post_file
 import
 time
 import
 utils
-import
-results
-as
-TalosResults
 from
 StringIO
 import
 StringIO
+from
+mozlog
+import
+get_proxy_logger
+import
+results
+as
+TalosResults
+LOG
+=
+get_proxy_logger
+(
+)
 def
 filesizeformat
 (
@@ -692,7 +699,7 @@ in
 val_list
 ]
         
-logging
+LOG
 .
 info
 (
@@ -748,7 +755,7 @@ in
 val_list
 ]
         
-logging
+LOG
 .
 info
 (
@@ -958,7 +965,7 @@ results
 results
 :
             
-logging
+LOG
 .
 debug
 (
@@ -970,6 +977,7 @@ test
 %
 s
 "
+%
 test
 .
 name
@@ -1005,7 +1013,7 @@ extension
 (
 )
             
-logging
+LOG
 .
 debug
 (
@@ -1164,7 +1172,7 @@ not
 values
 :
                         
-logging
+LOG
 .
 error
 (
@@ -1305,7 +1313,7 @@ testname
 =
 counterName
                     
-logging
+LOG
 .
 info
 (
@@ -1752,7 +1760,7 @@ except
 ValueError
 :
                     
-logging
+LOG
 .
 info
 (
@@ -1872,7 +1880,7 @@ line
 n
 '
             
-logging
+LOG
 .
 debug
 (
@@ -1883,6 +1891,7 @@ line
 %
 s
 "
+%
 line
 )
         
@@ -1976,7 +1985,7 @@ self
 retries
 :
                 
-logging
+LOG
 .
 info
 (
@@ -2003,7 +2012,9 @@ attempt
 %
 d
 "
-                    
+%
+(
+                        
 index
 len
 (
@@ -2013,6 +2024,8 @@ scheme
 server
 path
 times
+)
+                
 )
                 
 try
@@ -2528,7 +2541,7 @@ _
 =
 results_url_split
         
-logging
+LOG
 .
 info
 (
