@@ -49,6 +49,11 @@ MOZ_ASSERT
 inner_
 )
 ;
+MOZ_ASSERT
+(
+chars
+)
+;
 Hasher
 :
 :
@@ -287,6 +292,11 @@ intoOwnedTwoByteChars
 MOZ_ASSERT
 (
 inner_
+)
+;
+MOZ_ASSERT
+(
+chars
 )
 ;
 Hasher
