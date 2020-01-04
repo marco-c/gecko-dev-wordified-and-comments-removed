@@ -8563,6 +8563,13 @@ Kind
 NamedLambdaCallee
 )
 {
+if
+(
+action
+=
+=
+GET
+)
 *
 accessResult
 =
