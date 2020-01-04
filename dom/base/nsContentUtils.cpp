@@ -34775,13 +34775,6 @@ GetLastModified
 rv
 )
 ;
-blobImpl
--
->
-LookupAndCacheIsDirectory
-(
-)
-;
 }
 else
 {
