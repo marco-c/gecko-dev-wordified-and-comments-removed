@@ -100,6 +100,9 @@ aFileName
 uint32_t
 *
 aLineNo
+uint32_t
+*
+aColumn
 )
 =
 0

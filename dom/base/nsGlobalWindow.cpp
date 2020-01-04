@@ -53293,6 +53293,9 @@ uint32_t
 lineNo
 =
 0
+dummyColumn
+=
+0
 ;
 handler
 -
@@ -53303,6 +53306,8 @@ GetLocation
 filename
 &
 lineNo
+&
+dummyColumn
 )
 ;
 nsAutoMicroTask
