@@ -283,6 +283,15 @@ RefPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+RefCounted
+.
+h
+"
 struct
 _CGLContextObject
 ;
