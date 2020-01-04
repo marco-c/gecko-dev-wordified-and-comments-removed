@@ -245,6 +245,11 @@ BrowserUtils
 jsm
 '
 '
+CanonicalJSON
+.
+jsm
+'
+'
 CertUtils
 .
 jsm
