@@ -517,7 +517,6 @@ nsIPresShell
 *
 aPresShell
 )
-CPP_THROW_NEW
 ;
 void
 operator
