@@ -901,14 +901,6 @@ txn
 "
 )
 ;
-RefPtr
-<
-gfxContext
->
-targetContext
-=
-aTarget
-;
 dom
 :
 :
