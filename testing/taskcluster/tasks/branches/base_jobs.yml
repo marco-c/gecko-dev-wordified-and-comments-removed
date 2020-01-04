@@ -491,7 +491,7 @@ tasks
 /
 tests
 /
-fx_linux64_cppunit
+fx_linux64_cppunit_dbg
 .
 yml
 crashtest
@@ -529,7 +529,7 @@ tasks
 /
 tests
 /
-fx_linux64_crashtest
+fx_linux64_crashtest_dbg
 .
 yml
 crashtest
@@ -552,7 +552,7 @@ tasks
 /
 tests
 /
-fx_linux64_crashtest_e10s
+fx_linux64_crashtest_e10s_dbg
 .
 yml
 external
@@ -794,7 +794,7 @@ tasks
 /
 tests
 /
-fx_linux64_gtest
+fx_linux64_gtest_dbg
 .
 yml
 jittests
@@ -815,7 +815,7 @@ tasks
 /
 tests
 /
-fx_linux64_jittests
+fx_linux64_jittests_dbg
 .
 yml
 jsreftest
@@ -836,7 +836,7 @@ tasks
 /
 tests
 /
-fx_linux64_jsreftest
+fx_linux64_jsreftest_dbg
 .
 yml
 jsreftest
@@ -859,7 +859,7 @@ tasks
 /
 tests
 /
-fx_linux64_jsreftest_e10s
+fx_linux64_jsreftest_e10s_dbg
 .
 yml
 marionette
@@ -880,7 +880,7 @@ tasks
 /
 tests
 /
-fx_linux64_marionette
+fx_linux64_marionette_dbg
 .
 yml
 marionette
@@ -903,7 +903,7 @@ tasks
 /
 tests
 /
-fx_linux64_marionette_e10s
+fx_linux64_marionette_e10s_dbg
 .
 yml
 marionette
@@ -981,7 +981,7 @@ tasks
 /
 tests
 /
-fx_linux64_mochitest_plain
+fx_linux64_mochitest_plain_dbg
 .
 yml
 mochitest
@@ -1004,7 +1004,7 @@ tasks
 /
 tests
 /
-fx_linux64_mochitest_plain_e10s
+fx_linux64_mochitest_plain_e10s_dbg
 .
 yml
 mochitest
@@ -1027,7 +1027,7 @@ tasks
 /
 tests
 /
-fx_linux64_mochitest_a11y
+fx_linux64_mochitest_a11y_dbg
 .
 yml
 mochitest
@@ -1052,7 +1052,7 @@ tasks
 /
 tests
 /
-fx_linux64_mochitest_bc
+fx_linux64_mochitest_bc_dbg
 .
 yml
 mochitest
@@ -1079,7 +1079,7 @@ tasks
 /
 tests
 /
-fx_linux64_mochitest_bc_e10s
+fx_linux64_mochitest_bc_e10s_dbg
 .
 yml
 mochitest
@@ -1102,7 +1102,7 @@ tasks
 /
 tests
 /
-fx_linux64_mochitest_chrome
+fx_linux64_mochitest_chrome_dbg
 .
 yml
 mochitest
@@ -1127,7 +1127,7 @@ tasks
 /
 tests
 /
-fx_linux64_mochitest_dt
+fx_linux64_mochitest_dt_dbg
 .
 yml
 mochitest
@@ -1150,7 +1150,7 @@ tasks
 /
 tests
 /
-fx_linux64_mochitest_jetpack
+fx_linux64_mochitest_jetpack_dbg
 .
 yml
 mochitest
@@ -1173,7 +1173,7 @@ tasks
 /
 tests
 /
-fx_linux64_mochitest_media
+fx_linux64_mochitest_media_dbg
 .
 yml
 mochitest
@@ -1198,7 +1198,7 @@ tasks
 /
 tests
 /
-fx_linux64_mochitest_media_e10s
+fx_linux64_mochitest_media_e10s_dbg
 .
 yml
 mochitest
@@ -1221,7 +1221,7 @@ tasks
 /
 tests
 /
-fx_linux64_mochitest_gl
+fx_linux64_mochitest_gl_dbg
 .
 yml
 reftest
@@ -1293,7 +1293,7 @@ tasks
 /
 tests
 /
-fx_linux64_reftest
+fx_linux64_reftest_dbg
 .
 yml
 reftest
@@ -1316,7 +1316,7 @@ tasks
 /
 tests
 /
-fx_linux64_reftest_e10s
+fx_linux64_reftest_e10s_dbg
 .
 yml
 web
@@ -1341,7 +1341,7 @@ tasks
 /
 tests
 /
-fx_linux64_web_platform_tests
+fx_linux64_web_platform_tests_dbg
 .
 yml
 web
@@ -1368,7 +1368,7 @@ tasks
 /
 tests
 /
-fx_linux64_web_platform_tests_e10s
+fx_linux64_web_platform_tests_e10s_dbg
 .
 yml
 web
@@ -1395,7 +1395,7 @@ tasks
 /
 tests
 /
-fx_linux64_web_platform_tests_reftests
+fx_linux64_web_platform_tests_reftests_dbg
 .
 yml
 web
@@ -1424,7 +1424,7 @@ tasks
 /
 tests
 /
-fx_linux64_web_platform_tests_reftests_e10s
+fx_linux64_web_platform_tests_reftests_e10s_dbg
 .
 yml
 xpcshell
@@ -1462,7 +1462,7 @@ tasks
 /
 tests
 /
-fx_linux64_xpcshell
+fx_linux64_xpcshell_dbg
 .
 yml
 #
