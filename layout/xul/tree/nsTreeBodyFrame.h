@@ -611,6 +611,11 @@ ClearStyleAndImageCaches
 )
 ;
 void
+CancelImageRequests
+(
+)
+;
+void
 ManageReflowCallback
 (
 const
