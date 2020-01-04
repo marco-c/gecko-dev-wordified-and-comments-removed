@@ -1071,6 +1071,9 @@ nullptr
 ErrorResult
 error
 ;
+ElementCreationOptions
+options
+;
 RefPtr
 <
 Element
@@ -1083,6 +1086,7 @@ doc
 CreateElement
 (
 VIDEO_TAG
+options
 error
 )
 ;

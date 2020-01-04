@@ -86,6 +86,11 @@ dom
 :
 FromParser
 aFromParser
+nsAString
+*
+aIs
+=
+nullptr
 )
 ;
 nsresult
@@ -150,6 +155,11 @@ dom
 :
 FromParser
 aFromParser
+nsAString
+*
+aIs
+=
+nullptr
 )
 ;
 already_AddRefed
