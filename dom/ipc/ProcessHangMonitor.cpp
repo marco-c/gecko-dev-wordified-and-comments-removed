@@ -446,6 +446,7 @@ mForcePaint
 TabId
 mForcePaintTab
 ;
+MOZ_INIT_OUTSIDE_CTOR
 uint64_t
 mForcePaintEpoch
 ;
