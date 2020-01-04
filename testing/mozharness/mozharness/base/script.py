@@ -1764,6 +1764,9 @@ full_name
 else
 :
                 
+try
+:
+                    
 win32file
 .
 SetFileAttributesW
@@ -1783,7 +1786,7 @@ win32file
 .
 FILE_ATTRIBUTE_NORMAL
 )
-                
+                    
 win32file
 .
 DeleteFile
@@ -1798,6 +1801,28 @@ DeleteFile
 \
 '
 +
+full_name
+)
+                
+except
+:
+                    
+self
+.
+run_command
+(
+'
+del
+/
+F
+/
+Q
+"
+%
+s
+"
+'
+%
 full_name
 )
         
