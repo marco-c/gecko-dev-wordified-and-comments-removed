@@ -2228,6 +2228,10 @@ gtk_style_context_get_state
 )
 STUB
 (
+gtk_style_context_get_style
+)
+STUB
+(
 gtk_style_context_has_class
 )
 STUB
