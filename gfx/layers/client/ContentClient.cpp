@@ -1952,6 +1952,12 @@ bool
 aDumpHtml
 )
 {
+if
+(
+!
+aDumpHtml
+)
+{
 aStream
 <
 <
@@ -1969,6 +1975,7 @@ Surface
 :
 "
 ;
+}
 CompositableClient
 :
 :
