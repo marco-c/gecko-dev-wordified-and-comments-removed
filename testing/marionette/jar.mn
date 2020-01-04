@@ -247,6 +247,16 @@ capture
 .
 js
 )
+content
+/
+cookies
+.
+js
+(
+cookies
+.
+js
+)
 #
 ifdef
 ENABLE_TESTS
