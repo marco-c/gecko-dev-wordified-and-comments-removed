@@ -278,10 +278,18 @@ Wait
 self
 .
 marionette
+timeout
+=
+self
+.
+browser
+.
+timeout_page_load
 )
 .
 until
 (
+                
 expected
 .
 element_present
@@ -289,7 +297,6 @@ element_present
 By
 .
 LINK_TEXT
-                                                                 
 '
 http
 :
