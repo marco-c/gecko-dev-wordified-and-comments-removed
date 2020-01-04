@@ -2557,6 +2557,17 @@ options
 .
 remoteProfile
 )
+            
+self
+.
+_devicemanager
+.
+chmodDir
+(
+options
+.
+remoteProfile
+)
         
 except
 devicemanager
@@ -2616,6 +2627,17 @@ _devicemanager
 pushDir
 (
 profileDir
+options
+.
+remoteProfile
+)
+            
+self
+.
+_devicemanager
+.
+chmodDir
+(
 options
 .
 remoteProfile
