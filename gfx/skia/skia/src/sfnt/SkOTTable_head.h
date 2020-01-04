@@ -658,7 +658,7 @@ stddef
 .
 h
 >
-SK_COMPILE_ASSERT
+static_assert
 (
 offsetof
 (
@@ -668,10 +668,12 @@ glyphDataFormat
 =
 =
 52
+"
 SkOTTableHead_glyphDataFormat_not_at_52
+"
 )
 ;
-SK_COMPILE_ASSERT
+static_assert
 (
 sizeof
 (
@@ -680,7 +682,9 @@ SkOTTableHead
 =
 =
 54
+"
 sizeof_SkOTTableHead_not_54
+"
 )
 ;
 #

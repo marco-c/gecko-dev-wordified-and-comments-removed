@@ -19,7 +19,7 @@ GrTypesPriv
 h
 "
 class
-GrEffect
+GrFragmentProcessor
 ;
 struct
 SkRect
@@ -27,11 +27,11 @@ SkRect
 namespace
 GrOvalEffect
 {
-GrEffect
+GrFragmentProcessor
 *
 Create
 (
-GrEffectEdgeType
+GrPrimitiveEdgeType
 const
 SkRect
 &

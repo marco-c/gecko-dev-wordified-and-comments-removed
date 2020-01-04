@@ -26,13 +26,13 @@ SkDisplayBounds
 (
 )
 ;
-virtual
 bool
 draw
 (
 SkAnimateMaker
 &
 )
+override
 ;
 private
 :

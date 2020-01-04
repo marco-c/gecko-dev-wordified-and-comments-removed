@@ -101,7 +101,7 @@ segLength
 0
 )
 return
-NULL
+nullptr
 ;
 else
 return

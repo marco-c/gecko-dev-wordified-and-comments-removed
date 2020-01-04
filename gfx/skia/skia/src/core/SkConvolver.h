@@ -128,7 +128,7 @@ ConvolutionFixed
 x
 )
 {
-SK_COMPILE_ASSERT
+static_assert
 (
 sizeof
 (
@@ -137,7 +137,9 @@ ConvolutionFixed
 =
 =
 2
+"
 ConvolutionFixed_type_should_fit_in_float_mantissa
+"
 )
 ;
 float
@@ -269,7 +271,7 @@ fTrimmedLength
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -409,6 +411,8 @@ outRow
 [
 4
 ]
+size_t
+outRowBytes
 )
 ;
 typedef
@@ -468,7 +472,7 @@ fApplySIMDPadding
 }
 ;
 SK_API
-void
+bool
 BGRAConvolve2D
 (
 const

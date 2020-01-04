@@ -11,6 +11,9 @@ SkTypes
 .
 h
 "
+#
+ifdef
+SK_BUILD_FOR_WIN
 void
 SkTraceHR
 (
@@ -220,5 +223,7 @@ ex
 msg
 0
 )
+#
+endif
 #
 endif

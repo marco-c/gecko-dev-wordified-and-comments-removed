@@ -7,7 +7,21 @@ SkBitmapFilter_DEFINED
 #
 include
 "
+SkFixed
+.
+h
+"
+#
+include
+"
 SkMath
+.
+h
+"
+#
+include
+"
+SkScalar
 .
 h
 "
@@ -352,7 +366,6 @@ c
 )
 {
 }
-virtual
 float
 evaluate
 (
@@ -360,7 +373,7 @@ float
 x
 )
 const
-SK_OVERRIDE
+override
 {
 x
 =
@@ -568,7 +581,6 @@ width
 )
 {
 }
-virtual
 float
 evaluate
 (
@@ -576,7 +588,7 @@ float
 x
 )
 const
-SK_OVERRIDE
+override
 {
 return
 SkTMax
@@ -631,7 +643,6 @@ width
 )
 {
 }
-virtual
 float
 evaluate
 (
@@ -639,7 +650,7 @@ float
 x
 )
 const
-SK_OVERRIDE
+override
 {
 return
 SkTMax
@@ -684,7 +695,6 @@ width
 )
 {
 }
-virtual
 float
 evaluate
 (
@@ -692,7 +702,7 @@ float
 x
 )
 const
-SK_OVERRIDE
+override
 {
 return
 (
@@ -745,7 +755,6 @@ width
 )
 {
 }
-virtual
 float
 evaluate
 (
@@ -753,7 +762,7 @@ float
 x
 )
 const
-SK_OVERRIDE
+override
 {
 if
 (
@@ -865,7 +874,6 @@ width
 )
 {
 }
-virtual
 float
 evaluate
 (
@@ -873,7 +881,7 @@ float
 x
 )
 const
-SK_OVERRIDE
+override
 {
 if
 (

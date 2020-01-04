@@ -6,6 +6,20 @@ SkTypes
 h
 "
 #
+if
+!
+defined
+(
+SK_BUILD_FOR_WIN32
+)
+&
+&
+!
+defined
+(
+SK_BUILD_FOR_ANDROID
+)
+#
 include
 <
 stdarg
@@ -54,3 +68,5 @@ args
 )
 ;
 }
+#
+endif

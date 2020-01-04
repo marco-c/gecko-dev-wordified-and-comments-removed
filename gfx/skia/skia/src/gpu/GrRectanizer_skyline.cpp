@@ -728,13 +728,11 @@ height
 )
 {
 return
-SkNEW_ARGS
-(
+new
 GrRectanizerSkyline
 (
 width
 height
-)
 )
 ;
 }

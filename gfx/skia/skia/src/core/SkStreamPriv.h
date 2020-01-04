@@ -45,5 +45,16 @@ SkStream
 stream
 )
 ;
+bool
+SkStreamCopy
+(
+SkWStream
+*
+out
+SkStream
+*
+input
+)
+;
 #
 endif

@@ -51,7 +51,7 @@ fNextSibling
 =
 fPrevSibling
 =
-NULL
+nullptr
 ;
 fMatrix
 .
@@ -121,7 +121,7 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 fFlags
@@ -143,7 +143,7 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 }
@@ -292,7 +292,7 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 fWidth
@@ -308,7 +308,7 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 this
@@ -362,7 +362,7 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 fLoc
@@ -378,7 +378,7 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 }
@@ -437,7 +437,7 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 fMatrix
@@ -449,7 +449,7 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 }
@@ -665,7 +665,7 @@ next
 )
 !
 =
-NULL
+nullptr
 )
 child
 -
@@ -803,7 +803,7 @@ if
 parent
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -885,7 +885,7 @@ fParent
 )
 !
 =
-NULL
+nullptr
 )
 ;
 return
@@ -906,7 +906,7 @@ SkView
 *
 focus
 =
-NULL
+nullptr
 ;
 const
 SkView
@@ -943,7 +943,7 @@ fParent
 )
 !
 =
-NULL
+nullptr
 )
 ;
 return
@@ -1053,7 +1053,7 @@ next
 )
 !
 =
-NULL
+nullptr
 )
 if
 (
@@ -1070,7 +1070,7 @@ dir
 )
 !
 =
-NULL
+nullptr
 )
 return
 focus
@@ -1103,7 +1103,7 @@ next
 )
 !
 =
-NULL
+nullptr
 )
 if
 (
@@ -1120,7 +1120,7 @@ dir
 )
 !
 =
-NULL
+nullptr
 )
 return
 focus
@@ -1139,7 +1139,7 @@ this
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 SkView
@@ -1169,7 +1169,7 @@ if
 focus
 =
 =
-NULL
+nullptr
 )
 {
 focus
@@ -1257,7 +1257,7 @@ dir
 )
 !
 =
-NULL
+nullptr
 )
 return
 focus
@@ -1292,7 +1292,7 @@ while
 parent
 !
 =
-NULL
+nullptr
 )
 ;
 }
@@ -1310,7 +1310,7 @@ if
 parent
 =
 =
-NULL
+nullptr
 )
 return
 focus
@@ -1365,7 +1365,7 @@ dir
 )
 !
 =
-NULL
+nullptr
 )
 return
 focus
@@ -1398,7 +1398,7 @@ fParent
 }
 }
 return
-NULL
+nullptr
 ;
 }
 void
@@ -1416,7 +1416,7 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 }
@@ -1449,7 +1449,7 @@ getSinkID
 ;
 fType
 =
-NULL
+nullptr
 ;
 fWeOwnTheType
 =
@@ -1457,7 +1457,7 @@ false
 ;
 fOwner
 =
-NULL
+nullptr
 ;
 }
 SkView
@@ -1507,7 +1507,7 @@ false
 }
 fType
 =
-NULL
+nullptr
 ;
 }
 bool
@@ -1549,7 +1549,7 @@ if
 type
 =
 =
-NULL
+nullptr
 )
 type
 =
@@ -1561,7 +1561,7 @@ if
 t
 =
 =
-NULL
+nullptr
 )
 t
 =
@@ -1723,7 +1723,7 @@ fHeight
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1762,12 +1762,15 @@ next
 )
 !
 =
-NULL
+nullptr
 )
 {
 SkPoint
 p
 ;
+#
+if
+0
 if
 (
 !
@@ -1786,6 +1789,36 @@ p
 continue
 ;
 }
+#
+else
+p
+.
+set
+(
+x
+-
+child
+-
+>
+fLoc
+.
+x
+(
+)
+y
+-
+child
+-
+>
+fLoc
+.
+y
+(
+)
+)
+;
+#
+endif
 Click
 *
 click
@@ -1870,7 +1903,7 @@ fTargetID
 ;
 if
 (
-NULL
+nullptr
 =
 =
 target
@@ -2019,7 +2052,7 @@ fTargetID
 ;
 if
 (
-NULL
+nullptr
 =
 =
 target
@@ -2166,7 +2199,7 @@ fTargetID
 ;
 if
 (
-NULL
+nullptr
 =
 =
 target
@@ -2391,7 +2424,7 @@ modi
 )
 {
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -2473,7 +2506,7 @@ if
 fParent
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2492,7 +2525,7 @@ this
 >
 setFocusView
 (
-NULL
+nullptr
 )
 ;
 }
@@ -2501,14 +2534,14 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 SkView
 *
 next
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2562,7 +2595,7 @@ fNextSibling
 =
 fPrevSibling
 =
-NULL
+nullptr
 ;
 this
 -
@@ -2653,7 +2686,7 @@ if
 child
 =
 =
-NULL
+nullptr
 |
 |
 fFirstChild
@@ -2683,7 +2716,7 @@ if
 fFirstChild
 =
 =
-NULL
+nullptr
 )
 {
 child
@@ -2754,7 +2787,7 @@ child
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 this
@@ -2809,7 +2842,7 @@ if
 child
 =
 =
-NULL
+nullptr
 |
 |
 (
@@ -2847,7 +2880,7 @@ if
 fFirstChild
 =
 =
-NULL
+nullptr
 )
 {
 fFirstChild
@@ -2918,7 +2951,7 @@ child
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 this
@@ -3071,9 +3104,6 @@ this
 ;
 if
 (
-NULL
-!
-=
 local
 )
 {
@@ -3466,7 +3496,7 @@ next
 )
 !
 =
-NULL
+nullptr
 )
 child
 -
@@ -3525,7 +3555,7 @@ fParent
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 SkView
@@ -3575,7 +3605,7 @@ fParent
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 SkView
@@ -3601,7 +3631,7 @@ parent
 >
 fFirstChild
 :
-NULL
+nullptr
 ;
 fChild
 =
@@ -3612,7 +3642,7 @@ fFirstChild
 >
 fPrevSibling
 :
-NULL
+nullptr
 ;
 }
 SkView
@@ -3648,7 +3678,7 @@ fFirstChild
 {
 fChild
 =
-NULL
+nullptr
 ;
 }
 else
@@ -3689,7 +3719,7 @@ parent
 >
 fFirstChild
 :
-NULL
+nullptr
 ;
 fChild
 =
@@ -3737,7 +3767,7 @@ fFirstChild
 )
 next
 =
-NULL
+nullptr
 ;
 fChild
 =
@@ -3781,7 +3811,7 @@ else
 bool
 nextNull
 =
-NULL
+nullptr
 =
 =
 fNextSibling
@@ -3789,7 +3819,7 @@ fNextSibling
 bool
 prevNull
 =
-NULL
+nullptr
 =
 =
 fNextSibling
@@ -3988,7 +4018,7 @@ next
 )
 !
 =
-NULL
+nullptr
 )
 {
 if

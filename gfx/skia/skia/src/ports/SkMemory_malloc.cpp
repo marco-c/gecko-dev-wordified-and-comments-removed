@@ -8,13 +8,6 @@ h
 #
 include
 <
-stdio
-.
-h
->
-#
-include
-<
 stdlib
 .
 h
@@ -97,7 +90,7 @@ size
 p
 =
 =
-NULL
+nullptr
 )
 {
 sk_out_of_memory

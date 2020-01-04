@@ -237,13 +237,6 @@ h
 #
 include
 "
-SkDrawTransparentShader
-.
-h
-"
-#
-include
-"
 SkDump
 .
 h
@@ -407,7 +400,7 @@ SkType_
 _class
 :
 return
-NULL
+nullptr
 #
 else
 #
@@ -444,7 +437,7 @@ SkDisplayable
 *
 result
 =
-NULL
+nullptr
 ;
 switch
 (
@@ -928,11 +921,6 @@ Translate
 ;
 CASE_DRAW_NEW
 (
-TransparentShader
-)
-;
-CASE_DRAW_NEW
-(
 Typeface
 )
 ;
@@ -1000,7 +988,7 @@ type
 )
 !
 =
-NULL
+nullptr
 )
 return
 result
@@ -1157,7 +1145,7 @@ SkMemberInfo
 *
 info
 =
-NULL
+nullptr
 ;
 int
 infoCount
@@ -1673,7 +1661,7 @@ infoCountPtr
 )
 !
 =
-NULL
+nullptr
 )
 return
 info
@@ -1681,7 +1669,7 @@ info
 }
 }
 return
-NULL
+nullptr
 ;
 }
 if
@@ -2422,13 +2410,6 @@ translate
 SkType_Translate
 INIT_BOOL_FIELDS
 }
-DRAW_NAME
-(
-"
-transparentShader
-"
-SkType_TransparentShader
-)
 {
 "
 typeface
@@ -2500,7 +2481,7 @@ GetMembers
 (
 maker
 type
-NULL
+nullptr
 )
 ;
 if
@@ -2576,7 +2557,7 @@ GetMembers
 (
 maker
 base
-NULL
+nullptr
 )
 ;
 SkASSERT
@@ -2650,7 +2631,7 @@ GetMembers
 (
 maker
 result
-NULL
+nullptr
 )
 ;
 if
@@ -3141,9 +3122,6 @@ SkType_TextToPath
 case
 SkType_Translate
 :
-case
-SkType_TransparentShader
-:
 return
 true
 ;
@@ -3331,14 +3309,14 @@ if
 result
 !
 =
-NULL
+nullptr
 )
 return
 result
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 #
@@ -3463,7 +3441,7 @@ if
 test
 =
 =
-NULL
+nullptr
 )
 continue
 ;
@@ -3561,7 +3539,7 @@ if
 info
 =
 =
-NULL
+nullptr
 )
 continue
 ;

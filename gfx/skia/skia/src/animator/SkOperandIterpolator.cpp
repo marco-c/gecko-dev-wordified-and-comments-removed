@@ -190,7 +190,7 @@ SkASSERT
 values
 !
 =
-NULL
+nullptr
 )
 ;
 blend

@@ -53,7 +53,6 @@ Light
 light
 )
 ;
-virtual
 SkMask
 :
 :
@@ -62,7 +61,7 @@ getFormat
 (
 )
 const
-SK_OVERRIDE
+override
 ;
 virtual
 bool
@@ -83,7 +82,7 @@ SkIPoint
 margin
 )
 const
-SK_OVERRIDE
+override
 ;
 SK_TO_STRING_OVERRIDE
 (
@@ -104,14 +103,6 @@ Light
 light
 )
 ;
-explicit
-SkEmbossMaskFilter
-(
-SkReadBuffer
-&
-)
-;
-virtual
 void
 flatten
 (
@@ -119,7 +110,7 @@ SkWriteBuffer
 &
 )
 const
-SK_OVERRIDE
+override
 ;
 private
 :

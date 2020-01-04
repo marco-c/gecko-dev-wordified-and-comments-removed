@@ -82,7 +82,7 @@ tag
 0
 ~
 0U
-NULL
+nullptr
 )
 ;
 }

@@ -741,9 +741,6 @@ const
 {
 if
 (
-NULL
-!
-=
 pt
 )
 {
@@ -848,10 +845,6 @@ SkRefCnt
 {
 public
 :
-SK_DECLARE_INST_COUNT
-(
-Artist
-)
 void
 draw
 (
@@ -936,10 +929,6 @@ SkRefCnt
 {
 public
 :
-SK_DECLARE_INST_COUNT
-(
-Layout
-)
 void
 layoutChildren
 (
@@ -1107,7 +1096,6 @@ afterChildren
 (
 SkCanvas
 *
-orig
 )
 {
 }
@@ -1117,10 +1105,8 @@ beforeChild
 (
 SkView
 *
-child
 SkCanvas
 *
-canvas
 )
 {
 }
@@ -1130,10 +1116,8 @@ afterChild
 (
 SkView
 *
-child
 SkCanvas
 *
-canvas
 )
 {
 }

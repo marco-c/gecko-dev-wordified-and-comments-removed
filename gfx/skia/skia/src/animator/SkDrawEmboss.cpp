@@ -97,7 +97,7 @@ count
 3
 )
 return
-NULL
+nullptr
 ;
 return
 SkBlurMaskFilter

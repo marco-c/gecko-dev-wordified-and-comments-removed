@@ -26,12 +26,12 @@ SkDiscrete
 (
 )
 ;
-virtual
 SkPathEffect
 *
 getPathEffect
 (
 )
+override
 ;
 private
 :

@@ -55,12 +55,11 @@ GrShaderObj
 shader
 )
 ;
-virtual
 void
 deleteAction
 (
 )
-SK_OVERRIDE
+override
 ;
 void
 setInUse

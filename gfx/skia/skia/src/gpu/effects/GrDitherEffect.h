@@ -19,12 +19,12 @@ GrTypesPriv
 h
 "
 class
-GrEffect
+GrFragmentProcessor
 ;
 namespace
 GrDitherEffect
 {
-GrEffect
+GrFragmentProcessor
 *
 Create
 (

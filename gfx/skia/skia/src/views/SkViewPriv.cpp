@@ -132,7 +132,7 @@ SkASSERT
 rec
 =
 =
-NULL
+nullptr
 |
 |
 rec
@@ -141,7 +141,7 @@ rec
 fArtist
 !
 =
-NULL
+nullptr
 )
 ;
 return
@@ -152,7 +152,7 @@ rec
 >
 fArtist
 :
-NULL
+nullptr
 ;
 }
 SkView
@@ -175,7 +175,7 @@ if
 obj
 =
 =
-NULL
+nullptr
 )
 {
 this
@@ -377,7 +377,7 @@ SkASSERT
 rec
 =
 =
-NULL
+nullptr
 |
 |
 rec
@@ -386,7 +386,7 @@ rec
 fLayout
 !
 =
-NULL
+nullptr
 )
 ;
 return
@@ -397,7 +397,7 @@ rec
 >
 fLayout
 :
-NULL
+nullptr
 ;
 }
 SkView
@@ -422,7 +422,7 @@ if
 obj
 =
 =
-NULL
+nullptr
 )
 {
 this

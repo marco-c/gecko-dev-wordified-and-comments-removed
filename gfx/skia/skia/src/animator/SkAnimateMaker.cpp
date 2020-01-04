@@ -135,7 +135,7 @@ paint
 :
 fActiveEvent
 (
-NULL
+nullptr
 )
 fAdjustedStart
 (
@@ -167,7 +167,7 @@ paint
 )
 fParentMaker
 (
-NULL
+nullptr
 )
 fTimeline
 (
@@ -387,14 +387,14 @@ extra
 >
 fExtraCallBack
 =
-NULL
+nullptr
 ;
 extra
 -
 >
 fExtraStorage
 =
-NULL
+nullptr
 ;
 break
 ;
@@ -503,7 +503,7 @@ type
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -547,7 +547,7 @@ uri
 ]
 )
 {
-SkAutoTUnref
+SkAutoTDelete
 <
 SkStream
 >
@@ -1122,7 +1122,7 @@ result
 )
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -1314,7 +1314,7 @@ maker
 =
 this
 ?
-NULL
+nullptr
 :
 maker
 -
@@ -1484,7 +1484,7 @@ SkDisplayEvent
 :
 :
 kOnload
-NULL
+nullptr
 )
 ;
 movieMaker
@@ -1498,7 +1498,7 @@ SkDisplayEvent
 :
 :
 kOnload
-NULL
+nullptr
 )
 ;
 movieMaker
@@ -1700,7 +1700,7 @@ if
 active
 =
 =
-NULL
+nullptr
 )
 return
 ;
@@ -1735,7 +1735,7 @@ success
 computeID
 (
 original
-NULL
+nullptr
 &
 newID
 )

@@ -182,7 +182,7 @@ stddef
 .
 h
 >
-SK_COMPILE_ASSERT
+static_assert
 (
 offsetof
 (
@@ -192,10 +192,12 @@ numberOfHMetrics
 =
 =
 34
+"
 SkOTTableHorizontalHeader_numberOfHMetrics_not_at_34
+"
 )
 ;
-SK_COMPILE_ASSERT
+static_assert
 (
 sizeof
 (
@@ -204,7 +206,9 @@ SkOTTableHorizontalHeader
 =
 =
 36
+"
 sizeof_SkOTTableHorizontalHeader_not_36
+"
 )
 ;
 #

@@ -45,9 +45,9 @@ void
 SK_BLITBWMASK_NAME
 (
 const
-SkBitmap
+SkPixmap
 &
-bitmap
+dst
 const
 SkMask
 &
@@ -106,7 +106,7 @@ fRowBytes
 size_t
 bitmap_rowBytes
 =
-bitmap
+dst
 .
 rowBytes
 (
@@ -162,7 +162,7 @@ SK_BLITBWMASK_DEVTYPE
 *
 device
 =
-bitmap
+dst
 .
 SK_BLITBWMASK_GETADDR
 (

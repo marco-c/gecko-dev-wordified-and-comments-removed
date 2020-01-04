@@ -26,13 +26,11 @@ SkCreateNullCanvas
 )
 {
 return
-SkNEW_ARGS
-(
+new
 SkNWayCanvas
 (
 0
 0
-)
 )
 ;
 }

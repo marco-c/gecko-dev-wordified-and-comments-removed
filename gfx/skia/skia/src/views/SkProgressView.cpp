@@ -55,11 +55,11 @@ flags
 )
 fOnShader
 (
-NULL
+nullptr
 )
 fOffShader
 (
-NULL
+nullptr
 )
 {
 fValue
@@ -72,7 +72,7 @@ fMax
 ;
 fInterp
 =
-NULL
+nullptr
 ;
 fDoInterp
 =
@@ -137,7 +137,7 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 }
@@ -254,7 +254,7 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 }
@@ -319,7 +319,7 @@ fInterp
 ;
 fInterp
 =
-NULL
+nullptr
 ;
 }
 percent
@@ -360,7 +360,7 @@ this
 >
 inval
 (
-NULL
+nullptr
 )
 ;
 }
@@ -579,7 +579,7 @@ SkShader
 kRepeat_TileMode
 )
 :
-NULL
+nullptr
 ;
 }
 void
@@ -623,7 +623,7 @@ SkASSERT
 fOnShader
 =
 =
-NULL
+nullptr
 )
 ;
 SkASSERT
@@ -631,7 +631,7 @@ SkASSERT
 fOffShader
 =
 =
-NULL
+nullptr
 )
 ;
 if
@@ -653,7 +653,7 @@ on
 )
 !
 =
-NULL
+nullptr
 )
 fOnShader
 =
@@ -681,7 +681,7 @@ off
 )
 !
 =
-NULL
+nullptr
 )
 fOffShader
 =

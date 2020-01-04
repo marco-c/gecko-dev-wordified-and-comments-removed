@@ -141,7 +141,7 @@ size
 parentMaker
 =
 =
-NULL
+nullptr
 )
 return
 ;
@@ -684,7 +684,7 @@ SkDisplayEvent
 :
 :
 kOnload
-NULL
+nullptr
 )
 ;
 movieMaker
@@ -698,7 +698,7 @@ SkDisplayEvent
 :
 :
 kOnload
-NULL
+nullptr
 )
 ;
 fLoaded

@@ -14,10 +14,13 @@ h
 class
 SkCanvasState
 ;
-namespace
+class
+SK_API
 SkCanvasStateUtils
 {
-SK_API
+public
+:
+static
 SkCanvasState
 *
 CaptureCanvasState
@@ -27,7 +30,7 @@ SkCanvas
 canvas
 )
 ;
-SK_API
+static
 SkCanvas
 *
 CreateFromCanvasState
@@ -38,7 +41,7 @@ SkCanvasState
 state
 )
 ;
-SK_API
+static
 void
 ReleaseCanvasState
 (
