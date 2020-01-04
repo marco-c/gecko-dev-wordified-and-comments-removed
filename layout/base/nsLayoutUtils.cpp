@@ -1277,6 +1277,8 @@ kDisplayKTable
 [
 sIndexOfGridInDisplayTable
 ]
+.
+mKeyword
 =
 isGridEnabled
 ?
@@ -1300,6 +1302,8 @@ kDisplayKTable
 [
 sIndexOfInlineGridInDisplayTable
 ]
+.
+mKeyword
 =
 isGridEnabled
 ?
@@ -1589,6 +1593,8 @@ kDisplayKTable
 [
 sIndexOfRubyInDisplayTable
 ]
+.
+mKeyword
 =
 isRubyEnabled
 ?
@@ -1612,6 +1618,8 @@ kDisplayKTable
 [
 sIndexOfRubyBaseInDisplayTable
 ]
+.
+mKeyword
 =
 isRubyEnabled
 ?
@@ -1635,6 +1643,8 @@ kDisplayKTable
 [
 sIndexOfRubyBaseContainerInDisplayTable
 ]
+.
+mKeyword
 =
 isRubyEnabled
 ?
@@ -1658,6 +1668,8 @@ kDisplayKTable
 [
 sIndexOfRubyTextInDisplayTable
 ]
+.
+mKeyword
 =
 isRubyEnabled
 ?
@@ -1681,6 +1693,8 @@ kDisplayKTable
 [
 sIndexOfRubyTextContainerInDisplayTable
 ]
+.
+mKeyword
 =
 isRubyEnabled
 ?
@@ -1810,6 +1824,8 @@ kPositionKTable
 [
 sIndexOfStickyInPositionTable
 ]
+.
+mKeyword
 =
 isStickyEnabled
 ?
@@ -1912,6 +1928,8 @@ kDisplayKTable
 [
 sIndexOfContentsInDisplayTable
 ]
+.
+mKeyword
 =
 isDisplayContentsEnabled
 ?
@@ -2033,6 +2051,8 @@ kTextAlignKTable
 [
 sIndexOfTrueInTextAlignTable
 ]
+.
+mKeyword
 =
 isTextAlignTrueEnabled
 ?
@@ -2055,6 +2075,8 @@ kTextAlignLastKTable
 [
 sIndexOfTrueInTextAlignLastTable
 ]
+.
+mKeyword
 =
 isTextAlignTrueEnabled
 ?
@@ -2211,6 +2233,8 @@ kFloatKTable
 [
 sIndexOfInlineStartInFloatTable
 ]
+.
+mKeyword
 =
 isFloatLogicalValuesEnabled
 ?
@@ -2233,6 +2257,8 @@ kFloatKTable
 [
 sIndexOfInlineEndInFloatTable
 ]
+.
+mKeyword
 =
 isFloatLogicalValuesEnabled
 ?
@@ -2255,6 +2281,8 @@ kClearKTable
 [
 sIndexOfInlineStartInClearTable
 ]
+.
+mKeyword
 =
 isFloatLogicalValuesEnabled
 ?
@@ -2277,6 +2305,8 @@ kClearKTable
 [
 sIndexOfInlineEndInClearTable
 ]
+.
+mKeyword
 =
 isFloatLogicalValuesEnabled
 ?
