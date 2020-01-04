@@ -1420,9 +1420,9 @@ applicationName
 APP_NAME
 buildId
 :
-"
-2007010101
-"
+gAppInfo
+.
+appBuildID
 version
 :
 APP_VERSION

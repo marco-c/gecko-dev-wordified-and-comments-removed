@@ -474,7 +474,13 @@ XPCShell
 &
 1
 &
-2007010101
+"
++
+gAppInfo
+.
+appBuildID
++
+"
 &
 "
 +

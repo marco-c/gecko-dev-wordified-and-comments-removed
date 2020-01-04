@@ -142,6 +142,16 @@ readJSONFile
 cacheTemplateFile
 )
 ;
+cacheTemplate
+.
+buildID
+=
+getAppInfo
+(
+)
+.
+platformBuildID
+;
 let
 engineFile
 =

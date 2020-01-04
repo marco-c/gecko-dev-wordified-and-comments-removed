@@ -410,9 +410,9 @@ APPLICATION_TEST_DATA
 {
 buildId
 :
-"
-2007010101
-"
+gAppInfo
+.
+appBuildID
 name
 :
 APP_NAME
