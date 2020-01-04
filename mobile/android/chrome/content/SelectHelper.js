@@ -795,6 +795,10 @@ if
 currentElement
 .
 disabled
+=
+=
+=
+true
 )
 {
 return
