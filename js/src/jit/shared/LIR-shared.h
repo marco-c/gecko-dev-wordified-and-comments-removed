@@ -3013,7 +3013,7 @@ f_
 }
 ;
 class
-LInt32x4
+LSimd128Int
 :
 public
 LInstructionHelper
@@ -3027,11 +3027,11 @@ public
 :
 LIR_HEADER
 (
-Int32x4
+Simd128Int
 )
 ;
 explicit
-LInt32x4
+LSimd128Int
 (
 )
 {
@@ -3061,7 +3061,7 @@ value
 }
 ;
 class
-LFloat32x4
+LSimd128Float
 :
 public
 LInstructionHelper
@@ -3075,11 +3075,11 @@ public
 :
 LIR_HEADER
 (
-Float32x4
+Simd128Float
 )
 ;
 explicit
-LFloat32x4
+LSimd128Float
 (
 )
 {

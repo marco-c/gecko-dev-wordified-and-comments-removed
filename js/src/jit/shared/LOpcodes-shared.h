@@ -78,12 +78,12 @@ SimdSplatX4
 \
 _
 (
-Int32x4
+Simd128Int
 )
 \
 _
 (
-Float32x4
+Simd128Float
 )
 \
 _
