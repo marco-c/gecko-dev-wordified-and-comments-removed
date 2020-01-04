@@ -67,6 +67,9 @@ class
 MediaStreamTrackListener
 ;
 class
+PeerConnectionImpl
+;
+class
 ProcessedMediaStream
 ;
 namespace
@@ -409,6 +412,13 @@ mozilla
 :
 :
 DOMMediaStream
+;
+friend
+class
+mozilla
+:
+:
+PeerConnectionImpl
 ;
 public
 :
