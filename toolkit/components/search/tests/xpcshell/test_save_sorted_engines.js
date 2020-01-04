@@ -125,7 +125,7 @@ json
 [
 "
 [
-app
+profile
 ]
 /
 test

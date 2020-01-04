@@ -192,7 +192,7 @@ json
 [
 "
 [
-app
+profile
 ]
 /
 test

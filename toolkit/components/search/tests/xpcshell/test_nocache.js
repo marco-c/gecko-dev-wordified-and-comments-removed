@@ -279,7 +279,7 @@ _id
 =
 "
 [
-app
+profile
 ]
 /
 test
