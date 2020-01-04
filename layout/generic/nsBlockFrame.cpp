@@ -21882,6 +21882,7 @@ return
 false
 ;
 }
+{
 nsAutoOOFFrameList
 oofs
 (
@@ -21950,6 +21951,7 @@ oofs
 mList
 )
 ;
+}
 }
 if
 (
