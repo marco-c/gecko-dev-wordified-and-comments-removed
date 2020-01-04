@@ -1003,7 +1003,6 @@ def
 call_alternates
 (
 binaries
-command_args
 *
 args
 *
@@ -1025,7 +1024,8 @@ binaries
 try
 :
             
-return
+rc
+=
 subprocess
 .
 call
@@ -1040,14 +1040,37 @@ c
 '
 binary
 ]
-+
-command_args
 *
 args
 *
 *
 kwargs
 )
+            
+if
+rc
+=
+=
+127
+:
+                
+raise
+OSError
+(
+"
+command
+not
+found
+:
+%
+s
+"
+%
+binary
+)
+            
+return
+rc
         
 except
 OSError
@@ -1239,8 +1262,6 @@ if
 call_alternates
 (
 autoconfs
-[
-]
 cwd
 =
 DIR
