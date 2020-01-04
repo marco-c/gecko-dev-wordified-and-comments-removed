@@ -15453,10 +15453,13 @@ rv
 NS_ENSURE_TRUE
 (
 !
+NS_FAILED
+(
 rv
 .
-Failed
+StealNSResult
 (
+)
 )
 -
 1
