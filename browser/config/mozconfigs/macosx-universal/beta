@@ -62,8 +62,6 @@ topsrcdir
 /
 build
 /
-macosx
-/
 mozconfig
 .
 rust
