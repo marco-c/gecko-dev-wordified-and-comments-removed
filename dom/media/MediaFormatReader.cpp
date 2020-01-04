@@ -4169,9 +4169,16 @@ aDecoder
 {
 return
 !
+(
 aDecoder
 .
 mDraining
+|
+|
+aDecoder
+.
+mDrainComplete
+)
 &
 &
 !
