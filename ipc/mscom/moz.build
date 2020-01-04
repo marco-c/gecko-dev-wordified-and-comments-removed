@@ -107,11 +107,6 @@ COMApartmentRegion
 h
 '
 '
-MainThreadRuntime
-.
-h
-'
-'
 Utils
 .
 h
@@ -121,11 +116,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-MainThreadRuntime
-.
-cpp
-'
 '
 Utils
 .
