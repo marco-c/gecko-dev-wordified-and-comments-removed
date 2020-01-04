@@ -2906,7 +2906,16 @@ nsIFrame
 aFrame
 nsCSSProperty
 aProperty
-AnimationPtrArray
+nsTArray
+<
+RefPtr
+<
+dom
+:
+:
+Animation
+>
+>
 &
 aAnimations
 Layer

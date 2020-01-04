@@ -43455,6 +43455,15 @@ HasCSSAnimations
 )
 {
 AnimationCollection
+<
+mozilla
+:
+:
+dom
+:
+:
+CSSAnimation
+>
 *
 collection
 =
