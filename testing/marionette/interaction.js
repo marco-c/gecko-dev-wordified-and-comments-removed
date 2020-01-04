@@ -324,6 +324,7 @@ el
 ;
 if
 (
+!
 visible
 )
 {
