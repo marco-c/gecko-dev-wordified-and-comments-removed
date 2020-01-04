@@ -872,7 +872,7 @@ window
 let
 button
 =
-event
+opts
 .
 button
 |
@@ -882,7 +882,7 @@ button
 let
 clickCount
 =
-event
+opts
 .
 clickCount
 |
@@ -896,7 +896,7 @@ event
 .
 parseModifiers_
 (
-event
+opts
 )
 ;
 if
@@ -910,7 +910,7 @@ event
 )
 &
 &
-event
+opts
 .
 type
 )
@@ -919,7 +919,7 @@ domutils
 .
 sendMouseEvent
 (
-event
+opts
 .
 type
 left
