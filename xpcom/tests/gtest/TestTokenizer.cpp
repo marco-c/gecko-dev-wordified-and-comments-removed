@@ -2681,7 +2681,7 @@ test2
 nsAutoCString
 test1
 ;
-nsDependentCString
+nsDependentCSubstring
 test2
 ;
 char
