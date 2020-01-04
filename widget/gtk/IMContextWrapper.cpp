@@ -1499,12 +1499,6 @@ updatePreference
 notifications
 )
 ;
-updatePreference
-.
-DontNotifyChangesCausedByComposition
-(
-)
-;
 return
 updatePreference
 ;
