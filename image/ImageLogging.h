@@ -20,13 +20,6 @@ prinrval
 .
 h
 "
-#
-include
-"
-nsString
-.
-h
-"
 static
 mozilla
 :

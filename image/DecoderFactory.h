@@ -63,9 +63,6 @@ SurfaceFlags
 .
 h
 "
-class
-nsACString
-;
 namespace
 mozilla
 {
