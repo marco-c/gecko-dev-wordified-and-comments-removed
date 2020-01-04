@@ -174,7 +174,7 @@ SK_BUILD_FOR_WIN32
 #
 include
 "
-Windows
+windows
 .
 h
 "
