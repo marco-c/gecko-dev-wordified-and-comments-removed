@@ -4596,6 +4596,16 @@ this
 )
 ;
 }
+if
+(
+aFlags
+&
+eNeverAdjustTimer
+)
+{
+return
+;
+}
 mMostRecentRefresh
 =
 aFlags
@@ -8548,6 +8558,7 @@ true
 ;
 EnsureTimerStarted
 (
+eNeverAdjustTimer
 )
 ;
 }
