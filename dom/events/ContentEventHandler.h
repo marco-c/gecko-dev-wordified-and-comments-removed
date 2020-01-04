@@ -1202,6 +1202,14 @@ nsIFrame
 aFrame
 )
 ;
+FrameRelativeRect
+GuessLineBreakerRectAfter
+(
+nsIContent
+*
+aTextContent
+)
+;
 void
 EnsureNonEmptyRect
 (
