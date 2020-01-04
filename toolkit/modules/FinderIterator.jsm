@@ -93,7 +93,10 @@ get
 kIterationSizeMax
 (
 )
+{
+return
 kIterationSizeMax
+}
 start
 (
 {
