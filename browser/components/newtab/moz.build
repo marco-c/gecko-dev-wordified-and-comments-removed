@@ -141,6 +141,11 @@ NewTabRemoteResources
 jsm
 '
 '
+NewTabSearchProvider
+.
+jsm
+'
+'
 NewTabURL
 .
 jsm
