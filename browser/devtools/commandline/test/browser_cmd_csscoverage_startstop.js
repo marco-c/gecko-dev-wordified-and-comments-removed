@@ -325,7 +325,6 @@ expectedVisited
 =
 [
 '
-null
 '
 PAGE_2
 PAGE_1
