@@ -237,6 +237,12 @@ NewHandle
 (
 )
 ;
+CacheEntryHandle
+*
+NewWriteHandle
+(
+)
+;
 public
 :
 uint32_t
@@ -905,12 +911,6 @@ nsIOutputStream
 *
 *
 _retval
-)
-;
-CacheEntryHandle
-*
-NewWriteHandle
-(
 )
 ;
 void
