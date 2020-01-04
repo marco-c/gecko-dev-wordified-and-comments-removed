@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_psm_OCSPRequestor_h
+OCSPRequestor_h
 #
 define
-mozilla_psm_OCSPRequestor_h
+OCSPRequestor_h
 #
 include
 "
@@ -27,8 +27,9 @@ psm
 Result
 DoOCSPRequest
 (
-PLArenaPool
-*
+const
+UniquePLArenaPool
+&
 arena
 const
 char

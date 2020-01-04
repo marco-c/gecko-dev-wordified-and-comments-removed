@@ -5879,7 +5879,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-ScopedPLArenaPool
+UniquePLArenaPool
 arena
 (
 PORT_NewArena
@@ -5946,6 +5946,10 @@ nullptr
 &
 certP7
 arena
+.
+get
+(
+)
 nullptr
 nullptr
 nullptr

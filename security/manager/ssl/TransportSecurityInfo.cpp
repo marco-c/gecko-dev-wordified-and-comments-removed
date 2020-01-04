@@ -2356,7 +2356,7 @@ return
 false
 ;
 }
-ScopedPLArenaPool
+UniquePLArenaPool
 arena
 (
 PORT_NewArena

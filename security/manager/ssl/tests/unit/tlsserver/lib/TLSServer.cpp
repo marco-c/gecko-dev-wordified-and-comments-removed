@@ -2188,7 +2188,7 @@ if
 issuerCert
 )
 {
-ScopedPLArenaPool
+UniquePLArenaPool
 arena
 (
 PORT_NewArena
@@ -2265,7 +2265,7 @@ arena
 =
 arena
 .
-forget
+release
 (
 )
 ;
