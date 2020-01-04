@@ -22531,6 +22531,15 @@ gfxSize
 if
 (
 aTransform
+&
+&
+!
+gfxPrefs
+:
+:
+LayersTilesEnabled
+(
+)
 )
 {
 RestrictScaleToMaxLayerSize
