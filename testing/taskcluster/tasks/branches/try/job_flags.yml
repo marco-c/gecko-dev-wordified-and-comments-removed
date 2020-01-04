@@ -654,6 +654,8 @@ yml
 firefox
 -
 ui
+-
+functional
 :
 allowed_build_tasks
 :
@@ -671,12 +673,14 @@ tasks
 /
 tests
 /
-fx_linux64_firefox_ui
+fx_linux64_firefox_ui_functional
 .
 yml
 firefox
 -
 ui
+-
+functional
 -
 e10s
 :
@@ -696,7 +700,7 @@ tasks
 /
 tests
 /
-fx_linux64_firefox_ui_e10s
+fx_linux64_firefox_ui_functional_e10s
 .
 yml
 gtest
