@@ -96,6 +96,11 @@ MPL
 DevToolsModules
 (
 '
+index
+.
+css
+'
+'
 manager
 .
 js
