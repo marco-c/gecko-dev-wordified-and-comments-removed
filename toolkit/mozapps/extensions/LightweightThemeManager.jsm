@@ -2450,6 +2450,12 @@ AddonWrapper_creatorGetter
 )
 {
 return
+"
+author
+"
+in
+aTheme
+?
 new
 AddonManagerPrivate
 .
@@ -2459,6 +2465,8 @@ aTheme
 .
 author
 )
+:
+null
 ;
 }
 )
