@@ -317,11 +317,10 @@ this
 )
 ;
 for
-each
 (
 var
 notification
-in
+of
 Weave
 .
 Notifications
@@ -532,11 +531,10 @@ this
 allNotifications
 ;
 for
-each
 (
 var
 notification
-in
+of
 notifications
 )
 {

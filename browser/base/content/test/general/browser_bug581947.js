@@ -482,11 +482,10 @@ null
 ]
 ;
 for
-each
 (
 let
 data
-in
+of
 testData
 )
 {
@@ -522,11 +521,10 @@ false
 ]
 ;
 for
-each
 (
 let
 data
-in
+of
 todo_testData
 )
 {
