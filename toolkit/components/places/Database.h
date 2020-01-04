@@ -478,7 +478,7 @@ InitFunctions
 )
 ;
 nsresult
-InitTempTriggers
+InitTempEntities
 (
 )
 ;

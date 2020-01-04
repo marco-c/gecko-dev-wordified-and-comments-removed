@@ -1208,6 +1208,16 @@ idList
 )
 )
 ;
+yield
+db
+.
+execute
+(
+DELETE
+FROM
+moz_updatehosts_temp
+)
+;
 }
 )
 ;
