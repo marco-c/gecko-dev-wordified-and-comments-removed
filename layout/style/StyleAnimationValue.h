@@ -441,6 +441,7 @@ eUnit_Coord
 eUnit_Percent
 eUnit_Float
 eUnit_Color
+eUnit_CurrentColor
 eUnit_Calc
 eUnit_ObjectPosition
 eUnit_URL
@@ -1261,6 +1262,11 @@ SetColorValue
 (
 nscolor
 aColor
+)
+;
+void
+SetCurrentColorValue
+(
 )
 ;
 void
