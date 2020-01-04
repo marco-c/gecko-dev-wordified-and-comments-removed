@@ -299,7 +299,7 @@ jsm
 ;
 const
 {
-loadPreferredDevices
+_loadPreferredDevices
 }
 =
 require
@@ -312,6 +312,8 @@ client
 responsive
 .
 html
+/
+actions
 /
 devices
 "
