@@ -1037,10 +1037,17 @@ path
 .
 dirname
 (
+os
+.
+path
+.
+abspath
+(
 old_configure
 [
 0
 ]
+)
 )
 .
 endswith
