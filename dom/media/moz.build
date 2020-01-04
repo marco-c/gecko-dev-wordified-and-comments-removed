@@ -818,6 +818,11 @@ VorbisUtils
 .
 h
 '
+'
+XiphExtradata
+.
+h
+'
 ]
 EXPORTS
 .
@@ -1256,6 +1261,11 @@ cpp
 '
 '
 WebVTTListener
+.
+cpp
+'
+'
+XiphExtradata
 .
 cpp
 '
