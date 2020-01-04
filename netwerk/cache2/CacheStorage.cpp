@@ -473,7 +473,6 @@ AddStorageEntry
 this
 noRefURI
 aIdExtension
-true
 truncate
 getter_AddRefs
 (
@@ -586,7 +585,6 @@ AddStorageEntry
 this
 noRefURI
 aIdExtension
-true
 true
 getter_AddRefs
 (

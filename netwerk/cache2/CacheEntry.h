@@ -994,6 +994,11 @@ DoomFile
 (
 )
 ;
+void
+RemoveForcedValidity
+(
+)
+;
 already_AddRefed
 <
 CacheEntryHandle
