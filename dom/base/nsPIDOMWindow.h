@@ -970,6 +970,10 @@ bool
 aFreezeChildren
 =
 true
+bool
+aFreezeWorkers
+=
+true
 )
 =
 0
@@ -980,6 +984,10 @@ ResumeTimeouts
 (
 bool
 aThawChildren
+=
+true
+bool
+aThawWorkers
 =
 true
 )
@@ -2049,7 +2057,7 @@ nsIDocShell
 MOZ_NON_OWNING_REF
 mDocShell
 ;
-RefPtr
+nsRefPtr
 <
 nsPerformance
 >
