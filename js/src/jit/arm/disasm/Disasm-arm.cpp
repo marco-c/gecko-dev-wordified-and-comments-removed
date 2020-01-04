@@ -12287,6 +12287,8 @@ instr
 break
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 0xB
 :
