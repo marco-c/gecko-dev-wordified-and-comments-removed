@@ -441,7 +441,9 @@ title
 )
 ;
 let
+{
 icon
+}
 =
 IconDetails
 .
