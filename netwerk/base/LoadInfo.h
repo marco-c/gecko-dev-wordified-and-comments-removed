@@ -132,6 +132,15 @@ Clone
 )
 const
 ;
+already_AddRefed
+<
+nsILoadInfo
+>
+CloneForNewRequest
+(
+)
+const
+;
 private
 :
 LoadInfo
