@@ -199,6 +199,17 @@ ext
 -
 c
 -
+extension
+.
+js
+content
+/
+extensions
+/
+ext
+-
+c
+-
 runtime
 .
 js
