@@ -12121,7 +12121,6 @@ PREVIEW_MAX_DIM_PREF
 )
 }
 ;
-yield
 setImageTooltip
 (
 tooltip
@@ -12140,7 +12139,6 @@ catch
 e
 )
 {
-yield
 setBrokenImageTooltip
 (
 tooltip

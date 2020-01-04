@@ -496,7 +496,6 @@ imgWidth
 IMAGE_PADDING
 )
 ;
-return
 tooltip
 .
 setContent
@@ -579,7 +578,6 @@ textContent
 =
 message
 ;
-return
 tooltip
 .
 setContent
