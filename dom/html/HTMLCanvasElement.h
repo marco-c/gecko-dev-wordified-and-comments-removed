@@ -819,7 +819,7 @@ aPremultAlpha
 nullptr
 )
 ;
-void
+nsresult
 RegisterFrameCaptureListener
 (
 FrameCaptureListener
