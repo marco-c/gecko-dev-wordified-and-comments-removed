@@ -2566,9 +2566,6 @@ AudioInput
 mAudioInput
 ;
 bool
-mAudioEngineInit
-;
-bool
 mFullDuplex
 ;
 bool

@@ -568,10 +568,6 @@ mAudioInput
 (
 nullptr
 )
-mAudioEngineInit
-(
-false
-)
 mFullDuplex
 (
 aPrefs
@@ -1823,12 +1819,6 @@ return
 }
 if
 (
-!
-mAudioEngineInit
-)
-{
-if
-(
 ptrVoEBase
 -
 >
@@ -1840,11 +1830,6 @@ Init
 )
 {
 return
-;
-}
-mAudioEngineInit
-=
-true
 ;
 }
 if
