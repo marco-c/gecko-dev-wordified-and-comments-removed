@@ -985,7 +985,7 @@ eBasicEventClass
 WINDOW_ONLY_EVENT
 (
 deviceorientation
-NS_DEVICE_ORIENTATION
+eDeviceOrientation
 EventNameType_None
 eBasicEventClass
 )
