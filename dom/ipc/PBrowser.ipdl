@@ -2063,8 +2063,6 @@ int32_t
 IMEEnabled
 int32_t
 IMEOpen
-intptr_t
-NativeIMEContext
 )
 ;
 prio

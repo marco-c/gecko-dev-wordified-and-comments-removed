@@ -2194,6 +2194,12 @@ take
 (
 )
 ;
+case
+NS_NATIVE_IME_CONTEXT
+:
+return
+NS_ONLY_ONE_NATIVE_IME_CONTEXT
+;
 }
 return
 nullptr
@@ -2357,12 +2363,6 @@ GetInputContext
 (
 )
 {
-mInputContext
-.
-mNativeIMEContext
-=
-nullptr
-;
 return
 mInputContext
 ;

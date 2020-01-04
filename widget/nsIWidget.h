@@ -353,6 +353,10 @@ define
 NS_NATIVE_PLUGIN_ID
 13
 #
+define
+NS_NATIVE_IME_CONTEXT
+14
+#
 ifdef
 XP_MACOSX
 #

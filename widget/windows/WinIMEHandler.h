@@ -75,6 +75,9 @@ void
 *
 GetNativeData
 (
+nsWindow
+*
+aWindow
 uint32_t
 aDataType
 )

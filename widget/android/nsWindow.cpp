@@ -5862,6 +5862,12 @@ void
 )
 this
 ;
+case
+NS_NATIVE_IME_CONTEXT
+:
+return
+NS_ONLY_ONE_NATIVE_IME_CONTEXT
+;
 }
 return
 nullptr
@@ -10196,12 +10202,6 @@ IMEState
 :
 :
 OPEN_STATE_NOT_SUPPORTED
-;
-context
-.
-mNativeIMEContext
-=
-nullptr
 ;
 return
 context

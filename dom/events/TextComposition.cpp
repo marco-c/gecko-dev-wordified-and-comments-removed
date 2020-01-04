@@ -192,11 +192,10 @@ aCompositionEvent
 widget
 -
 >
-GetInputContext
+GetNativeData
 (
+NS_NATIVE_IME_CONTEXT
 )
-.
-mNativeIMEContext
 )
 mCompositionStartOffset
 (
@@ -298,11 +297,10 @@ mNativeContext
 aWidget
 -
 >
-GetInputContext
+GetNativeData
 (
+NS_NATIVE_IME_CONTEXT
 )
-.
-mNativeIMEContext
 ;
 }
 bool
