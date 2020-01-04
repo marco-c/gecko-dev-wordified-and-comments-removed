@@ -310,7 +310,7 @@ onClose
 {
 this
 .
-on
+once
 (
 "
 close
@@ -330,7 +330,7 @@ onRun
 {
 this
 .
-on
+once
 (
 "
 run
@@ -357,7 +357,7 @@ aOnClose
 {
 this
 .
-on
+once
 (
 "
 close
@@ -373,7 +373,7 @@ aOnRun
 {
 this
 .
-on
+once
 (
 "
 run
