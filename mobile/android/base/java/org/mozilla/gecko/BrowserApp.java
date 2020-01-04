@@ -813,17 +813,6 @@ gecko
 .
 util
 .
-ScreenshotObserver
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-util
-.
 StringUtils
 ;
 import

@@ -1001,13 +1001,6 @@ java
 '
 util
 /
-ScreenshotObserver
-.
-java
-'
-'
-util
-/
 StringUtils
 .
 java
@@ -3646,6 +3639,11 @@ java
 restrictions
 /
 RestrictionProvider
+.
+java
+'
+'
+ScreenshotObserver
 .
 java
 '
