@@ -1646,11 +1646,11 @@ sIsInitialized
 ;
 static
 int32_t
-sIndexOfTrueInTextAlignTable
+sIndexOfUnsafeInTextAlignTable
 ;
 static
 int32_t
-sIndexOfTrueInTextAlignLastTable
+sIndexOfUnsafeInTextAlignLastTable
 ;
 bool
 isTextAlignUnsafeEnabled
@@ -1670,7 +1670,7 @@ if
 sIsInitialized
 )
 {
-sIndexOfTrueInTextAlignTable
+sIndexOfUnsafeInTextAlignTable
 =
 nsCSSProps
 :
@@ -1684,7 +1684,7 @@ nsCSSProps
 kTextAlignKTable
 )
 ;
-sIndexOfTrueInTextAlignLastTable
+sIndexOfUnsafeInTextAlignLastTable
 =
 nsCSSProps
 :
@@ -1705,7 +1705,7 @@ true
 }
 MOZ_ASSERT
 (
-sIndexOfTrueInTextAlignTable
+sIndexOfUnsafeInTextAlignTable
 >
 =
 0
@@ -1716,7 +1716,7 @@ nsCSSProps
 :
 kTextAlignKTable
 [
-sIndexOfTrueInTextAlignTable
+sIndexOfUnsafeInTextAlignTable
 ]
 .
 mKeyword
@@ -1729,7 +1729,7 @@ eCSSKeyword_UNKNOWN
 ;
 MOZ_ASSERT
 (
-sIndexOfTrueInTextAlignLastTable
+sIndexOfUnsafeInTextAlignLastTable
 >
 =
 0
@@ -1740,7 +1740,7 @@ nsCSSProps
 :
 kTextAlignLastKTable
 [
-sIndexOfTrueInTextAlignLastTable
+sIndexOfUnsafeInTextAlignLastTable
 ]
 .
 mKeyword
