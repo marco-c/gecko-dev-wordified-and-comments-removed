@@ -1753,6 +1753,13 @@ java
 '
 db
 /
+LocalUrlAnnotations
+.
+java
+'
+'
+db
+/
 LocalURLMetadata
 .
 java
@@ -1873,6 +1880,13 @@ java
 db
 /
 TopSitesCursorWrapper
+.
+java
+'
+'
+db
+/
+UrlAnnotations
 .
 java
 '
