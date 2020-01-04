@@ -18,6 +18,17 @@ mozilla
 /
 gfx
 /
+MatrixFwd
+.
+h
+"
+#
+include
+"
+mozilla
+/
+gfx
+/
 Point
 .
 h
@@ -78,9 +89,6 @@ mozilla
 namespace
 gfx
 {
-class
-Matrix4x4
-;
 template
 <
 class

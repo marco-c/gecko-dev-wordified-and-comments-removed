@@ -229,6 +229,11 @@ Matrix
 h
 '
 '
+MatrixFwd
+.
+h
+'
+'
 NumericTools
 .
 h

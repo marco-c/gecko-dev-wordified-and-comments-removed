@@ -36,6 +36,17 @@ mozilla
 /
 gfx
 /
+MatrixFwd
+.
+h
+"
+#
+include
+"
+mozilla
+/
+gfx
+/
 Point
 .
 h
@@ -134,9 +145,6 @@ gfx
 {
 class
 Matrix
-;
-class
-Matrix4x4
 ;
 class
 DrawTarget
