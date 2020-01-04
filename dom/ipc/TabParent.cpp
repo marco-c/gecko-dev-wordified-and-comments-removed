@@ -2434,6 +2434,10 @@ OnStartSignedPackageRequest
 nsIChannel
 *
 aChannel
+const
+nsACString
+&
+aPackageId
 )
 {
 if
@@ -2535,6 +2539,7 @@ frameLoader
 SwitchProcessAndLoadURI
 (
 uri
+aPackageId
 )
 ;
 if

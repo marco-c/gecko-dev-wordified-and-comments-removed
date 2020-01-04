@@ -2362,6 +2362,10 @@ OnStartSignedPackageRequest
 nsIChannel
 *
 aChannel
+const
+nsACString
+&
+aPackageId
 )
 ;
 protected
