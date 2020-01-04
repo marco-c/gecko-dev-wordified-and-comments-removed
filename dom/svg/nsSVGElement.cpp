@@ -4854,6 +4854,13 @@ nsGkAtoms
 word_spacing
 }
 {
+&
+nsGkAtoms
+:
+:
+writing_mode
+}
+{
 nullptr
 }
 }
