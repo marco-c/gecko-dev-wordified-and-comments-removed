@@ -1067,13 +1067,6 @@ true
 )
 ;
 }
-this
-.
-removeRequestsForInner
-(
-innerWindowID
-)
-;
 let
 {
 innerWindowID
@@ -1081,6 +1074,13 @@ currentURI
 }
 =
 browser
+;
+this
+.
+removeRequestsForInner
+(
+innerWindowID
+)
 ;
 let
 loadType
