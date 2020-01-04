@@ -81,6 +81,15 @@ browser
 /
 schemas
 /
+commands
+.
+json
+content
+/
+browser
+/
+schemas
+/
 context_menus
 .
 json
