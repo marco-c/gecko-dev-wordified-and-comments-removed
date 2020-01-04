@@ -85,7 +85,14 @@ show
 (
 tabId
 )
-;
+.
+then
+(
+(
+)
+=
+>
+{
 browser
 .
 test
@@ -97,6 +104,9 @@ action
 -
 shown
 "
+)
+;
+}
 )
 ;
 }
