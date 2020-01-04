@@ -3927,14 +3927,9 @@ UNKNOWN
 if
 (
 nas
-&
-&
-(
-nas
 !
 =
 nasArray
-)
 )
 {
 PR_DELETE
