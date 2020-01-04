@@ -1265,7 +1265,7 @@ eAnimationEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_ANIMATION_ITERATION
+eAnimationIteration
 eAnimationEventFirst
 +
 2
