@@ -365,6 +365,9 @@ TrackSize
 struct
 GridItemInfo
 ;
+struct
+GridReflowState
+;
 protected
 :
 static
@@ -440,9 +443,6 @@ GridArea
 ;
 class
 GridItemCSSOrderIterator
-;
-struct
-GridReflowState
 ;
 class
 LineNameMap
