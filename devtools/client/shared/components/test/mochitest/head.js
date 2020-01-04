@@ -127,10 +127,6 @@ resource
 :
 /
 /
-gre
-/
-modules
-/
 devtools
 /
 shared
@@ -157,10 +153,11 @@ resource
 :
 /
 /
-/
-modules
-/
 devtools
+/
+client
+/
+framework
 /
 gDevTools
 .
