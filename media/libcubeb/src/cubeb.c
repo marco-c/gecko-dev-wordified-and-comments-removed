@@ -363,6 +363,14 @@ cubeb_stream_params
 output_stream_params
 )
 {
+XASSERT
+(
+input_stream_params
+|
+|
+output_stream_params
+)
+;
 if
 (
 output_stream_params

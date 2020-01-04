@@ -759,14 +759,14 @@ input_frames
 )
 {
 return
+size_t
+(
 ceilf
 (
 input_frames
-*
+/
 resampling_ratio
 )
-+
-1
 -
 resampling_in_buffer
 .
@@ -775,6 +775,7 @@ length
 )
 /
 channels
+)
 ;
 }
 T
@@ -912,6 +913,8 @@ output_frame_count
 )
 {
 return
+uint32_t
+(
 ceilf
 (
 output_frame_count
@@ -927,6 +930,7 @@ resampling_in_buffer
 .
 length
 (
+)
 )
 )
 ;
