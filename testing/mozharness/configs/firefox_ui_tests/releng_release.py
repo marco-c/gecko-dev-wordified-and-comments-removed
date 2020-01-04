@@ -1,6 +1,8 @@
 import
 os
 import
+sys
+import
 mozharness
 external_tools_path
 =
@@ -80,6 +82,12 @@ gittool
 py
 '
 :
+[
+            
+sys
+.
+executable
+            
 os
 .
 path
@@ -94,12 +102,20 @@ py
 '
 )
         
+]
+        
 '
 hgtool
 .
 py
 '
 :
+[
+            
+sys
+.
+executable
+            
 os
 .
 path
@@ -113,6 +129,8 @@ hgtool
 py
 '
 )
+        
+]
     
 }
     
