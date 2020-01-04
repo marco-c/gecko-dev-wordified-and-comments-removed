@@ -16842,6 +16842,8 @@ fts_path
 )
 )
 ;
+MOZ_FALLTHROUGH
+;
 case
 FTS_F
 :
@@ -17040,6 +17042,8 @@ OK
 break
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 FTS_ERR
 :
