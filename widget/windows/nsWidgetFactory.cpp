@@ -787,6 +787,10 @@ kNS_APPSHELL_CID
 false
 nullptr
 nsAppShellConstructor
+Module
+:
+:
+ALLOW_IN_GPU_PROCESS
 }
 {
 &
@@ -1077,6 +1081,10 @@ win
 "
 &
 kNS_APPSHELL_CID
+Module
+:
+:
+ALLOW_IN_GPU_PROCESS
 }
 {
 "
@@ -1531,6 +1539,10 @@ nullptr
 nullptr
 nsAppShellInit
 nsWidgetWindowsModuleDtor
+Module
+:
+:
+ALLOW_IN_GPU_PROCESS
 }
 ;
 NSMODULE_DEFN
