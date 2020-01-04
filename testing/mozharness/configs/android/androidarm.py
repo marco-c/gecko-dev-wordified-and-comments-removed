@@ -1967,6 +1967,14 @@ options
 "
 -
 -
+dm_trans
+=
+sut
+"
+                
+"
+-
+-
 deviceIP
 =
 %
