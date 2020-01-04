@@ -545,6 +545,12 @@ nsIFile
 >
 mContentTempDir
 ;
+nsCOMPtr
+<
+nsIFile
+>
+mContentProcessSandboxTempDir
+;
 #
 endif
 nsCOMArray
