@@ -1308,6 +1308,11 @@ LoadFixedSlotT
 \
 _
 (
+LoadFixedSlotAndUnbox
+)
+\
+_
+(
 StoreFixedSlotV
 )
 \

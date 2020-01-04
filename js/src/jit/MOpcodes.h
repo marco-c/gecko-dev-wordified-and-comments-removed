@@ -1034,6 +1034,11 @@ LoadFixedSlot
 \
 _
 (
+LoadFixedSlotAndUnbox
+)
+\
+_
+(
 StoreFixedSlot
 )
 \

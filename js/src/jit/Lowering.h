@@ -1202,6 +1202,14 @@ ins
 )
 ;
 void
+visitLoadFixedSlotAndUnbox
+(
+MLoadFixedSlotAndUnbox
+*
+ins
+)
+;
+void
 visitFunctionEnvironment
 (
 MFunctionEnvironment
