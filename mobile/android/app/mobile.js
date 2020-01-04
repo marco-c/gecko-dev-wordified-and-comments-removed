@@ -7510,9 +7510,11 @@ https
 /
 snippets
 .
+cdn
+.
 mozilla
 .
-com
+net
 /
 json
 /
