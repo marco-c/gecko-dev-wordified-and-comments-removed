@@ -7494,13 +7494,3 @@ mediaControl
 false
 )
 ;
-pref
-(
-"
-media
-.
-useAudioChannelAPI
-"
-true
-)
-;
