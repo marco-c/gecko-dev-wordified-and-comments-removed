@@ -33416,7 +33416,7 @@ false
 if
 (
 !
-Invoke
+InternalInvoke
 (
 cx
 callArgs

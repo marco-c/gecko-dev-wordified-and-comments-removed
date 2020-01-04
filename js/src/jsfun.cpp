@@ -5914,7 +5914,7 @@ vp
 ;
 }
 return
-Invoke
+InternalInvoke
 (
 cx
 args

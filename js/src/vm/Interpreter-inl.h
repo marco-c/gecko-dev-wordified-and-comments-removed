@@ -4646,10 +4646,11 @@ incWarmUpCounter
 }
 }
 return
-Invoke
+InternalCallOrConstruct
 (
 cx
 args_
+NO_CONSTRUCT
 )
 ;
 }

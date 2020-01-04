@@ -2470,7 +2470,7 @@ bool
 js
 :
 :
-Invoke
+InternalCallOrConstruct
 (
 JSContext
 *
@@ -3023,10 +3023,11 @@ thisObj
 if
 (
 !
-Invoke
+InternalCallOrConstruct
 (
 cx
 args
+NO_CONSTRUCT
 )
 )
 return
@@ -3220,7 +3221,7 @@ args
 if
 (
 !
-Invoke
+InternalCallOrConstruct
 (
 cx
 args
@@ -14916,7 +14917,7 @@ else
 if
 (
 !
-Invoke
+InternalInvoke
 (
 cx
 args
@@ -15482,7 +15483,7 @@ error
 if
 (
 !
-Invoke
+InternalInvoke
 (
 cx
 args
