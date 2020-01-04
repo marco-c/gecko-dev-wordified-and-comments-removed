@@ -112,9 +112,9 @@ FxAccountTheme
 parent
 =
 "
-style
-/
 Gecko
+.
+Preferences
 "
 /
 >
