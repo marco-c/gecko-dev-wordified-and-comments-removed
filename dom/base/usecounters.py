@@ -415,7 +415,7 @@ desc
 append_counter
 (
 '
-USE_COUNTER2_
+USE_COUNTER_
 %
 s_DOCUMENT
 '
@@ -435,7 +435,7 @@ desc
 append_counter
 (
 '
-USE_COUNTER2_
+USE_COUNTER_
 %
 s_PAGE
 '

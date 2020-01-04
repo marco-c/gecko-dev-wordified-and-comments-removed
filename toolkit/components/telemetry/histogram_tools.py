@@ -2083,7 +2083,7 @@ context
 name
 =
 '
-USE_COUNTER2_DEPRECATED_
+USE_COUNTER_DEPRECATED_
 %
 s_
 %
@@ -2342,7 +2342,7 @@ x
 startswith
 (
 "
-USE_COUNTER2_
+USE_COUNTER_
 "
 )
                                  
