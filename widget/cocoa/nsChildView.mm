@@ -16567,6 +16567,10 @@ mTextureSize
 =
 mBufferSize
 ;
+needInit
+=
+true
+;
 }
 if
 (
