@@ -622,11 +622,11 @@ NS_COMPOSITION_COMMIT
 "
 ;
 case
-NS_SELECTION_SET
+eSetSelection
 :
 return
 "
-NS_SELECTION_SET
+eSetSelection
 "
 ;
 default

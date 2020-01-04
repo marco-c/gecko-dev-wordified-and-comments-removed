@@ -8019,7 +8019,7 @@ WidgetSelectionEvent
 event
 (
 true
-NS_SELECTION_SET
+eSetSelection
 this
 )
 ;
@@ -8387,7 +8387,7 @@ WidgetSelectionEvent
 selEvent
 (
 true
-NS_SELECTION_SET
+eSetSelection
 this
 )
 ;
@@ -8825,7 +8825,7 @@ WidgetSelectionEvent
 event
 (
 true
-NS_SELECTION_SET
+eSetSelection
 this
 )
 ;
