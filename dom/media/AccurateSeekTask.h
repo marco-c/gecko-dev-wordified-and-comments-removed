@@ -70,7 +70,7 @@ media
 :
 TimeUnit
 &
-aDuration
+aEnd
 int64_t
 aCurrentMediaTime
 )
@@ -220,7 +220,10 @@ aSample
 )
 ;
 const
-int64_t
+media
+:
+:
+TimeUnit
 mCurrentTimeBeforeSeek
 ;
 const
