@@ -2968,6 +2968,12 @@ buffer
 =
 dest
 ;
+iter
+.
+data
+=
+NULL
+;
 ssse3_bilinear_cover_iter_init
 (
 &
