@@ -10,6 +10,8 @@ from
 .
 .
 util
+.
+docker
 import
 docker_image
 DOCKER_ROOT

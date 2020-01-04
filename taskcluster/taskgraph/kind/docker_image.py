@@ -32,6 +32,8 @@ from
 taskgraph
 .
 util
+.
+docker
 import
 docker_image
 import
@@ -51,7 +53,9 @@ treeherder
 as
 treeherder_transform
 from
-taskcluster_graph
+taskgraph
+.
+util
 .
 templates
 import

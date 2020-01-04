@@ -33,7 +33,9 @@ nice
 as
 slugid
 from
-taskcluster_graph
+taskgraph
+.
+util
 .
 templates
 import

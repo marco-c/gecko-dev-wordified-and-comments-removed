@@ -124,4 +124,7 @@ toctree
 taskgraph
 parameters
 attributes
+yaml
+-
+templates
 old
