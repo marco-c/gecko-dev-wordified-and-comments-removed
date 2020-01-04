@@ -12761,10 +12761,14 @@ TabIndex
 )
 ;
 bool
-override
 disabled
 =
 false
+;
+bool
+disallowOverridingFocusability
+=
+true
 ;
 if
 (
@@ -12773,7 +12777,7 @@ IsEditableRoot
 )
 )
 {
-override
+disallowOverridingFocusability
 =
 true
 ;
@@ -12798,7 +12802,7 @@ tabIndex
 }
 else
 {
-override
+disallowOverridingFocusability
 =
 false
 ;
@@ -12858,7 +12862,7 @@ tabindex
 )
 ;
 return
-override
+disallowOverridingFocusability
 ;
 }
 void
