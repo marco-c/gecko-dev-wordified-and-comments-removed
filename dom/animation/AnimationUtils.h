@@ -206,6 +206,12 @@ IsOffscreenThrottlingEnabled
 (
 )
 ;
+static
+bool
+IsCoreAPIEnabled
+(
+)
+;
 }
 ;
 }
