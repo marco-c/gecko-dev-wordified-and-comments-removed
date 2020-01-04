@@ -152,15 +152,6 @@ aContentType
 ;
 virtual
 nsresult
-Init
-(
-MediaDecoderReader
-*
-aCloneDonor
-)
-;
-virtual
-nsresult
 ResetDecode
 (
 )

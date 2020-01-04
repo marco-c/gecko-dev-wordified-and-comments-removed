@@ -738,9 +738,6 @@ WebMReader
 :
 Init
 (
-MediaDecoderReader
-*
-aCloneDonor
 )
 {
 mBufferedState

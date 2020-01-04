@@ -556,9 +556,6 @@ GStreamerReader
 :
 Init
 (
-MediaDecoderReader
-*
-aCloneDonor
 )
 {
 GStreamerFormatHelper

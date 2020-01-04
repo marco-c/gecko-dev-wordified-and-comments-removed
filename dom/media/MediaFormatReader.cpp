@@ -908,9 +908,6 @@ MediaFormatReader
 :
 Init
 (
-MediaDecoderReader
-*
-aCloneDonor
 )
 {
 MOZ_ASSERT

@@ -261,13 +261,12 @@ virtual
 nsresult
 Init
 (
-MediaDecoderReader
-*
-aCloneDonor
 )
-=
-0
+{
+return
+NS_OK
 ;
+}
 virtual
 void
 ReleaseMediaResources

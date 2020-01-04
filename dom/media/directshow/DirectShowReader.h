@@ -77,15 +77,6 @@ DirectShowReader
 (
 )
 ;
-nsresult
-Init
-(
-MediaDecoderReader
-*
-aCloneDonor
-)
-override
-;
 bool
 DecodeAudioData
 (
