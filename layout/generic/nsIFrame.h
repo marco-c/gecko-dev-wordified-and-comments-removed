@@ -5443,7 +5443,6 @@ aView
 )
 const
 ;
-virtual
 nsIWidget
 *
 GetNearestWidget
@@ -5451,7 +5450,6 @@ GetNearestWidget
 )
 const
 ;
-virtual
 nsIWidget
 *
 GetNearestWidget
