@@ -3121,7 +3121,7 @@ nsChangeHint_UpdateEffects
 |
 nsChangeHint_RepaintFrame
 |
-nsChangeHint_SchedulePaint
+nsChangeHint_UpdateBackgroundPosition
 |
 nsChangeHint_NeutralChange
 ;
