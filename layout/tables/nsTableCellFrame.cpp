@@ -2810,7 +2810,7 @@ std
 :
 max
 (
-0
+bStartInset
 kidBStart
 )
 ;
