@@ -267,11 +267,7 @@ lineAlign
 SetterThrows
 ]
 attribute
-(
-double
-or
-AutoKeyword
-)
+long
 position
 ;
 [
@@ -335,14 +331,6 @@ readonly
 attribute
 double
 computedLine
-;
-[
-ChromeOnly
-]
-readonly
-attribute
-double
-computedPosition
 ;
 [
 ChromeOnly
