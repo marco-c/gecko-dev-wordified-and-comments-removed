@@ -1044,6 +1044,12 @@ VK_ESCAPE
 yield
 promise
 ;
+yield
+synthesizeNativeMouseMove
+(
+searchbar
+)
+;
 }
 )
 ;
