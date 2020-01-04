@@ -89,13 +89,6 @@ Accessible
 aRoot
 )
 :
-mFilterFunc
-(
-filters
-:
-:
-GetEmbeddedObject
-)
 mRoot
 (
 aRoot
@@ -117,12 +110,6 @@ aAccessible
 friend
 class
 Accessible
-;
-filters
-:
-:
-FilterFuncPtr
-mFilterFunc
 ;
 Accessible
 *
