@@ -474,6 +474,17 @@ keyword
 ;
 public
 abstract
+boolean
+hasBookmarkWithGuid
+(
+ContentResolver
+cr
+String
+guid
+)
+;
+public
+abstract
 Cursor
 getBookmarksInFolder
 (
