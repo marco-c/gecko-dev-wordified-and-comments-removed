@@ -252,6 +252,11 @@ state
 )
 {
 case
+tsd_state_uninitialized
+:
+break
+;
+case
 tsd_state_nominal
 :
 #

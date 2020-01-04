@@ -1118,6 +1118,7 @@ tsd
 false
 )
 true
+true
 )
 ;
 break
@@ -1135,6 +1136,7 @@ tcache_get
 tsd
 false
 )
+true
 true
 )
 ;
@@ -1306,6 +1308,7 @@ tsd
 false
 )
 true
+true
 )
 ;
 #
@@ -1335,6 +1338,7 @@ tcache_get
 tsd
 false
 )
+true
 true
 )
 ;
@@ -1769,6 +1773,7 @@ tcache_get
 tsd
 false
 )
+true
 true
 )
 ;

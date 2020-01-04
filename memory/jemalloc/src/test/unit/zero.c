@@ -323,7 +323,7 @@ test_zero
 SMALL_MAXCLASS
 +
 1
-arena_maxclass
+large_maxclass
 )
 ;
 }
@@ -341,7 +341,7 @@ config_fill
 ;
 test_zero
 (
-arena_maxclass
+large_maxclass
 +
 1
 chunksize

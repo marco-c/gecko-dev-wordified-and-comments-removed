@@ -502,7 +502,7 @@ arena_i_purge
 )
 static
 void
-arena_purge
+arena_i_purge
 (
 unsigned
 arena_ind
@@ -8549,7 +8549,7 @@ ret
 }
 static
 void
-arena_purge
+arena_i_purge
 (
 unsigned
 arena_ind
@@ -8769,7 +8769,7 @@ malloc_mutex_lock
 ctl_mtx
 )
 ;
-arena_purge
+arena_i_purge
 (
 mib
 [

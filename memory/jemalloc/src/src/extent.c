@@ -40,9 +40,11 @@ JEMALLOC_INLINE_C
 int
 extent_szad_comp
 (
+const
 extent_node_t
 *
 a
+const
 extent_node_t
 *
 b
@@ -150,9 +152,11 @@ JEMALLOC_INLINE_C
 int
 extent_ad_comp
 (
+const
 extent_node_t
 *
 a
+const
 extent_node_t
 *
 b

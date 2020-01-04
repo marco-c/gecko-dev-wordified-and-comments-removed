@@ -97,6 +97,9 @@ quarantine_t
 *
 quarantine
 ;
+size_t
+size
+;
 assert
 (
 tsd_nominal
@@ -105,15 +108,8 @@ tsd
 )
 )
 ;
-quarantine
+size
 =
-(
-quarantine_t
-*
-)
-iallocztm
-(
-tsd
 offsetof
 (
 quarantine_t
@@ -136,6 +132,21 @@ sizeof
 quarantine_obj_t
 )
 )
+;
+quarantine
+=
+(
+quarantine_t
+*
+)
+iallocztm
+(
+tsd
+size
+size2index
+(
+size
+)
 false
 tcache_get
 (
@@ -144,6 +155,7 @@ true
 )
 true
 NULL
+true
 )
 ;
 if
@@ -248,6 +260,7 @@ tcache_get
 tsd
 false
 )
+true
 true
 )
 ;
@@ -469,6 +482,7 @@ tsd
 false
 )
 true
+true
 )
 ;
 tsd_quarantine_set
@@ -538,6 +552,7 @@ obj
 ptr
 NULL
 false
+true
 )
 ;
 quarantine
@@ -683,6 +698,7 @@ tsd
 ptr
 NULL
 false
+true
 )
 ;
 return
@@ -927,6 +943,7 @@ tsd
 ptr
 NULL
 false
+true
 )
 ;
 }
@@ -981,6 +998,7 @@ tcache_get
 tsd
 false
 )
+true
 true
 )
 ;
