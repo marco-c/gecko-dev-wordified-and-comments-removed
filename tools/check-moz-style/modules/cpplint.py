@@ -2353,6 +2353,14 @@ output_format
 '
 emacs
 '
+        
+self
+.
+output_stream
+=
+sys
+.
+stderr
     
 def
 set_output_format
@@ -2703,6 +2711,37 @@ error_count
 +
 =
 1
+    
+def
+set_stream
+(
+self
+stream
+)
+:
+        
+self
+.
+output_stream
+=
+stream
+    
+def
+write_error
+(
+self
+error
+)
+:
+        
+self
+.
+output_stream
+.
+write
+(
+error
+)
 _cpplint_state
 =
 _CppLintState
@@ -4419,11 +4458,7 @@ vs7
 '
 :
             
-sys
-.
-stderr
-.
-write
+write_error
 (
 '
 %
@@ -4460,11 +4495,7 @@ confidence
 else
 :
             
-sys
-.
-stderr
-.
-write
+write_error
 (
 '
 %
@@ -5956,13 +5987,13 @@ else
 error
 (
 filename
-0
+1
 '
 legal
 /
 copyright
 '
-5
+3
               
 '
 No
@@ -5970,25 +6001,6 @@ copyright
 message
 found
 .
-'
-              
-'
-You
-should
-have
-a
-line
-:
-"
-Copyright
-[
-year
-]
-<
-Copyright
-Owner
->
-"
 '
 )
 def
@@ -6330,7 +6342,7 @@ define
 error
 (
 filename
-0
+1
 '
 build
 /
@@ -18670,7 +18682,7 @@ static_cast
 to
 upcast
 .
-Google
+Mozilla
 doesn
 '
 t
@@ -22495,6 +22507,9 @@ def
 process_file
 (
 filename
+relative_name
+=
+None
 error
 =
 error
@@ -22541,6 +22556,15 @@ found
 "
 "
 "
+    
+if
+not
+relative_name
+:
+        
+relative_name
+=
+filename
     
 try
 :
@@ -22689,11 +22713,7 @@ except
 IOError
 :
         
-sys
-.
-stderr
-.
-write
+write_error
 (
             
 "
@@ -22714,7 +22734,7 @@ reading
 n
 "
 %
-filename
+relative_name
 )
         
 return
@@ -22769,11 +22789,7 @@ c
 )
 :
         
-sys
-.
-stderr
-.
-write
+write_error
 (
 '
 Ignoring
@@ -22802,7 +22818,7 @@ else
         
 process_file_data
 (
-filename
+relative_name
 file_extension
 lines
 error
@@ -22826,8 +22842,8 @@ n
             
 error
 (
-filename
-0
+relative_name
+1
 '
 whitespace
 /
@@ -22863,11 +22879,7 @@ n
 '
 )
     
-sys
-.
-stderr
-.
-write
+write_error
 (
 '
 Done
@@ -22878,7 +22890,7 @@ s
 n
 '
 %
-filename
+relative_name
 )
 def
 print_usage
@@ -22919,11 +22931,7 @@ message
 "
 "
     
-sys
-.
-stderr
-.
-write
+write_error
 (
 _USAGE
 )
@@ -22997,11 +23005,7 @@ filter
 "
 "
     
-sys
-.
-stderr
-.
-write
+write_error
 (
 _ERROR_CATEGORIES
 )
@@ -23331,6 +23335,32 @@ filenames
 additional_flag_values
 )
 def
+set_stream
+(
+stream
+)
+:
+    
+_cpplint_state
+.
+set_stream
+(
+stream
+)
+def
+write_error
+(
+error
+)
+:
+    
+_cpplint_state
+.
+write_error
+(
+error
+)
+def
 use_mozilla_styles
 (
 )
@@ -23380,6 +23410,13 @@ blank_line
 -
 build
 /
+include
+'
+        
+'
+-
+build
+/
 include_what_you_use
 '
         
@@ -23388,6 +23425,13 @@ include_what_you_use
 readability
 /
 braces
+'
+        
+'
+-
+readability
+/
+null
 '
         
 '
@@ -23446,11 +23490,7 @@ main
 )
 :
     
-sys
-.
-stderr
-.
-write
+write_error
 (
         
 '
@@ -23674,11 +23714,7 @@ process_file
 filename
 )
     
-sys
-.
-stderr
-.
-write
+write_error
 (
 '
 Total
