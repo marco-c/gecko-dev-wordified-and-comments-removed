@@ -764,6 +764,9 @@ ComponentType
 componentType
 )
 {
+#
+ifdef
+DEBUG
 uint8_t
 totalBits
 =
@@ -811,6 +814,8 @@ bytesPerPixel
 8
 )
 ;
+#
+endif
 bool
 isColorFormat
 =
