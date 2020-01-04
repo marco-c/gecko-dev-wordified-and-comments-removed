@@ -210,6 +210,17 @@ skiaContent
 2
 160
 )
+fuzzy
+-
+if
+(
+browserIsRemote
+&
+&
+d2d
+53
+185
+)
 skip
 -
 if
