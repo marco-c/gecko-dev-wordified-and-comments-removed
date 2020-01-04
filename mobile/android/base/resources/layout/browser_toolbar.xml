@@ -436,6 +436,8 @@ gecko
 .
 widget
 .
+themed
+.
 ThemedImageView
 android
 :
@@ -741,6 +743,8 @@ mozilla
 gecko
 .
 widget
+.
+themed
 .
 ThemedImageView
 android

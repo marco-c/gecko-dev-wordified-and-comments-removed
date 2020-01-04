@@ -83,6 +83,8 @@ gecko
 .
 widget
 .
+themed
+.
 ThemedTextView
 ;
 import
@@ -105,15 +107,6 @@ android
 graphics
 .
 PorterDuffColorFilter
-;
-import
-android
-.
-graphics
-.
-drawable
-.
-Drawable
 ;
 import
 android

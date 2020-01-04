@@ -6,6 +6,8 @@ mozilla
 gecko
 .
 widget
+.
+themed
 ;
 import
 org
@@ -110,13 +112,13 @@ AttributeSet
 ;
 public
 class
-ThemedView
+ThemedRelativeLayout
 extends
 android
 .
-view
+widget
 .
-View
+RelativeLayout
 implements
 LightweightTheme
 .
@@ -257,7 +259,7 @@ ColorStateList
 mDrawableColors
 ;
 public
-ThemedView
+ThemedRelativeLayout
 (
 Context
 context
@@ -280,7 +282,7 @@ attrs
 ;
 }
 public
-ThemedView
+ThemedRelativeLayout
 (
 Context
 context

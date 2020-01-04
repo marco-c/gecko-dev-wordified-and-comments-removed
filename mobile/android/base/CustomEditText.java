@@ -25,6 +25,8 @@ gecko
 .
 widget
 .
+themed
+.
 ThemedEditText
 ;
 import

@@ -87,6 +87,8 @@ gecko
 .
 widget
 .
+themed
+.
 ThemedTextView
 xmlns
 :

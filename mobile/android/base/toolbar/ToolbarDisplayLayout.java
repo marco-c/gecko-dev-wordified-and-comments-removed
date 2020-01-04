@@ -214,6 +214,8 @@ gecko
 .
 widget
 .
+themed
+.
 ThemedLinearLayout
 ;
 import
@@ -224,6 +226,8 @@ mozilla
 gecko
 .
 widget
+.
+themed
 .
 ThemedTextView
 ;

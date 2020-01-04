@@ -843,6 +843,8 @@ gecko
 .
 widget
 .
+themed
+.
 ThemedImageButton
 android
 :
@@ -1014,6 +1016,8 @@ gecko
 .
 widget
 .
+themed
+.
 ThemedImageButton
 android
 :
@@ -1083,6 +1087,8 @@ mozilla
 gecko
 .
 widget
+.
+themed
 .
 ThemedImageView
 android
@@ -1181,6 +1187,8 @@ mozilla
 gecko
 .
 widget
+.
+themed
 .
 ThemedImageView
 android
