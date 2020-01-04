@@ -1054,6 +1054,11 @@ mozinterruptend
 private
 :
 void
+DisconnectFromWindow
+(
+)
+;
+void
 RemoveFromDecodeQueue
 (
 WebAudioDecodeJob
