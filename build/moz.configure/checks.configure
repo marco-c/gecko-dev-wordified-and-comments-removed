@@ -542,9 +542,6 @@ display_ret
 )
 if
 error
-is
-not
-None
 :
 die
 (

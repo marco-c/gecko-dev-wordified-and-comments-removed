@@ -2394,10 +2394,6 @@ type
 '
 '
                  
-language
-=
-'
-'
 flags
 =
 None
@@ -2459,10 +2455,6 @@ compiler
 wrapper
 =
 wrapper
-            
-language
-=
-language
         
 )
     
@@ -2608,13 +2600,6 @@ type
 '
             
 '
-language
-'
-:
-'
-'
-            
-'
 flags
 '
 :
@@ -2656,12 +2641,6 @@ type
 gcc
 '
             
-language
-=
-'
-C
-'
-            
 flags
 =
 [
@@ -2727,14 +2706,6 @@ type
 :
 '
 gcc
-'
-            
-'
-language
-'
-:
-'
-C
 '
             
 '
@@ -2822,14 +2793,6 @@ type
 :
 '
 gcc
-'
-            
-'
-language
-'
-:
-'
-C
 '
             
 '
@@ -2973,14 +2936,6 @@ type
 :
 '
 gcc
-'
-            
-'
-language
-'
-:
-'
-C
 '
             
 '
