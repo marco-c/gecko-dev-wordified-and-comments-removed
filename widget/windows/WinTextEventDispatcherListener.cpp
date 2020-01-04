@@ -39,6 +39,13 @@ WinIMEHandler
 .
 h
 "
+#
+include
+"
+WinTextEventDispatcherListener
+.
+h
+"
 namespace
 mozilla
 {

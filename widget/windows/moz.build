@@ -325,6 +325,11 @@ WidgetTraceEvent
 cpp
 '
 '
+WinCompositorWidgetProxy
+.
+cpp
+'
+'
 WindowHook
 .
 cpp
