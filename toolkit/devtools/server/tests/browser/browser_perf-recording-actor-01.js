@@ -560,6 +560,13 @@ Client
 )
 ;
 yield
+front
+.
+destroy
+(
+)
+;
+yield
 closeDebuggerClient
 (
 client
