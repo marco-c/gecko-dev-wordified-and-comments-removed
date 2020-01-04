@@ -1362,6 +1362,16 @@ function
 (
 )
 {
+prepareEnv
+(
+next
+)
+;
+}
+function
+(
+)
+{
 setupDataDirs
 (
 next
