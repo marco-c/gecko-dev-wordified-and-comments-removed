@@ -401,8 +401,6 @@ lastClientX
 let
 deltaY
 =
-2
-*
 (
 clientY
 -
