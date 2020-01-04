@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 on
@@ -417,7 +422,7 @@ transport
 on
 (
 "
-onPacket
+packet
 "
 onPacket1
 )
@@ -448,7 +453,7 @@ transport
 off
 (
 "
-onPacket
+packet
 "
 onPacket1
 )
@@ -527,7 +532,7 @@ transport
 on
 (
 "
-onPacket
+packet
 "
 onPacket2
 )
@@ -558,7 +563,7 @@ transport
 off
 (
 "
-onPacket
+packet
 "
 onPacket2
 )
