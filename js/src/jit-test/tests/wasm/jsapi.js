@@ -271,8 +271,7 @@ Uint8Array
 )
 TypeError
 /
-wasm
-validation
+compile
 error
 /
 )
@@ -293,8 +292,7 @@ ArrayBuffer
 )
 TypeError
 /
-wasm
-validation
+compile
 error
 /
 )

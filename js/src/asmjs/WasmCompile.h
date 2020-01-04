@@ -64,9 +64,6 @@ false
 UniqueModule
 Compile
 (
-JSContext
-*
-cx
 Bytes
 &
 &
@@ -74,7 +71,10 @@ code
 CompileArgs
 &
 &
-compileArgs
+args
+UniqueChars
+*
+error
 )
 ;
 }
