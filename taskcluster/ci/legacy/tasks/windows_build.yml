@@ -13,6 +13,12 @@ task
 :
 workerType
 :
+gecko
+-
+1
+-
+b
+-
 win2012
 payload
 :
