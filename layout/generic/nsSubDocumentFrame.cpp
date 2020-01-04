@@ -291,7 +291,7 @@ nsStyleContext
 aContext
 )
 :
-nsSubDocumentFrameSuper
+nsAtomicContainerFrame
 (
 aContext
 )
@@ -346,7 +346,7 @@ nsSubDocumentFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsSubDocumentFrameSuper
+nsAtomicContainerFrame
 )
 class
 AsyncFrameInit
@@ -494,7 +494,7 @@ false
 :
 true
 ;
-nsSubDocumentFrameSuper
+nsAtomicContainerFrame
 :
 :
 Init
@@ -3017,7 +3017,7 @@ GetIntrinsicSize
 ;
 }
 return
-nsSubDocumentFrameSuper
+nsAtomicContainerFrame
 :
 :
 GetIntrinsicSize
@@ -3056,7 +3056,7 @@ GetIntrinsicRatio
 ;
 }
 return
-nsSubDocumentFrameSuper
+nsAtomicContainerFrame
 :
 :
 GetIntrinsicRatio
@@ -3227,7 +3227,7 @@ aPadding
 ;
 }
 return
-nsSubDocumentFrameSuper
+nsAtomicContainerFrame
 :
 :
 ComputeSize
@@ -4374,7 +4374,7 @@ mCallingShow
 )
 ;
 }
-nsSubDocumentFrameSuper
+nsAtomicContainerFrame
 :
 :
 DestroyFrom

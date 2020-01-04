@@ -41,15 +41,11 @@ Units
 .
 h
 "
-typedef
-nsAtomicContainerFrame
-nsSubDocumentFrameSuper
-;
 class
 nsSubDocumentFrame
 :
 public
-nsSubDocumentFrameSuper
+nsAtomicContainerFrame
 public
 nsIReflowCallback
 {
@@ -128,7 +124,7 @@ const
 override
 {
 return
-nsSubDocumentFrameSuper
+nsAtomicContainerFrame
 :
 :
 IsFrameOfType
