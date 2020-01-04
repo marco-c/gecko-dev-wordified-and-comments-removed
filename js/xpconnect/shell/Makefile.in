@@ -54,11 +54,6 @@ MPL
 0
 /
 .
-SDK_BINARY
-=
-(
-PROGRAM
-)
 NSDISTMODE
 =
 copy
