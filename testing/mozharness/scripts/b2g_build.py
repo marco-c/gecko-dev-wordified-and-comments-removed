@@ -5379,9 +5379,11 @@ query_moz_sign_cmd
 (
 formats
 =
+[
 '
 b2gmar
 '
+]
 )
         
 cmd

@@ -194,9 +194,11 @@ query_moz_sign_cmd
 self
 formats
 =
+[
 '
 gpg
 '
+]
 )
 :
         
@@ -397,6 +399,12 @@ if
 formats
 :
             
+for
+f
+in
+formats
+:
+                
 cmd
 +
 =
@@ -405,7 +413,7 @@ cmd
 -
 f
 '
-formats
+f
 ]
         
 for
