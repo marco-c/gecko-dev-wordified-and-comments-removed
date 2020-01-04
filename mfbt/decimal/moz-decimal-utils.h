@@ -120,6 +120,14 @@ h
 )
 #
 define
+STACK_ALLOCATED
+(
+)
+DISALLOW_NEW
+(
+)
+#
+define
 WTF_MAKE_NONCOPYABLE
 (
 ClassName
