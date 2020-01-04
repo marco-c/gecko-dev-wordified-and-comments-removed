@@ -1156,6 +1156,27 @@ subtests
                 
 }
                 
+if
+self
+.
+results
+.
+extra_options
+:
+                    
+suite
+[
+'
+extraOptions
+'
+]
+=
+self
+.
+results
+.
+extra_options
+                
 suites
 .
 append

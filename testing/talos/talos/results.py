@@ -75,6 +75,13 @@ results
 =
 [
 ]
+        
+self
+.
+extra_options
+=
+[
+]
     
 def
 add
@@ -91,6 +98,23 @@ results
 append
 (
 test_results
+)
+    
+def
+add_extra_option
+(
+self
+extra_option
+)
+:
+        
+self
+.
+extra_options
+.
+append
+(
+extra_option
 )
     
 def

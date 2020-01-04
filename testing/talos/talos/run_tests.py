@@ -1203,6 +1203,24 @@ start
 (
 )
     
+if
+config
+[
+'
+e10s
+'
+]
+:
+        
+talos_results
+.
+add_extra_option
+(
+'
+e10s
+'
+)
+    
 testname
 =
 None
