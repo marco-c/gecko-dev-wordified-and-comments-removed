@@ -6165,12 +6165,6 @@ AUDIO_DEVICE_OUT_ALL_A2DP
 ;
 }
 }
-#
-if
-ANDROID_VERSION
->
-=
-17
 MOZ_ASSERT
 (
 audio_is_output_device
@@ -6179,8 +6173,6 @@ device
 )
 )
 ;
-#
-endif
 return
 device
 ;
