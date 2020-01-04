@@ -80,9 +80,6 @@ for
 a
 single
 rule
-"
-+
-"
 selector
 "
 search
@@ -115,9 +112,6 @@ properly
 for
 multiple
 rule
-"
-+
-"
 selectors
 "
 search

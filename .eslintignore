@@ -577,6 +577,16 @@ client
 /
 inspector
 /
+rules
+/
+*
+*
+devtools
+/
+client
+/
+inspector
+/
 shared
 /
 test

@@ -4,6 +4,13 @@ strict
 "
 ;
 const
+SEARCH
+=
+"
+00F
+"
+;
+const
 TEST_URI
 =
 [

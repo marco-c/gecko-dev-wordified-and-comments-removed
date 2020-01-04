@@ -78,9 +78,6 @@ in
 the
 computed
 list
-"
-+
-"
 for
 property
 names
@@ -127,9 +124,6 @@ in
 the
 computed
 list
-"
-+
-"
 for
 property
 values
@@ -176,9 +170,6 @@ in
 the
 computed
 list
-"
-+
-"
 for
 property
 line
@@ -230,9 +221,6 @@ in
 the
 computed
 list
-"
-+
-"
 for
 parsed
 name
@@ -282,9 +270,6 @@ in
 the
 computed
 list
-"
-+
-"
 for
 parsed
 property

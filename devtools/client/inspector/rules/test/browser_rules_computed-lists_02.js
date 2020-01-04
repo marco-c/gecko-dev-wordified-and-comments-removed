@@ -181,7 +181,6 @@ margin
 property
 "
 )
-;
 expander
 .
 click
@@ -363,10 +362,9 @@ is
 (
 computedDom
 .
-querySelectorAll
+getElementsByClassName
 (
 "
-.
 ruleview
 -
 propertyname
@@ -399,10 +397,9 @@ is
 (
 computedDom
 .
-querySelectorAll
+getElementsByClassName
 (
 "
-.
 ruleview
 -
 propertyvalue
@@ -446,7 +443,6 @@ margin
 property
 "
 )
-;
 expander
 .
 click
@@ -485,7 +481,6 @@ margin
 property
 "
 )
-;
 expander
 .
 click
