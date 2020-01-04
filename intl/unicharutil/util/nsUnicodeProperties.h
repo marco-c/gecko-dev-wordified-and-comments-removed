@@ -106,7 +106,7 @@ uint32_t
 aCh
 )
 ;
-uint8_t
+Script
 GetScriptCode
 (
 uint32_t
@@ -116,7 +116,7 @@ aCh
 uint32_t
 GetScriptTagForCode
 (
-int32_t
+Script
 aScriptCode
 )
 ;

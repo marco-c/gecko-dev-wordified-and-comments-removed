@@ -3893,7 +3893,13 @@ of
 tag
 PR_STATIC_ASSERT
 (
-MOZ_NUM_SCRIPT_CODES
+int
+(
+Script
+:
+:
+NUM_SCRIPT_CODES
+)
 <
 =
 FEATURE_SCRIPT_MASK
@@ -3924,6 +3930,10 @@ tag
 FEATURE_SCRIPT_MASK
 )
 &
+static_cast
+<
+uint32_t
+>
 (
 s
 )
@@ -3935,7 +3945,7 @@ gfxFontEntry
 :
 SupportsOpenTypeFeature
 (
-int32_t
+Script
 aScript
 uint32_t
 aFeatureTag
@@ -4112,7 +4122,10 @@ tag
 ;
 NS_ASSERTION
 (
+int
+(
 aScript
+)
 <
 FEATURE_SCRIPT_MASK
 -
@@ -4354,7 +4367,7 @@ gfxFontEntry
 :
 InputsForOpenTypeFeature
 (
-int32_t
+Script
 aScript
 uint32_t
 aFeatureTag
@@ -6801,7 +6814,7 @@ aMatchData
 mCh
 )
 ;
-uint32_t
+Script
 script
 =
 GetScriptCode
@@ -6863,7 +6876,10 @@ aMatchData
 >
 mCh
 unicodeRange
+int
+(
 script
+)
 NS_ConvertUTF16toUTF8
 (
 fe

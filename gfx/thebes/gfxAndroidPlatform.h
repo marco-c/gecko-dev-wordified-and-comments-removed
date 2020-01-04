@@ -193,7 +193,7 @@ uint32_t
 aCh
 uint32_t
 aNextCh
-int32_t
+Script
 aRunScript
 nsTArray
 <

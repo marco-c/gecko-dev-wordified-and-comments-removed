@@ -332,6 +332,16 @@ gfxFontInfoLoader
 {
 public
 :
+typedef
+mozilla
+:
+:
+unicode
+:
+:
+Script
+Script
+;
 static
 gfxPlatformFontList
 *
@@ -469,7 +479,7 @@ uint32_t
 aCh
 uint32_t
 aNextCh
-int32_t
+Script
 aRunScript
 const
 gfxFontStyle
@@ -1048,7 +1058,7 @@ uint32_t
 aCh
 uint32_t
 aNextCh
-int32_t
+Script
 aRunScript
 const
 gfxFontStyle
@@ -1068,7 +1078,7 @@ GlobalFontFallback
 const
 uint32_t
 aCh
-int32_t
+Script
 aRunScript
 const
 gfxFontStyle

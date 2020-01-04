@@ -146,7 +146,7 @@ uint32_t
 aPrevCh
 uint32_t
 aNextCh
-int32_t
+Script
 aRunScript
 gfxFont
 *

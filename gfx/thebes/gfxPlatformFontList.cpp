@@ -2718,7 +2718,7 @@ uint32_t
 aCh
 uint32_t
 aNextCh
-int32_t
+Script
 aRunScript
 const
 gfxFontStyle
@@ -2899,7 +2899,7 @@ FindCharUnicodeRange
 aCh
 )
 ;
-int32_t
+Script
 script
 =
 mozilla
@@ -3114,7 +3114,10 @@ Telemetry
 :
 :
 SYSTEM_FONT_FALLBACK_SCRIPT
+int
+(
 aRunScript
+)
 +
 1
 )
@@ -3138,7 +3141,7 @@ uint32_t
 aCh
 uint32_t
 aNextCh
-int32_t
+Script
 aRunScript
 const
 gfxFontStyle
@@ -3295,7 +3298,7 @@ GlobalFontFallback
 const
 uint32_t
 aCh
-int32_t
+Script
 aRunScript
 const
 gfxFontStyle

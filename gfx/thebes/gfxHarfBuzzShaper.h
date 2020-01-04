@@ -99,7 +99,7 @@ uint32_t
 aOffset
 uint32_t
 aLength
-int32_t
+Script
 aScript
 bool
 aVertical
@@ -257,7 +257,7 @@ static
 hb_script_t
 GetHBScriptUsedForShaping
 (
-int32_t
+Script
 aScript
 )
 {
@@ -269,7 +269,10 @@ if
 aScript
 <
 =
-MOZ_SCRIPT_INHERITED
+Script
+:
+:
+INHERITED
 )
 {
 hbScript

@@ -523,7 +523,7 @@ uint32_t
 aOffset
 uint32_t
 aLength
-int32_t
+Script
 aScript
 bool
 aVertical

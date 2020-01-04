@@ -27,6 +27,16 @@ gfxScriptItemizer
 {
 public
 :
+typedef
+mozilla
+:
+:
+unicode
+:
+:
+Script
+Script
+;
 gfxScriptItemizer
 (
 const
@@ -57,7 +67,7 @@ aRunStart
 uint32_t
 &
 aRunLimit
-int32_t
+Script
 &
 aRunScript
 )
@@ -79,7 +89,10 @@ scriptLimit
 ;
 scriptCode
 =
-MOZ_SCRIPT_INVALID
+Script
+:
+:
+INVALID
 ;
 parenSP
 =
@@ -100,7 +113,7 @@ push
 (
 uint32_t
 endPairChar
-int32_t
+Script
 newScriptCode
 )
 ;
@@ -112,7 +125,7 @@ pop
 void
 fixup
 (
-int32_t
+Script
 newScriptCode
 )
 ;
@@ -122,7 +135,7 @@ ParenStackEntry
 uint32_t
 endPairChar
 ;
-int32_t
+Script
 scriptCode
 ;
 }
@@ -141,7 +154,7 @@ scriptStart
 uint32_t
 scriptLimit
 ;
-int32_t
+Script
 scriptCode
 ;
 struct
