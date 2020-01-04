@@ -625,7 +625,7 @@ aFrame
 )
 ;
 static
-LayoutDeviceIntPoint
+CSSIntPoint
 sLastScreenPoint
 ;
 static
