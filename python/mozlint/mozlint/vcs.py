@@ -99,6 +99,11 @@ stdout
 subprocess
 .
 PIPE
+stderr
+=
+subprocess
+.
+PIPE
 )
             
 output
