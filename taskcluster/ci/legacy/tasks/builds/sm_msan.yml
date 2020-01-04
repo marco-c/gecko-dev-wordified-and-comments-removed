@@ -79,3 +79,6 @@ treeherder
 symbol
 :
 msan
+tier
+:
+3

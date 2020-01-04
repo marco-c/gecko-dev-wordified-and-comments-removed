@@ -79,3 +79,6 @@ treeherder
 symbol
 :
 tsan
+tier
+:
+3
