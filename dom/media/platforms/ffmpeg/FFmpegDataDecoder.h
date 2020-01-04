@@ -81,7 +81,7 @@ Link
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 InitPromise
 >
@@ -121,6 +121,15 @@ Shutdown
 )
 override
 ;
+static
+AVCodec
+*
+FindAVCodec
+(
+AVCodecID
+aCodec
+)
+;
 protected
 :
 virtual
@@ -154,7 +163,7 @@ InitDecoder
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 FlushableTaskQueue
 >
@@ -172,7 +181,7 @@ AVFrame
 *
 mFrame
 ;
-RefPtr
+nsRefPtr
 <
 MediaByteBuffer
 >
