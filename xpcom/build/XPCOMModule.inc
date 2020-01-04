@@ -282,7 +282,7 @@ nsMultiplexInputStreamConstructor
 COMPONENT
 (
 VARIANT
-nsVariantConstructor
+nsVariantCCConstructor
 )
 COMPONENT
 (
