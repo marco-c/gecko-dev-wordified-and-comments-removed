@@ -575,7 +575,7 @@ view
 )
 {
 let
-content
+el
 =
 yield
 getComputedViewMatchedRules
@@ -589,7 +589,7 @@ color
 )
 ;
 return
-content
+el
 .
 querySelector
 (
@@ -650,7 +650,7 @@ view
 )
 {
 let
-content
+el
 =
 yield
 getComputedViewMatchedRules
@@ -664,7 +664,7 @@ color
 )
 ;
 return
-content
+el
 .
 querySelector
 (
@@ -724,7 +724,7 @@ view
 )
 {
 let
-content
+el
 =
 yield
 getComputedViewMatchedRules
@@ -736,7 +736,7 @@ color
 )
 ;
 return
-content
+el
 .
 querySelector
 (
@@ -793,7 +793,7 @@ view
 )
 {
 let
-content
+el
 =
 yield
 getComputedViewMatchedRules
@@ -805,7 +805,7 @@ color
 )
 ;
 return
-content
+el
 .
 querySelector
 (
@@ -881,7 +881,7 @@ view
 )
 {
 let
-content
+el
 =
 yield
 getComputedViewMatchedRules
@@ -893,7 +893,7 @@ color
 )
 ;
 return
-content
+el
 .
 querySelector
 (

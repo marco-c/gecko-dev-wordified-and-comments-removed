@@ -339,10 +339,9 @@ propertyViews
 .
 forEach
 (
-function
-(
 propView
-)
+=
+>
 {
 let
 name
