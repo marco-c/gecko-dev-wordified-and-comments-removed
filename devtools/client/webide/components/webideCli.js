@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 Ci
 =
@@ -12,6 +17,11 @@ Components
 .
 utils
 ;
+const
+{
+XPCOMUtils
+}
+=
 Cu
 .
 import
@@ -29,6 +39,8 @@ XPCOMUtils
 .
 jsm
 "
+{
+}
 )
 ;
 XPCOMUtils
@@ -72,9 +84,6 @@ function
 cmdLine
 )
 {
-let
-param
-;
 if
 (
 !

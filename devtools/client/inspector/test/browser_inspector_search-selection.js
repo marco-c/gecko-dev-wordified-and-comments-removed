@@ -3,14 +3,12 @@ use
 strict
 "
 ;
-var
+const
 {
 AppConstants
 }
 =
-Cu
-.
-import
+require
 (
 "
 resource

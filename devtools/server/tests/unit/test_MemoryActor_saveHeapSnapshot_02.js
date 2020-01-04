@@ -1,6 +1,14 @@
-Cu
-.
-import
+"
+use
+strict
+"
+;
+const
+{
+OS
+}
+=
+require
 (
 "
 resource

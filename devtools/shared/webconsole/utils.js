@@ -46,9 +46,12 @@ Services
 "
 )
 ;
-Cu
-.
-import
+const
+{
+XPCOMUtils
+}
+=
+require
 (
 "
 resource

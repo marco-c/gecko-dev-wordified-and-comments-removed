@@ -69,9 +69,7 @@ const
 NetUtil
 }
 =
-Cu
-.
-import
+require
 (
 "
 resource
@@ -86,8 +84,6 @@ NetUtil
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -95,9 +91,7 @@ const
 OS
 }
 =
-Cu
-.
-import
+require
 (
 "
 resource
@@ -112,8 +106,6 @@ osfile
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -166,9 +158,15 @@ devtools
 "
 )
 ;
-Cu
-.
-import
+const
+{
+getString
+text
+wire
+showFilePicker
+}
+=
+require
 (
 "
 resource
@@ -192,9 +190,7 @@ const
 SplitView
 }
 =
-Cu
-.
-import
+require
 (
 "
 resource
@@ -211,8 +207,6 @@ SplitView
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -220,9 +214,7 @@ const
 StyleSheetEditor
 }
 =
-Cu
-.
-import
+require
 (
 "
 resource
@@ -336,9 +328,7 @@ const
 ResponsiveUIManager
 }
 =
-Cu
-.
-import
+require
 (
 "
 resource
@@ -355,8 +345,6 @@ responsivedesign
 .
 jsm
 "
-{
-}
 )
 ;
 const
@@ -3102,7 +3090,7 @@ length
 )
 {
 let
-text
+editorText
 =
 showEditor
 .
@@ -3115,7 +3103,7 @@ getText
 let
 lineCount
 =
-text
+editorText
 .
 split
 (

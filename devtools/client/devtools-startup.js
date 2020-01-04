@@ -37,6 +37,11 @@ enabled
 "
 ]
 ;
+const
+{
+XPCOMUtils
+}
+=
 Cu
 .
 import
@@ -54,6 +59,8 @@ XPCOMUtils
 .
 jsm
 "
+{
+}
 )
 ;
 XPCOMUtils
@@ -719,6 +726,11 @@ _isRemoteDebuggingEnabled
 return
 ;
 }
+const
+{
+BrowserToolboxProcess
+}
+=
 Cu
 .
 import
@@ -738,6 +750,8 @@ ToolboxProcess
 .
 jsm
 "
+{
+}
 )
 ;
 BrowserToolboxProcess

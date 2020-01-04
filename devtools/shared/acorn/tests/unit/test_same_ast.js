@@ -10,9 +10,12 @@ acorn
 "
 )
 ;
-Cu
-.
-import
+const
+{
+Reflect
+}
+=
+require
 (
 "
 resource

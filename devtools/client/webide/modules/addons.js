@@ -1,14 +1,7 @@
-const
-{
-Cu
-}
-=
-require
-(
 "
-chrome
+use
+strict
 "
-)
 ;
 const
 promise
@@ -25,9 +18,7 @@ const
 AddonManager
 }
 =
-Cu
-.
-import
+require
 (
 "
 resource

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 Cc
 =
@@ -94,9 +99,7 @@ const
 FileUtils
 }
 =
-Cu
-.
-import
+require
 (
 "
 resource
@@ -118,9 +121,7 @@ const
 NetUtil
 }
 =
-Cu
-.
-import
+require
 (
 "
 resource
@@ -1052,6 +1053,11 @@ aMessage
 .
 appId
 ;
+let
+{
+DOMApplicationRegistry
+}
+=
 Cu
 .
 import
@@ -1069,6 +1075,8 @@ Webapps
 .
 jsm
 "
+{
+}
 )
 ;
 let

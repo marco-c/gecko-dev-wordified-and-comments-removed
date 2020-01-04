@@ -225,6 +225,11 @@ function
 (
 )
 {
+let
+{
+libcutils
+}
+=
 Cu
 .
 import
@@ -242,6 +247,8 @@ systemlibs
 .
 js
 "
+{
+}
 )
 ;
 return

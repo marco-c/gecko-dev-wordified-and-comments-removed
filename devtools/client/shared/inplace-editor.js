@@ -6,7 +6,6 @@ strict
 const
 {
 Ci
-Cu
 Cc
 }
 =
@@ -100,9 +99,12 @@ nsIFocusManager
 .
 MOVEFOCUS_BACKWARD
 ;
-Cu
-.
-import
+const
+{
+XPCOMUtils
+}
+=
+require
 (
 "
 resource

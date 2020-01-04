@@ -1,14 +1,7 @@
-const
-{
-Cu
-}
-=
-require
-(
 "
-chrome
+use
+strict
 "
-)
 ;
 const
 Services
@@ -84,9 +77,7 @@ const
 Devices
 }
 =
-Cu
-.
-import
+require
 (
 "
 resource

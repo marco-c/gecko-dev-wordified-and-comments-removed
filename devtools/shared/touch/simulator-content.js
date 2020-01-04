@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-var
+const
 {
 interfaces
 :
@@ -15,6 +15,11 @@ Cu
 =
 Components
 ;
+const
+{
+Services
+}
+=
 Cu
 .
 import
@@ -32,6 +37,8 @@ Services
 .
 jsm
 "
+{
+}
 )
 ;
 var

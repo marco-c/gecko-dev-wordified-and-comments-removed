@@ -6,7 +6,6 @@ strict
 const
 {
 Ci
-Cu
 }
 =
 require
@@ -52,9 +51,12 @@ Services
 "
 )
 ;
-Cu
-.
-import
+const
+{
+XPCOMUtils
+}
+=
+require
 (
 "
 resource

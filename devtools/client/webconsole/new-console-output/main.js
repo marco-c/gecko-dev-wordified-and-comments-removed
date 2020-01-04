@@ -12,6 +12,11 @@ Cu
 =
 Components
 ;
+const
+{
+XPCOMUtils
+}
+=
 Cu
 .
 import
@@ -29,8 +34,15 @@ XPCOMUtils
 .
 jsm
 "
+{
+}
 )
 ;
+const
+{
+BrowserLoader
+}
+=
 Cu
 .
 import
@@ -52,6 +64,8 @@ loader
 .
 js
 "
+{
+}
 )
 ;
 const

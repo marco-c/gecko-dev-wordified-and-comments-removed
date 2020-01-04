@@ -6,7 +6,6 @@ strict
 const
 {
 Cc
-Cu
 Ci
 }
 =
@@ -468,9 +467,12 @@ constants
 "
 )
 ;
-Cu
-.
-import
+const
+{
+XPCOMUtils
+}
+=
+require
 (
 "
 resource

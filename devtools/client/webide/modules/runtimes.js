@@ -1,6 +1,10 @@
+"
+use
+strict
+"
+;
 const
 {
-Cu
 Ci
 }
 =
@@ -26,9 +30,7 @@ const
 Devices
 }
 =
-Cu
-.
-import
+require
 (
 "
 resource

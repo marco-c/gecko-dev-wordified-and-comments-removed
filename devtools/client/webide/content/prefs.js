@@ -1,4 +1,9 @@
-var
+"
+use
+strict
+"
+;
+const
 Cu
 =
 Components
@@ -27,6 +32,8 @@ Services
 .
 jsm
 "
+{
+}
 )
 ;
 window

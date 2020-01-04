@@ -1,11 +1,13 @@
+"
+use
+strict
+"
+;
 var
 {
 interfaces
 :
 Ci
-classes
-:
-Cc
 utils
 :
 Cu
@@ -40,6 +42,11 @@ aParams
 aReason
 )
 {
+const
+{
+Services
+}
+=
 Cu
 .
 import
@@ -57,6 +64,8 @@ Services
 .
 jsm
 "
+{
+}
 )
 ;
 let

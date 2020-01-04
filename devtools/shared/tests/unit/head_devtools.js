@@ -31,9 +31,11 @@ Components
 .
 results
 ;
-var
+const
 {
 require
+DevToolsLoader
+devtools
 }
 =
 Cu
@@ -53,6 +55,8 @@ Loader
 .
 jsm
 "
+{
+}
 )
 ;
 const

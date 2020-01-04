@@ -8,8 +8,6 @@ const
 getRuleText
 }
 =
-devtools
-.
 require
 (
 "

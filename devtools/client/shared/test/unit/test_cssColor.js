@@ -27,6 +27,7 @@ classes
 var
 {
 require
+loader
 }
 =
 Cu
@@ -46,6 +47,8 @@ Loader
 .
 jsm
 "
+{
+}
 )
 ;
 const

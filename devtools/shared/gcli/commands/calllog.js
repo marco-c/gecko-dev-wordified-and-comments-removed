@@ -5,8 +5,6 @@ strict
 ;
 const
 {
-Cc
-Ci
 Cu
 }
 =
@@ -686,6 +684,8 @@ import
 args
 .
 source
+{
+}
 )
 ;
 }

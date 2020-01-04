@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 Cc
@@ -240,9 +245,7 @@ const
 DOMHelpers
 }
 =
-Cu
-.
-import
+require
 (
 "
 resource

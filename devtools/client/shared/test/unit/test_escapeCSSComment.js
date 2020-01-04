@@ -10,6 +10,11 @@ Components
 .
 utils
 ;
+const
+{
+require
+}
+=
 Cu
 .
 import
@@ -27,6 +32,8 @@ Loader
 .
 jsm
 "
+{
+}
 )
 ;
 const
@@ -35,8 +42,6 @@ escapeCSSComment
 _unescapeCSSComment
 }
 =
-devtools
-.
 require
 (
 "
