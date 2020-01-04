@@ -7995,8 +7995,6 @@ bind
 FunctionBind
 "
 2
-JSPROP_DEFINE_LATE
-|
 JSFUN_HAS_REST
 )
 JS_FS_END

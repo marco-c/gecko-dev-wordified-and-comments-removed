@@ -963,6 +963,21 @@ StandardClassIsDependent
 (
 key
 )
+&
+&
+!
+cx
+-
+>
+runtime
+(
+)
+-
+>
+isSelfHostingGlobal
+(
+global
+)
 )
 {
 if
@@ -990,7 +1005,6 @@ JS_DefineFunctions
 cx
 proto
 funs
-DontDefineLateProperties
 )
 )
 return
@@ -1053,7 +1067,6 @@ JS_DefineFunctions
 cx
 ctor
 funs
-DontDefineLateProperties
 )
 )
 return

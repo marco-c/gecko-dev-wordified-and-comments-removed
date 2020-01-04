@@ -3810,10 +3810,6 @@ JSFunctionSpec
 fs
 DefineAsIntrinsic
 intrinsic
-PropertyDefinitionBehavior
-behavior
-=
-DefineAllProperties
 )
 ;
 extern

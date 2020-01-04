@@ -18146,8 +18146,6 @@ const
 JSFunctionSpec
 *
 fs
-PropertyDefinitionBehavior
-behavior
 )
 {
 MOZ_ASSERT
@@ -18195,7 +18193,6 @@ cx
 obj
 fs
 NotIntrinsic
-behavior
 )
 ;
 }
