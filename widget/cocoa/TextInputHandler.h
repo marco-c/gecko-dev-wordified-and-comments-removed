@@ -1615,6 +1615,14 @@ IMENotification
 aIMENotification
 )
 ;
+bool
+OnHandleEvent
+(
+NSEvent
+*
+aEvent
+)
+;
 void
 SetMarkedText
 (
