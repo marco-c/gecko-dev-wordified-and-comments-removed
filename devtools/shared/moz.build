@@ -292,13 +292,6 @@ Loader
 jsm
 '
 '
-output
--
-parser
-.
-js
-'
-'
 Parser
 .
 jsm

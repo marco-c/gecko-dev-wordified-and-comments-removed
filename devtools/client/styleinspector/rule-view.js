@@ -125,6 +125,8 @@ require
 "
 devtools
 /
+client
+/
 shared
 /
 output
