@@ -82,6 +82,9 @@ NS_ICONTENTPARENT_IID
 0xf3
 }
 }
+class
+nsFrameMessageManager
+;
 namespace
 IPC
 {
@@ -302,17 +305,6 @@ AsContentBridgeParent
 (
 )
 ;
-nsFrameMessageManager
-*
-GetMessageManager
-(
-)
-const
-{
-return
-mMessageManager
-;
-}
 virtual
 int32_t
 Pid
