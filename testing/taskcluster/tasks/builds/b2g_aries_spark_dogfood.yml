@@ -146,6 +146,15 @@ spark
 dogfood
 .
 py
+B2G_UPDATE_CHANNEL
+:
+'
+{
+{
+b2g_update_channel
+}
+}
+'
 extra
 :
 treeherderEnv
