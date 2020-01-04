@@ -132,10 +132,9 @@ width
 return
 aResult
 .
-ParseIntWithBounds
+ParseIntValue
 (
 aValue
-0
 )
 ;
 }
