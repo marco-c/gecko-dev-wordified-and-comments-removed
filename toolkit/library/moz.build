@@ -920,11 +920,6 @@ SystemConfiguration
 '
 -
 framework
-QTKit
-'
-'
--
-framework
 AVFoundation
 '
 '
