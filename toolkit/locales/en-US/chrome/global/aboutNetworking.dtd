@@ -120,9 +120,9 @@ OK
 ENTITY
 aboutNetworking
 .
-http
+HTTP
 "
-Http
+HTTP
 "
 >
 <
