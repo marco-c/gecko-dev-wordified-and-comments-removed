@@ -3627,11 +3627,12 @@ GetParentService
 ;
 if
 (
+!
 service
 )
 {
 return
-true
+false
 ;
 }
 UINT
