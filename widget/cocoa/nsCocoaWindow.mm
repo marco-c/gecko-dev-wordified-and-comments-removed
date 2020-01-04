@@ -9922,9 +9922,11 @@ invScale
 .
 0
 /
-BackingScaleFactor
+GetDefaultScale
 (
 )
+.
+scale
 ;
 return
 DoResize
