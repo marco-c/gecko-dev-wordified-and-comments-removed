@@ -2332,6 +2332,9 @@ in
 _CC_SUITE
 =
 12
+MSVS_VERSION
+=
+2013
 MSVC_C_RUNTIME_DLL
 =
 msvcr120
@@ -2350,6 +2353,9 @@ dll
 _CC_SUITE
 =
 14
+MSVS_VERSION
+=
+2015
 MSVC_C_RUNTIME_DLL
 =
 vcruntime140
@@ -2501,6 +2507,10 @@ threadSafeInit
 ;
 ;
 esac
+AC_SUBST
+(
+MSVS_VERSION
+)
 AC_SUBST
 (
 MSVC_C_RUNTIME_DLL
