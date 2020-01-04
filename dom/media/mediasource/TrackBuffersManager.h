@@ -1370,6 +1370,9 @@ bool
 >
 mAppendRunning
 ;
+bool
+mSegmentParserLoopRunning
+;
 media
 :
 :
