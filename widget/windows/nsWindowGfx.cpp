@@ -933,9 +933,6 @@ if
 clientLayerManager
 &
 &
-mCompositorBridgeParent
-&
-&
 !
 mBounds
 .
@@ -945,10 +942,10 @@ mLastPaintBounds
 )
 )
 {
-mCompositorBridgeParent
+clientLayerManager
 -
 >
-ScheduleRenderOnCompositorThread
+Composite
 (
 )
 ;
@@ -1129,9 +1126,6 @@ hDC
 if
 (
 clientLayerManager
-&
-&
-mCompositorBridgeParent
 )
 {
 clientLayerManager
@@ -1203,9 +1197,6 @@ if
 clientLayerManager
 &
 &
-mCompositorBridgeParent
-&
-&
 clientLayerManager
 -
 >
@@ -1214,10 +1205,10 @@ NeedsComposite
 )
 )
 {
-mCompositorBridgeParent
+clientLayerManager
 -
 >
-ScheduleRenderOnCompositorThread
+Composite
 (
 )
 ;
