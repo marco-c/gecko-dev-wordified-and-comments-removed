@@ -125,6 +125,11 @@ PushServiceHttp2
 .
 jsm
 '
+'
+PushServiceHttp2Crypto
+.
+jsm
+'
 ]
 MOCHITEST_MANIFESTS
 +
