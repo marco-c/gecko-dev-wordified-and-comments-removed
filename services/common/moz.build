@@ -150,6 +150,15 @@ logmanager
 js
 '
 '
+moz
+-
+kinto
+-
+client
+.
+js
+'
+'
 stringbundle
 .
 js
