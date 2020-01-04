@@ -554,6 +554,16 @@ for
 ifc_configure
 "
 .
+long
+mtu
+;
+/
+/
+for
+"
+setMtu
+"
+.
 }
 ;
 /
