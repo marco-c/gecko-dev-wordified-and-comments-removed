@@ -248,6 +248,11 @@ Jsbeautify
 jsm
 '
 '
+l10n
+.
+js
+'
+'
 node
 -
 attribute
