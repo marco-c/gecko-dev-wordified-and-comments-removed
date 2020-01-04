@@ -118,16 +118,6 @@ pending
 "
 ;
 }
-static
-bool
-IsH264
-(
-const
-TrackInfo
-&
-aConfig
-)
-;
 nsresult
 GetLastError
 (

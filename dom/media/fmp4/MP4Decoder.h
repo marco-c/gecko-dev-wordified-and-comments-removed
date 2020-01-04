@@ -121,6 +121,16 @@ aDiagnostics
 ;
 static
 bool
+IsH264
+(
+const
+nsACString
+&
+aMimeType
+)
+;
+static
+bool
 IsEnabled
 (
 )
