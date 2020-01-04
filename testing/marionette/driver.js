@@ -1805,7 +1805,6 @@ loadFrameScript
 (
 FRAME_SCRIPT
 true
-true
 )
 ;
 Preferences
