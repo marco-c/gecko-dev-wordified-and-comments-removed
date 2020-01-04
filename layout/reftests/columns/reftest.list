@@ -404,14 +404,6 @@ HTTP
 .
 .
 )
-fuzzy
--
-if
-(
-OSX
-32
-1000
-)
 =
 =
 columnfill
