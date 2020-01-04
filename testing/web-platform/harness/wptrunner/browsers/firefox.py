@@ -375,6 +375,15 @@ run_info_data
 debug
 "
 ]
+or
+run_info_data
+.
+get
+(
+"
+asan
+"
+)
 :
                 
 executor_kwargs
@@ -405,6 +414,15 @@ run_info_data
 debug
 "
 ]
+or
+run_info_data
+.
+get
+(
+"
+asan
+"
+)
 :
             
 executor_kwargs
