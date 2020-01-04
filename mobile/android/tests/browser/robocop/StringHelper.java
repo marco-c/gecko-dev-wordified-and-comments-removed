@@ -1964,7 +1964,7 @@ R
 .
 string
 .
-bookmark
+bookmarks_title
 )
 ;
 CUSTOMIZE_SECTION_LABEL
