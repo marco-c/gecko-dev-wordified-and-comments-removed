@@ -73,6 +73,11 @@ jsm
 "
 )
 ;
+const
+{
+PromptUtils
+}
+=
 Cu
 .
 import
@@ -90,6 +95,8 @@ SharedPromptUtils
 .
 jsm
 "
+{
+}
 )
 ;
 XPCOMUtils
