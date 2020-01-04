@@ -35303,7 +35303,7 @@ pc
 ;
 Rooted
 <
-StaticScopeObject
+StaticScope
 *
 >
 enclosingStaticScope
@@ -35353,7 +35353,7 @@ staticBlock
 ;
 enclosingStaticScope
 =
-StaticNonSyntacticScopeObjects
+StaticNonSyntacticScope
 :
 :
 create
@@ -35395,7 +35395,7 @@ staticBlock
 }
 Rooted
 <
-StaticScopeObject
+StaticScope
 *
 >
 staticScope
@@ -35410,7 +35410,7 @@ frame
 {
 staticScope
 =
-StaticEvalObject
+StaticEvalScope
 :
 :
 create
@@ -35586,7 +35586,7 @@ staticScope
 >
 as
 <
-StaticEvalObject
+StaticEvalScope
 >
 (
 )

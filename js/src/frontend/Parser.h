@@ -922,7 +922,7 @@ staticScope
 >
 is
 <
-StaticEvalObject
+StaticEvalScope
 >
 (
 )
@@ -964,7 +964,7 @@ staticScope
 template
 as
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
@@ -1283,7 +1283,7 @@ ParseHandler
 parser
 StmtType
 type
-NestedStaticScopeObject
+NestedStaticScope
 &
 staticScope
 )
@@ -1301,7 +1301,7 @@ generateBlockId
 bool
 makeInnermostLexicalScope
 (
-StaticBlockObject
+StaticBlockScope
 &
 blockObj
 )
@@ -2355,7 +2355,7 @@ AutoPushStmtInfoPC
 letStmt
 MutableHandle
 <
-StaticBlockObject
+StaticBlockScope
 *
 >
 blockObj
@@ -2394,7 +2394,7 @@ ParseHandler
 pc
 Handle
 <
-StaticBlockObject
+StaticBlockScope
 *
 >
 blockObj
@@ -2498,7 +2498,7 @@ YieldHandling
 yieldHandling
 ParseNodeKind
 kind
-StaticBlockObject
+StaticBlockScope
 *
 blockObj
 =
@@ -3256,7 +3256,7 @@ pushLexicalScope
 (
 Handle
 <
-StaticBlockObject
+StaticBlockScope
 *
 >
 blockObj
@@ -3270,7 +3270,7 @@ pushLetScope
 (
 Handle
 <
-StaticBlockObject
+StaticBlockScope
 *
 >
 blockObj

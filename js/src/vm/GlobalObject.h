@@ -115,7 +115,7 @@ class
 TypedObjectModuleObject
 ;
 class
-StaticBlockObject
+StaticBlockScope
 ;
 class
 ClonedBlockObject

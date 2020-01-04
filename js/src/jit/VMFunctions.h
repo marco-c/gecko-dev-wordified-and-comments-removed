@@ -45,7 +45,7 @@ class
 DeclEnvObject
 ;
 class
-StaticWithObject
+StaticWithScope
 ;
 class
 InlineTypedObject
@@ -1013,7 +1013,7 @@ TypeToDataType
 <
 Handle
 <
-StaticWithObject
+StaticWithScope
 *
 >
 >
@@ -1035,7 +1035,7 @@ TypeToDataType
 <
 Handle
 <
-StaticBlockObject
+StaticBlockScope
 *
 >
 >
@@ -1471,7 +1471,7 @@ TypeToArgProperties
 <
 Handle
 <
-StaticWithObject
+StaticWithScope
 *
 >
 >
@@ -1483,7 +1483,7 @@ result
 =
 TypeToArgProperties
 <
-StaticWithObject
+StaticWithScope
 *
 >
 :
@@ -1505,7 +1505,7 @@ TypeToArgProperties
 <
 Handle
 <
-StaticBlockObject
+StaticBlockScope
 *
 >
 >
@@ -1517,7 +1517,7 @@ result
 =
 TypeToArgProperties
 <
-StaticBlockObject
+StaticBlockScope
 *
 >
 :
@@ -2056,7 +2056,7 @@ TypeToRootType
 <
 Handle
 <
-StaticBlockObject
+StaticBlockScope
 *
 >
 >
@@ -2081,7 +2081,7 @@ TypeToRootType
 <
 Handle
 <
-StaticWithObject
+StaticWithScope
 *
 >
 >
@@ -4029,7 +4029,7 @@ HandleValue
 val
 Handle
 <
-StaticWithObject
+StaticWithScope
 *
 >
 templ
@@ -4057,7 +4057,7 @@ BaselineFrame
 frame
 Handle
 <
-StaticBlockObject
+StaticBlockScope
 *
 >
 block

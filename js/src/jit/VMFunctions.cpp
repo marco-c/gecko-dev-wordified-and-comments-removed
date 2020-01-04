@@ -4942,7 +4942,7 @@ BaselineFrame
 frame
 Handle
 <
-StaticBlockObject
+StaticBlockScope
 *
 >
 block
@@ -5148,7 +5148,7 @@ HandleValue
 val
 Handle
 <
-StaticWithObject
+StaticWithScope
 *
 >
 templ

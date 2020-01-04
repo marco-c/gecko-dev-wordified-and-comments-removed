@@ -420,7 +420,7 @@ obj
 template
 is
 <
-NestedStaticScopeObject
+NestedStaticScope
 >
 (
 )
@@ -434,7 +434,7 @@ obj
 template
 as
 <
-NestedStaticScopeObject
+NestedStaticScope
 >
 (
 )
@@ -453,7 +453,7 @@ obj
 template
 is
 <
-StaticEvalObject
+StaticEvalScope
 >
 (
 )
@@ -467,7 +467,7 @@ obj
 template
 as
 <
-StaticEvalObject
+StaticEvalScope
 >
 (
 )
@@ -486,7 +486,7 @@ obj
 template
 is
 <
-StaticNonSyntacticScopeObjects
+StaticNonSyntacticScope
 >
 (
 )
@@ -500,7 +500,7 @@ obj
 template
 as
 <
-StaticNonSyntacticScopeObjects
+StaticNonSyntacticScope
 >
 (
 )
@@ -752,7 +752,7 @@ obj
 template
 is
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
@@ -765,7 +765,7 @@ obj
 template
 as
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
@@ -781,7 +781,7 @@ obj
 template
 as
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
@@ -799,7 +799,7 @@ obj
 template
 is
 <
-StaticWithObject
+StaticWithScope
 >
 (
 )
@@ -815,7 +815,7 @@ obj
 template
 is
 <
-StaticEvalObject
+StaticEvalScope
 >
 (
 )
@@ -827,7 +827,7 @@ obj
 template
 as
 <
-StaticEvalObject
+StaticEvalScope
 >
 (
 )
@@ -844,7 +844,7 @@ obj
 template
 is
 <
-StaticNonSyntacticScopeObjects
+StaticNonSyntacticScope
 >
 (
 )
@@ -986,7 +986,7 @@ obj
 template
 is
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
@@ -1002,7 +1002,7 @@ obj
 template
 is
 <
-StaticWithObject
+StaticWithScope
 >
 (
 )
@@ -1018,7 +1018,7 @@ obj
 template
 is
 <
-StaticEvalObject
+StaticEvalScope
 >
 (
 )
@@ -1034,7 +1034,7 @@ obj
 template
 is
 <
-StaticNonSyntacticScopeObjects
+StaticNonSyntacticScope
 >
 (
 )
@@ -1082,7 +1082,7 @@ AllowGC
 allowGC
 >
 inline
-StaticBlockObject
+StaticBlockScope
 &
 StaticScopeIter
 <
@@ -1112,7 +1112,7 @@ obj
 template
 as
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
@@ -1124,7 +1124,7 @@ AllowGC
 allowGC
 >
 inline
-StaticWithObject
+StaticWithScope
 &
 StaticScopeIter
 <
@@ -1154,7 +1154,7 @@ obj
 template
 as
 <
-StaticWithObject
+StaticWithScope
 >
 (
 )
@@ -1166,7 +1166,7 @@ AllowGC
 allowGC
 >
 inline
-StaticEvalObject
+StaticEvalScope
 &
 StaticScopeIter
 <
@@ -1196,7 +1196,7 @@ obj
 template
 as
 <
-StaticEvalObject
+StaticEvalScope
 >
 (
 )
@@ -1208,7 +1208,7 @@ AllowGC
 allowGC
 >
 inline
-StaticNonSyntacticScopeObjects
+StaticNonSyntacticScope
 &
 StaticScopeIter
 <
@@ -1238,7 +1238,7 @@ obj
 template
 as
 <
-StaticNonSyntacticScopeObjects
+StaticNonSyntacticScope
 >
 (
 )

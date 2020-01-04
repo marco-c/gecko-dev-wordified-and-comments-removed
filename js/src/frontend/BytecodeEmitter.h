@@ -1482,7 +1482,7 @@ computeAliasedSlots
 (
 Handle
 <
-StaticBlockObject
+StaticBlockScope
 *
 >
 blockObj
@@ -1522,7 +1522,7 @@ computeLocalOffset
 (
 Handle
 <
-StaticBlockObject
+StaticBlockScope
 *
 >
 blockObj
@@ -2733,7 +2733,7 @@ initializeBlockScopedLocalsFromStack
 (
 Handle
 <
-StaticBlockObject
+StaticBlockScope
 *
 >
 blockObj

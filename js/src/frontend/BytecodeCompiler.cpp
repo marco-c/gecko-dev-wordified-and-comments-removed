@@ -206,7 +206,7 @@ SourceBufferHolder
 sourceBuffer
 Handle
 <
-StaticScopeObject
+StaticScope
 *
 >
 enclosingStaticScope
@@ -455,7 +455,7 @@ sourceBuffer
 ;
 Rooted
 <
-StaticScopeObject
+StaticScope
 *
 >
 enclosingStaticScope
@@ -601,7 +601,7 @@ SourceBufferHolder
 sourceBuffer
 Handle
 <
-StaticScopeObject
+StaticScope
 *
 >
 enclosingStaticScope
@@ -1241,7 +1241,7 @@ enclosingStaticScope
 >
 is
 <
-StaticEvalObject
+StaticEvalScope
 >
 (
 )
@@ -1265,7 +1265,7 @@ isEvalCompilationUnit
 return
 false
 ;
-StaticEvalObject
+StaticEvalScope
 &
 eval
 =
@@ -1274,7 +1274,7 @@ enclosingStaticScope
 >
 as
 <
-StaticEvalObject
+StaticEvalScope
 >
 (
 )
@@ -1311,7 +1311,7 @@ enclosingStaticScope
 >
 is
 <
-StaticNonSyntacticScopeObjects
+StaticNonSyntacticScope
 >
 (
 )
@@ -3260,7 +3260,7 @@ HandleObject
 scopeChain
 Handle
 <
-StaticScopeObject
+StaticScope
 *
 >
 enclosingStaticScope
@@ -3436,7 +3436,7 @@ true
 ;
 Rooted
 <
-StaticScopeObject
+StaticScope
 *
 >
 staticScope
@@ -3897,7 +3897,7 @@ SourceBufferHolder
 srcBuf
 Handle
 <
-StaticScopeObject
+StaticScope
 *
 >
 enclosingStaticScope
@@ -3975,7 +3975,7 @@ SourceBufferHolder
 srcBuf
 Handle
 <
-StaticScopeObject
+StaticScope
 *
 >
 enclosingStaticScope
@@ -4024,7 +4024,7 @@ srcBuf
 {
 Rooted
 <
-StaticScopeObject
+StaticScope
 *
 >
 staticLexical
@@ -4091,7 +4091,7 @@ srcBuf
 {
 Rooted
 <
-StaticScopeObject
+StaticScope
 *
 >
 staticLexical

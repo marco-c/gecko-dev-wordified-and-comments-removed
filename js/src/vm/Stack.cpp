@@ -389,7 +389,7 @@ enclosingStaticScope
 >
 as
 <
-StaticEvalObject
+StaticEvalScope
 >
 (
 )
@@ -1999,7 +1999,7 @@ pushBlock
 JSContext
 *
 cx
-StaticBlockObject
+StaticBlockScope
 &
 block
 )
@@ -2015,7 +2015,7 @@ needsClone
 ;
 Rooted
 <
-StaticBlockObject
+StaticBlockScope
 *
 >
 blockHandle

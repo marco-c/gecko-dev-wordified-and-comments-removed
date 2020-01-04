@@ -2991,7 +2991,7 @@ FindScopeObjectIndex
 JSScript
 *
 script
-NestedStaticScopeObject
+NestedStaticScope
 &
 scope
 )
@@ -4751,7 +4751,7 @@ enclosingScope
 {
 enclosingScope
 =
-StaticNonSyntacticScopeObjects
+StaticNonSyntacticScope
 :
 :
 create
@@ -5869,7 +5869,7 @@ obj
 >
 is
 <
-StaticWithObject
+StaticWithScope
 >
 (
 )
@@ -5978,7 +5978,7 @@ mode
 XDR_ENCODE
 )
 {
-NestedStaticScopeObject
+NestedStaticScope
 &
 scope
 =
@@ -5990,14 +5990,14 @@ objp
 >
 as
 <
-NestedStaticScopeObject
+NestedStaticScope
 >
 (
 )
 ;
 if
 (
-NestedStaticScopeObject
+NestedStaticScope
 *
 enclosing
 =
@@ -6129,7 +6129,7 @@ CK_BlockObject
 {
 Rooted
 <
-StaticBlockObject
+StaticBlockScope
 *
 >
 tmp
@@ -6137,7 +6137,7 @@ tmp
 cx
 static_cast
 <
-StaticBlockObject
+StaticBlockScope
 *
 >
 (
@@ -6174,7 +6174,7 @@ else
 {
 Rooted
 <
-StaticWithObject
+StaticWithScope
 *
 >
 tmp
@@ -6182,7 +6182,7 @@ tmp
 cx
 static_cast
 <
-StaticWithObject
+StaticWithScope
 *
 >
 (
@@ -6198,7 +6198,7 @@ get
 if
 (
 !
-XDRStaticWithObject
+XDRStaticWithScope
 (
 xdr
 enclosingStaticScope
@@ -19604,7 +19604,7 @@ obj
 >
 is
 <
-NestedStaticScopeObject
+NestedStaticScope
 >
 (
 )
@@ -19612,7 +19612,7 @@ NestedStaticScopeObject
 {
 Rooted
 <
-NestedStaticScopeObject
+NestedStaticScope
 *
 >
 innerBlock
@@ -19624,7 +19624,7 @@ obj
 >
 as
 <
-NestedStaticScopeObject
+NestedStaticScope
 >
 (
 )
@@ -19638,7 +19638,7 @@ cx
 ;
 if
 (
-NestedStaticScopeObject
+NestedStaticScope
 *
 enclosingBlock
 =
@@ -19671,7 +19671,7 @@ scriptStaticScope
 >
 is
 <
-StaticNonSyntacticScopeObjects
+StaticNonSyntacticScope
 >
 (
 )
@@ -19986,7 +19986,7 @@ scriptStaticScope
 >
 is
 <
-StaticNonSyntacticScopeObjects
+StaticNonSyntacticScope
 >
 (
 )
@@ -21179,7 +21179,7 @@ JSContext
 cx
 Handle
 <
-StaticScopeObject
+StaticScope
 *
 >
 enclosingScope
@@ -21200,7 +21200,7 @@ enclosingScope
 >
 is
 <
-StaticNonSyntacticScopeObjects
+StaticNonSyntacticScope
 >
 (
 )
@@ -22816,7 +22816,7 @@ nfixed
 nlivefixed
 )
 {
-NestedStaticScopeObject
+NestedStaticScope
 *
 staticScope
 =
@@ -22847,7 +22847,7 @@ staticScope
 >
 is
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
@@ -22886,7 +22886,7 @@ staticScope
 )
 )
 {
-StaticBlockObject
+StaticBlockScope
 &
 blockObj
 =
@@ -22895,7 +22895,7 @@ staticScope
 >
 as
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
@@ -22940,7 +22940,7 @@ return
 nlivefixed
 ;
 }
-NestedStaticScopeObject
+NestedStaticScope
 *
 JSScript
 :
@@ -22987,7 +22987,7 @@ blockScopes
 (
 )
 ;
-NestedStaticScopeObject
+NestedStaticScope
 *
 blockChain
 =
@@ -23136,7 +23136,7 @@ index
 >
 as
 <
-NestedStaticScopeObject
+NestedStaticScope
 >
 (
 )

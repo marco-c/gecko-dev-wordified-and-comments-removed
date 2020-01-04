@@ -14634,7 +14634,7 @@ enclosingStaticScope
 ;
 Rooted
 <
-StaticScopeObject
+StaticScope
 *
 >
 enclosingScope

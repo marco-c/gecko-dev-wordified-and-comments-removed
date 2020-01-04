@@ -15022,7 +15022,7 @@ BaselineFrame
 *
 Handle
 <
-StaticBlockObject
+StaticBlockScope
 *
 >
 )
@@ -15051,7 +15051,7 @@ emit_JSOP_PUSHBLOCKSCOPE
 (
 )
 {
-StaticBlockObject
+StaticBlockScope
 &
 blockObj
 =
@@ -15066,7 +15066,7 @@ pc
 >
 as
 <
-StaticBlockObject
+StaticBlockScope
 >
 (
 )
@@ -15471,7 +15471,7 @@ BaselineFrame
 HandleValue
 Handle
 <
-StaticWithObject
+StaticWithScope
 *
 >
 )
@@ -15500,7 +15500,7 @@ emit_JSOP_ENTERWITH
 (
 )
 {
-StaticWithObject
+StaticWithScope
 &
 withObj
 =
@@ -15515,7 +15515,7 @@ pc
 >
 as
 <
-StaticWithObject
+StaticWithScope
 >
 (
 )

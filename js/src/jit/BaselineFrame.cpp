@@ -452,7 +452,7 @@ enclosingStaticScope
 >
 as
 <
-StaticEvalObject
+StaticEvalScope
 >
 (
 )
