@@ -282,6 +282,15 @@ GetFilesAndDirectories
 (
 )
 ;
+void
+SetContentFilters
+(
+const
+nsAString
+&
+aFilters
+)
+;
 FileSystemBase
 *
 GetFileSystem
@@ -344,6 +353,9 @@ mFileSystem
 ;
 nsString
 mPath
+;
+nsString
+mFilters
 ;
 }
 ;
