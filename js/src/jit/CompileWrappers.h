@@ -297,6 +297,9 @@ allocKind
 }
 ;
 class
+JitCompartment
+;
+class
 CompileCompartment
 {
 JSCompartment

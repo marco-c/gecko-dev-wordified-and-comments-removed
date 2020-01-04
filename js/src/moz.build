@@ -1131,6 +1131,13 @@ UNIFIED_SOURCES
 '
 asmjs
 /
+AsmJSCompile
+.
+cpp
+'
+'
+asmjs
+/
 AsmJSFrameIterator
 .
 cpp
