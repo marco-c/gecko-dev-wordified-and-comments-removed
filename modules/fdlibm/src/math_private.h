@@ -973,6 +973,14 @@ ifdef
 FLT_EVAL_METHOD
 #
 if
+!
+defined
+(
+_MSC_VER
+)
+&
+&
+(
 FLT_EVAL_METHOD
 =
 =
@@ -983,6 +991,7 @@ __GNUC__
 =
 =
 0
+)
 #
 define
 STRICT_ASSIGN
