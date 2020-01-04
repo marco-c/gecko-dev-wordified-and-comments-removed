@@ -5413,6 +5413,8 @@ template
 <
 typename
 T
+class
+L
 >
 void
 branchTestMagic
@@ -5423,8 +5425,7 @@ const
 T
 &
 t
-Label
-*
+L
 label
 )
 {
