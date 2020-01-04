@@ -71,7 +71,7 @@ dom
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 AnimationEffectTimingReadOnly
-mParent
+mDocument
 )
 NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
 (
