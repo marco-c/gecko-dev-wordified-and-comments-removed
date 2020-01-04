@@ -1218,7 +1218,7 @@ RedrawAll
 mozilla
 :
 :
-widget
+java
 :
 :
 LayerRenderer

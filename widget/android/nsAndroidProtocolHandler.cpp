@@ -96,7 +96,7 @@ connection
 {
 mBridgeInputStream
 =
-widget
+java
 :
 :
 GeckoAppShell
@@ -311,7 +311,7 @@ aURI
 auto
 type
 =
-widget
+java
 :
 :
 GeckoAppShell
@@ -365,7 +365,7 @@ spec
 auto
 connection
 =
-widget
+java
 :
 :
 GeckoAppShell

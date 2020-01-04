@@ -18,7 +18,7 @@ class
 SmsManager
 :
 public
-widget
+java
 :
 :
 GeckoSmsManager

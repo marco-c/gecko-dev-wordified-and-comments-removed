@@ -179,7 +179,7 @@ namespace
 mozilla
 :
 :
-widget
+java
 :
 :
 sdk
@@ -921,19 +921,10 @@ buffer
 jni
 :
 :
-Object
+ByteBuffer
 :
 :
-LocalRef
-:
-:
-Adopt
-(
-env
-env
--
->
-NewDirectByteBuffer
+New
 (
 aConfig
 .
@@ -950,7 +941,6 @@ mCodecSpecificConfig
 >
 Length
 (
-)
 )
 )
 ;
@@ -1485,7 +1475,7 @@ false
 ;
 }
 return
-widget
+java
 :
 :
 HardwareCodecCapabilityUtils
