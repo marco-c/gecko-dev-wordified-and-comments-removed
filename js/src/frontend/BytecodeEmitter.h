@@ -2909,12 +2909,6 @@ pn
 ;
 MOZ_MUST_USE
 bool
-emitDebugOnlyCheckSelfHosted
-(
-)
-;
-MOZ_MUST_USE
-bool
 emitSelfHostedCallFunction
 (
 ParseNode

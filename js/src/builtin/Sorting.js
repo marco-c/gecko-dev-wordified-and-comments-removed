@@ -1094,10 +1094,9 @@ array
 )
 {
 return
-TypedArraySort
-.
-call
+callFunction
 (
+TypedArraySort
 array
 comparefn
 )
