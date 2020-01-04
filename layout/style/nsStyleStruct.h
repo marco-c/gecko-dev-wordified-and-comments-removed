@@ -13750,7 +13750,10 @@ mozilla
 StyleBoxAlign
 mBoxAlign
 ;
-uint8_t
+mozilla
+:
+:
+StyleBoxDirection
 mBoxDirection
 ;
 uint8_t

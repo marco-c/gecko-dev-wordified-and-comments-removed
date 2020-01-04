@@ -6204,6 +6204,12 @@ Clone
 )
 DEFINE_ENUM_CLASS_SETTER
 (
+StyleBoxDirection
+Normal
+Reverse
+)
+DEFINE_ENUM_CLASS_SETTER
+(
 StyleBoxPack
 Start
 Justify
@@ -46476,7 +46482,10 @@ parentXUL
 -
 >
 mBoxDirection
-NS_STYLE_BOX_DIRECTION_NORMAL
+StyleBoxDirection
+:
+:
+Normal
 )
 ;
 SetFactor

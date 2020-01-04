@@ -11853,7 +11853,10 @@ styleXUL
 mBoxDirection
 =
 =
-NS_STYLE_BOX_DIRECTION_REVERSE
+StyleBoxDirection
+:
+:
+Reverse
 )
 {
 mMainAxis
