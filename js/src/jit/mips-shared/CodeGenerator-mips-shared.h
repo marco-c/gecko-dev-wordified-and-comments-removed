@@ -868,6 +868,15 @@ ins
 ;
 virtual
 void
+visitPopcntI
+(
+LPopcntI
+*
+ins
+)
+;
+virtual
+void
 visitTestIAndBranch
 (
 LTestIAndBranch
