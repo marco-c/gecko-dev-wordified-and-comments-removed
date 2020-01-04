@@ -3306,6 +3306,12 @@ JSContext
 cx
 HandleId
 id
+const
+char
+*
+prefix
+=
+nullptr
 )
 ;
 extern
