@@ -252,10 +252,13 @@ registers
 yield
 rejects
 (
-PushNotificationService
+PushService
 .
 register
 (
+{
+scope
+:
 '
 https
 :
@@ -271,6 +274,8 @@ invalid
 -
 json
 '
+originAttributes
+:
 ChromeUtils
 .
 originAttributesToSuffix
@@ -288,6 +293,7 @@ inBrowser
 false
 }
 )
+}
 )
 '
 Expected

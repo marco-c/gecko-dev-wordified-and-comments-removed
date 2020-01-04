@@ -161,10 +161,13 @@ uri
 yield
 rejects
 (
-PushNotificationService
+PushService
 .
 registration
 (
+{
+scope
+:
 '
 https
 :
@@ -176,6 +179,8 @@ net
 /
 1
 '
+originAttributes
+:
 ChromeUtils
 .
 originAttributesToSuffix
@@ -193,6 +198,7 @@ inBrowser
 false
 }
 )
+}
 )
 function
 (

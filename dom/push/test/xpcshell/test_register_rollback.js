@@ -403,10 +403,13 @@ unregisterDone
 yield
 rejects
 (
-PushNotificationService
+PushService
 .
 register
 (
+{
+scope
+:
 '
 https
 :
@@ -420,6 +423,8 @@ storage
 -
 error
 '
+originAttributes
+:
 ChromeUtils
 .
 originAttributesToSuffix
@@ -437,6 +442,7 @@ inBrowser
 false
 }
 )
+}
 )
 '
 Expected
