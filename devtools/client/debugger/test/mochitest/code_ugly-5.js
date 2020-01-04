@@ -27,7 +27,8 @@ c
 d
 )
 {
-debugger
+return
+3
 ;
 }
 foo

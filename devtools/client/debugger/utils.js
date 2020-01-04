@@ -447,9 +447,8 @@ clear
 this
 .
 _minifiedCache
-=
-new
-WeakMap
+.
+clear
 (
 )
 ;
