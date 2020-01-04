@@ -1579,6 +1579,10 @@ gtk_socket_get_type
 )
 STUB
 (
+gtk_socket_get_plug_window
+)
+STUB
+(
 gtk_socket_new
 )
 STUB
