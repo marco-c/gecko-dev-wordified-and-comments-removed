@@ -3418,7 +3418,7 @@ IsOpaqueForVisibility
 )
 {
 return
-GetLocalOpacity
+GetEffectiveOpacity
 (
 )
 =
