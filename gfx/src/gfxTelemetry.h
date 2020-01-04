@@ -42,6 +42,13 @@ FeatureStatus
 aStatus
 )
 ;
+bool
+IsFeatureStatusSuccess
+(
+FeatureStatus
+aStatus
+)
+;
 }
 }
 #
