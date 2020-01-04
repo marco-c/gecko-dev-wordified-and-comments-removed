@@ -4490,7 +4490,7 @@ Key_Stop
 )
 KEY_MAP_ANDROID
 (
-PhoneCall
+Call
 AKEYCODE_CALL
 )
 KEY_MAP_QT
