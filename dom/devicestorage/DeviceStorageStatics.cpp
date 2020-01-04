@@ -3907,6 +3907,10 @@ mOwningThread
 Dispatch
 (
 r
+.
+forget
+(
+)
 NS_DISPATCH_NORMAL
 )
 ;
@@ -3987,6 +3991,10 @@ mOwningThread
 Dispatch
 (
 r
+.
+forget
+(
+)
 NS_DISPATCH_NORMAL
 )
 ;
@@ -4063,6 +4071,10 @@ mOwningThread
 Dispatch
 (
 r
+.
+forget
+(
+)
 NS_DISPATCH_NORMAL
 )
 ;
@@ -4155,6 +4167,10 @@ mOwningThread
 Dispatch
 (
 r
+.
+forget
+(
+)
 NS_DISPATCH_NORMAL
 )
 ;
