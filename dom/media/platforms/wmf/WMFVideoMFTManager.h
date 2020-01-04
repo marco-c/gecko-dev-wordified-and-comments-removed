@@ -204,6 +204,11 @@ decoder
 private
 :
 bool
+ValidateVideoInfo
+(
+)
+;
+bool
 InitializeDXVA
 (
 bool
@@ -346,6 +351,9 @@ mGotValidOutputAfterNullOutput
 ;
 bool
 mGotExcessiveNullOutput
+;
+bool
+mIsValid
 ;
 }
 ;
