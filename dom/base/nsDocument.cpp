@@ -1812,6 +1812,13 @@ h
 "
 #
 endif
+#
+include
+"
+VRDeviceProxy
+.
+h
+"
 using
 namespace
 mozilla
