@@ -53,6 +53,10 @@ makeWidgetId
 :
 true
 "
+pageActionFor
+:
+true
+"
 PanelPopup
 "
 :
