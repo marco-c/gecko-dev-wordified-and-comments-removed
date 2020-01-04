@@ -519,10 +519,17 @@ case
 -
 2
 :
+if
+(
+!
+defaultChild
+)
+{
 defaultChild
 =
 child
 ;
+}
 break
 ;
 default
