@@ -1238,6 +1238,17 @@ ClearSelectors
 (
 )
 ;
+static
+bool
+IsCSSSheetType
+(
+mozilla
+:
+:
+SheetType
+aSheetType
+)
+;
 private
 :
 nsStyleSet

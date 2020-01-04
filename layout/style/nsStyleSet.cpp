@@ -854,8 +854,10 @@ SheetType
 Override
 }
 ;
-static
 bool
+nsStyleSet
+:
+:
 IsCSSSheetType
 (
 SheetType
