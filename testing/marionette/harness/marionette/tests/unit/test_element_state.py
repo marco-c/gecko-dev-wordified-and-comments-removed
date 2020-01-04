@@ -1309,7 +1309,7 @@ prop
 )
     
 def
-test_missing_property_returns_false
+test_missing_property_returns_default
 (
 self
 )
