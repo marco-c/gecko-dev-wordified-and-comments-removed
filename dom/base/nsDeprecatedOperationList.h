@@ -124,5 +124,13 @@ PannerNodeDoppler
 )
 DEPRECATED_OPERATION
 (
+NavigatorGetUserMedia
+)
+DEPRECATED_OPERATION
+(
+WebrtcDeprecatedPrefix
+)
+DEPRECATED_OPERATION
+(
 AppCache
 )

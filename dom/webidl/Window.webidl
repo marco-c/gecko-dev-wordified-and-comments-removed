@@ -3781,7 +3781,3 @@ Window
 implements
 ImageBitmapFactories
 ;
-Window
-implements
-WebrtcDeprecated
-;
