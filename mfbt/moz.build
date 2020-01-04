@@ -558,6 +558,11 @@ WeakPtr
 h
 '
 '
+XorShift128PlusRNG
+.
+h
+'
+'
 unused
 .
 h
