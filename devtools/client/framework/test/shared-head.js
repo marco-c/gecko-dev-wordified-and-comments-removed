@@ -988,6 +988,7 @@ function
 synthesizeKeyShortcut
 (
 key
+target
 )
 {
 let
@@ -1060,6 +1061,7 @@ shortcut
 .
 shift
 }
+target
 )
 ;
 }
