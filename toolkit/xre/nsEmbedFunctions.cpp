@@ -1030,7 +1030,9 @@ kGeckoProcessTypeString
 aProcessType
 ]
 :
-nullptr
+"
+invalid
+"
 ;
 }
 namespace
