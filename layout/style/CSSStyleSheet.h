@@ -591,16 +591,6 @@ aSheet
 )
 ;
 void
-InsertStyleSheetAt
-(
-CSSStyleSheet
-*
-aSheet
-int32_t
-aIndex
-)
-;
-void
 AppendStyleRule
 (
 css
