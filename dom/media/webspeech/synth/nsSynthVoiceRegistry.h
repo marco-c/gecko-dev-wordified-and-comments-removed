@@ -228,6 +228,12 @@ aIsSpeaking
 ;
 static
 void
+RecvNotifyVoicesChanged
+(
+)
+;
+static
+void
 Shutdown
 (
 )

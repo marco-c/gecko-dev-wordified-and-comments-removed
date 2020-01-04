@@ -1024,6 +1024,13 @@ true
 ;
 }
 }
+registry
+-
+>
+NotifyVoicesChanged
+(
+)
+;
 return
 NS_OK
 ;

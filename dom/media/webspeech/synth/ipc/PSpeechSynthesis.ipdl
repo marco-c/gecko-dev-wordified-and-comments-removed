@@ -187,6 +187,11 @@ bool
 aIsSpeaking
 )
 ;
+async
+NotifyVoicesChanged
+(
+)
+;
 parent
 :
 async
