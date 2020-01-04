@@ -517,7 +517,6 @@ InitializeSession
 (
 )
 ;
-virtual
 nsresult
 ProcessDecode
 (
@@ -526,6 +525,7 @@ MediaRawData
 aSample
 )
 ;
+virtual
 nsresult
 DoDecode
 (
