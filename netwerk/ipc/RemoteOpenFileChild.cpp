@@ -1444,6 +1444,17 @@ PR_ImportFile
 osfd
 )
 ;
+if
+(
+!
+*
+aRetval
+)
+{
+return
+NS_ERROR_NOT_AVAILABLE
+;
+}
 return
 NS_OK
 ;
