@@ -2041,6 +2041,15 @@ newDecl
 isDeoptimized
 (
 )
+&
+&
+!
+sc
+-
+>
+isGlobalContext
+(
+)
 )
 {
 newDecl
