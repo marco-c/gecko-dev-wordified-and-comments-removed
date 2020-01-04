@@ -222,11 +222,6 @@ primitive
 js
 '
 '
-protocol
-.
-js
-'
-'
 service
 -
 worker

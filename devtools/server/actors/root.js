@@ -1959,7 +1959,7 @@ require
 "
 devtools
 /
-server
+shared
 /
 protocol
 "
