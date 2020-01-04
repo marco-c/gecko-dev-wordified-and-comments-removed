@@ -802,6 +802,10 @@ CreateBackBufferDrawTarget
 (
 mDrawTarget
 aRect
+aInit
+=
+=
+INIT_MODE_CLEAR
 )
 ;
 if

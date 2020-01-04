@@ -2430,6 +2430,9 @@ const
 LayoutDeviceIntRect
 &
 aRect
+const
+bool
+aInitModeClear
 )
 =
 0
