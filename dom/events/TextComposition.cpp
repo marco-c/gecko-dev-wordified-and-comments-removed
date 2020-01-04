@@ -596,6 +596,13 @@ compositionEvent
 .
 mData
 ;
+mLastRanges
+=
+aCompositionEvent
+-
+>
+mRanges
+;
 }
 DispatchEvent
 (
@@ -1067,6 +1074,13 @@ aCompositionEvent
 -
 >
 mData
+;
+mLastRanges
+=
+aCompositionEvent
+-
+>
+mRanges
 ;
 EditorWillHandleCompositionChangeEvent
 (
