@@ -1344,24 +1344,28 @@ self
 installer_url
 )
         
-else
+if
+not
+self
+.
+symbols_url
 :
             
 self
 .
-fatal
+warning
 (
 "
-Can
-'
-t
-figure
-out
+No
 symbols_url
-without
-an
-installer_url
-!
+found
+.
+Let
+minidump_stackwalk
+query
+for
+symbols
+.
 "
 )
         
