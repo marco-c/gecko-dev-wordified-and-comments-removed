@@ -333,6 +333,9 @@ public
 explicit
 BasicUnstoppableTrackSource
 (
+nsIPrincipal
+*
+aPrincipal
 const
 MediaSourceEnum
 aMediaSource
@@ -345,7 +348,7 @@ Other
 :
 MediaStreamTrackSource
 (
-nullptr
+aPrincipal
 true
 )
 mMediaSource
