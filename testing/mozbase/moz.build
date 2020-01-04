@@ -122,6 +122,9 @@ mozdevice
 mozfile
 '
 '
+mozhttpd
+'
+'
 mozinfo
 '
 '

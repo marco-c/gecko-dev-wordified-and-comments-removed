@@ -36,14 +36,12 @@ mozfile
 '
         
 '
-wptserve
+mozhttpd
 =
 =
-1
-.
-3
-.
 0
+.
+7
 '
         
 '

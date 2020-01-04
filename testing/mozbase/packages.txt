@@ -52,6 +52,15 @@ testing
 mozbase
 /
 mozfile
+mozhttpd
+.
+pth
+:
+testing
+/
+mozbase
+/
+mozhttpd
 mozinfo
 .
 pth

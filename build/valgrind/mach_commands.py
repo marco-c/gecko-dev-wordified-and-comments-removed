@@ -249,11 +249,9 @@ import
 TemporaryDirectory
         
 from
-wptserve
-.
-server
+mozhttpd
 import
-WebTestHttpd
+MozHttpd
         
 from
 mozprofile
@@ -305,9 +303,9 @@ build
         
 httpd
 =
-WebTestHttpd
+MozHttpd
 (
-doc_root
+docroot
 =
 os
 .

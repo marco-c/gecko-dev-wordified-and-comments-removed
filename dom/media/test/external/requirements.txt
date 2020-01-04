@@ -32,6 +32,12 @@ mozfile
 1
 .
 2
+mozhttpd
+=
+=
+0
+.
+7
 mozinfo
 =
 =

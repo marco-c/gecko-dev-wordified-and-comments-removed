@@ -14,12 +14,8 @@ import
 ManifestParser
 import
 mozfile
-from
-wptserve
-.
-server
 import
-WebTestHttpd
+mozhttpd
 import
 mozlog
 .
@@ -352,9 +348,11 @@ self
         
 server
 =
-WebTestHttpd
+mozhttpd
+.
+MozHttpd
 (
-doc_root
+docroot
 =
 os
 .
@@ -1231,9 +1229,11 @@ self
         
 server
 =
-WebTestHttpd
+mozhttpd
+.
+MozHttpd
 (
-doc_root
+docroot
 =
 os
 .
@@ -2639,9 +2639,11 @@ functionality
         
 server
 =
-WebTestHttpd
+mozhttpd
+.
+MozHttpd
 (
-doc_root
+docroot
 =
 os
 .

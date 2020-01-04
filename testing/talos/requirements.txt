@@ -16,14 +16,12 @@ mozfile
 1
 .
 2
-wptserve
+mozhttpd
 >
 =
-1
-.
-3
-.
 0
+.
+7
 mozinfo
 >
 =
