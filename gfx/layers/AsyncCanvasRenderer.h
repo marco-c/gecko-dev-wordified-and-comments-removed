@@ -82,6 +82,9 @@ dom
 class
 HTMLCanvasElement
 ;
+class
+CanvasRenderingContext2D
+;
 }
 namespace
 layers
