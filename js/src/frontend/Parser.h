@@ -3118,6 +3118,17 @@ canHaveDirectives
 false
 )
 ;
+Node
+statementListItem
+(
+YieldHandling
+yieldHandling
+bool
+canHaveDirectives
+=
+false
+)
+;
 bool
 maybeParseDirective
 (
