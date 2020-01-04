@@ -26,9 +26,10 @@ nsDebug
 .
 h
 "
+extern
 PRLogModuleInfo
 *
-GetAppleMediaLog
+GetPDMLog
 (
 )
 ;
@@ -42,7 +43,7 @@ LOG
 )
 MOZ_LOG
 (
-GetAppleMediaLog
+GetPDMLog
 (
 )
 mozilla
