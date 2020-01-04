@@ -295,11 +295,6 @@ TransientPrefs
 jsm
 '
 '
-UserContextUI
-.
-jsm
-'
-'
 webrtcUI
 .
 jsm
