@@ -85,6 +85,17 @@ FileUtil
 import
 org
 .
+mozilla
+.
+gecko
+.
+util
+.
+FileUtils
+;
+import
+org
+.
 robolectric
 .
 RuntimeEnvironment
@@ -951,7 +962,7 @@ mkdirs
 )
 )
 ;
-FileUtil
+FileUtils
 .
 writeStringToFile
 (
