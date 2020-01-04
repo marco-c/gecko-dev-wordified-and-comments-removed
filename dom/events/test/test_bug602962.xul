@@ -440,6 +440,12 @@ callee
 false
 )
 ;
+setTimeout
+(
+function
+(
+)
+{
 sbo
 .
 scrollBy
@@ -448,12 +454,6 @@ scrollBy
 0
 )
 ;
-setTimeout
-(
-function
-(
-)
-{
 resize
 (
 )
