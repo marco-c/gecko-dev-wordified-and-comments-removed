@@ -6071,6 +6071,7 @@ style
 :
 "
 action
+remotetab
 "
 frecency
 :

@@ -262,6 +262,9 @@ style
 "
 action
 "
+"
+remotetab
+"
 ]
 icon
 :
