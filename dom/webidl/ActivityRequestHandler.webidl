@@ -90,9 +90,6 @@ id
 optional
 ActivityOptions
 options
-optional
-boolean
-returnvalue
 )
 ChromeOnly
 ]
