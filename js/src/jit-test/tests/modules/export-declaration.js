@@ -209,7 +209,7 @@ type
 "
 ClassStatement
 "
-id
+name
 :
 name
 }

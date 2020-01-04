@@ -831,6 +831,13 @@ js_interface_str
 extern
 const
 char
+js_new_str
+[
+]
+;
+extern
+const
+char
 js_package_str
 [
 ]
