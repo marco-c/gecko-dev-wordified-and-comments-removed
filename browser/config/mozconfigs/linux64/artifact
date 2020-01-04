@@ -29,3 +29,7 @@ enable
 artifact
 -
 builds
+unset
+CC
+unset
+CXX

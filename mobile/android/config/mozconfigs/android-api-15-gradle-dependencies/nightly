@@ -135,6 +135,10 @@ disable
 compile
 -
 environment
+unset
+HOST_CC
+unset
+HOST_CXX
 ac_add_options
 -
 -
