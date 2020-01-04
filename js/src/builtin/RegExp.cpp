@@ -35,6 +35,15 @@ h
 #
 include
 "
+jit
+/
+InlinableNatives
+.
+h
+"
+#
+include
+"
 vm
 /
 RegExpStatics
@@ -2635,7 +2644,7 @@ regexp_compile
 2
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 exec
@@ -2643,8 +2652,9 @@ exec
 regexp_exec
 1
 0
+RegExpExec
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 test
@@ -2652,6 +2662,7 @@ test
 regexp_test
 1
 0
+RegExpTest
 )
 JS_FS_END
 }
