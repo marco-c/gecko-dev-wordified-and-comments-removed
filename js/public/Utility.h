@@ -402,12 +402,11 @@ targetThread
 static
 inline
 bool
-OOMThreadCheck
+IsThreadSimulatingOOM
 (
 )
 {
 return
-(
 !
 js
 :
@@ -436,7 +435,6 @@ oom
 GetThreadType
 (
 )
-)
 ;
 }
 static
@@ -447,7 +445,7 @@ IsSimulatedOOMAllocation
 )
 {
 return
-OOMThreadCheck
+IsThreadSimulatingOOM
 (
 )
 &
@@ -480,7 +478,7 @@ ShouldFailWithOOM
 if
 (
 !
-OOMThreadCheck
+IsThreadSimulatingOOM
 (
 )
 )
@@ -683,6 +681,14 @@ AutoEnterOOMUnsafeRegion
 :
 oomEnabled_
 (
+oom
+:
+:
+IsThreadSimulatingOOM
+(
+)
+&
+&
 OOM_maxAllocations
 !
 =
