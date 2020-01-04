@@ -138,6 +138,12 @@ a
 ;
 d
 .
+declarationInstantiation
+(
+)
+;
+d
+.
 evaluation
 (
 )

@@ -8233,12 +8233,13 @@ ModuleObject
 )
 ;
 return
-module
--
->
+ModuleObject
+:
+:
 evaluate
 (
 cx
+module
 args
 .
 rval
