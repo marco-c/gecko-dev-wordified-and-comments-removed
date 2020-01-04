@@ -62,15 +62,6 @@ h
 #
 include
 "
-builtin
-/
-ModuleObject
-.
-h
-"
-#
-include
-"
 gc
 /
 Barrier
@@ -217,6 +208,9 @@ Debugger
 ;
 class
 LazyScript
+;
+class
+ModuleObject
 ;
 class
 NestedScopeObject
