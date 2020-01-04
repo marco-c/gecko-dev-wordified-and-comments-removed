@@ -585,6 +585,11 @@ nsPresArena
 h
 '
 '
+nsPresArenaObjectList
+.
+h
+'
+'
 nsPresContext
 .
 h
@@ -636,6 +641,11 @@ mozilla
 +
 =
 [
+'
+ArenaObjectID
+.
+h
+'
 '
 GeometryUtils
 .

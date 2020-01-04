@@ -6312,10 +6312,7 @@ PresShell
 >
 AllocateByObjectID
 (
-nsPresArena
-:
-:
-nsRuleNode_id
+eArenaObjectID_nsRuleNode
 sz
 )
 ;
@@ -6579,10 +6576,7 @@ PresShell
 >
 FreeByObjectID
 (
-nsPresArena
-:
-:
-nsRuleNode_id
+eArenaObjectID_nsRuleNode
 this
 )
 ;

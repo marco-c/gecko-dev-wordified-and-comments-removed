@@ -69,6 +69,10 @@ inttypes
 .
 h
 >
+using
+namespace
+mozilla
+;
 static
 const
 size_t
@@ -808,7 +812,7 @@ h
 undef
 FRAME_ID
 case
-nsLineBox_id
+eArenaObjectID_nsLineBox
 :
 p
 =
@@ -821,7 +825,7 @@ mLineBoxes
 break
 ;
 case
-nsRuleNode_id
+eArenaObjectID_nsRuleNode
 :
 p
 =
@@ -834,7 +838,7 @@ mRuleNodes
 break
 ;
 case
-nsStyleContext_id
+eArenaObjectID_nsStyleContext
 :
 p
 =
@@ -855,13 +859,10 @@ checkdata_cb_
 )
 \
 case
-nsStyle
+eArenaObjectID_nsStyle
 #
 #
 name_
-#
-#
-_id
 :
 #
 include
