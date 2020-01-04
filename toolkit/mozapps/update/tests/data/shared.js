@@ -225,17 +225,6 @@ enabled
 "
 ;
 const
-PREF_APP_UPDATE_SHOW_INSTALLED_UI
-=
-"
-app
-.
-update
-.
-showInstalledUI
-"
-;
-const
 PREF_APP_UPDATE_SILENT
 =
 "

@@ -5010,16 +5010,6 @@ PREF_APP_UPDATE_ENABLED
 true
 )
 ;
-Services
-.
-prefs
-.
-setBoolPref
-(
-PREF_APP_UPDATE_SHOW_INSTALLED_UI
-false
-)
-;
 if
 (
 DEBUG_AUS_TEST
