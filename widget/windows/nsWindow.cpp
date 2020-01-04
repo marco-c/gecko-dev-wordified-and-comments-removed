@@ -24059,6 +24059,11 @@ mWnd
 pl
 )
 ;
+nsSizeMode
+previousSizeMode
+=
+mSizeMode
+;
 if
 (
 pl
@@ -24244,6 +24249,12 @@ endif
 if
 (
 mWidgetListener
+&
+&
+mSizeMode
+!
+=
+previousSizeMode
 )
 mWidgetListener
 -

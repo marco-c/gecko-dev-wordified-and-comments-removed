@@ -2058,6 +2058,15 @@ display
 )
 GK_ATOM
 (
+displayMode
+"
+display
+-
+mode
+"
+)
+GK_ATOM
+(
 distinct
 "
 distinct
