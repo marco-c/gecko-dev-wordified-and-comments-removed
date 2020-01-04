@@ -28,7 +28,9 @@ imports
 )
 {
 return
-wasmEval
+Wasm
+.
+instantiateModule
 (
 wasmTextToBinary
 (

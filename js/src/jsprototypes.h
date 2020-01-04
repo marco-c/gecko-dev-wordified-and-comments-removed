@@ -716,6 +716,17 @@ SavedFrame
 class_
 )
 \
+real
+(
+Wasm
+47
+InitWasmClass
+CLASP
+(
+Wasm
+)
+)
+\
 #
 define
 JS_FOR_EACH_PROTOTYPE
