@@ -357,11 +357,6 @@ GraphTime
 aFrom
 )
 ;
-void
-ReleaseSharedBuffers
-(
-)
-;
 StreamTime
 GetCurrentPosition
 (
