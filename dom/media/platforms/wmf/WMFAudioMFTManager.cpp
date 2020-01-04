@@ -392,10 +392,7 @@ GUID_NULL
 }
 ;
 }
-already_AddRefed
-<
-MFTDecoder
->
+bool
 WMFAudioMFTManager
 :
 :
@@ -409,7 +406,7 @@ mStreamType
 !
 =
 Unknown
-nullptr
+false
 )
 ;
 RefPtr
@@ -443,7 +440,7 @@ SUCCEEDED
 (
 hr
 )
-nullptr
+false
 )
 ;
 RefPtr
@@ -471,7 +468,7 @@ SUCCEEDED
 (
 hr
 )
-nullptr
+false
 )
 ;
 hr
@@ -491,7 +488,7 @@ SUCCEEDED
 (
 hr
 )
-nullptr
+false
 )
 ;
 hr
@@ -513,7 +510,7 @@ SUCCEEDED
 (
 hr
 )
-nullptr
+false
 )
 ;
 hr
@@ -533,7 +530,7 @@ SUCCEEDED
 (
 hr
 )
-nullptr
+false
 )
 ;
 hr
@@ -553,7 +550,7 @@ SUCCEEDED
 (
 hr
 )
-nullptr
+false
 )
 ;
 if
@@ -581,7 +578,7 @@ SUCCEEDED
 (
 hr
 )
-nullptr
+false
 )
 ;
 hr
@@ -610,7 +607,7 @@ SUCCEEDED
 (
 hr
 )
-nullptr
+false
 )
 ;
 }
@@ -639,7 +636,7 @@ SUCCEEDED
 (
 hr
 )
-nullptr
+false
 )
 ;
 hr
@@ -659,7 +656,7 @@ SUCCEEDED
 (
 hr
 )
-nullptr
+false
 )
 ;
 hr
@@ -679,7 +676,7 @@ SUCCEEDED
 (
 hr
 )
-nullptr
+false
 )
 ;
 hr
@@ -699,7 +696,7 @@ SUCCEEDED
 (
 hr
 )
-nullptr
+false
 )
 ;
 hr
@@ -719,7 +716,7 @@ SUCCEEDED
 (
 hr
 )
-nullptr
+false
 )
 ;
 mDecoder
@@ -727,11 +724,7 @@ mDecoder
 decoder
 ;
 return
-decoder
-.
-forget
-(
-)
+true
 ;
 }
 HRESULT
