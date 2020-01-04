@@ -269,6 +269,13 @@ IsOpaque
 )
 override
 ;
+virtual
+nsIntRegion
+GetFullyRenderedRegion
+(
+)
+override
+;
 protected
 :
 virtual

@@ -1800,6 +1800,7 @@ HasStaleCompositor
 )
 const
 ;
+virtual
 nsIntRegion
 GetFullyRenderedRegion
 (
