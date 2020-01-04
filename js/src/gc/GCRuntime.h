@@ -16,13 +16,6 @@ h
 #
 include
 "
-jsfriendapi
-.
-h
-"
-#
-include
-"
 jsgc
 .
 h
@@ -3541,9 +3534,6 @@ tunables
 ;
 GCSchedulingState
 schedulingState
-;
-MemProfiler
-mMemProfiler
 ;
 private
 :
