@@ -3641,10 +3641,7 @@ AsProcessedStream
 AllocateInputPort
 (
 stream
-MediaInputPort
-:
-:
-FLAG_BLOCK_OUTPUT
+0
 )
 ;
 trackunion
