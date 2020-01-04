@@ -605,6 +605,9 @@ pushlog_id
 }
 treeherder
 :
+jobKind
+:
+test
 groupSymbol
 :
 tc

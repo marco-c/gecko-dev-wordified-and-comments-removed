@@ -300,6 +300,9 @@ staging
 production
 treeherder
 :
+jobKind
+:
+other
 build
 :
 platform

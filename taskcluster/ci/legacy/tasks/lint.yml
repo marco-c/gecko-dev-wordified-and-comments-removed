@@ -290,3 +290,8 @@ rank
 pushlog_id
 }
 }
+treeherder
+:
+jobKind
+:
+test

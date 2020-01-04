@@ -423,6 +423,9 @@ production
 staging
 treeherder
 :
+jobKind
+:
+build
 groupSymbol
 :
 tc

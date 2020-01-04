@@ -493,6 +493,9 @@ pushlog_id
 }
 treeherder
 :
+jobKind
+:
+build
 groupSymbol
 :
 tc

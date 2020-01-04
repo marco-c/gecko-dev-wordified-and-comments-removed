@@ -59,6 +59,9 @@ production
 staging
 treeherder
 :
+jobKind
+:
+build
 machine
 :
 #
