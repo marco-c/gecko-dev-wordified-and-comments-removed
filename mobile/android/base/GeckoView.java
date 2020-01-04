@@ -783,6 +783,12 @@ disposeNative
 (
 )
 ;
+native
+void
+close
+(
+)
+;
 }
 private
 final
