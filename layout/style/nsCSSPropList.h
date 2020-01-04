@@ -6055,7 +6055,7 @@ mMinWidth
 )
 eStyleAnimType_Coord
 )
-CSS_PROP_DISPLAY
+CSS_PROP_EFFECTS
 (
 mix
 -

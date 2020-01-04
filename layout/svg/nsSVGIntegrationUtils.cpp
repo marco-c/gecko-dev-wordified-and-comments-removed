@@ -2168,7 +2168,7 @@ isTrivialClip
 aFrame
 -
 >
-StyleDisplay
+StyleEffects
 (
 )
 -
@@ -2522,7 +2522,7 @@ if
 aFrame
 -
 >
-StyleDisplay
+StyleEffects
 (
 )
 -
@@ -2996,7 +2996,7 @@ if
 aFrame
 -
 >
-StyleDisplay
+StyleEffects
 (
 )
 -
