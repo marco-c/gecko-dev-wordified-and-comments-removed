@@ -4457,6 +4457,9 @@ mCursor
 bool
 mHaveHotspot
 ;
+bool
+mLoading
+;
 float
 mHotspotX
 mHotspotY
