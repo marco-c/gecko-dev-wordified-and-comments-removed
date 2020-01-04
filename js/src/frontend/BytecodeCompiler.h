@@ -96,9 +96,11 @@ ModuleObject
 *
 CompileModule
 (
-ExclusiveContext
+JSContext
 *
 cx
+HandleObject
+obj
 const
 ReadOnlyCompileOptions
 &
@@ -106,11 +108,6 @@ options
 SourceBufferHolder
 &
 srcBuf
-LifoAlloc
-*
-alloc
-=
-nullptr
 )
 ;
 bool

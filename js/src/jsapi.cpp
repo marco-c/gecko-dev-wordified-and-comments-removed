@@ -20592,7 +20592,7 @@ HelperThreadState
 (
 )
 .
-finishScriptParseTask
+finishParseTask
 (
 maybecx
 rt
@@ -20611,7 +20611,7 @@ HelperThreadState
 (
 )
 .
-finishScriptParseTask
+finishParseTask
 (
 maybecx
 rt
