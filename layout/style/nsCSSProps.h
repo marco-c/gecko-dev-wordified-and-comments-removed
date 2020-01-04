@@ -1880,8 +1880,6 @@ aProperty
 ]
 ;
 }
-public
-:
 static
 bool
 IsEnabled
@@ -1915,8 +1913,6 @@ aProperty
 ]
 ;
 }
-private
-:
 static
 const
 mozilla
