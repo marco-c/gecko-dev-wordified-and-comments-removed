@@ -660,6 +660,11 @@ OverflowClipBox
 )
 COMPUTED_STYLE_PROP
 (
+overflow_wrap
+OverflowWrap
+)
+COMPUTED_STYLE_PROP
+(
 overflow_x
 OverflowX
 )
@@ -947,11 +952,6 @@ COMPUTED_STYLE_PROP
 (
 word_spacing
 WordSpacing
-)
-COMPUTED_STYLE_PROP
-(
-word_wrap
-WordWrap
 )
 COMPUTED_STYLE_PROP
 (

@@ -7628,7 +7628,7 @@ uint8_t
 mWordBreak
 ;
 uint8_t
-mWordWrap
+mOverflowWrap
 ;
 uint8_t
 mHyphens
@@ -7830,10 +7830,10 @@ WhiteSpaceCanWrapStyle
 )
 &
 &
-mWordWrap
+mOverflowWrap
 =
 =
-NS_STYLE_WORDWRAP_BREAK_WORD
+NS_STYLE_OVERFLOWWRAP_BREAK_WORD
 ;
 }
 bool
