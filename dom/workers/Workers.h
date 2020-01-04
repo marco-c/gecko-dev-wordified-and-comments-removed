@@ -1058,15 +1058,6 @@ aNSResult
 )
 ;
 }
-nsIGlobalObject
-*
-GetGlobalObjectForGlobal
-(
-JSObject
-*
-global
-)
-;
 bool
 IsWorkerGlobal
 (
