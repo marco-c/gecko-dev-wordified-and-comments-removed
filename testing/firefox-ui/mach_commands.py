@@ -113,11 +113,37 @@ default_tests
 :
 [
                 
+os
+.
+path
+.
+join
+(
+'
+puppeteer
+'
 '
 manifest
 .
 ini
 '
+)
+                
+os
+.
+path
+.
+join
+(
+'
+functional
+'
+'
+manifest
+.
+ini
+'
+)
             
 ]
             

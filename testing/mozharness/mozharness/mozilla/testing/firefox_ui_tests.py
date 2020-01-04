@@ -2316,10 +2316,9 @@ strict
 False
 )
         
-cmd
-.
-append
-(
+tests
+=
+[
 os
 .
 path
@@ -2335,10 +2334,21 @@ abs_fxui_dir
 '
 tests
 '
+test
+)
+for
+test
+in
 self
 .
-tests_manifest
-)
+default_tests
+]
+        
+cmd
+.
+extend
+(
+tests
 )
         
 return_code
@@ -2892,13 +2902,43 @@ cli_functional
 py
 '
     
-tests_manifest
+default_tests
 =
+[
+        
+os
+.
+path
+.
+join
+(
+'
+puppeteer
+'
 '
 manifest
 .
 ini
 '
+)
+        
+os
+.
+path
+.
+join
+(
+'
+functional
+'
+'
+manifest
+.
+ini
+'
+)
+    
+]
 class
 FirefoxUIUpdateTests
 (
@@ -2914,8 +2954,10 @@ cli_update
 py
 '
     
-tests_manifest
+default_tests
 =
+[
+        
 os
 .
 path
@@ -2931,6 +2973,8 @@ manifest
 ini
 '
 )
+    
+]
     
 def
 __init__
