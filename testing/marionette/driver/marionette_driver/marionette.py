@@ -26,10 +26,6 @@ from
 keys
 import
 Keys
-import
-marionette_transport
-as
-transport
 from
 mozrunner
 import
@@ -38,6 +34,8 @@ import
 geckoinstance
 import
 errors
+import
+transport
 WEBELEMENT_KEY
 =
 "
