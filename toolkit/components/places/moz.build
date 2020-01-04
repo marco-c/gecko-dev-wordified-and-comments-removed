@@ -220,12 +220,12 @@ UNIFIED_SOURCES
 =
 [
 '
-AsyncFaviconHelpers
+Database
 .
 cpp
 '
 '
-Database
+FaviconHelpers
 .
 cpp
 '

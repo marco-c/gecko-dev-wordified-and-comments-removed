@@ -102,7 +102,7 @@ h
 #
 include
 "
-AsyncFaviconHelpers
+FaviconHelpers
 .
 h
 "
@@ -412,17 +412,7 @@ mozilla
 places
 :
 :
-AsyncFetchAndSetIconForPage
-;
-friend
-class
-mozilla
-:
-:
-places
-:
-:
-RemoveIconDataCacheEntry
+AsyncReplaceFaviconData
 ;
 nsTHashtable
 <
