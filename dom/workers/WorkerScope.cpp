@@ -1100,6 +1100,7 @@ SetTimeout
 (
 JSContext
 *
+aCx
 const
 nsAString
 &
@@ -1143,9 +1144,7 @@ mWorkerPrivate
 >
 SetTimeout
 (
-GetCurrentThreadJSContext
-(
-)
+aCx
 nullptr
 aHandler
 aTimeout
