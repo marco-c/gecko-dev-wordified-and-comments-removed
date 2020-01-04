@@ -142,6 +142,11 @@ case
 longpressonemptycontent
 '
 :
+case
+'
+taponcaret
+'
+:
 this
 .
 _init
