@@ -4007,7 +4007,7 @@ VideoCodec
 aCodecSettings
 int32_t
 aNumOfCores
-uint32_t
+size_t
 aMaxPayloadSize
 )
 {

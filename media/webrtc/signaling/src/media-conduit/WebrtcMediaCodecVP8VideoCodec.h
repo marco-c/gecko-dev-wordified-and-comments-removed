@@ -115,7 +115,7 @@ VideoCodec
 codecSettings
 int32_t
 numberOfCores
-uint32_t
+size_t
 maxPayloadSize
 )
 override
