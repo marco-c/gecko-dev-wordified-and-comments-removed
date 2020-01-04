@@ -13,9 +13,9 @@ require
 "
 devtools
 /
-server
+client
 /
-actors
+fronts
 /
 storage
 "
