@@ -298,12 +298,6 @@ channelInfo
 OptionalPrincipalInfo
 principalInfo
 ;
-OptionalIPCStream
-body
-;
-int64_t
-bodySize
-;
 }
 ;
 }
