@@ -951,7 +951,7 @@ GetParent
 )
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 &
@@ -960,7 +960,7 @@ IsBoxFrame
 aFrame
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 ;
@@ -2235,7 +2235,7 @@ IsInNativeAnonymousSubtree
 aFrame
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 &
@@ -2248,7 +2248,7 @@ GetParent
 )
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 )
@@ -27243,7 +27243,7 @@ IsCollapsed
 &
 &
 (
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 |

@@ -6340,7 +6340,7 @@ false
 )
 ;
 bool
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 const

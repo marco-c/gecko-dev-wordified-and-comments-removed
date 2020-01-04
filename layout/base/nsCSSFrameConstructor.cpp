@@ -2131,7 +2131,7 @@ eMathML
 aFrame
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 |
@@ -34857,7 +34857,7 @@ grandparentFrame
 grandparentFrame
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 &
@@ -45324,7 +45324,7 @@ aAllowBlockStyles
 aFrame
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 "
@@ -45376,7 +45376,7 @@ haveFirstLineStyle
 aFrame
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 "
@@ -45403,7 +45403,7 @@ NS_ASSERTION
 aFrame
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 |
@@ -45445,7 +45445,7 @@ if
 aFrame
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 &
@@ -50483,7 +50483,7 @@ if
 aFrame
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 &

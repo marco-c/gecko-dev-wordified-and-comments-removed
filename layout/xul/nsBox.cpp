@@ -4111,7 +4111,7 @@ return
 aFrame
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 ?
@@ -4159,7 +4159,7 @@ GetParent
 )
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 ?
@@ -4203,7 +4203,7 @@ GetParent
 )
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 ?

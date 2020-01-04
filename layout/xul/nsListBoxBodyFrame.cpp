@@ -4476,7 +4476,7 @@ return
 mTopFrame
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 ?
@@ -4510,7 +4510,7 @@ return
 mTopFrame
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 ?
@@ -4649,7 +4649,7 @@ return
 existingFrame
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 ?
@@ -4735,7 +4735,7 @@ return
 mTopFrame
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 ?
@@ -5040,7 +5040,7 @@ NS_ASSERTION
 result
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 |
@@ -5069,7 +5069,7 @@ return
 result
 -
 >
-IsBoxFrame
+IsXULBoxFrame
 (
 )
 ?
