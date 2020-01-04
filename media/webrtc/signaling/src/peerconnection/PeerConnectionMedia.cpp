@@ -7152,6 +7152,11 @@ trackPair
 first
 )
 ;
+if
+(
+pipeline
+)
+{
 MOZ_ASSERT
 (
 pipeline
@@ -7190,6 +7195,7 @@ aPrincipal
 )
 )
 ;
+}
 }
 }
 #
