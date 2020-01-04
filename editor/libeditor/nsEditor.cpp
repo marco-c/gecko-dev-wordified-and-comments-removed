@@ -101,7 +101,7 @@ h
 #
 include
 "
-InsertTextTxn
+InsertTextTransaction
 .
 h
 "
@@ -10211,7 +10211,7 @@ rv
 }
 already_AddRefed
 <
-InsertTextTxn
+InsertTextTransaction
 >
 nsEditor
 :
@@ -10231,12 +10231,12 @@ aOffset
 {
 RefPtr
 <
-InsertTextTxn
+InsertTextTransaction
 >
-txn
+transaction
 =
 new
-InsertTextTxn
+InsertTextTransaction
 (
 aTextNode
 aOffset
@@ -10246,7 +10246,7 @@ this
 )
 ;
 return
-txn
+transaction
 .
 forget
 (
