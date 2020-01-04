@@ -91,6 +91,14 @@ step1
 ;
 iframe
 .
+contentWindow
+.
+onstorage
+=
+null
+;
+iframe
+.
 src
 =
 "

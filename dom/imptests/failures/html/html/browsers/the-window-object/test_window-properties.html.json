@@ -228,14 +228,6 @@ onmousewheel
 true
 "
 Window
-attribute
-:
-onstorage
-"
-:
-true
-"
-Window
 unforgeable
 attribute
 :

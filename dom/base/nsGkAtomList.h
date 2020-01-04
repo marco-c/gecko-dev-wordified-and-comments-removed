@@ -6364,6 +6364,13 @@ onstksessionend
 )
 GK_ATOM
 (
+onstorage
+"
+onstorage
+"
+)
+GK_ATOM
+(
 onstorageareachanged
 "
 onstorageareachanged

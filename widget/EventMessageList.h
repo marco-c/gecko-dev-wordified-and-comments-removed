@@ -221,6 +221,10 @@ ePopState
 )
 NS_EVENT_MESSAGE
 (
+eStorage
+)
+NS_EVENT_MESSAGE
+(
 eBeforeUnload
 )
 NS_EVENT_MESSAGE

@@ -992,6 +992,13 @@ eBasicEventClass
 )
 WINDOW_EVENT
 (
+storage
+eStorage
+EventNameType_HTMLBodyOrFramesetOnly
+eBasicEventClass
+)
+WINDOW_EVENT
+(
 unload
 eUnload
 (

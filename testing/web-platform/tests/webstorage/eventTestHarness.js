@@ -57,11 +57,8 @@ iframe
 .
 contentWindow
 .
-addEventListener
-(
-"
-storage
-"
+onstorage
+=
 function
 (
 e
@@ -79,7 +76,6 @@ e
 )
 ;
 }
-)
 ;
 function
 runAfterNStorageEvents

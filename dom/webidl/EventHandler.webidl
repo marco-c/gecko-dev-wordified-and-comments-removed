@@ -814,12 +814,6 @@ attribute
 EventHandler
 onpopstate
 ;
-/
-/
-(
-Not
-implemented
-)
 attribute
 EventHandler
 onstorage
