@@ -3647,6 +3647,10 @@ mCurrentScrollbarFlags
 (
 0
 )
+mCurrentScrollbarWillHaveLayer
+(
+false
+)
 mBuildCaret
 (
 aBuildCaret
@@ -17038,6 +17042,14 @@ borderBox
 }
 if
 (
+aBuilder
+-
+>
+IsBuildingNonLayerizedScrollbar
+(
+)
+|
+|
 aBuilder
 -
 >
