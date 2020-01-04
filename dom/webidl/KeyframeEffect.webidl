@@ -373,6 +373,14 @@ getFrames
 }
 ;
 [
+Func
+=
+"
+nsDocument
+:
+:
+IsWebAnimationsEnabled
+"
 Constructor
 (
 (
