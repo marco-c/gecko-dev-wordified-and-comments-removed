@@ -673,6 +673,10 @@ mUsingTmmbr
 (
 false
 )
+mUsingFEC
+(
+false
+)
 {
 }
 virtual
@@ -890,6 +894,16 @@ return
 mUsingTmmbr
 ;
 }
+bool
+UsingFEC
+(
+)
+const
+{
+return
+mUsingFEC
+;
+}
 protected
 :
 FrameRequestType
@@ -900,6 +914,9 @@ mUsingNackBasic
 ;
 bool
 mUsingTmmbr
+;
+bool
+mUsingFEC
 ;
 }
 ;
