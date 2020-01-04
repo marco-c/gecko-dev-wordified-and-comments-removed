@@ -456,6 +456,13 @@ UpdateRenderMode
 )
 ;
 void
+ForceDeviceReset
+(
+ForcedDeviceResetReason
+aReason
+)
+;
+void
 VerifyD2DDevice
 (
 bool
