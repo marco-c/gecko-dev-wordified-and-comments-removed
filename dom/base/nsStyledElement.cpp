@@ -143,7 +143,7 @@ mozilla
 dom
 ;
 bool
-nsStyledElementNotElementCSSInlineStyle
+nsStyledElement
 :
 :
 ParseAttribute
@@ -208,7 +208,7 @@ aResult
 ;
 }
 nsresult
-nsStyledElementNotElementCSSInlineStyle
+nsStyledElement
 :
 :
 SetInlineStyleDeclaration
@@ -372,7 +372,7 @@ css
 :
 Declaration
 *
-nsStyledElementNotElementCSSInlineStyle
+nsStyledElement
 :
 :
 GetInlineStyleDeclaration
@@ -440,7 +440,7 @@ nullptr
 }
 nsICSSDeclaration
 *
-nsStyledElementNotElementCSSInlineStyle
+nsStyledElement
 :
 :
 Style
@@ -497,7 +497,7 @@ mStyle
 ;
 }
 nsresult
-nsStyledElementNotElementCSSInlineStyle
+nsStyledElement
 :
 :
 ReparseStyleAttribute
@@ -627,7 +627,7 @@ NS_OK
 ;
 }
 void
-nsStyledElementNotElementCSSInlineStyle
+nsStyledElement
 :
 :
 ParseStyleAttribute

@@ -225,7 +225,7 @@ struct
 nsSVGEnumMapping
 ;
 typedef
-nsStyledElementNotElementCSSInlineStyle
+nsStyledElement
 nsSVGElementBase
 ;
 class
