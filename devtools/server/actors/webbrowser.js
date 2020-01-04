@@ -690,6 +690,7 @@ workerList
 new
 WorkerActorList
 (
+aConnection
 {
 }
 )
@@ -698,6 +699,7 @@ serviceWorkerRegistrationList
 new
 ServiceWorkerRegistrationActorList
 (
+aConnection
 )
 processList
 :
@@ -3694,6 +3696,9 @@ _workerActorList
 new
 WorkerActorList
 (
+this
+.
+conn
 {
 type
 :
