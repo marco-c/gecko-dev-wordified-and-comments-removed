@@ -424,6 +424,15 @@ define
 NS_NATIVE_PLUGIN_OBJECT_PTR
 104
 #
+ifdef
+MOZ_X11
+#
+define
+NS_NATIVE_COMPOSITOR_DISPLAY
+105
+#
+endif
+#
 endif
 #
 ifdef
