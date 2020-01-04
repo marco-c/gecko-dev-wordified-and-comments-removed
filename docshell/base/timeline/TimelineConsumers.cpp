@@ -1220,12 +1220,6 @@ NS_IsMainThread
 )
 )
 ;
-StaticMutexAutoLock
-lock
-(
-sMutex
-)
-;
 if
 (
 !
