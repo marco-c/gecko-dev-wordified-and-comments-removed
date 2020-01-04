@@ -559,6 +559,14 @@ AsyncPanZoomController
 aInitialTarget
 )
 ;
+static
+void
+SetLongTapEnabled
+(
+bool
+aTapGestureEnabled
+)
+;
 protected
 :
 virtual

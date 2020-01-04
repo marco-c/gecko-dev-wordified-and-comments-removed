@@ -6067,6 +6067,7 @@ mWaitForDoubleTap
 false
 ;
 }
+Override
 public
 void
 setIsLongpressEnabled

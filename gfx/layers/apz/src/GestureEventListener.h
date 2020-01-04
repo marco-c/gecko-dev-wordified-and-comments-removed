@@ -93,6 +93,14 @@ GetLastTouchIdentifier
 )
 const
 ;
+static
+void
+SetLongTapEnabled
+(
+bool
+aLongTapEnabled
+)
+;
 private
 :
 ~

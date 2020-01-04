@@ -589,12 +589,7 @@ boolean
 isLongpressEnabled
 )
 {
-(
-(
-JavaPanZoomController
-)
 mPanZoomController
-)
 .
 setIsLongpressEnabled
 (
