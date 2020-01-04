@@ -145,6 +145,11 @@ SRICheck
 h
 '
 '
+SRILogHelper
+.
+h
+'
+'
 SRIMetadata
 .
 h
