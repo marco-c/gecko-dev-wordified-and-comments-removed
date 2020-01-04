@@ -819,6 +819,14 @@ _MSC_VER
 DEFINES
 [
 '
+MSVC_2013_OR_LOWER
+'
+]
+=
+True
+DEFINES
+[
+'
 snprintf
 '
 ]
