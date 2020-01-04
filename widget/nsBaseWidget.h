@@ -2355,9 +2355,14 @@ nsIntRect
 *
 mOriginalBounds
 ;
-nsAutoArrayPtr
+mozilla
+:
+:
+UniquePtr
 <
 nsIntRect
+[
+]
 >
 mClipRects
 ;
