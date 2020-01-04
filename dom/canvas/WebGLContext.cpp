@@ -3142,14 +3142,6 @@ MOZ_WEBGL_FORCE_EGL
 #
 ifdef
 XP_WIN
-if
-(
-!
-IsWebGL2
-(
-)
-)
-{
 tryNativeGL
 =
 false
@@ -3158,7 +3150,6 @@ tryANGLE
 =
 true
 ;
-}
 if
 (
 gfxPrefs
