@@ -13628,7 +13628,7 @@ const
 bool
 ImmutablePrototypesEnabled
 =
-false
+true
 ;
 JS_FRIEND_API
 (
