@@ -137,6 +137,11 @@ csscoverage
 js
 '
 '
+device
+.
+js
+'
+'
 highlighters
 .
 js

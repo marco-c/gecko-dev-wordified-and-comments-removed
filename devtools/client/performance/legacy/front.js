@@ -169,9 +169,9 @@ require
 "
 devtools
 /
-server
+shared
 /
-actors
+device
 /
 device
 "

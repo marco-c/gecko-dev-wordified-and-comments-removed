@@ -142,6 +142,11 @@ csscoverage
 js
 '
 '
+device
+.
+js
+'
+'
 environment
 .
 js
