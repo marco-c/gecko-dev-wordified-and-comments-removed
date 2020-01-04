@@ -2207,6 +2207,10 @@ crypto
 .
 decryptData
 (
+crypto
+.
+arrayToString
+(
 row
 .
 getResultByName
@@ -2215,6 +2219,8 @@ getResultByName
 password_value
 "
 )
+)
+null
 )
 hostName
 :
