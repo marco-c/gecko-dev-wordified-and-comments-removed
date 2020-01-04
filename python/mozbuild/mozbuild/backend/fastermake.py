@@ -17,6 +17,19 @@ mozbuild
 .
 frontend
 .
+context
+import
+(
+    
+Context
+    
+Path
+)
+from
+mozbuild
+.
+frontend
+.
 data
 import
 (
@@ -744,6 +757,30 @@ pp
 .
 includes
         
+jar_context
+=
+Context
+(
+config
+=
+obj
+.
+_context
+.
+config
+)
+        
+jar_context
+.
+add_source
+(
+obj
+.
+path
+.
+full_path
+)
+        
 for
 jarinfo
 in
@@ -802,38 +839,25 @@ jarinfo
 relativesrcdir
 :
                         
-path
+src
 =
-mozpath
-.
-join
-(
-self
-.
-environment
-.
-topsrcdir
-                                            
+'
+/
+%
+s
+'
+%
 jarinfo
 .
 relativesrcdir
-)
                     
 else
 :
                         
-path
+src
 =
-mozpath
-.
-dirname
-(
-obj
-.
-path
-.
-full_path
-)
+'
+'
                     
 src
 =
@@ -841,7 +865,7 @@ mozpath
 .
 join
 (
-path
+src
 '
 en
 -
@@ -852,70 +876,20 @@ e
 source
 )
                 
-elif
-e
-.
-source
-.
-startswith
-(
-'
-/
-'
-)
-:
-                    
-src
-=
-mozpath
-.
-join
-(
-self
-.
-environment
-.
-topsrcdir
-                                       
-e
-.
-source
-[
-1
-:
-]
-)
-                
 else
 :
                     
 src
 =
-mozpath
-.
-join
-(
-mozpath
-.
-dirname
-(
-obj
-.
-path
-.
-full_path
-)
 e
 .
 source
-)
                 
 src
 =
-mozpath
-.
-normpath
+Path
 (
+jar_context
 src
 )
                 
@@ -968,13 +942,11 @@ s
 for
 p
 in
-s
+mozpath
 .
 split
 (
-'
-/
-'
+s
 )
 :
                             
@@ -1004,6 +976,8 @@ join
 _prefix
 (
 src
+.
+full_path
 )
 )
                     
@@ -1022,6 +996,8 @@ add_pattern_symlink
 prefix
                         
 src
+.
+full_path
 [
 len
 (
@@ -1054,6 +1030,8 @@ path
 exists
 (
 src
+.
+full_path
 )
 :
                     
@@ -1102,23 +1080,16 @@ startswith
                         
 src
 =
-mozpath
-.
-join
+Path
 (
-self
-.
-environment
-.
-topobjdir
-                                           
+jar_context
+'
+!
+'
++
 e
 .
 source
-[
-1
-:
-]
 )
                     
 else
@@ -1126,13 +1097,15 @@ else
                         
 src
 =
-mozpath
-.
-join
+Path
 (
 obj
 .
-objdir
+_context
+'
+!
+'
++
 e
 .
 source
@@ -1162,6 +1135,8 @@ relpath
 (
                         
 src
+.
+full_path
 self
 .
 environment
@@ -1184,6 +1159,8 @@ _add_preprocess
 obj
                         
 src
+.
+full_path
                         
 mozpath
 .
@@ -1230,6 +1207,8 @@ add_symlink
 (
                         
 src
+.
+full_path
                         
 mozpath
 .
