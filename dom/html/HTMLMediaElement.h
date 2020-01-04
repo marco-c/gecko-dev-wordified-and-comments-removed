@@ -3279,9 +3279,6 @@ bool
 mEventDeliveryPaused
 ;
 bool
-mWaitingFired
-;
-bool
 mIsRunningLoadMethod
 ;
 bool
