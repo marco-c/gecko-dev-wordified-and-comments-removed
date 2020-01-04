@@ -1032,6 +1032,9 @@ mCapsToClear
 nsHttpVersion
 mHttpVersion
 ;
+uint16_t
+mHttpResponseCode
+;
 bool
 mClosed
 ;
