@@ -191,6 +191,9 @@ Cache
 CacheStorage
 "
 "
+CustomEvent
+"
+"
 DedicatedWorkerGlobalScope
 "
 {

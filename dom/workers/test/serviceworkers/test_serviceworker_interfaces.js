@@ -196,6 +196,9 @@ Client
 "
 Clients
 "
+"
+CustomEvent
+"
 {
 name
 :
