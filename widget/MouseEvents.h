@@ -1420,7 +1420,7 @@ mDeltaY
 .
 0
 )
-deltaZ
+mDeltaZ
 (
 0
 .
@@ -1527,7 +1527,7 @@ mDeltaY
 .
 0
 )
-deltaZ
+mDeltaZ
 (
 0
 .
@@ -1686,7 +1686,7 @@ double
 mDeltaY
 ;
 double
-deltaZ
+mDeltaZ
 ;
 uint32_t
 deltaMode
@@ -1858,11 +1858,11 @@ aEvent
 .
 mDeltaY
 ;
-deltaZ
+mDeltaZ
 =
 aEvent
 .
-deltaZ
+mDeltaZ
 ;
 deltaMode
 =

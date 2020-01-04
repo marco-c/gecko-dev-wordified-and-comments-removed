@@ -24070,7 +24070,7 @@ index
 aEvent
 -
 >
-deltaZ
+mDeltaZ
 *
 =
 mMultiplierZ
@@ -24320,7 +24320,7 @@ Abs
 aEvent
 -
 >
-deltaZ
+mDeltaZ
 )
 )
 ;
