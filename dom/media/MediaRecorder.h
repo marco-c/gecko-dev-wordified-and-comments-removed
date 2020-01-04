@@ -402,11 +402,6 @@ nsresult
 aRv
 )
 ;
-bool
-CheckPrincipal
-(
-)
-;
 void
 SetMimeType
 (
@@ -446,12 +441,6 @@ aSession
 MediaStream
 *
 GetSourceMediaStream
-(
-)
-;
-nsIPrincipal
-*
-GetSourcePrincipal
 (
 )
 ;
