@@ -739,8 +739,10 @@ sProcLoaderChannelFd
 -
 1
 ;
+UniquePtr
+<
 Transport
-*
+>
 transport
 =
 OpenDescriptor
@@ -765,6 +767,10 @@ sProcLoaderParent
 Open
 (
 transport
+.
+get
+(
+)
 sProcLoaderPid
 XRE_GetIOMessageLoop
 (
@@ -2219,8 +2225,10 @@ child_thread
 (
 )
 ;
+UniquePtr
+<
 Transport
-*
+>
 transport
 =
 OpenDescriptor
@@ -2248,6 +2256,10 @@ loaderChild
 Open
 (
 transport
+.
+get
+(
+)
 aPeerPid
 iothread
 -
