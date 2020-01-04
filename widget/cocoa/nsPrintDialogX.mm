@@ -635,7 +635,7 @@ if
 button
 !
 =
-NSOKButton
+NSFileHandlingPanelOKButton
 )
 return
 NS_ERROR_ABORT
@@ -880,7 +880,7 @@ return
 button
 =
 =
-NSOKButton
+NSFileHandlingPanelOKButton
 ?
 NS_OK
 :
