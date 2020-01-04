@@ -550,6 +550,9 @@ mUpdateWait
 PrefixArray
 mMissCache
 ;
+CacheResultArray
+mLastResults
+;
 nsresult
 mUpdateStatus
 ;
