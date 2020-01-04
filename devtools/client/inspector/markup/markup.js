@@ -14476,10 +14476,6 @@ e
 }
 return
 attributes
-.
-reverse
-(
-)
 ;
 }
 function
