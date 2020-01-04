@@ -1637,6 +1637,14 @@ int32_t
 aHeight
 )
 ;
+void
+DOMNodeID
+(
+nsString
+&
+aID
+)
+;
 uintptr_t
 GetWrapper
 (
