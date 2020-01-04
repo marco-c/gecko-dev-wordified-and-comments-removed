@@ -3224,6 +3224,7 @@ range
 )
 {
 nsAutoPlaceHolderBatch
+phb
 (
 editor
 nullptr
