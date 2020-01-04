@@ -1995,6 +1995,8 @@ MediaSourceDemuxer
 :
 :
 EOS_FUZZ
+/
+2
 )
 ;
 TimeUnit
@@ -2112,6 +2114,8 @@ MediaSourceDemuxer
 :
 :
 EOS_FUZZ
+/
+2
 )
 ;
 bool
