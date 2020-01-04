@@ -1595,7 +1595,7 @@ ffmpeg
 .
 enabled
 "
-false
+true
 )
 ;
 pref
