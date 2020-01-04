@@ -6263,9 +6263,6 @@ notdir
 _FLAGS
 )
 (
-TARGET_LOCAL_INCLUDES
-)
-(
 _VPATH_SRCS
 )
 #
@@ -6627,9 +6624,6 @@ _FLAGS
 (
 LOCAL_INCLUDES
 )
-(
-TARGET_LOCAL_INCLUDES
-)
 -
 c
 <
@@ -6667,9 +6661,6 @@ notdir
 _FLAGS
 )
 (
-TARGET_LOCAL_INCLUDES
-)
-(
 _VPATH_SRCS
 )
 (
@@ -6701,9 +6692,6 @@ notdir
 <
 )
 _FLAGS
-)
-(
-TARGET_LOCAL_INCLUDES
 )
 (
 _VPATH_SRCS
@@ -6739,9 +6727,6 @@ notdir
 _FLAGS
 )
 (
-TARGET_LOCAL_INCLUDES
-)
-(
 _VPATH_SRCS
 )
 (
@@ -6795,9 +6780,6 @@ notdir
 _FLAGS
 )
 (
-TARGET_LOCAL_INCLUDES
-)
-(
 _VPATH_SRCS
 )
 (
@@ -6849,9 +6831,6 @@ notdir
 <
 )
 _FLAGS
-)
-(
-TARGET_LOCAL_INCLUDES
 )
 (
 _VPATH_SRCS
@@ -6907,9 +6886,6 @@ notdir
 _FLAGS
 )
 (
-TARGET_LOCAL_INCLUDES
-)
-(
 _VPATH_SRCS
 )
 (
@@ -6961,9 +6937,6 @@ notdir
 <
 )
 _FLAGS
-)
-(
-TARGET_LOCAL_INCLUDES
 )
 (
 _VPATH_SRCS
@@ -7298,9 +7271,6 @@ notdir
 _FLAGS
 )
 (
-TARGET_LOCAL_INCLUDES
-)
-(
 _VPATH_SRCS
 )
 (
@@ -7358,9 +7328,6 @@ notdir
 <
 )
 _FLAGS
-)
-(
-TARGET_LOCAL_INCLUDES
 )
 (
 _VPATH_SRCS
@@ -7422,9 +7389,6 @@ notdir
 _FLAGS
 )
 (
-TARGET_LOCAL_INCLUDES
-)
-(
 _VPATH_SRCS
 )
 (
@@ -7482,9 +7446,6 @@ notdir
 <
 )
 _FLAGS
-)
-(
-TARGET_LOCAL_INCLUDES
 )
 (
 _VPATH_SRCS
@@ -7547,9 +7508,6 @@ notdir
 <
 )
 _FLAGS
-)
-(
-TARGET_LOCAL_INCLUDES
 )
 (
 _VPATH_SRCS
