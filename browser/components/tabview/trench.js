@@ -185,6 +185,8 @@ get
 radius
 (
 )
+{
+return
 this
 .
 customRadius
@@ -193,6 +195,8 @@ customRadius
 Trenches
 .
 defaultRadius
+;
+}
 setParentItem
 :
 function

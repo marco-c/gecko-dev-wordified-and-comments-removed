@@ -3121,6 +3121,8 @@ function
 (
 event
 )
+{
+return
 func
 .
 apply
@@ -3130,6 +3132,8 @@ this
 event
 ]
 )
+;
+}
 ;
 for
 (
