@@ -2254,12 +2254,6 @@ const
 {
 return
 mContext
-&
-&
-nestegg_has_cues
-(
-mContext
-)
 ;
 }
 void
