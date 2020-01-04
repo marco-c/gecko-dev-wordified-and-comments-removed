@@ -8448,7 +8448,7 @@ succeed
 nobj
 -
 >
-setInitializedLength
+setInitializedLengthNoBarrier
 (
 index
 )
@@ -10827,7 +10827,7 @@ setCapacityIndex
 1
 )
 ;
-setInitializedLength
+setInitializedLengthNoBarrier
 (
 0
 )
