@@ -308,7 +308,7 @@ android
 defaultValue
 =
 "
-quit
+always
 "
 android
 :
