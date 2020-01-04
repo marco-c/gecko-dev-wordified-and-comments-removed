@@ -41622,7 +41622,7 @@ GetStringFromName
 "
 networkOffline
 .
-message
+message2
 "
 )
 Snackbars
