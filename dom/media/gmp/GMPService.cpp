@@ -1730,7 +1730,10 @@ rv
 }
 mAbstractGMPThread
 =
-CreateXPCOMAbstractThreadWrapper
+AbstractThread
+:
+:
+CreateXPCOMThreadWrapper
 (
 mGMPThread
 false
