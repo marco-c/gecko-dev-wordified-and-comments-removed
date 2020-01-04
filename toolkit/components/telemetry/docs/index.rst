@@ -180,5 +180,8 @@ ping
 heartbeat
 -
 ping
+sync
+-
+ping
 preferences
 crashes
