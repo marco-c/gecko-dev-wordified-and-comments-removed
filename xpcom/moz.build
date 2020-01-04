@@ -195,13 +195,6 @@ TEST_DIRS
 '
 tests
 '
-'
-rust
-/
-nsstring
-/
-gtest
-'
 ]
 #
 Can
