@@ -671,8 +671,6 @@ allowScriptsToClose
 (
 )
 ;
-content
-.
 addEventListener
 (
 "
@@ -722,8 +720,6 @@ data
 eventNames
 )
 {
-content
-.
 addEventListener
 (
 eventName
