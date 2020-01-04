@@ -172,7 +172,7 @@ quotePairs
 mPseudoFrame
 -
 >
-StyleQuotes
+StyleList
 (
 )
 -

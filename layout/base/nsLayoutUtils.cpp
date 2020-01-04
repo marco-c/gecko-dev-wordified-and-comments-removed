@@ -38052,7 +38052,7 @@ UnregisterPrefChangeCallbacks
 (
 )
 ;
-nsStyleQuotes
+nsStyleList
 :
 :
 Shutdown

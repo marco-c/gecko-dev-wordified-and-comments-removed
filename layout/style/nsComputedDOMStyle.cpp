@@ -6309,7 +6309,7 @@ auto
 &
 quotePairs
 =
-StyleQuotes
+StyleList
 (
 )
 -
