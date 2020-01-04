@@ -193,6 +193,11 @@ AnimValuesStyleRule
 h
 '
 '
+ComputedTiming
+.
+h
+'
+'
 ComputedTimingFunction
 .
 h
