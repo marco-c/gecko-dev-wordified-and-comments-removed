@@ -1765,6 +1765,17 @@ mLength
 }
 ;
 struct
+BluetoothServiceName
+{
+uint8_t
+mName
+[
+255
+]
+;
+}
+;
+struct
 BluetoothServiceRecord
 {
 BluetoothUuid
