@@ -154,6 +154,14 @@ use
 asm
 "
 var
+k
+=
+m
+.
+SIMD
+.
+Bool32x4
+var
 g
 =
 m
@@ -175,7 +183,7 @@ f
 var
 x
 =
-g
+k
 (
 0
 0
