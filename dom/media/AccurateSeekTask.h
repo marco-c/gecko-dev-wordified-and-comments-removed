@@ -111,12 +111,12 @@ AccurateSeekTask
 (
 )
 ;
-nsresult
+void
 EnsureVideoDecodeTaskQueued
 (
 )
 ;
-nsresult
+void
 EnsureAudioDecodeTaskQueued
 (
 )
