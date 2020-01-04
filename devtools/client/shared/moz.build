@@ -196,6 +196,15 @@ devices
 js
 '
 '
+devtools
+-
+file
+-
+watcher
+.
+js
+'
+'
 DOMHelpers
 .
 jsm
