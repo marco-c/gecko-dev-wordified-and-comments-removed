@@ -1830,14 +1830,6 @@ ContainerParser
 (
 aType
 )
-mMonitor
-(
-"
-MP4ContainerParser
-Index
-Monitor
-"
-)
 {
 }
 bool
@@ -2309,12 +2301,6 @@ aEnd
 )
 override
 {
-MonitorAutoLock
-mon
-(
-mMonitor
-)
-;
 bool
 initSegment
 =
@@ -2362,8 +2348,6 @@ MoofParser
 mStream
 0
 false
-&
-mMonitor
 )
 ;
 mInitData
@@ -2712,9 +2696,6 @@ mp4_demuxer
 MoofParser
 >
 mParser
-;
-Monitor
-mMonitor
 ;
 }
 ;
