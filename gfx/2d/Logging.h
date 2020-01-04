@@ -291,6 +291,7 @@ InvalidRect
 CannotDraw3D
 IncompatibleBasicTexturedEffect
 InvalidFont
+PAllocTextureBackendMismatch
 MustBeLessThanThis
 =
 101
