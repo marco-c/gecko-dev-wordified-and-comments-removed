@@ -419,7 +419,7 @@ n
 +
 "
 namespace
-java
+widget
 {
 \
 n
@@ -482,7 +482,7 @@ n
 +
 "
 namespace
-java
+widget
 {
 \
 n
@@ -580,7 +580,7 @@ n
 +
 "
 namespace
-java
+widget
 {
 \
 n
