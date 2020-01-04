@@ -29,6 +29,15 @@ util
 Log
 ;
 import
+com
+.
+keepsafe
+.
+switchboard
+.
+SwitchBoard
+;
+import
 org
 .
 json
@@ -1158,9 +1167,9 @@ context
 )
 {
 return
-Experiments
+SwitchBoard
 .
-isInExperimentLocal
+isInExperiment
 (
 context
 Experiments
