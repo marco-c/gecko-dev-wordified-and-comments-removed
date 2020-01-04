@@ -12903,6 +12903,10 @@ CLTXN_doTransaction
 (
 )
 {
+this
+.
+_promise
+=
 PlacesUtils
 .
 livemarks
@@ -13015,6 +13019,10 @@ CLTXN_undoTransaction
 (
 )
 {
+this
+.
+_promise
+=
 PlacesUtils
 .
 livemarks
