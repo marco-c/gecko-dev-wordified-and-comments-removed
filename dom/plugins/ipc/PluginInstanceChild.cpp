@@ -2263,6 +2263,8 @@ PluginModuleChild
 "
 )
 ;
+MOZ_FALLTHROUGH
+;
 #
 endif
 default

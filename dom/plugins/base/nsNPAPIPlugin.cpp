@@ -9106,12 +9106,9 @@ NPERR_NO_ERROR
 ;
 }
 }
-else
-{
 return
 NPERR_GENERIC_ERROR
 ;
-}
 }
 #
 ifndef
@@ -10108,6 +10105,8 @@ nsISupports
 result
 =
 nullptr
+;
+MOZ_FALLTHROUGH
 ;
 default
 :
