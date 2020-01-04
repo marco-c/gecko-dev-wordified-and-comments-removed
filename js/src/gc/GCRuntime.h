@@ -2737,9 +2737,9 @@ lifo
 void
 releaseArena
 (
-ArenaHeader
+Arena
 *
-aheader
+arena
 const
 AutoLockGC
 &
@@ -2898,7 +2898,7 @@ AutoMaybeStartBackgroundAllocation
 maybeStartBGAlloc
 )
 ;
-ArenaHeader
+Arena
 *
 allocateArena
 (
@@ -2925,7 +2925,7 @@ JS
 Zone
 *
 zone
-ArenaHeader
+Arena
 *
 arena
 )
@@ -3508,7 +3508,7 @@ gcreason
 :
 Reason
 reason
-ArenaHeader
+Arena
 *
 &
 relocatedListOut
@@ -3550,7 +3550,7 @@ zone
 void
 protectAndHoldArenas
 (
-ArenaHeader
+Arena
 *
 arenaList
 )
@@ -3563,7 +3563,7 @@ unprotectHeldRelocatedArenas
 void
 releaseRelocatedArenas
 (
-ArenaHeader
+Arena
 *
 arenaList
 )
@@ -3571,7 +3571,7 @@ arenaList
 void
 releaseRelocatedArenasWithoutUnlocking
 (
-ArenaHeader
+Arena
 *
 arenaList
 const
@@ -4004,7 +4004,7 @@ js
 gc
 :
 :
-ArenaHeader
+Arena
 *
 arenasAllocatedDuringSweep
 ;
@@ -4020,7 +4020,7 @@ gc
 ZoneList
 zonesToMaybeCompact
 ;
-ArenaHeader
+Arena
 *
 relocatedArenasToRelease
 ;

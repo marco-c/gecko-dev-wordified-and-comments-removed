@@ -1866,8 +1866,6 @@ thingsSpan
 arena
 -
 >
-aheader
-.
 getAllocKind
 (
 )

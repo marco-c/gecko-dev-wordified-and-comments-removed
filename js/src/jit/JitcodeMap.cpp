@@ -4514,7 +4514,7 @@ jitcode_
 jitcode_
 -
 >
-arenaHeader
+arena
 (
 )
 -
@@ -4637,7 +4637,7 @@ script_
 script_
 -
 >
-arenaHeader
+arena
 (
 )
 -
@@ -5124,7 +5124,7 @@ i
 script
 -
 >
-arenaHeader
+arena
 (
 )
 -

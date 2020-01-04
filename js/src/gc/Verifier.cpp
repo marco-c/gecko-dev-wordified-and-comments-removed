@@ -1087,7 +1087,7 @@ isMarked
 cell
 -
 >
-arenaHeader
+arena
 (
 )
 -

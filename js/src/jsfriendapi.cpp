@@ -5706,8 +5706,6 @@ unsigned
 arena
 -
 >
-aheader
-.
 getAllocKind
 (
 )

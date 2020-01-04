@@ -249,9 +249,9 @@ next
 )
 )
 {
-ArenaHeader
+Arena
 *
-aheader
+arena
 =
 aiter
 .
@@ -266,12 +266,7 @@ arenaCallback
 (
 rt
 data
-aheader
--
->
-getArena
-(
-)
+arena
 traceKind
 thingSize
 )
@@ -281,7 +276,7 @@ for
 ArenaCellIterUnderGC
 iter
 (
-aheader
+arena
 )
 ;
 !

@@ -869,7 +869,7 @@ isMarked
 existingShape
 -
 >
-arenaHeader
+arena
 (
 )
 -
