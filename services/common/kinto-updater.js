@@ -457,7 +457,8 @@ clockDifference
 =
 Math
 .
-abs
+floor
+(
 (
 Date
 .
@@ -469,6 +470,7 @@ serverTimeMillis
 )
 /
 1000
+)
 ;
 Services
 .
