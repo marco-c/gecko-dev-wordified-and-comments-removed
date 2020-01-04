@@ -49,9 +49,7 @@ https
 :
 /
 /
-content
--
-cdn
+s3_proxy_tiles
 .
 stage
 .
