@@ -582,11 +582,6 @@ aArg
 )
 ;
 void
-MaybeRejectWithNull
-(
-)
-;
-void
 MaybeRejectWithUndefined
 (
 )
