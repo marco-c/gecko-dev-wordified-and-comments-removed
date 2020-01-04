@@ -2431,7 +2431,7 @@ mDeltaZ
 ;
 aWheelEvent
 .
-lineOrPageDeltaX
+mLineOrPageDeltaX
 =
 aWheelEvent
 .

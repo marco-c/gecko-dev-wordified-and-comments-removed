@@ -3616,7 +3616,7 @@ WHEEL_EVENT_CUSTOMIZED_BY_USER_PREFS
 ;
 wheelEvent
 .
-lineOrPageDeltaX
+mLineOrPageDeltaX
 =
 aLineOrPageDeltaX
 ;

@@ -3345,7 +3345,7 @@ lineOrPageDeltaY
 :
 wheelEvent
 .
-lineOrPageDeltaX
+mLineOrPageDeltaX
 ;
 delta
 =
@@ -3502,7 +3502,7 @@ mDeltaY
 f
 "
 "
-lineOrPageDeltaX
+mLineOrPageDeltaX
 :
 %
 d
@@ -3565,7 +3565,7 @@ wheelEvent
 mDeltaY
 wheelEvent
 .
-lineOrPageDeltaX
+mLineOrPageDeltaX
 wheelEvent
 .
 lineOrPageDeltaY
@@ -4140,7 +4140,7 @@ lineOrPageDeltaY
 :
 aWheelEvent
 .
-lineOrPageDeltaX
+mLineOrPageDeltaX
 ;
 double
 nativeDeltaPerUnit
@@ -4372,7 +4372,7 @@ mDeltaY
 f
 "
 "
-lineOrPageDeltaX
+mLineOrPageDeltaX
 :
 %
 d
@@ -4431,7 +4431,7 @@ aWheelEvent
 mDeltaY
 aWheelEvent
 .
-lineOrPageDeltaX
+mLineOrPageDeltaX
 aWheelEvent
 .
 lineOrPageDeltaY

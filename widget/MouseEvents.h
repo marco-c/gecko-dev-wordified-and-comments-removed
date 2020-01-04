@@ -1445,7 +1445,7 @@ mIsNoLineOrPageDelta
 (
 false
 )
-lineOrPageDeltaX
+mLineOrPageDeltaX
 (
 0
 )
@@ -1556,7 +1556,7 @@ mIsNoLineOrPageDelta
 (
 false
 )
-lineOrPageDeltaX
+mLineOrPageDeltaX
 (
 0
 )
@@ -1704,7 +1704,7 @@ bool
 mIsNoLineOrPageDelta
 ;
 int32_t
-lineOrPageDeltaX
+mLineOrPageDeltaX
 ;
 int32_t
 lineOrPageDeltaY
@@ -1717,7 +1717,7 @@ GetPreferredIntDelta
 if
 (
 !
-lineOrPageDeltaX
+mLineOrPageDeltaX
 &
 &
 !
@@ -1734,7 +1734,7 @@ lineOrPageDeltaY
 &
 &
 !
-lineOrPageDeltaX
+mLineOrPageDeltaX
 )
 {
 return
@@ -1743,7 +1743,7 @@ lineOrPageDeltaY
 }
 if
 (
-lineOrPageDeltaX
+mLineOrPageDeltaX
 &
 &
 !
@@ -1751,13 +1751,13 @@ lineOrPageDeltaY
 )
 {
 return
-lineOrPageDeltaX
+mLineOrPageDeltaX
 ;
 }
 if
 (
 (
-lineOrPageDeltaX
+mLineOrPageDeltaX
 <
 0
 &
@@ -1769,7 +1769,7 @@ lineOrPageDeltaY
 |
 |
 (
-lineOrPageDeltaX
+mLineOrPageDeltaX
 >
 0
 &
@@ -1788,7 +1788,7 @@ return
 (
 Abs
 (
-lineOrPageDeltaX
+mLineOrPageDeltaX
 )
 >
 Abs
@@ -1797,7 +1797,7 @@ lineOrPageDeltaY
 )
 )
 ?
-lineOrPageDeltaX
+mLineOrPageDeltaX
 :
 lineOrPageDeltaY
 ;
@@ -1894,11 +1894,11 @@ aEvent
 .
 mIsNoLineOrPageDelta
 ;
-lineOrPageDeltaX
+mLineOrPageDeltaX
 =
 aEvent
 .
-lineOrPageDeltaX
+mLineOrPageDeltaX
 ;
 lineOrPageDeltaY
 =
