@@ -22,6 +22,13 @@ MediaDataDemuxer
 .
 h
 "
+#
+include
+"
+NesteggPacketHolder
+.
+h
+"
 typedef
 struct
 nestegg
@@ -31,13 +38,7 @@ namespace
 mozilla
 {
 class
-NesteggPacketHolder
-;
-class
 WebMBufferedState
-;
-class
-WebMPacketQueue
 ;
 class
 MediaRawDataQueue
