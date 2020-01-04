@@ -2173,6 +2173,10 @@ const
 Float32Array
 &
 aImagData
+const
+PeriodicWaveConstraints
+&
+aConstraints
 ErrorResult
 &
 aRv

@@ -180,6 +180,16 @@ closed
 "
 }
 ;
+dictionary
+PeriodicWaveConstraints
+{
+boolean
+disableNormalization
+=
+false
+;
+}
+;
 [
 Constructor
 Constructor
@@ -500,6 +510,9 @@ Float32Array
 real
 Float32Array
 imag
+optional
+PeriodicWaveConstraints
+constraints
 )
 ;
 }
