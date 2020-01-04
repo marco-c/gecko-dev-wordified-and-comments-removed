@@ -7737,10 +7737,6 @@ service
 UntrackSessionInfo
 (
 aSessionId
-nsIPresentationService
-:
-:
-ROLE_RECEIVER
 )
 )
 )

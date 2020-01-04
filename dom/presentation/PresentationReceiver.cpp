@@ -740,10 +740,6 @@ GetOwner
 (
 )
 aSessionId
-nsIPresentationService
-:
-:
-ROLE_RECEIVER
 PresentationConnectionState
 :
 :

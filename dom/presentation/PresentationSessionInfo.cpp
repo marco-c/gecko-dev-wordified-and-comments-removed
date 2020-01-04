@@ -1101,7 +1101,6 @@ get
 UntrackSessionInfo
 (
 mSessionId
-mRole
 )
 ;
 return
@@ -2230,10 +2229,10 @@ builder
 >
 BuildDataChannelTransport
 (
-nsIPresentationService
+nsIPresentationSessionTransportBuilder
 :
 :
-ROLE_CONTROLLER
+TYPE_SENDER
 GetWindow
 (
 )
@@ -2978,10 +2977,10 @@ builder
 >
 BuildDataChannelTransport
 (
-nsIPresentationService
+nsIPresentationSessionTransportBuilder
 :
 :
-ROLE_RECEIVER
+TYPE_RECEIVER
 GetWindow
 (
 )
@@ -3132,7 +3131,6 @@ get
 UntrackSessionInfo
 (
 mSessionId
-mRole
 )
 ;
 return
