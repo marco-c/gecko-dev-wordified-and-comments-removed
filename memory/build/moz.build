@@ -177,11 +177,12 @@ mozjemalloc_compat
 c
 '
 ]
-GENERATED_INCLUDES
+LOCAL_INCLUDES
 +
 =
 [
 '
+!
 .
 .
 /

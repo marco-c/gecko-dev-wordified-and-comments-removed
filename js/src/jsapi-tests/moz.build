@@ -582,14 +582,10 @@ LOCAL_INCLUDES
 =
 [
 '
+!
 .
 .
 '
-]
-GENERATED_INCLUDES
-+
-=
-[
 '
 .
 .

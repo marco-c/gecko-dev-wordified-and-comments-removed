@@ -1341,6 +1341,16 @@ LOCAL_INCLUDES
 [
             
 '
+!
+/
+ipc
+/
+ipdl
+/
+_ipdlheaders
+'
+            
+'
 /
 ipc
 /
@@ -1356,25 +1366,6 @@ ipc
 glue
 '
         
-]
-        
-context
-[
-'
-GENERATED_INCLUDES
-'
-]
-+
-=
-[
-'
-/
-ipc
-/
-ipdl
-/
-_ipdlheaders
-'
 ]
         
 if

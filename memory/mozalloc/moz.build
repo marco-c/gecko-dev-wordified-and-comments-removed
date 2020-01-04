@@ -244,15 +244,6 @@ _GNU_SOURCE
 ]
 =
 True
-GENERATED_INCLUDES
-+
-=
-[
-'
-/
-xpcom
-'
-]
 DISABLE_STL_WRAPPING
 =
 True
@@ -284,6 +275,11 @@ LOCAL_INCLUDES
 +
 =
 [
+'
+!
+/
+xpcom
+'
 '
 /
 memory

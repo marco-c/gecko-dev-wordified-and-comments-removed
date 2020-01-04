@@ -716,11 +716,12 @@ HAVE_USR_LIB64_DIR
 ]
 =
 True
-GENERATED_INCLUDES
+LOCAL_INCLUDES
 +
 =
 [
 '
+!
 .
 .
 '

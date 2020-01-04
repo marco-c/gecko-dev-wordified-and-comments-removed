@@ -5804,16 +5804,10 @@ LOCAL_INCLUDES
 +
 =
 -
-I
-%
-s
-/
-bar
+Ibar
 /
 baz
 '
-%
-topobjdir
             
 '
 LOCAL_INCLUDES

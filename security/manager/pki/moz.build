@@ -141,11 +141,12 @@ nsPKIModule
 cpp
 '
 ]
-GENERATED_INCLUDES
+LOCAL_INCLUDES
 +
 =
 [
 '
+!
 /
 dist
 /

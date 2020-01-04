@@ -4287,11 +4287,12 @@ MOZ_NATIVE_FFI
 '
 ]
 :
-GENERATED_INCLUDES
+LOCAL_INCLUDES
 +
 =
 [
 '
+!
 ctypes
 /
 libffi

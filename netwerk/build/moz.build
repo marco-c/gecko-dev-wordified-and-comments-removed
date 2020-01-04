@@ -420,11 +420,12 @@ protocol
 rtsp
 '
 ]
-GENERATED_INCLUDES
+LOCAL_INCLUDES
 +
 =
 [
 '
+!
 /
 netwerk
 /
