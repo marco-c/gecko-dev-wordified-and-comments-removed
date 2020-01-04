@@ -1042,7 +1042,7 @@ void
 UpdateOpaqueRegion
 (
 const
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aOpaqueRegion
 )
@@ -1107,7 +1107,7 @@ void
 UpdateWindowDraggingRegion
 (
 const
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aRegion
 )
@@ -2514,7 +2514,7 @@ nsIIdleServiceInternal
 >
 mIdleService
 ;
-nsIntRegion
+LayoutDeviceIntRegion
 mDraggableRegion
 ;
 static
