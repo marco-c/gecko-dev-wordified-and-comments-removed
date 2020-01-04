@@ -158,6 +158,9 @@ ClientQueryOptions
 options
 )
 ;
+[
+Throws
+]
 Promise
 <
 WindowClient
