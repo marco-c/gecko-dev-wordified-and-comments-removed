@@ -358,10 +358,6 @@ mDT
 (
 aTarget
 )
-mOriginalDT
-(
-aTarget
-)
 {
 MOZ_ASSERT
 (
