@@ -33044,6 +33044,7 @@ MOZ_ASSERT
 (
 mCurrentMaintenance
 =
+=
 aMaintenance
 )
 ;
