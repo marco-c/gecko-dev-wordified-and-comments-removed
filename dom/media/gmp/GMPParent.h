@@ -567,9 +567,6 @@ nsIFile
 aFile
 )
 ;
-#
-ifdef
-MOZ_WIDEVINE_EME
 RefPtr
 <
 GenericPromise
@@ -591,8 +588,6 @@ nsIFile
 aFile
 )
 ;
-#
-endif
 #
 ifdef
 MOZ_CRASHREPORTER
