@@ -1474,7 +1474,7 @@ components
 toolkit_osfile
 .
 xpt
-RESPATH
+BINPATH
 /
 components
 /
@@ -2814,14 +2814,14 @@ endif
 ;
 Security
 Reports
-RESPATH
+BINPATH
 /
 components
 /
 SecurityReporter
 .
 manifest
-RESPATH
+BINPATH
 /
 components
 /
