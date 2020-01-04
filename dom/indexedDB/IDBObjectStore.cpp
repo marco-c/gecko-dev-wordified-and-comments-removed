@@ -252,7 +252,7 @@ mozilla
 /
 dom
 /
-StructuredCloneHelper
+StructuredCloneHolder
 .
 h
 "
@@ -1884,7 +1884,7 @@ true
 }
 }
 return
-StructuredCloneHelper
+StructuredCloneHolder
 :
 :
 WriteFullySerializableObjects
@@ -4136,7 +4136,7 @@ result
 ;
 }
 return
-StructuredCloneHelper
+StructuredCloneHolder
 :
 :
 ReadFullySerializableObjects

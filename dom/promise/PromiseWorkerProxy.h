@@ -33,7 +33,7 @@ mozilla
 /
 dom
 /
-StructuredCloneHelper
+StructuredCloneHolder
 .
 h
 "
@@ -93,7 +93,7 @@ workers
 :
 WorkerFeature
 public
-StructuredCloneHelperInternal
+StructuredCloneHolderBase
 {
 friend
 class
@@ -245,7 +245,7 @@ mCleanedUp
 }
 JSObject
 *
-ReadCallback
+CustomReadHandler
 (
 JSContext
 *
@@ -261,7 +261,7 @@ aIndex
 override
 ;
 bool
-WriteCallback
+CustomWriteHandler
 (
 JSContext
 *

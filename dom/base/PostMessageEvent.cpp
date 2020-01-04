@@ -165,7 +165,7 @@ bool
 aTrustedCaller
 )
 :
-StructuredCloneHelper
+StructuredCloneHolder
 (
 CloningSupported
 TransferringSupported

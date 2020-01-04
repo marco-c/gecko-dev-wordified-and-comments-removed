@@ -60,7 +60,7 @@ mozilla
 /
 dom
 /
-StructuredCloneHelper
+StructuredCloneHolder
 .
 h
 "
@@ -695,7 +695,7 @@ nsRunnable
 public
 WorkerFeature
 public
-StructuredCloneHelperInternal
+StructuredCloneHolderBase
 {
 public
 :
@@ -730,7 +730,7 @@ ConsoleRunnable
 (
 )
 {
-Shutdown
+Clear
 (
 )
 ;
@@ -1253,7 +1253,7 @@ aInnerWindow
 virtual
 JSObject
 *
-ReadCallback
+CustomReadHandler
 (
 JSContext
 *
@@ -1377,7 +1377,7 @@ nullptr
 }
 virtual
 bool
-WriteCallback
+CustomWriteHandler
 (
 JSContext
 *

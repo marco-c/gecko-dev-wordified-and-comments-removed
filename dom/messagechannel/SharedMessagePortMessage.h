@@ -11,7 +11,7 @@ mozilla
 /
 dom
 /
-StructuredCloneHelper
+StructuredCloneHolder
 .
 h
 "
@@ -35,7 +35,7 @@ SharedMessagePortMessage
 final
 :
 public
-StructuredCloneHelper
+StructuredCloneHolder
 {
 public
 :
@@ -53,7 +53,7 @@ SharedMessagePortMessage
 (
 )
 :
-StructuredCloneHelper
+StructuredCloneHolder
 (
 CloningSupported
 TransferringSupported

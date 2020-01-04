@@ -103,7 +103,7 @@ mozilla
 /
 dom
 /
-StructuredCloneHelper
+StructuredCloneHolder
 .
 h
 "
@@ -754,7 +754,7 @@ final
 public
 WorkerThreadProxySyncRunnable
 public
-StructuredCloneHelper
+StructuredCloneHolder
 {
 nsString
 mStringBody
@@ -789,7 +789,7 @@ WorkerThreadProxySyncRunnable
 aWorkerPrivate
 aProxy
 )
-StructuredCloneHelper
+StructuredCloneHolder
 (
 CloningSupported
 TransferringNotSupported
@@ -1650,7 +1650,7 @@ final
 public
 MainThreadProxyRunnable
 public
-StructuredCloneHelper
+StructuredCloneHolder
 {
 nsString
 mType
@@ -1824,7 +1824,7 @@ aProxy
 mWorkerPrivate
 aProxy
 )
-StructuredCloneHelper
+StructuredCloneHolder
 (
 CloningSupported
 TransferringNotSupported
@@ -1917,7 +1917,7 @@ aProxy
 mWorkerPrivate
 aProxy
 )
-StructuredCloneHelper
+StructuredCloneHolder
 (
 CloningSupported
 TransferringNotSupported
@@ -5071,7 +5071,7 @@ mResponseResult
 {
 if
 (
-HasBeenWritten
+HasData
 (
 )
 )
@@ -5793,7 +5793,7 @@ variant
 ;
 if
 (
-HasBeenWritten
+HasData
 (
 )
 )

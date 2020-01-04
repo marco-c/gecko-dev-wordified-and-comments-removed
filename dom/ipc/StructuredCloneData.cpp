@@ -325,7 +325,7 @@ MOZ_ASSERT
 mData
 )
 ;
-StructuredCloneHelper
+StructuredCloneHolder
 :
 :
 Write

@@ -7292,7 +7292,7 @@ mWorkerPrivate
 =
 nullptr
 ;
-Shutdown
+Clear
 (
 )
 ;
@@ -7787,7 +7787,7 @@ JSObject
 PromiseWorkerProxy
 :
 :
-ReadCallback
+CustomReadHandler
 (
 JSContext
 *
@@ -7832,7 +7832,7 @@ bool
 PromiseWorkerProxy
 :
 :
-WriteCallback
+CustomWriteHandler
 (
 JSContext
 *

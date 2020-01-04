@@ -214,7 +214,7 @@ class
 MessagePortIdentifier
 ;
 class
-StructuredCloneHelper
+StructuredCloneHolder
 ;
 }
 namespace

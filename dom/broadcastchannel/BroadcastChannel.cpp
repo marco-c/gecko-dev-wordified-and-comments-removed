@@ -52,7 +52,7 @@ mozilla
 /
 dom
 /
-StructuredCloneHelper
+StructuredCloneHolder
 .
 h
 "
@@ -144,7 +144,7 @@ BroadcastChannelMessage
 final
 :
 public
-StructuredCloneHelper
+StructuredCloneHolder
 {
 public
 :
@@ -156,7 +156,7 @@ BroadcastChannelMessage
 (
 )
 :
-StructuredCloneHelper
+StructuredCloneHolder
 (
 CloningSupported
 TransferringNotSupported

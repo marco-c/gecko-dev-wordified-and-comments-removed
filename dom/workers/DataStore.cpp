@@ -107,7 +107,7 @@ mozilla
 /
 dom
 /
-StructuredCloneHelper
+StructuredCloneHolder
 .
 h
 "
@@ -758,7 +758,7 @@ final
 public
 DataStoreProxyRunnable
 public
-StructuredCloneHelper
+StructuredCloneHolder
 {
 const
 StringOrUnsignedLong
@@ -823,7 +823,7 @@ aWorkerPrivate
 aBackingStore
 aWorkerPromise
 )
-StructuredCloneHelper
+StructuredCloneHolder
 (
 CloningNotSupported
 TransferringNotSupported
@@ -1011,7 +1011,7 @@ final
 public
 DataStoreProxyRunnable
 public
-StructuredCloneHelper
+StructuredCloneHolder
 {
 const
 Optional
@@ -1082,7 +1082,7 @@ aWorkerPrivate
 aBackingStore
 aWorkerPromise
 )
-StructuredCloneHelper
+StructuredCloneHolder
 (
 CloningNotSupported
 TransferringNotSupported

@@ -1035,7 +1035,7 @@ ShadowRoot
 h
 '
 '
-StructuredCloneHelper
+StructuredCloneHolder
 .
 h
 '
@@ -1745,7 +1745,7 @@ ShadowRoot
 cpp
 '
 '
-StructuredCloneHelper
+StructuredCloneHolder
 .
 cpp
 '
