@@ -124,9 +124,10 @@ nsIProtocolHandler
 URI_DOES_NOT_RETURN_DATA
 allowPort
 :
-function
 (
 )
+=
+>
 false
 newURI
 :
