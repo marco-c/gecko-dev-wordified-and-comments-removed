@@ -2468,6 +2468,11 @@ return
 true
 ;
 }
+type
+:
+"
+pause
+"
 }
 {
 label
@@ -2515,6 +2520,11 @@ hangupAllChatWindows
 )
 ;
 }
+type
+:
+"
+stop
+"
 }
 ]
 )
