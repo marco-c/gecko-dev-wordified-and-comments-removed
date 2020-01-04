@@ -372,6 +372,13 @@ gcWeakKeys
 init
 (
 )
+&
+&
+gcSavedWeakKeys
+.
+init
+(
+)
 ;
 }
 void
