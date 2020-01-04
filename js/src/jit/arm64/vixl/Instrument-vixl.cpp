@@ -483,6 +483,8 @@ i
 +
 )
 {
+if
+(
 Counter
 *
 counter
@@ -505,7 +507,7 @@ i
 .
 type
 )
-;
+)
 counters_
 .
 append
