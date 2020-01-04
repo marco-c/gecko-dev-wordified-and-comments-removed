@@ -126,7 +126,7 @@ aMessage
 const
 nsAString
 &
-aConstraintName
+aConstraint
 )
 ;
 const
@@ -138,7 +138,7 @@ mMessage
 ;
 const
 nsString
-mConstraintName
+mConstraint
 ;
 }
 ;
@@ -171,7 +171,7 @@ EmptyString
 const
 nsAString
 &
-aConstraintName
+aConstraint
 =
 EmptyString
 (
@@ -182,7 +182,7 @@ BaseMediaMgrError
 (
 aName
 aMessage
-aConstraintName
+aConstraint
 )
 {
 }
@@ -233,7 +233,7 @@ EmptyString
 const
 nsAString
 &
-aConstraintName
+aConstraint
 =
 EmptyString
 (
@@ -261,7 +261,7 @@ aOther
 mMessage
 aOther
 .
-mConstraintName
+mConstraint
 )
 mParent
 (
@@ -328,11 +328,11 @@ aMessage
 const
 ;
 void
-GetConstraintName
+GetConstraint
 (
 nsAString
 &
-aConstraintName
+aConstraint
 )
 const
 ;

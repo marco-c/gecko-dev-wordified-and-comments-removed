@@ -213,7 +213,7 @@ readonly
 attribute
 DOMString
 ?
-constraintName
+constraint
 ;
 }
 ;

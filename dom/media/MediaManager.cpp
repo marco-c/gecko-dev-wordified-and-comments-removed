@@ -4279,7 +4279,7 @@ DeviceType
 >
 static
 void
-ApplyConstraints
+SelectSettings
 (
 const
 MediaTrackConstraints
@@ -4603,7 +4603,7 @@ Length
 }
 static
 bool
-ApplyConstraints
+SelectSettings
 (
 MediaStreamConstraints
 &
@@ -4742,7 +4742,7 @@ mVideo
 )
 )
 {
-ApplyConstraints
+SelectSettings
 (
 GetInvariant
 (
@@ -4796,7 +4796,7 @@ mAudio
 )
 )
 {
-ApplyConstraints
+SelectSettings
 (
 GetInvariant
 (
@@ -9293,7 +9293,7 @@ return
 if
 (
 !
-ApplyConstraints
+SelectSettings
 (
 c
 *
