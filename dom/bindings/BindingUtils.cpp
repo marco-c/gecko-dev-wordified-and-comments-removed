@@ -1826,7 +1826,7 @@ cx
 nsContentUtils
 :
 :
-GetDefaultJSContextForThread
+RootingCxForThread
 (
 )
 ;
@@ -2013,7 +2013,7 @@ cx
 nsContentUtils
 :
 :
-GetDefaultJSContextForThread
+RootingCxForThread
 (
 )
 ;
