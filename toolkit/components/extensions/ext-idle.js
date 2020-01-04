@@ -10,10 +10,7 @@ registerSchemaAPI
 "
 idle
 "
-(
-extension
 context
-)
 =
 >
 {
