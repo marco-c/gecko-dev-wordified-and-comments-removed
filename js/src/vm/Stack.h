@@ -1976,7 +1976,7 @@ this
 )
 [
 -
-2
+1
 ]
 ;
 MOZ_ASSERT

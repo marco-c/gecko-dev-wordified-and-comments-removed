@@ -299,7 +299,7 @@ Value
 )
 this
 -
-2
+1
 ;
 dstvp
 [
@@ -307,15 +307,6 @@ dstvp
 ]
 =
 newTarget
-;
-dstvp
-[
-1
-]
-=
-NullValue
-(
-)
 ;
 scopeChain_
 =
@@ -2441,10 +2432,9 @@ argv
 }
 else
 {
-TraceRootRange
+TraceRoot
 (
 trc
-2
 (
 (
 Value
@@ -2453,11 +2443,9 @@ Value
 this
 )
 -
-2
+1
 "
 stack
-callee
-and
 newTarget
 "
 )
@@ -2897,7 +2885,7 @@ mark
 unsigned
 nvars
 =
-2
+1
 +
 script
 -
@@ -2946,7 +2934,7 @@ InterpreterFrame
 (
 buffer
 +
-2
+1
 *
 sizeof
 (
