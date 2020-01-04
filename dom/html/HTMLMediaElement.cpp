@@ -7940,6 +7940,10 @@ OwnerDoc
 ;
 if
 (
+mMediaSource
+|
+|
+(
 mDecoder
 &
 &
@@ -7949,6 +7953,7 @@ nsIDOMHTMLMediaElement
 :
 :
 HAVE_NOTHING
+)
 )
 {
 mDecoder
