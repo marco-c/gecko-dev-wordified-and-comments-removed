@@ -150,6 +150,9 @@ TCPError
 nsString
 name
 ;
+nsString
+message
+;
 }
 ;
 union
@@ -159,7 +162,7 @@ uint8_t
 [
 ]
 ;
-nsString
+nsCString
 ;
 }
 ;
@@ -308,8 +311,8 @@ uint16_t
 port
 bool
 useSSL
-nsString
-binaryType
+bool
+useArrayBuffers
 )
 ;
 /
@@ -441,7 +444,7 @@ nsString
 type
 CallbackData
 data
-nsString
+uint32_t
 readyState
 )
 ;

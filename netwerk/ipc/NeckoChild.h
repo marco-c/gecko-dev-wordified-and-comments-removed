@@ -210,9 +210,9 @@ uint16_t
 &
 aBacklog
 const
-nsString
+bool
 &
-aBinaryType
+aUseArrayBuffers
 )
 override
 ;

@@ -439,8 +439,8 @@ uint16_t
 localPort
 uint16_t
 backlog
-nsString
-binaryType
+bool
+useArrayBuffers
 )
 ;
 PUDPSocket
