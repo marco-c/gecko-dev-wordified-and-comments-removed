@@ -162,7 +162,6 @@ sequence
 <
 Client
 >
-?
 >
 matchAll
 (
@@ -194,6 +193,7 @@ OpenWindowEnabled
 Promise
 <
 WindowClient
+?
 >
 openWindow
 (
