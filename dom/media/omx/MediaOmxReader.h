@@ -297,7 +297,7 @@ aTimeThreshold
 override
 ;
 void
-ReleaseMediaResources
+ReleaseResources
 (
 )
 override

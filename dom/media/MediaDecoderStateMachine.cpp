@@ -5585,7 +5585,7 @@ Reset
 mReader
 -
 >
-ReleaseMediaResources
+ReleaseResources
 (
 )
 ;

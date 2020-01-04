@@ -244,7 +244,7 @@ const
 override
 ;
 void
-ReleaseMediaResources
+ReleaseResources
 (
 )
 override
@@ -913,7 +913,7 @@ override
 mReader
 -
 >
-ReleaseMediaResources
+ReleaseResources
 (
 )
 ;

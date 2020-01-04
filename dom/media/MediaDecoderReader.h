@@ -318,7 +318,7 @@ NS_OK
 }
 virtual
 void
-ReleaseMediaResources
+ReleaseResources
 (
 )
 {
