@@ -353,11 +353,13 @@ warn
 if
 not
 substs
-[
+.
+get
+(
 '
 HAVE_64BIT_BUILD
 '
-]
+)
 :
         
 for
