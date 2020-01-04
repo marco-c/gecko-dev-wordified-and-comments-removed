@@ -21480,7 +21480,7 @@ failurePopR0
 ;
 masm
 .
-Pop
+popValue
 (
 R0
 )
@@ -22795,7 +22795,7 @@ failurePopR0
 ;
 masm
 .
-Pop
+popValue
 (
 R0
 )
