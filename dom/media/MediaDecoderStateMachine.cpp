@@ -7458,7 +7458,7 @@ VideoQueue
 }
 else
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 false
 "
