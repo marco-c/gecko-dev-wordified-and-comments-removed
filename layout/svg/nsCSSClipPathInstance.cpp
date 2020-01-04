@@ -108,7 +108,7 @@ StyleSVGReset
 >
 mClipPath
 ;
-StyleShapeSourceType
+StyleClipPathType
 type
 =
 clipPathStyle
@@ -122,7 +122,7 @@ MOZ_ASSERT
 type
 !
 =
-StyleShapeSourceType
+StyleClipPathType
 :
 :
 None_
@@ -138,7 +138,7 @@ if
 type
 =
 =
-StyleShapeSourceType
+StyleClipPathType
 :
 :
 URL
@@ -220,7 +220,7 @@ StyleSVGReset
 >
 mClipPath
 ;
-StyleShapeSourceType
+StyleClipPathType
 type
 =
 clipPathStyle
@@ -234,7 +234,7 @@ MOZ_ASSERT
 type
 !
 =
-StyleShapeSourceType
+StyleClipPathType
 :
 :
 None_
@@ -250,7 +250,7 @@ if
 type
 =
 =
-StyleShapeSourceType
+StyleClipPathType
 :
 :
 URL
@@ -362,13 +362,13 @@ switch
 (
 mClipPathStyle
 .
-GetReferenceBox
+GetSizingBox
 (
 )
 )
 {
 case
-StyleClipPathGeometryBox
+StyleClipShapeSizing
 :
 :
 Content
@@ -385,7 +385,7 @@ GetContentRectRelativeToSelf
 break
 ;
 case
-StyleClipPathGeometryBox
+StyleClipShapeSizing
 :
 :
 Padding
@@ -402,7 +402,7 @@ GetPaddingRectRelativeToSelf
 break
 ;
 case
-StyleClipPathGeometryBox
+StyleClipShapeSizing
 :
 :
 Margin
@@ -439,7 +439,7 @@ GetType
 )
 !
 =
-StyleShapeSourceType
+StyleClipPathType
 :
 :
 Shape
@@ -495,7 +495,7 @@ appUnitsPerDevPixel
 appUnitsPerDevPixel
 )
 ;
-StyleBasicShape
+nsStyleBasicShape
 *
 basicShape
 =
@@ -700,7 +700,7 @@ nsRect
 aRefBox
 )
 {
-StyleBasicShape
+nsStyleBasicShape
 *
 basicShape
 =
@@ -1043,7 +1043,7 @@ nsRect
 aRefBox
 )
 {
-StyleBasicShape
+nsStyleBasicShape
 *
 basicShape
 =
@@ -1354,7 +1354,7 @@ nsRect
 aRefBox
 )
 {
-StyleBasicShape
+nsStyleBasicShape
 *
 basicShape
 =
