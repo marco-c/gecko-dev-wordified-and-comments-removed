@@ -2004,6 +2004,11 @@ mMustReflowPlaceholders
 :
 1
 ;
+uint16_t
+mShrinkWrap
+:
+1
+;
 }
 mFlags
 ;
@@ -2244,6 +2249,14 @@ CALLER_WILL_INIT
 <
 <
 1
+)
+COMPUTE_SIZE_SHRINK_WRAP
+=
+(
+1
+<
+<
+2
 )
 }
 ;
