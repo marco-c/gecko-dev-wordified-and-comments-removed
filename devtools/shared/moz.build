@@ -153,6 +153,9 @@ sourcemap
 shared
 '
 '
+shims
+'
+'
 styleinspector
 '
 '

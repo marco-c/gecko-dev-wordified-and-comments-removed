@@ -111,6 +111,9 @@ DIRS
 '
 actors
 '
+'
+shims
+'
 ]
 BROWSER_CHROME_MANIFESTS
 +
@@ -200,13 +203,6 @@ js
 '
 '
 content
--
-server
-.
-jsm
-'
-'
-dbg
 -
 server
 .
