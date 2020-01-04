@@ -2137,7 +2137,7 @@ aArray
 )
 {
 return
-(
+!
 aElement
 .
 linkedBrowser
@@ -2147,8 +2147,7 @@ currentURI
 spec
 .
 startsWith
-!
-=
+(
 "
 about
 :
