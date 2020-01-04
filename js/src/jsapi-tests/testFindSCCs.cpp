@@ -98,6 +98,7 @@ TestNode
 TestComponentFinder
 >
 {
+explicit
 TestComponentFinder
 (
 uintptr_t
@@ -1056,6 +1057,7 @@ TestNode2
 TestComponentFinder2
 >
 {
+explicit
 TestComponentFinder2
 (
 uintptr_t
