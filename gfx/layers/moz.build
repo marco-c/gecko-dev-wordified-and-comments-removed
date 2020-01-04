@@ -1166,13 +1166,6 @@ h
 '
 ipc
 /
-ShadowLayersManager
-.
-h
-'
-'
-ipc
-/
 SharedBufferManagerChild
 .
 h

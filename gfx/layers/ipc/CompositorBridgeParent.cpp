@@ -393,17 +393,6 @@ include
 "
 mozilla
 /
-layers
-/
-ShadowLayersManager
-.
-h
-"
-#
-include
-"
-mozilla
-/
 layout
 /
 RenderFrameParent
