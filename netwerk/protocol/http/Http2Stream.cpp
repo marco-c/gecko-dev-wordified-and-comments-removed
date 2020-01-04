@@ -2741,6 +2741,8 @@ kFrameHeaderBytes
 EnsureBuffer
 (
 mTxInlineFrame
+dataLength
++
 messageSize
 mTxInlineFrameUsed
 mTxInlineFrameSize
