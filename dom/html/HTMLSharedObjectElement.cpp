@@ -1264,8 +1264,6 @@ embed
 capabilities
 |
 =
-eSupportSVG
-|
 eSupportImages
 |
 eSupportDocuments
