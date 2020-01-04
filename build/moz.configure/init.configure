@@ -2955,6 +2955,14 @@ depends
 MOZILLABUILD
 '
 )
+checking
+(
+'
+for
+a
+shell
+'
+)
 imports
 (
 '
@@ -3009,7 +3017,10 @@ shell
 exe
 '
 return
+find_program
+(
 shell
+)
 #
 Host
 and

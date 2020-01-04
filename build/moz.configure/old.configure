@@ -169,6 +169,13 @@ mozconfig
 AUTOCONF
 '
 )
+checking
+(
+'
+for
+autoconf
+'
+)
 imports
 (
 '
