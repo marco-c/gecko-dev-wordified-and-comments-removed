@@ -53,4 +53,6 @@ SessionTest
 SessionTestResult
     
 SessionTextTestRunner
+    
+PingServer
 )
