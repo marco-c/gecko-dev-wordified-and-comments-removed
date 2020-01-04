@@ -385,16 +385,6 @@ Deallocate
 )
 ;
 }
-mozilla
-:
-:
-camera
-:
-:
-Shutdown
-(
-)
-;
 mState
 =
 kReleased
