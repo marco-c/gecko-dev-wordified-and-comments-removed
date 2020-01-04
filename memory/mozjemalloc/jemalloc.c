@@ -17331,7 +17331,7 @@ opt_junk
 memset
 (
 ret
-0xa5
+0xe4
 size
 )
 ;
@@ -17499,7 +17499,7 @@ opt_junk
 memset
 (
 ret
-0xa5
+0xe4
 size
 )
 ;
@@ -18004,7 +18004,7 @@ opt_junk
 memset
 (
 ret
-0xa5
+0xe4
 size
 )
 ;
@@ -18801,7 +18801,7 @@ opt_poison
 memset
 (
 ptr
-0x5a
+0xe5
 size
 )
 ;
@@ -19299,7 +19299,7 @@ endif
 memset
 (
 ptr
-0x5a
+0xe5
 size
 )
 ;
@@ -19985,7 +19985,7 @@ ptr
 +
 size
 )
-0x5a
+0xe5
 oldsize
 -
 size
@@ -20068,7 +20068,7 @@ ptr
 +
 size
 )
-0x5a
+0xe5
 oldsize
 -
 size
@@ -20455,7 +20455,7 @@ ptr
 +
 size
 )
-0x5a
+0xe5
 oldsize
 -
 size
@@ -21329,7 +21329,7 @@ MALLOC_DECOMMIT
 memset
 (
 ret
-0xa5
+0xe4
 psize
 )
 ;
@@ -21338,7 +21338,7 @@ else
 memset
 (
 ret
-0xa5
+0xe4
 csize
 )
 ;
@@ -21454,7 +21454,7 @@ ptr
 +
 size
 )
-0x5a
+0xe5
 oldsize
 -
 size
