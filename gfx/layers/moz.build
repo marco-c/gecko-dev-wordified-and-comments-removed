@@ -1030,6 +1030,13 @@ h
 '
 ipc
 /
+CompositorThread
+.
+h
+'
+'
+ipc
+/
 FenceUtils
 .
 h
@@ -2241,6 +2248,13 @@ cpp
 ipc
 /
 CompositorLRU
+.
+cpp
+'
+'
+ipc
+/
+CompositorThread
 .
 cpp
 '

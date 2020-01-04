@@ -159,6 +159,17 @@ mozilla
 /
 layers
 /
+CompositorThread
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 LayerManagerComposite
 .
 h
