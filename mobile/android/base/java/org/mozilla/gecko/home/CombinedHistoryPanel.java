@@ -247,6 +247,13 @@ setAdapter
 mAdapter
 )
 ;
+mRecyclerView
+.
+setOnHistoryClickedListener
+(
+mUrlOpenListener
+)
+;
 mClearHistoryButton
 =
 view
