@@ -179,11 +179,6 @@ CDMCaps
 cpp
 '
 '
-CDMProxy
-.
-cpp
-'
-'
 DetailedPromise
 .
 cpp
