@@ -31,9 +31,7 @@ server
 /
 actors
 /
-chrome
--
-debugger
+script
 "
 )
 ;
@@ -447,6 +445,9 @@ threadActor
 new
 ChromeDebuggerActor
 (
+this
+.
+conn
 this
 )
 ;
