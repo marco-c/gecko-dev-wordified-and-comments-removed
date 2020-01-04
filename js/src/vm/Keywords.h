@@ -397,12 +397,5 @@ yield
 yield
 TOK_YIELD
 )
-\
-macro
-(
-let
-let
-TOK_LET
-)
 #
 endif
