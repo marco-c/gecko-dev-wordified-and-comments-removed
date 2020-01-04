@@ -276,7 +276,11 @@ XP_WIN
 #
 include
 "
-gfxWindowsPlatform
+mozilla
+/
+gfx
+/
+DeviceManagerD3D11
 .
 h
 "
@@ -3458,10 +3462,10 @@ ifdef
 XP_WIN
 if
 (
-gfxWindowsPlatform
+DeviceManagerD3D11
 :
 :
-GetPlatform
+Get
 (
 )
 -
