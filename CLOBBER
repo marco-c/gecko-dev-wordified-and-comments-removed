@@ -195,14 +195,13 @@ any
 more
 .
 Bug
-1285541
+1287827
 -
 Clobber
 needed
 because
 this
 patch
-renames
-a
-file
+removes
+files
 .
