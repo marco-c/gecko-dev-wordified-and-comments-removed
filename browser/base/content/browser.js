@@ -5081,6 +5081,11 @@ catch
 e
 )
 {
+if
+(
+mustChangeProcess
+)
+{
 Cu
 .
 reportError
@@ -5111,6 +5116,13 @@ null
 null
 )
 ;
+}
+else
+{
+throw
+e
+;
+}
 }
 finally
 {
