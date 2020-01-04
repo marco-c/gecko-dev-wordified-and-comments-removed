@@ -6930,7 +6930,10 @@ mSelection
 >
 GetSelection
 (
+ToSelectionType
+(
 aRawSelectionType
+)
 )
 ;
 if
@@ -6961,8 +6964,8 @@ PresShell
 :
 GetCurrentSelection
 (
-RawSelectionType
-aRawSelectionType
+SelectionType
+aSelectionType
 )
 {
 if
@@ -6979,7 +6982,7 @@ mSelection
 >
 GetSelection
 (
-aRawSelectionType
+aSelectionType
 )
 ;
 }
@@ -7011,7 +7014,10 @@ mSelection
 >
 ScrollSelectionIntoView
 (
+ToSelectionType
+(
 aRawSelectionType
+)
 aRegion
 aFlags
 )
@@ -7041,7 +7047,10 @@ mSelection
 >
 RepaintSelection
 (
+ToSelectionType
+(
 aRawSelectionType
+)
 )
 ;
 }
@@ -11994,7 +12003,7 @@ mSelection
 >
 GetSelection
 (
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_NORMAL
@@ -13431,7 +13440,7 @@ mSelection
 >
 GetSelection
 (
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_NORMAL

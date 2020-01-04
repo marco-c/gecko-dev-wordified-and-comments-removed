@@ -170,8 +170,8 @@ mEnd
 mozilla
 :
 :
-RawSelectionType
-mRawSelectionType
+SelectionType
+mSelectionType
 ;
 mozilla
 :
@@ -570,8 +570,8 @@ GetSelection
 mozilla
 :
 :
-RawSelectionType
-aRawSelectionType
+SelectionType
+aSelectionType
 )
 const
 ;
@@ -581,8 +581,8 @@ ScrollSelectionIntoView
 mozilla
 :
 :
-RawSelectionType
-aRawSelectionType
+SelectionType
+aSelectionType
 SelectionRegion
 aRegion
 int16_t
@@ -596,8 +596,8 @@ RepaintSelection
 mozilla
 :
 :
-RawSelectionType
-aRawSelectionType
+SelectionType
+aSelectionType
 )
 const
 ;
@@ -1277,8 +1277,8 @@ NotifySelectionListeners
 mozilla
 :
 :
-RawSelectionType
-aRawSelectionType
+SelectionType
+aSelectionType
 )
 ;
 RefPtr

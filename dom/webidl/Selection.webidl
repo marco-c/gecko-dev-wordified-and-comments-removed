@@ -424,6 +424,11 @@ listenerToRemove
 ;
 [
 ChromeOnly
+BinaryName
+=
+"
+rawType
+"
 ]
 readonly
 attribute

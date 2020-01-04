@@ -1224,8 +1224,8 @@ const
 void
 GetSelectionDOMRanges
 (
-int16_t
-aType
+SelectionType
+aSelectionType
 nsTArray
 <
 nsRange

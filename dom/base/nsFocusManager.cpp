@@ -10435,7 +10435,7 @@ frameSelection
 >
 GetSelection
 (
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_NORMAL
@@ -10738,7 +10738,7 @@ docFrameSelection
 >
 GetSelection
 (
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_NORMAL
@@ -10906,7 +10906,7 @@ frameSelection
 >
 GetSelection
 (
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_NORMAL

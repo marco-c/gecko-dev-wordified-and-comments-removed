@@ -6910,7 +6910,7 @@ frameSelection
 >
 GetSelection
 (
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_NORMAL
@@ -7457,8 +7457,8 @@ HyperTextAccessible
 :
 GetSelectionDOMRanges
 (
-int16_t
-aType
+SelectionType
+aSelectionType
 nsTArray
 <
 nsRange
@@ -7511,7 +7511,7 @@ frameSelection
 >
 GetSelection
 (
-aType
+aSelectionType
 )
 ;
 if
@@ -7687,7 +7687,7 @@ ranges
 ;
 GetSelectionDOMRanges
 (
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_NORMAL
@@ -7736,7 +7736,7 @@ ranges
 ;
 GetSelectionDOMRanges
 (
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_NORMAL
@@ -10460,7 +10460,7 @@ fs
 >
 GetSelection
 (
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_SPELLCHECK

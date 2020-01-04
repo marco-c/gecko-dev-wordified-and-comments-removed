@@ -3110,7 +3110,7 @@ fs
 >
 GetSelection
 (
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_NORMAL

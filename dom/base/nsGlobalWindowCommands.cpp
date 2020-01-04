@@ -2789,7 +2789,7 @@ presShell
 >
 GetCurrentSelection
 (
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_NORMAL

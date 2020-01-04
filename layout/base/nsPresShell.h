@@ -250,6 +250,14 @@ mozilla
 :
 RawSelectionType
 ;
+using
+SelectionType
+=
+mozilla
+:
+:
+SelectionType
+;
 template
 <
 typename
@@ -382,8 +390,8 @@ Selection
 *
 GetCurrentSelection
 (
-RawSelectionType
-aRawSelectionType
+SelectionType
+aSelectionType
 )
 override
 ;

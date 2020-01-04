@@ -4744,7 +4744,7 @@ presShell
 >
 GetCurrentSelection
 (
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_NORMAL
@@ -8679,7 +8679,7 @@ displayShell
 >
 GetCurrentSelection
 (
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_NORMAL
@@ -8696,7 +8696,7 @@ mPresShell
 >
 GetCurrentSelection
 (
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_NORMAL
@@ -11114,7 +11114,7 @@ origShell
 >
 GetCurrentSelection
 (
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_NORMAL
@@ -11131,7 +11131,7 @@ shell
 >
 GetCurrentSelection
 (
-nsISelectionController
+SelectionType
 :
 :
 SELECTION_NORMAL
