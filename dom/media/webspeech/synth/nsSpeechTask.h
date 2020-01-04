@@ -238,8 +238,6 @@ float
 aElapsedTime
 uint32_t
 aCharIndex
-uint32_t
-aError
 )
 ;
 virtual

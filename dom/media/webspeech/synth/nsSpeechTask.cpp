@@ -2178,8 +2178,6 @@ float
 aElapsedTime
 uint32_t
 aCharIndex
-uint32_t
-aError
 )
 {
 LOG
@@ -2251,7 +2249,6 @@ DispatchErrorImpl
 (
 aElapsedTime
 aCharIndex
-aError
 )
 ;
 }
@@ -2265,8 +2262,6 @@ float
 aElapsedTime
 uint32_t
 aCharIndex
-uint32_t
-aError
 )
 {
 MOZ_ASSERT
