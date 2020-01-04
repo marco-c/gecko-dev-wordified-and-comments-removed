@@ -1722,9 +1722,11 @@ JSSHELL_NAME
 dest
 -
 file
+'
 (
 MOZ_TEST_PACKAGES_FILE
 )
+'
 \
 (
 call
