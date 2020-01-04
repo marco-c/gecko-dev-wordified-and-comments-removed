@@ -6084,10 +6084,14 @@ isBlockingE10s
 addon
 )
 )
+{
 blockE10s
 =
 true
 ;
+break
+;
+}
 }
 Preferences
 .
