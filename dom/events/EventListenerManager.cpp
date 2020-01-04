@@ -1599,7 +1599,7 @@ window
 >
 EnableNetworkEvent
 (
-NS_NETWORK_UPLOAD_EVENT
+eNetworkUpload
 )
 ;
 }
@@ -2481,7 +2481,7 @@ networkEvent
 aEventMessage
 =
 =
-NS_NETWORK_UPLOAD_EVENT
+eNetworkUpload
 |
 |
 aEventMessage

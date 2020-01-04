@@ -1023,7 +1023,7 @@ eBasicEventClass
 WINDOW_ONLY_EVENT
 (
 moznetworkupload
-NS_NETWORK_UPLOAD_EVENT
+eNetworkUpload
 EventNameType_None
 eBasicEventClass
 )

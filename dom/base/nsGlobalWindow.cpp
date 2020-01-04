@@ -7243,7 +7243,7 @@ ifdef
 MOZ_B2G
 DisableNetworkEvent
 (
-NS_NETWORK_UPLOAD_EVENT
+eNetworkUpload
 )
 ;
 DisableNetworkEvent
@@ -61454,7 +61454,7 @@ aEventMessage
 )
 {
 case
-NS_NETWORK_UPLOAD_EVENT
+eNetworkUpload
 :
 if
 (
@@ -61559,7 +61559,7 @@ aEventMessage
 )
 {
 case
-NS_NETWORK_UPLOAD_EVENT
+eNetworkUpload
 :
 if
 (
