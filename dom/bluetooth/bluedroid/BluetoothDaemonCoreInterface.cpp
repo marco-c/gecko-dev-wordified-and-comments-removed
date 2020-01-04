@@ -31,7 +31,7 @@ MAX_NUM_CLIENTS
 =
 1
 ;
-BluetoothNotificationHandler
+BluetoothCoreNotificationHandler
 *
 BluetoothDaemonCoreModule
 :
@@ -44,7 +44,7 @@ BluetoothDaemonCoreModule
 :
 SetNotificationHandler
 (
-BluetoothNotificationHandler
+BluetoothCoreNotificationHandler
 *
 aNotificationHandler
 )
@@ -52,19 +52,6 @@ aNotificationHandler
 sNotificationHandler
 =
 aNotificationHandler
-;
-}
-BluetoothNotificationHandler
-*
-BluetoothDaemonCoreModule
-:
-:
-GetNotificationHandler
-(
-)
-{
-return
-sNotificationHandler
 ;
 }
 void
@@ -3035,7 +3022,7 @@ final
 public
 :
 typedef
-BluetoothNotificationHandler
+BluetoothCoreNotificationHandler
 ObjectType
 ;
 static
@@ -3079,7 +3066,7 @@ AdapterStateChangedNotification
 Dispatch
 (
 &
-BluetoothNotificationHandler
+BluetoothCoreNotificationHandler
 :
 :
 AdapterStateChangedNotification
@@ -3252,7 +3239,7 @@ AdapterPropertiesNotification
 Dispatch
 (
 &
-BluetoothNotificationHandler
+BluetoothCoreNotificationHandler
 :
 :
 AdapterPropertiesNotification
@@ -3448,7 +3435,7 @@ RemoteDevicePropertiesNotification
 Dispatch
 (
 &
-BluetoothNotificationHandler
+BluetoothCoreNotificationHandler
 :
 :
 RemoteDevicePropertiesNotification
@@ -3598,7 +3585,7 @@ DeviceFoundNotification
 Dispatch
 (
 &
-BluetoothNotificationHandler
+BluetoothCoreNotificationHandler
 :
 :
 DeviceFoundNotification
@@ -3630,7 +3617,7 @@ DiscoveryStateChangedNotification
 Dispatch
 (
 &
-BluetoothNotificationHandler
+BluetoothCoreNotificationHandler
 :
 :
 DiscoveryStateChangedNotification
@@ -3662,7 +3649,7 @@ PinRequestNotification
 Dispatch
 (
 &
-BluetoothNotificationHandler
+BluetoothCoreNotificationHandler
 :
 :
 PinRequestNotification
@@ -3694,7 +3681,7 @@ SspRequestNotification
 Dispatch
 (
 &
-BluetoothNotificationHandler
+BluetoothCoreNotificationHandler
 :
 :
 SspRequestNotification
@@ -3726,7 +3713,7 @@ BondStateChangedNotification
 Dispatch
 (
 &
-BluetoothNotificationHandler
+BluetoothCoreNotificationHandler
 :
 :
 BondStateChangedNotification
@@ -3758,7 +3745,7 @@ AclStateChangedNotification
 Dispatch
 (
 &
-BluetoothNotificationHandler
+BluetoothCoreNotificationHandler
 :
 :
 AclStateChangedNotification
@@ -3921,7 +3908,7 @@ DutModeRecvNotification
 Dispatch
 (
 &
-BluetoothNotificationHandler
+BluetoothCoreNotificationHandler
 :
 :
 DutModeRecvNotification
@@ -3953,7 +3940,7 @@ LeTestModeNotification
 Dispatch
 (
 &
-BluetoothNotificationHandler
+BluetoothCoreNotificationHandler
 :
 :
 LeTestModeNotification

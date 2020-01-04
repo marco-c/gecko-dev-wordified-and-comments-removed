@@ -46,6 +46,8 @@ BluetoothServiceBluedroid
 public
 BluetoothService
 public
+BluetoothCoreNotificationHandler
+public
 BluetoothNotificationHandler
 {
 class

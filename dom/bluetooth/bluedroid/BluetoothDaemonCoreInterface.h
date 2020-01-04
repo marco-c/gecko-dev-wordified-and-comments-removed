@@ -191,15 +191,9 @@ aRes
 void
 SetNotificationHandler
 (
-BluetoothNotificationHandler
+BluetoothCoreNotificationHandler
 *
 aNotificationHandler
-)
-;
-BluetoothNotificationHandler
-*
-GetNotificationHandler
-(
 )
 ;
 nsresult
@@ -1227,7 +1221,7 @@ aRes
 )
 ;
 static
-BluetoothNotificationHandler
+BluetoothCoreNotificationHandler
 *
 sNotificationHandler
 ;
