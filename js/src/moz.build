@@ -4110,6 +4110,17 @@ mips64
 .
 cpp
 '
+'
+jit
+/
+mips64
+/
+SharedIC
+-
+mips64
+.
+cpp
+'
 ]
 if
 CONFIG
