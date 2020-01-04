@@ -1,9 +1,9 @@
 #
 ifndef
-jit_mips32_AtomicOperations_mips32_h
+jit_mips_shared_AtomicOperations_mips_shared_h
 #
 define
-jit_mips32_AtomicOperations_mips32_h
+jit_mips_shared_AtomicOperations_mips_shared_h
 #
 include
 "
