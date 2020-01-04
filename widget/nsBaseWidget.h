@@ -2497,6 +2497,11 @@ DestroyLayerManager
 )
 ;
 void
+ReleaseContentController
+(
+)
+;
+void
 FreeShutdownObserver
 (
 )
