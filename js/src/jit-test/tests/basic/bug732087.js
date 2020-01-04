@@ -1,3 +1,7 @@
+enableNoSuchMethod
+(
+)
+;
 gczeal
 (
 2

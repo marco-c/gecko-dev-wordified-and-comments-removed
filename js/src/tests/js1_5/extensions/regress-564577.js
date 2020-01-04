@@ -36,6 +36,10 @@ expect
 '
 '
 ;
+enableNoSuchMethod
+(
+)
+;
 test
 (
 )

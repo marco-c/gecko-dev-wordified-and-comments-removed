@@ -1,3 +1,7 @@
+enableNoSuchMethod
+(
+)
+;
 var
 sym
 =

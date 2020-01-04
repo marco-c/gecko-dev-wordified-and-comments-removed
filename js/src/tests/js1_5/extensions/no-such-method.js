@@ -23,6 +23,10 @@ expect
 '
 '
 ;
+enableNoSuchMethod
+(
+)
+;
 printBugNumber
 (
 BUGNUMBER
