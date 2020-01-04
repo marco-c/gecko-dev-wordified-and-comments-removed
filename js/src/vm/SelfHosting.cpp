@@ -12437,6 +12437,9 @@ selfHostedObject
 #
 ifdef
 DEBUG
+mozilla
+:
+:
 Maybe
 <
 AutoCycleDetector
