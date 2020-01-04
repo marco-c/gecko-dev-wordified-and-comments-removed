@@ -9927,6 +9927,13 @@ Compiler
 compiler
 (
 cx
+ICStubCompiler
+:
+:
+Engine
+:
+:
+Baseline
 )
 ;
 if
