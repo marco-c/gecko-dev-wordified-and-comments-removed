@@ -947,6 +947,7 @@ v
 ;
 class
 InvokeState
+final
 :
 public
 RunState
