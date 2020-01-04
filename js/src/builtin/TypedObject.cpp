@@ -2937,6 +2937,9 @@ contents
 cx
 )
 ;
+if
+(
+!
 contents
 .
 append
@@ -2947,7 +2950,13 @@ ArrayType
 (
 "
 )
+)
+return
+false
 ;
+if
+(
+!
 contents
 .
 append
@@ -2960,7 +2969,13 @@ stringRepr
 (
 )
 )
+)
+return
+false
 ;
+if
+(
+!
 contents
 .
 append
@@ -2968,6 +2983,9 @@ append
 "
 "
 )
+)
+return
+false
 ;
 if
 (
@@ -2985,6 +3003,9 @@ contents
 return
 false
 ;
+if
+(
+!
 contents
 .
 append
@@ -2993,6 +3014,9 @@ append
 )
 "
 )
+)
+return
+false
 ;
 RootedAtom
 stringRepr
