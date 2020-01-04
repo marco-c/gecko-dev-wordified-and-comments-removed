@@ -69,17 +69,9 @@ WebGLVertexArrayGL
 (
 )
 ;
-#
-if
-defined
-(
-XP_LINUX
-)
 bool
 mIsVAO
 ;
-#
-endif
 }
 ;
 }
