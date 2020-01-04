@@ -7639,10 +7639,9 @@ IsBuildingLayerEventRegions
 {
 if
 (
-mMode
-=
-=
-PAINTING
+IsPaintingToWindow
+(
+)
 )
 {
 return
