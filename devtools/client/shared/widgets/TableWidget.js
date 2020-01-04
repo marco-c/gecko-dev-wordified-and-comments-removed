@@ -6922,7 +6922,7 @@ return
 let
 dataid
 =
-target
+closest
 .
 getAttribute
 (
