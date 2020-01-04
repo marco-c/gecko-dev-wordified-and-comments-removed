@@ -5400,6 +5400,19 @@ res
 auPerDevPixel
 )
 ;
+if
+(
+aMarginsData
+-
+>
+mMargins
+!
+=
+ScreenMargin
+(
+)
+)
+{
 result
 =
 ApplyRectMultiplier
@@ -5408,6 +5421,7 @@ result
 aMultiplier
 )
 ;
+}
 result
 =
 result
