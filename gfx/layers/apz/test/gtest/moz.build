@@ -110,6 +110,11 @@ TestHitTesting
 cpp
 '
 '
+TestInputQueue
+.
+cpp
+'
+'
 TestPanning
 .
 cpp
