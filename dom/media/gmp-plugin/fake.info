@@ -6,6 +6,14 @@ Description
 Fake
 GMP
 Plugin
+which
+deliberately
+uses
+GMP_API_DECRYPTOR_BACKWARDS_COMPAT
+for
+its
+decryptor
+.
 Version
 :
 1

@@ -628,6 +628,16 @@ eme
 -
 decrypt
 -
+v8
+"
+#
+define
+GMP_API_DECRYPTOR_BACKWARDS_COMPAT
+"
+eme
+-
+decrypt
+-
 v7
 "
 class
