@@ -448,7 +448,7 @@ false
 }
 ;
 uint32_t
-latency_ms
+latency_frames
 =
 0
 ;
@@ -546,7 +546,7 @@ cubeb_get_min_latency
 ctx
 output_params
 &
-latency_ms
+latency_frames
 )
 ;
 if
@@ -592,7 +592,7 @@ input_params
 NULL
 &
 output_params
-latency_ms
+latency_frames
 data_cb
 state_cb
 &
