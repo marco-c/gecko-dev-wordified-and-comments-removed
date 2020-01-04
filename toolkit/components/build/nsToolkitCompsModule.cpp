@@ -273,16 +273,8 @@ h
 #
 endif
 #
-if
-defined
-(
-NIGHTLY_BUILD
-)
-#
 define
 MOZ_HAS_PERFSTATS
-#
-endif
 #
 if
 defined
