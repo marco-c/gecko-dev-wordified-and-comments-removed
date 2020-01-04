@@ -1980,7 +1980,7 @@ nscoord
 nsBox
 :
 :
-GetBoxAscent
+GetXULBoxAscent
 (
 nsBoxLayoutState
 &

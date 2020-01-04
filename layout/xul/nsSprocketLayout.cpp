@@ -2856,7 +2856,7 @@ ascent
 child
 -
 >
-GetBoxAscent
+GetXULBoxAscent
 (
 aState
 )
@@ -3651,7 +3651,7 @@ maxAscent
 aBox
 -
 >
-GetBoxAscent
+GetXULBoxAscent
 (
 aState
 )
@@ -3816,7 +3816,7 @@ maxAscent
 child
 -
 >
-GetBoxAscent
+GetXULBoxAscent
 (
 aState
 )
@@ -5944,7 +5944,7 @@ ascent
 child
 -
 >
-GetBoxAscent
+GetXULBoxAscent
 (
 aState
 )

@@ -5063,7 +5063,7 @@ nscoord
 nsTextBoxFrame
 :
 :
-GetBoxAscent
+GetXULBoxAscent
 (
 nsBoxLayoutState
 &

@@ -88,7 +88,7 @@ override
 ;
 virtual
 nscoord
-GetBoxAscent
+GetXULBoxAscent
 (
 nsBoxLayoutState
 &

@@ -620,7 +620,7 @@ ascent
 child
 -
 >
-GetBoxAscent
+GetXULBoxAscent
 (
 aState
 )

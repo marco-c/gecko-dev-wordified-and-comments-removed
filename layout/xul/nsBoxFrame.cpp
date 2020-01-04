@@ -3011,7 +3011,7 @@ NS_STATE_IS_ROOT
 {
 ascent
 =
-GetBoxAscent
+GetXULBoxAscent
 (
 state
 )
@@ -3311,7 +3311,7 @@ nscoord
 nsBoxFrame
 :
 :
-GetBoxAscent
+GetXULBoxAscent
 (
 nsBoxLayoutState
 &
@@ -3369,7 +3369,7 @@ mAscent
 nsBox
 :
 :
-GetBoxAscent
+GetXULBoxAscent
 (
 aBoxLayoutState
 )
@@ -3872,7 +3872,7 @@ NS_STATE_IS_ROOT
 {
 ascent
 =
-GetBoxAscent
+GetXULBoxAscent
 (
 aState
 )
@@ -7871,7 +7871,7 @@ ascentSize
 child
 -
 >
-GetBoxAscent
+GetXULBoxAscent
 (
 state
 )
