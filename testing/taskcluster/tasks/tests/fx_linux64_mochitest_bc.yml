@@ -56,15 +56,6 @@ mochitest
 browser
 -
 chrome
-M
-(
-bc
-{
-{
-chunk
-}
-}
-)
 '
 description
 :

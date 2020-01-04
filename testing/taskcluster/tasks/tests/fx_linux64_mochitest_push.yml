@@ -51,10 +51,6 @@ Linux64
 mochitest
 -
 push
-M
-(
-p
-)
 '
 description
 :

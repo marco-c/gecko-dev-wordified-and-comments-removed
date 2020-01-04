@@ -25,12 +25,7 @@ name
 TC
 ]
 Linux64
-jittests
-{
-{
-chunk
-}
-}
+jittest
 '
 description
 :

@@ -51,10 +51,6 @@ Linux64
 mochitest
 -
 gl
-M
-(
-gl
-)
 '
 description
 :
