@@ -352,9 +352,6 @@ bool
 mCheckTracking
 ;
 bool
-mCheckForbiddenURIs
-;
-bool
 mCheckBlockedURIs
 ;
 bool
