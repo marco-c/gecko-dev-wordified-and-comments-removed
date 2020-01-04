@@ -6886,6 +6886,11 @@ mLocalPanStartPoint
 x
 aEvent
 .
+mLocalPanDisplacement
+.
+x
+aEvent
+.
 mTime
 )
 ;
@@ -6896,6 +6901,11 @@ UpdateWithTouchAtDevicePoint
 aEvent
 .
 mLocalPanStartPoint
+.
+y
+aEvent
+.
+mLocalPanDisplacement
 .
 y
 aEvent
@@ -8862,6 +8872,7 @@ UpdateWithTouchAtDevicePoint
 point
 .
 x
+0
 aEvent
 .
 mTime
@@ -8874,6 +8885,7 @@ UpdateWithTouchAtDevicePoint
 point
 .
 y
+0
 aEvent
 .
 mTime
