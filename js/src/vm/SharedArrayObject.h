@@ -343,6 +343,10 @@ JSContext
 cx
 uint32_t
 length
+HandleObject
+proto
+=
+nullptr
 )
 ;
 static
@@ -356,6 +360,10 @@ cx
 SharedArrayRawBuffer
 *
 buffer
+HandleObject
+proto
+=
+nullptr
 )
 ;
 static
