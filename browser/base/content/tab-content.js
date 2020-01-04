@@ -4300,7 +4300,7 @@ sendAsyncMessage
 "
 Browser
 :
-FirstContentLoaded
+WindowCreated
 "
 {
 userContextId
