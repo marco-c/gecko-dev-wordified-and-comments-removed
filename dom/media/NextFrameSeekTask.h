@@ -113,12 +113,6 @@ NextFrameSeekTask
 )
 ;
 bool
-HasAudio
-(
-)
-const
-;
-bool
 IsVideoDecoding
 (
 )
@@ -224,10 +218,6 @@ mVideoQueue
 const
 int64_t
 mCurrentTimeBeforeSeek
-;
-const
-bool
-mHasAudio
 ;
 media
 :
