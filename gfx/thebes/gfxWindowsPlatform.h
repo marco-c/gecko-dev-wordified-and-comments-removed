@@ -528,7 +528,7 @@ char
 &
 aFontList
 )
-overide
+override
 ;
 nsresult
 GetStandardFamilyName
