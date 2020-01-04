@@ -121,6 +121,12 @@ build
 -
 linux32
 -
+{
+{
+build_type
+}
+}
+-
 workspace
 '
 payload
@@ -158,6 +164,12 @@ project
 build
 -
 linux32
+-
+{
+{
+build_type
+}
+}
 -
 workspace
 :
