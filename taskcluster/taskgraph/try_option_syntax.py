@@ -71,6 +71,12 @@ hazard
 '
 l10n
 '
+    
+'
+upload
+-
+symbols
+'
 ]
 )
 JOB_KINDS
