@@ -922,11 +922,12 @@ eColorID_activeborder
 :
 aColor
 =
-NS_RGB
+GetColorFromNSColor
 (
-0x00
-0x00
-0x00
+[
+NSColor
+keyboardFocusIndicatorColor
+]
 )
 ;
 break
