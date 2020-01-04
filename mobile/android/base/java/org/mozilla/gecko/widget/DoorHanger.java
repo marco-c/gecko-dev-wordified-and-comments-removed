@@ -142,6 +142,13 @@ gecko
 .
 TelemetryContract
 ;
+import
+java
+.
+util
+.
+Locale
+;
 public
 abstract
 class
@@ -538,6 +545,9 @@ toString
 .
 toLowerCase
 (
+Locale
+.
+US
 )
 ;
 Telemetry
@@ -883,6 +893,9 @@ toString
 .
 toLowerCase
 (
+Locale
+.
+US
 )
 ;
 Telemetry
