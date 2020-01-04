@@ -448,7 +448,7 @@ Value
 v
 )
 {
-DispatchValueTyped
+DispatchTyped
 (
 PreBarrierFunctor
 <
@@ -644,7 +644,7 @@ Value
 v
 )
 {
-DispatchValueTyped
+DispatchTyped
 (
 ReadBarrierFunctor
 <
@@ -711,7 +711,7 @@ jsid
 id
 )
 {
-DispatchIdTyped
+DispatchTyped
 (
 PreBarrierFunctor
 <

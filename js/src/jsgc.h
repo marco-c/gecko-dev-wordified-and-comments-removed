@@ -4391,7 +4391,7 @@ value
 )
 {
 return
-DispatchValueTyped
+DispatchTyped
 (
 IsForwardedFunctor
 (
@@ -4518,7 +4518,7 @@ value
 )
 {
 return
-DispatchValueTyped
+DispatchTyped
 (
 ForwardedFunctor
 (
@@ -4673,7 +4673,7 @@ Value
 value
 )
 {
-DispatchValueTyped
+DispatchTyped
 (
 CheckValueAfterMovingGCFunctor
 (

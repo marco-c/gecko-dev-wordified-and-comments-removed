@@ -526,7 +526,7 @@ typename
 Args
 >
 auto
-DispatchTaggedProtoTyped
+DispatchTyped
 (
 F
 f

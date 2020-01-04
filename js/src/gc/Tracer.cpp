@@ -367,7 +367,7 @@ name
 *
 vp
 =
-DispatchValueTyped
+DispatchTyped
 (
 DoCallbackFunctor
 <
@@ -413,7 +413,7 @@ name
 *
 idp
 =
-DispatchIdTyped
+DispatchTyped
 (
 DoCallbackFunctor
 <
@@ -459,7 +459,7 @@ name
 *
 protop
 =
-DispatchTaggedProtoTyped
+DispatchTyped
 (
 DoCallbackFunctor
 <
