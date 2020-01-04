@@ -1889,6 +1889,13 @@ mStartTime
 TimeStamp
 mShutdownDemandedTime
 ;
+Atomic
+<
+bool
+Relaxed
+>
+mShutdownDemanded
+;
 bool
 mShuttingDown
 ;
