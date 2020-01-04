@@ -5705,6 +5705,14 @@ upload_env
 ]
 )
             
+if
+'
+UPLOAD_HOST
+'
+in
+mach_env
+:
+                
 mach_env
 [
 '
@@ -5720,7 +5728,7 @@ UPLOAD_HOST
 ]
 %
 {
-                
+                    
 '
 stage_server
 '
@@ -5731,9 +5739,17 @@ c
 stage_server
 '
 ]
-            
+                
 }
             
+if
+'
+UPLOAD_USER
+'
+in
+mach_env
+:
+                
 mach_env
 [
 '
@@ -5749,7 +5765,7 @@ UPLOAD_USER
 ]
 %
 {
-                
+                    
 '
 stage_username
 '
@@ -5760,9 +5776,17 @@ c
 stage_username
 '
 ]
-            
+                
 }
             
+if
+'
+UPLOAD_SSH_KEY
+'
+in
+mach_env
+:
+                
 mach_env
 [
 '
@@ -5778,7 +5802,7 @@ UPLOAD_SSH_KEY
 ]
 %
 {
-                
+                    
 '
 stage_ssh_key
 '
@@ -5789,7 +5813,7 @@ c
 stage_ssh_key
 '
 ]
-            
+                
 }
         
 if
