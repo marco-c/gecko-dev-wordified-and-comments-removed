@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 TEST_URI
 =
@@ -75,6 +80,11 @@ zip
 =
 zop
 /
+/
+zig
+=
+zag
+/
 ]
 }
 }
@@ -144,6 +154,11 @@ zep
 zip
 =
 zop
+/
+/
+zig
+=
+zag
 /
 /
 zup
