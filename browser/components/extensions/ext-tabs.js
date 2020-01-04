@@ -1343,7 +1343,7 @@ progressListener
 ;
 AllWindowEvents
 .
-addListener
+removeListener
 (
 "
 TabAttrModified
@@ -1353,7 +1353,7 @@ listener
 ;
 AllWindowEvents
 .
-addListener
+removeListener
 (
 "
 TabPinned
@@ -1363,7 +1363,7 @@ listener
 ;
 AllWindowEvents
 .
-addListener
+removeListener
 (
 "
 TabUnpinned
