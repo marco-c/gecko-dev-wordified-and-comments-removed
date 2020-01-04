@@ -71,7 +71,7 @@ template
 typename
 DestinationType
 >
-MOZ_EXPLICIT_CONVERSION
+explicit
 constexpr
 operator
 DestinationType

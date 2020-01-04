@@ -497,12 +497,6 @@ mozilla
 :
 IsConvertible
 ;
-#
-if
-defined
-(
-MOZ_HAVE_EXPLICIT_CONVERSION
-)
 static_assert
 (
 !
@@ -560,8 +554,6 @@ convertible
 "
 )
 ;
-#
-endif
 static_assert
 (
 !
@@ -2010,9 +2002,6 @@ convertible
 "
 )
 ;
-#
-ifdef
-MOZ_HAVE_EXPLICIT_CONVERSION
 static_assert
 (
 !
@@ -2120,8 +2109,6 @@ convertible
 "
 )
 ;
-#
-endif
 }
 enum
 class
