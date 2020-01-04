@@ -246,6 +246,7 @@ nsIContent
 Get
 (
 )
+const
 ;
 nsIContent
 *
@@ -558,6 +559,13 @@ Mutated
 }
 #
 endif
+nsIContent
+*
+Get
+(
+)
+const
+;
 bool
 Seek
 (
