@@ -2811,7 +2811,6 @@ functions
 ;
 }
 }
-;
 class
 NumberType
 extends
@@ -3862,7 +3861,6 @@ wrapperFuncs
 }
 }
 }
-;
 class
 CallEntry
 extends
@@ -3929,9 +3927,9 @@ path
 .
 join
 (
-'
+"
 .
-'
+"
 )
 }
 .
@@ -4887,9 +4885,9 @@ path
 .
 join
 (
-'
+"
 .
-'
+"
 )
 }
 has
@@ -6383,11 +6381,8 @@ SubModuleProperty
 name
 namespaceName
 prop
-[
-"
+.
 ref
-"
-]
 prop
 .
 properties

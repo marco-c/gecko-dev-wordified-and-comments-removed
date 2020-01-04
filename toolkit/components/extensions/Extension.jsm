@@ -2166,7 +2166,6 @@ return
 obj
 ;
 }
-;
 let
 schemaWrapper
 =
