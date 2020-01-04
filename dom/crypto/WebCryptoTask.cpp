@@ -9560,16 +9560,6 @@ Construct
 mExtractable
 )
 ;
-if
-(
-!
-mKeyUsages
-.
-IsEmpty
-(
-)
-)
-{
 mJwk
 .
 mKey_ops
@@ -9599,7 +9589,6 @@ fallible
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-}
 }
 return
 NS_OK
