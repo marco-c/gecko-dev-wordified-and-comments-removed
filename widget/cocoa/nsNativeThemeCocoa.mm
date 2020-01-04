@@ -19304,10 +19304,10 @@ DirectionAwareMargin
 (
 nsIntMargin
 (
-0
-2
-0
-2
+1
+7
+3
+7
 )
 aFrame
 )
@@ -19929,6 +19929,9 @@ switch
 aWidgetType
 )
 {
+case
+NS_THEME_BUTTON
+:
 /
 /
 Radios
