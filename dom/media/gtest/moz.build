@@ -243,16 +243,6 @@ MOZ_RUST
 '
 ]
 :
-SOURCES
-+
-=
-[
-'
-hello
-.
-rs
-'
-]
 UNIFIED_SOURCES
 +
 =
