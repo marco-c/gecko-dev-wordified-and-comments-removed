@@ -1146,6 +1146,12 @@ PROCESS_TYPE_CONTENT
 )
 ;
 }
+setTimeout
+(
+function
+(
+)
+{
 if
 (
 browserWindow
@@ -1168,12 +1174,6 @@ forceInitialBrowserRemote
 )
 ;
 }
-setTimeout
-(
-function
-(
-)
-{
 browserWindow
 .
 resizeTo
