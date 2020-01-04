@@ -388,6 +388,7 @@ reset
 add_UITour_task
 (
 function
+*
 test_availableTargets_exceptionFromGetTarget
 (
 )
