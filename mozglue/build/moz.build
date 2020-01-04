@@ -323,6 +323,17 @@ OS_TARGET
 WINNT
 '
 :
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+memory
+/
+build
+'
+]
 SOURCES
 +
 =
