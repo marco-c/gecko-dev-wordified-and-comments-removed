@@ -89,8 +89,6 @@ impulseResponseData
 size_t
 impulseResponseLength
 size_t
-renderSliceSize
-size_t
 maxFFTSize
 size_t
 convolverRenderPhase
@@ -110,15 +108,9 @@ const
 float
 *
 sourceChannelData
-size_t
-sourceChannelLength
 float
 *
 destinationChannelData
-size_t
-destinationChannelLength
-size_t
-framesToProcess
 )
 ;
 size_t

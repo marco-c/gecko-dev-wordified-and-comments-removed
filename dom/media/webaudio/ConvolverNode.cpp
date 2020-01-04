@@ -326,7 +326,6 @@ Reverb
 (
 mBuffer
 mBufferLength
-WEBAUDIO_BLOCK_SIZE
 MaxFFTSize
 2
 mUseBackgroundThreads
@@ -641,7 +640,6 @@ process
 &
 input
 aOutput
-WEBAUDIO_BLOCK_SIZE
 )
 ;
 }

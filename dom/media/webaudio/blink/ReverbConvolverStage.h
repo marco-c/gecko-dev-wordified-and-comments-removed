@@ -81,8 +81,6 @@ size_t
 fftSize
 size_t
 renderPhase
-size_t
-renderSliceSize
 ReverbAccumulationBuffer
 *
 bool

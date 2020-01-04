@@ -74,8 +74,6 @@ impulseResponseBuffer
 size_t
 impulseResponseBufferLength
 size_t
-renderSliceSize
-size_t
 maxFFTSize
 size_t
 numberOfChannels
@@ -103,8 +101,6 @@ mozilla
 AudioBlock
 *
 destinationBus
-size_t
-framesToProcess
 )
 ;
 size_t
@@ -144,8 +140,6 @@ float
 impulseResponseBuffer
 size_t
 impulseResponseBufferLength
-size_t
-renderSliceSize
 size_t
 maxFFTSize
 size_t

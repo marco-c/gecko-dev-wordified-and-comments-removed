@@ -62,8 +62,6 @@ size_t
 fftSize
 size_t
 renderPhase
-size_t
-renderSliceSize
 ReverbAccumulationBuffer
 *
 accumulationBuffer
@@ -164,7 +162,7 @@ m_directConvolver
 new
 DirectConvolver
 (
-renderSliceSize
+WEBAUDIO_BLOCK_SIZE
 )
 ;
 }
@@ -172,7 +170,7 @@ m_temporaryBuffer
 .
 SetLength
 (
-renderSliceSize
+WEBAUDIO_BLOCK_SIZE
 )
 ;
 PodZero
