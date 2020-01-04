@@ -79,14 +79,7 @@ if
 (
 newMessage
 .
-data
-&
-&
-newMessage
-.
-data
-.
-level
+type
 =
 =
 =

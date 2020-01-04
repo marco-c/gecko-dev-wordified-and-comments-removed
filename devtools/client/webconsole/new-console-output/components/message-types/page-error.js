@@ -211,9 +211,7 @@ span
 }
 message
 .
-data
-.
-errorMessage
+messageText
 )
 )
 repeat
