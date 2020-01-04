@@ -5696,6 +5696,17 @@ void
 PFNTEXTUREBARRIERPROC
 fTextureBarrier
 ;
+void
+(
+GLAPIENTRY
+*
+fPrimitiveRestartIndex
+)
+(
+GLuint
+index
+)
+;
 }
 ;
 }
