@@ -13109,6 +13109,13 @@ Clear
 (
 )
 ;
+clipState
+.
+SetScrollClipForContainingBlockDescendants
+(
+nullptr
+)
+;
 }
 nsIFrame
 *
