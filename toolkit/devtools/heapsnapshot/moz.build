@@ -236,7 +236,12 @@ heapsnapshot
 =
 [
 '
-HeapSnapshotFileUtils
+HeapAnalysesClient
+.
+js
+'
+'
+HeapAnalysesWorker
 .
 js
 '
