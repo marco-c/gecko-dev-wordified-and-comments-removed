@@ -1497,7 +1497,7 @@ ContextMenuTriggerType
 (
 aParam
 .
-context
+mContextMenuTrigger
 )
 )
 ;
@@ -1660,7 +1660,7 @@ reason
 aResult
 -
 >
-context
+mContextMenuTrigger
 =
 static_cast
 <

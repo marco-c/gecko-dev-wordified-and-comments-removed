@@ -37255,13 +37255,9 @@ if
 mouseEvent
 -
 >
-context
-=
-=
-WidgetMouseEvent
-:
-:
-eContextMenuKey
+IsContextMenuKeyEvent
+(
+)
 &
 &
 !
@@ -44481,7 +44477,7 @@ mReason
 aEvent
 -
 >
-context
+mContextMenuTrigger
 )
 ;
 mouseEvent
