@@ -920,6 +920,16 @@ NeedsPaint
 override
 ;
 virtual
+bool
+PreRender
+(
+LayerManagerComposite
+*
+aManager
+)
+override
+;
+virtual
 void
 DrawWindowUnderlay
 (
