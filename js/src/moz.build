@@ -1168,6 +1168,13 @@ cpp
 '
 asmjs
 /
+Wasm
+.
+cpp
+'
+'
+asmjs
+/
 WasmFrameIterator
 .
 cpp
@@ -1204,6 +1211,13 @@ cpp
 asmjs
 /
 WasmStubs
+.
+cpp
+'
+'
+asmjs
+/
+WasmText
 .
 cpp
 '

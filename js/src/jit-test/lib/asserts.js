@@ -425,7 +425,7 @@ Error
 Assertion
 failed
 :
-expeceted
+expected
 "
 +
 test
@@ -462,7 +462,7 @@ Error
 Assertion
 failed
 :
-expeceted
+expected
 "
 +
 test
