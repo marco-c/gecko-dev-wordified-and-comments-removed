@@ -67,6 +67,8 @@ gradle
 topsrcdir
 /
 gradle
+-
+dist
 /
 bin
 /
