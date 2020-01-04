@@ -93,6 +93,14 @@ MPL
 0
 /
 .
+DevToolsModules
+(
+'
+fonts
+.
+js
+'
+)
 BROWSER_CHROME_MANIFESTS
 +
 =

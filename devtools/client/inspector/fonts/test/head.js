@@ -57,11 +57,14 @@ devtools
 /
 client
 /
-fontinspector
+inspector
+/
+fonts
 /
 test
 /
 "
+;
 var
 openInspector
 =
