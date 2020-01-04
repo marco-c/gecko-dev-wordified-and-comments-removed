@@ -143,6 +143,15 @@ extensions
 /
 schemas
 /
+native_host_manifest
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 notifications
 .
 json
