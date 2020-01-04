@@ -1756,6 +1756,14 @@ Explorer
 ie
 "
 "
+Microsoft
+Edge
+"
+:
+"
+edge
+"
+"
 Safari
 "
 :
