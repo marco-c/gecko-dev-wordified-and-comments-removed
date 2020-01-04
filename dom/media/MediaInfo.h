@@ -1091,6 +1091,13 @@ mExtraData
 )
 {
 }
+static
+const
+uint32_t
+MAX_RATE
+=
+640000
+;
 bool
 IsValid
 (
@@ -1113,6 +1120,12 @@ MAX_AUDIO_CHANNELS
 mRate
 >
 0
+&
+&
+mRate
+<
+=
+MAX_RATE
 ;
 }
 AudioInfo
