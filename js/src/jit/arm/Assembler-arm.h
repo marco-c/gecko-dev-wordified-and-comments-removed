@@ -5437,6 +5437,15 @@ bo
 #
 ifdef
 JS_DISASM_ARM
+static
+void
+spewInst
+(
+Instruction
+*
+i
+)
+;
 void
 spew
 (
