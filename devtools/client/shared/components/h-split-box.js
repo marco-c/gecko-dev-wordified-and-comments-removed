@@ -461,11 +461,9 @@ div
 className
 :
 "
-h
+devtools
 -
-split
--
-box
+side
 -
 splitter
 "
