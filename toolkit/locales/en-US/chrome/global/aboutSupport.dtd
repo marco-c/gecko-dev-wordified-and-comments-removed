@@ -603,6 +603,16 @@ Agent
 ENTITY
 aboutSupport
 .
+appBasicsOS
+"
+OS
+"
+>
+<
+!
+ENTITY
+aboutSupport
+.
 appBasicsMemoryUse
 "
 Memory
