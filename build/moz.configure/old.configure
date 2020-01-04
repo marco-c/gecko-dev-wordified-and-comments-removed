@@ -1934,15 +1934,6 @@ pico
 -
 enable
 -
-synth
--
-speechd
-'
-'
--
--
-enable
--
 system
 -
 cairo
