@@ -716,10 +716,9 @@ mode
 let
 getVal
 =
-function
-(
 aPref
-)
+=
+>
 document
 .
 getElementById

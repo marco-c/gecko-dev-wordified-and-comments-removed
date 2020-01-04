@@ -1680,6 +1680,8 @@ getTabURI
 (
 t
 )
+{
+return
 t
 .
 linkedBrowser
@@ -1688,6 +1690,7 @@ currentURI
 .
 spec
 ;
+}
 if
 (
 tabs
