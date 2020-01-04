@@ -7072,6 +7072,14 @@ AddCookiesToRequest
 (
 )
 ;
+gHttpHandler
+-
+>
+OnOpeningRequest
+(
+this
+)
+;
 mIsPending
 =
 true
