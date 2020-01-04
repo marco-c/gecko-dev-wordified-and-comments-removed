@@ -185,7 +185,7 @@ field
 )
 ;
 let
-waitForUpdates
+onRuleViewChanged
 =
 view
 .
@@ -216,7 +216,7 @@ VK_RETURN
 )
 ;
 yield
-waitForUpdates
+onRuleViewChanged
 ;
 info
 (
@@ -247,6 +247,19 @@ VK_RETURN
 ]
 )
 ;
+onRuleViewChanged
+=
+view
+.
+once
+(
+"
+ruleview
+-
+changed
+"
+)
+;
 yield
 sendCharsAndWaitForFocus
 (
@@ -260,6 +273,9 @@ VK_RETURN
 "
 ]
 )
+;
+yield
+onRuleViewChanged
 ;
 isnot
 (
