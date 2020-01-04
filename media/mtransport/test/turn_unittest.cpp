@@ -48,15 +48,6 @@ h
 #
 include
 "
-mozilla
-/
-Scoped
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

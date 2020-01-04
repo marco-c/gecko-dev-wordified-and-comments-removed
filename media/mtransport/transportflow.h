@@ -38,7 +38,7 @@ include
 "
 mozilla
 /
-Scoped
+UniquePtr
 .
 h
 "
@@ -447,7 +447,7 @@ TransportLayer
 State
 state_
 ;
-ScopedDeletePtr
+UniquePtr
 <
 std
 :

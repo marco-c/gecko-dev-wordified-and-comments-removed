@@ -35,7 +35,7 @@ include
 "
 mozilla
 /
-Scoped
+UniquePtr
 .
 h
 "
@@ -764,7 +764,7 @@ VerificationDigest
 >
 digests_
 ;
-ScopedDeletePtr
+UniquePtr
 <
 TransportLayerNSPRAdapter
 >
