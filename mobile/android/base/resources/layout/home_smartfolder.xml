@@ -227,6 +227,13 @@ padding
 "
 android
 :
+scaleType
+=
+"
+center
+"
+android
+:
 layout_gravity
 =
 "
