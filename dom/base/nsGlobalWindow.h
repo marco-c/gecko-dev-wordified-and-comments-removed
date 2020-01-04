@@ -8343,11 +8343,6 @@ DOMMinTimeoutValue
 const
 ;
 void
-InitializeShowFocusRings
-(
-)
-;
-void
 ClearDocumentDependentSlots
 (
 JSContext
