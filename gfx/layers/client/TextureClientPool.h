@@ -137,6 +137,8 @@ gfx
 :
 SurfaceFormat
 aFormat
+TextureFlags
+aFlags
 gfx
 :
 :
@@ -216,6 +218,16 @@ return
 mFormat
 ;
 }
+TextureFlags
+GetFlags
+(
+)
+const
+{
+return
+mFlags
+;
+}
 private
 :
 static
@@ -230,6 +242,10 @@ gfx
 :
 SurfaceFormat
 mFormat
+;
+const
+TextureFlags
+mFlags
 ;
 gfx
 :
