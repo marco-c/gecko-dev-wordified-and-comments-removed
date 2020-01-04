@@ -174,13 +174,6 @@ gDevTools
 jsm
 '
 '
-location
--
-store
-.
-js
-'
-'
 menu
 -
 item
@@ -205,9 +198,7 @@ js
 '
 source
 -
-map
--
-service
+location
 .
 js
 '
