@@ -1663,6 +1663,17 @@ UnifiedSources
 :
             
 if
+self
+.
+environment
+.
+is_artifact_build
+:
+                
+return
+True
+            
+if
 obj
 .
 have_unified_mapping
