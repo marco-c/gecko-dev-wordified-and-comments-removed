@@ -2734,14 +2734,6 @@ presentation
 .
 enabled
 "
-Func
-=
-"
-Navigator
-:
-:
-HasPresentationSupport
-"
 SameObject
 ]
 readonly

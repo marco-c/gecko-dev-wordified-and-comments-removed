@@ -99,15 +99,9 @@ dom
 .
 presentation
 .
+controller
+.
 enabled
-"
-Func
-=
-"
-Navigator
-:
-:
-HasPresentationSupport
 "
 ]
 interface

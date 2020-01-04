@@ -99,15 +99,9 @@ dom
 .
 presentation
 .
+receiver
+.
 enabled
-"
-Func
-=
-"
-Navigator
-:
-:
-HasPresentationSupport
 "
 ]
 interface

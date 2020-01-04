@@ -178,14 +178,6 @@ presentation
 .
 enabled
 "
-Func
-=
-"
-Navigator
-:
-:
-HasPresentationSupport
-"
 ]
 interface
 PresentationConnection

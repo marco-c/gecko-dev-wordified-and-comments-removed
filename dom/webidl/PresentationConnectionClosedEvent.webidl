@@ -176,14 +176,6 @@ presentation
 .
 enabled
 "
-Func
-=
-"
-Navigator
-:
-:
-HasPresentationSupport
-"
 ]
 interface
 PresentationConnectionClosedEvent
