@@ -14990,6 +14990,11 @@ get
 )
 )
 ;
+JS_SetFutexCanWait
+(
+rt
+)
+;
 JS_SetErrorReporter
 (
 rt
@@ -42175,6 +42180,11 @@ sr
 get
 (
 )
+)
+;
+JS_SetFutexCanWait
+(
+rt
 )
 ;
 JS_SetErrorReporter
