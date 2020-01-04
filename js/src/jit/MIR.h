@@ -2716,6 +2716,14 @@ dom
 )
 ;
 void
+justReplaceAllUsesWithExcept
+(
+MDefinition
+*
+dom
+)
+;
+void
 optimizeOutAllUses
 (
 TempAllocator
