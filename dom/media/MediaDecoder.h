@@ -821,11 +821,8 @@ MediaDecoderStateMachine
 GetStateMachine
 (
 )
-{
-return
-mDecoderStateMachine
+const
 ;
-}
 void
 SetStateMachine
 (
@@ -1207,13 +1204,6 @@ int64_t
 GetDownloadPosition
 (
 )
-;
-MediaDecoderStateMachine
-*
-GetStateMachine
-(
-)
-const
 ;
 virtual
 void
