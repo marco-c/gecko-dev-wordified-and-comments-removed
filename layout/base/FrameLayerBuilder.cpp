@@ -3002,7 +3002,6 @@ GetAnimatedGeometryRootFor
 (
 aContainerItem
 aBuilder
-aManager
 )
 ;
 MOZ_ASSERT
@@ -3034,7 +3033,7 @@ aContainerItem
 >
 ShouldFixToViewport
 (
-aManager
+mBuilder
 )
 "
 Container
@@ -14892,7 +14891,6 @@ GetAnimatedGeometryRootFor
 (
 item
 mBuilder
-mManager
 )
 ;
 return
@@ -15667,7 +15665,6 @@ GetAnimatedGeometryRootFor
 (
 item
 mBuilder
-mManager
 )
 ;
 if
@@ -15844,7 +15841,7 @@ item
 >
 ShouldFixToViewport
 (
-mManager
+mBuilder
 )
 ;
 DisplayItemClip

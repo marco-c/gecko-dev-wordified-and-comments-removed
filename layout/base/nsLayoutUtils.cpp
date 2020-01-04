@@ -9378,9 +9378,6 @@ aItem
 nsDisplayListBuilder
 *
 aBuilder
-LayerManager
-*
-aManager
 )
 {
 nsIFrame
@@ -9401,7 +9398,7 @@ aItem
 >
 ShouldFixToViewport
 (
-aManager
+aBuilder
 )
 )
 {

@@ -665,7 +665,6 @@ GetAnimatedGeometryRootFor
 (
 aItem
 aBuilder
-nullptr
 )
 -
 >
@@ -1095,7 +1094,7 @@ aItem
 >
 ShouldFixToViewport
 (
-nullptr
+aBuilder
 )
 )
 {

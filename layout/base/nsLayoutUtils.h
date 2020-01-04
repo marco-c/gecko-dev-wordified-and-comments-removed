@@ -1264,15 +1264,6 @@ aItem
 nsDisplayListBuilder
 *
 aBuilder
-mozilla
-:
-:
-layers
-:
-:
-LayerManager
-*
-aManager
 )
 ;
 static
