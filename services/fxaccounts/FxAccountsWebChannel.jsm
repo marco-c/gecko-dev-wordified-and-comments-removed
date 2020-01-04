@@ -1304,6 +1304,9 @@ let
 newCredentials
 =
 {
+deviceId
+:
+null
 }
 ;
 for
