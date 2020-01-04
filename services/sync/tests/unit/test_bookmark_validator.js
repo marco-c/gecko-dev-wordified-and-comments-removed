@@ -1417,6 +1417,8 @@ compareServerWithClient
 server
 client
 )
+.
+problemData
 ;
 equal
 (
@@ -1502,6 +1504,8 @@ compareServerWithClient
 server
 client
 )
+.
+problemData
 ;
 deepEqual
 (
@@ -1598,6 +1602,8 @@ compareServerWithClient
 server
 client
 )
+.
+problemData
 ;
 deepEqual
 (
@@ -1700,6 +1706,8 @@ compareServerWithClient
 server
 client
 )
+.
+problemData
 ;
 equal
 (
@@ -1780,6 +1788,8 @@ compareServerWithClient
 server
 client
 )
+.
+problemData
 ;
 equal
 (
