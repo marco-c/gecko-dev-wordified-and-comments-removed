@@ -512,17 +512,6 @@ if
 CONFIG
 [
 '
-_MSC_VER
-'
-]
-:
-ALLOW_COMPILER_WARNINGS
-=
-True
-if
-CONFIG
-[
-'
 OS_TARGET
 '
 ]
