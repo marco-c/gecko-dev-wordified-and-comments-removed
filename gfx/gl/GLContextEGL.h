@@ -57,9 +57,8 @@ config
 EGLSurface
 surface
 nsACString
-*
-const
-out_failureId
+&
+aFailureId
 )
 ;
 public
@@ -382,9 +381,8 @@ SurfaceCaps
 &
 minCaps
 nsACString
-*
-const
-out_FailureId
+&
+aFailureId
 )
 ;
 protected

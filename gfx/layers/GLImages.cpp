@@ -241,7 +241,6 @@ CreateContextFlags
 :
 :
 NONE
-&
 discardFailureId
 )
 ;

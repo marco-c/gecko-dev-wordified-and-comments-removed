@@ -1414,9 +1414,8 @@ CreateHeadless
 CreateContextFlags
 flags
 nsACString
-*
-const
-out_failureId
+&
+aFailureId
 )
 {
 RefPtr
@@ -1438,8 +1437,7 @@ if
 gl
 )
 {
-*
-out_failureId
+aFailureId
 =
 NS_LITERAL_CSTRING
 (
@@ -1463,8 +1461,7 @@ Init
 )
 )
 {
-*
-out_failureId
+aFailureId
 =
 NS_LITERAL_CSTRING
 (
@@ -1515,9 +1512,8 @@ minCaps
 CreateContextFlags
 flags
 nsACString
-*
-const
-out_failureId
+&
+aFailureId
 )
 {
 RefPtr
@@ -1529,7 +1525,7 @@ gl
 CreateHeadless
 (
 flags
-out_failureId
+aFailureId
 )
 ;
 if
@@ -1555,8 +1551,7 @@ minCaps
 )
 )
 {
-*
-out_failureId
+aFailureId
 =
 NS_LITERAL_CSTRING
 (

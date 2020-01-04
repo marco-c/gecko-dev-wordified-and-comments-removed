@@ -69,13 +69,11 @@ SurfaceCaps
 &
 CreateContextFlags
 nsACString
-*
-const
-out_failureId
+&
+aFailureId
 )
 {
-*
-out_failureId
+aFailureId
 =
 NS_LITERAL_CSTRING
 (

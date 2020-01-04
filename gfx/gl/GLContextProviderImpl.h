@@ -82,9 +82,8 @@ minCaps
 CreateContextFlags
 flags
 nsACString
-*
-const
-out_failureId
+&
+failureId
 )
 ;
 static
@@ -97,9 +96,8 @@ CreateHeadless
 CreateContextFlags
 flags
 nsACString
-*
-const
-out_failureId
+&
+aFailureId
 )
 ;
 static

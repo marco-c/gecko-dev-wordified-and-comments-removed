@@ -5053,9 +5053,8 @@ SurfaceCaps
 &
 minCaps
 nsACString
-*
-const
-out_failureId
+&
+aFailureId
 ContextProfile
 profile
 =
@@ -5351,9 +5350,8 @@ CreateHeadless
 (
 CreateContextFlags
 nsACString
-*
-const
-out_failureId
+&
+aFailureId
 )
 {
 IntSize
@@ -5380,7 +5378,7 @@ CreateOffscreenPixmapContext
 (
 dummySize
 dummyCaps
-out_failureId
+aFailureId
 )
 ;
 }
@@ -5404,9 +5402,8 @@ minCaps
 CreateContextFlags
 flags
 nsACString
-*
-const
-out_failureId
+&
+aFailureId
 )
 {
 SurfaceCaps
@@ -5478,7 +5475,7 @@ CreateOffscreenPixmapContext
 (
 size
 minBackbufferCaps
-out_failureId
+aFailureId
 profile
 )
 ;
@@ -5503,8 +5500,7 @@ minCaps
 )
 )
 {
-*
-out_failureId
+aFailureId
 =
 NS_LITERAL_CSTRING
 (
