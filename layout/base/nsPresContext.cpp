@@ -7020,7 +7020,7 @@ true
 }
 }
 static
-void
+bool
 NotifyThemeChanged
 (
 TabParent
@@ -7037,6 +7037,9 @@ aTabParent
 ThemeChanged
 (
 )
+;
+return
+false
 ;
 }
 void
@@ -8249,7 +8252,7 @@ nsRestyleHint
 }
 }
 static
-void
+bool
 NotifyTabSizeModeChanged
 (
 TabParent
@@ -8281,6 +8284,9 @@ SizeModeChanged
 *
 sizeMode
 )
+;
+return
+false
 ;
 }
 void

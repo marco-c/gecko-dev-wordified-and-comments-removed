@@ -65,6 +65,10 @@ eAfterKeyUp
 )
 NS_EVENT_MESSAGE
 (
+eAccessKeyNotFound
+)
+NS_EVENT_MESSAGE
+(
 eResize
 )
 NS_EVENT_MESSAGE

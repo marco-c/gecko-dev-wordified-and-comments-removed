@@ -4782,6 +4782,13 @@ onabort
 )
 GK_ATOM
 (
+onmozaccesskeynotfound
+"
+onmozaccesskeynotfound
+"
+)
+GK_ATOM
+(
 onactivate
 "
 onactivate

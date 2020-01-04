@@ -316,6 +316,10 @@ mIsReserved
 (
 false
 )
+mAccessKeyForwardedToChild
+(
+false
+)
 mKeyNameIndex
 (
 mozilla
@@ -426,6 +430,10 @@ mIsComposing
 false
 )
 mIsReserved
+(
+false
+)
+mAccessKeyForwardedToChild
 (
 false
 )
@@ -675,6 +683,9 @@ mIsComposing
 ;
 bool
 mIsReserved
+;
+bool
+mAccessKeyForwardedToChild
 ;
 KeyNameIndex
 mKeyNameIndex
@@ -1041,6 +1052,12 @@ mIsReserved
 aEvent
 .
 mIsReserved
+;
+mAccessKeyForwardedToChild
+=
+aEvent
+.
+mAccessKeyForwardedToChild
 ;
 mKeyNameIndex
 =

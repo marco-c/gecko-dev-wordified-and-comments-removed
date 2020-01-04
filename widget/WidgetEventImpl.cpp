@@ -533,6 +533,9 @@ eAfterKeyDown
 case
 eAfterKeyUp
 :
+case
+eAccessKeyNotFound
+:
 return
 true
 ;

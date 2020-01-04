@@ -559,7 +559,7 @@ mEventClassID
 }
 ;
 typedef
-void
+bool
 (
 *
 CallOnRemoteChildFunction
@@ -5141,7 +5141,7 @@ aInfo
 )
 ;
 static
-void
+bool
 CallOnAllRemoteChildren
 (
 nsIMessageBroadcaster

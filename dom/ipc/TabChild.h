@@ -2315,6 +2315,10 @@ virtual
 bool
 RecvHandleAccessKey
 (
+const
+WidgetKeyboardEvent
+&
+aEvent
 nsTArray
 <
 uint32_t
@@ -2322,10 +2326,6 @@ uint32_t
 &
 &
 aCharCodes
-const
-bool
-&
-aIsTrusted
 const
 int32_t
 &
