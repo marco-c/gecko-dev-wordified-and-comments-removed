@@ -266,13 +266,6 @@ entries
 }
 ;
 let
-isPinned
-=
-docShell
-.
-isAppTab
-;
-let
 webNavigation
 =
 docShell
@@ -338,7 +331,6 @@ serializeEntry
 txn
 .
 sHEntry
-isPinned
 )
 ;
 entry
@@ -464,7 +456,6 @@ serializeEntry
 function
 (
 shEntry
-isPinned
 )
 {
 let
@@ -924,7 +915,6 @@ this
 serializeEntry
 (
 child
-isPinned
 )
 )
 ;
