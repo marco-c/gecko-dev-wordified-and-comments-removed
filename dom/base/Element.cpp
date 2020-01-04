@@ -7957,7 +7957,7 @@ nsContentUtils
 :
 eDOM_PROPERTIES
 "
-RemovedFullScreenElement
+RemovedFullscreenElement
 "
 )
 ;
@@ -14667,7 +14667,7 @@ IsRequestFullScreenAllowed
 {
 return
 "
-FullScreenDeniedNotInputDriven
+FullscreenDeniedNotInputDriven
 "
 ;
 }

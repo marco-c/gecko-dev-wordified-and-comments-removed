@@ -50894,7 +50894,7 @@ IsFullScreenApiEnabled
 {
 return
 "
-FullScreenDeniedDisabled
+FullscreenDeniedDisabled
 "
 ;
 }
@@ -50911,7 +50911,7 @@ IsVisible
 {
 return
 "
-FullScreenDeniedHidden
+FullscreenDeniedHidden
 "
 ;
 }
@@ -50925,7 +50925,7 @@ aDoc
 {
 return
 "
-FullScreenDeniedSubDocFullScreen
+FullscreenDeniedSubDocFullScreen
 "
 ;
 }
@@ -50960,7 +50960,7 @@ GetFullscreenAllowed
 {
 return
 "
-FullScreenDeniedContainerNotAllowed
+FullscreenDeniedContainerNotAllowed
 "
 ;
 }
@@ -51031,7 +51031,7 @@ IsInDoc
 DispatchFullscreenError
 (
 "
-FullScreenDeniedNotInDocument
+FullscreenDeniedNotInDocument
 "
 )
 ;
@@ -51055,7 +51055,7 @@ this
 DispatchFullscreenError
 (
 "
-FullScreenDeniedMovedDocument
+FullscreenDeniedMovedDocument
 "
 )
 ;
@@ -51074,7 +51074,7 @@ GetWindow
 DispatchFullscreenError
 (
 "
-FullScreenDeniedLostWindow
+FullscreenDeniedLostWindow
 "
 )
 ;
@@ -51128,7 +51128,7 @@ GetFullscreenElement
 DispatchFullscreenError
 (
 "
-FullScreenDeniedNotDescendant
+FullscreenDeniedNotDescendant
 "
 )
 ;
@@ -51158,7 +51158,7 @@ this
 DispatchFullscreenError
 (
 "
-FullScreenDeniedNotFocusedTab
+FullscreenDeniedNotFocusedTab
 "
 )
 ;
@@ -51251,7 +51251,7 @@ content
 DispatchFullscreenError
 (
 "
-FullScreenDeniedFocusedPlugin
+FullscreenDeniedFocusedPlugin
 "
 )
 ;
