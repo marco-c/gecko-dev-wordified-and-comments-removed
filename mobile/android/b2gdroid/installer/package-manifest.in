@@ -2598,6 +2598,13 @@ BINPATH
 /
 components
 /
+AndroidActivitiesGlue
+.
+js
+BINPATH
+/
+components
+/
 ActivitiesGlue
 .
 js

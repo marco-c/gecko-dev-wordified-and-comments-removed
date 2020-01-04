@@ -118,12 +118,12 @@ AboutRedirector
 js
 '
 '
-ActivitiesGlue
+AddonUpdateService
 .
 js
 '
 '
-AddonUpdateService
+AndroidActivitiesGlue
 .
 js
 '
