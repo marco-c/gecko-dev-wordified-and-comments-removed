@@ -344,15 +344,7 @@ bool
 CanAttachSocket
 (
 )
-{
-return
-mActiveCount
-+
-mIdleCount
-<
-gMaxCount
 ;
-}
 void
 GetSocketConnections
 (
