@@ -4020,6 +4020,12 @@ case
 ICStub
 :
 :
+GetProp_ModuleNamespace
+:
+case
+ICStub
+:
+:
 GetElem_NativeSlotName
 :
 case

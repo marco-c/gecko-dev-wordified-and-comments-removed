@@ -241,6 +241,12 @@ ModuleEnvironmentObject
 \
 D
 (
+ModuleNamespaceObject
+*
+)
+\
+D
+(
 NestedScopeObject
 *
 )
