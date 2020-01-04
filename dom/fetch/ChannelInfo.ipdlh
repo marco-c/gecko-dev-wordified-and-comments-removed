@@ -68,12 +68,6 @@ IPCChannelInfo
 nsCString
 securityInfo
 ;
-nsCString
-redirectedURI
-;
-bool
-redirected
-;
 }
 ;
 }
