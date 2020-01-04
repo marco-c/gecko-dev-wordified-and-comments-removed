@@ -261,7 +261,7 @@ tab_text_color
 "
 gecko
 :
-tabContentStart
+tabsMarginLeft
 =
 "
 dimen
