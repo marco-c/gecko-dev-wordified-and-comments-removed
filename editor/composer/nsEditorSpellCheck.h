@@ -194,7 +194,9 @@ mUpdateDictionaryRunning
 nsresult
 TryDictionary
 (
-nsAutoString
+const
+nsAString
+&
 aDictName
 nsTArray
 <

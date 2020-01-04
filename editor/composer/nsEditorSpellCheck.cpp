@@ -2958,7 +2958,9 @@ nsEditorSpellCheck
 :
 TryDictionary
 (
-nsAutoString
+const
+nsAString
+&
 aDictName
 nsTArray
 <
