@@ -174,7 +174,10 @@ reinterpret_cast
 EGLClientBuffer
 >
 (
+uintptr_t
+(
 prodTex
+)
 )
 ;
 EGLImage
