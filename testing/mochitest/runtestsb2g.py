@@ -886,6 +886,17 @@ profile
             
 self
 .
+marionette_args
+[
+'
+socket_timeout
+'
+]
+=
+720
+            
+self
+.
 marionette
 =
 Marionette
