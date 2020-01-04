@@ -2651,6 +2651,16 @@ value
 ;
 }
 }
+data
+.
+featureLog
+=
+gfxInfo
+.
+getFeatureLog
+(
+)
+;
 completed
 (
 )
