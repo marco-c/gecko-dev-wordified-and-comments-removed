@@ -650,6 +650,15 @@ AppendPromise
 >
 mPendingAppend
 ;
+MozPromiseRequestHolder
+<
+SourceBufferTask
+:
+:
+RangeRemovalPromise
+>
+mPendingRemoval
+;
 const
 nsCString
 mType
