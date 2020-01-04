@@ -1037,7 +1037,7 @@ WriteParam
 aMsg
 static_cast
 <
-int32_t
+uint8_t
 >
 (
 aParam
@@ -1104,7 +1104,7 @@ paramType
 aResult
 )
 {
-int32_t
+uint8_t
 scrollType
 =
 0
