@@ -2622,6 +2622,14 @@ nsINode
 aNode
 )
 ;
+bool
+IsVisBreak
+(
+nsIDOMNode
+*
+aNode
+)
+;
 void
 NormalizeEOLInsertPosition
 (
