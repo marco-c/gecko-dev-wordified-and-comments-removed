@@ -44,26 +44,6 @@ header
 "
 )
         
-print
-"
-header
-is
-about
-to
-be
-set
-to
-'
-{
-}
-'
-"
-.
-format
-(
-val
-)
-        
 response
 .
 headers
@@ -79,13 +59,6 @@ Header
 "
 val
 )
-        
-print
-"
-header
-was
-set
-"
     
 return
 content
