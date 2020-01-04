@@ -1050,6 +1050,9 @@ testButtonActions
 (
 startNotification
 endNotification
+expectActive
+=
+true
 )
 {
 checkButtonsStatus
@@ -1065,7 +1068,7 @@ startNotification
 ;
 checkButtonsStatus
 (
-true
+expectActive
 )
 ;
 yield
@@ -1107,6 +1110,7 @@ login
 :
 finish
 "
+false
 )
 ;
 yield
@@ -1130,6 +1134,7 @@ login
 :
 error
 "
+false
 )
 ;
 yield
