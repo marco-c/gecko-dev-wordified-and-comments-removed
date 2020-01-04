@@ -30165,7 +30165,7 @@ aPattern
 Length
 (
 )
-0
+JSREG_UNICODE
 )
 )
 ;
