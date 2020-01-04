@@ -45088,10 +45088,7 @@ return
 bool
 isPrecise
 ;
-RegionBuilder
-<
 nsRegion
->
 transformedRegion
 ;
 for
@@ -45163,10 +45160,6 @@ dest
 OrWith
 (
 transformedRegion
-.
-ToRegion
-(
-)
 )
 ;
 }
