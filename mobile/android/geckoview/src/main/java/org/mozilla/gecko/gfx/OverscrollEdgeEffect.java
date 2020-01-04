@@ -592,19 +592,6 @@ null
 return
 ;
 }
-float
-fillerSize
-=
-mView
-.
-getDynamicToolbarAnimator
-(
-)
-.
-getMaxTranslation
-(
-)
-;
 PointF
 visibleEnd
 =
@@ -647,7 +634,7 @@ TOP
 ]
 canvas
 0
-fillerSize
+0
 0
 )
 ;
@@ -678,8 +665,6 @@ canvas
 visibleEnd
 .
 x
-fillerSize
-+
 visibleEnd
 .
 y
@@ -711,8 +696,6 @@ LEFT
 ]
 canvas
 0
-fillerSize
-+
 visibleEnd
 .
 y
@@ -746,7 +729,7 @@ canvas
 visibleEnd
 .
 x
-fillerSize
+0
 90
 )
 ;
