@@ -2018,6 +2018,13 @@ this
 _window
 .
 document
+securityFlags
+:
+Ci
+.
+nsILoadInfo
+.
+SEC_ALLOW_CROSS_ORIGIN_DATA_INHERITS
 contentPolicyType
 :
 Ci

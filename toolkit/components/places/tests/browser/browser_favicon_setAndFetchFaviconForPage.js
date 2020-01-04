@@ -171,6 +171,13 @@ favIconLocation
 loadUsingSystemPrincipal
 :
 true
+securityFlags
+:
+Ci
+.
+nsILoadInfo
+.
+SEC_NORMAL
 contentPolicyType
 :
 Ci
