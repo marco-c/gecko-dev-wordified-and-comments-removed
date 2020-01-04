@@ -285,9 +285,6 @@ interfaces
 foo
 .
 xpt
-#
-Inline
-comment
 '
             
 '
