@@ -3484,7 +3484,6 @@ PowD
 ATan2D
 Runtime
 RuntimeInterruptUint32
-StackLimit
 ReportOverRecursed
 HandleExecutionInterrupt
 HandleTrap
