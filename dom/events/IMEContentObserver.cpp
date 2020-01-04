@@ -3942,7 +3942,7 @@ NodePosition
 mRootContent
 0
 )
-NodePosition
+NodePositionBefore
 (
 aContainer
 aStartIndex
@@ -3991,7 +3991,7 @@ ContentEventHandler
 :
 GetFlatTextLengthInRange
 (
-NodePosition
+NodePositionBefore
 (
 aContainer
 aStartIndex
@@ -4342,7 +4342,7 @@ ContentEventHandler
 :
 GetFlatTextLengthInRange
 (
-NodePosition
+NodePositionBefore
 (
 aChild
 0
@@ -4445,6 +4445,7 @@ ContentEventHandler
 GetNativeTextLengthBefore
 (
 aElement
+mRootContent
 )
 ;
 }
@@ -4528,6 +4529,7 @@ ContentEventHandler
 GetNativeTextLengthBefore
 (
 aElement
+mRootContent
 )
 ;
 if
@@ -4557,7 +4559,7 @@ NodePosition
 mRootContent
 0
 )
-NodePosition
+NodePositionBefore
 (
 aElement
 0
