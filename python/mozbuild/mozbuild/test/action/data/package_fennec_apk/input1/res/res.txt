@@ -1,0 +1,7 @@
+input1
+/
+res
+/
+res
+.
+txt

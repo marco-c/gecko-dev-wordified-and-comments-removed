@@ -1,0 +1,7 @@
+input2
+/
+lib
+/
+lib
+.
+txt
