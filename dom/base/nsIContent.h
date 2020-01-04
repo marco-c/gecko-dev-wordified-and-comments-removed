@@ -1565,8 +1565,9 @@ void
 DestroyContent
 (
 )
-{
-}
+=
+0
+;
 virtual
 void
 SaveSubtreeState

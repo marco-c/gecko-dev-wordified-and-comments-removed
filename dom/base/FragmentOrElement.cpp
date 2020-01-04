@@ -5403,6 +5403,11 @@ ClearBoxObjectFor
 this
 )
 ;
+ReleaseWrapper
+(
+this
+)
+;
 uint32_t
 i
 count
