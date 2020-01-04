@@ -188,6 +188,15 @@ tabId
 updatedInfo
 )
 {
+if
+(
+"
+status
+"
+in
+updatedInfo
+)
+{
 collectedSequence
 .
 push
@@ -195,6 +204,7 @@ push
 updatedInfo
 )
 ;
+}
 }
 )
 ;
