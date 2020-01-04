@@ -1531,13 +1531,6 @@ nsIStreamListener
 aNewNextListener
 )
 ;
-void
-EnsureUploadStreamIsCloneableComplete
-(
-nsresult
-aStatus
-)
-;
 protected
 :
 nsCOMArray
@@ -1743,12 +1736,6 @@ nsCOMPtr
 nsIInputStream
 >
 mUploadStream
-;
-nsCOMPtr
-<
-nsIRunnable
->
-mUploadCloneableCallback
 ;
 nsAutoPtr
 <
