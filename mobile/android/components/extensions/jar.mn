@@ -59,11 +59,6 @@ jar
 :
 content
 /
-extension
-.
-svg
-content
-/
 ext
 -
 pageAction
