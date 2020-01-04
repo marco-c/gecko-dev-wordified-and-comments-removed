@@ -79,6 +79,9 @@ Number
 Object
 "
 "
+Promise
+"
+"
 Proxy
 "
 "
@@ -359,9 +362,6 @@ nightly
 :
 true
 }
-"
-Promise
-"
 {
 name
 :
