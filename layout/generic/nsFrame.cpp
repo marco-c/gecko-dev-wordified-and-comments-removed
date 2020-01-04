@@ -5355,15 +5355,6 @@ GetWritingMode
 ;
 if
 (
-!
-writingMode
-.
-IsVertical
-(
-)
-&
-&
-(
 StyleTextReset
 (
 )
@@ -5372,7 +5363,6 @@ StyleTextReset
 mUnicodeBidi
 &
 NS_STYLE_UNICODE_BIDI_PLAINTEXT
-)
 )
 {
 nsBidiLevel
