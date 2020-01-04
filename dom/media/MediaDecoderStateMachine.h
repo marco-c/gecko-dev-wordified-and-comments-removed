@@ -1493,15 +1493,6 @@ IsVideoDecoding
 (
 )
 ;
-void
-SetPlayStartTime
-(
-const
-TimeStamp
-&
-aTimeStamp
-)
-;
 private
 :
 void
@@ -2514,9 +2505,6 @@ OwnerThread
 )
 ;
 }
-TimeStamp
-mPlayStartTime
-;
 TimeStamp
 mBufferingStart
 ;

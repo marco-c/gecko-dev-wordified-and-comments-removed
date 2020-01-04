@@ -242,6 +242,15 @@ const
 0
 ;
 virtual
+bool
+IsPlaying
+(
+)
+const
+=
+0
+;
+virtual
 void
 Shutdown
 (
