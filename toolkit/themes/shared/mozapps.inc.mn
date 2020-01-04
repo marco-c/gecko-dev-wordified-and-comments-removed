@@ -384,6 +384,9 @@ aboutNetworking
 .
 css
 )
+#
+ifndef
+ANDROID
 skin
 /
 classic
@@ -406,6 +409,8 @@ aboutProfiles
 .
 css
 )
+#
+endif
 skin
 /
 classic

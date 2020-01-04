@@ -481,6 +481,9 @@ nsIAboutModule
 :
 ALLOW_SCRIPT
 }
+#
+ifndef
+ANDROID
 {
 "
 profiles
@@ -503,6 +506,8 @@ nsIAboutModule
 :
 ALLOW_SCRIPT
 }
+#
+endif
 {
 "
 srcdoc

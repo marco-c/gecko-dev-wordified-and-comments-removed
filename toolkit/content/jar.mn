@@ -213,6 +213,9 @@ global
 aboutNetworking
 .
 xhtml
+#
+ifndef
+ANDROID
 *
 content
 /
@@ -228,6 +231,8 @@ global
 aboutProfiles
 .
 xhtml
+#
+endif
 content
 /
 global
