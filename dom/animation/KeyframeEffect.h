@@ -1089,6 +1089,11 @@ GetTargetStyleContext
 (
 )
 ;
+void
+MarkCascadeNeedsUpdate
+(
+)
+;
 Maybe
 <
 OwningAnimationTarget
