@@ -1395,10 +1395,17 @@ mScrollWithPage
 ?
 0
 :
+(
 nsIPresShell
 :
 :
 RENDER_IGNORE_VIEWPORT_SCROLLING
+|
+nsIPresShell
+:
+:
+RENDER_DOCUMENT_RELATIVE
+)
 ;
 nsRect
 r
