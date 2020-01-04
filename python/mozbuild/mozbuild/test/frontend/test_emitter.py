@@ -29,11 +29,11 @@ ConfigFileSubstitution
     
 Defines
     
-DistFiles
-    
 DirectoryTraversal
     
 Exports
+    
+FinalTargetPreprocessedFiles
     
 GeneratedFile
     
@@ -7351,7 +7351,7 @@ have_unified_mapping
 )
     
 def
-test_dist_files
+test_final_target_pp_files
 (
 self
 )
@@ -7362,7 +7362,7 @@ self
 "
 Test
 that
-DIST_FILES
+FINAL_TARGET_PP_FILES
 works
 properly
 .
@@ -7411,7 +7411,7 @@ objs
 [
 0
 ]
-DistFiles
+FinalTargetPreprocessedFiles
 )
         
 for
@@ -7481,7 +7481,7 @@ expected
 )
     
 def
-test_missing_dist_files
+test_missing_final_target_pp_files
 (
 self
 )
@@ -7492,7 +7492,7 @@ self
 "
 Test
 that
-DIST_FILES
+FINAL_TARGET_PP_FILES
 with
 missing
 files
@@ -7516,7 +7516,7 @@ in
 '
             
 '
-DIST_FILES
+FINAL_TARGET_PP_FILES
 does
 not
 exist

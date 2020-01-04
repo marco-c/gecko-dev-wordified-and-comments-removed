@@ -27,7 +27,7 @@ ContextDerived
     
 Defines
     
-DistFiles
+FinalTargetPreprocessedFiles
     
 FinalTargetFiles
     
@@ -992,7 +992,8 @@ isinstance
 obj
 (
 FinalTargetFiles
-DistFiles
+                              
+FinalTargetPreprocessedFiles
 )
 )
 and
@@ -1035,7 +1036,7 @@ if
 isinstance
 (
 obj
-DistFiles
+FinalTargetPreprocessedFiles
 )
 :
                         

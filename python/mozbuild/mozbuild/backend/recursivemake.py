@@ -104,8 +104,6 @@ ContextWrapped
     
 Defines
     
-DistFiles
-    
 DirectoryTraversal
     
 Exports
@@ -113,6 +111,8 @@ Exports
 ExternalLibrary
     
 FinalTargetFiles
+    
+FinalTargetPreprocessedFiles
     
 GeneratedFile
     
@@ -3709,13 +3709,13 @@ elif
 isinstance
 (
 obj
-DistFiles
+FinalTargetPreprocessedFiles
 )
 :
             
 self
 .
-_process_dist_files
+_process_final_target_pp_files
 (
 obj
 obj
@@ -3724,6 +3724,7 @@ files
 obj
 .
 target
+                                                
 backend_file
 )
         
@@ -10319,7 +10320,7 @@ dest
 )
     
 def
-_process_dist_files
+_process_final_target_pp_files
 (
 self
 obj

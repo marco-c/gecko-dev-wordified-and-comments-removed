@@ -6160,7 +6160,7 @@ expected_rules
 )
     
 def
-test_dist_files
+test_final_target_pp_files
 (
 self
 )
@@ -6171,7 +6171,7 @@ self
 "
 Test
 that
-DIST_FILES
+FINAL_TARGET_PP_FILES
 is
 written
 to

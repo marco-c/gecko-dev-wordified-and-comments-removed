@@ -210,7 +210,7 @@ XPI_NAME
 '
 reftest
 '
-DIST_FILES
+FINAL_TARGET_PP_FILES
 +
 =
 [
@@ -235,7 +235,7 @@ mobile
 android
 '
 :
-DIST_FILES
+FINAL_TARGET_PP_FILES
 +
 =
 [

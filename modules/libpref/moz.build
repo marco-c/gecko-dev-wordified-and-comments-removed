@@ -282,7 +282,7 @@ CXXFLAGS
 Wshadow
 '
 ]
-DIST_FILES
+FINAL_TARGET_PP_FILES
 +
 =
 [
