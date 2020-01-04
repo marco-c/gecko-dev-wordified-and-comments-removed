@@ -804,7 +804,7 @@ gEnvLdLibraryPath
 var
 DEBUG_AUS_TEST
 =
-false
+true
 ;
 var
 DEBUG_TEST_LOG
