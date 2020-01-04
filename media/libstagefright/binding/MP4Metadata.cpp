@@ -117,13 +117,6 @@ h
 #
 include
 "
-OpusDecoder
-.
-h
-"
-#
-include
-"
 VideoUtils
 .
 h
@@ -175,6 +168,13 @@ vector
 #
 ifdef
 MOZ_RUST_MP4PARSE
+#
+include
+"
+OpusDecoder
+.
+h
+"
 #
 include
 "
