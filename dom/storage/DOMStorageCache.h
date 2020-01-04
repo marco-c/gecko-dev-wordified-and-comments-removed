@@ -60,6 +60,15 @@ h
 #
 include
 "
+mozilla
+/
+Atomics
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
@@ -703,7 +712,11 @@ mozilla
 Monitor
 mMonitor
 ;
+Atomic
+<
 bool
+ReleaseAcquire
+>
 mLoaded
 ;
 nsresult
