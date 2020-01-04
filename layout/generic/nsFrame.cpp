@@ -11700,6 +11700,17 @@ outerReferenceFrame
 )
 )
 ;
+if
+(
+!
+aBuilder
+-
+>
+IsForGenerateGlyphPath
+(
+)
+)
+{
 nsDisplayTransform
 *
 transformItem
@@ -11724,6 +11735,7 @@ AppendNewToTop
 transformItem
 )
 ;
+}
 if
 (
 HasPerspective
