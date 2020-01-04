@@ -98,13 +98,6 @@ endif
 const
 void
 *
-addressOfJSContext
-(
-)
-;
-const
-void
-*
 addressOfActivation
 (
 )
@@ -132,6 +125,13 @@ const
 void
 *
 addressOfInterruptUint32
+(
+)
+;
+const
+void
+*
+getJSContext
 (
 )
 ;
