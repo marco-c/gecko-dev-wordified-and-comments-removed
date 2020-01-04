@@ -957,6 +957,11 @@ public
 TextureSourceD3D11
 (
 )
+:
+mFormatOverride
+(
+DXGI_FORMAT_UNKNOWN
+)
 {
 }
 virtual
@@ -1018,6 +1023,9 @@ RefPtr
 ID3D11ShaderResourceView
 >
 mSRV
+;
+DXGI_FORMAT
+mFormatOverride
 ;
 }
 ;
@@ -1720,6 +1728,10 @@ gfx
 IntPoint
 &
 aOrigin
+DXGI_FORMAT
+aFormatOverride
+=
+DXGI_FORMAT_UNKNOWN
 )
 ;
 virtual
