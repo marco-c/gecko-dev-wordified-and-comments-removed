@@ -1204,11 +1204,11 @@ this
 )
 )
 ;
+RefPtr
+<
 nsFtpControlConnection
-*
+>
 connection
-=
-nullptr
 ;
 if
 (
@@ -1235,8 +1235,10 @@ mChannel
 URI
 (
 )
-&
+getter_AddRefs
+(
 connection
+)
 )
 ;
 if

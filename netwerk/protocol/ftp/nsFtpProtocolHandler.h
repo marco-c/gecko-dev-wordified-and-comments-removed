@@ -139,8 +139,10 @@ nsITimer
 >
 timer
 ;
+RefPtr
+<
 nsFtpControlConnection
-*
+>
 conn
 ;
 char
@@ -151,10 +153,6 @@ timerStruct
 (
 )
 :
-conn
-(
-nullptr
-)
 key
 (
 nullptr
@@ -197,11 +195,6 @@ conn
 Disconnect
 (
 NS_ERROR_ABORT
-)
-;
-NS_RELEASE
-(
-conn
 )
 ;
 }
