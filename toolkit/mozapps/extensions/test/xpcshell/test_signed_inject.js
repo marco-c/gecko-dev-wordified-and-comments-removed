@@ -1833,14 +1833,14 @@ addon
 null
 )
 ;
-do_check_true
+do_check_false
 (
 addon
 .
 appDisabled
 )
 ;
-do_check_false
+do_check_true
 (
 addon
 .
@@ -1862,8 +1862,7 @@ do_check_eq
 getActiveVersion
 (
 )
--
-1
+2
 )
 ;
 addon
