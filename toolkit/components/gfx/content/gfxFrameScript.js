@@ -226,6 +226,13 @@ name
 )
 )
 {
+webProgress
+.
+removeProgressListener
+(
+this
+)
+;
 if
 (
 this
