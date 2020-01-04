@@ -120,6 +120,15 @@ import
     
 group_unified_files
 )
+from
+.
+.
+testing
+import
+(
+    
+all_test_flavors
+)
 class
 TreeMetadata
 (
@@ -3403,6 +3412,13 @@ __init__
 (
 self
 context
+)
+        
+assert
+flavor
+in
+all_test_flavors
+(
 )
         
 self
