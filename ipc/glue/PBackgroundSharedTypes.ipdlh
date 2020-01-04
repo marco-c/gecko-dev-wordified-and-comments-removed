@@ -89,6 +89,9 @@ isInBrowserElement
 nsCString
 spec
 ;
+nsCString
+signedPkg
+;
 }
 ;
 struct
