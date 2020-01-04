@@ -23107,6 +23107,10 @@ mAsyncScroll
 &
 !
 mAsyncSmoothMSDScroll
+&
+&
+!
+mApzSmoothScrollDestination
 )
 {
 mDestination
