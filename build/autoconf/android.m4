@@ -1286,7 +1286,7 @@ ANDROID_CPU_ARCH
 x86
 ;
 ;
-mips
+mips32
 -
 *
 )
@@ -1297,7 +1297,7 @@ is
 mipsel
 CPU_ARCH
 is
-mips
+mips32
 ANDROID_CPU_ARCH
 =
 mips
