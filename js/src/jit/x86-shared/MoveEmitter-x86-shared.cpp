@@ -1212,7 +1212,7 @@ masm
 ;
 masm
 .
-loadAlignedInt32x4
+loadAlignedSimd128Int
 (
 toAddress
 (
@@ -1223,7 +1223,7 @@ scratch
 ;
 masm
 .
-storeAlignedInt32x4
+storeAlignedSimd128Int
 (
 scratch
 cycleSlot
@@ -1236,7 +1236,7 @@ else
 {
 masm
 .
-storeAlignedInt32x4
+storeAlignedSimd128Int
 (
 to
 .
@@ -1274,7 +1274,7 @@ masm
 ;
 masm
 .
-loadAlignedFloat32x4
+loadAlignedSimd128Float
 (
 toAddress
 (
@@ -1285,7 +1285,7 @@ scratch
 ;
 masm
 .
-storeAlignedFloat32x4
+storeAlignedSimd128Float
 (
 scratch
 cycleSlot
@@ -1298,7 +1298,7 @@ else
 {
 masm
 .
-storeAlignedFloat32x4
+storeAlignedSimd128Float
 (
 to
 .
@@ -1593,7 +1593,7 @@ masm
 ;
 masm
 .
-loadAlignedInt32x4
+loadAlignedSimd128Int
 (
 cycleSlot
 (
@@ -1603,7 +1603,7 @@ scratch
 ;
 masm
 .
-storeAlignedInt32x4
+storeAlignedSimd128Int
 (
 scratch
 toAddress
@@ -1617,7 +1617,7 @@ else
 {
 masm
 .
-loadAlignedInt32x4
+loadAlignedSimd128Int
 (
 cycleSlot
 (
@@ -1674,7 +1674,7 @@ masm
 ;
 masm
 .
-loadAlignedFloat32x4
+loadAlignedSimd128Float
 (
 cycleSlot
 (
@@ -1684,7 +1684,7 @@ scratch
 ;
 masm
 .
-storeAlignedFloat32x4
+storeAlignedSimd128Float
 (
 scratch
 toAddress
@@ -1698,7 +1698,7 @@ else
 {
 masm
 .
-loadAlignedFloat32x4
+loadAlignedSimd128Float
 (
 cycleSlot
 (
@@ -2899,7 +2899,7 @@ isFloatReg
 )
 masm
 .
-moveInt32x4
+moveSimd128Int
 (
 from
 .
@@ -2916,7 +2916,7 @@ floatReg
 else
 masm
 .
-storeAlignedInt32x4
+storeAlignedSimd128Int
 (
 from
 .
@@ -2942,7 +2942,7 @@ isFloatReg
 {
 masm
 .
-loadAlignedInt32x4
+loadAlignedSimd128Int
 (
 toAddress
 (
@@ -2975,7 +2975,7 @@ masm
 ;
 masm
 .
-loadAlignedInt32x4
+loadAlignedSimd128Int
 (
 toAddress
 (
@@ -2986,7 +2986,7 @@ scratch
 ;
 masm
 .
-storeAlignedInt32x4
+storeAlignedSimd128Int
 (
 scratch
 toAddress
@@ -3068,7 +3068,7 @@ isFloatReg
 )
 masm
 .
-moveFloat32x4
+moveSimd128Float
 (
 from
 .
@@ -3085,7 +3085,7 @@ floatReg
 else
 masm
 .
-storeAlignedFloat32x4
+storeAlignedSimd128Float
 (
 from
 .
@@ -3111,7 +3111,7 @@ isFloatReg
 {
 masm
 .
-loadAlignedFloat32x4
+loadAlignedSimd128Float
 (
 toAddress
 (
@@ -3144,7 +3144,7 @@ masm
 ;
 masm
 .
-loadAlignedFloat32x4
+loadAlignedSimd128Float
 (
 toAddress
 (
@@ -3155,7 +3155,7 @@ scratch
 ;
 masm
 .
-storeAlignedFloat32x4
+storeAlignedSimd128Float
 (
 scratch
 toAddress

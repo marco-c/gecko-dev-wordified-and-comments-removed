@@ -924,7 +924,7 @@ Bool32x4
 :
 masm
 .
-loadUnalignedInt32x4
+loadUnalignedSimd128Int
 (
 src
 iter
@@ -945,7 +945,7 @@ Float32x4
 :
 masm
 .
-loadUnalignedFloat32x4
+loadUnalignedSimd128Float
 (
 src
 iter
@@ -1190,7 +1190,7 @@ Bool32x4
 :
 masm
 .
-loadUnalignedInt32x4
+loadUnalignedSimd128Int
 (
 src
 ScratchSimd128Reg
@@ -1198,7 +1198,7 @@ ScratchSimd128Reg
 ;
 masm
 .
-storeAlignedInt32x4
+storeAlignedSimd128Int
 (
 ScratchSimd128Reg
 Address
@@ -1227,7 +1227,7 @@ Float32x4
 :
 masm
 .
-loadUnalignedFloat32x4
+loadUnalignedSimd128Float
 (
 src
 ScratchSimd128Reg
@@ -1235,7 +1235,7 @@ ScratchSimd128Reg
 ;
 masm
 .
-storeAlignedFloat32x4
+storeAlignedSimd128Float
 (
 ScratchSimd128Reg
 Address
@@ -1465,7 +1465,7 @@ B32x4
 :
 masm
 .
-storeUnalignedInt32x4
+storeUnalignedSimd128Int
 (
 ReturnSimd128Reg
 Address
@@ -1485,7 +1485,7 @@ F32x4
 :
 masm
 .
-storeUnalignedFloat32x4
+storeUnalignedSimd128Float
 (
 ReturnSimd128Reg
 Address

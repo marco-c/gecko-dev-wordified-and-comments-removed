@@ -5284,7 +5284,7 @@ dest
 ;
 }
 void
-loadAlignedInt32x4
+loadAlignedSimd128Int
 (
 const
 Address
@@ -5305,7 +5305,7 @@ dest
 ;
 }
 void
-loadAlignedInt32x4
+loadAlignedSimd128Int
 (
 const
 Operand
@@ -5323,7 +5323,7 @@ dest
 ;
 }
 void
-storeAlignedInt32x4
+storeAlignedSimd128Int
 (
 FloatRegister
 src
@@ -5344,7 +5344,7 @@ dest
 ;
 }
 void
-moveInt32x4
+moveSimd128Int
 (
 FloatRegister
 src
@@ -5377,7 +5377,7 @@ HasAVX
 return
 src
 ;
-moveInt32x4
+moveSimd128Int
 (
 src
 dest
@@ -5430,7 +5430,7 @@ fpu
 )
 )
 ;
-loadAlignedInt32x4
+loadAlignedSimd128Int
 (
 src
 dest
@@ -5441,7 +5441,7 @@ dest
 ;
 }
 void
-loadUnalignedInt32x4
+loadUnalignedSimd128Int
 (
 const
 Address
@@ -5462,7 +5462,7 @@ dest
 ;
 }
 void
-loadUnalignedInt32x4
+loadUnalignedSimd128Int
 (
 const
 BaseIndex
@@ -5483,7 +5483,7 @@ dest
 ;
 }
 void
-loadUnalignedInt32x4
+loadUnalignedSimd128Int
 (
 const
 Operand
@@ -5711,7 +5711,7 @@ destZ
 ;
 }
 void
-storeUnalignedInt32x4
+storeUnalignedSimd128Int
 (
 FloatRegister
 src
@@ -5732,7 +5732,7 @@ dest
 ;
 }
 void
-storeUnalignedInt32x4
+storeUnalignedSimd128Int
 (
 FloatRegister
 src
@@ -5753,7 +5753,7 @@ dest
 ;
 }
 void
-storeUnalignedInt32x4
+storeUnalignedSimd128Int
 (
 FloatRegister
 src
@@ -6117,7 +6117,7 @@ dest
 ;
 }
 void
-loadAlignedFloat32x4
+loadAlignedSimd128Float
 (
 const
 Address
@@ -6138,7 +6138,7 @@ dest
 ;
 }
 void
-loadAlignedFloat32x4
+loadAlignedSimd128Float
 (
 const
 Operand
@@ -6270,7 +6270,7 @@ destZ
 ;
 }
 void
-storeAlignedFloat32x4
+storeAlignedSimd128Float
 (
 FloatRegister
 src
@@ -6291,7 +6291,7 @@ dest
 ;
 }
 void
-moveFloat32x4
+moveSimd128Float
 (
 FloatRegister
 src
@@ -6324,7 +6324,7 @@ HasAVX
 return
 src
 ;
-moveFloat32x4
+moveSimd128Float
 (
 src
 dest
@@ -6377,7 +6377,7 @@ fpu
 )
 )
 ;
-loadAlignedFloat32x4
+loadAlignedSimd128Float
 (
 src
 dest
@@ -6388,7 +6388,7 @@ dest
 ;
 }
 void
-loadUnalignedFloat32x4
+loadUnalignedSimd128Float
 (
 const
 Address
@@ -6409,7 +6409,7 @@ dest
 ;
 }
 void
-loadUnalignedFloat32x4
+loadUnalignedSimd128Float
 (
 const
 BaseIndex
@@ -6430,7 +6430,7 @@ dest
 ;
 }
 void
-loadUnalignedFloat32x4
+loadUnalignedSimd128Float
 (
 const
 Operand
@@ -6448,7 +6448,7 @@ dest
 ;
 }
 void
-storeUnalignedFloat32x4
+storeUnalignedSimd128Float
 (
 FloatRegister
 src
@@ -6469,7 +6469,7 @@ dest
 ;
 }
 void
-storeUnalignedFloat32x4
+storeUnalignedSimd128Float
 (
 FloatRegister
 src
@@ -6490,7 +6490,7 @@ dest
 ;
 }
 void
-storeUnalignedFloat32x4
+storeUnalignedSimd128Float
 (
 FloatRegister
 src
@@ -7867,7 +7867,7 @@ FloatRegister
 dest
 )
 {
-loadAlignedInt32x4
+loadAlignedSimd128Int
 (
 src
 dest
@@ -7895,7 +7895,7 @@ FloatRegister
 dest
 )
 {
-loadAlignedFloat32x4
+loadAlignedSimd128Float
 (
 src
 dest
@@ -7923,7 +7923,7 @@ Address
 dest
 )
 {
-storeAlignedInt32x4
+storeAlignedSimd128Int
 (
 src
 dest
@@ -7951,7 +7951,7 @@ Address
 dest
 )
 {
-storeAlignedFloat32x4
+storeAlignedSimd128Float
 (
 src
 dest

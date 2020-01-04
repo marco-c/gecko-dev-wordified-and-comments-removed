@@ -1420,7 +1420,7 @@ case
 :
 masm
 .
-storeUnalignedFloat32x4
+storeUnalignedSimd128Float
 (
 value
 dest
@@ -1501,7 +1501,7 @@ case
 :
 masm
 .
-storeUnalignedInt32x4
+storeUnalignedSimd128Int
 (
 value
 dest
@@ -1922,7 +1922,7 @@ break
 case
 4
 :
-loadUnalignedInt32x4
+loadUnalignedSimd128Int
 (
 src
 dest
@@ -2011,7 +2011,7 @@ break
 case
 4
 :
-loadUnalignedFloat32x4
+loadUnalignedSimd128Float
 (
 src
 dest

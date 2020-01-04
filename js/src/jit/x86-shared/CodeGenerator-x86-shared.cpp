@@ -1874,7 +1874,7 @@ Bool32x4
 :
 masm
 .
-storeAlignedInt32x4
+storeAlignedSimd128Int
 (
 ToFloatRegister
 (
@@ -1898,7 +1898,7 @@ Float32x4
 :
 masm
 .
-storeAlignedFloat32x4
+storeAlignedSimd128Float
 (
 ToFloatRegister
 (
@@ -14638,7 +14638,7 @@ int32_t
 }
 masm
 .
-loadAlignedInt32x4
+loadAlignedSimd128Int
 (
 Address
 (
@@ -15605,7 +15605,7 @@ Simd128DataSize
 ;
 masm
 .
-storeAlignedInt32x4
+storeAlignedSimd128Int
 (
 vector
 Address
@@ -15634,7 +15634,7 @@ int32_t
 ;
 masm
 .
-loadAlignedInt32x4
+loadAlignedSimd128Int
 (
 Address
 (
@@ -15798,7 +15798,7 @@ Simd128DataSize
 ;
 masm
 .
-storeAlignedFloat32x4
+storeAlignedSimd128Float
 (
 vector
 Address
@@ -15827,7 +15827,7 @@ int32_t
 ;
 masm
 .
-loadAlignedFloat32x4
+loadAlignedSimd128Float
 (
 Address
 (
@@ -17556,7 +17556,7 @@ rhsCopy
 ;
 masm
 .
-moveFloat32x4
+moveSimd128Float
 (
 rhsCopy
 out
@@ -17629,7 +17629,7 @@ else
 {
 masm
 .
-loadAlignedFloat32x4
+loadAlignedSimd128Float
 (
 rhs
 scratch
@@ -17646,7 +17646,7 @@ scratch
 ;
 masm
 .
-moveFloat32x4
+moveSimd128Float
 (
 scratch
 out
@@ -17713,7 +17713,7 @@ else
 {
 masm
 .
-loadAlignedFloat32x4
+loadAlignedSimd128Float
 (
 rhs
 scratch
@@ -17817,7 +17817,7 @@ else
 {
 masm
 .
-loadAlignedFloat32x4
+loadAlignedSimd128Float
 (
 rhs
 scratch
@@ -17834,7 +17834,7 @@ scratch
 ;
 masm
 .
-moveFloat32x4
+moveSimd128Float
 (
 scratch
 out
@@ -17925,7 +17925,7 @@ else
 {
 masm
 .
-loadAlignedFloat32x4
+loadAlignedSimd128Float
 (
 rhs
 scratch
@@ -17942,7 +17942,7 @@ scratch
 ;
 masm
 .
-moveFloat32x4
+moveSimd128Float
 (
 scratch
 out
@@ -18350,7 +18350,7 @@ FPREG
 )
 masm
 .
-moveInt32x4
+moveSimd128Int
 (
 ToFloatRegister
 (
@@ -18367,7 +18367,7 @@ scratch
 else
 masm
 .
-loadAlignedInt32x4
+loadAlignedSimd128Int
 (
 rhs
 scratch
@@ -18391,7 +18391,7 @@ scratch
 ;
 masm
 .
-moveInt32x4
+moveSimd128Int
 (
 scratch
 lhs
@@ -18456,7 +18456,7 @@ FPREG
 )
 masm
 .
-moveInt32x4
+moveSimd128Int
 (
 ToFloatRegister
 (
@@ -18473,7 +18473,7 @@ scratch
 else
 masm
 .
-loadAlignedInt32x4
+loadAlignedSimd128Int
 (
 rhs
 scratch
@@ -18871,7 +18871,7 @@ return
 }
 masm
 .
-loadAlignedInt32x4
+loadAlignedSimd128Int
 (
 rhs
 scratch
@@ -19475,7 +19475,7 @@ output
 )
 masm
 .
-moveFloat32x4
+moveSimd128Float
 (
 lhs
 output
@@ -19690,7 +19690,7 @@ output
 )
 masm
 .
-moveFloat32x4
+moveSimd128Float
 (
 lhs
 output

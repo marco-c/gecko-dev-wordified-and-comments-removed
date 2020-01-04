@@ -6389,7 +6389,7 @@ isSimd128
 )
 masm
 .
-storeUnalignedFloat32x4
+storeUnalignedSimd128Float
 (
 reg
 dump

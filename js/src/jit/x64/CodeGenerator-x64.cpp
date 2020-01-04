@@ -3595,7 +3595,7 @@ case
 :
 masm
 .
-loadUnalignedFloat32x4
+loadUnalignedSimd128Float
 (
 srcAddr
 out
@@ -3663,7 +3663,7 @@ case
 :
 masm
 .
-loadUnalignedInt32x4
+loadUnalignedSimd128Int
 (
 srcAddr
 out
@@ -4686,7 +4686,7 @@ case
 :
 masm
 .
-storeUnalignedFloat32x4
+storeUnalignedSimd128Float
 (
 in
 dstAddr
@@ -4754,7 +4754,7 @@ case
 :
 masm
 .
-storeUnalignedInt32x4
+storeUnalignedSimd128Int
 (
 in
 dstAddr
