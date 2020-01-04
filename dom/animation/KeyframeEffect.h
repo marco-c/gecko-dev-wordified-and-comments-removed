@@ -601,14 +601,6 @@ aOther
 mProperty
 &
 &
-mWinsInCascade
-=
-=
-aOther
-.
-mWinsInCascade
-&
-&
 mSegments
 =
 =
