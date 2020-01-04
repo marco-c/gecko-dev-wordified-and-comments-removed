@@ -210,6 +210,15 @@ pref_sync
 "
 android
 :
+icon
+=
+"
+drawable
+/
+sync_avatar_default
+"
+android
+:
 summary
 =
 "

@@ -209,6 +209,15 @@ pref_sync_summary
 "
 android
 :
+icon
+=
+"
+drawable
+/
+sync_avatar_default
+"
+android
+:
 persistent
 =
 "
