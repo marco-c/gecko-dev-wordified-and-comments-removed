@@ -4036,6 +4036,11 @@ ScrollViewChangeEvent
 webidl
 '
 '
+SelectionStateChangedEvent
+.
+webidl
+'
+'
 StyleRuleChangeEvent
 .
 webidl
