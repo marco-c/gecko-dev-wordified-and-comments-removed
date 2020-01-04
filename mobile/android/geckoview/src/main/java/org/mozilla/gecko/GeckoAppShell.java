@@ -9519,12 +9519,6 @@ state
 )
 ;
 public
-FormAssistPopup
-getFormAssistPopup
-(
-)
-;
-public
 boolean
 areTabsShown
 (

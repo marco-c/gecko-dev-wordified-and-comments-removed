@@ -318,17 +318,6 @@ state
 }
 Override
 public
-FormAssistPopup
-getFormAssistPopup
-(
-)
-{
-return
-null
-;
-}
-Override
-public
 boolean
 areTabsShown
 (
