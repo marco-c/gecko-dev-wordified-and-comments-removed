@@ -73,6 +73,9 @@ recording
 ;
 ok
 (
+!
+isVisible
+(
 (
 "
 #
@@ -81,8 +84,7 @@ time
 framerate
 "
 )
-.
-hidden
+)
 "
 fps
 graph
@@ -106,6 +108,9 @@ true
 ;
 ok
 (
+!
+isVisible
+(
 (
 "
 #
@@ -114,8 +119,7 @@ time
 framerate
 "
 )
-.
-hidden
+)
 "
 fps
 graph
@@ -146,7 +150,8 @@ panel
 ;
 ok
 (
-!
+isVisible
+(
 (
 "
 #
@@ -155,8 +160,7 @@ time
 framerate
 "
 )
-.
-hidden
+)
 "
 fps
 graph

@@ -547,6 +547,8 @@ rendered
 ;
 is
 (
+isVisible
+(
 (
 "
 #
@@ -555,9 +557,8 @@ overview
 pane
 "
 )
-.
-hidden
-false
+)
+true
 "
 overview
 graph
@@ -569,6 +570,8 @@ shown
 ;
 is
 (
+isVisible
+(
 (
 "
 #
@@ -577,9 +580,8 @@ memory
 overview
 "
 )
-.
-hidden
-true
+)
+false
 "
 memory
 graph
@@ -589,6 +591,8 @@ hidden
 ;
 is
 (
+isVisible
+(
 (
 "
 #
@@ -597,9 +601,8 @@ markers
 overview
 "
 )
-.
-hidden
-true
+)
+false
 "
 markers
 overview
@@ -609,6 +612,8 @@ hidden
 )
 ;
 is
+(
+isVisible
 (
 (
 "
@@ -618,9 +623,8 @@ time
 framerate
 "
 )
-.
-hidden
-false
+)
+true
 "
 fps
 graph

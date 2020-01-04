@@ -446,6 +446,8 @@ nodes
 ;
 is
 (
+isVisible
+(
 (
 "
 #
@@ -454,9 +456,8 @@ overview
 pane
 "
 )
-.
-hidden
-true
+)
+false
 "
 overview
 pane
