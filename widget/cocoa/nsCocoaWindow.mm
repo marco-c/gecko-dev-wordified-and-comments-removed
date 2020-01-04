@@ -12310,7 +12310,7 @@ return
 mMenuBar
 ;
 }
-NS_IMETHODIMP
+void
 nsCocoaWindow
 :
 :
@@ -12323,7 +12323,7 @@ bool
 aDoCapture
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
 gRollupListener
 =
@@ -12690,10 +12690,7 @@ NSModalPanelWindowLevel
 ]
 ;
 }
-return
-NS_OK
-;
-NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 NS_IMETHODIMP

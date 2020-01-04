@@ -2539,7 +2539,8 @@ xulWinType
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 CaptureRollupEvents
 (
 nsIRollupListener
