@@ -119,9 +119,19 @@ postflight_build_mach_commands
 '
 gradle
 '
+         
 '
-resolveDependencies
+assembleAutomationRelease
 '
+         
+'
+assembleAutomationDebug
+'
+         
+'
+assembleAutomationDebugAndroidTest
+'
+        
 ]
     
 ]
