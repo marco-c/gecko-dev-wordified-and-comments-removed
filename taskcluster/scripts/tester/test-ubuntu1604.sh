@@ -121,16 +121,8 @@ args
 set
 -
 v
-mkdir
--
-p
-{
-WORKSPACE
-}
 cd
-{
 WORKSPACE
-}
 fail
 (
 )
