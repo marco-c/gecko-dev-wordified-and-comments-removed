@@ -615,7 +615,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -642,10 +642,10 @@ Create
 aSize
 )
 aWhichFrame
-GraphicsFilter
+Filter
 :
 :
-FILTER_NEAREST
+POINT
 Nothing
 (
 )

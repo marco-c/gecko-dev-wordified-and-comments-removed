@@ -945,15 +945,12 @@ y
 Filter
 filter
 =
-ToFilter
-(
 nsLayoutUtils
 :
 :
 GetGraphicsFilterForFrame
 (
 frame
-)
 )
 ;
 FilterPrimitiveDescription

@@ -64,13 +64,6 @@ h
 #
 include
 "
-gfx2DGlue
-.
-h
-"
-#
-include
-"
 gfxCrashReporterUtils
 .
 h
@@ -571,7 +564,7 @@ CreateContext
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 GLContext
 >
@@ -874,7 +867,7 @@ nullptr
 ;
 #
 endif
-RefPtr
+nsRefPtr
 <
 GLContext
 >
@@ -7882,7 +7875,7 @@ FenceHandle
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 FenceHandle
 :

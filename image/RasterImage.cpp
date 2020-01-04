@@ -2350,7 +2350,7 @@ frameSurf
 Pair
 <
 DrawResult
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -2416,7 +2416,7 @@ return
 MakePair
 (
 drawResult
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -2460,7 +2460,7 @@ mSourceSurface
 =
 surface
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -2678,7 +2678,7 @@ OnUnlockedDraw
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -2753,7 +2753,7 @@ CreateImageContainer
 DrawResult
 drawResult
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -2823,7 +2823,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -2850,7 +2850,7 @@ return
 DrawResult
 drawResult
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -3043,7 +3043,7 @@ NS_OK
 }
 private
 :
-RefPtr
+nsRefPtr
 <
 RasterImage
 >
@@ -4944,7 +4944,7 @@ SurfaceFlags
 NO_PREMULTIPLY_ALPHA
 ;
 }
-RefPtr
+nsRefPtr
 <
 Decoder
 >
@@ -5176,7 +5176,7 @@ decodes
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 Decoder
 >
@@ -5788,10 +5788,10 @@ flags
 aFilter
 =
 =
-GraphicsFilter
+Filter
 :
 :
-FILTER_GOOD
+GOOD
 ?
 aFlags
 :
@@ -6252,7 +6252,7 @@ RasterImage
 aImage
 )
 {
-RefPtr
+nsRefPtr
 <
 HandleErrorWorker
 >
@@ -6403,7 +6403,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 RasterImage
 >
@@ -7221,10 +7221,10 @@ if
 aFilter
 =
 =
-GraphicsFilter
+Filter
 :
 :
-FILTER_GOOD
+GOOD
 &
 &
 CanDownscaleDuringDecode

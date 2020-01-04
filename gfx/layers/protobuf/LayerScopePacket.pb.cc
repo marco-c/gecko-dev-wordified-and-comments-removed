@@ -6958,14 +6958,14 @@ LayersPacket_Layer_Filter
 LayersPacket_Layer
 :
 :
-FILTER_BEST
+FILTER_LINEAR
 ;
 const
 LayersPacket_Layer_Filter
 LayersPacket_Layer
 :
 :
-FILTER_NEAREST
+FILTER_POINT
 ;
 const
 LayersPacket_Layer_Filter

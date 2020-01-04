@@ -525,10 +525,10 @@ Create
 size
 )
 surfaceFormat
-GraphicsFilter
+Filter
 :
 :
-FILTER_BEST
+LINEAR
 )
 ;
 return

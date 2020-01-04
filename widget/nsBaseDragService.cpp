@@ -1824,7 +1824,7 @@ if
 flo
 )
 {
-RefPtr
+nsRefPtr
 <
 nsFrameLoader
 >
@@ -2735,7 +2735,7 @@ dt
 return
 NS_ERROR_FAILURE
 ;
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -2773,10 +2773,10 @@ imgIContainer
 :
 :
 FRAME_CURRENT
-GraphicsFilter
+Filter
 :
 :
-FILTER_GOOD
+GOOD
 Nothing
 (
 )

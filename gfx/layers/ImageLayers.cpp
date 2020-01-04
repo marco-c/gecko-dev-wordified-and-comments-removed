@@ -66,10 +66,13 @@ aImplData
 )
 mFilter
 (
-GraphicsFilter
+gfx
 :
 :
-FILTER_GOOD
+Filter
+:
+:
+GOOD
 )
 mScaleMode
 (

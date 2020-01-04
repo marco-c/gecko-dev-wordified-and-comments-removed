@@ -160,12 +160,17 @@ using
 mozilla
 :
 :
-GraphicsFilterType
+gfx
+:
+:
+Filter
 from
 "
 mozilla
 /
-GfxMessageUtils
+gfx
+/
+2D
 .
 h
 "
@@ -1492,7 +1497,7 @@ bounds
 struct
 CanvasLayerAttributes
 {
-GraphicsFilterType
+Filter
 filter
 ;
 IntRect
@@ -1537,7 +1542,7 @@ eventRegionsOverride
 struct
 ImageLayerAttributes
 {
-GraphicsFilterType
+Filter
 filter
 ;
 IntSize

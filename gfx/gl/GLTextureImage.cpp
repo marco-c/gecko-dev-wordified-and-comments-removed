@@ -1198,10 +1198,10 @@ aContentType
 )
 mFilter
 (
-GraphicsFilter
+Filter
 :
 :
-FILTER_GOOD
+GOOD
 )
 mFlags
 (
@@ -3073,7 +3073,7 @@ continue
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 TextureImage
 >
@@ -3356,7 +3356,7 @@ LOCAL_GL_TEXTURE_WRAP_T
 aWrapMode
 )
 ;
-RefPtr
+nsRefPtr
 <
 BasicTextureImage
 >

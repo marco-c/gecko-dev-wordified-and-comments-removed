@@ -493,7 +493,7 @@ true
 }
 }
 const
-RefPtr
+nsRefPtr
 <
 SVGDocumentWrapper
 >
@@ -618,7 +618,7 @@ document
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 SVGParseCompleteListener
 >
@@ -834,7 +834,7 @@ events
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 SVGLoadEventListener
 >
@@ -1085,7 +1085,7 @@ aTransform
 ;
 private
 :
-RefPtr
+nsRefPtr
 <
 SVGDocumentWrapper
 >
@@ -2743,7 +2743,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -2770,10 +2770,10 @@ Create
 aSize
 )
 aWhichFrame
-GraphicsFilter
+Filter
 :
 :
-FILTER_NEAREST
+POINT
 Nothing
 (
 )
@@ -3271,7 +3271,7 @@ if
 surface
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxDrawable
 >
@@ -3352,7 +3352,7 @@ FlushImageTransformInvalidation
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxDrawingCallback
 >
@@ -3381,7 +3381,7 @@ aParams
 flags
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxDrawable
 >
@@ -3447,7 +3447,7 @@ this
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 imgFrame
 >
@@ -3472,10 +3472,10 @@ SurfaceFormat
 :
 :
 B8G8R8A8
-GraphicsFilter
+Filter
 :
 :
-FILTER_NEAREST
+POINT
 aParams
 .
 flags
@@ -3548,7 +3548,7 @@ animationTime
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfxDrawable
 >

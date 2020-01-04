@@ -6495,10 +6495,10 @@ IsCompositingCheap
 {
 filter
 =
-GraphicsFilter
+Filter
 :
 :
-FILTER_NEAREST
+POINT
 ;
 }
 #

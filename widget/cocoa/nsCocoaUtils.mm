@@ -316,6 +316,15 @@ mozilla
 gfx
 :
 :
+Filter
+;
+using
+mozilla
+:
+:
+gfx
+:
+:
 IntPoint
 ;
 using
@@ -3078,7 +3087,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-RefPtr
+nsRefPtr
 <
 gfxContext
 >
@@ -3125,10 +3134,10 @@ Create
 scaledSize
 )
 aWhichFrame
-GraphicsFilter
+Filter
 :
 :
-FILTER_NEAREST
+POINT
 Nothing
 (
 )

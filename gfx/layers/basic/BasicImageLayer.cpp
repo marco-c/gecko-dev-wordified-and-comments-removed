@@ -312,7 +312,7 @@ mContainer
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 ImageFactory
 >
@@ -455,10 +455,7 @@ size
 height
 )
 surface
-ToFilter
-(
 mFilter
-)
 DrawOptions
 (
 GetEffectiveOpacity
@@ -562,7 +559,7 @@ phase
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 ImageLayer
 >
