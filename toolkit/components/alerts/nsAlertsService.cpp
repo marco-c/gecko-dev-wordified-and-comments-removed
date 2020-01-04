@@ -326,6 +326,9 @@ nsIFaviconDataCallback
 )
 #
 endif
+#
+ifndef
+MOZ_WIDGET_ANDROID
 nsresult
 ShowWithIconBackend
 (
@@ -550,6 +553,8 @@ aAlertListener
 )
 ;
 }
+#
+endif
 }
 NS_IMPL_ISUPPORTS
 (
