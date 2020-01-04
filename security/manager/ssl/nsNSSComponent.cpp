@@ -4695,10 +4695,10 @@ nsAutoString
 privateSlotDescription
 ;
 nsAutoString
-fips140TokenDescription
+fips140SlotDescription
 ;
 nsAutoString
-fips140SlotDescription
+fips140TokenDescription
 ;
 nsresult
 rv
@@ -4828,9 +4828,9 @@ rv
 GetPIPNSSBundleString
 (
 "
-Fips140TokenDescription
+Fips140SlotDescription
 "
-fips140TokenDescription
+fips140SlotDescription
 )
 ;
 if
@@ -4848,9 +4848,9 @@ rv
 GetPIPNSSBundleString
 (
 "
-Fips140SlotDescription
+Fips140TokenDescription
 "
-fips140SlotDescription
+fips140TokenDescription
 )
 ;
 if
@@ -4915,7 +4915,7 @@ get
 )
 NS_ConvertUTF16toUTF8
 (
-fips140TokenDescription
+fips140SlotDescription
 )
 .
 get
@@ -4923,7 +4923,7 @@ get
 )
 NS_ConvertUTF16toUTF8
 (
-fips140SlotDescription
+fips140TokenDescription
 )
 .
 get
