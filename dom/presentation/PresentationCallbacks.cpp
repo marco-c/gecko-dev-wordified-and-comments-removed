@@ -372,7 +372,8 @@ if
 (
 (
 busyFlags
-&
+=
+=
 nsIDocShell
 :
 :
