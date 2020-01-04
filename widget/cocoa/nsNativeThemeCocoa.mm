@@ -22497,10 +22497,8 @@ return
 false
 ;
 }
-/
-/
-fall
-through
+MOZ_FALLTHROUGH
+;
 case
 NS_THEME_LISTBOX
 :

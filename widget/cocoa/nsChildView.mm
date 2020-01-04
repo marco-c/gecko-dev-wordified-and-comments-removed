@@ -8753,6 +8753,9 @@ OnSelectionChange
 aIMENotification
 )
 ;
+return
+NS_OK
+;
 default
 :
 return
@@ -9312,6 +9315,8 @@ instead
 .
 .
 .
+MOZ_FALLTHROUGH
+;
 default
 :
 mInputContext
