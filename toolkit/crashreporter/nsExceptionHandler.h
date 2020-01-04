@@ -231,6 +231,15 @@ data
 )
 ;
 void
+AnnotateMozCrashReason
+(
+const
+char
+*
+aReason
+)
+;
+void
 AnnotateOOMAllocationSize
 (
 size_t
