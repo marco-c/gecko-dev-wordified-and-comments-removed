@@ -137,6 +137,7 @@ void
 *
 *
 )
+override
 ;
 CLSID
 GetClassID
@@ -158,6 +159,7 @@ __RPC_FAR
 *
 ppdispParent
 )
+override
 ;
 virtual
 HRESULT
@@ -169,6 +171,7 @@ __RPC_FAR
 *
 pcountChildren
 )
+override
 ;
 virtual
 HRESULT
@@ -184,6 +187,7 @@ __RPC_FAR
 *
 ppdispChild
 )
+override
 ;
 virtual
 HRESULT
@@ -197,6 +201,7 @@ __RPC_FAR
 *
 pszName
 )
+override
 ;
 virtual
 HRESULT
@@ -210,6 +215,7 @@ __RPC_FAR
 *
 pszValue
 )
+override
 ;
 virtual
 HRESULT
@@ -223,6 +229,7 @@ __RPC_FAR
 *
 pszDescription
 )
+override
 ;
 virtual
 HRESULT
@@ -236,6 +243,7 @@ __RPC_FAR
 *
 pvarRole
 )
+override
 ;
 virtual
 HRESULT
@@ -249,6 +257,7 @@ __RPC_FAR
 *
 pvarState
 )
+override
 ;
 virtual
 HRESULT
@@ -262,6 +271,7 @@ __RPC_FAR
 *
 pszHelp
 )
+override
 ;
 virtual
 HRESULT
@@ -279,6 +289,7 @@ __RPC_FAR
 *
 pidTopic
 )
+override
 ;
 virtual
 HRESULT
@@ -292,6 +303,7 @@ __RPC_FAR
 *
 pszKeyboardShortcut
 )
+override
 ;
 virtual
 HRESULT
@@ -303,6 +315,7 @@ __RPC_FAR
 *
 pvarChild
 )
+override
 ;
 virtual
 HRESULT
@@ -314,6 +327,7 @@ __RPC_FAR
 *
 pvarChildren
 )
+override
 ;
 virtual
 HRESULT
@@ -327,6 +341,7 @@ __RPC_FAR
 *
 pszDefaultAction
 )
+override
 ;
 virtual
 HRESULT
@@ -338,6 +353,7 @@ flagsSelect
 VARIANT
 varChild
 )
+override
 ;
 virtual
 HRESULT
@@ -363,6 +379,7 @@ pcyHeight
 VARIANT
 varChild
 )
+override
 ;
 virtual
 HRESULT
@@ -378,6 +395,7 @@ __RPC_FAR
 *
 pvarEndUpAt
 )
+override
 ;
 virtual
 HRESULT
@@ -393,6 +411,7 @@ __RPC_FAR
 *
 pvarChild
 )
+override
 ;
 virtual
 HRESULT
@@ -402,6 +421,7 @@ accDoDefaultAction
 VARIANT
 varChild
 )
+override
 ;
 virtual
 HRESULT
@@ -413,6 +433,7 @@ varChild
 BSTR
 szName
 )
+override
 ;
 virtual
 HRESULT
@@ -424,6 +445,7 @@ varChild
 BSTR
 szValue
 )
+override
 ;
 virtual
 HRESULT
@@ -434,6 +456,7 @@ UINT
 *
 pctinfo
 )
+override
 ;
 virtual
 HRESULT
@@ -449,6 +472,7 @@ ITypeInfo
 *
 ppTInfo
 )
+override
 ;
 virtual
 HRESULT
@@ -468,6 +492,7 @@ DISPID
 *
 rgDispId
 )
+override
 ;
 virtual
 HRESULT
@@ -495,6 +520,7 @@ UINT
 *
 puArgErr
 )
+override
 ;
 virtual
 nsresult
@@ -504,6 +530,7 @@ AccEvent
 *
 aEvent
 )
+override
 ;
 virtual
 void
