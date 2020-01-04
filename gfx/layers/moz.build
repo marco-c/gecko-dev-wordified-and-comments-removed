@@ -1647,6 +1647,15 @@ apz
 /
 src
 /
+PotentialCheckerboardDurationTracker
+.
+cpp
+'
+'
+apz
+/
+src
+/
 TouchCounter
 .
 cpp

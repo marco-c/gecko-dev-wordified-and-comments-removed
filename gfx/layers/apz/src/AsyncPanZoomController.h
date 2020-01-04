@@ -170,6 +170,13 @@ h
 #
 include
 "
+PotentialCheckerboardDurationTracker
+.
+h
+"
+#
+include
+"
 base
 /
 message_loop
@@ -1788,6 +1795,9 @@ UniquePtr
 CheckerboardEvent
 >
 mCheckerboardEvent
+;
+PotentialCheckerboardDurationTracker
+mPotentialCheckerboardTracker
 ;
 }
 ;
