@@ -524,7 +524,7 @@ Cleanup
 (
 )
 ;
-nsresult
+void
 InitBufferedState
 (
 )
