@@ -1655,9 +1655,11 @@ if
 cx
 -
 >
-buildIdOp
+asmJSCacheOps
 (
 )
+.
+buildId
 )
 return
 false
@@ -1668,9 +1670,11 @@ if
 cx
 -
 >
-buildIdOp
+asmJSCacheOps
 (
 )
+.
+buildId
 (
 &
 buildId_

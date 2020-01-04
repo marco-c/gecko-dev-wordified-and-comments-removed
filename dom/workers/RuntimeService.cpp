@@ -3609,6 +3609,10 @@ asmjscache
 :
 :
 CloseEntryForWrite
+asmjscache
+:
+:
+GetBuildId
 }
 ;
 JS

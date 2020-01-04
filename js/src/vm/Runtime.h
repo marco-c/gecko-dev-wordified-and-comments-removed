@@ -4069,12 +4069,6 @@ errorReporter
 JS
 :
 :
-BuildIdOp
-buildIdOp
-;
-JS
-:
-:
 AsmJSCacheOps
 asmJSCacheOps
 ;
