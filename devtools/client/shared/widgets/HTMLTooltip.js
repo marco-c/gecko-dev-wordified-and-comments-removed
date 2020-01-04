@@ -1452,6 +1452,7 @@ this
 useXulWrapper
 )
 {
+yield
 this
 .
 _showXulWrapperAt
