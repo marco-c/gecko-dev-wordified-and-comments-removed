@@ -1004,6 +1004,16 @@ p
 aBuffer
 )
 ;
+mBlockEndOffset
+=
+mCurrentOffset
++
+(
+p
+-
+aBuffer
+)
+;
 }
 mState
 =
