@@ -135,6 +135,13 @@ nsIEditorObserver
 public
 :
 typedef
+ContentEventHandler
+:
+:
+NodePosition
+NodePosition
+;
+typedef
 widget
 :
 :
