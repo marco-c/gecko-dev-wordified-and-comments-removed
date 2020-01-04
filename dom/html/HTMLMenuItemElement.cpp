@@ -1566,7 +1566,7 @@ this
 return
 ;
 }
-nsAttrInfo
+BorrowedAttrInfo
 info1
 (
 GetAttrInfo
@@ -1654,7 +1654,7 @@ CMD_TYPE_RADIO
 continue
 ;
 }
-nsAttrInfo
+BorrowedAttrInfo
 info2
 (
 menuitem

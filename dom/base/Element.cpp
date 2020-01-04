@@ -9849,7 +9849,7 @@ aHasListeners
 aNotify
 )
 {
-nsAttrInfo
+BorrowedAttrInfo
 info
 (
 GetAttrInfo
@@ -11191,7 +11191,7 @@ GetOrCreateListenerManager
 )
 ;
 }
-nsAttrInfo
+BorrowedAttrInfo
 Element
 :
 :
@@ -11255,7 +11255,7 @@ index
 )
 {
 return
-nsAttrInfo
+BorrowedAttrInfo
 (
 nullptr
 nullptr
@@ -11271,7 +11271,7 @@ index
 )
 ;
 }
-nsAttrInfo
+BorrowedAttrInfo
 Element
 :
 :
@@ -11295,7 +11295,7 @@ AttrCount
 )
 {
 return
-nsAttrInfo
+BorrowedAttrInfo
 (
 nullptr
 nullptr

@@ -3419,7 +3419,7 @@ index
 )
 {
 const
-nsAttrInfo
+BorrowedAttrInfo
 info
 =
 aContent

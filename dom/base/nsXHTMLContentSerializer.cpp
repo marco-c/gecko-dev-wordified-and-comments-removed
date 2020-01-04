@@ -1301,7 +1301,7 @@ index
 continue
 ;
 }
-nsAttrInfo
+BorrowedAttrInfo
 info
 =
 aContent

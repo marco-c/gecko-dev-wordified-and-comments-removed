@@ -531,7 +531,13 @@ const
 override
 ;
 virtual
-nsAttrInfo
+mozilla
+:
+:
+dom
+:
+:
+BorrowedAttrInfo
 GetAttrInfoAt
 (
 uint32_t

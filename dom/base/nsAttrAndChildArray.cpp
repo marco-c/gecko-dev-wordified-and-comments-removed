@@ -2306,7 +2306,7 @@ mapped
 )
 ;
 }
-nsAttrInfo
+BorrowedAttrInfo
 nsAttrAndChildArray
 :
 :
@@ -2351,7 +2351,7 @@ nonmapped
 )
 {
 return
-nsAttrInfo
+BorrowedAttrInfo
 (
 &
 ATTRS
@@ -2377,7 +2377,7 @@ mValue
 ;
 }
 return
-nsAttrInfo
+BorrowedAttrInfo
 (
 mImpl
 -

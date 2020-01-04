@@ -1374,7 +1374,7 @@ const
 override
 ;
 virtual
-nsAttrInfo
+BorrowedAttrInfo
 GetAttrInfoAt
 (
 uint32_t
@@ -3359,7 +3359,7 @@ RecompileScriptEventListeners
 {
 }
 virtual
-nsAttrInfo
+BorrowedAttrInfo
 GetAttrInfo
 (
 int32_t

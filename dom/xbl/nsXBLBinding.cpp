@@ -1722,7 +1722,7 @@ mContent
 )
 ;
 }
-nsAttrInfo
+BorrowedAttrInfo
 attrInfo
 ;
 for

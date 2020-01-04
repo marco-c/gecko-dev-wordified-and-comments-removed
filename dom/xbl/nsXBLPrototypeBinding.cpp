@@ -4873,7 +4873,7 @@ attributes
 i
 )
 {
-nsAttrInfo
+BorrowedAttrInfo
 attrInfo
 =
 mBinding
@@ -6300,7 +6300,7 @@ i
 )
 {
 const
-nsAttrInfo
+BorrowedAttrInfo
 attrInfo
 =
 aNode

@@ -288,11 +288,6 @@ nsAttrAndChildArray
 h
 '
 '
-nsAttrInfo
-.
-h
-'
-'
 nsAttrName
 .
 h
@@ -793,6 +788,11 @@ BodyUtil
 h
 '
 '
+BorrowedAttrInfo
+.
+h
+'
+'
 ChildIterator
 .
 h
@@ -1079,6 +1079,11 @@ cpp
 '
 '
 BodyUtil
+.
+cpp
+'
+'
+BorrowedAttrInfo
 .
 cpp
 '

@@ -1253,7 +1253,7 @@ svgNode
 return
 nullptr
 ;
-nsAttrInfo
+BorrowedAttrInfo
 info
 ;
 uint32_t

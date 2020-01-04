@@ -16,7 +16,11 @@ h
 #
 include
 "
-nsAttrInfo
+mozilla
+/
+dom
+/
+BorrowedAttrInfo
 .
 h
 "
@@ -1076,7 +1080,13 @@ const
 0
 ;
 virtual
-nsAttrInfo
+mozilla
+:
+:
+dom
+:
+:
+BorrowedAttrInfo
 GetAttrInfoAt
 (
 uint32_t

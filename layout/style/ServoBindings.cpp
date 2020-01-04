@@ -877,7 +877,7 @@ value
 )
 ;
 }
-nsAttrInfo
+BorrowedAttrInfo
 attrInfo
 ;
 for
