@@ -343,14 +343,15 @@ mOriginMaxMS
 mIntervalRatio
 =
 (
+(
+double
+)
 gfxPrefs
 :
 :
 SmoothScrollDurationToIntervalRatio
 (
 )
-*
-100
 )
 /
 100
