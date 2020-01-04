@@ -745,6 +745,12 @@ nsIURI
 *
 *
 aURL
+const
+nsACString
+*
+aNewRef
+=
+nullptr
 )
 ;
 nsresult
