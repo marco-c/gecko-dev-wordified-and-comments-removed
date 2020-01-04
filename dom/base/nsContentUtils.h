@@ -1897,6 +1897,13 @@ char
 classification
 )
 ;
+enum
+MissingErrorLocationMode
+{
+eOMIT_LOCATION
+eUSE_CALLING_LOCATION
+}
+;
 static
 nsresult
 ReportToConsoleNonLocalized
@@ -1936,6 +1943,10 @@ uint32_t
 aColumnNumber
 =
 0
+MissingErrorLocationMode
+aLocationMode
+=
+eUSE_CALLING_LOCATION
 )
 ;
 enum

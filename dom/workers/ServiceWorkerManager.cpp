@@ -11512,6 +11512,10 @@ uri
 aLine
 aLineNumber
 aColumnNumber
+nsContentUtils
+:
+:
+eOMIT_LOCATION
 )
 ;
 }
@@ -11652,6 +11656,10 @@ uri
 aLine
 aLineNumber
 aColumnNumber
+nsContentUtils
+:
+:
+eOMIT_LOCATION
 )
 ;
 }
@@ -11944,6 +11952,10 @@ uri
 aLine
 aLineNumber
 aColumnNumber
+nsContentUtils
+:
+:
+eOMIT_LOCATION
 )
 ;
 return
