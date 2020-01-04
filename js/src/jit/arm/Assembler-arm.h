@@ -1393,7 +1393,6 @@ Register
 toRN
 (
 Instruction
-&
 i
 )
 ;
@@ -1401,7 +1400,6 @@ Register
 toRM
 (
 Instruction
-&
 i
 )
 ;
@@ -1409,7 +1407,6 @@ Register
 toRD
 (
 Instruction
-&
 i
 )
 ;
@@ -1417,7 +1414,6 @@ Register
 toR
 (
 Instruction
-&
 i
 )
 ;
@@ -8703,6 +8699,7 @@ data
 ;
 protected
 :
+explicit
 Instruction
 (
 uint32_t
@@ -8835,9 +8832,7 @@ Instruction
 operator
 =
 (
-const
 Instruction
-&
 src
 )
 {
