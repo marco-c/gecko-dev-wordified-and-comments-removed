@@ -47,6 +47,8 @@ util
 import
 (
     
+expand_variables
+    
 List
     
 memoize
@@ -1304,42 +1306,22 @@ in
 flags
 :
                         
-if
-f
-.
-startswith
-(
-'
-(
-'
-)
-and
-f
-.
-endswith
-(
-'
-)
-'
-)
-:
-                            
 f
 =
+expand_variables
+(
+f
 config
 .
 substs
-.
-get
-(
-f
-[
-2
-:
--
-1
-]
 )
+                        
+if
+not
+f
+:
+                            
+continue
                         
 if
 isinstance
@@ -1361,8 +1343,7 @@ append
 f
 )
                         
-elif
-f
+else
 :
                             
 context
