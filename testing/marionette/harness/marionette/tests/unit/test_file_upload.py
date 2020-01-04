@@ -207,7 +207,7 @@ files
 =
 self
 .
-get_files
+get_file_names
 (
 input
 )
@@ -225,7 +225,7 @@ files
         
 self
 .
-assertFilesEqual
+assertFileNamesEqual
 (
 files
 exp
@@ -309,7 +309,7 @@ files
 =
 self
 .
-get_files
+get_file_names
 (
 input
 )
@@ -327,7 +327,7 @@ files
         
 self
 .
-assertFilesEqual
+assertFileNamesEqual
 (
 files
 exp
@@ -396,7 +396,7 @@ files
 =
 self
 .
-get_files
+get_file_names
 (
 input
 )
@@ -414,7 +414,7 @@ files
         
 self
 .
-assertFilesEqual
+assertFileNamesEqual
 (
 files
 exp
@@ -852,7 +852,7 @@ body
 )
     
 def
-get_files
+get_file_names
 (
 self
 el
@@ -861,6 +861,36 @@ el
         
 fl
 =
+self
+.
+get_files
+(
+el
+)
+        
+return
+[
+f
+[
+"
+name
+"
+]
+for
+f
+in
+fl
+]
+    
+def
+get_files
+(
+self
+el
+)
+:
+        
+return
 self
 .
 marionette
@@ -883,40 +913,9 @@ script_args
 el
 ]
 )
-        
-return
-[
-f
-[
-"
-name
-"
-]
-for
-f
-in
-[
-v
-for
-k
-v
-in
-fl
-.
-iteritems
-(
-)
-if
-k
-.
-isdigit
-(
-)
-]
-]
     
 def
-assertFilesEqual
+assertFileNamesEqual
 (
 self
 act
