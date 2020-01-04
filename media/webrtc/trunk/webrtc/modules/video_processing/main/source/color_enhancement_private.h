@@ -19,6 +19,9 @@ webrtc
 namespace
 VideoProcessing
 {
+#
+if
+0
 static
 const
 uint8_t
@@ -66081,6 +66084,8 @@ colorTable
 }
 }
 ;
+#
+endif
 }
 }
 #

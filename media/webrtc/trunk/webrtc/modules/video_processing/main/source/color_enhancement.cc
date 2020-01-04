@@ -55,6 +55,17 @@ frame
 {
 assert
 (
+false
+)
+;
+return
+VPM_GENERAL_ERROR
+;
+#
+if
+0
+assert
+(
 frame
 )
 ;
@@ -222,6 +233,8 @@ ptr_v
 return
 VPM_OK
 ;
+#
+endif
 }
 }
 }
