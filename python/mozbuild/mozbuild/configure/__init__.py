@@ -3529,6 +3529,14 @@ value
 '
         
 if
+self
+.
+_help
+:
+            
+return
+        
+if
 not
 reason
 and
