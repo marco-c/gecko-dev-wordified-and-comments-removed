@@ -1004,6 +1004,11 @@ AtomicIsLockFree
 \
 _
 (
+GuardSharedTypedArray
+)
+\
+_
+(
 CompareExchangeTypedArrayElement
 )
 \

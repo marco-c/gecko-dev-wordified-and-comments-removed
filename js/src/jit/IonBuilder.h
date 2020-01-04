@@ -1732,6 +1732,15 @@ bailoutKind
 ;
 MInstruction
 *
+addSharedTypedArrayGuard
+(
+MDefinition
+*
+obj
+)
+;
+MInstruction
+*
 addGuardReceiverPolymorphic
 (
 MDefinition
@@ -4960,6 +4969,9 @@ Scalar
 Type
 *
 arrayElementType
+bool
+*
+requiresDynamicCheck
 AtomicCheckResult
 checkResult
 =

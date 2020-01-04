@@ -12622,7 +12622,7 @@ unboxInt32
 Address
 (
 obj
-TypedArrayLayout
+TypedArrayObject
 :
 :
 lengthOffset

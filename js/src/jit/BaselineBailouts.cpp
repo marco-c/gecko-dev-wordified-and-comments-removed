@@ -9027,6 +9027,9 @@ case
 Bailout_NonSimdFloat32x4Input
 :
 case
+Bailout_NonSharedTypedArrayInput
+:
+case
 Bailout_InitialState
 :
 case

@@ -123,6 +123,7 @@ Bailout_NonStringInput
 Bailout_NonSymbolInput
 Bailout_NonSimdInt32x4Input
 Bailout_NonSimdFloat32x4Input
+Bailout_NonSharedTypedArrayInput
 Bailout_InitialState
 Bailout_Debugger
 Bailout_UninitializedThis
@@ -336,6 +337,14 @@ Bailout_NonSimdFloat32x4Input
 return
 "
 Bailout_NonSimdFloat32x4Input
+"
+;
+case
+Bailout_NonSharedTypedArrayInput
+:
+return
+"
+Bailout_NonSharedTypedArrayInput
 "
 ;
 case
