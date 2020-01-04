@@ -1320,10 +1320,6 @@ MediaDataDecoderCallback
 aCallback
 )
 :
-mTaskQueue
-(
-aTaskQueue
-)
 mManager
 (
 aManager
@@ -1437,13 +1433,6 @@ Flush
 (
 )
 {
-mTaskQueue
--
->
-Flush
-(
-)
-;
 return
 mManager
 -
