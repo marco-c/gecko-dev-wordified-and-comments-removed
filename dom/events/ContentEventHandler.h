@@ -850,6 +850,12 @@ uint32_t
 aNewOffset
 =
 nullptr
+nsIContent
+*
+*
+aLastTextNode
+=
+nullptr
 )
 ;
 nsresult
