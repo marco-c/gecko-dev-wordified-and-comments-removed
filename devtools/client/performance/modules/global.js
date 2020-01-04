@@ -260,11 +260,6 @@ flame
 "
 ]
 }
-{
-monitorChanges
-:
-true
-}
 )
 ;
 const
