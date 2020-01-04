@@ -175,6 +175,11 @@ CreateElementTransaction
 cpp
 '
 '
+CSSEditUtils
+.
+cpp
+'
+'
 DeleteNodeTransaction
 .
 cpp
@@ -256,11 +261,6 @@ cpp
 '
 '
 nsHTMLAnonymousUtils
-.
-cpp
-'
-'
-nsHTMLCSSUtils
 .
 cpp
 '

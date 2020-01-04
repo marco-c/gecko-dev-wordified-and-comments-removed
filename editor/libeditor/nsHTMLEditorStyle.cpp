@@ -146,13 +146,6 @@ h
 #
 include
 "
-nsHTMLCSSUtils
-.
-h
-"
-#
-include
-"
 nsHTMLEditor
 .
 h
@@ -1381,7 +1374,7 @@ true
 if
 (
 !
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 IsCSSEditableProperty
@@ -1463,7 +1456,7 @@ newSpan
 false
 )
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSEquivalentToHTMLStyle
@@ -1476,7 +1469,7 @@ true
 )
 ;
 return
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 ElementsSameStyle
@@ -1553,7 +1546,7 @@ NS_OK
 }
 if
 (
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 IsCSSEditableProperty
@@ -1568,7 +1561,7 @@ aAttribute
 {
 if
 (
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 IsCSSEquivalentToHTMLInlineStyleSet
@@ -1579,7 +1572,7 @@ aText
 aProperty
 aAttribute
 aValue
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eComputed
@@ -2054,7 +2047,7 @@ NS_OK
 }
 if
 (
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 IsCSSEditableProperty
@@ -2069,7 +2062,7 @@ aAttribute
 {
 if
 (
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 IsCSSEquivalentToHTMLInlineStyleSet
@@ -2080,7 +2073,7 @@ aNode
 aProperty
 aAttribute
 aValue
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eComputed
@@ -2120,7 +2113,7 @@ IsCSSEnabled
 )
 &
 &
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 IsCSSEditableProperty
@@ -2218,7 +2211,7 @@ count
 ;
 res
 =
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSEquivalentToHTMLStyle
@@ -2835,7 +2828,7 @@ if
 useCSS
 &
 &
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 IsCSSEditableProperty
@@ -2849,7 +2842,7 @@ aAttribute
 nsAutoString
 firstValue
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 IsCSSEquivalentToHTMLInlineStyleSet
@@ -2862,7 +2855,7 @@ aProperty
 aAttribute
 isSet
 firstValue
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eSpecified
@@ -3861,7 +3854,7 @@ if
 aChildrenOnly
 &
 &
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 IsCSSEditableProperty
@@ -3879,7 +3872,7 @@ propertyValue
 bool
 isSet
 =
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 IsCSSEquivalentToHTMLInlineStyleSet
@@ -3889,7 +3882,7 @@ aNode
 aProperty
 aAttribute
 propertyValue
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eSpecified
@@ -3907,7 +3900,7 @@ IsElement
 )
 )
 {
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 RemoveCSSEquivalentToHTMLStyle
@@ -4986,7 +4979,7 @@ NS_OK
 }
 if
 (
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 IsCSSEditableProperty
@@ -5021,7 +5014,7 @@ aAny
 *
 aAll
 =
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 IsCSSEquivalentToHTMLInlineStyleSet
@@ -5031,7 +5024,7 @@ collapsedNode
 aProperty
 aAttribute
 tOutString
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eComputed
@@ -5387,7 +5380,7 @@ first
 {
 if
 (
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 IsCSSEditableProperty
@@ -5415,7 +5408,7 @@ aValue
 }
 isSet
 =
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 IsCSSEquivalentToHTMLInlineStyleSet
@@ -5425,7 +5418,7 @@ content
 aProperty
 aAttribute
 firstValue
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eComputed
@@ -5473,7 +5466,7 @@ else
 {
 if
 (
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 IsCSSEditableProperty
@@ -5501,7 +5494,7 @@ aValue
 }
 isSet
 =
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 IsCSSEquivalentToHTMLInlineStyleSet
@@ -5511,7 +5504,7 @@ content
 aProperty
 aAttribute
 theValue
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eComputed
@@ -6208,7 +6201,7 @@ IsCSSEnabled
 )
 &
 &
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 IsCSSEditableProperty
@@ -6221,7 +6214,7 @@ aAttribute
 {
 if
 (
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 IsCSSEquivalentToHTMLInlineStyleSet
@@ -6232,7 +6225,7 @@ aAttribute
 EmptyString
 (
 )
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eComputed
@@ -6241,7 +6234,7 @@ eComputed
 {
 if
 (
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 IsCSSInvertible
@@ -6426,7 +6419,7 @@ IsCSSEnabled
 )
 &
 &
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 IsCSSEditableProperty
@@ -6437,7 +6430,7 @@ aAttribute
 )
 &
 &
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 IsCSSEquivalentToHTMLInlineStyleSet
@@ -6448,14 +6441,14 @@ aAttribute
 EmptyString
 (
 )
-nsHTMLCSSUtils
+CSSEditUtils
 :
 :
 eComputed
 )
 &
 &
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 IsCSSInvertible

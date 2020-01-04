@@ -1196,10 +1196,10 @@ false
 )
 ;
 }
-mHTMLCSSUtils
+mCSSEditUtils
 =
 new
-nsHTMLCSSUtils
+CSSEditUtils
 (
 this
 )
@@ -7644,7 +7644,7 @@ NS_OK
 ;
 do
 {
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 GetComputedProperty
@@ -7696,7 +7696,7 @@ transparent
 )
 )
 {
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 GetDefaultBackgroundColor
@@ -7750,7 +7750,7 @@ break
 }
 else
 {
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 GetComputedProperty
@@ -19082,7 +19082,7 @@ IsCSSEnabled
 )
 &
 &
-mHTMLCSSUtils
+mCSSEditUtils
 )
 {
 int32_t
@@ -19090,7 +19090,7 @@ count
 ;
 res
 =
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSEquivalentToHTMLStyle
@@ -19384,12 +19384,12 @@ IsCSSEnabled
 )
 &
 &
-mHTMLCSSUtils
+mCSSEditUtils
 )
 {
 res
 =
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 RemoveCSSEquivalentToHTMLStyle
@@ -19468,14 +19468,14 @@ aIsCSSPrefChecked
 if
 (
 !
-mHTMLCSSUtils
+mCSSEditUtils
 )
 {
 return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSEnabled
@@ -19791,7 +19791,7 @@ cachedBlockParent
 =
 blockParent
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSEquivalentToHTMLStyle
@@ -19831,7 +19831,7 @@ body
 isCollapsed
 )
 {
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSEquivalentToHTMLStyle
@@ -19921,7 +19921,7 @@ cachedBlockParent
 =
 blockParent
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSEquivalentToHTMLStyle
@@ -20078,7 +20078,7 @@ cachedBlockParent
 =
 blockParent
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSEquivalentToHTMLStyle
@@ -20129,7 +20129,7 @@ cachedBlockParent
 =
 blockParent
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSEquivalentToHTMLStyle
@@ -20191,7 +20191,7 @@ cachedBlockParent
 =
 blockParent
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSEquivalentToHTMLStyle
@@ -20366,7 +20366,7 @@ true
 ;
 }
 return
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 ElementsSameStyle

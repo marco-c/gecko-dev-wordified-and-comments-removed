@@ -132,13 +132,6 @@ h
 #
 include
 "
-nsHTMLCSSUtils
-.
-h
-"
-#
-include
-"
 nsHTMLEditRules
 .
 h
@@ -512,7 +505,7 @@ html
 nsresult
 res
 =
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 GetComputedProperty
@@ -769,7 +762,7 @@ AppendInt
 aZindex
 )
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSProperty
@@ -964,7 +957,7 @@ aZindex
 nsresult
 res
 =
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 GetSpecifiedProperty
@@ -1066,7 +1059,7 @@ body
 {
 res
 =
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 GetComputedProperty
@@ -1101,7 +1094,7 @@ absolute
 {
 res
 =
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 GetComputedProperty
@@ -1643,7 +1636,7 @@ _class
 true
 )
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSPropertyPixels
@@ -1658,7 +1651,7 @@ width
 mPositionedObjectWidth
 )
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSPropertyPixels
@@ -2121,7 +2114,7 @@ NS_ENSURE_STATE
 absolutelyPositionedObject
 )
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSPropertyPixels
@@ -2136,7 +2129,7 @@ top
 newY
 )
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSPropertyPixels
@@ -2240,7 +2233,7 @@ element
 nsAutoString
 positionStr
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 GetComputedProperty
@@ -2301,7 +2294,7 @@ x
 y
 )
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSProperty
@@ -2415,7 +2408,7 @@ res
 }
 else
 {
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 RemoveCSSProperty
@@ -2432,7 +2425,7 @@ EmptyString
 )
 )
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 RemoveCSSProperty
@@ -2449,7 +2442,7 @@ EmptyString
 )
 )
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 RemoveCSSProperty
@@ -2466,7 +2459,7 @@ EmptyString
 )
 )
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 RemoveCSSProperty
@@ -2495,7 +2488,7 @@ aElement
 )
 )
 {
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 RemoveCSSProperty
@@ -2512,7 +2505,7 @@ EmptyString
 )
 )
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 RemoveCSSProperty
@@ -2772,7 +2765,7 @@ batchIt
 this
 )
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSPropertyPixels
@@ -2786,7 +2779,7 @@ left
 aX
 )
 ;
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 SetCSSPropertyPixels
@@ -2888,7 +2881,7 @@ bgImageStr
 nsresult
 res
 =
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 GetComputedProperty
@@ -2926,7 +2919,7 @@ bgColorStr
 ;
 res
 =
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 GetComputedProperty
@@ -2965,7 +2958,7 @@ nsComputedDOMStyle
 >
 cssDecl
 =
-mHTMLCSSUtils
+mCSSEditUtils
 -
 >
 GetComputedStyle
