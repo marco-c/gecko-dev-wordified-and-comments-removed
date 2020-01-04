@@ -9078,7 +9078,7 @@ alloc
 NativeObject
 :
 :
-NELEMENTS_LIMIT
+MAX_DENSE_ELEMENTS_COUNT
 )
 )
 ;
