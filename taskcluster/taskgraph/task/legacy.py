@@ -715,7 +715,7 @@ build_slugid
     
 if
 '
-treeherder
+extra
 '
 not
 in
@@ -723,11 +723,6 @@ task
 [
 '
 task
-'
-]
-[
-'
-extra
 '
 ]
 :
@@ -743,15 +738,28 @@ task
 extra
 '
 ]
-[
-'
-treeherder
-'
-]
 =
 {
 }
     
+if
+'
+treeherder
+'
+in
+task
+[
+'
+task
+'
+]
+[
+'
+extra
+'
+]
+:
+        
 treeherder_config
 =
 task
@@ -770,7 +778,7 @@ extra
 treeherder
 '
 ]
-    
+        
 treeherder_config
 [
 '
@@ -779,7 +787,7 @@ collection
 ]
 =
 \
-        
+            
 build_treeherder_config
 .
 get
@@ -790,7 +798,7 @@ collection
 {
 }
 )
-    
+        
 treeherder_config
 [
 '
@@ -799,7 +807,7 @@ build
 ]
 =
 \
-        
+            
 build_treeherder_config
 .
 get
@@ -810,7 +818,7 @@ build
 {
 }
 )
-    
+        
 if
 '
 machine
@@ -819,7 +827,7 @@ not
 in
 treeherder_config
 :
-        
+            
 treeherder_config
 [
 '
@@ -828,7 +836,7 @@ machine
 ]
 =
 \
-            
+                
 build_treeherder_config
 .
 get
