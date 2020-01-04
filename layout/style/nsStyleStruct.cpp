@@ -4337,7 +4337,10 @@ mStrokeOpacity
 )
 mClipRule
 (
-NS_STYLE_FILL_RULE_NONZERO
+StyleFillRule
+:
+:
+NonZero
 )
 mColorInterpolation
 (
@@ -4349,7 +4352,10 @@ NS_STYLE_COLOR_INTERPOLATION_LINEARRGB
 )
 mFillRule
 (
-NS_STYLE_FILL_RULE_NONZERO
+StyleFillRule
+:
+:
+NonZero
 )
 mPaintOrder
 (

@@ -445,6 +445,7 @@ eUnit_CurrentColor
 eUnit_Calc
 eUnit_ObjectPosition
 eUnit_URL
+eUnit_DiscreteCSSValue
 eUnit_CSSValuePair
 eUnit_CSSValueTriplet
 eUnit_CSSRect
@@ -1566,6 +1567,12 @@ aUnit
 =
 =
 eUnit_URL
+|
+|
+aUnit
+=
+=
+eUnit_DiscreteCSSValue
 ;
 }
 static

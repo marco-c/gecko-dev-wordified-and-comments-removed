@@ -3433,6 +3433,16 @@ bool
 aComputeData
 )
 ;
+void
+GetDiscretelyAnimatedCSSValue
+(
+nsCSSProperty
+aProperty
+nsCSSValue
+*
+aValue
+)
+;
 #
 define
 STYLE_STRUCT_INHERITED
