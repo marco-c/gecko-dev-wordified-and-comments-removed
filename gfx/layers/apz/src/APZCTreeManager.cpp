@@ -4706,6 +4706,9 @@ deltaX
 aEvent
 .
 deltaY
+aEvent
+.
+mAllowToOverrideSystemScrollSpeed
 )
 ;
 EventStateManager

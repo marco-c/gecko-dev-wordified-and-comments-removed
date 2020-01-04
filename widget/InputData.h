@@ -1165,6 +1165,8 @@ double
 aDeltaX
 double
 aDeltaY
+bool
+aAllowToOverrideSystemScrollSpeed
 )
 :
 InputData
@@ -1229,6 +1231,10 @@ false
 mIsMomentum
 (
 false
+)
+mAllowToOverrideSystemScrollSpeed
+(
+aAllowToOverrideSystemScrollSpeed
 )
 {
 }
@@ -1306,6 +1312,9 @@ mMayHaveMomentum
 ;
 bool
 mIsMomentum
+;
+bool
+mAllowToOverrideSystemScrollSpeed
 ;
 }
 ;

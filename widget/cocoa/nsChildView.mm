@@ -28596,6 +28596,7 @@ x
 preciseDelta
 .
 y
+false
 )
 ;
 wheelEvent
@@ -28685,6 +28686,7 @@ SCROLLDELTA_LINE
 position
 lineOrPageDeltaX
 lineOrPageDeltaY
+false
 )
 ;
 wheelEvent
