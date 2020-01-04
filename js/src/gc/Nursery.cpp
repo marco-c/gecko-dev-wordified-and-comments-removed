@@ -1945,8 +1945,9 @@ ObjectGroupList
 pretenureGroups
 )
 {
-if
+MOZ_ASSERT
 (
+!
 rt
 -
 >
@@ -1954,7 +1955,6 @@ mainThread
 .
 suppressGC
 )
-return
 ;
 JS_AbortIfWrongThread
 (
