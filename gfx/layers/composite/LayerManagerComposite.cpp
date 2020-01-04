@@ -4269,6 +4269,11 @@ mCompositor
 GetWidget
 (
 )
+-
+>
+RealWidget
+(
+)
 mGeometryChanged
 mCompositor
 -
@@ -4819,6 +4824,11 @@ mCompositor
 GetWidget
 (
 )
+-
+>
+RealWidget
+(
+)
 )
 ;
 }
@@ -4836,6 +4846,11 @@ mCompositor
 -
 >
 GetWidget
+(
+)
+-
+>
+RealWidget
 (
 )
 )
@@ -7760,6 +7775,11 @@ mCompositor
 -
 >
 GetWidget
+(
+)
+-
+>
+RealWidget
 (
 )
 -
