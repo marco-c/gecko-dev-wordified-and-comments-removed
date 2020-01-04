@@ -2548,6 +2548,10 @@ mValid
 mActor
 )
 {
+FinalizeOnIPDLThread
+(
+)
+;
 if
 (
 sync
