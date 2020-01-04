@@ -16,6 +16,17 @@ RootingAPI
 .
 h
 "
+#
+include
+"
+jsapi
+-
+tests
+/
+tests
+.
+h
+"
 struct
 MyHeap
 :
@@ -116,6 +127,9 @@ x
 )
 )
 ;
+JS
+:
+:
 Rooted
 <
 MyHeap
@@ -177,6 +191,9 @@ get
 .
 weak
 ;
+JS
+:
+:
 RootedValue
 v
 (
@@ -253,6 +270,9 @@ weak
 ;
 v
 =
+JS
+:
+:
 UndefinedValue
 (
 )

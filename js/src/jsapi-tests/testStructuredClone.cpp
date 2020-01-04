@@ -1,6 +1,15 @@
 #
 include
 "
+builtin
+/
+TestingFunctions
+.
+h
+"
+#
+include
+"
 js
 /
 StructuredClone
@@ -18,6 +27,10 @@ tests
 .
 h
 "
+using
+namespace
+js
+;
 BEGIN_TEST
 (
 testStructuredClone_object
