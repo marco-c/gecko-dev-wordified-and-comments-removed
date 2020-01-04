@@ -1516,6 +1516,13 @@ setLazyProto
 true
 )
 ;
+options
+.
+setSingleton
+(
+true
+)
+;
 RootedObject
 object
 (
