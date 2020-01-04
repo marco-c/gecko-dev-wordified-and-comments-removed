@@ -5233,7 +5233,7 @@ NS_STYLE_DISPLAY_POPUP
 parent
 -
 >
-RelayoutChildAtOrdinal
+XULRelayoutChildAtOrdinal
 (
 this
 )
@@ -8483,7 +8483,7 @@ nsresult
 nsBoxFrame
 :
 :
-RelayoutChildAtOrdinal
+XULRelayoutChildAtOrdinal
 (
 nsIFrame
 *

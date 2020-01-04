@@ -179,7 +179,7 @@ hAlign_Left
 }
 virtual
 nsresult
-RelayoutChildAtOrdinal
+XULRelayoutChildAtOrdinal
 (
 nsIFrame
 *

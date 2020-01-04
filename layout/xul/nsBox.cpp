@@ -802,7 +802,7 @@ nsresult
 nsBox
 :
 :
-RelayoutChildAtOrdinal
+XULRelayoutChildAtOrdinal
 (
 nsIFrame
 *
