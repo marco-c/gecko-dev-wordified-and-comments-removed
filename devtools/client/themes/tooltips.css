@@ -849,12 +849,6 @@ overflow
 :
 hidden
 ;
-pointer
--
-events
-:
-all
-;
 flex
 -
 shrink
@@ -1020,6 +1014,12 @@ border
 radius
 :
 3px
+;
+pointer
+-
+events
+:
+all
 ;
 }
 .
