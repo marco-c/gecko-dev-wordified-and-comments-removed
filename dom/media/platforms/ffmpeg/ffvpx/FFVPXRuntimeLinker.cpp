@@ -153,6 +153,10 @@ NS_IsMainThread
 )
 )
 ;
+sLinkStatus
+=
+LinkStatus_FAILED
+;
 char
 *
 path
@@ -373,10 +377,6 @@ return
 true
 ;
 }
-sLinkStatus
-=
-LinkStatus_FAILED
-;
 return
 false
 ;
