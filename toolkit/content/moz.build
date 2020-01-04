@@ -109,7 +109,7 @@ in
 target
 '
 '
-ac_configure_args
+MOZ_CONFIGURE_OPTIONS
 '
 '
 CC
