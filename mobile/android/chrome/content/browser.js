@@ -5485,7 +5485,7 @@ contextmenu
 "
 null
 "
-web_open_private_tab
+web_open_new_tab
 "
 )
 ;
