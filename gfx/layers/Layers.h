@@ -6061,10 +6061,10 @@ surface
 )
 ;
 return
-RenderTargetPixel
+RenderTargetIntRect
 :
 :
-FromUntyped
+FromUnknownRect
 (
 mVisibleRegion
 .

@@ -21562,7 +21562,7 @@ refPoint
 LayoutDeviceIntPoint
 :
 :
-FromUntyped
+FromUnknownPoint
 (
 touchPoint
 )
@@ -25090,7 +25090,7 @@ dwID
 ScreenIntPoint
 :
 :
-FromUntyped
+FromUnknownPoint
 (
 touchPoint
 )

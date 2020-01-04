@@ -370,7 +370,7 @@ return
 LayerIntPoint
 :
 :
-FromUntyped
+FromUnknownPoint
 (
 mOffset
 )

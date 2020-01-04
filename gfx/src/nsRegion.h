@@ -4033,7 +4033,7 @@ aRegion
 }
 static
 IntRegionTyped
-FromUntyped
+FromUnknownRegion
 (
 const
 IntRegionTyped

@@ -1187,7 +1187,7 @@ mScreenPoint
 ScreenIntPoint
 :
 :
-FromUntyped
+FromUnknownPoint
 (
 aPointerScreenPoint
 )
@@ -1238,7 +1238,7 @@ aPointerId
 ScreenIntPoint
 :
 :
-FromUntyped
+FromUnknownPoint
 (
 aPointerScreenPoint
 )
@@ -1349,7 +1349,7 @@ aPointerId
 ScreenIntPoint
 :
 :
-FromUntyped
+FromUnknownPoint
 (
 aPointerScreenPoint
 )

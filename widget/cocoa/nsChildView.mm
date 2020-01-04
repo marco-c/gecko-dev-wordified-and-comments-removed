@@ -8311,7 +8311,7 @@ return
 LayoutDeviceIntPoint
 :
 :
-FromUntyped
+FromUnknownPoint
 (
 CocoaPointsToDevPixels
 (
@@ -26331,7 +26331,7 @@ refPoint
 LayoutDeviceIntPoint
 :
 :
-FromUntyped
+FromUnknownPoint
 (
 mGeckoChild
 -
@@ -28077,7 +28077,7 @@ position
 ScreenPoint
 :
 :
-FromUntyped
+FromUnknownPoint
 (
 [
 self
@@ -28558,10 +28558,10 @@ loc
 ScreenIntPoint
 location
 =
-ScreenPixel
+ScreenIntPoint
 :
 :
-FromUntyped
+FromUnknownPoint
 (
 [
 self
@@ -28704,10 +28704,10 @@ pixelDeltaY
 ScreenIntPoint
 locationMoved
 =
-ScreenPixel
+ScreenIntPoint
 :
 :
-FromUntyped
+FromUnknownPoint
 (
 [
 self
@@ -29671,7 +29671,7 @@ refPoint
 LayoutDeviceIntPoint
 :
 :
-FromUntyped
+FromUnknownPoint
 (
 [
 self
@@ -32556,7 +32556,7 @@ refPoint
 LayoutDeviceIntPoint
 :
 :
-FromUntyped
+FromUnknownPoint
 (
 [
 self

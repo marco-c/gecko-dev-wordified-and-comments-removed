@@ -4059,10 +4059,10 @@ RenderLayers
 (
 aContainer
 aManager
-RenderTargetPixel
+RenderTargetIntRect
 :
 :
-FromUntyped
+FromUnknownRect
 (
 aClipRect
 )
@@ -4377,10 +4377,10 @@ RenderLayers
 (
 aContainer
 aManager
-RenderTargetPixel
+RenderTargetIntRect
 :
 :
-FromUntyped
+FromUnknownRect
 (
 aClipRect
 )

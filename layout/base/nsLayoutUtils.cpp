@@ -39524,7 +39524,7 @@ aOutSize
 LayoutDeviceIntRect
 :
 :
-FromUntyped
+FromUnknownRect
 (
 bounds
 )
