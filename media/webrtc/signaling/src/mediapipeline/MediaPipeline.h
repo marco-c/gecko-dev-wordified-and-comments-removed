@@ -105,6 +105,10 @@ rtp_header_parser
 .
 h
 "
+#
+define
+WEBRTC_DEFAULT_SAMPLE_RATE
+32000
 class
 nsIPrincipal
 ;
@@ -1361,8 +1365,6 @@ nsAutoPtr
 MediaPipelineFilter
 >
 filter
-bool
-queue_track
 )
 ;
 void
@@ -1477,8 +1479,6 @@ nsAutoPtr
 MediaPipelineFilter
 >
 filter
-bool
-queue_track
 )
 ;
 void

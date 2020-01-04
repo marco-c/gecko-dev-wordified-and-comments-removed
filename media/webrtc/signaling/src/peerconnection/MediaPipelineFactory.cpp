@@ -2942,16 +2942,6 @@ numericTrackId
 )
 )
 ;
-bool
-queue_track
-=
-stream
--
->
-ShouldQueueTracks
-(
-)
-;
 MOZ_MTLOG
 (
 ML_DEBUG
@@ -3062,7 +3052,6 @@ get
 aRtpFlow
 aRtcpFlow
 aFilter
-queue_track
 )
 ;
 }
@@ -3147,7 +3136,6 @@ get
 aRtpFlow
 aRtcpFlow
 aFilter
-queue_track
 )
 ;
 }
