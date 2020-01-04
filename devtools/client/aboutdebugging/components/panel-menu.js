@@ -83,7 +83,6 @@ map
 (
 {
 id
-panelId
 name
 icon
 }
@@ -104,7 +103,6 @@ PanelMenuEntry
 (
 {
 id
-panelId
 name
 icon
 selected

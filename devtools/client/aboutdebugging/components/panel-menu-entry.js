@@ -100,9 +100,9 @@ render
 {
 let
 {
-panelId
-icon
+id
 name
+icon
 selected
 }
 =
@@ -147,7 +147,12 @@ aria
 controls
 "
 :
-panelId
+id
++
+"
+-
+panel
+"
 className
 onClick
 :
