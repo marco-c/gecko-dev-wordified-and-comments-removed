@@ -3315,6 +3315,17 @@ completeInitialization
 index
 )
 ;
+if
+(
+!
+this
+.
+decl
+)
+{
+return
+;
+}
 let
 copyOffset
 =

@@ -13,8 +13,12 @@ style
 "
 color
 :
-#
-123ABC
+rgb
+(
+18
+58
+188
+)
 ;
 margin
 :
