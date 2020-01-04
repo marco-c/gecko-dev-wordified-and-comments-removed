@@ -3579,6 +3579,8 @@ aError
 void
 CloseOuter
 (
+bool
+aTrustedCaller
 )
 ;
 void
