@@ -946,10 +946,10 @@ dimen
 name
 =
 "
-page_row_padding_right
+page_row_edge_padding
 "
 >
-15dp
+16dp
 <
 /
 dimen
