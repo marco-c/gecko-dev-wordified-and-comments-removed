@@ -475,6 +475,13 @@ h
 #
 include
 "
+LayerAnimationInfo
+.
+h
+"
+#
+include
+"
 AudioChannelService
 .
 h
@@ -1643,7 +1650,7 @@ Initialize
 mozilla
 :
 :
-CommonAnimationManager
+LayerAnimationInfo
 :
 :
 Initialize

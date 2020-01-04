@@ -520,6 +520,11 @@ IncrementalClearCOMRuleArray
 h
 '
 '
+LayerAnimationInfo
+.
+h
+'
+'
 RuleNodeCacheConditions
 .
 h
@@ -719,6 +724,11 @@ cpp
 '
 '
 IncrementalClearCOMRuleArray
+.
+cpp
+'
+'
+LayerAnimationInfo
 .
 cpp
 '
