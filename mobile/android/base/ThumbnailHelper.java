@@ -128,7 +128,7 @@ TOP_SITES_THUMBNAIL_ASPECT_RATIO
 .
 571428571f
 ;
-private
+public
 static
 final
 float
