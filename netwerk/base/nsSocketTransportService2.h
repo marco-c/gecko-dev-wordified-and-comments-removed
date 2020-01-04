@@ -136,6 +136,9 @@ nsASocketHandler
 struct
 PRPollDesc
 ;
+class
+nsIPrefBranch
+;
 extern
 mozilla
 :
@@ -631,6 +634,13 @@ mPendingSocketQ
 nsresult
 UpdatePrefs
 (
+)
+;
+void
+UpdateSendBufferPref
+(
+nsIPrefBranch
+*
 )
 ;
 int32_t
