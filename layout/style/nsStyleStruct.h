@@ -2755,10 +2755,9 @@ mMaskModeCount
 mBlendModeCount
 mCompositeCount
 ;
-AutoTArray
+nsStyleAutoArray
 <
 Layer
-1
 >
 mLayers
 ;
