@@ -260,6 +260,9 @@ INADEQUATE_SECURITY
 HTTP_1_1_REQUIRED
 =
 13
+UNASSIGNED
+=
+31
 }
 ;
 const
@@ -1242,6 +1245,9 @@ mTLSProfileConfirmed
 ;
 errorType
 mGoAwayReason
+;
+int32_t
+mPeerGoAwayReason
 ;
 uint32_t
 mGoAwayID
