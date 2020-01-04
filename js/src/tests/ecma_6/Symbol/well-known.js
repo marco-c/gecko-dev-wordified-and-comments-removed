@@ -9,9 +9,6 @@ iterator
 match
 "
 "
-search
-"
-"
 species
 "
 "
