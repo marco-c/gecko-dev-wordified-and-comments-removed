@@ -763,7 +763,7 @@ block
 )
 )
 ;
-ProcessInputBlocks
+ProcessQueue
 (
 )
 ;
@@ -1018,7 +1018,7 @@ block
 )
 )
 ;
-ProcessInputBlocks
+ProcessQueue
 (
 )
 ;
@@ -1255,7 +1255,7 @@ block
 )
 )
 ;
-ProcessInputBlocks
+ProcessQueue
 (
 )
 ;
@@ -1618,7 +1618,7 @@ block
 )
 )
 ;
-ProcessInputBlocks
+ProcessQueue
 (
 )
 ;
@@ -2102,7 +2102,7 @@ WheelBlockState
 InputQueue
 :
 :
-GetCurrentWheelTransaction
+GetActiveWheelTransaction
 (
 )
 const
@@ -2670,7 +2670,7 @@ if
 success
 )
 {
-ProcessInputBlocks
+ProcessQueue
 (
 )
 ;
@@ -2758,7 +2758,7 @@ if
 success
 )
 {
-ProcessInputBlocks
+ProcessQueue
 (
 )
 ;
@@ -2888,7 +2888,7 @@ if
 success
 )
 {
-ProcessInputBlocks
+ProcessQueue
 (
 )
 ;
@@ -3043,7 +3043,7 @@ if
 success
 )
 {
-ProcessInputBlocks
+ProcessQueue
 (
 )
 ;
@@ -3169,7 +3169,7 @@ if
 success
 )
 {
-ProcessInputBlocks
+ProcessQueue
 (
 )
 ;
@@ -3179,7 +3179,7 @@ void
 InputQueue
 :
 :
-ProcessInputBlocks
+ProcessQueue
 (
 )
 {

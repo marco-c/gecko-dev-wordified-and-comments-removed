@@ -245,7 +245,7 @@ const
 ;
 WheelBlockState
 *
-GetCurrentWheelTransaction
+GetActiveWheelTransaction
 (
 )
 const
@@ -438,7 +438,7 @@ aInputBlockId
 )
 ;
 void
-ProcessInputBlocks
+ProcessQueue
 (
 )
 ;
