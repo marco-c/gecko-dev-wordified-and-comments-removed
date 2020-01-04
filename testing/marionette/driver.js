@@ -12801,6 +12801,7 @@ this
 appName
 !
 =
+=
 "
 Firefox
 "
@@ -12810,6 +12811,12 @@ throw
 new
 UnsupportedOperationError
 (
+"
+Not
+supported
+on
+mobile
+"
 )
 ;
 }
@@ -12920,6 +12927,12 @@ throw
 new
 UnsupportedOperationError
 (
+"
+Not
+supported
+for
+mobile
+"
 )
 ;
 }
