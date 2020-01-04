@@ -866,8 +866,6 @@ DiscardStreamData
 bool
 HaveEnoughDecodedAudio
 (
-int64_t
-aAmpleAudioUSecs
 )
 ;
 bool
