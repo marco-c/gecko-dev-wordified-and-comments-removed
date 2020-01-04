@@ -683,6 +683,7 @@ toBe
 (
 "
 Console
+was
 cleared
 .
 "
