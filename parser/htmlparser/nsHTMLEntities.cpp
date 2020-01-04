@@ -518,8 +518,10 @@ gTableRefCnt
 =
 0
 )
+{
 return
 ;
+}
 delete
 gEntityToUnicode
 ;
@@ -564,10 +566,12 @@ if
 !
 gEntityToUnicode
 )
+{
 return
 -
 1
 ;
+}
 if
 (
 '
