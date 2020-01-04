@@ -11861,6 +11861,13 @@ nullptr
 #
 endif
 }
+mWorkerPrivate
+-
+>
+ClearDebuggerEventQueue
+(
+)
+;
 JS_DestroyContext
 (
 cx

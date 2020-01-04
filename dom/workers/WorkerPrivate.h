@@ -3701,6 +3701,11 @@ aRanOrNot
 )
 ;
 void
+ClearDebuggerEventQueue
+(
+)
+;
+void
 OnProcessNextEvent
 (
 )
