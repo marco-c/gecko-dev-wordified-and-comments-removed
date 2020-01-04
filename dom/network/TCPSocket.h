@@ -356,6 +356,11 @@ Close
 (
 )
 ;
+void
+CloseImmediately
+(
+)
+;
 bool
 Send
 (
@@ -678,6 +683,13 @@ JS
 Value
 >
 aData
+)
+;
+void
+CloseHelper
+(
+bool
+waitForUnsentData
 )
 ;
 TCPReadyState
