@@ -211,13 +211,6 @@ clear
 )
 ;
 void
-chooseSamplingProbability
-(
-JSCompartment
-*
-)
-;
-void
 setRNGState
 (
 uint64_t
@@ -235,6 +228,13 @@ state1
 )
 ;
 }
+void
+chooseSamplingProbability
+(
+JSCompartment
+*
+)
+;
 size_t
 sizeOfExcludingThis
 (
