@@ -2075,13 +2075,10 @@ record
 -
 >
 serialNumber
-NS_INT32_TO_PTR
-(
 aHashEntry
 -
 >
 key
-)
 record
 -
 >
@@ -2116,13 +2113,10 @@ record
 -
 >
 serialNumber
-NS_INT32_TO_PTR
-(
 aHashEntry
 -
 >
 key
-)
 record
 -
 >
