@@ -1491,9 +1491,12 @@ CheckSTSThread
 (
 )
 {
+DebugOnly
+<
 nsCOMPtr
 <
 nsIEventTarget
+>
 >
 sts_thread
 =
@@ -1504,6 +1507,8 @@ GetSTSThread
 ASSERT_ON_THREAD
 (
 sts_thread
+.
+value
 )
 ;
 }

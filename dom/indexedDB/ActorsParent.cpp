@@ -97614,9 +97614,10 @@ MOZ_ASSERT
 mMaybeUniqueIndexTable
 )
 ;
-nsCOMPtr
+DebugOnly
 <
-mozIStorageConnection
+void
+*
 >
 storageConnection
 =

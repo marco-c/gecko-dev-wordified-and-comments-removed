@@ -7601,6 +7601,14 @@ rv
 rv
 )
 ;
+mozilla
+:
+:
+Unused
+<
+<
+httpChannel
+;
 nsCOMPtr
 <
 nsIUploadChannel2

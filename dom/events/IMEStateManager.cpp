@@ -1458,9 +1458,10 @@ content
 )
 )
 ;
-nsCOMPtr
+DebugOnly
 <
-nsIWidget
+void
+*
 >
 widget
 =

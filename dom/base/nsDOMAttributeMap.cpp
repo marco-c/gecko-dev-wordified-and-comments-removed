@@ -1146,9 +1146,10 @@ OwnerDoc
 )
 )
 {
-nsCOMPtr
+DebugOnly
 <
-nsINode
+void
+*
 >
 adoptedNode
 =

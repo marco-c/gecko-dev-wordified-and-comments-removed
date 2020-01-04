@@ -11094,6 +11094,9 @@ if
 existingEditor
 )
 {
+#
+ifdef
+DEBUG
 nsCOMPtr
 <
 nsIHTMLEditor
@@ -11123,6 +11126,8 @@ editor
 "
 )
 ;
+#
+endif
 uint32_t
 flags
 =
