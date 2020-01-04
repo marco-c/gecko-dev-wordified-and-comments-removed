@@ -1278,6 +1278,10 @@ aForceSync
 if
 (
 mActor
+&
+&
+!
+mIsLocked
 )
 {
 mActor
@@ -1288,6 +1292,10 @@ Lock
 )
 ;
 }
+mBorrowedDrawTarget
+=
+nullptr
+;
 mReadLock
 =
 nullptr
@@ -1939,6 +1947,11 @@ mUpdated
 true
 ;
 }
+if
+(
+mData
+)
+{
 mData
 -
 >
@@ -1946,6 +1959,7 @@ Unlock
 (
 )
 ;
+}
 mIsLocked
 =
 false
