@@ -93,7 +93,7 @@ release
 "
         
 "
-revision
+branch
 "
 :
 "
