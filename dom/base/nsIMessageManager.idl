@@ -2284,6 +2284,12 @@ optional
 in
 nsIPrincipal
 principal
+[
+optional
+]
+in
+jsval
+transfers
 )
 ;
 }

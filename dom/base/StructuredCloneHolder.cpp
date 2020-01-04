@@ -4680,17 +4680,6 @@ aTag
 SCTAG_DOM_MAP_MESSAGEPORT
 )
 {
-nsCOMPtr
-<
-nsPIDOMWindowInner
->
-window
-=
-do_QueryInterface
-(
-mParent
-)
-;
 MOZ_ASSERT
 (
 aExtraData
@@ -4726,7 +4715,7 @@ MessagePort
 :
 Create
 (
-window
+mParent
 portIdentifier
 rv
 )
