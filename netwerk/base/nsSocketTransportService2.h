@@ -633,7 +633,17 @@ bool
 >
 mServingPendingQueue
 ;
+mozilla
+:
+:
+Atomic
+<
 int32_t
+mozilla
+:
+:
+Relaxed
+>
 mMaxTimePerPollIter
 ;
 mozilla
