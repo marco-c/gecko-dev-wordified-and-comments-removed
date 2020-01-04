@@ -315,14 +315,10 @@ mozilla
 org
 /
 presentation
--
-device
 /
-tcp
+control
 -
-presentation
--
-server
+service
 ;
 1
 "
@@ -332,7 +328,7 @@ createInstance
 (
 Ci
 .
-nsITCPPresentationServer
+nsIPresentationControlService
 )
 ;
 tps
@@ -345,7 +341,7 @@ controllerID
 ;
 tps
 .
-startService
+startServer
 (
 PRESENTER_CONTROL_CHANNEL_PORT
 )
@@ -851,7 +847,7 @@ generateQI
 [
 Ci
 .
-nsITCPPresentationServerListener
+nsIPresentationControlServerListener
 ]
 )
 }
@@ -1306,7 +1302,7 @@ try
 {
 tps
 .
-startService
+startServer
 (
 PRESENTER_CONTROL_CHANNEL_PORT
 )

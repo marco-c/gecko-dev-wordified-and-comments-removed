@@ -2469,7 +2469,7 @@ BINPATH
 /
 components
 /
-TCPPresentationServer
+PresentationControlService
 .
 js
 BINPATH

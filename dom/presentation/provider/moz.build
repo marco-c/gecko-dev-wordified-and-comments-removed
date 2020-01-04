@@ -103,7 +103,7 @@ BuiltinProviders
 manifest
 '
 '
-TCPPresentationServer
+PresentationControlService
 .
 js
 '

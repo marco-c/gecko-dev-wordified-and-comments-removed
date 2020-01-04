@@ -103,6 +103,11 @@ nsIPresentationControlChannel
 idl
 '
 '
+nsIPresentationControlService
+.
+idl
+'
+'
 nsIPresentationDevice
 .
 idl
@@ -154,11 +159,6 @@ idl
 '
 '
 nsIPresentationSessionTransportBuilder
-.
-idl
-'
-'
-nsITCPPresentationServer
 .
 idl
 '

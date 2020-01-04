@@ -331,7 +331,7 @@ nsIDNSRegistrationListener
 public
 nsIDNSServiceResolveListener
 public
-nsITCPPresentationServerListener
+nsIPresentationControlServerListener
 {
 public
 :
@@ -348,7 +348,7 @@ NS_FORWARD_SAFE_NSIDNSSERVICERESOLVELISTENER
 (
 mListener
 )
-NS_FORWARD_SAFE_NSITCPPRESENTATIONSERVERLISTENER
+NS_FORWARD_SAFE_NSIPRESENTATIONCONTROLSERVERLISTENER
 (
 mListener
 )
@@ -399,7 +399,7 @@ DNSServiceWrappedListener
 nsIDNSServiceDiscoveryListener
 nsIDNSRegistrationListener
 nsIDNSServiceResolveListener
-nsITCPPresentationServerListener
+nsIPresentationControlServerListener
 )
 NS_IMPL_ISUPPORTS
 (
@@ -408,7 +408,7 @@ nsIPresentationDeviceProvider
 nsIDNSServiceDiscoveryListener
 nsIDNSRegistrationListener
 nsIDNSServiceResolveListener
-nsITCPPresentationServerListener
+nsIPresentationControlServerListener
 nsIObserver
 )
 MulticastDNSDeviceProvider
@@ -505,11 +505,11 @@ return
 rv
 ;
 }
-mPresentationServer
+mPresentationService
 =
 do_CreateInstance
 (
-TCP_PRESENTATION_SERVER_CONTACT_ID
+PRESENTATION_CONTROL_SERVICE_CONTACT_ID
 &
 rv
 )
@@ -637,7 +637,7 @@ endif
 Unused
 <
 <
-mPresentationServer
+mPresentationService
 -
 >
 SetId
@@ -834,7 +834,7 @@ NS_FAILED
 (
 rv
 =
-mPresentationServer
+mPresentationService
 -
 >
 GetPort
@@ -864,7 +864,7 @@ NS_FAILED
 (
 rv
 =
-mPresentationServer
+mPresentationService
 -
 >
 SetListener
@@ -887,10 +887,10 @@ NS_FAILED
 (
 rv
 =
-mPresentationServer
+mPresentationService
 -
 >
-StartService
+StartServer
 (
 0
 )
@@ -910,7 +910,7 @@ NS_FAILED
 (
 rv
 =
-mPresentationServer
+mPresentationService
 -
 >
 GetPort
@@ -1097,10 +1097,10 @@ nullptr
 }
 if
 (
-mPresentationServer
+mPresentationService
 )
 {
-mPresentationServer
+mPresentationService
 -
 >
 SetListener
@@ -1108,7 +1108,7 @@ SetListener
 nullptr
 )
 ;
-mPresentationServer
+mPresentationService
 -
 >
 Close
@@ -1217,7 +1217,7 @@ aDevice
 ;
 MOZ_ASSERT
 (
-mPresentationServer
+mPresentationService
 )
 ;
 RefPtr
@@ -1250,7 +1250,7 @@ Port
 )
 ;
 return
-mPresentationServer
+mPresentationService
 -
 >
 RequestSession
@@ -1298,7 +1298,7 @@ NS_IsMainThread
 ;
 MOZ_ASSERT
 (
-mPresentationServer
+mPresentationService
 )
 ;
 RefPtr
@@ -1403,7 +1403,7 @@ NS_IsMainThread
 ;
 MOZ_ASSERT
 (
-mPresentationServer
+mPresentationService
 )
 ;
 if
@@ -1517,7 +1517,7 @@ NS_IsMainThread
 ;
 MOZ_ASSERT
 (
-mPresentationServer
+mPresentationService
 )
 ;
 if
@@ -3032,7 +3032,7 @@ NS_FAILED
 (
 rv
 =
-mPresentationServer
+mPresentationService
 -
 >
 SetId

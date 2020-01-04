@@ -10,7 +10,7 @@ a112
 -
 5b415a931deb
 }
-TCPPresentationServer
+PresentationControlService
 .
 js
 contract
@@ -19,14 +19,10 @@ mozilla
 org
 /
 presentation
--
-device
 /
-tcp
+control
 -
-presentation
--
-server
+service
 ;
 1
 {
