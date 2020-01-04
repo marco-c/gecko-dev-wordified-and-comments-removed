@@ -4589,6 +4589,16 @@ platform
 '
 win32
 '
+and
+os
+.
+sep
+=
+=
+'
+\
+\
+'
 :
         
 paths
