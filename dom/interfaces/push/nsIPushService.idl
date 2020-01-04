@@ -566,6 +566,11 @@ attribute
 DOMString
 subscriptionChangeTopic
 ;
+readonly
+attribute
+DOMString
+subscriptionLostTopic
+;
 /
 *
 *

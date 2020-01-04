@@ -146,6 +146,17 @@ subscription
 change
 "
 ;
+const
+OBSERVER_TOPIC_SUBSCRIPTION_LOST
+=
+"
+push
+-
+subscription
+-
+lost
+"
+;
 function
 PushServiceBase
 (
@@ -232,6 +243,9 @@ OBSERVER_TOPIC_PUSH
 subscriptionChangeTopic
 :
 OBSERVER_TOPIC_SUBSCRIPTION_CHANGE
+subscriptionLostTopic
+:
+OBSERVER_TOPIC_SUBSCRIPTION_LOST
 _handleReady
 (
 )
