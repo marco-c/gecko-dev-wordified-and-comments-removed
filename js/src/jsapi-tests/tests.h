@@ -2350,7 +2350,10 @@ dummy
 ;
 JS_SetGCZeal
 (
+JS_GetRuntime
+(
 cx_
+)
 0
 0
 )
@@ -2425,7 +2428,10 @@ i
 )
 JS_SetGCZeal
 (
+JS_GetRuntime
+(
 cx_
+)
 i
 frequency_
 )

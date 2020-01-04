@@ -20966,9 +20966,9 @@ void
 )
 JS_SetGCZeal
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 uint8_t
 zeal
 uint32_t
