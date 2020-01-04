@@ -714,6 +714,11 @@ z
 "
 GNU_AS
 "
+-
+a
+"
+COMPILE_ENVIRONMENT
+"
 ;
 then
 AC_MSG_ERROR
