@@ -296,14 +296,6 @@ Pure
 readonly
 attribute
 Node
-rootNode
-;
-[
-Pure
-]
-readonly
-attribute
-Node
 ?
 parentNode
 ;
