@@ -754,7 +754,6 @@ op
 textureParent
 (
 )
-compositable
 )
 ;
 break
@@ -864,7 +863,6 @@ op
 textureParent
 (
 )
-compositable
 )
 ;
 ImageBridgeParent
@@ -900,7 +898,6 @@ op
 textureParent
 (
 )
-compositable
 )
 ;
 ReplyRemoveTexture
