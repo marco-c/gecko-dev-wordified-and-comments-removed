@@ -785,20 +785,6 @@ False
         
 self
 .
-_extended_statistics_ok
-=
-definition
-.
-get
-(
-'
-extended_statistics_ok
-'
-False
-)
-        
-self
-.
 _expiration
 =
 definition
@@ -1346,37 +1332,6 @@ self
 _dataset
     
 def
-extended_statistics_ok
-(
-self
-)
-:
-        
-"
-"
-"
-Return
-True
-if
-gathering
-extended
-statistics
-for
-this
-histogram
-is
-enabled
-.
-"
-"
-"
-        
-return
-self
-.
-_extended_statistics_ok
-    
-def
 ranges
 (
 self
@@ -1635,12 +1590,6 @@ exponential
 '
 :
 general_keys
-+
-[
-'
-extended_statistics_ok
-'
-]
             
 }
         
