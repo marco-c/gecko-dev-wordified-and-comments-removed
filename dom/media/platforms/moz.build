@@ -223,6 +223,9 @@ agnostic
 /
 gmp
 '
+'
+omx
+'
 ]
 if
 CONFIG
