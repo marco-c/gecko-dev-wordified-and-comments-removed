@@ -266,6 +266,13 @@ uint32_t
 aCh
 )
 ;
+uint32_t
+GetFullWidthInverse
+(
+uint32_t
+aCh
+)
+;
 bool
 IsClusterExtender
 (
