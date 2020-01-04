@@ -536,12 +536,6 @@ IID_IServiceProvider
 =
 =
 iid
-&
-&
-!
-IsProxy
-(
-)
 )
 *
 ppv
