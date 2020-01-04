@@ -312,6 +312,8 @@ aHeaderLens
 AppendElement
 (
 aAvailable
+-
+total
 )
 ;
 for
