@@ -535,6 +535,7 @@ aTimeStamp
 void
 Update
 (
+const
 ScrollWheelInput
 &
 aEvent
@@ -568,9 +569,6 @@ mLastEventTime
 ;
 TimeStamp
 mLastMouseMove
-;
-uint32_t
-mScrollSeriesCounter
 ;
 bool
 mTransactionEnded
