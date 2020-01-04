@@ -1207,14 +1207,17 @@ gfxTextRun
 *
 mTextRun
 ;
+MOZ_INIT_OUTSIDE_CTOR
 const
 GlyphRun
 *
 mGlyphRun
 ;
+MOZ_INIT_OUTSIDE_CTOR
 uint32_t
 mStringStart
 ;
+MOZ_INIT_OUTSIDE_CTOR
 uint32_t
 mStringEnd
 ;
