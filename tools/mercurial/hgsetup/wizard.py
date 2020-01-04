@@ -747,7 +747,7 @@ LooseVersion
 '
 3
 .
-1
+3
 '
 )
 REVIEWBOARD_INCOMPATIBLE
@@ -1041,7 +1041,7 @@ LooseVersion
 '
 3
 .
-1
+3
 '
 )
 BZPOST_INFO
@@ -1095,7 +1095,7 @@ LooseVersion
 '
 3
 .
-1
+3
 '
 )
 FIREFOXTREE_INFO
