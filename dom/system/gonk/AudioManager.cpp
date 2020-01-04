@@ -2700,7 +2700,7 @@ setting
 nsContentUtils
 :
 :
-RootingCxForThread
+RootingCx
 (
 )
 )

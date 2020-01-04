@@ -405,7 +405,7 @@ cx
 nsContentUtils
 :
 :
-RootingCxForThread
+RootingCx
 (
 )
 ;

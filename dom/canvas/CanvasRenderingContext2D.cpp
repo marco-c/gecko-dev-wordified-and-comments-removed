@@ -27219,7 +27219,7 @@ arr
 nsContentUtils
 :
 :
-RootingCxForThread
+RootingCx
 (
 )
 )
@@ -27319,7 +27319,7 @@ arr
 nsContentUtils
 :
 :
-RootingCxForThread
+RootingCx
 (
 )
 )
@@ -28721,19 +28721,8 @@ aOldLayer
 LayerManager
 *
 aManager
-bool
-aMirror
 )
 {
-if
-(
-aMirror
-)
-{
-return
-nullptr
-;
-}
 if
 (
 mOpaque

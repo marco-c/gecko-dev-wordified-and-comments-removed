@@ -1851,7 +1851,7 @@ scopedArr
 nsContentUtils
 :
 :
-RootingCxForThread
+RootingCx
 (
 )
 )

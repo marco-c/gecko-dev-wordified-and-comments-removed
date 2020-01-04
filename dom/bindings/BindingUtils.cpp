@@ -1826,7 +1826,7 @@ cx
 nsContentUtils
 :
 :
-RootingCxForThread
+RootingCx
 (
 )
 ;
@@ -2013,7 +2013,7 @@ cx
 nsContentUtils
 :
 :
-RootingCxForThread
+RootingCx
 (
 )
 ;
@@ -2310,7 +2310,7 @@ cx
 nsContentUtils
 :
 :
-RootingCxForThread
+RootingCx
 (
 )
 ;

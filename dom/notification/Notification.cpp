@@ -4236,7 +4236,7 @@ options
 nsContentUtils
 :
 :
-RootingCxForThread
+RootingCx
 (
 )
 )
