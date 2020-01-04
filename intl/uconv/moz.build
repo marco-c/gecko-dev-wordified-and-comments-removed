@@ -849,13 +849,6 @@ UNIFIED_SOURCES
 '
 ucvtw
 /
-nsBIG5HKSCSToUnicode
-.
-cpp
-'
-'
-ucvtw
-/
 nsBIG5ToUnicode
 .
 cpp
@@ -864,13 +857,6 @@ cpp
 ucvtw
 /
 nsUnicodeToBIG5
-.
-cpp
-'
-'
-ucvtw
-/
-nsUnicodeToBIG5HKSCS
 .
 cpp
 '
