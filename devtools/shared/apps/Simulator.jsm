@@ -30,8 +30,7 @@ js
 "
 )
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -40,11 +39,7 @@ Simulator
 "
 ]
 ;
-let
-Simulator
-=
-this
-.
+const
 Simulator
 =
 {
