@@ -329,6 +329,8 @@ aFaceName
 FcPattern
 *
 aFontPattern
+bool
+aIgnoreFcCharmap
 )
 ;
 explicit
@@ -512,6 +514,9 @@ mFTFace
 bool
 mFTFaceInitialized
 ;
+bool
+mIgnoreFcCharmap
+;
 double
 mAspect
 ;
@@ -543,6 +548,10 @@ gfxFontFamily
 (
 aName
 )
+mContainsAppFonts
+(
+false
+)
 {
 }
 void
@@ -564,6 +573,18 @@ FcPattern
 aFontPattern
 )
 ;
+void
+SetFamilyContainsAppFonts
+(
+bool
+aContainsAppFonts
+)
+{
+mContainsAppFonts
+=
+aContainsAppFonts
+;
+}
 protected
 :
 virtual
@@ -581,6 +602,9 @@ FcPattern
 >
 >
 mFontPatterns
+;
+bool
+mContainsAppFonts
 ;
 }
 ;
@@ -884,6 +908,8 @@ AddFontSetFamilies
 FcFontSet
 *
 aFontSet
+bool
+aAppFonts
 )
 ;
 PrefFontList
