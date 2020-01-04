@@ -570,6 +570,10 @@ SystemAllocPolicy
 >
 JitPoisonRangeVector
 ;
+#
+define
+NON_WRITABLE_JIT_CODE
+1
 class
 ExecutableAllocator
 {
@@ -663,10 +667,6 @@ void
 initStatic
 (
 )
-;
-static
-bool
-nonWritableJitCode
 ;
 private
 :
@@ -771,10 +771,9 @@ size_t
 size
 )
 {
-if
-(
-nonWritableJitCode
-)
+#
+ifdef
+NON_WRITABLE_JIT_CODE
 reprotectRegion
 (
 start
@@ -782,6 +781,8 @@ size
 Writable
 )
 ;
+#
+endif
 }
 static
 void
@@ -794,10 +795,9 @@ size_t
 size
 )
 {
-if
-(
-nonWritableJitCode
-)
+#
+ifdef
+NON_WRITABLE_JIT_CODE
 reprotectRegion
 (
 start
@@ -805,6 +805,8 @@ size
 Executable
 )
 ;
+#
+endif
 }
 void
 makeAllWritable
