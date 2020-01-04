@@ -166,7 +166,7 @@ USE_LIBS
 =
 [
 '
-google_breakpad_libxul_staticruntime_s
+google_breakpad_libxul_s
 '
 ]
 OS_LIBS
@@ -186,9 +186,6 @@ wininet
 shlwapi
 '
 ]
-USE_STATIC_LIBS
-=
-True
 elif
 CONFIG
 [

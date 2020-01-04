@@ -93,14 +93,6 @@ MPL
 0
 /
 .
-DIRS
-+
-=
-[
-'
-staticruntime
-'
-]
 SOURCES
 +
 =
