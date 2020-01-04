@@ -619,7 +619,7 @@ DetachEditor
 ;
 }
 {
-nsAutoEditInitRulesTrigger
+AutoEditInitRulesTrigger
 rulesTrigger
 (
 this
