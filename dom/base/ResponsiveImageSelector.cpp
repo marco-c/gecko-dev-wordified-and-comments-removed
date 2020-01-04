@@ -1555,7 +1555,7 @@ CSSPixelsToDevPixels
 0f
 )
 ;
-int32_t
+double
 computedWidth
 =
 -
@@ -1822,7 +1822,7 @@ ResponsiveImageSelector
 :
 ComputeFinalWidthForCurrentViewport
 (
-int32_t
+double
 *
 aWidth
 )
@@ -2019,7 +2019,7 @@ aWidth
 nsPresContext
 :
 :
-AppUnitsToIntCSSPixels
+AppUnitsToDoubleCSSPixels
 (
 std
 :
@@ -3134,7 +3134,7 @@ mType
 eCandidateType_ComputedFromWidth
 )
 {
-int32_t
+double
 width
 ;
 if
@@ -3196,7 +3196,7 @@ ResponsiveImageCandidate
 :
 Density
 (
-int32_t
+double
 aMatchingWidth
 )
 const
@@ -3307,10 +3307,7 @@ mValue
 mWidth
 )
 /
-double
-(
 aMatchingWidth
-)
 ;
 MOZ_ASSERT
 (

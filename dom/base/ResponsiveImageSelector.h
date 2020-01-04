@@ -195,7 +195,7 @@ ClearSelectedCandidate
 bool
 ComputeFinalWidthForCurrentViewport
 (
-int32_t
+double
 *
 aWidth
 )
@@ -341,7 +341,7 @@ const
 double
 Density
 (
-int32_t
+double
 aMatchingWidth
 )
 const
