@@ -104,7 +104,7 @@ ok
 !
 closedTabData
 .
-contains
+includes
 (
 r
 )
