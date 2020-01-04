@@ -6350,9 +6350,16 @@ if
 (
 NS_FAILED
 (
-NS_DispatchToMainThread
+mWorkerPrivate
+-
+>
+DispatchToMainThread
 (
 runnable
+.
+forget
+(
+)
 )
 )
 )
