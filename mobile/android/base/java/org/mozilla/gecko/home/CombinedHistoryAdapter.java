@@ -115,7 +115,7 @@ LOGTAG
 GeckoCombinedHistAdapt
 "
 ;
-public
+private
 enum
 ItemType
 {
