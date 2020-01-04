@@ -175,9 +175,11 @@ g_uf_gb18030_4bytes
 ;
 MOZ_ASSERT
 (
-NS_FAILED
 (
 res
+!
+=
+NS_OK
 )
 |
 |
