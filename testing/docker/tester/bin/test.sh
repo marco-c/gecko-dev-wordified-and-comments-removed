@@ -191,7 +191,7 @@ tester
 /
 test
 -
-mulet
+b2g
 .
 sh
 url
@@ -221,7 +221,7 @@ o
 /
 test
 -
-mulet
+b2g
 .
 sh
 -
@@ -236,7 +236,7 @@ x
 /
 test
 -
-mulet
+b2g
 .
 sh
 exec
@@ -244,7 +244,7 @@ exec
 /
 test
 -
-mulet
+b2g
 .
 sh
 "
