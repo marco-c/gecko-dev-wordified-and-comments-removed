@@ -3275,7 +3275,7 @@ if
 EncodingUtils
 :
 :
-FindEncodingForLabel
+FindEncodingForLabelNoReplacement
 (
 uCharset
 oCharset
