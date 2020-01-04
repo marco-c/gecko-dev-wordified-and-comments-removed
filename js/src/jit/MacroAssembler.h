@@ -3542,6 +3542,7 @@ temp
 )
 DEFINED_ON
 (
+arm
 x86_shared
 )
 ;
