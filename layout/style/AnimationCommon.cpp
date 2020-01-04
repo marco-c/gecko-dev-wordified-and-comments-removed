@@ -2497,7 +2497,7 @@ if
 frame
 -
 >
-Preserves3D
+Combines3DTransformWithAncestors
 (
 )
 |
@@ -2505,7 +2505,7 @@ Preserves3D
 frame
 -
 >
-Preserves3DChildren
+Extend3DContext
 (
 )
 )

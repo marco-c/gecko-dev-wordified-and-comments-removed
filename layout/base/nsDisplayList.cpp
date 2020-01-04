@@ -5452,7 +5452,7 @@ if
 child
 -
 >
-Preserves3D
+Combines3DTransformWithAncestors
 (
 )
 )
@@ -10089,7 +10089,7 @@ Frame
 )
 -
 >
-Preserves3D
+Combines3DTransformWithAncestors
 (
 )
 )
@@ -19010,7 +19010,7 @@ if
 aFrame
 -
 >
-Preserves3DChildren
+Extend3DContext
 (
 )
 )
@@ -19200,7 +19200,7 @@ if
 aFrame
 -
 >
-Preserves3DChildren
+Extend3DContext
 (
 )
 )
@@ -26033,7 +26033,7 @@ frame
 frame
 -
 >
-Preserves3D
+Combines3DTransformWithAncestors
 (
 )
 )
@@ -26069,7 +26069,7 @@ GetParent
 )
 -
 >
-Preserves3DChildren
+Extend3DContext
 (
 )
 "
@@ -27094,7 +27094,7 @@ if
 mFrame
 -
 >
-Preserves3D
+Combines3DTransformWithAncestors
 (
 )
 |
@@ -27102,7 +27102,7 @@ Preserves3D
 mFrame
 -
 >
-Preserves3DChildren
+Extend3DContext
 (
 )
 )
@@ -27280,7 +27280,7 @@ Is2D
 mFrame
 -
 >
-Preserves3D
+Combines3DTransformWithAncestors
 (
 )
 )

@@ -12096,7 +12096,7 @@ if
 parent
 -
 >
-Preserves3DChildren
+Extend3DContext
 (
 )
 )
@@ -12280,7 +12280,7 @@ if
 parent
 -
 >
-Preserves3DChildren
+Extend3DContext
 (
 )
 )
@@ -13618,7 +13618,7 @@ if
 aFrame
 -
 >
-Preserves3DChildren
+Extend3DContext
 (
 )
 |
@@ -32763,7 +32763,7 @@ parent
 parent
 -
 >
-Preserves3DChildren
+Extend3DContext
 (
 )
 )

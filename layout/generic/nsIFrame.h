@@ -3727,13 +3727,13 @@ nullptr
 const
 ;
 bool
-Preserves3DChildren
+Extend3DContext
 (
 )
 const
 ;
 bool
-Preserves3D
+Combines3DTransformWithAncestors
 (
 )
 const
