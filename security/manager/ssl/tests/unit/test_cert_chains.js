@@ -49,7 +49,7 @@ cert
 constructCertFromFile
 (
 "
-tlsserver
+bad_certs
 /
 "
 +
@@ -86,7 +86,7 @@ certA
 constructCertFromFile
 (
 "
-tlsserver
+bad_certs
 /
 default
 -
@@ -102,7 +102,7 @@ certB
 constructCertFromFile
 (
 "
-tlsserver
+bad_certs
 /
 default
 -
@@ -118,7 +118,7 @@ certC
 constructCertFromFile
 (
 "
-tlsserver
+bad_certs
 /
 expired
 -
@@ -477,6 +477,9 @@ add_tls_server_setup
 (
 "
 BadCertServer
+"
+"
+bad_certs
 "
 )
 ;

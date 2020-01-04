@@ -830,7 +830,7 @@ let
 file
 =
 "
-tlsserver
+bad_certs
 /
 "
 +
@@ -1120,7 +1120,7 @@ let
 file
 =
 "
-tlsserver
+test_onecrl
 /
 test
 -
@@ -1140,7 +1140,7 @@ PRErrorCodeSuccess
 file
 =
 "
-tlsserver
+bad_certs
 /
 other
 -
@@ -1160,7 +1160,7 @@ PRErrorCodeSuccess
 file
 =
 "
-tlsserver
+test_onecrl
 /
 same
 -
@@ -1665,7 +1665,7 @@ let
 file
 =
 "
-tlsserver
+test_onecrl
 /
 test
 -
@@ -1685,7 +1685,7 @@ SEC_ERROR_REVOKED_CERTIFICATE
 file
 =
 "
-tlsserver
+bad_certs
 /
 other
 -
@@ -1705,7 +1705,7 @@ SEC_ERROR_REVOKED_CERTIFICATE
 file
 =
 "
-tlsserver
+test_onecrl
 /
 same
 -
@@ -1725,7 +1725,7 @@ SEC_ERROR_REVOKED_CERTIFICATE
 file
 =
 "
-tlsserver
+bad_certs
 /
 default
 -
@@ -1743,7 +1743,7 @@ PRErrorCodeSuccess
 file
 =
 "
-tlsserver
+bad_certs
 /
 unknownissuer
 .

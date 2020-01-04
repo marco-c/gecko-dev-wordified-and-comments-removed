@@ -106,6 +106,12 @@ TEST_DIRS
 =
 [
 '
+bad_certs
+'
+'
+ocsp_certs
+'
+'
 test_cert_eku
 '
 '
@@ -146,6 +152,9 @@ test_ocsp_fetch_method
 '
 '
 test_ocsp_url
+'
+'
+test_onecrl
 '
 '
 test_pinning_dynamic

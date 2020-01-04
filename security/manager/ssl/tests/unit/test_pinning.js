@@ -1368,13 +1368,16 @@ add_tls_server_setup
 "
 BadCertServer
 "
+"
+bad_certs
+"
 )
 ;
 addCertFromFile
 (
 certdb
 "
-tlsserver
+bad_certs
 /
 other
 -

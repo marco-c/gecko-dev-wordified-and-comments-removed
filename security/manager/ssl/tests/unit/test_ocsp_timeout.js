@@ -81,6 +81,9 @@ add_tls_server_setup
 "
 OCSPStaplingServer
 "
+"
+ocsp_certs
+"
 )
 ;
 let

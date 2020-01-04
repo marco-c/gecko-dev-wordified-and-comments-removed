@@ -432,7 +432,7 @@ otherTestCA
 constructCertFromFile
 (
 "
-tlsserver
+ocsp_certs
 /
 other
 -
@@ -1250,6 +1250,9 @@ add_tls_server_setup
 (
 "
 OCSPStaplingServer
+"
+"
+ocsp_certs
 "
 )
 ;

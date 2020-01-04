@@ -17,6 +17,9 @@ add_tls_server_setup
 "
 BadCertServer
 "
+"
+bad_certs
+"
 )
 ;
 add_connection_test

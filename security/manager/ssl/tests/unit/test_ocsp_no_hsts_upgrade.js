@@ -33,6 +33,9 @@ add_tls_server_setup
 "
 OCSPStaplingServer
 "
+"
+ocsp_certs
+"
 )
 ;
 let
@@ -61,7 +64,7 @@ generateOCSPResponses
 (
 args
 "
-tlsserver
+ocsp_certs
 "
 )
 ;
