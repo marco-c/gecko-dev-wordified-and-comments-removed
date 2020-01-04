@@ -792,7 +792,7 @@ BrowserOpenSyncTabs
 )
 ;
 "
-disabled
+hidden
 =
 "
 true
