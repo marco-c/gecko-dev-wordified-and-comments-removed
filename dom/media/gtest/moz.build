@@ -343,6 +343,13 @@ test
 webm
 '
 '
+test_case_1224361
+.
+vp8
+.
+ivf
+'
+'
 test_case_1224363
 .
 vp8

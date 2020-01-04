@@ -453,6 +453,16 @@ testFiles
 {
 {
 "
+test_case_1224361
+.
+vp8
+.
+ivf
+"
+VPX_CODEC_OK
+}
+{
+"
 test_case_1224363
 .
 vp8
@@ -476,7 +486,7 @@ VPX_CODEC_CORRUPT_FRAME
 TEST
 (
 libvpx
-test_case_1224363
+test_cases
 )
 {
 for
