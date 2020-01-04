@@ -786,6 +786,11 @@ JitSupportsFloatingPoint
 )
 ;
 bool
+JitSupportsUnalignedAccesses
+(
+)
+;
+bool
 JitSupportsSimd
 (
 )

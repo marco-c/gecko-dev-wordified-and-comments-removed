@@ -3202,6 +3202,7 @@ IntegerOverflow
 InvalidConversionToInteger
 IntegerDivideByZero
 OutOfBounds
+UnalignedAccess
 BadIndirectCall
 ImpreciseSimdConversion
 Limit
@@ -3255,6 +3256,15 @@ Trap
 :
 :
 OutOfBounds
+)
+UnalignedAccess
+=
+unsigned
+(
+Trap
+:
+:
+UnalignedAccess
 )
 BadIndirectCall
 =

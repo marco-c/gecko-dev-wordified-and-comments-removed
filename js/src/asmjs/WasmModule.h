@@ -49,6 +49,9 @@ interruptOffset
 uint32_t
 outOfBoundsOffset
 ;
+uint32_t
+unalignedAccessOffset
+;
 LinkDataCacheablePod
 (
 )

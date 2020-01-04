@@ -5248,6 +5248,12 @@ case
 JumpTarget
 :
 :
+UnalignedAccess
+:
+case
+JumpTarget
+:
+:
 Unreachable
 :
 case
