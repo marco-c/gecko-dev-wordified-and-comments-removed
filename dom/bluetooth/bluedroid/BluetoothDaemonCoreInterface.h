@@ -1068,13 +1068,7 @@ uint16_t
 LeTestModeNotification
 ;
 class
-AclStateChangedInitOp
-;
-class
 AdapterPropertiesInitOp
-;
-class
-BondStateChangedInitOp
 ;
 class
 DeviceFoundInitOp
@@ -1083,13 +1077,7 @@ class
 DutModeRecvInitOp
 ;
 class
-PinRequestInitOp
-;
-class
 RemoteDevicePropertiesInitOp
-;
-class
-SspRequestInitOp
 ;
 void
 AdapterStateChangedNtf
