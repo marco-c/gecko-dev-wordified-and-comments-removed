@@ -197,6 +197,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 return
 mAppShell
@@ -221,6 +222,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 if
 (
@@ -275,6 +277,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 if
 (
@@ -365,6 +368,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 CheckStableStateRunnable
 :
@@ -484,6 +488,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 ScheduleStableStateRunnable
 :

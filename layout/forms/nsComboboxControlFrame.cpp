@@ -2227,10 +2227,11 @@ aFrame
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 if
 (
@@ -2291,10 +2292,11 @@ aFrame
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 if
 (

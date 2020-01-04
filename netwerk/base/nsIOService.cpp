@@ -5554,6 +5554,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 return
 mIOService
@@ -7796,6 +7797,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_ASSERT
 (

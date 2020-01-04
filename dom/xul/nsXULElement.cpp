@@ -3558,6 +3558,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 mDocument
 -
@@ -8805,6 +8806,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 NS_ASSERTION
 (
@@ -9049,6 +9051,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 mWidget
 -

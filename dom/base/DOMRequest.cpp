@@ -1487,10 +1487,11 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 mReq
 -
@@ -1577,10 +1578,11 @@ aError
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 mReq
 -

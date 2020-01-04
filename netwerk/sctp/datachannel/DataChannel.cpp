@@ -12177,10 +12177,11 @@ aBlob
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 DataChannelConnection
 *
@@ -12372,10 +12373,11 @@ take
 ;
 }
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 ASSERT_WEBRTC
 (

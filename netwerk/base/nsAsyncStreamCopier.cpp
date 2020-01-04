@@ -133,10 +133,11 @@ NS_GetCurrentThread
 )
 {
 }
-NS_METHOD
+NS_IMETHOD
 Run
 (
 )
+override
 {
 nsresult
 rv

@@ -2428,6 +2428,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_ASSERT
 (
@@ -2553,6 +2554,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_ASSERT
 (
@@ -7542,6 +7544,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_ASSERT
 (
@@ -9509,6 +9512,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_ASSERT
 (
@@ -9824,6 +9828,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 if
 (
@@ -10251,6 +10256,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_ASSERT
 (
@@ -15265,10 +15271,11 @@ mManager
 )
 ;
 }
-nsresult
+NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_ASSERT
 (
@@ -15372,6 +15379,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_ASSERT
 (

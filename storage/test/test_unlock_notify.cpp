@@ -136,6 +136,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 mozilla
 :
@@ -330,6 +331,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 mozilla
 :

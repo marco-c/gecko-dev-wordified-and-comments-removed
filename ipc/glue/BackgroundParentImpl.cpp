@@ -1650,10 +1650,11 @@ AssertIsOnBackgroundThread
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 AssertIsInMainProcess
 (
@@ -2060,10 +2061,11 @@ mContentParent
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_ASSERT
 (

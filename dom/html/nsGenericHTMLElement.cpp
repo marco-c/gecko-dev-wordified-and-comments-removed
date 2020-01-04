@@ -787,6 +787,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 nsFocusManager
 *
@@ -6683,10 +6684,7 @@ cssFloat
 >
 SetIntValue
 (
-StyleFloat
-:
-:
-Left
+NS_STYLE_FLOAT_LEFT
 eCSSUnit_Enumerated
 )
 ;
@@ -6705,10 +6703,7 @@ cssFloat
 >
 SetIntValue
 (
-StyleFloat
-:
-:
-Right
+NS_STYLE_FLOAT_RIGHT
 eCSSUnit_Enumerated
 )
 ;

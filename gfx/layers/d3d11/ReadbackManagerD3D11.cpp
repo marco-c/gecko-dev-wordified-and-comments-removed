@@ -111,10 +111,11 @@ aTask
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 D3D10_TEXTURE2D_DESC
 desc

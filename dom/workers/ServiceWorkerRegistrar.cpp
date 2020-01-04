@@ -2200,10 +2200,11 @@ AssertIsOnBackgroundThread
 )
 ;
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 RefPtr
 <

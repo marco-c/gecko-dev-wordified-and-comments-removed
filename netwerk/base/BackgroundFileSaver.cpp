@@ -246,10 +246,11 @@ aTarget
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 return
 mSaver

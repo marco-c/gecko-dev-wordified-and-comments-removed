@@ -257,6 +257,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 nsCacheServiceAutoLock
 lock
@@ -355,6 +356,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 nsCacheServiceAutoLock
 lock

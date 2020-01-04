@@ -125,10 +125,11 @@ NS_IsMainThread
 )
 ;
 }
-NS_METHOD
+NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_ASSERT
 (
@@ -217,10 +218,11 @@ NS_IsMainThread
 )
 ;
 }
-NS_METHOD
+NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_ASSERT
 (
@@ -305,10 +307,11 @@ NS_IsMainThread
 )
 ;
 }
-NS_METHOD
+NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_ASSERT
 (
@@ -648,6 +651,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_ASSERT
 (

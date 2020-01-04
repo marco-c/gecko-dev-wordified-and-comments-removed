@@ -7206,6 +7206,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 mChannelParent
 -

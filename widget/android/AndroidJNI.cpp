@@ -433,10 +433,11 @@ aRemainingTime
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 hal
 :
@@ -664,10 +665,11 @@ view
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 JNIEnv
 *

@@ -846,10 +846,11 @@ aTarget
 )
 {
 }
-NS_IMETHODIMP
+NS_IMETHOD
 Run
 (
 )
+override
 {
 OnSystemError
 (

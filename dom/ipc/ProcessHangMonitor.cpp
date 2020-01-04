@@ -1982,6 +1982,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_RELEASE_ASSERT
 (
@@ -2425,6 +2426,7 @@ NS_IMETHOD
 Run
 (
 )
+override
 {
 MOZ_RELEASE_ASSERT
 (
