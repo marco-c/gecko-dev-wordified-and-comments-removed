@@ -1292,16 +1292,6 @@ new
 DeveloperToolbar
 (
 window
-document
-.
-getElementById
-(
-"
-developer
--
-toolbar
-"
-)
 )
 ;
 }
