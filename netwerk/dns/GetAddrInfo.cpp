@@ -1475,10 +1475,6 @@ aAddrInfo
 -
 >
 mCanonicalName
-.
-get
-(
-)
 ;
 }
 else

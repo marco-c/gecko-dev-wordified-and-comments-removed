@@ -520,7 +520,6 @@ addr_info
 )
 cname
 =
-!
 mHostRecord
 -
 >
@@ -528,10 +527,6 @@ addr_info
 -
 >
 mCanonicalName
-.
-get
-(
-)
 ?
 mHostRecord
 -
@@ -540,10 +535,6 @@ addr_info
 -
 >
 mCanonicalName
-.
-get
-(
-)
 :
 mHostRecord
 -
@@ -552,10 +543,6 @@ addr_info
 -
 >
 mHostName
-.
-get
-(
-)
 ;
 else
 cname
@@ -805,10 +792,6 @@ mHostRecord
 -
 >
 addr
-.
-get
-(
-)
 sizeof
 (
 NetAddr
@@ -1095,10 +1078,6 @@ mHostRecord
 -
 >
 addr
-.
-get
-(
-)
 sizeof
 (
 NetAddr
