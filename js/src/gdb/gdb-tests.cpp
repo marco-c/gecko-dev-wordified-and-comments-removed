@@ -42,15 +42,6 @@ jsfriendapi
 .
 h
 "
-#
-include
-"
-js
-/
-Initialization
-.
-h
-"
 using
 namespace
 JS

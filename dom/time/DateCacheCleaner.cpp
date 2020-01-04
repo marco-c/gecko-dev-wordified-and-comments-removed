@@ -8,9 +8,7 @@ h
 #
 include
 "
-js
-/
-Date
+jsapi
 .
 h
 "
@@ -112,11 +110,9 @@ mozilla
 AutoSafeJSContext
 cx
 ;
-JS
-:
-:
-ResetTimeZone
+JS_ClearDateCaches
 (
+cx
 )
 ;
 }
