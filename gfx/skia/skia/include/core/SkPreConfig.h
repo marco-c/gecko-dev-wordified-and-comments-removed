@@ -853,9 +853,17 @@ SK_BUILD_FOR_IOS
 )
 &
 &
+(
+defined
+(
+__ARM_NEON__
+)
+|
+|
 defined
 (
 __ARM_NEON
+)
 )
 #
 define
