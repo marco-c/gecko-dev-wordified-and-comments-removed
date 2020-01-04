@@ -1,9 +1,9 @@
 #
 ifndef
-nsBIG5ToUnicode_h___
+nsBIG5HKSCSToUnicode_h___
 #
 define
-nsBIG5ToUnicode_h___
+nsBIG5HKSCSToUnicode_h___
 #
 include
 "
@@ -12,7 +12,7 @@ nsISupports
 h
 "
 nsresult
-nsBIG5ToUnicodeConstructor
+nsBIG5HKSCSToUnicodeConstructor
 (
 nsISupports
 *
