@@ -569,16 +569,6 @@ emplace
 globalObject
 aExecutionReason
 mIsMainThread
-mIsMainThread
-?
-nullptr
-:
-workers
-:
-:
-GetCurrentThreadJSContext
-(
-)
 )
 ;
 mAutoEntryScript

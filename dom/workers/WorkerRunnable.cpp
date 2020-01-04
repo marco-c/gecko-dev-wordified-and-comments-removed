@@ -1230,13 +1230,6 @@ Worker
 runnable
 "
 isMainThread
-isMainThread
-?
-nullptr
-:
-GetCurrentThreadJSContext
-(
-)
 )
 ;
 jsapi

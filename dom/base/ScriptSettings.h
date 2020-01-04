@@ -480,9 +480,6 @@ nsIGlobalObject
 aGlobalObject
 bool
 aIsMainThread
-JSContext
-*
-aCx
 Type
 aType
 )
@@ -586,11 +583,6 @@ aIsMainThread
 NS_IsMainThread
 (
 )
-JSContext
-*
-aCx
-=
-nullptr
 )
 ;
 AutoEntryScript
@@ -608,11 +600,6 @@ aIsMainThread
 NS_IsMainThread
 (
 )
-JSContext
-*
-aCx
-=
-nullptr
 )
 ;
 ~
