@@ -1088,7 +1088,6 @@ uint8_t
 GetData
 (
 )
-const
 {
 MOZ_ASSERT
 (
@@ -1105,7 +1104,6 @@ int32_t
 GetStride
 (
 )
-const
 {
 MOZ_ASSERT
 (
@@ -1118,13 +1116,11 @@ mMap
 mStride
 ;
 }
-const
 MappedSurface
 *
 GetMappedSurface
 (
 )
-const
 {
 MOZ_ASSERT
 (
@@ -1140,7 +1136,6 @@ bool
 IsMapped
 (
 )
-const
 {
 return
 mIsMapped

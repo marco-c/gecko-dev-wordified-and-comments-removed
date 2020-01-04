@@ -554,13 +554,6 @@ mContext
 makeCurrentContext
 ]
 ;
-MOZ_ASSERT
-(
-IsCurrent
-(
-)
-)
-;
 /
 /
 Use

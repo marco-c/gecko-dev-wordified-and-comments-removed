@@ -340,7 +340,9 @@ GetParentObject
 const
 {
 return
-mContext
+Context
+(
+)
 ;
 }
 virtual

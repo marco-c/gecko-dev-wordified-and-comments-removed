@@ -9843,9 +9843,7 @@ if
 !
 res
 .
-GetSourceSurface
-(
-)
+mSourceSurface
 )
 {
 error
@@ -9871,9 +9869,7 @@ CanvasPattern
 this
 res
 .
-GetSourceSurface
-(
-)
+mSourceSurface
 repeatMode
 res
 .
