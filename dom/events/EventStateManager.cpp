@@ -9282,7 +9282,7 @@ RoundDown
 aEvent
 -
 >
-deltaX
+mDeltaX
 *
 scrollAmountInCSSPixels
 .
@@ -9332,7 +9332,7 @@ RoundDown
 aEvent
 -
 >
-deltaX
+mDeltaX
 *
 scrollAmountInCSSPixels
 .
@@ -9382,7 +9382,7 @@ RoundDown
 aEvent
 -
 >
-deltaX
+mDeltaX
 )
 ;
 pixelDeltaY
@@ -10153,7 +10153,7 @@ aTargetFrame
 aEvent
 -
 >
-deltaX
+mDeltaX
 aEvent
 -
 >
@@ -11510,7 +11510,7 @@ if
 aEvent
 -
 >
-deltaX
+mDeltaX
 &
 &
 overflowStyle
@@ -11538,7 +11538,7 @@ overflowDeltaX
 aEvent
 -
 >
-deltaX
+mDeltaX
 ;
 }
 if
@@ -11603,7 +11603,7 @@ overflowDeltaX
 aEvent
 -
 >
-deltaX
+mDeltaX
 >
 0
 )
@@ -13829,7 +13829,7 @@ eWheel
 wheelEvent
 -
 >
-deltaX
+mDeltaX
 &
 &
 !
@@ -13933,7 +13933,7 @@ overflowDeltaX
 wheelEvent
 -
 >
-deltaX
+mDeltaX
 ;
 wheelEvent
 -
@@ -14086,7 +14086,7 @@ eWheel
 wheelEvent
 -
 >
-deltaX
+mDeltaX
 &
 &
 !
@@ -14215,7 +14215,7 @@ overflowDeltaX
 wheelEvent
 -
 >
-deltaX
+mDeltaX
 ;
 wheelEvent
 -
@@ -22692,7 +22692,7 @@ mX
 aEvent
 -
 >
-deltaX
+mDeltaX
 &
 &
 (
@@ -22700,7 +22700,7 @@ deltaX
 aEvent
 -
 >
-deltaX
+mDeltaX
 >
 0
 .
@@ -22815,7 +22815,7 @@ if
 aEvent
 -
 >
-deltaX
+mDeltaX
 )
 {
 mX
@@ -22823,7 +22823,7 @@ mX
 aEvent
 -
 >
-deltaX
+mDeltaX
 ;
 }
 if
@@ -22860,7 +22860,7 @@ mX
 aEvent
 -
 >
-deltaX
+mDeltaX
 ;
 mY
 +
@@ -24048,7 +24048,7 @@ index
 aEvent
 -
 >
-deltaX
+mDeltaX
 *
 =
 mMultiplierX
@@ -24295,7 +24295,7 @@ Abs
 aEvent
 -
 >
-deltaX
+mDeltaX
 )
 >
 Abs
@@ -24312,7 +24312,7 @@ Abs
 aEvent
 -
 >
-deltaX
+mDeltaX
 )
 >
 Abs

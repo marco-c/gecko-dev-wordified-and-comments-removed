@@ -15671,7 +15671,7 @@ eWheel
 (
 event
 .
-deltaX
+mDeltaX
 !
 =
 0
@@ -16082,7 +16082,7 @@ eWheel
 (
 event
 .
-deltaX
+mDeltaX
 !
 =
 0

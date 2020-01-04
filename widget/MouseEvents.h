@@ -1408,7 +1408,7 @@ WidgetWheelEvent
 (
 )
 :
-deltaX
+mDeltaX
 (
 0
 .
@@ -1515,7 +1515,7 @@ aMessage
 aWidget
 eWheelEventClass
 )
-deltaX
+mDeltaX
 (
 0
 .
@@ -1680,7 +1680,7 @@ overflowDeltaX
 ;
 }
 double
-deltaX
+mDeltaX
 ;
 double
 deltaY
@@ -1846,11 +1846,11 @@ aEvent
 aCopyTargets
 )
 ;
-deltaX
+mDeltaX
 =
 aEvent
 .
-deltaX
+mDeltaX
 ;
 deltaY
 =

@@ -247,7 +247,7 @@ AsWheelEvent
 wheelEvent
 -
 >
-deltaX
+mDeltaX
 =
 aDeltaX
 ;
@@ -296,7 +296,7 @@ AsWheelEvent
 )
 -
 >
-deltaX
+mDeltaX
 ;
 }
 return
@@ -308,7 +308,7 @@ AsWheelEvent
 )
 -
 >
-deltaX
+mDeltaX
 *
 mAppUnitsPerDevPixel
 /
