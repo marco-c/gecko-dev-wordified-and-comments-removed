@@ -223,6 +223,12 @@ code
 =
 =
 NS_ERROR_FAILURE
+|
+|
+code
+=
+=
+NS_ERROR_OUT_OF_MEMORY
 )
 {
 return
