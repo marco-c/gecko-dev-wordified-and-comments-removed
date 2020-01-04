@@ -267,6 +267,12 @@ NS_IsMainThread
 )
 )
 ;
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 for
 (
 MessageElement
