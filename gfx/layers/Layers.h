@@ -907,6 +907,11 @@ Layer
 aArray
 )
 ;
+LayerMetricsWrapper
+GetRootContentLayer
+(
+)
+;
 #
 ifdef
 DEBUG
