@@ -200,6 +200,8 @@ CrashPluginNow
 intr
 StartPlugin
 (
+nsString
+adapter
 )
 ;
 async

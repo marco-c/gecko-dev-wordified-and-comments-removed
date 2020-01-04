@@ -199,6 +199,10 @@ override
 bool
 AnswerStartPlugin
 (
+const
+nsString
+&
+aAdapter
 )
 override
 ;

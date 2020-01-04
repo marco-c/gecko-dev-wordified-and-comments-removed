@@ -787,6 +787,9 @@ mLibs
 ;
 #
 endif
+nsString
+mAdapter
+;
 uint32_t
 mPluginId
 ;
