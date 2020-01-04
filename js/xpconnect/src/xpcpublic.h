@@ -1553,6 +1553,11 @@ ShouldDiscardSystemSource
 )
 ;
 bool
+SharedMemoryEnabled
+(
+)
+;
+bool
 SetAddonInterposition
 (
 const
