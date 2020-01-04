@@ -111,15 +111,11 @@ lastVisitTime
 :
 PlacesUtils
 .
-toDate
+toTime
 (
 node
 .
 time
-)
-.
-getTime
-(
 )
 visitCount
 :

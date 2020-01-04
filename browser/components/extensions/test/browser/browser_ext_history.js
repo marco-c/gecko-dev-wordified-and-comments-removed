@@ -580,7 +580,7 @@ startTime
 :
 PlacesUtils
 .
-toDate
+toTime
 (
 visits
 [
@@ -589,15 +589,11 @@ visits
 .
 visitDate
 )
-.
-valueOf
-(
-)
 endTime
 :
 PlacesUtils
 .
-toDate
+toTime
 (
 visits
 [
@@ -605,10 +601,6 @@ visits
 ]
 .
 visitDate
-)
-.
-valueOf
-(
 )
 }
 ;
@@ -744,7 +736,7 @@ startTime
 =
 PlacesUtils
 .
-toDate
+toTime
 (
 visits
 [
@@ -753,10 +745,6 @@ visits
 .
 visitDate
 )
-.
-valueOf
-(
-)
 ;
 filter
 .
@@ -764,7 +752,7 @@ endTime
 =
 PlacesUtils
 .
-toDate
+toTime
 (
 visits
 [
@@ -772,10 +760,6 @@ visits
 ]
 .
 visitDate
-)
-.
-valueOf
-(
 )
 ;
 extension
