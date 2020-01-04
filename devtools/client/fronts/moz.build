@@ -96,6 +96,11 @@ MPL
 DevToolsModules
 (
 '
+highlighters
+.
+js
+'
+'
 storage
 .
 js
