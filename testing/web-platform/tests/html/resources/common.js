@@ -401,9 +401,6 @@ input
 keygen
 '
 '
-label
-'
-'
 object
 '
 '
