@@ -5775,6 +5775,14 @@ query_is_nightly_promotion
 )
 :
             
+if
+self
+.
+query_is_nightly
+(
+)
+:
+                
 env
 [
 "
