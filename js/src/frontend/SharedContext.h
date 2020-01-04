@@ -1330,9 +1330,6 @@ scopeKind_
 ;
 public
 :
-uint32_t
-functionBindingEnd
-;
 Rooted
 <
 GlobalScope
@@ -1369,10 +1366,6 @@ extraWarnings
 scopeKind_
 (
 scopeKind
-)
-functionBindingEnd
-(
-0
 )
 bindings
 (
@@ -1471,9 +1464,6 @@ enclosingScope_
 ;
 public
 :
-uint32_t
-functionBindingEnd
-;
 Rooted
 <
 EvalScope

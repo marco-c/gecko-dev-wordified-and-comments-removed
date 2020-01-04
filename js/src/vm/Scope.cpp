@@ -6579,6 +6579,7 @@ init
 0
 0
 0
+0
 CanHaveEnvironmentSlots
 |
 flags
@@ -6604,6 +6605,7 @@ else
 {
 init
 (
+0
 0
 0
 0
@@ -6684,6 +6686,9 @@ data
 varStart
 data
 .
+varStart
+data
+.
 length
 data
 .
@@ -6725,6 +6730,7 @@ firstFrameSlot
 {
 init
 (
+0
 0
 0
 0
@@ -6774,6 +6780,9 @@ init
 0
 0
 0
+data
+.
+varStart
 data
 .
 letStart
@@ -6866,6 +6875,9 @@ init
 0
 data
 .
+varStart
+data
+.
 length
 data
 .
@@ -6898,6 +6910,9 @@ data
 {
 init
 (
+data
+.
+varStart
 data
 .
 varStart
