@@ -458,6 +458,9 @@ MarionetteArguments
 harness_class
 =
 MarionetteHarness
+args
+=
+None
 )
 :
     
@@ -533,6 +536,9 @@ harness_class
 (
 runner_class
 parser_class
+args
+=
+args
 )
 .
 run
