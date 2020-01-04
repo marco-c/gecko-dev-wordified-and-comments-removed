@@ -1544,6 +1544,9 @@ Simulator
 :
 Create
 (
+contextFromMainThread
+(
+)
 )
 ;
 if
