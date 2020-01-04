@@ -19251,7 +19251,7 @@ wasm
 JumpTarget
 :
 :
-IntegerOverflowTrap
+IntegerOverflow
 )
 ;
 masm
@@ -19272,7 +19272,7 @@ wasm
 JumpTarget
 :
 :
-InvalidConversionToIntegerTrap
+InvalidConversionToInteger
 )
 ;
 }

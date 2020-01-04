@@ -14189,7 +14189,7 @@ wasm
 JumpTarget
 :
 :
-ConversionError
+ImpreciseSimdConversion
 )
 ;
 }
@@ -14427,7 +14427,7 @@ wasm
 JumpTarget
 :
 :
-ConversionError
+ImpreciseSimdConversion
 )
 ;
 else
@@ -23636,7 +23636,7 @@ wasm
 JumpTarget
 :
 :
-IntegerOverflowTrap
+IntegerOverflow
 )
 ;
 masm
@@ -23657,7 +23657,7 @@ wasm
 JumpTarget
 :
 :
-InvalidConversionToIntegerTrap
+InvalidConversionToInteger
 )
 ;
 }
