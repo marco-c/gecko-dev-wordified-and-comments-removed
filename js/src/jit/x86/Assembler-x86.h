@@ -478,13 +478,6 @@ Simd128
 static
 constexpr
 Register
-WasmTlsReg
-=
-esi
-;
-static
-constexpr
-Register
 ArgumentsRectifierReg
 =
 esi
@@ -645,6 +638,13 @@ Register
 ABINonVolatileReg
 =
 ebx
+;
+static
+constexpr
+Register
+WasmTlsReg
+=
+esi
 ;
 static
 constexpr

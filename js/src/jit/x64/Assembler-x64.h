@@ -1132,13 +1132,6 @@ endif
 static
 constexpr
 Register
-WasmTlsReg
-=
-r14
-;
-static
-constexpr
-Register
 AsmJSIonExitRegCallee
 =
 r10
@@ -1338,6 +1331,13 @@ Register
 ABINonVolatileReg
 =
 r13
+;
+static
+constexpr
+Register
+WasmTlsReg
+=
+r14
 ;
 static
 constexpr

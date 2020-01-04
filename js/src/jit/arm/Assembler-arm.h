@@ -477,13 +477,6 @@ ArrayLength
 CallTempNonArgRegs
 )
 ;
-static
-constexpr
-Register
-WasmTlsReg
-=
-r9
-;
 class
 ABIArgGenerator
 {
@@ -611,6 +604,13 @@ Register
 ABINonArgReturnReg1
 =
 r5
+;
+static
+constexpr
+Register
+WasmTlsReg
+=
+r9
 ;
 static
 constexpr

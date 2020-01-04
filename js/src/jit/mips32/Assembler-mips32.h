@@ -195,6 +195,13 @@ t1
 static
 constexpr
 Register
+WasmTlsReg
+=
+s5
+;
+static
+constexpr
+Register
 WasmTableCallScratchReg
 =
 ABINonArgReg0
