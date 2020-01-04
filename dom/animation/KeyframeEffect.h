@@ -1179,6 +1179,11 @@ AnimationPerformanceWarning
 aWarning
 )
 ;
+void
+CalculateCumulativeChangeHint
+(
+)
+;
 protected
 :
 KeyframeEffectReadOnly
@@ -1313,6 +1318,9 @@ mInEffectOnLastAnimationTimingUpdate
 ;
 private
 :
+nsChangeHint
+mCumulativeChangeHint
+;
 nsIFrame
 *
 GetAnimationFrame
