@@ -864,8 +864,12 @@ extension
 ;
 extensions
 .
-registerAPI
+registerSchemaAPI
 (
+"
+pageAction
+"
+null
 (
 extension
 context

@@ -81,6 +81,15 @@ browser
 /
 schemas
 /
+page_action
+.
+json
+content
+/
+browser
+/
+schemas
+/
 tabs
 .
 json
