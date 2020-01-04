@@ -451,7 +451,7 @@ tree
 .
 view
 .
-getValueAt
+getCellText
 (
 0
 gAutocompletePopup
