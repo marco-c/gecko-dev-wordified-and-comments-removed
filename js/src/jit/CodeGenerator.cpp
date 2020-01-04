@@ -50786,6 +50786,12 @@ CanGC
 (
 cx
 ION_CODE
+!
+patchableBackedges_
+.
+empty
+(
+)
 )
 ;
 if

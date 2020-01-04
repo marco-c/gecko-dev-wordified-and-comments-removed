@@ -549,17 +549,9 @@ runtime
 canUseSignalHandlers
 (
 )
-|
-|
-ExecutableAllocator
-:
-:
-nonWritableJitCode
 )
-{
 return
 ;
-}
 MBasicBlockIterator
 block
 =

@@ -7521,7 +7521,7 @@ if
 jitRuntime
 -
 >
-mutatingBackedgeList
+preventBackedgePatching
 (
 )
 )
