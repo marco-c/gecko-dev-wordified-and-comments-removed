@@ -38581,11 +38581,7 @@ if
 (
 i64
 >
-4
-*
-1024
-*
-1024
+MaxBrTableElems
 )
 return
 f
