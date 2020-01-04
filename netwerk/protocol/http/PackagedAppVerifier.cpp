@@ -380,6 +380,9 @@ EmptyCString
 (
 )
 ;
+bool
+success
+=
 NeckoOriginAttributes
 (
 )
@@ -388,6 +391,12 @@ PopulateFromOrigin
 (
 aPackageOrigin
 mPackageOrigin
+)
+;
+NS_ENSURE_TRUE
+(
+success
+NS_ERROR_FAILURE
 )
 ;
 mBypassVerification
