@@ -1204,7 +1204,7 @@ case
 SelectionType
 :
 :
-SELECTION_SPELLCHECK
+eSpellCheck
 :
 return
 eIndexSpellChecker
@@ -27464,7 +27464,7 @@ case
 SelectionType
 :
 :
-SELECTION_SPELLCHECK
+eSpellCheck
 :
 {
 int32_t
@@ -28191,7 +28191,7 @@ case
 SelectionType
 :
 :
-SELECTION_SPELLCHECK
+eSpellCheck
 :
 if
 (
@@ -36227,7 +36227,7 @@ mSelectionType
 SelectionType
 :
 :
-SELECTION_SPELLCHECK
+eSpellCheck
 )
 {
 if

@@ -2138,7 +2138,7 @@ nsISelectionController
 :
 :
 SELECTION_NORMAL
-SELECTION_SPELLCHECK
+eSpellCheck
 =
 nsISelectionController
 :

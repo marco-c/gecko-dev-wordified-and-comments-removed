@@ -289,7 +289,7 @@ GetSelection
 SelectionType
 :
 :
-SELECTION_SPELLCHECK
+eSpellCheck
 )
 ;
 spellSel
@@ -403,7 +403,7 @@ GetSelection
 SelectionType
 :
 :
-SELECTION_SPELLCHECK
+eSpellCheck
 )
 ;
 spellSel
@@ -473,7 +473,7 @@ GetSelection
 SelectionType
 :
 :
-SELECTION_SPELLCHECK
+eSpellCheck
 )
 ;
 spellSel
@@ -543,7 +543,7 @@ GetSelection
 SelectionType
 :
 :
-SELECTION_SPELLCHECK
+eSpellCheck
 )
 ;
 spellSel
@@ -1115,7 +1115,7 @@ GetType
 SelectionType
 :
 :
-SELECTION_SPELLCHECK
+eSpellCheck
 )
 {
 text
