@@ -2136,6 +2136,10 @@ pathlen
 +
 1
 full_fname
+.
+get
+(
+)
 nullptr
 )
 ;
@@ -2959,6 +2963,10 @@ get
 VerQueryValueW
 (
 infoData
+.
+get
+(
+)
 L
 "
 \
