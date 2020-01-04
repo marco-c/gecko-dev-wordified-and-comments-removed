@@ -98,6 +98,7 @@ defining
 -
 binaries
 toolchains
+locales
 integrated
 development
 environment
