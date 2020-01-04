@@ -428,6 +428,13 @@ mLeftOverData
 =
 INT32_MIN
 ;
+aStream
+-
+>
+CheckForInactive
+(
+)
+;
 nsRefPtr
 <
 PlayingRefChanged
