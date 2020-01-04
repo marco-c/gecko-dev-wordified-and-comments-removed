@@ -189,6 +189,7 @@ ServiceWorker
 controller
 ;
 [
+SameObject
 Throws
 ]
 readonly
@@ -200,7 +201,7 @@ ServiceWorkerRegistration
 ready
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -216,7 +217,7 @@ options
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
@@ -233,7 +234,7 @@ documentURL
 )
 ;
 [
-Throws
+NewObject
 ]
 Promise
 <
