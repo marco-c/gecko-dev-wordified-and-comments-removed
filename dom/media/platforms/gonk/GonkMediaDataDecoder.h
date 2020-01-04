@@ -70,13 +70,6 @@ MediaDataDecoder
 InitPromise
 InitPromise
 ;
-typedef
-MediaDataDecoder
-:
-:
-DecoderFailureReason
-DecoderFailureReason
-;
 virtual
 ~
 GonkDecoderManager

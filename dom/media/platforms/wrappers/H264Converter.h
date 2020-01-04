@@ -173,11 +173,8 @@ aTrackType
 void
 OnDecoderInitFailed
 (
-MediaDataDecoder
-:
-:
-DecoderFailureReason
-aReason
+MediaResult
+aError
 )
 ;
 RefPtr

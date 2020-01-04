@@ -783,10 +783,7 @@ self
 >
 RejectInitPromise
 (
-DecoderFailureReason
-:
-:
-INIT_ERROR
+NS_ERROR_DOM_MEDIA_FATAL_ERR
 __func__
 )
 ;
@@ -2745,8 +2742,8 @@ OmxDataDecoder
 :
 RejectInitPromise
 (
-DecoderFailureReason
-aReason
+MediaResult
+aError
 const
 char
 *
@@ -2771,7 +2768,7 @@ NS_NewRunnableFunction
 (
 [
 self
-aReason
+aError
 aMethodName
 ]
 (
@@ -2797,7 +2794,7 @@ mInitPromise
 .
 RejectIfExists
 (
-aReason
+aError
 aMethodName
 )
 ;
@@ -2929,10 +2926,7 @@ self
 >
 RejectInitPromise
 (
-DecoderFailureReason
-:
-:
-INIT_ERROR
+NS_ERROR_DOM_MEDIA_FATAL_ERR
 __func__
 )
 ;
@@ -2992,10 +2986,7 @@ id
 ;
 RejectInitPromise
 (
-DecoderFailureReason
-:
-:
-INIT_ERROR
+NS_ERROR_DOM_MEDIA_FATAL_ERR
 __func__
 )
 ;
@@ -3088,10 +3079,7 @@ self
 >
 RejectInitPromise
 (
-DecoderFailureReason
-:
-:
-INIT_ERROR
+NS_ERROR_DOM_MEDIA_FATAL_ERR
 __func__
 )
 ;

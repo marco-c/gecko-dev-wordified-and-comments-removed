@@ -682,16 +682,6 @@ MediaDataDecoder
 ;
 public
 :
-enum
-class
-DecoderFailureReason
-:
-uint8_t
-{
-INIT_ERROR
-CANCELED
-}
-;
 typedef
 TrackInfo
 :
@@ -703,7 +693,7 @@ typedef
 MozPromise
 <
 TrackType
-DecoderFailureReason
+MediaResult
 true
 >
 InitPromise

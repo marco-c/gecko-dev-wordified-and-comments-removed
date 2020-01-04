@@ -222,8 +222,8 @@ aMethodName
 void
 RejectInitPromise
 (
-DecoderFailureReason
-aReason
+MediaResult
+aError
 const
 char
 *
