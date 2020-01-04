@@ -67,6 +67,8 @@ AndroidResDirs
     
 BrandingFiles
     
+ChromeManifestEntry
+    
 ConfigFileSubstitution
     
 ContextWrapped
@@ -157,6 +159,14 @@ WebIDLFile
     
 XPIDLFile
 )
+from
+mozpack
+.
+chrome
+.
+manifest
+import
+ManifestBinaryComponent
 from
 .
 reader
@@ -3036,6 +3046,42 @@ USE_LIBS
 '
 )
 )
+                
+if
+is_component
+and
+not
+context
+[
+'
+NO_COMPONENTS_MANIFEST
+'
+]
+:
+                    
+yield
+ChromeManifestEntry
+(
+context
+                        
+'
+components
+/
+components
+.
+manifest
+'
+                        
+ManifestBinaryComponent
+(
+'
+components
+'
+lib
+.
+lib_name
+)
+)
             
 if
 static_lib
@@ -3466,10 +3512,6 @@ USE_EXTENSION_MANIFEST
             
 '
 NO_JS_MANIFEST
-'
-            
-'
-NO_COMPONENTS_MANIFEST
 '
         
 ]
@@ -4276,12 +4318,19 @@ context
 branding_files
 )
         
+for
+obj
+in
 self
 .
 _handle_libraries
 (
 context
 )
+:
+            
+yield
+obj
         
 for
 obj
