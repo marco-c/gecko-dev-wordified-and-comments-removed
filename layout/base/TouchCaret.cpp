@@ -4838,7 +4838,7 @@ Flush_Layout
 nsRect
 rect
 =
-nsContentUtils
+nsLayoutUtils
 :
 :
 GetSelectionBoundingRect
