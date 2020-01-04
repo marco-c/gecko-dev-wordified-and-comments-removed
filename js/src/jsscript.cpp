@@ -18299,9 +18299,16 @@ size
 !
 data
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
+}
 Rooted
 <
 Bindings

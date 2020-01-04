@@ -6767,8 +6767,6 @@ const
 {
 return
 *
-ptr_
-.
 get
 (
 )
@@ -6784,8 +6782,6 @@ operator
 const
 {
 return
-ptr_
-.
 get
 (
 )
@@ -6799,8 +6795,6 @@ bool
 const
 {
 return
-ptr_
-.
 get
 (
 )
@@ -6814,6 +6808,7 @@ T
 get
 (
 )
+const
 {
 return
 ptr_

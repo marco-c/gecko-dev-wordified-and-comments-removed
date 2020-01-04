@@ -12965,11 +12965,17 @@ JS_BIT
 )
 )
 {
+if
+(
+!
 emitUint16Operand
 (
 JSOP_UINT16
 u
 )
+)
+return
+false
 ;
 }
 else

@@ -2919,9 +2919,16 @@ if
 !
 ni
 )
+{
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 nullptr
 ;
+}
 AutoValueVector
 strings
 (

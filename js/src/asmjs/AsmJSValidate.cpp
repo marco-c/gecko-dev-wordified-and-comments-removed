@@ -74225,6 +74225,9 @@ mcd
 return
 false
 ;
+if
+(
+!
 m
 .
 finishFunctionBodies
@@ -74232,6 +74235,9 @@ finishFunctionBodies
 &
 mcd
 )
+)
+return
+false
 ;
 if
 (

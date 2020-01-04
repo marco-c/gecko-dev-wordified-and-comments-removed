@@ -2765,6 +2765,10 @@ JSFunction
 (
 )
 )
+{
+if
+(
+!
 TypeNewScript
 :
 :
@@ -2788,8 +2792,13 @@ JSFunction
 (
 )
 )
+)
+return
+nullptr
 ;
+}
 else
+{
 group
 -
 >
@@ -2807,6 +2816,7 @@ TypeDescr
 )
 )
 ;
+}
 }
 const
 JSAtomState

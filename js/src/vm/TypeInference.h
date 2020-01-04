@@ -2910,7 +2910,7 @@ group
 )
 ;
 static
-void
+bool
 make
 (
 JSContext

@@ -1342,6 +1342,9 @@ markNextAsBranch
 (
 )
 {
+if
+(
+!
 this
 -
 >
@@ -1349,6 +1352,8 @@ ensureSpace
 (
 InstSize
 )
+)
+return
 ;
 MOZ_ASSERT
 (
