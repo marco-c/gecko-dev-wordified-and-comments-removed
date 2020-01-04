@@ -1206,7 +1206,7 @@ MOZ_ASSERT
 !
 JS_IsExceptionPending
 (
-mCx
+aCx
 )
 )
 ;
