@@ -317,9 +317,14 @@ DebuggeeWouldRun
 )
 {
 throw
-new
-Error
-(
+{
+error
+:
+"
+threadWouldRun
+"
+message
+:
 "
 Assigning
 a
@@ -331,7 +336,7 @@ debuggee
 to
 run
 "
-)
+}
 ;
 }
 else
