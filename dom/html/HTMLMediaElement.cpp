@@ -17805,6 +17805,17 @@ pauseElement
 &
 &
 mAudioChannelAgent
+#
+ifdef
+PAUSE_MEDIA_ELEMENT_FROM_AUDIOCHANNEL
+&
+&
+!
+ComputedMuted
+(
+)
+#
+endif
 )
 {
 auto
