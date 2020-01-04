@@ -55,6 +55,11 @@ include
 vector
 >
 #
+include
+<
+string
+>
+#
 define
 DCHECK
 assert
