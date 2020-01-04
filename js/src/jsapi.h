@@ -20114,9 +20114,6 @@ JSObject
 )
 ExceptionStackOrNull
 (
-JSContext
-*
-cx
 JS
 :
 :
