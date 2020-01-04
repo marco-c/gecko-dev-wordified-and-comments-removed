@@ -1579,10 +1579,6 @@ mChannel
 =
 aChannel
 ;
-mHaveInputEncoding
-=
-true
-;
 nsresult
 rv
 =

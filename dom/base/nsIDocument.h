@@ -7578,11 +7578,6 @@ mBFCacheDisallowed
 1
 ;
 bool
-mHaveInputEncoding
-:
-1
-;
-bool
 mHasHadDefaultView
 :
 1

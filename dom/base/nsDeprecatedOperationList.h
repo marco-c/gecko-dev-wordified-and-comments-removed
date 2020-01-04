@@ -44,10 +44,6 @@ EnablePrivilege
 )
 DEPRECATED_OPERATION
 (
-InputEncoding
-)
-DEPRECATED_OPERATION
-(
 DOMExceptionCode
 )
 DEPRECATED_OPERATION
