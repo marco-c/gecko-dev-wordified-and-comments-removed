@@ -2294,7 +2294,6 @@ srcElem
 return
 ;
 }
-else
 if
 (
 srcElemEnd
@@ -2344,7 +2343,7 @@ traits
 :
 Destruct
 (
-srcElem
+srcElemEnd
 )
 ;
 }
