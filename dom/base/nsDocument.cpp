@@ -22930,6 +22930,11 @@ GetObserverService
 (
 )
 ;
+if
+(
+os
+)
+{
 nsIPrincipal
 *
 principal
@@ -22977,6 +22982,7 @@ interactive
 nullptr
 )
 ;
+}
 nsContentUtils
 :
 :
@@ -41187,6 +41193,11 @@ GetObserverService
 (
 )
 ;
+if
+(
+os
+)
+{
 nsIPrincipal
 *
 principal
@@ -41260,6 +41271,7 @@ mObservingAppThemeChanged
 =
 true
 ;
+}
 }
 DispatchPageTransition
 (

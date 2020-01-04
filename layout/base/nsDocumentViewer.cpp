@@ -3401,6 +3401,11 @@ GetObserverService
 (
 )
 ;
+if
+(
+os
+)
+{
 nsIPrincipal
 *
 principal
@@ -3444,6 +3449,7 @@ loaded
 nullptr
 )
 ;
+}
 RefPtr
 <
 TimelineConsumers
