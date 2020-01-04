@@ -72,7 +72,6 @@ function
 {
 let
 {
-inspector
 toolbox
 testActor
 }

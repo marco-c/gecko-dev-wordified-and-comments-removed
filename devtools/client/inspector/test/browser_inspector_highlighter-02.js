@@ -23,7 +23,6 @@ function
 {
 let
 {
-toolbox
 inspector
 testActor
 }

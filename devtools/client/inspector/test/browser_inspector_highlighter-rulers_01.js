@@ -38,6 +38,9 @@ top
 :
 0
 ;
+"
++
+"
 width
 :
 40000px
@@ -88,7 +91,6 @@ function
 let
 {
 inspector
-toolbox
 testActor
 }
 =
@@ -354,11 +356,13 @@ i
 =
 RULERS_TEXT_STEP
 )
+{
 expectedX
 +
 =
 i
 ;
+}
 is
 (
 contentX
@@ -395,11 +399,13 @@ i
 =
 RULERS_TEXT_STEP
 )
+{
 expectedY
 +
 =
 i
 ;
+}
 is
 (
 contentY

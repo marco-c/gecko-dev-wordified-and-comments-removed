@@ -320,4 +320,7 @@ node
 ;
 }
 }
+return
+null
+;
 }

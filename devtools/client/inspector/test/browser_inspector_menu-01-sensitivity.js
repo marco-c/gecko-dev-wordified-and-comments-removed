@@ -1450,8 +1450,6 @@ inspector
 )
 ;
 }
-else
-{
 info
 (
 "
@@ -1488,7 +1486,6 @@ nodes
 0
 ]
 ;
-}
 }
 function
 setupClipboard

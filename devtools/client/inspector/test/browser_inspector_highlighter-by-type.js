@@ -32,7 +32,6 @@ function
 let
 {
 inspector
-toolbox
 }
 =
 yield

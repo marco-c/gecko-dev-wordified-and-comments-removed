@@ -114,9 +114,6 @@ inspector
 "
 )
 ;
-let
-inspector
-=
 yield
 onInspectorSelected
 ;

@@ -18,6 +18,9 @@ charset
 utf
 -
 8
+"
++
+"
 <
 p
 >
@@ -47,7 +50,6 @@ function
 {
 let
 {
-toolbox
 inspector
 testActor
 }
@@ -172,6 +174,9 @@ even
 after
 the
 node
+"
++
+"
 was
 selected
 "

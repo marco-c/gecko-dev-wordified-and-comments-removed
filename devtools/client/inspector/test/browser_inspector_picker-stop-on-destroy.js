@@ -161,7 +161,6 @@ so
 picker
 is
 closed
-.
 "
 )
 ;

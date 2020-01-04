@@ -30,7 +30,6 @@ function
 let
 {
 inspector
-toolbox
 testActor
 }
 =
@@ -125,7 +124,7 @@ function
 (
 )
 {
-var
+let
 iframe
 =
 document

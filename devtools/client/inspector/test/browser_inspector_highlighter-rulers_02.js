@@ -38,6 +38,9 @@ top
 :
 0
 ;
+"
++
+"
 width
 :
 40000px
@@ -73,7 +76,6 @@ function
 let
 {
 inspector
-toolbox
 testActor
 }
 =
@@ -153,7 +155,7 @@ testActor
 info
 (
 "
-Checking
+Check
 the
 rulers
 '
@@ -295,7 +297,7 @@ properly
 ;
 is
 (
-yAxisRulerTransform
+yAxisTextTransform
 null
 "
 y
@@ -310,7 +312,7 @@ properly
 info
 (
 "
-Asking
+Ask
 the
 content
 window
@@ -373,7 +375,7 @@ vertically
 info
 (
 "
-Checking
+Check
 the
 rulers
 are
@@ -532,7 +534,7 @@ properly
 ;
 is
 (
-yAxisRulerTransform
+yAxisTextTransform
 translate
 (
 0
@@ -554,7 +556,7 @@ properly
 info
 (
 "
-Asking
+Ask
 the
 content
 window
@@ -617,7 +619,7 @@ vertically
 info
 (
 "
-Checking
+Check
 the
 rulers
 are
@@ -783,7 +785,7 @@ properly
 ;
 is
 (
-yAxisRulerTransform
+yAxisTextTransform
 translate
 (
 0

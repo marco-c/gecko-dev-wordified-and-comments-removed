@@ -90,11 +90,8 @@ bcButtons
 inspector
 .
 breadcrumbs
-[
-"
+.
 container
-"
-]
 ;
 let
 onNodeHighlighted
