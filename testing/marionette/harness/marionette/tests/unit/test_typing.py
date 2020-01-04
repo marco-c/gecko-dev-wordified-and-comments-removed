@@ -487,7 +487,7 @@ platformName
 =
 =
 "
-Darwin
+darwin
 "
 :
             
