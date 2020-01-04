@@ -820,6 +820,25 @@ MOZILLA_OFFICIAL
 )
 )
     
+d
+[
+'
+sm_promise
+'
+]
+=
+bool
+(
+substs
+.
+get
+(
+'
+SPIDERMONKEY_PROMISE
+'
+)
+)
+    
 def
 guess_platform
 (
