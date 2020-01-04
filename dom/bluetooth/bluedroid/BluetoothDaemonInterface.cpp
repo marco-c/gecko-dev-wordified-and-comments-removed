@@ -190,7 +190,7 @@ aConnection
 nsresult
 RegisterModule
 (
-uint8_t
+BluetoothSetupServiceId
 aId
 uint8_t
 aMode
@@ -205,7 +205,7 @@ override
 nsresult
 UnregisterModule
 (
-uint8_t
+BluetoothSetupServiceId
 aId
 BluetoothSetupResultHandler
 *
@@ -408,7 +408,7 @@ BluetoothDaemonProtocol
 :
 RegisterModule
 (
-uint8_t
+BluetoothSetupServiceId
 aId
 uint8_t
 aMode
@@ -438,7 +438,7 @@ BluetoothDaemonProtocol
 :
 UnregisterModule
 (
-uint8_t
+BluetoothSetupServiceId
 aId
 BluetoothSetupResultHandler
 *
@@ -1454,7 +1454,7 @@ mProtocol
 >
 RegisterModuleCmd
 (
-0x02
+SETUP_SERVICE_ID_SOCKET
 0x00
 BluetoothDaemonSocketModule
 :
@@ -1805,7 +1805,7 @@ mProtocol
 >
 UnregisterModuleCmd
 (
-0x01
+SETUP_SERVICE_ID_CORE
 this
 )
 ;
@@ -1867,7 +1867,7 @@ mProtocol
 >
 UnregisterModuleCmd
 (
-0x02
+SETUP_SERVICE_ID_SOCKET
 new
 CleanupResultHandler
 (
@@ -3418,7 +3418,7 @@ mProtocol
 >
 RegisterModuleCmd
 (
-0x01
+SETUP_SERVICE_ID_CORE
 0x00
 BluetoothDaemonCoreModule
 :

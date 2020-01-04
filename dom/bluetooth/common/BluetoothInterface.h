@@ -96,7 +96,7 @@ virtual
 void
 RegisterModule
 (
-uint8_t
+BluetoothSetupServiceId
 aId
 uint8_t
 aMode
@@ -113,7 +113,7 @@ virtual
 void
 UnregisterModule
 (
-uint8_t
+BluetoothSetupServiceId
 aId
 BluetoothSetupResultHandler
 *

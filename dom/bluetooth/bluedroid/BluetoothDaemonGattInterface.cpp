@@ -8306,10 +8306,7 @@ mModule
 >
 RegisterModule
 (
-BluetoothDaemonGattModule
-:
-:
-SERVICE_ID
+SETUP_SERVICE_ID_GATT
 0x00
 BluetoothDaemonGattModule
 :
@@ -8472,10 +8469,7 @@ mModule
 >
 UnregisterModule
 (
-BluetoothDaemonGattModule
-:
-:
-SERVICE_ID
+SETUP_SERVICE_ID_GATT
 new
 CleanupResultHandler
 (

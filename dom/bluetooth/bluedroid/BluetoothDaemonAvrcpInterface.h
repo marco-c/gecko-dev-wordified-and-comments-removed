@@ -202,7 +202,7 @@ virtual
 nsresult
 RegisterModule
 (
-uint8_t
+BluetoothSetupServiceId
 aId
 uint8_t
 aMode
@@ -219,7 +219,7 @@ virtual
 nsresult
 UnregisterModule
 (
-uint8_t
+BluetoothSetupServiceId
 aId
 BluetoothSetupResultHandler
 *

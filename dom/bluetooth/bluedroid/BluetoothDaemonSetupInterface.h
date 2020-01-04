@@ -102,7 +102,7 @@ aRes
 nsresult
 RegisterModuleCmd
 (
-uint8_t
+BluetoothSetupServiceId
 aId
 uint8_t
 aMode
@@ -116,7 +116,7 @@ aRes
 nsresult
 UnregisterModuleCmd
 (
-uint8_t
+BluetoothSetupServiceId
 aId
 BluetoothSetupResultHandler
 *
@@ -272,7 +272,7 @@ BluetoothDaemonSetupInterface
 void
 RegisterModule
 (
-uint8_t
+BluetoothSetupServiceId
 aId
 uint8_t
 aMode
@@ -287,7 +287,7 @@ override
 void
 UnregisterModule
 (
-uint8_t
+BluetoothSetupServiceId
 aId
 BluetoothSetupResultHandler
 *

@@ -1038,10 +1038,7 @@ mModule
 >
 RegisterModule
 (
-BluetoothDaemonA2dpModule
-:
-:
-SERVICE_ID
+SETUP_SERVICE_ID_A2DP
 0x00
 BluetoothDaemonA2dpModule
 :
@@ -1204,10 +1201,7 @@ mModule
 >
 UnregisterModule
 (
-BluetoothDaemonA2dpModule
-:
-:
-SERVICE_ID
+SETUP_SERVICE_ID_A2DP
 new
 CleanupResultHandler
 (
