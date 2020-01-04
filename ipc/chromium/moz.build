@@ -210,15 +210,6 @@ src
 /
 base
 /
-non_thread_safe
-.
-cc
-'
-'
-src
-/
-base
-/
 pickle
 .
 cc
