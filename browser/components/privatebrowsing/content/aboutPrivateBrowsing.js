@@ -398,7 +398,7 @@ window
 {
 document
 .
-body
+documentElement
 .
 classList
 .
@@ -411,7 +411,7 @@ private
 ;
 document
 .
-body
+documentElement
 .
 classList
 .
