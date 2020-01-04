@@ -752,6 +752,11 @@ UNIFIED_SOURCES
 =
 [
 '
+CompositorWidgetProxy
+.
+cpp
+'
+'
 ContentCache
 .
 cpp

@@ -14905,13 +14905,6 @@ CleanupRemoteDrawing
 (
 )
 {
-nsBaseWidget
-:
-:
-CleanupRemoteDrawing
-(
-)
-;
 mBasicCompositorImage
 =
 nullptr

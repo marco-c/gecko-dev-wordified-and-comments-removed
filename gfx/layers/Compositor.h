@@ -145,6 +145,13 @@ WidgetUtils
 .
 h
 "
+#
+include
+"
+CompositorWidgetProxy
+.
+h
+"
 class
 nsIWidget
 ;
