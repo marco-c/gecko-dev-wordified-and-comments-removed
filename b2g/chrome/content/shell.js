@@ -558,13 +558,6 @@ nsICaptivePortalDetector
 '
 )
 ;
-if
-(
-AppConstants
-.
-MOZ_SAFE_BROWSING
-)
-{
 XPCOMUtils
 .
 defineLazyModuleGetter
@@ -588,7 +581,6 @@ jsm
 "
 )
 ;
-}
 XPCOMUtils
 .
 defineLazyModuleGetter
@@ -2768,13 +2760,6 @@ picker
 this
 )
 ;
-if
-(
-AppConstants
-.
-MOZ_SAFE_BROWSING
-)
-{
 setTimeout
 (
 function
@@ -2791,7 +2776,6 @@ init
 5000
 )
 ;
-}
 }
 stop
 :

@@ -211,9 +211,6 @@ mozilla
 search
 .
 SearchActivity
-MOZ_SAFE_BROWSING
-=
-1
 MOZ_NO_SMART_CARDS
 =
 1

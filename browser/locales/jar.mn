@@ -877,9 +877,6 @@ moveBookmarks
 .
 dtd
 )
-#
-ifdef
-MOZ_SAFE_BROWSING
 locale
 /
 browser
@@ -938,8 +935,6 @@ phishing
 .
 dtd
 )
-#
-endif
 locale
 /
 browser

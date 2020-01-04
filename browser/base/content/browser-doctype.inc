@@ -87,9 +87,6 @@ chrome
 %
 placesDTD
 ;
-#
-ifdef
-MOZ_SAFE_BROWSING
 <
 !
 ENTITY
@@ -102,8 +99,6 @@ chrome
 %
 safebrowsingDTD
 ;
-#
-endif
 <
 !
 ENTITY

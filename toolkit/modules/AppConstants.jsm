@@ -166,17 +166,6 @@ else
 false
 #
 endif
-MOZ_SAFE_BROWSING
-:
-#
-ifdef
-MOZ_SAFE_BROWSING
-true
-#
-else
-false
-#
-endif
 MOZ_SANDBOX
 :
 #

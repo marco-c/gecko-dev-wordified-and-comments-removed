@@ -3624,9 +3624,6 @@ modules
 ;
 Safe
 Browsing
-#
-ifdef
-MOZ_URL_CLASSIFIER
 RESPATH
 /
 components
@@ -3664,8 +3661,6 @@ url
 classifier
 .
 xpt
-#
-endif
 ;
 Private
 Browsing

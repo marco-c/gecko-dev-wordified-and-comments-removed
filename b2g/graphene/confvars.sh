@@ -124,9 +124,6 @@ branding
 configure
 .
 sh
-MOZ_SAFE_BROWSING
-=
-1
 MOZ_CAPTIVEDETECT
 =
 1

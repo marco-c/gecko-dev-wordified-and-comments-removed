@@ -2565,9 +2565,6 @@ BINPATH
 modules
 /
 *
-#
-ifdef
-MOZ_SAFE_BROWSING
 ;
 Safe
 Browsing
@@ -2608,8 +2605,6 @@ url
 classifier
 .
 xpt
-#
-endif
 ;
 Private
 Browsing
