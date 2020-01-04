@@ -441,9 +441,6 @@ PollableEvent
 >
 mPollableEvent
 ;
-bool
-mAutodialEnabled
-;
 already_AddRefed
 <
 nsIThread
