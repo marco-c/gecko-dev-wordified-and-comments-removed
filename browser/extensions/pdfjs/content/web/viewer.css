@@ -284,6 +284,15 @@ top
 }
 .
 annotationLayer
+section
+{
+position
+:
+absolute
+;
+}
+.
+annotationLayer
 .
 annotLink
 >
