@@ -159,6 +159,11 @@ GraphsWorker
 js
 '
 '
+HTMLTooltip
+.
+js
+'
+'
 LineGraphWidget
 .
 js
