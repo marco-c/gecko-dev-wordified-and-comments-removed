@@ -10569,6 +10569,7 @@ getc_unlocked
 _getc_nolock
 gmtime_r
 localtime_r
+pthread_getname_np
 ]
 )
 dnl
