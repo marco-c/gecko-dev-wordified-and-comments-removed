@@ -1387,9 +1387,6 @@ int32_t
 fixedPositionSides
 ;
 bool
-isClipFixed
-;
-bool
 isStickyPosition
 ;
 uint64_t
