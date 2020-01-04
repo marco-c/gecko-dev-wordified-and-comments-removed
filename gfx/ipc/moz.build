@@ -100,11 +100,6 @@ mozilla
 =
 [
 '
-D3DMessageUtils
-.
-h
-'
-'
 GfxMessageUtils
 .
 h
@@ -175,11 +170,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-D3DMessageUtils
-.
-cpp
-'
 '
 SharedDIB
 .
