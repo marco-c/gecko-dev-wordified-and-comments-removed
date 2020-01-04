@@ -6499,6 +6499,17 @@ branch
             
 }
         
+if
+c
+.
+get
+(
+'
+is_automation
+'
+)
+:
+            
 pst_up_cmd
 =
 '
@@ -6522,7 +6533,7 @@ multiLocale
 )
 ]
 )
-        
+            
 mach_env
 [
 '
