@@ -4875,6 +4875,17 @@ by
 zero
 "
 )
+MSG_DEF
+(
+JSMSG_WASM_OVERRECURSED
+0
+JSEXN_INTERNALERR
+"
+call
+stack
+exhausted
+"
+)
 /
 /
 Proxy

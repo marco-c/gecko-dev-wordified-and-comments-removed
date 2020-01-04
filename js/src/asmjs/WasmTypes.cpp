@@ -144,6 +144,7 @@ innermostWasmActivation
 cx
 (
 )
+JSMSG_WASM_OVERRECURSED
 )
 ;
 }

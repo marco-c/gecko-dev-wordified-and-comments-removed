@@ -1118,6 +1118,16 @@ addPendingOutOfMemory
 ;
 }
 ;
+void
+ReportOverRecursed
+(
+JSContext
+*
+cx
+unsigned
+errorNumber
+)
+;
 }
 struct
 JSContext
@@ -1240,6 +1250,8 @@ ReportOverRecursed
 (
 JSContext
 *
+unsigned
+errorNumber
 )
 ;
 private
