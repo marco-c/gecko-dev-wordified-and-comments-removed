@@ -328,16 +328,6 @@ allocSize
 {
 MOZ_RELEASE_ASSERT
 (
-jit
-:
-:
-JitOptions
-.
-wasmTestMode
-)
-;
-MOZ_RELEASE_ASSERT
-(
 sizeof
 (
 SharedArrayRawBuffer
