@@ -6337,6 +6337,17 @@ FreeOp
 fop
 )
 ;
+void
+takeOverScriptCountsMapEntry
+(
+js
+:
+:
+ScriptCounts
+*
+entryValue
+)
+;
 jsbytecode
 *
 main
