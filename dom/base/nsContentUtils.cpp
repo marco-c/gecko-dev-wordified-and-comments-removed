@@ -23598,13 +23598,6 @@ PerformMainThreadMicroTaskCheckpoint
 (
 )
 ;
-nsDocument
-:
-:
-ProcessBaseElementQueue
-(
-)
-;
 }
 }
 bool

@@ -4936,10 +4936,6 @@ static
 void
 ProcessTopElementQueue
 (
-bool
-aIsBaseQueue
-=
-false
 )
 ;
 void
@@ -6015,10 +6011,6 @@ sProcessingStack
 ;
 static
 bool
-sProcessingBaseElementQueue
-;
-static
-bool
 CustomElementConstructor
 (
 JSContext
@@ -6036,12 +6028,6 @@ aVp
 ;
 public
 :
-static
-void
-ProcessBaseElementQueue
-(
-)
-;
 virtual
 void
 SetupCustomElement
