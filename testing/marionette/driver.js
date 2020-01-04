@@ -12470,6 +12470,13 @@ httpOnly
 cookie
 .
 isHttpOnly
+"
+originAttributes
+"
+:
+cookie
+.
+originAttributes
 }
 )
 ;
