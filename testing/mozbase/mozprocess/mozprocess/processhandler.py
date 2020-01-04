@@ -2205,6 +2205,25 @@ sys
 .
 stderr
 "
+WARNING
+|
+IO
+Completion
+Port
+failed
+to
+signal
+process
+shutdown
+"
+                            
+print
+>
+>
+sys
+.
+stderr
+"
 Parent
 process
 %
@@ -2263,9 +2282,11 @@ Attempting
 to
 kill
 them
-.
-.
-.
+but
+no
+guarantee
+of
+success
 "
                             
 self
@@ -2290,6 +2311,8 @@ FINISHED
 '
 }
 )
+                            
+break
                     
 if
 not
@@ -2769,6 +2792,17 @@ self
 _job
 and
 threadalive
+and
+threading
+.
+current_thread
+(
+)
+!
+=
+self
+.
+_procmgrthread
 :
                     
 self
