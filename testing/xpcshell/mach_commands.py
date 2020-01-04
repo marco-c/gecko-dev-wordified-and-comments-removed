@@ -340,6 +340,9 @@ None
 test_tags
 =
 None
+dump_tests
+=
+None
                  
 *
 *
@@ -503,6 +506,9 @@ log
 test_tags
 =
 test_tags
+dump_tests
+=
+dump_tests
 )
             
 return
@@ -720,6 +726,12 @@ test_tags
 '
 :
 test_tags
+            
+'
+dump_tests
+'
+:
+dump_tests
         
 }
         
@@ -783,6 +795,10 @@ log
 =
 None
 test_tags
+=
+None
+                              
+dump_tests
 =
 None
 )
@@ -1084,6 +1100,12 @@ test_tags
 '
 :
 test_tags
+            
+'
+dump_tests
+'
+:
+dump_tests
             
 '
 utility_path
@@ -3418,6 +3440,47 @@ the
 given
 tags
 .
+'
+)
+    
+CommandArgument
+(
+'
+-
+-
+dump
+-
+tests
+'
+default
+=
+None
+type
+=
+str
+dest
+=
+'
+dump_tests
+'
+        
+help
+=
+'
+Specify
+path
+to
+a
+filename
+to
+dump
+all
+the
+tests
+that
+will
+be
+run
 '
 )
     
