@@ -76,12 +76,6 @@ defined
 (
 MOZ_ENABLE_PROFILER_SPS
 )
-|
-|
-defined
-(
-MOZILLA_XPCOMRT_API
-)
 #
 include
 <
