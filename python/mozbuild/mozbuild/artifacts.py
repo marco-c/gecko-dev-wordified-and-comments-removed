@@ -6340,7 +6340,7 @@ details
         
 self
 .
-_pushhead_cache
+_tree_cache
 .
 print_last
 (
@@ -6395,7 +6395,7 @@ caches
         
 self
 .
-_pushhead_cache
+_tree_cache
 .
 clear_cache
 (
