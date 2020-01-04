@@ -1187,7 +1187,7 @@ rval
 )
 ;
 }
-MOZ_ALWAYS_INLINE
+inline
 bool
 NonVoidStringToJsval
 (
