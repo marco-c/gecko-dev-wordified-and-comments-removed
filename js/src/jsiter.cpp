@@ -330,11 +330,7 @@ prop
 "
 )
 ;
-if
-(
-obj
-)
-TraceEdge
+TraceNullableEdge
 (
 trc
 &

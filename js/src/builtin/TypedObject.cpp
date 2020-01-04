@@ -15261,12 +15261,7 @@ HeapPtrObject
 mem
 )
 ;
-if
-(
-*
-objectPtr
-)
-TraceEdge
+TraceNullableEdge
 (
 trace_
 objectPtr
@@ -15303,12 +15298,7 @@ HeapPtrString
 mem
 )
 ;
-if
-(
-*
-stringPtr
-)
-TraceEdge
+TraceNullableEdge
 (
 trace_
 stringPtr

@@ -483,11 +483,7 @@ JSTracer
 trc
 )
 {
-if
-(
-source
-)
-TraceEdge
+TraceNullableEdge
 (
 trc
 &

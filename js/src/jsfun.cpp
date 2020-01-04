@@ -3297,11 +3297,7 @@ nativeReserved
 )
 ;
 }
-if
-(
-atom_
-)
-TraceEdge
+TraceNullableEdge
 (
 trc
 &

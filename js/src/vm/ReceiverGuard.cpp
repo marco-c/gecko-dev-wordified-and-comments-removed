@@ -339,11 +339,7 @@ JSTracer
 trc
 )
 {
-if
-(
-shape_
-)
-TraceEdge
+TraceNullableEdge
 (
 trc
 &
@@ -353,11 +349,7 @@ receiver_guard_shape
 "
 )
 ;
-if
-(
-group_
-)
-TraceEdge
+TraceNullableEdge
 (
 trc
 &

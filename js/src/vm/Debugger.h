@@ -1504,11 +1504,7 @@ JSTracer
 trc
 )
 {
-if
-(
-frame
-)
-TraceEdge
+TraceNullableEdge
 (
 trc
 &
@@ -1524,11 +1520,7 @@ frame
 "
 )
 ;
-if
-(
-ctorName
-)
-TraceEdge
+TraceNullableEdge
 (
 trc
 &
