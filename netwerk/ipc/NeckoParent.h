@@ -1042,12 +1042,6 @@ override
 ;
 private
 :
-nsCString
-mCoreAppsBasePath
-;
-nsCString
-mWebAppsBasePath
-;
 RefPtr
 <
 OfflineObserver
