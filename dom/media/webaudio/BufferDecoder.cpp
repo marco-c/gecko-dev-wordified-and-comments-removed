@@ -236,15 +236,6 @@ aEventVisibility
 )
 {
 }
-void
-BufferDecoder
-:
-:
-OnReadMetadataCompleted
-(
-)
-{
-}
 MediaDecoderOwner
 *
 BufferDecoder

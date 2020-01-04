@@ -376,14 +376,6 @@ aEventVisibility
 0
 ;
 virtual
-void
-OnReadMetadataCompleted
-(
-)
-=
-0
-;
-virtual
 MediaDecoderOwner
 *
 GetOwner

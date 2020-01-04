@@ -1211,13 +1211,6 @@ PlayState
 aState
 )
 ;
-void
-OnReadMetadataCompleted
-(
-)
-override
-{
-}
 virtual
 void
 MetadataLoaded
