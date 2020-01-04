@@ -104,9 +104,11 @@ CodeLabel
 InstructionImmediate
 }
 ;
+MOZ_INIT_OUTSIDE_CTOR
 uint32_t
 patchAtOffset
 ;
+MOZ_INIT_OUTSIDE_CTOR
 uint32_t
 targetOffset
 ;
