@@ -240,6 +240,13 @@ h
 #
 include
 "
+HTMLFormSubmissionConstants
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -338,13 +345,6 @@ h
 include
 "
 nsIDocShell
-.
-h
-"
-#
-include
-"
-nsFormSubmissionConstants
 .
 h
 "
@@ -2689,7 +2689,7 @@ here
 ;
 nsAutoPtr
 <
-nsFormSubmission
+HTMLFormSubmission
 >
 submission
 ;
@@ -2795,7 +2795,7 @@ HTMLFormElement
 :
 BuildSubmission
 (
-nsFormSubmission
+HTMLFormSubmission
 *
 *
 aFormSubmission
@@ -2928,7 +2928,7 @@ HTMLFormElement
 :
 SubmitSubmission
 (
-nsFormSubmission
+HTMLFormSubmission
 *
 aFormSubmission
 )
@@ -4228,7 +4228,7 @@ HTMLFormElement
 :
 WalkFormElements
 (
-nsFormSubmission
+HTMLFormSubmission
 *
 aFormSubmission
 )
@@ -6380,7 +6380,7 @@ mPendingSubmission
 {
 nsAutoPtr
 <
-nsFormSubmission
+HTMLFormSubmission
 >
 submission
 =

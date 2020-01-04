@@ -99,9 +99,6 @@ nsTextEditorState
 h
 "
 class
-nsFormSubmission
-;
-class
 nsIControllers
 ;
 class
@@ -128,6 +125,9 @@ EventStates
 namespace
 dom
 {
+class
+HTMLFormSubmission
+;
 class
 HTMLTextAreaElement
 final
@@ -250,7 +250,7 @@ override
 NS_IMETHOD
 SubmitNamesValues
 (
-nsFormSubmission
+HTMLFormSubmission
 *
 aFormSubmission
 )

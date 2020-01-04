@@ -132,6 +132,9 @@ namespace
 dom
 {
 class
+HTMLFormSubmission
+;
+class
 HTMLSelectElement
 ;
 #
@@ -1040,7 +1043,7 @@ override
 NS_IMETHOD
 SubmitNamesValues
 (
-nsFormSubmission
+HTMLFormSubmission
 *
 aFormSubmission
 )

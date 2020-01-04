@@ -25,6 +25,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+HTMLFormSubmission
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
@@ -47,13 +58,6 @@ h
 include
 "
 nsIFormControl
-.
-h
-"
-#
-include
-"
-nsFormSubmission
 .
 h
 "
@@ -743,7 +747,7 @@ CheckValidFormSubmission
 nsresult
 WalkFormElements
 (
-nsFormSubmission
+HTMLFormSubmission
 *
 aFormSubmission
 )
@@ -1367,7 +1371,7 @@ aEvent
 nsresult
 BuildSubmission
 (
-nsFormSubmission
+HTMLFormSubmission
 *
 *
 aFormSubmission
@@ -1379,7 +1383,7 @@ aEvent
 nsresult
 SubmitSubmission
 (
-nsFormSubmission
+HTMLFormSubmission
 *
 aFormSubmission
 )
@@ -1560,7 +1564,7 @@ mSubmitInitiatedFromUserInput
 ;
 nsAutoPtr
 <
-nsFormSubmission
+HTMLFormSubmission
 >
 mPendingSubmission
 ;

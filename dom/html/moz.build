@@ -196,11 +196,6 @@ EXPORTS
 =
 [
 '
-nsFormSubmission
-.
-h
-'
-'
 nsGenericHTMLElement
 .
 h
@@ -351,6 +346,11 @@ h
 '
 '
 HTMLFormElement
+.
+h
+'
+'
+HTMLFormSubmission
 .
 h
 '
@@ -740,6 +740,11 @@ HTMLFormElement
 cpp
 '
 '
+HTMLFormSubmission
+.
+cpp
+'
+'
 HTMLFrameElement
 .
 cpp
@@ -1011,11 +1016,6 @@ cpp
 '
 '
 nsDOMStringMap
-.
-cpp
-'
-'
-nsFormSubmission
 .
 cpp
 '

@@ -26,9 +26,6 @@ nsIDOMHTMLFormElement
 class
 nsPresState
 ;
-class
-nsFormSubmission
-;
 namespace
 mozilla
 {
@@ -40,6 +37,9 @@ Element
 ;
 class
 HTMLFieldSetElement
+;
+class
+HTMLFormSubmission
 ;
 }
 }
@@ -283,7 +283,13 @@ Reset
 NS_IMETHOD
 SubmitNamesValues
 (
-nsFormSubmission
+mozilla
+:
+:
+dom
+:
+:
+HTMLFormSubmission
 *
 aFormSubmission
 )

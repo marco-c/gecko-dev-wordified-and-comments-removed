@@ -69,7 +69,7 @@ nsISupports
 aOwner
 )
 :
-nsFormSubmission
+HTMLFormSubmission
 (
 NS_LITERAL_CSTRING
 (
