@@ -3200,7 +3200,7 @@ y
 }
 MOZ_WARN_UNUSED_RESULT
 Sub
-ForceInside
+MoveInsideAndClamp
 (
 const
 Sub

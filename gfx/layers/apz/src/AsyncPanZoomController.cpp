@@ -11625,7 +11625,7 @@ displayPort
 =
 displayPort
 .
-ForceInside
+MoveInsideAndClamp
 (
 scrollableRect
 )
