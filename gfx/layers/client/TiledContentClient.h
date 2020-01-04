@@ -1131,6 +1131,11 @@ mPaintFinished
 :
 1
 ;
+void
+ResetPaintData
+(
+)
+;
 }
 ;
 class
