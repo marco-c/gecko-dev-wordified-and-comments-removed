@@ -13319,30 +13319,14 @@ self
         
 self
 .
-_touch_file
+_get_mozconfig
 (
-os
-.
-path
-.
-join
-(
+)
+        
 self
 .
-query_abs_dirs
+_run_tooltool
 (
-)
-[
-'
-abs_src_dir
-'
-]
-                                      
-'
-.
-mozconfig
-'
-)
 )
     
 def
