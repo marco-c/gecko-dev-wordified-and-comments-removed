@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsIHttpChannelInternal
-.
-h
-"
-#
-include
-"
 nsIObjectFrame
 .
 h
@@ -1583,7 +1576,7 @@ mCancelable
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 PluginCrashedEvent
 >
@@ -1725,7 +1718,7 @@ nsITimer
 >
 mTimer
 ;
-RefPtr
+nsRefPtr
 <
 nsPluginInstanceOwner
 >
@@ -2457,7 +2450,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsPluginHost
 >
@@ -2557,7 +2550,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsPluginHost
 >
@@ -2603,7 +2596,7 @@ listener
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -3386,7 +3379,7 @@ rv
 =
 NS_ERROR_FAILURE
 ;
-RefPtr
+nsRefPtr
 <
 nsPluginHost
 >
@@ -3441,7 +3434,7 @@ SuspendNative
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsPluginInstanceOwner
 >
@@ -3524,7 +3517,7 @@ if
 newOwner
 )
 {
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -3584,7 +3577,7 @@ if
 mInstanceOwner
 )
 {
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -3683,7 +3676,7 @@ NotifyContentObjectWrapper
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -5498,7 +5491,7 @@ GetFrameLoader
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 nsFrameLoader
 >
@@ -7268,7 +7261,7 @@ java
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsPluginHost
 >
@@ -10892,7 +10885,7 @@ nsIChannel
 >
 chan
 ;
-RefPtr
+nsRefPtr
 <
 ObjectInterfaceRequestorShim
 >
@@ -11001,6 +10994,11 @@ nsIChannel
 :
 :
 LOAD_CLASSIFY_URI
+|
+nsIChannel
+:
+:
+LOAD_BYPASS_SERVICE_WORKER
 )
 ;
 NS_ENSURE_SUCCESS
@@ -11102,30 +11100,6 @@ nsIScriptChannel
 :
 :
 EXECUTE_NORMAL
-)
-;
-}
-nsCOMPtr
-<
-nsIHttpChannelInternal
->
-internalChannel
-=
-do_QueryInterface
-(
-httpChan
-)
-;
-if
-(
-internalChannel
-)
-{
-internalChannel
--
->
-ForceNoIntercept
-(
 )
 ;
 }
@@ -11806,7 +11780,7 @@ return
 eType_Document
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsPluginHost
 >
@@ -13122,7 +13096,7 @@ mIsStopping
 =
 true
 ;
-RefPtr
+nsRefPtr
 <
 nsPluginInstanceOwner
 >
@@ -13131,7 +13105,7 @@ kungFuDeathGrip
 aInstanceOwner
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -13181,7 +13155,7 @@ HidePluginWindow
 ;
 #
 endif
-RefPtr
+nsRefPtr
 <
 nsPluginHost
 >
@@ -13336,7 +13310,7 @@ false
 #
 ifdef
 XP_WIN
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -13412,7 +13386,7 @@ true
 }
 #
 endif
-RefPtr
+nsRefPtr
 <
 nsPluginInstanceOwner
 >
@@ -13892,7 +13866,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsPluginHost
 >
@@ -14799,7 +14773,7 @@ NS_ERROR_UNEXPECTED
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -15010,7 +14984,7 @@ IsSafeToRunScript
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 SetupProtoChainRunner
 >
@@ -15053,7 +15027,7 @@ aCx
 aObject
 )
 ;
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -15585,7 +15559,7 @@ JSPropertyDescriptor
 aDesc
 )
 {
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >
@@ -15662,7 +15636,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 nsNPAPIPluginInstance
 >
