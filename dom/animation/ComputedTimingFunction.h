@@ -26,6 +26,14 @@ ComputedTimingFunction
 {
 public
 :
+enum
+class
+BeforeFlag
+{
+Unset
+Set
+}
+;
 void
 Init
 (
@@ -40,6 +48,8 @@ GetValue
 (
 double
 aPortion
+BeforeFlag
+aBeforeFlag
 )
 const
 ;
@@ -226,6 +236,8 @@ ComputedTimingFunction
 aFunction
 double
 aPortion
+BeforeFlag
+aBeforeFlag
 )
 {
 return
@@ -237,6 +249,7 @@ aFunction
 GetValue
 (
 aPortion
+aBeforeFlag
 )
 :
 aPortion

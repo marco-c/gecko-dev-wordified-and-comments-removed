@@ -2914,6 +2914,9 @@ mFunctions
 segmentIndex
 ]
 positionInSegment
+computedTiming
+.
+mBeforeFlag
 )
 ;
 Animatable
