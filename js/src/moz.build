@@ -2190,6 +2190,13 @@ Wrapper
 cpp
 '
 '
+threading
+/
+ExclusiveData
+.
+cpp
+'
+'
 vm
 /
 ArgumentsObject
@@ -2319,13 +2326,6 @@ cpp
 vm
 /
 Monitor
-.
-cpp
-'
-'
-vm
-/
-Mutex
 .
 cpp
 '
