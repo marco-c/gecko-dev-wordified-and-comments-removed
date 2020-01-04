@@ -249,6 +249,13 @@ AllowScrollHandoff
 )
 const
 ;
+bool
+IsDragOnScrollbar
+(
+bool
+aOnScrollbar
+)
+;
 private
 :
 ~

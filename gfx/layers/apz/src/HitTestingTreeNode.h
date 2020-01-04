@@ -269,6 +269,12 @@ GetScrollSize
 )
 const
 ;
+bool
+IsScrollbarNode
+(
+)
+const
+;
 Maybe
 <
 LayerPoint

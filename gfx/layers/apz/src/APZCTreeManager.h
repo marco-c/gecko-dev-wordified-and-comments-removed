@@ -634,6 +634,11 @@ aPoint
 HitTestResult
 *
 aOutHitResult
+bool
+*
+aOutHitScrollbar
+=
+nullptr
 )
 ;
 ScreenToParentLayerMatrix4x4
@@ -742,6 +747,9 @@ aHitTestPoint
 HitTestResult
 *
 aOutHitResult
+bool
+*
+aOutHitScrollbar
 )
 ;
 AsyncPanZoomController
