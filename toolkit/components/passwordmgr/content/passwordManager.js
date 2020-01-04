@@ -42,7 +42,7 @@ defineLazyModuleGetter
 (
 this
 "
-PlacesUtils
+DeferredTask
 "
 "
 resource
@@ -53,7 +53,7 @@ gre
 /
 modules
 /
-PlacesUtils
+DeferredTask
 .
 jsm
 "
@@ -65,7 +65,7 @@ defineLazyModuleGetter
 (
 this
 "
-DeferredTask
+PlacesUtils
 "
 "
 resource
@@ -76,7 +76,7 @@ gre
 /
 modules
 /
-DeferredTask
+PlacesUtils
 .
 jsm
 "
@@ -420,16 +420,12 @@ rowCount
 :
 0
 setTree
-:
-function
 (
 tree
 )
 {
 }
 getImageSrc
-:
-function
 (
 row
 column
@@ -573,8 +569,6 @@ return
 ;
 }
 getProgressMode
-:
-function
 (
 row
 column
@@ -582,8 +576,6 @@ column
 {
 }
 getCellValue
-:
-function
 (
 row
 column
@@ -591,8 +583,6 @@ column
 {
 }
 getCellText
-:
-function
 (
 row
 column
@@ -777,8 +767,6 @@ return
 }
 }
 isEditable
-:
-function
 (
 row
 col
@@ -815,8 +803,6 @@ false
 ;
 }
 isSeparator
-:
-function
 (
 index
 )
@@ -826,8 +812,6 @@ false
 ;
 }
 isSorted
-:
-function
 (
 )
 {
@@ -836,8 +820,6 @@ false
 ;
 }
 isContainer
-:
-function
 (
 index
 )
@@ -847,16 +829,12 @@ false
 ;
 }
 cycleHeader
-:
-function
 (
 column
 )
 {
 }
 getRowProperties
-:
-function
 (
 row
 )
@@ -867,8 +845,6 @@ return
 ;
 }
 getColumnProperties
-:
-function
 (
 column
 )
@@ -879,8 +855,6 @@ return
 ;
 }
 getCellProperties
-:
-function
 (
 row
 column
@@ -915,8 +889,6 @@ return
 ;
 }
 setCellText
-:
-function
 (
 row
 col
