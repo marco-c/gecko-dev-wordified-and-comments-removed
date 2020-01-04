@@ -6467,6 +6467,9 @@ JSGC_DECOMMIT_THRESHOLD
 :
 decommitThreshold
 =
+(
+uint64_t
+)
 value
 *
 1024
@@ -6623,6 +6626,9 @@ JSGC_HIGH_FREQUENCY_LOW_LIMIT
 :
 highFrequencyLowLimitBytes_
 =
+(
+uint64_t
+)
 value
 *
 1024
@@ -6663,6 +6669,9 @@ value
 ;
 highFrequencyHighLimitBytes_
 =
+(
+uint64_t
+)
 value
 *
 1024
