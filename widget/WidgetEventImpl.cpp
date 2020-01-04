@@ -1851,6 +1851,7 @@ static
 const
 char
 *
+const
 kCommands
 [
 ]
