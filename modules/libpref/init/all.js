@@ -39986,7 +39986,7 @@ blockedURIs
 .
 enabled
 "
-true
+false
 )
 ;
 pref
