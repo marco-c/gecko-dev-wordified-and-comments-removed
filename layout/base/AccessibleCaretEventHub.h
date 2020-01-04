@@ -681,8 +681,6 @@ aContext
 )
 {
 }
-protected
-:
 explicit
 State
 (
@@ -707,7 +705,8 @@ State
 =
 delete
 ;
-void
+State
+&
 operator
 =
 (
