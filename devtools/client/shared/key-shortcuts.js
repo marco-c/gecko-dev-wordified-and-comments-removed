@@ -329,6 +329,13 @@ Esc
 DOM_VK_ESCAPE
 "
 "
+Tab
+"
+:
+"
+DOM_VK_TAB
+"
+"
 VolumeUp
 "
 :
