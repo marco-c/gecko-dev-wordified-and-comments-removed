@@ -4313,7 +4313,7 @@ doc
 dragNode
 -
 >
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 ;
