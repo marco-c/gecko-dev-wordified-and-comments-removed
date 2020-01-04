@@ -1442,7 +1442,7 @@ JS
 :
 AbortIncrementalGC
 (
-sRuntime
+sContext
 )
 ;
 }
@@ -4962,7 +4962,7 @@ JS
 :
 IncrementalGCSlice
 (
-sRuntime
+sContext
 aReason
 aSliceMillis
 )
@@ -5040,7 +5040,7 @@ JS
 :
 StartIncrementalGC
 (
-sRuntime
+sContext
 gckind
 aReason
 aSliceMillis
@@ -5098,7 +5098,7 @@ JS
 :
 ShrinkGCBuffers
 (
-sRuntime
+sContext
 )
 ;
 }
@@ -5140,7 +5140,7 @@ JS
 :
 FinishIncrementalGC
 (
-sRuntime
+sContext
 JS
 :
 :
@@ -10041,7 +10041,7 @@ JS
 :
 SetGCSliceCallback
 (
-sRuntime
+sContext
 DOMGCSliceCallback
 )
 ;
