@@ -219,6 +219,8 @@ topsrcdir
 )
 endif
 ifndef
+TEST_MOZBUILD
+ifndef
 MOZ_PROFILE_USE
 #
 We
@@ -289,6 +291,7 @@ src
 config
 .
 status
+endif
 endif
 endif
 endif
@@ -613,6 +616,8 @@ of
 the
 pain
 .
+ifndef
+TEST_MOZBUILD
 backend
 .
 RecursiveMakeBackend
@@ -653,6 +658,7 @@ default
 backend
 .
 RecursiveMakeBackend
+endif
 install_manifests
 :
 =
