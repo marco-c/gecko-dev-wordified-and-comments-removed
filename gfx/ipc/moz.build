@@ -119,11 +119,6 @@ gfx
 =
 [
 '
-GPUProcessManager
-.
-h
-'
-'
 SharedDIB
 .
 h
@@ -201,11 +196,6 @@ cpp
 '
 '
 D3DMessageUtils
-.
-cpp
-'
-'
-GPUProcessManager
 .
 cpp
 '
