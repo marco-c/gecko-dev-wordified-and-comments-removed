@@ -233,7 +233,7 @@ markup
 ;
 }
 }
-const
+var
 TestActor
 =
 exports
@@ -2330,7 +2330,7 @@ json
 }
 )
 ;
-const
+var
 TestActorFront
 =
 exports

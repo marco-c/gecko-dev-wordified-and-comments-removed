@@ -11875,6 +11875,7 @@ readonly
 true
 "
 >
+{
 let
 utils
 =
@@ -11907,6 +11908,7 @@ utils
 .
 DownloadUtils
 ;
+}
 <
 /
 field
@@ -20544,6 +20546,7 @@ true
 [
 CDATA
 [
+{
 let
 node
 =
@@ -20575,6 +20578,7 @@ parentNode
 }
 node
 ;
+}
 ]
 ]
 >

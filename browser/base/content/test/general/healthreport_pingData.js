@@ -1,4 +1,4 @@
-const
+var
 TEST_PINGS
 =
 [

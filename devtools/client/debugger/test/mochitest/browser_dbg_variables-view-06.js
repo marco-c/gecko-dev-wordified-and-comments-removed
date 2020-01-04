@@ -9,7 +9,7 @@ doc_promise
 html
 "
 ;
-const
+var
 test
 =
 Task

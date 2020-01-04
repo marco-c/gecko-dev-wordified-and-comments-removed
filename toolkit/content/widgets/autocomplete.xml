@@ -1568,6 +1568,7 @@ readonly
 true
 "
 >
+{
 let
 utils
 =
@@ -1599,6 +1600,7 @@ utils
 utils
 .
 PrivateBrowsingUtils
+}
 <
 /
 field

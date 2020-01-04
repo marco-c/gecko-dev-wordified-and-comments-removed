@@ -560,6 +560,17 @@ VIDEO_ADOBE_GMP_MISSING_FILES
 ;
 XPCOMUtils
 .
+defineConstant
+(
+this
+"
+GMP_PLUGINS
+"
+GMP_PLUGINS
+)
+;
+XPCOMUtils
+.
 defineLazyGetter
 (
 this

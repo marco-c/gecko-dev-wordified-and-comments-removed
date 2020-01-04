@@ -5044,6 +5044,7 @@ readonly
 true
 "
 >
+{
 let
 tmp
 =
@@ -5074,6 +5075,7 @@ tmp
 .
 TelemetryStopwatch
 ;
+}
 <
 /
 field

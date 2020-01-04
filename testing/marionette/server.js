@@ -21,7 +21,7 @@ Cu
 =
 Components
 ;
-const
+var
 loader
 =
 Cc
