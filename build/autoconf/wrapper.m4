@@ -575,12 +575,12 @@ ac_cv_prog_CXX
 "
 CXX
 "
-MOZ_USING_COMPILER_WRAPPER
-=
-1
 ;
 ;
 esac
+MOZ_USING_COMPILER_WRAPPER
+=
+1
 fi
 AC_SUBST
 (
