@@ -5318,6 +5318,12 @@ freeze
 this
 )
 ;
+LoopRooms
+.
+init
+(
+)
+;
 if
 (
 !

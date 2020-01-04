@@ -278,6 +278,11 @@ UITour
 :
 false
 "
+WebChannel
+"
+:
+false
+"
 XPCOMUtils
 "
 :

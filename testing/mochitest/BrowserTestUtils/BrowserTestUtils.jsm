@@ -226,6 +226,9 @@ options
 url
 )
 ;
+let
+result
+=
 yield
 taskFn
 (
@@ -241,6 +244,14 @@ gBrowser
 removeTab
 (
 tab
+)
+;
+return
+Promise
+.
+resolve
+(
+result
 )
 ;
 }
