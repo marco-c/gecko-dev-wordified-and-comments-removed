@@ -390,6 +390,11 @@ LogShake
 jsm
 '
 '
+MultiscreenHandler
+.
+jsm
+'
+'
 OrientationChangeHandler
 .
 jsm
