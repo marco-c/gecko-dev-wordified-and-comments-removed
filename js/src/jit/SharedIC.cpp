@@ -15710,6 +15710,7 @@ shape
 &
 isScripted
 isTemporarilyUnoptimizable
+isDOMProxy
 )
 ;
 if
