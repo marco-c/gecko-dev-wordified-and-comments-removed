@@ -588,6 +588,7 @@ length_
 struct
 auto_lock
 {
+explicit
 auto_lock
 (
 owned_critical_section
