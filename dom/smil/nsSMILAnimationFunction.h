@@ -312,6 +312,16 @@ mWasSkippedInPrevSample
 true
 ;
 }
+bool
+ValueNeedsReparsingEverySample
+(
+)
+const
+{
+return
+mValueNeedsReparsingEverySample
+;
+}
 class
 Comparator
 {

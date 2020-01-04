@@ -1155,6 +1155,11 @@ sampling
 return
 ;
 }
+bool
+isStyleFlushNeeded
+=
+mResampleNeeded
+;
 mResampleNeeded
 =
 false
@@ -1362,6 +1367,7 @@ AddAnimationToCompositorTable
 (
 animElem
 currentCompositorTable
+isStyleFlushNeeded
 )
 ;
 }
@@ -1556,6 +1562,11 @@ kungFuDeathGrip
 mDocument
 )
 ;
+if
+(
+isStyleFlushNeeded
+)
+{
 mDocument
 -
 >
@@ -1563,6 +1574,12 @@ FlushPendingNotifications
 (
 Flush_Style
 )
+;
+}
+bool
+mightHavePendingStyleUpdates
+=
+false
 ;
 for
 (
@@ -1599,6 +1616,7 @@ Get
 >
 ComposeAttribute
 (
+mightHavePendingStyleUpdates
 )
 ;
 }
@@ -1612,7 +1630,7 @@ forget
 ;
 mMightHavePendingStyleUpdates
 =
-true
+mightHavePendingStyleUpdates
 ;
 NS_ASSERTION
 (
@@ -2304,6 +2322,9 @@ aElement
 nsSMILCompositorTable
 *
 aCompositorTable
+bool
+&
+aStyleFlushNeeded
 )
 {
 nsSMILTargetIdentifier
@@ -2398,6 +2419,15 @@ ClearHasChanged
 )
 ;
 }
+aStyleFlushNeeded
+|
+=
+func
+.
+ValueNeedsReparsingEverySample
+(
+)
+;
 }
 static
 inline

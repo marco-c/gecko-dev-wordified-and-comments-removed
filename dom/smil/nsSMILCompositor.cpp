@@ -176,6 +176,9 @@ nsSMILCompositor
 :
 ComposeAttribute
 (
+bool
+&
+aMightHavePendingStyleUpdates
 )
 {
 if
@@ -222,6 +225,10 @@ smilAttr
 ClearAnimValue
 (
 )
+;
+aMightHavePendingStyleUpdates
+=
+true
 ;
 return
 ;
@@ -287,6 +294,10 @@ mForceCompositing
 return
 ;
 }
+aMightHavePendingStyleUpdates
+=
+true
+;
 uint32_t
 length
 =

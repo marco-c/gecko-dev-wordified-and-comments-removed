@@ -470,6 +470,9 @@ aElement
 nsSMILCompositorTable
 *
 aCompositorTable
+bool
+&
+aStyleFlushNeeded
 )
 ;
 static

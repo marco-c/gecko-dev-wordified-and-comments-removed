@@ -186,6 +186,9 @@ aFunc
 void
 ComposeAttribute
 (
+bool
+&
+aMightHavePendingStyleUpdates
 )
 ;
 void
