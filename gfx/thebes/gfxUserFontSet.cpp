@@ -3665,6 +3665,10 @@ mLocalRulesUsed
 (
 false
 )
+mRebuildLocalRules
+(
+false
+)
 mDownloadCount
 (
 0
@@ -4394,6 +4398,10 @@ if
 mLocalRulesUsed
 )
 {
+mRebuildLocalRules
+=
+true
+;
 DoRebuildUserFontSet
 (
 )
