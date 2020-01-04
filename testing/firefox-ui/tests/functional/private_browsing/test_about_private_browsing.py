@@ -4,12 +4,6 @@ import
 By
 Wait
 from
-marionette
-.
-marionette_test
-import
-skip_if_e10s
-from
 firefox_ui_harness
 .
 testcases
@@ -82,8 +76,6 @@ private
 -
 browsing
 '
-    
-skip_if_e10s
     
 def
 testCheckAboutPrivateBrowsing
