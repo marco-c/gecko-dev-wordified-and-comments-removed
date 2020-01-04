@@ -914,6 +914,12 @@ IMPL_EVENT_HANDLER
 (
 complete
 )
+unsigned
+long
+Length
+(
+)
+;
 bool
 IsOffline
 (

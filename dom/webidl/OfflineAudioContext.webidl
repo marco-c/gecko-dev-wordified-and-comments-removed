@@ -192,5 +192,11 @@ attribute
 EventHandler
 oncomplete
 ;
+readonly
+attribute
+unsigned
+long
+length
+;
 }
 ;
