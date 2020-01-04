@@ -108,6 +108,10 @@ mIntrinsicWidth
 (
 NS_INTRINSIC_WIDTH_UNKNOWN
 )
+mBlockStartAscent
+(
+0
+)
 {
 }
 NS_DECL_QUERYFRAME_TARGET
@@ -700,6 +704,14 @@ nsHTMLReflowMetrics
 aMetrics
 )
 ;
+void
+ComputeOverflow
+(
+nsOverflowAreas
+&
+aOverflowAreas
+)
+;
 static
 void
 DidReflowChildren
@@ -724,6 +736,9 @@ aRenderingContext
 ;
 nscoord
 mIntrinsicWidth
+;
+nscoord
+mBlockStartAscent
 ;
 private
 :
