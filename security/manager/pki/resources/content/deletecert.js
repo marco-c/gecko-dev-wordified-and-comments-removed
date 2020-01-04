@@ -367,7 +367,7 @@ confirm
 confirm
 )
 ;
-var
+let
 box
 =
 document
@@ -381,7 +381,7 @@ certlist
 ;
 for
 (
-var
+let
 x
 =
 0
