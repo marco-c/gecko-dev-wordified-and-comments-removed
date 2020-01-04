@@ -18158,6 +18158,15 @@ combined
 IsEmpty
 (
 )
+|
+|
+aData
+-
+>
+mLayerState
+=
+=
+LAYER_INACTIVE
 )
 {
 geometry
