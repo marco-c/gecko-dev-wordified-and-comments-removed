@@ -192,6 +192,7 @@ WorkerGlobalScope
 self
 ;
 [
+Throws
 Replaceable
 ]
 readonly
