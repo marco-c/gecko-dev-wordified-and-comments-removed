@@ -617,7 +617,7 @@ Type
 aPseudoType
 nsCSSProperty
 aProperty
-TimeDuration
+StickyTimeDuration
 aDuration
 const
 TimeStamp

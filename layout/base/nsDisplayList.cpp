@@ -2533,9 +2533,9 @@ duration
 (
 )
 =
-timing
+computedTiming
 .
-mIterationDuration
+mDuration
 ;
 animation
 -
