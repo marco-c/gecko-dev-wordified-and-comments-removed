@@ -234,7 +234,10 @@ mozilla
 image
 :
 :
-BMPFILEHEADER
+bmp
+:
+:
+FileHeader
 mBMPFileHeader
 ;
 mozilla
@@ -243,7 +246,10 @@ mozilla
 image
 :
 :
-BITMAPV5HEADER
+bmp
+:
+:
+V5InfoHeader
 mBMPInfoHeader
 ;
 uint8_t

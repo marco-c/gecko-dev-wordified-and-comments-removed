@@ -444,7 +444,10 @@ fileSize
 ;
 dataOffset
 =
-BMPFILEHEADER
+bmp
+:
+:
+FileHeader
 :
 :
 LENGTH
