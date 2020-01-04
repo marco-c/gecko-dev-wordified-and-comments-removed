@@ -8856,7 +8856,7 @@ return
 TextRangeType
 :
 :
-NS_TEXTRANGE_CARETPOSITION
+eCaret
 ;
 }
 }

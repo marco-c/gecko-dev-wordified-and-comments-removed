@@ -250,7 +250,7 @@ case
 TextRangeType
 :
 :
-NS_TEXTRANGE_CARETPOSITION
+eCaret
 :
 case
 TextRangeType
@@ -360,11 +360,14 @@ case
 TextRangeType
 :
 :
-NS_TEXTRANGE_CARETPOSITION
+eCaret
 :
 return
 "
-NS_TEXTRANGE_CARETPOSITION
+TextRangeType
+:
+:
+eCaret
 "
 ;
 case

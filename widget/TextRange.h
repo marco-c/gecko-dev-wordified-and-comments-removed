@@ -427,7 +427,7 @@ RawTextRangeType
 eUninitialized
 =
 0x00
-NS_TEXTRANGE_CARETPOSITION
+eCaret
 =
 0x01
 NS_TEXTRANGE_RAWINPUT
@@ -547,7 +547,7 @@ mRangeType
 TextRangeType
 :
 :
-NS_TEXTRANGE_CARETPOSITION
+eCaret
 ;
 }
 bool
@@ -972,7 +972,7 @@ mRangeType
 TextRangeType
 :
 :
-NS_TEXTRANGE_CARETPOSITION
+eCaret
 )
 {
 return
@@ -1011,7 +1011,7 @@ mRangeType
 TextRangeType
 :
 :
-NS_TEXTRANGE_CARETPOSITION
+eCaret
 )
 {
 return
