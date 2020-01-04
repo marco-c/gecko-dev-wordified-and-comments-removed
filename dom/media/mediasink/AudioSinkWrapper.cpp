@@ -473,12 +473,6 @@ AssertOwnerThread
 (
 )
 ;
-mParams
-.
-mPlaybackRate
-=
-aPlaybackRate
-;
 if
 (
 !
@@ -527,6 +521,12 @@ mPlayStartTime
 now
 ;
 }
+mParams
+.
+mPlaybackRate
+=
+aPlaybackRate
+;
 }
 void
 AudioSinkWrapper
