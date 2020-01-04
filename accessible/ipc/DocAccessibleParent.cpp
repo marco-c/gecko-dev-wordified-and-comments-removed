@@ -2466,11 +2466,6 @@ OuterDocOfRemoteBrowser
 (
 )
 ;
-MOZ_ASSERT
-(
-outerDoc
-)
-;
 IAccessible
 *
 rawNative

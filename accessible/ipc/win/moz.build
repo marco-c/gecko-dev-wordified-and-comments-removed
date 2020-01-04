@@ -152,6 +152,11 @@ DocAccessibleChild
 h
 '
 '
+PlatformChild
+.
+h
+'
+'
 ProxyAccessible
 .
 h
@@ -168,6 +173,11 @@ cpp
 '
 '
 DocAccessibleChild
+.
+cpp
+'
+'
+PlatformChild
 .
 cpp
 '
