@@ -207,6 +207,15 @@ aDispatchResult
 ;
 virtual
 bool
+PreRun
+(
+WorkerPrivate
+*
+aWorkerPrivate
+)
+;
+virtual
+bool
 WorkerRun
 (
 JSContext
