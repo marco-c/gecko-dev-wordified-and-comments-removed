@@ -303,6 +303,11 @@ node
 js
 '
 '
+CensusUtils
+.
+js
+'
+'
 HeapAnalysesClient
 .
 js
