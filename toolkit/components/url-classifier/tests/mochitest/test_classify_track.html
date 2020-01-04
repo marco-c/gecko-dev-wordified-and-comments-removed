@@ -751,7 +751,7 @@ PREF
 ;
 }
 function
-addMalewareUrlToDB
+setup
 (
 )
 {
@@ -843,7 +843,14 @@ resolve
 .
 then
 (
-addMalewareUrlToDB
+classifierHelper
+.
+waitForInit
+)
+.
+then
+(
+setup
 )
 .
 then

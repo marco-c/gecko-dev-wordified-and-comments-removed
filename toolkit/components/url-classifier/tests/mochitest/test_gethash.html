@@ -798,7 +798,7 @@ UNWANTED_HOST
 ;
 }
 function
-setupCompletion
+setup
 (
 )
 {
@@ -896,7 +896,14 @@ successfully
 .
 then
 (
-setupCompletion
+classifierHelper
+.
+waitForInit
+)
+.
+then
+(
+setup
 )
 .
 then
