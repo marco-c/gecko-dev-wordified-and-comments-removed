@@ -1632,6 +1632,11 @@ isThrowingOutOfMemory
 )
 ;
 bool
+isThrowingDebuggeeWouldRun
+(
+)
+;
+bool
 isClosingGenerator
 (
 )

@@ -661,6 +661,15 @@ cx
 isExceptionPending
 (
 )
+&
+&
+!
+cx
+-
+>
+isThrowingDebuggeeWouldRun
+(
+)
 )
 {
 RootedValue

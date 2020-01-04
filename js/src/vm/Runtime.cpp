@@ -644,6 +644,10 @@ entryMonitor
 (
 nullptr
 )
+noExecuteDebuggerTop
+(
+nullptr
+)
 parentRuntime
 (
 parentRuntime

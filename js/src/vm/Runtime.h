@@ -343,6 +343,9 @@ ExclusiveContext
 class
 AutoKeepAtoms
 ;
+class
+EnterDebuggeeNoExecute
+;
 #
 ifdef
 JS_TRACE_LOGGING
@@ -2529,6 +2532,13 @@ dbg
 AutoEntryMonitor
 *
 entryMonitor
+;
+js
+:
+:
+EnterDebuggeeNoExecute
+*
+noExecuteDebuggerTop
 ;
 js
 :
