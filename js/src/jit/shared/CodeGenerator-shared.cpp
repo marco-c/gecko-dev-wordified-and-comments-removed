@@ -418,7 +418,7 @@ frameDepth_
 gen
 -
 >
-maxAsmJSStackArgBytes
+wasmMaxStackArgBytes
 (
 )
 ;
