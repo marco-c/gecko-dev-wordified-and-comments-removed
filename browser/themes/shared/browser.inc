@@ -202,6 +202,10 @@ button
 webide
 -
 button
+#
+containers
+-
+panelmenu
 %
 ifdef
 XP_MACOSX

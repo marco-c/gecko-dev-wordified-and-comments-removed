@@ -2631,6 +2631,16 @@ Toolbar
 >
 <
 !
+ENTITY
+containersMenu
+.
+label
+"
+Containers
+"
+>
+<
+!
 -
 -
 LOCALIZATION
