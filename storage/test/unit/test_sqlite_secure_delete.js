@@ -87,6 +87,8 @@ available
 )
 ;
 }
+add_test
+(
 function
 test_delete_removes_data
 (
@@ -270,13 +272,6 @@ run_next_test
 )
 ;
 }
-[
-test_delete_removes_data
-]
-.
-forEach
-(
-add_test
 )
 ;
 function

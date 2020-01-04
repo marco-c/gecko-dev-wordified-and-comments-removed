@@ -97,6 +97,11 @@ Ci
 nsIProperties
 )
 ;
+var
+gDBConn
+=
+null
+;
 function
 getTestDB
 (
@@ -409,11 +414,6 @@ mozIStorageService
 )
 ;
 }
-var
-gDBConn
-=
-null
-;
 function
 getOpenedDatabase
 (
@@ -772,9 +772,7 @@ else
 if
 (
 typeof
-(
 expectedVal
-)
 =
 =
 "
@@ -842,9 +840,7 @@ else
 if
 (
 typeof
-(
 expectedVal
-)
 =
 =
 "

@@ -80,9 +80,7 @@ else
 if
 (
 typeof
-(
 aResults
-)
 =
 =
 "
@@ -99,9 +97,7 @@ else
 if
 (
 typeof
-(
 aResults
-)
 =
 =
 "
@@ -231,8 +227,6 @@ listener
 =
 {
 handleResult
-:
-function
 (
 aResultSet
 )
@@ -299,8 +293,6 @@ rows
 ;
 }
 handleError
-:
-function
 (
 aError
 )
@@ -335,8 +327,6 @@ result
 ;
 }
 handleCompletion
-:
-function
 (
 aReason
 )
@@ -1216,7 +1206,7 @@ length
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -1296,7 +1286,7 @@ value
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -1753,8 +1743,6 @@ executeAsync
 (
 {
 handleResult
-:
-function
 (
 aResultSet
 )
@@ -1769,8 +1757,6 @@ executeAsync
 (
 {
 handleError
-:
-function
 (
 aError
 )
@@ -1785,8 +1771,6 @@ executeAsync
 (
 {
 handleCompletion
-:
-function
 (
 aReason
 )
@@ -4181,6 +4165,7 @@ testPass
 =
 TEST_PASS_SYNC
 )
+{
 return
 getOpenedDatabase
 (
@@ -4191,7 +4176,7 @@ createStatement
 aSQL
 )
 ;
-else
+}
 return
 getOpenedDatabase
 (

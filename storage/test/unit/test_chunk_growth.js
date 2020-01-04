@@ -14,11 +14,13 @@ createStatement
 (
 sql
 )
+;
 stmt
 .
 execute
 (
 )
+;
 stmt
 .
 finalize
@@ -71,6 +73,7 @@ name
 )
 .
 fileSize
+;
 }
 function
 run_test
@@ -235,6 +238,7 @@ get_size
 (
 filename
 )
+;
 do_check_true
 (
 size
@@ -259,6 +263,7 @@ FROM
 bloat
 "
 )
+;
 run_sql
 (
 d
@@ -266,6 +271,7 @@ d
 VACUUM
 "
 )
+;
 do_check_true
 (
 get_size
@@ -276,4 +282,5 @@ filename
 =
 CHUNK_SIZE
 )
+;
 }

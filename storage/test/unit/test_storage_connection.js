@@ -1463,6 +1463,7 @@ exists
 (
 )
 )
+{
 try
 {
 temp
@@ -1478,6 +1479,7 @@ catch
 e2
 )
 {
+}
 }
 do_check_true
 (
@@ -1601,8 +1603,6 @@ ran
 :
 false
 run
-:
-function
 (
 )
 {
@@ -2288,7 +2288,7 @@ executeAsync
 stmt
 function
 (
-result
+results
 )
 {
 do_print
@@ -2306,7 +2306,7 @@ for
 let
 row
 =
-result
+results
 .
 getNextRow
 (
@@ -2319,7 +2319,7 @@ null
 ;
 row
 =
-result
+results
 .
 getNextRow
 (
@@ -2786,7 +2786,7 @@ executeAsync
 stmt
 function
 (
-result
+results
 )
 {
 do_print
@@ -2804,7 +2804,7 @@ for
 let
 row
 =
-result
+results
 .
 getNextRow
 (
@@ -2817,7 +2817,7 @@ null
 ;
 row
 =
-result
+results
 .
 getNextRow
 (
@@ -3173,7 +3173,7 @@ executeAsync
 stmt
 function
 (
-result
+results
 )
 {
 do_print
@@ -3191,7 +3191,7 @@ for
 let
 row
 =
-result
+results
 .
 getNextRow
 (
@@ -3204,7 +3204,7 @@ null
 ;
 row
 =
-result
+results
 .
 getNextRow
 (
@@ -3885,8 +3885,6 @@ prototype
 =
 {
 onFunctionCall
-:
-function
 (
 )
 {
@@ -3898,8 +3896,6 @@ true
 ;
 }
 onStep
-:
-function
 (
 )
 {
