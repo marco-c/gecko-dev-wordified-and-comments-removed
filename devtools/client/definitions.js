@@ -2578,9 +2578,6 @@ Memory
 keyboardshortcut
 )
 "
-hiddenInOptions
-:
-true
 isTargetSupported
 :
 function
@@ -2589,7 +2586,14 @@ target
 )
 {
 return
-true
+target
+.
+getTrait
+(
+"
+heapSnapshots
+"
+)
 ;
 }
 build
