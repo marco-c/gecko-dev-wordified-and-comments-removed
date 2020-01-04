@@ -133,8 +133,6 @@ const
 Limitations
 &
 limitations
-bool
-skipValidation
 )
 :
 mData
@@ -153,10 +151,6 @@ textureCaps
 extensions
 resourceManager
 limitations
-)
-mSkipValidation
-(
-skipValidation
 )
 {
 }

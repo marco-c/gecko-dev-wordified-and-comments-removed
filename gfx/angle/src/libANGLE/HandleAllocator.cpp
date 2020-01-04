@@ -522,13 +522,6 @@ begin
 handle
 )
 {
-ASSERT
-(
-begin
-<
-handle
-)
-;
 mUnallocatedList
 .
 insert

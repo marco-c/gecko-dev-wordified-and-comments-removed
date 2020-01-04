@@ -55,8 +55,6 @@ const
 FunctionsWGL
 *
 functions
-EGLint
-orientation
 )
 ;
 ~

@@ -1619,16 +1619,6 @@ mBufferToTextureGS
 NULL
 )
 ;
-auto
-stateManager
-=
-mRenderer
--
->
-getStateManager
-(
-)
-;
 deviceContext
 -
 >
@@ -1659,7 +1649,7 @@ NULL
 0
 )
 ;
-stateManager
+mRenderer
 -
 >
 setShaderResource
@@ -1869,7 +1859,7 @@ numPixels
 0
 )
 ;
-stateManager
+mRenderer
 -
 >
 setShaderResource

@@ -221,7 +221,7 @@ getOutputType
 )
 =
 =
-SH_HLSL_3_0_OUTPUT
+SH_HLSL9_OUTPUT
 &
 &
 getShaderType

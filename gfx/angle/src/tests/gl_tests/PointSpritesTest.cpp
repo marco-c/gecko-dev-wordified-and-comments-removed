@@ -887,7 +887,7 @@ main
 {
 gl_PointSize
 =
-2
+1
 .
 0
 ;
@@ -2027,12 +2027,6 @@ ES2_D3D11
 (
 )
 ES2_D3D11_FL9_3
-(
-)
-ES2_OPENGL
-(
-)
-ES2_OPENGLES
 (
 )
 )

@@ -41,8 +41,8 @@ public
 :
 CompilerD3D
 (
-ShShaderOutput
-translatorOutputType
+RendererClass
+rendererClass
 )
 ;
 ~

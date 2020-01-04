@@ -199,7 +199,7 @@ sawBit
 =
 true
 ;
-UNUSED_VARIABLE
+UNUSED_TRACE_VARIABLE
 (
 bit
 )

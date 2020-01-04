@@ -814,8 +814,5 @@ ES2_D3D11
 ES2_OPENGL
 (
 )
-ES2_OPENGLES
-(
-)
 )
 ;
