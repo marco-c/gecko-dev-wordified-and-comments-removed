@@ -3172,9 +3172,8 @@ NS_ERROR_UNEXPECTED
 if
 (
 activeDocsSandboxFlags
-!
-=
-0
+&
+SANDBOX_PROPAGATES_TO_AUXILIARY_BROWSING_CONTEXTS
 )
 {
 newDocShell
