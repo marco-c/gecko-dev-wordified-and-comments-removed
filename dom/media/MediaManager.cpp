@@ -4106,6 +4106,7 @@ aTrackID
 :
 MediaStreamTrackSource
 (
+nullptr
 false
 )
 mListener
