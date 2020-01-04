@@ -166,7 +166,7 @@ require
 =
 >
 {
-const
+let
 uri
 =
 require
