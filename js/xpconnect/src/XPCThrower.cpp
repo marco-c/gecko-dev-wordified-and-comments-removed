@@ -309,6 +309,11 @@ char
 )
 format
 ;
+NS_ENSURE_TRUE_VOID
+(
+sz
+)
+;
 if
 (
 sz
@@ -467,6 +472,11 @@ format
 result
 )
 ;
+NS_ENSURE_TRUE_VOID
+(
+sz
+)
+;
 if
 (
 sz
@@ -561,6 +571,11 @@ d
 "
 format
 paramNum
+)
+;
+NS_ENSURE_TRUE_VOID
+(
+sz
 )
 ;
 if
