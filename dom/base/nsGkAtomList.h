@@ -1798,6 +1798,15 @@ declare
 )
 GK_ATOM
 (
+decoderDoctor
+"
+decoder
+-
+doctor
+"
+)
+GK_ATOM
+(
 decrement
 "
 decrement
