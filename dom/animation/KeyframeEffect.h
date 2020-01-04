@@ -225,6 +225,9 @@ ComputedTiming
 StickyTimeDuration
 mActiveDuration
 ;
+StickyTimeDuration
+mEndTime
+;
 Nullable
 <
 double
