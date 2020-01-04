@@ -619,11 +619,6 @@ nsProtectedAuthThread
 cpp
 '
 '
-nsPSMBackgroundThread
-.
-cpp
-'
-'
 nsRandomGenerator
 .
 cpp
