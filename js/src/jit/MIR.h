@@ -18226,6 +18226,8 @@ Compare_Int32MaybeCoerceBoth
 Compare_Int32MaybeCoerceLHS
 Compare_Int32MaybeCoerceRHS
 Compare_UInt32
+Compare_Int64
+Compare_UInt64
 Compare_Double
 Compare_DoubleMaybeCoerceLHS
 Compare_DoubleMaybeCoerceRHS
