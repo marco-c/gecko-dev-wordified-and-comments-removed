@@ -1079,7 +1079,7 @@ ACCESSIBILITY
 #
 include
 "
-nsIAccessibilityService
+nsAccessibilityService
 .
 h
 "
@@ -10761,16 +10761,7 @@ RecvActivateA11y
 #
 ifdef
 ACCESSIBILITY
-nsCOMPtr
-<
-nsIAccessibilityService
->
-accService
-=
-services
-:
-:
-GetAccessibilityService
+GetOrCreateAccService
 (
 )
 ;

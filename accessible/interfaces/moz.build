@@ -121,6 +121,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsIAccessibilityService
+.
+idl
+'
+'
 nsIAccessible
 .
 idl
@@ -182,11 +187,6 @@ idl
 '
 '
 nsIAccessibleRelation
-.
-idl
-'
-'
-nsIAccessibleRetrieval
 .
 idl
 '
@@ -261,13 +261,3 @@ XPIDL_MODULE
 '
 accessibility
 '
-EXPORTS
-+
-=
-[
-'
-nsIAccessibilityService
-.
-h
-'
-]

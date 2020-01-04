@@ -95,6 +95,11 @@ nsAccessibleRelation
 cpp
 '
 '
+xpcAccessibilityService
+.
+cpp
+'
+'
 xpcAccessible
 .
 cpp
@@ -173,6 +178,11 @@ EXPORTS
 '
 !
 xpcAccEvents
+.
+h
+'
+'
+xpcAccessibilityService
 .
 h
 '
