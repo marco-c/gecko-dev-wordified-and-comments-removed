@@ -624,6 +624,9 @@ CreateAnonymousDecoder
 (
 decoderType
 sourceBuffer
+Nothing
+(
+)
 DefaultSurfaceFlags
 (
 )
@@ -781,6 +784,9 @@ CreateAnonymousDecoder
 (
 decoderType
 sourceBuffer
+Nothing
+(
+)
 DefaultSurfaceFlags
 (
 )
