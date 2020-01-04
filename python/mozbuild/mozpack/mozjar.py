@@ -2316,6 +2316,9 @@ None
 fileobj
 =
 None
+data
+=
+None
 )
 :
         
@@ -2369,7 +2372,8 @@ read
 (
 )
         
-else
+elif
+file
 :
             
 data
