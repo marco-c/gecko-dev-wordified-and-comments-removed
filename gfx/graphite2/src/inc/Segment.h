@@ -99,7 +99,7 @@ h
 #
 define
 MAX_SEG_GROWTH_FACTOR
-256
+64
 namespace
 graphite2
 {
@@ -1171,6 +1171,9 @@ m_flags
 &
 SEG_HASCOLLISIONS
 )
+&
+&
+m_collisions
 ;
 }
 SlotCollision
