@@ -236,7 +236,7 @@ ManagedPTestManyChildAllocsSubChild
 (
 )
 .
-Length
+Count
 (
 )
 ;
