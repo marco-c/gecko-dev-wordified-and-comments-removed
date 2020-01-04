@@ -257,17 +257,6 @@ NoteStoppedControllingDocuments
 (
 )
 ;
-WorkerPrivate
-*
-GetWorkerPrivate
-(
-)
-const
-{
-return
-mWorkerPrivate
-;
-}
 void
 Activated
 (
