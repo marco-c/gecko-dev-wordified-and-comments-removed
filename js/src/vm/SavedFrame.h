@@ -7,6 +7,15 @@ vm_SavedFrame_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 jswrapper
 .
 h
@@ -787,6 +796,7 @@ cx
 )
 ;
 static
+MOZ_MUST_USE
 bool
 finishSavedFrameInit
 (
@@ -881,6 +891,7 @@ JSSLOT_COUNT
 }
 ;
 static
+MOZ_MUST_USE
 bool
 checkThis
 (
@@ -1018,6 +1029,7 @@ refcount
 1
 ;
 }
+MOZ_MUST_USE
 bool
 write
 (
@@ -1457,6 +1469,7 @@ isSystem
 const
 override
 ;
+MOZ_MUST_USE
 bool
 constructSavedFrameStack
 (
