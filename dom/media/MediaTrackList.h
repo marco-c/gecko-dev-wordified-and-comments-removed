@@ -88,6 +88,7 @@ MediaTrack
 aTrack
 )
 ;
+virtual
 void
 RemoveTrack
 (
