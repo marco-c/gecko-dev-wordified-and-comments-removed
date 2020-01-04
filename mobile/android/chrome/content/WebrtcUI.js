@@ -950,6 +950,9 @@ camera
 "
 perms
 .
+ALLOW_ACTION
+perms
+.
 EXPIRE_SESSION
 )
 ;
