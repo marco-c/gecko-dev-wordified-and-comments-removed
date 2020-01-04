@@ -128,7 +128,7 @@ CategoryNode
 {
 public
 :
-NS_METHOD
+nsresult
 GetLeaf
 (
 const
@@ -141,7 +141,7 @@ char
 aResult
 )
 ;
-NS_METHOD
+nsresult
 AddLeaf
 (
 const
@@ -220,7 +220,7 @@ return
 tCount
 ;
 }
-NS_METHOD
+nsresult
 Enumerate
 (
 nsISimpleEnumerator
@@ -317,7 +317,7 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSICATEGORYMANAGER
 NS_DECL_NSIMEMORYREPORTER
-NS_METHOD
+nsresult
 SuppressNotifications
 (
 bool
