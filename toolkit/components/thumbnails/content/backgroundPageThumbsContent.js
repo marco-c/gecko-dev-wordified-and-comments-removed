@@ -100,6 +100,11 @@ STATE_CANCELED
 3
 ;
 const
+SANDBOXED_AUXILIARY_NAVIGATION
+=
+0x2
+;
+const
 backgroundPageThumbsContent
 =
 {
@@ -204,6 +209,13 @@ docShell
 defaultLoadFlags
 =
 defaultFlags
+;
+docShell
+.
+sandboxFlags
+|
+=
+SANDBOXED_AUXILIARY_NAVIGATION
 ;
 addMessageListener
 (
