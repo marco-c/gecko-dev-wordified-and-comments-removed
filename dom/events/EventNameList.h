@@ -506,7 +506,7 @@ eBeforeAfterKeyboardEventClass
 EVENT
 (
 loadeddata
-NS_LOADEDDATA
+eLoadedData
 EventNameType_HTML
 eBasicEventClass
 )
