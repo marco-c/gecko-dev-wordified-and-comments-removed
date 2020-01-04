@@ -281,6 +281,11 @@ poller
 js
 '
 '
+prefs
+.
+js
+'
+'
 source
 -
 utils
