@@ -3019,7 +3019,7 @@ label
 =
 "
 &
-responsiveDesignTool
+responsiveDesignMode
 .
 label
 ;
@@ -3948,7 +3948,7 @@ key
 =
 "
 &
-responsiveDesignTool
+responsiveDesignMode
 .
 commandkey
 ;

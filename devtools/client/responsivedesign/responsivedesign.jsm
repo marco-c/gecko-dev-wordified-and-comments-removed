@@ -3240,7 +3240,7 @@ GetStringFromName
 "
 responsiveUI
 .
-close
+close1
 "
 )
 )
@@ -4981,7 +4981,7 @@ GetStringFromName
 "
 responsiveUI
 .
-customNamePromptTitle
+customNamePromptTitle1
 "
 )
 ;

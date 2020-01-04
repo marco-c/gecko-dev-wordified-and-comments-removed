@@ -4195,7 +4195,7 @@ accesskey
 =
 "
 &
-responsiveDesignTool
+responsiveDesignMode
 .
 accesskey
 ;
