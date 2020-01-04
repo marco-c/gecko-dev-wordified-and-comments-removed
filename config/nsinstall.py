@@ -7,6 +7,8 @@ optparse
 import
 OptionParser
 import
+mozfile
+import
 os
 import
 os
@@ -896,16 +898,16 @@ win32
 "
 :
             
-os
+mozfile
 .
-chmod
+remove
 (
 targetpath
-stat
-.
-S_IWUSR
 )
           
+else
+:
+            
 os
 .
 remove
