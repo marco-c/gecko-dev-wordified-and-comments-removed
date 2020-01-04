@@ -719,6 +719,11 @@ MediaSegment
 h
 '
 '
+MediaStatistics
+.
+h
+'
+'
 MediaStreamGraph
 .
 h
