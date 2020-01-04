@@ -1521,7 +1521,7 @@ defineLazyModuleGetter
 (
 this
 "
-gWebRTCUI
+webrtcUI
 "
 "
 resource
@@ -1534,9 +1534,6 @@ modules
 webrtcUI
 .
 jsm
-"
-"
-webrtcUI
 "
 )
 ;

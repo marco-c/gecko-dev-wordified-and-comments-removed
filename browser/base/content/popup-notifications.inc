@@ -198,7 +198,7 @@ menulist
 oncommand
 =
 "
-gWebRTCUI
+webrtcUI
 .
 updateMainActionLabel
 (
