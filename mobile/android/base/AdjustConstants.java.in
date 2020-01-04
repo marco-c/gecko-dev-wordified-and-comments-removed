@@ -4,6 +4,13 @@
 filter
 substitution
 /
+/
+#
+include
+OBJDIR
+/
+adjust_sdk_app_token
+/
 *
 -
 *
