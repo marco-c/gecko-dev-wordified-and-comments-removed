@@ -36601,6 +36601,9 @@ Finalize
 "
 Compact
 "
+"
+Decommit
+"
 }
 ;
 MOZ_ASSERT
