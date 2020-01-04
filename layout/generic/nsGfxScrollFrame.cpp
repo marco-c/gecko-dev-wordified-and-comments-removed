@@ -19200,6 +19200,16 @@ resizeStyle
 !
 =
 NS_STYLE_RESIZE_NONE
+&
+&
+!
+mOuter
+-
+>
+HasAnyStateBits
+(
+NS_FRAME_GENERATED_CONTENT
+)
 ;
 nsIScrollableFrame
 *
