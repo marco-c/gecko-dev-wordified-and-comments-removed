@@ -2324,6 +2324,16 @@ scheme
 EqualsLiteral
 (
 "
+resource
+"
+)
+|
+|
+scheme
+.
+EqualsLiteral
+(
+"
 app
 "
 )
