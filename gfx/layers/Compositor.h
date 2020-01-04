@@ -1319,6 +1319,17 @@ IsValid
 )
 const
 ;
+CompositorBridgeParent
+*
+GetCompositorBridgeParent
+(
+)
+const
+{
+return
+mParent
+;
+}
 protected
 :
 void
