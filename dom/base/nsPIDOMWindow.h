@@ -305,6 +305,15 @@ GetTopWindowRoot
 0
 ;
 virtual
+nsPIDOMWindowOuter
+*
+GetScriptableParentOrNull
+(
+)
+=
+0
+;
+virtual
 nsresult
 RegisterIdleObserver
 (
