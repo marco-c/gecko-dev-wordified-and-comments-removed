@@ -723,6 +723,11 @@ MP3FrameParser
 h
 '
 '
+NextFrameSeekTask
+.
+h
+'
+'
 nsIDocumentActivity
 .
 h
@@ -1241,6 +1246,11 @@ cpp
 '
 '
 MP3FrameParser
+.
+cpp
+'
+'
+NextFrameSeekTask
 .
 cpp
 '
