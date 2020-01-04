@@ -1451,7 +1451,7 @@ for
 (
 let
 id
-in
+of
 [
 "
 context
