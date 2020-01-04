@@ -194,13 +194,6 @@ changes
 any
 more
 .
-Bug
-479520
--
-Implement
-IDNA2008
-standard
-for
-International
-Domain
-Names
+Merge
+day
+clobber
