@@ -118,11 +118,6 @@ ANPPaint
 cpp
 '
 '
-ANPPath
-.
-cpp
-'
-'
 ANPTypeface
 .
 cpp
