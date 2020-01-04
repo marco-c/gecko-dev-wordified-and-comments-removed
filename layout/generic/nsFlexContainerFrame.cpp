@@ -5099,7 +5099,7 @@ flexContainerRS
 =
 aItemReflowState
 .
-parentReflowState
+mParentReflowState
 ;
 MOZ_ASSERT
 (
@@ -5916,7 +5916,7 @@ containerRS
 =
 aFlexItemReflowState
 .
-parentReflowState
+mParentReflowState
 ;
 if
 (

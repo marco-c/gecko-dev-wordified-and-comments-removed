@@ -49248,7 +49248,7 @@ parentRS
 aReflowState
 -
 >
-parentReflowState
+mParentReflowState
 ;
 parentFrame
 =
@@ -51700,7 +51700,7 @@ void
 aState
 -
 >
-parentReflowState
+mParentReflowState
 )
 ;
 char

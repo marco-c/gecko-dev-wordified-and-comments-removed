@@ -7929,7 +7929,7 @@ parentRS
 =
 aReflowState
 .
-parentReflowState
+mParentReflowState
 ;
 if
 (
@@ -7952,7 +7952,7 @@ parentRS
 parentRS
 -
 >
-parentReflowState
+mParentReflowState
 ;
 }
 if

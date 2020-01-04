@@ -1665,7 +1665,7 @@ aPresContext
 *
 aReflowState
 .
-parentReflowState
+mParentReflowState
 textContainer
 availSize
 .

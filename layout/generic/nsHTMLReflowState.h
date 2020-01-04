@@ -782,7 +782,7 @@ nsCSSOffsetState
 const
 nsHTMLReflowState
 *
-parentReflowState
+mParentReflowState
 ;
 nsFloatManager
 *
