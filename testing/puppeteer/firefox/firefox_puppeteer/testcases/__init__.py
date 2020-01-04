@@ -1,0 +1,16 @@
+from
+firefox_puppeteer
+.
+testcases
+.
+base
+import
+FirefoxTestCase
+from
+firefox_puppeteer
+.
+testcases
+.
+update
+import
+UpdateTestCase
