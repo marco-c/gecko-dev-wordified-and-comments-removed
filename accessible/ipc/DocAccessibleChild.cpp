@@ -866,6 +866,12 @@ NewTree
 SendShowEvent
 (
 data
+aShowEvent
+-
+>
+IsFromUserInput
+(
+)
 )
 ;
 }

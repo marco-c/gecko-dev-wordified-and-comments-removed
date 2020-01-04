@@ -85,6 +85,10 @@ const
 ShowEventData
 &
 aData
+const
+bool
+&
+aFromUser
 )
 {
 if
@@ -563,6 +567,10 @@ const
 uint64_t
 &
 aRootID
+const
+bool
+&
+aFromUser
 )
 {
 if

@@ -293,6 +293,8 @@ ShowEvent
 (
 ShowEventData
 data
+bool
+aFromuser
 )
 ;
 async
@@ -300,6 +302,8 @@ HideEvent
 (
 uint64_t
 aRootID
+bool
+aFromUser
 )
 ;
 async

@@ -172,6 +172,10 @@ const
 ShowEventData
 &
 aData
+const
+bool
+&
+aFromUser
 )
 override
 ;
@@ -183,6 +187,10 @@ const
 uint64_t
 &
 aRootID
+const
+bool
+&
+aFromUser
 )
 override
 ;
