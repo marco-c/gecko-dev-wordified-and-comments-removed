@@ -16,7 +16,7 @@ variables
 build_name
 :
 '
-linux32
+linux
 '
 task
 :
@@ -41,7 +41,7 @@ project
 }
 }
 .
-linux32
+linux
 '
 -
 '
@@ -63,7 +63,7 @@ project
 }
 }
 .
-linux32
+linux
 '
 scopes
 :
