@@ -8397,6 +8397,13 @@ init
 (
 aCx
 exn
+js
+:
+:
+ErrorReport
+:
+:
+WithSideEffects
 )
 )
 {

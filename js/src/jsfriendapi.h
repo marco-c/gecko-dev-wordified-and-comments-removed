@@ -5716,6 +5716,13 @@ ErrorReport
 (
 )
 ;
+enum
+SniffingBehavior
+{
+WithSideEffects
+NoSideEffects
+}
+;
 bool
 init
 (
@@ -5727,6 +5734,8 @@ JS
 :
 HandleValue
 exn
+SniffingBehavior
+sniffingBehavior
 )
 ;
 JSErrorReport
