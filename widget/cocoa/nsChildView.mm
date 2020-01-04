@@ -24552,7 +24552,7 @@ eGestureState_StartGesture
 :
 msg
 =
-NS_SIMPLE_GESTURE_ROTATE_START
+eRotateGestureStart
 ;
 mGestureState
 =
