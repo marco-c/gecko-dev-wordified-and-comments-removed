@@ -579,12 +579,6 @@ return
 mRealTime
 ;
 }
-bool
-OnTaskQueue
-(
-)
-const
-;
 size_t
 SizeOfVideoQueue
 (
@@ -633,6 +627,12 @@ return
 }
 private
 :
+bool
+OnTaskQueue
+(
+)
+const
+;
 void
 InitializationTask
 (
