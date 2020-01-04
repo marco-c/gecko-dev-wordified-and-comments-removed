@@ -2270,7 +2270,6 @@ uint32_t
 >
 (
 [
-&
 ]
 (
 uint32_t
@@ -2282,7 +2281,7 @@ aLength
 {
 memset
 (
-rowPtr
+aRow
 0
 aLength
 *
@@ -2299,6 +2298,14 @@ Nothing
 ;
 }
 )
+;
+mRow
+=
+InputSize
+(
+)
+.
+height
 ;
 return
 nullptr
