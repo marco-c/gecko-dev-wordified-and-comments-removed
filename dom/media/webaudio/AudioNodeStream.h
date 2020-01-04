@@ -179,8 +179,6 @@ aKind
 MediaStreamGraph
 *
 aGraph
-=
-nullptr
 )
 ;
 protected
