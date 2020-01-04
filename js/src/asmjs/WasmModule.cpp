@@ -1835,14 +1835,6 @@ kind_
 =
 =
 ImportInterpExit
-|
-|
-u
-.
-kind_
-=
-=
-ErrorExit
 )
 ;
 }
@@ -4398,7 +4390,7 @@ if
 codeRange
 -
 >
-isErrorExit
+isInline
 (
 )
 )
@@ -5888,7 +5880,7 @@ profilingEnabled_
 codeRange
 -
 >
-isErrorExit
+isInline
 (
 )
 )

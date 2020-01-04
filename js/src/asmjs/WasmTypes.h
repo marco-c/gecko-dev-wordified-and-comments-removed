@@ -2815,7 +2815,6 @@ Runtime
 RuntimeInterruptUint32
 StackLimit
 ReportOverRecursed
-BadIndirectCall
 HandleExecutionInterrupt
 HandleTrap
 InvokeImport_Void
@@ -2861,6 +2860,7 @@ IntegerOverflow
 InvalidConversionToInteger
 IntegerDivideByZero
 OutOfBounds
+BadIndirectCall
 ImpreciseSimdConversion
 Limit
 }
@@ -2914,6 +2914,15 @@ Trap
 :
 OutOfBounds
 )
+BadIndirectCall
+=
+unsigned
+(
+Trap
+:
+:
+BadIndirectCall
+)
 ImpreciseSimdConversion
 =
 unsigned
@@ -2924,7 +2933,6 @@ Trap
 ImpreciseSimdConversion
 )
 StackOverflow
-BadIndirectCall
 Throw
 Limit
 }
