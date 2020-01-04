@@ -1019,7 +1019,6 @@ mPrevPp1Ticks
 joulesPerTick
 )
 :
--
 kUnsupported_j
 ;
 aRam_J
@@ -1041,7 +1040,6 @@ kQuirkyRamJoulesPerTick
 joulesPerTick
 )
 :
--
 kUnsupported_j
 ;
 mPrevPkgTicks
@@ -1588,7 +1586,6 @@ mIsSupported
 )
 {
 return
--
 kUnsupported_j
 ;
 }
