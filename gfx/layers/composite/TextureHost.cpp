@@ -2749,6 +2749,7 @@ mCompositor
 >
 CreateDataTextureSource
 (
+mFlags
 )
 ;
 }
