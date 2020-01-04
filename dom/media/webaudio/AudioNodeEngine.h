@@ -1082,17 +1082,6 @@ bool
 aFinished
 )
 ;
-virtual
-bool
-IsActive
-(
-)
-const
-{
-return
-false
-;
-}
 bool
 HasNode
 (
