@@ -1128,6 +1128,12 @@ shadow
 }
 .
 CodeMirror
+.
+cm
+-
+s
+-
+mozilla
 {
 font
 -
@@ -1148,6 +1154,12 @@ transparent
 }
 .
 CodeMirror
+.
+cm
+-
+s
+-
+mozilla
 pre
 .
 cm
