@@ -397,6 +397,12 @@ AutoObjectVector
 aScopeChain
 )
 ;
+static
+void
+ResetTimeZone
+(
+)
+;
 private
 :
 static
