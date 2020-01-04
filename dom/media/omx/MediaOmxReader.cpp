@@ -652,7 +652,6 @@ __func__
 ;
 ResetDecode
 (
-AUDIO_VIDEO
 )
 ;
 VideoFrameContainer

@@ -236,8 +236,8 @@ override
 nsresult
 ResetDecode
 (
-TargetQueues
-aQueues
+TrackSet
+aTracks
 )
 override
 ;

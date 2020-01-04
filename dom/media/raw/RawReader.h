@@ -53,8 +53,8 @@ public
 nsresult
 ResetDecode
 (
-TargetQueues
-aQueues
+TrackSet
+aTracks
 )
 override
 ;

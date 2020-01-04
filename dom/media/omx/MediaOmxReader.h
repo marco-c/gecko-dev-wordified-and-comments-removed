@@ -236,12 +236,13 @@ override
 public
 :
 nsresult
-ResetDecode
+ResetDecoder
 (
-TargetQueues
-aQueues
+TrackSet
+aTracks
 )
 override
+;
 {
 mSeekRequest
 .
@@ -263,7 +264,7 @@ MediaDecoderReader
 :
 ResetDecode
 (
-aQueues
+aTracks
 )
 ;
 }
