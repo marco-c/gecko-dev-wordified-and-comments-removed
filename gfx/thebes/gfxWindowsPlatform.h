@@ -427,12 +427,6 @@ RENDER_DIRECT2D
 RENDER_MODE_MAX
 }
 ;
-int
-GetScreenDepth
-(
-)
-const
-;
 RenderMode
 GetRenderMode
 (
