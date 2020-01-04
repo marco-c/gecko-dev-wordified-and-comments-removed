@@ -7447,6 +7447,13 @@ FALSE
 ;
 if
 (
+!
+surface
+-
+>
+status
+&
+&
 surface
 -
 >
