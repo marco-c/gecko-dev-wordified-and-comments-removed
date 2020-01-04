@@ -5714,13 +5714,10 @@ ArrayBufferObjectMaybeShared
 *
 >
 heap
-const
-AutoVectorRooter
+Handle
 <
-JSFunction
-*
+FunctionVector
 >
-&
 importArgs
 )
 {

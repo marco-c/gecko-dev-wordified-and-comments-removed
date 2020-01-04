@@ -2004,6 +2004,11 @@ char
 name
 )
 {
+if
+(
+*
+thingp
+)
 TraceManuallyBarrieredEdge
 (
 trc
@@ -2023,6 +2028,10 @@ thingp
 )
 {
 return
+*
+thingp
+&
+&
 gc
 :
 :
