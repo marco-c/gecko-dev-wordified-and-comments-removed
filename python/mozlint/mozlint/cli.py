@@ -705,6 +705,18 @@ formatter
 (
 results
 )
+.
+encode
+(
+'
+utf
+-
+8
+'
+'
+replace
+'
+)
 )
     
 return
