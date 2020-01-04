@@ -875,9 +875,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Exception

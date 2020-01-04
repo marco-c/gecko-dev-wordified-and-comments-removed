@@ -5,7 +5,6 @@ strict
 ;
 const
 {
-Cu
 Ci
 }
 =
@@ -1087,9 +1086,9 @@ catch
 err
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Failed

@@ -750,9 +750,9 @@ ex
 .
 stack
 ;
-Cu
+console
 .
-reportError
+error
 (
 msg
 )
