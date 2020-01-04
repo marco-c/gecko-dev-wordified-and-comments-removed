@@ -1958,7 +1958,10 @@ jumpTableEntry_
 uint8_t
 *
 )
+uintptr_t
+(
 0xdeadab1e
+)
 ;
 #
 endif
