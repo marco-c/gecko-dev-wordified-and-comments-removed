@@ -284,6 +284,9 @@ TestCOMPtr
 TestCOMPtrEq
 '
 '
+TestDeque
+'
+'
 TestFile
 '
 '
