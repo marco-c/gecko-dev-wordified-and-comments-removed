@@ -324,6 +324,10 @@ const
 NET_STRINGS_URI
 =
 "
+chrome
+:
+/
+/
 devtools
 /
 locale
@@ -337,6 +341,10 @@ const
 WEBCONSOLE_STRINGS_URI
 =
 "
+chrome
+:
+/
+/
 devtools
 /
 locale
@@ -11252,6 +11260,9 @@ let
 sections
 =
 [
+"
+blocked
+"
 "
 dns
 "
