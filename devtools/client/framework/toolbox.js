@@ -1876,6 +1876,9 @@ domReady
 resolve
 (
 )
+this
+.
+_URL
 )
 ;
 yield
