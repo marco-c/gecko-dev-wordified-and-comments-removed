@@ -40745,7 +40745,7 @@ aTarget
 NS_LITERAL_STRING
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 )
 true
@@ -49908,7 +49908,7 @@ this
 NS_LITERAL_STRING
 (
 "
-mozfullscreenerror
+fullscreenerror
 "
 )
 true

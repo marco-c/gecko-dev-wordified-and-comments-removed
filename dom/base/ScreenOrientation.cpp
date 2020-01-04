@@ -1546,7 +1546,7 @@ AddSystemEventListener
 NS_LITERAL_STRING
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 )
 mFullScreenListener
@@ -1656,7 +1656,7 @@ RemoveSystemEventListener
 NS_LITERAL_STRING
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 )
 mFullScreenListener
@@ -2744,7 +2744,7 @@ eventType
 EqualsLiteral
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 )
 )
@@ -2822,7 +2822,7 @@ RemoveSystemEventListener
 NS_LITERAL_STRING
 (
 "
-mozfullscreenchange
+fullscreenchange
 "
 )
 this
