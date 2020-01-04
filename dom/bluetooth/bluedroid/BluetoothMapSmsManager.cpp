@@ -6201,8 +6201,11 @@ mBodySegmentLength
 )
 ;
 mBodySegment
-=
+.
+reset
+(
 bodyPtr
+)
 ;
 RefPtr
 <
