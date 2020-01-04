@@ -1949,14 +1949,10 @@ return
 EffectCompositor
 :
 :
-GetAnimationsForCompositor
+HasAnimationsForCompositor
 (
 aFrame
 aProperty
-)
-.
-IsEmpty
-(
 )
 ;
 }
