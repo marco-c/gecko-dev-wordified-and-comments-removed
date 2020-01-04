@@ -104,11 +104,6 @@ relative_path
 '
 flashplugin
 '
-cocoa_name
-=
-'
-npswftest
-'
 include
 (
 '

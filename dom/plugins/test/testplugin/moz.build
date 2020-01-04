@@ -124,11 +124,6 @@ relative_path
 '
 .
 '
-cocoa_name
-=
-'
-Test
-'
 include
 (
 '
