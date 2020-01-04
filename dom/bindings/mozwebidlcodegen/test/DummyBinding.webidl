@@ -3,8 +3,3 @@ DummyInterface
 {
 }
 ;
-interface
-DummyInterfaceWorkers
-{
-}
-;

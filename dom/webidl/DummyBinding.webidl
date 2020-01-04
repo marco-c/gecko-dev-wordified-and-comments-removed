@@ -143,8 +143,3 @@ arg
 ;
 }
 ;
-interface
-DummyInterfaceWorkers
-{
-}
-;
