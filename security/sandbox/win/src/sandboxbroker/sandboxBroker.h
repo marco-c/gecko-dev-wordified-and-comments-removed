@@ -32,6 +32,13 @@ stdint
 .
 h
 >
+#
+include
+<
+windows
+.
+h
+>
 namespace
 sandbox
 {
@@ -138,6 +145,13 @@ wchar_t
 const
 *
 dir
+)
+;
+bool
+AddTargetPeer
+(
+HANDLE
+aPeerProcess
 )
 ;
 private
