@@ -96,10 +96,8 @@ MPL
 DevToolsModules
 (
 '
-camera
--
-click
+shutter
 .
-mp3
+wav
 '
 )
