@@ -925,9 +925,14 @@ path
 =
 mozpath
 .
+realpath
+(
+mozpath
+.
 abspath
 (
 path
+)
 )
         
 if
