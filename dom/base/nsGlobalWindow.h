@@ -720,12 +720,6 @@ mozilla
 TimeDuration
 mTimeRemaining
 ;
-nsCOMPtr
-<
-nsIPrincipal
->
-mPrincipal
-;
 uint32_t
 mFiringDepth
 ;
