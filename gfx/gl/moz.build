@@ -469,6 +469,11 @@ for
 HANDLE
 .
 '
+SharedSurfaceD3D11Interop
+.
+h
+'
+'
 WGLLibrary
 .
 h
@@ -485,6 +490,11 @@ cpp
 '
 '
 SharedSurfaceANGLE
+.
+cpp
+'
+'
+SharedSurfaceD3D11Interop
 .
 cpp
 '

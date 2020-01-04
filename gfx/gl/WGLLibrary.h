@@ -641,7 +641,7 @@ mWindowPixelFormat
 ;
 extern
 WGLLibrary
-sWGLLibrary
+sWGLLib
 ;
 }
 }
