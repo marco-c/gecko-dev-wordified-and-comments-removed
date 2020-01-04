@@ -147,6 +147,9 @@ persistenceType
 bool
 persistenceTypeIsExplicit
 ;
+bool
+clearAll
+;
 }
 ;
 struct
