@@ -6866,7 +6866,17 @@ store32
 src
 .
 low
+Address
+(
 address
+.
+base
+address
+.
+offset
++
+INT64LOW_OFFSET
+)
 )
 ;
 store32
@@ -6883,7 +6893,7 @@ address
 .
 offset
 +
-4
+INT64HIGH_OFFSET
 )
 )
 ;
