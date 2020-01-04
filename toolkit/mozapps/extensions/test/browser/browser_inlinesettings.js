@@ -5159,7 +5159,7 @@ btn
 ;
 button
 .
-focus
+scrollIntoView
 (
 )
 ;
@@ -5643,7 +5643,7 @@ btn
 ;
 button
 .
-focus
+scrollIntoView
 (
 )
 ;
@@ -5715,7 +5715,7 @@ btn
 ;
 button
 .
-focus
+scrollIntoView
 (
 )
 ;
