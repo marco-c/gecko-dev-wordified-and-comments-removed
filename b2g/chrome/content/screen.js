@@ -49,7 +49,21 @@ addEventListener
 '
 ContentStart
 '
+onStart
+)
+;
+window
+.
+addEventListener
+(
+'
+SafeModeStart
+'
+onStart
+)
+;
 function
+onStart
 (
 )
 {
@@ -1443,5 +1457,3 @@ eAttemptQuit
 ;
 }
 }
-)
-;

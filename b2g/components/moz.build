@@ -395,6 +395,11 @@ OrientationChangeHandler
 jsm
 '
 '
+SafeMode
+.
+jsm
+'
+'
 Screenshot
 .
 jsm
