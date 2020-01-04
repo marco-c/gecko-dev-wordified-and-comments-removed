@@ -15631,6 +15631,9 @@ nsITreeColumn
 :
 TYPE_PASSWORD
 :
+result
+&
+=
 PaintText
 (
 aRowIndex
@@ -15725,6 +15728,9 @@ PROGRESS_NONE
 :
 default
 :
+result
+&
+=
 PaintText
 (
 aRowIndex
@@ -16811,7 +16817,7 @@ return
 result
 ;
 }
-void
+DrawResult
 nsTreeBodyFrame
 :
 :
@@ -16921,6 +16927,14 @@ CheckTextForBidi
 text
 )
 ;
+DrawResult
+result
+=
+DrawResult
+:
+:
+SUCCESS
+;
 if
 (
 text
@@ -16932,8 +16946,11 @@ Length
 =
 0
 )
+{
 return
+result
 ;
+}
 int32_t
 appUnitsPerDevPixel
 =
@@ -17137,6 +17154,9 @@ LeftRight
 (
 )
 ;
+result
+&
+=
 PaintBackgroundLayer
 (
 textContext
@@ -17475,6 +17495,9 @@ PopGroupAndBlend
 )
 ;
 }
+return
+result
+;
 }
 DrawResult
 nsTreeBodyFrame

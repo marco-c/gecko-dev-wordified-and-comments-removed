@@ -1209,7 +1209,7 @@ nscoord
 aCurrX
 )
 ;
-void
+DrawResult
 PaintText
 (
 int32_t
