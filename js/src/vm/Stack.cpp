@@ -7396,11 +7396,10 @@ cx
 )
 )
 ;
-const
-char
-*
+RootedString
 asyncCause
-=
+(
+cx
 cx
 -
 >
@@ -7410,6 +7409,7 @@ runtime
 -
 >
 asyncCauseForNewActivations
+)
 ;
 if
 (
@@ -7500,11 +7500,10 @@ cx
 )
 )
 ;
-const
-char
-*
+RootedString
 asyncCause
-=
+(
+cx
 cx
 -
 >
@@ -7514,6 +7513,7 @@ runtime
 -
 >
 asyncCauseForNewActivations
+)
 ;
 if
 (

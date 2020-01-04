@@ -17041,9 +17041,7 @@ cx
 RootedObject
 oldAsyncStack
 ;
-const
-char
-*
+RootedString
 oldAsyncCause
 ;
 bool
@@ -17066,9 +17064,7 @@ JSContext
 cx
 HandleObject
 stack
-const
-char
-*
+HandleString
 asyncCause
 AsyncCallKind
 kind

@@ -23510,9 +23510,7 @@ JSContext
 cx
 HandleObject
 stack
-const
-char
-*
+HandleString
 asyncCause
 JS
 :
@@ -23543,6 +23541,7 @@ asyncStackForNewActivations
 )
 oldAsyncCause
 (
+cx
 cx
 -
 >
@@ -23605,6 +23604,17 @@ as
 SavedFrame
 >
 (
+)
+;
+MOZ_ASSERT
+(
+!
+asyncCause
+-
+>
+empty
+(
+)
 )
 ;
 cx
