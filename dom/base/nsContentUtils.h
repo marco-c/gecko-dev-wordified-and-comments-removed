@@ -2351,6 +2351,15 @@ nullptr
 ;
 static
 nsresult
+DispatchFocusChromeEvent
+(
+nsPIDOMWindowOuter
+*
+aWindow
+)
+;
+static
+nsresult
 DispatchEventOnlyToChrome
 (
 nsIDocument
