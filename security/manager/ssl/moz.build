@@ -223,6 +223,11 @@ nsIProtectedAuthThread
 idl
 '
 '
+nsISecretDecoderRing
+.
+idl
+'
+'
 nsISecurityUITelemetry
 .
 idl

@@ -575,11 +575,6 @@ nsISecCheckWrapChannel
 idl
 '
 '
-nsISecretDecoderRing
-.
-idl
-'
-'
 nsISecureBrowserUI
 .
 idl
