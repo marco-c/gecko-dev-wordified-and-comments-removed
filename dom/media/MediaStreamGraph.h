@@ -388,6 +388,14 @@ aChannels
 =
 0
 ;
+virtual
+void
+DeviceChanged
+(
+)
+=
+0
+;
 }
 ;
 class
