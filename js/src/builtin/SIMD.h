@@ -6021,7 +6021,7 @@ namespace
 js
 {
 class
-SIMDObject
+SimdObject
 :
 public
 JSObject
@@ -7440,7 +7440,7 @@ undef
 DECLARE_SIMD_BOOL64x2_FUNCTION
 JSObject
 *
-InitSIMDClass
+InitSimdClass
 (
 JSContext
 *
