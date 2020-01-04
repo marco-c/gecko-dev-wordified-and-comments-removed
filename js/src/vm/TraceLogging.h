@@ -753,7 +753,11 @@ iteration_
 lastSize
 =
 =
-CONTINUOUSSPACE_LIMIT
+events
+.
+maxSize
+(
+)
 )
 return
 false
