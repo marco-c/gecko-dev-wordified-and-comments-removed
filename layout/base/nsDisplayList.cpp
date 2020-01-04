@@ -5550,9 +5550,6 @@ IsElement
 )
 )
 {
-ErrorResult
-rv
-;
 auto
 classList
 =
@@ -5583,7 +5580,6 @@ moz
 accessiblecaret
 "
 )
-rv
 )
 )
 {

@@ -164,9 +164,6 @@ long
 index
 )
 ;
-[
-Throws
-]
 boolean
 contains
 (
