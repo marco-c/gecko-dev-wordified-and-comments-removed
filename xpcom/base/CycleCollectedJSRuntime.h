@@ -935,6 +935,11 @@ JS
 :
 HandleObject
 aJob
+JS
+:
+:
+HandleObject
+aAllocationSite
 void
 *
 aData

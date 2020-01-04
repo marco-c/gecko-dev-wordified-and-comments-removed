@@ -2763,6 +2763,11 @@ JS
 :
 HandleObject
 job
+JS
+:
+:
+HandleObject
+allocationSite
 void
 *
 data
