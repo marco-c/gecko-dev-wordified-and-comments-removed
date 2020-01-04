@@ -226,14 +226,11 @@ i
 ;
 if
 (
+!
 child
 -
 >
-GetEffectiveVisibleRegion
-(
-)
-.
-IsEmpty
+IsVisible
 (
 )
 )
