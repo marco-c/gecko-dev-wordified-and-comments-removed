@@ -1161,6 +1161,9 @@ avatar
 )
 ;
 }
+return
+true
+;
 }
 if
 (
