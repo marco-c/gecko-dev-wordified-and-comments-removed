@@ -695,11 +695,6 @@ TimeUnit
 aTimeThreshold
 )
 ;
-void
-ResetDemuxers
-(
-)
-;
 size_t
 SizeOfQueue
 (
