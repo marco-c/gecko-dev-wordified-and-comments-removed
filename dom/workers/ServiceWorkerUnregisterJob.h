@@ -50,6 +50,9 @@ const
 ;
 private
 :
+class
+PushUnsubscribeCallback
+;
 virtual
 ~
 ServiceWorkerUnregisterJob
@@ -62,6 +65,11 @@ AsyncExecute
 (
 )
 override
+;
+void
+Unregister
+(
+)
 ;
 bool
 mResult
