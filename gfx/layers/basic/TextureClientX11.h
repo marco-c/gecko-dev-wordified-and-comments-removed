@@ -64,7 +64,7 @@ SurfaceFormat
 aFormat
 TextureFlags
 aFlags
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 )
@@ -168,7 +168,7 @@ virtual
 void
 Deallocate
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 )
 override
@@ -178,7 +178,7 @@ TextureData
 *
 CreateSimilar
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 TextureFlags

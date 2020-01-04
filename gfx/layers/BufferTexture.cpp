@@ -119,7 +119,7 @@ TextureFlags
 aFlags
 TextureAllocationFlags
 aAllocFlags
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 )
@@ -129,7 +129,7 @@ TextureData
 *
 CreateSimilar
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 TextureFlags
@@ -161,7 +161,7 @@ virtual
 void
 Deallocate
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 )
 override
@@ -275,7 +275,7 @@ TextureFlags
 aFlags
 TextureAllocationFlags
 aAllocFlags
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 )
@@ -285,7 +285,7 @@ TextureData
 *
 CreateSimilar
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 TextureFlags
@@ -317,7 +317,7 @@ virtual
 void
 Deallocate
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 )
@@ -535,7 +535,7 @@ TextureFlags
 aFlags
 TextureAllocationFlags
 aAllocFlags
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 )
@@ -606,7 +606,7 @@ BufferTextureData
 :
 CreateInternal
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 const
@@ -744,7 +744,7 @@ BufferTextureData
 :
 CreateForYCbCrWithBufferSize
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 gfx
@@ -833,7 +833,7 @@ BufferTextureData
 :
 CreateForYCbCr
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 gfx
@@ -2295,7 +2295,7 @@ TextureFlags
 aFlags
 TextureAllocationFlags
 aAllocFlags
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 )
@@ -2482,7 +2482,7 @@ MemoryTextureData
 :
 Deallocate
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 )
 {
@@ -2516,7 +2516,7 @@ MemoryTextureData
 :
 CreateSimilar
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 TextureFlags
@@ -2633,7 +2633,7 @@ TextureFlags
 aFlags
 TextureAllocationFlags
 aAllocFlags
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 )
@@ -2870,7 +2870,7 @@ ShmemTextureData
 :
 CreateSimilar
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 TextureFlags
@@ -2905,7 +2905,7 @@ ShmemTextureData
 :
 Deallocate
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 )

@@ -143,7 +143,7 @@ SharedSurfaceTextureData
 :
 Deallocate
 (
-ISurfaceAllocator
+ClientIPCAllocator
 *
 )
 {
@@ -199,7 +199,7 @@ SharedSurfaceTextureData
 aData
 TextureFlags
 aFlags
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 )
@@ -239,7 +239,7 @@ gl
 SurfaceFactory
 *
 factory
-ISurfaceAllocator
+ClientIPCAllocator
 *
 aAllocator
 TextureFlags
