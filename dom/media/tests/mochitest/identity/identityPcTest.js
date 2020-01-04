@@ -104,9 +104,6 @@ true
 video
 :
 true
-fake
-:
-true
 peerIdentity
 :
 id1
