@@ -1819,7 +1819,7 @@ decoder
 .
 enabled
 "
-false
+true
 )
 ;
 pref

@@ -103,6 +103,11 @@ WaveDecoder
 h
 '
 '
+WaveDemuxer
+.
+h
+'
+'
 WaveReader
 .
 h
