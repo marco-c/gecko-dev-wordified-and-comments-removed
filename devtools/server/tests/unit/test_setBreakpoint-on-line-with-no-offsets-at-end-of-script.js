@@ -202,7 +202,7 @@ location
 {
 line
 :
-7
+8
 }
 ;
 let
@@ -246,7 +246,7 @@ do_check_eq
 actualLocation
 .
 line
-10
+11
 )
 ;
 packet
