@@ -200,9 +200,6 @@ downloadButtons
 XP
 .
 png
-os
-=
-WINNT
 osversion
 <
 6
@@ -236,9 +233,6 @@ downloadIcon
 XP
 .
 png
-os
-=
-WINNT
 osversion
 <
 6
