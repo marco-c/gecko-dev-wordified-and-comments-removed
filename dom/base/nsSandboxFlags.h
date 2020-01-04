@@ -70,6 +70,13 @@ SANDBOXED_AUTOMATIC_FEATURES
 const
 unsigned
 long
+SANDBOXED_FULLSCREEN
+=
+0x400
+;
+const
+unsigned
+long
 SANDBOXED_DOMAIN
 =
 0x800
