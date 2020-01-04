@@ -981,8 +981,10 @@ originAttributes
 )
 ;
 }
+already_AddRefed
+<
 AltSvcMapping
-*
+>
 GetAltServiceMapping
 (
 const
@@ -1944,6 +1946,8 @@ nsIUUIDGenerator
 >
 mUUIDGen
 ;
+public
+:
 nsresult
 NewChannelId
 (
