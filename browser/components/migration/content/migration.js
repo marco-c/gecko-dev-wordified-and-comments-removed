@@ -2494,6 +2494,9 @@ _autoMigrate
 let
 hasImportedHomepage
 =
+!
+!
+(
 this
 .
 _newHomePage
@@ -2507,6 +2510,7 @@ _newHomePage
 "
 DEFAULT
 "
+)
 ;
 Services
 .
