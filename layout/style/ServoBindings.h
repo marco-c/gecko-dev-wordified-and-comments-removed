@@ -376,6 +376,9 @@ parentStyleOrNull
 nsIAtom
 *
 pseudoTag
+RawServoStyleSet
+*
+set
 )
 ;
 void
