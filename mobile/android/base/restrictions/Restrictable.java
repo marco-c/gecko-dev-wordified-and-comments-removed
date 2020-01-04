@@ -170,11 +170,7 @@ MASTER_PASSWORD
 "
 master_password
 "
-R
-.
-string
-.
-restrictable_feature_master_password
+0
 )
 GUEST_BROWSING
 (

@@ -7748,15 +7748,6 @@ browsing
 <
 !
 ENTITY
-restrictable_feature_master_password
-"
-Master
-password
-"
->
-<
-!
-ENTITY
 restrictable_feature_advanced_settings
 "
 Advanced
