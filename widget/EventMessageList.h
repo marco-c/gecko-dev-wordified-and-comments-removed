@@ -701,7 +701,7 @@ eLegacyUIEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_UI_FOCUSOUT
+eLegacyDOMFocusOut
 eLegacyUIEventFirst
 +
 2
