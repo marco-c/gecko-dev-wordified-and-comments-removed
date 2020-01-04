@@ -516,6 +516,12 @@ NotifyOwnerDocumentActivityChangedInternal
 )
 override
 ;
+FrameStatistics
+*
+GetFrameStatistics
+(
+)
+;
 already_AddRefed
 <
 VideoPlaybackQuality
