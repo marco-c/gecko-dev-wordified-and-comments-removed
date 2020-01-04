@@ -18351,13 +18351,13 @@ selectedBrowser
 )
 this
 .
-updateSearchButton
+updateOpenSearchBadge
 (
 )
 ;
 }
 }
-updateSearchButton
+updateOpenSearchBadge
 :
 function
 (
@@ -18379,7 +18379,7 @@ searchBar
 !
 searchBar
 .
-searchButton
+textbox
 )
 return
 ;
@@ -23121,7 +23121,7 @@ updateFeeds
 ;
 BrowserSearch
 .
-updateSearchButton
+updateOpenSearchBadge
 (
 )
 ;
