@@ -826,6 +826,14 @@ _moz_zoom_out
 )
 CSS_KEY
 (
+-
+webkit
+-
+box
+_webkit_box
+)
+CSS_KEY
+(
 absolute
 absolute
 )
