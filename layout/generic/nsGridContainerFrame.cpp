@@ -5165,6 +5165,7 @@ GridItemInfo
 aGridItem
 )
 ;
+static
 nscoord
 CollectGrowable
 (
@@ -5193,7 +5194,6 @@ uint32_t
 &
 aGrowableTracks
 )
-const
 {
 MOZ_ASSERT
 (
@@ -5212,18 +5212,6 @@ nscoord
 space
 =
 aAvailableSpace
--
-mGridGap
-*
-(
-aRange
-.
-Extent
-(
-)
--
-1
-)
 ;
 const
 uint32_t
