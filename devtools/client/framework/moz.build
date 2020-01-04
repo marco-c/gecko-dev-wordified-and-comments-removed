@@ -168,6 +168,13 @@ sidebar
 js
 '
 '
+source
+-
+location
+.
+js
+'
+'
 target
 .
 js
