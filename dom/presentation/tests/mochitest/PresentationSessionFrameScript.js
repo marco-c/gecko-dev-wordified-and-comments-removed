@@ -839,7 +839,7 @@ for
 (
 var
 data
-in
+of
 originalFactoryData
 )
 {
