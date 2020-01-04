@@ -694,11 +694,11 @@ lastProp
 bool
 change
 (
-int
-log2Delta
 ExclusiveContext
 *
 cx
+int
+log2Delta
 )
 ;
 template
