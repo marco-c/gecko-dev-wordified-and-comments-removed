@@ -1463,6 +1463,8 @@ null
 null
 )
 ;
+try
+{
 sc
 .
 speculativeConnect
@@ -1471,6 +1473,13 @@ uri
 null
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 }
 _recordSiteClicked
 :
