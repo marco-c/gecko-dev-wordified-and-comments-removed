@@ -48,17 +48,6 @@ h
 #
 include
 "
-chrome
-/
-common
-/
-chrome_switches
-.
-h
-"
-#
-include
-"
 nsDebugImpl
 .
 h

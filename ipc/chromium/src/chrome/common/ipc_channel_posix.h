@@ -329,9 +329,6 @@ is_blocked_on_write_
 size_t
 message_send_bytes_written_
 ;
-bool
-uses_fifo_
-;
 int
 server_listen_pipe_
 ;
