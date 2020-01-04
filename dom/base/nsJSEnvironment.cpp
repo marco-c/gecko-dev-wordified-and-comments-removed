@@ -9437,6 +9437,7 @@ KillFullGCTimer
 (
 )
 ;
+}
 if
 (
 aDesc
@@ -9454,7 +9455,6 @@ PokeShrinkGCBuffers
 (
 )
 ;
-}
 }
 if
 (
