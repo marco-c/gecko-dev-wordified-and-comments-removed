@@ -195,8 +195,10 @@ Next
 )
 )
 {
+RefPtr
+<
 TextureClient
-*
+>
 texture
 =
 TextureClient
