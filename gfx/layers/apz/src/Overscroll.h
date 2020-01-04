@@ -443,6 +443,11 @@ x
 aOverscroll
 .
 y
+mApzc
+.
+IsRootContent
+(
+)
 )
 ;
 aOverscroll
@@ -491,6 +496,11 @@ x
 aVelocity
 .
 y
+mApzc
+.
+IsRootContent
+(
+)
 )
 ;
 }
