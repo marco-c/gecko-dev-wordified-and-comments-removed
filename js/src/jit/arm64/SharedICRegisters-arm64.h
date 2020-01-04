@@ -119,6 +119,10 @@ FloatRegisters
 :
 :
 v0
+FloatRegisters
+:
+:
+Single
 }
 ;
 static
@@ -131,6 +135,10 @@ FloatRegisters
 :
 :
 v1
+FloatRegisters
+:
+:
+Single
 }
 ;
 }
