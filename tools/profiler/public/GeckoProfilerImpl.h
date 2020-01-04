@@ -1425,7 +1425,7 @@ mInfo
 }
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 SamplerStackFrameRAII
 {
 public
@@ -1446,8 +1446,11 @@ Category
 aCategory
 uint32_t
 line
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 mHandle
 =
 mozilla_sampler_call_enter
@@ -1473,6 +1476,7 @@ mHandle
 }
 private
 :
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 void
 *
 mHandle
@@ -1487,7 +1491,7 @@ SAMPLER_MAX_STRING
 128
 ;
 class
-MOZ_STACK_CLASS
+MOZ_RAII
 SamplerStackFramePrintfRAII
 {
 public
