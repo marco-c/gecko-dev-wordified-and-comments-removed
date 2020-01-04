@@ -5769,6 +5769,12 @@ case
 Scalar
 :
 :
+Int64
+:
+case
+Scalar
+:
+:
 Float32x4
 :
 case
@@ -6266,6 +6272,12 @@ len
 offset
 )
 ;
+case
+Scalar
+:
+:
+Int64
+:
 case
 Scalar
 :

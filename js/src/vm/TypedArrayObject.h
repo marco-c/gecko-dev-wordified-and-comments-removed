@@ -1838,6 +1838,12 @@ case
 Scalar
 :
 :
+Int64
+:
+case
+Scalar
+:
+:
 Float64
 :
 return
