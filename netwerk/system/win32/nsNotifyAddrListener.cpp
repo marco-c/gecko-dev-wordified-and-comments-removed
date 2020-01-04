@@ -1211,11 +1211,15 @@ nsresult
 rv
 =
 mThread
+?
+mThread
 -
 >
 Shutdown
 (
 )
+:
+NS_OK
 ;
 mThread
 =
