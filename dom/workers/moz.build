@@ -271,7 +271,7 @@ WorkerHolder
 h
 '
 '
-XMLHttpRequestUpload
+XMLHttpRequestUploadWorker
 .
 h
 '
@@ -496,7 +496,7 @@ WorkerThread
 cpp
 '
 '
-XMLHttpRequestUpload
+XMLHttpRequestUploadWorker
 .
 cpp
 '
