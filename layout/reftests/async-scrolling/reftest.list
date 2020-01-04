@@ -1427,6 +1427,9 @@ skip
 -
 if
 (
+Android
+|
+|
 !
 asyncPan
 )
@@ -1448,6 +1451,9 @@ skip
 -
 if
 (
+Android
+|
+|
 !
 asyncPan
 )
