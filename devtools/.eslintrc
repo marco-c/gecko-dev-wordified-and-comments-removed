@@ -84,6 +84,11 @@ setTimeout
 :
 true
 "
+XMLHttpRequest
+"
+:
+true
+"
 _Iterator
 "
 :
