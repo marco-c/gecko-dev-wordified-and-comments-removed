@@ -8,9 +8,7 @@ gecko
 animation
 ;
 import
-com
-.
-nineoldandroids
+android
 .
 animation
 .
