@@ -16,6 +16,11 @@ version_files
 :
 [
         
+{
+"
+file
+"
+:
 "
 browser
 /
@@ -25,7 +30,19 @@ version
 .
 txt
 "
+"
+suffix
+"
+:
+"
+"
+}
         
+{
+"
+file
+"
+:
 "
 browser
 /
@@ -35,7 +52,20 @@ version_display
 .
 txt
 "
+"
+suffix
+"
+:
+"
+b1
+"
+}
         
+{
+"
+file
+"
+:
 "
 config
 /
@@ -43,14 +73,13 @@ milestone
 .
 txt
 "
-        
 "
-b2g
-/
-confvars
-.
-sh
+suffix
 "
+:
+"
+"
+}
     
 ]
     
