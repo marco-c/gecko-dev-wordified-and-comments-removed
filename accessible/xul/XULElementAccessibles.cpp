@@ -264,7 +264,13 @@ aName
 )
 ;
 return
-eNameOK
+Accessible
+:
+:
+NativeName
+(
+aName
+)
 ;
 }
 role
