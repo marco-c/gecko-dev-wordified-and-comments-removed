@@ -117,8 +117,7 @@ wrapper
 ;
 }
 static
-JSObject
-*
+void
 PreWrap
 (
 JSContext
@@ -139,6 +138,11 @@ JS
 :
 HandleObject
 objectPassedToWrap
+JS
+:
+:
+MutableHandleObject
+retObj
 )
 {
 JS_GC
@@ -146,8 +150,12 @@ JS_GC
 cx
 )
 ;
-return
+retObj
+.
+set
+(
 obj
+)
 ;
 }
 static

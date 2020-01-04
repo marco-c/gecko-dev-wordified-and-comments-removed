@@ -183,8 +183,7 @@ wrapper
 )
 ;
 static
-JSObject
-*
+void
 PrepareForWrapping
 (
 JSContext
@@ -205,6 +204,11 @@ JS
 :
 HandleObject
 objectPassedToWrap
+JS
+:
+:
+MutableHandleObject
+retObj
 )
 ;
 static
