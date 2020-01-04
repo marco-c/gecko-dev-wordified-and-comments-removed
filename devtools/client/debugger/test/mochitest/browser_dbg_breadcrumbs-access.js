@@ -325,6 +325,10 @@ line
 }
 )
 ;
+focusCurrentStackFrame
+(
+)
+;
 yield
 promise
 .
@@ -380,6 +384,10 @@ line
 :
 6
 }
+)
+;
+focusCurrentStackFrame
+(
 )
 ;
 yield
