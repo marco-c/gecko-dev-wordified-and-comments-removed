@@ -6814,6 +6814,8 @@ false
 }
 synchronized
 (
+GeckoApp
+.
 this
 )
 {
@@ -6821,6 +6823,10 @@ mSessionRestoreParsingFinished
 =
 true
 ;
+GeckoApp
+.
+this
+.
 notifyAll
 (
 )
