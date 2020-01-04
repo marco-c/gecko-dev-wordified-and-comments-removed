@@ -1,6 +1,13 @@
 #
 include
 "
+jsalloc
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Atomics
@@ -404,6 +411,11 @@ js
 :
 :
 Thread
+0
+js
+:
+:
+SystemAllocPolicy
 >
 v
 ;
