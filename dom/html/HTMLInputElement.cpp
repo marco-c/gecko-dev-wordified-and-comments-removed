@@ -15263,15 +15263,9 @@ originalTarget
 InternalUIEvent
 actEvent
 (
-aVisitor
-.
-mEvent
--
->
-mFlags
-.
-mIsTrusted
+true
 NS_UI_ACTIVATE
+mouseEvent
 )
 ;
 actEvent
