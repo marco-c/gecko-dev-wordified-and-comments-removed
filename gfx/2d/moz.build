@@ -169,11 +169,6 @@ Coord
 h
 '
 '
-CriticalSection
-.
-h
-'
-'
 DataSurfaceHelpers
 .
 h
@@ -390,11 +385,6 @@ cpp
 '
 '
 FilterNodeD2D1
-.
-cpp
-'
-'
-JobScheduler_win32
 .
 cpp
 '
