@@ -16858,6 +16858,17 @@ if
 service
 )
 {
+service
+-
+>
+RefreshAgentsSuspend
+(
+GetOuterWindow
+(
+)
+aSuspend
+)
+;
 }
 }
 bool
