@@ -639,6 +639,7 @@ ScratchRegisterScope
 public
 AutoRegisterScope
 {
+explicit
 ScratchRegisterScope
 (
 MacroAssembler

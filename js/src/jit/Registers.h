@@ -1030,6 +1030,7 @@ MacroAssembler
 &
 masm_
 ;
+explicit
 AutoGenericRegisterScope
 (
 MacroAssembler
@@ -1047,6 +1048,7 @@ AutoGenericRegisterScope
 #
 else
 MOZ_CONSTEXPR
+explicit
 AutoGenericRegisterScope
 (
 MacroAssembler

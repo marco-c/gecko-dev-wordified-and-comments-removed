@@ -51,6 +51,7 @@ ScratchFloat32Scope
 public
 AutoFloatRegisterScope
 {
+explicit
 ScratchFloat32Scope
 (
 MacroAssembler
@@ -73,6 +74,7 @@ ScratchDoubleScope
 public
 AutoFloatRegisterScope
 {
+explicit
 ScratchDoubleScope
 (
 MacroAssembler
@@ -95,6 +97,7 @@ ScratchSimdScope
 public
 AutoFloatRegisterScope
 {
+explicit
 ScratchSimdScope
 (
 MacroAssembler
