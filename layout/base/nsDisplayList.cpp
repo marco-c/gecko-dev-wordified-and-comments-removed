@@ -25987,9 +25987,7 @@ nsPresContext
 *
 presContext
 =
-Frame
-(
-)
+mFrame
 -
 >
 PresContext
@@ -26014,9 +26012,7 @@ GetRootFrame
 (
 )
 :
-Frame
-(
-)
+mFrame
 ;
 const
 nsIFrame
@@ -29605,7 +29601,7 @@ EffectCompositor
 SetPerformanceWarning
 (
 mFrame
-eCSSProperty_opacity
+eCSSProperty_transform
 AnimationPerformanceWarning
 (
 AnimationPerformanceWarning
