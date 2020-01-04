@@ -201,7 +201,7 @@ MozPromise
 <
 nsRefPtr
 <
-AudioData
+MediaData
 >
 NotDecodedReason
 true
@@ -213,7 +213,7 @@ MozPromise
 <
 nsRefPtr
 <
-VideoData
+MediaData
 >
 NotDecodedReason
 true

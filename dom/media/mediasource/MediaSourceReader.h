@@ -168,7 +168,7 @@ override
 void
 OnAudioDecoded
 (
-AudioData
+MediaData
 *
 aSample
 )
@@ -183,7 +183,7 @@ aReason
 void
 OnVideoDecoded
 (
-VideoData
+MediaData
 *
 aSample
 )
