@@ -2655,6 +2655,8 @@ Close
 (
 nsresult
 reason
+bool
+aIsShutdown
 )
 {
 LOG
@@ -2804,6 +2806,10 @@ nullptr
 if
 (
 mSocketIn
+&
+&
+!
+aIsShutdown
 )
 {
 char

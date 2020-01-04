@@ -200,6 +200,10 @@ Close
 (
 nsresult
 reason
+bool
+aIsShutdown
+=
+false
 )
 ;
 bool
