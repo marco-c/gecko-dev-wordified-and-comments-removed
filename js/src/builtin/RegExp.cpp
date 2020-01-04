@@ -1245,7 +1245,7 @@ return
 true
 ;
 }
-ESClassValue
+ESClass
 cls
 ;
 if
@@ -1268,7 +1268,10 @@ result
 cls
 =
 =
-ESClass_RegExp
+ESClass
+:
+:
+RegExp
 ;
 return
 true
@@ -1338,7 +1341,7 @@ get
 )
 )
 ;
-ESClassValue
+ESClass
 cls
 ;
 if
@@ -1360,7 +1363,10 @@ if
 cls
 =
 =
-ESClass_RegExp
+ESClass
+:
+:
+RegExp
 )
 {
 if
@@ -1779,7 +1785,7 @@ get
 )
 )
 ;
-ESClassValue
+ESClass
 cls
 ;
 if
@@ -1801,7 +1807,10 @@ if
 cls
 =
 =
-ESClass_RegExp
+ESClass
+:
+:
+RegExp
 )
 {
 RootedObject

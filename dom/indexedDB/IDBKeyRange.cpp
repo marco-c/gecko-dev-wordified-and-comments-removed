@@ -431,7 +431,7 @@ isValidKey
 js
 :
 :
-ESClassValue
+ESClass
 cls
 ;
 if
@@ -461,7 +461,10 @@ cls
 js
 :
 :
-ESClass_Array
+ESClass
+:
+:
+Array
 |
 |
 cls
@@ -470,7 +473,10 @@ cls
 js
 :
 :
-ESClass_Date
+ESClass
+:
+:
+Date
 ;
 }
 if

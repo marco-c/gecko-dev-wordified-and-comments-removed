@@ -709,9 +709,9 @@ JS
 :
 HandleObject
 obj
-ESClassValue
+ESClass
 *
-classValue
+cls
 )
 ;
 JS_FRIEND_API

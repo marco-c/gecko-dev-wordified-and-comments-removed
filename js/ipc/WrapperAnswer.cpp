@@ -2832,10 +2832,16 @@ classValue
 *
 classValue
 =
+uint32_t
+(
 js
 :
 :
-ESClass_Other
+ESClass
+:
+:
+Other
+)
 ;
 AutoJSAPI
 jsapi
@@ -2910,7 +2916,7 @@ objId
 js
 :
 :
-ESClassValue
+ESClass
 cls
 ;
 if
@@ -2937,7 +2943,10 @@ rs
 *
 classValue
 =
+uint32_t
+(
 cls
+)
 ;
 return
 ok

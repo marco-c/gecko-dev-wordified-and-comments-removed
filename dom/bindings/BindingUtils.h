@@ -1175,7 +1175,7 @@ obj
 js
 :
 :
-ESClassValue
+ESClass
 cls
 ;
 if
@@ -1206,7 +1206,10 @@ cls
 js
 :
 :
-ESClass_Date
+ESClass
+:
+:
+Date
 &
 &
 cls
@@ -1215,7 +1218,10 @@ cls
 js
 :
 :
-ESClass_RegExp
+ESClass
+:
+:
+RegExp
 ;
 return
 true

@@ -556,9 +556,9 @@ JSContext
 cx
 HandleObject
 proxy
-ESClassValue
+ESClass
 *
-classValue
+cls
 )
 const
 override
@@ -1677,9 +1677,9 @@ JSContext
 cx
 HandleObject
 wrapper
-ESClassValue
+ESClass
 *
-classValue
+cls
 )
 const
 override
@@ -1917,9 +1917,9 @@ JSContext
 cx
 HandleObject
 wrapper
-ESClassValue
+ESClass
 *
-classValue
+cls
 )
 const
 override

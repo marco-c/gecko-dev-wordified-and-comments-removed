@@ -14433,7 +14433,7 @@ toObject
 )
 )
 ;
-ESClassValue
+ESClass
 cls
 ;
 if
@@ -14458,7 +14458,10 @@ if
 cls
 !
 =
-ESClass_Date
+ESClass
+:
+:
+Date
 )
 {
 tv
@@ -15522,7 +15525,7 @@ toObject
 )
 )
 ;
-ESClassValue
+ESClass
 cls
 ;
 if
@@ -15544,7 +15547,10 @@ if
 cls
 =
 =
-ESClass_Date
+ESClass
+:
+:
+Date
 )
 {
 RootedValue
@@ -16505,7 +16511,7 @@ bool
 isValid
 )
 {
-ESClassValue
+ESClass
 cls
 ;
 if
@@ -16527,7 +16533,10 @@ if
 cls
 !
 =
-ESClass_Date
+ESClass
+:
+:
+Date
 )
 {
 *
@@ -16595,7 +16604,7 @@ double
 msecsSinceEpoch
 )
 {
-ESClassValue
+ESClass
 cls
 ;
 if
@@ -16617,7 +16626,10 @@ if
 cls
 !
 =
-ESClass_Date
+ESClass
+:
+:
+Date
 )
 {
 *

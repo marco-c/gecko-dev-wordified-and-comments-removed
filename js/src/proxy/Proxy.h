@@ -373,9 +373,9 @@ JSContext
 cx
 HandleObject
 proxy
-ESClassValue
+ESClass
 *
-classValue
+cls
 )
 ;
 static
