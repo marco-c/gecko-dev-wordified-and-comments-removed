@@ -5982,7 +5982,7 @@ skipBarrier
 ;
 masm
 .
-branchPtrInNurseryRange
+branchPtrInNurseryChunk
 (
 Assembler
 :
