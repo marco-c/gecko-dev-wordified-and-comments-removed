@@ -180,11 +180,7 @@ Instance
 JSContext
 *
 cx
-Handle
-<
-WasmInstanceObject
-*
->
+HandleWasmInstanceObject
 object
 UniqueCode
 code
