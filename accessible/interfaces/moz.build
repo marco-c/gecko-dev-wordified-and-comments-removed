@@ -105,6 +105,13 @@ MOZ_WIDGET_TOOLKIT
 '
 windows
 '
+and
+CONFIG
+[
+'
+COMPILE_ENVIRONMENT
+'
+]
 :
 DIRS
 +
