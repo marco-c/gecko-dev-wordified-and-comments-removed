@@ -162,6 +162,9 @@ uint32_t
 >
 minMemoryLength
 ;
+uint32_t
+maxMemoryLength
+;
 DeclaredSigVector
 sigs
 ;
@@ -233,6 +236,10 @@ None
 minMemoryLength
 (
 0
+)
+maxMemoryLength
+(
+UINT32_MAX
 )
 {
 }

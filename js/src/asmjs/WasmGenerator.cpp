@@ -4871,6 +4871,16 @@ shared_
 >
 minMemoryLength
 ;
+metadata_
+-
+>
+maxMemoryLength
+=
+shared_
+-
+>
+maxMemoryLength
+;
 #
 ifdef
 DEBUG

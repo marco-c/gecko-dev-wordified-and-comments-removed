@@ -493,6 +493,14 @@ WasmMemoryObject
 >
 HandleWasmMemoryObject
 ;
+typedef
+MutableHandle
+<
+WasmMemoryObject
+*
+>
+MutableHandleWasmMemoryObject
+;
 }
 #
 endif
