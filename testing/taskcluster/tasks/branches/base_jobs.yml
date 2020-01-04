@@ -201,12 +201,6 @@ extra
 -
 builds
 :
-#
-see
-RIDEALONG_BUILDS
-in
-mach
-taskgraph
 -
 sm
 -
@@ -2226,6 +2220,8 @@ checks
 -
 '
 testing
+/
+eslint
 /
 eslint
 -
