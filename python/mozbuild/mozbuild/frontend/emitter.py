@@ -3467,6 +3467,10 @@ USE_EXTENSION_MANIFEST
 '
 NO_JS_MANIFEST
 '
+            
+'
+NO_COMPONENTS_MANIFEST
+'
         
 ]
         
