@@ -102,13 +102,6 @@ addressOfActivation
 (
 )
 ;
-const
-void
-*
-addressOfLastCachedNativeIterator
-(
-)
-;
 #
 ifdef
 JS_GC_ZEAL
@@ -331,6 +324,13 @@ const
 void
 *
 addressOfRandomNumberGenerator
+(
+)
+;
+const
+void
+*
+addressOfLastCachedNativeIterator
 (
 )
 ;

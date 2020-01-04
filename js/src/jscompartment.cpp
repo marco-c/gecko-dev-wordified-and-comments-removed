@@ -423,6 +423,10 @@ enumerators
 (
 nullptr
 )
+lastCachedNativeIterator
+(
+nullptr
+)
 compartmentStats_
 (
 nullptr
@@ -4247,6 +4251,10 @@ fixupAfterMovingGC
 (
 )
 {
+purge
+(
+)
+;
 fixupGlobal
 (
 )
@@ -4254,12 +4262,6 @@ fixupGlobal
 objectGroups
 .
 fixupTablesAfterMovingGC
-(
-)
-;
-dtoaCache
-.
-purge
 (
 )
 ;
@@ -4720,6 +4722,10 @@ dtoaCache
 purge
 (
 )
+;
+lastCachedNativeIterator
+=
+nullptr
 ;
 }
 void
