@@ -30750,17 +30750,6 @@ Reason
 reason
 )
 {
-if
-(
-isIncrementalGCInProgress
-(
-)
-)
-finishGC
-(
-reason
-)
-;
 invocationKind
 =
 gckind
