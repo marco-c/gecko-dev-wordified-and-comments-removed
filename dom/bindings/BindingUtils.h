@@ -2779,6 +2779,12 @@ char
 name
 bool
 defineOnGlobal
+const
+char
+*
+const
+*
+unscopableNames
 )
 ;
 bool
