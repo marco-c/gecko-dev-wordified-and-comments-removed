@@ -3829,13 +3829,6 @@ js
 StackKindCount
 ]
 ;
-JSContextCallback
-cxCallback
-;
-void
-*
-cxCallbackData
-;
 JSDestroyCompartmentCallback
 destroyCompartmentCallback
 ;
