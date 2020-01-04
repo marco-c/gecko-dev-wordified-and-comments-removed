@@ -2783,6 +2783,9 @@ onChange
 this
 .
 handleCheckboxChange
+useEllipsis
+:
+true
 value
 :
 location
@@ -2954,7 +2957,7 @@ context_edit_comments_placeholder
 rows
 :
 "
-3
+2
 "
 type
 :

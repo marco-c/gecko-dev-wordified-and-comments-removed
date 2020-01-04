@@ -3334,6 +3334,11 @@ this
 .
 handleCheckboxChange
 }
+useEllipsis
+=
+{
+true
+}
 value
 =
 {
@@ -3503,7 +3508,7 @@ context_edit_comments_placeholder
 rows
 =
 "
-3
+2
 "
 type
 =
