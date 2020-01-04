@@ -30,7 +30,7 @@ gre
 /
 modules
 /
-Services
+NetUtil
 .
 jsm
 "
@@ -107,61 +107,19 @@ callback
 ctx
 )
 {
-var
-ios
-=
-Cc
-[
-"
-mozilla
-.
-org
-/
-network
-/
-io
--
-service
-;
-1
-"
-]
-.
-getService
-(
-Ci
-.
-nsIIOService
-)
-;
 return
-ios
+NetUtil
 .
-newChannel2
+newChannel
 (
+{
+uri
+:
 url
-"
-"
-null
-null
-Services
-.
-scriptSecurityManager
-.
-getSystemPrincipal
-(
-)
-null
-Ci
-.
-nsILoadInfo
-.
-SEC_NORMAL
-Ci
-.
-nsIContentPolicy
-.
-TYPE_OTHER
+loadUsingSystemPrincipal
+:
+true
+}
 )
 ;
 }
@@ -544,7 +502,7 @@ entityID
 ;
 chan
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -553,7 +511,6 @@ try_resume
 null
 CL_EXPECT_FAILURE
 )
-null
 )
 ;
 }
@@ -612,7 +569,7 @@ entityID
 ;
 chan
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -620,7 +577,6 @@ ChannelListener
 try_resume_zero
 null
 )
-null
 )
 ;
 }
@@ -710,7 +666,7 @@ false
 ;
 chan
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -719,7 +675,6 @@ try_no_range
 null
 CL_EXPECT_FAILURE
 )
-null
 )
 ;
 }
@@ -806,7 +761,7 @@ false
 ;
 chan
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -814,7 +769,6 @@ ChannelListener
 try_bytes_range
 null
 )
-null
 )
 ;
 }
@@ -900,7 +854,7 @@ false
 ;
 chan
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -909,7 +863,6 @@ try_foo_bar_range
 null
 CL_EXPECT_FAILURE
 )
-null
 )
 ;
 }
@@ -996,7 +949,7 @@ false
 ;
 chan
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -1005,7 +958,6 @@ try_foobar_range
 null
 CL_EXPECT_FAILURE
 )
-null
 )
 ;
 }
@@ -1093,7 +1045,7 @@ false
 ;
 chan
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -1101,7 +1053,6 @@ ChannelListener
 try_bytes_foobar_range
 null
 )
-null
 )
 ;
 }
@@ -1187,7 +1138,7 @@ false
 ;
 chan
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -1196,7 +1147,6 @@ try_bytesfoo_bar_range
 null
 CL_EXPECT_FAILURE
 )
-null
 )
 ;
 }
@@ -1264,7 +1214,7 @@ entityID
 ;
 chan
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -1272,7 +1222,6 @@ ChannelListener
 try_no_accept_ranges
 null
 )
-null
 )
 ;
 }
@@ -1338,7 +1287,7 @@ entityID
 ;
 chan
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -1349,7 +1298,6 @@ CL_SUSPEND
 |
 CL_EXPECT_3S_DELAY
 )
-null
 )
 ;
 }
@@ -1415,7 +1363,7 @@ entityID
 ;
 chan
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -1423,7 +1371,6 @@ ChannelListener
 success
 null
 )
-null
 )
 ;
 }
@@ -1508,7 +1455,7 @@ false
 ;
 chan
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -1517,7 +1464,6 @@ test_auth_nopw
 null
 CL_EXPECT_FAILURE
 )
-null
 )
 ;
 }
@@ -1610,7 +1556,7 @@ Requestor
 ;
 chan
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -1619,7 +1565,6 @@ test_auth
 null
 CL_EXPECT_FAILURE
 )
-null
 )
 ;
 }
@@ -1733,7 +1678,7 @@ false
 ;
 chan
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -1741,7 +1686,6 @@ ChannelListener
 test_auth_resume
 null
 )
-null
 )
 ;
 }
@@ -1831,7 +1775,7 @@ false
 ;
 chan
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -1840,7 +1784,6 @@ test_404
 null
 CL_EXPECT_FAILURE
 )
-null
 )
 ;
 }
@@ -1909,7 +1852,7 @@ entityID
 ;
 chan
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -1918,7 +1861,6 @@ test_416
 null
 CL_EXPECT_FAILURE
 )
-null
 )
 ;
 }
@@ -2009,7 +1951,7 @@ entityID
 ;
 chan
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -2017,7 +1959,6 @@ ChannelListener
 test_redir_resume
 null
 )
-null
 )
 ;
 }
@@ -2119,7 +2060,7 @@ entityID
 ;
 chan
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -2128,7 +2069,6 @@ test_redir_noresume
 null
 CL_EXPECT_FAILURE
 )
-null
 )
 ;
 }
@@ -2193,7 +2133,7 @@ range
 ;
 chan
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -2201,7 +2141,6 @@ ChannelListener
 get_entity_id
 null
 )
-null
 )
 ;
 do_test_pending
