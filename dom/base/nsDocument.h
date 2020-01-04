@@ -6419,6 +6419,11 @@ MaybeRescheduleAnimationFrameNotifications
 (
 )
 ;
+bool
+IsAboutPage
+(
+)
+;
 nsDocument
 (
 const
