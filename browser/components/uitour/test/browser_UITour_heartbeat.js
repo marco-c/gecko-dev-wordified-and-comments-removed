@@ -21,6 +21,11 @@ UITourTest
 (
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 }
 function
 getHeartbeatNotification
