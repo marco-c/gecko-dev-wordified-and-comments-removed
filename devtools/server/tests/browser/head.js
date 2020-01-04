@@ -357,9 +357,9 @@ require
 "
 devtools
 /
-shared
+server
 /
-fronts
+actors
 /
 animation
 "
