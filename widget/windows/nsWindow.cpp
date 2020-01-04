@@ -30249,6 +30249,11 @@ popupsToRollup
 =
 UINT32_MAX
 ;
+bool
+consumeRollupEvent
+=
+false
+;
 nsWindow
 *
 popupWindow
@@ -30338,6 +30343,15 @@ popupWindow
 )
 )
 {
+consumeRollupEvent
+=
+rollupListener
+-
+>
+ShouldConsumeOnMouseWheelEvent
+(
+)
+;
 *
 aResult
 =
@@ -30366,7 +30380,7 @@ break
 }
 }
 return
-false
+consumeRollupEvent
 ;
 case
 WM_ACTIVATEAPP
@@ -30815,9 +30829,6 @@ null
 "
 )
 ;
-bool
-consumeRollupEvent
-;
 if
 (
 nativeMessage
@@ -30881,6 +30892,9 @@ pos
 &
 mLastRollup
 )
+|
+|
+consumeRollupEvent
 ;
 NS_IF_ADDREF
 (
@@ -30902,6 +30916,9 @@ true
 nullptr
 nullptr
 )
+|
+|
+consumeRollupEvent
 ;
 }
 sProcessHook
