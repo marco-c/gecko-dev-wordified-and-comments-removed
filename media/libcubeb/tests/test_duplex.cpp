@@ -27,13 +27,6 @@ h
 #
 include
 <
-string
-.
-h
->
-#
-include
-<
 math
 .
 h
@@ -424,7 +417,7 @@ ScopedXPCOM
 xpcom
 (
 "
-test_record
+test_duplex
 "
 )
 ;
