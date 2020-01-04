@@ -237,7 +237,7 @@ android
 scaleType
 =
 "
-center
+fitCenter
 "
 tools
 :
@@ -246,7 +246,7 @@ src
 "
 drawable
 /
-sync_mobile
+cloud
 "
 /
 >
