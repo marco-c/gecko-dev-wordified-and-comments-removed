@@ -223,6 +223,13 @@ aCallback
 )
 ;
 }
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 )
 ;
 }

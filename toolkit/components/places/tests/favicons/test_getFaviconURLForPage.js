@@ -129,6 +129,13 @@ run_next_test
 )
 ;
 }
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 )
 ;
 }

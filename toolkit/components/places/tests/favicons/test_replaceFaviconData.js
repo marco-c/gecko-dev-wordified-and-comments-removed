@@ -13,6 +13,17 @@ PlacesUtils
 history
 ;
 var
+systemPrincipal
+=
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
+;
+var
 originalFavicon
 =
 {
@@ -453,6 +464,7 @@ resolve
 )
 ;
 }
+systemPrincipal
 )
 ;
 yield
@@ -646,6 +658,7 @@ resolve
 )
 ;
 }
+systemPrincipal
 )
 ;
 yield
@@ -862,6 +875,7 @@ resolve
 )
 ;
 }
+systemPrincipal
 )
 ;
 }
@@ -871,6 +885,7 @@ resolve
 )
 ;
 }
+systemPrincipal
 )
 ;
 yield
@@ -1064,6 +1079,7 @@ resolve
 )
 ;
 }
+systemPrincipal
 )
 ;
 yield
@@ -1457,9 +1473,11 @@ resolve
 )
 ;
 }
+systemPrincipal
 )
 ;
 }
+systemPrincipal
 )
 ;
 yield

@@ -1259,6 +1259,13 @@ now
 )
 *
 1000
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 )
 ;
 channel
