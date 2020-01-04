@@ -176,7 +176,7 @@ viewports
 ;
 const
 {
-updateDeviceList
+updatePreferredDevices
 }
 =
 require
@@ -352,7 +352,7 @@ onDeviceListUpdate
 devices
 )
 {
-updateDeviceList
+updatePreferredDevices
 (
 devices
 )
