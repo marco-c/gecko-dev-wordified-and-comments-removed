@@ -157,15 +157,6 @@ firstrun_min_height
 "
 android
 :
-background
-=
-"
-color
-/
-about_page_header_grey
-"
-android
-:
 gravity
 =
 "
