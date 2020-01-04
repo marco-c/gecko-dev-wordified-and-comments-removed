@@ -342,6 +342,9 @@ toggleToolboxCommand
 selectToolCommand
 "
 "
+openAboutDebugging
+"
+"
 openConnectScreen
 "
 "

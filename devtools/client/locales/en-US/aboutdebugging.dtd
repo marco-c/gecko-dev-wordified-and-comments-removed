@@ -64,10 +64,12 @@ MPL
 ENTITY
 aboutDebugging
 .
-title
+fullTitle
 "
-about
-:
-debugging
+Debugging
+with
+Firefox
+Developer
+Tools
 "
 >
