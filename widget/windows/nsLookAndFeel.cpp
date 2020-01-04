@@ -2004,9 +2004,8 @@ pixelScale
 WinUtils
 :
 :
-LogToPhysFactor
+SystemScaleFactor
 (
-aHDC
 )
 ;
 float
