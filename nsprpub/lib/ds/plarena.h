@@ -163,7 +163,10 @@ defined
 (
 PL_SANITIZE_ADDRESS
 )
+PR_IMPORT
+(
 void
+)
 __asan_poison_memory_region
 (
 void
@@ -175,7 +178,10 @@ size_t
 size
 )
 ;
+PR_IMPORT
+(
 void
+)
 __asan_unpoison_memory_region
 (
 void

@@ -13281,8 +13281,10 @@ __ANDROID_API__
 <
 =
 19
-extern
+PR_IMPORT
+(
 void
+)
 *
 __mmap2
 (
