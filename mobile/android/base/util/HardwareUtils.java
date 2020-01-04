@@ -398,7 +398,7 @@ hasMenuButton
 )
 {
 return
-sHasMenuButton
+false
 ;
 }
 public
