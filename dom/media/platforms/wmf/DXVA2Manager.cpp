@@ -1574,11 +1574,7 @@ params
 .
 hDeviceWindow
 =
-:
-:
-GetShellWindow
-(
-)
+nullptr
 ;
 params
 .
@@ -1607,11 +1603,7 @@ CreateDeviceEx
 (
 D3DADAPTER_DEFAULT
 D3DDEVTYPE_HAL
-:
-:
-GetShellWindow
-(
-)
+nullptr
 D3DCREATE_FPU_PRESERVE
 |
 D3DCREATE_MULTITHREADED
