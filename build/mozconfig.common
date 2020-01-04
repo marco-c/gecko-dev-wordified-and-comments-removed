@@ -143,6 +143,14 @@ ac_add_options
 enable
 -
 release
+ac_add_options
+-
+-
+enable
+-
+js
+-
+shell
 .
 "
 topsrcdir
