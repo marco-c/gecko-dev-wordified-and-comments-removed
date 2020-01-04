@@ -97,7 +97,7 @@ win32
 /
 mozconfig
 .
-vs2010
+vs2013
 fi
 #
 graphene

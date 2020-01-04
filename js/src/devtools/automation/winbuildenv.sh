@@ -295,7 +295,7 @@ win32
 /
 mozconfig
 .
-vs2010
+vs2015
 fi
 #
 PATH

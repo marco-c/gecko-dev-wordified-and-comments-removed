@@ -72,13 +72,6 @@ export
 MOZILLA_OFFICIAL
 =
 1
-#
-Enable
-Telemetry
-export
-MOZ_TELEMETRY_REPORTING
-=
-1
 if
 test
 "
@@ -121,7 +114,7 @@ win32
 /
 mozconfig
 .
-vs2010
+vs2015
 fi
 .
 "
