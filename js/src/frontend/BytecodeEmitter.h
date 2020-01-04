@@ -2497,6 +2497,11 @@ pn
 )
 ;
 bool
+emitDebugOnlyCheckSelfHosted
+(
+)
+;
+bool
 emitSelfHostedCallFunction
 (
 ParseNode
