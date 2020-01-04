@@ -1433,7 +1433,7 @@ nsIDOMWheelEvent
 :
 DOM_DELTA_PIXEL
 )
-customizedByUserPrefs
+mCustomizedByUserPrefs
 (
 false
 )
@@ -1540,7 +1540,7 @@ nsIDOMWheelEvent
 :
 DOM_DELTA_PIXEL
 )
-customizedByUserPrefs
+mCustomizedByUserPrefs
 (
 false
 )
@@ -1692,7 +1692,7 @@ uint32_t
 mDeltaMode
 ;
 bool
-customizedByUserPrefs
+mCustomizedByUserPrefs
 ;
 bool
 mayHaveMomentum
@@ -1870,11 +1870,11 @@ aEvent
 .
 mDeltaMode
 ;
-customizedByUserPrefs
+mCustomizedByUserPrefs
 =
 aEvent
 .
-customizedByUserPrefs
+mCustomizedByUserPrefs
 ;
 mayHaveMomentum
 =
