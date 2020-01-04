@@ -173,6 +173,13 @@ Debugger
 :
 BreakpointRemoved
 "
+BREAKPOINT_CLICKED
+:
+"
+Debugger
+:
+BreakpointClicked
+"
 BREAKPOINT_SHOWN_IN_EDITOR
 :
 "
