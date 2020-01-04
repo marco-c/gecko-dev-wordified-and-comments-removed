@@ -445,6 +445,9 @@ nsPIDOMWindowOuter
 >
 mWindow
 ;
+bool
+mBlackedoutWindow
+;
 RefPtr
 <
 layers
