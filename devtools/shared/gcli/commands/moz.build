@@ -176,11 +176,6 @@ paintflashing
 js
 '
 '
-qsa
-.
-js
-'
-'
 restart
 .
 js
