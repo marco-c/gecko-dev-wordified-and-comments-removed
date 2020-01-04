@@ -230,11 +230,11 @@ logo
 {
 width
 :
-128px
+120px
 ;
 height
 :
-21px
+19px
 ;
 background
 -
@@ -261,6 +261,14 @@ background
 size
 :
 contain
+;
+background
+-
+repeat
+:
+no
+-
+repeat
 ;
 position
 :
@@ -1129,7 +1137,7 @@ area
 color
 :
 #
-fff
+4a4a4a
 ;
 margin
 :
