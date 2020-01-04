@@ -379,6 +379,14 @@ delay
 inspector
 )
 ;
+let
+onScrubberStopped
+=
+waitForScrubberStopped
+(
+timeline
+)
+;
 yield
 reloadTab
 (
@@ -386,10 +394,7 @@ inspector
 )
 ;
 yield
-waitForScrubberStopped
-(
-timeline
-)
+onScrubberStopped
 ;
 ok
 (
