@@ -3253,13 +3253,6 @@ GetCurrentJSContext
 static
 JSContext
 *
-GetSafeJSContext
-(
-)
-;
-static
-JSContext
-*
 GetCurrentJSContextForThread
 (
 )

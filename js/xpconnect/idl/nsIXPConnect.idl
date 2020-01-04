@@ -3276,16 +3276,6 @@ JSObjectPtr
 aJSObj
 )
 ;
-[
-noscript
-notxpcom
-nostdcall
-]
-JSContextPtr
-getSafeJSContext
-(
-)
-;
 /
 /
 Will

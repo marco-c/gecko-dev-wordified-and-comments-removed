@@ -3514,10 +3514,10 @@ IsJSAPIActive
 {
 mCx
 =
-nsContentUtils
+danger
 :
 :
-GetSafeJSContext
+GetJSContext
 (
 )
 ;
