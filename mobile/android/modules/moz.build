@@ -217,6 +217,11 @@ SharedPreferences
 jsm
 '
 '
+Snackbars
+.
+jsm
+'
+'
 SSLExceptions
 .
 jsm
