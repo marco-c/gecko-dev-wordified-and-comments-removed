@@ -44,6 +44,14 @@ from
 target_tasks
 import
 get_method
+logger
+=
+logging
+.
+getLogger
+(
+__name__
+)
 ARTIFACTS_DIR
 =
 '
@@ -96,7 +104,6 @@ all_tasks
 def
 taskgraph_decision
 (
-log
 options
 )
 :
@@ -217,10 +224,6 @@ root
 '
 ]
         
-log
-=
-log
-        
 parameters
 =
 parameters
@@ -243,7 +246,6 @@ dict
 *
 parameters
 )
-log
 )
     
 write_artifact
@@ -264,8 +266,6 @@ tgg
 .
 full_task_graph
 )
-                   
-log
 )
     
 write_artifact
@@ -285,8 +285,6 @@ tasks
 keys
 (
 )
-                   
-log
 )
     
 write_artifact
@@ -305,8 +303,6 @@ tgg
 .
 optimized_task_graph
 )
-                   
-log
 )
     
 create_tasks
@@ -615,37 +611,25 @@ write_artifact
 (
 filename
 data
-log
 )
 :
     
-log
-(
-logging
+logger
 .
-INFO
-'
-writing
--
-artifact
-'
-{
-        
-'
-filename
-'
-:
-filename
-    
-}
+info
+(
 '
 writing
 artifact
 file
 {
-filename
 }
 '
+.
+format
+(
+filename
+)
 )
     
 if

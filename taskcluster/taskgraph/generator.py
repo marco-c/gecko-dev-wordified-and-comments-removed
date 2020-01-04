@@ -20,6 +20,14 @@ from
 types
 import
 TaskGraph
+logger
+=
+logging
+.
+getLogger
+(
+__name__
+)
 class
 TaskGraphGenerator
 (
@@ -115,7 +123,6 @@ __init__
 (
 self
 root_dir
-log
 parameters
                  
 target_tasks_method
@@ -136,13 +143,6 @@ subdirectories
 for
 each
 kind
-        
-param
-log
-:
-Mach
-log
-function
         
 param
 parameters
@@ -192,12 +192,6 @@ self
 root_dir
 =
 root_dir
-        
-self
-.
-log
-=
-log
         
 self
 .
@@ -546,44 +540,25 @@ basename
 path
 )
             
-self
+logger
 .
-log
+debug
 (
-logging
-.
-DEBUG
-'
-loading
--
-kind
-'
-{
-                
-'
-name
-'
-:
-name
-                
-'
-path
-'
-:
-path
-            
-}
 "
 loading
 kind
 {
-name
 }
 from
 {
-path
 }
 "
+.
+format
+(
+name
+path
+)
 )
             
 kind_yml
@@ -768,9 +743,6 @@ impl_class
 (
 path
 config
-self
-.
-log
 )
     
 def

@@ -41,18 +41,6 @@ self
 )
 :
         
-def
-log
-(
-level
-name
-data
-message
-)
-:
-            
-pass
-        
 self
 .
 kind
@@ -65,7 +53,6 @@ root
 '
 {
 }
-log
 )
     
 def

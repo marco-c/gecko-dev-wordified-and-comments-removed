@@ -207,18 +207,6 @@ self
 )
 :
         
-def
-log
-(
-level
-name
-data
-message
-)
-:
-            
-pass
-        
 self
 .
 target_tasks
@@ -249,7 +237,6 @@ WithFakeKind
 /
 root
 '
-log
 {
 }
 target_tasks_method
