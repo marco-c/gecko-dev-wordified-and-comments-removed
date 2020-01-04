@@ -7135,7 +7135,7 @@ Predictor
 :
 UpdateCacheability
 (
-mReferrer
+referrer
 mURI
 httpStatus
 mRequestHead
