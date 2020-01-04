@@ -2789,9 +2789,6 @@ Now
 )
 ctx
 nullptr
-0
-nullptr
-&
 certChain
 )
 ;
@@ -3538,9 +3535,6 @@ Now
 )
 ctx
 nullptr
-0
-nullptr
-&
 certChain
 )
 ;
@@ -6177,6 +6171,9 @@ node
 )
 )
 {
+ScopedCERTCertList
+unusedCertChain
+;
 SECStatus
 srv
 =
@@ -6201,6 +6198,7 @@ Now
 )
 nullptr
 nullptr
+unusedCertChain
 )
 ;
 if
@@ -7733,10 +7731,9 @@ nullptr
 aTime
 nullptr
 aHostname
+resultChain
 false
 aFlags
-&
-resultChain
 &
 evOidPolicy
 )
@@ -7756,10 +7753,9 @@ aUsage
 aTime
 nullptr
 aHostname
+resultChain
 aFlags
 nullptr
-&
-resultChain
 &
 evOidPolicy
 )

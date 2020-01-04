@@ -1065,9 +1065,6 @@ Now
 )
 pinArg
 nullptr
-0
-nullptr
-&
 context
 -
 >

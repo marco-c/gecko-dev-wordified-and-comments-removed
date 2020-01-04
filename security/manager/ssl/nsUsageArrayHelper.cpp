@@ -375,6 +375,9 @@ check
 )
 ;
 }
+ScopedCERTCertList
+unusedBuiltChain
+;
 SECStatus
 rv
 =
@@ -388,6 +391,7 @@ aCertUsage
 time
 nullptr
 nullptr
+unusedBuiltChain
 flags
 )
 ;

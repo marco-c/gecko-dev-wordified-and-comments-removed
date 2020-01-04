@@ -3565,13 +3565,12 @@ host
 get
 (
 )
+certList
 false
 CertVerifier
 :
 :
 FLAG_LOCAL_ONLY
-&
-certList
 )
 !
 =

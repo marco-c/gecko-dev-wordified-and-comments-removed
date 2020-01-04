@@ -1277,6 +1277,9 @@ CertVerifier
 :
 FLAG_LOCAL_ONLY
 ;
+ScopedCERTCertList
+unusedBuiltChain
+;
 SECStatus
 rv
 =
@@ -1302,10 +1305,9 @@ hostnameFlat
 get
 (
 )
+unusedBuiltChain
 false
 flags
-nullptr
-nullptr
 )
 ;
 if
