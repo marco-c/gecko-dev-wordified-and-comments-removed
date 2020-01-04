@@ -492,15 +492,6 @@ aFrame
 )
 ;
 static
-uint8_t
-GetParagraphDepth
-(
-nsIFrame
-*
-aFrame
-)
-;
-static
 nsBidiLevel
 GetFrameBaseLevel
 (
