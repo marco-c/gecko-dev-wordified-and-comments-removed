@@ -3001,7 +3001,7 @@ FormatStringFromName
 MOZ_UTF16
 (
 "
-EnterLoginForRealm2
+EnterLoginForRealm
 "
 )
 strings
@@ -3038,7 +3038,7 @@ FormatStringFromName
 MOZ_UTF16
 (
 "
-EnterUserPasswordFor2
+EnterUserPasswordFor
 "
 )
 strings

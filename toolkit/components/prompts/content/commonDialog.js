@@ -354,12 +354,6 @@ dialog
 ;
 window
 .
-sizeToContent
-(
-)
-;
-window
-.
 getAttention
 (
 )
