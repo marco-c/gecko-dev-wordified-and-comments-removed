@@ -68,6 +68,7 @@ T
 Value
 ValueGetter
 (
+const
 T
 *
 obj
@@ -127,6 +128,7 @@ T
 Value
 ValueGetter
 (
+const
 T
 *
 obj
@@ -197,6 +199,7 @@ name
 #
 Value
 (
+const
 cls
 *
 obj
@@ -285,6 +288,7 @@ cls
 name
 (
 )
+const
 \
 {
 \
@@ -338,6 +342,7 @@ cls
 name
 (
 )
+const
 \
 {
 \
