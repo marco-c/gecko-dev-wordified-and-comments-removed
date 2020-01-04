@@ -471,7 +471,9 @@ jsm
 )
 ;
 let
-inspector
+{
+ComputedViewTool
+}
 =
 require
 (
@@ -480,11 +482,11 @@ devtools
 /
 client
 /
-styleinspector
-/
-style
--
 inspector
+/
+computed
+/
+computed
 "
 )
 ;
@@ -493,8 +495,6 @@ this
 computedview
 =
 new
-inspector
-.
 ComputedViewTool
 (
 panel

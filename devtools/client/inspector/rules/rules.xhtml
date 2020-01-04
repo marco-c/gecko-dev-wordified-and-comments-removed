@@ -410,7 +410,9 @@ jsm
 )
 ;
 let
-inspector
+{
+RuleViewTool
+}
 =
 require
 (
@@ -419,11 +421,11 @@ devtools
 /
 client
 /
-styleinspector
-/
-style
--
 inspector
+/
+rules
+/
+rules
 "
 )
 ;
@@ -432,8 +434,6 @@ this
 ruleview
 =
 new
-inspector
-.
 RuleViewTool
 (
 panel

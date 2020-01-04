@@ -39,7 +39,7 @@ devtools
 /
 shared
 /
-styleinspector
+inspector
 /
 css
 -
@@ -101,7 +101,9 @@ devtools
 /
 client
 /
-styleinspector
+inspector
+/
+shared
 /
 utils
 "

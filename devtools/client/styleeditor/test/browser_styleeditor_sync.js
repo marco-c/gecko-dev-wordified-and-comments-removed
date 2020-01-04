@@ -24,7 +24,9 @@ devtools
 /
 client
 /
-styleinspector
+inspector
+/
+shared
 /
 test
 /
