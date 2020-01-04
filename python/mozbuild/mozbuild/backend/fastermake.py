@@ -40,6 +40,8 @@ JsPreferenceFile
 Resources
     
 VariablePassthru
+    
+XPIDLFile
 )
 from
 mozbuild
@@ -155,6 +157,12 @@ OrderedDefaultDict
 (
 list
 )
+        
+self
+.
+_has_xpidl
+=
+False
     
 def
 _add_preprocess
@@ -1164,6 +1172,23 @@ entry
 )
 )
         
+elif
+isinstance
+(
+obj
+XPIDLFile
+)
+:
+            
+self
+.
+_has_xpidl
+=
+True
+            
+return
+True
+        
 else
 :
             
@@ -1990,6 +2015,24 @@ s
 self
 .
 _backend_output_list_file
+)
+        
+if
+not
+self
+.
+_has_xpidl
+:
+            
+mk
+.
+add_statement
+(
+'
+NO_XPIDL
+=
+1
+'
 )
         
 for

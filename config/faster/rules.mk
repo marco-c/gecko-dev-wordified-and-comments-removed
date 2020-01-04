@@ -460,6 +460,8 @@ bin
 platform
 .
 ini
+ifndef
+NO_XPIDL
 #
 Targets
 from
@@ -487,6 +489,7 @@ makefiles
 xpidl
 /
 xpidl
+endif
 ifeq
 (
 cocoa
