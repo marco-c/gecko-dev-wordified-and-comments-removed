@@ -19,10 +19,10 @@ StartGamepadMonitoring
 java
 :
 :
-GeckoAppShell
+AndroidGamepadManager
 :
 :
-StartMonitoringGamepad
+Start
 (
 )
 ;
@@ -35,10 +35,10 @@ StopGamepadMonitoring
 java
 :
 :
-GeckoAppShell
+AndroidGamepadManager
 :
 :
-StopMonitoringGamepad
+Stop
 (
 )
 ;
