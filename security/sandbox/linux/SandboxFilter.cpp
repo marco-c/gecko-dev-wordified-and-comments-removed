@@ -1975,6 +1975,9 @@ case
 SYS_LISTEN
 :
 case
+SYS_GETSOCKOPT
+:
+case
 SYS_SETSOCKOPT
 :
 case
