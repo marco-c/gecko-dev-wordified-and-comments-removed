@@ -262,6 +262,12 @@ OS_TARGET
 '
 WINNT
 '
+            
+COMPILE_ENVIRONMENT
+=
+'
+1
+'
         
 )
 )

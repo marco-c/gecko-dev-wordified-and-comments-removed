@@ -698,7 +698,6 @@ get
 '
 COMPILE_ENVIRONMENT
 '
-True
 )
 :
             

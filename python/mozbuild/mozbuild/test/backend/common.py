@@ -224,6 +224,14 @@ LIB_SUFFIX
 '
 a
 '
+            
+'
+COMPILE_ENVIRONMENT
+'
+:
+'
+1
+'
         
 }
     
