@@ -1502,6 +1502,11 @@ text
 -
 link
 "
+useoriginprincipal
+=
+"
+true
+"
 href
 =
 "
@@ -1602,6 +1607,11 @@ class
 text
 -
 link
+"
+useoriginprincipal
+=
+"
+true
 "
 href
 =
@@ -1817,6 +1827,11 @@ bottom
 -
 link
 "
+useoriginprincipal
+=
+"
+true
+"
 href
 =
 "
@@ -1845,6 +1860,11 @@ link
 bottom
 -
 link
+"
+useoriginprincipal
+=
+"
+true
 "
 href
 =
