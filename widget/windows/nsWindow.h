@@ -2509,7 +2509,10 @@ HasBogusPopupsDropShadowOnMultiMonitor
 (
 )
 ;
-nsIntMargin
+mozilla
+:
+:
+LayoutDeviceIntMargin
 mNonClientOffset
 ;
 nsIntMargin
