@@ -383,6 +383,14 @@ TestDeadlockDetectorScalability
 '
 ]
 )
+if
+CONFIG
+[
+'
+COMPILE_ENVIRONMENT
+'
+]
+:
 TEST_HARNESS_FILES
 .
 xpcshell

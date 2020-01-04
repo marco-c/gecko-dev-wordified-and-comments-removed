@@ -689,6 +689,8 @@ xpt_files
 (
 depends_files
 )
+ifdef
+COMPILE_ENVIRONMENT
 xpidl
 :
 :
@@ -701,6 +703,7 @@ chrome_manifests
 (
 interfaces_manifests
 )
+endif
 (
 xpt_files
 )
