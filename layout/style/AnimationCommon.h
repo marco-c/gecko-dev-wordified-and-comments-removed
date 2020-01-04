@@ -1010,13 +1010,6 @@ RestyleType
 aRestyleType
 )
 ;
-void
-ClearIsRunningOnCompositor
-(
-nsCSSProperty
-aProperty
-)
-;
 public
 :
 bool
