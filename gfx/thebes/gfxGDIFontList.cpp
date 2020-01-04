@@ -5213,7 +5213,7 @@ file
 continue
 ;
 }
-nsCString
+nsAutoString
 path
 ;
 if
@@ -5223,7 +5223,7 @@ NS_FAILED
 file
 -
 >
-GetNativePath
+GetPath
 (
 path
 )
@@ -5233,7 +5233,7 @@ path
 continue
 ;
 }
-AddFontResourceEx
+AddFontResourceExW
 (
 path
 .
