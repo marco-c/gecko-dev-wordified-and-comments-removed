@@ -63,5 +63,10 @@ _
 (
 DivOrModI64
 )
+\
+_
+(
+WasmTruncateToInt64
+)
 #
 endif

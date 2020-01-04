@@ -17054,7 +17054,7 @@ FloatReg0
 ;
 masm
 .
-branchTruncateDouble
+branchTruncateDoubleMaybeModUint32
 (
 FloatReg0
 scratch

@@ -11859,7 +11859,7 @@ false
 ;
 masm
 .
-branchTruncateFloat32
+branchTruncateFloat32ToInt32
 (
 src
 .
@@ -11931,7 +11931,7 @@ false
 ;
 masm
 .
-branchTruncateDouble
+branchTruncateDoubleToInt32
 (
 src
 .

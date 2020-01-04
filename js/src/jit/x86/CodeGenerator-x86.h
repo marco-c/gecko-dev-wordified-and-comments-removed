@@ -526,6 +526,14 @@ LNotI64
 lir
 )
 ;
+void
+visitWasmTruncateToInt64
+(
+LWasmTruncateToInt64
+*
+lir
+)
+;
 private
 :
 void

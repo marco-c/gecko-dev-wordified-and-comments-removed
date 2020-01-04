@@ -5050,7 +5050,7 @@ input
 Label
 outOfRange
 ;
-branchTruncateDouble
+branchTruncateDoubleMaybeModUint32
 (
 input
 output
