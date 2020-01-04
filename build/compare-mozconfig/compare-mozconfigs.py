@@ -538,6 +538,22 @@ line
 :
                 
 if
+'
++
+'
++
+line
+[
+1
+:
+]
+in
+diff_list
+:
+                    
+continue
+                
+if
 platform
 in
 mozconfigWhitelist
@@ -581,6 +597,22 @@ line
 +
 '
 :
+                
+if
+'
+-
+'
++
+line
+[
+1
+:
+]
+in
+diff_list
+:
+                    
+continue
                 
 if
 platform
