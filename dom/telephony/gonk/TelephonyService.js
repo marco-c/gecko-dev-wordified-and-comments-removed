@@ -10713,13 +10713,6 @@ disconnectedReason
 =
 aFailCause
 ;
-if
-(
-call
-.
-parentId
-)
-{
 let
 parentCall
 =
@@ -10735,6 +10728,11 @@ call
 parentId
 ]
 ;
+if
+(
+parentCall
+)
+{
 delete
 parentCall
 .
