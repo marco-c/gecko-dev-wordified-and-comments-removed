@@ -1608,6 +1608,17 @@ file_patterns
 :
 -
 '
+mobile
+/
+android
+/
+config
+/
+*
+*
+'
+-
+'
 testing
 /
 docker
