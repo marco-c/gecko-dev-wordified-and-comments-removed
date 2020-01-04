@@ -2830,7 +2830,7 @@ aIMENotification
 )
 ;
 case
-NOTIFY_IME_OF_COMPOSITION_UPDATE
+NOTIFY_IME_OF_COMPOSITION_EVENT_HANDLED
 :
 return
 NotifyIMEOfCompositionUpdate
