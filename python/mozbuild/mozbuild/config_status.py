@@ -592,6 +592,36 @@ s
 topsrcdir
 )
     
+default_backends
+=
+[
+'
+RecursiveMake
+'
+]
+    
+for
+name
+value
+in
+substs
+:
+        
+if
+name
+=
+=
+'
+BUILD_BACKENDS
+'
+:
+            
+default_backends
+=
+value
+            
+break
+    
 parser
 =
 ArgumentParser
@@ -774,11 +804,7 @@ FasterMake
                         
 default
 =
-[
-'
-RecursiveMake
-'
-]
+default_backends
                         
 help
 =
@@ -790,10 +816,20 @@ build
 (
 default
 :
-RecursiveMake
+%
+s
 )
 .
 '
+%
+                        
+'
+'
+.
+join
+(
+default_backends
+)
 )
     
 options
