@@ -3309,7 +3309,7 @@ dateTimeFormat
 FormatPRTime
 (
 nullptr
-kDateFormatShort
+kDateFormatLong
 kTimeFormatNoSeconds
 timeToUse
 formattedDate
@@ -3321,7 +3321,7 @@ dateTimeFormat
 FormatPRTime
 (
 nullptr
-kDateFormatShort
+kDateFormatLong
 kTimeFormatNoSeconds
 now
 nowDate
