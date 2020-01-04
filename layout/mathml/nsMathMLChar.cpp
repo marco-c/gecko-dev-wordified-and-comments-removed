@@ -9127,16 +9127,6 @@ ThebesContext
 (
 )
 ;
-nsCSSPropertyID
-colorProp
-=
-styleContext
--
->
-GetTextFillColorProp
-(
-)
-;
 nscolor
 fgColor
 =
@@ -9145,7 +9135,7 @@ styleContext
 >
 GetVisitedDependentColor
 (
-colorProp
+eCSSProperty__webkit_text_fill_color
 )
 ;
 if

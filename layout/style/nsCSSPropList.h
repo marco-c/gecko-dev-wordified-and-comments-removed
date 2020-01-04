@@ -8430,8 +8430,12 @@ CSS_PROPERTY_IGNORED_WHEN_COLORS_DISABLED
 "
 VARIANT_HC
 nullptr
-CSS_PROP_NO_OFFSET
-eStyleAnimType_Custom
+offsetof
+(
+nsStyleText
+mTextEmphasisColor
+)
+eStyleAnimType_ComplexColor
 )
 CSS_PROP_TEXT
 (
@@ -8506,7 +8510,7 @@ offsetof
 nsStyleText
 mWebkitTextFillColor
 )
-eStyleAnimType_Custom
+eStyleAnimType_ComplexColor
 )
 CSS_PROP_TEXT
 (
@@ -8698,7 +8702,7 @@ offsetof
 nsStyleText
 mWebkitTextStrokeColor
 )
-eStyleAnimType_Custom
+eStyleAnimType_ComplexColor
 )
 CSS_PROP_TEXT
 (
