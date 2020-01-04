@@ -2136,6 +2136,10 @@ gtk_paned_new
 )
 STUB
 (
+gtk_radio_menu_item_new
+)
+STUB
+(
 gtk_render_activity
 )
 STUB
