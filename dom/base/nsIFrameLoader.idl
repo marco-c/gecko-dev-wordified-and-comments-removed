@@ -1465,6 +1465,12 @@ this
 nsIFrameLoaderOwner
 *
 /
+[
+binaryname
+(
+FrameLoaderXPCOM
+)
+]
 readonly
 attribute
 nsIFrameLoader

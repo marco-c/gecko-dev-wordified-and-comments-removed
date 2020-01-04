@@ -1579,7 +1579,7 @@ const
 override
 ;
 nsresult
-GetFrameLoader
+GetFrameLoaderXPCOM
 (
 nsIFrameLoader
 *

@@ -5682,7 +5682,7 @@ NS_IMETHODIMP
 nsObjectLoadingContent
 :
 :
-GetFrameLoader
+GetFrameLoaderXPCOM
 (
 nsIFrameLoader
 *

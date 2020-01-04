@@ -672,7 +672,7 @@ NS_IMETHODIMP
 nsGenericHTMLFrameElement
 :
 :
-GetFrameLoader
+GetFrameLoaderXPCOM
 (
 nsIFrameLoader
 *
