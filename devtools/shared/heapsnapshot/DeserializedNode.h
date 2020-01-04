@@ -1073,9 +1073,9 @@ EdgeRange
 >
 edges
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 bool
 )
 const
