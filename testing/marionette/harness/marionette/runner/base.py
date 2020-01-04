@@ -3136,14 +3136,16 @@ exit
 1
 )
         
+missing_tests
+=
+[
+path
 for
 path
 in
 args
 .
 tests
-:
-            
 if
 not
 os
@@ -3154,6 +3156,16 @@ exists
 (
 path
 )
+]
+        
+if
+missing_tests
+:
+            
+for
+path
+in
+missing_tests
 :
                 
 print
@@ -3170,7 +3182,7 @@ format
 (
 path
 )
-                
+            
 sys
 .
 exit
