@@ -6521,6 +6521,12 @@ float
 aY
 )
 ;
+Element
+*
+GetScrollingElement
+(
+)
+;
 nsINodeList
 *
 GetAnonymousNodes
