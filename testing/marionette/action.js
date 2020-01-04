@@ -259,7 +259,7 @@ function
 args
 touchId
 container
-elementManager
+seenEls
 touchProvider
 )
 {
@@ -277,9 +277,9 @@ touchProvider
 }
 this
 .
-elementManager
+seenEls
 =
-elementManager
+seenEls
 ;
 this
 .
@@ -295,7 +295,7 @@ element
 fromJson
 (
 args
-elementManager
+seenEls
 container
 .
 frame
@@ -561,7 +561,7 @@ null
 ;
 this
 .
-elementManager
+seenEls
 =
 null
 ;
@@ -800,7 +800,7 @@ el
 =
 this
 .
-elementManager
+seenEls
 .
 get
 (
@@ -1006,7 +1006,7 @@ el
 =
 this
 .
-elementManager
+seenEls
 .
 get
 (
@@ -1126,7 +1126,7 @@ el
 =
 this
 .
-elementManager
+seenEls
 .
 get
 (

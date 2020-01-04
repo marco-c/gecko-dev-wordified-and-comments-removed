@@ -454,7 +454,7 @@ previousContainer
 null
 ;
 var
-elementManager
+seenEls
 =
 new
 element
@@ -2704,7 +2704,7 @@ false
 )
 ;
 }
-elementManager
+seenEls
 .
 reset
 (
@@ -3083,7 +3083,7 @@ element
 fromJson
 (
 args
-elementManager
+seenEls
 curContainer
 .
 frame
@@ -3112,7 +3112,7 @@ element
 toJson
 (
 res
-elementManager
+seenEls
 )
 ;
 }
@@ -3209,7 +3209,7 @@ element
 fromJson
 (
 args
-elementManager
+seenEls
 curContainer
 .
 frame
@@ -3256,7 +3256,7 @@ contentLog
 get
 (
 )
-elementManager
+seenEls
 )
 }
 )
@@ -3267,7 +3267,7 @@ element
 toJson
 (
 res
-elementManager
+seenEls
 )
 ;
 }
@@ -3364,7 +3364,7 @@ element
 fromJson
 (
 args
-elementManager
+seenEls
 curContainer
 .
 frame
@@ -3411,7 +3411,7 @@ contentLog
 get
 (
 )
-elementManager
+seenEls
 )
 }
 )
@@ -3422,7 +3422,7 @@ element
 toJson
 (
 res
-elementManager
+seenEls
 )
 ;
 }
@@ -3879,7 +3879,7 @@ cory
 let
 el
 =
-elementManager
+seenEls
 .
 get
 (
@@ -4164,7 +4164,7 @@ dispatchActions
 chain
 touchId
 curContainer
-elementManager
+seenEls
 touchProvider
 )
 ;
@@ -4477,7 +4477,7 @@ press
 :
 el
 =
-elementManager
+seenEls
 .
 get
 (
@@ -4591,7 +4591,7 @@ move
 :
 el
 =
-elementManager
+seenEls
 .
 get
 (
@@ -4908,7 +4908,7 @@ element
 fromJson
 (
 args
-elementManager
+seenEls
 curContainer
 .
 frame
@@ -5788,7 +5788,7 @@ opts
 .
 startNode
 =
-elementManager
+seenEls
 .
 get
 (
@@ -5816,7 +5816,7 @@ opts
 let
 elRef
 =
-elementManager
+seenEls
 .
 add
 (
@@ -5892,7 +5892,7 @@ opts
 .
 startNode
 =
-elementManager
+seenEls
 .
 get
 (
@@ -5920,7 +5920,7 @@ opts
 let
 elRefs
 =
-elementManager
+seenEls
 .
 addAll
 (
@@ -5962,7 +5962,7 @@ activeElement
 let
 elRef
 =
-elementManager
+seenEls
 .
 add
 (
@@ -5982,7 +5982,7 @@ id
 let
 el
 =
-elementManager
+seenEls
 .
 get
 (
@@ -6020,7 +6020,7 @@ name
 let
 el
 =
-elementManager
+seenEls
 .
 get
 (
@@ -6084,7 +6084,7 @@ name
 let
 el
 =
-elementManager
+seenEls
 .
 get
 (
@@ -6108,7 +6108,7 @@ id
 let
 el
 =
-elementManager
+seenEls
 .
 get
 (
@@ -6137,7 +6137,7 @@ id
 let
 el
 =
-elementManager
+seenEls
 .
 get
 (
@@ -6164,7 +6164,7 @@ id
 let
 el
 =
-elementManager
+seenEls
 .
 get
 (
@@ -6194,7 +6194,7 @@ prop
 let
 el
 =
-elementManager
+seenEls
 .
 get
 (
@@ -6237,7 +6237,7 @@ id
 let
 el
 =
-elementManager
+seenEls
 .
 get
 (
@@ -6300,7 +6300,7 @@ id
 let
 el
 =
-elementManager
+seenEls
 .
 get
 (
@@ -6329,7 +6329,7 @@ id
 let
 el
 =
-elementManager
+seenEls
 .
 get
 (
@@ -6385,7 +6385,7 @@ id
 let
 el
 =
-elementManager
+seenEls
 .
 get
 (
@@ -6492,7 +6492,7 @@ try
 let
 el
 =
-elementManager
+seenEls
 .
 get
 (
@@ -6655,7 +6655,7 @@ foundShadowRoot
 let
 hostEl
 =
-elementManager
+seenEls
 .
 get
 (
@@ -6727,7 +6727,7 @@ parent
 let
 parentElement
 =
-elementManager
+seenEls
 .
 add
 (
@@ -7062,7 +7062,7 @@ element
 ;
 if
 (
-elementManager
+seenEls
 .
 has
 (
@@ -7077,7 +7077,7 @@ try
 {
 wantedFrame
 =
-elementManager
+seenEls
 .
 get
 (
@@ -7298,7 +7298,7 @@ foundFrame
 ;
 foundFrame
 =
-elementManager
+seenEls
 .
 add
 (
@@ -7493,7 +7493,7 @@ curContainer
 frame
 .
 wrappedJSObject
-elementManager
+seenEls
 )
 [
 element
@@ -7891,7 +7891,7 @@ highlights
 let
 el
 =
-elementManager
+seenEls
 .
 get
 (
@@ -7944,7 +7944,7 @@ id
 {
 node
 =
-elementManager
+seenEls
 .
 get
 (

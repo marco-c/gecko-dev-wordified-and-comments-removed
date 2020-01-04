@@ -4240,7 +4240,7 @@ this
 .
 curBrowser
 .
-elementManager
+seenEls
 sb
 .
 window
@@ -4276,7 +4276,7 @@ this
 .
 curBrowser
 .
-elementManager
+seenEls
 )
 )
 ;
@@ -4375,7 +4375,7 @@ this
 .
 curBrowser
 .
-elementManager
+seenEls
 win
 )
 ;
@@ -4463,7 +4463,7 @@ this
 .
 curBrowser
 .
-elementManager
+seenEls
 )
 ;
 break
@@ -6411,7 +6411,7 @@ this
 .
 curBrowser
 .
-elementManager
+seenEls
 .
 add
 (
@@ -6738,7 +6738,7 @@ this
 .
 curBrowser
 .
-elementManager
+seenEls
 .
 get
 (
@@ -7782,15 +7782,6 @@ getCurrentWindow
 (
 )
 ;
-let
-elm
-=
-this
-.
-curBrowser
-.
-elementManager
-;
 resp
 .
 body
@@ -7811,7 +7802,11 @@ frame
 :
 win
 }
-elm
+this
+.
+curBrowser
+.
+seenEls
 )
 ;
 break
@@ -8053,7 +8048,7 @@ this
 .
 curBrowser
 .
-elementManager
+seenEls
 .
 get
 (
@@ -8085,7 +8080,7 @@ this
 .
 curBrowser
 .
-elementManager
+seenEls
 .
 add
 (
@@ -8257,7 +8252,7 @@ this
 .
 curBrowser
 .
-elementManager
+seenEls
 .
 get
 (
@@ -8289,7 +8284,7 @@ this
 .
 curBrowser
 .
-elementManager
+seenEls
 .
 addAll
 (
@@ -8430,7 +8425,7 @@ this
 .
 curBrowser
 .
-elementManager
+seenEls
 .
 get
 (
@@ -8537,7 +8532,7 @@ this
 .
 curBrowser
 .
-elementManager
+seenEls
 .
 get
 (
@@ -8707,7 +8702,7 @@ this
 .
 curBrowser
 .
-elementManager
+seenEls
 .
 get
 (
@@ -8827,7 +8822,7 @@ this
 .
 curBrowser
 .
-elementManager
+seenEls
 .
 get
 (
@@ -8931,7 +8926,7 @@ this
 .
 curBrowser
 .
-elementManager
+seenEls
 .
 get
 (
@@ -9043,7 +9038,7 @@ this
 .
 curBrowser
 .
-elementManager
+seenEls
 .
 get
 (
@@ -9162,7 +9157,7 @@ this
 .
 curBrowser
 .
-elementManager
+seenEls
 .
 get
 (
@@ -9270,7 +9265,7 @@ this
 .
 curBrowser
 .
-elementManager
+seenEls
 .
 get
 (
@@ -9379,7 +9374,7 @@ this
 .
 curBrowser
 .
-elementManager
+seenEls
 .
 get
 (
@@ -9532,7 +9527,7 @@ this
 .
 curBrowser
 .
-elementManager
+seenEls
 .
 get
 (
@@ -9875,7 +9870,7 @@ this
 .
 curBrowser
 .
-elementManager
+seenEls
 .
 get
 (
