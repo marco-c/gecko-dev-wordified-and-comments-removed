@@ -3143,6 +3143,12 @@ bool
 >
 mAudioCompleted
 ;
+Watchable
+<
+bool
+>
+mVideoCompleted
+;
 Maybe
 <
 bool
