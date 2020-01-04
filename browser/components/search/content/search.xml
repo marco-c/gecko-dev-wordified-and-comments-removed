@@ -10357,6 +10357,12 @@ selectedButton
 =
 null
 ;
+this
+.
+_contextEngine
+=
+null
+;
 }
 Ci
 .
@@ -10364,12 +10370,6 @@ nsIThread
 .
 DISPATCH_NORMAL
 )
-;
-this
-.
-_contextEngine
-=
-null
 ;
 break
 ;
