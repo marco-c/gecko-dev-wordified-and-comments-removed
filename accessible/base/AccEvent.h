@@ -148,7 +148,7 @@ mAccessible
 }
 DocAccessible
 *
-GetDocAccessible
+Document
 (
 )
 const

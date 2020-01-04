@@ -114,7 +114,7 @@ IsApplication
 aEvent
 -
 >
-GetDocAccessible
+Document
 (
 )
 =

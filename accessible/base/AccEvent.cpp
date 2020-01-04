@@ -640,7 +640,7 @@ doc
 aEvent
 -
 >
-GetDocAccessible
+Document
 (
 )
 ;

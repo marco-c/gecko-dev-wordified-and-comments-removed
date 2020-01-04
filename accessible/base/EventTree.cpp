@@ -1332,7 +1332,7 @@ NeedsShutdown
 mtEvent
 -
 >
-GetDocAccessible
+Document
 (
 )
 -
@@ -1994,7 +1994,7 @@ NeedsShutdown
 ev
 -
 >
-GetDocAccessible
+Document
 (
 )
 -

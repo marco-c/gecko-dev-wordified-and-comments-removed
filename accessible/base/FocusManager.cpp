@@ -1258,7 +1258,7 @@ document
 aEvent
 -
 >
-GetDocAccessible
+Document
 (
 )
 ;
