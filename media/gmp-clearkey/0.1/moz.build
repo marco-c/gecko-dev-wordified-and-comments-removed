@@ -141,6 +141,11 @@ ClearKeyBase64
 cpp
 '
 '
+ClearKeyCencParser
+.
+cpp
+'
+'
 ClearKeyDecryptionManager
 .
 cpp
