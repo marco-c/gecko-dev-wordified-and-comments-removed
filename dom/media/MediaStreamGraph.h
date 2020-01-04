@@ -3001,6 +3001,14 @@ aEngine
 )
 ;
 void
+AddStream
+(
+MediaStream
+*
+aStream
+)
+;
+void
 NotifyWhenGraphStarted
 (
 AudioNodeStream
