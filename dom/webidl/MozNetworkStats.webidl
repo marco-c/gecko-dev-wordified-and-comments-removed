@@ -138,9 +138,15 @@ thrown
 /
 DOMString
 appManifestURL
+?
+=
+null
 ;
 DOMString
 serviceType
+=
+"
+"
 ;
 /
 *
@@ -205,6 +211,8 @@ returned
 /
 boolean
 browsingTrafficOnly
+=
+false
 ;
 }
 ;

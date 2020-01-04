@@ -168,17 +168,3 @@ b404
 -
 cc2d3e42425f
 }
-category
-JavaScript
--
-navigator
--
-property
-mozNetworkStats
-mozilla
-.
-org
-/
-networkStatsManager
-;
-1

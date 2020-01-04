@@ -234,9 +234,9 @@ type
 :
 Ci
 .
-nsIDOMMozNetworkStatsManager
+nsINetworkInterface
 .
-WIFI
+NETWORK_TYPE_WIFI
 }
 {
 id
@@ -248,9 +248,9 @@ type
 :
 Ci
 .
-nsIDOMMozNetworkStatsManager
+nsINetworkInterface
 .
-MOBILE
+NETWORK_TYPE_MOBILE
 }
 ]
 ;

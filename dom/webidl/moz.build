@@ -3737,6 +3737,11 @@ MozNetworkStatsInterface
 webidl
 '
 '
+MozNetworkStatsManager
+.
+webidl
+'
+'
 MozSpeakerManager
 .
 webidl

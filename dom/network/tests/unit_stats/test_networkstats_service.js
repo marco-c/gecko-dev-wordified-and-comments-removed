@@ -890,9 +890,9 @@ type
 :
 Ci
 .
-nsIDOMMozNetworkStatsManager
+nsINetworkInterface
 .
-MOBILE
+NETWORK_TYPE_MOBILE
 }
 ;
 var
@@ -940,9 +940,9 @@ type
 :
 Ci
 .
-nsIDOMMozNetworkStatsManager
+nsINetworkInterface
 .
-MOBILE
+NETWORK_TYPE_MOBILE
 }
 ;
 var
