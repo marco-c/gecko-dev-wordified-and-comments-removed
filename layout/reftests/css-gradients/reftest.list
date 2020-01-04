@@ -4420,6 +4420,14 @@ gradient
 ref
 .
 html
+fuzzy
+-
+if
+(
+Android
+4
+1
+)
 =
 =
 large
@@ -4438,6 +4446,9 @@ gradient
 ref
 .
 html
+#
+Bug
+1182082
 fails
 -
 if
