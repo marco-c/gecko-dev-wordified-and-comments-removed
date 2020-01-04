@@ -1037,16 +1037,6 @@ ResetConnectionState
 final
 override
 ;
-virtual
-void
-NotifyAudibleStateChanged
-(
-bool
-aAudible
-)
-final
-override
-;
 void
 SetPreload
 (
@@ -3227,9 +3217,6 @@ mFirstFrameLoaded
 ;
 double
 mDefaultPlaybackStartPosition
-;
-bool
-mIsAudioTrackAudible
 ;
 }
 ;
