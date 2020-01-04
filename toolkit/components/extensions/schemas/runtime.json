@@ -2817,6 +2817,13 @@ sendMessage
 .
 "
 "
+async
+"
+:
+"
+responseCallback
+"
+"
 parameters
 "
 :
