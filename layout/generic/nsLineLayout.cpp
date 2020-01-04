@@ -4803,7 +4803,7 @@ DisableResizeReflowOptimization
 ;
 }
 ReflowOutput
-metrics
+reflowOutput
 (
 lineWM
 )
@@ -4811,7 +4811,7 @@ lineWM
 #
 ifdef
 DEBUG
-metrics
+reflowOutput
 .
 ISize
 (
@@ -4823,7 +4823,7 @@ nscoord
 0xdeadbeef
 )
 ;
-metrics
+reflowOutput
 .
 BSize
 (
@@ -4905,7 +4905,7 @@ aFrame
 Reflow
 (
 mPresContext
-metrics
+reflowOutput
 *
 reflowInputHolder
 aReflowStatus
@@ -4941,7 +4941,7 @@ mRenderingContext
 GetDrawTarget
 (
 )
-metrics
+reflowOutput
 aReflowStatus
 )
 ;
@@ -5315,7 +5315,7 @@ tB
 ;
 NS_ASSERTION
 (
-metrics
+reflowOutput
 .
 ISize
 (
@@ -5333,7 +5333,7 @@ size
 ;
 NS_ASSERTION
 (
-metrics
+reflowOutput
 .
 BSize
 (
@@ -5351,7 +5351,7 @@ size
 ;
 if
 (
-metrics
+reflowOutput
 .
 ISize
 (
@@ -5361,7 +5361,7 @@ lineWM
 0
 )
 {
-metrics
+reflowOutput
 .
 ISize
 (
@@ -5373,7 +5373,7 @@ lineWM
 }
 if
 (
-metrics
+reflowOutput
 .
 BSize
 (
@@ -5383,7 +5383,7 @@ lineWM
 0
 )
 {
-metrics
+reflowOutput
 .
 BSize
 (
@@ -5410,7 +5410,7 @@ if
 (
 CRAZY_SIZE
 (
-metrics
+reflowOutput
 .
 ISize
 (
@@ -5421,7 +5421,7 @@ lineWM
 |
 CRAZY_SIZE
 (
-metrics
+reflowOutput
 .
 BSize
 (
@@ -5477,12 +5477,12 @@ d
 \
 n
 "
-metrics
+reflowOutput
 .
 Width
 (
 )
-metrics
+reflowOutput
 .
 Height
 (
@@ -5493,7 +5493,7 @@ Height
 if
 (
 (
-metrics
+reflowOutput
 .
 Width
 (
@@ -5508,7 +5508,7 @@ nscoord
 |
 |
 (
-metrics
+reflowOutput
 .
 Height
 (
@@ -5557,12 +5557,12 @@ d
 \
 n
 "
-metrics
+reflowOutput
 .
 Width
 (
 )
-metrics
+reflowOutput
 .
 Height
 (
@@ -5578,7 +5578,7 @@ pfd
 >
 mOverflowAreas
 =
-metrics
+reflowOutput
 .
 mOverflowAreas
 ;
@@ -5592,7 +5592,7 @@ ISize
 lineWM
 )
 =
-metrics
+reflowOutput
 .
 ISize
 (
@@ -5609,7 +5609,7 @@ BSize
 lineWM
 )
 =
-metrics
+reflowOutput
 .
 BSize
 (
@@ -5661,7 +5661,7 @@ aMetrics
 *
 aMetrics
 =
-metrics
+reflowOutput
 ;
 }
 if
@@ -5796,7 +5796,7 @@ savedOptionalBreakFrame
 !
 =
 nullptr
-metrics
+reflowOutput
 aReflowStatus
 &
 optionalBreakAfterFits
@@ -5859,7 +5859,7 @@ pfd
 PlaceFrame
 (
 pfd
-metrics
+reflowOutput
 )
 ;
 PerSpanData

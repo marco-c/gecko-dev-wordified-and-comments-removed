@@ -3627,7 +3627,7 @@ GetWritingMode
 )
 ;
 ReflowOutput
-metrics
+reflowOutput
 (
 wm
 )
@@ -3635,7 +3635,7 @@ wm
 DISPLAY_MIN_WIDTH
 (
 this
-metrics
+reflowOutput
 .
 ISize
 (
@@ -3655,7 +3655,7 @@ PresContext
 (
 )
 aRenderingContext
-metrics
+reflowOutput
 1
 .
 0f
@@ -3663,7 +3663,7 @@ metrics
 padding
 )
 ;
-metrics
+reflowOutput
 .
 ISize
 (
@@ -3679,7 +3679,7 @@ wm
 )
 ;
 return
-metrics
+reflowOutput
 .
 ISize
 (

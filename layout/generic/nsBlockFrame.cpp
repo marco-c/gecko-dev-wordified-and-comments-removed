@@ -6282,7 +6282,7 @@ IsBlock
 )
 {
 ReflowOutput
-metrics
+reflowOutput
 (
 aReflowInput
 )
@@ -6349,7 +6349,7 @@ ReflowBullet
 (
 bullet
 state
-metrics
+reflowOutput
 lineBStart
 )
 ;
@@ -6361,7 +6361,7 @@ BulletIsEmpty
 )
 |
 |
-metrics
+reflowOutput
 .
 BSize
 (
@@ -6399,7 +6399,7 @@ bullet
 GetLogicalRect
 (
 wm
-metrics
+reflowOutput
 .
 PhysicalSize
 (
@@ -6417,7 +6417,7 @@ position
 .
 mBaseline
 -
-metrics
+reflowOutput
 .
 BlockStartAscent
 (
@@ -6430,7 +6430,7 @@ SetRect
 (
 wm
 bbox
-metrics
+reflowOutput
 .
 PhysicalSize
 (
