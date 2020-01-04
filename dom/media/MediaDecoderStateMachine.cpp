@@ -5989,15 +5989,6 @@ return
 }
 if
 (
-!
-mReader
-)
-{
-return
-;
-}
-if
-(
 mMetadataRequest
 .
 Exists
