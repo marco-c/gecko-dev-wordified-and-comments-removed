@@ -923,7 +923,7 @@ eMediaEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_LOADEDMETADATA
+eLoadedMetaData
 eMediaEventFirst
 +
 7
