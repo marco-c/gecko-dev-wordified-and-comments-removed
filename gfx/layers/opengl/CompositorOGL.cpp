@@ -1081,6 +1081,16 @@ Initialize
 (
 )
 {
+bool
+force
+=
+gfxPrefs
+:
+:
+LayersAccelerationForceEnabled
+(
+)
+;
 ScopedGfxFeatureReporter
 reporter
 (
@@ -1088,6 +1098,7 @@ reporter
 GL
 Layers
 "
+force
 )
 ;
 MOZ_ASSERT

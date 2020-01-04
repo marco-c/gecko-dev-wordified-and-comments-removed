@@ -158,9 +158,6 @@ ipc
 '
 vr
 '
-'
-config
-'
 ]
 if
 CONFIG

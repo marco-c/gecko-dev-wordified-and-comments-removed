@@ -8015,13 +8015,6 @@ eWindowType_invisible
 return
 ;
 }
-gfxPlatform
-:
-:
-GetPlatform
-(
-)
-;
 if
 (
 ShouldUseOffMainThreadCompositing
