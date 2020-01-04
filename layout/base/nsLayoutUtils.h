@@ -818,6 +818,11 @@ aFrame
 nsIAtom
 *
 aFrameType
+nsIFrame
+*
+aStopAt
+=
+nullptr
 )
 ;
 static
@@ -1277,10 +1282,6 @@ aBuilder
 nsIFrame
 *
 aFrame
-const
-nsIFrame
-*
-aStopAtAncestor
 )
 ;
 static
