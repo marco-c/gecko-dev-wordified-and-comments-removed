@@ -5911,7 +5911,11 @@ GetAtkObject
 parentAcc
 )
 ;
-return
+NS_ENSURE_STATE
+(
+parent
+)
+;
 FireAtkShowHideEvent
 (
 atkObj
@@ -5924,6 +5928,9 @@ IsFromUserInput
 (
 )
 )
+;
+return
+NS_OK
 ;
 }
 case
@@ -6026,7 +6033,11 @@ GetAtkObject
 parentAcc
 )
 ;
-return
+NS_ENSURE_STATE
+(
+parent
+)
+;
 FireAtkShowHideEvent
 (
 atkObj
@@ -6039,6 +6050,9 @@ IsFromUserInput
 (
 )
 )
+;
+return
+NS_OK
 ;
 }
 case
@@ -7044,7 +7058,7 @@ ADD_EVENT
 }
 }
 ;
-nsresult
+void
 AccessibleWrap
 :
 :
@@ -7070,11 +7084,6 @@ getIndexInParentCB
 aObject
 )
 ;
-NS_ENSURE_STATE
-(
-aParent
-)
-;
 const
 char
 *
@@ -7096,9 +7105,6 @@ indexInParent
 aObject
 nullptr
 )
-;
-return
-NS_OK
 ;
 }
 void
