@@ -404,9 +404,7 @@ aContextPaint
 aStyleSVG
 -
 >
-StrokeDasharrayFromObject
-(
-)
+mStrokeDasharrayFromObject
 )
 {
 const
@@ -780,9 +778,7 @@ aContextPaint
 aStyleSVG
 -
 >
-StrokeDashoffsetFromObject
-(
-)
+mStrokeDashoffsetFromObject
 )
 {
 aStrokeOptions
@@ -1215,9 +1211,7 @@ aContextPaint
 styleSVG
 -
 >
-StrokeWidthFromObject
-(
-)
+mStrokeWidthFromObject
 )
 {
 return
