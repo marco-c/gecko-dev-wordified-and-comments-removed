@@ -296,8 +296,10 @@ TextureSourceD3D9
 *
 mNextHost
 ;
+RefPtr
+<
 DeviceManagerD3D9
-*
+>
 mCreatingDeviceManager
 ;
 StereoMode

@@ -738,6 +738,11 @@ GetD3D9Device
 (
 )
 ;
+void
+D3D9DeviceReset
+(
+)
+;
 ID3D11Device
 *
 GetD3D11ContentDevice
@@ -1297,6 +1302,15 @@ mHasFakeDeviceReset
 ;
 bool
 mCompositorD3D11TextureSharingWorks
+;
+mozilla
+:
+:
+Atomic
+<
+bool
+>
+mHasD3D9DeviceReset
 ;
 DeviceResetReason
 mDeviceResetReason
