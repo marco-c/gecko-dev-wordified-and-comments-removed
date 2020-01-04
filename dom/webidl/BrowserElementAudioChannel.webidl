@@ -189,16 +189,6 @@ isActive
 (
 )
 ;
-[
-Throws
-]
-DOMRequest
-notifyChannel
-(
-DOMString
-aEvent
-)
-;
 }
 ;
 partial
