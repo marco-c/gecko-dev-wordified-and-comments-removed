@@ -813,6 +813,13 @@ kind
 ]
 ;
 }
+uintptr_t
+stackLimitForJitCode
+(
+StackKind
+kind
+)
+;
 size_t
 gcSystemPageSize
 (

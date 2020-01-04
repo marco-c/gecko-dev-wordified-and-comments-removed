@@ -418,13 +418,6 @@ enabled
 )
 ;
 void
-updateStackLimit
-(
-JSContext
-*
-)
-;
-void
 addSizeOfMisc
 (
 MallocSizeOf
