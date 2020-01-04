@@ -631,7 +631,7 @@ mMaskTransform
 ;
 }
 ;
-PushedGroup
+bool
 PushGroupForLayer
 (
 gfxContext
@@ -644,6 +644,9 @@ const
 nsIntRegion
 &
 aRegion
+PushedGroup
+&
+aGroupResult
 )
 ;
 void
