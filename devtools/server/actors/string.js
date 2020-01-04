@@ -282,7 +282,7 @@ true
 ;
 exports
 .
-SimpleStringFront
+ShortLongString
 =
 Class
 (
@@ -742,7 +742,7 @@ string
 return
 exports
 .
-SimpleStringFront
+ShortLongString
 (
 value
 )
