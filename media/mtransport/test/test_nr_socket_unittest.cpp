@@ -972,7 +972,7 @@ res
 WAIT_
 (
 wait_done_for_main_
-100
+500
 res
 )
 ;
