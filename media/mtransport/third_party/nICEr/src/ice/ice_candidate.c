@@ -2537,7 +2537,7 @@ cand
 stun_server
 -
 >
-index
+id
 ;
 break
 ;
@@ -2615,7 +2615,7 @@ cand
 stun_server
 -
 >
-index
+id
 ;
 break
 ;
