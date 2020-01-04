@@ -85,7 +85,7 @@ class
 nsIThread
 ;
 class
-nsINode
+nsIPrincipal
 ;
 #
 ifdef
@@ -945,9 +945,9 @@ nsIURI
 pSourceURI
 uint32_t
 aContentPolicyType
-nsINode
+nsIPrincipal
 *
-aRequestingNode
+aRequestingPrincipal
 )
 ;
 NS_DECL_ISUPPORTS
