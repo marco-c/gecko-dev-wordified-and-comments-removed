@@ -67,6 +67,9 @@ py
 .
 *
 /
+[
+LegacyUnenumerableNamedProperties
+]
 interface
 HTMLAllCollection
 {

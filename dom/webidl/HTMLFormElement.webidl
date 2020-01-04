@@ -160,6 +160,7 @@ document
 /
 [
 OverrideBuiltins
+LegacyUnenumerableNamedProperties
 ]
 interface
 HTMLFormElement

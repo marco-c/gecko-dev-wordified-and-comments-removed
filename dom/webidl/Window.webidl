@@ -380,6 +380,7 @@ work
 /
 [
 PrimaryGlobal
+LegacyUnenumerableNamedProperties
 NeedResolve
 ]
 /

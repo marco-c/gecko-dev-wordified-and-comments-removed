@@ -91,6 +91,9 @@ MPL
 .
 *
 /
+[
+LegacyUnenumerableNamedProperties
+]
 interface
 MimeTypeArray
 {

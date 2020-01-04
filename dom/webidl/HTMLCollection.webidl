@@ -145,6 +145,9 @@ apply
 .
 *
 /
+[
+LegacyUnenumerableNamedProperties
+]
 interface
 HTMLCollection
 {
