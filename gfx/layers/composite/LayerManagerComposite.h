@@ -1470,7 +1470,7 @@ void
 SetShadowVisibleRegion
 (
 const
-nsIntRegion
+LayerIntRegion
 &
 aRegion
 )
@@ -1591,7 +1591,7 @@ mShadowClipRect
 ;
 }
 const
-nsIntRegion
+LayerIntRegion
 &
 GetShadowVisibleRegion
 (
@@ -1658,7 +1658,7 @@ gfx
 Matrix4x4
 mShadowTransform
 ;
-nsIntRegion
+LayerIntRegion
 mShadowVisibleRegion
 ;
 Maybe
@@ -1904,6 +1904,10 @@ aLayer
 -
 >
 GetEffectiveVisibleRegion
+(
+)
+.
+ToUnknownRegion
 (
 )
 .

@@ -415,6 +415,18 @@ using
 mozilla
 :
 :
+LayerIntRegion
+from
+"
+Units
+.
+h
+"
+;
+using
+mozilla
+:
+:
 ParentLayerIntRect
 from
 "
@@ -1283,7 +1295,7 @@ CommonLayerAttributes
 IntRect
 layerBounds
 ;
-nsIntRegion
+LayerIntRegion
 visibleRegion
 ;
 EventRegions

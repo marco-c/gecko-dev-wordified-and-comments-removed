@@ -627,6 +627,10 @@ container
 GetVisibleRegion
 (
 )
+.
+ToUnknownRegion
+(
+)
 )
 ;
 }
@@ -658,6 +662,10 @@ aLayer
 -
 >
 GetVisibleRegion
+(
+)
+.
+ToUnknownRegion
 (
 )
 )
@@ -1244,6 +1252,10 @@ GetVisibleRegion
 (
 )
 .
+ToUnknownRegion
+(
+)
+.
 GetBounds
 (
 )
@@ -1263,6 +1275,10 @@ return
 TransformRect
 (
 mVisibleRegion
+.
+ToUnknownRegion
+(
+)
 .
 GetBounds
 (
@@ -1734,6 +1750,10 @@ child
 GetVisibleRegion
 (
 )
+.
+ToUnknownRegion
+(
+)
 GetTransformForInvalidation
 (
 child
@@ -2190,6 +2210,10 @@ imageLayer
 -
 >
 GetVisibleRegion
+(
+)
+.
+ToUnknownRegion
 (
 )
 .
@@ -2973,6 +2997,10 @@ aRoot
 -
 >
 GetVisibleRegion
+(
+)
+.
+ToUnknownRegion
 (
 )
 .

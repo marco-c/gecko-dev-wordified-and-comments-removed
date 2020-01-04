@@ -1035,6 +1035,10 @@ GetVisibleRegion
 (
 )
 .
+ToUnknownRegion
+(
+)
+.
 Contains
 (
 BufferRect
@@ -1053,6 +1057,10 @@ aLayer
 GetEffectiveVisibleRegion
 (
 )
+.
+ToUnknownRegion
+(
+)
 )
 )
 {
@@ -1066,6 +1074,10 @@ aLayer
 -
 >
 GetEffectiveVisibleRegion
+(
+)
+.
+ToUnknownRegion
 (
 )
 )
@@ -2027,6 +2039,10 @@ aLayer
 -
 >
 GetVisibleRegion
+(
+)
+.
+ToUnknownRegion
 (
 )
 ;

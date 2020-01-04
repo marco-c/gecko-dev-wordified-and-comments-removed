@@ -516,6 +516,10 @@ GetEffectiveVisibleRegion
 (
 )
 .
+ToUnknownRegion
+(
+)
+.
 GetBounds
 (
 )
@@ -612,6 +616,10 @@ l
 -
 >
 GetEffectiveVisibleRegion
+(
+)
+.
+ToUnknownRegion
 (
 )
 ;

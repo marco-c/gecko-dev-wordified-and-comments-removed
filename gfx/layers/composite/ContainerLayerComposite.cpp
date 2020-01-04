@@ -537,7 +537,7 @@ ss
 "
 )
 ;
-nsIntRegion
+LayerIntRegion
 visibleRegion
 =
 aLayer
@@ -572,6 +572,10 @@ IntPoint
 topLeft
 =
 visibleRegion
+.
+ToUnknownRegion
+(
+)
 .
 GetBounds
 (
@@ -639,6 +643,10 @@ aContainer
 -
 >
 GetEffectiveVisibleRegion
+(
+)
+.
+ToUnknownRegion
 (
 )
 .
@@ -1428,6 +1436,10 @@ layer
 -
 >
 GetEffectiveVisibleRegion
+(
+)
+.
+ToUnknownRegion
 (
 )
 .
@@ -3855,6 +3867,10 @@ GetEffectiveVisibleRegion
 (
 )
 .
+ToUnknownRegion
+(
+)
+.
 GetBounds
 (
 )
@@ -4260,6 +4276,10 @@ aContainer
 -
 >
 GetEffectiveVisibleRegion
+(
+)
+.
+ToUnknownRegion
 (
 )
 .

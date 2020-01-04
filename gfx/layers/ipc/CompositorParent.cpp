@@ -3252,6 +3252,10 @@ GetVisibleRegion
 (
 )
 .
+ToUnknownRegion
+(
+)
+.
 GetBounds
 (
 )

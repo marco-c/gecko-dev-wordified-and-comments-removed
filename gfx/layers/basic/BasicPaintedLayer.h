@@ -188,7 +188,7 @@ void
 SetVisibleRegion
 (
 const
-nsIntRegion
+LayerIntRegion
 &
 aRegion
 )
@@ -514,6 +514,10 @@ tmp
 Or
 (
 mVisibleRegion
+.
+ToUnknownRegion
+(
+)
 aExtendedRegionToDraw
 )
 ;

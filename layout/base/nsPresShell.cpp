@@ -27140,7 +27140,13 @@ root
 >
 SetVisibleRegion
 (
+LayerIntRegion
+:
+:
+FromUnknownRegion
+(
 bounds
+)
 )
 ;
 layerManager

@@ -1535,6 +1535,10 @@ GetVisibleRegion
 (
 )
 .
+ToUnknownRegion
+(
+)
+.
 GetBounds
 (
 )
@@ -1590,6 +1594,10 @@ GetVisibleRegion
 (
 )
 .
+ToUnknownRegion
+(
+)
+.
 GetBounds
 (
 )
@@ -1642,6 +1650,10 @@ colorLayer
 -
 >
 GetVisibleRegion
+(
+)
+.
+ToUnknownRegion
 (
 )
 .

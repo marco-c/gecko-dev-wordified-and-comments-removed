@@ -11971,6 +11971,10 @@ aLayer
 GetVisibleRegion
 (
 )
+.
+ToUnknownRegion
+(
+)
 ;
 rgn
 .
@@ -12148,6 +12152,10 @@ root
 -
 >
 GetVisibleRegion
+(
+)
+.
+ToUnknownRegion
 (
 )
 )

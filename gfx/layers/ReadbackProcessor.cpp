@@ -420,13 +420,16 @@ GetSize
 ;
 const
 nsIntRegion
-&
 visibleRegion
 =
 l
 -
 >
 GetEffectiveVisibleRegion
+(
+)
+.
+ToUnknownRegion
 (
 )
 ;

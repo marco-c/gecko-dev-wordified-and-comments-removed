@@ -11311,6 +11311,10 @@ GetVisibleRegion
 (
 )
 .
+ToUnknownRegion
+(
+)
+.
 GetBounds
 (
 )
@@ -16168,9 +16172,9 @@ layers
 >
 SetVisibleRegion
 (
-nsIntRegion
+LayerIntRegion
 (
-IntRect
+LayerIntRect
 (
 0
 50
