@@ -97,6 +97,10 @@ include
 protocol
 PCompositorBridge
 ;
+include
+protocol
+PVsyncBridge
+;
 using
 mozilla
 :
@@ -183,6 +187,16 @@ GfxPrefSetting
 [
 ]
 prefs
+)
+;
+async
+InitVsyncBridge
+(
+Endpoint
+<
+PVsyncBridgeParent
+>
+vsyncEndpoint
 )
 ;
 /
