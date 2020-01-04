@@ -29715,8 +29715,15 @@ length
 =
 =
 1
-&
-&
+)
+{
+size_t
+len
+=
+0
+;
+if
+(
 args
 [
 0
@@ -29739,8 +29746,6 @@ toInt32
 =
 0
 )
-{
-uint32_t
 len
 =
 args

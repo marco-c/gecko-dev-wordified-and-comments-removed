@@ -232,6 +232,15 @@ include
 "
 vm
 /
+TypedArrayObject
+.
+h
+"
+#
+include
+"
+vm
+/
 UnboxedObject
 .
 h
@@ -8199,6 +8208,8 @@ fail
 TypedArrayObject
 *
 templateObj
+TypedArrayLength
+lengthKind
 )
 ;
 void
