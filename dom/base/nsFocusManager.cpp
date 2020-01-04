@@ -9227,6 +9227,14 @@ false
 ;
 event
 .
+mFlags
+.
+mCancelable
+=
+false
+;
+event
+.
 fromRaise
 =
 mWindowRaised
