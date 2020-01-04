@@ -784,7 +784,7 @@ in
 nsITabParent
 aOpeningTab
 in
-string
+ACString
 aFeatures
 in
 boolean
