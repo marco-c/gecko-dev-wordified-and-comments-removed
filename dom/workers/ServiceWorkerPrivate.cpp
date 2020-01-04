@@ -1590,7 +1590,12 @@ message
 (
 )
 false
-0
+workerPrivate
+-
+>
+WindowID
+(
+)
 )
 ;
 RefPtr
