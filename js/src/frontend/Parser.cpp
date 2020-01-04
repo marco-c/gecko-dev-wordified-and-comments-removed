@@ -230,6 +230,13 @@ environment
 fun_
 -
 >
+unsetEnvironment
+(
+)
+;
+fun_
+-
+>
 setFunctionBox
 (
 funbox
@@ -273,7 +280,7 @@ unsetFunctionBox
 fun_
 -
 >
-setEnvironment
+initEnvironment
 (
 oldEnv_
 )
