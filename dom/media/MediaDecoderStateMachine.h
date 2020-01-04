@@ -1185,6 +1185,11 @@ MaybeStartBuffering
 )
 ;
 void
+DecodeFirstFrame
+(
+)
+;
+void
 StartDecoding
 (
 )
