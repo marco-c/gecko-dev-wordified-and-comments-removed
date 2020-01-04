@@ -100,10 +100,6 @@ include
 protocol
 PPrinting
 ;
-include
-protocol
-PRemotePrintJob
-;
 namespace
 mozilla
 {

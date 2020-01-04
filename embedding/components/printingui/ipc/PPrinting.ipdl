@@ -112,10 +112,6 @@ include
 protocol
 PPrintSettingsDialog
 ;
-include
-protocol
-PRemotePrintJob
-;
 namespace
 mozilla
 {
@@ -134,9 +130,6 @@ PPrintProgressDialog
 ;
 manages
 PPrintSettingsDialog
-;
-manages
-PRemotePrintJob
 ;
 parent
 :
@@ -195,11 +188,6 @@ rv
 ;
 child
 :
-async
-PRemotePrintJob
-(
-)
-;
 __delete__
 (
 )

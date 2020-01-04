@@ -387,9 +387,6 @@ aFaceName
 IDWriteFontFile
 *
 aFontFile
-IDWriteFontFileStream
-*
-aFontFileStream
 uint16_t
 aWeight
 int16_t
@@ -409,10 +406,6 @@ nullptr
 mFontFile
 (
 aFontFile
-)
-mFontFileStream
-(
-aFontFileStream
 )
 mForceGDIClassic
 (
@@ -602,12 +595,6 @@ RefPtr
 IDWriteFontFile
 >
 mFontFile
-;
-RefPtr
-<
-IDWriteFontFileStream
->
-mFontFileStream
 ;
 RefPtr
 <

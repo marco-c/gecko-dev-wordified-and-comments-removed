@@ -93,10 +93,6 @@ MPL
 .
 *
 /
-include
-protocol
-PRemotePrintJob
-;
 namespace
 mozilla
 {
@@ -117,10 +113,6 @@ value
 struct
 PrintData
 {
-nullable
-PRemotePrintJob
-remotePrintJob
-;
 int32_t
 startPageRange
 ;

@@ -72,13 +72,11 @@ aExtend
 )
 ;
 static
-already_AddRefed
-<
 gfx
 :
 :
 GradientStops
->
+*
 GetOrCreateGradientStops
 (
 const

@@ -567,11 +567,6 @@ nsBaseWidget
 h
 '
 '
-nsDeviceContextSpecProxy
-.
-h
-'
-'
 nsIDeviceContextSpec
 .
 h
@@ -809,11 +804,6 @@ cpp
 '
 '
 nsContentProcessWidgetFactory
-.
-cpp
-'
-'
-nsDeviceContextSpecProxy
 .
 cpp
 '

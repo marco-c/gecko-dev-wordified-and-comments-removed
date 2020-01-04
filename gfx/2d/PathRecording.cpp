@@ -362,7 +362,7 @@ i
 ]
 -
 >
-RemoveStoredObject
+RemoveStoredPath
 (
 this
 )
