@@ -7,6 +7,7 @@ with
 }
 x
 =
+new
 Int8Array
 (
 1

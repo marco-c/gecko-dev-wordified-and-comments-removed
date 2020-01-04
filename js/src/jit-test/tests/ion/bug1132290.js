@@ -6,6 +6,7 @@ function
 {
 v
 =
+new
 Uint8Array
 (
 )

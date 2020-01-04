@@ -1506,6 +1506,7 @@ v
 var
 i8
 =
+new
 Int8Array
 (
 16
@@ -1514,6 +1515,7 @@ Int8Array
 var
 f64
 =
+new
 Float64Array
 (
 i8
@@ -1658,6 +1660,7 @@ v
 var
 i16
 =
+new
 Int16Array
 (
 8
@@ -1666,6 +1669,7 @@ Int16Array
 var
 f64
 =
+new
 Float64Array
 (
 i16
@@ -2715,6 +2719,7 @@ v
 var
 i8
 =
+new
 Int8Array
 (
 16
@@ -2723,6 +2728,7 @@ Int8Array
 var
 i32
 =
+new
 Int32Array
 (
 i8
@@ -2875,6 +2881,7 @@ v
 var
 i16
 =
+new
 Int16Array
 (
 8
@@ -2883,6 +2890,7 @@ Int16Array
 var
 i32
 =
+new
 Int32Array
 (
 i16
@@ -3019,6 +3027,7 @@ v
 var
 f32
 =
+new
 Float32Array
 (
 4
@@ -3027,6 +3036,7 @@ Float32Array
 var
 i8
 =
+new
 Int8Array
 (
 f32
@@ -3207,6 +3217,7 @@ v
 var
 f64
 =
+new
 Float64Array
 (
 2
@@ -3215,6 +3226,7 @@ Float64Array
 var
 i8
 =
+new
 Int8Array
 (
 f64
@@ -3392,6 +3404,7 @@ v
 var
 i16
 =
+new
 Int16Array
 (
 8
@@ -3400,6 +3413,7 @@ Int16Array
 var
 i8
 =
+new
 Int8Array
 (
 i16
@@ -3575,6 +3589,7 @@ v
 var
 i32
 =
+new
 Int32Array
 (
 4
@@ -3583,6 +3598,7 @@ Int32Array
 var
 i8
 =
+new
 Int8Array
 (
 i32
@@ -3760,6 +3776,7 @@ v
 var
 f32
 =
+new
 Float32Array
 (
 4
@@ -3768,6 +3785,7 @@ Float32Array
 var
 i16
 =
+new
 Int16Array
 (
 f32
@@ -3916,6 +3934,7 @@ v
 var
 f64
 =
+new
 Float64Array
 (
 2
@@ -3924,6 +3943,7 @@ Float64Array
 var
 i16
 =
+new
 Int16Array
 (
 f64
@@ -4069,6 +4089,7 @@ v
 var
 i8
 =
+new
 Int8Array
 (
 16
@@ -4077,6 +4098,7 @@ Int8Array
 var
 i16
 =
+new
 Int16Array
 (
 i8
@@ -4233,6 +4255,7 @@ v
 var
 i32
 =
+new
 Int32Array
 (
 4
@@ -4241,6 +4264,7 @@ Int32Array
 var
 i16
 =
+new
 Int16Array
 (
 i32

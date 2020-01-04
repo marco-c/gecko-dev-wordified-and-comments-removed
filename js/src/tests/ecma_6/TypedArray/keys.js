@@ -276,6 +276,8 @@ constructor
 ;
 arr
 =
+new
+(
 newGlobal
 (
 )
@@ -284,6 +286,7 @@ constructor
 .
 name
 ]
+)
 (
 2
 )
