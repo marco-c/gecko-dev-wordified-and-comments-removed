@@ -310,7 +310,7 @@ Length
 (
 )
 ;
-StreamBuffer
+StreamTracks
 :
 :
 Track
@@ -476,7 +476,7 @@ GetSource
 (
 )
 ;
-StreamBuffer
+StreamTracks
 :
 :
 TrackIter
@@ -485,7 +485,7 @@ tracks
 s
 -
 >
-GetStreamBuffer
+GetStreamTracks
 (
 )
 MediaSegment
@@ -613,7 +613,7 @@ FinishMixing
 )
 ;
 }
-mBuffer
+mTracks
 .
 AdvanceKnownTracksTime
 (

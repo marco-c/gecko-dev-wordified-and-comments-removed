@@ -475,7 +475,7 @@ ifdef
 DEBUG
 for
 (
-StreamBuffer
+StreamTracks
 :
 :
 TrackIter
@@ -484,7 +484,7 @@ track
 aStream
 -
 >
-mBuffer
+mTracks
 )
 ;
 !
@@ -571,7 +571,7 @@ true
 aStream
 -
 >
-mBuffer
+mTracks
 .
 AdvanceKnownTracksTime
 (
@@ -597,7 +597,7 @@ aStream
 aStream
 -
 >
-mBufferStartTime
+mTracksStartTime
 =
 mProcessedTime
 ;
@@ -973,7 +973,7 @@ MediaTimeToSeconds
 aStream
 -
 >
-mBuffer
+mTracks
 .
 GetEnd
 (
@@ -989,7 +989,7 @@ t
 aStream
 -
 >
-mBuffer
+mTracks
 .
 GetEnd
 (
@@ -1055,7 +1055,7 @@ MediaTimeToSeconds
 aStream
 -
 >
-mBuffer
+mTracks
 .
 GetEnd
 (
@@ -1224,7 +1224,7 @@ mStart
 aStream
 -
 >
-mBuffer
+mTracks
 .
 FindTrack
 (
@@ -1439,7 +1439,7 @@ GetDuration
 aStream
 -
 >
-mBuffer
+mTracks
 .
 AddTrack
 (
@@ -1506,7 +1506,7 @@ dest
 aStream
 -
 >
-mBuffer
+mTracks
 .
 FindTrack
 (
@@ -1624,7 +1624,7 @@ TRACK_END
 aStream
 -
 >
-mBuffer
+mTracks
 .
 FindTrack
 (
@@ -1690,7 +1690,7 @@ mFinished
 aStream
 -
 >
-mBuffer
+mTracks
 .
 AdvanceKnownTracksTime
 (
@@ -1707,7 +1707,7 @@ if
 aStream
 -
 >
-mBuffer
+mTracks
 .
 GetEnd
 (
@@ -1799,7 +1799,7 @@ mStartBlocking
 aStream
 -
 >
-mBufferStartTime
+mTracksStartTime
 )
 ;
 }
@@ -1923,7 +1923,7 @@ MediaTimeToSeconds
 stream
 -
 >
-mBufferStartTime
+mTracksStartTime
 )
 MediaTimeToSeconds
 (
@@ -2176,7 +2176,7 @@ StreamTimeToGraphTime
 stream
 -
 >
-GetStreamBuffer
+GetStreamTracks
 (
 )
 .
@@ -2534,7 +2534,7 @@ mProcessedTime
 ;
 for
 (
-StreamBuffer
+StreamTracks
 :
 :
 TrackIter
@@ -2543,7 +2543,7 @@ tracks
 stream
 -
 >
-mBuffer
+mTracks
 )
 ;
 !
@@ -2733,14 +2733,14 @@ bufferEnd
 aStream
 -
 >
-GetBufferEnd
+GetTracksEnd
 (
 )
 +
 aStream
 -
 >
-mBufferStartTime
+mTracksStartTime
 ;
 #
 ifdef
@@ -2798,7 +2798,7 @@ mProcessedTime
 aStream
 -
 >
-GetBufferEnd
+GetTracksEnd
 (
 )
 )
@@ -2960,7 +2960,7 @@ else
 {
 for
 (
-StreamBuffer
+StreamTracks
 :
 :
 TrackIter
@@ -2969,7 +2969,7 @@ tracks
 stream
 -
 >
-GetStreamBuffer
+GetStreamTracks
 (
 )
 MediaSegment
@@ -4175,7 +4175,7 @@ if
 aStream
 -
 >
-GetStreamBuffer
+GetStreamTracks
 (
 )
 .
@@ -4257,7 +4257,7 @@ false
 }
 for
 (
-StreamBuffer
+StreamTracks
 :
 :
 TrackIter
@@ -4266,7 +4266,7 @@ tracks
 aStream
 -
 >
-GetStreamBuffer
+GetStreamTracks
 (
 )
 MediaSegment
@@ -4648,7 +4648,7 @@ mAudioOutputStreams
 i
 ]
 ;
-StreamBuffer
+StreamTracks
 :
 :
 Track
@@ -4658,7 +4658,7 @@ track
 aStream
 -
 >
-mBuffer
+mTracks
 .
 FindTrack
 (
@@ -5337,7 +5337,7 @@ mProcessedTime
 aStream
 -
 >
-mBufferStartTime
+mTracksStartTime
 "
 frame
 position
@@ -5405,7 +5405,7 @@ nullptr
 ;
 for
 (
-StreamBuffer
+StreamTracks
 :
 :
 TrackIter
@@ -5414,7 +5414,7 @@ tracks
 aStream
 -
 >
-GetStreamBuffer
+GetStreamTracks
 (
 )
 MediaSegment
@@ -7591,7 +7591,7 @@ endTime
 stream
 -
 >
-GetStreamBuffer
+GetStreamTracks
 (
 )
 .
@@ -7602,7 +7602,7 @@ GetAllTracksEnd
 stream
 -
 >
-mBufferStartTime
+mTracksStartTime
 ;
 if
 (
@@ -7679,7 +7679,7 @@ MediaTimeToSeconds
 stream
 -
 >
-GetBufferEnd
+GetTracksEnd
 (
 )
 )
@@ -7966,7 +7966,7 @@ NS_WARN_IF_FALSE
 stream
 -
 >
-mBuffer
+mTracks
 .
 GetEnd
 (
@@ -9904,7 +9904,7 @@ DOMMediaStream
 aWrapper
 )
 :
-mBufferStartTime
+mTracksStartTime
 (
 0
 )
@@ -10028,7 +10028,7 @@ amount
 amount
 +
 =
-mBuffer
+mTracks
 .
 SizeOfExcludingThis
 (
@@ -10185,7 +10185,7 @@ AudioChannel
 (
 )
 ;
-mBuffer
+mTracks
 .
 InitGraphRate
 (
@@ -10266,7 +10266,7 @@ blocking
 return
 aTime
 -
-mBufferStartTime
+mTracksStartTime
 ;
 }
 GraphTime
@@ -10294,7 +10294,7 @@ mStateComputedTime
 |
 aTime
 +
-mBufferStartTime
+mTracksStartTime
 <
 =
 mStartBlocking
@@ -10309,7 +10309,7 @@ blocking
 return
 aTime
 +
-mBufferStartTime
+mTracksStartTime
 ;
 }
 StreamTime
@@ -10354,7 +10354,7 @@ this
 )
 ;
 }
-StreamBuffer
+StreamTracks
 :
 :
 Track
@@ -10369,7 +10369,7 @@ aID
 )
 {
 return
-mBuffer
+mTracks
 .
 FindTrack
 (
@@ -10377,7 +10377,7 @@ aID
 )
 ;
 }
-StreamBuffer
+StreamTracks
 :
 :
 Track
@@ -10391,14 +10391,14 @@ TrackID
 aTrackId
 )
 {
-StreamBuffer
+StreamTracks
 :
 :
 Track
 *
 track
 =
-mBuffer
+mTracks
 .
 FindTrack
 (
@@ -10484,7 +10484,7 @@ Graph
 track
 =
 &
-mBuffer
+mTracks
 .
 AddTrack
 (
@@ -12073,7 +12073,7 @@ mTrackID
 =
 aTrackID
 ;
-StreamBuffer
+StreamTracks
 :
 :
 Track

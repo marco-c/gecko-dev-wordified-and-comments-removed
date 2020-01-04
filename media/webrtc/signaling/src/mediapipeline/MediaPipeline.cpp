@@ -9016,7 +9016,7 @@ current_end
 mStream
 -
 >
-GetBufferEnd
+GetTracksEnd
 (
 )
 ;

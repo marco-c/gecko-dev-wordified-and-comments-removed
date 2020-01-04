@@ -7056,7 +7056,7 @@ AsSourceStream
 (
 )
 ;
-StreamBuffer
+StreamTracks
 :
 :
 Track
@@ -7217,7 +7217,7 @@ AsSourceStream
 (
 )
 ;
-StreamBuffer
+StreamTracks
 :
 :
 Track

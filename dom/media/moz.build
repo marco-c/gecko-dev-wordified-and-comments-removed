@@ -758,7 +758,7 @@ SharedBuffer
 h
 '
 '
-StreamBuffer
+StreamTracks
 .
 h
 '
@@ -1245,7 +1245,7 @@ SeekTask
 cpp
 '
 '
-StreamBuffer
+StreamTracks
 .
 cpp
 '
