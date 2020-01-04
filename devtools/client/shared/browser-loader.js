@@ -354,6 +354,11 @@ uri
 globals
 :
 {
+console
+:
+window
+.
+console
 define
 :
 function
