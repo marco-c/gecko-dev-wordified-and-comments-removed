@@ -10666,7 +10666,7 @@ time
 ;
 event
 .
-exit
+mExitFrom
 =
 is_top_level_mouse_exit
 (

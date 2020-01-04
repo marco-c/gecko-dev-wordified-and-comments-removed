@@ -26604,7 +26604,7 @@ localEventLocation
 ;
 event
 .
-exit
+mExitFrom
 =
 aExitFrom
 ;
@@ -36427,7 +36427,7 @@ cursor
 .
 if
 (
-type
+exitFrom
 =
 =
 WidgetMouseEvent
