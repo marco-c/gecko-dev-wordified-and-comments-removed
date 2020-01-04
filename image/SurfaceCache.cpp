@@ -117,13 +117,6 @@ h
 #
 include
 "
-gfxPattern
-.
-h
-"
-#
-include
-"
 gfxPlatform
 .
 h
