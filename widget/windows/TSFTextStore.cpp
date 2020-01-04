@@ -12853,7 +12853,7 @@ keepComposingLength
 ;
 Content
 &
-lockedContent
+contentForTSF
 =
 ContentForTSFRef
 (
@@ -12862,7 +12862,7 @@ ContentForTSFRef
 if
 (
 !
-lockedContent
+contentForTSF
 .
 IsInitialized
 (
@@ -12907,7 +12907,7 @@ return
 E_FAIL
 ;
 }
-lockedContent
+contentForTSF
 .
 ReplaceTextWith
 (
@@ -13014,7 +13014,7 @@ newStart
 false
 )
 ;
-lockedContent
+contentForTSF
 .
 ReplaceSelectedTextWith
 (
@@ -15778,7 +15778,7 @@ TS_RT_PLAIN
 }
 Content
 &
-lockedContent
+contentForTSF
 =
 ContentForTSFRef
 (
@@ -15787,7 +15787,7 @@ ContentForTSFRef
 if
 (
 !
-lockedContent
+contentForTSF
 .
 IsInitialized
 (
@@ -15834,7 +15834,7 @@ E_FAIL
 }
 if
 (
-lockedContent
+contentForTSF
 .
 Text
 (
@@ -15905,7 +15905,7 @@ acpEnd
 1
 &
 &
-lockedContent
+contentForTSF
 .
 Text
 (
@@ -15978,7 +15978,7 @@ acpEnd
 1
 )
 ?
-lockedContent
+contentForTSF
 .
 Text
 (
@@ -16043,7 +16043,7 @@ char16_t
 *
 startChar
 =
-lockedContent
+contentForTSF
 .
 Text
 (
@@ -18578,7 +18578,7 @@ E_INVALIDARG
 }
 Content
 &
-lockedContent
+contentForTSF
 =
 ContentForTSFRef
 (
@@ -18587,7 +18587,7 @@ ContentForTSFRef
 if
 (
 !
-lockedContent
+contentForTSF
 .
 IsInitialized
 (
@@ -18640,7 +18640,7 @@ static_cast
 LONG
 >
 (
-lockedContent
+contentForTSF
 .
 Text
 (
@@ -19493,7 +19493,7 @@ mTentativeCaretOffset
 ;
 Content
 &
-lockedContent
+contentForTSF
 =
 ContentForTSFRef
 (
@@ -19502,7 +19502,7 @@ ContentForTSFRef
 if
 (
 !
-lockedContent
+contentForTSF
 .
 IsInitialized
 (
@@ -19549,7 +19549,7 @@ E_FAIL
 }
 if
 (
-lockedContent
+contentForTSF
 .
 Text
 (
@@ -19565,7 +19565,7 @@ offset
 {
 offset
 =
-lockedContent
+contentForTSF
 .
 Text
 (
@@ -22793,7 +22793,7 @@ IsComposing
 ;
 Content
 &
-lockedContent
+contentForTSF
 =
 ContentForTSFRef
 (
@@ -22802,7 +22802,7 @@ ContentForTSFRef
 if
 (
 !
-lockedContent
+contentForTSF
 .
 IsInitialized
 (
@@ -22852,7 +22852,7 @@ false
 TS_SELECTION_ACP
 oldSelection
 =
-lockedContent
+contentForTSF
 .
 Selection
 (
@@ -23049,7 +23049,7 @@ Length
 )
 ;
 }
-lockedContent
+contentForTSF
 .
 ReplaceSelectedTextWith
 (
@@ -23084,7 +23084,7 @@ aTextChange
 >
 acpNewEnd
 =
-lockedContent
+contentForTSF
 .
 Selection
 (
@@ -23503,7 +23503,7 @@ get
 ;
 Content
 &
-lockedContent
+contentForTSF
 =
 ContentForTSFRef
 (
@@ -23512,7 +23512,7 @@ ContentForTSFRef
 if
 (
 !
-lockedContent
+contentForTSF
 .
 IsInitialized
 (
@@ -23601,7 +23601,7 @@ Length
 2
 ]
 ;
-lockedContent
+contentForTSF
 .
 RestoreCommittedComposition
 (
@@ -23881,7 +23881,7 @@ mAdjustSelection
 false
 ;
 }
-lockedContent
+contentForTSF
 .
 StartComposition
 (
@@ -24126,7 +24126,7 @@ mString
 ;
 Content
 &
-lockedContent
+contentForTSF
 =
 ContentForTSFRef
 (
@@ -24135,7 +24135,7 @@ ContentForTSFRef
 if
 (
 !
-lockedContent
+contentForTSF
 .
 IsInitialized
 (
@@ -24180,7 +24180,7 @@ return
 E_FAIL
 ;
 }
-lockedContent
+contentForTSF
 .
 EndComposition
 (
