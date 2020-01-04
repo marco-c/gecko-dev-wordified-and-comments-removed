@@ -4939,6 +4939,14 @@ Cursor
 c
 )
 {
+if
+(
+mAdapter
+!
+=
+null
+)
+{
 mAdapter
 .
 swapCursor
@@ -4965,6 +4973,7 @@ c
 )
 ;
 }
+}
 Override
 public
 void
@@ -4977,6 +4986,14 @@ Cursor
 loader
 )
 {
+if
+(
+mAdapter
+!
+=
+null
+)
+{
 mAdapter
 .
 swapCursor
@@ -4984,6 +5001,7 @@ swapCursor
 null
 )
 ;
+}
 }
 }
 private
