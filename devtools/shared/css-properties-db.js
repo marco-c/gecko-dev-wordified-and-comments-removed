@@ -368,6 +368,10 @@ placeholder
 "
 "
 :
+placeholder
+"
+"
+:
 -
 moz
 -

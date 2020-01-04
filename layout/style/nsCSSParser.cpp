@@ -24532,7 +24532,7 @@ pseudoElementType
 CSSPseudoElementType
 :
 :
-mozPlaceholder
+placeholder
 &
 &
 pseudoClassType

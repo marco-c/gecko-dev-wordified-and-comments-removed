@@ -1518,7 +1518,7 @@ pseudoType
 CSSPseudoElementType
 :
 :
-mozPlaceholder
+placeholder
 ;
 nsIFrame
 *
@@ -6700,7 +6700,7 @@ aType
 CSSPseudoElementType
 :
 :
-mozPlaceholder
+placeholder
 )
 {
 nsCOMPtr
