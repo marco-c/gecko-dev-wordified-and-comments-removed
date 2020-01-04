@@ -937,7 +937,6 @@ displace
 ref
 .
 html
-fails
 =
 =
 bfc
@@ -956,9 +955,6 @@ displace
 ref
 .
 html
-#
-bug
-1207157
 =
 =
 bfc

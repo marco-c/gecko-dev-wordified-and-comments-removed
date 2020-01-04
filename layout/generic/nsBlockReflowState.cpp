@@ -1487,10 +1487,6 @@ replacedISize
 .
 borderBoxISize
 +
-std
-:
-:
-max
 (
 mContentArea
 .
@@ -1507,9 +1503,6 @@ IEnd
 (
 wm
 )
-replacedISize
-.
-marginIEnd
 )
 <
 =
