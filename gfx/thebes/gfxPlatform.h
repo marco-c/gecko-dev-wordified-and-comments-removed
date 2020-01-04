@@ -1886,6 +1886,12 @@ gfxPlatform
 )
 ;
 virtual
+void
+InitAcceleration
+(
+)
+;
+virtual
 already_AddRefed
 <
 mozilla
