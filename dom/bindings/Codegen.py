@@ -3001,7 +3001,7 @@ fill
 static
 const
 DOMJSClass
-Class
+sClass
 =
 {
               
@@ -3407,7 +3407,7 @@ fill
 static
 const
 DOMJSClass
-Class
+sClass
 =
 {
               
@@ -3933,7 +3933,7 @@ fill
 static
 const
 DOMIfaceAndProtoJSClass
-PrototypeClass
+sPrototypeClass
 =
 {
               
@@ -4522,7 +4522,7 @@ fill
 static
 const
 DOMIfaceAndProtoJSClass
-InterfaceObjectClass
+sInterfaceObjectClass
 =
 {
               
@@ -10030,7 +10030,7 @@ self
 return
 "
 return
-Class
+sClass
 .
 ToJSClass
 (
@@ -19246,7 +19246,7 @@ protoClass
 =
 "
 &
-PrototypeClass
+sPrototypeClass
 .
 mBase
 "
@@ -19322,7 +19322,7 @@ interfaceClass
 =
 "
 &
-InterfaceObjectClass
+sInterfaceObjectClass
 .
 mBase
 "
@@ -20139,7 +20139,7 @@ else
 holderClass
 =
 "
-Class
+sClass
 .
 ToJSClass
 (
@@ -22098,7 +22098,7 @@ slot
 JSCLASS_RESERVED_SLOTS
 (
 &
-InterfaceObjectClass
+sInterfaceObjectClass
 .
 mBase
 )
@@ -22873,7 +22873,7 @@ CreateProxyObject
 (
 aCx
 &
-Class
+sClass
 .
 mBase
 DOMProxyHandler
@@ -22973,7 +22973,7 @@ creator
 CreateObject
 (
 aCx
-Class
+sClass
 .
 ToJSClass
 (
@@ -25763,7 +25763,7 @@ aObject
                                              
 aCache
                                              
-Class
+sClass
 .
 ToJSClass
 (
