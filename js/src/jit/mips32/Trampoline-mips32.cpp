@@ -1869,7 +1869,7 @@ rshiftPtr
 (
 Imm32
 (
-FRAMESIZE_SHIFT
+4
 )
 s0
 )
