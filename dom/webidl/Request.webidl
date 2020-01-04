@@ -190,7 +190,7 @@ context
 ;
 readonly
 attribute
-DOMString
+USVString
 referrer
 ;
 readonly
