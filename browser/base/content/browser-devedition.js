@@ -667,11 +667,14 @@ null
 }
 }
 ;
-#
-ifndef
-RELEASE_BUILD
 if
 (
+!
+AppConstants
+.
+RELEASE_BUILD
+&
+&
 this
 !
 =
@@ -694,5 +697,3 @@ createStyleSheet
 )
 ;
 }
-#
-endif
