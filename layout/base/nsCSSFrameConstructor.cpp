@@ -17956,7 +17956,7 @@ aContent
 styleSet
 -
 >
-RestyleSubtree
+StyleNewSubtree
 (
 info
 .
