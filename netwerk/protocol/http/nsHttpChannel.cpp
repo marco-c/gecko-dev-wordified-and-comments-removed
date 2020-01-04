@@ -12338,6 +12338,12 @@ else
 if
 (
 !
+PossiblyIntercepted
+(
+)
+&
+&
+!
 mRequestHead
 .
 IsGet
