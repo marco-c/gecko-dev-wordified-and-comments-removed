@@ -161,14 +161,6 @@ manifest
 _dests
 :
                 
-if
-'
-*
-'
-in
-dest
-:
-                    
 for
 p
 f
@@ -180,23 +172,12 @@ find
 dest
 )
 :
-                        
-remove_unaccounted
-.
-add
-(
-p
-dummy_file
-)
-                
-else
-:
                     
 remove_unaccounted
 .
 add
 (
-dest
+p
 dummy_file
 )
         
