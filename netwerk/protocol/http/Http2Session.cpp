@@ -8005,7 +8005,13 @@ promisedID
 }
 if
 (
+(
+paddingControlBytes
++
+promiseLen
++
 paddingLength
+)
 >
 self
 -
@@ -8035,7 +8041,7 @@ X
 "
 "
 PROTOCOL_ERROR
-paddingLength
+extra
 %
 d
 >
@@ -8049,7 +8055,13 @@ n
 self
 promisedID
 associatedID
+(
+paddingControlBytes
++
+promiseLen
++
 paddingLength
+)
 self
 -
 >
