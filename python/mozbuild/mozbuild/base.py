@@ -4886,15 +4886,18 @@ exit
         
 if
 (
-self
+os
 .
-log_manager
-and
-self
+isatty
+(
+sys
 .
-log_manager
+stdout
 .
-terminal
+fileno
+(
+)
+)
 and
                 
 not
