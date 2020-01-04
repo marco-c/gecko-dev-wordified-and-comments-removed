@@ -49,14 +49,6 @@ test_packages_url
 -
 -
 -
-download
--
-symbols
-=
-ondemand
--
--
--
 e10s
 env
 :

@@ -46,14 +46,6 @@ url
 test_packages_url
 }
 }
--
--
--
-download
--
-symbols
-=
-ondemand
 env
 :
 MOZHARNESS_SCRIPT
