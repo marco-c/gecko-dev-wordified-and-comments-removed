@@ -326,11 +326,6 @@ UpdateUrlbarSearchSplitterState
 (
 )
 ;
-if
-(
-gURLBar
-)
-{
 URLBarSetURI
 (
 )
@@ -341,7 +336,6 @@ asyncUpdateUI
 (
 )
 ;
-}
 let
 menubar
 =

@@ -1814,10 +1814,6 @@ charset
 )
 ;
 }
-if
-(
-gURLBar
-)
 gURLBar
 .
 handleRevert
@@ -2164,10 +2160,6 @@ charset
 )
 ;
 }
-if
-(
-gURLBar
-)
 gURLBar
 .
 handleRevert

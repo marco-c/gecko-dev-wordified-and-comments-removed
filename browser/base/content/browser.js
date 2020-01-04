@@ -2782,11 +2782,6 @@ HideSessionRestoreButton
 "
 )
 ;
-if
-(
-gURLBar
-)
-{
 gURLBar
 .
 editor
@@ -2796,7 +2791,6 @@ transactionManager
 clear
 (
 )
-}
 }
 }
 ;
@@ -3025,9 +3019,6 @@ if
 this
 .
 _reportButton
-&
-&
-gURLBar
 )
 this
 .
@@ -3056,10 +3047,6 @@ selectedBrowser
 blockedPopups
 )
 {
-if
-(
-gURLBar
-)
 this
 .
 _reportButton
@@ -3108,10 +3095,6 @@ false
 return
 ;
 }
-if
-(
-gURLBar
-)
 this
 .
 _reportButton
@@ -5841,11 +5824,6 @@ toolbar
 visible
 )
 {
-if
-(
-gURLBar
-)
-{
 gURLBar
 .
 setAttribute
@@ -5870,7 +5848,6 @@ false
 "
 )
 ;
-}
 goSetCommandEnabled
 (
 "
@@ -22684,11 +22661,6 @@ disabled
 )
 ;
 }
-if
-(
-gURLBar
-)
-{
 URLBarSetURI
 (
 aLocationURI
@@ -22719,7 +22691,6 @@ inc
 (
 )
 ;
-}
 var
 shouldDisableFind
 =
@@ -37110,13 +37081,8 @@ command
 ;
 }
 }
-if
-(
-gURLBar
-)
-{
 let
-value
+urlBarSearchParam
 =
 gURLBar
 .
@@ -37140,7 +37106,7 @@ permanentPrivateBrowsing
 &
 &
 !
-value
+urlBarSearchParam
 .
 includes
 (
@@ -37154,7 +37120,7 @@ actions
 )
 )
 {
-value
+urlBarSearchParam
 +
 =
 "
@@ -37169,7 +37135,7 @@ actions
 if
 (
 !
-value
+urlBarSearchParam
 .
 includes
 (
@@ -37181,7 +37147,7 @@ window
 )
 )
 {
-value
+urlBarSearchParam
 +
 =
 "
@@ -37198,10 +37164,9 @@ setAttribute
 "
 autocompletesearchparam
 "
-value
+urlBarSearchParam
 )
 ;
-}
 }
 }
 ;
