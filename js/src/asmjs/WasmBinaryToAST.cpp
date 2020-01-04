@@ -7804,6 +7804,8 @@ i
 AstImport
 *
 import
+=
+nullptr
 ;
 if
 (
@@ -8839,6 +8841,8 @@ i
 AstExport
 *
 export_
+=
+nullptr
 ;
 if
 (

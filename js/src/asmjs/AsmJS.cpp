@@ -12798,6 +12798,11 @@ pn
 ;
 SimdType
 type
+=
+SimdType
+:
+:
+Count
 ;
 JS_ALWAYS_TRUE
 (
