@@ -446,4 +446,16 @@ invalidateOptionsMenu
 )
 {
 }
+Override
+public
+void
+createShortcut
+(
+String
+title
+String
+URI
+)
+{
+}
 }
