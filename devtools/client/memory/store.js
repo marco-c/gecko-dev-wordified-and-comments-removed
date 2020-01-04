@@ -104,6 +104,10 @@ history
 [
 ]
 ;
+shouldLog
+=
+true
+;
 }
 let
 store
