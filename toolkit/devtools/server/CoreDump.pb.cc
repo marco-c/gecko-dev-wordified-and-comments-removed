@@ -1647,7 +1647,7 @@ ncoarseType
 r
 :
 \
-0013
+0010
 \
 "
 &
@@ -8272,7 +8272,7 @@ GetEmptyStringAlreadyInited
 ;
 coarsetype_
 =
-3u
+0u
 ;
 :
 :
@@ -8621,7 +8621,7 @@ clear
 }
 coarsetype_
 =
-3u
+0u
 ;
 }
 edges_

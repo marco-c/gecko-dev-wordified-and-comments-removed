@@ -8707,7 +8707,7 @@ clear_coarsetype
 {
 coarsetype_
 =
-3u
+0u
 ;
 clear_has_coarsetype
 (
