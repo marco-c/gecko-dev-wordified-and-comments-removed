@@ -4099,6 +4099,7 @@ bool
 Exists
 (
 )
+const
 {
 return
 !
