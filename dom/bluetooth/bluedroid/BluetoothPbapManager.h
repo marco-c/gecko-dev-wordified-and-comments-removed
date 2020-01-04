@@ -436,7 +436,7 @@ nsIInputStream
 mVCardDataStream
 ;
 bool
-mRequirePhonebookSize
+mPhonebookSizeRequired
 ;
 }
 ;
