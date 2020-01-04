@@ -307,6 +307,13 @@ mHasVideo
 ;
 }
 virtual
+void
+ReleaseMediaResources
+(
+)
+override
+;
+virtual
 RefPtr
 <
 MediaDecoderReader
@@ -383,13 +390,6 @@ ProcessCachedDataTask
 ;
 class
 NotifyDataArrivedRunnable
-;
-virtual
-void
-ReleaseMediaResourcesInternal
-(
-)
-override
 ;
 bool
 IsShutdown
