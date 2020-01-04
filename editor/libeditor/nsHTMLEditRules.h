@@ -2291,7 +2291,7 @@ Selection
 aSelection
 )
 ;
-nsresult
+void
 CheckInterlinePosition
 (
 mozilla
@@ -2301,7 +2301,7 @@ dom
 :
 :
 Selection
-*
+&
 aSelection
 )
 ;
