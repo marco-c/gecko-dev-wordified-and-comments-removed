@@ -205,13 +205,6 @@ ShutdownTracker
 .
 h
 "
-#
-include
-"
-SVGImageContext
-.
-h
-"
 using
 std
 :

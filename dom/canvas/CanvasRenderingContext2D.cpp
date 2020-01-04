@@ -769,13 +769,6 @@ h
 #
 include
 "
-SVGImageContext
-.
-h
-"
-#
-include
-"
 nsIScreenManager
 .
 h

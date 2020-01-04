@@ -3149,6 +3149,12 @@ Filter
 :
 :
 POINT
+/
+*
+no
+SVGImageContext
+*
+/
 Nothing
 (
 )
