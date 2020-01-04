@@ -600,6 +600,12 @@ self
 mod_jsval
 =
 None
+        
+self
+.
+mod_ExecutableAllocator
+=
+None
 def
 implemented_types
 (

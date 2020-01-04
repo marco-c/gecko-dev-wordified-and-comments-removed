@@ -129,6 +129,15 @@ tests
 /
 test
 -
+ExecutableAllocator
+.
+cpp
+'
+'
+tests
+/
+test
+-
 GCCellPtr
 .
 cpp
