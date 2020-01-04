@@ -674,8 +674,6 @@ message
 =
 =
 "
-InternalError
-:
 uncaught
 exception
 :
@@ -696,8 +694,6 @@ message
 =
 =
 "
-InternalError
-:
 uncaught
 exception
 :
