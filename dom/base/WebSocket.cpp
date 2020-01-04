@@ -9794,6 +9794,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
+override
 {
 aWorkerPrivate
 -
@@ -9836,6 +9837,7 @@ aWorkerPrivate
 bool
 aRunResult
 )
+override
 {
 aWorkerPrivate
 -
@@ -9850,13 +9852,11 @@ false
 bool
 PreDispatch
 (
-JSContext
-*
-aCx
 WorkerPrivate
 *
 aWorkerPrivate
 )
+override
 {
 AssertIsOnMainThread
 (
@@ -9878,6 +9878,7 @@ aWorkerPrivate
 bool
 aDispatchResult
 )
+override
 {
 AssertIsOnMainThread
 (
@@ -10350,6 +10351,7 @@ WorkerPrivate
 *
 aWorkerPrivate
 )
+override
 {
 aWorkerPrivate
 -
@@ -10418,6 +10420,7 @@ aWorkerPrivate
 bool
 aRunResult
 )
+override
 {
 aWorkerPrivate
 -
@@ -10432,13 +10435,11 @@ false
 bool
 PreDispatch
 (
-JSContext
-*
-aCx
 WorkerPrivate
 *
 aWorkerPrivate
 )
+override
 {
 return
 true
@@ -10456,6 +10457,7 @@ aWorkerPrivate
 bool
 aDispatchResult
 )
+override
 {
 }
 private
