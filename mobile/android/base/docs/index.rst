@@ -52,3 +52,4 @@ localeswitching
 uitelemetry
 adjust
 gradle
+defaultdomains

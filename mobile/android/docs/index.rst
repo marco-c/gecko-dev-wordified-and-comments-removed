@@ -112,6 +112,7 @@ maxdepth
 localeswitching
 uitelemetry
 adjust
+defaultdomains
 Indices
 and
 tables
