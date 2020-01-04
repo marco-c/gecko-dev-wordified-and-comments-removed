@@ -185,6 +185,16 @@ aType
 SourceBuffer
 *
 aSourceBuffer
+const
+Maybe
+<
+gfx
+:
+:
+IntSize
+>
+&
+aTargetSize
 SurfaceFlags
 aSurfaceFlags
 )
