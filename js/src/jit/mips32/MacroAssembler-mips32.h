@@ -1015,13 +1015,6 @@ reg
 )
 ;
 void
-inc64
-(
-AbsoluteAddress
-dest
-)
-;
-void
 computeScaledAddress
 (
 const

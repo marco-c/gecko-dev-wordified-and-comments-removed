@@ -2949,6 +2949,15 @@ PER_SHARED_ARCH
 ;
 inline
 void
+inc64
+(
+AbsoluteAddress
+dest
+)
+PER_ARCH
+;
+inline
+void
 lshiftPtr
 (
 Imm32
