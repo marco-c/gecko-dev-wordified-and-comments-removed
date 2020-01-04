@@ -261,8 +261,8 @@ Element
 class
 DataTransfer
 ;
-struct
-StructuredCloneData
+class
+StructuredCloneIPCHelper
 ;
 class
 TabParent
@@ -2334,10 +2334,9 @@ nsString
 aMessage
 bool
 aSync
-const
-StructuredCloneData
+StructuredCloneIPCHelper
 *
-aCloneData
+aHelper
 mozilla
 :
 :

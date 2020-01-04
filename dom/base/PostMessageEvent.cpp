@@ -158,6 +158,7 @@ StructuredCloneHelper
 (
 CloningSupported
 TransferringSupported
+SameProcessSameThread
 )
 mSource
 (

@@ -57,6 +57,7 @@ StructuredCloneHelper
 (
 CloningSupported
 TransferringSupported
+DifferentProcess
 )
 {
 }

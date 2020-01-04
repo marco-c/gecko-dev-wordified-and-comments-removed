@@ -160,6 +160,7 @@ StructuredCloneHelper
 (
 CloningSupported
 TransferringNotSupported
+DifferentProcess
 )
 {
 }
@@ -1819,7 +1820,6 @@ Write
 (
 aCx
 aMessage
-true
 aRv
 )
 ;

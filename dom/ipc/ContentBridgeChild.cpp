@@ -38,17 +38,6 @@ mozilla
 /
 dom
 /
-StructuredCloneUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 TabChild
 .
 h

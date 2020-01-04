@@ -56,7 +56,7 @@ mozilla
 /
 dom
 /
-StructuredCloneUtils
+StructuredCloneIPCHelper
 .
 h
 "
@@ -528,15 +528,16 @@ if
 cpm
 )
 {
-StructuredCloneData
-cloneData
-=
+StructuredCloneIPCHelper
+helper
+;
 ipc
 :
 :
 UnpackClonedMessageDataForChild
 (
 aData
+helper
 )
 ;
 CrossProcessCpowHolder
@@ -567,7 +568,7 @@ nullptr
 aMsg
 false
 &
-cloneData
+helper
 &
 cpows
 aPrincipal

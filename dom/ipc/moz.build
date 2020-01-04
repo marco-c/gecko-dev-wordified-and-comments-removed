@@ -233,7 +233,7 @@ PermissionMessageUtils
 h
 '
 '
-StructuredCloneUtils
+StructuredCloneIPCHelper
 .
 h
 '
@@ -380,7 +380,7 @@ ScreenManagerParent
 cpp
 '
 '
-StructuredCloneUtils
+StructuredCloneIPCHelper
 .
 cpp
 '

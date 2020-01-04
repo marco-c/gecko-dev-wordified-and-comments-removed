@@ -2669,6 +2669,7 @@ StructuredCloneHelper
 (
 CloningSupported
 TransferringSupported
+SameProcessDifferentThread
 )
 mMessagePortSerial
 (
@@ -11582,7 +11583,6 @@ Write
 aCx
 aMessage
 transferable
-true
 aRv
 )
 ;
@@ -23029,7 +23029,6 @@ Write
 aCx
 aMessage
 transferable
-true
 aRv
 )
 ;
