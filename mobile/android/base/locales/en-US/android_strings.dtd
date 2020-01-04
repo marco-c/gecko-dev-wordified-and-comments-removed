@@ -1892,15 +1892,6 @@ Panels
 <
 !
 ENTITY
-pref_category_home_content_settings
-"
-Content
-settings
-"
->
-<
-!
-ENTITY
 pref_category_home_add_ons
 "
 Add
