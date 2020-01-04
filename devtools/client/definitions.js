@@ -1038,8 +1038,6 @@ devtools
 /
 skin
 /
-themes
-/
 images
 /
 tool
@@ -1189,8 +1187,6 @@ chrome
 devtools
 /
 skin
-/
-themes
 /
 images
 /
@@ -1451,8 +1447,6 @@ devtools
 /
 skin
 /
-themes
-/
 images
 /
 tool
@@ -1698,8 +1692,6 @@ devtools
 /
 skin
 /
-themes
-/
 images
 /
 tool
@@ -1721,8 +1713,6 @@ chrome
 devtools
 /
 skin
-/
-themes
 /
 images
 /
@@ -1913,8 +1903,6 @@ devtools
 /
 skin
 /
-themes
-/
 images
 /
 tool
@@ -2089,8 +2077,6 @@ devtools
 /
 skin
 /
-themes
-/
 images
 /
 tool
@@ -2228,8 +2214,6 @@ devtools
 /
 skin
 /
-themes
-/
 images
 /
 tool
@@ -2358,8 +2342,6 @@ devtools
 /
 skin
 /
-themes
-/
 images
 /
 tool
@@ -2381,8 +2363,6 @@ chrome
 devtools
 /
 skin
-/
-themes
 /
 images
 /
@@ -2561,8 +2541,6 @@ devtools
 /
 skin
 /
-themes
-/
 images
 /
 tool
@@ -2584,8 +2562,6 @@ chrome
 devtools
 /
 skin
-/
-themes
 /
 images
 /
@@ -2765,8 +2741,6 @@ chrome
 devtools
 /
 skin
-/
-themes
 /
 images
 /
@@ -2961,8 +2935,6 @@ devtools
 /
 skin
 /
-themes
-/
 images
 /
 tool
@@ -3142,8 +3114,6 @@ devtools
 /
 skin
 /
-themes
-/
 images
 /
 tool
@@ -3280,8 +3250,6 @@ chrome
 devtools
 /
 skin
-/
-themes
 /
 images
 /
@@ -3481,8 +3449,6 @@ devtools
 /
 skin
 /
-themes
-/
 dark
 -
 theme
@@ -3538,8 +3504,6 @@ chrome
 devtools
 /
 skin
-/
-themes
 /
 light
 -

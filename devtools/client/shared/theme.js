@@ -89,8 +89,6 @@ devtools
 /
 skin
 /
-themes
-/
 variables
 .
 css

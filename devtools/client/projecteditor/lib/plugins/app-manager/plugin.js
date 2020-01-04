@@ -121,8 +121,6 @@ devtools
 /
 skin
 /
-themes
-/
 images
 /
 tool

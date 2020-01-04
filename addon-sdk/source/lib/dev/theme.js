@@ -741,8 +741,6 @@ devtools
 /
 skin
 /
-themes
-/
 light
 -
 theme
@@ -775,8 +773,6 @@ chrome
 devtools
 /
 skin
-/
-themes
 /
 dark
 -

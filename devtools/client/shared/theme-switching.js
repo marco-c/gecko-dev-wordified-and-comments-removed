@@ -15,8 +15,6 @@ devtools
 /
 skin
 /
-themes
-/
 "
 ;
 let

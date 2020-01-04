@@ -285,8 +285,6 @@ devtools
 /
 skin
 /
-themes
-/
 common
 .
 css
@@ -316,8 +314,6 @@ devtools
 /
 skin
 /
-themes
-/
 widgets
 .
 css
@@ -346,8 +342,6 @@ chrome
 devtools
 /
 skin
-/
-themes
 /
 splitview
 .
@@ -408,8 +402,6 @@ chrome
 devtools
 /
 skin
-/
-themes
 /
 styleeditor
 .

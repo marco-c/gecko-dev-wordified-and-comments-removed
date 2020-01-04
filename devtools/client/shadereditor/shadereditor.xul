@@ -113,8 +113,6 @@ devtools
 /
 skin
 /
-themes
-/
 common
 .
 css
@@ -144,8 +142,6 @@ devtools
 /
 skin
 /
-themes
-/
 widgets
 .
 css
@@ -174,8 +170,6 @@ chrome
 devtools
 /
 skin
-/
-themes
 /
 shadereditor
 .

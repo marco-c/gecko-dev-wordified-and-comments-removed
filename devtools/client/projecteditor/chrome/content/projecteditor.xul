@@ -87,8 +87,6 @@ devtools
 /
 skin
 /
-themes
-/
 light
 -
 theme
@@ -119,8 +117,6 @@ chrome
 devtools
 /
 skin
-/
-themes
 /
 projecteditor
 /
@@ -183,8 +179,6 @@ chrome
 devtools
 /
 skin
-/
-themes
 /
 common
 .
@@ -247,8 +241,6 @@ chrome
 devtools
 /
 skin
-/
-themes
 /
 markup
 -
