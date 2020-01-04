@@ -886,10 +886,6 @@ browser
 .
 safebrowsing
 .
-provider
-.
-google
-.
 updateURL
 "
 "
@@ -918,10 +914,6 @@ browser
 .
 safebrowsing
 .
-provider
-.
-google
-.
 appRepURL
 "
 "
@@ -948,11 +940,7 @@ user_pref
 "
 browser
 .
-safebrowsing
-.
-provider
-.
-mozilla
+trackingprotection
 .
 gethashURL
 "
@@ -980,11 +968,7 @@ user_pref
 "
 browser
 .
-safebrowsing
-.
-provider
-.
-mozilla
+trackingprotection
 .
 updateURL
 "
