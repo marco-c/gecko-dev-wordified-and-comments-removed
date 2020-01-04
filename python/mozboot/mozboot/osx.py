@@ -1499,6 +1499,32 @@ package_manager
 )
     
 def
+install_mobile_android_artifact_mode_packages
+(
+self
+)
+:
+        
+getattr
+(
+self
+'
+ensure_
+%
+s_mobile_android_packages
+'
+%
+self
+.
+package_manager
+)
+(
+artifact_mode
+=
+True
+)
+    
+def
 suggest_mobile_android_mozconfig
 (
 self
@@ -1519,6 +1545,32 @@ self
 package_manager
 )
 (
+)
+    
+def
+suggest_mobile_android_artifact_mode_mozconfig
+(
+self
+)
+:
+        
+getattr
+(
+self
+'
+suggest_
+%
+s_mobile_android_mozconfig
+'
+%
+self
+.
+package_manager
+)
+(
+artifact_mode
+=
+True
 )
     
 def
@@ -2350,6 +2402,9 @@ def
 ensure_homebrew_mobile_android_packages
 (
 self
+artifact_mode
+=
+False
 )
 :
         
@@ -2636,6 +2691,10 @@ ndk_url
 self
 .
 ndk_url
+                                           
+artifact_mode
+=
+artifact_mode
 )
         
 android_tool
@@ -2670,6 +2729,9 @@ def
 suggest_homebrew_mobile_android_mozconfig
 (
 self
+artifact_mode
+=
+False
 )
 :
         
@@ -2691,6 +2753,10 @@ ndk_path
 self
 .
 ndk_path
+                                  
+artifact_mode
+=
+artifact_mode
 )
     
 def
@@ -2993,6 +3059,9 @@ def
 ensure_macports_mobile_android_packages
 (
 self
+artifact_mode
+=
+False
 )
 :
         
@@ -3291,6 +3360,10 @@ ndk_url
 self
 .
 ndk_url
+                                           
+artifact_mode
+=
+artifact_mode
 )
         
 android_tool
@@ -3325,6 +3398,9 @@ def
 suggest_macports_mobile_android_mozconfig
 (
 self
+artifact_mode
+=
+False
 )
 :
         
@@ -3346,6 +3422,10 @@ ndk_path
 self
 .
 ndk_path
+                                  
+artifact_mode
+=
+artifact_mode
 )
     
 def
