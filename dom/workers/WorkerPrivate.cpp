@@ -24010,9 +24010,11 @@ reason
 false
 )
 ;
-nsAutoString
+const
+nsAString
+&
 script
-;
+=
 info
 -
 >
@@ -24021,7 +24023,6 @@ mHandler
 >
 GetHandlerText
 (
-script
 )
 ;
 const
@@ -24116,7 +24117,7 @@ cx
 options
 script
 .
-get
+BeginReading
 (
 )
 script
