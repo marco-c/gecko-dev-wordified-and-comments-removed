@@ -269,8 +269,9 @@ nsIURI
 aSelfURI
 bool
 aReportOnly
-uint64_t
-aInnerWindowID
+nsCSPContext
+*
+aCSPContext
 )
 ;
 private
@@ -283,8 +284,9 @@ aTokens
 nsIURI
 *
 aSelfURI
-uint64_t
-aInnerWindowID
+nsCSPContext
+*
+aCSPContext
 )
 ;
 ~
@@ -738,8 +740,9 @@ nsCSPPolicy
 *
 mPolicy
 ;
-uint64_t
-mInnerWindowID
+nsCSPContext
+*
+mCSPContext
 ;
 }
 ;
