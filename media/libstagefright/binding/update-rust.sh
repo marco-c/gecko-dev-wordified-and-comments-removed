@@ -236,15 +236,6 @@ mp4parse
 thread
 .
 patch
-patch
--
-p4
-<
-mp4parse
--
-codecs
-.
-patch
 echo
 "
 Cleaning
