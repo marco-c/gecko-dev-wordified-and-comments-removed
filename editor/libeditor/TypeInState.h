@@ -1,9 +1,9 @@
 #
 ifndef
-TypeInState_h__
+TypeInState_h
 #
 define
-TypeInState_h__
+TypeInState_h
 #
 include
 "
@@ -62,6 +62,9 @@ SetProp
 #
 endif
 class
+nsHTMLEditRules
+;
+class
 nsIAtom
 ;
 class
@@ -76,7 +79,6 @@ dom
 class
 Selection
 ;
-}
 }
 struct
 PropItem
@@ -119,6 +121,7 @@ PropItem
 ;
 class
 TypeInState
+final
 :
 public
 nsISelectionListener
@@ -142,9 +145,6 @@ Reset
 nsresult
 UpdateSelState
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -389,5 +389,6 @@ nsHTMLEditRules
 ;
 }
 ;
+}
 #
 endif
