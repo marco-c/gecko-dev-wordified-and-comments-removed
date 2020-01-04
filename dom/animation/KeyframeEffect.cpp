@@ -389,6 +389,7 @@ aPseudoType
 new
 AnimationEffectTimingReadOnly
 (
+aDocument
 aTiming
 )
 )
@@ -5977,6 +5978,7 @@ aPseudoType
 new
 AnimationEffectTiming
 (
+aDocument
 aTiming
 this
 )
