@@ -1238,9 +1238,14 @@ false
 }
 catch
 (
-ex
+originalEx
 )
 {
+let
+ex
+=
+originalEx
+;
 if
 (
 this
