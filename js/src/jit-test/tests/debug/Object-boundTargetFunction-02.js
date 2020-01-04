@@ -165,7 +165,7 @@ undefined
 ;
 assertEq
 (
-ow
+nw
 .
 boundArguments
 undefined
