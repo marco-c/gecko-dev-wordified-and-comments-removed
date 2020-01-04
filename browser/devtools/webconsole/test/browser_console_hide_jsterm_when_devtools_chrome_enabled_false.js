@@ -106,6 +106,11 @@ execute
 new
 Object
 (
+{
+browser_console_hide_jsterm_test
+:
+true
+}
 )
 "
 )
@@ -130,6 +135,11 @@ text
 :
 "
 Object
+{
+browser_console_hide_jsterm_test
+:
+true
+}
 "
 category
 :
