@@ -970,15 +970,6 @@ aTarget
 mozilla
 :
 :
-dom
-:
-:
-AnimationTimeline
-*
-aTimeline
-mozilla
-:
-:
 AnimationPtrArray
 &
 aAnimations
