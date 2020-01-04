@@ -11853,6 +11853,10 @@ CFLAGS
 W3
 -
 Gy
+-
+Zc
+:
+inline
 "
 CXXFLAGS
 =
@@ -11862,6 +11866,10 @@ CXXFLAGS
 W3
 -
 Gy
+-
+Zc
+:
+inline
 "
 if
 test
