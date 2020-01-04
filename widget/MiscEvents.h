@@ -295,7 +295,7 @@ eUnidentifiedEvent
 aWidget
 eCommandEventClass
 )
-mCommand
+command
 (
 aCommand
 )
@@ -342,7 +342,7 @@ WidgetCommandEvent
 (
 false
 mSpecifiedEventType
-mCommand
+command
 nullptr
 )
 ;
@@ -371,7 +371,7 @@ nsCOMPtr
 <
 nsIAtom
 >
-mCommand
+command
 ;
 void
 AssignCommandEventData
