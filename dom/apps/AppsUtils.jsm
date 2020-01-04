@@ -3983,6 +3983,11 @@ computeHash
 function
 (
 aString
+aAlgorithm
+=
+"
+MD5
+"
 )
 {
 let
@@ -4062,11 +4067,9 @@ nsICryptoHash
 ;
 hasher
 .
-init
+initWithString
 (
-hasher
-.
-MD5
+aAlgorithm
 )
 ;
 hasher
