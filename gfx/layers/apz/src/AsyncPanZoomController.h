@@ -659,6 +659,11 @@ aString
 )
 const
 ;
+void
+RequestSnap
+(
+)
+;
 protected
 :
 virtual
@@ -1088,11 +1093,6 @@ OnTouchEndOrCancel
 (
 )
 ;
-void
-RequestSnap
-(
-)
-;
 uint64_t
 mLayersId
 ;
@@ -1224,6 +1224,8 @@ PINCHING
 ANIMATING_ZOOM
 OVERSCROLL_ANIMATION
 SMOOTH_SCROLL
+PANNING_LOCKED_X_SMOOTH_SCROLL
+PANNING_LOCKED_Y_SMOOTH_SCROLL
 WHEEL_SCROLL
 }
 ;
