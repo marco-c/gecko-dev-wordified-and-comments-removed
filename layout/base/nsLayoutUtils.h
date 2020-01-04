@@ -3059,6 +3059,15 @@ aSubtreeRoot
 )
 ;
 static
+void
+MarkIntrinsicISizesDirtyIfDependentOnBSize
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 mozilla
 :
 :
