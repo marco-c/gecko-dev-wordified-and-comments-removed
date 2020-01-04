@@ -399,6 +399,14 @@ bool
 pruneTransients
 )
 ;
+void
+FlattenOriginalHeader
+(
+nsACString
+&
+buf
+)
+;
 nsresult
 Parse
 (

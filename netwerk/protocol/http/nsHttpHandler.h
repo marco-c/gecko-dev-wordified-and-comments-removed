@@ -1322,6 +1322,16 @@ ShutdownConnectionManager
 (
 )
 ;
+bool
+KeepEmptyResponseHeadersAsEmtpyString
+(
+)
+const
+{
+return
+mKeepEmptyResponseHeadersAsEmtpyString
+;
+}
 private
 :
 virtual
@@ -1791,6 +1801,9 @@ mRequestContextService
 ;
 bool
 mNewTabContentSignaturesDisabled
+;
+bool
+mKeepEmptyResponseHeadersAsEmtpyString
 ;
 private
 :
