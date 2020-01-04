@@ -8877,6 +8877,9 @@ controller
 &
 !
 mForceNoIntercept
+&
+&
+mLoadInfo
 )
 {
 nsContentPolicyType

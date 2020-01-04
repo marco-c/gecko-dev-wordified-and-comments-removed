@@ -3282,6 +3282,9 @@ controller
 &
 !
 mForceNoIntercept
+&
+&
+mLoadInfo
 )
 {
 bool
