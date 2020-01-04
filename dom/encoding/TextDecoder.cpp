@@ -115,8 +115,10 @@ label
 aRv
 .
 ThrowRangeError
-(
+<
 MSG_ENCODING_NOT_SUPPORTED
+>
+(
 &
 label
 )
@@ -356,8 +358,10 @@ mFatal
 aRv
 .
 ThrowTypeError
-(
+<
 MSG_DOM_DECODING_FAILED
+>
+(
 )
 ;
 }
@@ -384,8 +388,10 @@ rv
 aRv
 .
 ThrowTypeError
-(
+<
 MSG_DOM_DECODING_FAILED
+>
+(
 )
 ;
 }

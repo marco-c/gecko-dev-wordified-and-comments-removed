@@ -1069,8 +1069,10 @@ kRadPerDegree
 rv
 .
 ThrowRangeError
-(
+<
 MSG_INVALID_TRANSFORM_ANGLE_ERROR
+>
+(
 )
 ;
 return
@@ -1185,8 +1187,10 @@ kRadPerDegree
 rv
 .
 ThrowRangeError
-(
+<
 MSG_INVALID_TRANSFORM_ANGLE_ERROR
+>
+(
 )
 ;
 return
