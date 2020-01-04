@@ -28542,12 +28542,6 @@ AliasType
 :
 MayAlias
 ;
-return
-AliasType
-:
-:
-MayAlias
-;
 if
 (
 input

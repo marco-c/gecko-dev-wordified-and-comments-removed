@@ -1018,7 +1018,6 @@ true
 ;
 if
 (
-!
 (
 load
 -
@@ -1040,7 +1039,7 @@ isNone
 )
 )
 return
-true
+false
 ;
 MDefinition
 :
