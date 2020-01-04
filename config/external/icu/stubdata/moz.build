@@ -140,6 +140,15 @@ Library
 icustubdata
 '
 )
+LOCAL_INCLUDES
++
+=
+CONFIG
+[
+'
+MOZ_ICU_INCLUDES
+'
+]
 SOURCES
 +
 =
