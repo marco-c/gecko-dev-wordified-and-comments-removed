@@ -49651,6 +49651,10 @@ aDialog
 aNavigate
 nullptr
 argv
+1
+.
+0f
+0
 getter_AddRefs
 (
 domReturn
@@ -49701,6 +49705,10 @@ aDialog
 aNavigate
 nullptr
 aExtraArgument
+1
+.
+0f
+0
 getter_AddRefs
 (
 domReturn

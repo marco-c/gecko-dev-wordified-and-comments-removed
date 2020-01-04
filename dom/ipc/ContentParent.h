@@ -1770,6 +1770,10 @@ const
 DocShellOriginAttributes
 &
 aOpenerOriginAttributes
+const
+float
+&
+aFullZoom
 nsresult
 *
 aResult

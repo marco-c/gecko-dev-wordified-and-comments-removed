@@ -1448,6 +1448,7 @@ dialog
 true
 nullptr
 argv
+nullptr
 aResult
 )
 ;
@@ -1602,6 +1603,10 @@ aOpeningTab
 nsISupports
 *
 aArguments
+float
+aOpenerFullZoom
+uint8_t
+aOptionalArgc
 mozIDOMWindowProxy
 *
 *
@@ -1669,6 +1674,15 @@ dialog
 aNavigate
 aOpeningTab
 argv
+aOptionalArgc
+>
+=
+1
+?
+&
+aOpenerFullZoom
+:
+nullptr
 aResult
 )
 ;
@@ -1814,6 +1828,9 @@ aOpeningTab
 nsIArray
 *
 aArgv
+float
+*
+aOpenerFullZoom
 mozIDOMWindowProxy
 *
 *
@@ -4019,6 +4036,7 @@ newDocShellItem
 aParent
 isCallerChrome
 sizeSpec
+aOpenerFullZoom
 )
 ;
 }
@@ -8173,6 +8191,9 @@ const
 SizeSpec
 &
 aSizeSpec
+float
+*
+aOpenerFullZoom
 )
 {
 int32_t
@@ -8246,6 +8267,11 @@ return
 double
 openerZoom
 =
+aOpenerFullZoom
+?
+*
+aOpenerFullZoom
+:
 1
 .
 0
@@ -8253,6 +8279,10 @@ openerZoom
 if
 (
 aParent
+&
+&
+!
+aOpenerFullZoom
 )
 {
 nsCOMPtr

@@ -24187,6 +24187,10 @@ const
 DocShellOriginAttributes
 &
 aOpenerOriginAttributes
+const
+float
+&
+aFullZoom
 nsresult
 *
 aResult
@@ -24871,6 +24875,8 @@ false
 false
 thisTabParent
 nullptr
+aFullZoom
+1
 getter_AddRefs
 (
 window

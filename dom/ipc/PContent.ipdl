@@ -5521,6 +5521,8 @@ nsCString
 aBaseURI
 DocShellOriginAttributes
 aOpenerOriginAttributes
+float
+aFullZoom
 )
 returns
 (

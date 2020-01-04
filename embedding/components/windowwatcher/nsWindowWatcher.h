@@ -250,6 +250,9 @@ aOpeningTab
 nsIArray
 *
 aArgv
+float
+*
+aOpenerFullZoom
 mozIDOMWindowProxy
 *
 *
@@ -364,6 +367,9 @@ const
 SizeSpec
 &
 aSizeSpec
+float
+*
+aOpenerFullZoom
 )
 ;
 static
