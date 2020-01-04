@@ -115,7 +115,7 @@ py
 srcdir
 )
 /
-b2g_desktop
+runreftestmulet
 .
 py
 \

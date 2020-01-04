@@ -52,9 +52,11 @@ b2gautomation
 import
 B2GRemoteAutomation
 from
-b2g_desktop
+runreftestmulet
 import
-run_desktop_reftests
+run_test_harness
+as
+run_mulet
 from
 remotereftest
 import
@@ -3192,15 +3194,11 @@ parse_args
 if
 options
 .
-desktop
-or
-options
-.
 mulet
 :
         
 return
-run_desktop_reftests
+run_mulet
 (
 parser
 options
