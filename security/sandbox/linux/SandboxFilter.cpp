@@ -205,6 +205,15 @@ MADV_DONTDUMP
 endif
 #
 ifndef
+PR_SET_PTRACER
+#
+define
+PR_SET_PTRACER
+0x59616d61
+#
+endif
+#
+ifndef
 ANDROID
 #
 define
@@ -443,6 +452,7 @@ CASES
 PR_GET_SECCOMP
 PR_SET_NAME
 PR_SET_DUMPABLE
+PR_SET_PTRACER
 )
 Allow
 (
