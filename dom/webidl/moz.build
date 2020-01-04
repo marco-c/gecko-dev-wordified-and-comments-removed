@@ -3582,6 +3582,11 @@ BluetoothPbapRequestHandle
 .
 webidl
 '
+'
+BluetoothUUID
+.
+webidl
+'
 ]
 if
 CONFIG
