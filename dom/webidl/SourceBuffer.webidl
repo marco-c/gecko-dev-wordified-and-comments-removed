@@ -201,7 +201,6 @@ boolean
 updating
 ;
 [
-NewObject
 Throws
 ]
 readonly
