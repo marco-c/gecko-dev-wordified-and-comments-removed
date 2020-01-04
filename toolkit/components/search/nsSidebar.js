@@ -177,13 +177,6 @@ documentURIObject
 .
 spec
 engineURL
-type
-:
-Ci
-.
-nsISearchEngine
-.
-DATA_XML
 }
 )
 ;
