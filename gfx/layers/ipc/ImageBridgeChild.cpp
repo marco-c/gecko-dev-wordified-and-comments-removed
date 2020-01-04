@@ -452,6 +452,7 @@ private
 #
 ifdef
 MOZ_ENABLE_PROFILER_SPS
+MOZ_INIT_OUTSIDE_CTOR
 PseudoStack
 *
 mPseudoStackHack
