@@ -10,9 +10,6 @@ PresShell
 class
 nsIDocument
 ;
-namespace
-mozilla
-{
 class
 TouchManager
 {
@@ -108,6 +105,5 @@ mDocument
 ;
 }
 ;
-}
 #
 endif
