@@ -1491,13 +1491,6 @@ RESPATH
 /
 components
 /
-mozintl
-.
-xpt
-RESPATH
-/
-components
-/
 necko_about
 .
 xpt
