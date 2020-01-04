@@ -533,6 +533,14 @@ return
 true
 ;
 }
+void
+StealExceptionFromJSContext
+(
+JSContext
+*
+cx
+)
+;
 template
 <
 dom
