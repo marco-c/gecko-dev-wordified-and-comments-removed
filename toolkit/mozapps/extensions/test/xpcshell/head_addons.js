@@ -10137,6 +10137,9 @@ function
 changeXPIDBVersion
 (
 aNewVersion
+aMutator
+=
+undefined
 )
 {
 let
@@ -10152,6 +10155,15 @@ jData
 schemaVersion
 =
 aNewVersion
+;
+if
+(
+aMutator
+)
+aMutator
+(
+jData
+)
 ;
 saveJSON
 (
