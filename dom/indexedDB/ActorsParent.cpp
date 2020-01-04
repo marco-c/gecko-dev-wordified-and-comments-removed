@@ -48155,14 +48155,14 @@ AssertIsOnConnectionThread
 (
 )
 ;
-MOZ_ASSERT
+if
 (
 mDatabaseInfo
 -
 >
 mConnection
 )
-;
+{
 mDatabaseInfo
 -
 >
@@ -48189,6 +48189,7 @@ NS_DISPATCH_NORMAL
 return
 NS_OK
 ;
+}
 }
 RefPtr
 <
