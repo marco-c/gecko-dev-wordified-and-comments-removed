@@ -3449,9 +3449,6 @@ GetJSContextStack
 (
 )
 ;
-if
-(
-!
 stack
 -
 >
@@ -3459,13 +3456,7 @@ Push
 (
 cx
 )
-)
-{
-MOZ_CRASH
-(
-)
 ;
-}
 mStackDepthAfterPush
 =
 stack

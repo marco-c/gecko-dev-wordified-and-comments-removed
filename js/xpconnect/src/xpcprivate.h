@@ -10575,7 +10575,7 @@ mDetails
 namespace
 xpc
 {
-bool
+void
 PushNullJSContext
 (
 )
@@ -10698,7 +10698,7 @@ danger
 AutoCxPusher
 ;
 friend
-bool
+void
 xpc
 :
 :
@@ -10721,7 +10721,7 @@ Pop
 (
 )
 ;
-bool
+void
 Push
 (
 JSContext
