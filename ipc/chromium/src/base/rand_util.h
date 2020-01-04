@@ -35,6 +35,16 @@ RandDouble
 (
 )
 ;
+void
+RandBytes
+(
+void
+*
+output
+size_t
+output_length
+)
+;
 }
 #
 endif
