@@ -168,6 +168,9 @@ class
 StaticBlockObject
 ;
 class
+ClonedBlockObject
+;
+class
 ScopeCoordinate
 ;
 class
@@ -1857,6 +1860,15 @@ JSObject
 varObj
 (
 )
+const
+;
+inline
+ClonedBlockObject
+&
+extensibleLexicalScope
+(
+)
+const
 ;
 inline
 void

@@ -22206,7 +22206,7 @@ FunctionInfo
 DefLexicalFn
 >
 (
-DefLexicalOperation
+DefGlobalLexical
 )
 ;
 void

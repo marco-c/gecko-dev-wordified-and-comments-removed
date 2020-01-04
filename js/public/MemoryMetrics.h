@@ -2730,6 +2730,13 @@ Other
 MallocHeap
 savedStacksSet
 )
+\
+macro
+(
+Other
+MallocHeap
+nonSyntacticLexicalScopesTable
+)
 CompartmentStats
 (
 )

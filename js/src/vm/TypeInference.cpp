@@ -13338,6 +13338,12 @@ CallObject
 >
 (
 )
+|
+|
+IsExtensibleLexicalScope
+(
+obj
+)
 )
 ;
 if
