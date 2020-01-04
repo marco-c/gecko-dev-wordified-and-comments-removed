@@ -511,6 +511,13 @@ NSPrintPanel
 printPanel
 ]
 ;
+[
+panel
+setOptions
+:
+NSPrintPanelShowsPaperSize
+]
+;
 PrintPanelAccessoryController
 *
 viewController
