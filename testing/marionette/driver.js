@@ -12057,6 +12057,10 @@ cmd
 parameters
 .
 flags
+|
+|
+[
+]
 )
 {
 flags
