@@ -5242,6 +5242,7 @@ nsCancelableRunnable
 {
 public
 :
+explicit
 Runnable
 (
 AsyncCanvasRenderer
@@ -5388,6 +5389,7 @@ nsCancelableRunnable
 {
 public
 :
+explicit
 Runnable
 (
 AsyncCanvasRenderer
