@@ -3373,6 +3373,8 @@ FontHinting
 aHinting
 bool
 aAutoHinting
+AntialiasMode
+aAntialiasMode
 )
 {
 RefPtr
@@ -3400,6 +3402,14 @@ options
 SetAutoHinting
 (
 aAutoHinting
+)
+;
+options
+-
+>
+SetAntialiasMode
+(
+aAntialiasMode
 )
 ;
 return
