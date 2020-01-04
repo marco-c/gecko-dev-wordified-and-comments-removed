@@ -1359,12 +1359,6 @@ function
 (
 )
 {
-AppsUtils
-.
-allowUnsignedAddons
-=
-true
-;
 this
 .
 messages
