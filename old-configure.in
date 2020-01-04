@@ -5651,8 +5651,6 @@ dnl
 =
 =
 =
-AC_PROG_INSTALL
-AC_PROG_LN_S
 if
 test
 -
