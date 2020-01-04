@@ -188,6 +188,11 @@ testBuiltin
 WeakMap
 )
 ;
+testBuiltin
+(
+WeakSet
+)
+;
 ;
 if
 (
