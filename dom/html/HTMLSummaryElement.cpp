@@ -289,17 +289,6 @@ summary
 "
 )
 ;
-if
-(
-details
--
->
-GetPrimaryFrame
-(
-Flush_Frames
-)
-)
-{
 details
 -
 >
@@ -316,7 +305,6 @@ nsEventStatus_eConsumeNoDefault
 return
 NS_OK
 ;
-}
 }
 }
 if
