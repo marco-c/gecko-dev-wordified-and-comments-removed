@@ -759,10 +759,6 @@ GetCurrentInnerWindow
 (
 )
 file
-Directory
-:
-:
-eDOMRootDirectory
 )
 ;
 MOZ_ASSERT

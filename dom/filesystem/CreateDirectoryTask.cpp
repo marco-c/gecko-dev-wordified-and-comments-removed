@@ -541,10 +541,6 @@ GetParentObject
 (
 )
 mTargetPath
-Directory
-:
-:
-eNotDOMRootDirectory
 mFileSystem
 )
 ;
