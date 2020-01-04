@@ -1208,7 +1208,6 @@ eStyleAnimType_Corner_TopRight
 eStyleAnimType_Corner_BottomRight
 eStyleAnimType_Corner_BottomLeft
 eStyleAnimType_nscoord
-eStyleAnimType_EnumU8
 eStyleAnimType_float
 eStyleAnimType_Color
 eStyleAnimType_PaintServer
