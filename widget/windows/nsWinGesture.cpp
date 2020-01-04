@@ -1813,12 +1813,11 @@ break
 case
 GID_PRESSANDTAP
 :
-{
 evt
 .
 mMessage
 =
-NS_SIMPLE_GESTURE_PRESSTAP
+ePressTapGesture
 ;
 evt
 .
@@ -1826,7 +1825,6 @@ clickCount
 =
 1
 ;
-}
 break
 ;
 }

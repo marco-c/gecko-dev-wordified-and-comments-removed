@@ -1575,7 +1575,7 @@ eSimpleGestureEventClass
 NON_IDL_EVENT
 (
 MozPressTapGesture
-NS_SIMPLE_GESTURE_PRESSTAP
+ePressTapGesture
 EventNameType_None
 eSimpleGestureEventClass
 )

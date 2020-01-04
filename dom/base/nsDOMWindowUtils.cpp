@@ -5978,10 +5978,12 @@ MozPressTapGesture
 "
 )
 )
+{
 msg
 =
-NS_SIMPLE_GESTURE_PRESSTAP
+ePressTapGesture
 ;
+}
 else
 if
 (
