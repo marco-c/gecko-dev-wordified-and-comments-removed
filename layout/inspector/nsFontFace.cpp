@@ -912,6 +912,10 @@ mFontEntry
 -
 >
 mUserFontData
+.
+get
+(
+)
 ;
 if
 (

@@ -3128,7 +3128,10 @@ gfxTextPerfMetrics
 *
 mTextPerf
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 gfxTextRun
 >

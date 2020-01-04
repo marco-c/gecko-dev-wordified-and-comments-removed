@@ -48,13 +48,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 gfxTypes
 .
 h

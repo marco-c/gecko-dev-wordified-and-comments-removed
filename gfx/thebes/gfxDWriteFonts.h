@@ -15,6 +15,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
 <
 dwrite
 .
@@ -375,7 +384,10 @@ Metrics
 *
 mMetrics
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 nsDataHashtable
 <

@@ -6032,14 +6032,13 @@ return
 nullptr
 ;
 }
-nsAutoPtr
+auto
+newFontEntry
+=
+MakeUnique
 <
 MacOSFontEntry
 >
-newFontEntry
-(
-new
-MacOSFontEntry
 (
 uniqueName
 fontRef
@@ -6048,7 +6047,6 @@ aStretch
 aStyle
 true
 false
-)
 )
 ;
 :
@@ -6093,7 +6091,7 @@ ReadCMAP
 return
 newFontEntry
 .
-forget
+release
 (
 )
 ;

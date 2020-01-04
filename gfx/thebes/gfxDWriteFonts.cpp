@@ -2724,11 +2724,13 @@ mGlyphWidths
 {
 mGlyphWidths
 =
-new
+MakeUnique
+<
 nsDataHashtable
 <
 nsUint32HashKey
 int32_t
+>
 >
 (
 128

@@ -361,7 +361,10 @@ mSpaceGlyph
 bool
 mNeedsBold
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 nsDataHashtable
 <
@@ -374,7 +377,10 @@ mGlyphIDs
 SCRIPT_CACHE
 mScriptCache
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 nsDataHashtable
 <

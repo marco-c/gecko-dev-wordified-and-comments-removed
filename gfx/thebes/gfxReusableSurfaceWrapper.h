@@ -18,13 +18,6 @@ nsISupportsImpl
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 class
 gfxReusableSurfaceWrapper
 {

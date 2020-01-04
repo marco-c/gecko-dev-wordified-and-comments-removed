@@ -7,13 +7,6 @@ GFX_FONT_INFO_LOADER_H
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
