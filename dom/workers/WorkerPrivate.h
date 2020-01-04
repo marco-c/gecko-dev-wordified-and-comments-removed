@@ -952,8 +952,6 @@ Close
 bool
 ModifyBusyCount
 (
-JSContext
-*
 bool
 aIncrease
 )
