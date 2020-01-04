@@ -1,11 +1,7 @@
-var
-{
-utils
-:
-Cu
-}
-=
-Components
+"
+use
+strict
+"
 ;
 var
 {

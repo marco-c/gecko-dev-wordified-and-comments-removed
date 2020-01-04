@@ -42,13 +42,11 @@ frameContent
 "
 ]
 ;
-gUI
-.
-tree
-.
-selectedItem
-=
+yield
+selectTreeItem
+(
 cacheItemId
+)
 ;
 ok
 (
