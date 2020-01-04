@@ -1540,6 +1540,12 @@ MoveOverflowToChildList
 )
 ;
 }
+mBStartLeading
+=
+mBEndLeading
+=
+0
+;
 WritingMode
 lineWM
 =
