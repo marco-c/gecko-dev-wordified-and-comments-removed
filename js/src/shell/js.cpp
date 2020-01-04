@@ -6417,17 +6417,6 @@ isHeapBusy
 )
 )
 ;
-MOZ_ASSERT
-(
-!
-rt
--
->
-currentThreadHasExclusiveAccess
-(
-)
-)
-;
 JS
 :
 :

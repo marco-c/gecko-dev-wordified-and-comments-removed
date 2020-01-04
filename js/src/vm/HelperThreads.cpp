@@ -3277,11 +3277,6 @@ lock
 (
 )
 {
-AssertCurrentThreadCanLock
-(
-HelperThreadStateLock
-)
-;
 helperLock
 .
 lock
