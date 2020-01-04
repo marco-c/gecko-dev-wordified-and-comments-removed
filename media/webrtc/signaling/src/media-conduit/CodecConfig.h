@@ -54,6 +54,9 @@ mChannels
 int
 mRate
 ;
+bool
+mFECEnabled
+;
 int
 mMaxPlaybackRate
 ;
@@ -75,6 +78,8 @@ int
 channels
 int
 rate
+bool
+FECEnabled
 )
 :
 mType
@@ -100,6 +105,10 @@ channels
 mRate
 (
 rate
+)
+mFECEnabled
+(
+FECEnabled
 )
 mMaxPlaybackRate
 (
