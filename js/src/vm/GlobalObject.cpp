@@ -4332,7 +4332,7 @@ shape
 cx
 -
 >
-compartment
+zone
 (
 )
 -

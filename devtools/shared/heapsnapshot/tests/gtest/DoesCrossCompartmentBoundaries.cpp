@@ -205,6 +205,12 @@ writer
 nodeC
 )
 ;
+ExpectWriteNode
+(
+writer
+nodeD
+)
+;
 JS
 :
 :

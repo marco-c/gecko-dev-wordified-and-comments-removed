@@ -107,13 +107,6 @@ clasp
 (
 clasp
 )
-compartment
-(
-cx
--
->
-compartment_
-)
 {
 }
 inline

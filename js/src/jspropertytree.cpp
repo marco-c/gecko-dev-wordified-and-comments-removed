@@ -260,7 +260,7 @@ MOZ_ASSERT
 child
 -
 >
-compartment
+zone
 (
 )
 =
@@ -268,7 +268,7 @@ compartment
 parent
 -
 >
-compartment
+zone
 (
 )
 )
@@ -278,10 +278,12 @@ MOZ_ASSERT
 cx
 -
 >
-isInsideCurrentCompartment
+zone
 (
-this
 )
+=
+=
+zone_
 )
 ;
 KidsPointer
