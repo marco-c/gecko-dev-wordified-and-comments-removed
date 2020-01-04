@@ -4086,8 +4086,7 @@ false
 )
 )
 )
-{
-}
+;
 cmdLine
 .
 preventDefault

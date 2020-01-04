@@ -3713,8 +3713,6 @@ canvas
 =
 null
 ;
-try
-{
 let
 browser
 =
@@ -3860,10 +3858,6 @@ ctx
 DRAWWINDOW_USE_WIDGET_LAYERS
 )
 ;
-}
-finally
-{
-}
 TelemetryStopwatch
 .
 start
