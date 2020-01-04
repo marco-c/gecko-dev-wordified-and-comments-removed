@@ -2551,14 +2551,7 @@ src
 Register64
 dest
 )
-DEFINED_ON
-(
-x86
-x64
-arm
-arm64
-mips64
-)
+PER_ARCH
 ;
 inline
 void
