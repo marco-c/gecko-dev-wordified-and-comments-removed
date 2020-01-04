@@ -897,16 +897,6 @@ ScheduleResumeComposition
 )
 ;
 static
-void
-ScheduleResumeComposition
-(
-int
-width
-int
-height
-)
-;
-static
 float
 ComputeRenderIntegrity
 (
