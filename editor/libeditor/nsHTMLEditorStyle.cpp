@@ -120,13 +120,6 @@ h
 #
 include
 "
-nsEditRules
-.
-h
-"
-#
-include
-"
 nsEditor
 .
 h
@@ -191,6 +184,13 @@ h
 include
 "
 nsIEditorIMESupport
+.
+h
+"
+#
+include
+"
+nsIEditRules
 .
 h
 "

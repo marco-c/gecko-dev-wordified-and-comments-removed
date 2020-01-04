@@ -115,12 +115,12 @@ nsPlaintextEditor
 class
 nsRange
 ;
-class
-nsRulesInfo
-;
 namespace
 mozilla
 {
+class
+RulesInfo
+;
 struct
 EditorDOMPoint
 ;
@@ -278,7 +278,7 @@ WillDoAction
 Selection
 *
 aSelection
-nsRulesInfo
+RulesInfo
 *
 aInfo
 bool
@@ -296,7 +296,7 @@ DidDoAction
 Selection
 *
 aSelection
-nsRulesInfo
+RulesInfo
 *
 aInfo
 nsresult
@@ -1069,7 +1069,7 @@ DidMakeBasicBlock
 Selection
 *
 aSelection
-nsRulesInfo
+RulesInfo
 *
 aInfo
 nsresult

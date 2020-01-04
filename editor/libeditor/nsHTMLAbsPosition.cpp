@@ -111,13 +111,6 @@ h
 #
 include
 "
-nsEditRules
-.
-h
-"
-#
-include
-"
 nsEditor
 .
 h
@@ -217,6 +210,13 @@ h
 include
 "
 nsIEditor
+.
+h
+"
+#
+include
+"
+nsIEditRules
 .
 h
 "

@@ -148,7 +148,7 @@ nsEditor
 h
 '
 '
-nsEditRules
+nsIEditRules
 .
 h
 '
