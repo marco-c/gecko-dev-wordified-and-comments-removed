@@ -198,7 +198,7 @@ mPromise
 >
 MaybeReject
 (
-NS_ERROR_DOM_ABORT_ERR
+NS_ERROR_DOM_OPERATION_ERR
 )
 ;
 return
