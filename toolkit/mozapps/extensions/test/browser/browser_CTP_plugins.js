@@ -796,9 +796,10 @@ nsIObjectLoadingContent
 let
 condition
 =
-function
 (
 )
+=
+>
 objLoadingContent
 .
 activated
@@ -1461,9 +1462,10 @@ nsIObjectLoadingContent
 let
 condition
 =
-function
 (
 )
+=
+>
 objLoadingContent
 .
 activated

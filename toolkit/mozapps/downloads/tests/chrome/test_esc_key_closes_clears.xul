@@ -505,9 +505,10 @@ window
 let
 sendEscape
 =
-function
 (
 )
+=
+>
 synthesizeKey
 (
 "

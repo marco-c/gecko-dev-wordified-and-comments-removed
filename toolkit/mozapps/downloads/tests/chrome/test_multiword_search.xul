@@ -695,10 +695,9 @@ focus
 ;
 let
 =
-function
-(
 aId
-)
+=
+>
 win
 .
 document

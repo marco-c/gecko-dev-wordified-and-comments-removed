@@ -2307,10 +2307,9 @@ isRTL
 var
 flipLeftRight
 =
-function
-(
 val
-)
+=
+>
 val
 =
 =

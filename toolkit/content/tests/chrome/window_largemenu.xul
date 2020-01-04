@@ -1557,9 +1557,10 @@ screen
 availTop
 +
 10
-function
 (
 )
+=
+>
 synthesizeMouse
 (
 document

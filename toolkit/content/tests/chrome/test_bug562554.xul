@@ -594,9 +594,10 @@ itself
 should
 call
 popupshowing
-function
 (
 )
+=
+>
 synthesizeMouse
 (
 (
@@ -626,9 +627,10 @@ true
 should
 call
 clickbutton1
-function
 (
 )
+=
+>
 synthesizeMouse
 (
 (
@@ -656,9 +658,10 @@ button1
 should
 call
 popupshowing
-function
 (
 )
+=
+>
 synthesizeMouse
 (
 (
@@ -684,9 +687,10 @@ intersection
 should
 call
 popupshowing
-function
 (
 )
+=
+>
 synthesizeMouse
 (
 (

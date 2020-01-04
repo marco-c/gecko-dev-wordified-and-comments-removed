@@ -489,9 +489,10 @@ SimpleTest
 .
 executeSoon
 (
-function
 (
 )
+=
+>
 runTests
 (
 (

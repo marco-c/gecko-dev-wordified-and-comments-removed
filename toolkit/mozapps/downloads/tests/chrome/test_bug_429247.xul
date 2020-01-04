@@ -724,10 +724,9 @@ focus
 ;
 let
 =
-function
-(
 aId
-)
+=
+>
 win
 .
 document
@@ -762,9 +761,10 @@ invokeCount
 let
 counter
 =
-function
 (
 )
+=
+>
 invokeCount
 +
 +

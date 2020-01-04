@@ -917,10 +917,9 @@ appended
 var
 accelText
 =
-function
-(
 menuitem
-)
+=
+>
 menuitem
 .
 getAttribute

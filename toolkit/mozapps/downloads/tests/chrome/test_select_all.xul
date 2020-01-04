@@ -686,10 +686,9 @@ win
 {
 let
 =
-function
-(
 aId
-)
+=
+>
 win
 .
 document

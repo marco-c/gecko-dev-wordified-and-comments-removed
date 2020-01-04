@@ -52,7 +52,11 @@ get
 name
 (
 )
+{
+return
 aName
+;
+}
 shutdown
 (
 )

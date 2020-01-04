@@ -163,10 +163,9 @@ ADDON_NAMES
 .
 map
 (
-function
-(
 aName
-)
+=
+>
 aName
 +
 "

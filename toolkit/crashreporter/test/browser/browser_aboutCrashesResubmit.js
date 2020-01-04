@@ -854,11 +854,12 @@ crashes
 .
 sort
 (
-function
 (
 a
 b
 )
+=
+>
 b
 .
 date

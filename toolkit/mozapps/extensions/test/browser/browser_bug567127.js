@@ -584,10 +584,9 @@ filePaths
 .
 map
 (
-function
-(
 aPath
-)
+=
+>
 aPath
 .
 file
@@ -641,10 +640,9 @@ filePaths
 .
 map
 (
-function
-(
 aPath
-)
+=
+>
 aPath
 .
 spec

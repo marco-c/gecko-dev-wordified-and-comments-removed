@@ -1208,10 +1208,9 @@ split
 .
 map
 (
-function
-(
 x
-)
+=
+>
 parseInt
 (
 x
