@@ -8844,7 +8844,6 @@ return
 }
 }
 else
-{
 if
 (
 !
@@ -8864,7 +8863,11 @@ script
 return
 ;
 }
-}
+MOZ_ASSERT
+(
+script
+)
+;
 aScriptp
 .
 set
@@ -8902,13 +8905,6 @@ data
 nsMessageManagerScriptHolder
 *
 holder
-;
-if
-(
-script
-)
-{
-holder
 =
 new
 nsMessageManagerScriptHolder
@@ -8918,7 +8914,6 @@ script
 aRunInGlobalScope
 )
 ;
-}
 sCachedScripts
 -
 >
