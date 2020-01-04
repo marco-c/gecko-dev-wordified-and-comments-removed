@@ -243,6 +243,12 @@ disabled
 "
 )
 ;
+message
+.
+scrollIntoView
+(
+)
+;
 yield
 waitForContextMenu
 (
@@ -466,6 +472,12 @@ yield
 deferred
 .
 promise
+;
+message
+.
+scrollIntoView
+(
+)
 ;
 yield
 waitForContextMenu

@@ -323,6 +323,14 @@ disabled
 "
 )
 ;
+outputNode
+.
+selectedItem
+.
+scrollIntoView
+(
+)
+;
 return
 waitForContextMenu
 (
@@ -662,6 +670,12 @@ output
 selectMessage
 (
 msg
+)
+;
+msg
+.
+scrollIntoView
+(
 )
 ;
 info
