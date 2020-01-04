@@ -4102,7 +4102,7 @@ nsIWebBrowser
 aWebBrowser
 )
 {
-NS_NOTREACHED
+NS_WARNING
 (
 "
 TabChild
@@ -4131,7 +4131,7 @@ nsIWebBrowser
 aWebBrowser
 )
 {
-NS_NOTREACHED
+NS_WARNING
 (
 "
 TabChild
@@ -4179,7 +4179,7 @@ uint32_t
 aChromeFlags
 )
 {
-NS_NOTREACHED
+NS_WARNING
 (
 "
 trying
@@ -4204,7 +4204,7 @@ DestroyBrowserWindow
 (
 )
 {
-NS_NOTREACHED
+NS_WARNING
 (
 "
 TabChild
@@ -4234,7 +4234,7 @@ int32_t
 aCY
 )
 {
-NS_NOTREACHED
+NS_WARNING
 (
 "
 TabChild
@@ -4260,7 +4260,7 @@ ShowAsModal
 (
 )
 {
-NS_NOTREACHED
+NS_WARNING
 (
 "
 TabChild
@@ -4308,7 +4308,7 @@ nsresult
 aStatus
 )
 {
-NS_NOTREACHED
+NS_WARNING
 (
 "
 TabChild
@@ -4554,7 +4554,7 @@ char16_t
 aTitle
 )
 {
-NS_NOTREACHED
+NS_WARNING
 (
 "
 TabChild
@@ -4600,7 +4600,7 @@ void
 aSiteWindow
 )
 {
-NS_NOTREACHED
+NS_WARNING
 (
 "
 TabChild
