@@ -141,6 +141,7 @@ in
 the
 generated
 linux
+android
 mac
 and
 bsd
@@ -385,4 +386,19 @@ some
 OS
 X
 crashes
+.
+-
+"
+android64_support
+.
+patch
+"
+.
+This
+fixes
+Android
+64
+-
+bit
+support
 .
