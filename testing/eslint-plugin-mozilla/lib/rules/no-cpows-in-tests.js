@@ -71,7 +71,6 @@ context
 function
 showError
 (
-context
 node
 identifier
 )
@@ -159,7 +158,6 @@ expression
 {
 showError
 (
-context
 node
 expression
 )
@@ -201,7 +199,6 @@ expression
 {
 showError
 (
-context
 node
 expression
 )
@@ -321,7 +318,6 @@ return
 }
 showError
 (
-context
 node
 expression
 )

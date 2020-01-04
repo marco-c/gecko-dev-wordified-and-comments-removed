@@ -31,7 +31,6 @@ Program
 :
 function
 (
-node
 )
 {
 if
