@@ -1446,7 +1446,7 @@ remoteTestRoot
 %
 s
 /
-xpcshell
+xpc
 "
 %
 self
