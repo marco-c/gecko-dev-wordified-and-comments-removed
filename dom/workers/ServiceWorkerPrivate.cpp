@@ -4968,7 +4968,7 @@ RefPtr
 <
 Promise
 >
-respondWithPromise
+waitUntilPromise
 =
 event
 -
@@ -4979,7 +4979,7 @@ GetPromise
 ;
 if
 (
-respondWithPromise
+waitUntilPromise
 )
 {
 RefPtr
@@ -4994,7 +4994,7 @@ KeepAliveHandler
 mKeepAliveToken
 )
 ;
-respondWithPromise
+waitUntilPromise
 -
 >
 AppendNativeHandler
