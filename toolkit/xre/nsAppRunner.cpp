@@ -21254,6 +21254,12 @@ gMultiprocessBlockPolicy
 }
 #
 endif
+#
+if
+defined
+(
+MOZ_WIDGET_GTK
+)
 bool
 disabledForBidi
 =
@@ -21309,6 +21315,8 @@ return
 gMultiprocessBlockPolicy
 ;
 }
+#
+endif
 gMultiprocessBlockPolicy
 =
 0
