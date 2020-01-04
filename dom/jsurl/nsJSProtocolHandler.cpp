@@ -1044,12 +1044,6 @@ javascript
 URI
 "
 true
-scriptContext
--
->
-GetNativeContext
-(
-)
 )
 ;
 JSContext
