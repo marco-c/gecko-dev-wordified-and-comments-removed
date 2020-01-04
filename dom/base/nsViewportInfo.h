@@ -77,13 +77,6 @@ kViewportMaxSize
 10000
 )
 ;
-static
-const
-int32_t
-kViewportDefaultScreenWidth
-=
-980
-;
 class
 MOZ_STACK_CLASS
 nsViewportInfo
