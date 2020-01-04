@@ -27296,6 +27296,10 @@ thread
 "
 )
 ;
+mUploadStream
+=
+nullptr
+;
 if
 (
 NS_FAILED

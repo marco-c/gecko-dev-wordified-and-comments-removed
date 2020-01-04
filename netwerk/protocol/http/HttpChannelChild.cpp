@@ -3437,6 +3437,10 @@ channelStatus
 )
 )
 ;
+mUploadStream
+=
+nullptr
+;
 if
 (
 mDivertingToParent
