@@ -916,6 +916,12 @@ MSG
 >
 mFollowingCharMsgs
 ;
+nsTArray
+<
+MSG
+>
+mRemovedOddCharMsgs
+;
 HWND
 mFocusedWndBeforeDispatch
 ;
@@ -1120,6 +1126,11 @@ GetKeyLocation
 (
 )
 const
+;
+void
+RemoveFollowingOddCharMessages
+(
+)
 ;
 bool
 IsIMEDoingKakuteiUndo
