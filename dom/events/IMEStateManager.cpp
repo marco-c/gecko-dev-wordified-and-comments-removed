@@ -6317,9 +6317,9 @@ IsTrusted
 aCompositionEvent
 -
 >
-mFlags
-.
-mPropagationStopped
+PropagationStopped
+(
+)
 )
 {
 return

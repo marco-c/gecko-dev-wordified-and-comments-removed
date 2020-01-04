@@ -1095,9 +1095,9 @@ IsEmpty
 aEvent
 -
 >
-mFlags
-.
-mPropagationStopped
+PropagationStopped
+(
+)
 )
 {
 return

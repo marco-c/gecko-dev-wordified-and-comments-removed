@@ -355,9 +355,9 @@ return
 mEvent
 -
 >
-mFlags
-.
-mPropagationStopped
+PropagationStopped
+(
+)
 ;
 }
 bool

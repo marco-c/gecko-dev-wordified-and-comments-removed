@@ -2591,9 +2591,9 @@ return
 mEvent
 -
 >
-mFlags
-.
-mPropagationStopped
+PropagationStopped
+(
+)
 ;
 }
 NS_IMETHODIMP_
