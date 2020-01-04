@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 isOSX
 =
@@ -236,6 +241,7 @@ onShortcut
 ;
 }
 function
+*
 testSimple
 (
 shortcuts
@@ -309,6 +315,7 @@ onKey
 ;
 }
 function
+*
 testNonLetterCharacter
 (
 shortcuts
@@ -373,6 +380,7 @@ onKey
 ;
 }
 function
+*
 testFunctionKey
 (
 shortcuts
@@ -437,6 +445,7 @@ onKey
 ;
 }
 function
+*
 testPlusCharacter
 (
 shortcuts
@@ -506,6 +515,7 @@ onKey
 ;
 }
 function
+*
 testMixup
 (
 shortcuts
@@ -748,6 +758,7 @@ fired
 ;
 }
 function
+*
 testLooseDigits
 (
 shortcuts
@@ -921,6 +932,7 @@ onKey
 ;
 }
 function
+*
 testExactModifiers
 (
 shortcuts
@@ -1189,6 +1201,7 @@ fired
 ;
 }
 function
+*
 testLooseShiftModifier
 (
 shortcuts
@@ -1376,6 +1389,7 @@ onKey
 ;
 }
 function
+*
 testStrictLetterShiftModifier
 (
 shortcuts
@@ -1580,6 +1594,7 @@ onKey
 ;
 }
 function
+*
 testAltModifier
 (
 shortcuts
@@ -1678,6 +1693,7 @@ onKey
 ;
 }
 function
+*
 testCommandOrControlModifier
 (
 shortcuts
@@ -1915,6 +1931,7 @@ onKeyAlias
 ;
 }
 function
+*
 testCtrlModifier
 (
 shortcuts
@@ -2080,6 +2097,7 @@ onKeyAlias
 ;
 }
 function
+*
 testCmdShiftShortcut
 (
 shortcuts
@@ -2260,6 +2278,7 @@ onCmdShiftKey
 ;
 }
 function
+*
 testTarget
 (
 )
