@@ -36798,7 +36798,7 @@ dxgl
 .
 enabled
 "
-true
+false
 )
 ;
 pref
