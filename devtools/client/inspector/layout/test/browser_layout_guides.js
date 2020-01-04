@@ -165,6 +165,8 @@ doc
 getElementById
 (
 "
+layout
+-
 margins
 "
 )
@@ -189,6 +191,8 @@ doc
 getElementById
 (
 "
+layout
+-
 borders
 "
 )
@@ -213,6 +217,8 @@ doc
 getElementById
 (
 "
+layout
+-
 padding
 "
 )
@@ -237,6 +243,8 @@ doc
 getElementById
 (
 "
+layout
+-
 content
 "
 )

@@ -149,6 +149,8 @@ querySelector
 (
 "
 .
+layout
+-
 size
 >
 span
@@ -369,6 +371,8 @@ querySelector
 (
 "
 .
+layout
+-
 size
 >
 span
