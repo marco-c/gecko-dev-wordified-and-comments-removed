@@ -2251,11 +2251,12 @@ cx
 xpc
 :
 :
-FindExceptionStack
+FindExceptionStackForConsoleReport
 (
 cx
 (
 )
+inner
 exn
 )
 )

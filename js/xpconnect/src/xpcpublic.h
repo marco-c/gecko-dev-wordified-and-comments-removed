@@ -1714,11 +1714,14 @@ exception
 ;
 JSObject
 *
-FindExceptionStack
+FindExceptionStackForConsoleReport
 (
 JSContext
 *
 cx
+nsPIDOMWindowInner
+*
+win
 JS
 :
 :

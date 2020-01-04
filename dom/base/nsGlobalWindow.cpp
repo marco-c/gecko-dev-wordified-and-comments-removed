@@ -3329,6 +3329,10 @@ mMayHavePointerEnterLeaveEventListener
 (
 false
 )
+mInnerObjectsFreed
+(
+false
+)
 mIsModalContentWindow
 (
 false
@@ -6229,10 +6233,6 @@ mShowFocusRingForContent
 false
 )
 mFocusByKeyOccurred
-(
-false
-)
-mInnerObjectsFreed
 (
 false
 )

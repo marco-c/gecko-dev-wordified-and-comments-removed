@@ -1706,6 +1706,9 @@ bool
 mMayHavePointerEnterLeaveEventListener
 ;
 bool
+mInnerObjectsFreed
+;
+bool
 mIsModalContentWindow
 ;
 bool
@@ -2063,6 +2066,16 @@ SetHasPointerEnterLeaveEventListeners
 mMayHavePointerEnterLeaveEventListener
 =
 true
+;
+}
+bool
+InnerObjectsFreed
+(
+)
+const
+{
+return
+mInnerObjectsFreed
 ;
 }
 protected
