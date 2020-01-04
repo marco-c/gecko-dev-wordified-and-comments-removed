@@ -657,7 +657,7 @@ run_next_test
 add_test
 (
 function
-test_GetData
+test_GetDataNoInit
 (
 )
 {
@@ -1054,11 +1054,13 @@ do_test_pending
 fetch
 (
 "
-ftp
+http
 :
 /
 /
 localhost
+:
+4
 /
 should
 /
@@ -1345,7 +1347,7 @@ run_next_test
 add_test
 (
 function
-test_PostJSONData
+test_PostTextData
 (
 )
 {
