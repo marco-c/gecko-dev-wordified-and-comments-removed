@@ -248,6 +248,7 @@ replace
 Throws
 ]
 WindowProxy
+?
 open
 (
 DOMString
