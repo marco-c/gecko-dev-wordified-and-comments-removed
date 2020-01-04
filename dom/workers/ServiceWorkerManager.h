@@ -288,6 +288,9 @@ ServiceWorkerInfo
 >
 mInstallingWorker
 ;
+uint64_t
+mLastUpdateCheckTime
+;
 bool
 mPendingUninstall
 ;
@@ -423,6 +426,17 @@ FinishActivate
 bool
 aSuccess
 )
+;
+void
+RefreshLastUpdateCheckTime
+(
+)
+;
+bool
+IsLastUpdateCheckTimeOverOneDay
+(
+)
+const
 ;
 }
 ;

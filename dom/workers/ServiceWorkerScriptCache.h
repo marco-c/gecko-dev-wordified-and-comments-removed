@@ -99,6 +99,9 @@ Release
 nsresult
 Compare
 (
+ServiceWorkerRegistrationInfo
+*
+aRegistration
 nsIPrincipal
 *
 aPrincipal
