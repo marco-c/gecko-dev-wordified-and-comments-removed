@@ -99,12 +99,6 @@ dom
 :
 EncodingUtils
 ;
-static
-char16_t
-sInvalid
-=
-UCS2_REPLACEMENT_CHAR
-;
 nsReadEndCondition
 :
 :
