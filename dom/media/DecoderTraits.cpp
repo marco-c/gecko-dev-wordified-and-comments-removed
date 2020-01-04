@@ -1387,11 +1387,6 @@ EmptyString
 )
 )
 {
-bool
-haveAAC
-haveMP3
-haveH264
-;
 return
 MP4Decoder
 :
@@ -1400,9 +1395,6 @@ CanHandleMediaType
 (
 aType
 aCodecs
-haveAAC
-haveH264
-haveMP3
 )
 ;
 }
