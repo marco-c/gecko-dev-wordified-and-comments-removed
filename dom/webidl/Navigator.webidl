@@ -2968,10 +2968,9 @@ requestMediaKeySystemAccess
 (
 DOMString
 keySystem
-optional
 sequence
 <
-MediaKeySystemOptions
+MediaKeySystemConfiguration
 >
 supportedConfigurations
 )
