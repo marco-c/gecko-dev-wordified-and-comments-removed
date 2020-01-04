@@ -2112,9 +2112,6 @@ aState
 bool
 RenumberLists
 (
-nsPresContext
-*
-aPresContext
 )
 ;
 void

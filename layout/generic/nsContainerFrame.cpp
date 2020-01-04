@@ -8412,9 +8412,6 @@ nsBlockFrame
 :
 RenumberLists
 (
-nsPresContext
-*
-aPresContext
 )
 {
 if
