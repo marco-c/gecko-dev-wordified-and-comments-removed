@@ -12513,7 +12513,7 @@ pki
 .
 sha1_enforcement_level
 "
-2
+0
 )
 ;
 pref
