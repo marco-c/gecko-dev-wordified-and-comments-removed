@@ -1141,7 +1141,7 @@ try
 :
         
 import
-urllib2
+requests
         
 url
 =
@@ -1187,16 +1187,15 @@ url
         
 contents
 =
-json
+requests
 .
-load
-(
-urllib2
-.
-urlopen
+get
 (
 url
 )
+.
+json
+(
 )
         
 pushid
