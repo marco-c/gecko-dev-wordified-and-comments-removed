@@ -493,6 +493,15 @@ if
 winWidget
 1
 )
+asserts
+-
+if
+(
+Android
+0
+-
+1
+)
 load
 464407
 -
@@ -504,6 +513,10 @@ Bug
 450974
 on
 win
+Bug
+1267054
+on
+Android
 load
 467080
 .
