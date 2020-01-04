@@ -328,8 +328,6 @@ state
 let
 oncePrefChanged
 =
-promise
-.
 defer
 (
 )

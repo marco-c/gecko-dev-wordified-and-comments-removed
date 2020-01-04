@@ -362,8 +362,6 @@ val
 let
 oncePrefChanged
 =
-promise
-.
 defer
 (
 )

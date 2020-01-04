@@ -414,8 +414,6 @@ F1
 let
 def
 =
-promise
-.
 defer
 (
 )

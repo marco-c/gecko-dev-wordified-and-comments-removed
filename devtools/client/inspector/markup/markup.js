@@ -233,6 +233,20 @@ promise
 )
 ;
 const
+defer
+=
+require
+(
+"
+devtools
+/
+shared
+/
+defer
+"
+)
+;
+const
 Services
 =
 require
@@ -2192,8 +2206,6 @@ this
 .
 _briefBoxModelPromise
 =
-promise
-.
 defer
 (
 )
@@ -6038,8 +6050,6 @@ reject
 let
 def
 =
-promise
-.
 defer
 (
 )
@@ -6136,8 +6146,6 @@ reject
 let
 def
 =
-promise
-.
 defer
 (
 )

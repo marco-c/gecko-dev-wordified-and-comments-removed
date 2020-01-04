@@ -431,8 +431,6 @@ handled
 let
 def
 =
-promise
-.
 defer
 (
 )
@@ -1167,8 +1165,6 @@ ms
 let
 def
 =
-promise
-.
 defer
 (
 )
@@ -1589,8 +1585,6 @@ promiseNextTick
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1923,8 +1917,6 @@ cleanup
 let
 destroyed
 =
-promise
-.
 defer
 (
 )

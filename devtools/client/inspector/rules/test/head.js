@@ -217,8 +217,6 @@ messageManager
 let
 def
 =
-promise
-.
 defer
 (
 )

@@ -305,8 +305,6 @@ inspector
 let
 def
 =
-promise
-.
 defer
 (
 )

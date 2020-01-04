@@ -2201,8 +2201,6 @@ mutation
 let
 def
 =
-promise
-.
 defer
 (
 )

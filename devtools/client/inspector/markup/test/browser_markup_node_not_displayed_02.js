@@ -786,8 +786,6 @@ event
 let
 onDisplayChanged
 =
-promise
-.
 defer
 (
 )

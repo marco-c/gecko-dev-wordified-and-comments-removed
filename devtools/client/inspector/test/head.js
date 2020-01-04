@@ -1731,8 +1731,6 @@ area
 let
 def
 =
-promise
-.
 defer
 (
 )
@@ -2492,8 +2490,6 @@ handled
 let
 def
 =
-promise
-.
 defer
 (
 )
@@ -2537,8 +2533,6 @@ href
 let
 def
 =
-promise
-.
 defer
 (
 )
@@ -2774,8 +2768,6 @@ expected
 let
 def
 =
-promise
-.
 defer
 (
 )

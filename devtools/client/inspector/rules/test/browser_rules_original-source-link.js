@@ -309,8 +309,6 @@ toolbox
 let
 def
 =
-promise
-.
 defer
 (
 )

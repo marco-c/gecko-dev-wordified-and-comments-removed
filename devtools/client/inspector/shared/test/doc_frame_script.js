@@ -65,12 +65,16 @@ logic
 )
 ;
 var
-promise
+defer
 =
 require
 (
 "
-promise
+devtools
+/
+shared
+/
+defer
 "
 )
 ;
@@ -516,8 +520,6 @@ untitled
 let
 def
 =
-promise
-.
 defer
 (
 )
