@@ -1301,9 +1301,6 @@ ErrorResult
 aError
 )
 {
-ErrorResult
-rv
-;
 bool
 allowEval
 =
@@ -1323,12 +1320,12 @@ aWindow
 aExpression
 &
 allowEval
-rv
+aError
 )
 ;
 if
 (
-rv
+aError
 .
 Failed
 (
