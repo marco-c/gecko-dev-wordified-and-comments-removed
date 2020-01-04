@@ -950,7 +950,9 @@ ifeq
 (
 AS
 )
-yasm
+(
+YASM
+)
 )
 ifeq
 (
