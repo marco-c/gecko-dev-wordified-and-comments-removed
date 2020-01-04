@@ -12144,13 +12144,6 @@ Type
 :
 StepStart
 ;
-mStepSyntax
-=
-StepSyntax
-:
-:
-Keyword
-;
 mSteps
 =
 1
@@ -12180,13 +12173,6 @@ Type
 :
 :
 StepEnd
-;
-mStepSyntax
-=
-StepSyntax
-:
-:
-Keyword
 ;
 mSteps
 =

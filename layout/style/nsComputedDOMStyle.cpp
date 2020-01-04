@@ -31403,9 +31403,6 @@ mType
 aTimingFunction
 .
 mSteps
-aTimingFunction
-.
-mStepSyntax
 tmp
 )
 ;

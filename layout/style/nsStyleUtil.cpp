@@ -3147,11 +3147,6 @@ Type
 aType
 uint32_t
 aSteps
-nsTimingFunction
-:
-:
-StepSyntax
-aSyntax
 nsAString
 &
 aResult
