@@ -1074,17 +1074,6 @@ content
 aMetrics
 )
 ;
-MOZ_ASSERT
-(
-nsLayoutUtils
-:
-:
-HasDisplayPort
-(
-content
-)
-)
-;
 SetDisplayPortMargins
 (
 shell
