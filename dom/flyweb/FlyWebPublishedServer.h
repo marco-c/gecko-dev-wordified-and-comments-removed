@@ -165,16 +165,6 @@ mUiUrl
 }
 virtual
 void
-PermissionGranted
-(
-bool
-aGranted
-)
-=
-0
-;
-virtual
-void
 OnFetchResponse
 (
 InternalRequest
