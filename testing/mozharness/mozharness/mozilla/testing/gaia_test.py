@@ -1220,7 +1220,7 @@ self
 proxxy
     
 def
-_retry_download_file
+_retry_download
 (
 self
 url
@@ -1417,11 +1417,17 @@ GaiaTest
 self
 )
 .
-_retry_download_file
+_retry_download
 (
                 
 url
+=
+url
 file_name
+=
+file_name
+error_level
+=
 error_level
 retry_config
 =
