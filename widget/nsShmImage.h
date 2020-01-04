@@ -208,7 +208,13 @@ xcb_gcontext_t
 mGC
 ;
 xcb_void_cookie_t
-mLastRequest
+mPutRequest
+;
+xcb_get_input_focus_cookie_t
+mSyncRequest
+;
+bool
+mRequestPending
 ;
 xcb_shm_seg_t
 mShmSeg
