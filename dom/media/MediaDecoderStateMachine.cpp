@@ -6744,6 +6744,11 @@ Ref
 ;
 if
 (
+IsShutdown
+(
+)
+|
+|
 !
 HasVideo
 (
