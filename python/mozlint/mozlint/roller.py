@@ -573,6 +573,18 @@ or
 '
 ]
         
+paths
+=
+map
+(
+os
+.
+path
+.
+abspath
+paths
+)
+        
 m
 =
 Manager
