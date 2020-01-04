@@ -16809,18 +16809,6 @@ options
 '
 chrome
 '
-and
-(
-not
-mozinfo
-.
-info
-[
-'
-debug
-'
-]
-)
 :
         
 options
