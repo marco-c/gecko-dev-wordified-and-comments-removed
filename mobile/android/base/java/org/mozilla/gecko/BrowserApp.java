@@ -13577,7 +13577,7 @@ panelId
 ;
 mHomePager
 .
-setPanelStateChangelistener
+setPanelStateChangeListener
 (
 new
 HomeFragment
