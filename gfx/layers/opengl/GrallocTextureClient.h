@@ -453,6 +453,17 @@ GetTextureFlags
 const
 override
 ;
+virtual
+GrallocTextureData
+*
+AsGrallocTextureData
+(
+)
+{
+return
+this
+;
+}
 protected
 :
 GrallocTextureData
