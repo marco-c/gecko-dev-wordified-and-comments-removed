@@ -606,6 +606,12 @@ self
 mod_ExecutableAllocator
 =
 None
+        
+self
+.
+mod_IonGraph
+=
+None
 def
 implemented_types
 (
