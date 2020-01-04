@@ -17,7 +17,6 @@ nsIInputStream
 namespace
 mozilla
 {
-MOZ_MUST_USE
 nsresult
 Base64EncodeInputStream
 (
@@ -35,7 +34,6 @@ aOffset
 0
 )
 ;
-MOZ_MUST_USE
 nsresult
 Base64EncodeInputStream
 (
@@ -53,7 +51,6 @@ aOffset
 0
 )
 ;
-MOZ_MUST_USE
 nsresult
 Base64Encode
 (
@@ -69,7 +66,6 @@ char
 aBase64
 )
 ;
-MOZ_MUST_USE
 nsresult
 Base64Encode
 (
@@ -82,7 +78,6 @@ nsACString
 aBase64
 )
 ;
-MOZ_MUST_USE
 nsresult
 Base64Encode
 (
@@ -95,7 +90,6 @@ nsAString
 aBase64
 )
 ;
-MOZ_MUST_USE
 nsresult
 Base64Decode
 (
@@ -108,7 +102,6 @@ nsACString
 aBinary
 )
 ;
-MOZ_MUST_USE
 nsresult
 Base64Decode
 (
@@ -129,7 +122,6 @@ Include
 Omit
 }
 ;
-MOZ_MUST_USE
 nsresult
 Base64URLEncode
 (
@@ -155,7 +147,6 @@ Ignore
 Reject
 }
 ;
-MOZ_MUST_USE
 nsresult
 Base64URLDecode
 (
