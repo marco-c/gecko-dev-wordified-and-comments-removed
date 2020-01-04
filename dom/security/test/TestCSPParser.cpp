@@ -427,7 +427,7 @@ rv
 csp
 -
 >
-GetPolicy
+GetPolicyString
 (
 0
 parsedPolicyStr

@@ -430,6 +430,12 @@ index
 .
 *
 /
+[
+binaryname
+(
+GetPolicyString
+)
+]
 AString
 getPolicy
 (
