@@ -573,6 +573,10 @@ collectCoverage
 (
 )
 )
+{
+if
+(
+!
 script
 -
 >
@@ -580,7 +584,11 @@ initScriptCounts
 (
 cx
 )
+)
+return
+Method_Error
 ;
+}
 AutoEnterAnalysis
 autoEnterAnalysis
 (

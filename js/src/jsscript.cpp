@@ -7983,8 +7983,12 @@ if
 (
 !
 map
-|
-|
+)
+return
+false
+;
+if
+(
 !
 map
 -
@@ -7997,6 +8001,11 @@ init
 js_delete
 (
 map
+)
+;
+ReportOutOfMemory
+(
+cx
 )
 ;
 return
