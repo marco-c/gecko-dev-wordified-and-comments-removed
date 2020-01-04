@@ -105,6 +105,12 @@ EmptyTracks
 )
 override
 ;
+VideoTrack
+*
+GetSelectedTrack
+(
+)
+;
 int32_t
 SelectedIndex
 (
