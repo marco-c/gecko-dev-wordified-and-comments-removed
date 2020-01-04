@@ -1284,6 +1284,9 @@ s
 "
 %
 cc
+[
+0
+]
                   
 "
 -
@@ -1294,6 +1297,49 @@ s
 "
 %
 cxx
+[
+0
+]
+                  
+"
+-
+DCMAKE_C_FLAGS
+=
+%
+s
+"
+%
+'
+'
+.
+join
+(
+cc
+[
+1
+:
+]
+)
+                  
+"
+-
+DCMAKE_CXX_FLAGS
+=
+%
+s
+"
+%
+'
+'
+.
+join
+(
+cxx
+[
+1
+:
+]
+)
                   
 "
 -
@@ -2468,11 +2514,12 @@ is_darwin
         
 extra_cflags
 =
-"
-"
+[
+]
         
 extra_cxxflags
 =
+[
 "
 -
 stdlib
@@ -2481,14 +2528,16 @@ libc
 +
 +
 "
+]
         
 extra_cflags2
 =
-"
-"
+[
+]
         
 extra_cxxflags2
 =
+[
 "
 -
 stdlib
@@ -2497,6 +2546,7 @@ libc
 +
 +
 "
+]
     
 elif
 is_linux
@@ -2506,20 +2556,25 @@ is_linux
         
 extra_cflags
 =
+[
 "
 -
 static
 -
 libgcc
 "
+]
         
 extra_cxxflags
 =
+[
 "
 -
 static
 -
 libgcc
+"
+"
 -
 static
 -
@@ -2527,12 +2582,16 @@ libstdc
 +
 +
 "
+]
         
 extra_cflags2
 =
+[
 "
 -
 fPIC
+"
+"
 -
 -
 gcc
@@ -2544,12 +2603,16 @@ s
 "
 %
 gcc_dir
+]
         
 extra_cxxflags2
 =
+[
 "
 -
 fPIC
+"
+"
 -
 -
 gcc
@@ -2561,6 +2624,7 @@ s
 "
 %
 gcc_dir
+]
         
 if
 os
@@ -2638,43 +2702,37 @@ is_windows
         
 extra_cflags
 =
-"
-"
+[
+]
         
 extra_cxxflags
 =
-"
-"
+[
+]
         
 extra_cflags2
 =
-"
-"
+[
+]
         
 extra_cxxflags2
 =
-"
-"
+[
+]
     
 build_one_stage
 (
         
+[
 cc
+]
 +
-"
-%
-s
-"
-%
 extra_cflags
         
+[
 cxx
+]
 +
-"
-%
-s
-"
-%
 extra_cxxflags
         
 llvm_source_dir
@@ -2717,14 +2775,13 @@ stage2_dir
 build_one_stage
 (
             
+[
 stage1_inst_dir
 +
 "
 /
 bin
 /
-%
-s
 %
 s
 %
@@ -2735,9 +2792,12 @@ s
 (
 cc_name
 exe_ext
-extra_cflags2
 )
+]
++
+extra_cflags2
             
+[
 stage1_inst_dir
 +
 "
@@ -2748,16 +2808,16 @@ bin
 s
 %
 s
-%
-s
 "
 %
                 
 (
 cxx_name
 exe_ext
-extra_cxxflags2
 )
+]
++
+extra_cxxflags2
             
 llvm_source_dir
 stage2_dir
@@ -2790,14 +2850,13 @@ stage3_dir
 build_one_stage
 (
                 
+[
 stage2_inst_dir
 +
 "
 /
 bin
 /
-%
-s
 %
 s
 %
@@ -2808,9 +2867,12 @@ s
 (
 cc_name
 exe_ext
-extra_cflags2
 )
+]
++
+extra_cflags2
                 
+[
 stage2_inst_dir
 +
 "
@@ -2821,16 +2883,16 @@ bin
 s
 %
 s
-%
-s
 "
 %
                     
 (
 cxx_name
 exe_ext
-extra_cxxflags2
 )
+]
++
+extra_cxxflags2
                 
 llvm_source_dir
 stage3_dir
@@ -2871,7 +2933,13 @@ cc
 s
 "
 %
+'
+'
+.
+join
+(
 extra_cflags
+)
              
 "
 CXX
@@ -2884,7 +2952,13 @@ cxx
 s
 "
 %
+'
+'
+.
+join
+(
 extra_cxxflags
+)
 }
             
 final_stage_inst_dir
