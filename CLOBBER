@@ -194,13 +194,6 @@ changes
 any
 more
 .
-Bug
-1219585
--
-fixing
-intermittent
-10
-.
-7
-debug
-failures
+Merge
+day
+clobber
