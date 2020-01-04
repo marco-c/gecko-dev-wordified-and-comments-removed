@@ -105,14 +105,6 @@ glib
 '
             
 '
-gstreamer
--
-plugins
--
-base
-'
-            
-'
 pulseaudio
 '
         

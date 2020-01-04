@@ -103,12 +103,6 @@ glib
 '
             
 '
-gstreamer
--
-plugins
-'
-            
-'
 gtk2
 '
             
