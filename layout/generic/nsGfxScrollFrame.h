@@ -2159,6 +2159,12 @@ HasPerspective
 )
 const
 ;
+uint8_t
+GetScrolledFrameDir
+(
+)
+const
+;
 static
 void
 EnsureFrameVisPrefsCached
