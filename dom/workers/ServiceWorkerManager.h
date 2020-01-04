@@ -1503,9 +1503,6 @@ nsACString
 aMatch
 )
 ;
-#
-ifdef
-DEBUG
 static
 bool
 HasScope
@@ -1519,8 +1516,6 @@ nsACString
 aScope
 )
 ;
-#
-endif
 static
 void
 RemoveScopeAndRegistration
