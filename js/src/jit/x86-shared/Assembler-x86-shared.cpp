@@ -1085,6 +1085,16 @@ heapAccess
 #
 ifdef
 DEBUG
+if
+(
+masm
+.
+oom
+(
+)
+)
+return
+;
 Disassembler
 :
 :
