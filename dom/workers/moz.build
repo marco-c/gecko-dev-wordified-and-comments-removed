@@ -261,11 +261,6 @@ SharedWorker
 h
 '
 '
-URL
-.
-h
-'
-'
 WorkerHolder
 .
 h
@@ -437,11 +432,6 @@ cpp
 '
 '
 SharedWorker
-.
-cpp
-'
-'
-URL
 .
 cpp
 '
