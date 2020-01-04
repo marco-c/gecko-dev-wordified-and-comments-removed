@@ -1484,9 +1484,7 @@ unified
 with
 '
 mach
-build
--
-docs
+doc
 '
 which
 seems
