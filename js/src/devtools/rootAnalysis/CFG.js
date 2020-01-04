@@ -9,6 +9,7 @@ functionBodies
 function
 findAllPoints
 (
+bodies
 blockId
 )
 {
@@ -26,7 +27,7 @@ for
 var
 xbody
 of
-functionBodies
+bodies
 )
 {
 if
@@ -117,6 +118,7 @@ apply
 points
 findAllPoints
 (
+bodies
 edge
 .
 BlockId
@@ -273,6 +275,7 @@ Variable
 function
 allRAIIGuardedCallPoints
 (
+bodies
 body
 isConstructor
 )
@@ -416,6 +419,7 @@ apply
 points
 pointsInRAIIScope
 (
+bodies
 body
 edge
 )
@@ -764,6 +768,7 @@ debugger
 function
 pointsInRAIIScope
 (
+bodies
 body
 constructorEdge
 )
@@ -895,6 +900,7 @@ apply
 points
 findAllPoints
 (
+bodies
 nedge
 .
 BlockId

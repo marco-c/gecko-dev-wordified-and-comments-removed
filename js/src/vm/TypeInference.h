@@ -539,6 +539,7 @@ maybeGroup
 )
 ;
 }
+JS_HAZ_GC_POINTER
 ;
 class
 Type
@@ -911,6 +912,7 @@ data
 ;
 }
 }
+JS_HAZ_GC_POINTER
 ;
 static
 inline
@@ -1872,6 +1874,7 @@ v
 )
 ;
 }
+JS_HAZ_GC_POINTER
 ;
 class
 TypeConstraint
