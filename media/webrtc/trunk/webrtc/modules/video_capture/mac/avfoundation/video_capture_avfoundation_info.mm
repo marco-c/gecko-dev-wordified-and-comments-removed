@@ -184,6 +184,13 @@ alloc
 init
 ]
 ;
+[
+_captureInfo
+registerOwner
+:
+this
+]
+;
 }
 VideoCaptureMacAVFoundationInfo
 :
@@ -195,6 +202,13 @@ VideoCaptureMacAVFoundationInfo
 {
 nsAutoreleasePool
 localPool
+;
+[
+_captureInfo
+registerOwner
+:
+nil
+]
 ;
 [
 _captureInfo

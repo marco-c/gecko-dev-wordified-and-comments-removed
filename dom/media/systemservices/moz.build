@@ -108,6 +108,11 @@ CamerasParent
 h
 '
 '
+DeviceChangeCallback
+.
+h
+'
+'
 LoadManager
 .
 h

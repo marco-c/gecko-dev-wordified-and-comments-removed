@@ -150,6 +150,11 @@ render_time
 )
 ;
 async
+DeviceChange
+(
+)
+;
+async
 ReplyNumberOfCaptureDevices
 (
 int

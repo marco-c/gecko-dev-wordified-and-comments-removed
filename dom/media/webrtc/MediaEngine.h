@@ -56,6 +56,13 @@ VideoStreamTrack
 .
 h
 "
+#
+include
+"
+DeviceChangeCallback
+.
+h
+"
 namespace
 mozilla
 {
@@ -94,6 +101,9 @@ kReleased
 ;
 class
 MediaEngine
+:
+public
+DeviceChangeCallback
 {
 public
 :
