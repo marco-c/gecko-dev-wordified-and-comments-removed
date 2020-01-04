@@ -1225,7 +1225,9 @@ expiry
 =
 isSession
 ?
-0
+Number
+.
+MAX_SAFE_INTEGER
 :
 details
 .
