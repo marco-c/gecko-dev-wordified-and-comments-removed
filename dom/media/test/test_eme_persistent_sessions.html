@@ -628,18 +628,8 @@ navigator
 .
 requestMediaKeySystemAccess
 (
-KEYSYSTEM_TYPE
-[
-{
-initDataTypes
-:
-[
-"
-cenc
-"
-]
-}
-]
+CLEARKEY_KEYSYSTEM
+gCencMediaKeySystemConfig
 )
 ;
 }
@@ -694,6 +684,8 @@ createSession
 (
 "
 persistent
+-
+license
 "
 )
 ;
@@ -910,6 +902,8 @@ createSession
 (
 "
 persistent
+-
+license
 "
 )
 .
@@ -1007,6 +1001,8 @@ sessionType
 :
 "
 persistent
+-
+license
 "
 }
 )
