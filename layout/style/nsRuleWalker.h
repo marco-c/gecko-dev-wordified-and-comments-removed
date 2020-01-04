@@ -239,7 +239,10 @@ mRoot
 void
 SetLevel
 (
-uint8_t
+mozilla
+:
+:
+SheetType
 aLevel
 bool
 aImportance
@@ -286,7 +289,10 @@ mCheckForImportantRules
 aCheckForImportantRules
 ;
 }
-uint8_t
+mozilla
+:
+:
+SheetType
 GetLevel
 (
 )
@@ -344,7 +350,10 @@ nsRuleNode
 *
 mRoot
 ;
-uint8_t
+mozilla
+:
+:
+SheetType
 mLevel
 ;
 bool

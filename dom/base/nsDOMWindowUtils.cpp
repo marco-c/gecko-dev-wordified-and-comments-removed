@@ -14758,7 +14758,7 @@ return
 nsIDocument
 :
 :
-SheetTypeCount
+AdditionalSheetTypeCount
 ;
 }
 }

@@ -25,6 +25,15 @@ h
 #
 include
 "
+mozilla
+/
+SheetType
+.
+h
+"
+#
+include
+"
 nsIPrincipal
 .
 h
@@ -6253,7 +6262,10 @@ mLineNumber
 uint32_t
 mLineOffset
 ;
-uint16_t
+mozilla
+:
+:
+SheetType
 mLevel
 ;
 private

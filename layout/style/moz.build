@@ -535,6 +535,11 @@ RuleProcessorCache
 h
 '
 '
+SheetType
+.
+h
+'
+'
 StyleAnimationValue
 .
 h

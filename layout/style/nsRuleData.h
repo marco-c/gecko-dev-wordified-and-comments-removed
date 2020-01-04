@@ -25,6 +25,15 @@ h
 #
 include
 "
+mozilla
+/
+SheetType
+.
+h
+"
+#
+include
+"
 nsCSSProps
 .
 h
@@ -83,7 +92,10 @@ mConditions
 bool
 mIsImportantRule
 ;
-uint16_t
+mozilla
+:
+:
+SheetType
 mLevel
 ;
 nsPresContext

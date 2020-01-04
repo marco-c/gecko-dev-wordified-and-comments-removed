@@ -14310,10 +14310,10 @@ eCSSProperty_UNKNOWN
 )
 mLevel
 (
-nsStyleSet
+SheetType
 :
 :
-eSheetTypeCount
+Count
 )
 {
 MOZ_COUNT_CTOR
