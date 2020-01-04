@@ -80,7 +80,6 @@ static
 Thread
 sMainThread
 ;
-WrapForJNI
 private
 static
 native
