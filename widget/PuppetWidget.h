@@ -1272,6 +1272,9 @@ mDrawTarget
 nsIMEUpdatePreference
 mIMEPreferenceOfParent
 ;
+InputContext
+mInputContext
+;
 ContentCacheInChild
 mContentCache
 ;
