@@ -1687,9 +1687,11 @@ try
 {
 json
 =
-JSON
+this
 .
-stringify
+context
+.
+jsonStringify
 (
 msg
 )
