@@ -3587,6 +3587,14 @@ gfxInfo
 .
 D2DEnabled
 ;
+sandbox
+.
+dwrite
+=
+gfxInfo
+.
+DWriteEnabled
+;
 }
 catch
 (
@@ -3596,6 +3604,12 @@ e
 sandbox
 .
 d2d
+=
+false
+;
+sandbox
+.
+dwrite
 =
 false
 ;
