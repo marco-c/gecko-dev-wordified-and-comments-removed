@@ -2634,7 +2634,7 @@ NS_ERROR_FAILURE
 EventMessage
 eventMessage
 =
-NS_COPY
+eCopy
 ;
 if
 (

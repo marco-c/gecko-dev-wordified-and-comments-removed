@@ -422,7 +422,7 @@ NS_CUT
 aEventMessage
 =
 =
-NS_COPY
+eCopy
 |
 |
 aEventMessage
@@ -2399,7 +2399,7 @@ NS_CUT
 mEventMessage
 =
 =
-NS_COPY
+eCopy
 |
 |
 mEventMessage
@@ -2606,7 +2606,7 @@ NS_CUT
 mEventMessage
 =
 =
-NS_COPY
+eCopy
 |
 |
 mEventMessage
@@ -3165,7 +3165,7 @@ NS_CUT
 mEventMessage
 =
 =
-NS_COPY
+eCopy
 |
 |
 mEventMessage
@@ -3394,7 +3394,7 @@ NS_CUT
 mEventMessage
 =
 =
-NS_COPY
+eCopy
 |
 |
 mEventMessage
@@ -3474,7 +3474,7 @@ NS_CUT
 mEventMessage
 !
 =
-NS_COPY
+eCopy
 &
 &
 mEventMessage
@@ -5990,7 +5990,7 @@ NS_CUT
 mEventMessage
 !
 =
-NS_COPY
+eCopy
 "
 clipboard
 event

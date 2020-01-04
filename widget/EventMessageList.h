@@ -786,7 +786,7 @@ eClipboardEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_COPY
+eCopy
 eClipboardEventFirst
 )
 NS_EVENT_MESSAGE
