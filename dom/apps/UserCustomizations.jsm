@@ -785,12 +785,6 @@ function
 (
 )
 {
-AppsUtils
-.
-allowUnsignedAddons
-=
-true
-;
 this
 .
 _enabled
