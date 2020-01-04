@@ -6481,11 +6481,13 @@ rhs
 name_
 &
 &
+*
 lhs
 .
 sig_
 =
 =
+*
 rhs
 .
 sig_
