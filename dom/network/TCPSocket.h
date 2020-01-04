@@ -785,6 +785,15 @@ nsIInputStream
 >
 mPendingDataAfterStartTLS
 ;
+nsTArray
+<
+nsCOMPtr
+<
+nsIInputStream
+>
+>
+mPendingDataWhileCopierActive
+;
 bool
 mObserversActive
 ;
