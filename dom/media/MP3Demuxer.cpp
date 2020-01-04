@@ -2866,12 +2866,6 @@ Remaining
 )
 )
 ;
-reader
-.
-DiscardRemaining
-(
-)
-;
 if
 (
 foundFrame
@@ -3500,12 +3494,6 @@ ParseVBRHeader
 (
 &
 reader
-)
-;
-reader
-.
-DiscardRemaining
-(
 )
 ;
 mFirstFrameOffset

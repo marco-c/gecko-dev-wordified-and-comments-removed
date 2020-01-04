@@ -337,7 +337,7 @@ Length
 )
 {
 }
-AutoByteReader
+ByteReader
 *
 operator
 -
@@ -358,7 +358,7 @@ uint8_t
 >
 mBuffer
 ;
-AutoByteReader
+ByteReader
 mReader
 ;
 }

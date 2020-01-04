@@ -2198,12 +2198,6 @@ size
 )
 ;
 }
-reader
-.
-DiscardRemaining
-(
-)
-;
 }
 bool
 StartWithInitSegment
