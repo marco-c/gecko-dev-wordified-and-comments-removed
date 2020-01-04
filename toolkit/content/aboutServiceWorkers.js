@@ -883,7 +883,7 @@ pushService
 {
 pushService
 .
-getRegistration
+getSubscription
 (
 info
 .
