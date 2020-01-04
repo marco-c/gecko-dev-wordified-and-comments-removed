@@ -830,16 +830,6 @@ access
 )
 const
 ;
-size_t
-foldableOffsetRange
-(
-bool
-accessNeedsBoundsCheck
-bool
-atomic
-)
-const
-;
 private
 :
 GraphSpewer
