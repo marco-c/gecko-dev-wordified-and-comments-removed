@@ -191,11 +191,12 @@ stopPropagation
 let
 def
 =
-function
 (
 aThreshold
 aLatched
 )
+=
+>
 (
 {
 threshold

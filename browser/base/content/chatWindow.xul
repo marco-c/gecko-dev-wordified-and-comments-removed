@@ -1081,12 +1081,16 @@ function
 (
 aWindow
 )
+{
+return
 this
 .
 contentWindow
 =
 =
 aWindow
+;
+}
 }
 ;
 <
