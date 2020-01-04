@@ -129,6 +129,17 @@ string
 /
 pref_category_home_homepage
 "
+android
+:
+key
+=
+"
+android
+.
+not_a_preference
+.
+category_homepage
+"
 >
 <
 org
