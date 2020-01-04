@@ -3443,6 +3443,9 @@ JS
 AutoCheckCannotGC
 nogc
 ;
+bool
+isShared
+;
 if
 (
 bufferLength
@@ -3471,8 +3474,16 @@ char
 JS_GetArrayBufferData
 (
 buffer
+&
+isShared
 nogc
 )
+)
+;
+MOZ_ASSERT
+(
+!
+isShared
 )
 ;
 if
