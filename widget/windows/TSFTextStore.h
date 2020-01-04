@@ -1200,7 +1200,7 @@ nsWindowBase
 aWidget
 )
 ;
-bool
+void
 Destroy
 (
 )
@@ -3276,6 +3276,9 @@ mDeferCancellingComposition
 ;
 bool
 mDestroyed
+;
+bool
+mBeingDestroyed
 ;
 static
 StaticRefPtr
