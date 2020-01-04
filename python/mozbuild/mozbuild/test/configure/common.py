@@ -659,6 +659,12 @@ subprocess
 .
 PIPE
                 
+STDOUT
+=
+subprocess
+.
+STDOUT
+                
 Popen
 =
 self
@@ -867,6 +873,9 @@ check_output
 (
 self
 args
+*
+*
+kwargs
 )
 :
         
@@ -877,6 +886,9 @@ self
 Popen
 (
 args
+*
+*
+kwargs
 )
         
 stdout
