@@ -3495,10 +3495,15 @@ frameworks
 /
 native
 "
+remote
+=
+"
+b2g
+"
 revision
 =
 "
-c39bd4ee1f4b3ef92bf7a45824b77703f40a5fd4
+77c23f8067bca84476f96d663efaae636817edd5
 "
 /
 >
