@@ -36,7 +36,13 @@ PR_TRUNCATE
 const
 RW_OWNER
 =
+parseInt
+(
+"
 0600
+"
+8
+)
 ;
 const
 STACK_SUFFIX1
