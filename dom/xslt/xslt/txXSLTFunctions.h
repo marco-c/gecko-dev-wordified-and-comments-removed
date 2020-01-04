@@ -46,9 +46,8 @@ public
 explicit
 DocumentFunctionCall
 (
-const
-nsAString
-&
+nsIURI
+*
 aBaseURI
 )
 ;
