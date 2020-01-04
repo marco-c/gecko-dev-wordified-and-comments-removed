@@ -605,6 +605,11 @@ any
 link
 "
 )
+!
+=
+=
+-
+1
 )
 "
 There
@@ -645,6 +650,11 @@ indexOf
 link
 "
 )
+!
+=
+=
+-
+1
 )
 "
 There
