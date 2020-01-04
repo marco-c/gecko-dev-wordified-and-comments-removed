@@ -76,13 +76,6 @@ details
 js
 '
 '
-marker
--
-view
-.
-js
-'
-'
 markers
 -
 overview
@@ -93,13 +86,6 @@ js
 tree
 -
 view
-.
-js
-'
-'
-waterfall
--
-ticks
 .
 js
 '
