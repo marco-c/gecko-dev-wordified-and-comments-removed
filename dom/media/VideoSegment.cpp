@@ -214,6 +214,10 @@ LayerManager
 :
 CreateImageContainer
 (
+ImageContainer
+:
+:
+ASYNCHRONOUS
 )
 ;
 RefPtr

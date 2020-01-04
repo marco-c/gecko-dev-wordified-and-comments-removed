@@ -10611,6 +10611,10 @@ LayerManager
 :
 CreateImageContainer
 (
+ImageContainer
+:
+:
+ASYNCHRONOUS
 )
 ;
 #
