@@ -449,10 +449,14 @@ optional
 DOMString
 ?
 user
+=
+null
 optional
 DOMString
 ?
 password
+=
+null
 )
 ;
 [
