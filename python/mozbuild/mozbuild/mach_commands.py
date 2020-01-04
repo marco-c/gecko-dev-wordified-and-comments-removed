@@ -2006,6 +2006,16 @@ directory
 :
 ]
             
+status
+=
+None
+            
+monitor
+.
+start_resource_recording
+(
+)
+            
 if
 what
 :
@@ -2533,12 +2543,6 @@ client
 mk
 .
 "
-)
-                
-monitor
-.
-start_resource_recording
-(
 )
                 
 status
