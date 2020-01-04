@@ -910,6 +910,16 @@ GetColorLayersInfo
 (
 uint32_t
 aGlyphId
+const
+mozilla
+:
+:
+gfx
+:
+:
+Color
+&
+aDefaultColor
 nsTArray
 <
 uint16_t
