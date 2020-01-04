@@ -908,8 +908,12 @@ py_action
 preprocessor
 \
 -
-I
+DBOOKMARKS_INCLUDE_DIR
+=
+(
 <
+D
+)
 \
 -
 DAB_CD
