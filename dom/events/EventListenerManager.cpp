@@ -5986,13 +5986,13 @@ if
 aEvent
 -
 >
-currentTarget
+mCurrentTarget
 )
 {
 aEvent
 -
 >
-currentTarget
+mCurrentTarget
 =
 aCurrentTarget
 -
@@ -6007,7 +6007,7 @@ if
 aEvent
 -
 >
-currentTarget
+mCurrentTarget
 )
 {
 break
@@ -6271,7 +6271,7 @@ true
 aEvent
 -
 >
-currentTarget
+mCurrentTarget
 =
 nullptr
 ;

@@ -1212,7 +1212,7 @@ do_QueryInterface
 mEvent
 -
 >
-currentTarget
+mCurrentTarget
 )
 ;
 nsIContent

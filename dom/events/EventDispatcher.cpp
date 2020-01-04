@@ -1196,7 +1196,7 @@ aVisitor
 mEvent
 -
 >
-currentTarget
+mCurrentTarget
 =
 =
 nullptr
@@ -1240,7 +1240,7 @@ aVisitor
 mEvent
 -
 >
-currentTarget
+mCurrentTarget
 =
 =
 nullptr

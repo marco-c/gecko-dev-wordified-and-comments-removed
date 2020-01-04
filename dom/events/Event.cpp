@@ -562,7 +562,7 @@ tmp
 mEvent
 -
 >
-currentTarget
+mCurrentTarget
 =
 nullptr
 ;
@@ -761,7 +761,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 mEvent
 -
 >
-currentTarget
+mCurrentTarget
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -1325,7 +1325,7 @@ GetDOMEventTarget
 mEvent
 -
 >
-currentTarget
+mCurrentTarget
 )
 ;
 }
@@ -1870,13 +1870,13 @@ if
 mEvent
 -
 >
-currentTarget
+mCurrentTarget
 &
 &
 mEvent
 -
 >
-currentTarget
+mCurrentTarget
 =
 =
 mEvent
@@ -2235,7 +2235,7 @@ do_QueryInterface
 mEvent
 -
 >
-currentTarget
+mCurrentTarget
 )
 ;
 if
@@ -2255,7 +2255,7 @@ do_QueryInterface
 mEvent
 -
 >
-currentTarget
+mCurrentTarget
 )
 ;
 if

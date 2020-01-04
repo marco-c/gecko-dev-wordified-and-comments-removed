@@ -864,7 +864,7 @@ dom
 :
 EventTarget
 >
-currentTarget
+mCurrentTarget
 ;
 nsCOMPtr
 <
@@ -913,13 +913,13 @@ mTarget
 :
 nullptr
 ;
-currentTarget
+mCurrentTarget
 =
 aCopyTargets
 ?
 aEvent
 .
-currentTarget
+mCurrentTarget
 :
 nullptr
 ;
