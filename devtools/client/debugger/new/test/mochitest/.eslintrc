@@ -241,6 +241,11 @@ assertHighlightLocation
 :
 false
 "
+createDebuggerContext
+"
+:
+false
+"
 initDebugger
 "
 :
@@ -262,6 +267,11 @@ findElement
 false
 "
 findAllElements
+"
+:
+false
+"
+openNewTabAndToolbox
 "
 :
 false
