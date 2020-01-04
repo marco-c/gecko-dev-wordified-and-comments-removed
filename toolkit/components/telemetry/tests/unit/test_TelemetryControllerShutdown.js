@@ -277,14 +277,16 @@ add_task
 (
 function
 *
-test_sendTimeout
+test_sendTelemetryShutsDownWithinReasonableTimeout
 (
 )
 {
 const
-TIMEOUT
+CRASH_TIMEOUT_MS
 =
-100
+5
+*
+1000
 ;
 Services
 .
@@ -315,7 +317,7 @@ asyncshutdown
 .
 crash_timeout
 "
-TIMEOUT
+CRASH_TIMEOUT_MS
 )
 ;
 let
@@ -347,7 +349,7 @@ start
 yield
 TelemetryController
 .
-setup
+testSetup
 (
 )
 ;
