@@ -410,7 +410,7 @@ PresContext
 )
 )
 ;
-Redraw
+XULRedraw
 (
 state
 )

@@ -2162,7 +2162,7 @@ IsEqualInterior
 thumbRect
 )
 )
-Redraw
+XULRedraw
 (
 aState
 )
