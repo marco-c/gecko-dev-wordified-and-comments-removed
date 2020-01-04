@@ -10,13 +10,6 @@ background
 testhelpers
 ;
 import
-java
-.
-math
-.
-BigInteger
-;
-import
 org
 .
 mozilla
@@ -28,6 +21,13 @@ sync
 jpake
 .
 JPakeNumGenerator
+;
+import
+java
+.
+math
+.
+BigInteger
 ;
 public
 class

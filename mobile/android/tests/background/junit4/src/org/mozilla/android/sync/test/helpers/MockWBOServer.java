@@ -12,13 +12,6 @@ test
 helpers
 ;
 import
-java
-.
-util
-.
-HashMap
-;
-import
 org
 .
 simpleframework
@@ -44,6 +37,13 @@ simpleframework
 http
 .
 Response
+;
+import
+java
+.
+util
+.
+HashMap
 ;
 public
 class

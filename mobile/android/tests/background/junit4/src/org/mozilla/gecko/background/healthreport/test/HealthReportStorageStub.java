@@ -12,13 +12,6 @@ healthreport
 test
 ;
 import
-org
-.
-json
-.
-JSONObject
-;
-import
 android
 .
 database
@@ -31,6 +24,13 @@ android
 util
 .
 SparseArray
+;
+import
+org
+.
+json
+.
+JSONObject
 ;
 import
 org

@@ -10,13 +10,6 @@ background
 testhelpers
 ;
 import
-java
-.
-net
-.
-URI
-;
-import
 org
 .
 mozilla
@@ -54,6 +47,13 @@ stage
 GlobalSyncStage
 .
 Stage
+;
+import
+java
+.
+net
+.
+URI
 ;
 public
 class
