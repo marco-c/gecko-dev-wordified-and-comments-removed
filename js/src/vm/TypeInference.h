@@ -192,8 +192,6 @@ TYPE_FLAG_DOUBLE
 TYPE_FLAG_STRING
 |
 TYPE_FLAG_SYMBOL
-|
-TYPE_FLAG_LAZYARGS
 TYPE_FLAG_OBJECT_COUNT_MASK
 =
 0x3e00
@@ -1637,14 +1635,6 @@ const
 ;
 bool
 objectsAreSubset
-(
-TypeSet
-*
-other
-)
-;
-bool
-primitivesAreSubset
 (
 TypeSet
 *
