@@ -113,9 +113,10 @@ aWin
 ;
 executeSoon
 (
-function
 (
 )
+=
+>
 aCallback
 (
 aWin

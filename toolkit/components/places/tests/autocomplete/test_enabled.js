@@ -58,9 +58,10 @@ url
 "
 [
 ]
-function
 (
 )
+=
+>
 setSearch
 (
 0
@@ -80,9 +81,10 @@ url
 [
 0
 ]
-function
 (
 )
+=
+>
 setSearch
 (
 1

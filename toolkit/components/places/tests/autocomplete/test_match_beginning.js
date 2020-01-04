@@ -73,9 +73,10 @@ a
 [
 0
 ]
-function
 (
 )
+=
+>
 setBehavior
 (
 3
@@ -154,9 +155,10 @@ a
 0
 1
 ]
-function
 (
 )
+=
+>
 setBehavior
 (
 1

@@ -715,9 +715,10 @@ erroneous
 {
 do_check_throws
 (
-function
 (
 )
+=
+>
 cps
 .
 removeAllDomainsSince
