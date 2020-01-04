@@ -1317,6 +1317,9 @@ compositables
 [
 i
 ]
+"
+ImageBridge
+"
 )
 ;
 }
@@ -1367,6 +1370,9 @@ textures
 [
 i
 ]
+"
+ImageBridge
+"
 )
 ;
 }

@@ -546,6 +546,11 @@ ForceIPDLActorShutdown
 PCompositableChild
 *
 aActor
+const
+char
+*
+const
+aProtocolName
 )
 ;
 void
