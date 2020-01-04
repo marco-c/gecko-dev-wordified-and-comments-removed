@@ -1873,7 +1873,7 @@ array
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_eq
@@ -2174,7 +2174,7 @@ address
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -2194,7 +2194,7 @@ readString
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_eq
@@ -2433,7 +2433,7 @@ toString
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -2453,7 +2453,7 @@ toSource
 )
 ;
 }
-TypeError
+Error
 )
 ;
 let
@@ -4516,7 +4516,7 @@ toString
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -4536,7 +4536,7 @@ toSource
 )
 ;
 }
-TypeError
+Error
 )
 ;
 let
@@ -7270,7 +7270,7 @@ address
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -7288,7 +7288,7 @@ readString
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_eq
@@ -12030,7 +12030,7 @@ f
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_class
@@ -12285,7 +12285,7 @@ f
 (
 )
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -12303,7 +12303,7 @@ f
 (
 )
 }
-TypeError
+Error
 )
 ;
 }
@@ -12347,7 +12347,7 @@ p
 ]
 ;
 }
-TypeError
+Error
 )
 ;
 if
