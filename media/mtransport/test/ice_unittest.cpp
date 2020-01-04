@@ -94,7 +94,7 @@ h
 #
 include
 "
-nricectx
+nricectxhandler
 .
 h
 "
@@ -2180,7 +2180,7 @@ name
 )
 ice_ctx_
 (
-NrIceCtx
+NrIceCtxHandler
 :
 :
 Create
@@ -7728,7 +7728,7 @@ name_
 ;
 RefPtr
 <
-NrIceCtx
+NrIceCtxHandler
 >
 ice_ctx_
 ;
@@ -10824,7 +10824,7 @@ SetUp
 ;
 ice_ctx_
 =
-NrIceCtx
+NrIceCtxHandler
 :
 :
 Create
@@ -11464,7 +11464,7 @@ tcp_filter_
 ;
 RefPtr
 <
-NrIceCtx
+NrIceCtxHandler
 >
 ice_ctx_
 ;

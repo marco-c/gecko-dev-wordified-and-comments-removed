@@ -1694,7 +1694,7 @@ false
 endif
 mIceCtx
 =
-NrIceCtx
+NrIceCtxHandler
 :
 :
 Create

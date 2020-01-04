@@ -100,7 +100,7 @@ h
 #
 include
 "
-nricectx
+nricectxhandler
 .
 h
 "
@@ -1877,7 +1877,7 @@ Generate
 )
 ice_ctx_
 (
-NrIceCtx
+NrIceCtxHandler
 :
 :
 Create
@@ -3783,7 +3783,7 @@ identity_
 ;
 RefPtr
 <
-NrIceCtx
+NrIceCtxHandler
 >
 ice_ctx_
 ;

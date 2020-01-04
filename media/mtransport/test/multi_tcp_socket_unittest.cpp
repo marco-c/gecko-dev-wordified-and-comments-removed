@@ -96,7 +96,7 @@ h
 #
 include
 "
-nricectx
+nricectxhandler
 .
 h
 "
@@ -176,7 +176,7 @@ SetUp
 ;
 ice_ctx_
 =
-NrIceCtx
+NrIceCtxHandler
 :
 :
 Create

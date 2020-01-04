@@ -189,7 +189,7 @@ h
 #
 include
 "
-nricectx
+nricectxhandler
 .
 h
 "
@@ -279,7 +279,7 @@ SetUpTestCase
 NrIceCtx
 :
 :
-Init
+InitializeCryptoAndLogging
 (
 false
 false
