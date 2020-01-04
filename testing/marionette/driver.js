@@ -8697,6 +8697,7 @@ i
 {
 if
 (
+new
 XPCNativeWrapper
 (
 frames
@@ -8706,6 +8707,7 @@ i
 )
 =
 =
+new
 XPCNativeWrapper
 (
 wantedFrame
