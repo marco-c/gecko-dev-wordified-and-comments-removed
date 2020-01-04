@@ -294,6 +294,11 @@ _
 IsRegExpObject
 )
 \
+_
+(
+RegExpPrototypeOptimizable
+)
+\
 \
 _
 (

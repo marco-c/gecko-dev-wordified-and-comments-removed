@@ -1112,6 +1112,14 @@ ins
 )
 ;
 void
+visitRegExpPrototypeOptimizable
+(
+MRegExpPrototypeOptimizable
+*
+ins
+)
+;
+void
 visitRegExpReplace
 (
 MRegExpReplace

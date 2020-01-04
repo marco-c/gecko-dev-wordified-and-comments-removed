@@ -779,6 +779,15 @@ eval
 \
 macro
 (
+exec
+exec
+"
+exec
+"
+)
+\
+macro
+(
 false
 false_
 "
