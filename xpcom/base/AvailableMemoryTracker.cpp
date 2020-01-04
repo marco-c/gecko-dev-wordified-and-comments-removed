@@ -1231,6 +1231,7 @@ aData
 bool
 aAnonymize
 )
+override
 {
 nsresult
 rv
