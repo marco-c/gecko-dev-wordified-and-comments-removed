@@ -4308,11 +4308,6 @@ cx
 ;
 if
 (
-iid
-)
-{
-if
-(
 Interface
 )
 iface
@@ -4353,7 +4348,6 @@ Interface
 =
 iface
 ;
-}
 }
 RefPtr
 <
