@@ -3662,9 +3662,11 @@ output
 StreamTime
 offset
 =
-GraphTimeToStreamTimeWithBlocking
-(
 aStream
+-
+>
+GraphTimeToStreamTime
+(
 mProcessedTime
 )
 ;
