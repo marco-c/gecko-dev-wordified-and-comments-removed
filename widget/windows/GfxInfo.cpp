@@ -4547,7 +4547,7 @@ V
 IMPLEMENT_INTEL_DRIVER_BLOCKLIST_D2D
 (
 DRIVER_OS_WINDOWS_VISTA
-IntelHDGraphicsToIvyBridge
+IntelHDGraphicsToSandyBridge
 V
 (
 8
@@ -4622,7 +4622,7 @@ V
 IMPLEMENT_INTEL_DRIVER_BLOCKLIST_D2D
 (
 DRIVER_OS_WINDOWS_7
-IntelHDGraphicsToIvyBridge
+IntelHDGraphicsToSandyBridge
 V
 (
 8
@@ -4753,7 +4753,7 @@ V
 IMPLEMENT_INTEL_DRIVER_BLOCKLIST
 (
 DRIVER_OS_WINDOWS_XP
-IntelHDGraphicsToIvyBridge
+IntelHDGraphicsToSandyBridge
 V
 (
 6
@@ -4906,7 +4906,7 @@ V
 IMPLEMENT_INTEL_DRIVER_BLOCKLIST
 (
 DRIVER_OS_WINDOWS_VISTA
-IntelHDGraphicsToIvyBridge
+IntelHDGraphicsToSandyBridge
 V
 (
 7
@@ -4994,7 +4994,7 @@ V
 IMPLEMENT_INTEL_DRIVER_BLOCKLIST
 (
 DRIVER_OS_WINDOWS_7
-IntelHDGraphicsToIvyBridge
+IntelHDGraphicsToSandyBridge
 V
 (
 7
@@ -5079,7 +5079,7 @@ GfxDriverInfo
 :
 GetDeviceFamily
 (
-IntelHDGraphicsToIvyBridge
+IntelHDGraphicsToSandyBridge
 )
 GfxDriverInfo
 :

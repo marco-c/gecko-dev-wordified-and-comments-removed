@@ -706,7 +706,7 @@ APPEND_DEVICE
 break
 ;
 case
-IntelHDGraphicsToIvyBridge
+IntelHDGraphicsToSandyBridge
 :
 APPEND_DEVICE
 (
@@ -751,11 +751,6 @@ APPEND_DEVICE
 APPEND_DEVICE
 (
 0x010a
-)
-;
-APPEND_DEVICE
-(
-0x0080
 )
 ;
 break
