@@ -29175,6 +29175,9 @@ push
 retPhi
 )
 ;
+if
+(
+!
 returnBlock
 -
 >
@@ -29184,6 +29187,9 @@ alloc
 (
 )
 )
+)
+return
+false
 ;
 uint32_t
 count

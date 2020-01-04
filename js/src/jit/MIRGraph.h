@@ -129,6 +129,7 @@ Kind
 kind
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 init
 (
@@ -142,6 +143,7 @@ MBasicBlock
 from
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 inherit
 (
@@ -162,6 +164,7 @@ stackPhiCount
 0
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 inheritResumePoint
 (
@@ -512,6 +515,7 @@ argumentsObject
 (
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 increaseSlots
 (
@@ -519,6 +523,7 @@ size_t
 num
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 ensureHasSlots
 (
@@ -543,6 +548,7 @@ int
 discardDepth
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 linkOsrValues
 (
@@ -730,6 +736,7 @@ resume
 )
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 bool
 addPredecessor
 (
@@ -741,6 +748,7 @@ MBasicBlock
 pred
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 addPredecessorPopN
 (
@@ -765,6 +773,7 @@ MBasicBlock
 existingPred
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 addPredecessorWithoutPhis
 (
@@ -781,6 +790,7 @@ MBasicBlock
 parent
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 initEntrySlots
 (
@@ -833,6 +843,7 @@ clearDominatorInfo
 (
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 AbortReason
 setBackedge
 (
@@ -841,6 +852,7 @@ MBasicBlock
 block
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 setBackedgeAsmJS
 (
@@ -870,6 +882,7 @@ MBasicBlock
 header
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 inheritPhisFromBackedge
 (
@@ -881,6 +894,7 @@ bool
 hadTypeChange
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 specializePhis
 (
@@ -2828,6 +2842,7 @@ return
 returnAccumulator_
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 bool
 addReturn
 (

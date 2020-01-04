@@ -84,6 +84,7 @@ length_
 )
 {
 }
+MOZ_WARN_UNUSED_RESULT
 bool
 init
 (
@@ -193,6 +194,7 @@ length_
 num
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 bool
 growBy
 (
