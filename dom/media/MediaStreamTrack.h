@@ -397,6 +397,13 @@ MediaStreamTrackSource
 :
 Sink
 {
+friend
+class
+mozilla
+:
+:
+DOMMediaStream
+;
 public
 :
 MediaStreamTrack
