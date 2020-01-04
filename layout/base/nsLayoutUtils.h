@@ -5669,6 +5669,15 @@ aTopFrame
 nullptr
 )
 ;
+static
+CSSPoint
+GetCumulativeApzCallbackTransform
+(
+nsIFrame
+*
+aFrame
+)
+;
 private
 :
 static
