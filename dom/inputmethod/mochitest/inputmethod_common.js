@@ -91,6 +91,9 @@ permissions
 [
 '
 input
+'
+'
+input
 -
 manage
 '
@@ -154,16 +157,6 @@ dom
 mozInputMethod
 .
 enabled
-'
-true
-]
-[
-'
-dom
-.
-mozInputMethod
-.
-testing
 '
 true
 ]
