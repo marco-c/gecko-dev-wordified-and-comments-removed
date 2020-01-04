@@ -31,11 +31,7 @@ test
 -
 suite
 =
-{
-{
-suite
-}
-}
+cppunittest
 metadata
 :
 name
@@ -62,6 +58,9 @@ extra
 suite
 :
 name
+:
+cppunittest
+flavor
 :
 cppunittest
 treeherder
