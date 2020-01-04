@@ -2030,16 +2030,6 @@ if
 collection
 )
 {
-EffectCompositor
-:
-:
-UpdateCascadeResults
-(
-aElement
-pseudoType
-newStyleContext
-)
-;
 collection
 -
 >
