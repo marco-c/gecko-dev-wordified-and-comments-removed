@@ -196,6 +196,7 @@ aInterfaceName
 aMtu
 )
 {
+return
 runEmulatorShellCmdSafe
 (
 [
@@ -342,7 +343,6 @@ then
 aNetworkInfo
 =
 >
-{
 verifyMtu
 (
 aNetworkInfo
@@ -350,8 +350,6 @@ aNetworkInfo
 name
 TEST_MTU1
 )
-;
-}
 )
 .
 then
@@ -408,7 +406,6 @@ then
 aNetworkInfo
 =
 >
-{
 verifyMtu
 (
 aNetworkInfo
@@ -416,8 +413,6 @@ aNetworkInfo
 name
 TEST_MTU2
 )
-;
-}
 )
 .
 then
