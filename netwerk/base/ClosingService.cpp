@@ -432,6 +432,9 @@ PRFileDesc
 aFd
 )
 {
+return
+NS_OK
+;
 if
 (
 !
