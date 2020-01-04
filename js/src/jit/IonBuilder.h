@@ -3588,7 +3588,7 @@ bool
 jsop_newarray
 (
 uint32_t
-count
+length
 )
 ;
 bool

@@ -4546,7 +4546,7 @@ isNewArray
 )
 ;
 uint32_t
-count
+length
 =
 ins
 -
@@ -4556,7 +4556,7 @@ toNewArray
 )
 -
 >
-count
+length
 (
 )
 ;
@@ -4650,7 +4650,7 @@ true
 }
 if
 (
-count
+length
 >
 =
 16
@@ -4819,7 +4819,7 @@ if
 IsElementEscaped
 (
 elem
-count
+length
 )
 )
 {
