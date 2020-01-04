@@ -888,7 +888,7 @@ eMediaEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_SUSPEND
+eSuspend
 eMediaEventFirst
 +
 2
