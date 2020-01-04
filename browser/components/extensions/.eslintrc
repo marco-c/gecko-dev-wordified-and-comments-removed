@@ -28,11 +28,6 @@ globals
 :
 {
 "
-AllWindowEvents
-"
-:
-true
-"
 currentWindow
 "
 :
@@ -48,12 +43,12 @@ IconDetails
 :
 true
 "
-makeWidgetId
+openPanel
 "
 :
 true
 "
-PanelPopup
+makeWidgetId
 "
 :
 true
@@ -63,7 +58,7 @@ TabContext
 :
 true
 "
-ViewPopup
+AllWindowEvents
 "
 :
 true

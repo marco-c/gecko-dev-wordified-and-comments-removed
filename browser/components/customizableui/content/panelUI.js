@@ -1557,12 +1557,6 @@ evt
 defaultPrevented
 )
 {
-aAnchor
-.
-open
-=
-false
-;
 return
 ;
 }
