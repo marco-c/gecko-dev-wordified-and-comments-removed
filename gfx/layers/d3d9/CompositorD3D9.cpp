@@ -3484,6 +3484,14 @@ _42
 .
 0f
 ;
+viewMatrix
+.
+_33
+=
+0
+.
+0f
+;
 HRESULT
 hr
 =
