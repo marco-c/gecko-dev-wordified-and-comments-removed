@@ -3339,11 +3339,11 @@ gBrowser
 .
 addTab
 (
-'
+"
 about
 :
 blank
-'
+"
 )
 ;
 let
@@ -3376,6 +3376,7 @@ stop
 (
 )
 ;
+void
 newBrowser
 .
 docShell
