@@ -10501,6 +10501,13 @@ result
 .
 C
 )
+&
+&
+result
+.
+r
+>
+0
 )
 {
 entered
