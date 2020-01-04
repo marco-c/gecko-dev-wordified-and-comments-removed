@@ -397,6 +397,17 @@ aThisLayerTreeUpdated
 )
 ;
 void
+NotifyScrollUpdated
+(
+uint32_t
+aScrollGeneration
+const
+CSSPoint
+&
+aScrollOffset
+)
+;
+void
 SetCompositorParent
 (
 CompositorParent
