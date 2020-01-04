@@ -26,6 +26,13 @@ h
 #
 include
 "
+nsLineLayout
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h
