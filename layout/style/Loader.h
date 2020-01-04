@@ -536,16 +536,6 @@ eSheetLoading
 eSheetComplete
 }
 ;
-enum
-SheetParsingMode
-{
-eAuthorSheetFeatures
-=
-0
-eUserSheetFeatures
-eAgentSheetFeatures
-}
-;
 class
 Loader
 final
@@ -723,8 +713,8 @@ LoadSheetSync
 nsIURI
 *
 aURL
-SheetParsingMode
-aParsingMode
+bool
+aEnableUnsafeRules
 bool
 aUseSystemPrincipal
 CSSStyleSheet
@@ -749,7 +739,7 @@ return
 LoadSheetSync
 (
 aURL
-eAuthorSheetFeatures
+false
 false
 aSheet
 )
@@ -1055,8 +1045,8 @@ InternalLoadNonDocumentSheet
 nsIURI
 *
 aURL
-SheetParsingMode
-aParsingMode
+bool
+aAllowUnsafeRules
 bool
 aUseSystemPrincipal
 nsIPrincipal

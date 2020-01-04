@@ -12626,13 +12626,7 @@ CSSLoader
 LoadSheetSync
 (
 uaURI
-mozilla
-:
-:
-css
-:
-:
-eAgentSheetFeatures
+true
 true
 getter_AddRefs
 (
