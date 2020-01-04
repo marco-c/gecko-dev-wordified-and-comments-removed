@@ -1266,9 +1266,8 @@ void
 var
 A
 =
-ArraySpeciesCreate
+std_Array
 (
-O
 len
 )
 ;
