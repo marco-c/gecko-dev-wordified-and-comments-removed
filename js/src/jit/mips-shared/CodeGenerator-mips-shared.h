@@ -1082,6 +1082,7 @@ LTruncateFToInt32
 ins
 )
 ;
+virtual
 void
 visitOutOfLineBailout
 (
@@ -1089,6 +1090,8 @@ OutOfLineBailout
 *
 ool
 )
+=
+0
 ;
 protected
 :
