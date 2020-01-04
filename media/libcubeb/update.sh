@@ -555,3 +555,10 @@ details
 .
 "
 fi
+patch
+-
+p3
+<
+bug1278612
+.
+patch
