@@ -163,9 +163,6 @@ interface
 nsIContentViewer
 ;
 interface
-nsIURIContentListener
-;
-interface
 nsIDOMEventTarget
 ;
 interface
@@ -173,9 +170,6 @@ nsIDocShellLoadInfo
 ;
 interface
 nsIEditor
-;
-interface
-nsIWebNavigation
 ;
 interface
 nsISimpleEnumerator
@@ -206,9 +200,6 @@ nsIPrincipal
 ;
 interface
 nsIWebBrowserPrint
-;
-interface
-nsIVariant
 ;
 interface
 nsIPrivacyTransitionObserver
