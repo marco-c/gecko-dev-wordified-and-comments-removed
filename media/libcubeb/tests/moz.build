@@ -93,14 +93,6 @@ MPL
 0
 /
 .
-DEFINES
-[
-'
-CUBEB_GECKO_BUILD
-'
-]
-=
-True
 GeckoCppUnitTests
 (
 [

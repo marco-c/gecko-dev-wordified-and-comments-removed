@@ -37,17 +37,12 @@ stdio
 h
 >
 #
-ifdef
-CUBEB_GECKO_BUILD
-#
 include
 "
 TestHarness
 .
 h
 "
-#
-endif
 #
 define
 LOG
@@ -78,9 +73,6 @@ argv
 ]
 )
 {
-#
-ifdef
-CUBEB_GECKO_BUILD
 ScopedXPCOM
 xpcom
 (
@@ -89,8 +81,6 @@ test_latency
 "
 )
 ;
-#
-endif
 cubeb
 *
 ctx
