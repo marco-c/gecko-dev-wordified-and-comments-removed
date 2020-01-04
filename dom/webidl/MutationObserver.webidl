@@ -112,9 +112,6 @@ whatwg
 org
 *
 /
-[
-ProbablyShortLivingObject
-]
 interface
 MutationRecord
 {
