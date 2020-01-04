@@ -5203,13 +5203,6 @@ mJSObj
 =
 obj
 ;
-nsJSObjWrapperKey
-key
-(
-obj
-npp
-)
-;
 if
 (
 !
@@ -5217,7 +5210,11 @@ sJSObjWrappers
 .
 putNew
 (
-key
+nsJSObjWrapperKey
+(
+obj
+npp
+)
 wrapper
 )
 )
