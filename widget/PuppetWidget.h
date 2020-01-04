@@ -991,6 +991,17 @@ GetMaxTouchPoints
 const
 override
 ;
+virtual
+void
+StartAsyncScrollbarDrag
+(
+const
+AsyncDragMetrics
+&
+aDragMetrics
+)
+override
+;
 protected
 :
 bool
