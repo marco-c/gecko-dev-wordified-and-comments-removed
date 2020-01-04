@@ -1742,9 +1742,6 @@ mInfo
 bool
 mIsDormant
 ;
-bool
-mWasEndedWhenEnteredDormant
-;
 const
 bool
 mIsHeuristicDormantSupported
