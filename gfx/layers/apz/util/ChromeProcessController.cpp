@@ -955,6 +955,10 @@ mAPZEventState
 >
 ProcessLongTapUp
 (
+presShell
+point
+scale
+aModifiers
 )
 ;
 break
