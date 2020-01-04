@@ -1361,14 +1361,7 @@ MarionetteHarness
 .
 parse_args
 '
-    
-)
-as
-parse_args
-:
         
-parse_args
-.
 return_value
 =
 {
@@ -1379,6 +1372,11 @@ tests
 [
 ]
 }
+    
+)
+as
+parse_args
+:
         
 failed_or_crashed
 =
@@ -1637,17 +1635,15 @@ MarionetteTestRunner
 .
 _load_testvars
 '
+        
+return_value
+=
+testvars_json_loads
     
 )
 as
 load
 :
-        
-load
-.
-return_value
-=
-testvars_json_loads
         
 runner
 =
@@ -1744,16 +1740,11 @@ path
 .
 exists
 '
-)
-as
-exists
-:
-        
-exists
-.
 return_value
 =
 True
+)
+:
         
 with
 patch
@@ -1921,8 +1912,7 @@ assert
 result
 .
 shouldStop
-=
-=
+is
 False
     
 result
@@ -2182,16 +2172,13 @@ path
 .
 abspath
 '
+return_value
+=
+test
 )
 as
 abspath
 :
-            
-abspath
-.
-return_value
-=
-test
             
 runner
 .
@@ -2205,14 +2192,14 @@ abspath
 .
 called
         
-assert
+expected
+=
 {
 '
 filepath
 '
 :
 test
-                
 '
 expected
 '
@@ -2220,13 +2207,15 @@ expected
 '
 pass
 '
-                
 '
 test_container
 '
 :
 None
 }
+        
+assert
+expected
 in
 runner
 .
@@ -2315,7 +2304,7 @@ test_b
 js
 '
 '
-bad_test_a
+bad_test_b
 .
 py
 '
@@ -2371,13 +2360,6 @@ path
 .
 isdir
 '
-)
-as
-isdir
-:
-        
-isdir
-.
 side_effect
 =
 [
@@ -2387,10 +2369,14 @@ True
 [
 False
 for
-i
+t
 in
 tests
 ]
+)
+as
+isdir
+:
         
 with
 patch
@@ -2400,16 +2386,13 @@ os
 .
 walk
 '
+return_value
+=
+dir_contents
 )
 as
 walk
 :
-            
-walk
-.
-return_value
-=
-dir_contents
             
 runner
 .
