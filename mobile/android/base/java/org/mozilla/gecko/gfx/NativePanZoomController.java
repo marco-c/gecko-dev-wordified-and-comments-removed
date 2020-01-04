@@ -862,6 +862,16 @@ y
 ;
 return
 aMetrics
+.
+offsetViewportByAndClamp
+(
+aShift
+.
+x
+aShift
+.
+y
+)
 ;
 }
 WrapForJNI
