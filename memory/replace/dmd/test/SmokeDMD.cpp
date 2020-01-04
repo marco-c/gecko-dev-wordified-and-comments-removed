@@ -598,7 +598,7 @@ char
 )
 malloc
 (
-8
+16
 )
 ;
 Report
@@ -634,7 +634,7 @@ char
 )
 malloc
 (
-8
+16
 )
 ;
 ReportOnAlloc
@@ -1100,7 +1100,7 @@ char
 )
 malloc
 (
-8
+16
 )
 ;
 UseItOrLoseIt

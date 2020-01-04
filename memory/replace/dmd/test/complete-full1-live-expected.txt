@@ -217,7 +217,7 @@ slop
 )
 67
 .
-77
+72
 %
 of
 the
@@ -225,7 +225,7 @@ heap
 (
 67
 .
-77
+72
 %
 cumulative
 )
@@ -278,7 +278,7 @@ heap
 (
 76
 .
-24
+19
 %
 cumulative
 )
@@ -329,7 +329,7 @@ x
 9
 8
 .
-34
+33
 %
 of
 the
@@ -337,7 +337,7 @@ heap
 (
 84
 .
-58
+52
 %
 cumulative
 )
@@ -403,7 +403,7 @@ heap
 (
 88
 .
-95
+89
 %
 cumulative
 )
@@ -469,7 +469,7 @@ heap
 (
 93
 .
-32
+25
 %
 cumulative
 )
@@ -512,7 +512,7 @@ slop
 )
 4
 .
-24
+23
 %
 of
 the
@@ -520,7 +520,7 @@ heap
 (
 97
 .
-55
+49
 %
 cumulative
 )
@@ -571,7 +571,7 @@ heap
 (
 98
 .
-21
+15
 %
 cumulative
 )
@@ -622,7 +622,7 @@ heap
 (
 98
 .
-87
+81
 %
 cumulative
 )
@@ -673,7 +673,7 @@ heap
 (
 99
 .
-54
+47
 %
 cumulative
 )
@@ -724,7 +724,7 @@ heap
 (
 99
 .
-80
+74
 %
 cumulative
 )
@@ -759,10 +759,10 @@ of
 16
 bytes
 (
-10
+16
 requested
 /
-6
+0
 slop
 )
 0
@@ -775,7 +775,7 @@ heap
 (
 99
 .
-93
+87
 %
 cumulative
 )
@@ -807,18 +807,18 @@ record
 12
 of
 12
-8
+16
 bytes
 (
-8
+10
 requested
 /
-0
+6
 slop
 )
 0
 .
-07
+13
 %
 of
 the
@@ -918,7 +918,7 @@ Summary
 Total
 :
 12
-088
+096
 bytes
 in
 30
