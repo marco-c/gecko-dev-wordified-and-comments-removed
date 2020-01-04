@@ -1031,8 +1031,8 @@ data
 ;
 let
 {
-isPaused
 isMoving
+isUserDrag
 time
 }
 =
@@ -1055,7 +1055,7 @@ isMoving
 ;
 if
 (
-isPaused
+isUserDrag
 &
 &
 !
