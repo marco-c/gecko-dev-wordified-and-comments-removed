@@ -1390,7 +1390,7 @@ aRange
 mBuilder
 (
 aFrame
-nsDisplayListBuilder
+nsDisplayListBuilderMode
 :
 :
 PAINTING
@@ -26354,7 +26354,7 @@ nsDisplayListBuilder
 builder
 (
 rootFrame
-nsDisplayListBuilder
+nsDisplayListBuilderMode
 :
 :
 FRAME_VISIBILITY
@@ -27403,7 +27403,7 @@ nsDisplayListBuilder
 builder
 (
 mFrame
-nsDisplayListBuilder
+nsDisplayListBuilderMode
 :
 :
 EVENT_DELIVERY
