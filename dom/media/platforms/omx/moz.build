@@ -118,6 +118,11 @@ OmxDecoderModule
 cpp
 '
 '
+OmxPlatformLayer
+.
+cpp
+'
+'
 OmxPromiseLayer
 .
 cpp
