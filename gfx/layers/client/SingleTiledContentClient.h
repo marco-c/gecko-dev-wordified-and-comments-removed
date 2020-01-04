@@ -102,10 +102,6 @@ aCallback
 void
 *
 aCallbackData
-bool
-aIsProgressive
-=
-false
 )
 override
 ;
@@ -255,9 +251,6 @@ mPaintedRegion
 ;
 nsIntRegion
 mValidRegion
-;
-bool
-mWasLastPaintProgressive
 ;
 gfx
 :

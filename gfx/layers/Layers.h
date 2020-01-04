@@ -4612,8 +4612,8 @@ IsLogEnabled
 ;
 }
 const
-virtual
 nsIntRegion
+&
 GetInvalidRegion
 (
 )

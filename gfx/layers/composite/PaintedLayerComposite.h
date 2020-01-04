@@ -284,14 +284,6 @@ Mutated
 )
 ;
 }
-const
-virtual
-nsIntRegion
-GetInvalidRegion
-(
-)
-override
-;
 MOZ_LAYER_DECL_NAME
 (
 "

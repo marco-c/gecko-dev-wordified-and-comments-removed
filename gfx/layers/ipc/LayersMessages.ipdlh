@@ -1712,9 +1712,6 @@ updateRect
 TileLock
 sharedLock
 ;
-bool
-wasPlaceholder
-;
 }
 ;
 struct
@@ -1768,9 +1765,6 @@ frameXResolution
 ;
 float
 frameYResolution
-;
-bool
-isProgressive
 ;
 }
 ;

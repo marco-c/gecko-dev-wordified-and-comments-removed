@@ -1061,9 +1061,6 @@ CompositableClient
 *
 mCompositableClient
 ;
-bool
-mWasPlaceholder
-;
 #
 ifdef
 GFX_TILEDLAYER_DEBUG_OVERLAY
@@ -1131,11 +1128,6 @@ mFirstPaint
 ;
 bool
 mPaintFinished
-:
-1
-;
-bool
-mHasTransformAnimation
 :
 1
 ;
@@ -1236,10 +1228,6 @@ SurfaceMode
 :
 SURFACE_OPAQUE
 )
-mWasLastPaintProgressive
-(
-false
-)
 {
 }
 virtual
@@ -1266,10 +1254,6 @@ aCallback
 void
 *
 aCallbackData
-bool
-aIsProgressive
-=
-false
 )
 =
 0
@@ -1426,9 +1410,6 @@ mLastPaintSurfaceMode
 CSSToParentLayerScale2D
 mFrameResolution
 ;
-bool
-mWasLastPaintProgressive
-;
 }
 ;
 class
@@ -1546,10 +1527,6 @@ aCallback
 void
 *
 aCallbackData
-bool
-aIsProgressive
-=
-false
 )
 override
 ;
