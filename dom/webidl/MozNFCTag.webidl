@@ -320,7 +320,11 @@ Classic
 }
 ;
 typedef
+(
 MozIsoDepTech
+or
+MozNfcATech
+)
 MozTagTech
 ;
 [

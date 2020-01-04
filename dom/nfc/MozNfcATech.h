@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_nfc_MozIsoDepTech_h__
+mozilla_dom_nfc_MozNfcATech_h__
 #
 define
-mozilla_dom_nfc_MozIsoDepTech_h__
+mozilla_dom_nfc_MozNfcATech_h__
 #
 include
 "
@@ -22,7 +22,7 @@ mozilla
 /
 dom
 /
-MozIsoDepTechBinding
+MozNfcATechBinding
 .
 h
 "
@@ -64,7 +64,7 @@ class
 Promise
 ;
 class
-MozIsoDepTech
+MozNfcATech
 :
 public
 nsISupports
@@ -76,7 +76,7 @@ public
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
-MozIsoDepTech
+MozNfcATech
 )
 already_AddRefed
 <
@@ -127,7 +127,7 @@ override
 static
 already_AddRefed
 <
-MozIsoDepTech
+MozNfcATech
 >
 Constructor
 (
@@ -145,7 +145,7 @@ aRv
 ;
 private
 :
-MozIsoDepTech
+MozNfcATech
 (
 nsPIDOMWindow
 *
@@ -157,7 +157,7 @@ aNFCTag
 ;
 virtual
 ~
-MozIsoDepTech
+MozNfcATech
 (
 )
 ;

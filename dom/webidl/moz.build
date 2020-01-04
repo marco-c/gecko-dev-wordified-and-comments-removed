@@ -3641,6 +3641,11 @@ MozNFC
 webidl
 '
 '
+MozNfcATech
+.
+webidl
+'
+'
 MozNFCPeer
 .
 webidl

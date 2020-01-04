@@ -77,7 +77,7 @@ tag
 )
 ]
 interface
-MozIsoDepTech
+MozNfcATech
 {
 /
 *
@@ -85,9 +85,9 @@ MozIsoDepTech
 *
 Send
 raw
-ISO
+NFC
 -
-DEP
+A
 command
 to
 tag
