@@ -1947,14 +1947,6 @@ stateArray
 push
 (
 stateBase64
-?
-atob
-(
-stateBase64
-)
-:
-"
-"
 )
 ;
 }

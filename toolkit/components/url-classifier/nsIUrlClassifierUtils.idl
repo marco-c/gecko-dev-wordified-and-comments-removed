@@ -348,8 +348,10 @@ array
 of
 states
 (
+encoded
 in
-string
+base64
+format
 )
 for
 each
@@ -404,7 +406,7 @@ aCount
 ]
 in
 string
-aStates
+aStatesBase64
 in
 uint32_t
 aCount
