@@ -23938,7 +23938,7 @@ aReport
 exnType
 >
 =
-JSEXN_NONE
+JSEXN_FIRST
 &
 &
 aReport

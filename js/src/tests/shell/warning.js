@@ -73,7 +73,7 @@ warning
 .
 name
 "
-None
+Warning
 "
 )
 ;

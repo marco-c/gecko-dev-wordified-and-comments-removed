@@ -47,7 +47,7 @@ warning
 .
 name
 "
-None
+Warning
 "
 )
 ;
@@ -109,7 +109,7 @@ warning
 .
 name
 "
-None
+Warning
 "
 )
 ;
