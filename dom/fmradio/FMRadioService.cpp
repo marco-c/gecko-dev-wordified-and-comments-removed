@@ -3316,9 +3316,6 @@ SettingChangeNotification
 >
 setting
 (
-nsContentUtils
-:
-:
 RootingCx
 (
 )

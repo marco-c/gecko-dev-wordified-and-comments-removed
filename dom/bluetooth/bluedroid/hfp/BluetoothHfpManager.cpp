@@ -2710,9 +2710,6 @@ SettingChangeNotification
 >
 setting
 (
-nsContentUtils
-:
-:
 RootingCx
 (
 )
@@ -2989,7 +2986,7 @@ value
 dom
 :
 :
-GetJSRuntime
+RootingCx
 (
 )
 )

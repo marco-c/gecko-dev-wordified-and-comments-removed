@@ -663,9 +663,6 @@ Value
 >
 value
 (
-nsContentUtils
-:
-:
 RootingCx
 (
 )
@@ -1052,9 +1049,6 @@ Value
 >
 value
 (
-nsContentUtils
-:
-:
 RootingCx
 (
 )
@@ -1190,9 +1184,6 @@ SettingChangeNotification
 >
 setting
 (
-nsContentUtils
-:
-:
 RootingCx
 (
 )
