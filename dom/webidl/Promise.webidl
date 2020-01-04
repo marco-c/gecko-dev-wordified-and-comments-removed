@@ -303,12 +303,10 @@ value
 ;
 [
 NewObject
+Throws
 ]
 static
-Promise
-<
-void
->
+any
 reject
 (
 optional
