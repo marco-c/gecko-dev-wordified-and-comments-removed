@@ -66,6 +66,12 @@ State
 HEADER
 ICON_HEADER_SIZE
 )
+Transition
+:
+:
+TerminateSuccess
+(
+)
 )
 mBytesPerRow
 (

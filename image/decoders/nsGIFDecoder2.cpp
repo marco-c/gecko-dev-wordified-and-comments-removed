@@ -207,6 +207,12 @@ State
 GIF_HEADER
 GIF_HEADER_LEN
 )
+Transition
+:
+:
+TerminateSuccess
+(
+)
 )
 mOldColor
 (

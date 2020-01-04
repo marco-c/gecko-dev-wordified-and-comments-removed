@@ -327,6 +327,12 @@ To
 aState
 aLength
 )
+Transition
+:
+:
+TerminateSuccess
+(
+)
 )
 mIsWithinICO
 (
