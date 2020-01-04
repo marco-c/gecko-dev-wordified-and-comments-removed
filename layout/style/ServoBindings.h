@@ -1494,6 +1494,11 @@ Servo_Initialize
 )
 ;
 void
+Servo_Shutdown
+(
+)
+;
+void
 Servo_RestyleDocument
 (
 RawGeckoDocument
