@@ -840,6 +840,11 @@ class
 devtools
 -
 searchbox
+has
+-
+clear
+-
+btn
 "
 >
 <
@@ -1276,6 +1281,11 @@ class
 devtools
 -
 searchbox
+has
+-
+clear
+-
+btn
 "
 >
 <
@@ -1725,6 +1735,11 @@ class
 devtools
 -
 searchbox
+has
+-
+clear
+-
+btn
 "
 >
 <
