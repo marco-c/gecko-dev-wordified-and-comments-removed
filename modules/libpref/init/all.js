@@ -16902,7 +16902,7 @@ upright
 .
 enabled
 "
-false
+true
 )
 ;
 pref
