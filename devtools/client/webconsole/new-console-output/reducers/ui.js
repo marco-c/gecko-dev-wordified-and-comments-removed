@@ -51,7 +51,7 @@ Immutable
 Record
 (
 {
-configFilterBarVisible
+filterBarVisible
 :
 false
 filteredMessageVisible
@@ -90,12 +90,12 @@ state
 set
 (
 "
-configFilterBarVisible
+filterBarVisible
 "
 !
 state
 .
-configFilterBarVisible
+filterBarVisible
 )
 ;
 }

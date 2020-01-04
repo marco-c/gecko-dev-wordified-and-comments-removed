@@ -195,7 +195,7 @@ constants
 )
 ;
 const
-FilterToggleButton
+FilterButton
 =
 createFactory
 (
@@ -218,13 +218,11 @@ components
 /
 filter
 -
-toggle
--
 button
 "
 )
 .
-FilterToggleButton
+FilterButton
 )
 ;
 const
@@ -256,7 +254,7 @@ object
 .
 isRequired
 }
-onClearOutputButtonClick
+onClickMessagesClear
 :
 function
 (
@@ -274,7 +272,7 @@ messagesClear
 )
 ;
 }
-onToggleFilterConfigBarButtonClick
+onClickFilterBarToggle
 :
 function
 (
@@ -294,7 +292,7 @@ filterBarToggle
 )
 ;
 }
-onClearFiltersButtonClick
+onClickFiltersClear
 :
 function
 (
@@ -352,11 +350,11 @@ this
 props
 ;
 let
-configFilterBarVisible
+filterBarVisible
 =
 ui
 .
-configFilterBarVisible
+filterBarVisible
 ;
 let
 children
@@ -413,7 +411,7 @@ onClick
 :
 this
 .
-onClearOutputButtonClick
+onClickMessagesClear
 }
 )
 dom
@@ -435,7 +433,7 @@ icon
 "
 +
 (
-configFilterBarVisible
+filterBarVisible
 ?
 "
 checked
@@ -455,7 +453,7 @@ onClick
 :
 this
 .
-onToggleFilterConfigBarButtonClick
+onClickFilterBarToggle
 }
 )
 dom
@@ -498,7 +496,7 @@ onSearchInput
 ;
 if
 (
-configFilterBarVisible
+filterBarVisible
 )
 {
 children
@@ -518,7 +516,7 @@ devtools
 toolbar
 "
 }
-FilterToggleButton
+FilterButton
 (
 {
 active
@@ -539,7 +537,7 @@ ERROR
 dispatch
 }
 )
-FilterToggleButton
+FilterButton
 (
 {
 active
@@ -560,7 +558,7 @@ WARN
 dispatch
 }
 )
-FilterToggleButton
+FilterButton
 (
 {
 active
@@ -581,7 +579,7 @@ LOG
 dispatch
 }
 )
-FilterToggleButton
+FilterButton
 (
 {
 active
@@ -694,7 +692,7 @@ onClick
 :
 this
 .
-onClearFiltersButtonClick
+onClickFiltersClear
 }
 "
 Remove
