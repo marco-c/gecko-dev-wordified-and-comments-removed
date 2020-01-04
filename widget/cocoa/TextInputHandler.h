@@ -1639,11 +1639,6 @@ aReplacementRange
 nullptr
 )
 ;
-NSInteger
-ConversationIdentifier
-(
-)
-;
 NSAttributedString
 *
 GetAttributedSubstringFromRange
