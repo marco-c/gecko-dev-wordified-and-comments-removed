@@ -146,6 +146,11 @@ AnimationTimeline
 h
 '
 '
+CSSPseudoElement
+.
+h
+'
+'
 DocumentTimeline
 .
 h
@@ -239,6 +244,11 @@ cpp
 '
 '
 ComputedTimingFunction
+.
+cpp
+'
+'
+CSSPseudoElement
 .
 cpp
 '

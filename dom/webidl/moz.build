@@ -535,6 +535,11 @@ CSSPrimitiveValue
 webidl
 '
 '
+CSSPseudoElement
+.
+webidl
+'
+'
 CSSRuleList
 .
 webidl
