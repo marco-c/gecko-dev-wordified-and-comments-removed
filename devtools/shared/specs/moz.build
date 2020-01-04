@@ -153,6 +153,11 @@ registry
 js
 '
 '
+emulation
+.
+js
+'
+'
 environment
 .
 js
