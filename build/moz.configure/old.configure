@@ -2745,17 +2745,6 @@ fpu
 -
 with
 -
-gonk
--
-toolchain
--
-prefix
-'
-'
--
--
-with
--
 google
 -
 api
