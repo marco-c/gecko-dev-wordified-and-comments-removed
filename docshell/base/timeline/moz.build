@@ -115,6 +115,11 @@ AutoTimelineMarker
 h
 '
 '
+CompositeTimelineMarker
+.
+h
+'
+'
 ConsoleTimelineMarker
 .
 h
