@@ -71,11 +71,7 @@ new
 #
 include
 "
-moz
--
-d2d1
--
-1
+d2d1_1
 .
 h
 "
