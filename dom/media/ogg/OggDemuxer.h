@@ -626,6 +626,17 @@ uint32_t
 aSerials
 )
 ;
+void
+FillTags
+(
+TrackInfo
+*
+aInfo
+MetadataTags
+*
+aTags
+)
+;
 ogg_uint32_t
 GetPageChecksum
 (
