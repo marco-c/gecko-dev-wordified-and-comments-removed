@@ -565,7 +565,7 @@ ubi
 .
 edges
 (
-rt
+cx
 )
 ;
 ASSERT_TRUE

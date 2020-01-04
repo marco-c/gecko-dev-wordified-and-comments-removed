@@ -15426,11 +15426,6 @@ Traversal
 traversal
 (
 cx
--
->
-runtime
-(
-)
 handler
 autoCannotGC
 )
@@ -16297,11 +16292,6 @@ ShortestPaths
 Create
 (
 cx
--
->
-runtime
-(
-)
 noGC
 maxNumPaths
 root

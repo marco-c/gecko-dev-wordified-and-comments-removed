@@ -102,12 +102,12 @@ AllOf
 (
 EdgesLength
 (
-rt
+cx
 3
 )
 Edge
 (
-rt
+cx
 0
 Field
 (
@@ -130,7 +130,7 @@ edgeName
 )
 Edge
 (
-rt
+cx
 1
 Field
 (
@@ -153,7 +153,7 @@ emptyStr
 )
 Edge
 (
-rt
+cx
 2
 Field
 (

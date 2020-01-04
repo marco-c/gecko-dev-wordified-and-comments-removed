@@ -553,9 +553,9 @@ DeserializedNode
 :
 edges
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 bool
 )
 const

@@ -243,9 +243,9 @@ void
 )
 dumpPaths
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 Node
 node
 uint32_t
@@ -270,7 +270,7 @@ ubi
 RootList
 rootList
 (
-rt
+cx
 nogc
 true
 )
@@ -317,7 +317,7 @@ ShortestPaths
 :
 Create
 (
-rt
+cx
 nogc
 .
 ref

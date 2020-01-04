@@ -47,9 +47,9 @@ BreadthFirst
 {
 BreadthFirst
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 Handler
 &
 handler
@@ -66,9 +66,9 @@ wantNames
 (
 true
 )
-rt
+cx
 (
-rt
+cx
 )
 visited
 (
@@ -226,7 +226,7 @@ origin
 .
 edges
 (
-rt
+cx
 wantNames
 )
 ;
@@ -417,9 +417,9 @@ abandonRequested
 true
 ;
 }
-JSRuntime
+JSContext
 *
-rt
+cx
 ;
 using
 NodeMap

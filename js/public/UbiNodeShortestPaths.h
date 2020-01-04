@@ -1020,9 +1020,9 @@ ShortestPaths
 >
 Create
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 AutoCheckCannotGC
 &
 noGC
@@ -1108,7 +1108,7 @@ paths
 Traversal
 traversal
 (
-rt
+cx
 handler
 noGC
 )
