@@ -7106,7 +7106,7 @@ return
 }
 const
 {
-sendSyncMessage
+sendAsyncMessage
 addMessageListener
 }
 =
@@ -7341,7 +7341,7 @@ methodName
 deferred
 )
 ;
-sendSyncMessage
+sendAsyncMessage
 (
 "
 storage
