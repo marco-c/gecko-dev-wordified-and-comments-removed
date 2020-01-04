@@ -152,11 +152,6 @@ JSTracer
 trc
 )
 {
-if
-(
-mTypedObj
-)
-{
 JS
 :
 :
@@ -172,12 +167,6 @@ mTypedObj
 "
 )
 ;
-}
-if
-(
-mWrappedObj
-)
-{
 JS
 :
 :
@@ -193,7 +182,6 @@ mWrappedObj
 "
 )
 ;
-}
 }
 private
 :

@@ -8665,7 +8665,7 @@ trc
 JS
 :
 :
-TraceNullableEdge
+TraceEdge
 (
 trc
 &

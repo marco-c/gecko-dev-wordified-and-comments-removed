@@ -1284,7 +1284,7 @@ value
 JS
 :
 :
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -10469,7 +10469,7 @@ fieldValue
 JS
 :
 :
-TraceNullableEdge
+TraceEdge
 (
 trc
 &

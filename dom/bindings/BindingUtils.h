@@ -1537,7 +1537,7 @@ i
 JS
 :
 :
-TraceNullableEdge
+TraceEdge
 (
 aTracer
 &
@@ -1883,7 +1883,7 @@ j
 JS
 :
 :
-TraceNullableEdge
+TraceEdge
 (
 trc
 &

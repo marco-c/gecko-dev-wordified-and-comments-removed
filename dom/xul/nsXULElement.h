@@ -930,7 +930,7 @@ aTrc
 JS
 :
 :
-TraceNullableEdge
+TraceEdge
 (
 aTrc
 &
