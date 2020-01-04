@@ -1771,6 +1771,8 @@ sinf
 next
 ;
 delete
+[
+]
 sinf
 -
 >
