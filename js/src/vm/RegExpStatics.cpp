@@ -43,6 +43,16 @@ JSObject
 obj
 )
 {
+MOZ_ASSERT
+(
+fop
+-
+>
+onMainThread
+(
+)
+)
+;
 RegExpStatics
 *
 res

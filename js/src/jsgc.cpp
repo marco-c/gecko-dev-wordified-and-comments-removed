@@ -14616,8 +14616,6 @@ zones
 LifoAlloc
 &
 freeBlocks
-ThreadType
-threadType
 )
 {
 freeBlocks
@@ -14645,13 +14643,6 @@ nullptr
 FreeOp
 fop
 (
-threadType
-=
-=
-MainThread
-?
-rt
-:
 nullptr
 )
 ;
@@ -15638,7 +15629,6 @@ sweepBackgroundThings
 (
 zones
 freeLifoAlloc
-BackgroundThread
 )
 ;
 }
@@ -24744,7 +24734,6 @@ sweepBackgroundThings
 (
 zones
 blocksToFreeAfterSweeping
-MainThread
 )
 ;
 while

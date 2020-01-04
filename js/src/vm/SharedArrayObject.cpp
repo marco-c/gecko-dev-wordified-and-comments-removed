@@ -1402,6 +1402,16 @@ JSObject
 obj
 )
 {
+MOZ_ASSERT
+(
+fop
+-
+>
+maybeOffMainThread
+(
+)
+)
+;
 SharedArrayBufferObject
 &
 buf
@@ -1582,7 +1592,7 @@ JSCLASS_HAS_CACHED_PROTO
 JSProto_SharedArrayBuffer
 )
 |
-JSCLASS_FOREGROUND_FINALIZE
+JSCLASS_BACKGROUND_FINALIZE
 &
 SharedArrayBufferObjectClassOps
 JS_NULL_CLASS_SPEC

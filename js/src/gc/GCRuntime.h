@@ -3534,8 +3534,6 @@ zones
 LifoAlloc
 &
 freeBlocks
-ThreadType
-threadType
 )
 ;
 void

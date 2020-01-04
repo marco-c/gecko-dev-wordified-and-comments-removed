@@ -1822,6 +1822,16 @@ JSObject
 obj
 )
 {
+MOZ_ASSERT
+(
+fop
+-
+>
+onMainThread
+(
+)
+)
+;
 JSPrincipals
 *
 p

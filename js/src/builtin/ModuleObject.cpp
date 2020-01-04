@@ -2982,7 +2982,7 @@ SlotCount
 |
 JSCLASS_IS_ANONYMOUS
 |
-JSCLASS_FOREGROUND_FINALIZE
+JSCLASS_BACKGROUND_FINALIZE
 &
 ModuleObject
 :
@@ -3295,6 +3295,16 @@ JSObject
 obj
 )
 {
+MOZ_ASSERT
+(
+fop
+-
+>
+maybeOffMainThread
+(
+)
+)
+;
 ModuleObject
 *
 self

@@ -3411,6 +3411,16 @@ JSObject
 obj
 )
 {
+MOZ_ASSERT
+(
+fop
+-
+>
+maybeOffMainThread
+(
+)
+)
+;
 fop
 -
 >
@@ -3466,7 +3476,7 @@ GlobalDebuggee
 "
 JSCLASS_HAS_PRIVATE
 |
-JSCLASS_FOREGROUND_FINALIZE
+JSCLASS_BACKGROUND_FINALIZE
 &
 GlobalDebuggees_classOps
 }

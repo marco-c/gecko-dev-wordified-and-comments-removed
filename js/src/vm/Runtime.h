@@ -571,6 +571,17 @@ nullptr
 ;
 }
 bool
+maybeOffMainThread
+(
+)
+const
+{
+return
+!
+runtime_
+;
+}
+bool
 isDefaultFreeOp
 (
 )
