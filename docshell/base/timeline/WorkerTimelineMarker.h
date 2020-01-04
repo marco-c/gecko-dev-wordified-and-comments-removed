@@ -118,6 +118,15 @@ aMarker
 )
 override
 {
+TimelineMarker
+:
+:
+AddDetails
+(
+aCx
+aMarker
+)
+;
 if
 (
 GetTracingType

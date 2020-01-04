@@ -245,6 +245,13 @@ stack
 =
 null
 ;
+unsigned
+short
+processType
+;
+boolean
+isOffMainThread
+;
 /
 *
 For

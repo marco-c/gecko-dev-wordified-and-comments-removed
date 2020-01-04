@@ -124,6 +124,15 @@ aMarker
 )
 override
 {
+TimelineMarker
+:
+:
+AddDetails
+(
+aCx
+aMarker
+)
+;
 aMarker
 .
 mCauseName
