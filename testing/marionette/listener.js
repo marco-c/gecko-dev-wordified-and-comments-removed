@@ -5217,7 +5217,7 @@ curContainer
 let
 visible
 =
-elements
+element
 .
 checkVisible
 (

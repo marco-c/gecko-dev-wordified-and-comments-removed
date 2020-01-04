@@ -62,7 +62,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-elements
+element
 "
 "
 ElementManager
@@ -363,7 +363,7 @@ addToKnownElements
 function
 EM_addToKnownElements
 (
-element
+el
 )
 {
 for
@@ -418,7 +418,7 @@ foundEl
 =
 XPCNativeWrapper
 (
-element
+el
 )
 )
 {
@@ -442,7 +442,7 @@ i
 let
 id
 =
-elements
+element
 .
 generateUUID
 (
@@ -459,7 +459,7 @@ Cu
 .
 getWeakReference
 (
-element
+el
 )
 ;
 return
@@ -2645,12 +2645,12 @@ elements
 ;
 this
 .
-elements
+element
 =
 {
 }
 ;
-elements
+element
 .
 generateUUID
 =
@@ -2686,7 +2686,7 @@ length
 ;
 }
 ;
-elements
+element
 .
 coordinates
 =
@@ -2763,7 +2763,7 @@ y
 }
 ;
 }
-elements
+element
 .
 inViewport
 =
@@ -2790,7 +2790,7 @@ defaultView
 let
 c
 =
-elements
+element
 .
 coordinates
 (
@@ -2897,7 +2897,7 @@ bottom
 ;
 }
 ;
-elements
+element
 .
 checkVisible
 =
@@ -2984,7 +2984,7 @@ true
 if
 (
 !
-elements
+element
 .
 inViewport
 (
@@ -3011,7 +3011,7 @@ false
 if
 (
 !
-elements
+element
 .
 inViewport
 (
@@ -3036,7 +3036,7 @@ true
 ;
 }
 ;
-elements
+element
 .
 isXULElement
 =
