@@ -194,6 +194,8 @@ devtools
 shared
 /
 locales
+/
+libs
 AB_CD
 =
 *
@@ -202,11 +204,6 @@ XPI_NAME
 locale
 -
 *
-XPI_ROOT_APPID
-=
-(
-XPI_ROOT_APPID
-)
 (
 MAKE
 )
