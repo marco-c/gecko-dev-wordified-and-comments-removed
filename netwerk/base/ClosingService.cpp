@@ -633,6 +633,14 @@ mon
 mMonitor
 )
 ;
+if
+(
+mShutdown
+)
+{
+return
+;
+}
 mShutdown
 =
 true
