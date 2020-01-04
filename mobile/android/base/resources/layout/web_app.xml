@@ -173,7 +173,7 @@ true
 LinearLayout
 >
 <
-FrameLayout
+RelativeLayout
 android
 :
 id
@@ -372,7 +372,7 @@ RelativeLayout
 >
 <
 /
-FrameLayout
+RelativeLayout
 >
 <
 ViewStub
