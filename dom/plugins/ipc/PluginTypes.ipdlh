@@ -147,6 +147,9 @@ lastModifiedTime
 bool
 isFromExtension
 ;
+int32_t
+sandboxLevel
+;
 }
 ;
 union

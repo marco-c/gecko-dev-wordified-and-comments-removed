@@ -11136,6 +11136,11 @@ tag
 isFromExtension
 (
 )
+tag
+.
+sandboxLevel
+(
+)
 )
 ;
 AddPluginTag
@@ -12121,6 +12126,10 @@ tag
 IsFromExtension
 (
 )
+tag
+-
+>
+mSandboxLevel
 )
 )
 ;
