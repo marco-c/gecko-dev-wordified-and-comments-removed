@@ -3880,6 +3880,9 @@ DOMcallbacks
 JSDestroyPrincipalsOp
 destroyPrincipals
 ;
+JSReadPrincipalsOp
+readPrincipals
+;
 JSErrorReporter
 errorReporter
 ;
