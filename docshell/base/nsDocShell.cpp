@@ -6709,7 +6709,7 @@ inheritOwner
 nsContentUtils
 :
 :
-IsCallerChrome
+LegacyIsCallerChromeOrNativeCode
 (
 )
 ;

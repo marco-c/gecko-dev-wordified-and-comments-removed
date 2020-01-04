@@ -904,7 +904,7 @@ if
 nsContentUtils
 :
 :
-IsCallerChrome
+LegacyIsCallerChromeOrNativeCode
 (
 )
 )

@@ -2212,7 +2212,7 @@ isCallerChrome
 nsContentUtils
 :
 :
-IsCallerChrome
+LegacyIsCallerChromeOrNativeCode
 (
 )
 &
@@ -5821,7 +5821,7 @@ aCalledFromJS
 nsContentUtils
 :
 :
-IsCallerChrome
+LegacyIsCallerChromeOrNativeCode
 (
 )
 ;

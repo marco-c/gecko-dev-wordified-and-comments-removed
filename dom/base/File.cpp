@@ -3302,7 +3302,7 @@ if
 nsContentUtils
 :
 :
-IsCallerChrome
+LegacyIsCallerChromeOrNativeCode
 (
 )
 )

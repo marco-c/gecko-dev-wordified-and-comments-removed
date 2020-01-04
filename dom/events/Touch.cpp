@@ -357,6 +357,15 @@ ChromeOnlyAccess
 nsContentUtils
 :
 :
+LegacyIsCallerNativeCode
+(
+)
+&
+&
+!
+nsContentUtils
+:
+:
 CanAccessNativeAnon
 (
 )

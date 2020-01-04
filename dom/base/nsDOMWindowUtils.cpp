@@ -2131,7 +2131,7 @@ MOZ_RELEASE_ASSERT
 nsContentUtils
 :
 :
-IsCallerChrome
+LegacyIsCallerChromeOrNativeCode
 (
 )
 )
@@ -2366,7 +2366,7 @@ if
 nsContentUtils
 :
 :
-IsCallerChrome
+LegacyIsCallerChromeOrNativeCode
 (
 )
 )
@@ -2619,7 +2619,7 @@ if
 nsContentUtils
 :
 :
-IsCallerChrome
+LegacyIsCallerChromeOrNativeCode
 (
 )
 )
@@ -2674,7 +2674,7 @@ if
 nsContentUtils
 :
 :
-IsCallerChrome
+LegacyIsCallerChromeOrNativeCode
 (
 )
 )
@@ -2730,7 +2730,7 @@ MOZ_RELEASE_ASSERT
 nsContentUtils
 :
 :
-IsCallerChrome
+LegacyIsCallerChromeOrNativeCode
 (
 )
 )
@@ -4723,7 +4723,7 @@ MOZ_RELEASE_ASSERT
 nsContentUtils
 :
 :
-IsCallerChrome
+LegacyIsCallerChromeOrNativeCode
 (
 )
 )
@@ -8080,7 +8080,7 @@ MOZ_RELEASE_ASSERT
 nsContentUtils
 :
 :
-IsCallerChrome
+LegacyIsCallerChromeOrNativeCode
 (
 )
 )
@@ -14719,7 +14719,7 @@ MOZ_RELEASE_ASSERT
 nsContentUtils
 :
 :
-IsCallerChrome
+LegacyIsCallerChromeOrNativeCode
 (
 )
 )
