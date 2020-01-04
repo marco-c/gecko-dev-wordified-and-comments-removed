@@ -1057,6 +1057,10 @@ RefTest
 )
 :
     
+use_marionette
+=
+False
+    
 remoteApp
 =
 '

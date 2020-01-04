@@ -854,12 +854,6 @@ size
 "
 -
 -
-bootstrap
-"
-                        
-"
--
--
 remote
 -
 webserver

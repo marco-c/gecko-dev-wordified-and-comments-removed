@@ -71,9 +71,6 @@ StructuredLog
 .
 jsm
 )
-#
-ifdef
-BOOTSTRAP
 *
 content
 /
@@ -83,20 +80,7 @@ jsm
 (
 reftest
 .
-js
-)
-#
-else
-*
-content
-/
-reftest
-.
-js
-(
-reftest
-.
-js
+jsm
 )
 content
 /
@@ -108,5 +92,3 @@ reftest
 .
 xul
 )
-#
-endif
