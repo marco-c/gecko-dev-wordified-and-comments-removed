@@ -883,12 +883,6 @@ function
 (
 )
 {
-this
-.
-hostVsStores
-=
-null
-;
 if
 (
 observationTopic
@@ -939,6 +933,12 @@ this
 .
 onWindowDestroyed
 )
+;
+this
+.
+hostVsStores
+=
+null
 ;
 this
 .
