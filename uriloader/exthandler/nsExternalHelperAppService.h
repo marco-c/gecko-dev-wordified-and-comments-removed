@@ -331,8 +331,10 @@ aMIMEType
 )
 ;
 static
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 mLog
 ;
 friend

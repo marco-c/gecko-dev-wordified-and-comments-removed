@@ -286,8 +286,7 @@ kCustomProfileQuota
 512000
 ;
 extern
-PRLogModuleInfo
-*
+LazyLogModule
 gOfflineCacheUpdateLog
 ;
 #
