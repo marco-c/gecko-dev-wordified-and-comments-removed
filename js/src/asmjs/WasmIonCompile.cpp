@@ -3950,7 +3950,7 @@ auto
 *
 load
 =
-MAsmJSLoadGlobalVar
+MWasmLoadGlobalVar
 :
 :
 New
@@ -3998,7 +3998,7 @@ curBlock_
 >
 add
 (
-MAsmJSStoreGlobalVar
+MWasmStoreGlobalVar
 :
 :
 New

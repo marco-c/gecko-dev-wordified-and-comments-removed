@@ -5445,7 +5445,10 @@ dest
 ;
 append
 (
-AsmJSGlobalAccess
+wasm
+:
+:
+GlobalAccess
 (
 label
 wasm
@@ -5471,7 +5474,10 @@ HeapReg
 ;
 append
 (
-AsmJSGlobalAccess
+wasm
+:
+:
+GlobalAccess
 (
 label
 wasm
