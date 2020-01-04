@@ -20325,6 +20325,9 @@ RepatchLabel
 label
 Condition
 cond
+Label
+*
+documentation
 )
 {
 ARMBuffer
@@ -20343,6 +20346,7 @@ label
 &
 pe
 cond
+documentation
 )
 ;
 CodeOffsetJump

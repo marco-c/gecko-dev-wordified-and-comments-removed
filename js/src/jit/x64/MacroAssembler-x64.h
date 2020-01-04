@@ -4023,6 +4023,11 @@ jumpWithPatch
 RepatchLabel
 *
 label
+Label
+*
+documentation
+=
+nullptr
 )
 {
 JmpSrc
@@ -4058,6 +4063,11 @@ RepatchLabel
 label
 Condition
 cond
+Label
+*
+documentation
+=
+nullptr
 )
 {
 JmpSrc
@@ -4092,6 +4102,11 @@ backedgeJump
 RepatchLabel
 *
 label
+Label
+*
+documentation
+=
+nullptr
 )
 {
 return

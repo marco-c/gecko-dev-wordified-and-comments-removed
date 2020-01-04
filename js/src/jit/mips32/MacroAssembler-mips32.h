@@ -4674,6 +4674,11 @@ backedgeJump
 RepatchLabel
 *
 label
+Label
+*
+documentation
+=
+nullptr
 )
 ;
 CodeOffsetJump
@@ -4682,6 +4687,11 @@ jumpWithPatch
 RepatchLabel
 *
 label
+Label
+*
+documentation
+=
+nullptr
 )
 ;
 template
