@@ -329,9 +329,6 @@ BeginAndGetFilteredResponse
 InternalResponse
 *
 aResponse
-nsIURI
-*
-aFinalURI
 bool
 aFoundOpaqueRedirect
 )
