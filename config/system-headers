@@ -2000,6 +2000,7 @@ h
 initguid
 .
 h
+initializer_list
 InterfaceDefs
 .
 h
