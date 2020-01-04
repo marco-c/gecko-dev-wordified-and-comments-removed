@@ -5310,7 +5310,7 @@ nsPresContext
 aPresContext
 ReflowOutput
 &
-aReflowMetrics
+aReflowOutput
 const
 ReflowInput
 &
