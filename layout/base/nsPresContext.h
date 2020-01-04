@@ -2733,7 +2733,6 @@ UpdateIsChrome
 (
 )
 ;
-virtual
 bool
 HasAuthorSpecifiedRules
 (
