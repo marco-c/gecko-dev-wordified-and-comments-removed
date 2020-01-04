@@ -504,6 +504,15 @@ aOther
 )
 ;
 }
+void
+AppendToString
+(
+nsAString
+&
+aResult
+)
+const
+;
 private
 :
 Type
