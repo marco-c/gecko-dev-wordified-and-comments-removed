@@ -1548,7 +1548,11 @@ this
 if
 (
 promise
-instanceof
+.
+constructor
+=
+=
+=
 this
 .
 cloneScope

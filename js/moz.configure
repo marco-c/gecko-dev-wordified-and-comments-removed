@@ -436,9 +436,6 @@ sm
 -
 promise
 '
-default
-=
-True
 help
 =
 '

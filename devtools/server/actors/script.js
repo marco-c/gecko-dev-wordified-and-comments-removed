@@ -211,6 +211,16 @@ promise
 )
 ;
 const
+PromiseDebugging
+=
+require
+(
+"
+PromiseDebugging
+"
+)
+;
+const
 xpcInspector
 =
 require

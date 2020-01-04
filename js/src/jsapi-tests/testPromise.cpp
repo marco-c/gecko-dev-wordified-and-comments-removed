@@ -40,9 +40,6 @@ Value
 vp
 )
 {
-#
-ifdef
-DEBUG
 CallArgs
 args
 =
@@ -52,8 +49,6 @@ argc
 vp
 )
 ;
-#
-endif
 MOZ_ASSERT
 (
 args
