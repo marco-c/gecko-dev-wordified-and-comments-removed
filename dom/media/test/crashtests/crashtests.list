@@ -445,6 +445,13 @@ load
 1157994
 .
 html
+skip
+-
+if
+(
+!
+B2G
+)
 load
 1158427
 .
