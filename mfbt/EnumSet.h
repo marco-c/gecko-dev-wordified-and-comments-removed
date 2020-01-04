@@ -388,6 +388,16 @@ result
 ;
 }
 void
+clear
+(
+)
+{
+mBitField
+=
+0
+;
+}
+void
 operator
 &
 =
