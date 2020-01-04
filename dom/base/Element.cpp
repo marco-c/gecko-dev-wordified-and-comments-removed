@@ -8082,9 +8082,8 @@ false
 }
 if
 (
-HasFlag
+MayHaveAnimations
 (
-NODE_HAS_PROPERTIES
 )
 )
 {
