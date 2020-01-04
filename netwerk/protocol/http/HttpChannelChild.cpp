@@ -2417,7 +2417,6 @@ data
 offset
 count
 )
-!
 mDivertingToParent
 )
 ;
@@ -3244,6 +3243,7 @@ this
 channelStatus
 timing
 )
+mDivertingToParent
 )
 ;
 return
@@ -5513,6 +5513,7 @@ HttpFlushedForDiversionEvent
 (
 this
 )
+true
 )
 ;
 return
