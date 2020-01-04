@@ -537,9 +537,17 @@ cli
     
 mn_cli
 (
+runner_class
+=
 MediaTestRunner
-MediaTestArguments
+           
+parser_class
+=
 FirefoxMediaHarness
+           
+args
+=
+args
 )
 if
 __name__
