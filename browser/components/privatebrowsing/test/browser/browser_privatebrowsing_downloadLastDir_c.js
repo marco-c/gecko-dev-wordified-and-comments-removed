@@ -194,10 +194,9 @@ dir3
 .
 forEach
 (
-function
-(
 dir
-)
+=
+>
 dir
 .
 remove
@@ -221,10 +220,9 @@ validateFileNameToRestore
 ;
 validateFileName
 =
-function
-(
 foo
-)
+=
+>
 foo
 ;
 let

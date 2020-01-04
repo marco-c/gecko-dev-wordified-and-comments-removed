@@ -436,9 +436,10 @@ page
 ;
 registerCleanupFunction
 (
-function
 (
 )
+=
+>
 Services
 .
 prefs
