@@ -156,6 +156,9 @@ attribute
 AUTF8String
 languageName
 ;
+[
+implicit_jscontext
+]
 readonly
 attribute
 AString
@@ -449,6 +452,9 @@ indicates
 no
 data
 "
+[
+implicit_jscontext
+]
 readonly
 attribute
 AString
