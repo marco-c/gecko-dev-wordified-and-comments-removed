@@ -295,8 +295,6 @@ __crypto
 ;
 }
 initialize
-:
-function
 (
 )
 {
@@ -532,8 +530,6 @@ failed
 }
 }
 terminate
-:
-function
 (
 )
 {
@@ -558,8 +554,6 @@ save
 ;
 }
 addLogin
-:
-function
 (
 login
 )
@@ -825,8 +819,6 @@ loginClone
 ;
 }
 removeLogin
-:
-function
 (
 login
 )
@@ -936,8 +928,6 @@ storedLogin
 ;
 }
 modifyLogin
-:
-function
 (
 oldLogin
 newLoginData
@@ -1254,8 +1244,6 @@ newLogin
 ;
 }
 getAllLogins
-:
-function
 (
 count
 )
@@ -1318,8 +1306,6 @@ logins
 ;
 }
 searchLogins
-:
-function
 (
 count
 matchData
@@ -1410,8 +1396,6 @@ logins
 ;
 }
 _searchLogins
-:
-function
 (
 matchData
 )
@@ -2034,8 +2018,6 @@ foundIds
 ;
 }
 removeAllLogins
-:
-function
 (
 )
 {
@@ -2089,8 +2071,6 @@ null
 ;
 }
 getAllDisabledHosts
-:
-function
 (
 count
 )
@@ -2155,8 +2135,6 @@ disabledHosts
 ;
 }
 getLoginSavingEnabled
-:
-function
 (
 hostname
 )
@@ -2204,8 +2182,6 @@ hostname
 ;
 }
 setLoginSavingEnabled
-:
-function
 (
 hostname
 enabled
@@ -2350,8 +2326,6 @@ hostname
 ;
 }
 findLogins
-:
-function
 (
 count
 hostname
@@ -2471,8 +2445,6 @@ logins
 ;
 }
 countLogins
-:
-function
 (
 hostname
 formSubmitURL
@@ -2607,8 +2579,6 @@ isLoggedIn
 ;
 }
 _sendNotification
-:
-function
 (
 changeType
 data
@@ -2741,8 +2711,6 @@ changeType
 ;
 }
 _getIdForLogin
-:
-function
 (
 login
 )
@@ -2888,8 +2856,6 @@ foundLogin
 ;
 }
 _isGuidUnique
-:
-function
 (
 guid
 )
@@ -2926,8 +2892,6 @@ guid
 ;
 }
 _encryptLogin
-:
-function
 (
 login
 )
@@ -2978,8 +2942,6 @@ encType
 ;
 }
 _decryptLogins
-:
-function
 (
 logins
 )
