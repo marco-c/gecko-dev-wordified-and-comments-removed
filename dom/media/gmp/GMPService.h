@@ -287,10 +287,9 @@ AsyncShutdownTimeoutMs
 (
 )
 ;
-void
+NS_IMETHOD
 RunPluginCrashCallbacks
 (
-const
 uint32_t
 aPluginId
 const
@@ -298,6 +297,7 @@ nsACString
 &
 aPluginName
 )
+override
 ;
 void
 AddPluginCrashedEventTarget
