@@ -3302,7 +3302,7 @@ code
 +
 func
 .
-stubOffset
+entryOffset
 (
 )
 )
