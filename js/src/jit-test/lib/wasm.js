@@ -113,11 +113,9 @@ hasI64
 )
 {
 return
-getBuildConfiguration
+wasmInt64IsSupported
 (
 )
-.
-x64
 ;
 }
 function
