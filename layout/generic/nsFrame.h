@@ -2314,6 +2314,11 @@ HasCSSAnimations
 (
 )
 ;
+bool
+HasCSSTransitions
+(
+)
+;
 #
 ifdef
 DEBUG_FRAME_DUMP
