@@ -884,7 +884,7 @@ can
 '
 t
 use
-osslsigncode
+sha2signcode
 on
 zip
 files
@@ -895,7 +895,7 @@ MOZ_EXTERNAL_SIGNING_FORMAT
 filter
 -
 out
-osslsigncode
+sha2signcode
 (
 MOZ_EXTERNAL_SIGNING_FORMAT
 )
