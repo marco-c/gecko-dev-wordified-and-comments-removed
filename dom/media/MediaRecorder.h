@@ -491,8 +491,12 @@ UnRegisterActivityObserver
 )
 ;
 bool
-Check3gppPermission
+CheckPermission
 (
+const
+nsString
+&
+aType
 )
 ;
 }
