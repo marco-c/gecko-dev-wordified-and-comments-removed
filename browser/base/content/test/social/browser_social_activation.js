@@ -319,7 +319,7 @@ test
 /
 social
 /
-social_activate
+social_activate_basic
 .
 html
 "
@@ -1770,7 +1770,7 @@ test
 /
 social
 /
-social_activate
+social_activate_basic
 .
 html
 "
