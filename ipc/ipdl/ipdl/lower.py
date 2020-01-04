@@ -6218,7 +6218,7 @@ isDtor
 )
     
 def
-msgClass
+msgCtorFunc
 (
 self
 )
@@ -6255,12 +6255,12 @@ pfx
 +
 self
 .
-msgClass
+msgCtorFunc
 (
 )
     
 def
-pqMsgClass
+pqMsgCtorFunc
 (
 self
 )
@@ -6282,7 +6282,7 @@ self
 namespace
 self
 .
-msgClass
+msgCtorFunc
 (
 )
 )
@@ -6296,7 +6296,7 @@ self
 return
 self
 .
-msgClass
+msgCtorFunc
 (
 )
 +
@@ -6333,7 +6333,7 @@ msgId
 )
     
 def
-replyClass
+replyCtorFunc
 (
 self
 )
@@ -6355,7 +6355,7 @@ progname
 )
     
 def
-pqReplyClass
+pqReplyCtorFunc
 (
 self
 )
@@ -6377,7 +6377,7 @@ self
 namespace
 self
 .
-replyClass
+replyCtorFunc
 (
 )
 )
@@ -6391,7 +6391,7 @@ self
 return
 self
 .
-replyClass
+replyCtorFunc
 (
 )
 +
@@ -6443,7 +6443,7 @@ pfx
 +
 self
 .
-replyClass
+replyCtorFunc
 (
 )
     
@@ -11800,7 +11800,7 @@ _generateMessageConstructor
 (
 md
 .
-msgClass
+msgCtorFunc
 (
 )
 md
@@ -11876,7 +11876,7 @@ _generateMessageConstructor
                         
 md
 .
-replyClass
+replyCtorFunc
 (
 )
 md
@@ -36292,7 +36292,7 @@ ExprVar
 (
 md
 .
-pqMsgClass
+pqMsgCtorFunc
 (
 )
 )
@@ -36431,7 +36431,7 @@ ExprVar
 (
 md
 .
-pqReplyClass
+pqReplyCtorFunc
 (
 )
 )
