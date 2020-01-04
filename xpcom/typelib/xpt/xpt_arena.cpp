@@ -404,13 +404,13 @@ alignment
 size_t
 block_size
 ;
+#
+ifdef
+XPT_ARENA_LOGGING
 char
 *
 name
 ;
-#
-ifdef
-XPT_ARENA_LOGGING
 uint32_t
 LOG_MallocCallCount
 ;
@@ -548,6 +548,9 @@ alignment
 )
 )
 ;
+#
+ifdef
+XPT_ARENA_LOGGING
 if
 (
 name
@@ -564,9 +567,6 @@ arena
 name
 )
 ;
-#
-ifdef
-XPT_ARENA_LOGGING
 arena
 -
 >
@@ -588,9 +588,9 @@ LOG_MallocTotalBytesUsed
 =
 0
 ;
+}
 #
 endif
-}
 }
 return
 arena
