@@ -3525,7 +3525,7 @@ sClientId
 ;
 static
 bool
-sCreateNativeCaretForATOK
+sCreateNativeCaretForLegacyATOK
 ;
 static
 bool
