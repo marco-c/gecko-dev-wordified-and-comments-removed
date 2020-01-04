@@ -15909,7 +15909,6 @@ JS_SetTrustedPrincipals
 JSRuntime
 *
 rt
-const
 JSPrincipals
 *
 prin
