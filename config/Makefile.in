@@ -314,6 +314,13 @@ srcdir
 system
 -
 headers
+(
+srcdir
+)
+/
+stl
+-
+headers
 |
 (
 PERL

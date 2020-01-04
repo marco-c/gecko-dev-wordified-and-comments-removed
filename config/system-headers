@@ -480,7 +480,6 @@ h
 afxwin
 .
 h
-algorithm
 Aliases
 .
 h
@@ -1145,7 +1144,6 @@ h
 Carbon
 .
 h
-cassert
 c_asm
 .
 h
@@ -1190,7 +1188,6 @@ h
 CheckBox
 .
 h
-climits
 Clipboard
 .
 h
@@ -1286,9 +1283,6 @@ crypt
 .
 h
 cstddef
-cstdio
-cstdlib
-cstring
 ctime
 ctype
 .
@@ -1379,7 +1373,6 @@ h
 Debug
 .
 h
-deque
 dem
 .
 h
@@ -1741,7 +1734,6 @@ h
 fts
 .
 h
-functional
 gconf
 /
 gconf
@@ -2050,14 +2042,9 @@ IOPMLib
 .
 h
 iomanip
-ios
-iosfwd
-iostream
 iostream
 .
 h
-istream
-iterator
 JavaControl
 .
 h
@@ -2283,7 +2270,6 @@ init
 .
 h
 limits
-limits
 .
 h
 link
@@ -2329,7 +2315,6 @@ linux
 version
 .
 h
-list
 List
 .
 h
@@ -2568,7 +2553,6 @@ h
 malloc_np
 .
 h
-map
 mapicode
 .
 h
@@ -2929,7 +2913,6 @@ mem
 .
 h
 memory
-memory
 .
 h
 Memory
@@ -3020,7 +3003,6 @@ netinet
 tcp
 .
 h
-new
 newexe
 .
 h
@@ -3082,7 +3064,6 @@ h
 osreldate
 .
 h
-ostream
 OSUtils
 .
 h
@@ -3405,7 +3386,6 @@ h
 servprov
 .
 h
-set
 setjmp
 .
 h
@@ -3461,7 +3441,6 @@ sqlite3
 .
 h
 sstream
-stack
 #
 ifdef
 ANDROID
@@ -3717,7 +3696,6 @@ h
 StorageKit
 .
 h
-string
 StringCompare
 .
 h
@@ -4288,7 +4266,6 @@ h
 Traps
 .
 h
-type_traits
 typeinfo
 types
 .
@@ -4447,7 +4424,6 @@ h
 UResourceMgr
 .
 h
-utility
 #
 ifdef
 ANDROID
@@ -4580,7 +4556,6 @@ h
 UTextTraits
 .
 h
-utility
 utime
 .
 h
@@ -4596,7 +4571,6 @@ h
 vcclr
 .
 h
-vector
 View
 .
 h
