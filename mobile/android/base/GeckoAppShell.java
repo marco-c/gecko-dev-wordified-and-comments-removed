@@ -3097,7 +3097,7 @@ getSensorEventListener
 gOrientationSensor
 SensorManager
 .
-SENSOR_DELAY_GAME
+SENSOR_DELAY_FASTEST
 )
 ;
 break
@@ -3144,7 +3144,7 @@ getSensorEventListener
 gAccelerometerSensor
 SensorManager
 .
-SENSOR_DELAY_GAME
+SENSOR_DELAY_FASTEST
 )
 ;
 break
@@ -3285,7 +3285,7 @@ getSensorEventListener
 gLinearAccelerometerSensor
 SensorManager
 .
-SENSOR_DELAY_GAME
+SENSOR_DELAY_FASTEST
 )
 ;
 break
@@ -3332,7 +3332,7 @@ getSensorEventListener
 gGyroscopeSensor
 SensorManager
 .
-SENSOR_DELAY_GAME
+SENSOR_DELAY_FASTEST
 )
 ;
 break
@@ -3379,7 +3379,7 @@ getSensorEventListener
 gRotationVectorSensor
 SensorManager
 .
-SENSOR_DELAY_GAME
+SENSOR_DELAY_FASTEST
 )
 ;
 break
@@ -3424,7 +3424,7 @@ getSensorEventListener
 gGameRotationVectorSensor
 SensorManager
 .
-SENSOR_DELAY_GAME
+SENSOR_DELAY_FASTEST
 )
 ;
 break
