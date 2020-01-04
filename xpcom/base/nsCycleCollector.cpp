@@ -3195,6 +3195,10 @@ PurpleBlock
 "
 )
 ;
+InitNextPointers
+(
+)
+;
 }
 void
 InitNextPointers
@@ -3385,12 +3389,6 @@ nsPurpleBuffer
 )
 {
 InitBlocks
-(
-)
-;
-mFirstBlock
-.
-InitNextPointers
 (
 )
 ;
@@ -3663,13 +3661,6 @@ b
 -
 >
 mEntries
-;
-b
--
->
-InitNextPointers
-(
-)
 ;
 b
 -
