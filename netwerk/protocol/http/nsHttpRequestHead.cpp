@@ -115,6 +115,12 @@ nsHttpHeaderArray
 aHeaders
 )
 {
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 mHeaders
 =
 aHeaders
