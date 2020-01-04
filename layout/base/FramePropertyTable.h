@@ -62,6 +62,7 @@ void
 FramePropertyDestructorWithFrame
 )
 (
+const
 nsIFrame
 *
 aFrame
@@ -113,6 +114,7 @@ DeleteAll
 void
 Set
 (
+const
 nsIFrame
 *
 aFrame
@@ -148,6 +150,7 @@ void
 *
 Remove
 (
+const
 nsIFrame
 *
 aFrame
@@ -165,6 +168,7 @@ nullptr
 void
 Delete
 (
+const
 nsIFrame
 *
 aFrame
@@ -177,6 +181,7 @@ aProperty
 void
 DeleteAllFor
 (
+const
 nsIFrame
 *
 aFrame
@@ -290,6 +295,7 @@ mValue
 void
 DestroyValueFor
 (
+const
 nsIFrame
 *
 aFrame
@@ -476,6 +482,7 @@ Entry
 public
 nsPtrHashKey
 <
+const
 nsIFrame
 >
 {
@@ -490,6 +497,7 @@ aKey
 :
 nsPtrHashKey
 <
+const
 nsIFrame
 >
 (
@@ -507,6 +515,7 @@ toCopy
 :
 nsPtrHashKey
 <
+const
 nsIFrame
 >
 (
@@ -559,6 +568,7 @@ Entry
 >
 mEntries
 ;
+const
 nsIFrame
 *
 mLastFrame
@@ -579,26 +589,6 @@ FrameProperties
 FramePropertyTable
 *
 aTable
-nsIFrame
-*
-aFrame
-)
-:
-mTable
-(
-aTable
-)
-mFrame
-(
-aFrame
-)
-{
-}
-FrameProperties
-(
-FramePropertyTable
-*
-aTable
 const
 nsIFrame
 *
@@ -611,14 +601,7 @@ aTable
 )
 mFrame
 (
-const_cast
-<
-nsIFrame
-*
->
-(
 aFrame
-)
 )
 {
 }
@@ -727,6 +710,7 @@ FramePropertyTable
 *
 mTable
 ;
+const
 nsIFrame
 *
 mFrame

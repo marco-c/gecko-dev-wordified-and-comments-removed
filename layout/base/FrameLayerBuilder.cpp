@@ -1092,6 +1092,7 @@ i
 }
 }
 static
+const
 nsIFrame
 *
 sDestroyedFrame
@@ -5087,6 +5088,7 @@ FrameLayerBuilder
 :
 RemoveFrameFromLayerManager
 (
+const
 nsIFrame
 *
 aFrame
