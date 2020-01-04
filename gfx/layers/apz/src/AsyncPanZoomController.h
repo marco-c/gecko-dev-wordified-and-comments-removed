@@ -759,8 +759,6 @@ const
 PanGestureInput
 &
 aEvent
-ScrollSource
-aSource
 bool
 aFingersOnTouchpad
 )
