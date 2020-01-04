@@ -3450,6 +3450,9 @@ mIsAudioTrackAudible
 bool
 mAudible
 ;
+nsAutoCString
+mMimeType
+;
 }
 ;
 }
