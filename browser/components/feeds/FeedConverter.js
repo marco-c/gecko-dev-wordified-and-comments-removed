@@ -1870,6 +1870,15 @@ spec
 title
 subtitle
 )
+.
+catch
+(
+Components
+.
+utils
+.
+reportError
+)
 ;
 break
 ;
