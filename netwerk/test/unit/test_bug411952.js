@@ -84,8 +84,6 @@ false
 true
 false
 time
-{
-}
 )
 ;
 const

@@ -721,8 +721,6 @@ false
 false
 false
 expiry
-{
-}
 )
 ;
 if
@@ -815,8 +813,6 @@ cookiemgr
 getCookiesFromHost
 (
 host
-{
-}
 )
 ;
 do_check_true
