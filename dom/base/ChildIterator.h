@@ -185,6 +185,14 @@ GetNextChild
 (
 )
 ;
+void
+Seek
+(
+nsIContent
+*
+aChildToFind
+)
+;
 bool
 Seek
 (
@@ -194,8 +202,6 @@ aChildToFind
 nsIContent
 *
 aBound
-=
-nullptr
 )
 {
 nsIContent
