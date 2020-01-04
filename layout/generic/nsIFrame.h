@@ -7427,6 +7427,11 @@ BackfaceIsHidden
 )
 ;
 }
+bool
+IsScrolledOutOfView
+(
+)
+;
 protected
 :
 nsRect
