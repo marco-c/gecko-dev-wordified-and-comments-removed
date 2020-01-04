@@ -425,7 +425,7 @@ referrer
 "
 :
 {
-referrerpolicy
+referrerPolicy
 :
 t
 .
