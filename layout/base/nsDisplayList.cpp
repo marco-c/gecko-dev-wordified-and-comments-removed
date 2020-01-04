@@ -2118,15 +2118,9 @@ if
 (
 aCTF
 .
-GetType
+HasSpline
 (
 )
-=
-=
-nsTimingFunction
-:
-:
-Function
 )
 {
 const
@@ -2184,6 +2178,9 @@ GetType
 =
 =
 nsTimingFunction
+:
+:
+Type
 :
 :
 StepStart

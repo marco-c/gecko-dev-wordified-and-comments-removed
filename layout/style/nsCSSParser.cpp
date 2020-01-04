@@ -61620,7 +61620,8 @@ false
 int32_t
 type
 =
-NS_STYLE_TRANSITION_TIMING_FUNCTION_STEP_END
+-
+1
 ;
 if
 (
@@ -61645,11 +61646,6 @@ return
 false
 ;
 }
-type
-=
--
-1
-;
 if
 (
 mToken

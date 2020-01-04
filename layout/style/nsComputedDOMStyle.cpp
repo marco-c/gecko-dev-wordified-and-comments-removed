@@ -26009,13 +26009,9 @@ if
 (
 aTimingFunction
 .
-mType
-=
-=
-nsTimingFunction
-:
-:
-Function
+HasSpline
+(
+)
 )
 {
 tmp
@@ -26137,6 +26133,9 @@ mType
 =
 =
 nsTimingFunction
+:
+:
+Type
 :
 :
 StepStart
