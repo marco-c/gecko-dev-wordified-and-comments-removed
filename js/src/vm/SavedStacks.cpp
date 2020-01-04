@@ -2601,6 +2601,11 @@ JSContext
 cx
 HandleSavedFrame
 frame
+JS
+:
+:
+SavedFrameSelfHosted
+selfHosted
 bool
 &
 skippedAsync
@@ -2620,9 +2625,33 @@ frame
 while
 (
 rootedFrame
-&
-&
+)
+{
+if
+(
+(
+selfHosted
+=
+=
+JS
+:
+:
+SavedFrameSelfHosted
+:
+:
+Include
+|
+|
 !
+rootedFrame
+-
+>
+isSelfHosted
+(
+)
+)
+&
+&
 SavedFrameSubsumedByCaller
 (
 cx
@@ -2630,6 +2659,10 @@ rootedFrame
 )
 )
 {
+return
+rootedFrame
+;
+}
 if
 (
 rootedFrame
@@ -2654,7 +2687,7 @@ getParent
 ;
 }
 return
-rootedFrame
+nullptr
 ;
 }
 JS_FRIEND_API
@@ -2669,6 +2702,11 @@ JSContext
 cx
 HandleObject
 savedFrame
+JS
+:
+:
+SavedFrameSelfHosted
+selfHosted
 )
 {
 if
@@ -2703,6 +2741,7 @@ GetFirstSubsumedFrame
 (
 cx
 frame
+selfHosted
 skippedAsync
 )
 ;
@@ -3066,6 +3105,8 @@ JSContext
 cx
 HandleObject
 obj
+SavedFrameSelfHosted
+selfHosted
 bool
 &
 skippedAsync
@@ -3089,10 +3130,13 @@ obj
 )
 )
 ;
-MOZ_ASSERT
+if
 (
+!
 savedFrameObj
 )
+return
+nullptr
 ;
 MOZ_ASSERT
 (
@@ -3136,6 +3180,7 @@ GetFirstSubsumedFrame
 (
 cx
 frame
+selfHosted
 skippedAsync
 )
 ;
@@ -3153,6 +3198,8 @@ HandleObject
 savedFrame
 MutableHandleString
 sourcep
+SavedFrameSelfHosted
+selfHosted
 )
 {
 AutoMaybeEnterFrameCompartment
@@ -3176,6 +3223,7 @@ UnwrapSavedFrame
 (
 cx
 savedFrame
+selfHosted
 skippedAsync
 )
 )
@@ -3241,6 +3289,8 @@ savedFrame
 uint32_t
 *
 linep
+SavedFrameSelfHosted
+selfHosted
 )
 {
 MOZ_ASSERT
@@ -3269,6 +3319,7 @@ UnwrapSavedFrame
 (
 cx
 savedFrame
+selfHosted
 skippedAsync
 )
 )
@@ -3322,6 +3373,8 @@ savedFrame
 uint32_t
 *
 columnp
+SavedFrameSelfHosted
+selfHosted
 )
 {
 MOZ_ASSERT
@@ -3350,6 +3403,7 @@ UnwrapSavedFrame
 (
 cx
 savedFrame
+selfHosted
 skippedAsync
 )
 )
@@ -3402,6 +3456,8 @@ HandleObject
 savedFrame
 MutableHandleString
 namep
+SavedFrameSelfHosted
+selfHosted
 )
 {
 AutoMaybeEnterFrameCompartment
@@ -3425,6 +3481,7 @@ UnwrapSavedFrame
 (
 cx
 savedFrame
+selfHosted
 skippedAsync
 )
 )
@@ -3481,6 +3538,8 @@ HandleObject
 savedFrame
 MutableHandleString
 asyncCausep
+SavedFrameSelfHosted
+selfHosted
 )
 {
 AutoMaybeEnterFrameCompartment
@@ -3504,6 +3563,7 @@ UnwrapSavedFrame
 (
 cx
 savedFrame
+selfHosted
 skippedAsync
 )
 )
@@ -3582,6 +3642,8 @@ HandleObject
 savedFrame
 MutableHandleObject
 asyncParentp
+SavedFrameSelfHosted
+selfHosted
 )
 {
 AutoMaybeEnterFrameCompartment
@@ -3605,6 +3667,7 @@ UnwrapSavedFrame
 (
 cx
 savedFrame
+selfHosted
 skippedAsync
 )
 )
@@ -3655,6 +3718,7 @@ GetFirstSubsumedFrame
 (
 cx
 parent
+selfHosted
 skippedAsync
 )
 )
@@ -3711,6 +3775,8 @@ HandleObject
 savedFrame
 MutableHandleObject
 parentp
+SavedFrameSelfHosted
+selfHosted
 )
 {
 AutoMaybeEnterFrameCompartment
@@ -3734,6 +3800,7 @@ UnwrapSavedFrame
 (
 cx
 savedFrame
+selfHosted
 skippedAsync
 )
 )
@@ -3784,6 +3851,7 @@ GetFirstSubsumedFrame
 (
 cx
 parent
+selfHosted
 skippedAsync
 )
 )
@@ -3876,6 +3944,10 @@ UnwrapSavedFrame
 (
 cx
 stack
+SavedFrameSelfHosted
+:
+:
+Exclude
 skippedAsync
 )
 )
@@ -3925,7 +3997,7 @@ frame
 )
 )
 ;
-if
+MOZ_ASSERT
 (
 !
 frame
@@ -3935,7 +4007,7 @@ isSelfHosted
 (
 )
 )
-{
+;
 RootedString
 asyncCause
 (
@@ -4140,7 +4212,6 @@ return
 false
 ;
 }
-}
 parent
 =
 frame
@@ -4159,6 +4230,10 @@ GetFirstSubsumedFrame
 (
 cx
 parent
+SavedFrameSelfHosted
+:
+:
+Exclude
 skippedAsync
 )
 ;

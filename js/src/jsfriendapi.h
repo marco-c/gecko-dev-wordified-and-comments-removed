@@ -10986,6 +10986,11 @@ JS
 :
 HandleObject
 savedFrame
+JS
+:
+:
+SavedFrameSelfHosted
+selfHosted
 )
 ;
 extern

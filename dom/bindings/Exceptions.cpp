@@ -1496,6 +1496,10 @@ JSObject
 *
 >
 GetterOutParamType
+JS
+:
+:
+SavedFrameSelfHosted
 )
 bool
 aIsCached
@@ -1583,6 +1587,13 @@ aPropGetter
 aCx
 stack
 aValue
+JS
+:
+:
+SavedFrameSelfHosted
+:
+:
+Exclude
 )
 ;
 }
