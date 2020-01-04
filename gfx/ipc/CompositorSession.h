@@ -86,6 +86,8 @@ gfx
 :
 GPUProcessManager
 ;
+protected
+:
 typedef
 widget
 :
