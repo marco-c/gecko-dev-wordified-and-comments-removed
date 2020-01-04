@@ -134,7 +134,7 @@ class
 CompositableForwarder
 :
 public
-ISurfaceAllocator
+ClientIPCAllocator
 {
 public
 :
@@ -410,17 +410,6 @@ return
 mTextureFactoryIdentifier
 .
 mMaxTextureSize
-;
-}
-bool
-IsOnCompositorSide
-(
-)
-const
-override
-{
-return
-false
 ;
 }
 LayersBackend

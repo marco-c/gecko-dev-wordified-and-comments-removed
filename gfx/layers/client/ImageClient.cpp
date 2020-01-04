@@ -430,7 +430,7 @@ GetForwarder
 )
 -
 >
-IsImageBridgeChild
+UsesImageBridge
 (
 )
 )
