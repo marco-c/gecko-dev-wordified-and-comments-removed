@@ -1519,12 +1519,6 @@ FreeOp
 fop
 )
 ;
-void
-fixupAfterMovingGC
-(
-)
-{
-}
 size_t
 sizeOfExcludingThis
 (

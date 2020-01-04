@@ -1386,12 +1386,6 @@ JSTracer
 trc
 )
 ;
-void
-fixupAfterMovingGC
-(
-)
-{
-}
 private
 :
 static

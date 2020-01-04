@@ -1290,12 +1290,6 @@ FreeOp
 fop
 )
 ;
-void
-fixupAfterMovingGC
-(
-)
-{
-}
 static
 const
 JS
