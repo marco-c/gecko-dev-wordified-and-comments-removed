@@ -80,6 +80,15 @@ extensions
 /
 schemas
 /
+web_navigation
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 web_request
 .
 json
