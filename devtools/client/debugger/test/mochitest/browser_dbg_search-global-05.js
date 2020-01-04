@@ -737,7 +737,7 @@ isCaretPos
 (
 gPanel
 1
-5
+1
 )
 "
 The
@@ -765,7 +765,6 @@ getSelection
 (
 )
 "
-A
 "
 "
 The
@@ -1025,8 +1024,8 @@ ok
 isCaretPos
 (
 gPanel
-13
-3
+1
+1
 )
 "
 The
@@ -1054,7 +1053,6 @@ getSelection
 (
 )
 "
-a
 "
 "
 The

@@ -88,11 +88,6 @@ globalActions
 js
 '
 '
-queries
-.
-js
-'
-'
 utils
 .
 js

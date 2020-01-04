@@ -111,11 +111,7 @@ store
 js
 '
 '
-non
--
-react
--
-subscriber
+reducers
 .
 js
 '

@@ -56,11 +56,11 @@ gView
 EventListeners
 ;
 let
-gController
+gStore
 =
 gDebugger
 .
-DebuggerController
+store
 ;
 let
 constants
@@ -100,9 +100,9 @@ html
 let
 fetched
 =
-waitForDispatch
+afterDispatch
 (
-aPanel
+gStore
 constants
 .
 FETCH_EVENT_LISTENERS
