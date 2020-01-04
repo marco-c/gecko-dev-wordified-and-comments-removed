@@ -219,10 +219,10 @@ class
 CleanupAvrcpResultHandlerRunnable
 ;
 class
-ConnectResultHandler
+ConnectRunnable
 ;
 class
-DisconnectResultHandler
+DisconnectRunnable
 ;
 class
 InitAvrcpResultHandler
