@@ -490,6 +490,9 @@ TelemetryContract
 Method
 .
 LIST_ITEM
+"
+reading_list
+"
 )
 ;
 mUrlOpenListener

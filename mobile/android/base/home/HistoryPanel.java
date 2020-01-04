@@ -816,6 +816,9 @@ TelemetryContract
 Method
 .
 LIST_ITEM
+"
+history
+"
 )
 ;
 mUrlOpenListener

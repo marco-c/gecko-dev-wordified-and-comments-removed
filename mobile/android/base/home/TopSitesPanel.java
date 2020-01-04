@@ -977,6 +977,9 @@ TelemetryContract
 Method
 .
 LIST_ITEM
+"
+top_sites
+"
 )
 ;
 mUrlOpenListener

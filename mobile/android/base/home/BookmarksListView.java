@@ -472,6 +472,9 @@ TelemetryContract
 Method
 .
 LIST_ITEM
+"
+bookmarks
+"
 )
 ;
 getOnUrlOpenListener
