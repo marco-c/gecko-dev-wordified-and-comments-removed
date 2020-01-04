@@ -4909,7 +4909,7 @@ NS_OK
 SurfaceCache
 :
 :
-UnlockSurfaces
+UnlockEntries
 (
 ImageKey
 (

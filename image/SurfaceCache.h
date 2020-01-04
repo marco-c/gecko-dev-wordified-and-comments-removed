@@ -577,7 +577,7 @@ aImageKey
 ;
 static
 void
-UnlockSurfaces
+UnlockEntries
 (
 const
 ImageKey
@@ -586,7 +586,7 @@ aImageKey
 ;
 static
 void
-RemoveSurface
+RemoveEntry
 (
 const
 ImageKey

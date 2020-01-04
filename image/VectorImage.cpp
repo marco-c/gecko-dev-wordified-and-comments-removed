@@ -3516,7 +3516,7 @@ aParams
 SurfaceCache
 :
 :
-UnlockSurfaces
+UnlockEntries
 (
 ImageKey
 (
