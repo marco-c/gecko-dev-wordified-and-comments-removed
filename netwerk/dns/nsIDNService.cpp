@@ -2225,6 +2225,8 @@ kMaxDNSNodeLen
 ;
 uint32_t
 ucs4Len
+=
+0u
 ;
 nsresult
 rv
