@@ -18,12 +18,6 @@ tests
 .
 h
 "
-using
-mozilla
-:
-:
-MakeUnique
-;
 BEGIN_TEST
 (
 testGCHeapPostBarriers
@@ -192,6 +186,9 @@ initialObj
 auto
 heapData
 =
+mozilla
+:
+:
 MakeUnique
 <
 JS
