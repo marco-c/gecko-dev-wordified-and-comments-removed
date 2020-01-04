@@ -2075,6 +2075,14 @@ bool
 aFirstParty
 )
 ;
+bool
+IsAboutNewtab
+(
+nsIURI
+*
+aURI
+)
+;
 protected
 :
 nsresult
