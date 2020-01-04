@@ -405,11 +405,11 @@ mSendingHeight
 )
 mReceivingWidth
 (
-640
+0
 )
 mReceivingHeight
 (
-480
+0
 )
 mSendingFramerate
 (
