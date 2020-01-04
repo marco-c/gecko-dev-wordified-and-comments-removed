@@ -400,7 +400,7 @@ doc
 mContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -1375,7 +1375,7 @@ IsEmpty
 mContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 )
@@ -1387,7 +1387,7 @@ keyContent
 mContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 -

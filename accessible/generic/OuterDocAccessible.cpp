@@ -119,7 +119,7 @@ outerDoc
 mContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

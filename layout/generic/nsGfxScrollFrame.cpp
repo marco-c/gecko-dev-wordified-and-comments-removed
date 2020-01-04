@@ -3738,7 +3738,7 @@ doc
 aContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -20474,7 +20474,7 @@ doc
 content
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -26111,7 +26111,7 @@ doc
 content
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

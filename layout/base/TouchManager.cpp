@@ -229,7 +229,7 @@ doc
 node
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

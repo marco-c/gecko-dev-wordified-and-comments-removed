@@ -1943,7 +1943,7 @@ documentNode
 aTargetNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

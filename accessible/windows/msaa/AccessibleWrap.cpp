@@ -1970,7 +1970,7 @@ document
 content
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

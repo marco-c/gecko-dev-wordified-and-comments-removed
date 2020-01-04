@@ -987,7 +987,7 @@ tmp
 mRootElement
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 :
@@ -1843,7 +1843,7 @@ do_QueryInterface
 content
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 )

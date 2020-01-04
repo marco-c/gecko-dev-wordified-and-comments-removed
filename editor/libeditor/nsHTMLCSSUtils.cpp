@@ -2931,7 +2931,7 @@ doc
 aElement
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

@@ -1722,7 +1722,7 @@ document
 content
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

@@ -20419,7 +20419,7 @@ if
 content
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 =
@@ -20432,7 +20432,7 @@ GetStartParent
 )
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 )

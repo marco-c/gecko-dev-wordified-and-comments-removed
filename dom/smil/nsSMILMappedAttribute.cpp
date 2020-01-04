@@ -508,7 +508,7 @@ doc
 mElement
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

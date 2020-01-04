@@ -4200,7 +4200,7 @@ doc
 dragNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

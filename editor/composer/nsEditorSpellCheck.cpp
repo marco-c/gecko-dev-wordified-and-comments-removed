@@ -2809,7 +2809,7 @@ doc
 rootContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

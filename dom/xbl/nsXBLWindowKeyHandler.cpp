@@ -3088,7 +3088,7 @@ doc
 keyContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

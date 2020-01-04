@@ -1661,7 +1661,7 @@ doc
 aNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -22757,7 +22757,7 @@ document
 targetContent
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;

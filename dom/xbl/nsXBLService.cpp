@@ -599,7 +599,7 @@ doc
 mBoundElement
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -1432,7 +1432,7 @@ req
 mBoundElement
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -2320,7 +2320,7 @@ doc
 contentNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
@@ -2489,7 +2489,7 @@ doc
 contentNode
 -
 >
-GetCurrentDoc
+GetUncomposedDoc
 (
 )
 ;
