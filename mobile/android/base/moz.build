@@ -1203,6 +1203,13 @@ java
 '
 util
 /
+WebActivityMapper
+.
+java
+'
+'
+util
+/
 WindowUtils
 .
 java
@@ -1779,6 +1786,11 @@ java
 '
 '
 GeckoViewContent
+.
+java
+'
+'
+GeckoViewFragment
 .
 java
 '
