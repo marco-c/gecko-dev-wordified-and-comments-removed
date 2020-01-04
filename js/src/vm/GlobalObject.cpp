@@ -2066,7 +2066,7 @@ global
 )
 &
 &
-InitStopIterationClass
+initStopIterationClass
 (
 cx
 global
