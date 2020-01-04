@@ -725,6 +725,13 @@ const
 ;
 inline
 bool
+isModuleFrame
+(
+)
+const
+;
+inline
+bool
 isGlobalFrame
 (
 )
@@ -2188,6 +2195,8 @@ flags_
 EVAL
 |
 GLOBAL
+|
+MODULE
 )
 )
 return
