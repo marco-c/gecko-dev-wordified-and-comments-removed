@@ -101,6 +101,9 @@ b6af
 process
 =
 content
+#
+ifndef
+MOZ_WIDGET_GONK
 category
 update
 -
@@ -129,9 +132,6 @@ blocklist
 .
 interval
 86400
-#
-ifndef
-MOZ_WIDGET_GONK
 component
 {
 4399533d
