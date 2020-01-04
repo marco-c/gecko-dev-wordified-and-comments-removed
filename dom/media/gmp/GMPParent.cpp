@@ -399,13 +399,6 @@ GMPParent
 (
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 LOGD
 (
 "
