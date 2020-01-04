@@ -144,6 +144,12 @@ srcDir
 "
 src
 /
+robocop_harness
+"
+srcDir
+"
+src
+/
 robocop
 "
 srcDir
