@@ -826,9 +826,7 @@ name
 browser_toolbar_site_security_height
 "
 >
-dimen
-/
-match_parent
+32dp
 <
 /
 dimen
@@ -841,7 +839,7 @@ name
 browser_toolbar_site_security_width
 "
 >
-12dp
+32dp
 <
 /
 dimen
@@ -854,7 +852,7 @@ name
 browser_toolbar_site_security_margin_right
 "
 >
-4dp
+0dp
 <
 /
 dimen
@@ -867,7 +865,7 @@ name
 browser_toolbar_site_security_padding_vertical
 "
 >
-0dp
+7dp
 <
 /
 dimen
@@ -880,7 +878,7 @@ name
 browser_toolbar_site_security_padding_horizontal
 "
 >
-0dp
+7dp
 <
 /
 dimen
