@@ -839,6 +839,14 @@ groupbox
 xul
 |
 label
+:
+not
+(
+.
+menu
+-
+text
+)
 xul
 |
 groupbox
