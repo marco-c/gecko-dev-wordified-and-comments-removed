@@ -1381,6 +1381,29 @@ tooltool
 py
 '
 )
+        
+(
+'
+/
+usr
+/
+local
+/
+lib
+/
+hgext
+'
+'
+/
+usr
+/
+local
+/
+lib
+/
+hgext
+'
+)
     
 ]
     
