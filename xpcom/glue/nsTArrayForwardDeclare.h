@@ -42,8 +42,4 @@ define
 InfallibleTArray
 nsTArray
 #
-define
-AutoInfallibleTArray
-AutoTArray
-#
 endif
