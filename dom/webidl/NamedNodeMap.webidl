@@ -105,6 +105,11 @@ name
 ;
 [
 Throws
+BinaryName
+=
+"
+setNamedItemNS
+"
 ]
 Attr
 ?

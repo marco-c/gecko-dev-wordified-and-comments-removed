@@ -5730,7 +5730,7 @@ Attributes
 )
 -
 >
-SetNamedItem
+SetNamedItemNS
 (
 aNewAttr
 aError
