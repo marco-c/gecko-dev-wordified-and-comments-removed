@@ -3963,10 +3963,6 @@ getFace
 ;
 SkASSERT
 (
-&
-glyph
-&
-&
 path
 )
 ;
