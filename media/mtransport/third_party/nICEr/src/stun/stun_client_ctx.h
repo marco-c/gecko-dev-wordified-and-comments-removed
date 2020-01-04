@@ -327,7 +327,7 @@ UINT4
 maximum_transmits
 ;
 UINT4
-final_retransmit_backoff_ms
+maximum_transmits_timeout_ms
 ;
 UINT4
 mapped_addr_check_mask
