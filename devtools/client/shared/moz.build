@@ -130,6 +130,9 @@ components
 redux
 '
 '
+shim
+'
+'
 vendor
 '
 '
