@@ -4351,6 +4351,8 @@ AssignASCII
 (
 chars
 NSID_LENGTH
+-
+1
 )
 ;
 return
