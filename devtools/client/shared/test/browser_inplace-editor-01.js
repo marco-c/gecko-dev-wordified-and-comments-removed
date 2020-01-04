@@ -296,8 +296,6 @@ value
 let
 def
 =
-promise
-.
 defer
 (
 )
@@ -406,8 +404,6 @@ value
 let
 def
 =
-promise
-.
 defer
 (
 )
@@ -513,8 +509,6 @@ value
 let
 def
 =
-promise
-.
 defer
 (
 )
@@ -585,8 +579,6 @@ function
 let
 def
 =
-promise
-.
 defer
 (
 )
@@ -723,8 +715,6 @@ value
 let
 def
 =
-promise
-.
 defer
 (
 )

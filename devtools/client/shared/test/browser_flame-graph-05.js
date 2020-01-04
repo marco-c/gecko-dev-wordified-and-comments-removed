@@ -655,8 +655,6 @@ ms
 let
 deferred
 =
-promise
-.
 defer
 (
 )

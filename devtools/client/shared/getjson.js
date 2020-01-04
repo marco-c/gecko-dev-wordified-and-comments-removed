@@ -16,12 +16,16 @@ chrome
 )
 ;
 const
-promise
+defer
 =
 require
 (
 "
-promise
+devtools
+/
+shared
+/
+defer
 "
 )
 ;
@@ -84,8 +88,6 @@ prefName
 let
 deferred
 =
-promise
-.
 defer
 (
 )

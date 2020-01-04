@@ -142,6 +142,20 @@ promise
 "
 )
 ;
+var
+defer
+=
+require
+(
+"
+devtools
+/
+shared
+/
+defer
+"
+)
+;
 this
 .
 EXPORTED_SYMBOLS
@@ -244,8 +258,6 @@ ACU_validateManifest
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -391,8 +403,6 @@ uriInfo
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1023,8 +1033,6 @@ nsIScriptableInputStream
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1751,8 +1759,6 @@ ACU__getManifestURI
 let
 deferred
 =
-promise
-.
 defer
 (
 )

@@ -32,12 +32,16 @@ Services
 )
 ;
 const
-promise
+defer
 =
 require
 (
 "
-promise
+devtools
+/
+shared
+/
+defer
 "
 )
 ;
@@ -140,8 +144,6 @@ GetDevices
 let
 deferred
 =
-promise
-.
 defer
 (
 )

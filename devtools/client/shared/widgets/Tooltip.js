@@ -16,12 +16,16 @@ chrome
 )
 ;
 const
-promise
+defer
 =
 require
 (
 "
-promise
+devtools
+/
+shared
+/
+defer
 "
 )
 ;
@@ -2261,8 +2265,6 @@ url
 let
 def
 =
-promise
-.
 defer
 (
 )
@@ -2471,8 +2473,6 @@ wrappedJSObject
 let
 def
 =
-promise
-.
 defer
 (
 )
@@ -2640,8 +2640,6 @@ wrappedJSObject
 let
 def
 =
-promise
-.
 defer
 (
 )
@@ -2796,8 +2794,6 @@ wrappedJSObject
 let
 def
 =
-promise
-.
 defer
 (
 )

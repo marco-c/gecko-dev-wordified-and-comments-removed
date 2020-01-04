@@ -107,6 +107,20 @@ promise
 )
 ;
 var
+defer
+=
+require
+(
+"
+devtools
+/
+shared
+/
+defer
+"
+)
+;
+var
 {
 LocalizationHelper
 }
@@ -497,8 +511,6 @@ aGrip
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -711,8 +723,6 @@ count
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -852,8 +862,6 @@ aGrip
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -937,8 +945,6 @@ aQuery
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1481,8 +1487,6 @@ then
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1557,8 +1561,6 @@ aOptions
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1928,8 +1930,6 @@ else
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -2506,8 +2506,6 @@ variable
 let
 deferred
 =
-promise
-.
 defer
 (
 )
