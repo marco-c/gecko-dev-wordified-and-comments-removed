@@ -445,11 +445,6 @@ int32_t
 offset
 int32_t
 endOffset
-Register
-out
-Label
-&
-rejoin
 )
 ;
 }

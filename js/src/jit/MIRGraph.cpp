@@ -488,6 +488,15 @@ ASMJS_MAY_USE_SIGNAL_HANDLERS_FOR_OOB
 if
 (
 usesSignalHandlersForAsmJSOOB_
+&
+&
+!
+access
+-
+>
+isAtomicAccess
+(
+)
 )
 return
 false
