@@ -307,6 +307,10 @@ PPrinting
 ;
 include
 protocol
+PSendStream
+;
+include
+protocol
 POfflineCacheUpdate
 ;
 include
@@ -1496,6 +1500,9 @@ POfflineCacheUpdate
 ;
 manages
 PPrinting
+;
+manages
+PSendStream
 ;
 manages
 PScreenManager
@@ -3856,6 +3863,11 @@ PNecko
 ;
 async
 PPrinting
+(
+)
+;
+async
+PSendStream
 (
 )
 ;

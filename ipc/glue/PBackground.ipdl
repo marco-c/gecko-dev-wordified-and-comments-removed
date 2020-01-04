@@ -118,6 +118,10 @@ PQuota
 ;
 include
 protocol
+PSendStream
+;
+include
+protocol
 PServiceWorkerManager
 ;
 include
@@ -281,6 +285,9 @@ manages
 PQuota
 ;
 manages
+PSendStream
+;
+manages
 PServiceWorkerManager
 ;
 manages
@@ -400,6 +407,11 @@ sequenceId
 ;
 async
 PNuwa
+(
+)
+;
+async
+PSendStream
 (
 )
 ;
