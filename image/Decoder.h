@@ -778,7 +778,7 @@ PostHasTransparency
 void
 PostIsAnimated
 (
-int32_t
+FrameTimeout
 aFirstFrameTimeout
 )
 ;
@@ -799,10 +799,16 @@ DisposalMethod
 :
 :
 KEEP
-int32_t
+FrameTimeout
 aTimeout
 =
+FrameTimeout
+:
+:
+FromRawMilliseconds
+(
 0
+)
 BlendMethod
 aBlendMethod
 =

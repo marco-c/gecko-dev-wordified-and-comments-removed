@@ -1672,7 +1672,7 @@ Decoder
 :
 PostIsAnimated
 (
-int32_t
+FrameTimeout
 aFirstFrameTimeout
 )
 {
@@ -1705,7 +1705,7 @@ Opacity
 aFrameOpacity
 DisposalMethod
 aDisposalMethod
-int32_t
+FrameTimeout
 aTimeout
 BlendMethod
 aBlendMethod

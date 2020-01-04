@@ -59,7 +59,12 @@ mLoopCount
 )
 mFirstFrameTimeout
 (
-0
+FrameTimeout
+:
+:
+Forever
+(
+)
 )
 mHasAnimation
 (
@@ -144,7 +149,7 @@ mLoopCount
 void
 SetFirstFrameTimeout
 (
-int32_t
+FrameTimeout
 aTimeout
 )
 {
@@ -153,7 +158,7 @@ mFirstFrameTimeout
 aTimeout
 ;
 }
-int32_t
+FrameTimeout
 GetFirstFrameTimeout
 (
 )
@@ -286,7 +291,7 @@ mHotspot
 int32_t
 mLoopCount
 ;
-int32_t
+FrameTimeout
 mFirstFrameTimeout
 ;
 Maybe

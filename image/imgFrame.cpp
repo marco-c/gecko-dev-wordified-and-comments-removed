@@ -756,7 +756,13 @@ mLockCount
 )
 mTimeout
 (
+FrameTimeout
+:
+:
+FromRawMilliseconds
+(
 100
+)
 )
 mDisposalMethod
 (
@@ -3315,8 +3321,8 @@ Opacity
 aFrameOpacity
 DisposalMethod
 aDisposalMethod
-int32_t
-aRawTimeout
+FrameTimeout
+aTimeout
 BlendMethod
 aBlendMethod
 const
@@ -3370,7 +3376,7 @@ aDisposalMethod
 ;
 mTimeout
 =
-aRawTimeout
+aTimeout
 ;
 mBlendMethod
 =

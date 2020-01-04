@@ -1771,6 +1771,10 @@ GetTimeoutForFrame
 mAnimationState
 0
 )
+.
+AsEncodedValueDeprecated
+(
+)
 ;
 }
 already_AddRefed
@@ -3680,8 +3684,14 @@ GetTimeoutForFrame
 mAnimationState
 0
 )
-<
-0
+=
+=
+FrameTimeout
+:
+:
+Forever
+(
+)
 )
 {
 mAnimationFinished

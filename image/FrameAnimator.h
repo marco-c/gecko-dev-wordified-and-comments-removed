@@ -110,7 +110,13 @@ mLoopCount
 )
 mFirstFrameTimeout
 (
+FrameTimeout
+:
+:
+FromRawMilliseconds
+(
 0
+)
 )
 mAnimationMode
 (
@@ -201,7 +207,7 @@ mLoopCount
 void
 SetFirstFrameTimeout
 (
-int32_t
+FrameTimeout
 aTimeout
 )
 {
@@ -231,7 +237,7 @@ mLoopRemainingCount
 int32_t
 mLoopCount
 ;
-int32_t
+FrameTimeout
 mFirstFrameTimeout
 ;
 uint16_t
@@ -380,7 +386,7 @@ uint32_t
 aFrameNum
 )
 ;
-int32_t
+FrameTimeout
 GetTimeoutForFrame
 (
 AnimationState
