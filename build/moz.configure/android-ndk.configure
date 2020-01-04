@@ -393,7 +393,7 @@ cpu
 =
 =
 '
-mips
+mips32
 '
 and
 target
