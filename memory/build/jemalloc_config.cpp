@@ -120,9 +120,6 @@ MOZ_MALLOC_OPTIONS
 narenas
 :
 1
-lg_chunk
-:
-20
 tcache
 :
 false
