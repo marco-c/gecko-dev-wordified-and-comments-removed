@@ -72,6 +72,13 @@ h
 #
 include
 "
+nsCanvasFrame
+.
+h
+"
+#
+include
+"
 nsDocShell
 .
 h

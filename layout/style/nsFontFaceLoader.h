@@ -223,6 +223,9 @@ nsITimer
 >
 mLoadTimer
 ;
+mozilla
+:
+:
 TimeStamp
 mStartTime
 ;

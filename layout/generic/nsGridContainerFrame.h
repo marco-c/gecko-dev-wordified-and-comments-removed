@@ -403,6 +403,13 @@ typedef
 mozilla
 :
 :
+LogicalSize
+LogicalSize
+;
+typedef
+mozilla
+:
+:
 WritingMode
 WritingMode
 ;
