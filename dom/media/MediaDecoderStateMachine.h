@@ -1276,12 +1276,12 @@ UpdateRenderedVideoFrames
 )
 ;
 void
-StopAudioSink
+StopMediaSink
 (
 )
 ;
 void
-StartAudioSink
+StartMediaSink
 (
 )
 ;
@@ -1509,12 +1509,12 @@ aTimeStamp
 private
 :
 void
-OnAudioSinkComplete
+OnMediaSinkComplete
 (
 )
 ;
 void
-OnAudioSinkError
+OnMediaSinkError
 (
 )
 ;
@@ -2806,7 +2806,7 @@ media
 :
 MediaSink
 >
-mAudioSink
+mMediaSink
 ;
 nsRefPtr
 <
@@ -3394,7 +3394,7 @@ MozPromiseRequestHolder
 <
 GenericPromise
 >
-mAudioSinkPromise
+mMediaSinkPromise
 ;
 MozPromiseRequestHolder
 <
