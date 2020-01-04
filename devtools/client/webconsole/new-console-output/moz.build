@@ -134,7 +134,7 @@ ini
 '
 test
 /
-utils
+mochitest
 /
 chrome
 .
