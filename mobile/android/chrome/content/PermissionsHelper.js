@@ -54,7 +54,7 @@ label
 "
 password
 .
-savePassword
+logins
 "
 allowed
 :
@@ -81,7 +81,7 @@ label
 "
 geolocation
 .
-shareLocation
+location
 "
 allowed
 :
@@ -108,7 +108,7 @@ label
 "
 blockPopups
 .
-label
+label2
 "
 allowed
 :
@@ -135,7 +135,7 @@ label
 "
 offlineApps
 .
-storeOfflineData
+offlineData
 "
 allowed
 :
@@ -164,7 +164,7 @@ label
 "
 offlineApps
 .
-storeOfflineData
+offlineData
 "
 allowed
 :
@@ -193,7 +193,7 @@ label
 "
 desktopNotification
 .
-useNotifications
+notifications
 "
 allowed
 :
@@ -220,7 +220,7 @@ label
 "
 clickToPlayPlugins
 .
-activatePlugins
+plugins
 "
 allowed
 :
