@@ -211,9 +211,6 @@ mIsLocked
 bool
 mIsProducerAcquired
 ;
-bool
-mIsConsumerAcquired
-;
 #
 ifdef
 DEBUG
@@ -273,6 +270,16 @@ const
 {
 return
 mIsLocked
+;
+}
+bool
+IsProducerAcquired
+(
+)
+const
+{
+return
+mIsProducerAcquired
 ;
 }
 void
