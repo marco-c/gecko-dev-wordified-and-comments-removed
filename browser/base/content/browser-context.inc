@@ -4202,13 +4202,6 @@ fillPasswordMenu
 label
 ;
 "
-class
-=
-"
-menu
--
-iconic
-"
 accesskey
 =
 "
