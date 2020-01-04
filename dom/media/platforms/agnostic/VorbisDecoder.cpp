@@ -899,9 +899,14 @@ InitVorbisPacket
 aData
 aLength
 false
-false
+aSample
 -
-1
+>
+mEOS
+aSample
+-
+>
+mTimecode
 mPacketCount
 +
 +
