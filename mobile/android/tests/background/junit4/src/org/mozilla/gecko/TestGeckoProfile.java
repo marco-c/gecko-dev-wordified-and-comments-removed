@@ -78,17 +78,6 @@ mozilla
 .
 gecko
 .
-helpers
-.
-FileUtil
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 util
 .
 FileUtils
@@ -1761,7 +1750,7 @@ final
 JSONObject
 actualObj
 =
-FileUtil
+FileUtils
 .
 readJSONObjectFromFile
 (
@@ -1792,7 +1781,7 @@ final
 JSONObject
 obj
 =
-FileUtil
+FileUtils
 .
 readJSONObjectFromFile
 (
