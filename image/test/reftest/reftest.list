@@ -344,17 +344,6 @@ reftest
 .
 list
 #
-Icon
-tests
-include
-icon
-/
-win
-/
-reftest
-.
-list
-#
 Generic
 image
 tests
