@@ -2951,9 +2951,10 @@ __defineGetter__
 "
 console
 "
-function
 (
 )
+=
+>
 console
 )
 ;
@@ -2983,9 +2984,10 @@ __defineGetter__
 "
 storage
 "
-function
 (
 )
+=
+>
 storage
 )
 ;
@@ -3017,9 +3019,10 @@ __defineGetter__
 "
 prefs
 "
-function
 (
 )
+=
+>
 prefs
 )
 ;
@@ -3176,9 +3179,10 @@ __defineGetter__
 "
 events
 "
-function
 (
 )
+=
+>
 events
 )
 ;

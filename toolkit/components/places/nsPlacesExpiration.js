@@ -2974,9 +2974,13 @@ get
 status
 (
 )
+{
+return
 this
 .
 _status
+;
+}
 _isIdleObserver
 :
 false
@@ -3083,9 +3087,13 @@ get
 expireOnIdle
 (
 )
+{
+return
 this
 .
 _expireOnIdle
+;
+}
 _loadPrefs
 :
 function
