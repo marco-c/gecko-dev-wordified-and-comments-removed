@@ -1249,6 +1249,9 @@ fuzzy
 if
 (
 azureSkia
+|
+|
+skiaContent
 9
 470
 )
@@ -1546,6 +1549,14 @@ if
 d2d
 12
 21
+)
+fuzzy
+-
+if
+(
+skiaContent
+12
+7
 )
 fuzzy
 -

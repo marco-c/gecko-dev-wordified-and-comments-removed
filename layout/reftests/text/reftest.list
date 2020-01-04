@@ -546,6 +546,14 @@ d2d
 &
 layersGPUAccelerated
 )
+|
+|
+(
+winWidget
+&
+&
+skiaContent
+)
 )
 HTTP
 (
@@ -1005,8 +1013,9 @@ Mac
 usually
 )
 #
-and
 D2D
+and
+Skia
 have
 subpixel
 positioning
@@ -1042,6 +1051,9 @@ d2d
 |
 |
 cocoaWidget
+|
+|
+skiaContent
 )
 =
 =

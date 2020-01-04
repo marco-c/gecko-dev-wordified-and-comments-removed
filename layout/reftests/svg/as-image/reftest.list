@@ -852,7 +852,7 @@ if
 (
 skiaContent
 255
-150
+350
 )
 =
 =
@@ -892,7 +892,7 @@ if
 (
 skiaContent
 255
-50
+90
 )
 =
 =
@@ -949,6 +949,14 @@ B2G
 /
 B2G
 Desktop
+fuzzy
+-
+if
+(
+skiaContent
+255
+27
+)
 =
 =
 img

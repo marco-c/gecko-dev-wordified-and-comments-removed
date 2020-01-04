@@ -80,6 +80,10 @@ fuzzy
 if
 (
 skiaContent
+&
+&
+!
+winWidget
 5
 10
 )
