@@ -363,6 +363,11 @@ PlacesSearchAutocompleteProvider
 jsm
 '
 '
+PlacesSyncUtils
+.
+jsm
+'
+'
 PlacesTransactions
 .
 jsm
