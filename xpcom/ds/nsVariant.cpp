@@ -7979,14 +7979,14 @@ break
 }
 NS_IMPL_ISUPPORTS
 (
-nsVariant
+nsVariantBase
 nsIVariant
 nsIWritableVariant
 )
-nsVariant
+nsVariantBase
 :
 :
-nsVariant
+nsVariantBase
 (
 )
 :
@@ -8282,7 +8282,7 @@ true
 endif
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetDataType
@@ -8306,7 +8306,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetAsInt8
@@ -8326,7 +8326,7 @@ aResult
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetAsInt16
@@ -8346,7 +8346,7 @@ aResult
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetAsInt32
@@ -8366,7 +8366,7 @@ aResult
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetAsInt64
@@ -8386,7 +8386,7 @@ aResult
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetAsUint8
@@ -8406,7 +8406,7 @@ aResult
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetAsUint16
@@ -8426,7 +8426,7 @@ aResult
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetAsUint32
@@ -8446,7 +8446,7 @@ aResult
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetAsUint64
@@ -8466,7 +8466,7 @@ aResult
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetAsFloat
@@ -8486,7 +8486,7 @@ aResult
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetAsDouble
@@ -8506,7 +8506,7 @@ aResult
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetAsBool
@@ -8526,7 +8526,7 @@ aResult
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetAsChar
@@ -8546,7 +8546,7 @@ aResult
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetAsWChar
@@ -8569,7 +8569,7 @@ NS_IMETHODIMP_
 (
 nsresult
 )
-nsVariant
+nsVariantBase
 :
 :
 GetAsID
@@ -8589,7 +8589,7 @@ aResult
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetAsAString
@@ -8609,7 +8609,7 @@ aResult
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetAsDOMString
@@ -8629,7 +8629,7 @@ aResult
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetAsACString
@@ -8649,7 +8649,7 @@ aResult
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetAsAUTF8String
@@ -8669,7 +8669,7 @@ aResult
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetAsString
@@ -8690,7 +8690,7 @@ aResult
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetAsWString
@@ -8711,7 +8711,7 @@ aResult
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetAsISupports
@@ -8732,7 +8732,7 @@ aResult
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetAsJSVal
@@ -8748,7 +8748,7 @@ NS_ERROR_CANNOT_CONVERT_DATA
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetAsInterface
@@ -8777,7 +8777,7 @@ NS_IMETHODIMP_
 (
 nsresult
 )
-nsVariant
+nsVariantBase
 :
 :
 GetAsArray
@@ -8810,7 +8810,7 @@ aPtr
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetAsStringWithSize
@@ -8835,7 +8835,7 @@ aStr
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetAsWStringWithSize
@@ -8860,7 +8860,7 @@ aStr
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 GetWritable
@@ -8880,7 +8880,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetWritable
@@ -8911,7 +8911,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsInt8
@@ -8940,7 +8940,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsInt16
@@ -8969,7 +8969,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsInt32
@@ -8998,7 +8998,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsInt64
@@ -9027,7 +9027,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsUint8
@@ -9056,7 +9056,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsUint16
@@ -9085,7 +9085,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsUint32
@@ -9114,7 +9114,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsUint64
@@ -9143,7 +9143,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsFloat
@@ -9172,7 +9172,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsDouble
@@ -9201,7 +9201,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsBool
@@ -9230,7 +9230,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsChar
@@ -9259,7 +9259,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsWChar
@@ -9288,7 +9288,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsID
@@ -9319,7 +9319,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsAString
@@ -9350,7 +9350,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsDOMString
@@ -9381,7 +9381,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsACString
@@ -9412,7 +9412,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsAUTF8String
@@ -9443,7 +9443,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsString
@@ -9474,7 +9474,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsWString
@@ -9505,7 +9505,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsISupports
@@ -9535,7 +9535,7 @@ aValue
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsInterface
@@ -9574,7 +9574,7 @@ aInterface
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsArray
@@ -9615,7 +9615,7 @@ aPtr
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsStringWithSize
@@ -9649,7 +9649,7 @@ aStr
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsWStringWithSize
@@ -9683,7 +9683,7 @@ aStr
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsVoid
@@ -9709,7 +9709,7 @@ SetToVoid
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsEmpty
@@ -9735,7 +9735,7 @@ SetToEmpty
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetAsEmptyArray
@@ -9761,7 +9761,7 @@ SetToEmptyArray
 ;
 }
 NS_IMETHODIMP
-nsVariant
+nsVariantBase
 :
 :
 SetFromVariant

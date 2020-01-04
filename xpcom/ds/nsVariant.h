@@ -776,7 +776,7 @@ mType
 }
 ;
 class
-nsVariant
+nsVariantBase
 final
 :
 public
@@ -787,14 +787,14 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSIVARIANT
 NS_DECL_NSIWRITABLEVARIANT
-nsVariant
+nsVariantBase
 (
 )
 ;
 private
 :
 ~
-nsVariant
+nsVariantBase
 (
 )
 {
@@ -809,6 +809,10 @@ bool
 mWritable
 ;
 }
+;
+typedef
+nsVariantBase
+nsVariant
 ;
 #
 define
