@@ -1006,7 +1006,7 @@ Mode
 flag
 )
 {
-RefPtr
+nsRefPtr
 <
 ImageContainer
 >
@@ -1456,7 +1456,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 nsCSSValue
 :
@@ -5509,6 +5509,18 @@ pointer
 "
 )
 ;
+if
+(
+!
+GetParent
+(
+)
+)
+{
+return
+false
+;
+}
 IntPoint
 offset
 ;

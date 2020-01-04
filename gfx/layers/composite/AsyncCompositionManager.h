@@ -109,7 +109,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -445,6 +445,15 @@ mReadyForCompose
 ;
 }
 bool
+HasRemoteContent
+(
+)
+{
+return
+mHasRemoteContent
+;
+}
+bool
 IsFirstPaint
 (
 )
@@ -611,6 +620,8 @@ aFixedLayerMargins
 void
 ResolveRefLayers
 (
+bool
+aResolvePlugins
 )
 ;
 void
@@ -632,7 +643,7 @@ mTargetConfig
 CSSRect
 mContentRect
 ;
-RefPtr
+nsRefPtr
 <
 LayerManagerComposite
 >
@@ -649,6 +660,9 @@ mPaintSyncId
 ;
 bool
 mReadyForCompose
+;
+bool
+mHasRemoteContent
 ;
 gfx
 :
@@ -680,6 +694,10 @@ AutoResolveRefLayers
 AsyncCompositionManager
 *
 aManager
+bool
+aResolvePlugins
+=
+false
 )
 :
 mManager
@@ -697,6 +715,7 @@ mManager
 >
 ResolveRefLayers
 (
+aResolvePlugins
 )
 ;
 }
