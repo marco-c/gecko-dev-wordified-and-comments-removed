@@ -79,9 +79,7 @@ pacman
 )
 ;
 let
-{
 rules
-}
 =
 yield
 getKeyframeRules
@@ -163,9 +161,7 @@ boxy
 )
 ;
 let
-{
 rules
-}
 =
 yield
 getKeyframeRules
@@ -333,14 +329,6 @@ inspector
 view
 )
 {
-let
-element
-=
-getNode
-(
-selector
-)
-;
 yield
 selectNode
 (
@@ -393,10 +381,6 @@ keyframes
 }
 ;
 return
-{
 rules
-element
-elementStyle
-}
 ;
 }
