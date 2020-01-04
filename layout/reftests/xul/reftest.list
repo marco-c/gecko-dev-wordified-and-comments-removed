@@ -451,6 +451,17 @@ skiaContent
 1
 60
 )
+fuzzy
+-
+if
+(
+cocoaWidget
+&
+&
+browserIsRemote
+1
+31
+)
 =
 =
 inactive
