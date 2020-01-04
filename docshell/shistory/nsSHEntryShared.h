@@ -212,6 +212,12 @@ nsIPrincipal
 >
 mTriggeringPrincipal
 ;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mPrincipalToInherit
+;
 nsCString
 mContentType
 ;

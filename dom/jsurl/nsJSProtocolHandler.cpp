@@ -731,7 +731,7 @@ principal
 loadInfo
 -
 >
-TriggeringPrincipal
+PrincipalToInherit
 (
 )
 ;

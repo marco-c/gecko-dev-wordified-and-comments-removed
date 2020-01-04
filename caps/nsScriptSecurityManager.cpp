@@ -1540,7 +1540,7 @@ NS_OK
 ;
 }
 bool
-forceInterit
+forceInherit
 =
 loadInfo
 -
@@ -1555,7 +1555,7 @@ aIgnoreSandboxing
 &
 &
 !
-forceInterit
+forceInherit
 )
 {
 if
@@ -1576,7 +1576,7 @@ GetForceInheritPrincipalDropped
 )
 )
 {
-forceInterit
+forceInherit
 =
 true
 ;
@@ -1584,7 +1584,7 @@ true
 }
 if
 (
-forceInterit
+forceInherit
 )
 {
 NS_ADDREF
@@ -1595,7 +1595,7 @@ aPrincipal
 loadInfo
 -
 >
-TriggeringPrincipal
+PrincipalToInherit
 (
 )
 )
@@ -1671,12 +1671,12 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-triggeringPrincipal
+principalToInherit
 =
 loadInfo
 -
 >
-TriggeringPrincipal
+PrincipalToInherit
 (
 )
 ;
@@ -1697,14 +1697,14 @@ nsContentUtils
 :
 ChannelShouldInheritPrincipal
 (
-triggeringPrincipal
+principalToInherit
 uri
 inheritForAboutBlank
 false
 )
 )
 {
-triggeringPrincipal
+principalToInherit
 .
 forget
 (

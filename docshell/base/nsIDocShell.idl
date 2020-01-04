@@ -911,6 +911,17 @@ that
 load
 *
 param
+aPrincipalToInherit
+-
+Principal
+to
+be
+inherited
+for
+that
+load
+*
+param
 aFlags
 -
 Any
@@ -1144,6 +1155,9 @@ aReferrerPolicy
 in
 nsIPrincipal
 aTriggeringPrincipal
+in
+nsIPrincipal
+aPrincipalToInherit
 in
 uint32_t
 aFlags
