@@ -99,8 +99,17 @@ BeginGIF
 nsresult
 BeginImageFrame
 (
+const
+gfx
+:
+:
+IntRect
+&
+aFrameRect
 uint16_t
 aDepth
+bool
+aIsInterlaced
 )
 ;
 void
