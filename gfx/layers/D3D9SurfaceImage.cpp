@@ -1044,7 +1044,7 @@ nullptr
 return
 MakeAndAddRef
 <
-ClientTexture
+TextureClient
 >
 (
 data
