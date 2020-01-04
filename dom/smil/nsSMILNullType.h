@@ -160,7 +160,7 @@ override
 ;
 private
 :
-MOZ_CONSTEXPR
+constexpr
 nsSMILNullType
 (
 )

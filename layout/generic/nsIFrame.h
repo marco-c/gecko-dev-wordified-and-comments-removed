@@ -2613,7 +2613,7 @@ prop
 *
 Use
 of
-MOZ_CONSTEXPR
+constexpr
 caused
 startup
 crashes
@@ -2681,7 +2681,7 @@ prop
 *
 Use
 of
-MOZ_CONSTEXPR
+constexpr
 caused
 startup
 crashes
@@ -2748,7 +2748,7 @@ prop
 *
 Use
 of
-MOZ_CONSTEXPR
+constexpr
 caused
 startup
 crashes

@@ -2359,7 +2359,7 @@ mozilla
 struct
 ComponentsInterfaceShimEntry
 {
-MOZ_CONSTEXPR
+constexpr
 ComponentsInterfaceShimEntry
 (
 const

@@ -239,7 +239,7 @@ aTransforms
 ;
 private
 :
-MOZ_CONSTEXPR
+constexpr
 SVGTransformListSMILType
 (
 )

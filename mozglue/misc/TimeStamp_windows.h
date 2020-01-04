@@ -84,7 +84,7 @@ const
 struct
 _SomethingVeryRandomHere
 ;
-MOZ_CONSTEXPR
+constexpr
 TimeStampValue
 (
 _SomethingVeryRandomHere

@@ -653,7 +653,7 @@ kind_
 ;
 public
 :
-MOZ_CONSTEXPR
+constexpr
 FloatRegister
 (
 uint32_t
@@ -677,7 +677,7 @@ kind
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 FloatRegister
 (
 )

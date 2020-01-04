@@ -158,7 +158,7 @@ override
 ;
 private
 :
-MOZ_CONSTEXPR
+constexpr
 nsSMILFloatType
 (
 )

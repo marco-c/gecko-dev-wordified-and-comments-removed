@@ -1827,7 +1827,7 @@ T
 struct
 DeletePolicy
 {
-MOZ_CONSTEXPR
+constexpr
 DeletePolicy
 (
 )

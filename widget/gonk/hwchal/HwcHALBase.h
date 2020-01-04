@@ -336,7 +336,7 @@ aProcs
 ;
 protected
 :
-MOZ_CONSTEXPR
+constexpr
 static
 uint32_t
 HwcAPIVersion

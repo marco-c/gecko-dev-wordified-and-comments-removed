@@ -350,7 +350,7 @@ second
 }
 public
 :
-MOZ_CONSTEXPR
+constexpr
 UniquePtr
 (
 )
@@ -1154,7 +1154,7 @@ mTuple
 ;
 public
 :
-MOZ_CONSTEXPR
+constexpr
 UniquePtr
 (
 )
@@ -1867,7 +1867,7 @@ DefaultDelete
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 DefaultDelete
 (
 )
@@ -1963,7 +1963,7 @@ T
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 DefaultDelete
 (
 )

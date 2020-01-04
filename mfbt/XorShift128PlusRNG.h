@@ -145,7 +145,7 @@ nextDouble
 )
 {
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 int
 kMantissaBits
 =

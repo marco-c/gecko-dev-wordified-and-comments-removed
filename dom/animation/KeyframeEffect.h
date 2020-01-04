@@ -413,7 +413,7 @@ double
 mOffset
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 double
 kComputedOffsetNotSet
 =

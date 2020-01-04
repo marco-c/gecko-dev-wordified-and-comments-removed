@@ -482,7 +482,7 @@ units
 >
 Super
 ;
-MOZ_CONSTEXPR
+constexpr
 IntCoordTyped
 (
 )
@@ -492,7 +492,7 @@ Super
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 MOZ_IMPLICIT
 IntCoordTyped
 (
@@ -639,7 +639,7 @@ F
 >
 Super
 ;
-MOZ_CONSTEXPR
+constexpr
 CoordTyped
 (
 )
@@ -649,7 +649,7 @@ Super
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 MOZ_IMPLICIT
 CoordTyped
 (
@@ -664,7 +664,7 @@ aValue
 {
 }
 explicit
-MOZ_CONSTEXPR
+constexpr
 CoordTyped
 (
 const

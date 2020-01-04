@@ -159,7 +159,7 @@ sSingleton
 }
 private
 :
-MOZ_CONSTEXPR
+constexpr
 SMILIntegerType
 (
 )

@@ -1218,11 +1218,11 @@ BITS
 #
 define
 JS_VALUE_CONSTEXPR
-MOZ_CONSTEXPR
+constexpr
 #
 define
 JS_VALUE_CONSTEXPR_VAR
-MOZ_CONSTEXPR_VAR
+constexpr
 #
 else
 #

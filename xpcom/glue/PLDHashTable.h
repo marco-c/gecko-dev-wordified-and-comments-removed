@@ -97,7 +97,7 @@ Checker
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 Checker
 (
 )

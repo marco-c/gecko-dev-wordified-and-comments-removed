@@ -146,7 +146,7 @@ BaseTimeDuration
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 BaseTimeDuration
 (
 )
@@ -1454,7 +1454,7 @@ TimeStamp
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 TimeStamp
 (
 )

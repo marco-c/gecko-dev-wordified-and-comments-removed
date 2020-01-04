@@ -25,7 +25,7 @@ BaseProxyHandler
 public
 :
 explicit
-MOZ_CONSTEXPR
+constexpr
 DeadObjectProxy
 (
 )

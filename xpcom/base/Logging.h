@@ -279,7 +279,7 @@ final
 public
 :
 explicit
-MOZ_CONSTEXPR
+constexpr
 LazyLogModule
 (
 const

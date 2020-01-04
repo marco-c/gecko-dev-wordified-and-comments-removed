@@ -163,7 +163,7 @@ override
 ;
 private
 :
-MOZ_CONSTEXPR
+constexpr
 SVGIntegerPairSMILType
 (
 )

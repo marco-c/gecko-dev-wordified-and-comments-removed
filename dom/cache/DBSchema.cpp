@@ -15017,7 +15017,7 @@ bool
 struct
 Migration
 {
-MOZ_CONSTEXPR
+constexpr
 Migration
 (
 int32_t

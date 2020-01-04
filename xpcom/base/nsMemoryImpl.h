@@ -121,7 +121,7 @@ FlushEvent
 public
 nsIRunnable
 {
-MOZ_CONSTEXPR
+constexpr
 FlushEvent
 (
 )

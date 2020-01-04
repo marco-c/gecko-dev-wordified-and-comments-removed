@@ -2533,7 +2533,7 @@ friend
 class
 CounterStyleManager
 ;
-MOZ_CONSTEXPR
+constexpr
 BuiltinCounterStyle
 (
 )
@@ -2546,7 +2546,7 @@ NS_STYLE_LIST_STYLE_NONE
 }
 protected
 :
-MOZ_CONSTEXPR
+constexpr
 explicit
 BuiltinCounterStyle
 (

@@ -115,7 +115,7 @@ aSize
 }
 public
 :
-MOZ_CONSTEXPR
+constexpr
 initializer_list
 (
 )

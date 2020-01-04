@@ -2528,7 +2528,7 @@ void
 Type
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 size_t
 nbArgs
 =
@@ -2552,7 +2552,7 @@ HeadType
 Type
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 size_t
 nbArgs
 =
@@ -2595,7 +2595,7 @@ Type
 Type
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 size_t
 nbArgs
 =
@@ -2657,7 +2657,7 @@ Shift
 >
 {
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 ResultType
 result
 =
@@ -2773,7 +2773,7 @@ masks
 )
 ;
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 ResultType
 result
 =

@@ -274,7 +274,7 @@ nsCycleCollectionParticipant
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 JSZoneParticipant
 (
 )

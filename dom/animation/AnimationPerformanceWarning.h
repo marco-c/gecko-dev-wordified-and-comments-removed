@@ -104,7 +104,7 @@ aParams
 ;
 }
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 uint8_t
 kMaxParamsForLocalization
 =

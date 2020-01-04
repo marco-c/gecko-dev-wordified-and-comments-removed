@@ -42,7 +42,7 @@ mValue
 public
 :
 explicit
-MOZ_CONSTEXPR
+constexpr
 CastableTypedEnumResult
 (
 E
@@ -55,7 +55,7 @@ aValue
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 operator
 E
 (
@@ -72,7 +72,7 @@ typename
 DestinationType
 >
 MOZ_EXPLICIT_CONVERSION
-MOZ_CONSTEXPR
+constexpr
 operator
 DestinationType
 (
@@ -86,7 +86,7 @@ mValue
 )
 ;
 }
-MOZ_CONSTEXPR
+constexpr
 bool
 operator
 !
@@ -119,7 +119,7 @@ typename
 E
 >
 \
-MOZ_CONSTEXPR
+constexpr
 ReturnType
 \
 operator
@@ -160,7 +160,7 @@ typename
 E
 >
 \
-MOZ_CONSTEXPR
+constexpr
 ReturnType
 \
 operator
@@ -201,7 +201,7 @@ typename
 E
 >
 \
-MOZ_CONSTEXPR
+constexpr
 ReturnType
 \
 operator
@@ -302,7 +302,7 @@ template
 typename
 E
 >
-MOZ_CONSTEXPR
+constexpr
 CastableTypedEnumResult
 <
 E
@@ -432,7 +432,7 @@ Op
 )
 \
 inline
-MOZ_CONSTEXPR
+constexpr
 mozilla
 :
 :
@@ -555,7 +555,7 @@ Name
 )
 \
 inline
-MOZ_CONSTEXPR
+constexpr
 mozilla
 :
 :

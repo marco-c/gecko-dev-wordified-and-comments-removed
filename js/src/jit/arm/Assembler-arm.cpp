@@ -8564,7 +8564,7 @@ c
 ;
 }
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 Register
 NoAddend
 =

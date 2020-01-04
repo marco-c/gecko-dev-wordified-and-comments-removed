@@ -151,7 +151,7 @@ override
 ;
 private
 :
-MOZ_CONSTEXPR
+constexpr
 SVGNumberPairSMILType
 (
 )

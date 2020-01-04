@@ -1537,7 +1537,7 @@ _isMissing
 ;
 public
 :
-MOZ_CONSTEXPR
+constexpr
 VFPRegister
 (
 uint32_t
@@ -1567,7 +1567,7 @@ false
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 VFPRegister
 (
 )
@@ -1593,7 +1593,7 @@ false
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 VFPRegister
 (
 RegType
@@ -1628,7 +1628,7 @@ missing
 {
 }
 explicit
-MOZ_CONSTEXPR
+constexpr
 VFPRegister
 (
 Code

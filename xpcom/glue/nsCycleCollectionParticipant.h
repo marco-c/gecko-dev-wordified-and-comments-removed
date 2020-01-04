@@ -570,7 +570,7 @@ nsCycleCollectionParticipant
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 nsCycleCollectionParticipant
 (
 )
@@ -581,7 +581,7 @@ false
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 explicit
 nsCycleCollectionParticipant
 (
@@ -853,7 +853,7 @@ nsCycleCollectionParticipant
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 nsScriptObjectTracer
 (
 )
@@ -864,7 +864,7 @@ false
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 explicit
 nsScriptObjectTracer
 (
@@ -928,7 +928,7 @@ nsScriptObjectTracer
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 nsXPCOMCycleCollectionParticipant
 (
 )
@@ -939,7 +939,7 @@ false
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 explicit
 nsXPCOMCycleCollectionParticipant
 (
@@ -2505,7 +2505,7 @@ _class
 )
 \
 static
-MOZ_CONSTEXPR
+constexpr
 nsXPCOMCycleCollectionParticipant
 *
 GetParticipant
@@ -2618,7 +2618,7 @@ nsXPCOMCycleCollectionParticipant
 public
 :
 \
-MOZ_CONSTEXPR
+constexpr
 NS_CYCLE_COLLECTION_INNERCLASS
 (
 )
@@ -2794,7 +2794,7 @@ nsXPCOMCycleCollectionParticipant
 public
 :
 \
-MOZ_CONSTEXPR
+constexpr
 NS_CYCLE_COLLECTION_INNERCLASS
 (
 )
@@ -3463,7 +3463,7 @@ _class
 )
 \
 static
-MOZ_CONSTEXPR
+constexpr
 nsCycleCollectionParticipant
 *
 GetParticipant
@@ -3522,7 +3522,7 @@ nsCycleCollectionParticipant
 public
 :
 \
-MOZ_CONSTEXPR
+constexpr
 NS_CYCLE_COLLECTION_INNERCLASS
 (
 )
@@ -3629,7 +3629,7 @@ nsCycleCollectionParticipant
 public
 :
 \
-MOZ_CONSTEXPR
+constexpr
 NS_CYCLE_COLLECTION_INNERCLASS
 (
 )
@@ -3774,7 +3774,7 @@ override
 ;
 \
 static
-MOZ_CONSTEXPR
+constexpr
 nsScriptObjectTracer
 *
 GetParticipant

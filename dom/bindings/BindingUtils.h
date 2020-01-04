@@ -13071,7 +13071,7 @@ class
 U
 >
 static
-MOZ_CONSTEXPR
+constexpr
 nsCycleCollectionParticipant
 *
 GetHelper
@@ -13106,7 +13106,7 @@ class
 U
 >
 static
-MOZ_CONSTEXPR
+constexpr
 nsCycleCollectionParticipant
 *
 GetHelper
@@ -13121,7 +13121,7 @@ nullptr
 public
 :
 static
-MOZ_CONSTEXPR
+constexpr
 nsCycleCollectionParticipant
 *
 Get
@@ -13157,7 +13157,7 @@ true
 public
 :
 static
-MOZ_CONSTEXPR
+constexpr
 nsCycleCollectionParticipant
 *
 Get
@@ -13271,7 +13271,7 @@ struct
 CreateGlobalOptions
 {
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 ProtoAndIfaceCache
 :
 :
@@ -13350,7 +13350,7 @@ nsGlobalWindow
 >
 {
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 ProtoAndIfaceCache
 :
 :

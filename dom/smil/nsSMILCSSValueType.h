@@ -222,7 +222,7 @@ aValue
 ;
 private
 :
-MOZ_CONSTEXPR
+constexpr
 nsSMILCSSValueType
 (
 )

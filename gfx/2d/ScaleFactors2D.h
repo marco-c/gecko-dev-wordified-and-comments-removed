@@ -67,7 +67,7 @@ xScale
 float
 yScale
 ;
-MOZ_CONSTEXPR
+constexpr
 ScaleFactors2D
 (
 )
@@ -86,7 +86,7 @@ yScale
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 ScaleFactors2D
 (
 const
@@ -113,7 +113,7 @@ yScale
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 ScaleFactors2D
 (
 float
@@ -133,7 +133,7 @@ aYScale
 {
 }
 explicit
-MOZ_CONSTEXPR
+constexpr
 ScaleFactors2D
 (
 const
@@ -157,7 +157,7 @@ height
 {
 }
 explicit
-MOZ_CONSTEXPR
+constexpr
 ScaleFactors2D
 (
 const

@@ -164,7 +164,7 @@ override
 ;
 private
 :
-MOZ_CONSTEXPR
+constexpr
 SVGPathSegListSMILType
 (
 )

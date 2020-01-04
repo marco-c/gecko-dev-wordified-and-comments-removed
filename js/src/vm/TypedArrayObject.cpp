@@ -907,7 +907,7 @@ NativeType
 ElementType
 ;
 static
-MOZ_CONSTEXPR
+constexpr
 Scalar
 :
 :

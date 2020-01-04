@@ -10053,7 +10053,7 @@ const
 uint32_t
 mNameLength
 ;
-MOZ_CONSTEXPR
+constexpr
 TrackedDBEntry
 (
 const
@@ -10108,7 +10108,7 @@ _name
 )
 }
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 TrackedDBEntry
 kTrackedDBs
 [

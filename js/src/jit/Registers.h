@@ -287,7 +287,7 @@ return
 r
 ;
 }
-MOZ_CONSTEXPR
+constexpr
 Code
 code
 (
@@ -563,7 +563,7 @@ endif
 ifdef
 JS_PUNBOX64
 explicit
-MOZ_CONSTEXPR
+constexpr
 Register64
 (
 Register
@@ -643,7 +643,7 @@ Invalid
 )
 {
 }
-MOZ_CONSTEXPR
+constexpr
 Register64
 (
 Register
@@ -1269,7 +1269,7 @@ AutoGenericRegisterScope
 ;
 #
 else
-MOZ_CONSTEXPR
+constexpr
 explicit
 AutoGenericRegisterScope
 (

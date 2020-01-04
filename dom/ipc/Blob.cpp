@@ -2612,7 +2612,7 @@ Length
 )
 {
 static
-MOZ_CONSTEXPR_VAR
+constexpr
 size_t
 elementSizeMultiplier
 =

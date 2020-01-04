@@ -671,7 +671,7 @@ const
 int32_t
 iteratorAliasMethodIndex
 ;
-MOZ_CONSTEXPR
+constexpr
 const
 NativePropertiesN
 <

@@ -24,7 +24,7 @@ BaseProxyHandler
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 ScriptedProxyHandler
 (
 )

@@ -369,7 +369,7 @@ namespace
 dom
 {
 static
-MOZ_CONSTEXPR
+constexpr
 nsAttrValue
 :
 :
@@ -460,7 +460,7 @@ Metadata
 }
 ;
 static
-MOZ_CONSTEXPR
+constexpr
 const
 nsAttrValue
 :

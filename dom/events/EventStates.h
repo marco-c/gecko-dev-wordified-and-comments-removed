@@ -32,7 +32,7 @@ typedef
 uint64_t
 InternalType
 ;
-MOZ_CONSTEXPR
+constexpr
 EventStates
 (
 )
@@ -44,7 +44,7 @@ mStates
 {
 }
 explicit
-MOZ_CONSTEXPR
+constexpr
 EventStates
 (
 InternalType
@@ -58,7 +58,7 @@ aStates
 {
 }
 EventStates
-MOZ_CONSTEXPR
+constexpr
 operator
 |
 (
@@ -105,7 +105,7 @@ this
 ;
 }
 EventStates
-MOZ_CONSTEXPR
+constexpr
 operator
 &
 (

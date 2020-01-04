@@ -1463,7 +1463,7 @@ address
 ;
 }
 static
-MOZ_CONSTEXPR
+constexpr
 Handle
 fromMarkedLocation
 (
@@ -1655,7 +1655,7 @@ ImUsingThisOnlyInFromFromMarkedLocation
 17
 }
 ;
-MOZ_CONSTEXPR
+constexpr
 Handle
 (
 const

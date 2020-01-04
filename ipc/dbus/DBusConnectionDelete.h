@@ -30,7 +30,7 @@ DBusConnectionDelete
 {
 public
 :
-MOZ_CONSTEXPR
+constexpr
 DBusConnectionDelete
 (
 )
