@@ -872,16 +872,6 @@ nsIGfxInfo
 FEATURE_STATUS_OK
 )
 ;
-do_check_eq
-(
-failureId
-.
-value
-"
-FEATURE_FAILURE_DL_BLACKLIST_NO_ID
-"
-)
-;
 gTestserver
 .
 stop
