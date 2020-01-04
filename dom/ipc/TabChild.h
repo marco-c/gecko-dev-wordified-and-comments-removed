@@ -1185,6 +1185,10 @@ const
 BrowserConfiguration
 &
 aConfiguration
+const
+ShowInfo
+&
+aInfo
 )
 override
 ;
@@ -2394,6 +2398,10 @@ aLayersId
 PRenderFrameChild
 *
 aRenderFrame
+const
+ShowInfo
+&
+aShowInfo
 )
 ;
 protected
@@ -2765,6 +2773,10 @@ mChromeDisp
 TabId
 mUniqueId
 ;
+friend
+class
+ContentChild
+;
 float
 mDPI
 ;
@@ -2782,6 +2794,9 @@ mAsyncPanZoomEnabled
 ;
 CSSSize
 mUnscaledInnerSize
+;
+bool
+mDidSetRealShowInfo
 ;
 nsAutoTArray
 <

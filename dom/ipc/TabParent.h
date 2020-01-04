@@ -2777,6 +2777,11 @@ int32_t
 >
 mActiveSupressDisplayportCount
 ;
+ShowInfo
+GetShowInfo
+(
+)
+;
 private
 :
 typedef
