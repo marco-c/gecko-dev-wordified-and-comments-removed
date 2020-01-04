@@ -798,7 +798,6 @@ split
 def
 find_linters
 (
-self
 linters
 =
 None
