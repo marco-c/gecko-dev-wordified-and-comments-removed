@@ -104,6 +104,11 @@ relative_path
 '
 silverlightplugin
 '
+cocoa_name
+=
+'
+npctrltest
+'
 include
 (
 '

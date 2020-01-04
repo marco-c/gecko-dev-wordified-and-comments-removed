@@ -104,6 +104,11 @@ relative_path
 '
 secondplugin
 '
+cocoa_name
+=
+'
+SecondTest
+'
 include
 (
 '
