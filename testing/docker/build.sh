@@ -307,6 +307,10 @@ sh
 t
 tag
 *
+|
+|
+exit
+1
 else
 #
 use
@@ -348,6 +352,10 @@ cache
 t
 tag
 folder
+|
+|
+exit
+1
 fi
 echo
 "
