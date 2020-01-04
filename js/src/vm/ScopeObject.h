@@ -3172,7 +3172,7 @@ XDRMode
 mode
 >
 bool
-XDRStaticBlockObject
+XDRStaticBlockScope
 (
 XDRState
 <

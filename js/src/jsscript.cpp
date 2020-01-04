@@ -6153,7 +6153,7 @@ get
 if
 (
 !
-XDRStaticBlockObject
+XDRStaticBlockScope
 (
 xdr
 enclosingStaticScope

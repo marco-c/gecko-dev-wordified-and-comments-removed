@@ -3855,7 +3855,7 @@ obj
 static
 JSObject
 *
-CloneStaticWithObject
+CloneStaticWithScope
 (
 JSContext
 *
@@ -5885,7 +5885,7 @@ bool
 js
 :
 :
-XDRStaticBlockObject
+XDRStaticBlockScope
 (
 XDRState
 <
@@ -6520,7 +6520,7 @@ bool
 js
 :
 :
-XDRStaticBlockObject
+XDRStaticBlockScope
 (
 XDRState
 <
@@ -6540,7 +6540,7 @@ bool
 js
 :
 :
-XDRStaticBlockObject
+XDRStaticBlockScope
 (
 XDRState
 <
@@ -6558,7 +6558,7 @@ StaticBlockScope
 static
 JSObject
 *
-CloneStaticBlockObject
+CloneStaticBlockScope
 (
 JSContext
 *
@@ -6880,7 +6880,7 @@ StaticBlockScope
 )
 ;
 return
-CloneStaticBlockObject
+CloneStaticBlockScope
 (
 cx
 enclosingScope
@@ -6911,7 +6911,7 @@ StaticWithScope
 )
 ;
 return
-CloneStaticWithObject
+CloneStaticWithScope
 (
 cx
 enclosingScope
