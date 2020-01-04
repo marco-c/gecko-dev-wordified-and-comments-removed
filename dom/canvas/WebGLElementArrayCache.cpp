@@ -728,7 +728,7 @@ uint8_t
 >
 {
 static
-ScopedDeletePtr
+UniquePtr
 <
 WebGLElementArrayCacheTree
 <
@@ -762,7 +762,7 @@ uint16_t
 >
 {
 static
-ScopedDeletePtr
+UniquePtr
 <
 WebGLElementArrayCacheTree
 <
@@ -796,7 +796,7 @@ uint32_t
 >
 {
 static
-ScopedDeletePtr
+UniquePtr
 <
 WebGLElementArrayCacheTree
 <
@@ -1647,7 +1647,7 @@ countElements
 return
 true
 ;
-ScopedDeletePtr
+UniquePtr
 <
 WebGLElementArrayCacheTree
 <
@@ -1676,10 +1676,12 @@ tree
 {
 tree
 =
-new
+MakeUnique
+<
 WebGLElementArrayCacheTree
 <
 T
+>
 >
 (
 *
