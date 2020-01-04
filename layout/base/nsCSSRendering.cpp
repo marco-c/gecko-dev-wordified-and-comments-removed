@@ -26443,6 +26443,11 @@ i
 .
 width
 =
+std
+:
+:
+floor
+(
 scale
 .
 width
@@ -26453,6 +26458,7 @@ i
 ]
 .
 width
+)
 ;
 aInnerClipRectRadii
 [
@@ -26461,6 +26467,11 @@ i
 .
 height
 =
+std
+:
+:
+floor
+(
 scale
 .
 height
@@ -26471,6 +26482,7 @@ i
 ]
 .
 height
+)
 ;
 }
 {
