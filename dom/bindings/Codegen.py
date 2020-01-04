@@ -23081,6 +23081,8 @@ properties
 unforgeableMethods
 .
 hasChromeOnly
+(
+)
 )
     
 unforgeables
