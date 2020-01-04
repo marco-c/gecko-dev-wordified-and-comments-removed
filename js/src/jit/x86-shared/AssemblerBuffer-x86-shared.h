@@ -41,15 +41,6 @@ include
 "
 jit
 /
-JitAllocPolicy
-.
-h
-"
-#
-include
-"
-jit
-/
 JitSpewer
 .
 h
@@ -817,7 +808,7 @@ PageProtectingVector
 unsigned
 char
 256
-ProtectedSystemAllocPolicy
+SystemAllocPolicy
 >
 m_buffer
 ;
