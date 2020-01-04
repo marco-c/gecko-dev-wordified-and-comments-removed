@@ -3098,7 +3098,7 @@ get
 "
 client
 .
-name3
+name2
 "
 [
 user
