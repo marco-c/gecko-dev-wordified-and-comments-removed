@@ -227,10 +227,10 @@ bezier
 yield
 waitForSuccess
 (
+function
+*
 (
 )
-=
->
 {
 return
 content
