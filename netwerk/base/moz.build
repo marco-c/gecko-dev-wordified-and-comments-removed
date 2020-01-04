@@ -723,11 +723,6 @@ nsIURI
 idl
 '
 '
-nsIURIChecker
-.
-idl
-'
-'
 nsIURIClassifier
 .
 idl
@@ -1241,11 +1236,6 @@ cpp
 '
 '
 nsUnicharStreamLoader
-.
-cpp
-'
-'
-nsURIChecker
 .
 cpp
 '
