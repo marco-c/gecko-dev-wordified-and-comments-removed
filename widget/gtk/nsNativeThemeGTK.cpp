@@ -4641,6 +4641,9 @@ left
 break
 ;
 }
+return
+false
+;
 }
 case
 NS_THEME_FOCUS_OUTLINE
@@ -4759,6 +4762,9 @@ bottom
 extra
 ;
 }
+return
+false
+;
 }
 default
 :
@@ -5702,6 +5708,8 @@ aFrame
 )
 )
 break
+;
+MOZ_FALLTHROUGH
 ;
 default
 :
@@ -7526,6 +7534,8 @@ return
 false
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 NS_THEME_BUTTON
 :
