@@ -274,7 +274,6 @@ localTime
 =
 null
 ;
-unrestricted
 double
 ?
 progress
