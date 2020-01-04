@@ -641,10 +641,8 @@ searchTerms
 -
 -
 MozParam
-with
-a
-default
-value
+uses
+searchbar
 if
 purpose
 is
@@ -668,11 +666,12 @@ purpose
 purpose
 =
 "
+searchbar
 "
 value
 =
 "
-none
+ffsb
 "
 /
 >
