@@ -43,8 +43,6 @@ painted
 {
 window
 .
-gBrowser
-.
 removeEventListener
 (
 "
@@ -105,8 +103,6 @@ windowSize
 resizeIncrement
 ;
 window
-.
-gBrowser
 .
 addEventListener
 (
