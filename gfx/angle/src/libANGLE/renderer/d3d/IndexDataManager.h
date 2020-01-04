@@ -206,6 +206,8 @@ translated
 SourceIndexData
 *
 sourceData
+bool
+primitiveRestartFixedIndexEnabled
 )
 ;
 private
@@ -227,6 +229,8 @@ GLenum
 srcType
 GLenum
 dstType
+bool
+usePrimitiveRestartFixedIndex
 TranslatedIndexData
 *
 translated

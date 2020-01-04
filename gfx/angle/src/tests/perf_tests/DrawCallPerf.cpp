@@ -145,7 +145,6 @@ numTris
 ;
 }
 ;
-inline
 std
 :
 :

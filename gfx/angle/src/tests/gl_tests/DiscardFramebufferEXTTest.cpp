@@ -91,7 +91,7 @@ renderer
 EGL_PLATFORM_ANGLE_TYPE_D3D11_ANGLE
 )
 {
-EXPECT_FALSE
+EXPECT_TRUE
 (
 extensionEnabled
 (

@@ -104,6 +104,7 @@ const
 char
 *
 str
+unsigned
 int
 *
 value
@@ -134,6 +135,7 @@ std
 :
 numeric_limits
 <
+unsigned
 int
 >
 :

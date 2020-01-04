@@ -2871,6 +2871,13 @@ packSubimage
 =
 true
 ;
+extensions
+-
+>
+vertexArrayObject
+=
+true
+;
 limitations
 -
 >

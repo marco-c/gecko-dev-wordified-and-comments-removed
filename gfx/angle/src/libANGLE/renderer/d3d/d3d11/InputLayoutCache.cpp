@@ -2677,6 +2677,17 @@ nextAvailableIndex
 =
 0
 ;
+maxDiff
+=
+std
+:
+:
+max
+(
+maxDiff
+nextAvailableIndex
+)
+;
 if
 (
 !

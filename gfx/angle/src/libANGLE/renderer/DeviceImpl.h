@@ -68,9 +68,10 @@ egl
 Error
 getDevice
 (
-EGLAttrib
+void
 *
-value
+*
+outValue
 )
 =
 0

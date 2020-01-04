@@ -1893,6 +1893,13 @@ util_linux_sources
 util
 "
 )
+libs
+=
+[
+"
+rt
+"
+]
 }
 if
 (

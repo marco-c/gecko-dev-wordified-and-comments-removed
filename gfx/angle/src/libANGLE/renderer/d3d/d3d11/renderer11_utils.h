@@ -295,6 +295,11 @@ BYTE
 outData
 )
 ;
+UINT
+GetPrimitiveRestartIndex
+(
+)
+;
 struct
 PositionTexCoordVertex
 {

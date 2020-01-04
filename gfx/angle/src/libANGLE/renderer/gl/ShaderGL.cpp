@@ -166,6 +166,11 @@ std
 stringstream
 *
 sourceStream
+std
+:
+:
+string
+*
 )
 {
 if
@@ -304,14 +309,6 @@ mShaderID
 GL_COMPILE_STATUS
 &
 compileStatus
-)
-;
-ASSERT
-(
-compileStatus
-=
-=
-GL_TRUE
 )
 ;
 if

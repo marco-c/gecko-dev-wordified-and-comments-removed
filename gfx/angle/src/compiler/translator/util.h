@@ -58,6 +58,7 @@ const
 char
 *
 str
+unsigned
 int
 *
 value

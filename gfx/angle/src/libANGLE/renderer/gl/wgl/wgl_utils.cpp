@@ -24,7 +24,7 @@ gl
 /
 wgl
 /
-functionsWGL
+FunctionsWGL
 .
 h
 "

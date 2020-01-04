@@ -28,12 +28,12 @@ currentPlatform
 nullptr
 ;
 }
-ANGLE_EXPORT
 angle
 :
 :
 Platform
 *
+ANGLE_APIENTRY
 ANGLEPlatformCurrent
 (
 )
@@ -42,8 +42,8 @@ return
 currentPlatform
 ;
 }
-ANGLE_EXPORT
 void
+ANGLE_APIENTRY
 ANGLEPlatformInitialize
 (
 angle
@@ -67,8 +67,8 @@ currentPlatform
 platformImpl
 ;
 }
-ANGLE_EXPORT
 void
+ANGLE_APIENTRY
 ANGLEPlatformShutdown
 (
 )

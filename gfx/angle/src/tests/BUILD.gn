@@ -251,6 +251,17 @@ translator_static
 "
 ]
 }
+if
+(
+is_win
+|
+|
+is_linux
+|
+|
+is_mac
+)
+{
 end2end_gypi
 =
 exec_script
@@ -502,6 +513,12 @@ translator_static
 "
 ]
 }
+}
+if
+(
+is_win
+)
+{
 perftests_gypi
 =
 exec_script
@@ -604,11 +621,6 @@ angle_perf_tests_sources
 .
 "
 )
-if
-(
-is_win
-)
-{
 sources
 +
 =
@@ -628,7 +640,6 @@ angle_perf_tests_win_sources
 .
 "
 )
-}
 sources
 +
 =
@@ -734,4 +745,5 @@ angle
 libGLESv2
 "
 ]
+}
 }

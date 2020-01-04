@@ -254,6 +254,15 @@ bool
 textureCompressionDXT5
 ;
 bool
+textureCompressionASTCHDR
+;
+bool
+textureCompressionASTCLDR
+;
+bool
+compressedETC1RGB8Texture
+;
+bool
 sRGB
 ;
 bool
@@ -348,6 +357,9 @@ unpackSubimage
 ;
 bool
 packSubimage
+;
+bool
+vertexArrayObject
 ;
 bool
 colorBufferFloat

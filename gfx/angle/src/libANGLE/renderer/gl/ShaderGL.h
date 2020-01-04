@@ -69,6 +69,12 @@ std
 stringstream
 *
 sourceStream
+std
+:
+:
+string
+*
+sourcePath
 )
 override
 ;

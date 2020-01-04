@@ -2121,6 +2121,9 @@ userDef
 TSourceLoc
 line
 ;
+bool
+isStructSpecifier
+;
 void
 setBasic
 (
@@ -2182,6 +2185,10 @@ userDef
 line
 =
 ln
+;
+isStructSpecifier
+=
+false
 ;
 }
 void

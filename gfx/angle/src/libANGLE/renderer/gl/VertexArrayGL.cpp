@@ -231,6 +231,8 @@ mVertexArrayID
 ;
 GLint
 maxVertexAttribs
+=
+0
 ;
 mFunctions
 -

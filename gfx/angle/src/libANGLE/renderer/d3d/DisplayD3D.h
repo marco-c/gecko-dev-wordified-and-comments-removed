@@ -346,10 +346,6 @@ RendererD3D
 *
 mRenderer
 ;
-DeviceImpl
-*
-mDevice
-;
 }
 ;
 }

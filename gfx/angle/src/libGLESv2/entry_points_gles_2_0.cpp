@@ -10505,7 +10505,7 @@ params
 shaderObject
 -
 >
-getTranslatedSourceLength
+getTranslatedSourceWithDebugInfoLength
 (
 )
 ;
