@@ -801,6 +801,9 @@ failureReason
 FAILURE_DETAILS
 .
 UNKNOWN
+mozLoop
+:
+fakeMozLoop
 }
 )
 ;

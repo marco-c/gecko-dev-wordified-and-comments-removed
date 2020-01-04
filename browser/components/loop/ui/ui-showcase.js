@@ -6648,6 +6648,11 @@ conversationStores
 dispatcher
 :
 dispatcher
+mozLoop
+:
+navigator
+.
+mozLoop
 outgoing
 :
 false
@@ -6710,6 +6715,11 @@ conversationStores
 dispatcher
 :
 dispatcher
+mozLoop
+:
+navigator
+.
+mozLoop
 outgoing
 :
 true
@@ -6777,6 +6787,11 @@ dispatcher
 emailLinkError
 :
 true
+mozLoop
+:
+navigator
+.
+mozLoop
 outgoing
 :
 true
@@ -7878,6 +7893,11 @@ failureReason
 FAILURE_DETAILS
 .
 UNKNOWN
+mozLoop
+:
+navigator
+.
+mozLoop
 }
 )
 )
