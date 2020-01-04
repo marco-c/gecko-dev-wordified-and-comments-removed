@@ -1257,7 +1257,7 @@ else
 {
 throw
 new
-NoSuchFrameError
+NoSuchWindowError
 (
 "
 No
