@@ -44,6 +44,7 @@ evalInSandbox
 {
 buf
 :
+new
 ArrayBuffer
 (
 2

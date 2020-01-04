@@ -2212,7 +2212,7 @@ vp
 if
 (
 !
-WarnIfNotConstructing
+ThrowIfNotConstructing
 (
 cx
 args
