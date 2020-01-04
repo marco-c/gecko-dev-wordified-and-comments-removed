@@ -268,11 +268,6 @@ int8_t
 bih
 )
 ;
-uint32_t
-CalcAlphaRowSize
-(
-)
-;
 uint16_t
 GetNumColors
 (
