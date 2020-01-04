@@ -337,7 +337,7 @@ bool
 aFoundOpaqueRedirect
 )
 ;
-nsresult
+void
 FailWithNetworkError
 (
 )
