@@ -68,11 +68,6 @@ Get
 (
 )
 {
-MOZ_ASSERT
-(
-sSingleton
-)
-;
 return
 sSingleton
 ;
@@ -85,6 +80,13 @@ Initialize
 (
 )
 {
+MOZ_ASSERT
+(
+XRE_IsParentProcess
+(
+)
+)
+;
 sSingleton
 =
 new
