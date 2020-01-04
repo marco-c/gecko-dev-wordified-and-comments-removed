@@ -4108,7 +4108,7 @@ JSContext
 cx
 HandleObject
 obj
-MutableHandleValue
+HandleValue
 v
 bool
 *
@@ -4320,7 +4320,6 @@ InstanceOfOperator
 (
 cx
 obj
-&
 local
 bp
 )

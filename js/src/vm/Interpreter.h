@@ -1175,7 +1175,7 @@ JSContext
 cx
 HandleObject
 obj
-MutableHandleValue
+HandleValue
 v
 bool
 *
