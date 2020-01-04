@@ -299,6 +299,12 @@ defined
 (
 __APPLE__
 )
+|
+|
+defined
+(
+__clang__
+)
 mov
 r6
 #
@@ -3823,6 +3829,12 @@ if
 defined
 (
 __APPLE__
+)
+|
+|
+defined
+(
+__clang__
 )
 mov
 r2
