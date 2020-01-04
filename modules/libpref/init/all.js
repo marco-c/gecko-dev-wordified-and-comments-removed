@@ -30375,6 +30375,8 @@ list
 Osaka
 -
 Mono
+:
+Osaka
 "
 )
 ;
