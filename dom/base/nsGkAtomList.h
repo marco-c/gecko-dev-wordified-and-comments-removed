@@ -9498,13 +9498,6 @@ baseline
 )
 GK_ATOM
 (
-allowReorder
-"
-allowReorder
-"
-)
-GK_ATOM
-(
 amplitude
 "
 amplitude
