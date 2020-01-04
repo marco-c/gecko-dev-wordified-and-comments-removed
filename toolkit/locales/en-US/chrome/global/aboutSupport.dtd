@@ -773,7 +773,7 @@ NOTE
 (
 aboutSupport
 .
-showWin
+showWin2
 .
 label
 )
@@ -800,11 +800,11 @@ label
 ENTITY
 aboutSupport
 .
-showWin
+showWin2
 .
 label
 "
-Show
+Open
 Folder
 "
 >
