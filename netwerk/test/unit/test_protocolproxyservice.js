@@ -5458,7 +5458,7 @@ chan
 asyncOpen
 (
 directFilterListener
-chan
+null
 )
 ;
 }
@@ -5497,7 +5497,7 @@ ctx
 status
 )
 {
-ctx
+request
 .
 QueryInterface
 (
@@ -5510,7 +5510,7 @@ nsIProxiedChannel
 ;
 check_proxy
 (
-ctx
+request
 .
 proxyInfo
 "
