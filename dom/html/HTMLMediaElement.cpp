@@ -12397,7 +12397,7 @@ Accumulate
 Telemetry
 :
 :
-VIDEO_MSE_PLAY_TIME_MS
+VIDEO_PLAY_TIME_MS
 SECONDS_TO_MS
 (
 mPlayTime
@@ -12418,7 +12418,7 @@ Debug
 "
 %
 p
-VIDEO_MSE_PLAY_TIME_MS
+VIDEO_PLAY_TIME_MS
 =
 %
 f
@@ -19179,16 +19179,6 @@ NS_DispatchToMainThread
 event
 )
 ;
-if
-(
-!
-mMediaSource
-)
-{
-return
-NS_OK
-;
-}
 if
 (
 (
