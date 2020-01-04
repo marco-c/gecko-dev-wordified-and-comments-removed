@@ -465,6 +465,16 @@ reallocPtr
 nullptr
 )
 {
+if
+(
+!
+isJSContext
+(
+)
+)
+return
+nullptr
+;
 return
 runtime_
 -
@@ -474,7 +484,7 @@ onOutOfMemory
 allocFunc
 nbytes
 reallocPtr
-maybeJSContext
+asJSContext
 (
 )
 )
