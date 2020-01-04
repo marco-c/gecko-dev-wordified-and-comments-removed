@@ -4869,8 +4869,8 @@ eCSSKeyword_add
 NS_STYLE_MASK_COMPOSITE_ADD
 }
 {
-eCSSKeyword_substract
-NS_STYLE_MASK_COMPOSITE_SUBSTRACT
+eCSSKeyword_subtract
+NS_STYLE_MASK_COMPOSITE_SUBTRACT
 }
 {
 eCSSKeyword_intersect
