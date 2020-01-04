@@ -864,6 +864,7 @@ nsGkAtoms
 :
 cols
 aCols
+DEFAULT_COLS
 aError
 )
 ;
@@ -1178,6 +1179,7 @@ nsGkAtoms
 :
 rows
 aRows
+DEFAULT_ROWS_TEXTAREA
 aError
 )
 ;

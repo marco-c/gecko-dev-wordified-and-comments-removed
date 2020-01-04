@@ -1704,6 +1704,7 @@ nsGkAtoms
 :
 height
 aValue
+0
 aRv
 )
 ;
@@ -2082,6 +2083,7 @@ nsGkAtoms
 :
 size
 aValue
+DEFAULT_COLS
 aRv
 )
 ;
@@ -2289,6 +2291,7 @@ nsGkAtoms
 :
 width
 aValue
+0
 aRv
 )
 ;

@@ -433,6 +433,7 @@ nsGkAtoms
 :
 height
 aHeight
+DEFAULT_CANVAS_HEIGHT
 aRv
 )
 ;
@@ -485,6 +486,7 @@ nsGkAtoms
 :
 width
 aWidth
+DEFAULT_CANVAS_WIDTH
 aRv
 )
 ;

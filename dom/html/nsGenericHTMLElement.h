@@ -4395,6 +4395,8 @@ nsIAtom
 aName
 uint32_t
 aValue
+uint32_t
+aDefault
 mozilla
 :
 :
@@ -4406,6 +4408,23 @@ aError
 nsAutoString
 value
 ;
+if
+(
+aValue
+>
+INT32_MAX
+)
+{
+value
+.
+AppendInt
+(
+aDefault
+)
+;
+}
+else
+{
 value
 .
 AppendInt
@@ -4413,6 +4432,7 @@ AppendInt
 aValue
 )
 ;
+}
 SetHTMLAttr
 (
 aName
@@ -5454,6 +5474,7 @@ nsGkAtoms
 :
 _atom
 aValue
+_default
 rv
 )
 ;
@@ -5574,6 +5595,7 @@ nsGkAtoms
 :
 _atom
 aValue
+_default
 rv
 )
 ;

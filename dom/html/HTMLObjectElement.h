@@ -891,6 +891,7 @@ nsGkAtoms
 :
 hspace
 aValue
+0
 aRv
 )
 ;
@@ -969,6 +970,7 @@ nsGkAtoms
 :
 vspace
 aValue
+0
 aRv
 )
 ;
