@@ -2962,6 +2962,13 @@ java
 '
 home
 /
+SimpleCancellableCursorLoader
+.
+java
+'
+'
+home
+/
 SimpleCursorLoader
 .
 java
