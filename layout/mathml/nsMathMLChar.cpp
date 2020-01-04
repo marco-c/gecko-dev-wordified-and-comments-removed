@@ -174,7 +174,9 @@ h
 #
 include
 "
-prprf
+mozilla
+/
+Snprintf
 .
 h
 "
@@ -1136,13 +1138,9 @@ key
 10
 ]
 ;
-PR_snprintf
+snprintf_literal
 (
 key
-sizeof
-(
-key
-)
 "
 \
 \
