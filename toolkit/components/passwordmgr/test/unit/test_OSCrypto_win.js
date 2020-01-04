@@ -802,6 +802,7 @@ arrayToString
 (
 value
 )
+;
 let
 arr2
 =

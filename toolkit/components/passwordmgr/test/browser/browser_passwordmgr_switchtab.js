@@ -160,6 +160,7 @@ documentElement
 cancelDialog
 (
 )
+;
 }
 domwindow
 )
@@ -173,6 +174,7 @@ function
 {
 }
 }
+;
 Services
 .
 wm
@@ -207,6 +209,7 @@ tab
 ;
 }
 )
+;
 tab
 .
 linkedBrowser
