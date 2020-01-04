@@ -74,11 +74,13 @@ uri
 spec
 ;
 let
-{
 extensionId
-}
 =
 extensionContext
+.
+extension
+.
+id
 ;
 events
 .
