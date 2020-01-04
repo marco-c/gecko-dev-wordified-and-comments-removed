@@ -650,11 +650,6 @@ FinishShutdown
 )
 ;
 void
-ClearPositionChangeFlag
-(
-)
-;
-void
 UpdatePlaybackPosition
 (
 int64_t
@@ -790,11 +785,6 @@ return
 mTaskQueue
 ;
 }
-void
-ScheduleStateMachineWithLockAndWakeDecoder
-(
-)
-;
 void
 ScheduleStateMachine
 (
@@ -3297,9 +3287,6 @@ mVideoWaitRequest
 }
 bool
 mAudioCaptured
-;
-bool
-mPositionChangeQueued
 ;
 Watchable
 <
