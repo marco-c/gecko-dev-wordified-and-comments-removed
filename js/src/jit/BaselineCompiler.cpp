@@ -18468,15 +18468,8 @@ masm
 .
 pushValue
 (
-Address
+UndefinedValue
 (
-genObj
-GeneratorObject
-:
-:
-offsetOfThisSlot
-(
-)
 )
 )
 ;

@@ -3556,8 +3556,6 @@ regs
 HandleFunction
 callee
 HandleValue
-thisv
-HandleValue
 newTarget
 HandleObject
 scopeChain
@@ -4956,8 +4954,6 @@ resumeGeneratorFrame
 (
 HandleFunction
 callee
-HandleValue
-thisv
 HandleValue
 newTarget
 HandleObject
