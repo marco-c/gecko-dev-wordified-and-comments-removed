@@ -152,6 +152,13 @@ js
 '
 blocklist
 -
+clients
+.
+js
+'
+'
+blocklist
+-
 updater
 .
 js
@@ -171,11 +178,6 @@ kinto
 offline
 -
 client
-.
-js
-'
-'
-KintoBlocklist
 .
 js
 '
