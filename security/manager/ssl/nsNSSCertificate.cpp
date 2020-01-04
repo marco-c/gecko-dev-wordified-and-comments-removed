@@ -3652,15 +3652,6 @@ organization
 )
 ;
 }
-else
-{
-return
-GetIssuerCommonName
-(
-aOrganization
-)
-;
-}
 }
 return
 NS_OK
