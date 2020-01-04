@@ -235,13 +235,6 @@ MOCHITEST_MANIFESTS
 =
 [
 '
-ipc
-/
-mochitest
-.
-ini
-'
-'
 test
 /
 mochitest
