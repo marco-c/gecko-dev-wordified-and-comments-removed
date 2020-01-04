@@ -7,13 +7,6 @@ __FFmpegAACDecoder_h__
 #
 include
 "
-FFmpegLibWrapper
-.
-h
-"
-#
-include
-"
 FFmpegDataDecoder
 .
 h
@@ -50,9 +43,6 @@ public
 :
 FFmpegAudioDecoder
 (
-FFmpegLibWrapper
-*
-aLib
 FlushableTaskQueue
 *
 aTaskQueue
