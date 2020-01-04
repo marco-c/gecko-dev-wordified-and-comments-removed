@@ -826,8 +826,8 @@ aTransaction
 bool
 ProcessPendingRequest
 (
-const
 Message
+&
 &
 aUrgent
 )
@@ -858,8 +858,8 @@ recvd
 void
 DispatchMessage
 (
-const
 Message
+&
 &
 aMsg
 )
@@ -907,8 +907,8 @@ aMsg
 void
 DispatchInterruptMessage
 (
-const
 Message
+&
 &
 aMsg
 size_t
@@ -1106,7 +1106,6 @@ reply
 =
 false
 )
-const
 ;
 void
 DumpInterruptStack

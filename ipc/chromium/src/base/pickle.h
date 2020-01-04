@@ -94,6 +94,8 @@ Pickle
 &
 other
 )
+=
+delete
 ;
 Pickle
 (
@@ -113,6 +115,8 @@ Pickle
 &
 other
 )
+=
+delete
 ;
 Pickle
 &
