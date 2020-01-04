@@ -13003,6 +13003,11 @@ LAYERS_OPENGL
 )
 ;
 }
+bool
+allowTryingD3D9
+=
+false
+;
 if
 (
 !
@@ -13040,6 +13045,15 @@ LAYERS_D3D11
 }
 else
 {
+allowTryingD3D9
+=
+gfxPrefs
+:
+:
+LayersAllowD3D9Fallback
+(
+)
+;
 NS_WARNING
 (
 "
@@ -13074,6 +13088,9 @@ LayersPreferD3D9
 IsVistaOrLater
 (
 )
+|
+|
+allowTryingD3D9
 )
 {
 if
