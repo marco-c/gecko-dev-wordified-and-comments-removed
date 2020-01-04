@@ -2131,6 +2131,9 @@ refCount
 ;
 #
 endif
+#
+ifdef
+MOZ_STACKWALKING
 if
 (
 !
@@ -2226,6 +2229,8 @@ buf
 ;
 }
 }
+#
+endif
 return
 HT_ENUMERATE_NEXT
 ;
