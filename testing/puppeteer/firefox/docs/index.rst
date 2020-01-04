@@ -291,6 +291,11 @@ ui
 /
 browser
 /
+notifications
+ui
+/
+browser
+/
 tabbar
 ui
 /
