@@ -74,6 +74,11 @@ DevToolsUtils
 )
 ;
 var
+ALLOW_CONSOLE_ERRORS
+=
+false
+;
+var
 errorCount
 =
 0
@@ -213,10 +218,16 @@ exitNestedEventLoop
 )
 ;
 }
+if
+(
+!
+ALLOW_CONSOLE_ERRORS
+)
+{
 do_throw
 (
 "
-head_dbg
+head_devtools
 .
 js
 got
@@ -233,6 +244,7 @@ n
 "
 )
 ;
+}
 }
 }
 ;
