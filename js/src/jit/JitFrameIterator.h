@@ -82,7 +82,6 @@ JitFrame_Rectifier
 JitFrame_IonAccessorIC
 JitFrame_Exit
 JitFrame_Bailout
-JitFrame_LazyLink
 }
 ;
 enum
@@ -276,12 +275,6 @@ type_
 =
 =
 JitFrame_Exit
-|
-|
-type_
-=
-=
-JitFrame_LazyLink
 ;
 }
 bool
