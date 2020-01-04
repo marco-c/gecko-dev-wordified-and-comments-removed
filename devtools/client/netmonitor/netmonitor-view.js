@@ -15052,7 +15052,11 @@ header
 name
 {
 }
+{
+relaxed
+:
 true
+}
 )
 ;
 let
@@ -15228,7 +15232,11 @@ cookie
 name
 {
 }
+{
+relaxed
+:
 true
+}
 )
 ;
 let
@@ -15766,7 +15774,11 @@ param
 name
 {
 }
+{
+relaxed
+:
 true
+}
 )
 ;
 paramVar

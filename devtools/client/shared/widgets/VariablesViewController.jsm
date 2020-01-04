@@ -1810,7 +1810,11 @@ addItem
 (
 label
 undefined
+{
+relaxed
+:
 true
+}
 )
 ;
 closure
