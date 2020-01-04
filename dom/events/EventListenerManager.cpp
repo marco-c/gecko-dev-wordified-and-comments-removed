@@ -2265,7 +2265,7 @@ window
 >
 EnableDeviceSensor
 (
-SENSOR_ROTATION_VECTOR
+SENSOR_GAME_ROTATION_VECTOR
 )
 ;
 #
