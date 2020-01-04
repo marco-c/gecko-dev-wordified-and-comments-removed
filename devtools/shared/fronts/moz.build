@@ -152,6 +152,11 @@ preference
 js
 '
 '
+promises
+.
+js
+'
+'
 settings
 .
 js

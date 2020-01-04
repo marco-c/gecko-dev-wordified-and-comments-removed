@@ -181,6 +181,11 @@ preference
 js
 '
 '
+promises
+.
+js
+'
+'
 script
 .
 js
