@@ -4953,6 +4953,10 @@ mTreeCreated
 (
 false
 )
+mTreeCreationFailed
+(
+false
+)
 mOverLimitEvicting
 (
 false
@@ -17734,6 +17738,9 @@ if
 (
 !
 mCacheDirectory
+|
+|
+mTreeCreationFailed
 )
 {
 return
@@ -17742,6 +17749,10 @@ NS_ERROR_FILE_INVALID_PATH
 }
 nsresult
 rv
+;
+mTreeCreationFailed
+=
+true
 ;
 nsCOMPtr
 <
@@ -17831,6 +17842,10 @@ rv
 mTreeCreated
 =
 true
+;
+mTreeCreationFailed
+=
+false
 ;
 if
 (

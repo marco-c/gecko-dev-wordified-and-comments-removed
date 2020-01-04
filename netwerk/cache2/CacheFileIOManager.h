@@ -1947,6 +1947,9 @@ endif
 bool
 mTreeCreated
 ;
+bool
+mTreeCreationFailed
+;
 CacheFileHandles
 mHandles
 ;
