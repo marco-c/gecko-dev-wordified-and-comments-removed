@@ -691,7 +691,6 @@ mExtraData
 )
 {
 }
-virtual
 bool
 IsValid
 (
@@ -714,7 +713,6 @@ height
 0
 ;
 }
-virtual
 VideoInfo
 *
 GetAsVideoInfo
@@ -726,7 +724,6 @@ return
 this
 ;
 }
-virtual
 const
 VideoInfo
 *
@@ -740,7 +737,6 @@ return
 this
 ;
 }
-virtual
 UniquePtr
 <
 TrackInfo
@@ -909,7 +905,6 @@ mExtraData
 )
 {
 }
-virtual
 bool
 IsValid
 (
@@ -928,7 +923,6 @@ mRate
 0
 ;
 }
-virtual
 AudioInfo
 *
 GetAsAudioInfo
@@ -940,7 +934,6 @@ return
 this
 ;
 }
-virtual
 const
 AudioInfo
 *
@@ -954,7 +947,6 @@ return
 this
 ;
 }
-virtual
 UniquePtr
 <
 TrackInfo

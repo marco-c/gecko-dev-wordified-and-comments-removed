@@ -1706,7 +1706,6 @@ false
 )
 {
 }
-virtual
 SourceMediaStream
 *
 AsSourceStream
@@ -1718,7 +1717,6 @@ return
 this
 ;
 }
-virtual
 void
 DestroyImpl
 (
@@ -1904,7 +1902,6 @@ FinishWithLockHeld
 )
 ;
 }
-virtual
 void
 SetTrackEnabledImpl
 (
@@ -1931,7 +1928,6 @@ aEnabled
 )
 ;
 }
-virtual
 void
 ApplyTrackDisabling
 (
@@ -2583,7 +2579,6 @@ bool
 aAutofinish
 )
 ;
-virtual
 ProcessedMediaStream
 *
 AsProcessedStream
@@ -2655,7 +2650,6 @@ Length
 )
 ;
 }
-virtual
 void
 DestroyImpl
 (
@@ -2705,7 +2699,6 @@ return
 mCycleMarker
 ;
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -2740,7 +2733,6 @@ return
 amount
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (

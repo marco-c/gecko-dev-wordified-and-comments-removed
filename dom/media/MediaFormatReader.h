@@ -212,7 +212,6 @@ GetBuffered
 )
 override
 ;
-virtual
 bool
 ForceZeroStartTime
 (

@@ -57,7 +57,6 @@ mSelectedIndex
 )
 {
 }
-virtual
 JSObject
 *
 WrapObject
@@ -87,7 +86,6 @@ uint32_t
 aIndex
 )
 ;
-virtual
 void
 EmptyTracks
 (
@@ -131,7 +129,6 @@ VideoTrack
 ;
 protected
 :
-virtual
 VideoTrackList
 *
 AsVideoTrackList

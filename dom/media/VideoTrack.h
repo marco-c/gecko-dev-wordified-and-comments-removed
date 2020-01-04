@@ -48,7 +48,6 @@ nsAString
 aLanguage
 )
 ;
-virtual
 JSObject
 *
 WrapObject
@@ -68,7 +67,6 @@ aGivenProto
 )
 override
 ;
-virtual
 VideoTrack
 *
 AsVideoTrack
@@ -80,7 +78,6 @@ return
 this
 ;
 }
-virtual
 void
 SetEnabledInternal
 (

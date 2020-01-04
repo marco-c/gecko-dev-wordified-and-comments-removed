@@ -134,7 +134,6 @@ enabled
 )
 ;
 }
-virtual
 JSObject
 *
 WrapObject

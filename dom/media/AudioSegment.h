@@ -99,7 +99,6 @@ aBuffers
 )
 ;
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -162,7 +161,6 @@ return
 amount
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (
@@ -1994,7 +1992,6 @@ return
 AUDIO
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (

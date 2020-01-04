@@ -118,7 +118,6 @@ GetVideoStreamTrack
 )
 const
 ;
-virtual
 JSObject
 *
 WrapObject

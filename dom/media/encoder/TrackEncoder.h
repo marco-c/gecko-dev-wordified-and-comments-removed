@@ -256,7 +256,6 @@ mAudioBitrate
 )
 {
 }
-virtual
 void
 NotifyQueuedTrackChanges
 (
@@ -413,7 +412,6 @@ aMallocSizeOf
 )
 const
 ;
-virtual
 void
 SetBitrate
 (
@@ -461,7 +459,6 @@ AudioSegment
 aSegment
 )
 ;
-virtual
 void
 NotifyEndOfStream
 (
@@ -527,7 +524,6 @@ mVideoBitrate
 )
 {
 }
-virtual
 void
 NotifyQueuedTrackChanges
 (
@@ -558,7 +554,6 @@ aMallocSizeOf
 )
 const
 ;
-virtual
 void
 SetBitrate
 (
@@ -602,7 +597,6 @@ VideoSegment
 aSegment
 )
 ;
-virtual
 void
 NotifyEndOfStream
 (

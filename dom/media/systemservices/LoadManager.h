@@ -113,7 +113,6 @@ Get
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIOBSERVER
-virtual
 void
 LoadChanged
 (
@@ -124,21 +123,18 @@ aProcessLoad
 )
 override
 ;
-virtual
 void
 OveruseDetected
 (
 )
 override
 ;
-virtual
 void
 NormalUsage
 (
 )
 override
 ;
-virtual
 void
 AddObserver
 (
@@ -151,7 +147,6 @@ aObserver
 )
 override
 ;
-virtual
 void
 RemoveObserver
 (

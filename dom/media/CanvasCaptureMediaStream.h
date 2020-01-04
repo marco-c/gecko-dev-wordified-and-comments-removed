@@ -174,7 +174,6 @@ TrackID
 aTrackId
 )
 ;
-virtual
 JSObject
 *
 WrapObject

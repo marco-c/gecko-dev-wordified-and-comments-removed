@@ -74,7 +74,6 @@ nsISupports
 aParent
 )
 ;
-virtual
 JSObject
 *
 WrapObject

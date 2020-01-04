@@ -269,7 +269,6 @@ forget
 )
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (

@@ -53,7 +53,6 @@ aLabel
 )
 {
 }
-virtual
 JSObject
 *
 WrapObject
@@ -73,7 +72,6 @@ aGivenProto
 )
 override
 ;
-virtual
 AudioStreamTrack
 *
 AsAudioStreamTrack
@@ -85,7 +83,6 @@ return
 this
 ;
 }
-virtual
 void
 GetKind
 (

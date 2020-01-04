@@ -596,7 +596,6 @@ c
 mFrame
 ;
 }
-virtual
 void
 ReplaceWithDisabled
 (
@@ -652,7 +651,6 @@ return
 VIDEO
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (

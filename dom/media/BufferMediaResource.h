@@ -105,7 +105,6 @@ BufferMediaResource
 }
 private
 :
-virtual
 nsresult
 Close
 (
@@ -116,7 +115,6 @@ return
 NS_OK
 ;
 }
-virtual
 void
 Suspend
 (
@@ -126,7 +124,6 @@ aCloseImmediately
 override
 {
 }
-virtual
 void
 Resume
 (
@@ -134,7 +131,6 @@ Resume
 override
 {
 }
-virtual
 already_AddRefed
 <
 nsIPrincipal
@@ -160,7 +156,6 @@ forget
 )
 ;
 }
-virtual
 bool
 CanClone
 (
@@ -171,7 +166,6 @@ return
 false
 ;
 }
-virtual
 already_AddRefed
 <
 MediaResource
@@ -187,7 +181,6 @@ return
 nullptr
 ;
 }
-virtual
 void
 SetReadMode
 (
@@ -200,7 +193,6 @@ aMode
 override
 {
 }
-virtual
 void
 SetPlaybackRate
 (
@@ -210,7 +202,6 @@ aBytesPerSecond
 override
 {
 }
-virtual
 nsresult
 ReadAt
 (
@@ -284,7 +275,6 @@ return
 NS_OK
 ;
 }
-virtual
 int64_t
 Tell
 (
@@ -295,7 +285,6 @@ return
 mOffset
 ;
 }
-virtual
 void
 Pin
 (
@@ -303,7 +292,6 @@ Pin
 override
 {
 }
-virtual
 void
 Unpin
 (
@@ -311,7 +299,6 @@ Unpin
 override
 {
 }
-virtual
 double
 GetDownloadRate
 (
@@ -331,7 +318,6 @@ return
 .
 ;
 }
-virtual
 int64_t
 GetLength
 (
@@ -342,7 +328,6 @@ return
 mLength
 ;
 }
-virtual
 int64_t
 GetNextCachedData
 (
@@ -355,7 +340,6 @@ return
 aOffset
 ;
 }
-virtual
 int64_t
 GetCachedDataEnd
 (
@@ -368,7 +352,6 @@ return
 mLength
 ;
 }
-virtual
 bool
 IsDataCachedToEndOfResource
 (
@@ -381,7 +364,6 @@ return
 true
 ;
 }
-virtual
 bool
 IsSuspendedByCache
 (
@@ -392,7 +374,6 @@ return
 false
 ;
 }
-virtual
 bool
 IsSuspended
 (
@@ -403,7 +384,6 @@ return
 false
 ;
 }
-virtual
 nsresult
 ReadFromCache
 (
@@ -461,7 +441,6 @@ return
 NS_OK
 ;
 }
-virtual
 nsresult
 Open
 (
@@ -476,7 +455,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-virtual
 nsresult
 GetCachedRanges
 (
@@ -512,7 +490,6 @@ return
 true
 ;
 }
-virtual
 const
 nsCString
 &
@@ -526,7 +503,6 @@ return
 mContentType
 ;
 }
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -561,7 +537,6 @@ return
 size
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (

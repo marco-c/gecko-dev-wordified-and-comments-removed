@@ -35,7 +35,6 @@ DOMMediaStream
 aWrapper
 )
 ;
-virtual
 void
 RemoveInput
 (
@@ -45,7 +44,6 @@ aPort
 )
 override
 ;
-virtual
 void
 ProcessInput
 (

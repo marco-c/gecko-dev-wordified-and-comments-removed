@@ -85,7 +85,6 @@ TextTrackManager
 aTextTrackManager
 )
 ;
-virtual
 JSObject
 *
 WrapObject

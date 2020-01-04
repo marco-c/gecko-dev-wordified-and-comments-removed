@@ -141,7 +141,6 @@ MediaEncoder
 {
 }
 ;
-virtual
 void
 NotifyQueuedTrackChanges
 (
@@ -166,7 +165,6 @@ aInputTrackID
 )
 override
 ;
-virtual
 void
 NotifyEvent
 (

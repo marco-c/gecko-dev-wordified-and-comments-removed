@@ -44,7 +44,6 @@ PrincipalChangeObserver
 {
 public
 :
-virtual
 void
 NotifyQueuedTrackChanges
 (
@@ -69,7 +68,6 @@ aInputTrackID
 )
 override
 ;
-virtual
 void
 NotifyEvent
 (
@@ -81,7 +79,6 @@ aEvent
 )
 override
 ;
-virtual
 void
 PrincipalChanged
 (

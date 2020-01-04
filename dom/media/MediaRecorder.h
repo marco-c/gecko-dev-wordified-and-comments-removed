@@ -107,7 +107,6 @@ nsPIDOMWindow
 aOwnerWindow
 )
 ;
-virtual
 JSObject
 *
 WrapObject

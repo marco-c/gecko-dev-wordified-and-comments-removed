@@ -52,7 +52,6 @@ aMediaElement
 )
 {
 }
-virtual
 JSObject
 *
 WrapObject
@@ -105,7 +104,6 @@ aId
 ;
 protected
 :
-virtual
 AudioTrackList
 *
 AsAudioTrackList

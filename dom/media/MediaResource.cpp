@@ -4796,7 +4796,6 @@ FileMediaResource
 )
 {
 }
-virtual
 nsresult
 Open
 (
@@ -4807,14 +4806,12 @@ aStreamListener
 )
 override
 ;
-virtual
 nsresult
 Close
 (
 )
 override
 ;
-virtual
 void
 Suspend
 (
@@ -4824,7 +4821,6 @@ aCloseImmediately
 override
 {
 }
-virtual
 void
 Resume
 (
@@ -4832,7 +4828,6 @@ Resume
 override
 {
 }
-virtual
 already_AddRefed
 <
 nsIPrincipal
@@ -4842,14 +4837,12 @@ GetCurrentPrincipal
 )
 override
 ;
-virtual
 bool
 CanClone
 (
 )
 override
 ;
-virtual
 already_AddRefed
 <
 MediaResource
@@ -4862,7 +4855,6 @@ aCallback
 )
 override
 ;
-virtual
 nsresult
 ReadFromCache
 (
@@ -4876,7 +4868,6 @@ aCount
 )
 override
 ;
-virtual
 void
 SetReadMode
 (
@@ -4889,7 +4880,6 @@ aMode
 override
 {
 }
-virtual
 void
 SetPlaybackRate
 (
@@ -4899,7 +4889,6 @@ aBytesPerSecond
 override
 {
 }
-virtual
 nsresult
 ReadAt
 (
@@ -4916,7 +4905,6 @@ aBytes
 )
 override
 ;
-virtual
 already_AddRefed
 <
 MediaByteBuffer
@@ -4930,14 +4918,12 @@ aCount
 )
 override
 ;
-virtual
 int64_t
 Tell
 (
 )
 override
 ;
-virtual
 void
 Pin
 (
@@ -4945,7 +4931,6 @@ Pin
 override
 {
 }
-virtual
 void
 Unpin
 (
@@ -4953,7 +4938,6 @@ Unpin
 override
 {
 }
-virtual
 double
 GetDownloadRate
 (
@@ -4976,7 +4960,6 @@ return
 1024
 ;
 }
-virtual
 int64_t
 GetLength
 (
@@ -5001,7 +4984,6 @@ mSize
 0
 ;
 }
-virtual
 int64_t
 GetNextCachedData
 (
@@ -5033,7 +5015,6 @@ aOffset
 1
 ;
 }
-virtual
 int64_t
 GetCachedDataEnd
 (
@@ -5063,7 +5044,6 @@ mSize
 )
 ;
 }
-virtual
 bool
 IsDataCachedToEndOfResource
 (
@@ -5076,7 +5056,6 @@ return
 true
 ;
 }
-virtual
 bool
 IsSuspendedByCache
 (
@@ -5087,7 +5066,6 @@ return
 true
 ;
 }
-virtual
 bool
 IsSuspended
 (
@@ -5098,7 +5076,6 @@ return
 true
 ;
 }
-virtual
 bool
 IsTransportSeekable
 (
@@ -5118,7 +5095,6 @@ aRanges
 )
 override
 ;
-virtual
 size_t
 SizeOfExcludingThis
 (
@@ -5138,7 +5114,6 @@ aMallocSizeOf
 )
 ;
 }
-virtual
 size_t
 SizeOfIncludingThis
 (
