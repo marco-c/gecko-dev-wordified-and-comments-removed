@@ -263,9 +263,9 @@ text
 -
 emphasis
 -
-position
+line
 -
-property
+height
 -
 {
 index
