@@ -4180,16 +4180,15 @@ test_start
 :
                 
 if
-isinstance
-(
+"
+"
+in
 message
 [
 '
 test
 '
 ]
-tuple
-)
 :
                     
 self
@@ -4202,6 +4201,12 @@ message
 test
 '
 ]
+.
+split
+(
+"
+"
+)
 [
 0
 ]
