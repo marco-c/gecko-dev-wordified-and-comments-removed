@@ -280,7 +280,7 @@ catch
 e
 )
 {
-this
+callbacks
 .
 onError
 (
@@ -564,14 +564,10 @@ this
 .
 onSuccess
 (
-{
-value
-:
 touchId
 |
 |
 null
-}
 )
 ;
 this
