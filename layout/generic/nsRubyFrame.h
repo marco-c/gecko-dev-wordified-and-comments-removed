@@ -197,6 +197,10 @@ nsRubyBaseContainerFrame
 *
 PullOneSegment
 (
+const
+nsLineLayout
+*
+aLineLayout
 ContinuationTraversingState
 &
 aState
