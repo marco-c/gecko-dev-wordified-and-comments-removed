@@ -10008,6 +10008,7 @@ ObjectsVector
 ;
 public
 :
+explicit
 SnowWhiteKiller
 (
 nsCycleCollector
