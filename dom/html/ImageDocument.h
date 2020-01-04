@@ -204,7 +204,10 @@ ImageIsOverflowing
 const
 {
 return
-mImageIsOverflowing
+mImageIsOverflowingHorizontally
+|
+|
+mImageIsOverflowingVertically
 ;
 }
 bool
@@ -399,7 +402,10 @@ bool
 mClickResizingEnabled
 ;
 bool
-mImageIsOverflowing
+mImageIsOverflowingHorizontally
+;
+bool
+mImageIsOverflowingVertically
 ;
 bool
 mImageIsResized
