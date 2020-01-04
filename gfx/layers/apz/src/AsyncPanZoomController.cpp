@@ -5632,7 +5632,7 @@ const
 ScreenIntPoint
 &
 aPoint
-CSSPoint
+LayoutDevicePoint
 *
 aOut
 )
@@ -5689,13 +5689,6 @@ return
 false
 ;
 }
-{
-ReentrantMonitorAutoEnter
-lock
-(
-mMonitor
-)
-;
 *
 aOut
 =
@@ -5714,14 +5707,7 @@ PixelCastJustification
 LayoutDeviceIsScreenForUntransformedEvent
 )
 )
-/
-mFrameMetrics
-.
-GetDevPixelsPerCSSPixel
-(
-)
 ;
-}
 return
 true
 ;
@@ -8086,7 +8072,7 @@ if
 controller
 )
 {
-CSSPoint
+LayoutDevicePoint
 geckoScreenPoint
 ;
 if
@@ -8316,7 +8302,7 @@ if
 controller
 )
 {
-CSSPoint
+LayoutDevicePoint
 geckoScreenPoint
 ;
 if
@@ -8412,7 +8398,7 @@ runnable
 NewRunnableMethod
 <
 TapType
-CSSPoint
+LayoutDevicePoint
 mozilla
 :
 :
@@ -8703,7 +8689,7 @@ TouchActionAllowsDoubleTapZoom
 )
 )
 {
-CSSPoint
+LayoutDevicePoint
 geckoScreenPoint
 ;
 if

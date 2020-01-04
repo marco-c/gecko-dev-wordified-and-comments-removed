@@ -155,7 +155,7 @@ const
 mozilla
 :
 :
-CSSPoint
+LayoutDevicePoint
 &
 aPoint
 Modifiers

@@ -165,6 +165,10 @@ const
 CSSPoint
 &
 aPoint
+const
+CSSToLayoutDeviceScale
+&
+aScale
 Modifiers
 aModifiers
 const
@@ -187,6 +191,10 @@ const
 CSSPoint
 &
 aPoint
+const
+CSSToLayoutDeviceScale
+&
+aScale
 Modifiers
 aModifiers
 const

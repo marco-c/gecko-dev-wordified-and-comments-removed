@@ -447,7 +447,7 @@ void
 (
 TapType
 const
-CSSPoint
+LayoutDevicePoint
 &
 Modifiers
 const

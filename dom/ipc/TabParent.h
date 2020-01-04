@@ -2198,11 +2198,11 @@ GetChildProcessOffset
 (
 )
 ;
-CSSPoint
+LayoutDevicePoint
 AdjustTapToChildWidget
 (
 const
-CSSPoint
+LayoutDevicePoint
 &
 aPoint
 )

@@ -1091,7 +1091,7 @@ const
 ScreenIntPoint
 &
 aPoint
-CSSPoint
+LayoutDevicePoint
 *
 aOut
 )

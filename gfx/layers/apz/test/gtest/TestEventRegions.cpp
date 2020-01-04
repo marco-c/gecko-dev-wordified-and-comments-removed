@@ -1847,7 +1847,7 @@ TapType
 :
 :
 eSingleTap
-CSSPoint
+LayoutDevicePoint
 (
 55
 5

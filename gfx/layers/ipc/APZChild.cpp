@@ -440,7 +440,7 @@ TapType
 &
 aType
 const
-CSSPoint
+LayoutDevicePoint
 &
 aPoint
 const

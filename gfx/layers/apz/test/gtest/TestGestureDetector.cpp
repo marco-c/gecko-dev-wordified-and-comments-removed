@@ -1666,7 +1666,7 @@ TapType
 :
 :
 eSingleTap
-CSSPoint
+LayoutDevicePoint
 (
 10
 10
@@ -1798,7 +1798,7 @@ TapType
 :
 :
 eSingleTap
-CSSPoint
+LayoutDevicePoint
 (
 10
 10
@@ -2008,7 +2008,7 @@ TapType
 :
 :
 eLongTap
-CSSPoint
+LayoutDevicePoint
 (
 10
 10
@@ -2061,7 +2061,7 @@ TapType
 :
 :
 eLongTapUp
-CSSPoint
+LayoutDevicePoint
 (
 10
 10
@@ -2352,7 +2352,7 @@ TapType
 :
 :
 eLongTap
-CSSPoint
+LayoutDevicePoint
 (
 touchX
 touchStartY
@@ -2495,7 +2495,7 @@ TapType
 :
 :
 eSingleTap
-CSSPoint
+LayoutDevicePoint
 (
 touchX
 touchEndY
@@ -2762,7 +2762,7 @@ TapType
 :
 :
 eSingleTap
-CSSPoint
+LayoutDevicePoint
 (
 10
 10
@@ -2793,7 +2793,7 @@ TapType
 :
 :
 eDoubleTap
-CSSPoint
+LayoutDevicePoint
 (
 10
 10
@@ -2888,7 +2888,7 @@ TapType
 :
 :
 eSingleTap
-CSSPoint
+LayoutDevicePoint
 (
 10
 10
@@ -2919,7 +2919,7 @@ TapType
 :
 :
 eDoubleTap
-CSSPoint
+LayoutDevicePoint
 (
 10
 10
@@ -3014,7 +3014,7 @@ TapType
 :
 :
 eSingleTap
-CSSPoint
+LayoutDevicePoint
 (
 10
 10
@@ -3045,7 +3045,7 @@ TapType
 :
 :
 eDoubleTap
-CSSPoint
+LayoutDevicePoint
 (
 10
 10
@@ -3140,7 +3140,7 @@ TapType
 :
 :
 eSingleTap
-CSSPoint
+LayoutDevicePoint
 (
 10
 10
@@ -3171,7 +3171,7 @@ TapType
 :
 :
 eDoubleTap
-CSSPoint
+LayoutDevicePoint
 (
 10
 10
@@ -3262,7 +3262,7 @@ TapType
 :
 :
 eSingleTap
-CSSPoint
+LayoutDevicePoint
 (
 10
 10
@@ -3486,7 +3486,7 @@ TapType
 :
 :
 eSingleTap
-CSSPoint
+LayoutDevicePoint
 (
 10
 10
@@ -3884,7 +3884,7 @@ TapType
 :
 :
 eSingleTap
-CSSPoint
+LayoutDevicePoint
 (
 10
 10

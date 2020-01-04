@@ -121,7 +121,7 @@ using
 mozilla
 :
 :
-CSSPoint
+LayoutDevicePoint
 from
 "
 Units
@@ -849,7 +849,7 @@ HandleTap
 (
 TapType
 aType
-CSSPoint
+LayoutDevicePoint
 point
 Modifiers
 aModifiers
