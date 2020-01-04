@@ -1243,6 +1243,17 @@ aHostURI
 ;
 static
 bool
+CheckPrefixes
+(
+nsCookieAttributes
+&
+aCookie
+bool
+aSecureRequest
+)
+;
+static
+bool
 GetExpiry
 (
 nsCookieAttributes
