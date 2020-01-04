@@ -101,11 +101,6 @@ log
 js
 '
 '
-promise
-.
-js
-'
-'
 thunk
 .
 js
