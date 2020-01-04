@@ -102,6 +102,11 @@ dom
 =
 [
 '
+NSSU2FTokenRemote
+.
+h
+'
+'
 U2F
 .
 h
@@ -116,6 +121,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+NSSU2FTokenRemote
+.
+cpp
+'
 '
 U2F
 .
