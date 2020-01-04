@@ -49,6 +49,8 @@ final
 :
 public
 AnimationTimeline
+public
+nsARefreshObserver
 {
 public
 :
@@ -175,6 +177,14 @@ TimeDuration
 aTimelineTime
 )
 const
+override
+;
+void
+WillRefresh
+(
+TimeStamp
+aTime
+)
 override
 ;
 protected
