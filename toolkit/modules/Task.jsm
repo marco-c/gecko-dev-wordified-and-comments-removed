@@ -43,6 +43,13 @@ results
 ;
 Cu
 .
+permitCPOWsInScope
+(
+this
+)
+;
+Cu
+.
 import
 (
 "
