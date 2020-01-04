@@ -57,6 +57,15 @@ IsValid
 return
 nullptr
 ;
+auto
+rawFD
+=
+fileDescriptor
+.
+ClonePlatformHandle
+(
+)
+;
 PRFileDesc
 *
 prfd
@@ -65,9 +74,9 @@ PR_ImportFile
 (
 PROsfd
 (
-fileDescriptor
+rawFD
 .
-PlatformHandle
+release
 (
 )
 )

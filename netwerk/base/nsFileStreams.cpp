@@ -2453,6 +2453,15 @@ IsValid
 )
 )
 {
+auto
+rawFD
+=
+fd
+.
+ClonePlatformHandle
+(
+)
+;
 PRFileDesc
 *
 fileDesc
@@ -2461,9 +2470,9 @@ PR_ImportFile
 (
 PROsfd
 (
-fd
+rawFD
 .
-PlatformHandle
+release
 (
 )
 )
