@@ -493,7 +493,7 @@ config
 .
 rc_resize_allowed
 =
-1
+0
 ;
 config
 .
