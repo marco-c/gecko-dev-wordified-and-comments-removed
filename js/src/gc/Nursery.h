@@ -206,14 +206,6 @@ mkDbgr
 \
 _
 (
-ClearNewObjectCache
-"
-clrNOC
-"
-)
-\
-_
-(
 CollectToFP
 "
 collct

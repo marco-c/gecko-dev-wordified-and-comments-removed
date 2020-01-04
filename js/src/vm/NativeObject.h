@@ -899,9 +899,6 @@ GCMarker
 class
 Shape
 ;
-class
-NewObjectCache
-;
 #
 ifdef
 DEBUG
@@ -1778,10 +1775,6 @@ GCMarker
 friend
 class
 Shape
-;
-friend
-class
-NewObjectCache
 ;
 void
 invalidateSlotRange
