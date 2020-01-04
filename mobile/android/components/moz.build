@@ -115,11 +115,6 @@ AddonUpdateService
 js
 '
 '
-AndroidActivitiesGlue
-.
-js
-'
-'
 BlocklistPrompt
 .
 js
