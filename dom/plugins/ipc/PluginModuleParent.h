@@ -453,6 +453,11 @@ mPluginName
 mPluginVersion
 ;
 }
+void
+AccumulateModuleInitBlockedTime
+(
+)
+;
 virtual
 nsresult
 GetRunID
