@@ -1175,6 +1175,10 @@ CameraPreviewMediaStream
 this
 )
 ;
+mOwnedStream
+=
+mInput
+;
 BindToOwner
 (
 aWindow
