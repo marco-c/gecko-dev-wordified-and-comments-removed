@@ -1620,6 +1620,16 @@ NaN
 \
 macro
 (
+NegativeInfinity
+NegativeInfinity
+"
+-
+Infinity
+"
+)
+\
+macro
+(
 new
 new_
 "
