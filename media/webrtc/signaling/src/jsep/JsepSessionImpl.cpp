@@ -6082,6 +6082,10 @@ reset
 (
 )
 ;
+mNegotiations
++
++
+;
 return
 NS_OK
 ;
