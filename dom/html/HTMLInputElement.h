@@ -2554,7 +2554,7 @@ aSelectionEnd
 )
 ;
 bool
-DirectoryAttr
+Allowdirs
 (
 )
 const
@@ -2566,12 +2566,12 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-directory
+allowdirs
 )
 ;
 }
 void
-SetDirectoryAttr
+SetAllowdirs
 (
 bool
 aValue
@@ -2585,7 +2585,7 @@ SetHTMLBoolAttr
 nsGkAtoms
 :
 :
-directory
+allowdirs
 aValue
 aRv
 )

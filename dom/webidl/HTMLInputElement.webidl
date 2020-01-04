@@ -1120,16 +1120,11 @@ input
 .
 dirpicker
 "
-BinaryName
-=
-"
-DirectoryAttr
-"
 SetterThrows
 ]
 attribute
 boolean
-directory
+allowdirs
 ;
 [
 Pref

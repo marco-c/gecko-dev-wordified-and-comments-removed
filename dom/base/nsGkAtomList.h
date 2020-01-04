@@ -335,6 +335,13 @@ all
 )
 GK_ATOM
 (
+allowdirs
+"
+allowdirs
+"
+)
+GK_ATOM
+(
 allowevents
 "
 allowevents
