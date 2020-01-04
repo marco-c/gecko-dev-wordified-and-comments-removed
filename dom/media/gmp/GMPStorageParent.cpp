@@ -2699,7 +2699,7 @@ aPlugin
 )
 mShutdown
 (
-false
+true
 )
 {
 }
@@ -2887,6 +2887,10 @@ GMPMemoryStorage
 )
 ;
 }
+mShutdown
+=
+false
+;
 return
 NS_OK
 ;
