@@ -94,10 +94,6 @@ MPL
 *
 /
 include
-protocol
-PVideoDecoder
-;
-include
 LayersSurfaces
 ;
 include
@@ -121,16 +117,8 @@ async
 protocol
 PVideoDecoderManager
 {
-manages
-PVideoDecoder
-;
 parent
 :
-async
-PVideoDecoder
-(
-)
-;
 async
 DeallocateSurfaceDescriptorGPUVideo
 (
