@@ -2226,7 +2226,6 @@ i
 i
 )
 {
-var
 itemID
 =
 (
@@ -2332,6 +2331,9 @@ aTopic
 aData
 )
 {
+var
+label
+;
 switch
 (
 aTopic
@@ -2353,7 +2355,6 @@ Migration
 ItemBeforeMigrate
 "
 :
-var
 label
 =
 document
@@ -2396,7 +2397,6 @@ Migration
 ItemAfterMigrate
 "
 :
-var
 label
 =
 document
