@@ -4447,6 +4447,10 @@ eCSSKeyword__moz_gtk_info_bar
 NS_THEME_GTK_INFO_BAR
 }
 {
+eCSSKeyword__moz_mac_source_list
+NS_THEME_MAC_SOURCE_LIST
+}
+{
 eCSSKeyword_UNKNOWN
 -
 1
