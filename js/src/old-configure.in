@@ -4510,7 +4510,6 @@ yes
 ]
 )
 fi
-MOZ_PYTHON
 if
 test
 -
