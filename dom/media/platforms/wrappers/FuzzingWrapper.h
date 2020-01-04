@@ -152,6 +152,12 @@ MediaTimer
 >
 mDelayedOutputTimer
 ;
+MozPromiseRequestHolder
+<
+MediaTimerPromise
+>
+mDelayedOutputRequest
+;
 bool
 mDraining
 ;
