@@ -871,13 +871,11 @@ tab
 linkedBrowser
 ;
 yield
-once
+BrowserTestUtils
+.
+browserLoaded
 (
 browser
-"
-load
-"
-true
 )
 ;
 info
