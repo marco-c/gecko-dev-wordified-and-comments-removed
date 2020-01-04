@@ -15393,6 +15393,14 @@ mBubbles
 =
 false
 ;
+event
+.
+mFlags
+.
+mCancelable
+=
+false
+;
 EventDispatcher
 :
 :
