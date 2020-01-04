@@ -2358,6 +2358,10 @@ emitIteratorNext
 ParseNode
 *
 pn
+bool
+allowSelfHosted
+=
+false
 )
 ;
 bool
@@ -2558,6 +2562,14 @@ pn
 )
 ;
 bool
+emitSelfHostedAllowContentSpread
+(
+ParseNode
+*
+pn
+)
+;
+bool
 emitComprehensionFor
 (
 ParseNode
@@ -2705,6 +2717,10 @@ blockObj
 bool
 emitSpread
 (
+bool
+allowSelfHosted
+=
+false
 )
 ;
 bool
@@ -2715,6 +2731,10 @@ type
 ParseNode
 *
 pn
+bool
+allowSelfHosted
+=
+false
 )
 ;
 bool
