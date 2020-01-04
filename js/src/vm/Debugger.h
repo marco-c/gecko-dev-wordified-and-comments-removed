@@ -3297,11 +3297,11 @@ cx
 Map
 &
 map
+Handle
+<
 CrossCompartmentKey
-:
-:
-Kind
-keyKind
+>
+key
 Handle
 <
 ReferentVariant
