@@ -4491,7 +4491,6 @@ Apply2DTransform
 (
 )
 ;
-const
 nsIntRegion
 visibleRegion
 =
@@ -4642,9 +4641,7 @@ aTarget
 return
 ;
 }
-const
 IntRect
-&
 bounds
 =
 visibleRegion
@@ -4931,6 +4928,19 @@ xformBounds
 x
 -
 xformBounds
+.
+y
+0
+)
+;
+effectiveTransform
+.
+PreTranslate
+(
+bounds
+.
+x
+bounds
 .
 y
 0
