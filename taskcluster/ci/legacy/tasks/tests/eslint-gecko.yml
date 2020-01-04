@@ -264,9 +264,6 @@ machine
 platform
 :
 lint
-groupSymbol
-:
-tc
 symbol
 :
 ES

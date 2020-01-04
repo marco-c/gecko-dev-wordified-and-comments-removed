@@ -176,9 +176,6 @@ machine
 platform
 :
 lint
-groupSymbol
-:
-tc
 symbol
 :
 W

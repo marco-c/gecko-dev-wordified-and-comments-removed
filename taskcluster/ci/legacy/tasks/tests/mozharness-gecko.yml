@@ -256,9 +256,6 @@ machine
 platform
 :
 lint
-groupSymbol
-:
-tc
 symbol
 :
 MH

@@ -169,9 +169,6 @@ machine
 platform
 :
 lint
-groupSymbol
-:
-tc
 symbol
 :
 f8
