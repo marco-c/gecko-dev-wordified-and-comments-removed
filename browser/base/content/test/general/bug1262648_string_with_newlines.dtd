@@ -1,0 +1,14 @@
+<
+!
+ENTITY
+foo
+.
+bar
+"
+This
+string
+contains
+newlines
+!
+"
+>
