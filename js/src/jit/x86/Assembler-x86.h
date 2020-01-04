@@ -1917,7 +1917,7 @@ encoding
 label
 -
 >
-use
+bind
 (
 masm
 .

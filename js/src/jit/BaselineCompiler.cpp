@@ -4417,7 +4417,7 @@ MOZ_ASSERT
 !
 profilerEnterFrameToggleOffset_
 .
-used
+bound
 (
 )
 )
@@ -4468,7 +4468,7 @@ MOZ_ASSERT
 !
 profilerExitFrameToggleOffset_
 .
-used
+bound
 (
 )
 )

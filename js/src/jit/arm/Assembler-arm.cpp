@@ -4747,7 +4747,7 @@ INVALID_OFFSET
 label
 -
 >
-use
+bind
 (
 off
 .
