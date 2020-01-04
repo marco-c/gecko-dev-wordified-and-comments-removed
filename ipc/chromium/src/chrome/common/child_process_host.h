@@ -254,11 +254,6 @@ ProcessHandle
 handle
 )
 ;
-void
-InstanceCreated
-(
-)
-;
 virtual
 void
 OnMessageReceived
