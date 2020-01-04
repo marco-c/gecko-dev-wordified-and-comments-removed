@@ -484,6 +484,14 @@ LAsmReinterpretToI64
 lir
 )
 ;
+void
+visitWasmTruncateToInt32
+(
+LWasmTruncateToInt32
+*
+lir
+)
+;
 }
 ;
 typedef

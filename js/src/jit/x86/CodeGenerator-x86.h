@@ -407,6 +407,14 @@ ins
 )
 ;
 void
+visitWasmTruncateToInt32
+(
+LWasmTruncateToInt32
+*
+ins
+)
+;
+void
 visitOutOfLineTruncate
 (
 OutOfLineTruncate

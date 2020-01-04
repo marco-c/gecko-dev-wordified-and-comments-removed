@@ -1294,6 +1294,11 @@ HasClass
 \
 _
 (
+WasmTruncateToInt32
+)
+\
+_
+(
 AsmJSNeg
 )
 \
