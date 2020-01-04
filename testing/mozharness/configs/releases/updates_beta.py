@@ -7,7 +7,7 @@ log_name
 "
 :
 "
-updates_date
+updates_beta
 "
     
 "
@@ -280,7 +280,7 @@ patcher_config
 "
 :
 "
-moBeta
+mozBeta
 -
 branch
 -
@@ -317,7 +317,7 @@ firefox
 -
 mozilla
 -
-beta
+release
 "
             
 ]
