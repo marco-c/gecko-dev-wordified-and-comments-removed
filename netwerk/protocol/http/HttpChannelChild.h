@@ -648,12 +648,6 @@ asError
 override
 ;
 bool
-RecvReportRedirectionError
-(
-)
-override
-;
-bool
 GetAssociatedContentSecurity
 (
 nsIAssociatedContentSecurity
