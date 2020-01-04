@@ -363,12 +363,10 @@ cpp
 flags
 +
 =
+CONFIG
 [
 '
--
-mfpu
-=
-neon
+NEON_FLAGS
 '
 ]
 FINAL_LIBRARY

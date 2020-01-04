@@ -322,12 +322,10 @@ c
 flags
 +
 =
+CONFIG
 [
 '
--
-mfpu
-=
-neon
+NEON_FLAGS
 '
 ]
 #

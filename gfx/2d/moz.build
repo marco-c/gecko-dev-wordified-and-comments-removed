@@ -1231,12 +1231,10 @@ cpp
 flags
 +
 =
+CONFIG
 [
 '
--
-mfpu
-=
-neon
+NEON_FLAGS
 '
 ]
 include

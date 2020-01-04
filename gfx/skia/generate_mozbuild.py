@@ -2677,17 +2677,11 @@ val
 flags
 +
 =
-[
-\
-'
 "
 +
 cflag
 +
 "
-\
-'
-]
 \
 n
 "
@@ -3448,12 +3442,14 @@ neon
 '
 neon
 '
+"
+CONFIG
+[
 '
--
-mfpu
-=
-neon
+NEON_FLAGS
 '
+]
+"
 8
 )
   

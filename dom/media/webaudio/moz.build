@@ -662,12 +662,10 @@ cpp
 flags
 +
 =
+CONFIG
 [
 '
--
-mfpu
-=
-neon
+NEON_FLAGS
 '
 ]
 LOCAL_INCLUDES
