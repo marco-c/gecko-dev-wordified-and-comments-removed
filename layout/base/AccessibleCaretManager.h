@@ -278,7 +278,16 @@ UpdateCaretsForTilt
 ;
 nsIFrame
 *
-ChangeFocus
+GetFocusableFrame
+(
+nsIFrame
+*
+aFrame
+)
+const
+;
+void
+ChangeFocusToOrClearOldFocus
 (
 nsIFrame
 *
