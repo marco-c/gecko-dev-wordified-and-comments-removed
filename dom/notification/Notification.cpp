@@ -1997,6 +1997,7 @@ NS_IMPL_CYCLE_COLLECTION
 NotificationPermissionRequest
 mWindow
 mPromise
+mCallback
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
