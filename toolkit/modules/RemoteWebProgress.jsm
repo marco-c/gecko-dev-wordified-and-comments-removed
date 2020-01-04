@@ -1180,6 +1180,19 @@ json
 .
 documentContentType
 ;
+if
+(
+typeof
+json
+.
+inLoadURI
+!
+=
+"
+undefined
+"
+)
+{
 this
 .
 _browser
@@ -1190,6 +1203,7 @@ json
 .
 inLoadURI
 ;
+}
 if
 (
 json

@@ -701,7 +701,6 @@ docShell
 .
 mayEnableCharacterEncodingMenu
 ;
-}
 json
 .
 inLoadURI
@@ -710,6 +709,7 @@ WebNavigation
 .
 inLoadURI
 ;
+}
 this
 .
 _send
@@ -972,6 +972,14 @@ content
 document
 .
 mozSyntheticDocument
+;
+json
+.
+inLoadURI
+=
+WebNavigation
+.
+inLoadURI
 ;
 if
 (

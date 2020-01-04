@@ -5135,6 +5135,10 @@ anchor
 /
 /
 navigation
+initiated
+by
+the
+user
 .
 if
 (
@@ -5172,7 +5176,16 @@ blank
 )
 |
 |
+(
 isSameDocument
+&
+&
+this
+.
+mBrowser
+.
+inLoadURI
+)
 )
 {
 this
