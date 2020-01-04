@@ -36250,7 +36250,7 @@ principal
 aElement
 -
 >
-GetCurrentPrincipal
+GetCurrentVideoPrincipal
 (
 )
 ;

@@ -3146,7 +3146,7 @@ principal
 =
 aVideoEl
 .
-GetCurrentPrincipal
+GetCurrentVideoPrincipal
 (
 )
 ;
