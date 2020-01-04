@@ -2424,10 +2424,10 @@ JSOP_DEFFUN
 deffun
 "
 NULL
-1
-1
+5
 0
-JOF_BYTE
+0
+JOF_OBJECT
 )
 \
 \

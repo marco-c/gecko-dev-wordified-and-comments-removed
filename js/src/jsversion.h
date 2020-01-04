@@ -245,10 +245,6 @@ define
 JS_HAS_EXPONENTIATION
 1
 #
-define
-JS_HAS_ASYNC_FUNCS
-1
-#
 endif
 #
 endif
