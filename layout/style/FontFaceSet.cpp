@@ -1704,6 +1704,16 @@ GetParentObject
 (
 )
 ;
+if
+(
+!
+globalObject
+)
+{
+return
+nullptr
+;
+}
 JS
 :
 :
