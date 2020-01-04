@@ -1805,13 +1805,6 @@ h
 "
 #
 endif
-#
-include
-"
-VRDisplayProxy
-.
-h
-"
 using
 namespace
 mozilla

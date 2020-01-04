@@ -283,6 +283,9 @@ Presentation
 class
 LegacyMozTCPSocket
 ;
+class
+VRDisplay
+;
 namespace
 time
 {

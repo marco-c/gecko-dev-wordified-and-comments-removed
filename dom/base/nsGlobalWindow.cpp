@@ -8473,6 +8473,12 @@ Clear
 ;
 #
 endif
+mVRDisplays
+.
+Clear
+(
+)
+;
 }
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
@@ -56843,9 +56849,8 @@ VRDisplay
 UpdateVRDisplays
 (
 mVRDisplays
-ToSupports
+AsInner
 (
-this
 )
 )
 ;

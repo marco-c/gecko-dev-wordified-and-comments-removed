@@ -60,13 +60,6 @@ h
 #
 include
 "
-VRDisplayProxy
-.
-h
-"
-#
-include
-"
 mozilla
 /
 layers
