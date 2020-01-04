@@ -3741,6 +3741,15 @@ messageName
 aMessageName
 )
 ;
+messageName
+.
+StripChars
+(
+"
+0123456789
+"
+)
+;
 Telemetry
 :
 :
