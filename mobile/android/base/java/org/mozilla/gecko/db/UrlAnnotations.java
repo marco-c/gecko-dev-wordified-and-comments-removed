@@ -207,4 +207,17 @@ boolean
 hasCreatedShortCut
 )
 ;
+int
+getAnnotationCount
+(
+ContentResolver
+cr
+BrowserContract
+.
+UrlAnnotations
+.
+Key
+key
+)
+;
 }
