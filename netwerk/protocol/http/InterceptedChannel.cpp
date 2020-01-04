@@ -169,6 +169,10 @@ ConsoleReportCollector
 (
 )
 )
+mClosed
+(
+false
+)
 {
 }
 InterceptedChannelBase
@@ -735,8 +739,7 @@ ResetInterception
 {
 if
 (
-!
-mChannel
+mClosed
 )
 {
 return
@@ -819,6 +822,10 @@ Close
 mResponseBody
 =
 nullptr
+;
+mClosed
+=
+true
 ;
 return
 NS_OK
@@ -904,8 +911,7 @@ aFinalURLSpec
 {
 if
 (
-!
-mChannel
+mClosed
 )
 {
 return
@@ -1206,6 +1212,10 @@ rv
 ;
 }
 }
+mClosed
+=
+true
+;
 return
 NS_OK
 ;
@@ -1230,8 +1240,7 @@ aStatus
 ;
 if
 (
-!
-mChannel
+mClosed
 )
 {
 return
@@ -1263,6 +1272,10 @@ rv
 rv
 )
 ;
+mClosed
+=
+true
+;
 return
 NS_OK
 ;
@@ -1283,8 +1296,7 @@ aChannelInfo
 {
 if
 (
-!
-mChannel
+mClosed
 )
 {
 return
@@ -1486,8 +1498,7 @@ ResetInterception
 {
 if
 (
-!
-mChannel
+mClosed
 )
 {
 return
@@ -1523,6 +1534,10 @@ mChannel
 ResetInterception
 (
 )
+;
+mClosed
+=
+true
 ;
 return
 NS_OK
@@ -1610,8 +1625,7 @@ if
 (
 NS_WARN_IF
 (
-!
-mChannel
+mClosed
 )
 )
 {
@@ -1791,6 +1805,10 @@ mStreamListener
 =
 nullptr
 ;
+mClosed
+=
+true
+;
 return
 NS_OK
 ;
@@ -1815,8 +1833,7 @@ aStatus
 ;
 if
 (
-!
-mChannel
+mClosed
 )
 {
 return
@@ -1852,6 +1869,10 @@ mStreamListener
 =
 nullptr
 ;
+mClosed
+=
+true
+;
 return
 NS_OK
 ;
@@ -1872,8 +1893,7 @@ aChannelInfo
 {
 if
 (
-!
-mChannel
+mClosed
 )
 {
 return
