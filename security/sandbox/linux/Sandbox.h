@@ -58,7 +58,7 @@ aIsNuwa
 ifdef
 MOZ_CONTENT_SANDBOX
 MOZ_SANDBOX_EXPORT
-void
+bool
 SetContentProcessSandbox
 (
 int

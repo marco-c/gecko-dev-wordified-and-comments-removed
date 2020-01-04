@@ -167,6 +167,13 @@ kHasSeccompBPF
 )
 ;
 }
+MOZ_EXPORT
+void
+AnnotateCrashReport
+(
+)
+const
+;
 static
 void
 SubmitTelemetry

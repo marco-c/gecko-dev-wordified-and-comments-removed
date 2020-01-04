@@ -2747,7 +2747,7 @@ capabilities
 #
 ifdef
 MOZ_CONTENT_SANDBOX
-void
+bool
 SetContentProcessSandbox
 (
 int
@@ -2788,6 +2788,7 @@ aBrokerFd
 ;
 }
 return
+false
 ;
 }
 static
@@ -2825,6 +2826,9 @@ nullptr
 )
 )
 )
+;
+return
+true
 ;
 }
 #
