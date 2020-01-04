@@ -58,15 +58,6 @@ MacroArgs
 h
 "
 #
-include
-"
-mozilla
-/
-StaticAnalysisFunctions
-.
-h
-"
-#
 ifdef
 MOZ_DUMP_ASSERTION_STACK
 #
@@ -1195,7 +1186,6 @@ if
 MOZ_UNLIKELY
 (
 !
-MOZ_CHECK_ASSERT_ASSIGNMENT
 (
 expr
 )
@@ -1260,7 +1250,6 @@ if
 MOZ_UNLIKELY
 (
 !
-MOZ_CHECK_ASSERT_ASSIGNMENT
 (
 expr
 )

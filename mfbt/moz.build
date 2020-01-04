@@ -523,11 +523,6 @@ SplayTree
 h
 '
 '
-StaticAnalysisFunctions
-.
-h
-'
-'
 TaggedAnonymousMemory
 .
 h
