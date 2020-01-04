@@ -349,16 +349,6 @@ download
 start
 (
 )
-.
-catch
-(
-(
-)
-=
->
-{
-}
-)
 ;
 }
 else

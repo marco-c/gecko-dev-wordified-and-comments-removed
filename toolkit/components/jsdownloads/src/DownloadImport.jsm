@@ -707,16 +707,6 @@ download
 start
 (
 )
-.
-catch
-(
-(
-)
-=
->
-{
-}
-)
 ;
 }
 else

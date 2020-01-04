@@ -829,8 +829,9 @@ start
 (
 )
 .
-catch
+then
 (
+null
 (
 )
 =
