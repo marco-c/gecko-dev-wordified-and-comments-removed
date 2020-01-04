@@ -2182,6 +2182,15 @@ uint64_t
 aLayersId
 )
 ;
+uint64_t
+LayersId
+(
+)
+{
+return
+mLayersId
+;
+}
 void
 DidComposite
 (
