@@ -129,6 +129,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 Cleanup
@@ -137,6 +138,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 Enable
@@ -145,6 +147,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 Disable
@@ -153,6 +156,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 GetAdapterProperties
@@ -161,6 +165,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 GetAdapterProperty
@@ -173,6 +178,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 SetAdapterProperty
@@ -185,6 +191,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 GetRemoteDeviceProperties
@@ -197,6 +204,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 GetRemoteDeviceProperty
@@ -213,6 +221,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 SetRemoteDeviceProperty
@@ -229,6 +238,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 GetRemoteServiceRecord
@@ -247,6 +257,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 GetRemoteServices
@@ -259,6 +270,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 StartDiscovery
@@ -267,6 +279,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 CancelDiscovery
@@ -275,6 +288,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 CreateBond
@@ -289,6 +303,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 RemoveBond
@@ -301,6 +316,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 CancelBond
@@ -313,6 +329,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 GetConnectionState
@@ -325,6 +342,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 PinReply
@@ -343,6 +361,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 SspReply
@@ -361,6 +380,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 DutModeConfigure
@@ -386,6 +406,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 LeTestMode
@@ -401,6 +422,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 void
 ReadEnergyInfo
@@ -409,6 +431,7 @@ BluetoothResultHandler
 *
 aRes
 )
+override
 ;
 BluetoothSocketInterface
 *

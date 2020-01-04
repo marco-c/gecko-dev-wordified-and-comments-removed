@@ -1398,6 +1398,7 @@ BluetoothHandsfreeResultHandler
 *
 aRes
 )
+override
 ;
 void
 Cleanup
@@ -1406,6 +1407,7 @@ BluetoothHandsfreeResultHandler
 *
 aRes
 )
+override
 ;
 void
 Connect
@@ -1418,6 +1420,7 @@ BluetoothHandsfreeResultHandler
 *
 aRes
 )
+override
 ;
 void
 Disconnect
@@ -1430,6 +1433,7 @@ BluetoothHandsfreeResultHandler
 *
 aRes
 )
+override
 ;
 void
 ConnectAudio
@@ -1442,6 +1446,7 @@ BluetoothHandsfreeResultHandler
 *
 aRes
 )
+override
 ;
 void
 DisconnectAudio
@@ -1454,6 +1459,7 @@ BluetoothHandsfreeResultHandler
 *
 aRes
 )
+override
 ;
 void
 StartVoiceRecognition
@@ -1466,6 +1472,7 @@ BluetoothHandsfreeResultHandler
 *
 aRes
 )
+override
 ;
 void
 StopVoiceRecognition
@@ -1478,6 +1485,7 @@ BluetoothHandsfreeResultHandler
 *
 aRes
 )
+override
 ;
 void
 VolumeControl
@@ -1494,6 +1502,7 @@ BluetoothHandsfreeResultHandler
 *
 aRes
 )
+override
 ;
 void
 DeviceStatusNotification
@@ -1510,6 +1519,7 @@ BluetoothHandsfreeResultHandler
 *
 aRes
 )
+override
 ;
 void
 CopsResponse
@@ -1552,6 +1562,7 @@ BluetoothHandsfreeResultHandler
 *
 aRes
 )
+override
 ;
 void
 FormattedAtResponse
@@ -1568,6 +1579,7 @@ BluetoothHandsfreeResultHandler
 *
 aRes
 )
+override
 ;
 void
 AtResponse
@@ -1584,6 +1596,7 @@ BluetoothHandsfreeResultHandler
 *
 aRes
 )
+override
 ;
 void
 ClccResponse
@@ -1612,6 +1625,7 @@ BluetoothHandsfreeResultHandler
 *
 aRes
 )
+override
 ;
 void
 PhoneStateChange
@@ -1632,6 +1646,7 @@ BluetoothHandsfreeResultHandler
 *
 aRes
 )
+override
 ;
 void
 ConfigureWbs
@@ -1646,6 +1661,7 @@ BluetoothHandsfreeResultHandler
 *
 aRes
 )
+override
 ;
 private
 :

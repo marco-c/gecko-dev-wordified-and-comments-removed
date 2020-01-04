@@ -351,6 +351,7 @@ BluetoothSocketResultHandler
 *
 aRes
 )
+override
 ;
 void
 Connect
@@ -377,6 +378,7 @@ BluetoothSocketResultHandler
 *
 aRes
 )
+override
 ;
 void
 Accept
@@ -387,6 +389,7 @@ BluetoothSocketResultHandler
 *
 aRes
 )
+override
 ;
 void
 Close
@@ -395,6 +398,7 @@ BluetoothSocketResultHandler
 *
 aRes
 )
+override
 ;
 private
 :

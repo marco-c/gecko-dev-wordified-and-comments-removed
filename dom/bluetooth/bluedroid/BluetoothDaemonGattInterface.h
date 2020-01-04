@@ -2635,6 +2635,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 Cleanup
@@ -2643,6 +2644,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 RegisterClient
@@ -2655,6 +2657,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 UnregisterClient
@@ -2665,6 +2668,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 Scan
@@ -2677,6 +2681,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 Connect
@@ -2695,6 +2700,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 Disconnect
@@ -2711,6 +2717,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 Listen
@@ -2723,6 +2730,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 Refresh
@@ -2737,6 +2745,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 SearchService
@@ -2753,6 +2762,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 GetIncludedService
@@ -2773,6 +2783,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 GetCharacteristic
@@ -2793,6 +2804,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 GetDescriptor
@@ -2817,6 +2829,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 ReadCharacteristic
@@ -2837,6 +2850,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 WriteCharacteristic
@@ -2866,6 +2880,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 ReadDescriptor
@@ -2890,6 +2905,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 WriteDescriptor
@@ -2923,6 +2939,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 ExecuteWrite
@@ -2935,6 +2952,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 RegisterNotification
@@ -2957,6 +2975,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 DeregisterNotification
@@ -2979,6 +2998,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 ReadRemoteRssi
@@ -2993,6 +3013,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 GetDeviceType
@@ -3005,6 +3026,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 SetAdvData
@@ -3042,6 +3064,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 TestCommand
@@ -3056,6 +3079,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 RegisterServer
@@ -3068,6 +3092,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 UnregisterServer
@@ -3078,6 +3103,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 ConnectPeripheral
@@ -3096,6 +3122,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 DisconnectPeripheral
@@ -3112,6 +3139,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 AddService
@@ -3128,6 +3156,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 AddIncludedService
@@ -3142,6 +3171,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 AddCharacteristic
@@ -3162,6 +3192,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 AddDescriptor
@@ -3180,6 +3211,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 StartService
@@ -3194,6 +3226,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 StopService
@@ -3206,6 +3239,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 DeleteService
@@ -3218,6 +3252,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 SendIndication
@@ -3241,6 +3276,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 void
 SendResponse
@@ -3259,6 +3295,7 @@ BluetoothGattResultHandler
 *
 aRes
 )
+override
 ;
 private
 :

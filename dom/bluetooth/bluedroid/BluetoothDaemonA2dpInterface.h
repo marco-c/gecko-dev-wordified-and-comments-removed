@@ -444,6 +444,7 @@ BluetoothA2dpResultHandler
 *
 aRes
 )
+override
 ;
 void
 Cleanup
@@ -452,6 +453,7 @@ BluetoothA2dpResultHandler
 *
 aRes
 )
+override
 ;
 void
 Connect
@@ -464,6 +466,7 @@ BluetoothA2dpResultHandler
 *
 aRes
 )
+override
 ;
 void
 Disconnect
@@ -476,6 +479,7 @@ BluetoothA2dpResultHandler
 *
 aRes
 )
+override
 ;
 private
 :
