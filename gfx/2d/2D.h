@@ -3639,7 +3639,7 @@ aFormat
 )
 ;
 static
-void
+bool
 SetDirect3D11Device
 (
 ID3D11Device
