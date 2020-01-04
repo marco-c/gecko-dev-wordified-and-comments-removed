@@ -4155,3 +4155,10 @@ skip
 ;
 }
 ;
+typedef
+sequence
+<
+ChannelPixelLayout
+>
+ImagePixelLayout
+;
