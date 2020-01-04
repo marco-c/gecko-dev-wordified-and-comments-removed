@@ -3143,6 +3143,17 @@ lint
 *
 *
 '
+-
+'
+testing
+/
+docker
+/
+lint
+/
+*
+*
+'
 android
 -
 api
