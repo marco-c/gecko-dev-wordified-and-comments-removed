@@ -1024,7 +1024,6 @@ ONE_DAY_MS
 24
 ;
 public
-static
 enum
 StartupAction
 {
@@ -1034,6 +1033,7 @@ PREFETCH
 WEBAPP
 GUEST
 RESTRICTED
+SHORTCUT
 }
 public
 static
@@ -8126,6 +8126,7 @@ startupAction
 getStartupAction
 (
 passedUri
+action
 )
 ;
 Telemetry
@@ -13483,6 +13484,9 @@ getStartupAction
 final
 String
 passedURL
+final
+String
+action
 )
 {
 return
