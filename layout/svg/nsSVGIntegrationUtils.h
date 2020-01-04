@@ -81,16 +81,6 @@ gfx
 DrawTarget
 DrawTarget
 ;
-typedef
-mozilla
-:
-:
-image
-:
-:
-DrawResult
-DrawResult
-;
 public
 :
 static
@@ -296,7 +286,7 @@ aCallerPaintsOpacity
 }
 ;
 static
-DrawResult
+void
 PaintFramesWithEffects
 (
 const
