@@ -1898,7 +1898,6 @@ return
 mShadowTransform
 ;
 }
-const
 gfx
 :
 :

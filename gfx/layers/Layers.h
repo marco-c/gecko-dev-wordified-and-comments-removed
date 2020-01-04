@@ -3740,7 +3740,6 @@ return
 nullptr
 ;
 }
-const
 gfx
 :
 :
@@ -4110,7 +4109,6 @@ HasTransformAnimation
 )
 const
 ;
-const
 gfx
 :
 :

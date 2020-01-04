@@ -4807,7 +4807,6 @@ GetFirstChild
 )
 ;
 }
-const
 Matrix4x4
 Layer
 :
@@ -4897,7 +4896,6 @@ GetTransform
 )
 ;
 }
-const
 Matrix4x4
 Layer
 :
