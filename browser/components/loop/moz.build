@@ -176,13 +176,6 @@ jsm
 '
 modules
 /
-LoopCalls
-.
-jsm
-'
-'
-modules
-/
 LoopContacts
 .
 jsm
