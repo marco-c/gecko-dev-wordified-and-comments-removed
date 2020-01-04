@@ -6856,6 +6856,16 @@ data
 mLayer
 ;
 }
+if
+(
+!
+layer
+)
+{
+return
+nullptr
+;
+}
 return
 layer
 -
