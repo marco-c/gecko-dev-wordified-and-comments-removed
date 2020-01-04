@@ -9,7 +9,7 @@ endif
 #
 define
 _XOPEN_SOURCE
-500
+600
 #
 include
 <
