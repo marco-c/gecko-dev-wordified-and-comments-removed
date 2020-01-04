@@ -1288,6 +1288,13 @@ cpp
 '
 asmjs
 /
+WasmBinaryToExperimentalText
+.
+cpp
+'
+'
+asmjs
+/
 WasmBinaryToText
 .
 cpp
