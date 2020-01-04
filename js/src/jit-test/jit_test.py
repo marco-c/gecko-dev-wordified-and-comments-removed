@@ -1423,7 +1423,7 @@ tbpl
 dest
 =
 '
-jit_flags
+jitflags
 '
 action
 =
