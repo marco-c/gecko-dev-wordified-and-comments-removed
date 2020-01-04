@@ -67640,7 +67640,7 @@ initial_values
 :
 [
 "
-border
+padding
 -
 box
 "
@@ -67649,7 +67649,7 @@ other_values
 :
 [
 "
-padding
+border
 -
 box
 "

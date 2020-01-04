@@ -36456,13 +36456,6 @@ initialRepeat
 .
 SetInitialValues
 (
-nsStyleImageLayers
-:
-:
-LayerType
-:
-:
-Background
 )
 ;
 SetImageLayerPairList
@@ -51283,13 +51276,6 @@ initialRepeat
 .
 SetInitialValues
 (
-nsStyleImageLayers
-:
-:
-LayerType
-:
-:
-Mask
 )
 ;
 SetImageLayerPairList
@@ -51423,7 +51409,7 @@ Layer
 mOrigin
 uint8_t
 (
-NS_STYLE_IMAGELAYER_ORIGIN_BORDER
+NS_STYLE_IMAGELAYER_ORIGIN_PADDING
 )
 parentSVGReset
 -
