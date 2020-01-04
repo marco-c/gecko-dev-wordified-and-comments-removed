@@ -17599,9 +17599,10 @@ MOZ_B2G
 )
 |
 |
+!
 defined
 (
-NIGHTLY_BUILD
+RELEASE_BUILD
 )
 pref
 (
