@@ -161,7 +161,7 @@ algorithm
 #
 define
 BHR_BETA_MOD
-2
+1
 ;
 static
 const
