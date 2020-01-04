@@ -4253,6 +4253,13 @@ UpdateRelevance
 (
 )
 ;
+mEffect
+-
+>
+NotifyAnimationTimingUpdated
+(
+)
+;
 }
 }
 void
