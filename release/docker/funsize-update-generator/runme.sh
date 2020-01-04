@@ -96,8 +96,6 @@ fs
 -
 cache
 "
-EXTRA_PARAMS
-=
 if
 [
 !
@@ -116,6 +114,7 @@ filename
 -
 template
 FILENAME_TEMPLATE
+EXTRA_PARAMS
 "
 fi
 /
