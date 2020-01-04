@@ -1008,9 +1008,6 @@ break
 case
 MD_CONTEXT_MIPS
 :
-case
-MD_CONTEXT_MIPS64
-:
 cpu_stackwalker
 =
 new

@@ -14,6 +14,13 @@ string
 .
 h
 >
+#
+include
+<
+unistd
+.
+h
+>
 namespace
 google_breakpad
 {
