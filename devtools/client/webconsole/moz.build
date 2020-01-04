@@ -105,6 +105,14 @@ browser
 ini
 '
 ]
+DIRS
++
+=
+[
+'
+net
+'
+]
 DevToolsModules
 (
 '
