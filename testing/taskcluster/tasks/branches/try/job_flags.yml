@@ -732,7 +732,7 @@ builds
 /
 opt_linux64_st
 -
-an
+an_clobber
 .
 yml
 macosx64
