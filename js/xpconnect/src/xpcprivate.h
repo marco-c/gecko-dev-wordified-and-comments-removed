@@ -12871,6 +12871,11 @@ fetch
 :
 1
 ;
+bool
+caches
+:
+1
+;
 }
 ;
 already_AddRefed
