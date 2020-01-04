@@ -4763,6 +4763,9 @@ WorkerRunnable
 {
 nsRefPtr
 <
+dom
+:
+:
 Function
 >
 mHandler
@@ -4775,6 +4778,9 @@ DebuggerImmediateRunnable
 WorkerPrivate
 *
 aWorkerPrivate
+dom
+:
+:
 Function
 &
 aHandler
@@ -23383,6 +23389,9 @@ SetDebuggerImmediate
 JSContext
 *
 aCx
+dom
+:
+:
 Function
 &
 aHandler
@@ -24272,6 +24281,9 @@ SetTimeout
 JSContext
 *
 aCx
+dom
+:
+:
 Function
 *
 aHandler
