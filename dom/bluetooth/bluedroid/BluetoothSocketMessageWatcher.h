@@ -278,7 +278,7 @@ SocketMessageWatcherTask
 final
 :
 public
-Task
+Runnable
 {
 public
 :
@@ -289,7 +289,7 @@ SocketMessageWatcher
 aWatcher
 )
 ;
-void
+NS_IMETHOD
 Run
 (
 )
@@ -308,7 +308,7 @@ DeleteSocketMessageWatcherTask
 final
 :
 public
-Task
+Runnable
 {
 public
 :
@@ -319,7 +319,7 @@ BluetoothSocketResultHandler
 aRes
 )
 ;
-void
+NS_IMETHOD
 Run
 (
 )

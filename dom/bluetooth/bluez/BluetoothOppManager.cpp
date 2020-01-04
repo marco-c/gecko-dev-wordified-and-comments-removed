@@ -676,7 +676,7 @@ class
 CloseSocketTask
 :
 public
-Task
+Runnable
 {
 public
 :
@@ -698,7 +698,7 @@ aSocket
 )
 ;
 }
-void
+NS_IMETHOD
 Run
 (
 )
@@ -735,6 +735,9 @@ Close
 )
 ;
 }
+return
+NS_OK
+;
 }
 private
 :
@@ -4326,9 +4329,10 @@ current
 >
 PostDelayedTask
 (
-FROM_HERE
-new
+MakeAndAddRef
+<
 CloseSocketTask
+>
 (
 mSocket
 )

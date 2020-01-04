@@ -827,7 +827,6 @@ CompositorLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 &
@@ -3005,7 +3004,6 @@ CompositorLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 &
@@ -3126,7 +3124,6 @@ CompositorLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 &

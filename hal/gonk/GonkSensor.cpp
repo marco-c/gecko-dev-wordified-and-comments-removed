@@ -1612,7 +1612,6 @@ message_loop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 PollSensors

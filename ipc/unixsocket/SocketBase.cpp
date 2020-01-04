@@ -1089,7 +1089,7 @@ SocketEventTask
 )
 ;
 }
-void
+NS_IMETHODIMP
 SocketEventTask
 :
 :
@@ -1135,6 +1135,7 @@ IsShutdownOnConsumerThread
 )
 {
 return
+NS_OK
 ;
 }
 SocketBase
@@ -1203,6 +1204,9 @@ NotifyDisconnect
 )
 ;
 }
+return
+NS_OK
+;
 }
 SocketRequestClosingTask
 :
@@ -1242,7 +1246,7 @@ SocketRequestClosingTask
 )
 ;
 }
-void
+NS_IMETHODIMP
 SocketRequestClosingTask
 :
 :
@@ -1288,6 +1292,7 @@ IsShutdownOnConsumerThread
 )
 {
 return
+NS_OK
 ;
 }
 SocketBase
@@ -1312,6 +1317,9 @@ socketBase
 Close
 (
 )
+;
+return
+NS_OK
 ;
 }
 SocketDeleteInstanceTask
@@ -1349,7 +1357,7 @@ SocketDeleteInstanceTask
 )
 ;
 }
-void
+NS_IMETHODIMP
 SocketDeleteInstanceTask
 :
 :
@@ -1362,6 +1370,9 @@ mIO
 reset
 (
 )
+;
+return
+NS_OK
 ;
 }
 SocketIOShutdownTask
@@ -1402,7 +1413,7 @@ SocketIOShutdownTask
 )
 ;
 }
-void
+NS_IMETHODIMP
 SocketIOShutdownTask
 :
 :
@@ -1463,13 +1474,17 @@ GetConsumerThread
 >
 PostTask
 (
-FROM_HERE
-new
+MakeAndAddRef
+<
 SocketDeleteInstanceTask
+>
 (
 io
 )
 )
+;
+return
+NS_OK
 ;
 }
 }

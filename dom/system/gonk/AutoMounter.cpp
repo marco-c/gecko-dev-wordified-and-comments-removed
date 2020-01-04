@@ -4271,7 +4271,6 @@ current
 >
 PostDelayedTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
@@ -4667,7 +4666,6 @@ current
 >
 PostDelayedTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 this
@@ -6354,7 +6352,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 UsbCableEventIOThread
@@ -6401,7 +6398,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 InitAutoMounterIOThread
@@ -6497,7 +6493,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 SetAutoMounterModeIOThread
@@ -6524,7 +6519,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 SetAutoMounterSharingModeIOThread
@@ -6550,7 +6544,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 AutoMounterFormatVolumeIOThread
@@ -6575,7 +6568,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 AutoMounterMountVolumeIOThread
@@ -6600,7 +6592,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 AutoMounterUnmountVolumeIOThread
@@ -6675,7 +6666,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableFunction
 (
 ShutdownAutoMounterIOThread

@@ -198,7 +198,7 @@ aData
 )
 ;
 }
-void
+NS_IMETHOD
 Run
 (
 )
@@ -261,6 +261,9 @@ Send
 (
 mData
 )
+;
+return
+NS_OK
 ;
 }
 private

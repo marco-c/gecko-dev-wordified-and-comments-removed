@@ -998,7 +998,7 @@ class
 SocketTask
 :
 public
-Task
+Runnable
 {
 public
 :
@@ -1082,7 +1082,7 @@ SocketEventTask
 (
 )
 ;
-void
+NS_IMETHOD
 Run
 (
 )
@@ -1119,7 +1119,7 @@ SocketRequestClosingTask
 (
 )
 ;
-void
+NS_IMETHOD
 Run
 (
 )
@@ -1132,7 +1132,7 @@ SocketDeleteInstanceTask
 final
 :
 public
-Task
+Runnable
 {
 public
 :
@@ -1148,7 +1148,7 @@ SocketDeleteInstanceTask
 (
 )
 ;
-void
+NS_IMETHOD
 Run
 (
 )
@@ -1173,7 +1173,7 @@ class
 SocketIOTask
 :
 public
-CancelableTask
+CancelableRunnable
 {
 public
 :
@@ -1195,7 +1195,7 @@ return
 mIO
 ;
 }
-void
+nsresult
 Cancel
 (
 )
@@ -1204,6 +1204,9 @@ override
 mIO
 =
 nullptr
+;
+return
+NS_OK
 ;
 }
 bool
@@ -1269,7 +1272,7 @@ SocketIOShutdownTask
 (
 )
 ;
-void
+NS_IMETHOD
 Run
 (
 )

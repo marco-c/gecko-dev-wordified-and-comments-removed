@@ -1347,7 +1347,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 gHalDiskSpaceWatcher
@@ -1388,7 +1387,6 @@ XRE_GetIOMessageLoop
 >
 PostTask
 (
-FROM_HERE
 NewRunnableMethod
 (
 gHalDiskSpaceWatcher

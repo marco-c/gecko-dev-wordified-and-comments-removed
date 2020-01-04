@@ -95,10 +95,9 @@ class
 NetdWriteTask
 :
 public
-Task
+Runnable
 {
-virtual
-void
+NS_IMETHOD
 Run
 (
 )
