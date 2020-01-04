@@ -743,7 +743,7 @@ resolve
 setTimeout
 (
 resolve
-200
+400
 )
 )
 ;
