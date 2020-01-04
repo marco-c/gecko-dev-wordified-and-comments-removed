@@ -638,7 +638,7 @@ override
 ;
 virtual
 void
-SetBounds
+SetXULBounds
 (
 nsBoxLayoutState
 &

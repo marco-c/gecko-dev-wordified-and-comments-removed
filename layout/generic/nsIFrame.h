@@ -6450,7 +6450,7 @@ IsXULCollapsed
 ;
 virtual
 void
-SetBounds
+SetXULBounds
 (
 nsBoxLayoutState
 &

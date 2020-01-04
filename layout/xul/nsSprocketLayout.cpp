@@ -1661,7 +1661,7 @@ x
 child
 -
 >
-SetBounds
+SetXULBounds
 (
 aState
 childRect
@@ -1768,7 +1768,7 @@ height
 child
 -
 >
-SetBounds
+SetXULBounds
 (
 aState
 childRect
@@ -2099,7 +2099,7 @@ margin
 child
 -
 >
-SetBounds
+SetXULBounds
 (
 aState
 newChildRect
@@ -2346,7 +2346,7 @@ height
 aBox
 -
 >
-SetBounds
+SetXULBounds
 (
 aState
 bounds
@@ -2431,7 +2431,7 @@ origY
 child
 -
 >
-SetBounds
+SetXULBounds
 (
 aState
 childRect
@@ -3971,7 +3971,7 @@ GetPosition
 child
 -
 >
-SetBounds
+SetXULBounds
 (
 aState
 childRect
@@ -4527,7 +4527,7 @@ margin
 aChild
 -
 >
-SetBounds
+SetXULBounds
 (
 aState
 rect

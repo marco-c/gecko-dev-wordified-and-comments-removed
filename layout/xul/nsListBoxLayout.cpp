@@ -850,7 +850,7 @@ margin
 box
 -
 >
-SetBounds
+SetXULBounds
 (
 aState
 childRect
@@ -905,7 +905,7 @@ newPos
 box
 -
 >
-SetBounds
+SetXULBounds
 (
 aState
 childRect

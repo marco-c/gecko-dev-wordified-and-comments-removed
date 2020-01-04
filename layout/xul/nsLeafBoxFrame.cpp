@@ -1247,7 +1247,7 @@ computedSize
 height
 )
 ;
-SetBounds
+SetXULBounds
 (
 state
 r

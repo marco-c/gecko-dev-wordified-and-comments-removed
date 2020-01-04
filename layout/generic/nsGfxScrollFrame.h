@@ -5985,7 +5985,7 @@ mHelper
 mScrolledFrame
 -
 >
-SetBounds
+SetXULBounds
 (
 aState
 aRect

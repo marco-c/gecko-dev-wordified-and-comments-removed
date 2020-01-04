@@ -2149,7 +2149,7 @@ if
 sizeChanged
 )
 {
-SetBounds
+SetXULBounds
 (
 aState
 nsRect
@@ -6744,7 +6744,7 @@ PresContext
 )
 )
 ;
-SetBounds
+SetXULBounds
 (
 state
 mRect

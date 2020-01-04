@@ -887,7 +887,7 @@ void
 nsBox
 :
 :
-SetBounds
+SetXULBounds
 (
 nsBoxLayoutState
 &
@@ -918,7 +918,7 @@ height
 =
 0
 "
-SetBounds
+SetXULBounds
 Size
 <
 0
