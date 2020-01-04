@@ -121,6 +121,15 @@ include
 "
 mozilla
 /
+SizePrintfMacros
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Snprintf
 .
 h
@@ -3845,8 +3854,8 @@ rule
 count
 :
 %
-d
 "
+PRIuSIZE
 mUserFontSet
 .
 get
