@@ -1966,6 +1966,13 @@ ex
 )
 ;
 }
+yield
+this
+.
+promisePendingPingSaves
+(
+)
+;
 }
 )
 saveArchivedPing
