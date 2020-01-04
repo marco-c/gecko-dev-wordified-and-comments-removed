@@ -1747,7 +1747,6 @@ kVeriSign_Universal_Root_Certification_AuthorityFingerprint
 kGeoTrust_Universal_CAFingerprint
 kGeoTrust_Primary_Certification_Authority___G3Fingerprint
 kDigiCert_Global_Root_CAFingerprint
-kVerisign_Class_3_Public_Primary_Certification_AuthorityFingerprint
 kGeoTrust_Primary_Certification_Authority___G2Fingerprint
 }
 ;
@@ -1862,7 +1861,6 @@ kGeoTrust_Universal_CAFingerprint
 kGOOGLE_PIN_Entrust_SSLFingerprint
 kGeoTrust_Primary_Certification_Authority___G3Fingerprint
 kDigiCert_Global_Root_CAFingerprint
-kVerisign_Class_3_Public_Primary_Certification_AuthorityFingerprint
 kGeoTrust_Primary_Certification_Authority___G2Fingerprint
 kComodo_AAA_Services_rootFingerprint
 kAddTrust_Qualified_Certificates_RootFingerprint
@@ -9370,6 +9368,6 @@ kPreloadPKPinsExpirationTime
 =
 INT64_C
 (
-1457783716013000
+1458388670842000
 )
 ;
