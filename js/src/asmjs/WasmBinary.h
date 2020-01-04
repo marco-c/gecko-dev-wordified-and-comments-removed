@@ -446,6 +446,12 @@ I32x4Const
 #
 undef
 _
+I32x4shiftRightByScalarU
+I32x4lessThanU
+I32x4lessThanOrEqualU
+I32x4greaterThanU
+I32x4greaterThanOrEqualU
+I32x4fromFloat32x4U
 #
 define
 _
