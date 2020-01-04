@@ -257,6 +257,11 @@ shortcuts
 js
 '
 '
+keycodes
+.
+js
+'
+'
 l10n
 .
 js

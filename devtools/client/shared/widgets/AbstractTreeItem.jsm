@@ -85,6 +85,24 @@ helpers
 "
 )
 ;
+const
+{
+KeyCodes
+}
+=
+require
+(
+"
+devtools
+/
+client
+/
+shared
+/
+keycodes
+"
+)
+;
 XPCOMUtils
 .
 defineLazyModuleGetter
@@ -1754,7 +1772,7 @@ keyCode
 )
 {
 case
-e
+KeyCodes
 .
 DOM_VK_UP
 :
@@ -1767,7 +1785,7 @@ _focusPrevNode
 return
 ;
 case
-e
+KeyCodes
 .
 DOM_VK_DOWN
 :
@@ -1780,7 +1798,7 @@ _focusNextNode
 return
 ;
 case
-e
+KeyCodes
 .
 DOM_VK_LEFT
 :
@@ -1815,7 +1833,7 @@ _focusParentNode
 return
 ;
 case
-e
+KeyCodes
 .
 DOM_VK_RIGHT
 :
@@ -1846,7 +1864,7 @@ _focusNextNode
 return
 ;
 case
-e
+KeyCodes
 .
 DOM_VK_PAGE_UP
 :
@@ -1897,7 +1915,7 @@ _focusFirstNode
 return
 ;
 case
-e
+KeyCodes
 .
 DOM_VK_PAGE_DOWN
 :
@@ -1939,7 +1957,7 @@ _focusLastNode
 return
 ;
 case
-e
+KeyCodes
 .
 DOM_VK_HOME
 :
@@ -1952,7 +1970,7 @@ _focusFirstNode
 return
 ;
 case
-e
+KeyCodes
 .
 DOM_VK_END
 :
