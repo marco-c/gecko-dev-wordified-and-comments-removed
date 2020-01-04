@@ -199,9 +199,10 @@ data
 ;
 waitForCondition
 (
-function
 (
 )
+=
+>
 chatbar
 .
 childElementCount
@@ -618,9 +619,10 @@ focus
 ;
 waitForCondition
 (
-function
 (
 )
+=
+>
 isTabFocused
 (
 )
@@ -831,9 +833,10 @@ openChatViaUser
 ;
 waitForCondition
 (
-function
 (
 )
+=
+>
 isChatFocused
 (
 chatbar
@@ -936,9 +939,10 @@ opened
 ;
 waitForCondition
 (
-function
 (
 )
+=
+>
 isChatFocused
 (
 chatbar

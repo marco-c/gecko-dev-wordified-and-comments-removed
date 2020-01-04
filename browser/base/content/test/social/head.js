@@ -961,9 +961,10 @@ true
 ;
 waitForCondition
 (
-function
 (
 )
+=
+>
 provider
 .
 enabled
@@ -3876,10 +3877,9 @@ third
 .
 filter
 (
-function
-(
 item
-)
+=
+>
 !
 item
 .
