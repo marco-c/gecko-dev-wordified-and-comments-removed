@@ -6142,7 +6142,7 @@ GetChildProcessOffset
 widget
 -
 >
-DispatchAPZAwareEvent
+DispatchInputEvent
 (
 &
 localEvent
