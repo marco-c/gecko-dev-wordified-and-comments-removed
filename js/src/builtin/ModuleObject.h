@@ -1199,6 +1199,15 @@ pn
 )
 ;
 bool
+hasExportedName
+(
+JSAtom
+*
+name
+)
+const
+;
+bool
 initModule
 (
 )
@@ -1301,6 +1310,7 @@ JSAtom
 *
 localName
 )
+const
 ;
 bool
 appendExportEntry
