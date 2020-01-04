@@ -2037,15 +2037,6 @@ AssertCurrentThreadOwns
 ;
 if
 (
-!
-mCubebStream
-)
-{
-return
-;
-}
-if
-(
 mState
 =
 =
@@ -2142,11 +2133,6 @@ return
 }
 if
 (
-!
-mCubebStream
-|
-|
-(
 mState
 !
 =
@@ -2157,7 +2143,6 @@ mState
 !
 =
 RUNNING
-)
 )
 {
 mState
@@ -2225,10 +2210,6 @@ mMonitor
 ;
 if
 (
-!
-mCubebStream
-|
-|
 mState
 !
 =
@@ -2397,10 +2378,6 @@ AssertCurrentThreadOwns
 ;
 if
 (
-!
-mCubebStream
-|
-|
 mState
 =
 =
