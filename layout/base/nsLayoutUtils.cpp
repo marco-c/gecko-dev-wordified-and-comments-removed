@@ -14826,7 +14826,7 @@ parent
 break
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 bounds
 ;
 aWidget
@@ -14840,16 +14840,10 @@ bounds
 offset
 +
 =
-LayoutDeviceIntPoint
-:
-:
-FromUntyped
-(
 bounds
 .
 TopLeft
 (
-)
 )
 ;
 aWidget
@@ -39336,7 +39330,7 @@ widgetBounds
 widget
 -
 >
-GetBounds
+GetBoundsUntyped
 (
 widgetBounds
 )
@@ -40055,7 +40049,7 @@ widgetBounds
 widget
 -
 >
-GetBounds
+GetBoundsUntyped
 (
 widgetBounds
 )

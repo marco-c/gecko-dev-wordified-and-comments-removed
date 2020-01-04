@@ -56569,7 +56569,7 @@ aError
 widget
 -
 >
-GetScreenBounds
+GetScreenBoundsUntyped
 (
 widgetRect
 )

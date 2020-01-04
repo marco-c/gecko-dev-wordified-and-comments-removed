@@ -1199,7 +1199,7 @@ nsIntRect
 nsScreenGonk
 :
 :
-GetNaturalBounds
+GetNaturalBoundsUntyped
 (
 )
 {

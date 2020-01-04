@@ -181,7 +181,7 @@ MockWidget
 }
 NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
-GetClientBounds
+GetClientBoundsUntyped
 (
 IntRect
 &
@@ -204,7 +204,7 @@ NS_OK
 ;
 }
 NS_IMETHOD
-GetBounds
+GetBoundsUntyped
 (
 IntRect
 &
@@ -213,7 +213,7 @@ aRect
 override
 {
 return
-GetClientBounds
+GetClientBoundsUntyped
 (
 aRect
 )

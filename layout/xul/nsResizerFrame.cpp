@@ -1215,7 +1215,7 @@ AppUnitsPerCSSPixel
 )
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 oldRect
 ;
 nsWeakFrame

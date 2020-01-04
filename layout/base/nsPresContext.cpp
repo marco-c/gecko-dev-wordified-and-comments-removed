@@ -12948,7 +12948,7 @@ j
 mChild
 -
 >
-GetBounds
+GetBoundsUntyped
 (
 bounds
 )

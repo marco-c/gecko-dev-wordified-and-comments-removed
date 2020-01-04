@@ -9803,7 +9803,7 @@ NS_IMETHODIMP
 nsCocoaWindow
 :
 :
-GetClientBounds
+GetClientBoundsUntyped
 (
 nsIntRect
 &
@@ -9950,7 +9950,7 @@ NS_IMETHODIMP
 nsCocoaWindow
 :
 :
-GetScreenBounds
+GetScreenBoundsUntyped
 (
 nsIntRect
 &
@@ -11663,7 +11663,7 @@ if
 mWidgetListener
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 innerBounds
 ;
 GetClientBounds
@@ -11989,7 +11989,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
 nsIntRect
 clientRect
 ;
-GetClientBounds
+GetClientBoundsUntyped
 (
 clientRect
 )

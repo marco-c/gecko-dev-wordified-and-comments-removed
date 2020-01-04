@@ -254,7 +254,7 @@ aRepaint
 override
 ;
 NS_IMETHOD
-GetScreenBounds
+GetScreenBoundsUntyped
 (
 nsIntRect
 &

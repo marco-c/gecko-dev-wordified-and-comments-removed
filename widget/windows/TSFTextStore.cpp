@@ -21693,7 +21693,7 @@ return
 false
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 boundRect
 ;
 if
@@ -21762,17 +21762,11 @@ boundRect
 .
 IntersectRect
 (
-LayoutDevicePixel
-:
-:
-ToUntyped
-(
 event
 .
 mReply
 .
 mRect
-)
 boundRect
 )
 ;
@@ -21793,7 +21787,7 @@ MoveBy
 refWindow
 -
 >
-WidgetToScreenOffsetUntyped
+WidgetToScreenOffset
 (
 )
 )

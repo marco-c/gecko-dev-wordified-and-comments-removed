@@ -3769,7 +3769,7 @@ NS_ENSURE_SUCCESS
 puppetWidget
 -
 >
-GetBounds
+GetBoundsUntyped
 (
 tabContentBounds
 )
@@ -4264,7 +4264,7 @@ screenHeight
 =
 scaleFactor
 ;
-nsIntRect
+LayoutDeviceIntRect
 windowScreenBounds
 ;
 NS_ENSURE_SUCCESS

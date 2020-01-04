@@ -23856,7 +23856,7 @@ if
 mParentWidget
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 r
 ;
 mParentWidget

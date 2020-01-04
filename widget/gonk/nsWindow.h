@@ -504,7 +504,7 @@ override
 ;
 virtual
 nsIntRect
-GetNaturalBounds
+GetNaturalBoundsUntyped
 (
 )
 override

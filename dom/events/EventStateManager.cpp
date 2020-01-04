@@ -17654,7 +17654,7 @@ SuppressException
 (
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 screen
 ;
 aWidget

@@ -974,7 +974,7 @@ targetBounds
 mWidget
 -
 >
-GetNaturalBounds
+GetNaturalBoundsUntyped
 (
 )
 ;
@@ -2179,7 +2179,7 @@ outerBounds
 mWidget
 -
 >
-GetBounds
+GetBoundsUntyped
 (
 outerBounds
 )

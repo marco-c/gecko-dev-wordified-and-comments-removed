@@ -2746,7 +2746,7 @@ int32_t
 cy
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 rect
 ;
 if
@@ -6436,7 +6436,7 @@ GetFullScreen
 )
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 rect
 ;
 bool

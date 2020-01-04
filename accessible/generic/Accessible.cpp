@@ -2764,7 +2764,7 @@ rootWidget
 nullptr
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 rootRect
 ;
 rootWidget

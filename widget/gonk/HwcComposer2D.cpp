@@ -3542,7 +3542,7 @@ mScreenRect
 screen
 -
 >
-GetNaturalBounds
+GetNaturalBoundsUntyped
 (
 )
 ;
@@ -4361,7 +4361,7 @@ mScreenRect
 screen
 -
 >
-GetNaturalBounds
+GetNaturalBoundsUntyped
 (
 )
 ;

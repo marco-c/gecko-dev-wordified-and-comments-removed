@@ -262,7 +262,7 @@ GetNativeWindow
 )
 ;
 nsIntRect
-GetNaturalBounds
+GetNaturalBoundsUntyped
 (
 )
 ;

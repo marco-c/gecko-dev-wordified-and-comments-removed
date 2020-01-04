@@ -1859,7 +1859,7 @@ geckoBounds
 mGeckoChild
 -
 >
-GetBounds
+GetBoundsUntyped
 (
 geckoBounds
 )
@@ -1988,7 +1988,7 @@ aContext
 #
 ifdef
 DEBUG_UPDATE
-nsIntRect
+LayoutDeviceIntRect
 geckoBounds
 ;
 mGeckoChild
@@ -4637,7 +4637,7 @@ if
 mWidgetListener
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 innerBounds
 ;
 GetClientBounds
@@ -4665,7 +4665,7 @@ NS_IMETHODIMP
 nsWindow
 :
 :
-GetScreenBounds
+GetScreenBoundsUntyped
 (
 nsIntRect
 &

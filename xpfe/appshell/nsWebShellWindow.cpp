@@ -760,7 +760,7 @@ widgetInitData
 mWindow
 -
 >
-GetClientBounds
+GetClientBoundsUntyped
 (
 r
 )

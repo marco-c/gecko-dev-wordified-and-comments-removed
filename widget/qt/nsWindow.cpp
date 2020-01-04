@@ -3938,7 +3938,7 @@ aEvent
 nsIntRect
 rect
 ;
-GetBounds
+GetBoundsUntyped
 (
 rect
 )
@@ -6702,7 +6702,7 @@ NS_IMETHODIMP
 nsWindow
 :
 :
-GetScreenBounds
+GetScreenBoundsUntyped
 (
 nsIntRect
 &

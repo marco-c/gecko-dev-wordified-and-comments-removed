@@ -2791,7 +2791,7 @@ if
 aLeftOfParent
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 selfBounds
 parentBounds
 ;

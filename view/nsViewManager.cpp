@@ -2887,7 +2887,7 @@ bounds
 childWidget
 -
 >
-GetBounds
+GetBoundsUntyped
 (
 bounds
 )

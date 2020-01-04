@@ -1327,7 +1327,7 @@ screenRect
 widget
 -
 >
-GetScreenBounds
+GetScreenBoundsUntyped
 (
 screenRect
 )
