@@ -7866,7 +7866,7 @@ nullptr
 if
 (
 !
-EncodeDeclarationSection
+EncodeImportSection
 (
 e
 module
@@ -7878,7 +7878,7 @@ nullptr
 if
 (
 !
-EncodeImportSection
+EncodeDeclarationSection
 (
 e
 module
