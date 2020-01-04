@@ -243,6 +243,16 @@ mixed
 -
 content
 ;
+sequence
+<
+DOMString
+>
+require
+-
+sri
+-
+for
+;
 }
 ;
 dictionary
