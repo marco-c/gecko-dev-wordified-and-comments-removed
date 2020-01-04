@@ -573,14 +573,6 @@ mPausedGecko
 false
 ;
 }
-final
-Context
-applicationContext
-=
-getApplicationContext
-(
-)
-;
 GeckoBatteryManager
 .
 getInstance
@@ -589,7 +581,7 @@ getInstance
 .
 start
 (
-applicationContext
+this
 )
 ;
 GeckoNetworkManager
@@ -600,6 +592,7 @@ getInstance
 .
 start
 (
+this
 )
 ;
 mInBackground
