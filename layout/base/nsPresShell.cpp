@@ -28175,7 +28175,7 @@ pointerId
 break
 ;
 case
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 :
 if
 (
@@ -29201,7 +29201,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 )
 {
 mMouseLocation
@@ -32616,7 +32616,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 )
 &
 &

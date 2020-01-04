@@ -12171,9 +12171,9 @@ eMouseEnterIntoWidget
 ;
 _ASSIGN_eventName
 (
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 "
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 "
 )
 ;
@@ -12870,7 +12870,7 @@ aGuiEvent
 mMessage
 =
 =
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 )
 {
 if

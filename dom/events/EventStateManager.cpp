@@ -2344,7 +2344,7 @@ mouseEvent
 mMessage
 !
 =
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 )
 |
 |
@@ -2762,7 +2762,7 @@ true
 break
 ;
 case
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 :
 if
 (
@@ -5308,7 +5308,7 @@ case
 eMouseEnterIntoWidget
 :
 case
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 :
 return
 true
@@ -16084,7 +16084,7 @@ remoteEvent
 CreateMouseOrPointerWidgetEvent
 (
 aMouseEvent
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 aRelatedContent
 remoteEvent
 )
@@ -17534,7 +17534,7 @@ case
 NS_POINTER_CANCEL
 :
 case
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 :
 {
 OverOutElementsWrapper

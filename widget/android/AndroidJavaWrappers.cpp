@@ -5280,7 +5280,7 @@ ACTION_HOVER_EXIT
 :
 msg
 =
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 ;
 break
 ;

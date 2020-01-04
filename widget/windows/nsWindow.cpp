@@ -15463,7 +15463,7 @@ case
 eMouseMove
 :
 case
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 :
 if
 (
@@ -15899,7 +15899,7 @@ sLastClickCount
 break
 ;
 case
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 :
 event
 .
@@ -16158,7 +16158,7 @@ WM_MOUSEMOVE
 break
 ;
 case
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 :
 pluginEvent
 .
@@ -16344,7 +16344,7 @@ sCurrentWindow
 >
 DispatchMouseEvent
 (
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 wParam
 pos
 false
@@ -16406,7 +16406,7 @@ if
 aEventMessage
 =
 =
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 )
 {
 if
@@ -19864,7 +19864,7 @@ GetMessagePos
 ;
 DispatchMouseEvent
 (
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 mouseState
 pos
 false
@@ -19898,7 +19898,7 @@ GetMessagePos
 ;
 DispatchMouseEvent
 (
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 wParam
 pos
 false

@@ -3684,7 +3684,7 @@ mouseEvent
 mMessage
 !
 =
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 &
 &
 mouseEvent

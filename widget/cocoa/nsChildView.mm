@@ -27004,7 +27004,7 @@ aEnter
 ?
 eMouseEnterIntoWidget
 :
-NS_MOUSE_EXIT_WIDGET
+eMouseExitFromWidget
 ;
 WidgetMouseEvent
 event
