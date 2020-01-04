@@ -312,6 +312,7 @@ true
 >
 BenchmarkPromise
 ;
+explicit
 Benchmark
 (
 MediaDataDemuxer
