@@ -1863,6 +1863,17 @@ expando
 return
 nullptr
 ;
+MarkObjectGroupUnknownProperties
+(
+cx
+expando
+-
+>
+group
+(
+)
+)
+;
 MOZ_ASSERT_IF
 (
 !
