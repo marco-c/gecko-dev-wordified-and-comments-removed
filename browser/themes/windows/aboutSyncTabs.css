@@ -418,7 +418,9 @@ sync
 -
 mobileIcon
 .
-png
+svg
+#
+icon
 "
 )
 ;
@@ -455,7 +457,9 @@ sync
 -
 desktopIcon
 .
-png
+svg
+#
+icon
 "
 )
 ;
