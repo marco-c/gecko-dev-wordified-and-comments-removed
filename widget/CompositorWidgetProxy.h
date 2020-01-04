@@ -83,6 +83,9 @@ gfx
 class
 DrawTarget
 ;
+class
+SourceSurface
+;
 }
 namespace
 widget
@@ -314,7 +317,7 @@ gfx
 :
 DrawTarget
 >
-CreateBackBufferDrawTarget
+GetBackBufferDrawTarget
 (
 gfx
 :
@@ -330,6 +333,18 @@ const
 LayoutDeviceIntRect
 &
 aClearRect
+)
+;
+virtual
+already_AddRefed
+<
+gfx
+:
+:
+SourceSurface
+>
+EndBackBufferDrawing
+(
 )
 ;
 virtual
@@ -362,8 +377,6 @@ CompositorWidgetProxy
 (
 )
 ;
-private
-:
 RefPtr
 <
 gfx
