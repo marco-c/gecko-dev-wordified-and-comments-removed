@@ -3751,6 +3751,12 @@ mPaintSyncId
 }
 }
 #
+else
+mIsFirstPaint
+=
+false
+;
+#
 endif
 if
 (
