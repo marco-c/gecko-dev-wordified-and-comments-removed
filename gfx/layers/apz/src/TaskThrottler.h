@@ -59,6 +59,13 @@ h
 #
 include
 "
+nsISupportsImpl
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -93,6 +100,10 @@ TimeDuration
 aMaxWait
 )
 ;
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+TaskThrottler
+)
 void
 PostTask
 (
@@ -236,6 +247,11 @@ TimeDuration
 TimeDuration
 >
 mMean
+;
+~
+TaskThrottler
+(
+)
 ;
 }
 ;
