@@ -87,7 +87,10 @@ GfxDriverInfo
 :
 mOperatingSystem
 (
-DRIVER_OS_UNKNOWN
+OperatingSystem
+:
+:
+Unknown
 )
 mOperatingSystemVersion
 (

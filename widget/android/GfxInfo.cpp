@@ -1587,7 +1587,10 @@ IsEmpty
 {
 APPEND_TO_DRIVER_BLOCKLIST2
 (
-DRIVER_OS_ALL
+OperatingSystem
+:
+:
+Android
 (
 nsAString
 &

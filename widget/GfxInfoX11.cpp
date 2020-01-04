@@ -1360,7 +1360,10 @@ true
 OperatingSystem
 os
 =
-DRIVER_OS_LINUX
+OperatingSystem
+:
+:
+Linux
 ;
 if
 (
