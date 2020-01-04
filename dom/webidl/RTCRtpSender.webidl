@@ -325,7 +325,10 @@ attribute
 MediaStreamTrack
 track
 ;
+Promise
+<
 void
+>
 setParameters
 (
 optional
