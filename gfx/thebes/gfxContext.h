@@ -250,14 +250,6 @@ DrawTarget
 aTarget
 )
 ;
-already_AddRefed
-<
-gfxASurface
->
-CurrentSurface
-(
-)
-;
 mozilla
 :
 :
