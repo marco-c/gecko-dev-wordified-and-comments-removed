@@ -81,17 +81,6 @@ credentials
 /
 balrog_credentials
 .
-mar_file
-=
-b2g
--
-PLATFORM
--
-gecko
--
-update
-.
-mar
 #
 We
 need
@@ -354,7 +343,6 @@ public
 /
 build
 /
-mar_file
 .
 post
 -
