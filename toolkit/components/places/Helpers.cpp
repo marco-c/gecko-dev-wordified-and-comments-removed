@@ -65,7 +65,7 @@ AsyncStatementCallback
 mozIStorageStatementCallback
 )
 NS_IMETHODIMP
-AsyncStatementCallback
+WeakAsyncStatementCallback
 :
 :
 HandleResult
@@ -96,7 +96,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-AsyncStatementCallback
+WeakAsyncStatementCallback
 :
 :
 HandleCompletion
@@ -110,7 +110,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-AsyncStatementCallback
+WeakAsyncStatementCallback
 :
 :
 HandleError
