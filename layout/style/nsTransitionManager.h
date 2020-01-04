@@ -77,7 +77,7 @@ class
 nsPresContext
 ;
 class
-nsCSSPropertySet
+nsCSSPropertyIDSet
 ;
 namespace
 mozilla
@@ -1281,7 +1281,7 @@ aNewStyleContext
 bool
 *
 aStartedAny
-nsCSSPropertySet
+nsCSSPropertyIDSet
 *
 aWhichStarted
 )
