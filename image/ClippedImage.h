@@ -279,9 +279,13 @@ ClippedImage
 ;
 private
 :
-already_AddRefed
+Pair
+<
+DrawResult
+RefPtr
 <
 SourceSurface
+>
 >
 GetFrameInternal
 (
