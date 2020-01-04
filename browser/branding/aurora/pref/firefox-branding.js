@@ -90,7 +90,7 @@ update
 .
 promptWaitTime
 "
-604800
+691200
 )
 ;
 pref
