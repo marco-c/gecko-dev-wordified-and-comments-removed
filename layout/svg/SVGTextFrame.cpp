@@ -13814,7 +13814,7 @@ textLength
 0
 ;
 TextRenderedRunIterator
-it
+runIter
 (
 this
 TextRenderedRunIterator
@@ -13826,7 +13826,7 @@ eAllFrames
 TextRenderedRun
 run
 =
-it
+runIter
 .
 Current
 (
@@ -13894,7 +13894,7 @@ run
 mTextElementCharIndex
 ;
 gfxSkipCharsIterator
-it
+skipCharsIter
 =
 run
 .
@@ -13931,7 +13931,7 @@ range
 =
 ConvertOriginalToSkipped
 (
-it
+skipCharsIter
 offset
 length
 )
@@ -13951,7 +13951,7 @@ nullptr
 }
 run
 =
-it
+runIter
 .
 Next
 (
