@@ -16695,27 +16695,6 @@ runByDir
 False
     
 if
-mozinfo
-.
-isMac
-and
-mozinfo
-.
-info
-[
-'
-debug
-'
-]
-:
-        
-options
-.
-runByDir
-=
-False
-    
-if
 runner
 .
 getTestFlavor
