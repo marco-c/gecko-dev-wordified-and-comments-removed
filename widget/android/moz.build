@@ -146,6 +146,11 @@ UNIFIED_SOURCES
 =
 [
 '
+AndroidAlerts
+.
+cpp
+'
+'
 AndroidBridge
 .
 cpp
