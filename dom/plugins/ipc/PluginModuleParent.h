@@ -1098,10 +1098,10 @@ const
 nsIntRect
 &
 aRect
-gfxContext
+DrawTarget
 *
 *
-aCtx
+aDrawTarget
 )
 override
 ;

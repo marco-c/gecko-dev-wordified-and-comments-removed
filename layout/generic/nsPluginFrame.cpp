@@ -553,7 +553,7 @@ SetBackgroundUnknown
 virtual
 already_AddRefed
 <
-gfxContext
+DrawTarget
 >
 BeginUpdate
 (

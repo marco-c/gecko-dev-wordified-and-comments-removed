@@ -1229,10 +1229,10 @@ instance
 const
 nsIntRect
 &
-gfxContext
+DrawTarget
 *
 *
-aCtx
+aDrawTarget
 )
 {
 nsNPAPIPluginInstance
@@ -1272,7 +1272,7 @@ plugin
 )
 ;
 *
-aCtx
+aDrawTarget
 =
 nullptr
 ;

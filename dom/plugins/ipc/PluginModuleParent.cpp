@@ -8959,10 +8959,10 @@ const
 nsIntRect
 &
 aRect
-gfxContext
+DrawTarget
 *
 *
-aCtx
+aDrawTarget
 )
 {
 PluginInstanceParent
@@ -8992,7 +8992,7 @@ i
 BeginUpdateBackground
 (
 aRect
-aCtx
+aDrawTarget
 )
 ;
 }

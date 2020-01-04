@@ -739,9 +739,9 @@ opaque
 ;
 RefPtr
 <
-gfxContext
+DrawTarget
 >
-ctx
+dt
 =
 aLayer
 -
@@ -767,7 +767,7 @@ AllocateSequenceNumber
 ;
 if
 (
-ctx
+dt
 )
 {
 ColorPattern
@@ -792,12 +792,7 @@ GetSize
 (
 )
 ;
-ctx
--
->
-GetDrawTarget
-(
-)
+dt
 -
 >
 FillRect
