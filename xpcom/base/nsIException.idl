@@ -287,9 +287,6 @@ attribute
 jsval
 nativeSavedFrame
 ;
-[
-implicit_jscontext
-]
 AUTF8String
 toString
 (
@@ -542,9 +539,6 @@ to
 print
 etc
 .
-[
-implicit_jscontext
-]
 AUTF8String
 toString
 (

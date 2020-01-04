@@ -2960,9 +2960,6 @@ StackFrame
 :
 ToString
 (
-JSContext
-*
-aCx
 nsACString
 &
 _retval
