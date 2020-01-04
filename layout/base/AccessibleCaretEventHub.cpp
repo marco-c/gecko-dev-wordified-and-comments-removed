@@ -1940,8 +1940,11 @@ Cancel
 ;
 }
 mManager
-=
-nullptr
+-
+>
+Terminate
+(
+)
 ;
 mPresShell
 =
