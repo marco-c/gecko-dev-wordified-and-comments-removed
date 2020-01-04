@@ -1077,6 +1077,11 @@ None
 fh
 =
 None
+mode
+=
+'
+rU
+'
 )
 :
         
@@ -1169,6 +1174,10 @@ dry_run
 self
 .
 dry_run
+                                
+mode
+=
+mode
 )
         
 else
