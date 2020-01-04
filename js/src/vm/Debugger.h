@@ -1804,7 +1804,7 @@ environments
 ifdef
 NIGHTLY_BUILD
 uint32_t
-traceLoggerLastDrainedId
+traceLoggerLastDrainedSize
 ;
 uint32_t
 traceLoggerLastDrainedIteration
@@ -1812,7 +1812,7 @@ traceLoggerLastDrainedIteration
 #
 endif
 uint32_t
-traceLoggerScriptedCallsLastDrainedId
+traceLoggerScriptedCallsLastDrainedSize
 ;
 uint32_t
 traceLoggerScriptedCallsLastDrainedIteration

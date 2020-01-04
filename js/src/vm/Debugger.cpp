@@ -1532,7 +1532,7 @@ cx
 #
 ifdef
 NIGHTLY_BUILD
-traceLoggerLastDrainedId
+traceLoggerLastDrainedSize
 (
 0
 )
@@ -1542,7 +1542,7 @@ traceLoggerLastDrainedIteration
 )
 #
 endif
-traceLoggerScriptedCallsLastDrainedId
+traceLoggerScriptedCallsLastDrainedSize
 (
 0
 )
@@ -22200,7 +22200,7 @@ traceLoggerLastDrainedIteration
 dbg
 -
 >
-traceLoggerLastDrainedId
+traceLoggerLastDrainedSize
 )
 ;
 EventEntry
@@ -22221,7 +22221,7 @@ traceLoggerLastDrainedIteration
 dbg
 -
 >
-traceLoggerLastDrainedId
+traceLoggerLastDrainedSize
 &
 num
 )
@@ -22755,7 +22755,7 @@ traceLoggerScriptedCallsLastDrainedIteration
 dbg
 -
 >
-traceLoggerScriptedCallsLastDrainedId
+traceLoggerScriptedCallsLastDrainedSize
 )
 ;
 EventEntry
@@ -22776,7 +22776,7 @@ traceLoggerScriptedCallsLastDrainedIteration
 dbg
 -
 >
-traceLoggerScriptedCallsLastDrainedId
+traceLoggerScriptedCallsLastDrainedSize
 &
 num
 )
