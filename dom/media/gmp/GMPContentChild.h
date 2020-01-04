@@ -61,7 +61,6 @@ GMPMessageLoop
 (
 )
 ;
-virtual
 bool
 RecvPGMPAudioDecoderConstructor
 (
@@ -71,7 +70,6 @@ aActor
 )
 override
 ;
-virtual
 bool
 RecvPGMPDecryptorConstructor
 (
@@ -81,7 +79,6 @@ aActor
 )
 override
 ;
-virtual
 bool
 RecvPGMPVideoDecoderConstructor
 (
@@ -91,7 +88,6 @@ aActor
 )
 override
 ;
-virtual
 bool
 RecvPGMPVideoEncoderConstructor
 (
@@ -101,7 +97,6 @@ aActor
 )
 override
 ;
-virtual
 PGMPAudioDecoderChild
 *
 AllocPGMPAudioDecoderChild
@@ -109,7 +104,6 @@ AllocPGMPAudioDecoderChild
 )
 override
 ;
-virtual
 bool
 DeallocPGMPAudioDecoderChild
 (
@@ -119,7 +113,6 @@ aActor
 )
 override
 ;
-virtual
 PGMPDecryptorChild
 *
 AllocPGMPDecryptorChild
@@ -127,7 +120,6 @@ AllocPGMPDecryptorChild
 )
 override
 ;
-virtual
 bool
 DeallocPGMPDecryptorChild
 (
@@ -137,7 +129,6 @@ aActor
 )
 override
 ;
-virtual
 PGMPVideoDecoderChild
 *
 AllocPGMPVideoDecoderChild
@@ -145,7 +136,6 @@ AllocPGMPVideoDecoderChild
 )
 override
 ;
-virtual
 bool
 DeallocPGMPVideoDecoderChild
 (
@@ -155,7 +145,6 @@ aActor
 )
 override
 ;
-virtual
 PGMPVideoEncoderChild
 *
 AllocPGMPVideoEncoderChild
@@ -163,7 +152,6 @@ AllocPGMPVideoEncoderChild
 )
 override
 ;
-virtual
 bool
 DeallocPGMPVideoEncoderChild
 (
@@ -173,7 +161,6 @@ aActor
 )
 override
 ;
-virtual
 void
 ActorDestroy
 (
@@ -182,7 +169,6 @@ aWhy
 )
 override
 ;
-virtual
 void
 ProcessingError
 (
@@ -195,7 +181,6 @@ aReason
 )
 override
 ;
-virtual
 void
 CheckThread
 (

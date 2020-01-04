@@ -178,7 +178,6 @@ Shutdown
 ;
 protected
 :
-virtual
 bool
 RecvOpen
 (
@@ -189,7 +188,6 @@ aRecordName
 )
 override
 ;
-virtual
 bool
 RecvRead
 (
@@ -200,7 +198,6 @@ aRecordName
 )
 override
 ;
-virtual
 bool
 RecvWrite
 (
@@ -218,14 +215,12 @@ aBytes
 )
 override
 ;
-virtual
 bool
 RecvGetRecordNames
 (
 )
 override
 ;
-virtual
 bool
 RecvClose
 (
@@ -236,7 +231,6 @@ aRecordName
 )
 override
 ;
-virtual
 void
 ActorDestroy
 (

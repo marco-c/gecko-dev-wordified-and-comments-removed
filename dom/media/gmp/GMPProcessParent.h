@@ -132,7 +132,6 @@ aCallback
 nullptr
 )
 ;
-virtual
 bool
 CanShutdown
 (

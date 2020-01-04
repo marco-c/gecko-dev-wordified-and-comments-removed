@@ -97,7 +97,6 @@ aTimeoutMS
 ;
 protected
 :
-virtual
 bool
 RecvTimerExpired
 (

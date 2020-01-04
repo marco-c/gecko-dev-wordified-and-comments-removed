@@ -140,7 +140,6 @@ GMPVideoEncodedFrameImpl
 aFrame
 )
 ;
-virtual
 GMPErr
 CreateFrame
 (
@@ -153,7 +152,6 @@ aFrame
 )
 override
 ;
-virtual
 GMPErr
 CreatePlane
 (

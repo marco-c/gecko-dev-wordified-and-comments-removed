@@ -60,7 +60,6 @@ nsCString
 aStrings
 )
 ;
-virtual
 uint32_t
 Size
 (
@@ -68,7 +67,6 @@ Size
 const
 override
 ;
-virtual
 void
 StringAt
 (
@@ -154,7 +152,6 @@ GMPDecryptionData
 aData
 )
 ;
-virtual
 const
 uint8_t
 *
@@ -164,7 +161,6 @@ KeyId
 const
 override
 ;
-virtual
 uint32_t
 KeyIdSize
 (
@@ -172,7 +168,6 @@ KeyIdSize
 const
 override
 ;
-virtual
 const
 uint8_t
 *
@@ -182,7 +177,6 @@ IV
 const
 override
 ;
-virtual
 uint32_t
 IVSize
 (
@@ -190,7 +184,6 @@ IVSize
 const
 override
 ;
-virtual
 uint32_t
 NumSubsamples
 (
@@ -198,7 +191,6 @@ NumSubsamples
 const
 override
 ;
-virtual
 const
 uint16_t
 *
@@ -208,7 +200,6 @@ ClearBytes
 const
 override
 ;
-virtual
 const
 uint32_t
 *
@@ -218,7 +209,6 @@ CipherBytes
 const
 override
 ;
-virtual
 const
 GMPStringList
 *
@@ -290,23 +280,23 @@ aData
 )
 {
 }
-virtual
 uint32_t
 Id
 (
 )
 const
+override
 {
 return
 mId
 ;
 }
-virtual
 uint8_t
 *
 Data
 (
 )
+override
 {
 return
 mData
@@ -316,12 +306,12 @@ Elements
 )
 ;
 }
-virtual
 uint32_t
 Size
 (
 )
 const
+override
 {
 return
 mData
@@ -331,13 +321,13 @@ Length
 )
 ;
 }
-virtual
 void
 Resize
 (
 uint32_t
 aSize
 )
+override
 {
 mData
 .

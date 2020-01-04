@@ -198,7 +198,6 @@ aGMPContentParent
 ;
 protected
 :
-virtual
 void
 InitializePlugins
 (
@@ -206,7 +205,6 @@ InitializePlugins
 override
 {
 }
-virtual
 bool
 GetContentParentFrom
 (
@@ -289,7 +287,6 @@ GMPServiceChild
 (
 )
 ;
-virtual
 PGMPContentParent
 *
 AllocPGMPContentParent

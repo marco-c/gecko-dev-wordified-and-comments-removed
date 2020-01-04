@@ -1156,7 +1156,6 @@ Sort
 )
 ;
 }
-virtual
 GMPErr
 GetName
 (
@@ -1229,7 +1228,6 @@ return
 GMPNoErr
 ;
 }
-virtual
 GMPErr
 NextRecord
 (
@@ -1268,7 +1266,6 @@ GMPNoErr
 GMPEndOfEnumeration
 ;
 }
-virtual
 void
 Close
 (

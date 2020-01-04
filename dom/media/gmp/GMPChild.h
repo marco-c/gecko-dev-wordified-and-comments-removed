@@ -200,7 +200,6 @@ nsACString
 aOutLibPath
 )
 ;
-virtual
 bool
 RecvSetNodeId
 (
@@ -211,14 +210,12 @@ aNodeId
 )
 override
 ;
-virtual
 bool
 AnswerStartPlugin
 (
 )
 override
 ;
-virtual
 PCrashReporterChild
 *
 AllocPCrashReporterChild
@@ -230,7 +227,6 @@ aThread
 )
 override
 ;
-virtual
 bool
 DeallocPCrashReporterChild
 (
@@ -239,7 +235,6 @@ PCrashReporterChild
 )
 override
 ;
-virtual
 PGMPTimerChild
 *
 AllocPGMPTimerChild
@@ -247,7 +242,6 @@ AllocPGMPTimerChild
 )
 override
 ;
-virtual
 bool
 DeallocPGMPTimerChild
 (
@@ -257,7 +251,6 @@ aActor
 )
 override
 ;
-virtual
 PGMPStorageChild
 *
 AllocPGMPStorageChild
@@ -265,7 +258,6 @@ AllocPGMPStorageChild
 )
 override
 ;
-virtual
 bool
 DeallocPGMPStorageChild
 (
@@ -275,7 +267,6 @@ aActor
 )
 override
 ;
-virtual
 PGMPContentChild
 *
 AllocPGMPContentChild
@@ -296,28 +287,24 @@ GMPContentChild
 aGMPContentChild
 )
 ;
-virtual
 bool
 RecvCrashPluginNow
 (
 )
 override
 ;
-virtual
 bool
 RecvBeginAsyncShutdown
 (
 )
 override
 ;
-virtual
 bool
 RecvCloseActive
 (
 )
 override
 ;
-virtual
 void
 ActorDestroy
 (
@@ -326,7 +313,6 @@ aWhy
 )
 override
 ;
-virtual
 void
 ProcessingError
 (

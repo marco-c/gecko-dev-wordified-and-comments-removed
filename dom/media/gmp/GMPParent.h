@@ -505,7 +505,6 @@ aResult
 ;
 #
 endif
-virtual
 void
 ActorDestroy
 (
@@ -514,7 +513,6 @@ aWhy
 )
 override
 ;
-virtual
 PCrashReporterParent
 *
 AllocPCrashReporterParent
@@ -526,7 +524,6 @@ aThread
 )
 override
 ;
-virtual
 bool
 DeallocPCrashReporterParent
 (
@@ -536,7 +533,6 @@ aCrashReporter
 )
 override
 ;
-virtual
 bool
 RecvPGMPStorageConstructor
 (
@@ -546,7 +542,6 @@ actor
 )
 override
 ;
-virtual
 PGMPStorageParent
 *
 AllocPGMPStorageParent
@@ -554,7 +549,6 @@ AllocPGMPStorageParent
 )
 override
 ;
-virtual
 bool
 DeallocPGMPStorageParent
 (
@@ -564,7 +558,6 @@ aActor
 )
 override
 ;
-virtual
 PGMPContentParent
 *
 AllocPGMPContentParent
@@ -577,7 +570,6 @@ aOtherPid
 )
 override
 ;
-virtual
 bool
 RecvPGMPTimerConstructor
 (
@@ -587,7 +579,6 @@ actor
 )
 override
 ;
-virtual
 PGMPTimerParent
 *
 AllocPGMPTimerParent
@@ -595,7 +586,6 @@ AllocPGMPTimerParent
 )
 override
 ;
-virtual
 bool
 DeallocPGMPTimerParent
 (
@@ -605,21 +595,18 @@ aActor
 )
 override
 ;
-virtual
 bool
 RecvAsyncShutdownComplete
 (
 )
 override
 ;
-virtual
 bool
 RecvAsyncShutdownRequired
 (
 )
 override
 ;
-virtual
 bool
 RecvPGMPContentChildDestroyed
 (

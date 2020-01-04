@@ -114,14 +114,12 @@ Shutdown
 (
 )
 ;
-virtual
 void
 Close
 (
 )
 override
 ;
-virtual
 GMPErr
 InitEncode
 (
@@ -146,7 +144,6 @@ aMaxPayloadSize
 )
 override
 ;
-virtual
 GMPErr
 Encode
 (
@@ -172,7 +169,6 @@ aFrameTypes
 )
 override
 ;
-virtual
 GMPErr
 SetChannelParameters
 (
@@ -183,7 +179,6 @@ aRTT
 )
 override
 ;
-virtual
 GMPErr
 SetRates
 (
@@ -194,7 +189,6 @@ aFrameRate
 )
 override
 ;
-virtual
 GMPErr
 SetPeriodicKeyFrames
 (
@@ -203,7 +197,6 @@ aEnable
 )
 override
 ;
-virtual
 uint32_t
 GetPluginId
 (
@@ -215,7 +208,6 @@ return
 mPluginId
 ;
 }
-virtual
 bool
 Alloc
 (
@@ -259,7 +251,6 @@ aMem
 #
 endif
 }
-virtual
 void
 Dealloc
 (
@@ -283,7 +274,6 @@ GMPVideoEncoderParent
 (
 )
 ;
-virtual
 void
 ActorDestroy
 (
@@ -292,7 +282,6 @@ aWhy
 )
 override
 ;
-virtual
 bool
 RecvEncoded
 (
@@ -310,7 +299,6 @@ aCodecSpecificInfo
 )
 override
 ;
-virtual
 bool
 RecvError
 (
@@ -321,14 +309,12 @@ aError
 )
 override
 ;
-virtual
 bool
 RecvShutdown
 (
 )
 override
 ;
-virtual
 bool
 RecvParentShmemForPool
 (
@@ -339,7 +325,6 @@ aFrameBuffer
 )
 override
 ;
-virtual
 bool
 AnswerNeedShmem
 (
@@ -353,7 +338,6 @@ aMem
 )
 override
 ;
-virtual
 bool
 Recv__delete__
 (

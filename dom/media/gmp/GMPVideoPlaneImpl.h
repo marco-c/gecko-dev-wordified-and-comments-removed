@@ -105,7 +105,6 @@ GMPPlaneData
 aPlaneData
 )
 ;
-virtual
 GMPErr
 CreateEmptyPlane
 (
@@ -118,7 +117,6 @@ aPlaneSize
 )
 override
 ;
-virtual
 GMPErr
 Copy
 (
@@ -129,7 +127,6 @@ aPlane
 )
 override
 ;
-virtual
 GMPErr
 Copy
 (
@@ -144,7 +141,6 @@ aBuffer
 )
 override
 ;
-virtual
 void
 Swap
 (
@@ -154,7 +150,6 @@ aPlane
 )
 override
 ;
-virtual
 int32_t
 AllocatedSize
 (
@@ -162,14 +157,12 @@ AllocatedSize
 const
 override
 ;
-virtual
 void
 ResetSize
 (
 )
 override
 ;
-virtual
 bool
 IsZeroSize
 (
@@ -177,7 +170,6 @@ IsZeroSize
 const
 override
 ;
-virtual
 int32_t
 Stride
 (
@@ -185,7 +177,6 @@ Stride
 const
 override
 ;
-virtual
 const
 uint8_t
 *
@@ -195,7 +186,6 @@ Buffer
 const
 override
 ;
-virtual
 uint8_t
 *
 Buffer
@@ -203,7 +193,6 @@ Buffer
 )
 override
 ;
-virtual
 void
 Destroy
 (

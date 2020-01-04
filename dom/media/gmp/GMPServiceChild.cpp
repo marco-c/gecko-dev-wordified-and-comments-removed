@@ -278,7 +278,6 @@ aCallback
 )
 {
 }
-virtual
 void
 Done
 (
@@ -286,6 +285,7 @@ GMPServiceChild
 *
 aGMPServiceChild
 )
+override
 {
 if
 (
@@ -669,7 +669,6 @@ aCallback
 )
 {
 }
-virtual
 void
 Done
 (
@@ -677,6 +676,7 @@ GMPServiceChild
 *
 aGMPServiceChild
 )
+override
 {
 if
 (

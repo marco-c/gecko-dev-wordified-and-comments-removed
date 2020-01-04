@@ -103,7 +103,6 @@ GMPDecryptor
 aSession
 )
 ;
-virtual
 void
 SetSessionId
 (
@@ -118,7 +117,6 @@ aSessionIdLength
 )
 override
 ;
-virtual
 void
 ResolveLoadSessionPromise
 (
@@ -129,7 +127,6 @@ aSuccess
 )
 override
 ;
-virtual
 void
 ResolvePromise
 (
@@ -138,7 +135,6 @@ aPromiseId
 )
 override
 ;
-virtual
 void
 RejectPromise
 (
@@ -155,7 +151,6 @@ aMessageLength
 )
 override
 ;
-virtual
 void
 SessionMessage
 (
@@ -176,7 +171,6 @@ aMessageLength
 )
 override
 ;
-virtual
 void
 ExpirationChange
 (
@@ -191,7 +185,6 @@ aExpiryTime
 )
 override
 ;
-virtual
 void
 SessionClosed
 (
@@ -204,7 +197,6 @@ aSessionIdLength
 )
 override
 ;
-virtual
 void
 SessionError
 (
@@ -227,7 +219,6 @@ aMessageLength
 )
 override
 ;
-virtual
 void
 KeyStatusChanged
 (
@@ -248,7 +239,6 @@ aStatus
 )
 override
 ;
-virtual
 void
 SetCapabilities
 (
@@ -257,7 +247,6 @@ aCaps
 )
 override
 ;
-virtual
 void
 Decrypted
 (
@@ -269,7 +258,6 @@ aResult
 )
 override
 ;
-virtual
 void
 GetSandboxVoucher
 (
@@ -284,7 +272,6 @@ aVoucherLength
 )
 override
 ;
-virtual
 void
 GetPluginVoucher
 (
@@ -306,14 +293,12 @@ GMPDecryptorChild
 (
 )
 ;
-virtual
 bool
 RecvInit
 (
 )
 override
 ;
-virtual
 bool
 RecvCreateSession
 (
@@ -343,7 +328,6 @@ aSessionType
 )
 override
 ;
-virtual
 bool
 RecvLoadSession
 (
@@ -358,7 +342,6 @@ aSessionId
 )
 override
 ;
-virtual
 bool
 RecvUpdateSession
 (
@@ -380,7 +363,6 @@ aResponse
 )
 override
 ;
-virtual
 bool
 RecvCloseSession
 (
@@ -395,7 +377,6 @@ aSessionId
 )
 override
 ;
-virtual
 bool
 RecvRemoveSession
 (
@@ -410,7 +391,6 @@ aSessionId
 )
 override
 ;
-virtual
 bool
 RecvDecrypt
 (
@@ -432,7 +412,6 @@ aMetadata
 )
 override
 ;
-virtual
 bool
 RecvSetServerCertificate
 (
@@ -450,7 +429,6 @@ aServerCert
 )
 override
 ;
-virtual
 bool
 RecvDecryptingComplete
 (

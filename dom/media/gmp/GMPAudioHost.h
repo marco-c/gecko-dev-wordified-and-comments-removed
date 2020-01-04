@@ -120,21 +120,18 @@ GMPAudioSamplesImpl
 (
 )
 ;
-virtual
 GMPAudioFormat
 GetFormat
 (
 )
 override
 ;
-virtual
 void
 Destroy
 (
 )
 override
 ;
-virtual
 GMPErr
 SetBufferSize
 (
@@ -143,14 +140,12 @@ aSize
 )
 override
 ;
-virtual
 uint32_t
 Size
 (
 )
 override
 ;
-virtual
 void
 SetTimeStamp
 (
@@ -159,14 +154,12 @@ aTimeStamp
 )
 override
 ;
-virtual
 uint64_t
 TimeStamp
 (
 )
 override
 ;
-virtual
 const
 uint8_t
 *
@@ -176,7 +169,6 @@ Buffer
 const
 override
 ;
-virtual
 uint8_t
 *
 Buffer
@@ -184,7 +176,6 @@ Buffer
 )
 override
 ;
-virtual
 const
 GMPEncryptedBufferMetadata
 *
@@ -211,7 +202,6 @@ GMPAudioEncodedSampleData
 aData
 )
 ;
-virtual
 uint32_t
 Channels
 (
@@ -219,7 +209,6 @@ Channels
 const
 override
 ;
-virtual
 void
 SetChannels
 (
@@ -228,7 +217,6 @@ aChannels
 )
 override
 ;
-virtual
 uint32_t
 Rate
 (
@@ -236,7 +224,6 @@ Rate
 const
 override
 ;
-virtual
 void
 SetRate
 (
@@ -281,7 +268,6 @@ GMPAudioHost
 {
 public
 :
-virtual
 GMPErr
 CreateSamples
 (

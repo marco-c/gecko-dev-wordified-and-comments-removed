@@ -99,7 +99,6 @@ Shutdown
 ;
 protected
 :
-virtual
 bool
 RecvSetTimer
 (
@@ -114,7 +113,6 @@ aTimeoutMs
 )
 override
 ;
-virtual
 void
 ActorDestroy
 (

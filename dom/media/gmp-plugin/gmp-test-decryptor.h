@@ -54,7 +54,6 @@ GMPDecryptorHost
 aHost
 )
 ;
-virtual
 void
 Init
 (
@@ -69,7 +68,6 @@ mCallback
 aCallback
 ;
 }
-virtual
 void
 CreateSession
 (
@@ -95,7 +93,6 @@ aSessionType
 override
 {
 }
-virtual
 void
 LoadSession
 (
@@ -111,7 +108,6 @@ aSessionIdLength
 override
 {
 }
-virtual
 void
 UpdateSession
 (
@@ -132,7 +128,6 @@ aResponseSize
 )
 override
 ;
-virtual
 void
 CloseSession
 (
@@ -148,7 +143,6 @@ aSessionIdLength
 override
 {
 }
-virtual
 void
 RemoveSession
 (
@@ -164,7 +158,6 @@ aSessionIdLength
 override
 {
 }
-virtual
 void
 SetServerCertificate
 (
@@ -180,7 +173,6 @@ aServerCertSize
 override
 {
 }
-virtual
 void
 Decrypt
 (
@@ -194,7 +186,6 @@ aMetadata
 override
 {
 }
-virtual
 void
 DecryptingComplete
 (
@@ -275,7 +266,6 @@ aHost
 )
 {
 }
-virtual
 void
 BeginShutdown
 (

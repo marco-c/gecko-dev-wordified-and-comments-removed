@@ -95,7 +95,6 @@ Host
 (
 )
 ;
-virtual
 void
 Encoded
 (
@@ -111,7 +110,6 @@ aCodecSpecificInfoLength
 )
 override
 ;
-virtual
 void
 Error
 (
@@ -120,7 +118,6 @@ aError
 )
 override
 ;
-virtual
 bool
 Alloc
 (
@@ -140,7 +137,6 @@ aMem
 )
 override
 ;
-virtual
 void
 Dealloc
 (
@@ -158,7 +154,6 @@ GMPVideoEncoderChild
 (
 )
 ;
-virtual
 bool
 RecvInitEncode
 (
@@ -184,7 +179,6 @@ aMaxPayloadSize
 )
 override
 ;
-virtual
 bool
 RecvEncode
 (
@@ -209,7 +203,6 @@ aFrameTypes
 )
 override
 ;
-virtual
 bool
 RecvChildShmemForPool
 (
@@ -220,7 +213,6 @@ aEncodedBuffer
 )
 override
 ;
-virtual
 bool
 RecvSetChannelParameters
 (
@@ -235,7 +227,6 @@ aRTT
 )
 override
 ;
-virtual
 bool
 RecvSetRates
 (
@@ -250,7 +241,6 @@ aFrameRate
 )
 override
 ;
-virtual
 bool
 RecvSetPeriodicKeyFrames
 (
@@ -261,7 +251,6 @@ aEnable
 )
 override
 ;
-virtual
 bool
 RecvEncodingComplete
 (

@@ -149,7 +149,6 @@ GMPThread
 (
 )
 ;
-virtual
 void
 CheckThread
 (
@@ -211,7 +210,6 @@ GMPContentParent
 (
 )
 ;
-virtual
 void
 ActorDestroy
 (
@@ -220,7 +218,6 @@ aWhy
 )
 override
 ;
-virtual
 PGMPVideoDecoderParent
 *
 AllocPGMPVideoDecoderParent
@@ -228,7 +225,6 @@ AllocPGMPVideoDecoderParent
 )
 override
 ;
-virtual
 bool
 DeallocPGMPVideoDecoderParent
 (
@@ -238,7 +234,6 @@ aActor
 )
 override
 ;
-virtual
 PGMPVideoEncoderParent
 *
 AllocPGMPVideoEncoderParent
@@ -246,7 +241,6 @@ AllocPGMPVideoEncoderParent
 )
 override
 ;
-virtual
 bool
 DeallocPGMPVideoEncoderParent
 (
@@ -256,7 +250,6 @@ aActor
 )
 override
 ;
-virtual
 PGMPDecryptorParent
 *
 AllocPGMPDecryptorParent
@@ -264,7 +257,6 @@ AllocPGMPDecryptorParent
 )
 override
 ;
-virtual
 bool
 DeallocPGMPDecryptorParent
 (
@@ -274,7 +266,6 @@ aActor
 )
 override
 ;
-virtual
 PGMPAudioDecoderParent
 *
 AllocPGMPAudioDecoderParent
@@ -282,7 +273,6 @@ AllocPGMPAudioDecoderParent
 )
 override
 ;
-virtual
 bool
 DeallocPGMPAudioDecoderParent
 (

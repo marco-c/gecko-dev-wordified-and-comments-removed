@@ -7691,7 +7691,6 @@ aSite
 )
 {
 }
-virtual
 bool
 operator
 (
@@ -7701,6 +7700,7 @@ nsIFile
 *
 aPath
 )
+override
 {
 return
 MatchOrigin
@@ -7884,7 +7884,6 @@ return
 false
 ;
 }
-virtual
 bool
 operator
 (
@@ -7894,6 +7893,7 @@ nsIFile
 *
 aPath
 )
+override
 {
 if
 (

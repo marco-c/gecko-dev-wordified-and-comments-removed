@@ -96,7 +96,6 @@ Open
 )
 ;
 }
-virtual
 void
 OpenComplete
 (
@@ -156,7 +155,6 @@ Destroy
 ;
 }
 }
-virtual
 void
 ReadComplete
 (
@@ -172,7 +170,6 @@ aDataSize
 override
 {
 }
-virtual
 void
 WriteComplete
 (
@@ -433,7 +430,6 @@ Open
 )
 ;
 }
-virtual
 void
 OpenComplete
 (
@@ -475,7 +471,6 @@ this
 ;
 }
 }
-virtual
 void
 ReadComplete
 (
@@ -525,7 +520,6 @@ delete
 this
 ;
 }
-virtual
 void
 WriteComplete
 (
@@ -731,7 +725,6 @@ aRecordName
 )
 ;
 }
-virtual
 void
 OpenComplete
 (
@@ -746,7 +739,6 @@ aStatus
 )
 ;
 }
-virtual
 void
 ReadComplete
 (
@@ -773,7 +765,6 @@ here
 )
 ;
 }
-virtual
 void
 WriteComplete
 (

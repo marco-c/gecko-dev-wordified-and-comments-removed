@@ -86,7 +86,6 @@ GMPThreadImpl
 (
 )
 ;
-virtual
 void
 Post
 (
@@ -96,7 +95,6 @@ aTask
 )
 override
 ;
-virtual
 void
 Join
 (
@@ -134,21 +132,18 @@ GMPMutexImpl
 (
 )
 ;
-virtual
 void
 Acquire
 (
 )
 override
 ;
-virtual
 void
 Release
 (
 )
 override
 ;
-virtual
 void
 Destroy
 (
