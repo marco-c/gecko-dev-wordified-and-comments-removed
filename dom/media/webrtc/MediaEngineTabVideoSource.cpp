@@ -733,7 +733,6 @@ nullptr
 return
 Restart
 (
-nullptr
 aConstraints
 aPrefs
 aDeviceId
@@ -746,9 +745,6 @@ MediaEngineTabVideoSource
 :
 Restart
 (
-BaseAllocationHandle
-*
-aHandle
 const
 dom
 :
@@ -769,12 +765,6 @@ nsString
 aDeviceId
 )
 {
-MOZ_ASSERT
-(
-!
-aHandle
-)
-;
 mScrollWithPage
 =
 aConstraints
