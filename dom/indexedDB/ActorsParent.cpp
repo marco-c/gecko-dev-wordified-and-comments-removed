@@ -38299,7 +38299,7 @@ MOZ_ASSERT
 mDEBUGSavepointCount
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mInWriteTransaction
@@ -46089,7 +46089,7 @@ MOZ_ASSERT
 aDatabaseInfo
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 aDatabaseInfo
@@ -46785,7 +46785,7 @@ MOZ_ASSERT
 aDatabaseInfo
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 aDatabaseInfo
@@ -46938,7 +46938,7 @@ MOZ_ASSERT
 aDatabaseInfo
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 aDatabaseInfo
@@ -53682,7 +53682,7 @@ IDBTransaction
 CLEANUP
 )
 ;
-MOZ_RELEASE_ASSERT
+MOZ_ASSERT
 (
 !
 mClosed
