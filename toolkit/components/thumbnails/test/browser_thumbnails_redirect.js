@@ -63,6 +63,7 @@ html
 "
 ;
 function
+*
 runTests
 (
 )

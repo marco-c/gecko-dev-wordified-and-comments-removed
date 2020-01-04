@@ -89,6 +89,7 @@ aFuzz
 ;
 }
 function
+*
 runTests
 (
 )

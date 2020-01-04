@@ -93,6 +93,7 @@ Sanitizer
 )
 ;
 function
+*
 runTests
 (
 )

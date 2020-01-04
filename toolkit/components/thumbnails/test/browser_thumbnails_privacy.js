@@ -39,6 +39,7 @@ sjs
 "
 ;
 function
+*
 runTests
 (
 )

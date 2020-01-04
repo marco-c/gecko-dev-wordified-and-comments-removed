@@ -1,4 +1,5 @@
 function
+*
 runTests
 (
 )
@@ -179,6 +180,7 @@ lastModifiedTime
 ;
 }
 function
+*
 simpleCaptureTest
 (
 )
@@ -400,6 +402,7 @@ yield
 undefined
 }
 function
+*
 capIfStaleErrorResponseUpdateTest
 (
 )
@@ -570,6 +573,7 @@ undefined
 ;
 }
 function
+*
 capIfStaleGoodResponseUpdateTest
 (
 )
@@ -738,6 +742,7 @@ undefined
 ;
 }
 function
+*
 regularCapErrorResponseUpdateTest
 (
 )
@@ -827,6 +832,7 @@ thumbnail
 ;
 }
 function
+*
 regularCapGoodResponseUpdateTest
 (
 )
