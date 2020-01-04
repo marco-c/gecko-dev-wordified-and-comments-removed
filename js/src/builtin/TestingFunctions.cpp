@@ -79,16 +79,7 @@ include
 "
 asmjs
 /
-AsmJSLink
-.
-h
-"
-#
-include
-"
-asmjs
-/
-AsmJSValidate
+AsmJS
 .
 h
 "

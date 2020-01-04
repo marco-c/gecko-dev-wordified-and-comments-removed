@@ -197,7 +197,7 @@ include
 "
 asmjs
 /
-AsmJSModule
+AsmJS
 .
 h
 "

@@ -165,16 +165,7 @@ include
 "
 asmjs
 /
-AsmJSModule
-.
-h
-"
-#
-include
-"
-asmjs
-/
-AsmJSValidate
+AsmJS
 .
 h
 "

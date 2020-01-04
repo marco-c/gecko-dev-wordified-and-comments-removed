@@ -30,7 +30,7 @@ include
 "
 asmjs
 /
-AsmJSValidate
+AsmJS
 .
 h
 "

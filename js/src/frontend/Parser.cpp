@@ -70,7 +70,7 @@ include
 "
 asmjs
 /
-AsmJSValidate
+AsmJS
 .
 h
 "
@@ -15773,7 +15773,7 @@ validated
 if
 (
 !
-ValidateAsmJS
+CompileAsmJS
 (
 context
 *

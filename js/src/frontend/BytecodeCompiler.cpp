@@ -26,7 +26,7 @@ include
 "
 asmjs
 /
-AsmJSLink
+AsmJS
 .
 h
 "
@@ -3087,14 +3087,9 @@ function
 ;
 MOZ_ASSERT
 (
-IsAsmJSModuleNative
+IsAsmJSModule
 (
 fun
--
->
-native
-(
-)
 )
 )
 ;
