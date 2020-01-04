@@ -154,6 +154,7 @@ opened
 "
 )
 ;
+yield
 BrowserTestUtils
 .
 removeTab
