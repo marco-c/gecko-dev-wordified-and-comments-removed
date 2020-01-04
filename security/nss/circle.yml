@@ -35,7 +35,11 @@ tests
 ;
 NSS_TESTS
 =
+"
 ssl_gtests
+pk11_gtests
+der_gtests
+"
 NSS_CYCLES
 =
 standard
@@ -59,7 +63,11 @@ BUILD_OPT
 1
 NSS_TESTS
 =
+"
 ssl_gtests
+pk11_gtests
+der_gtests
+"
 NSS_CYCLES
 =
 standard
@@ -77,9 +85,6 @@ USE_64
 :
 1
 NSS_ENABLE_TLS_1_3
-:
-1
-NSS_BUILD_GTESTS
 :
 1
 }

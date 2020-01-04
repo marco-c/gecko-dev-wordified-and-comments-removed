@@ -261,6 +261,10 @@ blapi
 .
 h
 \
+chacha20poly1305
+.
+h
+\
 hmacct
 .
 h
@@ -510,6 +514,10 @@ des
 c
 \
 drbg
+.
+c
+\
+chacha20poly1305
 .
 c
 \

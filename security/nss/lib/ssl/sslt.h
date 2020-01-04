@@ -225,6 +225,9 @@ ssl_calg_seed
 ssl_calg_aes_gcm
 =
 10
+ssl_calg_chacha20
+=
+11
 }
 SSLCipherAlgorithm
 ;

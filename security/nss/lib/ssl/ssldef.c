@@ -32,6 +32,7 @@ MAP_ERROR
 from
 to
 )
+\
 if
 (
 err
@@ -40,11 +41,13 @@ err
 from
 )
 {
+\
 PORT_SetError
 (
 to
 )
 ;
+\
 }
 #
 define

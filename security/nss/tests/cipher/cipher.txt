@@ -216,6 +216,16 @@ seed_cbc_
 D
 SEED_CBC_Decrypt
 0
+chacha20_poly1305_
+-
+E
+ChaCha20_Poly1305_Encrypt
+0
+chacha20_poly1305_
+-
+D
+ChaCha20_Poly1305_Decrypt
+0
 rc2_ecb_
 -
 E

@@ -268,8 +268,8 @@ header
 >
 labelLen
 )
-\
 +
+\
 GetInt2
 (
 header
@@ -299,8 +299,8 @@ header
 >
 labelLen
 )
-\
 +
+\
 GetInt2
 (
 header
@@ -309,6 +309,7 @@ header
 keyIDLen
 )
 +
+\
 GetInt2
 (
 header
@@ -372,8 +373,8 @@ header
 >
 issuerLen
 )
-\
 +
+\
 GetInt2
 (
 header
@@ -403,8 +404,8 @@ header
 >
 issuerLen
 )
-\
 +
+\
 GetInt2
 (
 header
@@ -413,6 +414,7 @@ header
 serialLen
 )
 +
+\
 GetInt2
 (
 header
@@ -544,8 +546,8 @@ c
 <
 16
 )
-\
 |
+\
 (
 (
 unsigned
