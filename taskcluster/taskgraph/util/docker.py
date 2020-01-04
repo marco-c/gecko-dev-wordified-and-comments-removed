@@ -97,6 +97,9 @@ def
 docker_image
 (
 name
+default_version
+=
+None
 )
 :
     
@@ -195,6 +198,9 @@ strip
 (
 )
     
+try
+:
+        
 with
 open
 (
@@ -214,7 +220,7 @@ VERSION
 as
 f
 :
-        
+            
 version
 =
 f
@@ -226,6 +232,21 @@ read
 strip
 (
 )
+    
+except
+IOError
+:
+        
+if
+not
+default_version
+:
+            
+raise
+        
+version
+=
+default_version
     
 return
 '
