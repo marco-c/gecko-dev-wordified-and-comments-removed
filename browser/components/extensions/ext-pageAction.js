@@ -25,7 +25,6 @@ jsm
 var
 {
 EventManager
-DefaultWeakMap
 runSafe
 }
 =

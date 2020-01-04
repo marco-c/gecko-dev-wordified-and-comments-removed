@@ -193,10 +193,10 @@ path
 new
 RegExp
 (
-'
+"
 .
 *
-'
+"
 )
 ;
 }
@@ -326,9 +326,9 @@ match
 ]
 =
 =
-'
+"
 *
-'
+"
 )
 {
 this
@@ -474,9 +474,9 @@ this
 host
 =
 =
-'
+"
 *
-'
+"
 )
 {
 }
@@ -491,9 +491,9 @@ host
 ]
 =
 =
-'
+"
 *
-'
+"
 )
 {
 let
@@ -539,7 +539,6 @@ false
 }
 }
 else
-{
 if
 (
 this
@@ -555,7 +554,6 @@ host
 return
 false
 ;
-}
 }
 if
 (
@@ -669,6 +667,7 @@ p
 ;
 }
 }
+;
 MatchPattern
 .
 prototype

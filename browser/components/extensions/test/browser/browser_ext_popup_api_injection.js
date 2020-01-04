@@ -222,6 +222,7 @@ function
 {
 let
 tabId
+;
 browser
 .
 tabs
@@ -431,7 +432,6 @@ window
 ;
 }
 }
-;
 let
 promiseConsoleMessage
 =

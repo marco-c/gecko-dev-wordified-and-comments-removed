@@ -1,16 +1,21 @@
+"
+use
+strict
+"
+;
 function
 genericChecker
 (
 )
 {
-var
+let
 kind
 =
 "
 background
 "
 ;
-var
+let
 path
 =
 window
@@ -105,7 +110,7 @@ views
 "
 )
 {
-var
+let
 views
 =
 browser
@@ -116,7 +121,7 @@ getViews
 (
 )
 ;
-var
+let
 counts
 =
 {
@@ -139,7 +144,7 @@ popup
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -155,7 +160,7 @@ i
 +
 )
 {
-var
+let
 view
 =
 views
@@ -274,7 +279,7 @@ args
 ]
 url
 :
-chrome
+browser
 .
 runtime
 .
@@ -324,7 +329,7 @@ tabs
 =
 >
 {
-var
+let
 tab
 =
 tabs
@@ -600,7 +605,6 @@ started
 ;
 let
 {
-TabManager
 WindowManager
 }
 =

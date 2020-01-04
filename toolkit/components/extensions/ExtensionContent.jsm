@@ -401,9 +401,11 @@ args
 )
 {
 let
+options
+;
+let
 extensionId
 message
-options
 responseCallback
 ;
 if
@@ -547,6 +549,7 @@ substitutions
 }
 }
 }
+;
 }
 ;
 function
@@ -1024,6 +1027,7 @@ platform
 gonk
 "
 }
+;
 runSafeSyncWithoutClone
 (
 Services
@@ -1120,6 +1124,9 @@ null
 ;
 }
 }
+var
+ExtensionManager
+;
 function
 ExtensionContext
 (
@@ -1848,7 +1855,6 @@ for
 (
 let
 [
-extensionId
 context
 ]
 of
@@ -2033,6 +2039,7 @@ Ci
 .
 nsIDOMWindow
 )
+;
 yield
 [
 window
@@ -2312,7 +2319,6 @@ for
 (
 let
 [
-windowId
 extensions
 ]
 of
@@ -2601,7 +2607,6 @@ this
 ;
 }
 }
-;
 BrowserExtensionContent
 .
 prototype
@@ -2684,7 +2689,6 @@ args
 }
 }
 ;
-var
 ExtensionManager
 =
 {

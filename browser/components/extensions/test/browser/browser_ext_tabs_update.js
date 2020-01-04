@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 add_task
 (
 function
@@ -108,13 +113,12 @@ tabs
 .
 sort
 (
-function
 (
 tab1
 tab2
 )
-{
-return
+=
+>
 tab1
 .
 index
@@ -122,8 +126,6 @@ index
 tab2
 .
 index
-;
-}
 )
 ;
 browser

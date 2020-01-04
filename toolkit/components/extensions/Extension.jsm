@@ -82,10 +82,14 @@ jsm
 "
 )
 ;
-Cu
+XPCOMUtils
 .
-import
+defineLazyModuleGetter
 (
+this
+"
+EventEmitter
+"
 "
 resource
 :
@@ -608,7 +612,6 @@ Messenger
 injectAPI
 extend
 flushJarCache
-instanceOf
 }
 =
 ExtensionUtils
@@ -627,6 +630,10 @@ var
 scriptScope
 =
 this
+;
+var
+ExtensionPage
+GlobalManager
 ;
 var
 Management
@@ -987,8 +994,9 @@ ppmm
 ]
 )
 ;
-function
 ExtensionPage
+=
+function
 (
 extension
 params
@@ -999,7 +1007,6 @@ let
 type
 contentWindow
 uri
-docShell
 }
 =
 params
@@ -1139,6 +1146,7 @@ this
 )
 ;
 }
+;
 ExtensionPage
 .
 prototype
@@ -1352,7 +1360,6 @@ close
 }
 }
 ;
-var
 GlobalManager
 =
 {
@@ -1893,6 +1900,7 @@ errors
 ]
 ;
 }
+;
 ExtensionData
 .
 prototype
@@ -3544,6 +3552,7 @@ EventEmitter
 )
 ;
 }
+;
 this
 .
 Extension

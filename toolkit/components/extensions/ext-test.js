@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 Components
 .
 utils
@@ -300,11 +305,10 @@ test
 -
 result
 "
+Boolean
+(
 value
-?
-true
-:
-false
+)
 msg
 )
 ;
@@ -328,10 +332,6 @@ result
 "
 !
 value
-?
-true
-:
-false
 msg
 )
 ;

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 add_task
 (
 function
@@ -97,7 +102,7 @@ function
 (
 )
 {
-var
+let
 pageURL
 =
 "
@@ -128,7 +133,7 @@ context_tabs_onUpdated_page
 html
 "
 ;
-var
+let
 expectedSequence
 =
 [
@@ -158,7 +163,7 @@ complete
 }
 ]
 ;
-var
+let
 collectedSequence
 =
 [
@@ -246,7 +251,7 @@ else
 {
 for
 (
-var
+let
 i
 =
 0

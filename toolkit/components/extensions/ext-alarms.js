@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 {
 classes
@@ -655,6 +660,7 @@ get
 extension
 )
 ;
+let
 result
 =
 alarms

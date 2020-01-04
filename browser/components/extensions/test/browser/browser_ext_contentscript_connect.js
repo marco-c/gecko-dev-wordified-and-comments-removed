@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 add_task
 (
 function
@@ -62,12 +67,12 @@ function
 (
 )
 {
-var
+let
 ports_received
 =
 0
 ;
-var
+let
 port_messages_received
 =
 0
@@ -155,6 +160,7 @@ received
 port_messages_received
 +
 +
+;
 browser
 .
 test
@@ -173,6 +179,7 @@ received
 ;
 }
 )
+;
 }
 )
 ;
@@ -259,6 +266,7 @@ received
 port_messages_received
 +
 +
+;
 browser
 .
 test
@@ -325,7 +333,7 @@ function
 (
 )
 {
-var
+let
 port
 =
 browser

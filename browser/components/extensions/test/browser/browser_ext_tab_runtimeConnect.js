@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 add_task
 (
 function
@@ -55,13 +60,13 @@ function
 (
 )
 {
-var
+let
 messages_received
 =
 [
 ]
 ;
-var
+let
 tabId
 ;
 browser
@@ -126,6 +131,7 @@ connectInfo
 name
 "
 )
+;
 browser
 .
 test
@@ -329,6 +335,7 @@ pass
 }
 }
 )
+;
 }
 )
 ;
@@ -358,6 +365,7 @@ tabId
 tab
 .
 id
+;
 }
 )
 ;
@@ -375,7 +383,7 @@ function
 (
 )
 {
-var
+let
 port
 =
 browser

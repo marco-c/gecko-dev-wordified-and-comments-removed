@@ -166,7 +166,6 @@ tab
 ;
 }
 else
-{
 if
 (
 "
@@ -202,7 +201,6 @@ sender
 .
 tabId
 ;
-}
 }
 }
 var
@@ -539,6 +537,7 @@ WindowManager
 topWindow
 ;
 }
+;
 extensions
 .
 registerAPI
@@ -2273,7 +2272,7 @@ length
 1
 )
 {
-callbacks
+callback
 =
 args
 [
@@ -2543,7 +2542,6 @@ false
 }
 }
 else
-{
 if
 (
 queryInfo
@@ -2559,7 +2557,6 @@ windowId
 return
 false
 ;
-}
 }
 }
 if
@@ -2808,9 +2805,9 @@ options
 [
 kind
 +
-'
+"
 Code
-'
+"
 ]
 =
 details
@@ -2960,9 +2957,9 @@ args
 [
 0
 ]
-'
+"
 js
-'
+"
 undefined
 )
 ;
@@ -2983,9 +2980,9 @@ args
 [
 1
 ]
-'
+"
 js
-'
+"
 args
 [
 2
@@ -2998,9 +2995,10 @@ insertCss
 :
 function
 (
-tabId
-details
-callback
+.
+.
+.
+args
 )
 {
 if
@@ -3024,9 +3022,9 @@ args
 [
 0
 ]
-'
+"
 css
-'
+"
 undefined
 )
 ;
@@ -3047,9 +3045,9 @@ args
 [
 1
 ]
-'
+"
 css
-'
+"
 args
 [
 2

@@ -35,7 +35,7 @@ function
 (
 )
 {
-var
+let
 clicked
 =
 false

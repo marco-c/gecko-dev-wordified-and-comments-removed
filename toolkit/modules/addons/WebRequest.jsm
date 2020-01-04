@@ -198,11 +198,15 @@ ex
 )
 {
 throw
+new
+Error
+(
 Invalid
 option
 {
 ex
 }
+)
 ;
 }
 }
@@ -1751,7 +1755,6 @@ for
 let
 {
 name
-value
 }
 of
 requestHeaders
@@ -1809,7 +1812,6 @@ for
 let
 {
 name
-value
 }
 of
 responseHeaders

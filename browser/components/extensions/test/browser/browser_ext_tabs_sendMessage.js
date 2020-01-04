@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 add_task
 (
 function
@@ -33,7 +38,7 @@ function
 (
 )
 {
-chrome
+browser
 .
 tabs
 .
@@ -48,12 +53,11 @@ about
 robots
 "
 }
-function
-(
 tab
-)
+=
+>
 {
-var
+let
 exception
 ;
 try
@@ -123,7 +127,7 @@ tabs
 "
 )
 ;
-chrome
+browser
 .
 tabs
 .
@@ -151,8 +155,10 @@ sendMessage
 ;
 }
 )
+;
 }
 )
+;
 }
 }
 )

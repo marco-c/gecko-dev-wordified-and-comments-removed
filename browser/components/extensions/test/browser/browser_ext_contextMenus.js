@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 add_task
 (
 function
@@ -126,7 +131,7 @@ separator
 }
 )
 ;
-var
+let
 contexts
 =
 [
@@ -143,7 +148,7 @@ image
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -159,7 +164,7 @@ i
 +
 )
 {
-var
+let
 context
 =
 contexts
@@ -167,14 +172,11 @@ contexts
 i
 ]
 ;
-var
+let
 title
 =
 context
 ;
-var
-id
-=
 browser
 .
 contextMenus
@@ -248,7 +250,7 @@ edited
 ;
 }
 }
-var
+let
 parent
 =
 browser
@@ -268,9 +270,6 @@ parent
 }
 )
 ;
-var
-child1
-=
 browser
 .
 contextMenus
@@ -298,9 +297,6 @@ genericOnClick
 }
 )
 ;
-var
-child2
-=
 browser
 .
 contextMenus
@@ -328,7 +324,7 @@ genericOnClick
 }
 )
 ;
-var
+let
 parentToDel
 =
 browser
@@ -348,9 +344,6 @@ parentToDel
 }
 )
 ;
-var
-child1ToDel
-=
 browser
 .
 contextMenus
@@ -378,9 +371,6 @@ genericOnClick
 }
 )
 ;
-var
-child2ToDel
-=
 browser
 .
 contextMenus
@@ -824,6 +814,7 @@ image
 )
 "
 )
+;
 let
 popupHiddenPromise
 =

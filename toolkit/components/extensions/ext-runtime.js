@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 {
 classes
@@ -363,9 +368,11 @@ args
 )
 {
 let
+options
+;
+let
 extensionId
 message
-options
 responseCallback
 ;
 if
@@ -532,7 +539,6 @@ XPCOMABI
 let
 [
 arch
-compiler
 ]
 =
 abi
