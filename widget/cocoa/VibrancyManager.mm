@@ -351,6 +351,13 @@ setFrame
 rect
 ]
 ;
+[
+view
+setNeedsDisplay
+:
+YES
+]
+;
 }
 else
 {
