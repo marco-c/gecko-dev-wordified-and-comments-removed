@@ -364,11 +364,6 @@ AudioNodeStream
 Create
 (
 aContext
--
->
-Graph
-(
-)
 new
 ChannelMergerNodeEngine
 (
