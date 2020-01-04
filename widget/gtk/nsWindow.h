@@ -1240,6 +1240,12 @@ OnDPIChanged
 void
 )
 ;
+void
+OnCheckResize
+(
+void
+)
+;
 #
 ifdef
 MOZ_X11
@@ -2096,6 +2102,9 @@ endif
 cairo_surface_t
 *
 mFallbackSurface
+;
+int
+mPendingConfigures
 ;
 #
 ifdef
