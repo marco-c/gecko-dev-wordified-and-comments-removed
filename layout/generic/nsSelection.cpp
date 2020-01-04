@@ -27610,13 +27610,11 @@ Selection
 >
 sel
 =
-static_cast
-<
-Selection
-*
->
-(
 aSel
+-
+>
+AsSelection
+(
 )
 ;
 if
