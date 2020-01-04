@@ -319,7 +319,6 @@ GetName
 nsAString
 &
 )
-const
 =
 0
 ;
@@ -330,7 +329,6 @@ GetUUID
 nsACString
 &
 )
-const
 =
 0
 ;
@@ -582,7 +580,6 @@ nsString
 &
 aDeviceId
 )
-const
 =
 0
 ;

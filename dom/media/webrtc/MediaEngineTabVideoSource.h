@@ -85,7 +85,6 @@ GetName
 nsAString_internal
 &
 )
-const
 override
 ;
 void
@@ -94,7 +93,6 @@ GetUUID
 nsACString_internal
 &
 )
-const
 override
 ;
 nsresult
@@ -293,7 +291,6 @@ nsString
 &
 aDeviceId
 )
-const
 override
 {
 return
