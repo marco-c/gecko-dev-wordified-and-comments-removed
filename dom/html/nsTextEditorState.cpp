@@ -942,8 +942,8 @@ RepaintSelection
 nsPresContext
 *
 aPresContext
-SelectionType
-aSelectionType
+RawSelectionType
+aRawSelectionType
 )
 ;
 NS_IMETHOD
@@ -1522,8 +1522,8 @@ RepaintSelection
 nsPresContext
 *
 aPresContext
-SelectionType
-aSelectionType
+RawSelectionType
+aRawSelectionType
 )
 {
 if
@@ -1540,7 +1540,7 @@ mFrameSelection
 >
 RepaintSelection
 (
-aSelectionType
+aRawSelectionType
 )
 ;
 }

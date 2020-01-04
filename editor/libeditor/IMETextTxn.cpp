@@ -512,8 +512,8 @@ NS_OK
 ;
 }
 static
-SelectionType
-ToSelectionType
+RawSelectionType
+ToRawSelectionType
 (
 TextRangeType
 aTextRangeType
@@ -673,7 +673,7 @@ rv
 ;
 static
 const
-SelectionType
+RawSelectionType
 kIMESelections
 [
 ]
@@ -1163,7 +1163,7 @@ selCon
 >
 GetSelection
 (
-ToSelectionType
+ToRawSelectionType
 (
 textRange
 .

@@ -105,6 +105,13 @@ h
 #
 include
 "
+nsISelectionController
+.
+h
+"
+#
+include
+"
 nsQueryFrame
 .
 h
@@ -364,10 +371,6 @@ nsArenaMemoryStats
 ;
 class
 nsITimer
-;
-typedef
-short
-SelectionType
 ;
 namespace
 mozilla
@@ -1769,7 +1772,10 @@ Selection
 *
 GetCurrentSelection
 (
-SelectionType
+mozilla
+:
+:
+RawSelectionType
 aType
 )
 =
