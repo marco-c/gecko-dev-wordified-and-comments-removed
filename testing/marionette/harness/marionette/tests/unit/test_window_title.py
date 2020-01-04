@@ -2,8 +2,6 @@ from
 marionette
 import
 MarionetteTestCase
-skip_if_b2g
-skip_if_b2g
 class
 TestTitleChrome
 (
