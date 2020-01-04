@@ -140,6 +140,11 @@ EventUtils
 js
 '
 '
+ExtensionTestUtils
+.
+js
+'
+'
 iframe
 -
 between
