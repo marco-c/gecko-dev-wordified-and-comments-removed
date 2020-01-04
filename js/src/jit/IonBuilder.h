@@ -4681,10 +4681,7 @@ CallInfo
 callInfo
 JSNative
 native
-SimdTypeDescr
-:
-:
-Type
+MIRType
 type
 unsigned
 numElems
@@ -4698,10 +4695,7 @@ CallInfo
 callInfo
 JSNative
 native
-SimdTypeDescr
-:
-:
-Type
+MIRType
 type
 unsigned
 numElems
