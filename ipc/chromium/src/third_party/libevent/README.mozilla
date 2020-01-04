@@ -17,7 +17,7 @@ with
 the
 following
 modifications
-:
+.
 1
 .
 Add
@@ -25,6 +25,7 @@ the
 following
 files
 :
+-
 linux
 /
 event2
@@ -34,6 +35,7 @@ event
 config
 .
 h
+-
 mac
 /
 event2
@@ -43,6 +45,7 @@ event
 config
 .
 h
+-
 android
 /
 event2
@@ -227,6 +230,7 @@ see
 #
 931354
 )
+.
 5
 .
 Apply
@@ -258,6 +262,7 @@ provide
 deprecated
 syscalls
 )
+.
 6
 .
 Apply
@@ -275,8 +280,7 @@ on
 android
 .
 patch
-'
-.
+"
 which
 fixes
 the
@@ -285,3 +289,4 @@ on
 Android
 L
 preview
+.
