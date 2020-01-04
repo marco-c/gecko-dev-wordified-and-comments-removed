@@ -1257,6 +1257,13 @@ DBAddonInternal
 aLoaded
 )
 {
+AddonInternal
+.
+call
+(
+this
+)
+;
 copyProperties
 (
 aLoaded
