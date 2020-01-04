@@ -583,7 +583,7 @@ eBasicEventClass
 EVENT
 (
 mozfullscreenerror
-NS_FULLSCREENERROR
+eFullscreenError
 EventNameType_HTML
 eBasicEventClass
 )
