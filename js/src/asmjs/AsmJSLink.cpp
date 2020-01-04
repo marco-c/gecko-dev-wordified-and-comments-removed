@@ -3191,7 +3191,9 @@ DynamicallyLinkModule
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 AsmJSModule
 &
@@ -3748,7 +3750,9 @@ cx
 AsmJSModule
 &
 module
+const
 CallArgs
+&
 args
 )
 {
@@ -4887,7 +4891,9 @@ HandleDynamicLinkFailure
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 AsmJSModule
 &

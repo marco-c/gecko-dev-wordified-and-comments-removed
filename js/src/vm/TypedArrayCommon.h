@@ -3161,7 +3161,9 @@ subarray
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -3678,7 +3680,9 @@ copyWithin
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -4098,7 +4102,9 @@ set
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {

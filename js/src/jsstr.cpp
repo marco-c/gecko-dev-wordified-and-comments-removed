@@ -441,6 +441,7 @@ ArgToRootedString
 JSContext
 *
 cx
+const
 CallArgs
 &
 args
@@ -2641,7 +2642,9 @@ str_toSource_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -2826,7 +2829,9 @@ str_toString_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -11307,7 +11312,9 @@ init
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 bool
 convertVoid
@@ -11652,7 +11659,9 @@ bool
 flat
 unsigned
 optarg
+const
 CallArgs
+&
 args
 )
 {
@@ -12049,7 +12058,9 @@ DoMatchLocal
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 RegExpStatics
 *
@@ -12178,7 +12189,9 @@ DoMatchGlobal
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 RegExpStatics
 *
@@ -17396,7 +17409,9 @@ str_replace_regexp
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 ReplaceData
 &
@@ -17773,7 +17788,9 @@ str_replace_flat_lambda
 JSContext
 *
 cx
+const
 CallArgs
+&
 outerArgs
 ReplaceData
 &

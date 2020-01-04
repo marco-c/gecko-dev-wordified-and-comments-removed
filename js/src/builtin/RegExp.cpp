@@ -911,7 +911,9 @@ cx
 RegExpObjectBuilder
 &
 builder
+const
 CallArgs
+&
 args
 RegExpCreationMode
 creationMode
@@ -1541,7 +1543,9 @@ regexp_compile_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -1949,7 +1953,9 @@ regexp_global_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -2057,7 +2063,9 @@ regexp_ignoreCase_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -2165,7 +2173,9 @@ regexp_multiline_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -2273,7 +2283,9 @@ regexp_source_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -2415,7 +2427,9 @@ regexp_sticky_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -4012,7 +4026,9 @@ ExecuteRegExp
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 MatchPairs
 *
@@ -4160,7 +4176,9 @@ regexp_exec_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -4427,7 +4445,9 @@ regexp_test_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {

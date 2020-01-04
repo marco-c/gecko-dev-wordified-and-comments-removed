@@ -922,6 +922,7 @@ fnname
 unsigned
 required
 )
+const
 ;
 }
 ;

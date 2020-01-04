@@ -2805,7 +2805,9 @@ num_toSource_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -3746,7 +3748,9 @@ num_toString_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -3933,7 +3937,9 @@ num_toLocaleString_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -4740,7 +4746,9 @@ num_valueOf_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -4927,7 +4935,9 @@ JSDToStrMode
 mode
 int
 precision
+const
 CallArgs
+&
 args
 )
 {
@@ -5022,7 +5032,9 @@ num_toFixed_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -5141,7 +5153,9 @@ num_toExponential_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -5271,7 +5285,9 @@ num_toPrecision_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {

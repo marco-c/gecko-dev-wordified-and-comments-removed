@@ -82,7 +82,9 @@ CustomMethodImpl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {

@@ -696,7 +696,9 @@ ArgumentsGetterImpl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -880,7 +882,9 @@ ArgumentsSetterImpl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -1066,7 +1070,9 @@ CallerGetterImpl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -1363,7 +1369,9 @@ CallerSetterImpl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {

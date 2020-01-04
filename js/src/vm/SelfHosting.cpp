@@ -6883,7 +6883,9 @@ CallSelfHostedNonGenericMethod
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {

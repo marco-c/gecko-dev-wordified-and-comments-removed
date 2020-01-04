@@ -153,7 +153,9 @@ bool_toSource_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -327,7 +329,9 @@ bool_toString_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -441,7 +445,9 @@ bool_valueOf_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {

@@ -191,7 +191,9 @@ toString_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -216,7 +218,9 @@ valueOf_impl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;

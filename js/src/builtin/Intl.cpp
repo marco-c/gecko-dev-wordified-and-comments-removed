@@ -2296,7 +2296,9 @@ Collator
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 bool
 construct
@@ -4973,7 +4975,9 @@ NumberFormat
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 bool
 construct
@@ -7441,7 +7445,9 @@ DateTimeFormat
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 bool
 construct

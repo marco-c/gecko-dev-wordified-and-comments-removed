@@ -44,7 +44,9 @@ NativeImpl
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 ;
@@ -65,7 +67,9 @@ IsAcceptableThis
 test
 NativeImpl
 impl
+const
 CallArgs
+&
 args
 )
 ;
@@ -84,7 +88,9 @@ CallNonGenericMethod
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 )
 {
@@ -135,7 +141,9 @@ IsAcceptableThis
 Test
 NativeImpl
 Impl
+const
 CallArgs
+&
 args
 )
 {

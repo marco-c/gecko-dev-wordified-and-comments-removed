@@ -125,7 +125,9 @@ Invoke
 JSContext
 *
 cx
+const
 CallArgs
+&
 args
 MaybeConstruct
 construct
@@ -666,6 +668,7 @@ InvokeState
 public
 RunState
 {
+const
 CallArgs
 &
 args_
@@ -683,6 +686,7 @@ InvokeState
 JSContext
 *
 cx
+const
 CallArgs
 &
 args
@@ -758,6 +762,7 @@ initial_
 )
 ;
 }
+const
 CallArgs
 &
 args
