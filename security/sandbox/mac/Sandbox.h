@@ -156,6 +156,12 @@ other
 .
 appDir
 )
+appTempDir
+(
+other
+.
+appTempDir
+)
 {
 }
 MacSandboxType
