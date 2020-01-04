@@ -66,8 +66,10 @@ IntRect
 namespace
 image
 {
-static
 void
+IDecodingTask
+:
+:
 NotifyProgress
 (
 NotNull
@@ -223,8 +225,10 @@ surfaceFlags
 )
 ;
 }
-static
 void
+IDecodingTask
+:
+:
 NotifyDecodeComplete
 (
 NotNull
