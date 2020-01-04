@@ -123,6 +123,17 @@ aMessage
 )
 ;
 void
+SetEnvironment
+(
+FeatureStatus
+aStatus
+const
+char
+*
+aMessage
+)
+;
+void
 SetRuntime
 (
 FeatureStatus
@@ -211,6 +222,9 @@ mDefault
 ;
 Instance
 mUser
+;
+Instance
+mEnvironment
 ;
 Instance
 mRuntime
