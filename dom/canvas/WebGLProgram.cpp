@@ -4184,13 +4184,9 @@ baseUserName
 ;
 bool
 isArray
-=
-false
 ;
 size_t
 arrayIndex
-=
-0
 ;
 if
 (
@@ -4344,7 +4340,6 @@ LinkInfo
 (
 )
 loc
-arrayIndex
 activeInfo
 )
 ;
