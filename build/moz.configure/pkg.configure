@@ -223,7 +223,7 @@ strings
 .
 #
 -
-condition
+when
 a
 depends
 function
@@ -294,7 +294,7 @@ pkg_check_modules
 (
 var
 package_desc
-condition
+when
 =
 always
 allow_missing
@@ -333,7 +333,7 @@ pkg_config
 pkg_config_version
 when
 =
-condition
+when
 )
 def
 check_pkg_config
@@ -448,7 +448,7 @@ pkg_config
 package_desc
 when
 =
-condition
+when
 )
 imports
 (
