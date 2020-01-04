@@ -1317,12 +1317,6 @@ CurrentPanGestureBlock
 ;
 private
 :
-UniquePtr
-<
-InputBlockState
->
-mPanGestureState
-;
 public
 :
 bool
