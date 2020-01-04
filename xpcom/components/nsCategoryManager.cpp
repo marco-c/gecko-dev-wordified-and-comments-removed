@@ -1677,10 +1677,6 @@ iter
 Data
 (
 )
-.
-get
-(
-)
 -
 >
 SizeOfExcludingThis
