@@ -40,7 +40,9 @@ public
 explicit
 MockWebBrowserPrint
 (
+const
 PrintData
+&
 aData
 )
 ;
