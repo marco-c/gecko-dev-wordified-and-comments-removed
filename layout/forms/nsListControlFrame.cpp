@@ -2343,6 +2343,17 @@ mNumDisplayRows
 *
 blockSizeOfARow
 ;
+newBSize
+=
+std
+:
+:
+min
+(
+newBSize
+visibleBSize
+)
+;
 }
 }
 else
