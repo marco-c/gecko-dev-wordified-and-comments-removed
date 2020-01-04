@@ -1682,6 +1682,15 @@ nsRestyleHint
 aChildRestyleHint
 )
 ;
+bool
+MustCheckUndisplayedContent
+(
+nsIContent
+*
+&
+aUndisplayedParent
+)
+;
 void
 DoRestyleUndisplayedDescendants
 (
