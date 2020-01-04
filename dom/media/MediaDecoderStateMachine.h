@@ -1060,12 +1060,12 @@ GetSize
 ;
 }
 bool
-HasLowUndecodedData
+HasLowBufferedData
 (
 )
 ;
 bool
-HasLowUndecodedData
+HasLowBufferedData
 (
 int64_t
 aUsecs
