@@ -6938,6 +6938,14 @@ libcxx_inline_visibility
 include
 (
 '
+windows
+.
+configure
+'
+)
+include
+(
+'
 rust
 .
 configure
