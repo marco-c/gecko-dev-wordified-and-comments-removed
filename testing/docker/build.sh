@@ -293,7 +293,7 @@ This
 image
 does
 not
-container
+contain
 a
 VERSION
 file
