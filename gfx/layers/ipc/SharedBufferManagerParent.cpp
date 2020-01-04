@@ -92,15 +92,6 @@ include
 "
 mozilla
 /
-Sprintf
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtr
 .
 h
