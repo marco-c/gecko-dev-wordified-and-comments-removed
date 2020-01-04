@@ -165,7 +165,7 @@ sbstore
 "
                 
 "
-mozstd
+base
 -
 track
 -
@@ -175,7 +175,7 @@ cache
 "
                 
 "
-mozstd
+base
 -
 track
 -
@@ -185,7 +185,7 @@ pset
 "
                 
 "
-mozstd
+base
 -
 track
 -
