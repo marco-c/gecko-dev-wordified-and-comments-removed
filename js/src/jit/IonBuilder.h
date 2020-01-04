@@ -4257,6 +4257,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineRegExpInstanceOptimizable
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineObjectCreate
 (
 CallInfo

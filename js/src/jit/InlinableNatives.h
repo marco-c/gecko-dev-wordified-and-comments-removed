@@ -299,6 +299,11 @@ _
 RegExpPrototypeOptimizable
 )
 \
+_
+(
+RegExpInstanceOptimizable
+)
+\
 \
 _
 (
