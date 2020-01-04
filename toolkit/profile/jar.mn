@@ -57,6 +57,7 @@ toolkit
 .
 jar
 :
+*
 content
 /
 mozapps
@@ -90,6 +91,7 @@ createProfileWizard
 .
 xul
 )
+*
 content
 /
 mozapps

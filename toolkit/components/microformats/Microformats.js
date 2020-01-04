@@ -35,7 +35,6 @@ list
 __iterator__
 :
 function
-*
 (
 )
 {

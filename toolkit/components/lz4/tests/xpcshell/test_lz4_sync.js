@@ -88,7 +88,6 @@ a
 add_task
 (
 function
-*
 (
 )
 {
@@ -164,7 +163,6 @@ lz4
 add_task
 (
 function
-*
 (
 )
 {

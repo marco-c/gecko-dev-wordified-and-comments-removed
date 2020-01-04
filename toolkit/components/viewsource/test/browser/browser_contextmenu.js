@@ -587,7 +587,6 @@ null
 ;
 }
 function
-*
 checkMenuItems
 (
 contextMenu
