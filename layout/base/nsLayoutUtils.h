@@ -1258,6 +1258,13 @@ nsIFrame
 aThumbFrame
 )
 ;
+enum
+{
+AGR_IGNORE_BACKGROUND_ATTACHMENT_FIXED
+=
+0x01
+}
+;
 static
 nsIFrame
 *
@@ -1269,6 +1276,10 @@ aItem
 nsDisplayListBuilder
 *
 aBuilder
+uint32_t
+aFlags
+=
+0
 )
 ;
 static
