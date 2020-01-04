@@ -12240,9 +12240,9 @@ NS_LOAD
 ;
 _ASSIGN_eventName
 (
-NS_POPSTATE
+ePopState
 "
-NS_POPSTATE
+ePopState
 "
 )
 ;
