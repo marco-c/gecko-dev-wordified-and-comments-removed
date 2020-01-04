@@ -21,7 +21,9 @@ h
 #
 include
 "
-nsHTMLReflowState
+mozilla
+/
+ReflowInput
 .
 h
 "
