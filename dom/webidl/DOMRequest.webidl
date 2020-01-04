@@ -108,6 +108,7 @@ Exposed
 (
 Window
 Worker
+System
 )
 NoInterfaceObject
 ]
@@ -146,6 +147,7 @@ Exposed
 (
 Window
 Worker
+System
 )
 ]
 interface

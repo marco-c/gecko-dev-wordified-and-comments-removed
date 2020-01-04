@@ -70,6 +70,14 @@ true
 ;
 }
 ;
+[
+Exposed
+=
+(
+Window
+System
+)
+]
 interface
 IDBFileHandle
 :

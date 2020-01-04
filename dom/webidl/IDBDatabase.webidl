@@ -160,6 +160,7 @@ Exposed
 (
 Window
 Worker
+System
 )
 ]
 interface

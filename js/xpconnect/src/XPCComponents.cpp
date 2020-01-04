@@ -10652,7 +10652,7 @@ propertyList
 !
 options
 .
-Define
+DefineInXPCComponents
 (
 cx
 global
