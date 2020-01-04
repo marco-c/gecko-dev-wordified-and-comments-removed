@@ -84,11 +84,9 @@ test
 assertEq
 (
 "
-No
+Invalid
 tab
-found
-with
-tabId
+ID
 :
 0
 "
@@ -166,11 +164,9 @@ test
 assertEq
 (
 "
-No
+Invalid
 tab
-found
-with
-tabId
+ID
 :
 0
 "

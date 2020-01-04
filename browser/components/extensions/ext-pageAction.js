@@ -1140,6 +1140,7 @@ TabManager
 getTab
 (
 tabId
+context
 )
 ;
 PageAction
@@ -1179,6 +1180,7 @@ TabManager
 getTab
 (
 tabId
+context
 )
 ;
 PageAction
@@ -1220,6 +1222,7 @@ getTab
 details
 .
 tabId
+context
 )
 ;
 PageAction
@@ -1259,6 +1262,7 @@ getTab
 details
 .
 tabId
+context
 )
 ;
 let
@@ -1303,6 +1307,7 @@ getTab
 details
 .
 tabId
+context
 )
 ;
 let
@@ -1356,6 +1361,7 @@ getTab
 details
 .
 tabId
+context
 )
 ;
 let
@@ -1409,6 +1415,7 @@ getTab
 details
 .
 tabId
+context
 )
 ;
 let
