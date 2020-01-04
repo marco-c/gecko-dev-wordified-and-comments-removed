@@ -2901,6 +2901,11 @@ MaybeCreateAudioChannelAgent
 (
 )
 ;
+bool
+ShouldElementBePaused
+(
+)
+;
 void
 PauseByAudioChannel
 (
