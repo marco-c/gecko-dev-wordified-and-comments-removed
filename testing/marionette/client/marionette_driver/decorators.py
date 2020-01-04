@@ -2,7 +2,6 @@ from
 errors
 import
 MarionetteException
-TimeoutException
 from
 functools
 import
@@ -229,9 +228,6 @@ kwargs
 except
 (
 MarionetteException
-socket
-.
-error
 IOError
 )
 as
@@ -245,6 +241,28 @@ tb
 sys
 .
 exc_info
+(
+)
+            
+if
+type
+(
+e
+)
+in
+(
+socket
+.
+error
+socket
+.
+timeout
+)
+:
+                
+m
+.
+force_shutdown
 (
 )
             
@@ -270,28 +288,6 @@ always
 :
                     
 check_for_crash
-(
-)
-            
-if
-not
-isinstance
-(
-e
-MarionetteException
-)
-or
-type
-(
-e
-)
-is
-TimeoutException
-:
-                
-m
-.
-force_shutdown
 (
 )
             

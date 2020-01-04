@@ -204,7 +204,7 @@ exec_not_on_path
 :
             
 raise
-Exception
+IOError
 (
 "
 Browsermob
@@ -219,7 +219,7 @@ found
 in
 path
 "
-                            
+                          
 "
 provided
 :

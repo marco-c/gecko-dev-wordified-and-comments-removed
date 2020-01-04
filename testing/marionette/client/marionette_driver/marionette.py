@@ -4176,6 +4176,10 @@ DEFAULT_STARTUP_TIMEOUT
 =
 120
     
+DEFAULT_SHUTDOWN_TIMEOUT
+=
+65
+    
 def
 __init__
 (
@@ -4794,9 +4798,6 @@ except
 errors
 .
 MarionetteException
-socket
-.
-error
 IOError
 )
 :
@@ -4967,7 +4968,9 @@ port_obtained
 :
             
 raise
-IOError
+socket
+.
+timeout
 (
 "
 Timed
@@ -4975,8 +4978,17 @@ out
 waiting
 for
 port
+{
+}
 !
 "
+.
+format
+(
+self
+.
+port
+)
 )
     
 do_process_check
@@ -5218,16 +5230,6 @@ close
 )
             
 raise
-errors
-.
-TimeoutException
-(
-"
-Connection
-timed
-out
-"
-)
         
 res
 err
@@ -5758,7 +5760,14 @@ instance
 .
 runner
 .
-returncode
+wait
+(
+timeout
+=
+self
+.
+DEFAULT_STARTUP_TIMEOUT
+)
             
 if
 returncode
@@ -5768,25 +5777,36 @@ None
                 
 self
 .
-instance
-.
-runner
-.
-stop
+cleanup
 (
 )
                 
 message
 =
+(
 '
 Process
 killed
 because
 the
 connection
-was
+to
+Marionette
+server
+is
 lost
+.
 '
+                           
+'
+Check
+gecko
+.
+log
+for
+errors
+'
+)
             
 else
 :
@@ -5795,14 +5815,17 @@ message
 =
 '
 Process
-died
-with
-returncode
-"
+has
+been
+closed
+(
+Exit
+code
+:
 {
 returncode
 }
-"
+)
 '
             
 if
@@ -5823,7 +5846,7 @@ reason
 '
             
 raise
-exc
+IOError
 message
 .
 format
@@ -7571,6 +7594,8 @@ MarionetteException
 (
 "
 enforce_gecko_prefs
+(
+)
 can
 only
 be
@@ -7579,7 +7604,7 @@ called
                                              
 "
 on
-gecko
+Gecko
 instances
 launched
 by
@@ -7853,6 +7878,8 @@ reset_timeouts
 (
 )
     
+do_process_check
+    
 def
 quit_in_app
 (
@@ -7891,6 +7918,8 @@ MarionetteException
 (
 "
 quit_in_app
+(
+)
 can
 only
 be
@@ -7899,7 +7928,7 @@ called
                                              
 "
 on
-gecko
+Gecko
 instances
 launched
 by
@@ -7945,6 +7974,9 @@ close
 (
 )
         
+try
+:
+            
 self
 .
 raise_for_port
@@ -7955,6 +7987,54 @@ wait_for_port
 (
 )
 )
+        
+except
+socket
+.
+timeout
+:
+            
+if
+self
+.
+instance
+.
+runner
+.
+returncode
+is
+not
+None
+:
+                
+exc
+val
+tb
+=
+sys
+.
+exc_info
+(
+)
+                
+self
+.
+cleanup
+(
+)
+                
+raise
+exc
+'
+Requested
+restart
+of
+the
+application
+was
+aborted
+'
+tb
     
 def
 restart
@@ -8084,6 +8164,8 @@ MarionetteException
 (
 "
 restart
+(
+)
 can
 only
 be
@@ -8092,7 +8174,7 @@ called
                                              
 "
 on
-gecko
+Gecko
 instances
 launched
 by
@@ -8110,6 +8192,21 @@ clean
                 
 raise
 ValueError
+(
+"
+An
+in_app
+restart
+cannot
+be
+triggered
+with
+the
+clean
+flag
+set
+"
+)
             
 self
 .
@@ -8167,17 +8264,6 @@ reset_timeouts
         
 if
 in_app
-and
-self
-.
-session
-.
-get
-(
-'
-processId
-'
-)
 :
             
 self
@@ -11062,21 +11148,28 @@ ms
 "
 "
         
+timeout_types
+=
+(
+self
+.
+TIMEOUT_PAGE
+                         
+self
+.
+TIMEOUT_SCRIPT
+                         
+self
+.
+TIMEOUT_SEARCH
+                         
+)
+        
 if
 timeout_type
 not
 in
-[
-self
-.
-TIMEOUT_SEARCH
-self
-.
-TIMEOUT_SCRIPT
-self
-.
-TIMEOUT_PAGE
-]
+timeout_types
 :
             
 raise
@@ -11087,11 +11180,28 @@ Unknown
 timeout
 type
 :
-%
-s
+{
+0
+}
+(
+should
+be
+one
 "
-%
+                             
+"
+of
+{
+1
+}
+)
+"
+.
+format
+(
 timeout_type
+timeout_types
+)
 )
         
 body

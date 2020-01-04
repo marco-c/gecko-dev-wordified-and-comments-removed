@@ -50,7 +50,7 @@ root
 :
             
 raise
-Exception
+IOError
 (
 "
 Server
@@ -267,11 +267,14 @@ alive
 :
             
 raise
+Exception
+(
 "
 Server
 not
 started
 "
+)
         
 return
 self

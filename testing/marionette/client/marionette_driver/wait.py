@@ -840,19 +840,14 @@ except
 KeyboardInterrupt
 SystemExit
 )
-as
-e
 :
                 
 raise
-e
             
 except
 self
 .
 exceptions
-as
-e
 :
                 
 last_exc
