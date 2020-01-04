@@ -528,6 +528,9 @@ cacheReaderItem
 final
 String
 url
+final
+int
+tabID
 Context
 context
 )
@@ -593,7 +596,12 @@ Reader
 :
 AddToCache
 "
-url
+Integer
+.
+toString
+(
+tabID
+)
 )
 ;
 }

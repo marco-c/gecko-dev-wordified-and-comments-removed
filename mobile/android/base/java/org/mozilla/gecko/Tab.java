@@ -2382,6 +2382,7 @@ ReadingListHelper
 cacheReaderItem
 (
 pageUrl
+mId
 mAppContext
 )
 ;
