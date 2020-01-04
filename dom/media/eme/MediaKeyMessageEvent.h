@@ -147,7 +147,6 @@ AsMediaKeyMessageEvent
 (
 )
 ;
-virtual
 JSObject
 *
 WrapObjectInternal

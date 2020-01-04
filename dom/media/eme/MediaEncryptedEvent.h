@@ -157,7 +157,6 @@ mInitData
 ;
 public
 :
-virtual
 JSObject
 *
 WrapObjectInternal
