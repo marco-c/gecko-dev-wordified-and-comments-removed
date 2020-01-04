@@ -1317,16 +1317,4 @@ websocketprocessbridge
 .
 py
 '
-'
-/
-testing
-/
-tools
-/
-websocketprocessbridge
-/
-websocketprocessbridge_requirements
-.
-txt
-'
 ]
