@@ -127,6 +127,12 @@ export
 MOZ_PKG_SPECIAL
 =
 asan
+#
+upload
+symbols
+MOZ_AUTOMATION_UPLOAD_SYMBOLS
+=
+1
 .
 "
 topsrcdir
