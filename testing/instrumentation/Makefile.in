@@ -127,6 +127,8 @@ D
 (
 _DEST_DIR
 )
+ifndef
+MOZ_BUILD_MOBILE_ANDROID_WITH_GRADLE
 (
 call
 RELEASE_SIGN_ANDROID_APK
@@ -207,6 +209,7 @@ junit3
 .
 apk
 )
+endif
 (
 cd
 (
