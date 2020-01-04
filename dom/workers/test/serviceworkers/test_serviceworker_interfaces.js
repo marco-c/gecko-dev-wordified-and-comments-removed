@@ -223,9 +223,6 @@ b2g
 true
 }
 "
-Directory
-"
-"
 DOMCursor
 "
 "
