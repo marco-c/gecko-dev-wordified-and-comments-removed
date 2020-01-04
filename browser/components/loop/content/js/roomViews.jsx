@@ -891,13 +891,6 @@ settingsMenuItems
 id
 :
 "
-feedback
-"
-}
-{
-id
-:
-"
 help
 "
 }
@@ -5171,13 +5164,6 @@ onClick
 this
 .
 handleEditContextClick
-}
-{
-id
-:
-"
-feedback
-"
 }
 {
 id
