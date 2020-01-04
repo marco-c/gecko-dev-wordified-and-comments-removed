@@ -5,7 +5,7 @@ strict
 ;
 requestLongerTimeout
 (
-2
+4
 )
 ;
 add_task
