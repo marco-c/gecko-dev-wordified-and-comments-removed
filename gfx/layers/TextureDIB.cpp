@@ -1282,11 +1282,6 @@ MOZ_ASSERT
 aAllocator
 -
 >
-AsLayerForwarder
-(
-)
--
->
 GetParentPid
 (
 )
@@ -1676,11 +1671,6 @@ DuplicateHandle
 (
 fileMapping
 aAllocator
--
->
-AsLayerForwarder
-(
-)
 -
 >
 GetParentPid
