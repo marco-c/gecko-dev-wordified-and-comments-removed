@@ -23,6 +23,15 @@ ImageHost
 .
 h
 "
+#
+include
+"
+mozilla
+/
+unused
+.
+h
+"
 namespace
 mozilla
 {

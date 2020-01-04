@@ -1159,6 +1159,11 @@ RenderTrace
 h
 '
 '
+TextureWrapperImage
+.
+h
+'
+'
 TransactionIdAllocator
 .
 h
@@ -2279,6 +2284,11 @@ cpp
 '
 '
 RotatedBuffer
+.
+cpp
+'
+'
+TextureWrapperImage
 .
 cpp
 '
