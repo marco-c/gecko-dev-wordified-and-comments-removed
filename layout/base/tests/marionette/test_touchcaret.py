@@ -10,6 +10,12 @@ utf
 -
 *
 -
+import
+string
+from
+marionette
+import
+MarionetteTestCase
 from
 marionette_driver
 .
@@ -28,12 +34,6 @@ marionette_driver
 selection
 import
 SelectionManager
-from
-marionette
-import
-MarionetteTestCase
-import
-string
 class
 CommonCaretTestCase
 (
@@ -637,11 +637,22 @@ perform
 (
 )
         
-el
+self
 .
-send_keys
+actions
+.
+key_down
 (
 content_to_add
+)
+.
+key_up
+(
+content_to_add
+)
+.
+perform
+(
 )
         
 assertFunc
@@ -752,11 +763,22 @@ perform
 (
 )
         
-el
+self
 .
-send_keys
+actions
+.
+key_down
 (
 content_to_add
+)
+.
+key_up
+(
+content_to_add
+)
+.
+perform
+(
 )
         
 assertFunc
@@ -878,11 +900,22 @@ perform
 (
 )
         
-el
+self
 .
-send_keys
+actions
+.
+key_down
 (
 content_to_add
+)
+.
+key_up
+(
+content_to_add
+)
+.
+perform
+(
 )
         
 assertFunc
@@ -1011,11 +1044,22 @@ perform
 (
 )
         
-el
+self
 .
-send_keys
+actions
+.
+key_down
 (
 content_to_add
+)
+.
+key_up
+(
+content_to_add
+)
+.
+perform
+(
 )
         
 assertFunc
@@ -1224,11 +1268,22 @@ perform
 (
 )
         
-el
+self
 .
-send_keys
+actions
+.
+key_down
 (
 content_to_add
+)
+.
+key_up
+(
+content_to_add
+)
+.
+perform
+(
 )
         
 assertFunc
