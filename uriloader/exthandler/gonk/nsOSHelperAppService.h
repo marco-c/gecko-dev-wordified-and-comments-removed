@@ -57,7 +57,6 @@ aFound
 )
 ;
 virtual
-MOZ_MUST_USE
 nsresult
 OSProtocolHandlerExists
 (

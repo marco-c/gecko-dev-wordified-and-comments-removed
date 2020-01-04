@@ -35,7 +35,6 @@ nsIMIMEInfo
 public
 :
 static
-MOZ_MUST_USE
 bool
 GetMimeInfoForMimeType
 (
@@ -50,7 +49,6 @@ aMimeInfo
 )
 ;
 static
-MOZ_MUST_USE
 bool
 GetMimeInfoForFileExt
 (
@@ -65,7 +63,6 @@ aMimeInfo
 )
 ;
 static
-MOZ_MUST_USE
 nsresult
 GetMimeInfoForURL
 (
@@ -102,7 +99,6 @@ nsMIMEInfoAndroid
 {
 }
 virtual
-MOZ_MUST_USE
 nsresult
 LaunchDefaultWithFile
 (
@@ -112,7 +108,6 @@ aFile
 )
 ;
 virtual
-MOZ_MUST_USE
 nsresult
 LoadUriInternal
 (

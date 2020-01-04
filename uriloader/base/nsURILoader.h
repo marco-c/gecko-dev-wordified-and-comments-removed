@@ -103,7 +103,6 @@ nsURILoader
 (
 )
 ;
-MOZ_MUST_USE
 nsresult
 OpenChannel
 (

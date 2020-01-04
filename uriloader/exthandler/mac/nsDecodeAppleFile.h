@@ -186,7 +186,6 @@ nsDecodeAppleFile
 (
 )
 ;
-MOZ_MUST_USE
 nsresult
 Initialize
 (
