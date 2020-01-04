@@ -223,6 +223,17 @@ SharedSurface_EGLImage
 )
 ;
 virtual
+layers
+:
+:
+TextureFlags
+GetTextureFlags
+(
+)
+const
+override
+;
+virtual
 void
 LockProdImpl
 (

@@ -253,6 +253,16 @@ SharedSurface
 )
 {
 }
+virtual
+layers
+:
+:
+TextureFlags
+GetTextureFlags
+(
+)
+const
+;
 bool
 IsLocked
 (
