@@ -126,7 +126,7 @@ struct
 DeviceInitData
 {
 bool
-useAcceleration
+useHwCompositing
 ;
 /
 /
