@@ -2148,11 +2148,12 @@ global
 )
 &
 &
-JS_DefineFunctions
+DefineFunctions
 (
 cx
 global
 builtins
+AsIntrinsic
 )
 ;
 }
