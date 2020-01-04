@@ -403,6 +403,11 @@ pid
 ProcessHandle
 *
 handle
+int64_t
+*
+error
+=
+nullptr
 )
 ;
 void
