@@ -206,7 +206,7 @@ ComputeCollapsedBStartMargin
 const
 ReflowInput
 &
-aRS
+aRI
 nsCollapsingMargin
 *
 aMargin
@@ -224,7 +224,7 @@ aBlockIsEmpty
 WritingMode
 wm
 =
-aRS
+aRI
 .
 GetWritingMode
 (
@@ -244,7 +244,7 @@ aMargin
 >
 Include
 (
-aRS
+aRI
 .
 ComputedLogicalMargin
 (
@@ -271,7 +271,7 @@ nsFrame
 ListTag
 (
 stdout
-aRS
+aRI
 .
 mFrame
 )
@@ -289,7 +289,7 @@ d
 \
 n
 "
-aRS
+aRI
 .
 ComputedLogicalMargin
 (
@@ -325,7 +325,7 @@ frame
 =
 DescendIntoBlockLevelFrame
 (
-aRS
+aRI
 .
 mFrame
 )
@@ -352,7 +352,7 @@ if
 0
 =
 =
-aRS
+aRI
 .
 ComputedLogicalBorderPadding
 (
@@ -687,14 +687,14 @@ ReflowInput
 outerReflowInput
 =
 &
-aRS
+aRI
 ;
 if
 (
 frame
 !
 =
-aRS
+aRI
 .
 mFrame
 )
@@ -709,7 +709,7 @@ GetParent
 )
 =
 =
-aRS
+aRI
 .
 mFrame
 "
@@ -728,7 +728,7 @@ wrapper
 LogicalSize
 availSpace
 =
-aRS
+aRI
 .
 ComputedSize
 (
@@ -746,7 +746,7 @@ new
 ReflowInput
 (
 prescontext
-aRS
+aRI
 frame
 availSpace
 )
@@ -886,7 +886,7 @@ outerReflowInput
 !
 =
 &
-aRS
+aRI
 )
 {
 delete
@@ -947,7 +947,7 @@ true
 *
 aBlockIsEmpty
 =
-aRS
+aRI
 .
 mFrame
 -
@@ -973,7 +973,7 @@ aBlockIsEmpty
 *
 aBlockIsEmpty
 =
-aRS
+aRI
 .
 mFrame
 -
@@ -992,7 +992,7 @@ nsFrame
 ListTag
 (
 stdout
-aRS
+aRI
 .
 mFrame
 )
@@ -1046,7 +1046,7 @@ nsLineBox
 aLine
 ReflowInput
 &
-aFrameRS
+aFrameRI
 nsReflowStatus
 &
 aFrameReflowStatus
@@ -1057,7 +1057,7 @@ aState
 {
 mFrame
 =
-aFrameRS
+aFrameRI
 .
 mFrame
 ;
@@ -1089,7 +1089,7 @@ if
 aIsAdjacentWithBStart
 )
 {
-aFrameRS
+aFrameRI
 .
 mFlags
 .
@@ -1184,14 +1184,14 @@ if
 NS_UNCONSTRAINEDSIZE
 !
 =
-aFrameRS
+aFrameRI
 .
 AvailableISize
 (
 )
 )
 {
-aFrameRS
+aFrameRI
 .
 AvailableISize
 (
@@ -1215,14 +1215,14 @@ if
 NS_UNCONSTRAINEDSIZE
 !
 =
-aFrameRS
+aFrameRI
 .
 AvailableBSize
 (
 )
 )
 {
-aFrameRS
+aFrameRI
 .
 AvailableBSize
 (
@@ -1265,7 +1265,7 @@ aLine
 WritingMode
 frameWM
 =
-aFrameRS
+aFrameRI
 .
 GetWritingMode
 (
@@ -1274,7 +1274,7 @@ GetWritingMode
 LogicalMargin
 usedMargin
 =
-aFrameRS
+aFrameRI
 .
 ComputedLogicalMargin
 (
@@ -1383,7 +1383,7 @@ NS_BLOCK_FLOAT_MGR
 =
 0
 )
-aFrameRS
+aFrameRI
 .
 mBlockDelta
 =
@@ -1448,7 +1448,7 @@ Reflow
 (
 mPresContext
 mMetrics
-aFrameRS
+aFrameRI
 aFrameReflowStatus
 )
 ;

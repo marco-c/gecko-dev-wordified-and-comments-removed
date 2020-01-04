@@ -164,7 +164,7 @@ ComputeCollapsedBStartMargin
 const
 ReflowInput
 &
-aRS
+aRI
 nsCollapsingMargin
 *
 aMargin

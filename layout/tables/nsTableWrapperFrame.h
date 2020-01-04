@@ -857,7 +857,7 @@ aChildFrame
 const
 ReflowInput
 &
-aOuterRS
+aOuterRI
 mozilla
 :
 :
@@ -866,7 +866,7 @@ Maybe
 ReflowInput
 >
 &
-aChildRS
+aChildRI
 nscoord
 aAvailISize
 )
@@ -883,7 +883,7 @@ aChildFrame
 const
 ReflowInput
 &
-aChildRS
+aChildRI
 ReflowOutput
 &
 aMetrics
@@ -909,7 +909,7 @@ aPresContext
 const
 ReflowInput
 &
-aOuterRS
+aOuterRI
 nsIFrame
 *
 aChildFrame

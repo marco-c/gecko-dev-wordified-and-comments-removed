@@ -42991,7 +42991,7 @@ frame
 const
 ReflowInput
 *
-parentRS
+parentRI
 ;
 if
 (
@@ -43007,14 +43007,14 @@ mFrame
 parentFrame
 )
 {
-parentRS
+parentRI
 =
 outerReflowInput
 ;
 }
 else
 {
-parentRS
+parentRI
 =
 &
 parentReflowInput
@@ -43052,7 +43052,7 @@ reflowInput
 (
 aPresContext
 *
-parentRS
+parentRI
 this
 logicalSize
 nullptr
@@ -43066,7 +43066,7 @@ reflowInput
 .
 mCBReflowInput
 =
-parentRS
+parentRI
 ;
 reflowInput
 .
@@ -48768,7 +48768,7 @@ aReflowInput
 const
 ReflowInput
 *
-parentRS
+parentRI
 =
 aReflowInput
 -
@@ -48778,10 +48778,10 @@ mParentReflowInput
 parentFrame
 =
 (
-parentRS
+parentRI
 )
 ?
-parentRS
+parentRI
 -
 >
 mFrame
