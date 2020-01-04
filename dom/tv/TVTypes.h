@@ -50,6 +50,9 @@ mSupportedSourceTypes
 uint32_t
 mCount
 ;
+uint16_t
+mStreamType
+;
 }
 ;
 class
