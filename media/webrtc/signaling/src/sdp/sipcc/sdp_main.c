@@ -1209,8 +1209,8 @@ sizeof
 identity
 "
 )
-sdp_parse_attr_simple_string
-sdp_build_attr_simple_string
+sdp_parse_attr_long_line
+sdp_build_attr_long_line
 }
 {
 "

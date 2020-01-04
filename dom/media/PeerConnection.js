@@ -7533,17 +7533,6 @@ return
 null
 ;
 }
-sdp
-=
-this
-.
-_localIdp
-.
-addIdentityAttribute
-(
-sdp
-)
-;
 return
 new
 this

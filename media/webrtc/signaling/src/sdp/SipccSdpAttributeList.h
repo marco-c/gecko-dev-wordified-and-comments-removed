@@ -709,6 +709,16 @@ errorHolder
 )
 ;
 void
+LoadIdentity
+(
+sdp_t
+*
+sdp
+uint16_t
+level
+)
+;
+void
 LoadFmtp
 (
 sdp_t
