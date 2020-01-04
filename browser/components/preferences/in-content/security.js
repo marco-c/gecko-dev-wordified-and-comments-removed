@@ -656,6 +656,13 @@ disabled
 "
 )
 ;
+if
+(
+blockDownloads
+.
+checked
+)
+{
 blockUncommonUnwanted
 .
 removeAttribute
@@ -665,6 +672,7 @@ disabled
 "
 )
 ;
+}
 }
 else
 {

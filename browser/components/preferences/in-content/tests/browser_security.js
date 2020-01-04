@@ -383,6 +383,12 @@ correctly
 "
 )
 ;
+checked
+=
+checkbox
+.
+checked
+;
 is
 (
 blockDownloads
@@ -393,6 +399,7 @@ hasAttribute
 disabled
 "
 )
+!
 checked
 "
 block
@@ -414,6 +421,13 @@ hasAttribute
 disabled
 "
 )
+!
+checked
+|
+|
+!
+blockDownloads
+.
 checked
 "
 block
