@@ -1357,15 +1357,6 @@ SchedulePaint
 )
 ;
 }
-NotifyPluginFrames
-(
-aTransforming
-?
-BEGIN_APZ
-:
-END_APZ
-)
-;
 }
 bool
 IsTransformingByAPZ
@@ -1978,9 +1969,7 @@ enum
 AsyncScrollEventType
 {
 BEGIN_DOM
-BEGIN_APZ
 END_DOM
-END_APZ
 }
 ;
 void
