@@ -164,10 +164,6 @@ StartClone
 (
 RefHandlingEnum
 aRefHandlingMode
-const
-nsACString
-&
-newRef
 )
 ;
 NS_IMETHOD
