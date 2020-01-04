@@ -153,6 +153,11 @@ captured
 "
 "
 "
+    
+__slots__
+=
+(
+)
 class
 ContextDerived
 (
@@ -207,11 +212,7 @@ __slots__
 (
         
 '
-objdir
-'
-        
-'
-relativedir
+context_main_path
 '
         
 '
@@ -219,11 +220,7 @@ context_all_paths
 '
         
 '
-context_path
-'
-        
-'
-srcdir
+topsrcdir
 '
         
 '
@@ -231,7 +228,23 @@ topobjdir
 '
         
 '
-topsrcdir
+relativedir
+'
+        
+'
+srcdir
+'
+        
+'
+objdir
+'
+        
+'
+config
+'
+        
+'
+_context
 '
     
 )
@@ -842,7 +855,7 @@ __slots__
 (
         
 '
-add_to_manifest
+source_path
 '
         
 '
@@ -850,7 +863,11 @@ basename
 '
         
 '
-source_path
+module
+'
+        
+'
+add_to_manifest
 '
     
 )
@@ -4269,9 +4286,6 @@ __slots__
 '
 files
 '
-'
-target
-'
 )
     
 def
@@ -4366,9 +4380,6 @@ __slots__
 (
 '
 files
-'
-'
-target
 '
 )
     
@@ -5253,6 +5264,10 @@ entry
 __slots__
 =
 (
+        
+'
+path
+'
         
 '
 entry
