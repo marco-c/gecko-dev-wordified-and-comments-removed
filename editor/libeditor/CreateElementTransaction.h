@@ -1,9 +1,9 @@
 #
 ifndef
-CreateElementTxn_h__
+CreateElementTransaction_h
 #
 define
-CreateElementTxn_h__
+CreateElementTransaction_h
 #
 include
 "
@@ -53,15 +53,17 @@ dom
 class
 Element
 ;
+}
 class
-CreateElementTxn
+CreateElementTransaction
+final
 :
 public
 EditTxn
 {
 public
 :
-CreateElementTxn
+CreateElementTransaction
 (
 nsEditor
 &
@@ -79,7 +81,7 @@ aOffsetInParent
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
-CreateElementTxn
+CreateElementTransaction
 EditTxn
 )
 NS_DECL_EDITTXN
@@ -91,6 +93,9 @@ override
 ;
 already_AddRefed
 <
+dom
+:
+:
 Element
 >
 GetNewNode
@@ -101,7 +106,7 @@ protected
 :
 virtual
 ~
-CreateElementTxn
+CreateElementTransaction
 (
 )
 ;
@@ -126,6 +131,9 @@ mOffsetInParent
 ;
 nsCOMPtr
 <
+dom
+:
+:
 Element
 >
 mNewNode
@@ -138,7 +146,6 @@ mRefNode
 ;
 }
 ;
-}
 }
 #
 endif

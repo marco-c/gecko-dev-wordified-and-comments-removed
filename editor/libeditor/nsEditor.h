@@ -245,6 +245,9 @@ class
 ChangeAttributeTransaction
 ;
 class
+CreateElementTransaction
+;
+class
 ErrorResult
 ;
 class
@@ -256,9 +259,6 @@ EditorDOMPoint
 namespace
 dom
 {
-class
-CreateElementTxn
-;
 class
 DataTransfer
 ;
@@ -891,10 +891,7 @@ already_AddRefed
 mozilla
 :
 :
-dom
-:
-:
-CreateElementTxn
+CreateElementTransaction
 >
 CreateTxnForCreateElement
 (

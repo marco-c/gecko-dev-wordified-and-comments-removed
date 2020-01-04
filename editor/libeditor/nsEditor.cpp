@@ -38,7 +38,7 @@ h
 #
 include
 "
-CreateElementTxn
+CreateElementTransaction
 .
 h
 "
@@ -5195,9 +5195,9 @@ ret
 ;
 RefPtr
 <
-CreateElementTxn
+CreateElementTransaction
 >
-txn
+transaction
 =
 CreateTxnForCreateElement
 (
@@ -5213,7 +5213,7 @@ res
 =
 DoTransaction
 (
-txn
+transaction
 )
 ;
 if
@@ -5226,7 +5226,7 @@ res
 {
 ret
 =
-txn
+transaction
 -
 >
 GetNewNode
@@ -16957,7 +16957,7 @@ forget
 }
 already_AddRefed
 <
-CreateElementTxn
+CreateElementTransaction
 >
 nsEditor
 :
@@ -16976,12 +16976,12 @@ aPosition
 {
 RefPtr
 <
-CreateElementTxn
+CreateElementTransaction
 >
-txn
+transaction
 =
 new
-CreateElementTxn
+CreateElementTransaction
 (
 *
 this
@@ -16991,7 +16991,7 @@ aPosition
 )
 ;
 return
-txn
+transaction
 .
 forget
 (
