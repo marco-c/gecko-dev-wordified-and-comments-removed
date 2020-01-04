@@ -137,9 +137,6 @@ DIRS
 '
 internal
 '
-'
-standalone
-'
 ]
 EXPORTS
 +
