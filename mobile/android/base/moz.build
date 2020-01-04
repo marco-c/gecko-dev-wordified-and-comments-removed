@@ -3862,6 +3862,11 @@ Restrictions
 java
 '
 '
+ScreenshotDelegate
+.
+java
+'
+'
 ScreenshotObserver
 .
 java
