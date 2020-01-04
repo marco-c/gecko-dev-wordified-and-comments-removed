@@ -4723,6 +4723,15 @@ value
 ;
 break
 ;
+case
+TLS_ECDHE_PSK_WITH_AES_128_GCM_SHA256
+:
+value
+=
+70
+;
+break
+;
 default
 :
 value

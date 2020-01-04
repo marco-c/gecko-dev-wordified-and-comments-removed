@@ -5190,6 +5190,17 @@ security
 .
 ssl3
 .
+ecdhe_psk_aes_128_gcm_sha256
+"
+TLS_ECDHE_PSK_WITH_AES_128_GCM_SHA256
+true
+}
+{
+"
+security
+.
+ssl3
+.
 ecdhe_rsa_rc4_128_sha
 "
 TLS_ECDHE_RSA_WITH_RC4_128_SHA
