@@ -2530,9 +2530,6 @@ fennec
 .
 *
 )
-\
-.
-android
 -
 arm
 \
@@ -2564,9 +2561,6 @@ fennec
 .
 *
 )
-\
-.
-android
 -
 i386
 \
