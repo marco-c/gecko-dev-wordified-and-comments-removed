@@ -168,6 +168,11 @@ AnimationUtils
 h
 '
 '
+AnimValuesStyleRule
+.
+h
+'
+'
 ComputedTimingFunction
 .
 h
@@ -209,6 +214,11 @@ cpp
 '
 '
 AnimationUtils
+.
+cpp
+'
+'
+AnimValuesStyleRule
 .
 cpp
 '
