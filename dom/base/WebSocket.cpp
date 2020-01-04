@@ -779,14 +779,6 @@ DispatchConnectionCloseEvents
 )
 ;
 nsresult
-DispatchRunnable
-(
-nsIRunnable
-*
-aRunnable
-)
-;
-nsresult
 UpdateURI
 (
 )
