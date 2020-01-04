@@ -585,9 +585,6 @@ CreateAnonymousDecoder
 (
 decoderType
 sourceBuffer
-Nothing
-(
-)
 ToSurfaceFlags
 (
 aFlags
