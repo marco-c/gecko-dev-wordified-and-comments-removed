@@ -2296,8 +2296,11 @@ os
 )
 link
 .
+setAttribute
+(
+"
 href
-=
+"
 Services
 .
 prefs
@@ -2318,6 +2321,7 @@ synced
 -
 tabs
 "
+)
 ;
 link
 .
