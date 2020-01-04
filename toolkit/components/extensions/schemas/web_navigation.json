@@ -315,11 +315,6 @@ name
 getFrame
 "
 "
-unsupported
-"
-:
-true
-"
 type
 "
 :
@@ -464,7 +459,7 @@ processId
 :
 {
 "
-unsupported
+optional
 "
 :
 true
@@ -605,6 +600,11 @@ errorOccurred
 "
 :
 {
+"
+unsupported
+"
+:
+true
 "
 type
 "
@@ -755,11 +755,6 @@ name
 "
 getAllFrames
 "
-"
-unsupported
-"
-:
-true
 "
 type
 "
@@ -948,6 +943,11 @@ errorOccurred
 "
 :
 {
+"
+unsupported
+"
+:
+true
 "
 type
 "

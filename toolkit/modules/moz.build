@@ -199,6 +199,13 @@ js
 '
 addons
 /
+WebNavigationFrames
+.
+jsm
+'
+'
+addons
+/
 WebRequest
 .
 jsm
