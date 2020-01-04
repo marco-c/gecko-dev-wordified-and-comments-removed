@@ -31656,6 +31656,13 @@ CanCloseWindow
 {
 if
 (
+Services
+.
+startup
+.
+shuttingDown
+|
+|
 window
 .
 skipNextCanClose
