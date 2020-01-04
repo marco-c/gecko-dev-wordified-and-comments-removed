@@ -2952,6 +2952,17 @@ nativeGroup
 return
 false
 ;
+if
+(
+nativeGroup
+-
+>
+unknownProperties
+(
+)
+)
+break
+;
 HeapTypeSet
 *
 nativeProperty
