@@ -911,6 +911,10 @@ catch
 (
 final
 SecurityException
+|
+WindowManager
+.
+BadTokenException
 e
 )
 {
