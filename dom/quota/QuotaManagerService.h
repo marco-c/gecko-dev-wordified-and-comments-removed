@@ -175,7 +175,7 @@ aManager
 )
 ;
 void
-NoteFinishedManager
+NoteShuttingDownManager
 (
 )
 ;
