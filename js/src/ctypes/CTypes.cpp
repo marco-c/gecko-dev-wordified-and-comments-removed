@@ -30,19 +30,15 @@ include
 "
 mozilla
 /
-NumericLimits
+Vector
 .
 h
 "
 #
 include
-"
-mozilla
-/
-Vector
-.
-h
-"
+<
+limits
+>
 #
 include
 <
@@ -226,12 +222,6 @@ h
 using
 namespace
 std
-;
-using
-mozilla
-:
-:
-NumericLimits
 ;
 using
 JS
@@ -11295,7 +11285,7 @@ void
 ;
 JS_STATIC_ASSERT
 (
-NumericLimits
+numeric_limits
 <
 double
 >
@@ -11508,7 +11498,7 @@ IsAlwaysExact
 {
 if
 (
-NumericLimits
+numeric_limits
 <
 TargetType
 >
@@ -11516,7 +11506,7 @@ TargetType
 :
 digits
 <
-NumericLimits
+numeric_limits
 <
 FromType
 >
@@ -11529,7 +11519,7 @@ false
 ;
 if
 (
-NumericLimits
+numeric_limits
 <
 FromType
 >
@@ -11539,7 +11529,7 @@ is_signed
 &
 &
 !
-NumericLimits
+numeric_limits
 <
 TargetType
 >
@@ -11553,7 +11543,7 @@ false
 if
 (
 !
-NumericLimits
+numeric_limits
 <
 FromType
 >
@@ -11562,7 +11552,7 @@ FromType
 is_exact
 &
 &
-NumericLimits
+numeric_limits
 <
 TargetType
 >
@@ -11604,7 +11594,7 @@ j
 {
 JS_STATIC_ASSERT
 (
-NumericLimits
+numeric_limits
 <
 TargetType
 >
@@ -11654,7 +11644,7 @@ j
 {
 JS_STATIC_ASSERT
 (
-NumericLimits
+numeric_limits
 <
 TargetType
 >
@@ -11710,7 +11700,7 @@ j
 {
 JS_STATIC_ASSERT
 (
-NumericLimits
+numeric_limits
 <
 TargetType
 >
@@ -11761,7 +11751,7 @@ result
 {
 JS_STATIC_ASSERT
 (
-NumericLimits
+numeric_limits
 <
 TargetType
 >
@@ -11799,14 +11789,14 @@ IsExactImpl
 <
 TargetType
 FromType
-NumericLimits
+numeric_limits
 <
 TargetType
 >
 :
 :
 is_signed
-NumericLimits
+numeric_limits
 <
 FromType
 >
@@ -11896,7 +11886,7 @@ return
 IsNegativeImpl
 <
 Type
-NumericLimits
+numeric_limits
 <
 Type
 >
@@ -12051,7 +12041,7 @@ result
 {
 JS_STATIC_ASSERT
 (
-NumericLimits
+numeric_limits
 <
 IntegerType
 >
@@ -12461,7 +12451,7 @@ result
 JS_STATIC_ASSERT
 (
 !
-NumericLimits
+numeric_limits
 <
 FloatType
 >
@@ -12722,7 +12712,7 @@ overflow
 {
 JS_STATIC_ASSERT
 (
-NumericLimits
+numeric_limits
 <
 IntegerType
 >
@@ -12771,7 +12761,7 @@ cp
 if
 (
 !
-NumericLimits
+numeric_limits
 <
 IntegerType
 >
@@ -13139,7 +13129,7 @@ overflow
 {
 JS_STATIC_ASSERT
 (
-NumericLimits
+numeric_limits
 <
 IntegerType
 >
@@ -13434,7 +13424,7 @@ result
 {
 JS_STATIC_ASSERT
 (
-NumericLimits
+numeric_limits
 <
 IntegerType
 >
@@ -13613,7 +13603,7 @@ result
 {
 JS_STATIC_ASSERT
 (
-NumericLimits
+numeric_limits
 <
 IntegerType
 >
@@ -14048,7 +14038,7 @@ result
 {
 JS_STATIC_ASSERT
 (
-NumericLimits
+numeric_limits
 <
 IntegerType
 >
@@ -14485,7 +14475,7 @@ cx
 if
 (
 !
-NumericLimits
+numeric_limits
 <
 type
 >
@@ -14627,7 +14617,7 @@ proto
 value
 \
 !
-NumericLimits
+numeric_limits
 <
 type
 >
@@ -19546,7 +19536,7 @@ integer
 if
 (
 !
-NumericLimits
+numeric_limits
 <
 type
 >
