@@ -284,8 +284,6 @@ https
 updates
 -
 autopush
--
-dev
 .
 stage
 .
@@ -739,7 +737,7 @@ AutopushClientRemoteException
 failureException
 )
 .
-isNotFound
+isGone
 (
 )
 )
@@ -1012,7 +1010,7 @@ AutopushClientRemoteException
 reunsubscribeFailureException
 )
 .
-isNotFound
+isGone
 (
 )
 )
