@@ -30376,7 +30376,7 @@ DOM_VK_VOLUME_MUTE
 key
 :
 "
-VolumeDown
+AudioVolumeDown
 "
 keyCode
 :
