@@ -61,7 +61,11 @@ s
 l10n
 -
 p
-firefox
+%
+(
+stage_product
+)
+s
 -
 i
 %
