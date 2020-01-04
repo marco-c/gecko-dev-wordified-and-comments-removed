@@ -7646,11 +7646,11 @@ return
 NS_OK
 ;
 }
-nsIntPoint
+LayoutDeviceIntPoint
 nsWindow
 :
 :
-GetClientOffsetUntyped
+GetClientOffset
 (
 )
 {
@@ -7661,7 +7661,7 @@ mWnd
 )
 {
 return
-nsIntPoint
+LayoutDeviceIntPoint
 (
 0
 0
@@ -7686,7 +7686,7 @@ WidgetToScreenOffset
 )
 ;
 return
-nsIntPoint
+LayoutDeviceIntPoint
 (
 pt
 .

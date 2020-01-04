@@ -6600,7 +6600,7 @@ mLastClientOffset
 widget
 -
 >
-GetClientOffsetUntyped
+GetClientOffset
 (
 )
 ;
@@ -9590,7 +9590,7 @@ widget
 widget
 -
 >
-GetClientOffsetUntyped
+GetClientOffset
 (
 )
 =
