@@ -914,6 +914,9 @@ XP_WIN
 NPNVsupportsAsyncWindowsDXGISurfaceBool
 =
 2008
+NPNVpreferredDXGIAdapter
+=
+2009
 #
 endif
 #

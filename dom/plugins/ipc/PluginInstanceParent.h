@@ -457,6 +457,16 @@ override
 ;
 virtual
 bool
+AnswerNPN_GetValue_PreferredDXGIAdapter
+(
+DxgiAdapterDesc
+*
+desc
+)
+override
+;
+virtual
+bool
 AnswerNPN_SetValue_NPPVpluginWindow
 (
 const
