@@ -83,9 +83,6 @@ nsPresContext
 namespace
 mozilla
 {
-class
-CommonAnimationManager
-;
 typedef
 InfallibleTArray
 <
@@ -119,9 +116,6 @@ aElement
 nsIAtom
 *
 aElementProperty
-CommonAnimationManager
-*
-aManager
 )
 :
 mElement
@@ -131,10 +125,6 @@ aElement
 mElementProperty
 (
 aElementProperty
-)
-mManager
-(
-aManager
 )
 mCheckGeneration
 (
@@ -377,10 +367,6 @@ mElement
 nsIAtom
 *
 mElementProperty
-;
-CommonAnimationManager
-*
-mManager
 ;
 AnimationPtrArray
 mAnimations
