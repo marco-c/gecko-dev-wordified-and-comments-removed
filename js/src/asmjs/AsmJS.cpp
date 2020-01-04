@@ -3383,6 +3383,12 @@ size_t
 data
 )
 {
+if
+(
+hasModule
+(
+)
+)
 module
 (
 )
