@@ -226,6 +226,11 @@ const
 SVGDrawingParameters
 &
 aParams
+gfx
+:
+:
+BackendType
+aBackend
 )
 ;
 void

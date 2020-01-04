@@ -646,6 +646,11 @@ SamplingFilter
 aSamplingFilter
 uint32_t
 aImageFlags
+gfx
+:
+:
+BackendType
+aBackend
 )
 ;
 DrawableFrameRef
@@ -935,6 +940,12 @@ CanOptimizeOpaqueImage
 nsresult
 Optimize
 (
+gfx
+:
+:
+DrawTarget
+*
+aTarget
 )
 ;
 void
