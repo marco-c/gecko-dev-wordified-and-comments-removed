@@ -1043,12 +1043,6 @@ domWindow
 of
 windows
 (
-null
-{
-includePrivate
-:
-supportPrivateWindows
-}
 )
 )
 {
