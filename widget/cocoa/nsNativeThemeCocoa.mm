@@ -22708,8 +22708,6 @@ aFrame
 aWidgetType
 )
 ;
-break
-;
 case
 NS_THEME_RESIZER
 :
@@ -22838,8 +22836,6 @@ GetScrollbarVisibility
 )
 )
 ;
-break
-;
 }
 case
 NS_THEME_FOCUS_OUTLINE
@@ -22918,8 +22914,6 @@ NS_THEME_MAC_DISCLOSURE_BUTTON_CLOSED
 :
 return
 false
-;
-break
 ;
 }
 return
