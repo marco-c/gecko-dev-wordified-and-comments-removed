@@ -167,6 +167,11 @@ InProcessCompositorSession
 .
 h
 '
+'
+RemoteCompositorSession
+.
+h
+'
 ]
 if
 CONFIG
@@ -256,6 +261,11 @@ cpp
 '
 '
 InProcessCompositorSession
+.
+cpp
+'
+'
+RemoteCompositorSession
 .
 cpp
 '
