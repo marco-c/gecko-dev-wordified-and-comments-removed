@@ -536,9 +536,6 @@ JSContext
 mCx
 ;
 bool
-mOldAutoJSAPIOwnsErrorReporting
-;
-bool
 mIsMainThread
 ;
 Maybe
