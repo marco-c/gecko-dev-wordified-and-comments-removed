@@ -21513,7 +21513,7 @@ svgReset
 mClipPath
 ;
 const
-int32_t
+StyleClipPathType
 type
 =
 clipPath
@@ -21527,7 +21527,10 @@ if
 type
 =
 =
-NS_STYLE_CLIP_PATH_URL
+StyleClipPathType
+:
+:
+URL
 )
 {
 nsIDocument
@@ -21639,7 +21642,10 @@ if
 type
 =
 =
-NS_STYLE_CLIP_PATH_BOX
+StyleClipPathType
+:
+:
+Box
 )
 {
 aComputedValue
@@ -21664,7 +21670,10 @@ if
 type
 =
 =
-NS_STYLE_CLIP_PATH_SHAPE
+StyleClipPathType
+:
+:
+Shape
 )
 {
 RefPtr
@@ -21717,7 +21726,10 @@ MOZ_ASSERT
 type
 =
 =
-NS_STYLE_CLIP_PATH_NONE
+StyleClipPathType
+:
+:
+None_
 "
 unknown
 type

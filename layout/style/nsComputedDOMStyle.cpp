@@ -29535,9 +29535,6 @@ const
 nsStyleBasicShape
 *
 aStyleBasicShape
-mozilla
-:
-:
 StyleClipShapeSizing
 aSizingBox
 )
@@ -29681,7 +29678,10 @@ GetType
 )
 {
 case
-NS_STYLE_CLIP_PATH_SHAPE
+StyleClipPathType
+:
+:
+Shape
 :
 return
 CreatePrimitiveValueForClipPath
@@ -29705,7 +29705,10 @@ GetSizingBox
 )
 ;
 case
-NS_STYLE_CLIP_PATH_BOX
+StyleClipPathType
+:
+:
+Box
 :
 return
 CreatePrimitiveValueForClipPath
@@ -29722,7 +29725,10 @@ GetSizingBox
 )
 ;
 case
-NS_STYLE_CLIP_PATH_URL
+StyleClipPathType
+:
+:
+URL
 :
 {
 RefPtr
@@ -29758,7 +29764,10 @@ forget
 ;
 }
 case
-NS_STYLE_CLIP_PATH_NONE
+StyleClipPathType
+:
+:
+None_
 :
 {
 RefPtr
