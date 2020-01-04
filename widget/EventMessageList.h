@@ -876,7 +876,7 @@ eMediaEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_LOADSTART
+eLoadStart
 eMediaEventFirst
 )
 NS_EVENT_MESSAGE
