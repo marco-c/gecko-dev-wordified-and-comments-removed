@@ -143,6 +143,11 @@ runTests
 (
 )
 {
+requestLongerTimeout
+(
+4
+)
+;
 let
 origEnhanced
 =
