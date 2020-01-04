@@ -114,7 +114,7 @@ dom
 /
 cache
 /
-Feature
+CacheWorkerHolder
 .
 h
 "
@@ -1062,11 +1062,11 @@ forget
 }
 RefPtr
 <
-Feature
+CacheWorkerHolder
 >
-feature
+workerHolder
 =
-Feature
+CacheWorkerHolder
 :
 :
 Create
@@ -1077,7 +1077,7 @@ aWorkerPrivate
 if
 (
 !
-feature
+workerHolder
 )
 {
 NS_WARNING
@@ -1204,7 +1204,7 @@ CacheStorage
 aNamespace
 aGlobal
 principalInfo
-feature
+workerHolder
 )
 ;
 return
@@ -1428,9 +1428,9 @@ const
 PrincipalInfo
 &
 aPrincipalInfo
-Feature
+CacheWorkerHolder
 *
-aFeature
+aWorkerHolder
 )
 :
 mNamespace
@@ -1451,9 +1451,9 @@ PrincipalInfo
 aPrincipalInfo
 )
 )
-mFeature
+mWorkerHolder
 (
-aFeature
+aWorkerHolder
 )
 mActor
 (
@@ -2558,10 +2558,10 @@ if
 (
 NS_WARN_IF
 (
-mFeature
+mWorkerHolder
 &
 &
-mFeature
+mWorkerHolder
 -
 >
 Notified
@@ -2585,7 +2585,7 @@ new
 CacheStorageChild
 (
 this
-mFeature
+mWorkerHolder
 )
 ;
 PCacheStorageChild
@@ -2619,7 +2619,7 @@ ActorFailed
 return
 ;
 }
-mFeature
+mWorkerHolder
 =
 nullptr
 ;
@@ -2675,7 +2675,7 @@ mStatus
 =
 NS_ERROR_UNEXPECTED
 ;
-mFeature
+mWorkerHolder
 =
 nullptr
 ;

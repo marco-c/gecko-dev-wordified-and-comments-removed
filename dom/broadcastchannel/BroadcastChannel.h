@@ -79,7 +79,7 @@ namespace
 workers
 {
 class
-WorkerFeature
+WorkerHolder
 ;
 }
 class
@@ -381,9 +381,9 @@ nsAutoPtr
 workers
 :
 :
-WorkerFeature
+WorkerHolder
 >
-mWorkerFeature
+mWorkerHolder
 ;
 nsAutoPtr
 <

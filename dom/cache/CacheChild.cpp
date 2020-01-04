@@ -254,7 +254,7 @@ SendPCacheOpConstructor
 new
 CacheOpChild
 (
-GetFeature
+GetWorkerHolder
 (
 )
 aGlobal
@@ -400,7 +400,7 @@ mListener
 )
 ;
 }
-RemoveFeature
+RemoveWorkerHolder
 (
 )
 ;

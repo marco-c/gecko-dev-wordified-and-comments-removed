@@ -475,7 +475,7 @@ CloseAllReadStreamsWithoutReporting
 (
 )
 ;
-RemoveFeature
+RemoveWorkerHolder
 (
 )
 ;

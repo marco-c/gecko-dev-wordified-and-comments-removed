@@ -11,6 +11,13 @@ mozIStorageConnection
 .
 h
 "
+#
+include
+"
+nsCOMPtr
+.
+h
+"
 namespace
 mozilla
 {

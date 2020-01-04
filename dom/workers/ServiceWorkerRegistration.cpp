@@ -3258,7 +3258,7 @@ final
 public
 ServiceWorkerRegistration
 public
-WorkerFeature
+WorkerHolder
 {
 public
 :
@@ -4305,12 +4305,9 @@ this
 if
 (
 !
-worker
--
->
-AddFeature
+HoldWorker
 (
-this
+worker
 )
 )
 {
@@ -4489,12 +4486,8 @@ AssertIsOnWorkerThread
 (
 )
 ;
-mWorkerPrivate
--
->
-RemoveFeature
+ReleaseWorker
 (
-this
 )
 ;
 mListener

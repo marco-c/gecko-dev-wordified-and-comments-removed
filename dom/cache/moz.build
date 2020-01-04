@@ -174,6 +174,11 @@ CacheStreamControlParent
 h
 '
 '
+CacheWorkerHolder
+.
+h
+'
+'
 Connection
 .
 h
@@ -190,11 +195,6 @@ h
 '
 '
 DBSchema
-.
-h
-'
-'
-Feature
 .
 h
 '
@@ -329,6 +329,11 @@ CacheStreamControlParent
 cpp
 '
 '
+CacheWorkerHolder
+.
+cpp
+'
+'
 Connection
 .
 cpp
@@ -345,11 +350,6 @@ cpp
 '
 '
 DBSchema
-.
-cpp
-'
-'
-Feature
 .
 cpp
 '
