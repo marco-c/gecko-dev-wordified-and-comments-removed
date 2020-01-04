@@ -832,6 +832,9 @@ struct
 RTPVideoHeaderH264
 {
 bool
+packetization_mode
+;
+bool
 stap_a
 ;
 bool

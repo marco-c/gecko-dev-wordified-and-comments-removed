@@ -593,6 +593,8 @@ FrameType
 frame_type
 size_t
 max_payload_len
+uint8_t
+packetization_mode
 )
 :
 payload_data_
@@ -610,6 +612,10 @@ max_payload_len
 frame_type_
 (
 frame_type
+)
+packetization_mode_
+(
+packetization_mode
 )
 {
 }
@@ -723,6 +729,12 @@ if
 fragment_length
 >
 max_payload_len_
+|
+|
+packetization_mode_
+=
+=
+0
 )
 {
 PacketizeFuA
