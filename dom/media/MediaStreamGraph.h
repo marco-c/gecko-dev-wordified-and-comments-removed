@@ -295,6 +295,15 @@ const
 MediaSegment
 &
 aQueuedMedia
+MediaStream
+*
+aInputStream
+=
+nullptr
+TrackID
+aInputTrackID
+=
+TRACK_INVALID
 )
 {
 }
