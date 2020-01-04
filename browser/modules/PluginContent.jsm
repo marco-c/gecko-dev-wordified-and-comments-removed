@@ -2183,7 +2183,7 @@ this
 _showClickToPlayNotification
 (
 pluginTag
-true
+false
 )
 ;
 }
