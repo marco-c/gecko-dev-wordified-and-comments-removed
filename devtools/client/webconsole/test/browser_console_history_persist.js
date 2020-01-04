@@ -904,9 +904,11 @@ VK_UP
 ;
 is
 (
-inputNode
+jsterm
 .
-value
+getInputValue
+(
+)
 i
 "
 Pressing
