@@ -7225,16 +7225,6 @@ NYI
 ;
 }
 void
-buildFakeExitFrame
-(
-Register
-scratch
-uint32_t
-*
-offset
-)
-;
-void
 add32
 (
 Register

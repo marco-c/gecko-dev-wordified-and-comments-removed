@@ -8684,16 +8684,6 @@ dest
 ;
 }
 void
-buildFakeExitFrame
-(
-Register
-scratch
-uint32_t
-*
-offset
-)
-;
-void
 callAndPushReturnAddress
 (
 Label

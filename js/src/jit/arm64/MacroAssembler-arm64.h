@@ -19951,16 +19951,6 @@ label
 )
 ;
 void
-buildFakeExitFrame
-(
-Register
-scratch
-uint32_t
-*
-offset
-)
-;
-void
 appendCallSite
 (
 const
