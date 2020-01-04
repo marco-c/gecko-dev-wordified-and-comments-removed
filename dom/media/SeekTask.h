@@ -125,9 +125,6 @@ aDecoderID
 AbstractThread
 *
 aThread
-MediaDecoderReader
-*
-aReader
 MediaDecoderReaderWrapper
 *
 aReaderWrapper
@@ -201,9 +198,6 @@ aDecoderID
 AbstractThread
 *
 aThread
-MediaDecoderReader
-*
-aReader
 MediaDecoderReaderWrapper
 *
 aReaderWrapper
@@ -428,13 +422,6 @@ RefPtr
 AbstractThread
 >
 mOwnerThread
-;
-const
-RefPtr
-<
-MediaDecoderReader
->
-mReader
 ;
 const
 RefPtr
