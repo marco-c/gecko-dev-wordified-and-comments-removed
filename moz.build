@@ -172,6 +172,9 @@ config
 '
 python
 '
+'
+testing
+'
 ]
 if
 not
