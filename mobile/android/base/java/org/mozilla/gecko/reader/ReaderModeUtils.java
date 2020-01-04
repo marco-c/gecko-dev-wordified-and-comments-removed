@@ -48,7 +48,7 @@ LOGTAG
 ReaderModeUtils
 "
 ;
-public
+private
 static
 String
 getUrlFromAboutReader
