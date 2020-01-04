@@ -197,7 +197,11 @@ enumerate
 (
 fp
 .
-readlines
+read
+(
+)
+.
+splitlines
 (
 )
 start
