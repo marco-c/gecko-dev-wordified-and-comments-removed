@@ -926,7 +926,6 @@ recordingAbsoluteDuration
 function
 stopRecord
 (
-Handle
 )
 {
 recordingAbsoluteDuration
@@ -1332,7 +1331,6 @@ intervals
 =
 stopRecord
 (
-recordingHandle
 )
 ;
 if
