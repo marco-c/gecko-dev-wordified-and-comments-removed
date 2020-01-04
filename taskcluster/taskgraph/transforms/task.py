@@ -55,6 +55,12 @@ annotations
 "
 "
 from
+__future__
+import
+absolute_import
+print_function
+unicode_literals
+from
 taskgraph
 .
 util
@@ -109,21 +115,30 @@ Schema
 (
 {
     
+Required
+(
 '
 label
 '
+)
 :
 basestring
     
+Required
+(
 '
 description
 '
+)
 :
 basestring
     
+Optional
+(
 '
 attributes
 '
+)
 :
 {
 basestring
@@ -131,9 +146,12 @@ basestring
 object
 }
     
+Optional
+(
 '
 dependencies
 '
+)
 :
 {
 basestring
@@ -141,41 +159,56 @@ basestring
 object
 }
     
+Optional
+(
 '
 expires
 -
 after
 '
+)
 :
 basestring
     
+Optional
+(
 '
 deadline
 -
 after
 '
+)
 :
 basestring
     
+Optional
+(
 '
 routes
 '
+)
 :
 [
 basestring
 ]
     
+Optional
+(
 '
 scopes
 '
+)
 :
 [
 basestring
 ]
     
+Optional
+(
 '
 extra
 '
+)
 :
 {
 basestring
@@ -183,9 +216,12 @@ basestring
 object
 }
     
+Optional
+(
 '
 treeherder
 '
+)
 :
 {
         
@@ -268,9 +304,12 @@ Any
 (
 {
         
+Required
+(
 '
 implementation
 '
+)
 :
 Any
 (
@@ -301,6 +340,20 @@ Required
 (
 '
 relengapi
+-
+proxy
+'
+default
+=
+False
+)
+:
+bool
+        
+Required
+(
+'
+taskcluster
 -
 proxy
 '
@@ -353,9 +406,23 @@ False
 :
 bool
         
+Optional
+(
+'
+superseder
+-
+url
+'
+)
+:
+basestring
+        
+Optional
+(
 '
 caches
 '
+)
 :
 [
 {
@@ -385,9 +452,12 @@ basestring
 }
 ]
         
+Optional
+(
 '
 artifacts
 '
+)
 :
 [
 {
@@ -421,9 +491,16 @@ basestring
 }
 ]
         
+Required
+(
 '
 env
 '
+default
+=
+{
+}
+)
 :
 {
 basestring
@@ -452,9 +529,12 @@ int
 }
 {
         
+Required
+(
 '
 implementation
 '
+)
 :
 '
 generic
@@ -470,9 +550,12 @@ command
 basestring
 ]
         
+Optional
+(
 '
 artifacts
 '
+)
 :
 [
 {
@@ -500,9 +583,16 @@ basestring
 }
 ]
         
+Required
+(
 '
 env
 '
+default
+=
+{
+}
+)
 :
 {
 basestring
@@ -523,9 +613,12 @@ int
 }
 {
         
+Required
+(
 '
 implementation
 '
+)
 :
 '
 buildbot
@@ -1648,30 +1741,57 @@ split
 routes
 =
 task
-[
+.
+get
+(
 '
 routes
 '
+[
 ]
+)
         
 scopes
 =
 task
-[
+.
+get
+(
 '
 scopes
 '
+[
 ]
+)
         
 extra
 =
 task
-[
+.
+get
+(
 '
 extra
 '
-]
+{
+}
+)
         
+task_th
+=
+task
+.
+get
+(
+'
+treeherder
+'
+)
+        
+if
+task_th
+:
+            
 extra
 [
 '
@@ -1679,27 +1799,13 @@ treeherderEnv
 '
 ]
 =
-task
-[
-'
-treeherder
-'
-]
+task_th
 [
 '
 environments
 '
 ]
-        
-task_th
-=
-task
-[
-'
-treeherder
-'
-]
-        
+            
 treeherder
 =
 extra
@@ -1712,7 +1818,7 @@ treeherder
 {
 }
 )
-        
+            
 machine_platform
 collection
 =
@@ -1730,7 +1836,7 @@ split
 '
 1
 )
-        
+            
 treeherder
 [
 '
@@ -1745,7 +1851,7 @@ platform
 :
 machine_platform
 }
-        
+            
 treeherder
 [
 '
@@ -1758,7 +1864,7 @@ collection
 :
 True
 }
-        
+            
 groupSymbol
 symbol
 =
@@ -1771,15 +1877,6 @@ symbol
 '
 ]
 )
-        
-if
-groupSymbol
-!
-=
-'
-?
-'
-:
             
 treeherder
 [
@@ -1819,7 +1916,7 @@ GROUP_NAMES
 [
 groupSymbol
 ]
-        
+            
 treeherder
 [
 '
@@ -1828,7 +1925,7 @@ symbol
 ]
 =
 symbol
-        
+            
 treeherder
 [
 '
@@ -1842,7 +1939,7 @@ task_th
 kind
 '
 ]
-        
+            
 treeherder
 [
 '
@@ -1856,13 +1953,13 @@ task_th
 tier
 '
 ]
-        
+            
 routes
 .
 extend
 (
 [
-            
+                
 '
 {
 }
@@ -1882,7 +1979,7 @@ v2
 format
 (
 root
-                                    
+                                        
 config
 .
 params
@@ -1891,7 +1988,7 @@ params
 project
 '
 ]
-                                    
+                                        
 config
 .
 params
@@ -1900,7 +1997,7 @@ params
 head_rev
 '
 ]
-                                    
+                                        
 config
 .
 params
@@ -1910,7 +2007,7 @@ pushlog_id
 '
 ]
 )
-            
+                
 for
 root
 in
@@ -1926,7 +2023,7 @@ treeherder
 -
 stage
 '
-        
+            
 ]
 )
         

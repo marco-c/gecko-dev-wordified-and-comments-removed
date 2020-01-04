@@ -614,7 +614,7 @@ taskgraph
 /
 transforms
 /
-make_task
+task
 .
 py
 implement
@@ -647,7 +647,7 @@ at
 the
 top
 of
-make_task
+task
 .
 py
 with
@@ -1066,7 +1066,7 @@ taskgraph
 .
 transforms
 .
-make_task
+task
 :
 transforms
 described
