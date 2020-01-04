@@ -166,6 +166,15 @@ type
 DecoderType
 :
 :
+ICON
+|
+|
+type
+=
+=
+DecoderType
+:
+:
 PNG
 |
 |
