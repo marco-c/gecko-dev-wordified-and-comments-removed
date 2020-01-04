@@ -38052,6 +38052,13 @@ UnregisterPrefChangeCallbacks
 (
 )
 ;
+nsStyleQuotes
+:
+:
+Shutdown
+(
+)
+;
 }
 void
 nsLayoutUtils
