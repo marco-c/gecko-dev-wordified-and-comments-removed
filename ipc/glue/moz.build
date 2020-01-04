@@ -360,6 +360,7 @@ cpp
 '
 ]
 elif
+not
 CONFIG
 [
 '
@@ -369,10 +370,10 @@ OS_ARCH
 in
 (
 '
-Linux
+NetBSD
 '
 '
-Darwin
+OpenBSD
 '
 )
 :
