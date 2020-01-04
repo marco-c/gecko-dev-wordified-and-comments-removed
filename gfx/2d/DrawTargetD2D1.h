@@ -1331,6 +1331,9 @@ mDependingOnTargets
 uint32_t
 mUsedCommandListsSincePurge
 ;
+bool
+mDidComplexBlendWithListInList
+;
 static
 ID2D1Factory1
 *
