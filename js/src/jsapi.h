@@ -18904,6 +18904,11 @@ species
 \
 macro
 (
+hasInstance
+)
+\
+macro
+(
 split
 )
 \

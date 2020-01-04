@@ -21,6 +21,9 @@ search
 species
 "
 "
+hasInstance
+"
+"
 split
 "
 "
