@@ -197,7 +197,7 @@ aLists
 override
 ;
 DrawResult
-PaintBorder
+PaintBorderBackground
 (
 nsDisplayListBuilder
 *
