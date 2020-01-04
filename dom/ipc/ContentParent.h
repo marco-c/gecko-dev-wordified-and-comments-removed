@@ -3955,13 +3955,6 @@ PFileDescriptorSetParent
 override
 ;
 virtual
-bool
-RecvFlushPendingFileDeletions
-(
-)
-override
-;
-virtual
 PWebrtcGlobalParent
 *
 AllocPWebrtcGlobalParent
