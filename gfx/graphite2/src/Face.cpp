@@ -1346,6 +1346,7 @@ if
 (
 gid
 >
+=
 glyphs
 (
 )
