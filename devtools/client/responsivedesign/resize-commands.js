@@ -513,6 +513,7 @@ gcli_cmd_resize
 ]
 ;
 function
+*
 gcli_cmd_resize
 (
 args
@@ -537,6 +538,7 @@ ResponsiveUI
 .
 ResponsiveUIManager
 ;
+yield
 mgr
 .
 handleGcliCommand

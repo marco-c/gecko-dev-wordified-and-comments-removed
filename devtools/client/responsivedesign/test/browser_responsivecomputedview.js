@@ -144,6 +144,7 @@ start
 let
 {
 rdm
+manager
 }
 =
 yield
@@ -151,10 +152,11 @@ openRDM
 (
 )
 ;
-rdm
-.
+yield
 setSize
 (
+rdm
+manager
 500
 500
 )
@@ -217,6 +219,7 @@ testShrink
 view
 inspector
 rdm
+manager
 )
 ;
 info
@@ -240,6 +243,7 @@ testGrow
 view
 inspector
 rdm
+manager
 )
 ;
 yield
@@ -263,6 +267,7 @@ testShrink
 computedView
 inspector
 rdm
+manager
 )
 {
 is
@@ -299,10 +304,11 @@ refreshed
 "
 )
 ;
-rdm
-.
+yield
 setSize
 (
+rdm
+manager
 100
 100
 )
@@ -337,6 +343,7 @@ testGrow
 computedView
 inspector
 rdm
+manager
 )
 {
 let
@@ -355,10 +362,11 @@ refreshed
 "
 )
 ;
-rdm
-.
+yield
 setSize
 (
+rdm
+manager
 500
 500
 )

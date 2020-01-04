@@ -144,6 +144,7 @@ start
 let
 {
 rdm
+manager
 }
 =
 yield
@@ -151,10 +152,11 @@ openRDM
 (
 )
 ;
-rdm
-.
+yield
 setSize
 (
+rdm
+manager
 500
 500
 )
@@ -216,6 +218,7 @@ testShrink
 (
 view
 rdm
+manager
 )
 ;
 info
@@ -238,6 +241,7 @@ testGrow
 (
 view
 rdm
+manager
 )
 ;
 info
@@ -309,6 +313,7 @@ testShrink
 (
 ruleView
 rdm
+manager
 )
 {
 is
@@ -360,10 +365,11 @@ refreshed
 "
 )
 ;
-rdm
-.
+yield
 setSize
 (
+rdm
+manager
 100
 100
 )
@@ -396,6 +402,7 @@ testGrow
 (
 ruleView
 rdm
+manager
 )
 {
 info
@@ -430,10 +437,11 @@ refreshed
 "
 )
 ;
-rdm
-.
+yield
 setSize
 (
+rdm
+manager
 500
 500
 )

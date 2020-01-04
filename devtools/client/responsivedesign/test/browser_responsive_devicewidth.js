@@ -26,6 +26,7 @@ logo
 let
 {
 rdm
+manager
 }
 =
 yield
@@ -53,10 +54,11 @@ tab
 "
 )
 ;
-rdm
-.
+yield
 setSize
 (
+rdm
+manager
 110
 500
 )
@@ -89,10 +91,11 @@ size
 "
 )
 ;
-rdm
-.
+yield
 setSize
 (
+rdm
+manager
 90
 500
 )
