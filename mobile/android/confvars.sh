@@ -438,6 +438,7 @@ APK
 by
 default
 .
+#
 MOZ_ANDROID_PACKAGE_INSTALL_BOUNCER
 =
 1
