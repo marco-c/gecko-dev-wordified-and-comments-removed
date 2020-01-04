@@ -5694,6 +5694,9 @@ card
 -
 1
 ;
+#
+ifdef
+WEBRTC_LINUX
 while
 (
 !
@@ -5720,6 +5723,8 @@ card
 keepSearching
 )
 {
+#
+endif
 void
 *
 *
@@ -6322,7 +6327,12 @@ err
 )
 ;
 }
+#
+ifdef
+WEBRTC_LINUX
 }
+#
+endif
 if
 (
 FUNC_GET_NUM_OF_DEVICE
