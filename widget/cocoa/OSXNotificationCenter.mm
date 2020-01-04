@@ -2274,6 +2274,9 @@ mObserver
 {
 switch
 (
+(
+int
+)
 aActivationType
 )
 {
