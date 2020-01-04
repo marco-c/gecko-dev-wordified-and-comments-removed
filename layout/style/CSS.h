@@ -100,9 +100,6 @@ aIdent
 nsAString
 &
 aReturn
-ErrorResult
-&
-aRv
 )
 ;
 }
