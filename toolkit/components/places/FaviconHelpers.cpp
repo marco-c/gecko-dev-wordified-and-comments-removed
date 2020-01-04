@@ -2332,6 +2332,10 @@ cb
 >
 OnRedirectVerifyCallback
 (
+mCanceled
+?
+NS_BINDING_ABORTED
+:
 NS_OK
 )
 ;
