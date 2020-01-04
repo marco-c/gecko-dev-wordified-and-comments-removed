@@ -692,6 +692,12 @@ devicestorage
 /
 dom
 /
+events
+'
+'
+/
+dom
+/
 filesystem
 '
 '
