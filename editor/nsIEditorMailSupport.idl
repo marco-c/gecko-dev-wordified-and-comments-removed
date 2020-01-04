@@ -101,7 +101,7 @@ nsISupports
 idl
 "
 interface
-nsISupportsArray
+nsIArray
 ;
 interface
 nsIDOMNode
@@ -550,7 +550,7 @@ document
 .
 *
 /
-nsISupportsArray
+nsIArray
 getEmbeddedObjects
 (
 )
