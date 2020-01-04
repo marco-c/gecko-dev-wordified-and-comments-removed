@@ -1144,6 +1144,9 @@ WasmInstanceObject
 DebuggerSourceReferent
 ;
 class
+DebuggerObject
+;
+class
 Debugger
 :
 private
@@ -4074,8 +4077,14 @@ wrapDebuggeeObject
 JSContext
 *
 cx
-MutableHandleObject
+HandleObject
 obj
+MutableHandle
+<
+DebuggerObject
+*
+>
+result
 )
 ;
 MOZ_MUST_USE
