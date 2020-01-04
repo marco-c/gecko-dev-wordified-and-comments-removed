@@ -739,7 +739,7 @@ MediaStream
 *
 aOwningStream
 TrackID
-aTrackID
+aInputTrackID
 )
 const
 ;
@@ -751,7 +751,7 @@ MediaStream
 *
 aOwningStream
 TrackID
-aTrackID
+aInputTrackID
 )
 const
 ;
