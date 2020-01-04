@@ -139,7 +139,7 @@ OverscrollHandoffChain
 &
 aOverscrollHandoffChain
 bool
-aApplyAcceleration
+aFlingIsHandedOff
 const
 RefPtr
 <
@@ -256,9 +256,15 @@ GetVelocityVector
 (
 )
 ;
+bool
+applyAcceleration
+=
+!
+aFlingIsHandedOff
+;
 if
 (
-aApplyAcceleration
+applyAcceleration
 &
 &
 !

@@ -10470,7 +10470,6 @@ this
 aHandoffState
 .
 mChain
-!
 aHandoffState
 .
 mIsHandoff
