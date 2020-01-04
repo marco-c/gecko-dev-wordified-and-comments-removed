@@ -298,6 +298,11 @@ take
 )
 )
 {
+MOZ_COUNT_CTOR
+(
+OwningStyleContextSource
+)
+;
 MOZ_ASSERT
 (
 !
@@ -329,6 +334,11 @@ take
 )
 )
 {
+MOZ_COUNT_CTOR
+(
+OwningStyleContextSource
+)
+;
 MOZ_ASSERT
 (
 !
@@ -355,6 +365,11 @@ aOther
 mRaw
 )
 {
+MOZ_COUNT_CTOR
+(
+OwningStyleContextSource
+)
+;
 aOther
 .
 mRaw
@@ -386,6 +401,11 @@ OwningStyleContextSource
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+OwningStyleContextSource
+)
+;
 if
 (
 mRaw
