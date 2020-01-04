@@ -5857,6 +5857,8 @@ AudioDataValue
 aBuffer
 size_t
 aFrames
+TrackRate
+aRate
 uint32_t
 aChannels
 )
@@ -5878,6 +5880,7 @@ NotifyOutputData
 this
 aBuffer
 aFrames
+aRate
 aChannels
 )
 ;
