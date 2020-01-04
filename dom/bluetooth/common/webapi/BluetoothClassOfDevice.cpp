@@ -145,7 +145,7 @@ Reset
 {
 mMajorServiceClass
 =
-0x1
+0
 ;
 mMajorDeviceClass
 =

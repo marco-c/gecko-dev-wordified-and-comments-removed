@@ -687,7 +687,7 @@ cod
 bool
 isInvalid
 =
-IS_INVALID_COD
+IS_INVALID
 (
 mTarget
 .
@@ -722,16 +722,6 @@ Get
 AddProfile
 (
 BluetoothAvrcpManager
-:
-:
-Get
-(
-)
-)
-;
-AddProfile
-(
-BluetoothHidManager
 :
 :
 Get
