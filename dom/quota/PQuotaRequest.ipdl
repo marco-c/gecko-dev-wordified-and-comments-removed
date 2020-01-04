@@ -75,7 +75,7 @@ ClearOriginResponse
 }
 ;
 struct
-ClearAppResponse
+ClearOriginsResponse
 {
 }
 ;
@@ -96,7 +96,7 @@ nsresult
 ;
 ClearOriginResponse
 ;
-ClearAppResponse
+ClearOriginsResponse
 ;
 ClearAllResponse
 ;

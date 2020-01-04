@@ -147,13 +147,10 @@ persistenceTypeIsExplicit
 }
 ;
 struct
-ClearAppParams
+ClearOriginsParams
 {
-uint32_t
-appId
-;
-bool
-browserOnly
+nsString
+pattern
 ;
 }
 ;
@@ -172,7 +169,7 @@ RequestParams
 {
 ClearOriginParams
 ;
-ClearAppParams
+ClearOriginsParams
 ;
 ClearAllParams
 ;
