@@ -9620,6 +9620,9 @@ nsIMessageBroadcaster
 >
 mGroupMessageManagers
 ;
+nsWeakPtr
+mFullscreenPresShell
+;
 }
 ;
 class
