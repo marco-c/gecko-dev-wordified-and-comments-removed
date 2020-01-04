@@ -50,7 +50,7 @@ dom
 workers
 :
 :
-Canceling
+Terminating
 ;
 using
 mozilla
@@ -276,7 +276,7 @@ if
 (
 aStatus
 <
-Canceling
+Terminating
 |
 |
 mNotified
