@@ -58582,7 +58582,7 @@ nsContentUtils
 :
 eLAYOUT_PROPERTIES
 "
-ScrollLinkedEffectFound
+ScrollLinkedEffectFound2
 "
 )
 ;
