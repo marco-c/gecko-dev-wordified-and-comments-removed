@@ -4233,6 +4233,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineRegExpSearcher
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineRegExpTester
 (
 CallInfo
