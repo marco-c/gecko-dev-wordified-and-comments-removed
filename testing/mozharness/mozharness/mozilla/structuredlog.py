@@ -926,7 +926,10 @@ TinderboxPrint
 :
 %
 s
-:
+<
+br
+/
+>
 %
 s
 \
