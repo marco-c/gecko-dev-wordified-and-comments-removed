@@ -2176,9 +2176,10 @@ addEventListener
 "
 popupshown
 "
-function
 (
 )
+=
+>
 doTitledPanelTest
 (
 panel
@@ -2193,9 +2194,10 @@ addEventListener
 "
 popuphidden
 "
-function
 (
 )
+=
+>
 done
 (
 panelwindow

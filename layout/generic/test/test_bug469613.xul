@@ -766,9 +766,10 @@ waitForExplicitFinish
 ;
 addLoadEvent
 (
-function
 (
 )
+=
+>
 setTimeout
 (
 doTest
