@@ -1873,7 +1873,7 @@ Clear
 }
 keyEvent
 .
-alternativeCharCodes
+mAlternativeCharCodes
 .
 Clear
 (

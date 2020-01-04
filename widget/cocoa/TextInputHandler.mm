@@ -7127,7 +7127,7 @@ shiftedChar
 ;
 aKeyEvent
 .
-alternativeCharCodes
+mAlternativeCharCodes
 .
 AppendElement
 (
@@ -7706,7 +7706,7 @@ cmdedShiftChar
 ;
 aKeyEvent
 .
-alternativeCharCodes
+mAlternativeCharCodes
 .
 AppendElement
 (
@@ -7818,7 +7818,7 @@ originalCmdedShiftChar
 ;
 aKeyEvent
 .
-alternativeCharCodes
+mAlternativeCharCodes
 .
 AppendElement
 (

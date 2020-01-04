@@ -10045,7 +10045,7 @@ altArray
 =
 aKeyboardEvent
 .
-alternativeCharCodes
+mAlternativeCharCodes
 ;
 uint16_t
 shiftedChar
