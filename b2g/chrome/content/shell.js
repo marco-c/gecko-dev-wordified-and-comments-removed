@@ -4214,6 +4214,7 @@ scheduleUpdate
 (
 manifestURI
 documentURI
+principal
 window
 )
 ;
