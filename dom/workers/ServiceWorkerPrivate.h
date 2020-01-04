@@ -56,6 +56,9 @@ aResult
 class
 ServiceWorkerPrivate
 final
+:
+public
+nsISupports
 {
 friend
 class
@@ -63,10 +66,7 @@ KeepAliveToken
 ;
 public
 :
-NS_INLINE_DECL_REFCOUNTING
-(
-ServiceWorkerPrivate
-)
+NS_DECL_ISUPPORTS
 explicit
 ServiceWorkerPrivate
 (
