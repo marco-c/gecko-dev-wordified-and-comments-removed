@@ -368,8 +368,6 @@ JSContext
 cx
 size_t
 length
-HandleObject
-proto
 )
 ;
 enum
@@ -423,10 +421,6 @@ Value
 vp
 size_t
 length
-HandleObject
-proto
-=
-nullptr
 )
 ;
 extern

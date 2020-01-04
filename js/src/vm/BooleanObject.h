@@ -61,10 +61,6 @@ JSContext
 cx
 bool
 b
-HandleObject
-proto
-=
-nullptr
 )
 ;
 bool

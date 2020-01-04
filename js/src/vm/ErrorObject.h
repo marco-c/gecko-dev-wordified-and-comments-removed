@@ -334,10 +334,6 @@ JSErrorReport
 report
 HandleString
 message
-HandleObject
-proto
-=
-nullptr
 )
 ;
 static

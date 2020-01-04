@@ -75,10 +75,6 @@ JSContext
 cx
 HandleString
 str
-HandleObject
-proto
-=
-nullptr
 NewObjectKind
 newKind
 =
