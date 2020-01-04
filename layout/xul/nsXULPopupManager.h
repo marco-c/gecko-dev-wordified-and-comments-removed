@@ -1188,6 +1188,16 @@ aDocShellToHide
 )
 ;
 void
+EnableRollup
+(
+nsIContent
+*
+aPopup
+bool
+aShouldRollup
+)
+;
+void
 ExecuteMenu
 (
 nsIContent
