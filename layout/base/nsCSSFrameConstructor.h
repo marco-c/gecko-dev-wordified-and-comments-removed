@@ -166,6 +166,13 @@ mozilla
 :
 RestyleManagerBase
 ;
+friend
+class
+mozilla
+:
+:
+ServoRestyleManager
+;
 nsCSSFrameConstructor
 (
 nsIDocument

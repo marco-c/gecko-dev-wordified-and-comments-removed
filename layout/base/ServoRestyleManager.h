@@ -107,6 +107,10 @@ ServoStyleSet
 ;
 public
 :
+typedef
+RestyleManagerBase
+base_type
+;
 NS_INLINE_DECL_REFCOUNTING
 (
 ServoRestyleManager
@@ -326,7 +330,6 @@ ServoElementSnapshot
 >
 mModifiedElements
 ;
-static
 void
 RecreateStyleContexts
 (
@@ -339,6 +342,9 @@ aParentContext
 ServoStyleSet
 *
 aStyleSet
+nsStyleChangeList
+&
+aChangeList
 )
 ;
 static

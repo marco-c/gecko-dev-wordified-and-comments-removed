@@ -396,7 +396,7 @@ nsChangeHint
 #
 ifdef
 DEBUG
-mHasStoredChangeHint
+mConsumedChangeHint
 (
 false
 )
@@ -2073,17 +2073,6 @@ bool
 aRelevantLinkVisited
 )
 {
-#
-ifdef
-MOZ_STYLO
-MOZ_ASSERT
-(
-!
-mHasStoredChangeHint
-)
-;
-#
-endif
 uint32_t
 threshold
 =
@@ -5817,9 +5806,6 @@ aSamePointerStructs
 )
 ;
 }
-#
-ifdef
-MOZ_STYLO
 class
 MOZ_STACK_CLASS
 FakeStyleContext
@@ -5957,8 +5943,6 @@ aSamePointerStructs
 )
 ;
 }
-#
-endif
 #
 ifdef
 DEBUG
