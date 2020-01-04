@@ -2386,6 +2386,11 @@ append
 return
 false
 ;
+bool
+success
+=
+false
+;
 switch
 (
 expr
@@ -2397,6 +2402,8 @@ Expr
 :
 I32Clz
 :
+success
+=
 c
 .
 buffer
@@ -2418,6 +2425,8 @@ Expr
 :
 I32Ctz
 :
+success
+=
 c
 .
 buffer
@@ -2439,6 +2448,8 @@ Expr
 :
 I32Popcnt
 :
+success
+=
 c
 .
 buffer
@@ -2460,6 +2471,8 @@ Expr
 :
 I64Clz
 :
+success
+=
 c
 .
 buffer
@@ -2481,6 +2494,8 @@ Expr
 :
 I64Ctz
 :
+success
+=
 c
 .
 buffer
@@ -2502,6 +2517,8 @@ Expr
 :
 I64Popcnt
 :
+success
+=
 c
 .
 buffer
@@ -2523,6 +2540,8 @@ Expr
 :
 F32Abs
 :
+success
+=
 c
 .
 buffer
@@ -2544,6 +2563,8 @@ Expr
 :
 F32Neg
 :
+success
+=
 c
 .
 buffer
@@ -2565,6 +2586,8 @@ Expr
 :
 F32Ceil
 :
+success
+=
 c
 .
 buffer
@@ -2586,6 +2609,8 @@ Expr
 :
 F32Floor
 :
+success
+=
 c
 .
 buffer
@@ -2607,6 +2632,8 @@ Expr
 :
 F32Sqrt
 :
+success
+=
 c
 .
 buffer
@@ -2628,6 +2655,8 @@ Expr
 :
 F32Trunc
 :
+success
+=
 c
 .
 buffer
@@ -2649,6 +2678,8 @@ Expr
 :
 F32Nearest
 :
+success
+=
 c
 .
 buffer
@@ -2670,6 +2701,8 @@ Expr
 :
 F64Abs
 :
+success
+=
 c
 .
 buffer
@@ -2691,6 +2724,8 @@ Expr
 :
 F64Neg
 :
+success
+=
 c
 .
 buffer
@@ -2712,6 +2747,8 @@ Expr
 :
 F64Ceil
 :
+success
+=
 c
 .
 buffer
@@ -2733,6 +2770,8 @@ Expr
 :
 F64Floor
 :
+success
+=
 c
 .
 buffer
@@ -2754,6 +2793,8 @@ Expr
 :
 F64Sqrt
 :
+success
+=
 c
 .
 buffer
@@ -2775,6 +2816,14 @@ return
 false
 ;
 }
+if
+(
+!
+success
+)
+return
+false
+;
 if
 (
 !
@@ -2853,6 +2902,11 @@ append
 return
 false
 ;
+bool
+success
+=
+false
+;
 switch
 (
 expr
@@ -2864,6 +2918,8 @@ Expr
 :
 I32Add
 :
+success
+=
 c
 .
 buffer
@@ -2885,6 +2941,8 @@ Expr
 :
 I32Sub
 :
+success
+=
 c
 .
 buffer
@@ -2906,6 +2964,8 @@ Expr
 :
 I32Mul
 :
+success
+=
 c
 .
 buffer
@@ -2927,6 +2987,8 @@ Expr
 :
 I32DivS
 :
+success
+=
 c
 .
 buffer
@@ -2948,6 +3010,8 @@ Expr
 :
 I32DivU
 :
+success
+=
 c
 .
 buffer
@@ -2969,6 +3033,8 @@ Expr
 :
 I32RemS
 :
+success
+=
 c
 .
 buffer
@@ -2990,6 +3056,8 @@ Expr
 :
 I32RemU
 :
+success
+=
 c
 .
 buffer
@@ -3011,6 +3079,8 @@ Expr
 :
 I32And
 :
+success
+=
 c
 .
 buffer
@@ -3032,6 +3102,8 @@ Expr
 :
 I32Or
 :
+success
+=
 c
 .
 buffer
@@ -3053,6 +3125,8 @@ Expr
 :
 I32Xor
 :
+success
+=
 c
 .
 buffer
@@ -3074,6 +3148,8 @@ Expr
 :
 I32Shl
 :
+success
+=
 c
 .
 buffer
@@ -3095,6 +3171,8 @@ Expr
 :
 I32ShrS
 :
+success
+=
 c
 .
 buffer
@@ -3116,6 +3194,8 @@ Expr
 :
 I32ShrU
 :
+success
+=
 c
 .
 buffer
@@ -3137,6 +3217,8 @@ Expr
 :
 I64Add
 :
+success
+=
 c
 .
 buffer
@@ -3158,6 +3240,8 @@ Expr
 :
 I64Sub
 :
+success
+=
 c
 .
 buffer
@@ -3179,6 +3263,8 @@ Expr
 :
 I64Mul
 :
+success
+=
 c
 .
 buffer
@@ -3200,6 +3286,8 @@ Expr
 :
 I64DivS
 :
+success
+=
 c
 .
 buffer
@@ -3221,6 +3309,8 @@ Expr
 :
 I64DivU
 :
+success
+=
 c
 .
 buffer
@@ -3242,6 +3332,8 @@ Expr
 :
 I64RemS
 :
+success
+=
 c
 .
 buffer
@@ -3263,6 +3355,8 @@ Expr
 :
 I64RemU
 :
+success
+=
 c
 .
 buffer
@@ -3284,6 +3378,8 @@ Expr
 :
 I64And
 :
+success
+=
 c
 .
 buffer
@@ -3305,6 +3401,8 @@ Expr
 :
 I64Or
 :
+success
+=
 c
 .
 buffer
@@ -3326,6 +3424,8 @@ Expr
 :
 I64Xor
 :
+success
+=
 c
 .
 buffer
@@ -3347,6 +3447,8 @@ Expr
 :
 I64Shl
 :
+success
+=
 c
 .
 buffer
@@ -3368,6 +3470,8 @@ Expr
 :
 I64ShrS
 :
+success
+=
 c
 .
 buffer
@@ -3389,6 +3493,8 @@ Expr
 :
 I64ShrU
 :
+success
+=
 c
 .
 buffer
@@ -3410,6 +3516,8 @@ Expr
 :
 F32Add
 :
+success
+=
 c
 .
 buffer
@@ -3431,6 +3539,8 @@ Expr
 :
 F32Sub
 :
+success
+=
 c
 .
 buffer
@@ -3452,6 +3562,8 @@ Expr
 :
 F32Mul
 :
+success
+=
 c
 .
 buffer
@@ -3473,6 +3585,8 @@ Expr
 :
 F32Div
 :
+success
+=
 c
 .
 buffer
@@ -3494,6 +3608,8 @@ Expr
 :
 F32Min
 :
+success
+=
 c
 .
 buffer
@@ -3515,6 +3631,8 @@ Expr
 :
 F32Max
 :
+success
+=
 c
 .
 buffer
@@ -3536,6 +3654,8 @@ Expr
 :
 F32CopySign
 :
+success
+=
 c
 .
 buffer
@@ -3557,6 +3677,8 @@ Expr
 :
 F64Add
 :
+success
+=
 c
 .
 buffer
@@ -3578,6 +3700,8 @@ Expr
 :
 F64Sub
 :
+success
+=
 c
 .
 buffer
@@ -3599,6 +3723,8 @@ Expr
 :
 F64Mul
 :
+success
+=
 c
 .
 buffer
@@ -3620,6 +3746,8 @@ Expr
 :
 F64Div
 :
+success
+=
 c
 .
 buffer
@@ -3641,6 +3769,8 @@ Expr
 :
 F64Min
 :
+success
+=
 c
 .
 buffer
@@ -3662,6 +3792,8 @@ Expr
 :
 F64Max
 :
+success
+=
 c
 .
 buffer
@@ -3683,6 +3815,14 @@ return
 false
 ;
 }
+if
+(
+!
+success
+)
+return
+false
+;
 if
 (
 !
@@ -3788,6 +3928,11 @@ append
 return
 false
 ;
+bool
+success
+=
+false
+;
 switch
 (
 expr
@@ -3799,6 +3944,8 @@ Expr
 :
 I32Eq
 :
+success
+=
 c
 .
 buffer
@@ -3820,6 +3967,8 @@ Expr
 :
 I32Ne
 :
+success
+=
 c
 .
 buffer
@@ -3841,6 +3990,8 @@ Expr
 :
 I32LtS
 :
+success
+=
 c
 .
 buffer
@@ -3862,6 +4013,8 @@ Expr
 :
 I32LtU
 :
+success
+=
 c
 .
 buffer
@@ -3883,6 +4036,8 @@ Expr
 :
 I32LeS
 :
+success
+=
 c
 .
 buffer
@@ -3904,6 +4059,8 @@ Expr
 :
 I32LeU
 :
+success
+=
 c
 .
 buffer
@@ -3925,6 +4082,8 @@ Expr
 :
 I32GtS
 :
+success
+=
 c
 .
 buffer
@@ -3946,6 +4105,8 @@ Expr
 :
 I32GtU
 :
+success
+=
 c
 .
 buffer
@@ -3967,6 +4128,8 @@ Expr
 :
 I32GeS
 :
+success
+=
 c
 .
 buffer
@@ -3988,6 +4151,8 @@ Expr
 :
 I32GeU
 :
+success
+=
 c
 .
 buffer
@@ -4009,6 +4174,8 @@ Expr
 :
 I64Eq
 :
+success
+=
 c
 .
 buffer
@@ -4030,6 +4197,8 @@ Expr
 :
 I64Ne
 :
+success
+=
 c
 .
 buffer
@@ -4051,6 +4220,8 @@ Expr
 :
 I64LtS
 :
+success
+=
 c
 .
 buffer
@@ -4072,6 +4243,8 @@ Expr
 :
 I64LtU
 :
+success
+=
 c
 .
 buffer
@@ -4093,6 +4266,8 @@ Expr
 :
 I64LeS
 :
+success
+=
 c
 .
 buffer
@@ -4114,6 +4289,8 @@ Expr
 :
 I64LeU
 :
+success
+=
 c
 .
 buffer
@@ -4135,6 +4312,8 @@ Expr
 :
 I64GtS
 :
+success
+=
 c
 .
 buffer
@@ -4156,6 +4335,8 @@ Expr
 :
 I64GtU
 :
+success
+=
 c
 .
 buffer
@@ -4177,6 +4358,8 @@ Expr
 :
 I64GeS
 :
+success
+=
 c
 .
 buffer
@@ -4198,6 +4381,8 @@ Expr
 :
 I64GeU
 :
+success
+=
 c
 .
 buffer
@@ -4219,6 +4404,8 @@ Expr
 :
 F32Eq
 :
+success
+=
 c
 .
 buffer
@@ -4240,6 +4427,8 @@ Expr
 :
 F32Ne
 :
+success
+=
 c
 .
 buffer
@@ -4261,6 +4450,8 @@ Expr
 :
 F32Lt
 :
+success
+=
 c
 .
 buffer
@@ -4282,6 +4473,8 @@ Expr
 :
 F32Le
 :
+success
+=
 c
 .
 buffer
@@ -4303,6 +4496,8 @@ Expr
 :
 F32Gt
 :
+success
+=
 c
 .
 buffer
@@ -4324,6 +4519,8 @@ Expr
 :
 F32Ge
 :
+success
+=
 c
 .
 buffer
@@ -4345,6 +4542,8 @@ Expr
 :
 F64Eq
 :
+success
+=
 c
 .
 buffer
@@ -4366,6 +4565,8 @@ Expr
 :
 F64Ne
 :
+success
+=
 c
 .
 buffer
@@ -4387,6 +4588,8 @@ Expr
 :
 F64Lt
 :
+success
+=
 c
 .
 buffer
@@ -4408,6 +4611,8 @@ Expr
 :
 F64Le
 :
+success
+=
 c
 .
 buffer
@@ -4429,6 +4634,8 @@ Expr
 :
 F64Gt
 :
+success
+=
 c
 .
 buffer
@@ -4450,6 +4657,8 @@ Expr
 :
 F64Ge
 :
+success
+=
 c
 .
 buffer
@@ -4471,6 +4680,14 @@ return
 false
 ;
 }
+if
+(
+!
+success
+)
+return
+false
+;
 if
 (
 !
@@ -4578,6 +4795,11 @@ append
 return
 false
 ;
+bool
+success
+=
+false
+;
 switch
 (
 expr
@@ -4589,6 +4811,8 @@ Expr
 :
 I32WrapI64
 :
+success
+=
 c
 .
 buffer
@@ -4612,6 +4836,8 @@ Expr
 :
 I32TruncSF32
 :
+success
+=
 c
 .
 buffer
@@ -4635,6 +4861,8 @@ Expr
 :
 I32TruncUF32
 :
+success
+=
 c
 .
 buffer
@@ -4658,6 +4886,8 @@ Expr
 :
 I32ReinterpretF32
 :
+success
+=
 c
 .
 buffer
@@ -4681,6 +4911,8 @@ Expr
 :
 I32TruncSF64
 :
+success
+=
 c
 .
 buffer
@@ -4704,6 +4936,8 @@ Expr
 :
 I32TruncUF64
 :
+success
+=
 c
 .
 buffer
@@ -4727,6 +4961,8 @@ Expr
 :
 I64ExtendSI32
 :
+success
+=
 c
 .
 buffer
@@ -4750,6 +4986,8 @@ Expr
 :
 I64ExtendUI32
 :
+success
+=
 c
 .
 buffer
@@ -4773,6 +5011,8 @@ Expr
 :
 I64TruncSF32
 :
+success
+=
 c
 .
 buffer
@@ -4796,6 +5036,8 @@ Expr
 :
 I64TruncUF32
 :
+success
+=
 c
 .
 buffer
@@ -4819,6 +5061,8 @@ Expr
 :
 I64TruncSF64
 :
+success
+=
 c
 .
 buffer
@@ -4842,6 +5086,8 @@ Expr
 :
 I64TruncUF64
 :
+success
+=
 c
 .
 buffer
@@ -4865,6 +5111,8 @@ Expr
 :
 I64ReinterpretF64
 :
+success
+=
 c
 .
 buffer
@@ -4888,6 +5136,8 @@ Expr
 :
 F32ConvertSI32
 :
+success
+=
 c
 .
 buffer
@@ -4911,6 +5161,8 @@ Expr
 :
 F32ConvertUI32
 :
+success
+=
 c
 .
 buffer
@@ -4934,6 +5186,8 @@ Expr
 :
 F32ReinterpretI32
 :
+success
+=
 c
 .
 buffer
@@ -4957,6 +5211,8 @@ Expr
 :
 F32ConvertSI64
 :
+success
+=
 c
 .
 buffer
@@ -4980,6 +5236,8 @@ Expr
 :
 F32ConvertUI64
 :
+success
+=
 c
 .
 buffer
@@ -5003,6 +5261,8 @@ Expr
 :
 F32DemoteF64
 :
+success
+=
 c
 .
 buffer
@@ -5026,6 +5286,8 @@ Expr
 :
 F64ConvertSI32
 :
+success
+=
 c
 .
 buffer
@@ -5049,6 +5311,8 @@ Expr
 :
 F64ConvertUI32
 :
+success
+=
 c
 .
 buffer
@@ -5072,6 +5336,8 @@ Expr
 :
 F64ConvertSI64
 :
+success
+=
 c
 .
 buffer
@@ -5095,6 +5361,8 @@ Expr
 :
 F64ConvertUI64
 :
+success
+=
 c
 .
 buffer
@@ -5118,6 +5386,8 @@ Expr
 :
 F64ReinterpretI64
 :
+success
+=
 c
 .
 buffer
@@ -5141,6 +5411,8 @@ Expr
 :
 F64PromoteF32
 :
+success
+=
 c
 .
 buffer
@@ -5164,6 +5436,14 @@ return
 false
 ;
 }
+if
+(
+!
+success
+)
+return
+false
+;
 if
 (
 !
@@ -8385,6 +8665,9 @@ i
 +
 )
 {
+if
+(
+!
 c
 .
 buffer
@@ -8394,6 +8677,9 @@ append
 "
 "
 )
+)
+return
+false
 ;
 ValType
 arg
