@@ -396,6 +396,7 @@ aEffect
 )
 {
 }
+virtual
 void
 SetEffect
 (
