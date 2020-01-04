@@ -69,6 +69,9 @@ xbl
 -
 marquee
 /
+contentaccessible
+=
+yes
 content
 /
 xbl
