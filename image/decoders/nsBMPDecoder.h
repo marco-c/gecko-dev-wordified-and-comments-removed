@@ -366,7 +366,10 @@ mDoesHaveTransparency
 true
 ;
 }
-void
+Maybe
+<
+TerminalState
+>
 DoDecode
 (
 const

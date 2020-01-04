@@ -48,7 +48,10 @@ nsIconDecoder
 (
 )
 ;
-void
+Maybe
+<
+TerminalState
+>
 DoDecode
 (
 const

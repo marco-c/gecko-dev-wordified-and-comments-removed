@@ -54,7 +54,10 @@ nsGIFDecoder2
 (
 )
 ;
-void
+Maybe
+<
+TerminalState
+>
 DoDecode
 (
 const
