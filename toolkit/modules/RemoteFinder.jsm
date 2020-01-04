@@ -1718,7 +1718,7 @@ this
 .
 _finder
 .
-ModalHighlightChange
+onModalHighlightChange
 (
 data
 .
