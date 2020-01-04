@@ -1253,6 +1253,15 @@ mH2MandatorySuiteEnabled
 ;
 }
 bool
+NewTabContentSignaturesDisabled
+(
+)
+{
+return
+mNewTabContentSignaturesDisabled
+;
+}
+bool
 Active
 (
 )
@@ -1779,6 +1788,9 @@ nsCOMPtr
 nsISchedulingContextService
 >
 mSchedulingContextService
+;
+bool
+mNewTabContentSignaturesDisabled
 ;
 private
 :
