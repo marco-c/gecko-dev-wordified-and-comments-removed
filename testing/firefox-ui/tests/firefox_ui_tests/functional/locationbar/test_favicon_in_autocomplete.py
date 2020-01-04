@@ -33,6 +33,18 @@ suggest
 searches
 '
     
+PREF_SUGGEST_BOOKMARK
+=
+'
+browser
+.
+urlbar
+.
+suggest
+.
+bookmark
+'
+    
 def
 setUp
 (
@@ -56,6 +68,18 @@ set_pref
 self
 .
 PREF_SUGGEST_SEARCHES
+False
+)
+        
+self
+.
+prefs
+.
+set_pref
+(
+self
+.
+PREF_SUGGEST_BOOKMARK
 False
 )
         
