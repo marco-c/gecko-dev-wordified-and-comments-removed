@@ -1622,6 +1622,9 @@ ResetTextNodeDirection
 nsINode
 *
 aTextNode
+nsINode
+*
+aChangedTextNode
 )
 {
 MOZ_ASSERT
@@ -1648,7 +1651,7 @@ aTextNode
 >
 ResetAutoDirection
 (
-aTextNode
+aChangedTextNode
 )
 ;
 }
@@ -2113,6 +2116,7 @@ nsTextNodeDirectionalityMap
 ResetTextNodeDirection
 (
 child
+nullptr
 )
 ;
 nsTextNodeDirectionalityMap
@@ -2794,6 +2798,7 @@ nsTextNodeDirectionalityMap
 ResetTextNodeDirection
 (
 aTextNode
+aTextNode
 )
 ;
 }
@@ -2975,6 +2980,7 @@ nsTextNodeDirectionalityMap
 :
 ResetTextNodeDirection
 (
+aTextNode
 aTextNode
 )
 ;
