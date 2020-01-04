@@ -7483,6 +7483,11 @@ override
 {
 MOZ_CRASH
 (
+"
+GFX
+:
+RefLayer
+"
 )
 ;
 return
@@ -7501,6 +7506,11 @@ override
 {
 MOZ_CRASH
 (
+"
+GFX
+:
+RefLayer
+"
 )
 ;
 return
@@ -7522,6 +7532,11 @@ override
 {
 MOZ_CRASH
 (
+"
+GFX
+:
+RefLayer
+"
 )
 ;
 return

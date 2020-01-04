@@ -3536,6 +3536,8 @@ dst
 MOZ_CRASH
 (
 "
+GFX
+:
 Unimplemented
 texture
 format

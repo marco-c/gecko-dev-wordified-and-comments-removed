@@ -445,6 +445,16 @@ override
 {
 MOZ_CRASH
 (
+"
+GFX
+:
+TextureHostFileMapping
+:
+:
+GetAsSurface
+not
+implemented
+"
 )
 ;
 }

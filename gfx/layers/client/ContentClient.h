@@ -633,6 +633,8 @@ override
 MOZ_CRASH
 (
 "
+GFX
+:
 Should
 not
 be

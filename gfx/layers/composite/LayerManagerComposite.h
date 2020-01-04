@@ -440,6 +440,8 @@ override
 MOZ_CRASH
 (
 "
+GFX
+:
 Use
 BeginTransactionWithDrawTarget
 "
@@ -478,6 +480,8 @@ override
 MOZ_CRASH
 (
 "
+GFX
+:
 Use
 EndTransaction
 (
@@ -509,6 +513,8 @@ override
 MOZ_CRASH
 (
 "
+GFX
+:
 Use
 EndTransaction
 (
@@ -571,6 +577,8 @@ override
 MOZ_CRASH
 (
 "
+GFX
+:
 Call
 on
 compositor
@@ -700,6 +708,8 @@ override
 MOZ_CRASH
 (
 "
+GFX
+:
 Shouldn
 '
 t
@@ -726,6 +736,8 @@ override
 MOZ_CRASH
 (
 "
+GFX
+:
 Shouldn
 '
 t

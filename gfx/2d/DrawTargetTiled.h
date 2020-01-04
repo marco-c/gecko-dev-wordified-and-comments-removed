@@ -289,6 +289,11 @@ override
 {
 MOZ_CRASH
 (
+"
+GFX
+:
+DrawSurfaceWithShadow
+"
 )
 ;
 }

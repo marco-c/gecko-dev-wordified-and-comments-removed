@@ -1844,6 +1844,8 @@ tlsContext
 MOZ_CRASH
 (
 "
+GFX
+:
 GLContext
 is
 not
@@ -2275,6 +2277,13 @@ func
 \
 MOZ_CRASH
 (
+"
+GFX
+:
+Uninitialized
+GL
+function
+"
 )
 ;
 \

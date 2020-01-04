@@ -2598,6 +2598,11 @@ false
 {
 MOZ_CRASH
 (
+"
+GFX
+:
+PushLayer
+"
 )
 ;
 }
@@ -2609,6 +2614,11 @@ PopLayer
 {
 MOZ_CRASH
 (
+"
+GFX
+:
+PopLayer
+"
 )
 ;
 }
@@ -3041,6 +3051,11 @@ aFormat
 {
 MOZ_CRASH
 (
+"
+GFX
+:
+InitWithGrContext
+"
 )
 ;
 }

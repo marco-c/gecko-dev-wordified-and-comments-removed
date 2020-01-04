@@ -165,6 +165,14 @@ aStorageSize
 ;
 MOZ_CRASH
 (
+"
+GFX
+:
+Out
+of
+memory
+IterableArena
+"
 )
 ;
 }

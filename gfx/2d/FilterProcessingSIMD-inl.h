@@ -5360,6 +5360,12 @@ default
 :
 MOZ_CRASH
 (
+"
+GFX
+:
+Incomplete
+switch
+"
 )
 ;
 }

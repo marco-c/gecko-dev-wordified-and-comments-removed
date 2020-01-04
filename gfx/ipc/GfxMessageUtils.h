@@ -6525,6 +6525,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 unhandled
 attribute
 type
@@ -6871,6 +6873,8 @@ default
 MOZ_CRASH
 (
 "
+GFX
+:
 unhandled
 attribute
 type
