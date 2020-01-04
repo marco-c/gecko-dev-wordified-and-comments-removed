@@ -1208,6 +1208,10 @@ query_abs_dirs
 (
 )
         
+requirements
+=
+None
+        
 if
 os
 .
@@ -1285,6 +1289,10 @@ marionette_requirements
 txt
 '
 )
+        
+if
+requirements
+:
             
 self
 .
