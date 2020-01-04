@@ -5037,6 +5037,9 @@ RecursionDepth
 (
 )
 ;
+#
+ifndef
+MOZ_WIDGET_COCOA
 MOZ_ASSERT
 (
 data
@@ -5046,6 +5049,8 @@ mRecursionDepth
 mBaseRecursionDepth
 )
 ;
+#
+endif
 mMetastableStateEvents
 .
 AppendElement
