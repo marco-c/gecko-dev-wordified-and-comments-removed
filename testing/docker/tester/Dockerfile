@@ -1,9 +1,5 @@
 FROM
-quay
-.
-io
-/
-mozilla
+taskcluster
 /
 base
 -
