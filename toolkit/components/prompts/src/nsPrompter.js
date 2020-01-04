@@ -1465,7 +1465,7 @@ PromptUtils
 getLocalizedString
 (
 "
-EnterLoginForProxy2
+EnterLoginForProxy3
 "
 [
 realm
@@ -1509,7 +1509,7 @@ PromptUtils
 getLocalizedString
 (
 "
-EnterUserPasswordForCrossOrigin
+EnterUserPasswordForCrossOrigin2
 "
 [
 displayHost
@@ -1548,7 +1548,7 @@ PromptUtils
 getLocalizedString
 (
 "
-EnterLoginForRealm2
+EnterLoginForRealm3
 "
 [
 realm

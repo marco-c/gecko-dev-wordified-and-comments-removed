@@ -3933,7 +3933,7 @@ bundle
 formatStringFromName
 (
 "
-EnterLoginForProxy2
+EnterLoginForProxy3
 "
 [
 realm
@@ -3983,7 +3983,7 @@ bundle
 formatStringFromName
 (
 "
-EnterUserPasswordForCrossOrigin
+EnterUserPasswordForCrossOrigin2
 "
 [
 displayHost
@@ -4028,7 +4028,7 @@ bundle
 formatStringFromName
 (
 "
-EnterLoginForRealm2
+EnterLoginForRealm3
 "
 [
 realm
