@@ -260,11 +260,6 @@ Color
 )
 COMPUTED_STYLE_PROP
 (
-color_adjust
-ColorAdjust
-)
-COMPUTED_STYLE_PROP
-(
 contain
 Contain
 )
