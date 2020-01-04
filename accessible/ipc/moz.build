@@ -193,6 +193,12 @@ base
 /
 generic
 '
+'
+.
+.
+/
+xpcom
+'
 ]
 if
 CONFIG
