@@ -75,13 +75,6 @@ result
 )
 {
 \
-MOZ_ASSERT
-(
-!
-errno
-)
-;
-\
 errno
 =
 result
