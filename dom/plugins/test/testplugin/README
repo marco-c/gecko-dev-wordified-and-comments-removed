@@ -901,7 +901,7 @@ if
 the
 object
 from
-setObjectValue
+getObjectValue
 (
 )
 is
