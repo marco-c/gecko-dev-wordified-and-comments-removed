@@ -8611,6 +8611,11 @@ ConfirmDialogIfNeeded
 (
 )
 ;
+void
+CheckForDPIChange
+(
+)
+;
 private
 :
 void
