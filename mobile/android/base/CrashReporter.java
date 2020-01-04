@@ -784,7 +784,6 @@ passedMinidumpPath
 replaceAll
 (
 "
-\
 .
 dmp
 "
