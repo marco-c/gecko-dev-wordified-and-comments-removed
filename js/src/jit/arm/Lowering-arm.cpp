@@ -1223,7 +1223,7 @@ rhs
 )
 {
 bool
-constantNeedTemp
+needsTemp
 =
 true
 ;
@@ -1277,7 +1277,7 @@ constant
 =
 2
 )
-constantNeedTemp
+needsTemp
 =
 false
 ;
@@ -1294,7 +1294,7 @@ shift
 =
 constant
 )
-constantNeedTemp
+needsTemp
 =
 false
 ;
@@ -1317,17 +1317,7 @@ ins
 setInt64Operand
 (
 INT64_PIECES
-lhs
-!
-=
-rhs
-?
 useInt64OrConstant
-(
-rhs
-)
-:
-useInt64OrConstantAtStart
 (
 rhs
 )
@@ -1335,7 +1325,7 @@ rhs
 ;
 if
 (
-constantNeedTemp
+needsTemp
 )
 ins
 -
