@@ -41,7 +41,6 @@ linear
 gradient
 (
 transparent
-transparent
 2px
 hsla
 (
@@ -50,7 +49,6 @@ hsla
 %
 100
 %
-0
 .
 6
 )
@@ -62,7 +60,6 @@ hsla
 %
 100
 %
-0
 .
 6
 )
@@ -105,14 +102,12 @@ linear
 gradient
 (
 transparent
-transparent
 2px
 rgba
 (
 254
 254
 254
-0
 .
 72
 )
