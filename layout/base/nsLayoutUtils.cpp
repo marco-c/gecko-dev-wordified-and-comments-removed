@@ -15248,9 +15248,6 @@ ParentLayerPoint
 .
 0f
 )
-0
-.
-0
 )
 ;
 nsIPresShell
