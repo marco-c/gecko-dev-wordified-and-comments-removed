@@ -1969,12 +1969,6 @@ False
         
 self
 .
-writtenLines
-=
-0
-        
-self
-.
 filters
 =
 [
@@ -2844,6 +2838,34 @@ return
 aLine
     
 def
+noteLineInfo
+(
+self
+)
+:
+        
+self
+.
+line_info
+=
+self
+.
+context
+[
+'
+FILE
+'
+]
+self
+.
+context
+[
+'
+LINE
+'
+]
+    
+def
 write
 (
 self
@@ -2875,20 +2897,8 @@ out
             
 return
         
-if
-self
-.
-checkLineNumbers
-:
-            
-self
-.
-writtenLines
-+
-=
-1
-            
-ln
+next_line
+next_file
 =
 self
 .
@@ -2898,14 +2908,48 @@ context
 LINE
 '
 ]
-            
+self
+.
+context
+[
+'
+FILE
+'
+]
+        
 if
 self
 .
-writtenLines
+checkLineNumbers
+:
+            
+expected_file
+expected_line
+=
+self
+.
+line_info
+            
+expected_line
++
+=
+1
+            
+if
+(
+expected_line
 !
 =
-ln
+next_line
+or
+                
+expected_file
+and
+expected_file
+!
+=
+next_file
+)
 :
                 
 self
@@ -2934,26 +2978,19 @@ format
 (
 line
 =
-ln
+next_line
                                                                   
 file
 =
-self
-.
-context
-[
-'
-FILE
-'
-]
+next_file
 )
 )
-                
+        
 self
 .
-writtenLines
-=
-ln
+noteLineInfo
+(
+)
         
 filteredLine
 =
@@ -4075,8 +4112,6 @@ write
 (
 aLine
 )
-        
-pass
     
 def
 do_define
@@ -5573,12 +5608,6 @@ args
 =
 unicode
         
-oldWrittenLines
-=
-self
-.
-writtenLines
-        
 oldCheckLineNumbers
 =
 self
@@ -5753,6 +5782,12 @@ DIRECTORY
 '
 ]
         
+self
+.
+noteLineInfo
+(
+)
+        
 if
 args
 .
@@ -5851,12 +5886,6 @@ LINE
 =
 0
         
-self
-.
-writtenLines
-=
-0
-        
 for
 l
 in
@@ -5908,12 +5937,6 @@ self
 checkLineNumbers
 =
 oldCheckLineNumbers
-        
-self
-.
-writtenLines
-=
-oldWrittenLines
         
 self
 .
