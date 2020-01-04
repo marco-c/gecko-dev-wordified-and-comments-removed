@@ -706,6 +706,13 @@ h
 "
 test
 /
+TestInterfaceIterableDoubleUnion
+.
+h
+"
+"
+test
+/
 TestInterfaceIterableSingle
 .
 h
@@ -754,6 +761,13 @@ cpp
 test
 /
 TestInterfaceIterableDouble
+.
+cpp
+"
+"
+test
+/
+TestInterfaceIterableDoubleUnion
 .
 cpp
 "
