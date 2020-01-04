@@ -210,16 +210,15 @@ task
 dependencies
 '
 :
-[
-(
+{
 '
 edgelabel
 '
+:
 '
 b
 '
-)
-]
+}
             
 }
             
@@ -262,8 +261,8 @@ def
 dependencies
 '
 :
-[
-]
+{
+}
             
 }
         
