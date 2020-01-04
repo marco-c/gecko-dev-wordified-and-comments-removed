@@ -67,6 +67,19 @@ hg
 }
     
 "
+vcs_share_base
+"
+:
+"
+/
+builds
+/
+hg
+-
+shared
+"
+    
+"
 push_dest
 "
 :
