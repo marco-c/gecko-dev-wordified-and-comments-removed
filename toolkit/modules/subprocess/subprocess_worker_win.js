@@ -352,7 +352,7 @@ delete
 (
 this
 .
-handle
+id
 )
 ;
 this
