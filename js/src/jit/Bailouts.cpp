@@ -1374,7 +1374,7 @@ isFunctionFrame
 &
 fp
 .
-fun
+callee
 (
 )
 -

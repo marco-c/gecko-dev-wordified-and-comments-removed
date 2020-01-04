@@ -210,7 +210,7 @@ if
 (
 frame
 .
-fun
+callee
 (
 )
 -

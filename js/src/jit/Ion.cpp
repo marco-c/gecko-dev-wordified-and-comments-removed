@@ -13601,7 +13601,7 @@ MOZ_ASSERT
 frame
 -
 >
-fun
+callee
 (
 )
 -
@@ -13622,7 +13622,7 @@ MOZ_ASSERT
 frame
 -
 >
-fun
+callee
 (
 )
 -
@@ -13643,7 +13643,7 @@ MOZ_ASSERT
 frame
 -
 >
-fun
+callee
 (
 )
 -
