@@ -145,11 +145,6 @@ object
 breakdown
 :
 breakdownModel
-inverted
-:
-PropTypes
-.
-bool
 state
 :
 function
@@ -359,8 +354,6 @@ MemoryFront
 allocations
 :
 allocationsModel
-.
-isRequired
 heapWorker
 :
 PropTypes
@@ -382,13 +375,6 @@ arrayOf
 (
 snapshotModel
 )
-.
-isRequired
-inverted
-:
-PropTypes
-.
-bool
 .
 isRequired
 }

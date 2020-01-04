@@ -79,11 +79,6 @@ errors
 js
 '
 '
-inverted
-.
-js
-'
-'
 snapshots
 .
 js

@@ -127,16 +127,6 @@ select
 snapshot
 "
 ;
-actions
-.
-TOGGLE_INVERTED
-=
-"
-toggle
--
-inverted
-"
-;
 exports
 .
 ALLOCATION_RECORDING_OPTIONS
