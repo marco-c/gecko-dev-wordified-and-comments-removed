@@ -520,6 +520,12 @@ aCx
 ;
 private
 :
+RefPtr
+<
+nsIGlobalObject
+>
+mGlobalObject
+;
 mozilla
 :
 :
@@ -560,6 +566,9 @@ mOldErrorReporter
 void
 InitInternal
 (
+nsIGlobalObject
+*
+aGlobalObject
 JSObject
 *
 aGlobal
