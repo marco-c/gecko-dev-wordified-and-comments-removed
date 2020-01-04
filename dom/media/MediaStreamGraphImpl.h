@@ -1415,10 +1415,7 @@ mFarendObserverRef
 ;
 #
 endif
-dom
-:
-:
-AudioChannel
+uint32_t
 AudioChannel
 (
 )
@@ -1486,10 +1483,7 @@ mCanRunMessagesSynchronously
 ;
 #
 endif
-dom
-:
-:
-AudioChannel
+uint32_t
 mAudioChannel
 ;
 }
