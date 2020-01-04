@@ -1530,6 +1530,12 @@ _querySelector
 selector
 )
 ;
+node
+.
+scrollIntoView
+(
+)
+;
 if
 (
 center
