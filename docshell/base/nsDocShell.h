@@ -1233,6 +1233,11 @@ nsIURI
 aURI
 nsIURI
 *
+aOriginalURI
+bool
+aLoadReplace
+nsIURI
+*
 aReferrer
 bool
 aSendReferrer
