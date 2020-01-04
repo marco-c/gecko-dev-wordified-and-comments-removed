@@ -427,15 +427,6 @@ minSubsessionLength
 *
 1000
 ;
-#
-expand
-const
-HISTOGRAMS_FILE_VERSION
-=
-"
-__HISTOGRAMS_FILE_VERSION__
-"
-;
 const
 LOGGER_NAME
 =
@@ -4935,7 +4926,9 @@ reason
 reason
 revision
 :
-HISTOGRAMS_FILE_VERSION
+AppConstants
+.
+SOURCE_REVISION_URL
 asyncPluginInit
 :
 Preferences
