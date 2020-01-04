@@ -1610,15 +1610,6 @@ apz
 /
 src
 /
-TaskThrottler
-.
-cpp
-'
-'
-apz
-/
-src
-/
 TouchCounter
 .
 cpp
