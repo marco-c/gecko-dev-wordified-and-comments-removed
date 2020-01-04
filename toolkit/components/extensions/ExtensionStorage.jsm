@@ -429,9 +429,18 @@ array
 catch
 (
 (
+error
 )
 =
 >
+{
+if
+(
+!
+error
+.
+becauseNoSuchFile
+)
 {
 Cu
 .
@@ -450,6 +459,7 @@ storage
 "
 )
 ;
+}
 return
 {
 }
