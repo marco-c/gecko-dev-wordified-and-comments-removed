@@ -807,6 +807,13 @@ char
 aPrefs
 )
 ;
+enum
+MatchKind
+{
+PrefixMatch
+ExactMatch
+}
+;
 static
 nsresult
 RegisterCallback
@@ -822,6 +829,10 @@ void
 aClosure
 =
 nullptr
+MatchKind
+aMatchKind
+=
+PrefixMatch
 )
 ;
 static
@@ -839,6 +850,10 @@ void
 aClosure
 =
 nullptr
+MatchKind
+aMatchKind
+=
+PrefixMatch
 )
 ;
 static
@@ -856,6 +871,10 @@ void
 aClosure
 =
 nullptr
+MatchKind
+aMatchKind
+=
+PrefixMatch
 )
 ;
 static
