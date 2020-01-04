@@ -1747,16 +1747,6 @@ flushPool
 )
 ;
 }
-void
-comment
-(
-const
-char
-*
-msg
-)
-{
-}
 int
 actualIndex
 (
