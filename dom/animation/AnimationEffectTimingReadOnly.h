@@ -197,6 +197,9 @@ mDuration
 TimeDuration
 mDelay
 ;
+TimeDuration
+mEndDelay
+;
 double
 mIterations
 =
@@ -387,9 +390,13 @@ EndDelay
 const
 {
 return
-0
+mTiming
 .
-0
+mEndDelay
+.
+ToMilliseconds
+(
+)
 ;
 }
 FillMode

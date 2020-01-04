@@ -171,16 +171,6 @@ attribute
 double
 delay
 ;
-/
-/
-Bug
-1244635
--
-implement
-AnimationEffectTiming
-endDelay
-/
-/
 inherit
 attribute
 double

@@ -90,6 +90,13 @@ nullptr
 ;
 }
 void
+SetEndDelay
+(
+double
+aEndDelay
+)
+;
+void
 SetDuration
 (
 const
@@ -100,6 +107,11 @@ aDuration
 ;
 private
 :
+void
+NotifyTimingUpdate
+(
+)
+;
 KeyframeEffect
 *
 MOZ_NON_OWNING_REF
