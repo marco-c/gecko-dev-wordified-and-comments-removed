@@ -28392,7 +28392,7 @@ case
 SelectionType
 :
 :
-SELECTION_FIND
+eFind
 :
 aTextPaintStyle
 .

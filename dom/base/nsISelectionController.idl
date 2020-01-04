@@ -2174,7 +2174,7 @@ nsISelectionController
 :
 :
 SELECTION_ACCESSIBILITY
-SELECTION_FIND
+eFind
 =
 nsISelectionController
 :
