@@ -1780,6 +1780,9 @@ BluetoothProperty
 BluetoothPropertyType
 mType
 ;
+BluetoothAddress
+mBdAddress
+;
 nsString
 mString
 ;
@@ -1791,9 +1794,9 @@ mUuidArray
 ;
 nsTArray
 <
-nsString
+BluetoothAddress
 >
-mStringArray
+mBdAddressArray
 ;
 uint32_t
 mUint32
