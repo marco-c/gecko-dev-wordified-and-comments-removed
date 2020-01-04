@@ -2873,8 +2873,13 @@ std
 :
 string
 streamId
-TrackID
-numericTrackId
+const
+dom
+:
+:
+MediaStreamTrack
+&
+track
 std
 :
 :
