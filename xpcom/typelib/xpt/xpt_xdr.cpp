@@ -486,6 +486,8 @@ char
 *
 *
 identp
+bool
+ignore
 )
 {
 uint32_t
@@ -609,6 +611,12 @@ len
 0
 )
 ;
+if
+(
+!
+ignore
+)
+{
 char
 *
 ident
@@ -655,6 +663,7 @@ identp
 =
 ident
 ;
+}
 return
 PR_TRUE
 ;

@@ -177,10 +177,6 @@ char
 *
 name
 ;
-char
-*
-name_space
-;
 XPTInterfaceDescriptor
 *
 interface_descriptor

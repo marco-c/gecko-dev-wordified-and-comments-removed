@@ -60,6 +60,10 @@ char
 *
 *
 strp
+bool
+ignore
+=
+false
 )
 ;
 extern

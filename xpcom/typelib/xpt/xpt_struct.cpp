@@ -675,6 +675,10 @@ XPTInterfaceDirectoryEntry
 ide
 )
 {
+char
+*
+dummy_name_space
+;
 if
 (
 !
@@ -712,12 +716,8 @@ XPT_DoCString
 arena
 cursor
 &
-(
-ide
--
->
-name_space
-)
+dummy_name_space
+true
 )
 |
 |
