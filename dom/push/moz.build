@@ -101,6 +101,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+PushCrypto
+.
+jsm
+'
+'
 PushDB
 .
 jsm
@@ -122,11 +127,6 @@ jsm
 '
 '
 PushServiceHttp2
-.
-jsm
-'
-'
-PushServiceHttp2Crypto
 .
 jsm
 '
