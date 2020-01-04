@@ -44,10 +44,7 @@ aReader
 )
 ;
 virtual
-nsRefPtr
-<
-InitPromise
->
+nsresult
 Init
 (
 unsigned
