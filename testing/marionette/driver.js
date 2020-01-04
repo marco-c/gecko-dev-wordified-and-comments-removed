@@ -1682,17 +1682,6 @@ isNewSession
 false
 )
 {
-logger
-.
-info
-(
-startBrowser
-{
-this
-.
-sessionId
-}
-)
 this
 .
 mainFrame
