@@ -35899,7 +35899,6 @@ this
 temporarilyInstalled
 )
 {
-;
 let
 addonFile
 =
