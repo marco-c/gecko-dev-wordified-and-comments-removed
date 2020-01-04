@@ -1028,7 +1028,7 @@ GreenICOTestCase
 TEST
 (
 ImageDecoders
-DISABLED_ICOMultiChunk
+ICOMultiChunk
 )
 {
 CheckDecoderMultiChunk
