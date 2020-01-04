@@ -204,7 +204,10 @@ children
 querySelector
 (
 "
-input
+.
+styleinspector
+-
+propertyeditor
 "
 )
 ;
