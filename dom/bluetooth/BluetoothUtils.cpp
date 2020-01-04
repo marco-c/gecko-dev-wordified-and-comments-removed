@@ -1287,6 +1287,12 @@ return
 false
 ;
 }
+nsCOMPtr
+<
+nsISupports
+>
+promise
+;
 systemMessenger
 -
 >
@@ -1298,6 +1304,10 @@ JS
 :
 :
 UndefinedHandleValue
+getter_AddRefs
+(
+promise
+)
 )
 ;
 return
@@ -1472,6 +1482,12 @@ obj
 )
 )
 ;
+nsCOMPtr
+<
+nsISupports
+>
+promise
+;
 systemMessenger
 -
 >
@@ -1483,6 +1499,10 @@ JS
 :
 :
 UndefinedHandleValue
+getter_AddRefs
+(
+promise
+)
 )
 ;
 return
