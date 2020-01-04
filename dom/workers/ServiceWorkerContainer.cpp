@@ -1092,6 +1092,7 @@ GetDocumentController
 GetOwner
 (
 )
+nullptr
 getter_AddRefs
 (
 serviceWorker
