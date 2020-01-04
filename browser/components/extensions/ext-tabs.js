@@ -2949,6 +2949,15 @@ getTab
 tabId
 )
 ;
+if
+(
+!
+tab
+)
+{
+return
+;
+}
 let
 mm
 =
