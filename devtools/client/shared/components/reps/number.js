@@ -84,7 +84,7 @@ function
 (
 )
 {
-var
+let
 value
 =
 this
@@ -112,6 +112,7 @@ value
 )
 )
 )
+;
 }
 stringify
 :

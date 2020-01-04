@@ -114,7 +114,7 @@ object
 "
 )
 ;
-var
+let
 reps
 =
 [
@@ -126,7 +126,7 @@ ArrayRep
 Obj
 ]
 ;
-var
+let
 defaultRep
 ;
 const
@@ -148,7 +148,7 @@ function
 (
 )
 {
-var
+let
 rep
 =
 getRep
@@ -178,13 +178,11 @@ getRep
 object
 )
 {
-var
+let
 type
 =
 typeof
-(
 object
-)
 ;
 if
 (
@@ -225,7 +223,7 @@ class
 }
 for
 (
-var
+let
 i
 =
 0
@@ -241,7 +239,7 @@ i
 +
 )
 {
-var
+let
 rep
 =
 reps

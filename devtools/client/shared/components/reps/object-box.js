@@ -56,7 +56,7 @@ function
 (
 )
 {
-var
+let
 className
 =
 this
@@ -65,7 +65,7 @@ props
 .
 className
 ;
-var
+let
 boxClassName
 =
 className
@@ -107,6 +107,7 @@ props
 children
 )
 )
+;
 }
 }
 )

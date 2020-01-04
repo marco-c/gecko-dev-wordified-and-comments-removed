@@ -56,7 +56,7 @@ function
 (
 )
 {
-var
+let
 className
 =
 this
@@ -65,7 +65,7 @@ props
 .
 className
 ;
-var
+let
 objectClassName
 =
 className
@@ -80,7 +80,7 @@ className
 "
 "
 ;
-var
+let
 linkClassName
 =
 "
@@ -118,6 +118,7 @@ props
 children
 )
 )
+;
 }
 }
 )

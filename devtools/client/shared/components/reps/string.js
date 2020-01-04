@@ -84,7 +84,7 @@ function
 (
 )
 {
-var
+let
 text
 =
 this
@@ -93,7 +93,7 @@ props
 .
 object
 ;
-var
+let
 member
 =
 this
@@ -136,9 +136,8 @@ text
 "
 )
 )
+;
 }
-else
-{
 return
 (
 ObjectBox
@@ -166,7 +165,7 @@ text
 "
 )
 )
-}
+;
 }
 }
 )
@@ -209,7 +208,6 @@ n
 )
 ;
 }
-;
 function
 cropMultipleLines
 (
@@ -228,7 +226,6 @@ limit
 )
 ;
 }
-;
 function
 cropString
 (
@@ -301,7 +298,7 @@ length
 1
 ;
 }
-var
+let
 halfLimit
 =
 (
@@ -360,23 +357,20 @@ return
 text
 ;
 }
-;
 function
 isCropped
 (
 value
 )
 {
-var
+let
 cropLength
 =
 50
 ;
 return
 typeof
-(
 value
-)
 =
 =
 "

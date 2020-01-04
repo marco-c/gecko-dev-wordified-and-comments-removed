@@ -36,7 +36,7 @@ createFactories
 args
 )
 {
-var
+let
 result
 =
 {
@@ -44,7 +44,7 @@ result
 ;
 for
 (
-var
+let
 p
 in
 args
