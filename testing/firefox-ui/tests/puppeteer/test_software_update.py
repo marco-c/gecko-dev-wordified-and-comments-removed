@@ -1,7 +1,7 @@
 import
 os
 from
-firefox_puppeteer
+firefox_ui_harness
 .
 testcases
 import

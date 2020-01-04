@@ -9,7 +9,7 @@ marionette_test
 import
 skip_if_e10s
 from
-firefox_puppeteer
+firefox_ui_harness
 .
 testcases
 import

@@ -13,7 +13,7 @@ marionette
 import
 BaseMarionetteTestRunner
 from
-firefox_puppeteer
+firefox_ui_harness
 .
 testcases
 import

@@ -5,6 +5,10 @@ datetime
 import
 datetime
 from
+marionette
+import
+MarionetteTestCase
+from
 marionette_driver
 import
 Wait
@@ -29,7 +33,7 @@ firefox_puppeteer
 .
 testcases
 import
-FirefoxTestCase
+BaseFirefoxTestCase
 from
 firefox_puppeteer
 .
@@ -38,6 +42,29 @@ ui
 update_wizard
 import
 UpdateWizardDialog
+class
+FirefoxTestCase
+(
+BaseFirefoxTestCase
+MarionetteTestCase
+)
+:
+    
+"
+"
+"
+Integrate
+MarionetteTestCase
+with
+BaseFirefoxTestCase
+by
+reordering
+MRO
+"
+"
+"
+    
+pass
 class
 UpdateTestCase
 (
@@ -79,11 +106,14 @@ kwargs
 )
 :
         
-FirefoxTestCase
+super
+(
+UpdateTestCase
+self
+)
 .
 __init__
 (
-self
 *
 args
 *
@@ -175,11 +205,14 @@ False
 )
 :
         
-FirefoxTestCase
+super
+(
+UpdateTestCase
+self
+)
 .
 setUp
 (
-self
 )
         
 self
@@ -548,11 +581,14 @@ output
 finally
 :
             
-FirefoxTestCase
+super
+(
+UpdateTestCase
+self
+)
 .
 tearDown
 (
-self
 )
             
 self

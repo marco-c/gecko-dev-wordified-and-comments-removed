@@ -42,6 +42,16 @@ test
 cases
 .
     
+example
+:
+    
+class
+MyTestCase
+(
+MarionetteTestCase
+Puppeteer
+)
+    
 Each
 library
 can
@@ -57,7 +67,8 @@ member
 of
 a
     
-FirefoxTestCase
+the
+TestCase
 instance
 .
 For
@@ -120,20 +131,6 @@ self
 return
 self
 .
-marionette
-    
-def
-set_marionette
-(
-self
-marionette
-)
-:
-        
-self
-.
-marionette
-=
 marionette
     
 use_class_as_property

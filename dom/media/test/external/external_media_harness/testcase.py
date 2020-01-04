@@ -4,6 +4,7 @@ from
 marionette
 import
 BrowserMobProxyTestCaseMixin
+MarionetteTestCase
 from
 marionette_driver
 import
@@ -25,7 +26,7 @@ firefox_puppeteer
 .
 testcases
 import
-FirefoxTestCase
+BaseFirefoxTestCase
 from
 external_media_tests
 .
@@ -54,7 +55,8 @@ VP
 class
 MediaTestCase
 (
-FirefoxTestCase
+BaseFirefoxTestCase
+MarionetteTestCase
 )
 :
     
@@ -115,11 +117,14 @@ video_urls
 False
 )
         
-FirefoxTestCase
+super
+(
+MediaTestCase
+self
+)
 .
 __init__
 (
-self
 *
 args
 *
@@ -770,11 +775,14 @@ kwargs
 )
 :
         
-MediaTestCase
+super
+(
+NetworkBandwidthTestCase
+self
+)
 .
 __init__
 (
-self
 *
 args
 *
@@ -807,11 +815,14 @@ self
 )
 :
         
-MediaTestCase
+super
+(
+NetworkBandwidthTestCase
+self
+)
 .
 setUp
 (
-self
 )
         
 BrowserMobProxyTestCaseMixin
@@ -838,11 +849,14 @@ self
 )
 :
         
-MediaTestCase
+super
+(
+NetworkBandwidthTestCase
+self
+)
 .
 tearDown
 (
-self
 )
         
 BrowserMobProxyTestCaseMixin
