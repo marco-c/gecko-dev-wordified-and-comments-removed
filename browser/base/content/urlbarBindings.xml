@@ -429,6 +429,11 @@ allowevents
 "
 true
 "
+inputmode
+=
+"
+url
+"
 xbl
 :
 inherits
@@ -438,9 +443,6 @@ tooltiptext
 =
 inputtooltiptext
 value
-type
-=
-inputtype
 maxlength
 disabled
 size

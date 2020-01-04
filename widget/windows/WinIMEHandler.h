@@ -286,6 +286,10 @@ const
 nsAString
 &
 aHTMLInputType
+const
+nsAString
+&
+aHTMLInputInputmode
 )
 ;
 static
