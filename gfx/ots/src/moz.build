@@ -299,11 +299,6 @@ vmtx
 .
 cc
 '
-'
-woff2
-.
-cc
-'
 ]
 #
 We
@@ -368,5 +363,8 @@ USE_LIBS
 [
 '
 brotli
+'
+'
+woff2
 '
 ]

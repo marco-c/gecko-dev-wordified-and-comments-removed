@@ -8,13 +8,6 @@ h
 #
 include
 "
-gsub
-.
-h
-"
-#
-include
-"
 maxp
 .
 h
@@ -176,12 +169,6 @@ vhea
 !
 =
 NULL
-&
-&
-ots_gsub_should_serialise
-(
-font
-)
 ;
 }
 bool

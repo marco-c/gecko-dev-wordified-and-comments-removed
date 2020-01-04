@@ -8,13 +8,6 @@ h
 #
 include
 "
-gsub
-.
-h
-"
-#
-include
-"
 head
 .
 h
@@ -201,12 +194,6 @@ vmtx
 !
 =
 NULL
-&
-&
-ots_gsub_should_serialise
-(
-font
-)
 ;
 }
 bool
