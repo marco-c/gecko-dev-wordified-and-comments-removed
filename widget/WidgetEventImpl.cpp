@@ -244,7 +244,7 @@ case
 TextRangeType
 :
 :
-NS_TEXTRANGE_UNDEFINED
+eUninitialized
 :
 case
 TextRangeType
@@ -346,11 +346,14 @@ case
 TextRangeType
 :
 :
-NS_TEXTRANGE_UNDEFINED
+eUninitialized
 :
 return
 "
-NS_TEXTRANGE_UNDEFINED
+TextRangeType
+:
+:
+eUninitialized
 "
 ;
 case

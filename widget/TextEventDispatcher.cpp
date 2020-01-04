@@ -2352,7 +2352,7 @@ mRangeType
 TextRangeType
 :
 :
-NS_TEXTRANGE_UNDEFINED
+eUninitialized
 ;
 }
 void
