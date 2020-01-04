@@ -216,6 +216,16 @@ mFirstFrameTimeout
 aTimeout
 ;
 }
+FrameTimeout
+FirstFrameTimeout
+(
+)
+const
+{
+return
+mFirstFrameTimeout
+;
+}
 private
 :
 friend
