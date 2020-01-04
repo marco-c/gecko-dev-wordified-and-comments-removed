@@ -85,3 +85,13 @@ popups
 allowpopups
 SANDBOXED_AUXILIARY_NAVIGATION
 )
+SANDBOX_KEYWORD
+(
+"
+allow
+-
+modals
+"
+allowmodals
+SANDBOXED_MODALS
+)
