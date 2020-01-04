@@ -888,8 +888,10 @@ chan
 if
 (
 mDocument
-&
-&
+)
+{
+MOZ_ASSERT
+(
 mDocument
 -
 >
@@ -900,7 +902,7 @@ NodePrincipal
 =
 mPrincipal
 )
-{
+;
 rv
 =
 NS_NewChannel
