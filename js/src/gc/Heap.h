@@ -150,6 +150,15 @@ include
 "
 js
 /
+RootingAPI
+.
+h
+"
+#
+include
+"
+js
+/
 TracingAPI
 .
 h
@@ -1097,6 +1106,7 @@ chunk
 const
 ;
 }
+JS_HAZ_GC_THING
 ;
 class
 TenuredCell

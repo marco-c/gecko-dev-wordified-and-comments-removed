@@ -18,6 +18,15 @@ include
 "
 js
 /
+GCAnnotations
+.
+h
+"
+#
+include
+"
+js
+/
 HeapAPI
 .
 h
@@ -1339,6 +1348,7 @@ rt
 {
 }
 }
+JS_HAZ_GC_INVALIDATED
 ;
 extern
 JS_FRIEND_API
