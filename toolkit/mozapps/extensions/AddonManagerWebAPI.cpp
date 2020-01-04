@@ -168,7 +168,7 @@ host
 Equals
 (
 "
-services
+discovery
 .
 addons
 .
@@ -222,7 +222,7 @@ host
 Equals
 (
 "
-services
+discovery
 .
 addons
 .
@@ -254,7 +254,7 @@ host
 Equals
 (
 "
-services
+discovery
 .
 addons
 -
