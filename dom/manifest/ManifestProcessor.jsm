@@ -712,8 +712,7 @@ toLowerCase
 ;
 }
 return
-'
-'
+undefined
 ;
 }
 function
