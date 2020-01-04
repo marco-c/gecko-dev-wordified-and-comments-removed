@@ -6290,14 +6290,6 @@ WinUtils
 IsPerMonitorDPIAware
 (
 )
-&
-&
-GetSystemMetrics
-(
-SM_CMONITORS
-)
->
-1
 )
 {
 nsIWidget
