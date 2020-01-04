@@ -184,8 +184,7 @@ sessionCreated
 dbOpened
 tableOpened
 ;
-char16_t
-*
+char16ptr_t
 dbPath
 =
 ToNewUnicode
