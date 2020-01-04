@@ -210,7 +210,7 @@ testpath
 ;
 channel
 .
-asyncOpen
+asyncOpen2
 (
 new
 ChannelListener
@@ -218,7 +218,6 @@ ChannelListener
 checkResponse
 channel
 )
-null
 )
 ;
 if
