@@ -3207,7 +3207,7 @@ pbmode
 .
 enabled
 "
-false
+true
 )
 ;
 #
