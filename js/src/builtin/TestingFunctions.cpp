@@ -8995,7 +8995,7 @@ if
 (
 iter
 .
-isFunctionFrame
+isNonEvalFunctionFrame
 (
 )
 &

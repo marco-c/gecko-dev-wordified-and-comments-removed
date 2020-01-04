@@ -32832,7 +32832,7 @@ if
 (
 frame
 .
-isFunctionFrame
+isNonEvalFunctionFrame
 (
 )
 )
@@ -33278,7 +33278,7 @@ setBoolean
 (
 iter
 .
-isFunctionFrame
+isNonEvalFunctionFrame
 (
 )
 &
@@ -34340,15 +34340,7 @@ if
 (
 frame
 .
-isFunctionFrame
-(
-)
-&
-&
-!
-frame
-.
-isEvalFrame
+isNonEvalFunctionFrame
 (
 )
 )
