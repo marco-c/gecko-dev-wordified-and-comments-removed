@@ -432,9 +432,6 @@ maxTime
 startTime
 debuggerInfo
 symbolsPath
-outputHandler
-=
-None
 )
 :
         
@@ -1773,7 +1770,6 @@ self
 "
 "
 "
-            
 Fetch
 the
 full
@@ -1782,15 +1778,11 @@ log
 file
 using
 devicemanager
-process
-them
 and
-            
 return
-whether
-there
-were
-any
+just
+                
+the
 new
 log
 entries
@@ -1798,6 +1790,15 @@ since
 the
 last
 call
+(
+as
+a
+list
+of
+messages
+or
+lines
+)
 .
             
 "
@@ -1819,7 +1820,8 @@ proc
 :
                 
 return
-False
+[
+]
             
 try
 :
@@ -1845,7 +1847,8 @@ DMError
 :
                 
 return
-False
+[
+]
             
 if
 not
@@ -1853,7 +1856,8 @@ newLogContent
 :
                 
 return
-False
+[
+]
             
 self
 .
@@ -1916,7 +1920,9 @@ print
 newLogContent
                 
 return
-True
+[
+newLogContent
+]
             
 self
 .
@@ -1940,9 +1946,12 @@ n
 )
             
 if
+not
 lines
 :
                 
+return
+            
 self
 .
 logBuffer
@@ -1952,7 +1961,7 @@ lines
 -
 1
 ]
-                
+            
 del
 lines
 [
@@ -1960,13 +1969,10 @@ lines
 1
 ]
             
-if
-not
-lines
-:
-                
-return
-False
+messages
+=
+[
+]
             
 for
 line
@@ -1992,20 +1998,12 @@ parsed_messages
 :
                     
 if
-isinstance
-(
 message
-dict
-)
-and
-message
-.
-get
-(
+[
 '
 action
 '
-)
+]
 =
 =
 '
@@ -2023,9 +2021,14 @@ message
 test
 '
 ]
+                
+messages
++
+=
+parsed_messages
             
 return
-True
+messages
         
 property
         
@@ -2130,7 +2133,7 @@ now
 (
 )
                     
-hasOutput
+messages
 =
 self
 .
@@ -2166,7 +2169,7 @@ slowLog
 True
                     
 if
-hasOutput
+messages
 :
                         
 noOutputTimer

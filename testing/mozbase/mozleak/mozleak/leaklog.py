@@ -11,46 +11,21 @@ mozrunner
 .
 utils
 def
-_get_default_logger
+_raw_log
 (
 )
 :
     
-from
-mozlog
-import
-get_default_logger
-    
-log
-=
-get_default_logger
-(
-component
-=
-'
-mozleak
-'
-)
-    
-if
-not
-log
-:
-        
 import
 logging
-        
-log
-=
+    
+return
 logging
 .
 getLogger
 (
 __name__
 )
-    
-return
-log
 def
 expectedTabProcessLeakCounts
 (
@@ -649,7 +624,7 @@ log
 =
 log
 or
-_get_default_logger
+_raw_log
 (
 )
     
@@ -1676,7 +1651,7 @@ log
 =
 log
 or
-_get_default_logger
+_raw_log
 (
 )
     

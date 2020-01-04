@@ -64,12 +64,20 @@ from
 runreftest
 import
 RefTest
-from
-output
-import
-OutputHandler
 import
 reftestcommandline
+log
+=
+mozlog
+.
+unstructured
+.
+getLogger
+(
+'
+REFTEST
+'
+)
 class
 MuletReftest
 (
@@ -340,30 +348,6 @@ profile
 profile
 )
         
-self
-.
-_populate_logger
-(
-options
-)
-        
-outputHandler
-=
-OutputHandler
-(
-self
-.
-log
-options
-.
-utilityPath
-symbolsPath
-=
-options
-.
-symbolsPath
-)
-        
 kp_kwargs
 =
 {
@@ -372,7 +356,9 @@ processOutputLine
 '
 :
 [
-outputHandler
+self
+.
+_on_output
 ]
                       
 '
@@ -444,8 +430,6 @@ timeout
 .
 0
         
-self
-.
 log
 .
 info
@@ -460,7 +444,6 @@ tests
 start
 .
 "
-%
 os
 .
 path
@@ -554,8 +537,6 @@ self
 timeout
 )
             
-self
-.
 log
 .
 info
@@ -570,8 +551,6 @@ pid
 %
 d
 "
-%
-(
                      
 os
 .
@@ -589,7 +568,6 @@ runner
 process_handler
 .
 pid
-)
 )
             
 self
@@ -638,8 +616,6 @@ status
 0
 :
             
-self
-.
 log
 .
 testFail
@@ -656,14 +632,11 @@ code
 %
 s
 "
-%
-(
                          
 self
 .
 last_test
 status
-)
 )
         
 elif
@@ -672,8 +645,6 @@ status
 0
 :
             
-self
-.
 log
 .
 info
@@ -689,8 +660,6 @@ signal
 %
 s
 "
-%
-(
                          
 self
 .
@@ -698,10 +667,7 @@ last_test
 -
 status
 )
-)
         
-self
-.
 log
 .
 info
@@ -716,7 +682,6 @@ tests
 end
 .
 "
-%
 os
 .
 path
@@ -1184,6 +1149,74 @@ cmd
 args
     
 def
+_on_output
+(
+self
+line
+)
+:
+        
+sys
+.
+stdout
+.
+write
+(
+"
+%
+s
+\
+n
+"
+%
+line
+)
+        
+sys
+.
+stdout
+.
+flush
+(
+)
+        
+if
+"
+TEST
+-
+START
+"
+in
+line
+and
+"
+|
+"
+in
+line
+:
+            
+self
+.
+last_test
+=
+line
+.
+split
+(
+"
+|
+"
+)
+[
+1
+]
+.
+strip
+(
+)
+    
+def
 _on_timeout
 (
 self
@@ -1208,8 +1241,6 @@ no
 output
 "
         
-self
-.
 log
 .
 testFail
@@ -1324,8 +1355,6 @@ timeout
 )
 :
         
-self
-.
 log
 .
 info

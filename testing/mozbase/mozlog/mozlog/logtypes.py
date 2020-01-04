@@ -826,7 +826,7 @@ elif
 isinstance
 (
 data
-bytes
+str
 )
 :
             
@@ -849,10 +849,7 @@ elif
 isinstance
 (
 data
-(
 tuple
-list
-)
 )
 :
             
