@@ -3235,7 +3235,7 @@ do_check_eq
 (
 errsrc
 "
-decode
+encode
 "
 )
 ;
