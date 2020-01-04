@@ -1458,12 +1458,6 @@ no
 )
 )
 ;
-nsCOMPtr
-<
-nsIURIContentListener
->
-contentListener
-;
 nsXPIDLCString
 desiredContentType
 ;

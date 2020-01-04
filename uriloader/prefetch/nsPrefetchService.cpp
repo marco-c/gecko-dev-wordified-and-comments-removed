@@ -1713,13 +1713,6 @@ aFinished
 nsresult
 rv
 ;
-nsCOMPtr
-<
-nsIURI
->
-uri
-referrer
-;
 if
 (
 aFinished

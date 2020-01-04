@@ -6225,12 +6225,6 @@ return
 NS_OK
 ;
 }
-nsCOMPtr
-<
-nsIURI
->
-nexturi
-;
 int32_t
 pCount
 =
@@ -6292,12 +6286,6 @@ nCount
 )
 ;
 }
-nsCOMPtr
-<
-nsIDocShellLoadInfo
->
-loadInfo
-;
 if
 (
 mRequestedIndex

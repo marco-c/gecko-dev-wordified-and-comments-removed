@@ -6980,12 +6980,6 @@ return
 NS_OK
 ;
 }
-nsCOMPtr
-<
-nsIURI
->
-uri
-;
 mManifestItem
 =
 new
