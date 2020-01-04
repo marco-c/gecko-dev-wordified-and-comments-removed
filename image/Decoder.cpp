@@ -1026,7 +1026,7 @@ mColormap
 mColormapSize
 )
 ;
-if
+MOZ_ASSERT
 (
 aFrameNum
 +
@@ -1035,7 +1035,7 @@ aFrameNum
 =
 mFrameCount
 )
-{
+;
 MOZ_ASSERT_IF
 (
 mFrameCount
@@ -1068,7 +1068,6 @@ mInFrame
 =
 true
 ;
-}
 }
 return
 mCurrentFrame
