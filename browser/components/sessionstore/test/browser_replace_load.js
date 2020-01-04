@@ -54,7 +54,9 @@ fooobar
 {
 ignoreFragment
 :
-true
+"
+whenComparingAndReplace
+"
 }
 )
 ;
