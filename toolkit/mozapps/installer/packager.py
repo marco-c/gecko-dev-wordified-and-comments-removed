@@ -754,7 +754,7 @@ path
 def
 precompile_cache
 (
-formatter
+registry
 source_path
 gre_path
 app_path
@@ -782,10 +782,12 @@ path
 .
     
 -
-formatter
+registry
 is
 a
-Formatter
+FileRegistry
+-
+like
 instance
 where
 to
@@ -1181,7 +1183,7 @@ resource
 ]
                 
 if
-formatter
+registry
 .
 contains
 (
@@ -1189,7 +1191,7 @@ path
 )
 :
                     
-formatter
+registry
 .
 add
 (
@@ -3057,30 +3059,45 @@ gre_path
 =
 base
             
-base_path
+omnijar_path
 =
+mozpath
+.
+join
+(
 sink
 .
 normalize_path
 (
 base
 )
+                                        
+buildconfig
+.
+substs
+[
+'
+OMNIJAR_NAME
+'
+]
+)
             
 if
-base_path
-in
 formatter
 .
-omnijars
+contains
+(
+omnijar_path
+)
 :
                 
 precompile_cache
 (
 formatter
 .
-omnijars
+copier
 [
-base_path
+omnijar_path
 ]
                                  
 args
