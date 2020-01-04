@@ -1849,9 +1849,6 @@ NSString
 *
 mIMECompositionString
 ;
-nsString
-mLastDispatchedCompositionString
-;
 NSRange
 mMarkedRange
 ;
