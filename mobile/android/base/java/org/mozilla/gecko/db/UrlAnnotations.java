@@ -57,4 +57,15 @@ ContentResolver
 cr
 )
 ;
+void
+insertScreenshot
+(
+ContentResolver
+cr
+String
+pageUrl
+String
+screenshotPath
+)
+;
 }
