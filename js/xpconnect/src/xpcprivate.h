@@ -4973,6 +4973,12 @@ return
 mPosition
 ;
 }
+PLDHashNumber
+Hash
+(
+)
+const
+;
 private
 :
 XPCNativeSet
