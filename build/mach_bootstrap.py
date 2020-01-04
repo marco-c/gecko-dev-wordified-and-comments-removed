@@ -952,16 +952,6 @@ py
 '
 testing
 /
-taskcluster
-/
-mach_commands
-.
-py
-'
-    
-'
-testing
-/
 web
 -
 platform
