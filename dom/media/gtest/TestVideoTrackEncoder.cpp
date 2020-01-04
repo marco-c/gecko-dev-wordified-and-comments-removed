@@ -237,7 +237,7 @@ PlanarYCbCrImage
 image
 =
 new
-RecyclingPlanarYCbCrImage
+PlanarYCbCrImage
 (
 new
 BufferRecycleBin
@@ -439,7 +439,7 @@ PlanarYCbCrImage
 image
 =
 new
-RecyclingPlanarYCbCrImage
+PlanarYCbCrImage
 (
 new
 BufferRecycleBin
@@ -635,7 +635,7 @@ PlanarYCbCrImage
 image
 =
 new
-RecyclingPlanarYCbCrImage
+PlanarYCbCrImage
 (
 new
 BufferRecycleBin
