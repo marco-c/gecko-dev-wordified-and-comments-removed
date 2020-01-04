@@ -1316,7 +1316,7 @@ rv
 =
 NS_CheckContentLoadPolicy
 (
-contentPolicyType
+internalContentPolicyType
 aURI
 aLoadInfo
 -
