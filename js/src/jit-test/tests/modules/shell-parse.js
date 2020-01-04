@@ -1,0 +1,17 @@
+parseModule
+(
+"
+"
+)
+;
+parseModule
+(
+"
+const
+foo
+=
+1
+;
+"
+)
+;

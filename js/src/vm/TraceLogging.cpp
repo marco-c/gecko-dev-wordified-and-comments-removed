@@ -3287,6 +3287,13 @@ true
 ;
 enabledTextIds
 [
+TraceLogger_ParserCompileModule
+]
+=
+true
+;
+enabledTextIds
+[
 TraceLogger_IrregexpCompile
 ]
 =

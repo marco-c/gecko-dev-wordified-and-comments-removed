@@ -73,6 +73,9 @@ Definition
 class
 FunctionBox
 ;
+class
+ModuleBox
+;
 }
 class
 StaticWithObject
@@ -166,6 +169,17 @@ obj
 is
 <
 JSFunction
+>
+(
+)
+|
+|
+obj
+-
+>
+is
+<
+ModuleObject
 >
 (
 )

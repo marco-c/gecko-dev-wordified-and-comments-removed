@@ -1624,6 +1624,12 @@ JSFunction
 \
 D
 (
+ModuleObject
+*
+)
+\
+D
+(
 NestedScopeObject
 *
 )

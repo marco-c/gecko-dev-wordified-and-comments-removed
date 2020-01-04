@@ -1271,6 +1271,14 @@ ParseNode
 body
 )
 ;
+bool
+emitModuleScript
+(
+ParseNode
+*
+body
+)
+;
 void
 checkTypeSet
 (
