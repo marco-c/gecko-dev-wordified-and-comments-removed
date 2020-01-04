@@ -6860,12 +6860,6 @@ aEvent
 mLocalOrigin
 )
 ;
-ReentrantMonitorAutoEnter
-lock
-(
-mMonitor
-)
-;
 CancelAnimation
 (
 )
@@ -6923,6 +6917,12 @@ handoffState
 SetState
 (
 NOTHING
+)
+;
+ReentrantMonitorAutoEnter
+lock
+(
+mMonitor
 )
 ;
 RequestContentRepaint
