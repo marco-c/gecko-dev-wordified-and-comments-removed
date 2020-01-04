@@ -114,6 +114,16 @@ mm
 LIBRARY_NAME
 )
 ]
+UNIFIED_SOURCES
++
+=
+[
+'
+plugin_child_quirks
+.
+mm
+'
+]
 OS_LIBS
 +
 =

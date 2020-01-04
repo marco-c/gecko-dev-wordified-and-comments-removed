@@ -230,6 +230,16 @@ MOZ_WIDGET_TOOLKIT
 cocoa
 '
 :
+EXPORTS
++
+=
+[
+'
+MacQuirks
+.
+h
+'
+]
 UNIFIED_SOURCES
 +
 =
