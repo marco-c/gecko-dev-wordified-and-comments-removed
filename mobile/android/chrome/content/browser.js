@@ -37884,7 +37884,7 @@ GetStringFromName
 "
 contextmenu
 .
-addSearchEngine2
+addSearchEngine3
 "
 )
 ;
