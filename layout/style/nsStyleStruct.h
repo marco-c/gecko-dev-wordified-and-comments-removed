@@ -13360,10 +13360,7 @@ nsChangeHint_ReflowChangesSizeOrPosition
 nsChangeHint_ClearAncestorIntrinsics
 ;
 }
-mozilla
-:
-:
-StyleUserSelect
+uint8_t
 mUserSelect
 ;
 uint8_t
