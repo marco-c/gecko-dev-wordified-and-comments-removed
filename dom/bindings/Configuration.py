@@ -1006,6 +1006,25 @@ filenamesForUnion
 :
                     
 if
+t
+.
+filename
+(
+)
+=
+=
+"
+<
+unknown
+>
+"
+:
+                        
+uniqueFilenameForUnion
+=
+None
+                    
+elif
 len
 (
 filenamesForUnion
