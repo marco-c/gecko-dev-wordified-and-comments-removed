@@ -325,6 +325,8 @@ sourceeditor
 /
 codemirror
 /
+lib
+/
 codemirror
 .
 css
@@ -341,6 +343,8 @@ content
 sourceeditor
 /
 codemirror
+/
+addon
 /
 dialog
 /
@@ -401,6 +405,8 @@ sourceeditor
 /
 codemirror
 /
+lib
+/
 codemirror
 .
 js
@@ -417,6 +423,8 @@ content
 sourceeditor
 /
 codemirror
+/
+addon
 /
 dialog
 /
@@ -436,6 +444,8 @@ content
 sourceeditor
 /
 codemirror
+/
+addon
 /
 search
 /
@@ -456,6 +466,8 @@ sourceeditor
 /
 codemirror
 /
+addon
+/
 search
 /
 search
@@ -474,6 +486,8 @@ content
 sourceeditor
 /
 codemirror
+/
+addon
 /
 edit
 /
@@ -494,6 +508,8 @@ sourceeditor
 /
 codemirror
 /
+addon
+/
 edit
 /
 closebrackets
@@ -512,6 +528,8 @@ content
 sourceeditor
 /
 codemirror
+/
+addon
 /
 comment
 /
@@ -627,6 +645,8 @@ sourceeditor
 /
 codemirror
 /
+addon
+/
 selection
 /
 active
@@ -647,6 +667,8 @@ content
 sourceeditor
 /
 codemirror
+/
+addon
 /
 edit
 /
@@ -724,6 +746,8 @@ sourceeditor
 /
 codemirror
 /
+addon
+/
 fold
 /
 foldcode
@@ -742,6 +766,8 @@ content
 sourceeditor
 /
 codemirror
+/
+addon
 /
 fold
 /
@@ -764,6 +790,8 @@ sourceeditor
 /
 codemirror
 /
+addon
+/
 fold
 /
 comment
@@ -785,6 +813,8 @@ sourceeditor
 /
 codemirror
 /
+addon
+/
 fold
 /
 xml
@@ -805,6 +835,8 @@ content
 sourceeditor
 /
 codemirror
+/
+addon
 /
 fold
 /

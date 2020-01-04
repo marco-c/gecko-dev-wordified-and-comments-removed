@@ -65,6 +65,8 @@ sourceeditor
 /
 codemirror
 /
+addon
+/
 tern
 /
 tern
@@ -83,6 +85,8 @@ content
 sourceeditor
 /
 codemirror
+/
+addon
 /
 hint
 /
