@@ -266,9 +266,6 @@ createReader
 (
 )
 ;
-[
-Throws
-]
 void
 getFile
 (
@@ -286,9 +283,6 @@ ErrorCallback
 errorCallback
 )
 ;
-[
-Throws
-]
 void
 getDirectory
 (

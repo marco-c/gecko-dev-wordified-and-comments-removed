@@ -43,6 +43,13 @@ h
 #
 include
 "
+nsIGlobalObject
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h
