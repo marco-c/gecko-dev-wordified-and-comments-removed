@@ -710,10 +710,11 @@ RequestRestyle
 restyleType
 )
 ;
+}
 if
 (
 !
-isRelevant
+inEffect
 )
 {
 mProgressOnLastCompose
@@ -722,7 +723,6 @@ SetNull
 (
 )
 ;
-}
 }
 }
 Nullable
