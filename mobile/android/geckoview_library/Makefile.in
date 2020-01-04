@@ -146,7 +146,7 @@ config
 rules
 .
 mk
-_ABS_DIST
+abs_dist
 =
 (
 abspath
@@ -154,12 +154,12 @@ abspath
 DIST
 )
 )
-DIST_FILES
+dist_files
 =
 (
 addprefix
 (
-_ABS_DIST
+abs_dist
 )
 /
 bin
@@ -198,7 +198,7 @@ MKDIR
 -
 p
 (
-_ABS_DIST
+abs_dist
 )
 /
 geckoview_library
@@ -223,14 +223,14 @@ zip
 -
 C
 (
-_ABS_DIST
+abs_dist
 )
 /
 (
 MOZ_APP_NAME
 )
 (
-_ABS_DIST
+abs_dist
 )
 /
 geckoview_library
@@ -329,7 +329,7 @@ SOs
 .
 cp
 (
-DIST_FILES
+dist_files
 )
 libs
 /
@@ -368,7 +368,7 @@ u
 -
 o
 (
-_ABS_DIST
+abs_dist
 )
 /
 bin
@@ -399,7 +399,7 @@ q
 -
 r
 (
-_ABS_DIST
+abs_dist
 )
 /
 geckoview_library
