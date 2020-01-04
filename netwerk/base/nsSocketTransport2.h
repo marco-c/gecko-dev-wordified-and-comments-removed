@@ -997,6 +997,12 @@ mOriginHost
 uint16_t
 mPort
 ;
+nsCOMPtr
+<
+nsIProxyInfo
+>
+mProxyInfo
+;
 uint16_t
 mProxyPort
 ;

@@ -305,6 +305,14 @@ nsACString
 host
 int32_t
 port
+const
+nsACString
+&
+username
+const
+nsACString
+&
+password
 uint32_t
 flags
 uint32_t
