@@ -1294,6 +1294,8 @@ nsContentUtils
 :
 LogMessageToConsole
 (
+nsPrintfCString
+(
 "
 Unsupported
 service
@@ -1305,6 +1307,11 @@ version
 s
 "
 version
+.
+get
+(
+)
+)
 .
 get
 (
