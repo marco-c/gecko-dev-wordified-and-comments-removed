@@ -345,10 +345,6 @@ return
 tab
 .
 linkedBrowser
-.
-contentWindow
-.
-document
 ;
 }
 )

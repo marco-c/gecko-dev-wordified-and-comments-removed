@@ -64,7 +64,7 @@ function
 )
 {
 let
-doc
+browser
 =
 yield
 addTab
@@ -75,6 +75,13 @@ about
 preferences
 "
 )
+;
+let
+doc
+=
+browser
+.
+contentDocument
 ;
 let
 nodeBuilder

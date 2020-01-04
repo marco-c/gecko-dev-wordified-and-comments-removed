@@ -3894,9 +3894,16 @@ then
 (
 function
 (
-doc
+browser
 )
 {
+let
+doc
+=
+browser
+.
+contentDocument
+;
 initDebuggerServer
 (
 )
