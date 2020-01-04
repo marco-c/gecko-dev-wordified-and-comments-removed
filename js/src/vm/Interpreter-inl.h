@@ -2521,7 +2521,7 @@ JS
 :
 :
 HandleValue
-receiver_
+receiver
 HandleValue
 key
 MutableHandleValue
@@ -2549,7 +2549,7 @@ cx
 ToObjectFromStack
 (
 cx
-receiver_
+receiver
 )
 )
 ;
@@ -2560,17 +2560,6 @@ boxed
 )
 return
 false
-;
-RootedValue
-receiver
-(
-cx
-ObjectValue
-(
-*
-boxed
-)
-)
 ;
 do
 {
@@ -2757,7 +2746,7 @@ GetProperty
 (
 cx
 boxed
-boxed
+receiver
 id
 res
 )

@@ -23,7 +23,7 @@ assertEq
 typeof
 this
 "
-object
+string
 "
 )
 ;
