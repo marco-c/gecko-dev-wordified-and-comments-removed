@@ -64,10 +64,6 @@ h
 class
 gfxContext
 ;
-typedef
-nsSVGContainerFrame
-nsSVGMaskFrameBase
-;
 #
 ifdef
 IS_BIG_ENDIAN
@@ -112,7 +108,7 @@ nsSVGMaskFrame
 final
 :
 public
-nsSVGMaskFrameBase
+nsSVGContainerFrame
 {
 friend
 nsIFrame
@@ -157,7 +153,7 @@ nsStyleContext
 aContext
 )
 :
-nsSVGMaskFrameBase
+nsSVGContainerFrame
 (
 aContext
 )
