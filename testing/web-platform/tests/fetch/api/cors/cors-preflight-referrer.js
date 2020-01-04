@@ -146,7 +146,6 @@ function
 test
 )
 {
-return
 fetch
 (
 RESOURCES_DIR
@@ -321,6 +320,8 @@ http
 :
 /
 /
+www1
+.
 {
 {
 host
@@ -334,7 +335,7 @@ ports
 http
 ]
 [
-1
+0
 ]
 }
 }
