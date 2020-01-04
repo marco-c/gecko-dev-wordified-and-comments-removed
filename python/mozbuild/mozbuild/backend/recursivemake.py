@@ -3779,9 +3779,21 @@ AndroidExtraResDirs
 for
 p
 in
+sorted
+(
+set
+(
+p
+.
+full_path
+for
+p
+in
 obj
 .
 paths
+)
+)
 :
                 
 backend_file
@@ -3799,8 +3811,6 @@ n
 '
 %
 p
-.
-full_path
 )
         
 elif
@@ -3814,9 +3824,15 @@ AndroidExtraPackages
 for
 p
 in
+sorted
+(
+set
+(
 obj
 .
 packages
+)
+)
 :
                 
 backend_file
@@ -8977,9 +8993,15 @@ target
 .
 join
 (
+sorted
+(
+set
+(
 jar
 .
 extra_jars
+)
+)
 )
 )
 )
