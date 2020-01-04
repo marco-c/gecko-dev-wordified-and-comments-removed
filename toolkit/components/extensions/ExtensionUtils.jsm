@@ -6878,7 +6878,7 @@ messageManager
 sendAsyncMessage
 (
 "
-API
+Extension
 :
 CloseProxyContext
 "
