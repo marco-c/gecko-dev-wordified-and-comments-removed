@@ -141,7 +141,7 @@ testActor
 }
 =
 yield
-openLayoutView
+openBoxModelView
 (
 )
 ;
@@ -228,11 +228,11 @@ querySelector
 (
 "
 .
-layout
+boxmodel
 -
 border
 .
-layout
+boxmodel
 -
 top
 >

@@ -171,7 +171,7 @@ updated
 ;
 }
 function
-openLayoutView
+openBoxModelView
 (
 )
 {
@@ -259,7 +259,7 @@ inspector
 .
 computedview
 .
-layoutView
+boxModelView
 testActor
 :
 data
@@ -283,7 +283,9 @@ inspector
 once
 (
 "
-layoutview
+boxmodel
+-
+view
 -
 updated
 "

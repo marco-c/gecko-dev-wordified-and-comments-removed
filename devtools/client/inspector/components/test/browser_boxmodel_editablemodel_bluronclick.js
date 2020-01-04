@@ -84,7 +84,7 @@ view
 }
 =
 yield
-openLayoutView
+openBoxModelView
 (
 )
 ;
@@ -145,11 +145,11 @@ querySelector
 (
 "
 .
-layout
+boxmodel
 -
 margin
 .
-layout
+boxmodel
 -
 top
 >
@@ -344,11 +344,11 @@ querySelector
 (
 "
 .
-layout
+boxmodel
 -
 margin
 .
-layout
+boxmodel
 -
 top
 >
@@ -384,7 +384,7 @@ that
 clicking
 below
 the
-layout
+boxmodel
 -
 container
 blurs
@@ -460,7 +460,7 @@ querySelector
 (
 "
 #
-layout
+boxmodel
 -
 container
 "

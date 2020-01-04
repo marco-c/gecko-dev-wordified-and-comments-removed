@@ -252,7 +252,7 @@ shortcuts
 ;
 const
 {
-LayoutView
+BoxModelView
 }
 =
 require
@@ -264,9 +264,11 @@ client
 /
 inspector
 /
-layout
+components
 /
-layout
+box
+-
+model
 "
 )
 ;
@@ -6751,10 +6753,10 @@ pageStyle
 ;
 this
 .
-layoutView
+boxModelView
 =
 new
-LayoutView
+BoxModelView
 (
 this
 .
@@ -7467,7 +7469,7 @@ destroy
 ;
 this
 .
-layoutView
+boxModelView
 .
 destroy
 (
@@ -7479,7 +7481,7 @@ computedView
 =
 this
 .
-layoutView
+boxModelView
 =
 this
 .
