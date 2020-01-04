@@ -33,13 +33,14 @@ pwd
 /
 vs2015u2
 "
+fi
 VSWINPATH
 =
 "
 (
 cd
 {
-TOOLTOOL_DIR
+VSPATH
 }
 &
 &
@@ -47,10 +48,7 @@ pwd
 -
 W
 )
-/
-vs2015u2
 "
-fi
 export
 WINDOWSSDKDIR
 =
@@ -313,6 +311,8 @@ mozconfig
 vs
 -
 common
+mk_export_correct_style
+WINDOWSSDKDIR
 mk_export_correct_style
 INCLUDE
 mk_export_correct_style

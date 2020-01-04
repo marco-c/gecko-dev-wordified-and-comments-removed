@@ -1853,6 +1853,10 @@ CC
 '
 CXX
 '
+                          
+'
+WINDOWSSDKDIR
+'
 ]
 )
 if
