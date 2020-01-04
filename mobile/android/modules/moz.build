@@ -187,11 +187,6 @@ Notifications
 jsm
 '
 '
-OrderedBroadcast
-.
-jsm
-'
-'
 PageActions
 .
 jsm
