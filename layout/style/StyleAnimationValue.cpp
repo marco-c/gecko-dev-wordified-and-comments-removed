@@ -19646,13 +19646,10 @@ Item
 .
 SetIntValue
 (
-uint8_t
-(
 aClipPath
 .
 GetSizingBox
 (
-)
 )
 eCSSUnit_Enumerated
 )
@@ -21667,13 +21664,10 @@ aComputedValue
 .
 SetIntValue
 (
-uint8_t
-(
 clipPath
 .
 GetSizingBox
 (
-)
 )
 eUnit_Enumerated
 )
