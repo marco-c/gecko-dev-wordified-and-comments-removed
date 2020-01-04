@@ -2629,7 +2629,7 @@ startTime
 timeout
 ;
 let
-observer
+onTimer
 =
 function
 (
@@ -2724,11 +2724,15 @@ res
 }
 }
 ;
+onTimer
+(
+)
+;
 timer
 .
 init
 (
-observer
+onTimer
 interval
 Ci
 .
