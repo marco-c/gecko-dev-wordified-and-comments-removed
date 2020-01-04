@@ -318,13 +318,6 @@ GetDirectoryListingTaskChild
 (
 )
 {
-MOZ_ASSERT
-(
-NS_IsMainThread
-(
-)
-)
-;
 mFileSystem
 -
 >
