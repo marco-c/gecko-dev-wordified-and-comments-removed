@@ -5,18 +5,6 @@ strict
 ;
 var
 {
-Cu
-}
-=
-require
-(
-"
-chrome
-"
-)
-;
-var
-{
 Task
 }
 =
@@ -137,7 +125,7 @@ resolve
 reject
 )
 {
-var
+let
 onEvent
 =
 function
