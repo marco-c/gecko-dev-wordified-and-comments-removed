@@ -314,6 +314,9 @@ mobile
 '
 b2g
 '
+'
+lint
+'
 )
         
 '

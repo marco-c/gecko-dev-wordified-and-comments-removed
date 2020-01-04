@@ -78,6 +78,12 @@ JOB_KINDS
 set
 (
 [
+    
+'
+source
+-
+check
+'
 ]
 )
 def
