@@ -136,6 +136,11 @@ ServiceWorkerRegistration
 h
 '
 '
+WorkerPrefs
+.
+h
+'
+'
 WorkerPrivate
 .
 h
