@@ -81,11 +81,6 @@ R
 .
 drawable
 .
-alert_addon
-R
-.
-drawable
-.
 alert_app
 R
 .
