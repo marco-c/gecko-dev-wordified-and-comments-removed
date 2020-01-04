@@ -459,7 +459,7 @@ focusedAttr
 .
 tagName
 "
-input
+textarea
 "
 "
 newattr
