@@ -1,3 +1,12 @@
+var
+url
+=
+'
+index
+.
+html
+'
+;
 self
 .
 addEventListener
@@ -44,9 +53,7 @@ cache
 .
 add
 (
-'
-aurl
-'
+url
 )
 .
 then
@@ -92,9 +99,7 @@ cache
 .
 match
 (
-'
-aurl
-'
+url
 )
 .
 then
