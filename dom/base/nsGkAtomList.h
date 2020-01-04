@@ -14022,6 +14022,13 @@ MenuFrame
 )
 GK_ATOM
 (
+meterFrame
+"
+MeterFrame
+"
+)
+GK_ATOM
+(
 menuPopupFrame
 "
 MenuPopupFrame
@@ -14074,6 +14081,13 @@ GK_ATOM
 popupSetFrame
 "
 PopupSetFrame
+"
+)
+GK_ATOM
+(
+progressFrame
+"
+ProgressFrame
 "
 )
 GK_ATOM
