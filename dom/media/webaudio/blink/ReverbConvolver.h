@@ -189,15 +189,6 @@ m_accumulationBuffer
 ReverbInputBuffer
 m_inputBuffer
 ;
-size_t
-m_minFFTSize
-;
-size_t
-m_maxFFTSize
-;
-size_t
-m_maxRealtimeFFTSize
-;
 base
 :
 :
