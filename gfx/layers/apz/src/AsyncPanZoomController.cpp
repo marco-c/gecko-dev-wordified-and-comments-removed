@@ -7318,6 +7318,9 @@ WheelScrollAnimation
 *
 this
 initialPosition
+aEvent
+.
+mDeltaType
 )
 )
 ;
