@@ -192,6 +192,9 @@ bool
 disableLoopUnrolling
 ;
 bool
+disableInstructionReordering
+;
+bool
 disableRangeAnalysis
 ;
 bool
