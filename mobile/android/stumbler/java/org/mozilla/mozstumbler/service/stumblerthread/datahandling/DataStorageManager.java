@@ -1274,9 +1274,11 @@ filename
 if
 (
 filename
-=
-=
+.
+equals
+(
 MEMORY_BUFFER_NAME
+)
 )
 {
 mCurrentReportsSendBuffer
