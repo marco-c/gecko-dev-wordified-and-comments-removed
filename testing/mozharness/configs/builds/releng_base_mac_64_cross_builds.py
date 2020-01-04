@@ -266,12 +266,6 @@ macosx64
 '
     
 '
-use_platform_in_symbols_extra_buildid
-'
-:
-True
-    
-'
 env
 '
 :

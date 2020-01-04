@@ -173,10 +173,6 @@ obj
 -
 firefox
 export
-MOZ_SYMBOLS_EXTRA_BUILDID
-=
-linux64
-export
 TINDERBOX_OUTPUT
 =
 1

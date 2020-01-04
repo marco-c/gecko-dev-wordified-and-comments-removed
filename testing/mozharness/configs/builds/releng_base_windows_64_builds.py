@@ -400,14 +400,6 @@ env
 {
         
 '
-MOZ_SYMBOLS_EXTRA_BUILDID
-'
-:
-'
-win64
-'
-        
-'
 MOZ_AUTOMATION
 '
 :

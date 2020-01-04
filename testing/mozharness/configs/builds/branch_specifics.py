@@ -37,12 +37,6 @@ Firefox
 "
         
 '
-use_branch_in_symbols_extra_buildid
-'
-:
-False
-        
-'
 stage_server
 '
 :
@@ -101,12 +95,6 @@ branch_uses_per_checkin_strategy
 '
 :
 True
-        
-'
-use_branch_in_symbols_extra_buildid
-'
-:
-False
         
 '
 stage_server
@@ -583,12 +571,6 @@ branch_uses_per_checkin_strategy
 True
         
 '
-use_branch_in_symbols_extra_buildid
-'
-:
-False
-        
-'
 stage_server
 '
 :
@@ -1057,12 +1039,6 @@ branch_uses_per_checkin_strategy
 True
         
 '
-use_branch_in_symbols_extra_buildid
-'
-:
-False
-        
-'
 stage_server
 '
 :
@@ -1143,12 +1119,6 @@ release_to_try_builds
 '
 :
 True
-        
-'
-use_branch_in_symbols_extra_buildid
-'
-:
-False
         
 '
 stage_server

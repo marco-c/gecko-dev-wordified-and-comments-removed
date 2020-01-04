@@ -2065,16 +2065,6 @@ package
 name
 .
 mk
-ifdef
-MOZ_SYMBOLS_EXTRA_BUILDID
-EXTRA_BUILDID
-:
-=
--
-(
-MOZ_SYMBOLS_EXTRA_BUILDID
-)
-endif
 SYMBOL_INDEX_NAME
 =
 \
@@ -2096,9 +2086,6 @@ BUILDID
 -
 (
 CPU_ARCH
-)
-(
-EXTRA_BUILDID
 )
 -
 symbols
