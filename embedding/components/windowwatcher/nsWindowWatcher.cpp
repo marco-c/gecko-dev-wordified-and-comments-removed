@@ -4671,7 +4671,6 @@ GetStorage
 (
 pInnerWin
 subjectPrincipal
-isPrivateBrowsingWindow
 getter_AddRefs
 (
 storage

@@ -1276,8 +1276,6 @@ const
 nsAString
 &
 aDocumentURI
-bool
-aPrivate
 nsIDOMStorage
 *
 *
@@ -1502,7 +1500,6 @@ this
 cache
 aDocumentURI
 aPrincipal
-aPrivate
 )
 ;
 storage
@@ -1537,7 +1534,6 @@ aPrincipal
 EmptyString
 (
 )
-false
 nullptr
 )
 ;
@@ -1558,8 +1554,6 @@ const
 nsAString
 &
 aDocumentURI
-bool
-aPrivate
 nsIDOMStorage
 *
 *
@@ -1573,7 +1567,6 @@ true
 aWindow
 aPrincipal
 aDocumentURI
-aPrivate
 aRetval
 )
 ;
@@ -1590,8 +1583,6 @@ aWindow
 nsIPrincipal
 *
 aPrincipal
-bool
-aPrivate
 nsIDOMStorage
 *
 *
@@ -1607,7 +1598,6 @@ aPrincipal
 EmptyString
 (
 )
-aPrivate
 aRetval
 )
 ;
@@ -1910,8 +1900,6 @@ const
 nsAString
 &
 aDocumentURI
-bool
-aPrivate
 nsIDOMStorage
 *
 *
@@ -1936,7 +1924,6 @@ CreateStorage
 nullptr
 aPrincipal
 aDocumentURI
-aPrivate
 aRetval
 )
 ;
