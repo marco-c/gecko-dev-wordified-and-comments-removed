@@ -1779,6 +1779,16 @@ Keyframe
 aFrames
 )
 {
+MOZ_ASSERT
+(
+aStyleContext
+)
+;
+MOZ_ASSERT
+(
+aElement
+)
+;
 nsTArray
 <
 KeyframeValueEntry
