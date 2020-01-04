@@ -873,8 +873,6 @@ virtual
 void
 Resume
 (
-bool
-aForceBuffering
 )
 ;
 void
