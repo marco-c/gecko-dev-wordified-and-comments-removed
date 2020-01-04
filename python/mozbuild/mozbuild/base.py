@@ -1087,13 +1087,10 @@ mozconfig
 mozconfig
 )
     
-staticmethod
-    
 def
 resolve_mozconfig_topobjdir
 (
-topsrcdir
-mozconfig
+self
 default
 =
 None
@@ -1102,6 +1099,8 @@ None
         
 topobjdir
 =
+self
+.
 mozconfig
 [
 '
@@ -1141,7 +1140,12 @@ MozbuildObject
 .
 resolve_config_guess
 (
+self
+.
 mozconfig
+                                                    
+self
+.
 topsrcdir
 )
 )
@@ -1172,6 +1176,8 @@ path
 .
 join
 (
+self
+.
 topsrcdir
 topobjdir
 )
@@ -1213,17 +1219,11 @@ self
 .
 _topobjdir
 =
-MozbuildObject
+self
 .
 resolve_mozconfig_topobjdir
 (
                 
-self
-.
-topsrcdir
-self
-.
-mozconfig
 default
 =
 '
@@ -4439,15 +4439,10 @@ topobjdir
                 
 config_topobjdir
 =
-MozbuildObject
+dummy
 .
 resolve_mozconfig_topobjdir
 (
-                    
-topsrcdir
-dummy
-.
-mozconfig
 )
                 
 if
