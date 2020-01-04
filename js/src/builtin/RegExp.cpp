@@ -3137,6 +3137,15 @@ RegExpSearch
 1
 0
 )
+JS_SELF_HOSTED_SYM_FN
+(
+split
+"
+RegExpSplit
+"
+2
+0
+)
 JS_FS_END
 }
 ;

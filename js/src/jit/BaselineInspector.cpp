@@ -2854,11 +2854,11 @@ pc
 JSString
 *
 *
-stringOut
+strOut
 JSString
 *
 *
-stringArg
+sepOut
 JSObject
 *
 *
@@ -2933,7 +2933,7 @@ return
 false
 ;
 *
-stringOut
+strOut
 =
 stub
 -
@@ -2943,12 +2943,12 @@ toCall_StringSplit
 )
 -
 >
-expectedThis
+expectedStr
 (
 )
 ;
 *
-stringArg
+sepOut
 =
 stub
 -
@@ -2958,7 +2958,7 @@ toCall_StringSplit
 )
 -
 >
-expectedArg
+expectedSep
 (
 )
 ;
