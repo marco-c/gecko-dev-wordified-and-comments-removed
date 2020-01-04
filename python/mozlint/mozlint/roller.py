@@ -81,7 +81,10 @@ False
 )
         
 except
+(
 Empty
+IOError
+)
 :
             
 return
@@ -172,6 +175,7 @@ lintargs
 )
     
 except
+Exception
 :
         
 traceback
@@ -496,35 +500,11 @@ linters
 )
 )
         
-orig
-=
-signal
-.
-signal
-(
-signal
-.
-SIGINT
-signal
-.
-SIG_IGN
-)
-        
 pool
 =
 Pool
 (
 num_procs
-)
-        
-signal
-.
-signal
-(
-signal
-.
-SIGINT
-orig
 )
         
 all_results
@@ -534,7 +514,7 @@ defaultdict
 list
 )
         
-results
+workers
 =
 [
 ]
@@ -548,7 +528,7 @@ num_procs
 )
 :
             
-results
+workers
 .
 append
 (
@@ -572,17 +552,35 @@ lintargs
 )
 )
         
+pool
+.
+close
+(
+)
+        
+signal
+.
+signal
+(
+signal
+.
+SIGINT
+signal
+.
+SIG_IGN
+)
+        
 for
-res
+worker
 in
-results
+workers
 :
             
 for
 k
 v
 in
-res
+worker
 .
 get
 (

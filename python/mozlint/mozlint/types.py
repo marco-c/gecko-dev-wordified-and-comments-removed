@@ -256,12 +256,15 @@ errors
 [
 ]
         
+try
+:
+            
 for
 p
 in
 paths
 :
-            
+                
 result
 =
 self
@@ -274,17 +277,23 @@ linter
 *
 lintargs
 )
-            
+                
 if
 result
 :
-                
+                    
 errors
 .
 extend
 (
 result
 )
+        
+except
+KeyboardInterrupt
+:
+            
+pass
         
 return
 errors
