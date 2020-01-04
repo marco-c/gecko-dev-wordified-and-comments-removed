@@ -3544,6 +3544,8 @@ GdkRectangle
 inner_rect
 GtkTextDirection
 direction
+gboolean
+ignore_focus
 )
 {
 GtkStyleContext
@@ -3578,6 +3580,11 @@ style
 border
 )
 ;
+if
+(
+!
+ignore_focus
+)
 gtk_style_context_get_padding
 (
 style
@@ -6541,6 +6548,8 @@ rect
 GtkWidgetState
 *
 state
+gboolean
+ishtml
 GtkTextDirection
 direction
 )
@@ -6584,6 +6593,7 @@ rect
 &
 arrow_rect
 direction
+ishtml
 )
 ;
 gtk_widget_get_preferred_size
@@ -7041,6 +7051,7 @@ rect
 &
 arrow_rect
 direction
+FALSE
 )
 ;
 if
@@ -11303,6 +11314,12 @@ gtk_widget_get_style_context
 gComboBoxButtonWidget
 )
 ;
+if
+(
+!
+inhtml
+)
+{
 moz_gtk_add_style_padding
 (
 style
@@ -11312,6 +11329,7 @@ right
 bottom
 )
 ;
+}
 moz_gtk_add_style_border
 (
 style
@@ -13059,6 +13077,10 @@ moz_gtk_combo_box_paint
 cr
 rect
 state
+(
+gboolean
+)
+flags
 direction
 )
 ;
