@@ -15275,10 +15275,10 @@ EffectSet
 GetEffectSet
 (
 this
-nsCSSPseudoElements
+CSSPseudoElementType
 :
 :
-ePseudo_NotPseudoElement
+NotPseudo
 )
 ;
 if

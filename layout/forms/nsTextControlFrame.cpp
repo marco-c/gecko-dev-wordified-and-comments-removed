@@ -1472,10 +1472,10 @@ nsCSSPseudoElements
 Type
 pseudoType
 =
-nsCSSPseudoElements
+CSSPseudoElementType
 :
 :
-ePseudo_mozPlaceholder
+mozPlaceholder
 ;
 RefPtr
 <
@@ -6582,10 +6582,10 @@ if
 aType
 =
 =
-nsCSSPseudoElements
+CSSPseudoElementType
 :
 :
-ePseudo_mozPlaceholder
+mozPlaceholder
 )
 {
 nsCOMPtr

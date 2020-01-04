@@ -351,10 +351,10 @@ nsCSSPseudoElements
 Type
 pseudoType
 =
-nsCSSPseudoElements
+CSSPseudoElementType
 :
 :
-ePseudo_mozMathAnonymous
+mozMathAnonymous
 ;
 RefPtr
 <

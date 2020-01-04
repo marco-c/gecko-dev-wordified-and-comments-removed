@@ -1965,10 +1965,10 @@ GetContent
 AsElement
 (
 )
-nsCSSPseudoElements
+CSSPseudoElementType
 :
 :
-ePseudo_mozFocusInner
+mozFocusInner
 context
 )
 ;
@@ -1990,10 +1990,10 @@ GetContent
 AsElement
 (
 )
-nsCSSPseudoElements
+CSSPseudoElementType
 :
 :
-ePseudo_mozFocusOuter
+mozFocusOuter
 context
 )
 ;

@@ -301,10 +301,10 @@ nsCSSPseudoElements
 Type
 pseudoType
 =
-nsCSSPseudoElements
+CSSPseudoElementType
 :
 :
-ePseudo_mozColorSwatch
+mozColorSwatch
 ;
 RefPtr
 <
@@ -608,10 +608,10 @@ if
 aType
 =
 =
-nsCSSPseudoElements
+CSSPseudoElementType
 :
 :
-ePseudo_mozColorSwatch
+mozColorSwatch
 )
 {
 return

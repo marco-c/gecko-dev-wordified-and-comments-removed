@@ -319,10 +319,10 @@ nsCSSPseudoElements
 Type
 pseudoType
 =
-nsCSSPseudoElements
+CSSPseudoElementType
 :
 :
-ePseudo_mozProgressBar
+mozProgressBar
 ;
 RefPtr
 <
@@ -1452,10 +1452,10 @@ if
 aType
 =
 =
-nsCSSPseudoElements
+CSSPseudoElementType
 :
 :
-ePseudo_mozProgressBar
+mozProgressBar
 )
 {
 return

@@ -198,10 +198,16 @@ aKey
 -
 >
 mElement
+static_cast
+<
+uint8_t
+>
+(
 aKey
 -
 >
 mPseudoType
+)
 )
 ;
 }

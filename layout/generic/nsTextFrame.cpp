@@ -19230,10 +19230,10 @@ StyleSet
 ProbePseudoElementStyle
 (
 selectionElement
-nsCSSPseudoElements
+CSSPseudoElementType
 :
 :
-ePseudo_mozSelection
+mozSelection
 mFrame
 -
 >

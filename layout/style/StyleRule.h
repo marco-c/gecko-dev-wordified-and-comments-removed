@@ -851,10 +851,13 @@ PseudoType
 )
 =
 =
-nsCSSPseudoElements
+mozilla
 :
 :
-ePseudo_NotPseudoElement
+CSSPseudoElementType
+:
+:
+NotPseudo
 ;
 }
 #

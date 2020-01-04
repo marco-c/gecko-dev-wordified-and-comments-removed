@@ -4154,10 +4154,10 @@ GetPseudoType
 )
 =
 =
-nsCSSPseudoElements
+CSSPseudoElementType
 :
 :
-ePseudo_XULTree
+XULTree
 #
 else
 false
