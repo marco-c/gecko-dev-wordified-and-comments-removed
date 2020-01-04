@@ -269,9 +269,6 @@ APZEventState
 class
 ImageCompositeNotification
 ;
-struct
-SetTargetAPZCCallback
-;
 }
 namespace
 widget
@@ -967,16 +964,6 @@ layers
 :
 APZEventState
 APZEventState
-;
-typedef
-mozilla
-:
-:
-layers
-:
-:
-SetTargetAPZCCallback
-SetTargetAPZCCallback
 ;
 typedef
 mozilla
