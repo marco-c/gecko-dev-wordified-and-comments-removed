@@ -508,6 +508,11 @@ MaybeResolve
 )
 ;
 }
+void
+MaybeResolveWithUndefined
+(
+)
+;
 inline
 void
 MaybeReject
