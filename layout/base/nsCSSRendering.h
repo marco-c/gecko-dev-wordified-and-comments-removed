@@ -1420,13 +1420,6 @@ bool
 aOutIsTransformedFixed
 =
 nullptr
-CompositionOp
-aCompositionOp
-=
-CompositionOp
-:
-:
-OP_OVER
 )
 ;
 struct
