@@ -380,7 +380,7 @@ eDragEventClass
 EVENT
 (
 dragend
-NS_DRAGDROP_END
+eDragEnd
 EventNameType_HTMLXUL
 eDragEventClass
 )

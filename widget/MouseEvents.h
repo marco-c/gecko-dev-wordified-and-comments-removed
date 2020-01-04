@@ -974,7 +974,7 @@ eDragLeave
 aMessage
 !
 =
-NS_DRAGDROP_END
+eDragEnd
 )
 ;
 }
