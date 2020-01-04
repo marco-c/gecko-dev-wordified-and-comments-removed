@@ -209,6 +209,11 @@ stylesheet
 js
 '
 '
+symbol
+.
+js
+'
+'
 text
 -
 node

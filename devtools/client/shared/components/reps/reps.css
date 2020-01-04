@@ -324,6 +324,10 @@ string
 .
 objectBox
 -
+symbol
+.
+objectBox
+-
 text
 .
 objectLink
@@ -383,6 +387,10 @@ color
 objectBox
 -
 string
+.
+objectBox
+-
+symbol
 {
 color
 :
