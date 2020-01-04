@@ -1981,7 +1981,7 @@ getProfile
 ;
 profile
 .
-forceCreate
+getDir
 (
 )
 ;

@@ -2646,7 +2646,7 @@ return
 mProfileDir
 ;
 }
-public
+private
 synchronized
 GeckoProfile
 forceCreate
