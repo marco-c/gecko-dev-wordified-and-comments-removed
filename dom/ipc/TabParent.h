@@ -2533,6 +2533,11 @@ mChromeOffset
 ;
 private
 :
+void
+DestroyInternal
+(
+)
+;
 already_AddRefed
 <
 nsFrameLoader
