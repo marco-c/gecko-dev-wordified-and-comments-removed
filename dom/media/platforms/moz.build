@@ -131,6 +131,13 @@ h
 '
 wrappers
 /
+FuzzingWrapper
+.
+h
+'
+'
+wrappers
+/
 H264Converter
 .
 h
@@ -175,6 +182,13 @@ cpp
 '
 '
 SharedDecoderManager
+.
+cpp
+'
+'
+wrappers
+/
+FuzzingWrapper
 .
 cpp
 '
