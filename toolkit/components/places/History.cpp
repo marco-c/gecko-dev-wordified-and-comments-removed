@@ -2149,6 +2149,7 @@ Runnable
 {
 public
 :
+explicit
 NotifyVisitObservers
 (
 VisitData
