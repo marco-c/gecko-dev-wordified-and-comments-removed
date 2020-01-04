@@ -12638,6 +12638,10 @@ DECODER_STATE_DECODING
 return
 ;
 }
+UpdatePlaybackPositionPeriodically
+(
+)
+;
 if
 (
 IsPlaying
