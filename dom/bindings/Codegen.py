@@ -12369,7 +12369,7 @@ UncheckedUnwrap
 instance
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /
@@ -12454,7 +12454,7 @@ UncheckedUnwrap
 instance
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /
@@ -12538,7 +12538,7 @@ UncheckedUnwrap
 instance
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /
@@ -57768,7 +57768,7 @@ UncheckedUnwrap
 obj
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /
@@ -107854,7 +107854,7 @@ toObject
 )
 /
 *
-stopAtOuter
+stopAtWindowProxy
 =
 *
 /

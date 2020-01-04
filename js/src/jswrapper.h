@@ -1574,7 +1574,7 @@ JSObject
 *
 obj
 bool
-stopAtOuter
+stopAtWindowProxy
 =
 true
 unsigned
@@ -1595,7 +1595,7 @@ JSObject
 *
 obj
 bool
-stopAtOuter
+stopAtWindowProxy
 =
 true
 )
@@ -1611,7 +1611,7 @@ JSObject
 *
 obj
 bool
-stopAtOuter
+stopAtWindowProxy
 =
 true
 )
