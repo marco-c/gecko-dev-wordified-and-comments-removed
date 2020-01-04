@@ -249,6 +249,14 @@ nsresult
 aStatus
 )
 ;
+[
+noscript
+]
+readonly
+attribute
+boolean
+loadCompleted
+;
 /
 *
 *
