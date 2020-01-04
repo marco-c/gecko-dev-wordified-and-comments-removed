@@ -72,6 +72,14 @@ aWhichClipboard
 ;
 virtual
 void
+ClearSelectionCache
+(
+)
+=
+0
+;
+virtual
+void
 SetSelectionCache
 (
 nsITransferable
