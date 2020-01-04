@@ -1199,7 +1199,7 @@ if
 mTextAlignment
 =
 =
-NS_STYLE_TEXT_ALIGN_DEFAULT
+NS_STYLE_TEXT_ALIGN_START
 &
 &
 vis
@@ -1240,7 +1240,7 @@ if
 mTextAlignment
 =
 =
-NS_STYLE_TEXT_ALIGN_DEFAULT
+NS_STYLE_TEXT_ALIGN_START
 |
 |
 mTextAlignment

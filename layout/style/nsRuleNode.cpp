@@ -21397,7 +21397,7 @@ text
 mTextAlign
 =
 (
-NS_STYLE_TEXT_ALIGN_DEFAULT
+NS_STYLE_TEXT_ALIGN_START
 =
 =
 parentAlign
@@ -21482,7 +21482,7 @@ parentAlign
 )
 {
 case
-NS_STYLE_TEXT_ALIGN_DEFAULT
+NS_STYLE_TEXT_ALIGN_START
 :
 text
 -
@@ -21683,7 +21683,7 @@ parentText
 -
 >
 mTextAlign
-NS_STYLE_TEXT_ALIGN_DEFAULT
+NS_STYLE_TEXT_ALIGN_START
 0
 0
 0
