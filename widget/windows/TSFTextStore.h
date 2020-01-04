@@ -1228,6 +1228,10 @@ Init
 nsWindowBase
 *
 aWidget
+const
+InputContext
+&
+aContext
 )
 ;
 void
