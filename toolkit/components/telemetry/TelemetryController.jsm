@@ -1724,7 +1724,7 @@ _log
 trace
 (
 "
-assemblePing
+_getApplicationSection
 -
 Unable
 to
@@ -1766,7 +1766,7 @@ _log
 trace
 (
 "
-assemblePing
+_getApplicationSection
 -
 Unable
 to
