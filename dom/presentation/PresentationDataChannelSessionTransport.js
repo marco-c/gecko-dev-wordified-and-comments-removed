@@ -1332,7 +1332,7 @@ e
 )
 ;
 }
-notifyClosed
+notifyDisconnected
 :
 function
 (
@@ -1342,7 +1342,7 @@ aReason
 log
 (
 "
-notifyClosed
+notifyDisconnected
 reason
 :
 "

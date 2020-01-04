@@ -2293,7 +2293,7 @@ NS_IMETHODIMP
 PresentationControllingInfo
 :
 :
-NotifyOpened
+NotifyConnected
 (
 )
 {
@@ -2488,7 +2488,7 @@ NS_IMETHODIMP
 PresentationControllingInfo
 :
 :
-NotifyClosed
+NotifyDisconnected
 (
 nsresult
 aReason
@@ -2535,7 +2535,7 @@ NS_FAILED
 builder
 -
 >
-NotifyClosed
+NotifyDisconnected
 (
 aReason
 )
@@ -3857,7 +3857,7 @@ NS_IMETHODIMP
 PresentationPresentingInfo
 :
 :
-NotifyOpened
+NotifyConnected
 (
 )
 {
@@ -3869,7 +3869,7 @@ NS_IMETHODIMP
 PresentationPresentingInfo
 :
 :
-NotifyClosed
+NotifyDisconnected
 (
 nsresult
 aReason
@@ -3916,7 +3916,7 @@ NS_FAILED
 builder
 -
 >
-NotifyClosed
+NotifyDisconnected
 (
 aReason
 )

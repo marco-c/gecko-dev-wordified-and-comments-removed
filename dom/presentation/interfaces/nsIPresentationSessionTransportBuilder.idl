@@ -352,7 +352,7 @@ transport
 .
 The
 |
-notifyOpened
+notifyConnected
 |
 of
 *
@@ -422,7 +422,7 @@ candidate
 )
 ;
 void
-notifyClosed
+notifyDisconnected
 (
 in
 nsresult

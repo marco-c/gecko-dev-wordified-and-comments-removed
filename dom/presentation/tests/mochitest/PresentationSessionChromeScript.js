@@ -896,7 +896,7 @@ Ci
 nsIPresentationControlChannelListener
 )
 .
-notifyClosed
+notifyDisconnected
 (
 reason
 )
@@ -988,7 +988,7 @@ mockedChannelDescription
 )
 ;
 }
-simulateNotifyOpened
+simulateNotifyConnected
 :
 function
 (
@@ -1016,7 +1016,7 @@ Ci
 nsIPresentationControlChannelListener
 )
 .
-notifyOpened
+notifyConnected
 (
 )
 ;
@@ -2454,7 +2454,7 @@ reason
 {
 mockedControlChannel
 .
-simulateNotifyOpened
+simulateNotifyConnected
 (
 )
 ;

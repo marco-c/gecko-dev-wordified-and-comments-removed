@@ -758,7 +758,7 @@ state
 ;
 mockReceiverChannel
 .
-notifyClosed
+notifyDisconnected
 =
 function
 (
@@ -828,7 +828,7 @@ state
 ;
 mockControllerChannel
 .
-notifyClosed
+notifyDisconnected
 =
 function
 (
@@ -938,7 +938,7 @@ state
 ;
 mockControllerChannel
 .
-notifyClosed
+notifyDisconnected
 =
 function
 (
@@ -1008,7 +1008,7 @@ state
 ;
 mockReceiverChannel
 .
-notifyClosed
+notifyDisconnected
 =
 function
 (
@@ -1123,7 +1123,7 @@ state
 ;
 mockReceiverChannel
 .
-notifyClosed
+notifyDisconnected
 =
 function
 (
@@ -1192,7 +1192,7 @@ state
 ;
 mockControllerChannel
 .
-notifyClosed
+notifyDisconnected
 =
 function
 (

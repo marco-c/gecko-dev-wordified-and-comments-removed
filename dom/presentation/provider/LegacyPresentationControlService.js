@@ -1109,7 +1109,7 @@ disconnect
 ;
 this
 .
-_notifyClosed
+_notifyDisconnected
 (
 e
 .
@@ -1379,7 +1379,7 @@ this
 .
 _listener
 .
-notifyClosed
+notifyDisconnected
 (
 e
 .
@@ -1454,7 +1454,7 @@ _createInputStreamPump
 }
 this
 .
-_notifyOpened
+_notifyConnected
 (
 )
 ;
@@ -1512,7 +1512,7 @@ aStatus
 ;
 this
 .
-_notifyClosed
+_notifyDisconnected
 (
 aStatus
 )
@@ -1907,7 +1907,7 @@ this
 .
 _listener
 .
-notifyOpened
+notifyConnected
 (
 )
 ;
@@ -1991,7 +1991,7 @@ closed
 ;
 this
 .
-_notifyClosed
+_notifyDisconnected
 (
 this
 .
@@ -2076,7 +2076,7 @@ aAnswer
 )
 ;
 }
-_notifyOpened
+_notifyConnected
 :
 function
 (
@@ -2136,12 +2136,12 @@ this
 .
 _listener
 .
-notifyOpened
+notifyConnected
 (
 )
 ;
 }
-_notifyClosed
+_notifyDisconnected
 :
 function
 (
@@ -2233,7 +2233,7 @@ this
 .
 _listener
 .
-notifyClosed
+notifyDisconnected
 (
 aReason
 )

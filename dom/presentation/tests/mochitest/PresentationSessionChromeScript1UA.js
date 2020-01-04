@@ -1007,7 +1007,7 @@ this
 _listener
 ;
 }
-notifyOpened
+notifyConnected
 :
 function
 (
@@ -1024,7 +1024,7 @@ Ci
 nsIPresentationControlChannelListener
 )
 .
-notifyOpened
+notifyConnected
 (
 )
 ;
@@ -1107,7 +1107,7 @@ Ci
 nsIPresentationControlChannelListener
 )
 .
-notifyClosed
+notifyDisconnected
 (
 reason
 )
@@ -1197,7 +1197,7 @@ false
 ;
 this
 .
-notifyOpened
+notifyConnected
 (
 )
 ;
@@ -1214,7 +1214,7 @@ this
 _listener
 ;
 }
-notifyOpened
+notifyConnected
 :
 function
 (
@@ -1248,7 +1248,7 @@ Ci
 nsIPresentationControlChannelListener
 )
 .
-notifyOpened
+notifyConnected
 (
 )
 ;
@@ -1327,7 +1327,7 @@ Ci
 nsIPresentationControlChannelListener
 )
 .
-notifyClosed
+notifyDisconnected
 (
 reason
 )
@@ -2107,13 +2107,13 @@ open
 ;
 mockControlChannelOfSender
 .
-notifyOpened
+notifyConnected
 (
 )
 ;
 mockControlChannelOfReceiver
 .
-notifyOpened
+notifyConnected
 (
 )
 ;

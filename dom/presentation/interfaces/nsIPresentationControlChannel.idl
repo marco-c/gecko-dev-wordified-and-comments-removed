@@ -323,7 +323,7 @@ callback
 for
 notifying
 channel
-opened
+connected
 .
 This
 should
@@ -340,7 +340,7 @@ establishControlChannel
 *
 /
 void
-notifyOpened
+notifyConnected
 (
 )
 ;
@@ -352,7 +352,7 @@ callback
 for
 notifying
 channel
-closed
+disconnected
 .
 *
 param
@@ -370,7 +370,7 @@ close
 *
 /
 void
-notifyClosed
+notifyDisconnected
 (
 in
 nsresult
