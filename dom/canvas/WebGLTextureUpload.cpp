@@ -9836,7 +9836,7 @@ funcName
 ]
 =
 "
-CopyTexImage2D
+copyTexImage2D
 "
 ;
 uint32_t
