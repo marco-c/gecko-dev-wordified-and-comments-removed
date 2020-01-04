@@ -732,6 +732,11 @@ BINPATH
 AccessibleMarshal
 .
 dll
+BINPATH
+/
+IA2Marshal
+.
+dll
 #
 endif
 RESPATH

@@ -961,6 +961,9 @@ NodeInfo
 aNodeInfo
 FromParser
 aFromParser
+nsAString
+*
+aIs
 )
 {
 *
@@ -1050,6 +1053,7 @@ name
 ;
 if
 (
+(
 tag
 =
 =
@@ -1063,6 +1067,10 @@ IsCustomElementName
 (
 name
 )
+)
+|
+|
+aIs
 )
 {
 nsIDocument
@@ -1111,6 +1119,7 @@ SetupCustomElement
 *
 aResult
 kNameSpaceID_XHTML
+aIs
 )
 ;
 return
