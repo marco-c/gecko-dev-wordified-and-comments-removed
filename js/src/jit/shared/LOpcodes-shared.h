@@ -1913,6 +1913,11 @@ WasmStore
 \
 _
 (
+WasmStoreI64
+)
+\
+_
+(
 WasmBoundsCheck
 )
 \

@@ -245,6 +245,14 @@ mod
 public
 :
 void
+visitWasmLoad
+(
+MWasmLoad
+*
+ins
+)
+;
+void
 visitBox
 (
 MBox

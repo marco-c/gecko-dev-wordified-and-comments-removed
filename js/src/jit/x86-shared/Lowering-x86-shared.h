@@ -289,7 +289,7 @@ ins
 )
 ;
 void
-visitWasmLoad
+lowerWasmLoad
 (
 MWasmLoad
 *
