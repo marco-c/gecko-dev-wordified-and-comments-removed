@@ -912,7 +912,7 @@ IsLoadedAsData
 aOwner
 -
 >
-GetComposedDoc
+IsInComposedDoc
 (
 )
 )
