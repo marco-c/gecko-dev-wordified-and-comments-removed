@@ -130,6 +130,13 @@ Versions
 import
 android
 .
+annotation
+.
+SuppressLint
+;
+import
+android
+.
 app
 .
 AlertDialog
@@ -236,6 +243,12 @@ widget
 .
 EditText
 ;
+SuppressLint
+(
+"
+Registered
+"
+)
 public
 class
 CrashReporter

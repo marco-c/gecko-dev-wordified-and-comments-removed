@@ -74,6 +74,7 @@ activities
 ActivityUtils
 ;
 public
+abstract
 class
 FxAccountWebFlowActivity
 extends

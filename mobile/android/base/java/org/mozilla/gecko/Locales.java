@@ -219,6 +219,7 @@ savedPolicy
 }
 public
 static
+abstract
 class
 LocaleAwareAppCompatActivity
 extends
@@ -253,6 +254,7 @@ savedInstanceState
 }
 public
 static
+abstract
 class
 LocaleAwareFragmentActivity
 extends
@@ -287,6 +289,7 @@ savedInstanceState
 }
 public
 static
+abstract
 class
 LocaleAwareActivity
 extends
