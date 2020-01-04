@@ -330,9 +330,6 @@ finished
 '
 finished_background
 '
-'
-installed
-'
                   
 '
 manual_update
@@ -341,14 +338,7 @@ manual_update
 no_updates_found
 '
 '
-plugin_updates_found
-'
-                  
-'
 updates_found_basic
-'
-'
-updates_found_billboard
 '
                   
 )
