@@ -27002,7 +27002,7 @@ msg
 =
 aEnter
 ?
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 :
 NS_MOUSE_EXIT_WIDGET
 ;

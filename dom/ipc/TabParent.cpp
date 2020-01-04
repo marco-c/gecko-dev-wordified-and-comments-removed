@@ -6172,7 +6172,7 @@ widget
 {
 if
 (
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 =
 =
 event

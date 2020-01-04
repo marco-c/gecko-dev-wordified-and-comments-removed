@@ -16385,7 +16385,7 @@ sCurrentWindow
 >
 DispatchMouseEvent
 (
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 wParam
 pos
 false

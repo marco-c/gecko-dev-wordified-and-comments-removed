@@ -28017,7 +28017,7 @@ mMessage
 )
 {
 case
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 :
 if
 (
@@ -29021,7 +29021,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 |
 |
 aEvent
@@ -29112,7 +29112,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 )
 {
 printf
@@ -29182,7 +29182,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 )
 {
 SynthesizeMouseMove

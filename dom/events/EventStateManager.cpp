@@ -2335,7 +2335,7 @@ mouseEvent
 mMessage
 !
 =
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 &
 &
 mouseEvent
@@ -2748,7 +2748,7 @@ break
 ;
 }
 case
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 :
 aEvent
 -
@@ -5305,7 +5305,7 @@ case
 NS_CONTEXTMENU
 :
 case
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 :
 case
 NS_MOUSE_EXIT_WIDGET
@@ -14143,7 +14143,7 @@ dispatchedToContentProcess
 break
 ;
 case
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 :
 if
 (
@@ -16129,7 +16129,7 @@ remoteEvent
 CreateMouseOrPointerWidgetEvent
 (
 aMouseEvent
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 aRelatedContent
 remoteEvent
 )

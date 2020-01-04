@@ -35920,7 +35920,7 @@ mouseover
 )
 msg
 =
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 ;
 else
 if

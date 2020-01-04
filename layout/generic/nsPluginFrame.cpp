@@ -8238,7 +8238,7 @@ anEvent
 mMessage
 =
 =
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 |
 |
 anEvent

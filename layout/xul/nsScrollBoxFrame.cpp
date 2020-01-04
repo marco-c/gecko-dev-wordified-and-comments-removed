@@ -344,7 +344,7 @@ mMessage
 )
 {
 case
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 :
 case
 NS_MOUSE_OVER

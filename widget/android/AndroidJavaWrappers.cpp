@@ -5268,7 +5268,7 @@ ACTION_HOVER_ENTER
 :
 msg
 =
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 ;
 break
 ;

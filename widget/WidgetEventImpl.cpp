@@ -259,7 +259,7 @@ case
 NS_MOUSE_DOUBLECLICK
 :
 case
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 :
 case
 NS_MOUSE_EXIT_WIDGET

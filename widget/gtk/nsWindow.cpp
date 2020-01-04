@@ -10050,7 +10050,7 @@ WidgetMouseEvent
 event
 (
 true
-NS_MOUSE_ENTER_WIDGET
+eMouseEnterIntoWidget
 this
 WidgetMouseEvent
 :
