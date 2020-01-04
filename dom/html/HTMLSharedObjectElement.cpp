@@ -1269,6 +1269,17 @@ eSupportSVG
 eSupportImages
 ;
 }
+if
+(
+mRewrittenYoutubeEmbed
+)
+{
+capabilities
+|
+=
+eSupportDocuments
+;
+}
 return
 capabilities
 ;
