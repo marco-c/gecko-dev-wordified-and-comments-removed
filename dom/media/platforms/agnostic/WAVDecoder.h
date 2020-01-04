@@ -157,9 +157,6 @@ bool
 >
 mIsFlushing
 ;
-int64_t
-mFrames
-;
 }
 ;
 }
