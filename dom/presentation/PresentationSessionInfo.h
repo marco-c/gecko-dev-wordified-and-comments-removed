@@ -353,9 +353,8 @@ this
 nsresult
 Send
 (
-const
-nsAString
-&
+nsIInputStream
+*
 aData
 )
 ;

@@ -151,7 +151,7 @@ SendSessionMessageRequest
 nsString
 sessionId
 ;
-nsString
+InputStreamParams
 data
 ;
 }
