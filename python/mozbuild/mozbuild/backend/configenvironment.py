@@ -392,24 +392,16 @@ directory
 defines
 is
 a
-list
-of
-(
-name
-value
-)
-tuples
-.
-In
-autoconf
-these
-are
-        
-set
-with
+dict
+filled
+from
 AC_DEFINE
 and
 AC_DEFINE_UNQUOTED
+in
+        
+autoconf
+.
       
 -
 non_global_defines
@@ -441,22 +433,12 @@ below
 substs
 is
 a
-list
-of
-(
-name
-value
-)
-tuples
-.
-In
-autoconf
-these
-are
-        
-set
-with
+dict
+filled
+from
 AC_SUBST
+in
+autoconf
 .
     
 ConfigEnvironment
@@ -680,17 +662,14 @@ topsrcdir
 topobjdir
 defines
 =
-[
-]
+None
+        
 non_global_defines
 =
-[
-]
-        
+None
 substs
 =
-[
-]
+None
 source
 =
 None
@@ -729,6 +708,9 @@ defines
 ReadOnlyDict
 (
 defines
+or
+{
+}
 )
         
 self
@@ -736,6 +718,9 @@ self
 non_global_defines
 =
 non_global_defines
+or
+[
+]
         
 self
 .
@@ -744,6 +729,9 @@ substs
 dict
 (
 substs
+or
+{
+}
 )
         
 self
@@ -913,14 +901,17 @@ global_defines
 name
 for
 name
-value
 in
+self
+.
 defines
             
 if
 not
 name
 in
+self
+.
 non_global_defines
 ]
         
@@ -970,10 +961,14 @@ replace
 '
 )
 )
+            
 for
 name
 in
+sorted
+(
 global_defines
+)
 ]
 )
         

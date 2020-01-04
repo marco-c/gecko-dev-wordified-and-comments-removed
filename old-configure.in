@@ -79336,10 +79336,6 @@ _SUBDIR_CONFIG_ARGS
 fi
 #
 COMPILE_ENVIRONMENT
-export
-WRITE_MOZINFO
-=
-1
 dnl
 we
 need
@@ -79398,8 +79394,12 @@ many
 AC_SUBSTed
 variables
 .
-MOZ_RUN_CONFIG_STATUS
+MOZ_RUN_ALL_SUBCONFIGURES
 (
 )
-unset
-WRITE_MOZINFO
+rm
+-
+fr
+confdefs
+*
+ac_clean_files

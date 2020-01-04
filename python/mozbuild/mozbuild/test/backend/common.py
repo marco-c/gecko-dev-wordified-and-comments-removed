@@ -100,8 +100,8 @@ lambda
 defines
 '
 :
-[
-]
+{
+}
     
 '
 non_global_defines
@@ -114,16 +114,15 @@ non_global_defines
 substs
 '
 :
-[
-(
+{
 '
 OS_TARGET
 '
+:
 '
 WINNT
 '
-)
-]
+}
 }
 {
     
@@ -137,18 +136,17 @@ android_eclipse
 defines
 '
 :
-[
+{
             
-(
 '
 MOZ_ANDROID_MIN_SDK_VERSION
 '
+:
 '
 15
 '
-)
         
-]
+}
         
 '
 non_global_defines
@@ -161,27 +159,25 @@ non_global_defines
 substs
 '
 :
-[
+{
             
-(
 '
 ANDROID_TARGET_SDK
 '
+:
 '
 16
 '
-)
             
-(
 '
 MOZ_WIDGET_TOOLKIT
 '
+:
 '
 android
 '
-)
         
-]
+}
     
 }
     
@@ -197,8 +193,8 @@ components
 defines
 '
 :
-[
-]
+{
+}
         
 '
 non_global_defines
@@ -211,27 +207,25 @@ non_global_defines
 substs
 '
 :
-[
+{
             
-(
 '
 LIB_PREFIX
 '
+:
 '
 lib
 '
-)
             
-(
 '
 LIB_SUFFIX
 '
+:
 '
 a
 '
-)
         
-]
+}
     
 }
     
@@ -245,8 +239,8 @@ sources
 defines
 '
 :
-[
-]
+{
+}
         
 '
 non_global_defines
@@ -259,27 +253,25 @@ non_global_defines
 substs
 '
 :
-[
+{
             
-(
 '
 LIB_PREFIX
 '
+:
 '
 lib
 '
-)
             
-(
 '
 LIB_SUFFIX
 '
+:
 '
 a
 '
-)
         
-]
+}
     
 }
     
@@ -293,27 +285,25 @@ stub0
 defines
 '
 :
-[
+{
             
-(
 '
 MOZ_TRUE_1
 '
+:
 '
 1
 '
-)
             
-(
 '
 MOZ_TRUE_2
 '
+:
 '
 1
 '
-)
         
-]
+}
         
 '
 non_global_defines
@@ -321,23 +311,13 @@ non_global_defines
 :
 [
             
-(
 '
 MOZ_NONGLOBAL_1
 '
-'
-1
-'
-)
             
-(
 '
 MOZ_NONGLOBAL_2
 '
-'
-1
-'
-)
         
 ]
         
@@ -345,27 +325,25 @@ MOZ_NONGLOBAL_2
 substs
 '
 :
-[
+{
             
-(
 '
 MOZ_FOO
 '
+:
 '
 foo
 '
-)
             
-(
 '
 MOZ_BAR
 '
+:
 '
 bar
 '
-)
         
-]
+}
     
 }
     
@@ -379,8 +357,8 @@ substitute_config_files
 defines
 '
 :
-[
-]
+{
+}
         
 '
 non_global_defines
@@ -393,27 +371,25 @@ non_global_defines
 substs
 '
 :
-[
+{
             
-(
 '
 MOZ_FOO
 '
+:
 '
 foo
 '
-)
             
-(
 '
 MOZ_BAR
 '
+:
 '
 bar
 '
-)
         
-]
+}
     
 }
     
@@ -427,26 +403,24 @@ test_config
 defines
 '
 :
-[
+{
             
-(
 '
 foo
 '
+:
 '
 baz
 qux
 '
-)
             
-(
 '
 baz
 '
+:
 1
-)
         
-]
+}
         
 '
 non_global_defines
@@ -459,19 +433,18 @@ non_global_defines
 substs
 '
 :
-[
+{
             
-(
 '
 foo
 '
+:
 '
 bar
 baz
 '
-)
         
-]
+}
     
 }
     
@@ -487,8 +460,8 @@ studio
 defines
 '
 :
-[
-]
+{
+}
         
 '
 non_global_defines
@@ -501,18 +474,17 @@ non_global_defines
 substs
 '
 :
-[
+{
             
-(
 '
 MOZ_APP_NAME
 '
+:
 '
 my_app
 '
-)
         
-]
+}
     
 }
 }
@@ -671,16 +643,13 @@ config
 substs
 '
 ]
-.
-append
-(
-(
+[
 '
 top_srcdir
 '
+]
+=
 srcdir
-)
-)
         
 return
 ConfigEnvironment

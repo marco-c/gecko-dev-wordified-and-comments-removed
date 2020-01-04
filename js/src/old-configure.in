@@ -1506,6 +1506,10 @@ BUILDING_JS
 1
 AC_SUBST
 (
+BUILDING_JS
+)
+AC_SUBST
+(
 autoconfmk
 )
 MOZ_ARG_WITH_STRING
@@ -31948,7 +31952,13 @@ JS_STANDALONE
 "
 ;
 then
-MOZ_RUN_CONFIG_STATUS
+MOZ_RUN_ALL_SUBCONFIGURES
 (
 )
 fi
+rm
+-
+fr
+confdefs
+*
+ac_clean_files
