@@ -178,12 +178,8 @@ aCandidate
 )
 ;
 void
-AppendDefaultCandidate
+MaybeAppendDefaultCandidate
 (
-const
-nsAString
-&
-aURLString
 )
 ;
 int
@@ -209,6 +205,9 @@ nsCOMPtr
 nsINode
 >
 mOwnerNode
+;
+nsString
+mDefaultSourceURL
 ;
 nsTArray
 <
