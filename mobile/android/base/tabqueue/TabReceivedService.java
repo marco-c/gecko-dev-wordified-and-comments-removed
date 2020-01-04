@@ -308,7 +308,7 @@ notificationIntent
 .
 putExtra
 (
-TabQueueDispatcher
+BrowserContract
 .
 SKIP_TAB_QUEUE_FLAG
 true
