@@ -614,7 +614,7 @@ void
 IMENotification
 :
 :
-SelectionChangeData
+SelectionChangeDataBase
 :
 :
 SetWritingMode
@@ -636,7 +636,7 @@ WritingMode
 IMENotification
 :
 :
-SelectionChangeData
+SelectionChangeDataBase
 :
 :
 GetWritingMode

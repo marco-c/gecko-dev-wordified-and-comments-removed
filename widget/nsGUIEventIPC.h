@@ -4591,7 +4591,7 @@ widget
 IMENotification
 :
 :
-SelectionChangeData
+SelectionChangeDataBase
 >
 {
 typedef
@@ -4604,7 +4604,7 @@ widget
 IMENotification
 :
 :
-SelectionChangeData
+SelectionChangeDataBase
 paramType
 ;
 static
