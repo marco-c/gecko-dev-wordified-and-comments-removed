@@ -2230,6 +2230,9 @@ case
 __NR_utimes
 :
 case
+__NR_link
+:
+case
 __NR_unlink
 :
 case
