@@ -119,9 +119,9 @@ aClientInfo
 )
 ;
 nsresult
-ContinueOnSuccessfulScriptEvaluation
+CheckScriptEvaluation
 (
-nsRunnable
+LifeCycleEventCallback
 *
 aCallback
 )
