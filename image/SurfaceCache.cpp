@@ -446,6 +446,10 @@ mProvider
 (
 aProvider
 )
+mIsLocked
+(
+false
+)
 {
 }
 DrawableSurface
@@ -509,6 +513,10 @@ IsPlaceholder
 return
 ;
 }
+mIsLocked
+=
+aLocked
+;
 mProvider
 -
 >
@@ -529,6 +537,9 @@ return
 IsPlaceholder
 (
 )
+&
+&
+mIsLocked
 &
 &
 mProvider
@@ -791,6 +802,9 @@ ISurfaceProvider
 >
 >
 mProvider
+;
+bool
+mIsLocked
 ;
 }
 ;
