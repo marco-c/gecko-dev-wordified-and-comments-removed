@@ -1136,6 +1136,11 @@ JSObject
 plugin_proto
 )
 ;
+void
+MaybeFireErrorEvent
+(
+)
+;
 nsCOMPtr
 <
 nsIStreamListener
