@@ -973,6 +973,10 @@ CreateHeadless
 (
 CreateContextFlags
 flags
+nsACString
+*
+const
+out_failureId
 )
 {
 return
@@ -1011,6 +1015,10 @@ SurfaceCaps
 caps
 CreateContextFlags
 flags
+nsACString
+*
+const
+out_failureId
 )
 {
 RefPtr
@@ -1022,6 +1030,7 @@ glContext
 CreateHeadless
 (
 flags
+out_failureId
 )
 ;
 if

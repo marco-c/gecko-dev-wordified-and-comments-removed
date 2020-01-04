@@ -3558,6 +3558,7 @@ sEGLLibrary
 EnsureInitialized
 (
 false
+&
 discardFailureId
 )
 )
