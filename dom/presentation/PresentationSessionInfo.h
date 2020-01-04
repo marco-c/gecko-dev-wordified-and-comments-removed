@@ -100,13 +100,6 @@ h
 #
 include
 "
-nsIPresentationSessionTransportBuilder
-.
-h
-"
-#
-include
-"
 nsIServerSocket
 .
 h
@@ -145,14 +138,11 @@ public
 nsIPresentationSessionTransportCallback
 public
 nsIPresentationControlChannelListener
-public
-nsIPresentationSessionTransportBuilderListener
 {
 public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIPRESENTATIONSESSIONTRANSPORTCALLBACK
-NS_DECL_NSIPRESENTATIONSESSIONTRANSPORTBUILDERLISTENER
 PresentationSessionInfo
 (
 const
@@ -635,7 +625,6 @@ public
 :
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIPRESENTATIONCONTROLCHANNELLISTENER
-NS_DECL_NSIPRESENTATIONSESSIONTRANSPORTBUILDERLISTENER
 NS_DECL_NSITIMERCALLBACK
 PresentationPresentingInfo
 (

@@ -207,7 +207,7 @@ PresentationSessionInfo
 h
 '
 '
-PresentationTCPSessionTransport
+PresentationSessionTransport
 .
 h
 '
@@ -288,7 +288,7 @@ PresentationSessionRequest
 cpp
 '
 '
-PresentationTCPSessionTransport
+PresentationSessionTransport
 .
 cpp
 '
