@@ -591,14 +591,6 @@ GetSurface
 (
 )
 ;
-already_AddRefed
-<
-DrawTarget
->
-GetDrawTarget
-(
-)
-;
 void
 AddSizeOfExcludingThis
 (
@@ -677,12 +669,6 @@ const
 ;
 uint32_t
 GetImageDataLength
-(
-)
-const
-;
-int32_t
-GetStride
 (
 )
 const
