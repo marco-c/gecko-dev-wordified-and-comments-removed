@@ -181,7 +181,6 @@ lint
 whitelist
 file
 .
-"
 %
 s
 :

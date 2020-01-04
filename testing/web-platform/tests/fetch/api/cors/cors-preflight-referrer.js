@@ -428,14 +428,10 @@ Referrer
 policy
 :
 origin
--
-only
 "
 corsUrl
 "
 origin
--
-only
 "
 origin
 )

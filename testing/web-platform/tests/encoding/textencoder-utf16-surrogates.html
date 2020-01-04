@@ -211,15 +211,6 @@ U
 }
 ]
 ;
-var
-encoding
-=
-'
-utf
--
-8
-'
-;
 bad
 .
 forEach
@@ -241,7 +232,6 @@ encoded
 new
 TextEncoder
 (
-encoding
 )
 .
 encode
@@ -257,7 +247,6 @@ decoded
 new
 TextDecoder
 (
-encoding
 )
 .
 decode
@@ -299,7 +288,6 @@ assert_equals
 new
 TextEncoder
 (
-encoding
 )
 .
 encode

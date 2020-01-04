@@ -3,6 +3,8 @@ functools
 import
 os
 import
+random
+import
 shutil
 import
 subprocess
@@ -1619,9 +1621,16 @@ f
 .
 write
 (
-"
-01
-"
+str
+(
+random
+.
+randint
+(
+0
+1000000
+)
+)
 )
         
 self
