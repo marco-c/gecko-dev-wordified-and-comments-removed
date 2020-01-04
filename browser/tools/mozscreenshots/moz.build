@@ -121,6 +121,13 @@ browser
 ini
 '
 '
+controlCenter
+/
+browser
+.
+ini
+'
+'
 devtools
 /
 browser
