@@ -77,6 +77,7 @@ volatile
 long
 mObj
 ;
+JNITarget
 private
 InputStream
 mInput
