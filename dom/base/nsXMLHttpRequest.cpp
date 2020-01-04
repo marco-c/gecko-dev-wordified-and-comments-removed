@@ -6952,17 +6952,6 @@ SEC_FORCE_INHERIT_PRINCIPAL
 if
 (
 doc
-&
-&
-doc
--
->
-NodePrincipal
-(
-)
-=
-=
-mPrincipal
 )
 {
 rv
