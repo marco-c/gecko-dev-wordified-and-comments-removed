@@ -2244,6 +2244,11 @@ listing
 .
 xhtml
 "
+tooltip
+=
+"
+aHTMLTooltip
+"
 /
 >
 <
@@ -2663,6 +2668,11 @@ runtime
 listing
 .
 xhtml
+"
+tooltip
+=
+"
+aHTMLTooltip
 "
 /
 >
