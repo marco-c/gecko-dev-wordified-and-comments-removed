@@ -1776,6 +1776,16 @@ arm
 arm64
 )
 ;
+void
+popReturnAddress
+(
+)
+DEFINED_ON
+(
+arm
+arm64
+)
+;
 public
 :
 void

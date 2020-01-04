@@ -41723,9 +41723,8 @@ ifdef
 JS_USE_LINK_REGISTER
 masm
 .
-pop
+popReturnAddress
 (
-lr
 )
 ;
 #
