@@ -5578,7 +5578,9 @@ profile
 -
 before
 -
-change2
+change
+-
+qm
 "
 kShutdownPersist
 )
@@ -5594,7 +5596,9 @@ profile
 -
 before
 -
-change3
+change
+-
+telemetry
 "
 kShutdownPersist
 )

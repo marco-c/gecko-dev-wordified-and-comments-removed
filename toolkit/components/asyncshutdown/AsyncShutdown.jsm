@@ -3534,7 +3534,9 @@ profile
 -
 before
 -
-change3
+change
+-
+telemetry
 "
 )
 ;
