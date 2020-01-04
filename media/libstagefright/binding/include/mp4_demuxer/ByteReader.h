@@ -209,6 +209,9 @@ explicit
 ByteReader
 (
 const
+mozilla
+:
+:
 MediaByteBuffer
 *
 aData
