@@ -19553,6 +19553,16 @@ return
 else
 if
 (
+aParent
+.
+id
+!
+=
+"
+backForwardMenu
+"
+&
+&
 !
 aParent
 .
