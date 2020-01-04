@@ -102,7 +102,7 @@ WidgetPluginEvent
 pluginEvent
 (
 true
-NS_PLUGIN_INPUT_EVENT
+ePluginInputEvent
 this
 )
 ;

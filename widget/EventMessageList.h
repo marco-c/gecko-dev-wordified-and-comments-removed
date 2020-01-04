@@ -1144,7 +1144,7 @@ ePluginEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_PLUGIN_INPUT_EVENT
+ePluginInputEvent
 ePluginEventFirst
 )
 NS_EVENT_MESSAGE
