@@ -2490,6 +2490,10 @@ nsCSSProps
 IsEnabled
 (
 cssProp
+nsCSSProps
+:
+:
+eEnabledForAllContent
 )
 )
 {
