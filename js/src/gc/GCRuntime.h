@@ -1271,11 +1271,6 @@ nullptr
 )
 ;
 }
-void
-clearPostBarrierCallbacks
-(
-)
-;
 bool
 gcIfRequested
 (
