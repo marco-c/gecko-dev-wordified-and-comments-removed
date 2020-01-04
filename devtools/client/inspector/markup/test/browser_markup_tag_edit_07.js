@@ -428,6 +428,9 @@ is
 collapsed
 in
 attribute
+"
++
+"
 editor
 .
 "
@@ -516,6 +519,9 @@ is
 collapsed
 in
 attribute
+"
++
+"
 editor
 .
 "
@@ -611,6 +617,9 @@ is
 collapsed
 in
 attribute
+"
++
+"
 editor
 .
 "

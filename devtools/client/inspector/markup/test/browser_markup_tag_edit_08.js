@@ -371,6 +371,7 @@ is
 visibleAttrText
 LONG_ATTRIBUTE_COLLAPSED
 )
+;
 yield
 assertAttributes
 (
