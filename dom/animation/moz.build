@@ -253,6 +253,12 @@ dom
 /
 base
 '
+'
+/
+layout
+/
+style
+'
 ]
 FINAL_LIBRARY
 =
