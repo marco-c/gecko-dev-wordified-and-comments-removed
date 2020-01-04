@@ -354,6 +354,10 @@ mUserChanged
 (
 false
 )
+mScrollingWithAPZ
+(
+false
+)
 {
 }
 nsSliderFrame
@@ -2152,6 +2156,14 @@ case
 eMouseMove
 :
 {
+if
+(
+mScrollingWithAPZ
+)
+{
+break
+;
+}
 nsPoint
 eventPoint
 ;
@@ -4457,6 +4469,8 @@ pos
 -
 mThumbStart
 ;
+mScrollingWithAPZ
+=
 StartAPZDrag
 (
 event
@@ -4501,6 +4515,10 @@ DragThumb
 (
 false
 )
+;
+mScrollingWithAPZ
+=
+false
 ;
 #
 ifdef

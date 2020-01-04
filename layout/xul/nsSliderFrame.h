@@ -791,6 +791,9 @@ mDragFinished
 bool
 mUserChanged
 ;
+bool
+mScrollingWithAPZ
+;
 static
 bool
 gMiddlePref
