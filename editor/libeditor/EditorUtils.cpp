@@ -694,9 +694,8 @@ return
 hasChildren
 ;
 }
-}
 nsresult
-nsEditorHookUtils
+EditorHookUtils
 :
 :
 GetHookEnumeratorFromDocument
@@ -768,7 +767,7 @@ aResult
 ;
 }
 bool
-nsEditorHookUtils
+EditorHookUtils
 :
 :
 DoInsertionHook
@@ -917,4 +916,5 @@ false
 return
 true
 ;
+}
 }
