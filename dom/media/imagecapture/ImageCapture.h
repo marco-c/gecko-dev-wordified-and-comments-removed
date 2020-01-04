@@ -39,7 +39,7 @@ mozilla
 #
 ifndef
 IC_LOG
-LogModule
+PRLogModuleInfo
 *
 GetICLog
 (

@@ -163,10 +163,7 @@ endif
 ifdef
 MOZILLA_INTERNAL_API
 extern
-mozilla
-:
-:
-LogModule
+PRLogModuleInfo
 *
 GetGMPLog
 (

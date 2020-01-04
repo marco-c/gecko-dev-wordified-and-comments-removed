@@ -91,10 +91,7 @@ SourceBufferList
 h
 "
 extern
-mozilla
-:
-:
-LogModule
+PRLogModuleInfo
 *
 GetMediaSourceLog
 (

@@ -92,7 +92,8 @@ namespace
 mozilla
 {
 extern
-LazyLogModule
+PRLogModuleInfo
+*
 gMediaDecoderLog
 ;
 ogg_packet

@@ -27,10 +27,7 @@ nsDebug
 h
 "
 extern
-mozilla
-:
-:
-LogModule
+PRLogModuleInfo
 *
 GetPDMLog
 (

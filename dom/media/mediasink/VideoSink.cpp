@@ -9,7 +9,8 @@ namespace
 mozilla
 {
 extern
-LazyLogModule
+PRLogModuleInfo
+*
 gMediaDecoderLog
 ;
 #

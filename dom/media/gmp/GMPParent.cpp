@@ -236,7 +236,7 @@ LOG
 undef
 LOGD
 extern
-LogModule
+PRLogModuleInfo
 *
 GetGMPLog
 (

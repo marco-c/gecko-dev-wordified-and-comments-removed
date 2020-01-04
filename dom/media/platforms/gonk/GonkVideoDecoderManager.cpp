@@ -218,10 +218,7 @@ GonkVideoDecoderManager
 __VA_ARGS__
 )
 extern
-mozilla
-:
-:
-LogModule
+PRLogModuleInfo
 *
 GetPDMLog
 (

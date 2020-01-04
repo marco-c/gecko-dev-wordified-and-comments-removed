@@ -75,10 +75,8 @@ vie_base
 h
 "
 extern
-mozilla
-:
-:
-LazyLogModule
+PRLogModuleInfo
+*
 gLoadManagerLog
 ;
 namespace

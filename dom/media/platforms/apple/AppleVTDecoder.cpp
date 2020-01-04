@@ -105,10 +105,7 @@ gfxPlatform
 h
 "
 extern
-mozilla
-:
-:
-LogModule
+PRLogModuleInfo
 *
 GetPDMLog
 (

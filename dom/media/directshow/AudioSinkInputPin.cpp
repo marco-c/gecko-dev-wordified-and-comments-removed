@@ -45,8 +45,7 @@ media
 namespace
 mozilla
 {
-extern
-LogModule
+PRLogModuleInfo
 *
 GetDirectShowLog
 (

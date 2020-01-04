@@ -30,10 +30,7 @@ Logging
 h
 "
 extern
-mozilla
-:
-:
-LogModule
+PRLogModuleInfo
 *
 GetMediaSourceLog
 (

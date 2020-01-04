@@ -110,7 +110,7 @@ namespace
 mozilla
 {
 extern
-LogModule
+PRLogModuleInfo
 *
 GetGMPLog
 (

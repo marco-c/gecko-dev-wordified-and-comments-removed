@@ -122,13 +122,11 @@ undef
 LOG
 #
 endif
-LazyLogModule
+PRLogModuleInfo
+*
 gAudioStreamLog
-(
-"
-AudioStream
-"
-)
+=
+nullptr
 ;
 #
 define
