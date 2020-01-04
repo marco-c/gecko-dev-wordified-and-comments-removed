@@ -182,6 +182,54 @@ non
 selectable
 '
     
+_selection_html
+=
+'
+test_carets_selection
+.
+html
+'
+    
+_multipleline_html
+=
+'
+test_carets_multipleline
+.
+html
+'
+    
+_multiplerange_html
+=
+'
+test_carets_multiplerange
+.
+html
+'
+    
+_longtext_html
+=
+'
+test_carets_longtext
+.
+html
+'
+    
+_iframe_html
+=
+'
+test_carets_iframe
+.
+html
+'
+    
+_display_none_html
+=
+'
+test_carets_display_none
+.
+html
+'
+    
 def
 setUp
 (
@@ -271,23 +319,9 @@ def
 open_test_html
 (
 self
+test_html
 )
 :
-        
-test_html
-=
-self
-.
-marionette
-.
-absolute_url
-(
-'
-test_carets_selection
-.
-html
-'
-)
         
 self
 .
@@ -295,69 +329,14 @@ marionette
 .
 navigate
 (
-test_html
-)
-    
-def
-open_test_html2
-(
-self
-)
-:
-        
-test_html2
-=
 self
 .
 marionette
 .
 absolute_url
 (
-'
-test_carets_multipleline
-.
-html
-'
-)
-        
-self
-.
-marionette
-.
-navigate
-(
-test_html2
-)
-    
-def
-open_test_html_multirange
-(
-self
-)
-:
-        
 test_html
-=
-self
-.
-marionette
-.
-absolute_url
-(
-'
-test_carets_multiplerange
-.
-html
-'
 )
-        
-self
-.
-marionette
-.
-navigate
-(
-test_html
 )
     
 def
@@ -1237,6 +1216,9 @@ self
 .
 open_test_html
 (
+self
+.
+_selection_html
 )
         
 el
@@ -1390,6 +1372,9 @@ self
 .
 open_test_html
 (
+self
+.
+_selection_html
 )
         
 el
@@ -1605,6 +1590,9 @@ self
 .
 open_test_html
 (
+self
+.
+_selection_html
 )
         
 el
@@ -1662,8 +1650,11 @@ el_id
         
 self
 .
-open_test_html2
+open_test_html
 (
+self
+.
+_multipleline_html
 )
         
 el
@@ -2149,6 +2140,9 @@ self
 .
 open_test_html
 (
+self
+.
+_selection_html
 )
         
 el1
@@ -2253,6 +2247,9 @@ self
 .
 open_test_html
 (
+self
+.
+_selection_html
 )
         
 el
@@ -2439,6 +2436,9 @@ self
 .
 open_test_html
 (
+self
+.
+_selection_html
 )
         
 el
@@ -2740,8 +2740,11 @@ position
         
 self
 .
-open_test_html_multirange
+open_test_html
 (
+self
+.
+_multiplerange_html
 )
         
 body
@@ -3083,8 +3086,11 @@ line
         
 self
 .
-open_test_html_multirange
+open_test_html
 (
+self
+.
+_multiplerange_html
 )
         
 body
@@ -3271,28 +3277,13 @@ draggable
 '
 '
         
-test_html
-=
 self
 .
-marionette
-.
-absolute_url
+open_test_html
 (
-'
-test_carets_longtext
-.
-html
-'
-)
-        
 self
 .
-marionette
-.
-navigate
-(
-test_html
+_longtext_html
 )
         
 body
@@ -3512,28 +3503,13 @@ word
 '
 '
         
-test_html
-=
 self
 .
-marionette
-.
-absolute_url
+open_test_html
 (
-'
-test_carets_iframe
-.
-html
-'
-)
-        
 self
 .
-marionette
-.
-navigate
-(
-test_html
+_iframe_html
 )
         
 iframe
@@ -3682,28 +3658,13 @@ none
 '
 '
         
-test_html
-=
 self
 .
-marionette
-.
-absolute_url
+open_test_html
 (
-'
-test_carets_display_none
-.
-html
-'
-)
-        
 self
 .
-marionette
-.
-navigate
-(
-test_html
+_display_none_html
 )
         
 html
@@ -3787,6 +3748,9 @@ self
 .
 open_test_html
 (
+self
+.
+_selection_html
 )
         
 el
@@ -3987,6 +3951,9 @@ self
 .
 open_test_html
 (
+self
+.
+_selection_html
 )
         
 el
