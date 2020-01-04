@@ -76,6 +76,9 @@ namespace
 dom
 {
 class
+ImageLoadTask
+;
+class
 ResponsiveImageSelector
 ;
 class
@@ -1248,9 +1251,9 @@ aData
 bool
 mInDocResponsiveContent
 ;
-nsCOMPtr
+RefPtr
 <
-nsIRunnable
+ImageLoadTask
 >
 mPendingImageLoadTask
 ;
