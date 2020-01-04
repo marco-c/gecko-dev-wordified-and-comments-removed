@@ -1123,7 +1123,7 @@ case
 ReferrerPolicy
 :
 :
-Origin_only
+Origin
 :
 net_referrerPolicy
 =
