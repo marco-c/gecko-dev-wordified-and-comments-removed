@@ -208,7 +208,9 @@ waitForNewWindow
 )
 ;
 yield
-promiseWindowClosed
+BrowserTestUtils
+.
+closeWindow
 (
 win
 )
