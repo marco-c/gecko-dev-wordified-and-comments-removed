@@ -1145,26 +1145,6 @@ clone_with_purge
 True
         
 '
-clone_upstream_url
-'
-:
-'
-https
-:
-/
-/
-hg
-.
-mozilla
-.
-org
-/
-mozilla
--
-central
-'
-        
-'
 tinderbox_build_dir
 '
 :
