@@ -1916,6 +1916,7 @@ mVBuf
 =
 nullptr
 ;
+}
 mVBufPtr
 =
 nullptr
@@ -1924,16 +1925,6 @@ mImageSurface
 =
 nullptr
 ;
-}
-#
-ifdef
-MOZ_WIDGET_ANDROID
-mImageSurface
-=
-nullptr
-;
-#
-endif
 return
 NS_OK
 ;
@@ -3300,10 +3291,6 @@ NS_OK
 Optimize
 (
 )
-;
-mVBufPtr
-=
-nullptr
 ;
 }
 mLockCount
