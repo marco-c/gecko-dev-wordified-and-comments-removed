@@ -1096,7 +1096,7 @@ if
 MediaDecoder
 :
 :
-IsAndroidMediaEnabled
+IsAndroidMediaPluginEnabled
 (
 )
 )
@@ -1692,7 +1692,7 @@ if
 MediaDecoder
 :
 :
-IsAndroidMediaEnabled
+IsAndroidMediaPluginEnabled
 (
 )
 )
@@ -2023,7 +2023,7 @@ if
 MediaDecoder
 :
 :
-IsAndroidMediaEnabled
+IsAndroidMediaPluginEnabled
 (
 )
 &
@@ -2395,7 +2395,7 @@ if
 MediaDecoder
 :
 :
-IsAndroidMediaEnabled
+IsAndroidMediaPluginEnabled
 (
 )
 &
@@ -2770,7 +2770,7 @@ if
 MediaDecoder
 :
 :
-IsAndroidMediaEnabled
+IsAndroidMediaPluginEnabled
 (
 )
 &
@@ -2963,7 +2963,7 @@ MOZ_ANDROID_OMX
 MediaDecoder
 :
 :
-IsAndroidMediaEnabled
+IsAndroidMediaPluginEnabled
 (
 )
 &
