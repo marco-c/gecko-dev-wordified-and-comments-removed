@@ -5272,6 +5272,13 @@ client
 signOut
 (
 FAKE_SESSION_TOKEN
+{
+service
+:
+"
+sync
+"
+}
 )
 function
 (
