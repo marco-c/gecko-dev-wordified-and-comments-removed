@@ -182,6 +182,16 @@ IsActive
 )
 const
 {
+if
+(
+!
+HasEverBeenActive
+(
+)
+)
+return
+false
+;
 WebGLRefPtr
 <
 WebGLQuery
