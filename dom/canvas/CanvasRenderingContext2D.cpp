@@ -10150,6 +10150,13 @@ GetSourceSurface
 )
 )
 {
+aError
+.
+Throw
+(
+NS_ERROR_NOT_AVAILABLE
+)
+;
 return
 nullptr
 ;
