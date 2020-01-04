@@ -318,6 +318,11 @@ KeyframeEffect
 cpp
 '
 '
+KeyframeEffectParams
+.
+cpp
+'
+'
 KeyframeUtils
 .
 cpp

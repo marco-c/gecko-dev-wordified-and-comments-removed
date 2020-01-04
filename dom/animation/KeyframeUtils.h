@@ -123,6 +123,14 @@ Keyframe
 aFrames
 )
 ;
+static
+bool
+IsAnimatableProperty
+(
+nsCSSProperty
+aProperty
+)
+;
 }
 ;
 }
