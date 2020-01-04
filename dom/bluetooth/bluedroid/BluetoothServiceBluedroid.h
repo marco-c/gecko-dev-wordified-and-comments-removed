@@ -57,6 +57,9 @@ class
 GetRemoteDevicePropertiesResultHandler
 ;
 class
+GetRemoteServiceRecordResultHandler
+;
+class
 InitResultHandler
 ;
 class
@@ -76,6 +79,9 @@ SspReplyResultHandler
 ;
 class
 GetDeviceRequest
+;
+struct
+GetRemoteServiceRecordRequest
 ;
 public
 :
@@ -1302,6 +1308,12 @@ nsStringHashKey
 nsString
 >
 mDeviceNameMap
+;
+nsTArray
+<
+GetRemoteServiceRecordRequest
+>
+mGetRemoteServiceRecordArray
 ;
 }
 ;
