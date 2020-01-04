@@ -17017,7 +17017,7 @@ asyncdrawing
 .
 enabled
 "
-false
+true
 )
 ;
 pref
@@ -22961,18 +22961,6 @@ plid
 all
 "
 true
-)
-;
-pref
-(
-"
-plugin
-.
-allow
-.
-asyncdrawing
-"
-false
 )
 ;
 pref
