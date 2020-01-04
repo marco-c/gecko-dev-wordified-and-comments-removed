@@ -5881,6 +5881,9 @@ ret
 call
 .
 spIncrement_
+call
+.
+tlsStackOffset_
 )
 ;
 if
@@ -16815,11 +16818,11 @@ args
 PassTls
 :
 :
-False
+True
 InterModule
 :
 :
-False
+True
 )
 ;
 MDefinition

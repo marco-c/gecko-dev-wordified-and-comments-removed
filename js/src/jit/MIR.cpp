@@ -31428,6 +31428,8 @@ MIRType
 resultType
 uint32_t
 spIncrement
+uint32_t
+tlsStackOffset
 )
 {
 auto
@@ -31459,10 +31461,7 @@ callee
 args
 resultType
 spIncrement
-MWasmCall
-:
-:
-DontSaveTls
+tlsStackOffset
 nullptr
 )
 ;
