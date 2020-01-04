@@ -1139,7 +1139,7 @@ velocity_bias
 "
 APZVelocityBias
 float
-1
+0
 .
 0f
 )
