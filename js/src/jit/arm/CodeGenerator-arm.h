@@ -1151,6 +1151,15 @@ LAsmReinterpretToI64
 lir
 )
 ;
+virtual
+void
+visitPopcntI64
+(
+LPopcntI64
+*
+ins
+)
+;
 void
 visitOutOfLineBailout
 (
