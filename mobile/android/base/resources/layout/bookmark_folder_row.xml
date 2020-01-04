@@ -132,7 +132,7 @@ layout_height
 "
 dimen
 /
-page_row_height
+page_group_height
 "
 android
 :
@@ -141,7 +141,7 @@ minHeight
 "
 dimen
 /
-page_row_height
+page_group_height
 "
 android
 :

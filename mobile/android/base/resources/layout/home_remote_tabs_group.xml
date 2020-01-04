@@ -169,7 +169,7 @@ layout_height
 "
 dimen
 /
-page_group_height
+home_header_item_height
 "
 android
 :
@@ -178,7 +178,7 @@ minHeight
 "
 dimen
 /
-page_group_height
+home_header_item_height
 "
 >
 <
