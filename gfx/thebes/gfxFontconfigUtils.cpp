@@ -2719,7 +2719,7 @@ else
 {
 mFontsByFamily
 .
-RawRemoveEntry
+RemoveEntry
 (
 entry
 )
