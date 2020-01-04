@@ -1198,11 +1198,6 @@ MarkShutDown
 )
 ;
 void
-FallbackDestroyActors
-(
-)
-;
-void
 ActorDestroy
 (
 ActorDestroyReason
