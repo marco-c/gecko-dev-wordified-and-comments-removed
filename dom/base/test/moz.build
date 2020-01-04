@@ -239,6 +239,9 @@ TEST_DIRS
 '
 gtest
 '
+'
+jsmodules
+'
 ]
 TEST_HARNESS_FILES
 .
