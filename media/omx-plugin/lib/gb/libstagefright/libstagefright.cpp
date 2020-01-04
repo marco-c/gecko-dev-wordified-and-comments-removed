@@ -372,17 +372,8 @@ setSeekTo
 (
 int64_t
 time_us
-#
-if
-!
-defined
-(
-MOZ_ANDROID_FROYO
-)
 SeekMode
 mode
-#
-endif
 )
 {
 }
