@@ -3329,8 +3329,10 @@ return
 true
 ;
 }
-static
 bool
+js
+:
+:
 ConstructFromStack
 (
 JSContext
