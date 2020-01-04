@@ -1133,7 +1133,7 @@ scriptScope
 this
 ;
 var
-ExtensionPage
+ExtensionContext
 GlobalManager
 ;
 var
@@ -1259,9 +1259,9 @@ this
 global
 :
 scriptScope
-ExtensionPage
+ExtensionContext
 :
-ExtensionPage
+ExtensionContext
 GlobalManager
 :
 GlobalManager
@@ -1573,7 +1573,7 @@ callback
 }
 }
 ;
-ExtensionPage
+ExtensionContext
 =
 class
 extends
@@ -2736,7 +2736,7 @@ let
 context
 =
 new
-ExtensionPage
+ExtensionContext
 (
 extension
 {
