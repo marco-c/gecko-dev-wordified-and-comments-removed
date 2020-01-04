@@ -4168,6 +4168,16 @@ ShutDown
 (
 )
 ;
+if
+(
+gfxPrefs
+:
+:
+ChildProcessShutdown
+(
+)
+)
+{
 layers
 :
 :
@@ -4188,6 +4198,7 @@ ShutDown
 (
 )
 ;
+}
 }
 else
 if
