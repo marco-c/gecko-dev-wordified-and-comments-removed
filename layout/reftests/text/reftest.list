@@ -4789,10 +4789,8 @@ Tests
 for
 hyphenation
 with
--
-moz
--
 hyphens
+property
 =
 =
 auto
