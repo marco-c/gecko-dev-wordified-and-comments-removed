@@ -47,6 +47,7 @@ TransformNotAvailable
 LayoutDeviceIsScreenForUntransformedEvent
 LayoutDeviceIsScreenForTabDims
 LayoutDeviceIsParentLayerForRCDRSF
+MultipleAsyncTransforms
 }
 ;
 template
