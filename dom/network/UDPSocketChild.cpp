@@ -632,6 +632,8 @@ bool
 aLoopback
 uint32_t
 recvBufferSize
+uint32_t
+sendBufferSize
 )
 {
 UDPSOCKET_LOG
@@ -729,6 +731,7 @@ aPort
 aAddressReuse
 aLoopback
 recvBufferSize
+sendBufferSize
 )
 ;
 return

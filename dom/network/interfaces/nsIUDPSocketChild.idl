@@ -220,6 +220,9 @@ loopback
 in
 uint32_t
 recvBufferSize
+in
+uint32_t
+sendBufferSize
 )
 ;
 /
