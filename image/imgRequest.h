@@ -308,7 +308,7 @@ ContinueEvict
 )
 ;
 void
-StartDecoding
+RequestDecode
 (
 )
 ;

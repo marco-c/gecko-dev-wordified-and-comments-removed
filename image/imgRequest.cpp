@@ -1730,7 +1730,7 @@ void
 imgRequest
 :
 :
-StartDecoding
+RequestDecode
 (
 )
 {
@@ -4144,7 +4144,7 @@ aResult
 mImage
 -
 >
-StartDecoding
+RequestDecode
 (
 )
 ;
