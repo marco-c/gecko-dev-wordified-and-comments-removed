@@ -185,6 +185,11 @@ contextOptions
 null
 )
 ;
+ImageBitmap
+transferToImageBitmap
+(
+)
+;
 [
 Throws
 ]
