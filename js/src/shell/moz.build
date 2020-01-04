@@ -169,6 +169,7 @@ EXPORT_JS_API
 True
 #
 Also
+set
 in
 .
 .
@@ -176,14 +177,6 @@ in
 moz
 .
 build
-if
-CONFIG
-[
-'
-NIGHTLY_BUILD
-'
-]
-:
 DEFINES
 [
 '
