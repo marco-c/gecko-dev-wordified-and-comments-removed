@@ -2025,8 +2025,10 @@ cb
 catch
 (
 ex
+)
+{
 if
-!
+(
 Async
 .
 isShutdownException
@@ -2035,6 +2037,10 @@ ex
 )
 )
 {
+throw
+ex
+;
+}
 let
 error
 =
@@ -2925,8 +2931,10 @@ _onProgress
 catch
 (
 ex
+)
+{
 if
-!
+(
 Async
 .
 isShutdownException
@@ -2935,6 +2943,10 @@ ex
 )
 )
 {
+throw
+ex
+;
+}
 this
 .
 _log

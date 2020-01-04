@@ -1475,7 +1475,10 @@ path
 catch
 (
 e
+)
+{
 if
+(
 e
 instanceof
 OS
@@ -1491,10 +1494,7 @@ becauseNoSuchFile
 )
 {
 }
-catch
-(
-e
-)
+else
 {
 if
 (
@@ -1518,6 +1518,7 @@ json
 e
 )
 ;
+}
 }
 }
 callback

@@ -484,6 +484,7 @@ handlers
 ;
 }
 function
+*
 setUp
 (
 server
@@ -614,6 +615,7 @@ add_identity_test
 (
 this
 function
+*
 test_backoff500
 (
 )
@@ -754,6 +756,7 @@ add_identity_test
 (
 this
 function
+*
 test_backoff503
 (
 )
@@ -962,6 +965,7 @@ add_identity_test
 (
 this
 function
+*
 test_overQuota
 (
 )
@@ -1111,6 +1115,7 @@ add_identity_test
 (
 this
 function
+*
 test_service_networkError
 (
 )
@@ -1260,6 +1265,7 @@ add_identity_test
 (
 this
 function
+*
 test_service_offline
 (
 )
@@ -1450,6 +1456,7 @@ add_identity_test
 (
 this
 function
+*
 test_engine_networkError
 (
 )
@@ -1600,6 +1607,7 @@ add_identity_test
 (
 this
 function
+*
 test_resource_timeout
 (
 )

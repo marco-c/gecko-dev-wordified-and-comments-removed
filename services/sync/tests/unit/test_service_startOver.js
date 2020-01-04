@@ -172,6 +172,7 @@ add_identity_test
 (
 this
 function
+*
 test_resetLocalData
 (
 )

@@ -1264,8 +1264,10 @@ record
 catch
 (
 ex
+)
+{
 if
-!
+(
 Async
 .
 isShutdownException
@@ -1274,6 +1276,10 @@ ex
 )
 )
 {
+throw
+ex
+;
+}
 failed
 .
 push

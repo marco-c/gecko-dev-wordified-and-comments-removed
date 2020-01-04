@@ -353,6 +353,7 @@ handler
 ;
 }
 function
+*
 setUp
 (
 server
@@ -507,6 +508,7 @@ add_identity_test
 (
 this
 function
+*
 test_successful_sync_adjustSyncInterval
 (
 )
@@ -1153,6 +1155,7 @@ add_identity_test
 (
 this
 function
+*
 test_unsuccessful_sync_adjustSyncInterval
 (
 )
@@ -1823,6 +1826,7 @@ add_identity_test
 (
 this
 function
+*
 test_back_triggers_sync
 (
 )
@@ -2043,6 +2047,7 @@ add_identity_test
 (
 this
 function
+*
 test_adjust_interval_on_sync_error
 (
 )
@@ -2244,6 +2249,7 @@ add_identity_test
 (
 this
 function
+*
 test_bug671378_scenario
 (
 )

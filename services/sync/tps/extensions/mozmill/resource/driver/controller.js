@@ -4832,7 +4832,11 @@ aInterval
 catch
 (
 ex
+)
+{
 if
+(
+!
 ex
 instanceof
 errors
@@ -4840,6 +4844,10 @@ errors
 TimeoutError
 )
 {
+throw
+ex
+;
+}
 timed_out
 =
 true

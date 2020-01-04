@@ -1245,6 +1245,7 @@ add_identity_test
 (
 this
 function
+*
 test_updateClientMode
 (
 )
@@ -1426,6 +1427,7 @@ add_identity_test
 (
 this
 function
+*
 test_masterpassword_locked_retry_interval
 (
 )
@@ -1625,6 +1627,7 @@ add_identity_test
 (
 this
 function
+*
 test_calculateBackoff
 (
 )
@@ -1704,6 +1707,7 @@ add_identity_test
 (
 this
 function
+*
 test_scheduleNextSync_nowOrPast
 (
 )
@@ -1803,6 +1807,7 @@ add_identity_test
 (
 this
 function
+*
 test_scheduleNextSync_future_noBackoff
 (
 )
@@ -2111,6 +2116,7 @@ add_identity_test
 (
 this
 function
+*
 test_scheduleNextSync_future_backoff
 (
 )
@@ -2418,6 +2424,7 @@ add_identity_test
 (
 this
 function
+*
 test_handleSyncError
 (
 )
@@ -2956,6 +2963,7 @@ add_identity_test
 (
 this
 function
+*
 test_client_sync_finish_updateClientMode
 (
 )
@@ -3140,6 +3148,7 @@ add_identity_test
 (
 this
 function
+*
 test_autoconnect_nextSync_past
 (
 )
@@ -3238,6 +3247,7 @@ add_identity_test
 (
 this
 function
+*
 test_autoconnect_nextSync_future
 (
 )
@@ -3415,6 +3425,7 @@ promise
 add_task
 (
 function
+*
 test_autoconnect_mp_locked
 (
 )
@@ -3659,6 +3670,7 @@ add_identity_test
 (
 this
 function
+*
 test_no_autoconnect_during_wizard
 (
 )
@@ -3792,6 +3804,7 @@ add_identity_test
 (
 this
 function
+*
 test_no_autoconnect_status_not_ok
 (
 )
@@ -3921,6 +3934,7 @@ add_identity_test
 (
 this
 function
+*
 test_autoconnectDelay_pref
 (
 )
@@ -4057,6 +4071,7 @@ add_identity_test
 (
 this
 function
+*
 test_idle_adjustSyncInterval
 (
 )
@@ -4193,6 +4208,7 @@ add_identity_test
 (
 this
 function
+*
 test_back_triggersSync
 (
 )
@@ -4342,6 +4358,7 @@ add_identity_test
 (
 this
 function
+*
 test_active_triggersSync_observesBackoff
 (
 )
@@ -4568,6 +4585,7 @@ add_identity_test
 (
 this
 function
+*
 test_back_debouncing
 (
 )
@@ -4798,6 +4816,7 @@ add_identity_test
 (
 this
 function
+*
 test_no_sync_node
 (
 )
@@ -4864,6 +4883,7 @@ add_identity_test
 (
 this
 function
+*
 test_sync_failed_partial_500s
 (
 )
@@ -5034,6 +5054,7 @@ add_identity_test
 (
 this
 function
+*
 test_sync_failed_partial_400s
 (
 )
@@ -5230,6 +5251,7 @@ add_identity_test
 (
 this
 function
+*
 test_sync_X_Weave_Backoff
 (
 )
@@ -5552,6 +5574,7 @@ add_identity_test
 (
 this
 function
+*
 test_sync_503_Retry_After
 (
 )
@@ -5903,6 +5926,7 @@ add_identity_test
 (
 this
 function
+*
 test_loginError_recoverable_reschedules
 (
 )
@@ -6234,6 +6258,7 @@ add_identity_test
 (
 this
 function
+*
 test_loginError_fatal_clearsTriggers
 (
 )
@@ -6521,6 +6546,7 @@ add_identity_test
 (
 this
 function
+*
 test_proper_interval_on_only_failing
 (
 )

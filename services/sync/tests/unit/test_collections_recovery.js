@@ -63,6 +63,7 @@ add_identity_test
 (
 this
 function
+*
 test_missing_crypto_collection
 (
 )

@@ -273,6 +273,7 @@ length
 }
 ;
 function
+*
 setUpTestFixtures
 (
 server
@@ -368,6 +369,7 @@ add_identity_test
 (
 this
 function
+*
 test_wipeServer_list_success
 (
 )
@@ -644,6 +646,7 @@ add_identity_test
 (
 this
 function
+*
 test_wipeServer_list_503
 (
 )
@@ -971,6 +974,7 @@ add_identity_test
 (
 this
 function
+*
 test_wipeServer_all_success
 (
 )
@@ -1139,6 +1143,7 @@ add_identity_test
 (
 this
 function
+*
 test_wipeServer_all_404
 (
 )
@@ -1335,6 +1340,7 @@ add_identity_test
 (
 this
 function
+*
 test_wipeServer_all_503
 (
 )
@@ -1524,6 +1530,7 @@ add_identity_test
 (
 this
 function
+*
 test_wipeServer_all_connectionRefused
 (
 )
