@@ -451,6 +451,9 @@ JS
 .
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 readonly
 attribute
@@ -483,6 +486,11 @@ for
 the
 implementation
 .
+[
+Exposed
+=
+Window
+]
 readonly
 attribute
 nsISupports
@@ -507,6 +515,12 @@ stack
 ;
 [
 NoInterfaceObject
+Exposed
+=
+(
+Window
+Worker
+)
 ]
 interface
 Exception
