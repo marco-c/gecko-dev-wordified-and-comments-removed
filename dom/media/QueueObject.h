@@ -61,6 +61,16 @@ nsIRunnable
 aRunnable
 )
 ;
+void
+Dispatch
+(
+already_AddRefed
+<
+nsIRunnable
+>
+aRunnable
+)
+;
 bool
 OnThread
 (
