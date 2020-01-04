@@ -7,7 +7,7 @@ tasks
 /
 builds
 /
-firefox_base
+firefox_docker_base
 .
 yml
 '

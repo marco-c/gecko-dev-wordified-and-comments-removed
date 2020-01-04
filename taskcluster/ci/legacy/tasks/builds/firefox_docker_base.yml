@@ -5,7 +5,7 @@ from
 '
 tasks
 /
-build
+docker_build
 .
 yml
 '
@@ -28,7 +28,7 @@ task
 scopes
 :
 -
-"
+'
 secrets
 :
 get
@@ -50,7 +50,7 @@ level
 }
 /
 *
-"
+'
 extra
 :
 locations
