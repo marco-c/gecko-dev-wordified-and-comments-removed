@@ -160,16 +160,6 @@ this
 .
 target
 ;
-const
-rootForm
-=
-yield
-this
-.
-target
-.
-root
-;
 this
 .
 panelWin
@@ -189,7 +179,6 @@ this
 target
 .
 form
-rootForm
 )
 ;
 console
@@ -206,6 +195,7 @@ panelWin
 MemoryController
 )
 ;
+return
 this
 .
 _opening
@@ -248,11 +238,6 @@ this
 }
 )
 ;
-return
-this
-.
-_opening
-;
 }
 )
 get
@@ -287,6 +272,7 @@ this
 _destroyer
 ;
 }
+return
 this
 .
 _destroyer
@@ -320,12 +306,6 @@ destroy
 ;
 this
 .
-panelWin
-=
-null
-;
-this
-.
 emit
 (
 "
@@ -338,11 +318,6 @@ this
 ;
 }
 )
-;
-return
-this
-.
-_destroyer
 ;
 }
 }
