@@ -9968,12 +9968,6 @@ NS_FRAME_PART_OF_IBSPLIT
 {
 prevContinuation
 =
-static_cast
-<
-nsIFrame
-*
->
-(
 aFrame
 -
 >
@@ -9990,7 +9984,6 @@ IBSplitPrevSibling
 (
 )
 )
-)
 ;
 if
 (
@@ -9999,12 +9992,6 @@ prevContinuation
 {
 prevContinuation
 =
-static_cast
-<
-nsIFrame
-*
->
-(
 prevContinuation
 -
 >
@@ -10019,7 +10006,6 @@ nsIFrame
 :
 IBSplitPrevSibling
 (
-)
 )
 )
 ;
@@ -10216,12 +10202,6 @@ NS_FRAME_PART_OF_IBSPLIT
 {
 nextContinuation
 =
-static_cast
-<
-nsIFrame
-*
->
-(
 aFrame
 -
 >
@@ -10243,7 +10223,6 @@ IBSplitSibling
 (
 )
 )
-)
 ;
 if
 (
@@ -10252,12 +10231,6 @@ nextContinuation
 {
 nextContinuation
 =
-static_cast
-<
-nsIFrame
-*
->
-(
 nextContinuation
 -
 >
@@ -10272,7 +10245,6 @@ nsIFrame
 :
 IBSplitSibling
 (
-)
 )
 )
 ;
@@ -11055,12 +11027,6 @@ nsIFrame
 *
 sib
 =
-static_cast
-<
-nsIFrame
-*
->
-(
 aFrame
 -
 >
@@ -11075,7 +11041,6 @@ nsIFrame
 :
 IBSplitSibling
 (
-)
 )
 )
 ;

@@ -1518,12 +1518,6 @@ DrawTarget
 >
 dt
 =
-static_cast
-<
-DrawTarget
-*
->
-(
 Frame
 (
 )
@@ -1540,7 +1534,6 @@ nsIFrame
 :
 CachedBackgroundImageDT
 (
-)
 )
 )
 ;
