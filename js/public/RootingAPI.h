@@ -2576,7 +2576,6 @@ const
 RootingContext
 &
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 ptr
@@ -2595,8 +2594,6 @@ initial
 )
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 registerWithRootLists
 (
 js
@@ -2626,7 +2623,6 @@ S
 &
 &
 initial
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 ptr
@@ -2643,8 +2639,6 @@ initial
 )
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 registerWithRootLists
 (
 js
@@ -2804,7 +2798,6 @@ Type
 MaybeWrapped
 ptr
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 Rooted
 (
 const
@@ -2912,7 +2905,6 @@ FakeRooted
 CX
 *
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 ptr
@@ -2928,15 +2920,12 @@ initial
 )
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 }
 template
 <
 typename
 CX
 >
-explicit
 FakeRooted
 (
 CX
@@ -2944,7 +2933,6 @@ CX
 cx
 T
 initial
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 ptr
@@ -2952,8 +2940,6 @@ ptr
 initial
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 }
 DECLARE_POINTER_COMPARISON_OPS
 (
@@ -3000,7 +2986,6 @@ ptr
 value
 ;
 }
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 FakeRooted
 (
 const

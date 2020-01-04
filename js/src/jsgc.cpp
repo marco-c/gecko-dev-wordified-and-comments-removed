@@ -32795,7 +32795,6 @@ AutoDisableProxyCheck
 JSRuntime
 *
 rt
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 gc
@@ -32806,8 +32805,6 @@ rt
 gc
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 gc
 .
 disableStrictProxyChecking

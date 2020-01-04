@@ -4824,6 +4824,7 @@ false
 #
 endif
 class
+MOZ_RAII
 AutoSuppressGC
 {
 int32_t
@@ -4872,6 +4873,7 @@ suppressGC_
 ifdef
 DEBUG
 class
+MOZ_RAII
 AutoEnterOOMUnsafeRegion
 {
 bool
@@ -4944,6 +4946,7 @@ oomAfter_
 #
 else
 class
+MOZ_RAII
 AutoEnterOOMUnsafeRegion
 {
 }
@@ -5075,8 +5078,6 @@ class
 MOZ_RAII
 AutoDisableProxyCheck
 {
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
-;
 gc
 :
 :
@@ -5092,7 +5093,6 @@ AutoDisableProxyCheck
 JSRuntime
 *
 rt
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~
@@ -5105,6 +5105,7 @@ AutoDisableProxyCheck
 #
 else
 struct
+MOZ_RAII
 AutoDisableProxyCheck
 {
 explicit
@@ -5121,6 +5122,7 @@ rt
 #
 endif
 struct
+MOZ_RAII
 AutoDisableCompactingGC
 {
 explicit

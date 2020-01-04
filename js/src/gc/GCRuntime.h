@@ -4061,6 +4061,7 @@ AutoEnterIteration
 }
 ;
 class
+MOZ_RAII
 AutoEnterIteration
 {
 GCRuntime

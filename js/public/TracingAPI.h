@@ -886,6 +886,7 @@ contextFunctor_
 }
 ;
 class
+MOZ_RAII
 AutoTracingName
 {
 CallbackTracer
@@ -959,6 +960,7 @@ prior_
 }
 ;
 class
+MOZ_RAII
 AutoTracingIndex
 {
 CallbackTracer
@@ -1100,6 +1102,7 @@ contextIndex_
 }
 ;
 class
+MOZ_RAII
 AutoTracingDetails
 {
 CallbackTracer
