@@ -6782,6 +6782,7 @@ NS_IMETHOD
 Cancel
 (
 )
+override
 {
 MessagePort
 :
