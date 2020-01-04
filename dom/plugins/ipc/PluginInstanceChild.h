@@ -1192,6 +1192,11 @@ InitPopupMenuHook
 )
 ;
 void
+InitSetCursorHook
+(
+)
+;
+void
 SetupFlashMsgThrottle
 (
 )
@@ -1351,6 +1356,15 @@ WPARAM
 wParam
 LPARAM
 lParam
+)
+;
+static
+HCURSOR
+WINAPI
+SetCursorHookProc
+(
+HCURSOR
+hCursor
 )
 ;
 #
