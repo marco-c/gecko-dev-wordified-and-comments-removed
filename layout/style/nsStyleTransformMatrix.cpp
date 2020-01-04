@@ -3154,6 +3154,8 @@ aContains3dTransform
 =
 true
 ;
+MOZ_FALLTHROUGH
+;
 case
 eCSSKeyword_rotate
 :
