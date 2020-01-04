@@ -3008,11 +3008,7 @@ getGLController
 .
 resumeCompositor
 (
-mWindowSize
-.
 width
-mWindowSize
-.
 height
 )
 ;
