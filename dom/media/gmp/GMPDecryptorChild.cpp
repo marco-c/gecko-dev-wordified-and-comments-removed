@@ -321,7 +321,13 @@ NewRunnableMethod
 this
 m
 aMethod
+Forward
+<
+ParamType
+>
+(
 aParams
+)
 .
 .
 .
@@ -505,7 +511,10 @@ aSessionId
 aSessionIdLength
 )
 aMessageType
+Move
+(
 msg
+)
 )
 ;
 }
