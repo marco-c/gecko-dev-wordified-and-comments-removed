@@ -132,7 +132,14 @@ init
 ;
 document
 .
-body
+getElementById
+(
+"
+template
+-
+container
+"
+)
 .
 appendChild
 (
