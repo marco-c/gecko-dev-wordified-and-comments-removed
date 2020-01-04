@@ -72,26 +72,6 @@ mozapps
 inc
 .
 mn
-+
-skin
-/
-classic
-/
-mozapps
-/
-update
-/
-updates
-.
-css
-(
-update
-/
-updates
-.
-css
-)
-+
 skin
 /
 classic
@@ -110,7 +90,6 @@ downloadIcon
 .
 png
 )
-+
 skin
 /
 classic
@@ -148,7 +127,6 @@ extensions
 .
 css
 )
-+
 skin
 /
 classic
@@ -171,7 +149,6 @@ search
 .
 png
 )
-+
 skin
 /
 classic
@@ -194,7 +171,6 @@ discover
 .
 png
 )
-+
 skin
 /
 classic
@@ -217,7 +193,6 @@ plugins
 .
 png
 )
-+
 skin
 /
 classic
@@ -240,7 +215,6 @@ service
 .
 png
 )
-+
 skin
 /
 classic
@@ -263,7 +237,6 @@ recent
 .
 png
 )
-+
 skin
 /
 classic
@@ -286,7 +259,6 @@ available
 .
 png
 )
-+
 skin
 /
 classic
@@ -309,7 +281,6 @@ extensionGeneric
 .
 png
 )
-+
 skin
 /
 classic
@@ -328,7 +299,6 @@ dictionaryGeneric
 .
 png
 )
-+
 skin
 /
 classic
@@ -351,7 +321,6 @@ dictionaryGeneric
 .
 png
 )
-+
 skin
 /
 classic
@@ -370,7 +339,6 @@ themeGeneric
 .
 png
 )
-+
 skin
 /
 classic
@@ -393,7 +361,6 @@ themeGeneric
 .
 png
 )
-+
 skin
 /
 classic
@@ -431,7 +398,6 @@ newaddon
 .
 css
 )
-+
 skin
 /
 classic
@@ -450,7 +416,6 @@ selectAddons
 .
 css
 )
-+
 skin
 /
 classic
@@ -469,7 +434,6 @@ heart
 .
 png
 )
-+
 skin
 /
 classic
@@ -492,7 +456,6 @@ key
 .
 png
 )
-+
 skin
 /
 classic
@@ -515,7 +478,6 @@ key
 .
 png
 )
-+
 skin
 /
 classic
@@ -534,7 +496,6 @@ pluginGeneric
 .
 png
 )
-+
 skin
 /
 classic
@@ -553,7 +514,6 @@ pluginBlocked
 .
 png
 )
-+
 skin
 /
 classic
@@ -576,7 +536,6 @@ pluginGeneric
 .
 png
 )
-+
 skin
 /
 classic
@@ -595,7 +554,24 @@ profileicon
 .
 png
 )
-+
+skin
+/
+classic
+/
+mozapps
+/
+update
+/
+updates
+.
+css
+(
+update
+/
+updates
+.
+css
+)
 skin
 /
 classic
@@ -617,7 +593,6 @@ css
 #
 ifdef
 MOZ_PLACES
-+
 skin
 /
 classic

@@ -53,11 +53,29 @@ MPL
 0
 /
 .
+#
+include
+.
+.
+/
+.
+.
+/
+shared
+/
+non
+-
+mac
+.
+jar
+.
+inc
+.
+mn
 toolkit
 .
 jar
 :
-+
 skin
 /
 classic
@@ -67,7 +85,6 @@ global
 autocomplete
 .
 css
-+
 skin
 /
 classic
@@ -77,7 +94,6 @@ global
 button
 .
 css
-+
 skin
 /
 classic
@@ -87,7 +103,6 @@ global
 checkbox
 .
 css
-+
 skin
 /
 classic
@@ -97,7 +112,6 @@ global
 colorpicker
 .
 css
-+
 skin
 /
 classic
@@ -107,7 +121,6 @@ global
 commonDialog
 .
 css
-+
 skin
 /
 classic
@@ -117,7 +130,6 @@ global
 dropmarker
 .
 css
-+
 skin
 /
 classic
@@ -127,7 +139,6 @@ global
 filepicker
 .
 css
-+
 skin
 /
 classic
@@ -144,7 +155,6 @@ Filepicker
 .
 png
 )
-+
 skin
 /
 classic
@@ -154,7 +164,6 @@ global
 findBar
 .
 css
-+
 skin
 /
 classic
@@ -164,7 +173,6 @@ global
 global
 .
 css
-+
 skin
 /
 classic
@@ -174,7 +182,6 @@ global
 groupbox
 .
 css
-+
 skin
 /
 classic
@@ -184,7 +191,6 @@ global
 listbox
 .
 css
-+
 skin
 /
 classic
@@ -194,7 +200,6 @@ global
 menu
 .
 css
-+
 skin
 /
 classic
@@ -204,7 +209,6 @@ global
 menulist
 .
 css
-+
 skin
 /
 classic
@@ -214,7 +218,6 @@ global
 netError
 .
 css
-+
 skin
 /
 classic
@@ -224,7 +227,6 @@ global
 notification
 .
 css
-+
 skin
 /
 classic
@@ -234,7 +236,6 @@ global
 numberbox
 .
 css
-+
 skin
 /
 classic
@@ -244,7 +245,6 @@ global
 popup
 .
 css
-+
 skin
 /
 classic
@@ -254,7 +254,6 @@ global
 preferences
 .
 css
-+
 skin
 /
 classic
@@ -264,7 +263,6 @@ global
 printPageSetup
 .
 css
-+
 skin
 /
 classic
@@ -274,7 +272,6 @@ global
 printPreview
 .
 css
-+
 skin
 /
 classic
@@ -284,7 +281,6 @@ global
 radio
 .
 css
-+
 skin
 /
 classic
@@ -294,7 +290,6 @@ global
 scrollbox
 .
 css
-+
 skin
 /
 classic
@@ -304,7 +299,6 @@ global
 splitter
 .
 css
-+
 skin
 /
 classic
@@ -314,7 +308,6 @@ global
 tabbox
 .
 css
-+
 skin
 /
 classic
@@ -324,7 +317,6 @@ global
 textbox
 .
 css
-+
 skin
 /
 classic
@@ -334,7 +326,6 @@ global
 toolbar
 .
 css
-+
 skin
 /
 classic
@@ -344,7 +335,6 @@ global
 toolbarbutton
 .
 css
-+
 skin
 /
 classic
@@ -354,7 +344,6 @@ global
 tree
 .
 css
-+
 skin
 /
 classic
@@ -373,7 +362,6 @@ alert
 .
 css
 )
-+
 skin
 /
 classic
@@ -392,7 +380,6 @@ console
 .
 css
 )
-+
 skin
 /
 classic
@@ -411,7 +398,6 @@ console
 .
 png
 )
-+
 skin
 /
 classic
@@ -434,7 +420,6 @@ toolbar
 .
 png
 )
-+
 skin
 /
 classic
@@ -453,7 +438,24 @@ remote
 .
 png
 )
-+
+skin
+/
+classic
+/
+global
+/
+icons
+/
+Authentication
+.
+png
+(
+icons
+/
+Authentication
+.
+png
+)
 skin
 /
 classic
@@ -476,26 +478,6 @@ search
 .
 svg
 )
-+
-skin
-/
-classic
-/
-global
-/
-icons
-/
-Authentication
-.
-png
-(
-icons
-/
-Authentication
-.
-png
-)
-+
 skin
 /
 classic
@@ -514,7 +496,6 @@ autoscroll
 .
 png
 )
-+
 skin
 /
 classic
@@ -533,7 +514,6 @@ blacklist_favicon
 .
 png
 )
-+
 skin
 /
 classic
@@ -552,7 +532,6 @@ blacklist_large
 .
 png
 )
-+
 skin
 /
 classic
@@ -571,7 +550,6 @@ close
 .
 svg
 )
-+
 skin
 /
 classic
@@ -590,7 +568,6 @@ loading_16
 .
 png
 )
-+
 skin
 /
 classic
@@ -613,7 +590,6 @@ horizontal
 .
 svg
 )
-+
 skin
 /
 classic
@@ -636,7 +612,6 @@ vertical
 .
 svg
 )
-+
 skin
 /
 classic
@@ -655,7 +630,6 @@ resizer
 .
 png
 )
-+
 skin
 /
 classic
@@ -674,7 +648,6 @@ sslWarning
 .
 png
 )
-+
 skin
 /
 classic
@@ -697,7 +670,6 @@ webapps
 .
 png
 )
-+
 skin
 /
 classic
@@ -770,7 +742,6 @@ pages
 .
 css
 )
-+
 skin
 /
 classic
