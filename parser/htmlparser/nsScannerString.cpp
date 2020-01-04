@@ -1940,7 +1940,7 @@ return
 result
 ;
 }
-void
+bool
 CopyUnicodeTo
 (
 const
@@ -1988,6 +1988,7 @@ Truncate
 )
 ;
 return
+false
 ;
 }
 aDest
@@ -2010,8 +2011,11 @@ aSrcEnd
 writer
 )
 ;
+return
+true
+;
 }
-void
+bool
 AppendUnicodeTo
 (
 const
@@ -2048,9 +2052,11 @@ aSrcStart
 aSrcEnd
 )
 ;
+return
+true
+;
 }
-else
-{
+return
 AppendUnicodeTo
 (
 aSrcStart
@@ -2063,8 +2069,7 @@ writable
 )
 ;
 }
-}
-void
+bool
 AppendUnicodeTo
 (
 const
@@ -2116,6 +2121,7 @@ fallible
 )
 )
 return
+false
 ;
 aDest
 .
@@ -2141,6 +2147,9 @@ fromBegin
 aSrcEnd
 writer
 )
+;
+return
+true
 ;
 }
 bool

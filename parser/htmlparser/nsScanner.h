@@ -315,7 +315,7 @@ nsIRequest
 aRequest
 )
 ;
-void
+bool
 CopyUnusedData
 (
 nsString
