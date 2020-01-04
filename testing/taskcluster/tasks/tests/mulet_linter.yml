@@ -8,9 +8,7 @@ from
 '
 tasks
 /
-tests
-/
-b2g_unittest_base
+test
 .
 yml
 '
