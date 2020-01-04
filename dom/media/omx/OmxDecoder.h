@@ -64,13 +64,6 @@ h
 #
 include
 "
-GonkNativeWindowClient
-.
-h
-"
-#
-include
-"
 mozilla
 /
 layers
@@ -230,7 +223,7 @@ mNativeWindow
 ;
 sp
 <
-GonkNativeWindowClient
+ANativeWindow
 >
 mNativeWindowClient
 ;
