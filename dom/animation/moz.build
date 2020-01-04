@@ -168,6 +168,11 @@ AnimationUtils
 h
 '
 '
+ComputedTimingFunction
+.
+h
+'
+'
 PendingAnimationTracker
 .
 h
@@ -189,6 +194,11 @@ cpp
 '
 '
 AnimationTimeline
+.
+cpp
+'
+'
+ComputedTimingFunction
 .
 cpp
 '
