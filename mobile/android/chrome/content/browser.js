@@ -34654,13 +34654,6 @@ function
 aInstall
 )
 {
-this
-.
-_showErrorMessage
-(
-aInstall
-)
-;
 }
 _showErrorMessage
 :
