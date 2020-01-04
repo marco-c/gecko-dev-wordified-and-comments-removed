@@ -907,6 +907,7 @@ ignoreEdgeUse
 (
 edge
 variable
+body
 )
 )
 return
@@ -1220,6 +1221,7 @@ edgeTakesVariableAddress
 (
 edge
 variable
+body
 )
 {
 if
@@ -1228,6 +1230,7 @@ ignoreEdgeUse
 (
 edge
 variable
+body
 )
 )
 return
@@ -2619,6 +2622,7 @@ edgeTakesVariableAddress
 (
 edge
 variable
+body
 )
 )
 {
