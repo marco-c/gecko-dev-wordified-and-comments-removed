@@ -460,7 +460,7 @@ getPlatform
 ;
 }
 function
-coordinatesRelativeToWindow
+coordinatesRelativeToScreen
 (
 aX
 aY
@@ -541,7 +541,7 @@ aObserver
 var
 pt
 =
-coordinatesRelativeToWindow
+coordinatesRelativeToScreen
 (
 aX
 aY
@@ -844,7 +844,7 @@ aY
 var
 pt
 =
-coordinatesRelativeToWindow
+coordinatesRelativeToScreen
 (
 aX
 aY
@@ -963,7 +963,7 @@ aTouchId
 var
 pt
 =
-coordinatesRelativeToWindow
+coordinatesRelativeToScreen
 (
 aX
 aY
@@ -1170,7 +1170,7 @@ null
 var
 pt
 =
-coordinatesRelativeToWindow
+coordinatesRelativeToScreen
 (
 aX
 aY
@@ -1224,7 +1224,7 @@ null
 var
 pt
 =
-coordinatesRelativeToWindow
+coordinatesRelativeToScreen
 (
 aX
 aY
@@ -1279,7 +1279,7 @@ null
 var
 pt
 =
-coordinatesRelativeToWindow
+coordinatesRelativeToScreen
 (
 aX
 aY
