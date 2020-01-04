@@ -71,13 +71,13 @@ eCharType_DirNonSpacingMark
 eCharType_BoundaryNeutral
 =
 18
-eCharType_LeftToRightIsolate
+eCharType_FirstStrongIsolate
 =
 19
-eCharType_RightToLeftIsolate
+eCharType_LeftToRightIsolate
 =
 20
-eCharType_FirstStrongIsolate
+eCharType_RightToLeftIsolate
 =
 21
 eCharType_PopDirectionalIsolate
