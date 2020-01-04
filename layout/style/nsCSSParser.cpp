@@ -17199,6 +17199,10 @@ Move
 selectorList
 )
 declaration
+.
+forget
+(
+)
 linenum
 colnum
 )

@@ -1487,6 +1487,8 @@ float
 &
 &
 aKeys
+already_AddRefed
+<
 mozilla
 :
 :
@@ -1494,7 +1496,9 @@ css
 :
 :
 Declaration
-*
+>
+&
+&
 aDeclaration
 uint32_t
 aLineNumber
@@ -1525,7 +1529,13 @@ aKeys
 )
 mDeclaration
 (
+mozilla
+:
+:
+Move
+(
 aDeclaration
+)
 )
 {
 mDeclaration
