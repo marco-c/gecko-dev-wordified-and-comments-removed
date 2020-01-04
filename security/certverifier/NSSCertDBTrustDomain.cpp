@@ -1808,16 +1808,9 @@ response
 :
 error
 %
-ld
-valid
-"
-"
-until
-%
-lld
+d
 "
 cachedResponseResult
-cachedResponseValidThrough
 )
 )
 ;
