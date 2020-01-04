@@ -7184,6 +7184,14 @@ OOM_counter
 OOM_maxAllocations
 )
 ;
+HelperThreadState
+(
+)
+.
+waitForAllThreads
+(
+)
+;
 js
 :
 :
