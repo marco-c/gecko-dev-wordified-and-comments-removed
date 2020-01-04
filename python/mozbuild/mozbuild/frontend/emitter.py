@@ -4172,14 +4172,9 @@ else
 :
                         
 if
-mozpath
-.
-basename
-(
 f
 .
-full_path
-)
+target_basename
 not
 in
 generated_files
