@@ -7030,9 +7030,6 @@ id
 aID
 ;
 }
-#
-ifdef
-MOZ_B2G
 if
 (
 aIgnoreSessionPermissions
@@ -7062,8 +7059,6 @@ nsIPermissionManager
 EXPIRE_NEVER
 ;
 }
-#
-endif
 entry
 -
 >
