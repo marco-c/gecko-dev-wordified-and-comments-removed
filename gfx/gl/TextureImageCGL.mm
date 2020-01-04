@@ -168,11 +168,6 @@ TextureImage
 :
 Flags
 aFlags
-TextureImage
-:
-:
-ImageFormat
-aImageFormat
 )
 :
 BasicTextureImage
@@ -183,7 +178,6 @@ aWrapMode
 aContentType
 aContext
 aFlags
-aImageFormat
 )
 mPixelBuffer
 (
@@ -415,7 +409,6 @@ aSize
 aContentType
 aWrapMode
 aFlags
-aImageFormat
 )
 ;
 }
@@ -442,11 +435,6 @@ TextureImage
 :
 Flags
 aFlags
-TextureImage
-:
-:
-ImageFormat
-aImageFormat
 )
 {
 bool
@@ -560,7 +548,6 @@ LOCAL_GL_CLAMP_TO_EDGE
 aContentType
 gl
 aFlags
-aImageFormat
 )
 )
 ;

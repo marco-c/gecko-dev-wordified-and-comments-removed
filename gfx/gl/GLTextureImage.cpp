@@ -191,7 +191,6 @@ aSize
 aContentType
 aWrapMode
 aFlags
-aImageFormat
 )
 ;
 }
@@ -253,7 +252,6 @@ gl
 aSize
 aContentType
 aFlags
-aImageFormat
 )
 ;
 #
@@ -1180,8 +1178,6 @@ ContentType
 aContentType
 Flags
 aFlags
-ImageFormat
-aImageFormat
 )
 :
 mSize
@@ -1235,11 +1231,6 @@ TextureImage
 :
 Flags
 aFlags
-TextureImage
-:
-:
-ImageFormat
-aImageFormat
 )
 :
 TextureImage
@@ -1248,7 +1239,6 @@ aSize
 aWrapMode
 aContentType
 aFlags
-aImageFormat
 )
 mTexture
 (
@@ -3253,11 +3243,6 @@ TextureImage
 :
 Flags
 aFlags
-TextureImage
-:
-:
-ImageFormat
-aImageFormat
 )
 {
 bool
@@ -3371,7 +3356,6 @@ aWrapMode
 aContentType
 aGL
 aFlags
-aImageFormat
 )
 ;
 return
