@@ -3420,6 +3420,17 @@ NS_NewRunnableFunction
 (
 )
 {
+if
+(
+self
+-
+>
+mShuttingDown
+)
+{
+return
+;
+}
 self
 -
 >
