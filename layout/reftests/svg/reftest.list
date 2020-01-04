@@ -291,7 +291,7 @@ if
 (
 skiaContent
 1
-300
+630
 )
 =
 =
@@ -2495,7 +2495,7 @@ if
 (
 skiaContent
 1
-2500
+800000
 )
 =
 =
@@ -3315,7 +3315,7 @@ if
 (
 skiaContent
 1
-20000
+800000
 )
 =
 =
@@ -3498,6 +3498,14 @@ svg
 pass
 .
 svg
+fuzzy
+-
+if
+(
+skiaContent
+1
+10000
+)
 =
 =
 mask

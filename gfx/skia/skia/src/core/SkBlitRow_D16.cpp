@@ -993,15 +993,10 @@ c
 int
 dst_scale
 =
-SkAlpha255To256
-(
-255
--
-SkAlphaMul
+SkAlphaMulInv256
 (
 sa
 src_scale
-)
 )
 ;
 int
