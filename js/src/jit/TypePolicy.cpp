@@ -6008,6 +6008,8 @@ ins
 {
 MOZ_ASSERT
 (
+IsBooleanSimdType
+(
 ins
 -
 >
@@ -6020,12 +6022,7 @@ getOperand
 type
 (
 )
-=
-=
-MIRType
-:
-:
-Bool32x4
+)
 )
 ;
 for
