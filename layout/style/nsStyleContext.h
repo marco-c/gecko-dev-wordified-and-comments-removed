@@ -1686,8 +1686,10 @@ true
 }
 #
 endif
+RefPtr
+<
 nsStyleContext
-*
+>
 mParent
 ;
 nsStyleContext
