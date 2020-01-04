@@ -449,6 +449,7 @@ connect
 .
 then
 (
+(
 [
 applicationType
 traits
