@@ -1838,7 +1838,7 @@ nsTArray
 uintptr_t
 >
 &
-aVisibleList
+aPluginIds
 )
 ;
 NS_IMETHOD
