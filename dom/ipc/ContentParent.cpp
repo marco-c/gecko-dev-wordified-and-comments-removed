@@ -10254,12 +10254,6 @@ permissionRequestParent
 parentArray
 )
 {
-nsTArray
-<
-PermissionChoice
->
-emptyChoices
-;
 Unused
 <
 <
@@ -10269,8 +10263,6 @@ PContentPermissionRequestParent
 Send__delete__
 (
 permissionRequestParent
-false
-emptyChoices
 )
 ;
 }
