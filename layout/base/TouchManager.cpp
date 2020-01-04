@@ -523,7 +523,7 @@ mMessage
 )
 {
 case
-NS_TOUCH_START
+eTouchStart
 :
 {
 aIsHandlingUserInput

@@ -4539,7 +4539,7 @@ mMessage
 )
 {
 case
-NS_TOUCH_START
+eTouchStart
 :
 case
 NS_TOUCH_END
@@ -4686,7 +4686,7 @@ aEvent
 mMessage
 =
 =
-NS_TOUCH_START
+eTouchStart
 )
 {
 return

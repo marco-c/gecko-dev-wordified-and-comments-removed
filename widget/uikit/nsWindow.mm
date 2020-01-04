@@ -1402,7 +1402,7 @@ mNextTouchID
 self
 sendTouchEvent
 :
-NS_TOUCH_START
+eTouchStart
 touches
 :
 [

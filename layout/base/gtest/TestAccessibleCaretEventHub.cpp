@@ -768,7 +768,7 @@ aY
 return
 CreateTouchEvent
 (
-NS_TOUCH_START
+eTouchStart
 aX
 aY
 )

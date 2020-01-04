@@ -4576,7 +4576,7 @@ ACTION_POINTER_DOWN
 {
 type
 =
-NS_TOUCH_START
+eTouchStart
 ;
 break
 ;

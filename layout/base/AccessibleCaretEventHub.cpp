@@ -2387,13 +2387,13 @@ mMessage
 )
 {
 case
-NS_TOUCH_START
+eTouchStart
 :
 AC_LOGV
 (
 "
 Before
-NS_TOUCH_START
+eTouchStart
 state
 :
 %
@@ -2423,7 +2423,7 @@ AC_LOGV
 (
 "
 After
-NS_TOUCH_START
+eTouchStart
 state
 :
 %

@@ -29703,7 +29703,7 @@ ePointerUp
 break
 ;
 case
-NS_TOUCH_START
+eTouchStart
 :
 pointerMessage
 =
@@ -32552,7 +32552,7 @@ aEvent
 mMessage
 !
 =
-NS_TOUCH_START
+eTouchStart
 )
 {
 captureRetarget
@@ -32627,7 +32627,7 @@ aEvent
 mMessage
 =
 =
-NS_TOUCH_START
+eTouchStart
 )
 {
 flags
@@ -36166,7 +36166,7 @@ aEvent
 mMessage
 =
 =
-NS_TOUCH_START
+eTouchStart
 )
 |
 |

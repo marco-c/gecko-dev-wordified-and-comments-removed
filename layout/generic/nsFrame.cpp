@@ -12852,7 +12852,7 @@ aEvent
 mMessage
 =
 =
-NS_TOUCH_START
+eTouchStart
 )
 {
 HandlePress
