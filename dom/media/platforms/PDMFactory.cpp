@@ -1028,7 +1028,12 @@ else
 {
 mWMFFailedToLoad
 =
-false
+MediaPrefs
+:
+:
+DecoderDoctorWMFDisabledIsFailure
+(
+)
 ;
 }
 #
