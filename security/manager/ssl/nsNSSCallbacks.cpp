@@ -133,6 +133,13 @@ h
 #
 include
 "
+ScopedNSSTypes
+.
+h
+"
+#
+include
+"
 SharedSSLState
 .
 h
@@ -5502,7 +5509,7 @@ n
 }
 else
 {
-ScopedCERTCertificate
+UniqueCERTCertificate
 serverCert
 (
 SSL_PeerCertificate

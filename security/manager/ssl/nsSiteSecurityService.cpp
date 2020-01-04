@@ -3469,7 +3469,7 @@ cert
 NS_ERROR_FAILURE
 )
 ;
-ScopedCERTCertificate
+UniqueCERTCertificate
 nssCert
 (
 cert

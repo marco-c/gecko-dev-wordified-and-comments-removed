@@ -1000,7 +1000,7 @@ mServerCertName
 :
 DEFAULT_CERT_NICKNAME
 ;
-ScopedCERTCertificate
+UniqueCERTCertificate
 cert
 ;
 SSLKEAType

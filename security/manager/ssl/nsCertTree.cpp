@@ -8,6 +8,13 @@ h
 #
 include
 "
+ScopedNSSTypes
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Logging
@@ -3447,7 +3454,7 @@ mUsageCount
 1
 )
 {
-ScopedCERTCertificate
+UniqueCERTCertificate
 nsscert
 (
 cert

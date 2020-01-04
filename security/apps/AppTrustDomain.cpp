@@ -915,7 +915,9 @@ SECFailure
 ;
 }
 mTrustedRoot
-=
+.
+reset
+(
 CERT_NewTempCertificate
 (
 CERT_GetDefaultCertDB
@@ -926,6 +928,7 @@ trustedDER
 nullptr
 false
 true
+)
 )
 ;
 if
@@ -1182,7 +1185,7 @@ UnsafeMapInputToSECItem
 candidateCertDER
 )
 ;
-ScopedCERTCertificate
+UniqueCERTCertificate
 candidateCert
 (
 CERT_NewTempCertificate

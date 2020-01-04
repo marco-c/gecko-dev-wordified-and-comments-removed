@@ -2573,8 +2573,9 @@ CertVerifier
 :
 VerifySSLServerCert
 (
-CERTCertificate
-*
+const
+UniqueCERTCertificate
+&
 peerCert
 const
 SECItem
@@ -2671,6 +2672,10 @@ rv
 VerifyCert
 (
 peerCert
+.
+get
+(
+)
 certificateUsageSSLServer
 time
 pinarg

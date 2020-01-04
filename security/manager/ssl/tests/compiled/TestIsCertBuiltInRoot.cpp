@@ -675,7 +675,7 @@ false
 mozilla
 :
 :
-ScopedCERTCertificate
+UniqueCERTCertificate
 cert
 (
 CERT_NewTempCertificate
@@ -734,6 +734,10 @@ if
 CERT_AddTempCertToPerm
 (
 cert
+.
+get
+(
+)
 nickname
 &
 trust

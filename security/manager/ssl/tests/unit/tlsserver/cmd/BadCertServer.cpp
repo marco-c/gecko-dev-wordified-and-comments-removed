@@ -982,7 +982,7 @@ mHostName
 )
 ;
 }
-ScopedCERTCertificate
+UniqueCERTCertificate
 cert
 ;
 SSLKEAType

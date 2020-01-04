@@ -241,8 +241,9 @@ nullptr
 SECStatus
 VerifySSLServerCert
 (
-CERTCertificate
-*
+const
+UniqueCERTCertificate
+&
 peerCert
 const
 SECItem

@@ -100,7 +100,7 @@ const
 char
 *
 certName
-ScopedCERTCertificate
+UniqueCERTCertificate
 *
 cert
 SSLKEAType

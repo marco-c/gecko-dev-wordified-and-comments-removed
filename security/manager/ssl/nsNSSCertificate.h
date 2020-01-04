@@ -211,8 +211,12 @@ static
 nsresult
 GetDbKey
 (
-CERTCertificate
-*
+const
+mozilla
+:
+:
+UniqueCERTCertificate
+&
 cert
 nsACString
 &
@@ -230,7 +234,7 @@ nsNSSCertificate
 mozilla
 :
 :
-ScopedCERTCertificate
+UniqueCERTCertificate
 mCert
 ;
 bool

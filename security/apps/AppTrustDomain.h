@@ -452,7 +452,7 @@ void
 *
 mPinArg
 ;
-ScopedCERTCertificate
+UniqueCERTCertificate
 mTrustedRoot
 ;
 unsigned
