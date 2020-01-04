@@ -93,9 +93,19 @@ MPL
 0
 /
 .
+#
+Temporarily
+disabled
+.
+See
+bug
+1256495
+.
+#
 test_certificates
 =
 (
+#
 '
 ca
 -
@@ -103,6 +113,7 @@ rsa
 .
 pem
 '
+#
 '
 ca
 -
@@ -110,6 +121,7 @@ secp384r1
 .
 pem
 '
+#
 '
 ee
 -
@@ -119,6 +131,7 @@ direct
 .
 pem
 '
+#
 '
 ee
 -
@@ -126,6 +139,7 @@ rsa
 .
 pem
 '
+#
 '
 ee
 -
@@ -135,6 +149,7 @@ direct
 .
 pem
 '
+#
 '
 ee
 -
@@ -142,6 +157,7 @@ secp384r1
 .
 pem
 '
+#
 '
 int
 -
@@ -149,6 +165,7 @@ rsa
 .
 pem
 '
+#
 '
 int
 -
@@ -156,12 +173,16 @@ secp384r1
 .
 pem
 '
+#
 )
+#
+#
 for
 test_certificate
 in
 test_certificates
 :
+#
 GeneratedTestCertificate
 (
 test_certificate

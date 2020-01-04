@@ -93,14 +93,25 @@ MPL
 0
 /
 .
+#
+Temporarily
+disabled
+.
+See
+bug
+1256495
+.
+#
 test_certificates
 =
 (
+#
 '
 ca
 .
 pem
 '
+#
 '
 ee
 -
@@ -116,6 +127,7 @@ eku
 .
 pem
 '
+#
 '
 ee
 -
@@ -131,6 +143,7 @@ eku
 .
 pem
 '
+#
 '
 ee
 -
@@ -146,6 +159,7 @@ keyCertSign
 .
 pem
 '
+#
 '
 ee
 -
@@ -157,6 +171,7 @@ depth
 .
 pem
 '
+#
 '
 ee
 -
@@ -170,6 +185,7 @@ invalid
 .
 pem
 '
+#
 '
 ee
 -
@@ -181,6 +197,7 @@ extensions
 .
 pem
 '
+#
 '
 ee
 -
@@ -196,6 +213,7 @@ eku
 .
 pem
 '
+#
 '
 ee
 -
@@ -211,6 +229,7 @@ eku
 .
 pem
 '
+#
 '
 ee
 -
@@ -224,6 +243,7 @@ ca
 .
 pem
 '
+#
 '
 ee
 -
@@ -239,6 +259,7 @@ eku
 .
 pem
 '
+#
 '
 ee
 -
@@ -254,6 +275,7 @@ eku
 .
 pem
 '
+#
 '
 int
 -
@@ -267,6 +289,7 @@ eku
 .
 pem
 '
+#
 '
 int
 -
@@ -280,6 +303,7 @@ eku
 .
 pem
 '
+#
 '
 int
 -
@@ -293,6 +317,7 @@ keyCertSign
 .
 pem
 '
+#
 '
 int
 -
@@ -302,6 +327,7 @@ depth
 .
 pem
 '
+#
 '
 int
 -
@@ -313,6 +339,7 @@ invalid
 .
 pem
 '
+#
 '
 int
 -
@@ -322,6 +349,7 @@ extensions
 .
 pem
 '
+#
 '
 int
 -
@@ -335,6 +363,7 @@ eku
 .
 pem
 '
+#
 '
 int
 -
@@ -348,6 +377,7 @@ eku
 .
 pem
 '
+#
 '
 int
 -
@@ -359,6 +389,7 @@ ca
 .
 pem
 '
+#
 '
 int
 -
@@ -372,6 +403,7 @@ eku
 .
 pem
 '
+#
 '
 int
 -
@@ -385,12 +417,16 @@ eku
 .
 pem
 '
+#
 )
+#
+#
 for
 test_certificate
 in
 test_certificates
 :
+#
 GeneratedTestCertificate
 (
 test_certificate

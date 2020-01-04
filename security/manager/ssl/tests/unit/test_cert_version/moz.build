@@ -93,14 +93,25 @@ MPL
 0
 /
 .
+#
+Temporarily
+disabled
+.
+See
+bug
+1256495
+.
+#
 test_certificates
 =
 (
+#
 '
 ca
 .
 pem
 '
+#
 '
 ee_int
 -
@@ -112,6 +123,7 @@ cA
 .
 pem
 '
+#
 '
 ee_int
 -
@@ -125,6 +137,7 @@ cA
 .
 pem
 '
+#
 '
 ee_int
 -
@@ -134,6 +147,7 @@ noBC
 .
 pem
 '
+#
 '
 ee_int
 -
@@ -145,6 +159,7 @@ cA
 .
 pem
 '
+#
 '
 ee_int
 -
@@ -158,6 +173,7 @@ cA
 .
 pem
 '
+#
 '
 ee_int
 -
@@ -167,6 +183,7 @@ noBC
 .
 pem
 '
+#
 '
 ee_int
 -
@@ -178,6 +195,7 @@ cA
 .
 pem
 '
+#
 '
 ee_int
 -
@@ -191,6 +209,7 @@ cA
 .
 pem
 '
+#
 '
 ee_int
 -
@@ -200,6 +219,7 @@ noBC
 .
 pem
 '
+#
 '
 ee_int
 -
@@ -211,6 +231,7 @@ cA
 .
 pem
 '
+#
 '
 ee_int
 -
@@ -224,6 +245,7 @@ cA
 .
 pem
 '
+#
 '
 ee_int
 -
@@ -233,6 +255,7 @@ noBC
 .
 pem
 '
+#
 '
 ee
 -
@@ -244,6 +267,7 @@ cA_ca
 .
 pem
 '
+#
 '
 ee
 -
@@ -257,6 +281,7 @@ cA_ca
 .
 pem
 '
+#
 '
 ee
 -
@@ -266,6 +291,7 @@ noBC_ca
 .
 pem
 '
+#
 '
 ee
 -
@@ -277,6 +303,7 @@ cA_ca
 .
 pem
 '
+#
 '
 ee
 -
@@ -290,6 +317,7 @@ cA_ca
 .
 pem
 '
+#
 '
 ee
 -
@@ -299,6 +327,7 @@ noBC_ca
 .
 pem
 '
+#
 '
 ee
 -
@@ -310,6 +339,7 @@ cA_ca
 .
 pem
 '
+#
 '
 ee
 -
@@ -323,6 +353,7 @@ cA_ca
 .
 pem
 '
+#
 '
 ee
 -
@@ -332,6 +363,7 @@ noBC_ca
 .
 pem
 '
+#
 '
 ee
 -
@@ -343,6 +375,7 @@ cA_ca
 .
 pem
 '
+#
 '
 ee
 -
@@ -356,6 +389,7 @@ cA_ca
 .
 pem
 '
+#
 '
 ee
 -
@@ -365,6 +399,7 @@ noBC_ca
 .
 pem
 '
+#
 '
 int
 -
@@ -376,6 +411,7 @@ cA_ca
 .
 pem
 '
+#
 '
 int
 -
@@ -389,6 +425,7 @@ cA_ca
 .
 pem
 '
+#
 '
 int
 -
@@ -398,6 +435,7 @@ noBC_ca
 .
 pem
 '
+#
 '
 int
 -
@@ -409,6 +447,7 @@ cA_ca
 .
 pem
 '
+#
 '
 int
 -
@@ -422,6 +461,7 @@ cA_ca
 .
 pem
 '
+#
 '
 int
 -
@@ -431,6 +471,7 @@ noBC_ca
 .
 pem
 '
+#
 '
 int
 -
@@ -442,6 +483,7 @@ cA_ca
 .
 pem
 '
+#
 '
 int
 -
@@ -455,6 +497,7 @@ cA_ca
 .
 pem
 '
+#
 '
 int
 -
@@ -464,6 +507,7 @@ noBC_ca
 .
 pem
 '
+#
 '
 int
 -
@@ -475,6 +519,7 @@ cA_ca
 .
 pem
 '
+#
 '
 int
 -
@@ -488,6 +533,7 @@ cA_ca
 .
 pem
 '
+#
 '
 int
 -
@@ -497,6 +543,7 @@ noBC_ca
 .
 pem
 '
+#
 '
 ss
 -
@@ -508,6 +555,7 @@ cA
 .
 pem
 '
+#
 '
 ss
 -
@@ -521,6 +569,7 @@ cA
 .
 pem
 '
+#
 '
 ss
 -
@@ -530,6 +579,7 @@ noBC
 .
 pem
 '
+#
 '
 ss
 -
@@ -541,6 +591,7 @@ cA
 .
 pem
 '
+#
 '
 ss
 -
@@ -554,6 +605,7 @@ cA
 .
 pem
 '
+#
 '
 ss
 -
@@ -563,6 +615,7 @@ noBC
 .
 pem
 '
+#
 '
 ss
 -
@@ -574,6 +627,7 @@ cA
 .
 pem
 '
+#
 '
 ss
 -
@@ -587,6 +641,7 @@ cA
 .
 pem
 '
+#
 '
 ss
 -
@@ -596,6 +651,7 @@ noBC
 .
 pem
 '
+#
 '
 ss
 -
@@ -607,6 +663,7 @@ cA
 .
 pem
 '
+#
 '
 ss
 -
@@ -620,6 +677,7 @@ cA
 .
 pem
 '
+#
 '
 ss
 -
@@ -629,12 +687,16 @@ noBC
 .
 pem
 '
+#
 )
+#
+#
 for
 test_certificate
 in
 test_certificates
 :
+#
 GeneratedTestCertificate
 (
 test_certificate
