@@ -2104,6 +2104,9 @@ profileSelection
 .
 dtd
 )
+#
+ifndef
+MOZ_FENNEC
 locale
 /
 AB_CD
@@ -2150,6 +2153,8 @@ updates
 .
 properties
 )
+#
+endif
 locale
 /
 AB_CD
