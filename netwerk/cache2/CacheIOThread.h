@@ -299,12 +299,14 @@ mRerunCurrentEvent
 bool
 mShutdown
 ;
-DebugOnly
-<
+#
+ifdef
+DEBUG
 bool
->
 mInsideLoop
 ;
+#
+endif
 }
 ;
 }
