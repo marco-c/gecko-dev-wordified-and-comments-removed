@@ -1397,6 +1397,12 @@ disposeNative
 )
 ;
 }
+super
+.
+destroy
+(
+)
+;
 }
 void
 setInputConnectionListener
