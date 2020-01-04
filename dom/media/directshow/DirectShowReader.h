@@ -127,14 +127,6 @@ aEndTime
 )
 override
 ;
-protected
-:
-void
-NotifyDataArrivedInternal
-(
-)
-override
-;
 private
 :
 bool
@@ -200,12 +192,6 @@ mAudioRate
 ;
 uint32_t
 mBytesPerSample
-;
-int64_t
-mDuration
-;
-MediaByteRangeSet
-mLastCachedRanges
 ;
 }
 ;
