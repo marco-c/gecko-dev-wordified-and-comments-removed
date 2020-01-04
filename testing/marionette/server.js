@@ -872,7 +872,7 @@ dispatcher
 ;
 logger
 .
-info
+debug
 (
 Accepted
 connection
@@ -935,7 +935,7 @@ id
 ;
 logger
 .
-info
+debug
 (
 Closed
 connection
