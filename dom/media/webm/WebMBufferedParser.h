@@ -151,6 +151,11 @@ mInitEndOffset
 -
 1
 )
+mBlockEndOffset
+(
+-
+1
+)
 mState
 (
 READ_ELEMENT_ID
@@ -277,6 +282,9 @@ mCurrentOffset
 ;
 int64_t
 mInitEndOffset
+;
+int64_t
+mBlockEndOffset
 ;
 private
 :
@@ -417,6 +425,11 @@ mReentrantMonitor
 WebMBufferedState
 "
 )
+mLastBlockOffset
+(
+-
+1
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -488,6 +501,11 @@ GetInitEndOffset
 (
 )
 ;
+int64_t
+GetLastBlockOffset
+(
+)
+;
 bool
 GetStartTime
 (
@@ -527,6 +545,9 @@ nsTArray
 WebMTimeDataOffset
 >
 mTimeMapping
+;
+int64_t
+mLastBlockOffset
 ;
 nsTArray
 <
