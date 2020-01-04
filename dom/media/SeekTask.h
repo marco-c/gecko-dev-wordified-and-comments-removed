@@ -23,7 +23,7 @@ h
 #
 include
 "
-SeekJob
+SeekTarget
 .
 h
 "
@@ -38,9 +38,6 @@ MediaData
 ;
 class
 MediaDecoderReaderWrapper
-;
-class
-MediaInfo
 ;
 namespace
 media
