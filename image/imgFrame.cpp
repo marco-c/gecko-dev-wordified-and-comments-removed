@@ -353,7 +353,10 @@ stride
 size
 .
 height
+size_t
+(
 1
+)
 <
 <
 gfxAlphaRecovery
