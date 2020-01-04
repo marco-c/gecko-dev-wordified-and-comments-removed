@@ -8809,7 +8809,7 @@ if
 clientLayers
 &
 &
-mCompositorBridgeParent
+mCompositorSession
 )
 {
 clientLayers

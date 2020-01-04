@@ -14046,7 +14046,7 @@ mLayerManager
 MOZ_ASSERT
 (
 !
-mCompositorBridgeParent
+mCompositorSession
 &
 &
 !

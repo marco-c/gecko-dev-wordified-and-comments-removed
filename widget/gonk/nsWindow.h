@@ -582,6 +582,13 @@ return
 true
 ;
 }
+CompositorBridgeParent
+*
+GetCompositorBridgeParent
+(
+)
+const
+;
 private
 :
 mozilla

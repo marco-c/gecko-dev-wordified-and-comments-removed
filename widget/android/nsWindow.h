@@ -1040,6 +1040,13 @@ aObserver
 )
 override
 ;
+CompositorBridgeParent
+*
+GetCompositorBridgeParent
+(
+)
+const
+;
 protected
 :
 void
