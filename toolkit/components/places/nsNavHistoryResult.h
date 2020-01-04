@@ -1281,6 +1281,8 @@ const
 nsACString
 &
 aOldValue
+uint16_t
+aSource
 )
 ;
 protected

@@ -292,6 +292,15 @@ FOLDER_SORTINDEX
 1000000
 ;
 const
+{
+SOURCE_SYNC
+}
+=
+Ci
+.
+nsINavBookmarksService
+;
+const
 RECORD_PROPS_TO_BOOKMARK_PROPS
 =
 {
@@ -6246,6 +6255,7 @@ mobile
 [
 0
 ]
+SOURCE_SYNC
 )
 ;
 }
@@ -6277,6 +6287,8 @@ queryURI
 -
 1
 title
+null
+SOURCE_SYNC
 )
 ;
 PlacesUtils
@@ -6298,6 +6310,7 @@ PlacesUtils
 annotations
 .
 EXPIRE_NEVER
+SOURCE_SYNC
 )
 ;
 PlacesUtils
@@ -6317,6 +6330,7 @@ PlacesUtils
 annotations
 .
 EXPIRE_NEVER
+SOURCE_SYNC
 )
 ;
 }
@@ -6350,6 +6364,7 @@ mobile
 0
 ]
 title
+SOURCE_SYNC
 )
 ;
 }
@@ -6579,6 +6594,7 @@ itemId
 BookmarkAnnos
 .
 PARENT_ANNO
+SOURCE_SYNC
 )
 ;
 }

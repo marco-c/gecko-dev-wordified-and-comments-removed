@@ -152,6 +152,7 @@ function
 TS__createTag
 (
 aTagName
+aSource
 )
 {
 var
@@ -172,6 +173,8 @@ PlacesUtils
 bookmarks
 .
 DEFAULT_INDEX
+null
+aSource
 )
 ;
 this
@@ -551,6 +554,7 @@ TS_tagURI
 (
 aURI
 aTags
+aSource
 )
 {
 if
@@ -623,6 +627,7 @@ _createTag
 tag
 .
 name
+aSource
 )
 ;
 }
@@ -659,6 +664,8 @@ bookmarks
 .
 DEFAULT_INDEX
 null
+null
+aSource
 )
 ;
 }
@@ -693,6 +700,7 @@ id
 tag
 .
 name
+aSource
 )
 ;
 }
@@ -733,6 +741,7 @@ function
 TS__removeTagIfEmpty
 (
 aTagId
+aSource
 )
 {
 let
@@ -832,6 +841,7 @@ bookmarks
 removeItem
 (
 aTagId
+aSource
 )
 ;
 }
@@ -843,6 +853,7 @@ TS_untagURI
 (
 aURI
 aTags
+aSource
 )
 {
 if
@@ -1023,6 +1034,7 @@ bookmarks
 removeItem
 (
 itemId
+aSource
 )
 ;
 }
@@ -1851,6 +1863,9 @@ aFolderId
 aIndex
 aItemType
 aURI
+aGuid
+aParentGuid
+aSource
 )
 {
 if
@@ -1935,6 +1950,7 @@ itemIds
 [
 i
 ]
+aSource
 )
 ;
 }
@@ -1965,6 +1981,7 @@ this
 _removeTagIfEmpty
 (
 aFolderId
+aSource
 )
 ;
 }

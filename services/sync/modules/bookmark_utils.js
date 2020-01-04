@@ -302,6 +302,12 @@ mobile
 "
 -
 1
+null
+PlacesUtils
+.
+bookmarks
+.
+SOURCE_SYNC
 )
 ;
 PlacesUtils
@@ -321,6 +327,11 @@ PlacesUtils
 annotations
 .
 EXPIRE_NEVER
+PlacesUtils
+.
+bookmarks
+.
+SOURCE_SYNC
 )
 ;
 PlacesUtils
@@ -340,6 +351,11 @@ PlacesUtils
 annotations
 .
 EXPIRE_NEVER
+PlacesUtils
+.
+bookmarks
+.
+SOURCE_SYNC
 )
 ;
 return

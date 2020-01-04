@@ -1110,6 +1110,8 @@ int32_t
 aFlags
 uint16_t
 aExpiration
+uint16_t
+aSource
 )
 {
 PROFILER_LABEL
@@ -1259,6 +1261,7 @@ aName
 valueInt
 aFlags
 aExpiration
+aSource
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1324,6 +1327,7 @@ aName
 valueLong
 aFlags
 aExpiration
+aSource
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1381,6 +1385,7 @@ aName
 valueDouble
 aFlags
 aExpiration
+aSource
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1482,6 +1487,7 @@ aName
 stringValue
 aFlags
 aExpiration
+aSource
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1579,6 +1585,8 @@ int32_t
 aFlags
 uint16_t
 aExpiration
+uint16_t
+aSource
 )
 {
 NS_ENSURE_ARG_MIN
@@ -1622,6 +1630,7 @@ OnItemAnnotationSet
 (
 aItemId
 aName
+aSource
 )
 )
 ;
@@ -1830,6 +1839,8 @@ int32_t
 aFlags
 uint16_t
 aExpiration
+uint16_t
+aSource
 )
 {
 NS_ENSURE_ARG_MIN
@@ -1873,6 +1884,7 @@ OnItemAnnotationSet
 (
 aItemId
 aName
+aSource
 )
 )
 ;
@@ -2081,6 +2093,8 @@ int32_t
 aFlags
 uint16_t
 aExpiration
+uint16_t
+aSource
 )
 {
 NS_ENSURE_ARG_MIN
@@ -2124,6 +2138,7 @@ OnItemAnnotationSet
 (
 aItemId
 aName
+aSource
 )
 )
 ;
@@ -2332,6 +2347,8 @@ int32_t
 aFlags
 uint16_t
 aExpiration
+uint16_t
+aSource
 )
 {
 NS_ENSURE_ARG_MIN
@@ -2375,6 +2392,7 @@ OnItemAnnotationSet
 (
 aItemId
 aName
+aSource
 )
 )
 ;
@@ -6218,6 +6236,8 @@ const
 nsACString
 &
 aName
+uint16_t
+aSource
 )
 {
 NS_ENSURE_ARG_MIN
@@ -6248,6 +6268,7 @@ OnItemAnnotationRemoved
 (
 aItemId
 aName
+aSource
 )
 )
 ;
@@ -6386,6 +6407,8 @@ RemoveItemAnnotations
 (
 int64_t
 aItemId
+uint16_t
+aSource
 )
 {
 NS_ENSURE_ARG_MIN
@@ -6474,6 +6497,7 @@ aItemId
 EmptyCString
 (
 )
+aSource
 )
 )
 ;
@@ -7034,6 +7058,8 @@ int64_t
 aDestItemId
 bool
 aOverwriteDest
+uint16_t
+aSource
 )
 {
 NS_ENSURE_ARG_MIN
@@ -7364,6 +7390,7 @@ RemoveItemAnnotation
 (
 aDestItemId
 annoName
+aSource
 )
 ;
 NS_ENSURE_SUCCESS
@@ -7490,6 +7517,7 @@ OnItemAnnotationSet
 (
 aDestItemId
 annoName
+aSource
 )
 )
 ;
