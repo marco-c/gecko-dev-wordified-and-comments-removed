@@ -1065,6 +1065,9 @@ params_
 ;
 }
 ;
+namespace
+dont_add_new_uses_of_this
+{
 template
 <
 class
@@ -1171,6 +1174,7 @@ forget
 (
 )
 ;
+}
 }
 template
 <
