@@ -895,6 +895,17 @@ override
 ;
 virtual
 bool
+RecvDefaultProcOfPluginEvent
+(
+const
+WidgetPluginEvent
+&
+aEvent
+)
+override
+;
+virtual
+bool
 RecvGetInputContext
 (
 int32_t
