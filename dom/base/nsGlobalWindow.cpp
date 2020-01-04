@@ -50593,7 +50593,6 @@ options_ptr
 true
 aDialog
 aNavigate
-nullptr
 argv
 1
 .
@@ -50647,7 +50646,6 @@ options_ptr
 false
 aDialog
 aNavigate
-nullptr
 aExtraArgument
 1
 .
