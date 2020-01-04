@@ -4378,10 +4378,15 @@ MOZ_APP_VERSION
 AppConstants
 .
 OS_TARGET
+Locales
+.
+getLanguageTag
+(
 Locale
 .
 getDefault
 (
+)
 )
 )
 ;
@@ -13478,10 +13483,6 @@ setVisibility
 View
 .
 VISIBLE
-)
-;
-hideWebContent
-(
 )
 ;
 mHomePagerContainer
