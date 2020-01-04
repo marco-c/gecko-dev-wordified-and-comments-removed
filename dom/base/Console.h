@@ -724,7 +724,7 @@ aData
 const
 ;
 bool
-PopulateConsoleObjectInTheTargetScope
+PopulateConsoleNotificationInTheTargetScope
 (
 JSContext
 *

@@ -6167,7 +6167,7 @@ if
 NS_WARN_IF
 (
 !
-PopulateConsoleObjectInTheTargetScope
+PopulateConsoleNotificationInTheTargetScope
 (
 aCx
 aArguments
@@ -6352,7 +6352,7 @@ bool
 Console
 :
 :
-PopulateConsoleObjectInTheTargetScope
+PopulateConsoleNotificationInTheTargetScope
 (
 JSContext
 *
@@ -10386,7 +10386,7 @@ if
 NS_WARN_IF
 (
 !
-PopulateConsoleObjectInTheTargetScope
+PopulateConsoleNotificationInTheTargetScope
 (
 aCx
 aArguments
@@ -10602,7 +10602,7 @@ if
 NS_WARN_IF
 (
 !
-PopulateConsoleObjectInTheTargetScope
+PopulateConsoleNotificationInTheTargetScope
 (
 aCx
 sequence
