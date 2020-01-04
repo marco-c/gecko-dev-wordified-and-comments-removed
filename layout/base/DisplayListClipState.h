@@ -68,10 +68,6 @@ mScrollClipContainingBlockDescendants
 (
 nullptr
 )
-mCrossStackingContextParentScrollClip
-(
-nullptr
-)
 mStackingContextAncestorSC
 (
 nullptr
@@ -244,12 +240,6 @@ nullptr
 mCurrentCombinedClip
 =
 nullptr
-;
-mCrossStackingContextParentScrollClip
-=
-GetCurrentInnermostScrollClip
-(
-)
 ;
 mScrollClipContentDescendants
 =
@@ -424,11 +414,6 @@ const
 DisplayItemScrollClip
 *
 mScrollClipContainingBlockDescendants
-;
-const
-DisplayItemScrollClip
-*
-mCrossStackingContextParentScrollClip
 ;
 const
 DisplayItemScrollClip
