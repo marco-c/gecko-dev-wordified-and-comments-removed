@@ -222,12 +222,6 @@ mozilla
 FontFamilyList
 &
 aFontlist
-uint8_t
-aStyle
-uint16_t
-aWeight
-int16_t
-aStretch
 nscoord
 aSize
 )
@@ -239,12 +233,6 @@ mozilla
 :
 FontFamilyType
 aGenericType
-uint8_t
-aStyle
-uint16_t
-aWeight
-int16_t
-aStretch
 nscoord
 aSize
 )
