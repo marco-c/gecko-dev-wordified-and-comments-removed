@@ -39051,6 +39051,11 @@ false
 #
 ifdef
 MOZ_WEBSPEECH
+if
+(
+win
+)
+{
 auto
 *
 globalWindow
@@ -39076,6 +39081,7 @@ HasActiveSpeechSynthesis
 return
 false
 ;
+}
 }
 #
 endif
