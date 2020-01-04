@@ -159,6 +159,10 @@ GetDocumentURI
 (
 )
 )
+.
+get
+(
+)
 ;
 aInfo
 .
@@ -175,6 +179,10 @@ doc
 GetBaseURI
 (
 )
+)
+.
+get
+(
 )
 ;
 aInfo

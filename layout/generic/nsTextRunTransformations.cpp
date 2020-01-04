@@ -1650,6 +1650,10 @@ charStyle
 -
 >
 mLanguage
+.
+get
+(
+)
 :
 nullptr
 ;
