@@ -5363,6 +5363,7 @@ StyleBackground
 >
 HasFixedBackground
 (
+aFrame
 )
 )
 return

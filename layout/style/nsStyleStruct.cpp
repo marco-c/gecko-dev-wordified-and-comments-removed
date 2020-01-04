@@ -12019,6 +12019,9 @@ nsStyleBackground
 :
 HasFixedBackground
 (
+nsIFrame
+*
+aFrame
 )
 const
 {
@@ -12060,6 +12063,16 @@ mImage
 .
 IsEmpty
 (
+)
+&
+&
+!
+nsLayoutUtils
+:
+:
+IsTransformed
+(
+aFrame
 )
 )
 {
