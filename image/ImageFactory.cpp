@@ -185,6 +185,15 @@ DecoderType
 :
 :
 BMP
+|
+|
+type
+=
+=
+DecoderType
+:
+:
+GIF
 ;
 }
 static
