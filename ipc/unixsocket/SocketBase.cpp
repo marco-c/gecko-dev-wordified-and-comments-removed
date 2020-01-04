@@ -532,9 +532,11 @@ UnixSocketRawData
 UnixSocketIOBuffer
 )
 ;
-nsAutoArrayPtr
+UniquePtr
 <
 uint8_t
+[
+]
 >
 data
 (
