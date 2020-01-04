@@ -53,11 +53,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 Array
 .
 prototype
@@ -153,11 +148,6 @@ a
 }
 f
 (
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

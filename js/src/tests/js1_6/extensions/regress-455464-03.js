@@ -97,11 +97,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 a
 =
 b
@@ -128,11 +123,6 @@ each
 y
 in
 this
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

@@ -58,11 +58,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 var
 a
 =
@@ -99,11 +94,6 @@ bar
 )
 ;
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

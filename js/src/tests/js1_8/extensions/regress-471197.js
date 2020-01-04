@@ -60,11 +60,6 @@ summary
 var
 results
 ;
-jit
-(
-true
-)
-;
 function
 f
 (
@@ -129,11 +124,6 @@ function
 )
 ;
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

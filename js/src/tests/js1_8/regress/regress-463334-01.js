@@ -54,11 +54,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 u
 =
 3
@@ -99,11 +94,6 @@ yield
 )
 (
 )
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

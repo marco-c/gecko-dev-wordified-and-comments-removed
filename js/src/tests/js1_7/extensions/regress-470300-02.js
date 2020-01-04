@@ -71,11 +71,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 for
 (
 let
@@ -109,11 +104,6 @@ x
 ;
 }
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

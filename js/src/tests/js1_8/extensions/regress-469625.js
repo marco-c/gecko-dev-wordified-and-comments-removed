@@ -69,11 +69,6 @@ a
 function
 '
 ;
-jit
-(
-true
-)
-;
 Array
 .
 prototype
@@ -111,11 +106,6 @@ ex
 )
 ;
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

@@ -64,11 +64,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 var
 cyclic
 =
@@ -133,11 +128,6 @@ c
 ;
 }
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

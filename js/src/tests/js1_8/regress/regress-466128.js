@@ -64,11 +64,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 for
 (
 let
@@ -107,11 +102,6 @@ three
 {
 }
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

@@ -36,11 +36,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 this
 .
 __defineGetter__
@@ -83,11 +78,6 @@ parseInt
 (
 )
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

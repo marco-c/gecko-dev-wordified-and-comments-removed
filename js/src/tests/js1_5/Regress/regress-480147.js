@@ -57,11 +57,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 var
 w
 =
@@ -107,11 +102,6 @@ i
 ]
 "
 "
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

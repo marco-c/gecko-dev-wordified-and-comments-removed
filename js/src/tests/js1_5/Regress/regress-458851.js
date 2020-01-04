@@ -44,11 +44,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 function
 f
 (
@@ -115,11 +110,6 @@ expect
 ;
 f
 (
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

@@ -57,11 +57,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 const
 IS_TOKEN_ARRAY
 =
@@ -292,11 +287,6 @@ normalizeFieldName
 "
 Host
 "
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

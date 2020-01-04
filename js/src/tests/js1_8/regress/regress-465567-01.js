@@ -45,11 +45,6 @@ expect
 99999
 '
 ;
-jit
-(
-true
-)
-;
 for
 (
 let
@@ -100,11 +95,6 @@ e
 ;
 }
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

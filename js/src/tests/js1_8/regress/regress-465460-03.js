@@ -76,11 +76,6 @@ null
 )
 {
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

@@ -69,11 +69,6 @@ actual
 '
 '
 ;
-jit
-(
-true
-)
-;
 for
 (
 let
@@ -104,11 +99,6 @@ actual
 +
 '
 '
-;
-jit
-(
-false
-)
 ;
 reportCompare
 (

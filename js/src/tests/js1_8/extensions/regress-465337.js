@@ -64,11 +64,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 var
 out
 =
@@ -114,11 +109,6 @@ uneval
 (
 out
 )
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

@@ -50,11 +50,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 function
 dateCheck
 (
@@ -277,11 +272,6 @@ templateCheck
 }
 placeAd2
 (
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

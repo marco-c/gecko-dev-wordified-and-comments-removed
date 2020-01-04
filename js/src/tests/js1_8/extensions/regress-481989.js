@@ -41,11 +41,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 y
 =
 this
@@ -78,11 +73,6 @@ in
 x
 =
 y
-;
-jit
-(
-true
-)
 ;
 reportCompare
 (

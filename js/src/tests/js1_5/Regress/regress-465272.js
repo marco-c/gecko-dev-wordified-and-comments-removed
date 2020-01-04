@@ -48,11 +48,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 expect
 =
 '
@@ -95,11 +90,6 @@ actual
 +
 '
 '
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

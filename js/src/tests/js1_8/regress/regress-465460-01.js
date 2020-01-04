@@ -59,11 +59,6 @@ expect
 11111
 '
 ;
-jit
-(
-true
-)
-;
 (
 function
 (
@@ -108,11 +103,6 @@ function
 )
 1
 }
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

@@ -71,11 +71,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 try
 {
 eval
@@ -143,11 +138,6 @@ ex
 )
 {
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

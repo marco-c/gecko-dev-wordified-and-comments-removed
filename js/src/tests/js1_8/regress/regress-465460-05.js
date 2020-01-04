@@ -57,11 +57,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 for
 (
 var
@@ -83,11 +78,6 @@ j
 Date
 ;
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

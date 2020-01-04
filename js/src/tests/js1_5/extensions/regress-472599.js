@@ -60,11 +60,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 var
 a
 =
@@ -120,11 +115,6 @@ e
 {
 }
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

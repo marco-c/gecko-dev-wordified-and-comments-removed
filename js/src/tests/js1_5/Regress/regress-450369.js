@@ -32,11 +32,6 @@ No
 Crash
 '
 ;
-jit
-(
-true
-)
-;
 if
 (
 !
@@ -991,11 +986,6 @@ parseJSON
 }
 test
 (
-)
-;
-jit
-(
-false
 )
 ;
 function

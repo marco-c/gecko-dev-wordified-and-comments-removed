@@ -250,11 +250,6 @@ zeros
 ;
 }
 }
-jit
-(
-true
-)
-;
 gc
 (
 )
@@ -328,11 +323,6 @@ t
 ;
 main
 (
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

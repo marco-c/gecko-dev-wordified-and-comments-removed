@@ -67,11 +67,6 @@ dummy
 "
 '
 ;
-jit
-(
-true
-)
-;
 print
 (
 (
@@ -149,11 +144,6 @@ ja
 dummy
 "
 )
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

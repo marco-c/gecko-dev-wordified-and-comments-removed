@@ -76,11 +76,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 (
 function
 (
@@ -113,11 +108,6 @@ x
 }
 )
 (
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

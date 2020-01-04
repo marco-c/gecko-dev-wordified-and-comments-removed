@@ -50,11 +50,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 var
 a
 =
@@ -141,11 +136,6 @@ actual
 '
 +
 a
-;
-jit
-(
-false
-)
 ;
 reportCompare
 (

@@ -77,11 +77,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 function
 computeEscapeSpeed
 (
@@ -180,11 +175,6 @@ curReal
 ;
 }
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

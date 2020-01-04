@@ -58,11 +58,6 @@ summary
 var
 global
 ;
-jit
-(
-true
-)
-;
 if
 (
 typeof
@@ -275,11 +270,6 @@ T
 )
 ;
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

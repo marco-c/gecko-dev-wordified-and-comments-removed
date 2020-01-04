@@ -64,11 +64,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 for
 each
 (
@@ -90,11 +85,6 @@ in
 )
 {
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

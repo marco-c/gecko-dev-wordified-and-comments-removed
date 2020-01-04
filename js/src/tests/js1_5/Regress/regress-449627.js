@@ -40,11 +40,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 if
 (
 typeof
@@ -563,11 +558,6 @@ BrowserDetect
 .
 init
 (
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

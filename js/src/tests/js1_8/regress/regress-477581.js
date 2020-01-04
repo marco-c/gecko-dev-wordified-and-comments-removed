@@ -63,11 +63,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 function
 g
 (
@@ -122,11 +117,6 @@ iterables
 [
 i
 ]
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

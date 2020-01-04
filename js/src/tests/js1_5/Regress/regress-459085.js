@@ -65,11 +65,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 var
 m
 =
@@ -108,11 +103,6 @@ toString
 }
 foo
 (
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

@@ -66,11 +66,6 @@ actual
 '
 '
 ;
-jit
-(
-true
-)
-;
 for
 (
 var
@@ -98,11 +93,6 @@ true
 +
 '
 '
-;
-jit
-(
-false
-)
 ;
 reportCompare
 (

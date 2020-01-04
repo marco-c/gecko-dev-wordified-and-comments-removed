@@ -41,11 +41,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 var
 v
 =
@@ -116,11 +111,6 @@ String
 print
 (
 v
-)
-;
-jit
-(
-false
 )
 ;
 expect

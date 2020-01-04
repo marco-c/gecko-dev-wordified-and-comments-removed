@@ -60,11 +60,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 var
 global
 ;
@@ -142,11 +137,6 @@ j
 }
 )
 (
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

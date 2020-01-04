@@ -64,11 +64,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 for
 each
 (
@@ -85,11 +80,6 @@ in
 -
 -
 d
-;
-jit
-(
-false
-)
 ;
 reportCompare
 (

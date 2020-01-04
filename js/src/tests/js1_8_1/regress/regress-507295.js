@@ -38,11 +38,6 @@ start_test
 (
 )
 ;
-jit
-(
-true
-)
-;
 (
 function
 (
@@ -108,11 +103,6 @@ y
 )
 (
 )
-jit
-(
-false
-)
-;
 actual
 =
 '

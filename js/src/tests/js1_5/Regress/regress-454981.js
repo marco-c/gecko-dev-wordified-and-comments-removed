@@ -80,11 +80,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 function
 f1
 (
@@ -127,11 +122,6 @@ a
 }
 f1
 (
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

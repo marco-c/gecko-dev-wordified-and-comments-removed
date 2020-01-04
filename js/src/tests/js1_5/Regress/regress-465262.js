@@ -54,11 +54,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 expect
 =
 '
@@ -100,11 +95,6 @@ null
 '
 '
 )
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

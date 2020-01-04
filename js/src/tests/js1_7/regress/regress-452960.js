@@ -63,11 +63,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 var
 f
 =
@@ -103,11 +98,6 @@ new
 f
 ;
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

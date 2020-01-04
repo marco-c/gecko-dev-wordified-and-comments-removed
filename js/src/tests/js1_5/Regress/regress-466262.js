@@ -58,11 +58,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 var
 e
 =
@@ -99,11 +94,6 @@ e
 ;
 }
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

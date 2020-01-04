@@ -61,11 +61,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 for
 (
 var
@@ -84,11 +79,6 @@ j
 __count__
 =
 3
-;
-jit
-(
-false
-)
 ;
 reportCompare
 (

@@ -74,11 +74,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 for
 (
 var
@@ -97,11 +92,6 @@ j
 typeof
 void
 1
-;
-jit
-(
-false
-)
 ;
 reportCompare
 (

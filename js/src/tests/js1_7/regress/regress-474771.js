@@ -67,11 +67,6 @@ expect
 PASS
 '
 ;
-jit
-(
-true
-)
-;
 if
 (
 typeof
@@ -117,11 +112,6 @@ actual
 "
 PASS
 "
-)
-;
-jit
-(
-false
 )
 ;
 delete

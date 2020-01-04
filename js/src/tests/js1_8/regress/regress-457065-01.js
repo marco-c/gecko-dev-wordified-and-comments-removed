@@ -76,11 +76,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 var
 e
 =
@@ -124,11 +119,6 @@ in
 }
 )
 (
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

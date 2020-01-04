@@ -53,11 +53,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 function
 F
 (
@@ -147,11 +142,6 @@ F
 "
 mm
 "
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

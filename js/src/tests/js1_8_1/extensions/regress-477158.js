@@ -61,11 +61,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 x
 =
 0
@@ -108,11 +103,6 @@ function
 ;
 }
 }
-;
-jit
-(
-false
-)
 ;
 reportCompare
 (

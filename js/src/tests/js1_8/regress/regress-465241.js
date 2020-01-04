@@ -62,11 +62,6 @@ actual
 =
 true
 ;
-jit
-(
-true
-)
-;
 for
 (
 let
@@ -95,11 +90,6 @@ in
 [
 3
 ]
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

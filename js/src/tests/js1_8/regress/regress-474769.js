@@ -60,11 +60,6 @@ expect
 =
 1
 ;
-jit
-(
-true
-)
-;
 for
 each
 (
@@ -114,11 +109,6 @@ in
 actual
 =
 b
-;
-jit
-(
-false
-)
 ;
 reportCompare
 (

@@ -88,11 +88,6 @@ expectExitCode
 )
 ;
 }
-jit
-(
-true
-)
-;
 function
 g
 (
@@ -159,11 +154,6 @@ g
 )
 {
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

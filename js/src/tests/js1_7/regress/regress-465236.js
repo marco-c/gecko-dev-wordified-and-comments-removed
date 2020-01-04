@@ -60,11 +60,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 for
 (
 let
@@ -84,11 +79,6 @@ null
 <
 =
 null
-;
-jit
-(
-false
-)
 ;
 reportCompare
 (

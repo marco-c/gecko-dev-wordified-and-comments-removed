@@ -65,11 +65,6 @@ expect
 4
 '
 ;
-jit
-(
-true
-)
-;
 for
 (
 let
@@ -108,11 +103,6 @@ jj
 '
 )
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

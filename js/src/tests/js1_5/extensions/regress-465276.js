@@ -58,11 +58,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 expect
 =
 '
@@ -136,11 +131,6 @@ uneval
 (
 out
 )
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

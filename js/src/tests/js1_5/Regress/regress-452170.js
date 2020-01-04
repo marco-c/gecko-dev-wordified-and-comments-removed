@@ -71,11 +71,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 for
 (
 var
@@ -102,11 +97,6 @@ toString
 )
 ;
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

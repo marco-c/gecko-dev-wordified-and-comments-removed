@@ -51,11 +51,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 var
 x
 =
@@ -826,11 +821,6 @@ i
 print
 (
 passed
-)
-;
-jit
-(
-false
 )
 ;
 expect

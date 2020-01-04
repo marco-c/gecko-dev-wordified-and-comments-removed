@@ -47,11 +47,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 this
 .
 __proto__
@@ -108,11 +103,6 @@ a
 ]
 ;
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

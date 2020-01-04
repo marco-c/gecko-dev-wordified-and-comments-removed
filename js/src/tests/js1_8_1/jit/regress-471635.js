@@ -55,11 +55,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 (
 function
 (
@@ -152,11 +147,6 @@ skip
 false
 ;
 }
-jit
-(
-false
-)
-;
 if
 (
 !

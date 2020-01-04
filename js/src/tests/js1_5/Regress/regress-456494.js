@@ -56,11 +56,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 function
 k
 (
@@ -101,11 +96,6 @@ arguments
 f
 (
 1
-)
-;
-jit
-(
-false
 )
 ;
 if

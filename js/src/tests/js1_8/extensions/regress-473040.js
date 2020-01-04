@@ -44,11 +44,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 Object
 .
 defineProperty
@@ -110,11 +105,6 @@ true
 undefined
 ;
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

@@ -105,11 +105,6 @@ shell
 }
 else
 {
-jit
-(
-true
-)
-;
 var
 o
 =
@@ -148,11 +143,6 @@ b
 shapeOf
 (
 p
-)
-;
-jit
-(
-false
 )
 ;
 }

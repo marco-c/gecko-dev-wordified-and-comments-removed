@@ -77,11 +77,6 @@ function
 )
 ;
 }
-jit
-(
-true
-)
-;
 function
 f
 (
@@ -168,11 +163,6 @@ function
 )
 f
 (
-)
-;
-jit
-(
-false
 )
 ;
 delete

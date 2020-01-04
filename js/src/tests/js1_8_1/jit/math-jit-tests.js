@@ -28,11 +28,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 const
 haveTracemonkey
 =
@@ -8100,11 +8095,6 @@ tan
 -
 Infinity
 )
-jit
-(
-false
-)
-;
 if
 (
 0

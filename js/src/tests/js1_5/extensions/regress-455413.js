@@ -58,11 +58,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 this
 .
 watch
@@ -104,11 +99,6 @@ x
 }
 )
 (
-)
-;
-jit
-(
-false
 )
 ;
 reportCompare

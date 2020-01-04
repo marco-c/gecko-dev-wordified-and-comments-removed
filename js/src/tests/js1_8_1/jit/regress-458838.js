@@ -62,11 +62,6 @@ printStatus
 summary
 )
 ;
-jit
-(
-true
-)
-;
 function
 f
 (
@@ -186,11 +181,6 @@ skip
 false
 ;
 }
-jit
-(
-false
-)
-;
 reportCompare
 (
 expect

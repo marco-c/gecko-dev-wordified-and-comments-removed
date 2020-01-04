@@ -98,11 +98,6 @@ Array
 (
 )
 ;
-jit
-(
-true
-)
-;
 status
 =
 inSection
@@ -303,11 +298,6 @@ null
 ;
 addThis
 (
-)
-;
-jit
-(
-false
 )
 ;
 test
