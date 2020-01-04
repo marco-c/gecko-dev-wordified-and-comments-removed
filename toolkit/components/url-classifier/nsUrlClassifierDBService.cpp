@@ -2533,8 +2533,9 @@ ResetRequested
 mClassifier
 -
 >
-Reset
+ResetTables
 (
+mUpdateTables
 )
 ;
 }
