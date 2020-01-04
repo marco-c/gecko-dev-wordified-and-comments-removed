@@ -15272,11 +15272,14 @@ mContainerReferenceFrame
 ;
 if
 (
-opaque
+opaquePixels
 .
 Contains
 (
+ScaleRegionToNearestPixels
+(
 displayport
+)
 )
 )
 {

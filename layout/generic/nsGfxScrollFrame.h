@@ -1064,7 +1064,7 @@ GetScrolledRect
 const
 ;
 nsRect
-GetScrolledRectInternal
+GetUnsnappedScrolledRectInternal
 (
 const
 nsRect
@@ -2133,6 +2133,12 @@ const
 ;
 bool
 HasBgAttachmentLocal
+(
+)
+const
+;
+uint8_t
+GetScrolledFrameDir
 (
 )
 const
