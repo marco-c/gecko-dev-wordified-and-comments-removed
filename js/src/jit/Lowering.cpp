@@ -22108,7 +22108,7 @@ alloc
 )
 LSetElementCacheV
 (
-useByteOpRegister
+useRegister
 (
 ins
 -
@@ -22190,7 +22190,7 @@ alloc
 )
 LSetElementCacheT
 (
-useByteOpRegister
+useRegister
 (
 ins
 -
