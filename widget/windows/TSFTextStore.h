@@ -2334,7 +2334,7 @@ mDirty
 }
 ;
 Selection
-mSelection
+mSelectionForTSF
 ;
 Selection
 &
