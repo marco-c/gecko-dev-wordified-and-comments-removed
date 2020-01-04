@@ -7,7 +7,6 @@ const
 {
 Cc
 Ci
-Cu
 }
 =
 require
@@ -1530,8 +1529,6 @@ maybeAlpha
 "
 ;
 }
-else
-{
 return
 "
 hsl
@@ -1556,7 +1553,6 @@ l
 )
 "
 ;
-}
 }
 valueOf
 :
