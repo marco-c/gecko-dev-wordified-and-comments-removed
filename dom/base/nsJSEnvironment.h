@@ -592,11 +592,6 @@ DestroyJSContext
 (
 )
 ;
-nsrefcnt
-GetCCRefcnt
-(
-)
-;
 JSContext
 *
 mContext
