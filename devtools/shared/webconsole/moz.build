@@ -171,6 +171,11 @@ logger
 js
 '
 '
+throttle
+.
+js
+'
+'
 utils
 .
 js
