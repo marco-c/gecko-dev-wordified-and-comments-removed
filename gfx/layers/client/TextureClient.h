@@ -1791,14 +1791,6 @@ EnableReadLock
 (
 )
 ;
-void
-SetReadLock
-(
-TextureReadLock
-*
-aLock
-)
-;
 TextureReadLock
 *
 GetReadLock
@@ -1958,7 +1950,7 @@ bool
 mIsLocked
 ;
 bool
-mPendingReadUnlock
+mUpdated
 ;
 bool
 mInUse
