@@ -438,7 +438,7 @@ return
 DisplayItemScrollClip
 :
 :
-PickInnermost
+PickDescendant
 (
 mScrollClipContentDescendants
 mScrollClipContainingBlockDescendants
@@ -804,6 +804,10 @@ false
 )
 #
 endif
+mClearedForStackingContextContents
+(
+false
+)
 {
 }
 }

@@ -2131,8 +2131,9 @@ needsOwnLayer
 {
 nestedClipState
 .
-ClearForStackingContextContents
+EnterStackingContextContents
 (
+true
 )
 ;
 }
