@@ -357,7 +357,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 }
 get
-domfiles
+domFileOrDirectoryEnumerator
 (
 )
 {
@@ -368,7 +368,7 @@ mFilesEnumerator
 ;
 }
 get
-domfile
+domFileOrDirectory
 (
 )
 {

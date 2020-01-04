@@ -464,7 +464,7 @@ mFilesEnumerator
 ;
 }
 get
-domfile
+domFileOrDirectory
 (
 )
 {
@@ -473,7 +473,7 @@ enumerator
 =
 this
 .
-domfiles
+domFileOrDirectoryEnumerator
 ;
 return
 enumerator
@@ -489,7 +489,7 @@ null
 ;
 }
 get
-domfiles
+domFileOrDirectoryEnumerator
 (
 )
 {
