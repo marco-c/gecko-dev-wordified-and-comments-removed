@@ -2059,10 +2059,7 @@ Ref
 (
 NewGlobalRef
 (
-Ref
-:
-:
-FindEnv
+GetEnvForThread
 (
 )
 ref
@@ -2107,10 +2104,7 @@ Ref
 (
 NewGlobalRef
 (
-Ref
-:
-:
-FindEnv
+GetEnvForThread
 (
 )
 ref
@@ -2207,10 +2201,7 @@ mInstance
 {
 Clear
 (
-Ref
-:
-:
-FindEnv
+GetEnvForThread
 (
 )
 )
