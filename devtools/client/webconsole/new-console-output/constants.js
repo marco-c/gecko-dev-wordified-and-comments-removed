@@ -177,6 +177,11 @@ COMMAND
 "
 command
 "
+NULL_MESSAGE
+:
+"
+nullMessage
+"
 }
 MESSAGE_LEVEL
 :
