@@ -28286,6 +28286,7 @@ serif
 fantasy
 "
 "
+condensed
 bold
 italic
 small
