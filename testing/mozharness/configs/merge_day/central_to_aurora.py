@@ -997,23 +997,6 @@ post_merge_builders
 "
 :
 [
-        
-"
-mozilla
--
-aurora
-hg
-bundle
-"
-        
-"
-mozilla
--
-central
-hg
-bundle
-"
-    
 ]
     
 "

@@ -744,15 +744,6 @@ post_merge_builders
 "
 :
 [
-        
-"
-mozilla
--
-beta
-hg
-bundle
-"
-    
 ]
     
 "

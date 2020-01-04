@@ -434,15 +434,6 @@ post_merge_builders
 "
 :
 [
-        
-"
-mozilla
--
-release
-hg
-bundle
-"
-    
 ]
     
 "
