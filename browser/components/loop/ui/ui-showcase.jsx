@@ -2246,11 +2246,6 @@ Long
 Conversation
 Name
 "
-roomOwner
-:
-"
-fake
-"
 roomUrl
 :
 "

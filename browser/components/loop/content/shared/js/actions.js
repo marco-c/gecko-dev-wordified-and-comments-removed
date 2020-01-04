@@ -877,9 +877,6 @@ define
 setupRoomInfo
 "
 {
-roomOwner
-:
-String
 roomToken
 :
 String
@@ -901,9 +898,6 @@ define
 updateRoomInfo
 "
 {
-roomOwner
-:
-String
 roomUrl
 :
 String

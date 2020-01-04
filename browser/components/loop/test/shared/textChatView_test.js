@@ -3516,11 +3516,6 @@ wonderful
 surprise
 !
 "
-roomOwner
-:
-"
-Chris
-"
 roomUrl
 :
 "
@@ -3684,11 +3679,6 @@ Very
 Long
 Conversation
 Name
-"
-roomOwner
-:
-"
-fake
 "
 roomUrl
 :
