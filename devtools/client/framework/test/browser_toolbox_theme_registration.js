@@ -67,6 +67,9 @@ gDevTools
 showToolbox
 (
 target
+"
+options
+"
 )
 ;
 let
@@ -199,16 +202,6 @@ themeInOptionsPanel
 (
 )
 {
-yield
-toolbox
-.
-selectTool
-(
-"
-options
-"
-)
-;
 let
 panel
 =
