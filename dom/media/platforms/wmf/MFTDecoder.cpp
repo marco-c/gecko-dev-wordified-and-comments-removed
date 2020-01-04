@@ -28,9 +28,10 @@ Logging
 .
 h
 "
+extern
 PRLogModuleInfo
 *
-GetDemuxerLog
+GetPDMLog
 (
 )
 ;
@@ -44,7 +45,7 @@ LOG
 )
 MOZ_LOG
 (
-GetDemuxerLog
+GetPDMLog
 (
 )
 mozilla
