@@ -89,6 +89,15 @@ extensions
 /
 ext
 -
+cookies
+.
+js
+content
+/
+extensions
+/
+ext
+-
 notifications
 .
 js
