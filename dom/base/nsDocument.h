@@ -1660,16 +1660,7 @@ dom
 CustomElementHashKey
 nsTArray
 <
-RefPtr
-<
-mozilla
-:
-:
-dom
-:
-:
-Element
->
+nsWeakPtr
 >
 >
 CandidateMap
