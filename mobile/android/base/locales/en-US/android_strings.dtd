@@ -2179,6 +2179,14 @@ General
 <
 !
 ENTITY
+pref_header_search
+"
+Search
+"
+>
+<
+!
+ENTITY
 pref_header_display
 "
 Display
