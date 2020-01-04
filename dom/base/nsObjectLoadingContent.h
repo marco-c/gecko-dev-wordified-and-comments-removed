@@ -711,6 +711,16 @@ return
 runID
 ;
 }
+bool
+IsRewrittenYoutubeEmbed
+(
+)
+const
+{
+return
+mRewrittenYoutubeEmbed
+;
+}
 protected
 :
 nsresult
@@ -1210,6 +1220,8 @@ mRunID
 ;
 bool
 mHasRunID
+:
+1
 ;
 bool
 mChannelLoaded
@@ -1243,6 +1255,11 @@ mIsLoading
 ;
 bool
 mScriptRequested
+:
+1
+;
+bool
+mRewrittenYoutubeEmbed
 :
 1
 ;
