@@ -173,6 +173,11 @@ ComputedTimingFunction
 h
 '
 '
+EffectCompositor
+.
+h
+'
+'
 EffectSet
 .
 h
@@ -214,6 +219,11 @@ cpp
 '
 '
 DocumentTimeline
+.
+cpp
+'
+'
+EffectCompositor
 .
 cpp
 '
