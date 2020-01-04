@@ -94,7 +94,6 @@ LOCALE_MERGEDIR
 abs_merge_dir
 )
 s
-/
 "
         
 "
@@ -119,19 +118,6 @@ DIST
 abs_objdir
 )
 s
-"
-        
-"
-LOCALE_MERGEDIR
-"
-:
-"
-%
-(
-abs_merge_dir
-)
-s
-/
 "
         
 "

@@ -85,19 +85,6 @@ s
 "
         
 "
-LOCALE_MERGEDIR
-"
-:
-"
-%
-(
-abs_merge_dir
-)
-s
-/
-"
-        
-"
 MOZ_UPDATE_CHANNEL
 "
 :
@@ -131,7 +118,6 @@ LOCALE_MERGEDIR
 abs_merge_dir
 )
 s
-/
 "
         
 "
