@@ -3007,9 +3007,9 @@ void
 find
 -
 >
-SetWordBreaker
+SetEntireWord
 (
-nullptr
+mEntireWord
 )
 ;
 theDoc

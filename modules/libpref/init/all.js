@@ -7446,6 +7446,16 @@ false
 pref
 (
 "
+findbar
+.
+entireword
+"
+false
+)
+;
+pref
+(
+"
 gfx
 .
 use_text_smoothing_setting

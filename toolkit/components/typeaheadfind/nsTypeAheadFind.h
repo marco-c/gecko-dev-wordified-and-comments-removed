@@ -377,6 +377,9 @@ bool
 mCaseSensitive
 ;
 bool
+mEntireWord
+;
+bool
 EnsureFind
 (
 )
@@ -428,9 +431,9 @@ mCaseSensitive
 mFind
 -
 >
-SetWordBreaker
+SetEntireWord
 (
-nullptr
+mEntireWord
 )
 ;
 return
