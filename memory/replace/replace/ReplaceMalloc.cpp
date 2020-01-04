@@ -44,6 +44,7 @@ mozilla
 :
 Atomic
 <
+const
 malloc_hook_table_t
 *
 >
