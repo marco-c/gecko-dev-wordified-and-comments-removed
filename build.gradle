@@ -57,10 +57,6 @@ buildDir
 topobjdir
 }
 /
-mobile
-/
-android
-/
 gradle
 /
 build
