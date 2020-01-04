@@ -1,3 +1,11 @@
+|
+jit
+-
+test
+|
+error
+:
+Error
 function
 testChangeParam
 (
