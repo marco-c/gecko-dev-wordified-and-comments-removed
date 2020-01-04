@@ -406,6 +406,12 @@ aComponents
 nullptr
 )
 ;
+OMX_VIDEO_CODINGTYPE
+CompressionFormat
+(
+)
+override
+;
 protected
 :
 friend
