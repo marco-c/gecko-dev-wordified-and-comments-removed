@@ -3234,6 +3234,16 @@ for
 skip
 in
 skips
+                     
+if
+not
+isinstance
+(
+skip
+parser
+.
+Junk
+)
 ]
 )
         
@@ -3966,6 +3976,22 @@ d
 '
 %
 params
+)
+                    
+if
+self
+.
+merge_stage
+is
+not
+None
+:
+                        
+skips
+.
+append
+(
+junk
 )
                 
 elif
