@@ -96,6 +96,13 @@ MPL
 DevToolsModules
 (
 '
+dark
+-
+theme
+.
+css
+'
+'
 dom
 -
 tree
@@ -118,6 +125,13 @@ css
 json
 -
 panel
+.
+css
+'
+'
+light
+-
+theme
 .
 css
 '
