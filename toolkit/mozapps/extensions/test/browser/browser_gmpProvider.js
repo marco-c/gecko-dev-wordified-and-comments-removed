@@ -130,6 +130,19 @@ isInstalled
 false
 isEME
 :
+(
+plugin
+.
+id
+=
+=
+"
+gmp
+-
+widevinecdm
+"
+|
+|
 plugin
 .
 id
@@ -146,6 +159,7 @@ eme
 =
 =
 0
+)
 ?
 true
 :
