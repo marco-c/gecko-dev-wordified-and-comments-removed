@@ -287,8 +287,11 @@ nullptr
 ;
 if
 (
-!
-Intl
+IntlGeneric
+(
+)
+.
+IsNull
 (
 )
 )
@@ -302,11 +305,10 @@ aFirstChild
 =
 ToXPC
 (
-Intl
+IntlGeneric
 (
 )
--
->
+.
 FirstChild
 (
 )
