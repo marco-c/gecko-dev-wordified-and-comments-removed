@@ -185,7 +185,7 @@ GetNextChild
 (
 )
 ;
-void
+bool
 Seek
 (
 nsIContent
@@ -540,6 +540,14 @@ Mutated
 }
 #
 endif
+bool
+Seek
+(
+nsIContent
+*
+aChildToFind
+)
+;
 nsIContent
 *
 GetNextChild
