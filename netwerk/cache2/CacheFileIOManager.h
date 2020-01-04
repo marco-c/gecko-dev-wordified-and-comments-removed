@@ -392,11 +392,6 @@ mFileExists
 1
 ;
 bool
-mLeakIt
-:
-1
-;
-bool
 mDoomWhenFoundPinned
 :
 1
@@ -1615,7 +1610,7 @@ aHash
 )
 ;
 nsresult
-ReleaseNSPRHandleInternal
+MaybeReleaseNSPRHandleInternal
 (
 CacheFileHandle
 *
