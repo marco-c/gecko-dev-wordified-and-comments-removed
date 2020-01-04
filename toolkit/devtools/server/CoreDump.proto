@@ -1448,6 +1448,17 @@ allocationStack
 =
 5
 ;
+/
+/
+char
+[
+]
+optional
+bytes
+jsObjectClassName
+=
+6
+;
 }
 /
 /

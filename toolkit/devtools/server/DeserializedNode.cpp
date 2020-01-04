@@ -284,6 +284,15 @@ rhs
 edges
 )
 ;
+jsObjectClassName
+=
+Move
+(
+rhs
+.
+jsObjectClassName
+)
+;
 owner
 =
 rhs
