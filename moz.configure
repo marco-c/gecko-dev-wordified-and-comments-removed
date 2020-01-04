@@ -1879,6 +1879,8 @@ MOZ_HUNSPELL
 '
 hunspell
 '
+when
+=
 check_for_hunspell
 )
 set_config

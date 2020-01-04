@@ -145,6 +145,8 @@ libffi
 .
 9
 '
+when
+=
 use_system_ffi
 )
 set_config

@@ -3883,6 +3883,8 @@ libgps
 .
 11
 '
+when
+=
 gpsd
 )
 set_config
