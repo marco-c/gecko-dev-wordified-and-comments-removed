@@ -51,6 +51,10 @@ client
 animationinspector
 /
 components
+/
+animation
+-
+details
 "
 )
 ;

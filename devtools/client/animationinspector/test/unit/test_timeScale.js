@@ -50,7 +50,7 @@ client
 /
 animationinspector
 /
-components
+utils
 "
 )
 ;
