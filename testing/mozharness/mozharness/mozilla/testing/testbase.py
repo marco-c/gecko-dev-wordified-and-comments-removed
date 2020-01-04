@@ -12,6 +12,8 @@ import
 urllib2
 import
 json
+import
+socket
 from
 mozharness
 .
