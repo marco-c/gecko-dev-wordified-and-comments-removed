@@ -4648,7 +4648,12 @@ stopPropagation
 }
 _launchResponsiveMode
 :
+Task
+.
+async
+(
 function
+*
 (
 options
 =
@@ -4676,6 +4681,7 @@ tab
 .
 ownerGlobal
 ;
+yield
 ResponsiveUIManager
 .
 runIfNeeded
@@ -4761,6 +4767,7 @@ height
 ;
 }
 }
+)
 _jumpToLocation
 :
 function
