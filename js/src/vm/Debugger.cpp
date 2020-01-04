@@ -8952,6 +8952,17 @@ runtime
 debuggerMallocSizeOf
 )
 ;
+auto
+inNursery
+=
+gc
+:
+:
+IsInsideNursery
+(
+obj
+)
+;
 if
 (
 !
@@ -8964,6 +8975,7 @@ when
 className
 ctorName
 size
+inNursery
 )
 )
 {
