@@ -1061,7 +1061,6 @@ api
 }
 generateAPIs
 (
-extension
 context
 apis
 namespaces
@@ -1199,6 +1198,8 @@ permission
 if
 (
 !
+context
+.
 extension
 .
 hasPermission
@@ -1219,7 +1220,6 @@ api
 .
 api
 (
-extension
 context
 )
 ;
@@ -1235,6 +1235,8 @@ for
 let
 api
 of
+context
+.
 extension
 .
 apis
@@ -1331,8 +1333,6 @@ params
 super
 (
 extension
-.
-id
 )
 ;
 let
@@ -1342,12 +1342,6 @@ uri
 }
 =
 params
-;
-this
-.
-extension
-=
-extension
 ;
 this
 .
@@ -1670,7 +1664,6 @@ GlobalManager
 .
 injectInObject
 (
-extension
 this
 null
 this
@@ -3153,7 +3146,6 @@ extensionId
 }
 injectInObject
 (
-extension
 context
 defaultCallback
 dest
@@ -3169,7 +3161,6 @@ Management
 .
 generateAPIs
 (
-extension
 context
 Management
 .
@@ -3190,7 +3181,6 @@ Management
 .
 generateAPIs
 (
-extension
 context
 Management
 .
@@ -3237,6 +3227,8 @@ permission
 )
 {
 return
+context
+.
 extension
 .
 hasPermission
@@ -3563,10 +3555,7 @@ return
 let
 inject
 =
-(
-extension
 context
-)
 =
 >
 {
@@ -3599,7 +3588,6 @@ this
 .
 injectInObject
 (
-extension
 context
 defaultCallback
 browserObj
@@ -3865,7 +3853,6 @@ incognito
 ;
 inject
 (
-extension
 context
 )
 ;

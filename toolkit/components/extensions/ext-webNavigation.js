@@ -777,10 +777,7 @@ registerSchemaAPI
 "
 webNavigation
 "
-(
-extension
 context
-)
 =
 >
 {

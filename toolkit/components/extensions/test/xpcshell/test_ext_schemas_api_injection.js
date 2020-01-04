@@ -208,10 +208,7 @@ noBackgroundAPI
 .
 testnamespace
 "
-(
-extension
 context
-)
 =
 >
 {
@@ -262,10 +259,7 @@ backgroundAPI
 .
 testnamespace
 "
-(
-extension
 context
-)
 =
 >
 {
