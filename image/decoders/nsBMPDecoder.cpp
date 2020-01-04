@@ -2847,7 +2847,12 @@ Nothing
 )
 mImageData
 mMayHaveTransparency
-true
+mH
+.
+mHeight
+>
+=
+0
 )
 ;
 if
