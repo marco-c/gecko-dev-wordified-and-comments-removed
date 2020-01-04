@@ -693,11 +693,6 @@ Tick
 (
 )
 ;
-void
-EnsureStyleRuleFor
-(
-)
-;
 public
 :
 bool
