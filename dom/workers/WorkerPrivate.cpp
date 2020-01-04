@@ -18664,6 +18664,13 @@ Release
 (
 )
 ;
+Promise
+:
+:
+PerformWorkerDebuggerMicroTaskCheckpoint
+(
+)
+;
 if
 (
 debuggerRunnablesPending
@@ -22792,6 +22799,13 @@ Release
 (
 )
 ;
+Promise
+:
+:
+PerformWorkerDebuggerMicroTaskCheckpoint
+(
+)
+;
 if
 (
 JS
@@ -25023,7 +25037,7 @@ break
 Promise
 :
 :
-PerformMicroTaskCheckpoint
+PerformWorkerMicroTaskCheckpoint
 (
 )
 ;
