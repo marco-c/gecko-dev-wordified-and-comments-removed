@@ -125,6 +125,12 @@ pem
 '
 #
 '
+content_signing_onecrl_no_SAN_ee
+.
+pem
+'
+#
+'
 content_signing_onecrl_wrong_key_ee
 .
 pem
