@@ -57,6 +57,10 @@ B2G
 /
 B2G
 Desktop
+Windows
+:
+bug
+1239170
 skip
 -
 if
@@ -461,6 +465,10 @@ B2G
 /
 B2G
 Desktop
+Windows
+:
+bug
+1239170
 fails
 -
 if
@@ -520,6 +528,10 @@ B2G
 /
 B2G
 Desktop
+Windows
+:
+bug
+1239170
 skip
 -
 if
@@ -653,6 +665,10 @@ B2G
 /
 B2G
 Desktop
+Windows
+:
+bug
+1239170
 #
 There
 is
@@ -1133,6 +1149,10 @@ B2G
 /
 B2G
 Desktop
+Windows
+:
+bug
+1239170
 fails
 -
 if
@@ -1192,6 +1212,10 @@ B2G
 /
 B2G
 Desktop
+Windows
+:
+bug
+1239170
 skip
 -
 if
@@ -1332,6 +1356,10 @@ B2G
 /
 B2G
 Desktop
+Windows
+:
+bug
+1239170
 skip
 -
 if
@@ -1466,3 +1494,7 @@ B2G
 /
 B2G
 Desktop
+Windows
+:
+bug
+1239170
