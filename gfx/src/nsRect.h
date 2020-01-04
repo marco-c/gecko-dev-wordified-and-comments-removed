@@ -67,6 +67,13 @@ h
 #
 include
 "
+nsMargin
+.
+h
+"
+#
+include
+"
 nsSize
 .
 h
@@ -78,12 +85,6 @@ nscore
 .
 h
 "
-struct
-nsMargin
-;
-struct
-nsIntMargin
-;
 typedef
 mozilla
 :

@@ -35,9 +35,6 @@ h
 struct
 nsRect
 ;
-struct
-nsIntMargin
-;
 class
 nsPresContext
 ;

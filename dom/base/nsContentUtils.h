@@ -377,9 +377,6 @@ JSPropertyDescriptor
 struct
 JSRuntime
 ;
-struct
-nsIntMargin
-;
 template
 <
 class
