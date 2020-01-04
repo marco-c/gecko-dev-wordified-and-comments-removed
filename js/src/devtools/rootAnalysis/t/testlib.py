@@ -206,6 +206,10 @@ compile
 (
 self
 source
+options
+=
+'
+'
 )
 :
         
@@ -245,6 +249,9 @@ xgill
 mangle
 =
 1
+{
+options
+}
 "
 .
 format
@@ -273,6 +280,10 @@ self
 cfg
 .
 sixgill_plugin
+            
+options
+=
+options
 )
         
 if
@@ -719,7 +730,7 @@ self
 run_analysis_script
 (
 "
-callgraph
+gcTypes
 "
 )
     
