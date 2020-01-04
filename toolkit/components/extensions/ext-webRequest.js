@@ -302,6 +302,9 @@ responseHeaders
 statusCode
 "
 "
+statusLine
+"
+"
 redirectUrl
 "
 ]
