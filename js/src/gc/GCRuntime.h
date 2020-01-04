@@ -2404,15 +2404,6 @@ isCompacting
 ;
 }
 bool
-shouldCleanUpEverything
-(
-)
-{
-return
-cleanUpEverything
-;
-}
-bool
 areGrayBitsValid
 (
 )
