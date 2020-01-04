@@ -726,9 +726,7 @@ android
 dividerHeight
 "
 >
-dimen
-/
-page_row_divider_height
+1dp
 <
 /
 item
