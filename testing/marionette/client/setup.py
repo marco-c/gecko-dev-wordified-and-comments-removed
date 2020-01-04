@@ -86,7 +86,7 @@ d
 read
 (
 '
-marionette
+marionette_driver
 '
 '
 __init__
@@ -106,7 +106,7 @@ setup
 name
 =
 '
-marionette_client
+marionette_driver
 '
       
 version
@@ -119,9 +119,7 @@ description
 =
 "
 Marionette
-test
-automation
-client
+Driver
 "
       
 long_description
@@ -140,6 +138,10 @@ readthedocs
 .
 org
 /
+en
+/
+latest
+/
 '
       
 classifiers
@@ -156,17 +158,22 @@ mozilla
 author
 =
 '
-Jonathan
-Griffin
+Auto
+-
+tools
 '
       
 author_email
 =
 '
-jgriffin
+tools
+-
+marionette
+lists
+.
 mozilla
 .
-com
+org
 '
       
 url
@@ -201,38 +208,7 @@ packages
 =
 find_packages
 (
-exclude
-=
-[
-'
-ez_setup
-'
-'
-examples
-'
-'
-tests
-'
-]
 )
-      
-package_data
-=
-{
-'
-marionette
-'
-:
-[
-'
-touch
-/
-*
-.
-js
-'
-]
-}
       
 include_package_data
 =
@@ -241,39 +217,6 @@ True
 zip_safe
 =
 False
-      
-entry_points
-=
-"
-"
-"
-      
-#
--
-*
--
-Entry
-points
-:
--
-*
--
-      
-[
-console_scripts
-]
-      
-marionette
-=
-marionette
-.
-runtests
-:
-cli
-      
-"
-"
-"
       
 install_requires
 =

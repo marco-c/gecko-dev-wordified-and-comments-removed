@@ -1857,7 +1857,7 @@ testsdir
 "
 marionette
 /
-client
+harness
 /
 marionette
 "

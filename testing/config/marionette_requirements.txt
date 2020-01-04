@@ -14,7 +14,7 @@ wptserve
 /
 marionette
 /
-driver
+client
 .
 .
 /

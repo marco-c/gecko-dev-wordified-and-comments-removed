@@ -272,7 +272,7 @@ test
 .
 xul
 (
-client
+harness
 /
 marionette
 /
@@ -288,7 +288,7 @@ test2
 .
 xul
 (
-client
+harness
 /
 marionette
 /
@@ -304,7 +304,7 @@ test_nested_iframe
 .
 xul
 (
-client
+harness
 /
 marionette
 /
@@ -320,7 +320,7 @@ test_anonymous_content
 .
 xul
 (
-client
+harness
 /
 marionette
 /

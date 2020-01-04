@@ -3787,17 +3787,7 @@ D
 MARIONETTE_DIR
 )
 /
-transport
-(
-NSINSTALL
-)
--
-D
-(
-MARIONETTE_DIR
-)
-/
-driver
+client
 (
 cd
 (
@@ -3808,7 +3798,7 @@ testing
 /
 marionette
 /
-client
+harness
 &
 &
 tar
@@ -3848,7 +3838,7 @@ testing
 /
 marionette
 /
-driver
+client
 &
 &
 tar
@@ -3865,7 +3855,7 @@ cd
 MARIONETTE_DIR
 )
 /
-driver
+client
 &
 &
 tar
@@ -3884,7 +3874,7 @@ testing
 /
 marionette
 /
-client
+harness
 /
 marionette
 /
@@ -3910,7 +3900,7 @@ testing
 /
 marionette
 /
-client
+harness
 /
 marionette
 /
@@ -3964,7 +3954,7 @@ testing
 /
 marionette
 /
-client
+harness
 /
 marionette
 /
@@ -3990,7 +3980,7 @@ testing
 /
 marionette
 /
-client
+harness
 /
 marionette
 /

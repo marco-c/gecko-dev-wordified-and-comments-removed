@@ -1710,7 +1710,7 @@ testing
 marionette
 '
 '
-client
+harness
 '
 '
 marionette

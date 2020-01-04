@@ -6,7 +6,7 @@ testing
 /
 marionette
 /
-driver
+client
 browsermobproxy
 .
 pth
@@ -15,7 +15,7 @@ testing
 /
 marionette
 /
-client
+harness
 /
 marionette
 /
@@ -51,7 +51,7 @@ testing
 /
 marionette
 /
-client
+harness
 blessings
 .
 pth
