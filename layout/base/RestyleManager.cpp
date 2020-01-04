@@ -11196,6 +11196,10 @@ mSwappedStructOwners
 (
 aSwappedStructOwners
 )
+mIsRootOfRestyle
+(
+true
+)
 #
 ifdef
 ACCESSIBILITY
@@ -11351,6 +11355,10 @@ mSwappedStructOwners
 aParentRestyler
 .
 mSwappedStructOwners
+)
+mIsRootOfRestyle
+(
+false
 )
 #
 ifdef
@@ -11523,6 +11531,10 @@ aParentRestyler
 .
 mSwappedStructOwners
 )
+mIsRootOfRestyle
+(
+false
+)
 #
 ifdef
 ACCESSIBILITY
@@ -11684,6 +11696,10 @@ aContextsToClear
 mSwappedStructOwners
 (
 aSwappedStructOwners
+)
+mIsRootOfRestyle
+(
+true
 )
 #
 ifdef

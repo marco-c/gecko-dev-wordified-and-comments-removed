@@ -1909,6 +1909,9 @@ nsStyleContext
 &
 mSwappedStructOwners
 ;
+bool
+mIsRootOfRestyle
+;
 #
 ifdef
 ACCESSIBILITY
