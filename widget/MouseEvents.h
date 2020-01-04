@@ -1025,7 +1025,7 @@ WidgetDragEvent
 (
 )
 :
-userCancelled
+mUserCancelled
 (
 false
 )
@@ -1068,7 +1068,7 @@ aWidget
 eDragEventClass
 eReal
 )
-userCancelled
+mUserCancelled
 (
 false
 )
@@ -1172,7 +1172,7 @@ DataTransfer
 mDataTransfer
 ;
 bool
-userCancelled
+mUserCancelled
 ;
 bool
 mDefaultPreventedOnContent
@@ -1200,7 +1200,7 @@ aEvent
 .
 mDataTransfer
 ;
-userCancelled
+mUserCancelled
 =
 false
 ;
