@@ -4248,11 +4248,6 @@ notifications
 roomStore
 :
 roomStore
-selectedTab
-:
-"
-rooms
-"
 }
 )
 )
@@ -4345,7 +4340,6 @@ summary
 "
 Room
 list
-tab
 "
 width
 :
@@ -4386,11 +4380,6 @@ notifications
 roomStore
 :
 roomStore
-selectedTab
-:
-"
-rooms
-"
 }
 )
 )
@@ -4421,7 +4410,6 @@ summary
 "
 Room
 list
-tab
 (
 No
 Context
@@ -4466,11 +4454,6 @@ notifications
 roomStore
 :
 roomStore
-selectedTab
-:
-"
-rooms
-"
 }
 )
 )
@@ -4501,7 +4484,6 @@ summary
 "
 Room
 list
-tab
 (
 no
 rooms
@@ -4546,11 +4528,6 @@ notifications
 roomStore
 :
 roomStoreNoRooms
-selectedTab
-:
-"
-rooms
-"
 }
 )
 )
@@ -4581,7 +4558,6 @@ summary
 "
 Room
 list
-tab
 (
 no
 rooms
@@ -4629,11 +4605,6 @@ notifications
 roomStore
 :
 roomStoreNoRooms
-selectedTab
-:
-"
-rooms
-"
 }
 )
 )
@@ -4664,7 +4635,6 @@ summary
 "
 Room
 list
-tab
 (
 loading
 view
@@ -4709,11 +4679,6 @@ notifications
 roomStore
 :
 roomStoreNoRoomsPending
-selectedTab
-:
-"
-rooms
-"
 }
 )
 )

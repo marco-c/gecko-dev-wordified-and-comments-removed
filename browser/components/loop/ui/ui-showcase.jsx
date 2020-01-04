@@ -5074,11 +5074,6 @@ roomStore
 {
 roomStore
 }
-selectedTab
-=
-"
-rooms
-"
 /
 >
 <
@@ -5177,7 +5172,6 @@ summary
 "
 Room
 list
-tab
 "
 width
 =
@@ -5220,11 +5214,6 @@ roomStore
 {
 roomStore
 }
-selectedTab
-=
-"
-rooms
-"
 /
 >
 <
@@ -5261,7 +5250,6 @@ summary
 "
 Room
 list
-tab
 (
 No
 Context
@@ -5308,11 +5296,6 @@ roomStore
 {
 roomStore
 }
-selectedTab
-=
-"
-rooms
-"
 /
 >
 <
@@ -5349,7 +5332,6 @@ summary
 "
 Room
 list
-tab
 (
 no
 rooms
@@ -5396,11 +5378,6 @@ roomStore
 {
 roomStoreNoRooms
 }
-selectedTab
-=
-"
-rooms
-"
 /
 >
 <
@@ -5437,7 +5414,6 @@ summary
 "
 Room
 list
-tab
 (
 no
 rooms
@@ -5487,11 +5463,6 @@ roomStore
 {
 roomStoreNoRooms
 }
-selectedTab
-=
-"
-rooms
-"
 /
 >
 <
@@ -5528,7 +5499,6 @@ summary
 "
 Room
 list
-tab
 (
 loading
 view
@@ -5575,11 +5545,6 @@ roomStore
 {
 roomStoreNoRoomsPending
 }
-selectedTab
-=
-"
-rooms
-"
 /
 >
 <
