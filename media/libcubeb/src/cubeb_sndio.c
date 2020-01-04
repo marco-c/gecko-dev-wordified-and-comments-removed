@@ -929,7 +929,7 @@ cubeb_stream_params
 output_stream_params
 unsigned
 int
-latency_frames
+latency
 cubeb_data_callback
 data_callback
 cubeb_state_callback
@@ -1164,7 +1164,13 @@ wpar
 .
 appbufsz
 =
-latency_frames
+latency
+*
+wpar
+.
+rate
+/
+1000
 ;
 if
 (
@@ -1587,9 +1593,9 @@ latency_ms
 )
 {
 *
-latency
+latency_ms
 =
-2048
+40
 ;
 return
 CUBEB_OK

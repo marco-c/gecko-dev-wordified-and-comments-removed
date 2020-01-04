@@ -305,7 +305,7 @@ SOURCES
 '
 cubeb_audiounit
 .
-cpp
+c
 '
 '
 cubeb_resampler

@@ -376,11 +376,11 @@ min_rate
 ;
 unsigned
 int
-latency_lo
+latency_lo_ms
 ;
 unsigned
 int
-latency_hi
+latency_hi_ms
 ;
 }
 cubeb_device_info
@@ -513,7 +513,7 @@ cubeb_stream_params
 params
 uint32_t
 *
-latency_frames
+latency_ms
 )
 ;
 int
@@ -561,7 +561,7 @@ cubeb_stream_params
 output_stream_params
 unsigned
 int
-latency_frames
+latency
 cubeb_data_callback
 data_callback
 cubeb_state_callback
