@@ -1400,9 +1400,6 @@ join
 test_path
 path
 )
-"
-r
-"
 )
 as
 in_f
@@ -1632,9 +1629,6 @@ with
 open
 (
 full_path
-"
-r
-"
 )
 as
 f

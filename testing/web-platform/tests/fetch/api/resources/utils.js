@@ -335,15 +335,6 @@ new
 Uint8Array
 (
 buffer
-!
-=
-=
-undefined
-?
-buffer
-:
-[
-]
 )
 stringToArray
 (

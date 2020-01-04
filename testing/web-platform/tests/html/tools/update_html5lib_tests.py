@@ -707,9 +707,6 @@ join
 script_dir
 template_file_name
 )
-"
-r
-"
 )
 as
 f

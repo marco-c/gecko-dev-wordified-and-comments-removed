@@ -257,9 +257,6 @@ join
 template_directory
 basename
 )
-"
-r
-"
 )
 as
 f
@@ -386,9 +383,6 @@ with
 open
 (
 path_to_spec
-"
-r
-"
 )
 as
 f

@@ -113,8 +113,6 @@ web
 -
 animations
 /
-interfaces
-/
 Animation
 /
 startTime
@@ -171,7 +169,7 @@ timing
 -
 model
 /
-animations
+animation
 /
 set
 -
@@ -218,8 +216,6 @@ API
 web
 -
 animations
-/
-interfaces
 /
 Animation
 /
