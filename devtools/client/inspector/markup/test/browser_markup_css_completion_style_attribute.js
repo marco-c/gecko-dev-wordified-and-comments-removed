@@ -6,7 +6,7 @@ strict
 const
 TEST_URL
 =
-TEST_URL_ROOT
+URL_ROOT
 +
 "
 doc_markup_edit
@@ -696,14 +696,9 @@ inspector
 }
 =
 yield
-addTab
+openInspectorForURL
 (
 TEST_URL
-)
-.
-then
-(
-openInspector
 )
 ;
 yield

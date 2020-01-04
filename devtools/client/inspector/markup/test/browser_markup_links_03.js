@@ -6,7 +6,7 @@ strict
 const
 TEST_URL
 =
-TEST_URL_ROOT
+URL_ROOT
 +
 "
 doc_markup_links
@@ -24,17 +24,13 @@ function
 let
 {
 inspector
+testActor
 }
 =
 yield
-addTab
+openInspectorForURL
 (
 TEST_URL
-)
-.
-then
-(
-openInspector
 )
 ;
 info
@@ -78,6 +74,7 @@ contextmenu
 "
 menu1
 "
+testActor
 )
 ;
 yield
@@ -231,6 +228,7 @@ contextmenu
 "
 menu2
 "
+testActor
 )
 ;
 yield

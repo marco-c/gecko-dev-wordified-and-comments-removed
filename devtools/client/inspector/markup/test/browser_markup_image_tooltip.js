@@ -356,7 +356,7 @@ src
 "
 '
 +
-TEST_URL_ROOT
+URL_ROOT
 +
 '
 doc_markup_tooltip

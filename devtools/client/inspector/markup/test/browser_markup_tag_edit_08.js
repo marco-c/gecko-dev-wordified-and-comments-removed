@@ -6,7 +6,7 @@ strict
 const
 TEST_URL
 =
-TEST_URL_ROOT
+URL_ROOT
 +
 "
 doc_markup_edit
@@ -56,17 +56,13 @@ function
 let
 {
 inspector
+testActor
 }
 =
 yield
-addTab
+openInspectorForURL
 (
 TEST_URL
-)
-.
-then
-(
-openInspector
 )
 ;
 yield
@@ -82,18 +78,21 @@ yield
 testCollapsedLongAttribute
 (
 inspector
+testActor
 )
 ;
 yield
 testModifyInlineStyleWithQuotes
 (
 inspector
+testActor
 )
 ;
 yield
 testEditingAttributeWithMixedQuotes
 (
 inspector
+testActor
 )
 ;
 }
@@ -104,6 +103,7 @@ function
 testCollapsedLongAttribute
 (
 inspector
+testActor
 )
 {
 info
@@ -160,6 +160,7 @@ class
 "
 "
 "
+testActor
 )
 ;
 yield
@@ -175,6 +176,7 @@ data
 long
 "
 LONG_ATTRIBUTE
+testActor
 )
 ;
 yield
@@ -207,6 +209,7 @@ long
 :
 LONG_ATTRIBUTE
 }
+testActor
 )
 ;
 let
@@ -404,6 +407,7 @@ short
 ABC
 "
 }
+testActor
 )
 ;
 }
@@ -412,6 +416,7 @@ function
 testModifyInlineStyleWithQuotes
 (
 inspector
+testActor
 )
 {
 info
@@ -479,6 +484,7 @@ org
 ;
 '
 }
+testActor
 )
 ;
 let
@@ -713,6 +719,7 @@ com
 ;
 '
 }
+testActor
 )
 ;
 }
@@ -721,6 +728,7 @@ function
 testEditingAttributeWithMixedQuotes
 (
 inspector
+testActor
 )
 {
 info
@@ -765,6 +773,7 @@ single
 '
 '
 }
+testActor
 )
 ;
 let
@@ -950,6 +959,7 @@ and
 '
 '
 }
+testActor
 )
 ;
 }

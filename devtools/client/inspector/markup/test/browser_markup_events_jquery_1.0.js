@@ -17,7 +17,7 @@ js
 const
 TEST_URL
 =
-TEST_URL_ROOT
+URL_ROOT
 +
 "
 doc_markup_events_jquery
@@ -58,7 +58,7 @@ load
 "
 filename
 :
-TEST_URL_ROOT
+URL_ROOT
 +
 TEST_LIB
 attributes
@@ -948,7 +948,7 @@ load
 "
 filename
 :
-TEST_URL_ROOT
+URL_ROOT
 +
 TEST_LIB
 attributes
@@ -1311,7 +1311,7 @@ click
 "
 filename
 :
-TEST_URL_ROOT
+URL_ROOT
 +
 TEST_LIB
 +
@@ -1617,7 +1617,7 @@ keydown
 "
 filename
 :
-TEST_URL_ROOT
+URL_ROOT
 +
 TEST_LIB
 +

@@ -4,6 +4,7 @@ runAddAttributesTests
 tests
 nodeOrSelector
 inspector
+testActor
 )
 {
 info
@@ -69,6 +70,7 @@ test
 div
 "
 inspector
+testActor
 )
 ;
 }
@@ -83,6 +85,7 @@ runAddAttributesTest
 test
 selector
 inspector
+testActor
 )
 {
 if
@@ -160,6 +163,7 @@ selector
 test
 .
 expectedAttributes
+testActor
 )
 ;
 if
@@ -229,6 +233,7 @@ assertAttributes
 selector
 {
 }
+testActor
 )
 ;
 if
@@ -252,6 +257,7 @@ runEditAttributesTests
 (
 tests
 inspector
+testActor
 )
 {
 info
@@ -318,21 +324,10 @@ runEditAttributesTest
 (
 test
 inspector
+testActor
 )
 ;
 }
-yield
-inspector
-.
-once
-(
-"
-inspector
--
-updated
-"
-)
-;
 }
 )
 ;
@@ -343,6 +338,7 @@ runEditAttributesTest
 (
 test
 inspector
+testActor
 )
 {
 info
@@ -410,6 +406,7 @@ node
 test
 .
 originalAttributes
+testActor
 )
 ;
 info
@@ -551,6 +548,7 @@ node
 test
 .
 expectedAttributes
+testActor
 )
 ;
 info
@@ -586,6 +584,7 @@ node
 test
 .
 originalAttributes
+testActor
 )
 ;
 info
@@ -621,6 +620,7 @@ node
 test
 .
 expectedAttributes
+testActor
 )
 ;
 }

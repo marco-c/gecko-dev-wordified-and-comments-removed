@@ -59,19 +59,14 @@ function
 {
 let
 {
-toolbox
 inspector
+testActor
 }
 =
 yield
-addTab
+openInspectorForURL
 (
 TEST_URL
-)
-.
-then
-(
-openInspector
 )
 ;
 yield
@@ -160,6 +155,7 @@ retag
 -
 me
 "
+testActor
 )
 ;
 is
@@ -223,6 +219,7 @@ me
 >
 *
 "
+testActor
 )
 ;
 is
@@ -395,6 +392,7 @@ retag
 -
 me
 "
+testActor
 )
 ;
 is
@@ -454,6 +452,7 @@ me
 >
 *
 "
+testActor
 )
 ;
 is

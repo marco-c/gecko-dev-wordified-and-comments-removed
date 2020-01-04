@@ -488,17 +488,13 @@ function
 let
 {
 inspector
+testActor
 }
 =
 yield
-addTab
+openInspectorForURL
 (
 TEST_URL
-)
-.
-then
-(
-openInspector
 )
 ;
 yield
@@ -509,6 +505,7 @@ TEST_DATA
 div
 "
 inspector
+testActor
 )
 }
 )

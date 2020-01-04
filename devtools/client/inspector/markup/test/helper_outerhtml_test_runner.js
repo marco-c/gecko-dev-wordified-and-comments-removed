@@ -3,6 +3,7 @@ runEditOuterHTMLTests
 (
 tests
 inspector
+testActor
 )
 {
 info
@@ -48,6 +49,7 @@ runEditOuterHTMLTest
 (
 step
 inspector
+testActor
 )
 ;
 }
@@ -61,6 +63,7 @@ runEditOuterHTMLTest
 (
 test
 inspector
+testActor
 )
 {
 info
@@ -254,6 +257,7 @@ getNodeInfo
 test
 .
 selector
+testActor
 )
 ;
 is
