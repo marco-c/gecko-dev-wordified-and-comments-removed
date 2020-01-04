@@ -404,7 +404,7 @@ visible
 }
 a11y
 .
-checkVisible
+assertVisible
 (
 acc
 el
@@ -437,7 +437,7 @@ enabled
 }
 a11y
 .
-checkEnabled
+assertEnabled
 (
 acc
 el
@@ -446,7 +446,7 @@ true
 ;
 a11y
 .
-checkActionable
+assertActionable
 (
 acc
 el
@@ -594,7 +594,7 @@ acc
 {
 a11y
 .
-checkActionable
+assertActionable
 (
 acc
 el
@@ -676,7 +676,7 @@ acc
 {
 a11y
 .
-checkVisible
+assertVisible
 (
 acc
 el
@@ -820,7 +820,7 @@ acc
 {
 a11y
 .
-checkEnabled
+assertEnabled
 (
 acc
 el
@@ -955,7 +955,7 @@ acc
 {
 a11y
 .
-checkSelected
+assertSelected
 (
 acc
 el

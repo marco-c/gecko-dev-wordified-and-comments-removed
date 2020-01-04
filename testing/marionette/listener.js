@@ -3983,7 +3983,7 @@ acc
 {
 a11y
 .
-checkVisible
+assertVisible
 (
 acc
 el
@@ -3992,7 +3992,7 @@ visible
 ;
 a11y
 .
-checkActionable
+assertActionable
 (
 acc
 el

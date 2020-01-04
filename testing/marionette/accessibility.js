@@ -680,7 +680,7 @@ return
 false
 ;
 }
-checkVisible
+assertVisible
 (
 accessible
 element
@@ -786,7 +786,7 @@ element
 )
 ;
 }
-checkEnabled
+assertEnabled
 (
 accessible
 element
@@ -943,7 +943,7 @@ element
 )
 ;
 }
-checkActionable
+assertActionable
 (
 accessible
 element
@@ -1087,7 +1087,7 @@ element
 )
 ;
 }
-checkSelected
+assertSelected
 (
 accessible
 element
