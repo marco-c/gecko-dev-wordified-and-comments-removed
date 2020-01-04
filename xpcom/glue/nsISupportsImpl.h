@@ -554,6 +554,13 @@ defined
 (
 NS_BUILD_REFCNT_LOGGING
 )
+&
+&
+!
+defined
+(
+MOZILLA_XPCOMRT_API
+)
 #
 define
 NS_LOG_ADDREF
