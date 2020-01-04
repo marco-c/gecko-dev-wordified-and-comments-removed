@@ -1092,7 +1092,7 @@ mOffsetInNode
 }
 ;
 FrameAndNodeOffset
-GetFirstFrameHavingFlatTextInRange
+GetFirstFrameInRangeForTextRect
 (
 nsRange
 *
@@ -1100,7 +1100,7 @@ aRange
 )
 ;
 FrameAndNodeOffset
-GetLastFrameHavingFlatTextInRange
+GetLastFrameInRangeForTextRect
 (
 nsRange
 *
