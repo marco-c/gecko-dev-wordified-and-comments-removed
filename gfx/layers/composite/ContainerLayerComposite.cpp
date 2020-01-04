@@ -3780,7 +3780,9 @@ LayersDrawFPS
 {
 for
 (
+const
 auto
+&
 metadata
 :
 layer
