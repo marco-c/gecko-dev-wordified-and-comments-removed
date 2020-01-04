@@ -4046,13 +4046,6 @@ getProfile
 )
 )
 ;
-if
-(
-AppConstants
-.
-MOZ_INSTALL_TRACKING
-)
-{
 final
 AdjustHelperInterface
 adjustHelper
@@ -4099,7 +4092,6 @@ true
 )
 )
 ;
-}
 if
 (
 AppConstants

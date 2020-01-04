@@ -255,13 +255,6 @@ MOZILLA_UTM_SOURCE
 )
 )
 {
-if
-(
-AppConstants
-.
-MOZ_INSTALL_TRACKING
-)
-{
 try
 {
 AdjustConstants
@@ -305,7 +298,6 @@ intent
 e
 )
 ;
-}
 }
 return
 ;
