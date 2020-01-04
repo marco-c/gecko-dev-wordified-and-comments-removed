@@ -519,11 +519,15 @@ IsOuterWindow
 {
 return
 mInnerWindow
+?
+mInnerWindow
 -
 >
 GetFocusedNode
 (
 )
+:
+nullptr
 ;
 }
 return
