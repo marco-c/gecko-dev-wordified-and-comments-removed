@@ -19252,6 +19252,43 @@ nullptr
 "
 )
         
+failureCode
+=
+dedent
+(
+            
+"
+"
+"
+            
+*
+protoCache
+=
+nullptr
+;
+            
+if
+(
+interfaceCache
+)
+{
+              
+*
+interfaceCache
+=
+nullptr
+;
+            
+}
+            
+return
+;
+            
+"
+"
+"
+)
+        
 aliasedMembers
 =
 [
@@ -19452,8 +19489,10 @@ JSPROP_ENUMERATE
 )
 {
                           
-return
-;
+*
+{
+failureCode
+}
                         
 }
                         
@@ -19468,6 +19507,10 @@ defineFn
 prop
 =
 prop
+                        
+failureCode
+=
+failureCode
 )
 )
                 
@@ -19519,14 +19562,20 @@ aliasedVal
 )
 {
                           
-return
-;
+*
+{
+failureCode
+}
                         
 }
                         
 "
 "
 "
+                        
+failureCode
+=
+failureCode
                         
 prop
 =
@@ -19565,7 +19614,7 @@ CGList
                 
 CGGeneric
 (
-dedent
+fill
 (
 "
 "
@@ -19610,14 +19659,20 @@ proto
 )
 {
                       
-return
-;
+*
+{
+failureCode
+}
                     
 }
                     
 "
 "
 "
+                    
+failureCode
+=
+failureCode
 )
 )
                 
@@ -19728,43 +19783,6 @@ holderProto
 *
 protoCache
 "
-            
-failureCode
-=
-dedent
-(
-                
-"
-"
-"
-                
-*
-protoCache
-=
-nullptr
-;
-                
-if
-(
-interfaceCache
-)
-{
-                  
-*
-interfaceCache
-=
-nullptr
-;
-                
-}
-                
-return
-;
-                
-"
-"
-"
-)
             
 createUnforgeableHolder
 =
