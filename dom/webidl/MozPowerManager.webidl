@@ -181,6 +181,13 @@ navigator
 mozPower
 *
 /
+[
+CheckAnyPermissions
+=
+"
+power
+"
+]
 interface
 MozPowerManager
 {
