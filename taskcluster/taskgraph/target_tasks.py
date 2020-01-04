@@ -341,12 +341,6 @@ target_tasks_labels
 _target_task
 (
 '
-all_builds_and_tests
-'
-)
-_target_task
-(
-'
 default
 '
 )
