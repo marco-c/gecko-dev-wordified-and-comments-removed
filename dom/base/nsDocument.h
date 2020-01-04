@@ -531,6 +531,15 @@ Element
 aElement
 )
 ;
+FullscreenRequest
+(
+const
+FullscreenRequest
+&
+)
+=
+delete
+;
 ~
 FullscreenRequest
 (
