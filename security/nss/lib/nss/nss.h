@@ -66,8 +66,6 @@ NSS_VERSION
 3
 .
 20
-.
-1
 "
 _NSS_ECC_STRING
 _NSS_CUSTOMIZED
@@ -82,7 +80,7 @@ NSS_VMINOR
 #
 define
 NSS_VPATCH
-1
+0
 #
 define
 NSS_VBUILD
