@@ -1956,7 +1956,6 @@ uint8_t
 {
 unsent
 opened
-sent
 headers_received
 loading
 done
@@ -2341,6 +2340,9 @@ mFlagTimedOut
 ;
 bool
 mFlagDeleted
+;
+bool
+mFlagSend
 ;
 RefPtr
 <
