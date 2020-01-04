@@ -275,6 +275,14 @@ CONFIG
 MOZ_ICU_CFLAGS
 '
 ]
+USE_LIBS
++
+=
+[
+'
+icu
+'
+]
 if
 not
 CONFIG

@@ -2067,6 +2067,9 @@ sMirrorOffsets
 }
 ;
 #
+ifndef
+ENABLE_INTL_API
+#
 define
 kCharProp1MaxPlane
 1
@@ -31328,6 +31331,8 @@ sCharProp1Values
 }
 }
 ;
+#
+endif
 #
 define
 kCharProp2MaxPlane
