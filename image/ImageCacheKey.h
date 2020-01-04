@@ -110,6 +110,17 @@ return
 mIsChrome
 ;
 }
+void
+*
+ControlledDocument
+(
+)
+const
+{
+return
+mControlledDocument
+;
+}
 private
 :
 static
