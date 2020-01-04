@@ -2651,6 +2651,16 @@ getFeatureLog
 (
 )
 ;
+data
+.
+crashGuards
+=
+gfxInfo
+.
+getActiveCrashGuards
+(
+)
+;
 completed
 (
 )
