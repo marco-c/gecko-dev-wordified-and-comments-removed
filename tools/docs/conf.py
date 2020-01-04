@@ -52,6 +52,14 @@ EXTRA_PATHS
 (
     
 '
+layout
+/
+tools
+/
+reftest
+'
+    
+'
 python
 /
 futures
@@ -79,6 +87,14 @@ mozbuild
 python
 /
 which
+'
+    
+'
+testing
+/
+mozbase
+/
+manifestparser
 '
     
 '
