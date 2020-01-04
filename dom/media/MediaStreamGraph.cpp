@@ -11864,12 +11864,7 @@ GraphImpl
 )
 -
 >
-CurrentDriver
-(
-)
--
->
-OnThread
+AssertOnGraphThreadOrNotRunning
 (
 )
 )
