@@ -183,7 +183,6 @@ linux64
 minidump_stackwalk
 RUN
 chmod
-u
 +
 x
 /
