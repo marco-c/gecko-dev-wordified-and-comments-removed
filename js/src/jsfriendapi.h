@@ -2687,9 +2687,7 @@ clasp
 clasp
 -
 >
-spec
-.
-defined
+specDefined
 (
 )
 &
@@ -2697,9 +2695,7 @@ defined
 clasp
 -
 >
-spec
-.
-dependent
+specDependent
 (
 )
 ;
@@ -2736,9 +2732,7 @@ key
 )
 -
 >
-spec
-.
-parentKey
+specParentKey
 (
 )
 ;
