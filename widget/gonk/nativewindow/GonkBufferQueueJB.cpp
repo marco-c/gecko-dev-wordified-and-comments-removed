@@ -2042,8 +2042,10 @@ GraphicBuffer
 :
 USAGE_HW_TEXTURE
 ;
+RefPtr
+<
 ClientIPCAllocator
-*
+>
 allocator
 =
 ImageBridgeChild

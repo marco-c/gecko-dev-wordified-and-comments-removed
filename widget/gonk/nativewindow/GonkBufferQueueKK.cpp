@@ -2120,8 +2120,10 @@ IGraphicBufferProducer
 BUFFER_NEEDS_REALLOCATION
 )
 {
+RefPtr
+<
 ClientIPCAllocator
-*
+>
 allocator
 =
 ImageBridgeChild
