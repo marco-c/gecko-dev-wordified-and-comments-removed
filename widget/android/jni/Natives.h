@@ -1617,6 +1617,10 @@ dummy
 }
 public
 :
+typedef
+Impl
+TargetClass
+;
 static
 const
 bool
