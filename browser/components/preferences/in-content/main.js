@@ -584,7 +584,11 @@ e10sCheckbox
 .
 checked
 =
-true
+Services
+.
+appinfo
+.
+browserTabsRemoteAutostart
 ;
 e10sCheckbox
 .
