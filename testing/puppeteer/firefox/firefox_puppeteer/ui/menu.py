@@ -310,7 +310,6 @@ menu
 *
 *
 or
-        
 *
 *
 view
@@ -549,7 +548,6 @@ e
 .
 g
 .
-        
 *
 *
 menu_newNavigatorTab
@@ -827,7 +825,6 @@ e
 .
 g
 .
-            
 *
 *
 menu_newNavigatorTab
