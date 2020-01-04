@@ -568,13 +568,6 @@ getCodebasePrincipal
 uri
 )
 ;
-let
-host
-=
-uri
-.
-host
-;
 if
 (
 uri

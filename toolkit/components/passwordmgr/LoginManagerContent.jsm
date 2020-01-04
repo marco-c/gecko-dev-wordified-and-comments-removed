@@ -5327,7 +5327,6 @@ let
 [
 usernameField
 newPasswordField
-oldPasswordField
 ]
 =
 this

@@ -1013,13 +1013,6 @@ ownerDocument
 location
 ;
 let
-host
-=
-formDocURL
-.
-host
-;
-let
 hostRecipes
 =
 aRecipes

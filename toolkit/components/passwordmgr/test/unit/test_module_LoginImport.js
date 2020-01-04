@@ -1052,15 +1052,6 @@ sqlite
 path
 ;
 let
-loginList
-=
-TestData
-.
-loginList
-(
-)
-;
-let
 connection
 =
 yield
