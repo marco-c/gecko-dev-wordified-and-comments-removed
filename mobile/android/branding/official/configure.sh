@@ -67,3 +67,12 @@ MOZ_UPDATER
 =
 MOZ_ANDROID_ANR_REPORTER
 =
+MOZ_ANDROID_SHARED_ID
+=
+org
+.
+mozilla
+.
+firefox
+.
+sharedID
