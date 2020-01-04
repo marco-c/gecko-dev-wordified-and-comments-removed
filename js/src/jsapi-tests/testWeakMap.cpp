@@ -895,6 +895,15 @@ return
 nullptr
 ;
 }
+cx
+-
+>
+gc
+.
+evictNursery
+(
+)
+;
 return
 object
 ;

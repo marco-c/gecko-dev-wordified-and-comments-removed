@@ -4702,6 +4702,15 @@ Value
 priv
 )
 {
+MOZ_ASSERT
+(
+!
+IsInsideNursery
+(
+this
+)
+)
+;
 MOZ_ASSERT_IF
 (
 IsCrossCompartmentWrapper

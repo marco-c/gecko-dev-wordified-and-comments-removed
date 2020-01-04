@@ -251,6 +251,17 @@ return
 true
 ;
 }
+virtual
+bool
+canNurseryAllocate
+(
+)
+const
+{
+return
+false
+;
+}
 typedef
 uint32_t
 Action
