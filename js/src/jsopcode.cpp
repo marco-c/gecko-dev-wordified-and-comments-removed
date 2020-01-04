@@ -4611,6 +4611,9 @@ op
 ]
 )
 ;
+int
+i
+;
 switch
 (
 JOF_TYPE
@@ -5319,10 +5322,6 @@ pc
 ;
 break
 ;
-{
-int
-i
-;
 case
 JOF_UINT16
 :
@@ -5421,7 +5420,6 @@ i
 ;
 break
 ;
-}
 default
 :
 {
