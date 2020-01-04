@@ -1,4 +1,7 @@
 #
+ifdef
+MOZ_MEMORY
+#
 define
 MOZ_MEMORY_IMPL
 #
@@ -44,6 +47,8 @@ malloc_decls
 .
 h
 "
+#
+endif
 #
 include
 <
