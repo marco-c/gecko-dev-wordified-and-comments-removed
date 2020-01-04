@@ -105,10 +105,13 @@ ifdef
 JS_GC_ZEAL
 if
 (
-zealMode
-=
-=
-ZealPokeValue
+hasZealMode
+(
+ZealMode
+:
+:
+Poke
+)
 )
 nextScheduled
 =

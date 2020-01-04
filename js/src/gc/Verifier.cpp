@@ -1733,10 +1733,14 @@ always
 {
 if
 (
-zealMode
 !
-=
-ZealVerifierPreValue
+hasZealMode
+(
+ZealMode
+:
+:
+VerifierPre
+)
 )
 return
 ;

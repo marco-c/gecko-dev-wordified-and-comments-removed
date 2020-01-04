@@ -110,7 +110,7 @@ JS_GC_ZEAL
 const
 void
 *
-addressOfGCZeal
+addressOfGCZealModeBits
 (
 )
 ;

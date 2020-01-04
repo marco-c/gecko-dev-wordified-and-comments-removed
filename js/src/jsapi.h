@@ -19956,14 +19956,14 @@ JS_PUBLIC_API
 (
 void
 )
-JS_GetGCZeal
+JS_GetGCZealBits
 (
 JSContext
 *
 cx
-uint8_t
+uint32_t
 *
-zeal
+zealBits
 uint32_t
 *
 frequency

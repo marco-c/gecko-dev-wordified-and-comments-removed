@@ -268,7 +268,7 @@ void
 CompileRuntime
 :
 :
-addressOfGCZeal
+addressOfGCZealModeBits
 (
 )
 {
@@ -280,7 +280,7 @@ runtime
 >
 gc
 .
-addressOfZealMode
+addressOfZealModeBits
 (
 )
 ;
