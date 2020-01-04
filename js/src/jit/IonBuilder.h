@@ -4885,6 +4885,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineObjectHasPrototype
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineBailout
 (
 CallInfo
