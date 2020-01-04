@@ -429,7 +429,7 @@ true
 SET_DEFAULT
 (
 disablePgo
-true
+false
 )
 ;
 SET_DEFAULT
