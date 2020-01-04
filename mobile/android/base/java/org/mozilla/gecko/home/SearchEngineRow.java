@@ -1891,7 +1891,7 @@ Iterator
 <
 String
 >
-searchistoryIterator
+searchHistoryIterator
 =
 searchHistorySuggestions
 .
@@ -1901,7 +1901,7 @@ iterator
 ;
 while
 (
-searchistoryIterator
+searchHistoryIterator
 .
 hasNext
 (
@@ -1912,7 +1912,7 @@ final
 String
 currentSearchHistory
 =
-searchistoryIterator
+searchHistoryIterator
 .
 next
 (
