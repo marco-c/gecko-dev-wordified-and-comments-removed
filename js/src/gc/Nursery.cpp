@@ -4004,6 +4004,15 @@ waitBackgroundFreeEnd
 (
 )
 {
+if
+(
+!
+isEnabled
+(
+)
+)
+return
+;
 MOZ_ASSERT
 (
 freeMallocedBuffersTask
