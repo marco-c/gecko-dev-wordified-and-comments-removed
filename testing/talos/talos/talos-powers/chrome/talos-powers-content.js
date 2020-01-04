@@ -201,14 +201,11 @@ e
 =
 >
 {
-let
-name
-=
-e
+Cu
 .
-detail
-.
-name
+forceGC
+(
+)
 ;
 Cu
 .
@@ -218,7 +215,7 @@ forceCC
 ;
 Cu
 .
-forceGC
+forceShrinkingGC
 (
 )
 ;
@@ -229,9 +226,6 @@ TalosPowersContent
 :
 ForceCCAndGC
 "
-{
-name
-}
 )
 ;
 }
