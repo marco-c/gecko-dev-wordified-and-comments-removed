@@ -2052,16 +2052,6 @@ aResult
 )
 ;
 static
-uint32_t
-ParseSandboxAttributeToFlags
-(
-const
-nsAttrValue
-*
-sandboxAttr
-)
-;
-static
 nsresult
 GenerateUUIDInPlace
 (
