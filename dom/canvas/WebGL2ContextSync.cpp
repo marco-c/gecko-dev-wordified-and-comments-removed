@@ -568,7 +568,7 @@ result
 )
 )
 ;
-break
+return
 ;
 }
 ErrorInvalidEnum
