@@ -9008,7 +9008,7 @@ APZCCallbackHelper
 :
 DispatchSynthesizedMouseEvent
 (
-NS_MOUSE_BUTTON_UP
+eMouseUp
 time
 currentPoint
 0

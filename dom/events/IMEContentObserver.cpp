@@ -1754,7 +1754,7 @@ mMessage
 )
 {
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 case
 NS_MOUSE_BUTTON_DOWN

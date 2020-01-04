@@ -12187,9 +12187,9 @@ NS_MOUSE_BUTTON_DOWN
 ;
 _ASSIGN_eventName
 (
-NS_MOUSE_BUTTON_UP
+eMouseUp
 "
-NS_MOUSE_BUTTON_UP
+eMouseUp
 "
 )
 ;

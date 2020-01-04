@@ -3174,7 +3174,7 @@ aEvent
 break
 ;
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 if
 (

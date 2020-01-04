@@ -567,7 +567,7 @@ case
 NS_TOUCH_END
 :
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 {
 if

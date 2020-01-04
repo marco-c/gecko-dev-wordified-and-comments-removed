@@ -4085,7 +4085,7 @@ NS_MOUSE_BUTTON_DOWN
 aEventMessage
 =
 =
-NS_MOUSE_BUTTON_UP
+eMouseUp
 )
 &
 &

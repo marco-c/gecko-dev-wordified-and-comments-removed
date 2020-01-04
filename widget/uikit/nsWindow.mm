@@ -1099,7 +1099,7 @@ mGeckoChild
 self
 sendMouseEvent
 :
-NS_MOUSE_BUTTON_UP
+eMouseUp
 point
 :
 lp

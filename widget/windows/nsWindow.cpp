@@ -15457,7 +15457,7 @@ true
 break
 ;
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 case
 eMouseMove
@@ -15808,7 +15808,7 @@ curMsgTime
 break
 ;
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 sLastMousePoint
 .
@@ -16033,7 +16033,7 @@ break
 break
 ;
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 switch
 (
@@ -19779,7 +19779,7 @@ result
 =
 DispatchMouseEvent
 (
-NS_MOUSE_BUTTON_UP
+eMouseUp
 wParam
 lParam
 false
@@ -20150,7 +20150,7 @@ result
 =
 DispatchMouseEvent
 (
-NS_MOUSE_BUTTON_UP
+eMouseUp
 wParam
 lParam
 false
@@ -20231,7 +20231,7 @@ result
 =
 DispatchMouseEvent
 (
-NS_MOUSE_BUTTON_UP
+eMouseUp
 0
 lParamToClient
 (
@@ -20315,7 +20315,7 @@ result
 =
 DispatchMouseEvent
 (
-NS_MOUSE_BUTTON_UP
+eMouseUp
 wParam
 lParam
 false
@@ -20396,7 +20396,7 @@ result
 =
 DispatchMouseEvent
 (
-NS_MOUSE_BUTTON_UP
+eMouseUp
 0
 lParamToClient
 (
@@ -20619,7 +20619,7 @@ result
 =
 DispatchMouseEvent
 (
-NS_MOUSE_BUTTON_UP
+eMouseUp
 0
 lParamToClient
 (

@@ -630,7 +630,7 @@ MULTITOUCH_END
 :
 mouseEventMessage
 =
-NS_MOUSE_BUTTON_UP
+eMouseUp
 ;
 break
 ;
@@ -875,7 +875,7 @@ MULTITOUCH_MOVE
 break
 ;
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 mType
 =

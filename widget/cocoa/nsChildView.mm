@@ -26680,7 +26680,7 @@ WidgetMouseEvent
 geckoEvent
 (
 true
-NS_MOUSE_BUTTON_UP
+eMouseUp
 mGeckoChild
 WidgetMouseEvent
 :
@@ -27892,7 +27892,7 @@ WidgetMouseEvent
 geckoEvent
 (
 true
-NS_MOUSE_BUTTON_UP
+eMouseUp
 mGeckoChild
 WidgetMouseEvent
 :
@@ -28153,7 +28153,7 @@ WidgetMouseEvent
 geckoEvent
 (
 true
-NS_MOUSE_BUTTON_UP
+eMouseUp
 mGeckoChild
 WidgetMouseEvent
 :

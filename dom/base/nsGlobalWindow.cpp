@@ -13954,7 +13954,7 @@ if
 msg
 =
 =
-NS_MOUSE_BUTTON_UP
+eMouseUp
 |
 |
 msg

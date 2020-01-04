@@ -598,7 +598,7 @@ rootWidget
 ;
 DispatchMouseEvent
 (
-NS_MOUSE_BUTTON_UP
+eMouseUp
 cnvdX
 cnvdY
 tcContent

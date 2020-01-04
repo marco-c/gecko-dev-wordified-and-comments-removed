@@ -9321,7 +9321,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_UP
+eMouseUp
 &
 &
 aEvent
@@ -9546,7 +9546,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_UP
+eMouseUp
 )
 {
 *

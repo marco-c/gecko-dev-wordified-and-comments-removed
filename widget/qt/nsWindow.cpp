@@ -4513,7 +4513,7 @@ WidgetMouseEvent
 event
 (
 true
-NS_MOUSE_BUTTON_UP
+eMouseUp
 this
 WidgetMouseEvent
 :

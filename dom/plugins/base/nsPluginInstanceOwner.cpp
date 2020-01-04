@@ -7621,7 +7621,7 @@ mouseEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_UP
+eMouseUp
 )
 {
 mLastMouseDownButtonType
@@ -8318,7 +8318,7 @@ return
 NPCocoaEventMouseDown
 ;
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 return
 NPCocoaEventMouseUp
@@ -8418,7 +8418,7 @@ anEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_UP
+eMouseUp
 |
 |
 anEvent
@@ -8590,7 +8590,7 @@ case
 NS_MOUSE_BUTTON_DOWN
 :
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 {
 WidgetMouseEvent
@@ -8708,7 +8708,7 @@ else
 NS_WARNING
 (
 "
-NS_MOUSE_BUTTON_UP
+eMouseUp
 /
 DOWN
 is
@@ -9752,7 +9752,7 @@ break
 ;
 }
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 {
 static
@@ -9917,7 +9917,7 @@ anEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_UP
+eMouseUp
 |
 |
 anEvent
@@ -10624,7 +10624,7 @@ case
 NS_MOUSE_BUTTON_DOWN
 :
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 {
 XButtonEvent
@@ -11327,7 +11327,7 @@ NS_PLUGIN_CALL_SAFE_TO_REENTER_GECKO
 break
 ;
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 {
 ANPEvent

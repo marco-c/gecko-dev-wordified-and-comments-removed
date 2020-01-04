@@ -193,7 +193,7 @@ NS_OK
 break
 ;
 case
-NS_MOUSE_BUTTON_UP
+eMouseUp
 :
 HandleRelease
 (

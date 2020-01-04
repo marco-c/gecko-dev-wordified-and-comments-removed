@@ -12470,7 +12470,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_UP
+eMouseUp
 |
 |
 aEvent
@@ -12618,7 +12618,7 @@ aMouseEvent
 mMessage
 =
 =
-NS_MOUSE_BUTTON_UP
+eMouseUp
 &
 &
 aMouseEvent
