@@ -577,7 +577,7 @@ parentNode
 &
 parentNode
 .
-singleTextChild
+inlineTextChild
 =
 =
 =
