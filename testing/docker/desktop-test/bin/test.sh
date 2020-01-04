@@ -112,8 +112,13 @@ running
 this
 script
 exec
-su
+sudo
+-
+E
+-
+u
 worker
+bash
 /
 home
 /
@@ -124,8 +129,6 @@ bin
 test
 .
 sh
--
--
 "
 {
 }
