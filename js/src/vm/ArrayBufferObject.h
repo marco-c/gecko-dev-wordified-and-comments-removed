@@ -886,7 +886,7 @@ dataPointerShared
 )
 const
 ;
-size_t
+uint32_t
 byteLength
 (
 )
@@ -1198,7 +1198,7 @@ ownsState
 void
 setByteLength
 (
-size_t
+uint32_t
 length
 )
 ;
