@@ -1205,12 +1205,14 @@ const
 nsCString
 &
 aScope
+bool
+aIncludeUncontrolled
 nsTArray
 <
 ServiceWorkerClientInfo
 >
 &
-aControlledDocuments
+aDocuments
 )
 ;
 void
