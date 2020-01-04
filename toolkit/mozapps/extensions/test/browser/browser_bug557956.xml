@@ -36,7 +36,9 @@ false
 <
 guid
 >
-addon10
+bug557956
+-
+10
 tests
 .
 mozilla

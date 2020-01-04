@@ -79,7 +79,7 @@ mozilla
 :
 extension
 :
-addon1
+install1
 tests
 .
 mozilla
@@ -203,7 +203,7 @@ updateHash
 >
 sha1
 :
-6760e51269941245105a17076afeb5f45621de0e
+4f0f4391914e3e036beca50cbac33958e5269643
 <
 /
 em
