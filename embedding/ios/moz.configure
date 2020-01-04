@@ -107,3 +107,10 @@ MOZ_SERVICES_HEALTHREPORT
 '
 True
 )
+imply_option
+(
+'
+MOZ_SERVICES_SYNC
+'
+True
+)
