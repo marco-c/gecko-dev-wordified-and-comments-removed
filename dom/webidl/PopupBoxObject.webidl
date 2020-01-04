@@ -1333,5 +1333,12 @@ attribute
 long
 alignmentOffset
 ;
+void
+setConstraintRect
+(
+DOMRectReadOnly
+rect
+)
+;
 }
 ;
