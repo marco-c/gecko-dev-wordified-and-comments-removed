@@ -59,6 +59,8 @@ project
 }
 .
 linux64
+-
+debug
 '
 -
 '
@@ -81,6 +83,8 @@ project
 }
 .
 linux64
+-
+debug
 '
 workerType
 :
