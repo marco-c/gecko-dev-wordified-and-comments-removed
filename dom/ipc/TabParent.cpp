@@ -8003,6 +8003,10 @@ const
 nsString
 &
 aTooltip
+const
+nsString
+&
+aDirection
 )
 {
 nsCOMPtr
@@ -8033,6 +8037,7 @@ ShowTooltip
 aX
 aY
 aTooltip
+aDirection
 )
 ;
 return

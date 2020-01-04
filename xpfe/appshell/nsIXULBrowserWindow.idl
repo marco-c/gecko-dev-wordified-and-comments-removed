@@ -406,6 +406,9 @@ y
 in
 AString
 tooltip
+in
+AString
+direction
 )
 ;
 void

@@ -512,6 +512,10 @@ const
 nsAString
 &
 aInTipText
+const
+nsAString
+&
+aDirText
 )
 ;
 NS_IMETHOD
