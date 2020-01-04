@@ -2890,6 +2890,16 @@ user_pref
 "
 browser
 .
+displayedE10SNotice
+"
+5
+)
+;
+user_pref
+(
+"
+browser
+.
 displayedE10SPrompt
 .
 1
