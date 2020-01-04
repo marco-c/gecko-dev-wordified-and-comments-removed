@@ -2456,11 +2456,6 @@ IsDecodingFirstFrame
 )
 &
 &
-IsVideoDecoding
-(
-)
-&
-&
 VideoQueue
 (
 )
