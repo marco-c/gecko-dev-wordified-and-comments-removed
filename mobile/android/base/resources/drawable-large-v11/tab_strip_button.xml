@@ -211,7 +211,7 @@ radius
 "
 dimen
 /
-tablet_browser_toolbar_menu_item_corner_radius
+standard_corner_radius
 "
 /
 >
@@ -315,7 +315,7 @@ radius
 "
 dimen
 /
-tablet_browser_toolbar_menu_item_corner_radius
+standard_corner_radius
 "
 /
 >
