@@ -18174,6 +18174,16 @@ lXext
 ]
 XLIBS
 )
+if
+test
+"
+MOZ_WIDGET_TOOLKIT
+"
+!
+=
+qt
+;
+then
 AC_CHECK_LIB
 (
 Xt
@@ -18249,6 +18259,7 @@ XLIBS
 )
 ]
 )
+fi
 dnl
 =
 =
@@ -28461,8 +28472,6 @@ AC_DEFINE
 (
 MOZ_X11
 )
-XT_LIBS
-=
 fi
 USE_FC_FREETYPE
 =
