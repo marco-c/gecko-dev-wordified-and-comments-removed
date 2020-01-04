@@ -273,6 +273,11 @@ path
 js
 '
 '
+system
+.
+js
+'
+'
 worker
 -
 loader
