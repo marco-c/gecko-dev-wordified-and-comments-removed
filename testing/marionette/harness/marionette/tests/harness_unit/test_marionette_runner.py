@@ -294,18 +294,6 @@ return
 {
          
 '
-adb_host
-'
-:
-None
-         
-'
-adb_port
-'
-:
-None
-         
-'
 addon
 '
 :
@@ -355,30 +343,6 @@ e10s
 '
 :
 False
-         
-'
-emulator
-'
-:
-None
-         
-'
-emulator_binary
-'
-:
-None
-         
-'
-emulator_img
-'
-:
-None
-         
-'
-emulator_res
-'
-:
-None
          
 '
 gecko_log
@@ -475,12 +439,6 @@ log_xunit
 '
 :
 None
-         
-'
-logcat_stdout
-'
-:
-False
          
 '
 logdir
@@ -1476,9 +1434,6 @@ _marionette_weakref
 b2g_pid
 =
 0
-logcat_stdout
-=
-False
 logger
 =
 logger
