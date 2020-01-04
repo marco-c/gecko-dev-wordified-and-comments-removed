@@ -130,6 +130,16 @@ mozilla
 namespace
 dom
 {
+using
+namespace
+mozilla
+:
+:
+dom
+:
+:
+workers
+;
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_0
 (
 WorkerNavigator
