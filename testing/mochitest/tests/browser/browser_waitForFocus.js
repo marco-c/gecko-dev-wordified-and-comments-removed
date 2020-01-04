@@ -310,7 +310,9 @@ is
 (
 browser
 .
-contentDocumentAsCPOW
+contentWindowAsCPOW
+.
+document
 .
 activeElement
 .
