@@ -155,6 +155,14 @@ XPCOM_API
 (
 nsresult
 )
+NS_InitMinimalXPCOM
+(
+)
+;
+XPCOM_API
+(
+nsresult
+)
 NS_ShutdownXPCOM
 (
 nsIServiceManager
