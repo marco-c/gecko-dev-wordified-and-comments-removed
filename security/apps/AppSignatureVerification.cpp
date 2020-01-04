@@ -2493,6 +2493,9 @@ ScopedCERTCertList
 builtChain
 )
 {
+nsNSSShutDownPreventionLock
+locker
+;
 VerifyCertificateContext
 context
 =
@@ -2510,6 +2513,7 @@ VerifyCertificate
 &
 context
 nullptr
+locker
 )
 ;
 }
