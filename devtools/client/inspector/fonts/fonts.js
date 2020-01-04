@@ -198,7 +198,7 @@ this
 ;
 this
 .
-showAllButton
+showAllLink
 =
 this
 .
@@ -215,7 +215,7 @@ showall
 ;
 this
 .
-showAllButton
+showAllLink
 .
 addEventListener
 (
@@ -376,7 +376,7 @@ onNewNode
 ;
 this
 .
-showAllButton
+showAllLink
 .
 removeEventListener
 (

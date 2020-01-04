@@ -109,6 +109,17 @@ page
 <
 !
 ENTITY
+showAllFontsUsed
+"
+Show
+all
+fonts
+used
+"
+>
+<
+!
+ENTITY
 usedAs
 "
 Used
