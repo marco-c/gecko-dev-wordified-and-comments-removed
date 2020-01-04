@@ -449,13 +449,6 @@ SystemIsBeingShutDown
 mContext
 -
 >
-SystemIsBeingShutDown
-(
-)
-;
-mContext
--
->
 GarbageCollect
 (
 JS
