@@ -87,13 +87,6 @@ h
 #
 include
 "
-nsDateTimeFormatCID
-.
-h
-"
-#
-include
-"
 nsQuickSort
 .
 h
@@ -1383,9 +1376,11 @@ Init
 {
 mDateFormatter
 =
-do_CreateInstance
+nsIDateTimeFormat
+:
+:
+Create
 (
-NS_DATETIMEFORMAT_CONTRACTID
 )
 ;
 if

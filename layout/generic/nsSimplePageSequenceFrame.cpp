@@ -148,13 +148,6 @@ include
 algorithm
 >
 #
-include
-"
-nsDateTimeFormatCID
-.
-h
-"
-#
 define
 OFFSET_NOT_SET
 -
@@ -1554,9 +1547,11 @@ mDateFormatter
 {
 mDateFormatter
 =
-do_CreateInstance
+nsIDateTimeFormat
+:
+:
+Create
 (
-NS_DATETIMEFORMAT_CONTRACTID
 )
 ;
 }
