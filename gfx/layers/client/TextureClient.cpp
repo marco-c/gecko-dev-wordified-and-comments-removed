@@ -3073,6 +3073,15 @@ BackendType
 :
 :
 DIRECT2D1_1
+|
+|
+!
+!
+(
+aAllocFlags
+&
+ALLOC_FOR_OUT_OF_BAND_CONTENT
+)
 )
 &
 &

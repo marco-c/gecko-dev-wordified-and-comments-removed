@@ -963,6 +963,8 @@ bool
 aNeedsClear
 bool
 aNeedsClearWhite
+bool
+aIsForOutOfBandContent
 )
 :
 mSize
@@ -984,6 +986,10 @@ aNeedsClearWhite
 mHasSynchronization
 (
 false
+)
+mIsForOutOfBandContent
+(
+aIsForOutOfBandContent
 )
 {
 }
@@ -1009,6 +1015,8 @@ bool
 aNeedsClear
 bool
 aNeedsClearWhite
+bool
+aIsForOutOfBandContent
 )
 :
 DXGITextureData
@@ -1017,6 +1025,7 @@ aSize
 aFormat
 aNeedsClear
 aNeedsClearWhite
+aIsForOutOfBandContent
 )
 mTexture
 (
@@ -1095,6 +1104,8 @@ bool
 aNeedsClear
 bool
 aNeedsClearWhite
+bool
+aIsForOutOfBandContent
 )
 :
 DXGITextureData
@@ -1103,6 +1114,7 @@ aSize
 aFormat
 aNeedsClear
 aNeedsClearWhite
+aIsForOutOfBandContent
 )
 mTexture
 (
@@ -1193,6 +1205,10 @@ if
 NS_IsMainThread
 (
 )
+&
+&
+!
+mIsForOutOfBandContent
 )
 {
 if
@@ -1251,6 +1267,10 @@ if
 NS_IsMainThread
 (
 )
+&
+&
+!
+mIsForOutOfBandContent
 )
 {
 if
@@ -1467,6 +1487,9 @@ aSyncObject
 NS_IsMainThread
 (
 )
+|
+|
+mIsForOutOfBandContent
 )
 {
 return
@@ -1914,7 +1937,7 @@ GetPlatform
 )
 ;
 bool
-haveD3d11Backend
+useD3D11
 =
 windowsPlatform
 -
@@ -1938,10 +1961,17 @@ DIRECT2D1_1
 NS_IsMainThread
 (
 )
+|
+|
+(
+aFlags
+&
+ALLOC_FOR_OUT_OF_BAND_CONTENT
+)
 ;
 if
 (
-haveD3d11Backend
+useD3D11
 )
 {
 return
@@ -2062,6 +2092,15 @@ if
 NS_IsMainThread
 (
 )
+|
+|
+!
+!
+(
+aFlags
+&
+ALLOC_FOR_OUT_OF_BAND_CONTENT
+)
 )
 {
 newDesc
@@ -2179,6 +2218,9 @@ ALLOC_CLEAR_BUFFER
 aFlags
 &
 ALLOC_CLEAR_BUFFER_WHITE
+aFlags
+&
+ALLOC_FOR_OUT_OF_BAND_CONTENT
 )
 ;
 }
@@ -2454,6 +2496,7 @@ ALLOC_CLEAR_BUFFER
 aFlags
 &
 ALLOC_CLEAR_BUFFER_WHITE
+false
 )
 ;
 }
