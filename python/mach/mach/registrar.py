@@ -630,6 +630,9 @@ None
 argv
 =
 None
+subcommand
+=
+None
 *
 *
 kwargs
@@ -667,6 +670,19 @@ self
 command_handlers
 [
 name
+]
+        
+if
+subcommand
+:
+            
+handler
+=
+handler
+.
+subcommand_handlers
+[
+subcommand
 ]
         
 if
