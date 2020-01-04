@@ -177,7 +177,7 @@ IsElementAnimateEnabled
 Constructor
 (
 optional
-KeyframeEffectReadOnly
+AnimationEffectReadOnly
 ?
 effect
 =
