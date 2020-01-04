@@ -265,9 +265,6 @@ updateAliasAnalysis_
 bool
 dependenciesBroken_
 ;
-bool
-hasOSRFixups_
-;
 enum
 UseRemovedOption
 {
@@ -457,11 +454,6 @@ root
 ;
 bool
 visitGraph
-(
-)
-;
-bool
-cleanupOSRFixups
 (
 )
 ;
