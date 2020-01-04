@@ -23514,7 +23514,7 @@ trackOptimizationOutcome
 TrackedOutcome
 :
 :
-OperandNotString
+OperandNotStringOrNumber
 )
 ;
 return
@@ -23551,7 +23551,7 @@ trackOptimizationOutcome
 TrackedOutcome
 :
 :
-OperandNotString
+OperandNotStringOrNumber
 )
 ;
 return

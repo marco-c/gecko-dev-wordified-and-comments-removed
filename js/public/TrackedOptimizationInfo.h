@@ -432,6 +432,11 @@ OperandNotNumber
 \
 _
 (
+OperandNotStringOrNumber
+)
+\
+_
+(
 OperandNotSimpleArith
 )
 \
