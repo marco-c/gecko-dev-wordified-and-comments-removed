@@ -1293,6 +1293,11 @@ get
 )
 ;
 }
+void
+ShutdownConnectionManager
+(
+)
+;
 private
 :
 virtual

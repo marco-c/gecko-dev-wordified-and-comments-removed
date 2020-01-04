@@ -5106,7 +5106,7 @@ if
 gIOService
 -
 >
-IsShutdown
+IsNetTearingDown
 (
 )
 )
@@ -8389,7 +8389,7 @@ if
 gIOService
 -
 >
-IsShutdown
+IsNetTearingDown
 (
 )
 &
@@ -12887,7 +12887,7 @@ if
 gIOService
 -
 >
-IsShutdown
+IsNetTearingDown
 (
 )
 )
