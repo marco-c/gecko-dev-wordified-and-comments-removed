@@ -8005,7 +8005,7 @@ target
 )
 ;
 }
-_canvasToDataURL
+_canvasToBlobURL
 :
 function
 (
@@ -8039,7 +8039,7 @@ ContextMenu
 :
 Canvas
 :
-ToDataURL
+ToBlobURL
 "
 {
 }
@@ -8066,7 +8066,7 @@ ContextMenu
 :
 Canvas
 :
-ToDataURL
+ToBlobURL
 :
 Result
 "
@@ -8079,7 +8079,7 @@ message
 .
 data
 .
-dataURL
+blobURL
 )
 ;
 }
@@ -8093,7 +8093,7 @@ ContextMenu
 :
 Canvas
 :
-ToDataURL
+ToBlobURL
 :
 Result
 "
@@ -8127,7 +8127,7 @@ onCanvas
 {
 this
 .
-_canvasToDataURL
+_canvasToBlobURL
 (
 this
 .
@@ -8138,12 +8138,12 @@ then
 (
 function
 (
-dataURL
+blobURL
 )
 {
 openUILink
 (
-dataURL
+blobURL
 e
 {
 disallowInheritPrincipal
@@ -9493,7 +9493,7 @@ onCanvas
 {
 this
 .
-_canvasToDataURL
+_canvasToBlobURL
 (
 this
 .
@@ -9504,12 +9504,12 @@ then
 (
 function
 (
-dataURL
+blobURL
 )
 {
 saveImageURL
 (
-dataURL
+blobURL
 "
 canvas
 .
