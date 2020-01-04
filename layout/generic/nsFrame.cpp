@@ -13181,8 +13181,9 @@ isPlaceholder
 {
 clipState
 .
-Clear
+SetClipForContainingBlockDescendants
 (
+nullptr
 )
 ;
 clipState
