@@ -109,7 +109,7 @@ alloc
 (
 )
 .
-allocInfallible
+allocInfallibleOrAssert
 (
 bytes
 )
