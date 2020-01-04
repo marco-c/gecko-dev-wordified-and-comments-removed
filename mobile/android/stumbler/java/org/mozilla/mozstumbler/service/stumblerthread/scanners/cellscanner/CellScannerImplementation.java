@@ -444,11 +444,7 @@ VERSION
 SDK_INT
 >
 =
-Build
-.
-VERSION_CODES
-.
-JELLY_BEAN_MR2
+18
 )
 {
 mGetAllInfoCellScanner
@@ -874,11 +870,7 @@ VERSION
 SDK_INT
 >
 =
-Build
-.
-VERSION_CODES
-.
-LOLLIPOP_MR1
+22
 )
 {
 return
