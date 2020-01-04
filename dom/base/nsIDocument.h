@@ -2070,6 +2070,7 @@ virtual
 int32_t
 GetIndexOfStyleSheet
 (
+const
 mozilla
 :
 :
