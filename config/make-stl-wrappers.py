@@ -184,16 +184,6 @@ read
 (
 )
     
-path_to_new
-=
-header_path
-(
-'
-new
-'
-compiler
-)
-    
 for
 header
 in
@@ -276,10 +266,6 @@ header
 HEADER_PATH
 =
 path
-                                                         
-NEW_HEADER_PATH
-=
-path_to_new
 )
 )
 if
