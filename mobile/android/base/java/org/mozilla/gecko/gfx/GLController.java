@@ -382,6 +382,11 @@ height
 {
 if
 (
+isServerSurfaceValid
+(
+)
+&
+&
 mCompositorCreated
 )
 {
