@@ -784,15 +784,6 @@ these
 functions
 .
 async
-AcknowledgeScrollUpdate
-(
-ViewID
-aScrollId
-uint32_t
-aScrollGeneration
-)
-;
-async
 HandleDoubleTap
 (
 CSSPoint
