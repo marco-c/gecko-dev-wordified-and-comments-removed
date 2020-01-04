@@ -300,6 +300,7 @@ InvalidContext
 InvalidCommandList
 AsyncTransactionTimeout
 TextureCreation
+InvalidCacheSurface
 MustBeLessThanThis
 =
 101
