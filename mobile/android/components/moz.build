@@ -226,11 +226,6 @@ SiteSpecificUserAgent
 .
 js
 '
-'
-WebappsUpdateTimer
-.
-js
-'
 ]
 #
 Keep

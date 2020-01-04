@@ -226,16 +226,6 @@ TabMirror
 .
 jsm
 '
-'
-WebappManager
-.
-jsm
-'
-'
-WebappManagerWorker
-.
-js
-'
 ]
 if
 not

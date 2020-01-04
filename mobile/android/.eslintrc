@@ -102,9 +102,6 @@ false
 UserAgentOverrides
 :
 0
-WebappManager
-:
-false
 XPCOMUtils
 :
 false

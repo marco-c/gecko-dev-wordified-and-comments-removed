@@ -3103,6 +3103,9 @@ B2G
 |
 |
 Mulet
+|
+|
+Android
 )
 HTTP
 (
@@ -3137,6 +3140,10 @@ B2G
 /
 B2G
 Desktop
+#
+Android
+bug
+1250229
 skip
 -
 if
@@ -3145,6 +3152,9 @@ B2G
 |
 |
 Mulet
+|
+|
+Android
 )
 HTTP
 (
@@ -3176,6 +3186,10 @@ B2G
 /
 B2G
 Desktop
+#
+Android
+bug
+1250229
 skip
 -
 if

@@ -3961,6 +3961,11 @@ GeckoEventListener
 )
 this
 "
+Gecko
+:
+DelayedStartup
+"
+"
 Menu
 :
 Open
@@ -7390,6 +7395,11 @@ unregisterGeckoThreadListener
 GeckoEventListener
 )
 this
+"
+Gecko
+:
+DelayedStartup
+"
 "
 Menu
 :

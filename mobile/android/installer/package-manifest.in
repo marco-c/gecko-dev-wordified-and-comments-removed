@@ -3426,13 +3426,6 @@ BINPATH
 /
 components
 /
-WebappsUpdateTimer
-.
-js
-BINPATH
-/
-components
-/
 DataStore
 .
 manifest

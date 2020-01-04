@@ -6999,14 +6999,6 @@ formatS2
 <
 !
 ENTITY
-webapp_generic_name
-"
-App
-"
->
-<
-!
-ENTITY
 searchable_description
 "
 Bookmarks
