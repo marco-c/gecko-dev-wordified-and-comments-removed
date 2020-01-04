@@ -639,6 +639,10 @@ language
 =
 0
 ;
+DOMString
+?
+asyncCause
+;
 }
 ;
 dictionary
