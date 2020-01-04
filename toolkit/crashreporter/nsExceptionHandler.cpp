@@ -1183,9 +1183,6 @@ AsyncShutdownTimeout
 BuildID
 "
 "
-TelemetryEnvironment
-"
-"
 ProductID
 "
 "
@@ -1199,6 +1196,12 @@ SecondsSinceLastCrash
 "
 "
 ShutdownProgress
+"
+"
+StartupCrash
+"
+"
+TelemetryEnvironment
 "
 "
 Version
@@ -1642,6 +1645,9 @@ FramePoisonBase
 "
 "
 FramePoisonSize
+"
+"
+StartupCrash
 "
 "
 StartupTime
