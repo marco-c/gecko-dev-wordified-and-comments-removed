@@ -11309,11 +11309,10 @@ resultList
 .
 AppendNewToTop
 (
-new
-(
-aBuilder
-)
 nsDisplayBlendContainer
+:
+:
+CreateForMixBlendMode
 (
 aBuilder
 this
