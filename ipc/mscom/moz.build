@@ -99,6 +99,11 @@ COMApartmentRegion
 h
 '
 '
+EnsureMTA
+.
+h
+'
+'
 MainThreadRuntime
 .
 h
@@ -123,6 +128,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+EnsureMTA
+.
+cpp
+'
 '
 MainThreadRuntime
 .
