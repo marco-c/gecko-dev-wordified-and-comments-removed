@@ -226,6 +226,15 @@ nsPluginElement
 >
 mPlugins
 ;
+nsTArray
+<
+RefPtr
+<
+nsPluginElement
+>
+>
+mCTPPlugins
+;
 }
 ;
 class
