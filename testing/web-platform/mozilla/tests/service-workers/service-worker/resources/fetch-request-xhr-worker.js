@@ -110,13 +110,6 @@ event
 request
 .
 method
-context
-:
-event
-.
-request
-.
-context
 mode
 :
 event
