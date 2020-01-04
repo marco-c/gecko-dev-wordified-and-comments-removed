@@ -10,7 +10,7 @@ tasks
 /
 tests
 /
-fx_test_base
+fx_docker_test_base
 .
 yml
 '

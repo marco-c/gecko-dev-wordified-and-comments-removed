@@ -8,7 +8,7 @@ from
 '
 tasks
 /
-test
+docker_test
 .
 yml
 '
