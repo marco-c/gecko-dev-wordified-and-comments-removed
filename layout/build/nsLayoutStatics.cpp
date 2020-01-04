@@ -1564,7 +1564,7 @@ Init
 nsPermissionManager
 :
 :
-AppClearDataObserverInit
+ClearOriginDataObserverInit
 (
 )
 ;
