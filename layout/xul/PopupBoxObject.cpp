@@ -1321,13 +1321,13 @@ if
 widget
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 screenRect
 ;
 widget
 -
 >
-GetScreenBoundsUntyped
+GetScreenBounds
 (
 screenRect
 )
@@ -1352,6 +1352,9 @@ rect
 >
 SetLayoutRect
 (
+LayoutDeviceIntRect
+:
+:
 ToAppUnits
 (
 screenRect
