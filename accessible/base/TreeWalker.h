@@ -71,6 +71,7 @@ eWalkContextTree
 eWalkCache
 }
 ;
+explicit
 TreeWalker
 (
 Accessible
