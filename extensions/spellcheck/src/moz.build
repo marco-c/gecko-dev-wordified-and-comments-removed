@@ -118,11 +118,6 @@ mozEnglishWordUtils
 cpp
 '
 '
-mozGenericWordUtils
-.
-cpp
-'
-'
 mozInlineSpellChecker
 .
 cpp
