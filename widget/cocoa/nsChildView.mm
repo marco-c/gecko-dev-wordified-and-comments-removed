@@ -24047,7 +24047,7 @@ WidgetSimpleGestureEvent
 geckoEvent
 (
 true
-NS_SIMPLE_GESTURE_SWIPE
+eSwipeGesture
 mGeckoChild
 )
 ;
