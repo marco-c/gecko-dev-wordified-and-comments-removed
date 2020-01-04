@@ -478,8 +478,7 @@ _actionText
 .
 textContent
 "
-\
-u2014Search
+Search
 with
 SearchEngine
 "

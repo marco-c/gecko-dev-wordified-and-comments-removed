@@ -753,8 +753,7 @@ _actionText
 .
 textContent
 "
-\
-u2014Visit
+Visit
 "
 "
 Visible
