@@ -306,11 +306,6 @@ AnimationEffectReadOnly
 [
 Cached
 Constant
-BinaryName
-=
-"
-timingAsObject
-"
 ]
 readonly
 attribute

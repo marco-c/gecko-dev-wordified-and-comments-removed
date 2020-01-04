@@ -131,7 +131,7 @@ nsCSSPseudoElements
 Type
 aPseudoType
 const
-AnimationTiming
+TimingParams
 &
 aTiming
 )

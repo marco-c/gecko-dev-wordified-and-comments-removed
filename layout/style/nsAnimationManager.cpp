@@ -1195,7 +1195,7 @@ aElapsedTime
 mEffect
 -
 >
-Timing
+SpecifiedTiming
 (
 )
 .
@@ -1711,7 +1711,7 @@ animationChanged
 oldEffect
 -
 >
-Timing
+SpecifiedTiming
 (
 )
 !
@@ -1719,7 +1719,7 @@ Timing
 newEffect
 -
 >
-Timing
+SpecifiedTiming
 (
 )
 |
@@ -1742,12 +1742,12 @@ Properties
 oldEffect
 -
 >
-SetTiming
+SetSpecifiedTiming
 (
 newEffect
 -
 >
-Timing
+SpecifiedTiming
 (
 )
 )
@@ -2616,7 +2616,7 @@ AppendElement
 dest
 )
 ;
-AnimationTiming
+TimingParams
 timing
 ;
 timing

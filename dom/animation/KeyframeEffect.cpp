@@ -142,7 +142,7 @@ TimeDuration
 &
 aLocalTime
 const
-AnimationTiming
+TimingParams
 &
 aTiming
 dom
@@ -363,7 +363,7 @@ nsCSSPseudoElements
 Type
 aPseudoType
 const
-AnimationTiming
+TimingParams
 &
 aTiming
 )
@@ -480,7 +480,7 @@ AnimationEffectTimingReadOnly
 KeyframeEffectReadOnly
 :
 :
-TimingAsObject
+Timing
 (
 )
 const
@@ -506,10 +506,10 @@ void
 KeyframeEffectReadOnly
 :
 :
-SetTiming
+SetSpecifiedTiming
 (
 const
-AnimationTiming
+TimingParams
 &
 aTiming
 )
@@ -519,7 +519,7 @@ if
 mTiming
 -
 >
-Timing
+AsTimingParams
 (
 )
 =
@@ -533,7 +533,7 @@ return
 mTiming
 -
 >
-SetTiming
+SetTimingParams
 (
 aTiming
 )
@@ -783,12 +783,12 @@ GetComputedTimingDictionary
 GetComputedTimingAt
 (
 currentTime
-Timing
+SpecifiedTiming
 (
 )
 )
 currentTime
-Timing
+SpecifiedTiming
 (
 )
 aRetVal
@@ -809,7 +809,7 @@ TimeDuration
 &
 aLocalTime
 const
-AnimationTiming
+TimingParams
 &
 aTiming
 )
@@ -2903,7 +2903,7 @@ get
 }
 #
 endif
-AnimationTiming
+TimingParams
 KeyframeEffectReadOnly
 :
 :
@@ -2915,7 +2915,7 @@ UnrestrictedDoubleOrKeyframeEffectOptions
 aOptions
 )
 {
-AnimationTiming
+TimingParams
 animationTiming
 ;
 if
@@ -6983,7 +6983,7 @@ return
 nullptr
 ;
 }
-AnimationTiming
+TimingParams
 timing
 =
 ConvertKeyframeEffectOptions

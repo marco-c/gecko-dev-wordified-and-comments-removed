@@ -90,7 +90,7 @@ namespace
 mozilla
 {
 struct
-AnimationTiming
+TimingParams
 {
 dom
 :
@@ -142,7 +142,7 @@ operator
 =
 (
 const
-AnimationTiming
+TimingParams
 &
 aOther
 )
@@ -154,7 +154,7 @@ operator
 =
 (
 const
-AnimationTiming
+TimingParams
 &
 aOther
 )
@@ -194,7 +194,7 @@ explicit
 AnimationEffectTimingReadOnly
 (
 const
-AnimationTiming
+TimingParams
 &
 aTiming
 )
@@ -367,9 +367,9 @@ linear
 ;
 }
 const
-AnimationTiming
+TimingParams
 &
-Timing
+AsTimingParams
 (
 )
 const
@@ -379,10 +379,10 @@ mTiming
 ;
 }
 void
-SetTiming
+SetTimingParams
 (
 const
-AnimationTiming
+TimingParams
 &
 aTiming
 )
@@ -400,7 +400,7 @@ nsISupports
 >
 mParent
 ;
-AnimationTiming
+TimingParams
 mTiming
 ;
 }
