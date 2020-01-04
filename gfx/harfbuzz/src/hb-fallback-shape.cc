@@ -159,11 +159,10 @@ bool
 font
 -
 >
-get_glyph
+get_nominal_glyph
 (
 '
 '
-0
 &
 space
 )
@@ -290,7 +289,7 @@ continue
 font
 -
 >
-get_glyph
+get_nominal_glyph
 (
 info
 [
@@ -298,7 +297,6 @@ i
 ]
 .
 codepoint
-0
 &
 info
 [

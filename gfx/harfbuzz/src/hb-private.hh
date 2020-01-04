@@ -3191,6 +3191,14 @@ T
 o
 )
 #
+ifdef
+NDEBUG
+#
+define
+HB_NDEBUG
+#
+endif
+#
 ifndef
 HB_DEBUG
 #

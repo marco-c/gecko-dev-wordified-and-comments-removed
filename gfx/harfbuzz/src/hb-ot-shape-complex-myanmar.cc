@@ -1928,10 +1928,9 @@ if
 font
 -
 >
-get_glyph
+get_nominal_glyph
 (
 0x25CCu
-0
 &
 dottedcircle_glyph
 )

@@ -59,10 +59,10 @@ x
 struct
 LongMetric
 {
-USHORT
+UFWORD
 advance
 ;
-SHORT
+FWORD
 lsb
 ;
 public
@@ -141,7 +141,7 @@ longMetric
 VAR
 ]
 ;
-SHORT
+FWORD
 leadingBearingX
 [
 VAR

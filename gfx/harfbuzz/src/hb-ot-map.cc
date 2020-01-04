@@ -1074,7 +1074,6 @@ info
 >
 tag
 )
-{
 required_feature_stage
 [
 table_index
@@ -1088,13 +1087,6 @@ stage
 table_index
 ]
 ;
-found
-=
-true
-;
-continue
-;
-}
 found
 |
 =

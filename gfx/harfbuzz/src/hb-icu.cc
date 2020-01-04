@@ -59,6 +59,15 @@ include
 <
 unicode
 /
+utf16
+.
+h
+>
+#
+include
+<
+unicode
+/
 uversion
 .
 h
