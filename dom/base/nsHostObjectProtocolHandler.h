@@ -324,6 +324,16 @@ RemoveDataEntries
 )
 ;
 static
+bool
+HasDataEntry
+(
+const
+nsACString
+&
+aUri
+)
+;
+static
 nsIPrincipal
 *
 GetDataEntryPrincipal
