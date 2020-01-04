@@ -1077,7 +1077,6 @@ y
 )
 )
 ;
-}
 if
 (
 Layer
@@ -1099,6 +1098,7 @@ aTranslation
 false
 )
 ;
+}
 }
 }
 static
