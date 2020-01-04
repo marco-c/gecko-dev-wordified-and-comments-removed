@@ -640,10 +640,6 @@ mFreq
 (
 0
 )
-mFullDuplex
-(
-false
-)
 {
 }
 int32_t
@@ -660,9 +656,6 @@ mMinFPS
 ;
 int32_t
 mFreq
-;
-bool
-mFullDuplex
 ;
 int32_t
 GetWidth
