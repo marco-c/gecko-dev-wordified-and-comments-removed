@@ -1736,7 +1736,7 @@ returncode
                                 
 git_pull_complete
 =
-False
+True
                         
 except
 :
