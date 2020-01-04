@@ -268,6 +268,9 @@ Console
 *
 GetConsole
 (
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed
