@@ -457,14 +457,4 @@ title
 )
 {
 }
-Override
-public
-void
-setAccessibilityEnabled
-(
-boolean
-enabled
-)
-{
-}
 }
