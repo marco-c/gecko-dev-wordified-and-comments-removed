@@ -1254,7 +1254,7 @@ if
 !
 jsapi
 .
-init
+Init
 (
 &
 aChoices
