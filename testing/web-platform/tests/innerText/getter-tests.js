@@ -2290,6 +2290,9 @@ option
 def
 "
 "
+abc
+\
+ndef
 "
 "
 <
@@ -2301,7 +2304,9 @@ size
 '
 >
 contents
-ignored
+of
+options
+preserved
 "
 )
 ;
@@ -2330,6 +2335,9 @@ option
 def
 "
 "
+abc
+\
+ndef
 "
 "
 <
@@ -2341,7 +2349,9 @@ size
 '
 >
 contents
-ignored
+of
+options
+preserved
 "
 )
 ;
@@ -2375,6 +2385,7 @@ option
 def
 "
 "
+abc
 "
 "
 <
@@ -2386,7 +2397,10 @@ size
 '
 >
 contents
-ignored
+of
+target
+option
+preserved
 "
 )
 ;
@@ -2420,6 +2434,7 @@ option
 def
 "
 "
+abc
 "
 "
 <
@@ -2431,7 +2446,10 @@ size
 '
 >
 contents
-ignored
+of
+target
+option
+preserved
 "
 )
 ;
@@ -3008,6 +3026,9 @@ option
 def
 "
 "
+abc
+\
+ndef
 "
 "
 <
@@ -3019,7 +3040,9 @@ size
 '
 >
 contents
-ignored
+of
+options
+preserved
 "
 )
 ;
@@ -3051,6 +3074,9 @@ option
 def
 "
 "
+abc
+\
+ndef
 "
 "
 <
@@ -3062,7 +3088,9 @@ size
 '
 >
 contents
-ignored
+of
+options
+preserved
 "
 )
 ;
