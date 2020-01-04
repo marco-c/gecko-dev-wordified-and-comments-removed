@@ -11003,8 +11003,15 @@ Tst
 ScratchReg64
 Operand
 (
+(
+unsigned
+long
+long
+)
+(
 -
 1ll
+)
 <
 <
 JSVAL_TAG_SHIFT

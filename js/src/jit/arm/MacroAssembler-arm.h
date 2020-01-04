@@ -1763,6 +1763,15 @@ Always
 )
 ;
 void
+ma_ctz
+(
+Register
+src
+Register
+dest
+)
+;
+void
 ma_dtr
 (
 LoadStore
