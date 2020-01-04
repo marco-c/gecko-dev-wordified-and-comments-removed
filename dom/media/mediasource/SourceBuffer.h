@@ -861,8 +861,6 @@ aRv
 void
 BufferAppend
 (
-uint32_t
-aAppendID
 )
 ;
 void
@@ -935,9 +933,6 @@ Atomic
 bool
 >
 mActive
-;
-uint32_t
-mUpdateID
 ;
 MozPromiseRequestHolder
 <
