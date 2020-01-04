@@ -12675,7 +12675,7 @@ int8_t
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -12697,7 +12697,7 @@ a
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -12720,7 +12720,7 @@ a
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -12748,7 +12748,7 @@ int32_t
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -12778,7 +12778,7 @@ int32_t
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -12806,7 +12806,7 @@ x
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -12838,7 +12838,7 @@ int32_t
 )
 ;
 }
-TypeError
+Error
 )
 ;
 let
@@ -13110,7 +13110,7 @@ define
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -13133,7 +13133,7 @@ a
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -13163,7 +13163,7 @@ int64_t
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -13193,7 +13193,7 @@ b
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_false
@@ -13228,7 +13228,7 @@ opaque_t
 )
 ;
 }
-TypeError
+Error
 )
 ;
 let
@@ -14541,7 +14541,7 @@ d
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -15281,7 +15281,7 @@ array
 )
 ;
 }
-TypeError
+Error
 )
 ;
 do_check_throws
@@ -15314,7 +15314,7 @@ array
 )
 ;
 }
-TypeError
+Error
 )
 ;
 z_t
