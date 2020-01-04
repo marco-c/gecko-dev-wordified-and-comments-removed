@@ -6019,6 +6019,13 @@ mb_width
 *
 mb_height
 ;
+if
+(
+cur_fs
+>
+0
+)
+{
 max_fps
 =
 mCurSendCodecConfig
@@ -6074,6 +6081,7 @@ mEncodingConstraints
 .
 maxFps
 ;
+}
 }
 }
 return
