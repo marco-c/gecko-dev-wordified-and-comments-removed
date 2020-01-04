@@ -4898,7 +4898,7 @@ ArrayLength
 neededNameIDs
 )
 ;
-uint16_t
+uint32_t
 nameStrLength
 =
 (
@@ -4916,6 +4916,17 @@ sizeof
 char16_t
 )
 ;
+if
+(
+nameStrLength
+>
+65535
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 uint32_t
 nameTableSize
 =
