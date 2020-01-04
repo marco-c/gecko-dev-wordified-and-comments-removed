@@ -28800,6 +28800,7 @@ SetMediaInfo
 (
 const
 MediaInfo
+&
 aInfo
 )
 {

@@ -2100,6 +2100,7 @@ SetMediaInfo
 (
 const
 MediaInfo
+&
 aInfo
 )
 ;
