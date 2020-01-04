@@ -379,7 +379,7 @@ testingInterface
 .
 suspendCacheIOThread
 (
-8
+7
 )
 ;
 log_
