@@ -1441,6 +1441,13 @@ InitializeStatics
 (
 )
 ;
+MediaManager
+:
+:
+StartupInit
+(
+)
+;
 CubebUtils
 :
 :
