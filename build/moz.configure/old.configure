@@ -1696,13 +1696,6 @@ jitspew
 -
 enable
 -
-jprof
-'
-'
--
--
-enable
--
 libjpeg
 -
 turbo
