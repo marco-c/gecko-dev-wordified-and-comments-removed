@@ -687,7 +687,7 @@ file
 ;
 }
 get
-domFileOrDirectory
+domfile
 (
 )
 {
@@ -757,7 +757,7 @@ f
 ;
 }
 get
-domFileOrDirectoryEnumerator
+domfiles
 (
 )
 {
