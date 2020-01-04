@@ -4261,6 +4261,13 @@ profile
 prefs
 .
 js
+RESPATH
+/
+browser
+/
+defaults
+/
+permissions
 ;
 Warning
 :
