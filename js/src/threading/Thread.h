@@ -185,6 +185,7 @@ Id
 &
 aOther
 )
+const
 ;
 bool
 operator
@@ -196,6 +197,7 @@ Id
 &
 aOther
 )
+const
 {
 return
 !

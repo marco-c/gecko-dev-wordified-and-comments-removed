@@ -242,6 +242,7 @@ Id
 &
 aOther
 )
+const
 {
 return
 platformData
