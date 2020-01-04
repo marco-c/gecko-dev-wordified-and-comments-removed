@@ -242,9 +242,7 @@ contentWindow
 =
 toolbox
 .
-frame
-.
-contentWindow
+win
 ;
 contentWindow
 .
@@ -315,9 +313,7 @@ ESCAPE
 "
 toolbox
 .
-frame
-.
-contentWindow
+win
 )
 ;
 return
@@ -396,9 +392,7 @@ ESCAPE
 "
 toolbox
 .
-frame
-.
-contentWindow
+win
 )
 ;
 return
@@ -507,9 +501,7 @@ ESCAPE
 "
 toolbox
 .
-frame
-.
-contentWindow
+win
 )
 ;
 return

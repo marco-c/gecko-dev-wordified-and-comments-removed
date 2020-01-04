@@ -1384,9 +1384,7 @@ waitForFocus
 resolve
 toolbox
 .
-frame
-.
-contentWindow
+win
 )
 )
 ;
