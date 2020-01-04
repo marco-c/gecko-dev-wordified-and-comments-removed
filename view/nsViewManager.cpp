@@ -3025,7 +3025,7 @@ Next
 ;
 )
 {
-nsIntRect
+LayoutDeviceIntRect
 bounds
 =
 ViewToWidget
@@ -5104,7 +5104,7 @@ aWidget
 nullptr
 ;
 }
-nsIntRect
+LayoutDeviceIntRect
 nsViewManager
 :
 :
@@ -5151,12 +5151,18 @@ ViewToWidgetOffset
 )
 ;
 return
+LayoutDeviceIntRect
+:
+:
+FromUnknownRect
+(
 rect
 .
 ToOutsidePixels
 (
 AppUnitsPerDevPixel
 (
+)
 )
 )
 ;

@@ -8375,10 +8375,6 @@ rootWindow
 DevicePixelsToGdkRectRoundOut
 (
 rect
-.
-ToUnknownRect
-(
-)
 )
 ;
 gtk_im_context_set_cursor_location

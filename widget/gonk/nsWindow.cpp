@@ -1903,7 +1903,13 @@ aRepaint
 {
 Invalidate
 (
+LayoutDeviceIntRect
+:
+:
+FromUnknownRect
+(
 mBounds
+)
 )
 ;
 }
@@ -2011,7 +2017,7 @@ nsWindow
 Invalidate
 (
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 )
@@ -3483,7 +3489,13 @@ WindowActivated
 }
 Invalidate
 (
+LayoutDeviceIntRect
+:
+:
+FromUnknownRect
+(
 mBounds
+)
 )
 ;
 }

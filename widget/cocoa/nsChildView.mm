@@ -7222,7 +7222,7 @@ nsChildView
 Invalidate
 (
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 )
@@ -7314,7 +7314,7 @@ it
 mView
 setNeedsPendingDisplayInRect
 :
-UntypedDevPixelsToCocoaPoints
+DevPixelsToCocoaPoints
 (
 aRect
 )
@@ -7327,7 +7327,7 @@ else
 mView
 setNeedsDisplayInRect
 :
-UntypedDevPixelsToCocoaPoints
+DevPixelsToCocoaPoints
 (
 aRect
 )

@@ -11021,7 +11021,7 @@ nsCocoaWindow
 Invalidate
 (
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 )

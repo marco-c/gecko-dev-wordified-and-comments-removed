@@ -13680,7 +13680,7 @@ nsIWidget
 *
 aWidget
 const
-nsIntRect
+LayoutDeviceIntRect
 *
 aRect
 const

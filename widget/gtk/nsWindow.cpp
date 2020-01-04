@@ -6864,7 +6864,7 @@ nsWindow
 Invalidate
 (
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 )
@@ -10095,7 +10095,8 @@ rect
 =
 DevicePixelsToGdkRectRoundOut
 (
-{
+LayoutDeviceIntRect
+(
 mBounds
 .
 width
@@ -10110,7 +10111,7 @@ width
 size
 .
 height
-}
+)
 )
 ;
 gdk_window_invalidate_rect
@@ -10138,7 +10139,8 @@ rect
 =
 DevicePixelsToGdkRectRoundOut
 (
-{
+LayoutDeviceIntRect
+(
 0
 mBounds
 .
@@ -10153,7 +10155,7 @@ height
 mBounds
 .
 height
-}
+)
 )
 ;
 gdk_window_invalidate_rect
@@ -27907,7 +27909,7 @@ nsWindow
 :
 DevicePixelsToGdkRectRoundOut
 (
-nsIntRect
+LayoutDeviceIntRect
 rect
 )
 {

@@ -4119,7 +4119,7 @@ nsWindow
 Invalidate
 (
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 )

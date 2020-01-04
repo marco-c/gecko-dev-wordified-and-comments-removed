@@ -92,6 +92,13 @@ friend
 class
 nsView
 ;
+typedef
+mozilla
+:
+:
+LayoutDeviceIntRect
+LayoutDeviceIntRect
+;
 NS_DECL_AND_IMPL_ZEROING_OPERATOR_NEW
 NS_INLINE_DECL_REFCOUNTING
 (
@@ -630,7 +637,7 @@ nsView
 aView
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 ViewToWidget
 (
 nsView

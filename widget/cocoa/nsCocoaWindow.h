@@ -1353,7 +1353,7 @@ NS_IMETHOD
 Invalidate
 (
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 )

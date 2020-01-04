@@ -396,7 +396,7 @@ NS_IMETHOD
 Invalidate
 (
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 )
@@ -1227,7 +1227,7 @@ PuppetWidget
 >
 mChild
 ;
-nsIntRegion
+LayoutDeviceIntRegion
 mDirtyRegion
 ;
 nsRevocableEventPtr
