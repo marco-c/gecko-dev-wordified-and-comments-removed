@@ -208,6 +208,19 @@ getBoundingClientRect
 (
 )
 ;
+let
+scale
+=
+this
+.
+_browser
+.
+ownerDocument
+.
+defaultView
+.
+devicePixelRatio
+;
 cmd
 .
 params
@@ -235,6 +248,8 @@ x
 rect
 .
 left
+*
+scale
 }
 y
 :
@@ -258,6 +273,8 @@ y
 rect
 .
 top
+*
+scale
 }
 }
 ;
