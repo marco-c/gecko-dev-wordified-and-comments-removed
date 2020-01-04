@@ -12936,7 +12936,7 @@ op
 CompositionOp
 :
 :
-OP_DEST_OUT
+OP_SOURCE
 )
 ;
 const
