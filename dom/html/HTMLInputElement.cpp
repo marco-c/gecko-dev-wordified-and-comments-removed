@@ -13715,7 +13715,7 @@ mEvent
 mMessage
 =
 =
-NS_KEY_UP
+eKeyUp
 )
 {
 WidgetKeyboardEvent
@@ -15927,7 +15927,7 @@ case
 eKeyPress
 :
 case
-NS_KEY_UP
+eKeyUp
 :
 {
 WidgetKeyboardEvent
@@ -15976,7 +15976,7 @@ mEvent
 mMessage
 =
 =
-NS_KEY_UP
+eKeyUp
 &
 &
 keyEvent

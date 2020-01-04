@@ -30807,7 +30807,7 @@ aEvent
 mMessage
 !
 =
-NS_KEY_UP
+eKeyUp
 )
 )
 {
@@ -30984,7 +30984,7 @@ aEvent
 mMessage
 =
 =
-NS_KEY_UP
+eKeyUp
 )
 ;
 nsAutoTArray
@@ -34231,7 +34231,7 @@ aEvent
 mMessage
 =
 =
-NS_KEY_UP
+eKeyUp
 )
 &
 &
@@ -34306,7 +34306,7 @@ aEvent
 mMessage
 =
 =
-NS_KEY_UP
+eKeyUp
 )
 {
 NS_RELEASE
@@ -35096,7 +35096,7 @@ case
 NS_KEY_DOWN
 :
 case
-NS_KEY_UP
+eKeyUp
 :
 {
 nsIDocument
@@ -35192,7 +35192,7 @@ aEvent
 mMessage
 =
 =
-NS_KEY_UP
+eKeyUp
 )
 {
 nsIDocument
@@ -35254,7 +35254,7 @@ aEvent
 mMessage
 =
 =
-NS_KEY_UP
+eKeyUp
 )
 {
 nsIDocument
@@ -35719,7 +35719,7 @@ case
 NS_KEY_DOWN
 :
 case
-NS_KEY_UP
+eKeyUp
 :
 {
 if
@@ -35746,7 +35746,7 @@ aEvent
 mMessage
 =
 =
-NS_KEY_UP
+eKeyUp
 )
 {
 mIsLastChromeOnlyEscapeKeyConsumed

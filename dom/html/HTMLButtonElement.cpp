@@ -1156,7 +1156,7 @@ case
 eKeyPress
 :
 case
-NS_KEY_UP
+eKeyUp
 :
 {
 WidgetKeyboardEvent
@@ -1206,7 +1206,7 @@ keyCode
 NS_VK_SPACE
 &
 &
-NS_KEY_UP
+eKeyUp
 =
 =
 aVisitor

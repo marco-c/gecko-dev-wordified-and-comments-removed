@@ -12155,9 +12155,9 @@ eKeyPress
 ;
 _ASSIGN_eventName
 (
-NS_KEY_UP
+eKeyUp
 "
-NS_KEY_UP
+eKeyUp
 "
 )
 ;

@@ -12999,7 +12999,7 @@ WidgetKeyboardEvent
 event
 (
 true
-NS_KEY_UP
+eKeyUp
 this
 )
 ;

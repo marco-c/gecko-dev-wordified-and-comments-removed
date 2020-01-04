@@ -3215,7 +3215,7 @@ openControlled
 break
 ;
 case
-NS_KEY_UP
+eKeyUp
 :
 if
 (

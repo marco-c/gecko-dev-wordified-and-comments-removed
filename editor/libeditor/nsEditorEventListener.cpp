@@ -1825,7 +1825,7 @@ keyEvent
 ;
 }
 case
-NS_KEY_UP
+eKeyUp
 :
 {
 nsCOMPtr

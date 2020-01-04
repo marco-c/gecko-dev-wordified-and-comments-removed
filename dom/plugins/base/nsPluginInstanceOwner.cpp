@@ -8330,7 +8330,7 @@ return
 NPCocoaEventKeyDown
 ;
 case
-NS_KEY_UP
+eKeyUp
 :
 return
 NPCocoaEventKeyUp
@@ -8800,7 +8800,7 @@ case
 NS_KEY_DOWN
 :
 case
-NS_KEY_UP
+eKeyUp
 :
 {
 WidgetKeyboardEvent
@@ -10883,7 +10883,7 @@ XKeyPress
 break
 ;
 case
-NS_KEY_UP
+eKeyUp
 :
 event
 .

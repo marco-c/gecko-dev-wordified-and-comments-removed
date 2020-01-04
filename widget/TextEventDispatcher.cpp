@@ -1199,7 +1199,7 @@ NS_KEY_DOWN
 aMessage
 =
 =
-NS_KEY_UP
+eKeyUp
 |
 |
 aMessage
@@ -1328,7 +1328,7 @@ NS_KEY_DOWN
 aMessage
 =
 =
-NS_KEY_UP
+eKeyUp
 )
 {
 MOZ_ASSERT
@@ -1344,7 +1344,7 @@ for
 either
 NS_KEY_DOWN
 or
-NS_KEY_UP
+eKeyUp
 "
 )
 ;
@@ -1495,7 +1495,7 @@ if
 aMessage
 =
 =
-NS_KEY_UP
+eKeyUp
 )
 {
 keyEvent

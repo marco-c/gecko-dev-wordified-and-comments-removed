@@ -471,7 +471,7 @@ eKeyboardEventClass
 EVENT
 (
 keyup
-NS_KEY_UP
+eKeyUp
 EventNameType_HTMLXUL
 eKeyboardEventClass
 )
