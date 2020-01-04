@@ -7549,6 +7549,10 @@ aBackgroundRect
 nsDisplayList
 *
 aList
+bool
+aAllowWillPaintBorderOptimization
+=
+true
 )
 ;
 virtual
