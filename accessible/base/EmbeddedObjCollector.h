@@ -7,13 +7,6 @@ mozilla_a11y_EmbeddedObjCollector_h__
 #
 include
 "
-Filters
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
