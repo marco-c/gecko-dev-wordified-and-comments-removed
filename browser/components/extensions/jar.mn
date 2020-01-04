@@ -204,3 +204,14 @@ ext
 windows
 .
 js
+content
+/
+browser
+/
+ext
+-
+c
+-
+tabs
+.
+js

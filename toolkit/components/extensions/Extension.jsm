@@ -608,14 +608,14 @@ scripts
 "
 ;
 const
-CATEGORY_EXTENSION_SCRIPTS_CONTENT
+CATEGORY_EXTENSION_SCRIPTS_ADDON
 =
 "
 webextension
 -
 scripts
 -
-content
+addon
 "
 ;
 let
@@ -961,7 +961,7 @@ XPCOMUtils
 .
 enumerateCategoryEntries
 (
-CATEGORY_EXTENSION_SCRIPTS_CONTENT
+CATEGORY_EXTENSION_SCRIPTS_ADDON
 )
 )
 {
