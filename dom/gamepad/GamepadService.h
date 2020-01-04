@@ -130,6 +130,11 @@ BeginShutdown
 )
 ;
 void
+StopMonitoring
+(
+)
+;
+void
 AddListener
 (
 nsGlobalWindow
