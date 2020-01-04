@@ -1874,6 +1874,10 @@ mMenuArray
 [
 i
 ]
+.
+get
+(
+)
 ;
 if
 (
@@ -2251,6 +2255,10 @@ mMenuArray
 [
 aIndex
 ]
+.
+get
+(
+)
 ;
 }
 nsMenuX

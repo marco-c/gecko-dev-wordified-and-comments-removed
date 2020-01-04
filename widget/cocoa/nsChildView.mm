@@ -11228,8 +11228,10 @@ mResizerImage
 {
 mResizerImage
 =
-new
+MakeUnique
+<
 RectTextureImage
+>
 (
 aManager
 -
@@ -12631,8 +12633,10 @@ mTitlebarImage
 {
 mTitlebarImage
 =
-new
+MakeUnique
+<
 RectTextureImage
+>
 (
 aManager
 -
@@ -12744,8 +12748,10 @@ mCornerMaskImage
 {
 mCornerMaskImage
 =
-new
+MakeUnique
+<
 RectTextureImage
+>
 (
 aManager
 -
@@ -14771,8 +14777,10 @@ mBasicCompositorImage
 {
 mBasicCompositorImage
 =
-new
+MakeUnique
+<
 RectTextureImage
+>
 (
 mGLPresenter
 -
