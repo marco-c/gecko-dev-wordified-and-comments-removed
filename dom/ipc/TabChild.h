@@ -2868,8 +2868,6 @@ aGuid
 void
 NotifyTabContextUpdated
 (
-bool
-aIsPreallocated
 )
 ;
 void
