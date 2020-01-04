@@ -568,7 +568,10 @@ only
 )
         
 if
+all
+(
 aws_creds
+)
 :
             
 self
