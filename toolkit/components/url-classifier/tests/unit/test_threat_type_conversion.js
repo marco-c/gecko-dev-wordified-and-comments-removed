@@ -176,7 +176,7 @@ equal
 (
 urlUtils
 .
-convertThreatTypeToListName
+convertThreatTypeToListNames
 (
 1
 )
@@ -193,12 +193,17 @@ equal
 (
 urlUtils
 .
-convertThreatTypeToListName
+convertThreatTypeToListNames
 (
 2
 )
 "
 googpub
+-
+phish
+-
+proto
+test
 -
 phish
 -
@@ -210,7 +215,7 @@ equal
 (
 urlUtils
 .
-convertThreatTypeToListName
+convertThreatTypeToListNames
 (
 3
 )
@@ -227,7 +232,7 @@ equal
 (
 urlUtils
 .
-convertThreatTypeToListName
+convertThreatTypeToListNames
 (
 5
 )
@@ -244,7 +249,7 @@ try
 {
 urlUtils
 .
-convertThreatTypeToListName
+convertThreatTypeToListNames
 (
 0
 )
@@ -275,7 +280,7 @@ try
 {
 urlUtils
 .
-convertThreatTypeToListName
+convertThreatTypeToListNames
 (
 100
 )
