@@ -5,8 +5,6 @@ absolute_import
 print_function
 unicode_literals
 import
-codecs
-import
 logging
 import
 os
@@ -764,19 +762,9 @@ yml
 )
             
 with
-codecs
-.
 open
 (
 kind_yml
-'
-rb
-'
-'
-utf
--
-8
-'
 )
 as
 f

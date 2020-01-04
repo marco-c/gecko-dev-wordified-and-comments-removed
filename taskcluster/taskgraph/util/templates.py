@@ -1,6 +1,4 @@
 import
-codecs
-import
 os
 import
 pystache
@@ -756,28 +754,12 @@ path
 )
 )
         
-with
-codecs
-.
+content
+=
 open
 (
 path
-'
-rb
-'
-'
-utf
--
-8
-'
 )
-as
-fh
-:
-            
-content
-=
-fh
 .
 read
 (

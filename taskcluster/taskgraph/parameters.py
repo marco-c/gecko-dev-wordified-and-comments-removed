@@ -17,8 +17,6 @@ absolute_import
 print_function
 unicode_literals
 import
-codecs
-import
 json
 import
 yaml
@@ -141,19 +139,9 @@ Parameters
 )
     
 with
-codecs
-.
 open
 (
 filename
-'
-rb
-'
-'
-utf
--
-8
-'
 )
 as
 f
