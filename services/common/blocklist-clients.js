@@ -597,7 +597,7 @@ collection
 name
 )
 .
-getMetadata
+getData
 (
 )
 .
