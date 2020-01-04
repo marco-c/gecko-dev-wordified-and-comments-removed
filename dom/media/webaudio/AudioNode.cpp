@@ -1090,10 +1090,7 @@ destinationStream
 AllocateInputPort
 (
 mStream
-MediaInputPort
-:
-:
-FLAG_BLOCK_INPUT
+0
 static_cast
 <
 uint16_t
@@ -1320,10 +1317,7 @@ ps
 AllocateInputPort
 (
 mStream
-MediaInputPort
-:
-:
-FLAG_BLOCK_INPUT
+0
 0
 static_cast
 <
