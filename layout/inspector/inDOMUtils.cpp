@@ -3884,6 +3884,9 @@ case
 eCSSProperty_border_image_slice
 :
 case
+eCSSProperty_grid_template
+:
+case
 eCSSProperty_grid
 :
 supported
