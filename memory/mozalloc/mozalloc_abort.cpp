@@ -339,6 +339,10 @@ mozalloc_abort
 msg
 )
 ;
+MOZ_CRASH
+(
+)
+;
 }
 #
 endif
