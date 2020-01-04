@@ -612,7 +612,6 @@ itemsToClear
 )
 )
 ;
-}
 for
 (
 let
