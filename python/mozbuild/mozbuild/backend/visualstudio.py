@@ -1810,6 +1810,27 @@ n
 comment_version
 )
         
+fh
+.
+write
+(
+'
+MinimumVisualStudioVersion
+=
+12
+.
+0
+.
+31101
+.
+0
+\
+r
+\
+n
+'
+)
+        
 binaries_id
 =
 projects
