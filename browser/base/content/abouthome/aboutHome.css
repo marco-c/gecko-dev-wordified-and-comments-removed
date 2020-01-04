@@ -442,9 +442,6 @@ inherit
 #
 searchText
 :
--
-moz
--
 dir
 (
 rtl
@@ -494,9 +491,6 @@ true
 "
 ]
 :
--
-moz
--
 dir
 (
 rtl
@@ -770,9 +764,6 @@ width
 #
 searchSubmit
 :
--
-moz
--
 dir
 (
 rtl
@@ -1170,9 +1161,6 @@ none
 #
 defaultSnippet1
 :
--
-moz
--
 dir
 (
 rtl
@@ -1180,9 +1168,6 @@ rtl
 #
 defaultSnippet2
 :
--
-moz
--
 dir
 (
 rtl
@@ -1190,9 +1175,6 @@ rtl
 #
 rightsSnippet
 :
--
-moz
--
 dir
 (
 rtl
@@ -2362,9 +2344,6 @@ end
 #
 restorePreviousSession
 :
--
-moz
--
 dir
 (
 rtl
@@ -2657,9 +2636,6 @@ origin
 .
 launchButton
 :
--
-moz
--
 dir
 (
 rtl
@@ -2670,9 +2646,6 @@ before
 #
 aboutMozilla
 :
--
-moz
--
 dir
 (
 rtl
@@ -2935,9 +2908,6 @@ png
 #
 restorePreviousSession
 :
--
-moz
--
 dir
 (
 rtl
