@@ -3504,7 +3504,7 @@ StyleDisplay
 )
 -
 >
-mFloats
+mFloat
 nsCSSProps
 :
 :

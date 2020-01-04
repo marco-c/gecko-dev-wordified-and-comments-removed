@@ -9956,10 +9956,10 @@ uint8_t
 mPosition
 ;
 uint8_t
-mFloats
+mFloat
 ;
 uint8_t
-mOriginalFloats
+mOriginalFloat
 ;
 uint8_t
 mBreakType
@@ -10361,7 +10361,7 @@ return
 NS_STYLE_FLOAT_NONE
 !
 =
-mFloats
+mFloat
 ;
 }
 bool

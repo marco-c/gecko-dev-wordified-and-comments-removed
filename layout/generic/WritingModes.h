@@ -7703,7 +7703,7 @@ const
 {
 if
 (
-mFloats
+mFloat
 =
 =
 NS_STYLE_FLOAT_INLINE_START
@@ -7723,7 +7723,7 @@ NS_STYLE_FLOAT_RIGHT
 }
 if
 (
-mFloats
+mFloat
 =
 =
 NS_STYLE_FLOAT_INLINE_END
@@ -7742,7 +7742,7 @@ NS_STYLE_FLOAT_LEFT
 ;
 }
 return
-mFloats
+mFloat
 ;
 }
 inline
