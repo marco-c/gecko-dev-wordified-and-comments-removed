@@ -889,7 +889,7 @@ aFrame
 )
 ;
 bool
-RenumberLists
+RenumberList
 (
 )
 ;

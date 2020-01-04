@@ -8410,7 +8410,7 @@ bool
 nsContainerFrame
 :
 :
-RenumberLists
+RenumberList
 (
 )
 {
@@ -9148,7 +9148,7 @@ ol
 {
 if
 (
-RenumberLists
+RenumberList
 (
 )
 )

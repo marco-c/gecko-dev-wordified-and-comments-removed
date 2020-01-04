@@ -28823,7 +28823,7 @@ GetContent
 )
 ;
 }
-RenumberLists
+RenumberList
 (
 )
 ;
@@ -30705,7 +30705,7 @@ IntrinsicISizeType
 aConstraint
 )
 {
-RenumberLists
+RenumberList
 (
 )
 ;

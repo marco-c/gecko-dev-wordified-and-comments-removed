@@ -3375,7 +3375,7 @@ LazyMarkLinesDirty
 }
 if
 (
-RenumberLists
+RenumberList
 (
 )
 )
@@ -3884,7 +3884,7 @@ LazyMarkLinesDirty
 }
 if
 (
-RenumberLists
+RenumberList
 (
 )
 )
@@ -5799,7 +5799,7 @@ ResolveBidi
 ;
 if
 (
-RenumberLists
+RenumberList
 (
 )
 )
@@ -14428,7 +14428,7 @@ if
 ancestor
 -
 >
-RenumberLists
+RenumberList
 (
 )
 )
