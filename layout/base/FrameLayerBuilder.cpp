@@ -15369,6 +15369,9 @@ agr
 !
 =
 aStopAtAnimatedGeometryRoot
+&
+&
+agr
 ;
 agr
 =
