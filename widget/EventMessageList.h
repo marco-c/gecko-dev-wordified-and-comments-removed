@@ -1393,7 +1393,7 @@ eDeviceEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_DEVICE_LIGHT
+eDeviceLight
 eDeviceEventFirst
 +
 4

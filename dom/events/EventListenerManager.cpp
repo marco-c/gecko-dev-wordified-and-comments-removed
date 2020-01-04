@@ -1506,7 +1506,7 @@ ondevicelight
 {
 EnableDevice
 (
-NS_DEVICE_LIGHT
+eDeviceLight
 )
 ;
 }
@@ -2126,7 +2126,7 @@ case
 eDeviceMotion
 :
 case
-NS_DEVICE_LIGHT
+eDeviceLight
 :
 case
 eDeviceProximity
@@ -2210,7 +2210,7 @@ SENSOR_PROXIMITY
 break
 ;
 case
-NS_DEVICE_LIGHT
+eDeviceLight
 :
 window
 -
@@ -2362,7 +2362,7 @@ SENSOR_PROXIMITY
 break
 ;
 case
-NS_DEVICE_LIGHT
+eDeviceLight
 :
 window
 -
