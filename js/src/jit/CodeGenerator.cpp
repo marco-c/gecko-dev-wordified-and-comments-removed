@@ -51316,7 +51316,7 @@ gc
 .
 storeBuffer
 .
-putWholeCellFromMainThread
+putWholeCell
 (
 script
 )

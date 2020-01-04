@@ -2526,7 +2526,7 @@ return
 buffer
 -
 >
-putCellFromAnyThread
+putCell
 (
 static_cast
 <
@@ -2567,7 +2567,7 @@ storeBuffer
 buffer
 -
 >
-unputCellFromAnyThread
+unputCell
 (
 static_cast
 <

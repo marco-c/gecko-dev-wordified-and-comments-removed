@@ -3834,7 +3834,7 @@ gcStoreBufferPtr
 )
 -
 >
-putSlotFromAnyThread
+putSlot
 (
 this
 HeapSlot
@@ -4954,7 +4954,7 @@ storeBuffer
 storeBuffer
 -
 >
-putCellFromAnyThread
+putCell
 (
 cellp
 )
