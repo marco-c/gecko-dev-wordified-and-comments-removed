@@ -1678,6 +1678,9 @@ aTime
 double
 progress
 =
+mScrollbarFadeDuration
+?
+(
 (
 aTime
 -
@@ -1687,6 +1690,11 @@ mFadeBeginTime
 FadeDuration
 (
 )
+)
+:
+1
+.
+0
 ;
 double
 opacity
