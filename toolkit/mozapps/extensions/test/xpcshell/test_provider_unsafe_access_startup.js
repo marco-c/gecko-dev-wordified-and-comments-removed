@@ -94,8 +94,6 @@ this
 hasStarted
 )
 {
-this
-.
 unsafeAccess
 =
 true

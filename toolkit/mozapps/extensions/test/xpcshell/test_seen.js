@@ -611,7 +611,6 @@ addon
 seen
 )
 ;
-let
 install
 =
 yield
@@ -1052,7 +1051,6 @@ addon
 seen
 )
 ;
-let
 install
 =
 yield

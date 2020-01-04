@@ -99,8 +99,6 @@ this
 hasShutdown
 )
 {
-this
-.
 unsafeAccess
 =
 true

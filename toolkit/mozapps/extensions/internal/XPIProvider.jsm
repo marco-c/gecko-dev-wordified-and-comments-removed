@@ -3127,13 +3127,9 @@ newFile
 .
 moveTo
 (
-move
-.
 oldDir
 .
 parent
-move
-.
 oldDir
 .
 leafName
@@ -17140,6 +17136,8 @@ enableDefaultTheme
 )
 ;
 }
+try
+{
 let
 oldCache
 =
@@ -17154,8 +17152,6 @@ FILE_OLD_CACHE
 true
 )
 ;
-try
-{
 if
 (
 oldCache
