@@ -114,6 +114,9 @@ PushService
 .
 getInstance
 (
+GcmMessageListenerService
+.
+this
 )
 .
 onMessageReceived

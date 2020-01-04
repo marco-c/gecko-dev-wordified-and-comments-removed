@@ -103,6 +103,9 @@ PushService
 .
 getInstance
 (
+GcmInstanceIDListenerService
+.
+this
 )
 .
 onRefresh
