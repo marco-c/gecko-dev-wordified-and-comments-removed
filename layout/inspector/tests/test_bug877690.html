@@ -297,6 +297,28 @@ Ci
 inIDOMUtils
 )
 ;
+var
+getCSSValuesForProperty
+=
+function
+(
+prop
+)
+{
+return
+Array
+.
+from
+(
+utils
+.
+getCSSValuesForProperty
+(
+prop
+)
+)
+;
+}
 /
 /
 test
@@ -316,8 +338,6 @@ color
 var
 values
 =
-utils
-.
 getCSSValuesForProperty
 (
 prop
@@ -833,8 +853,6 @@ background
 var
 values
 =
-utils
-.
 getCSSValuesForProperty
 (
 prop
@@ -1500,8 +1518,6 @@ border
 var
 values
 =
-utils
-.
 getCSSValuesForProperty
 (
 prop
@@ -2168,8 +2184,6 @@ top
 var
 values
 =
-utils
-.
 getCSSValuesForProperty
 (
 prop
@@ -2748,8 +2762,6 @@ bottom
 var
 values
 =
-utils
-.
 getCSSValuesForProperty
 (
 prop
@@ -2812,8 +2824,6 @@ display
 var
 values
 =
-utils
-.
 getCSSValuesForProperty
 (
 prop
@@ -3062,8 +3072,6 @@ float
 var
 values
 =
-utils
-.
 getCSSValuesForProperty
 (
 prop
@@ -3138,8 +3146,6 @@ margin
 var
 values
 =
-utils
-.
 getCSSValuesForProperty
 (
 prop
@@ -3209,8 +3215,6 @@ style
 var
 values
 =
-utils
-.
 getCSSValuesForProperty
 (
 prop
@@ -3287,8 +3291,6 @@ transition
 var
 values
 =
-utils
-.
 getCSSValuesForProperty
 (
 prop
@@ -3390,8 +3392,6 @@ invalidProperty
 ;
 try
 {
-utils
-.
 getCSSValuesForProperty
 (
 prop
@@ -3443,8 +3443,6 @@ image
 var
 values
 =
-utils
-.
 getCSSValuesForProperty
 (
 prop
