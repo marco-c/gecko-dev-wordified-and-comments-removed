@@ -18,10 +18,6 @@ h
 #
 include
 <
-nestegg
-/
-nestegg
--
 stdint
 .
 h

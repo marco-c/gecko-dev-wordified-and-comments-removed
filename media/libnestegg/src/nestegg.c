@@ -9832,6 +9832,17 @@ seek_pos
 ;
 if
 (
+r
+!
+=
+0
+)
+return
+-
+1
+;
+if
+(
 !
 ne_is_suspend_element
 (
