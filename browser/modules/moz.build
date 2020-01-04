@@ -190,6 +190,11 @@ ContentWebRTC
 jsm
 '
 '
+CustomizationTabPreloader
+.
+jsm
+'
+'
 DirectoryLinksProvider
 .
 jsm
