@@ -48,15 +48,11 @@ using
 namespace
 mozilla
 ;
-typedef
-nsSVGDisplayContainerFrame
-nsSVGAFrameBase
-;
 class
 nsSVGAFrame
 :
 public
-nsSVGAFrameBase
+nsSVGDisplayContainerFrame
 {
 friend
 nsIFrame
@@ -81,7 +77,7 @@ nsStyleContext
 aContext
 )
 :
-nsSVGAFrameBase
+nsSVGDisplayContainerFrame
 (
 aContext
 )
@@ -271,7 +267,7 @@ interfaces
 "
 )
 ;
-nsSVGAFrameBase
+nsSVGDisplayContainerFrame
 :
 :
 Init
@@ -383,7 +379,7 @@ mCanvasTM
 nullptr
 ;
 }
-nsSVGAFrameBase
+nsSVGDisplayContainerFrame
 :
 :
 NotifySVGChanged
