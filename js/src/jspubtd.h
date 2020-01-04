@@ -1457,5 +1457,12 @@ Rooted
 }
 ;
 }
+MOZ_BEGIN_EXTERN_C
+typedef
+struct
+PRFileDesc
+PRFileDesc
+;
+MOZ_END_EXTERN_C
 #
 endif

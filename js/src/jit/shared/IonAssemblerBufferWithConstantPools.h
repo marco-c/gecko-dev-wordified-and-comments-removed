@@ -1719,7 +1719,7 @@ unsigned
 static
 const
 unsigned
-NO_DATA
+DUMMY_INDEX
 =
 unsigned
 (
@@ -2014,7 +2014,7 @@ result
 ;
 }
 return
-NO_DATA
+DUMMY_INDEX
 ;
 }
 public
