@@ -166,7 +166,7 @@ aCount
 )
 ;
 static
-NS_METHOD
+nsresult
 WriteSegmentFun
 (
 nsIInputStream
@@ -844,7 +844,7 @@ NS_OK
 ;
 }
 }
-NS_METHOD
+nsresult
 nsInputStreamTee
 :
 :

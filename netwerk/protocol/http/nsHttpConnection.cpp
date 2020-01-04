@@ -7035,7 +7035,7 @@ mIsReused
 true
 ;
 }
-NS_METHOD
+nsresult
 nsHttpConnection
 :
 :

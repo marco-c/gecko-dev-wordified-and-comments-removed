@@ -144,7 +144,7 @@ ConvertedStreamListener
 )
 ;
 static
-NS_METHOD
+nsresult
 AppendDataToString
 (
 nsIInputStream

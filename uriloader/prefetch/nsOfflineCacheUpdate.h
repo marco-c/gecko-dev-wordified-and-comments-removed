@@ -520,7 +520,7 @@ mManifestHashValue
 private
 :
 static
-NS_METHOD
+nsresult
 ReadManifest
 (
 nsIInputStream

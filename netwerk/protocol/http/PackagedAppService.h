@@ -295,7 +295,7 @@ PackagedAppDownloader
 {
 }
 static
-NS_METHOD
+nsresult
 ConsumeData
 (
 nsIInputStream

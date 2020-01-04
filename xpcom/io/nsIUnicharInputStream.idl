@@ -250,8 +250,9 @@ behavior
 *
 /
 typedef
-NS_CALLBACK
+nsresult
 (
+*
 nsWriteUnicharSegmentFun
 )
 (

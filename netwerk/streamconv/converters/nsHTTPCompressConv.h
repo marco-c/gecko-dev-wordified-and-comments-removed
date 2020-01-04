@@ -301,7 +301,7 @@ nsIStringInputStream
 mStream
 ;
 static
-NS_METHOD
+nsresult
 BrotliHandler
 (
 nsIInputStream

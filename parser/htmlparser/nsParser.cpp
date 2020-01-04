@@ -7981,7 +7981,7 @@ aStart
 ;
 }
 static
-NS_METHOD
+nsresult
 NoOpParserWriteFunc
 (
 nsIInputStream
@@ -8034,7 +8034,7 @@ mRequest
 ParserWriteStruct
 ;
 static
-NS_METHOD
+nsresult
 ParserWriteFunc
 (
 nsIInputStream

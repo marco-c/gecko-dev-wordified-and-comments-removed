@@ -234,8 +234,9 @@ WriteSegments
 *
 /
 typedef
-NS_CALLBACK
+nsresult
 (
+*
 nsReadSegmentFun
 )
 (

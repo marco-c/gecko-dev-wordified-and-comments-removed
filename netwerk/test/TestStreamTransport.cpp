@@ -599,7 +599,7 @@ nullptr
 ;
 }
 static
-NS_METHOD
+nsresult
 FillOutputBuffer
 (
 nsIOutputStream

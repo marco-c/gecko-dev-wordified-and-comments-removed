@@ -746,7 +746,7 @@ return
 }
 }
 static
-NS_METHOD
+nsresult
 ReadFuncBinaryString
 (
 nsIInputStream

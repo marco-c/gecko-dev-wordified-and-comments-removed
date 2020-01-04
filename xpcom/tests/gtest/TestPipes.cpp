@@ -4083,7 +4083,7 @@ inputData
 }
 namespace
 {
-NS_METHOD
+nsresult
 CloseDuringReadFunc
 (
 nsIInputStream

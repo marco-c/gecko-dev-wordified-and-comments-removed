@@ -514,7 +514,7 @@ return
 aStatus
 ;
 }
-NS_METHOD
+nsresult
 WebVTTListener
 :
 :

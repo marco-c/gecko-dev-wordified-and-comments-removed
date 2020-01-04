@@ -1758,7 +1758,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+nsresult
 HttpServer
 :
 :
@@ -4930,7 +4930,7 @@ StreamCopier
 {
 }
 static
-NS_METHOD
+nsresult
 FillOutputBufferHelper
 (
 nsIOutputStream
@@ -5030,7 +5030,7 @@ sourceRv
 ;
 }
 ;
-NS_METHOD
+nsresult
 StreamCopier
 :
 :
@@ -5092,7 +5092,7 @@ ws
 sourceRv
 ;
 }
-NS_METHOD
+nsresult
 CheckForEOF
 (
 nsIInputStream

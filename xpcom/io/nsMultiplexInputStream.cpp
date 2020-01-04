@@ -177,7 +177,7 @@ mDone
 }
 ;
 static
-NS_METHOD
+nsresult
 ReadSegCb
 (
 nsIInputStream
@@ -1302,7 +1302,7 @@ NS_OK
 rv
 ;
 }
-NS_METHOD
+nsresult
 nsMultiplexInputStream
 :
 :

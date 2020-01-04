@@ -789,7 +789,7 @@ status
 )
 ;
 }
-NS_METHOD
+nsresult
 nsHTTPCompressConv
 :
 :

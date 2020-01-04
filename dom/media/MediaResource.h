@@ -1999,7 +1999,7 @@ DoNotifyDataReceived
 )
 ;
 static
-NS_METHOD
+nsresult
 CopySegmentToCache
 (
 nsIInputStream

@@ -306,7 +306,7 @@ condition
 private
 :
 static
-NS_METHOD
+nsresult
 WriteFromSegments
 (
 nsIInputStream

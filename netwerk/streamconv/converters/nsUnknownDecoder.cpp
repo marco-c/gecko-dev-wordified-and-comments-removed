@@ -172,7 +172,7 @@ ConvertedStreamListener
 )
 {
 }
-NS_IMETHODIMP
+nsresult
 nsUnknownDecoder
 :
 :

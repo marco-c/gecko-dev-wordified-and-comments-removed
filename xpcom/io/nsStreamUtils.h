@@ -203,7 +203,7 @@ aOutputStream
 )
 ;
 extern
-NS_METHOD
+nsresult
 NS_CopySegmentToStream
 (
 nsIInputStream
@@ -226,7 +226,7 @@ aWriteCount
 )
 ;
 extern
-NS_METHOD
+nsresult
 NS_CopySegmentToBuffer
 (
 nsIInputStream
@@ -249,7 +249,7 @@ aWriteCount
 )
 ;
 extern
-NS_METHOD
+nsresult
 NS_CopySegmentToBuffer
 (
 nsIOutputStream
@@ -271,7 +271,7 @@ aReadCount
 )
 ;
 extern
-NS_METHOD
+nsresult
 NS_DiscardSegment
 (
 nsIInputStream
@@ -294,7 +294,7 @@ aWriteCount
 )
 ;
 extern
-NS_METHOD
+nsresult
 NS_WriteSegmentThunk
 (
 nsIInputStream

@@ -301,7 +301,7 @@ aInfo
 )
 ;
 static
-NS_METHOD
+nsresult
 WriteManifest
 (
 nsIInputStream

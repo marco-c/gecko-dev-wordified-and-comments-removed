@@ -395,7 +395,7 @@ ConsoleError
 )
 ;
 static
-NS_METHOD
+nsresult
 StreamReaderFunc
 (
 nsIInputStream

@@ -2820,7 +2820,7 @@ rv
 ;
 }
 static
-NS_METHOD
+nsresult
 nsReadFromInputStream
 (
 nsIOutputStream

@@ -89,7 +89,7 @@ nsIncrementalStreamLoader
 )
 ;
 static
-NS_METHOD
+nsresult
 WriteSegmentFun
 (
 nsIInputStream

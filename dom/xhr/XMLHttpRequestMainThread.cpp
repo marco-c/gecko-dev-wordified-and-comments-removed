@@ -6614,7 +6614,7 @@ mNetworkInterfaceId
 )
 ;
 }
-NS_METHOD
+nsresult
 XMLHttpRequestMainThread
 :
 :

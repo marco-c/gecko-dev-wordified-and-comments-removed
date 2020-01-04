@@ -538,7 +538,7 @@ aLength
 )
 ;
 static
-NS_METHOD
+nsresult
 CopySegmentsToParser
 (
 nsIInputStream

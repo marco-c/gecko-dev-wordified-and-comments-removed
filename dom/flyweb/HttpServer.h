@@ -461,7 +461,7 @@ aListen
 )
 ;
 static
-NS_METHOD
+nsresult
 ReadSegmentsFunc
 (
 nsIInputStream

@@ -211,7 +211,7 @@ CloseContent
 )
 ;
 static
-NS_METHOD
+nsresult
 PrintCacheData
 (
 nsIInputStream

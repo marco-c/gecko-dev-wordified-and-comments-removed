@@ -154,7 +154,7 @@ mClosure
 }
 ;
 static
-NS_METHOD
+nsresult
 ReadSegCb
 (
 nsIInputStream
@@ -896,7 +896,7 @@ _retval
 )
 ;
 }
-NS_METHOD
+nsresult
 nsMIMEInputStream
 :
 :

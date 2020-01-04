@@ -1784,7 +1784,7 @@ aBufferLen
 )
 ;
 static
-NS_METHOD
+nsresult
 StreamReaderFunc
 (
 nsIInputStream

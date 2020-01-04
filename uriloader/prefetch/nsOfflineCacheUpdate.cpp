@@ -566,7 +566,7 @@ nsManifestCheck
 {
 }
 static
-NS_METHOD
+nsresult
 ReadManifest
 (
 nsIInputStream
@@ -780,7 +780,7 @@ this
 )
 ;
 }
-NS_METHOD
+nsresult
 nsManifestCheck
 :
 :
@@ -2492,7 +2492,7 @@ nsOfflineManifestItem
 )
 {
 }
-NS_METHOD
+nsresult
 nsOfflineManifestItem
 :
 :

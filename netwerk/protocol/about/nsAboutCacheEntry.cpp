@@ -2697,7 +2697,7 @@ n
 )
 ;
 }
-NS_METHOD
+nsresult
 nsAboutCacheEntry
 :
 :

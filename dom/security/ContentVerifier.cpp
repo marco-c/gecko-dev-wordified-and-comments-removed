@@ -238,7 +238,7 @@ return
 rv
 ;
 }
-NS_METHOD
+nsresult
 AppendNextSegment
 (
 nsIInputStream

@@ -786,7 +786,7 @@ reason
 )
 ;
 static
-NS_METHOD
+nsresult
 ReadRequestSegment
 (
 nsIInputStream
@@ -803,7 +803,7 @@ uint32_t
 )
 ;
 static
-NS_METHOD
+nsresult
 WritePipeSegment
 (
 nsIOutputStream

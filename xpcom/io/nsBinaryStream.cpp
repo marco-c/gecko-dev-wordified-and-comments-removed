@@ -1739,7 +1739,7 @@ mBytesRead
 }
 ;
 static
-NS_METHOD
+nsresult
 ReadSegmentForwardingThunk
 (
 nsIInputStream
@@ -2534,7 +2534,7 @@ aDouble
 ;
 }
 static
-NS_METHOD
+nsresult
 WriteSegmentToCString
 (
 nsIInputStream
@@ -2687,7 +2687,7 @@ mCarryoverByte
 }
 ;
 static
-NS_METHOD
+nsresult
 WriteSegmentToString
 (
 nsIInputStream
