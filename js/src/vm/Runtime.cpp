@@ -927,6 +927,10 @@ errorReporter
 (
 nullptr
 )
+buildIdOp
+(
+nullptr
+)
 propertyRemovals
 (
 0
