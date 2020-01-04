@@ -217,6 +217,13 @@ static
 bool
 sPluginHasFocus
 ;
+static
+InputContextAction
+:
+:
+Cause
+sLastContextActionCause
+;
 #
 ifdef
 NS_ENABLE_TSF
