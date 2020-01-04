@@ -2914,6 +2914,9 @@ return
 true
 ;
 }
+return
+false
+;
 }
 _resetAllWindowClosures
 :
@@ -3281,6 +3284,9 @@ return
 false
 ;
 }
+return
+undefined
+;
 }
 newWindow
 .
