@@ -101,15 +101,6 @@ ArrayIteratorNext
 \
 macro
 (
-ArraySpecies
-ArraySpecies
-"
-ArraySpecies
-"
-)
-\
-macro
-(
 ArrayType
 ArrayType
 "
