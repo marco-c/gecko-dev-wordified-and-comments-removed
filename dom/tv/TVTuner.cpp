@@ -164,6 +164,10 @@ DOMEventTargetHelper
 (
 aWindow
 )
+mStreamType
+(
+0
+)
 {
 }
 TVTuner

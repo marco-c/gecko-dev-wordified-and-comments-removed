@@ -56,6 +56,11 @@ MessagePortChild
 MessagePortChild
 (
 )
+:
+mPort
+(
+nullptr
+)
 {
 }
 void

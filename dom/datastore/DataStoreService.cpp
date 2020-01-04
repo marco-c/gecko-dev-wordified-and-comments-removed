@@ -449,6 +449,15 @@ aReadOnly
 bool
 aEnabled
 )
+:
+mReadOnly
+(
+true
+)
+mEnabled
+(
+false
+)
 {
 Init
 (

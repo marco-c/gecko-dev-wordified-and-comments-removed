@@ -861,6 +861,15 @@ LogReason
 :
 MustBeMoreThanThis
 )
+:
+mOptions
+(
+0
+)
+mLogIt
+(
+false
+)
 {
 Init
 (

@@ -1170,6 +1170,10 @@ mEnabled
 (
 enabled
 )
+mOldState
+(
+false
+)
 {
 if
 (
@@ -1197,11 +1201,13 @@ if
 (
 mEnabled
 )
+{
 *
 mEnabled
 =
 mOldState
 ;
+}
 }
 protected
 :
