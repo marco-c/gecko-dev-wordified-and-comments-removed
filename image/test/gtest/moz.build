@@ -127,11 +127,6 @@ TestMetadata
 .
 cpp
 '
-'
-TestStreamingLexer
-.
-cpp
-'
 ]
 TEST_HARNESS_FILES
 .

@@ -700,7 +700,7 @@ istream
 available
 (
 )
-1051
+1078
 )
 ;
 var
@@ -958,7 +958,7 @@ istream
 available
 (
 )
-950
+948
 )
 ;
 referenceBytes
@@ -3235,7 +3235,7 @@ do_check_eq
 (
 errsrc
 "
-encode
+decode
 "
 )
 ;
