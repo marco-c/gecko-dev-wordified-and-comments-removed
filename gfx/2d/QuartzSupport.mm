@@ -132,6 +132,15 @@ MacIOSurface
 h
 "
 #
+include
+"
+mozilla
+/
+Sprintf
+.
+h
+"
+#
 import
 <
 QuartzCore
@@ -3644,7 +3653,7 @@ cstr
 1000
 ]
 ;
-sprintf
+SprintfLiteral
 (
 cstr
 "

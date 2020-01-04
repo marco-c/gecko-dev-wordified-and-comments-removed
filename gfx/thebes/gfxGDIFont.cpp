@@ -19,6 +19,15 @@ include
 "
 mozilla
 /
+Sprintf
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WindowsVersion
 .
 h
@@ -2002,7 +2011,7 @@ warnBuf
 1024
 ]
 ;
-sprintf
+SprintfLiteral
 (
 warnBuf
 "

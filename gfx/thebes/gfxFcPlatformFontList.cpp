@@ -72,6 +72,15 @@ include
 "
 mozilla
 /
+Sprintf
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
@@ -1743,7 +1752,7 @@ prefix
 256
 ]
 ;
-sprintf
+SprintfLiteral
 (
 prefix
 "

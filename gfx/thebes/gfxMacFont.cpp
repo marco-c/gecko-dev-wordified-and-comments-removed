@@ -17,6 +17,15 @@ h
 #
 include
 "
+mozilla
+/
+Sprintf
+.
+h
+"
+#
+include
+"
 gfxCoreTextShaper
 .
 h
@@ -197,7 +206,7 @@ warnBuf
 1024
 ]
 ;
-sprintf
+SprintfLiteral
 (
 warnBuf
 "
@@ -423,7 +432,7 @@ warnBuf
 1024
 ]
 ;
-sprintf
+SprintfLiteral
 (
 warnBuf
 "
@@ -938,7 +947,7 @@ warnBuf
 1024
 ]
 ;
-sprintf
+SprintfLiteral
 (
 warnBuf
 "

@@ -103,6 +103,15 @@ h
 #
 include
 "
+mozilla
+/
+Sprintf
+.
+h
+"
+#
+include
+"
 nsRegion
 .
 h
@@ -799,7 +808,7 @@ command
 13
 ]
 ;
-sprintf
+SprintfLiteral
 (
 command
 "

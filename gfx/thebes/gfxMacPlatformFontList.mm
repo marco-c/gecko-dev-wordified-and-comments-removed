@@ -558,6 +558,15 @@ include
 "
 mozilla
 /
+Sprintf
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h
@@ -1697,7 +1706,7 @@ prefix
 256
 ]
 ;
-sprintf
+SprintfLiteral
 (
 prefix
 "

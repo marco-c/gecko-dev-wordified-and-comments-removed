@@ -1070,13 +1070,9 @@ thrname
 128
 ]
 ;
-base
-:
-:
-snprintf
+SprintfLiteral
 (
 thrname
-128
 "
 BufMgrParent
 #
