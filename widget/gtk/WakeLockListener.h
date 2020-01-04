@@ -33,6 +33,9 @@ nsIDOMWakeLockListener
 h
 "
 #
+ifdef
+MOZ_ENABLE_DBUS
+#
 include
 "
 mozilla
@@ -43,6 +46,8 @@ DBusConnectionRefPtr
 .
 h
 "
+#
+endif
 class
 WakeLockTopic
 ;
@@ -107,12 +112,17 @@ WakeLockListener
 *
 sSingleton
 ;
+#
+ifdef
+MOZ_ENABLE_DBUS
 RefPtr
 <
 DBusConnection
 >
 mConnection
 ;
+#
+endif
 nsClassHashtable
 <
 nsStringHashKey
