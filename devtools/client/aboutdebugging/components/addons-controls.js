@@ -407,7 +407,7 @@ Strings
 GetStringFromName
 (
 "
-selectAddonFromFile
+selectAddonFromFile2
 "
 )
 Ci
