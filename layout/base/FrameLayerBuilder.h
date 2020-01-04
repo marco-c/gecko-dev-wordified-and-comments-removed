@@ -780,9 +780,9 @@ aDisplayItemKey
 )
 ;
 static
-Layer
+PaintedLayer
 *
-GetDebugSingleOldLayerForFrame
+GetDebugSingleOldPaintedLayerForFrame
 (
 nsIFrame
 *
