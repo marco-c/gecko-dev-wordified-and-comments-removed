@@ -3027,6 +3027,19 @@ GeneratedFile
 )
 :
             
+dep_file
+=
+"
+%
+s
+.
+pp
+"
+%
+obj
+.
+output
+            
 backend_file
 .
 write
@@ -3044,6 +3057,23 @@ n
 obj
 .
 output
+)
+            
+backend_file
+.
+write
+(
+'
+EXTRA_MDDEPEND_FILES
++
+=
+%
+s
+\
+n
+'
+%
+dep_file
 )
             
 if
@@ -3089,6 +3119,13 @@ method
 {
 output
 }
+(
+MDDEPDIR
+)
+/
+{
+dep_file
+}
 {
 inputs
 }
@@ -3104,6 +3141,10 @@ output
 obj
 .
 output
+           
+dep_file
+=
+dep_file
            
 inputs
 =
