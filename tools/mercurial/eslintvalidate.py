@@ -33,6 +33,8 @@ jsm
 jsx
 |
 xml
+|
+html
 )
 '
 )
@@ -292,6 +294,14 @@ format
 "
 "
 json
+"
+"
+-
+-
+plugin
+"
+"
+html
 "
 ]
 +
