@@ -137,6 +137,7 @@ aSel
 nsEditor
 *
 aEd
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 mSel
@@ -148,6 +149,8 @@ mEd
 nullptr
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 if
 (
 !
@@ -292,8 +295,11 @@ nsDOMIterator
 nsINode
 &
 aNode
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 mIter
 =
 NS_NewContentIterator
@@ -357,8 +363,11 @@ nsDOMIterator
 :
 nsDOMIterator
 (
+MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM_IN_IMPL
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 nsDOMIterator
 :
@@ -447,6 +456,12 @@ nsDOMSubtreeIterator
 :
 nsDOMSubtreeIterator
 (
+MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM_IN_IMPL
+)
+:
+nsDOMIterator
+(
+MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM_TO_PARENT
 )
 {
 }
