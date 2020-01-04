@@ -70,7 +70,7 @@ mozilla
 /
 dom
 /
-PContent
+ContentParent
 .
 h
 "
@@ -580,6 +580,11 @@ MOZ_NUWA_PROCESS
 if
 (
 IsNuwaProcess
+(
+)
+&
+&
+NS_IsMainThread
 (
 )
 &
