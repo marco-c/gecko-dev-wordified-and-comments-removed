@@ -4747,6 +4747,10 @@ IsMediaStreamURI
 (
 mLoadingSrc
 )
+&
+&
+!
+mMediaSource
 )
 {
 SuspendLoad
@@ -5612,6 +5616,10 @@ IsMediaStreamURI
 (
 mLoadingSrc
 )
+&
+&
+!
+mMediaSource
 )
 {
 SuspendLoad
