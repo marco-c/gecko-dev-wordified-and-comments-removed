@@ -105,6 +105,14 @@ DisableCrashGuard
 DECL_GFX_ENV_ONCE
 (
 "
+MOZ_DISABLE_FORCE_PRESENT
+"
+DisableForcePresent
+)
+;
+DECL_GFX_ENV_ONCE
+(
+"
 MOZ_DUMP_COMPOSITOR_TEXTURES
 "
 DumpCompositorTextures
