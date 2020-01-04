@@ -2202,6 +2202,14 @@ JSProto_Uint8Array
 )
 &
 &
+InitBareBuiltinCtor
+(
+cx
+global
+JSProto_Int32Array
+)
+&
+&
 InitBareWeakMapCtor
 (
 cx
