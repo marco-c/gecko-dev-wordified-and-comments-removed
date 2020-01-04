@@ -3710,6 +3710,7 @@ bool
 IsEmpty
 (
 )
+const
 {
 if
 (

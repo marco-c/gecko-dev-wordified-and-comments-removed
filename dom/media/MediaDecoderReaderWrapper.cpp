@@ -1781,6 +1781,8 @@ MediaDecoderReaderWrapper
 :
 ResetDecode
 (
+TargetQueues
+aQueues
 )
 {
 MOZ_ASSERT
@@ -1812,6 +1814,9 @@ nsIRunnable
 r
 =
 NewRunnableMethod
+<
+TargetQueues
+>
 (
 mReader
 &
@@ -1819,6 +1824,7 @@ MediaDecoderReader
 :
 :
 ResetDecode
+aQueues
 )
 ;
 mReader

@@ -188,6 +188,10 @@ override
 nsresult
 ResetDecode
 (
+TargetQueues
+aQueues
+=
+AUDIO_VIDEO
 )
 override
 ;
@@ -329,6 +333,10 @@ ResetDecode
 (
 bool
 start
+TargetQueues
+aQueues
+=
+AUDIO_VIDEO
 )
 ;
 nsresult
