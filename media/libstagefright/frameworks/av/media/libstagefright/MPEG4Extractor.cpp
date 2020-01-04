@@ -2261,7 +2261,7 @@ status_t
 NO_INIT
 )
 ;
-int
+uint64_t
 psshsize
 =
 0
@@ -2297,6 +2297,17 @@ i
 ]
 .
 datalen
+;
+}
+if
+(
+psshsize
+>
+kMAX_ALLOCATION
+)
+{
+return
+ERROR_MALFORMED
 ;
 }
 if
