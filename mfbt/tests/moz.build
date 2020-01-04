@@ -148,6 +148,9 @@ TestMacroArgs
 TestMacroForEach
 '
 '
+TestMathAlgorithms
+'
+'
 TestMaybe
 '
 '
