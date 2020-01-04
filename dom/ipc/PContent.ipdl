@@ -3223,8 +3223,6 @@ DomainPolicyClone
 domainPolicy
 StructuredCloneData
 initialData
-OptionalURIParams
-userContentSheetURL
 )
 ;
 sync
