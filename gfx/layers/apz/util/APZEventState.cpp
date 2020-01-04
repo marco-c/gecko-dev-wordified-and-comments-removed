@@ -1173,10 +1173,7 @@ cancelTouchEvent
 .
 mModifiers
 =
-WidgetModifiersToDOMModifiers
-(
 aModifiers
-)
 ;
 auto
 ldPoint
