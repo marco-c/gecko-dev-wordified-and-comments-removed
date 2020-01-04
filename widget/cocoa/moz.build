@@ -323,6 +323,11 @@ OSXNotificationCenter
 mm
 '
 '
+RectTextureImage
+.
+mm
+'
+'
 SwipeTracker
 .
 mm
