@@ -3791,6 +3791,16 @@ IsFullScreenApiEnabled
 ;
 static
 bool
+IsUnprefixedFullscreenApiEnabled
+(
+)
+{
+return
+sIsUnprefixedFullscreenApiEnabled
+;
+}
+static
+bool
 IsRequestFullScreenAllowed
 (
 )
@@ -5334,6 +5344,10 @@ sAllowXULXBL_for_file
 static
 bool
 sIsFullScreenApiEnabled
+;
+static
+bool
+sIsUnprefixedFullscreenApiEnabled
 ;
 static
 bool

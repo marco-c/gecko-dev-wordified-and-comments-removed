@@ -1752,6 +1752,14 @@ object
 [
 Throws
 UnsafeInPrerendering
+Func
+=
+"
+nsDocument
+:
+:
+IsUnprefixedFullscreenEnabled
+"
 ]
 void
 requestFullscreen
