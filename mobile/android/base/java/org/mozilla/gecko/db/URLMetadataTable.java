@@ -297,6 +297,8 @@ onCreate
 db
 )
 ;
+return
+;
 }
 if
 (
