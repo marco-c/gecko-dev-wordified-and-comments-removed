@@ -4738,9 +4738,6 @@ nullptr
 )
 ;
 }
-bool
-beingDestroyed
-;
 nsCOMPtr
 <
 nsIDocShell
@@ -4754,6 +4751,17 @@ GetDocShell
 (
 )
 ;
+bool
+beingDestroyed
+=
+!
+docShellBeingHidden
+;
+if
+(
+docShellBeingHidden
+)
+{
 docShellBeingHidden
 -
 >
@@ -4763,6 +4771,7 @@ IsBeingDestroyed
 beingDestroyed
 )
 ;
+}
 if
 (
 beingDestroyed
