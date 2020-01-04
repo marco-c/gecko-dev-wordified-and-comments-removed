@@ -1459,6 +1459,8 @@ version
 -
 n
 "
+str
+(
 self
 .
 config
@@ -1467,6 +1469,7 @@ config
 build_number
 '
 ]
+)
 ]
         
 if
