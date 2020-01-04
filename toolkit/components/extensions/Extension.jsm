@@ -1324,7 +1324,7 @@ id
 :
 extension
 .
-id
+uuid
 }
 ;
 if
@@ -1345,6 +1345,11 @@ let
 delegate
 =
 {
+getSender
+(
+)
+{
+}
 }
 ;
 Management
@@ -1366,7 +1371,7 @@ let
 filter
 =
 {
-id
+extensionId
 :
 extension
 .
