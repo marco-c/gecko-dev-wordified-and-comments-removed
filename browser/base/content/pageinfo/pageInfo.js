@@ -5148,7 +5148,7 @@ if
 cacheEntry
 )
 {
-var
+let
 imageSize
 =
 cacheEntry
@@ -5831,7 +5831,7 @@ collapsed
 true
 ;
 }
-var
+let
 imageSize
 =
 "

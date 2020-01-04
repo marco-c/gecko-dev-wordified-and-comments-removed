@@ -3204,7 +3204,7 @@ hidden
 =
 true
 ;
-var
+let
 notificationBox
 =
 gBrowser
@@ -3213,7 +3213,7 @@ getNotificationBox
 (
 )
 ;
-var
+let
 notification
 =
 notificationBox
@@ -3407,7 +3407,7 @@ replace
 popupCount
 )
 ;
-var
+let
 notificationBox
 =
 gBrowser
@@ -3416,7 +3416,7 @@ getNotificationBox
 (
 )
 ;
-var
+let
 notification
 =
 notificationBox

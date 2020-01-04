@@ -2901,9 +2901,9 @@ _execute
 (
 tabId
 details
-'
+"
 js
-'
+"
 callback
 )
 ;
@@ -2925,9 +2925,9 @@ _execute
 (
 tabId
 details
-'
+"
 css
-'
+"
 callback
 )
 ;
