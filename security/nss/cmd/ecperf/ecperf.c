@@ -1264,6 +1264,16 @@ PORT_Strlen
 str
 )
 ;
+PORT_Assert
+(
+arena
+)
+;
+PORT_Assert
+(
+item
+)
+;
 if
 (
 (
@@ -1326,8 +1336,8 @@ tmp
 2
 ;
 }
-if
-(
+item
+=
 SECITEM_AllocItem
 (
 arena
@@ -1336,6 +1346,10 @@ tmp
 /
 2
 )
+;
+if
+(
+item
 =
 =
 NULL
@@ -1380,6 +1394,7 @@ i
 '
 )
 )
+{
 tmp
 =
 str
@@ -1391,6 +1406,7 @@ i
 0
 '
 ;
+}
 else
 if
 (
@@ -1419,6 +1435,7 @@ f
 '
 )
 )
+{
 tmp
 =
 str
@@ -1432,6 +1449,7 @@ a
 +
 10
 ;
+}
 else
 if
 (
@@ -1460,6 +1478,7 @@ F
 '
 )
 )
+{
 tmp
 =
 str
@@ -1473,10 +1492,13 @@ A
 +
 10
 ;
+}
 else
+{
 return
 NULL
 ;
+}
 byteval
 =
 byteval
@@ -2915,6 +2937,12 @@ ECCurve_pastLastCurve
 )
 )
 {
+PORT_FreeArena
+(
+arena
+PR_FALSE
+)
+;
 return
 SECFailure
 ;

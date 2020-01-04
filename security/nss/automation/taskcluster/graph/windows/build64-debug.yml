@@ -78,12 +78,6 @@ lowhash
 -
 merge
 -
-ocsp
--
-pkits
--
-pkix
--
 sdr
 -
 smime
@@ -179,7 +173,7 @@ Windows
 64
 (
 debug
-NO_PKCS11_BYPASS
+NSS_NO_PKCS11_BYPASS
 =
 1
 )
@@ -192,7 +186,7 @@ Windows
 64
 (
 debug
-NO_PKCS11_BYPASS
+NSS_NO_PKCS11_BYPASS
 =
 1
 )
@@ -201,10 +195,10 @@ payload
 :
 env
 :
-NSS_ENABLE_TLS_1_3
+NSS_NO_PKCS11_BYPASS
 :
 1
-NO_PKCS11_BYPASS
+NSS_ENABLE_TLS_1_3
 :
 1
 USE_64

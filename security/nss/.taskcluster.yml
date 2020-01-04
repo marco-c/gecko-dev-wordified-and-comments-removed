@@ -472,6 +472,13 @@ source
 }
 }
 }
+TC_PROJECT
+:
+{
+{
+project
+}
+}
 NSS_PUSHLOG_ID
 :
 '

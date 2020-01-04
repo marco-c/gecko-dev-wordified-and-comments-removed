@@ -20964,6 +20964,16 @@ BLTEST_DEFAULT_CHUNKSIZE
 ;
 if
 (
+!
+arena
+)
+{
+return
+SECFailure
+;
+}
+if
+(
 mode
 =
 =

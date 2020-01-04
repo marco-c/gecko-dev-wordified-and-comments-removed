@@ -78,7 +78,11 @@ true
 tests
 :
 -
+chains
+-
 cipher
+-
+db
 -
 ec
 -
@@ -88,8 +92,10 @@ lowhash
 -
 merge
 -
-ocsp
--
-pkits
--
 sdr
+-
+smime
+-
+ssl
+-
+tools

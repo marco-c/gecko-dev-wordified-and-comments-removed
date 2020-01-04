@@ -1237,6 +1237,11 @@ return
 1
 ;
 }
+PORT_Free
+(
+typeTag
+)
+;
 if
 (
 inFile

@@ -1311,6 +1311,16 @@ n
 )
 ;
 }
+PORT_Free
+(
+md5_digest
+)
+;
+PORT_Free
+(
+sha1_digest
+)
+;
 fclose
 (
 fp

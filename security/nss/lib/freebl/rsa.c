@@ -2098,10 +2098,6 @@ err
 MP_NO
 )
 {
-err
-=
-MP_OKAY
-;
 continue
 ;
 }
@@ -5207,6 +5203,11 @@ holdingLock
 =
 PR_TRUE
 ;
+(
+void
+)
+holdingLock
+;
 bp
 -
 >
@@ -5293,6 +5294,11 @@ lock
 holdingLock
 =
 PR_FALSE
+;
+(
+void
+)
+holdingLock
 ;
 }
 while
@@ -5383,10 +5389,6 @@ blindingParamsList
 .
 lock
 )
-;
-holdingLock
-=
-PR_FALSE
 ;
 }
 if

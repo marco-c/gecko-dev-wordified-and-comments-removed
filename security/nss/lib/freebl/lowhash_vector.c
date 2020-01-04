@@ -536,9 +536,16 @@ freebl_RunLoaderOnce
 (
 )
 )
+{
 return
 NULL
 ;
+}
+if
+(
+vector
+)
+{
 return
 (
 vector
@@ -548,6 +555,10 @@ p_FREEBL_GetVector
 )
 (
 )
+;
+}
+return
+NULL
 ;
 }
 NSSLOWInitContext

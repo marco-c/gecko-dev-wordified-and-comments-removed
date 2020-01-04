@@ -6451,6 +6451,13 @@ cparam
 "
 echo
 "
+-
+V
+ssl3
+:
+tls1
+.
+2
 verbose
 {
 HOSTADDR
@@ -6491,6 +6498,13 @@ w
 nss
 cparam
 \
+-
+V
+ssl3
+:
+tls1
+.
+2
 verbose
 {
 HOSTADDR
