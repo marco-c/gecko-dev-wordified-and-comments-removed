@@ -1700,6 +1700,9 @@ stack
 >
 as
 <
+js
+:
+:
 SavedFrame
 >
 (
