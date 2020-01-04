@@ -423,15 +423,6 @@ EditReply
 reply
 )
 ;
-async
-PaintTime
-(
-uint64_t
-id
-TimeDuration
-paintTime
-)
-;
 /
 /
 We
