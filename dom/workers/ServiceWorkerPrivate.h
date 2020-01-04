@@ -390,9 +390,6 @@ nsITimer
 >
 mIdleWorkerTimer
 ;
-bool
-mIsPushWorker
-;
 RefPtr
 <
 KeepAliveToken
