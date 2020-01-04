@@ -128,6 +128,8 @@ version
 1
 .
 0
+.
+1
 <
 /
 em
@@ -209,6 +211,18 @@ Lassey
 em
 :
 creator
+>
+<
+em
+:
+multiprocessCompatible
+>
+true
+<
+/
+em
+:
+multiprocessCompatible
 >
 <
 !
