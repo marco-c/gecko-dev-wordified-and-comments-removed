@@ -3603,6 +3603,12 @@ NewObjectKind
 newKind
 )
 {
+AutoSetNewObjectMetadata
+metadata
+(
+cx
+)
+;
 MOZ_ASSERT
 (
 group
@@ -5289,6 +5295,8 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Object
 )
+|
+JSCLASS_DELAY_METADATA_CALLBACK
 nullptr
 nullptr
 nullptr
