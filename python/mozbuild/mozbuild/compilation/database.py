@@ -38,6 +38,14 @@ UnifiedSources
 GeneratedSources
 )
 from
+mozbuild
+.
+shellutil
+import
+quote
+as
+shell_quote
+from
 mach
 .
 config
@@ -641,12 +649,15 @@ CC
             
 cflags
 =
+list
+(
 flags
 [
 '
 COMPILE_CFLAGS
 '
 ]
+)
             
 if
 filename
@@ -661,17 +672,16 @@ m
 :
                 
 cflags
-+
-=
-'
-'
-+
+.
+extend
+(
 flags
 [
 '
 COMPILE_CMFLAGS
 '
 ]
+)
         
 elif
 canonical_suffix
@@ -698,12 +708,15 @@ CXX
             
 cflags
 =
+list
+(
 flags
 [
 '
 COMPILE_CXXFLAGS
 '
 ]
+)
             
 if
 filename
@@ -718,17 +731,16 @@ mm
 :
                 
 cflags
-+
-=
-'
-'
-+
+.
+extend
+(
 flags
 [
 '
 COMPILE_CMMFLAGS
 '
 ]
+)
         
 else
 :
@@ -737,14 +749,13 @@ return
         
 cmd
 =
-'
-'
-.
-join
-(
-[
-          
 compiler
+.
+split
+(
+)
++
+[
           
 '
 -
@@ -760,13 +771,14 @@ null
 -
 c
 '
-          
-cflags
-          
-filename
         
 ]
-)
++
+cflags
++
+[
+filename
+]
         
 self
 .
@@ -786,7 +798,20 @@ objdir
 command
 '
 :
+'
+'
+.
+join
+(
+shell_quote
+(
+a
+)
+for
+a
+in
 cmd
+)
             
 '
 file
