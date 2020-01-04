@@ -129,7 +129,7 @@ root
 calls
 ;
 let
-node
+foundNode
 ;
 for
 (
@@ -146,7 +146,7 @@ split
 )
 )
 {
-node
+foundNode
 =
 calls
 .
@@ -168,7 +168,7 @@ key
 if
 (
 !
-node
+foundNode
 )
 {
 break
@@ -182,7 +182,7 @@ calls
 ;
 }
 return
-node
+foundNode
 ;
 }
 function

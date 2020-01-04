@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 CONTENT_LOCATIONS
 =
@@ -1509,8 +1514,6 @@ val
 ]
 ;
 }
-else
-{
 return
 [
 val
@@ -1524,7 +1527,6 @@ val
 column
 ]
 ;
-}
 }
 function
 frameify

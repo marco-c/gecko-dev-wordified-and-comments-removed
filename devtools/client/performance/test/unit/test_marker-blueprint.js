@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 run_test
 (
@@ -75,7 +80,6 @@ for
 (
 let
 [
-key
 value
 ]
 of

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 run_test
 (
@@ -231,6 +236,9 @@ between
 9999
 for
 special
+"
++
+"
 categories
 .
 "
