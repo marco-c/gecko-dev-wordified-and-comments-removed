@@ -187,6 +187,26 @@ media_summary
 _mochitest_summary
     
 "
+mochitest
+-
+plain
+-
+clipboard_summary
+"
+:
+_mochitest_summary
+    
+"
+mochitest
+-
+plain
+-
+gpu_summary
+"
+:
+_mochitest_summary
+    
+"
 reftest_summary
 "
 :
