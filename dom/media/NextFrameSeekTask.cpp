@@ -302,7 +302,7 @@ HasVideo
 )
 )
 ;
-SetMediaDecoderReaderWrapperCallback
+SetCallbacks
 (
 )
 ;
@@ -383,7 +383,7 @@ RejectIfExist
 __func__
 )
 ;
-CancelMediaDecoderReaderWrapperCallback
+CancelCallbacks
 (
 )
 ;
@@ -1675,7 +1675,7 @@ void
 NextFrameSeekTask
 :
 :
-SetMediaDecoderReaderWrapperCallback
+SetCallbacks
 (
 )
 {
@@ -1911,7 +1911,7 @@ void
 NextFrameSeekTask
 :
 :
-CancelMediaDecoderReaderWrapperCallback
+CancelCallbacks
 (
 )
 {
