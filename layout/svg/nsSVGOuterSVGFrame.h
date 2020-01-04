@@ -660,15 +660,11 @@ mIsRootContent
 ;
 }
 ;
-typedef
-nsSVGDisplayContainerFrame
-nsSVGOuterSVGAnonChildFrameBase
-;
 class
 nsSVGOuterSVGAnonChildFrame
 :
 public
-nsSVGOuterSVGAnonChildFrameBase
+nsSVGDisplayContainerFrame
 {
 friend
 nsContainerFrame
@@ -691,7 +687,7 @@ nsStyleContext
 aContext
 )
 :
-nsSVGOuterSVGAnonChildFrameBase
+nsSVGDisplayContainerFrame
 (
 aContext
 )
