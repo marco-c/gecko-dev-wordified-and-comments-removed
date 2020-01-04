@@ -9506,6 +9506,17 @@ userconfig
 "
 )
         
+if
+os
+.
+path
+.
+exists
+(
+userconfig_path
+)
+:
+            
 os
 .
 remove
