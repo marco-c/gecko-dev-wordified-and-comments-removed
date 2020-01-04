@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 FastBernoulliTrial
 .
 h
@@ -124,6 +133,7 @@ false
 )
 {
 }
+MOZ_MUST_USE
 bool
 init
 (
@@ -143,6 +153,7 @@ initialized
 )
 ;
 }
+MOZ_MUST_USE
 bool
 saveCurrentStack
 (
@@ -157,6 +168,7 @@ maxFrameCount
 0
 )
 ;
+MOZ_MUST_USE
 bool
 copyAsyncStack
 (
@@ -339,6 +351,7 @@ false
 }
 }
 ;
+MOZ_MUST_USE
 bool
 insertFrames
 (
@@ -356,6 +369,7 @@ maxFrameCount
 0
 )
 ;
+MOZ_MUST_USE
 bool
 adoptAsyncStack
 (
@@ -864,6 +878,7 @@ SystemAllocPolicy
 PCLocationMap
 pcLocationMap
 ;
+MOZ_MUST_USE
 bool
 getLocation
 (
