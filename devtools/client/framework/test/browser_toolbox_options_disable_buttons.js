@@ -867,7 +867,7 @@ matchedButtons
 getAttribute
 (
 "
-tooltiptext
+title
 "
 )
 tool

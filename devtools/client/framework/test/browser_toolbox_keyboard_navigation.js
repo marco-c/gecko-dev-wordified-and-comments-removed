@@ -197,7 +197,7 @@ querySelectorAll
 devtools
 -
 tab
-toolbarbutton
+button
 "
 )
 ]
