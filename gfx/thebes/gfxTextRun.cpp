@@ -2926,7 +2926,7 @@ mContext
 >
 SetColor
 (
-gfxRGBA
+Color
 (
 aAlphaColor
 .
