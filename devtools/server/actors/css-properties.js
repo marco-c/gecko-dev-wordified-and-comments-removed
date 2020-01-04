@@ -324,6 +324,12 @@ return
 properties
 ;
 }
+exports
+.
+generateCssProperties
+=
+generateCssProperties
+;
 function
 isCssPropertyKnown
 (
