@@ -451,7 +451,6 @@ nullptr
 XBLEnumerate
 nullptr
 nullptr
-nullptr
 XBLFinalize
 nullptr
 nullptr

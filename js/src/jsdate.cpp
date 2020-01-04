@@ -16326,7 +16326,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
 {
 GenericCreateConstructor
 <
@@ -16362,7 +16361,6 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Date
 )
-nullptr
 nullptr
 nullptr
 nullptr

@@ -5915,7 +5915,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
 {
 CreateObjectConstructor
 CreateObjectPrototype

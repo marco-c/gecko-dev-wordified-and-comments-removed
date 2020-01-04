@@ -2774,7 +2774,6 @@ nullptr
 sandbox_enumerate
 sandbox_resolve
 nullptr
-nullptr
 sandbox_finalize
 nullptr
 nullptr
@@ -2813,7 +2812,6 @@ nullptr
 nullptr
 sandbox_enumerate
 sandbox_resolve
-nullptr
 nullptr
 sandbox_finalize
 nullptr

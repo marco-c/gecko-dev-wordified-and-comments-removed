@@ -5557,7 +5557,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
 UnboxedPlainObject
 :
 :
@@ -9366,7 +9365,6 @@ NON_NATIVE
 JSCLASS_SKIP_NURSERY_FINALIZE
 |
 JSCLASS_BACKGROUND_FINALIZE
-nullptr
 nullptr
 nullptr
 nullptr

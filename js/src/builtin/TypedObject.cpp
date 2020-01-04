@@ -803,7 +803,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
 TypeDescr
 :
 :
@@ -1225,7 +1224,6 @@ JS_DESCR_SLOTS
 )
 |
 JSCLASS_BACKGROUND_FINALIZE
-nullptr
 nullptr
 nullptr
 nullptr
@@ -1826,7 +1824,6 @@ JS_DESCR_SLOTS
 )
 |
 JSCLASS_BACKGROUND_FINALIZE
-nullptr
 nullptr
 nullptr
 nullptr
@@ -3052,7 +3049,6 @@ JS_DESCR_SLOTS
 )
 |
 JSCLASS_BACKGROUND_FINALIZE
-nullptr
 nullptr
 nullptr
 nullptr
@@ -10941,13 +10937,6 @@ nullptr
 /
 *
 mayResolve
-*
-/
-\
-nullptr
-/
-*
-convert
 *
 /
 \
