@@ -19,6 +19,15 @@ NonNull
 import
 android
 .
+support
+.
+annotation
+.
+Nullable
+;
+import
+android
+.
 util
 .
 Log
@@ -555,6 +564,9 @@ final
 NonNull
 JSONObject
 serviceData
+Nullable
+String
+appServerKey
 final
 long
 now
@@ -617,6 +629,7 @@ registration
 profileName
 service
 serviceData
+appServerKey
 System
 .
 currentTimeMillis
@@ -648,6 +661,9 @@ final
 NonNull
 JSONObject
 serviceData
+Nullable
+String
+appServerKey
 final
 long
 now
@@ -733,6 +749,7 @@ subscribeChannel
 (
 uaid
 secret
+appServerKey
 )
 ;
 if

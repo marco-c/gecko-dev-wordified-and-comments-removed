@@ -17,6 +17,15 @@ annotation
 NonNull
 ;
 import
+android
+.
+support
+.
+annotation
+.
+Nullable
+;
+import
 org
 .
 mozilla
@@ -433,6 +442,9 @@ uaid
 NonNull
 String
 secret
+Nullable
+String
+appServerKey
 )
 throws
 LocalException
@@ -458,6 +470,7 @@ subscribeChannel
 (
 uaid
 secret
+appServerKey
 delegate
 )
 ;

@@ -137,6 +137,16 @@ org
 .
 mockito
 .
+Matchers
+.
+isNull
+;
+import
+static
+org
+.
+mockito
+.
 Mockito
 .
 mock
@@ -344,6 +354,12 @@ anyString
 )
 anyString
 (
+)
+isNull
+(
+String
+.
+class
 )
 )
 ;
@@ -1169,6 +1185,7 @@ default
 webpush
 "
 webpushData
+null
 System
 .
 currentTimeMillis
@@ -1235,6 +1252,7 @@ default
 "
 sync
 "
+null
 null
 System
 .
@@ -1381,6 +1399,7 @@ default
 webpush
 "
 webpushData
+null
 System
 .
 currentTimeMillis
@@ -1862,6 +1881,7 @@ default
 "
 webpush
 "
+null
 null
 System
 .
