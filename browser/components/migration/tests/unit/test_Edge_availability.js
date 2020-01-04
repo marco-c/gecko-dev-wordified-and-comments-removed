@@ -12,6 +12,12 @@ MigrationUtils
 resourceTypes
 .
 BOOKMARKS
+|
+MigrationUtils
+.
+resourceTypes
+.
+PASSWORDS
 ;
 add_task
 (
