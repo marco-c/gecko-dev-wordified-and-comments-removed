@@ -961,11 +961,14 @@ updateManifest
 catch
 (
 e
+)
+{
 if
+(
 e
 .
 message
-=
+!
 =
 "
 experiments
@@ -974,6 +977,10 @@ disabled
 "
 )
 {
+throw
+e
+;
+}
 }
 experiments
 .
