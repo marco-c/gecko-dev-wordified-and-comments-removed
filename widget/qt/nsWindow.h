@@ -12,13 +12,6 @@ QPointF
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsBaseWidget
 .
 h

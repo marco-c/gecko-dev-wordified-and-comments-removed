@@ -7,7 +7,9 @@ mozilla_textcompositionsynthesizer_h_
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+RefPtr
 .
 h
 "

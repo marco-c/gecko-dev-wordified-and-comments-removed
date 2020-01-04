@@ -14,6 +14,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsBaseWidget
 .
 h
@@ -575,7 +584,10 @@ UserActivity
 ;
 private
 :
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 mozilla
 :

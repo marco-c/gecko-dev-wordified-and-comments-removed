@@ -152,13 +152,6 @@ nsILoadContext
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 NS_IMPL_ISUPPORTS
 (
 nsTransferable

@@ -45,13 +45,6 @@ RefPtr
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 using
 mozilla
 :

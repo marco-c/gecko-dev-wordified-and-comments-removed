@@ -7,7 +7,9 @@ nsDragService_h__
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+RefPtr
 .
 h
 "
