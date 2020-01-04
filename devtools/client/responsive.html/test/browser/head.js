@@ -123,7 +123,7 @@ url
 TEST_URI_ROOT
 +
 "
-browser_devices
+devices
 .
 json
 "
