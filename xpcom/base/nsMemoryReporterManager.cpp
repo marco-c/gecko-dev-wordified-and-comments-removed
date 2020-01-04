@@ -3420,7 +3420,7 @@ WindowsAddressSpaceReporter
 public
 :
 NS_DECL_ISUPPORTS
-NS_METHOD
+NS_IMETHOD
 CollectReports
 (
 nsIHandleReportCallback
@@ -4236,7 +4236,7 @@ VsizeMaxContiguousReporter
 public
 :
 NS_DECL_ISUPPORTS
-NS_METHOD
+NS_IMETHOD
 CollectReports
 (
 nsIHandleReportCallback
@@ -4327,7 +4327,7 @@ PrivateReporter
 public
 :
 NS_DECL_ISUPPORTS
-NS_METHOD
+NS_IMETHOD
 CollectReports
 (
 nsIHandleReportCallback
@@ -4435,7 +4435,7 @@ VsizeReporter
 public
 :
 NS_DECL_ISUPPORTS
-NS_METHOD
+NS_IMETHOD
 CollectReports
 (
 nsIHandleReportCallback
@@ -4606,7 +4606,7 @@ ResidentReporter
 public
 :
 NS_DECL_ISUPPORTS
-NS_METHOD
+NS_IMETHOD
 CollectReports
 (
 nsIHandleReportCallback
@@ -4764,7 +4764,7 @@ ResidentUniqueReporter
 public
 :
 NS_DECL_ISUPPORTS
-NS_METHOD
+NS_IMETHOD
 CollectReports
 (
 nsIHandleReportCallback
@@ -4902,7 +4902,7 @@ SystemHeapReporter
 public
 :
 NS_DECL_ISUPPORTS
-NS_METHOD
+NS_IMETHOD
 CollectReports
 (
 nsIHandleReportCallback
@@ -5133,7 +5133,7 @@ ResidentPeakReporter
 public
 :
 NS_DECL_ISUPPORTS
-NS_METHOD
+NS_IMETHOD
 CollectReports
 (
 nsIHandleReportCallback
@@ -5223,7 +5223,7 @@ PageFaultsSoftReporter
 public
 :
 NS_DECL_ISUPPORTS
-NS_METHOD
+NS_IMETHOD
 CollectReports
 (
 nsIHandleReportCallback
@@ -5494,7 +5494,7 @@ PageFaultsHardReporter
 public
 :
 NS_DECL_ISUPPORTS
-NS_METHOD
+NS_IMETHOD
 CollectReports
 (
 nsIHandleReportCallback
@@ -5799,7 +5799,7 @@ JemallocHeapReporter
 public
 :
 NS_DECL_ISUPPORTS
-NS_METHOD
+NS_IMETHOD
 CollectReports
 (
 nsIHandleReportCallback
@@ -6368,7 +6368,7 @@ AtomTablesReporter
 public
 :
 NS_DECL_ISUPPORTS
-NS_METHOD
+NS_IMETHOD
 CollectReports
 (
 nsIHandleReportCallback
@@ -6500,7 +6500,7 @@ DeadlockDetectorReporter
 public
 :
 NS_DECL_ISUPPORTS
-NS_METHOD
+NS_IMETHOD
 CollectReports
 (
 nsIHandleReportCallback

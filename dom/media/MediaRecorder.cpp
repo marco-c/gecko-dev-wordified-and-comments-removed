@@ -344,7 +344,7 @@ nullptr
 ;
 }
 }
-NS_METHOD
+NS_IMETHOD
 CollectReports
 (
 nsIHandleReportCallback
