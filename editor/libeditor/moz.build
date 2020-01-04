@@ -225,6 +225,11 @@ HTMLEditUtils
 cpp
 '
 '
+HTMLURIRefObject
+.
+cpp
+'
+'
 InsertNodeTransaction
 .
 cpp
@@ -296,11 +301,6 @@ cpp
 '
 '
 nsHTMLObjectResizer
-.
-cpp
-'
-'
-nsHTMLURIRefObject
 .
 cpp
 '

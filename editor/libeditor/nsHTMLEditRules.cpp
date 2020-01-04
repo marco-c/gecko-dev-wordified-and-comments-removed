@@ -327,6 +327,13 @@ h
 #
 include
 "
+nsTextNode
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
@@ -21465,6 +21472,7 @@ mHTMLEditor
 >
 InsertNode
 (
+*
 newNode
 *
 node

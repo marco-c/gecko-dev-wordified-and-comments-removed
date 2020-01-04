@@ -1223,6 +1223,14 @@ Scrub
 (
 )
 ;
+bool
+IsBlockNode
+(
+nsINode
+*
+aNode
+)
+;
 nsCOMPtr
 <
 nsINode
