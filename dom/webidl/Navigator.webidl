@@ -470,7 +470,7 @@ DOMString
 platform
 ;
 [
-Constant
+Pure
 Cached
 Throws
 =
