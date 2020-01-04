@@ -5059,8 +5059,11 @@ DecodeError
 (
 )
 ;
-Shutdown
+MOZ_ASSERT
 (
+IsShutdown
+(
+)
 )
 ;
 }
