@@ -879,12 +879,15 @@ modules
 zlib
 /
 src
+/
 \
 {
 tgtpath
 }
 /
 modules
+/
+zlib
 {
 MKDIR
 }
