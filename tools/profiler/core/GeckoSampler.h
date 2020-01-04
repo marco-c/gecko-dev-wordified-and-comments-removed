@@ -687,11 +687,6 @@ uint32_t
 aGeneration
 )
 ;
-void
-ProfileGathered
-(
-)
-;
 protected
 :
 virtual
