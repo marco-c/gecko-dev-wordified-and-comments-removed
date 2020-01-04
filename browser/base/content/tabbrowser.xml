@@ -13422,6 +13422,7 @@ if
 (
 aUserContextId
 )
+{
 t
 .
 setAttribute
@@ -13432,6 +13433,14 @@ usercontextid
 aUserContextId
 )
 ;
+ContextualIdentityService
+.
+setTabStyle
+(
+t
+)
+;
+}
 t
 .
 setAttribute
@@ -17938,6 +17947,13 @@ getAttribute
 usercontextid
 "
 )
+)
+;
+ContextualIdentityService
+.
+setTabStyle
+(
+aOurTab
 )
 ;
 modifiedAttrs
