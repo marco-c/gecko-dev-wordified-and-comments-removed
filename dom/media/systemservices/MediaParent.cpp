@@ -68,7 +68,7 @@ h
 #
 include
 "
-nsIOutputStream
+nsIInputStream
 .
 h
 "
@@ -76,6 +76,13 @@ h
 include
 "
 nsILineInputStream
+.
+h
+"
+#
+include
+"
+nsIOutputStream
 .
 h
 "
