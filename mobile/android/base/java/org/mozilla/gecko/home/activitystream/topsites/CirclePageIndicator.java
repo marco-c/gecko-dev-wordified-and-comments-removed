@@ -196,6 +196,14 @@ private
 static
 final
 int
+SEPARATION_FACTOR
+=
+7
+;
+private
+static
+final
+int
 INVALID_POINTER
 =
 -
@@ -1133,7 +1141,7 @@ threeRadius
 =
 mRadius
 *
-3
+SEPARATION_FACTOR
 ;
 final
 float
