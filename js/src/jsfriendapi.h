@@ -5286,7 +5286,7 @@ Value
 >
 expando
 ;
-uint32_t
+uint64_t
 generation
 ;
 }

@@ -3925,7 +3925,7 @@ countBase
 #
 ifdef
 DEBUG
-uint32_t
+Generation
 generation
 =
 count
