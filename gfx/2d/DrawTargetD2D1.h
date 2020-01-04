@@ -1045,9 +1045,9 @@ mBitmap
 ;
 RefPtr
 <
-ID2D1Bitmap1
+ID2D1CommandList
 >
-mTempBitmap
+mCommandList
 ;
 RefPtr
 <
