@@ -1970,6 +1970,8 @@ s
 This
 is
 bad
+"
+"
 for
 general
 performance
@@ -1982,6 +1984,8 @@ an
 amount
 of
 data
+"
+"
 should
 rather
 be
@@ -1990,6 +1994,19 @@ to
 an
 external
 file
+.
+This
+preference
+will
+"
+"
+not
+be
+sent
+to
+any
+content
+processes
 .
 "
 aLength

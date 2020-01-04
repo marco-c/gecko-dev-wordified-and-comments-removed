@@ -100,6 +100,14 @@ char
 key
 )
 ;
+bool
+pref_EntryHasAdvisablySizedValues
+(
+PrefHashEntry
+*
+aHashEntry
+)
+;
 void
 pref_GetPrefFromEntry
 (
