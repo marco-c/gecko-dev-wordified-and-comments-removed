@@ -204,12 +204,6 @@ include
 :
 [
 '
-python
-/
-mozlint
-/
-test
-/
 files
 '
 ]
