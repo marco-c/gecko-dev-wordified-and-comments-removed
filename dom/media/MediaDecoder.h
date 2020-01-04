@@ -1299,7 +1299,9 @@ NS_IsMainThread
 if
 (
 !
-mShuttingDown
+IsShutdown
+(
+)
 )
 {
 mOwner
@@ -1399,6 +1401,12 @@ CancelDormantTimer
 ;
 bool
 IsEnded
+(
+)
+const
+;
+bool
+IsShutdown
 (
 )
 const
