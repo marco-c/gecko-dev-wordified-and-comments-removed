@@ -1081,6 +1081,9 @@ APZCCallbackHelper
 :
 NotifyFlushComplete
 (
+GetPresShell
+(
+)
 )
 ;
 }
