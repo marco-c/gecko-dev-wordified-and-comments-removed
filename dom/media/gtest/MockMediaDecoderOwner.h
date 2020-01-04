@@ -242,13 +242,6 @@ nullptr
 ;
 }
 void
-ResetConnectionState
-(
-)
-override
-{
-}
-void
 SetAudibleState
 (
 bool

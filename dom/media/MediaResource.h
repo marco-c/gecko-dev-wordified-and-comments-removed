@@ -536,9 +536,6 @@ int64_t
 MediaByteRangeSet
 ;
 class
-RtspMediaResource
-;
-class
 MediaResource
 :
 public
@@ -1022,17 +1019,6 @@ const
 =
 0
 ;
-virtual
-RtspMediaResource
-*
-GetRtspPointer
-(
-)
-{
-return
-nullptr
-;
-}
 virtual
 bool
 IsRealTime

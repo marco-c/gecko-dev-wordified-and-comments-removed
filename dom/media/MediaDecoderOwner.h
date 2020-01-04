@@ -256,14 +256,6 @@ GetVideoFrameContainer
 ;
 virtual
 void
-ResetConnectionState
-(
-)
-=
-0
-;
-virtual
-void
 SetAudibleState
 (
 bool

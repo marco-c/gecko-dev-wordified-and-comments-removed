@@ -142,16 +142,6 @@ aType
 ;
 static
 bool
-DecoderWaitsForOnConnected
-(
-const
-nsACString
-&
-aType
-)
-;
-static
-bool
 IsWebMTypeAndEnabled
 (
 const

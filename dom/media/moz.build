@@ -740,11 +740,6 @@ QueueObject
 h
 '
 '
-RtspMediaResource
-.
-h
-'
-'
 SeekJob
 .
 h
@@ -1258,11 +1253,6 @@ cpp
 '
 '
 QueueObject
-.
-cpp
-'
-'
-RtspMediaResource
 .
 cpp
 '
