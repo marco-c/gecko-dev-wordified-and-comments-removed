@@ -14259,9 +14259,9 @@ TableFrame
 )
 GK_ATOM
 (
-tableOuterFrame
+tableWrapperFrame
 "
-TableOuterFrame
+TableWrapperFrame
 "
 )
 GK_ATOM

@@ -3783,7 +3783,7 @@ if
 nsGkAtoms
 :
 :
-tableOuterFrame
+tableWrapperFrame
 =
 =
 prevFrame

@@ -2444,7 +2444,7 @@ type
 nsGkAtoms
 :
 :
-tableOuterFrame
+tableWrapperFrame
 )
 {
 mInnerFrame

@@ -294,7 +294,7 @@ column
 )
 CSS_ANON_BOX
 (
-tableOuter
+tableWrapper
 "
 :
 -

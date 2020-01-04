@@ -176,7 +176,7 @@ GetPseudo
 nsCSSAnonBoxes
 :
 :
-tableOuter
+tableWrapper
 ;
 }
 bool

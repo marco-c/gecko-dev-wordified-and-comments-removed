@@ -32284,7 +32284,7 @@ GetType
 nsGkAtoms
 :
 :
-tableOuterFrame
+tableWrapperFrame
 )
 {
 if
@@ -34655,7 +34655,7 @@ GetType
 nsGkAtoms
 :
 :
-tableOuterFrame
+tableWrapperFrame
 |
 |
 aPos
@@ -39708,7 +39708,7 @@ pseudo
 nsCSSAnonBoxes
 :
 :
-tableOuter
+tableWrapper
 )
 {
 pseudo
@@ -40106,7 +40106,7 @@ pseudo
 nsCSSAnonBoxes
 :
 :
-tableOuter
+tableWrapper
 )
 {
 nsStyleContext
@@ -48161,12 +48161,12 @@ AddFrameTypeInfo
 nsGkAtoms
 :
 :
-tableOuterFrame
+tableWrapperFrame
 "
-tblO
+tblW
 "
 "
-tableOuter
+tableWrapper
 "
 )
 ;

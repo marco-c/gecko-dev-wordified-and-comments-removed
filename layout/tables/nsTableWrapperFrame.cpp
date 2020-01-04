@@ -4935,7 +4935,7 @@ return
 nsGkAtoms
 :
 :
-tableOuterFrame
+tableWrapperFrame
 ;
 }
 nsIContent
