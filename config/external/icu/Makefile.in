@@ -451,6 +451,11 @@ c34
 ifdef
 CROSS_COMPILE
 +
+ASAN_OPTIONS
+=
+detect_leaks
+=
+0
 (
 MAKE
 )
@@ -480,6 +485,11 @@ kRC
 '
 endif
 +
+ASAN_OPTIONS
+=
+detect_leaks
+=
+0
 (
 MAKE
 )
