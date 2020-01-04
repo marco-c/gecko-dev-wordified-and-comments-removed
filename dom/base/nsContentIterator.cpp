@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+DebugOnly
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -3434,6 +3443,9 @@ if
 mFirst
 )
 {
+mozilla
+:
+:
 DebugOnly
 <
 nsresult
@@ -3493,6 +3505,9 @@ if
 mLast
 )
 {
+mozilla
+:
+:
 DebugOnly
 <
 nsresult
