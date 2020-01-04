@@ -1,5 +1,5 @@
 function
-waitForTenMilliseconds
+waitForThirtyMilliseconds
 (
 )
 {
@@ -22,7 +22,7 @@ now
 -
 start
 <
-10
+30
 )
 ;
 }
@@ -52,7 +52,7 @@ start
 start
 )
 ;
-waitForTenMilliseconds
+waitForThirtyMilliseconds
 (
 )
 ;
@@ -70,7 +70,7 @@ true
 }
 )
 ;
-waitForTenMilliseconds
+waitForThirtyMilliseconds
 (
 )
 ;
