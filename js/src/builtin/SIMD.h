@@ -6297,8 +6297,6 @@ type
 enum
 class
 SimdOperation
-:
-uint8_t
 {
 Constructor
 #
@@ -6328,6 +6326,9 @@ Fn_fromUint8x16Bits
 Fn_fromUint16x8Bits
 Fn_fromUint32x4Bits
 Fn_fromFloat32x4Bits
+Fn_fromFloat64x2Bits
+Last
+=
 Fn_fromFloat64x2Bits
 }
 ;
