@@ -2433,7 +2433,7 @@ tanh_data
 var
 sloppy_tolerance
 =
-10
+2
 ;
 for
 (
