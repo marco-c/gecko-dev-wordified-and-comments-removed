@@ -162,6 +162,16 @@ XPIProviderUtils
 js
 '
 ]
+TESTING_JS_MODULES
++
+=
+[
+'
+AddonTestUtils
+.
+jsm
+'
+]
 #
 Don
 '
