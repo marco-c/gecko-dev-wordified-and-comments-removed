@@ -1057,11 +1057,6 @@ aRv
 )
 ;
 void
-ResetWinsInCascade
-(
-)
-;
-void
 UpdateTargetRegistration
 (
 )
