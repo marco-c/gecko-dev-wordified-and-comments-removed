@@ -14602,11 +14602,15 @@ usingDisplayPort
 nsLayoutUtils
 :
 :
-GetDisplayPortRelativeToScrollFrame
+GetDisplayPort
 (
 content
 &
 displayPort
+RelativeTo
+:
+:
+ScrollFrame
 )
 ;
 if
@@ -14999,7 +15003,7 @@ usingDisplayport
 nsLayoutUtils
 :
 :
-GetDisplayPortRelativeToScrollFrame
+GetDisplayPort
 (
 mOuter
 -
@@ -15009,6 +15013,10 @@ GetContent
 )
 &
 displayPort
+RelativeTo
+:
+:
+ScrollFrame
 )
 ;
 return

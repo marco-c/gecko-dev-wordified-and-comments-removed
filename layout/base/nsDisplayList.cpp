@@ -23641,7 +23641,7 @@ Unused
 nsLayoutUtils
 :
 :
-GetDisplayPortRelativeToScrollFrame
+GetDisplayPort
 (
 rootScrollFrame
 -
@@ -23651,6 +23651,10 @@ GetContent
 )
 &
 displayport
+RelativeTo
+:
+:
+ScrollFrame
 )
 ;
 nsRegion
