@@ -42082,6 +42082,13 @@ n
 "
 MOZ_LIBJPEG_TURBO
 "
+-
+a
+-
+n
+"
+COMPILE_ENVIRONMENT
+"
 ;
 then
 dnl
@@ -42933,6 +42940,13 @@ test
 n
 "
 MOZ_LIBAV_FFT
+"
+-
+a
+-
+n
+"
+COMPILE_ENVIRONMENT
 "
 ;
 then
