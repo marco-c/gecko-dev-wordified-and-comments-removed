@@ -23,14 +23,14 @@ marionette
 import
 Marionette
 from
+marionette_driver
+import
+transport
+from
 .
 marionette_test
 import
 MarionetteTestCase
-from
-marionette_transport
-import
-MarionetteTransport
 from
 b2ginstance
 import
@@ -44,7 +44,9 @@ cli
 class
 B2GUpdateMarionetteClient
 (
-MarionetteTransport
+transport
+.
+TcpTransport
 )
 :
     
@@ -175,7 +177,9 @@ MAX_RETRIES
 try
 :
                 
-MarionetteTransport
+transport
+.
+TcpTransport
 .
 connect
 (
