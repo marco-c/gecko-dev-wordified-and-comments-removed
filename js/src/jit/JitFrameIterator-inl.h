@@ -158,11 +158,6 @@ if
 isExitFrame
 (
 )
-|
-|
-isFakeExitFrame
-(
-)
 )
 return
 false
