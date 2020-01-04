@@ -5989,10 +5989,16 @@ StyleColor
 >
 mColor
 ;
-gfxRGBA
+Color
 gfxShadowColor
 (
+Color
+:
+:
+FromABGR
+(
 shadowColor
+)
 )
 ;
 gfxShadowColor
@@ -25690,7 +25696,7 @@ aCornerRadii
 nscoord
 aBlurRadius
 const
-gfxRGBA
+Color
 &
 aShadowColor
 const
