@@ -173,11 +173,6 @@ NSSDialogService
 js
 '
 '
-PromptService
-.
-js
-'
-'
 SiteSpecificUserAgent
 .
 js
@@ -213,6 +208,11 @@ EXTRA_COMPONENTS
 [
 '
 ContentPermissionPrompt
+.
+js
+'
+'
+PromptService
 .
 js
 '
