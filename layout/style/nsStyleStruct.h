@@ -13741,7 +13741,10 @@ mBoxFlex
 uint32_t
 mBoxOrdinal
 ;
-uint8_t
+mozilla
+:
+:
+StyleBoxAlign
 mBoxAlign
 ;
 uint8_t
