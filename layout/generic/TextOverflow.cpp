@@ -1385,12 +1385,12 @@ DrawMode
 :
 :
 GLYPH_FILL
-gfxTextRun
-:
-:
-Range
-(
+0
 textRun
+-
+>
+GetLength
+(
 )
 nullptr
 nullptr
