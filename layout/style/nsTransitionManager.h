@@ -684,7 +684,7 @@ aPlaybackRate
 void
 SetEffect
 (
-KeyframeEffectReadOnly
+AnimationEffectReadOnly
 *
 aEffect
 )

@@ -1406,7 +1406,7 @@ CSSTransition
 :
 SetEffect
 (
-KeyframeEffectReadOnly
+AnimationEffectReadOnly
 *
 aEffect
 )
