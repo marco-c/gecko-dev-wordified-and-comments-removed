@@ -2636,6 +2636,9 @@ trc
 MOZ_ASSERT
 (
 !
+gc
+:
+:
 IsAboutToBeFinalized
 (
 &

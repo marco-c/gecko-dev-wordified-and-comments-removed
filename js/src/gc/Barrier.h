@@ -3821,6 +3821,9 @@ UnownedBaseShape
 class
 WasmInstanceObject
 ;
+class
+WasmTableObject
+;
 namespace
 jit
 {
@@ -4182,6 +4185,14 @@ WasmInstanceObject
 *
 >
 ReadBarrieredWasmInstanceObject
+;
+typedef
+ReadBarriered
+<
+WasmTableObject
+*
+>
+ReadBarrieredWasmTableObject
 ;
 typedef
 ReadBarriered

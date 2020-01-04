@@ -411,7 +411,7 @@ assertEq
 finalizeCount
 (
 )
-3
+2
 )
 ;
 i
@@ -427,7 +427,7 @@ assertEq
 finalizeCount
 (
 )
-3
+2
 )
 ;
 assertEq
@@ -1454,7 +1454,7 @@ assertEq
 finalizeCount
 (
 )
-1
+0
 )
 ;
 return

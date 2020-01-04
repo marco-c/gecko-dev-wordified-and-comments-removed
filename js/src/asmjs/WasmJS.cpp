@@ -4498,7 +4498,7 @@ table
 (
 )
 .
-trace
+tracePrivate
 (
 trc
 )
@@ -4619,6 +4619,7 @@ create
 (
 cx
 desc
+obj
 )
 ;
 if
