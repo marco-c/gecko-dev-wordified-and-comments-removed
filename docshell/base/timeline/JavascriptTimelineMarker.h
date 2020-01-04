@@ -344,6 +344,15 @@ return
 }
 if
 (
+JS
+:
+:
+IsSavedFrame
+(
+asyncStack
+)
+&
+&
 !
 JS
 :
