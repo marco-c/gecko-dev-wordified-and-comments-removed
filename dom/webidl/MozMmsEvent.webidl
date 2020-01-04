@@ -91,9 +91,6 @@ MPL
 .
 *
 /
-interface
-MozMmsMessage
-;
 [
 Pref
 =
@@ -130,7 +127,7 @@ Event
 {
 readonly
 attribute
-MozMmsMessage
+MmsMessage
 ?
 message
 ;
@@ -141,7 +138,7 @@ MozMmsEventInit
 :
 EventInit
 {
-MozMmsMessage
+MmsMessage
 ?
 message
 =

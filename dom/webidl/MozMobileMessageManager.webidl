@@ -91,12 +91,6 @@ MPL
 .
 *
 /
-interface
-MozMmsMessage
-;
-interface
-MozSmsMessage
-;
 dictionary
 SmsSegmentInfo
 {
@@ -994,7 +988,6 @@ message
 id
 or
 a
-Moz
 {
 Mms
 Sms
@@ -1006,7 +999,6 @@ an
 /
 array
 of
-Moz
 {
 Mms
 Sms
@@ -1030,7 +1022,7 @@ Throws
 DOMRequest
 delete
 (
-MozSmsMessage
+SmsMessage
 message
 )
 ;
@@ -1040,7 +1032,7 @@ Throws
 DOMRequest
 delete
 (
-MozMmsMessage
+MmsMessage
 message
 )
 ;
@@ -1055,9 +1047,9 @@ sequence
 (
 long
 or
-MozSmsMessage
+SmsMessage
 or
-MozMmsMessage
+MmsMessage
 )
 >
 params
@@ -1067,7 +1059,6 @@ params
 /
 Iterates
 through
-Moz
 {
 Mms
 Sms
@@ -1111,7 +1102,7 @@ false
 /
 Iterates
 through
-nsIDOMMozMobileMessageThread
+MobileMessageThread
 .
 [
 Throws
@@ -1137,7 +1128,7 @@ Throws
 DOMRequest
 retrieveMMS
 (
-MozMmsMessage
+MmsMessage
 message
 )
 ;

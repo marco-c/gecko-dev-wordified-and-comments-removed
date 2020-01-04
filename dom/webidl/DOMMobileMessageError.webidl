@@ -120,9 +120,9 @@ DOMError
 readonly
 attribute
 (
-MozSmsMessage
+SmsMessage
 or
-MozMmsMessage
+MmsMessage
 )
 data
 ;
