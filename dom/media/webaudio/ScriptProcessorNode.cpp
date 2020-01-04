@@ -1661,7 +1661,6 @@ mInputBuffer
 forget
 (
 )
-cx
 rv
 )
 ;

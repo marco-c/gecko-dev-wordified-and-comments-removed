@@ -111,9 +111,6 @@ already_AddRefed
 ThreadSharedFloatArrayBufferList
 >
 aInitialContents
-JSContext
-*
-aJSContext
 ErrorResult
 &
 aRv
@@ -135,9 +132,6 @@ uint32_t
 aLength
 float
 aSampleRate
-JSContext
-*
-aJSContext
 ErrorResult
 &
 aRv
@@ -151,7 +145,6 @@ aNumberOfChannels
 aLength
 aSampleRate
 nullptr
-aJSContext
 aRv
 )
 ;

@@ -1054,9 +1054,6 @@ AudioContext
 :
 CreateBuffer
 (
-JSContext
-*
-aJSContext
 uint32_t
 aNumberOfChannels
 uint32_t
@@ -1095,7 +1092,6 @@ this
 aNumberOfChannels
 aLength
 aSampleRate
-aJSContext
 aRv
 )
 ;
