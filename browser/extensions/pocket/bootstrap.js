@@ -2880,7 +2880,7 @@ document
 getElementById
 (
 "
-BMB_subscribeToPageMenuitem
+BMB_bookmarksToolbar
 "
 )
 ;
