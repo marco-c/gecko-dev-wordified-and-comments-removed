@@ -340,6 +340,12 @@ None
 "
 )
 ;
+webNav
+.
+close
+(
+)
+;
 }
 )
 ;
