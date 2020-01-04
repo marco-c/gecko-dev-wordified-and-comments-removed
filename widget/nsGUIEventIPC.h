@@ -5896,7 +5896,7 @@ WriteParam
 aMsg
 aParam
 .
-retargetToFocusedDocument
+mRetargetToFocusedDocument
 )
 ;
 }
@@ -5944,7 +5944,7 @@ aIter
 aResult
 -
 >
-retargetToFocusedDocument
+mRetargetToFocusedDocument
 )
 ;
 }

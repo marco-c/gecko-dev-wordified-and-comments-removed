@@ -626,7 +626,7 @@ pluginEvent
 pluginEvent
 -
 >
-retargetToFocusedDocument
+mRetargetToFocusedDocument
 ;
 }
 bool
@@ -655,7 +655,7 @@ pluginEvent
 pluginEvent
 -
 >
-retargetToFocusedDocument
+mRetargetToFocusedDocument
 ;
 }
 bool
