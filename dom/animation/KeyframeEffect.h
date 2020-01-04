@@ -230,6 +230,9 @@ class
 nsIFrame
 ;
 class
+nsIPresShell
+;
+class
 nsPresContext
 ;
 namespace
@@ -1164,6 +1167,13 @@ const
 nsPresContext
 *
 GetPresContext
+(
+)
+const
+;
+nsIPresShell
+*
+GetPresShell
 (
 )
 const
