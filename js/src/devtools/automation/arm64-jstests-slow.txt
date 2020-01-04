@@ -1021,15 +1021,6 @@ Comprehensions
 sudoku
 .
 js
-js1_8
-/
-extensions
-/
-regress
--
-476427
-.
-js
 js1_8_5
 /
 extensions
