@@ -688,14 +688,6 @@ if
 collection
 &
 &
-!
-mProperties
-.
-IsEmpty
-(
-)
-&
-&
 inEffect
 )
 {
