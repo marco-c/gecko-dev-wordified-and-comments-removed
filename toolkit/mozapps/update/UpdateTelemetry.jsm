@@ -779,9 +779,6 @@ updatesfoundbasic
 updatesfoundbillboard
 :
 9
-license
-:
-10
 downloading
 :
 12
