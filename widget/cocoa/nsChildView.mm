@@ -17720,7 +17720,7 @@ in
 this
 view
 .
-NSPasteboardWrapper
+NSPasteboard
 *
 globalDragPboard
 =
@@ -32915,15 +32915,10 @@ globalDragPboard
 =
 [
 [
-NSPasteboardWrapper
-alloc
-]
-initWithPasteboard
-:
-[
 sender
 draggingPasteboard
 ]
+retain
 ]
 ;
 return
