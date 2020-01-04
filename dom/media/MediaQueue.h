@@ -140,7 +140,7 @@ Reset
 ;
 }
 inline
-int32_t
+size_t
 GetSize
 (
 )
@@ -560,7 +560,7 @@ GetSize
 )
 return
 ;
-int32_t
+size_t
 i
 ;
 for
@@ -678,7 +678,7 @@ mReentrantMonitor
 ;
 for
 (
-int32_t
+size_t
 i
 =
 0
@@ -686,7 +686,7 @@ i
 i
 <
 (
-int32_t
+size_t
 )
 aMaxElements
 &
@@ -742,7 +742,7 @@ frames
 ;
 for
 (
-int32_t
+size_t
 i
 =
 0
