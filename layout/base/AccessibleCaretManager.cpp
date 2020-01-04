@@ -1177,6 +1177,9 @@ Default
 :
 if
 (
+sCaretsExtendedVisibility
+|
+|
 HasNonEmptyTextContent
 (
 GetEditingHostForFrame
