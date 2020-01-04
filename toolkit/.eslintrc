@@ -856,8 +856,6 @@ calls
 No
 octal
 literals
-/
-/
 "
 no
 -
@@ -882,8 +880,6 @@ redeclare
 No
 unnecessary
 comparisons
-/
-/
 "
 no
 -
@@ -993,8 +989,6 @@ a
 semicolon
 is
 needed
-/
-/
 "
 no
 -
@@ -1336,8 +1330,6 @@ No
 comparisons
 to
 NaN
-/
-/
 "
 use
 -
