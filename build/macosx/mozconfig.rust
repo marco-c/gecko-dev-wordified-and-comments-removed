@@ -7,6 +7,16 @@ in
 automation
 builds
 .
+if
+test
+uname
+-
+s
+!
+=
+Linux
+;
+then
 RUSTC
 =
 "
@@ -37,3 +47,4 @@ ac_add_options
 enable
 -
 rust
+fi
