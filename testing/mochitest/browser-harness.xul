@@ -1888,6 +1888,8 @@ Tester
 (
 links
 gDumper
+.
+structuredLogger
 testsFinished
 )
 ;

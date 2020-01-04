@@ -8745,6 +8745,15 @@ socket_timeout
         
 self
 .
+wait_for_port
+(
+timeout
+=
+timeout
+)
+        
+self
+.
 protocol
 _
 =
@@ -8754,15 +8763,6 @@ client
 .
 connect
 (
-)
-        
-self
-.
-wait_for_port
-(
-timeout
-=
-timeout
 )
         
 body
