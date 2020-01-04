@@ -4297,6 +4297,14 @@ Data
 data_
 )
 ;
+if
+(
+!
+data
+)
+return
+nullptr
+;
 MOZ_ASSERT
 (
 data_
