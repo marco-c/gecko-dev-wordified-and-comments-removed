@@ -2705,10 +2705,6 @@ selection
 toString
 (
 )
-.
-trim
-(
-)
 ;
 }
 _getSelection
