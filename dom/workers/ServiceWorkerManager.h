@@ -396,6 +396,12 @@ ServiceWorkerRegistrationInfo
 >
 mControlledDocuments
 ;
+nsTHashtable
+<
+nsISupportsHashKey
+>
+mAllDocuments
+;
 typedef
 nsTArray
 <
