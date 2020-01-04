@@ -788,15 +788,12 @@ aWidget
 :
 Compositor
 (
+aWidget
 aParent
 )
 mAttachments
 (
 nullptr
-)
-mWidget
-(
-aWidget
 )
 mHwnd
 (

@@ -237,6 +237,9 @@ Compositor
 explicit
 Compositor
 (
+nsIWidget
+*
+aWidget
 CompositorBridgeParent
 *
 aParent
@@ -262,6 +265,10 @@ aParent
 mScreenRotation
 (
 ROTATION_0
+)
+mWidget
+(
+aWidget
 )
 {
 }
@@ -324,6 +331,10 @@ DetachWidget
 (
 )
 {
+mWidget
+=
+nullptr
+;
 }
 virtual
 bool
@@ -1066,7 +1077,6 @@ ForcePresent
 )
 {
 }
-virtual
 nsIWidget
 *
 GetWidget
@@ -1075,7 +1085,7 @@ GetWidget
 const
 {
 return
-nullptr
+mWidget
 ;
 }
 virtual
@@ -1416,6 +1426,10 @@ gfx
 :
 IntRect
 mTargetBounds
+;
+nsIWidget
+*
+mWidget
 ;
 #
 if

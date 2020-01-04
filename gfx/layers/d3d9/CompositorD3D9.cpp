@@ -144,11 +144,8 @@ aWidget
 :
 Compositor
 (
-aParent
-)
-mWidget
-(
 aWidget
+aParent
 )
 mDeviceResetCount
 (
