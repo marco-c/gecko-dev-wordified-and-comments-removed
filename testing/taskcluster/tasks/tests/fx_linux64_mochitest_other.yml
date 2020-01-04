@@ -78,9 +78,8 @@ name
 mochitest
 flavor
 :
-mochitest
--
-other
+chrome
+a11y
 treeherder
 :
 groupName
