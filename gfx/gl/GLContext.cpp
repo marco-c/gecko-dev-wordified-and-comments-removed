@@ -6272,11 +6272,6 @@ alpha
 false
 ;
 }
-UpdateGLFormats
-(
-mCaps
-)
-;
 mTexGarbageBin
 =
 new
@@ -15956,11 +15951,6 @@ MOZ_ASSERT
 mCaps
 .
 any
-)
-;
-UpdateGLFormats
-(
-mCaps
 )
 ;
 return
