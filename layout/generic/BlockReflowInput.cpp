@@ -176,7 +176,7 @@ mFloatBreakType
 StyleClear
 :
 :
-None_
+None
 )
 mConsumedBSize
 (
@@ -3322,7 +3322,7 @@ if
 StyleClear
 :
 :
-None_
+None
 !
 =
 floatDisplay
@@ -5152,7 +5152,7 @@ aBreakType
 StyleClear
 :
 :
-None_
+None
 )
 {
 newBCoord

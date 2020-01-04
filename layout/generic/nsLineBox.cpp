@@ -1033,7 +1033,7 @@ case
 StyleClear
 :
 :
-None_
+None
 :
 return
 "

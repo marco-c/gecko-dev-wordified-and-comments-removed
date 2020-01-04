@@ -7373,7 +7373,7 @@ aParent
 StyleDisplay
 :
 :
-None_
+None
 aRestyleRoot
 )
 ;
@@ -7427,7 +7427,7 @@ aDisplay
 StyleDisplay
 :
 :
-None_
+None
 |
 |
 aDisplay
@@ -7562,7 +7562,7 @@ aDisplay
 StyleDisplay
 :
 :
-None_
+None
 )
 {
 ConditionallyRestyleContentDescendants
@@ -14138,7 +14138,7 @@ aParentContext
 StyleDisplay
 :
 :
-None_
+None
 )
 ;
 nodes

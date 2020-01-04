@@ -5283,7 +5283,7 @@ eCSSKeyword_none
 StyleClear
 :
 :
-None_
+None
 }
 {
 eCSSKeyword_left
@@ -6223,7 +6223,7 @@ eCSSKeyword_none
 StyleDisplay
 :
 :
-None_
+None
 }
 {
 eCSSKeyword_inline
@@ -7257,7 +7257,7 @@ eCSSKeyword_none
 StyleFloat
 :
 :
-None_
+None
 }
 {
 eCSSKeyword_left
@@ -9855,7 +9855,7 @@ uint8_t
 StyleUserFocus
 :
 :
-None_
+None
 )
 }
 {
@@ -10012,7 +10012,7 @@ eCSSKeyword_none
 StyleUserSelect
 :
 :
-None_
+None
 }
 {
 eCSSKeyword_auto
@@ -10075,7 +10075,7 @@ eCSSKeyword__moz_none
 StyleUserSelect
 :
 :
-None_
+None
 }
 {
 eCSSKeyword__moz_text

@@ -1,10 +1,4 @@
 #
-ifndef
-MOZILLA_GFX_X11UNDEFINENONE_H_
-#
-define
-MOZILLA_GFX_X11UNDEFINENONE_H_
-#
 ifdef
 None
 #
@@ -27,8 +21,6 @@ RevertToNone
 int
 )
 X11None
-#
-endif
 #
 endif
 #

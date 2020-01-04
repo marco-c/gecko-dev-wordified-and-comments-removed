@@ -616,7 +616,7 @@ mozilla
 StyleDisplay
 :
 :
-None_
+None
 )
 {
 return

@@ -21974,7 +21974,7 @@ type
 StyleShapeSourceType
 :
 :
-None_
+None
 "
 unknown
 type

@@ -18,6 +18,13 @@ nsFont
 .
 h
 "
+#
+include
+"
+X11UndefineNone
+.
+h
+"
 namespace
 mozilla
 {
@@ -407,7 +414,7 @@ StyleClear
 :
 uint8_t
 {
-None_
+None
 =
 0
 Left
@@ -455,7 +462,7 @@ StyleFloat
 :
 uint8_t
 {
-None_
+None
 Left
 Right
 InlineStart
@@ -491,7 +498,7 @@ StyleShapeSourceType
 :
 uint8_t
 {
-None_
+None
 URL
 Shape
 Box
@@ -503,7 +510,7 @@ StyleUserFocus
 :
 uint8_t
 {
-None_
+None
 Ignore
 Normal
 SelectAll
@@ -519,7 +526,7 @@ StyleUserSelect
 :
 uint8_t
 {
-None_
+None
 Text
 Element
 Elements
@@ -1403,7 +1410,7 @@ StyleDisplay
 :
 uint8_t
 {
-None_
+None
 =
 0
 Block

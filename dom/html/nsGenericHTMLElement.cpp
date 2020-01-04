@@ -6283,7 +6283,7 @@ SetIntValue
 StyleDisplay
 :
 :
-None_
+None
 eCSSUnit_Enumerated
 )
 ;
@@ -14307,7 +14307,7 @@ mDisplay
 StyleDisplay
 :
 :
-None_
+None
 )
 {
 return

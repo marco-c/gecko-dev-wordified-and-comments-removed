@@ -191,6 +191,13 @@ include
 <
 utility
 >
+#
+include
+"
+X11UndefineNone
+.
+h
+"
 class
 nsIFrame
 ;
@@ -10674,7 +10681,7 @@ mType
 StyleShapeSourceType
 :
 :
-None_
+None
 ;
 }
 return
@@ -11160,7 +11167,7 @@ mType
 StyleShapeSourceType
 :
 :
-None_
+None
 ;
 ReferenceBox
 mReferenceBox
@@ -12012,7 +12019,7 @@ mozilla
 StyleFloat
 :
 :
-None_
+None
 !
 =
 mFloat
@@ -15349,7 +15356,7 @@ mozilla
 StyleShapeSourceType
 :
 :
-None_
+None
 ;
 }
 bool

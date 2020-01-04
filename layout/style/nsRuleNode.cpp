@@ -859,7 +859,7 @@ case
 StyleDisplay
 :
 :
-None_
+None
 :
 case
 StyleDisplay
@@ -6329,7 +6329,7 @@ Border
 DEFINE_ENUM_CLASS_SETTER
 (
 StyleClear
-None_
+None
 Both
 )
 DEFINE_ENUM_CLASS_SETTER
@@ -6341,7 +6341,7 @@ Evenodd
 DEFINE_ENUM_CLASS_SETTER
 (
 StyleFloat
-None_
+None
 InlineEnd
 )
 DEFINE_ENUM_CLASS_SETTER
@@ -6353,13 +6353,13 @@ MarginBox
 DEFINE_ENUM_CLASS_SETTER
 (
 StyleUserFocus
-None_
+None
 SelectMenu
 )
 DEFINE_ENUM_CLASS_SETTER
 (
 StyleUserSelect
-None_
+None
 MozText
 )
 #
@@ -6368,7 +6368,7 @@ MOZ_XUL
 DEFINE_ENUM_CLASS_SETTER
 (
 StyleDisplay
-None_
+None
 Popup
 )
 #
@@ -6376,7 +6376,7 @@ else
 DEFINE_ENUM_CLASS_SETTER
 (
 StyleDisplay
-None_
+None
 InlineBox
 )
 #
@@ -25584,7 +25584,7 @@ mUserFocus
 StyleUserFocus
 :
 :
-None_
+None
 )
 ;
 SetValue
@@ -30904,7 +30904,7 @@ mBreakType
 StyleClear
 :
 :
-None_
+None
 )
 ;
 const
@@ -31219,7 +31219,7 @@ mFloat
 StyleFloat
 :
 :
-None_
+None
 )
 ;
 display
@@ -31527,7 +31527,7 @@ mDisplay
 StyleDisplay
 :
 :
-None_
+None
 )
 {
 nsIAtom
@@ -31751,7 +31751,7 @@ mFloat
 StyleFloat
 :
 :
-None_
+None
 ;
 }
 else
@@ -31766,7 +31766,7 @@ mFloat
 StyleFloat
 :
 :
-None_
+None
 )
 {
 EnsureBlockDisplay

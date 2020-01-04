@@ -14894,7 +14894,7 @@ selectStyle
 StyleUserSelect
 :
 :
-None_
+None
 )
 ;
 }
@@ -17721,7 +17721,7 @@ mUserSelect
 StyleUserSelect
 :
 :
-None_
+None
 ;
 }
 static
@@ -17782,7 +17782,7 @@ style
 StyleUserSelect
 :
 :
-None_
+None
 &
 &
 (
@@ -40857,7 +40857,7 @@ mUserFocus
 StyleUserFocus
 :
 :
-None_
+None
 )
 {
 tabIndex

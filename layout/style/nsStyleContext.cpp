@@ -3372,7 +3372,7 @@ mozilla
 StyleDisplay
 :
 :
-None_
+None
 )
 {
 mBits
