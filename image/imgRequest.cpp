@@ -2031,10 +2031,7 @@ mLoader
 >
 RemoveFromCache
 (
-ImageCacheKey
-(
-mURI
-)
+mCacheKey
 )
 ;
 }
