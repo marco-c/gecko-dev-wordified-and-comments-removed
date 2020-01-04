@@ -99,6 +99,12 @@ all_actions
 [
                 
 '
+get
+-
+secrets
+'
+                
+'
 clobber
 '
                 

@@ -404,6 +404,15 @@ pushdate
 }
 }
 '
+MOZ_SCM_LEVEL
+:
+'
+{
+{
+level
+}
+}
+'
 extra
 :
 build_product
