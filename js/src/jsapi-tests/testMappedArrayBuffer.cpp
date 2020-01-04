@@ -198,7 +198,7 @@ TestReleaseContents
 ;
 CHECK
 (
-TestNeuterObject
+TestDetachObject
 (
 )
 )
@@ -512,7 +512,7 @@ true
 ;
 }
 bool
-TestNeuterObject
+TestDetachObject
 (
 )
 {
@@ -535,7 +535,7 @@ CHECK
 obj
 )
 ;
-JS_NeuterArrayBuffer
+JS_DetachArrayBuffer
 (
 cx
 obj

@@ -5677,14 +5677,14 @@ JS_FRIEND_API
 (
 bool
 )
-JS_NeuterArrayBuffer
+JS_DetachArrayBuffer
 (
 JSContext
 *
 cx
 HandleObject
 obj
-NeuterDataDisposition
+DetachDataDisposition
 changeData
 )
 {
