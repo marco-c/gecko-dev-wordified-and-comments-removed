@@ -57,6 +57,9 @@ toolkit
 .
 jar
 :
+#
+ifndef
+MOZ_FENNEC
 %
 content
 cookie
@@ -93,3 +96,5 @@ cookieAcceptDialog
 .
 js
 )
+#
+endif

@@ -2371,6 +2371,9 @@ alert
 .
 properties
 )
+#
+ifndef
+MOZ_FENNEC
 %
 locale
 cookie
@@ -2420,6 +2423,8 @@ cookieAcceptDialog
 .
 properties
 )
+#
+endif
 %
 locale
 formautofill
