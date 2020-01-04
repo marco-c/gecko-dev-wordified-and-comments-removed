@@ -235,7 +235,11 @@ popup
 new
 AutocompletePopup
 (
+{
+doc
+:
 xulDocument
+}
 {
 autoSelect
 :
@@ -275,6 +279,12 @@ doc
 )
 ;
 }
+)
+;
+popup
+.
+destroy
+(
 )
 ;
 host

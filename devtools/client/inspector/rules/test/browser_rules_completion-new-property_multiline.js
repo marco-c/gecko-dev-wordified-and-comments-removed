@@ -436,6 +436,7 @@ input
 selectionStart
 !
 =
+=
 pos
 "
 Input
@@ -844,9 +845,11 @@ synthesizeMouseAtCenter
 node
 {
 }
-view
+editor
 .
-styleWindow
+popup
+.
+_window
 )
 ;
 yield

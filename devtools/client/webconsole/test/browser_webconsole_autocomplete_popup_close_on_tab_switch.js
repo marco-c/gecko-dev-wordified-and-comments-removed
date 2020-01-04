@@ -71,10 +71,10 @@ popupShown
 once
 (
 popup
-.
-_panel
 "
-popupshown
+popup
+-
+opened
 "
 )
 ;
