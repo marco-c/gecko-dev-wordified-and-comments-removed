@@ -1504,9 +1504,6 @@ create
 ExclusiveContext
 *
 cx
-RegExpStatics
-*
-res
 const
 char16_t
 *
