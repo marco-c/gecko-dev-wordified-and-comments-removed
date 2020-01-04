@@ -85,6 +85,10 @@ fails
 if
 (
 Android
+&
+&
+!
+asyncPan
 )
 !
 =
