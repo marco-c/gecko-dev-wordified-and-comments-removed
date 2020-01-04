@@ -556,23 +556,24 @@ WRITE_MOZINFO
 1
 '
         
-from
-mozbuild
-.
-config_status
-import
-config_status
-        
 return
-config_status
+subprocess
+.
+call
 (
-args
-=
 [
+config
+[
+'
+PYTHON
+'
 ]
-*
-*
-sanitized_config
+'
+config
+.
+status
+'
+]
 )
     
 return
