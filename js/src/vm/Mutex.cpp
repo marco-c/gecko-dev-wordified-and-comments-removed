@@ -1,9 +1,9 @@
 #
 include
 "
-threading
+vm
 /
-ExclusiveData
+Mutex
 .
 h
 "
@@ -18,12 +18,12 @@ Maybe
 detail
 :
 :
-ExclusiveDataBase
+MutexBase
 >
 detail
 :
 :
-ExclusiveDataBase
+MutexBase
 :
 :
 Create
@@ -59,7 +59,7 @@ Some
 detail
 :
 :
-ExclusiveDataBase
+MutexBase
 (
 lock
 )
@@ -69,11 +69,11 @@ lock
 detail
 :
 :
-ExclusiveDataBase
+MutexBase
 :
 :
 ~
-ExclusiveDataBase
+MutexBase
 (
 )
 {
@@ -91,7 +91,7 @@ void
 detail
 :
 :
-ExclusiveDataBase
+MutexBase
 :
 :
 acquire
@@ -109,7 +109,7 @@ void
 detail
 :
 :
-ExclusiveDataBase
+MutexBase
 :
 :
 release
