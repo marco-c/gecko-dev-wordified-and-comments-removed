@@ -1414,6 +1414,12 @@ Android
 return
 DRIVER_OS_ANDROID
 ;
+#
+if
+defined
+(
+XP_WIN
+)
 else
 if
 (
@@ -1429,6 +1435,8 @@ All
 return
 DRIVER_OS_ALL
 ;
+#
+endif
 return
 DRIVER_OS_UNKNOWN
 ;
