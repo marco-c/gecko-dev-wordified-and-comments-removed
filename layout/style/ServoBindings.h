@@ -1132,6 +1132,17 @@ uint32_t
 flags
 )
 ;
+nsChangeHint
+Gecko_CalcAndStoreStyleDifference
+(
+RawGeckoElement
+*
+element
+ServoComputedValues
+*
+newstyle
+)
+;
 void
 Gecko_EnsureTArrayCapacity
 (
