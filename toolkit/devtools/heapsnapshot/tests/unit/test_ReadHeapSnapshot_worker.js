@@ -176,7 +176,7 @@ reject
 =
 >
 {
-worker
+w
 .
 onerror
 =

@@ -109,7 +109,7 @@ toolkit
 /
 devtools
 /
-server
+heapsnapshot
 '
 ]
 UNIFIED_SOURCES

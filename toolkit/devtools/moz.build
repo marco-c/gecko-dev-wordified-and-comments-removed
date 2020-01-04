@@ -113,6 +113,9 @@ discovery
 gcli
 '
 '
+heapsnapshot
+'
+'
 jsbeautify
 '
 '
