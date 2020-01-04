@@ -166,14 +166,12 @@ docs
 Tools
 /
 WebIDE
+/
+Running_and_debugging_apps
 #
 Unrestricted_app_debugging_
 %
-28including_certified_apps
-.
-2C_main_process
-.
-2C_etc
+28including_certified_apps_main_process_etc
 .
 %
 29
