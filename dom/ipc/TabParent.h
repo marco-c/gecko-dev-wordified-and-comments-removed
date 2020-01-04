@@ -2594,6 +2594,9 @@ AsyncPanZoomEnabled
 )
 const
 ;
+bool
+mDocShellIsActive
+;
 void
 ApzAwareEventRoutingToChild
 (

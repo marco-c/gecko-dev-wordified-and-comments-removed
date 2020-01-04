@@ -11244,7 +11244,7 @@ bool
 TabChild
 :
 :
-RecvSetIsDocShellActive
+RecvSetDocShellIsActive
 (
 const
 bool
