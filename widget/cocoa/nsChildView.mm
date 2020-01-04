@@ -37547,6 +37547,10 @@ const
 CGEventField
 kCGWindowNumberField
 =
+(
+const
+CGEventField
+)
 51
 ;
 /
