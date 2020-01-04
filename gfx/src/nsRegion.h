@@ -29,13 +29,9 @@ h
 >
 #
 include
-"
-mozilla
-/
-ToString
-.
-h
-"
+<
+ostream
+>
 #
 include
 "
