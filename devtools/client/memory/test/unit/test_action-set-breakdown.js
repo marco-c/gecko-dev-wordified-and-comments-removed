@@ -143,7 +143,7 @@ setBreakdown
 (
 breakdowns
 .
-objectClass
+allocationStack
 .
 breakdown
 )
@@ -159,7 +159,7 @@ breakdown
 .
 by
 "
-objectClass
+allocationStack
 "
 "
 breakdown
@@ -228,7 +228,7 @@ breakdown
 .
 by
 "
-objectClass
+allocationStack
 "
 "
 current
@@ -278,7 +278,7 @@ census
 .
 report
 "
-objectClass
+allocationStack
 "
 )
 "

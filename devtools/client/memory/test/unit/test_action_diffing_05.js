@@ -420,7 +420,7 @@ setBreakdownAndRefresh
 heapWorker
 breakdowns
 .
-objectClass
+allocationStack
 .
 breakdown
 )

@@ -97,6 +97,7 @@ var
 {
 breakdownEquals
 breakdownNameToSpec
+L10N
 }
 =
 require
