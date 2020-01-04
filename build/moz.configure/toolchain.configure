@@ -5109,9 +5109,12 @@ disable_install_strip
 value
 )
 :
-return
+if
 not
 value
+:
+return
+True
 set_config
 (
 '
