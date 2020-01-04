@@ -18019,7 +18019,12 @@ stackSize
 return
 stackSize
 -
-20
+10
+*
+sizeof
+(
+uintptr_t
+)
 *
 1024
 ;
