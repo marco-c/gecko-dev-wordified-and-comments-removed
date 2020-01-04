@@ -5255,7 +5255,7 @@ ToUnknownPoint
 )
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 PuppetWidget
 :
 :

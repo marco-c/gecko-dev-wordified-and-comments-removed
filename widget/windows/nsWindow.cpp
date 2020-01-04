@@ -2761,7 +2761,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -4874,7 +4874,7 @@ surface
 )
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -6003,7 +6003,7 @@ return
 c
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -6374,7 +6374,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -6611,7 +6611,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -7158,7 +7158,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -7486,7 +7486,7 @@ return
 rv
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -7897,7 +7897,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -7963,7 +7963,7 @@ GA_ROOT
 )
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -8102,7 +8102,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -8319,7 +8319,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -8415,7 +8415,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -8498,7 +8498,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -10294,7 +10294,7 @@ mBrush
 ;
 }
 }
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -11755,7 +11755,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -11853,7 +11853,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -13304,7 +13304,7 @@ break
 ;
 }
 }
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -13366,7 +13366,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -13839,7 +13839,7 @@ top
 )
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :
@@ -14016,7 +14016,7 @@ return
 rv
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsWindow
 :
 :

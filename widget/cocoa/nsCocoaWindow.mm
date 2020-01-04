@@ -8015,7 +8015,7 @@ behind
 the
 given
 window
-NS_METHOD
+NS_IMETHODIMP
 nsCocoaWindow
 :
 :
@@ -8034,7 +8034,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+NS_IMETHODIMP
 nsCocoaWindow
 :
 :
