@@ -27370,7 +27370,7 @@ if
 mResizeState
 !
 =
-NOT_RESIZING
+RESIZING
 )
 {
 if
