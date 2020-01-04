@@ -32087,7 +32087,7 @@ GetRootPresShell
 )
 -
 >
-GetDOcument
+GetDocument
 (
 )
 nullptr
