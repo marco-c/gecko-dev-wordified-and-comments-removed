@@ -118,6 +118,8 @@ notifyPush
 (
 scope
 principal
+"
+"
 )
 ;
 let
