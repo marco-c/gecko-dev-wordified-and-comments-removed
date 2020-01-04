@@ -8514,6 +8514,14 @@ TestRenamedNamespace
 }
 ;
 [
+ProtoObjectHack
+]
+namespace
+TestProtoObjectHackedNamespace
+{
+}
+;
+[
 SecureContext
 ]
 interface

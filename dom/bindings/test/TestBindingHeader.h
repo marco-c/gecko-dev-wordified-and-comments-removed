@@ -9934,6 +9934,11 @@ TestRenamedNamespace
 {
 }
 ;
+class
+TestProtoObjectHackedNamespace
+{
+}
+;
 }
 }
 #
