@@ -135,11 +135,11 @@ devtools
 /
 client
 /
-styleinspector
+inspector
 /
-rule
--
-view
+rules
+/
+rules
 "
 )
 )

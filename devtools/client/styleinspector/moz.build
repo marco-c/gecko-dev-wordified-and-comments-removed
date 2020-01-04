@@ -108,13 +108,6 @@ ini
 DevToolsModules
 (
 '
-rule
--
-view
-.
-js
-'
-'
 style
 -
 inspector
