@@ -121,7 +121,10 @@ NS_FRAME_IS_NONDISPLAY
 }
 public
 :
-NS_DECL_FRAMEARENA_HELPERS
+NS_DECL_ABSTRACT_FRAME
+(
+nsSVGPaintServerFrame
+)
 virtual
 already_AddRefed
 <

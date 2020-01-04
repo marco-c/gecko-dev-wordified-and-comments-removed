@@ -87,7 +87,10 @@ eReplacedContainsBlock
 ;
 }
 NS_DECL_QUERYFRAME
-NS_DECL_FRAMEARENA_HELPERS
+NS_DECL_ABSTRACT_FRAME
+(
+nsFormControlFrame
+)
 virtual
 nsresult
 HandleEvent

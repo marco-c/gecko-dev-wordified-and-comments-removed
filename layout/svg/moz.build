@@ -247,11 +247,6 @@ nsSVGOuterSVGFrame
 cpp
 '
 '
-nsSVGPaintServerFrame
-.
-cpp
-'
-'
 nsSVGPathGeometryFrame
 .
 cpp

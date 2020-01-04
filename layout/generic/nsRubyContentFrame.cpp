@@ -30,10 +30,6 @@ using
 namespace
 mozilla
 ;
-NS_IMPL_FRAMEARENA_HELPERS
-(
-nsRubyContentFrame
-)
 bool
 nsRubyContentFrame
 :

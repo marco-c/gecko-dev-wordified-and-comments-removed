@@ -28,7 +28,10 @@ nsFrame
 {
 public
 :
-NS_DECL_FRAMEARENA_HELPERS
+NS_DECL_ABSTRACT_FRAME
+(
+nsSplittableFrame
+)
 virtual
 void
 Init

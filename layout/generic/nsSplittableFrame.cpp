@@ -23,10 +23,6 @@ using
 namespace
 mozilla
 ;
-NS_IMPL_FRAMEARENA_HELPERS
-(
-nsSplittableFrame
-)
 void
 nsSplittableFrame
 :

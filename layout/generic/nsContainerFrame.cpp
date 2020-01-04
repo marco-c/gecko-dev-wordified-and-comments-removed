@@ -204,10 +204,6 @@ mozilla
 :
 layout
 ;
-NS_IMPL_FRAMEARENA_HELPERS
-(
-nsContainerFrame
-)
 nsContainerFrame
 :
 :

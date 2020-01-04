@@ -141,10 +141,6 @@ mozilla
 :
 gfx
 ;
-NS_IMPL_FRAMEARENA_HELPERS
-(
-nsMathMLContainerFrame
-)
 NS_QUERYFRAME_HEAD
 (
 nsMathMLContainerFrame
