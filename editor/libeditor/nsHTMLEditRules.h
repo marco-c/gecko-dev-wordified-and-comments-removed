@@ -652,7 +652,7 @@ InitFields
 (
 )
 ;
-void
+nsresult
 WillInsert
 (
 mozilla
@@ -662,7 +662,7 @@ dom
 :
 :
 Selection
-&
+*
 aSelection
 bool
 *
