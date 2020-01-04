@@ -130,6 +130,9 @@ TestEndian
 TestEnumSet
 '
 '
+TestFastBernoulliTrial
+'
+'
 TestFloatingPoint
 '
 '
