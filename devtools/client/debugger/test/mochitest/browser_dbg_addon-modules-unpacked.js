@@ -67,8 +67,8 @@ is
 addonDebugger
 .
 title
-"
-Debugger
+Developer
+Tools
 -
 Test
 unpacked
@@ -78,7 +78,10 @@ on
 with
 JS
 Modules
-"
+-
+{
+ADDON_URL
+}
 "
 Saw
 the

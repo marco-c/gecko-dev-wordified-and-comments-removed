@@ -49,11 +49,14 @@ is
 addonDebugger
 .
 title
-"
-Debugger
+Developer
+Tools
 -
 browser_dbg_addon3
-"
+-
+{
+ADDON_URL
+}
 "
 Saw
 the
