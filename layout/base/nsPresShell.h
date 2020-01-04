@@ -2095,6 +2095,9 @@ nsPresShellEventCB
 bool
 mCaretEnabled
 ;
+bool
+mIsHidden
+;
 #
 ifdef
 DEBUG

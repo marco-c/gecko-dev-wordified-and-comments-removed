@@ -3453,6 +3453,10 @@ mIsActive
 =
 true
 ;
+mIsHidden
+=
+false
+;
 #
 if
 defined
@@ -48116,6 +48120,11 @@ mIsActive
 =
 aIsActive
 ;
+mIsHidden
+|
+=
+aIsHidden
+;
 nsPresContext
 *
 presContext
@@ -48222,7 +48231,7 @@ this
 endif
 if
 (
-aIsHidden
+mIsHidden
 )
 {
 if
@@ -48251,6 +48260,10 @@ tab
 MakeVisible
 (
 )
+;
+mIsHidden
+=
+false
 ;
 if
 (
