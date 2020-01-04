@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsStringAPI
+nsString
 .
 h
 "
@@ -268,7 +268,7 @@ uris
 0
 }
 ;
-PromiseFlatCString
+nsPromiseFlatCString
 flatUri
 (
 aUri

@@ -43,7 +43,7 @@ h
 #
 include
 "
-nsStringAPI
+nsString
 .
 h
 "
@@ -78,6 +78,11 @@ glib
 object
 .
 h
+>
+#
+include
+<
+limits
 >
 using
 namespace
