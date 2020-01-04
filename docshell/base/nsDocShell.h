@@ -1207,6 +1207,8 @@ aURI
 nsIURI
 *
 aOriginalURI
+bool
+aLoadReplace
 nsIURI
 *
 aReferrer

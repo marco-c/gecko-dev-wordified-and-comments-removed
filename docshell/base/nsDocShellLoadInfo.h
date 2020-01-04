@@ -73,6 +73,9 @@ nsIURI
 >
 mOriginalURI
 ;
+bool
+mLoadReplace
+;
 nsCOMPtr
 <
 nsISupports
