@@ -59,6 +59,8 @@ SVGSwitchElementBase
 {
 friend
 class
+:
+:
 nsSVGSwitchFrame
 ;
 protected
