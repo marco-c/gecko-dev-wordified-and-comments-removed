@@ -95492,6 +95492,12 @@ ar
 mContext
 )
 ;
+JS
+:
+:
+CompartmentOptions
+options
+;
 mGlobal
 =
 JS_NewGlobalObject
@@ -95504,6 +95510,7 @@ JS
 :
 :
 FireOnNewGlobalHook
+options
 )
 ;
 if
