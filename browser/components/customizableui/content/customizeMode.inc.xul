@@ -462,17 +462,6 @@ event
 )
 ;
 "
-onpopuphidden
-=
-"
-gCustomizeMode
-.
-onLWThemesMenuHidden
-(
-event
-)
-;
-"
 position
 =
 "
