@@ -808,6 +808,11 @@ Comment
 h
 '
 '
+CustomElementsRegistry
+.
+h
+'
+'
 DirectionalityUtils
 .
 h
@@ -1094,6 +1099,11 @@ cpp
 '
 '
 Crypto
+.
+cpp
+'
+'
+CustomElementsRegistry
 .
 cpp
 '
