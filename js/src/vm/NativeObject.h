@@ -1354,6 +1354,7 @@ getDenseElement
 uint32_t
 idx
 )
+const
 {
 MOZ_ASSERT
 (
@@ -1402,6 +1403,7 @@ uint32_t
 getDenseInitializedLength
 (
 )
+const
 {
 return
 getElementsHeader
