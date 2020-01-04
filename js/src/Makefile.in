@@ -1394,6 +1394,11 @@ process_install_manifest
 no
 -
 remove
+-
+-
+no
+-
+symlinks
 (
 DESTDIR
 )
