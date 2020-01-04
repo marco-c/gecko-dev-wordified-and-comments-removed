@@ -2195,6 +2195,7 @@ sidebar
 .
 show
 (
+defaultTab
 )
 ;
 this
