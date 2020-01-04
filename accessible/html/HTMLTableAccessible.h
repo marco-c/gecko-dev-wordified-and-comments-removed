@@ -684,6 +684,7 @@ aRelationType
 )
 override
 ;
+virtual
 bool
 InsertChildAt
 (
