@@ -129,9 +129,6 @@ Event
 ?
 sourceEvent
 ;
-[
-Throws
-]
 void
 initCommandEvent
 (

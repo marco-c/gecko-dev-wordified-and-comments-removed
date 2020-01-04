@@ -140,9 +140,6 @@ specific
 deprecated
 method
 .
-[
-Throws
-]
 void
 initDeviceOrientationEvent
 (

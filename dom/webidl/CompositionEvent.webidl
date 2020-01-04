@@ -172,9 +172,6 @@ partial
 interface
 CompositionEvent
 {
-[
-Throws
-]
 void
 initCompositionEvent
 (

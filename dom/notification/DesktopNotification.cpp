@@ -777,9 +777,6 @@ nullptr
 nullptr
 )
 ;
-nsresult
-rv
-=
 event
 -
 >
@@ -790,17 +787,6 @@ false
 false
 )
 ;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-{
-return
-;
-}
 event
 -
 >

@@ -166,9 +166,6 @@ const
 nsAString
 &
 aMessage
-ErrorResult
-&
-aRv
 )
 ;
 protected

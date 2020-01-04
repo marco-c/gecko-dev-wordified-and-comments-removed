@@ -727,9 +727,6 @@ NS_ERROR_INVALID_ARG
 )
 ;
 }
-nsresult
-rv
-=
 Event
 :
 :
@@ -738,12 +735,6 @@ InitEvent
 typeArg
 canBubbleArg
 cancelableArg
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 mDetail

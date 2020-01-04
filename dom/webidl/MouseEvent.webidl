@@ -265,9 +265,6 @@ DOM
 Level
 3
 :
-[
-Throws
-]
 void
 initMouseEvent
 (
@@ -518,9 +515,6 @@ unsigned
 short
 mozInputSource
 ;
-[
-Throws
-]
 void
 initNSMouseEvent
 (

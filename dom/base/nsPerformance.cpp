@@ -1917,9 +1917,6 @@ nullptr
 nullptr
 )
 ;
-nsresult
-rv
-=
 event
 -
 >
@@ -1935,17 +1932,6 @@ true
 false
 )
 ;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-{
-return
-;
-}
 event
 -
 >

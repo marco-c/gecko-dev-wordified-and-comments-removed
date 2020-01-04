@@ -153,9 +153,6 @@ aCancelable
 DataTransfer
 *
 aClipboardData
-ErrorResult
-&
-aError
 )
 ;
 protected

@@ -721,9 +721,6 @@ GetOwner
 )
 )
 ;
-nsresult
-rv
-=
 event
 -
 >
@@ -737,12 +734,6 @@ error
 )
 false
 false
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 event

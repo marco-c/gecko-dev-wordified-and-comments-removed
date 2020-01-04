@@ -147,9 +147,6 @@ attribute
 boolean
 shiftKey
 ;
-[
-Throws
-]
 void
 initTouchEvent
 (

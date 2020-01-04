@@ -1226,9 +1226,6 @@ nullptr
 nullptr
 )
 ;
-nsresult
-rv
-=
 event
 -
 >
@@ -1237,12 +1234,6 @@ InitEvent
 aEventName
 false
 false
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 return

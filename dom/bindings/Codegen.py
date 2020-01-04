@@ -111822,7 +111822,7 @@ aGlobal
 "
 )
 )
-        
+            
 self
 .
 args
@@ -111990,9 +111990,6 @@ fill
 "
 "
             
-nsresult
-rv
-=
 InitEvent
 (
 {
@@ -112006,28 +112003,6 @@ cancelableArg
 }
 )
 ;
-            
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-{
-              
-aRv
-.
-Throw
-(
-rv
-)
-;
-              
-return
-;
-            
-}
             
 {
 members
@@ -112073,24 +112048,6 @@ name
 members
 =
 members
-)
-        
-self
-.
-args
-.
-append
-(
-Argument
-(
-'
-ErrorResult
-&
-'
-'
-aRv
-'
-)
 )
         
 return

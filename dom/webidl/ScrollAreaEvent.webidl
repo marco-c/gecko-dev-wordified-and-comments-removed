@@ -116,9 +116,6 @@ attribute
 float
 height
 ;
-[
-Throws
-]
 void
 initScrollAreaEvent
 (

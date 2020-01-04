@@ -196,9 +196,6 @@ nullptr
 nullptr
 )
 ;
-nsresult
-rv
-=
 event
 -
 >
@@ -207,12 +204,6 @@ InitEvent
 mEventType
 mBubbles
 false
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 event

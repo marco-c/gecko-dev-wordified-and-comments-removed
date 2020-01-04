@@ -303,9 +303,6 @@ MessagePort
 >
 &
 aPorts
-ErrorResult
-&
-aRv
 )
 ;
 protected

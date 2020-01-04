@@ -16992,8 +16992,6 @@ rv
 rv
 )
 ;
-rv
-=
 event
 -
 >
@@ -17002,12 +17000,6 @@ InitEvent
 aEventName
 aCanBubble
 aCancelable
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 event

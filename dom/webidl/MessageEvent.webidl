@@ -355,9 +355,6 @@ MessagePortList
 ?
 ports
 ;
-[
-Throws
-]
 void
 initMessageEvent
 (

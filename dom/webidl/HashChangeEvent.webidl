@@ -119,9 +119,6 @@ DOMString
 ?
 newURL
 ;
-[
-Throws
-]
 void
 initHashChangeEvent
 (

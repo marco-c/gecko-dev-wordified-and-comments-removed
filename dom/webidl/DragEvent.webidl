@@ -112,9 +112,6 @@ DataTransfer
 ?
 dataTransfer
 ;
-[
-Throws
-]
 void
 initDragEvent
 (

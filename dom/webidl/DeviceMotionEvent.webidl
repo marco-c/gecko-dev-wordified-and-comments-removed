@@ -261,9 +261,6 @@ partial
 interface
 DeviceMotionEvent
 {
-[
-Throws
-]
 void
 initDeviceMotionEvent
 (

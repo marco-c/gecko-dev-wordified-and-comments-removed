@@ -1920,9 +1920,6 @@ get
 )
 )
 ;
-ErrorResult
-rv
-;
 me
 -
 >
@@ -1949,7 +1946,6 @@ double
 (
 DEFAULT_SENSOR_POLL
 )
-rv
 )
 ;
 event

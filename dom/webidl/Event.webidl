@@ -284,9 +284,6 @@ attribute
 DOMHighResTimeStamp
 timeStamp
 ;
-[
-Throws
-]
 void
 initEvent
 (

@@ -170,9 +170,6 @@ unsigned
 long
 clickCount
 ;
-[
-Throws
-]
 void
 initSimpleGestureEvent
 (

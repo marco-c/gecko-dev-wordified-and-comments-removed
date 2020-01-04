@@ -476,9 +476,6 @@ Nullable
 double
 >
 aInterval
-ErrorResult
-&
-aRv
 )
 ;
 static

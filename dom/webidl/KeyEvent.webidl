@@ -1597,9 +1597,6 @@ DOM_VK_WIN_OEM_CLEAR
 =
 0xFE
 ;
-[
-Throws
-]
 void
 initKeyEvent
 (

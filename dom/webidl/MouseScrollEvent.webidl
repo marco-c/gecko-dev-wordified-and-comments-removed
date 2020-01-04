@@ -113,9 +113,6 @@ attribute
 long
 axis
 ;
-[
-Throws
-]
 void
 initMouseScrollEvent
 (

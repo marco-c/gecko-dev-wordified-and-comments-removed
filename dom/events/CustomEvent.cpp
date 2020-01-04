@@ -329,9 +329,6 @@ nsIVariant
 aDetail
 )
 {
-nsresult
-rv
-=
 Event
 :
 :
@@ -340,12 +337,6 @@ InitEvent
 aType
 aCanBubble
 aCancelable
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 mDetail
@@ -439,8 +430,6 @@ NS_ERROR_FAILURE
 return
 ;
 }
-aRv
-=
 InitCustomEvent
 (
 aType

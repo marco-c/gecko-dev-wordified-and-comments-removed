@@ -214,10 +214,6 @@ return
 false
 ;
 }
-NS_ENSURE_TRUE
-(
-NS_SUCCEEDED
-(
 event
 -
 >
@@ -229,9 +225,6 @@ aEventName
 )
 true
 true
-)
-)
-false
 )
 ;
 event

@@ -196,9 +196,6 @@ not
 spec
 compliant
 .
-[
-Throws
-]
 void
 initStorageEvent
 (
