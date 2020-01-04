@@ -6593,14 +6593,9 @@ ifdef
 MOZ_WIDGET_GTK
 if
 (
-gfxPlatformGtk
+gfxVars
 :
 :
-GetPlatform
-(
-)
--
->
 UseXRender
 (
 )
