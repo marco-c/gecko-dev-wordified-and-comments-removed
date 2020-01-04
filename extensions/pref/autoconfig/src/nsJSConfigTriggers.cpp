@@ -108,8 +108,10 @@ jswrapper
 h
 "
 extern
-PRLogModuleInfo
-*
+mozilla
+:
+:
+LazyLogModule
 MCD
 ;
 using
