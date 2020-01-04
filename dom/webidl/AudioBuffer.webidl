@@ -160,6 +160,7 @@ sampleRate
 ;
 readonly
 attribute
+unsigned
 long
 length
 ;
@@ -174,6 +175,7 @@ duration
 ;
 readonly
 attribute
+unsigned
 long
 numberOfChannels
 ;
