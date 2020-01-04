@@ -1151,14 +1151,6 @@ TOPSRCDIR
 /
 mozglue
 /
-crt
-\
-{
-TOPSRCDIR
-}
-/
-mozglue
-/
 misc
 \
 {

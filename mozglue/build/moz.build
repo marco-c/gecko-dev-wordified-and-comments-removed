@@ -156,15 +156,6 @@ Library
 mozglue
 '
 )
-if
-not
-CONFIG
-[
-'
-MOZ_CRT
-'
-]
-:
 SDK_LIBRARY
 =
 True
