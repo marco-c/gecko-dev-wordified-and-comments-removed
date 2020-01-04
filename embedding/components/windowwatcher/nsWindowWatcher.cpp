@@ -431,6 +431,11 @@ nsIWebBrowserChrome
 *
 aChrome
 )
+:
+mChrome
+(
+nullptr
+)
 {
 #
 ifdef
