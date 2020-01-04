@@ -114,6 +114,11 @@ InterceptorLog
 h
 '
 '
+MainThreadInvoker
+.
+h
+'
+'
 MainThreadRuntime
 .
 h
@@ -165,6 +170,11 @@ cpp
 '
 '
 InterceptorLog
+.
+cpp
+'
+'
+MainThreadInvoker
 .
 cpp
 '
