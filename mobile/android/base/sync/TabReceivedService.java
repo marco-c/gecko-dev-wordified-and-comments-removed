@@ -181,6 +181,11 @@ super
 LOGTAG
 )
 ;
+setIntentRedelivery
+(
+true
+)
+;
 }
 Override
 protected
