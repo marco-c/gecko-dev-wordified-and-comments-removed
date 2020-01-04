@@ -11889,6 +11889,17 @@ isUnknownInt32
 )
 continue
 ;
+if
+(
+ins
+-
+>
+isRecoveredOnBailout
+(
+)
+)
+continue
+;
 MAssertRange
 *
 guard
