@@ -1489,6 +1489,11 @@ port
 Cr
 .
 NS_OK
+{
+isPrivate
+:
+true
+}
 )
 ;
 }
