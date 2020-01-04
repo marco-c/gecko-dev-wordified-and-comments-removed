@@ -77,6 +77,9 @@ protocol
 PFileDescriptorSet
 ;
 include
+BlobTypes
+;
+include
 DOMTypes
 ;
 include

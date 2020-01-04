@@ -153,6 +153,9 @@ include
 PFileSystemParams
 ;
 include
+ProtocolTypes
+;
+include
 "
 mozilla
 /

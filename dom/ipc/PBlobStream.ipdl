@@ -65,6 +65,9 @@ protocol
 PFileDescriptorSet
 ;
 include
+BlobTypes
+;
+include
 InputStreamParams
 ;
 namespace

@@ -118,6 +118,9 @@ include
 protocol
 PBlob
 ;
+include
+ProtocolTypes
+;
 using
 struct
 mozilla
@@ -144,16 +147,6 @@ from
 ipc
 /
 IPCMessageUtils
-.
-h
-"
-;
-using
-struct
-nsID
-from
-"
-nsID
 .
 h
 "

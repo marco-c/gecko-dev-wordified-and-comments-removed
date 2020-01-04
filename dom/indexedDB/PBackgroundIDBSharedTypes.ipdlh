@@ -72,6 +72,9 @@ include
 DOMTypes
 ;
 include
+ProtocolTypes
+;
+include
 "
 mozilla
 /

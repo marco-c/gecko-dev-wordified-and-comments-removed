@@ -127,6 +127,9 @@ protocol
 PRtspChannel
 ;
 include
+BlobTypes
+;
+include
 URIParams
 ;
 include
