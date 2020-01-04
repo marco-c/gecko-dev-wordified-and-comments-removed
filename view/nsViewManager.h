@@ -176,6 +176,10 @@ nscoord
 aWidth
 nscoord
 aHeight
+bool
+aDelayResize
+=
+false
 )
 ;
 void

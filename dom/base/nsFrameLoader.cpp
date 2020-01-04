@@ -10096,7 +10096,10 @@ width
 size
 .
 height
-false
+nsIBaseWindow
+:
+:
+eDelayResize
 )
 ;
 }
