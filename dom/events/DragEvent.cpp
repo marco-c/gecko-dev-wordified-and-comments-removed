@@ -216,9 +216,6 @@ aRelatedTarget
 if
 (
 mEventIsInternal
-&
-&
-mEvent
 )
 {
 mEvent
