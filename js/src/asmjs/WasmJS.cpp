@@ -1716,6 +1716,14 @@ cx
 return
 true
 ;
+compileArgs
+.
+assumptions
+.
+newFormat
+=
+true
+;
 JS
 :
 :
