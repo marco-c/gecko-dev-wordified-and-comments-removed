@@ -10388,7 +10388,7 @@ frame
 nsBox
 :
 :
-GetParentBox
+GetParentXULBox
 (
 frame
 )

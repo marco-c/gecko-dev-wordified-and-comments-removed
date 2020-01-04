@@ -423,7 +423,7 @@ aFrame
 static
 nsIFrame
 *
-GetParentBox
+GetParentXULBox
 (
 const
 nsIFrame

@@ -1319,7 +1319,7 @@ mParentBox
 nsBox
 :
 :
-GetParentBox
+GetParentXULBox
 (
 this
 )
@@ -1360,7 +1360,7 @@ box
 nsBox
 :
 :
-GetParentBox
+GetParentXULBox
 (
 this
 )
@@ -2667,7 +2667,7 @@ mParentBox
 nsBox
 :
 :
-GetParentBox
+GetParentXULBox
 (
 mOuter
 )

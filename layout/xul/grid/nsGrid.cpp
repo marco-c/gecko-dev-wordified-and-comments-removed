@@ -3541,7 +3541,7 @@ parent
 nsBox
 :
 :
-GetParentBox
+GetParentXULBox
 (
 box
 )
@@ -3569,7 +3569,7 @@ parentsParent
 nsBox
 :
 :
-GetParentBox
+GetParentXULBox
 (
 parent
 )
@@ -3960,7 +3960,7 @@ parent
 nsBox
 :
 :
-GetParentBox
+GetParentXULBox
 (
 aChild
 )
@@ -4008,7 +4008,7 @@ parent
 nsBox
 :
 :
-GetParentBox
+GetParentXULBox
 (
 parent
 )

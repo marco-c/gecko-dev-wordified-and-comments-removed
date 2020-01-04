@@ -208,7 +208,7 @@ aBox
 nsBox
 :
 :
-GetParentBox
+GetParentXULBox
 (
 aBox
 )
