@@ -679,7 +679,7 @@ ConnectListener
 (
 )
 ;
-TryUpdateRenderedVideoFrames
+UpdateRenderedVideoFrames
 (
 )
 ;
