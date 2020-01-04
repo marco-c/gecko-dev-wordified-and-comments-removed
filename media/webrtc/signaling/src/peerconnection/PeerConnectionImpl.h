@@ -2732,16 +2732,6 @@ ClearSdpParseErrorMessages
 (
 )
 ;
-void
-OnAddIceCandidateError
-(
-)
-{
-+
-+
-mAddCandidateErrorCount
-;
-}
 const
 std
 :
