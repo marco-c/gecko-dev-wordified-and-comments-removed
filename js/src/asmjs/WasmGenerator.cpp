@@ -3918,9 +3918,6 @@ fieldsToExports
 .
 append
 (
-ExportMap
-:
-:
 MemoryExport
 )
 ;

@@ -226,13 +226,6 @@ JS
 :
 GenericNaN
 ;
-const
-uint32_t
-ExportMap
-:
-:
-MemoryExport
-;
 UniqueCodePtr
 wasm
 :
@@ -6197,9 +6190,6 @@ if
 exportIndex
 =
 =
-ExportMap
-:
-:
 MemoryExport
 )
 {
@@ -6435,9 +6425,6 @@ if
 exportIndex
 =
 =
-ExportMap
-:
-:
 MemoryExport
 )
 val

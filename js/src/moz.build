@@ -1195,6 +1195,13 @@ cpp
 '
 asmjs
 /
+WasmBinary
+.
+cpp
+'
+'
+asmjs
+/
 WasmFrameIterator
 .
 cpp
