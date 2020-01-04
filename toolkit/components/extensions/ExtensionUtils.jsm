@@ -6090,9 +6090,7 @@ normalizeTime
 date
 )
 {
-const
-result
-=
+return
 new
 Date
 (
@@ -6126,13 +6124,6 @@ date
 )
 :
 date
-)
-;
-return
-result
-.
-valueOf
-(
 )
 ;
 }
