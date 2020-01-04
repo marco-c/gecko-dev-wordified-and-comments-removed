@@ -1766,6 +1766,9 @@ frameXResolution
 float
 frameYResolution
 ;
+bool
+isProgressive
+;
 }
 ;
 struct
