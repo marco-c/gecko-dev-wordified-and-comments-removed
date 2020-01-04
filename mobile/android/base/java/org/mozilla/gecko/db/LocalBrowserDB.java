@@ -3238,7 +3238,7 @@ sortOrder
 =
 BrowserContract
 .
-getCombinedFrecencySortOrder
+getFrecencySortOrder
 (
 true
 false
