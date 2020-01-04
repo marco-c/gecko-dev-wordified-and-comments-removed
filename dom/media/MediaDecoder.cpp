@@ -678,12 +678,6 @@ defined
 (
 MOZ_EME
 )
-&
-&
-defined
-(
-RELEASE_BUILD
-)
 mInfo
 &
 &
