@@ -3284,7 +3284,7 @@ Equals
 aEvent
 -
 >
-typeString
+mSpecifiedEventTypeString
 )
 ;
 }

@@ -846,7 +846,7 @@ nsIAtom
 mSpecifiedEventType
 ;
 nsString
-typeString
+mSpecifiedEventTypeString
 ;
 nsCOMPtr
 <
