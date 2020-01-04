@@ -2327,12 +2327,7 @@ true
 ;
 }
 return
-wrapper
--
->
-Result
-(
-)
+NS_OK
 ;
 }
 NS_ASSERTION
