@@ -333,13 +333,6 @@ h
 #
 include
 "
-SurfaceCache
-.
-h
-"
-#
-include
-"
 gfxPrefs
 .
 h
