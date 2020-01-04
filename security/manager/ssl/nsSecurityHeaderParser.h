@@ -41,10 +41,10 @@ nsSecurityHeaderDirective
 {
 public
 :
-nsAutoCString
+nsCString
 mName
 ;
-nsAutoCString
+nsCString
 mValue
 ;
 }
@@ -193,7 +193,7 @@ nsSecurityHeaderDirective
 *
 mDirective
 ;
-nsAutoCString
+nsCString
 mOutput
 ;
 bool
