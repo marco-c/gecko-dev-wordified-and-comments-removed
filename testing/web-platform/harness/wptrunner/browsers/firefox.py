@@ -872,6 +872,16 @@ join
 (
 hostnames
 )
+                                      
+"
+places
+.
+history
+.
+enabled
+"
+:
+False
 }
 )
         
@@ -903,6 +913,7 @@ True
 )
         
 if
+(
 self
 .
 e10s
@@ -922,8 +933,7 @@ Microsoft
 "
 )
 and
-\
-           
+            
 '
 5
 .
@@ -934,6 +944,7 @@ platform
 .
 version
 (
+)
 )
 :
             
