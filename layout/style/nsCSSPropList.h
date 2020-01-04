@@ -9092,7 +9092,7 @@ CSS_PROPERTY_STORES_CALC
 0
 kImageLayerPositionKTable
 CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+eStyleAnimType_Custom
 )
 CSS_PROP_SVGRESET
 (
@@ -9113,7 +9113,7 @@ CSS_PROPERTY_STORES_CALC
 0
 kImageLayerSizeKTable
 CSS_PROP_NO_OFFSET
-eStyleAnimType_None
+eStyleAnimType_Custom
 )
 CSS_PROP_SVGRESET
 (
