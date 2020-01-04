@@ -366,6 +366,18 @@ beta
 localtest
 "
 ]
+            
+"
+publish_rules
+"
+:
+[
+"
+firefox
+-
+beta
+"
+]
         
 }
         
@@ -475,6 +487,18 @@ firefox
 release
 -
 localtest
+"
+]
+            
+"
+publish_rules
+"
+:
+[
+"
+firefox
+-
+release
 "
 ]
         

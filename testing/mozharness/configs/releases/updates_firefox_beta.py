@@ -350,6 +350,18 @@ beta
 localtest
 "
 ]
+            
+"
+publish_rules
+"
+:
+[
+"
+firefox
+-
+beta
+"
+]
         
 }
     

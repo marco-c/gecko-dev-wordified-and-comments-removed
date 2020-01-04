@@ -412,6 +412,18 @@ dev
 localtest
 "
 ]
+             
+"
+publish_rules
+"
+:
+[
+"
+firefox
+-
+beta
+"
+]
         
 }
         
@@ -535,6 +547,18 @@ release
 dev
 -
 localtest
+"
+]
+            
+"
+publish_rules
+"
+:
+[
+"
+firefox
+-
+release
 "
 ]
         

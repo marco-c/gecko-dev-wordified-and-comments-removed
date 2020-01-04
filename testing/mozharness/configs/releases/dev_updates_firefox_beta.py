@@ -392,6 +392,18 @@ dev
 localtest
 "
 ]
+            
+"
+publish_rules
+"
+:
+[
+"
+firefox
+-
+beta
+"
+]
         
 }
     
