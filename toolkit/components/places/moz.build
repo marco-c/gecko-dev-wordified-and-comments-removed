@@ -162,6 +162,11 @@ mozIPlacesAutoComplete
 idl
 '
 '
+mozIPlacesPendingOperation
+.
+idl
+'
+'
 nsIAnnotationService
 .
 idl

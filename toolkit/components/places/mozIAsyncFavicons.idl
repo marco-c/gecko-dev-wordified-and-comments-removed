@@ -109,6 +109,9 @@ nsIFaviconDataCallback
 interface
 nsIPrincipal
 ;
+interface
+mozIPlacesPendingOperation
+;
 [
 scriptable
 uuid
@@ -502,7 +505,7 @@ idl
 .
 *
 /
-void
+mozIPlacesPendingOperation
 setAndFetchFaviconForPage
 (
 in

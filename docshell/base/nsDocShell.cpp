@@ -871,6 +871,13 @@ h
 #
 include
 "
+mozIPlacesPendingOperation
+.
+h
+"
+#
+include
+"
 mozIAsyncFavicons
 .
 h
@@ -37469,6 +37476,12 @@ data
 "
 )
 ;
+nsCOMPtr
+<
+mozIPlacesPendingOperation
+>
+po
+;
 return
 mSvc
 -
@@ -37491,6 +37504,10 @@ nsIFaviconService
 FAVICON_LOAD_NON_PRIVATE
 nullptr
 mLoadingPrincipal
+getter_AddRefs
+(
+po
+)
 )
 ;
 }
