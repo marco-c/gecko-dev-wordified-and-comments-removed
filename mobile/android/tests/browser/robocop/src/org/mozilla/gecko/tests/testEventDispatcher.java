@@ -275,7 +275,7 @@ final
 long
 WAIT_FOR_BUNDLE_EVENT_TIMEOUT_MILLIS
 =
-10000
+20000
 ;
 private
 JavascriptBridge
