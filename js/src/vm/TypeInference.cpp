@@ -12651,7 +12651,7 @@ ops
 getProperty
 |
 |
-IsTypedArrayClass
+IsAnyTypedArrayClass
 (
 clasp
 )
