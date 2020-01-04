@@ -1457,9 +1457,14 @@ if
 ionScript
 -
 >
-bailoutExpected
+numBailouts
 (
 )
+>
+=
+JitOptions
+.
+frequentBailoutThreshold
 )
 {
 if
