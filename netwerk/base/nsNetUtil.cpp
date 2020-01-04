@@ -2307,9 +2307,6 @@ nsSecurityFlags
 aSecurityFlags
 nsContentPolicyType
 aContentPolicyType
-nsISupports
-*
-aContext
 nsILoadGroup
 *
 aLoadGroup
@@ -2399,11 +2396,10 @@ return
 channel
 -
 >
-AsyncOpen
+AsyncOpen2
 (
 *
 outStream
-aContext
 )
 ;
 }
@@ -2427,9 +2423,6 @@ nsSecurityFlags
 aSecurityFlags
 nsContentPolicyType
 aContentPolicyType
-nsISupports
-*
-aContext
 nsILoadGroup
 *
 aLoadGroup
@@ -2475,7 +2468,6 @@ NodePrincipal
 )
 aSecurityFlags
 aContentPolicyType
-aContext
 aLoadGroup
 aCallbacks
 aLoadFlags
@@ -2503,9 +2495,6 @@ nsSecurityFlags
 aSecurityFlags
 nsContentPolicyType
 aContentPolicyType
-nsISupports
-*
-aContext
 nsILoadGroup
 *
 aLoadGroup
@@ -2529,7 +2518,6 @@ nullptr
 aLoadingPrincipal
 aSecurityFlags
 aContentPolicyType
-aContext
 aLoadGroup
 aCallbacks
 aLoadFlags

@@ -1043,11 +1043,6 @@ nsSecurityFlags
 aSecurityFlags
 nsContentPolicyType
 aContentPolicyType
-nsISupports
-*
-aContext
-=
-nullptr
 nsILoadGroup
 *
 aLoadGroup
@@ -1092,11 +1087,6 @@ nsSecurityFlags
 aSecurityFlags
 nsContentPolicyType
 aContentPolicyType
-nsISupports
-*
-aContext
-=
-nullptr
 nsILoadGroup
 *
 aLoadGroup
@@ -1141,11 +1131,6 @@ nsSecurityFlags
 aSecurityFlags
 nsContentPolicyType
 aContentPolicyType
-nsISupports
-*
-aContext
-=
-nullptr
 nsILoadGroup
 *
 aLoadGroup
