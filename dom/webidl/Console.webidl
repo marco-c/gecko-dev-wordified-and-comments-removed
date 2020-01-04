@@ -122,6 +122,7 @@ ClassString
 "
 Console
 "
+ProtoObjectHack
 ]
 namespace
 console
