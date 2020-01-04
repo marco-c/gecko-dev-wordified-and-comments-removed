@@ -3348,6 +3348,11 @@ features
 defaultArgs
 )
 ;
+let
+onFullScreen
+=
+null
+;
 if
 (
 AppConstants
@@ -3360,7 +3365,6 @@ macosx
 "
 )
 {
-let
 onFullScreen
 =
 function
@@ -3470,8 +3474,10 @@ newWindowOpened
 =
 false
 ;
-function
+let
 onWindowOpened
+=
+function
 (
 subject
 topic
@@ -3563,8 +3569,10 @@ windowList
 .
 length
 ;
-function
+let
 onWindowClosed
+=
+function
 (
 )
 {
@@ -3618,9 +3626,6 @@ resolve
 }
 }
 }
-}
-)
-;
 Services
 .
 obs
@@ -3655,6 +3660,9 @@ window
 destroyed
 "
 false
+)
+;
+}
 )
 ;
 while
