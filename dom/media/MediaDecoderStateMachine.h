@@ -1230,6 +1230,11 @@ PlayStateChanged
 )
 ;
 void
+VisibilityChanged
+(
+)
+;
+void
 StopPlayback
 (
 )
@@ -2228,6 +2233,12 @@ Mirror
 bool
 >
 mMediaSeekableOnlyInBufferedRanges
+;
+Mirror
+<
+bool
+>
+mIsVisible
 ;
 Canonical
 <

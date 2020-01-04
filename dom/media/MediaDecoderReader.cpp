@@ -904,6 +904,15 @@ GetBuffered
 )
 ;
 }
+void
+MediaDecoderReader
+:
+:
+VisibilityChanged
+(
+)
+{
+}
 media
 :
 :
