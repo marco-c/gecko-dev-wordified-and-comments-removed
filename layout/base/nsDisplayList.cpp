@@ -23065,6 +23065,7 @@ scrollFrameSize
 mFrame
 presContext
 aContainerParameters
+true
 )
 ;
 ViewID

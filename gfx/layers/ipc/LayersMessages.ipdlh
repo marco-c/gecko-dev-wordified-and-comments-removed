@@ -1305,6 +1305,9 @@ LayerPoint
 fixedPositionAnchor
 ;
 bool
+isClipFixed
+;
+bool
 isStickyPosition
 ;
 uint64_t

@@ -1790,6 +1790,11 @@ common
 fixedPositionAnchor
 (
 )
+common
+.
+isClipFixed
+(
+)
 )
 ;
 }
