@@ -8587,6 +8587,9 @@ mWritingMetadata
 |
 |
 mOpeningFile
+|
+|
+mKill
 )
 return
 ;
