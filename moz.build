@@ -334,11 +334,6 @@ mfbt
 '
 mozglue
 '
-'
-tools
-/
-fuzzing
-'
 ]
 if
 not
