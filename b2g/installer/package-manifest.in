@@ -868,6 +868,13 @@ components
 dom_system
 .
 xpt
+RESPATH
+/
+components
+/
+dom_workers
+.
+xpt
 #
 ifdef
 MOZ_WIDGET_GONK
