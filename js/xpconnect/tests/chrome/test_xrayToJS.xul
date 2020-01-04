@@ -2742,9 +2742,6 @@ replace
 Symbol
 .
 search
-Symbol
-.
-split
 "
 flags
 "

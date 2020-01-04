@@ -18,9 +18,6 @@ search
 species
 "
 "
-split
-"
-"
 toPrimitive
 "
 "

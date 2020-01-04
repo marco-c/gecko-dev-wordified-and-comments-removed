@@ -531,11 +531,11 @@ pc
 JSString
 *
 *
-strOut
+stringOut
 JSString
 *
 *
-sepOut
+stringArg
 JSObject
 *
 *

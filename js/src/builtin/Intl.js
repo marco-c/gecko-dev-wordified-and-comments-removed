@@ -1449,7 +1449,7 @@ subtags
 =
 callFunction
 (
-String_split
+std_String_split
 locale
 "
 -
@@ -3196,7 +3196,7 @@ extensionSubtags
 =
 callFunction
 (
-String_split
+std_String_split
 extension
 "
 -
