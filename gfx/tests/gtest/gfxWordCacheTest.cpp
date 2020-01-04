@@ -305,9 +305,11 @@ if
 !
 textRun
 )
+{
 return
 nullptr
 ;
+}
 nsresult
 rv
 =
