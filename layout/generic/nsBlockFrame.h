@@ -1366,6 +1366,15 @@ nsPresContext
 aPresContext
 )
 ;
+void
+CreateBulletFrameForListItem
+(
+bool
+aCreateBulletList
+bool
+aListStylePositionInside
+)
+;
 public
 :
 enum
