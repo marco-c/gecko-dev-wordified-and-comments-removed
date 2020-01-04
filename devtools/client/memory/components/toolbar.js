@@ -177,16 +177,6 @@ onTakeSnapshotClick
 )
 DOM
 .
-label
-(
-{
-}
-"
-Breakdown
-by
-"
-DOM
-.
 select
 (
 {
@@ -231,7 +221,6 @@ value
 name
 }
 displayName
-)
 )
 )
 )
