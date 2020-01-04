@@ -1158,6 +1158,13 @@ exploded
 )
 ;
 }
+#
+if
+!
+defined
+(
+MOZ_SANDBOX
+)
 bool
 Time
 :
@@ -1256,6 +1263,8 @@ return
 true
 ;
 }
+#
+endif
 std
 :
 :

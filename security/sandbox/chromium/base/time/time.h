@@ -1187,6 +1187,13 @@ us
 )
 ;
 }
+#
+if
+!
+defined
+(
+MOZ_SANDBOX
+)
 static
 bool
 FromString
@@ -1231,6 +1238,8 @@ parsed_time
 )
 ;
 }
+#
+endif
 int64
 ToInternalValue
 (
@@ -1557,6 +1566,13 @@ Exploded
 exploded
 )
 ;
+#
+if
+!
+defined
+(
+MOZ_SANDBOX
+)
 static
 bool
 FromStringInternal
@@ -1572,6 +1588,8 @@ Time
 parsed_time
 )
 ;
+#
+endif
 int64
 us_
 ;
