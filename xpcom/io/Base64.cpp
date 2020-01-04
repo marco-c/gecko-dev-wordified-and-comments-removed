@@ -1865,6 +1865,11 @@ uint32_t
 aBinaryLen
 )
 {
+MOZ_ASSERT
+(
+aBinary
+)
+;
 if
 (
 !
