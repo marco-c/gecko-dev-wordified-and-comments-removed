@@ -310,14 +310,6 @@ MOZ_ENABLE_SZIP
 fi
 #
 Enable
-navigator
-.
-mozPay
-MOZ_PAY
-=
-1
-#
-Enable
 UI
 for
 healthreporter
