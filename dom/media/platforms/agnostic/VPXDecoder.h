@@ -180,7 +180,7 @@ VP9
 private
 :
 void
-DecodeFrame
+ProcessDecode
 (
 MediaRawData
 *
@@ -188,7 +188,7 @@ aSample
 )
 ;
 int
-DoDecodeFrame
+DoDecode
 (
 MediaRawData
 *
@@ -196,12 +196,7 @@ aSample
 )
 ;
 void
-DoDrain
-(
-)
-;
-void
-OutputDelayedFrames
+ProcessDrain
 (
 )
 ;
