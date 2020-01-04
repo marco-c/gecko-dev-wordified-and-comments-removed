@@ -1513,7 +1513,9 @@ plugins
 .
 js
 )
-*
+#
+ifdef
+MOZ_SAFE_BROWSING
 content
 /
 browser
@@ -1532,6 +1534,8 @@ safebrowsing
 .
 js
 )
+#
+endif
 content
 /
 browser

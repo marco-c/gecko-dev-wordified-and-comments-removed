@@ -1,6 +1,3 @@
-#
-ifdef
-MOZ_SAFE_BROWSING
 var
 gSafeBrowsing
 =
@@ -165,5 +162,3 @@ currentURI
 ;
 }
 }
-#
-endif
