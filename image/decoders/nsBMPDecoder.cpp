@@ -1824,6 +1824,9 @@ BeginFrame
 GetSize
 (
 )
+Nothing
+(
+)
 mImageData
 hasTransparency
 true

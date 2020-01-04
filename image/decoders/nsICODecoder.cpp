@@ -2574,6 +2574,9 @@ BeginFrame
 GetRealSize
 (
 )
+Nothing
+(
+)
 mMaskBuffer
 .
 get

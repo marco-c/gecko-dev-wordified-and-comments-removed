@@ -335,6 +335,9 @@ BeginFrame
 GetSize
 (
 )
+Nothing
+(
+)
 mImageData
 true
 )
