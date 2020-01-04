@@ -1,8 +1,3 @@
-#
-ifdef
-0
-#
-endif
 var
 gBrowserThumbnails
 =
