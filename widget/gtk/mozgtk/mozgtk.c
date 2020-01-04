@@ -619,7 +619,7 @@ gtk_check_button_new_with_mnemonic
 )
 STUB
 (
-gtk_check_menu_item_new_with_label
+gtk_check_menu_item_new
 )
 STUB
 (
@@ -1120,10 +1120,6 @@ gtk_menu_item_get_type
 STUB
 (
 gtk_menu_item_new
-)
-STUB
-(
-gtk_menu_item_new_with_label
 )
 STUB
 (
