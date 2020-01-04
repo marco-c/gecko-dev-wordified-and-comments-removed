@@ -1834,7 +1834,7 @@ CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 "
 "
 VARIANT_KEYWORD
-kBackgroundClipKTable
+kImageLayerOriginKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
