@@ -38,16 +38,6 @@ WMFMediaDataDecoder
 .
 h
 "
-extern
-const
-GUID
-CLSID_WebmMfVp8Dec
-;
-extern
-const
-GUID
-CLSID_WebmMfVp9Dec
-;
 namespace
 mozilla
 {
