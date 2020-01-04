@@ -1389,7 +1389,7 @@ true
 }
 #
 ifdef
-JS_JITSPEW
+DEBUG
 static
 const
 char

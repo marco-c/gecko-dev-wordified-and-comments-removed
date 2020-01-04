@@ -1,6 +1,6 @@
 #
 ifdef
-JS_JITSPEW
+DEBUG
 #
 include
 "

@@ -556,7 +556,7 @@ NULL_ID
 ;
 #
 ifdef
-JS_JITSPEW
+DEBUG
 class
 GraphSpewer
 {
@@ -1278,7 +1278,7 @@ AutoDisableSpew
 {
 #
 ifdef
-JS_JITSPEW
+DEBUG
 if
 (
 enabled_
