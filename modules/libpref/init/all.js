@@ -10546,7 +10546,7 @@ max
 -
 attempts
 "
-6
+10
 )
 ;
 pref
