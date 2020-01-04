@@ -167,15 +167,6 @@ nullptr
 ;
 nsFontMetrics
 (
-)
-;
-NS_INLINE_DECL_REFCOUNTING
-(
-nsFontMetrics
-)
-nsresult
-Init
-(
 const
 nsFont
 &
@@ -189,6 +180,10 @@ nsDeviceContext
 aContext
 )
 ;
+NS_INLINE_DECL_REFCOUNTING
+(
+nsFontMetrics
+)
 void
 Destroy
 (
