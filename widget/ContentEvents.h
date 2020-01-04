@@ -1033,7 +1033,7 @@ float
 mElapsedTime
 ;
 nsString
-pseudoElement
+mPseudoElement
 ;
 void
 AssignAnimationEventData
@@ -1064,11 +1064,11 @@ aEvent
 .
 mElapsedTime
 ;
-pseudoElement
+mPseudoElement
 =
 aEvent
 .
-pseudoElement
+mPseudoElement
 ;
 }
 }
