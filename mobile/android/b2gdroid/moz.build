@@ -111,6 +111,9 @@ DIRS
 =
 [
 '
+components
+'
+'
 .
 .
 /
@@ -145,5 +148,17 @@ fonts
 .
 /
 geckoview_library
+'
+'
+/
+b2g
+/
+components
+'
+'
+/
+b2g
+/
+chrome
 '
 ]
