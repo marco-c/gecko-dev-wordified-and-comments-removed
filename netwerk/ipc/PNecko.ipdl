@@ -144,7 +144,7 @@ PWebSocket
 ;
 include
 protocol
-PWebSocketFrameListener
+PWebSocketEventListener
 ;
 include
 protocol
@@ -364,7 +364,7 @@ manages
 PWebSocket
 ;
 manages
-PWebSocketFrameListener
+PWebSocketEventListener
 ;
 manages
 PTCPSocket
@@ -468,7 +468,7 @@ nsCString
 networkInterface
 )
 ;
-PWebSocketFrameListener
+PWebSocketEventListener
 (
 uint64_t
 aInnerWindowID
