@@ -1589,7 +1589,7 @@ __GNUC__
 !
 defined
 (
-__APPLE__
+__clang__
 )
 int32_t
 i
