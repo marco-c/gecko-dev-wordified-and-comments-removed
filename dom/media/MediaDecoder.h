@@ -1124,6 +1124,7 @@ MediaDecoderOwner
 GetOwner
 (
 )
+const
 override
 ;
 #

@@ -171,6 +171,7 @@ BufferDecoder
 GetOwner
 (
 )
+const
 {
 return
 nullptr
