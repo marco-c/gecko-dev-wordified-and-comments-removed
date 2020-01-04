@@ -16534,12 +16534,6 @@ itemVisibleRect
 =
 itemDrawRect
 ;
-if
-(
-!
-shouldFixToViewport
-)
-{
 itemVisibleRect
 =
 itemVisibleRect
@@ -16558,7 +16552,6 @@ false
 )
 )
 ;
-}
 if
 (
 maxLayers
