@@ -22,6 +22,11 @@ FAKE_ENABLED
 =
 true
 ;
+var
+TEST_AUDIO_FREQ
+=
+1000
+;
 try
 {
 var
@@ -93,6 +98,10 @@ n
 FAKE_ENABLED
 =
 false
+;
+TEST_AUDIO_FREQ
+=
+440
 ;
 }
 catch

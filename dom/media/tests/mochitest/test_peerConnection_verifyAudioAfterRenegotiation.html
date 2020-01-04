@@ -335,13 +335,13 @@ streams
 ]
 )
 ;
-freq1k
+freq
 =
 local1Analyser
 .
 binIndexForFrequency
 (
-1000
+TEST_AUDIO_FREQ
 )
 ;
 return
@@ -377,7 +377,7 @@ then
 checkAudioEnabled
 (
 local1Analyser
-freq1k
+freq
 )
 )
 .
@@ -407,7 +407,7 @@ then
 checkAudioEnabled
 (
 remote1Analyser
-freq1k
+freq
 )
 )
 .
@@ -464,7 +464,7 @@ then
 checkAudioDisabled
 (
 local1Analyser
-freq1k
+freq
 )
 )
 .
@@ -494,7 +494,7 @@ then
 checkAudioDisabled
 (
 remote1Analyser
-freq1k
+freq
 )
 )
 }
@@ -676,13 +676,13 @@ streams
 ]
 )
 ;
-freq1k
+freq
 =
 local2Analyser
 .
 binIndexForFrequency
 (
-1000
+TEST_AUDIO_FREQ
 )
 ;
 return
@@ -718,7 +718,7 @@ then
 checkAudioDisabled
 (
 local1Analyser
-freq1k
+freq
 )
 )
 .
@@ -748,7 +748,7 @@ then
 checkAudioDisabled
 (
 remote1Analyser
-freq1k
+freq
 )
 )
 .
@@ -778,7 +778,7 @@ then
 checkAudioEnabled
 (
 local2Analyser
-freq1k
+freq
 )
 )
 .
@@ -808,7 +808,7 @@ then
 checkAudioEnabled
 (
 remote2Analyser
-freq1k
+freq
 )
 )
 .
@@ -892,7 +892,7 @@ then
 checkAudioDisabled
 (
 local2Analyser
-freq1k
+freq
 )
 )
 .
@@ -922,7 +922,7 @@ then
 checkAudioDisabled
 (
 remote2Analyser
-freq1k
+freq
 )
 )
 .
@@ -952,7 +952,7 @@ then
 checkAudioEnabled
 (
 local1Analyser
-freq1k
+freq
 )
 )
 .
@@ -982,7 +982,7 @@ then
 checkAudioEnabled
 (
 remote1Analyser
-freq1k
+freq
 )
 )
 }
