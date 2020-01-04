@@ -680,6 +680,11 @@ DOMException
 webidl
 '
 '
+DOMFileSystem
+.
+webidl
+'
+'
 DOMImplementation
 .
 webidl
