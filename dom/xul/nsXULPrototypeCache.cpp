@@ -2776,7 +2776,10 @@ JSTracer
 aClosure
 )
 ;
-JS_CallScriptTracer
+JS
+:
+:
+TraceEdge
 (
 trc
 &
