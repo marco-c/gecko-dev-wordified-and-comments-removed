@@ -898,6 +898,10 @@ noise
 :
 %
 d
+delay
+:
+%
+d
 "
 aEchoOn
 ?
@@ -917,6 +921,7 @@ aNoise
 :
 -
 1
+aPlayoutDelay
 )
 )
 ;

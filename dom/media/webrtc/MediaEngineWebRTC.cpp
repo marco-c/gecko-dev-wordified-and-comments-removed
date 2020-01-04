@@ -245,6 +245,12 @@ mAudioEngineInit
 (
 false
 )
+mFullDuplex
+(
+aPrefs
+.
+mFullDuplex
+)
 {
 #
 ifndef
@@ -1453,7 +1459,7 @@ mAudioInput
 {
 if
 (
-true
+mFullDuplex
 )
 {
 mAudioInput
@@ -1689,7 +1695,7 @@ mAudioInput
 ;
 if
 (
-true
+mFullDuplex
 )
 {
 audioinput
