@@ -224,10 +224,7 @@ nsTransformingTextRunFactory
 )
 {
 }
-mozilla
-:
-:
-UniquePtr
+already_AddRefed
 <
 nsTransformedTextRun
 >
@@ -265,10 +262,7 @@ bool
 aOwnsFactory
 )
 ;
-mozilla
-:
-:
-UniquePtr
+already_AddRefed
 <
 nsTransformedTextRun
 >
@@ -469,10 +463,7 @@ gfxTextRun
 public
 :
 static
-mozilla
-:
-:
-UniquePtr
+already_AddRefed
 <
 nsTransformedTextRun
 >

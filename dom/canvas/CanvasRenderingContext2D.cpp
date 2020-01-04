@@ -18668,7 +18668,7 @@ params
 )
 ;
 }
-UniquePtr
+RefPtr
 <
 gfxTextRun
 >

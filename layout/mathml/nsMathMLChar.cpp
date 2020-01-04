@@ -440,7 +440,7 @@ aVertical
 0
 ;
 virtual
-UniquePtr
+already_AddRefed
 <
 gfxTextRun
 >
@@ -855,7 +855,7 @@ Exists
 ;
 }
 virtual
-UniquePtr
+already_AddRefed
 <
 gfxTextRun
 >
@@ -1517,7 +1517,7 @@ kNullGlyph
 ch
 ;
 }
-UniquePtr
+already_AddRefed
 <
 gfxTextRun
 >
@@ -1698,7 +1698,7 @@ mFontFamilyName
 ;
 }
 virtual
-UniquePtr
+already_AddRefed
 <
 gfxTextRun
 >
@@ -1848,7 +1848,7 @@ mCharCache
 aChar
 )
 {
-UniquePtr
+RefPtr
 <
 gfxTextRun
 >
@@ -2186,7 +2186,7 @@ parts
 ]
 ;
 }
-UniquePtr
+already_AddRefed
 <
 gfxTextRun
 >
@@ -2242,7 +2242,7 @@ nullptr
 aAppUnitsPerDevPixel
 }
 ;
-UniquePtr
+RefPtr
 <
 gfxTextRun
 >
@@ -2360,6 +2360,10 @@ detailedGlyph
 ;
 return
 textRun
+.
+forget
+(
+)
 ;
 }
 class
@@ -4298,7 +4302,7 @@ DisplayOperatorMinHeight
 oneDevPixel
 )
 ;
-UniquePtr
+RefPtr
 <
 gfxTextRun
 >
@@ -4459,7 +4463,7 @@ size
 continue
 ;
 }
-UniquePtr
+RefPtr
 <
 gfxTextRun
 >
@@ -4859,7 +4863,7 @@ font
 mFontSizeInflation
 )
 ;
-UniquePtr
+RefPtr
 <
 gfxTextRun
 >
