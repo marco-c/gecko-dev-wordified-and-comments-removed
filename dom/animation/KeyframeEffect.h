@@ -1300,6 +1300,11 @@ RestyleType
 aRestyleType
 )
 ;
+void
+MaybeUpdateFrameForCompositor
+(
+)
+;
 already_AddRefed
 <
 nsStyleContext
