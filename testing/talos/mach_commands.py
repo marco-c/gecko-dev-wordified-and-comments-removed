@@ -485,9 +485,9 @@ default_actions
 [
                 
 '
-clone
+populate
 -
-talos
+webroot
 '
                 
 '
@@ -509,12 +509,6 @@ python_webserver
 '
 :
 False
-            
-'
-populate_webroot
-'
-:
-True
             
 '
 talos_extra_options

@@ -292,9 +292,9 @@ extract
 "
         
 "
-clone
+populate
 -
-talos
+webroot
 "
         
 "
@@ -342,12 +342,6 @@ os
 getcwd
 (
 )
-    
-"
-populate_webroot
-"
-:
-True
     
 "
 default_blob_upload_servers

@@ -359,9 +359,9 @@ extract
 "
         
 "
-clone
+populate
 -
-talos
+webroot
 "
         
 "
@@ -402,12 +402,6 @@ talos
 -
 data
 '
-    
-"
-populate_webroot
-"
-:
-True
     
 "
 webroot_extract_cmd

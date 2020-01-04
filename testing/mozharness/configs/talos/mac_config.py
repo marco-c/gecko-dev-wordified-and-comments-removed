@@ -291,9 +291,9 @@ extract
 "
         
 "
-clone
+populate
 -
-talos
+webroot
 "
         
 "
@@ -341,12 +341,6 @@ os
 getcwd
 (
 )
-    
-"
-populate_webroot
-"
-:
-True
     
 "
 run_cmd_checks_enabled
