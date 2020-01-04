@@ -119,7 +119,6 @@ exports
 const
 {
 Cc
-Ci
 Cr
 CC
 }
@@ -2519,13 +2518,6 @@ this
 _sender
 =
 sender
-.
-QueryInterface
-(
-Ci
-.
-nsIMessageSender
-)
 ;
 this
 .

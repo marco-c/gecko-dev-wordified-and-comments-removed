@@ -8040,12 +8040,12 @@ this
 .
 _browser
 .
-QueryInterface
-(
-Ci
+messageManager
+|
+|
+this
 .
-nsIFrameLoaderOwner
-)
+_browser
 .
 frameLoader
 .
