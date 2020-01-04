@@ -2599,6 +2599,10 @@ dict
 .
 currentFoundRange
 =
+dict
+.
+lastIteratorParams
+=
 null
 ;
 if
