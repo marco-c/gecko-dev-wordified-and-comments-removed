@@ -9578,3 +9578,12 @@ action
 "
 )
 ;
+#
+ifdef
+LLVM_EXPORT_REGISTRY
+LLVM_EXPORT_REGISTRY
+(
+FrontendPluginRegistry
+)
+#
+endif
