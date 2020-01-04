@@ -5756,6 +5756,9 @@ uint32_t
 mMaxFetchedInstances
 ;
 bool
+mBufferFetch_IsAttrib0Active
+;
+bool
 DrawArrays_check
 (
 GLint
