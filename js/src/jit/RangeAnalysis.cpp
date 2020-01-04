@@ -10018,11 +10018,17 @@ GetJitContext
 cx
 )
 ;
+if
+(
+!
 sp
 .
 init
 (
 )
+)
+return
+false
 ;
 iterationBound
 -

@@ -201,6 +201,7 @@ size
 ptrdiff_t
 offset
 ;
+MOZ_MUST_USE
 bool
 realloc_
 (
@@ -227,6 +228,7 @@ Sprinter
 (
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (
@@ -371,6 +373,7 @@ Fprinter
 (
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (
