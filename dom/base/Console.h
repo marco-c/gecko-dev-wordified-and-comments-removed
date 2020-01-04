@@ -64,6 +64,13 @@ h
 #
 include
 "
+nsWeakReference
+.
+h
+"
+#
+include
+"
 nsWrapperCache
 .
 h
@@ -108,6 +115,8 @@ public
 nsIObserver
 public
 nsWrapperCache
+public
+nsSupportsWeakReference
 {
 ~
 Console
@@ -117,9 +126,10 @@ Console
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
 Console
+nsIObserver
 )
 NS_DECL_NSIOBSERVER
 explicit

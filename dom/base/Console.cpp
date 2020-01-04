@@ -2742,9 +2742,14 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIObserver
 )
-NS_INTERFACE_MAP_ENTRY
+NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
+nsIObserver
+)
+NS_INTERFACE_MAP_ENTRY
+(
+nsISupportsWeakReference
 )
 NS_INTERFACE_MAP_END
 Console
@@ -2862,7 +2867,7 @@ window
 -
 destroyed
 "
-false
+true
 )
 ;
 }
