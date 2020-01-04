@@ -2208,6 +2208,10 @@ gtk_style_context_get_color
 )
 STUB
 (
+gtk_style_context_get_direction
+)
+STUB
+(
 gtk_style_context_get_margin
 )
 STUB
@@ -2233,6 +2237,10 @@ gtk_style_context_get_style
 STUB
 (
 gtk_style_context_has_class
+)
+STUB
+(
+gtk_style_context_invalidate
 )
 STUB
 (
