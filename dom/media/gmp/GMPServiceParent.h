@@ -632,7 +632,7 @@ private
 struct
 State
 {
-nsAutoCString
+nsCString
 mStateSequence
 ;
 nsCString

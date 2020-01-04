@@ -603,7 +603,7 @@ nsIPrincipal
 mPrincipal
 ;
 const
-nsAutoCString
+nsCString
 mContentType
 ;
 }

@@ -336,7 +336,7 @@ mSamplesPerSecond
 uint16_t
 mSamplesPerFrame
 ;
-nsAutoCString
+nsCString
 mFirstFrame
 ;
 int64_t

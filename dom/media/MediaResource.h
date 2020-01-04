@@ -1347,10 +1347,10 @@ nsIURI
 mURI
 ;
 const
-nsAutoCString
+nsCString
 mContentType
 ;
-nsAutoCString
+nsCString
 mContentURL
 ;
 bool

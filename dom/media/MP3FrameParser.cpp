@@ -1376,7 +1376,7 @@ int64_t
 FindNumVBRFrames
 (
 const
-nsAutoCString
+nsCString
 &
 aFrame
 )

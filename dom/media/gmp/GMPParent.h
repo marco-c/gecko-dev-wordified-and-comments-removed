@@ -741,7 +741,7 @@ nsITimer
 >
 mAsyncShutdownTimeout
 ;
-nsAutoCString
+nsCString
 mNodeId
 ;
 RefPtr

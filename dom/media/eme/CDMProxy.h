@@ -492,10 +492,10 @@ InitData
 uint32_t
 mPromiseId
 ;
-nsAutoString
+nsString
 mOrigin
 ;
-nsAutoString
+nsString
 mTopLevelOrigin
 ;
 nsString
@@ -578,7 +578,7 @@ mCreateSessionToken
 PromiseId
 mPromiseId
 ;
-nsAutoCString
+nsCString
 mInitDataType
 ;
 nsTArray
@@ -605,7 +605,7 @@ SessionOpData
 PromiseId
 mPromiseId
 ;
-nsAutoCString
+nsCString
 mSessionId
 ;
 }
@@ -650,7 +650,7 @@ UpdateSessionData
 PromiseId
 mPromiseId
 ;
-nsAutoCString
+nsCString
 mSessionId
 ;
 nsTArray
@@ -980,7 +980,7 @@ MediaKeys
 mKeys
 ;
 const
-nsAutoString
+nsString
 mKeySystem
 ;
 RefPtr
