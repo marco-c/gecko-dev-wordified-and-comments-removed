@@ -85,7 +85,7 @@ aOutUploadSize
 =
 nullptr
 bool
-aOverwrite
+aNeedInit
 =
 false
 bool
@@ -130,7 +130,7 @@ aOutUploadSize
 =
 nullptr
 bool
-aOverwrite
+aNeedInit
 =
 false
 const
