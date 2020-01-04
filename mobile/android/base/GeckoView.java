@@ -2561,6 +2561,7 @@ tab
 .
 doReload
 (
+true
 )
 ;
 }
