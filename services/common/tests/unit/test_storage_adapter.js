@@ -11,9 +11,9 @@ services
 -
 common
 /
-moz
--
 kinto
+-
+offline
 -
 client
 .
