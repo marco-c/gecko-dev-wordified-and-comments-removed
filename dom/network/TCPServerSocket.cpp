@@ -531,7 +531,7 @@ api
 .
 Init
 (
-GetOwnerGlobal
+GetOwner
 (
 )
 )
@@ -626,8 +626,11 @@ nsIGlobalObject
 >
 global
 =
-GetOwnerGlobal
+do_QueryInterface
 (
+GetOwner
+(
+)
 )
 ;
 nsRefPtr
@@ -806,8 +809,11 @@ nsIGlobalObject
 >
 global
 =
-GetOwnerGlobal
+do_QueryInterface
 (
+GetOwner
+(
+)
 )
 ;
 NS_ENSURE_TRUE

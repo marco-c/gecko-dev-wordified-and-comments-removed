@@ -774,13 +774,6 @@ test_basics
 (
 )
 {
-if
-(
-enablePrefsAndPermissions
-(
-)
-)
-{
 let
 prefDeferred
 =
@@ -856,7 +849,6 @@ permDeferred
 .
 promise
 ;
-}
 let
 serverPort
 =
@@ -865,7 +857,8 @@ serverPort
 let
 listeningServer
 =
-createServer
+new
+TCPServerSocket
 (
 serverPort
 {
@@ -889,7 +882,8 @@ listeningServer
 let
 clientSocket
 =
-createSocket
+new
+TCPSocket
 (
 '
 127
@@ -1668,7 +1662,8 @@ listeningServer
 ;
 clientSocket
 =
-createSocket
+new
+TCPSocket
 (
 '
 127
@@ -1883,7 +1878,8 @@ listeningServer
 ;
 clientSocket
 =
-createSocket
+new
+TCPSocket
 (
 '
 127
@@ -2118,7 +2114,8 @@ listeningServer
 ;
 clientSocket
 =
-createSocket
+new
+TCPSocket
 (
 '
 127
@@ -2274,7 +2271,8 @@ close
 ;
 clientSocket
 =
-createSocket
+new
+TCPSocket
 (
 '
 127
