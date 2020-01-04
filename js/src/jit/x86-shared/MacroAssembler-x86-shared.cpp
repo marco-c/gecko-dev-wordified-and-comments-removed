@@ -362,10 +362,6 @@ reg
 scratch
 )
 ;
-asMasm
-(
-)
-.
 branchTest32
 (
 NonZero
