@@ -1249,6 +1249,16 @@ nsIRunnable
 >
 event
 ;
+{
+MutexAutoLock
+lock
+(
+self
+-
+>
+mLock
+)
+;
 if
 (
 !
@@ -1265,6 +1275,7 @@ getter_AddRefs
 (
 event
 )
+lock
 )
 )
 {
@@ -1282,6 +1293,7 @@ event
 ;
 return
 ;
+}
 }
 event
 -
@@ -1394,6 +1406,7 @@ mEvents
 >
 HasPendingEvent
 (
+lock
 )
 )
 {
@@ -1770,6 +1783,7 @@ mEventsRoot
 PutEvent
 (
 startup
+lock
 )
 ;
 }
@@ -1995,6 +2009,7 @@ Move
 (
 aEvent
 )
+lock
 )
 ;
 obs
@@ -2822,6 +2837,7 @@ mEvents
 >
 HasPendingEvent
 (
+lock
 )
 ;
 }
@@ -3488,6 +3504,13 @@ nsIRunnable
 >
 event
 ;
+{
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 mEvents
 -
 >
@@ -3498,8 +3521,10 @@ getter_AddRefs
 (
 event
 )
+lock
 )
 ;
+}
 *
 aResult
 =
@@ -4242,6 +4267,7 @@ getter_AddRefs
 (
 event
 )
+lock
 )
 )
 {
@@ -4255,6 +4281,7 @@ event
 forget
 (
 )
+lock
 )
 ;
 }
