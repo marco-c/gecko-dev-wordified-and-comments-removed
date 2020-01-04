@@ -2186,6 +2186,9 @@ proto
 cx
 )
 ;
+if
+(
+!
 GetPrototype
 (
 cx
@@ -2193,6 +2196,9 @@ targetObj
 &
 proto
 )
+)
+return
+false
 ;
 if
 (
