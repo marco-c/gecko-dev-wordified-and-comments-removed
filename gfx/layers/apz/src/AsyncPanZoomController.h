@@ -1790,6 +1790,9 @@ mAsyncTransformAppliedToContent
 ;
 private
 :
+Mutex
+mCheckerboardEventLock
+;
 UniquePtr
 <
 CheckerboardEvent
