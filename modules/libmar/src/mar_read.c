@@ -438,7 +438,11 @@ if
 buf
 =
 =
+(
 buf_end
+-
+1
+)
 )
 return
 -
