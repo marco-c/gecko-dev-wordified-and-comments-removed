@@ -81,6 +81,9 @@ SurfaceCaps
 minCaps
 CreateContextFlags
 flags
+nsACString
+&
+failureId
 )
 ;
 static
@@ -92,6 +95,9 @@ CreateHeadless
 (
 CreateContextFlags
 flags
+nsACString
+&
+aFailureId
 )
 ;
 static

@@ -227,6 +227,9 @@ if
 sSnapshotContext
 )
 {
+nsCString
+discardFailureId
+;
 sSnapshotContext
 =
 GLContextProvider
@@ -238,6 +241,7 @@ CreateContextFlags
 :
 :
 NONE
+discardFailureId
 )
 ;
 if

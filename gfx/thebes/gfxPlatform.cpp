@@ -5973,6 +5973,9 @@ GLContext
 >
 glContext
 ;
+nsCString
+discardFailureId
+;
 glContext
 =
 GLContextProvider
@@ -5989,6 +5992,7 @@ CreateContextFlags
 :
 :
 ALLOW_OFFLINE_RENDERER
+discardFailureId
 )
 ;
 if

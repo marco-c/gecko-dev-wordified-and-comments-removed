@@ -258,6 +258,9 @@ GLContext
 >
 gl
 ;
+nsCString
+discardFailureId
+;
 gl
 =
 gl
@@ -275,6 +278,7 @@ CreateContextFlags
 :
 :
 REQUIRE_COMPAT_PROFILE
+discardFailureId
 )
 ;
 if

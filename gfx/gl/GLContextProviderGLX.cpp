@@ -4887,6 +4887,9 @@ const
 SurfaceCaps
 &
 minCaps
+nsACString
+&
+aFailureId
 ContextProfile
 profile
 =
@@ -5181,6 +5184,9 @@ GLContextProviderGLX
 CreateHeadless
 (
 CreateContextFlags
+nsACString
+&
+aFailureId
 )
 {
 IntSize
@@ -5207,6 +5213,7 @@ CreateOffscreenPixmapContext
 (
 dummySize
 dummyCaps
+aFailureId
 )
 ;
 }
@@ -5229,6 +5236,9 @@ SurfaceCaps
 minCaps
 CreateContextFlags
 flags
+nsACString
+&
+aFailureId
 )
 {
 SurfaceCaps
@@ -5300,6 +5310,7 @@ CreateOffscreenPixmapContext
 (
 size
 minBackbufferCaps
+aFailureId
 profile
 )
 ;
@@ -5323,9 +5334,20 @@ size
 minCaps
 )
 )
+{
+aFailureId
+=
+NS_LITERAL_CSTRING
+(
+"
+FEATURE_FAILURE_GLX_INIT
+"
+)
+;
 return
 nullptr
 ;
+}
 return
 gl
 .
@@ -5377,6 +5399,9 @@ MOZ_RELEASE_ASSERT
 gGlobalContext
 )
 ;
+nsCString
+discardFailureId
+;
 RefPtr
 <
 GLContext
@@ -5389,6 +5414,7 @@ CreateContextFlags
 :
 :
 NONE
+discardFailureId
 )
 ;
 gGlobalContext
