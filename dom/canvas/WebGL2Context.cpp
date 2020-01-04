@@ -51,6 +51,13 @@ h
 #
 include
 "
+nsPrintfCString
+.
+h
+"
+#
+include
+"
 WebGLBuffer
 .
 h
