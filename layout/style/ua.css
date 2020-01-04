@@ -373,13 +373,6 @@ space
 inherit
 ;
 }
-supports
-(
-display
-:
-ruby
-)
-{
 *
 |
 *
@@ -523,7 +516,6 @@ moz
 -
 isolate
 ;
-}
 }
 *
 |

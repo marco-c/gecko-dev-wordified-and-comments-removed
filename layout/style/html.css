@@ -4110,13 +4110,6 @@ none
 ;
 }
 }
-supports
-(
-display
-:
-ruby
-)
-{
 ruby
 {
 display
@@ -4322,5 +4315,4 @@ moz
 -
 isolate
 ;
-}
 }
