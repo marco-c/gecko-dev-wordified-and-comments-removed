@@ -160,8 +160,7 @@ mVersion
 &
 &
 micro
-!
-=
+<
 100
 )
 {
