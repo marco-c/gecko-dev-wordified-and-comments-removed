@@ -24,6 +24,8 @@ os
 import
 sys
 import
+time
+import
 urlparse
 sys
 .
@@ -465,6 +467,13 @@ switch_to_frame
 (
 )
         
+time
+.
+sleep
+(
+2
+)
+        
 chatbox
 =
 self
@@ -803,7 +812,7 @@ By
 CSS_SELECTOR
                                                 
 selector
-20
+30
 )
         
 self
