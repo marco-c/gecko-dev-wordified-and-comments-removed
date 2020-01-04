@@ -818,7 +818,7 @@ mSelectionBarEnabled
 aEnabled
 ;
 }
-nsString
+nsAutoString
 AccessibleCaret
 :
 :

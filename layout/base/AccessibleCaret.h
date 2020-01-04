@@ -480,7 +480,7 @@ CustomContentContainerFrame
 const
 ;
 static
-nsString
+nsAutoString
 AppearanceString
 (
 Appearance
