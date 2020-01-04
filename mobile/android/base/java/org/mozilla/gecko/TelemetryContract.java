@@ -451,6 +451,12 @@ SUGGESTION
 suggestion
 "
 )
+SYSTEM
+(
+"
+system
+"
+)
 TABSTRAY
 (
 "
