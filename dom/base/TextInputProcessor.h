@@ -239,15 +239,6 @@ bool
 aDoDefault
 )
 ;
-TextEventDispatcher
-:
-:
-DispatchTo
-GetDispatchTo
-(
-)
-const
-;
 nsresult
 IsValidStateForComposition
 (

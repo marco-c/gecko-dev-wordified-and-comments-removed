@@ -170,7 +170,7 @@ return
 BeginInputTransactionInternal
 (
 aListener
-eOtherInputTransaction
+eSameProcessSyncInputTransaction
 )
 ;
 }
@@ -183,13 +183,19 @@ BeginTestInputTransaction
 TextEventDispatcherListener
 *
 aListener
+bool
+aIsAPZAware
 )
 {
 return
 BeginInputTransactionInternal
 (
 aListener
-eTestInputTransaction
+aIsAPZAware
+?
+eAsyncTestInputTransaction
+:
+eSameProcessSyncTestInputTransaction
 )
 ;
 }
@@ -586,10 +592,9 @@ mFlags
 .
 mIsSynthesizedForTests
 =
-mInputTransactionType
-=
-=
-eTestInputTransaction
+IsForTests
+(
+)
 ;
 if
 (
@@ -778,8 +783,6 @@ aEvent
 nsEventStatus
 &
 aStatus
-DispatchTo
-aDispatchTo
 )
 {
 RefPtr
@@ -811,10 +814,9 @@ NS_OK
 ;
 if
 (
-aDispatchTo
-=
-=
-eDispatchToParentProcess
+ShouldSendInputEventToAPZ
+(
+)
 )
 {
 aStatus
@@ -1381,8 +1383,6 @@ aKeyboardEvent
 nsEventStatus
 &
 aStatus
-DispatchTo
-aDispatchTo
 )
 {
 return
@@ -1391,7 +1391,6 @@ DispatchKeyboardEventInternal
 aMessage
 aKeyboardEvent
 aStatus
-aDispatchTo
 )
 ;
 }
@@ -1410,8 +1409,6 @@ aKeyboardEvent
 nsEventStatus
 &
 aStatus
-DispatchTo
-aDispatchTo
 uint32_t
 aIndexOfKeypress
 )
@@ -1758,7 +1755,6 @@ DispatchInputEvent
 mWidget
 keyEvent
 aStatus
-aDispatchTo
 )
 ;
 return
@@ -1778,8 +1774,6 @@ aKeyboardEvent
 nsEventStatus
 &
 aStatus
-DispatchTo
-aDispatchTo
 )
 {
 if
@@ -1868,7 +1862,6 @@ DispatchKeyboardEventInternal
 eKeyPress
 aKeyboardEvent
 aStatus
-aDispatchTo
 i
 )
 )
