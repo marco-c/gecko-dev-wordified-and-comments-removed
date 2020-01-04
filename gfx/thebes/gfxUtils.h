@@ -814,15 +814,6 @@ nscolor
 aColor
 )
 ;
-Color
-ToDeviceColor
-(
-const
-gfxRGBA
-&
-aColor
-)
-;
 static
 inline
 bool
