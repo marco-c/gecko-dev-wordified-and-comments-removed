@@ -1491,16 +1491,6 @@ GeckoBrowserApp
 private
 static
 final
-boolean
-ZOOMED_VIEW_ENABLED
-=
-AppConstants
-.
-NIGHTLY_BUILD
-;
-private
-static
-final
 int
 TABS_ANIMATION_DURATION
 =
@@ -4294,11 +4284,6 @@ getScreenDepth
 )
 )
 ;
-if
-(
-ZOOMED_VIEW_ENABLED
-)
-{
 ViewStub
 stub
 =
@@ -4325,7 +4310,6 @@ inflate
 (
 )
 ;
-}
 }
 private
 void
