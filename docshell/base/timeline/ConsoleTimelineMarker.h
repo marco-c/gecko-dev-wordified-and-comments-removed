@@ -78,7 +78,7 @@ bool
 Equals
 (
 const
-TimelineMarker
+AbstractTimelineMarker
 &
 aOther
 )
