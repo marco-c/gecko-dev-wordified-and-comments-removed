@@ -11705,8 +11705,10 @@ return
 true
 ;
 }
-static
 bool
+js
+:
+:
 IsStandardPrototype
 (
 JSObject
