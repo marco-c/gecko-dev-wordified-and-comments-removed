@@ -3477,12 +3477,11 @@ s
 _as
             
 exec
-(
 import_line
+in
 {
 }
 glob
-)
     
 def
 _resolve_and_set
