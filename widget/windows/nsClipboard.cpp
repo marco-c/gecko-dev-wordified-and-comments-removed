@@ -361,6 +361,8 @@ const
 char
 *
 aMimeStr
+bool
+aMapHTMLMime
 )
 {
 UINT
@@ -498,6 +500,9 @@ kNativeHTMLMime
 0
 |
 |
+aMapHTMLMime
+&
+&
 strcmp
 (
 aMimeStr
@@ -775,6 +780,7 @@ format
 GetFormat
 (
 flavorStr
+false
 )
 ;
 FORMATETC

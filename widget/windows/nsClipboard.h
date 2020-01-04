@@ -204,6 +204,10 @@ const
 char
 *
 aMimeStr
+bool
+aMapHTMLMime
+=
+true
 )
 ;
 static
