@@ -524,6 +524,8 @@ init
 (
 UniqueModuleGeneratorData
 shared
+UniqueChars
+filename
 ModuleKind
 =
 ModuleKind
@@ -609,6 +611,13 @@ index
 ]
 ;
 }
+void
+initHeapUsage
+(
+HeapUsage
+heapUsage
+)
+;
 void
 initSig
 (
@@ -854,10 +863,6 @@ offsets
 bool
 finish
 (
-HeapUsage
-heapUsage
-CacheableChars
-filename
 CacheableCharsVector
 &
 &
