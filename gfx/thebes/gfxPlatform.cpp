@@ -10878,6 +10878,13 @@ mCompositorBackend
 =
 aBackend
 ;
+NS_DispatchToMainThread
+(
+NS_NewRunnableFunction
+(
+[
+]
+{
 if
 (
 nsCOMPtr
@@ -10909,6 +10916,10 @@ nullptr
 )
 ;
 }
+}
+)
+)
+;
 }
 void
 gfxPlatform
