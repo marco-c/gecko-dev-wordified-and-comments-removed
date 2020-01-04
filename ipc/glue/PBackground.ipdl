@@ -66,6 +66,10 @@ PBackgroundIDBFactory
 ;
 include
 protocol
+PBackgroundIndexedDBUtils
+;
+include
+protocol
 PBackgroundTest
 ;
 include
@@ -231,6 +235,9 @@ manages
 PBackgroundIDBFactory
 ;
 manages
+PBackgroundIndexedDBUtils
+;
+manages
 PBackgroundTest
 ;
 manages
@@ -298,6 +305,10 @@ PBackgroundIDBFactory
 (
 LoggingInfo
 loggingInfo
+)
+;
+PBackgroundIndexedDBUtils
+(
 )
 ;
 PVsync
