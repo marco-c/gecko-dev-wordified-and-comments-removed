@@ -472,8 +472,6 @@ attribute
 EventHandler
 onended
 ;
-/
-/
 MediaStreamTrack
 clone
 (
