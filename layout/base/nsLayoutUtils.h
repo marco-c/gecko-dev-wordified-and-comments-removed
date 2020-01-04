@@ -4930,6 +4930,16 @@ sSVGTransformBoxEnabled
 ;
 }
 static
+bool
+TextCombineUprightDigitsEnabled
+(
+)
+{
+return
+sTextCombineUprightDigitsEnabled
+;
+}
+static
 int32_t
 FontSizeInflationMappingIntercept
 (
@@ -5647,6 +5657,10 @@ sInterruptibleReflowEnabled
 static
 bool
 sSVGTransformBoxEnabled
+;
+static
+bool
+sTextCombineUprightDigitsEnabled
 ;
 static
 void
