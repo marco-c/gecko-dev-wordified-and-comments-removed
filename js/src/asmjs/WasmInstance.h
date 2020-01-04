@@ -439,10 +439,13 @@ pc
 )
 const
 ;
+#
+ifdef
+ASMJS_MAY_USE_SIGNAL_HANDLERS
 const
-HeapAccess
+MemoryAccess
 *
-lookupHeapAccess
+lookupMemoryAccess
 (
 void
 *
@@ -450,6 +453,8 @@ pc
 )
 const
 ;
+#
+endif
 void
 addSizeOfMisc
 (

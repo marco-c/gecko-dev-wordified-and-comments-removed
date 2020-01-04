@@ -370,8 +370,7 @@ this
 ;
 private
 :
-MOZ_MUST_USE
-uint32_t
+void
 emitAsmJSBoundsCheckBranch
 (
 const
@@ -391,8 +390,7 @@ fail
 ;
 public
 :
-MOZ_MUST_USE
-uint32_t
+bool
 maybeEmitThrowingAsmJSBoundsCheck
 (
 const
@@ -409,8 +407,7 @@ LAllocation
 ptr
 )
 ;
-MOZ_MUST_USE
-uint32_t
+bool
 maybeEmitAsmJSLoadBoundsCheck
 (
 const
@@ -426,8 +423,7 @@ OutOfLineLoadTypedArrayOutOfBounds
 ool
 )
 ;
-MOZ_MUST_USE
-uint32_t
+bool
 maybeEmitAsmJSStoreBoundsCheck
 (
 const

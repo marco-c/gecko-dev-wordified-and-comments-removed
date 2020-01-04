@@ -1460,8 +1460,11 @@ imports
 ExportVector
 exports
 ;
-HeapAccessVector
-heapAccesses
+MemoryAccessVector
+memoryAccesses
+;
+BoundsCheckVector
+boundsChecks
 ;
 CodeRangeVector
 codeRanges
