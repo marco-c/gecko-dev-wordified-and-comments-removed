@@ -562,7 +562,6 @@ SendOnEnd
 false
 aElapsedTime
 aCharIndex
-0
 )
 )
 )
@@ -695,7 +694,6 @@ SendOnEnd
 true
 aElapsedTime
 aCharIndex
-aError
 )
 )
 )
