@@ -409,16 +409,6 @@ IsDefaultPrevented
 )
 const
 ;
-void
-DispatchImmediate
-(
-const
-InputData
-&
-aEvent
-)
-const
-;
 virtual
 void
 DispatchEvent
