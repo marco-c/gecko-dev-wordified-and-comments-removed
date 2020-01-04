@@ -3,9 +3,9 @@ org
 .
 mozilla
 .
-search
+gecko
 .
-providers
+search
 ;
 import
 android
