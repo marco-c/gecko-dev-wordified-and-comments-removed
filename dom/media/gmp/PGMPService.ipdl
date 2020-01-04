@@ -171,6 +171,15 @@ nsCString
 id
 )
 ;
+async
+UpdateGMPTrialCreateState
+(
+nsString
+keySystem
+uint32_t
+status
+)
+;
 }
 ;
 }
