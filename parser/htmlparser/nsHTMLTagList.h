@@ -140,6 +140,11 @@ HTML_TAG
 del
 Mod
 )
+HTML_TAG
+(
+details
+Details
+)
 HTML_HTMLELEMENT_TAG
 (
 dfn
@@ -527,6 +532,11 @@ Style
 HTML_HTMLELEMENT_TAG
 (
 sub
+)
+HTML_TAG
+(
+summary
+Summary
 )
 HTML_HTMLELEMENT_TAG
 (

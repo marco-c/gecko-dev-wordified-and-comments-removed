@@ -184,6 +184,11 @@ kFlowEntity
 false
 }
 {
+eHTMLTag_details
+kBlock
+false
+}
+{
 eHTMLTag_dfn
 kPhrase
 false
@@ -613,6 +618,11 @@ false
 {
 eHTMLTag_sub
 kSpecial
+false
+}
+{
+eHTMLTag_summary
+kBlock
 false
 }
 {
