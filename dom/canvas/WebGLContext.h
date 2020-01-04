@@ -4844,6 +4844,9 @@ const
 out
 )
 ;
+GLenum
+mPrimRestartTypeBytes
+;
 public
 :
 void

@@ -4058,6 +4058,10 @@ mPixelStore_PackAlignment
 =
 4
 ;
+mPrimRestartTypeBytes
+=
+0
+;
 return
 true
 ;
