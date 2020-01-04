@@ -444,9 +444,7 @@ android
 layout_width
 =
 "
-dimen
-/
-firstrun_content_width
+wrap_content
 "
 android
 :
