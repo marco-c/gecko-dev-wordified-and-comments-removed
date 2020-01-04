@@ -1181,7 +1181,7 @@ options
 .
 enableRemote
 .
-tooltip
+tooltip2
 "
 Turning
 this
@@ -1194,8 +1194,8 @@ developer
 tools
 to
 debug
+a
 remote
-Firefox
 instance
 like
 Firefox
@@ -1607,7 +1607,7 @@ options
 .
 selectDefaultTools
 .
-label
+label2
 )
 :
 This
@@ -1640,10 +1640,9 @@ options
 .
 selectDefaultTools
 .
-label
+label2
 "
 Default
-Firefox
 Developer
 Tools
 "
