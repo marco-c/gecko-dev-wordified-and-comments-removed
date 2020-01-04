@@ -8,11 +8,9 @@ import
 os
 import
 subprocess
-ANDROID_PLATFORM
+ANDROID_TARGET_SDK
 =
 '
-android
--
 22
 '
 ANDROID_BUILD_TOOLS_VERSION
@@ -36,6 +34,8 @@ tools
 platform
 -
 tools
+-
+preview
 '
     
 '
@@ -49,7 +49,14 @@ s
 %
 ANDROID_BUILD_TOOLS_VERSION
     
-ANDROID_PLATFORM
+'
+android
+-
+%
+s
+'
+%
+ANDROID_TARGET_SDK
     
 '
 extra
@@ -1077,13 +1084,7 @@ ANDROID_PACKAGES
     
 missing
 =
-list_missing_android_packages
-(
-android_tool
 packages
-=
-packages
-)
     
 if
 not
@@ -1138,6 +1139,11 @@ no
 -
 ui
 '
+'
+-
+-
+all
+'
                            
 '
 -
@@ -1156,13 +1162,8 @@ missing
     
 failing
 =
-list_missing_android_packages
-(
-android_tool
-packages
-=
-packages
-)
+[
+]
     
 if
 failing
