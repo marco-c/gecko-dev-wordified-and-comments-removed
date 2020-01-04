@@ -3968,15 +3968,6 @@ sPrivacyResistFingerprinting
 }
 static
 bool
-HasPluginWithUncontrolledEventDispatch
-(
-nsIDocument
-*
-aDoc
-)
-;
-static
-bool
 IsControlledByServiceWorker
 (
 nsIDocument
