@@ -8430,6 +8430,10 @@ mIndexedDB
 =
 nullptr
 ;
+UnlinkHostObjectURIs
+(
+)
+;
 NotifyWindowIDDestroyed
 (
 "
