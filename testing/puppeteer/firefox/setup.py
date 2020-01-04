@@ -106,7 +106,9 @@ setup
 name
 =
 '
-firefox_puppeteer
+firefox
+-
+puppeteer
 '
       
 version

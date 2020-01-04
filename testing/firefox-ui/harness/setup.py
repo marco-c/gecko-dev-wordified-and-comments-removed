@@ -128,7 +128,11 @@ setup
 name
 =
 '
-firefox_ui_harness
+firefox
+-
+ui
+-
+harness
 '
       
 version

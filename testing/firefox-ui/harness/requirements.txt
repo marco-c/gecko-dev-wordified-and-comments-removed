@@ -80,12 +80,14 @@ the
 testcase
 classes
 #
-firefox_puppeteer
+firefox
+-
+puppeteer
 =
 =
 3
 .
-0
+1
 .
 0
 #
@@ -99,4 +101,8 @@ and
 manifest
 files
 #
-firefox_ui_tests
+firefox
+-
+ui
+-
+tests
