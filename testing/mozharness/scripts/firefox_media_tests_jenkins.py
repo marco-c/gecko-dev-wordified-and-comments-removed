@@ -92,10 +92,6 @@ clobber
 '
                          
 '
-checkout
-'
-                         
-'
 download
 -
 and
