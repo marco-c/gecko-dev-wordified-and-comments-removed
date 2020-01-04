@@ -192,8 +192,8 @@ util
 DevToolsModules
 (
 '
-Templater
+templater
 .
-jsm
+js
 '
 )

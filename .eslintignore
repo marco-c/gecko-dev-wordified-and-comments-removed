@@ -905,6 +905,16 @@ gcli
 /
 *
 *
+!
+devtools
+/
+shared
+/
+gcli
+/
+templater
+.
+js
 devtools
 /
 shared
