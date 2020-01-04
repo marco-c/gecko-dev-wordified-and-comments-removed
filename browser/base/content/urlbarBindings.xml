@@ -9680,6 +9680,11 @@ compact
 "
 true
 "
+includecurrentengine
+=
+"
+true
+"
 flex
 =
 "
