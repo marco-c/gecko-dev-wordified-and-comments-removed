@@ -167,6 +167,9 @@ kHasSeccompBPF
 )
 ;
 }
+#
+ifdef
+MOZ_CRASHREPORTER
 MOZ_EXPORT
 void
 AnnotateCrashReport
@@ -174,6 +177,8 @@ AnnotateCrashReport
 )
 const
 ;
+#
+endif
 static
 void
 SubmitTelemetry
