@@ -427,10 +427,6 @@ options
 [
                 
 "
--
--
-tests
-=
 %
 (
 test_manifest
