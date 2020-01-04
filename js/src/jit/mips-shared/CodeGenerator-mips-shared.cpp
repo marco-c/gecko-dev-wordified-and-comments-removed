@@ -6772,6 +6772,8 @@ masm
 loadConstantFloat32
 (
 0
+.
+0f
 scratch
 )
 ;
@@ -6795,6 +6797,8 @@ loadConstantFloat32
 (
 -
 1
+.
+0f
 scratch
 )
 ;
