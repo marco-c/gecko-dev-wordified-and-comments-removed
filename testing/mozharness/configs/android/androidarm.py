@@ -1442,6 +1442,21 @@ chunks
 "
                 
 "
+-
+-
+suite
+=
+reftest
+"
+            
+]
+            
+"
+tests
+"
+:
+[
+"
 tests
 /
 layout
@@ -1452,7 +1467,6 @@ reftest
 .
 list
 "
-            
 ]
         
 }
@@ -1650,6 +1664,21 @@ chunks
 "
                 
 "
+-
+-
+suite
+=
+crashtest
+"
+            
+]
+            
+"
+tests
+"
+:
+[
+"
 tests
 /
 testing
@@ -1660,7 +1689,6 @@ crashtests
 .
 list
 "
-            
 ]
         
 }
@@ -1848,19 +1876,6 @@ s
 "
                 
 "
-.
-.
-/
-jsreftest
-/
-tests
-/
-jstests
-.
-list
-"
-                
-"
 -
 -
 total
@@ -1887,7 +1902,34 @@ user
 .
 js
 "
+                
+"
+-
+-
+suite
+=
+jstestbrowser
+"
             
+]
+            
+"
+tests
+"
+:
+[
+"
+.
+.
+/
+jsreftest
+/
+tests
+/
+jstests
+.
+list
+"
 ]
         
 }
@@ -3185,18 +3227,6 @@ chunk
 =
 1
 "
-                
-"
-tests
-/
-layout
-/
-reftests
-/
-reftest
-.
-list
-"
 ]
         
 }
@@ -3239,18 +3269,6 @@ this
 chunk
 =
 2
-"
-                
-"
-tests
-/
-layout
-/
-reftests
-/
-reftest
-.
-list
 "
 ]
         
@@ -3295,18 +3313,6 @@ chunk
 =
 3
 "
-                
-"
-tests
-/
-layout
-/
-reftests
-/
-reftest
-.
-list
-"
 ]
         
 }
@@ -3349,18 +3355,6 @@ this
 chunk
 =
 4
-"
-                
-"
-tests
-/
-layout
-/
-reftests
-/
-reftest
-.
-list
 "
 ]
         
@@ -3405,18 +3399,6 @@ chunk
 =
 5
 "
-                
-"
-tests
-/
-layout
-/
-reftests
-/
-reftest
-.
-list
-"
 ]
         
 }
@@ -3459,18 +3441,6 @@ this
 chunk
 =
 6
-"
-                
-"
-tests
-/
-layout
-/
-reftests
-/
-reftest
-.
-list
 "
 ]
         
@@ -3515,18 +3485,6 @@ chunk
 =
 7
 "
-                
-"
-tests
-/
-layout
-/
-reftests
-/
-reftest
-.
-list
-"
 ]
         
 }
@@ -3569,18 +3527,6 @@ this
 chunk
 =
 8
-"
-                
-"
-tests
-/
-layout
-/
-reftests
-/
-reftest
-.
-list
 "
 ]
         
@@ -3625,18 +3571,6 @@ chunk
 =
 9
 "
-                
-"
-tests
-/
-layout
-/
-reftests
-/
-reftest
-.
-list
-"
 ]
         
 }
@@ -3679,18 +3613,6 @@ this
 chunk
 =
 10
-"
-                
-"
-tests
-/
-layout
-/
-reftests
-/
-reftest
-.
-list
 "
 ]
         
@@ -3735,18 +3657,6 @@ chunk
 =
 11
 "
-                
-"
-tests
-/
-layout
-/
-reftests
-/
-reftest
-.
-list
-"
 ]
         
 }
@@ -3789,18 +3699,6 @@ this
 chunk
 =
 12
-"
-                
-"
-tests
-/
-layout
-/
-reftests
-/
-reftest
-.
-list
 "
 ]
         
@@ -3845,18 +3743,6 @@ chunk
 =
 13
 "
-                
-"
-tests
-/
-layout
-/
-reftests
-/
-reftest
-.
-list
-"
 ]
         
 }
@@ -3899,18 +3785,6 @@ this
 chunk
 =
 14
-"
-                
-"
-tests
-/
-layout
-/
-reftests
-/
-reftest
-.
-list
 "
 ]
         
@@ -3955,18 +3829,6 @@ chunk
 =
 15
 "
-                
-"
-tests
-/
-layout
-/
-reftests
-/
-reftest
-.
-list
-"
 ]
         
 }
@@ -4009,18 +3871,6 @@ this
 chunk
 =
 16
-"
-                
-"
-tests
-/
-layout
-/
-reftests
-/
-reftest
-.
-list
 "
 ]
         
