@@ -223,6 +223,20 @@ edgelabel
 b
 '
 }
+                
+'
+kind_implementation
+'
+:
+'
+taskgraph
+.
+test
+.
+util
+:
+TestTask
+'
             
 }
             
@@ -274,6 +288,20 @@ dependencies
 :
 {
 }
+                
+'
+kind_implementation
+'
+:
+'
+taskgraph
+.
+test
+.
+util
+:
+TestTask
+'
             
 }
         
