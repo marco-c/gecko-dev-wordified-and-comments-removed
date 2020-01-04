@@ -106,6 +106,17 @@ browser
 /
 ext
 -
+desktop
+-
+runtime
+.
+js
+content
+/
+browser
+/
+ext
+-
 tabs
 .
 js
