@@ -321,7 +321,7 @@ etag
 =
 object
 .
-getString
+optString
 (
 JSON_KEY_ETAG
 )
@@ -332,7 +332,7 @@ lastModified
 =
 object
 .
-getString
+optString
 (
 JSON_KEY_LAST_MODIFIED
 )
