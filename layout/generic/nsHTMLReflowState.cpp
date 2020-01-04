@@ -7094,7 +7094,7 @@ computeSizeFlags
 ComputeSizeFlags
 :
 :
-eUseAutoHeight
+eUseAutoBSize
 )
 ;
 }
@@ -10405,7 +10405,7 @@ computeSizeFlags
 ComputeSizeFlags
 :
 :
-eUseAutoHeight
+eUseAutoBSize
 )
 ;
 }
@@ -10689,7 +10689,7 @@ computeSizeFlags
 ComputeSizeFlags
 :
 :
-eUseAutoHeight
+eUseAutoBSize
 )
 ;
 }

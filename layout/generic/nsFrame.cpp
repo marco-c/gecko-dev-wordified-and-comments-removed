@@ -21713,7 +21713,7 @@ aFlags
 nsIFrame
 :
 :
-eUseAutoHeight
+eUseAutoBSize
 )
 )
 {

@@ -5181,7 +5181,7 @@ eShrinkWrap
 <
 <
 0
-eUseAutoHeight
+eUseAutoBSize
 =
 1
 <
