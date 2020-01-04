@@ -148,6 +148,11 @@ SCROLL2_X
 +
 SCROLL2_Y
 ;
+requestLongerTimeout
+(
+2
+)
+;
 add_task
 (
 function
