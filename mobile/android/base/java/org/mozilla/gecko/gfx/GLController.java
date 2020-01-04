@@ -179,7 +179,6 @@ GLController
 )
 {
 }
-synchronized
 void
 serverSurfaceDestroyed
 (
@@ -191,10 +190,6 @@ assertOnUiThread
 (
 )
 ;
-mServerSurfaceValid
-=
-false
-;
 if
 (
 mCompositorCreated
@@ -203,6 +198,16 @@ mCompositorCreated
 pauseCompositor
 (
 )
+;
+}
+synchronized
+(
+this
+)
+{
+mServerSurfaceValid
+=
+false
 ;
 }
 }
