@@ -293,9 +293,6 @@ h
 "
 #
 undef
-LIBAVCODEC_ALLVERSION
-#
-undef
 AV_FUNC
 static
 PRLibrary
@@ -907,8 +904,6 @@ Create
 ;
 break
 ;
-#
-endif
 case
 55
 :
@@ -929,6 +924,8 @@ Create
 ;
 break
 ;
+#
+endif
 case
 57
 :
@@ -1080,4 +1077,7 @@ return
 true
 ;
 }
+#
+undef
+LIBAVCODEC_ALLVERSION
 }

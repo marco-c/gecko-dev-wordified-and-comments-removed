@@ -324,7 +324,7 @@ libav54
 '
 ffmpeg
 /
-ffmpeg57
+libav55
 '
 ]
 else
@@ -336,7 +336,7 @@ LOCAL_INCLUDES
 '
 ffmpeg
 /
-libav55
+ffmpeg57
 /
 include
 '
@@ -348,7 +348,7 @@ DIRS
 '
 ffmpeg
 /
-libav55
+ffmpeg57
 '
 ]
 if

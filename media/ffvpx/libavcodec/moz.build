@@ -215,6 +215,11 @@ parser
 c
 '
 '
+profiles
+.
+c
+'
+'
 pthread
 .
 c
@@ -329,8 +334,6 @@ SYMBOLS_FILE
 =
 '
 avcodec
--
-56
 .
 symbols
 '
