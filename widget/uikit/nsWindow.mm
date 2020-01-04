@@ -1876,10 +1876,6 @@ mGeckoChild
 PaintWindow
 (
 region
-.
-ToUnknownRegion
-(
-)
 )
 ;
 }
@@ -2356,10 +2352,10 @@ CGContextSaveGState
 aContext
 )
 ;
-nsIntRegion
+LayoutDeviceIntRegion
 region
 =
-nsIntRect
+LayoutDeviceIntRect
 (
 NSToIntRound
 (
@@ -2638,7 +2634,10 @@ the
 clip
 region
 .
-nsIntRegionRectIterator
+LayoutDeviceIntRegion
+:
+:
+RectIterator
 iter
 (
 region
@@ -2658,7 +2657,7 @@ for
 )
 {
 const
-nsIntRect
+LayoutDeviceIntRect
 *
 r
 =
@@ -4512,7 +4511,7 @@ nsWindow
 :
 PaintWindow
 (
-nsIntRegion
+LayoutDeviceIntRegion
 aRegion
 )
 {

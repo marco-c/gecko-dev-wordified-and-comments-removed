@@ -9147,10 +9147,6 @@ PaintWindow
 (
 this
 region
-.
-ToUnknownRegion
-(
-)
 )
 ;
 listener
@@ -9418,10 +9414,6 @@ PaintWindow
 (
 this
 region
-.
-ToUnknownRegion
-(
-)
 )
 ;
 }

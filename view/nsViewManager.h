@@ -99,6 +99,13 @@ mozilla
 LayoutDeviceIntRect
 LayoutDeviceIntRect
 ;
+typedef
+mozilla
+:
+:
+LayoutDeviceIntRegion
+LayoutDeviceIntRegion
+;
 NS_DECL_AND_IMPL_ZEROING_OPERATOR_NEW
 NS_INLINE_DECL_REFCOUNTING
 (
@@ -624,7 +631,7 @@ nsView
 *
 aView
 const
-nsIntRegion
+LayoutDeviceIntRegion
 &
 aRegion
 )
@@ -760,7 +767,7 @@ PaintWindow
 nsIWidget
 *
 aWidget
-nsIntRegion
+LayoutDeviceIntRegion
 aRegion
 )
 ;

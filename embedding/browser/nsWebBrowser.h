@@ -435,7 +435,10 @@ PaintWindow
 nsIWidget
 *
 aWidget
-nsIntRegion
+mozilla
+:
+:
+LayoutDeviceIntRegion
 aRegion
 )
 override

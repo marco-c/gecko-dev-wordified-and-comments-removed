@@ -7976,7 +7976,7 @@ nsChildView
 :
 PaintWindow
 (
-nsIntRegion
+LayoutDeviceIntRegion
 aRegion
 )
 {
@@ -21192,10 +21192,6 @@ mGeckoChild
 PaintWindow
 (
 region
-.
-ToUnknownRegion
-(
-)
 )
 ;
 }
@@ -21242,10 +21238,6 @@ mGeckoChild
 PaintWindow
 (
 region
-.
-ToUnknownRegion
-(
-)
 )
 ;
 }
@@ -21649,10 +21641,6 @@ mGeckoChild
 PaintWindow
 (
 region
-.
-ToUnknownRegion
-(
-)
 )
 ;
 /

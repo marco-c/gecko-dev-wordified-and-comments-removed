@@ -239,7 +239,7 @@ PaintWindow
 nsIWidget
 *
 aWidget
-nsIntRegion
+LayoutDeviceIntRegion
 aRegion
 )
 {
