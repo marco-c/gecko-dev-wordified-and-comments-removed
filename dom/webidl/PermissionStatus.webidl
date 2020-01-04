@@ -141,15 +141,6 @@ Exposed
 (
 Window
 )
-Pref
-=
-"
-dom
-.
-permissions
-.
-enabled
-"
 ]
 interface
 PermissionStatus

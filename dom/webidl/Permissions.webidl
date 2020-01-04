@@ -165,15 +165,6 @@ Exposed
 (
 Window
 )
-Pref
-=
-"
-dom
-.
-permissions
-.
-enabled
-"
 ]
 interface
 Permissions

@@ -803,15 +803,6 @@ Navigator
 {
 [
 Throws
-Pref
-=
-"
-dom
-.
-permissions
-.
-enabled
-"
 ]
 readonly
 attribute
