@@ -434,7 +434,11 @@ FirstrunPager
 .
 this
 .
-getChildCount
+getAdapter
+(
+)
+.
+getCount
 (
 )
 -
