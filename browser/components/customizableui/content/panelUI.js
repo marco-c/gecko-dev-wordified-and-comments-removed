@@ -2614,17 +2614,6 @@ null
 }
 }
 ;
-XPCOMUtils
-.
-defineConstant
-(
-this
-"
-PanelUI
-"
-PanelUI
-)
-;
 function
 getLocale
 (

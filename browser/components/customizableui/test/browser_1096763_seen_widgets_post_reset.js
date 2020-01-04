@@ -51,17 +51,6 @@ AREA_NAVBAR
 }
 )
 ;
-const
-kPrefCustomizationState
-=
-"
-browser
-.
-uiCustomization
-.
-state
-"
-;
 let
 bsPass
 =
@@ -145,6 +134,8 @@ prefs
 .
 prefHasUserValue
 (
+bsPass
+.
 kPrefCustomizationState
 )
 "
@@ -197,6 +188,8 @@ prefs
 .
 prefHasUserValue
 (
+bsPass
+.
 kPrefCustomizationState
 )
 ;
@@ -232,6 +225,8 @@ prefs
 .
 getCharPref
 (
+bsPass
+.
 kPrefCustomizationState
 )
 )

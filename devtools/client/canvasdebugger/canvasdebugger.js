@@ -497,17 +497,6 @@ SourceNotFoundInJsDebugger
 "
 }
 ;
-XPCOMUtils
-.
-defineConstant
-(
-this
-"
-EVENTS
-"
-EVENTS
-)
-;
 const
 HTML_NS
 =

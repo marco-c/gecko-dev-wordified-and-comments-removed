@@ -31,7 +31,7 @@ WindowsRegistry
 "
 ]
 ;
-var
+const
 WindowsRegistry
 =
 {

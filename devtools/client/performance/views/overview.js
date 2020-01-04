@@ -56,7 +56,6 @@ withMemory
 ]
 }
 }
-;
 var
 OverviewView
 =

@@ -4530,7 +4530,7 @@ helper
 createWorker
 (
 '
-var
+let
 toplevelScope
 =
 true

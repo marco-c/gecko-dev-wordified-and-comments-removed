@@ -189,6 +189,12 @@ b
 ;
 do_check_eq
 (
+c
+3
+)
+;
+do_check_eq
+(
 d
 3
 )

@@ -431,17 +431,6 @@ UIInspectorResize
 "
 }
 ;
-XPCOMUtils
-.
-defineConstant
-(
-this
-"
-EVENTS
-"
-EVENTS
-)
-;
 var
 gToolbox
 gTarget

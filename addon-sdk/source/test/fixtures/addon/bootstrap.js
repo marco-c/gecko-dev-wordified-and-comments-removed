@@ -54,7 +54,7 @@ bootstrap
 js
 )
 ;
-var
+const
 {
 startup
 shutdown

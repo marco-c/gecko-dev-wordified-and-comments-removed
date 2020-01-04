@@ -12,7 +12,7 @@ protocol
 "
 )
 ;
-var
+const
 HelloActor
 =
 protocol

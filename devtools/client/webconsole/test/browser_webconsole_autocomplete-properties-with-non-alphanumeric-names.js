@@ -129,7 +129,7 @@ jsterm
 execute
 (
 "
-var
+let
 testObject
 =
 {

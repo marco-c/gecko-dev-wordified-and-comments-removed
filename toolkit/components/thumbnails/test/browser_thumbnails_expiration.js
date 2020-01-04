@@ -102,12 +102,8 @@ tmp
 )
 ;
 const
-EXPIRATION_MIN_CHUNK_SIZE
-=
-50
-;
-const
 {
+EXPIRATION_MIN_CHUNK_SIZE
 PageThumbsExpiration
 }
 =
