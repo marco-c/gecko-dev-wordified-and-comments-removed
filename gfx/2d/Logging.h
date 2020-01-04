@@ -256,6 +256,7 @@ InvalidCommandList
 AsyncTransactionTimeout
 TextureCreation
 InvalidCacheSurface
+AlphaWithBasicClient
 MustBeLessThanThis
 =
 101
