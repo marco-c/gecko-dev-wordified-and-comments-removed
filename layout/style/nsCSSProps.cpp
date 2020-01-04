@@ -8620,6 +8620,7 @@ eCSSKeyword_UNKNOWN
 }
 }
 ;
+const
 KTableEntry
 nsCSSProps
 :

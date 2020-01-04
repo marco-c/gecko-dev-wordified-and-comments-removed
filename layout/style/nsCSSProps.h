@@ -3230,6 +3230,7 @@ kPointerEventsKTable
 ]
 ;
 static
+const
 KTableEntry
 kPositionKTable
 [
