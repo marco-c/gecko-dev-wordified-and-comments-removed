@@ -10,7 +10,7 @@ tasks
 /
 tests
 /
-fx_desktop_generic
+fx_docker_desktop_generic
 .
 yml
 '
