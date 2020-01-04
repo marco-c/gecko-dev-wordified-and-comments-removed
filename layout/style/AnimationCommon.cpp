@@ -92,13 +92,6 @@ h
 #
 include
 "
-LayerAnimationInfo
-.
-h
-"
-#
-include
-"
 FrameLayerBuilder
 .
 h
