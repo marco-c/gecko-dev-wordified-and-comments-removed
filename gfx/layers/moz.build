@@ -2467,13 +2467,6 @@ SharedRGBImage
 cpp
 '
 '
-ipc
-/
-TextureForwarder
-.
-cpp
-'
-'
 LayerScope
 .
 cpp

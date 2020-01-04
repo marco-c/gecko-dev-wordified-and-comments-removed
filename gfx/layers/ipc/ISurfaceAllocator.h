@@ -1022,14 +1022,6 @@ return
 mShmProvider
 -
 >
-AsShmemAllocator
-(
-)
-&
-&
-mShmProvider
--
->
 IPCOpen
 (
 )
