@@ -127,8 +127,6 @@ override
 void
 Error
 (
-MediaDataDecoderError
-aError
 )
 override
 ;

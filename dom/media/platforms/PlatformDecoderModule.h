@@ -240,13 +240,6 @@ aDiagnostics
 ;
 }
 ;
-enum
-MediaDataDecoderError
-{
-FATAL_ERROR
-DECODE_ERROR
-}
-;
 class
 MediaDataDecoderCallback
 {
@@ -274,8 +267,6 @@ virtual
 void
 Error
 (
-MediaDataDecoderError
-aError
 )
 =
 0

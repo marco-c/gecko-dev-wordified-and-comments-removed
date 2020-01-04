@@ -1484,8 +1484,6 @@ BenchmarkPlayback
 :
 Error
 (
-MediaDataDecoderError
-aError
 )
 {
 RefPtr

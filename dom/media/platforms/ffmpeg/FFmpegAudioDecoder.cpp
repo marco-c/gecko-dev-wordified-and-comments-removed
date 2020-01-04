@@ -624,10 +624,6 @@ mCallback
 >
 Error
 (
-MediaDataDecoderError
-:
-:
-DECODE_ERROR
 )
 ;
 return
@@ -712,10 +708,6 @@ mCallback
 >
 Error
 (
-MediaDataDecoderError
-:
-:
-DECODE_ERROR
 )
 ;
 return
@@ -758,10 +750,6 @@ mCallback
 >
 Error
 (
-MediaDataDecoderError
-:
-:
-DECODE_ERROR
 )
 ;
 return
@@ -834,10 +822,6 @@ mCallback
 >
 Error
 (
-MediaDataDecoderError
-:
-:
-DECODE_ERROR
 )
 ;
 return
@@ -915,10 +899,6 @@ mCallback
 >
 Error
 (
-MediaDataDecoderError
-:
-:
-DECODE_ERROR
 )
 ;
 return
