@@ -8220,7 +8220,7 @@ cmd
         
 self
 .
-run_command_m
+run_command
 (
 cmd
 cwd
