@@ -479,6 +479,10 @@ const
 uint32_t
 &
 cacheKey
+const
+bool
+&
+contentDecodingWillBeCalledOnParent
 )
 override
 ;
