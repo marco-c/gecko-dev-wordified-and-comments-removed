@@ -90,6 +90,11 @@ av_parser_parse2
 )
 AV_FUNC
 (
+avcodec_version
+0
+)
+AV_FUNC
+(
 av_image_fill_linesizes
 0
 )
