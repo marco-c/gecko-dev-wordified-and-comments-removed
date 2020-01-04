@@ -936,6 +936,9 @@ type
 "
 view
 "
+tabSpecific
+:
+true
 viewId
 :
 "
