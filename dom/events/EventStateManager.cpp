@@ -3295,7 +3295,7 @@ case
 eContentCommandCopy
 :
 case
-NS_CONTENT_COMMAND_PASTE
+eContentCommandPaste
 :
 case
 NS_CONTENT_COMMAND_DELETE
@@ -21124,7 +21124,7 @@ cmd_copy
 break
 ;
 case
-NS_CONTENT_COMMAND_PASTE
+eContentCommandPaste
 :
 cmd
 =

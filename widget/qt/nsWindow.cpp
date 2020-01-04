@@ -5518,7 +5518,7 @@ Key_F9
 return
 DispatchContentCommandEvent
 (
-NS_CONTENT_COMMAND_PASTE
+eContentCommandPaste
 )
 ;
 case

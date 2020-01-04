@@ -9646,7 +9646,7 @@ paste
 )
 msg
 =
-NS_CONTENT_COMMAND_PASTE
+eContentCommandPaste
 ;
 else
 if

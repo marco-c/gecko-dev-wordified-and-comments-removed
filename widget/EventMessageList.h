@@ -1176,7 +1176,7 @@ eContentCommandEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_CONTENT_COMMAND_PASTE
+eContentCommandPaste
 eContentCommandEventFirst
 +
 2
