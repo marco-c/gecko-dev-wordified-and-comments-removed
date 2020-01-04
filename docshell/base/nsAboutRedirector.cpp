@@ -340,6 +340,9 @@ nsIAboutModule
 :
 ALLOW_SCRIPT
 }
+#
+ifdef
+NIGHTLY_BUILD
 {
 "
 performance
@@ -362,6 +365,8 @@ nsIAboutModule
 :
 ALLOW_SCRIPT
 }
+#
+endif
 {
 "
 addons
