@@ -326,6 +326,7 @@ nsISupports
 GetParentObject
 (
 )
+const
 {
 return
 mParent
@@ -463,6 +464,7 @@ DOMStringList
 Types
 (
 )
+const
 ;
 void
 GetData
@@ -560,6 +562,7 @@ uint32_t
 MozItemCount
 (
 )
+const
 {
 return
 mItems
@@ -704,6 +707,7 @@ bool
 MozUserCancelled
 (
 )
+const
 {
 return
 mUserCancelled
@@ -728,6 +732,7 @@ Element
 GetDragTarget
 (
 )
+const
 {
 return
 mDragTarget
@@ -807,6 +812,7 @@ uint32_t
 *
 aLength
 )
+const
 ;
 void
 ClearAll
@@ -858,6 +864,7 @@ int32_t
 *
 aY
 )
+const
 {
 *
 aX
@@ -904,6 +911,7 @@ nsAString
 &
 aOutFormat
 )
+const
 ;
 void
 CacheExternalData
