@@ -16,6 +16,17 @@ SharedICHelpers
 .
 h
 "
+#
+include
+"
+jit
+/
+MacroAssembler
+-
+inl
+.
+h
+"
 using
 namespace
 js
