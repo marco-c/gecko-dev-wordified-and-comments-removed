@@ -553,6 +553,16 @@ inspector
 *
 .
 js
+!
+devtools
+/
+client
+/
+inspector
+/
+breadcrumbs
+.
+js
 devtools
 /
 client
