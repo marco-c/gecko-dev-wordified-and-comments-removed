@@ -763,3 +763,17 @@ FINAL_LIBRARY
 '
 xul
 '
+FINAL_TARGET_FILES
+.
+modules
+.
+workers
++
+=
+[
+'
+worker_buf
+.
+js
+'
+]
