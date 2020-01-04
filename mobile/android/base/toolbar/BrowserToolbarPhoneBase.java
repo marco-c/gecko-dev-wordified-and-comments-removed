@@ -605,6 +605,11 @@ tabsCounter
 0f
 )
 ;
+if
+(
+hasSoftMenuButton
+)
+{
 ViewHelper
 .
 setAlpha
@@ -615,6 +620,7 @@ menuIcon
 0f
 )
 ;
+}
 return
 ;
 }
@@ -648,6 +654,11 @@ ALPHA
 0f
 )
 ;
+if
+(
+hasSoftMenuButton
+)
+{
 buttonsAnimator
 .
 attach
@@ -663,6 +674,7 @@ ALPHA
 0f
 )
 ;
+}
 buttonsAnimator
 .
 start
