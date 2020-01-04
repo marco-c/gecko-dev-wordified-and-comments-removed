@@ -2004,8 +2004,6 @@ CFLAGS
 =
 "
 -
-mandroid
--
 fno
 -
 short
@@ -2020,8 +2018,6 @@ CFLAGS
 CXXFLAGS
 =
 "
--
-mandroid
 -
 fno
 -
@@ -2060,8 +2056,6 @@ llog
 LDFLAGS
 =
 "
--
-mandroid
 -
 L
 gonkdir

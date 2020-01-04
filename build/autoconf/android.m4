@@ -295,8 +295,6 @@ CFLAGS
 =
 "
 -
-mandroid
--
 fno
 -
 short
@@ -311,8 +309,6 @@ CFLAGS
 CXXFLAGS
 =
 "
--
-mandroid
 -
 fno
 -
@@ -387,8 +383,6 @@ NDK
 LDFLAGS
 =
 "
--
-mandroid
 -
 L
 android_platform
