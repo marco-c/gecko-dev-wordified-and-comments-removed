@@ -5095,7 +5095,7 @@ mMediaKeys
 &
 &
 !
-IsMediaStreamURI
+IsMediaSourceURI
 (
 mLoadingSrc
 )
