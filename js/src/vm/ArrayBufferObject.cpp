@@ -1715,6 +1715,9 @@ nullptr
 ;
 if
 (
+numBytes
+&
+&
 !
 VirtualAlloc
 (
@@ -1822,6 +1825,9 @@ nullptr
 ;
 if
 (
+numBytes
+&
+&
 mprotect
 (
 data
