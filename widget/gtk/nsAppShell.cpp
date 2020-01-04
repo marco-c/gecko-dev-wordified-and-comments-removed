@@ -223,6 +223,7 @@ check_resize
 )
 sReal_gtk_window_check_resize
 ;
+static
 void
 wrap_gtk_window_check_resize
 (
