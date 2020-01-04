@@ -1767,15 +1767,6 @@ nsresult
 aStatus
 )
 ;
-bool
-HaveListenerForTraceableChannel
-(
-)
-{
-return
-mHaveListenerForTraceableChannel
-;
-}
 protected
 :
 nsCOMArray
@@ -2111,11 +2102,6 @@ mRedirectionLimit
 ;
 uint32_t
 mApplyConversion
-:
-1
-;
-uint32_t
-mHaveListenerForTraceableChannel
 :
 1
 ;
