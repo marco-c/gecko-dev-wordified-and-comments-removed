@@ -3310,8 +3310,7 @@ InvalidSyscall
 case
 __NR_brk
 :
-case
-__NR_geteuid
+CASES_FOR_geteuid
 :
 return
 Allow
