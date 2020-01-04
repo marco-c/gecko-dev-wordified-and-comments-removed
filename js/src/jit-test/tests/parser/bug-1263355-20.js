@@ -1,0 +1,12 @@
+{
+function
+c
+(
+)
+{
+}
+}
+class
+c
+{
+}
