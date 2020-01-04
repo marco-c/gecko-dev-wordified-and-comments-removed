@@ -223,10 +223,6 @@ comment
 "
 ;
 }
-stopTest
-(
-)
-;
 return
 (
 gTestcases
