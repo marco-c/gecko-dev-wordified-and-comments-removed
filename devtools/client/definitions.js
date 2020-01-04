@@ -1033,7 +1033,7 @@ options
 .
 svg
 "
-invertIconForLightTheme
+invertIconForDarkTheme
 :
 true
 bgTheme
@@ -1183,7 +1183,7 @@ inspector
 .
 svg
 "
-invertIconForLightTheme
+invertIconForDarkTheme
 :
 true
 url
@@ -1441,7 +1441,7 @@ webconsole
 .
 svg
 "
-invertIconForLightTheme
+invertIconForDarkTheme
 :
 true
 url
@@ -1690,7 +1690,7 @@ debugger
 .
 svg
 "
-invertIconForLightTheme
+invertIconForDarkTheme
 :
 true
 highlightedicon
@@ -1909,7 +1909,7 @@ styleeditor
 .
 svg
 "
-invertIconForLightTheme
+invertIconForDarkTheme
 :
 true
 url
@@ -2083,7 +2083,7 @@ shadereditor
 .
 svg
 "
-invertIconForLightTheme
+invertIconForDarkTheme
 :
 true
 url
@@ -2220,7 +2220,7 @@ canvas
 .
 svg
 "
-invertIconForLightTheme
+invertIconForDarkTheme
 :
 true
 url
@@ -2348,7 +2348,7 @@ profiler
 .
 svg
 "
-invertIconForLightTheme
+invertIconForDarkTheme
 :
 true
 highlightedicon
@@ -2547,7 +2547,7 @@ memory
 .
 svg
 "
-invertIconForLightTheme
+invertIconForDarkTheme
 :
 true
 highlightedicon
@@ -2754,7 +2754,7 @@ network
 .
 svg
 "
-invertIconForLightTheme
+invertIconForDarkTheme
 :
 true
 url
@@ -2947,7 +2947,7 @@ storage
 .
 svg
 "
-invertIconForLightTheme
+invertIconForDarkTheme
 :
 true
 url
@@ -3126,7 +3126,7 @@ webaudio
 .
 svg
 "
-invertIconForLightTheme
+invertIconForDarkTheme
 :
 true
 url
@@ -3263,7 +3263,7 @@ scratchpad
 .
 svg
 "
-invertIconForLightTheme
+invertIconForDarkTheme
 :
 true
 url
@@ -3450,7 +3450,7 @@ dom
 .
 svg
 "
-invertIconForLightTheme
+invertIconForDarkTheme
 :
 true
 url
