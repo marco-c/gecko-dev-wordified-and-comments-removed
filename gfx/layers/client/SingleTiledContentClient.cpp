@@ -435,12 +435,7 @@ aCallbackData
 IntSize
 size
 =
-mPaintedLayer
--
->
-GetVisibleRegion
-(
-)
+aNewValidRegion
 .
 GetBounds
 (
@@ -453,12 +448,7 @@ Size
 IntPoint
 origin
 =
-mPaintedLayer
--
->
-GetVisibleRegion
-(
-)
+aNewValidRegion
 .
 GetBounds
 (
