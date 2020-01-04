@@ -4791,6 +4791,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineIsWrappedArrayConstructor
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineToInteger
 (
 CallInfo
