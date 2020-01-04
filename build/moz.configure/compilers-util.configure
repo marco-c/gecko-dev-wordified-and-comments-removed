@@ -267,6 +267,9 @@ None
 check_msg
 =
 None
+when
+=
+None
 onerror
 =
 lambda
@@ -393,10 +396,13 @@ flags
 [
 :
 ]
-depends
+depends_when
 (
 self
 extra_toolchain_flags
+when
+=
+when
 )
 checking_fn
 def

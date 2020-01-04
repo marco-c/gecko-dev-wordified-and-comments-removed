@@ -2705,6 +2705,16 @@ kwargs
 when
 '
 ]
+if
+not
+when
+:
+return
+depends
+(
+*
+args
+)
 def
 decorator
 (
