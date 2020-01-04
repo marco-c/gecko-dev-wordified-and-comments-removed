@@ -339,9 +339,6 @@ GetService
 bool
 RegisterWorker
 (
-JSContext
-*
-aCx
 WorkerPrivate
 *
 aWorkerPrivate
@@ -350,9 +347,6 @@ aWorkerPrivate
 void
 UnregisterWorker
 (
-JSContext
-*
-aCx
 WorkerPrivate
 *
 aWorkerPrivate
@@ -764,9 +758,6 @@ aWorkers
 bool
 ScheduleWorker
 (
-JSContext
-*
-aCx
 WorkerPrivate
 *
 aWorkerPrivate

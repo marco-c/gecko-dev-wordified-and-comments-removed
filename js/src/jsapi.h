@@ -4125,9 +4125,9 @@ JSRuntime
 )
 JS_GetParentRuntime
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 )
 ;
 JS_PUBLIC_API

@@ -16550,7 +16550,10 @@ WorkerInput
 (
 JS_GetParentRuntime
 (
+JS_GetRuntime
+(
 cx
+)
 )
 chars
 str
