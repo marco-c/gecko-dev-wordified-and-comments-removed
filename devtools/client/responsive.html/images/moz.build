@@ -124,11 +124,4 @@ arrow
 .
 svg
 '
-'
-touch
--
-events
-.
-svg
-'
 )

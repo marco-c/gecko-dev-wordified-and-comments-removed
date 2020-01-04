@@ -116,13 +116,6 @@ screenshot
 js
 '
 '
-touch
--
-simulation
-.
-js
-'
-'
 viewports
 .
 js
