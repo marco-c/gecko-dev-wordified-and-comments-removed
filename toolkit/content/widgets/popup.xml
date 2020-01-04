@@ -3931,6 +3931,7 @@ node
 is
 a
 document
+browser
 or
 disconnected
 .
@@ -3944,6 +3945,16 @@ tipElement
 tipElement
 .
 ownerDocument
+|
+|
+tipElement
+.
+localName
+=
+=
+"
+browser
+"
 |
 |
 (
