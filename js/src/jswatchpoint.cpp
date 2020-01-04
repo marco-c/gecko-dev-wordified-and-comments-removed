@@ -55,10 +55,7 @@ gc
 ;
 inline
 HashNumber
-DefaultHasher
-<
-WatchKey
->
+WatchKeyHasher
 :
 :
 hash
@@ -70,10 +67,9 @@ key
 )
 {
 return
-DefaultHasher
+MovableCellHasher
 <
-JSObject
-*
+PreBarrieredObject
 >
 :
 :
@@ -82,10 +78,6 @@ hash
 key
 .
 object
-.
-get
-(
-)
 )
 ^
 HashId
@@ -93,10 +85,6 @@ HashId
 key
 .
 id
-.
-get
-(
-)
 )
 ;
 }
