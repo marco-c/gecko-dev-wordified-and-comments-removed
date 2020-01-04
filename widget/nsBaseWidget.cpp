@@ -5128,6 +5128,10 @@ compositor
 "
 )
 ;
+mAPZC
+=
+nullptr
+;
 DestroyCompositor
 (
 )
