@@ -1245,6 +1245,11 @@ roomToken
 actionData
 .
 token
+roomCryptoKey
+:
+actionData
+.
+cryptoKey
 standalone
 :
 true
