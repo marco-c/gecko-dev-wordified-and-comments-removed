@@ -281,7 +281,6 @@ onShown
 let
 testNode
 =
-yield
 getNode
 (
 "
