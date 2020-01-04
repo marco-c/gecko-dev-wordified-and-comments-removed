@@ -751,7 +751,7 @@ mPositionAlign
 aPositionAlign
 ;
 }
-int32_t
+double
 Size
 (
 )
@@ -764,7 +764,7 @@ mSize
 void
 SetSize
 (
-int32_t
+double
 aSize
 ErrorResult
 &
@@ -787,11 +787,15 @@ if
 aSize
 <
 0
+.
+0
 |
 |
 aSize
 >
 100
+.
+0
 )
 {
 aRv
@@ -1130,7 +1134,7 @@ mPosition
 PositionAlignSetting
 mPositionAlign
 ;
-int32_t
+double
 mSize
 ;
 bool

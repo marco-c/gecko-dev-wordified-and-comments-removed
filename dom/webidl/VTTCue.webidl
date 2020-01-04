@@ -281,7 +281,7 @@ positionAlign
 SetterThrows
 ]
 attribute
-long
+double
 size
 ;
 attribute
