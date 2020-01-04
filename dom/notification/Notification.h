@@ -658,6 +658,9 @@ Promise
 >
 ShowPersistentNotification
 (
+JSContext
+*
+aCx
 nsIGlobalObject
 *
 aGlobal
@@ -1225,6 +1228,9 @@ Notification
 >
 CreateAndShow
 (
+JSContext
+*
+aCx
 nsIGlobalObject
 *
 aGlobal
