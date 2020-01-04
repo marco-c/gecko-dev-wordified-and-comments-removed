@@ -766,7 +766,7 @@ aTimeStamp
 {
 mEvent
 .
-propertyName
+mPropertyName
 =
 NS_ConvertUTF8toUTF16
 (
@@ -781,7 +781,7 @@ aProperty
 ;
 mEvent
 .
-elapsedTime
+mElapsedTime
 =
 aDuration
 .
@@ -791,7 +791,7 @@ ToSeconds
 ;
 mEvent
 .
-pseudoElement
+mPseudoElement
 =
 AnimationCollection
 <
