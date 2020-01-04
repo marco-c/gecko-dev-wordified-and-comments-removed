@@ -248,6 +248,16 @@ public
 static
 final
 String
+DISTRIBUTION_ID
+=
+"
+distributionId
+"
+;
+public
+static
+final
+String
 EXPERIMENTS
 =
 "
