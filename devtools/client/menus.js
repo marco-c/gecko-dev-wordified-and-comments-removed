@@ -662,6 +662,9 @@ updateExec
 (
 "
 eyedropper
+-
+-
+frommenu
 "
 )
 ;
