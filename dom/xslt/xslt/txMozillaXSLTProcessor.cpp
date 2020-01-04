@@ -2654,6 +2654,9 @@ mStylesheet
 IsLoadDisabled
 (
 )
+getLoaderDoc
+(
+)
 )
 ;
 txToDocHandlerFactory
@@ -2987,6 +2990,9 @@ es
 (
 mStylesheet
 IsLoadDisabled
+(
+)
+getLoaderDoc
 (
 )
 )
