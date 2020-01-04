@@ -632,6 +632,9 @@ const
 nsAString
 &
 aManifestURL
+mozIApplication
+*
+aParentApp
 nsTArray
 <
 RefPtr
@@ -660,6 +663,17 @@ nsFrameLoader
 )
 GetFrameLoader
 (
+)
+=
+0
+;
+NS_IMETHOD
+GetParentApplication
+(
+mozIApplication
+*
+*
+aApplication
 )
 =
 0
