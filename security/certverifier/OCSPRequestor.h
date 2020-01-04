@@ -24,7 +24,8 @@ mozilla
 namespace
 psm
 {
-Result
+SECItem
+*
 DoOCSPRequest
 (
 PLArenaPool
@@ -42,10 +43,6 @@ PRIntervalTime
 timeout
 bool
 useGET
-SECItem
-*
-&
-encodedResponse
 )
 ;
 }
