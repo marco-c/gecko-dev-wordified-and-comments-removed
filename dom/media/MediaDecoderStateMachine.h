@@ -1366,12 +1366,6 @@ IsPausedAndDecoderWaiting
 )
 ;
 bool
-IsVideoDecodeSuspended
-(
-)
-const
-;
-bool
 IsAudioDecoding
 (
 )
