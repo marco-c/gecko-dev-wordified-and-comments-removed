@@ -5785,7 +5785,7 @@ mDeltaY
 =
 wheelEvent
 .
-lineOrPageDeltaY
+mLineOrPageDeltaY
 =
 delta
 ;

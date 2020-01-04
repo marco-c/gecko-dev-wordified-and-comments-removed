@@ -9877,7 +9877,7 @@ deltaY
 wheelEvent
 -
 >
-lineOrPageDeltaY
+mLineOrPageDeltaY
 ;
 }
 else
@@ -10946,7 +10946,7 @@ if
 wheelEvent
 -
 >
-lineOrPageDeltaY
+mLineOrPageDeltaY
 )
 {
 switch
@@ -10977,7 +10977,7 @@ WHEEL_DELTA
 wheelEvent
 -
 >
-lineOrPageDeltaY
+mLineOrPageDeltaY
 ;
 break
 ;
@@ -11037,11 +11037,14 @@ delta
 WHEEL_DELTA
 /
 linesPerWheelDelta
+;
+delta
 *
+=
 wheelEvent
 -
 >
-lineOrPageDeltaY
+mLineOrPageDeltaY
 ;
 break
 ;

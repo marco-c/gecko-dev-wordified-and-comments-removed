@@ -1449,7 +1449,7 @@ mLineOrPageDeltaX
 (
 0
 )
-lineOrPageDeltaY
+mLineOrPageDeltaY
 (
 0
 )
@@ -1560,7 +1560,7 @@ mLineOrPageDeltaX
 (
 0
 )
-lineOrPageDeltaY
+mLineOrPageDeltaY
 (
 0
 )
@@ -1707,7 +1707,7 @@ int32_t
 mLineOrPageDeltaX
 ;
 int32_t
-lineOrPageDeltaY
+mLineOrPageDeltaY
 ;
 int32_t
 GetPreferredIntDelta
@@ -1721,7 +1721,7 @@ mLineOrPageDeltaX
 &
 &
 !
-lineOrPageDeltaY
+mLineOrPageDeltaY
 )
 {
 return
@@ -1730,7 +1730,7 @@ return
 }
 if
 (
-lineOrPageDeltaY
+mLineOrPageDeltaY
 &
 &
 !
@@ -1738,7 +1738,7 @@ mLineOrPageDeltaX
 )
 {
 return
-lineOrPageDeltaY
+mLineOrPageDeltaY
 ;
 }
 if
@@ -1747,7 +1747,7 @@ mLineOrPageDeltaX
 &
 &
 !
-lineOrPageDeltaY
+mLineOrPageDeltaY
 )
 {
 return
@@ -1762,7 +1762,7 @@ mLineOrPageDeltaX
 0
 &
 &
-lineOrPageDeltaY
+mLineOrPageDeltaY
 >
 0
 )
@@ -1774,7 +1774,7 @@ mLineOrPageDeltaX
 0
 &
 &
-lineOrPageDeltaY
+mLineOrPageDeltaY
 <
 0
 )
@@ -1793,13 +1793,13 @@ mLineOrPageDeltaX
 >
 Abs
 (
-lineOrPageDeltaY
+mLineOrPageDeltaY
 )
 )
 ?
 mLineOrPageDeltaX
 :
-lineOrPageDeltaY
+mLineOrPageDeltaY
 ;
 }
 enum
@@ -1900,11 +1900,11 @@ aEvent
 .
 mLineOrPageDeltaX
 ;
-lineOrPageDeltaY
+mLineOrPageDeltaY
 =
 aEvent
 .
-lineOrPageDeltaY
+mLineOrPageDeltaY
 ;
 mScrollType
 =

@@ -9252,7 +9252,7 @@ scrollDeltaY
 aEvent
 -
 >
-lineOrPageDeltaY
+mLineOrPageDeltaY
 ?
 0
 :
@@ -9260,7 +9260,7 @@ lineOrPageDeltaY
 aEvent
 -
 >
-lineOrPageDeltaY
+mLineOrPageDeltaY
 >
 0
 ?
@@ -9323,7 +9323,7 @@ scrollDeltaY
 aEvent
 -
 >
-lineOrPageDeltaY
+mLineOrPageDeltaY
 ;
 pixelDeltaX
 =
@@ -9373,7 +9373,7 @@ scrollDeltaY
 aEvent
 -
 >
-lineOrPageDeltaY
+mLineOrPageDeltaY
 ;
 pixelDeltaX
 =
@@ -22977,7 +22977,7 @@ width
 aEvent
 -
 >
-lineOrPageDeltaY
+mLineOrPageDeltaY
 =
 RoundDown
 (
@@ -23006,7 +23006,7 @@ mY
 aEvent
 -
 >
-lineOrPageDeltaY
+mLineOrPageDeltaY
 *
 scrollAmountInCSSPixels
 .
@@ -23028,7 +23028,7 @@ mX
 aEvent
 -
 >
-lineOrPageDeltaY
+mLineOrPageDeltaY
 =
 RoundDown
 (
@@ -23049,7 +23049,7 @@ mY
 aEvent
 -
 >
-lineOrPageDeltaY
+mLineOrPageDeltaY
 ;
 }
 mLastTime
@@ -24107,7 +24107,7 @@ index
 aEvent
 -
 >
-lineOrPageDeltaY
+mLineOrPageDeltaY
 *
 =
 static_cast
@@ -24134,7 +24134,7 @@ mLineOrPageDeltaX
 aEvent
 -
 >
-lineOrPageDeltaY
+mLineOrPageDeltaY
 =
 0
 ;
