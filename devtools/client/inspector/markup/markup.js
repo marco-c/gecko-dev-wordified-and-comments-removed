@@ -15470,9 +15470,9 @@ if
 direction
 =
 =
-Ci
+Services
 .
-nsIFocusManager
+focus
 .
 MOVEFOCUS_FORWARD
 )
@@ -15490,9 +15490,9 @@ if
 direction
 =
 =
-Ci
+Services
 .
-nsIFocusManager
+focus
 .
 MOVEFOCUS_BACKWARD
 )
