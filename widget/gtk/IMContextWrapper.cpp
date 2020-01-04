@@ -6302,6 +6302,8 @@ mCompositionTargetRange
 .
 mOffset
 =
+mCompositionStart
++
 rangeArray
 -
 >
