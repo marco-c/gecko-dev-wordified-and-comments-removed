@@ -57980,8 +57980,7 @@ true
 {
 if
 (
-!
-ParseSingleTokenNonNegativeVariant
+ParseNonNegativeVariant
 (
 lineHeight
 VARIANT_NUMBER
@@ -57989,8 +57988,16 @@ VARIANT_NUMBER
 VARIANT_LP
 |
 VARIANT_NORMAL
+|
+VARIANT_CALC
 nullptr
 )
+!
+=
+CSSParseResult
+:
+:
+Ok
 )
 {
 return
