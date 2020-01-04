@@ -132,6 +132,13 @@ deleteAllTestTabs
 tabsClient
 )
 ;
+insertTestClient
+(
+getClientsClient
+(
+)
+)
+;
 insertSomeTestTabs
 (
 tabsClient
