@@ -193,6 +193,15 @@ h
 namespace
 JS
 {
+extern
+JS_PUBLIC_API
+(
+void
+)
+ResetTimeZone
+(
+)
+;
 class
 TwoByteChars
 ;
