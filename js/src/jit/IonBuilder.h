@@ -4458,6 +4458,13 @@ JSFunction
 target
 MIRType
 simdType
+SimdSign
+sign
+=
+SimdSign
+:
+:
+NotApplicable
 )
 ;
 template
@@ -4498,6 +4505,8 @@ Operation
 op
 MIRType
 compType
+SimdSign
+sign
 )
 ;
 InliningStatus
@@ -4527,6 +4536,8 @@ JSNative
 native
 MIRType
 vecType
+SimdSign
+sign
 )
 ;
 InliningStatus
@@ -4595,6 +4606,13 @@ MIRType
 from
 MIRType
 to
+SimdSign
+sign
+=
+SimdSign
+:
+:
+NotApplicable
 )
 ;
 InliningStatus
