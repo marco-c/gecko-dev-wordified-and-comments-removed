@@ -13,8 +13,6 @@ os
 import
 urllib2
 import
-hashlib
-import
 tarfile
 import
 time
@@ -394,7 +392,7 @@ image
 .
 yml
 '
-                    
+                      
 .
 format
 (
@@ -520,6 +518,8 @@ image_name
             
 image_artifact_path
 =
+\
+                
 "
 public
 /
@@ -607,6 +607,7 @@ ARTIFACT_URL
 .
 format
 (
+                    
 os
 .
 environ
@@ -707,6 +708,7 @@ hash
 .
 format
 (
+                                
 project
 image_name
 context_hash
@@ -836,6 +838,7 @@ urllib2
 .
 Request
 (
+                    
 ARTIFACT_URL
 .
 format

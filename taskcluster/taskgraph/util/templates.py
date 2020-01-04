@@ -274,7 +274,6 @@ self
 root
 =
 root
-;
     
 def
 _inherits

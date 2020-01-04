@@ -21,7 +21,6 @@ docker
 from
 mozunit
 import
-main
 MockedOpen
 class
 TestDocker
@@ -178,6 +177,7 @@ self
 .
 assertEqual
 (
+                
 docker
 .
 generate_context_hash
@@ -190,10 +190,11 @@ my
 image
 '
 )
-                    
+                
 '
 781143fcc6cc72c9024b058665265cb6bae3fb8031cad7227dd169ffbfced434
 '
+                
 )
         
 finally

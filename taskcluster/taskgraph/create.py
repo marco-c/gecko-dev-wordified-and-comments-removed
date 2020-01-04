@@ -19,8 +19,6 @@ adapters
 import
 json
 import
-collections
-import
 os
 import
 logging
@@ -306,6 +304,7 @@ format
 (
 task_id
 )
+                      
 data
 =
 json

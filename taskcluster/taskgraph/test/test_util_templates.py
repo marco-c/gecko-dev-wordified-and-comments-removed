@@ -5,8 +5,6 @@ absolute_import
 print_function
 unicode_literals
 import
-os
-import
 unittest
 import
 mozunit
@@ -965,7 +963,6 @@ c
 ]
 }
 )
-;
     
 def
 test_inheritance_circular

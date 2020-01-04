@@ -15,13 +15,10 @@ os
 import
 re
 import
-sys
-import
 time
 from
 collections
 import
-defaultdict
 namedtuple
 from
 .
@@ -33,10 +30,6 @@ from
 types
 import
 Task
-from
-functools
-import
-partial
 from
 mozpack
 .
@@ -425,10 +418,10 @@ branch
 '
 '
 :
-       
+        
 return
 {
-         
+          
 '
 gaia_base_repository
 '
@@ -457,7 +450,7 @@ repo_path
 '
 ]
 )
-         
+          
 '
 gaia_head_repository
 '
@@ -486,7 +479,7 @@ repo_path
 '
 ]
 )
-         
+          
 '
 gaia_ref
 '
@@ -497,7 +490,7 @@ gaia
 revision
 '
 ]
-         
+          
 '
 gaia_rev
 '
@@ -508,7 +501,7 @@ gaia
 revision
 '
 ]
-       
+        
 }
     
 else
@@ -1438,7 +1431,7 @@ revision
 s
 '
 "
-                
+                         
 repository
 revision
 )
@@ -2317,6 +2310,7 @@ logger
 .
 debug
 (
+                
 '
 {
 }
@@ -2809,6 +2803,7 @@ py
 .
 format
 (
+                        
 repo
 =
 params
@@ -3002,7 +2997,7 @@ pattern
 path
 =
 path
-                            
+                                         
 )
 )
                             
@@ -3160,6 +3155,7 @@ file
 .
 format
 (
+                
 repo
 =
 params
@@ -3513,6 +3509,8 @@ location
 )
 ]
 =
+\
+                    
 build_task
 [
 '
@@ -3655,6 +3653,7 @@ all_routes
 raise
 Exception
 (
+                        
 "
 Error
 :
@@ -3682,9 +3681,9 @@ s
 "
 %
 (
-                        
+                            
 route
-                        
+                            
 build_task
 [
 '
@@ -3701,12 +3700,12 @@ metadata
 name
 '
 ]
-                        
+                            
 all_routes
 [
 route
 ]
-                    
+                        
 )
 )
                 
@@ -3775,6 +3774,7 @@ route_scopes
 =
 map
 (
+                
 lambda
 route
 :
@@ -3801,6 +3801,7 @@ routes
 [
 ]
 )
+                
 )
             
 graph

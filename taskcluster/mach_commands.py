@@ -611,7 +611,7 @@ taskgraph
 '
 tasks
 '
-                         
+                             
 description
 =
 "
@@ -653,7 +653,7 @@ taskgraph
 '
 full
 '
-                         
+                             
 description
 =
 "
@@ -693,7 +693,7 @@ taskgraph
 '
 target
 '
-                         
+                             
 description
 =
 "
@@ -736,7 +736,7 @@ target
 -
 graph
 '
-                         
+                             
 description
 =
 "
@@ -776,7 +776,7 @@ taskgraph
 '
 optimized
 '
-                         
+                             
 description
 =
 "
@@ -838,7 +838,7 @@ root
 -
 r
 '
-        
+                     
 default
 =
 '
@@ -846,7 +846,7 @@ taskcluster
 /
 ci
 '
-        
+                     
 help
 =
 "
@@ -870,11 +870,11 @@ base
 -
 repository
 '
-        
+                     
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -898,11 +898,11 @@ head
 -
 repository
 '
-        
+                     
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -928,11 +928,11 @@ head
 -
 ref
 '
-        
+                     
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -959,11 +959,11 @@ head
 -
 rev
 '
-        
+                     
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -984,11 +984,11 @@ CommandArgument
 -
 message
 '
-        
+                     
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -1025,11 +1025,11 @@ revision
 -
 hash
 '
-        
+                     
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -1055,11 +1055,11 @@ CommandArgument
 -
 project
 '
-        
+                     
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -1090,17 +1090,17 @@ pushlog
 -
 id
 '
-        
+                     
 dest
 =
 '
 pushlog_id
 '
-        
+                     
 required
 =
 True
-        
+                     
 default
 =
 0
@@ -1113,11 +1113,11 @@ CommandArgument
 -
 owner
 '
-        
+                     
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -1138,11 +1138,11 @@ CommandArgument
 -
 level
 '
-        
+                     
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -1258,8 +1258,6 @@ options
         
 except
 Exception
-as
-e
 :
             
 traceback
@@ -1527,8 +1525,6 @@ tg
         
 except
 Exception
-as
-e
 :
             
 traceback
@@ -1622,7 +1618,7 @@ category
 "
 ci
 "
-        
+             
 description
 =
 "
@@ -1645,7 +1641,7 @@ task
 -
 id
 '
-        
+                     
 help
 =
 "
@@ -1661,11 +1657,11 @@ tar
 in
 this
 task
+"
+                          
+"
 rather
 than
-"
-             
-"
 searching
 the
 index
@@ -1682,7 +1678,7 @@ nargs
 '
 ?
 '
-        
+                     
 help
 =
 "
@@ -1696,13 +1692,13 @@ based
 on
 the
 current
+"
+                          
+"
 contents
 of
 the
 tree
-"
-             
-"
 (
 as
 built
@@ -1710,6 +1706,9 @@ for
 mozilla
 -
 central
+"
+                          
+"
 or
 mozilla
 -
@@ -1803,8 +1802,6 @@ exit
         
 except
 Exception
-as
-e
 :
             
 traceback

@@ -9,8 +9,6 @@ logging
 import
 os
 import
-re
-import
 yaml
 from
 .
@@ -1137,6 +1135,7 @@ label_to_taskid
 optimize_task_graph
 (
 target_task_graph
+                                                                    
 do_not_optimize
 )
         

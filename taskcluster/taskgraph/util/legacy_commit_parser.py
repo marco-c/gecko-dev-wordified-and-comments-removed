@@ -1788,6 +1788,7 @@ nargs
 '
 ?
 '
+                        
 dest
 =
 '
@@ -1853,6 +1854,7 @@ i
 -
 interactive
 '
+                        
 dest
 =
 '
@@ -2044,7 +2046,7 @@ build_type
 build_type
 )
 for
-            
+                   
 build_type
 in
 args

@@ -434,6 +434,7 @@ task_id
 raise
 Exception
 (
+                    
 "
 task
 {
@@ -451,6 +452,7 @@ it
 .
 format
 (
+                        
 t
 .
 label
@@ -816,6 +818,7 @@ task
 edges_by_taskid
 =
 (
+        
 (
 label_to_taskid
 .
@@ -844,12 +847,14 @@ annotated_task_graph
 graph
 .
 edges
+        
 )
     
 edges_by_taskid
 =
 set
 (
+        
 (
 left
 right
@@ -873,6 +878,7 @@ and
 right
 in
 tasks_by_taskid
+        
 )
     
 return
