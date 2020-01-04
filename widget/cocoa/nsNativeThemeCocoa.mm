@@ -7601,7 +7601,7 @@ kCUIBackgroundTypeMenu
 "
 backgroundTypeKey
 "
-aImageName
+imageName
 "
 imageNameKey
 "
