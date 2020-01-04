@@ -787,6 +787,13 @@ TryUpdateRenderedVideoFrames
 (
 )
 ;
+self
+-
+>
+MaybeResolveEndPromise
+(
+)
+;
 }
 [
 self
@@ -807,6 +814,13 @@ self
 -
 >
 TryUpdateRenderedVideoFrames
+(
+)
+;
+self
+-
+>
+MaybeResolveEndPromise
 (
 )
 ;
