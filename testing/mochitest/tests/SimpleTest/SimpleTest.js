@@ -8299,6 +8299,12 @@ _stopOnLoad
 &
 !
 isExpected
+&
+&
+!
+SimpleTest
+.
+_alreadyFinished
 )
 {
 SimpleTest
