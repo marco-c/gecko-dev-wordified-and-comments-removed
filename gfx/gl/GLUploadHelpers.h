@@ -29,9 +29,13 @@ nsPoint
 .
 h
 "
-class
-nsIntRegion
-;
+#
+include
+"
+nsRegionFwd
+.
+h
+"
 namespace
 mozilla
 {

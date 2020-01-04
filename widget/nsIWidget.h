@@ -77,6 +77,13 @@ h
 #
 include
 "
+nsRegionFwd
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h
@@ -196,9 +203,6 @@ nsIContent
 ;
 class
 ViewWrapper
-;
-class
-nsIntRegion
 ;
 class
 nsIScreen

@@ -152,6 +152,13 @@ h
 "
 #
 include
+"
+nsRegionFwd
+.
+h
+"
+#
+include
 <
 new
 >
@@ -169,9 +176,6 @@ Heap
 }
 class
 nsRegion
-;
-class
-nsIntRegion
 ;
 namespace
 mozilla

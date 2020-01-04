@@ -64,6 +64,13 @@ h
 #
 include
 "
+nsRegionFwd
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx
@@ -83,9 +90,6 @@ nsIInputStream
 ;
 class
 nsIGfxInfo
-;
-class
-nsIntRegion
 ;
 class
 nsIPresShell

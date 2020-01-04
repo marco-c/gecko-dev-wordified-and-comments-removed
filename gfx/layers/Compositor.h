@@ -126,9 +126,6 @@ h
 class
 nsIWidget
 ;
-class
-nsIntRegion
-;
 namespace
 mozilla
 {

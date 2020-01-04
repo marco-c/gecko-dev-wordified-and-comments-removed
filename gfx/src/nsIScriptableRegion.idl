@@ -101,9 +101,13 @@ idl
 C
 +
 +
-class
-nsIntRegion
-;
+#
+include
+"
+nsRegionFwd
+.
+h
+"
 %
 }
 native

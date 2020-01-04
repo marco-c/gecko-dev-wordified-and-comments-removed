@@ -102,9 +102,6 @@ nsString
 .
 h
 "
-class
-nsIntRegion
-;
 #
 define
 BIAS_TIME_MS

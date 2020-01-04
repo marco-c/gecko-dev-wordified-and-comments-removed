@@ -139,6 +139,13 @@ h
 #
 include
 "
+nsRegionFwd
+.
+h
+"
+#
+include
+"
 nsWinGesture
 .
 h
@@ -206,9 +213,6 @@ nsNativeDragTarget
 ;
 class
 nsIRollupListener
-;
-class
-nsIntRegion
 ;
 class
 imgIContainer

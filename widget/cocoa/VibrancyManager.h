@@ -52,9 +52,6 @@ NSView
 class
 nsChildView
 ;
-class
-nsIntRegion
-;
 namespace
 mozilla
 {
