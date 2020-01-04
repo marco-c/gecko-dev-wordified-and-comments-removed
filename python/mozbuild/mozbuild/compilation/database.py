@@ -575,12 +575,17 @@ build_vars
 name
 ]
 =
+util
+.
+sanitize_cflags
+(
 shell_split
 (
 build_vars
 [
 name
 ]
+)
 )
         
 self
