@@ -14138,3 +14138,13 @@ enabled
 false
 )
 ;
+pref
+(
+"
+dom
+.
+mozBrowserFramesEnabled
+"
+true
+)
+;

@@ -39908,3 +39908,13 @@ rewrite_youtube_embeds
 true
 )
 ;
+pref
+(
+"
+dom
+.
+mozBrowserFramesEnabled
+"
+false
+)
+;
