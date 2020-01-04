@@ -3006,7 +3006,7 @@ mInitialized
 }
 ;
 Content
-mLockedContent
+mContentForTSF
 ;
 Content
 &
