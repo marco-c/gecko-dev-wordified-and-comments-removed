@@ -11815,15 +11815,6 @@ fxa
 /
 receivers
 /
-FxAccountDeletedReceiver
-.
-java
-'
-'
-fxa
-/
-receivers
-/
 FxAccountDeletedService
 .
 java
