@@ -8625,6 +8625,7 @@ secure
 "
 gzip
 deflate
+brotli
 "
 )
 ;
