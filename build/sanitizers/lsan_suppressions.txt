@@ -684,6 +684,15 @@ libdricore
 so
 leak
 :
+libdricore9
+.
+2
+.
+1
+.
+so
+leak
+:
 libGL
 .
 so
