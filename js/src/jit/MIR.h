@@ -41178,16 +41178,6 @@ setResultType
 MIRType_Object
 )
 ;
-setResultTypeSet
-(
-obj
--
->
-resultTypeSet
-(
-)
-)
-;
 }
 public
 :
