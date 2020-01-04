@@ -143,6 +143,11 @@ TestRemoveFrameRectFilter
 cpp
 '
 '
+TestSourceBuffer
+.
+cpp
+'
+'
 TestStreamingLexer
 .
 cpp
