@@ -108,6 +108,15 @@ browser
 /
 schemas
 /
+history
+.
+json
+content
+/
+browser
+/
+schemas
+/
 page_action
 .
 json
