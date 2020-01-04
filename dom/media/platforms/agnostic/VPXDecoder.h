@@ -200,12 +200,14 @@ ProcessDrain
 (
 )
 ;
+const
 RefPtr
 <
 ImageContainer
 >
 mImageContainer
 ;
+const
 RefPtr
 <
 FlushableTaskQueue
@@ -224,6 +226,7 @@ VideoInfo
 &
 mInfo
 ;
+const
 int
 mCodec
 ;
