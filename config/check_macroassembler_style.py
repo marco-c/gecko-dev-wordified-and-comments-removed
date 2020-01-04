@@ -57,13 +57,13 @@ set
 x86_shared
 '
 '
+mips_shared
+'
+'
 arm
 '
 '
 arm64
-'
-'
-mips32
 '
 ]
 )

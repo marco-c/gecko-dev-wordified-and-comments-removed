@@ -228,10 +228,10 @@ x64
 #
 define
 ALL_SHARED_ARCH
-mips32
 arm
 arm64
 x86_shared
+mips_shared
 #
 define
 DEFINED_ON_x86
@@ -250,6 +250,9 @@ DEFINED_ON_arm64
 #
 define
 DEFINED_ON_mips32
+#
+define
+DEFINED_ON_mips_shared
 #
 define
 DEFINED_ON_none
@@ -331,6 +334,13 @@ DEFINED_ON_mips32
 #
 define
 DEFINED_ON_mips32
+define
+#
+undef
+DEFINED_ON_mips_shared
+#
+define
+DEFINED_ON_mips_shared
 define
 #
 elif
