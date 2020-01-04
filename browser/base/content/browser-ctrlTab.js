@@ -2689,7 +2689,7 @@ type
 {
 case
 "
-SSWindowStateReady
+SSWindowRestored
 "
 :
 this
@@ -3071,7 +3071,7 @@ toggleEventListener
 ]
 (
 "
-SSWindowStateReady
+SSWindowRestored
 "
 this
 false
