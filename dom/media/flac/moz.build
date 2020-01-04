@@ -90,6 +90,11 @@ EXPORTS
 =
 [
 '
+FlacDecoder
+.
+h
+'
+'
 FlacDemuxer
 .
 h
@@ -104,6 +109,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+FlacDecoder
+.
+cpp
+'
 '
 FlacDemuxer
 .
