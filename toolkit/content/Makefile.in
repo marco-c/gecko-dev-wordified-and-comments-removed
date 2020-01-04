@@ -95,14 +95,6 @@ CPPFLAGS
 (
 NULL
 )
-ifdef
-MOZ_SOURCE_CHANGESET
-MOZ_SOURCE_STAMP
-=
-(
-MOZ_SOURCE_CHANGESET
-)
-else
 MOZ_SOURCE_STAMP
 ?
 =
@@ -133,7 +125,6 @@ dev
 /
 null
 )
-endif
 ifdef
 MOZ_SOURCE_STAMP
 DEFINES
@@ -150,14 +141,6 @@ MOZ_SOURCE_STAMP
 endif
 ifdef
 MOZ_INCLUDE_SOURCE_INFO
-ifdef
-MOZ_SOURCE_REPO
-source_repo
-=
-(
-MOZ_SOURCE_REPO
-)
-else
 source_repo
 ?
 =
@@ -165,7 +148,6 @@ source_repo
 call
 getSourceRepo
 )
-endif
 ifneq
 (
 (

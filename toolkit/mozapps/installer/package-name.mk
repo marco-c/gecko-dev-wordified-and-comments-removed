@@ -1010,14 +1010,6 @@ makeutils
 .
 mk
 endif
-ifdef
-MOZ_SOURCE_CHANGESET
-MOZ_SOURCE_STAMP
-=
-(
-MOZ_SOURCE_CHANGESET
-)
-else
 MOZ_SOURCE_STAMP
 =
 (
@@ -1050,7 +1042,6 @@ dev
 null
 )
 )
-endif
 #
 #
 #
@@ -1232,8 +1223,6 @@ exists
 #
 ifdef
 MOZ_INCLUDE_SOURCE_INFO
-ifndef
-MOZ_SOURCE_REPO
 MOZ_SOURCE_REPO
 =
 (
@@ -1249,7 +1238,6 @@ NULL
 NULL
 )
 )
-endif
 endif
 MOZ_SOURCESTAMP_FILE
 =
