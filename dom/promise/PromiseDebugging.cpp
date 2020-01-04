@@ -117,7 +117,7 @@ class
 FlushRejections
 :
 public
-nsCancelableRunnable
+CancelableRunnable
 {
 public
 :

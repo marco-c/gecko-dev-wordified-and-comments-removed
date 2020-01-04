@@ -6754,7 +6754,7 @@ class
 UpdateContextLossStatusTask
 :
 public
-nsCancelableRunnable
+CancelableRunnable
 {
 RefPtr
 <

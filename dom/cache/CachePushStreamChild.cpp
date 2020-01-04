@@ -67,7 +67,7 @@ final
 public
 nsIInputStreamCallback
 public
-nsCancelableRunnable
+CancelableRunnable
 {
 public
 :
@@ -266,7 +266,7 @@ CachePushStreamChild
 :
 :
 Callback
-nsCancelableRunnable
+CancelableRunnable
 nsIInputStreamCallback
 )
 ;

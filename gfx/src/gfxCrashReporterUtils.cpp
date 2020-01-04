@@ -338,7 +338,7 @@ class
 AppendAppNotesRunnable
 :
 public
-nsCancelableRunnable
+CancelableRunnable
 {
 public
 :

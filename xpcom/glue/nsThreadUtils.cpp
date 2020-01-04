@@ -147,12 +147,12 @@ NS_OK
 }
 NS_IMPL_ISUPPORTS_INHERITED
 (
-nsCancelableRunnable
+CancelableRunnable
 nsRunnable
 nsICancelableRunnable
 )
 nsresult
-nsCancelableRunnable
+CancelableRunnable
 :
 :
 Cancel

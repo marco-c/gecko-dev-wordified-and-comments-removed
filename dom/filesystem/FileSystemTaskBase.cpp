@@ -271,7 +271,7 @@ ErrorRunnable
 final
 :
 public
-nsCancelableRunnable
+CancelableRunnable
 {
 public
 :

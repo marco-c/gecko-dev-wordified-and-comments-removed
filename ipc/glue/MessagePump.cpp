@@ -190,7 +190,7 @@ DoWorkRunnable
 final
 :
 public
-nsCancelableRunnable
+CancelableRunnable
 public
 nsITimerCallback
 {
@@ -769,7 +769,7 @@ delayed_work_time_
 NS_IMPL_ISUPPORTS_INHERITED
 (
 DoWorkRunnable
-nsCancelableRunnable
+CancelableRunnable
 nsITimerCallback
 )
 NS_IMETHODIMP
