@@ -2639,9 +2639,7 @@ png
 )
 #
 endif
-.
-.
-/
+[
 extensions
 /
 {
@@ -2655,7 +2653,7 @@ a285
 -
 3208198ce6fd
 }
-/
+]
 chrome
 .
 jar

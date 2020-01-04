@@ -4248,9 +4248,7 @@ MOZ_BUILD_APP
 =
 =
 browser
-.
-.
-/
+[
 browser
 /
 extensions
@@ -4266,7 +4264,7 @@ a285
 -
 3208198ce6fd
 }
-/
+]
 chrome
 .
 jar
@@ -5791,9 +5789,7 @@ MOZ_BUILD_APP
 =
 =
 browser
-.
-.
-/
+[
 browser
 /
 extensions
@@ -5809,7 +5805,7 @@ a285
 -
 3208198ce6fd
 }
-/
+]
 chrome
 .
 jar

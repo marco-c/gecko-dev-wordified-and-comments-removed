@@ -1290,36 +1290,19 @@ install_target
 if
 jarinfo
 .
-name
-.
-startswith
-(
-'
-.
-.
-/
-'
-)
+base
 :
                 
-assert
-not
-jarinfo
-.
-entries
-            
-base
+install_target
 =
 mozpath
 .
 join
 (
-'
-chrome
-'
+install_target
 jarinfo
 .
-name
+base
 )
             
 for
@@ -1515,8 +1498,6 @@ self
 .
 _install_manifests
 [
-obj
-.
 install_target
 ]
 \
@@ -1540,7 +1521,9 @@ mozpath
 .
 join
 (
-base
+jarinfo
+.
+name
 e
 .
 output
@@ -1653,8 +1636,6 @@ install
 s
 '
 %
-obj
-.
 install_target
 ]
 \
@@ -1723,7 +1704,9 @@ mozpath
 .
 join
 (
-base
+jarinfo
+.
+name
 mozpath
 .
 dirname
@@ -1759,8 +1742,6 @@ self
 .
 _install_manifests
 [
-obj
-.
 install_target
 ]
 .
@@ -1773,7 +1754,9 @@ mozpath
 .
 join
 (
-base
+jarinfo
+.
+name
 e
 .
 output
@@ -1790,10 +1773,11 @@ mozpath
 .
 join
 (
-obj
-.
 install_target
-base
+                                                     
+jarinfo
+.
+name
 )
 )
             
@@ -1830,9 +1814,14 @@ replace
 '
 %
 '
+mozpath
+.
+basename
+(
 jarinfo
 .
 name
+)
 +
 '
 /
@@ -1841,19 +1830,14 @@ name
 )
             
 if
-not
 jarinfo
 .
 name
-.
-startswith
-(
+!
+=
 '
-.
-.
-/
+chrome
 '
-)
 :
                 
 manifest
@@ -1866,8 +1850,6 @@ mozpath
 .
 join
 (
-obj
-.
 install_target
                                                          
 '
@@ -1888,7 +1870,9 @@ s
 manifest
 '
 %
-base
+jarinfo
+.
+name
                 
 if
 entry
