@@ -101,6 +101,7 @@ Welcome
 !
 If
 you
+'
 ve
 never
 used
@@ -190,6 +191,7 @@ new
 label
 "
 I
+'
 ve
 never
 used
@@ -215,6 +217,7 @@ existing2
 label
 "
 I
+'
 m
 already
 using
@@ -858,6 +861,7 @@ label
 "
 I
 don
+'
 t
 have
 the
@@ -1414,6 +1418,7 @@ label
 Merge
 this
 device
+'
 s
 data
 with
@@ -1490,6 +1495,7 @@ devices
 with
 this
 device
+'
 s
 data
 "
@@ -1538,6 +1544,7 @@ merge
 all
 this
 device
+'
 s
 browser
 data
