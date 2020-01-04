@@ -2492,6 +2492,12 @@ promptPrincipal
 ;
 args
 .
+inPermitUnload
+=
+inPermitUnload
+;
+args
+.
 _remoteId
 =
 id
