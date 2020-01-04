@@ -9,8 +9,6 @@ re
 import
 os
 import
-posixpath
-import
 tempfile
 import
 shutil
@@ -1250,17 +1248,15 @@ mkdtemp
             
 remoteCrashDir
 =
-posixpath
-.
-join
-(
 self
 .
 _remoteProfile
++
 '
+/
 minidumps
+/
 '
-)
             
 if
 not
