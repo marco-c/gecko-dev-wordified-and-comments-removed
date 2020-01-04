@@ -1790,10 +1790,14 @@ bool
 aDispatchResult
 )
 {
-MaybeReportMainThreadException
+MOZ_ASSERT_IF
 (
 aCx
-aDispatchResult
+!
+JS_IsExceptionPending
+(
+aCx
+)
 )
 ;
 }
