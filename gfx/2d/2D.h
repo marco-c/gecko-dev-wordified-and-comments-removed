@@ -810,7 +810,10 @@ class
 SourceSurface
 :
 public
-RefCounted
+external
+:
+:
+AtomicRefCounted
 <
 SourceSurface
 >
