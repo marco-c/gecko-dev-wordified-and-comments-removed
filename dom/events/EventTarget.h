@@ -160,6 +160,9 @@ aRv
 bool
 DispatchEvent
 (
+JSContext
+*
+aCx
 Event
 &
 aEvent
