@@ -780,6 +780,13 @@ end_sim_pc
 2
 }
 ;
+enum
+UnalignedPolicy
+{
+ForbidUnaligned
+AllowUnaligned
+}
+;
 bool
 init
 (
@@ -1144,6 +1151,10 @@ addr
 SimInstruction
 *
 instr
+UnalignedPolicy
+f
+=
+ForbidUnaligned
 )
 ;
 inline
@@ -1157,6 +1168,10 @@ value
 SimInstruction
 *
 instr
+UnalignedPolicy
+f
+=
+ForbidUnaligned
 )
 ;
 inline
