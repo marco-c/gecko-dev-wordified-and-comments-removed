@@ -101,7 +101,5 @@ taskcluster
 ]
 =
 '
-taskcluster
-/
 docs
 '

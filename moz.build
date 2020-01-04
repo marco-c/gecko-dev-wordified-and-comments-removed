@@ -173,7 +173,7 @@ config
 python
 '
 '
-testing
+taskcluster
 '
 ]
 if

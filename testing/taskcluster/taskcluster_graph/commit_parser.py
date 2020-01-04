@@ -3,8 +3,6 @@ argparse
 import
 copy
 import
-functools
-import
 re
 import
 shlex
@@ -1004,12 +1002,9 @@ seen_chunks
 name
 ]
 =
-set
-(
-[
+{
 chunk
-]
-)
+}
                 
 test
 [
@@ -1305,6 +1300,20 @@ build_name
 ]
 [
 test_task_name
+]
+                
+test_task
+[
+'
+unittest_try_name
+'
+]
+=
+test_entry
+[
+'
+test
+'
 ]
                 
 if
@@ -2056,16 +2065,29 @@ allowed_build_tasks
                     
 continue
                 
-post_build_jobs
-.
-append
-(
+job
+=
 copy
 .
 deepcopy
 (
 job
 )
+                
+job
+[
+'
+job_flag
+'
+]
+=
+job_flag
+                
+post_build_jobs
+.
+append
+(
+job
 )
             
 result
@@ -2324,6 +2346,12 @@ build_type
 '
 :
 name
+            
+'
+is_job
+'
+:
+True
             
 '
 interactive
