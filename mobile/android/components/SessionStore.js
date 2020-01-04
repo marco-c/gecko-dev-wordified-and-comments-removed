@@ -2444,6 +2444,17 @@ formdata
 formdata
 ;
 }
+else
+{
+this
+.
+onTabInput
+(
+aWindow
+aBrowser
+)
+;
+}
 this
 .
 saveStateDelayed
