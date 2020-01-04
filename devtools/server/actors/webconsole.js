@@ -3264,10 +3264,7 @@ getActor
 frameActorId
 )
 ;
-if
-(
-frameActor
-)
+try
 {
 let
 frame
@@ -3283,7 +3280,10 @@ frame
 environment
 ;
 }
-else
+catch
+(
+e
+)
 {
 DevToolsUtils
 .
