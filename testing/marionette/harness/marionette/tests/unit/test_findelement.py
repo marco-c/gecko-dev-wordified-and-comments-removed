@@ -1441,9 +1441,9 @@ marionette
 .
 find_element
 (
-"
-id
-"
+By
+.
+ID
 "
 createDivButton
 "
@@ -1526,9 +1526,9 @@ marionette
 .
 find_element
 (
-"
-id
-"
+By
+.
+ID
 "
 createDivButton
 "

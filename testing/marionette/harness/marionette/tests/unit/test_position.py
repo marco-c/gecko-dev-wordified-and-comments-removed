@@ -2,6 +2,12 @@ from
 marionette
 import
 MarionetteTestCase
+from
+marionette_driver
+.
+by
+import
+By
 class
 TestPosition
 (
@@ -48,9 +54,9 @@ marionette
 .
 find_element
 (
-'
-id
-'
+By
+.
+ID
 "
 r2
 "

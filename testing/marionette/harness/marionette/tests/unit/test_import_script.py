@@ -13,6 +13,12 @@ marionette_driver
 errors
 import
 JavascriptException
+from
+marionette_driver
+.
+by
+import
+By
 class
 TestImportScriptContent
 (
@@ -760,10 +766,9 @@ marionette
 .
 find_element
 (
-"
-link
-text
-"
+By
+.
+LINK_TEXT
 "
 Open
 new

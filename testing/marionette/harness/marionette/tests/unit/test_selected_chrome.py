@@ -2,6 +2,12 @@ from
 marionette
 import
 MarionetteTestCase
+from
+marionette_driver
+.
+by
+import
+By
 class
 TestSelectedChrome
 (
@@ -170,9 +176,9 @@ marionette
 .
 find_element
 (
-"
-id
-"
+By
+.
+ID
 "
 testBox
 "

@@ -772,10 +772,9 @@ marionette
 .
 find_elements
 (
-"
-tag
-name
-"
+By
+.
+TAG_NAME
 "
 input
 "

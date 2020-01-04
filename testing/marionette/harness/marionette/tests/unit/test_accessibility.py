@@ -12,6 +12,12 @@ ElementNotAccessibleException
                                       
 ElementNotVisibleException
 )
+from
+marionette_driver
+.
+by
+import
+By
 class
 TestAccessibility
 (
@@ -191,9 +197,9 @@ marionette
 .
 find_element
 (
-"
-id
-"
+By
+.
+ID
 id
 )
             

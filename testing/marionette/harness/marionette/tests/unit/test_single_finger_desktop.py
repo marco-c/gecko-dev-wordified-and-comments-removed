@@ -8,6 +8,12 @@ marionette_driver
 errors
 import
 MarionetteException
+from
+marionette_driver
+.
+by
+import
+By
 import
 os
 import
@@ -802,9 +808,9 @@ marionette
 .
 find_element
 (
-"
-id
-"
+By
+.
+ID
 "
 button1Copy
 "

@@ -2,6 +2,12 @@ from
 marionette
 import
 MarionetteTestCase
+from
+marionette_driver
+.
+by
+import
+By
 OOP_BY_DEFAULT
 =
 "
@@ -465,9 +471,9 @@ marionette
 .
 find_element
 (
-"
-id
-"
+By
+.
+ID
 "
 remote_iframe
 "
@@ -662,9 +668,9 @@ marionette
 .
 find_element
 (
-"
-id
-"
+By
+.
+ID
                                                                      
 "
 remote_iframe
@@ -726,9 +732,9 @@ marionette
 .
 find_element
 (
-"
-id
-"
+By
+.
+ID
                                                                      
 "
 remote_iframe
