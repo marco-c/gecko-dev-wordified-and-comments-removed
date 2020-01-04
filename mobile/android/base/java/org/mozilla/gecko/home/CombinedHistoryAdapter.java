@@ -89,17 +89,6 @@ db
 .
 BrowserContract
 ;
-import
-org
-.
-mozilla
-.
-gecko
-.
-db
-.
-RemoteTab
-;
 public
 class
 CombinedHistoryAdapter
