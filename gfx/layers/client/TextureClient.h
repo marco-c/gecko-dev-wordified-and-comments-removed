@@ -988,11 +988,7 @@ IsSharedWithCompositor
 (
 )
 const
-{
-return
-mShared
 ;
-}
 bool
 ShouldDeallocateInDestructor
 (
