@@ -556,6 +556,7 @@ context
 extensionId
 }
 ;
+return
 context
 .
 messenger
