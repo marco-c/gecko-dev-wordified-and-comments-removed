@@ -123,17 +123,6 @@ work
 texttrackcuelist
 *
 /
-[
-Pref
-=
-"
-media
-.
-webvtt
-.
-enabled
-"
-]
 interface
 TextTrackCueList
 {

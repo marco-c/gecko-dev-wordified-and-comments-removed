@@ -157,17 +157,6 @@ showing
 "
 }
 ;
-[
-Pref
-=
-"
-media
-.
-webvtt
-.
-enabled
-"
-]
 interface
 TextTrack
 :

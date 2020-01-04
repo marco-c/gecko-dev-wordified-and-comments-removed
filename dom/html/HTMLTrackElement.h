@@ -437,12 +437,6 @@ aNullParent
 )
 override
 ;
-static
-bool
-IsWebVTTEnabled
-(
-)
-;
 void
 DispatchTrackRunnable
 (

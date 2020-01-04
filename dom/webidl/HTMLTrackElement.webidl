@@ -127,17 +127,6 @@ track
 element
 *
 /
-[
-Pref
-=
-"
-media
-.
-webvtt
-.
-enabled
-"
-]
 interface
 HTMLTrackElement
 :

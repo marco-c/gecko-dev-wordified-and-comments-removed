@@ -207,15 +207,6 @@ endTime
 DOMString
 text
 )
-Pref
-=
-"
-media
-.
-webvtt
-.
-enabled
-"
 ]
 interface
 VTTCue

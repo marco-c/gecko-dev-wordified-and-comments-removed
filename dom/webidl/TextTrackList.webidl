@@ -123,17 +123,6 @@ work
 texttracklist
 *
 /
-[
-Pref
-=
-"
-media
-.
-webvtt
-.
-enabled
-"
-]
 interface
 TextTrackList
 :
