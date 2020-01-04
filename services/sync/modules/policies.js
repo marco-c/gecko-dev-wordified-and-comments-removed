@@ -3533,12 +3533,6 @@ this
 checkServerError
 (
 exception
-"
-engines
-/
-"
-+
-engine_name
 )
 ;
 Status
@@ -4955,7 +4949,6 @@ checkServerError
 function
 (
 resp
-cause
 )
 {
 switch
