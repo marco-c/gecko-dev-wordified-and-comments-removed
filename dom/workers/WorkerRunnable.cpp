@@ -222,6 +222,9 @@ WorkerRunnable
 :
 PreDispatch
 (
+JSContext
+*
+aCx
 WorkerPrivate
 *
 aWorkerPrivate
@@ -260,6 +263,11 @@ aWorkerPrivate
 >
 AssertIsOnParentThread
 (
+)
+;
+MOZ_ASSERT
+(
+aCx
 )
 ;
 break
@@ -336,6 +344,7 @@ ok
 =
 PreDispatch
 (
+nullptr
 mWorkerPrivate
 )
 ;
@@ -412,16 +421,8 @@ ok
 =
 PreDispatch
 (
-mWorkerPrivate
-)
-;
-MOZ_ASSERT
-(
-!
-JS_IsExceptionPending
-(
 aCx
-)
+mWorkerPrivate
 )
 ;
 if
@@ -2475,6 +2476,9 @@ WorkerSameThreadRunnable
 :
 PreDispatch
 (
+JSContext
+*
+aCx
 WorkerPrivate
 *
 aWorkerPrivate
