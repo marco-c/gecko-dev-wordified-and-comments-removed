@@ -600,7 +600,6 @@ getInstance
 .
 start
 (
-applicationContext
 )
 ;
 mInBackground
