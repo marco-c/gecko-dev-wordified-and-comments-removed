@@ -1984,7 +1984,7 @@ CancelableRunnable
 >
 task
 =
-NewCancelableRunnableMethod
+NS_NewCancelableRunnableMethod
 (
 this
 &
@@ -2088,7 +2088,10 @@ CancelableRunnable
 >
 task
 =
-NewCancelableRunnableMethod
+NS_NewCancelableRunnableMethodWithArgs
+<
+bool
+>
 (
 this
 &
