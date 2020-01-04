@@ -17354,12 +17354,6 @@ gridCBPhysicalSize
 }
 nsRect
 dummyRect
-(
-0
-0
-VERY_LIKELY_A_GRID_CONTAINER
-0
-)
 ;
 AbsPosReflowFlags
 flags
@@ -17376,6 +17370,14 @@ AbsPosReflowFlags
 :
 :
 eConstrainHeight
+;
+flags
+|
+=
+AbsPosReflowFlags
+:
+:
+eIsGridContainerCB
 ;
 GetAbsoluteContainingBlock
 (

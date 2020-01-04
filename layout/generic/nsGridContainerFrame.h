@@ -277,14 +277,6 @@ mState
 ;
 }
 ;
-static
-const
-nscoord
-VERY_LIKELY_A_GRID_CONTAINER
-=
--
-123456789
-;
 NS_DECLARE_FRAME_PROPERTY
 (
 GridItemContainingBlockRect
