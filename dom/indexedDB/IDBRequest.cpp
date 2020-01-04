@@ -1436,6 +1436,16 @@ Init
 (
 )
 ;
+JS
+:
+:
+ExposeObjectToActiveJS
+(
+GetScriptOwner
+(
+)
+)
+;
 ac
 .
 emplace
