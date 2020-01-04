@@ -98,6 +98,10 @@ PMessagePort
 ;
 include
 protocol
+PCameras
+;
+include
+protocol
 PNuwa
 ;
 include
@@ -247,6 +251,9 @@ manages
 PMessagePort
 ;
 manages
+PCameras
+;
+manages
 PNuwa
 ;
 manages
@@ -287,6 +294,10 @@ loggingInfo
 )
 ;
 PVsync
+(
+)
+;
+PCameras
 (
 )
 ;

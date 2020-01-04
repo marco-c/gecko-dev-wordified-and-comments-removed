@@ -788,6 +788,14 @@ workers
 '
 '
 /
+media
+/
+webrtc
+/
+trunk
+'
+'
+/
 xpcom
 /
 build
