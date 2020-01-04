@@ -736,14 +736,6 @@ DoProfileChangeNetTeardown
 )
 ;
 void
-DoProfileChangeTeardown
-(
-nsISupports
-*
-aSubject
-)
-;
-void
 DoProfileBeforeChange
 (
 nsISupports

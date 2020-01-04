@@ -12,6 +12,13 @@ nsIUserCertPicker
 h
 "
 #
+include
+"
+nsNSSShutDown
+.
+h
+"
+#
 define
 NS_CERT_PICKER_CID
 \
@@ -35,6 +42,8 @@ nsCertPicker
 :
 public
 nsIUserCertPicker
+public
+nsNSSShutDownObject
 {
 public
 :
@@ -44,6 +53,14 @@ nsCertPicker
 (
 )
 ;
+virtual
+void
+virtualDestroyNSSReference
+(
+)
+override
+{
+}
 protected
 :
 virtual

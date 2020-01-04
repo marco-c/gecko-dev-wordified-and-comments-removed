@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsNSSShutDown
+.
+h
+"
+#
+include
+"
 pk11func
 .
 h
@@ -106,6 +113,8 @@ slot
 nsIInterfaceRequestor
 *
 ctx
+nsNSSShutDownPreventionLock
+&
 )
 ;
 #

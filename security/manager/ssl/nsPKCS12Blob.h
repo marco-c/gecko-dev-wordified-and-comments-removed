@@ -79,6 +79,9 @@ nsIX509Cert
 ;
 class
 nsPKCS12Blob
+:
+public
+nsNSSShutDownObject
 {
 public
 :
@@ -92,6 +95,14 @@ nsPKCS12Blob
 (
 )
 ;
+virtual
+void
+virtualDestroyNSSReference
+(
+)
+override
+{
+}
 nsresult
 SetToken
 (

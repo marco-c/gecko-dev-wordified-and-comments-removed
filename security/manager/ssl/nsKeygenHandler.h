@@ -18,6 +18,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+nsNSSShutDown
+.
+h
+"
 nsresult
 GetSlotWithMechanism
 (
@@ -30,6 +37,8 @@ PK11SlotInfo
 *
 *
 retSlot
+nsNSSShutDownPreventionLock
+&
 )
 ;
 #
@@ -55,6 +64,8 @@ nsKeygenFormProcessor
 :
 public
 nsIFormProcessor
+public
+nsNSSShutDownObject
 {
 public
 :
@@ -166,6 +177,14 @@ nsAString
 keyParamsValue
 )
 ;
+virtual
+void
+virtualDestroyNSSReference
+(
+)
+override
+{
+}
 protected
 :
 virtual

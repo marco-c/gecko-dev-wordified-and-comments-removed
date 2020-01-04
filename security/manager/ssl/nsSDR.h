@@ -56,6 +56,8 @@ public
 nsISecretDecoderRing
 public
 nsISecretDecoderRingConfig
+public
+nsNSSShutDownObject
 {
 public
 :
@@ -66,6 +68,14 @@ nsSecretDecoderRing
 (
 )
 ;
+virtual
+void
+virtualDestroyNSSReference
+(
+)
+override
+{
+}
 protected
 :
 virtual
