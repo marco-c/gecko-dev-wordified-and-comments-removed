@@ -14869,6 +14869,15 @@ aFramePos
 aContainerSize
 )
 ;
+PositionFrameView
+(
+aItem
+.
+Frame
+(
+)
+)
+;
 PositionChildViews
 (
 aItem
