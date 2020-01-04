@@ -289,7 +289,7 @@ VideoSink
 )
 ;
 void
-OnVideoQueueEvent
+OnVideoQueuePushed
 (
 RefPtr
 <
@@ -298,6 +298,11 @@ MediaData
 &
 &
 aSample
+)
+;
+void
+OnVideoQueueFinished
+(
 )
 ;
 void
@@ -433,6 +438,9 @@ mOldDroppedCount
 ;
 MediaEventListener
 mPushListener
+;
+MediaEventListener
+mFinishListener
 ;
 bool
 mHasVideo
