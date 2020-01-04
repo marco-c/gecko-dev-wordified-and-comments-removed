@@ -27,11 +27,9 @@ tests
 /
 dom
 /
+apps
+/
 tests
-/
-mochitest
-/
-webapps
 /
 file_bug_779982
 .
