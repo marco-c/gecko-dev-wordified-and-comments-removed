@@ -5376,11 +5376,9 @@ UpdateShapeTypeAndValue
 ExclusiveContext
 *
 cx
-NativeObject
-*
+HandleNativeObject
 obj
-Shape
-*
+HandleShape
 shape
 const
 Value
