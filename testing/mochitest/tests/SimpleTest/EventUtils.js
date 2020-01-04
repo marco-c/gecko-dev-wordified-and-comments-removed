@@ -2834,7 +2834,7 @@ return
 ;
 }
 const
-KeyEvent
+nsIDOMKeyEvent
 =
 _EU_Ci
 .
@@ -2859,7 +2859,7 @@ z
 )
 {
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_A
 +
@@ -2899,7 +2899,7 @@ Z
 )
 {
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_A
 +
@@ -2939,7 +2939,7 @@ aChar
 )
 {
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_0
 +
@@ -2975,7 +2975,7 @@ case
 '
 :
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_BACK_QUOTE
 ;
@@ -2985,7 +2985,7 @@ case
 '
 :
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_1
 ;
@@ -2994,7 +2994,7 @@ case
 '
 :
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_2
 ;
@@ -3004,7 +3004,7 @@ case
 '
 :
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_3
 ;
@@ -3013,7 +3013,7 @@ case
 '
 :
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_4
 ;
@@ -3023,7 +3023,7 @@ case
 '
 :
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_5
 ;
@@ -3033,7 +3033,7 @@ case
 '
 :
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_6
 ;
@@ -3043,7 +3043,7 @@ case
 '
 :
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_7
 ;
@@ -3053,7 +3053,7 @@ case
 '
 :
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_8
 ;
@@ -3063,7 +3063,7 @@ case
 '
 :
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_9
 ;
@@ -3073,7 +3073,7 @@ case
 '
 :
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_0
 ;
@@ -3088,7 +3088,7 @@ _
 '
 :
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_SUBTRACT
 ;
@@ -3103,7 +3103,7 @@ case
 '
 :
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_EQUALS
 ;
@@ -3118,7 +3118,7 @@ case
 '
 :
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_OPEN_BRACKET
 ;
@@ -3133,7 +3133,7 @@ case
 '
 :
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_CLOSE_BRACKET
 ;
@@ -3149,7 +3149,7 @@ case
 '
 :
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_BACK_SLASH
 ;
@@ -3164,7 +3164,7 @@ case
 '
 :
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_SEMICOLON
 ;
@@ -3180,7 +3180,7 @@ case
 '
 :
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_QUOTE
 ;
@@ -3194,7 +3194,7 @@ case
 '
 :
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_COMMA
 ;
@@ -3209,7 +3209,7 @@ case
 '
 :
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_PERIOD
 ;
@@ -3224,7 +3224,7 @@ case
 '
 :
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_SLASH
 ;
@@ -3235,7 +3235,7 @@ n
 '
 :
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_RETURN
 ;
@@ -3244,7 +3244,7 @@ case
 '
 :
 return
-KeyEvent
+nsIDOMKeyEvent
 .
 DOM_VK_SPACE
 ;
@@ -3261,8 +3261,6 @@ synthesizeKey
 aKey
 aEvent
 aWindow
-=
-window
 )
 {
 var
@@ -3289,7 +3287,6 @@ _emulateToActivateModifiers
 (
 TIP
 aEvent
-aWindow
 )
 ;
 var
@@ -3299,15 +3296,12 @@ _createKeyboardEventDictionary
 (
 aKey
 aEvent
-aWindow
 )
 ;
 var
 keyEvent
 =
 new
-aWindow
-.
 KeyboardEvent
 (
 "
@@ -3420,8 +3414,6 @@ var
 repeatedKeyEvent
 =
 new
-aWindow
-.
 KeyboardEvent
 (
 "
@@ -3485,7 +3477,6 @@ _emulateToInactivateModifiers
 (
 TIP
 modifiers
-aWindow
 )
 ;
 }
@@ -4015,9 +4006,6 @@ aModifiers
 aChars
 aUnmodifiedChars
 aCallback
-aWindow
-=
-window
 )
 {
 var
@@ -4025,7 +4013,7 @@ utils
 =
 _getDOMWindowUtils
 (
-aWindow
+window
 )
 ;
 if
@@ -4493,10 +4481,19 @@ function
 _getDOMWindowUtils
 (
 aWindow
-=
-window
 )
 {
+if
+(
+!
+aWindow
+)
+{
+aWindow
+=
+window
+;
+}
 if
 (
 "
@@ -4782,18 +4779,8 @@ function
 _guessKeyNameFromKeyCode
 (
 aKeyCode
-aWindow
-=
-window
 )
 {
-const
-KeyboardEvent
-=
-aWindow
-.
-KeyboardEvent
-;
 switch
 (
 aKeyCode
@@ -5503,9 +5490,6 @@ _createKeyboardEventDictionary
 (
 aKey
 aKeyEvent
-aWindow
-=
-window
 )
 {
 var
@@ -5623,9 +5607,7 @@ VK_
 {
 keyCode
 =
-_EU_Ci
-.
-nsIDOMKeyEvent
+KeyEvent
 [
 "
 DOM_
@@ -5655,7 +5637,6 @@ keyName
 _guessKeyNameFromKeyCode
 (
 keyCode
-aWindow
 )
 ;
 result
@@ -5830,9 +5811,6 @@ _emulateToActivateModifiers
 (
 aTIP
 aKeyEvent
-aWindow
-=
-window
 )
 {
 if
@@ -5952,8 +5930,6 @@ symbolKey
 key
 :
 (
-aWindow
-.
 navigator
 .
 platform
@@ -6111,8 +6087,6 @@ var
 event
 =
 new
-aWindow
-.
 KeyboardEvent
 (
 "
@@ -6220,8 +6194,6 @@ var
 event
 =
 new
-aWindow
-.
 KeyboardEvent
 (
 "
@@ -6289,9 +6261,6 @@ _emulateToInactivateModifiers
 (
 aTIP
 aModifiers
-aWindow
-=
-window
 )
 {
 if
@@ -6343,8 +6312,6 @@ var
 event
 =
 new
-aWindow
-.
 KeyboardEvent
 (
 "
@@ -6439,8 +6406,6 @@ var
 event
 =
 new
-aWindow
-.
 KeyboardEvent
 (
 "
@@ -6525,7 +6490,6 @@ TIP
 aEvent
 .
 key
-aWindow
 )
 ;
 var
@@ -6552,7 +6516,6 @@ key
 aEvent
 .
 key
-aWindow
 )
 :
 {
@@ -6574,8 +6537,6 @@ in
 aEvent
 ?
 new
-aWindow
-.
 KeyboardEvent
 (
 aEvent
@@ -6678,7 +6639,6 @@ _emulateToInactivateModifiers
 (
 TIP
 modifiers
-aWindow
 )
 ;
 }
@@ -6900,7 +6860,6 @@ TIP
 aEvent
 .
 key
-aWindow
 )
 ;
 try
@@ -6924,7 +6883,6 @@ key
 aEvent
 .
 key
-aWindow
 )
 :
 {
@@ -6946,8 +6904,6 @@ in
 aEvent
 ?
 new
-aWindow
-.
 KeyboardEvent
 (
 aEvent
@@ -6990,7 +6946,6 @@ _emulateToInactivateModifiers
 (
 TIP
 modifiers
-aWindow
 )
 ;
 }
