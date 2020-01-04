@@ -4049,10 +4049,7 @@ x
 y
 cx
 cy
-nsIBaseWindow
-:
-:
-eRepaint
+true
 )
 ;
 return

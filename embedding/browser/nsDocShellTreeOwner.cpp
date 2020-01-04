@@ -2681,8 +2681,8 @@ int32_t
 aCX
 int32_t
 aCY
-uint32_t
-aFlags
+bool
+aRepaint
 )
 {
 nsCOMPtr
