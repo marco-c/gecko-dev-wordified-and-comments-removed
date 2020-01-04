@@ -82,7 +82,7 @@ interfaces
 nsIFile
 .
 DIRECTORY_TYPE
-0755
+0o755
 )
 ;
 var
@@ -146,7 +146,7 @@ interfaces
 nsIFile
 .
 DIRECTORY_TYPE
-0755
+0o755
 )
 ;
 source
@@ -209,7 +209,7 @@ interfaces
 nsIFile
 .
 DIRECTORY_TYPE
-0755
+0o755
 )
 ;
 source
@@ -272,7 +272,7 @@ interfaces
 nsIFile
 .
 DIRECTORY_TYPE
-0755
+0o755
 )
 ;
 source
@@ -335,7 +335,7 @@ interfaces
 nsIFile
 .
 DIRECTORY_TYPE
-0755
+0o755
 )
 ;
 source

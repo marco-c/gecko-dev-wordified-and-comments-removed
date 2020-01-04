@@ -164,11 +164,11 @@ file
 .
 permissions
 &
-0100
+0o100
 )
 =
 =
-0100
+0o100
 )
 ;
 do_execute_soon

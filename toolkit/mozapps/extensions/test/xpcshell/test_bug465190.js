@@ -27,7 +27,7 @@ interfaces
 nsIFile
 .
 NORMAL_FILE_TYPE
-0664
+0o664
 )
 ;
 var

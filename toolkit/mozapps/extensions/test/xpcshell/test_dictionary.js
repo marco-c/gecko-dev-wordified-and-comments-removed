@@ -2186,7 +2186,7 @@ AM_Ci
 nsIFile
 .
 DIRECTORY_TYPE
-0755
+0o755
 )
 ;
 let
@@ -2275,7 +2275,7 @@ AM_Ci
 nsIFile
 .
 DIRECTORY_TYPE
-0755
+0o755
 )
 ;
 dir
@@ -2574,7 +2574,7 @@ AM_Ci
 nsIFile
 .
 DIRECTORY_TYPE
-0755
+0o755
 )
 ;
 let
@@ -2663,7 +2663,7 @@ AM_Ci
 nsIFile
 .
 DIRECTORY_TYPE
-0755
+0o755
 )
 ;
 dir
@@ -3090,7 +3090,7 @@ AM_Ci
 nsIFile
 .
 DIRECTORY_TYPE
-0755
+0o755
 )
 ;
 let
@@ -3179,7 +3179,7 @@ AM_Ci
 nsIFile
 .
 DIRECTORY_TYPE
-0755
+0o755
 )
 ;
 dir
