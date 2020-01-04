@@ -1234,6 +1234,7 @@ nsIDocShell
 GetDocShell
 (
 )
+const
 {
 if
 (
