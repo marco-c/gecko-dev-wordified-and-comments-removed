@@ -38,6 +38,17 @@ Components
 .
 returnCode
 ;
+Cu
+.
+importGlobalProperties
+(
+[
+"
+File
+"
+]
+)
+;
 const
 TV_SIMULATOR_DUMMY_DIRECTORY
 =
