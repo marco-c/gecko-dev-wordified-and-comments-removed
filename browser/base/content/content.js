@@ -743,14 +743,8 @@ docLocation
 doc
 .
 location
-?
-doc
-.
-location
 .
 href
-:
-undefined
 ;
 let
 charSet
@@ -973,6 +967,7 @@ event
 target
 .
 currentURI
+doc
 )
 ;
 try
