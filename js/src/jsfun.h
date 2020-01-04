@@ -3162,6 +3162,13 @@ enclosingDynamicScope
 nullptr
 )
 ;
+enum
+NewFunctionProtoHandling
+{
+NewFunctionClassProto
+NewFunctionGivenProto
+}
+;
 extern
 JSFunction
 *
@@ -3202,6 +3209,10 @@ NewObjectKind
 newKind
 =
 GenericObject
+NewFunctionProtoHandling
+protoHandling
+=
+NewFunctionClassProto
 )
 ;
 extern
