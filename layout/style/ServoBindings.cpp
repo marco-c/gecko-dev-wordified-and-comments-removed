@@ -1006,9 +1006,9 @@ ServoComputedValues
 *
 Servo_GetComputedValues
 (
-RawGeckoElement
+RawGeckoNode
 *
-element
+node
 )
 {
 MOZ_CRASH

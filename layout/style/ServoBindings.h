@@ -380,9 +380,9 @@ ServoComputedValues
 *
 Servo_GetComputedValues
 (
-RawGeckoElement
+RawGeckoNode
 *
-element
+node
 )
 ;
 ServoComputedValues
