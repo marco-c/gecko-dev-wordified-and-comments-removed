@@ -368,11 +368,6 @@ Log
 jsm
 '
 '
-Memory
-.
-jsm
-'
-'
 NewTabUtils
 .
 jsm
