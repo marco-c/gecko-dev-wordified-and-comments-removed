@@ -2355,7 +2355,12 @@ BackendType
 SKIA
 :
 return
-INT_MAX
+DrawTargetSkia
+:
+:
+GetMaxSurfaceSize
+(
+)
 ;
 #
 ifdef

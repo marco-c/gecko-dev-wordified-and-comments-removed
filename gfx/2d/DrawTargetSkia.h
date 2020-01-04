@@ -758,6 +758,16 @@ override
 ;
 #
 endif
+static
+size_t
+GetMaxSurfaceSize
+(
+)
+{
+return
+32767
+;
+}
 operator
 std
 :
