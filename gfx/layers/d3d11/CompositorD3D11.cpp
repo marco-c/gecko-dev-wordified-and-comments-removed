@@ -6234,11 +6234,17 @@ params
 .
 pDirtyRects
 =
+params
+.
+DirtyRectsCount
+?
 rects
 .
 data
 (
 )
+:
+nullptr
 ;
 chain
 -
