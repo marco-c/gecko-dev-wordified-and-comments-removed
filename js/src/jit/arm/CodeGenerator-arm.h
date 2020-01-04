@@ -1097,6 +1097,15 @@ LCompareI64AndBranch
 lir
 )
 ;
+virtual
+void
+visitBitOpI64
+(
+LBitOpI64
+*
+lir
+)
+;
 void
 visitOutOfLineBailout
 (

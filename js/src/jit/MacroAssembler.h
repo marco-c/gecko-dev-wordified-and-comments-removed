@@ -2427,6 +2427,7 @@ dest
 DEFINED_ON
 (
 x86
+arm
 )
 ;
 inline
