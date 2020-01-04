@@ -329,9 +329,13 @@ PHONY
 dist
 dist
 :
+mkdir
+-
+p
+dist
 cp
 -
-pr
+pR
 content
 dist
 NODE_ENV
