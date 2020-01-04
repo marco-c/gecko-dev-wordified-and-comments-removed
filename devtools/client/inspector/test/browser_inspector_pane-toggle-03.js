@@ -55,11 +55,9 @@ querySelector
 #
 inspector
 -
-splitter
+sidebar
 -
-box
-.
-controlled
+container
 "
 )
 ;

@@ -342,8 +342,13 @@ changed
 2
 )
 ;
-focusAndSendKey
+EventUtils
+.
+sendKey
 (
+"
+RETURN
+"
 widget
 .
 parent
@@ -351,9 +356,6 @@ parent
 ownerDocument
 .
 defaultView
-"
-RETURN
-"
 )
 ;
 yield
