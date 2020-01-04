@@ -1,8 +1,3 @@
-extern
-"
-C
-"
-{
 #
 include
 <
@@ -64,7 +59,6 @@ unistd
 .
 h
 >
-}
 #
 include
 "
@@ -119,7 +113,8 @@ context
 :
 file_
 (
-0
+-
+1
 )
 memory_
 (
@@ -178,7 +173,8 @@ context
 :
 file_
 (
-0
+-
+1
 )
 memory_
 (

@@ -52,7 +52,7 @@ node
 const
 ;
 virtual
-void
+bool
 CopyFromProcess
 (
 void

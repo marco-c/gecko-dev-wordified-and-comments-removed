@@ -37,12 +37,8 @@ mach_vm_read
 vm_read
 #
 define
-mach_vm_region
-vm_region
-#
-define
 mach_vm_region_recurse
-vm_region_recurse
+vm_region_recurse_64
 #
 define
 mach_vm_size_t

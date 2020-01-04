@@ -14,17 +14,10 @@ cdefs
 h
 >
 #
-include
-<
-signal
-.
-h
->
-#
 ifdef
-__BIONIC_HAVE_UCONTEXT_H
+__BIONIC_UCONTEXT_H
 #
-include_next
+include
 <
 ucontext
 .
@@ -41,8 +34,6 @@ ucontext
 .
 h
 >
-#
-endif
 #
 ifdef
 __cplusplus
@@ -75,6 +66,8 @@ x
 ifdef
 __cplusplus
 }
+#
+endif
 #
 endif
 #

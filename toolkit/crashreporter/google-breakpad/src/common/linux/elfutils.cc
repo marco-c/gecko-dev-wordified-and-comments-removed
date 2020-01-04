@@ -79,7 +79,7 @@ void
 *
 *
 section_start
-int
+size_t
 *
 section_size
 )
@@ -300,7 +300,7 @@ void
 *
 *
 segment_start
-int
+size_t
 *
 segment_size
 )
@@ -546,7 +546,7 @@ void
 *
 *
 section_start
-int
+size_t
 *
 section_size
 int
@@ -699,7 +699,7 @@ void
 *
 *
 segment_start
-int
+size_t
 *
 segment_size
 int

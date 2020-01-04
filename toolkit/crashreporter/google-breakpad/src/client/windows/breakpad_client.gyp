@@ -1,13 +1,9 @@
 #
 Copyright
-(
-c
-)
 2010
 Google
 Inc
 .
-#
 All
 rights
 reserved
@@ -277,6 +273,12 @@ includes
 :
 [
 '
+.
+.
+/
+.
+.
+/
 build
 /
 common

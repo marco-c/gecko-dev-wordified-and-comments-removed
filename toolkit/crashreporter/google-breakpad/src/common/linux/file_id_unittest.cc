@@ -24,6 +24,17 @@ common
 /
 linux
 /
+elf_gnu_compat
+.
+h
+"
+#
+include
+"
+common
+/
+linux
+/
 elfutils
 .
 h
@@ -209,6 +220,9 @@ prime_number
 ;
 }
 }
+#
+ifndef
+__ANDROID__
 TEST
 (
 FileIDStripTest
@@ -484,6 +498,8 @@ identifier_string2
 )
 ;
 }
+#
+endif
 template
 <
 typename

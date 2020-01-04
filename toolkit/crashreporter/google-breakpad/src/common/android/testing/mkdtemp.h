@@ -48,11 +48,15 @@ stat
 .
 h
 >
+#
+define
+mkdtemp
+breakpad_mkdtemp
 namespace
 {
 char
 *
-mkdtemp
+breakpad_mkdtemp
 (
 char
 *

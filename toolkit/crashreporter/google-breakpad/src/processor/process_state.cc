@@ -59,6 +59,10 @@ time_date_stamp_
 =
 0
 ;
+process_create_time_
+=
+0
+;
 crashed_
 =
 false
@@ -134,6 +138,12 @@ Clear
 )
 ;
 modules_without_symbols_
+.
+clear
+(
+)
+;
+modules_with_corrupt_symbols_
 .
 clear
 (
