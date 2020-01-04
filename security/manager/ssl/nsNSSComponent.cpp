@@ -3681,7 +3681,7 @@ ssl
 .
 enable_ocsp_must_staple
 "
-false
+true
 )
 ;
 PublicSSLState
