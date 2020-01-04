@@ -126,7 +126,7 @@ server
 expected
 :
 "
-3
+2
 "
 }
 {

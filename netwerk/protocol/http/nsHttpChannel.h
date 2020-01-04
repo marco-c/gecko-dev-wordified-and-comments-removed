@@ -1595,12 +1595,6 @@ entry
 const
 ;
 bool
-MustValidateBasedOnQueryUrl
-(
-)
-const
-;
-bool
 IsResumable
 (
 int64_t
