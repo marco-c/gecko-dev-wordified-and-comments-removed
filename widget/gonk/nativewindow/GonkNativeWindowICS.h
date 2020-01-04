@@ -504,10 +504,7 @@ GraphicBuffer
 >
 mGraphicBuffer
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 TextureClient
 >

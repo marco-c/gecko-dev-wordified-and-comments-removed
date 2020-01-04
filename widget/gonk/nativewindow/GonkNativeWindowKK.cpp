@@ -528,7 +528,7 @@ return
 NULL
 ;
 }
-RefPtr
+nsRefPtr
 <
 TextureClient
 >

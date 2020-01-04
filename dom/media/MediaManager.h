@@ -2279,7 +2279,7 @@ mMediaThread
 Mutex
 mMutex
 ;
-RefPtr
+nsRefPtr
 <
 MediaEngine
 >

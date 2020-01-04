@@ -32,7 +32,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -2303,7 +2303,7 @@ mTextureCount
 }
 protected
 :
-RefPtr
+nsRefPtr
 <
 GLContext
 >

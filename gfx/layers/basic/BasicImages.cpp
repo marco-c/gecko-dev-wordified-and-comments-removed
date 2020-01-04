@@ -668,7 +668,7 @@ if
 mSourceSurface
 )
 {
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -710,7 +710,7 @@ GetOffscreenFormat
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -720,7 +720,7 @@ SourceSurface
 surface
 ;
 {
-RefPtr
+nsRefPtr
 <
 gfx
 :

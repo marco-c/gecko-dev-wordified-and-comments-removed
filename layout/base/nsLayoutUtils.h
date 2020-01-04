@@ -4183,10 +4183,7 @@ SurfaceFromElementResult
 (
 )
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

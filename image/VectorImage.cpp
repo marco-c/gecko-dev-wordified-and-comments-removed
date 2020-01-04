@@ -92,7 +92,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -2699,7 +2699,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -3249,7 +3249,7 @@ if
 result
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -3497,7 +3497,7 @@ aParams
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

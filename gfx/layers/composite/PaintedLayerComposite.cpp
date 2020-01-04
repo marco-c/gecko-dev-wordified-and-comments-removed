@@ -549,7 +549,7 @@ gfxUtils
 sDumpCompositorTextures
 )
 {
-RefPtr
+nsRefPtr
 <
 gfx
 :

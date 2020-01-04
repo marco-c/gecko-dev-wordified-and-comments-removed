@@ -166,7 +166,7 @@ gfx
 IntRect
 &
 aClipRect
-RefPtr
+nsRefPtr
 <
 CompositingRenderTarget
 >
@@ -179,7 +179,7 @@ class
 ContainerT
 >
 friend
-RefPtr
+nsRefPtr
 <
 CompositingRenderTarget
 >
@@ -203,7 +203,7 @@ class
 ContainerT
 >
 friend
-RefPtr
+nsRefPtr
 <
 CompositingRenderTarget
 >
@@ -497,13 +497,13 @@ PreparedData
 >
 mPrepared
 ;
-RefPtr
+nsRefPtr
 <
 CompositingRenderTarget
 >
 mLastIntermediateSurface
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -616,7 +616,7 @@ gfx
 IntRect
 &
 aClipRect
-RefPtr
+nsRefPtr
 <
 CompositingRenderTarget
 >
@@ -629,7 +629,7 @@ class
 ContainerT
 >
 friend
-RefPtr
+nsRefPtr
 <
 CompositingRenderTarget
 >
@@ -656,7 +656,7 @@ class
 ContainerT
 >
 friend
-RefPtr
+nsRefPtr
 <
 CompositingRenderTarget
 >
@@ -817,7 +817,7 @@ PreparedData
 >
 mPrepared
 ;
-RefPtr
+nsRefPtr
 <
 CompositingRenderTarget
 >

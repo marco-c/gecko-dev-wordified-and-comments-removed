@@ -39,7 +39,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -299,7 +299,7 @@ outBitmap
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -356,7 +356,7 @@ SurfaceFormat
 B8G8R8X8
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >

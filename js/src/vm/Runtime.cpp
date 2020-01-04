@@ -4137,10 +4137,7 @@ systemTimeStop
 -
 systemTimeStart_
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 js
 :
@@ -4169,10 +4166,7 @@ mozilla
 :
 Vector
 <
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 js
 :
@@ -4212,10 +4206,7 @@ recentTicks
 ;
 for
 (
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 js
 :

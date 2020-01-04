@@ -1327,7 +1327,7 @@ std
 :
 vector
 <
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >
@@ -1350,7 +1350,7 @@ payloadTypeToDetailsMap
 for
 (
 const
-RefPtr
+nsRefPtr
 <
 JsepTrack
 >

@@ -1429,7 +1429,7 @@ SurfaceCaps
 &
 caps
 const
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -1564,7 +1564,7 @@ empty
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -1649,7 +1649,7 @@ surf
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -1815,7 +1815,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 layers
 :
@@ -1919,7 +1919,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 layers
 :

@@ -57,7 +57,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -2672,7 +2672,7 @@ BuildPathForMeasuring
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -2690,7 +2690,7 @@ ScreenReferenceDrawTarget
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >

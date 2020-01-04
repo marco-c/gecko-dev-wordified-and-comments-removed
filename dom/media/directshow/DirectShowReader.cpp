@@ -17,7 +17,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -469,7 +469,7 @@ IGraphBuilder
 *
 >
 (
-byRef
+getter_AddRefs
 (
 mGraph
 )
@@ -546,7 +546,7 @@ IMediaControl
 *
 >
 (
-byRef
+getter_AddRefs
 (
 mControl
 )
@@ -579,7 +579,7 @@ IMediaSeeking
 *
 >
 (
-byRef
+getter_AddRefs
 (
 mMediaSeeking
 )
@@ -662,7 +662,7 @@ hr
 NS_ERROR_FAILURE
 )
 ;
-RefPtr
+nsRefPtr
 <
 IBaseFilter
 >
@@ -678,7 +678,7 @@ L
 "
 MPEG1Splitter
 "
-byRef
+getter_AddRefs
 (
 demuxer
 )
@@ -693,7 +693,7 @@ hr
 NS_ERROR_FAILURE
 )
 ;
-RefPtr
+nsRefPtr
 <
 IBaseFilter
 >
@@ -712,7 +712,7 @@ Layer
 3
 Decoder
 "
-byRef
+getter_AddRefs
 (
 decoder
 )
@@ -731,7 +731,7 @@ hr
 AddMP3DMOWrapperFilter
 (
 mGraph
-byRef
+getter_AddRefs
 (
 decoder
 )
@@ -1149,7 +1149,7 @@ x
 aStatus
 )
 ;
-RefPtr
+nsRefPtr
 <
 IMediaEventSink
 >
@@ -1170,7 +1170,7 @@ IMediaEventSink
 *
 >
 (
-byRef
+getter_AddRefs
 (
 eventSink
 )
@@ -1470,7 +1470,7 @@ S_OK
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 IMediaSample
 >

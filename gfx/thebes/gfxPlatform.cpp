@@ -3372,7 +3372,7 @@ GetSurfaceFormat
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -3514,7 +3514,7 @@ kSourceSurface
 struct
 SourceSurfaceUserData
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -3729,7 +3729,7 @@ GetBackendType
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -3826,7 +3826,7 @@ surf
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -3838,7 +3838,7 @@ if
 srcBuffer
 )
 {
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -3956,7 +3956,7 @@ GetSize
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -4219,7 +4219,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -5255,7 +5255,7 @@ backend
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -5423,7 +5423,7 @@ BackendType
 CAIRO
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >

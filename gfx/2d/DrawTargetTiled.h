@@ -1010,7 +1010,7 @@ GetDataSurface
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -1076,7 +1076,7 @@ nullptr
 ;
 }
 {
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -1157,7 +1157,7 @@ i
 +
 )
 {
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -1224,7 +1224,7 @@ std
 :
 vector
 <
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

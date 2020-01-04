@@ -40,7 +40,7 @@ IntSize
 aSize
 )
 {
-RefPtr
+nsRefPtr
 <
 DrawTargetCaptureImpl
 >

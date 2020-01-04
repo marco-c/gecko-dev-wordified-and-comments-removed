@@ -47,7 +47,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1280,7 +1280,7 @@ aOutMatches
 E_POINTER
 )
 ;
-RefPtr
+nsRefPtr
 <
 IPin
 >
@@ -1294,7 +1294,7 @@ aPin
 >
 ConnectedTo
 (
-byRef
+getter_AddRefs
 (
 peer
 )
@@ -1367,7 +1367,7 @@ PIN_DIRECTION
 aPinDir
 )
 {
-RefPtr
+nsRefPtr
 <
 IEnumPins
 >
@@ -1381,7 +1381,7 @@ aFilter
 >
 EnumPins
 (
-byRef
+getter_AddRefs
 (
 enumPins
 )
@@ -1396,7 +1396,7 @@ hr
 nullptr
 )
 ;
-RefPtr
+nsRefPtr
 <
 IPin
 >
@@ -1413,7 +1413,7 @@ enumPins
 Next
 (
 1
-byRef
+getter_AddRefs
 (
 pin
 )
@@ -1470,7 +1470,7 @@ IBaseFilter
 aInputFilter
 )
 {
-RefPtr
+nsRefPtr
 <
 IPin
 >
@@ -1488,7 +1488,7 @@ output
 E_FAIL
 )
 ;
-RefPtr
+nsRefPtr
 <
 IPin
 >

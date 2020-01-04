@@ -1379,7 +1379,7 @@ height
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -3113,7 +3113,7 @@ forget
 Matrix
 pMatrix
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

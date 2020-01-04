@@ -152,7 +152,7 @@ IDXGIKeyedMutex
 *
 *
 )
-byRef
+getter_AddRefs
 (
 mMutex
 )
@@ -241,7 +241,7 @@ texture
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 IDXGIKeyedMutex
 >
@@ -265,7 +265,7 @@ IntSize
 aSize
 _D3DFORMAT
 aFormat
-RefPtr
+nsRefPtr
 <
 IDirect3DSurface9
 >
@@ -289,7 +289,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 IDirect3DTexture9
 >
@@ -314,7 +314,7 @@ height
 0
 aFormat
 D3DPOOL_DEFAULT
-byRef
+getter_AddRefs
 (
 result
 )
@@ -338,7 +338,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 IDirect3DTexture9
 >
@@ -363,7 +363,7 @@ height
 0
 aFormat
 D3DPOOL_SYSTEMMEM
-byRef
+getter_AddRefs
 (
 tmpTexture
 )
@@ -392,7 +392,7 @@ tmpTexture
 GetSurfaceLevel
 (
 0
-byRef
+getter_AddRefs
 (
 aSurface
 )
@@ -558,7 +558,7 @@ UploadData
 IDirect3DDevice9
 *
 aDevice
-RefPtr
+nsRefPtr
 <
 IDirect3DTexture9
 >
@@ -581,7 +581,7 @@ int32_t
 aSrcStride
 )
 {
-RefPtr
+nsRefPtr
 <
 IDirect3DSurface9
 >
@@ -732,7 +732,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 IDirect3DTexture9
 >
@@ -767,7 +767,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 IDirect3DTexture9
 >
@@ -802,7 +802,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 IDirect3DTexture9
 >
@@ -837,7 +837,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 IDirect3DQuery9
 >
@@ -852,7 +852,7 @@ device
 CreateQuery
 (
 D3DQUERYTYPE_EVENT
-byRef
+getter_AddRefs
 (
 query
 )
@@ -1080,7 +1080,7 @@ return
 mTextureClient
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID3D11DeviceContext
 >
@@ -1091,7 +1091,7 @@ device
 >
 GetImmediateContext
 (
-byRef
+getter_AddRefs
 (
 ctx
 )
@@ -1121,7 +1121,7 @@ MiscFlags
 =
 D3D11_RESOURCE_MISC_SHARED_KEYEDMUTEX
 ;
-RefPtr
+nsRefPtr
 <
 ID3D11Texture2D
 >
@@ -1138,7 +1138,7 @@ CreateTexture2D
 &
 newDesc
 nullptr
-byRef
+getter_AddRefs
 (
 textureY
 )
@@ -1173,7 +1173,7 @@ mCbCrSize
 .
 height
 ;
-RefPtr
+nsRefPtr
 <
 ID3D11Texture2D
 >
@@ -1189,7 +1189,7 @@ CreateTexture2D
 &
 newDesc
 nullptr
-byRef
+getter_AddRefs
 (
 textureCb
 )
@@ -1204,7 +1204,7 @@ hr
 nullptr
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID3D11Texture2D
 >
@@ -1220,7 +1220,7 @@ CreateTexture2D
 &
 newDesc
 nullptr
-byRef
+getter_AddRefs
 (
 textureCr
 )

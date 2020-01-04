@@ -459,7 +459,7 @@ obj
 }
 ;
 static
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -480,7 +480,7 @@ GetSurfaceFormat
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -4287,7 +4287,7 @@ event
 .
 contentsScaleFactor
 ;
-RefPtr
+nsRefPtr
 <
 MacIOSurface
 >
@@ -14366,7 +14366,7 @@ CanPaintOnBackground
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -14456,7 +14456,7 @@ renderSurface
 aSurface
 )
 {
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -14557,7 +14557,7 @@ aSurface
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -14818,7 +14818,7 @@ f
 )
 ;
 {
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -14829,7 +14829,7 @@ CreateDrawTargetForSurface
 whiteImage
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -15036,7 +15036,7 @@ if
 useSurfaceSubimageForBlack
 )
 {
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -15047,7 +15047,7 @@ CreateDrawTargetForSurface
 aSurface
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -15714,7 +15714,7 @@ mHelperSurface
 :
 mCurrentSurface
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -15725,7 +15725,7 @@ CreateDrawTargetForSurface
 surface
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -16417,7 +16417,7 @@ height
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -16428,7 +16428,7 @@ CreateDrawTargetForSurface
 mCurrentSurface
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

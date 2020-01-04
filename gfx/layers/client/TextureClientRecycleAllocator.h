@@ -30,7 +30,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -147,7 +147,7 @@ TextureAllocationFlags
 aAllocFlags
 )
 ;
-RefPtr
+nsRefPtr
 <
 CompositableForwarder
 >
@@ -184,7 +184,7 @@ map
 <
 TextureClient
 *
-RefPtr
+nsRefPtr
 <
 TextureClientHolder
 >
@@ -196,7 +196,7 @@ std
 :
 stack
 <
-RefPtr
+nsRefPtr
 <
 TextureClientHolder
 >

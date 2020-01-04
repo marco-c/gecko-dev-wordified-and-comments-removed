@@ -2046,7 +2046,7 @@ event
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 MediaDecodeTask
 >

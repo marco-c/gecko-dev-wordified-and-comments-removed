@@ -1499,7 +1499,7 @@ mAudioTrack
 mTaskQueue
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >
@@ -1548,7 +1548,7 @@ mVideoTrack
 mTaskQueue
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >
@@ -3920,7 +3920,7 @@ IsEmpty
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >
@@ -4463,7 +4463,7 @@ VideoData
 >
 v
 ;
-RefPtr
+nsRefPtr
 <
 TextureClient
 >

@@ -553,10 +553,7 @@ nsIIdleServiceInternal
 >
 mIdleService
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -572,10 +569,7 @@ ANativeWindowBuffer
 *
 mFramebuffer
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 mozilla
 :

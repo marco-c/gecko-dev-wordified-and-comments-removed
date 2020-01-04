@@ -2286,7 +2286,7 @@ aDC
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID2D1Effect
 >
@@ -2306,7 +2306,7 @@ GetCLDIDForFilterType
 (
 aType
 )
-byRef
+getter_AddRefs
 (
 effect
 )
@@ -2349,7 +2349,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 FilterNodeD2D1
 >
@@ -2899,7 +2899,7 @@ InputEffect
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Image
 >
@@ -2932,7 +2932,7 @@ std
 :
 vector
 <
-RefPtr
+nsRefPtr
 <
 FilterNodeD2D1
 >
@@ -4006,7 +4006,7 @@ aDC
 CreateEffect
 (
 CLSID_D2D1ConvolveMatrix
-byRef
+getter_AddRefs
 (
 mEffect
 )
@@ -4058,7 +4058,7 @@ aDC
 CreateEffect
 (
 CLSID_ExtendInputEffect
-byRef
+getter_AddRefs
 (
 mExtendInputEffect
 )
@@ -4101,7 +4101,7 @@ aDC
 CreateEffect
 (
 CLSID_D2D1Border
-byRef
+getter_AddRefs
 (
 mBorderEffect
 )
@@ -4286,7 +4286,7 @@ get
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID2D1Effect
 >
@@ -4694,7 +4694,7 @@ aDC
 CreateEffect
 (
 CLSID_ExtendInputEffect
-byRef
+getter_AddRefs
 (
 mExtendInputEffect
 )
@@ -4794,7 +4794,7 @@ aDC
 CreateEffect
 (
 CLSID_D2D1Premultiply
-byRef
+getter_AddRefs
 (
 mPrePremultiplyEffect
 )
@@ -4837,7 +4837,7 @@ aDC
 CreateEffect
 (
 CLSID_D2D1UnPremultiply
-byRef
+getter_AddRefs
 (
 mPostUnpremultiplyEffect
 )

@@ -1526,7 +1526,7 @@ rect
 appUnitsPerDevPixel
 )
 ;
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -1554,7 +1554,7 @@ Size
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -1874,7 +1874,7 @@ rect
 y
 )
 ;
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -2096,7 +2096,7 @@ appUnitsPerDevPixel
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 Path
 >

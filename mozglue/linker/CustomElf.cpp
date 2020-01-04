@@ -561,10 +561,7 @@ length
 )
 ;
 }
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 Mappable
 >
@@ -627,7 +624,7 @@ mappable
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 CustomElf
 >
@@ -2193,7 +2190,7 @@ std
 :
 vector
 <
-RefPtr
+nsRefPtr
 <
 LibHandle
 >
@@ -3934,7 +3931,7 @@ i
 ]
 )
 ;
-RefPtr
+nsRefPtr
 <
 LibHandle
 >

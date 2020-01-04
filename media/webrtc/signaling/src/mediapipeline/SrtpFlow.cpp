@@ -38,7 +38,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -81,7 +81,7 @@ session_
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 SrtpFlow
 >
@@ -120,7 +120,7 @@ res
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 SrtpFlow
 >

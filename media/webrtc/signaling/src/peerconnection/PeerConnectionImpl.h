@@ -41,7 +41,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -1042,10 +1042,7 @@ internalStats
 ;
 nsTArray
 <
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1055,10 +1052,7 @@ MediaPipeline
 >
 pipelines
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 NrIceCtx
 >
@@ -1673,10 +1667,7 @@ const
 ;
 #
 endif
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 DtlsIdentity
 >
@@ -3189,10 +3180,7 @@ mCertificate
 ;
 #
 else
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 DtlsIdentity
 >

@@ -224,7 +224,7 @@ gfxWindowsSurface
 >
 mSurface
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -546,13 +546,13 @@ override
 ;
 protected
 :
-RefPtr
+nsRefPtr
 <
 DataTextureSource
 >
 mTextureSource
 ;
-RefPtr
+nsRefPtr
 <
 Compositor
 >

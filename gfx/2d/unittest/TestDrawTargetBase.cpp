@@ -278,7 +278,7 @@ RefreshSnapshot
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >

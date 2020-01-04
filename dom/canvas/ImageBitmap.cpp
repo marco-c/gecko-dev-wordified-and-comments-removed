@@ -392,7 +392,7 @@ width
 *
 bytesPerPixel
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -806,7 +806,7 @@ MOZ_ASSERT
 aBuffer
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -864,7 +864,7 @@ height
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -952,7 +952,7 @@ NS_IsMainThread
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -985,7 +985,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -998,7 +998,7 @@ GetDataSurface
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -1554,7 +1554,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -1850,7 +1850,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -1915,7 +1915,7 @@ mSurface
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -2006,7 +2006,7 @@ mSurface
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -2056,7 +2056,7 @@ SurfaceType
 D2D1_1_IMAGE
 )
 {
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -2082,7 +2082,7 @@ mSurface
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -2152,7 +2152,7 @@ OptimizeSourceSurface
 mSurface
 )
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -2240,7 +2240,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2625,7 +2625,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2654,7 +2654,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -2739,7 +2739,7 @@ DataSourceSurface
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -3202,7 +3202,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -3850,7 +3850,7 @@ imgIContainer
 :
 FRAME_FIRST
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -3917,7 +3917,7 @@ ErrorResult
 aRv
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -3945,7 +3945,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -3962,7 +3962,7 @@ isSome
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -4213,7 +4213,7 @@ nsIGlobalObject
 >
 mGlobalObject
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

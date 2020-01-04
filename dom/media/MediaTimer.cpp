@@ -40,7 +40,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -120,7 +120,7 @@ MediaTimer
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 SharedThreadPool
 >

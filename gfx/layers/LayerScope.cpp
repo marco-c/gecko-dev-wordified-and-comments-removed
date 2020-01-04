@@ -4505,7 +4505,7 @@ GetSize
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >

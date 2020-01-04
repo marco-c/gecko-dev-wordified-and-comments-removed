@@ -24,7 +24,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -468,7 +468,7 @@ mapped
 return
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 LoadedElf
 >

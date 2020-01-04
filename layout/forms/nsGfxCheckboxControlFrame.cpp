@@ -232,7 +232,7 @@ GetDrawTarget
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -342,7 +342,7 @@ appUnitsPerDevPixel
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 Path
 >

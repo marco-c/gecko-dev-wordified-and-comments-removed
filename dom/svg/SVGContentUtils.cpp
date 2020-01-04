@@ -60,7 +60,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -4324,7 +4324,7 @@ return
 NULL
 ;
 }
-RefPtr
+nsRefPtr
 <
 DrawTarget
 >
@@ -4342,7 +4342,7 @@ ScreenReferenceDrawTarget
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >

@@ -43,7 +43,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -321,7 +321,7 @@ sSerialCounter
 uint64_t
 mSerial
 ;
-RefPtr
+nsRefPtr
 <
 AsyncTransactionWaiter
 >
@@ -534,7 +534,7 @@ std
 map
 <
 uint64_t
-RefPtr
+nsRefPtr
 <
 AsyncTransactionTracker
 >

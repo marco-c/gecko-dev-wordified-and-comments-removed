@@ -286,7 +286,7 @@ MOZ_ASSERT
 aJob
 )
 ;
-RefPtr
+nsRefPtr
 <
 SyncObject
 >
@@ -718,7 +718,7 @@ SubmitWaitingJobs
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 SyncObject
 >

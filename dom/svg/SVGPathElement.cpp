@@ -76,7 +76,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -279,7 +279,7 @@ GetTotalLength
 (
 )
 {
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -320,7 +320,7 @@ ErrorResult
 rv
 )
 {
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -1508,7 +1508,7 @@ authorsPathLengthEstimate
 0
 )
 {
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -1558,7 +1558,7 @@ IsIdentity
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >

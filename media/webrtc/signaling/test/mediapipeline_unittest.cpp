@@ -64,7 +64,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -578,10 +578,7 @@ flow_
 nullptr
 ;
 }
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 TransportFlow
 >
@@ -1043,10 +1040,7 @@ mozilla
 AudioCodecConfig
 audio_config_
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1061,10 +1055,7 @@ DOMMediaStream
 >
 audio_
 ;
-mozilla
-:
-:
-RefPtr
+nsRefPtr
 <
 mozilla
 :
@@ -1183,7 +1174,7 @@ flow_
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 TransportFlow
 >
@@ -1194,7 +1185,7 @@ audio_rtp_transport_
 flow_
 )
 ;
-RefPtr
+nsRefPtr
 <
 TransportFlow
 >

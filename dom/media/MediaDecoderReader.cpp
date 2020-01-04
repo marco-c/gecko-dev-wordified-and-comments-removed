@@ -1679,7 +1679,7 @@ if
 skip
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >
@@ -1894,7 +1894,7 @@ GetSize
 mTaskQueue
 )
 {
-RefPtr
+nsRefPtr
 <
 nsIRunnable
 >

@@ -26,7 +26,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -285,7 +285,7 @@ void
 SetIdentity
 (
 const
-RefPtr
+nsRefPtr
 <
 DtlsIdentity
 >
@@ -696,7 +696,7 @@ SECStatus
 CheckDigest
 (
 const
-RefPtr
+nsRefPtr
 <
 VerificationDigest
 >
@@ -707,7 +707,7 @@ CERTCertificate
 cert
 )
 ;
-RefPtr
+nsRefPtr
 <
 DtlsIdentity
 >
@@ -757,7 +757,7 @@ std
 :
 vector
 <
-RefPtr
+nsRefPtr
 <
 VerificationDigest
 >

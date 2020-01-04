@@ -743,7 +743,7 @@ this
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -778,7 +778,7 @@ aFormat
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 DrawTargetCG
 >
@@ -840,7 +840,7 @@ aFormat
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 SourceSurfaceCG
 >
@@ -978,7 +978,7 @@ GetImage
 default
 :
 {
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -1071,7 +1071,7 @@ aSurface
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -8875,7 +8875,7 @@ BackendType
 COREGRAPHICS_ACCELERATED
 )
 {
-RefPtr
+nsRefPtr
 <
 MacIOSurface
 >

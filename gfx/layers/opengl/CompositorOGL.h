@@ -69,7 +69,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -399,7 +399,7 @@ GLuint
 >
 mTextures
 ;
-RefPtr
+nsRefPtr
 <
 gl
 :
@@ -490,7 +490,7 @@ DestroyTextures
 GLenum
 mTextureTarget
 ;
-RefPtr
+nsRefPtr
 <
 gl
 :
@@ -1324,7 +1324,7 @@ CreateContext
 GLenum
 mFBOTextureTarget
 ;
-RefPtr
+nsRefPtr
 <
 CompositingRenderTargetOGL
 >
@@ -1679,7 +1679,7 @@ height
 y
 ;
 }
-RefPtr
+nsRefPtr
 <
 CompositorTexturePoolOGL
 >

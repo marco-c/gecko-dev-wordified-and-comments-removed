@@ -3664,7 +3664,7 @@ case
 NOTATION_CIRCLE
 :
 {
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -3715,7 +3715,7 @@ radius
 radius
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -3884,7 +3884,7 @@ color
 strokeOptions
 )
 ;
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -4021,7 +4021,7 @@ Close
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >

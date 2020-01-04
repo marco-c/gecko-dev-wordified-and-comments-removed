@@ -178,7 +178,7 @@ GetImage
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 gfx
 :

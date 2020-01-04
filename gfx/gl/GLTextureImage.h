@@ -62,7 +62,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -768,7 +768,7 @@ GLContext
 >
 mGLContext
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :
@@ -1034,7 +1034,7 @@ GLContext
 *
 mGL
 ;
-RefPtr
+nsRefPtr
 <
 gfx
 :

@@ -151,7 +151,7 @@ if
 mSnapshot
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurfaceD2D1
 >
@@ -278,7 +278,7 @@ if
 mSnapshot
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -318,7 +318,7 @@ mSize
 this
 )
 ;
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -521,7 +521,7 @@ aSource
 .
 height
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1ImageBrush
 >
@@ -562,7 +562,7 @@ xScale
 yScale
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Image
 >
@@ -608,7 +608,7 @@ surface
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID2D1Bitmap
 >
@@ -640,7 +640,7 @@ ID2D1Bitmap
 *
 *
 )
-byRef
+getter_AddRefs
 (
 bitmap
 )
@@ -741,7 +741,7 @@ D2DMatrix
 transform
 )
 )
-byRef
+getter_AddRefs
 (
 brush
 )
@@ -965,7 +965,7 @@ true
 Matrix
 mat
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Image
 >
@@ -1045,7 +1045,7 @@ surfaces
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID2D1Effect
 >
@@ -1060,7 +1060,7 @@ mDC
 CreateEffect
 (
 CLSID_D2D1Shadow
-byRef
+getter_AddRefs
 (
 shadowEffect
 )
@@ -1329,7 +1329,7 @@ Clear
 IntRect
 addClipRect
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Geometry
 >
@@ -1341,7 +1341,7 @@ GetClippedGeometry
 addClipRect
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1SolidColorBrush
 >
@@ -1365,7 +1365,7 @@ ColorF
 :
 White
 )
-byRef
+getter_AddRefs
 (
 brush
 )
@@ -1467,13 +1467,13 @@ MarkChanged
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Bitmap
 >
 bitmap
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Image
 >
@@ -1627,7 +1627,7 @@ height
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Brush
 >
@@ -1723,7 +1723,7 @@ true
 Matrix
 mat
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Image
 >
@@ -1802,7 +1802,7 @@ CopySurface
 return
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID2D1Bitmap
 >
@@ -1818,7 +1818,7 @@ ID2D1Bitmap
 *
 *
 )
-byRef
+getter_AddRefs
 (
 bitmap
 )
@@ -1838,7 +1838,7 @@ SurfaceFormat
 A8
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1SolidColorBrush
 >
@@ -1868,7 +1868,7 @@ D2D1
 BrushProperties
 (
 )
-byRef
+getter_AddRefs
 (
 brush
 )
@@ -2095,7 +2095,7 @@ mAntialiasMode
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Brush
 >
@@ -2175,7 +2175,7 @@ mAntialiasMode
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Brush
 >
@@ -2189,7 +2189,7 @@ aOptions
 mAlpha
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1StrokeStyle
 >
@@ -2274,7 +2274,7 @@ mAntialiasMode
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Brush
 >
@@ -2288,7 +2288,7 @@ aOptions
 mAlpha
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1StrokeStyle
 >
@@ -2427,7 +2427,7 @@ mAntialiasMode
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Brush
 >
@@ -2441,7 +2441,7 @@ aOptions
 mAlpha
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1StrokeStyle
 >
@@ -2572,7 +2572,7 @@ mAntialiasMode
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Brush
 >
@@ -2945,7 +2945,7 @@ mTextRenderingParams
 params
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID2D1Brush
 >
@@ -3141,7 +3141,7 @@ DWRITE_MEASURING_MODE_NATURAL
 userRect
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1PathGeometry
 >
@@ -3154,13 +3154,13 @@ D2DFactory
 >
 CreatePathGeometry
 (
-byRef
+getter_AddRefs
 (
 path
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1GeometrySink
 >
@@ -3171,7 +3171,7 @@ path
 >
 Open
 (
-byRef
+getter_AddRefs
 (
 sink
 )
@@ -3411,7 +3411,7 @@ mCompositionOp
 aSource
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Brush
 >
@@ -3425,7 +3425,7 @@ aOptions
 mAlpha
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Brush
 >
@@ -3589,7 +3589,7 @@ mCurrentClippedGeometry
 =
 nullptr
 ;
-RefPtr
+nsRefPtr
 <
 PathD2D
 >
@@ -3711,7 +3711,7 @@ IsRectilinear
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 PathBuilder
 >
@@ -3776,7 +3776,7 @@ Close
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 Path
 >
@@ -3963,7 +3963,7 @@ aFormat
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 ID2D1Bitmap1
 >
@@ -3994,7 +3994,7 @@ D2DPixelFormat
 aFormat
 )
 )
-byRef
+getter_AddRefs
 (
 bitmap
 )
@@ -4105,7 +4105,7 @@ aFormat
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 DrawTargetD2D1
 >
@@ -4155,7 +4155,7 @@ aFillRule
 )
 const
 {
-RefPtr
+nsRefPtr
 <
 ID2D1PathGeometry
 >
@@ -4171,7 +4171,7 @@ factory
 >
 CreatePathGeometry
 (
-byRef
+getter_AddRefs
 (
 path
 )
@@ -4217,7 +4217,7 @@ return
 nullptr
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID2D1GeometrySink
 >
@@ -4230,7 +4230,7 @@ path
 >
 Open
 (
-byRef
+getter_AddRefs
 (
 sink
 )
@@ -4422,7 +4422,7 @@ color
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 ID2D1GradientStopCollection
 >
@@ -4443,7 +4443,7 @@ D2DExtend
 (
 aExtendMode
 )
-byRef
+getter_AddRefs
 (
 stopCollection
 )
@@ -4577,7 +4577,7 @@ device
 CreateDeviceContext
 (
 D2D1_DEVICE_CONTEXT_OPTIONS_ENABLE_MULTITHREADED_OPTIMIZATIONS
-byRef
+getter_AddRefs
 (
 mDC
 )
@@ -4632,7 +4632,7 @@ return
 false
 ;
 }
-RefPtr
+nsRefPtr
 <
 IDXGISurface
 >
@@ -4658,7 +4658,7 @@ IDXGISurface
 *
 *
 )
-byRef
+getter_AddRefs
 (
 dxgiSurface
 )
@@ -4745,7 +4745,7 @@ ID2D1Bitmap1
 *
 *
 )
-byRef
+getter_AddRefs
 (
 mBitmap
 )
@@ -4870,7 +4870,7 @@ ID2D1Bitmap1
 *
 *
 )
-byRef
+getter_AddRefs
 (
 mTempBitmap
 )
@@ -4946,7 +4946,7 @@ ColorF
 0
 0
 )
-byRef
+getter_AddRefs
 (
 mSolidColorBrush
 )
@@ -5048,7 +5048,7 @@ device
 CreateDeviceContext
 (
 D2D1_DEVICE_CONTEXT_OPTIONS_ENABLE_MULTITHREADED_OPTIMIZATIONS
-byRef
+getter_AddRefs
 (
 mDC
 )
@@ -5223,7 +5223,7 @@ ID2D1Bitmap1
 *
 *
 )
-byRef
+getter_AddRefs
 (
 mBitmap
 )
@@ -5317,7 +5317,7 @@ ID2D1Bitmap1
 *
 *
 )
-byRef
+getter_AddRefs
 (
 mTempBitmap
 )
@@ -5404,7 +5404,7 @@ ColorF
 0
 0
 )
-byRef
+getter_AddRefs
 (
 mSolidColorBrush
 )
@@ -5870,7 +5870,7 @@ PopAllClips
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Image
 >
@@ -5881,7 +5881,7 @@ mDC
 >
 GetTarget
 (
-byRef
+getter_AddRefs
 (
 image
 )
@@ -5931,7 +5931,7 @@ rect
 bool
 isAligned
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Bitmap
 >
@@ -5990,7 +5990,7 @@ D2DPixelFormat
 mFormat
 )
 )
-byRef
+getter_AddRefs
 (
 tmpBitmap
 )
@@ -6103,13 +6103,13 @@ if
 tmpBitmap
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1BitmapBrush
 >
 brush
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Geometry
 >
@@ -6125,7 +6125,7 @@ mDC
 CreateBitmapBrush
 (
 tmpBitmap
-byRef
+getter_AddRefs
 (
 brush
 )
@@ -6175,7 +6175,7 @@ mDC
 CreateEffect
 (
 CLSID_D2D1Blend
-byRef
+getter_AddRefs
 (
 mBlendEffect
 )
@@ -6211,7 +6211,7 @@ return
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 ID2D1Bitmap
 >
@@ -6239,7 +6239,7 @@ D2DPixelFormat
 mFormat
 )
 )
-byRef
+getter_AddRefs
 (
 tmpBitmap
 )
@@ -6423,7 +6423,7 @@ PushAllClips
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Effect
 >
@@ -6438,7 +6438,7 @@ mDC
 CreateEffect
 (
 CLSID_RadialGradientEffect
-byRef
+getter_AddRefs
 (
 radialGradientEffect
 )
@@ -6934,7 +6934,7 @@ aClipBounds
 =
 mCurrentClipBounds
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Geometry
 >
@@ -6972,7 +6972,7 @@ IntPoint
 mSize
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Geometry
 >
@@ -7259,7 +7259,7 @@ continue
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 ID2D1PathGeometry
 >
@@ -7272,13 +7272,13 @@ factory
 >
 CreatePathGeometry
 (
-byRef
+getter_AddRefs
 (
 newGeom
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1GeometrySink
 >
@@ -7289,7 +7289,7 @@ newGeom
 >
 Open
 (
-byRef
+getter_AddRefs
 (
 currentSink
 )
@@ -7328,7 +7328,7 @@ currentSink
 }
 else
 {
-RefPtr
+nsRefPtr
 <
 ID2D1Geometry
 >
@@ -7402,7 +7402,7 @@ aClipBounds
 =
 mCurrentClipBounds
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Geometry
 >
@@ -7433,7 +7433,7 @@ GetInverseClippedGeometry
 IntRect
 bounds
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Geometry
 >
@@ -7445,13 +7445,13 @@ GetClippedGeometry
 bounds
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1RectangleGeometry
 >
 rectGeom
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1PathGeometry
 >
@@ -7478,7 +7478,7 @@ mSize
 .
 height
 )
-byRef
+getter_AddRefs
 (
 rectGeom
 )
@@ -7491,13 +7491,13 @@ factory
 >
 CreatePathGeometry
 (
-byRef
+getter_AddRefs
 (
 inverseGeom
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1GeometrySink
 >
@@ -7508,7 +7508,7 @@ inverseGeom
 >
 Open
 (
-byRef
+getter_AddRefs
 (
 sink
 )
@@ -7817,7 +7817,7 @@ D2D_COLOR_F
 aColor
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1SolidColorBrush
 >
@@ -7964,7 +7964,7 @@ PatternType
 LINEAR_GRADIENT
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1LinearGradientBrush
 >
@@ -8155,7 +8155,7 @@ stops
 -
 >
 mStopCollection
-byRef
+getter_AddRefs
 (
 gradBrush
 )
@@ -8211,7 +8211,7 @@ PatternType
 RADIAL_GRADIENT
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1RadialGradientBrush
 >
@@ -8336,7 +8336,7 @@ stops
 -
 >
 mStopCollection
-byRef
+getter_AddRefs
 (
 gradBrush
 )
@@ -8462,7 +8462,7 @@ IsValid
 )
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Image
 >
@@ -8527,7 +8527,7 @@ IsEmpty
 )
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1Bitmap
 >
@@ -8543,7 +8543,7 @@ ID2D1Bitmap
 *
 *
 )
-byRef
+getter_AddRefs
 (
 bitmap
 )
@@ -8554,7 +8554,7 @@ if
 bitmap
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1BitmapBrush
 >
@@ -8604,7 +8604,7 @@ D2DMatrix
 mat
 )
 )
-byRef
+getter_AddRefs
 (
 bitmapBrush
 )
@@ -8646,7 +8646,7 @@ forget
 ;
 }
 }
-RefPtr
+nsRefPtr
 <
 ID2D1ImageBrush
 >
@@ -8824,7 +8824,7 @@ D2DMatrix
 mat
 )
 )
-byRef
+getter_AddRefs
 (
 imageBrush
 )
@@ -8907,7 +8907,7 @@ IntRect
 aSourceRect
 )
 {
-RefPtr
+nsRefPtr
 <
 ID2D1Image
 >
@@ -8963,7 +8963,7 @@ break
 default
 :
 {
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -9053,7 +9053,7 @@ SurfaceType
 D2D1_1_IMAGE
 )
 {
-RefPtr
+nsRefPtr
 <
 SourceSurface
 >
@@ -9070,7 +9070,7 @@ forget
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 DataSourceSurface
 >
@@ -9083,7 +9083,7 @@ GetDataSurface
 (
 )
 ;
-RefPtr
+nsRefPtr
 <
 ID2D1Bitmap1
 >
@@ -9163,7 +9163,7 @@ GetFormat
 )
 )
 )
-byRef
+getter_AddRefs
 (
 bitmap
 )

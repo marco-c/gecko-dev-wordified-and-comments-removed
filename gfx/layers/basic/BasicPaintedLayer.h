@@ -44,7 +44,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -526,7 +526,7 @@ tmp
 )
 ;
 }
-RefPtr
+nsRefPtr
 <
 ContentClientBasic
 >
