@@ -1926,6 +1926,9 @@ TimedTexture
 PTexture
 texture
 ;
+ReadLockDescriptor
+sharedLock
+;
 MaybeFence
 fence
 ;
@@ -2072,6 +2075,12 @@ textureOnBlack
 ;
 PTexture
 textureOnWhite
+;
+ReadLockDescriptor
+sharedLockBlack
+;
+ReadLockDescriptor
+sharedLockWhite
 ;
 }
 ;
