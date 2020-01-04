@@ -44971,6 +44971,15 @@ aPropID
 )
 ;
 case
+eCSSProperty_align_self
+:
+return
+ParseAlignItemsSelfJustifySelf
+(
+aPropID
+)
+;
+case
 eCSSProperty_justify_content
 :
 return
