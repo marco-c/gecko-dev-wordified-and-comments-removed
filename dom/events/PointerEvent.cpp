@@ -139,6 +139,10 @@ nsIDOMMouseEvent
 MOZ_SOURCE_UNKNOWN
 ;
 }
+mDetail
+=
+0
+;
 }
 static
 uint16_t
