@@ -2801,9 +2801,8 @@ aIsOnlyNode
 mStream
 -
 >
-ChangeExplicitBlockerCount
+Suspend
 (
-1
 )
 ;
 mStartedBlockingDueToBeingOnlyNode
@@ -2842,10 +2841,8 @@ mExtraCurrentTimeSinceLastStartedBlocking
 mStream
 -
 >
-ChangeExplicitBlockerCount
+Resume
 (
--
-1
 )
 ;
 mStartedBlockingDueToBeingOnlyNode

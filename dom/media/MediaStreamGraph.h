@@ -613,10 +613,14 @@ aContainer
 ;
 virtual
 void
-ChangeExplicitBlockerCount
+Suspend
 (
-int32_t
-aDelta
+)
+;
+virtual
+void
+Resume
+(
 )
 ;
 void
