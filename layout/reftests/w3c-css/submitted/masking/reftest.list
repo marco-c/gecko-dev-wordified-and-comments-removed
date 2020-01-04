@@ -1,3 +1,4 @@
+fails
 =
 =
 mask
@@ -16,6 +17,10 @@ composite
 ref
 .
 html
+#
+bug
+1251161
+fails
 =
 =
 mask
@@ -34,6 +39,10 @@ composite
 ref
 .
 html
+#
+bug
+1251161
+fails
 fails
 -
 if
@@ -61,6 +70,10 @@ html
 #
 bug
 1231643
+;
+bug
+1251161
+fails
 fails
 -
 if
@@ -88,3 +101,6 @@ html
 #
 bug
 1231643
+;
+bug
+1251161
