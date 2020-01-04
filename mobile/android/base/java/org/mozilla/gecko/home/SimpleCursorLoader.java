@@ -42,6 +42,7 @@ gecko
 GeckoApplication
 ;
 Deprecated
+public
 abstract
 class
 SimpleCursorLoader
