@@ -1957,6 +1957,8 @@ specific
 async
 SetProcessSandbox
 (
+MaybeFileDesc
+aBroker
 )
 ;
 PMemoryReportRequest
