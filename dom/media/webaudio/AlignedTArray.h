@@ -32,7 +32,7 @@ N
 class
 AlignedTArray
 :
-public
+private
 nsTArray_Impl
 <
 E
@@ -268,6 +268,18 @@ Length
 sExtra
 ;
 }
+using
+base_type
+:
+:
+ShallowSizeOfExcludingThis
+;
+using
+base_type
+:
+:
+ShallowSizeOfIncludingThis
+;
 private
 :
 AlignedTArray
