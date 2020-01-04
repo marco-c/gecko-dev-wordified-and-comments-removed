@@ -639,6 +639,8 @@ authInfo
 catch
 (
 e
+)
+{
 if
 (
 e
@@ -646,7 +648,6 @@ instanceof
 Components
 .
 Exception
-)
 &
 &
 e
@@ -679,10 +680,7 @@ context
 )
 ;
 }
-catch
-(
-e
-)
+else
 {
 Components
 .
@@ -710,6 +708,7 @@ n
 "
 )
 ;
+}
 }
 delete
 self

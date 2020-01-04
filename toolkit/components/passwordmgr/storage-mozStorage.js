@@ -4815,7 +4815,10 @@ version
 catch
 (
 e
+)
+{
 if
+(
 e
 .
 result
@@ -4833,6 +4836,7 @@ _dbCleanup
 true
 )
 ;
+}
 throw
 e
 ;
