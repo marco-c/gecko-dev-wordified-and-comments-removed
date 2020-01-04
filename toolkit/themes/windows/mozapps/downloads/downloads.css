@@ -703,10 +703,9 @@ windowdragbox
 #
 clearListButton
 {
--
-moz
--
 margin
+-
+inline
 -
 start
 :
@@ -722,10 +721,9 @@ bottom
 #
 searchbox
 {
--
-moz
--
 margin
+-
+inline
 -
 end
 :

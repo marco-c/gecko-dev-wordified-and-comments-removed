@@ -49,10 +49,9 @@ ddd
 .
 details
 {
--
-moz
--
 margin
+-
+inline
 -
 start
 :
@@ -93,10 +92,9 @@ color
 :
 gray
 ;
--
-moz
--
 margin
+-
+inline
 -
 start
 :

@@ -546,10 +546,9 @@ toolbarbutton
 -
 icon
 {
--
-moz
--
 border
+-
+inline
 -
 start
 :
@@ -832,10 +831,9 @@ type
 -
 icon
 {
--
-moz
--
 margin
+-
+inline
 -
 start
 :

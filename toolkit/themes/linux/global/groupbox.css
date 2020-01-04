@@ -42,10 +42,9 @@ groupbox
 -
 body
 {
--
-moz
--
 padding
+-
+inline
 -
 start
 :
@@ -88,10 +87,9 @@ bottom
 !
 important
 ;
--
-moz
--
 margin
+-
+inline
 -
 start
 :

@@ -3660,10 +3660,9 @@ icon
 -
 label
 {
--
-moz
--
 margin
+-
+inline
 -
 end
 :
@@ -6061,10 +6060,9 @@ iconic
 -
 text
 {
--
-moz
--
 padding
+-
+inline
 -
 start
 :

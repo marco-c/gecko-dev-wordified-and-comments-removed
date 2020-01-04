@@ -131,10 +131,9 @@ top
 :
 3px
 ;
--
-moz
--
 margin
+-
+inline
 -
 end
 :
@@ -146,10 +145,9 @@ bottom
 :
 0
 ;
--
-moz
--
 margin
+-
+inline
 -
 start
 :

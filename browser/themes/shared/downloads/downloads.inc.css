@@ -319,10 +319,9 @@ item
 height
 )
 ;
--
-moz
--
 padding
+-
+inline
 -
 end
 :
@@ -444,10 +443,9 @@ transparent
 .
 downloadTypeIcon
 {
--
-moz
--
 margin
+-
+inline
 -
 end
 :

@@ -517,10 +517,9 @@ of
 -
 type
 {
--
-moz
--
 margin
+-
+inline
 -
 start
 :
@@ -687,10 +686,9 @@ height
 :
 36px
 ;
--
-moz
--
 padding
+-
+inline
 -
 start
 :

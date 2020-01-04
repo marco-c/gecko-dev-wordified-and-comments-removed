@@ -165,10 +165,9 @@ color
 :
 GrayText
 ;
--
-moz
--
 margin
+-
+inline
 -
 start
 :
@@ -215,10 +214,9 @@ menulist
 -
 dropmarker
 {
--
-moz
--
 padding
+-
+inline
 -
 start
 :

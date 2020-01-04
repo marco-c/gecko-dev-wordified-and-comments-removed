@@ -155,10 +155,9 @@ width
 :
 12em
 ;
--
-moz
--
 padding
+-
+inline
 -
 start
 :
@@ -199,10 +198,9 @@ rtl
 >
 label
 {
--
-moz
--
 padding
+-
+inline
 -
 start
 :

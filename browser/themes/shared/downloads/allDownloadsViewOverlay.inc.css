@@ -91,10 +91,9 @@ endif
 .
 downloadTypeIcon
 {
--
-moz
--
 margin
+-
+inline
 -
 end
 :
@@ -132,10 +131,9 @@ xp
 .
 downloadTypeIcon
 {
--
-moz
--
 margin
+-
+inline
 -
 start
 :
