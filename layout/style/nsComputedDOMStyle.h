@@ -3540,7 +3540,10 @@ const
 nsStyleBasicShape
 *
 aStyleBasicShape
-uint8_t
+mozilla
+:
+:
+StyleClipShapeSizing
 aSizingBox
 )
 ;
