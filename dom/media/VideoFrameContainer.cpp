@@ -608,6 +608,13 @@ ClearAllImages
 (
 )
 ;
+mImageContainer
+-
+>
+ClearCachedResources
+(
+)
+;
 }
 void
 VideoFrameContainer

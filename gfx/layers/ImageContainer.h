@@ -1070,6 +1070,12 @@ uint32_t
 aSize
 )
 ;
+virtual
+void
+ClearRecycledBuffers
+(
+)
+;
 private
 :
 typedef
@@ -1307,6 +1313,11 @@ aImages
 ;
 void
 ClearAllImages
+(
+)
+;
+void
+ClearCachedResources
 (
 )
 ;
