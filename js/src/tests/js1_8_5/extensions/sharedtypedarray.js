@@ -52,16 +52,6 @@ byteLength
 4096
 )
 ;
-assertEq
-(
-!
-!
-SharedArrayBuffer
-.
-isView
-true
-)
-;
 b
 .
 fnord
@@ -214,7 +204,7 @@ b
 ;
 assertEq
 (
-SharedArrayBuffer
+ArrayBuffer
 .
 isView
 (
@@ -225,7 +215,7 @@ true
 ;
 assertEq
 (
-SharedArrayBuffer
+ArrayBuffer
 .
 isView
 (
@@ -236,7 +226,7 @@ true
 ;
 assertEq
 (
-SharedArrayBuffer
+ArrayBuffer
 .
 isView
 (
