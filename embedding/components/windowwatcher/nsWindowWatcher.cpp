@@ -3032,7 +3032,6 @@ CreateChromeWindow2
 parentChrome
 chromeFlags
 contextFlags
-uriToLoad
 aOpeningTab
 &
 cancel
