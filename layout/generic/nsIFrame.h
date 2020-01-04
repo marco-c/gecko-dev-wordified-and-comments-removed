@@ -5350,6 +5350,12 @@ eSupportsCSSTransforms
 <
 <
 15
+eReplacedSizing
+=
+1
+<
+<
+16
 eDEBUGAllFrames
 =
 1

@@ -347,6 +347,11 @@ nsIFrame
 :
 :
 eReplaced
+|
+nsIFrame
+:
+:
+eReplacedSizing
 )
 )
 ;

@@ -145,6 +145,11 @@ eReplaced
 nsIFrame
 :
 :
+eReplacedSizing
+|
+nsIFrame
+:
+:
 eReplacedContainsBlock
 )
 )
