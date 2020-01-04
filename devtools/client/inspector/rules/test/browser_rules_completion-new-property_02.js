@@ -30,7 +30,7 @@ VK_TAB
 "
 -
 1
-41
+43
 true
 ]
 [
@@ -43,7 +43,7 @@ VK_DOWN
 block
 "
 0
-41
+43
 true
 ]
 [
