@@ -90,6 +90,17 @@ mozilla
 .
 gecko
 .
+annotation
+.
+ReflectionTarget
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 util
 .
 GeckoJarReader
@@ -256,6 +267,7 @@ LocaleManager
 (
 )
 ;
+ReflectionTarget
 public
 static
 LocaleManager
