@@ -289,6 +289,7 @@ GlyphAllocFailedCairo
 GlyphAllocFailedCG
 InvalidRect
 CannotDraw3D
+IncompatibleBasicTexturedEffect
 MustBeLessThanThis
 =
 101
