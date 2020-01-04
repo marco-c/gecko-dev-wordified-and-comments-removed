@@ -426,9 +426,9 @@ Writes
 ENTITY
 aboutTelemetry
 .
-systemInfoSection
+sessionInfoSection
 "
-System
+Session
 Information
 "
 >
