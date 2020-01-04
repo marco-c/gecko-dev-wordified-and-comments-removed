@@ -354,6 +354,11 @@ AudioNodeStream
 >
 stream
 =
+AudioNodeStream
+:
+:
+Create
+(
 mNode
 -
 >
@@ -365,12 +370,8 @@ Context
 Graph
 (
 )
--
->
-CreateAudioNodeStream
-(
 engine
-MediaStreamGraph
+AudioNodeStream
 :
 :
 INTERNAL_STREAM
