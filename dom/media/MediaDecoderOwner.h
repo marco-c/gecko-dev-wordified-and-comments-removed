@@ -216,6 +216,7 @@ bool
 IsActive
 (
 )
+const
 =
 0
 ;
@@ -224,6 +225,7 @@ bool
 IsHidden
 (
 )
+const
 =
 0
 ;

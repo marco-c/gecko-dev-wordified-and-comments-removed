@@ -177,6 +177,7 @@ bool
 IsActive
 (
 )
+const
 override
 {
 return
@@ -188,6 +189,7 @@ bool
 IsHidden
 (
 )
+const
 override
 {
 return
