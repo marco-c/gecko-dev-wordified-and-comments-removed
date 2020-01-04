@@ -1217,6 +1217,10 @@ mIsOpaque
 (
 false
 )
+mOldPermitSubpixelAA
+(
+false
+)
 {
 }
 std
@@ -1239,6 +1243,9 @@ mClipsArePushed
 ;
 bool
 mIsOpaque
+;
+bool
+mOldPermitSubpixelAA
 ;
 }
 ;
