@@ -211,7 +211,9 @@ null
 type
 :
 '
-push
+desktop
+-
+notification
 '
 }
 ;

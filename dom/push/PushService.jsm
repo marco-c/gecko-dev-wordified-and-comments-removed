@@ -6393,7 +6393,9 @@ type
 !
 =
 "
-push
+desktop
+-
+notification
 "
 )
 {
