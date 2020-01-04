@@ -538,6 +538,14 @@ browser
 {
 this
 .
+browser
+.
+relatedBrowser
+=
+browser
+;
+this
+.
 updateBrowserRemoteness
 (
 browser
