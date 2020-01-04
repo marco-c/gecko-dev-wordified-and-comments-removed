@@ -518,6 +518,15 @@ include
 "
 mozilla
 /
+EffectCompositor
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventListenerManager
 .
 h
@@ -5209,7 +5218,7 @@ IsSVGTransformed
 mContent
 &
 &
-nsLayoutUtils
+EffectCompositor
 :
 :
 HasAnimationsForCompositor
@@ -5306,7 +5315,7 @@ NS_STYLE_WILL_CHANGE_OPACITY
 mContent
 &
 &
-nsLayoutUtils
+EffectCompositor
 :
 :
 HasAnimationsForCompositor

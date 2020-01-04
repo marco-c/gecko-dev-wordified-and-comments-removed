@@ -222,6 +222,15 @@ include
 "
 mozilla
 /
+EffectCompositor
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Move
 .
 h
@@ -22427,7 +22436,7 @@ nsDisplayItem
 TYPE_TRANSFORM
 &
 &
-nsLayoutUtils
+EffectCompositor
 :
 :
 HasAnimationsForCompositor

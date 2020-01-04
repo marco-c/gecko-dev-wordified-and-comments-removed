@@ -4487,7 +4487,7 @@ IsTransformed
 )
 &
 &
-nsLayoutUtils
+EffectCompositor
 :
 :
 HasAnimationsForCompositor
@@ -21460,7 +21460,7 @@ true
 ;
 if
 (
-nsLayoutUtils
+EffectCompositor
 :
 :
 HasAnimationsForCompositor
@@ -27747,7 +27747,7 @@ eCSSProperty_transform
 &
 &
 !
-nsLayoutUtils
+EffectCompositor
 :
 :
 HasAnimationsForCompositor
@@ -28941,7 +28941,7 @@ LAYER_ACTIVE
 ;
 if
 (
-nsLayoutUtils
+EffectCompositor
 :
 :
 HasAnimationsForCompositor
