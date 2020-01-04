@@ -11076,6 +11076,14 @@ false
 ;
 }
 }
+httpChannel
+-
+>
+SetSchedulingContextID
+(
+mSchedulingContextID
+)
+;
 if
 (
 httpInternal
