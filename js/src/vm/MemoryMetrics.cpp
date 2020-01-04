@@ -54,6 +54,15 @@ h
 #
 include
 "
+gc
+/
+Heap
+.
+h
+"
+#
+include
+"
 jit
 /
 BaselineJIT
@@ -1846,6 +1855,9 @@ rtStats
 size_t
 allocationSpace
 =
+gc
+:
+:
 Arena
 :
 :
