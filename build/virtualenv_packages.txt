@@ -304,3 +304,10 @@ pth
 python
 /
 PyECC
+xpcshell
+.
+pth
+:
+testing
+/
+xpcshell
