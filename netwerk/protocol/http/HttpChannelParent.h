@@ -499,6 +499,10 @@ RequestHeaderTuples
 &
 changedHeaders
 const
+uint32_t
+&
+loadFlags
+const
 OptionalURIParams
 &
 apiRedirectUri

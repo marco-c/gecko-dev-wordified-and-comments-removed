@@ -394,6 +394,8 @@ nsresult
 result
 RequestHeaderTuples
 changedHeaders
+uint32_t
+loadFlags
 OptionalURIParams
 apiRedirectTo
 )
