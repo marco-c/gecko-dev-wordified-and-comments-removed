@@ -204,6 +204,7 @@ next
 ;
 }
 function
+*
 testMigration
 (
 manifest

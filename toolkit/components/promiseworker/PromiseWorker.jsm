@@ -997,7 +997,10 @@ transfers
 catch
 (
 ex
+)
+{
 if
+(
 typeof
 ex
 =
@@ -1042,11 +1045,6 @@ ex
 )
 ;
 }
-catch
-(
-ex
-)
-{
 this
 .
 log

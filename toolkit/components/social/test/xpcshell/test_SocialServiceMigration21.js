@@ -156,6 +156,7 @@ next
 ;
 }
 function
+*
 testMigration
 (
 manifest
