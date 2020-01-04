@@ -175,6 +175,19 @@ BUILD_DIR
 ]
     
 "
+vcs_share_base
+"
+:
+"
+/
+builds
+/
+hg
+-
+shared
+"
+    
+"
 l10n_repos
 "
 :
