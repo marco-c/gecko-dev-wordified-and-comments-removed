@@ -117,17 +117,6 @@ action
 append
 "
                         
-required
-=
-'
-AUTOTRY_PLATFORM_HINT
-'
-not
-in
-os
-.
-environ
-                        
 help
 =
 '
