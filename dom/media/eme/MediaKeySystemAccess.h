@@ -112,6 +112,10 @@ const
 nsAString
 &
 aKeySystem
+const
+nsAString
+&
+aCDMVersion
 )
 ;
 protected
@@ -183,6 +187,9 @@ aMinCdmVersion
 nsACString
 &
 aOutExceptionMessage
+nsACString
+&
+aOutCdmVersion
 )
 ;
 static
@@ -228,6 +235,10 @@ mParent
 const
 nsString
 mKeySystem
+;
+const
+nsString
+mCDMVersion
 ;
 }
 ;

@@ -623,6 +623,9 @@ return
 nsAutoCString
 message
 ;
+nsAutoCString
+cdmVersion
+;
 MediaKeySystemStatus
 status
 =
@@ -634,6 +637,7 @@ GetKeySystemStatus
 keySystem
 minCdmVersion
 message
+cdmVersion
 )
 ;
 nsPrintfCString
@@ -658,6 +662,12 @@ result
 =
 %
 s
+version
+=
+'
+%
+s
+'
 msg
 =
 '
@@ -686,6 +696,11 @@ status
 ]
 .
 value
+cdmVersion
+.
+get
+(
+)
 message
 .
 get
@@ -886,6 +901,10 @@ MediaKeySystemAccess
 (
 mWindow
 keySystem
+NS_ConvertUTF8toUTF16
+(
+cdmVersion
+)
 )
 )
 ;

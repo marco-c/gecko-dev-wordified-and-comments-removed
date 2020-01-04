@@ -228,6 +228,10 @@ const
 nsAString
 &
 aKeySystem
+const
+nsAString
+&
+aCDMVersion
 )
 :
 mParent
@@ -237,6 +241,10 @@ aParent
 mKeySystem
 (
 aKeySystem
+)
+mCDMVersion
+(
+aCDMVersion
 )
 {
 }
@@ -304,13 +312,16 @@ GetKeySystem
 (
 nsString
 &
-aRetVal
+aOutKeySystem
 )
 const
 {
-aRetVal
-=
+ConstructKeySystem
+(
 mKeySystem
+mCDMVersion
+aOutKeySystem
+)
 ;
 }
 already_AddRefed
@@ -338,6 +349,7 @@ MediaKeys
 (
 mParent
 mKeySystem
+mCDMVersion
 )
 )
 ;
@@ -698,6 +710,9 @@ aMinCdmVersion
 nsACString
 &
 aOutMessage
+nsACString
+&
+aOutCdmVersion
 )
 {
 nsTArray
@@ -761,6 +776,10 @@ MediaKeySystemStatus
 Error
 ;
 }
+aOutCdmVersion
+=
+versionStr
+;
 if
 (
 !
@@ -1024,6 +1043,9 @@ aMinCdmVersion
 nsACString
 &
 aOutMessage
+nsACString
+&
+aOutCdmVersion
 )
 {
 MOZ_ASSERT
@@ -1160,6 +1182,7 @@ mps
 aKeySystem
 aMinCdmVersion
 aOutMessage
+aOutCdmVersion
 )
 ;
 }
@@ -1334,6 +1357,7 @@ mps
 aKeySystem
 aMinCdmVersion
 aOutMessage
+aOutCdmVersion
 )
 ;
 }
