@@ -375,9 +375,7 @@ ACDEFINES
 -
 Dfoo
 =
-'
 bar
-'
 -
 Dbaz
 =
@@ -468,9 +466,7 @@ ACDEFINES
 -
 Dfoo
 =
-'
 bar
-'
 -
 Dbaz
 =
