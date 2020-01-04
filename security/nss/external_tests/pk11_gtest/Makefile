@@ -705,7 +705,9 @@ include
 .
 .
 /
-platlibs
+common
+/
+gtest
 .
 mk
 #
@@ -1187,10 +1189,3 @@ OPTIONAL
 #
 #
 #
-include
-.
-.
-/
-platrules
-.
-mk

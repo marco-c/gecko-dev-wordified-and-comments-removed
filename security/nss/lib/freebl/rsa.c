@@ -2712,6 +2712,8 @@ hasModulus
 )
 )
 {
+if
+(
 mp_div
 (
 &
@@ -2723,9 +2725,11 @@ q
 &
 r
 )
-;
-if
-(
+!
+=
+MP_OKAY
+|
+|
 mp_cmp_z
 (
 &
@@ -4500,6 +4504,7 @@ free
 =
 bp
 ;
+return
 SECITEM_CopyItem
 (
 NULL
@@ -4514,9 +4519,6 @@ key
 >
 modulus
 )
-;
-return
-SECSuccess
 ;
 }
 static

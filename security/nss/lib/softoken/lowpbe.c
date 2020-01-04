@@ -199,12 +199,6 @@ struct
 nsspkcs5V2PBEParameterStr
 nsspkcs5V2PBEParameter
 ;
-#
-define
-PBKDF2
-#
-ifdef
-PBKDF2
 static
 const
 SEC_ASN1Template
@@ -315,8 +309,6 @@ SECOID_AlgorithmIDTemplate
 }
 }
 ;
-#
-endif
 SECStatus
 nsspkcs5_HashBuf
 (
@@ -1449,9 +1441,6 @@ return
 newHash
 ;
 }
-#
-ifdef
-PBKDF2
 static
 void
 do_xor
@@ -2040,8 +2029,6 @@ return
 result
 ;
 }
-#
-endif
 #
 define
 HMAC_BUFFER
@@ -3167,9 +3154,6 @@ len
 }
 break
 ;
-#
-ifdef
-PBKDF2
 case
 NSSPKCS5_PBKDF2
 :
@@ -3206,8 +3190,6 @@ len
 }
 break
 ;
-#
-endif
 case
 NSSPKCS5_PKCS12_V2
 :
@@ -3444,6 +3426,8 @@ nsspkcs5_FillInParam
 (
 SECOidTag
 algorithm
+HASH_HashType
+hashType
 NSSPKCS5PBEParameter
 *
 pbe_param
@@ -3473,7 +3457,7 @@ pbe_param
 >
 hashType
 =
-HASH_AlgSHA1
+hashType
 ;
 pbe_param
 -
@@ -3674,9 +3658,6 @@ SEC_OID_RC4
 ;
 break
 ;
-#
-ifdef
-PBKDF2
 case
 SEC_OID_PKCS5_PBKDF2
 :
@@ -3716,8 +3697,6 @@ keyLen
 ;
 break
 ;
-#
-endif
 default
 :
 return
@@ -3734,11 +3713,13 @@ nsspkcs5_NewParam
 (
 SECOidTag
 alg
+HASH_HashType
+hashType
 SECItem
 *
 salt
 int
-iterator
+iterationCount
 )
 {
 PLArenaPool
@@ -3814,6 +3795,7 @@ rv
 nsspkcs5_FillInParam
 (
 alg
+hashType
 pbe_param
 )
 ;
@@ -3834,7 +3816,7 @@ pbe_param
 >
 iter
 =
-iterator
+iterationCount
 ;
 if
 (
@@ -3997,6 +3979,7 @@ pbe_param
 nsspkcs5_NewParam
 (
 algorithm
+HASH_AlgSHA1
 NULL
 1
 )
@@ -4069,9 +4052,6 @@ parameters
 ;
 break
 ;
-#
-ifdef
-PBKDF2
 case
 NSSPKCS5_PBKDF2
 :
@@ -4275,8 +4255,6 @@ SECFailure
 }
 break
 ;
-#
-endif
 }
 loser
 :
@@ -6356,9 +6334,6 @@ NSSPKCS5PKCS12V2PBEParameterTemplate
 ;
 break
 ;
-#
-ifdef
-PBKDF2
 case
 NSSPKCS5_PBKDF2
 :
@@ -6536,8 +6511,6 @@ NSSPKCS5V2PBES2ParameterTemplate
 ;
 break
 ;
-#
-endif
 default
 :
 break

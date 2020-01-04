@@ -509,6 +509,9 @@ ssl_use_srtp_xtn
 ssl_app_layer_protocol_xtn
 =
 16
+ssl_signed_cert_timestamp_xtn
+=
+18
 ssl_padding_xtn
 =
 21
@@ -533,7 +536,7 @@ SSLExtensionType
 #
 define
 SSL_MAX_EXTENSIONS
-12
+13
 /
 *
 doesn

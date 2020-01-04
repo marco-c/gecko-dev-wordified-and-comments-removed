@@ -640,6 +640,13 @@ HOSTDIR
 }
 /
 ssl_gtests
+PK11GTESTDIR
+=
+{
+HOSTDIR
+}
+/
+pk11_gtests
 PWFILE
 =
 {
@@ -4493,6 +4500,12 @@ R_SSLGTESTDIR
 .
 /
 ssl_gtests
+R_PK11GTESTDIR
+=
+.
+.
+/
+pk11_gtests
 #
 #
 profiles

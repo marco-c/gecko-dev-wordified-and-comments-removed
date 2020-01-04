@@ -1187,6 +1187,7 @@ static
 SECStatus
 parse_parameters
 (
+const
 char
 *
 parameters
@@ -1200,10 +1201,12 @@ char
 stripped
 )
 {
+const
 char
 *
 sourcePrev
 ;
+const
 char
 *
 sourceCurr

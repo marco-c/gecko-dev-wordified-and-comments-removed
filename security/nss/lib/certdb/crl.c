@@ -6499,7 +6499,6 @@ if
 (
 readlocked
 )
-\
 {
 \
 NSSRWLock_UnlockRead
@@ -6535,7 +6534,6 @@ if
 (
 readlocked
 )
-\
 {
 \
 NSSRWLock_LockRead

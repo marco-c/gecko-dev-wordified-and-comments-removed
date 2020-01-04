@@ -7016,6 +7016,7 @@ str
 )
 \
 {
+\
 siBuffer
 (
 unsigned
@@ -7029,6 +7030,7 @@ str
 )
 -
 1
+\
 }
 #
 define
@@ -7535,7 +7537,6 @@ x03
 .
 tf
 "
-\
 static
 const
 SECItem

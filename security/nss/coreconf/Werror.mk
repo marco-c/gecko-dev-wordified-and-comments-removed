@@ -225,7 +225,7 @@ warns
 about
 macro
 expansions
-OS_CFLAGS
+WARNING_CFLAGS
 +
 =
 (

@@ -3477,7 +3477,9 @@ u
 .
 dsa
 .
-publicValue
+params
+.
+prime
 )
 ;
 break
@@ -3497,7 +3499,7 @@ u
 .
 dh
 .
-publicValue
+prime
 )
 ;
 break
@@ -7298,6 +7300,7 @@ attribute
 ;
 \
 }
+\
 else
 {
 \

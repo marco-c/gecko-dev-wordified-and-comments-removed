@@ -640,14 +640,11 @@ x
 )
 )
 {
-\
 secError
 =
 y
 ;
-\
 }
-\
 void
 CERT_MapStanError
 (

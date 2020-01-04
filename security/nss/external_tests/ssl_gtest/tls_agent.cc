@@ -181,6 +181,12 @@ expected_read_error_
 (
 false
 )
+handshake_callback_
+(
+)
+auth_certificate_callback_
+(
+)
 {
 memset
 (

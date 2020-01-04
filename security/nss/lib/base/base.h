@@ -310,6 +310,7 @@ arenaOpt
 type
 quantity
 )
+\
 (
 (
 type
@@ -338,6 +339,7 @@ p
 type
 quantity
 )
+\
 (
 (
 type
@@ -399,6 +401,7 @@ nssArena_VERIFYPOINTER
 (
 p
 )
+\
 (
 (
 (

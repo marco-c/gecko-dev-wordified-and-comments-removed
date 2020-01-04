@@ -576,6 +576,7 @@ const
 char
 *
 dbname
+const
 char
 *
 module
@@ -779,7 +780,6 @@ useCount
 sizeof
 (
 char
-*
 *
 )
 )
@@ -1527,7 +1527,6 @@ sizeof
 (
 char
 *
-*
 )
 )
 ;
@@ -1847,6 +1846,7 @@ const
 char
 *
 dbname
+const
 char
 *
 args
@@ -2424,6 +2424,7 @@ const
 char
 *
 dbname
+const
 char
 *
 module

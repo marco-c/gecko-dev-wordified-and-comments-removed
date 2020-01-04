@@ -95,6 +95,7 @@ arenaOpt
 type
 quantity
 )
+\
 (
 (
 type

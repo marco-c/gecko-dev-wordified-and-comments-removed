@@ -3743,8 +3743,6 @@ desc
 ;
 loser
 :
-errCode
-=
 ssl_MapLowLevelError
 (
 errCode

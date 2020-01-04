@@ -753,8 +753,6 @@ mwindows
 mms
 -
 bitfields
--
-Werror
 _GEN_IMPORT_LIB
 =
 -

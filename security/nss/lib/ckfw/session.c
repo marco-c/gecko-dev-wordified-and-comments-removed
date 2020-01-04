@@ -2290,10 +2290,10 @@ NSSCKFWSession
 fwSession
 NSSItem
 *
-newPin
+oldPin
 NSSItem
 *
-oldPin
+newPin
 )
 {
 CK_RV
@@ -2445,8 +2445,8 @@ fwSession
 -
 >
 fwInstance
-newPin
 oldPin
+newPin
 )
 ;
 return

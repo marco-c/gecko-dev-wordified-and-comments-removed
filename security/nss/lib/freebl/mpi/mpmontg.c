@@ -2157,6 +2157,8 @@ montBase
 )
 )
 ;
+MP_CHECKOK
+(
 mp_init_size
 (
 &
@@ -2171,6 +2173,7 @@ montBase
 )
 +
 2
+)
 )
 ;
 MP_CHECKOK
@@ -2208,6 +2211,8 @@ odd_ints
 i
 )
 {
+MP_CHECKOK
+(
 mp_init_size
 (
 oddPowers
@@ -2224,6 +2229,7 @@ power2
 )
 +
 2
+)
 )
 ;
 MP_CHECKOK

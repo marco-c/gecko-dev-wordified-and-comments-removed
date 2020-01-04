@@ -104,10 +104,6 @@ ssl_extension_unittest
 .
 cc
 \
-ssl_prf_unittest
-.
-cc
-\
 ssl_skip_unittest
 .
 cc

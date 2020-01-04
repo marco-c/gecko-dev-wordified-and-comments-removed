@@ -565,9 +565,11 @@ ckmkInternalObject
 size
 )
 +
+\
 CKMK_ITEM_CHUNK
 )
 )
+\
 :
 \
 nss_ZNEWARRAY
@@ -581,6 +583,7 @@ ckmkInternalObject
 size
 )
 +
+\
 CKMK_ITEM_CHUNK
 )
 )

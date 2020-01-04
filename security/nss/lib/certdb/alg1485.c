@@ -1268,7 +1268,6 @@ NEEDS_ESCAPE
 (
 c
 )
-\
 (
 c
 =
@@ -1287,7 +1286,6 @@ NEEDS_HEX_ESCAPE
 (
 c
 )
-\
 (
 (
 PRUint8
@@ -3976,9 +3974,9 @@ if
 !
 n
 )
+\
 goto
 unsupported
-\
 /
 *
 fall

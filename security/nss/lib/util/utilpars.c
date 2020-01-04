@@ -204,10 +204,12 @@ return
 PR_FALSE
 ;
 }
+const
 char
 *
 NSSUTIL_ArgStrip
 (
+const
 char
 *
 c
@@ -233,10 +235,12 @@ return
 c
 ;
 }
+const
 char
 *
 NSSUTIL_ArgFindEnd
 (
+const
 char
 *
 string
@@ -358,6 +362,7 @@ char
 *
 NSSUTIL_ArgFetchValue
 (
+const
 char
 *
 string
@@ -366,6 +371,7 @@ int
 pcount
 )
 {
+const
 char
 *
 end
@@ -517,15 +523,18 @@ return
 retString
 ;
 }
+const
 char
 *
 NSSUTIL_ArgSkipParameter
 (
+const
 char
 *
 string
 )
 {
+const
 char
 *
 end
@@ -597,9 +606,11 @@ char
 *
 NSSUTIL_ArgGetParamValue
 (
+const
 char
 *
 paramName
+const
 char
 *
 parameters
@@ -737,10 +748,12 @@ return
 returnValue
 ;
 }
+const
 char
 *
 NSSUTIL_ArgNextFlag
 (
+const
 char
 *
 flags
@@ -782,12 +795,15 @@ flags
 PRBool
 NSSUTIL_ArgHasFlag
 (
+const
 char
 *
 label
+const
 char
 *
 flag
+const
 char
 *
 parameters
@@ -796,6 +812,9 @@ parameters
 char
 *
 flags
+;
+const
+char
 *
 index
 ;
@@ -880,6 +899,7 @@ found
 long
 NSSUTIL_ArgDecodeNumber
 (
+const
 char
 *
 num
@@ -1146,6 +1166,7 @@ char
 *
 NSSUTIL_ArgGetLabel
 (
+const
 char
 *
 inString
@@ -1160,6 +1181,7 @@ name
 =
 NULL
 ;
+const
 char
 *
 string
@@ -1273,9 +1295,11 @@ name
 long
 NSSUTIL_ArgReadLong
 (
+const
 char
 *
 label
+const
 char
 *
 params
@@ -2546,9 +2570,11 @@ unsigned
 long
 NSSUTIL_ArgParseSlotFlags
 (
+const
 char
 *
 label
+const
 char
 *
 params
@@ -2557,6 +2583,9 @@ params
 char
 *
 flags
+;
+const
+char
 *
 index
 ;
@@ -2872,6 +2901,7 @@ NSSUTIL_ArgParseSlotInfo
 PLArenaPool
 *
 arena
+const
 char
 *
 slotParams
@@ -2880,6 +2910,7 @@ int
 retCount
 )
 {
+const
 char
 *
 slotIndex
@@ -3127,8 +3158,11 @@ flags
 =
 NULL
 ;
+unsigned
 int
 i
+;
+int
 j
 ;
 for
@@ -3601,6 +3635,7 @@ slotString
 SECStatus
 NSSUTIL_ArgParseModuleSpecEx
 (
+const
 char
 *
 modulespec
@@ -3726,6 +3761,7 @@ SECSuccess
 SECStatus
 NSSUTIL_ArgParseModuleSpec
 (
+const
 char
 *
 modulespec
@@ -4062,6 +4098,7 @@ unsigned
 long
 *
 newCiphers
+const
 char
 *
 cipherList
@@ -4440,6 +4477,7 @@ cipher
 =
 NULL
 ;
+unsigned
 int
 i
 ;
@@ -4709,6 +4747,9 @@ ciphers
 nss
 *
 nssFlags
+;
+const
+char
 *
 tmp
 ;
@@ -5427,6 +5468,7 @@ char
 *
 _NSSUTIL_GetSecmodName
 (
+const
 char
 *
 param
@@ -5467,6 +5509,7 @@ value
 =
 NULL
 ;
+const
 char
 *
 save_params

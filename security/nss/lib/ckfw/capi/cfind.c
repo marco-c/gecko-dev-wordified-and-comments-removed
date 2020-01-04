@@ -555,9 +555,11 @@ ckcapiInternalObject
 (
 size
 +
+\
 CKAPI_ITEM_CHUNK
 )
 )
+\
 :
 \
 nss_ZNEWARRAY
@@ -569,6 +571,7 @@ ckcapiInternalObject
 (
 size
 +
+\
 CKAPI_ITEM_CHUNK
 )
 )

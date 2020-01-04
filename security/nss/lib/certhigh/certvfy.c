@@ -1619,6 +1619,7 @@ arg
 ;
 \
 }
+\
 else
 {
 \
@@ -3765,6 +3766,7 @@ define
 NEXT_USAGE
 (
 )
+\
 {
 \
 i
@@ -3787,6 +3789,7 @@ define
 VALID_USAGE
 (
 )
+\
 {
 \
 NEXT_USAGE
@@ -3800,6 +3803,7 @@ define
 INVALID_USAGE
 (
 )
+\
 {
 \
 if
