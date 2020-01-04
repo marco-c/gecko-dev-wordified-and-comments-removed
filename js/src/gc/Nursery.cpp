@@ -1488,6 +1488,15 @@ isInside
 (
 newData
 )
+|
+|
+uintptr_t
+(
+newData
+)
+=
+=
+heapStart_
 )
 ;
 if
