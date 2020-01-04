@@ -1072,12 +1072,9 @@ void
 ToPositionAndLengthForAbsPos
 (
 const
-nsTArray
-<
-TrackSize
->
+Tracks
 &
-aTrackSizes
+aTracks
 nscoord
 aGridOrigin
 nscoord
