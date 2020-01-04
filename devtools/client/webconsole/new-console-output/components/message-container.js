@@ -6,7 +6,7 @@ strict
 const
 {
 createClass
-createElement
+createFactory
 PropTypes
 }
 =
@@ -31,11 +31,6 @@ MessageContainer
 createClass
 (
 {
-displayName
-:
-"
-MessageContainer
-"
 propTypes
 :
 {
@@ -47,6 +42,11 @@ object
 .
 isRequired
 }
+displayName
+:
+"
+MessageContainer
+"
 render
 (
 )
@@ -71,9 +71,8 @@ messageType
 )
 ;
 return
-createElement
-(
 MessageComponent
+(
 {
 message
 }
@@ -215,7 +214,10 @@ break
 ;
 }
 return
+createFactory
+(
 MessageComponent
+)
 ;
 }
 module

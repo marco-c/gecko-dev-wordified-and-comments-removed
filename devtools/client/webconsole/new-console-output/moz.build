@@ -91,11 +91,13 @@ main
 js
 '
 '
+new
+-
+console
+-
 output
 -
 wrapper
--
-thingy
 .
 js
 '
