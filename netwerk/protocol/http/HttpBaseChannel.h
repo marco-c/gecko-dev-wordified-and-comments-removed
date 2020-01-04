@@ -1250,12 +1250,6 @@ lastModifiedTime
 override
 ;
 NS_IMETHOD
-ForceNoIntercept
-(
-)
-override
-;
-NS_IMETHOD
 GetCorsIncludeCredentials
 (
 bool

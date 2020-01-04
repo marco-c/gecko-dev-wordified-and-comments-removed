@@ -315,7 +315,7 @@ nsIStreamListener
 public
 nsIProgressEventSink
 {
-RefPtr
+nsRefPtr
 <
 HttpChannelChild
 >
@@ -6305,7 +6305,7 @@ this
 mListenerContext
 )
 ;
-RefPtr
+nsRefPtr
 <
 InterceptedChannelContent
 >
@@ -8848,9 +8848,10 @@ mInterceptListener
 =
 nullptr
 ;
-ForceNoIntercept
-(
-)
+mLoadFlags
+|
+=
+LOAD_BYPASS_SERVICE_WORKER
 ;
 nsresult
 rv
