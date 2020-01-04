@@ -5771,9 +5771,9 @@ ion
 void
 setIonScript
 (
-JSContext
+JSRuntime
 *
-maybecx
+maybeRuntime
 js
 :
 :
@@ -5861,9 +5861,9 @@ inline
 void
 setBaselineScript
 (
-JSContext
+JSRuntime
 *
-maybecx
+maybeRuntime
 js
 :
 :
@@ -5878,9 +5878,9 @@ baselineScript
 void
 updateBaselineOrIonRaw
 (
-JSContext
+JSRuntime
 *
-maybecx
+maybeRuntime
 )
 ;
 static

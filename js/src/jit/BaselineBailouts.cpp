@@ -6963,6 +6963,11 @@ script
 updateBaselineOrIonRaw
 (
 cx
+-
+>
+runtime
+(
+)
 )
 ;
 BaselineStackBuilder

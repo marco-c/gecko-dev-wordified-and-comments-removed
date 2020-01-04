@@ -1701,9 +1701,9 @@ pendingBuilder_
 void
 setPendingIonBuilder
 (
-JSContext
+JSRuntime
 *
-maybecx
+maybeRuntime
 JSScript
 *
 script
@@ -1757,7 +1757,7 @@ script
 >
 setIonScript
 (
-maybecx
+maybeRuntime
 ION_PENDING_SCRIPT
 )
 ;
@@ -1774,7 +1774,7 @@ script
 >
 updateBaselineOrIonRaw
 (
-maybecx
+maybeRuntime
 )
 ;
 }

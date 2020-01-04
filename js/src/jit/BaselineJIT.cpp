@@ -1664,6 +1664,11 @@ script
 setBaselineScript
 (
 cx
+-
+>
+runtime
+(
+)
 BASELINE_DISABLED_SCRIPT
 )
 ;

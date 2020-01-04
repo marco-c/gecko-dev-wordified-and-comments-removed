@@ -3046,6 +3046,11 @@ script
 setBaselineScript
 (
 cx
+-
+>
+runtime
+(
+)
 nullptr
 )
 ;
@@ -3081,6 +3086,11 @@ script
 setBaselineScript
 (
 cx
+-
+>
+runtime
+(
+)
 oldBaselineScript
 )
 ;
@@ -3824,6 +3834,11 @@ script
 setBaselineScript
 (
 cx
+-
+>
+runtime
+(
+)
 entry
 .
 oldBaselineScript

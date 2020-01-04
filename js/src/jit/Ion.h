@@ -487,9 +487,9 @@ cx
 void
 FinishOffThreadBuilder
 (
-JSContext
+JSRuntime
 *
-cx
+runtime
 IonBuilder
 *
 builder

@@ -1698,6 +1698,11 @@ script
 setBaselineScript
 (
 cx
+-
+>
+runtime
+(
+)
 baselineScript
 .
 release
