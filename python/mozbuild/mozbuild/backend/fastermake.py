@@ -152,12 +152,6 @@ obj
 )
 :
         
-obj
-.
-ack
-(
-)
-        
 if
 not
 isinstance
@@ -1192,6 +1186,7 @@ else
 :
             
 return
+True
         
 self
 .
@@ -1203,6 +1198,9 @@ obj
 .
 objdir
 )
+        
+return
+True
     
 def
 consume_finished

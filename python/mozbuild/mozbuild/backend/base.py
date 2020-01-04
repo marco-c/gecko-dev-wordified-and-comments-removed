@@ -600,11 +600,32 @@ time
 (
 )
             
+if
+not
 self
 .
 consume_object
 (
 obj
+)
+:
+                
+raise
+Exception
+(
+'
+Unhandled
+object
+of
+type
+%
+s
+'
+%
+type
+(
+obj
+)
 )
             
 self

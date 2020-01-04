@@ -586,31 +586,6 @@ _object_count
                 
 yield
 o
-                
-if
-not
-o
-.
-_ack
-:
-                    
-raise
-Exception
-(
-'
-Unhandled
-object
-of
-type
-%
-s
-'
-%
-type
-(
-o
-)
-)
         
 for
 out

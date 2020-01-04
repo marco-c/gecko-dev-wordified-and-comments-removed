@@ -637,12 +637,6 @@ obj
 )
 :
         
-obj
-.
-ack
-(
-)
-        
 reldir
 =
 getattr
@@ -874,6 +868,9 @@ reldir
 p
 )
 )
+        
+return
+True
     
 def
 _add_sources

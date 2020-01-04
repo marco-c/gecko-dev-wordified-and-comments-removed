@@ -312,7 +312,9 @@ ContextDerived
 :
             
 return
+False
         
+if
 CommonBackend
 .
 consume_object
@@ -320,20 +322,10 @@ consume_object
 self
 obj
 )
-        
-if
-obj
-.
-_ack
 :
             
 return
-        
-obj
-.
-ack
-(
-)
+True
         
 if
 isinstance
@@ -365,6 +357,9 @@ obj
 .
 objdir
 )
+        
+return
+True
     
 def
 consume_finished

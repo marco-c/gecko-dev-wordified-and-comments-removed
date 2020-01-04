@@ -395,12 +395,6 @@ obj
 )
 :
         
-obj
-.
-ack
-(
-)
-        
 reldir
 =
 getattr
@@ -437,6 +431,9 @@ obj
 .
 defines
 )
+        
+return
+True
     
 def
 consume_finished
