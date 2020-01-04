@@ -5703,7 +5703,7 @@ DOM_VK_VOLUME_MUTE
 :
 return
 "
-VolumeMute
+AudioVolumeMute
 "
 ;
 case
