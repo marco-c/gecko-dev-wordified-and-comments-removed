@@ -2819,7 +2819,7 @@ eSynthesized
 ;
 dummyEvent
 .
-refPoint
+mRefPoint
 =
 LayoutDeviceIntPoint
 (

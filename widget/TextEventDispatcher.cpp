@@ -578,7 +578,7 @@ PR_IntervalNow
 ;
 aEvent
 .
-refPoint
+mRefPoint
 =
 LayoutDeviceIntPoint
 (

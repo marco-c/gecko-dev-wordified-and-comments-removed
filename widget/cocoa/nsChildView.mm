@@ -26317,7 +26317,7 @@ pos
 =
 geckoEvent
 .
-refPoint
+mRefPoint
 ;
 if
 (
@@ -26537,7 +26537,7 @@ eReal
 ;
 event
 .
-refPoint
+mRefPoint
 =
 mGeckoChild
 -
@@ -29969,7 +29969,7 @@ window
 outGeckoEvent
 -
 >
-refPoint
+mRefPoint
 =
 [
 self
@@ -32848,7 +32848,7 @@ draggingLocation
 ;
 geckoEvent
 .
-refPoint
+mRefPoint
 =
 [
 self

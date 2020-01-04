@@ -1230,7 +1230,7 @@ Now
 ;
 geckoEvent
 .
-refPoint
+mRefPoint
 =
 aPosition
 ;

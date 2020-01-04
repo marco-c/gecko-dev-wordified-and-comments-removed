@@ -3604,7 +3604,7 @@ AsGUIEvent
 )
 -
 >
-refPoint
+mRefPoint
 ;
 nsIFrame
 *

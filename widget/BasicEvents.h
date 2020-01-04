@@ -609,7 +609,7 @@ mMessage
 (
 aMessage
 )
-refPoint
+mRefPoint
 (
 0
 0
@@ -689,7 +689,7 @@ mMessage
 (
 aMessage
 )
-refPoint
+mRefPoint
 (
 0
 0
@@ -831,7 +831,7 @@ EventMessage
 mMessage
 ;
 LayoutDeviceIntPoint
-refPoint
+mRefPoint
 ;
 LayoutDeviceIntPoint
 lastRefPoint
@@ -886,11 +886,11 @@ bool
 aCopyTargets
 )
 {
-refPoint
+mRefPoint
 =
 aEvent
 .
-refPoint
+mRefPoint
 ;
 AssignEventTime
 (

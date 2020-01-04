@@ -10355,7 +10355,7 @@ eReal
 ;
 event
 .
-refPoint
+mRefPoint
 =
 GdkEventCoordsToDevicePixels
 (
@@ -10534,7 +10534,7 @@ eReal
 ;
 event
 .
-refPoint
+mRefPoint
 =
 GdkEventCoordsToDevicePixels
 (
@@ -10889,7 +10889,7 @@ ifdef
 MOZ_X11
 event
 .
-refPoint
+mRefPoint
 .
 x
 =
@@ -10904,7 +10904,7 @@ x
 ;
 event
 .
-refPoint
+mRefPoint
 .
 y
 =
@@ -10943,7 +10943,7 @@ time
 else
 event
 .
-refPoint
+mRefPoint
 =
 GdkEventCoordsToDevicePixels
 (
@@ -10984,7 +10984,7 @@ else
 {
 event
 .
-refPoint
+mRefPoint
 =
 GetRefPoint
 (
@@ -11217,7 +11217,7 @@ aGdkEvent
 {
 aEvent
 .
-refPoint
+mRefPoint
 =
 GetRefPoint
 (
@@ -12985,7 +12985,7 @@ eContextMenuKey
 ;
 contextMenuEvent
 .
-refPoint
+mRefPoint
 =
 LayoutDeviceIntPoint
 (
@@ -13508,7 +13508,7 @@ break
 }
 wheelEvent
 .
-refPoint
+mRefPoint
 =
 GetRefPoint
 (
@@ -14123,7 +14123,7 @@ event
 }
 event
 .
-refPoint
+mRefPoint
 =
 aRefPoint
 ;
@@ -27519,7 +27519,7 @@ aRootX
 aMouseEvent
 -
 >
-refPoint
+mRefPoint
 .
 x
 +
@@ -27533,7 +27533,7 @@ aRootY
 aMouseEvent
 -
 >
-refPoint
+mRefPoint
 .
 y
 +

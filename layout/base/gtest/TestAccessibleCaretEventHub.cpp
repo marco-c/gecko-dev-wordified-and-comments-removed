@@ -381,7 +381,7 @@ AsGUIEvent
 )
 -
 >
-refPoint
+mRefPoint
 ;
 return
 nsPoint
@@ -576,7 +576,7 @@ eLeftButton
 event
 -
 >
-refPoint
+mRefPoint
 =
 LayoutDeviceIntPoint
 (

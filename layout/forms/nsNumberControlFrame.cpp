@@ -2686,7 +2686,7 @@ absPoint
 aEvent
 -
 >
-refPoint
+mRefPoint
 ;
 nsPoint
 point

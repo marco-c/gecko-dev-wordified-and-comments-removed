@@ -2437,7 +2437,7 @@ type
 aEvent
 -
 >
-refPoint
+mRefPoint
 may
 be
 meaningless
@@ -2627,7 +2627,7 @@ absPoint
 aEvent
 -
 >
-refPoint
+mRefPoint
 ;
 }
 nsPoint

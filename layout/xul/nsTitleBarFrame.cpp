@@ -342,7 +342,7 @@ mLastPoint
 aEvent
 -
 >
-refPoint
+mRefPoint
 ;
 }
 }
@@ -426,7 +426,7 @@ nsMoveBy
 aEvent
 -
 >
-refPoint
+mRefPoint
 -
 mLastPoint
 ;

@@ -121,18 +121,13 @@ PR_Now
 mEvent
 -
 >
-refPoint
-.
-x
+mRefPoint
 =
-mEvent
--
->
-refPoint
-.
-y
-=
+LayoutDeviceIntPoint
+(
 0
+0
+)
 ;
 mouseEvent
 -
@@ -339,7 +334,7 @@ aClientY
 mouseEventBase
 -
 >
-refPoint
+mRefPoint
 .
 x
 =
@@ -348,7 +343,7 @@ aScreenX
 mouseEventBase
 -
 >
-refPoint
+mRefPoint
 .
 y
 =
@@ -1443,7 +1438,7 @@ mEvent
 mEvent
 -
 >
-refPoint
+mRefPoint
 )
 .
 x
@@ -1495,7 +1490,7 @@ mEvent
 mEvent
 -
 >
-refPoint
+mRefPoint
 )
 .
 y
@@ -1547,7 +1542,7 @@ mEvent
 mEvent
 -
 >
-refPoint
+mRefPoint
 mClientPoint
 )
 .
@@ -1600,7 +1595,7 @@ mEvent
 mEvent
 -
 >
-refPoint
+mRefPoint
 mClientPoint
 )
 .
@@ -1626,7 +1621,7 @@ mEvent
 mEvent
 -
 >
-refPoint
+mRefPoint
 mClientPoint
 )
 .
@@ -1652,7 +1647,7 @@ mEvent
 mEvent
 -
 >
-refPoint
+mRefPoint
 mClientPoint
 )
 .

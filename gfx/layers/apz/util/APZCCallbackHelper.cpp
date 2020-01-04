@@ -1984,13 +1984,13 @@ else
 {
 aEvent
 .
-refPoint
+mRefPoint
 =
 ApplyCallbackTransform
 (
 aEvent
 .
-refPoint
+mRefPoint
 aGuid
 aScale
 )
@@ -2102,7 +2102,7 @@ eNormal
 ;
 event
 .
-refPoint
+mRefPoint
 =
 LayoutDeviceIntPoint
 (
@@ -3490,7 +3490,7 @@ rootFrame
 wheelEvent
 -
 >
-refPoint
+mRefPoint
 &
 targets
 )

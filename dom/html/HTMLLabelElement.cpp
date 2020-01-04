@@ -526,7 +526,7 @@ LayoutDeviceIntPoint
 mouseEvent
 -
 >
-refPoint
+mRefPoint
 )
 ;
 SetProperty
@@ -617,7 +617,7 @@ dragDistance
 mouseEvent
 -
 >
-refPoint
+mRefPoint
 ;
 const
 int

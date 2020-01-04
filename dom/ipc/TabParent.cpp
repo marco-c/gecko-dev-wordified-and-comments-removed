@@ -5177,7 +5177,7 @@ false
 }
 event
 .
-refPoint
+mRefPoint
 +
 =
 GetChildProcessOffset
@@ -5461,7 +5461,7 @@ false
 }
 event
 .
-refPoint
+mRefPoint
 +
 =
 GetChildProcessOffset
@@ -5546,7 +5546,7 @@ nullptr
 ;
 event
 .
-refPoint
+mRefPoint
 +
 =
 GetChildProcessOffset
@@ -5614,7 +5614,7 @@ widget
 ;
 localEvent
 .
-refPoint
+mRefPoint
 -
 =
 GetChildProcessOffset
@@ -5683,7 +5683,7 @@ widget
 ;
 localEvent
 .
-refPoint
+mRefPoint
 -
 =
 GetChildProcessOffset
@@ -5752,7 +5752,7 @@ widget
 ;
 localEvent
 .
-refPoint
+mRefPoint
 -
 =
 GetChildProcessOffset
@@ -6711,7 +6711,7 @@ false
 }
 event
 .
-refPoint
+mRefPoint
 +
 =
 GetChildProcessOffset

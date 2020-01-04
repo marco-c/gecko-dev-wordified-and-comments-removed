@@ -615,7 +615,7 @@ DevPixelsToCSSPixels
 mEvent
 -
 >
-refPoint
+mRefPoint
 mPresContext
 )
 ;
@@ -846,7 +846,7 @@ mEvent
 mEvent
 -
 >
-refPoint
+mRefPoint
 mClientPoint
 )
 .
@@ -911,7 +911,7 @@ mEvent
 mEvent
 -
 >
-refPoint
+mRefPoint
 mClientPoint
 )
 .
@@ -1565,7 +1565,7 @@ mEvent
 mEvent
 -
 >
-refPoint
+mRefPoint
 mClientPoint
 )
 ;
@@ -1593,7 +1593,7 @@ mEvent
 mEvent
 -
 >
-refPoint
+mRefPoint
 mClientPoint
 )
 ;
@@ -1610,7 +1610,7 @@ mEvent
 mEvent
 -
 >
-refPoint
+mRefPoint
 )
 ;
 nsresult
@@ -1651,7 +1651,7 @@ CSSToLayoutDeviceScale
 mEvent
 -
 >
-refPoint
+mRefPoint
 =
 RoundedToInt
 (

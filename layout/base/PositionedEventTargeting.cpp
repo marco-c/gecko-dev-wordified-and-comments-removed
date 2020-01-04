@@ -3421,7 +3421,7 @@ NS_UNCONSTRAINEDSIZE
 aEvent
 -
 >
-refPoint
+mRefPoint
 =
 widgetPoint
 ;

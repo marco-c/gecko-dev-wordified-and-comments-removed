@@ -3212,12 +3212,12 @@ mWidget
 ;
 charAtPt
 .
-refPoint
+mRefPoint
 =
 aMouseEvent
 -
 >
-refPoint
+mRefPoint
 ;
 ContentEventHandler
 handler
@@ -3341,7 +3341,7 @@ mWidget
 {
 charAtPt
 .
-refPoint
+mRefPoint
 +
 =
 aMouseEvent
@@ -3401,7 +3401,7 @@ Set
 (
 charAtPt
 .
-refPoint
+mRefPoint
 .
 ToUnknownPoint
 (

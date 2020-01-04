@@ -13854,13 +13854,13 @@ aWindowID
 aGuiEvent
 -
 >
-refPoint
+mRefPoint
 .
 x
 aGuiEvent
 -
 >
-refPoint
+mRefPoint
 .
 y
 )

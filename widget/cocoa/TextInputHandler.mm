@@ -5411,7 +5411,7 @@ modifierFlags
 }
 aKeyEvent
 .
-refPoint
+mRefPoint
 =
 LayoutDeviceIntPoint
 (
@@ -22776,7 +22776,7 @@ nil
 ;
 charAt
 .
-refPoint
+mRefPoint
 .
 x
 =
@@ -22799,7 +22799,7 @@ BackingScaleFactor
 ;
 charAt
 .
-refPoint
+mRefPoint
 .
 y
 =

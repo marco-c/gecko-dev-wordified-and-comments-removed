@@ -7776,12 +7776,12 @@ mUseNativeLineBreak
 ;
 eventOnRoot
 .
-refPoint
+mRefPoint
 =
 aEvent
 -
 >
-refPoint
+mRefPoint
 ;
 if
 (
@@ -7796,7 +7796,7 @@ mWidget
 {
 eventOnRoot
 .
-refPoint
+mRefPoint
 +
 =
 aEvent
@@ -8352,7 +8352,7 @@ eventLoc
 aEvent
 -
 >
-refPoint
+mRefPoint
 +
 aEvent
 -

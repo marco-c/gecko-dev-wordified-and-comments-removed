@@ -6334,7 +6334,7 @@ mFirstDragPoint
 aEvent
 -
 >
-refPoint
+mRefPoint
 ;
 if
 (
@@ -6460,7 +6460,7 @@ DevPixelsToAppUnits
 aEvent
 -
 >
-refPoint
+mRefPoint
 .
 x
 -
@@ -6644,7 +6644,7 @@ DevPixelsToAppUnits
 aEvent
 -
 >
-refPoint
+mRefPoint
 .
 y
 -

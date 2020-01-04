@@ -24430,7 +24430,7 @@ eSynthesized
 ;
 event
 .
-refPoint
+mRefPoint
 =
 LayoutDeviceIntPoint
 :
@@ -30395,7 +30395,7 @@ mWidget
 aEvent
 -
 >
-refPoint
+mRefPoint
 rootView
 )
 ;
@@ -31144,7 +31144,7 @@ Identifier
 ;
 event
 .
-refPoint
+mRefPoint
 =
 touch
 -
@@ -38247,7 +38247,7 @@ WidgetToScreenOffset
 aEvent
 -
 >
-refPoint
+mRefPoint
 =
 LayoutDeviceIntPoint
 :
@@ -38302,20 +38302,13 @@ GetRootPresContext
 aEvent
 -
 >
-refPoint
-.
-x
+mRefPoint
 =
+LayoutDeviceIntPoint
+(
 0
-;
-aEvent
--
->
-refPoint
-.
-y
-=
 0
+)
 ;
 if
 (
@@ -38407,7 +38400,7 @@ mWidget
 aEvent
 -
 >
-refPoint
+mRefPoint
 =
 LayoutDeviceIntPoint
 :
@@ -38454,7 +38447,7 @@ caretPoint
 aEvent
 -
 >
-refPoint
+mRefPoint
 =
 caretPoint
 ;
@@ -38515,7 +38508,7 @@ currentPointElement
 aEvent
 -
 >
-refPoint
+mRefPoint
 aEvent
 -
 >

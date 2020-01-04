@@ -965,7 +965,7 @@ eNormal
 ;
 event
 .
-refPoint
+mRefPoint
 =
 aPoint
 ;
@@ -1314,7 +1314,7 @@ radius
 ;
 event
 .
-refPoint
+mRefPoint
 =
 loc
 ;
