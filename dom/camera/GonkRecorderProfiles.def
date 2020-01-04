@@ -159,6 +159,7 @@ DEF_GONK_RECORDER_PROFILE
 (
 e
 n
+p
 )
 #
 endif
@@ -172,15 +173,45 @@ DEF_GONK_RECORDER_PROFILE_DETECT
 n
 w
 h
+p
 )
 #
 endif
+/
+*
+Enum
+value
+name
+and
+priority
+.
+The
+supported
+profile
+with
+the
+*
+lowest
+priority
+and
+then
+largest
+area
+is
+selected
+as
+the
+default
+.
+*
+/
 DEF_GONK_RECORDER_PROFILE
 (
 CAMCORDER_QUALITY_LOW
 "
 low
 "
+900
 )
 DEF_GONK_RECORDER_PROFILE
 (
@@ -188,6 +219,7 @@ CAMCORDER_QUALITY_HIGH
 "
 high
 "
+900
 )
 DEF_GONK_RECORDER_PROFILE
 (
@@ -195,6 +227,7 @@ CAMCORDER_QUALITY_QCIF
 "
 qcif
 "
+300
 )
 DEF_GONK_RECORDER_PROFILE
 (
@@ -202,6 +235,7 @@ CAMCORDER_QUALITY_CIF
 "
 cif
 "
+300
 )
 DEF_GONK_RECORDER_PROFILE
 (
@@ -209,6 +243,7 @@ CAMCORDER_QUALITY_480P
 "
 480p
 "
+200
 )
 DEF_GONK_RECORDER_PROFILE
 (
@@ -216,6 +251,7 @@ CAMCORDER_QUALITY_720P
 "
 720p
 "
+100
 )
 DEF_GONK_RECORDER_PROFILE
 (
@@ -223,6 +259,7 @@ CAMCORDER_QUALITY_1080P
 "
 1080p
 "
+0
 )
 /
 *
@@ -274,6 +311,7 @@ DEF_GONK_RECORDER_PROFILE_DETECT
 "
 3840
 2160
+800
 )
 DEF_GONK_RECORDER_PROFILE_DETECT
 (
@@ -282,6 +320,7 @@ fwvga
 "
 864
 480
+200
 )
 DEF_GONK_RECORDER_PROFILE_DETECT
 (
@@ -290,6 +329,7 @@ fwvga
 "
 854
 480
+200
 )
 DEF_GONK_RECORDER_PROFILE_DETECT
 (
@@ -298,6 +338,7 @@ wvga
 "
 800
 480
+200
 )
 DEF_GONK_RECORDER_PROFILE_DETECT
 (
@@ -306,6 +347,7 @@ wvga
 "
 768
 480
+200
 )
 DEF_GONK_RECORDER_PROFILE_DETECT
 (
@@ -314,6 +356,7 @@ vga
 "
 640
 480
+200
 )
 DEF_GONK_RECORDER_PROFILE_DETECT
 (
@@ -322,6 +365,7 @@ hvga
 "
 480
 320
+300
 )
 DEF_GONK_RECORDER_PROFILE_DETECT
 (
@@ -330,6 +374,7 @@ wqvga
 "
 400
 240
+300
 )
 DEF_GONK_RECORDER_PROFILE_DETECT
 (
@@ -338,6 +383,7 @@ qvga
 "
 320
 240
+300
 )
 #
 undef

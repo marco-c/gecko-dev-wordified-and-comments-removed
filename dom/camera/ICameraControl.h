@@ -499,6 +499,16 @@ return
 mMimeType
 ;
 }
+uint32_t
+GetPriority
+(
+)
+const
+{
+return
+mPriority
+;
+}
 virtual
 const
 Video
@@ -538,6 +548,9 @@ mContainer
 ;
 nsString
 mMimeType
+;
+uint32_t
+mPriority
 ;
 private
 :
