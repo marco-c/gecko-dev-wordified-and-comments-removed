@@ -9113,11 +9113,11 @@ newNode
 type
 pos
 "
-id
+name
 "
 name
 "
-superClass
+heritage
 "
 heritage
 "
