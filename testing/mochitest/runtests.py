@@ -237,7 +237,7 @@ dirname
 __file__
 )
 )
-MOZ_LOG_MODULES
+MOZ_LOG
 =
 "
 "
@@ -8259,7 +8259,7 @@ self
 .
 mozLogs
 =
-MOZ_LOG_MODULES
+MOZ_LOG
 and
 "
 MOZ_UPLOAD_DIR
@@ -8278,11 +8278,11 @@ mozLogs
 browserEnv
 [
 "
-MOZ_LOG_MODULES
+MOZ_LOG
 "
 ]
 =
-MOZ_LOG_MODULES
+MOZ_LOG
         
 if
 debugger
