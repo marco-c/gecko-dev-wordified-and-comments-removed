@@ -576,7 +576,8 @@ tabs
 .
 create
 (
-null
+{
+}
 function
 (
 tab
@@ -914,7 +915,8 @@ tabs
 .
 create
 (
-null
+{
+}
 function
 (
 tab
