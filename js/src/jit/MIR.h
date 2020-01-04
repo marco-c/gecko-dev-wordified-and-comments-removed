@@ -33331,10 +33331,6 @@ setResultType
 MIRType_Boolean
 )
 ;
-setMovable
-(
-)
-;
 }
 public
 :
@@ -33439,10 +33435,6 @@ proto
 setResultType
 (
 MIRType_Boolean
-)
-;
-setMovable
-(
 )
 ;
 }
