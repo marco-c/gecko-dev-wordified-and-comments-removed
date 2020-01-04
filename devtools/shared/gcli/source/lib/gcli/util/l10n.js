@@ -282,10 +282,11 @@ exports
 .
 propertyLookup
 =
+new
 Proxy
-.
-create
 (
+{
+}
 {
 get
 :
