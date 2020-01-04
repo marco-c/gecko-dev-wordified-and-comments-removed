@@ -193,6 +193,9 @@ gfx
 jsdownloads
 '
 '
+lz4
+'
+'
 mediasniffer
 '
 '
@@ -266,9 +269,6 @@ viewconfig
 '
 '
 workerloader
-'
-'
-workerlz4
 '
 '
 xulstore

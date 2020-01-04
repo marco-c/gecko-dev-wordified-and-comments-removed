@@ -313,8 +313,6 @@ gre
 /
 modules
 /
-workers
-/
 lz4
 .
 js
@@ -333,8 +331,6 @@ resource
 gre
 /
 modules
-/
-workers
 /
 lz4_internal
 .
