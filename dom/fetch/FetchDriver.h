@@ -267,9 +267,6 @@ nsIDocument
 >
 mDocument
 ;
-bool
-mHasBeenCrossSite
-;
 DebugOnly
 <
 bool
@@ -311,11 +308,6 @@ delete
 ;
 ~
 FetchDriver
-(
-)
-;
-nsresult
-SetTainting
 (
 )
 ;

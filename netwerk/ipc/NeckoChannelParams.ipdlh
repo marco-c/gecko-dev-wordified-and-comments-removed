@@ -383,6 +383,9 @@ securityFlags
 uint32_t
 contentPolicyType
 ;
+uint32_t
+tainting
+;
 bool
 upgradeInsecureRequests
 ;
