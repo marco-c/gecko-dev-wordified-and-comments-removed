@@ -78,6 +78,9 @@ reducers
 selectors
 '
 '
+test
+'
+'
 utils
 '
 ]

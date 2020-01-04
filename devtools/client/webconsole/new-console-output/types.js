@@ -30,6 +30,9 @@ Immutable
 Record
 (
 {
+id
+:
+null
 allowRepeating
 :
 false
@@ -60,6 +63,9 @@ Immutable
 Record
 (
 {
+id
+:
+null
 allowRepeating
 :
 true
@@ -94,9 +100,6 @@ severity
 "
 log
 "
-id
-:
-null
 }
 )
 ;
