@@ -328,6 +328,11 @@ RemoveFromWatcher
 (
 )
 ;
+void
+EnsureContentTreeOwner
+(
+)
+;
 already_AddRefed
 <
 nsIWebBrowserChrome
@@ -392,6 +397,12 @@ RefPtr
 ChromeContextMenuListener
 >
 mChromeContextMenuListener
+;
+RefPtr
+<
+nsDocShellTreeOwner
+>
+mContentTreeOwner
 ;
 nsCOMPtr
 <
