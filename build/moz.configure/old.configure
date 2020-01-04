@@ -2843,6 +2843,15 @@ external
 -
 linkage
 '
+'
+-
+-
+enable
+-
+ipc
+-
+fuzzer
+'
 )
 imports
 (

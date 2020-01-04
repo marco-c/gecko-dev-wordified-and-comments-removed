@@ -560,7 +560,7 @@ condition
 )
 LOG_IF
 (
-FATAL
+WARNING
 condition
 )
 #
