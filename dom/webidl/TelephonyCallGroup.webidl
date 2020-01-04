@@ -213,7 +213,7 @@ resume
 ;
 readonly
 attribute
-DOMString
+TelephonyCallGroupState
 state
 ;
 attribute
@@ -236,5 +236,18 @@ attribute
 EventHandler
 onerror
 ;
+}
+;
+enum
+TelephonyCallGroupState
+{
+"
+"
+"
+connected
+"
+"
+held
+"
 }
 ;
