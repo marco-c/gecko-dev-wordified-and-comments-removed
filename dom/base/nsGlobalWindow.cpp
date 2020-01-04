@@ -32565,9 +32565,6 @@ false
 true
 nullptr
 nullptr
-GetPrincipal
-(
-)
 nullptr
 getter_AddRefs
 (
@@ -32642,9 +32639,6 @@ true
 true
 nullptr
 nullptr
-GetPrincipal
-(
-)
 nsContentUtils
 :
 :
@@ -32702,9 +32696,6 @@ false
 true
 nullptr
 aExtraArgument
-GetPrincipal
-(
-)
 nullptr
 _retval
 )
@@ -32754,9 +32745,6 @@ false
 false
 nullptr
 nullptr
-GetPrincipal
-(
-)
 nullptr
 _retval
 )
@@ -32868,9 +32856,6 @@ false
 true
 argvArray
 nullptr
-GetPrincipal
-(
-)
 aCx
 getter_AddRefs
 (
@@ -37512,9 +37497,6 @@ true
 true
 nullptr
 argHolder
-GetPrincipal
-(
-)
 nullptr
 getter_AddRefs
 (
@@ -48286,9 +48268,6 @@ argv
 nsISupports
 *
 aExtraArgument
-nsIPrincipal
-*
-aCalleePrincipal
 JSContext
 *
 aJSCallerContext

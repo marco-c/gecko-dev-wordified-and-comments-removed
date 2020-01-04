@@ -7463,9 +7463,6 @@ argv
 nsISupports
 *
 aExtraArgument
-nsIPrincipal
-*
-aCalleePrincipal
 JSContext
 *
 aJSCallerContext
