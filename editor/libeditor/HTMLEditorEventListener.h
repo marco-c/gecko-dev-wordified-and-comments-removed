@@ -7,7 +7,7 @@ HTMLEditorEventListener_h
 #
 include
 "
-nsEditorEventListener
+EditorEventListener
 .
 h
 "
@@ -32,7 +32,7 @@ HTMLEditorEventListener
 final
 :
 public
-nsEditorEventListener
+EditorEventListener
 {
 public
 :

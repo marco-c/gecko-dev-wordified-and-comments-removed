@@ -1,7 +1,7 @@
 #
 include
 "
-nsEditorEventListener
+EditorEventListener
 .
 h
 "
@@ -415,15 +415,11 @@ h
 class
 nsPresContext
 ;
-using
 namespace
 mozilla
-;
+{
 using
 namespace
-mozilla
-:
-:
 dom
 ;
 static
@@ -568,10 +564,10 @@ commandStr
 ;
 }
 }
-nsEditorEventListener
+EditorEventListener
 :
 :
-nsEditorEventListener
+EditorEventListener
 (
 )
 :
@@ -610,11 +606,11 @@ false
 endif
 {
 }
-nsEditorEventListener
+EditorEventListener
 :
 :
 ~
-nsEditorEventListener
+EditorEventListener
 (
 )
 {
@@ -641,7 +637,7 @@ Disconnect
 }
 }
 nsresult
-nsEditorEventListener
+EditorEventListener
 :
 :
 Connect
@@ -725,7 +721,7 @@ rv
 ;
 }
 nsresult
-nsEditorEventListener
+EditorEventListener
 :
 :
 InstallToEditor
@@ -1044,7 +1040,7 @@ NS_OK
 ;
 }
 void
-nsEditorEventListener
+EditorEventListener
 :
 :
 Disconnect
@@ -1158,7 +1154,7 @@ nullptr
 ;
 }
 void
-nsEditorEventListener
+EditorEventListener
 :
 :
 UninstallFromEditor
@@ -1472,7 +1468,7 @@ already_AddRefed
 <
 nsIPresShell
 >
-nsEditorEventListener
+EditorEventListener
 :
 :
 GetPresShell
@@ -1508,7 +1504,7 @@ GetPresShell
 }
 nsPresContext
 *
-nsEditorEventListener
+EditorEventListener
 :
 :
 GetPresContext
@@ -1540,7 +1536,7 @@ nullptr
 }
 nsIContent
 *
-nsEditorEventListener
+EditorEventListener
 :
 :
 GetFocusedRootContent
@@ -1613,7 +1609,7 @@ focusedContent
 ;
 }
 bool
-nsEditorEventListener
+EditorEventListener
 :
 :
 EditorHasFocus
@@ -1680,11 +1676,11 @@ composedDoc
 }
 NS_IMPL_ISUPPORTS
 (
-nsEditorEventListener
+EditorEventListener
 nsIDOMEventListener
 )
 NS_IMETHODIMP
-nsEditorEventListener
+EditorEventListener
 :
 :
 HandleEvent
@@ -2326,7 +2322,7 @@ true
 }
 }
 nsresult
-nsEditorEventListener
+EditorEventListener
 :
 :
 KeyUp
@@ -2427,7 +2423,7 @@ NS_OK
 ;
 }
 nsresult
-nsEditorEventListener
+EditorEventListener
 :
 :
 KeyDown
@@ -2524,7 +2520,7 @@ NS_OK
 #
 endif
 nsresult
-nsEditorEventListener
+EditorEventListener
 :
 :
 KeyPress
@@ -2792,7 +2788,7 @@ NS_OK
 ;
 }
 nsresult
-nsEditorEventListener
+EditorEventListener
 :
 :
 MouseClick
@@ -2950,7 +2946,7 @@ NS_OK
 ;
 }
 nsresult
-nsEditorEventListener
+EditorEventListener
 :
 :
 HandleMiddleClickPaste
@@ -3223,7 +3219,7 @@ NS_OK
 ;
 }
 bool
-nsEditorEventListener
+EditorEventListener
 :
 :
 NotifyIMEOfMouseButtonEvent
@@ -3309,7 +3305,7 @@ aMouseEvent
 ;
 }
 nsresult
-nsEditorEventListener
+EditorEventListener
 :
 :
 MouseDown
@@ -3331,7 +3327,7 @@ NS_OK
 ;
 }
 nsresult
-nsEditorEventListener
+EditorEventListener
 :
 :
 HandleText
@@ -3390,7 +3386,7 @@ aTextEvent
 ;
 }
 nsresult
-nsEditorEventListener
+EditorEventListener
 :
 :
 DragEnter
@@ -3476,7 +3472,7 @@ aDragEvent
 ;
 }
 nsresult
-nsEditorEventListener
+EditorEventListener
 :
 :
 DragOver
@@ -3674,7 +3670,7 @@ NS_OK
 ;
 }
 void
-nsEditorEventListener
+EditorEventListener
 :
 :
 CleanupDragDropCaret
@@ -3734,7 +3730,7 @@ nullptr
 ;
 }
 nsresult
-nsEditorEventListener
+EditorEventListener
 :
 :
 DragExit
@@ -3759,7 +3755,7 @@ NS_OK
 ;
 }
 nsresult
-nsEditorEventListener
+EditorEventListener
 :
 :
 Drop
@@ -3941,7 +3937,7 @@ AsEvent
 ;
 }
 bool
-nsEditorEventListener
+EditorEventListener
 :
 :
 CanDrop
@@ -4410,7 +4406,7 @@ true
 ;
 }
 nsresult
-nsEditorEventListener
+EditorEventListener
 :
 :
 HandleStartComposition
@@ -4463,7 +4459,7 @@ compositionStart
 ;
 }
 void
-nsEditorEventListener
+EditorEventListener
 :
 :
 HandleEndComposition
@@ -4497,7 +4493,7 @@ EndIMEComposition
 ;
 }
 nsresult
-nsEditorEventListener
+EditorEventListener
 :
 :
 Focus
@@ -4743,7 +4739,7 @@ NS_OK
 ;
 }
 nsresult
-nsEditorEventListener
+EditorEventListener
 :
 :
 Blur
@@ -4812,7 +4808,7 @@ NS_OK
 ;
 }
 void
-nsEditorEventListener
+EditorEventListener
 :
 :
 SpellCheckIfNeeded
@@ -4862,7 +4858,7 @@ currentFlags
 }
 }
 bool
-nsEditorEventListener
+EditorEventListener
 :
 :
 IsFileControlTextBox
@@ -4960,7 +4956,7 @@ NS_FORM_INPUT_FILE
 ;
 }
 bool
-nsEditorEventListener
+EditorEventListener
 :
 :
 ShouldHandleNativeKeyBindings
@@ -5100,4 +5096,5 @@ targetContent
 editingHost
 )
 ;
+}
 }

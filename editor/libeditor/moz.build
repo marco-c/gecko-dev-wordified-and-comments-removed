@@ -235,6 +235,11 @@ EditorController
 cpp
 '
 '
+EditorEventListener
+.
+cpp
+'
+'
 EditorUtils
 .
 cpp
@@ -286,11 +291,6 @@ cpp
 '
 '
 nsEditor
-.
-cpp
-'
-'
-nsEditorEventListener
 .
 cpp
 '
