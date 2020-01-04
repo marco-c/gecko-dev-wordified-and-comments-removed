@@ -967,7 +967,7 @@ schemaVersion
 db
 :
 :
-kMaxWipeSchemaVersion
+kFirstShippedSchemaVersion
 )
 {
 conn

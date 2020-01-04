@@ -399,7 +399,7 @@ aConn
 extern
 const
 int32_t
-kMaxWipeSchemaVersion
+kFirstShippedSchemaVersion
 ;
 }
 }
