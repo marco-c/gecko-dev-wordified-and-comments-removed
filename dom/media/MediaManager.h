@@ -2269,6 +2269,11 @@ MediaManager
 {
 }
 void
+Shutdown
+(
+)
+;
+void
 StopScreensharing
 (
 uint64_t
@@ -2321,6 +2326,12 @@ base
 Thread
 >
 mMediaThread
+;
+nsCOMPtr
+<
+nsIAsyncShutdownBlocker
+>
+mShutdownBlocker
 ;
 Mutex
 mMutex

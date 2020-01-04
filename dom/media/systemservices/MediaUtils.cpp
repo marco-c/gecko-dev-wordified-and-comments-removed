@@ -11,5 +11,10 @@ mozilla
 namespace
 media
 {
+NS_IMPL_ISUPPORTS
+(
+ShutdownBlocker
+nsIAsyncShutdownBlocker
+)
 }
 }
