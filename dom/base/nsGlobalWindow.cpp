@@ -29293,13 +29293,6 @@ AreDialogsEnabled
 )
 )
 {
-aError
-.
-Throw
-(
-NS_ERROR_NOT_AVAILABLE
-)
-;
 return
 false
 ;
@@ -29902,13 +29895,6 @@ AreDialogsEnabled
 )
 )
 {
-aError
-.
-Throw
-(
-NS_ERROR_NOT_AVAILABLE
-)
-;
 return
 ;
 }
