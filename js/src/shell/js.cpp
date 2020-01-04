@@ -31213,7 +31213,7 @@ if
 stackObj
 )
 return
-false
+true
 ;
 RootedString
 stackStr
