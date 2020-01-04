@@ -1222,6 +1222,11 @@ CLEANUP_DEFERRAL_SECONDS
 =
 15
 ;
+private
+static
+boolean
+sAlreadyLoaded
+;
 protected
 RelativeLayout
 mRootLayout
@@ -7093,11 +7098,7 @@ return
 }
 if
 (
-GeckoThread
-.
-isLaunched
-(
-)
+sAlreadyLoaded
 )
 {
 mIsRestoringActivity
@@ -7125,6 +7126,10 @@ getURIFromIntent
 (
 intent
 )
+;
+sAlreadyLoaded
+=
+true
 ;
 GeckoThread
 .
