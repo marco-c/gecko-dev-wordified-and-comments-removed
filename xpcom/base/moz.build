@@ -581,6 +581,11 @@ Logging
 cpp
 '
 '
+LogModulePrefWatcher
+.
+cpp
+'
+'
 nsConsoleMessage
 .
 cpp

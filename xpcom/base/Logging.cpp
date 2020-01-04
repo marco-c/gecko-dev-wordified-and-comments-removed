@@ -56,7 +56,7 @@ namespace
 mozilla
 {
 LogLevel
-Clamp
+ToLogLevel
 (
 int32_t
 aLevel
@@ -186,7 +186,7 @@ aName
 LogLevel
 logLevel
 =
-Clamp
+ToLogLevel
 (
 prModule
 -

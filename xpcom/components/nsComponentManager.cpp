@@ -378,6 +378,13 @@ Logging
 .
 h
 "
+#
+include
+"
+LogModulePrefWatcher
+.
+h
+"
 using
 namespace
 mozilla
@@ -1842,6 +1849,13 @@ false
 RegisterWeakMemoryReporter
 (
 this
+)
+;
+LogModulePrefWatcher
+:
+:
+RegisterPrefWatcher
+(
 )
 ;
 #
