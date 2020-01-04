@@ -2659,13 +2659,6 @@ GetObjectPrincipal
 targetObj
 )
 ;
-JSAutoCompartment
-ac
-(
-cx
-targetObj
-)
-;
 nsCOMPtr
 <
 nsIURI
@@ -2702,6 +2695,13 @@ return
 NS_ERROR_FAILURE
 ;
 }
+JSAutoCompartment
+ac
+(
+cx
+targetObj
+)
+;
 StartupCache
 *
 cache
