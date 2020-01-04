@@ -3664,7 +3664,7 @@ mColormap
 )
 +
 size
-0
+0xFF
 mColormapSize
 -
 size
