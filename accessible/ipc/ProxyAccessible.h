@@ -303,6 +303,8 @@ IndexInParent
 ;
 return
 idx
++
+1
 <
 Parent
 (
