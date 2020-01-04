@@ -825,7 +825,15 @@ ServiceWorkerJobQueue
 ;
 friend
 class
+ServiceWorkerInstallJob
+;
+friend
+class
 ServiceWorkerRegisterJob
+;
+friend
+class
+ServiceWorkerJobBase
 ;
 friend
 class
