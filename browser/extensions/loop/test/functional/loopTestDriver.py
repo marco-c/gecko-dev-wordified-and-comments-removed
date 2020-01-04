@@ -52,6 +52,29 @@ marionette
 marionette
     
 def
+set_context
+(
+self
+context
+)
+:
+        
+self
+.
+context
+=
+context
+        
+self
+.
+marionette
+.
+set_context
+(
+context
+)
+    
+def
 wait_for_element_displayed
 (
 self
@@ -267,16 +290,56 @@ enabled
 )
     
 def
-wait_for_element_attribute_to_be_false
+wait_for_element_property_to_be_false
 (
 self
 element
-attribute
+property
 timeout
 =
 10
 )
 :
+        
+def
+check_property
+(
+m
+)
+:
+            
+if
+self
+.
+context
+=
+=
+"
+content
+"
+:
+                
+return
+not
+element
+.
+get_property
+(
+property
+)
+            
+return
+element
+.
+get_attribute
+(
+property
+)
+=
+=
+"
+false
+"
         
 Wait
 (
@@ -290,20 +353,7 @@ timeout
 .
 until
 (
-lambda
-e
-:
-element
-.
-get_attribute
-(
-attribute
-)
-=
-=
-"
-false
-"
+check_property
                    
 message
 =
@@ -314,7 +364,7 @@ waiting
 for
 "
 +
-attribute
+property
 +
 "
 to
@@ -331,8 +381,6 @@ self
 :
         
 self
-.
-marionette
 .
 set_context
 (
@@ -382,8 +430,6 @@ self
         
 self
 .
-marionette
-.
 set_context
 (
 "
@@ -428,8 +474,6 @@ self
 :
         
 self
-.
-marionette
 .
 set_context
 (
@@ -631,8 +675,6 @@ self
         
 self
 .
-marionette
-.
 set_context
 (
 "
@@ -829,7 +871,7 @@ selector
         
 self
 .
-wait_for_element_attribute_to_be_false
+wait_for_element_property_to_be_false
 (
 video
 "
@@ -839,18 +881,11 @@ paused
         
 self
 .
-assertEqual
+wait_for_element_property_to_be_false
 (
 video
-.
-get_attribute
-(
 "
 ended
-"
-)
-"
-false
 "
 )
     

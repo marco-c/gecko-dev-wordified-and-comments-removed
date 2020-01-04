@@ -870,14 +870,6 @@ OT
 }
 )
 ;
-loop
-.
-conversation
-.
-_sdkDriver
-=
-sdkDriver
-;
 var
 activeRoomStore
 =
@@ -1180,9 +1172,6 @@ AppControllerView
 init
 :
 init
-_sdkDriver
-:
-null
 }
 ;
 }

@@ -1855,13 +1855,6 @@ roomData
 show
 :
 shouldRenderInvitationOverlay
-socialShareProviders
-:
-this
-.
-state
-.
-socialShareProviders
 }
 )
 )

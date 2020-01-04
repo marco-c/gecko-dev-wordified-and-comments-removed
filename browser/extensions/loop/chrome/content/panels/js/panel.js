@@ -6184,13 +6184,6 @@ roomData
 show
 :
 true
-socialShareProviders
-:
-this
-.
-state
-.
-socialShareProviders
 }
 )
 )
