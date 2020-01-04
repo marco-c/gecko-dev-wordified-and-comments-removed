@@ -3162,7 +3162,6 @@ icons
 .
 svg
 )
-*
 skin
 /
 widgets
@@ -3363,7 +3362,6 @@ warning
 .
 png
 )
-*
 skin
 /
 rules
@@ -3974,7 +3972,6 @@ location
 .
 png
 )
-*
 skin
 /
 webconsole
@@ -4115,7 +4112,6 @@ debugger
 .
 css
 )
-*
 skin
 /
 netmonitor
@@ -4220,7 +4216,6 @@ storage
 .
 css
 )
-*
 skin
 /
 splitview
@@ -5600,7 +5595,6 @@ light
 .
 css
 )
-*
 skin
 /
 inspector
