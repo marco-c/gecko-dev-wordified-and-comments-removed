@@ -2940,6 +2940,7 @@ ackMsgRecv
 aAckUri
 )
 ;
+return
 this
 .
 _deleteResource
