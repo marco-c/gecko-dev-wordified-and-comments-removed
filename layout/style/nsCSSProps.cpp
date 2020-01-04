@@ -4402,7 +4402,6 @@ eCSSKeyword_UNKNOWN
 1
 }
 ;
-const
 KTableValue
 nsCSSProps
 :
@@ -5437,7 +5436,6 @@ eCSSKeyword_UNKNOWN
 1
 }
 ;
-const
 KTableValue
 nsCSSProps
 :
