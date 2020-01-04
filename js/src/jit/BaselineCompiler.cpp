@@ -3629,11 +3629,11 @@ OptimizationInfo
 *
 info
 =
-js_IonOptimizations
+IonOptimizations
 .
 get
 (
-js_IonOptimizations
+IonOptimizations
 .
 firstLevel
 (

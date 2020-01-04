@@ -41,7 +41,7 @@ namespace
 jit
 {
 OptimizationInfos
-js_IonOptimizations
+IonOptimizations
 ;
 void
 OptimizationInfo

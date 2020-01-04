@@ -19756,7 +19756,7 @@ OptimizationInfo
 *
 optimizationInfo
 =
-js_IonOptimizations
+IonOptimizations
 .
 get
 (
@@ -20922,7 +20922,7 @@ OptimizationInfo
 *
 optimizationInfo
 =
-js_IonOptimizations
+IonOptimizations
 .
 get
 (

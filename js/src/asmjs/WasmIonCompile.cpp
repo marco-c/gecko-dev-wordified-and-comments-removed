@@ -18340,7 +18340,7 @@ alloc
 graph
 &
 compileInfo
-js_IonOptimizations
+IonOptimizations
 .
 get
 (

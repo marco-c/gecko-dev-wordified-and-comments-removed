@@ -39717,7 +39717,7 @@ level
 ;
 if
 (
-js_IonOptimizations
+IonOptimizations
 .
 isLastLevel
 (
@@ -39737,7 +39737,7 @@ outermostBuilder
 OptimizationLevel
 nextLevel
 =
-js_IonOptimizations
+IonOptimizations
 .
 nextLevel
 (
@@ -39749,7 +39749,7 @@ OptimizationInfo
 *
 info
 =
-js_IonOptimizations
+IonOptimizations
 .
 get
 (
