@@ -152,28 +152,6 @@ exes
 {
         
 '
-hgtool
-.
-py
-'
-:
-'
-%
-(
-abs_tools_dir
-)
-s
-/
-buildfarm
-/
-utils
-/
-hgtool
-.
-py
-'
-        
-'
 gittool
 .
 py
@@ -279,7 +257,7 @@ tools
 "
         
 "
-revision
+branch
 "
 :
 "
