@@ -554,9 +554,17 @@ AttachToTrack
 track
 )
 ;
+MarkActive
+(
+)
+;
 return
 ;
 }
+MarkInactive
+(
+)
+;
 }
 void
 MediaStreamAudioSourceNode
