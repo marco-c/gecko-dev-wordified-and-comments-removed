@@ -960,7 +960,7 @@ l10n
 lookup
 (
 "
-cmdSetdirManual3
+cmdSetdirManual2
 "
 )
 params

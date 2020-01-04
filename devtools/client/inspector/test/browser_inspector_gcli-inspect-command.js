@@ -87,9 +87,10 @@ Value
 required
 for
 \
-u2018selector
+'
+selector
 \
-u2019
+'
 .
 '
 }
