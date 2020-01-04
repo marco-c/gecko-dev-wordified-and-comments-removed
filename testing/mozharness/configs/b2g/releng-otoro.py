@@ -59,22 +59,6 @@ upload
 '
 upload
 '
-        
-'
-make
--
-socorro
--
-json
-'
-        
-'
-upload
--
-source
--
-manifest
-'
     
 ]
     
@@ -375,11 +359,17 @@ upload_remote_host
 "
 :
 "
-stage
+upload
 .
-mozilla
+ffxbld
 .
-org
+productdelivery
+.
+prod
+.
+mozaws
+.
+net
 "
             
 "
