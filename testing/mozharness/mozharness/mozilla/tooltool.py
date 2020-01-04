@@ -512,14 +512,40 @@ cache
 ]
 )
         
+if
+self
+.
+config
+.
+get
+(
+'
+mock_target
+'
+)
+:
+            
+cmd_runner
+=
+self
+.
+run_command_m
+        
+else
+:
+            
+cmd_runner
+=
+self
+.
+run_command
+        
 self
 .
 retry
 (
             
-self
-.
-run_command
+cmd_runner
             
 args
 =

@@ -81,6 +81,15 @@ tar
 xz
 "
 "
+setup
+"
+:
+"
+setup
+.
+sh
+"
+"
 unpack
 "
 :
