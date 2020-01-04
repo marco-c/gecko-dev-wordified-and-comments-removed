@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 nsPK11TokenDB
 =
