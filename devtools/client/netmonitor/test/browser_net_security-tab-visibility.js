@@ -112,10 +112,10 @@ true
 ]
 ;
 let
-[
+{
 tab
 monitor
-]
+}
 =
 yield
 initNetMonitor

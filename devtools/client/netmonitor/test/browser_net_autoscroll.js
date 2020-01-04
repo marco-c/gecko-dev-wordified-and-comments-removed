@@ -16,9 +16,9 @@ requestLongerTimeout
 )
 ;
 let
-[
+{
 monitor
-]
+}
 =
 yield
 initNetMonitor

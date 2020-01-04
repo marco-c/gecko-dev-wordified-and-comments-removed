@@ -26,10 +26,10 @@ SIMPLE_URL
 then
 (
 (
-[
+{
 tab
 monitor
-]
+}
 )
 =
 >

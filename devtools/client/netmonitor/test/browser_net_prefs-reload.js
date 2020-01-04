@@ -11,9 +11,9 @@ function
 )
 {
 let
-[
+{
 monitor
-]
+}
 =
 yield
 initNetMonitor
@@ -1093,9 +1093,7 @@ modifyFrontend
 )
 ;
 let
-[
 newMonitor
-]
 =
 yield
 restartNetMonitor
@@ -1106,6 +1104,8 @@ monitor
 monitor
 =
 newMonitor
+.
+monitor
 ;
 validateNewPrefValues
 (
@@ -1115,10 +1115,7 @@ resetFrontend
 (
 )
 ;
-let
-[
-newMonitor2
-]
+newMonitor
 =
 yield
 restartNetMonitor
@@ -1128,7 +1125,9 @@ monitor
 ;
 monitor
 =
-newMonitor2
+newMonitor
+.
+monitor
 ;
 validateFirstPrefValues
 (
@@ -1196,9 +1195,7 @@ modifyFrontend
 )
 ;
 let
-[
 newMonitor
-]
 =
 yield
 restartNetMonitor
@@ -1209,6 +1206,8 @@ monitor
 monitor
 =
 newMonitor
+.
+monitor
 ;
 validateNewPrefValues
 (
@@ -1218,10 +1217,7 @@ resetFrontend
 (
 )
 ;
-let
-[
-newMonitor2
-]
+newMonitor
 =
 yield
 restartNetMonitor
@@ -1231,7 +1227,9 @@ monitor
 ;
 monitor
 =
-newMonitor2
+newMonitor
+.
+monitor
 ;
 validateFirstPrefValues
 (
@@ -1299,9 +1297,7 @@ modifyFrontend
 )
 ;
 let
-[
 newMonitor
-]
 =
 yield
 restartNetMonitor
@@ -1312,6 +1308,8 @@ monitor
 monitor
 =
 newMonitor
+.
+monitor
 ;
 validateNewPrefValues
 (
@@ -1321,10 +1319,7 @@ resetFrontend
 (
 )
 ;
-let
-[
-newMonitor2
-]
+newMonitor
 =
 yield
 restartNetMonitor
@@ -1334,7 +1329,9 @@ monitor
 ;
 monitor
 =
-newMonitor2
+newMonitor
+.
+monitor
 ;
 validateFirstPrefValues
 (

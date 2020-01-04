@@ -71,10 +71,10 @@ local
 }
 ;
 let
-[
+{
 tab
 monitor
-]
+}
 =
 yield
 initNetMonitor

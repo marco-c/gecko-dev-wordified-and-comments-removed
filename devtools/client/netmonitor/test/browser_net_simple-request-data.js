@@ -16,10 +16,10 @@ SIMPLE_SJS
 then
 (
 (
-[
+{
 tab
 monitor
-]
+}
 )
 =
 >
