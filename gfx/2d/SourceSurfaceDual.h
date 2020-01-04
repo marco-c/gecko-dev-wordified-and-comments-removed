@@ -121,7 +121,12 @@ GetDataSurface
 )
 {
 return
-nullptr
+mA
+-
+>
+GetDataSurface
+(
+)
 ;
 }
 private
