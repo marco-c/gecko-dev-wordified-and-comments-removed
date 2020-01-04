@@ -1460,7 +1460,7 @@ null
 null
 )
 .
-spec
+specIgnoringRef
 ;
 }
 catch
@@ -1484,7 +1484,7 @@ null
 null
 )
 .
-spec
+specIgnoringRef
 ;
 }
 catch
