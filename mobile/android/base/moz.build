@@ -1173,11 +1173,6 @@ ActivityHandlerHelper
 java
 '
 '
-AlertNotification
-.
-java
-'
-'
 AndroidGamepadManager
 .
 java
