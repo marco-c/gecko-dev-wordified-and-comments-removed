@@ -2,8 +2,9 @@ from
 __future__
 import
 absolute_import
-print_function
 unicode_literals
+import
+logging
 import
 os
 import
@@ -605,6 +606,9 @@ outputHandler
 =
 OutputHandler
 (
+self
+.
+log
 )
             
 kp_kwargs
@@ -892,7 +896,7 @@ None
             
 timeout
 =
-1100
+1800
             
 try
 :
@@ -972,8 +976,34 @@ status
 =
 1
                     
-print
+self
+.
+log
 (
+logging
+.
+ERROR
+'
+valgrind
+-
+fail
+-
+parsing
+'
+                             
+{
+'
+errs
+'
+:
+errs
+'
+supps
+'
+:
+supps
+}
+                             
 '
 TEST
 -
@@ -989,22 +1019,18 @@ error
 parsing
 :
 {
+errs
 }
 errors
 seen
 but
 {
+supps
 }
 generated
 suppressions
 seen
 '
-.
-format
-(
-errs
-supps
-)
 )
                 
 elif
@@ -1018,8 +1044,21 @@ status
 =
 0
                     
-print
+self
+.
+log
 (
+logging
+.
+INFO
+'
+valgrind
+-
+pass
+'
+{
+}
+                             
 '
 TEST
 -
@@ -1054,8 +1093,29 @@ status
 =
 2
                     
-print
+self
+.
+log
 (
+logging
+.
+ERROR
+'
+valgrind
+-
+fail
+-
+timeout
+'
+                             
+{
+'
+timeout
+'
+:
+timeout
+}
+                             
 '
 TEST
 -
@@ -1073,16 +1133,12 @@ out
 (
 reached
 {
+timeout
 }
 second
 limit
 )
 '
-.
-format
-(
-timeout
-)
 )
                 
 elif
@@ -1096,8 +1152,23 @@ status
 =
 2
                     
-print
+self
+.
+log
 (
+logging
+.
+ERROR
+'
+valgrind
+-
+fail
+-
+errors
+'
+{
+}
+                             
 '
 TEST
 -
