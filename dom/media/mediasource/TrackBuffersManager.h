@@ -1250,7 +1250,7 @@ TrackData
 aTrackData
 )
 ;
-void
+size_t
 RemoveFrames
 (
 const
