@@ -363,13 +363,6 @@ browser
 /
 components
 /
-nsBrowserGlue
-.
-js
-browser
-/
-components
-/
 pocket
 /
 *
