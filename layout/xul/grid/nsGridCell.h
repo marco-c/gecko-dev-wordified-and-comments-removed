@@ -54,7 +54,7 @@ aBoxLayoutState
 )
 ;
 nsSize
-GetMaxSize
+GetXULMaxSize
 (
 nsBoxLayoutState
 &

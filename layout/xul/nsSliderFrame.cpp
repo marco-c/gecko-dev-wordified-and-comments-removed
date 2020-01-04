@@ -5990,7 +5990,7 @@ nsSize
 nsSliderFrame
 :
 :
-GetMaxSize
+GetXULMaxSize
 (
 nsBoxLayoutState
 &
@@ -6005,7 +6005,7 @@ return
 nsBoxFrame
 :
 :
-GetMaxSize
+GetXULMaxSize
 (
 aState
 )

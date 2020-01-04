@@ -3375,7 +3375,7 @@ min
 child
 -
 >
-GetMaxSize
+GetXULMaxSize
 (
 aState
 )

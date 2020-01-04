@@ -3147,7 +3147,7 @@ maxSize
 rootFrame
 -
 >
-GetMaxSize
+GetXULMaxSize
 (
 aState
 )

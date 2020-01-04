@@ -286,7 +286,7 @@ nsSize
 nsGridCell
 :
 :
-GetMaxSize
+GetXULMaxSize
 (
 nsBoxLayoutState
 &
@@ -311,7 +311,7 @@ max
 mBoxInColumn
 -
 >
-GetMaxSize
+GetXULMaxSize
 (
 aState
 )
@@ -355,7 +355,7 @@ max
 mBoxInRow
 -
 >
-GetMaxSize
+GetXULMaxSize
 (
 aState
 )

@@ -183,7 +183,7 @@ nsSize
 nsPlaceholderFrame
 :
 :
-GetMaxSize
+GetXULMaxSize
 (
 nsBoxLayoutState
 &

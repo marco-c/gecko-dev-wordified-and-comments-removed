@@ -6396,7 +6396,7 @@ aBoxLayoutState
 ;
 virtual
 nsSize
-GetMaxSize
+GetXULMaxSize
 (
 nsBoxLayoutState
 &

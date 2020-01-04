@@ -342,7 +342,7 @@ nsSize
 nsGridRowGroupLayout
 :
 :
-GetMaxSize
+GetXULMaxSize
 (
 nsIFrame
 *
@@ -358,7 +358,7 @@ maxSize
 nsGridRowLayout
 :
 :
-GetMaxSize
+GetXULMaxSize
 (
 aBox
 aState
