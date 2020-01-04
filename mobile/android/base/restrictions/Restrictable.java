@@ -178,11 +178,7 @@ GUEST_BROWSING
 "
 guest_browsing
 "
-R
-.
-string
-.
-restrictable_feature_guest_browsing
+0
 )
 ADVANCED_SETTINGS
 (

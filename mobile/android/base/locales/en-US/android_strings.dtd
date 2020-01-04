@@ -7739,15 +7739,6 @@ History
 <
 !
 ENTITY
-restrictable_feature_guest_browsing
-"
-Guest
-browsing
-"
->
-<
-!
-ENTITY
 restrictable_feature_advanced_settings
 "
 Advanced
