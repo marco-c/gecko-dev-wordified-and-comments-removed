@@ -2338,7 +2338,7 @@ mSelectionForTSF
 ;
 Selection
 &
-CurrentSelection
+SelectionForTSFRef
 (
 )
 ;

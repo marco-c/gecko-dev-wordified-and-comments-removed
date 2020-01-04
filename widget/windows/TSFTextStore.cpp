@@ -10684,7 +10684,7 @@ Selection
 &
 currentSel
 =
-CurrentSelection
+SelectionForTSFRef
 (
 )
 ;
@@ -10722,7 +10722,7 @@ due
 to
 "
 "
-CurrentSelection
+SelectionForTSFRef
 (
 )
 failure
@@ -10930,7 +10930,7 @@ Selection
 &
 currentSel
 =
-CurrentSelection
+SelectionForTSFRef
 (
 )
 ;
@@ -10968,7 +10968,7 @@ due
 to
 "
 "
-CurrentSelection
+SelectionForTSFRef
 (
 )
 failure
@@ -11400,7 +11400,7 @@ Selection
 TSFTextStore
 :
 :
-CurrentSelection
+SelectionForTSFRef
 (
 )
 {
@@ -11522,7 +11522,7 @@ p
 TSFTextStore
 :
 :
-CurrentSelection
+SelectionForTSFRef
 (
 )
 :
@@ -12672,7 +12672,7 @@ Selection
 &
 currentSelection
 =
-CurrentSelection
+SelectionForTSFRef
 (
 )
 ;
@@ -12854,7 +12854,7 @@ FAILED
 "
 due
 to
-CurrentSelection
+SelectionForTSFRef
 (
 )
 failure
@@ -13885,7 +13885,7 @@ Selection
 &
 currentSel
 =
-CurrentSelection
+SelectionForTSFRef
 (
 )
 ;
@@ -13923,7 +13923,7 @@ FAILED
 "
 due
 to
-CurrentSelection
+SelectionForTSFRef
 (
 )
 failure
@@ -14879,7 +14879,7 @@ Selection
 &
 currentSel
 =
-CurrentSelection
+SelectionForTSFRef
 (
 )
 ;
@@ -14917,7 +14917,7 @@ due
 to
 "
 "
-CurrentSelection
+SelectionForTSFRef
 (
 )
 failure
@@ -18657,7 +18657,7 @@ Selection
 &
 currentSelection
 =
-CurrentSelection
+SelectionForTSFRef
 (
 )
 ;
@@ -18706,7 +18706,7 @@ Selection
 &
 currentSelection
 =
-CurrentSelection
+SelectionForTSFRef
 (
 )
 ;
@@ -20410,7 +20410,7 @@ Selection
 &
 currentSel
 =
-CurrentSelection
+SelectionForTSFRef
 (
 )
 ;
@@ -22682,7 +22682,7 @@ Selection
 &
 currentSel
 =
-CurrentSelection
+SelectionForTSFRef
 (
 )
 ;
@@ -22720,7 +22720,7 @@ due
 to
 "
 "
-CurrentSelection
+SelectionForTSFRef
 (
 )
 failure
@@ -24191,7 +24191,7 @@ Selection
 &
 currentSel
 =
-CurrentSelection
+SelectionForTSFRef
 (
 )
 ;
@@ -24229,7 +24229,7 @@ FAILED
 "
 due
 to
-CurrentSelection
+SelectionForTSFRef
 (
 )
 failure
@@ -25481,7 +25481,7 @@ Selection
 &
 currentSel
 =
-CurrentSelection
+SelectionForTSFRef
 (
 )
 ;
@@ -25519,7 +25519,7 @@ due
 to
 "
 "
-CurrentSelection
+SelectionForTSFRef
 (
 )
 failure
@@ -25574,7 +25574,7 @@ s
 }
 "
 "
-CurrentSelection
+SelectionForTSFRef
 (
 )
 =
@@ -29826,7 +29826,7 @@ Selection
 &
 currentSel
 =
-CurrentSelection
+SelectionForTSFRef
 (
 )
 ;
@@ -29864,7 +29864,7 @@ due
 to
 "
 "
-CurrentSelection
+SelectionForTSFRef
 (
 )
 failure
