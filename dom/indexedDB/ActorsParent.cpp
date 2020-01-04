@@ -75609,7 +75609,7 @@ BindAdoptedBlobByName
 indexDataValuesString
 indexDataValues
 .
-get
+release
 (
 )
 indexDataValuesLength
@@ -75630,12 +75630,6 @@ return
 rv
 ;
 }
-indexDataValues
-.
-release
-(
-)
-;
 }
 else
 {
@@ -101230,11 +101224,6 @@ rv
 )
 )
 {
-free
-(
-compressed
-)
-;
 return
 rv
 ;
