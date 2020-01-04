@@ -10816,6 +10816,14 @@ tabChild
 GetInnerManager
 (
 )
+&
+&
+mFrameLoader
+-
+>
+GetExistingDocShell
+(
+)
 )
 {
 nsCOMPtr
