@@ -1588,6 +1588,17 @@ the
 URL
 bar
 .
+service
+Action
+triggered
+from
+an
+automatic
+system
+making
+a
+decision
+.
 settings
 Action
 triggered

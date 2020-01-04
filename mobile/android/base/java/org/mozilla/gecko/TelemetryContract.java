@@ -439,6 +439,12 @@ PANEL
 panel
 "
 )
+SERVICE
+(
+"
+service
+"
+)
 SETTINGS
 (
 "
