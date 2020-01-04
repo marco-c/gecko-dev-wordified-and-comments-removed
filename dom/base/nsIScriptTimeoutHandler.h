@@ -79,11 +79,12 @@ GetCallback
 0
 ;
 virtual
-const
-char16_t
-*
+void
 GetHandlerText
 (
+nsAString
+&
+aString
 )
 =
 0
