@@ -732,6 +732,14 @@ ShouldSuppressLineBreak
 aData
 -
 >
+mCurrentLine
++
+=
+1
+;
+aData
+-
+>
 ForceBreak
 (
 )
