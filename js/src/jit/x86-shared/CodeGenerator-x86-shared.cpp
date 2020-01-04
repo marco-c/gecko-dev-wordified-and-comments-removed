@@ -4740,6 +4740,14 @@ done
 )
 ;
 }
+if
+(
+nonzero
+.
+used
+(
+)
+)
 masm
 .
 bind
@@ -4750,7 +4758,7 @@ nonzero
 ;
 masm
 .
-bsr
+bsrl
 (
 input
 output
@@ -4873,6 +4881,14 @@ done
 )
 ;
 }
+if
+(
+nonzero
+.
+used
+(
+)
+)
 masm
 .
 bind
@@ -4883,7 +4899,7 @@ nonzero
 ;
 masm
 .
-bsf
+bsfl
 (
 input
 output
@@ -4947,7 +4963,7 @@ HasPOPCNT
 {
 masm
 .
-popcnt
+popcntl
 (
 input
 output

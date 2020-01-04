@@ -10810,7 +10810,7 @@ kind
 }
 }
 void
-bsr
+bsrl
 (
 const
 Register
@@ -10824,7 +10824,7 @@ dest
 {
 masm
 .
-bsr_rr
+bsrl_rr
 (
 src
 .
@@ -10840,7 +10840,7 @@ encoding
 ;
 }
 void
-bsf
+bsfl
 (
 const
 Register
@@ -10854,7 +10854,7 @@ dest
 {
 masm
 .
-bsf_rr
+bsfl_rr
 (
 src
 .
@@ -10870,7 +10870,7 @@ encoding
 ;
 }
 void
-popcnt
+popcntl
 (
 const
 Register
@@ -10884,7 +10884,7 @@ dest
 {
 masm
 .
-popcnt_rr
+popcntl_rr
 (
 src
 .

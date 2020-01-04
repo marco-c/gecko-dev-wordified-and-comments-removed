@@ -7955,7 +7955,7 @@ GROUP2_OP_ROR
 ;
 }
 void
-bsr_rr
+bsrl_rr
 (
 RegisterID
 src
@@ -7966,7 +7966,7 @@ dst
 spew
 (
 "
-bsr
+bsrl
 %
 s
 %
@@ -7993,7 +7993,7 @@ dst
 ;
 }
 void
-bsf_rr
+bsfl_rr
 (
 RegisterID
 src
@@ -8004,7 +8004,7 @@ dst
 spew
 (
 "
-bsf
+bsfl
 %
 s
 %
@@ -8031,7 +8031,7 @@ dst
 ;
 }
 void
-popcnt_rr
+popcntl_rr
 (
 RegisterID
 src
@@ -8042,7 +8042,7 @@ dst
 spew
 (
 "
-popcnt
+popcntl
 %
 s
 %
