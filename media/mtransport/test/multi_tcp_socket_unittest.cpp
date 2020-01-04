@@ -500,6 +500,11 @@ NS_SUCCEEDED
 ice_ctx_
 -
 >
+ctx
+(
+)
+-
+>
 SetStunServers
 (
 stun_servers
@@ -568,6 +573,11 @@ r
 nr_socket_multi_tcp_create
 (
 ice_ctx_
+-
+>
+ctx
+(
+)
 -
 >
 ctx
@@ -1843,7 +1853,7 @@ readable
 ;
 RefPtr
 <
-NrIceCtx
+NrIceCtxHandler
 >
 ice_ctx_
 ;

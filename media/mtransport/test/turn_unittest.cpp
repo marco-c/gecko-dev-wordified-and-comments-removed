@@ -279,7 +279,7 @@ SetUpTestCase
 NrIceCtx
 :
 :
-InitializeCryptoAndLogging
+InitializeGlobals
 (
 false
 false
