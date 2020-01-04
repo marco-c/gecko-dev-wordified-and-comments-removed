@@ -758,6 +758,8 @@ template
 typename
 Function
 >
+already_AddRefed
+<
 nsRunnableFunction
 <
 typename
@@ -772,7 +774,7 @@ Function
 :
 Type
 >
-*
+>
 NS_NewRunnableFunction
 (
 Function
@@ -782,6 +784,8 @@ aFunction
 )
 {
 return
+do_AddRef
+(
 new
 nsRunnableFunction
 <
@@ -807,6 +811,7 @@ Function
 >
 (
 aFunction
+)
 )
 )
 ;
