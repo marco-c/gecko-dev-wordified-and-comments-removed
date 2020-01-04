@@ -2485,7 +2485,7 @@ true
 ;
 aWheelEvent
 .
-overflowDeltaX
+mOverflowDeltaX
 =
 0
 .

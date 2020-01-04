@@ -7754,7 +7754,7 @@ false
 aWheelEvent
 -
 >
-overflowDeltaX
+mOverflowDeltaX
 =
 0
 ;

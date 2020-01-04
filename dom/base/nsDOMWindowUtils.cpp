@@ -3713,7 +3713,7 @@ WHEEL_EVENT_EXPECTED_OVERFLOW_DELTA_X_ZERO
 &
 wheelEvent
 .
-overflowDeltaX
+mOverflowDeltaX
 !
 =
 0
@@ -3735,7 +3735,7 @@ WHEEL_EVENT_EXPECTED_OVERFLOW_DELTA_X_POSITIVE
 &
 wheelEvent
 .
-overflowDeltaX
+mOverflowDeltaX
 <
 =
 0
@@ -3757,7 +3757,7 @@ WHEEL_EVENT_EXPECTED_OVERFLOW_DELTA_X_NEGATIVE
 &
 wheelEvent
 .
-overflowDeltaX
+mOverflowDeltaX
 >
 =
 0
@@ -3856,14 +3856,14 @@ SendWheelEvent
 )
 :
 unexpected
-overflowDeltaX
+mOverflowDeltaX
 :
 %
 f
 "
 wheelEvent
 .
-overflowDeltaX
+mOverflowDeltaX
 )
 ;
 NS_WARNING
