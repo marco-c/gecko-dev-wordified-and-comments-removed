@@ -193,6 +193,9 @@ sessionrestore
 "
 sessionrestore_no_auto_restore
 "
+"
+tabpaint
+"
 ]
 }
 "
@@ -221,6 +224,9 @@ sessionrestore
 "
 "
 sessionrestore_no_auto_restore
+"
+"
+tabpaint
 "
 ]
 "
@@ -260,6 +266,9 @@ sessionrestore
 "
 sessionrestore_no_auto_restore
 "
+"
+tabpaint
+"
 ]
 }
 "
@@ -288,6 +297,9 @@ sessionrestore
 "
 "
 sessionrestore_no_auto_restore
+"
+"
+tabpaint
 "
 ]
 "
@@ -327,6 +339,9 @@ sessionrestore
 "
 sessionrestore_no_auto_restore
 "
+"
+tabpaint
+"
 ]
 }
 "
@@ -355,6 +370,9 @@ sessionrestore
 "
 "
 sessionrestore_no_auto_restore
+"
+"
+tabpaint
 "
 ]
 "
