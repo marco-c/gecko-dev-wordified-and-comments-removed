@@ -6697,8 +6697,7 @@ autocomplete
 autocompletesearch
 =
 "
-urlinline
-history
+unifiedcomplete
 "
 autocompletesearchparam
 =
