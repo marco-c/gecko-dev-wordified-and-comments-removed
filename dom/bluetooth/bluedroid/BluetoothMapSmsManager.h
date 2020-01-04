@@ -327,6 +327,15 @@ aHeader
 )
 ;
 void
+HandleSmsMmsGetMessage
+(
+const
+ObexHeaderSet
+&
+aHeader
+)
+;
+void
 AppendBtNamedValueByTagId
 (
 const
