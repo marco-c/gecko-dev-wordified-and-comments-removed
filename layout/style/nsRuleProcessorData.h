@@ -89,6 +89,17 @@ GuardObjects
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
 class
 nsIAtom
 ;
