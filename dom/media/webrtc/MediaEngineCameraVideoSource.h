@@ -370,6 +370,7 @@ CaptureCapability
 aOut
 )
 ;
+virtual
 bool
 ChooseCapability
 (
