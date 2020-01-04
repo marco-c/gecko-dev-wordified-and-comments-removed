@@ -861,10 +861,6 @@ index
 "
 "
 valueIterableMembers
-               
-numProductions
-=
-2
 )
     
 shouldPass

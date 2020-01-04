@@ -42949,6 +42949,12 @@ break
             
 if
 iterable
+and
+iterable
+.
+isPairIterator
+(
+)
 :
                 
 def
