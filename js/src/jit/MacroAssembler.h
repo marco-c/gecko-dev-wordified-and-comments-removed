@@ -1950,6 +1950,16 @@ Register
 callee
 )
 ;
+inline
+void
+makeFrameDescriptor
+(
+Register
+frameSizeReg
+FrameType
+type
+)
+;
 public
 :
 template
