@@ -10109,35 +10109,6 @@ DISABLE_UNSAFE_CPOW_WARNINGS
 1
 "
         
-if
-mozinfo
-.
-info
-.
-get
-(
-'
-toolkit
-'
-)
-=
-=
-'
-gtk3
-'
-:
-            
-browserEnv
-[
-"
-GDK_CORE_DEVICE_EVENTS
-"
-]
-=
-"
-1
-"
-        
 return
 browserEnv
     
