@@ -864,6 +864,11 @@ SetArrayLength
 \
 _
 (
+GetNextMapEntryForIterator
+)
+\
+_
+(
 TypedArrayLength
 )
 \

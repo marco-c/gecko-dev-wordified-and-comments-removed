@@ -4339,6 +4339,14 @@ MIRType
 knownValueType
 )
 ;
+InliningStatus
+inlineGetNextMapEntryForIterator
+(
+CallInfo
+&
+callInfo
+)
+;
 enum
 WrappingBehavior
 {

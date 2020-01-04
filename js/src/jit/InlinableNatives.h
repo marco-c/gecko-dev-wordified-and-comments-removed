@@ -474,6 +474,12 @@ IntrinsicIsListIterator
 \
 _
 (
+IntrinsicGetNextMapEntryForIterator
+)
+\
+\
+_
+(
 IntrinsicIsTypedArray
 )
 \
