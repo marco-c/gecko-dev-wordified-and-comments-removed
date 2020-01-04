@@ -205,6 +205,15 @@ const
 override
 ;
 void
+NotifyAnimationUpdated
+(
+Animation
+&
+aAnimation
+)
+override
+;
+void
 WillRefresh
 (
 TimeStamp
