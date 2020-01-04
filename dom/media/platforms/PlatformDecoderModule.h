@@ -355,6 +355,10 @@ static
 bool
 sGMPDecoderEnabled
 ;
+static
+bool
+sEnableFuzzingWrapper
+;
 }
 ;
 class
