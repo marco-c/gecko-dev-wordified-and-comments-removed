@@ -599,14 +599,14 @@ item
 name
 =
 "
-menuItemSwitcherLayoutStyle
+menuItemActionViewStyle
 "
 >
 style
 /
 Widget
 .
-MenuItemSwitcherLayout
+MenuItemActionView
 <
 /
 item
