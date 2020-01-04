@@ -20834,9 +20834,6 @@ WorkerPrivate
 :
 AddChildWorker
 (
-JSContext
-*
-aCx
 ParentType
 *
 aChildWorker
@@ -20926,9 +20923,6 @@ WorkerPrivate
 :
 RemoveChildWorker
 (
-JSContext
-*
-aCx
 ParentType
 *
 aChildWorker
