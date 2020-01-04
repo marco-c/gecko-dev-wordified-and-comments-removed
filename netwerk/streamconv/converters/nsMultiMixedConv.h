@@ -175,6 +175,15 @@ nsACString
 aPreamble
 )
 ;
+void
+SetOriginalResponseHeader
+(
+const
+nsACString
+&
+aOriginalResponseHeader
+)
+;
 nsresult
 SendOnStartRequest
 (
@@ -322,6 +331,9 @@ mIsLastPart
 ;
 nsCString
 mPreamble
+;
+nsCString
+mOriginalResponseHeader
 ;
 }
 ;
@@ -524,6 +536,9 @@ mIsFromCache
 ;
 nsCString
 mPreamble
+;
+nsCString
+mOriginalResponseHeader
 ;
 }
 ;
