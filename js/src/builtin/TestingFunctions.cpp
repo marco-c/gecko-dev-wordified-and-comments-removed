@@ -17565,6 +17565,15 @@ cx
 global
 )
 ;
+JS
+:
+:
+RootedValue
+rval
+(
+cx
+)
+;
 if
 (
 !
@@ -17575,6 +17584,8 @@ CloneAndExecuteScript
 (
 cx
 script
+&
+rval
 )
 )
 return
