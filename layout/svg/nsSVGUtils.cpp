@@ -2789,7 +2789,7 @@ maskFrame
 =
 effectProperties
 .
-GetMaskFrame
+GetFirstMaskFrame
 (
 &
 isOK

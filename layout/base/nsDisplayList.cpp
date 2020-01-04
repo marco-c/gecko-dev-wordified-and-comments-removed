@@ -34083,10 +34083,8 @@ if
 (
 effectProperties
 .
-GetMaskFrame
+GetFirstMaskFrame
 (
-&
-isOK
 )
 )
 {
