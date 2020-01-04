@@ -3239,11 +3239,6 @@ ErrorDocs
 GetURL
 (
 error
-&
-&
-error
-.
-errorMessageName
 )
 ;
 }
@@ -5239,6 +5234,14 @@ errorMessageName
 aPageError
 .
 errorMessageName
+exceptionDocURL
+:
+ErrorDocs
+.
+GetURL
+(
+aPageError
+)
 sourceName
 :
 aPageError

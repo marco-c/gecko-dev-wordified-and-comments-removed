@@ -1441,7 +1441,9 @@ ErrorDocs
 .
 GetURL
 (
+{
 errorMessageName
+}
 )
 ;
 jsterm
