@@ -288,6 +288,16 @@ text
 )
 override
 ;
+private
+:
+nsresult
+SetMetaReferrer
+(
+nsIDocument
+*
+aDocument
+)
+;
 }
 ;
 }
