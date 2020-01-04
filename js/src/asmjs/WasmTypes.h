@@ -4560,6 +4560,15 @@ cx
 )
 ;
 bool
+clone
+(
+const
+Assumptions
+&
+other
+)
+;
+bool
 operator
 =
 =
