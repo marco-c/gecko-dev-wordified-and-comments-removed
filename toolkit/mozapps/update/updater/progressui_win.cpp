@@ -650,6 +650,8 @@ hWndInfo
 HFONT
 hInfoFont
 hOldFont
+=
+NULL
 ;
 hInfoFont
 =
