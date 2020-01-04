@@ -203,6 +203,8 @@ nsACString
 &
 aMimeType
 )
+=
+0
 ;
 enum
 ConversionRequired
