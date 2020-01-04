@@ -406,9 +406,9 @@ w3c_touch_events
 enabled
 "
 )
+!
 =
-=
-1
+0
 )
 {
 if
