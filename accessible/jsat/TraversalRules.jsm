@@ -210,6 +210,13 @@ if
 (
 aRoles
 .
+length
+)
+{
+if
+(
+aRoles
+.
 indexOf
 (
 Roles
@@ -258,6 +265,7 @@ INTERNAL_FRAME
 )
 ;
 }
+}
 this
 .
 _matchFunc
@@ -296,10 +304,10 @@ getMatchRoles
 function
 BaseTraversalRule_getmatchRoles
 (
-aRules
+aRoles
 )
 {
-aRules
+aRoles
 .
 value
 =
@@ -308,7 +316,7 @@ this
 _matchRoles
 ;
 return
-aRules
+aRoles
 .
 value
 .
@@ -368,6 +376,7 @@ IGNORE
 let
 matchResult
 =
+(
 this
 .
 _explicitMatchRoles
@@ -375,6 +384,15 @@ _explicitMatchRoles
 has
 (
 role
+)
+|
+|
+!
+this
+.
+_explicitMatchRoles
+.
+size
 )
 ?
 this
