@@ -1041,6 +1041,10 @@ loop
 OTSdkDriver
 (
 {
+constants
+:
+{
+}
 useDataChannels
 :
 true
@@ -1065,9 +1069,6 @@ ActiveRoomStore
 (
 dispatcher
 {
-mozLoop
-:
-standaloneMozLoop
 sdkDriver
 :
 sdkDriver

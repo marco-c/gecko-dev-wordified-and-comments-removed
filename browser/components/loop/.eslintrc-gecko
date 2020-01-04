@@ -168,7 +168,7 @@ HawkClient
 :
 false
 "
-injectLoopAPI
+hookWindowCloseForPanelClose
 "
 :
 true
@@ -189,6 +189,11 @@ log
 true
 "
 LOOP_SESSION_TYPE
+"
+:
+true
+"
+LoopAPI
 "
 :
 true

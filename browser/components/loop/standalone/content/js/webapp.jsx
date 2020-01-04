@@ -1191,6 +1191,10 @@ display
 the
 UI
 .
+constants
+:
+{
+}
 useDataChannels
 :
 true
@@ -1215,9 +1219,6 @@ ActiveRoomStore
 (
 dispatcher
 {
-mozLoop
-:
-standaloneMozLoop
 sdkDriver
 :
 sdkDriver
