@@ -1887,14 +1887,6 @@ installed
 <
 !
 ENTITY
-pref_category_logins
-"
-Logins
-"
->
-<
-!
-ENTITY
 pref_remember_signons2
 "
 Remember
