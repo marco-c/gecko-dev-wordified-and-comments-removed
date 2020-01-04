@@ -3258,6 +3258,15 @@ mSuggestionsOptInPrompt
 null
 )
 {
+mSuggestionsOptInPrompt
+.
+setVisibility
+(
+View
+.
+VISIBLE
+)
+;
 return
 ;
 }
