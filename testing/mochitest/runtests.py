@@ -144,28 +144,11 @@ import
 Addons
 except
 ImportError
-e
 :
-    
-def
-reraise
-(
-*
-args
-*
-*
-kwargs
-)
-:
-        
-raise
-(
-e
-)
     
 Marionette
 =
-reraise
+None
 from
 leaks
 import
@@ -17347,17 +17330,9 @@ dirlist
 def
 run_test_harness
 (
-parser
 options
 )
 :
-    
-parser
-.
-validate
-(
-options
-)
     
 logger_options
 =
@@ -17715,7 +17690,6 @@ exit
 return
 run_test_harness
 (
-parser
 options
 )
 if
