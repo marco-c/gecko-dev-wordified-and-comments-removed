@@ -5230,7 +5230,7 @@ PlainObject
 )
 )
 {
-MOZ_ASSERT
+if
 (
 newObj
 -
@@ -5245,7 +5245,7 @@ PlainObject
 lastProperty
 (
 )
-=
+!
 =
 oldObj
 -
@@ -5261,6 +5261,8 @@ lastProperty
 (
 )
 )
+return
+true
 ;
 for
 (
