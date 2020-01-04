@@ -97,9 +97,14 @@ BASE_SUBSTS
 '
 PYTHON
 '
+mozpath
+.
+normsep
+(
 sys
 .
 executable
+)
 )
 ]
 class
