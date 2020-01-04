@@ -1192,7 +1192,7 @@ filename
 =
 iter
 .
-scriptFilename
+filename
 (
 )
 ;

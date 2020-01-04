@@ -705,7 +705,7 @@ FramePushedForEntrySP
 ;
 masm
 .
-loadAsmJSActivation
+loadWasmActivation
 (
 scratch
 )
@@ -717,7 +717,7 @@ storeStackPtr
 Address
 (
 scratch
-AsmJSActivation
+WasmActivation
 :
 :
 offsetOfEntrySP
@@ -1252,7 +1252,7 @@ target
 ;
 masm
 .
-loadAsmJSActivation
+loadWasmActivation
 (
 scratch
 )
@@ -1264,7 +1264,7 @@ loadStackPtr
 Address
 (
 scratch
-AsmJSActivation
+WasmActivation
 :
 :
 offsetOfEntrySP
@@ -3204,7 +3204,7 @@ offsetOfProfilingActivation
 ;
 masm
 .
-loadAsmJSActivation
+loadWasmActivation
 (
 reg0
 )
@@ -3216,7 +3216,7 @@ loadPtr
 Address
 (
 reg0
-AsmJSActivation
+WasmActivation
 :
 :
 offsetOfContext
@@ -4489,7 +4489,7 @@ NonArgReturnReg0
 ;
 masm
 .
-loadAsmJSActivation
+loadWasmActivation
 (
 activation
 )
@@ -4506,7 +4506,7 @@ getStackPointer
 Address
 (
 activation
-AsmJSActivation
+WasmActivation
 :
 :
 offsetOfFP
@@ -5097,7 +5097,7 @@ NonArgReturnReg0
 ;
 masm
 .
-loadAsmJSActivation
+loadWasmActivation
 (
 scratch
 )
@@ -5109,7 +5109,7 @@ loadPtr
 Address
 (
 scratch
-AsmJSActivation
+WasmActivation
 :
 :
 offsetOfResumePC
@@ -5309,7 +5309,7 @@ ABIStackAlignment
 ;
 masm
 .
-loadAsmJSActivation
+loadWasmActivation
 (
 IntArgReg0
 )
@@ -5321,7 +5321,7 @@ loadPtr
 Address
 (
 IntArgReg0
-AsmJSActivation
+WasmActivation
 :
 :
 offsetOfResumePC
@@ -5520,7 +5520,7 @@ sp
 ;
 masm
 .
-loadAsmJSActivation
+loadWasmActivation
 (
 IntArgReg0
 )
@@ -5532,7 +5532,7 @@ loadPtr
 Address
 (
 IntArgReg0
-AsmJSActivation
+WasmActivation
 :
 :
 offsetOfResumePC
@@ -5893,7 +5893,7 @@ NonArgReturnReg0
 ;
 masm
 .
-loadAsmJSActivation
+loadWasmActivation
 (
 scratch
 )
@@ -5909,7 +5909,7 @@ ImmWord
 Address
 (
 scratch
-AsmJSActivation
+WasmActivation
 :
 :
 offsetOfFP
@@ -5932,7 +5932,7 @@ loadStackPtr
 Address
 (
 scratch
-AsmJSActivation
+WasmActivation
 :
 :
 offsetOfEntrySP

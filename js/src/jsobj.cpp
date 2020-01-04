@@ -21367,12 +21367,12 @@ I
 :
 i
 .
-isAsmJS
+isWasm
 (
 )
 ?
 '
-A
+W
 '
 :
 '

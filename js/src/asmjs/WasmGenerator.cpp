@@ -2400,8 +2400,15 @@ Module
 :
 SharedBool
 sharedHeap
-UniqueChars
+Module
+:
+:
+MutedBool
+mutedErrors
+CacheableChars
 filename
+CacheableTwoByteChars
+displayURL
 UniqueStaticLinkData
 *
 staticLinkData
@@ -3047,6 +3054,7 @@ codeBytes
 globalBytes_
 usesHeap
 sharedHeap
+mutedErrors
 Move
 (
 code
@@ -3079,6 +3087,10 @@ funcNames_
 Move
 (
 filename
+)
+Move
+(
+displayURL
 )
 )
 ;

@@ -630,7 +630,7 @@ profilerSampleBufferLapCount_
 (
 1
 )
-asmJSActivationStack_
+wasmActivationStack_
 (
 nullptr
 )

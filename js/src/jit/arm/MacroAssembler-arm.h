@@ -12159,7 +12159,7 @@ label
 )
 ;
 void
-loadAsmJSActivation
+loadWasmActivation
 (
 Register
 dest

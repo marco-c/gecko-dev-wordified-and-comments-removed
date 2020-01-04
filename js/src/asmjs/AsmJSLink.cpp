@@ -4463,11 +4463,11 @@ false
 ;
 }
 {
-AsmJSActivation
+WasmActivation
 activation
 (
 cx
-asmJSModule
+module
 )
 ;
 JitActivation

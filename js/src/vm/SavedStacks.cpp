@@ -6549,7 +6549,7 @@ displayURL
 =
 iter
 .
-scriptDisplayURL
+displayURL
 (
 )
 )
@@ -6579,13 +6579,13 @@ filename
 =
 iter
 .
-scriptFilename
+filename
 (
 )
 ?
 iter
 .
-scriptFilename
+filename
 (
 )
 :
@@ -6713,7 +6713,7 @@ displayURL
 =
 iter
 .
-scriptDisplayURL
+displayURL
 (
 )
 )

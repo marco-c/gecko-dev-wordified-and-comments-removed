@@ -1027,7 +1027,7 @@ if
 act
 -
 >
-isAsmJS
+isWasm
 (
 )
 )
@@ -1043,7 +1043,7 @@ not
 yet
 supported
 in
-asmjs
+wasm
 code
 "
 )

@@ -5091,7 +5091,7 @@ MOZ_CRASH
 ;
 }
 void
-loadAsmJSActivation
+loadWasmActivation
 (
 Register
 )

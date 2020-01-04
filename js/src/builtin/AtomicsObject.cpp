@@ -44,7 +44,7 @@ include
 "
 asmjs
 /
-AsmJSModule
+WasmModule
 .
 h
 "
@@ -3060,16 +3060,12 @@ module
 rt
 -
 >
-asmJSActivationStack
+wasmActivationStack
 (
 )
 -
 >
 module
-(
-)
-.
-wasm
 (
 )
 ;

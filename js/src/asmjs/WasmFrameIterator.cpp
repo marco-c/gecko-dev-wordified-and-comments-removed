@@ -19,7 +19,7 @@ include
 "
 asmjs
 /
-AsmJSModule
+WasmModule
 .
 h
 "
@@ -154,7 +154,7 @@ FrameIterator
 FrameIterator
 (
 const
-AsmJSActivation
+WasmActivation
 &
 activation
 )
@@ -173,10 +173,6 @@ module_
 activation
 .
 module
-(
-)
-.
-wasm
 (
 )
 )
@@ -988,7 +984,7 @@ begin
 ;
 masm
 .
-loadAsmJSActivation
+loadWasmActivation
 (
 scratch
 )
@@ -1000,7 +996,7 @@ push
 Address
 (
 scratch
-AsmJSActivation
+WasmActivation
 :
 :
 offsetOfFP
@@ -1044,7 +1040,7 @@ getStackPointer
 Address
 (
 scratch
-AsmJSActivation
+WasmActivation
 :
 :
 offsetOfFP
@@ -1102,7 +1098,7 @@ reason
 Address
 (
 scratch
-AsmJSActivation
+WasmActivation
 :
 :
 offsetOfExitReason
@@ -1217,7 +1213,7 @@ framePushed
 ;
 masm
 .
-loadAsmJSActivation
+loadWasmActivation
 (
 scratch
 )
@@ -1250,7 +1246,7 @@ None
 Address
 (
 scratch
-AsmJSActivation
+WasmActivation
 :
 :
 offsetOfExitReason
@@ -1326,7 +1322,7 @@ scratch2
 Address
 (
 scratch
-AsmJSActivation
+WasmActivation
 :
 :
 offsetOfFP
@@ -1390,7 +1386,7 @@ pop
 Address
 (
 scratch
-AsmJSActivation
+WasmActivation
 :
 :
 offsetOfFP
@@ -1901,7 +1897,7 @@ ProfilingFrameIterator
 ProfilingFrameIterator
 (
 const
-AsmJSActivation
+WasmActivation
 &
 activation
 )
@@ -1912,10 +1908,6 @@ module_
 activation
 .
 module
-(
-)
-.
-wasm
 (
 )
 )
@@ -2083,7 +2075,7 @@ ProfilingFrameIterator
 initFromFP
 (
 const
-AsmJSActivation
+WasmActivation
 &
 activation
 )
@@ -2297,7 +2289,7 @@ ProfilingFrameIterator
 ProfilingFrameIterator
 (
 const
-AsmJSActivation
+WasmActivation
 &
 activation
 const
@@ -2312,10 +2304,6 @@ module_
 activation
 .
 module
-(
-)
-.
-wasm
 (
 )
 )

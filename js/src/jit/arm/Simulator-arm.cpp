@@ -68,15 +68,6 @@ h
 #
 include
 "
-asmjs
-/
-AsmJSValidate
-.
-h
-"
-#
-include
-"
 jit
 /
 arm
@@ -27266,7 +27257,7 @@ rpc
 JSRuntime
 :
 :
-innermostAsmJSActivation
+innermostWasmActivation
 (
 )
 -
