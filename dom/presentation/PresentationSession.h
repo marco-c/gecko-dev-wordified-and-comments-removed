@@ -130,6 +130,17 @@ aRv
 void
 Close
 (
+ErrorResult
+&
+aRv
+)
+;
+void
+Terminate
+(
+ErrorResult
+&
+aRv
 )
 ;
 IMPL_EVENT_HANDLER

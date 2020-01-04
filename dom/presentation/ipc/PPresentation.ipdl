@@ -154,7 +154,15 @@ data
 }
 ;
 struct
-TerminateRequest
+CloseSessionRequest
+{
+nsString
+sessionId
+;
+}
+;
+struct
+TerminateSessionRequest
 {
 nsString
 sessionId
@@ -168,7 +176,9 @@ StartSessionRequest
 ;
 SendSessionMessageRequest
 ;
-TerminateRequest
+CloseSessionRequest
+;
+TerminateSessionRequest
 ;
 }
 ;

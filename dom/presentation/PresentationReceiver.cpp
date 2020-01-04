@@ -728,7 +728,7 @@ aSessionId
 PresentationSessionState
 :
 :
-Disconnected
+Closed
 )
 ;
 if
