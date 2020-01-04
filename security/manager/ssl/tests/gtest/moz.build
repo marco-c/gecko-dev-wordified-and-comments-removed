@@ -108,6 +108,11 @@ DeserializeCertTest
 cpp
 '
 '
+MD4Test
+.
+cpp
+'
+'
 OCSPCacheTest
 .
 cpp
