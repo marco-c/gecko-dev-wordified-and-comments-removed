@@ -32576,7 +32576,7 @@ BlockScopeNote
 NoBlockScopeIndex
 )
 {
-ScopeObject
+StaticScopeObject
 *
 scope
 =
@@ -32592,7 +32592,7 @@ scopeIndex
 >
 as
 <
-ScopeObject
+StaticScopeObject
 >
 (
 )
@@ -32610,7 +32610,6 @@ JSObject
 *
 enclosing
 =
-&
 scope
 -
 >

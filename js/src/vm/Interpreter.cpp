@@ -20062,7 +20062,7 @@ JSOP_POPBLOCKSCOPE
 #
 ifdef
 DEBUG
-NestedScopeObject
+NestedStaticScopeObject
 *
 scope
 =
@@ -26259,7 +26259,7 @@ name
 {
 Rooted
 <
-NestedScopeObject
+NestedStaticScopeObject
 *
 >
 scope

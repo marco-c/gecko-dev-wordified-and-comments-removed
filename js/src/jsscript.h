@@ -222,7 +222,10 @@ class
 ModuleObject
 ;
 class
-NestedScopeObject
+NestedStaticScopeObject
+;
+class
+StaticScopeObject
 ;
 class
 RegExpObject
@@ -7518,7 +7521,7 @@ index
 js
 :
 :
-NestedScopeObject
+NestedStaticScopeObject
 *
 getStaticBlockScope
 (
@@ -10343,7 +10346,7 @@ JSContext
 cx
 Handle
 <
-ScopeObject
+StaticScopeObject
 *
 >
 enclosingScope

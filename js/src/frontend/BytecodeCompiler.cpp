@@ -206,7 +206,7 @@ SourceBufferHolder
 sourceBuffer
 Handle
 <
-ScopeObject
+StaticScopeObject
 *
 >
 enclosingStaticScope
@@ -455,7 +455,7 @@ sourceBuffer
 ;
 Rooted
 <
-ScopeObject
+StaticScopeObject
 *
 >
 enclosingStaticScope
@@ -601,7 +601,7 @@ SourceBufferHolder
 sourceBuffer
 Handle
 <
-ScopeObject
+StaticScopeObject
 *
 >
 enclosingStaticScope
@@ -3260,7 +3260,7 @@ HandleObject
 scopeChain
 Handle
 <
-ScopeObject
+StaticScopeObject
 *
 >
 enclosingStaticScope
@@ -3436,7 +3436,7 @@ true
 ;
 Rooted
 <
-ScopeObject
+StaticScopeObject
 *
 >
 staticScope
@@ -3897,7 +3897,7 @@ SourceBufferHolder
 srcBuf
 Handle
 <
-ScopeObject
+StaticScopeObject
 *
 >
 enclosingStaticScope
@@ -3975,7 +3975,7 @@ SourceBufferHolder
 srcBuf
 Handle
 <
-ScopeObject
+StaticScopeObject
 *
 >
 enclosingStaticScope
@@ -4024,7 +4024,7 @@ srcBuf
 {
 Rooted
 <
-ScopeObject
+StaticScopeObject
 *
 >
 staticLexical
@@ -4091,7 +4091,7 @@ srcBuf
 {
 Rooted
 <
-ScopeObject
+StaticScopeObject
 *
 >
 staticLexical

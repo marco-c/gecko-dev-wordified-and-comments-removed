@@ -17173,7 +17173,7 @@ MutableHandleObject
 dynamicScopeObj
 MutableHandle
 <
-ScopeObject
+StaticScopeObject
 *
 >
 staticScopeObj
@@ -17474,7 +17474,7 @@ HandleObject
 dynamicScope
 Handle
 <
-ScopeObject
+StaticScopeObject
 *
 >
 staticScope
@@ -17767,27 +17767,20 @@ return
 clone
 ;
 }
-namespace
-JS
-{
 JS_PUBLIC_API
 (
 JSObject
 *
 )
+JS
+:
+:
 CloneFunctionObject
 (
 JSContext
 *
 cx
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
+HandleObject
 funobj
 )
 {
@@ -17815,7 +17808,7 @@ lexicalScope
 ;
 Rooted
 <
-ScopeObject
+StaticScopeObject
 *
 >
 staticLexical
@@ -17846,6 +17839,9 @@ JS_PUBLIC_API
 JSObject
 *
 )
+JS
+:
+:
 CloneFunctionObject
 (
 JSContext
@@ -17866,7 +17862,7 @@ cx
 ;
 Rooted
 <
-ScopeObject
+StaticScopeObject
 *
 >
 staticScope
@@ -17899,7 +17895,6 @@ dynamicScope
 staticScope
 )
 ;
-}
 }
 JS_PUBLIC_API
 (
@@ -19607,7 +19602,7 @@ cx
 ;
 Rooted
 <
-ScopeObject
+StaticScopeObject
 *
 >
 staticScope
@@ -21027,7 +21022,7 @@ HandleObject
 enclosingDynamicScope
 Handle
 <
-ScopeObject
+StaticScopeObject
 *
 >
 enclosingStaticScope
@@ -21306,7 +21301,7 @@ cx
 ;
 Rooted
 <
-ScopeObject
+StaticScopeObject
 *
 >
 staticScopeObj
@@ -21855,7 +21850,7 @@ cx
 ;
 Rooted
 <
-ScopeObject
+StaticScopeObject
 *
 >
 staticScope
@@ -22164,7 +22159,7 @@ compartment
 {
 Rooted
 <
-ScopeObject
+StaticScopeObject
 *
 >
 staticLexical
@@ -22239,7 +22234,7 @@ HandleObject
 scope
 Handle
 <
-ScopeObject
+StaticScopeObject
 *
 >
 staticScope
@@ -22499,7 +22494,7 @@ cx
 ;
 Rooted
 <
-ScopeObject
+StaticScopeObject
 *
 >
 staticScope
@@ -22593,7 +22588,7 @@ lexicalScope
 ;
 Rooted
 <
-ScopeObject
+StaticScopeObject
 *
 >
 staticLexical
@@ -22734,7 +22729,7 @@ lexicalScope
 ;
 Rooted
 <
-ScopeObject
+StaticScopeObject
 *
 >
 staticLexical
@@ -22903,7 +22898,7 @@ lexicalScope
 ;
 Rooted
 <
-ScopeObject
+StaticScopeObject
 *
 >
 staticLexical

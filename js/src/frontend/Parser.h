@@ -1283,7 +1283,7 @@ ParseHandler
 parser
 StmtType
 type
-NestedScopeObject
+NestedStaticScopeObject
 &
 staticScope
 )

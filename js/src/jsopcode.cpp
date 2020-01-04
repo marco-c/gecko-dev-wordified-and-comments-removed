@@ -6849,7 +6849,7 @@ binding
 }
 for
 (
-NestedScopeObject
+NestedStaticScopeObject
 *
 chain
 =

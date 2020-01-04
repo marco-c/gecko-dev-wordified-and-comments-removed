@@ -3730,7 +3730,7 @@ innermostScopeStmt
 {
 Rooted
 <
-NestedScopeObject
+NestedStaticScopeObject
 *
 >
 outer
@@ -3861,7 +3861,7 @@ stmtType
 {
 Rooted
 <
-NestedScopeObject
+NestedStaticScopeObject
 *
 >
 scopeObj
@@ -3876,7 +3876,7 @@ object
 >
 as
 <
-NestedScopeObject
+NestedStaticScopeObject
 >
 (
 )
@@ -4298,7 +4298,7 @@ find
 blockObjIndex
 )
 ;
-NestedScopeObject
+NestedStaticScopeObject
 *
 staticScope
 =
@@ -4311,7 +4311,7 @@ object
 >
 as
 <
-NestedScopeObject
+NestedStaticScopeObject
 >
 (
 )

@@ -35303,7 +35303,7 @@ pc
 ;
 Rooted
 <
-ScopeObject
+StaticScopeObject
 *
 >
 enclosingStaticScope
@@ -35395,7 +35395,7 @@ staticBlock
 }
 Rooted
 <
-ScopeObject
+StaticScopeObject
 *
 >
 staticScope

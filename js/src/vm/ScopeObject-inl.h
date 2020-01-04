@@ -420,7 +420,7 @@ obj
 template
 is
 <
-NestedScopeObject
+NestedStaticScopeObject
 >
 (
 )
@@ -434,12 +434,12 @@ obj
 template
 as
 <
-NestedScopeObject
+NestedStaticScopeObject
 >
 (
 )
 .
-enclosingScopeForStaticScopeIter
+enclosingScope
 (
 )
 ;
@@ -472,7 +472,7 @@ StaticEvalObject
 (
 )
 .
-enclosingScopeForStaticScopeIter
+enclosingScope
 (
 )
 ;
@@ -505,7 +505,7 @@ StaticNonSyntacticScopeObjects
 (
 )
 .
-enclosingScopeForStaticScopeIter
+enclosingScope
 (
 )
 ;
