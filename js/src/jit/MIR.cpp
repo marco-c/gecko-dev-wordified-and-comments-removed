@@ -30980,9 +30980,9 @@ return
 this
 ;
 }
-MAsmJSCall
+MWasmCall
 *
-MAsmJSCall
+MWasmCall
 :
 :
 New
@@ -31011,7 +31011,7 @@ PreservesTlsReg
 preservesTlsReg
 )
 {
-MAsmJSCall
+MWasmCall
 *
 call
 =
@@ -31019,7 +31019,7 @@ new
 (
 alloc
 )
-MAsmJSCall
+MWasmCall
 (
 desc
 callee

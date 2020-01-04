@@ -2224,9 +2224,9 @@ void
 CodeGeneratorARM64
 :
 :
-visitAsmJSCall
+visitWasmCall
 (
-LAsmJSCall
+LWasmCall
 *
 ins
 )
@@ -2234,7 +2234,7 @@ ins
 MOZ_CRASH
 (
 "
-vistAsmJSCall
+vistWasmCall
 "
 )
 ;
@@ -2243,9 +2243,9 @@ void
 CodeGeneratorARM64
 :
 :
-visitAsmJSCallI64
+visitWasmCallI64
 (
-LAsmJSCallI64
+LWasmCallI64
 *
 ins
 )
@@ -2253,7 +2253,7 @@ ins
 MOZ_CRASH
 (
 "
-vistAsmJSCallI64
+vistWasmCallI64
 "
 )
 ;

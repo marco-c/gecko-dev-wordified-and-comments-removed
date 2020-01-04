@@ -27498,9 +27498,9 @@ void
 LIRGenerator
 :
 :
-visitAsmJSCall
+visitWasmCall
 (
-MAsmJSCall
+MWasmCall
 *
 ins
 )
@@ -27549,7 +27549,7 @@ Couldn
 t
 allocate
 for
-MAsmJSCall
+MWasmCall
 "
 )
 ;
@@ -27613,7 +27613,7 @@ which
 )
 =
 =
-MAsmJSCall
+MWasmCall
 :
 :
 Callee
@@ -27675,7 +27675,7 @@ alloc
 (
 )
 )
-LAsmJSCallI64
+LWasmCallI64
 (
 args
 ins
@@ -27695,7 +27695,7 @@ alloc
 (
 )
 )
-LAsmJSCall
+LWasmCall
 (
 args
 ins

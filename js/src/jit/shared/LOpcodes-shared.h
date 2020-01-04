@@ -1998,12 +1998,12 @@ AsmJSPassStackArgI64
 \
 _
 (
-AsmJSCall
+WasmCall
 )
 \
 _
 (
-AsmJSCallI64
+WasmCallI64
 )
 \
 _

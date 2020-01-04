@@ -7793,14 +7793,14 @@ void
 CodeGeneratorShared
 :
 :
-emitAsmJSCallBase
+emitWasmCallBase
 (
-LAsmJSCallBase
+LWasmCallBase
 *
 ins
 )
 {
-MAsmJSCall
+MWasmCall
 *
 mir
 =
@@ -7924,7 +7924,7 @@ ok
 ;
 #
 endif
-MAsmJSCall
+MWasmCall
 :
 :
 Callee
@@ -7947,7 +7947,7 @@ which
 )
 {
 case
-MAsmJSCall
+MWasmCall
 :
 :
 Callee
@@ -7977,7 +7977,7 @@ break
 ;
 }
 case
-MAsmJSCall
+MWasmCall
 :
 :
 Callee
@@ -8116,7 +8116,7 @@ break
 ;
 }
 case
-MAsmJSCall
+MWasmCall
 :
 :
 Callee

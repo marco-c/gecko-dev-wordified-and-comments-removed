@@ -2100,9 +2100,9 @@ ins
 )
 ;
 void
-visitAsmJSCall
+visitWasmCall
 (
-MAsmJSCall
+MWasmCall
 *
 ins
 )

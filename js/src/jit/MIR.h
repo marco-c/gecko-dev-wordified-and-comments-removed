@@ -55830,7 +55830,7 @@ inc
 }
 ;
 class
-MAsmJSCall
+MWasmCall
 final
 :
 public
@@ -56123,7 +56123,7 @@ spIncrement_
 bool
 preservesTlsReg_
 ;
-MAsmJSCall
+MWasmCall
 (
 const
 wasm
@@ -56165,7 +56165,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-AsmJSCall
+WasmCall
 )
 struct
 Arg
@@ -56208,7 +56208,7 @@ SystemAllocPolicy
 Args
 ;
 static
-MAsmJSCall
+MWasmCall
 *
 New
 (
