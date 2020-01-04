@@ -5475,7 +5475,7 @@ mPendingDestroy
 (
 false
 )
-mDeferClearingLockedContent
+mDeferClearingContentForTSF
 (
 false
 )
@@ -8632,7 +8632,7 @@ break
 ;
 }
 }
-mDeferClearingLockedContent
+mDeferClearingContentForTSF
 =
 true
 ;
@@ -8738,7 +8738,7 @@ this
 )
 )
 ;
-mDeferClearingLockedContent
+mDeferClearingContentForTSF
 =
 false
 ;
@@ -8857,7 +8857,7 @@ Length
 )
 )
 ;
-mDeferClearingLockedContent
+mDeferClearingContentForTSF
 =
 true
 ;
@@ -8922,7 +8922,7 @@ this
 )
 )
 ;
-mDeferClearingLockedContent
+mDeferClearingContentForTSF
 =
 false
 ;
@@ -9031,7 +9031,7 @@ this
 )
 )
 ;
-mDeferClearingLockedContent
+mDeferClearingContentForTSF
 =
 false
 ;
@@ -9097,7 +9097,7 @@ get
 )
 )
 ;
-mDeferClearingLockedContent
+mDeferClearingContentForTSF
 =
 true
 ;
@@ -9207,7 +9207,7 @@ this
 )
 )
 ;
-mDeferClearingLockedContent
+mDeferClearingContentForTSF
 =
 false
 ;
@@ -9734,7 +9734,7 @@ return
 if
 (
 !
-mDeferClearingLockedContent
+mDeferClearingContentForTSF
 &
 &
 mContentForTSF
@@ -10888,7 +10888,7 @@ Init
 text
 )
 ;
-mDeferClearingLockedContent
+mDeferClearingContentForTSF
 =
 false
 ;
@@ -28984,7 +28984,7 @@ return
 NS_OK
 ;
 }
-mDeferClearingLockedContent
+mDeferClearingContentForTSF
 =
 false
 ;

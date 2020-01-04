@@ -3260,7 +3260,7 @@ bool
 mPendingDestroy
 ;
 bool
-mDeferClearingLockedContent
+mDeferClearingContentForTSF
 ;
 bool
 mNativeCaretIsCreated
