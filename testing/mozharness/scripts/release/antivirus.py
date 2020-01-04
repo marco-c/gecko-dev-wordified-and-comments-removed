@@ -1342,10 +1342,15 @@ else
                     
 destination
 =
+os
+.
+path
+.
+join
+(
 self
 .
 dest_dir
-+
 keyname
 .
 replace
@@ -1353,6 +1358,7 @@ replace
 candidates_prefix
 '
 '
+)
 )
                     
 dest_dir
