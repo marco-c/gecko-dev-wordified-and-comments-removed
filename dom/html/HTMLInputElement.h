@@ -2204,6 +2204,17 @@ aRv
 ;
 }
 void
+GetValue
+(
+nsAString
+&
+aValue
+ErrorResult
+&
+aRv
+)
+;
+void
 SetValue
 (
 const
