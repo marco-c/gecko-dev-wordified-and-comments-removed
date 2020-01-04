@@ -403,6 +403,10 @@ if
 (
 protop
 )
+{
+if
+(
+!
 protop
 -
 >
@@ -410,7 +414,11 @@ setDelegate
 (
 cx
 )
+)
+return
+false
 ;
+}
 }
 return
 cx
