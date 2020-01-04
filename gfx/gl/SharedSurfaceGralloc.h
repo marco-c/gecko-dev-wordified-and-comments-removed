@@ -43,7 +43,7 @@ class
 ISurfaceAllocator
 ;
 class
-GrallocTextureClientOGL
+TextureClient
 ;
 }
 namespace
@@ -155,7 +155,7 @@ RefPtr
 layers
 :
 :
-GrallocTextureClientOGL
+TextureClient
 >
 mTextureClient
 ;
@@ -189,7 +189,7 @@ allocator
 layers
 :
 :
-GrallocTextureClientOGL
+TextureClient
 *
 textureClient
 GLuint
@@ -274,7 +274,7 @@ mProdTex
 layers
 :
 :
-GrallocTextureClientOGL
+TextureClient
 *
 GetTextureClient
 (
