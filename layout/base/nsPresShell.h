@@ -1930,13 +1930,6 @@ mNextPaintCompressed
 true
 ;
 }
-virtual
-void
-CheckIfTimeToUnsuppressPainting
-(
-)
-override
-;
 protected
 :
 virtual
@@ -3630,12 +3623,6 @@ nsCOMPtr
 nsITimer
 >
 mPaintSuppressionTimer
-;
-mozilla
-:
-:
-TimeStamp
-mPaintSuppressionExpectTime
 ;
 nsCOMPtr
 <
