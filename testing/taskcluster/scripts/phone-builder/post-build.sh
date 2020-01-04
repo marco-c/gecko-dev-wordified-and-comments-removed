@@ -81,12 +81,15 @@ WORKSPACE
 B2G
 /
 upload
+-
+public
 /
 b2g
 -
 *
 .
 android
+*
 -
 arm
 .
@@ -100,6 +103,7 @@ artifacts
 b2g
 -
 android
+*
 -
 arm
 .
