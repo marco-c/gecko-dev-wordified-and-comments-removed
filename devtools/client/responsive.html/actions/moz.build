@@ -111,6 +111,11 @@ location
 js
 '
 '
+screenshot
+.
+js
+'
+'
 viewports
 .
 js

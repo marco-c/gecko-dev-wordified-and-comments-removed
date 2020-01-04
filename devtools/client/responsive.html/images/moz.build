@@ -113,6 +113,11 @@ viewport
 svg
 '
 '
+screenshot
+.
+svg
+'
+'
 select
 -
 arrow

@@ -101,6 +101,9 @@ DIRS
 actions
 '
 '
+audio
+'
+'
 components
 '
 '
@@ -108,6 +111,9 @@ images
 '
 '
 reducers
+'
+'
+utils
 '
 ]
 DevToolsModules

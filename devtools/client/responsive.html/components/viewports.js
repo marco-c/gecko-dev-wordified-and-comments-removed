@@ -90,6 +90,18 @@ Types
 location
 .
 isRequired
+screenshot
+:
+PropTypes
+.
+shape
+(
+Types
+.
+screenshot
+)
+.
+isRequired
 viewports
 :
 PropTypes
@@ -137,6 +149,7 @@ let
 {
 devices
 location
+screenshot
 viewports
 onChangeViewportDevice
 onResizeViewport
@@ -178,6 +191,7 @@ viewport
 id
 devices
 location
+screenshot
 viewport
 onChangeViewportDevice
 onResizeViewport
