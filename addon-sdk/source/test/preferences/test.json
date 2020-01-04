@@ -237,15 +237,6 @@ warn_viewing_mixed
 :
 false
 "
-browser
-.
-panorama
-.
-experienced_first_run
-"
-:
-true
-"
 toolkit
 .
 telemetry
