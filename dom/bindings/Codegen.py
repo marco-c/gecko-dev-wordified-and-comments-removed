@@ -6455,30 +6455,6 @@ n
 %
 define
 )
-def
-getRelevantProviders
-(
-descriptor
-config
-)
-:
-    
-if
-descriptor
-is
-not
-None
-:
-        
-return
-[
-descriptor
-]
-    
-return
-[
-config
-]
 class
 CGHeaders
 (
@@ -6840,7 +6816,6 @@ addHeadersForType
 (
 (
 t
-descriptor
 dictionary
 )
 )
@@ -6860,11 +6835,9 @@ type
 .
 We
 use
-descriptor
-and
-            
 dictionary
 if
+            
 passed
 to
 decide
@@ -6879,13 +6852,6 @@ types
 "
 "
 "
-            
-assert
-not
-descriptor
-or
-not
-dictionary
             
 if
 dictionary
@@ -7069,26 +7035,12 @@ h
 else
 :
                     
-providers
-=
-getRelevantProviders
-(
-descriptor
-config
-)
-                    
-for
-p
-in
-providers
-:
-                        
 try
 :
-                            
+                        
 typeDesc
 =
-p
+config
 .
 getDescriptor
 (
@@ -7100,13 +7052,13 @@ identifier
 .
 name
 )
-                        
+                    
 except
 NoSuchDescriptorError
 :
-                            
-continue
                         
+return
+                    
 headerSet
 .
 add
@@ -7305,7 +7257,6 @@ addHeadersForType
 t
 .
 inner
-descriptor
 dictionary
 )
 )
@@ -7576,7 +7527,6 @@ maplikeOrSetlikeOrIterable
 .
 keyType
                                        
-desc
 None
 )
 )
@@ -7604,7 +7554,6 @@ maplikeOrSetlikeOrIterable
 .
 valueType
                                        
-desc
 None
 )
 )
@@ -8122,17 +8071,8 @@ Returns
 a
 list
 of
-tuples
-each
-containing
-two
-elements
-(
-type
-and
-descriptor
-)
-    
+union
+types
 for
 all
 union
@@ -8142,13 +8082,13 @@ are
 only
 used
 in
+    
 webIDLFile
 .
 If
 webIDLFile
 is
 None
-    
 this
 will
 return
@@ -8157,6 +8097,7 @@ list
 of
 tuples
 for
+    
 union
 types
 that
@@ -8164,7 +8105,6 @@ are
 used
 in
 more
-    
 than
 one
 WebIDL
@@ -8206,26 +8146,15 @@ be
 a
 list
 of
-tuples
-each
-containing
-two
-    
-elements
-:
-a
 union
-type
-and
-a
-descriptor
+types
 .
 This
 is
 typically
+    
 the
 list
-    
 generated
 by
 UnionsForFile
@@ -8361,10 +8290,7 @@ dict
 )
     
 for
-(
 t
-descriptor
-)
 in
 unionTypes
 :
@@ -8382,14 +8308,6 @@ not
 in
 unionStructs
 :
-            
-providers
-=
-getRelevantProviders
-(
-descriptor
-config
-)
             
 unionStructs
 [
@@ -8489,18 +8407,12 @@ h
 else
 :
                         
-for
-p
-in
-providers
-:
-                            
 try
 :
-                                
+                            
 typeDesc
 =
-p
+config
 .
 getDescriptor
 (
@@ -8512,13 +8424,13 @@ identifier
 .
 name
 )
-                            
+                        
 except
 NoSuchDescriptorError
 :
-                                
-continue
                             
+return
+                        
 if
 typeDesc
 .
@@ -8530,7 +8442,7 @@ isCallback
 or
 isSequence
 :
-                                
+                            
 headers
 .
 add
@@ -8539,10 +8451,10 @@ typeDesc
 .
 headerFile
 )
-                            
+                        
 else
 :
-                                
+                            
 declarations
 .
 add
@@ -8554,7 +8466,7 @@ nativeType
 False
 )
 )
-                                
+                            
 implheaders
 .
 add
@@ -8874,10 +8786,7 @@ dict
 )
     
 for
-(
 t
-descriptor
-)
 in
 unionTypes
 :
@@ -8896,14 +8805,6 @@ in
 unionConversions
 :
             
-providers
-=
-getRelevantProviders
-(
-descriptor
-config
-)
-            
 unionConversions
 [
 name
@@ -8912,17 +8813,13 @@ name
 CGUnionConversionStruct
 (
 t
-providers
-[
-0
-]
+config
 )
             
 def
 addHeadersForType
 (
 f
-providers
 )
 :
                 
@@ -8986,26 +8883,12 @@ isExternal
 )
 :
                         
-providers
-=
-getRelevantProviders
-(
-descriptor
-config
-)
-                        
-for
-p
-in
-providers
-:
-                            
 try
 :
-                                
+                            
 typeDesc
 =
-p
+config
 .
 getDescriptor
 (
@@ -9017,13 +8900,13 @@ identifier
 .
 name
 )
-                            
+                        
 except
 NoSuchDescriptorError
 :
-                                
-continue
                             
+return
+                        
 headers
 .
 add
@@ -9123,7 +9006,6 @@ addHeadersForType
 f
 .
 inner
-providers
 )
             
 headers
@@ -9150,7 +9032,6 @@ flatMemberTypes
 addHeadersForType
 (
 f
-providers
 )
     
 return
@@ -114102,9 +113983,6 @@ lambda
 u
 :
 u
-[
-0
-]
 .
 name
 )
