@@ -1926,6 +1926,7 @@ GONE
 )
 ;
 }
+}
 mEmptyView
 .
 setVisibility
@@ -1955,7 +1956,6 @@ View
 GONE
 )
 ;
-}
 }
 }
 }
