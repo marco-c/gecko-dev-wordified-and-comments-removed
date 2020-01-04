@@ -3626,6 +3626,9 @@ cxCallbackData
 JSDestroyCompartmentCallback
 destroyCompartmentCallback
 ;
+JSSizeOfIncludingThisCompartmentCallback
+sizeOfIncludingThisCompartmentCallback
+;
 JSZoneCallback
 destroyZoneCallback
 ;

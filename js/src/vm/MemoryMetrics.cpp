@@ -1795,6 +1795,10 @@ nonSyntacticLexicalScopesTable
 cStats
 .
 jitCompartment
+&
+cStats
+.
+privateData
 )
 ;
 }
