@@ -900,15 +900,6 @@ empty
 ;
 if
 (
-!
-mThat
-.
-mListener
-)
-return
-;
-if
-(
 exitingCall
 )
 mThat
@@ -8501,10 +8492,6 @@ MOZ_RELEASE_ASSERT
 mPeerPidSet
 )
 ;
-if
-(
-mListener
-)
 mListener
 -
 >
