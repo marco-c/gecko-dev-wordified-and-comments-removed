@@ -298,11 +298,6 @@ return
 true
 ;
 }
-exceptionStr
-:
-Log
-.
-exceptionStr
 stackTrace
 :
 Log
@@ -436,15 +431,8 @@ Could
 not
 create
 URI
-:
 "
-+
-CommonUtils
-.
-exceptionStr
-(
 e
-)
 )
 ;
 return
