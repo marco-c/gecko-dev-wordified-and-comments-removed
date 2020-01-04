@@ -99,6 +99,9 @@ GetResource
 (
 )
 )
+GetVideoFrameContainer
+(
+)
 )
 )
 :
