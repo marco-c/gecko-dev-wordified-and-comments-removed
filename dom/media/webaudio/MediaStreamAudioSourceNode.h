@@ -332,6 +332,11 @@ ErrorResult
 aRv
 )
 ;
+void
+Destroy
+(
+)
+;
 virtual
 ~
 MediaStreamAudioSourceNode
