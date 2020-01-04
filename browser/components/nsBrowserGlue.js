@@ -8495,7 +8495,12 @@ if
 (
 AppConstants
 .
-XP_WIN
+platform
+=
+=
+"
+win
+"
 )
 {
 E10SAccessibilityCheck
