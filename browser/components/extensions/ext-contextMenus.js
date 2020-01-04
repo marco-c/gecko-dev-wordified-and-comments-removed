@@ -159,7 +159,6 @@ for
 (
 let
 [
-extension
 root
 ]
 of
@@ -241,15 +240,6 @@ item
 contextData
 )
 {
-let
-doc
-=
-contextData
-.
-menu
-.
-ownerDocument
-;
 let
 element
 =
@@ -516,10 +506,10 @@ label
 .
 indexOf
 (
-'
+"
 %
 s
-'
+"
 )
 >
 -

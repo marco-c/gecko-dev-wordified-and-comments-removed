@@ -173,9 +173,6 @@ title
 =
 context
 ;
-var
-id
-=
 browser
 .
 contextMenus
@@ -265,7 +262,7 @@ info
 ;
 }
 }
-var
+let
 parent
 =
 browser
@@ -304,6 +301,9 @@ genericOnClick
 }
 )
 ;
+let
+child2
+=
 browser
 .
 contextMenus
@@ -325,7 +325,7 @@ genericOnClick
 }
 )
 ;
-var
+let
 parentToDel
 =
 browser
