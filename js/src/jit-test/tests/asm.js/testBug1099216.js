@@ -71,6 +71,13 @@ SIMD
 Float32x4
 ;
 var
+fc4
+=
+fx4
+.
+check
+;
+var
 fsp
 =
 fx4
@@ -91,7 +98,7 @@ x
 {
 x
 =
-fx4
+fc4
 (
 x
 )
@@ -170,6 +177,13 @@ SIMD
 .
 Int32x4
 var
+gc
+=
+g
+.
+check
+;
+var
 h
 =
 g
@@ -201,7 +215,7 @@ g
 4
 )
 return
-g
+gc
 (
 h
 (
@@ -250,6 +264,12 @@ global
 SIMD
 .
 Float32x4
+var
+f4c
+=
+f4
+.
+check
 function
 p
 (
@@ -347,7 +367,7 @@ yd
 yf
 )
 return
-f4
+f4c
 (
 c_im4
 )
