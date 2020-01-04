@@ -179,6 +179,8 @@ const
 SurfaceDescriptor
 &
 aSharedData
+LayersBackend
+aLayersBackend
 TextureFlags
 aFlags
 )
@@ -424,7 +426,6 @@ return
 false
 ;
 }
-virtual
 LayersBackend
 GetCompositorBackendType
 (

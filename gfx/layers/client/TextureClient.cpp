@@ -1258,6 +1258,12 @@ aForwarder
 CreateTexture
 (
 desc
+aForwarder
+-
+>
+GetCompositorBackendType
+(
+)
 GetFlags
 (
 )

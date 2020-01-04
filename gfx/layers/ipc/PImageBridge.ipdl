@@ -451,6 +451,8 @@ PTexture
 (
 SurfaceDescriptor
 aSharedData
+LayersBackend
+aBackend
 TextureFlags
 aTextureFlags
 )

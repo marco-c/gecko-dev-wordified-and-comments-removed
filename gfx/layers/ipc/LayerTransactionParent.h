@@ -706,6 +706,10 @@ SurfaceDescriptor
 &
 aSharedData
 const
+LayersBackend
+&
+aLayersBackend
+const
 TextureFlags
 &
 aFlags

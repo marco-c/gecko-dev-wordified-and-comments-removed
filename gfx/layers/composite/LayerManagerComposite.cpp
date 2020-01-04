@@ -817,10 +817,10 @@ AreComponentAlphaLayersEnabled
 )
 {
 return
-Compositor
-:
-:
-GetBackend
+mCompositor
+-
+>
+GetBackendType
 (
 )
 !

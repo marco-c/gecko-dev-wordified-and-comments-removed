@@ -976,12 +976,6 @@ AssertOnCompositorThread
 (
 )
 ;
-static
-LayersBackend
-GetBackend
-(
-)
-;
 size_t
 GetFillRatio
 (
@@ -1189,14 +1183,6 @@ bool
 ShouldDrawDiagnostics
 (
 DiagnosticFlags
-)
-;
-static
-void
-SetBackend
-(
-LayersBackend
-backend
 )
 ;
 TimeStamp
