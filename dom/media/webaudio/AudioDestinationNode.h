@@ -217,7 +217,7 @@ FireOfflineCompletionEvent
 (
 )
 ;
-double
+StreamTime
 ExtraCurrentTime
 (
 )
@@ -365,10 +365,10 @@ mAudioChannelAgentPlaying
 TimeStamp
 mStartedBlockingDueToBeingOnlyNode
 ;
-double
+StreamTime
 mExtraCurrentTime
 ;
-double
+StreamTime
 mExtraCurrentTimeSinceLastStartedBlocking
 ;
 bool

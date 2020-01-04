@@ -4749,6 +4749,14 @@ ExtraCurrentTime
 const
 {
 return
+static_cast
+<
+double
+>
+(
+mSampleRate
+)
+*
 mDestination
 -
 >
