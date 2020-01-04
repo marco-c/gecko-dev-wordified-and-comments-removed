@@ -2106,6 +2106,9 @@ ModuleObject
 *
 >
 module
+ModuleBuilder
+&
+builder
 )
 ;
 Node
