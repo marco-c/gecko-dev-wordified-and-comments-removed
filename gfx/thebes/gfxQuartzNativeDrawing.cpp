@@ -181,6 +181,9 @@ BackendType
 :
 COREGRAPHICS
 IntSize
+:
+:
+Truncate
 (
 mNativeRect
 .
