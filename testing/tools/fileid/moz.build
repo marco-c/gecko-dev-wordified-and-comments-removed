@@ -187,6 +187,9 @@ USE_LIBS
 '
 breakpad_common_s
 '
+'
+breakpad_logging
+'
 ]
 LOCAL_INCLUDES
 +
