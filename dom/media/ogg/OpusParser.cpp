@@ -494,6 +494,12 @@ mChannelMapping
 =
 =
 1
+|
+|
+mChannelMapping
+=
+=
+255
 )
 {
 if
