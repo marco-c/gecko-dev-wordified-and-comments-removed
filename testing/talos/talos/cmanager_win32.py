@@ -434,10 +434,9 @@ def
 __init__
 (
 self
+process_name
 process
 counters
-=
-None
                  
 childProcess
 =
@@ -503,7 +502,7 @@ self
 .
 _addCounter
 (
-process
+process_name
 '
 process
 '
@@ -518,7 +517,7 @@ self
 .
 _addCounter
 (
-process
+process_name
 '
 Memory
 '

@@ -14,12 +14,6 @@ from
 cmanager
 import
 CounterManager
-from
-mozprocess
-import
-pid
-as
-mozpid
 import
 sys
 def
@@ -347,10 +341,9 @@ def
 __init__
 (
 self
+process_name
 process
 counters
-=
-None
 )
 :
         
@@ -403,16 +396,9 @@ self
 .
 pid
 =
-mozpid
-.
-get_pids
-(
 process
-)
-[
--
-1
-]
+.
+pid
         
 self
 .

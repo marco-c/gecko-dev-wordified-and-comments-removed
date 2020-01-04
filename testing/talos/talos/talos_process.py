@@ -455,6 +455,21 @@ browser
 has
 been
 started
+.
+The
+callback
+must
+takes
+                       
+an
+argument
+which
+is
+the
+psutil
+.
+Process
+instance
     
 :
 param
@@ -591,6 +606,9 @@ on_started
             
 on_started
 (
+context
+.
+process
 )
         
 if
