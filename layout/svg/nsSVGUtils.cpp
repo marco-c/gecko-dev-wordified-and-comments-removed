@@ -3213,7 +3213,7 @@ Save
 clipPathFrame
 -
 >
-ApplyClipOrPaintClipMask
+ApplyClipPath
 (
 aContext
 aFrame
