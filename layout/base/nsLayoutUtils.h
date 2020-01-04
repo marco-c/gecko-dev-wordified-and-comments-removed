@@ -4713,7 +4713,7 @@ IsGridTemplateSubgridValueEnabled
 ;
 static
 bool
-IsTextAlignTrueValueEnabled
+IsTextAlignUnsafeValueEnabled
 (
 )
 ;
