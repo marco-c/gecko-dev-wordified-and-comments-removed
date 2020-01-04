@@ -1140,6 +1140,13 @@ GET
 url
 )
 ;
+xhr
+.
+send
+(
+null
+)
+;
 }
 catch
 (
@@ -1152,13 +1159,6 @@ ex
 )
 ;
 }
-xhr
-.
-send
-(
-null
-)
-;
 }
 )
 ;
