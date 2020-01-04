@@ -38,9 +38,7 @@ h
 #
 include
 "
-mozilla
-/
-TaskQueue
+AutoTaskQueue
 .
 h
 "
@@ -196,7 +194,7 @@ TrackBuffersManager
 aSourceBuffer
 )
 ;
-TaskQueue
+AutoTaskQueue
 *
 GetTaskQueue
 (
@@ -318,7 +316,7 @@ IsCurrentThreadIn
 }
 RefPtr
 <
-TaskQueue
+AutoTaskQueue
 >
 mTaskQueue
 ;

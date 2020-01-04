@@ -82,7 +82,7 @@ MediaSourceDemuxer
 mTaskQueue
 (
 new
-TaskQueue
+AutoTaskQueue
 (
 GetMediaThreadPool
 (
@@ -1123,17 +1123,6 @@ DemuxerFailureReason
 SHUTDOWN
 __func__
 )
-;
-mTaskQueue
--
->
-BeginShutdown
-(
-)
-;
-mTaskQueue
-=
-nullptr
 ;
 }
 void

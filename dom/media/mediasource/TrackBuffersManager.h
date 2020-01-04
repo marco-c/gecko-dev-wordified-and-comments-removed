@@ -34,6 +34,13 @@ h
 #
 include
 "
+AutoTaskQueue
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -1357,7 +1364,7 @@ IsCurrentThreadIn
 }
 RefPtr
 <
-TaskQueue
+AutoTaskQueue
 >
 mTaskQueue
 ;
