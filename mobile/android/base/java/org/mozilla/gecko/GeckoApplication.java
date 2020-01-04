@@ -714,17 +714,6 @@ init
 (
 )
 ;
-NetworkInfoService
-.
-getInstance
-(
-context
-)
-.
-init
-(
-)
-;
 GeckoProfile
 .
 setBrowserDBFactory

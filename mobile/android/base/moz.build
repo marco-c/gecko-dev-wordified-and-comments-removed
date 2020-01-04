@@ -778,7 +778,7 @@ java
 '
 mozglue
 /
-SafeIntent
+SafeIntentUtils
 .
 java
 '
@@ -3439,11 +3439,6 @@ java
 '
 '
 MotionEventInterceptor
-.
-java
-'
-'
-NetworkInfoService
 .
 java
 '
