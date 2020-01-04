@@ -231,6 +231,20 @@ handler
 buffer_limit
 )
 def
+valgrind_handler_wrapper
+(
+handler
+)
+:
+    
+return
+handlers
+.
+ValgrindHandler
+(
+handler
+)
+def
 default_formatter_options
 (
 log_type
@@ -1053,12 +1067,10 @@ formatter_cls
 (
 )
         
-handler_wrapper
-handler_option
+handler_wrappers_and_options
 =
-None
-"
-"
+[
+]
         
 for
 option
@@ -1074,7 +1086,27 @@ iteritems
 )
 :
             
+wrapper
+wrapper_args
+=
+None
+(
+)
+            
 if
+option
+=
+=
+"
+valgrind
+"
+:
+                
+wrapper
+=
+valgrind_handler_wrapper
+            
+elif
 option
 =
 =
@@ -1083,8 +1115,8 @@ buffer
 "
 :
                 
-handler_wrapper
-handler_option
+wrapper
+wrapper_args
 =
 fmt_options
 [
@@ -1093,7 +1125,9 @@ option
 [
 0
 ]
+(
 value
+)
             
 else
 :
@@ -1110,6 +1144,23 @@ option
 (
 formatter
 value
+)
+            
+if
+wrapper
+is
+not
+None
+:
+                
+handler_wrappers_and_options
+.
+append
+(
+(
+wrapper
+wrapper_args
+)
 )
         
 for
@@ -1132,16 +1183,20 @@ formatter
 formatter
 )
             
-if
-handler_wrapper
+for
+wrapper
+wrapper_args
+in
+handler_wrappers_and_options
 :
                 
 handler
 =
-handler_wrapper
+wrapper
 (
 handler
-handler_option
+*
+wrapper_args
 )
             
 logger
@@ -1733,6 +1788,39 @@ default_formatter_options
 name
 formatter_defaults
 )
+    
+if
+args
+.
+get
+(
+'
+valgrind
+'
+None
+)
+is
+not
+None
+:
+        
+for
+name
+in
+formatters
+:
+            
+formatter_options
+[
+name
+]
+[
+'
+valgrind
+'
+]
+=
+True
     
 setup_handlers
 (
