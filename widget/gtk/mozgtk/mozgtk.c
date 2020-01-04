@@ -1051,6 +1051,10 @@ gtk_info_bar_get_type
 )
 STUB
 (
+gtk_info_bar_get_content_area
+)
+STUB
+(
 gtk_info_bar_new
 )
 STUB
