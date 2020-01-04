@@ -145,6 +145,17 @@ result
 ;
 }
 get
+lastError
+(
+)
+{
+return
+context
+.
+lastError
+;
+}
+get
 inIncognitoContext
 (
 )
