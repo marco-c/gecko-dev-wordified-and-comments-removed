@@ -5221,10 +5221,6 @@ uint32_t
 *
 const
 out_height
-GLenum
-*
-const
-out_mode
 )
 {
 if
@@ -5261,8 +5257,6 @@ mode
 must
 not
 be
-"
-"
 NONE
 .
 "
@@ -5324,11 +5318,6 @@ return
 false
 ;
 }
-*
-out_mode
-=
-mReadBufferMode
-;
 *
 out_format
 =

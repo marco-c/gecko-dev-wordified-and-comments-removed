@@ -9912,9 +9912,6 @@ srcWidth
 uint32_t
 srcHeight
 ;
-GLenum
-srcMode
-;
 if
 (
 !
@@ -9930,8 +9927,6 @@ srcUsage
 srcWidth
 &
 srcHeight
-&
-srcMode
 )
 )
 return
@@ -10561,9 +10556,6 @@ srcWidth
 uint32_t
 srcHeight
 ;
-GLenum
-srcMode
-;
 if
 (
 !
@@ -10579,8 +10571,6 @@ srcUsage
 srcWidth
 &
 srcHeight
-&
-srcMode
 )
 )
 return

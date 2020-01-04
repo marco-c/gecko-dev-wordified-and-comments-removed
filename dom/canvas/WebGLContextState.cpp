@@ -1638,9 +1638,6 @@ uint32_t
 width
 height
 ;
-GLenum
-mode
-;
 if
 (
 !
@@ -1653,8 +1650,6 @@ usage
 width
 &
 height
-&
-mode
 )
 )
 return
@@ -1734,9 +1729,6 @@ uint32_t
 width
 height
 ;
-GLenum
-mode
-;
 if
 (
 !
@@ -1749,8 +1741,6 @@ usage
 width
 &
 height
-&
-mode
 )
 )
 return
