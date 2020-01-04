@@ -3408,6 +3408,12 @@ histogram
 ;
 event
 .
+mCharactersExtra
+=
+null
+;
+event
+.
 mCount
 =
 value
