@@ -255,6 +255,11 @@ MessageContainer
 (
 {
 message
+key
+:
+message
+.
+id
 }
 )
 )
