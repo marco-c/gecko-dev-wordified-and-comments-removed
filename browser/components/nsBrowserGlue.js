@@ -6120,6 +6120,9 @@ tab
 "
 )
 ;
+return
+true
+;
 }
 }
 ]
