@@ -1021,10 +1021,6 @@ kind
 eax
 )
 ;
-asMasm
-(
-)
-.
 branch32
 (
 Assembler
@@ -1043,10 +1039,6 @@ RESUME_ENTRY_FRAME
 entryFrame
 )
 ;
-asMasm
-(
-)
-.
 branch32
 (
 Assembler
@@ -1065,10 +1057,6 @@ RESUME_CATCH
 catch_
 )
 ;
-asMasm
-(
-)
-.
 branch32
 (
 Assembler
@@ -1087,10 +1075,6 @@ RESUME_FINALLY
 finally
 )
 ;
-asMasm
-(
-)
-.
 branch32
 (
 Assembler
@@ -1109,10 +1093,6 @@ RESUME_FORCED_RETURN
 return_
 )
 ;
-asMasm
-(
-)
-.
 branch32
 (
 Assembler
@@ -1400,10 +1380,6 @@ addressOfEnabled
 )
 )
 ;
-asMasm
-(
-)
-.
 branch32
 (
 Assembler
