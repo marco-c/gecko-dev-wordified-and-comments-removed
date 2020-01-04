@@ -273,6 +273,17 @@ hasPageMenu
 =
 false
 ;
+this
+.
+isContentSelected
+=
+!
+this
+.
+selectionInfo
+.
+docSelectionIsCollapsed
+;
 if
 (
 !
