@@ -493,7 +493,7 @@ State
 )
 const
 ;
-void
+bool
 State
 (
 ModuleState
