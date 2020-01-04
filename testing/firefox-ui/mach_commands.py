@@ -291,6 +291,13 @@ binary
 '
 ]
 =
+kwargs
+[
+'
+binary
+'
+]
+or
 self
 .
 get_binary_path
