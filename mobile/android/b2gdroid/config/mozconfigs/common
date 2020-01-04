@@ -375,6 +375,18 @@ with
 -
 android
 -
+min
+-
+sdk
+=
+14
+ac_add_options
+-
+-
+with
+-
+android
+-
 ndk
 =
 "
@@ -429,7 +441,7 @@ android
 -
 version
 =
-9
+14
 ac_add_options
 -
 -
