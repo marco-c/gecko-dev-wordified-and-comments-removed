@@ -263,6 +263,9 @@ class
 InsertTextTransaction
 ;
 class
+JoinNodeTransaction
+;
+class
 TextComposition
 ;
 struct
@@ -279,9 +282,6 @@ Element
 ;
 class
 EventTarget
-;
-class
-JoinNodeTxn
 ;
 class
 Selection
@@ -1134,10 +1134,7 @@ already_AddRefed
 mozilla
 :
 :
-dom
-:
-:
-JoinNodeTxn
+JoinNodeTransaction
 >
 CreateTxnForJoinNode
 (
