@@ -2251,6 +2251,8 @@ options
 baseURI
 )
 {
+try
+{
 href
 =
 new
@@ -2264,6 +2266,13 @@ baseURI
 .
 href
 ;
+}
+catch
+(
+e
+)
+{
+}
 }
 this
 .
