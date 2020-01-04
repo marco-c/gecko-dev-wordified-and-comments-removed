@@ -548,13 +548,13 @@ testing
 "
 #
 define
-PROFILE_BEFORE_CHANGE_OBSERVER_ID
+PROFILE_BEFORE_CHANGE2_OBSERVER_ID
 "
 profile
 -
 before
 -
-change
+change2
 "
 #
 define
@@ -7575,7 +7575,7 @@ observerService
 AddObserver
 (
 observer
-PROFILE_BEFORE_CHANGE_OBSERVER_ID
+PROFILE_BEFORE_CHANGE2_OBSERVER_ID
 false
 )
 ;
@@ -8140,7 +8140,7 @@ MOZ_ASSERT
 strcmp
 (
 aTopic
-PROFILE_BEFORE_CHANGE_OBSERVER_ID
+PROFILE_BEFORE_CHANGE2_OBSERVER_ID
 )
 )
 ;
