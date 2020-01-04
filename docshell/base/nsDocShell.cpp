@@ -2324,6 +2324,11 @@ nsIRequest
 :
 :
 INHIBIT_CACHING
+|
+nsIChannel
+:
+:
+LOAD_CLASSIFY_URI
 )
 ;
 nsCOMPtr
