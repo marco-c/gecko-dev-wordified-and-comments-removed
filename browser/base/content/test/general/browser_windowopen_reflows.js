@@ -201,6 +201,8 @@ browser
 content
 /
 browser
+-
+tabsintitlebar
 .
 js
 |
@@ -219,6 +221,8 @@ browser
 content
 /
 browser
+-
+tabsintitlebar
 .
 js
 |
@@ -235,6 +239,8 @@ browser
 content
 /
 browser
+-
+tabsintitlebar
 .
 js
 |
