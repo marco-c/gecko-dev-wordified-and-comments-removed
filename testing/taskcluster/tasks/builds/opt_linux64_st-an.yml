@@ -19,7 +19,7 @@ tasks
 /
 builds
 /
-opt_linux64_clobber
+linux64_clobber
 .
 yml
 '
@@ -33,6 +33,11 @@ linux64
 st
 -
 an
+'
+build_type
+:
+'
+opt
 '
 task
 :
@@ -131,6 +136,11 @@ st
 -
 an
 '
+workerType
+:
+opt
+-
+linux64
 payload
 :
 cache
