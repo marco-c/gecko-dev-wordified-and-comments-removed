@@ -263,7 +263,9 @@ WindowsSettings
 <
 dpiAware
 >
-true
+True
+/
+PM
 <
 /
 dpiAware
