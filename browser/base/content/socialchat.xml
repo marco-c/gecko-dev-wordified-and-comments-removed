@@ -195,6 +195,9 @@ xbl
 inherits
 =
 "
+crop
+=
+titlecrop
 value
 =
 label
@@ -202,7 +205,7 @@ label
 crop
 =
 "
-center
+end
 "
 /
 >
