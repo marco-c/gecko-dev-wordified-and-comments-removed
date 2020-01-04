@@ -1748,6 +1748,11 @@ mApzcTreeManager
 }
 private
 :
+void
+StopAndClearResources
+(
+)
+;
 static
 already_AddRefed
 <
