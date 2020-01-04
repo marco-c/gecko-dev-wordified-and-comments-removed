@@ -58,12 +58,12 @@ MediaCacheStream
 {
 public
 :
-enum
-{
+static
+const
+int64_t
 BLOCK_SIZE
 =
 32768
-}
 ;
 enum
 ReadMode
