@@ -865,7 +865,7 @@ onecrl
 .
 maximum_staleness_in_seconds
 "
-86400
+108000
 )
 ;
 Services
@@ -1069,7 +1069,7 @@ onecrl
 .
 maximum_staleness_in_seconds
 "
-86400
+108000
 )
 ;
 Services
@@ -1106,7 +1106,7 @@ now
 1000
 )
 -
-86480
+108080
 )
 ;
 clearOCSPCache
