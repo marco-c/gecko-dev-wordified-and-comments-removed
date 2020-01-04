@@ -182,6 +182,11 @@ nsRect
 aRefBox
 )
 ;
+nsRect
+ComputeHTMLReferenceRect
+(
+)
+;
 nsIFrame
 *
 mTargetFrame
