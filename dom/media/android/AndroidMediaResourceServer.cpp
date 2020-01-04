@@ -122,17 +122,6 @@ define
 strtoll
 _strtoi64
 #
-if
-_MSC_VER
-<
-1900
-#
-define
-snprintf
-_snprintf_s
-#
-endif
-#
 endif
 using
 namespace
