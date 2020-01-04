@@ -1818,7 +1818,7 @@ DEBUG_GROW
 child
 -
 >
-DumpBox
+XULDumpBox
 (
 stdout
 )

@@ -7692,7 +7692,7 @@ n
 "
 )
 ;
-DumpBox
+XULDumpBox
 (
 stdout
 )
@@ -7731,7 +7731,7 @@ count
 child
 -
 >
-DumpBox
+XULDumpBox
 (
 stdout
 )
