@@ -820,6 +820,11 @@ glitz
 h
 cairo
 -
+gobject
+.
+h
+cairo
+-
 pdf
 .
 h

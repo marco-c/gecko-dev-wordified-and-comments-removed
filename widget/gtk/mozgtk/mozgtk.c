@@ -2220,6 +2220,14 @@ gtk_style_context_get_padding
 )
 STUB
 (
+gtk_style_context_get_property
+)
+STUB
+(
+gtk_style_context_get_state
+)
+STUB
+(
 gtk_style_context_has_class
 )
 STUB
@@ -2249,6 +2257,10 @@ gtk_style_context_set_path
 STUB
 (
 gtk_style_context_set_state
+)
+STUB
+(
+gtk_style_properties_lookup_property
 )
 STUB
 (
