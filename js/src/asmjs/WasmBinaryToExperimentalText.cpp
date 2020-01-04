@@ -944,12 +944,10 @@ append
 char16_t
 )
 (
-MOZ_UTF16
-(
+u
 '
 0
 '
-)
 +
 n
 /

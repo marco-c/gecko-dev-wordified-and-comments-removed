@@ -528,11 +528,9 @@ result
 .
 append
 (
-MOZ_UTF16
-(
+u
 '
 '
-)
 )
 )
 return
@@ -574,12 +572,10 @@ result
 .
 append
 (
-MOZ_UTF16
-(
+u
 '
 0
 '
-)
 )
 )
 return
@@ -631,8 +627,7 @@ tmp
 p
 )
 =
-MOZ_UTF16
-(
+u
 '
 0
 '
@@ -641,7 +636,6 @@ MOZ_UTF16
 tmp
 %
 10
-)
 )
 ;
 }
