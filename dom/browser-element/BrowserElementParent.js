@@ -5082,7 +5082,7 @@ nsINfcBrowserAPI
 ;
 nfcContentHelper
 .
-setFocusApp
+setFocusTab
 (
 tabId
 isFocus
