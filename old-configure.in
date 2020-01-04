@@ -24379,6 +24379,16 @@ Wl
 -
 framework
 OpenGL
+-
+Wl
+-
+framework
+Security
+-
+Wl
+-
+framework
+ServiceManagement
 '
 TK_CFLAGS
 =
