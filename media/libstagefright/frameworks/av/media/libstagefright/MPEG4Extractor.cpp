@@ -8733,7 +8733,6 @@ if
 (
 chunk_data_size
 <
-=
 7
 )
 {
