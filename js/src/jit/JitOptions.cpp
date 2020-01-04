@@ -547,7 +547,7 @@ osrPcMismatchesBeforeRecompile
 SET_DEFAULT
 (
 smallFunctionMaxBytecodeLength_
-100
+120
 )
 ;
 const
