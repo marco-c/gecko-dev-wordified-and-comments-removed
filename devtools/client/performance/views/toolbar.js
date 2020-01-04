@@ -297,7 +297,9 @@ markerName
 markerDetails
 ]
 of
-Iterator
+Object
+.
+entries
 (
 TIMELINE_BLUEPRINT
 )

@@ -79,11 +79,11 @@ entry
 for
 (
 let
-[
 value
-]
 of
-Iterator
+Object
+.
+values
 (
 TIMELINE_BLUEPRINT
 )

@@ -320,7 +320,9 @@ histId
 value
 ]
 of
-Iterator
+Object
+.
+entries
 (
 result
 )

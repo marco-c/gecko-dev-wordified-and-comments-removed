@@ -1288,7 +1288,9 @@ graphName
 requirements
 ]
 of
-Iterator
+Object
+.
+entries
 (
 GRAPH_REQUIREMENTS
 )

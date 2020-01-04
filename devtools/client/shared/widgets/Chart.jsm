@@ -1956,8 +1956,10 @@ let
 key
 value
 ]
-in
-Iterator
+of
+Object
+.
+entries
 (
 rowInfo
 )
@@ -2114,8 +2116,10 @@ let
 key
 value
 ]
-in
-Iterator
+of
+Object
+.
+entries
 (
 totals
 )
