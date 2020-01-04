@@ -2515,7 +2515,7 @@ aNewIdentifier
 mForwarder
 -
 >
-UpdateTextureFactoryIdentifier
+IdentifyTextureHost
 (
 aNewIdentifier
 )
