@@ -3014,6 +3014,10 @@ __func__
 ;
 #
 endif
+DiscardOngoingSeekIfExists
+(
+)
+;
 if
 (
 mDecoderStateMachine
