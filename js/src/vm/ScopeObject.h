@@ -5181,6 +5181,9 @@ JSContext
 cx
 AbstractFramePtr
 frame
+jsbytecode
+*
+pc
 MutableHandleValue
 res
 )
