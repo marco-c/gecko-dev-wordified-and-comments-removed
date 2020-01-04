@@ -99,23 +99,22 @@ UTF
 "
 )
   
+entries
+=
+[
+]
+  
 domains
 =
 set
 (
 )
   
-while
-True
-:
-    
+for
 line
-=
+in
 file
-.
-readline
-(
-)
+:
     
 if
 len
@@ -222,8 +221,26 @@ add
 domain
 )
     
-yield
+entries
+.
+append
+(
 entry
+)
+  
+entries
+.
+sort
+(
+key
+=
+EffectiveTLDEntry
+.
+domain
+)
+  
+return
+entries
 def
 _normalizeHostname
 (
