@@ -554,9 +554,6 @@ mLoadFailureCount
 bool
 mInProgress
 ;
-bool
-mIncludePath
-;
 }
 ;
 extern

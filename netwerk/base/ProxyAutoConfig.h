@@ -65,8 +65,6 @@ const
 nsCString
 &
 aPACScript
-bool
-aIncludePath
 )
 ;
 void
@@ -237,9 +235,6 @@ mPACScript
 ;
 nsCString
 mPACURI
-;
-bool
-mIncludePath
 ;
 nsCString
 mRunningHost
