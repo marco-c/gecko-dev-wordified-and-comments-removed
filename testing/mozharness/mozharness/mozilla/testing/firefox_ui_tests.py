@@ -73,7 +73,7 @@ mozilla
 vcstools
 import
 VCSToolsScript
-firefox_ui_tests_harness_config_options
+deprecated_options
 =
 [
     
@@ -332,7 +332,7 @@ symbols
 ]
 ]
 +
-firefox_ui_tests_harness_config_options
+deprecated_options
 \
     
 +
@@ -1525,7 +1525,6 @@ None
 "
 Collects
 specific
-update
 test
 related
 command
@@ -1550,18 +1549,12 @@ arguments
 "
 "
         
-extra_harness_config_options
+config_options
 =
 extra_harness_config_options
 or
 [
 ]
-        
-config_options
-=
-firefox_ui_tests_harness_config_options
-+
-extra_harness_config_options
         
 args
 =
@@ -2240,6 +2233,33 @@ self
 query_harness_args
 (
 )
+)
+        
+if
+not
+self
+.
+config
+.
+get
+(
+'
+e10s
+'
+)
+:
+            
+cmd
+.
+append
+(
+'
+-
+-
+disable
+-
+e10s
+'
 )
         
 env
