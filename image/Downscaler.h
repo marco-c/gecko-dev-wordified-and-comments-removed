@@ -367,6 +367,12 @@ BeginFrame
 const
 nsIntSize
 &
+const
+Maybe
+<
+nsIntRect
+>
+&
 uint8_t
 *
 bool
