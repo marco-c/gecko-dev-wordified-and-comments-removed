@@ -237,6 +237,9 @@ bool
 wasmTestMode
 ;
 bool
+wasmFoldOffsets
+;
+bool
 ionInterruptWithoutSignals
 ;
 uint32_t

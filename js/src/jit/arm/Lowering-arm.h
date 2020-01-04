@@ -642,14 +642,6 @@ ins
 )
 ;
 void
-visitWasmBoundsCheck
-(
-MWasmBoundsCheck
-*
-ins
-)
-;
-void
 visitWasmLoad
 (
 MWasmLoad

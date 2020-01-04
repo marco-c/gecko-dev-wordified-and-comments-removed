@@ -1186,17 +1186,6 @@ bool
 enabled
 )
 ;
-static
-void
-UpdateBoundsCheck
-(
-uint8_t
-*
-patchAt
-uint32_t
-heapLength
-)
-;
 }
 ;
 static

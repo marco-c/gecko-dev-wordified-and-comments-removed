@@ -4257,7 +4257,17 @@ AboveOrEqual
 ;
 COPYENUM
 (
+CarrySet
+)
+;
+COPYENUM
+(
 Below
+)
+;
+COPYENUM
+(
+CarryClear
 )
 ;
 COPYENUM

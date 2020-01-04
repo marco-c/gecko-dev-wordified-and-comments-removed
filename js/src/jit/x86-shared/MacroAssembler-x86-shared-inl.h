@@ -2545,6 +2545,8 @@ template
 <
 typename
 T
+typename
+L
 >
 void
 MacroAssembler
@@ -2558,8 +2560,7 @@ T
 src
 Register
 dest
-Label
-*
+L
 label
 )
 {

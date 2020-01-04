@@ -2205,17 +2205,6 @@ OffsetOfJumpTableEntryPointer
 ;
 public
 :
-static
-void
-UpdateBoundsCheck
-(
-uint8_t
-*
-patchAt
-uint32_t
-heapLength
-)
-;
 void
 writeCodePointer
 (

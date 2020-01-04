@@ -281,14 +281,6 @@ ins
 )
 ;
 void
-visitWasmBoundsCheck
-(
-MWasmBoundsCheck
-*
-ins
-)
-;
-void
 lowerWasmLoad
 (
 MWasmLoad
