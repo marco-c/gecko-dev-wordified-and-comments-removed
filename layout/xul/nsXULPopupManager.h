@@ -1684,10 +1684,6 @@ nsIContent
 >
 mOpeningPopup
 ;
-static
-bool
-sDevtoolsDisableAutoHide
-;
 }
 ;
 #
