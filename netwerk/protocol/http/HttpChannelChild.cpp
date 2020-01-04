@@ -7082,6 +7082,13 @@ return
 NS_OK
 ;
 }
+HttpBaseChannel
+:
+:
+SetDocshellUserAgentOverride
+(
+)
+;
 if
 (
 ShouldIntercept
