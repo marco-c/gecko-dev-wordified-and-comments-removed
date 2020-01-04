@@ -157,7 +157,7 @@ aFlags
 uint32_t
 aInitialPoolSize
 uint32_t
-aPoolIncrementSize
+aPoolUnusedSize
 TextureForwarder
 *
 aAllocator
@@ -256,10 +256,8 @@ ReturnUnlockedClients
 )
 ;
 void
-AllocateTextureClients
+AllocateTextureClient
 (
-size_t
-aSize
 )
 ;
 LayersBackend
@@ -285,7 +283,7 @@ uint32_t
 mInitialPoolSize
 ;
 uint32_t
-mPoolIncrementSize
+mPoolUnusedSize
 ;
 uint32_t
 mOutstandingClients

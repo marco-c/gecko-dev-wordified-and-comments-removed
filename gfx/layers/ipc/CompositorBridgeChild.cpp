@@ -4422,7 +4422,7 @@ LayersTileInitialPoolSize
 gfxPrefs
 :
 :
-LayersTilePoolIncrementSize
+LayersTilePoolUnusedSize
 (
 )
 this
