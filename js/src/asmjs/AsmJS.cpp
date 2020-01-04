@@ -39071,7 +39071,7 @@ encoder
 (
 )
 .
-writeVarU32
+writeFixedU32
 (
 target
 )
@@ -39089,7 +39089,7 @@ encoder
 (
 )
 .
-writeVarU32
+writeFixedU32
 (
 defaultDepth
 )
