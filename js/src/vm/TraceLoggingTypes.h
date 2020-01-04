@@ -684,6 +684,7 @@ uint32_t
 capacity
 (
 )
+const
 {
 return
 capacity_
@@ -693,6 +694,7 @@ uint32_t
 size
 (
 )
+const
 {
 return
 size_
@@ -702,6 +704,7 @@ bool
 empty
 (
 )
+const
 {
 return
 size_
@@ -714,6 +717,7 @@ uint32_t
 lastEntryId
 (
 )
+const
 {
 MOZ_ASSERT
 (
