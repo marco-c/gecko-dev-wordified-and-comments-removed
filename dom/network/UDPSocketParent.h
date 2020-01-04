@@ -160,6 +160,15 @@ aAddressInfo
 override
 ;
 void
+DoSendConnectResponse
+(
+const
+UDPAddressInfo
+&
+aAddressInfo
+)
+;
+void
 SendConnectResponse
 (
 nsIEventTarget
