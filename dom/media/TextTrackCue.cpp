@@ -134,7 +134,7 @@ Middle
 ;
 mLineAlign
 =
-AlignSetting
+LineAlignSetting
 :
 :
 Start
