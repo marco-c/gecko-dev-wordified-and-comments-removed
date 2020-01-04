@@ -2135,9 +2135,11 @@ BluetoothAddress
 BluetoothAttributeHandle
 int
 int
-nsAutoArrayPtr
+UniquePtr
 <
 uint8_t
+[
+]
 >
 bool
 bool
