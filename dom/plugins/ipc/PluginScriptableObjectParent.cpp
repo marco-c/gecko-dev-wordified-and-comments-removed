@@ -2264,7 +2264,7 @@ return
 false
 ;
 }
-AutoInfallibleTArray
+AutoTArray
 <
 PluginIdentifier
 10

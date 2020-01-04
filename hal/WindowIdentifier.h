@@ -116,7 +116,7 @@ GetWindowID
 )
 const
 ;
-AutoInfallibleTArray
+AutoTArray
 <
 uint64_t
 3

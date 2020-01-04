@@ -63932,7 +63932,7 @@ MAX_ALLOWED_ELEMS
 =
 0xFFFE
 ;
-AutoInfallibleTArray
+AutoTArray
 <
 nsCSSValue
 16
