@@ -77,7 +77,7 @@ RawGeckoNode
 node
 )
 ;
-int
+bool
 Gecko_NodeIsElement
 (
 RawGeckoNode
@@ -192,7 +192,7 @@ RawGeckoElement
 element
 )
 ;
-int
+bool
 Gecko_IsHTMLElementInHTMLDocument
 (
 RawGeckoElement
@@ -200,7 +200,7 @@ RawGeckoElement
 element
 )
 ;
-int
+bool
 Gecko_IsLink
 (
 RawGeckoElement
@@ -208,7 +208,7 @@ RawGeckoElement
 element
 )
 ;
-int
+bool
 Gecko_IsTextNode
 (
 RawGeckoNode
@@ -216,7 +216,7 @@ RawGeckoNode
 node
 )
 ;
-int
+bool
 Gecko_IsVisitedLink
 (
 RawGeckoElement
@@ -224,7 +224,7 @@ RawGeckoElement
 element
 )
 ;
-int
+bool
 Gecko_IsUnvisitedLink
 (
 RawGeckoElement
@@ -232,7 +232,7 @@ RawGeckoElement
 element
 )
 ;
-int
+bool
 Gecko_IsRootElement
 (
 RawGeckoElement
@@ -321,7 +321,7 @@ RawServoStyleSet
 set
 )
 ;
-int
+bool
 Servo_StyleSheetHasRules
 (
 RawServoStyleSheet
