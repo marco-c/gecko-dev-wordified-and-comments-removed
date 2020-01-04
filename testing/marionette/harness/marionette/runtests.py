@@ -122,6 +122,10 @@ parser_class
 =
 MarionetteArguments
                  
+testcase_class
+=
+MarionetteTestCase
+                 
 args
 =
 None
@@ -139,6 +143,12 @@ self
 _parser_class
 =
 parser_class
+        
+self
+.
+_testcase_class
+=
+testcase_class
         
 self
 .
@@ -334,7 +344,9 @@ pydebugger
 )
 :
             
-MarionetteTestCase
+self
+.
+_testcase_class
 .
 pydebugger
 =
@@ -460,6 +472,9 @@ MarionetteArguments
 harness_class
 =
 MarionetteHarness
+testcase_class
+=
+MarionetteTestCase
 args
 =
 None
@@ -538,6 +553,7 @@ harness_class
 (
 runner_class
 parser_class
+testcase_class
 args
 =
 args

@@ -4,45 +4,13 @@ base
 import
 (
     
-BaseMarionetteArguments
+BaseSessionArguments
     
-BaseMarionetteTestRunner
+BaseSessionTestRunner
     
-Marionette
+SessionTest
     
-MarionetteTest
+SessionTestResult
     
-MarionetteTestResult
-    
-MarionetteTextTestRunner
-    
-TestManifest
-    
-TestResult
-    
-TestResultCollection
-)
-from
-.
-mixins
-import
-(
-    
-EnduranceArguments
-    
-EnduranceTestCaseMixin
-    
-HTMLReportingArguments
-    
-HTMLReportingTestResultMixin
-    
-HTMLReportingTestRunnerMixin
-    
-MemoryEnduranceTestCaseMixin
-    
-BrowserMobProxyTestCaseMixin
-    
-BrowserMobProxyArguments
-    
-BrowserMobTestCase
+SessionTextTestRunner
 )
