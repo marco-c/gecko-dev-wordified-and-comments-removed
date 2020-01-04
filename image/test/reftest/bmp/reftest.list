@@ -41,3 +41,9 @@ corrupted
 reftest
 .
 list
+include
+bmpsuite
+/
+reftest
+.
+list
