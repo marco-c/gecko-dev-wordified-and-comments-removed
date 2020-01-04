@@ -136,8 +136,7 @@ Generator
 "
 ;
 }
-this
-.
+var
 Task
 =
 {
