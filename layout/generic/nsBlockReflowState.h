@@ -1,9 +1,9 @@
 #
 ifndef
-nsBlockReflowState_h__
+nsBlockReflowState_h
 #
 define
-nsBlockReflowState_h__
+nsBlockReflowState_h
 #
 include
 "
@@ -84,6 +84,9 @@ BRS_FLOAT_FRAGMENTS_INSIDE_COLUMN_ENABLED
 define
 BRS_LASTFLAG
 BRS_FLOAT_FRAGMENTS_INSIDE_COLUMN_ENABLED
+namespace
+mozilla
+{
 class
 nsBlockReflowState
 {
@@ -868,6 +871,8 @@ aLine
 nscoord
 aDeltaBCoord
 )
+;
+}
 ;
 }
 ;

@@ -58,6 +58,14 @@ class
 nsLineLayout
 {
 using
+nsBlockReflowState
+=
+mozilla
+:
+:
+nsBlockReflowState
+;
+using
 ReflowInput
 =
 mozilla
