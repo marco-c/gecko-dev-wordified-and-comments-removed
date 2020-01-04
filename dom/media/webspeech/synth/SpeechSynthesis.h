@@ -203,6 +203,13 @@ ForceEnd
 (
 )
 ;
+SpeechSynthesisUtterance
+*
+CurrentUtterance
+(
+)
+const
+;
 IMPL_EVENT_HANDLER
 (
 voiceschanged
