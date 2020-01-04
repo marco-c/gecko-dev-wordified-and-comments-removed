@@ -2118,6 +2118,12 @@ mModifiers
 =
 aModifiers
 ;
+event
+.
+convertToPointer
+=
+false
+;
 return
 DispatchWidgetEvent
 (
