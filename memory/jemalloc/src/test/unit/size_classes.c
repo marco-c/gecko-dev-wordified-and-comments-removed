@@ -154,7 +154,7 @@ size_t
 size_class
 max_size_class
 ;
-index_t
+szind_t
 index
 max_index
 ;

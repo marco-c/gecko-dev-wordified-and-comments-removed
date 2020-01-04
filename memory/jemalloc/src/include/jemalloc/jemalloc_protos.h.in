@@ -441,6 +441,7 @@ alignment
 size_t
 size
 )
+JEMALLOC_CXX_THROW
 JEMALLOC_ATTR
 (
 malloc

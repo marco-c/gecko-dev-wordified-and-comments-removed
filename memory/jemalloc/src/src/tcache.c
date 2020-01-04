@@ -79,7 +79,7 @@ tcache_t
 tcache
 )
 {
-index_t
+szind_t
 binind
 =
 tcache
@@ -301,7 +301,7 @@ tcache
 tcache_bin_t
 *
 tbin
-index_t
+szind_t
 binind
 )
 {
@@ -360,7 +360,7 @@ tcache
 tcache_bin_t
 *
 tbin
-index_t
+szind_t
 binind
 unsigned
 rem
@@ -853,7 +853,7 @@ tsd
 tcache_bin_t
 *
 tbin
-index_t
+szind_t
 binind
 unsigned
 rem

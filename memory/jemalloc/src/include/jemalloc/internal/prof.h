@@ -785,6 +785,8 @@ const
 void
 *
 ptr
+size_t
+usize
 prof_tctx_t
 *
 tctx
@@ -1054,6 +1056,8 @@ const
 void
 *
 ptr
+size_t
+usize
 prof_tctx_t
 *
 tctx
@@ -1075,6 +1079,7 @@ NULL
 arena_prof_tctx_set
 (
 ptr
+usize
 tctx
 )
 ;
@@ -1372,6 +1377,7 @@ else
 prof_tctx_set
 (
 ptr
+usize
 (
 prof_tctx_t
 *
@@ -1529,6 +1535,7 @@ else
 prof_tctx_set
 (
 ptr
+usize
 (
 prof_tctx_t
 *
