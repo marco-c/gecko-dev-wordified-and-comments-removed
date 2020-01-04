@@ -296,7 +296,10 @@ CXXFLAGS
 -
 include
 '
+SRCDIR
++
 '
+/
 soundtouch_perms
 .
 h
