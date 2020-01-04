@@ -3607,6 +3607,9 @@ msg
 )
 {
 case
+FAVICON
+:
+case
 LOCATION_CHANGE
 :
 queuePersistAllTabs
