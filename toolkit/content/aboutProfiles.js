@@ -2033,6 +2033,12 @@ profile
 ;
 ProfileService
 .
+selectedProfile
+=
+profile
+;
+ProfileService
+.
 flush
 (
 )
