@@ -12133,6 +12133,7 @@ MediaDecoderStateMachine
 IsShutdown
 (
 )
+const
 {
 MOZ_ASSERT
 (

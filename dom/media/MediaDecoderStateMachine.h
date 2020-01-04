@@ -835,6 +835,7 @@ bool
 IsShutdown
 (
 )
+const
 ;
 bool
 IsPlaying
