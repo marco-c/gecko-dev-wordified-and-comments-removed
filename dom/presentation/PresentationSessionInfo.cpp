@@ -2230,10 +2230,10 @@ builder
 >
 BuildDataChannelTransport
 (
-nsIPresentationSessionTransportBuilder
+nsIPresentationService
 :
 :
-TYPE_SENDER
+ROLE_CONTROLLER
 GetWindow
 (
 )
@@ -2978,10 +2978,10 @@ builder
 >
 BuildDataChannelTransport
 (
-nsIPresentationSessionTransportBuilder
+nsIPresentationService
 :
 :
-TYPE_RECEIVER
+ROLE_RECEIVER
 GetWindow
 (
 )
