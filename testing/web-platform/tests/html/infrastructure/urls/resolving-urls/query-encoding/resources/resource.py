@@ -1386,6 +1386,9 @@ images
 "
 image
 )
+"
+rb
+"
 )
 .
 read
@@ -1521,6 +1524,9 @@ video
 ext
 )
 )
+"
+rb
+"
 )
 .
 read
