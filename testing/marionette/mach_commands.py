@@ -314,7 +314,7 @@ stdout
 }
 )
     
-results
+failed
 =
 MarionetteHarness
 (
@@ -329,8 +329,6 @@ run
 )
     
 if
-results
-.
 failed
 >
 0
