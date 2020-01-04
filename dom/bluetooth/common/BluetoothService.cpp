@@ -99,6 +99,17 @@ mozilla
 /
 dom
 /
+BindingUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ContentParent
 .
 h

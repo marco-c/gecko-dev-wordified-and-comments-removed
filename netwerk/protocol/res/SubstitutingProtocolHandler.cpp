@@ -39,6 +39,13 @@ h
 #
 include
 "
+nsIChannel
+.
+h
+"
+#
+include
+"
 nsIIOService
 .
 h

@@ -446,7 +446,7 @@ mozilla
 /
 dom
 /
-indexedDB
+quota
 /
 SerializationHelpers
 .
