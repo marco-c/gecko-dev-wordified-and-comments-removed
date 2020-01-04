@@ -2221,7 +2221,7 @@ if
 mFirstCaret
 -
 >
-IsVisuallyVisible
+IsLogicallyVisible
 (
 )
 |
@@ -2229,7 +2229,7 @@ IsVisuallyVisible
 mSecondCaret
 -
 >
-IsVisuallyVisible
+IsLogicallyVisible
 (
 )
 )
@@ -2242,6 +2242,7 @@ s
 :
 UpdateCarets
 (
+RespectOldAppearance
 )
 "
 __FUNCTION__
@@ -2249,6 +2250,10 @@ __FUNCTION__
 ;
 UpdateCarets
 (
+UpdateCaretsHint
+:
+:
+RespectOldAppearance
 )
 ;
 }
