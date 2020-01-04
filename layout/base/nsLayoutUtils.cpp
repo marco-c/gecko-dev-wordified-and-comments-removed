@@ -22711,17 +22711,6 @@ ourInlineAxis
 )
 )
 {
-if
-(
-aFlags
-&
-BAIL_IF_REFLOW_NEEDED
-)
-{
-return
-NS_INTRINSIC_WIDTH_UNKNOWN
-;
-}
 result
 =
 aFrame

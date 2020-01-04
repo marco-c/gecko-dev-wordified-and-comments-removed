@@ -2452,9 +2452,6 @@ enum
 IGNORE_PADDING
 =
 0x01
-BAIL_IF_REFLOW_NEEDED
-=
-0x02
 }
 ;
 static
