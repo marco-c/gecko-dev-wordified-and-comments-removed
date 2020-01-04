@@ -690,7 +690,14 @@ _results
         
 self
 .
-_db
+_option_values
+=
+{
+}
+        
+self
+.
+_raw_options
 =
 {
 }
@@ -777,7 +784,7 @@ _help_option
 if
 self
 .
-_db
+_option_values
 [
 self
 .
@@ -1793,7 +1800,7 @@ option
         
 self
 .
-_db
+_option_values
 [
 option
 ]
@@ -1802,9 +1809,9 @@ value
         
 self
 .
-_db
+_raw_options
 [
-value
+option
 ]
 =
 (
@@ -1820,7 +1827,7 @@ split
 [
 0
 ]
-                           
+                                    
 if
 option_string
 else
@@ -2218,7 +2225,7 @@ arg
 in
 self
 .
-_db
+_option_values
 or
 self
 .
@@ -2228,7 +2235,7 @@ resolved_arg
 =
 self
 .
-_db
+_option_values
 .
 get
 (
@@ -2590,6 +2597,17 @@ help
                             
 continue
                         
+prefix
+opt
+values
+=
+Option
+.
+split_option
+(
+name
+)
+                        
 deps
 .
 append
@@ -2598,14 +2616,21 @@ value
 .
 format
 (
+                            
 self
 .
-_db
+_raw_options
 .
 get
 (
-value
+self
+.
+_options
+[
+opt
+]
 )
+                            
 or
 name
 )
