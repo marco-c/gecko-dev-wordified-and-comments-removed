@@ -4247,6 +4247,10 @@ nsCSSPseudoElements
 GetPseudoType
 (
 aPseudoTag
+CSSEnabledState
+:
+:
+eIgnoreEnabledState
 )
 =
 =
