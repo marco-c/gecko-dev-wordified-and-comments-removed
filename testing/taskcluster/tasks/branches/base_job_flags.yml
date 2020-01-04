@@ -1154,6 +1154,14 @@ accel
 -
 reftest
 -
+no
+-
+accel
+-
+e10s
+-
+reftest
+-
 sanity
 -
 oop
