@@ -3856,11 +3856,6 @@ DOMcallbacks
 JSDestroyPrincipalsOp
 destroyPrincipals
 ;
-const
-JSStructuredCloneCallbacks
-*
-structuredCloneCallbacks
-;
 JSErrorReporter
 errorReporter
 ;

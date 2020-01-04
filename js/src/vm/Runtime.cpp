@@ -876,10 +876,6 @@ destroyPrincipals
 (
 nullptr
 )
-structuredCloneCallbacks
-(
-nullptr
-)
 errorReporter
 (
 nullptr
