@@ -280,9 +280,11 @@ gfxFloat
 >
 mDashes
 ;
+MOZ_INIT_OUTSIDE_CTOR
 gfxFloat
 mDashOffset
 ;
+MOZ_INIT_OUTSIDE_CTOR
 gfxFloat
 mStrokeWidth
 ;
