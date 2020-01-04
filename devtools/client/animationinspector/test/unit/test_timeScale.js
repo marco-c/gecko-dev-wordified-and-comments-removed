@@ -226,6 +226,9 @@ TEST_STARTTIME_TO_DISTANCE
 time
 :
 50
+width
+:
+100
 expectedDistance
 :
 0
@@ -234,6 +237,9 @@ expectedDistance
 time
 :
 50
+width
+:
+0
 expectedDistance
 :
 0
@@ -242,17 +248,23 @@ expectedDistance
 time
 :
 3050
+width
+:
+200
 expectedDistance
 :
-100
+200
 }
 {
 time
 :
 1550
+width
+:
+200
 expectedDistance
 :
-50
+100
 }
 ]
 ;
@@ -264,6 +276,9 @@ TEST_DURATION_TO_DISTANCE
 time
 :
 3000
+width
+:
+100
 expectedDistance
 :
 100
@@ -272,6 +287,9 @@ expectedDistance
 time
 :
 0
+width
+:
+100
 expectedDistance
 :
 0
@@ -286,6 +304,9 @@ TEST_DISTANCE_TO_TIME
 distance
 :
 100
+width
+:
+100
 expectedTime
 :
 3050
@@ -294,6 +315,9 @@ expectedTime
 distance
 :
 0
+width
+:
+100
 expectedTime
 :
 50
@@ -302,9 +326,12 @@ expectedTime
 distance
 :
 25
+width
+:
+200
 expectedTime
 :
-800
+425
 }
 ]
 ;
@@ -316,6 +343,9 @@ TEST_DISTANCE_TO_RELATIVE_TIME
 distance
 :
 100
+width
+:
+100
 expectedTime
 :
 3000
@@ -324,6 +354,9 @@ expectedTime
 distance
 :
 0
+width
+:
+100
 expectedTime
 :
 0
@@ -332,9 +365,12 @@ expectedTime
 distance
 :
 25
+width
+:
+200
 expectedTime
 :
-750
+375
 }
 ]
 ;
@@ -658,6 +694,7 @@ for
 let
 {
 time
+width
 expectedDistance
 }
 of
@@ -672,6 +709,7 @@ TimeScale
 startTimeToDistance
 (
 time
+width
 )
 ;
 equal
@@ -697,6 +735,7 @@ for
 let
 {
 time
+width
 expectedDistance
 }
 of
@@ -711,6 +750,7 @@ TimeScale
 durationToDistance
 (
 time
+width
 )
 ;
 equal
@@ -736,6 +776,7 @@ for
 let
 {
 distance
+width
 expectedTime
 }
 of
@@ -750,6 +791,7 @@ TimeScale
 distanceToTime
 (
 distance
+width
 )
 ;
 equal
@@ -776,6 +818,7 @@ for
 let
 {
 distance
+width
 expectedTime
 }
 of
@@ -790,6 +833,7 @@ TimeScale
 distanceToRelativeTime
 (
 distance
+width
 )
 ;
 equal
