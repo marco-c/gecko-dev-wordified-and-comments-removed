@@ -1275,12 +1275,8 @@ substs
 get
 (
 v
-'
-'
-)
-.
-split
-(
+[
+]
 )
                 
 for
