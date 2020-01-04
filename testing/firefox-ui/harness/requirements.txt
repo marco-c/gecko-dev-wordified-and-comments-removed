@@ -5,7 +5,7 @@ client
 =
 2
 .
-1
+2
 .
 0
 mozfile
@@ -87,7 +87,7 @@ puppeteer
 =
 3
 .
-1
+2
 .
 0
 #
