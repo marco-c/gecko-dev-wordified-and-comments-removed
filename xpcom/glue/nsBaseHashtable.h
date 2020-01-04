@@ -377,6 +377,10 @@ this
 PutEntry
 (
 aKey
+mozilla
+:
+:
+fallible
 )
 ;
 if
