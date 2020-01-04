@@ -1932,15 +1932,7 @@ data
 }
 )
 ;
-AbstractThread
-:
-:
-MainThread
-(
-)
--
->
-Dispatch
+NS_DispatchToMainThread
 (
 r
 .
