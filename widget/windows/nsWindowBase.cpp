@@ -593,6 +593,13 @@ BackingScaleFactorChanged
 )
 ;
 }
+mWidgetListener
+-
+>
+UIResolutionChanged
+(
+)
+;
 }
 }
 nsresult

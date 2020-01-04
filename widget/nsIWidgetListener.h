@@ -138,6 +138,12 @@ aSizeMode
 )
 ;
 virtual
+void
+UIResolutionChanged
+(
+)
+;
+virtual
 bool
 ZLevelChanged
 (

@@ -145,6 +145,15 @@ void
 nsIWidgetListener
 :
 :
+UIResolutionChanged
+(
+)
+{
+}
+void
+nsIWidgetListener
+:
+:
 FullscreenChanged
 (
 bool
