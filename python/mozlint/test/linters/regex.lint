@@ -62,11 +62,13 @@ foobar
 '
 never
 appears
+"
+"
 in
 a
 js
 variable
-files
+file
 because
 it
 is

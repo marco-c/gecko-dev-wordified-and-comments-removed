@@ -235,7 +235,7 @@ message
 lineno
 column
 =
-1
+None
 hint
 =
 None
@@ -245,9 +245,7 @@ source
 None
 level
 =
-'
-error
-'
+None
 rule
 =
 None
@@ -280,6 +278,8 @@ self
 column
 =
 column
+or
+1
         
 self
 .
@@ -298,6 +298,10 @@ self
 level
 =
 level
+or
+'
+error
+'
         
 self
 .

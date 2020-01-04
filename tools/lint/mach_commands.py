@@ -5,8 +5,6 @@ absolute_import
 print_function
 unicode_literals
 import
-argparse
-import
 os
 from
 mozbuild
@@ -293,17 +291,19 @@ exclude
 '
 ]
 =
+[
 '
 obj
 *
 '
+]
         
 lint
 =
 LintRoller
 (
-lintargs
-=
+*
+*
 lintargs
 )
         

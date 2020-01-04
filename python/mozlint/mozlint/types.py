@@ -195,6 +195,33 @@ not
 paths
 :
             
+print
+(
+"
+{
+}
+:
+No
+files
+to
+lint
+for
+specified
+paths
+!
+"
+.
+format
+(
+linter
+[
+'
+name
+'
+]
+)
+)
+            
 return
         
 lintargs

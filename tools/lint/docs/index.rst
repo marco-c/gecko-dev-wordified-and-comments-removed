@@ -254,6 +254,9 @@ maxdepth
 2
 usage
 create
+linters
+/
+flake8
 Indices
 and
 tables

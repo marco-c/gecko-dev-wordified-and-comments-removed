@@ -11,11 +11,7 @@ utf
 *
 -
 import
-sys
-import
 os
-import
-shlex
 extensions
 =
 [
