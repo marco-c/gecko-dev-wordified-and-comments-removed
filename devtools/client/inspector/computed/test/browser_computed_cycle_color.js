@@ -370,12 +370,6 @@ color
 "
 )
 ;
-swatch
-.
-scrollIntoView
-(
-)
-;
 let
 onUnitChange
 =

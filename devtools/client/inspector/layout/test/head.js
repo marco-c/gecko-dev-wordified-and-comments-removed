@@ -179,7 +179,7 @@ return
 openInspectorSidebarTab
 (
 "
-computedview
+layoutview
 "
 )
 .
@@ -257,9 +257,7 @@ data
 .
 inspector
 .
-computedview
-.
-layoutView
+layoutview
 testActor
 :
 data
