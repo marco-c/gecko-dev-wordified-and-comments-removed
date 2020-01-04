@@ -646,6 +646,12 @@ nsIConstraintValidation
 :
 CheckValidity
 ;
+using
+nsIConstraintValidation
+:
+:
+ReportValidity
+;
 protected
 :
 virtual

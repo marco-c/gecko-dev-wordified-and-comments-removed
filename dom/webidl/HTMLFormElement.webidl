@@ -333,6 +333,11 @@ checkValidity
 (
 )
 ;
+boolean
+reportValidity
+(
+)
+;
 [
 Pref
 =

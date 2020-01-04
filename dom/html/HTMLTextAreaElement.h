@@ -1231,6 +1231,12 @@ nsIConstraintValidation
 :
 CheckValidity
 ;
+using
+nsIConstraintValidation
+:
+:
+ReportValidity
+;
 uint32_t
 GetSelectionStart
 (

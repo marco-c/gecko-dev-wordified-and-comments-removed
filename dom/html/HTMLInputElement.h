@@ -325,6 +325,12 @@ using
 nsIConstraintValidation
 :
 :
+ReportValidity
+;
+using
+nsIConstraintValidation
+:
+:
 WillValidate
 ;
 using
