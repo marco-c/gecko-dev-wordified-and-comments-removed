@@ -2766,8 +2766,9 @@ size
 mPrefixSet
 -
 >
-SizeInMemory
+SizeOfIncludingThis
 (
+moz_malloc_size_of
 )
 ;
 LOG
@@ -2982,8 +2983,9 @@ size
 mPrefixSet
 -
 >
-SizeInMemory
+SizeOfIncludingThis
 (
+moz_malloc_size_of
 )
 ;
 LOG
