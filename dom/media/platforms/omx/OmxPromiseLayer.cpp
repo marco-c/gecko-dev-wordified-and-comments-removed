@@ -676,7 +676,7 @@ if
 raw
 -
 >
-mTimecode
+mTime
 =
 =
 aTimecode
