@@ -412,6 +412,33 @@ S
 '
 )
     
+RE_TALOSDATA
+=
+re
+.
+compile
+(
+r
+'
+.
+*
+?
+TALOSDATA
+:
+\
+s
++
+(
+\
+[
+.
+*
+\
+]
+)
+'
+)
+    
 worst_tbpl_status
 =
 TBPL_SUCCESS
@@ -447,9 +474,9 @@ None
         
 self
 .
-found_talosdata
+num_times_found_talosdata
 =
-False
+0
     
 def
 update_worst_log_and_tbpl_levels
@@ -596,24 +623,22 @@ group
 )
         
 if
-line
+self
 .
-startswith
+RE_TALOSDATA
+.
+match
 (
-'
-INFO
-:
-TALOSDATA
-:
-'
+line
 )
 :
             
 self
 .
-found_talosdata
+num_times_found_talosdata
++
 =
-True
+1
         
 harness_retry_re
 =
@@ -5038,10 +5063,12 @@ item
 )
         
 if
-not
 parser
 .
-found_talosdata
+num_times_found_talosdata
+!
+=
+1
 :
             
 self
@@ -5049,13 +5076,21 @@ self
 critical
 (
 "
-No
-talos
-data
-in
-output
-!
+TALOSDATA
+was
+seen
+%
+d
+times
+expected
+1
+.
 "
+                          
+%
+parser
+.
+num_times_found_talosdata
 )
             
 parser
