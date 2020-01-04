@@ -72,12 +72,6 @@ OnElCapitanOrLater
 ;
 static
 bool
-AccelerateByDefault
-(
-)
-;
-static
-bool
 IsAtLeastVersion
 (
 int32_t

@@ -1774,12 +1774,7 @@ AccelerateLayersByDefault
 )
 {
 return
-nsCocoaFeatures
-:
-:
-AccelerateByDefault
-(
-)
+true
 ;
 }
 static
