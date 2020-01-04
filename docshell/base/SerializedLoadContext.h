@@ -339,6 +339,7 @@ return
 false
 ;
 }
+return
 aResult
 -
 >
@@ -348,9 +349,6 @@ PopulateFromSuffix
 (
 suffix
 )
-;
-return
-true
 ;
 }
 }
