@@ -1817,6 +1817,8 @@ add_argument
 "
 -
 -
+disable
+-
 e10s
 "
 dest
@@ -1827,15 +1829,18 @@ gecko_e10s
 action
 =
 "
-store_true
+store_false
 "
+default
+=
+True
                              
 help
 =
 "
 Run
 tests
-with
+without
 electrolysis
 preferences
 "
