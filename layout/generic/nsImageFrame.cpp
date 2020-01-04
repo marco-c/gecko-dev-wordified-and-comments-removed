@@ -9122,7 +9122,7 @@ aEvent
 mMessage
 =
 =
-eMouseUp
+eMouseClick
 &
 &
 aEvent
@@ -9347,7 +9347,16 @@ aEvent
 mMessage
 =
 =
-eMouseUp
+eMouseClick
+&
+&
+!
+aEvent
+-
+>
+DefaultPrevented
+(
+)
 )
 {
 *

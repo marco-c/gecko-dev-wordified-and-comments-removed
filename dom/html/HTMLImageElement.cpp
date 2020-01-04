@@ -1894,11 +1894,14 @@ IsMap
 )
 )
 {
-aVisitor
+mouseEvent
+-
+>
+mFlags
 .
-mEventStatus
+mMultipleActionsPrevented
 =
-nsEventStatus_eConsumeNoDefault
+true
 ;
 }
 return
