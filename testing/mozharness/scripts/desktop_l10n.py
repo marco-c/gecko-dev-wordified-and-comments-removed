@@ -300,10 +300,6 @@ platform
 '
                         
 '
-en_us_binary_url
-'
-                        
-'
 update_platform
 '
                         
