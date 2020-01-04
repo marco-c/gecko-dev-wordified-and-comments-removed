@@ -2358,6 +2358,18 @@ s
 ;
 user_pref
 (
+'
+identity
+.
+fxaccounts
+.
+skipDeviceRegistration
+'
+true
+)
+;
+user_pref
+(
 "
 apz
 .
@@ -2398,7 +2410,7 @@ test
 /
 general
 /
-pinning_reports
+ssl_error_reports
 .
 sjs
 ?
