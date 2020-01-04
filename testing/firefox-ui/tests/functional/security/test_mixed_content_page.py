@@ -1,8 +1,4 @@
 from
-marionette_driver
-import
-Wait
-from
 firefox_ui_harness
 .
 testcases

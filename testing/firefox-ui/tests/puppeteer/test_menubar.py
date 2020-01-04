@@ -38,19 +38,6 @@ self
 )
 :
         
-num_tabs
-=
-len
-(
-self
-.
-browser
-.
-tabbar
-.
-tabs
-)
-        
 def
 opener
 (

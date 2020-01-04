@@ -1,12 +1,6 @@
 import
 mozversion
 from
-marionette_driver
-.
-errors
-import
-MarionetteException
-from
 firefox_ui_harness
 .
 testcases
