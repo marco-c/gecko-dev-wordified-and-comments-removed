@@ -55,6 +55,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+LabelCell
+"
 propTypes
 :
 {
@@ -66,11 +71,6 @@ object
 .
 isRequired
 }
-displayName
-:
-"
-LabelCell
-"
 render
 :
 function

@@ -83,6 +83,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+ObjectWithText
+"
 propTypes
 :
 {
@@ -96,11 +101,6 @@ object
 .
 isRequired
 }
-displayName
-:
-"
-ObjectWithText
-"
 getType
 :
 function

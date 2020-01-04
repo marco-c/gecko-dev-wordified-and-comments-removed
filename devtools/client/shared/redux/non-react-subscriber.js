@@ -191,6 +191,7 @@ listener
 (
 payload
 )
+;
 }
 )
 ;
@@ -245,7 +246,6 @@ return
 store
 ;
 }
-;
 function
 combineBroadcastingReducers
 (
@@ -271,6 +271,8 @@ action
 )
 =
 >
+{
+return
 reducers
 [
 key
@@ -280,6 +282,8 @@ state
 action
 emitChange
 )
+;
+}
 ;
 return
 newReducers

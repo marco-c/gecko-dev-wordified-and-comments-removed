@@ -83,6 +83,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+ObjectWithURL
+"
 propTypes
 :
 {
@@ -96,11 +101,6 @@ object
 .
 isRequired
 }
-displayName
-:
-"
-ObjectWithURL
-"
 getType
 :
 function

@@ -74,6 +74,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+event
+"
 propTypes
 :
 {
@@ -87,11 +92,6 @@ object
 .
 isRequired
 }
-displayName
-:
-"
-event
-"
 summarizeEvent
 :
 function

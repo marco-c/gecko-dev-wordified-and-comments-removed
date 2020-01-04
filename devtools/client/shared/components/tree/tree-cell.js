@@ -55,6 +55,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+TreeCell
+"
 propTypes
 :
 {
@@ -90,11 +95,6 @@ func
 .
 isRequired
 }
-displayName
-:
-"
-TreeCell
-"
 shouldComponentUpdate
 :
 function

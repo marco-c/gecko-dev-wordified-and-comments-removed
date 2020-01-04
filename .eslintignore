@@ -707,6 +707,8 @@ shared
 /
 components
 /
+test
+/
 *
 *
 devtools
@@ -717,13 +719,7 @@ shared
 /
 redux
 /
-*
-*
-devtools
-/
-client
-/
-shared
+middleware
 /
 test
 /
@@ -735,7 +731,7 @@ client
 /
 shared
 /
-vendor
+test
 /
 *
 *

@@ -88,6 +88,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+Func
+"
 propTypes
 :
 {
@@ -101,11 +106,6 @@ object
 .
 isRequired
 }
-displayName
-:
-"
-Func
-"
 summarizeFunction
 :
 function

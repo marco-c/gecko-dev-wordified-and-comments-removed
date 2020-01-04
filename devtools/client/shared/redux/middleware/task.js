@@ -29,7 +29,6 @@ const
 {
 executeSoon
 isGenerator
-isPromise
 reportException
 }
 =

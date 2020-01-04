@@ -33,7 +33,6 @@ const
 {
 entries
 toObject
-reportException
 executeSoon
 }
 =

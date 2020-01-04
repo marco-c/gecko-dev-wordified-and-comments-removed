@@ -109,6 +109,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+Attr
+"
 propTypes
 :
 {
@@ -122,11 +127,6 @@ object
 .
 isRequired
 }
-displayName
-:
-"
-Attr
-"
 getTitle
 :
 function

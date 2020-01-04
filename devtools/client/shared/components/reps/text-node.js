@@ -95,6 +95,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+TextNode
+"
 propTypes
 :
 {
@@ -115,11 +120,6 @@ PropTypes
 .
 string
 }
-displayName
-:
-"
-TextNode
-"
 getTextContent
 :
 function

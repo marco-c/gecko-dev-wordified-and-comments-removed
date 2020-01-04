@@ -57,6 +57,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+TreeHeader
+"
 propTypes
 :
 {
@@ -76,11 +81,6 @@ PropTypes
 .
 array
 }
-displayName
-:
-"
-TreeHeader
-"
 getDefaultProps
 :
 function

@@ -106,6 +106,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+TreeView
+"
 propTypes
 :
 {
@@ -276,11 +281,6 @@ string
 )
 )
 }
-displayName
-:
-"
-TreeView
-"
 getDefaultProps
 :
 function

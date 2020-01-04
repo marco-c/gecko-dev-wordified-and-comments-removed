@@ -99,6 +99,11 @@ NotificationBox
 createClass
 (
 {
+displayName
+:
+"
+NotificationBox
+"
 propTypes
 :
 {
@@ -183,11 +188,6 @@ func
 )
 )
 }
-displayName
-:
-"
-NotificationBox
-"
 getInitialState
 (
 )
