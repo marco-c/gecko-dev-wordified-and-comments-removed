@@ -295,10 +295,9 @@ defined
 (
 MOZ_HAS_PERFSTATS
 )
-NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
+NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsPerformanceStatsService
-Init
 )
 #
 endif
