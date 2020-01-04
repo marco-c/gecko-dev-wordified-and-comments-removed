@@ -658,8 +658,11 @@ client
 /
 sourceeditor
 /
+test
+/
 *
-*
+.
+js
 devtools
 /
 client
