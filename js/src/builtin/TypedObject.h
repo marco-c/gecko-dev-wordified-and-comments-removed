@@ -1153,8 +1153,6 @@ TypedProto
 enum
 class
 SimdType
-:
-uint8_t
 ;
 class
 SimdTypeDescr
