@@ -157,6 +157,11 @@ KeyframeEffect
 .
 h
 '
+'
+KeyframeEffectReadOnly
+.
+h
+'
 ]
 EXPORTS
 .
@@ -311,6 +316,11 @@ cpp
 '
 '
 KeyframeEffectParams
+.
+cpp
+'
+'
+KeyframeEffectReadOnly
 .
 cpp
 '

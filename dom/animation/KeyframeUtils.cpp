@@ -39,6 +39,15 @@ include
 "
 mozilla
 /
+RangedArray
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StyleAnimationValue
 .
 h
@@ -81,7 +90,7 @@ mozilla
 /
 dom
 /
-KeyframeEffect
+KeyframeEffectBinding
 .
 h
 "
@@ -92,7 +101,7 @@ mozilla
 /
 dom
 /
-KeyframeEffectBinding
+KeyframeEffectReadOnly
 .
 h
 "

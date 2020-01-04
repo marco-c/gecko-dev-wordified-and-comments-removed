@@ -895,6 +895,17 @@ mozilla
 /
 dom
 /
+KeyframeEffect
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 KeyframeEffectBinding
 .
 h

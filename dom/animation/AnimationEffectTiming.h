@@ -38,6 +38,9 @@ namespace
 dom
 {
 class
+KeyframeEffect
+;
+class
 AnimationEffectTiming
 :
 public

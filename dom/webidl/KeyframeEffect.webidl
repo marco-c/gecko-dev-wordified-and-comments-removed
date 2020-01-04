@@ -221,17 +221,6 @@ type
 automatically
 .
 [
-HeaderFile
-=
-"
-mozilla
-/
-dom
-/
-KeyframeEffect
-.
-h
-"
 Func
 =
 "
