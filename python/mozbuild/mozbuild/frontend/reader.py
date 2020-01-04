@@ -138,6 +138,8 @@ import
     
 EmptyValue
     
+HierarchicalStringList
+    
 memoize
     
 ReadOnlyDefaultDict
@@ -2630,7 +2632,10 @@ elif
 isinstance
 (
 value
+(
 list
+HierarchicalStringList
+)
 )
 :
                     
