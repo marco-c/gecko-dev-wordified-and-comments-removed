@@ -697,6 +697,11 @@ bool
 aIsOffline
 )
 ;
+void
+MemoryPressureAllWorkers
+(
+)
+;
 uint32_t
 ClampedHardwareConcurrency
 (
