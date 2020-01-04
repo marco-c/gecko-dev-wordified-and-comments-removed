@@ -957,6 +957,12 @@ PeerConnectionMedia
 (
 )
 {
+MOZ_RELEASE_ASSERT
+(
+!
+mMainThread
+)
+;
 }
 public
 :

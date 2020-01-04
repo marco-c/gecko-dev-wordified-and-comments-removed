@@ -4313,6 +4313,10 @@ Clear
 (
 )
 ;
+mMainThread
+=
+nullptr
+;
 this
 -
 >
