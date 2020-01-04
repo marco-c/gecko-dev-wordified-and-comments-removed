@@ -1006,6 +1006,13 @@ hardwareAccelerated
 "
 true
 "
+android
+:
+allowBackup
+=
+"
+false
+"
 #
 The
 preprocessor
