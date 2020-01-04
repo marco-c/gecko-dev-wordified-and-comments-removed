@@ -55,7 +55,7 @@ fennecLogcatFilters
 from
 runtests
 import
-Mochitest
+MochitestDesktop
 MessageLogger
 from
 mochitest_options
@@ -102,7 +102,7 @@ __file__
 class
 RobocopTestRunner
 (
-Mochitest
+MochitestDesktop
 )
 :
     
@@ -186,7 +186,7 @@ initialization
 "
 "
         
-Mochitest
+MochitestDesktop
 .
 __init__
 (
@@ -964,7 +964,7 @@ remoteScreenshots
 blobberUploadDir
 )
         
-Mochitest
+MochitestDesktop
 .
 cleanup
 (
@@ -1879,7 +1879,7 @@ false
         
 manifest
 =
-Mochitest
+MochitestDesktop
 .
 buildProfile
 (
