@@ -46,7 +46,7 @@ dirsvc
 get
 (
 "
-XCurProcD
+XREAddonAppDir
 "
 AM_Ci
 .

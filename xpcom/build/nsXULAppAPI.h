@@ -155,6 +155,12 @@ XREAppFeat
 "
 #
 define
+XRE_ADDON_APP_DIR
+"
+XREAddonAppDir
+"
+#
+define
 XRE_UPDATE_ROOT_DIR
 "
 UpdRootD
