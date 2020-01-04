@@ -1113,7 +1113,7 @@ webkit
 box
 -
 align
-align_items
+box_align
 WebkitBoxAlign
 WEBKIT_PREFIX_PREF
 )
@@ -1125,7 +1125,7 @@ webkit
 box
 -
 pack
-justify_content
+box_pack
 WebkitBoxPack
 WEBKIT_PREFIX_PREF
 )
