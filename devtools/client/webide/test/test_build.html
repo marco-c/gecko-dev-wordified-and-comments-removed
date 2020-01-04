@@ -251,6 +251,14 @@ openWebIDE
 )
 ;
 let
+winProject
+=
+getProjectWindow
+(
+win
+)
+;
+let
 AppManager
 =
 win
@@ -373,7 +381,7 @@ testSuffix
 )
 ;
 yield
-win
+winProject
 .
 projectList
 .
@@ -691,7 +699,7 @@ testSuffix
 )
 ;
 yield
-win
+winProject
 .
 projectList
 .
@@ -874,7 +882,7 @@ webapp
 .
 manifest
 yield
-win
+winProject
 .
 projectList
 .
