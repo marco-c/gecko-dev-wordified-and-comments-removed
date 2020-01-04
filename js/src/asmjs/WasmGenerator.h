@@ -416,7 +416,7 @@ MacroAssembler
 masm_
 ;
 Uint32Vector
-funcEntryOffsets_
+funcIndexToCodeRange_
 ;
 FuncIndexMap
 funcIndexToExport_
@@ -463,6 +463,14 @@ finishOutstandingTask
 ;
 bool
 funcIsDefined
+(
+uint32_t
+funcIndex
+)
+const
+;
+uint32_t
+funcEntry
 (
 uint32_t
 funcIndex
