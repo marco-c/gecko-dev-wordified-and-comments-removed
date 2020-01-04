@@ -212,16 +212,6 @@ GeckoSharedLibrary
 testcrasher
 '
 )
-EXTRA_JS_MODULES
-+
-=
-[
-'
-CrashTestUtils
-.
-jsm
-'
-]
 DEFINES
 [
 '
