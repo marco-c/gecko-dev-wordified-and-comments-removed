@@ -2860,6 +2860,7 @@ Trap
 Unreachable
 IntegerOverflow
 InvalidConversionToInteger
+IntegerDivideByZero
 ImpreciseSimdConversion
 Limit
 }
@@ -2894,6 +2895,15 @@ Trap
 :
 :
 InvalidConversionToInteger
+)
+IntegerDivideByZero
+=
+unsigned
+(
+Trap
+:
+:
+IntegerDivideByZero
 )
 ImpreciseSimdConversion
 =

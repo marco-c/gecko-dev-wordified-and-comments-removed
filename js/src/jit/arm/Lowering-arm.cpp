@@ -1969,6 +1969,11 @@ shift
 rhs
 )
 {
+MOZ_ASSERT
+(
+rhs
+)
+;
 LModMaskI
 *
 lir
