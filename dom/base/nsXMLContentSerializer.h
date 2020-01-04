@@ -862,6 +862,9 @@ mDoRaw
 bool
 mDoWrap
 ;
+bool
+mAllowLineBreaking
+;
 uint32_t
 mMaxColumn
 ;

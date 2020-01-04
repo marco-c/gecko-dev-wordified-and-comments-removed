@@ -578,6 +578,11 @@ if
 MayWrap
 (
 )
+&
+&
+MayBreakLines
+(
+)
 )
 {
 mLineBreaker
