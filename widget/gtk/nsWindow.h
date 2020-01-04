@@ -1755,6 +1755,9 @@ mHandleTouchEvent
 ;
 #
 endif
+bool
+mIsDragPopup
+;
 private
 :
 void
