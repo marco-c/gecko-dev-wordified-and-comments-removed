@@ -458,11 +458,7 @@ rooms_room_join_label
 var
 buttonClasses
 =
-React
-.
-addons
-.
-classSet
+classNames
 (
 {
 btn
@@ -1826,11 +1822,7 @@ userAgent
 var
 promptMediaMessageClasses
 =
-React
-.
-addons
-.
-classSet
+classNames
 (
 {
 "
