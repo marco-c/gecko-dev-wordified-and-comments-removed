@@ -309,6 +309,12 @@ mErrored
 =
 false
 ;
+Atomic
+<
+bool
+>
+mPlaybackComplete
+;
 }
 ;
 }

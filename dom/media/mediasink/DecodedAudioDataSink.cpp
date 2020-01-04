@@ -177,6 +177,10 @@ mPlaying
 (
 true
 )
+mPlaybackComplete
+(
+false
+)
 {
 }
 DecodedAudioDataSink
@@ -486,6 +490,9 @@ mPlaying
 =
 =
 aPlaying
+|
+|
+mPlaybackComplete
 )
 {
 return
@@ -1542,6 +1549,10 @@ SINK_LOG
 Drained
 "
 )
+;
+mPlaybackComplete
+=
+true
 ;
 mEndPromise
 .
