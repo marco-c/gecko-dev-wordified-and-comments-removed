@@ -212,7 +212,7 @@ CL_EXPECT_GZIP
 ce
 :
 "
-brotli
+br
 "
 body
 :
@@ -248,7 +248,7 @@ CL_EXPECT_FAILURE
 ce
 :
 "
-brotli
+br
 "
 body
 :
@@ -276,7 +276,7 @@ flags
 ce
 :
 "
-brotli
+br
 "
 body
 :
@@ -608,7 +608,7 @@ encoding
 "
 gzip
 deflate
-brotli
+br
 "
 )
 ;

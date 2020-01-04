@@ -5822,7 +5822,7 @@ devtools
 defaultColorUnit
 "
 "
-authored
+hex
 "
 )
 ;
@@ -8657,7 +8657,7 @@ secure
 "
 gzip
 deflate
-brotli
+br
 "
 )
 ;
