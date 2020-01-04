@@ -454,10 +454,8 @@ int
 aSkippedBytes
 )
 ;
-RefPtr
-<
-MediaRawData
->
+ogg_packet
+*
 GetNextPacket
 (
 TrackInfo
