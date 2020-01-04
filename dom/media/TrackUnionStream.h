@@ -58,6 +58,17 @@ aFlags
 )
 override
 ;
+virtual
+void
+ForwardTrackEnabled
+(
+TrackID
+aOutputID
+bool
+aEnabled
+)
+override
+;
 protected
 :
 struct

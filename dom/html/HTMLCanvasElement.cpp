@@ -2496,7 +2496,7 @@ nullptr
 stream
 -
 >
-CreateOwnDOMTrack
+CreateDOMTrack
 (
 videoTrackId
 MediaSegment

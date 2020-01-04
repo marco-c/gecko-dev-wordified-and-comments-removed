@@ -38,13 +38,6 @@ TRACK_INVALID
 -
 1
 ;
-const
-TrackID
-TRACK_ANY
-=
--
-2
-;
 inline
 TrackTicks
 RateConvertTicksRoundDown

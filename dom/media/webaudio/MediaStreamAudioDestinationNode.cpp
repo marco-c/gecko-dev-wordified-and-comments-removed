@@ -127,7 +127,7 @@ Graph
 mDOMStream
 -
 >
-CreateOwnDOMTrack
+CreateDOMTrack
 (
 AudioNodeStream
 :
@@ -146,7 +146,7 @@ outputStream
 mDOMStream
 -
 >
-GetInputStream
+GetStream
 (
 )
 -
@@ -195,10 +195,6 @@ outputStream
 AllocateInputPort
 (
 mStream
-AudioNodeStream
-:
-:
-AUDIO_TRACK
 )
 ;
 nsIDocument

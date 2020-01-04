@@ -6580,7 +6580,7 @@ GetMediaStream
 )
 -
 >
-GetInputStream
+GetStream
 (
 )
 -

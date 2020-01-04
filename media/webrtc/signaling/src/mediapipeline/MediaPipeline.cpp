@@ -3468,7 +3468,7 @@ void
 domstream
 -
 >
-GetOwnedStream
+GetStream
 (
 )
 )
@@ -3532,7 +3532,7 @@ stream_
 domstream
 -
 >
-GetOwnedStream
+GetStream
 (
 )
 ;
@@ -4468,11 +4468,6 @@ const
 MediaSegment
 &
 queued_media
-MediaStream
-*
-aInputStream
-TrackID
-aInputTrackID
 )
 {
 MOZ_MTLOG

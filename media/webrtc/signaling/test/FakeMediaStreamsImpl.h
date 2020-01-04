@@ -571,9 +571,6 @@ nullptr
 0
 0
 segment
-nullptr
--
-1
 )
 ;
 }
