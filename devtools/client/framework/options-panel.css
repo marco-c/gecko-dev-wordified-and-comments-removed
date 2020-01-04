@@ -292,7 +292,9 @@ align
 -
 items
 :
-baseline
+flex
+-
+end
 ;
 }
 .
