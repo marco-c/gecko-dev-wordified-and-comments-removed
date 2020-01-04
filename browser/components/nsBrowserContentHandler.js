@@ -3964,6 +3964,8 @@ dch_handle
 cmdLine
 )
 {
+try
+{
 if
 (
 cmdLine
@@ -3986,8 +3988,6 @@ false
 )
 )
 {
-try
-{
 Services
 .
 telemetry
@@ -4004,12 +4004,12 @@ add
 )
 ;
 }
+}
 catch
 (
 e
 )
 {
-}
 }
 var
 urilist
