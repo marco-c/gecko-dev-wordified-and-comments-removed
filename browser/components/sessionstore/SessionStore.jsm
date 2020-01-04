@@ -13564,6 +13564,17 @@ true
 "
 )
 ;
+this
+.
+_crashedBrowsers
+.
+delete
+(
+browser
+.
+permanentKey
+)
+;
 TabStateCache
 .
 update
