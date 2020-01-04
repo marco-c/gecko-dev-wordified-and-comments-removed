@@ -1189,6 +1189,8 @@ const
 nsID
 &
 aUUID
+bool
+aForced
 )
 {
 MessagePortServiceData
@@ -1274,6 +1276,10 @@ destinationData
 ;
 if
 (
+!
+aForced
+&
+&
 mPorts
 .
 Get
@@ -1330,6 +1336,7 @@ aUUID
 CloseAll
 (
 destinationUUID
+aForced
 )
 ;
 if
@@ -1810,6 +1817,7 @@ false
 CloseAll
 (
 aUUID
+true
 )
 ;
 return
