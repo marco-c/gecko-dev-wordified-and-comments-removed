@@ -5,6 +5,13 @@ nsBackdropFrame
 .
 h
 "
+#
+include
+"
+nsDisplayList
+.
+h
+"
 using
 namespace
 mozilla

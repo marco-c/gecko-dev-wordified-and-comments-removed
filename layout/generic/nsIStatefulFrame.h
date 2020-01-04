@@ -7,6 +7,13 @@ _nsIStatefulFrame_h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsQueryFrame
 .
 h
