@@ -83,7 +83,6 @@ var
 {
 EventManager
 ignoreEvent
-runSafe
 }
 =
 ExtensionUtils
@@ -442,7 +441,6 @@ getPlatformInfo
 :
 function
 (
-callback
 )
 {
 let
@@ -539,10 +537,11 @@ os
 arch
 }
 ;
-runSafe
+return
+Promise
+.
+resolve
 (
-context
-callback
 info
 )
 ;
