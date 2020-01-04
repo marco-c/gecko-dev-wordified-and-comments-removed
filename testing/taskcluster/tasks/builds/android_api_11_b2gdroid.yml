@@ -127,6 +127,12 @@ cache
 :
 build
 -
+{
+{
+project
+}
+}
+-
 android
 -
 api
@@ -205,6 +211,12 @@ docker_image
 cache
 :
 build
+-
+{
+{
+project
+}
+}
 -
 android
 -
