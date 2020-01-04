@@ -2031,6 +2031,16 @@ lastPosition
 position
 )
 ;
+if
+(
+!
+mIsWatchPositionRequest
+)
+{
+return
+NS_OK
+;
+}
 }
 else
 {
@@ -2064,6 +2074,7 @@ return
 NS_OK
 ;
 }
+}
 nsresult
 rv
 =
@@ -2096,7 +2107,6 @@ POSITION_UNAVAILABLE
 return
 NS_OK
 ;
-}
 }
 if
 (
