@@ -14,9 +14,3 @@ engine
 system
 -
 purpose
-engine
--
-chromeicon
-engine
--
-resourceicon
