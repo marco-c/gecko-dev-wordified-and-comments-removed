@@ -3475,6 +3475,9 @@ mTrickle
 bool
 mNegotiationNeeded
 ;
+bool
+mPrivateWindow
+;
 uint16_t
 mMaxReceiving
 [

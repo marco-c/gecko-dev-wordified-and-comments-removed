@@ -1626,13 +1626,6 @@ NR_reg_init
 NR_REG_MODE_LOCAL
 )
 ;
-RLogRingBuffer
-:
-:
-CreateInstance
-(
-)
-;
 nr_crypto_vtbl
 =
 &
