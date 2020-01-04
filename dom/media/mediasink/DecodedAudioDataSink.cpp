@@ -1545,7 +1545,7 @@ Drained
 ;
 mEndPromise
 .
-Resolve
+ResolveIfExists
 (
 true
 __func__
