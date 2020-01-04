@@ -3062,10 +3062,6 @@ ChangeDelayLoadStatus
 false
 )
 ;
-UpdateAudioChannelPlayingState
-(
-)
-;
 }
 typedef
 void
@@ -15616,10 +15612,6 @@ ChangeDelayLoadStatus
 false
 )
 ;
-UpdateAudioChannelPlayingState
-(
-)
-;
 }
 void
 HTMLMediaElement
@@ -21051,15 +21043,6 @@ mPaused
 Muted
 (
 )
-)
-{
-return
-false
-;
-}
-if
-(
-mError
 )
 {
 return
