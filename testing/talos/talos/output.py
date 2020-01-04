@@ -3170,6 +3170,15 @@ unit
 '
 ]
                 
+if
+len
+(
+tresults
+)
+>
+1
+:
+                    
 suite
 [
 '
@@ -3181,8 +3190,8 @@ self
 .
 construct_results
 (
+                        
 vals
-                                                        
 testname
 =
 test
