@@ -412,8 +412,12 @@ InitStatics
 (
 )
 ;
+explicit
 MediaDecoder
 (
+MediaDecoderOwner
+*
+aOwner
 )
 ;
 virtual

@@ -26,8 +26,12 @@ MediaDecoder
 {
 public
 :
+explicit
 MP4Decoder
 (
+MediaDecoderOwner
+*
+aOwner
 )
 ;
 virtual

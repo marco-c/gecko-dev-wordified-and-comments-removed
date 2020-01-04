@@ -188,6 +188,14 @@ DirectShowDecoder
 :
 DirectShowDecoder
 (
+MediaDecoderOwner
+*
+aOwner
+)
+:
+MediaDecoder
+(
+aOwner
 )
 {
 MOZ_COUNT_CTOR

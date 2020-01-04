@@ -35,12 +35,17 @@ MediaDecoder
 {
 public
 :
+explicit
 RtspOmxDecoder
 (
+MediaDecoderOwner
+*
+aOwner
 )
 :
 MediaDecoder
 (
+aOwner
 )
 {
 MOZ_COUNT_CTOR

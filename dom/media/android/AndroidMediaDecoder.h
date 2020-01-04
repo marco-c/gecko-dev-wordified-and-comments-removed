@@ -38,6 +38,9 @@ public
 :
 AndroidMediaDecoder
 (
+MediaDecoderOwner
+*
+aOwner
 const
 nsACString
 &
