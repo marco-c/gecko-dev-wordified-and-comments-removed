@@ -115,6 +115,11 @@ TestChunkSet
 cpp
 '
 '
+TestSafeBrowsingProtobuf
+.
+cpp
+'
+'
 TestUrlClassifierUtils
 .
 cpp
