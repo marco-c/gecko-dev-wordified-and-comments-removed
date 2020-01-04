@@ -195,6 +195,17 @@ AddrType
 )
 ;
 }
+enum
+Direction
+{
+kSend
+=
+1
+kRecv
+=
+2
+}
+;
 }
 }
 #

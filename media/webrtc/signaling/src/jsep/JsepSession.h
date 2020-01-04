@@ -77,7 +77,7 @@ h
 namespace
 mozilla
 {
-struct
+class
 JsepCodecDescription
 ;
 class

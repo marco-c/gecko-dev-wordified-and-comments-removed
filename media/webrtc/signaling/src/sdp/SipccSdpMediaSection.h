@@ -403,7 +403,7 @@ SdpErrorHolder
 errorHolder
 )
 ;
-void
+bool
 LoadFormats
 (
 sdp_t
@@ -411,6 +411,9 @@ sdp_t
 sdp
 uint16_t
 level
+SdpErrorHolder
+&
+errorHolder
 )
 ;
 MediaType
