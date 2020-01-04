@@ -57,7 +57,7 @@ namespace
 mozilla
 {
 struct
-nsTableCellReflowState
+TableCellReflowInput
 ;
 }
 class
@@ -67,12 +67,12 @@ public
 nsContainerFrame
 {
 using
-nsTableCellReflowState
+TableCellReflowInput
 =
 mozilla
 :
 :
-nsTableCellReflowState
+TableCellReflowInput
 ;
 public
 :
@@ -819,7 +819,7 @@ LogicalSize
 aAvailSize
 bool
 aBorderCollapse
-nsTableCellReflowState
+TableCellReflowInput
 &
 aReflowState
 )

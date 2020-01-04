@@ -130,7 +130,7 @@ namespace
 mozilla
 {
 struct
-nsRowGroupReflowState
+TableRowGroupReflowInput
 {
 const
 ReflowInput
@@ -150,7 +150,7 @@ availSize
 nscoord
 bCoord
 ;
-nsRowGroupReflowState
+TableRowGroupReflowInput
 (
 const
 ReflowInput
@@ -194,7 +194,7 @@ bCoord
 {
 }
 ~
-nsRowGroupReflowState
+TableRowGroupReflowInput
 (
 )
 {
@@ -1290,7 +1290,7 @@ PlaceChild
 nsPresContext
 *
 aPresContext
-nsRowGroupReflowState
+TableRowGroupReflowInput
 &
 aReflowState
 nsIFrame
@@ -1584,7 +1584,7 @@ aPresContext
 nsHTMLReflowMetrics
 &
 aDesiredSize
-nsRowGroupReflowState
+TableRowGroupReflowInput
 &
 aReflowState
 nsReflowStatus
@@ -4616,7 +4616,7 @@ nsTableRowGroupFrame
 :
 SlideChild
 (
-nsRowGroupReflowState
+TableRowGroupReflowInput
 &
 aReflowState
 nsIFrame
@@ -6816,7 +6816,7 @@ GetTableFrame
 (
 )
 ;
-nsRowGroupReflowState
+TableRowGroupReflowInput
 state
 (
 aReflowState
