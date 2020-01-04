@@ -12350,6 +12350,10 @@ uint32_t
 aIndex
 =
 0
+bool
+aIsFullyVisible
+=
+false
 )
 ;
 nsDisplayTransform
@@ -13055,11 +13059,6 @@ nsDisplayListBuilder
 aBuilder
 )
 ;
-bool
-ShouldPrerender
-(
-)
-;
 virtual
 void
 WriteDebugInfo
@@ -13340,9 +13339,6 @@ bool
 mHasBounds
 ;
 bool
-mPrerender
-;
-bool
 mNoExtendContext
 ;
 bool
@@ -13350,6 +13346,9 @@ mIsTransformSeparator
 ;
 bool
 mTransformPreserves3DInited
+;
+bool
+mIsFullyVisible
 ;
 }
 ;
