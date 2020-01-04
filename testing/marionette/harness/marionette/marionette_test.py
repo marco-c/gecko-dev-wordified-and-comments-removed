@@ -5467,6 +5467,12 @@ self
 .
 methodName
 )
+                                       
+sandbox
+=
+"
+simpletest
+"
 )
     
 def
@@ -5545,6 +5551,12 @@ self
 .
 methodName
 )
+                                               
+sandbox
+=
+"
+simpletest
+"
 )
                 
 self
@@ -5925,6 +5937,7 @@ marionette
 .
 execute_script
 (
+            
 "
 log
 (
@@ -5957,6 +5970,12 @@ replace
 \
 '
 )
+            
+sandbox
+=
+"
+simpletest
+"
 )
         
 self
@@ -5974,6 +5993,7 @@ marionette
 .
 execute_script
 (
+            
 "
 log
 (
@@ -6006,6 +6026,12 @@ replace
 \
 '
 )
+            
+sandbox
+=
+"
+simpletest
+"
 )
         
 self
