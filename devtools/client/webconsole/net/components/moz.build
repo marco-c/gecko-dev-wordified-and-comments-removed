@@ -221,4 +221,11 @@ spinner
 .
 js
 '
+'
+stacktrace
+-
+tab
+.
+js
+'
 )

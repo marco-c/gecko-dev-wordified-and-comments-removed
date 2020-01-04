@@ -7065,11 +7065,9 @@ NetRequest
 onNetworkEvent
 (
 {
-client
+consoleFrame
 :
 this
-.
-webConsoleClient
 response
 :
 networkInfo
