@@ -1140,11 +1140,7 @@ enum
 EvalType
 {
 DIRECT_EVAL
-=
-EXECUTE_DIRECT_EVAL
 INDIRECT_EVAL
-=
-EXECUTE_INDIRECT_EVAL
 }
 ;
 static
@@ -1821,10 +1817,6 @@ script
 *
 scopeobj
 newTargetVal
-ExecuteType
-(
-evalType
-)
 NullFramePtr
 (
 )
@@ -2291,10 +2283,6 @@ script
 *
 scopeobj
 newTargetValue
-ExecuteType
-(
-DIRECT_EVAL
-)
 NullFramePtr
 (
 )
@@ -2819,7 +2807,6 @@ scope
 UndefinedValue
 (
 )
-EXECUTE_GLOBAL_OR_MODULE
 NullFramePtr
 (
 )
