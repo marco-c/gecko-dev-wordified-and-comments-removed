@@ -1331,7 +1331,7 @@ t
 aWindow
 -
 >
-DispatchInputEvent
+DispatchAPZAwareEvent
 (
 &
 event

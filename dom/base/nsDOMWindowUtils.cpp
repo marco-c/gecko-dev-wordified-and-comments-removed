@@ -3665,7 +3665,7 @@ presContext
 widget
 -
 >
-DispatchInputEvent
+DispatchAPZAwareEvent
 (
 &
 wheelEvent

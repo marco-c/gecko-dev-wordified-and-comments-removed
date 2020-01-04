@@ -15327,7 +15327,7 @@ aEvent
 nsEventStatus
 status
 =
-DispatchInputEvent
+DispatchAPZAwareEvent
 (
 aEvent
 -
@@ -16709,7 +16709,7 @@ result
 =
 ConvertStatus
 (
-DispatchInputEvent
+DispatchAPZAwareEvent
 (
 &
 event
@@ -25715,7 +25715,7 @@ ToWidgetTouchEvent
 this
 )
 ;
-DispatchInputEvent
+DispatchAPZAwareEvent
 (
 &
 widgetTouchEvent
@@ -25744,7 +25744,7 @@ ToWidgetTouchEvent
 this
 )
 ;
-DispatchInputEvent
+DispatchAPZAwareEvent
 (
 &
 widgetTouchEvent
