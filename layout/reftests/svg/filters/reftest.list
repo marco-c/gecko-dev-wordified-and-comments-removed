@@ -524,15 +524,6 @@ if
 (
 d2d
 )
-pref
-(
-layers
-.
-acceleration
-.
-disabled
-true
-)
 =
 =
 feGaussianBlur
