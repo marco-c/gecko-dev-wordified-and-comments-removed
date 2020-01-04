@@ -170,8 +170,6 @@ item
 name
 =
 "
-android
-:
 windowActionBar
 "
 >
@@ -185,8 +183,6 @@ item
 name
 =
 "
-android
-:
 windowNoTitle
 "
 >
