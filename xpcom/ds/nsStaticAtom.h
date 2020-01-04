@@ -113,7 +113,7 @@ template
 uint32_t
 N
 >
-nsresult
+void
 NS_RegisterStaticAtoms
 (
 const
@@ -128,7 +128,7 @@ N
 )
 {
 extern
-nsresult
+void
 RegisterStaticAtoms
 (
 const
@@ -138,7 +138,6 @@ uint32_t
 aAtomCount
 )
 ;
-return
 RegisterStaticAtoms
 (
 aAtoms
