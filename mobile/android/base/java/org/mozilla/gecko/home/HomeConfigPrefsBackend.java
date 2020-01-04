@@ -823,7 +823,7 @@ type
 =
 PanelType
 .
-REMOTE_TABS
+DEPRECATED_REMOTE_TABS
 )
 {
 syncIndex
@@ -1502,7 +1502,7 @@ context
 jsonPanels
 PanelType
 .
-REMOTE_TABS
+DEPRECATED_REMOTE_TABS
 Position
 .
 FRONT
