@@ -3785,7 +3785,7 @@ inputState
 CHECKED
 ;
 }
-if
+else
 (
 isCheckbox
 &
