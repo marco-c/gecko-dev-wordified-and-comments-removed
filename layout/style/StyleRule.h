@@ -1243,16 +1243,6 @@ StyleRule
 aCopy
 )
 ;
-StyleRule
-(
-StyleRule
-&
-aCopy
-Declaration
-*
-aDeclaration
-)
-;
 public
 :
 NS_DECLARE_STATIC_IID_ACCESSOR
