@@ -175,9 +175,9 @@ require
 "
 devtools
 /
-server
+shared
 /
-actors
+fronts
 /
 director
 -

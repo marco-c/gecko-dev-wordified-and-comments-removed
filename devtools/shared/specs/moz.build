@@ -147,6 +147,13 @@ device
 js
 '
 '
+director
+-
+manager
+.
+js
+'
+'
 environment
 .
 js

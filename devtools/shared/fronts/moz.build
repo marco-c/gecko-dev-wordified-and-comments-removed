@@ -142,6 +142,13 @@ device
 js
 '
 '
+director
+-
+manager
+.
+js
+'
+'
 highlighters
 .
 js
