@@ -3,7 +3,7 @@ marionette_driver
 .
 errors
 import
-MarionetteException
+UnsupportedOperationException
 from
 marionette
 import
@@ -386,10 +386,12 @@ self
 .
 assertRaisesRegexp
 (
-MarionetteException
+UnsupportedOperationException
 "
-Invalid
-requested
+Requested
+size
+exceeds
+screen
 size
 "
 )
