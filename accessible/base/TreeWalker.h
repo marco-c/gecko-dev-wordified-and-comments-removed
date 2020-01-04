@@ -76,9 +76,16 @@ TreeWalker
 Accessible
 *
 aContext
+)
+;
+TreeWalker
+(
+Accessible
+*
+aContext
 nsIContent
 *
-aNode
+aAnchorNode
 uint32_t
 aFlags
 =

@@ -1019,13 +1019,6 @@ LastRelease
 )
 ;
 virtual
-void
-CacheChildren
-(
-)
-override
-;
-virtual
 nsresult
 AddEventListeners
 (
