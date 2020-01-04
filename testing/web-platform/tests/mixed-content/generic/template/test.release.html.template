@@ -113,6 +113,11 @@ test_description
 s
 "
 >
+%
+(
+meta_opt_in
+)
+s
 <
 script
 src
