@@ -1,3 +1,16 @@
+#
+clip
+-
+path
+tests
+include
+clip
+-
+path
+/
+reftest
+.
+list
 =
 =
 clipPath
