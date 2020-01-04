@@ -275,6 +275,16 @@ aName
 )
 ;
 static
+bool
+RemoveVolumeByName
+(
+const
+nsCSubstring
+&
+aName
+)
+;
+static
 void
 InitConfig
 (
