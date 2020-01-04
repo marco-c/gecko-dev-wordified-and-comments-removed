@@ -3604,9 +3604,9 @@ this
 columns
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Can

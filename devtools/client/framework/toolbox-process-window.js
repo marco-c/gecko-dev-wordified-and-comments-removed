@@ -636,9 +636,9 @@ hidden
 =
 false
 ;
-Cu
+console
 .
-reportError
+error
 (
 e
 )
@@ -1307,9 +1307,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )

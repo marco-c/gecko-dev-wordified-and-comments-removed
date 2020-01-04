@@ -1084,9 +1084,9 @@ if
 model
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 console
@@ -1126,9 +1126,9 @@ function
 (
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Profiler

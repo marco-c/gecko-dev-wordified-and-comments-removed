@@ -5,7 +5,6 @@ strict
 ;
 const
 {
-Cu
 Cc
 Ci
 }
@@ -281,9 +280,9 @@ options
 .
 defaultFileName
 ;
-Cu
+console
 .
-reportError
+error
 (
 msg
 )
@@ -565,9 +564,9 @@ onError
 err
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 err
 )
@@ -636,9 +635,9 @@ catch
 err
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 err
 )

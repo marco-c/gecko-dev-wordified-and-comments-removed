@@ -12139,9 +12139,9 @@ aValue
 ;
 default
 :
-Cu
+console
 .
-reportError
+error
 (
 "
 Failed

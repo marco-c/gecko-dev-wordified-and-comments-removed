@@ -201,9 +201,9 @@ if
 front
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 No

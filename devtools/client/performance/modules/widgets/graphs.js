@@ -2011,9 +2011,9 @@ if
 data
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 FrameNode
 #

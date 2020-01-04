@@ -1004,9 +1004,9 @@ nsIXULRuntime
 PROCESS_TYPE_DEFAULT
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 The

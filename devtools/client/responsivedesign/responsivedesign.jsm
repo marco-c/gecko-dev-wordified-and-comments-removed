@@ -1599,9 +1599,12 @@ if
 tabClient
 )
 {
-Cu
+console
 .
-reportError
+error
+(
+new
+Error
 (
 "
 Responsive
@@ -1612,6 +1615,7 @@ to
 attach
 tab
 "
+)
 )
 ;
 }
@@ -1676,9 +1680,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Could
@@ -1741,9 +1745,9 @@ presets
 }
 else
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 Presets

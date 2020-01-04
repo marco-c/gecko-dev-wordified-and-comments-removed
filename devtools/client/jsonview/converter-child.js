@@ -579,9 +579,9 @@ catch
 err
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 err
 )
@@ -755,9 +755,9 @@ catch
 e
 )
 {
-Cu
+console
 .
-reportError
+error
 (
 "
 JSON

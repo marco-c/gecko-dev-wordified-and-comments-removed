@@ -30,7 +30,6 @@ const
 {
 Cc
 Ci
-Cu
 }
 =
 require
@@ -357,9 +356,9 @@ e
 =
 >
 {
-Cu
+console
 .
-reportError
+error
 (
 e
 )

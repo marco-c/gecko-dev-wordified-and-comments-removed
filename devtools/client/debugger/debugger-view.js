@@ -2793,11 +2793,15 @@ error
 msg
 )
 ;
-Cu
+console
 .
-reportError
+error
+(
+new
+Error
 (
 msg
+)
 )
 ;
 dumpn
