@@ -2440,14 +2440,14 @@ false
 static
 const
 size_t
-AsmJSCheckedImmediateRange
+WasmCheckedImmediateRange
 =
 4096
 ;
 static
 const
 size_t
-AsmJSImmediateRange
+WasmImmediateRange
 =
 UINT32_C
 (

@@ -1302,14 +1302,14 @@ true
 static
 const
 size_t
-AsmJSCheckedImmediateRange
+WasmCheckedImmediateRange
 =
 0
 ;
 static
 const
 size_t
-AsmJSImmediateRange
+WasmImmediateRange
 =
 0
 ;

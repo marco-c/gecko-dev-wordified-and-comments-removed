@@ -30,7 +30,7 @@ include
 "
 asmjs
 /
-AsmJS
+Wasm
 .
 h
 "
@@ -5104,7 +5104,7 @@ heap
 (
 )
 +
-AsmJSMappedSize
+MappedSize
 "
 Access
 extends
@@ -5720,7 +5720,7 @@ heap
 (
 )
 +
-AsmJSMappedSize
+MappedSize
 )
 {
 return
@@ -6423,7 +6423,7 @@ heap
 (
 )
 +
-AsmJSMappedSize
+MappedSize
 )
 {
 return
@@ -7370,7 +7370,7 @@ heap
 (
 )
 +
-AsmJSMappedSize
+MappedSize
 )
 {
 return
