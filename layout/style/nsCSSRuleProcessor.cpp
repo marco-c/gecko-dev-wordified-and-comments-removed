@@ -13346,6 +13346,15 @@ nsGkAtoms
 :
 :
 _class
+&
+&
+aData
+-
+>
+mNameSpaceID
+=
+=
+kNameSpaceID_None
 )
 {
 const
