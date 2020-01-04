@@ -20808,6 +20808,10 @@ HandleObject
 stack
 MutableHandleString
 stringp
+size_t
+indent
+=
+0
 )
 ;
 }
