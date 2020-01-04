@@ -518,10 +518,6 @@ mDumpFile
 (
 nullptr
 )
-mBytesPerFrame
-(
-0
-)
 mState
 (
 INITIALIZED
@@ -1591,15 +1587,6 @@ format
 CUBEB_SAMPLE_FLOAT32NE
 ;
 }
-mBytesPerFrame
-=
-sizeof
-(
-AudioDataValue
-)
-*
-mOutChannels
-;
 mAudioClock
 .
 Init
