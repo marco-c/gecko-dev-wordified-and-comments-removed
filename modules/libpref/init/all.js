@@ -38950,6 +38950,16 @@ minHeight
 pref
 (
 "
+webextensions
+.
+tests
+"
+false
+)
+;
+pref
+(
+"
 dom
 .
 input
