@@ -70,6 +70,16 @@ pushPrefs
 (
 [
 "
+dom
+.
+ipc
+.
+processCount
+"
+1
+]
+[
+"
 browser
 .
 tabs
