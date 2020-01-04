@@ -31,6 +31,7 @@ hb
 h
 "
 HB_BEGIN_DECLS
+HB_EXTERN
 void
 hb_ot_shape_glyphs_closure
 (
@@ -52,6 +53,7 @@ hb_set_t
 glyphs
 )
 ;
+HB_EXTERN
 void
 hb_ot_shape_plan_collect_lookups
 (

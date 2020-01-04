@@ -554,7 +554,7 @@ x_offset
 pos
 -
 >
-x_offset
+y_offset
 pos
 -
 >

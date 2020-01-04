@@ -114,6 +114,7 @@ T
 F
 '
 )
+HB_EXTERN
 hb_bool_t
 hb_ot_layout_has_glyph_classes
 (
@@ -143,6 +144,7 @@ HB_OT_LAYOUT_GLYPH_CLASS_COMPONENT
 }
 hb_ot_layout_glyph_class_t
 ;
+HB_EXTERN
 hb_ot_layout_glyph_class_t
 hb_ot_layout_get_glyph_class
 (
@@ -153,6 +155,7 @@ hb_codepoint_t
 glyph
 )
 ;
+HB_EXTERN
 void
 hb_ot_layout_get_glyphs_in_class
 (
@@ -166,6 +169,7 @@ hb_set_t
 glyphs
 )
 ;
+HB_EXTERN
 unsigned
 int
 hb_ot_layout_get_attach_points
@@ -188,6 +192,7 @@ int
 point_array
 )
 ;
+HB_EXTERN
 unsigned
 int
 hb_ot_layout_get_ligature_carets
@@ -223,6 +228,7 @@ HB_OT_LAYOUT_NO_FEATURE_INDEX
 define
 HB_OT_LAYOUT_DEFAULT_LANGUAGE_INDEX
 0xFFFFu
+HB_EXTERN
 unsigned
 int
 hb_ot_layout_table_get_script_tags
@@ -244,6 +250,7 @@ hb_tag_t
 script_tags
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_ot_layout_table_find_script
 (
@@ -260,6 +267,7 @@ int
 script_index
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_ot_layout_table_choose_script
 (
@@ -281,6 +289,7 @@ hb_tag_t
 chosen_script
 )
 ;
+HB_EXTERN
 unsigned
 int
 hb_ot_layout_table_get_feature_tags
@@ -302,6 +311,7 @@ hb_tag_t
 feature_tags
 )
 ;
+HB_EXTERN
 unsigned
 int
 hb_ot_layout_script_get_language_tags
@@ -326,6 +336,7 @@ hb_tag_t
 language_tags
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_ot_layout_script_find_language
 (
@@ -345,6 +356,7 @@ int
 language_index
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_ot_layout_language_get_required_feature_index
 (
@@ -365,6 +377,7 @@ int
 feature_index
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_ot_layout_language_get_required_feature
 (
@@ -388,6 +401,7 @@ hb_tag_t
 feature_tag
 )
 ;
+HB_EXTERN
 unsigned
 int
 hb_ot_layout_language_get_feature_indexes
@@ -416,6 +430,7 @@ int
 feature_indexes
 )
 ;
+HB_EXTERN
 unsigned
 int
 hb_ot_layout_language_get_feature_tags
@@ -443,6 +458,7 @@ hb_tag_t
 feature_tags
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_ot_layout_language_find_feature
 (
@@ -465,6 +481,7 @@ int
 feature_index
 )
 ;
+HB_EXTERN
 unsigned
 int
 hb_ot_layout_feature_get_lookups
@@ -490,6 +507,7 @@ int
 lookup_indexes
 )
 ;
+HB_EXTERN
 unsigned
 int
 hb_ot_layout_table_get_lookup_count
@@ -501,6 +519,7 @@ hb_tag_t
 table_tag
 )
 ;
+HB_EXTERN
 void
 hb_ot_layout_collect_lookups
 (
@@ -526,6 +545,7 @@ hb_set_t
 lookup_indexes
 )
 ;
+HB_EXTERN
 void
 hb_ot_layout_lookup_collect_glyphs
 (
@@ -605,6 +625,7 @@ void
 user_data
 )
 ;
+HB_EXTERN
 void
 Xhb_ot_layout_lookup_enumerate_sequences
 (
@@ -625,6 +646,7 @@ user_data
 ;
 #
 endif
+HB_EXTERN
 hb_bool_t
 hb_ot_layout_has_substitution
 (
@@ -633,6 +655,7 @@ hb_face_t
 face
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_ot_layout_lookup_would_substitute
 (
@@ -653,6 +676,7 @@ hb_bool_t
 zero_context
 )
 ;
+HB_EXTERN
 void
 hb_ot_layout_lookup_substitute_closure
 (
@@ -670,6 +694,7 @@ glyphs
 #
 ifdef
 HB_NOT_IMPLEMENTED
+HB_EXTERN
 hb_bool_t
 Xhb_ot_layout_lookup_substitute
 (
@@ -701,6 +726,7 @@ out_length
 ;
 #
 endif
+HB_EXTERN
 hb_bool_t
 hb_ot_layout_has_positioning
 (
@@ -712,6 +738,7 @@ face
 #
 ifdef
 HB_NOT_IMPLEMENTED
+HB_EXTERN
 hb_bool_t
 Xhb_ot_layout_lookup_position
 (
@@ -732,6 +759,7 @@ positions
 ;
 #
 endif
+HB_EXTERN
 hb_bool_t
 hb_ot_layout_get_size_params
 (

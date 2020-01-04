@@ -445,10 +445,6 @@ size
 )
 #
 define
-VAR
-1
-#
-define
 DEFINE_SIZE_UNION
 (
 size
@@ -949,7 +945,7 @@ HB_SANITIZE_MAX_EDITS
 #
 define
 HB_SANITIZE_MAX_EDITS
-8
+32
 #
 endif
 struct

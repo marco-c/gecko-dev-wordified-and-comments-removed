@@ -4288,6 +4288,12 @@ hr
 =
 =
 E_OUTOFMEMORY
+|
+|
+hr
+=
+=
+E_NOT_SUFFICIENT_BUFFER
 )
 )
 {
@@ -4929,6 +4935,9 @@ x_advance
 =
 x_mult
 *
+(
+int32_t
+)
 info
 -
 >

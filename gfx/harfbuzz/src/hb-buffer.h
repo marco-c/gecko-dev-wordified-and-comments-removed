@@ -131,6 +131,7 @@ NULL
 \
 NULL
 }
+HB_EXTERN
 hb_bool_t
 hb_segment_properties_equal
 (
@@ -144,6 +145,7 @@ hb_segment_properties_t
 b
 )
 ;
+HB_EXTERN
 unsigned
 int
 hb_segment_properties_hash
@@ -159,6 +161,7 @@ struct
 hb_buffer_t
 hb_buffer_t
 ;
+HB_EXTERN
 hb_buffer_t
 *
 hb_buffer_create
@@ -166,6 +169,7 @@ hb_buffer_create
 void
 )
 ;
+HB_EXTERN
 hb_buffer_t
 *
 hb_buffer_get_empty
@@ -173,6 +177,7 @@ hb_buffer_get_empty
 void
 )
 ;
+HB_EXTERN
 hb_buffer_t
 *
 hb_buffer_reference
@@ -182,6 +187,7 @@ hb_buffer_t
 buffer
 )
 ;
+HB_EXTERN
 void
 hb_buffer_destroy
 (
@@ -190,6 +196,7 @@ hb_buffer_t
 buffer
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_buffer_set_user_data
 (
@@ -208,6 +215,7 @@ hb_bool_t
 replace
 )
 ;
+HB_EXTERN
 void
 *
 hb_buffer_get_user_data
@@ -231,6 +239,7 @@ HB_BUFFER_CONTENT_TYPE_GLYPHS
 }
 hb_buffer_content_type_t
 ;
+HB_EXTERN
 void
 hb_buffer_set_content_type
 (
@@ -241,6 +250,7 @@ hb_buffer_content_type_t
 content_type
 )
 ;
+HB_EXTERN
 hb_buffer_content_type_t
 hb_buffer_get_content_type
 (
@@ -249,6 +259,7 @@ hb_buffer_t
 buffer
 )
 ;
+HB_EXTERN
 void
 hb_buffer_set_unicode_funcs
 (
@@ -260,6 +271,7 @@ hb_unicode_funcs_t
 unicode_funcs
 )
 ;
+HB_EXTERN
 hb_unicode_funcs_t
 *
 hb_buffer_get_unicode_funcs
@@ -269,6 +281,7 @@ hb_buffer_t
 buffer
 )
 ;
+HB_EXTERN
 void
 hb_buffer_set_direction
 (
@@ -279,6 +292,7 @@ hb_direction_t
 direction
 )
 ;
+HB_EXTERN
 hb_direction_t
 hb_buffer_get_direction
 (
@@ -287,6 +301,7 @@ hb_buffer_t
 buffer
 )
 ;
+HB_EXTERN
 void
 hb_buffer_set_script
 (
@@ -297,6 +312,7 @@ hb_script_t
 script
 )
 ;
+HB_EXTERN
 hb_script_t
 hb_buffer_get_script
 (
@@ -305,6 +321,7 @@ hb_buffer_t
 buffer
 )
 ;
+HB_EXTERN
 void
 hb_buffer_set_language
 (
@@ -315,6 +332,7 @@ hb_language_t
 language
 )
 ;
+HB_EXTERN
 hb_language_t
 hb_buffer_get_language
 (
@@ -323,6 +341,7 @@ hb_buffer_t
 buffer
 )
 ;
+HB_EXTERN
 void
 hb_buffer_set_segment_properties
 (
@@ -335,6 +354,7 @@ hb_segment_properties_t
 props
 )
 ;
+HB_EXTERN
 void
 hb_buffer_get_segment_properties
 (
@@ -346,6 +366,7 @@ hb_segment_properties_t
 props
 )
 ;
+HB_EXTERN
 void
 hb_buffer_guess_segment_properties
 (
@@ -372,6 +393,7 @@ HB_BUFFER_FLAG_PRESERVE_DEFAULT_IGNORABLES
 }
 hb_buffer_flags_t
 ;
+HB_EXTERN
 void
 hb_buffer_set_flags
 (
@@ -382,6 +404,7 @@ hb_buffer_flags_t
 flags
 )
 ;
+HB_EXTERN
 hb_buffer_flags_t
 hb_buffer_get_flags
 (
@@ -408,6 +431,7 @@ HB_BUFFER_CLUSTER_LEVEL_MONOTONE_GRAPHEMES
 }
 hb_buffer_cluster_level_t
 ;
+HB_EXTERN
 void
 hb_buffer_set_cluster_level
 (
@@ -418,6 +442,7 @@ hb_buffer_cluster_level_t
 cluster_level
 )
 ;
+HB_EXTERN
 hb_buffer_cluster_level_t
 hb_buffer_get_cluster_level
 (
@@ -430,6 +455,7 @@ buffer
 define
 HB_BUFFER_REPLACEMENT_CODEPOINT_DEFAULT
 0xFFFDu
+HB_EXTERN
 void
 hb_buffer_set_replacement_codepoint
 (
@@ -440,6 +466,7 @@ hb_codepoint_t
 replacement
 )
 ;
+HB_EXTERN
 hb_codepoint_t
 hb_buffer_get_replacement_codepoint
 (
@@ -448,6 +475,7 @@ hb_buffer_t
 buffer
 )
 ;
+HB_EXTERN
 void
 hb_buffer_reset
 (
@@ -456,6 +484,7 @@ hb_buffer_t
 buffer
 )
 ;
+HB_EXTERN
 void
 hb_buffer_clear_contents
 (
@@ -464,6 +493,7 @@ hb_buffer_t
 buffer
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_buffer_pre_allocate
 (
@@ -475,6 +505,7 @@ int
 size
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_buffer_allocation_successful
 (
@@ -483,6 +514,7 @@ hb_buffer_t
 buffer
 )
 ;
+HB_EXTERN
 void
 hb_buffer_reverse
 (
@@ -491,6 +523,7 @@ hb_buffer_t
 buffer
 )
 ;
+HB_EXTERN
 void
 hb_buffer_reverse_range
 (
@@ -505,6 +538,7 @@ int
 end
 )
 ;
+HB_EXTERN
 void
 hb_buffer_reverse_clusters
 (
@@ -513,6 +547,7 @@ hb_buffer_t
 buffer
 )
 ;
+HB_EXTERN
 void
 hb_buffer_add
 (
@@ -526,6 +561,7 @@ int
 cluster
 )
 ;
+HB_EXTERN
 void
 hb_buffer_add_utf8
 (
@@ -545,6 +581,7 @@ int
 item_length
 )
 ;
+HB_EXTERN
 void
 hb_buffer_add_utf16
 (
@@ -564,6 +601,7 @@ int
 item_length
 )
 ;
+HB_EXTERN
 void
 hb_buffer_add_utf32
 (
@@ -583,6 +621,7 @@ int
 item_length
 )
 ;
+HB_EXTERN
 void
 hb_buffer_add_latin1
 (
@@ -602,6 +641,7 @@ int
 item_length
 )
 ;
+HB_EXTERN
 void
 hb_buffer_add_codepoints
 (
@@ -621,6 +661,7 @@ int
 item_length
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_buffer_set_length
 (
@@ -632,6 +673,7 @@ int
 length
 )
 ;
+HB_EXTERN
 unsigned
 int
 hb_buffer_get_length
@@ -641,6 +683,7 @@ hb_buffer_t
 buffer
 )
 ;
+HB_EXTERN
 hb_glyph_info_t
 *
 hb_buffer_get_glyph_infos
@@ -654,6 +697,7 @@ int
 length
 )
 ;
+HB_EXTERN
 hb_glyph_position_t
 *
 hb_buffer_get_glyph_positions
@@ -667,6 +711,7 @@ int
 length
 )
 ;
+HB_EXTERN
 void
 hb_buffer_normalize_glyphs
 (
@@ -739,6 +784,7 @@ HB_TAG_NONE
 }
 hb_buffer_serialize_format_t
 ;
+HB_EXTERN
 hb_buffer_serialize_format_t
 hb_buffer_serialize_format_from_string
 (
@@ -750,6 +796,7 @@ int
 len
 )
 ;
+HB_EXTERN
 const
 char
 *
@@ -759,6 +806,7 @@ hb_buffer_serialize_format_t
 format
 )
 ;
+HB_EXTERN
 const
 char
 *
@@ -768,6 +816,7 @@ hb_buffer_serialize_list_formats
 void
 )
 ;
+HB_EXTERN
 unsigned
 int
 hb_buffer_serialize_glyphs
@@ -800,6 +849,7 @@ hb_buffer_serialize_flags_t
 flags
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_buffer_deserialize_glyphs
 (
@@ -822,6 +872,44 @@ hb_font_t
 font
 hb_buffer_serialize_format_t
 format
+)
+;
+typedef
+hb_bool_t
+(
+*
+hb_buffer_message_func_t
+)
+(
+hb_buffer_t
+*
+buffer
+hb_font_t
+*
+font
+const
+char
+*
+message
+void
+*
+user_data
+)
+;
+HB_EXTERN
+void
+hb_buffer_set_message_func
+(
+hb_buffer_t
+*
+buffer
+hb_buffer_message_func_t
+func
+void
+*
+user_data
+hb_destroy_func_t
+destroy
 )
 ;
 HB_END_DECLS

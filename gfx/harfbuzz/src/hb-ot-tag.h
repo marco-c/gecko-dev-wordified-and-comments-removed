@@ -67,6 +67,7 @@ l
 t
 '
 )
+HB_EXTERN
 void
 hb_ot_tags_from_script
 (
@@ -80,6 +81,7 @@ hb_tag_t
 script_tag_2
 )
 ;
+HB_EXTERN
 hb_script_t
 hb_ot_tag_to_script
 (
@@ -87,6 +89,7 @@ hb_tag_t
 tag
 )
 ;
+HB_EXTERN
 hb_tag_t
 hb_ot_tag_from_language
 (
@@ -94,6 +97,7 @@ hb_language_t
 language
 )
 ;
+HB_EXTERN
 hb_language_t
 hb_ot_tag_to_language
 (

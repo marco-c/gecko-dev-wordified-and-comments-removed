@@ -19,6 +19,7 @@ glib
 h
 >
 HB_BEGIN_DECLS
+HB_EXTERN
 hb_script_t
 hb_glib_script_to_script
 (
@@ -26,6 +27,7 @@ GUnicodeScript
 script
 )
 ;
+HB_EXTERN
 GUnicodeScript
 hb_glib_script_from_script
 (
@@ -33,6 +35,7 @@ hb_script_t
 script
 )
 ;
+HB_EXTERN
 hb_unicode_funcs_t
 *
 hb_glib_get_unicode_funcs
@@ -40,6 +43,7 @@ hb_glib_get_unicode_funcs
 void
 )
 ;
+HB_EXTERN
 hb_blob_t
 *
 hb_glib_blob_create

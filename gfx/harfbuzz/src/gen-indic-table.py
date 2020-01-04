@@ -710,6 +710,14 @@ M
 '
 	
 "
+Consonant_Prefixed
+"
+:
+'
+CPrf
+'
+	
+"
 Other
 "
 :

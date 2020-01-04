@@ -42,7 +42,7 @@ HB_VERSION_MINOR
 #
 define
 HB_VERSION_MICRO
-0
+3
 #
 define
 HB_VERSION_STRING
@@ -51,7 +51,7 @@ HB_VERSION_STRING
 .
 1
 .
-0
+3
 "
 #
 define
@@ -91,6 +91,7 @@ HB_VERSION_MINOR
 +
 HB_VERSION_MICRO
 )
+HB_EXTERN
 void
 hb_version
 (
@@ -108,6 +109,7 @@ int
 micro
 )
 ;
+HB_EXTERN
 const
 char
 *
@@ -116,6 +118,7 @@ hb_version_string
 void
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_version_atleast
 (

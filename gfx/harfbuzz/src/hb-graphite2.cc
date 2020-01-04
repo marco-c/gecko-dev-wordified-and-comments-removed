@@ -1690,6 +1690,19 @@ len
 =
 glyph_count
 ;
+float
+yscale
+=
+font
+-
+>
+y_scale
+/
+font
+-
+>
+x_scale
+;
 if
 (
 !
@@ -1758,6 +1771,8 @@ gr_slot_origin_Y
 (
 is
 )
+*
+yscale
 -
 curradvy
 ;
@@ -1784,6 +1799,8 @@ is
 grface
 grfont
 )
+*
+yscale
 ;
 curradvx
 +
@@ -1994,6 +2011,8 @@ tis
 grface
 grfont
 )
+*
+yscale
 ;
 }
 curradvx
@@ -2030,6 +2049,8 @@ is
 grface
 grfont
 )
+*
+yscale
 ;
 curradvx
 -
@@ -2068,6 +2089,8 @@ gr_slot_origin_Y
 (
 is
 )
+*
+yscale
 -
 curradvy
 ;

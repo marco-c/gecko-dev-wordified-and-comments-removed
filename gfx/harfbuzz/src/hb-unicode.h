@@ -249,6 +249,7 @@ struct
 hb_unicode_funcs_t
 hb_unicode_funcs_t
 ;
+HB_EXTERN
 hb_unicode_funcs_t
 *
 hb_unicode_funcs_get_default
@@ -256,6 +257,7 @@ hb_unicode_funcs_get_default
 void
 )
 ;
+HB_EXTERN
 hb_unicode_funcs_t
 *
 hb_unicode_funcs_create
@@ -265,6 +267,7 @@ hb_unicode_funcs_t
 parent
 )
 ;
+HB_EXTERN
 hb_unicode_funcs_t
 *
 hb_unicode_funcs_get_empty
@@ -272,6 +275,7 @@ hb_unicode_funcs_get_empty
 void
 )
 ;
+HB_EXTERN
 hb_unicode_funcs_t
 *
 hb_unicode_funcs_reference
@@ -281,6 +285,7 @@ hb_unicode_funcs_t
 ufuncs
 )
 ;
+HB_EXTERN
 void
 hb_unicode_funcs_destroy
 (
@@ -289,6 +294,7 @@ hb_unicode_funcs_t
 ufuncs
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_unicode_funcs_set_user_data
 (
@@ -307,6 +313,7 @@ hb_bool_t
 replace
 )
 ;
+HB_EXTERN
 void
 *
 hb_unicode_funcs_get_user_data
@@ -319,6 +326,7 @@ hb_user_data_key_t
 key
 )
 ;
+HB_EXTERN
 void
 hb_unicode_funcs_make_immutable
 (
@@ -327,6 +335,7 @@ hb_unicode_funcs_t
 ufuncs
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_unicode_funcs_is_immutable
 (
@@ -335,6 +344,7 @@ hb_unicode_funcs_t
 ufuncs
 )
 ;
+HB_EXTERN
 hb_unicode_funcs_t
 *
 hb_unicode_funcs_get_parent
@@ -509,6 +519,7 @@ HB_UNICODE_MAX_DECOMPOSITION_LEN
 codepoints
 *
 /
+HB_EXTERN
 void
 hb_unicode_funcs_set_combining_class_func
 (
@@ -524,6 +535,7 @@ hb_destroy_func_t
 destroy
 )
 ;
+HB_EXTERN
 void
 hb_unicode_funcs_set_eastasian_width_func
 (
@@ -539,6 +551,7 @@ hb_destroy_func_t
 destroy
 )
 ;
+HB_EXTERN
 void
 hb_unicode_funcs_set_general_category_func
 (
@@ -554,6 +567,7 @@ hb_destroy_func_t
 destroy
 )
 ;
+HB_EXTERN
 void
 hb_unicode_funcs_set_mirroring_func
 (
@@ -569,6 +583,7 @@ hb_destroy_func_t
 destroy
 )
 ;
+HB_EXTERN
 void
 hb_unicode_funcs_set_script_func
 (
@@ -584,6 +599,7 @@ hb_destroy_func_t
 destroy
 )
 ;
+HB_EXTERN
 void
 hb_unicode_funcs_set_compose_func
 (
@@ -599,6 +615,7 @@ hb_destroy_func_t
 destroy
 )
 ;
+HB_EXTERN
 void
 hb_unicode_funcs_set_decompose_func
 (
@@ -614,6 +631,7 @@ hb_destroy_func_t
 destroy
 )
 ;
+HB_EXTERN
 void
 hb_unicode_funcs_set_decompose_compatibility_func
 (
@@ -629,6 +647,7 @@ hb_destroy_func_t
 destroy
 )
 ;
+HB_EXTERN
 hb_unicode_combining_class_t
 hb_unicode_combining_class
 (
@@ -639,6 +658,7 @@ hb_codepoint_t
 unicode
 )
 ;
+HB_EXTERN
 unsigned
 int
 hb_unicode_eastasian_width
@@ -650,6 +670,7 @@ hb_codepoint_t
 unicode
 )
 ;
+HB_EXTERN
 hb_unicode_general_category_t
 hb_unicode_general_category
 (
@@ -660,6 +681,7 @@ hb_codepoint_t
 unicode
 )
 ;
+HB_EXTERN
 hb_codepoint_t
 hb_unicode_mirroring
 (
@@ -670,6 +692,7 @@ hb_codepoint_t
 unicode
 )
 ;
+HB_EXTERN
 hb_script_t
 hb_unicode_script
 (
@@ -680,6 +703,7 @@ hb_codepoint_t
 unicode
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_unicode_compose
 (
@@ -695,6 +719,7 @@ hb_codepoint_t
 ab
 )
 ;
+HB_EXTERN
 hb_bool_t
 hb_unicode_decompose
 (
@@ -711,6 +736,7 @@ hb_codepoint_t
 b
 )
 ;
+HB_EXTERN
 unsigned
 int
 hb_unicode_decompose_compatibility

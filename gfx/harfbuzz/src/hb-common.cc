@@ -1585,7 +1585,7 @@ hb_script_from_string
 const
 char
 *
-s
+str
 int
 len
 )
@@ -1595,7 +1595,7 @@ hb_script_from_iso15924_tag
 (
 hb_tag_from_string
 (
-s
+str
 len
 )
 )
@@ -1790,6 +1790,9 @@ replace_or_insert
 (
 item
 lock
+(
+bool
+)
 replace
 )
 ;

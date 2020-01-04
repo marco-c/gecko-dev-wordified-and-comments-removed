@@ -31,6 +31,7 @@ hb
 h
 "
 HB_BEGIN_DECLS
+HB_EXTERN
 void
 hb_ot_font_set_funcs
 (

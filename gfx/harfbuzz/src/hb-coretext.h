@@ -89,6 +89,7 @@ r
 x
 '
 )
+HB_EXTERN
 hb_face_t
 *
 hb_coretext_face_create
@@ -97,6 +98,7 @@ CGFontRef
 cg_font
 )
 ;
+HB_EXTERN
 CGFontRef
 hb_coretext_face_get_cg_font
 (
@@ -105,6 +107,7 @@ hb_face_t
 face
 )
 ;
+HB_EXTERN
 CTFontRef
 hb_coretext_font_get_ct_font
 (

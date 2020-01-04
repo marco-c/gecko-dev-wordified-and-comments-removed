@@ -397,6 +397,7 @@ HB_TAG
 0xff
 0xff
 )
+HB_EXTERN
 hb_tag_t
 hb_tag_from_string
 (
@@ -408,6 +409,7 @@ int
 len
 )
 ;
+HB_EXTERN
 void
 hb_tag_to_string
 (
@@ -433,6 +435,7 @@ HB_DIRECTION_BTT
 }
 hb_direction_t
 ;
+HB_EXTERN
 hb_direction_t
 hb_direction_from_string
 (
@@ -444,6 +447,7 @@ int
 len
 )
 ;
+HB_EXTERN
 const
 char
 *
@@ -609,6 +613,7 @@ hb_language_impl_t
 *
 hb_language_t
 ;
+HB_EXTERN
 hb_language_t
 hb_language_from_string
 (
@@ -620,6 +625,7 @@ int
 len
 )
 ;
+HB_EXTERN
 const
 char
 *
@@ -638,6 +644,7 @@ hb_language_t
 )
 NULL
 )
+HB_EXTERN
 hb_language_t
 hb_language_get_default
 (
@@ -2903,6 +2910,7 @@ HB_TAG_MAX_SIGNED
 }
 hb_script_t
 ;
+HB_EXTERN
 hb_script_t
 hb_script_from_iso15924_tag
 (
@@ -2910,17 +2918,19 @@ hb_tag_t
 tag
 )
 ;
+HB_EXTERN
 hb_script_t
 hb_script_from_string
 (
 const
 char
 *
-s
+str
 int
 len
 )
 ;
+HB_EXTERN
 hb_tag_t
 hb_script_to_iso15924_tag
 (
@@ -2928,6 +2938,7 @@ hb_script_t
 script
 )
 ;
+HB_EXTERN
 hb_direction_t
 hb_script_get_horizontal_direction
 (
