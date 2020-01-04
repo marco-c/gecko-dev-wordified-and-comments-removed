@@ -9387,7 +9387,7 @@ requests
 .
 hz
 "
-100
+80
 )
 ;
 pref
@@ -9403,7 +9403,7 @@ requests
 .
 burst
 "
-32
+10
 )
 ;
 pref
