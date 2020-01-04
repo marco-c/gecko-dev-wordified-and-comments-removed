@@ -194,13 +194,6 @@ changes
 any
 more
 .
-Bug
-1240627
--
-Enable
-AVX2
-optimizations
-in
-ffvpx
-on
-Mac
+Merge
+day
+clobber
