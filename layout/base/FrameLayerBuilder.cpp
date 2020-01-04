@@ -19377,6 +19377,16 @@ MoveBy
 offset
 )
 ;
+tmpLayer
+-
+>
+ComputeEffectiveTransforms
+(
+Matrix4x4
+(
+)
+)
+;
 nsIntRegion
 invalid
 =
