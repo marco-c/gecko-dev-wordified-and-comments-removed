@@ -75,6 +75,14 @@ HTMLMediaElement
 aParent
 uint16_t
 aCode
+const
+nsACString
+&
+aMessage
+=
+nsCString
+(
+)
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -135,6 +143,10 @@ mParent
 const
 uint16_t
 mCode
+;
+const
+nsCString
+mMessage
 ;
 }
 ;

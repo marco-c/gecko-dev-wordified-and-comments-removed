@@ -473,6 +473,7 @@ mElement
 >
 DecodeError
 (
+NS_ERROR_DOM_MEDIA_CDM_ERR
 )
 ;
 }

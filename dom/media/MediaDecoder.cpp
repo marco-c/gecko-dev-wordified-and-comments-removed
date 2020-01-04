@@ -4827,6 +4827,7 @@ mOwner
 >
 DecodeError
 (
+aError
 )
 ;
 MOZ_ASSERT

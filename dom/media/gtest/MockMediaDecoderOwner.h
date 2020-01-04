@@ -89,6 +89,10 @@ override
 void
 DecodeError
 (
+const
+MediaResult
+&
+aError
 )
 override
 {
