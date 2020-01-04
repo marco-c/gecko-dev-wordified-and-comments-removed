@@ -211,7 +211,6 @@ const
 selectSnapshotAndRefresh
 takeSnapshotAndCensus
 clearSnapshots
-deleteSnapshot
 fetchImmediatelyDominated
 expandCensusNode
 collapseCensusNode
@@ -946,19 +945,6 @@ dispatch
 (
 pickFileAndExportSnapshot
 (
-snapshot
-)
-)
-onDelete
-:
-snapshot
-=
->
-dispatch
-(
-deleteSnapshot
-(
-heapWorker
 snapshot
 )
 )
