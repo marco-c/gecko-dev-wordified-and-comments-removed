@@ -413,6 +413,7 @@ function
 *
 (
 tab
+options
 )
 {
 info
@@ -437,6 +438,7 @@ closeIfNeeded
 (
 window
 tab
+options
 )
 ;
 info
