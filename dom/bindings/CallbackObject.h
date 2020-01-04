@@ -808,12 +808,6 @@ const
 ExceptionHandling
 mExceptionHandling
 ;
-JS
-:
-:
-ContextOptions
-mSavedJSContextOptions
-;
 const
 bool
 mIsMainThread
