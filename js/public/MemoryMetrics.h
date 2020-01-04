@@ -639,7 +639,7 @@ macro
 (
 Objects
 MallocHeap
-objectsMallocHeapElementsNonAsmJS
+objectsMallocHeapElementsNormal
 )
 \
 macro
@@ -653,6 +653,13 @@ macro
 (
 Objects
 NonHeap
+objectsNonHeapElementsNormal
+)
+\
+macro
+(
+Objects
+NonHeap
 objectsNonHeapElementsAsmJS
 )
 \
@@ -660,7 +667,7 @@ macro
 (
 Objects
 NonHeap
-objectsNonHeapElementsMapped
+objectsNonHeapElementsShared
 )
 \
 macro
