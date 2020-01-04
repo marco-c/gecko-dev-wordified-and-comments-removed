@@ -494,7 +494,9 @@ Distribution
 .
 init
 (
-this
+getApplicationContext
+(
+)
 )
 )
 ;

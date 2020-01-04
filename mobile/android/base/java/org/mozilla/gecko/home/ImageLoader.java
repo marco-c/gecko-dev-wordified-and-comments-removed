@@ -275,6 +275,10 @@ Distribution
 getInstance
 (
 context
+.
+getApplicationContext
+(
+)
 )
 ;
 builder
