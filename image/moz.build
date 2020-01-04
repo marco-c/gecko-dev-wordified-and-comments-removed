@@ -312,12 +312,7 @@ Orientation
 h
 '
 '
-SurfaceCache
-.
-h
-'
-'
-SurfaceFlags
+SurfaceCacheUtils
 .
 h
 '
@@ -433,6 +428,11 @@ cpp
 '
 '
 SurfaceCache
+.
+cpp
+'
+'
+SurfaceCacheUtils
 .
 cpp
 '

@@ -233,7 +233,7 @@ h
 #
 include
 "
-SurfaceCache
+SurfaceCacheUtils
 .
 h
 "
@@ -7116,13 +7116,10 @@ sLookAndFeelChanged
 =
 false
 ;
-mozilla
-:
-:
 image
 :
 :
-SurfaceCache
+SurfaceCacheUtils
 :
 :
 DiscardAll
