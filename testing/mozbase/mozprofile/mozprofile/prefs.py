@@ -1096,12 +1096,6 @@ path
 readlines
 (
 )
-if
-i
-.
-strip
-(
-)
 ]
         
 _lines
@@ -1116,19 +1110,12 @@ lines
 :
             
 if
+not
 line
 .
 startswith
 (
-(
-'
-#
-'
-'
-/
-/
-'
-)
+pref_setter
 )
 :
                 
