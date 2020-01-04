@@ -538,3 +538,13 @@ regexp
 )
 "
 >
+<
+!
+ENTITY
+aboutTelemetry
+.
+payloadChoiceHeader
+"
+Payload
+"
+>
