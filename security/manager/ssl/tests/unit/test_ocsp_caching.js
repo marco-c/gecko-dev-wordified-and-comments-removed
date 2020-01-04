@@ -144,9 +144,7 @@ good
 delegated
 "
 "
-default
--
-ee
+localhostAndExampleCom
 "
 "
 delegatedSHA1Signer
@@ -247,9 +245,7 @@ args
 good
 "
 "
-default
--
-ee
+localhostAndExampleCom
 "
 "
 unused
@@ -334,7 +330,6 @@ OCSP
 request
 "
 +
-(
 aResponses
 .
 length
@@ -348,7 +343,6 @@ length
 "
 s
 "
-)
 )
 ;
 }
@@ -714,10 +708,6 @@ com
 "
 SEC_ERROR_OCSP_UNKNOWN_CERT
 [
-respondWithError
-respondWithError
-respondWithError
-respondWithError
 respondWithError
 respondWithError
 respondWithError

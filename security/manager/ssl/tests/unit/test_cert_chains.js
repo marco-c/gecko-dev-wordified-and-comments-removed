@@ -57,7 +57,7 @@ certName
 +
 "
 .
-pem
+der
 "
 )
 ;
@@ -92,7 +92,7 @@ default
 -
 ee
 .
-pem
+der
 "
 )
 ;
@@ -108,7 +108,7 @@ default
 -
 ee
 .
-pem
+der
 "
 )
 ;
@@ -124,7 +124,7 @@ expired
 -
 ee
 .
-pem
+der
 "
 )
 ;

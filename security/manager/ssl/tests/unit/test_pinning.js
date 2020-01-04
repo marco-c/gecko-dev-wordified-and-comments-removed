@@ -1382,7 +1382,7 @@ test
 -
 ca
 .
-pem
+der
 "
 "
 CTu
