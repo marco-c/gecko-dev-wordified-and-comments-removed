@@ -518,6 +518,13 @@ PERM_CAN_UNINSTALL
 )
 )
 ;
+do_check_true
+(
+addon
+.
+hidden
+)
+;
 let
 file
 =
