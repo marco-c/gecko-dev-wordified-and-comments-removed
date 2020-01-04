@@ -1,8 +1,8 @@
-var
+const
 {
-GetDevices
-GetDeviceString
-AddDevice
+getDevices
+getDeviceString
+addDevice
 }
 =
 require
@@ -51,7 +51,7 @@ let
 devices
 =
 yield
-GetDevices
+getDevices
 (
 )
 ;
@@ -106,7 +106,7 @@ type
 let
 string
 =
-GetDeviceString
+getDeviceString
 (
 type1
 )
@@ -183,7 +183,7 @@ firefoxOS
 true
 }
 ;
-AddDevice
+addDevice
 (
 device1
 type1
@@ -192,7 +192,7 @@ type1
 devices
 =
 yield
-GetDevices
+getDevices
 (
 )
 ;
@@ -300,7 +300,7 @@ firefoxOS
 true
 }
 ;
-AddDevice
+addDevice
 (
 device2
 type2
@@ -309,7 +309,7 @@ type2
 devices
 =
 yield
-GetDevices
+getDevices
 (
 )
 ;

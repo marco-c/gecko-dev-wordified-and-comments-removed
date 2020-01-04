@@ -25,7 +25,7 @@ index
 ;
 const
 {
-GetDevices
+getDevices
 }
 =
 require
@@ -330,7 +330,7 @@ try
 devices
 =
 yield
-GetDevices
+getDevices
 (
 )
 ;

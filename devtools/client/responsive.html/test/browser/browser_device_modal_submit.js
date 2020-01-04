@@ -5,8 +5,8 @@ strict
 ;
 const
 {
-GetDevices
-AddDevice
+getDevices
+addDevice
 }
 =
 require
@@ -303,7 +303,7 @@ let
 remoteList
 =
 yield
-GetDevices
+getDevices
 (
 )
 ;
@@ -1029,7 +1029,7 @@ modal
 "
 )
 ;
-AddDevice
+addDevice
 (
 addedDevice
 )
@@ -1101,7 +1101,7 @@ let
 remoteList
 =
 yield
-GetDevices
+getDevices
 (
 )
 ;

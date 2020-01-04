@@ -40,8 +40,8 @@ jsm
 ;
 const
 {
-GetDevices
-GetDeviceString
+getDevices
+getDeviceString
 }
 =
 require
@@ -563,7 +563,7 @@ promises
 .
 push
 (
-GetDevices
+getDevices
 (
 )
 .
@@ -629,7 +629,7 @@ optgroup
 .
 label
 =
-GetDeviceString
+getDeviceString
 (
 type
 )
