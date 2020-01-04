@@ -1888,6 +1888,9 @@ ini
 firefox
 /
 *
+*
+/
+*
 .
 dll
 '
@@ -2039,11 +2042,14 @@ basename
 =
 mozpath
 .
-basename
+relpath
 (
 f
 .
 filename
+"
+firefox
+"
 )
                 
 self
