@@ -294,11 +294,10 @@ close
 ;
 }
 for
-each
 (
 var
 arg
-in
+of
 arguments
 )
 {

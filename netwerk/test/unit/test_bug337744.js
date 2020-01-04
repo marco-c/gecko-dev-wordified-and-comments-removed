@@ -189,10 +189,10 @@ run_test
 )
 {
 for
-each
 (
+var
 spec
-in
+of
 specs
 )
 {

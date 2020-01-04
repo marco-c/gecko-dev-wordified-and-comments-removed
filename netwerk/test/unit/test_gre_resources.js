@@ -207,11 +207,10 @@ run_test
 )
 {
 for
-each
 (
 let
 file
-in
+of
 [
 "
 ua

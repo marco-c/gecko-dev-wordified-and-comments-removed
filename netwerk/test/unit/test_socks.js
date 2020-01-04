@@ -2450,11 +2450,10 @@ argv
 ]
 ;
 for
-each
 (
 var
 test
-in
+of
 this
 .
 test_cases
@@ -2672,11 +2671,10 @@ null
 ;
 }
 for
-each
 (
 var
 client
-in
+of
 this
 .
 client_connections
