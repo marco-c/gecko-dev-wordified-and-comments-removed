@@ -14,6 +14,13 @@ force
 enabled
 true
 )
+pref
+(
+media
+.
+useAudioChannelAPI
+false
+)
 #
 Check
 that
