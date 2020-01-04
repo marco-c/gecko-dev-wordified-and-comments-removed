@@ -1128,10 +1128,6 @@ mIsProducerAcquired
 (
 false
 )
-mIsConsumerAcquired
-(
-false
-)
 #
 ifdef
 DEBUG
