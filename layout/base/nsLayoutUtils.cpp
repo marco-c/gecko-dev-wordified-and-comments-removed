@@ -9272,6 +9272,11 @@ anchorRect
 y
 )
 ;
+int32_t
+sides
+=
+eSideBitsNone
+;
 if
 (
 aFixedPosFrame
@@ -9307,6 +9312,11 @@ GetRightUnit
 eStyleUnit_Auto
 )
 {
+sides
+|
+=
+eSideBitsRight
+;
 if
 (
 position
@@ -9322,6 +9332,11 @@ GetLeftUnit
 eStyleUnit_Auto
 )
 {
+sides
+|
+=
+eSideBitsLeft
+;
 anchor
 .
 x
@@ -9368,6 +9383,11 @@ GetBottomUnit
 eStyleUnit_Auto
 )
 {
+sides
+|
+=
+eSideBitsBottom
+;
 if
 (
 position
@@ -9383,6 +9403,11 @@ GetTopUnit
 eStyleUnit_Auto
 )
 {
+sides
+|
+=
+eSideBitsTop
+;
 anchor
 .
 y
@@ -9472,6 +9497,7 @@ SetFixedPositionData
 (
 id
 anchor
+sides
 aIsClipFixed
 )
 ;
