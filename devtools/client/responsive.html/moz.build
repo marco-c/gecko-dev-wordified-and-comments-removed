@@ -129,6 +129,11 @@ constants
 js
 '
 '
+devices
+.
+js
+'
+'
 index
 .
 css

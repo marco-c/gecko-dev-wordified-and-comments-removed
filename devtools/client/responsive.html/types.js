@@ -62,6 +62,11 @@ os
 PropTypes
 .
 String
+displayed
+:
+PropTypes
+.
+bool
 }
 ;
 exports
@@ -157,6 +162,11 @@ shape
 device
 )
 )
+isModalOpen
+:
+PropTypes
+.
+bool
 }
 ;
 exports

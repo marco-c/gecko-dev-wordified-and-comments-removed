@@ -109,6 +109,13 @@ PropTypes
 func
 .
 isRequired
+onUpdateDeviceModalOpen
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 displayName
 :
@@ -133,6 +140,7 @@ selectedDevice
 onChangeViewportDevice
 onResizeViewport
 onRotateViewport
+onUpdateDeviceModalOpen
 }
 =
 this
@@ -148,10 +156,10 @@ div
 className
 :
 "
-toolbar
 viewport
 -
 toolbar
+container
 "
 }
 DeviceSelector
@@ -161,6 +169,7 @@ devices
 selectedDevice
 onChangeViewportDevice
 onResizeViewport
+onUpdateDeviceModalOpen
 }
 )
 dom
