@@ -2167,6 +2167,9 @@ toObject
 )
 )
 ;
+bool
+isArray
+;
 uint32_t
 length
 =
@@ -2179,7 +2182,13 @@ JS_IsArrayObject
 (
 mJSContext
 obj
+&
+isArray
 )
+|
+|
+!
+isArray
 |
 |
 !

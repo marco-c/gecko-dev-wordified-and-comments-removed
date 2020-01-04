@@ -538,6 +538,9 @@ Length
 )
 )
 ;
+bool
+isArray
+;
 if
 (
 NS_WARN_IF
@@ -547,7 +550,13 @@ JS_IsArrayObject
 (
 aCx
 aValue
+&
+isArray
 )
+|
+|
+!
+isArray
 )
 )
 {

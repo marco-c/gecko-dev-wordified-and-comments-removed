@@ -6025,6 +6025,9 @@ toObject
 nullptr
 )
 ;
+bool
+isArray
+;
 if
 (
 !
@@ -6032,7 +6035,13 @@ JS_IsArrayObject
 (
 mCallContext
 maybeArray
+&
+isArray
 )
+|
+|
+!
+isArray
 |
 |
 !

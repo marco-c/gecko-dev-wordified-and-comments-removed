@@ -12504,6 +12504,9 @@ JS
 :
 HandleValue
 value
+bool
+*
+isArray
 )
 ;
 extern
@@ -12521,6 +12524,9 @@ JS
 :
 HandleObject
 obj
+bool
+*
+isArray
 )
 ;
 extern
@@ -19008,6 +19014,9 @@ JS
 :
 HandleObject
 obj
+bool
+*
+isDate
 )
 ;
 extern
@@ -19295,6 +19304,9 @@ JS
 :
 HandleObject
 obj
+bool
+*
+isRegExp
 )
 ;
 extern

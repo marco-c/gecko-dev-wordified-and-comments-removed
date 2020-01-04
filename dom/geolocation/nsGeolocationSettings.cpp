@@ -1698,6 +1698,9 @@ cx
 (
 )
 ;
+bool
+isArray
+;
 if
 (
 !
@@ -1705,7 +1708,13 @@ JS_IsArrayObject
 (
 cx
 obj
+&
+isArray
 )
+|
+|
+!
+isArray
 )
 {
 return
