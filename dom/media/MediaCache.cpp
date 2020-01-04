@@ -8734,6 +8734,9 @@ FlushPartialBlockInternal
 (
 bool
 aNotifyAll
+ReentrantMonitorAutoEnter
+&
+aReentrantMonitor
 )
 {
 NS_ASSERTION
@@ -8748,17 +8751,6 @@ on
 main
 thread
 "
-)
-;
-ReentrantMonitorAutoEnter
-mon
-(
-gMediaCache
--
->
-GetReentrantMonitor
-(
-)
 )
 ;
 int32_t
@@ -8897,7 +8889,7 @@ mChannelOffset
 aNotifyAll
 )
 {
-mon
+aReentrantMonitor
 .
 NotifyAll
 (
@@ -8941,6 +8933,7 @@ GetReentrantMonitor
 FlushPartialBlockInternal
 (
 false
+mon
 )
 ;
 gMediaCache
@@ -9007,6 +9000,7 @@ AllocateResourceID
 FlushPartialBlockInternal
 (
 true
+mon
 )
 ;
 mChannelEnded
