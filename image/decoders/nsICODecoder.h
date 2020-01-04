@@ -401,6 +401,12 @@ Decoder
 >
 mContainedDecoder
 ;
+RefPtr
+<
+SourceBuffer
+>
+mContainedSourceBuffer
+;
 UniquePtr
 <
 uint8_t
