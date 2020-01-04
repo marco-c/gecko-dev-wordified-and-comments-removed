@@ -544,6 +544,13 @@ this
 .
 _scrollable
 .
+scrollLeftMin
+!
+=
+this
+.
+_scrollable
+.
 scrollLeftMax
 &
 &

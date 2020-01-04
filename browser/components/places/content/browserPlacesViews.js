@@ -6382,9 +6382,14 @@ this
 .
 _rootElt
 .
+scrollLeftMin
+!
+=
+this
+.
+_rootElt
+.
 scrollLeftMax
->
-0
 )
 {
 this
