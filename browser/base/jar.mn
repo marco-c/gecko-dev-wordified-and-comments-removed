@@ -1306,7 +1306,7 @@ browser
 /
 browser
 -
-fullScreen
+fullScreenAndPointerLock
 .
 js
 (
@@ -1314,7 +1314,7 @@ content
 /
 browser
 -
-fullScreen
+fullScreenAndPointerLock
 .
 js
 )

@@ -420,7 +420,7 @@ content
 /
 browser
 -
-fullScreen
+fullScreenAndPointerLock
 .
 js
 "
