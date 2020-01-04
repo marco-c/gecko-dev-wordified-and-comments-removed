@@ -179,7 +179,7 @@ join
 "
 ;
 "
-varDecl
+letDecl
 (
 pattPatts
 [

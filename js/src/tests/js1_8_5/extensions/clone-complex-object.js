@@ -1548,7 +1548,6 @@ obj
 ;
 for
 (
-var
 obj
 of
 new

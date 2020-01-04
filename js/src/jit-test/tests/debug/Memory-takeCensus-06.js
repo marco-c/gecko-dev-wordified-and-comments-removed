@@ -118,7 +118,6 @@ census
 false
 )
 ;
-let
 census
 =
 dbg
@@ -166,7 +165,6 @@ census
 false
 )
 ;
-let
 census
 =
 dbg
@@ -214,7 +212,6 @@ census
 true
 )
 ;
-let
 census
 =
 dbg

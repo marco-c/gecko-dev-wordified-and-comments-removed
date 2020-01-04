@@ -16,7 +16,7 @@ y
 foo
 ;
 "
-varDecl
+letDecl
 (
 [
 {
