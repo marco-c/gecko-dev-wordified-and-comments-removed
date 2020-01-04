@@ -48,6 +48,9 @@ check_output
 [
 run_exe
 ]
+universal_newlines
+=
+True
 )
     
 with
