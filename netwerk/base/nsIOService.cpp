@@ -330,6 +330,13 @@ ReferrerPolicy
 h
 "
 #
+include
+"
+nsContentSecurityManager
+.
+h
+"
+#
 ifdef
 MOZ_WIDGET_GONK
 #
@@ -1660,7 +1667,7 @@ sink
 =
 do_GetService
 (
-NS_GLOBAL_CHANNELEVENTSINK_CONTRACTID
+NS_CONTENTSECURITYMANAGER_CONTRACTID
 )
 ;
 if
