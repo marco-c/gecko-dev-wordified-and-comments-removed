@@ -5977,6 +5977,11 @@ bool
 aAnonymize
 )
 {
+MOZ_ASSERT
+(
+mFontEntry
+)
+;
 nsAutoCString
 path
 (
@@ -6017,11 +6022,6 @@ this
 }
 else
 {
-if
-(
-mFontEntry
-)
-{
 NS_ConvertUTF16toUTF8
 familyName
 (
@@ -6048,7 +6048,6 @@ get
 )
 )
 ;
-}
 if
 (
 mURI
