@@ -606,7 +606,7 @@ help
 '
 )
 def
-android_ndk_include
+compiling_android
 (
 compile_env
 build_project
@@ -614,7 +614,7 @@ gonkdir
 _
 )
 :
-if
+return
 compile_env
 and
 (
@@ -633,8 +633,8 @@ js
 '
 )
 )
-:
-return
+include_when
+(
 '
 android
 -
@@ -642,9 +642,9 @@ ndk
 .
 configure
 '
-include
-(
-android_ndk_include
+when
+=
+compiling_android
 )
 #
 MacOS
