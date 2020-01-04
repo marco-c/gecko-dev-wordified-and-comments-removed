@@ -270,6 +270,11 @@ EXPORTS
 =
 [
 '
+DrawResult
+.
+h
+'
+'
 ImageCacheKey
 .
 h
