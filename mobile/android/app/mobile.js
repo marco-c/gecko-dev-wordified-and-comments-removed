@@ -3280,7 +3280,7 @@ browser
 .
 image_blocking
 "
-1
+0
 )
 ;
 pref
@@ -5073,6 +5073,18 @@ zoom
 enabled
 "
 true
+)
+;
+pref
+(
+"
+apz
+.
+axis_lock
+.
+mode
+"
+1
 )
 ;
 #
