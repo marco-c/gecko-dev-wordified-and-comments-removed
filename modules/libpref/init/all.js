@@ -9743,7 +9743,7 @@ IDN
 .
 use_whitelist
 "
-true
+false
 )
 ;
 pref
