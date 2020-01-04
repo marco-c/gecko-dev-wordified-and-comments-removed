@@ -257,6 +257,9 @@ class
 APZCTreeManager
 ;
 class
+APZCTreeManagerParent
+;
+class
 AsyncCompositionManager
 ;
 class
@@ -1618,6 +1621,10 @@ RefPtr
 GeckoContentController
 >
 mController
+;
+APZCTreeManagerParent
+*
+mApzcTreeManagerParent
 ;
 CompositorBridgeParent
 *
