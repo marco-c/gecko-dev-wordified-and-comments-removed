@@ -13157,3 +13157,17 @@ true
 ;
 #
 endif
+pref
+(
+"
+browser
+.
+crashReports
+.
+unsubmittedCheck
+.
+autoSubmit
+"
+false
+)
+;
