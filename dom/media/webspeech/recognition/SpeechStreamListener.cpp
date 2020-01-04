@@ -78,7 +78,7 @@ void
 SpeechStreamListener
 :
 :
-NotifyQueuedTrackChanges
+NotifyQueuedAudioData
 (
 MediaStreamGraph
 *
@@ -87,10 +87,8 @@ TrackID
 aID
 StreamTime
 aTrackOffset
-uint32_t
-aTrackEvents
 const
-MediaSegment
+AudioSegment
 &
 aQueuedMedia
 MediaStream
