@@ -15985,7 +15985,7 @@ spammy_warnings
 .
 enabled
 "
-true
+false
 )
 ;
 pref
