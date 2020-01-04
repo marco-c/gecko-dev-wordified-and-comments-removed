@@ -1616,13 +1616,9 @@ if
 mIsOffline
 )
 {
-nsCOMPtr
-<
-nsIRunnable
->
-runnable
-=
-NS_NewRunnableMethod
+NS_DispatchToCurrentThread
+(
+NewRunnableMethod
 (
 this
 &
@@ -1631,10 +1627,6 @@ AudioDestinationNode
 :
 FireOfflineCompletionEvent
 )
-;
-NS_DispatchToCurrentThread
-(
-runnable
 )
 ;
 }

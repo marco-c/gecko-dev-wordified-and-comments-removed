@@ -2623,7 +2623,7 @@ return
 }
 NS_DispatchToCurrentThread
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -3194,7 +3194,7 @@ NS_OK
 }
 NS_DispatchToCurrentThread
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 mParent
 &
@@ -7126,7 +7126,7 @@ nsIRunnable
 >
 saveLater
 =
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 WalkStorage
 >

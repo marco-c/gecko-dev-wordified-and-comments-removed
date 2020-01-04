@@ -84,7 +84,10 @@ SetFinished
 {
 NS_DispatchToMainThread
 (
-NS_NewNonOwningRunnableMethod
+mozilla
+:
+:
+NewNonOwningRunnableMethod
 (
 this
 &

@@ -565,7 +565,7 @@ nsIRunnable
 >
 event
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -5034,7 +5034,7 @@ nsIRunnable
 >
 event
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -5203,7 +5203,7 @@ nsIRunnable
 >
 event
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &

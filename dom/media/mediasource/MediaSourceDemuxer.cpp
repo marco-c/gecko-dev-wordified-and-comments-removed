@@ -802,7 +802,7 @@ nsIRunnable
 >
 task
 =
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 TrackBuffersManager
 *
@@ -882,7 +882,7 @@ nsIRunnable
 >
 task
 =
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 TrackBuffersManager
 *

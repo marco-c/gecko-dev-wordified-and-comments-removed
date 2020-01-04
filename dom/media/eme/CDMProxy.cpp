@@ -471,7 +471,7 @@ nsIRunnable
 >
 task
 (
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 nsAutoPtr
 <
@@ -650,7 +650,7 @@ nsIRunnable
 >
 task
 (
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 uint32_t
 >
@@ -1454,7 +1454,7 @@ nsIRunnable
 >
 task
 (
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 nsAutoPtr
 <
@@ -1669,7 +1669,7 @@ nsIRunnable
 >
 task
 (
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 nsAutoPtr
 <
@@ -1823,7 +1823,7 @@ nsIRunnable
 >
 task
 (
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 nsAutoPtr
 <
@@ -2001,7 +2001,7 @@ nsIRunnable
 >
 task
 (
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 nsAutoPtr
 <
@@ -2162,7 +2162,7 @@ nsIRunnable
 >
 task
 (
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 nsAutoPtr
 <
@@ -2319,7 +2319,7 @@ nsIRunnable
 >
 task
 (
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 nsAutoPtr
 <
@@ -2437,7 +2437,7 @@ nsIRunnable
 >
 task
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -2677,7 +2677,7 @@ task
 ;
 task
 =
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 PromiseId
 >
@@ -3430,7 +3430,7 @@ nsIRunnable
 >
 task
 (
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 RefPtr
 <

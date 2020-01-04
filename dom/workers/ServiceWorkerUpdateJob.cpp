@@ -1695,7 +1695,7 @@ nsIRunnable
 >
 upr
 =
-NS_NewRunnableMethodWithArg
+NewRunnableMethod
 <
 RefPtr
 <
@@ -1723,7 +1723,7 @@ nsIRunnable
 >
 failRunnable
 =
-NS_NewRunnableMethodWithArgs
+NewRunnableMethod
 <
 bool
 >

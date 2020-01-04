@@ -557,7 +557,10 @@ nsIRunnable
 >
 event
 =
-NS_NewRunnableMethodWithArg
+mozilla
+:
+:
+NewRunnableMethod
 <
 nsCOMPtr
 <

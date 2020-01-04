@@ -839,7 +839,7 @@ nsIRunnable
 >
 callback
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &

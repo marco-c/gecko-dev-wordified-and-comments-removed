@@ -2203,7 +2203,7 @@ nsIRunnable
 >
 runnable
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
@@ -2518,7 +2518,7 @@ nsIRunnable
 >
 runnable
 =
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &

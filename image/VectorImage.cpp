@@ -3982,13 +3982,9 @@ MOZ_ASSERT
 mProgressTracker
 )
 ;
-nsCOMPtr
-<
-nsIRunnable
->
-runnable
-=
-NS_NewRunnableMethod
+NS_DispatchToMainThread
+(
+NewRunnableMethod
 (
 mProgressTracker
 &
@@ -3997,10 +3993,6 @@ ProgressTracker
 :
 OnDiscard
 )
-;
-NS_DispatchToMainThread
-(
-runnable
 )
 ;
 }

@@ -1570,13 +1570,9 @@ Create
 (
 )
 ;
-nsCOMPtr
-<
-nsIRunnable
->
-runnable
-=
-NS_NewRunnableMethod
+NS_DispatchToCurrentThread
+(
+NewRunnableMethod
 (
 this
 &
@@ -1585,10 +1581,6 @@ EventListenerService
 :
 NotifyPendingChanges
 )
-;
-NS_DispatchToCurrentThread
-(
-runnable
 )
 ;
 }

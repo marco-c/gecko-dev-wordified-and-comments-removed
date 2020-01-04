@@ -857,7 +857,7 @@ this
 ;
 NS_DispatchToMainThread
 (
-NS_NewRunnableMethod
+NewRunnableMethod
 (
 this
 &
