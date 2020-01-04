@@ -505,7 +505,7 @@ mn
 :
 autocomplete_results
 .
-is_open
+is_complete
 )
         
 Wait
