@@ -110,10 +110,12 @@ installTime
 =
 ContextUtils
 .
-getPackageInstallTime
+getCurrentPackageInfo
 (
 context
 )
+.
+firstInstallTime
 ;
 assertTrue
 (
