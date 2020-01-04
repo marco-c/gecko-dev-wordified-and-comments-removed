@@ -23,6 +23,7 @@ Failed
 Disabled
 Available
 ForceEnabled
+CrashedOnStartup
 }
 ;
 const
