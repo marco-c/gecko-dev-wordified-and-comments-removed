@@ -291,6 +291,13 @@ val
 }
 }
 ;
+typedef
+UniquePtr
+<
+GeneratedSourceMap
+>
+UniqueGeneratedSourceMap
+;
 MOZ_MUST_USE
 bool
 BinaryToExperimentalText

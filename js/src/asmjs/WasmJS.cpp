@@ -3334,6 +3334,10 @@ name
 cx
 instance
 .
+code
+(
+)
+.
 getFuncAtom
 (
 cx
@@ -5341,7 +5345,11 @@ instance
 (
 )
 .
-lookupCodeRange
+code
+(
+)
+.
+lookupRange
 (
 table
 .
@@ -5842,7 +5850,7 @@ codeSegment
 (
 )
 .
-code
+base
 (
 )
 +

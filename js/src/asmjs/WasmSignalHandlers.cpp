@@ -4813,11 +4813,7 @@ pc
 -
 instance
 .
-codeSegment
-(
-)
-.
-code
+codeBase
 (
 )
 )
@@ -5993,6 +5989,10 @@ resumePC
 &
 instance
 .
+code
+(
+)
+.
 lookupMemoryAccess
 (
 activation
@@ -6010,6 +6010,10 @@ MemoryAccess
 memoryAccess
 =
 instance
+.
+code
+(
+)
 .
 lookupMemoryAccess
 (
@@ -6646,6 +6650,10 @@ MemoryAccess
 memoryAccess
 =
 instance
+.
+code
+(
+)
 .
 lookupMemoryAccess
 (
@@ -7611,6 +7619,10 @@ MemoryAccess
 memoryAccess
 =
 instance
+.
+code
+(
+)
 .
 lookupMemoryAccess
 (

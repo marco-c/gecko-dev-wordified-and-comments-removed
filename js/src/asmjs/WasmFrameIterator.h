@@ -39,6 +39,9 @@ class
 CallSite
 ;
 class
+Code
+;
+class
 CodeRange
 ;
 class
@@ -342,9 +345,9 @@ void
 ToggleProfiling
 (
 const
-Instance
+Code
 &
-instance
+code
 const
 CallSite
 &
@@ -357,9 +360,9 @@ void
 ToggleProfiling
 (
 const
-Instance
+Code
 &
-instance
+code
 const
 CallThunk
 &
@@ -372,9 +375,9 @@ void
 ToggleProfiling
 (
 const
-Instance
+Code
 &
-instance
+code
 const
 CodeRange
 &
