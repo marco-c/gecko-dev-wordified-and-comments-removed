@@ -2975,12 +2975,12 @@ https
 :
 /
 /
-github
+git
 .
-com
-/
 mozilla
--
+.
+org
+/
 b2g
 /
 B2G
