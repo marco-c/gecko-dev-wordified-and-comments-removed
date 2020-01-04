@@ -129,13 +129,9 @@ directories
 for
 js
 shell
-*
-/
 _DBG
 .
 OBJ
-/
-*
 /
 _OPT
 .
