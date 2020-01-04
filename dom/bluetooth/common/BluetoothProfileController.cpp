@@ -729,6 +729,16 @@ Get
 )
 )
 ;
+AddProfile
+(
+BluetoothHidManager
+:
+:
+Get
+(
+)
+)
+;
 return
 ;
 }

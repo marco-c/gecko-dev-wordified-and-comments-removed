@@ -256,6 +256,11 @@ hfpstatuschanged
 ;
 IMPL_EVENT_HANDLER
 (
+hidstatuschanged
+)
+;
+IMPL_EVENT_HANDLER
+(
 scostatuschanged
 )
 ;

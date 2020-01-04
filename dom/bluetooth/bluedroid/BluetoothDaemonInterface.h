@@ -73,6 +73,9 @@ class
 BluetoothDaemonSocketInterface
 ;
 class
+BluetoothDaemonHidInterface
+;
+class
 BluetoothDaemonInterface
 final
 :
@@ -184,6 +187,13 @@ override
 BluetoothGattInterface
 *
 GetBluetoothGattInterface
+(
+)
+override
+;
+BluetoothHidInterface
+*
+GetBluetoothHidInterface
 (
 )
 override
@@ -353,6 +363,12 @@ nsAutoPtr
 BluetoothDaemonGattInterface
 >
 mGattInterface
+;
+nsAutoPtr
+<
+BluetoothDaemonHidInterface
+>
+mHidInterface
 ;
 }
 ;
