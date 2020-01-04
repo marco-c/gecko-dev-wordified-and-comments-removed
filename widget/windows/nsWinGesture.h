@@ -581,7 +581,7 @@ mozilla
 WidgetGestureNotifyEvent
 :
 :
-ePanDirection
+PanDirection
 aDirection
 )
 ;

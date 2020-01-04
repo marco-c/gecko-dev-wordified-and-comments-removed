@@ -166,8 +166,14 @@ return
 result
 ;
 }
+typedef
+int8_t
+PanDirectionType
+;
 enum
-ePanDirection
+PanDirection
+:
+PanDirectionType
 {
 ePanNone
 ePanVertical
@@ -175,7 +181,7 @@ ePanHorizontal
 ePanBoth
 }
 ;
-ePanDirection
+PanDirection
 panDirection
 ;
 bool

@@ -11773,7 +11773,7 @@ event
 WidgetGestureNotifyEvent
 :
 :
-ePanDirection
+PanDirection
 panDirection
 =
 WidgetGestureNotifyEvent
