@@ -4832,6 +4832,7 @@ process
 bool
 isOffline
 isLangRTL
+haveBidiKeyboards
 ;
 bool
 isConnected
@@ -4853,6 +4854,8 @@ isOffline
 isConnected
 &
 isLangRTL
+&
+haveBidiKeyboards
 &
 mAvailableDictionaries
 &
@@ -4876,6 +4879,7 @@ isConnected
 RecvBidiKeyboardNotify
 (
 isLangRTL
+haveBidiKeyboards
 )
 ;
 SendPJavaScriptConstructor
@@ -6964,6 +6968,10 @@ const
 bool
 &
 aIsLangRTL
+const
+bool
+&
+aHaveBidiKeyboards
 )
 {
 PuppetBidiKeyboard
@@ -6992,9 +7000,10 @@ bidi
 bidi
 -
 >
-SetIsLangRTL
+SetBidiKeyboardInfo
 (
 aIsLangRTL
+aHaveBidiKeyboards
 )
 ;
 }

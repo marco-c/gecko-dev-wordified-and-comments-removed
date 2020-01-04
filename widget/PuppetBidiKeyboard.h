@@ -33,10 +33,12 @@ PuppetBidiKeyboard
 )
 ;
 void
-SetIsLangRTL
+SetBidiKeyboardInfo
 (
 bool
 aIsLangRTL
+bool
+aHaveBidiKeyboards
 )
 ;
 private
@@ -48,6 +50,9 @@ PuppetBidiKeyboard
 ;
 bool
 mIsLangRTL
+;
+bool
+mHaveBidiKeyboards
 ;
 }
 ;

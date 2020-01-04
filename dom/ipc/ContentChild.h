@@ -1624,6 +1624,10 @@ const
 bool
 &
 isLangRTL
+const
+bool
+&
+haveBidiKeyboards
 )
 override
 ;

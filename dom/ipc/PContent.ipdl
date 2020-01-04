@@ -2046,6 +2046,8 @@ BidiKeyboardNotify
 (
 bool
 isLangRTL
+bool
+haveBidiKeyboards
 )
 ;
 /
@@ -3128,6 +3130,8 @@ bool
 isConnected
 bool
 isLangRTL
+bool
+haveBidiKeyboards
 nsString
 [
 ]

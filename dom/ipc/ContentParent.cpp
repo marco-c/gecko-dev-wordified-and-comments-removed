@@ -15851,6 +15851,9 @@ aIsConnected
 bool
 *
 aIsLangRTL
+bool
+*
+aHaveBidiKeyboards
 InfallibleTArray
 <
 nsString
@@ -15958,6 +15961,11 @@ aIsLangRTL
 =
 false
 ;
+*
+aHaveBidiKeyboards
+=
+false
+;
 if
 (
 bidi
@@ -15969,6 +15977,14 @@ bidi
 IsLangRTL
 (
 aIsLangRTL
+)
+;
+bidi
+-
+>
+GetHaveBidiKeyboards
+(
+aHaveBidiKeyboards
 )
 ;
 }
