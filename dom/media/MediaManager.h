@@ -609,6 +609,14 @@ mRemoved
 (
 false
 )
+mAudioStopped
+(
+false
+)
+mVideoStopped
+(
+false
+)
 {
 }
 ~
@@ -1390,6 +1398,12 @@ mFinished
 ;
 bool
 mRemoved
+;
+bool
+mAudioStopped
+;
+bool
+mVideoStopped
 ;
 nsRefPtr
 <
