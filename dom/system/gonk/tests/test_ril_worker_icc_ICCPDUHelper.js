@@ -2039,7 +2039,8 @@ null
 equal
 (
 writenAlphaId
-null
+"
+"
 )
 ;
 equal
@@ -2254,7 +2255,8 @@ writeHexOctet
 equal
 (
 writenAlphaId
-null
+"
+"
 )
 ;
 equal
@@ -2704,7 +2706,8 @@ equal
 writtenContact
 .
 alphaId
-null
+"
+"
 )
 ;
 equal
@@ -2712,7 +2715,8 @@ equal
 writtenContact
 .
 number
-null
+"
+"
 )
 ;
 let
