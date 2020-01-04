@@ -4301,7 +4301,6 @@ Context_JS
 )
 JSRuntime
 (
-this
 parentRuntime
 )
 throwing
