@@ -9454,6 +9454,10 @@ mPersistResult
 aResult
 ;
 }
+mCompleted
+=
+true
+;
 if
 (
 mProgressListener
@@ -9499,10 +9503,6 @@ CleanupLocalFiles
 )
 ;
 }
-mCompleted
-=
-true
-;
 Cleanup
 (
 )
