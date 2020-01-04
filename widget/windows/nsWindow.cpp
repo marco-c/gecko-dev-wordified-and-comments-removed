@@ -5143,7 +5143,7 @@ nsSizeMode_Normal
 CSSToLayoutDeviceScale
 scale
 =
-BoundsUseDisplayPixels
+BoundsUseDesktopPixels
 (
 )
 ?
@@ -5469,7 +5469,7 @@ aRepaint
 CSSToLayoutDeviceScale
 scale
 =
-BoundsUseDisplayPixels
+BoundsUseDesktopPixels
 (
 )
 ?
@@ -5709,7 +5709,7 @@ aRepaint
 CSSToLayoutDeviceScale
 scale
 =
-BoundsUseDisplayPixels
+BoundsUseDesktopPixels
 (
 )
 ?
@@ -11712,7 +11712,7 @@ height
 ;
 MOZ_ASSERT
 (
-BoundsUseDisplayPixels
+BoundsUseDesktopPixels
 (
 )
 "

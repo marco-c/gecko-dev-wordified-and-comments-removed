@@ -5317,7 +5317,7 @@ GetClientOffset
 CSSToLayoutDeviceScale
 scale
 =
-BoundsUseDisplayPixels
+BoundsUseDesktopPixels
 (
 )
 ?
@@ -5429,7 +5429,7 @@ clientBounds
 CSSToLayoutDeviceScale
 scale
 =
-BoundsUseDisplayPixels
+BoundsUseDesktopPixels
 (
 )
 ?
@@ -5563,7 +5563,7 @@ clientBounds
 double
 scale
 =
-BoundsUseDisplayPixels
+BoundsUseDesktopPixels
 (
 )
 ?

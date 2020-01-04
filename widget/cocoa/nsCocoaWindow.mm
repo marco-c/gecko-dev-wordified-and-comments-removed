@@ -1348,8 +1348,7 @@ operates
 with
 aRect
 in
-global
-display
+desktop
 pixels
 static
 void
@@ -1674,8 +1673,7 @@ here
 is
 specified
 in
-global
-display
+desktop
 pixels
 nsresult
 nsCocoaWindow
@@ -7836,8 +7834,7 @@ NS_OBJC_END_TRY_ABORT_BLOCK
 /
 Coordinates
 are
-global
-display
+desktop
 pixels
 NS_IMETHODIMP
 nsCocoaWindow
@@ -9584,8 +9581,7 @@ NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 /
 Coordinates
 are
-global
-display
+desktop
 pixels
 nsresult
 nsCocoaWindow
@@ -9910,8 +9906,7 @@ NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 /
 Coordinates
 are
-global
-display
+desktop
 pixels
 NS_IMETHODIMP
 nsCocoaWindow
@@ -9947,8 +9942,7 @@ false
 /
 Coordinates
 are
-global
-display
+desktop
 pixels
 NS_IMETHODIMP
 nsCocoaWindow

@@ -901,7 +901,7 @@ aIntersectWithExisting
 override
 ;
 bool
-BoundsUseDisplayPixels
+BoundsUseDesktopPixels
 (
 )
 const

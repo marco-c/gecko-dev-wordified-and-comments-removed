@@ -4591,7 +4591,7 @@ aRepaint
 CSSToLayoutDeviceScale
 scale
 =
-BoundsUseDisplayPixels
+BoundsUseDesktopPixels
 (
 )
 ?
@@ -4704,7 +4704,7 @@ aRepaint
 CSSToLayoutDeviceScale
 scale
 =
-BoundsUseDisplayPixels
+BoundsUseDesktopPixels
 (
 )
 ?
@@ -4969,7 +4969,7 @@ aY
 CSSToLayoutDeviceScale
 scale
 =
-BoundsUseDisplayPixels
+BoundsUseDesktopPixels
 (
 )
 ?
