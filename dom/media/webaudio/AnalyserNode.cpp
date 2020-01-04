@@ -384,9 +384,9 @@ AudioNodeStream
 NO_STREAM_FLAGS
 )
 ;
-unused
-<
-<
+(
+void
+)
 mChunks
 .
 SetLength
