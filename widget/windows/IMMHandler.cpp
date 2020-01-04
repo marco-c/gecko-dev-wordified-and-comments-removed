@@ -1563,8 +1563,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 InitKeyboardLayout
 aKeyboardLayout
 =
@@ -1739,8 +1737,6 @@ LogLevel
 Debug
 (
 "
-IMM
-:
 IMMHandler
 is
 created
@@ -1771,8 +1767,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 ~
 IMMHandler
 ERROR
@@ -1795,8 +1789,6 @@ LogLevel
 Debug
 (
 "
-IMM
-:
 IMMHandler
 is
 destroyed
@@ -1885,8 +1877,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 CommitComposition
 aForce
 =
@@ -2003,8 +1993,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 CommitComposition
 associated
 =
@@ -2091,8 +2079,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 CancelComposition
 aForce
 =
@@ -2209,8 +2195,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 CancelComposition
 associated
 =
@@ -2283,8 +2267,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnFocusChange
 (
 aFocus
@@ -3130,8 +3112,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnInputLangChange
 hWnd
 =
@@ -3216,8 +3196,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMEStartComposition
 hWnd
 =
@@ -3312,8 +3290,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMEComposition
 hWnd
 =
@@ -3440,8 +3416,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMEEndComposition
 hWnd
 =
@@ -3532,8 +3506,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMEEndComposition
 WM_IME_ENDCOMPOSITION
 is
@@ -3565,8 +3537,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMEEndComposition
 mCompositionString
 =
@@ -3647,8 +3617,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMEChar
 hWnd
 =
@@ -3702,8 +3670,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMECompositionFull
 hWnd
 =
@@ -3764,8 +3730,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMENotify
 hWnd
 =
@@ -3801,8 +3765,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMENotify
 hWnd
 =
@@ -3838,8 +3800,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMENotify
 hWnd
 =
@@ -3870,8 +3830,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMENotify
 hWnd
 =
@@ -3902,8 +3860,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMENotify
 hWnd
 =
@@ -3939,8 +3895,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMENotify
 hWnd
 =
@@ -3971,8 +3925,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMENotify
 hWnd
 =
@@ -4008,8 +3960,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMENotify
 hWnd
 =
@@ -4040,8 +3990,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMENotify
 hWnd
 =
@@ -4072,8 +4020,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMENotify
 hWnd
 =
@@ -4104,8 +4050,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMENotify
 hWnd
 =
@@ -4136,8 +4080,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMENotify
 hWnd
 =
@@ -4168,8 +4110,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMENotify
 hWnd
 =
@@ -4200,8 +4140,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMENotify
 hWnd
 =
@@ -4266,8 +4204,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMERequest
 hWnd
 =
@@ -4313,8 +4249,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMERequest
 hWnd
 =
@@ -4360,8 +4294,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMERequest
 hWnd
 =
@@ -4406,8 +4338,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMERequest
 hWnd
 =
@@ -4466,8 +4396,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMESelect
 hWnd
 =
@@ -4530,8 +4458,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMESetContext
 hWnd
 =
@@ -4586,8 +4512,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMESetContext
 hWnd
 =
@@ -4655,8 +4579,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMESetContext
 ISC_SHOWUICOMPOSITIONWINDOW
 is
@@ -4771,8 +4693,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnChar
 aWindow
 =
@@ -4872,8 +4792,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMEStartCompositionOnPlugin
 hWnd
 =
@@ -4958,8 +4876,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMECompositionOnPlugin
 hWnd
 =
@@ -5126,8 +5042,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMEEndCompositionOnPlugin
 hWnd
 =
@@ -5207,8 +5121,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMECharOnPlugin
 hWnd
 =
@@ -5299,8 +5211,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnIMESetContextOnPlugin
 hWnd
 =
@@ -5485,8 +5395,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnCharOnPlugin
 aWindow
 =
@@ -5642,8 +5550,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 HandleStartComposition
 FAILED
 due
@@ -5724,8 +5630,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 HandleStartComposition
 FAILED
 due
@@ -5791,8 +5695,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 HandleStartComposition
 FAILED
 due
@@ -5834,8 +5736,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 HandleStartComposition
 START
 composition
@@ -5941,8 +5841,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 HandleComposition
 Ignores
 due
@@ -6005,8 +5903,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 HandleComposition
 GCS_RESULTSTR
 "
@@ -6058,8 +5954,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 HandleComposition
 GCS_COMPSTR
 "
@@ -6097,8 +5991,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 HandleComposition
 lParam
 doesn
@@ -6218,8 +6110,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 HandleComposition
 Aborting
 GCS_COMPSTR
@@ -6304,8 +6194,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 HandleComposition
 GCS_COMPCLAUSE
 useA_API
@@ -6409,8 +6297,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 HandleComposition
 GCS_COMPCLAUSE
 clauseArrayLength
@@ -6564,8 +6450,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 HandleComposition
 GCS_COMPCLAUSE
 mClauseLength
@@ -6683,8 +6567,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 HandleComposition
 GCS_COMPATTR
 mAttributeLength
@@ -6771,8 +6653,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 HandleComposition
 GCS_CURSORPOS
 mCursorPosition
@@ -6834,8 +6714,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 HandleEndComposition
 (
 aWindow
@@ -6934,8 +6812,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 HandleEndComposition
 FAILED
 due
@@ -7002,8 +6878,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 HandleStartComposition
 FAILED
 due
@@ -7099,8 +6973,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 HandleReconvert
 FAILED
 due
@@ -7169,8 +7041,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 HandleReconvert
 There
 are
@@ -7199,8 +7069,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 HandleReconvert
 succeeded
 result
@@ -7236,8 +7104,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 HandleReconvert
 FAILED
 pReconv
@@ -7361,8 +7227,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 HandleReconvert
 SUCCEEDED
 pReconv
@@ -7453,8 +7317,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 HandleQueryCharPosition
 FAILED
 due
@@ -7492,8 +7354,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 HandleReconvert
 FAILED
 pCharPosition
@@ -7554,8 +7414,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 HandleReconvert
 FAILED
 :
@@ -7608,8 +7466,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 HandleQueryCharPosition
 FAILED
 pCharPosition
@@ -7750,8 +7606,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 HandleQueryCharPosition
 eQueryEditorRect
 failed
@@ -7866,8 +7720,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 HandleQueryCharPosition
 SUCCEEDED
 pCharPosition
@@ -8051,8 +7903,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 HandleDocumentFeed
 FAILED
 due
@@ -8144,8 +7994,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 HandleDocumentFeed
 FAILED
 due
@@ -8215,8 +8063,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 HandleDocumentFeed
 FAILED
 due
@@ -8264,8 +8110,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 HandleDocumentFeed
 FAILED
 due
@@ -8391,8 +8235,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 HandleDocumentFeed
 succeeded
 result
@@ -8428,8 +8270,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 HandleDocumentFeed
 FAILED
 pReconv
@@ -8533,8 +8373,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 HandleDocumentFeed
 FAILED
 due
@@ -8663,8 +8501,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 HandleDocumentFeed
 SUCCEEDED
 pReconv
@@ -8729,8 +8565,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 CommitCompositionOnPreviousWindow
 mIsComposing
 =
@@ -8878,8 +8712,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 DispatchEvent
 (
 aWindow
@@ -8982,8 +8814,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 DispatchCompositionChangeEvent
 "
 )
@@ -9056,8 +8886,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 DispatchCompositionChangeEvent
 FAILED
 due
@@ -9107,8 +8935,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 DispatchCompositionChangeEvent
 mClauseArray
 .
@@ -9152,8 +8978,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 DispatchCompositionChangeEvent
 FAILED
 due
@@ -9207,8 +9031,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 DispatchCompositionChangeEvent
 FAILED
 due
@@ -9286,8 +9108,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 DispatchCompositionChangeEvent
 mClauseArray
 [
@@ -9386,8 +9206,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 DispatchCompositionChangeEvent
 FAILED
 due
@@ -9421,8 +9239,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 DispatchCompositionChangeEvent
 index
 =
@@ -9468,8 +9284,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 DispatchCompositionChangeEvent
 no
 caret
@@ -9511,8 +9325,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 CreateTextRangeArray
 mCursorPosition
 =
@@ -9616,8 +9428,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 CreateTextRangeArray
 no
 caret
@@ -9680,8 +9490,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 DispatchCompositionChangeEvent
 FAILED
 due
@@ -9749,8 +9557,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 DispatchCompositionChangeEvent
 FAILED
 due
@@ -9851,8 +9657,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 GetCompositionString
 FAILED
 due
@@ -9914,8 +9718,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 GetCompositionString
 succeeded
 aCompositionString
@@ -10219,8 +10021,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 ConvertToANSIString
 FAILED
 due
@@ -10324,8 +10124,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 GetCharacterRectOfSelectedTextAt
 FAILED
 due
@@ -10383,8 +10181,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 GetCharacterRectOfSelectedTextAt
 FAILED
 due
@@ -10585,8 +10381,6 @@ LogLevel
 Debug
 (
 "
-IMM
-:
 GetCharacterRectOfSelectedTextAt
 Succeeded
 aOffset
@@ -10753,8 +10547,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 GetCaretRect
 FAILED
 due
@@ -10801,8 +10593,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 GetCaretRect
 SUCCEEDED
 "
@@ -11011,8 +10801,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 SetIMERelatedWindowsPos
 mNativeCaretIsCreated
 =
@@ -11071,8 +10859,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 SetIMERelatedWindowsPos
 Set
 candidate
@@ -11123,8 +10909,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 SetIMERelatedWindowsPos
 FAILED
 due
@@ -11467,8 +11251,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 SetIMERelatedWindowsPos
 Calling
 ImmSetCandidateWindow
@@ -11586,8 +11368,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 SetIMERelatedWindowsPos
 Set
 composition
@@ -11710,8 +11490,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 SetIMERelatedWindowsPosOnPlugin
 "
 "
@@ -12029,8 +11807,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 SetIMERelatedWindowsPosOnPlugin
 "
 "
@@ -12491,8 +12267,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 AdjustCompositionFont
 :
 :
@@ -12536,8 +12310,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 AdjustCompositionFont
 sCompositionFont
 =
@@ -12695,8 +12467,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 AdjustCompositionFont
 :
 :
@@ -12808,8 +12578,6 @@ LogLevel
 Warning
 (
 "
-IMM
-:
 AdjustCompositionFont
 calling
 :
@@ -13122,8 +12890,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnMouseButtonEvent
 x
 y
@@ -13239,8 +13005,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 OnKeyDownEvent
 hWnd
 =
@@ -13709,8 +13473,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 Selection
 :
 :
@@ -13774,8 +13536,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 Selection
 :
 :
@@ -13870,8 +13630,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 Selection
 :
 :
@@ -13908,8 +13666,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 Selection
 :
 :
@@ -13965,8 +13721,6 @@ LogLevel
 Info
 (
 "
-IMM
-:
 Selection
 :
 :
@@ -14032,8 +13786,6 @@ LogLevel
 Error
 (
 "
-IMM
-:
 Selection
 :
 :
