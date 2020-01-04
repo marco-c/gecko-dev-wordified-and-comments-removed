@@ -523,11 +523,8 @@ preventDefault
 return
 ;
 }
-else
-{
 return
 ;
-}
 }
 if
 (

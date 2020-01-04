@@ -4957,6 +4957,7 @@ if
 (
 aIsFormUrlEncoded
 )
+{
 return
 escape
 (
@@ -4969,7 +4970,7 @@ aName
 aValue
 )
 ;
-else
+}
 return
 escape
 (

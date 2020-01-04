@@ -3196,8 +3196,6 @@ i
 )
 ;
 }
-else
-{
 return
 a1
 .
@@ -3242,7 +3240,6 @@ length
 =
 0
 ;
-}
 }
 function
 NavBookmarkObserver

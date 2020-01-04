@@ -4218,8 +4218,6 @@ wServicePackMajor
 3
 ;
 }
-else
-{
 Cu
 .
 reportError
@@ -4239,7 +4237,6 @@ returned
 return
 false
 ;
-}
 }
 catch
 (

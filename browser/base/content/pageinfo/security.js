@@ -477,8 +477,6 @@ return
 retval
 ;
 }
-else
-{
 return
 {
 hostName
@@ -513,7 +511,6 @@ cert
 null
 }
 ;
-}
 }
 _getSecurityUI
 :
@@ -824,8 +821,6 @@ true
 return
 ;
 }
-else
-{
 document
 .
 getElementById
@@ -839,7 +834,6 @@ hidden
 =
 false
 ;
-}
 const
 pageInfoBundle
 =

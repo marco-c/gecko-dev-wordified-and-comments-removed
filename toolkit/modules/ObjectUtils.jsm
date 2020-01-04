@@ -131,7 +131,6 @@ return
 true
 ;
 }
-else
 if
 (
 instanceOf
@@ -192,7 +191,6 @@ getTime
 )
 ;
 }
-else
 if
 (
 instanceOf
@@ -269,7 +267,6 @@ b
 ignoreCase
 ;
 }
-else
 if
 (
 typeof
@@ -297,8 +294,6 @@ a
 b
 ;
 }
-else
-{
 return
 objEquiv
 (
@@ -306,7 +301,6 @@ a
 b
 )
 ;
-}
 }
 function
 instanceOf

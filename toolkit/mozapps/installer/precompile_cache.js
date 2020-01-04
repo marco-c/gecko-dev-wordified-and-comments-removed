@@ -481,9 +481,10 @@ jsm
 )
 ;
 }
-else
-{
 throw
+new
+Error
+(
 "
 Expected
 a
@@ -491,8 +492,8 @@ nsIJARURI
 or
 nsIFileURL
 "
+)
 ;
-}
 }
 function
 load_modules_under

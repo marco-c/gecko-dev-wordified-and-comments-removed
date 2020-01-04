@@ -1625,12 +1625,9 @@ return
 mainWindow
 ;
 }
-else
-{
 return
 null
 ;
-}
 }
 var
 HTML5History
@@ -4099,8 +4096,6 @@ headeredViewsDeck
 selectedPanel
 ;
 }
-else
-{
 return
 this
 .
@@ -4108,7 +4103,6 @@ viewPort
 .
 selectedPanel
 ;
-}
 }
 set
 displayedView
@@ -8591,7 +8585,6 @@ return
 askToActivate
 "
 ;
-else
 return
 "
 enabled

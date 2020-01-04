@@ -7034,8 +7034,6 @@ resolve
 )
 ;
 }
-else
-{
 return
 this
 .
@@ -7045,7 +7043,6 @@ flush
 (
 )
 ;
-}
 }
 delete
 :

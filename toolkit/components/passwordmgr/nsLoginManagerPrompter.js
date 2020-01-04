@@ -1368,12 +1368,9 @@ _window
 )
 ;
 }
-else
-{
 return
 true
 ;
-}
 }
 prompt
 :
@@ -7014,7 +7011,6 @@ formatArgs
 length
 )
 ;
-else
 return
 this
 .

@@ -930,12 +930,9 @@ arg
 data
 ;
 }
-else
-{
 return
 arg
 ;
-}
 }
 )
 ;

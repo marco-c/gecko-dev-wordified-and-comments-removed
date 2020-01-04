@@ -1113,8 +1113,6 @@ gStrings
 unknown
 ;
 }
-else
-{
 var
 kbSize
 =
@@ -1147,7 +1145,6 @@ kbSize
 ]
 )
 ;
-}
 }
 return
 value

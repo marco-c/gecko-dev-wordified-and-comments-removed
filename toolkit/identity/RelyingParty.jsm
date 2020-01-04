@@ -530,8 +530,6 @@ options
 )
 ;
 }
-else
-{
 let
 options
 =
@@ -556,9 +554,6 @@ options
 )
 ;
 }
-}
-else
-{
 if
 (
 aRpCaller
@@ -580,8 +575,6 @@ origin
 )
 ;
 }
-else
-{
 return
 aRpCaller
 .
@@ -589,8 +582,6 @@ doReady
 (
 )
 ;
-}
-}
 }
 _doLogin
 :

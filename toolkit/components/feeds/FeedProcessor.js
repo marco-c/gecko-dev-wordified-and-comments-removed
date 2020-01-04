@@ -9123,7 +9123,6 @@ return
 "
 "
 ;
-else
 return
 null
 ;
@@ -9619,8 +9618,6 @@ e
 return
 ;
 }
-else
-{
 container
 =
 container
@@ -9637,7 +9634,6 @@ Ci
 nsIWritablePropertyBag2
 )
 ;
-}
 }
 var
 propName

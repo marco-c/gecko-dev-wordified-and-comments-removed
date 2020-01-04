@@ -2593,8 +2593,6 @@ removePartialData
 )
 ;
 }
-else
-{
 return
 this
 .
@@ -2602,7 +2600,6 @@ cancel
 (
 )
 ;
-}
 }
 _lastProgressTimeMs
 :

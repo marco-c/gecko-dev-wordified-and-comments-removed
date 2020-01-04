@@ -885,14 +885,11 @@ this
 EVENT_FILE_SUCCESS
 ;
 }
-else
-{
 return
 this
 .
 EVENT_FILE_ERROR_UNKNOWN_EVENT
 ;
-}
 }
 return
 CrashManager

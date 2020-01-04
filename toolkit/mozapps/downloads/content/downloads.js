@@ -3732,8 +3732,6 @@ undefined
 return
 ;
 }
-else
-{
 while
 (
 elm
@@ -3760,6 +3758,7 @@ type
 download
 "
 )
+{
 elm
 =
 elm
@@ -5600,8 +5599,6 @@ nsILocalFile
 )
 ;
 }
-else
-{
 var
 f
 =
@@ -5614,7 +5611,6 @@ aPathOrUrl
 return
 f
 ;
-}
 }
 function
 updateClearListButton

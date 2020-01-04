@@ -3812,8 +3812,6 @@ errors
 return
 ;
 }
-else
-{
 aus
 .
 addDownloadListener
@@ -3821,7 +3819,6 @@ addDownloadListener
 this
 )
 ;
-}
 if
 (
 activeUpdate

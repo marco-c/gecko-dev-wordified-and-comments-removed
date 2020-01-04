@@ -5171,8 +5171,6 @@ return
 urlext
 ;
 }
-else
-{
 try
 {
 if
@@ -5197,7 +5195,6 @@ ext
 |
 urlext
 ;
-}
 }
 function
 GetSaveModeForContentType

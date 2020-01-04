@@ -3998,8 +3998,6 @@ rest
 )
 ;
 }
-else
-{
 return
 Components
 .
@@ -4014,7 +4012,6 @@ principals
 rest
 )
 ;
-}
 }
 ;
 ComponentsUtilsInterposition
@@ -4062,8 +4059,6 @@ rest
 )
 ;
 }
-else
-{
 return
 Components
 .
@@ -4079,7 +4074,6 @@ sandbox
 rest
 )
 ;
-}
 }
 ;
 var

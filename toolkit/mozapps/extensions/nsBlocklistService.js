@@ -6051,8 +6051,6 @@ nsIBlocklistService
 STATE_NOT_BLOCKED
 ;
 }
-else
-{
 if
 (
 !
@@ -6081,7 +6079,6 @@ appVersion
 toolkitVersion
 )
 ;
-}
 }
 _getPluginBlocklistEntry
 :

@@ -223,8 +223,6 @@ _
 end
 ;
 }
-else
-{
 return
 aStr
 .
@@ -240,7 +238,6 @@ aMaxLen
 _
 "
 ;
-}
 }
 if
 (

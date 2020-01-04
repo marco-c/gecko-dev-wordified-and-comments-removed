@@ -1567,8 +1567,6 @@ cellText
 aNewValue
 ;
 }
-else
-{
 if
 (
 !
@@ -1584,6 +1582,7 @@ localName
 toolbarbutton
 "
 )
+{
 return
 aElementOrTreeIndex
 .
@@ -1604,6 +1603,7 @@ aElementOrTreeIndex
 _placesNode
 )
 ;
+}
 return
 aElementOrTreeIndex
 .
@@ -1617,7 +1617,6 @@ label
 =
 aNewValue
 ;
-}
 }
 ;
 for

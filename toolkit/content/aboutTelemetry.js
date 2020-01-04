@@ -866,12 +866,9 @@ return
 mainWindow
 ;
 }
-else
-{
 return
 null
 ;
-}
 }
 function
 removeAllChildNodes

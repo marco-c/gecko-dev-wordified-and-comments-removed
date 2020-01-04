@@ -5334,8 +5334,6 @@ return
 endElement
 ;
 }
-else
-{
 while
 (
 popup
@@ -5344,6 +5342,7 @@ hasChildNodes
 (
 )
 )
+{
 popup
 .
 removeChild

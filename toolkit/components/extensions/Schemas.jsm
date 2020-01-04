@@ -5127,8 +5127,6 @@ return
 args
 ;
 }
-else
-{
 let
 success
 =
@@ -5157,7 +5155,6 @@ types
 )
 ;
 }
-}
 fixedArgs
 =
 fixedArgs
@@ -5184,8 +5181,6 @@ return
 null
 ;
 }
-else
-{
 let
 parameter
 =
@@ -5245,7 +5240,6 @@ r
 .
 value
 ;
-}
 }
 )
 ;
@@ -6302,12 +6296,9 @@ e
 name
 ;
 }
-else
-{
 return
 e
 ;
-}
 }
 )
 ;
@@ -7190,8 +7181,6 @@ type
 )
 ;
 }
-else
-{
 throw
 new
 Error
@@ -7205,7 +7194,6 @@ type
 }
 )
 ;
-}
 }
 parseFunction
 (
@@ -8130,7 +8118,9 @@ appinfo
 PROCESS_TYPE_CONTENT
 )
 {
-return
+let
+result
+=
 readJSON
 (
 url
@@ -8201,9 +8191,10 @@ json
 }
 )
 ;
+return
+result
+;
 }
-else
-{
 if
 (
 this
@@ -8245,7 +8236,6 @@ loadFromJSON
 schema
 )
 ;
-}
 }
 inject
 (

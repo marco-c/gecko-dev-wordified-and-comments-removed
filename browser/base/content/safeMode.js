@@ -196,12 +196,9 @@ return
 false
 ;
 }
-else
-{
 return
 true
 ;
-}
 }
 function
 onCancel
@@ -238,13 +235,10 @@ return
 true
 ;
 }
-else
-{
 showResetDialog
 (
 )
 ;
-}
 return
 false
 ;

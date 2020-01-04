@@ -678,7 +678,6 @@ formatArgs
 length
 )
 ;
-else
 return
 this
 .
@@ -2903,7 +2902,6 @@ this
 arguments
 )
 ;
-else
 return
 this
 .
@@ -2946,7 +2944,6 @@ this
 arguments
 )
 ;
-else
 return
 this
 .
@@ -2989,7 +2986,6 @@ this
 arguments
 )
 ;
-else
 return
 this
 .

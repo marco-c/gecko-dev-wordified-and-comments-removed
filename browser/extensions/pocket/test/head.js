@@ -401,8 +401,6 @@ promisePocketEnabled
 )
 ;
 }
-else
-{
 info
 (
 "
@@ -419,5 +417,4 @@ promisePocketDisabled
 (
 )
 ;
-}
 }

@@ -6442,9 +6442,8 @@ install
 )
 ;
 }
-else
-{
 throw
+new
 Error
 (
 "
@@ -6459,7 +6458,6 @@ permanent
 "
 )
 ;
-}
 }
 shutdown
 (

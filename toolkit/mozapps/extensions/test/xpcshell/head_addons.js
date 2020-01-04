@@ -2068,8 +2068,6 @@ nsIRDFLiteral
 Value
 ;
 }
-else
-{
 let
 manifest
 =
@@ -2089,7 +2087,6 @@ gecko
 .
 id
 ;
-}
 }
 )
 ;
@@ -3005,8 +3002,6 @@ spec
 "
 ;
 }
-else
-{
 return
 Services
 .
@@ -3019,7 +3014,6 @@ path
 .
 spec
 ;
-}
 }
 function
 do_get_expected_addon_name
@@ -6320,8 +6314,6 @@ return
 dir
 ;
 }
-else
-{
 let
 file
 =
@@ -6455,7 +6447,6 @@ close
 return
 file
 ;
-}
 }
 function
 writeInstallRDFToXPI
@@ -7168,8 +7159,6 @@ return
 dir
 ;
 }
-else
-{
 let
 target
 =
@@ -7206,7 +7195,6 @@ leafName
 return
 target
 ;
-}
 }
 function
 manuallyUninstall

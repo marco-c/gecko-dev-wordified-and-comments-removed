@@ -7723,7 +7723,6 @@ aFile
 aInstallLocation
 )
 ;
-else
 return
 loadManifestFromDir
 (
@@ -13658,8 +13657,6 @@ return
 done
 ;
 }
-else
-{
 logger
 .
 debug
@@ -13689,7 +13686,6 @@ shutdown
 null
 )
 ;
-}
 return
 undefined
 ;

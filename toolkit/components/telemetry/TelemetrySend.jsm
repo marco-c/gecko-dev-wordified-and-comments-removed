@@ -583,8 +583,6 @@ aPing
 )
 ;
 }
-else
-{
 return
 TelemetryStorage
 .
@@ -593,7 +591,6 @@ savePendingPing
 aPing
 )
 ;
-}
 }
 function
 gzipCompressString
@@ -3889,8 +3886,6 @@ id
 )
 ;
 }
-else
-{
 return
 Promise
 .
@@ -3898,7 +3893,6 @@ resolve
 (
 )
 ;
-}
 }
 _getSubmissionPath
 :

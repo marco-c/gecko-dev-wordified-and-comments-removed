@@ -3079,12 +3079,9 @@ index
 "
 ;
 }
-else
-{
 return
 dollarSigns
 ;
-}
 }
 ;
 return

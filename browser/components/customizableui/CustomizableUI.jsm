@@ -1213,8 +1213,6 @@ return
 true
 ;
 }
-else
-{
 return
 AppConstants
 .
@@ -1227,13 +1225,9 @@ win
 )
 ;
 }
-}
-else
-{
 return
 false
 ;
-}
 }
 }
 true

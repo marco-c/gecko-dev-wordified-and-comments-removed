@@ -2267,8 +2267,6 @@ id
 )
 ;
 }
-else
-{
 this
 .
 _log
@@ -2288,7 +2286,6 @@ id
 "
 )
 ;
-}
 }
 const
 filePath

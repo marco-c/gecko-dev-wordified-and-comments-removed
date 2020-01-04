@@ -668,8 +668,6 @@ aDownload
 )
 ;
 }
-else
-{
 return
 this
 .
@@ -680,7 +678,6 @@ add
 aDownload
 )
 ;
-}
 }
 remove
 :
@@ -709,8 +706,6 @@ aDownload
 )
 ;
 }
-else
-{
 return
 this
 .
@@ -721,7 +716,6 @@ remove
 aDownload
 )
 ;
-}
 }
 onDownloadAdded
 :

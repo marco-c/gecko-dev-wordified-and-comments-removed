@@ -711,8 +711,6 @@ testPing
 )
 ;
 }
-else
-{
 TelemetrySend
 .
 setServer
@@ -733,7 +731,6 @@ testPing
 (
 )
 ;
-}
 }
 function
 fakeGenerateUUID

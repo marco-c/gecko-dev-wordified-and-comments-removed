@@ -606,8 +606,6 @@ options
 )
 ;
 }
-else
-{
 this
 .
 errors
@@ -626,7 +624,6 @@ formatError
 (
 )
 ;
-}
 }
 count
 :
@@ -697,8 +694,6 @@ noContentErr
 }
 ;
 }
-else
-{
 items
 =
 this
@@ -871,7 +866,6 @@ return
 out
 ;
 }
-}
 isMicroformat
 :
 function
@@ -980,8 +974,6 @@ return
 false
 ;
 }
-else
-{
 return
 (
 classes
@@ -993,7 +985,6 @@ length
 0
 )
 ;
-}
 }
 hasMicroformats
 :
@@ -1096,8 +1087,6 @@ return
 false
 ;
 }
-else
-{
 return
 (
 items
@@ -1107,7 +1096,6 @@ length
 0
 )
 ;
-}
 }
 add
 :
@@ -1231,8 +1219,6 @@ true
 )
 ;
 }
-else
-{
 return
 this
 .
@@ -1240,7 +1226,6 @@ formatEmpty
 (
 )
 ;
-}
 }
 if
 (
@@ -1289,8 +1274,6 @@ options
 )
 ;
 }
-else
-{
 return
 this
 .
@@ -1304,9 +1287,6 @@ true
 )
 ;
 }
-}
-else
-{
 return
 this
 .
@@ -1314,7 +1294,6 @@ formatEmpty
 (
 )
 ;
-}
 }
 getDOMContext
 :
@@ -1920,12 +1899,9 @@ return
 false
 ;
 }
-else
-{
 return
 true
 ;
-}
 }
 findRootNodes
 :
@@ -4201,8 +4177,6 @@ dateFormat
 )
 ;
 }
-else
-{
 if
 (
 uf
@@ -4255,14 +4229,10 @@ dateFormat
 )
 ;
 }
-}
-else
-{
 return
 '
 '
 ;
-}
 }
 appendRootID
 :
@@ -4398,8 +4368,6 @@ return
 false
 ;
 }
-else
-{
 rootids
 =
 modules
@@ -4437,7 +4405,6 @@ propertyName
 1
 )
 ;
-}
 }
 getValueClass
 :
@@ -4713,12 +4680,9 @@ return
 undefined
 ;
 }
-else
-{
 return
 null
 ;
-}
 }
 getValueTitle
 :
@@ -4863,12 +4827,9 @@ return
 true
 ;
 }
-else
-{
 return
 false
 ;
-}
 }
 getUfClassNames
 :
@@ -5692,8 +5653,6 @@ return
 true
 ;
 }
-else
-{
 return
 (
 typeVersion
@@ -5703,7 +5662,6 @@ typeVersion
 propertyVersion
 )
 ;
-}
 }
 createUfObject
 :
@@ -9738,13 +9696,10 @@ g
 )
 ;
 }
-else
-{
 return
 '
 '
 ;
-}
 }
 replaceCharAt
 :
@@ -9790,12 +9745,9 @@ length
 )
 ;
 }
-else
-{
 return
 text
 ;
-}
 }
 trimWhitespace
 :
@@ -11004,8 +10956,6 @@ out
 null
 ;
 }
-else
-{
 return
 (
 countAll
@@ -11019,7 +10969,6 @@ out
 :
 null
 ;
-}
 }
 hasTagName
 :
@@ -11112,12 +11061,9 @@ childNode
 )
 ;
 }
-else
-{
 return
 null
 ;
-}
 }
 clone
 :
@@ -11172,13 +11118,10 @@ node
 data
 ;
 }
-else
-{
 return
 '
 '
 ;
-}
 }
 getOrderedAttributes
 :
@@ -14699,8 +14642,6 @@ return
 isodate
 ;
 }
-else
-{
 if
 (
 isodate
@@ -14722,7 +14663,6 @@ ISODate
 (
 )
 ;
-}
 }
 concatFragments
 :
@@ -14782,8 +14722,6 @@ format
 )
 ;
 }
-else
-{
 for
 (
 i
@@ -15010,7 +14948,6 @@ value
 return
 out
 ;
-}
 }
 splitTimeAndZone
 :
@@ -15368,16 +15305,11 @@ out
 )
 ;
 }
-else
-{
 return
 '
 '
 ;
 }
-}
-else
-{
 return
 this
 .
@@ -15397,7 +15329,6 @@ this
 textFormat
 )
 ;
-}
 }
 parseText
 :
@@ -15532,13 +15463,10 @@ out
 )
 ;
 }
-else
-{
 return
 '
 '
 ;
-}
 }
 normalise
 :

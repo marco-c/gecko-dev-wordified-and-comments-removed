@@ -3338,8 +3338,6 @@ aDate
 1000000
 ;
 }
-else
-{
 return
 Date
 .
@@ -3347,7 +3345,6 @@ now
 (
 )
 ;
-}
 }
 runBatched
 :

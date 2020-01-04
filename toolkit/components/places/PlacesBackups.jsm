@@ -1128,8 +1128,6 @@ filePath
 )
 ;
 }
-else
-{
 this
 .
 _backupFiles
@@ -1139,7 +1137,6 @@ push
 filePath
 )
 ;
-}
 }
 return
 undefined

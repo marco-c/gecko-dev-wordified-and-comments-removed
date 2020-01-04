@@ -320,7 +320,6 @@ arg1
 y
 )
 ;
-else
 return
 f
 .

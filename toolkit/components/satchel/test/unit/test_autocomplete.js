@@ -79,6 +79,7 @@ expire_days
 "
 )
 )
+{
 return
 prefs
 .
@@ -93,7 +94,7 @@ expire_days
 "
 )
 ;
-else
+}
 return
 DEFAULT_EXPIRE_DAYS
 ;

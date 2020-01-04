@@ -726,7 +726,11 @@ defaultButton
 "
 )
 ;
-else
+return
+"
+accept
+"
+;
 /
 /
 default
@@ -734,11 +738,6 @@ to
 the
 accept
 button
-return
-"
-accept
-"
-;
 ]
 ]
 >

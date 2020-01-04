@@ -911,8 +911,6 @@ test
 return
 ;
 }
-else
-{
 do_check_neq
 (
 search1
@@ -929,7 +927,6 @@ _previousResult
 null
 )
 ;
-}
 unregisterAutoCompleteSearch
 (
 search1

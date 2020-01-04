@@ -336,8 +336,6 @@ root
 )
 ;
 }
-else
-{
 return
 [
 convert
@@ -347,7 +345,6 @@ null
 )
 ]
 ;
-}
 }
 )
 .
