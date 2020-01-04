@@ -1801,9 +1801,9 @@ table_size
 =
 4
 ;
-}
 break
 ;
+}
 case
 4
 :
@@ -1968,9 +1968,9 @@ table_size
 =
 8
 ;
-}
 break
 ;
+}
 }
 while
 (

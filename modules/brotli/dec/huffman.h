@@ -14,6 +14,15 @@ types
 h
 "
 #
+include
+"
+.
+/
+port
+.
+h
+"
+#
 if
 defined
 (
@@ -101,6 +110,7 @@ value
 }
 HuffmanCode
 ;
+BROTLI_INTERNAL
 void
 BrotliBuildCodeLengthsHuffmanTable
 (
@@ -117,6 +127,7 @@ uint16_t
 count
 )
 ;
+BROTLI_INTERNAL
 uint32_t
 BrotliBuildHuffmanTable
 (
@@ -135,6 +146,7 @@ uint16_t
 count_arg
 )
 ;
+BROTLI_INTERNAL
 uint32_t
 BrotliBuildSimpleHuffmanTable
 (

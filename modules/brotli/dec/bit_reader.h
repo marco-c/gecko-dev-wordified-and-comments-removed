@@ -199,6 +199,7 @@ avail_in
 }
 BrotliBitReaderState
 ;
+BROTLI_INTERNAL
 void
 BrotliInitBitReader
 (
@@ -208,6 +209,7 @@ const
 br
 )
 ;
+BROTLI_INTERNAL
 int
 BrotliWarmupBitReader
 (
@@ -1796,10 +1798,8 @@ BitMask
 n_bits
 )
 ;
-#
-ifdef
-BROTLI_DECODE_DEBUG
-printf
+BROTLI_LOG
+(
 (
 "
 [
@@ -1839,9 +1839,8 @@ int
 *
 val
 )
+)
 ;
-#
-endif
 BrotliDropBits
 (
 br
