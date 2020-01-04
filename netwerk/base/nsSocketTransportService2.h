@@ -624,9 +624,6 @@ mKeepaliveProbeCount
 bool
 mKeepaliveEnabledPref
 ;
-bool
-mServeMultipleEventsPerPollIter
-;
 mozilla
 :
 :
