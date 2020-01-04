@@ -139,6 +139,10 @@ mIntl
 (
 aProxy
 )
+mSupportedIfaces
+(
+0
+)
 {
 if
 (
