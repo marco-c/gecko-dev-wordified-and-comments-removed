@@ -3908,9 +3908,9 @@ project
 .
 manifest
 .
-role
-&
-&
+manifest_version
+|
+|
 project
 .
 manifest
