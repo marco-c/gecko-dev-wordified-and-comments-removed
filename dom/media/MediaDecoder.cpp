@@ -5024,8 +5024,11 @@ NetworkError
 (
 )
 ;
-Shutdown
+MOZ_ASSERT
 (
+IsShutdown
+(
+)
 )
 ;
 }
