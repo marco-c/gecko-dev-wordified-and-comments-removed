@@ -100,6 +100,7 @@ MediaRawData
 aSample
 )
 ;
+virtual
 nsresult
 Flush
 (
