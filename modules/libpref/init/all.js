@@ -5688,7 +5688,7 @@ azure
 backends
 "
 "
-cairo
+skia
 "
 )
 ;
