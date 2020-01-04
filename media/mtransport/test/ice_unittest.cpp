@@ -18210,6 +18210,8 @@ str_addr
 )
 )
 ;
+break
+;
 case
 AF_INET6
 :
@@ -18238,6 +18240,8 @@ sizeof
 str_addr
 )
 )
+;
+break
 ;
 default
 :
