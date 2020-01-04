@@ -2400,13 +2400,6 @@ java
 '
 home
 /
-HomePagerTabStrip
-.
-java
-'
-'
-home
-/
 HomePanelsManager
 .
 java
