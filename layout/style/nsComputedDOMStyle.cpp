@@ -8064,7 +8064,7 @@ mImage
 nsCSSProps
 :
 :
-kImageLayerOriginKTable
+kBackgroundClipKTable
 )
 ;
 }
