@@ -708,6 +708,7 @@ SpeedHistogram
 (
 )
 ;
+const
 ImageMetadata
 &
 GetImageMetadata

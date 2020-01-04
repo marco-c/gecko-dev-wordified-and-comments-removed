@@ -268,6 +268,16 @@ frame
 "
 )
 ;
+ImageMetadata
+metadata
+=
+aDecoder
+-
+>
+GetImageMetadata
+(
+)
+;
 if
 (
 NS_IsMainThread
@@ -297,6 +307,7 @@ aImage
 FinalizeDecoder
 (
 aDecoder
+metadata
 )
 ;
 return
@@ -347,6 +358,7 @@ decoder
 get
 (
 )
+metadata
 )
 ;
 }
