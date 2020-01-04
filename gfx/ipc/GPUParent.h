@@ -59,7 +59,7 @@ aChannel
 )
 ;
 bool
-RecvBeginShutdown
+RecvNothing
 (
 )
 override
