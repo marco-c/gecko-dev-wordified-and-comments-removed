@@ -744,15 +744,6 @@ taskgraph
 decision
 -
 -
-target
--
-tasks
--
-method
-=
-try_option_syntax
--
--
 pushlog
 -
 id
