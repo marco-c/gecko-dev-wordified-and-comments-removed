@@ -230,17 +230,6 @@ hg3
 7
 extra
 :
-extra
-:
-build_product
-:
-'
-{
-{
-build_product
-}
-}
-'
 locations
 :
 build
@@ -259,6 +248,9 @@ lint
 symbol
 :
 MH
+tier
+:
+2
 treeherderEnv
 :
 -
