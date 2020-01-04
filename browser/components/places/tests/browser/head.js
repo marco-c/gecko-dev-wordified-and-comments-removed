@@ -776,6 +776,10 @@ notification
 )
 return
 (
+.
+.
+.
+args
 )
 =
 >
@@ -787,7 +791,7 @@ conditionFn
 apply
 (
 this
-arguments
+args
 )
 )
 {
@@ -831,7 +835,7 @@ JSON
 .
 stringify
 (
-arguments
+args
 )
 }
 )
@@ -980,6 +984,10 @@ notification
 )
 return
 (
+.
+.
+.
+args
 )
 =
 >
@@ -991,7 +999,7 @@ conditionFn
 apply
 (
 this
-arguments
+args
 )
 )
 {

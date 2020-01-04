@@ -3620,6 +3620,10 @@ onItem
 {
 return
 (
+.
+.
+.
+origArgs
 )
 =
 >
@@ -3631,7 +3635,7 @@ Array
 .
 from
 (
-arguments
+origArgs
 arg
 =
 >
