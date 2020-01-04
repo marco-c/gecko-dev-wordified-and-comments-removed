@@ -579,7 +579,7 @@ void
 sendMouseEvent
 :
 (
-int
+EventMessage
 )
 aType
 point
@@ -633,7 +633,7 @@ void
 sendTouchEvent
 :
 (
-int
+EventMessage
 )
 aType
 touches
@@ -930,7 +930,7 @@ void
 sendMouseEvent
 :
 (
-int
+EventMessage
 )
 aType
 point
@@ -1117,7 +1117,7 @@ void
 sendTouchEvent
 :
 (
-int
+EventMessage
 )
 aType
 touches
