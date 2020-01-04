@@ -206,6 +206,11 @@ GetGlobalJSObject
 )
 ;
 }
+bool
+IsJSAPIActive
+(
+)
+;
 class
 ScriptSettingsStack
 ;
