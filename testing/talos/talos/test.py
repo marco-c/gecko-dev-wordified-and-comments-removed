@@ -159,6 +159,12 @@ lower_is_better
 =
 True
     
+alert_threshold
+=
+2
+.
+0
+    
 classmethod
     
 def
@@ -1354,6 +1360,10 @@ test_name_extension
 '
 lower_is_better
 '
+'
+alert_threshold
+'
+            
 '
 unit
 '
@@ -3767,6 +3777,12 @@ prepare
 lower_is_better
 =
 False
+    
+alert_threshold
+=
+5
+.
+0
 register_test
 (
 )
@@ -4505,3 +4521,9 @@ unit
 '
 ms
 '
+    
+alert_threshold
+=
+5
+.
+0
