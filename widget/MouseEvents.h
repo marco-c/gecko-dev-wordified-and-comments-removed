@@ -1463,7 +1463,7 @@ mOverflowDeltaX
 .
 0
 )
-overflowDeltaY
+mOverflowDeltaY
 (
 0
 .
@@ -1574,7 +1574,7 @@ mOverflowDeltaX
 .
 0
 )
-overflowDeltaY
+mOverflowDeltaY
 (
 0
 .
@@ -1818,7 +1818,7 @@ double
 mOverflowDeltaX
 ;
 double
-overflowDeltaY
+mOverflowDeltaY
 ;
 bool
 mViewPortIsOverscrolled
@@ -1918,11 +1918,11 @@ aEvent
 .
 mOverflowDeltaX
 ;
-overflowDeltaY
+mOverflowDeltaY
 =
 aEvent
 .
-overflowDeltaY
+mOverflowDeltaY
 ;
 mViewPortIsOverscrolled
 =
