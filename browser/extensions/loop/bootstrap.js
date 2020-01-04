@@ -3776,7 +3776,7 @@ loadAndRegisterSheet
 styleSheetURI
 styleSheetService
 .
-USER_SHEET
+AUTHOR_SHEET
 )
 ;
 }
@@ -4074,7 +4074,7 @@ sheetRegistered
 styleSheetURI
 styleSheetService
 .
-USER_SHEET
+AUTHOR_SHEET
 )
 )
 {
@@ -4085,7 +4085,7 @@ unregisterSheet
 styleSheetURI
 styleSheetService
 .
-USER_SHEET
+AUTHOR_SHEET
 )
 ;
 }
