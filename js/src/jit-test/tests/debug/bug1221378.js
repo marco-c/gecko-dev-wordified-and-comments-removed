@@ -1,0 +1,15 @@
+newGlobal
+(
+)
+.
+eval
+(
+'
+enableShellObjectMetadataCallback
+(
+)
+;
+Array
+'
+)
+;

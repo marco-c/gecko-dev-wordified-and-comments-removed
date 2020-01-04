@@ -607,6 +607,12 @@ key
 )
 )
 ;
+AutoSuppressObjectMetadataCallback
+suppressMetadata
+(
+cx
+)
+;
 ClassInitializerOp
 init
 =
