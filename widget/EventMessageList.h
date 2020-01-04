@@ -916,7 +916,7 @@ eMediaEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_PAUSE
+ePause
 eMediaEventFirst
 +
 6
