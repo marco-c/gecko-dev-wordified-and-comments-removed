@@ -1008,10 +1008,6 @@ enums
 fno
 -
 exceptions
--
-Wno
--
-psabi
 CXXFLAGS
 "
 ASFLAGS
