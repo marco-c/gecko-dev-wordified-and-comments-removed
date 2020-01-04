@@ -6449,7 +6449,7 @@ path
 {
 #
 ifdef
-XP_WIN
+WEBRTC_WIN
 if
 (
 *

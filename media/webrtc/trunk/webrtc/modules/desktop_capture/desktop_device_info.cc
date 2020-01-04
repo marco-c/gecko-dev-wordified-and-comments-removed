@@ -1272,7 +1272,7 @@ BUFSIZ
 ;
 #
 if
-XP_WIN
+WEBRTC_WIN
 _snprintf_s
 (
 idStr
