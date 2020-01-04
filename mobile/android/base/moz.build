@@ -2245,11 +2245,6 @@ SwipeDismissListViewTouchListener
 .
 java
 '
-'
-ZoomConstraints
-.
-java
-'
 ]
 gbjar
 =
