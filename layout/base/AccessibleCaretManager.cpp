@@ -810,6 +810,7 @@ AC_LOG
 "
 %
 s
+:
 selection
 :
 %
