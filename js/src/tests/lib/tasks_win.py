@@ -5,8 +5,6 @@ print_function
 unicode_literals
 division
 import
-os
-import
 subprocess
 import
 sys
@@ -54,29 +52,6 @@ run_skipped
 timeout
 )
 :
-    
-env
-=
-os
-.
-environ
-.
-copy
-(
-)
-    
-env
-[
-b
-'
-XRE_NO_WINDOWS_CRASH_DIALOG
-'
-]
-=
-b
-'
-1
-'
     
 while
 True
@@ -178,10 +153,6 @@ stderr
 subprocess
 .
 PIPE
-                                
-env
-=
-env
 )
         
 qWatch
