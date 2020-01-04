@@ -482,6 +482,7 @@ const
 0
 ;
 virtual
+MOZ_MUST_USE
 bool
 constructSavedFrameStack
 (
@@ -1206,6 +1207,7 @@ isSelfHosted
 )
 ;
 }
+MOZ_MUST_USE
 bool
 constructSavedFrameStack
 (
@@ -1378,6 +1380,7 @@ trc
 override
 {
 }
+MOZ_MUST_USE
 bool
 constructSavedFrameStack
 (
@@ -1557,6 +1560,7 @@ StackFrame
 }
 }
 ;
+MOZ_MUST_USE
 bool
 ConstructSavedFrameStackSlow
 (
@@ -1957,6 +1961,7 @@ nullptr
 ;
 }
 virtual
+MOZ_MUST_USE
 bool
 jsObjectConstructorName
 (
@@ -2706,6 +2711,7 @@ jsObjectClassName
 )
 ;
 }
+MOZ_MUST_USE
 bool
 jsObjectConstructorName
 (
@@ -3464,11 +3470,13 @@ wantNames
 false
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (
@@ -3477,6 +3485,7 @@ CompartmentSet
 debuggees
 )
 ;
+MOZ_MUST_USE
 bool
 init
 (
@@ -3497,6 +3506,7 @@ isSome
 )
 ;
 }
+MOZ_MUST_USE
 bool
 addRoot
 (
@@ -4013,6 +4023,7 @@ jsObjectClassName
 const
 override
 ;
+MOZ_MUST_USE
 bool
 jsObjectConstructorName
 (
