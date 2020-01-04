@@ -150,6 +150,11 @@ inverted
 PropTypes
 .
 bool
+error
+:
+PropTypes
+.
+object
 state
 :
 function
