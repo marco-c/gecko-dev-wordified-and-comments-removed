@@ -1741,6 +1741,17 @@ pickledLength
 }
 else
 {
+const
+E
+*
+elems
+=
+aParam
+.
+Elements
+(
+)
+;
 for
 (
 uint32_t
@@ -1760,7 +1771,7 @@ index
 WriteParam
 (
 aMsg
-aParam
+elems
 [
 index
 ]
