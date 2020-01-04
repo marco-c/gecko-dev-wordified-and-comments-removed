@@ -70,6 +70,17 @@ Clone
 override
 ;
 virtual
+bool
+ShouldCreateDirectory
+(
+)
+override
+{
+return
+true
+;
+}
+virtual
 void
 Shutdown
 (

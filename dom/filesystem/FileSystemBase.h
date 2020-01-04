@@ -90,6 +90,14 @@ Clone
 0
 ;
 virtual
+bool
+ShouldCreateDirectory
+(
+)
+=
+0
+;
+virtual
 nsISupports
 *
 GetParentObject
