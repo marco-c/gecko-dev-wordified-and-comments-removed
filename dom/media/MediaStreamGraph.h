@@ -1624,13 +1624,8 @@ TrackID
 >
 mDisabledTrackIDs
 ;
-TimeVarying
-<
 GraphTime
-bool
-5
->
-mBlocked
+mStartBlocking
 ;
 nsTArray
 <
