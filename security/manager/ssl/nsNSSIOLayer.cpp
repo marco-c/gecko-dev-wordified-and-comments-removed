@@ -7080,6 +7080,14 @@ kFallbackWildcardList
 {
 "
 .
+eur
+.
+xerox
+.
+com
+"
+"
+.
 kuronekoyamato
 .
 co
