@@ -105,6 +105,15 @@ chrome
 ini
 '
 ]
+if
+not
+CONFIG
+[
+'
+MOZ_BUILD_MOBILE_ANDROID_WITH_GRADLE
+'
+]
+:
 TEST_DIRS
 +
 =
@@ -112,6 +121,11 @@ TEST_DIRS
 '
 junit3
 '
+]
+TEST_DIRS
++
+=
+[
 '
 robocop
 /
