@@ -92,6 +92,17 @@ BROWSER_CHROME_MANIFESTS
 =
 [
 '
+new
+/
+test
+/
+mochitest
+/
+browser
+.
+ini
+'
+'
 test
 /
 mochitest
