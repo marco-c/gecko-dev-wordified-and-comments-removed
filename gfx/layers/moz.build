@@ -1129,13 +1129,6 @@ h
 '
 ipc
 /
-LayerTreeOwnerTracker
-.
-h
-'
-'
-ipc
-/
 RemoteContentController
 .
 h
@@ -2389,13 +2382,6 @@ cpp
 ipc
 /
 LayerTransactionParent
-.
-cpp
-'
-'
-ipc
-/
-LayerTreeOwnerTracker
 .
 cpp
 '

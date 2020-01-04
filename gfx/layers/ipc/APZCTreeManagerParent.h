@@ -35,8 +35,6 @@ public
 explicit
 APZCTreeManagerParent
 (
-uint64_t
-aLayersId
 RefPtr
 <
 APZCTreeManager
@@ -372,9 +370,6 @@ override
 }
 private
 :
-uint64_t
-mLayersId
-;
 RefPtr
 <
 APZCTreeManager
