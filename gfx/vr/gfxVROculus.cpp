@@ -1564,7 +1564,6 @@ VRHMDType
 :
 :
 Oculus
-false
 )
 mSession
 (

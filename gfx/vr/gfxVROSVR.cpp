@@ -1149,7 +1149,6 @@ VRHMDType
 :
 :
 OSVR
-false
 )
 m_ctx
 (

@@ -147,11 +147,6 @@ gfxVR
 cpp
 '
 '
-gfxVRCardboard
-.
-cpp
-'
-'
 gfxVROculus
 .
 cpp
@@ -177,11 +172,6 @@ cpp
 '
 '
 VRDeviceProxy
-.
-cpp
-'
-'
-VRDeviceProxyOrientationFallBack
 .
 cpp
 '

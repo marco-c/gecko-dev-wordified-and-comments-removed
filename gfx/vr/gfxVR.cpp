@@ -92,13 +92,6 @@ endif
 #
 include
 "
-gfxVRCardboard
-.
-h
-"
-#
-include
-"
 mozilla
 /
 unused
@@ -168,8 +161,6 @@ VRHMDInfo
 (
 VRHMDType
 aType
-bool
-aUseMainThreadOrientation
 )
 {
 MOZ_COUNT_CTOR
@@ -193,12 +184,6 @@ VRHMDManager
 AllocateDeviceID
 (
 )
-;
-mDeviceInfo
-.
-mUseMainThreadOrientation
-=
-aUseMainThreadOrientation
 ;
 }
 VRHMDInfo
