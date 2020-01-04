@@ -656,6 +656,13 @@ defined
 (
 XP_MACOSX
 )
+|
+|
+!
+defined
+(
+MOZ_GMP_SANDBOX
+)
 static
 bool
 GetPluginFile
