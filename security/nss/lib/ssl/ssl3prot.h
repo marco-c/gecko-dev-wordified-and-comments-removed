@@ -468,6 +468,7 @@ kea_ecdh_rsa
 kea_ecdhe_rsa
 kea_ecdh_anon
 kea_ecdhe_psk
+kea_dhe_psk
 }
 SSL3KeyExchangeAlgorithm
 ;
@@ -553,6 +554,9 @@ raw
 ;
 SSL3HashesIndividually
 s
+;
+SECItem
+pointer_to_hash_input
 ;
 }
 u

@@ -45,6 +45,11 @@ build
 platform
 :
 linux64
+machine
+:
+platform
+:
+linux64
 collection
 :
 memleak

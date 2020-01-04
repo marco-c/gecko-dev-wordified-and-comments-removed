@@ -64,6 +64,11 @@ build
 platform
 :
 linux64
+machine
+:
+platform
+:
+linux64
 collection
 :
 asan
@@ -71,8 +76,6 @@ asan
 true
 tests
 :
--
-cert
 -
 chains
 -
@@ -172,6 +175,11 @@ extra
 treeherder
 :
 build
+:
+platform
+:
+linux64
+machine
 :
 platform
 :

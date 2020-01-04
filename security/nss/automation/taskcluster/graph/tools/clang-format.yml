@@ -147,6 +147,13 @@ platform
 nss
 -
 tools
+machine
+:
+platform
+:
+nss
+-
+tools
 symbol
 :
 clang

@@ -441,7 +441,7 @@ TlsSkipTest
 SkipCertificateRsa
 )
 {
-DisableDheAndEcdheCiphers
+EnableOnlyStaticRsaCiphers
 (
 )
 ;

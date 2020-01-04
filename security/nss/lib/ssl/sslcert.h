@@ -32,13 +32,10 @@ sslServerCertTypeStr
 SSLAuthType
 authType
 ;
-union
-{
-ECName
+const
+namedGroupDef
+*
 namedCurve
-;
-}
-u
 ;
 }
 sslServerCertType
@@ -61,7 +58,7 @@ CERTCertificateList
 *
 serverCertChain
 ;
-ssl3KeyPair
+sslKeyPair
 *
 serverKeyPair
 ;

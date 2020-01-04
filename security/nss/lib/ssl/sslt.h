@@ -92,6 +92,9 @@ ssl_kea_ecdh
 ssl_kea_ecdh_psk
 =
 5
+ssl_kea_dh_psk
+=
+6
 ssl_kea_size
 }
 SSLKEAType
@@ -560,7 +563,7 @@ ssl_server_name_xtn
 ssl_cert_status_xtn
 =
 5
-ssl_elliptic_curves_xtn
+ssl_supported_groups_xtn
 =
 10
 ssl_ec_point_formats_xtn
@@ -605,6 +608,10 @@ ssl_tls13_draft_version_xtn
 }
 SSLExtensionType
 ;
+#
+define
+ssl_elliptic_curves_xtn
+ssl_supported_groups_xtn
 #
 define
 SSL_MAX_EXTENSIONS

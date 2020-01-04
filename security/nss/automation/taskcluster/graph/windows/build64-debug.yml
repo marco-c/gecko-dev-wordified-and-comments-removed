@@ -47,6 +47,13 @@ platform
 windows2012
 -
 64
+machine
+:
+platform
+:
+windows2012
+-
+64
 collection
 :
 debug
@@ -54,8 +61,6 @@ debug
 true
 tests
 :
--
-cert
 -
 cipher
 -
