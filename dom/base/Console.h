@@ -130,11 +130,6 @@ nsWrapperCache
 public
 nsSupportsWeakReference
 {
-~
-Console
-(
-)
-;
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -614,6 +609,11 @@ nsPIDOMWindowInner
 aWindow
 )
 ;
+~
+Console
+(
+)
+;
 void
 Initialize
 (
@@ -1047,6 +1047,12 @@ aPrincipal
 ;
 void
 AssertIsOnOwningThread
+(
+)
+const
+;
+bool
+IsShuttingDown
 (
 )
 const
