@@ -108,7 +108,6 @@ SymLoadStruct
 bool
 LoadSymbols
 (
-const
 SymLoadStruct
 *
 firstStruct
@@ -152,7 +151,6 @@ LoadSymbols
 PRLibrary
 *
 lib
-const
 SymLoadStruct
 *
 firstStruct
