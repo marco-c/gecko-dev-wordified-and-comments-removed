@@ -364,6 +364,11 @@ let
 parent
 =
 {
+actorID
+:
+packet
+.
+id
 makeDebugger
 :
 makeDebugger
