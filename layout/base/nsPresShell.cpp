@@ -19589,6 +19589,13 @@ CompositionOp
 OP_OVER
 )
 ;
+aThebesContext
+-
+>
+Clip
+(
+)
+;
 nsDeviceContext
 *
 devCtx
