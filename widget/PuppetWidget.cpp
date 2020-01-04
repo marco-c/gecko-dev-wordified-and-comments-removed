@@ -1139,13 +1139,13 @@ mClipRegion
 true
 )
 ;
-nsIntRect
+LayoutDeviceIntRect
 bounds
 ;
 w
 -
 >
-GetBoundsUntyped
+GetBounds
 (
 bounds
 )

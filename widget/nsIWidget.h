@@ -1921,7 +1921,10 @@ mWindowID
 bool
 mVisible
 ;
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 mBounds
 ;
 nsTArray
