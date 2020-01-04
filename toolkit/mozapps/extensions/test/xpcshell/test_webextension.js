@@ -747,6 +747,11 @@ startupManager
 (
 )
 ;
+yield
+promiseAddonStartup
+(
+)
+;
 let
 addon
 =
