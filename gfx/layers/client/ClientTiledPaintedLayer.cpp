@@ -1242,15 +1242,10 @@ UseProgressiveDraw
 if
 (
 !
-gfxPlatform
+gfxPrefs
 :
 :
-GetPlatform
-(
-)
--
->
-UseProgressivePaint
+ProgressivePaint
 (
 )
 )

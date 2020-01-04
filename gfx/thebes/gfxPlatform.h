@@ -911,12 +911,6 @@ InitializeSkiaCacheLimits
 (
 )
 ;
-virtual
-bool
-UseProgressivePaint
-(
-)
-;
 static
 bool
 AsyncPanZoomEnabled

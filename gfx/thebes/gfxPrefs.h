@@ -4140,7 +4140,7 @@ progressive
 -
 paint
 "
-ProgressivePaintDoNotUseDirectly
+ProgressivePaint
 bool
 false
 )
