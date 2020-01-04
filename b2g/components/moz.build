@@ -106,11 +106,6 @@ EXTRA_COMPONENTS
 =
 [
 '
-ActivitiesGlue
-.
-js
-'
-'
 AlertsService
 .
 js

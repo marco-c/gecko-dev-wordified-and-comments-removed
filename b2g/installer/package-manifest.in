@@ -3679,13 +3679,6 @@ RESPATH
 /
 components
 /
-Activities
-.
-manifest
-RESPATH
-/
-components
-/
 ActivityProxy
 .
 js
@@ -4991,13 +4984,6 @@ RESPATH
 components
 /
 DirectoryProvider
-.
-js
-RESPATH
-/
-components
-/
-ActivitiesGlue
 .
 js
 RESPATH

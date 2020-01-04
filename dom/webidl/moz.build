@@ -145,11 +145,6 @@ AbstractWorker
 webidl
 '
 '
-ActivityRequestHandler
-.
-webidl
-'
-'
 AddonManager
 .
 webidl
@@ -1651,11 +1646,6 @@ webidl
 '
 '
 MouseScrollEvent
-.
-webidl
-'
-'
-MozActivity
 .
 webidl
 '
