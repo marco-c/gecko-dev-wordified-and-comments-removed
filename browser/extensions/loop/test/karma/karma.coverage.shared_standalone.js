@@ -49,7 +49,7 @@ standalone
 /
 content
 /
-libs
+vendor
 /
 l10n
 -
