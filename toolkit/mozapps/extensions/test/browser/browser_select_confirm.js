@@ -625,14 +625,14 @@ list
 childNodes
 .
 length
-2
+4
 "
 Should
 be
-one
+three
 add
 -
-on
+ons
 getting
 disabled
 (
@@ -649,7 +649,7 @@ list
 .
 childNodes
 [
-1
+3
 ]
 .
 id
@@ -679,7 +679,7 @@ list
 .
 childNodes
 [
-1
+3
 ]
 .
 getAttribute
@@ -754,7 +754,7 @@ add
 -
 on
 getting
-disabled
+enabled
 (
 plus
 the
@@ -932,6 +932,7 @@ hidden
 ;
 ok
 (
+!
 gWin
 .
 document
@@ -951,7 +952,7 @@ Disable
 list
 should
 be
-hidden
+visible
 "
 )
 ;
@@ -1517,14 +1518,14 @@ list
 childNodes
 .
 length
-2
+4
 "
 Should
 be
-one
+three
 add
 -
-on
+ons
 getting
 disabled
 (
@@ -1541,7 +1542,7 @@ list
 .
 childNodes
 [
-1
+3
 ]
 .
 id
@@ -1571,7 +1572,7 @@ list
 .
 childNodes
 [
-1
+3
 ]
 .
 getAttribute
