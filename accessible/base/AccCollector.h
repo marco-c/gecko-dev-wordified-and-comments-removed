@@ -50,15 +50,6 @@ AccCollector
 (
 )
 ;
-virtual
-int32_t
-GetIndexAt
-(
-Accessible
-*
-aAccessible
-)
-;
 protected
 :
 Accessible
@@ -149,7 +140,6 @@ EmbeddedObjCollector
 }
 public
 :
-virtual
 int32_t
 GetIndexAt
 (
@@ -157,7 +147,6 @@ Accessible
 *
 aAccessible
 )
-override
 ;
 uint32_t
 Count
