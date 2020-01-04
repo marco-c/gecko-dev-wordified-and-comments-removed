@@ -3723,7 +3723,7 @@ loadAndRegisterSheet
 styleSheetURI
 styleSheetService
 .
-AUTHOR_SHEET
+USER_SHEET
 )
 ;
 }
