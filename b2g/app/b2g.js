@@ -6815,16 +6815,6 @@ pref
 "
 apz
 .
-pan_repaint_interval
-"
-16
-)
-;
-pref
-(
-"
-apz
-.
 fling_curve_function_x1
 "
 "
