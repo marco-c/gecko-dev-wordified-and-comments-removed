@@ -977,7 +977,7 @@ bool
 nsLayoutUtils
 :
 :
-sSVGTransformOriginEnabled
+sSVGTransformBoxEnabled
 ;
 static
 ViewID
@@ -35934,13 +35934,13 @@ Preferences
 AddBoolVarCache
 (
 &
-sSVGTransformOriginEnabled
+sSVGTransformBoxEnabled
 "
 svg
 .
 transform
 -
-origin
+box
 .
 enabled
 "
