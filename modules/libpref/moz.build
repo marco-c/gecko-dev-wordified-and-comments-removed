@@ -282,13 +282,3 @@ CXXFLAGS
 Wshadow
 '
 ]
-DIST_FILES
-+
-=
-[
-'
-greprefs
-.
-js
-'
-]
