@@ -2920,9 +2920,6 @@ return
 pn_prologue
 ;
 }
-#
-ifdef
-JS_HAS_GENERATOR_EXPRS
 ParseNode
 *
 generatorExpr
@@ -3006,8 +3003,6 @@ last
 )
 ;
 }
-#
-endif
 inline
 void
 markAsAssigned
