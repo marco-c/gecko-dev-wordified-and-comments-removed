@@ -4096,6 +4096,13 @@ default48
 png
 #
 endif
+RESPATH
+/
+browser
+/
+features
+/
+*
 ;
 [
 Webide

@@ -65,6 +65,11 @@ generators
 :
 true
 "
+objectLiteralShorthandMethods
+"
+:
+true
+"
 restParams
 "
 :
@@ -75,7 +80,7 @@ spread
 :
 true
 "
-objectLiteralShorthandMethods
+templateStrings
 "
 :
 true
