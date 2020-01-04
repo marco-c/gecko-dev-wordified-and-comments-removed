@@ -6272,11 +6272,11 @@ nextNode
 )
 {
 let
-mediaNode
+mediaItems
 =
 this
 .
-getMediaNode
+getMediaItems
 (
 document
 strings
@@ -6287,7 +6287,9 @@ currentNode
 ;
 if
 (
-mediaNode
+mediaItems
+.
+length
 )
 {
 sendAsyncMessage
@@ -6298,9 +6300,7 @@ PageInfo
 mediaData
 "
 {
-imageViewRow
-:
-mediaNode
+mediaItems
 isComplete
 :
 false
@@ -6352,7 +6352,7 @@ true
 )
 ;
 }
-getMediaNode
+getMediaItems
 :
 function
 (
@@ -6378,9 +6378,10 @@ elem
 )
 ;
 let
-mediaElement
+mediaItems
 =
-null
+[
+]
 ;
 let
 addImage
@@ -6410,8 +6411,10 @@ elem
 isBg
 )
 ;
-mediaElement
-=
+mediaItems
+.
+push
+(
 [
 url
 type
@@ -6419,6 +6422,7 @@ alt
 element
 isBg
 ]
+)
 ;
 }
 ;
@@ -6989,7 +6993,7 @@ false
 ;
 }
 return
-mediaElement
+mediaItems
 ;
 }
 serializeElementInfo
