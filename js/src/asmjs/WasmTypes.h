@@ -121,6 +121,7 @@ F64
 I32x4
 F32x4
 B32x4
+Limit
 }
 ;
 typedef
@@ -270,6 +271,14 @@ jit
 :
 :
 MIRType_Bool32x4
+;
+case
+ValType
+:
+:
+Limit
+:
+break
 ;
 }
 MOZ_MAKE_COMPILER_ASSUME_IS_UNREACHABLE
@@ -760,6 +769,7 @@ ValType
 B32x4
 )
 Void
+Limit
 }
 ;
 static
