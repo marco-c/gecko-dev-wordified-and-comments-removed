@@ -3276,7 +3276,7 @@ b2g
 revision
 =
 "
-070ec6f75572a336b7b80db406b11398e5089626
+03f7deda712e213aabf79eb657bd902497e3b201
 "
 /
 >
@@ -3362,7 +3362,7 @@ b2g
 revision
 =
 "
-d620691cad7aee780018e98159ff03bf99840317
+da1273d39b3b940b3b2a5bc5fdb81c521d74caa3
 "
 /
 >
@@ -3449,11 +3449,7 @@ project
 name
 =
 "
-platform
-/
-external
-/
-libnfc
+platform_external_libnfc
 -
 nci
 "
@@ -3466,10 +3462,15 @@ libnfc
 -
 nci
 "
+remote
+=
+"
+b2g
+"
 revision
 =
 "
-0a01977f34d6e86fe23d6c0ec75e96ba988bbebb
+2d017f975f4542c6d23b226ec172b9b30383c31c
 "
 /
 >
