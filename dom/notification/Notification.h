@@ -415,7 +415,7 @@ aData
 const
 nsAString
 &
-aServiceWorkerRegistrationScope
+aServiceWorkerRegistrationID
 ErrorResult
 &
 aRv

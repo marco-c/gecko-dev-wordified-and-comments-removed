@@ -200,7 +200,7 @@ DOMString
 behavior
 in
 DOMString
-serviceWorkerRegistrationScope
+serviceWorkerRegistrationID
 )
 ;
 /
@@ -482,7 +482,7 @@ DOMString
 behavior
 in
 DOMString
-serviceWorkerRegistrationScope
+serviceWorkerRegistrationID
 )
 ;
 /
