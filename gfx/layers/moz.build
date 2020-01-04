@@ -828,6 +828,13 @@ h
 '
 client
 /
+CompositableChild
+.
+h
+'
+'
+client
+/
 CompositableClient
 .
 h
@@ -2071,6 +2078,13 @@ cpp
 client
 /
 ClientTiledPaintedLayer
+.
+cpp
+'
+'
+client
+/
+CompositableChild
 .
 cpp
 '
