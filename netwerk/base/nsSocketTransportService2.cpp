@@ -3866,6 +3866,13 @@ PR_GetCurrentThread
 (
 )
 ;
+{
+DebugMutexAutoLock
+lock
+(
+mLock
+)
+;
 mPollableEvent
 .
 reset
@@ -3960,6 +3967,7 @@ out_flags
 =
 0
 ;
+}
 mRawThread
 =
 NS_GetCurrentThread
