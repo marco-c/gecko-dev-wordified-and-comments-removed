@@ -190,7 +190,7 @@ rv
 ;
 aValue
 .
-Adopt
+Assign
 (
 blob
 size
