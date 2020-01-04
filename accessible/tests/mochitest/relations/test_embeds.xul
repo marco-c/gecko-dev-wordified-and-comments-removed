@@ -743,8 +743,6 @@ tab
 /
 /
 Testing
-/
-/
 gA11yEventDumpToConsole
 =
 true
@@ -776,8 +774,6 @@ currentTabDocument
 )
 )
 ;
-/
-/
 enableLogging
 (
 "
@@ -830,8 +826,6 @@ function
 (
 )
 {
-/
-/
 disableLogging
 (
 )
