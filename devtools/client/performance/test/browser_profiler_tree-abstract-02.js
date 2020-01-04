@@ -76,14 +76,14 @@ vbox
 "
 )
 ;
+yield
+appendAndWaitForPaint
+(
 gBrowser
 .
 selectedBrowser
 .
 parentNode
-.
-appendChild
-(
 container
 )
 ;
