@@ -2950,6 +2950,9 @@ mNativeCaretIsCreated
 bool
 mDeferNotifyingTSF
 ;
+bool
+mDestroyed
+;
 static
 StaticRefPtr
 <
