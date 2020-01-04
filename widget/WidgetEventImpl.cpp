@@ -370,7 +370,7 @@ case
 eBeforeKeyDown
 :
 case
-NS_KEY_BEFORE_UP
+eBeforeKeyUp
 :
 case
 eAfterKeyDown

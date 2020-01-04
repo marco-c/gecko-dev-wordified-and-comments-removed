@@ -57,7 +57,7 @@ eWindowEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_KEY_BEFORE_UP
+eBeforeKeyUp
 eWindowEventFirst
 +
 36
