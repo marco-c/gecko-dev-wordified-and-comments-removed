@@ -660,7 +660,7 @@ TelemetryContract
 .
 Method
 .
-HOMESCREEN
+SUGGESTION
 "
 history
 "

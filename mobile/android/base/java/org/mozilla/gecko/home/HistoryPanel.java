@@ -1880,7 +1880,7 @@ TelemetryContract
 .
 Method
 .
-HOMESCREEN
+PANEL
 "
 hint
 -
