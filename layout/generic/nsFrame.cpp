@@ -39900,6 +39900,17 @@ imgIRequest
 :
 STATUS_LOAD_COMPLETE
 )
+&
+&
+!
+(
+status
+&
+imgIRequest
+:
+:
+STATUS_ERROR
+)
 )
 {
 item
