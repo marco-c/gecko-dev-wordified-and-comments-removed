@@ -349,6 +349,7 @@ Zone
 (
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 init
 (
@@ -465,6 +466,7 @@ onTooMuchMalloc
 (
 )
 ;
+MOZ_WARN_UNUSED_RESULT
 void
 *
 onOutOfMemory
@@ -1488,6 +1490,7 @@ unsigned
 >
 gcLastZoneGroupIndex
 ;
+MOZ_WARN_UNUSED_RESULT
 bool
 getHashCode
 (
@@ -1552,6 +1555,7 @@ return
 true
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 bool
 getUniqueId
 (
@@ -1690,6 +1694,7 @@ return
 true
 ;
 }
+MOZ_WARN_UNUSED_RESULT
 bool
 hasUniqueId
 (

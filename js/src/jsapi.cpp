@@ -4309,6 +4309,9 @@ MOZ_CRASH
 (
 )
 ;
+if
+(
+!
 origobj
 -
 >
@@ -4325,6 +4328,10 @@ CrossCompartmentKey
 newIdentity
 )
 origv
+)
+)
+MOZ_CRASH
+(
 )
 ;
 }
