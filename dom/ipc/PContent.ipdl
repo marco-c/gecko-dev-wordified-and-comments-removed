@@ -5746,6 +5746,8 @@ NotifyPushObservers
 (
 nsCString
 scope
+Principal
+principal
 nsString
 messageId
 )
@@ -5772,6 +5774,8 @@ NotifyPushObserversWithData
 (
 nsCString
 scope
+Principal
+principal
 nsString
 messageId
 uint8_t
@@ -5802,6 +5806,8 @@ NotifyPushSubscriptionChangeObservers
 (
 nsCString
 scope
+Principal
+principal
 )
 ;
 /

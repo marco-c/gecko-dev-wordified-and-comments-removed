@@ -1206,6 +1206,8 @@ Ci
 .
 nsIPushMessage
 )
+.
+data
 ;
 equal
 (

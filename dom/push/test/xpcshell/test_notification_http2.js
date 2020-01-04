@@ -924,6 +924,8 @@ Ci
 .
 nsIPushMessage
 )
+.
+data
 ;
 if
 (
@@ -997,6 +999,8 @@ Ci
 .
 nsIPushMessage
 )
+.
+data
 ;
 if
 (
@@ -1070,6 +1074,8 @@ Ci
 .
 nsIPushMessage
 )
+.
+data
 ;
 if
 (
@@ -1143,6 +1149,8 @@ Ci
 .
 nsIPushMessage
 )
+.
+data
 ;
 if
 (
