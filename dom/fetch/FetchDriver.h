@@ -179,8 +179,6 @@ final
 public
 nsIStreamListener
 public
-nsIChannelEventSink
-public
 nsIInterfaceRequestor
 public
 nsIThreadRetargetableStreamListener
@@ -190,7 +188,6 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
-NS_DECL_NSICHANNELEVENTSINK
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSITHREADRETARGETABLESTREAMLISTENER
 explicit

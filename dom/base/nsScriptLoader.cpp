@@ -1337,7 +1337,7 @@ securityFlags
 nsILoadInfo
 :
 :
-SEC_REQUIRE_CORS_WITH_CREDENTIALS
+SEC_COOKIES_INCLUDE
 ;
 }
 securityFlags
