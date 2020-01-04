@@ -164,6 +164,13 @@ IMENotification
 TextChangeDataBase
 TextChangeDataBase
 ;
+typedef
+widget
+:
+:
+IMEMessage
+IMEMessage
+;
 IMEContentObserver
 (
 )
@@ -729,6 +736,9 @@ mSuppressNotifications
 ;
 int64_t
 mPreCharacterDataChangeLength
+;
+IMEMessage
+mSendingNotification
 ;
 bool
 mIsObserving
