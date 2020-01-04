@@ -7384,6 +7384,11 @@ global
 "
 )
 ;
+JS_ClearPendingException
+(
+aCx
+)
+;
 return
 false
 ;
