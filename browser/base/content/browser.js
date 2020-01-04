@@ -36106,6 +36106,12 @@ _uri
 .
 specIgnoringRef
 ;
+crop
+=
+"
+end
+"
+;
 }
 if
 (
