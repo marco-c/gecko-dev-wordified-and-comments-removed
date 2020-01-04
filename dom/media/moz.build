@@ -478,6 +478,11 @@ AbstractMediaDecoder
 h
 '
 '
+AccurateSeekTask
+.
+h
+'
+'
 ADTSDecoder
 .
 h
@@ -1004,6 +1009,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+AccurateSeekTask
+.
+cpp
+'
 '
 ADTSDecoder
 .
