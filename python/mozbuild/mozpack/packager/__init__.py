@@ -2235,10 +2235,6 @@ in
 bases
 :
             
-if
-base
-:
-                
 self
 .
 formatter

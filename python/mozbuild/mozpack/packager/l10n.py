@@ -148,8 +148,6 @@ self
 bases
 =
 [
-'
-'
 ]
         
 class

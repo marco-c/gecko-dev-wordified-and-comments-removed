@@ -407,8 +407,6 @@ self
 _bases
 =
 [
-'
-'
 ]
         
 self
@@ -560,6 +558,12 @@ entry
 .
 base
 )
+        
+assert
+base
+is
+not
+None
         
 if
 entry
@@ -1642,6 +1646,19 @@ omnijar
             
 self
 .
+omnijars
+[
+base
+]
+.
+add_base
+(
+'
+'
+)
+            
+self
+.
 copier
 .
 add
@@ -1917,6 +1934,15 @@ _get_base
 (
 path
 )
+        
+if
+base
+is
+None
+:
+            
+return
+False
         
 path
 =

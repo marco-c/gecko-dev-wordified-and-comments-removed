@@ -87,6 +87,11 @@ bases
 {
         
 '
+'
+:
+False
+        
+'
 app
 '
 :
@@ -1653,6 +1658,14 @@ root
 '
 b
 )
+if
+b
+else
+'
+base
+/
+root
+'
 :
 a
         
@@ -1747,21 +1760,6 @@ iteritems
     
 }
 }
-CONTENTS_WITH_BASE
-[
-'
-bases
-'
-]
-[
-'
-base
-/
-root
-'
-]
-=
-False
 EXTRA_CONTENTS
 =
 {
@@ -2622,6 +2620,14 @@ dummy
 '
             
 ]
+)
+            
+f
+.
+add_base
+(
+'
+'
 )
             
 f
