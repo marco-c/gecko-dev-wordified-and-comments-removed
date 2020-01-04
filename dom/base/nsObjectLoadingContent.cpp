@@ -12332,12 +12332,6 @@ nsContentUtils
 IsCallerContentXBL
 (
 )
-&
-&
-JS_IsRunning
-(
-aCx
-)
 )
 ;
 nsCOMPtr
