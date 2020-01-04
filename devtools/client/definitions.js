@@ -1908,6 +1908,15 @@ styleEditorStrings
 ordinal
 :
 4
+visibilityswitch
+:
+"
+devtools
+.
+styleeditor
+.
+enabled
+"
 accesskey
 :
 l10n
