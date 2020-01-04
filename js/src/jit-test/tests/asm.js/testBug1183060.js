@@ -74,7 +74,7 @@ i16a
 new
 stdlib
 .
-SharedUint16Array
+Uint16Array
 (
 heap
 )
@@ -279,7 +279,7 @@ heap
 var
 size
 =
-SharedUint16Array
+Uint16Array
 .
 BYTES_PER_ELEMENT
 ;

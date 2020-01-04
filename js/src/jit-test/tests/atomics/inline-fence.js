@@ -56,12 +56,6 @@ SharedArrayBuffer
 this
 .
 Atomics
-|
-|
-!
-this
-.
-SharedInt32Array
 )
 quit
 (
@@ -81,7 +75,7 @@ var
 ia
 =
 new
-SharedInt32Array
+Int32Array
 (
 sab
 )

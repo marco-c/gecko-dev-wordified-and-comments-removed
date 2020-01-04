@@ -35,7 +35,7 @@ view
 new
 stdlib
 .
-SharedUint32Array
+Uint32Array
 (
 heap
 )
@@ -107,7 +107,7 @@ view
 new
 stdlib
 .
-SharedUint32Array
+Uint32Array
 (
 heap
 )
@@ -163,7 +163,7 @@ var
 ua
 =
 new
-SharedUint32Array
+Uint32Array
 (
 sab
 )

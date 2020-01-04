@@ -2170,10 +2170,15 @@ var
 a
 =
 new
-SharedInt8Array
+Int8Array
+(
+new
+SharedArrayBuffer
 (
 16
 )
+)
+;
 for
 (
 var
@@ -2540,7 +2545,7 @@ var
 t1
 =
 new
-SharedInt8Array
+Int8Array
 (
 sab
 )
@@ -2549,7 +2554,7 @@ var
 t2
 =
 new
-SharedUint16Array
+Uint16Array
 (
 sab
 )
@@ -2618,7 +2623,7 @@ testMethod
 )
 (
 new
-SharedInt8Array
+Int8Array
 (
 sab
 )
@@ -2633,7 +2638,7 @@ testMethod
 )
 (
 new
-SharedUint8Array
+Uint8Array
 (
 sab
 )
@@ -2648,7 +2653,7 @@ testMethod
 )
 (
 new
-SharedUint8ClampedArray
+Uint8ClampedArray
 (
 sab
 )
@@ -2663,7 +2668,7 @@ testMethod
 )
 (
 new
-SharedInt16Array
+Int16Array
 (
 sab
 )
@@ -2678,7 +2683,7 @@ testMethod
 )
 (
 new
-SharedUint16Array
+Uint16Array
 (
 sab
 )
@@ -2693,7 +2698,7 @@ testMethod
 )
 (
 new
-SharedInt32Array
+Int32Array
 (
 sab
 )
@@ -2708,7 +2713,7 @@ testMethod
 )
 (
 new
-SharedUint32Array
+Uint32Array
 (
 sab
 )
@@ -2783,7 +2788,7 @@ testFunction
 )
 (
 new
-SharedInt8Array
+Int8Array
 (
 sab
 )
@@ -2798,7 +2803,7 @@ testFunction
 )
 (
 new
-SharedUint8Array
+Uint8Array
 (
 sab
 )
@@ -2813,7 +2818,7 @@ testFunction
 )
 (
 new
-SharedUint8ClampedArray
+Uint8ClampedArray
 (
 sab
 )
@@ -2828,7 +2833,7 @@ testFunction
 )
 (
 new
-SharedInt16Array
+Int16Array
 (
 sab
 )
@@ -2843,7 +2848,7 @@ testFunction
 )
 (
 new
-SharedUint16Array
+Uint16Array
 (
 sab
 )
@@ -2858,7 +2863,7 @@ testFunction
 )
 (
 new
-SharedInt32Array
+Int32Array
 (
 sab
 )
@@ -2873,7 +2878,7 @@ testFunction
 )
 (
 new
-SharedUint32Array
+Uint32Array
 (
 sab
 )
@@ -2886,7 +2891,7 @@ var
 v8
 =
 new
-SharedInt8Array
+Int8Array
 (
 sab
 )
@@ -2895,7 +2900,7 @@ var
 v32
 =
 new
-SharedInt32Array
+Int32Array
 (
 sab
 )
@@ -3061,7 +3066,7 @@ v32
 testInt8Extremes
 (
 new
-SharedInt8Array
+Int8Array
 (
 sab
 )
@@ -3070,7 +3075,7 @@ sab
 testUint8Extremes
 (
 new
-SharedUint8Array
+Uint8Array
 (
 sab
 )
@@ -3079,7 +3084,7 @@ sab
 testInt16Extremes
 (
 new
-SharedInt16Array
+Int16Array
 (
 sab
 )
@@ -3088,7 +3093,7 @@ sab
 testUint32
 (
 new
-SharedUint32Array
+Uint32Array
 (
 sab
 )
@@ -3113,11 +3118,6 @@ Atomics
 this
 .
 SharedArrayBuffer
-&
-&
-this
-.
-SharedInt32Array
 )
 runTests
 (

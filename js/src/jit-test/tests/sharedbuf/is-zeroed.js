@@ -16,7 +16,7 @@ var
 y
 =
 new
-SharedInt32Array
+Int32Array
 (
 x
 )
@@ -54,11 +54,6 @@ if
 this
 .
 SharedArrayBuffer
-&
-&
-this
-.
-SharedInt32Array
 )
 f
 (

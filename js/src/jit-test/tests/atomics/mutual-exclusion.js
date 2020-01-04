@@ -136,7 +136,7 @@ const
 iab
 =
 new
-SharedInt32Array
+Int32Array
 (
 sab
 )
@@ -181,7 +181,7 @@ const
 iab
 =
 new
-SharedInt32Array
+Int32Array
 (
 getSharedArrayBuffer
 (

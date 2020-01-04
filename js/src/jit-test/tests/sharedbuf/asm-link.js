@@ -16,7 +16,7 @@ f64
 new
 stdlib
 .
-SharedFloat64Array
+Float64Array
 (
 heap
 )
@@ -54,11 +54,6 @@ if
 this
 .
 SharedArrayBuffer
-&
-&
-this
-.
-SharedFloat64Array
 )
 {
 var
@@ -72,7 +67,7 @@ SharedArrayBuffer
 ;
 (
 new
-SharedFloat64Array
+Float64Array
 (
 heap
 )

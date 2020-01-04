@@ -3,7 +3,7 @@ if
 !
 this
 .
-SharedInt32Array
+SharedArrayBuffer
 )
 quit
 (
@@ -42,9 +42,13 @@ var
 v
 =
 new
-SharedInt32Array
+Int32Array
 (
-1024
+new
+SharedArrayBuffer
+(
+4096
+)
 )
 ;
 var
