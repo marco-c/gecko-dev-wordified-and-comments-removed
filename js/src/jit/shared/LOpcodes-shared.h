@@ -1923,7 +1923,17 @@ WasmLoadGlobalVar
 \
 _
 (
+WasmLoadGlobalVarI64
+)
+\
+_
+(
 WasmStoreGlobalVar
+)
+\
+_
+(
+WasmStoreGlobalVarI64
 )
 \
 _
