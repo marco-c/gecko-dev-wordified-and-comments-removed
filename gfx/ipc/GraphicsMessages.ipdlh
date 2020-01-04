@@ -146,9 +146,6 @@ bool
 d3d11TextureSharingWorks
 ;
 bool
-useD2D
-;
-bool
 useD2D1
 ;
 DxgiAdapterDesc
