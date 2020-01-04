@@ -930,17 +930,16 @@ AsElement
 :
 nullptr
 ;
-nsIFrame
-:
-:
-RenderedText
+nsAutoString
 text
-=
+;
 textFrame
 -
 >
 GetRenderedText
 (
+&
+text
 )
 ;
 if
@@ -951,8 +950,6 @@ textAcc
 if
 (
 text
-.
-mString
 .
 IsEmpty
 (
@@ -1147,8 +1144,6 @@ s
 NS_ConvertUTF16toUTF8
 (
 text
-.
-mString
 )
 .
 get
@@ -1179,8 +1174,6 @@ AsTextLeaf
 (
 )
 text
-.
-mString
 )
 ;
 continue
@@ -1190,8 +1183,6 @@ if
 (
 !
 text
-.
-mString
 .
 IsEmpty
 (
