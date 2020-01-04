@@ -156,10 +156,10 @@ security
 sourcemap
 '
 '
-specs
-'
-'
 shims
+'
+'
+specs
 '
 '
 touch
