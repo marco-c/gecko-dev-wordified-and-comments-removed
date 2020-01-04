@@ -1608,6 +1608,10 @@ state
 GetSidebandStream
 (
 )
+.
+IsValid
+(
+)
 )
 {
 #
@@ -2122,6 +2126,10 @@ state
 GetSidebandStream
 (
 )
+.
+IsValid
+(
+)
 )
 {
 handle
@@ -2131,9 +2139,8 @@ state
 GetSidebandStream
 (
 )
--
->
-handle
+.
+GetRawNativeHandle
 (
 )
 ;
@@ -2246,6 +2253,10 @@ if
 state
 .
 GetSidebandStream
+(
+)
+.
+IsValid
 (
 )
 )

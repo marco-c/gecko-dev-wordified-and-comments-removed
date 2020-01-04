@@ -630,6 +630,14 @@ ImageHostOverlay
 (
 )
 ;
+static
+bool
+IsValid
+(
+OverlaySource
+aOverlay
+)
+;
 virtual
 void
 Composite
