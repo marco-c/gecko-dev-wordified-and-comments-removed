@@ -5390,6 +5390,13 @@ function
 (
 )
 {
+if
+(
+this
+.
+videoEvents
+)
+{
 for
 (
 let
@@ -5419,6 +5426,14 @@ true
 )
 ;
 }
+}
+if
+(
+this
+.
+controlListeners
+)
+{
 for
 (
 let
@@ -5454,6 +5469,7 @@ this
 .
 controlListeners
 ;
+}
 this
 .
 log
