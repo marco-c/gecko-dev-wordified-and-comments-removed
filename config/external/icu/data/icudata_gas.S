@@ -75,6 +75,7 @@ GNU
 stack
 "
 "
+%
 progbits
 #
 endif
