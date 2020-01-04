@@ -754,7 +754,7 @@ aDOMNode
 ;
 mEndDragPoint
 =
-LayoutDeviceIntPoint
+nsIntPoint
 (
 0
 0
@@ -1432,7 +1432,7 @@ mScreenY
 ;
 mEndDragPoint
 =
-LayoutDeviceIntPoint
+nsIntPoint
 (
 0
 0
