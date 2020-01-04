@@ -9370,6 +9370,9 @@ SendPushEvent
 (
 aOriginAttributes
 aScope
+EmptyString
+(
+)
 Some
 (
 data
@@ -9390,6 +9393,9 @@ SendPushEvent
 (
 aOriginAttributes
 aScope
+EmptyString
+(
+)
 Nothing
 (
 )
@@ -9410,6 +9416,11 @@ const
 nsACString
 &
 aScope
+const
+nsAString
+&
+aMessageId
+const
 Maybe
 <
 nsTArray
@@ -9417,6 +9428,7 @@ nsTArray
 uint8_t
 >
 >
+&
 aData
 )
 {
@@ -9497,6 +9509,7 @@ WorkerPrivate
 >
 SendPushEvent
 (
+aMessageId
 aData
 registration
 )

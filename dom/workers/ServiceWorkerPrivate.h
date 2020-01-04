@@ -151,6 +151,10 @@ nsresult
 SendPushEvent
 (
 const
+nsAString
+&
+aMessageId
+const
 Maybe
 <
 nsTArray

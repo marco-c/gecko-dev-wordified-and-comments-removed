@@ -3041,6 +3041,8 @@ nsCString
 scope
 Principal
 principal
+nsString
+messageId
 )
 ;
 /
@@ -3070,6 +3072,8 @@ nsCString
 scope
 Principal
 principal
+nsString
+messageId
 uint8_t
 [
 ]

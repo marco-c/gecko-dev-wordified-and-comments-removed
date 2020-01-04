@@ -14388,6 +14388,10 @@ IPC
 Principal
 &
 aPrincipal
+const
+nsString
+&
+aMessageId
 )
 {
 #
@@ -14454,6 +14458,7 @@ NotifyPushWorkers
 (
 aScope
 aPrincipal
+aMessageId
 Nothing
 (
 )
@@ -14493,6 +14498,10 @@ IPC
 Principal
 &
 aPrincipal
+const
+nsString
+&
+aMessageId
 InfallibleTArray
 <
 uint8_t
@@ -14566,6 +14575,7 @@ NotifyPushWorkers
 (
 aScope
 aPrincipal
+aMessageId
 Some
 (
 aData

@@ -155,6 +155,10 @@ aScope
 nsIPrincipal
 *
 aPrincipal
+const
+nsAString
+&
+aMessageId
 uint32_t
 aDataLen
 uint8_t
@@ -207,6 +211,7 @@ NotifyPush
 (
 aScope
 aPrincipal
+aMessageId
 Some
 (
 data
@@ -227,6 +232,10 @@ aScope
 nsIPrincipal
 *
 aPrincipal
+const
+nsAString
+&
+aMessageId
 )
 {
 return
@@ -234,6 +243,7 @@ NotifyPush
 (
 aScope
 aPrincipal
+aMessageId
 Nothing
 (
 )
@@ -349,6 +359,11 @@ aScope
 nsIPrincipal
 *
 aPrincipal
+const
+nsAString
+&
+aMessageId
+const
 Maybe
 <
 nsTArray
@@ -356,6 +371,7 @@ nsTArray
 uint8_t
 >
 >
+&
 aData
 )
 {
@@ -419,6 +435,7 @@ NotifyPushWorkers
 (
 aScope
 aPrincipal
+aMessageId
 aData
 )
 ;
@@ -455,6 +472,11 @@ aScope
 nsIPrincipal
 *
 aPrincipal
+const
+nsAString
+&
+aMessageId
+const
 Maybe
 <
 nsTArray
@@ -462,6 +484,7 @@ nsTArray
 uint8_t
 >
 >
+&
 aData
 )
 {
@@ -548,6 +571,7 @@ SendPushEvent
 (
 originSuffix
 aScope
+aMessageId
 aData
 )
 ;
@@ -619,6 +643,10 @@ Principal
 (
 aPrincipal
 )
+PromiseFlatString
+(
+aMessageId
+)
 aData
 .
 ref
@@ -650,6 +678,10 @@ IPC
 Principal
 (
 aPrincipal
+)
+PromiseFlatString
+(
+aMessageId
 )
 )
 ;
@@ -847,6 +879,7 @@ const
 nsACString
 &
 aScope
+const
 Maybe
 <
 nsTArray
@@ -854,6 +887,7 @@ nsTArray
 uint8_t
 >
 >
+&
 aData
 )
 {
