@@ -84,6 +84,16 @@ session
 -
 request
 "
+#
+define
+PRESENTATION_RECONNECT_REQUEST_TOPIC
+"
+presentation
+-
+reconnect
+-
+request
+"
 %
 }
 /

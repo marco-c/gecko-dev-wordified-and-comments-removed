@@ -252,6 +252,11 @@ UNIFIED_SOURCES
 =
 [
 '
+ControllerConnectionCollection
+.
+cpp
+'
+'
 DCPresentationChannelDescription
 .
 cpp
