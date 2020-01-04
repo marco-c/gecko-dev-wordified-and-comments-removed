@@ -403,9 +403,6 @@ static
 void
 NotifyFlushComplete
 (
-nsIPresShell
-*
-aShell
 )
 ;
 static
