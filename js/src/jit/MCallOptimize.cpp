@@ -21369,7 +21369,9 @@ InlinableNative
 native
 )
 }
+{
 0
+}
 JSJitInfo
 :
 :

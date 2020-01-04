@@ -33446,7 +33446,9 @@ dom_get_x
 {
 0
 }
+{
 0
+}
 JSJitInfo
 :
 :
@@ -33480,7 +33482,9 @@ dom_set_x
 {
 0
 }
+{
 0
+}
 JSJitInfo
 :
 :
@@ -33514,7 +33518,9 @@ dom_doFoo
 {
 0
 }
+{
 0
+}
 JSJitInfo
 :
 :

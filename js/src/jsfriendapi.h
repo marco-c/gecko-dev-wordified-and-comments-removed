@@ -8934,8 +8934,15 @@ inlinableNative
 ;
 }
 ;
+union
+{
 uint16_t
 depth
+;
+uint16_t
+nativeOp
+;
+}
 ;
 #
 define

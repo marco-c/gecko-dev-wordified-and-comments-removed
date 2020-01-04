@@ -59800,6 +59800,7 @@ name
 }
 }
                   
+{
 PrototypeTraits
 <
 prototypes
@@ -59815,6 +59816,7 @@ name
 :
 :
 Depth
+}
                   
 JSJitInfo
 :
@@ -62355,7 +62357,9 @@ id
 :
 _ID_Count
 }
+{
 0
+}
 JSJitInfo
 :
 :
