@@ -163,6 +163,11 @@ HelperAppDialog
 js
 '
 '
+ImageBlockingPolicy
+.
+js
+'
+'
 LoginManagerPrompter
 .
 js
