@@ -611,7 +611,7 @@ ePointerEventClass
 EVENT
 (
 pointermove
-NS_POINTER_MOVE
+ePointerMove
 EventNameType_All
 ePointerEventClass
 )

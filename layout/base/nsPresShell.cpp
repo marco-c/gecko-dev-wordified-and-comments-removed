@@ -29590,7 +29590,7 @@ button
 }
 pointerMessage
 =
-NS_POINTER_MOVE
+ePointerMove
 ;
 break
 ;
@@ -29724,7 +29724,7 @@ NS_TOUCH_MOVE
 :
 pointerMessage
 =
-NS_POINTER_MOVE
+ePointerMove
 ;
 break
 ;

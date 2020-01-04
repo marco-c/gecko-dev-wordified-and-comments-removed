@@ -2854,7 +2854,7 @@ case
 ePointerDown
 :
 case
-NS_POINTER_MOVE
+ePointerMove
 :
 {
 GenerateDragGesture
@@ -17469,7 +17469,7 @@ refPoint
 ;
 }
 case
-NS_POINTER_MOVE
+ePointerMove
 :
 case
 ePointerDown
