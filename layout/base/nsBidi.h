@@ -234,6 +234,17 @@ EN
 |
 DIRPROP_FLAG
 (
+ENL
+)
+|
+\
+DIRPROP_FLAG
+(
+ENR
+)
+|
+DIRPROP_FLAG
+(
 AN
 )
 |
@@ -242,6 +253,7 @@ DIRPROP_FLAG
 LRE
 )
 |
+\
 DIRPROP_FLAG
 (
 LRO
@@ -271,6 +283,7 @@ DIRPROP_FLAG
 RLE
 )
 |
+\
 DIRPROP_FLAG
 (
 RLO
