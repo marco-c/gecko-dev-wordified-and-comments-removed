@@ -46464,11 +46464,12 @@ alltabs_containersMenuTab
 "
 )
 {
-return
 createUserContextMenu
 (
 event
 )
+;
+return
 ;
 }
 let
