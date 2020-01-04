@@ -55,13 +55,6 @@ typename
 AllocPolicy
 =
 TempAllocPolicy
-typename
-GCPolicy
-=
-DefaultGCPolicy
-<
-T
->
 >
 class
 GCVector
@@ -771,7 +764,10 @@ elem
 :
 vector
 )
-GCPolicy
+DefaultGCPolicy
+<
+T
+>
 :
 :
 trace
@@ -798,8 +794,6 @@ size_t
 Capacity
 typename
 AllocPolicy
-typename
-GCPolicy
 >
 class
 GCVectorOperations
@@ -812,7 +806,6 @@ GCVector
 T
 Capacity
 AllocPolicy
-GCPolicy
 >
 ;
 const
@@ -1016,8 +1009,6 @@ size_t
 Capacity
 typename
 AllocPolicy
-typename
-GCPolicy
 >
 class
 MutableGCVectorOperations
@@ -1029,7 +1020,6 @@ Outer
 T
 Capacity
 AllocPolicy
-GCPolicy
 >
 {
 using
@@ -1040,7 +1030,6 @@ GCVector
 T
 Capacity
 AllocPolicy
-GCPolicy
 >
 ;
 const
@@ -1908,8 +1897,6 @@ size_t
 N
 typename
 AP
-typename
-GP
 >
 class
 RootedBase
@@ -1919,7 +1906,6 @@ GCVector
 T
 N
 AP
-GP
 >
 >
 :
@@ -1936,13 +1922,11 @@ GCVector
 T
 N
 AP
-GP
 >
 >
 T
 N
 AP
-GP
 >
 {
 }
@@ -1955,8 +1939,6 @@ size_t
 N
 typename
 AP
-typename
-GP
 >
 class
 MutableHandleBase
@@ -1966,7 +1948,6 @@ GCVector
 T
 N
 AP
-GP
 >
 >
 :
@@ -1983,13 +1964,11 @@ GCVector
 T
 N
 AP
-GP
 >
 >
 T
 N
 AP
-GP
 >
 {
 }
@@ -2002,8 +1981,6 @@ size_t
 N
 typename
 AP
-typename
-GP
 >
 class
 HandleBase
@@ -2013,7 +1990,6 @@ GCVector
 T
 N
 AP
-GP
 >
 >
 :
@@ -2030,13 +2006,11 @@ GCVector
 T
 N
 AP
-GP
 >
 >
 T
 N
 AP
-GP
 >
 {
 }
@@ -2049,8 +2023,6 @@ size_t
 N
 typename
 AP
-typename
-GP
 >
 class
 PersistentRootedBase
@@ -2060,7 +2032,6 @@ GCVector
 T
 N
 AP
-GP
 >
 >
 :
@@ -2077,13 +2048,11 @@ GCVector
 T
 N
 AP
-GP
 >
 >
 T
 N
 AP
-GP
 >
 {
 }
