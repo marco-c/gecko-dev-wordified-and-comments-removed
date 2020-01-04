@@ -1223,6 +1223,8 @@ fail
 "
 -
 -
+flavor
+=
 chrome
 "
             

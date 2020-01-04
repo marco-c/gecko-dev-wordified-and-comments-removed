@@ -1262,6 +1262,8 @@ chrome
 "
 -
 -
+flavor
+=
 chrome
 "
 ]
@@ -1276,6 +1278,8 @@ gpu
 "
 -
 -
+flavor
+=
 chrome
 "
 "
@@ -1297,6 +1301,8 @@ clipboard
 "
 -
 -
+flavor
+=
 chrome
 "
 "
@@ -1318,6 +1324,8 @@ chunked
 "
 -
 -
+flavor
+=
 chrome
 "
 "
@@ -1343,9 +1351,9 @@ chrome
 "
 -
 -
+flavor
+=
 browser
--
-chrome
 "
 ]
         
@@ -1361,9 +1369,9 @@ gpu
 "
 -
 -
+flavor
+=
 browser
--
-chrome
 "
 "
 -
@@ -1386,9 +1394,9 @@ clipboard
 "
 -
 -
+flavor
+=
 browser
--
-chrome
 "
 "
 -
@@ -1411,9 +1419,9 @@ chunked
 "
 -
 -
+flavor
+=
 browser
--
-chrome
 "
 "
 -
@@ -1438,9 +1446,9 @@ addons
 "
 -
 -
+flavor
+=
 browser
--
-chrome
 "
 "
 -
@@ -1472,9 +1480,9 @@ screenshots
 "
 -
 -
+flavor
+=
 browser
--
-chrome
 "
 "
 -
@@ -1513,9 +1521,9 @@ chrome
 "
 -
 -
+flavor
+=
 browser
--
-chrome
 "
 "
 -
@@ -1540,9 +1548,9 @@ chunked
 "
 -
 -
+flavor
+=
 browser
--
-chrome
 "
 "
 -
@@ -1572,6 +1580,8 @@ package
 "
 -
 -
+flavor
+=
 jetpack
 -
 package
@@ -1590,6 +1600,8 @@ clipboard
 "
 -
 -
+flavor
+=
 jetpack
 -
 package
@@ -1613,6 +1625,8 @@ addon
 "
 -
 -
+flavor
+=
 jetpack
 -
 addon
@@ -1627,6 +1641,8 @@ a11y
 "
 -
 -
+flavor
+=
 a11y
 "
 ]

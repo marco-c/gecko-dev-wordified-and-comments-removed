@@ -141,9 +141,9 @@ RUN_MOCHITEST
 )
 -
 -
+flavor
+=
 browser
--
-chrome
 (
 CHECK_TEST_ERROR
 )

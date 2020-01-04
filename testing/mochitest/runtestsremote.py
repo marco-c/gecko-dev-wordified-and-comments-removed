@@ -1255,7 +1255,12 @@ options
 if
 options
 .
+flavor
+=
+=
+'
 chrome
+'
 :
             
 chrome
@@ -1526,7 +1531,12 @@ remoteChromeTestDir
 if
 options
 .
+flavor
+=
+=
+'
 chrome
+'
 :
             
 self
@@ -2073,10 +2083,14 @@ runByDir
 False
     
 if
-not
 options
 .
+flavor
+!
+=
+'
 chrome
+'
 :
         
 options
