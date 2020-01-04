@@ -432,14 +432,11 @@ Destroy
 )
 ;
 bool
-IsDestroyed
+IsConnected
 (
 )
-{
-return
-mDestroyed
+const
 ;
-}
 PCompositableChild
 *
 GetIPDLActor
@@ -621,9 +618,6 @@ mForwarder
 ;
 TextureFlags
 mTextureFlags
-;
-bool
-mDestroyed
 ;
 RefPtr
 <

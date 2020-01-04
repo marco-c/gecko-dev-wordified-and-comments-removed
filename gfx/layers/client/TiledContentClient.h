@@ -2080,10 +2080,6 @@ MOZ_COUNT_DTOR
 MultiTiledContentClient
 )
 ;
-mDestroyed
-=
-true
-;
 mTiledBuffer
 .
 DiscardBuffers

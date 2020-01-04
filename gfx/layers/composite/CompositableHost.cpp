@@ -124,6 +124,13 @@ PCompositableParent
 .
 h
 "
+#
+include
+"
+IPDLActor
+.
+h
+"
 namespace
 mozilla
 {
@@ -141,7 +148,10 @@ class
 CompositableParent
 :
 public
+ParentActor
+<
 PCompositableParent
+>
 {
 public
 :
@@ -251,10 +261,8 @@ GetAsyncID
 }
 virtual
 void
-ActorDestroy
+Destroy
 (
-ActorDestroyReason
-why
 )
 override
 {
