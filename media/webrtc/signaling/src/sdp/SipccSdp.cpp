@@ -372,7 +372,7 @@ sdp
 uint64_t
 sessId
 =
-strtoul
+strtoull
 (
 sdp_get_owner_sessionid
 (
@@ -385,7 +385,7 @@ nullptr
 uint64_t
 sessVer
 =
-strtoul
+strtoull
 (
 sdp_get_owner_version
 (
