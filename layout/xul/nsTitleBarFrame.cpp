@@ -501,13 +501,12 @@ GetWidget
 ;
 LayoutDeviceIntRect
 bounds
-;
+=
 widget
 -
 >
 GetScreenBounds
 (
-bounds
 )
 ;
 CSSPoint

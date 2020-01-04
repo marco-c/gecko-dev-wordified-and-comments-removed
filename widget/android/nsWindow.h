@@ -656,12 +656,10 @@ false
 )
 override
 ;
-NS_IMETHOD
+virtual
+LayoutDeviceIntRect
 GetScreenBounds
 (
-LayoutDeviceIntRect
-&
-aRect
 )
 override
 ;

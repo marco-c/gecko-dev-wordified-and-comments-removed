@@ -17592,13 +17592,12 @@ LayoutDeviceIntPoint
 ;
 LayoutDeviceIntRect
 rect
-;
+=
 aWidget
 -
 >
 GetClientBounds
 (
-rect
 )
 ;
 LayoutDeviceIntPoint

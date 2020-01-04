@@ -1245,12 +1245,13 @@ if
 (
 widget
 )
+oldRect
+=
 widget
 -
 >
 GetScreenBounds
 (
-oldRect
 )
 ;
 LayoutDeviceIntPoint

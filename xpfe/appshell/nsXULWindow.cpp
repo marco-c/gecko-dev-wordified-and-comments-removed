@@ -2901,9 +2901,6 @@ int32_t
 cy
 )
 {
-LayoutDeviceIntRect
-rect
-;
 if
 (
 !
@@ -2912,12 +2909,14 @@ mWindow
 return
 NS_ERROR_FAILURE
 ;
+LayoutDeviceIntRect
+rect
+=
 mWindow
 -
 >
 GetScreenBounds
 (
-rect
 )
 ;
 if

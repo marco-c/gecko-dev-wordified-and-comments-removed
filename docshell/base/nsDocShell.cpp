@@ -24681,13 +24681,12 @@ mParentWidget
 {
 LayoutDeviceIntRect
 r
-;
+=
 mParentWidget
 -
 >
 GetClientBounds
 (
-r
 )
 ;
 SetPositionAndSize

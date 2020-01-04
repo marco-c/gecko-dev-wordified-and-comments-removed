@@ -11535,13 +11535,12 @@ WidgetToScreenOffset
 ;
 LayoutDeviceIntRect
 winRectInScreen
-;
+=
 aWindow
 -
 >
 GetClientBounds
 (
-winRectInScreen
 )
 ;
 winRectInScreen

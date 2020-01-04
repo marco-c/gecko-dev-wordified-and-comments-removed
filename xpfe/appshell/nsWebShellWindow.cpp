@@ -759,13 +759,12 @@ widgetInitData
 ;
 LayoutDeviceIntRect
 r
-;
+=
 mWindow
 -
 >
 GetClientBounds
 (
-r
 )
 ;
 mWindow

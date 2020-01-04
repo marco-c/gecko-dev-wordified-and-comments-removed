@@ -2295,13 +2295,12 @@ GetRemoteRenderer
 {
 LayoutDeviceIntRect
 outerBounds
-;
+=
 mWidget
 -
 >
 GetBounds
 (
-outerBounds
 )
 ;
 IntRect

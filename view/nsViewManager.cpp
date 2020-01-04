@@ -2963,13 +2963,12 @@ ifndef
 XP_MACOSX
 LayoutDeviceIntRect
 bounds
-;
+=
 childWidget
 -
 >
 GetBounds
 (
-bounds
 )
 ;
 nsTArray
