@@ -627,6 +627,15 @@ required
 :
 true
 }
+autoStartStatus
+:
+{
+type
+:
+"
+number
+"
+}
 numTotalWindows
 :
 {
