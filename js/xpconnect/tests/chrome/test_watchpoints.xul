@@ -348,7 +348,7 @@ r
 )
 {
 return
-Cu
+ThreadSafeChromeUtils
 .
 nondeterministicGetWeakMapKeys
 (

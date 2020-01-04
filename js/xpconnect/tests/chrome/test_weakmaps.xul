@@ -348,7 +348,7 @@ r
 )
 {
 return
-Cu
+ThreadSafeChromeUtils
 .
 nondeterministicGetWeakMapKeys
 (
@@ -1005,7 +1005,7 @@ map
 ;
 is
 (
-Cu
+ThreadSafeChromeUtils
 .
 nondeterministicGetWeakMapKeys
 (
@@ -1090,7 +1090,7 @@ map
 ;
 is
 (
-Cu
+ThreadSafeChromeUtils
 .
 nondeterministicGetWeakMapKeys
 (
@@ -1887,7 +1887,7 @@ check_nested_cc_maps
 ;
 is
 (
-Cu
+ThreadSafeChromeUtils
 .
 nondeterministicGetWeakMapKeys
 (
@@ -1921,7 +1921,7 @@ Bug
 680937
 is
 (
-Cu
+ThreadSafeChromeUtils
 .
 nondeterministicGetWeakMapKeys
 (
@@ -1952,7 +1952,7 @@ Bug
 680937
 is
 (
-Cu
+ThreadSafeChromeUtils
 .
 nondeterministicGetWeakMapKeys
 (
