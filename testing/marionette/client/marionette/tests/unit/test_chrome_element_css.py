@@ -54,11 +54,9 @@ find_element
 id
 "
 "
-page
+identity
 -
-proxy
--
-favicon
+icon
 "
 )
             
@@ -84,9 +82,7 @@ assertIn
 "
 identity
 -
-not
--
-secure
+icon
 .
 svg
 "
