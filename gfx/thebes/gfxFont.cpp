@@ -15242,7 +15242,6 @@ aTextRun
 SetSpaceGlyphIfSimple
 (
 this
-aContext
 aRunStart
 +
 i
