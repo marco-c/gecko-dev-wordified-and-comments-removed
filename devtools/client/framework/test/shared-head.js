@@ -1017,7 +1017,7 @@ promise
 ;
 }
 var
-loadToolbox
+openNewTabAndToolbox
 =
 Task
 .
@@ -1061,7 +1061,7 @@ toolbox
 )
 ;
 function
-unloadToolbox
+closeToolboxAndTab
 (
 toolbox
 )
