@@ -235,9 +235,17 @@ homepage_welcome_url
 "
 :
 "
-about
+"
+        
+"
+startup
+.
+homepage_welcome_url
+.
+additional
+"
 :
-blank
+"
 "
         
 "
@@ -2105,6 +2113,18 @@ True
 '
 browser
 .
+firstrun
+-
+content
+.
+dismissed
+'
+:
+True
+        
+'
+browser
+.
 newtab
 .
 url
@@ -2141,7 +2161,7 @@ browser
 .
 safebrowsing
 .
-phishing
+blockedURIs
 .
 enabled
 '
@@ -2177,7 +2197,7 @@ browser
 .
 safebrowsing
 .
-blockedURIs
+phishing
 .
 enabled
 '
@@ -2233,6 +2253,17 @@ enabled
 '
 :
 False
+        
+'
+browser
+.
+usedOnWindows10
+.
+introURL
+'
+:
+'
+'
         
 '
 extensions
