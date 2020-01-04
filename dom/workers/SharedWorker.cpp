@@ -568,10 +568,6 @@ Close
 (
 )
 ;
-mMessagePort
-=
-nullptr
-;
 }
 }
 void
