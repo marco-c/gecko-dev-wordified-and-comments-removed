@@ -404,6 +404,13 @@ h
 #
 include
 "
+GfxTexturesReporter
+.
+h
+"
+#
+include
+"
 GLTextureImage
 .
 h
@@ -16801,6 +16808,7 @@ ToUnknownRegion
 (
 )
 mTexture
+nullptr
 overwriteTexture
 /
 *
