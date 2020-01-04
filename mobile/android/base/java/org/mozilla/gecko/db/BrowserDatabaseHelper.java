@@ -258,6 +258,7 @@ util
 .
 Log
 ;
+public
 final
 class
 BrowserDatabaseHelper
