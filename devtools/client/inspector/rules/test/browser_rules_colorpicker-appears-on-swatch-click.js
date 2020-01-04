@@ -360,7 +360,7 @@ click
 )
 ;
 yield
-hideTooltipAndWaitForRuleviewChanged
+hideTooltipAndWaitForRuleViewChanged
 (
 cPicker
 view

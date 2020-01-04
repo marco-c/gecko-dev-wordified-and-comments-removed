@@ -960,7 +960,7 @@ element
 }
 function
 *
-hideTooltipAndWaitForRuleviewChanged
+hideTooltipAndWaitForRuleViewChanged
 (
 tooltip
 view

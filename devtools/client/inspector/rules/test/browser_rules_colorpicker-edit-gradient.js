@@ -612,7 +612,7 @@ correctly
 )
 ;
 yield
-hideTooltipAndWaitForRuleviewChanged
+hideTooltipAndWaitForRuleViewChanged
 (
 cPicker
 view
