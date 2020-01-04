@@ -5906,10 +5906,11 @@ if
 tabChild
 &
 &
+!
 tabChild
 -
 >
-IsDestroyed
+IPCOpen
 (
 )
 )
@@ -8118,10 +8119,11 @@ if
 tabChild
 &
 &
+!
 tabChild
 -
 >
-IsDestroyed
+IPCOpen
 (
 )
 )
