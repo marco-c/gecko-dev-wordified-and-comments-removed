@@ -3279,10 +3279,8 @@ pref
 browser
 .
 image_blocking
-.
-enabled
 "
-false
+0
 )
 ;
 pref
