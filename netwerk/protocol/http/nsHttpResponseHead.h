@@ -319,6 +319,7 @@ buf
 nsresult
 ParseCachedHead
 (
+const
 char
 *
 block
@@ -336,8 +337,8 @@ void
 ParseStatusLine
 (
 const
-char
-*
+nsACString
+&
 line
 )
 ;
@@ -345,8 +346,8 @@ nsresult
 ParseHeaderLine
 (
 const
-char
-*
+nsACString
+&
 line
 )
 ;
@@ -537,8 +538,8 @@ void
 ParseStatusLine_locked
 (
 const
-char
-*
+nsACString
+&
 line
 )
 ;
@@ -546,8 +547,8 @@ nsresult
 ParseHeaderLine_locked
 (
 const
-char
-*
+nsACString
+&
 line
 bool
 originalFromNetHeaders

@@ -394,10 +394,6 @@ mSynthesizedResponseHead
 ParseStatusLine
 (
 statusLine
-.
-get
-(
-)
 )
 ;
 return
@@ -450,10 +446,6 @@ mSynthesizedResponseHead
 ParseHeaderLine
 (
 header
-.
-get
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS

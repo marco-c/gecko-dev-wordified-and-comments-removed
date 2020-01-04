@@ -15230,10 +15230,6 @@ mCachedResponseHead
 >
 ParseCachedHead
 (
-(
-char
-*
-)
 buf
 .
 get

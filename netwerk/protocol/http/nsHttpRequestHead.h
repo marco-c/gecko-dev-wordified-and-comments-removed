@@ -442,6 +442,7 @@ kMethod_Trace
 void
 ParseHeaderSet
 (
+const
 char
 *
 buffer

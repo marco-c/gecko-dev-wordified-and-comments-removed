@@ -4506,10 +4506,6 @@ mResponseHead
 ParseHeaderLine
 (
 tmpHeader
-.
-get
-(
-)
 )
 ;
 }
