@@ -113,6 +113,12 @@ Intl
 return
 mIntl
 .
+IsAccessible
+(
+)
+?
+mIntl
+.
 AsAccessible
 (
 )
@@ -121,6 +127,8 @@ AsAccessible
 AsImage
 (
 )
+:
+nullptr
 ;
 }
 xpcAccessibleImage
