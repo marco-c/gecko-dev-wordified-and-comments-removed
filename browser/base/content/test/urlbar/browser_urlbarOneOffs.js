@@ -872,9 +872,12 @@ EventUtils
 synthesizeKey
 (
 "
-VK_TAB
+VK_DOWN
 "
 {
+altKey
+:
+true
 }
 )
 assertState
@@ -1101,9 +1104,12 @@ EventUtils
 synthesizeKey
 (
 "
-VK_TAB
+VK_DOWN
 "
 {
+altKey
+:
+true
 }
 )
 assertState
