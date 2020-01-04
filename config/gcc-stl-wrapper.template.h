@@ -141,6 +141,10 @@ defined
 _GLIBCXX_DEBUG
 )
 #
+define
+_GLIBCXX_DEBUG
+1
+#
 endif
 #
 pragma
