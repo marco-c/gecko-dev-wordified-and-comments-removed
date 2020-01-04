@@ -1565,7 +1565,7 @@ evt
 .
 mMessage
 =
-NS_SIMPLE_GESTURE_MAGNIFY
+eMagnifyGesture
 ;
 evt
 .

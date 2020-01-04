@@ -24765,7 +24765,7 @@ WidgetSimpleGestureEvent
 geckoEvent
 (
 true
-NS_SIMPLE_GESTURE_MAGNIFY
+eMagnifyGesture
 mGeckoChild
 )
 ;
