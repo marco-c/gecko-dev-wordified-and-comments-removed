@@ -12093,6 +12093,13 @@ data
 :
 "
 )
+&
+&
+resizeRatio
+=
+=
+=
+1
 )
 {
 imageData
