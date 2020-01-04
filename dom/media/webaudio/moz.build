@@ -135,6 +135,15 @@ MOCHITEST_MANIFESTS
 '
 test
 /
+blink
+/
+mochitest
+.
+ini
+'
+'
+test
+/
 mochitest
 .
 ini
