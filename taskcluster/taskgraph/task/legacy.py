@@ -1011,8 +1011,6 @@ Remove
 all
 caches
 but
-tc
--
 vcs
 from
 the
@@ -1060,6 +1058,24 @@ public
 sources
 )
 ?
+"
+)
+        
+re
+.
+compile
+(
+"
+^
+level
+-
+[
+123
+]
+-
+hg
+-
+shared
 "
 )
         
