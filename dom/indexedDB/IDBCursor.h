@@ -421,16 +421,6 @@ GetDirection
 )
 const
 ;
-bool
-IsContinueCalled
-(
-)
-const
-{
-return
-mContinueCalled
-;
-}
 void
 GetKey
 (
