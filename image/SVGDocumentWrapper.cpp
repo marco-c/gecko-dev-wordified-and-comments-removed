@@ -483,6 +483,16 @@ IsAnimated
 (
 )
 {
+if
+(
+!
+mViewer
+)
+{
+return
+false
+;
+}
 nsIDocument
 *
 doc
