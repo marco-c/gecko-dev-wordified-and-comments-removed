@@ -542,7 +542,15 @@ container
 .
 elt
 .
-previousElementSibling
+childNodes
+[
+0
+]
+.
+childNodes
+[
+1
+]
 ;
 input
 .
