@@ -10713,7 +10713,7 @@ Crashed
 gfxConfig
 :
 :
-Disable
+SetFailed
 (
 Feature
 :
