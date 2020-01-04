@@ -137,7 +137,7 @@ if
 !
 docShell
 .
-isBrowserOrApp
+isMozBrowserOrApp
 )
 {
 return
@@ -307,7 +307,7 @@ if
 !
 docShell
 .
-isBrowserOrApp
+isMozBrowserOrApp
 )
 {
 return

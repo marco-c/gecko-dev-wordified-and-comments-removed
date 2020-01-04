@@ -5493,7 +5493,7 @@ if
 ourDocshell
 -
 >
-GetIsBrowserElement
+GetIsIsolatedMozBrowserElement
 (
 )
 !
@@ -5501,7 +5501,7 @@ GetIsBrowserElement
 otherDocshell
 -
 >
-GetIsBrowserElement
+GetIsIsolatedMozBrowserElement
 (
 )
 |
@@ -8301,6 +8301,16 @@ mDocShell
 SetIsBrowserInsideApp
 (
 containingAppId
+)
+;
+mDocShell
+-
+>
+SetIsInIsolatedMozBrowserElement
+(
+OwnerIsIsolatedMozBrowserFrame
+(
+)
 )
 ;
 }

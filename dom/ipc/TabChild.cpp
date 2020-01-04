@@ -4100,6 +4100,16 @@ BrowserOwnerAppId
 )
 )
 ;
+docShell
+-
+>
+SetIsInIsolatedMozBrowserElement
+(
+IsBrowserElement
+(
+)
+)
+;
 }
 else
 {
@@ -4957,7 +4967,7 @@ docshell
 docshell
 -
 >
-GetIsInBrowserOrApp
+GetIsInMozBrowserOrApp
 (
 )
 &

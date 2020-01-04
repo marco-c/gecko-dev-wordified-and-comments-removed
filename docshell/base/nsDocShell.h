@@ -2673,6 +2673,9 @@ mBlankTiming
 FrameType
 mFrameType
 ;
+bool
+mIsInIsolatedMozBrowser
+;
 uint32_t
 mOwnOrContainingAppId
 ;
