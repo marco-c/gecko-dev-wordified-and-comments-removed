@@ -4584,6 +4584,9 @@ false
 process
 )
 ;
+#
+ifdef
+MOZ_SANDBOX
 if
 (
 mProcessType
@@ -4620,6 +4623,8 @@ peer
 ;
 }
 }
+#
+endif
 }
 #
 else
