@@ -933,6 +933,15 @@ defaultScale
 ;
 }
 ;
+union
+OptionalShmem
+{
+void_t
+;
+Shmem
+;
+}
+;
 prio
 (
 normal
@@ -3422,7 +3431,7 @@ IPCDataTransfer
 transfers
 uint32_t
 action
-nsCString
+OptionalShmem
 visualData
 uint32_t
 width

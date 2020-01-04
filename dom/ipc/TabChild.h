@@ -951,6 +951,14 @@ public
 TabContext
 public
 nsITooltipListener
+public
+mozilla
+:
+:
+ipc
+:
+:
+IShmemAllocator
 {
 typedef
 mozilla
@@ -1098,6 +1106,10 @@ NS_DECL_NSIWINDOWPROVIDER
 NS_DECL_NSITABCHILD
 NS_DECL_NSIOBSERVER
 NS_DECL_NSITOOLTIPLISTENER
+FORWARD_SHMEM_ALLOCATOR_TO
+(
+PBrowserChild
+)
 virtual
 bool
 DoSendBlockingMessage
