@@ -8761,6 +8761,10 @@ aRejectCallback
 {
 if
 (
+!
+mGlobal
+|
+|
 mGlobal
 -
 >
