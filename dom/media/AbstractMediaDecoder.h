@@ -422,16 +422,6 @@ aCanOffloadAudio
 {
 }
 virtual
-bool
-CheckDecoderCanOffloadAudio
-(
-)
-{
-return
-false
-;
-}
-virtual
 void
 SetElementVisibility
 (
