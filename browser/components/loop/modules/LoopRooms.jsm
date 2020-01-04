@@ -4183,6 +4183,10 @@ clear
 (
 )
 ;
+gDirty
+=
+true
+;
 if
 (
 roomsCache
@@ -4210,6 +4214,10 @@ value
 )
 ;
 }
+gDirty
+=
+false
+;
 }
 }
 }
