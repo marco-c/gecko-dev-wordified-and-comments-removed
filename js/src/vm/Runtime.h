@@ -3090,8 +3090,10 @@ which
 endif
 private
 :
-PRLock
-*
+js
+:
+:
+Mutex
 exclusiveAccessLock
 ;
 #
