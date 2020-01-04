@@ -5332,7 +5332,7 @@ nsIStreamListener
 ;
 channel
 .
-asyncOpen
+asyncOpen2
 (
 {
 onStartRequest
@@ -5702,7 +5702,6 @@ bind
 copySaver
 )
 }
-null
 )
 ;
 if
