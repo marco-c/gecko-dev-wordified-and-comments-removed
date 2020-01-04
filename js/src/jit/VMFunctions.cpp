@@ -2705,10 +2705,7 @@ cx
 )
 ;
 return
-ValueToId
-<
-CanGC
->
+ToPropertyKey
 (
 cx
 key
