@@ -1966,6 +1966,9 @@ case
 SYS_CONNECT
 :
 case
+SYS_ACCEPT
+:
+case
 SYS_SETSOCKOPT
 :
 case
