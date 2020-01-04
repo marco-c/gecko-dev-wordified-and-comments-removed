@@ -342,7 +342,7 @@ reloadUpdateManagerData
 (
 )
 ;
-initUpdateServiceStub
+testPostUpdateProcessing
 (
 )
 ;

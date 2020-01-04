@@ -408,7 +408,7 @@ reloadUpdateManagerData
 (
 )
 ;
-initUpdateServiceStub
+testPostUpdateProcessing
 (
 )
 ;

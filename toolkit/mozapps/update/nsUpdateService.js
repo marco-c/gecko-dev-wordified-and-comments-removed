@@ -8505,6 +8505,17 @@ ID
 )
 ;
 }
+case
+"
+test
+-
+post
+-
+update
+-
+processing
+"
+:
 this
 .
 _postUpdateProcessing
