@@ -3248,15 +3248,6 @@ info
 )
 ;
 async
-OpenURI
-(
-URIParams
-uri
-uint32_t
-flags
-)
-;
-async
 CacheFileDescriptor
 (
 nsString

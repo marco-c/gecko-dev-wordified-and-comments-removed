@@ -323,11 +323,6 @@ nsIRemoteWindowContext
 openURI
 (
 uriToSend
-Ci
-.
-nsIURILoader
-.
-IS_CONTENT_PREFERRED
 )
 ;
 return

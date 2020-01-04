@@ -148,9 +148,6 @@ openURI
 in
 nsIURI
 aURI
-in
-uint32_t
-aFlags
 )
 ;
 }
