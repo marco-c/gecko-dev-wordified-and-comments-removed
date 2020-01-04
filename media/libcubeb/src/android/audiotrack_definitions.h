@@ -1,10 +1,6 @@
 #
 include
 <
-cubeb
-/
-cubeb
--
 stdint
 .
 h

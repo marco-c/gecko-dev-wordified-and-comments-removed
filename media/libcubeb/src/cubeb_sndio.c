@@ -298,6 +298,11 @@ rdpos
 +
 =
 delta
+*
+s
+-
+>
+bpf
 ;
 }
 static
@@ -740,8 +745,9 @@ s
 -
 >
 wrpos
++
 =
-0
+n
 ;
 start
 +
@@ -1020,7 +1026,7 @@ sio_open
 (
 NULL
 SIO_PLAY
-0
+1
 )
 ;
 if
@@ -1792,6 +1798,11 @@ s
 -
 >
 rdpos
+/
+s
+-
+>
+bpf
 ;
 pthread_mutex_unlock
 (
@@ -1878,6 +1889,7 @@ latency
 *
 latency
 =
+(
 stm
 -
 >
@@ -1887,6 +1899,12 @@ stm
 -
 >
 rdpos
+)
+/
+stm
+-
+>
+bpf
 ;
 return
 CUBEB_OK
