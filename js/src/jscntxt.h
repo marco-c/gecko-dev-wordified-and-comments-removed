@@ -2085,6 +2085,7 @@ ErrorArgumentsType
 {
 ArgumentsAreUnicode
 ArgumentsAreASCII
+ArgumentsAreLatin1
 }
 ;
 JSFunction
