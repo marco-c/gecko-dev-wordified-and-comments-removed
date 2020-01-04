@@ -993,6 +993,9 @@ strlen
 sm
 )
 ;
+JS
+:
+:
 UniqueTwoByteChars
 expected_wrapper
 (
