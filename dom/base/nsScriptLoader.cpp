@@ -4463,11 +4463,9 @@ if
 mDocument
 -
 >
-GetSandboxFlags
+HasScriptsBlockedBySandbox
 (
 )
-&
-SANDBOXED_SCRIPTS
 )
 {
 return
@@ -6529,11 +6527,9 @@ if
 mDocument
 -
 >
-GetSandboxFlags
+HasScriptsBlockedBySandbox
 (
 )
-&
-SANDBOXED_SCRIPTS
 )
 {
 return

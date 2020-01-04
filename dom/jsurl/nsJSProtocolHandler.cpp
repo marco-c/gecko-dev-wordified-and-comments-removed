@@ -881,15 +881,11 @@ if
 doc
 &
 &
-(
 doc
 -
 >
-GetSandboxFlags
+HasScriptsBlockedBySandbox
 (
-)
-&
-SANDBOXED_SCRIPTS
 )
 )
 {
