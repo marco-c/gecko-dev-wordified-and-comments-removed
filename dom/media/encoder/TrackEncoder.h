@@ -518,6 +518,10 @@ mTotalFrameDuration
 (
 0
 )
+mLastFrameDuration
+(
+0
+)
 mVideoBitrate
 (
 0
@@ -623,6 +627,9 @@ mTotalFrameDuration
 ;
 VideoFrame
 mLastFrame
+;
+StreamTime
+mLastFrameDuration
 ;
 VideoSegment
 mRawSegment
