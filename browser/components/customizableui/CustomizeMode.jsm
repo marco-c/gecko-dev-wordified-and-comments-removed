@@ -518,6 +518,10 @@ removeTab
 gTab
 )
 ;
+gTab
+=
+null
+;
 }
 function
 unregisterGlobalTab
@@ -1290,6 +1294,8 @@ gBrowser
 selectedTab
 =
 gTab
+;
+return
 ;
 }
 gTab
