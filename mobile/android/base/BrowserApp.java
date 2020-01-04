@@ -8430,10 +8430,6 @@ height
 ;
 mLayerView
 .
-getDynamicToolbarAnimator
-(
-)
-.
 setMaxTranslation
 (
 height

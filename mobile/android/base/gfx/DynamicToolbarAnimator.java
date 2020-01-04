@@ -481,6 +481,16 @@ maxTranslation
 }
 public
 float
+getMaxTranslation
+(
+)
+{
+return
+mMaxTranslation
+;
+}
+public
+float
 getToolbarTranslation
 (
 )
