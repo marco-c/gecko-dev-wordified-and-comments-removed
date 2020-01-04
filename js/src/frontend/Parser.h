@@ -3518,6 +3518,13 @@ debuggerStatement
 )
 ;
 Node
+variableStatement
+(
+YieldHandling
+yieldHandling
+)
+;
+Node
 lexicalDeclaration
 (
 YieldHandling
