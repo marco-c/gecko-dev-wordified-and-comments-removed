@@ -12904,6 +12904,14 @@ firefox
 com
 /
 settings
+?
+service
+=
+sync
+&
+context
+=
+fx_desktop_v3
 "
 )
 ;
