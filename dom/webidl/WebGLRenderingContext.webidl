@@ -2885,7 +2885,11 @@ apparently
 .
 readonly
 attribute
-CanvasObj
+(
+HTMLCanvasElement
+or
+OffscreenCanvas
+)
 ?
 canvas
 ;
