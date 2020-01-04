@@ -5986,7 +5986,6 @@ addon
 .
 uninstall
 (
-true
 )
 ;
 return
