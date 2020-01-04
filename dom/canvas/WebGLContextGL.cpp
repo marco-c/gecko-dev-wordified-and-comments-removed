@@ -4941,7 +4941,7 @@ const
 GLenum
 readType
 =
-LOCAL_GL_HALF_FLOAT_OES
+LOCAL_GL_HALF_FLOAT
 ;
 const
 char
