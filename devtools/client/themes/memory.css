@@ -1004,12 +1004,6 @@ toolbar
 background
 )
 ;
-min
--
-width
-:
-0
-;
 }
 #
 heap
@@ -1036,12 +1030,6 @@ column
 flex
 :
 1
-;
-min
--
-width
-:
-0
 ;
 }
 #
