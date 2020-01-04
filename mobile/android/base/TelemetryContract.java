@@ -385,6 +385,12 @@ PAGEACTION
 pageaction
 "
 )
+PANEL
+(
+"
+panel
+"
+)
 SETTINGS
 (
 "
@@ -467,6 +473,14 @@ AWESOMESCREEN
 (
 "
 awesomescreen
+.
+1
+"
+)
+EXPERIMENT
+(
+"
+experiment
 .
 1
 "
