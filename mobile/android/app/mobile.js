@@ -218,9 +218,6 @@ defaultZoom
 1
 )
 ;
-#
-ifdef
-MOZ_WIDGET_ANDROID
 pref
 (
 "
@@ -261,8 +258,6 @@ scrollbarFadeDuration
 0
 )
 ;
-#
-endif
 pref
 (
 "
