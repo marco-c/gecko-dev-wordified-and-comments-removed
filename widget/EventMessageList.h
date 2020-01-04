@@ -857,7 +857,7 @@ eQueryContentEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_QUERY_CHARACTER_AT_POINT
+eQueryCharacterAtPoint
 eQueryContentEventFirst
 +
 8

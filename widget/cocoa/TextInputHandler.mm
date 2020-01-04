@@ -20826,7 +20826,7 @@ WidgetQueryContentEvent
 charAt
 (
 true
-NS_QUERY_CHARACTER_AT_POINT
+eQueryCharacterAtPoint
 mWidget
 )
 ;

@@ -9130,7 +9130,7 @@ QUERY_CHARACTER_AT_POINT
 :
 message
 =
-NS_QUERY_CHARACTER_AT_POINT
+eQueryCharacterAtPoint
 ;
 break
 ;
@@ -9170,7 +9170,7 @@ if
 message
 =
 =
-NS_QUERY_CHARACTER_AT_POINT
+eQueryCharacterAtPoint
 )
 {
 WidgetQueryContentEvent

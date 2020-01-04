@@ -214,7 +214,7 @@ eQueryEditorRect
 aEventMessage
 =
 =
-NS_QUERY_CHARACTER_AT_POINT
+eQueryCharacterAtPoint
 ;
 }
 NS_IMETHODIMP
@@ -497,7 +497,7 @@ eQuerySelectedText
 mEventMessage
 =
 =
-NS_QUERY_CHARACTER_AT_POINT
+eQueryCharacterAtPoint
 NS_ERROR_NOT_AVAILABLE
 )
 ;
@@ -549,7 +549,7 @@ NS_WARN_IF
 mEventMessage
 !
 =
-NS_QUERY_CHARACTER_AT_POINT
+eQueryCharacterAtPoint
 )
 )
 {

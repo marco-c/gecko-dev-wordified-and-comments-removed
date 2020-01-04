@@ -3484,7 +3484,7 @@ case
 eQuerySelectionAsTransferable
 :
 case
-NS_QUERY_CHARACTER_AT_POINT
+eQueryCharacterAtPoint
 :
 case
 NS_QUERY_DOM_WIDGET_HITTEST
