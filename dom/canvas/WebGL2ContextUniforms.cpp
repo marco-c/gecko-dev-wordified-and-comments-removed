@@ -1190,6 +1190,13 @@ nsAString
 retval
 )
 {
+retval
+.
+SetIsVoid
+(
+true
+)
+;
 if
 (
 IsContextLost
