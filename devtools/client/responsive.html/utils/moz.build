@@ -96,6 +96,11 @@ MPL
 DevToolsModules
 (
 '
+e10s
+.
+js
+'
+'
 l10n
 .
 js
