@@ -30268,6 +30268,13 @@ mRepeat
 .
 IsInitialValue
 (
+nsStyleImageLayers
+:
+:
+LayerType
+:
+:
+Mask
 )
 |
 |
