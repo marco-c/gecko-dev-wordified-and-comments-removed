@@ -14985,6 +14985,13 @@ overridden
 ;
 if
 (
+!
+this
+.
+editing
+&
+&
+(
 this
 .
 prop
@@ -15007,6 +15014,7 @@ prop
 .
 isKnownProperty
 (
+)
 )
 )
 {
@@ -16808,6 +16816,7 @@ this
 prop
 .
 value
+true
 )
 ;
 this
@@ -16954,9 +16963,17 @@ _previewValue
 function
 (
 value
+reverting
+=
+false
 )
 {
 if
+(
+!
+reverting
+&
+&
 (
 !
 this
@@ -16969,6 +16986,7 @@ this
 ruleEditor
 .
 isEditing
+)
 )
 {
 return
