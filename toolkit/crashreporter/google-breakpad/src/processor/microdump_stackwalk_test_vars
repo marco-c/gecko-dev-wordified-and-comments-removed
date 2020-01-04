@@ -1,0 +1,6 @@
+MICRODUMP_SUPPORTED_ARCHS
+=
+"
+arm
+arm64
+"

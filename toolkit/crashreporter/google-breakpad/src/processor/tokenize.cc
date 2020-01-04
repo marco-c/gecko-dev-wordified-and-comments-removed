@@ -29,7 +29,7 @@ google_breakpad
 {
 #
 ifdef
-_WIN32
+_MSC_VER
 #
 define
 strtok_r

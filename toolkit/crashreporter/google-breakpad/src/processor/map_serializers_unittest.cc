@@ -85,12 +85,6 @@ typedef
 int32_t
 EntryType
 ;
-const
-int
-kSizeOfInt
-=
-4
-;
 class
 TestStdMapSerializer
 :

@@ -1606,6 +1606,7 @@ frame
 ;
 if
 (
+(
 frame_ppc
 -
 >
@@ -1615,6 +1616,7 @@ StackFramePPC
 :
 :
 CONTEXT_VALID_ALL
+)
 =
 =
 StackFramePPC
@@ -2636,7 +2638,7 @@ vector
 google_breakpad
 :
 :
-MinidumpMemoryRegion
+MemoryRegion
 *
 >
 *
@@ -2726,7 +2728,7 @@ cpu
 google_breakpad
 :
 :
-MinidumpMemoryRegion
+MemoryRegion
 *
 thread_stack_bytes
 =

@@ -138,6 +138,14 @@ vector_save
 }
 MDRawContextPPC
 ;
+enum
+MDPPCRegisterNumbers
+{
+MD_CONTEXT_PPC_REG_SP
+=
+1
+}
+;
 #
 if
 defined

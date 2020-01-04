@@ -66,7 +66,7 @@ char
 const
 *
 buf
-unsigned
+size_t
 len
 )
 ;

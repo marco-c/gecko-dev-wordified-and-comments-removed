@@ -2939,6 +2939,7 @@ void_function
 void
 )
 ;
+volatile
 void_function
 memory_function
 =

@@ -13,6 +13,11 @@ h
 >
 #
 include
+<
+string
+>
+#
+include
 "
 common
 /
@@ -99,11 +104,11 @@ buffer_length
 ;
 private
 :
-char
+std
+:
+:
+string
 path_
-[
-PATH_MAX
-]
 ;
 }
 ;

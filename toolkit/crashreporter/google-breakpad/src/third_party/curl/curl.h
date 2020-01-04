@@ -210,7 +210,7 @@ __INTEGRITY
 \
 defined
 (
-ANDROID
+__ANDROID__
 )
 #
 include

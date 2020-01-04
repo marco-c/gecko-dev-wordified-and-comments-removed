@@ -2535,6 +2535,10 @@ False
 verbose
 =
 False
+                         
+symbolsPath
+=
+None
 )
 :
         
@@ -2579,6 +2583,10 @@ x
 runTests
 (
 xpcshellBin
+                                          
+symbolsPath
+=
+symbolsPath
                                           
 manifest
 =
@@ -3149,6 +3157,43 @@ stack
 "
 "
         
+symbolsPath
+=
+None
+        
+candidate_path
+=
+os
+.
+path
+.
+join
+(
+build_obj
+.
+distdir
+'
+crashreporter
+-
+symbols
+'
+)
+        
+if
+os
+.
+path
+.
+isdir
+(
+candidate_path
+)
+:
+          
+symbolsPath
+=
+candidate_path
+        
 self
 .
 writeFile
@@ -3247,6 +3292,9 @@ self
 assertTestResult
 (
 False
+symbolsPath
+=
+symbolsPath
 )
         
 self
