@@ -1995,7 +1995,7 @@ else
 XPCNativeInterface
 *
 *
-Current
+current
 =
 mBaseSet
 -
@@ -2077,7 +2077,7 @@ NS_PTR_TO_INT32
 (
 *
 (
-Current
+current
 +
 +
 )
@@ -2118,7 +2118,7 @@ NS_PTR_TO_INT32
 (
 *
 (
-Current
+current
 +
 +
 )
