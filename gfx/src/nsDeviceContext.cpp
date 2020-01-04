@@ -1017,10 +1017,6 @@ mPrintingScale
 .
 0f
 )
-mFontCache
-(
-nullptr
-)
 {
 MOZ_ASSERT
 (
@@ -1055,11 +1051,6 @@ mFontCache
 >
 Destroy
 (
-)
-;
-NS_RELEASE
-(
-mFontCache
 )
 ;
 }
@@ -1097,11 +1088,6 @@ mFontCache
 new
 nsFontCache
 (
-)
-;
-NS_ADDREF
-(
-mFontCache
 )
 ;
 mFontCache
