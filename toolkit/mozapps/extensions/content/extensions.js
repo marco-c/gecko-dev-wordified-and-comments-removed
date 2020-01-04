@@ -19663,6 +19663,15 @@ browser
 .
 contentDocument
 ;
+if
+(
+!
+doc
+)
+{
+return
+;
+}
 let
 body
 =
