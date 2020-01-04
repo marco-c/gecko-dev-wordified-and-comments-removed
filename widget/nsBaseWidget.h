@@ -2576,6 +2576,17 @@ uint32_t
 aPointerOrientation
 )
 ;
+void
+DispatchTouchInput
+(
+mozilla
+:
+:
+MultiTouchInput
+&
+aInput
+)
+;
 #
 if
 defined
