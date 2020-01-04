@@ -8262,8 +8262,6 @@ MaxDifference
 {
 return
 NS_STYLE_HINT_FRAMECHANGE
-|
-nsChangeHint_NeutralChange
 ;
 }
 static
@@ -8297,9 +8295,6 @@ mWritingMode
 ;
 uint8_t
 mTextOrientation
-;
-uint8_t
-mColorAdjust
 ;
 bool
 IsVisible
