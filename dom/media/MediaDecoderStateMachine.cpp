@@ -2205,9 +2205,10 @@ while
 true
 )
 {
-const
+RefPtr
+<
 MediaData
-*
+>
 a
 =
 AudioQueue
@@ -9105,8 +9106,10 @@ HasAudio
 )
 )
 {
+RefPtr
+<
 MediaData
-*
+>
 audio
 =
 AudioQueue
