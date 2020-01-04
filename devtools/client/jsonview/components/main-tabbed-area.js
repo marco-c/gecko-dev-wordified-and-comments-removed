@@ -301,6 +301,15 @@ this
 props
 .
 json
+jsonTextLength
+:
+this
+.
+props
+.
+jsonText
+.
+length
 actions
 :
 this
