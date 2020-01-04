@@ -1901,7 +1901,9 @@ layers
 /
 apz
 /
-reftests
+test
+/
+reftest
 /
 reftest
 .
