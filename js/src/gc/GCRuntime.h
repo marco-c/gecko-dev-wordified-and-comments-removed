@@ -3158,6 +3158,11 @@ bufferGrayRoots
 (
 )
 ;
+void
+markCompartments
+(
+)
+;
 IncrementalProgress
 drainMarkStack
 (
