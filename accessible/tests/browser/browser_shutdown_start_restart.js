@@ -7,7 +7,6 @@ add_task
 (
 function
 *
-testStartAndRestart
 (
 )
 {
