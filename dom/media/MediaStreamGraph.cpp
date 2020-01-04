@@ -11857,8 +11857,6 @@ Disconnect
 (
 )
 {
-MOZ_ASSERT
-(
 GraphImpl
 (
 )
@@ -11866,7 +11864,6 @@ GraphImpl
 >
 AssertOnGraphThreadOrNotRunning
 (
-)
 )
 ;
 NS_ASSERTION
