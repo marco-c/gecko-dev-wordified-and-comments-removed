@@ -1,6 +1,12 @@
-gUseRealCertChecks
-=
+Services
+.
+prefs
+.
+setBoolPref
+(
+PREF_XPI_SIGNATURES_REQUIRED
 true
+)
 ;
 Services
 .
