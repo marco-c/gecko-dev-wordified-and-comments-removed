@@ -2214,9 +2214,6 @@ if
 widget
 )
 {
-bool
-isRetainingManager
-;
 LayerManager
 *
 manager
@@ -2226,15 +2223,8 @@ widget
 >
 GetLayerManager
 (
-&
-isRetainingManager
 )
 ;
-if
-(
-isRetainingManager
-)
-{
 manager
 -
 >
@@ -2281,7 +2271,6 @@ PaintFrameFlags
 PAINT_EXISTING_TRANSACTION
 )
 ;
-}
 }
 }
 }

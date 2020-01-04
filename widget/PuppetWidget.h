@@ -671,11 +671,6 @@ LayerManagerPersistence
 aPersistence
 =
 LAYER_MANAGER_CURRENT
-bool
-*
-aAllowRetaining
-=
-nullptr
 )
 override
 ;

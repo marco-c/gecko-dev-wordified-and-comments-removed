@@ -3278,9 +3278,6 @@ LayersBackend
 aBackendHint
 LayerManagerPersistence
 aPersistence
-bool
-*
-aAllowRetaining
 )
 {
 if
@@ -3313,7 +3310,6 @@ GetLayerManager
 aShadowManager
 aBackendHint
 aPersistence
-aAllowRetaining
 )
 ;
 }

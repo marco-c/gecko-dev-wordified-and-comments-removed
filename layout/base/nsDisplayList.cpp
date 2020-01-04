@@ -9076,9 +9076,6 @@ nsView
 *
 *
 aView
-bool
-*
-aAllowRetaining
 )
 {
 nsView
@@ -9151,7 +9148,6 @@ window
 >
 GetLayerManager
 (
-aAllowRetaining
 )
 ;
 }
@@ -9210,11 +9206,6 @@ widgetTransaction
 false
 ;
 bool
-allowRetaining
-=
-false
-;
-bool
 doBeginTransaction
 =
 true
@@ -9241,8 +9232,6 @@ GetWidgetLayerManager
 (
 &
 view
-&
-allowRetaining
 )
 ;
 if

@@ -5492,9 +5492,6 @@ LayersBackend
 aBackendHint
 LayerManagerPersistence
 aPersistence
-bool
-*
-aAllowRetaining
 )
 {
 if
@@ -5554,17 +5551,6 @@ CreateBasicLayerManager
 )
 ;
 }
-}
-if
-(
-aAllowRetaining
-)
-{
-*
-aAllowRetaining
-=
-true
-;
 }
 return
 mLayerManager

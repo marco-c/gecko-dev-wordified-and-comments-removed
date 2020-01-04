@@ -614,11 +614,6 @@ nsView
 aView
 =
 nullptr
-bool
-*
-aAllowRetaining
-=
-nullptr
 )
 ;
 bool

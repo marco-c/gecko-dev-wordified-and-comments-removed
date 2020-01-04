@@ -28694,9 +28694,6 @@ GetFrame
 (
 )
 ;
-bool
-isRetainingManager
-;
 LayerManager
 *
 layerManager
@@ -28711,8 +28708,6 @@ GetWidget
 >
 GetLayerManager
 (
-&
-isRetainingManager
 )
 ;
 NS_ASSERTION
@@ -28782,9 +28777,6 @@ BeginTransaction
 if
 (
 frame
-&
-&
-isRetainingManager
 )
 {
 if

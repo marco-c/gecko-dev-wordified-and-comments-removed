@@ -567,11 +567,6 @@ LayerManagerPersistence
 aPersistence
 =
 LAYER_MANAGER_CURRENT
-bool
-*
-aAllowRetaining
-=
-nullptr
 )
 ;
 NS_IMETHOD_

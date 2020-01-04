@@ -2159,11 +2159,6 @@ LayerManager
 *
 GetLayerManager
 (
-bool
-*
-aAllowRetaining
-=
-nullptr
 )
 {
 return
@@ -2181,7 +2176,6 @@ LayersBackend
 :
 LAYERS_NONE
 LAYER_MANAGER_CURRENT
-aAllowRetaining
 )
 ;
 }
@@ -2192,11 +2186,6 @@ GetLayerManager
 (
 LayerManagerPersistence
 aPersistence
-bool
-*
-aAllowRetaining
-=
-nullptr
 )
 {
 return
@@ -2214,7 +2203,6 @@ LayersBackend
 :
 LAYERS_NONE
 aPersistence
-aAllowRetaining
 )
 ;
 }
@@ -2232,11 +2220,6 @@ LayerManagerPersistence
 aPersistence
 =
 LAYER_MANAGER_CURRENT
-bool
-*
-aAllowRetaining
-=
-nullptr
 )
 =
 0
