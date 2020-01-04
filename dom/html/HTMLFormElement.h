@@ -744,6 +744,14 @@ CheckValidFormSubmission
 (
 )
 ;
+bool
+SubmissionCanProceed
+(
+Element
+*
+aSubmitter
+)
+;
 nsresult
 WalkFormElements
 (
