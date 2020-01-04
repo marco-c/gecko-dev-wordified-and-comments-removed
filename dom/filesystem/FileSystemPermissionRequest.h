@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsIIPCBackgroundChildCreateCallback
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -52,6 +59,8 @@ public
 nsIContentPermissionRequest
 public
 nsIRunnable
+public
+nsIIPCBackgroundChildCreateCallback
 {
 public
 :
@@ -67,6 +76,7 @@ aTask
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSICONTENTPERMISSIONREQUEST
 NS_DECL_NSIRUNNABLE
+NS_DECL_NSIIPCBACKGROUNDCHILDCREATECALLBACK
 private
 :
 explicit
@@ -77,9 +87,13 @@ FileSystemTaskBase
 aTask
 )
 ;
-virtual
 ~
 FileSystemPermissionRequest
+(
+)
+;
+void
+ScheduleTask
 (
 )
 ;

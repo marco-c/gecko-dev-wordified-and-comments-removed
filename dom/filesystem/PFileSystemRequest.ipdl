@@ -113,11 +113,11 @@ MPL
 /
 include
 protocol
-PBlob
+PBackground
 ;
 include
 protocol
-PContent
+PBlob
 ;
 namespace
 mozilla
@@ -243,12 +243,11 @@ FileSystemErrorResponse
 ;
 }
 ;
-sync
 protocol
 PFileSystemRequest
 {
 manager
-PContent
+PBackground
 ;
 child
 :

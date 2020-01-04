@@ -98,6 +98,10 @@ PFileDescriptorSet
 ;
 include
 protocol
+PFileSystemRequest
+;
+include
+protocol
 PMessagePort
 ;
 include
@@ -132,6 +136,9 @@ PBackgroundSharedTypes
 ;
 include
 PBackgroundIDBSharedTypes
+;
+include
+PFileSystemParams
 ;
 include
 "
@@ -257,6 +264,9 @@ PCacheStreamControl
 ;
 manages
 PFileDescriptorSet
+;
+manages
+PFileSystemRequest
 ;
 manages
 PMessagePort
@@ -418,6 +428,13 @@ principalInfo
 async
 PQuota
 (
+)
+;
+async
+PFileSystemRequest
+(
+FileSystemParams
+params
 )
 ;
 child

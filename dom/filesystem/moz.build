@@ -225,6 +225,11 @@ IPDL_SOURCES
 =
 [
 '
+PFileSystemParams
+.
+ipdlh
+'
+'
 PFileSystemRequest
 .
 ipdl
