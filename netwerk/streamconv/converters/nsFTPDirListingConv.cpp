@@ -110,6 +110,10 @@ nsFTPDirListingConv
 "
 )
 ;
+using
+namespace
+mozilla
+;
 NS_IMPL_ISUPPORTS
 (
 nsFTPDirListingConv

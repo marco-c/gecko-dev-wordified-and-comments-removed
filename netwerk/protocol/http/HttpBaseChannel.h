@@ -250,6 +250,17 @@ nsCOMArray
 .
 h
 "
+#
+include
+"
+mozilla
+/
+net
+/
+ChannelEventQueue
+.
+h
+"
 class
 nsPerformance
 ;

@@ -74,6 +74,13 @@ ChannelInfo
 .
 h
 "
+#
+include
+"
+nsIChannelEventSink
+.
+h
+"
 namespace
 mozilla
 {

@@ -14,6 +14,13 @@ Assertions
 .
 h
 "
+#
+include
+"
+nsIInputStream
+.
+h
+"
 namespace
 mozilla
 {

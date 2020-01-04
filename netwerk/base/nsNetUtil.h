@@ -76,6 +76,13 @@ nsNetCID
 .
 h
 "
+#
+include
+"
+nsServiceManagerUtils
+.
+h
+"
 class
 nsIURI
 ;

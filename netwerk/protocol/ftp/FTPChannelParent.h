@@ -81,6 +81,9 @@ namespace
 net
 {
 class
+ChannelEventQueue
+;
+class
 FTPChannelParent
 final
 :

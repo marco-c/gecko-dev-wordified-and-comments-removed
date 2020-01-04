@@ -155,6 +155,15 @@ nsContentUtils
 h
 "
 #
+include
+"
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
 define
 DEFAULT_CHUNK_SIZE
 (
@@ -188,6 +197,10 @@ PR_USEC_PER_MSEC
 define
 MAX_RETRY_COUNT
 20
+using
+namespace
+mozilla
+;
 static
 nsresult
 WriteToFile

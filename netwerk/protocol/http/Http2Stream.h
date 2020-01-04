@@ -39,6 +39,12 @@ h
 class
 nsStandardURL
 ;
+class
+nsIInputStream
+;
+class
+nsIOutputStream
+;
 namespace
 mozilla
 {

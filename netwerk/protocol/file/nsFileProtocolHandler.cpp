@@ -1,6 +1,13 @@
 #
 include
 "
+nsIFile
+.
+h
+"
+#
+include
+"
 nsFileProtocolHandler
 .
 h

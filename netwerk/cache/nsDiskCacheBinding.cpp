@@ -42,6 +42,10 @@ nsCacheService
 .
 h
 "
+using
+namespace
+mozilla
+;
 struct
 HashTableEntry
 :

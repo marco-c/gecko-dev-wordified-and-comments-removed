@@ -248,6 +248,13 @@ h
 #
 include
 "
+nsINode
+.
+h
+"
+#
+include
+"
 nsIWidget
 .
 h

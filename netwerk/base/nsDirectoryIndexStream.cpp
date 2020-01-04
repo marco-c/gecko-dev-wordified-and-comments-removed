@@ -89,10 +89,11 @@ nsNativeCharsetUtils
 .
 h
 "
-static
+using
+namespace
 mozilla
-:
-:
+;
+static
 LazyLogModule
 gLog
 (

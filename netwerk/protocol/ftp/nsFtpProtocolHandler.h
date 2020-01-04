@@ -251,6 +251,15 @@ nsFtpProtocolHandler
 *
 gFtpHandler
 ;
+#
+include
+"
+mozilla
+/
+Logging
+.
+h
+"
 extern
 mozilla
 :

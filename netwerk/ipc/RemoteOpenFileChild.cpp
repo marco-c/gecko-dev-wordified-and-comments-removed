@@ -103,6 +103,13 @@ h
 #
 include
 "
+nsIFileURL
+.
+h
+"
+#
+include
+"
 private
 /
 pprio

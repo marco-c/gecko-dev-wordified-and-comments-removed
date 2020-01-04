@@ -253,6 +253,13 @@ nsNullPrincipal
 h
 "
 #
+include
+"
+nsIAuthPrompt2
+.
+h
+"
+#
 ifdef
 MOZ_WIDGET_GONK
 #

@@ -39,6 +39,13 @@ nsINetworkInterceptController
 .
 h
 "
+#
+include
+"
+nsIStreamListener
+.
+h
+"
 namespace
 mozilla
 {

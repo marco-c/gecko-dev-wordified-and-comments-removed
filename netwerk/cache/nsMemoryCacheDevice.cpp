@@ -86,6 +86,10 @@ gMemoryDeviceID
 memory
 "
 ;
+using
+namespace
+mozilla
+;
 nsMemoryCacheDevice
 :
 :

@@ -61,6 +61,10 @@ r
 n
 "
 )
+using
+namespace
+mozilla
+;
 NS_IMPL_ISUPPORTS
 (
 nsTXTToHTMLConv

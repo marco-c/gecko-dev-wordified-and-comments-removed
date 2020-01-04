@@ -91,6 +91,13 @@ nsIWritablePropertyBag2
 .
 h
 "
+#
+include
+"
+nsIChannel
+.
+h
+"
 static
 NS_DEFINE_CID
 (

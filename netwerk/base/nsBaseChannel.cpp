@@ -124,6 +124,13 @@ LoadInfo
 .
 h
 "
+#
+include
+"
+nsServiceManagerUtils
+.
+h
+"
 class
 ScopedRequestSuspender
 {

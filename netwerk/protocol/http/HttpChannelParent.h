@@ -166,6 +166,9 @@ class
 HttpChannelParentListener
 ;
 class
+ChannelEventQueue
+;
+class
 HttpChannelParent
 final
 :

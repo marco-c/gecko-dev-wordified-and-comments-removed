@@ -21,6 +21,13 @@ nsNetUtil
 .
 h
 "
+#
+include
+"
+nsIChannel
+.
+h
+"
 namespace
 mozilla
 {

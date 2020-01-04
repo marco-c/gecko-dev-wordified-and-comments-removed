@@ -60,6 +60,13 @@ nsIHttpHeaderVisitor
 .
 h
 "
+#
+include
+"
+nsQueryObject
+.
+h
+"
 using
 mozilla
 :

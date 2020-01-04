@@ -182,6 +182,13 @@ nsSocketTransportService2
 .
 h
 "
+#
+include
+"
+nsNetUtil
+.
+h
+"
 namespace
 mozilla
 {

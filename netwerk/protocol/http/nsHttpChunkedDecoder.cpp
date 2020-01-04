@@ -24,6 +24,13 @@ include
 <
 algorithm
 >
+#
+include
+"
+plstr
+.
+h
+"
 namespace
 mozilla
 {
