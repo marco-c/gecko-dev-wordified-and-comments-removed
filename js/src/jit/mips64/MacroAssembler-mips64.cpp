@@ -1864,12 +1864,15 @@ value
 {
 if
 (
+pos
+.
+value
++
 size
 .
 value
 >
-=
-2
+32
 )
 as_dinsm
 (
