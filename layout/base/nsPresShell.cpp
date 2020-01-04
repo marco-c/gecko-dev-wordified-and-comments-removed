@@ -4051,7 +4051,7 @@ aPresContext
 aPresContext
 -
 >
-SetShell
+AttachShell
 (
 this
 )
@@ -6167,9 +6167,8 @@ mPresContext
 mPresContext
 -
 >
-SetShell
+DetachShell
 (
-nullptr
 )
 ;
 mPresContext

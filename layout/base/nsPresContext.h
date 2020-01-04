@@ -566,11 +566,16 @@ aDeviceContext
 )
 ;
 void
-SetShell
+AttachShell
 (
 nsIPresShell
 *
 aShell
+)
+;
+void
+DetachShell
+(
 )
 ;
 nsPresContextType
