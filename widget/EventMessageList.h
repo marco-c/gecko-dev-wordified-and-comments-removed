@@ -940,6 +940,10 @@ NS_EVENT_MESSAGE
 (
 eSelectionChange
 )
+NS_EVENT_MESSAGE
+(
+eToggle
+)
 #
 ifdef
 UNDEF_NS_EVENT_MESSAGE_FIRST_LAST

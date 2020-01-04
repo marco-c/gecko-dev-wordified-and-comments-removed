@@ -792,6 +792,13 @@ eBasicEventClass
 )
 EVENT
 (
+toggle
+eToggle
+EventNameType_HTML
+eBasicEventClass
+)
+EVENT
+(
 volumechange
 eVolumeChange
 EventNameType_HTML
