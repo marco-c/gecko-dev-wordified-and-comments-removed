@@ -2652,7 +2652,7 @@ cmd_cut
 {
 eventMessage
 =
-NS_CUT
+eCut
 ;
 }
 bool

@@ -416,7 +416,7 @@ if
 aEventMessage
 =
 =
-NS_CUT
+eCut
 |
 |
 aEventMessage
@@ -2393,7 +2393,7 @@ aIndex
 mEventMessage
 =
 =
-NS_CUT
+eCut
 |
 |
 mEventMessage
@@ -2600,7 +2600,7 @@ aIndex
 mEventMessage
 =
 =
-NS_CUT
+eCut
 |
 |
 mEventMessage
@@ -3159,7 +3159,7 @@ aIndex
 mEventMessage
 =
 =
-NS_CUT
+eCut
 |
 |
 mEventMessage
@@ -3388,7 +3388,7 @@ aIndex
 mEventMessage
 =
 =
-NS_CUT
+eCut
 |
 |
 mEventMessage
@@ -3468,7 +3468,7 @@ aIndex
 mEventMessage
 !
 =
-NS_CUT
+eCut
 &
 &
 mEventMessage
@@ -5984,7 +5984,7 @@ NS_ASSERTION
 mEventMessage
 !
 =
-NS_CUT
+eCut
 &
 &
 mEventMessage

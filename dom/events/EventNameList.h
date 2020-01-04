@@ -800,7 +800,7 @@ eClipboardEventClass
 EVENT
 (
 cut
-NS_CUT
+eCut
 EventNameType_HTMLXUL
 eClipboardEventClass
 )
