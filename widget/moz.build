@@ -567,6 +567,11 @@ nsBaseWidget
 h
 '
 '
+nsDeviceContextSpecProxy
+.
+h
+'
+'
 nsIDeviceContextSpec
 .
 h

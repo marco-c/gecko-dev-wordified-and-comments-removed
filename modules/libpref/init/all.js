@@ -6835,6 +6835,16 @@ print_edge_bottom
 pref
 (
 "
+print
+.
+print_via_parent
+"
+false
+)
+;
+pref
+(
+"
 extensions
 .
 spellcheck
