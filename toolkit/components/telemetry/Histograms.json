@@ -5752,7 +5752,7 @@ description
 Is
 it
 a
-zone
+compartmental
 GC
 ?
 "
@@ -35484,7 +35484,7 @@ browser
 "
 }
 "
-FX_MIGRATION_HOMEPAGE_IMPORTED
+FX_MIGRATION_IMPORTED_HOMEPAGE
 "
 :
 {
