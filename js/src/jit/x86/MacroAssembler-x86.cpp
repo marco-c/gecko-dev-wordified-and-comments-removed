@@ -1881,10 +1881,6 @@ ptr
 temp
 )
 ;
-asMasm
-(
-)
-.
 branchPtr
 (
 cond

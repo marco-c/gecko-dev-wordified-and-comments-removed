@@ -798,10 +798,6 @@ imm
 lhs
 )
 ;
-asMasm
-(
-)
-.
 branchPtr
 (
 cond
