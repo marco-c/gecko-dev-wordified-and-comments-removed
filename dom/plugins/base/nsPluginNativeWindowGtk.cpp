@@ -241,12 +241,7 @@ nsPluginNativeWindowGtk
 )
 ;
 return
-*
-aPluginNativeWindow
-?
 NS_OK
-:
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 nsresult

@@ -3670,13 +3670,6 @@ aOriginatingElement
 )
 ;
 }
-NS_ENSURE_TRUE
-(
-*
-aFormSubmission
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 return
 NS_OK
 ;

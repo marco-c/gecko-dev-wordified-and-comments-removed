@@ -2445,12 +2445,6 @@ Listener
 this
 )
 ;
-NS_ENSURE_TRUE
-(
-mListener
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 if
 (
 aStreamListener

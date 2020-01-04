@@ -9366,13 +9366,6 @@ aLParam
 isWindowed
 )
 ;
-if
-(
-!
-task
-)
-return
-;
 {
 MutexAutoLock
 lock

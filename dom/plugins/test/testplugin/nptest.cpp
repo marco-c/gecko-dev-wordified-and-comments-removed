@@ -4266,14 +4266,6 @@ instanceData
 new
 InstanceData
 ;
-if
-(
-!
-instanceData
-)
-return
-NPERR_OUT_OF_MEMORY_ERROR
-;
 instanceData
 -
 >

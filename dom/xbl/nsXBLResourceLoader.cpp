@@ -862,13 +862,6 @@ aSrc
 if
 (
 !
-res
-)
-return
-;
-if
-(
-!
 mResourceList
 )
 mResourceList
