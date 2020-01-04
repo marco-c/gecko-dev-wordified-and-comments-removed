@@ -619,7 +619,7 @@ append
 }
 /
 *
-java
+widget
 *
 /
 \
@@ -646,7 +646,7 @@ append
 }
 /
 *
-java
+widget
 *
 /
 \
@@ -690,7 +690,7 @@ append
 }
 /
 *
-java
+widget
 *
 /
 \
