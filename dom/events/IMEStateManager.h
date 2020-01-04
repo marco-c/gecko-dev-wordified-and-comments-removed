@@ -167,6 +167,15 @@ aTabParent
 ;
 static
 void
+WidgetDestroyed
+(
+nsIWidget
+*
+aWidget
+)
+;
+static
+void
 SetInputContextForChildProcess
 (
 TabParent
@@ -586,10 +595,8 @@ nsPresContext
 sPresContext
 ;
 static
-StaticRefPtr
-<
 nsIWidget
->
+*
 sFocusedIMEWidget
 ;
 static
