@@ -258,7 +258,7 @@ nsRestyleHint
 aRestyleHint
 )
 {
-MOZ_CRASH
+NS_WARNING
 (
 "
 stylo
