@@ -1374,11 +1374,6 @@ LogicallySeekingChanged
 )
 ;
 void
-SameOriginMediaChanged
-(
-)
-;
-void
 StopPlayback
 (
 )

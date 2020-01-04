@@ -273,13 +273,6 @@ IsPlaying
 const
 override
 ;
-void
-SetSameOrigin
-(
-bool
-aSameOrigin
-)
-;
 protected
 :
 virtual
