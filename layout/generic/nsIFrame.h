@@ -4230,10 +4230,6 @@ ComputePreserve3DChildrenOverflow
 nsOverflowAreas
 &
 aOverflowAreas
-const
-nsRect
-&
-aBounds
 )
 ;
 void
