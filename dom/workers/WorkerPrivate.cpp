@@ -26226,16 +26226,6 @@ assigned
 "
 )
 ;
-MOZ_ASSERT
-(
-nsThreadManager
-:
-:
-get
-(
-)
-)
-;
 nsCOMPtr
 <
 nsIThread
@@ -26251,8 +26241,7 @@ nsThreadManager
 get
 (
 )
--
->
+.
 GetThreadFromPRThread
 (
 mPRThread

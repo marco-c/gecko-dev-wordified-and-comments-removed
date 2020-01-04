@@ -584,8 +584,7 @@ nsThreadManager
 get
 (
 )
--
->
+.
 GetCurrentThread
 (
 getter_AddRefs

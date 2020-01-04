@@ -49,7 +49,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSITHREADMANAGER
 static
 nsThreadManager
-*
+&
 get
 (
 )
@@ -59,7 +59,6 @@ nsThreadManager
 sInstance
 ;
 return
-&
 sInstance
 ;
 }
@@ -77,7 +76,7 @@ void
 RegisterCurrentThread
 (
 nsThread
-*
+&
 aThread
 )
 ;
@@ -85,7 +84,7 @@ void
 UnregisterCurrentThread
 (
 nsThread
-*
+&
 aThread
 )
 ;

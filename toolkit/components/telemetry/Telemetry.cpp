@@ -5670,8 +5670,7 @@ nsThreadManager
 get
 (
 )
--
->
+.
 GetHighestNumberOfThreads
 (
 )
