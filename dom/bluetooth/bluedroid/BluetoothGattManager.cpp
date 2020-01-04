@@ -14648,7 +14648,6 @@ properties
 "
 Value
 "
-new
 nsTArray
 <
 uint8_t
