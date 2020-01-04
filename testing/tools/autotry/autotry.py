@@ -66,6 +66,44 @@ add_argument
 (
 '
 -
+b
+'
+dest
+=
+'
+builds
+'
+default
+=
+'
+do
+'
+                        
+help
+=
+'
+Build
+types
+to
+run
+(
+d
+for
+debug
+o
+for
+optimized
+)
+.
+'
+)
+    
+parser
+.
+add_argument
+(
+'
+-
 p
 '
 dest
@@ -85,7 +123,6 @@ help
 Platforms
 to
 run
-.
 (
 required
 if
@@ -95,6 +132,7 @@ in
 the
 environment
 )
+.
 '
 )
     
@@ -127,6 +165,7 @@ run
 in
 their
 entirety
+.
 '
 )
     
@@ -136,34 +175,27 @@ add_argument
 (
 '
 -
-b
+t
 '
 dest
 =
-'
-builds
-'
-default
+"
+talos
+"
+action
 =
-'
-do
-'
+"
+append
+"
                         
 help
 =
 '
-Build
-types
+Talos
+suites
 to
 run
-(
-d
-for
-debug
-o
-for
-optimized
-)
+.
 '
 )
     
@@ -203,6 +235,7 @@ specified
 multiple
 times
 )
+.
 '
 )
     
@@ -248,6 +281,7 @@ by
 the
 two
 arguments
+.
 '
 )
     
@@ -348,6 +382,7 @@ with
 -
 -
 preset
+.
 "
 )
     
@@ -387,6 +422,7 @@ will
 override
 saved
 ones
+.
 "
 )
     
@@ -414,6 +450,7 @@ in
 the
 try
 push
+.
 '
 )
     
@@ -2027,11 +2064,12 @@ calc_try_syntax
 self
 platforms
 tests
+talos
 builds
 paths_by_flavor
 tags
-extra_args
                         
+extra_args
 intersection
 )
 :
@@ -2241,6 +2279,41 @@ items
 )
 )
 )
+if
+suites
+else
+"
+none
+"
+)
+        
+parts
+.
+append
+(
+"
+-
+t
+"
+)
+        
+parts
+.
+append
+(
+"
+"
+.
+join
+(
+talos
+)
+if
+talos
+else
+"
+none
+"
 )
         
 if
