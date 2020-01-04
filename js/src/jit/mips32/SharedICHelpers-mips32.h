@@ -590,7 +590,7 @@ savedStub
 ;
 inline
 void
-mitBaselineEnterStubFrame
+EmitBaselineEnterStubFrame
 (
 MacroAssembler
 &
