@@ -484,10 +484,9 @@ openCursor
 .
 onsuccess
 =
-function
-(
 event
-)
+=
+>
 {
 let
 cursor
