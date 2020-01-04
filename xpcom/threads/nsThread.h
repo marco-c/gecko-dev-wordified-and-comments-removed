@@ -377,6 +377,7 @@ GetEvent
 (
 aMayWait
 aEvent
+aProofOfLock
 )
 ;
 }
@@ -399,6 +400,7 @@ mQueue
 PutEvent
 (
 aEvent
+aProofOfLock
 )
 ;
 }
@@ -431,6 +433,7 @@ Move
 (
 aEvent
 )
+aProofOfLock
 )
 ;
 }
@@ -450,6 +453,7 @@ mQueue
 .
 HasPendingEvent
 (
+aProofOfLock
 )
 ;
 }

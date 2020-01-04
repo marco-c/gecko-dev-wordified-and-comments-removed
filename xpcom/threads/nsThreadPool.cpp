@@ -183,6 +183,16 @@ mMonitor
 ]
 "
 )
+mMutex
+(
+"
+[
+nsThreadPool
+.
+mMutex
+]
+"
+)
 mThreadLimit
 (
 DEFAULT_THREAD_LIMIT
@@ -315,6 +325,12 @@ mon
 mMonitor
 )
 ;
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 if
 (
 NS_WARN_IF
@@ -398,6 +414,7 @@ mEvents
 Count
 (
 mon
+lock
 )
 >
 =
@@ -418,6 +435,7 @@ Move
 aEvent
 )
 mon
+lock
 )
 ;
 stackSize
@@ -805,6 +823,12 @@ mon
 mMonitor
 )
 ;
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 if
 (
 !
@@ -817,6 +841,7 @@ getter_AddRefs
 event
 )
 mon
+lock
 )
 )
 {

@@ -601,6 +601,12 @@ TimeDuration
 pollDuration
 )
 ;
+mozilla
+:
+:
+Mutex
+mEventQueueLock
+;
 nsEventQueue
 mPendingSocketQ
 ;
