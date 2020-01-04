@@ -5399,6 +5399,12 @@ function
 (
 )
 {
+SpecialPowers
+.
+removeFiles
+(
+)
+;
 if
 (
 SpecialPowers
