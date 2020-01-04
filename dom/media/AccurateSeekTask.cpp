@@ -2168,10 +2168,6 @@ MediaData
 AUDIO_DATA
 )
 ;
-mNeedToStopPrerollingAudio
-=
-true
-;
 return
 ;
 }
@@ -2529,10 +2525,6 @@ MediaData
 :
 VIDEO_DATA
 )
-;
-mNeedToStopPrerollingVideo
-=
-true
 ;
 return
 ;
