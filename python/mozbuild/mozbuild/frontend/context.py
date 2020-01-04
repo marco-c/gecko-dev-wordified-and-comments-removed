@@ -7024,32 +7024,16 @@ DIST_FILES
 '
 :
 (
-StrictOrderingOnAppendList
+HierarchicalStringList
 list
         
 "
 "
 "
-Additional
-files
-to
-place
-in
-FINAL_TARGET
-(
-typically
-dist
-/
-bin
-)
-.
-        
-Unlike
+Like
 FINAL_TARGET_FILES
-these
-files
-are
-preprocessed
+with
+preprocessing
 .
         
 "
