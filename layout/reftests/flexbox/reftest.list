@@ -1950,13 +1950,11 @@ items
 ref
 .
 html
-fuzzy
+skip
 -
 if
 (
 gtkWidget
-1
-58
 )
 =
 =
@@ -1984,6 +1982,9 @@ items
 ref
 .
 html
+#
+bug
+1260965
 fuzzy
 -
 if
