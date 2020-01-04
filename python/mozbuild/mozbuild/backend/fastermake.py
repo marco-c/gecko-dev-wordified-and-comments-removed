@@ -1273,15 +1273,6 @@ obj
 path
 )
         
-self
-.
-backend_input_files
-|
-=
-pp
-.
-includes
-        
 for
 jarinfo
 in
@@ -1967,22 +1958,6 @@ environment
 topobjdir
 )
         
-mk
-.
-add_statement
-(
-'
-BACKEND
-=
-%
-s
-'
-%
-self
-.
-_backend_output_list_file
-)
-        
 for
 var
 in
@@ -2197,25 +2172,6 @@ for
 d
 in
 deps
-)
-        
-mk
-.
-create_rule
-(
-[
-self
-.
-_backend_output_list_file
-]
-)
-.
-add_dependencies
-(
-            
-self
-.
-backend_input_files
 )
         
 mk
