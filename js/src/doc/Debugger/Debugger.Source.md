@@ -1314,6 +1314,15 @@ a
 string
 .
 *
+"
+wasm
+"
+for
+serialized
+WebAssembly
+source
+.
+*
 undefined
 if
 the
