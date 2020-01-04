@@ -15138,6 +15138,18 @@ return
 false
 ;
 }
+handler
+.
+setEndPosition
+(
+body
+pos
+(
+)
+.
+begin
+)
+;
 return
 finishFunctionDefinition
 (
@@ -29833,8 +29845,6 @@ TokenStream
 Operand
 )
 ;
-MOZ_FALLTHROUGH
-;
 default
 :
 exprNode
@@ -29992,8 +30002,6 @@ null
 )
 ;
 }
-MOZ_FALLTHROUGH
-;
 case
 LegacyGenerator
 :
@@ -31175,8 +31183,6 @@ return
 null
 (
 )
-;
-MOZ_FALLTHROUGH
 ;
 case
 TOK_NAME
@@ -42630,8 +42636,6 @@ return
 null
 (
 )
-;
-MOZ_FALLTHROUGH
 ;
 case
 TOK_NAME
