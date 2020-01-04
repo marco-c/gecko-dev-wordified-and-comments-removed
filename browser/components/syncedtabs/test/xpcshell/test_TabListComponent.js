@@ -594,12 +594,6 @@ resolve
 ;
 }
 }
-}
-openUILink
-(
-)
-{
-}
 PlacesUtils
 :
 {
@@ -608,6 +602,12 @@ bookmarksMenuFolderId
 "
 id
 "
+}
+}
+openUILink
+(
+)
+{
 }
 }
 ;
