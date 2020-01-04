@@ -145,11 +145,6 @@ AbstractWorker
 webidl
 '
 '
-ActivityRequestHandler
-.
-webidl
-'
-'
 AddonManager
 .
 webidl
@@ -1490,11 +1485,6 @@ KeyframeEffect
 webidl
 '
 '
-KillSwitch
-.
-webidl
-'
-'
 LegacyQueryInterface
 .
 webidl
@@ -1651,11 +1641,6 @@ webidl
 '
 '
 MouseScrollEvent
-.
-webidl
-'
-'
-MozActivity
 .
 webidl
 '

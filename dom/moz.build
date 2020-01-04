@@ -214,9 +214,6 @@ base
 bluetooth
 '
 '
-activities
-'
-'
 archivereader
 '
 '
@@ -304,9 +301,6 @@ mathml
 '
 '
 media
-'
-'
-messages
 '
 '
 mobileconnection
