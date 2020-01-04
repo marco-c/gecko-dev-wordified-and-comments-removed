@@ -8114,9 +8114,6 @@ aGenericType
 nsIAtom
 *
 aLanguage
-void
-*
-aClosure
 )
 {
 nsAutoTArray
@@ -8167,7 +8164,6 @@ resolvedGenerics
 g
 ]
 false
-aClosure
 )
 ;
 }
@@ -8631,9 +8627,6 @@ EnumerateFontList
 nsIAtom
 *
 aLanguage
-void
-*
-aClosure
 )
 {
 const
@@ -8700,7 +8693,6 @@ name
 .
 mName
 true
-aClosure
 )
 ;
 }
@@ -8712,7 +8704,6 @@ name
 .
 mType
 aLanguage
-aClosure
 )
 ;
 }
@@ -8745,7 +8736,6 @@ GetDefaultFontType
 (
 )
 aLanguage
-aClosure
 )
 ;
 }
@@ -8816,9 +8806,6 @@ nsAString
 aName
 bool
 aUseFontSet
-void
-*
-aClosure
 )
 {
 bool

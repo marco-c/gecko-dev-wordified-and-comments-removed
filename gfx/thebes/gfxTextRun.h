@@ -3199,11 +3199,6 @@ EnumerateFontList
 nsIAtom
 *
 aLanguage
-void
-*
-aClosure
-=
-nullptr
 )
 ;
 void
@@ -3217,12 +3212,8 @@ aGenericType
 nsIAtom
 *
 aLanguage
-void
-*
-aClosure
 )
 ;
-virtual
 void
 FindPlatformFont
 (
@@ -3232,9 +3223,6 @@ nsAString
 aName
 bool
 aUseFontSet
-void
-*
-aClosure
 )
 ;
 static
