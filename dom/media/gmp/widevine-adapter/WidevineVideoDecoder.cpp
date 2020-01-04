@@ -782,6 +782,7 @@ CounterHelper
 {
 public
 :
+explicit
 CounterHelper
 (
 int32_t
@@ -822,6 +823,7 @@ FrameDestroyerHelper
 {
 public
 :
+explicit
 FrameDestroyerHelper
 (
 GMPVideoi420Frame
