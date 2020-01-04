@@ -36,7 +36,6 @@ GMPDecoderModule
 (
 )
 ;
-virtual
 already_AddRefed
 <
 MediaDataDecoder
@@ -67,7 +66,6 @@ aCallback
 )
 override
 ;
-virtual
 already_AddRefed
 <
 MediaDataDecoder
@@ -87,7 +85,6 @@ aCallback
 )
 override
 ;
-virtual
 ConversionRequired
 DecoderNeedsConversion
 (

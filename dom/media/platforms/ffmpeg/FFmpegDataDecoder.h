@@ -81,7 +81,6 @@ Link
 (
 )
 ;
-virtual
 nsRefPtr
 <
 InitPromise
@@ -93,7 +92,6 @@ override
 =
 0
 ;
-virtual
 nsresult
 Input
 (
@@ -105,21 +103,18 @@ override
 =
 0
 ;
-virtual
 nsresult
 Flush
 (
 )
 override
 ;
-virtual
 nsresult
 Drain
 (
 )
 override
 ;
-virtual
 nsresult
 Shutdown
 (

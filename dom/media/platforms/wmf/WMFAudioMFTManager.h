@@ -67,7 +67,6 @@ Init
 (
 )
 ;
-virtual
 HRESULT
 Input
 (
@@ -77,7 +76,6 @@ aSample
 )
 override
 ;
-virtual
 HRESULT
 Output
 (
@@ -92,14 +90,12 @@ aOutput
 )
 override
 ;
-virtual
 void
 Shutdown
 (
 )
 override
 ;
-virtual
 TrackInfo
 :
 :

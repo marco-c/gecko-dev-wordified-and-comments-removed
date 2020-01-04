@@ -170,7 +170,6 @@ false
 )
 {
 }
-virtual
 nsRefPtr
 <
 InitPromise
@@ -195,7 +194,6 @@ Init
 )
 ;
 }
-virtual
 nsresult
 Input
 (
@@ -478,7 +476,6 @@ rv
 ;
 }
 }
-virtual
 nsresult
 Flush
 (
@@ -542,7 +539,6 @@ return
 rv
 ;
 }
-virtual
 nsresult
 Drain
 (
@@ -599,7 +595,6 @@ return
 rv
 ;
 }
-virtual
 nsresult
 Shutdown
 (
@@ -764,7 +759,6 @@ aProxy
 )
 {
 }
-virtual
 nsresult
 Input
 (
@@ -774,7 +768,6 @@ aSample
 )
 override
 ;
-virtual
 nsresult
 Shutdown
 (

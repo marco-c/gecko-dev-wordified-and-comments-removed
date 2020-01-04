@@ -175,7 +175,6 @@ GonkVideoDecoderManager
 )
 override
 ;
-virtual
 nsRefPtr
 <
 InitPromise
@@ -188,7 +187,6 @@ aCallback
 )
 override
 ;
-virtual
 nsresult
 Input
 (
@@ -198,7 +196,6 @@ aSample
 )
 override
 ;
-virtual
 nsresult
 Output
 (
@@ -213,14 +210,12 @@ aOutput
 )
 override
 ;
-virtual
 nsresult
 Flush
 (
 )
 override
 ;
-virtual
 bool
 HasQueuedSample
 (
@@ -314,7 +309,6 @@ MessageHandler
 (
 )
 ;
-virtual
 void
 onMessageReceived
 (
@@ -332,6 +326,7 @@ AMessage
 &
 aMessage
 )
+override
 ;
 private
 :
@@ -401,14 +396,12 @@ VideoResourceListener
 (
 )
 ;
-virtual
 void
 codecReserved
 (
 )
 override
 ;
-virtual
 void
 codecCanceled
 (

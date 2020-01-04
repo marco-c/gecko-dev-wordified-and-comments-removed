@@ -374,7 +374,6 @@ mGLContext
 nullptr
 ;
 }
-virtual
 nsresult
 Input
 (
@@ -578,7 +577,6 @@ return
 eglImage
 ;
 }
-virtual
 nsresult
 PostOutput
 (

@@ -43,7 +43,6 @@ aCallback
 )
 {
 }
-virtual
 void
 Error
 (
@@ -98,7 +97,6 @@ aProxy
 }
 private
 :
-virtual
 void
 InitTags
 (
@@ -111,7 +109,6 @@ aTags
 )
 override
 ;
-virtual
 nsCString
 GetNodeId
 (

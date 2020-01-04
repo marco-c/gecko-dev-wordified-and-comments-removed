@@ -36,7 +36,6 @@ GonkDecoderModule
 (
 )
 ;
-virtual
 already_AddRefed
 <
 MediaDataDecoder
@@ -73,7 +72,6 @@ aCallback
 )
 override
 ;
-virtual
 already_AddRefed
 <
 MediaDataDecoder
@@ -99,7 +97,6 @@ Init
 (
 )
 ;
-virtual
 ConversionRequired
 DecoderNeedsConversion
 (
@@ -111,7 +108,6 @@ aConfig
 const
 override
 ;
-virtual
 bool
 SupportsMimeType
 (

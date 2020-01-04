@@ -61,7 +61,6 @@ FFmpegAudioDecoder
 (
 )
 ;
-virtual
 nsRefPtr
 <
 InitPromise
@@ -71,7 +70,6 @@ Init
 )
 override
 ;
-virtual
 nsresult
 Input
 (
@@ -81,7 +79,6 @@ aSample
 )
 override
 ;
-virtual
 void
 ProcessDrain
 (
