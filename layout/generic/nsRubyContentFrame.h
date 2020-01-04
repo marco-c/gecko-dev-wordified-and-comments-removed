@@ -23,7 +23,6 @@ nsRubyContentFrameSuper
 {
 public
 :
-NS_DECL_FRAMEARENA_HELPERS
 virtual
 bool
 IsFrameOfType
