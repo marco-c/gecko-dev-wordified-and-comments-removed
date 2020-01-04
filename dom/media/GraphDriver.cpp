@@ -1104,7 +1104,6 @@ mGraphImpl
 ;
 NS_WARN_IF
 (
-!
 mThread
 )
 ;
