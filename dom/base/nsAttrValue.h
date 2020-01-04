@@ -116,7 +116,7 @@ namespace
 css
 {
 class
-StyleRule
+Declaration
 ;
 struct
 URLValue
@@ -341,7 +341,7 @@ eEnum
 ePercent
 =
 0x0F
-eCSSStyleRule
+eCSSDeclaration
 =
 0x10
 eURL
@@ -440,7 +440,7 @@ mozilla
 css
 :
 :
-StyleRule
+Declaration
 *
 aValue
 const
@@ -570,7 +570,7 @@ mozilla
 css
 :
 :
-StyleRule
+Declaration
 *
 aValue
 const
@@ -901,9 +901,9 @@ mozilla
 css
 :
 :
-StyleRule
+Declaration
 *
-GetCSSStyleRuleValue
+GetCSSDeclarationValue
 (
 )
 const

@@ -203,7 +203,7 @@ aLocalName
 )
 ;
 bool
-SanitizeStyleRule
+SanitizeStyleDeclaration
 (
 mozilla
 :
@@ -211,9 +211,9 @@ mozilla
 css
 :
 :
-StyleRule
+Declaration
 *
-aRule
+aDeclaration
 nsAutoString
 &
 aRuleText

@@ -1193,7 +1193,7 @@ Type
 nsAttrValue
 :
 :
-eCSSStyleRule
+eCSSDeclaration
 )
 {
 nsAttrValue

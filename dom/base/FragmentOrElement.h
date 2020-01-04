@@ -973,9 +973,9 @@ mozilla
 css
 :
 :
-StyleRule
+Declaration
 >
-mSMILOverrideStyleRule
+mSMILOverrideStyleDeclaration
 ;
 RefPtr
 <
