@@ -108,6 +108,8 @@ certificates
 \
 ccache
 \
+clang
+\
 curl
 \
 fonts
@@ -589,11 +591,11 @@ yasm
 zip
 ENV
 NODE_VERSION
-v0
+v4
 .
-10
+2
 .
-36
+2
 RUN
 cd
 /
