@@ -1302,6 +1302,12 @@ close
 (
 )
 ;
+is
+.
+close
+(
+)
+;
 tempFile
 =
 file
