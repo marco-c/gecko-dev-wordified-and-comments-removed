@@ -27949,7 +27949,7 @@ theEvent
 Fire
 eWheelOperationStart
 /
-STOP
+End
 events
 when
 2
@@ -27976,7 +27976,7 @@ sendWheelCondition
 YES
 first
 :
-NS_WHEEL_STOP
+eWheelOperationEnd
 second
 :
 eWheelOperationStart
@@ -28008,7 +28008,7 @@ first
 eWheelOperationStart
 second
 :
-NS_WHEEL_STOP
+eWheelOperationEnd
 forEvent
 :
 theEvent

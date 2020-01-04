@@ -3517,7 +3517,7 @@ case
 eWheelOperationStart
 :
 case
-NS_WHEEL_STOP
+eWheelOperationEnd
 :
 TOUCHCARET_LOG
 (

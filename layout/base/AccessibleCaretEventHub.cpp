@@ -2290,12 +2290,12 @@ this
 break
 ;
 case
-NS_WHEEL_STOP
+eWheelOperationEnd
 :
 AC_LOGV
 (
 "
-NS_WHEEL_STOP
+eWheelOperationEnd
 state
 :
 %

@@ -3155,7 +3155,7 @@ case
 eWheelOperationStart
 :
 case
-NS_WHEEL_STOP
+eWheelOperationEnd
 :
 {
 NS_ASSERTION
@@ -12884,7 +12884,7 @@ false
 break
 ;
 case
-NS_WHEEL_STOP
+eWheelOperationEnd
 :
 {
 MOZ_ASSERT
