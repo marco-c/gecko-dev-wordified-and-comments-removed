@@ -5314,9 +5314,14 @@ gBrowser
 let
 browsers
 =
+Array
+.
+from
+(
 tabbrowser
 .
 browsers
+)
 ;
 TAB_EVENTS
 .
