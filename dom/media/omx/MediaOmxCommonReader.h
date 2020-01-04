@@ -129,6 +129,11 @@ MediaStreamSource
 *
 mStreamSource
 ;
+bool
+IsMonoAudioEnabled
+(
+)
+;
 }
 ;
 }
