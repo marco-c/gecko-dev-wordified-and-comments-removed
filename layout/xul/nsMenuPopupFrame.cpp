@@ -8201,12 +8201,7 @@ aMenuItem
 GetContent
 (
 )
-nsContentUtils
-:
-:
-IsCallerChrome
-(
-)
+true
 nullptr
 PresContext
 (
