@@ -86,6 +86,10 @@ runtestsb2g
 .
 py
 \
+xpcshellcommandline
+.
+py
+\
 head
 .
 js
