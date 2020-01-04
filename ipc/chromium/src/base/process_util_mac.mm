@@ -859,6 +859,8 @@ cpu_types
 =
 CPU_TYPE_POWERPC
 ;
+break
+;
 default
 :
 cpu_types
