@@ -2200,8 +2200,6 @@ CODEC_ERROR
 "
 Getting
 surface
-%
-s
 from
 image
 failed
