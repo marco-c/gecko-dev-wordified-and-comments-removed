@@ -6849,7 +6849,12 @@ NS_IsMainThread
 )
 ;
 return
+!
+mShuttingDown
+?
 mOwner
+:
+nullptr
 ;
 }
 void
