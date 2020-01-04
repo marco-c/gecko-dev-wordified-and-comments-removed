@@ -86,9 +86,11 @@ include
 .
 .
 /
-services
+toolkit
 /
-healthreport
+components
+/
+telemetry
 /
 healthreport
 -
