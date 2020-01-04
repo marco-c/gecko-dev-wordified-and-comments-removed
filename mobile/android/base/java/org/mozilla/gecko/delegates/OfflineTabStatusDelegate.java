@@ -353,6 +353,9 @@ null
 break
 ;
 case
+OPENED_FROM_TABS_TRAY
+:
+case
 SELECTED
 :
 if
