@@ -712,12 +712,6 @@ updateDisplay
 (
 )
 ;
-BrowserSearch
-.
-updateOpenSearchBadge
-(
-)
-;
 }
 else
 {
