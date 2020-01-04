@@ -6525,6 +6525,17 @@ axis
 ;
 if
 (
+step
+=
+=
+0
+)
+{
+return
+;
+}
+if
+(
 Math
 .
 abs
