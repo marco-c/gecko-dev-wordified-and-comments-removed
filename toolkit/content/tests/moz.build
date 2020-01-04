@@ -141,13 +141,6 @@ MOCHITEST_MANIFESTS
 =
 [
 '
-mochitest
-/
-mochitest
-.
-ini
-'
-'
 widgets
 /
 mochitest
