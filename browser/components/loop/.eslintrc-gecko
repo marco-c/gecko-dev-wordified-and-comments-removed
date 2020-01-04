@@ -93,11 +93,6 @@ Loop
 Globals
 .
 "
-CardDavImporter
-"
-:
-true
-"
 Chat
 "
 :
@@ -163,11 +158,6 @@ gLoopBundle
 :
 false
 "
-GoogleImporter
-"
-:
-true
-"
 gWM
 "
 :
@@ -208,11 +198,6 @@ LoopCalls
 :
 true
 "
-LoopContacts
-"
-:
-true
-"
 loopCrypto
 "
 :
@@ -224,11 +209,6 @@ LoopRooms
 true
 "
 LoopRoomsCache
-"
-:
-true
-"
-LoopStorage
 "
 :
 true
