@@ -417,7 +417,7 @@ ElemSegment
 uint32_t
 tableIndex
 ;
-uint32_t
+InitExpr
 offset
 ;
 Uint32Vector
@@ -433,7 +433,7 @@ ElemSegment
 (
 uint32_t
 tableIndex
-uint32_t
+InitExpr
 offset
 Uint32Vector
 &
@@ -547,6 +547,10 @@ JSContext
 cx
 HandleWasmInstanceObject
 instanceObj
+const
+ValVector
+&
+globalImports
 HandleWasmTableObject
 tableObj
 )

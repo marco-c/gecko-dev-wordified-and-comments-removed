@@ -179,7 +179,12 @@ table
 )
 (
 elem
+(
+i32
+.
+const
 0
+)
 f0
 )
 {
@@ -476,7 +481,12 @@ table
 )
 (
 elem
+(
+i32
+.
+const
 0
+)
 f0
 )
 {
