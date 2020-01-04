@@ -528,8 +528,6 @@ character
 classes
 in
 regex
-/
-/
 "
 no
 -
@@ -546,8 +544,6 @@ class
 Disallow
 empty
 destructuring
-/
-/
 "
 no
 -
@@ -638,8 +634,6 @@ No
 invalid
 regular
 expresions
-/
-/
 "
 no
 -
@@ -1363,8 +1357,6 @@ typeof
 against
 valid
 results
-/
-/
 "
 valid
 -
