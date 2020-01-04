@@ -295,6 +295,9 @@ IDBVersionChangeEvent
 ImageBitmap
 "
 "
+ImageBitmapRenderingContext
+"
+"
 ImageData
 "
 "
