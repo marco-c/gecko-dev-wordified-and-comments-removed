@@ -58,13 +58,6 @@ _
 )
 ;
 }
-var
-focusWindow
-=
-Task
-.
-async
-(
 function
 *
 focusWindow
@@ -164,5 +157,3 @@ yield
 promise
 ;
 }
-)
-;
