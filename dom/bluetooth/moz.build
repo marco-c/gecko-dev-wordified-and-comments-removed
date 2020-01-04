@@ -182,7 +182,7 @@ cpp
 '
 common
 /
-BluetoothUuid
+BluetoothUuidHelper
 .
 cpp
 '
