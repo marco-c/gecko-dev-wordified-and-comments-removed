@@ -113,7 +113,7 @@ client
 =
 2
 .
-1
+2
 .
 0
 marionette
@@ -123,7 +123,7 @@ driver
 =
 1
 .
-2
+3
 .
 0
 firefox
@@ -133,7 +133,7 @@ puppeteer
 =
 3
 .
-1
+2
 .
 0
 #
