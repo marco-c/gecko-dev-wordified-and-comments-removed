@@ -280,10 +280,7 @@ const
 nsTArray
 <
 const
-dom
-:
-:
-MediaTrackConstraintSet
+NormalizedConstraintSet
 *
 >
 &
@@ -716,10 +713,7 @@ const
 nsTArray
 <
 const
-dom
-:
-:
-MediaTrackConstraintSet
+NormalizedConstraintSet
 *
 >
 &
