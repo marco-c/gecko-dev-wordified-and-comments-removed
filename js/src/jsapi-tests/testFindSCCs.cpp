@@ -738,10 +738,6 @@ TestComponentFinder
 cx
 -
 >
-mainThread
-(
-)
-.
 nativeStackLimit
 [
 js
@@ -1170,10 +1166,6 @@ finder
 cx
 -
 >
-mainThread
-(
-)
-.
 nativeStackLimit
 [
 js

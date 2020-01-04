@@ -520,8 +520,11 @@ stackRoots_
 rt
 -
 >
-mainThread
-.
+contextFromMainThread
+(
+)
+-
+>
 roots
 .
 traceStackRoots
@@ -754,8 +757,11 @@ trc
 rt
 -
 >
-mainThread
-.
+contextFromMainThread
+(
+)
+-
+>
 roots
 .
 tracePersistentRoots

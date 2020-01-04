@@ -1863,9 +1863,6 @@ return
 cx
 -
 >
-perThreadData
--
->
 nativeStackLimit
 [
 kind
