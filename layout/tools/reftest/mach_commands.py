@@ -2183,11 +2183,10 @@ rv
 =
 remotereftest
 .
-run
+run_test_harness
 (
-*
-*
-kwargs
+parser
+args
 )
         
 finally
