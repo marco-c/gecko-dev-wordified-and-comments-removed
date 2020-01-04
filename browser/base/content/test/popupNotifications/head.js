@@ -1087,13 +1087,16 @@ displayed
 "
 )
 ;
-is
+ok
 (
 popup
 .
 anchorNode
 .
-className
+classList
+.
+contains
+(
 "
 notification
 -
@@ -1101,6 +1104,7 @@ anchor
 -
 icon
 "
+)
 "
 notification
 anchored

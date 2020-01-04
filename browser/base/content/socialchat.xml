@@ -239,6 +239,9 @@ icon
 chat
 -
 toolbarbutton
+screen
+-
+icon
 "
 oncommand
 =
@@ -288,6 +291,12 @@ icon
 chat
 -
 toolbarbutton
+screen
+-
+icon
+in
+-
+use
 "
 oncommand
 =
