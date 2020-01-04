@@ -999,7 +999,7 @@ eBasicEventClass
 WINDOW_ONLY_EVENT
 (
 userproximity
-NS_USER_PROXIMITY
+eUserProximity
 EventNameType_None
 eBasicEventClass
 )

@@ -1386,7 +1386,7 @@ eDeviceEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_USER_PROXIMITY
+eUserProximity
 eDeviceEventFirst
 +
 3
