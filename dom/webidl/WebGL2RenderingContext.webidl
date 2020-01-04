@@ -156,8 +156,6 @@ webgl
 .
 enable
 -
-prototype
--
 webgl2
 "
 ]
@@ -173,8 +171,6 @@ Pref
 webgl
 .
 enable
--
-prototype
 -
 webgl2
 "
@@ -192,8 +188,6 @@ webgl
 .
 enable
 -
-prototype
--
 webgl2
 "
 ]
@@ -209,8 +203,6 @@ Pref
 webgl
 .
 enable
--
-prototype
 -
 webgl2
 "
@@ -228,8 +220,6 @@ webgl
 .
 enable
 -
-prototype
--
 webgl2
 "
 ]
@@ -245,8 +235,6 @@ Pref
 webgl
 .
 enable
--
-prototype
 -
 webgl2
 "
