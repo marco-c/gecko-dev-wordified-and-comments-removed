@@ -11275,7 +11275,7 @@ funcs
 [
 export_
 .
-func
+ref
 (
 )
 .
@@ -11306,7 +11306,7 @@ PrintInt32
 c
 export_
 .
-func
+ref
 (
 )
 .

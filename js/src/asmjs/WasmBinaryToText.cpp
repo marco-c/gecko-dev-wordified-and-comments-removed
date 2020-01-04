@@ -8194,7 +8194,7 @@ funcs
 [
 export_
 .
-func
+ref
 (
 )
 .
@@ -8225,7 +8225,7 @@ RenderInt32
 c
 export_
 .
-func
+ref
 (
 )
 .
