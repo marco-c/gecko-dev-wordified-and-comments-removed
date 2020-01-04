@@ -7364,6 +7364,14 @@ DisconnectIfExists
 (
 )
 ;
+if
+(
+aQueues
+=
+=
+AUDIO_VIDEO
+)
+{
 mAudio
 .
 mWaitingPromise
@@ -7384,6 +7392,7 @@ CANCELED
 __func__
 )
 ;
+}
 mVideo
 .
 mWaitingPromise
