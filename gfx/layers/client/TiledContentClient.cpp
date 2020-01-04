@@ -554,6 +554,9 @@ aManager
 TiledContentClient
 (
 aManager
+"
+Multi
+"
 )
 {
 MOZ_COUNT_CTOR
@@ -9022,13 +9025,15 @@ aStream
 nsPrintfCString
 (
 "
-TiledContentClient
+%
+sTiledContentClient
 (
 0x
 %
 p
 )
 "
+mName
 this
 )
 .
