@@ -339,13 +339,6 @@ emitter
 js
 '
 '
-event
--
-parsers
-.
-js
-'
-'
 indentation
 .
 js
