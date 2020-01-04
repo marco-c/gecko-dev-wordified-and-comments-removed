@@ -9392,7 +9392,7 @@ DelayedActionRunnable
 final
 :
 public
-nsICancelableRunnable
+nsCancelableRunnable
 {
 using
 ActionFunc
@@ -9471,7 +9471,6 @@ mActionFunc
 )
 ;
 }
-NS_DECL_ISUPPORTS
 private
 :
 ~
@@ -9481,7 +9480,12 @@ DelayedActionRunnable
 {
 }
 NS_DECL_NSIRUNNABLE
-NS_DECL_NSICANCELABLERUNNABLE
+nsresult
+Cancel
+(
+)
+override
+;
 }
 ;
 BackgroundCursorChild
@@ -11410,15 +11414,6 @@ return
 true
 ;
 }
-NS_IMPL_ISUPPORTS
-(
-BackgroundCursorChild
-:
-:
-DelayedActionRunnable
-nsIRunnable
-nsICancelableRunnable
-)
 NS_IMETHODIMP
 BackgroundCursorChild
 :
@@ -11474,7 +11469,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 BackgroundCursorChild
 :
 :
