@@ -11765,6 +11765,14 @@ width
 height
 )
 ;
+this
+.
+getWindowSize
+(
+cmd
+resp
+)
+;
 }
 ;
 GeckoDriver
