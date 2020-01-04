@@ -214,6 +214,11 @@ testException
 cpp
 '
 '
+testExternalArrayBuffer
+.
+cpp
+'
+'
 testExternalStrings
 .
 cpp
