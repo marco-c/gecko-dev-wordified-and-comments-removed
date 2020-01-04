@@ -37808,6 +37808,27 @@ true
 ;
 #
 endif
+#
+ifdef
+XP_WIN
+pref
+(
+"
+layers
+.
+shared
+-
+buffer
+-
+provider
+.
+enabled
+"
+false
+)
+;
+#
+else
 pref
 (
 "
@@ -37824,6 +37845,8 @@ enabled
 true
 )
 ;
+#
+endif
 pref
 (
 "
@@ -40187,7 +40210,7 @@ goog
 downloadwhite
 -
 digest256
-base
+mozstd
 -
 track
 -
@@ -40197,7 +40220,7 @@ mozstd
 trackwhite
 -
 digest256
-content
+mozfull
 -
 track
 -
@@ -40228,7 +40251,7 @@ test
 track
 -
 simple
-base
+mozstd
 -
 track
 -
@@ -41092,7 +41115,7 @@ mozilla
 lists
 "
 "
-base
+mozstd
 -
 track
 -
@@ -41102,7 +41125,7 @@ mozstd
 trackwhite
 -
 digest256
-content
+mozfull
 -
 track
 -
@@ -41243,7 +41266,7 @@ mozilla
 .
 lists
 .
-base
+mozstd
 .
 name
 "
@@ -41265,7 +41288,7 @@ mozilla
 .
 lists
 .
-base
+mozstd
 .
 description
 "
@@ -41287,7 +41310,7 @@ mozilla
 .
 lists
 .
-content
+mozfull
 .
 name
 "
@@ -41309,7 +41332,7 @@ mozilla
 .
 lists
 .
-content
+mozfull
 .
 description
 "
