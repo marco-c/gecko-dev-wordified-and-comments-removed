@@ -1323,6 +1323,9 @@ permissions
 .
 if
 (
+aPrincipal
+&
+&
 !
 nsContentUtils
 :
