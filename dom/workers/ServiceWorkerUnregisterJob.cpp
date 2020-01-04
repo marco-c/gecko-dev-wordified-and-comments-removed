@@ -396,6 +396,14 @@ registration
 IsControllingDocuments
 (
 )
+&
+&
+registration
+-
+>
+IsIdle
+(
+)
 )
 {
 swm
