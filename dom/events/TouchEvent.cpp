@@ -685,7 +685,7 @@ mTarget
 mEvent
 -
 >
-originalTarget
+mOriginalTarget
 )
 {
 targetTouches

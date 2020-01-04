@@ -572,7 +572,7 @@ tmp
 mEvent
 -
 >
-originalTarget
+mOriginalTarget
 =
 nullptr
 ;
@@ -768,7 +768,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 mEvent
 -
 >
-originalTarget
+mOriginalTarget
 )
 switch
 (
@@ -1494,7 +1494,7 @@ if
 mEvent
 -
 >
-originalTarget
+mOriginalTarget
 )
 {
 return
@@ -1503,7 +1503,7 @@ GetDOMEventTarget
 mEvent
 -
 >
-originalTarget
+mOriginalTarget
 )
 ;
 }
@@ -2491,7 +2491,7 @@ nullptr
 mEvent
 -
 >
-originalTarget
+mOriginalTarget
 =
 nullptr
 ;

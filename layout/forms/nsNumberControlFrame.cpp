@@ -2644,7 +2644,7 @@ if
 aEvent
 -
 >
-originalTarget
+mOriginalTarget
 =
 =
 mSpinUp
@@ -2659,7 +2659,7 @@ if
 aEvent
 -
 >
-originalTarget
+mOriginalTarget
 =
 =
 mSpinDown
@@ -2674,7 +2674,7 @@ if
 aEvent
 -
 >
-originalTarget
+mOriginalTarget
 =
 =
 mSpinBox
@@ -2958,7 +2958,7 @@ if
 aEvent
 -
 >
-originalTarget
+mOriginalTarget
 !
 =
 mTextField

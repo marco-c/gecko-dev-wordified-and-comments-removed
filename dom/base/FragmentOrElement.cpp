@@ -3204,7 +3204,7 @@ aVisitor
 mEvent
 -
 >
-originalTarget
+mOriginalTarget
 &
 &
 !
@@ -3323,7 +3323,7 @@ aVisitor
 mEvent
 -
 >
-originalTarget
+mOriginalTarget
 =
 =
 this
@@ -3420,7 +3420,7 @@ aVisitor
 mEvent
 -
 >
-originalTarget
+mOriginalTarget
 )
 ;
 nsAutoString
@@ -4121,7 +4121,7 @@ aVisitor
 mEvent
 -
 >
-originalTarget
+mOriginalTarget
 )
 ;
 NS_ASSERTION
