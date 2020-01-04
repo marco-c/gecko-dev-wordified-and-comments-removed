@@ -2399,7 +2399,7 @@ apz
 .
 content_response_timeout
 "
-15000
+60000
 )
 ;
 user_pref
