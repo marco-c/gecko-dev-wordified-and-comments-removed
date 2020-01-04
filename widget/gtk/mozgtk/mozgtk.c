@@ -559,6 +559,10 @@ gdk_x11_xatom_to_atom
 )
 STUB
 (
+gdk_x11_set_sm_client_id
+)
+STUB
+(
 gtk_accel_label_new
 )
 STUB
