@@ -2077,13 +2077,10 @@ partner
 .
 partnerNames
 .
-indexOf
+includes
 (
 PARTNER_NAME
 )
->
-=
-0
 )
 ;
 }
