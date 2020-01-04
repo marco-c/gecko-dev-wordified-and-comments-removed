@@ -1730,7 +1730,7 @@ void
 imgRequest
 :
 :
-RequestDecode
+StartDecoding
 (
 )
 {

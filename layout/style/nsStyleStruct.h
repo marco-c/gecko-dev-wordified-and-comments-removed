@@ -3742,12 +3742,6 @@ IsLoaded
 )
 ;
 }
-inline
-nsresult
-RequestDecode
-(
-)
-;
 void
 GetBorderColor
 (
