@@ -1685,6 +1685,8 @@ const
 LayerRenderState
 &
 aState
+bool
+aIsMask
 )
 :
 DebugGLData
@@ -1715,6 +1717,10 @@ name
 mState
 (
 aState
+)
+mIsMask
+(
+aIsMask
 )
 {
 }
@@ -1803,6 +1809,14 @@ tp
 set_target
 (
 mTarget
+)
+;
+tp
+-
+>
+set_ismask
+(
+mIsMask
 )
 ;
 int
@@ -2092,6 +2106,9 @@ LayerRenderState
 &
 mState
 ;
+bool
+mIsMask
+;
 Packet
 mPacket
 ;
@@ -2123,6 +2140,8 @@ name
 DataSourceSurface
 *
 img
+bool
+aIsMask
 )
 :
 DebugGLData
@@ -2163,6 +2182,10 @@ cx
 mDatasize
 (
 0
+)
+mIsMask
+(
+aIsMask
 )
 {
 pack
@@ -2256,6 +2279,14 @@ uint64_t
 (
 mContextAddress
 )
+)
+;
+tp
+-
+>
+set_ismask
+(
+mIsMask
 )
 ;
 if
@@ -2521,6 +2552,9 @@ mContextAddress
 ;
 uint32_t
 mDatasize
+;
+bool
+mIsMask
 ;
 Packet
 mPacket
@@ -3832,6 +3866,8 @@ TextureSourceOGL
 aSource
 bool
 aFlipY
+bool
+aIsMask
 )
 ;
 #
@@ -3854,6 +3890,8 @@ const
 TexturedEffect
 *
 aEffect
+bool
+aIsMask
 )
 ;
 #
@@ -4401,6 +4439,8 @@ TextureSourceOGL
 aSource
 bool
 aFlipY
+bool
+aIsMask
 )
 {
 MOZ_ASSERT
@@ -4521,6 +4561,7 @@ aLayerRef
 textureTarget
 texID
 img
+aIsMask
 )
 )
 ;
@@ -4567,6 +4608,8 @@ const
 TexturedEffect
 *
 aEffect
+bool
+aIsMask
 )
 {
 GLuint
@@ -4640,6 +4683,7 @@ aEffect
 -
 >
 mState
+aIsMask
 )
 ;
 bool
@@ -4789,6 +4833,7 @@ aGLContext
 aLayerRef
 source
 aEffect
+false
 )
 )
 {
@@ -4802,6 +4847,7 @@ SendTextureSource
 aGLContext
 aLayerRef
 source
+false
 false
 )
 ;
@@ -4853,6 +4899,7 @@ aGLContext
 aLayerRef
 source
 false
+true
 )
 ;
 }
@@ -4959,6 +5006,7 @@ aGLContext
 aLayerRef
 sourceY
 false
+false
 )
 ;
 SendTextureSource
@@ -4967,6 +5015,7 @@ aGLContext
 aLayerRef
 sourceCb
 false
+false
 )
 ;
 SendTextureSource
@@ -4974,6 +5023,7 @@ SendTextureSource
 aGLContext
 aLayerRef
 sourceCr
+false
 false
 )
 ;
