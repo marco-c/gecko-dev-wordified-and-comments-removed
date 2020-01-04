@@ -7464,6 +7464,10 @@ updateBin
 append
 (
 "
+org
+.
+mozilla
+.
 updater
 "
 )
