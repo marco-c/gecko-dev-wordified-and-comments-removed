@@ -1349,6 +1349,7 @@ s
 )
 "
 this
+aPromiseId
 aException
 aMessage
 .
