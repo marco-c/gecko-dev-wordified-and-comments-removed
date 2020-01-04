@@ -466,8 +466,6 @@ attribute
 MediaStreamTrackState
 readyState
 ;
-/
-/
 attribute
 EventHandler
 onended
