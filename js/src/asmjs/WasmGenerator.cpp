@@ -1628,6 +1628,9 @@ index
 =
 funcCodeRangeIndex
 ;
+mozilla
+:
+:
 DebugOnly
 <
 size_t
