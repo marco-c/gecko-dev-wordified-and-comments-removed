@@ -400,6 +400,11 @@ return
 mTextTrackSource
 ;
 }
+void
+SetCuesInactive
+(
+)
+;
 private
 :
 ~
