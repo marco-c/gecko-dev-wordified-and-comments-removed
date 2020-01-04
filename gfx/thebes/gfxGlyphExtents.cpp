@@ -168,6 +168,11 @@ aFont
 SetupCairoFont
 (
 aContext
+-
+>
+GetDrawTarget
+(
+)
 )
 )
 {

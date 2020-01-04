@@ -7460,6 +7460,11 @@ font
 SetupCairoFont
 (
 aRefContext
+-
+>
+GetDrawTarget
+(
+)
 )
 )
 {
@@ -7617,6 +7622,11 @@ font
 SetupCairoFont
 (
 aRefContext
+-
+>
+GetDrawTarget
+(
+)
 )
 )
 {

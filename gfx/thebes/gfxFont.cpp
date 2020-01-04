@@ -4215,6 +4215,11 @@ if
 SetupCairoFont
 (
 aCtx
+-
+>
+GetDrawTarget
+(
+)
 )
 )
 {

@@ -5197,9 +5197,9 @@ virtual
 bool
 SetupCairoFont
 (
-gfxContext
+DrawTarget
 *
-aContext
+aDrawTarget
 )
 =
 0

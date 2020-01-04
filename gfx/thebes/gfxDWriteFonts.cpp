@@ -2184,9 +2184,9 @@ gfxDWriteFont
 :
 SetupCairoFont
 (
-gfxContext
+DrawTarget
 *
-aContext
+aDrawTarget
 )
 {
 cairo_scaled_font_t
@@ -2219,12 +2219,7 @@ gfxContext
 :
 RefCairo
 (
-aContext
--
->
-GetDrawTarget
-(
-)
+aDrawTarget
 )
 scaledFont
 )
