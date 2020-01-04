@@ -439,9 +439,6 @@ aPermName
 principal
 .
 appStatus
-app
-.
-kind
 )
 ;
 }

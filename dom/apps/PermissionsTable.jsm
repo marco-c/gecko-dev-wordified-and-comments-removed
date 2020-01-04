@@ -2458,7 +2458,6 @@ function
 (
 aPermName
 aIntStatus
-aAppKind
 )
 {
 let
