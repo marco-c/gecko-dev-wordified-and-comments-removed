@@ -1504,7 +1504,7 @@ aMallocSizeOf
 )
 const
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 IsReadonly

@@ -211,7 +211,7 @@ const
 return
 mKey
 .
-SizeOfExcludingThisMustBeUnshared
+SizeOfExcludingThisIfUnshared
 (
 aMallocSizeOf
 )
