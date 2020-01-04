@@ -2311,7 +2311,7 @@ nsTextFormatter
 ssprintf
 (
 osVersion
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 %
@@ -2320,10 +2320,6 @@ ld
 %
 ld
 "
-)
-.
-get
-(
 )
 majorVersion
 minorVersion

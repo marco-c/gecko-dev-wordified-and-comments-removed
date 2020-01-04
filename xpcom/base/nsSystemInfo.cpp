@@ -916,15 +916,11 @@ status
 RegQueryValueExW
 (
 hKey
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 InstallDate
 "
-)
-.
-get
-(
 )
 nullptr
 &
