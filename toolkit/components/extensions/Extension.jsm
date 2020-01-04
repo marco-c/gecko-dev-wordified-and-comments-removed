@@ -1821,6 +1821,7 @@ removeEventListener
 unload
 "
 listener
+true
 )
 ;
 context
@@ -3015,6 +3016,10 @@ stringify
 _locales
 /
 {
+this
+.
+manifest
+.
 default_locale
 }
 /
