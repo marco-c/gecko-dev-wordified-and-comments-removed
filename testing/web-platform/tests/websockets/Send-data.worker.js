@@ -15,11 +15,9 @@ importScripts
 '
 websocket
 .
-js
-?
-pipe
-=
 sub
+.
+js
 '
 )
 var

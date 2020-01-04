@@ -62,6 +62,14 @@ assert_equals
 (
 attr
 .
+nodeName
+n
+)
+;
+assert_equals
+(
+attr
+.
 specified
 true
 )
