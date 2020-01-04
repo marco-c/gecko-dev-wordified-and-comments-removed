@@ -15197,7 +15197,7 @@ mContainerReferenceFrame
 int32_t
 maxLayers
 =
-nsDisplayItem
+gfxPrefs
 :
 :
 MaxActiveLayers

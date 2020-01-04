@@ -4430,12 +4430,6 @@ ForceActiveLayers
 (
 )
 ;
-static
-int32_t
-MaxActiveLayers
-(
-)
-;
 virtual
 LayerState
 GetLayerState
