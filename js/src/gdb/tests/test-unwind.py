@@ -6,6 +6,22 @@ do_unwinder_test
 )
 :
     
+import
+gdb
+    
+gdb
+.
+execute
+(
+"
+enable
+unwinder
+.
+*
+SpiderMonkey
+"
+)
+    
 run_fragment
 (
 '
