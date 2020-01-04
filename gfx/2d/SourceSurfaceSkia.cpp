@@ -521,8 +521,8 @@ deepCopyTo
 &
 mBitmap
 )
-|
-|
+&
+&
 !
 mBitmap
 .
