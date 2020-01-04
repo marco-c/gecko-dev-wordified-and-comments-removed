@@ -16,6 +16,11 @@ CheckedInt
 .
 h
 "
+#
+include
+<
+string
+>
 using
 namespace
 mozilla
