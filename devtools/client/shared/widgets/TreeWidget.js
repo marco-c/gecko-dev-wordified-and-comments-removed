@@ -4,15 +4,6 @@ strict
 "
 ;
 const
-Services
-=
-require
-(
-"
-Services
-"
-)
-const
 HTML_NS
 =
 "
@@ -196,7 +187,6 @@ Map
 )
 ;
 }
-;
 TreeWidget
 .
 prototype
@@ -1106,6 +1096,7 @@ remove
 (
 item
 )
+;
 this
 .
 attachments
@@ -1731,6 +1722,7 @@ this
 document
 =
 document
+;
 this
 .
 node
@@ -1796,8 +1788,6 @@ level
 }
 if
 (
-!
-!
 label
 )
 {
@@ -1895,6 +1885,7 @@ label
 textContent
 =
 label
+;
 }
 else
 {

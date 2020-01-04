@@ -846,8 +846,6 @@ let
 [
 type
 host
-db
-objectStore
 ]
 =
 this
@@ -1614,12 +1612,17 @@ itemOffset
 {
 }
 ;
+let
+storageType
+=
 this
 .
 storageTypes
 [
 type
 ]
+;
+storageType
 .
 getStoreObjects
 (
@@ -3434,8 +3437,10 @@ this
 .
 shouldLoadMoreItems
 )
+{
 return
 ;
+}
 this
 .
 shouldLoadMoreItems
@@ -3462,8 +3467,6 @@ let
 [
 type
 host
-db
-objectStore
 ]
 =
 item
