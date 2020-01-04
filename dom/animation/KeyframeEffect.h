@@ -158,6 +158,9 @@ nsPresContext
 namespace
 mozilla
 {
+struct
+AnimationCollection
+;
 class
 AnimValuesStyleRule
 ;
@@ -976,6 +979,14 @@ const
 nsPresContext
 *
 GetPresContext
+(
+)
+const
+;
+inline
+AnimationCollection
+*
+GetCollection
 (
 )
 const

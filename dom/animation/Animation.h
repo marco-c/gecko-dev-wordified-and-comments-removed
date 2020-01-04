@@ -845,6 +845,13 @@ NotifyEffectTimingUpdated
 (
 )
 ;
+AnimationCollection
+*
+GetCollection
+(
+)
+const
+;
 protected
 :
 void
@@ -1104,13 +1111,6 @@ GetAnimationManager
 const
 =
 0
-;
-AnimationCollection
-*
-GetCollection
-(
-)
-const
 ;
 RefPtr
 <
