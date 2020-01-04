@@ -210,6 +210,13 @@ nodeId
 )
 ;
 async
+PreloadLibs
+(
+nsCString
+libs
+)
+;
+async
 CloseActive
 (
 )

@@ -662,6 +662,14 @@ mDescription
 nsCString
 mVersion
 ;
+#
+ifdef
+XP_WIN
+nsCString
+mLibs
+;
+#
+endif
 uint32_t
 mPluginId
 ;
