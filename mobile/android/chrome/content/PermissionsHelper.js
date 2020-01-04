@@ -198,14 +198,14 @@ useNotifications
 allowed
 :
 "
-desktopNotification
+desktopNotification2
 .
 allow
 "
 denied
 :
 "
-desktopNotification
+desktopNotification2
 .
 dontAllow
 "
