@@ -1952,7 +1952,6 @@ pushExecuteFrame
 (
 cx
 script_
-thisv_
 newTargetValue_
 scopeChain_
 type_
@@ -3634,12 +3633,6 @@ return
 true
 ;
 }
-RootedValue
-thisv
-(
-cx
-)
-;
 probes
 :
 :
@@ -3653,7 +3646,6 @@ state
 (
 cx
 script
-thisv
 newTargetValue
 scopeChainArg
 type
