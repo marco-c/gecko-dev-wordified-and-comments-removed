@@ -1087,7 +1087,7 @@ webkit
 box
 -
 flex
-flex_grow
+box_flex
 WebkitBoxFlex
 WEBKIT_PREFIX_PREF
 )
