@@ -343,6 +343,11 @@ VibrancyManager
 mm
 '
 '
+ViewRegion
+.
+mm
+'
+'
 WidgetTraceEvent
 .
 mm
