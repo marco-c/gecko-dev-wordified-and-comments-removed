@@ -6389,6 +6389,8 @@ get
 (
 )
 mCurrentSeek
+.
+mTarget
 mInfo
 Duration
 (
@@ -7371,6 +7373,8 @@ get
 (
 )
 mCurrentSeek
+.
+mTarget
 mInfo
 Duration
 (
@@ -7408,6 +7412,8 @@ get
 (
 )
 mCurrentSeek
+.
+mTarget
 mInfo
 Duration
 (
@@ -7466,12 +7472,9 @@ mOnSeekingStart
 .
 Notify
 (
-mSeekTask
--
->
-GetSeekTarget
-(
-)
+mCurrentSeek
+.
+mTarget
 .
 mEventVisibility
 )
