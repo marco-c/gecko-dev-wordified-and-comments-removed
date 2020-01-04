@@ -1020,16 +1020,6 @@ GetInputContext
 (
 )
 ;
-NS_IMETHOD
-GetToggledKeyState
-(
-uint32_t
-aKeyCode
-bool
-*
-aLEDState
-)
-;
 #
 ifdef
 MOZ_XUL

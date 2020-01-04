@@ -1409,17 +1409,6 @@ aCallbackData
 )
 override
 ;
-NS_IMETHOD
-GetToggledKeyState
-(
-uint32_t
-aKeyCode
-bool
-*
-aLEDState
-)
-override
-;
 void
 ResizeTransparencyBitmap
 (

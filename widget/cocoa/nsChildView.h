@@ -1523,17 +1523,6 @@ GetIMEUpdatePreference
 )
 override
 ;
-NS_IMETHOD
-GetToggledKeyState
-(
-uint32_t
-aKeyCode
-bool
-*
-aLEDState
-)
-override
-;
 virtual
 nsTransparencyMode
 GetTransparencyMode
