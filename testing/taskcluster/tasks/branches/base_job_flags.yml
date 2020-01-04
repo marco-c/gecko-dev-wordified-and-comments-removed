@@ -102,6 +102,12 @@ bit
 flame
 -
 kk
+-
+ota
+-
+flame
+-
+kk
 #
 b2g
 flame
@@ -217,6 +223,12 @@ st
 an
 -
 macosx64
+-
+macosx64
+-
+st
+-
+an
 tests
 :
 -
