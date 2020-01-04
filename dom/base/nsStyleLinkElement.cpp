@@ -932,10 +932,11 @@ GetEnabled
 mStyleSheet
 &
 &
+!
 mStyleSheet
 -
 >
-GetOriginalURI
+IsInline
 (
 )
 )

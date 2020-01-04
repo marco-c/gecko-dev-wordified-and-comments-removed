@@ -415,6 +415,15 @@ newSheet
 ;
 if
 (
+!
+oldSheet
+-
+>
+IsInline
+(
+)
+&
+&
 IsChromeURI
 (
 uri

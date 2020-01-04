@@ -149,6 +149,17 @@ nsIURI
 aBaseURI
 )
 ;
+bool
+IsInline
+(
+)
+const
+{
+return
+!
+mOriginalSheetURI
+;
+}
 nsIPrincipal
 *
 Principal

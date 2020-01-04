@@ -387,6 +387,13 @@ Release
 )
 ;
 inline
+bool
+IsInline
+(
+)
+const
+;
+inline
 nsIURI
 *
 GetSheetURI
