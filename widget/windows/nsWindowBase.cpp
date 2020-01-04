@@ -325,7 +325,7 @@ InjectTouchPoint
 (
 uint32_t
 aId
-nsIntPoint
+ScreenIntPoint
 &
 aPointerScreenPoint
 POINTER_FLAGS
@@ -581,7 +581,7 @@ nsIWidget
 :
 TouchPointerState
 aPointerState
-nsIntPoint
+ScreenIntPoint
 aPointerScreenPoint
 double
 aPointerPressure

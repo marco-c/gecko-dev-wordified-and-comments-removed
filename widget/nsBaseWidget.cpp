@@ -7161,7 +7161,7 @@ nsIWidget
 :
 SynthesizeNativeTouchTap
 (
-nsIntPoint
+ScreenIntPoint
 aPointerScreenPoint
 bool
 aLongTap
@@ -7477,7 +7477,7 @@ return
 ;
 }
 AutoObserverNotifier
-notiifer
+notifier
 (
 self
 -

@@ -232,6 +232,9 @@ h
 "
 ;
 using
+mozilla
+:
+:
 LayoutDeviceIntRect
 from
 "
@@ -245,6 +248,18 @@ mozilla
 :
 :
 LayoutDeviceIntPoint
+from
+"
+Units
+.
+h
+"
+;
+using
+mozilla
+:
+:
+ScreenIntPoint
 from
 "
 Units
@@ -3115,7 +3130,7 @@ uint32_t
 aPointerId
 TouchPointerState
 aPointerState
-IntPoint
+ScreenIntPoint
 aPointerScreenPoint
 double
 aPointerPressure
@@ -3127,7 +3142,7 @@ aObserverId
 ;
 SynthesizeNativeTouchTap
 (
-IntPoint
+ScreenIntPoint
 aPointerScreenPoint
 bool
 aLongTap

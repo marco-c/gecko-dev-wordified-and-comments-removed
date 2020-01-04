@@ -1713,7 +1713,7 @@ TouchPointerState
 &
 aPointerState
 const
-nsIntPoint
+ScreenIntPoint
 &
 aPointerScreenPoint
 const
@@ -1736,7 +1736,7 @@ bool
 RecvSynthesizeNativeTouchTap
 (
 const
-nsIntPoint
+ScreenIntPoint
 &
 aPointerScreenPoint
 const

@@ -2034,7 +2034,7 @@ uint32_t
 aPointerId
 TouchPointerState
 aPointerState
-nsIntPoint
+ScreenIntPoint
 aPointerScreenPoint
 double
 aPointerPressure
@@ -2091,7 +2091,7 @@ PuppetWidget
 :
 SynthesizeNativeTouchTap
 (
-nsIntPoint
+ScreenIntPoint
 aPointerScreenPoint
 bool
 aLongTap
