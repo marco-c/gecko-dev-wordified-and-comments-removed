@@ -700,7 +700,7 @@ DragonFly
 x86_64
 '
 '
-Dragonfly
+DragonFly
 '
 )
 :
@@ -713,9 +713,6 @@ dragonfly
 '
 #
 FreeBSD
-GNU
-/
-kFreeBSD
 (
 '
 x86
