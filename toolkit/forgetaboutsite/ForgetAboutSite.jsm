@@ -943,7 +943,7 @@ e
 }
 }
 let
-qm
+qms
 =
 Cc
 [
@@ -955,8 +955,10 @@ org
 dom
 /
 quota
-/
+-
 manager
+-
+service
 ;
 1
 "
@@ -966,7 +968,7 @@ getService
 (
 Ci
 .
-nsIQuotaManager
+nsIQuotaManagerService
 )
 ;
 let
@@ -1084,14 +1086,14 @@ httpsURI
 }
 )
 ;
-qm
+qms
 .
 clearStoragesForPrincipal
 (
 httpPrincipal
 )
 ;
-qm
+qms
 .
 clearStoragesForPrincipal
 (

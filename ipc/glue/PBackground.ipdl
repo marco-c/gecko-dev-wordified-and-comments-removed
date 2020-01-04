@@ -106,6 +106,10 @@ PNuwa
 ;
 include
 protocol
+PQuota
+;
+include
+protocol
 PServiceWorkerManager
 ;
 include
@@ -257,6 +261,9 @@ manages
 PNuwa
 ;
 manages
+PQuota
+;
+manages
 PServiceWorkerManager
 ;
 manages
@@ -369,6 +376,10 @@ WriteParams
 write
 PrincipalInfo
 principalInfo
+)
+;
+PQuota
+(
 )
 ;
 child

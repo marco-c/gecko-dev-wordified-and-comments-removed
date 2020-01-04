@@ -551,7 +551,7 @@ dom
 /
 quota
 /
-QuotaManager
+QuotaManagerService
 .
 h
 "
@@ -8237,15 +8237,15 @@ dom
 quota
 :
 :
-QuotaManager
+QuotaManagerService
 ;
 if
 (
-QuotaManager
+QuotaManagerService
 *
-quotaManager
+quotaManagerService
 =
-QuotaManager
+QuotaManagerService
 :
 :
 Get
@@ -8253,7 +8253,7 @@ Get
 )
 )
 {
-quotaManager
+quotaManagerService
 -
 >
 AbortOperationsForProcess

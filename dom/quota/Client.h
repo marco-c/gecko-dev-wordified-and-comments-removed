@@ -339,7 +339,15 @@ aContentParentId
 ;
 virtual
 void
-PerformIdleMaintenance
+StartIdleMaintenance
+(
+)
+=
+0
+;
+virtual
+void
+StopIdleMaintenance
 (
 )
 =

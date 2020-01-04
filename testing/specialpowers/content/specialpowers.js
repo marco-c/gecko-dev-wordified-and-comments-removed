@@ -223,9 +223,6 @@ RemoveFiles
 SPPingService
 "
 "
-SPQuotaManager
-"
-"
 SPLoadExtension
 "
 "
