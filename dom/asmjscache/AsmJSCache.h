@@ -300,17 +300,6 @@ intptr_t
 aHandle
 )
 ;
-bool
-GetBuildId
-(
-JS
-:
-:
-BuildIdCharVector
-*
-aBuildId
-)
-;
 quota
 :
 :

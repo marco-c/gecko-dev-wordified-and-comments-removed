@@ -37057,7 +37057,6 @@ ShellOpenAsmJSCacheEntryForRead
 ShellCloseAsmJSCacheEntryForRead
 ShellOpenAsmJSCacheEntryForWrite
 ShellCloseAsmJSCacheEntryForWrite
-ShellBuildId
 }
 ;
 static
@@ -44434,6 +44433,15 @@ JS_SetInterruptCallback
 (
 rt
 ShellInterruptCallback
+)
+;
+JS
+:
+:
+SetBuildIdOp
+(
+rt
+ShellBuildId
 )
 ;
 JS
