@@ -1375,6 +1375,14 @@ return
 NS_ERROR_FAILURE
 ;
 }
+presShell
+-
+>
+FlushPendingNotifications
+(
+Flush_Layout
+)
+;
 RefPtr
 <
 nsPresContext
