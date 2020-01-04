@@ -218,4 +218,15 @@ browser
 .
 ini
 '
+'
+tests
+/
+browser
+/
+e10s
+/
+browser
+.
+ini
+'
 ]
