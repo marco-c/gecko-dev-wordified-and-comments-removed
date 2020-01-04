@@ -858,6 +858,10 @@ isWebExtensionContentScript
 (
 false
 )
+waiveInterposition
+(
+false
+)
 universalXPConnectEnabled
 (
 false

@@ -13153,6 +13153,10 @@ isWebExtensionContentScript
 (
 false
 )
+waiveInterposition
+(
+false
+)
 proto
 (
 cx
@@ -13207,6 +13211,9 @@ wantExportHelpers
 ;
 bool
 isWebExtensionContentScript
+;
+bool
+waiveInterposition
 ;
 JS
 :
@@ -14058,6 +14065,9 @@ skipWriteToGlobalPrototype
 ;
 bool
 isWebExtensionContentScript
+;
+bool
+waiveInterposition
 ;
 bool
 universalXPConnectEnabled
