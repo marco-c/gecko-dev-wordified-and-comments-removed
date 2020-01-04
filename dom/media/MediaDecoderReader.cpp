@@ -1554,7 +1554,6 @@ RequestVideoData
 (
 true
 mTimeThreshold
-false
 )
 ;
 }
@@ -1664,8 +1663,6 @@ bool
 aSkipToNextKeyframe
 int64_t
 aTimeThreshold
-bool
-aForceDecodeAhead
 )
 {
 nsRefPtr
