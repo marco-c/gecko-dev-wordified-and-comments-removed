@@ -37,10 +37,6 @@ JS
 CompileOptions
 &
 options
-const
-char
-*
-filename
 )
 ;
 }
