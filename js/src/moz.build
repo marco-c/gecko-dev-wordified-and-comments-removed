@@ -2271,13 +2271,6 @@ cpp
 '
 proxy
 /
-DirectProxyHandler
-.
-cpp
-'
-'
-proxy
-/
 OpaqueCrossCompartmentWrapper
 .
 cpp

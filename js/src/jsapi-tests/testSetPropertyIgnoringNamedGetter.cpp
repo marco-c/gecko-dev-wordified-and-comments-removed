@@ -37,7 +37,7 @@ class
 CustomProxyHandler
 :
 public
-DirectProxyHandler
+Wrapper
 {
 public
 :
@@ -45,9 +45,9 @@ CustomProxyHandler
 (
 )
 :
-DirectProxyHandler
+Wrapper
 (
-nullptr
+0
 )
 {
 }
@@ -144,7 +144,7 @@ cx
 if
 (
 !
-DirectProxyHandler
+Wrapper
 :
 :
 getPropertyDescriptor
@@ -270,7 +270,7 @@ if
 ownOnly
 )
 return
-DirectProxyHandler
+Wrapper
 :
 :
 getOwnPropertyDescriptor
@@ -282,7 +282,7 @@ desc
 )
 ;
 return
-DirectProxyHandler
+Wrapper
 :
 :
 getPropertyDescriptor
