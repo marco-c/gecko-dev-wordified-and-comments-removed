@@ -1224,6 +1224,8 @@ permName
 '
 privileges
 .
+\
+n
 "
 )
 ;
