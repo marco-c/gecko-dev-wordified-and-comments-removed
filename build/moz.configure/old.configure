@@ -1786,13 +1786,6 @@ extensions
 -
 enable
 -
-printing
-'
-'
--
--
-enable
--
 pulseaudio
 '
 '
