@@ -1873,6 +1873,13 @@ PointerHashMap
 :
 AddPtr
 p
+;
+if
+(
+ptr
+)
+{
+p
 =
 pointerMap
 .
@@ -1911,6 +1918,7 @@ value
 (
 )
 ;
+}
 }
 AutoTraceLog
 internal
@@ -2134,6 +2142,11 @@ nextTextId
 ;
 if
 (
+ptr
+)
+{
+if
+(
 !
 pointerMap
 .
@@ -2147,6 +2160,7 @@ payload
 return
 nullptr
 ;
+}
 return
 payload
 ;
@@ -2187,7 +2201,7 @@ script
 column
 (
 )
-script
+nullptr
 )
 ;
 }
@@ -2224,8 +2238,7 @@ lineno
 script
 .
 column
-&
-script
+nullptr
 )
 ;
 }
