@@ -101,13 +101,6 @@ cubeb
 [
 '
 cubeb
--
-stdint
-.
-h
-'
-'
-cubeb
 .
 h
 '
