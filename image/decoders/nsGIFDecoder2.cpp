@@ -4423,6 +4423,8 @@ gif_error
 return
 ;
 }
+MOZ_FALLTHROUGH
+;
 }
 case
 gif_image_header_continue
