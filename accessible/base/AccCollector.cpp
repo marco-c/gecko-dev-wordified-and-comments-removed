@@ -204,7 +204,7 @@ nullptr
 ;
 }
 int32_t
-AccCollector
+EmbeddedObjCollector
 :
 :
 EnsureNGetIndex
