@@ -1839,7 +1839,7 @@ failed
 s
 '
 %
-result
+adobe_result
 )
                 
 if
@@ -1866,8 +1866,9 @@ failed
 %
 s
 '
+                        
 %
-result
+widevine_result
 )
             
 EMESetupMixin
@@ -2174,8 +2175,8 @@ of
 integers
 in
 each
-string
         
+string
 does
 not
 need
@@ -2188,10 +2189,10 @@ is
 done
 by
 converting
+        
 each
 to
 an
-        
 integer
 array
 and
@@ -2201,10 +2202,10 @@ those
 Both
 version
 strings
+        
 must
 be
 made
-        
 up
 of
 only
@@ -2215,9 +2216,9 @@ method
 will
 raise
 an
+        
 unhandled
 exception
-        
 of
 type
 ValueError
@@ -2226,6 +2227,7 @@ the
 conversion
 to
 int
+        
 fails
 .
         
@@ -2351,6 +2353,7 @@ a
 version
 string
 '
+                                     
 %
 pref_name
 )
