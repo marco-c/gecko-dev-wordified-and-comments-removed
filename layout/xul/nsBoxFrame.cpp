@@ -515,6 +515,14 @@ aListID
 aChildList
 )
 ;
+if
+(
+aListID
+=
+=
+kPrincipalList
+)
+{
 nsBoxLayoutState
 state
 (
@@ -545,6 +553,7 @@ FirstChild
 )
 )
 ;
+}
 }
 void
 nsBoxFrame

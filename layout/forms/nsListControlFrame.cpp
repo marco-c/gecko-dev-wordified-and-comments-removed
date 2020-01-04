@@ -3527,6 +3527,14 @@ nsFrameList
 aChildList
 )
 {
+if
+(
+aListID
+=
+=
+kPrincipalList
+)
+{
 mIsAllContentHere
 =
 mContent
@@ -3550,6 +3558,7 @@ mHasBeenInitialized
 =
 false
 ;
+}
 }
 nsHTMLScrollFrame
 :
