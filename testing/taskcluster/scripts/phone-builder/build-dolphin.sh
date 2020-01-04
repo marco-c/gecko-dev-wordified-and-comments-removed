@@ -34,7 +34,11 @@ debug_flag
 debug
 '
 fi
-.
+WORKSPACE
+/
+gecko
+/
+testing
 /
 mozharness
 /
