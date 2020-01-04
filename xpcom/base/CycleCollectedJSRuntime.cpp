@@ -2182,7 +2182,7 @@ failed
 }
 JS_SetGrayGCRootsTracer
 (
-mJSRuntime
+mJSContext
 TraceGrayJS
 this
 )

@@ -206,9 +206,9 @@ void
 )
 JS_SetGrayGCRootsTracer
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 JSTraceDataOp
 traceOp
 void
@@ -557,9 +557,9 @@ void
 )
 JS_SetAccumulateTelemetryCallback
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 JSAccumulateTelemetryDataCallback
 callback
 )
@@ -4440,9 +4440,9 @@ void
 )
 SetPreserveWrapperCallback
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 PreserveWrapperCallback
 callback
 )
@@ -5070,9 +5070,9 @@ void
 )
 SetActivityCallback
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 ActivityCallback
 cb
 void
