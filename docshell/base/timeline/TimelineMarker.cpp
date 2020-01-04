@@ -5,12 +5,9 @@ TimelineMarker
 .
 h
 "
-using
+namespace
 mozilla
-:
-:
-TimeStamp
-;
+{
 TimelineMarker
 :
 :
@@ -329,5 +326,6 @@ CaptureStack
 (
 )
 ;
+}
 }
 }
