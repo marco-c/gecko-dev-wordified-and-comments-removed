@@ -236,6 +236,11 @@ session
 config
 .
 infoCollections
+session
+.
+config
+.
+infoConfiguration
 HISTORY_REQUEST_LIMIT
 HISTORY_SORT
 )
