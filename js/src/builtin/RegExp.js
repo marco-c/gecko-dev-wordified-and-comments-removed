@@ -1900,6 +1900,13 @@ RegExpProto
 )
 &
 &
+RegExpInstanceOptimizable
+(
+rx
+RegExpProto
+)
+&
+&
 RegExpProto
 .
 exec
