@@ -28,3 +28,6 @@ download
 symbols
 =
 true
+maxRunTime
+:
+5400
