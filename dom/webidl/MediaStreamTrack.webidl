@@ -397,6 +397,17 @@ advanced
 ;
 }
 ;
+enum
+MediaStreamTrackState
+{
+"
+live
+"
+"
+ended
+"
+}
+;
 [
 Exposed
 =
@@ -459,8 +470,6 @@ attribute
 boolean
 remote
 ;
-/
-/
 readonly
 attribute
 MediaStreamTrackState
