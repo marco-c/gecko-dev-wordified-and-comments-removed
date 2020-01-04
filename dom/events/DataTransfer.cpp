@@ -4595,6 +4595,8 @@ kGIFImageMime
 kNativeImageMime
 kFileMime
 kFilePromiseMime
+kFilePromiseURLMime
+kFilePromiseDestFilename
 kFilePromiseDirectoryMime
 kMozTextInternal
 kHTMLContext
