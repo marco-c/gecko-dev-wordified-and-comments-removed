@@ -1347,7 +1347,6 @@ define
 JS_CLASS_MEMBERS
 (
 ClassOpsType
-FinalizeOpType
 FreeOpType
 )
 \
@@ -2313,7 +2312,6 @@ JSClass
 JS_CLASS_MEMBERS
 (
 JSClassOps
-JSFinalizeOp
 JSFreeOp
 )
 ;
@@ -2831,7 +2829,6 @@ js
 :
 :
 ClassOps
-FinalizeOp
 FreeOp
 )
 ;
