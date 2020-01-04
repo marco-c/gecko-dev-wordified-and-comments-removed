@@ -1580,11 +1580,6 @@ MediaTrackConstraintSet
 webidl
 '
 '
-MediaTrackSettings
-.
-webidl
-'
-'
 MediaTrackSupportedConstraints
 .
 webidl
