@@ -497,12 +497,8 @@ Handle
 FunctionVector
 >
 funcImports
-Handle
-<
-ArrayBufferObjectMaybeShared
-*
->
-asmJSHeap
+HandleArrayBufferObjectMaybeShared
+asmJSBuffer
 HandleWasmInstanceObject
 instanceObj
 )

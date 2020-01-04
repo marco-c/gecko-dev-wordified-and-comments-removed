@@ -777,6 +777,14 @@ dummy
 dummy
 )
 \
+imaginary
+(
+WasmMemory
+51
+dummy
+dummy
+)
+\
 IF_PROMISE
 (
 real
@@ -784,7 +792,7 @@ imaginary
 )
 (
 Promise
-51
+52
 InitViaClassSpec
 OCLASP
 (
