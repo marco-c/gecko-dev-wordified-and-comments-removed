@@ -205,6 +205,11 @@ OverrideDefaultLocaleIfNeeded
 (
 )
 ;
+void
+MozExpectedExit
+(
+)
+;
 #
 ifdef
 XP_WIN

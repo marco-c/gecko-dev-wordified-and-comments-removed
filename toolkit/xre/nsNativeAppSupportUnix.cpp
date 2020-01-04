@@ -1967,6 +1967,10 @@ gtk_widget_destroy
 versionErrDialog
 )
 ;
+MozExpectedExit
+(
+)
+;
 exit
 (
 0
