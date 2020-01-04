@@ -672,7 +672,7 @@ aParent
 widget
 :
 :
-CompositorWidgetProxy
+CompositorWidget
 *
 aWidget
 int

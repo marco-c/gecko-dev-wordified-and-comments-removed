@@ -531,9 +531,9 @@ CreateTopLevelCompositor
 widget
 :
 :
-CompositorWidgetProxy
+CompositorWidget
 *
-aProxy
+aWidget
 ClientLayerManager
 *
 aLayerManager
@@ -558,7 +558,7 @@ CompositorSession
 :
 CreateInProcess
 (
-aProxy
+aWidget
 aLayerManager
 aScale
 aUseAPZ

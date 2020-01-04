@@ -1119,9 +1119,9 @@ override
 widget
 :
 :
-CompositorWidgetProxy
+CompositorWidget
 *
-NewCompositorWidgetProxy
+NewCompositorWidget
 (
 )
 override

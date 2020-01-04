@@ -142,7 +142,7 @@ mozilla
 /
 widget
 /
-WinCompositorWidgetProxy
+WinCompositorWidget
 .
 h
 "
@@ -795,7 +795,7 @@ aParent
 widget
 :
 :
-CompositorWidgetProxy
+CompositorWidget
 *
 aWidget
 )
@@ -1049,7 +1049,7 @@ mHwnd
 mWidget
 -
 >
-AsWindowsProxy
+AsWindows
 (
 )
 -

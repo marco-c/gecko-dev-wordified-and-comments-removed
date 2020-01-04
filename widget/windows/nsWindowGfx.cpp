@@ -994,7 +994,7 @@ ps
 ;
 aDC
 =
-GetCompositorWidgetProxy
+GetCompositorWidget
 (
 )
 -
@@ -1299,7 +1299,7 @@ mTransparencyMode
 {
 targetSurface
 =
-GetCompositorWidgetProxy
+GetCompositorWidget
 (
 )
 -
@@ -1612,7 +1612,7 @@ eTransparencyTransparent
 mTransparencyMode
 )
 {
-GetCompositorWidgetProxy
+GetCompositorWidget
 (
 )
 -

@@ -45,7 +45,7 @@ namespace
 widget
 {
 class
-CompositorWidgetProxy
+CompositorWidget
 ;
 }
 namespace
@@ -167,9 +167,9 @@ CreateInProcess
 widget
 :
 :
-CompositorWidgetProxy
+CompositorWidget
 *
-aWidgetProxy
+aWidget
 ClientLayerManager
 *
 aLayerManager
