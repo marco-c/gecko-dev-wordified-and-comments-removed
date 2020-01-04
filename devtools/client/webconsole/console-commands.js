@@ -259,12 +259,12 @@ inspector
 then
 (
 (
-toolbox
+newToolbox
 )
 =
 >
 {
-toolbox
+newToolbox
 .
 toggleSplitConsole
 (
@@ -274,15 +274,13 @@ toggleSplitConsole
 )
 ;
 }
-else
-{
+return
 toolbox
 .
 toggleSplitConsole
 (
 )
 ;
-}
 }
 }
 {
@@ -370,6 +368,7 @@ null
 )
 {
 return
+null
 ;
 }
 let
@@ -393,6 +392,7 @@ null
 )
 {
 return
+null
 ;
 }
 let
