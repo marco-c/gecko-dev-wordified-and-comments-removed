@@ -1239,6 +1239,15 @@ strippedURL
 )
 ;
 }
+strippedURL
+=
+StringUtils
+.
+forceLTR
+(
+strippedURL
+)
+;
 setContentDescription
 (
 strippedURL
