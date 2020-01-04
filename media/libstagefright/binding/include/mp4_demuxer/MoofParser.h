@@ -517,14 +517,6 @@ Saio
 aSaio
 )
 ;
-bool
-GetByteRanges
-(
-MediaByteRangeSet
-*
-aByteRanges
-)
-;
 private
 :
 int64_t
