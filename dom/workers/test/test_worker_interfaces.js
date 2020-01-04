@@ -191,6 +191,9 @@ Cache
 CacheStorage
 "
 "
+Crypto
+"
+"
 CustomEvent
 "
 "
@@ -379,6 +382,9 @@ b2g
 :
 false
 }
+"
+SubtleCrypto
+"
 "
 TextDecoder
 "

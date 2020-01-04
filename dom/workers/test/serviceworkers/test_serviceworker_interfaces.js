@@ -197,6 +197,9 @@ Client
 Clients
 "
 "
+Crypto
+"
+"
 CustomEvent
 "
 {
@@ -446,6 +449,9 @@ ServiceWorkerGlobalScope
 "
 "
 ServiceWorkerRegistration
+"
+"
+SubtleCrypto
 "
 "
 TextDecoder
