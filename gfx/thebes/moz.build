@@ -314,6 +314,11 @@ gfx
 =
 [
 '
+D3D11Checks
+.
+h
+'
+'
 DeviceManagerD3D11
 .
 h
