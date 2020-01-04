@@ -361,10 +361,10 @@ mMFTManager
 int64_t
 mLastStreamOffset
 ;
-Monitor
-mMonitor
-;
+Atomic
+<
 bool
+>
 mIsFlushing
 ;
 bool

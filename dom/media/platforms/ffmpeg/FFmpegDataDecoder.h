@@ -214,15 +214,6 @@ mExtraData
 AVCodecID
 mCodecID
 ;
-Monitor
-mMonitor
-;
-Atomic
-<
-bool
->
-mIsFlushing
-;
 private
 :
 static
