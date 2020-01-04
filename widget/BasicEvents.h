@@ -217,6 +217,11 @@ mHandledByAPZ
 :
 1
 ;
+bool
+mInPassiveListener
+:
+1
+;
 inline
 bool
 InTargetPhase
