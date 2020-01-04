@@ -503,7 +503,7 @@ function
 (
 )
 {
-assert_not_equals
+assert_equals
 (
 iframe
 .
@@ -516,11 +516,11 @@ navigator
 objects
 shall
 be
-changed
+same
 '
 )
 ;
-assert_not_equals
+assert_equals
 (
 iframe
 .
@@ -538,7 +538,7 @@ status
 promises
 shall
 be
-different
+same
 '
 )
 ;
@@ -572,13 +572,10 @@ iframe
 s
 src
 makes
-its
+same
 Navigator
 object
-vary
-thus
-getting
-another
+and
 battery
 promise
 '

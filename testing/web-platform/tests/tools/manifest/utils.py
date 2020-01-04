@@ -1,9 +1,7 @@
 import
 os
-import
-urlparse
 from
-StringIO
+six
 import
 StringIO
 blacklist

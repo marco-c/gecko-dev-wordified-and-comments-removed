@@ -8,6 +8,11 @@ import
 defaultdict
 OrderedDict
 from
+six
+import
+iteritems
+from
+.
 item
 import
 item_types
@@ -17,14 +22,17 @@ Stub
 RefTest
 TestharnessTest
 from
+.
 log
 import
 get_logger
 from
+.
 sourcefile
 import
 SourceFile
 from
+.
 utils
 import
 from_os_path
@@ -184,10 +192,9 @@ for
 path
 items
 in
-local_paths
-.
 iteritems
 (
+local_paths
 )
 :
                     
@@ -477,10 +484,9 @@ item
 in
 sorted
 (
-items
-.
-items
+iteritems
 (
+items
 )
 )
 :
@@ -806,10 +812,9 @@ for
 rel_path
 status
 in
-local_changes
-.
 iteritems
 (
+local_changes
 )
 :
             
@@ -1152,10 +1157,9 @@ for
 path
 items
 in
-reftest_nodes
-.
 iteritems
 (
+reftest_nodes
 )
 :
             
@@ -1185,10 +1189,9 @@ for
 path
 items
 in
-reftest_nodes
-.
 iteritems
 (
+reftest_nodes
 )
 :
             
@@ -1244,10 +1247,9 @@ for
 _
 tests
 in
-items
-.
 iteritems
 (
+items
 )
                 
 for
@@ -1261,12 +1263,11 @@ for
 item_type
 items
 in
+iteritems
+(
 self
 .
 _data
-.
-iteritems
-(
 )
         
 }
@@ -1283,12 +1284,11 @@ value
 in
 sorted
 (
+iteritems
+(
 self
 .
 reftest_nodes
-.
-items
-(
 )
 )
 :
@@ -1432,7 +1432,7 @@ hasattr
 (
 obj
 "
-iteritems
+items
 "
 )
 :
@@ -1483,15 +1483,14 @@ for
 k
 values
 in
+iteritems
+(
 obj
 [
 "
 items
 "
 ]
-.
-iteritems
-(
 )
 :
             
@@ -1540,15 +1539,14 @@ for
 path
 values
 in
+iteritems
+(
 obj
 [
 "
 reftest_nodes
 "
 ]
-.
-iteritems
-(
 )
 :
             
@@ -1916,12 +1914,11 @@ self
 for
 item
 in
+iteritems
+(
 self
 .
 _deleted_reftests
-.
-iteritems
-(
 )
 :
             
@@ -1975,12 +1972,11 @@ for
 key
 value
 in
+iteritems
+(
 self
 .
 reftest_nodes
-.
-iteritems
-(
 )
 }
         
@@ -2008,12 +2004,11 @@ for
 key
 value
 in
+iteritems
+(
 self
 .
 _deleted_reftests
-.
-iteritems
-(
 )
 }
         
@@ -2063,12 +2058,11 @@ for
 test_type
 paths
 in
+iteritems
+(
 self
 .
 _data
-.
-iteritems
-(
 )
 :
             
@@ -2076,10 +2070,9 @@ for
 path
 tests
 in
-paths
-.
 iteritems
 (
+paths
 )
 :
                 
@@ -2146,7 +2139,7 @@ hasattr
 (
 obj
 "
-iteritems
+items
 "
 )
 :
@@ -2192,15 +2185,14 @@ for
 test_type
 paths
 in
+iteritems
+(
 obj
 [
 "
 items
 "
 ]
-.
-iteritems
-(
 )
 :
             
@@ -2208,10 +2200,9 @@ for
 path
 tests
 in
-paths
-.
 iteritems
 (
+paths
 )
 :
                 
@@ -2252,15 +2243,14 @@ for
 path
 values
 in
+iteritems
+(
 obj
 [
 "
 reftest_nodes
 "
 ]
-.
-iteritems
-(
 )
 :
             
@@ -2342,6 +2332,8 @@ for
 path
 values
 in
+iteritems
+(
 obj
 .
 get
@@ -2352,9 +2344,6 @@ deleted_reftests
 {
 }
 )
-.
-iteritems
-(
 )
 :
             

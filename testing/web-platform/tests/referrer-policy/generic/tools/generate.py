@@ -647,7 +647,7 @@ delivery_method
 '
 http
 -
-csp
+rp
 '
 :
             
@@ -668,7 +668,8 @@ meta_delivery_method
 No
 meta
 :
-CSP
+Referrer
+policy
 delivered
 via
 HTTP
@@ -705,9 +706,7 @@ f
 write
 (
 '
-Content
--
-Security
+Referrer
 -
 Policy
 :
@@ -716,7 +715,6 @@ Policy
 \
                         
 '
-referrer
 %
 (
 referrer_policy

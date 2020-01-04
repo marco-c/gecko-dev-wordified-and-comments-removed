@@ -267,7 +267,7 @@ delivery_method
 "
 http
 -
-csp
+rp
 "
 "
 meta
@@ -440,7 +440,7 @@ delivery_method
 "
 http
 -
-csp
+rp
 "
 "
 meta
@@ -627,7 +627,7 @@ delivery_method
 "
 http
 -
-csp
+rp
 "
 "
 meta
@@ -818,7 +818,7 @@ delivery_method
 "
 http
 -
-csp
+rp
 "
 "
 meta
@@ -906,7 +906,7 @@ delivery_method
 "
 http
 -
-csp
+rp
 "
 "
 meta
@@ -994,7 +994,7 @@ delivery_method
 "
 http
 -
-csp
+rp
 "
 "
 meta
@@ -1080,7 +1080,7 @@ delivery_method
 "
 http
 -
-csp
+rp
 "
 "
 meta
@@ -1270,7 +1270,7 @@ delivery_method
 "
 http
 -
-csp
+rp
 "
 "
 meta
@@ -1471,7 +1471,7 @@ delivery_method
 "
 http
 -
-csp
+rp
 "
 "
 meta
@@ -1565,7 +1565,7 @@ delivery_method
 "
 http
 -
-csp
+rp
 "
 "
 meta
@@ -1657,7 +1657,7 @@ delivery_method
 "
 http
 -
-csp
+rp
 "
 "
 meta
@@ -1747,7 +1747,7 @@ delivery_method
 "
 http
 -
-csp
+rp
 "
 "
 meta
@@ -1837,7 +1837,7 @@ delivery_method
 "
 http
 -
-csp
+rp
 "
 "
 meta
@@ -1929,7 +1929,7 @@ delivery_method
 "
 http
 -
-csp
+rp
 "
 "
 meta
@@ -2123,7 +2123,7 @@ delivery_method
 "
 http
 -
-csp
+rp
 "
 "
 meta

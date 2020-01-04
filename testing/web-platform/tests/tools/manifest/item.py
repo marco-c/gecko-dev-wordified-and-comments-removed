@@ -1,7 +1,15 @@
 import
 os
+from
+six
+.
+moves
+.
+urllib
+.
+parse
 import
-urlparse
+urljoin
 from
 abc
 import
@@ -9,6 +17,7 @@ ABCMeta
 abstractmethod
 abstractproperty
 from
+.
 utils
 import
 from_os_path
@@ -49,6 +58,7 @@ make_new
 :
         
 from
+.
 sourcefile
 import
 SourceFile
@@ -500,8 +510,6 @@ self
 :
         
 return
-urlparse
-.
 urljoin
 (
 self
@@ -853,6 +861,7 @@ in
                 
 raise
 ValueError
+(
 "
 Unrecognised
 ref_type
@@ -861,6 +870,7 @@ s
 "
 %
 ref_type
+)
         
 self
 .

@@ -1,3 +1,8 @@
+from
+__future__
+import
+print_function
+unicode_literals
 import
 argparse
 import
@@ -25,6 +30,16 @@ manifest
 sourcefile
 import
 SourceFile
+from
+six
+import
+iteritems
+from
+six
+.
+moves
+import
+range
 here
 =
 os
@@ -45,11 +60,6 @@ __file__
 0
 ]
 )
-repo_root
-=
-localpaths
-.
-repo_root
 ERROR_MSG
 =
 "
@@ -179,30 +189,11 @@ s
 "
 "
 def
-git
+all_git_paths
 (
-command
-*
-args
-)
-:
-    
-args
-=
-list
-(
-args
-)
-    
-proc_kwargs
-=
-{
-"
-cwd
-"
-:
 repo_root
-}
+)
+:
     
 command_line
 =
@@ -210,43 +201,6 @@ command_line
 "
 git
 "
-command
-]
-+
-args
-    
-try
-:
-        
-return
-subprocess
-.
-check_output
-(
-command_line
-*
-*
-proc_kwargs
-)
-    
-except
-subprocess
-.
-CalledProcessError
-:
-        
-raise
-def
-all_git_paths
-(
-)
-:
-    
-for
-item
-in
-git
-(
 "
 ls
 -
@@ -266,7 +220,24 @@ only
 "
 HEAD
 "
+]
+    
+output
+=
+subprocess
+.
+check_output
+(
+command_line
+cwd
+=
+repo_root
 )
+    
+for
+item
+in
+output
 .
 split
 (
@@ -282,6 +253,7 @@ item
 def
 check_path_length
 (
+repo_root
 path
 )
 :
@@ -363,6 +335,27 @@ parse_whitelist_file
 filename
 )
 :
+    
+"
+"
+"
+    
+Parse
+the
+whitelist
+file
+at
+filename
+and
+return
+the
+parsed
+structure
+.
+    
+"
+"
+"
     
 data
 =
@@ -490,14 +483,36 @@ add
 line_number
 )
     
+return
+data
 def
-inner
+filter_whitelist_errors
 (
+data
 path
 errors
 )
 :
-        
+    
+"
+"
+"
+    
+Filter
+out
+those
+errors
+that
+are
+whitelisted
+in
+data
+.
+    
+"
+"
+"
+    
 whitelisted
 =
 [
@@ -505,7 +520,7 @@ False
 for
 item
 in
-xrange
+range
 (
 len
 (
@@ -513,18 +528,17 @@ errors
 )
 )
 ]
-        
+    
 for
 file_match
 whitelist_errors
 in
-data
-.
 iteritems
 (
+data
 )
 :
-            
+        
 if
 fnmatch
 .
@@ -534,7 +548,7 @@ path
 file_match
 )
 :
-                
+            
 for
 i
 (
@@ -548,7 +562,7 @@ enumerate
 errors
 )
 :
-                    
+                
 if
 "
 *
@@ -556,27 +570,27 @@ if
 in
 whitelist_errors
 :
-                        
+                    
 whitelisted
 [
 i
 ]
 =
 True
-                    
+                
 elif
 error_type
 in
 whitelist_errors
 :
-                        
+                    
 allowed_lines
 =
 whitelist_errors
 [
 error_type
 ]
-                        
+                    
 if
 None
 in
@@ -586,14 +600,14 @@ line
 in
 allowed_lines
 :
-                            
+                        
 whitelisted
 [
 i
 ]
 =
 True
-        
+    
 return
 [
 item
@@ -612,54 +626,6 @@ whitelisted
 i
 ]
 ]
-    
-return
-inner
-_whitelist_fn
-=
-None
-def
-whitelist_errors
-(
-path
-errors
-)
-:
-    
-global
-_whitelist_fn
-    
-if
-_whitelist_fn
-is
-None
-:
-        
-_whitelist_fn
-=
-parse_whitelist_file
-(
-os
-.
-path
-.
-join
-(
-repo_root
-"
-lint
-.
-whitelist
-"
-)
-)
-    
-return
-_whitelist_fn
-(
-path
-errors
-)
 class
 Regexp
 (
@@ -763,6 +729,7 @@ Regexp
     
 pattern
 =
+b
 "
 [
 \
@@ -789,6 +756,7 @@ Regexp
     
 pattern
 =
+b
 "
 ^
 \
@@ -810,6 +778,7 @@ Regexp
     
 pattern
 =
+b
 "
 \
 r
@@ -831,6 +800,7 @@ Regexp
     
 pattern
 =
+b
 "
 w3c
 \
@@ -859,6 +829,7 @@ Regexp
     
 pattern
 =
+b
 "
 webidl2
 \
@@ -882,6 +853,7 @@ Regexp
     
 pattern
 =
+b
 "
 console
 \
@@ -944,6 +916,7 @@ Regexp
     
 pattern
 =
+b
 "
 print
 (
@@ -1004,6 +977,7 @@ PrintRegexp
 def
 check_regexp_line
 (
+repo_root
 path
 f
 )
@@ -1089,6 +1063,7 @@ errors
 def
 check_parsed
 (
+repo_root
 path
 f
 )
@@ -1653,7 +1628,7 @@ timeout_nodes
 0
 }
 .
-iteritems
+items
 (
 )
                              
@@ -1857,6 +1832,7 @@ errors
 :
         
 print
+(
 "
 %
 s
@@ -1868,6 +1844,7 @@ s
 (
 error_type
 error
+)
 )
 def
 output_error_count
@@ -1904,7 +1881,7 @@ item
 in
 error_count
 .
-iteritems
+items
 (
 )
 )
@@ -1928,6 +1905,7 @@ count
 :
         
 print
+(
 "
 There
 was
@@ -1942,11 +1920,13 @@ s
 (
 by_type
 )
+)
     
 else
 :
         
 print
+(
 "
 There
 were
@@ -1962,6 +1942,7 @@ s
 (
 count
 by_type
+)
 )
 def
 parse_args
@@ -2013,6 +1994,12 @@ main
 )
 :
     
+repo_root
+=
+localpaths
+.
+repo_root
+    
 args
 =
 parse_args
@@ -2031,16 +2018,19 @@ paths
 else
 all_git_paths
 (
+repo_root
 )
     
 return
 lint
 (
+repo_root
 paths
 )
 def
 lint
 (
+repo_root
 paths
 )
 :
@@ -2056,6 +2046,25 @@ last
 =
 None
     
+whitelist
+=
+parse_whitelist_file
+(
+os
+.
+path
+.
+join
+(
+repo_root
+"
+lint
+.
+whitelist
+"
+)
+)
+    
 def
 run_lint
 (
@@ -2069,11 +2078,13 @@ args
         
 errors
 =
-whitelist_errors
+filter_whitelist_errors
 (
+whitelist
 path
 fn
 (
+repo_root
 path
 *
 args
@@ -2223,6 +2234,7 @@ error_count
 :
         
 print
+(
 ERROR_MSG
 %
 (
@@ -2242,6 +2254,7 @@ last
 [
 1
 ]
+)
 )
     
 return
