@@ -68,6 +68,9 @@ ReturnTextureClientDeferred
 TextureClient
 *
 aClient
+gfxSharedReadLock
+*
+aLock
 )
 override
 {
