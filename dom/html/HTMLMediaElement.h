@@ -2328,8 +2328,6 @@ mTrackPorts
 nsresult
 PlayInternal
 (
-bool
-aCallerIsChrome
 )
 ;
 void
@@ -3360,9 +3358,6 @@ mPlayingThroughTheAudioChannel
 ;
 bool
 mDisableVideo
-;
-bool
-mPlayBlockedBecauseHidden
 ;
 nsCOMPtr
 <
