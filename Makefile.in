@@ -1088,6 +1088,8 @@ GNU_CC
 )
 WINNT_
 )
+recurse_pre
+-
 export
 :
 :
@@ -1121,6 +1123,8 @@ MOZ_PROFILE_USE
 normal
 build
 )
+recurse_pre
+-
 export
 :
 :
@@ -1176,6 +1180,8 @@ probably
 be
 revisited
 .
+recurse_pre
+-
 export
 :
 :
