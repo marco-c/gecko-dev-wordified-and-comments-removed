@@ -374,12 +374,6 @@ _MSC_VER
 )
 &
 &
-_MSC_VER
->
-=
-1600
-&
-&
 (
 defined
 (
