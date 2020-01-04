@@ -102,6 +102,17 @@ browserApp
 }
 public
 void
+onNewIntent
+(
+BrowserApp
+browserApp
+Intent
+intent
+)
+{
+}
+public
+void
 onTabsTrayShown
 (
 BrowserApp
