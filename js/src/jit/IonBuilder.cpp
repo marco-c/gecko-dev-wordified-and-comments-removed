@@ -8497,6 +8497,9 @@ case
 JSOP_NOP
 :
 case
+JSOP_NOP_DESTRUCTURING
+:
+case
 JSOP_LINENO
 :
 case
