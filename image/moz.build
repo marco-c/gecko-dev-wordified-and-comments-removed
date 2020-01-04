@@ -332,6 +332,11 @@ ClippedImage
 cpp
 '
 '
+DecodedSurfaceProvider
+.
+cpp
+'
+'
 DecodePool
 .
 cpp
