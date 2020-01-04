@@ -281,6 +281,15 @@ aTable
 #
 ifndef
 _WIN32
+sFuncs
+-
+>
+malloc
+(
+-
+1
+)
+;
 pthread_atfork
 (
 prefork
