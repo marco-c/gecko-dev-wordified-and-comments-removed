@@ -206,8 +206,8 @@ static
 bool
 IsTableCellOrCaption
 (
-nsIDOMNode
-*
+nsINode
+&
 aNode
 )
 ;
