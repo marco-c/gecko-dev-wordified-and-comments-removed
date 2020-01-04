@@ -122,7 +122,7 @@ h
 #
 include
 "
-SplitNodeTxn
+SplitNodeTransaction
 .
 h
 "
@@ -5598,9 +5598,9 @@ aOffset
 }
 RefPtr
 <
-SplitNodeTxn
+SplitNodeTransaction
 >
-txn
+transaction
 =
 CreateTxnForSplitNode
 (
@@ -5612,7 +5612,7 @@ aResult
 =
 DoTransaction
 (
-txn
+transaction
 )
 ;
 nsCOMPtr
@@ -5629,7 +5629,7 @@ Failed
 ?
 nullptr
 :
-txn
+transaction
 -
 >
 GetNewNode
@@ -10437,7 +10437,7 @@ forget
 }
 already_AddRefed
 <
-SplitNodeTxn
+SplitNodeTransaction
 >
 nsEditor
 :
@@ -10453,12 +10453,12 @@ aOffset
 {
 RefPtr
 <
-SplitNodeTxn
+SplitNodeTransaction
 >
-txn
+transaction
 =
 new
-SplitNodeTxn
+SplitNodeTransaction
 (
 *
 this
@@ -10467,7 +10467,7 @@ aOffset
 )
 ;
 return
-txn
+transaction
 .
 forget
 (

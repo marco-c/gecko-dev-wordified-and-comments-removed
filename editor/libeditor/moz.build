@@ -343,7 +343,7 @@ SetDocumentTitleTransaction
 cpp
 '
 '
-SplitNodeTxn
+SplitNodeTransaction
 .
 cpp
 '
