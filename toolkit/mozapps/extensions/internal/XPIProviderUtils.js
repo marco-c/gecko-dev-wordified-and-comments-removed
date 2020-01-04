@@ -7578,7 +7578,8 @@ aNewAddon
 .
 seen
 =
-false
+!
+aOldAppVersion
 ;
 }
 }
