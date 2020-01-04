@@ -274,6 +274,12 @@ OnLayoutChange
 (
 )
 ;
+TextEventDispatcher
+*
+GetTextEventDispatcher
+(
+)
+;
 protected
 :
 ~
