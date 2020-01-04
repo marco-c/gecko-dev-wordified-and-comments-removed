@@ -376,7 +376,7 @@ case
 eAfterKeyDown
 :
 case
-NS_KEY_AFTER_UP
+eAfterKeyUp
 :
 return
 true
