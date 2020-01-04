@@ -4514,11 +4514,8 @@ nsTArray
 uint32_t
 >
 behaviors
-;
-behaviors
-.
-AppendElement
-(
+=
+{
 mozilla
 :
 :
@@ -4529,12 +4526,6 @@ AllowedTouchBehavior
 :
 :
 NONE
-)
-;
-behaviors
-.
-AppendElement
-(
 mozilla
 :
 :
@@ -4545,7 +4536,7 @@ AllowedTouchBehavior
 :
 :
 NONE
-)
+}
 ;
 DoPinchTest
 (
