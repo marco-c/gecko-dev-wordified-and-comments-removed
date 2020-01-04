@@ -412,7 +412,10 @@ Principal
 aPrincipal
 nsTArray
 <
-StructuredCloneIPCHelper
+ipc
+:
+:
+StructuredCloneData
 >
 *
 aRetvals
@@ -449,7 +452,10 @@ Principal
 aPrincipal
 nsTArray
 <
-StructuredCloneIPCHelper
+ipc
+:
+:
+StructuredCloneData
 >
 *
 aRetvals

@@ -172,6 +172,9 @@ bluetooth
 DroidSocketImpl
 :
 public
+mozilla
+:
+:
 ipc
 :
 :
@@ -204,6 +207,9 @@ BluetoothSocket
 *
 aConsumer
 )
+:
+mozilla
+:
 :
 ipc
 :

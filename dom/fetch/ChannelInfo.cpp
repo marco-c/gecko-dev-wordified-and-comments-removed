@@ -362,6 +362,9 @@ ChannelInfo
 InitFromIPCChannelInfo
 (
 const
+mozilla
+:
+:
 ipc
 :
 :
@@ -826,6 +829,9 @@ return
 NS_OK
 ;
 }
+mozilla
+:
+:
 ipc
 :
 :

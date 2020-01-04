@@ -148,6 +148,11 @@ nsIRemoteBlob
 .
 h
 '
+'
+StructuredCloneData
+.
+h
+'
 ]
 EXPORTS
 .
@@ -229,11 +234,6 @@ h
 '
 '
 PermissionMessageUtils
-.
-h
-'
-'
-StructuredCloneIPCHelper
 .
 h
 '
@@ -380,7 +380,7 @@ ScreenManagerParent
 cpp
 '
 '
-StructuredCloneIPCHelper
+StructuredCloneData
 .
 cpp
 '

@@ -143,6 +143,9 @@ mWifiWorker
 ;
 nsRefPtr
 <
+mozilla
+:
+:
 ipc
 :
 :

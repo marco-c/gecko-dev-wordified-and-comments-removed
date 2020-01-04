@@ -286,7 +286,7 @@ Principal
 aPrincipal
 nsTArray
 <
-StructuredCloneIPCHelper
+StructuredCloneData
 >
 *
 aRetvals

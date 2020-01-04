@@ -557,7 +557,9 @@ mozilla
 /
 dom
 /
-StructuredCloneIPCHelper
+ipc
+/
+StructuredCloneData
 .
 h
 "
@@ -10700,9 +10702,9 @@ const
 nsAString
 &
 aMessage
-StructuredCloneIPCHelper
+StructuredCloneData
 &
-aHelper
+aData
 JS
 :
 :
@@ -10721,7 +10723,7 @@ nsSameProcessAsyncMessageBase
 (
 aCx
 aMessage
-aHelper
+aData
 aCpows
 aPrincipal
 )
@@ -10828,9 +10830,9 @@ const
 nsAString
 &
 aMessage
-StructuredCloneIPCHelper
+StructuredCloneData
 &
-aHelper
+aData
 JS
 :
 :
@@ -10876,7 +10878,7 @@ if
 BuildClonedMessageDataForParent
 (
 cp
-aHelper
+aData
 data
 )
 )
@@ -10978,7 +10980,7 @@ nsAsyncMessageToChild
 aCx
 this
 aMessage
-aHelper
+aData
 aCpows
 aPrincipal
 )

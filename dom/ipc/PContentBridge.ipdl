@@ -203,7 +203,10 @@ mozilla
 dom
 :
 :
-StructuredCloneIPCHelper
+ipc
+:
+:
+StructuredCloneData
 from
 "
 ipc
@@ -342,7 +345,7 @@ aPrincipal
 )
 returns
 (
-StructuredCloneIPCHelper
+StructuredCloneData
 [
 ]
 retval

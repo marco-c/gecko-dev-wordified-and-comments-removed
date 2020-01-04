@@ -49,7 +49,9 @@ mozilla
 /
 dom
 /
-StructuredCloneIPCHelper
+ipc
+/
+StructuredCloneData
 .
 h
 "
@@ -3157,7 +3159,10 @@ mozilla
 dom
 :
 :
-StructuredCloneIPCHelper
+ipc
+:
+:
+StructuredCloneData
 >
 {
 typedef
@@ -3167,7 +3172,10 @@ mozilla
 dom
 :
 :
-StructuredCloneIPCHelper
+ipc
+:
+:
+StructuredCloneData
 paramType
 ;
 static

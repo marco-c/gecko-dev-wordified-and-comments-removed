@@ -714,7 +714,10 @@ mozilla
 dom
 :
 :
-StructuredCloneIPCHelper
+ipc
+:
+:
+StructuredCloneData
 from
 "
 ipc
@@ -2812,7 +2815,7 @@ ClipboardCapabilities
 clipboardCaps
 DomainPolicyClone
 domainPolicy
-StructuredCloneIPCHelper
+StructuredCloneData
 initialData
 )
 ;
@@ -3452,7 +3455,7 @@ aPrincipal
 )
 returns
 (
-StructuredCloneIPCHelper
+StructuredCloneData
 [
 ]
 retval
@@ -3478,7 +3481,7 @@ aPrincipal
 )
 returns
 (
-StructuredCloneIPCHelper
+StructuredCloneData
 [
 ]
 retval

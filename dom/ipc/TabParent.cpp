@@ -568,7 +568,7 @@ h
 #
 include
 "
-StructuredCloneIPCHelper
+StructuredCloneData
 .
 h
 "
@@ -8396,7 +8396,7 @@ Principal
 aPrincipal
 nsTArray
 <
-StructuredCloneIPCHelper
+StructuredCloneData
 >
 *
 aRetVal
@@ -8463,8 +8463,8 @@ false
 ;
 }
 }
-StructuredCloneIPCHelper
-helper
+StructuredCloneData
+data
 ;
 ipc
 :
@@ -8472,7 +8472,7 @@ ipc
 UnpackClonedMessageDataForParent
 (
 aData
-helper
+data
 )
 ;
 CrossProcessCpowHolder
@@ -8490,7 +8490,7 @@ ReceiveMessage
 aMessage
 true
 &
-helper
+data
 &
 cpows
 aPrincipal
@@ -8528,7 +8528,7 @@ Principal
 aPrincipal
 nsTArray
 <
-StructuredCloneIPCHelper
+StructuredCloneData
 >
 *
 aRetVal
@@ -8595,8 +8595,8 @@ false
 ;
 }
 }
-StructuredCloneIPCHelper
-helper
+StructuredCloneData
+data
 ;
 ipc
 :
@@ -8604,7 +8604,7 @@ ipc
 UnpackClonedMessageDataForParent
 (
 aData
-helper
+data
 )
 ;
 CrossProcessCpowHolder
@@ -8622,7 +8622,7 @@ ReceiveMessage
 aMessage
 true
 &
-helper
+data
 &
 cpows
 aPrincipal
@@ -8721,8 +8721,8 @@ false
 ;
 }
 }
-StructuredCloneIPCHelper
-helper
+StructuredCloneData
+data
 ;
 ipc
 :
@@ -8730,7 +8730,7 @@ ipc
 UnpackClonedMessageDataForParent
 (
 aData
-helper
+data
 )
 ;
 CrossProcessCpowHolder
@@ -8748,7 +8748,7 @@ ReceiveMessage
 aMessage
 false
 &
-helper
+data
 &
 cpows
 aPrincipal
@@ -12098,9 +12098,9 @@ nsString
 aMessage
 bool
 aSync
-StructuredCloneIPCHelper
+StructuredCloneData
 *
-aHelper
+aData
 CpowHolder
 *
 aCpows
@@ -12109,7 +12109,7 @@ nsIPrincipal
 aPrincipal
 nsTArray
 <
-StructuredCloneIPCHelper
+StructuredCloneData
 >
 *
 aRetVal
@@ -12161,7 +12161,7 @@ mFrameElement
 frameLoader
 aMessage
 aSync
-aHelper
+aData
 aCpows
 aPrincipal
 aRetVal
