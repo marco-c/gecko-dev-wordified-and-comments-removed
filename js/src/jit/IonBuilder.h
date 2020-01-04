@@ -100,6 +100,12 @@ CallInfo
 class
 BaselineFrameInspector
 ;
+enum
+class
+InlinableNative
+:
+uint16_t
+;
 BaselineFrameInspector
 *
 NewBaselineFrameInspector
@@ -4091,8 +4097,7 @@ inlineAtomicsBinop
 CallInfo
 &
 callInfo
-JSFunction
-*
+InlinableNative
 target
 )
 ;
