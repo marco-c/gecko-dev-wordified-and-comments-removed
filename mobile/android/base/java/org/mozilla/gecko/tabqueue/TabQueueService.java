@@ -1318,10 +1318,6 @@ onDestroy
 (
 )
 ;
-tabQueueHandler
-=
-null
-;
 handlerThread
 .
 quit
