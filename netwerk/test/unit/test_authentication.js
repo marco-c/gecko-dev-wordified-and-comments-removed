@@ -1665,12 +1665,6 @@ Ci
 .
 nsILoadInfo
 .
-SEC_NORMAL
-|
-Ci
-.
-nsILoadInfo
-.
 SEC_ALLOW_CROSS_ORIGIN_DATA_IS_NULL
 contentPolicyType
 :
