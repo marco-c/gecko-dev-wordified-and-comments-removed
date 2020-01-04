@@ -878,7 +878,9 @@ I
 -
 Frame
 (
-mpeg4
+MPEG
+-
+4
 )
 int
 mv_type
@@ -908,8 +910,12 @@ MV_TYPE_8X8
 4
 vectors
 (
-h263
-mpeg4
+H
+.
+263
+MPEG
+-
+4
 4MV
 )
 #

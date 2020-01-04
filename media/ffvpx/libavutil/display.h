@@ -11,6 +11,13 @@ stdint
 .
 h
 >
+#
+include
+"
+common
+.
+h
+"
 double
 av_display_rotation_get
 (

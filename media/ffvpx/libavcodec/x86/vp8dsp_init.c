@@ -32,17 +32,6 @@ libavutil
 /
 x86
 /
-asm
-.
-h
-"
-#
-include
-"
-libavutil
-/
-x86
-/
 cpu
 .
 h

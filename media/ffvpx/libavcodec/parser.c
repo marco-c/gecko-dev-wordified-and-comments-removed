@@ -710,6 +710,17 @@ avctx
 -
 >
 codec_id
+!
+=
+AV_CODEC_ID_NONE
+)
+;
+av_assert1
+(
+avctx
+-
+>
+codec_id
 =
 =
 s
