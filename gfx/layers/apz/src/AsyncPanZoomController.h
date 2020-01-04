@@ -1310,7 +1310,7 @@ aTouchPoints
 )
 ;
 void
-ResetInputState
+ResetTouchInputState
 (
 )
 ;

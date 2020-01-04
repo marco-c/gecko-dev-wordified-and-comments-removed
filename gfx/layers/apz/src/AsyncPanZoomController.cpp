@@ -15323,7 +15323,7 @@ void
 AsyncPanZoomController
 :
 :
-ResetInputState
+ResetTouchInputState
 (
 )
 {
