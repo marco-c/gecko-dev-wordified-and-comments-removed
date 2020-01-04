@@ -59,7 +59,7 @@ ProcessedMediaStream
 aStream
 )
 ;
-void
+bool
 Connect
 (
 MediaStream
