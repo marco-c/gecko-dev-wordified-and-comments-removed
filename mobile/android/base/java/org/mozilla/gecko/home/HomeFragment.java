@@ -2060,7 +2060,7 @@ page_removed
 )
 Snackbar
 .
-LENGTH_SHORT
+LENGTH_LONG
 )
 ;
 }

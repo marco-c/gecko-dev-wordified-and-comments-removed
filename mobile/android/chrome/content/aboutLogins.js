@@ -323,7 +323,7 @@ show
 notifyString
 Snackbars
 .
-LENGTH_SHORT
+LENGTH_LONG
 )
 ;
 }
@@ -360,7 +360,7 @@ copyFailed
 )
 Snackbars
 .
-LENGTH_SHORT
+LENGTH_LONG
 )
 ;
 }
@@ -1867,7 +1867,7 @@ saved1
 )
 Snackbars
 .
-LENGTH_SHORT
+LENGTH_LONG
 )
 ;
 this
@@ -2003,7 +2003,7 @@ couldNotSave
 )
 Snackbars
 .
-LENGTH_SHORT
+LENGTH_LONG
 )
 ;
 return
@@ -2025,7 +2025,7 @@ saved1
 )
 Snackbars
 .
-LENGTH_SHORT
+LENGTH_LONG
 )
 ;
 this

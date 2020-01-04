@@ -5383,7 +5383,7 @@ textCopied
 )
 Snackbars
 .
-LENGTH_SHORT
+LENGTH_LONG
 )
 ;
 }

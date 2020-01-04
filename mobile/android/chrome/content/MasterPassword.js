@@ -399,7 +399,7 @@ incorrect
 )
 Snackbars
 .
-LENGTH_SHORT
+LENGTH_LONG
 )
 ;
 return

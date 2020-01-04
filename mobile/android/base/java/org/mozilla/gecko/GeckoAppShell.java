@@ -14121,7 +14121,7 @@ share_image_failed
 )
 Snackbar
 .
-LENGTH_SHORT
+LENGTH_LONG
 )
 ;
 }

@@ -1003,7 +1003,7 @@ bookmark_updated
 )
 Snackbar
 .
-LENGTH_SHORT
+LENGTH_LONG
 )
 ;
 }

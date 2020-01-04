@@ -1315,7 +1315,7 @@ show
 msg
 Snackbars
 .
-LENGTH_SHORT
+LENGTH_LONG
 )
 ;
 ActionBarHandler
@@ -1510,7 +1510,7 @@ show
 msg
 Snackbars
 .
-LENGTH_SHORT
+LENGTH_LONG
 )
 ;
 ActionBarHandler

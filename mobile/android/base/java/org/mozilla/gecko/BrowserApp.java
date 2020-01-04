@@ -2604,7 +2604,7 @@ bookmark_removed
 )
 Snackbar
 .
-LENGTH_SHORT
+LENGTH_LONG
 )
 ;
 }
@@ -2786,7 +2786,7 @@ reading_list_removed
 )
 Snackbar
 .
-LENGTH_SHORT
+LENGTH_LONG
 )
 ;
 }

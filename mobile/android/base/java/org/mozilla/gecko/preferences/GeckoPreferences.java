@@ -3475,7 +3475,7 @@ stringRes
 )
 Snackbar
 .
-LENGTH_SHORT
+LENGTH_LONG
 )
 ;
 }
