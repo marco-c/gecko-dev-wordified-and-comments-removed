@@ -57,6 +57,12 @@ maxDpb
 (
 0
 )
+scaleDownBy
+(
+1
+.
+0
+)
 {
 }
 bool
@@ -111,6 +117,9 @@ maxCpb
 ;
 uint32_t
 maxDpb
+;
+double
+scaleDownBy
 ;
 }
 ;

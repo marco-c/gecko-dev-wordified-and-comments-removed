@@ -477,6 +477,9 @@ width
 unsigned
 short
 height
+unsigned
+int
+cap
 mozilla
 :
 :
@@ -493,11 +496,11 @@ aLastFramerateTenths
 unsigned
 int
 &
-out_start
+out_min
 unsigned
 int
 &
-out_min
+out_start
 unsigned
 int
 &
