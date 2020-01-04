@@ -121,6 +121,9 @@ dss
 ssize_t
 lg_dirty_mult
 ;
+ssize_t
+decay_time
+;
 size_t
 pactive
 ;

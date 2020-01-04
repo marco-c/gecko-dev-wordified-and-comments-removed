@@ -286,7 +286,7 @@ s
 ifdef
 SYS_write
 UNUSED
-int
+long
 result
 =
 syscall
@@ -303,7 +303,7 @@ s
 #
 else
 UNUSED
-int
+ssize_t
 result
 =
 write
@@ -389,6 +389,9 @@ err
 LPSTR
 )
 buf
+(
+DWORD
+)
 buflen
 NULL
 )
@@ -3271,8 +3274,18 @@ size
 0
 '
 ;
+assert
+(
+i
+<
+INT_MAX
+)
+;
 ret
 =
+(
+int
+)
 i
 ;
 #
