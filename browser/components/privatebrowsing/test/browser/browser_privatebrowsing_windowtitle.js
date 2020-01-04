@@ -145,11 +145,8 @@ Browsing
 pb_about_pb_title
 =
 "
-You
-\
-u2019re
-browsing
-privately
+Private
+Browsing
 -
 (
 Private
@@ -221,11 +218,8 @@ Browsing
 pb_about_pb_title
 =
 "
-You
-\
-u2019re
-browsing
-privately
+Private
+Browsing
 -
 "
 +
