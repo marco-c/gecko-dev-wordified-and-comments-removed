@@ -270,6 +270,11 @@ RemotePrompt
 jsm
 '
 '
+Sanitizer
+.
+jsm
+'
+'
 SelfSupportBackend
 .
 jsm
