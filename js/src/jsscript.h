@@ -1819,7 +1819,6 @@ jumpTargets
 )
 ;
 inline
-explicit
 ScriptCounts
 (
 ScriptCounts
@@ -9793,7 +9792,6 @@ script
 )
 ;
 inline
-explicit
 ScriptAndCounts
 (
 ScriptAndCounts

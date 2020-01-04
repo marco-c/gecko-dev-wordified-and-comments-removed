@@ -98,7 +98,6 @@ aValue
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 }
-explicit
 Scoped
 (
 Scoped
@@ -542,7 +541,6 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM_TO_PARENT
 {
 }
 \
-explicit
 name
 (
 name

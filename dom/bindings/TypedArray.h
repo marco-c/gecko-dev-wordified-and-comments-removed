@@ -107,7 +107,6 @@ nullptr
 )
 {
 }
-explicit
 TypedArrayObjectStorage
 (
 TypedArrayObjectStorage
@@ -254,7 +253,6 @@ false
 )
 {
 }
-explicit
 TypedArray_base
 (
 TypedArray_base
@@ -577,7 +575,6 @@ Base
 )
 {
 }
-explicit
 TypedArray
 (
 TypedArray
@@ -860,7 +857,6 @@ Base
 )
 {
 }
-explicit
 ArrayBufferView_base
 (
 ArrayBufferView_base
