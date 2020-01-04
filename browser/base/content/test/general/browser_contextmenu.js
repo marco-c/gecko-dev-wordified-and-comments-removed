@@ -5852,6 +5852,7 @@ text
 "
 plainTextItems
 {
+*
 onContextMenuShown
 (
 )
@@ -6055,6 +6056,7 @@ true
 null
 ]
 {
+*
 onContextMenuShown
 (
 )
