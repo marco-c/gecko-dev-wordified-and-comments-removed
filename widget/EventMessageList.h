@@ -1238,7 +1238,7 @@ eTransitionEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_TRANSITION_END
+eTransitionEnd
 eTransitionEventFirst
 )
 NS_EVENT_MESSAGE

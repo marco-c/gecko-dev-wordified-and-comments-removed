@@ -1603,7 +1603,7 @@ eSimpleGestureEventClass
 NON_IDL_EVENT
 (
 transitionend
-NS_TRANSITION_END
+eTransitionEnd
 EventNameType_None
 eTransitionEventClass
 )
