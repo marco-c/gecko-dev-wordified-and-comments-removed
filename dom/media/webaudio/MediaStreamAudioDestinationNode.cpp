@@ -182,6 +182,9 @@ MediaSegment
 :
 AUDIO
 source
+MediaTrackConstraints
+(
+)
 )
 ;
 ProcessedMediaStream
