@@ -9519,11 +9519,12 @@ result
 ;
 }
 result
-.
-reset
-(
-new
+=
+MakeUnique
+<
 nsCSSValuePair
+>
+(
 )
 ;
 static
