@@ -5791,6 +5791,11 @@ MOZ_ASSERT
 aStream
 )
 ;
+MOZ_RELEASE_ASSERT
+(
+mIceCtxHdlr
+)
+;
 CSFLogDebug
 (
 logTag
