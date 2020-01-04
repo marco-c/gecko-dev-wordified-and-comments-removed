@@ -814,15 +814,6 @@ setDelegate
 this
 )
 ;
-GeckoAccessibility
-.
-setAccessibilityManagerListeners
-(
-getContext
-(
-)
-)
-;
 }
 public
 void
@@ -2701,7 +2692,6 @@ GeckoAccessibility
 .
 onLayerViewFocusChanged
 (
-this
 gainFocus
 )
 ;

@@ -916,6 +916,13 @@ this
 )
 ;
 }
+GeckoAccessibility
+.
+setAccessibilityManagerListeners
+(
+this
+)
+;
 }
 public
 boolean
