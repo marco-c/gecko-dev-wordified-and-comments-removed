@@ -3863,12 +3863,14 @@ DisplayItemScrollClip
 *
 mContainerScrollClip
 ;
-DebugOnly
-<
+#
+ifdef
+DEBUG
 nsRect
->
 mAccumulatedChildBounds
 ;
+#
+endif
 ContainerLayerParameters
 mParameters
 ;

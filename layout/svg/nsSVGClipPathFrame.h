@@ -448,12 +448,14 @@ nsSVGClipPathFrame
 *
 mFrame
 ;
-DebugOnly
-<
+#
+ifdef
+DEBUG
 bool
->
 mMarkAsInUseCalled
 ;
+#
+endif
 }
 ;
 gfxMatrix

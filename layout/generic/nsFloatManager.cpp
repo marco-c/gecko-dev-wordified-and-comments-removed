@@ -359,8 +359,6 @@ GetBlockDir
 =
 mWritingMode
 .
-value
-.
 GetBlockDir
 (
 )
