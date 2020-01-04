@@ -1866,7 +1866,9 @@ up_to_date
 python
 )
 :
-warn
+log
+.
+info
 (
 '
 Creating
@@ -1899,7 +1901,9 @@ sys
 executable
 )
 :
-warn
+log
+.
+info
 (
 '
 Reexecuting
@@ -2453,7 +2457,9 @@ helper
 command_line_helper
 (
 )
-warn
+log
+.
+info
 (
 '
 Adding
@@ -2481,7 +2487,9 @@ configure_args
 '
 ]
 :
-warn
+log
+.
+info
 (
 '
 %
@@ -2569,7 +2577,9 @@ s
 key
 value
 )
-warn
+log
+.
+info
 (
 '
 %
