@@ -1327,6 +1327,21 @@ join
 rv
 )
     
+def
+__contains__
+(
+self
+key
+)
+:
+        
+return
+key
+in
+self
+.
+_data
+    
 property
     
 def
