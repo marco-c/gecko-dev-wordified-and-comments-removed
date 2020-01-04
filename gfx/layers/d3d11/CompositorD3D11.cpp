@@ -721,6 +721,10 @@ mDisableSequenceForNextFrame
 (
 false
 )
+mVerifyBuffersFailed
+(
+false
+)
 {
 }
 CompositorD3D11
@@ -6971,6 +6975,7 @@ false
 if
 (
 (
+(
 swapDesc
 .
 BufferDesc
@@ -7010,6 +7015,11 @@ height
 <
 =
 0
+)
+&
+&
+!
+mVerifyBuffersFailed
 )
 {
 return
@@ -7101,6 +7111,13 @@ on
 mSize
 ;
 }
+mVerifyBuffersFailed
+=
+FAILED
+(
+hr
+)
+;
 return
 Succeeded
 (
