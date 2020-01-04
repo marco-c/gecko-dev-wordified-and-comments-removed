@@ -790,11 +790,6 @@ mPaintSyncId
 0
 )
 {
-MOZ_COUNT_CTOR
-(
-ShadowLayerForwarder
-)
-;
 mTxn
 =
 new
@@ -850,11 +845,6 @@ Destroy
 )
 ;
 }
-MOZ_COUNT_DTOR
-(
-ShadowLayerForwarder
-)
-;
 }
 void
 ShadowLayerForwarder
