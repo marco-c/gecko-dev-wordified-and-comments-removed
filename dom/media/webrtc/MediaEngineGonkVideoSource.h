@@ -388,7 +388,7 @@ aConfiguration
 nsresult
 TakePhoto
 (
-PhotoCallback
+MediaEnginePhotoCallback
 *
 aCallback
 )
@@ -480,7 +480,7 @@ nsTArray
 <
 RefPtr
 <
-PhotoCallback
+MediaEnginePhotoCallback
 >
 >
 mPhotoCallbacks

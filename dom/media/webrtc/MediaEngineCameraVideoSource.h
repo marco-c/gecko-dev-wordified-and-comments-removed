@@ -148,7 +148,7 @@ false
 nsresult
 TakePhoto
 (
-PhotoCallback
+MediaEnginePhotoCallback
 *
 aCallback
 )

@@ -2289,7 +2289,7 @@ nsTArray
 <
 RefPtr
 <
-PhotoCallback
+MediaEnginePhotoCallback
 >
 >
 &
@@ -2369,7 +2369,7 @@ nsTArray
 <
 RefPtr
 <
-PhotoCallback
+MediaEnginePhotoCallback
 >
 >
 mCallbacks
@@ -2457,7 +2457,7 @@ nsTArray
 <
 RefPtr
 <
-PhotoCallback
+MediaEnginePhotoCallback
 >
 >
 &
@@ -2603,7 +2603,7 @@ nsTArray
 <
 RefPtr
 <
-PhotoCallback
+MediaEnginePhotoCallback
 >
 >
 mCallbacks
@@ -2655,7 +2655,7 @@ MediaEngineGonkVideoSource
 :
 TakePhoto
 (
-PhotoCallback
+MediaEnginePhotoCallback
 *
 aCallback
 )

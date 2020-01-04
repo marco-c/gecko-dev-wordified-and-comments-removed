@@ -270,7 +270,7 @@ return
 nsresult
 TakePhoto
 (
-PhotoCallback
+MediaEnginePhotoCallback
 *
 aCallback
 )
