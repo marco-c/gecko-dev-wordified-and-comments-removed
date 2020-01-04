@@ -160,7 +160,7 @@ AesCbcParams
 Algorithm
 {
 required
-CryptoOperationData
+BufferSource
 iv
 ;
 }
@@ -171,7 +171,7 @@ AesCtrParams
 Algorithm
 {
 required
-CryptoOperationData
+BufferSource
 counter
 ;
 [
@@ -189,10 +189,10 @@ AesGcmParams
 Algorithm
 {
 required
-CryptoOperationData
+BufferSource
 iv
 ;
-CryptoOperationData
+BufferSource
 additionalData
 ;
 [
@@ -220,7 +220,7 @@ Pbkdf2Params
 Algorithm
 {
 required
-CryptoOperationData
+BufferSource
 salt
 ;
 [
@@ -307,7 +307,7 @@ RsaOaepParams
 :
 Algorithm
 {
-CryptoOperationData
+BufferSource
 label
 ;
 }
@@ -435,11 +435,11 @@ AlgorithmIdentifier
 hash
 ;
 required
-CryptoOperationData
+BufferSource
 salt
 ;
 required
-CryptoOperationData
+BufferSource
 info
 ;
 }
@@ -675,14 +675,6 @@ KeyFormat
 ;
 typedef
 (
-ArrayBufferView
-or
-ArrayBuffer
-)
-CryptoOperationData
-;
-typedef
-(
 object
 or
 DOMString
@@ -705,7 +697,7 @@ AlgorithmIdentifier
 algorithm
 CryptoKey
 key
-CryptoOperationData
+BufferSource
 data
 )
 ;
@@ -722,7 +714,7 @@ AlgorithmIdentifier
 algorithm
 CryptoKey
 key
-CryptoOperationData
+BufferSource
 data
 )
 ;
@@ -739,7 +731,7 @@ AlgorithmIdentifier
 algorithm
 CryptoKey
 key
-CryptoOperationData
+BufferSource
 data
 )
 ;
@@ -756,9 +748,9 @@ AlgorithmIdentifier
 algorithm
 CryptoKey
 key
-CryptoOperationData
+BufferSource
 signature
-CryptoOperationData
+BufferSource
 data
 )
 ;
@@ -773,7 +765,7 @@ digest
 (
 AlgorithmIdentifier
 algorithm
-CryptoOperationData
+BufferSource
 data
 )
 ;
@@ -908,7 +900,7 @@ unwrapKey
 (
 KeyFormat
 format
-CryptoOperationData
+BufferSource
 wrappedKey
 CryptoKey
 unwrappingKey
