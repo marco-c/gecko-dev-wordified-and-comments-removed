@@ -373,6 +373,12 @@ GetPluginId
 )
 const
 ;
+nsString
+GetPluginBaseName
+(
+)
+const
+;
 bool
 CanBeSharedCrossNodeIds
 (
