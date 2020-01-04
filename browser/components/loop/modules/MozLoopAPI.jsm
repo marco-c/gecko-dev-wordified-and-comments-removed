@@ -289,7 +289,7 @@ defineLazyModuleGetter
 (
 this
 "
-UpdateChannel
+UpdateUtils
 "
 "
 resource
@@ -300,7 +300,7 @@ gre
 /
 modules
 /
-UpdateChannel
+UpdateUtils
 .
 jsm
 "
@@ -2894,11 +2894,9 @@ cloneInto
 {
 channel
 :
-UpdateChannel
+UpdateUtils
 .
-get
-(
-)
+UpdateChannel
 version
 :
 appInfo

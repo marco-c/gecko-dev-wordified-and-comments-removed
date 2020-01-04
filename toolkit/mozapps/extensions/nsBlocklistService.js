@@ -125,7 +125,7 @@ defineLazyModuleGetter
 (
 this
 "
-UpdateChannel
+UpdateUtils
 "
 "
 resource
@@ -136,7 +136,7 @@ gre
 /
 modules
 /
-UpdateChannel
+UpdateUtils
 .
 jsm
 "
@@ -2886,11 +2886,9 @@ CHANNEL
 %
 /
 g
-UpdateChannel
+UpdateUtils
 .
-get
-(
-)
+UpdateChannel
 )
 ;
 dsURI
