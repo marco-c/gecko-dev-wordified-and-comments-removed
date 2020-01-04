@@ -8669,6 +8669,7 @@ MakeUnique
 ModuleGeneratorData
 >
 (
+cx_
 ModuleKind
 :
 :
