@@ -181,7 +181,7 @@ dst
 offset
 )
 =
-reinterpret_cast
+static_cast
 <
 uint16_t
 >
@@ -390,7 +390,7 @@ dst
 offset
 )
 =
-reinterpret_cast
+static_cast
 <
 uint16_t
 >
