@@ -1624,7 +1624,7 @@ in
 the
 build
 variable
-MOZ_INSTALL_TRACKING_ADJUST_SDK_APP_TOKEN
+MOZ_ADJUST_SDK_KEY
 .
 The
 mozconfig
