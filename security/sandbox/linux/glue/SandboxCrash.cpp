@@ -326,7 +326,6 @@ frame
 >
 GetCaller
 (
-cx
 getter_AddRefs
 (
 nextFrame
