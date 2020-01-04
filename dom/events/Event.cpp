@@ -3127,7 +3127,7 @@ openControlled
 break
 ;
 case
-NS_XUL_COMMAND
+eXULCommand
 :
 abuse
 =

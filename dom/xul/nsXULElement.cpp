@@ -5840,7 +5840,7 @@ mEvent
 mMessage
 =
 =
-NS_XUL_COMMAND
+eXULCommand
 |
 |
 aVisitor
@@ -5903,7 +5903,7 @@ mEvent
 mMessage
 =
 =
-NS_XUL_COMMAND
+eXULCommand
 &
 &
 aVisitor

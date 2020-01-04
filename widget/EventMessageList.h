@@ -792,7 +792,7 @@ eXULCommandEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_XUL_COMMAND
+eXULCommand
 eXULCommandEventFirst
 )
 NS_EVENT_MESSAGE
