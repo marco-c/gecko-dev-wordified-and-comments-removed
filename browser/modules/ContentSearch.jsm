@@ -848,7 +848,6 @@ shift
 (
 )
 ;
-return
 this
 .
 _currentEventPromise

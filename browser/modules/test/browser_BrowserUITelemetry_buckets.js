@@ -3,8 +3,11 @@ use
 strict
 "
 ;
+add_task
+(
 function
-generatorTest
+*
+testBUIT
 (
 )
 {
@@ -385,7 +388,8 @@ of
 "
 )
 ;
-waitForCondition
+yield
+waitForConditionPromise
 (
 function
 (
@@ -416,7 +420,6 @@ BUCKET_SEPARATOR
 )
 ;
 }
-nextStep
 "
 Bucket
 should
@@ -432,9 +435,7 @@ of
 )
 ;
 yield
-undefined
-;
-waitForCondition
+waitForConditionPromise
 (
 function
 (
@@ -465,7 +466,6 @@ BUCKET_SEPARATOR
 )
 ;
 }
-nextStep
 "
 Bucket
 should
@@ -479,9 +479,6 @@ of
 3s1ms
 "
 )
-;
-yield
-undefined
 ;
 BUIT
 .
@@ -530,7 +527,8 @@ of
 "
 )
 ;
-waitForCondition
+yield
+waitForConditionPromise
 (
 function
 (
@@ -561,7 +559,6 @@ BUCKET_SEPARATOR
 )
 ;
 }
-nextStep
 "
 Should
 be
@@ -577,9 +574,7 @@ of
 )
 ;
 yield
-undefined
-;
-waitForCondition
+waitForConditionPromise
 (
 function
 (
@@ -596,7 +591,6 @@ BUIT
 BUCKET_DEFAULT
 ;
 }
-nextStep
 "
 Bucket
 should
@@ -610,9 +604,6 @@ be
 active
 "
 )
-;
-yield
-undefined
 ;
 BUIT
 .
@@ -695,7 +686,8 @@ name
 "
 )
 ;
-waitForCondition
+yield
+waitForConditionPromise
 (
 function
 (
@@ -720,7 +712,6 @@ bucket
 )
 ;
 }
-nextStep
 "
 Next
 step
@@ -736,7 +727,6 @@ progressed
 "
 )
 ;
-yield
-undefined
-;
 }
+)
+;

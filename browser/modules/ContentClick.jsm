@@ -323,7 +323,6 @@ current
 "
 )
 return
-false
 ;
 let
 params

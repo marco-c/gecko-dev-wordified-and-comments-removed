@@ -3460,6 +3460,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {
@@ -4086,6 +4087,7 @@ sortedLinks
 )
 {
 return
+undefined
 ;
 }
 let
@@ -4176,6 +4178,7 @@ _isSuggestedTileBlocked
 )
 {
 return
+undefined
 ;
 }
 let
@@ -4383,6 +4386,7 @@ numLinks
 )
 {
 return
+undefined
 ;
 }
 let
