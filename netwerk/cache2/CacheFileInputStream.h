@@ -70,6 +70,9 @@ CacheFileInputStream
 CacheFile
 *
 aFile
+nsISupports
+*
+aEntry
 )
 ;
 NS_IMETHOD
@@ -229,6 +232,12 @@ nsCOMPtr
 nsIEventTarget
 >
 mCallbackTarget
+;
+RefPtr
+<
+nsISupports
+>
+mCacheEntryHandle
 ;
 }
 ;

@@ -1004,6 +1004,16 @@ aResult
 =
 0
 ;
+virtual
+bool
+IsKilled
+(
+)
+{
+return
+false
+;
+}
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

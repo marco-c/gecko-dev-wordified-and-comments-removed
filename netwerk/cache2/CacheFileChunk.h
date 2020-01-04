@@ -435,6 +435,13 @@ aResult
 )
 override
 ;
+virtual
+bool
+IsKilled
+(
+)
+override
+;
 bool
 IsReady
 (
