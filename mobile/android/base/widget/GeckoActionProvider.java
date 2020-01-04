@@ -1091,6 +1091,9 @@ TelemetryContract
 Method
 .
 LIST
+"
+actionprovider
+"
 )
 ;
 return
@@ -1137,6 +1140,9 @@ TelemetryContract
 Method
 .
 BUTTON
+"
+actionprovider
+"
 )
 ;
 }

@@ -1288,6 +1288,9 @@ TelemetryContract
 Method
 .
 LIST
+"
+promptlist
+"
 )
 ;
 }

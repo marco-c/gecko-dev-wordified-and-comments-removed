@@ -3447,6 +3447,9 @@ TelemetryContract
 Method
 .
 LIST
+"
+text
+"
 )
 ;
 }
