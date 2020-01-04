@@ -2377,13 +2377,15 @@ aNextSibling
 MOZ_ASSERT
 (
 aAncestorTransform
-=
-=
+.
+FuzzyEqualsMultiplicative
+(
 apzc
 -
 >
 GetAncestorTransform
 (
+)
 )
 )
 ;
