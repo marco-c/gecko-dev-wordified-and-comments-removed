@@ -59,15 +59,11 @@ nsBlockInFlowLineIterator
 class
 nsBulletFrame
 ;
-typedef
-nsContainerFrame
-nsBlockFrameSuper
-;
 class
 nsBlockFrame
 :
 public
-nsBlockFrameSuper
+nsContainerFrame
 {
 public
 :
