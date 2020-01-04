@@ -2719,6 +2719,13 @@ RESPATH
 /
 components
 /
+PageIconProtocolHandler
+.
+js
+RESPATH
+/
+components
+/
 PlacesCategoriesStarter
 .
 js

@@ -1101,7 +1101,10 @@ getter_AddRefs
 (
 outputStream
 )
-MAX_FAVICON_SIZE
+0
+nsIFaviconService
+:
+:
 MAX_FAVICON_SIZE
 true
 true

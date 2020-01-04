@@ -108,10 +108,6 @@ h
 "
 #
 define
-MAX_FAVICON_SIZE
-10240
-#
-define
 MAX_ICON_FILESIZE
 (
 s

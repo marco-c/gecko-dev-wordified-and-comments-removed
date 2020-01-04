@@ -1438,6 +1438,9 @@ Length
 (
 )
 >
+nsIFaviconService
+:
+:
 MAX_FAVICON_SIZE
 )
 {

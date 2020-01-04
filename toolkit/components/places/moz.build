@@ -406,6 +406,11 @@ nsTaggingService
 js
 '
 '
+PageIconProtocolHandler
+.
+js
+'
+'
 PlacesCategoriesStarter
 .
 js
