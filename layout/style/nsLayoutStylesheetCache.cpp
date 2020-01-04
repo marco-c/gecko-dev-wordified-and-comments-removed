@@ -4401,7 +4401,7 @@ padding
 border
 :
 %
-d
+dpx
 %
 s
 transparent
@@ -4411,7 +4411,7 @@ important
 }
 "
 focusRingWidth
-focusRingWidth
+focusRingStyle
 =
 =
 0
