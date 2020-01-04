@@ -128,3 +128,6 @@ common
 mozbuild
 '
 )
+FirefoxBranding
+(
+)
