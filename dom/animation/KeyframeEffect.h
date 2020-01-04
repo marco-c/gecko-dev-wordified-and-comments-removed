@@ -1123,6 +1123,11 @@ bool
 aIsRunning
 )
 ;
+void
+ResetIsRunningOnCompositor
+(
+)
+;
 bool
 ShouldBlockAsyncTransformAnimations
 (
@@ -1230,11 +1235,6 @@ aOptions
 ErrorResult
 &
 aRv
-)
-;
-void
-ResetIsRunningOnCompositor
-(
 )
 ;
 void
