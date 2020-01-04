@@ -69,6 +69,8 @@ google_test
 \
 der_gtest
 \
+util_gtest
+\
 pk11_gtest
 \
 ssl_gtest

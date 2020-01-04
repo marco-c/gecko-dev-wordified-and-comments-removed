@@ -1295,9 +1295,11 @@ b
 int
 mp_cmp_mag
 (
+const
 mp_int
 *
 a
+const
 mp_int
 *
 b

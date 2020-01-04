@@ -23688,7 +23688,7 @@ activated
 CK_RV
 ckrv
 =
-sftk_fipsPowerUpSelfTest
+sftk_FIPSEntryOK
 (
 )
 ;
