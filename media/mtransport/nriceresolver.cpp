@@ -757,7 +757,8 @@ thread_
 ;
 if
 (
-request_
+!
+canceled_
 )
 {
 nr_transport_addr
@@ -826,10 +827,6 @@ cb_
 cb_arg_
 cb_addr
 )
-;
-request_
-=
-nullptr
 ;
 Release
 (
@@ -914,9 +911,9 @@ Cancel
 NS_ERROR_ABORT
 )
 ;
-request_
+canceled_
 =
-nullptr
+true
 ;
 Release
 (

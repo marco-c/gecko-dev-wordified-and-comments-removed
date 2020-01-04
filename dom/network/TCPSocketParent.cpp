@@ -1746,11 +1746,11 @@ type
 )
 ;
 }
-NS_ENSURE_SUCCESS
+NS_ENSURE_FALSE
 (
 rv
 .
-StealNSResult
+Failed
 (
 )
 true
