@@ -497,9 +497,6 @@ mTableIsSplittable
 =
 true
 ;
-nsMargin
-pageContentMargin
-;
 const
 nsStyleSides
 &
@@ -530,7 +527,7 @@ side
 eStyleUnit_Auto
 )
 {
-pageContentMargin
+mPageContentMargin
 .
 Side
 (
@@ -550,7 +547,7 @@ side
 }
 else
 {
-pageContentMargin
+mPageContentMargin
 .
 Side
 (
@@ -577,7 +574,7 @@ maxSize
 .
 width
 -
-pageContentMargin
+mPageContentMargin
 .
 LeftRight
 (
@@ -611,7 +608,7 @@ maxSize
 .
 height
 -
-pageContentMargin
+mPageContentMargin
 .
 TopBottom
 (
@@ -645,7 +642,7 @@ NS_FOR_CSS_SIDES
 side
 )
 {
-pageContentMargin
+mPageContentMargin
 .
 Side
 (
@@ -669,7 +666,7 @@ maxSize
 .
 width
 -
-pageContentMargin
+mPageContentMargin
 .
 LeftRight
 (
@@ -691,7 +688,7 @@ maxSize
 .
 height
 -
-pageContentMargin
+mPageContentMargin
 .
 TopBottom
 (
@@ -718,14 +715,14 @@ maxHeight
 nscoord
 xc
 =
-pageContentMargin
+mPageContentMargin
 .
 left
 ;
 nscoord
 yc
 =
-pageContentMargin
+mPageContentMargin
 .
 top
 ;
@@ -1700,10 +1697,7 @@ eHeader
 &
 aHeight
 <
-mPD
--
->
-mReflowMargin
+mPageContentMargin
 .
 top
 )
@@ -1718,10 +1712,7 @@ eFooter
 &
 aHeight
 <
-mPD
--
->
-mReflowMargin
+mPageContentMargin
 .
 bottom
 )
