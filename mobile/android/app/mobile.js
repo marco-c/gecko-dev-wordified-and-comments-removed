@@ -5210,7 +5210,7 @@ fling_curve_function_x1
 "
 0
 .
-41
+59
 "
 )
 ;
@@ -5224,7 +5224,7 @@ fling_curve_function_y1
 "
 0
 .
-0
+46
 "
 )
 ;
@@ -5238,7 +5238,7 @@ fling_curve_function_x2
 "
 0
 .
-80
+05
 "
 )
 ;
@@ -5252,7 +5252,7 @@ fling_curve_function_y2
 "
 1
 .
-0
+00
 "
 )
 ;
