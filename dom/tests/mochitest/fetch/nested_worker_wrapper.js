@@ -1,3 +1,6 @@
+var
+worker
+;
 addEventListener
 (
 '
@@ -17,7 +20,6 @@ message
 nestedWorkerWrapperOnMessage
 )
 ;
-var
 worker
 =
 new
