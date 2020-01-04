@@ -2595,6 +2595,7 @@ PLUGIN_BLOCKLISTED
 let
 result
 =
+yield
 ContentTask
 .
 spawn
@@ -2643,10 +2644,12 @@ activated
 ;
 ok
 (
+!
 result
 "
 Plugin
 should
+not
 be
 activated
 .
