@@ -170,9 +170,6 @@ ImageBridgeParent
 MessageLoop
 *
 aLoop
-Transport
-*
-aTransport
 ProcessId
 aChildProcessId
 )
@@ -660,10 +657,6 @@ DeferredDestroy
 MessageLoop
 *
 mMessageLoop
-;
-Transport
-*
-mTransport
 ;
 RefPtr
 <

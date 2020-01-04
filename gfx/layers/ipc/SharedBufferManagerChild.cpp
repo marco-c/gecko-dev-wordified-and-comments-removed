@@ -737,7 +737,6 @@ sSharedBufferManagerParentSingleton
 new
 SharedBufferManagerParent
 (
-nullptr
 base
 :
 :

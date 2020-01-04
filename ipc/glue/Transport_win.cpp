@@ -259,8 +259,10 @@ return
 handleDup
 ;
 }
+UniquePtr
+<
 Transport
-*
+>
 OpenDescriptor
 (
 const
@@ -301,8 +303,10 @@ GetCurrentProcId
 ;
 }
 return
-new
+MakeUnique
+<
 Transport
+>
 (
 aTd
 .
@@ -315,8 +319,10 @@ nullptr
 )
 ;
 }
+UniquePtr
+<
 Transport
-*
+>
 OpenDescriptor
 (
 const
