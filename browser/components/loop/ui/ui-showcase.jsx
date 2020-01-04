@@ -8857,6 +8857,11 @@ UnsupportedBrowserView
 >
 <
 FramedExample
+cssClass
+=
+"
+standalone
+"
 dashed
 =
 {
@@ -8919,6 +8924,11 @@ UnsupportedDeviceView
 >
 <
 FramedExample
+cssClass
+=
+"
+standalone
+"
 dashed
 =
 {
