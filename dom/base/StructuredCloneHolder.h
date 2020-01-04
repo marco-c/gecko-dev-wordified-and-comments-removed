@@ -627,6 +627,7 @@ MessagePortIdentifier
 PortIdentifiers
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -929,6 +930,7 @@ MessagePort
 >
 mTransferredPorts
 ;
+mutable
 nsTArray
 <
 MessagePortIdentifier
