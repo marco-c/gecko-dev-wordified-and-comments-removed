@@ -169,12 +169,6 @@ mDecoder
 ;
 RefPtr
 <
-TaskQueue
->
-mTaskQueue
-;
-RefPtr
-<
 MediaDataDemuxer
 >
 mDemuxer
