@@ -528,6 +528,26 @@ strict_origin_policy
 False
         
 '
+toolkit
+.
+telemetry
+.
+prompted
+'
+:
+999
+        
+'
+toolkit
+.
+telemetry
+.
+notifiedOptOut
+'
+:
+999
+        
+'
 dom
 .
 send_after_paint_to_content

@@ -1855,6 +1855,26 @@ warn_viewing_mixed
 False
     
 '
+toolkit
+.
+telemetry
+.
+prompted
+'
+:
+999
+    
+'
+toolkit
+.
+telemetry
+.
+notifiedOptOut
+'
+:
+999
+    
+'
 extensions
 .
 defaultProviders
