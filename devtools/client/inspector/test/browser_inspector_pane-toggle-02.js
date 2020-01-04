@@ -57,8 +57,6 @@ querySelector
 inspector
 -
 sidebar
--
-container
 "
 )
 ;

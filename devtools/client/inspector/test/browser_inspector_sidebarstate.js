@@ -115,11 +115,6 @@ computedview
 "
 )
 ;
-yield
-waitForTick
-(
-)
-;
 info
 (
 "

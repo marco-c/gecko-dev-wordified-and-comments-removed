@@ -94,6 +94,14 @@ sidebar
 <
 !
 ENTITY
+fontInspectorTitle
+"
+Fonts
+"
+>
+<
+!
+ENTITY
 showAllFonts
 "
 See
