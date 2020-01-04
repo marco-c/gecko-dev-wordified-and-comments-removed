@@ -7046,6 +7046,7 @@ aNewAddon
 syncLoadManifestFromFile
 (
 file
+aInstallLocation
 )
 ;
 }
@@ -7153,12 +7154,6 @@ return
 null
 ;
 }
-aNewAddon
-.
-_installLocation
-=
-aInstallLocation
-;
 aNewAddon
 .
 installDate
@@ -7553,6 +7548,7 @@ aNewAddon
 syncLoadManifestFromFile
 (
 file
+aInstallLocation
 )
 ;
 applyBlocklistChanges
@@ -7689,12 +7685,6 @@ return
 null
 ;
 }
-aNewAddon
-.
-_installLocation
-=
-aInstallLocation
-;
 aNewAddon
 .
 updateDate
@@ -7867,6 +7857,7 @@ manifest
 syncLoadManifestFromFile
 (
 file
+aInstallLocation
 )
 ;
 aOldAddon
