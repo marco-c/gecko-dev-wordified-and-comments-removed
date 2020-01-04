@@ -333,7 +333,6 @@ execute
 cx
 input
 lazyIndex
-lazySticky
 &
 this
 -

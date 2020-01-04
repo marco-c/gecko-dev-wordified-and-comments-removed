@@ -15701,6 +15701,15 @@ regexp_construct_self_hosting
 JS_FN
 (
 "
+regexp_construct_no_sticky
+"
+regexp_construct_no_sticky
+2
+0
+)
+JS_FN
+(
+"
 IsMatchFlagsArgumentEnabled
 "
 IsMatchFlagsArgumentEnabled

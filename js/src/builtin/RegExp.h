@@ -100,8 +100,6 @@ HandleString
 input
 int32_t
 lastIndex
-bool
-sticky
 MatchPairs
 *
 maybeMatches
@@ -136,8 +134,6 @@ HandleString
 input
 int32_t
 lastIndex
-bool
-sticky
 MatchPairs
 *
 maybeMatches
@@ -173,8 +169,6 @@ HandleString
 input
 int32_t
 lastIndex
-bool
-sticky
 int32_t
 *
 endIndex
@@ -211,6 +205,20 @@ vp
 extern
 bool
 regexp_construct_self_hosting
+(
+JSContext
+*
+cx
+unsigned
+argc
+Value
+*
+vp
+)
+;
+extern
+bool
+regexp_construct_no_sticky
 (
 JSContext
 *

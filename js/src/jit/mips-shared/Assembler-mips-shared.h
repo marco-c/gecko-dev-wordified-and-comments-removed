@@ -864,13 +864,6 @@ CallTempReg2
 static
 MOZ_CONSTEXPR_VAR
 Register
-RegExpMatcherStickyReg
-=
-CallTempReg3
-;
-static
-MOZ_CONSTEXPR_VAR
-Register
 RegExpTesterRegExpReg
 =
 CallTempReg0
@@ -888,13 +881,6 @@ Register
 RegExpTesterLastIndexReg
 =
 CallTempReg2
-;
-static
-MOZ_CONSTEXPR_VAR
-Register
-RegExpTesterStickyReg
-=
-CallTempReg3
 ;
 static
 MOZ_CONSTEXPR_VAR

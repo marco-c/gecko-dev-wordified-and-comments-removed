@@ -83,7 +83,6 @@ RegExpMatcher
 rx
 S
 lastIndex
-sticky
 )
 ;
 if

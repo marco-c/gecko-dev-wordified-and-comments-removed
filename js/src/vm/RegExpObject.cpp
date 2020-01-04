@@ -2934,8 +2934,6 @@ HandleLinearString
 input
 CompilationMode
 mode
-bool
-sticky
 ForceByteCodeEnum
 force
 )
@@ -2975,7 +2973,6 @@ cx
 pattern
 input
 mode
-sticky
 force
 )
 ;
@@ -2995,8 +2992,6 @@ HandleLinearString
 input
 CompilationMode
 mode
-bool
-sticky
 ForceByteCodeEnum
 force
 )
@@ -3135,6 +3130,8 @@ force
 =
 ForceByteCode
 sticky
+(
+)
 unicode
 (
 )
@@ -3186,7 +3183,6 @@ this
 compilation
 (
 mode
-sticky
 input
 -
 >
@@ -3241,8 +3237,6 @@ HandleLinearString
 input
 CompilationMode
 mode
-bool
-sticky
 ForceByteCodeEnum
 force
 )
@@ -3252,7 +3246,6 @@ if
 isCompiled
 (
 mode
-sticky
 input
 -
 >
@@ -3271,7 +3264,6 @@ compile
 cx
 input
 mode
-sticky
 force
 )
 ;
@@ -3289,8 +3281,6 @@ HandleLinearString
 input
 size_t
 start
-bool
-sticky
 MatchPairs
 *
 matches
@@ -3344,7 +3334,6 @@ compileIfNecessary
 cx
 input
 mode
-sticky
 DontForceByteCode
 )
 )
@@ -3429,6 +3418,8 @@ length
 if
 (
 sticky
+(
+)
 )
 {
 if
@@ -3611,7 +3602,6 @@ code
 compilation
 (
 mode
-sticky
 input
 -
 >
@@ -3788,7 +3778,6 @@ compileIfNecessary
 cx
 input
 mode
-sticky
 ForceByteCode
 )
 )
@@ -3802,7 +3791,6 @@ byteCode
 compilation
 (
 mode
-sticky
 input
 -
 >

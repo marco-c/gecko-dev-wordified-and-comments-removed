@@ -1223,13 +1223,6 @@ CallTempReg2
 static
 MOZ_CONSTEXPR_VAR
 Register
-RegExpMatcherStickyReg
-=
-CallTempReg4
-;
-static
-MOZ_CONSTEXPR_VAR
-Register
 RegExpTesterRegExpReg
 =
 CallTempReg1
@@ -1247,13 +1240,6 @@ Register
 RegExpTesterLastIndexReg
 =
 CallTempReg3
-;
-static
-MOZ_CONSTEXPR_VAR
-Register
-RegExpTesterStickyReg
-=
-CallTempReg4
 ;
 class
 ABIArgGenerator
