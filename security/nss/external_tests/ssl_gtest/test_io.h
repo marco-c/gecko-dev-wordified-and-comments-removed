@@ -208,12 +208,7 @@ PacketFilter
 *
 filter
 )
-{
-filter_
-=
-filter
 ;
-}
 void
 Reset
 (
