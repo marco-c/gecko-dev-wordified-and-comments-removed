@@ -1589,6 +1589,7 @@ GLContext
 ARB_texture_rectangle
 )
 )
+{
 *
 out_failureReason
 =
@@ -1599,6 +1600,7 @@ FEATURE_FAILURE_OPENGL_ARB_EXT
 return
 false
 ;
+}
 }
 mGLContext
 -
