@@ -717,6 +717,8 @@ ProcessBlock
 AudioNodeStream
 *
 aStream
+GraphTime
+aFrom
 const
 AudioBlock
 &

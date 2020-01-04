@@ -279,6 +279,8 @@ ProcessBlock
 AudioNodeStream
 *
 aStream
+GraphTime
+aFrom
 const
 AudioBlock
 &
@@ -485,6 +487,7 @@ mHaveProducedBeforeInput
 {
 UpdateOutputBlock
 (
+aFrom
 aOutput
 0
 .
@@ -506,6 +509,8 @@ NextBlock
 void
 UpdateOutputBlock
 (
+GraphTime
+aFrom
 AudioBlock
 *
 aOutput
@@ -595,8 +600,9 @@ tick
 mSource
 -
 >
-GetCurrentPosition
+GraphTimeToStreamTime
 (
+aFrom
 )
 ;
 float
@@ -688,6 +694,8 @@ virtual
 void
 ProduceBlockBeforeInput
 (
+GraphTime
+aFrom
 AudioBlock
 *
 aOutput
@@ -715,6 +723,7 @@ else
 {
 UpdateOutputBlock
 (
+aFrom
 aOutput
 WEBAUDIO_BLOCK_SIZE
 )

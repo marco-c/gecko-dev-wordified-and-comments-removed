@@ -1028,6 +1028,8 @@ ProcessBlock
 AudioNodeStream
 *
 aStream
+GraphTime
+aFrom
 const
 AudioBlock
 &
@@ -1044,6 +1046,8 @@ virtual
 void
 ProduceBlockBeforeInput
 (
+GraphTime
+aFrom
 AudioBlock
 *
 aOutput

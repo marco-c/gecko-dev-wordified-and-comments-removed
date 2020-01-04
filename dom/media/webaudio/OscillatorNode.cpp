@@ -1288,6 +1288,8 @@ ProcessBlock
 AudioNodeStream
 *
 aStream
+GraphTime
+aFrom
 const
 AudioBlock
 &
@@ -1320,8 +1322,9 @@ ticks
 aStream
 -
 >
-GetCurrentPosition
+GraphTimeToStreamTime
 (
+aFrom
 )
 ;
 if
