@@ -878,6 +878,17 @@ platform
 tests
 .
 zip
+TALOS_PACKAGE
+=
+(
+PKG_BASENAME
+)
+.
+talos
+.
+tests
+.
+zip
 ifneq
 (
 (
