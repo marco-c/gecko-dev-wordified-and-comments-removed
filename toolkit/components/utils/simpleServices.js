@@ -956,6 +956,13 @@ aContext
 let
 string
 =
+(
+aStream
+.
+available
+(
+)
+?
 NetUtil
 .
 readInputStreamToString
@@ -966,6 +973,10 @@ aStream
 available
 (
 )
+)
+:
+"
+"
 )
 ;
 return
