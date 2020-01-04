@@ -45,7 +45,7 @@ HWCAP_MIPS
 1
 <
 <
-31
+28
 )
 #
 define
@@ -54,7 +54,7 @@ HWCAP_LOONGSON
 1
 <
 <
-30
+27
 )
 #
 define
