@@ -6010,10 +6010,12 @@ MozEdgeUICanceled
 "
 )
 )
+{
 msg
 =
-NS_SIMPLE_GESTURE_EDGE_CANCELED
+eEdgeUICanceled
 ;
+}
 else
 if
 (
