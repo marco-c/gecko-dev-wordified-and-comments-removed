@@ -421,6 +421,14 @@ anchor
 -
 icon
 :
+not
+(
+.
+plugin
+-
+blocked
+)
+:
 hover
 {
 opacity
@@ -2081,8 +2089,6 @@ d92215
 opacity
 :
 1
-!
-important
 ;
 }
 #
