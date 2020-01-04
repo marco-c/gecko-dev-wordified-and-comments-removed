@@ -81,7 +81,7 @@ tooltool
 -
 manifests
 /
-android
+b2gdroid
 /
 releng
 .
