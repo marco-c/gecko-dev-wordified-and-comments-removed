@@ -356,11 +356,11 @@ aOpenedWindow
 ;
 static
 void
-SizeOpenedDocShellItem
+SizeOpenedWindow
 (
-nsIDocShellTreeItem
+nsIDocShellTreeOwner
 *
-aDocShellItem
+aTreeOwner
 mozIDOMWindowProxy
 *
 aParent
