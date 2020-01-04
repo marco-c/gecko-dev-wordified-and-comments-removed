@@ -863,7 +863,13 @@ mContentBackendBitmask
 }
 virtual
 bool
-UseAcceleratedCanvas
+HaveChoiceOfHWAndSWCanvas
+(
+)
+;
+virtual
+bool
+UseAcceleratedSkiaCanvas
 (
 )
 ;
@@ -918,9 +924,9 @@ aObj
 DefineProperty
 (
 "
-AzureCanvasAccelerated
+AzureSkiaAccelerated
 "
-UseAcceleratedCanvas
+UseAcceleratedSkiaCanvas
 (
 )
 )
