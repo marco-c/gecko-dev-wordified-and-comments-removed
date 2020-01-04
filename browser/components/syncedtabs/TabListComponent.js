@@ -634,7 +634,7 @@ this
 .
 _window
 .
-openLinkIn
+openUILinkIn
 (
 url
 where

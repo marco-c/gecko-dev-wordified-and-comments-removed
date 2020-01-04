@@ -615,7 +615,7 @@ id
 "
 }
 }
-openLinkIn
+openUILinkIn
 (
 )
 {
@@ -996,7 +996,7 @@ spy
 (
 windowMock
 "
-openLinkIn
+openUILinkIn
 "
 )
 ;
@@ -1021,7 +1021,7 @@ ok
 (
 windowMock
 .
-openLinkIn
+openUILinkIn
 .
 calledWith
 (
