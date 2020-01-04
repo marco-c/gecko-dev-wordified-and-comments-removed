@@ -1069,7 +1069,7 @@ nsContentUtils
 :
 eSECURITY_PROPERTIES
 "
-MalformedIntegrityURI
+MalformedIntegrityHash
 "
 params
 ArrayLength
