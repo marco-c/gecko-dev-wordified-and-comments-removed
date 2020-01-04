@@ -609,6 +609,12 @@ register
 fireFunc
 )
 ;
+this
+.
+registered
+=
+true
+;
 }
 this
 .
