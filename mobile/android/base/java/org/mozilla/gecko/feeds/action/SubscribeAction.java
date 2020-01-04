@@ -77,6 +77,8 @@ UUID
 public
 class
 SubscribeAction
+implements
+BaseAction
 {
 private
 static
@@ -126,6 +128,7 @@ storage
 storage
 ;
 }
+Override
 public
 void
 perform
@@ -227,6 +230,17 @@ subscribe
 guid
 feedUrl
 )
+;
+}
+Override
+public
+boolean
+requiresNetwork
+(
+)
+{
+return
+true
 ;
 }
 private
