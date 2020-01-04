@@ -372,14 +372,10 @@ mClosed
 bool
 const
 mPriority
-:
-1
 ;
 bool
 const
 mSpecialFile
-:
-1
 ;
 bool
 mInvalid
