@@ -1258,7 +1258,7 @@ TAB_QUEUE_NOTIFICATION_ID
 }
 public
 static
-void
+boolean
 processTabQueuePromptResponse
 (
 int
@@ -1386,6 +1386,12 @@ editor
 apply
 (
 )
+;
+return
+resultCode
+=
+=
+TAB_QUEUE_YES
 ;
 }
 public
