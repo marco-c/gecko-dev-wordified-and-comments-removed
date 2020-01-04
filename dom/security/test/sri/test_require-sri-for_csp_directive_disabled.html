@@ -14,6 +14,7 @@ title
 >
 Test
 for
+diabled
 SRI
 require
 -
@@ -172,7 +173,7 @@ csp
 .
 experimentalEnabled
 "
-true
+false
 )
 ;
 SimpleTest
@@ -222,7 +223,7 @@ bad_nonsriLoaded
 :
 ok
 (
-false
+true
 "
 Eligible
 non
@@ -248,7 +249,7 @@ good_nonsriBlocked
 :
 ok
 (
-true
+false
 "
 Eligible
 non
@@ -311,7 +312,7 @@ color
 ok
 (
 blackTextColor
-=
+!
 =
 '
 rgb
@@ -326,7 +327,7 @@ The
 second
 part
 should
-not
+still
 be
 black
 .
