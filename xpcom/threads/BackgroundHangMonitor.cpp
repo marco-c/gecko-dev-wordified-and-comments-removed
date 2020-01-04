@@ -1185,6 +1185,17 @@ nextRecheck
 hangTime
 )
 ;
+if
+(
+currentThread
+-
+>
+mTimeout
+!
+=
+PR_INTERVAL_NO_TIMEOUT
+)
+{
 waitTime
 =
 std
@@ -1201,6 +1212,7 @@ mTimeout
 4
 )
 ;
+}
 }
 }
 while
