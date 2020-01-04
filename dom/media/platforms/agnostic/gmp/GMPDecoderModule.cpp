@@ -242,9 +242,9 @@ layers
 ImageContainer
 *
 aImageContainer
-FlushableTaskQueue
+TaskQueue
 *
-aVideoTaskQueue
+aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
@@ -338,7 +338,7 @@ GMPVideoDecoder
 aConfig
 aLayersBackend
 aImageContainer
-aVideoTaskQueue
+aTaskQueue
 wrapper
 -
 >
@@ -369,9 +369,9 @@ const
 AudioInfo
 &
 aConfig
-FlushableTaskQueue
+TaskQueue
 *
-aAudioTaskQueue
+aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
@@ -465,7 +465,7 @@ new
 GMPAudioDecoder
 (
 aConfig
-aAudioTaskQueue
+aTaskQueue
 wrapper
 -
 >

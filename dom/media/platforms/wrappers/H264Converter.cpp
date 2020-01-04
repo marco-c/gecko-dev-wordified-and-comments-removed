@@ -72,9 +72,9 @@ layers
 ImageContainer
 *
 aImageContainer
-FlushableTaskQueue
+TaskQueue
 *
-aVideoTaskQueue
+aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
@@ -103,9 +103,9 @@ mImageContainer
 (
 aImageContainer
 )
-mVideoTaskQueue
+mTaskQueue
 (
-aVideoTaskQueue
+aTaskQueue
 )
 mCallback
 (
@@ -537,7 +537,7 @@ mCurrentConfig
 mOriginalConfig
 mLayersBackend
 mImageContainer
-mVideoTaskQueue
+mTaskQueue
 mCallback
 aDiagnostics
 )

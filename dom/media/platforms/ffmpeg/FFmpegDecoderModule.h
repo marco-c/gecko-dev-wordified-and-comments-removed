@@ -122,9 +122,9 @@ layers
 ImageContainer
 *
 aImageContainer
-FlushableTaskQueue
+TaskQueue
 *
-aVideoTaskQueue
+aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
@@ -147,7 +147,7 @@ V
 >
 (
 mLib
-aVideoTaskQueue
+aTaskQueue
 aCallback
 aConfig
 aImageContainer
@@ -171,9 +171,9 @@ const
 AudioInfo
 &
 aConfig
-FlushableTaskQueue
+TaskQueue
 *
-aAudioTaskQueue
+aTaskQueue
 MediaDataDecoderCallback
 *
 aCallback
@@ -204,7 +204,7 @@ V
 >
 (
 mLib
-aAudioTaskQueue
+aTaskQueue
 aCallback
 aConfig
 )
