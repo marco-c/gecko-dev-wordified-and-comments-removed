@@ -131,6 +131,10 @@ assembleAutomationDebug
 '
 assembleAutomationDebugAndroidTest
 '
+         
+'
+checkstyle
+'
         
 ]
     
