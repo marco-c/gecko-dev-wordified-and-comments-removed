@@ -13,15 +13,6 @@ Assertions
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 namespace
 mozilla
 {
@@ -32,10 +23,6 @@ KnownNotNull
 }
 ;
 }
-MOZ_NONNULL
-(
-3
-)
 inline
 void
 *
