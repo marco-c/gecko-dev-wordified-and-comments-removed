@@ -14644,6 +14644,16 @@ aObject
 unsigned
 )
 ;
+namespace
+binding_detail
+{
+JSObject
+*
+UnprivilegedJunkScopeOrWorkerGlobal
+(
+)
+;
+}
 }
 }
 #
