@@ -18403,7 +18403,7 @@ isInstallAllowed
 function
 XPI_isInstallAllowed
 (
-aUri
+aInstallingPrincipal
 )
 {
 if
@@ -18418,10 +18418,17 @@ isInstallEnabled
 return
 false
 ;
+let
+uri
+=
+aInstallingPrincipal
+.
+URI
+;
 if
 (
 !
-aUri
+uri
 )
 return
 this
@@ -18440,7 +18447,7 @@ isFileRequestWhitelisted
 &
 &
 (
-aUri
+uri
 .
 schemeIs
 (
@@ -18450,7 +18457,7 @@ chrome
 )
 |
 |
-aUri
+uri
 .
 schemeIs
 (
@@ -18476,9 +18483,9 @@ Services
 .
 perms
 .
-testPermission
+testPermissionFromPrincipal
 (
-aUri
+aInstallingPrincipal
 XPI_PERMISSION
 )
 ;
@@ -18561,7 +18568,7 @@ safeSchemes
 .
 indexOf
 (
-aUri
+uri
 .
 scheme
 )

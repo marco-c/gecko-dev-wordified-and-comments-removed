@@ -99,7 +99,10 @@ settings
 k
 ]
 =
+decodeURIComponent
+(
 v
+)
 ;
 }
 )

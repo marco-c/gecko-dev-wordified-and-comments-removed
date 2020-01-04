@@ -124,10 +124,12 @@ gBrowser
 .
 loadURI
 (
+TESTROOT
++
 "
-about
-:
-blank
+enabled
+.
+html
 "
 )
 ;

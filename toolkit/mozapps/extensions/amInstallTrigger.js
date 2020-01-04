@@ -415,9 +415,6 @@ let
 params
 =
 {
-referer
-:
-url
 mimetype
 :
 XPINSTALL_MIMETYPE
@@ -443,7 +440,7 @@ install
 function
 (
 installs
-referer
+principal
 callback
 window
 )
@@ -509,9 +506,9 @@ XPINSTALL_MIMETYPE
 ;
 installs
 .
-referer
+triggeringPrincipal
 =
-referer
+principal
 ;
 installs
 .
@@ -992,9 +989,7 @@ install
 installData
 this
 .
-_url
-.
-spec
+_principal
 callback
 this
 .

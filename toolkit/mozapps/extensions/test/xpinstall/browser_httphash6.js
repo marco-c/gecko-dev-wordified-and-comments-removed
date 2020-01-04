@@ -408,7 +408,7 @@ gBrowser
 selectedBrowser
 gBrowser
 .
-currentURI
+contentPrincipal
 [
 gInstall
 ]
