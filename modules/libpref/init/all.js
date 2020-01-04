@@ -1897,6 +1897,7 @@ notifications
 allowed
 "
 "
+MediaWMFNeeded
 MediaWidevineNoWMFNoSilverlight
 "
 )
