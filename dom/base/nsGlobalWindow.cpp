@@ -5825,6 +5825,9 @@ length
 i
 )
 {
+if
+(
+!
 props
 .
 append
@@ -5834,7 +5837,12 @@ INT_TO_JSID
 i
 )
 )
+)
+{
+return
+false
 ;
+}
 }
 return
 true

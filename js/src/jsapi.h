@@ -556,6 +556,7 @@ empty
 )
 ;
 }
+MOZ_MUST_USE
 bool
 append
 (
@@ -574,6 +575,7 @@ v
 )
 ;
 }
+MOZ_MUST_USE
 bool
 appendN
 (
@@ -595,6 +597,7 @@ len
 )
 ;
 }
+MOZ_MUST_USE
 bool
 append
 (
@@ -616,6 +619,7 @@ len
 )
 ;
 }
+MOZ_MUST_USE
 bool
 appendAll
 (
@@ -639,6 +643,7 @@ vector
 )
 ;
 }
+MOZ_MUST_USE
 bool
 insert
 (
@@ -703,6 +708,7 @@ popCopy
 )
 ;
 }
+MOZ_MUST_USE
 bool
 growBy
 (
@@ -741,6 +747,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 resize
 (
@@ -814,6 +821,7 @@ clear
 )
 ;
 }
+MOZ_MUST_USE
 bool
 reserve
 (

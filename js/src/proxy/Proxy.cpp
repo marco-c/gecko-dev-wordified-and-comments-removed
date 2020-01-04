@@ -1161,6 +1161,10 @@ if
 (
 unique
 )
+{
+if
+(
+!
 uniqueOthers
 .
 append
@@ -1170,7 +1174,11 @@ others
 i
 ]
 )
+)
+return
+false
 ;
+}
 }
 return
 base
