@@ -432,6 +432,9 @@ newapps
 '
 u2f
 '
+'
+console
+'
 ]
 if
 CONFIG

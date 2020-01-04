@@ -72,6 +72,13 @@ h
 #
 include
 "
+nsStyleLinkElement
+.
+h
+"
+#
+include
+"
 nsEscape
 .
 h

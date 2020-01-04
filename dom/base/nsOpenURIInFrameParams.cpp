@@ -14,6 +14,17 @@ BasePrincipal
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+ToJSValue
+.
+h
+"
 NS_IMPL_ISUPPORTS
 (
 nsOpenURIInFrameParams
