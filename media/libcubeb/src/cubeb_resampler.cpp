@@ -685,7 +685,6 @@ T
 *
 output_buffer
 long
-output_frames_needed
 )
 {
 assert

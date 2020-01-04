@@ -183,7 +183,6 @@ user_ptr
 const
 void
 *
-inputbuffer
 void
 *
 outputbuffer
@@ -278,12 +277,9 @@ test_state_callback
 (
 cubeb_stream
 *
-stm
 void
 *
-user_ptr
 cubeb_state
-state
 )
 {
 }
@@ -2359,7 +2355,6 @@ user_ptr
 const
 void
 *
-inputbuffer
 void
 *
 outputbuffer
@@ -2467,10 +2462,8 @@ test_drain_state_callback
 (
 cubeb_stream
 *
-stm
 void
 *
-user_ptr
 cubeb_state
 state
 )
@@ -2873,10 +2866,8 @@ int
 main
 (
 int
-argc
 char
 *
-argv
 [
 ]
 )
