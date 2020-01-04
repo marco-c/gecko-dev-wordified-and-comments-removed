@@ -273555,7 +273555,7 @@ js
 var
 BIND_VIDEO_DELAY_MAX
 =
-15000
+30000
 ;
 var
 Subscriber

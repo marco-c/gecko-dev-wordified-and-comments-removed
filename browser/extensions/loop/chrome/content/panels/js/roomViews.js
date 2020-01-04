@@ -1651,11 +1651,6 @@ matchMedia
 window
 .
 matchMedia
-.
-bind
-(
-window
-)
 remotePosterUrl
 :
 this
