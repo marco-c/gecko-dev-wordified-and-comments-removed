@@ -528,11 +528,6 @@ sync
 button
 "
 "
-tabview
--
-button
-"
-"
 web
 -
 apps

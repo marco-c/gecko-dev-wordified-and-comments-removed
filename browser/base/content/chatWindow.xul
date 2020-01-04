@@ -639,11 +639,6 @@ Browser
 :
 BookmarkAllTabs
 '
-'
-Browser
-:
-ToggleTabView
-'
 ]
 ;
 for
