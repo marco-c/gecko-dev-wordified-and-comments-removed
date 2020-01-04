@@ -3074,7 +3074,7 @@ heap
 =
 module
 .
-maybeHeap
+heap
 (
 )
 .

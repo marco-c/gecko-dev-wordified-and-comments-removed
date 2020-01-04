@@ -3399,14 +3399,14 @@ METHOD_HOMEOBJECT_SLOT
 static
 const
 unsigned
-ASM_MODULE_SLOT
+WASM_MODULE_SLOT
 =
 0
 ;
 static
 const
 unsigned
-ASM_EXPORT_INDEX_SLOT
+WASM_EXPORT_INDEX_SLOT
 =
 1
 ;

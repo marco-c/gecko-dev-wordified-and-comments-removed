@@ -3911,16 +3911,6 @@ JS
 AsmJSCacheOps
 asmJSCacheOps
 ;
-js
-:
-:
-wasm
-:
-:
-Module
-*
-linkedWasmModules
-;
 uint32_t
 propertyRemovals
 ;

@@ -26,19 +26,6 @@ of
 ]
 )
 {
-var
-buffer_ctor
-=
-(
-size
-<
-0
-)
-?
-AsmJSArrayBuffer
-:
-ArrayBuffer
-;
 size
 =
 Math
@@ -52,7 +39,7 @@ var
 old
 =
 new
-buffer_ctor
+ArrayBuffer
 (
 size
 )
@@ -126,7 +113,7 @@ var
 buf
 =
 new
-buffer_ctor
+ArrayBuffer
 (
 size
 )
@@ -290,7 +277,7 @@ var
 buf
 =
 new
-buffer_ctor
+ArrayBuffer
 (
 size
 )
@@ -423,7 +410,7 @@ size
 old
 =
 new
-buffer_ctor
+ArrayBuffer
 (
 size
 )
@@ -521,7 +508,7 @@ size
 old
 =
 new
-buffer_ctor
+ArrayBuffer
 (
 size
 )

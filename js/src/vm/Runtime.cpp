@@ -917,10 +917,6 @@ errorReporter
 (
 nullptr
 )
-linkedWasmModules
-(
-nullptr
-)
 propertyRemovals
 (
 0

@@ -4961,7 +4961,7 @@ base
 =
 module
 .
-maybeHeap
+heap
 (
 )
 )
@@ -5072,7 +5072,7 @@ accessAddress
 =
 module
 .
-maybeHeap
+heap
 (
 )
 "
@@ -5100,7 +5100,7 @@ size
 =
 module
 .
-maybeHeap
+heap
 (
 )
 +
@@ -5131,7 +5131,7 @@ size
 >
 module
 .
-maybeHeap
+heap
 (
 )
 +
@@ -5160,7 +5160,7 @@ accessAddress
 -
 module
 .
-maybeHeap
+heap
 (
 )
 .
@@ -5272,7 +5272,7 @@ wrappedAddress
 =
 module
 .
-maybeHeap
+heap
 (
 )
 +
@@ -5285,7 +5285,7 @@ wrappedAddress
 =
 module
 .
-maybeHeap
+heap
 (
 )
 )
@@ -5308,7 +5308,7 @@ size
 =
 module
 .
-maybeHeap
+heap
 (
 )
 +
@@ -5697,7 +5697,7 @@ if
 !
 module
 .
-maybeHeap
+usesHeap
 (
 )
 |
@@ -5706,7 +5706,7 @@ faultingAddress
 <
 module
 .
-maybeHeap
+heap
 (
 )
 |
@@ -5716,7 +5716,7 @@ faultingAddress
 =
 module
 .
-maybeHeap
+heap
 (
 )
 +
@@ -6400,7 +6400,7 @@ if
 !
 module
 .
-maybeHeap
+usesHeap
 (
 )
 |
@@ -6409,7 +6409,7 @@ faultingAddress
 <
 module
 .
-maybeHeap
+heap
 (
 )
 |
@@ -6419,7 +6419,7 @@ faultingAddress
 =
 module
 .
-maybeHeap
+heap
 (
 )
 +
@@ -7347,7 +7347,7 @@ if
 !
 module
 .
-maybeHeap
+usesHeap
 (
 )
 |
@@ -7356,7 +7356,7 @@ faultingAddress
 <
 module
 .
-maybeHeap
+heap
 (
 )
 |
@@ -7366,7 +7366,7 @@ faultingAddress
 =
 module
 .
-maybeHeap
+heap
 (
 )
 +

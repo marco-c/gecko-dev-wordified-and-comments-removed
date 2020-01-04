@@ -25,10 +25,7 @@ GenerateStubs
 ModuleGenerator
 &
 mg
-Module
-:
-:
-HeapBool
+bool
 usesHeap
 )
 ;
