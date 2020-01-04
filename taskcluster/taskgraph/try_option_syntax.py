@@ -87,6 +87,10 @@ static
 -
 analysis
 '
+    
+'
+spidermonkey
+'
 ]
 )
 JOB_KINDS
