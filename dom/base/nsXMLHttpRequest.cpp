@@ -4166,6 +4166,7 @@ nsXMLHttpRequest
 IsCrossSiteCORSRequest
 (
 )
+const
 {
 if
 (
@@ -4834,11 +4835,15 @@ IsSafeHeader
 const
 nsACString
 &
-header
+aHeader
+NotNull
+<
 nsIHttpChannel
 *
-httpChannel
+>
+aHttpChannel
 )
+const
 {
 if
 (
@@ -4853,7 +4858,7 @@ nsContentUtils
 :
 IsForbiddenResponseHeader
 (
-header
+aHeader
 )
 )
 {
@@ -4971,7 +4976,7 @@ i
 {
 if
 (
-header
+aHeader
 .
 LowerCaseEqualsASCII
 (
@@ -4990,7 +4995,7 @@ true
 nsAutoCString
 headerVal
 ;
-httpChannel
+aHttpChannel
 -
 >
 GetResponseHeader
@@ -5070,7 +5075,7 @@ false
 }
 if
 (
-header
+aHeader
 .
 Equals
 (
@@ -5150,8 +5155,12 @@ visitor
 new
 nsHeaderVisitor
 (
+*
 this
+WrapNotNull
+(
 httpChannel
+)
 )
 ;
 if
@@ -5586,7 +5595,10 @@ if
 IsSafeHeader
 (
 header
+WrapNotNull
+(
 httpChannel
+)
 )
 )
 {
@@ -6032,6 +6044,7 @@ nsXMLHttpRequest
 IsSystemXHR
 (
 )
+const
 {
 return
 mIsSystem
@@ -15154,8 +15167,7 @@ value
 if
 (
 mXHR
--
->
+.
 IsSafeHeader
 (
 header
