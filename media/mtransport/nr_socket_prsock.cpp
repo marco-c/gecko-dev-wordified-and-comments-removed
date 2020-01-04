@@ -273,17 +273,6 @@ endif
 #
 undef
 strlcpy
-namespace
-mozilla
-{
-namespace
-dom
-{
-class
-ArrayBuffer
-;
-}
-}
 #
 include
 "
