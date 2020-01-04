@@ -53,6 +53,10 @@ BUILD_KINDS
 set
 (
 [
+    
+'
+build
+'
 ]
 )
 JOB_KINDS

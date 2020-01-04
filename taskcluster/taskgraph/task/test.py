@@ -389,24 +389,6 @@ dep_kind
                 
 continue
             
-if
-task
-.
-attributes
-[
-'
-legacy_kind
-'
-]
-!
-=
-'
-build
-'
-:
-                
-continue
-            
 build_platform
 =
 task

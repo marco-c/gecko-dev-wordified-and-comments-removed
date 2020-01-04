@@ -12,7 +12,7 @@ kind
 dependencies
 :
 -
-legacy
+build
 transforms
 :
 -
