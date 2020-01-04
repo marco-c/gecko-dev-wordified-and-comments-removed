@@ -85,9 +85,7 @@ mozilla
 /
 dom
 /
-cache
-/
-IPCUtils
+FetchIPCTypes
 .
 h
 "
@@ -100,9 +98,7 @@ mozilla
 /
 dom
 /
-cache
-/
-IPCUtils
+FetchIPCTypes
 .
 h
 "
@@ -115,9 +111,7 @@ mozilla
 /
 dom
 /
-cache
-/
-IPCUtils
+FetchIPCTypes
 .
 h
 "
@@ -130,9 +124,7 @@ mozilla
 /
 dom
 /
-cache
-/
-IPCUtils
+FetchIPCTypes
 .
 h
 "
@@ -145,9 +137,7 @@ mozilla
 /
 dom
 /
-cache
-/
-IPCUtils
+FetchIPCTypes
 .
 h
 "
@@ -160,9 +150,7 @@ mozilla
 /
 dom
 /
-cache
-/
-IPCUtils
+FetchIPCTypes
 .
 h
 "
@@ -175,9 +163,7 @@ mozilla
 /
 dom
 /
-cache
-/
-IPCUtils
+FetchIPCTypes
 .
 h
 "
