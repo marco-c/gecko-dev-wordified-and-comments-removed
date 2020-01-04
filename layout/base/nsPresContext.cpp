@@ -7272,6 +7272,16 @@ GetRootElement
 (
 )
 ;
+if
+(
+!
+docElement
+)
+{
+return
+nullptr
+;
+}
 nsStyleSet
 *
 styleSet
