@@ -174,13 +174,6 @@ ClearTransparentWindow
 (
 )
 ;
-sync
-ResizeTransparentWindow
-(
-IntSize
-aSize
-)
-;
 async
 __delete__
 (
