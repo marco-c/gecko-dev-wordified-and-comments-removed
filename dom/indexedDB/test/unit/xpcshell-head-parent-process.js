@@ -453,6 +453,13 @@ event
 ;
 }
 function
+expectUncaughtException
+(
+expecting
+)
+{
+}
+function
 ExpectError
 (
 name
