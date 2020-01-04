@@ -377,11 +377,31 @@ isinstance
 ret
 set
 )
-and
+:
+                
+deps
+=
+ret
+                
+ret
+=
+None
+            
+else
+:
+                
+deps
+=
+set
+(
+)
+            
+if
+not
 ret
 :
                 
-ret
+deps
 |
 =
 set
@@ -391,7 +411,7 @@ iter_modules_in_path
 buildconfig
 .
 topsrcdir
-                                                
+                                                 
 buildconfig
 .
 topobjdir
@@ -417,7 +437,7 @@ output_file
 .
 add_dependencies
 (
-ret
+deps
 )
                 
 with
@@ -437,10 +457,6 @@ dump
 (
 dep_file
 )
-                
-ret
-=
-None
         
 try
 :
