@@ -4181,7 +4181,7 @@ downloadsCmd_showBlockedInfo
 {
 DownloadsBlockedSubview
 .
-show
+toggle
 (
 this
 .
@@ -5424,7 +5424,7 @@ view
 element
 :
 undefined
-show
+toggle
 (
 element
 title
@@ -5440,6 +5440,12 @@ view
 showingSubView
 )
 {
+this
+.
+hide
+(
+)
+;
 return
 ;
 }
