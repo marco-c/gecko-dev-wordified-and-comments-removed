@@ -1,4 +1,5 @@
 static
+const
 uint8_t
 sWebMSample
 [
