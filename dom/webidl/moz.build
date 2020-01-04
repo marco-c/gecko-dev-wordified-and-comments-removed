@@ -425,6 +425,11 @@ CharacterData
 webidl
 '
 '
+CheckerboardReportService
+.
+webidl
+'
+'
 ChildNode
 .
 webidl
