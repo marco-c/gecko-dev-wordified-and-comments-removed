@@ -162,6 +162,11 @@ CompositorSession
 .
 h
 '
+'
+InProcessCompositorSession
+.
+h
+'
 ]
 if
 CONFIG
@@ -246,6 +251,11 @@ cpp
 '
 '
 GPUProcessManager
+.
+cpp
+'
+'
+InProcessCompositorSession
 .
 cpp
 '
