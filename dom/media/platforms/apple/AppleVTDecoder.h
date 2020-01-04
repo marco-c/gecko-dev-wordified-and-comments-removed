@@ -378,12 +378,6 @@ const
 uint32_t
 mDisplayHeight
 ;
-Atomic
-<
-uint32_t
->
-mQueuedSamples
-;
 nsresult
 InitializeSession
 (
@@ -432,12 +426,6 @@ layers
 ImageContainer
 >
 mImageContainer
-;
-Atomic
-<
-uint32_t
->
-mInputIncoming
 ;
 Atomic
 <
