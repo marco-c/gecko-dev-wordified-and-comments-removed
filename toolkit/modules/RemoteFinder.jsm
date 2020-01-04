@@ -1105,6 +1105,7 @@ requestMatchesCount
 function
 (
 aSearchString
+aMatchLimit
 aLinksOnly
 )
 {
@@ -1125,6 +1126,9 @@ MatchesCount
 searchString
 :
 aSearchString
+matchLimit
+:
+aMatchLimit
 linksOnly
 :
 aLinksOnly
@@ -1729,6 +1733,9 @@ requestMatchesCount
 data
 .
 searchString
+data
+.
+matchLimit
 data
 .
 linksOnly
