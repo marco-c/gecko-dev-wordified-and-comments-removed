@@ -181,6 +181,9 @@ class
 ImageContainer
 ;
 class
+ImageContainerChild
+;
+class
 ImageBridgeParent
 ;
 class
@@ -499,7 +502,7 @@ aNotifications
 )
 override
 ;
-already_AddRefed
+RefPtr
 <
 ImageClient
 >
@@ -510,9 +513,12 @@ aType
 ImageContainer
 *
 aImageContainer
+ImageContainerChild
+*
+aContainerChild
 )
 ;
-already_AddRefed
+RefPtr
 <
 ImageClient
 >
@@ -523,6 +529,9 @@ aType
 ImageContainer
 *
 aImageContainer
+ImageContainerChild
+*
+aContainerChild
 )
 ;
 already_AddRefed
@@ -559,11 +568,9 @@ static
 void
 DispatchReleaseImageContainer
 (
-PImageContainerChild
+ImageContainerChild
 *
 aChild
-=
-nullptr
 )
 ;
 static
