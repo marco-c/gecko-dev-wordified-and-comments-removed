@@ -56,17 +56,6 @@ mozilla
 .
 gecko
 .
-favicons
-.
-OnFaviconLoadedListener
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 gfx
 .
 BitmapUtils
