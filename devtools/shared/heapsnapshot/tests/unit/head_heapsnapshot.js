@@ -999,6 +999,7 @@ compareCensusViewData
 breakdown
 report
 expected
+options
 )
 {
 dumpn
@@ -1070,6 +1071,7 @@ censusReportToCensusTreeNode
 (
 breakdown
 report
+options
 )
 ;
 dumpn
