@@ -929,7 +929,7 @@ _build_manifests
 /
 install
 /
-tests
+_tests
 )
 #
 For

@@ -8947,7 +8947,10 @@ EXPORTS
 '
 :
 (
-HierarchicalStringList
+ContextDerivedTypedHierarchicalStringList
+(
+Path
+)
 list
         
 "
@@ -9089,6 +9092,34 @@ bar
 h
 '
 ]
+        
+Entries
+in
+EXPORTS
+are
+paths
+so
+objdir
+paths
+may
+be
+used
+but
+        
+any
+files
+listed
+from
+the
+objdir
+must
+also
+be
+listed
+in
+        
+GENERATED_FILES
+.
         
 "
 "
