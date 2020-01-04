@@ -52,3 +52,17 @@ extensionId
 )
 ;
 }
+function
+clickPageAction
+(
+extensionId
+)
+{
+PageActions
+.
+synthesizeClick
+(
+extensionId
+)
+;
+}

@@ -45,5 +45,10 @@ isPageActionShown
 "
 :
 true
+"
+clickPageAction
+"
+:
+true
 }
 }
