@@ -17065,6 +17065,11 @@ return
 NS_OK
 ;
 }
+MOZ_ASSERT
+(
+false
+)
+;
 return
 NS_ERROR_UNEXPECTED
 ;
