@@ -4159,7 +4159,6 @@ null
 &
 globalsc
 nullptr
-0
 )
 ;
 if
@@ -4573,7 +4572,6 @@ pc
 mn
 modulebox
 nullptr
-0
 )
 ;
 if
@@ -5166,7 +5164,6 @@ pc
 fn
 funbox
 newDirectives
-0
 )
 ;
 if
@@ -12740,7 +12737,6 @@ null
 )
 funbox
 newDirectives
-0
 )
 ;
 if
@@ -12934,7 +12930,6 @@ pc
 pn
 funbox
 newDirectives
-0
 )
 ;
 if
@@ -13078,7 +13073,6 @@ null
 )
 funbox
 newDirectives
-0
 )
 ;
 if
@@ -13407,7 +13401,6 @@ pn
 funbox
 &
 newDirectives
-0
 )
 ;
 if
@@ -37618,7 +37611,6 @@ outerpc
 genfn
 genFunbox
 nullptr
-0
 )
 ;
 if

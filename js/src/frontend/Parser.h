@@ -611,8 +611,6 @@ sc
 Directives
 *
 newDirectives
-uint32_t
-blockScopeDepth
 )
 :
 GenericParseContext
@@ -641,7 +639,7 @@ NoYieldOffset
 )
 blockScopeDepth
 (
-blockScopeDepth
+0
 )
 blockNode
 (

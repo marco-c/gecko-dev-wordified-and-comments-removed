@@ -40471,7 +40471,6 @@ fn
 funbox
 &
 newDirectives
-0
 )
 ;
 if
