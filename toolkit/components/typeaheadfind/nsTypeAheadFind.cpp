@@ -2168,6 +2168,9 @@ NS_SUCCEEDED
 (
 rv
 )
+&
+&
+focusedWindow
 )
 {
 auto
