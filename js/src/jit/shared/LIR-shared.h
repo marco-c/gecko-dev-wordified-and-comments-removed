@@ -729,7 +729,7 @@ v
 )
 ;
 }
-MSimdSplatX4
+MSimdSplat
 *
 mir
 (
@@ -740,7 +740,7 @@ return
 mir_
 -
 >
-toSimdSplatX4
+toSimdSplat
 (
 )
 ;

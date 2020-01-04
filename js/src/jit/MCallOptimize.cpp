@@ -20915,11 +20915,11 @@ convertToBooleanSimdLane
 arg
 )
 ;
-MSimdSplatX4
+MSimdSplat
 *
 ins
 =
-MSimdSplatX4
+MSimdSplat
 :
 :
 New

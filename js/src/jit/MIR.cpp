@@ -6416,7 +6416,7 @@ allSame
 )
 ;
 return
-MSimdSplatX4
+MSimdSplat
 :
 :
 New
@@ -6434,7 +6434,7 @@ type
 }
 MDefinition
 *
-MSimdSplatX4
+MSimdSplat
 :
 :
 foldsTo
@@ -6622,7 +6622,7 @@ MOZ_CRASH
 unexpected
 type
 in
-MSimdSplatX4
+MSimdSplat
 :
 :
 foldsTo

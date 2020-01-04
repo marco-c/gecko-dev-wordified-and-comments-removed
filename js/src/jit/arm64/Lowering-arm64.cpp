@@ -1102,9 +1102,9 @@ void
 LIRGeneratorARM64
 :
 :
-visitSimdSplatX4
+visitSimdSplat
 (
-MSimdSplatX4
+MSimdSplat
 *
 ins
 )

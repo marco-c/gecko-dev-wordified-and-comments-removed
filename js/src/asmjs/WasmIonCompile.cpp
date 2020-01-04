@@ -2379,11 +2379,11 @@ type
 )
 )
 ;
-MSimdSplatX4
+MSimdSplat
 *
 ins
 =
-MSimdSplatX4
+MSimdSplat
 :
 :
 New

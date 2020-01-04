@@ -791,9 +791,9 @@ MOZ_CRASH
 ;
 }
 void
-visitSimdSplatX4
+visitSimdSplat
 (
-MSimdSplatX4
+MSimdSplat
 *
 ins
 )
