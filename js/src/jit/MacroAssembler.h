@@ -2354,6 +2354,17 @@ DEFINED_ON
 arm64
 )
 ;
+inline
+void
+rshiftPtrArithmetic
+(
+Imm32
+imm
+Register
+dest
+)
+PER_ARCH
+;
 public
 :
 template
