@@ -1701,12 +1701,6 @@ MainThreadMediaStreamListener
 >
 mMainThreadListeners
 ;
-nsRefPtr
-<
-nsRunnable
->
-mNotificationMainThreadRunnable
-;
 nsTArray
 <
 TrackID

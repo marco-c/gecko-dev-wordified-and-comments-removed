@@ -12111,9 +12111,6 @@ if
 (
 !
 mFinishedNotificationSent
-|
-|
-mNotificationMainThreadRunnable
 )
 {
 return
@@ -12158,13 +12155,6 @@ NS_IsMainThread
 mStream
 -
 >
-mNotificationMainThreadRunnable
-=
-nullptr
-;
-mStream
--
->
 NotifyMainThreadListeners
 (
 )
@@ -12201,8 +12191,6 @@ NotifyRunnable
 this
 )
 ;
-if
-(
 NS_WARN_IF
 (
 NS_FAILED
@@ -12217,14 +12205,6 @@ forget
 )
 )
 )
-)
-{
-return
-;
-}
-mNotificationMainThreadRunnable
-=
-runnable
 ;
 }
 void
