@@ -35,16 +35,12 @@ CSSPseudoElementType
 uint8_t
 ;
 }
-typedef
-nsHTMLButtonControlFrame
-nsColorControlFrameSuper
-;
 class
 nsColorControlFrame
 final
 :
 public
-nsColorControlFrameSuper
+nsHTMLButtonControlFrame
 public
 nsIAnonymousContentCreator
 {
