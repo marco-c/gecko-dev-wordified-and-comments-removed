@@ -806,6 +806,12 @@ CompositingRenderTargetD3D11
 >
 mCurrentRT
 ;
+RefPtr
+<
+ID3D11Query
+>
+mQuery
+;
 DeviceAttachmentsD3D11
 *
 mAttachments
