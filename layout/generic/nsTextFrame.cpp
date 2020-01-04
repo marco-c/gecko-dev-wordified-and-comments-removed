@@ -1186,7 +1186,7 @@ case
 SelectionType
 :
 :
-SELECTION_IME_CONVERTEDTEXT
+eIMEConvertedClause
 :
 return
 eIndexConvText
@@ -27447,7 +27447,7 @@ case
 SelectionType
 :
 :
-SELECTION_IME_CONVERTEDTEXT
+eIMEConvertedClause
 :
 case
 SelectionType
@@ -27990,7 +27990,7 @@ case
 SelectionType
 :
 :
-SELECTION_IME_CONVERTEDTEXT
+eIMEConvertedClause
 :
 case
 SelectionType
@@ -28448,7 +28448,7 @@ case
 SelectionType
 :
 :
-SELECTION_IME_CONVERTEDTEXT
+eIMEConvertedClause
 :
 case
 SelectionType

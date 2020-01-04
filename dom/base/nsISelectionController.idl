@@ -2156,7 +2156,7 @@ nsISelectionController
 :
 :
 SELECTION_IME_SELECTEDRAWTEXT
-SELECTION_IME_CONVERTEDTEXT
+eIMEConvertedClause
 =
 nsISelectionController
 :

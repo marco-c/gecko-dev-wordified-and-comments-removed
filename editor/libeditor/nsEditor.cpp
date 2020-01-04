@@ -21301,7 +21301,7 @@ eIMESelectedRawClause
 SelectionType
 :
 :
-SELECTION_IME_CONVERTEDTEXT
+eIMEConvertedClause
 SelectionType
 :
 :

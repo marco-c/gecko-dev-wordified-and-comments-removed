@@ -482,7 +482,7 @@ return
 SelectionType
 :
 :
-SELECTION_IME_CONVERTEDTEXT
+eIMEConvertedClause
 ;
 case
 TextRangeType
