@@ -10211,6 +10211,15 @@ mallocSizeOf
 const
 override
 ;
+const
+char
+*
+scriptFilename
+(
+)
+const
+final
+;
 protected
 :
 explicit
