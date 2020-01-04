@@ -442,6 +442,12 @@ name
 =
 aName
 ;
+this
+.
+_result
+=
+aResult
+;
 }
 AutoCompleteSearch
 .

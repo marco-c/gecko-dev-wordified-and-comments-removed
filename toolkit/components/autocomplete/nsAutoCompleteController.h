@@ -351,12 +351,6 @@ nsIAutoCompleteResult
 >
 mResults
 ;
-nsTArray
-<
-uint32_t
->
-mMatchCounts
-;
 nsCOMArray
 <
 nsIAutoCompleteResult
