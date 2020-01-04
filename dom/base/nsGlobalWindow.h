@@ -7630,9 +7630,6 @@ argv
 nsISupports
 *
 aExtraArgument
-JSContext
-*
-aJSCallerContext
 nsPIDOMWindowOuter
 *
 *
