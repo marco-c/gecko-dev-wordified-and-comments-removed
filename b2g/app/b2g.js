@@ -7192,11 +7192,9 @@ reviewer_paths
 reviewers
 /
 /
-content
+extension
 /
-addon
-/
-review
+reviewers
 /
 "
 )
