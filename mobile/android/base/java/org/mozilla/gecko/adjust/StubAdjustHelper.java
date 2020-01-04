@@ -42,6 +42,16 @@ appToken
 }
 public
 void
+setEnabled
+(
+final
+boolean
+isEnabled
+)
+{
+}
+public
+void
 onReceive
 (
 final
