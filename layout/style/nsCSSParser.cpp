@@ -45623,7 +45623,7 @@ const
 size_t
 numProps
 =
-ArrayLength
+MOZ_ARRAY_LENGTH
 (
 kWebkitTextStrokeIDs
 )
