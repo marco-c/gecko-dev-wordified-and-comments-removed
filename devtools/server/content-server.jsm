@@ -139,12 +139,6 @@ init
 (
 )
 ;
-DebuggerServer
-.
-isInChildProcess
-=
-true
-;
 }
 DebuggerServer
 .
