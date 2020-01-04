@@ -445,9 +445,6 @@ prefix
 uint8_t
 argnum
 ;
-uint8_t
-argnum2
-;
 union
 {
 uint16_t
