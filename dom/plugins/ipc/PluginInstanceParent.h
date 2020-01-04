@@ -1417,6 +1417,11 @@ Image
 aImage
 )
 ;
+void
+RecordDrawingModel
+(
+)
+;
 private
 :
 PluginModuleParent
@@ -1451,6 +1456,9 @@ mWindowType
 ;
 int16_t
 mDrawingModel
+;
+int
+mLastRecordedDrawingModel
 ;
 nsDataHashtable
 <
