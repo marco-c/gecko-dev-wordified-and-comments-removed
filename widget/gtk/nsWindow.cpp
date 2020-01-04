@@ -7691,7 +7691,7 @@ y
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -7725,7 +7725,6 @@ if
 mGdkWindow
 )
 return
-NS_OK
 ;
 if
 (
@@ -7733,7 +7732,6 @@ if
 mContainer
 )
 return
-NS_ERROR_FAILURE
 ;
 if
 (
@@ -7771,9 +7769,6 @@ mContainer
 )
 ;
 }
-return
-NS_OK
-;
 }
 void
 nsWindow
