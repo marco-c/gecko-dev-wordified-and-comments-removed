@@ -21808,6 +21808,13 @@ this
 )
 ;
 }
+HttpBaseChannel
+:
+:
+SetDocshellUserAgentOverride
+(
+)
+;
 mIsPending
 =
 true
