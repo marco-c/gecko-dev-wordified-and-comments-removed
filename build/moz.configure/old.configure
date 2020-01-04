@@ -3530,6 +3530,12 @@ handler
 close
 (
 )
+logger
+.
+removeHandler
+(
+handler
+)
 log_size
 =
 os
