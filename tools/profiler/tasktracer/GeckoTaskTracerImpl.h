@@ -284,7 +284,7 @@ uint64_t
 aTaskId
 uint64_t
 aSourceEventId
-int
+uintptr_t
 *
 aVptr
 )

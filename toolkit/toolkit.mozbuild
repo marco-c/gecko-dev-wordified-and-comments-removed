@@ -1073,6 +1073,14 @@ MOZ_WIDGET_TOOLKIT
 '
 gonk
 '
+and
+not
+CONFIG
+[
+'
+MOZ_TASK_TRACER
+'
+]
 :
 DIRS
 +
