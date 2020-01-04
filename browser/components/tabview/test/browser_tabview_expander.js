@@ -1637,10 +1637,9 @@ getChildren
 .
 some
 (
-function
-(
 child
-)
+=
+>
 child
 =
 =
@@ -1735,10 +1734,9 @@ getChildren
 .
 some
 (
-function
-(
 child
-)
+=
+>
 child
 .
 tab

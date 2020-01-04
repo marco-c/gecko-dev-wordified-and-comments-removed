@@ -402,9 +402,10 @@ function
 {
 registerCleanupFunction
 (
-function
 (
 )
+=
+>
 TabView
 .
 hide

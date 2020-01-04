@@ -174,10 +174,9 @@ getChildren
 .
 some
 (
-function
-(
 child
-)
+=
+>
 child
 =
 =

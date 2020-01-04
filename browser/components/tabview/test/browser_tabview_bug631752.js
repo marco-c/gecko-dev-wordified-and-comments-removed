@@ -401,9 +401,10 @@ groupItems
 closeGroupItem
 (
 secondGroup
-function
 (
 )
+=
+>
 hideTabView
 (
 finishTest
@@ -494,9 +495,10 @@ win
 {
 registerCleanupFunction
 (
-function
 (
 )
+=
+>
 win
 .
 close

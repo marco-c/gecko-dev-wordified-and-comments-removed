@@ -16,9 +16,10 @@ win
 {
 registerCleanupFunction
 (
-function
 (
 )
+=
+>
 win
 .
 close
@@ -71,9 +72,10 @@ innerWidth
 ;
 whenTabViewIsHidden
 (
-function
 (
 )
+=
+>
 waitForFocus
 (
 finish

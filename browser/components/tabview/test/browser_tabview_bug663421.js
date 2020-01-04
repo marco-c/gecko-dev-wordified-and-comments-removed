@@ -357,9 +357,10 @@ aWin
 {
 registerCleanupFunction
 (
-function
 (
 )
+=
+>
 aWin
 .
 close

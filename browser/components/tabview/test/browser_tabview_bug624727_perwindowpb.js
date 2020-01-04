@@ -720,9 +720,10 @@ publicWindow
 {
 registerCleanupFunction
 (
-function
 (
 )
+=
+>
 publicWindow
 .
 TabView

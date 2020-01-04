@@ -689,9 +689,10 @@ function
 {
 showTabView
 (
-function
 (
 )
+=
+>
 shownCallback
 (
 win
@@ -1834,9 +1835,10 @@ function
 {
 afterAllTabsLoaded
 (
-function
 (
 )
+=
+>
 callback
 (
 tab

@@ -95,9 +95,10 @@ win
 {
 registerCleanupFunction
 (
-function
 (
 )
+=
+>
 win
 .
 close
