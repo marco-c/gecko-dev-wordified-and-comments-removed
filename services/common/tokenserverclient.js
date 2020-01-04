@@ -1623,6 +1623,11 @@ duration
 result
 .
 duration
+hashed_fxa_uid
+:
+result
+.
+hashed_fxa_uid
 }
 )
 ;

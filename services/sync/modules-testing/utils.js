@@ -812,6 +812,16 @@ key
 "
 key
 "
+hashed_fxa_uid
+:
+"
+f
+"
+.
+repeat
+(
+32
+)
 }
 }
 sync
