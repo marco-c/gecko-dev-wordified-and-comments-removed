@@ -1243,6 +1243,16 @@ flush
 )
 PER_SHARED_ARCH
 ;
+void
+comment
+(
+const
+char
+*
+msg
+)
+PER_SHARED_ARCH
+;
 inline
 uint32_t
 framePushed

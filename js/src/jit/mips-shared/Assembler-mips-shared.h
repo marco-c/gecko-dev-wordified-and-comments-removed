@@ -6395,6 +6395,16 @@ flushBuffer
 )
 {
 }
+void
+comment
+(
+const
+char
+*
+msg
+)
+{
+}
 static
 uint32_t
 NopSize
