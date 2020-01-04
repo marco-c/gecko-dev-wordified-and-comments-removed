@@ -6900,7 +6900,7 @@ dn
 >
 is
 <
-ModuleObject
+StaticModuleScope
 >
 (
 )
@@ -7444,7 +7444,11 @@ moduleScript
 cx
 ssi
 .
-moduleScript
+module
+(
+)
+.
+script
 (
 )
 )
@@ -7482,6 +7486,10 @@ cx
 ssi
 .
 module
+(
+)
+.
+moduleObject
 (
 )
 .

@@ -23289,6 +23289,11 @@ return
 module
 (
 )
+-
+>
+staticScope
+(
+)
 ;
 return
 functionNonDelazifying
