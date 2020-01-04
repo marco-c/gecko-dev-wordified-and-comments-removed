@@ -3637,9 +3637,6 @@ desc
 )
 &
 &
-JS
-:
-:
 FromPropertyDescriptor
 (
 cx

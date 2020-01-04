@@ -43813,9 +43813,6 @@ toObjectOrNull
 }
 }
 return
-JS
-:
-:
 FromPropertyDescriptor
 (
 cx
