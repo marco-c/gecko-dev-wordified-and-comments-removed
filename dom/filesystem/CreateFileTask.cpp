@@ -417,7 +417,7 @@ data
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -556,7 +556,7 @@ thread
 )
 ;
 return
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1437,7 +1437,7 @@ nullptr
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 Blob
 >

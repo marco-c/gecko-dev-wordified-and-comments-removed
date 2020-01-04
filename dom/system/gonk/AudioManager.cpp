@@ -992,7 +992,7 @@ __func__
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 VolumeInitPromise
 >
@@ -1025,7 +1025,7 @@ Value
 aResult
 )
 {
-nsRefPtr
+RefPtr
 <
 AudioManager
 >
@@ -1328,7 +1328,7 @@ return
 DEVICE_ERROR
 ;
 }
-nsRefPtr
+RefPtr
 <
 VolumeInitPromise
 >
@@ -1389,7 +1389,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 AudioManager
 >
@@ -1842,7 +1842,7 @@ AUDIO_POLICY_DEVICE_STATE_UNAVAILABLE
 mA2dpSwitchDone
 )
 {
-nsRefPtr
+RefPtr
 <
 AudioManager
 >
@@ -2239,7 +2239,7 @@ PHONE_STATE_RINGTONE
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 AudioChannelService
 >
@@ -2751,7 +2751,7 @@ SwitchEvent
 aEvent
 )
 {
-nsRefPtr
+RefPtr
 <
 AudioManager
 >
@@ -2822,7 +2822,7 @@ SWITCH_STATE_OFF
 mSwitchDone
 )
 {
-nsRefPtr
+RefPtr
 <
 AudioManager
 >
@@ -3738,7 +3738,7 @@ sAudioManager
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 AudioManager
 >
@@ -5715,7 +5715,7 @@ rv
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 VolumeInitCallback
 >

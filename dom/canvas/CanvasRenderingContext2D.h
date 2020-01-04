@@ -37,7 +37,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -3452,7 +3452,7 @@ nsIDocShell
 >
 mDocShell
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -3464,7 +3464,7 @@ DrawTarget
 >
 mTarget
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -3500,13 +3500,13 @@ mPredictManyRedrawCalls
 bool
 mIsCapturedFrameInvalid
 ;
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
 mThebesSurface
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -3518,7 +3518,7 @@ Path
 >
 mPath
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -3530,7 +3530,7 @@ PathBuilder
 >
 mDSPathBuilder
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -3570,13 +3570,13 @@ RegionInfo
 nsString
 mId
 ;
-nsRefPtr
+RefPtr
 <
 Element
 >
 mElement
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -4317,7 +4317,7 @@ shadowBlur
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -4330,7 +4330,7 @@ Path
 >
 clipsPushed
 ;
-nsRefPtr
+RefPtr
 <
 gfxFontGroup
 >
@@ -4352,7 +4352,7 @@ Style
 :
 :
 MAX
-nsRefPtr
+RefPtr
 <
 CanvasGradient
 >
@@ -4366,7 +4366,7 @@ Style
 :
 :
 MAX
-nsRefPtr
+RefPtr
 <
 CanvasPattern
 >
@@ -4516,7 +4516,7 @@ nsStyleFilter
 >
 filterChain
 ;
-nsRefPtr
+RefPtr
 <
 nsSVGFilterChainObserver
 >
@@ -4533,7 +4533,7 @@ filter
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :

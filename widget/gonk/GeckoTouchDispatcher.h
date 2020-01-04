@@ -37,7 +37,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -207,7 +207,7 @@ mDelayedVsyncThreshold
 TimeDuration
 mOldTouchThreshold
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :

@@ -1131,7 +1131,7 @@ NS_ENSURE_ARG_POINTER
 startParent
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -1211,7 +1211,7 @@ nsIDOMRange
 aRange
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -7655,7 +7655,7 @@ StealNSResult
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 DocumentFragment
 >
@@ -7755,7 +7755,7 @@ if
 commonAncestorDocument
 )
 {
-nsRefPtr
+RefPtr
 <
 DocumentType
 >
@@ -8815,7 +8815,7 @@ NS_ENSURE_ARG_POINTER
 aReturn
 )
 ;
-nsRefPtr
+RefPtr
 <
 DocumentFragment
 >
@@ -8857,7 +8857,7 @@ ErrorResult
 rv
 )
 {
-nsRefPtr
+RefPtr
 <
 DocumentFragment
 >
@@ -9510,7 +9510,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DocumentFragment
 >
@@ -10120,7 +10120,7 @@ CloneRange
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -10938,7 +10938,7 @@ NS_ERROR_DOM_INVALID_NODE_TYPE_ERR
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 DocumentFragment
 >
@@ -12561,7 +12561,7 @@ bool
 aFlushLayout
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMRect
 >
@@ -12697,7 +12697,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMRectList
 >
@@ -12827,7 +12827,7 @@ IsInDoc
 NS_ERROR_UNEXPECTED
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFontFaceList
 >
@@ -13308,7 +13308,7 @@ ExcludeNonSelectableNodes
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -13338,7 +13338,7 @@ range
 =
 this
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >

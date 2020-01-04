@@ -224,7 +224,7 @@ nsIScriptElement
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -566,7 +566,7 @@ false
 }
 }
 }
-nsRefPtr
+RefPtr
 <
 nsScriptLoader
 >

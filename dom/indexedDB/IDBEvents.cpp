@@ -176,7 +176,7 @@ Cancelable
 aCancelable
 )
 {
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -261,7 +261,7 @@ uint64_t
 aNewVersion
 )
 {
-nsRefPtr
+RefPtr
 <
 IDBVersionChangeEvent
 >

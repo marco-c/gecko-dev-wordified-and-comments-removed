@@ -1442,7 +1442,7 @@ ShouldUseOffMainThreadCompositing
 bool
 CaptureWidgetOnScreen
 (
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -2610,7 +2610,7 @@ mResizeState
 #
 ifdef
 MOZ_XUL
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >

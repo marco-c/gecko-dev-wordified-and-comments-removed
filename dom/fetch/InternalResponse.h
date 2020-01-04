@@ -106,7 +106,7 @@ NetworkError
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >
@@ -775,7 +775,7 @@ const
 nsCString
 mStatusText
 ;
-nsRefPtr
+RefPtr
 <
 InternalHeaders
 >
@@ -802,7 +802,7 @@ PrincipalInfo
 >
 mPrincipalInfo
 ;
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >

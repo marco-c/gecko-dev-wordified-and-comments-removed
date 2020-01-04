@@ -400,7 +400,7 @@ nsSVGElement
 aSVGElement
 )
 {
-nsRefPtr
+RefPtr
 <
 SVGAnimatedBoolean
 >

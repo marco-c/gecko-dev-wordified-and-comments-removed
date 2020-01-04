@@ -1580,7 +1580,7 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -2111,7 +2111,7 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -2879,7 +2879,7 @@ RangeCount
 NS_OK
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -4083,7 +4083,7 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -4265,7 +4265,7 @@ else
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -5117,7 +5117,7 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -5462,7 +5462,7 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -9750,7 +9750,7 @@ so
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -15931,7 +15931,7 @@ mHTMLEditor
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -18295,7 +18295,7 @@ mHTMLEditor
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -24445,7 +24445,7 @@ rangeCount
 return
 NS_OK
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -25076,7 +25076,7 @@ NS_ENSURE_STATE
 node
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -25263,7 +25263,7 @@ rangeCount
 return
 NS_OK
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -26969,7 +26969,7 @@ Selection
 aSelection
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -27005,7 +27005,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -27023,7 +27023,7 @@ MOZ_ASSERT
 selectionRange
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -27249,7 +27249,7 @@ int32_t
 opStartOffset
 opEndOffset
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -27443,7 +27443,7 @@ GetNodesForOperation
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -27520,7 +27520,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -28475,7 +28475,7 @@ kungFuDeathGrip
 mHTMLEditor
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -28531,7 +28531,7 @@ rangeCount
 rangeIdx
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -29137,7 +29137,7 @@ kungFuDeathGrip
 mHTMLEditor
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -29918,7 +29918,7 @@ aPoint
 node
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -29965,7 +29965,7 @@ aOperation
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -30025,7 +30025,7 @@ aTouchContent
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -34890,7 +34890,7 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -35450,7 +35450,7 @@ NS_ENSURE_STATE
 node
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -37735,7 +37735,7 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -37779,7 +37779,7 @@ rangeCount
 rangeIdx
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -38611,7 +38611,7 @@ NS_ENSURE_STATE
 mHTMLEditor
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -39816,7 +39816,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -41582,7 +41582,7 @@ mHTMLEditor
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -42879,7 +42879,7 @@ kungFuDeathGrip
 mHTMLEditor
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >

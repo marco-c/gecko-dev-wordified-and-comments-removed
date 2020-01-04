@@ -1137,7 +1137,7 @@ document
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsXBLDocumentInfo
 >

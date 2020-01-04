@@ -371,7 +371,7 @@ XRE_IsParentProcess
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginService
 >
@@ -2221,7 +2221,7 @@ GetGMPContentParentCallback
 aCallback
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPParent
 >
@@ -4426,7 +4426,7 @@ forget
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 GMPParent
 >
@@ -4452,7 +4452,7 @@ MOZ_ASSERT
 aOriginal
 )
 ;
-nsRefPtr
+RefPtr
 <
 CreateGMPParentTask
 >
@@ -4500,7 +4500,7 @@ task
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 GMPParent
 >
@@ -4761,7 +4761,7 @@ rv
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 CreateGMPParentTask
 >
@@ -4800,7 +4800,7 @@ mainThread
 task
 )
 ;
-nsRefPtr
+RefPtr
 <
 GMPParent
 >
@@ -4972,7 +4972,7 @@ return
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 GMPParent
 >
@@ -5058,7 +5058,7 @@ equals
 continue
 ;
 }
-nsRefPtr
+RefPtr
 <
 GMPParent
 >
@@ -5239,7 +5239,7 @@ static
 void
 Dummy
 (
-nsRefPtr
+RefPtr
 <
 GMPParent
 >
@@ -5255,7 +5255,7 @@ GeckoMediaPluginServiceParent
 PluginTerminated
 (
 const
-nsRefPtr
+RefPtr
 <
 GMPParent
 >
@@ -5286,7 +5286,7 @@ IsMarkedForDeletion
 nsCString
 path8
 ;
-nsRefPtr
+RefPtr
 <
 nsIFile
 >
@@ -5350,7 +5350,7 @@ GeckoMediaPluginServiceParent
 ReAddOnGMPThread
 (
 const
-nsRefPtr
+RefPtr
 <
 GMPParent
 >
@@ -5392,7 +5392,7 @@ aOld
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 GMPParent
 >
@@ -6944,7 +6944,7 @@ KillPlugins
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 GMPParent
 >
@@ -6962,7 +6962,7 @@ aFilter
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 GMPParent
 >
@@ -6996,7 +6996,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPParent
 >
@@ -8434,7 +8434,7 @@ uint32_t
 aPluginId
 )
 {
-nsRefPtr
+RefPtr
 <
 GMPParent
 >
@@ -8652,7 +8652,7 @@ nsCString
 aVersion
 )
 {
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginServiceParent
 >
@@ -8867,7 +8867,7 @@ ProcessId
 aOtherPid
 )
 {
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginServiceParent
 >

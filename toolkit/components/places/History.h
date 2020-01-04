@@ -371,7 +371,7 @@ GetDBConn
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -383,7 +383,7 @@ Database
 >
 mDB
 ;
-nsRefPtr
+RefPtr
 <
 ConcurrentStatementsHolder
 >

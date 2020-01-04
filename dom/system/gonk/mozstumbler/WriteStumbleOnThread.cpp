@@ -392,7 +392,7 @@ failed
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsGZFileWriter
 >
@@ -1421,7 +1421,7 @@ false
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >

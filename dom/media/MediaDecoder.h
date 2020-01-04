@@ -888,7 +888,7 @@ size_t
 >
 mByteSize
 ;
-nsRefPtr
+RefPtr
 <
 SizeOfPromise
 >
@@ -976,7 +976,7 @@ DispatchPlaybackStarted
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaDecoder
 >
@@ -1034,7 +1034,7 @@ DispatchPlaybackStopped
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaDecoder
 >
@@ -1318,7 +1318,7 @@ MOZ_EME
 typedef
 MozPromise
 <
-nsRefPtr
+RefPtr
 <
 CDMProxy
 >
@@ -1327,7 +1327,7 @@ true
 >
 CDMProxyPromise
 ;
-nsRefPtr
+RefPtr
 <
 CDMProxyPromise
 >
@@ -1652,7 +1652,7 @@ mCurrentPosition
 double
 mDuration
 ;
-nsRefPtr
+RefPtr
 <
 MediaResource
 >
@@ -1660,7 +1660,7 @@ mResource
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 MediaDecoderStateMachine
 >
@@ -1675,7 +1675,7 @@ CDMProxyPromise
 >
 mCDMProxyPromiseHolder
 ;
-nsRefPtr
+RefPtr
 <
 CDMProxyPromise
 >
@@ -1746,13 +1746,13 @@ mOwner
 FrameStatistics
 mFrameStats
 ;
-nsRefPtr
+RefPtr
 <
 VideoFrameContainer
 >
 mVideoFrameContainer
 ;
-nsRefPtr
+RefPtr
 <
 MediaChannelStatistics
 >

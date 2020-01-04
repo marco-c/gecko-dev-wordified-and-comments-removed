@@ -121,13 +121,13 @@ Init
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 PresentationRequest
 >
 mDefaultRequest
 ;
-nsRefPtr
+RefPtr
 <
 PresentationReceiver
 >

@@ -95,7 +95,7 @@ TCPServerSocketChildBase
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 TCPServerSocket
 >

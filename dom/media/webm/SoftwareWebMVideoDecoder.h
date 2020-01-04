@@ -105,7 +105,7 @@ int
 aHeight
 )
 ;
-nsRefPtr
+RefPtr
 <
 WebMReader
 >

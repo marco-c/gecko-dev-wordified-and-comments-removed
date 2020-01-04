@@ -62,7 +62,7 @@ bool
 aFound
 )
 {
-nsRefPtr
+RefPtr
 <
 nsMIMEInfoAndroid
 >

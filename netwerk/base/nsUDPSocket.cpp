@@ -392,7 +392,7 @@ mOpt
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 nsUDPSocket
 >
@@ -1754,7 +1754,7 @@ rv
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsUDPOutputStream
 >
@@ -2611,7 +2611,7 @@ total
 NETWORK_STATS_THRESHOLD
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -2872,7 +2872,7 @@ nsIUDPMessage
 aMessage
 )
 {
-nsRefPtr
+RefPtr
 <
 OnPacketReceivedRunnable
 >
@@ -2910,7 +2910,7 @@ nsresult
 aStatus
 )
 {
-nsRefPtr
+RefPtr
 <
 OnStopListeningRunnable
 >
@@ -3250,7 +3250,7 @@ nsIUDPMessage
 aMessage
 )
 {
-nsRefPtr
+RefPtr
 <
 OnPacketReceivedRunnable
 >
@@ -3288,7 +3288,7 @@ nsresult
 aStatus
 )
 {
-nsRefPtr
+RefPtr
 <
 OnStopListeningRunnable
 >
@@ -3513,7 +3513,7 @@ PendingSend
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 nsUDPSocket
 >
@@ -3681,7 +3681,7 @@ PendingSendStream
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 nsUDPSocket
 >
@@ -3836,7 +3836,7 @@ aData
 NS_DECL_NSIRUNNABLE
 private
 :
-nsRefPtr
+RefPtr
 <
 nsUDPSocket
 >
@@ -4419,7 +4419,7 @@ aAddr
 prAddr
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsUDPOutputStream
 >

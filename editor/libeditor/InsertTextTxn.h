@@ -159,7 +159,7 @@ InsertTextTxn
 aOtherTxn
 )
 ;
-nsRefPtr
+RefPtr
 <
 Text
 >

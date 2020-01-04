@@ -685,7 +685,7 @@ StyleFont
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >

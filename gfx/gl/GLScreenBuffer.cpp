@@ -331,7 +331,7 @@ SurfaceCaps
 &
 caps
 const
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -2271,7 +2271,7 @@ IntSize
 size
 )
 {
-nsRefPtr
+RefPtr
 <
 SharedSurfaceTextureClient
 >
@@ -2486,7 +2486,7 @@ IntSize
 size
 )
 {
-nsRefPtr
+RefPtr
 <
 SharedSurfaceTextureClient
 >

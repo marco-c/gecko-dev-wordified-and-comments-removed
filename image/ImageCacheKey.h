@@ -121,7 +121,7 @@ uint64_t
 aBlobSerial
 )
 ;
-nsRefPtr
+RefPtr
 <
 ImageURL
 >

@@ -478,7 +478,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -617,7 +617,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1387,7 +1387,7 @@ nullptr
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 BluetoothGattCharacteristic
 >
@@ -1439,7 +1439,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1598,7 +1598,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1826,7 +1826,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1870,7 +1870,7 @@ promise
 NS_ERROR_UNEXPECTED
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothGattDescriptor
 >

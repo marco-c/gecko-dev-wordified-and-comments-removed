@@ -575,7 +575,7 @@ nsISupports
 aParent
 )
 {
-nsRefPtr
+RefPtr
 <
 Gamepad
 >

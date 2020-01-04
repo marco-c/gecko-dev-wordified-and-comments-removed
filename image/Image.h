@@ -782,7 +782,7 @@ GetProgressTracker
 )
 override
 {
-nsRefPtr
+RefPtr
 <
 ProgressTracker
 >
@@ -1011,13 +1011,13 @@ StopAnimation
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 ProgressTracker
 >
 mProgressTracker
 ;
-nsRefPtr
+RefPtr
 <
 ImageURL
 >

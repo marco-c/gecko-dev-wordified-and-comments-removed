@@ -875,7 +875,7 @@ GetRealObject
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 PluginAsyncSurrogate
 >

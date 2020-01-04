@@ -3075,7 +3075,7 @@ void
 aListener
 )
 {
-nsRefPtr
+RefPtr
 <
 nsXULTooltipListener
 >

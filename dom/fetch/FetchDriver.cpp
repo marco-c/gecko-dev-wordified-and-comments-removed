@@ -1058,7 +1058,7 @@ blank
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >
@@ -1199,7 +1199,7 @@ blob
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -1252,7 +1252,7 @@ return
 rv
 ;
 }
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >
@@ -1711,7 +1711,7 @@ channel
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >
@@ -2768,7 +2768,7 @@ RequestCredentials
 :
 Include
 ;
-nsRefPtr
+RefPtr
 <
 nsCORSListenerProxy
 >
@@ -3079,7 +3079,7 @@ rv
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >
@@ -3215,7 +3215,7 @@ InternalResponse
 aResponse
 )
 {
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >
@@ -3279,7 +3279,7 @@ AssertIsOnMainThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >
@@ -3527,7 +3527,7 @@ MOZ_ASSERT
 mObserver
 )
 ;
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >
@@ -3581,7 +3581,7 @@ responseStatus
 statusText
 )
 ;
-nsRefPtr
+RefPtr
 <
 FillResponseHeaders
 >

@@ -324,7 +324,7 @@ XPathExpression
 >
 mResultsExpr
 ;
-nsRefPtr
+RefPtr
 <
 nsXMLBindingSet
 >
@@ -352,13 +352,13 @@ nsXMLQuery
 >
 mQuery
 ;
-nsRefPtr
+RefPtr
 <
 nsXMLBindingSet
 >
 mBindingSet
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -517,7 +517,7 @@ Element
 >
 mRoot
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

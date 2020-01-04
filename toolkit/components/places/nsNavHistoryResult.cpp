@@ -732,7 +732,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 Database
 >
@@ -5900,7 +5900,7 @@ get
 return
 false
 ;
-nsRefPtr
+RefPtr
 <
 nsNavHistoryResultNode
 >
@@ -6011,7 +6011,7 @@ index
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsNavHistoryResultNode
 >
@@ -9838,7 +9838,7 @@ object
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsNavHistoryQuery
 >
@@ -9936,7 +9936,7 @@ object
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsNavHistoryQuery
 >
@@ -10072,7 +10072,7 @@ aTransitionType
 return
 NS_OK
 ;
-nsRefPtr
+RefPtr
 <
 nsNavHistoryResultNode
 >
@@ -10488,7 +10488,7 @@ Count
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 nsNavHistoryResultNode
 >
@@ -11422,7 +11422,7 @@ nsINavHistoryQueryOptions
 RESULTS_AS_TAG_CONTENTS
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsNavHistoryResultNode
 >
@@ -14103,7 +14103,7 @@ INT32_MAX
 1
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsNavHistoryResultNode
 >
@@ -15194,7 +15194,7 @@ history
 NS_OK
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsNavHistoryResultNode
 >
@@ -17272,7 +17272,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsNavHistoryContainerResultNode
 >
@@ -17896,7 +17896,7 @@ Length
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 nsNavHistoryFolderResultNode
 >
@@ -17918,7 +17918,7 @@ folder
 uint32_t
 nodeIndex
 ;
-nsRefPtr
+RefPtr
 <
 nsNavHistoryResultNode
 >

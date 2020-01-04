@@ -1671,13 +1671,13 @@ nsICancelable
 >
 mProxyRequest
 ;
-nsRefPtr
+RefPtr
 <
 nsInputStreamPump
 >
 mTransactionPump
 ;
-nsRefPtr
+RefPtr
 <
 nsHttpTransaction
 >
@@ -1698,7 +1698,7 @@ nsIInputStream
 >
 mCacheInputStream
 ;
-nsRefPtr
+RefPtr
 <
 nsInputStreamPump
 >
@@ -1932,7 +1932,7 @@ nsContinueRedirectionFunc
 >
 mRedirectFuncStack
 ;
-nsRefPtr
+RefPtr
 <
 nsDNSPrefetch
 >

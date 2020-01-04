@@ -433,7 +433,7 @@ SVGMatrix
 aMatrix
 )
 {
-nsRefPtr
+RefPtr
 <
 SVGMatrix
 >
@@ -503,7 +503,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 SVGMatrix
 >
@@ -538,7 +538,7 @@ float
 y
 )
 {
-nsRefPtr
+RefPtr
 <
 SVGMatrix
 >
@@ -608,7 +608,7 @@ float
 scaleFactorY
 )
 {
-nsRefPtr
+RefPtr
 <
 SVGMatrix
 >
@@ -652,7 +652,7 @@ float
 angle
 )
 {
-nsRefPtr
+RefPtr
 <
 SVGMatrix
 >
@@ -731,7 +731,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 SVGMatrix
 >
@@ -785,7 +785,7 @@ GetMatrix
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SVGMatrix
 >
@@ -847,7 +847,7 @@ GetMatrix
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SVGMatrix
 >
@@ -989,7 +989,7 @@ mx
 _32
 )
 ;
-nsRefPtr
+RefPtr
 <
 SVGMatrix
 >
@@ -1109,7 +1109,7 @@ mx
 _32
 )
 ;
-nsRefPtr
+RefPtr
 <
 SVGMatrix
 >

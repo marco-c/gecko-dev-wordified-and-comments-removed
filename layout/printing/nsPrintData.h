@@ -122,7 +122,7 @@ aFlag
 ePrintDataType
 mType
 ;
-nsRefPtr
+RefPtr
 <
 nsDeviceContext
 >

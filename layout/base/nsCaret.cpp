@@ -1646,7 +1646,7 @@ descent
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >

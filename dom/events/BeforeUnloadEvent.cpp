@@ -106,7 +106,7 @@ WidgetEvent
 aEvent
 )
 {
-nsRefPtr
+RefPtr
 <
 BeforeUnloadEvent
 >

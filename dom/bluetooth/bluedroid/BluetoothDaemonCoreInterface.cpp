@@ -2980,7 +2980,7 @@ mOpcode
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 BluetoothResultHandler
 >

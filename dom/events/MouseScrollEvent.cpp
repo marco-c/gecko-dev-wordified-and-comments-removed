@@ -344,7 +344,7 @@ WidgetMouseScrollEvent
 aEvent
 )
 {
-nsRefPtr
+RefPtr
 <
 MouseScrollEvent
 >

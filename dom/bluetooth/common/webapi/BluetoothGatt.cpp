@@ -257,7 +257,7 @@ mClientIf
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 BluetoothVoidReplyRunnable
 >
@@ -324,7 +324,7 @@ mClientIf
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 BluetoothVoidReplyRunnable
 >
@@ -397,7 +397,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -571,7 +571,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -808,7 +808,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -931,7 +931,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1064,7 +1064,7 @@ mConnectionState
 =
 aState
 ;
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -1365,7 +1365,7 @@ mServices
 NoIndex
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothGattService
 >
@@ -1564,7 +1564,7 @@ mServices
 NoIndex
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothGattService
 >
@@ -1804,7 +1804,7 @@ mServices
 NoIndex
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothGattService
 >
@@ -2015,7 +2015,7 @@ mServices
 NoIndex
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothGattService
 >
@@ -2030,7 +2030,7 @@ index
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BluetoothGattCharacteristic
 >
@@ -2075,7 +2075,7 @@ chars
 NoIndex
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothGattCharacteristic
 >
@@ -2097,7 +2097,7 @@ mCharacteristic
 =
 characteristic
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothGattCharacteristicEvent
 >

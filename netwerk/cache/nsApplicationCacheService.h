@@ -51,7 +51,7 @@ nsApplicationCacheService
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsCacheService
 >

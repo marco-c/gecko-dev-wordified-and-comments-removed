@@ -467,7 +467,7 @@ mToken
 uint32_t
 mTokenLen
 ;
-nsRefPtr
+RefPtr
 <
 nsPartChannel
 >

@@ -95,7 +95,7 @@ EvictTouches
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 PresShell
 >

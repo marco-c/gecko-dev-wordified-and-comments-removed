@@ -289,7 +289,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1922,7 +1922,7 @@ BatteryObserver
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 BatteryUpdater
 >
@@ -4134,7 +4134,7 @@ ScreenConfiguration
 aScreenConfiguration
 )
 {
-nsRefPtr
+RefPtr
 <
 nsScreenGonk
 >
@@ -4490,7 +4490,7 @@ InternalLockCpu
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 AlarmFiredEvent
 >
@@ -7726,7 +7726,7 @@ get
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 OomVictimLogger
 >

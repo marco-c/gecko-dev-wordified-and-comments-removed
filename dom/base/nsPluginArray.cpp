@@ -274,7 +274,7 @@ GetPluginMimeTypes
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsPluginElement
 >
@@ -283,7 +283,7 @@ nsPluginElement
 aPlugins
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsMimeType
 >
@@ -341,14 +341,14 @@ operator
 <
 (
 const
-nsRefPtr
+RefPtr
 <
 nsMimeType
 >
 &
 lhs
 const
-nsRefPtr
+RefPtr
 <
 nsMimeType
 >
@@ -380,7 +380,7 @@ GetMimeTypes
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsMimeType
 >
@@ -479,7 +479,7 @@ bool
 aReloadDocuments
 )
 {
-nsRefPtr
+RefPtr
 <
 nsPluginHost
 >
@@ -760,7 +760,7 @@ FindPlugin
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsPluginElement
 >
@@ -1106,14 +1106,14 @@ operator
 <
 (
 const
-nsRefPtr
+RefPtr
 <
 nsPluginElement
 >
 &
 lhs
 const
-nsRefPtr
+RefPtr
 <
 nsPluginElement
 >
@@ -1168,7 +1168,7 @@ IsEmpty
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPluginHost
 >
@@ -1719,7 +1719,7 @@ Type
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsMimeType
 >

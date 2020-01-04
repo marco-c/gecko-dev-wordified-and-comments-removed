@@ -153,7 +153,7 @@ UNKNOWN
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -632,7 +632,7 @@ gfx
 IntSize
 mWidgetSize
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -641,7 +641,7 @@ DrawTarget
 >
 mDrawTarget
 ;
-nsRefPtr
+RefPtr
 <
 BasicCompositingRenderTarget
 >

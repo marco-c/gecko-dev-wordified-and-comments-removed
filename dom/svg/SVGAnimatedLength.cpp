@@ -99,7 +99,7 @@ BaseVal
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMSVGLength
 >
@@ -136,7 +136,7 @@ AnimVal
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMSVGLength
 >

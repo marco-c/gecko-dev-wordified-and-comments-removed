@@ -1343,7 +1343,7 @@ array_
 )
 ;
 \
-nsRefPtr
+RefPtr
 <
 obstype_
 >

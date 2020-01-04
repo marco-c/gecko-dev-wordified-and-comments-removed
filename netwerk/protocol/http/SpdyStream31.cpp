@@ -8392,7 +8392,7 @@ MapStreamToPlainText
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 SpdyConnectTransaction
 >
@@ -8431,7 +8431,7 @@ MapStreamToHttpConnection
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 SpdyConnectTransaction
 >

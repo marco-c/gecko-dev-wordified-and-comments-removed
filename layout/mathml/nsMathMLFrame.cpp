@@ -356,7 +356,7 @@ nsCSSPseudoElements
 :
 ePseudo_mozMathAnonymous
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -1012,7 +1012,7 @@ SetUsesExChUnits
 true
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >

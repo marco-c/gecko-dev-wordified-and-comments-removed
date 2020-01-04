@@ -573,7 +573,7 @@ nsIOutputStream
 >
 mSink
 ;
-nsRefPtr
+RefPtr
 <
 nsInputStreamTee
 >

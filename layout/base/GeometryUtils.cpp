@@ -846,7 +846,7 @@ nsISupports
 aParentObject
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 DOMQuad
 >
@@ -1101,7 +1101,7 @@ mParentObject
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 DOMQuad
 >
@@ -1288,7 +1288,7 @@ BoxQuadOptions
 aOptions
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 DOMQuad
 >
@@ -1875,7 +1875,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMQuad
 >
@@ -2045,7 +2045,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMQuad
 >
@@ -2173,7 +2173,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMPoint
 >

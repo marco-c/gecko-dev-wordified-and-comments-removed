@@ -266,7 +266,7 @@ uint32_t
 aCharIndex
 )
 ;
-nsRefPtr
+RefPtr
 <
 SpeechSynthesisUtterance
 >
@@ -297,7 +297,7 @@ End
 void
 SendAudioImpl
 (
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -334,13 +334,13 @@ DestroyAudioChannelAgent
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceMediaStream
 >
 mStream
 ;
-nsRefPtr
+RefPtr
 <
 MediaInputPort
 >
@@ -361,7 +361,7 @@ mAudioChannelAgent
 uint32_t
 mChannels
 ;
-nsRefPtr
+RefPtr
 <
 SpeechSynthesis
 >

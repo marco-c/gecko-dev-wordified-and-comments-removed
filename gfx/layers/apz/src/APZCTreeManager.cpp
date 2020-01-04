@@ -391,7 +391,7 @@ mPaintLogger
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 HitTestingTreeNode
 >
@@ -598,7 +598,7 @@ HitTestingTreeNode
 aNode
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 HitTestingTreeNode
 >
@@ -939,7 +939,7 @@ std
 make_pair
 (
 aLayersId
-nsRefPtr
+RefPtr
 <
 TaskThrottler
 >
@@ -1489,7 +1489,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 HitTestingTreeNode
 >
@@ -1540,7 +1540,7 @@ forget
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 HitTestingTreeNode
 >
@@ -1620,7 +1620,7 @@ AsyncDragMetrics
 aDragMetrics
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -1741,7 +1741,7 @@ needsApzc
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 HitTestingTreeNode
 >
@@ -2011,7 +2011,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 HitTestingTreeNode
 >
@@ -2118,7 +2118,7 @@ if
 newApzc
 )
 {
-nsRefPtr
+RefPtr
 <
 TaskThrottler
 >
@@ -3181,7 +3181,7 @@ AsMouseInput
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -3265,7 +3265,7 @@ return
 result
 ;
 }
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -3413,7 +3413,7 @@ return
 result
 ;
 }
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -3567,7 +3567,7 @@ AsPinchGestureInput
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -3690,7 +3690,7 @@ AsTapGestureInput
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -3822,7 +3822,7 @@ HitTestResult
 aOutHitResult
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -3891,7 +3891,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -4536,7 +4536,7 @@ hitResult
 =
 HitNothing
 ;
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -5148,7 +5148,7 @@ CSSRect
 aRect
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -5227,7 +5227,7 @@ AssertOnControllerThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -5277,7 +5277,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -5331,7 +5331,7 @@ AssertOnControllerThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -5377,7 +5377,7 @@ lock
 mTreeLock
 )
 ;
-nsRefPtr
+RefPtr
 <
 HitTestingTreeNode
 >
@@ -5864,7 +5864,7 @@ ScrollableLayerGuid
 aGuid
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -5925,7 +5925,7 @@ mTreeLock
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 HitTestingTreeNode
 >
@@ -5975,7 +5975,7 @@ mRootNode
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 HitTestingTreeNode
 >
@@ -6174,7 +6174,7 @@ aOverscrollHandoffState
 .
 mChainIndex
 ;
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -6294,7 +6294,7 @@ aPrev
 ParentLayerPoint
 &
 aVelocity
-nsRefPtr
+RefPtr
 <
 const
 OverscrollHandoffChain
@@ -6304,7 +6304,7 @@ bool
 aHandoff
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -6573,7 +6573,7 @@ ScreenIntPoint
 aPoint
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -6613,7 +6613,7 @@ lock
 mTreeLock
 )
 ;
-nsRefPtr
+RefPtr
 <
 HitTestingTreeNode
 >
@@ -6639,7 +6639,7 @@ GetApzc
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -6687,7 +6687,7 @@ AssertCurrentThreadOwns
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 HitTestingTreeNode
 >
@@ -6752,7 +6752,7 @@ PixelCastJustification
 ScreenIsParentLayerForRoot
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -6820,7 +6820,7 @@ aTwo
 mScrollId
 ;
 }
-nsRefPtr
+RefPtr
 <
 const
 OverscrollHandoffChain
@@ -6831,7 +6831,7 @@ APZCTreeManager
 BuildOverscrollHandoffChain
 (
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -7036,7 +7036,7 @@ GetScrollHandoffParentId
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 HitTestingTreeNode
 >
@@ -7284,7 +7284,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 HitTestingTreeNode
 >
@@ -8135,7 +8135,7 @@ lock
 mTreeLock
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -8239,7 +8239,7 @@ AssertCurrentThreadOwns
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >

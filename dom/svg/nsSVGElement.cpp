@@ -433,7 +433,7 @@ NodeInfo
 aNodeInfo
 )
 {
-nsRefPtr
+RefPtr
 <
 nsSVGElement
 >
@@ -5675,7 +5675,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -6297,7 +6297,7 @@ ParseMappedAttrAnimValueCallback
 mappedAttrParser
 )
 ;
-nsRefPtr
+RefPtr
 <
 css
 :

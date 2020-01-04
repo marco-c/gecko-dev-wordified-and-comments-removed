@@ -97,7 +97,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 SpeechGrammar
 >

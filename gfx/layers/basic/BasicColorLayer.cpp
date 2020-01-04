@@ -352,7 +352,7 @@ phase
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 ColorLayer
 >

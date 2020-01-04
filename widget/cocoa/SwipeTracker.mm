@@ -293,7 +293,7 @@ GetPresContext
 :
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 nsRefreshDriver
 >

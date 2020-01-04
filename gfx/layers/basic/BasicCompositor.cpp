@@ -292,7 +292,7 @@ SetUpdateSerial
 }
 public
 :
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -579,7 +579,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -611,7 +611,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 BasicCompositingRenderTarget
 >
@@ -684,7 +684,7 @@ TextureFlags
 aFlags
 )
 {
-nsRefPtr
+RefPtr
 <
 DataTextureSource
 >
@@ -1675,7 +1675,7 @@ Rect
 aVisibleRect
 )
 {
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -1686,7 +1686,7 @@ mRenderTarget
 >
 mDrawTarget
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -1899,7 +1899,7 @@ SetTransform
 newTransform
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2206,7 +2206,7 @@ maskTransform
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -2225,7 +2225,7 @@ GetDataSurface
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -2320,7 +2320,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 BasicCompositingRenderTarget
 >
@@ -2342,7 +2342,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2446,7 +2446,7 @@ Flush
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2459,7 +2459,7 @@ Snapshot
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -2472,7 +2472,7 @@ GetDataSurface
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -2782,7 +2782,7 @@ mDrawTarget
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -3020,7 +3020,7 @@ PopClip
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -3036,7 +3036,7 @@ Snapshot
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >

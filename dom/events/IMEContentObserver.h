@@ -842,7 +842,7 @@ mIMEContentObserver
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 IMEContentObserver
 >

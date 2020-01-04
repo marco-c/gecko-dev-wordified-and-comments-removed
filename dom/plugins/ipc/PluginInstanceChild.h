@@ -1762,7 +1762,7 @@ mShColorSpace
 CGContextRef
 mShContext
 ;
-nsRefPtr
+RefPtr
 <
 nsCARenderer
 >
@@ -2037,13 +2037,13 @@ override
 bool
 mLayersRendering
 ;
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
 mCurrentSurface
 ;
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -2060,7 +2060,7 @@ mDoubleBufferCARenderer
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -2099,7 +2099,7 @@ mCurrentAsyncSetWindowTask
 bool
 mPendingPluginCall
 ;
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >

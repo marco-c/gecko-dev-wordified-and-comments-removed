@@ -429,7 +429,7 @@ Cache
 aCache
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Request
 >
@@ -508,7 +508,7 @@ NS_ASSERT_OWNINGTHREAD
 FetchHandler
 )
 ;
-nsRefPtr
+RefPtr
 <
 Feature
 >
@@ -523,7 +523,7 @@ mFeature
 ;
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 Response
 >
@@ -708,7 +708,7 @@ toObject
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Response
 >
@@ -798,7 +798,7 @@ Length
 ErrorResult
 result
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -911,13 +911,13 @@ rv
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 Feature
 >
 mFeature
 ;
-nsRefPtr
+RefPtr
 <
 Cache
 >
@@ -925,14 +925,14 @@ mCache
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Request
 >
 >
 mRequestList
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1084,7 +1084,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 InternalRequest
 >
@@ -1245,7 +1245,7 @@ WasPassed
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 InternalRequest
 >
@@ -1386,7 +1386,7 @@ Failed
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Request
 >
@@ -1396,7 +1396,7 @@ requestList
 1
 )
 ;
-nsRefPtr
+RefPtr
 <
 Request
 >
@@ -1549,7 +1549,7 @@ Failed
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Request
 >
@@ -1672,7 +1672,7 @@ Length
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 Request
 >
@@ -1816,7 +1816,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 InternalRequest
 >
@@ -1931,7 +1931,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 InternalRequest
 >
@@ -2092,7 +2092,7 @@ WasPassed
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 InternalRequest
 >
@@ -2463,7 +2463,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2529,7 +2529,7 @@ GlobalObject
 aGlobal
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Request
 >
@@ -2556,7 +2556,7 @@ IsEmpty
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2605,7 +2605,7 @@ forget
 }
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2658,7 +2658,7 @@ aRequestList
 i
 ]
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2701,7 +2701,7 @@ fetch
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2732,7 +2732,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 FetchHandler
 >
@@ -2755,7 +2755,7 @@ aRequestList
 promise
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2815,7 +2815,7 @@ PutAll
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Request
 >
@@ -2825,7 +2825,7 @@ aRequestList
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Response
 >
@@ -2902,7 +2902,7 @@ Length
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 InternalRequest
 >

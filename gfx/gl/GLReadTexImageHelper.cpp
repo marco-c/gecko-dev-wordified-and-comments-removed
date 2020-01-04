@@ -2389,7 +2389,7 @@ readFormat
 readType
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -3017,7 +3017,7 @@ DataSourceSurface
 aSurf
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -3091,7 +3091,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -3325,7 +3325,7 @@ size
 height
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -3554,7 +3554,7 @@ SurfaceFormat
 R8G8B8A8
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

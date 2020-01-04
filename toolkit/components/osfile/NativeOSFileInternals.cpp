@@ -1326,7 +1326,7 @@ nsINativeOSFileErrorCallback
 >
 mOnError
 ;
-nsRefPtr
+RefPtr
 <
 AbstractResult
 >
@@ -1446,7 +1446,7 @@ nsINativeOSFileErrorCallback
 >
 mOnError
 ;
-nsRefPtr
+RefPtr
 <
 nsINativeOSFileResult
 >
@@ -1531,7 +1531,7 @@ Resolve
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ErrorEvent
 >
@@ -1597,7 +1597,7 @@ Resolve
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SuccessEvent
 >
@@ -2396,7 +2396,7 @@ forget
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 TypedArrayResult
 >
@@ -2864,7 +2864,7 @@ nsIUnicodeDecoder
 >
 mDecoder
 ;
-nsRefPtr
+RefPtr
 <
 StringResult
 >
@@ -3059,7 +3059,7 @@ onError
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 AbstractDoEvent
 >

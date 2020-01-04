@@ -187,7 +187,7 @@ flags
 =
 NS_MATHML_ERROR
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -398,7 +398,7 @@ nsRenderingContext
 aCtx
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >

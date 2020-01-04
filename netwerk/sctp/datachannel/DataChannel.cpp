@@ -588,7 +588,7 @@ void
 )
 rv
 ;
-nsRefPtr
+RefPtr
 <
 DataChannelShutdown
 >
@@ -1108,7 +1108,7 @@ RUN_ON_THREAD
 mSTS
 WrapRunnable
 (
-nsRefPtr
+RefPtr
 <
 DataChannelConnection
 >
@@ -2544,7 +2544,7 @@ RUN_ON_THREAD
 mSTS
 WrapRunnable
 (
-nsRefPtr
+RefPtr
 <
 DataChannelConnection
 >
@@ -3168,7 +3168,7 @@ temp_channel
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataChannel
 >
@@ -3562,7 +3562,7 @@ Dispatch
 (
 WrapRunnable
 (
-nsRefPtr
+RefPtr
 <
 DataChannelConnection
 >
@@ -5323,7 +5323,7 @@ SendDeferredMessages
 uint32_t
 i
 ;
-nsRefPtr
+RefPtr
 <
 DataChannel
 >
@@ -6082,7 +6082,7 @@ uint16_t
 stream
 )
 {
-nsRefPtr
+RefPtr
 <
 DataChannel
 >
@@ -9023,7 +9023,7 @@ Length
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 DataChannel
 >
@@ -9418,7 +9418,7 @@ uint32_t
 n
 i
 ;
-nsRefPtr
+RefPtr
 <
 DataChannel
 >
@@ -9769,7 +9769,7 @@ stream
 uint32_t
 i
 ;
-nsRefPtr
+RefPtr
 <
 DataChannel
 >
@@ -10910,7 +10910,7 @@ DATA_CHANNEL_FLAGS_OUT_OF_ORDER_ALLOWED
 :
 0
 ;
-nsRefPtr
+RefPtr
 <
 DataChannel
 >
@@ -10984,7 +10984,7 @@ DataChannel
 aChannel
 )
 {
-nsRefPtr
+RefPtr
 <
 DataChannel
 >
@@ -12402,7 +12402,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 DataChannelConnection
 >
@@ -12411,7 +12411,7 @@ mConnection
 uint16_t
 mStream
 ;
-nsRefPtr
+RefPtr
 <
 nsIInputStream
 >
@@ -12600,7 +12600,7 @@ mData
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 DataChannelConnection
 >
@@ -12646,7 +12646,7 @@ mainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataChannelBlobSendRunnable
 >
@@ -12932,7 +12932,7 @@ MOZ_ASSERT
 aChannel
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataChannel
 >
@@ -13225,7 +13225,7 @@ true
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 DataChannel
 >

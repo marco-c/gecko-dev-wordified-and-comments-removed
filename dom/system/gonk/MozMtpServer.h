@@ -150,13 +150,13 @@ MozMtpServer
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 RefCountedMtpServer
 >
 mMtpServer
 ;
-nsRefPtr
+RefPtr
 <
 MozMtpDatabase
 >

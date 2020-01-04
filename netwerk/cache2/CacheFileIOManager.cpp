@@ -329,7 +329,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsRunnableMethod
 <
@@ -736,7 +736,7 @@ IsOnIOThreadOrCeased
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -1265,7 +1265,7 @@ IsOnIOThreadOrCeased
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -1307,7 +1307,7 @@ GetHandles
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -1709,7 +1709,7 @@ entry
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -2001,7 +2001,7 @@ AssertHandlesState
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -2392,7 +2392,7 @@ GetAllHandles
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -2459,7 +2459,7 @@ GetActiveHandles
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -2503,7 +2503,7 @@ Next
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -2626,7 +2626,7 @@ entry
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -3077,13 +3077,13 @@ CacheFileIOListener
 >
 mCallback
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
 mIOMan
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -3219,7 +3219,7 @@ NS_OK
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -3454,7 +3454,7 @@ NS_OK
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -3609,7 +3609,7 @@ nsIEventTarget
 >
 mTarget
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -3765,7 +3765,7 @@ CacheFileIOListener
 >
 mCallback
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -3855,7 +3855,7 @@ NS_OK
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -3985,7 +3985,7 @@ NS_OK
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -4122,7 +4122,7 @@ NS_OK
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -4274,7 +4274,7 @@ NS_OK
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -4437,7 +4437,7 @@ NS_OK
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -4474,13 +4474,13 @@ SHUTDOWN
 }
 mMode
 ;
-nsRefPtr
+RefPtr
 <
 CacheFile
 >
 mFile
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -4524,7 +4524,7 @@ Run
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -4758,7 +4758,7 @@ return
 NS_ERROR_ALREADY_INITIALIZED
 ;
 }
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -4969,7 +4969,7 @@ autoLock
 lock
 )
 ;
-nsRefPtr
+RefPtr
 <
 ShutdownEvent
 >
@@ -5108,7 +5108,7 @@ SyncRemoveAllCacheFiles
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -5170,7 +5170,7 @@ true
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -5459,7 +5459,7 @@ gInstance
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -5852,7 +5852,7 @@ IOThread
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 CacheIOThread
 >
@@ -5887,7 +5887,7 @@ IsOnIOThread
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -5930,7 +5930,7 @@ IsOnIOThreadOrCeased
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -6001,7 +6001,7 @@ CacheFile
 aFile
 )
 {
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -6025,7 +6025,7 @@ mShuttingDown
 NS_ERROR_NOT_INITIALIZED
 )
 ;
-nsRefPtr
+RefPtr
 <
 MetadataWriteScheduleEvent
 >
@@ -6188,7 +6188,7 @@ CacheFile
 aFile
 )
 {
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -6212,7 +6212,7 @@ mShuttingDown
 NS_ERROR_NOT_INITIALIZED
 )
 ;
-nsRefPtr
+RefPtr
 <
 MetadataWriteScheduleEvent
 >
@@ -6326,7 +6326,7 @@ ShutdownMetadataWriteScheduling
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -6340,7 +6340,7 @@ ioMan
 NS_ERROR_NOT_INITIALIZED
 )
 ;
-nsRefPtr
+RefPtr
 <
 MetadataWriteScheduleEvent
 >
@@ -6407,7 +6407,7 @@ IsOnIOThreadOrCeased
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 CacheFile
 >
@@ -6511,7 +6511,7 @@ nullptr
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 CacheFile
 >
@@ -6624,7 +6624,7 @@ aCallback
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -6652,7 +6652,7 @@ CacheFileIOManager
 :
 PRIORITY
 ;
-nsRefPtr
+RefPtr
 <
 OpenFileEvent
 >
@@ -6844,7 +6844,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -7453,7 +7453,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -8118,7 +8118,7 @@ aCallback
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -8144,7 +8144,7 @@ return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
-nsRefPtr
+RefPtr
 <
 ReadEvent
 >
@@ -8468,7 +8468,7 @@ aCallback
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -8513,7 +8513,7 @@ return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
-nsRefPtr
+RefPtr
 <
 WriteEvent
 >
@@ -9218,7 +9218,7 @@ aCallback
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -9244,7 +9244,7 @@ return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
-nsRefPtr
+RefPtr
 <
 DoomFileEvent
 >
@@ -9557,7 +9557,7 @@ IsSpecialFile
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 CacheStorageService
 >
@@ -9680,7 +9680,7 @@ aCallback
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -9698,7 +9698,7 @@ return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
-nsRefPtr
+RefPtr
 <
 DoomFileByKeyEvent
 >
@@ -9813,7 +9813,7 @@ return
 NS_ERROR_FILE_INVALID_PATH
 ;
 }
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -10031,7 +10031,7 @@ aHandle
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -10057,7 +10057,7 @@ return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
-nsRefPtr
+RefPtr
 <
 ReleaseNSPRHandleEvent
 >
@@ -10244,7 +10244,7 @@ aCallback
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -10270,7 +10270,7 @@ return
 NS_ERROR_NOT_INITIALIZED
 ;
 }
-nsRefPtr
+RefPtr
 <
 TruncateSeekSetEOFEvent
 >
@@ -10329,7 +10329,7 @@ result
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -10381,7 +10381,7 @@ result
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -10453,7 +10453,7 @@ IsOnIOThread
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -10477,7 +10477,7 @@ enhanceId
 nsAutoCString
 uriSpec
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -10502,7 +10502,7 @@ if
 handle
 )
 {
-nsRefPtr
+RefPtr
 <
 nsILoadContextInfo
 >
@@ -10540,7 +10540,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 CacheStorageService
 >
@@ -10600,7 +10600,7 @@ file
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileMetadata
 >
@@ -10644,7 +10644,7 @@ GetKey
 key
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsILoadContextInfo
 >
@@ -11224,7 +11224,7 @@ aCallback
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -11265,7 +11265,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsRefPtr
+RefPtr
 <
 RenameFileEvent
 >
@@ -11684,7 +11684,7 @@ EvictIfOverLimit
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -12716,7 +12716,7 @@ EvictAll
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -12883,7 +12883,7 @@ IsCurrentThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 EvictionNotifierRunnable
 >
@@ -12945,7 +12945,7 @@ rv
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -13196,7 +13196,7 @@ aLoadContextInfo
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -13424,7 +13424,7 @@ rv
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 CacheFileHandle
 >
@@ -14185,7 +14185,7 @@ aClosure
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -15330,7 +15330,7 @@ aInBrowser
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -15370,7 +15370,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsRefPtr
+RefPtr
 <
 InitIndexEntryEvent
 >
@@ -15501,7 +15501,7 @@ get
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 CacheFileIOManager
 >
@@ -15541,7 +15541,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsRefPtr
+RefPtr
 <
 UpdateIndexEntryEvent
 >
@@ -16955,7 +16955,7 @@ if
 mContextEvictor
 )
 {
-nsRefPtr
+RefPtr
 <
 CacheFileContextEvictor
 >
@@ -18923,7 +18923,7 @@ SizeOfIncludingThis
 mallocSizeOf
 )
 ;
-nsRefPtr
+RefPtr
 <
 SizeOfHandlesRunnable
 >

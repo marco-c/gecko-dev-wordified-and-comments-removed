@@ -1075,7 +1075,7 @@ mProperties
 void
 ComposeStyle
 (
-nsRefPtr
+RefPtr
 <
 AnimValuesStyleRule
 >
@@ -1120,7 +1120,7 @@ Element
 >
 mTarget
 ;
-nsRefPtr
+RefPtr
 <
 Animation
 >

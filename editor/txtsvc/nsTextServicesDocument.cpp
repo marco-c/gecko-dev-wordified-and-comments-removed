@@ -974,7 +974,7 @@ NS_ENSURE_ARG_POINTER
 aRange
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -1836,7 +1836,7 @@ return
 result
 ;
 }
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -1871,7 +1871,7 @@ nsIContentIterator
 >
 iter
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -6212,7 +6212,7 @@ aIterator
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 nsFilteredContentIterator
 >
@@ -6452,7 +6452,7 @@ NS_ENSURE_STATE
 nativeNode
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -6690,7 +6690,7 @@ aIterator
 NS_ERROR_NULL_POINTER
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -8274,7 +8274,7 @@ domSelection
 NS_ERROR_FAILURE
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -8383,7 +8383,7 @@ eEnd
 >
 mLength
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -9164,7 +9164,7 @@ aSelLength
 nsresult
 result
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -9209,7 +9209,7 @@ domSelection
 NS_ERROR_FAILURE
 )
 ;
-nsRefPtr
+RefPtr
 <
 Selection
 >

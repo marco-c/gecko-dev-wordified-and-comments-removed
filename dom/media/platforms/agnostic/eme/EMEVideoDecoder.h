@@ -169,7 +169,7 @@ aSample
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 CDMProxy
 >

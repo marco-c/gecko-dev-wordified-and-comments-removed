@@ -444,7 +444,7 @@ NodeInfo
 MOZ_NON_OWNING_REF
 mDocumentNodeInfo
 ;
-nsRefPtr
+RefPtr
 <
 nsBindingManager
 >

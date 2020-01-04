@@ -51,7 +51,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -476,7 +476,7 @@ mStoreDirectory
 CompletionArray
 mCompletions
 ;
-nsRefPtr
+RefPtr
 <
 nsUrlClassifierPrefixSet
 >

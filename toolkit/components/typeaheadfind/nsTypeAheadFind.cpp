@@ -1375,7 +1375,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -3013,7 +3013,7 @@ GetPresShell
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -4869,7 +4869,7 @@ GetPresShell
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >

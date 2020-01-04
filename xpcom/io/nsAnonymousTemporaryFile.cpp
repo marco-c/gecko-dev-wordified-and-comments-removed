@@ -1109,7 +1109,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsAnonTempFileRemover
 >

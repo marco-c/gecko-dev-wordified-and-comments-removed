@@ -297,7 +297,7 @@ ScrollAreaEvent
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 DOMRect
 >

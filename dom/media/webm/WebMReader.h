@@ -297,7 +297,7 @@ WebMReader
 public
 :
 virtual
-nsRefPtr
+RefPtr
 <
 ShutdownPromise
 >
@@ -376,7 +376,7 @@ mHasVideo
 ;
 }
 virtual
-nsRefPtr
+RefPtr
 <
 MetadataPromise
 >
@@ -386,7 +386,7 @@ AsyncReadMetadata
 override
 ;
 virtual
-nsRefPtr
+RefPtr
 <
 SeekPromise
 >
@@ -427,7 +427,7 @@ AUDIO
 1
 }
 ;
-nsRefPtr
+RefPtr
 <
 NesteggPacketHolder
 >
@@ -567,7 +567,7 @@ WebMPacketQueue
 aOutput
 )
 ;
-nsRefPtr
+RefPtr
 <
 NesteggPacketHolder
 >
@@ -618,7 +618,7 @@ mSeekPreroll
 int64_t
 mLastVideoFrameTime
 ;
-nsRefPtr
+RefPtr
 <
 WebMBufferedState
 >

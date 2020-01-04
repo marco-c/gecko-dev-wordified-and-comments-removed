@@ -340,7 +340,7 @@ nsXMLNameSpaceMap
 >
 mNameSpaceMap
 ;
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -1451,13 +1451,13 @@ protected
 nsString
 mTitle
 ;
-nsRefPtr
+RefPtr
 <
 nsMediaList
 >
 mMedia
 ;
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -1474,7 +1474,7 @@ ImportRule
 *
 mOwnerRule
 ;
-nsRefPtr
+RefPtr
 <
 CSSRuleListImpl
 >
@@ -1497,7 +1497,7 @@ mDirty
 bool
 mInRuleProcessorCache
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :

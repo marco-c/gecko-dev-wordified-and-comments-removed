@@ -55,7 +55,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -743,7 +743,7 @@ OpenMode
 OPEN_READ
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -761,7 +761,7 @@ Snapshot
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1284,19 +1284,19 @@ aDescriptor
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 TextureChild
 >
 mActor
 ;
-nsRefPtr
+RefPtr
 <
 ISurfaceAllocator
 >
 mAllocator
 ;
-nsRefPtr
+RefPtr
 <
 TextureClientRecycleAllocator
 >
@@ -1326,7 +1326,7 @@ mValid
 bool
 mAddedToCompositableClient
 ;
-nsRefPtr
+RefPtr
 <
 TextureReadbackSink
 >
@@ -1409,7 +1409,7 @@ nullptr
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
@@ -1686,7 +1686,7 @@ override
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -2046,7 +2046,7 @@ aData
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 T
 >

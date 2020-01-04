@@ -426,7 +426,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsAsyncRedirectVerifyHelper
 >
@@ -1190,7 +1190,7 @@ mLoadFlags
 LOAD_CLASSIFY_URI
 )
 {
-nsRefPtr
+RefPtr
 <
 nsChannelClassifier
 >
@@ -2982,7 +2982,7 @@ OnTransportStatusAsyncEvent
 public
 nsRunnable
 {
-nsRefPtr
+RefPtr
 <
 nsBaseChannel
 >

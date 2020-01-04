@@ -684,7 +684,7 @@ Length
 -
 1
 ;
-nsRefPtr
+RefPtr
 <
 AudioNode
 >
@@ -736,7 +736,7 @@ Length
 -
 1
 ;
-nsRefPtr
+RefPtr
 <
 AudioNode
 >
@@ -809,7 +809,7 @@ Length
 -
 1
 ;
-nsRefPtr
+RefPtr
 <
 AudioParam
 >
@@ -1524,7 +1524,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 AudioNode
 >
@@ -1630,7 +1630,7 @@ RemoveElementAt
 j
 )
 ;
-nsRefPtr
+RefPtr
 <
 AudioNode
 >
@@ -1664,7 +1664,7 @@ if
 mStream
 )
 {
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >

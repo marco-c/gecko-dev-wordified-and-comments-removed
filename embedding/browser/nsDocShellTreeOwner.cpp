@@ -1896,7 +1896,7 @@ this
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >

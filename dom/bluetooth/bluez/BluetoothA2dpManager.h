@@ -117,7 +117,7 @@ NotifyConnectionStatusChanged
 nsString
 mDeviceAddress
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothProfileController
 >

@@ -2928,7 +2928,7 @@ cloned
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 ChannelMediaResource
 >
@@ -3205,7 +3205,7 @@ thread
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >
@@ -4098,7 +4098,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 MediaDecoder
 >
@@ -6049,7 +6049,7 @@ rv
 return
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 MediaResource
 >
@@ -6430,7 +6430,7 @@ uint32_t
 aCount
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >
@@ -6765,7 +6765,7 @@ do_QueryInterface
 aChannel
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaResource
 >
@@ -7271,7 +7271,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoder
 >
@@ -7308,7 +7308,7 @@ aNumBytes
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >

@@ -298,7 +298,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DocumentType
 >
@@ -1031,7 +1031,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsTextNode
 >

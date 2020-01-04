@@ -166,7 +166,7 @@ DataStoreCursor
 >
 mBackingCursor
 ;
-nsRefPtr
+RefPtr
 <
 WorkerDataStore
 >

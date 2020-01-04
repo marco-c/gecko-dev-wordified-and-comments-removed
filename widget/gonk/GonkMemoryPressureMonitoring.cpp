@@ -912,7 +912,7 @@ InitGonkMemoryPressureMonitoring
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 MemoryPressureWatcher
 >

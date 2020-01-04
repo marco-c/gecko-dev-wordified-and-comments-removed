@@ -1564,7 +1564,7 @@ stringToReverse
 result
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsVariant
 >
@@ -2925,7 +2925,7 @@ NS_IsMainThread
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRunnableMethod
 <

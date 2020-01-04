@@ -49,7 +49,7 @@ MediaEventSource
 SingleListener
 )
 {
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
@@ -161,7 +161,7 @@ MediaEventSource
 MultiListener
 )
 {
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
@@ -307,7 +307,7 @@ MediaEventSource
 DisconnectAfterNotification
 )
 {
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
@@ -414,7 +414,7 @@ MediaEventSource
 DisconnectBeforeNotification
 )
 {
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
@@ -560,7 +560,7 @@ MediaEventSource
 VoidEventType
 )
 {
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
@@ -721,7 +721,7 @@ MediaEventSource
 ListenerType1
 )
 {
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
@@ -891,7 +891,7 @@ MediaEventSource
 ListenerType2
 )
 {
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
@@ -1198,7 +1198,7 @@ MediaEventSource
 CopyEvent1
 )
 {
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
@@ -1334,7 +1334,7 @@ MediaEventSource
 CopyEvent2
 )
 {
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
@@ -1462,7 +1462,7 @@ MediaEventSource
 MoveOnly
 )
 {
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >

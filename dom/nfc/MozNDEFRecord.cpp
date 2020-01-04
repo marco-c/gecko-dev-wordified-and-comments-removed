@@ -426,7 +426,7 @@ Context
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 MozNDEFRecord
 >
@@ -556,7 +556,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MozNDEFRecord
 >

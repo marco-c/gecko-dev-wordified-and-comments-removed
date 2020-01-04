@@ -236,7 +236,7 @@ Parent
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 OriginKeyStore
 >

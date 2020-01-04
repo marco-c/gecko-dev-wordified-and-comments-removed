@@ -1343,7 +1343,7 @@ if
 mIsTunnel
 )
 {
-nsRefPtr
+RefPtr
 <
 SpdyConnectTransaction
 >
@@ -1431,7 +1431,7 @@ const
 nsACString
 &
 origin
-nsRefPtr
+RefPtr
 <
 nsStandardURL
 >
@@ -1483,7 +1483,7 @@ const
 nsACString
 &
 origin
-nsRefPtr
+RefPtr
 <
 nsStandardURL
 >
@@ -1582,7 +1582,7 @@ Append
 hostHeader
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStandardURL
 >
@@ -6778,7 +6778,7 @@ MapStreamToPlainText
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 SpdyConnectTransaction
 >
@@ -6817,7 +6817,7 @@ MapStreamToHttpConnection
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 SpdyConnectTransaction
 >

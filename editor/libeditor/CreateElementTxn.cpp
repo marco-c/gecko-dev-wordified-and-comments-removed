@@ -382,7 +382,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 Selection
 >

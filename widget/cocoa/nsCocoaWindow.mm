@@ -14781,7 +14781,7 @@ _isRunningAppModal
 )
 return
 ;
-nsRefPtr
+RefPtr
 <
 nsMenuBarX
 >

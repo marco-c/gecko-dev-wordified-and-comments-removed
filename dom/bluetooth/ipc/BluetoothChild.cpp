@@ -477,7 +477,7 @@ MOZ_ASSERT
 mReplyRunnable
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >

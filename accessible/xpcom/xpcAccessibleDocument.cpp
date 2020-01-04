@@ -756,7 +756,7 @@ const
 Accessible
 *
 aKey
-nsRefPtr
+RefPtr
 <
 xpcAccessibleGeneric
 >

@@ -197,7 +197,7 @@ get
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 nsMIMEInfoBase
 >

@@ -2055,7 +2055,7 @@ nsresult
 ConvertSourceSurfaceToNV12
 (
 const
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2161,7 +2161,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -2695,7 +2695,7 @@ NS_ERROR_INVALID_ARG
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2939,7 +2939,7 @@ dst
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -5380,7 +5380,7 @@ AMR_NB_ENC
 mAMRCSDProvided
 )
 {
-nsRefPtr
+RefPtr
 <
 EncodedFrame
 >

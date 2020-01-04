@@ -145,7 +145,7 @@ mFullName
 nsString
 mPostscriptName
 ;
-nsRefPtr
+RefPtr
 <
 gfxCharacterMap
 >
@@ -288,7 +288,7 @@ faceData
 .
 mSymbolFont
 ;
-nsRefPtr
+RefPtr
 <
 gfxCharacterMap
 >
@@ -710,7 +710,7 @@ mInterval
 TimerState
 mState
 ;
-nsRefPtr
+RefPtr
 <
 FontInfoData
 >

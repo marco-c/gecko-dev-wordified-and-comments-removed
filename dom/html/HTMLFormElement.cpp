@@ -1296,7 +1296,7 @@ AutoCompleteErrorReason
 :
 Disabled
 ;
-nsRefPtr
+RefPtr
 <
 AutocompleteErrorEvent
 >
@@ -5278,7 +5278,7 @@ type
 NS_FORM_INPUT_RADIO
 )
 {
-nsRefPtr
+RefPtr
 <
 HTMLInputElement
 >
@@ -5362,7 +5362,7 @@ GetType
 NS_FORM_INPUT_RADIO
 )
 {
-nsRefPtr
+RefPtr
 <
 HTMLInputElement
 >
@@ -8537,7 +8537,7 @@ aRadioOut
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 HTMLInputElement
 >
@@ -8635,7 +8635,7 @@ GetLength
 numRadios
 )
 ;
-nsRefPtr
+RefPtr
 <
 HTMLInputElement
 >

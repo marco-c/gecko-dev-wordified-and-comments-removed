@@ -135,7 +135,7 @@ E_POINTER
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 IDirect3DSurface9
 >
@@ -145,7 +145,7 @@ aData
 .
 mSurface
 ;
-nsRefPtr
+RefPtr
 <
 IDirect3DDevice9
 >
@@ -173,7 +173,7 @@ hr
 E_FAIL
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDirect3D9
 >
@@ -249,7 +249,7 @@ aData
 .
 mRegion
 ;
-nsRefPtr
+RefPtr
 <
 SharedTextureClientD3D9
 >
@@ -286,7 +286,7 @@ return
 E_FAIL
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDirect3DSurface9
 >
@@ -359,7 +359,7 @@ hr
 hr
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDirect3DQuery9
 >
@@ -457,7 +457,7 @@ EnsureSynchronized
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 IDirect3DQuery9
 >
@@ -647,7 +647,7 @@ nullptr
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -691,7 +691,7 @@ EnsureSynchronized
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDirect3DSurface9
 >
@@ -714,7 +714,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDirect3DDevice9
 >
@@ -737,7 +737,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDirect3DSurface9
 >
@@ -1020,7 +1020,7 @@ IntSize
 aSize
 )
 {
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
@@ -1053,7 +1053,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 SharedTextureClientD3D9
 >

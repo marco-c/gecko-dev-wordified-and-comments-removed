@@ -1019,7 +1019,7 @@ GetBackingScaleFactor
 gLastDragView
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1150,7 +1150,7 @@ aDragRect
 >
 height
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1202,7 +1202,7 @@ return
 nil
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >

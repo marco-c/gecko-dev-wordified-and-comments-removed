@@ -431,13 +431,13 @@ mWaitState
 TimeStamp
 mCurrentTimeStamp
 ;
-nsRefPtr
+RefPtr
 <
 GraphDriver
 >
 mPreviousDriver
 ;
-nsRefPtr
+RefPtr
 <
 GraphDriver
 >
@@ -704,7 +704,7 @@ AudioContextOperation
 aOperation
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaStream
 >
@@ -1209,7 +1209,7 @@ nsIThread
 >
 mThread
 ;
-nsRefPtr
+RefPtr
 <
 AudioCallbackDriver
 >
@@ -1218,7 +1218,7 @@ mDriver
 AsyncCubebOperation
 mOperation
 ;
-nsRefPtr
+RefPtr
 <
 MediaStreamGraphImpl
 >

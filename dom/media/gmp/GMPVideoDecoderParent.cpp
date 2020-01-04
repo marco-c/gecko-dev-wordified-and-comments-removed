@@ -303,7 +303,7 @@ mCallback
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 GMPVideoDecoderParent
 >
@@ -750,7 +750,7 @@ mIsAwaitingResetComplete
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 GMPVideoDecoderParent
 >

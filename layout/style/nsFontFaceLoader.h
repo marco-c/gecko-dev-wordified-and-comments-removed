@@ -173,7 +173,7 @@ nsFontFaceLoader
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 gfxUserFontEntry
 >
@@ -185,7 +185,7 @@ nsIURI
 >
 mFontURI
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

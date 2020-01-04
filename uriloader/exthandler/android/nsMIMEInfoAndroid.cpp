@@ -200,7 +200,7 @@ nsMIMEInfoAndroid
 aMimeInfo
 )
 {
-nsRefPtr
+RefPtr
 <
 nsMIMEInfoAndroid
 >

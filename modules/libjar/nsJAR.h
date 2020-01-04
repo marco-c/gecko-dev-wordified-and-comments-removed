@@ -323,7 +323,7 @@ mZipFile
 nsCString
 mOuterZipEntry
 ;
-nsRefPtr
+RefPtr
 <
 nsZipArchive
 >

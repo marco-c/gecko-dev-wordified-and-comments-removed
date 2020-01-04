@@ -5475,7 +5475,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 SpdyPush31TransactionBuffer
 >
@@ -12092,7 +12092,7 @@ ConnectionInfo
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsHttpConnectionInfo
 >
@@ -13249,7 +13249,7 @@ trans
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 SpdyConnectTransaction
 >
@@ -14332,7 +14332,7 @@ closure
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsAHttpTransaction
 >
@@ -14344,7 +14344,7 @@ static_cast
 <
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsAHttpTransaction
 >
@@ -14375,7 +14375,7 @@ TakeSubTransactions
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsAHttpTransaction
 >

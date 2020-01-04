@@ -1262,7 +1262,7 @@ CreatePaintedLayer
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 PaintedLayerComposite
 >
@@ -1314,7 +1314,7 @@ CreateContainerLayer
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ContainerLayer
 >
@@ -1366,7 +1366,7 @@ CreateImageLayer
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ImageLayerComposite
 >
@@ -1418,7 +1418,7 @@ CreateColorLayer
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ColorLayerComposite
 >
@@ -1470,7 +1470,7 @@ CreateCanvasLayer
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CanvasLayerComposite
 >
@@ -1522,7 +1522,7 @@ CreateRefLayer
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 RefLayerComposite
 >
@@ -1987,7 +1987,7 @@ get
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -5216,7 +5216,7 @@ compositableParent
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 TextureHost
 >
@@ -5410,7 +5410,7 @@ CompositableHost
 aCompositableHost
 )
 {
-nsRefPtr
+RefPtr
 <
 TextureHost
 >

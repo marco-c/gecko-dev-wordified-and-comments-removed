@@ -442,7 +442,7 @@ override
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 nsDocShellTreeOwner
 >
@@ -551,7 +551,7 @@ mPersistResult
 uint32_t
 mPersistFlags
 ;
-nsRefPtr
+RefPtr
 <
 nsEmbedStream
 >

@@ -928,7 +928,7 @@ document
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsXBLBinding
 >
@@ -1151,7 +1151,7 @@ nsIContent
 aContent
 )
 {
-nsRefPtr
+RefPtr
 <
 nsXBLBinding
 >
@@ -1312,7 +1312,7 @@ xblService
 return
 NS_ERROR_FAILURE
 ;
-nsRefPtr
+RefPtr
 <
 nsXBLDocumentInfo
 >
@@ -1492,7 +1492,7 @@ void
 aClosure
 )
 {
-nsRefPtr
+RefPtr
 <
 nsBindingManager
 >
@@ -1712,7 +1712,7 @@ Length
 -
 1
 ;
-nsRefPtr
+RefPtr
 <
 nsXBLBinding
 >

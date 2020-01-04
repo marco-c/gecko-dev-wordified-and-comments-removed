@@ -1830,7 +1830,7 @@ const
 char
 *
 aURL
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -1898,7 +1898,7 @@ LoadSheetFile
 nsIFile
 *
 aFile
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -3075,7 +3075,7 @@ n
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsZipArchive
 >
@@ -3491,7 +3491,7 @@ LoadSheet
 nsIURI
 *
 aURI
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -3616,7 +3616,7 @@ nsLayoutStylesheetCache
 :
 InvalidateSheet
 (
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -3826,7 +3826,7 @@ nsLayoutStylesheetCache
 :
 BuildPreferenceSheet
 (
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >

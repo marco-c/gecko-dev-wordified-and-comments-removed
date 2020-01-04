@@ -1631,13 +1631,13 @@ mPhaseIncrement
 bool
 mRecomputeParameters
 ;
-nsRefPtr
+RefPtr
 <
 ThreadSharedFloatArrayBufferList
 >
 mCustom
 ;
-nsRefPtr
+RefPtr
 <
 BasicWaveFormCache
 >
@@ -1646,7 +1646,7 @@ mBasicWaveFormCache
 uint32_t
 mCustomLength
 ;
-nsRefPtr
+RefPtr
 <
 WebCore
 :
@@ -2055,7 +2055,7 @@ DataLength
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ThreadSharedFloatArrayBufferList
 >
@@ -2351,7 +2351,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 OscillatorNode
 >

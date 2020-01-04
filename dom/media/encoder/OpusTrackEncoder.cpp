@@ -791,7 +791,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 OpusMetadata
 >
@@ -1260,7 +1260,7 @@ Next
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 EncodedFrame
 >

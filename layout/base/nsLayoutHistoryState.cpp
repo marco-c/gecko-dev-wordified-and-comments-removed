@@ -140,7 +140,7 @@ NS_NewLayoutHistoryState
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsLayoutHistoryState
 >

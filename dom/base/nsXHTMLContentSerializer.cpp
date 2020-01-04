@@ -199,7 +199,7 @@ nsIContentSerializer
 aSerializer
 )
 {
-nsRefPtr
+RefPtr
 <
 nsXHTMLContentSerializer
 >
@@ -4190,7 +4190,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >

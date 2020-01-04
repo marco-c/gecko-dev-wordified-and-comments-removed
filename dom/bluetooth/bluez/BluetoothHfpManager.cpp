@@ -1898,7 +1898,7 @@ rv
 false
 )
 ;
-nsRefPtr
+RefPtr
 <
 GetVolumeTask
 >
@@ -7141,7 +7141,7 @@ mNumber
 =
 aNumber
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -9527,7 +9527,7 @@ NS_ENSURE_TRUE_VOID
 mController
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothProfileController
 >
@@ -9580,7 +9580,7 @@ NS_ENSURE_TRUE_VOID
 mController
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothProfileController
 >

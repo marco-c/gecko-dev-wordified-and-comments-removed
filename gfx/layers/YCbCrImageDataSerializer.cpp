@@ -1411,7 +1411,7 @@ ToDataSourceSurface
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

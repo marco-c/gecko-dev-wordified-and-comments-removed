@@ -44,7 +44,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -237,13 +237,13 @@ nsILoadGroup
 >
 mLoadGroup
 ;
-nsRefPtr
+RefPtr
 <
 InternalRequest
 >
 mRequest
 ;
-nsRefPtr
+RefPtr
 <
 InternalResponse
 >
@@ -255,7 +255,7 @@ nsIOutputStream
 >
 mPipeOutputStream
 ;
-nsRefPtr
+RefPtr
 <
 FetchDriverObserver
 >

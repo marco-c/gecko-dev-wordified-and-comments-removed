@@ -473,7 +473,7 @@ mIterableObj
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 T
 >

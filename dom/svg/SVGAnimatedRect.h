@@ -149,7 +149,7 @@ nsSVGViewBox
 *
 mVal
 ;
-nsRefPtr
+RefPtr
 <
 nsSVGElement
 >

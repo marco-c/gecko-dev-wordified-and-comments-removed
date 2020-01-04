@@ -3647,7 +3647,7 @@ Clone
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsMediaList
 >
@@ -4447,7 +4447,7 @@ true
 struct
 ChildSheetListBuilder
 {
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -4650,7 +4650,7 @@ childSheet
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -5149,7 +5149,7 @@ type
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -5877,7 +5877,7 @@ Clear
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -5931,7 +5931,7 @@ mDocument
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -5985,7 +5985,7 @@ Length
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -7080,7 +7080,7 @@ if
 sheet
 )
 {
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -7160,7 +7160,7 @@ WillDirty
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -7244,7 +7244,7 @@ WillDirty
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -7944,7 +7944,7 @@ aCloneOwningNode
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -9174,7 +9174,7 @@ childSheet
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -9279,7 +9279,7 @@ rules
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -9331,7 +9331,7 @@ UPDATE_STYLE
 true
 )
 ;
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -9893,7 +9893,7 @@ rules
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -10018,7 +10018,7 @@ sheet
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -10175,7 +10175,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -10231,7 +10231,7 @@ WillDirty
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -10667,7 +10667,7 @@ return
 NS_ERROR_DOM_INVALID_ACCESS_ERR
 ;
 }
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -10757,7 +10757,7 @@ Count
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -10855,7 +10855,7 @@ childSheet
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -11124,7 +11124,7 @@ Count
 index
 )
 {
-nsRefPtr
+RefPtr
 <
 css
 :

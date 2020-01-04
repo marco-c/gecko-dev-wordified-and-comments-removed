@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -213,7 +213,7 @@ mGlobalDisplay
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 SoftwareDisplay
 >

@@ -27,7 +27,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -164,7 +164,7 @@ GonkVideoDecoderManager
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -178,7 +178,7 @@ Output
 (
 int64_t
 aStreamOffset
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -299,7 +299,7 @@ VideoResourceListener
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaResourcePromise
 >
@@ -307,7 +307,7 @@ Init
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaResourcePromise
 >
@@ -454,7 +454,7 @@ mPicture
 nsIntSize
 mInitialFrame
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -580,7 +580,7 @@ mPendingReleaseItems
 Mutex
 mPendingReleaseItemsLock
 ;
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >

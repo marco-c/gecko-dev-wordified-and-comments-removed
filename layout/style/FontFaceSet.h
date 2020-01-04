@@ -290,7 +290,7 @@ override
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 FontFaceSet
 >
@@ -740,7 +740,7 @@ aFontFaces
 struct
 FontFaceRecord
 {
-nsRefPtr
+RefPtr
 <
 FontFace
 >
@@ -913,7 +913,7 @@ const
 nsAString
 &
 aFont
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -965,7 +965,7 @@ ErrorResult
 aRv
 )
 ;
-nsRefPtr
+RefPtr
 <
 UserFontSet
 >
@@ -977,7 +977,7 @@ nsIDocument
 >
 mDocument
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

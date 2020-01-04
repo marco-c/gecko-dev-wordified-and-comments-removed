@@ -1295,7 +1295,7 @@ mOperation
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 nsPermissionManager
 >
@@ -2851,7 +2851,7 @@ aRebuildOnSuccess
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 nsPermissionManager
 >
@@ -2900,7 +2900,7 @@ nsISupports
 *
 )
 {
-nsRefPtr
+RefPtr
 <
 nsPermissionManager
 >
@@ -2965,7 +2965,7 @@ aManager
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 nsPermissionManager
 >
@@ -3040,7 +3040,7 @@ uint16_t
 aReason
 )
 {
-nsRefPtr
+RefPtr
 <
 nsPermissionManager
 >
@@ -6650,7 +6650,7 @@ typeIndex
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-nsRefPtr
+RefPtr
 <
 PermissionKey
 >
@@ -8908,7 +8908,7 @@ entry
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 PermissionKey
 >

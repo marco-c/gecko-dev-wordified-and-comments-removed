@@ -242,7 +242,7 @@ nsPresContext
 *
 pc
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -273,7 +273,7 @@ if
 surface
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :

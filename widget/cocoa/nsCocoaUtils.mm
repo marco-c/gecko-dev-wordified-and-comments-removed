@@ -2265,7 +2265,7 @@ CGImageRef
 aResult
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -2957,7 +2957,7 @@ CGFloat
 scaleFactor
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -3044,7 +3044,7 @@ scaleFactor
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -3087,7 +3087,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxContext
 >

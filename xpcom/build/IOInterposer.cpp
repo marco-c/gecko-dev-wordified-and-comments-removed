@@ -52,7 +52,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -674,7 +674,7 @@ SetObserverLists
 (
 uint32_t
 aNewGeneration
-nsRefPtr
+RefPtr
 <
 ObserverLists
 >
@@ -723,7 +723,7 @@ mIsHandlingObservation
 uint32_t
 mCurrentGeneration
 ;
-nsRefPtr
+RefPtr
 <
 ObserverLists
 >
@@ -1566,7 +1566,7 @@ aOp
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 ObserverLists
 >

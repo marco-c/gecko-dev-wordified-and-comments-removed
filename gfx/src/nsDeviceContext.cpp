@@ -1755,7 +1755,7 @@ mHeight
 0
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -1779,7 +1779,7 @@ mCachedPrintingSurface
 }
 #
 endif
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1902,7 +1902,7 @@ void
 nullptr
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxContext
 >

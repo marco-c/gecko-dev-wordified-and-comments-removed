@@ -617,7 +617,7 @@ mDocumentClosed
 bool
 mInDocumentWrite
 ;
-nsRefPtr
+RefPtr
 <
 nsHtml5OwningUTF16Buffer
 >
@@ -627,7 +627,7 @@ nsHtml5OwningUTF16Buffer
 *
 mLastBuffer
 ;
-nsRefPtr
+RefPtr
 <
 nsHtml5TreeOpExecutor
 >
@@ -659,7 +659,7 @@ nsHtml5Tokenizer
 >
 mDocWriteSpeculativeTokenizer
 ;
-nsRefPtr
+RefPtr
 <
 nsHtml5StreamListener
 >

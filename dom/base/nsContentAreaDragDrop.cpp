@@ -1370,7 +1370,7 @@ mozilla
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -1731,7 +1731,7 @@ if
 flo
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -2984,7 +2984,7 @@ nsIPrincipal
 aPrincipal
 )
 {
-nsRefPtr
+RefPtr
 <
 nsVariantCC
 >
@@ -3249,7 +3249,7 @@ if
 mImage
 )
 {
-nsRefPtr
+RefPtr
 <
 nsVariantCC
 >
@@ -3298,7 +3298,7 @@ if
 dataProvider
 )
 {
-nsRefPtr
+RefPtr
 <
 nsVariantCC
 >

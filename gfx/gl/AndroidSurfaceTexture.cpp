@@ -209,7 +209,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 AndroidSurfaceTexture
 >

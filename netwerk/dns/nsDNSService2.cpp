@@ -442,7 +442,7 @@ nsDNSRecord
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 nsHostRecord
 >
@@ -1509,7 +1509,7 @@ MallocSizeOf
 const
 override
 ;
-nsRefPtr
+RefPtr
 <
 nsHostResolver
 >
@@ -1814,7 +1814,7 @@ mDone
 nsresult
 mStatus
 ;
-nsRefPtr
+RefPtr
 <
 nsHostRecord
 >
@@ -2585,7 +2585,7 @@ do_GetService
 NS_IDNSERVICE_CONTRACTID
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsHostResolver
 >
@@ -2747,7 +2747,7 @@ this
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 nsHostResolver
 >
@@ -3067,7 +3067,7 @@ nsICancelable
 result
 )
 {
-nsRefPtr
+RefPtr
 <
 nsHostResolver
 >
@@ -3409,7 +3409,7 @@ nsresult
 aReason
 )
 {
-nsRefPtr
+RefPtr
 <
 nsHostResolver
 >
@@ -3545,7 +3545,7 @@ nsIDNSRecord
 result
 )
 {
-nsRefPtr
+RefPtr
 <
 nsHostResolver
 >

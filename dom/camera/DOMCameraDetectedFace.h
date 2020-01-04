@@ -297,7 +297,7 @@ mId
 uint32_t
 mScore
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -306,7 +306,7 @@ DOMRect
 >
 mBounds
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -315,7 +315,7 @@ DOMPoint
 >
 mLeftEye
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -324,7 +324,7 @@ DOMPoint
 >
 mRightEye
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :

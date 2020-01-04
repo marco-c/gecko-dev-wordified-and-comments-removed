@@ -242,7 +242,7 @@ Element
 >
 mPluginContent
 ;
-nsRefPtr
+RefPtr
 <
 MediaDocumentStreamListener
 >
@@ -292,7 +292,7 @@ ctxt
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 PluginDocument
 >
@@ -853,7 +853,7 @@ zero
 false
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1053,7 +1053,7 @@ if
 objectFrame
 )
 {
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >

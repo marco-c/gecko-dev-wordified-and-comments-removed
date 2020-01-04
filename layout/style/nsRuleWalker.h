@@ -134,7 +134,7 @@ aRule
 NS_PRECONDITION
 (
 !
-nsRefPtr
+RefPtr
 <
 mozilla
 :

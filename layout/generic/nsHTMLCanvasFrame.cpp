@@ -1554,7 +1554,7 @@ aItem
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CanvasLayer
 >

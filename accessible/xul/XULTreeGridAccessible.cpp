@@ -581,7 +581,7 @@ column
 return
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 XULTreeItemAccessibleBase
 >
@@ -976,7 +976,7 @@ aRow
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 Accessible
 >
@@ -1510,7 +1510,7 @@ cachedCell
 return
 cachedCell
 ;
-nsRefPtr
+RefPtr
 <
 XULTreeGridCellAccessible
 >
@@ -2992,7 +2992,7 @@ true
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 AccEvent
 >
@@ -3198,7 +3198,7 @@ columnAtOffset
 return
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 XULTreeItemAccessibleBase
 >

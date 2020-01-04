@@ -369,7 +369,7 @@ mIsConnected
 =
 aIsConnected
 ;
-nsRefPtr
+RefPtr
 <
 AsyncEventDispatcher
 >

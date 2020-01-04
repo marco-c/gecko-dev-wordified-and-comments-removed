@@ -1913,7 +1913,7 @@ true
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 nsMemoryPressureWatcher
 >

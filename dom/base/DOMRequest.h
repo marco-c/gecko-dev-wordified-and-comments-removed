@@ -95,13 +95,13 @@ Value
 >
 mResult
 ;
-nsRefPtr
+RefPtr
 <
 DOMError
 >
 mError
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >

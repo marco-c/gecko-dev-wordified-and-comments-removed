@@ -6803,7 +6803,7 @@ MOZ_ASSERT
 mPendingReportersState
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsMemoryReporterManager
 >
@@ -7741,7 +7741,7 @@ IsEmpty
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 ContentParent
 >
@@ -9710,7 +9710,7 @@ nsIRunnable
 aCallback
 )
 {
-nsRefPtr
+RefPtr
 <
 MinimizeMemoryUsageRunnable
 >
@@ -10011,7 +10011,7 @@ GET_MEMORY_REPORTER_MANAGER
 mgr
 )
 \
-nsRefPtr
+RefPtr
 <
 nsMemoryReporterManager
 >

@@ -219,7 +219,7 @@ AnchorCount
 return
 NS_ERROR_INVALID_ARG
 ;
-nsRefPtr
+RefPtr
 <
 nsIURI
 >

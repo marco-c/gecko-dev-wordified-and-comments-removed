@@ -322,7 +322,7 @@ PresContext
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >

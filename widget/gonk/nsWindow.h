@@ -553,7 +553,7 @@ nsIIdleServiceInternal
 >
 mIdleService
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -573,7 +573,7 @@ uint8_t
 *
 mMappedBuffer
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -612,13 +612,13 @@ MultiTouchInput
 >
 mSynthesizedTouchInput
 ;
-nsRefPtr
+RefPtr
 <
 nsScreenGonk
 >
 mScreen
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

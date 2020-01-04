@@ -404,7 +404,7 @@ Error
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 AudioData
 >
@@ -820,7 +820,7 @@ __func__
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 :
@@ -867,7 +867,7 @@ MOZ_ASSERT
 mMPS
 )
 ;
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -964,7 +964,7 @@ IsOnGMPThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >

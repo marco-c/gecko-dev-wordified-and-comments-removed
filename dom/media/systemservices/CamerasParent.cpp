@@ -255,7 +255,7 @@ mResult
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 CamerasParent
 >
@@ -315,7 +315,7 @@ h
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 FrameSizeChangeRunnable
 >
@@ -548,7 +548,7 @@ mResult
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 CamerasParent
 >
@@ -757,7 +757,7 @@ StopVideoCapture
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 CamerasParent
 >
@@ -766,7 +766,7 @@ self
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -867,7 +867,7 @@ mVideoCaptureThread
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -1194,7 +1194,7 @@ buffer
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DeliverFrameRunnable
 >
@@ -2098,7 +2098,7 @@ __PRETTY_FUNCTION__
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CamerasParent
 >
@@ -2107,7 +2107,7 @@ self
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -2163,7 +2163,7 @@ NumberOfCaptureDevices
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -2334,7 +2334,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CamerasParent
 >
@@ -2343,7 +2343,7 @@ self
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -2409,7 +2409,7 @@ kMaxUniqueIdLength
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -2586,7 +2586,7 @@ num
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CamerasParent
 >
@@ -2595,7 +2595,7 @@ self
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -2670,7 +2670,7 @@ webrtcCaps
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -2858,7 +2858,7 @@ __PRETTY_FUNCTION__
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CamerasParent
 >
@@ -2867,7 +2867,7 @@ self
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -2980,7 +2980,7 @@ deviceUniqueId
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -3143,7 +3143,7 @@ __PRETTY_FUNCTION__
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CamerasParent
 >
@@ -3152,7 +3152,7 @@ self
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -3225,7 +3225,7 @@ numdev
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -3378,7 +3378,7 @@ numdev
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CamerasParent
 >
@@ -3387,7 +3387,7 @@ self
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -3445,7 +3445,7 @@ numdev
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -3587,7 +3587,7 @@ __PRETTY_FUNCTION__
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CamerasParent
 >
@@ -3596,7 +3596,7 @@ self
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -3872,7 +3872,7 @@ true
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -3996,7 +3996,7 @@ __PRETTY_FUNCTION__
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CamerasParent
 >
@@ -4005,7 +4005,7 @@ self
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -4391,7 +4391,7 @@ Thread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CamerasParent
 >
@@ -4400,7 +4400,7 @@ self
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -4667,7 +4667,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CamerasParent
 >

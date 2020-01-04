@@ -28,7 +28,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -376,7 +376,7 @@ nsresult
 AddTrack
 (
 const
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -450,7 +450,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -468,7 +468,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -486,7 +486,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -504,7 +504,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTrack
 >
@@ -537,7 +537,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 JsepTransport
 >

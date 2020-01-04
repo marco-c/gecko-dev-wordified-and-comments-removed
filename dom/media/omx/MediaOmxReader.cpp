@@ -196,7 +196,7 @@ mOffset
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 MediaOmxReader
 >
@@ -384,7 +384,7 @@ mOffset
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 MediaOmxReader
 >
@@ -493,7 +493,7 @@ SafeGetDecoder
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 AbstractMediaDecoder
 >
@@ -556,7 +556,7 @@ clear
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ShutdownPromise
 >
@@ -579,7 +579,7 @@ mIsShutdown
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 ShutdownPromise
 >
@@ -816,7 +816,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -921,7 +921,7 @@ ProcessCachedData
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -937,7 +937,7 @@ Ensure
 __func__
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaOmxReader
 >
@@ -1348,7 +1348,7 @@ mRate
 sampleRate
 ;
 }
-nsRefPtr
+RefPtr
 <
 MetadataHolder
 >
@@ -1724,7 +1724,7 @@ Tell
 :
 0
 ;
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -2187,7 +2187,7 @@ OnTaskQueue
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 AbstractMediaDecoder
 >
@@ -2253,7 +2253,7 @@ interval
 intervals
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >
@@ -2488,7 +2488,7 @@ mAudioChannels
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -2517,7 +2517,7 @@ EnsureActive
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SeekPromise
 >
@@ -2542,7 +2542,7 @@ mVideoSeekTimeUs
 =
 aTarget
 ;
-nsRefPtr
+RefPtr
 <
 MediaOmxReader
 >
@@ -2761,7 +2761,7 @@ int64_t
 aOffset
 )
 {
-nsRefPtr
+RefPtr
 <
 AbstractMediaDecoder
 >
@@ -2873,7 +2873,7 @@ aOffset
 sReadSize
 )
 ;
-nsRefPtr
+RefPtr
 <
 NotifyDataArrivedRunnable
 >

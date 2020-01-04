@@ -182,7 +182,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -335,7 +335,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1617,7 +1617,7 @@ side
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 PaintedLayer
 >
@@ -1675,7 +1675,7 @@ side
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 ContainerLayer
 >
@@ -1762,7 +1762,7 @@ side
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 ColorLayer
 >
@@ -2838,7 +2838,7 @@ sFrameCount
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -2880,7 +2880,7 @@ LayersEffectContrast
 0
 )
 ;
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -2996,7 +2996,7 @@ LayerManagerComposite
 :
 PopGroupForLayerEffects
 (
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -3497,7 +3497,7 @@ packet
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 Composer2D
 >
@@ -3903,7 +3903,7 @@ height
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -4751,7 +4751,7 @@ surface
 LOCAL_EGL_NO_SURFACE
 )
 {
-nsRefPtr
+RefPtr
 <
 GLContext
 >
@@ -5275,7 +5275,7 @@ mRoot
 mirrorScreenWidget
 )
 ;
-nsRefPtr
+RefPtr
 <
 Composer2D
 >
@@ -6373,7 +6373,7 @@ nullptr
 ;
 }
 return
-nsRefPtr
+RefPtr
 <
 PaintedLayerComposite
 >
@@ -6422,7 +6422,7 @@ nullptr
 ;
 }
 return
-nsRefPtr
+RefPtr
 <
 ContainerLayerComposite
 >
@@ -6471,7 +6471,7 @@ nullptr
 ;
 }
 return
-nsRefPtr
+RefPtr
 <
 ImageLayerComposite
 >
@@ -6523,7 +6523,7 @@ nullptr
 ;
 }
 return
-nsRefPtr
+RefPtr
 <
 ColorLayerComposite
 >
@@ -6575,7 +6575,7 @@ nullptr
 ;
 }
 return
-nsRefPtr
+RefPtr
 <
 CanvasLayerComposite
 >
@@ -6627,7 +6627,7 @@ nullptr
 ;
 }
 return
-nsRefPtr
+RefPtr
 <
 RefLayerComposite
 >

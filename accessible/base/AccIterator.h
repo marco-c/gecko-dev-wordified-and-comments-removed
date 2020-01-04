@@ -807,7 +807,7 @@ SingleAccIterator
 &
 )
 ;
-nsRefPtr
+RefPtr
 <
 Accessible
 >

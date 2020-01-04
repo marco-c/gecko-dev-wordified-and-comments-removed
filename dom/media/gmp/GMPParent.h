@@ -467,7 +467,7 @@ GMPParent
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 GeckoMediaPluginServiceParent
 >
@@ -707,7 +707,7 @@ mCanDecrypt
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 GMPTimerParent
 >
@@ -716,7 +716,7 @@ mTimers
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 GMPStorageParent
 >
@@ -738,7 +738,7 @@ mAsyncShutdownTimeout
 nsAutoCString
 mNodeId
 ;
-nsRefPtr
+RefPtr
 <
 GMPContentParent
 >

@@ -106,7 +106,7 @@ NS_IsMainThread
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaSourceDemuxer
 :
@@ -136,7 +136,7 @@ AttemptInit
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaSourceDemuxer
 :
@@ -175,7 +175,7 @@ __func__
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -213,7 +213,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaSourceDemuxer
 >
@@ -221,7 +221,7 @@ self
 =
 this
 ;
-nsRefPtr
+RefPtr
 <
 MediaSourceDecoder
 :
@@ -294,7 +294,7 @@ NotifyDataArrived
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaSourceDemuxer
 >
@@ -649,7 +649,7 @@ uint32_t
 aTrackNumber
 )
 {
-nsRefPtr
+RefPtr
 <
 TrackBuffersManager
 >
@@ -684,7 +684,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaSourceTrackDemuxer
 >
@@ -1543,7 +1543,7 @@ Clone
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaSourceTrackDemuxer
 :
@@ -1594,7 +1594,7 @@ aTime
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaSourceTrackDemuxer
 :
@@ -1662,7 +1662,7 @@ BreackCycle
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaSourceTrackDemuxer
 >
@@ -1784,7 +1784,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaSourceTrackDemuxer
 :
@@ -1851,7 +1851,7 @@ BreakCycles
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaSourceTrackDemuxer
 >
@@ -1908,7 +1908,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaSourceTrackDemuxer
 :
@@ -2024,7 +2024,7 @@ __func__
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaSourceTrackDemuxer
 :
@@ -2043,7 +2043,7 @@ aNumSamples
 bool
 error
 ;
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -2116,7 +2116,7 @@ __func__
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 SamplesHolder
 >
@@ -2178,7 +2178,7 @@ __func__
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaSourceTrackDemuxer
 :

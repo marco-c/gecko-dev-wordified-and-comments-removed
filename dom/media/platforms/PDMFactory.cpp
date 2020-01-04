@@ -618,7 +618,7 @@ ImageContainer
 aImageContainer
 )
 {
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >
@@ -654,7 +654,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >
@@ -714,7 +714,7 @@ callback
 =
 aCallback
 ;
-nsRefPtr
+RefPtr
 <
 DecoderCallbackFuzzingWrapper
 >
@@ -775,7 +775,7 @@ aConfig
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 H264Converter
 >
@@ -915,7 +915,7 @@ aMimeType
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >
@@ -940,7 +940,7 @@ CreatePDMs
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >
@@ -1188,7 +1188,7 @@ nsACString
 aMimeType
 )
 {
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >
@@ -1282,7 +1282,7 @@ CanDecryptAndDecodeVideo
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 PDMFactory
 >

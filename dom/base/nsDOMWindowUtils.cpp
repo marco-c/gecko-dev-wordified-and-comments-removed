@@ -974,7 +974,7 @@ docShell
 return
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -1460,7 +1460,7 @@ FlushPendingNotifications
 Flush_Display
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsViewManager
 >
@@ -4314,7 +4314,7 @@ offset
 presContext
 )
 ;
-nsRefPtr
+RefPtr
 <
 Touch
 >
@@ -6066,7 +6066,7 @@ translationNodesHash
 500
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsTranslationNodeList
 >
@@ -6457,7 +6457,7 @@ nullptr
 return
 NS_ERROR_FAILURE
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -6468,7 +6468,7 @@ CanvasToDataSourceSurface
 aCanvas1
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -7553,7 +7553,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 DOMRect
 >
@@ -7765,7 +7765,7 @@ do_QueryReferent
 mWindow
 )
 ;
-nsRefPtr
+RefPtr
 <
 DOMRect
 >
@@ -8072,7 +8072,7 @@ nsIDOMElement
 aResult
 )
 {
-nsRefPtr
+RefPtr
 <
 nsIContent
 >
@@ -8354,7 +8354,7 @@ NS_ENSURE_STATE
 targetDoc
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsIPresShell
 >
@@ -10584,7 +10584,7 @@ AdvanceTimeAndRefresh
 aMilliseconds
 )
 ;
-nsRefPtr
+RefPtr
 <
 LayerTransactionChild
 >
@@ -10634,7 +10634,7 @@ RestoreNormalRefresh
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 LayerTransactionChild
 >
@@ -13127,7 +13127,7 @@ options
 mStorage
 )
 ;
-nsRefPtr
+RefPtr
 <
 indexedDB
 :
@@ -13219,7 +13219,7 @@ indexedDB
 :
 IndexedDatabaseManager
 ;
-nsRefPtr
+RefPtr
 <
 IndexedDatabaseManager
 >
@@ -15732,7 +15732,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsROCSSPrimitiveValue
 >
@@ -16287,7 +16287,7 @@ return
 NS_ERROR_DOM_SECURITY_ERR
 ;
 }
-nsRefPtr
+RefPtr
 <
 HandlingUserInputHelper
 >
@@ -16338,7 +16338,7 @@ GetWidget
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 LayerManager
 >
@@ -16441,7 +16441,7 @@ GetWidget
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 LayerManager
 >
@@ -16863,7 +16863,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsRefPtr
+RefPtr
 <
 LayerManager
 >
@@ -17350,7 +17350,7 @@ GetWidget
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 LayerManager
 >

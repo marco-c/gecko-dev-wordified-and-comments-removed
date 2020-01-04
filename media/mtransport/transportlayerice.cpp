@@ -253,12 +253,12 @@ TransportLayerIce
 :
 SetParameters
 (
-nsRefPtr
+RefPtr
 <
 NrIceCtx
 >
 ctx
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >

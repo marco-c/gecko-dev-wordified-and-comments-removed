@@ -342,7 +342,7 @@ IsInGonkEmulator
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 GrallocTextureClientOGL
 >
@@ -2280,7 +2280,7 @@ GetGraphicBuffer
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :

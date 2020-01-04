@@ -143,7 +143,7 @@ nsIURI
 aSheetURI
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -165,7 +165,7 @@ Loader
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >

@@ -371,7 +371,7 @@ Next
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaKeySession
 >
@@ -423,7 +423,7 @@ Next
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaKeySession
 >
@@ -505,7 +505,7 @@ mProxy
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaKeys
 >
@@ -538,7 +538,7 @@ Next
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -670,7 +670,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 DetailedPromise
 >
@@ -1055,7 +1055,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DetailedPromise
 >
@@ -1124,7 +1124,7 @@ aId
 aExceptionCode
 )
 ;
-nsRefPtr
+RefPtr
 <
 DetailedPromise
 >
@@ -1372,7 +1372,7 @@ this
 aId
 )
 ;
-nsRefPtr
+RefPtr
 <
 DetailedPromise
 >
@@ -1403,7 +1403,7 @@ aId
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaKeySession
 >
@@ -1557,7 +1557,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 DetailedPromise
 >
@@ -2110,7 +2110,7 @@ uint32_t
 aPluginId
 )
 {
-nsRefPtr
+RefPtr
 <
 DetailedPromise
 >
@@ -2135,7 +2135,7 @@ mNodeId
 =
 aNodeId
 ;
-nsRefPtr
+RefPtr
 <
 MediaKeys
 >
@@ -2207,7 +2207,7 @@ if
 aPluginId
 )
 {
-nsRefPtr
+RefPtr
 <
 gmp
 :
@@ -2353,7 +2353,7 @@ session
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaKeySession
 >
@@ -2419,7 +2419,7 @@ bool
 aSuccess
 )
 {
-nsRefPtr
+RefPtr
 <
 DetailedPromise
 >
@@ -2518,7 +2518,7 @@ nsAString
 aSessionId
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaKeySession
 >
@@ -2556,7 +2556,7 @@ uint32_t
 aToken
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaKeySession
 >

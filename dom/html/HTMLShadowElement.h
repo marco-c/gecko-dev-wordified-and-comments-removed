@@ -189,7 +189,7 @@ aGivenProto
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 ShadowRoot
 >

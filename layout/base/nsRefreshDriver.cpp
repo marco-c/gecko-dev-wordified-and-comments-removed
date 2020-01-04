@@ -797,7 +797,7 @@ this
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsRefreshDriver
 >
@@ -927,7 +927,7 @@ mTargetTime
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsRefreshDriver
 >
@@ -1116,7 +1116,7 @@ mRateMilliseconds
 TimeDuration
 mRateDuration
 ;
-nsRefPtr
+RefPtr
 <
 nsITimer
 >
@@ -1163,7 +1163,7 @@ RefreshDriverVsyncObserver
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1699,19 +1699,19 @@ aTimeStamp
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 RefreshDriverVsyncObserver
 >
 mVsyncObserver
 ;
-nsRefPtr
+RefPtr
 <
 RefreshTimerVsyncDispatcher
 >
 mVsyncDispatcher
 ;
-nsRefPtr
+RefPtr
 <
 VsyncChild
 >
@@ -2137,7 +2137,7 @@ now
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsRefreshDriver
 >
@@ -2464,7 +2464,7 @@ backgroundChild
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsIIPCBackgroundChildCreateCallback
 >
@@ -5030,7 +5030,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -5760,7 +5760,7 @@ HasMore
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsARefreshObserver
 >
@@ -6597,7 +6597,7 @@ mViewManagerFlushIsPending
 =
 false
 ;
-nsRefPtr
+RefPtr
 <
 nsViewManager
 >

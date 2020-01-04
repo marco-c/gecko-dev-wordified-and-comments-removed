@@ -168,7 +168,7 @@ aMessages
 {
 FallibleTArray
 <
-nsRefPtr
+RefPtr
 <
 SharedMessagePortMessage
 >
@@ -269,7 +269,7 @@ aMessages
 {
 FallibleTArray
 <
-nsRefPtr
+RefPtr
 <
 SharedMessagePortMessage
 >
@@ -462,7 +462,7 @@ mService
 mEntangled
 )
 {
-nsRefPtr
+RefPtr
 <
 MessagePortService
 >

@@ -322,7 +322,7 @@ nsIContent
 >
 mPopup
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -1314,7 +1314,7 @@ nsMenuFrame
 *
 mCurrentMenu
 ;
-nsRefPtr
+RefPtr
 <
 nsXULPopupShownEvent
 >

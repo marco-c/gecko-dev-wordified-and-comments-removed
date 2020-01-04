@@ -461,7 +461,7 @@ return
 NS_ERROR_NO_AGGREGATION
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsScriptableInputStream
 >

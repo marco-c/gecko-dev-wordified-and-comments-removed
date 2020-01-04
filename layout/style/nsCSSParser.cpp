@@ -4642,7 +4642,7 @@ nsIPrincipal
 >
 mSheetPrincipal
 ;
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -4756,7 +4756,7 @@ mWebkitBoxUnprefixState
 ;
 InfallibleTArray
 <
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -7792,7 +7792,7 @@ aURI
 nullptr
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsCSSKeyframeRule
 >
@@ -13758,7 +13758,7 @@ nsMediaFeature
 eIntRatio
 :
 {
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :
@@ -14117,7 +14117,7 @@ void
 aData
 )
 {
-nsRefPtr
+RefPtr
 <
 nsMediaList
 >
@@ -14264,7 +14264,7 @@ uint32_t
 aColumnNumber
 )
 {
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -14536,7 +14536,7 @@ void
 aData
 )
 {
-nsRefPtr
+RefPtr
 <
 nsMediaList
 >
@@ -14570,7 +14570,7 @@ true
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -15064,7 +15064,7 @@ true
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -15281,7 +15281,7 @@ aPrefix
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -15377,7 +15377,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsCSSFontFaceRule
 >
@@ -15741,7 +15741,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsCSSFontFeatureValuesRule
 >
@@ -16599,7 +16599,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsCSSKeyframesRule
 >
@@ -16625,7 +16625,7 @@ true
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsCSSKeyframeRule
 >
@@ -16767,7 +16767,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsCSSPageRule
 >
@@ -16877,7 +16877,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsCSSKeyframeRule
 >
@@ -17198,7 +17198,7 @@ this
 conditionMet
 )
 ;
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -18287,7 +18287,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsCSSCounterStyleRule
 >
@@ -20983,7 +20983,7 @@ stdout
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -32927,7 +32927,7 @@ UngetToken
 break
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :
@@ -33490,7 +33490,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :
@@ -33728,7 +33728,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsStringBuffer
 >
@@ -33833,7 +33833,7 @@ kImageOrientationFlipKTable
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :
@@ -37467,7 +37467,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -38106,7 +38106,7 @@ token
 nsCSSValue
 rowsValue
 ;
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -39779,7 +39779,7 @@ uint8_t
 aFlags
 )
 {
-nsRefPtr
+RefPtr
 <
 nsCSSValueGradient
 >
@@ -40194,7 +40194,7 @@ uint8_t
 aFlags
 )
 {
-nsRefPtr
+RefPtr
 <
 nsCSSValueGradient
 >
@@ -46303,7 +46303,7 @@ NS_STYLE_BG_ORIGIN_PADDING
 eCSSUnit_Enumerated
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :
@@ -48139,7 +48139,7 @@ nsCSSValue
 aOut
 )
 {
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :
@@ -50889,7 +50889,7 @@ false
 ;
 do
 {
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :
@@ -51106,7 +51106,7 @@ RequireWhitespace
 return
 false
 ;
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :
@@ -51597,7 +51597,7 @@ hadWS
 break
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :
@@ -52788,7 +52788,7 @@ eCSSUnit_URL
 break
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :
@@ -55929,7 +55929,7 @@ nsCSSValue
 aValue
 )
 {
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -56514,7 +56514,7 @@ Length
 return
 false
 ;
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :
@@ -56872,7 +56872,7 @@ Length
 return
 false
 ;
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :
@@ -59512,7 +59512,7 @@ Length
 MAX_ALLOWED_ELEMS
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :
@@ -60794,7 +60794,7 @@ item
 mNext
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :
@@ -61088,7 +61088,7 @@ eCSSKeyword_circle
 :
 3
 ;
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :
@@ -61171,7 +61171,7 @@ nsCSSValue
 aValue
 )
 {
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :
@@ -61316,7 +61316,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :
@@ -62884,7 +62884,7 @@ state
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :
@@ -63168,7 +63168,7 @@ state
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :
@@ -64391,7 +64391,7 @@ IndexColor
 IndexInset
 }
 ;
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :
@@ -66278,7 +66278,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :

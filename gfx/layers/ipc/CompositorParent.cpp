@@ -2951,7 +2951,7 @@ IntRect
 aRect
 )
 {
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -3011,7 +3011,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -5758,7 +5758,7 @@ explicit
 NotifyAPZConfirmedTargetTask
 (
 const
-nsRefPtr
+RefPtr
 <
 APZCTreeManager
 >
@@ -5810,7 +5810,7 @@ mTargets
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 APZCTreeManager
 >
@@ -5931,7 +5931,7 @@ Length
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 Compositor
 >
@@ -6094,7 +6094,7 @@ SetCompositorID
 mCompositorID
 )
 ;
-nsRefPtr
+RefPtr
 <
 LayerManagerComposite
 >
@@ -7861,7 +7861,7 @@ DeferredDestroy
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CrossProcessCompositorParent
 >
@@ -7871,7 +7871,7 @@ Transport
 *
 mTransport
 ;
-nsRefPtr
+RefPtr
 <
 CompositorThreadHolder
 >
@@ -8108,7 +8108,7 @@ InitLayersIPC
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CrossProcessCompositorParent
 >
@@ -8426,7 +8426,7 @@ uint64_t
 id
 )
 {
-nsRefPtr
+RefPtr
 <
 CompositorLRU
 >
@@ -8464,7 +8464,7 @@ uint64_t
 id
 )
 {
-nsRefPtr
+RefPtr
 <
 CompositorLRU
 >
@@ -8516,7 +8516,7 @@ ActorDestroyReason
 aWhy
 )
 {
-nsRefPtr
+RefPtr
 <
 CompositorLRU
 >
@@ -9095,7 +9095,7 @@ state
 mLayerTreeReadyObserver
 )
 {
-nsRefPtr
+RefPtr
 <
 CompositorUpdateObserver
 >
@@ -9729,7 +9729,7 @@ id
 0
 )
 ;
-nsRefPtr
+RefPtr
 <
 CompositorUpdateObserver
 >

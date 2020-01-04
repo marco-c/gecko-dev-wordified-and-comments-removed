@@ -506,7 +506,7 @@ clickCount
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Selection
 >
@@ -633,7 +633,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRange
 >

@@ -52,7 +52,7 @@ expression
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >
@@ -127,7 +127,7 @@ aResult
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >

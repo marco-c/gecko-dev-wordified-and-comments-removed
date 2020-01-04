@@ -193,7 +193,7 @@ override
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 TelephonyIPCService
 >

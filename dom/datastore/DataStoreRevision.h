@@ -105,13 +105,13 @@ DataStoreRevision
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 DataStoreRevisionCallback
 >
 mCallback
 ;
-nsRefPtr
+RefPtr
 <
 indexedDB
 :

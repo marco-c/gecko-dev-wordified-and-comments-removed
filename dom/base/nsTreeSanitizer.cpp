@@ -5166,7 +5166,7 @@ didSanitize
 =
 false
 ;
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -5438,7 +5438,7 @@ Rule
 STYLE_RULE
 :
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -5678,7 +5678,7 @@ CSSLoader
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -6660,7 +6660,7 @@ shell
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

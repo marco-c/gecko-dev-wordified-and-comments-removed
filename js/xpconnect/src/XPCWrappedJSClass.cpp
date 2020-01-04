@@ -377,7 +377,7 @@ GetWrappedJSClassMap
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsXPCWrappedJSClass
 >
@@ -2397,7 +2397,7 @@ if
 jsobj
 )
 {
-nsRefPtr
+RefPtr
 <
 nsXPCWrappedJS
 >

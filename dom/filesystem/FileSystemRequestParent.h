@@ -109,7 +109,7 @@ FileSystemRequestParent
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 FileSystemBase
 >

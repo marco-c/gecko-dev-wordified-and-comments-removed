@@ -81,7 +81,7 @@ InitOp
 aInitOp
 )
 {
-nsRefPtr
+RefPtr
 <
 SelfType
 >
@@ -158,7 +158,7 @@ aObj
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 SelfType
 >
@@ -276,7 +276,7 @@ aInitOp
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 Obj
 >
@@ -357,7 +357,7 @@ InitOp
 aInitOp
 )
 {
-nsRefPtr
+RefPtr
 <
 SelfType
 >
@@ -435,7 +435,7 @@ aObj
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 SelfType
 >
@@ -556,7 +556,7 @@ mArg1
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 Obj
 >
@@ -655,7 +655,7 @@ InitOp
 aInitOp
 )
 {
-nsRefPtr
+RefPtr
 <
 SelfType
 >
@@ -735,7 +735,7 @@ aObj
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 SelfType
 >
@@ -862,7 +862,7 @@ mArg3
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 Obj
 >
@@ -953,7 +953,7 @@ InitOp
 aInitOp
 )
 {
-nsRefPtr
+RefPtr
 <
 SelfType
 >
@@ -1017,7 +1017,7 @@ InitOp
 aInitOp
 )
 {
-nsRefPtr
+RefPtr
 <
 SelfType
 >
@@ -1242,7 +1242,7 @@ InitOp
 aInitOp
 )
 {
-nsRefPtr
+RefPtr
 <
 SelfType
 >
@@ -1307,7 +1307,7 @@ InitOp
 aInitOp
 )
 {
-nsRefPtr
+RefPtr
 <
 SelfType
 >
@@ -1565,7 +1565,7 @@ InitOp
 aInitOp
 )
 {
-nsRefPtr
+RefPtr
 <
 SelfType
 >
@@ -1631,7 +1631,7 @@ InitOp
 aInitOp
 )
 {
-nsRefPtr
+RefPtr
 <
 SelfType
 >
@@ -1905,7 +1905,7 @@ InitOp
 aInitOp
 )
 {
-nsRefPtr
+RefPtr
 <
 SelfType
 >
@@ -1972,7 +1972,7 @@ InitOp
 aInitOp
 )
 {
-nsRefPtr
+RefPtr
 <
 SelfType
 >
@@ -2262,7 +2262,7 @@ InitOp
 aInitOp
 )
 {
-nsRefPtr
+RefPtr
 <
 SelfType
 >
@@ -2330,7 +2330,7 @@ InitOp
 aInitOp
 )
 {
-nsRefPtr
+RefPtr
 <
 SelfType
 >
@@ -2636,7 +2636,7 @@ InitOp
 aInitOp
 )
 {
-nsRefPtr
+RefPtr
 <
 SelfType
 >
@@ -2705,7 +2705,7 @@ InitOp
 aInitOp
 )
 {
-nsRefPtr
+RefPtr
 <
 SelfType
 >
@@ -3027,7 +3027,7 @@ InitOp
 aInitOp
 )
 {
-nsRefPtr
+RefPtr
 <
 SelfType
 >
@@ -3097,7 +3097,7 @@ InitOp
 aInitOp
 )
 {
-nsRefPtr
+RefPtr
 <
 SelfType
 >
@@ -3453,7 +3453,7 @@ InitOp
 aInitOp
 )
 {
-nsRefPtr
+RefPtr
 <
 SelfType
 >
@@ -3526,7 +3526,7 @@ InitOp
 aInitOp
 )
 {
-nsRefPtr
+RefPtr
 <
 SelfType
 >

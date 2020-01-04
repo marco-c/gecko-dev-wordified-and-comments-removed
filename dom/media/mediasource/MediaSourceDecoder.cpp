@@ -267,7 +267,7 @@ MediaSourceDemuxer
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaFormatReader
 >
@@ -842,7 +842,7 @@ aPrincipal
 )
 {
 return
-nsRefPtr
+RefPtr
 <
 MediaResource
 >

@@ -110,7 +110,7 @@ mSurface
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >

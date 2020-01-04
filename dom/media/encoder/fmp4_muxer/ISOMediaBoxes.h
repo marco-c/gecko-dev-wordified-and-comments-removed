@@ -152,7 +152,7 @@ nsACString
 aType
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MuxerOperation
 >
@@ -216,13 +216,13 @@ ISOControl
 *
 mControl
 ;
-nsRefPtr
+RefPtr
 <
 AudioTrackMetadata
 >
 mAudioMeta
 ;
-nsRefPtr
+RefPtr
 <
 VideoTrackMetadata
 >
@@ -313,7 +313,7 @@ nsACString
 aType
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MuxerOperation
 >
@@ -344,7 +344,7 @@ delete
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MuxerOperation
 >
@@ -1369,7 +1369,7 @@ public
 uint32_t
 entry_count
 ;
-nsRefPtr
+RefPtr
 <
 SampleEntryBox
 >
@@ -1409,7 +1409,7 @@ protected
 nsresult
 CreateAudioSampleEntry
 (
-nsRefPtr
+RefPtr
 <
 SampleEntryBox
 >
@@ -1420,7 +1420,7 @@ aSampleEntry
 nsresult
 CreateVideoSampleEntry
 (
-nsRefPtr
+RefPtr
 <
 SampleEntryBox
 >

@@ -231,7 +231,7 @@ return
 this
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxSharedImageSurface
 >
@@ -381,7 +381,7 @@ Shmem
 aShmem
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxSharedImageSurface
 >
@@ -395,7 +395,7 @@ Open
 aShmem
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxReusableSharedImageSurfaceWrapper
 >

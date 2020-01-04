@@ -369,7 +369,7 @@ nsMenuGroupOwnerX
 *
 mMenuGroupOwner
 ;
-nsRefPtr
+RefPtr
 <
 nsMenuItemIconX
 >

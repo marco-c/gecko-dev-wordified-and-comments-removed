@@ -1763,7 +1763,7 @@ if
 popup
 )
 {
-nsRefPtr
+RefPtr
 <
 nsXULPopupShownEvent
 >

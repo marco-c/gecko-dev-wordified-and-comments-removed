@@ -1819,7 +1819,7 @@ deletedCharsArray
 ;
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 nsTransformedCharStyle
 >
@@ -1881,7 +1881,7 @@ BeginReading
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsTransformedCharStyle
 >
@@ -2383,7 +2383,7 @@ ch
 uint8_t
 matchType
 ;
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -2741,7 +2741,7 @@ styles
 >
 mPresContext
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >

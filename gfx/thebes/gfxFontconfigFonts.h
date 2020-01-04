@@ -245,7 +245,7 @@ PangoLanguage
 *
 mLang
 ;
-nsRefPtr
+RefPtr
 <
 gfxFcFontSet
 >

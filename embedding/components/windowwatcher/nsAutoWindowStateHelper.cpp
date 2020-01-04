@@ -181,7 +181,7 @@ true
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 Event
 >

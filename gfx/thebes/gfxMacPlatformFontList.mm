@@ -1052,7 +1052,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxCharacterMap
 >
@@ -7113,7 +7113,7 @@ CFDataGetLength
 cmapTable
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxCharacterMap
 >
@@ -7376,7 +7376,7 @@ UseCmapsDuringSystemFallback
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 MacFontInfo
 >

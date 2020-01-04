@@ -76,7 +76,7 @@ screen
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsScreenCocoa
 >

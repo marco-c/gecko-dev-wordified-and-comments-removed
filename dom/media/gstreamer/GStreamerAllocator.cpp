@@ -732,7 +732,7 @@ reader
 aReader
 ;
 }
-nsRefPtr
+RefPtr
 <
 PlanarYCbCrImage
 >

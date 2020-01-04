@@ -313,7 +313,7 @@ WaitableEventKernel
 }
 }
 ;
-nsRefPtr
+RefPtr
 <
 WaitableEventKernel
 >

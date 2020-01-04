@@ -850,7 +850,7 @@ PopFront
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlockChange
 >
@@ -1071,7 +1071,7 @@ bytesRead
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 BlockChange
 >

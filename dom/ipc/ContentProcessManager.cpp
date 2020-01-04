@@ -1549,7 +1549,7 @@ Next
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 TabParent
 >

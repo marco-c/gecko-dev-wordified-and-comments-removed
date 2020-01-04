@@ -870,7 +870,7 @@ mIgnoreAccelTextChange
 nsMenuType
 mType
 ;
-nsRefPtr
+RefPtr
 <
 nsMenuTimerMediator
 >
@@ -891,7 +891,7 @@ mBlinkTimer
 uint8_t
 mBlinkState
 ;
-nsRefPtr
+RefPtr
 <
 nsXULMenuCommandEvent
 >

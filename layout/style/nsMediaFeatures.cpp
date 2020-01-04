@@ -871,7 +871,7 @@ nsCSSValue
 aResult
 )
 {
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :

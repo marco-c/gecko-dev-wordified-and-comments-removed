@@ -3042,7 +3042,7 @@ this
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 nsIPresShell
 >

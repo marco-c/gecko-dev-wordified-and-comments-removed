@@ -758,7 +758,7 @@ iconURLSpec
 =
 fileURLSpec
 ;
-nsRefPtr
+RefPtr
 <
 nsVariant
 >

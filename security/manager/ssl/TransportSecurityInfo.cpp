@@ -3780,7 +3780,7 @@ n
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsIX509Cert
 >

@@ -620,7 +620,7 @@ aWhy
 Deletion
 )
 {
-nsRefPtr
+RefPtr
 <
 IDBDatabase
 >
@@ -1011,7 +1011,7 @@ MOZ_ASSERT
 aSpec
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBDatabase
 >
@@ -1080,7 +1080,7 @@ WindowID
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Observer
 >
@@ -1565,7 +1565,7 @@ Next
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 IDBTransaction
 >
@@ -1723,7 +1723,7 @@ objectStores
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DOMStringList
 >
@@ -2179,7 +2179,7 @@ false
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDBObjectStore
 >
@@ -2758,7 +2758,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDBTransaction
 >
@@ -3242,7 +3242,7 @@ mode
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDBTransaction
 >
@@ -3520,7 +3520,7 @@ aName
 type
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBRequest
 >
@@ -3750,7 +3750,7 @@ final
 typedef
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 IDBTransaction
 >
@@ -3940,7 +3940,7 @@ transactionsThatNeedWarning
 ;
 for
 (
-nsRefPtr
+RefPtr
 <
 IDBTransaction
 >
@@ -4552,7 +4552,7 @@ mBackgroundActor
 ifdef
 DEBUG
 {
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -5548,7 +5548,7 @@ InnerWindowID
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 LogWarningRunnable
 >
@@ -6195,7 +6195,7 @@ windowId
 mWindowId
 )
 {
-nsRefPtr
+RefPtr
 <
 IDBDatabase
 >
@@ -6243,7 +6243,7 @@ if
 mWeakDatabase
 )
 {
-nsRefPtr
+RefPtr
 <
 IDBDatabase
 >

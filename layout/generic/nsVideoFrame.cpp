@@ -258,7 +258,7 @@ NodeInfoManager
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 NodeInfo
 >
@@ -715,7 +715,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ImageContainer
 >
@@ -905,7 +905,7 @@ SetScaleHint
 scaleHint
 )
 ;
-nsRefPtr
+RefPtr
 <
 ImageLayer
 >
@@ -1036,7 +1036,7 @@ ScaleMode
 STRETCH
 )
 ;
-nsRefPtr
+RefPtr
 <
 Layer
 >
@@ -1532,7 +1532,7 @@ GetSize
 size
 )
 {
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >

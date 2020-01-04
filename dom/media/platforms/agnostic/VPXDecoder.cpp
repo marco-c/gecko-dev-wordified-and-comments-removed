@@ -256,7 +256,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 :
@@ -978,7 +978,7 @@ mInfo
 .
 mDisplay
 ;
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -1163,7 +1163,7 @@ runnable
 (
 NS_NewRunnableMethodWithArg
 <
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -1175,7 +1175,7 @@ VPXDecoder
 :
 :
 DecodeFrame
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >

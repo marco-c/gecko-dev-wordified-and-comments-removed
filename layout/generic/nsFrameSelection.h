@@ -1261,7 +1261,7 @@ SelectionType
 aType
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1433,7 +1433,7 @@ mSelectingTableCellMode
 int32_t
 mSelectedCellIndex
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >

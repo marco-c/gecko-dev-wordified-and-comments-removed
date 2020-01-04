@@ -24,7 +24,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -76,7 +76,7 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
-nsRefPtr
+RefPtr
 <
 mozEnglishWordUtils
 >

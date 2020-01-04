@@ -5872,7 +5872,7 @@ cx
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsGlobalWindow
 >
@@ -17312,7 +17312,7 @@ return
 addonId
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsGlobalWindow
 >

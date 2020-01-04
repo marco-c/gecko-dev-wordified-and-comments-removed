@@ -512,7 +512,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 URL
 >

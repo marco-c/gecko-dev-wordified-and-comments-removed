@@ -3981,7 +3981,7 @@ aChild
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsXULTemplateBuilder
 >
@@ -4107,7 +4107,7 @@ nsINode
 aNode
 )
 {
-nsRefPtr
+RefPtr
 <
 nsXULTemplateBuilder
 >

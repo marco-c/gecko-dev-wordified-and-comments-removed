@@ -78,7 +78,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -867,7 +867,7 @@ private
 nsExpirationState
 mExpirationState
 ;
-nsRefPtr
+RefPtr
 <
 imgFrame
 >
@@ -1083,7 +1083,7 @@ SurfaceKey
 aSurfaceKey
 )
 {
-nsRefPtr
+RefPtr
 <
 CachedSurface
 >
@@ -1124,7 +1124,7 @@ SurfaceKey
 aSurfaceKey
 )
 {
-nsRefPtr
+RefPtr
 <
 CachedSurface
 >
@@ -1355,7 +1355,7 @@ SurfaceKey
 &
 mIdealKey
 ;
-nsRefPtr
+RefPtr
 <
 CachedSurface
 >
@@ -2022,7 +2022,7 @@ GetSurface
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ImageSurfaceCache
 >
@@ -2053,7 +2053,7 @@ cache
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 CachedSurface
 >
@@ -2180,7 +2180,7 @@ GetImageKey
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ImageSurfaceCache
 >
@@ -2598,7 +2598,7 @@ aMarkUsed
 true
 )
 {
-nsRefPtr
+RefPtr
 <
 ImageSurfaceCache
 >
@@ -2625,7 +2625,7 @@ NOT_FOUND
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 CachedSurface
 >
@@ -2768,7 +2768,7 @@ SurfaceKey
 aSurfaceKey
 )
 {
-nsRefPtr
+RefPtr
 <
 ImageSurfaceCache
 >
@@ -2795,7 +2795,7 @@ NOT_FOUND
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 CachedSurface
 >
@@ -3003,7 +3003,7 @@ SurfaceKey
 aSurfaceKey
 )
 {
-nsRefPtr
+RefPtr
 <
 ImageSurfaceCache
 >
@@ -3023,7 +3023,7 @@ cache
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 CachedSurface
 >
@@ -3076,7 +3076,7 @@ ImageKey
 aImageKey
 )
 {
-nsRefPtr
+RefPtr
 <
 ImageSurfaceCache
 >
@@ -3124,7 +3124,7 @@ ImageKey
 aImageKey
 )
 {
-nsRefPtr
+RefPtr
 <
 ImageSurfaceCache
 >
@@ -3179,7 +3179,7 @@ ImageKey
 aImageKey
 )
 {
-nsRefPtr
+RefPtr
 <
 ImageSurfaceCache
 >
@@ -3226,7 +3226,7 @@ ImageKey
 aImageKey
 )
 {
-nsRefPtr
+RefPtr
 <
 ImageSurfaceCache
 >
@@ -3751,7 +3751,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 {
-nsRefPtr
+RefPtr
 <
 ImageSurfaceCache
 >
@@ -3847,7 +3847,7 @@ ImageKey
 aImageKey
 )
 {
-nsRefPtr
+RefPtr
 <
 ImageSurfaceCache
 >
@@ -4092,7 +4092,7 @@ mImageCaches
 SurfaceTracker
 mExpirationTracker
 ;
-nsRefPtr
+RefPtr
 <
 MemoryPressureObserver
 >

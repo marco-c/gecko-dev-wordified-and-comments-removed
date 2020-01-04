@@ -535,7 +535,7 @@ gfxImageFormat
 aFormat
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -1927,7 +1927,7 @@ ANDROID_VERSION
 =
 21
 )
-nsRefPtr
+RefPtr
 <
 GonkVsyncSource
 >

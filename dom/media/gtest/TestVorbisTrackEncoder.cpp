@@ -763,7 +763,7 @@ channels
 rate
 )
 ;
-nsRefPtr
+RefPtr
 <
 TrackMetadataBase
 >
@@ -775,7 +775,7 @@ GetMetadata
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 VorbisMetadata
 >
@@ -858,7 +858,7 @@ channels
 rate
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

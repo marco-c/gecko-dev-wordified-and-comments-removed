@@ -823,7 +823,7 @@ image
 )
 continue
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -851,7 +851,7 @@ surface
 )
 continue
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

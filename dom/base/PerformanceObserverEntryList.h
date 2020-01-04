@@ -86,7 +86,7 @@ nsISupports
 aOwner
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 PerformanceEntry
 >
@@ -150,7 +150,7 @@ PerformanceEntryFilterOptions
 aFilter
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 PerformanceEntry
 >
@@ -168,7 +168,7 @@ nsAString
 aEntryType
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 PerformanceEntry
 >
@@ -193,7 +193,7 @@ nsAString
 aEntryType
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 PerformanceEntry
 >
@@ -212,7 +212,7 @@ mOwner
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 PerformanceEntry
 >

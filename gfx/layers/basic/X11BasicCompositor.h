@@ -159,7 +159,7 @@ override
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 mozilla
 :

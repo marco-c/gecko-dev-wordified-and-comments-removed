@@ -176,7 +176,7 @@ FixEnd
 typedef
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsSMILInstanceTime
 >
@@ -216,13 +216,13 @@ const
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 nsSMILInstanceTime
 >
 mBegin
 ;
-nsRefPtr
+RefPtr
 <
 nsSMILInstanceTime
 >

@@ -288,7 +288,7 @@ GonkAudioDecoderManager
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 :
@@ -875,7 +875,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsRefPtr
+RefPtr
 <
 AudioData
 >
@@ -924,7 +924,7 @@ Output
 (
 int64_t
 aStreamOffset
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -960,7 +960,7 @@ case
 OK
 :
 {
-nsRefPtr
+RefPtr
 <
 AudioData
 >
@@ -1193,7 +1193,7 @@ frame
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 AudioData
 >

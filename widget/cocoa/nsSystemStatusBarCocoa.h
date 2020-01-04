@@ -73,7 +73,7 @@ StatusItem
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 nsStandaloneNativeMenu
 >

@@ -145,7 +145,7 @@ h
 '
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 '

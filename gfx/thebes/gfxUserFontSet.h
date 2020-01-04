@@ -166,7 +166,7 @@ nsIPrincipal
 >
 mOriginPrincipal
 ;
-nsRefPtr
+RefPtr
 <
 gfxFontFaceBufferSource
 >
@@ -509,7 +509,7 @@ gfxFontEntry
 aFontEntry
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFontEntry
 >
@@ -2117,7 +2117,7 @@ mFontDataLoadingState
 bool
 mUnsupportedFormat
 ;
-nsRefPtr
+RefPtr
 <
 gfxFontEntry
 >

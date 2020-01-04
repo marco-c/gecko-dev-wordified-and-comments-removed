@@ -416,7 +416,7 @@ MaxListIndex
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMSVGNumberList
 >
@@ -669,7 +669,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMSVGNumber
 >
@@ -734,7 +734,7 @@ error
 bool
 found
 ;
-nsRefPtr
+RefPtr
 <
 DOMSVGNumber
 >
@@ -903,7 +903,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMSVGNumber
 >
@@ -1099,7 +1099,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMSVGNumber
 >
@@ -1249,7 +1249,7 @@ MaybeRemoveItemFromAnimValListAt
 index
 )
 ;
-nsRefPtr
+RefPtr
 <
 DOMSVGNumber
 >
@@ -1358,7 +1358,7 @@ IsAnimValList
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMSVGNumber
 >
@@ -1507,7 +1507,7 @@ animVal
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 DOMSVGNumberList
 >

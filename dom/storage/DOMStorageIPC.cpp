@@ -1017,7 +1017,7 @@ int64_t
 aUsage
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMStorageUsageBridge
 >
@@ -1324,7 +1324,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMStorageDBParent
 >
@@ -1374,7 +1374,7 @@ AddIPDLReference
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SendInitialChildDataRunnable
 >
@@ -1628,7 +1628,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 UsageParentBridge
 >
@@ -1951,7 +1951,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 SyncLoadCacheHelper
 >
@@ -2530,7 +2530,7 @@ aRv
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 DOMStorageDBParent
 >
@@ -2657,7 +2657,7 @@ false
 +
 mLoadedCount
 ;
-nsRefPtr
+RefPtr
 <
 LoadRunnable
 >
@@ -2710,7 +2710,7 @@ mLoaded
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 LoadRunnable
 >
@@ -2831,7 +2831,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMStorageDBParent
 >
@@ -2860,7 +2860,7 @@ int64_t
 aUsage
 )
 {
-nsRefPtr
+RefPtr
 <
 UsageRunnable
 >

@@ -3487,7 +3487,7 @@ if
 gContentParent
 )
 {
-nsRefPtr
+RefPtr
 <
 ContentParent
 >

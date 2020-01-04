@@ -94,7 +94,7 @@ bool
 aPersist
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaManager
 >
@@ -112,7 +112,7 @@ MOZ_ASSERT
 mgr
 )
 ;
-nsRefPtr
+RefPtr
 <
 Pledge
 <
@@ -476,7 +476,7 @@ nsCString
 aKey
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaManager
 >
@@ -499,7 +499,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 Pledge
 <

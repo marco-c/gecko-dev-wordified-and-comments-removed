@@ -182,7 +182,7 @@ Unlink
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsSMILInstanceTime
 >
@@ -296,7 +296,7 @@ mVisited
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 nsSMILInstanceTime
 >
@@ -372,7 +372,7 @@ mFlags
 ~
 kMayUpdate
 ;
-nsRefPtr
+RefPtr
 <
 nsSMILInstanceTime
 >

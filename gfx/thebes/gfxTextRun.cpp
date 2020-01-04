@@ -8611,7 +8611,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -9244,7 +9244,7 @@ mDefaultFont
 {
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -10106,7 +10106,7 @@ else
 uint8_t
 matchType
 ;
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -10339,7 +10339,7 @@ mHyphenWidth
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -12138,7 +12138,7 @@ eShapingState_Aborted
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -12937,7 +12937,7 @@ kASCIIPeriodsChar
 1
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -13108,7 +13108,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -13224,7 +13224,7 @@ IsBadUnderlineFamily
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -13361,7 +13361,7 @@ aCh
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -13429,7 +13429,7 @@ wasJoinCauser
 isVarSelector
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -13497,7 +13497,7 @@ IsUserFont
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -13563,7 +13563,7 @@ aCh
 HB_UNICODE_GENERAL_CATEGORY_CONTROL
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -13595,7 +13595,7 @@ aCh
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -13623,7 +13623,7 @@ if
 aPrevMatchedFont
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -13696,7 +13696,7 @@ IsLoading
 continue
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -13999,7 +13999,7 @@ fontListLength
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -14069,7 +14069,7 @@ aCh
 return
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -14123,7 +14123,7 @@ gfxTextRange
 :
 kSystemFallback
 ;
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -14514,7 +14514,7 @@ ch
 '
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -15414,7 +15414,7 @@ uint32_t
 aCh
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -15547,7 +15547,7 @@ currentLang
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 gfxFontFamily
 >
@@ -15682,7 +15682,7 @@ aCh
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxFont
 >
@@ -15801,7 +15801,7 @@ ComputeWeight
 =
 6
 ;
-nsRefPtr
+RefPtr
 <
 gfxFont
 >

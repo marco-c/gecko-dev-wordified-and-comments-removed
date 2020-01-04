@@ -27,7 +27,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -187,7 +187,7 @@ unused
 rv
 ;
 }
-nsRefPtr
+RefPtr
 <
 ShutdownPromise
 >
@@ -288,7 +288,7 @@ nullptr
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 SharedThreadPool
 >
@@ -498,7 +498,7 @@ override
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >

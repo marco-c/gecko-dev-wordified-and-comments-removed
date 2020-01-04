@@ -424,7 +424,7 @@ PendingDescriptors
 uint32_t
 id
 ;
-nsRefPtr
+RefPtr
 <
 FileDescriptorSet
 >

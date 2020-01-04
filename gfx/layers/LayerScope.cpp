@@ -522,7 +522,7 @@ lock
 mHandlerMutex
 )
 ;
-nsRefPtr
+RefPtr
 <
 SocketHandler
 >
@@ -809,7 +809,7 @@ mConnected
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SocketHandler
 >
@@ -822,7 +822,7 @@ nsIThread
 >
 mDebugSenderThread
 ;
-nsRefPtr
+RefPtr
 <
 DebugDataSender
 >
@@ -3398,7 +3398,7 @@ DebugGLData
 *
 mData
 ;
-nsRefPtr
+RefPtr
 <
 DebugDataSender
 >
@@ -3455,7 +3455,7 @@ ClearTask
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 DebugDataSender
 >
@@ -3567,7 +3567,7 @@ SendTask
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 DebugDataSender
 >
@@ -4521,7 +4521,7 @@ GetSize
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

@@ -558,7 +558,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsWebShellWindow
 >
@@ -1363,7 +1363,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 WebBrowserChrome2Stub
 >
@@ -1557,7 +1557,7 @@ nsIWebBrowserChrome2
 stub
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsIWebNavigation
 >
@@ -1946,7 +1946,7 @@ parent
 =
 aParent
 ;
-nsRefPtr
+RefPtr
 <
 nsWebShellWindow
 >

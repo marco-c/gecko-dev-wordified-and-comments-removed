@@ -170,7 +170,7 @@ RtspMediaResource
 *
 mRtspResource
 ;
-nsRefPtr
+RefPtr
 <
 nsIStreamingProtocolController
 >

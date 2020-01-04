@@ -10,7 +10,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -1281,7 +1281,7 @@ return
 0
 ;
 }
-nsRefPtr
+RefPtr
 <
 layers
 :

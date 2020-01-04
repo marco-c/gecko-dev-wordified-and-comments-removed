@@ -557,7 +557,7 @@ CreateContext
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 GLContext
 >
@@ -860,7 +860,7 @@ nullptr
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 GLContext
 >
@@ -1158,7 +1158,7 @@ fEnable
 LOCAL_GL_BLEND
 )
 ;
-nsRefPtr
+RefPtr
 <
 EffectSolidColor
 >
@@ -2510,7 +2510,7 @@ fbo
 tex
 )
 ;
-nsRefPtr
+RefPtr
 <
 CompositingRenderTargetOGL
 >
@@ -2693,7 +2693,7 @@ tex
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 CompositingRenderTargetOGL
 >
@@ -3289,7 +3289,7 @@ height
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 CompositingRenderTargetOGL
 >
@@ -6754,7 +6754,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 CompositingRenderTargetOGL
 >
@@ -7382,7 +7382,7 @@ rect
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -7724,7 +7724,7 @@ nsWindow
 aWidget
 )
 ;
-nsRefPtr
+RefPtr
 <
 FenceHandle
 :
@@ -7787,7 +7787,7 @@ FenceHandle
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 FenceHandle
 :
@@ -8079,7 +8079,7 @@ LOCAL_GL_BACK
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >

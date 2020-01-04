@@ -309,7 +309,7 @@ ContentBridgeChild
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 ContentBridgeChild
 >

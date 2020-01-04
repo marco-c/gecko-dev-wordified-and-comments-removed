@@ -304,7 +304,7 @@ nsISupports
 >
 mParent
 ;
-nsRefPtr
+RefPtr
 <
 DOMPoint
 >
@@ -314,7 +314,7 @@ mPoints
 ]
 ;
 mutable
-nsRefPtr
+RefPtr
 <
 QuadBounds
 >

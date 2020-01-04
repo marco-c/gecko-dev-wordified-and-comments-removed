@@ -268,7 +268,7 @@ nsIAccessible
 aPosition
 )
 {
-nsRefPtr
+RefPtr
 <
 Accessible
 >
@@ -558,7 +558,7 @@ NS_ENSURE_ARG
 xpcAcc
 )
 ;
-nsRefPtr
+RefPtr
 <
 Accessible
 >
@@ -2789,7 +2789,7 @@ bool
 aIsFromUserInput
 )
 {
-nsRefPtr
+RefPtr
 <
 Accessible
 >

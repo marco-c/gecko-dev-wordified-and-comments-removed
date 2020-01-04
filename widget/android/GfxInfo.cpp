@@ -249,7 +249,7 @@ mReady
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 gl
 :

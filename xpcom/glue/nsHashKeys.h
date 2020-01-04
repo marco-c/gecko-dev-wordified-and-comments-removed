@@ -1301,7 +1301,7 @@ true
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 T
 >

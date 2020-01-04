@@ -661,7 +661,7 @@ aRv
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 CacheStorage
 >
@@ -731,7 +731,7 @@ mLocation
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 WorkerLocation
 >
@@ -792,7 +792,7 @@ mNavigator
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 WorkerNavigator
 >
@@ -827,7 +827,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 WorkerNavigator
 >
@@ -1631,7 +1631,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDBFactory
 >
@@ -2363,7 +2363,7 @@ final
 public
 WorkerRunnable
 {
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -2421,7 +2421,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2466,7 +2466,7 @@ final
 public
 nsRunnable
 {
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -2513,7 +2513,7 @@ AssertIsOnMainThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ServiceWorkerManager
 >
@@ -2587,7 +2587,7 @@ ServiceWorkerID
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 SkipWaitingResultRunnable
 >
@@ -2659,7 +2659,7 @@ IsServiceWorker
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2690,7 +2690,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -2730,7 +2730,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 WorkerScopeSkipWaitingRunnable
 >

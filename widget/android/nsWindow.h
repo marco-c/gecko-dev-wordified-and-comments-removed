@@ -1199,7 +1199,7 @@ mStart
 }
 }
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1297,7 +1297,7 @@ mIMEMaskSelectionUpdate
 int32_t
 mIMEMaskEventsCount
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

@@ -244,7 +244,7 @@ nullptr
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 AsyncCanvasRenderer
 >
@@ -252,7 +252,7 @@ mRenderer
 ;
 }
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -368,7 +368,7 @@ nullptr
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 AsyncCanvasRenderer
 >
@@ -376,7 +376,7 @@ mRenderer
 ;
 }
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -551,7 +551,7 @@ lock
 mMutex
 )
 ;
-nsRefPtr
+RefPtr
 <
 BufferTextureClient
 >
@@ -967,7 +967,7 @@ format
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1085,7 +1085,7 @@ if
 mSurfaceForBasic
 )
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1260,7 +1260,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1283,7 +1283,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfx
 :

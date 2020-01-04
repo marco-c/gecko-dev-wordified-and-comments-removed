@@ -572,7 +572,7 @@ ShouldResistFingerprinting
 )
 const
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

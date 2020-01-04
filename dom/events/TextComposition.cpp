@@ -1872,7 +1872,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 TextComposition
 >
@@ -2431,7 +2431,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >

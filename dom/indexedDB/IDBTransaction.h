@@ -183,13 +183,13 @@ DONE
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 IDBDatabase
 >
 mDatabase
 ;
-nsRefPtr
+RefPtr
 <
 DOMError
 >
@@ -203,7 +203,7 @@ mObjectStoreNames
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 IDBObjectStore
 >
@@ -212,7 +212,7 @@ mObjectStores
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 IDBObjectStore
 >

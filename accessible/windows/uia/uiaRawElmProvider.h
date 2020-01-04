@@ -206,7 +206,7 @@ delete
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 AccessibleWrap
 >

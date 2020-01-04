@@ -59,7 +59,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -111,7 +111,7 @@ true
 InitPromise
 ;
 virtual
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -245,7 +245,7 @@ SamplesHolder
 )
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -308,7 +308,7 @@ SeekPromise
 typedef
 MozPromise
 <
-nsRefPtr
+RefPtr
 <
 SamplesHolder
 >
@@ -339,7 +339,7 @@ const
 0
 ;
 virtual
-nsRefPtr
+RefPtr
 <
 SeekPromise
 >
@@ -355,7 +355,7 @@ aTime
 0
 ;
 virtual
-nsRefPtr
+RefPtr
 <
 SamplesPromise
 >
@@ -421,7 +421,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 virtual
-nsRefPtr
+RefPtr
 <
 SkipAccessPointPromise
 >

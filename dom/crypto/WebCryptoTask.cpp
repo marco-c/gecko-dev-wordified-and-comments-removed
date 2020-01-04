@@ -5713,7 +5713,7 @@ protected
 nsString
 mFormat
 ;
-nsRefPtr
+RefPtr
 <
 CryptoKey
 >
@@ -9700,7 +9700,7 @@ Mechanism
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 CryptoKey
 >
@@ -11676,7 +11676,7 @@ aKeyUsages
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 ImportSymmetricKeyTask
 >
@@ -12627,7 +12627,7 @@ true
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 KeyEncryptTask
 >
@@ -12824,7 +12824,7 @@ false
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 ImportKeyTask
 >
@@ -14878,7 +14878,7 @@ rv
 CryptoOperationData
 dummy
 ;
-nsRefPtr
+RefPtr
 <
 ImportKeyTask
 >

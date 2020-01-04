@@ -885,7 +885,7 @@ Create
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsObserverService
 >
@@ -906,7 +906,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsRunnableMethod
 <

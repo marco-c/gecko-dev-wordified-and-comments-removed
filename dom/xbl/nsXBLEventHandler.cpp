@@ -743,7 +743,7 @@ nsIAtom
 aEventType
 )
 {
-nsRefPtr
+RefPtr
 <
 nsXBLEventHandler
 >

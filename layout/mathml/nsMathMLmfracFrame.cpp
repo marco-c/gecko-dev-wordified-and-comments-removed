@@ -28,7 +28,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -794,7 +794,7 @@ FontSizeInflationFor
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -2710,7 +2710,7 @@ mThickness
 0
 )
 ;
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -2835,7 +2835,7 @@ delta
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 Path
 >

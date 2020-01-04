@@ -149,7 +149,7 @@ aLength
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 FontFace
 >
@@ -650,7 +650,7 @@ do_QueryInterface
 aGlobal
 )
 ;
-nsRefPtr
+RefPtr
 <
 FontFace
 >
@@ -771,7 +771,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 FontFace
 >
@@ -1535,7 +1535,7 @@ them
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxUserFontEntry
 >
@@ -2582,7 +2582,7 @@ CreateBufferSource
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 FontFaceBufferSource
 >

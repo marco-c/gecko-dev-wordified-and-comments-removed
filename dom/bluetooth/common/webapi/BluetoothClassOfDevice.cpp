@@ -293,7 +293,7 @@ MOZ_ASSERT
 aOwner
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothClassOfDevice
 >

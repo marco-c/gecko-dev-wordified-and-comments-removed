@@ -181,7 +181,7 @@ aAction
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 nsRange
 >

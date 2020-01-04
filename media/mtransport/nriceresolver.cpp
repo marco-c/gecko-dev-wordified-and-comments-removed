@@ -543,7 +543,7 @@ ASSERT_ON_THREAD
 sts_thread_
 )
 ;
-nsRefPtr
+RefPtr
 <
 PendingResolution
 >

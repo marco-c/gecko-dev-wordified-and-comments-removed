@@ -134,7 +134,7 @@ aCloneText
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :

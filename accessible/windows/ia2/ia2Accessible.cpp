@@ -598,7 +598,7 @@ i
 {
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Accessible
 >
@@ -648,7 +648,7 @@ j
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ia2AccessibleRelation
 >
@@ -742,7 +742,7 @@ RelationByType
 relationType
 )
 ;
-nsRefPtr
+RefPtr
 <
 ia2AccessibleRelation
 >
@@ -980,7 +980,7 @@ Length
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Accessible
 >
@@ -1021,7 +1021,7 @@ j
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ia2AccessibleRelation
 >
@@ -1123,7 +1123,7 @@ RelationByType
 relationType
 )
 ;
-nsRefPtr
+RefPtr
 <
 ia2AccessibleRelation
 >

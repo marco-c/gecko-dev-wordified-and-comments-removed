@@ -432,7 +432,7 @@ ICOState
 >
 mLexer
 ;
-nsRefPtr
+RefPtr
 <
 Decoder
 >

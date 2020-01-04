@@ -81,7 +81,7 @@ Link
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -163,7 +163,7 @@ InitDecoder
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 FlushableTaskQueue
 >
@@ -181,7 +181,7 @@ AVFrame
 *
 mFrame
 ;
-nsRefPtr
+RefPtr
 <
 MediaByteBuffer
 >

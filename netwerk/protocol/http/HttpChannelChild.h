@@ -797,13 +797,13 @@ nsIChildChannel
 >
 mRedirectChannelChild
 ;
-nsRefPtr
+RefPtr
 <
 InterceptStreamListener
 >
 mInterceptListener
 ;
-nsRefPtr
+RefPtr
 <
 nsInputStreamPump
 >
@@ -839,7 +839,7 @@ mIPCOpen
 bool
 mKeptAlive
 ;
-nsRefPtr
+RefPtr
 <
 ChannelEventQueue
 >

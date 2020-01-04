@@ -133,13 +133,13 @@ const
 struct
 HandleChangeData
 {
-nsRefPtr
+RefPtr
 <
 MediaQueryList
 >
 mql
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -257,7 +257,7 @@ nsIDocument
 >
 mDocument
 ;
-nsRefPtr
+RefPtr
 <
 nsMediaList
 >
@@ -271,7 +271,7 @@ mMatchesValid
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :

@@ -768,7 +768,7 @@ rv
 =
 NS_ERROR_FAILURE
 ;
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginStreamListener
 >

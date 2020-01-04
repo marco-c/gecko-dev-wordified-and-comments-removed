@@ -842,7 +842,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsWifiAccessPoint
 >

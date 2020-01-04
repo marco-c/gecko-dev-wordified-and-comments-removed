@@ -283,7 +283,7 @@ cx
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsGlobalWindow
 >
@@ -483,7 +483,7 @@ get
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MessageEvent
 >
@@ -520,7 +520,7 @@ mSource
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MessagePort
 >
@@ -574,7 +574,7 @@ GetShell
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >

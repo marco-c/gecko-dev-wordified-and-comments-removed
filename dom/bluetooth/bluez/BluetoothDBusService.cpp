@@ -1563,7 +1563,7 @@ sWaitingForAdapterNameInterval
 static
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BluetoothProfileController
 >
@@ -3122,7 +3122,7 @@ NS_IsMainThread
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >
@@ -5197,7 +5197,7 @@ name
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 DistributeBluetoothSignalTask
 >
@@ -5386,7 +5386,7 @@ get_nsString
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 AppendDeviceNameReplyHandler
 >
@@ -5767,7 +5767,7 @@ mDeviceAddress
 bool
 mConfirm
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >
@@ -7211,7 +7211,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 RegisterAgentReplyHandler
 >
@@ -7358,7 +7358,7 @@ IsEmpty
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 DBusReplyHandler
 >
@@ -8840,7 +8840,7 @@ signalPath
 v
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -9006,7 +9006,7 @@ get_nsString
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 PrepareAdapterRunnable
 >
@@ -9146,7 +9146,7 @@ established
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -9221,7 +9221,7 @@ Thread
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -9296,7 +9296,7 @@ forget
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -9445,7 +9445,7 @@ available
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -9531,7 +9531,7 @@ daemon
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -9674,7 +9674,7 @@ MOZ_ASSERT
 aRunnable
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -9784,7 +9784,7 @@ false
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -9881,7 +9881,7 @@ established
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -10075,7 +10075,7 @@ sDBusConnection
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -10219,7 +10219,7 @@ MOZ_ASSERT
 aRunnable
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -10499,7 +10499,7 @@ get_nsString
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DefaultAdapterPathReplyHandler
 >
@@ -10669,7 +10669,7 @@ true
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >
@@ -10725,7 +10725,7 @@ MOZ_ASSERT
 sDBusConnection
 )
 ;
-nsRefPtr
+RefPtr
 <
 DefaultAdapterPathReplyHandler
 >
@@ -10783,7 +10783,7 @@ forget
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >
@@ -10903,7 +10903,7 @@ failed
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >
@@ -11074,7 +11074,7 @@ const
 nsCString
 mMessageName
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >
@@ -12186,7 +12186,7 @@ mProcessedDeviceAddresses
 ]
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothArrayOfDevicePropertiesReplyHandler
 >
@@ -12272,7 +12272,7 @@ const
 FilterFunc
 mFilterFunc
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >
@@ -12345,13 +12345,13 @@ ProcessRemainingDeviceAddresses
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 BluetoothArrayOfDevicePropertiesReplyHandler
 >
 mHandler
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >
@@ -12931,7 +12931,7 @@ const
 nsCString
 mName
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >
@@ -13528,7 +13528,7 @@ mDeviceAddress
 int
 mTimeout
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >
@@ -13764,7 +13764,7 @@ failed
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >
@@ -13806,7 +13806,7 @@ const
 nsString
 mDeviceAddress
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >
@@ -14208,7 +14208,7 @@ const
 nsCString
 mPinCode
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >
@@ -14605,7 +14605,7 @@ mDeviceAddress
 uint32_t
 mPasskey
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >
@@ -15306,7 +15306,7 @@ aReply
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -15446,7 +15446,7 @@ sAdapterPath
 mDeviceAddress
 )
 ;
-nsRefPtr
+RefPtr
 <
 OnGetServiceChannelReplyHandler
 >
@@ -15619,7 +15619,7 @@ task
 ;
 #
 else
-nsRefPtr
+RefPtr
 <
 nsRunnable
 >
@@ -15796,7 +15796,7 @@ NS_IsMainThread
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 OnUpdateSdpRecordsRunnable
 >
@@ -16803,7 +16803,7 @@ mTotalMediaCount
 int64_t
 mDuration
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >
@@ -17382,7 +17382,7 @@ mPosition
 ControlPlayStatus
 mPlayStatus
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothReplyRunnable
 >

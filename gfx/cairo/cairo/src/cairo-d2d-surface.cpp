@@ -1320,7 +1320,7 @@ return
 NULL
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID3D10Device1
 >
@@ -1538,7 +1538,7 @@ Query
 =
 D3D10_QUERY_EVENT
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Query
 >
@@ -2487,7 +2487,7 @@ surface
 bufferTexture
 )
 {
-nsRefPtr
+RefPtr
 <
 IDXGISurface
 >
@@ -2814,7 +2814,7 @@ type
 }
 ;
 static
-nsRefPtr
+RefPtr
 <
 ID2D1PathGeometry
 >
@@ -3024,7 +3024,7 @@ else
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1PathGeometry
 >
@@ -3044,7 +3044,7 @@ fill_rule
 D2D1_FIGURE_BEGIN_FILLED
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Layer
 >
@@ -3100,7 +3100,7 @@ options1
 D2D1_LAYER_OPTIONS1_INITIALIZE_FROM_BACKGROUND
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1DeviceContext
 >
@@ -4051,7 +4051,7 @@ inv_det
 ;
 }
 static
-nsRefPtr
+RefPtr
 <
 ID2D1StrokeStyle
 >
@@ -4230,7 +4230,7 @@ dashStyle
 D2D1_DASH_STYLE_CUSTOM
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1StrokeStyle
 >
@@ -4376,7 +4376,7 @@ cairo_d2d_device_t
 *
 device
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Bitmap
 >
@@ -4570,7 +4570,7 @@ invMat
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDXGISurface
 >
@@ -5014,7 +5014,7 @@ y
 ;
 }
 static
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -5254,7 +5254,7 @@ extend
 =
 CAIRO_EXTEND_REFLECT
 ;
-nsRefPtr
+RefPtr
 <
 IDXGISurface
 >
@@ -6199,7 +6199,7 @@ return
 NULL
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1GradientStopCollection
 >
@@ -6219,7 +6219,7 @@ num_stops
 stopCollection
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1RadialGradientBrush
 >
@@ -6259,7 +6259,7 @@ brush
 ;
 }
 static
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -6310,7 +6310,7 @@ p2
 y
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1SolidColorBrush
 >
@@ -6602,7 +6602,7 @@ y
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 IDXGISurface
 >
@@ -7602,7 +7602,7 @@ ColorF
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1GradientStopCollection
 >
@@ -7622,7 +7622,7 @@ num_stops
 stopCollection
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1LinearGradientBrush
 >
@@ -7694,7 +7694,7 @@ brush
 ;
 }
 static
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -7756,7 +7756,7 @@ if
 unique
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1SolidColorBrush
 >
@@ -8058,7 +8058,7 @@ extendMode
 D2D1_EXTEND_MODE_CLAMP
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1Bitmap
 >
@@ -8545,7 +8545,7 @@ height
 maxSize
 )
 {
-nsRefPtr
+RefPtr
 <
 IDXGISurface
 >
@@ -9390,7 +9390,7 @@ if
 unique
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1BitmapBrush
 >
@@ -9962,7 +9962,7 @@ CAIRO_STATUS_SUCCESS
 ;
 }
 static
-nsRefPtr
+RefPtr
 <
 ID2D1PathGeometry
 >
@@ -9977,7 +9977,7 @@ D2D1_FIGURE_BEGIN
 type
 )
 {
-nsRefPtr
+RefPtr
 <
 ID2D1PathGeometry
 >
@@ -9992,7 +9992,7 @@ CreatePathGeometry
 d2dpath
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1GeometrySink
 >
@@ -10901,7 +10901,7 @@ height
 1
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDXGISurface
 >
@@ -10995,13 +10995,13 @@ MiscFlags
 =
 D3D10_RESOURCE_MISC_GDI_COMPATIBLE
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
 texture
 ;
-nsRefPtr
+RefPtr
 <
 IDXGISurface
 >
@@ -11477,13 +11477,13 @@ GetPixelSize
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
 softTexture
 ;
-nsRefPtr
+RefPtr
 <
 IDXGISurface
 >
@@ -11909,13 +11909,13 @@ GetPixelSize
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
 softTexture
 ;
-nsRefPtr
+RefPtr
 <
 IDXGISurface
 >
@@ -12376,7 +12376,7 @@ cairo_region_t
 region
 )
 {
-nsRefPtr
+RefPtr
 <
 IDXGISurface
 >
@@ -12394,7 +12394,7 @@ QueryInterface
 dstSurface
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDXGISurface
 >
@@ -13732,7 +13732,7 @@ rv
 ;
 }
 static
-nsRefPtr
+RefPtr
 <
 ID2D1RenderTarget
 >
@@ -13746,7 +13746,7 @@ cairo_clip_t
 clip
 )
 {
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
@@ -13757,13 +13757,13 @@ _cairo_d2d_get_buffer_texture
 surf
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1RenderTarget
 >
 new_rt
 ;
-nsRefPtr
+RefPtr
 <
 IDXGISurface
 >
@@ -13969,7 +13969,7 @@ else
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1PathGeometry
 >
@@ -13989,7 +13989,7 @@ fill_rule
 D2D1_FIGURE_BEGIN_FILLED
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Layer
 >
@@ -14234,7 +14234,7 @@ EndDraw
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
@@ -14245,7 +14245,7 @@ _cairo_d2d_get_buffer_texture
 surf
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
@@ -15034,7 +15034,7 @@ status
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 ID2D1RenderTarget
 >
@@ -15119,7 +15119,7 @@ SetAntialiasMode
 D2D1_ANTIALIAS_MODE_ALIASED
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -15639,7 +15639,7 @@ rv
 }
 }
 }
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -15662,7 +15662,7 @@ return
 CAIRO_INT_STATUS_UNSUPPORTED
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1RenderTarget
 >
@@ -15846,7 +15846,7 @@ return
 CAIRO_INT_STATUS_SUCCESS
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -16052,7 +16052,7 @@ return
 CAIRO_INT_STATUS_UNSUPPORTED
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1RenderTarget
 >
@@ -16157,7 +16157,7 @@ D2D1_ANTIALIAS_MODE_PER_PRIMITIVE
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1StrokeStyle
 >
@@ -16178,7 +16178,7 @@ return
 CAIRO_INT_STATUS_UNSUPPORTED
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1Geometry
 >
@@ -16209,7 +16209,7 @@ transformed
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -16261,7 +16261,7 @@ _cairo_d2d_invert_matrix
 mat
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1TransformedGeometry
 >
@@ -16653,7 +16653,7 @@ CAIRO_INT_STATUS_UNSUPPORTED
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 ID2D1RenderTarget
 >
@@ -16811,7 +16811,7 @@ p2
 y
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -16855,7 +16855,7 @@ brush
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 ID2D1Geometry
 >
@@ -16868,7 +16868,7 @@ fill_rule
 D2D1_FIGURE_BEGIN_FILLED
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -17173,7 +17173,7 @@ run
 transform
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDWriteGlyphRunAnalysis
 >
@@ -17191,7 +17191,7 @@ scaled_font
 mat
 )
 ;
-nsRefPtr
+RefPtr
 <
 IDWriteRenderingParams
 >
@@ -17556,7 +17556,7 @@ return
 CAIRO_INT_STATUS_UNSUPPORTED
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID3D10ShaderResourceView
 >
@@ -17594,7 +17594,7 @@ height
 TEXT_TEXTURE_HEIGHT
 )
 {
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
@@ -18012,7 +18012,7 @@ pSysMem
 =
 alignedTextureData
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
@@ -18093,7 +18093,7 @@ cairo_bounds
 height
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
@@ -18877,7 +18877,7 @@ status
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 ID2D1RenderTarget
 >
@@ -18997,7 +18997,7 @@ cleartype_quality
 D2D1_TEXT_ANTIALIAS_MODE_GRAYSCALE
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDWriteRenderingParams
 >
@@ -19255,7 +19255,7 @@ get
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 IDWriteGlyphRunAnalysis
 >
@@ -19368,7 +19368,7 @@ bounds
 top
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1Brush
 >
@@ -19622,7 +19622,7 @@ textRenderingState
 textRenderingState
 )
 {
-nsRefPtr
+RefPtr
 <
 IDWriteRenderingParams
 >
@@ -19921,19 +19921,19 @@ d2d_device
 >
 mD3D10Device
 ;
-nsRefPtr
+RefPtr
 <
 IDXGIDevice
 >
 dxgiDevice
 ;
-nsRefPtr
+RefPtr
 <
 IDXGIAdapter
 >
 dxgiAdapter
 ;
-nsRefPtr
+RefPtr
 <
 IDXGIFactory
 >
@@ -20564,13 +20564,13 @@ MiscFlags
 =
 D3D10_RESOURCE_MISC_GDI_COMPATIBLE
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
 texture
 ;
-nsRefPtr
+RefPtr
 <
 IDXGISurface
 >
@@ -20918,13 +20918,13 @@ CAIRO_STATUS_NO_MEMORY
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
 texture
 ;
-nsRefPtr
+RefPtr
 <
 IDXGISurface
 >
@@ -21409,7 +21409,7 @@ hr
 D3D10_TEXTURE2D_DESC
 desc
 ;
-nsRefPtr
+RefPtr
 <
 IDXGISurface
 >
@@ -21711,7 +21711,7 @@ cairo_d2d_surface_t
 surface
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
@@ -21793,7 +21793,7 @@ back
 =
 1
 ;
-nsRefPtr
+RefPtr
 <
 IDXGISurface
 >
@@ -22234,7 +22234,7 @@ isDrawing
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 ID2D1GdiInteropRenderTarget
 >
@@ -22329,7 +22329,7 @@ cairo_d2d_surface_t
 surface
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1GdiInteropRenderTarget
 >

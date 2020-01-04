@@ -21,7 +21,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -82,7 +82,7 @@ authType
 {
 }
 static
-nsRefPtr
+RefPtr
 <
 DtlsIdentity
 >

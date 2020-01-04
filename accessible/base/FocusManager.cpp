@@ -984,7 +984,7 @@ if
 aDocument
 )
 {
-nsRefPtr
+RefPtr
 <
 AccEvent
 >
@@ -1491,7 +1491,7 @@ if
 mActiveARIAMenubar
 )
 {
-nsRefPtr
+RefPtr
 <
 AccEvent
 >
@@ -1531,7 +1531,7 @@ if
 mActiveARIAMenubar
 )
 {
-nsRefPtr
+RefPtr
 <
 AccEvent
 >
@@ -1570,7 +1570,7 @@ if
 mActiveARIAMenubar
 )
 {
-nsRefPtr
+RefPtr
 <
 AccEvent
 >
@@ -1648,7 +1648,7 @@ ResetCaretOffset
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 AccEvent
 >

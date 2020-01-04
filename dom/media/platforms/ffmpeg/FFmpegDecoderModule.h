@@ -50,7 +50,7 @@ Create
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 PlatformDecoderModule
 >
@@ -156,7 +156,7 @@ aCallback
 )
 override
 {
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >
@@ -201,7 +201,7 @@ aCallback
 )
 override
 {
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >

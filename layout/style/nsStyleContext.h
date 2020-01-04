@@ -1657,7 +1657,7 @@ nsStyleContext
 *
 mNextSibling
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >

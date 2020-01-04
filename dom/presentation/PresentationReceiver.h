@@ -160,7 +160,7 @@ mWindowId
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 PresentationConnection
 >
@@ -169,7 +169,7 @@ mConnections
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Promise
 >

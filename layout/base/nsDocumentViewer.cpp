@@ -1165,7 +1165,7 @@ mContainer
 nsWeakPtr
 mTopContainerWhilePrinting
 ;
-nsRefPtr
+RefPtr
 <
 nsDeviceContext
 >
@@ -1183,13 +1183,13 @@ nsIWidget
 >
 mWindow
 ;
-nsRefPtr
+RefPtr
 <
 nsViewManager
 >
 mViewManager
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -1207,7 +1207,7 @@ nsISelectionListener
 >
 mSelectionListener
 ;
-nsRefPtr
+RefPtr
 <
 nsDocViewerFocusListener
 >
@@ -1318,7 +1318,7 @@ nsIWebProgressListener
 >
 mCachedPrintWebProgressListner
 ;
-nsRefPtr
+RefPtr
 <
 nsPrintEngine
 >
@@ -1469,7 +1469,7 @@ NS_NewContentViewer
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDocumentViewer
 >
@@ -2336,7 +2336,7 @@ mSelectionListener
 selectionListener
 ;
 }
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -2382,7 +2382,7 @@ rv
 return
 rv
 ;
-nsRefPtr
+RefPtr
 <
 nsDocViewerFocusListener
 >
@@ -3128,7 +3128,7 @@ nsresult
 aStatus
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDocumentViewer
 >
@@ -3355,7 +3355,7 @@ nsIDocument
 READYSTATE_COMPLETE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsDOMNavigationTiming
 >
@@ -3893,7 +3893,7 @@ SetTrusted
 true
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsDocumentViewer
 >
@@ -4994,7 +4994,7 @@ aShell
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -5611,7 +5611,7 @@ nullptr
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -8106,7 +8106,7 @@ nsIURI
 >
 uri
 ;
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >
@@ -8209,7 +8209,7 @@ IsEmpty
 baseURI
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -9580,7 +9580,7 @@ ClearSelection
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -9623,7 +9623,7 @@ SelectAll
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -12737,7 +12737,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -13426,7 +13426,7 @@ viewer
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -16529,7 +16529,7 @@ if
 mPrintEngine
 )
 {
-nsRefPtr
+RefPtr
 <
 nsPrintEngine
 >
@@ -16874,7 +16874,7 @@ EndObservingDocument
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

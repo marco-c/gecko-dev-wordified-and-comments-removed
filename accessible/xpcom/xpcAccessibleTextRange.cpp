@@ -378,7 +378,7 @@ bool
 aResult
 )
 {
-nsRefPtr
+RefPtr
 <
 xpcAccessibleTextRange
 >
@@ -437,7 +437,7 @@ int32_t
 aResult
 )
 {
-nsRefPtr
+RefPtr
 <
 xpcAccessibleTextRange
 >

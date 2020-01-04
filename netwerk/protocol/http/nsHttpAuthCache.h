@@ -877,7 +877,7 @@ PLHashTable
 *
 mDB
 ;
-nsRefPtr
+RefPtr
 <
 AppDataClearObserver
 >

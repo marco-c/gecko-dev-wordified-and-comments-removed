@@ -368,7 +368,7 @@ TrackRate
 aTrackRate
 )
 {
-nsRefPtr
+RefPtr
 <
 SharedBuffer
 >

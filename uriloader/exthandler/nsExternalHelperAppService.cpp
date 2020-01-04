@@ -1295,7 +1295,7 @@ sdcard
 storageName
 )
 ;
-nsRefPtr
+RefPtr
 <
 DeviceStorageFile
 >
@@ -3253,7 +3253,7 @@ nsIHelperAppLauncherDialog
 :
 REASON_CANTHANDLE
 ;
-nsRefPtr
+RefPtr
 <
 nsExternalAppHandler
 >
@@ -9683,7 +9683,7 @@ return
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 nsExternalAppHandler
 >
@@ -11638,7 +11638,7 @@ found
 return
 NS_OK
 ;
-nsRefPtr
+RefPtr
 <
 nsPluginHost
 >

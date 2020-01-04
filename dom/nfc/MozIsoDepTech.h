@@ -161,13 +161,13 @@ MozIsoDepTech
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsPIDOMWindow
 >
 mWindow
 ;
-nsRefPtr
+RefPtr
 <
 MozNFCTag
 >

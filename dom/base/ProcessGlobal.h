@@ -285,7 +285,7 @@ private
 bool
 mInitialized
 ;
-nsRefPtr
+RefPtr
 <
 nsFrameMessageManager
 >

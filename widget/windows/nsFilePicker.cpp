@@ -266,7 +266,7 @@ aFlag
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 nsWindow
 >
@@ -491,7 +491,7 @@ PickerClosed
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 nsWindow
 >
@@ -1609,7 +1609,7 @@ IFileDialog
 pfd
 )
 {
-nsRefPtr
+RefPtr
 <
 IOleWindow
 >
@@ -2181,7 +2181,7 @@ bool
 aWasInitError
 )
 {
-nsRefPtr
+RefPtr
 <
 IFileOpenDialog
 >
@@ -2262,7 +2262,7 @@ IsEmpty
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 IShellItem
 >
@@ -2327,7 +2327,7 @@ nullptr
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 IShellItem
 >
@@ -2390,13 +2390,13 @@ Unadvise
 mFDECookie
 )
 ;
-nsRefPtr
+RefPtr
 <
 IShellItem
 >
 folderPath
 ;
-nsRefPtr
+RefPtr
 <
 IShellLibrary
 >
@@ -3384,7 +3384,7 @@ bool
 aWasInitError
 )
 {
-nsRefPtr
+RefPtr
 <
 IFileDialog
 >
@@ -3656,7 +3656,7 @@ IsEmpty
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 IShellItem
 >
@@ -3844,7 +3844,7 @@ mMode
 modeOpenMultiple
 )
 {
-nsRefPtr
+RefPtr
 <
 IShellItem
 >
@@ -3884,7 +3884,7 @@ mUnicodeFile
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 IFileOpenDialog
 >
@@ -3912,7 +3912,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 IShellItemArray
 >
@@ -3974,7 +3974,7 @@ idx
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 IShellItem
 >

@@ -824,7 +824,7 @@ childFrame
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -1724,7 +1724,7 @@ fontSizeInflation
 nscoord
 dxSqr
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >

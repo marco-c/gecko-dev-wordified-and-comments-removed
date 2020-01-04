@@ -407,7 +407,7 @@ mDescription
 nsString
 mIconURL
 ;
-nsRefPtr
+RefPtr
 <
 AlertServiceObserver
 >

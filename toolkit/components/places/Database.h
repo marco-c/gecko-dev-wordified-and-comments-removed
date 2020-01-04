@@ -632,7 +632,7 @@ GetShutdownPhase
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DatabaseShutdown
 >

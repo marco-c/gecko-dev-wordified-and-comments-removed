@@ -2213,7 +2213,7 @@ endif
 cpuid_t
 cpuStart_
 ;
-nsRefPtr
+RefPtr
 <
 js
 :
@@ -2222,7 +2222,7 @@ PerformanceGroup
 >
 sharedGroup_
 ;
-nsRefPtr
+RefPtr
 <
 js
 :
@@ -2231,7 +2231,7 @@ PerformanceGroup
 >
 topGroup_
 ;
-nsRefPtr
+RefPtr
 <
 js
 :

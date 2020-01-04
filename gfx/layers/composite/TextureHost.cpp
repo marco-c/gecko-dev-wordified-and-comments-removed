@@ -137,7 +137,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -436,13 +436,13 @@ CompositableParentManager
 *
 mCompositableManager
 ;
-nsRefPtr
+RefPtr
 <
 TextureHost
 >
 mWaitForClientRecycle
 ;
-nsRefPtr
+RefPtr
 <
 TextureHost
 >
@@ -726,7 +726,7 @@ GetAndResetAcquireFenceHandle
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 FenceHandle
 :
@@ -1068,7 +1068,7 @@ TextureFlags
 aFlags
 )
 {
-nsRefPtr
+RefPtr
 <
 TextureHost
 >
@@ -1550,7 +1550,7 @@ Surface
 :
 "
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1919,7 +1919,7 @@ aCompositor
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 TextureSource
 >
@@ -1967,7 +1967,7 @@ DeallocateDeviceData
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 TextureSource
 >
@@ -2324,7 +2324,7 @@ YCBCR
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -2382,19 +2382,19 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataTextureSource
 >
 srcY
 ;
-nsRefPtr
+RefPtr
 <
 DataTextureSource
 >
 srcU
 ;
-nsRefPtr
+RefPtr
 <
 DataTextureSource
 >
@@ -2537,7 +2537,7 @@ AsDataTextureSource
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -2578,7 +2578,7 @@ SurfaceFormat
 A8
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -2619,7 +2619,7 @@ SurfaceFormat
 A8
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -2810,7 +2810,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -2891,7 +2891,7 @@ GetAsSurface
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :

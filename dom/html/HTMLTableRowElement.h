@@ -429,7 +429,7 @@ GetTable
 )
 const
 ;
-nsRefPtr
+RefPtr
 <
 nsContentList
 >

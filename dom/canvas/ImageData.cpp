@@ -242,7 +242,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ImageData
 >
@@ -407,7 +407,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ImageData
 >

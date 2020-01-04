@@ -349,7 +349,7 @@ GetBaseURI
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -396,7 +396,7 @@ length
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 CSSStyleSheet
 >

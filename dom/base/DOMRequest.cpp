@@ -946,7 +946,7 @@ CheckInnerWindowCorrectness
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -1434,7 +1434,7 @@ mozilla
 ThreadsafeAutoSafeJSContext
 cx
 ;
-nsRefPtr
+RefPtr
 <
 FireSuccessAsyncTask
 >
@@ -1501,7 +1501,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 DOMRequest
 >
@@ -1569,7 +1569,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 DOMRequest
 >

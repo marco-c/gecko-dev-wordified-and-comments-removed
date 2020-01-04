@@ -3216,7 +3216,7 @@ rv
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsVariant
 >

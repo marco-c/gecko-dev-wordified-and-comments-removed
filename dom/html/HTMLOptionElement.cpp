@@ -1504,7 +1504,7 @@ nsIDOMNode
 ELEMENT_NODE
 )
 ;
-nsRefPtr
+RefPtr
 <
 HTMLOptionElement
 >
@@ -1525,7 +1525,7 @@ WasPassed
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsTextNode
 >

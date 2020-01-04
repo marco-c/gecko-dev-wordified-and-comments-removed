@@ -192,7 +192,7 @@ get
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 T
 >

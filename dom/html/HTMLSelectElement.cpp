@@ -1074,7 +1074,7 @@ i
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 HTMLOptionElement
 >
@@ -2770,7 +2770,7 @@ NS_ERROR_DOM_NOT_SUPPORTED_ERR
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -2813,7 +2813,7 @@ forget
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsTextNode
 >
@@ -3312,7 +3312,7 @@ if
 aChangeOptionState
 )
 {
-nsRefPtr
+RefPtr
 <
 HTMLOptionElement
 >
@@ -3718,7 +3718,7 @@ optIndex
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 HTMLOptionElement
 >
@@ -4146,7 +4146,7 @@ aIsDisabled
 =
 false
 ;
-nsRefPtr
+RefPtr
 <
 HTMLOptionElement
 >
@@ -4262,7 +4262,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 HTMLOptGroupElement
 >
@@ -4364,7 +4364,7 @@ selectedIndex
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 HTMLOptionElement
 >
@@ -4448,7 +4448,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 HTMLOptionElement
 >
@@ -5823,7 +5823,7 @@ SaveState
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 SelectState
 >
@@ -6180,7 +6180,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 HTMLOptionElement
 >
@@ -6771,7 +6771,7 @@ length
 i
 )
 {
-nsRefPtr
+RefPtr
 <
 HTMLOptionElement
 >

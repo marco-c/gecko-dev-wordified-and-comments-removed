@@ -3889,7 +3889,7 @@ i0
 i1
 )
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -4067,7 +4067,7 @@ TimeIntervals
 aTi
 )
 {
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -4232,7 +4232,7 @@ IntervalSet
 TimeRangesConversion
 )
 {
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -4621,7 +4621,7 @@ i0
 i1
 )
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -4977,7 +4977,7 @@ tr
 )
 }
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :

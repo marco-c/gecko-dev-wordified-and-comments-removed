@@ -224,7 +224,7 @@ levelBefore
 nsBidiLevel
 levelAfter
 ;
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -364,7 +364,7 @@ Selection
 aSelection
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >

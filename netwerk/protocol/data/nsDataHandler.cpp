@@ -237,7 +237,7 @@ result
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 nsIURI
 >

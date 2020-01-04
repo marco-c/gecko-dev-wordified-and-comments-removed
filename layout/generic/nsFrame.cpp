@@ -12337,7 +12337,7 @@ if
 target
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncEventDispatcher
 >
@@ -13653,7 +13653,7 @@ IsControl
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -14670,7 +14670,7 @@ rv
 return
 rv
 ;
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -14839,7 +14839,7 @@ PresShell
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -15340,7 +15340,7 @@ nsISelectionController
 SELECTION_OFF
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -15461,7 +15461,7 @@ targetForTableSel
 }
 }
 }
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -28557,7 +28557,7 @@ GetFrameSelection
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >

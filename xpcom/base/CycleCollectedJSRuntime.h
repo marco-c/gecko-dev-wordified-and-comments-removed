@@ -1259,7 +1259,7 @@ DeferredFinalizerTable
 DeferredFinalizerTable
 mDeferredFinalizerTable
 ;
-nsRefPtr
+RefPtr
 <
 IncrementalFinalizeRunnable
 >

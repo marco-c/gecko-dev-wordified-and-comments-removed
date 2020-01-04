@@ -134,7 +134,7 @@ sSingleton
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 AlarmHalService
 >

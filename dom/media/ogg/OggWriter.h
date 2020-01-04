@@ -128,7 +128,7 @@ uint8_t
 aOutputBufs
 )
 ;
-nsRefPtr
+RefPtr
 <
 OpusMetadata
 >

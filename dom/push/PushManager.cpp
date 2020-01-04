@@ -240,7 +240,7 @@ UnsubscribeResultCallback
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -310,7 +310,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -341,7 +341,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 UnsubscribeResultCallback
 >
@@ -688,7 +688,7 @@ Length
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 PushSubscription
 >
@@ -1171,7 +1171,7 @@ Length
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 WorkerPushSubscription
 >
@@ -1347,7 +1347,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1408,7 +1408,7 @@ UnsubscribeResultRunnable
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -1477,7 +1477,7 @@ twice
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -1523,7 +1523,7 @@ Init
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 UnsubscribeResultRunnable
 >
@@ -1561,7 +1561,7 @@ WorkerUnsubscribeResultCallback
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -1654,7 +1654,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 WorkerUnsubscribeResultCallback
 >
@@ -1765,7 +1765,7 @@ UnsubscribeRunnable
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -1823,7 +1823,7 @@ GlobalScope
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -1854,7 +1854,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -1891,7 +1891,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 UnsubscribeRunnable
 >
@@ -2072,7 +2072,7 @@ aWorkerPrivate
 )
 override
 {
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2116,7 +2116,7 @@ NullHandleValue
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 WorkerPushSubscription
 >
@@ -2171,7 +2171,7 @@ GetSubscriptionResultRunnable
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -2260,7 +2260,7 @@ twice
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -2325,7 +2325,7 @@ aKey
 aKeyLen
 )
 ;
-nsRefPtr
+RefPtr
 <
 GetSubscriptionResultRunnable
 >
@@ -2367,7 +2367,7 @@ GetSubscriptionCallback
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -2457,7 +2457,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 GetSubscriptionCallback
 >
@@ -2724,7 +2724,7 @@ GetSubscriptionRunnable
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -2790,7 +2790,7 @@ GlobalScope
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -2821,7 +2821,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -2858,7 +2858,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 GetSubscriptionRunnable
 >
@@ -3007,7 +3007,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -3120,7 +3120,7 @@ PermissionResultRunnable
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -3319,7 +3319,7 @@ Init
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 PermissionResultRunnable
 >
@@ -3357,7 +3357,7 @@ PermissionStateRunnable
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -3412,7 +3412,7 @@ GlobalScope
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -3443,7 +3443,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -3489,7 +3489,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 PermissionStateRunnable
 >

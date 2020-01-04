@@ -453,7 +453,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMSVGNumber
 >
@@ -528,7 +528,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMSVGNumber
 >

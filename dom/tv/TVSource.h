@@ -339,13 +339,13 @@ nsITVService
 >
 mTVService
 ;
-nsRefPtr
+RefPtr
 <
 TVTuner
 >
 mTuner
 ;
-nsRefPtr
+RefPtr
 <
 TVChannel
 >

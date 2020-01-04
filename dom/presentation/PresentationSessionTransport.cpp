@@ -158,7 +158,7 @@ CopierCallbacks
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 PresentationSessionTransport
 >
@@ -1219,7 +1219,7 @@ mAsyncCopierActive
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 CopierCallbacks
 >

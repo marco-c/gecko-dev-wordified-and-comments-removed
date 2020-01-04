@@ -594,7 +594,7 @@ MOZ_ASSERT
 aDir
 )
 ;
-nsRefPtr
+RefPtr
 <
 FileSystemBase
 >

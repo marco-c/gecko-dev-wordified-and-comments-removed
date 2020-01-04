@@ -1492,7 +1492,7 @@ return
 rv
 ;
 }
-nsRefPtr
+RefPtr
 <
 PresentationChannelDescription
 >
@@ -2631,7 +2631,7 @@ NS_ERROR_DOM_OPERATION_ERR
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 TabParent
 >

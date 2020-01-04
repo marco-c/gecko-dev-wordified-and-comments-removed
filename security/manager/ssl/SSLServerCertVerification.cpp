@@ -571,7 +571,7 @@ Dispatch
 private
 :
 const
-nsRefPtr
+RefPtr
 <
 TransportSecurityInfo
 >
@@ -678,7 +678,7 @@ RunOnTargetThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SSLServerCertVerificationResult
 >
@@ -706,7 +706,7 @@ nsIX509Cert
 mCert
 ;
 const
-nsRefPtr
+RefPtr
 <
 TransportSecurityInfo
 >
@@ -2372,7 +2372,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsNSSCertificate
 >
@@ -2569,7 +2569,7 @@ return
 rv
 ;
 }
-nsRefPtr
+RefPtr
 <
 CertErrorRunnable
 >
@@ -2590,7 +2590,7 @@ SECStatus
 Dispatch
 (
 const
-nsRefPtr
+RefPtr
 <
 SharedCertVerifier
 >
@@ -2626,7 +2626,7 @@ NS_DECL_NSIRUNNABLE
 SSLServerCertVerificationJob
 (
 const
-nsRefPtr
+RefPtr
 <
 SharedCertVerifier
 >
@@ -2657,7 +2657,7 @@ prtime
 )
 ;
 const
-nsRefPtr
+RefPtr
 <
 SharedCertVerifier
 >
@@ -2670,7 +2670,7 @@ const
 mFdForLogging
 ;
 const
-nsRefPtr
+RefPtr
 <
 TransportSecurityInfo
 >
@@ -2711,7 +2711,7 @@ SSLServerCertVerificationJob
 SSLServerCertVerificationJob
 (
 const
-nsRefPtr
+RefPtr
 <
 SharedCertVerifier
 >
@@ -2812,7 +2812,7 @@ nsIX509Cert
 >
 cert
 ;
-nsRefPtr
+RefPtr
 <
 nsSSLStatus
 >
@@ -5213,7 +5213,7 @@ certPinningResultBucket
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsSSLStatus
 >
@@ -5227,7 +5227,7 @@ SSLStatus
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsNSSCertificate
 >
@@ -5480,7 +5480,7 @@ SSLServerCertVerificationJob
 Dispatch
 (
 const
-nsRefPtr
+RefPtr
 <
 SharedCertVerifier
 >
@@ -5563,7 +5563,7 @@ peerCertChain
 lock
 )
 ;
-nsRefPtr
+RefPtr
 <
 SSLServerCertVerificationJob
 >
@@ -5787,7 +5787,7 @@ ToMilliseconds
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 SSLServerCertVerificationResult
 >
@@ -5869,7 +5869,7 @@ error
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 CertErrorRunnable
 >
@@ -6034,7 +6034,7 @@ error
 PR_INVALID_STATE_ERROR
 ;
 }
-nsRefPtr
+RefPtr
 <
 SSLServerCertVerificationResult
 >
@@ -6075,7 +6075,7 @@ PRBool
 isServer
 )
 {
-nsRefPtr
+RefPtr
 <
 SharedCertVerifier
 >
@@ -6525,7 +6525,7 @@ error
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 CertErrorRunnable
 >
@@ -6788,7 +6788,7 @@ triggeredCertVerifierInit
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 InitializeIdentityInfo
 >

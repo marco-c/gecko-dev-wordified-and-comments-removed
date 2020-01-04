@@ -569,13 +569,13 @@ mDocument
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 Element
 >
 mElement
 ;
-nsRefPtr
+RefPtr
 <
 nsDocument
 >
@@ -583,7 +583,7 @@ mDocument
 ;
 public
 :
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1085,7 +1085,7 @@ Element
 >
 mIdContentList
 ;
-nsRefPtr
+RefPtr
 <
 nsBaseContentList
 >
@@ -1100,7 +1100,7 @@ ChangeCallbackEntry
 >
 mChangeCallbacks
 ;
-nsRefPtr
+RefPtr
 <
 Element
 >
@@ -1426,7 +1426,7 @@ aArgs
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1438,7 +1438,7 @@ Element
 >
 mThisObject
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1660,7 +1660,7 @@ dom
 CustomElementHashKey
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -2037,7 +2037,7 @@ aLoadGroup
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 nsDocument
 >
@@ -5964,7 +5964,7 @@ nsIDocumentObserver
 >
 mObservers
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -5995,7 +5995,7 @@ Maybe
 <
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -6056,7 +6056,7 @@ JSObject
 aObject
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -6068,7 +6068,7 @@ Registry
 >
 mRegistry
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -6077,7 +6077,7 @@ EventListenerManager
 >
 mListenerManager
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -6089,13 +6089,13 @@ StyleSheetList
 >
 mDOMStyleSheets
 ;
-nsRefPtr
+RefPtr
 <
 nsDOMStyleSheetSetList
 >
 mStyleSheetSetList
 ;
-nsRefPtr
+RefPtr
 <
 nsScriptLoader
 >
@@ -6192,7 +6192,7 @@ mAllowRelocking
 :
 1
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -6286,7 +6286,7 @@ mozilla
 EventStates
 mGotDocumentState
 ;
-nsRefPtr
+RefPtr
 <
 nsDOMNavigationTiming
 >
@@ -6484,7 +6484,7 @@ mLastStyleSheetSet
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsFrameLoader
 >
@@ -6500,7 +6500,7 @@ nsIRunnable
 >
 mFrameLoaderFinalizers
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnableMethod
 <
@@ -6543,7 +6543,7 @@ mPreloadPictureDepth
 nsString
 mPreloadPictureFoundSource
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -6555,7 +6555,7 @@ DOMImplementation
 >
 mDOMImplementation
 ;
-nsRefPtr
+RefPtr
 <
 nsContentList
 >
@@ -6593,7 +6593,7 @@ nsIObjectLoadingContent
 >
 mPlugins
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -6605,7 +6605,7 @@ UndoManager
 >
 mUndoManager
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -6686,7 +6686,7 @@ nsIDocument
 >
 mMasterDocument
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

@@ -183,7 +183,7 @@ mMimeService
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 ArchiveItem
 >

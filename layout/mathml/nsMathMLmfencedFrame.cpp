@@ -811,7 +811,7 @@ FontSizeInflationFor
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -2421,7 +2421,7 @@ FontSizeInflationFor
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >

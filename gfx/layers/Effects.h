@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -481,7 +481,7 @@ char
 aPrefix
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -490,7 +490,7 @@ VRHMDInfo
 >
 mHMD
 ;
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -644,7 +644,7 @@ char
 aPrefix
 )
 ;
-nsRefPtr
+RefPtr
 <
 CompositingRenderTarget
 >
@@ -1041,7 +1041,7 @@ aLayerRef
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 Effect
 >
@@ -1054,7 +1054,7 @@ EffectTypes
 :
 :
 MAX_SECONDARY
-nsRefPtr
+RefPtr
 <
 Effect
 >
@@ -1106,7 +1106,7 @@ MOZ_ASSERT
 aSource
 )
 ;
-nsRefPtr
+RefPtr
 <
 TexturedEffect
 >

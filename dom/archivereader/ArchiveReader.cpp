@@ -197,7 +197,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 ArchiveReader
 >
@@ -494,7 +494,7 @@ service
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 ArchiveReaderEvent
 >
@@ -542,7 +542,7 @@ Ready
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 File
 >
@@ -589,7 +589,7 @@ Length
 index
 )
 {
-nsRefPtr
+RefPtr
 <
 ArchiveRequest
 >
@@ -653,7 +653,7 @@ GetFilenames
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 ArchiveRequest
 >
@@ -693,7 +693,7 @@ nsAString
 filename
 )
 {
-nsRefPtr
+RefPtr
 <
 ArchiveRequest
 >
@@ -730,7 +730,7 @@ GetFiles
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 ArchiveRequest
 >

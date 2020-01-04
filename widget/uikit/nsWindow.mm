@@ -1277,7 +1277,7 @@ int
 value
 )
 ;
-nsRefPtr
+RefPtr
 <
 Touch
 >
@@ -2400,13 +2400,13 @@ Create
 Cairo
 objects
 .
-nsRefPtr
+RefPtr
 <
 gfxQuartzSurface
 >
 targetSurface
 ;
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -2434,7 +2434,7 @@ COREGRAPHICS
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -2549,7 +2549,7 @@ SetAllowUseAsSource
 false
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :

@@ -316,7 +316,7 @@ MediaTrackList
 RemoveTrack
 (
 const
-nsRefPtr
+RefPtr
 <
 MediaTrack
 >
@@ -369,7 +369,7 @@ IsEmpty
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaTrack
 >
@@ -417,7 +417,7 @@ bool
 aEnabled
 )
 {
-nsRefPtr
+RefPtr
 <
 AudioTrack
 >
@@ -468,7 +468,7 @@ nsAString
 aLanguage
 )
 {
-nsRefPtr
+RefPtr
 <
 VideoTrack
 >
@@ -546,7 +546,7 @@ CreateAndDispatchChangeEvent
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncEventDispatcher
 >
@@ -652,7 +652,7 @@ AsVideoTrack
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 TrackEvent
 >
@@ -668,7 +668,7 @@ aEventName
 eventInit
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncEventDispatcher
 >

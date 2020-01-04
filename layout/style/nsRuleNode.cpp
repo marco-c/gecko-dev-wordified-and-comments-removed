@@ -383,7 +383,7 @@ request_
 else
 {
 \
-nsRefPtr
+RefPtr
 <
 imgRequestProxy
 >
@@ -1107,7 +1107,7 @@ eVertical
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -1680,7 +1680,7 @@ size
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -1873,7 +1873,7 @@ SetUsesExChUnits
 true
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -1922,7 +1922,7 @@ SetUsesExChUnits
 true
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -19285,7 +19285,7 @@ items
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsCSSShadowArray
 >
@@ -31578,7 +31578,7 @@ value
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsCSSValue
 :
@@ -38652,7 +38652,7 @@ const
 nsCSSValue
 &
 aValue
-nsRefPtr
+RefPtr
 <
 css
 :
@@ -45552,7 +45552,7 @@ sizingBox
 =
 NS_STYLE_CLIP_SHAPE_SIZING_NOBOX
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleBasicShape
 >
@@ -46882,7 +46882,7 @@ type
 NS_STYLE_FILTER_DROP_SHADOW
 )
 {
-nsRefPtr
+RefPtr
 <
 nsCSSShadowArray
 >

@@ -1602,7 +1602,7 @@ NotifyCloseListener
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 CacheOutputCloseListener
 >

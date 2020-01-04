@@ -111,7 +111,7 @@ aCompositorVsyncDispatcher
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 RefreshTimerVsyncDispatcher
 >
@@ -500,7 +500,7 @@ change
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 RefreshTimerVsyncDispatcher
 >

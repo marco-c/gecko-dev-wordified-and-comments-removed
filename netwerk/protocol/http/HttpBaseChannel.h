@@ -1786,7 +1786,7 @@ nsHttpResponseHead
 >
 mResponseHead
 ;
-nsRefPtr
+RefPtr
 <
 nsHttpConnectionInfo
 >
@@ -2004,7 +2004,7 @@ nsString
 >
 mContentDispositionFilename
 ;
-nsRefPtr
+RefPtr
 <
 nsHttpHandler
 >
@@ -2408,7 +2408,7 @@ retval
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 nsRunnableMethod
 <

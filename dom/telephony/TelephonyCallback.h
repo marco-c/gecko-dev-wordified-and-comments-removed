@@ -66,7 +66,7 @@ TelephonyCallback
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 Promise
 >

@@ -2161,7 +2161,7 @@ nsIXPCScriptable
 IS_GLOBAL_OBJECT
 )
 ;
-nsRefPtr
+RefPtr
 <
 XPCWrappedNative
 >
@@ -2751,7 +2751,7 @@ param
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 XPCVariant
 >
@@ -2969,7 +2969,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 XPCWrappedNative
 >
@@ -4406,7 +4406,7 @@ param
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 XPCVariant
 >

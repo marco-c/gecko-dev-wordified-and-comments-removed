@@ -3990,7 +3990,7 @@ data
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 SystemMessageHandledObserver
 >
@@ -4156,7 +4156,7 @@ MemoryReportCallback
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 MemoryReportRequestChild
 >
@@ -4233,7 +4233,7 @@ MemoryReportFinishedCallback
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 MemoryReportRequestChild
 >
@@ -4416,7 +4416,7 @@ AppendProcessId
 process
 )
 ;
-nsRefPtr
+RefPtr
 <
 MemoryReportCallback
 >
@@ -4429,7 +4429,7 @@ this
 process
 )
 ;
-nsRefPtr
+RefPtr
 <
 MemoryReportFinishedCallback
 >
@@ -4482,7 +4482,7 @@ nsString
 aManifestURL
 )
 {
-nsRefPtr
+RefPtr
 <
 DataStoreService
 >
@@ -4628,7 +4628,7 @@ FileDescriptor
 aCCLog
 )
 {
-nsRefPtr
+RefPtr
 <
 CycleCollectWithLogsChild
 >
@@ -5725,7 +5725,7 @@ RecvSpeakerManagerNotify
 #
 ifdef
 MOZ_WIDGET_GONK
-nsRefPtr
+RefPtr
 <
 SpeakerManagerService
 >
@@ -7337,7 +7337,7 @@ uint32_t
 aCertType
 )
 {
-nsRefPtr
+RefPtr
 <
 PSMContentDownloaderChild
 >
@@ -7384,7 +7384,7 @@ PSMContentDownloaderChild
 aListener
 )
 ;
-nsRefPtr
+RefPtr
 <
 PSMContentDownloaderChild
 >
@@ -8856,7 +8856,7 @@ uint32_t
 aMemoryAvailable
 )
 {
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -9157,7 +9157,7 @@ Principal
 aPrincipal
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameMessageManager
 >
@@ -10132,7 +10132,7 @@ aVolumes
 #
 ifdef
 MOZ_WIDGET_GONK
-nsRefPtr
+RefPtr
 <
 nsVolumeService
 >
@@ -10206,7 +10206,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 DeviceStorageFile
 >
@@ -10324,7 +10324,7 @@ aIsHotSwappable
 #
 ifdef
 MOZ_WIDGET_GONK
-nsRefPtr
+RefPtr
 <
 nsVolume
 >
@@ -10346,7 +10346,7 @@ aIsRemovable
 aIsHotSwappable
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsVolumeService
 >
@@ -10451,7 +10451,7 @@ aFsName
 #
 ifdef
 MOZ_WIDGET_GONK
-nsRefPtr
+RefPtr
 <
 nsVolumeService
 >
@@ -10525,7 +10525,7 @@ os
 true
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsHashPropertyBag
 >
@@ -12296,7 +12296,7 @@ aGamepadEvent
 #
 ifdef
 MOZ_GAMEPAD
-nsRefPtr
+RefPtr
 <
 GamepadService
 >
@@ -12644,7 +12644,7 @@ items
 j
 ]
 ;
-nsRefPtr
+RefPtr
 <
 nsVariantCC
 >
@@ -12739,7 +12739,7 @@ get_PBlobChild
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >

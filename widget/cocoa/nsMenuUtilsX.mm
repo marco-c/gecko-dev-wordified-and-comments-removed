@@ -245,7 +245,7 @@ doc
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :

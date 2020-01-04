@@ -45,7 +45,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -21335,7 +21335,7 @@ JSRuntime
 *
 runtime_
 ;
-nsRefPtr
+RefPtr
 <
 js
 :
@@ -21344,7 +21344,7 @@ PerformanceGroup
 >
 sharedGroup_
 ;
-nsRefPtr
+RefPtr
 <
 js
 :

@@ -413,7 +413,7 @@ SurfaceCaps
 &
 caps
 const
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -452,7 +452,7 @@ SurfaceFactory
 >
 mFactory
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -461,7 +461,7 @@ SharedSurfaceTextureClient
 >
 mBack
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :
@@ -554,7 +554,7 @@ get
 ;
 }
 const
-nsRefPtr
+RefPtr
 <
 layers
 :

@@ -1852,7 +1852,7 @@ mChar
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Text
 >
@@ -2117,7 +2117,7 @@ mChar
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Text
 >
@@ -2850,7 +2850,7 @@ GetWSBoundingParent
 ;
 if
 (
-nsRefPtr
+RefPtr
 <
 Text
 >
@@ -3091,7 +3091,7 @@ priorNode
 else
 if
 (
-nsRefPtr
+RefPtr
 <
 Text
 >
@@ -3387,7 +3387,7 @@ wsBoundingParent
 }
 if
 (
-nsRefPtr
+RefPtr
 <
 Text
 >
@@ -3625,7 +3625,7 @@ nextNode
 else
 if
 (
-nsRefPtr
+RefPtr
 <
 Text
 >
@@ -5805,7 +5805,7 @@ mChar
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Text
 >
@@ -6008,7 +6008,7 @@ mChar
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Text
 >
@@ -6257,7 +6257,7 @@ aStartOffset
 nsresult
 res
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >
@@ -6284,7 +6284,7 @@ idx
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 Text
 >
@@ -7083,7 +7083,7 @@ res
 res
 )
 ;
-nsRefPtr
+RefPtr
 <
 Text
 >
@@ -7195,7 +7195,7 @@ outEndNode
 outEndOffset
 )
 ;
-nsRefPtr
+RefPtr
 <
 Text
 >
@@ -7749,7 +7749,7 @@ cmp
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 Text
 >
@@ -7848,7 +7848,7 @@ Length
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Text
 >
@@ -7884,7 +7884,7 @@ point
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 Text
 >
@@ -7968,7 +7968,7 @@ cmp
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 Text
 >
@@ -8067,7 +8067,7 @@ Length
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Text
 >
@@ -8103,7 +8103,7 @@ point
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 Text
 >
@@ -8511,7 +8511,7 @@ spaceNBSP
 rightCheck
 )
 {
-nsRefPtr
+RefPtr
 <
 Text
 >

@@ -16,7 +16,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -196,7 +196,7 @@ param
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 gl
 :

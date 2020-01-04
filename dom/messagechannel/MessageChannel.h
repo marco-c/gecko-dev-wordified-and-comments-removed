@@ -187,13 +187,13 @@ nsPIDOMWindow
 >
 mWindow
 ;
-nsRefPtr
+RefPtr
 <
 MessagePort
 >
 mPort1
 ;
-nsRefPtr
+RefPtr
 <
 MessagePort
 >

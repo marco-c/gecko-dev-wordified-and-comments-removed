@@ -136,7 +136,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -389,7 +389,7 @@ R8G8B8A8
 break
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1500,7 +1500,7 @@ MapSrcAndCreateMappedDest
 DataSourceSurface
 *
 srcSurf
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1611,7 +1611,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1735,7 +1735,7 @@ DataSourceSurface
 srcSurf
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1778,7 +1778,7 @@ failed
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1855,7 +1855,7 @@ DataSourceSurface
 srcSurf
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1898,7 +1898,7 @@ failed
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -2323,7 +2323,7 @@ Height
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -2353,7 +2353,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -2409,7 +2409,7 @@ TopLeft
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -2422,7 +2422,7 @@ Snapshot
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxDrawable
 >
@@ -2754,7 +2754,7 @@ gfxFloat
 deviceX
 deviceY
 ;
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -3256,7 +3256,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -3286,7 +3286,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -3343,7 +3343,7 @@ gfxMatrix
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -3561,7 +3561,7 @@ imgIContainer
 FLAG_CLAMP
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxASurface
 >
@@ -3602,7 +3602,7 @@ Succeeded
 )
 return
 ;
-nsRefPtr
+RefPtr
 <
 gfxDrawable
 >
@@ -3724,7 +3724,7 @@ defined
 (
 MOZ_GFX_OPTIMIZE_MOBILE
 )
-nsRefPtr
+RefPtr
 <
 gfxDrawable
 >
@@ -3945,7 +3945,7 @@ nsIntRegion
 aRegion
 )
 {
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -4139,7 +4139,7 @@ height
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 Path
 >
@@ -5726,7 +5726,7 @@ SurfaceType
 DATA
 )
 {
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -5799,7 +5799,7 @@ OP_OVER
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -5821,7 +5821,7 @@ GetDataSurface
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -5875,7 +5875,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -6268,7 +6268,7 @@ size
 height
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -7379,7 +7379,7 @@ char
 aFile
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -7473,7 +7473,7 @@ height
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -7511,7 +7511,7 @@ NS_ENSURE_TRUE
 dt
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -7615,7 +7615,7 @@ FILE
 aFile
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -7852,7 +7852,7 @@ DrawTarget
 aDT
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -7940,7 +7940,7 @@ DrawTarget
 aDT
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -8463,7 +8463,7 @@ GetCurrentThreadWorkerPrivate
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 GetFeatureStatusRunnable
 >

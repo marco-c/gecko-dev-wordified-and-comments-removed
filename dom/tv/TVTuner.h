@@ -255,7 +255,7 @@ nsITVService
 >
 mTVService
 ;
-nsRefPtr
+RefPtr
 <
 DOMMediaStream
 >
@@ -264,7 +264,7 @@ mStream
 uint16_t
 mStreamType
 ;
-nsRefPtr
+RefPtr
 <
 TVSource
 >
@@ -272,7 +272,7 @@ mCurrentSource
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 TVSource
 >

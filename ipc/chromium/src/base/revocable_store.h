@@ -137,7 +137,7 @@ store
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 StoreRef
 >
@@ -191,7 +191,7 @@ Revocable
 item
 )
 ;
-nsRefPtr
+RefPtr
 <
 StoreRef
 >

@@ -296,7 +296,7 @@ SampleRate
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 AudioNodeStream
 >
@@ -1163,7 +1163,7 @@ forget
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 ThreadSharedFloatArrayBufferList
 >

@@ -173,7 +173,7 @@ public
 typedef
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsXULTemplateResultRDF
 >

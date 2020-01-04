@@ -81,7 +81,7 @@ SetTuners
 const
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 TVTuner
 >
@@ -144,7 +144,7 @@ mTVService
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 TVTuner
 >
@@ -156,7 +156,7 @@ mIsReady
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Promise
 >

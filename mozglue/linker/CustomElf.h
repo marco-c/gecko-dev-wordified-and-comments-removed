@@ -289,7 +289,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 LibHandle
 >

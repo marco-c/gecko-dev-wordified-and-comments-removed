@@ -438,7 +438,7 @@ public
 typedef
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -454,7 +454,7 @@ TouchArray
 typedef
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :

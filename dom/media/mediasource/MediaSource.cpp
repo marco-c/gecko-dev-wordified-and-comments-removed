@@ -684,7 +684,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaSource
 >
@@ -1196,7 +1196,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceBuffer
 >

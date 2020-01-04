@@ -561,7 +561,7 @@ name
 name
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsContentList
 >
@@ -2191,7 +2191,7 @@ roles
 PUSHBUTTON
 )
 {
-nsRefPtr
+RefPtr
 <
 AccStateChangeEvent
 >

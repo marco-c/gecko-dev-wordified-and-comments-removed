@@ -297,7 +297,7 @@ mConverter
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 :
@@ -427,7 +427,7 @@ runnable
 =
 NS_NewRunnableMethodWithArg
 <
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -439,7 +439,7 @@ AppleATDecoder
 :
 :
 SubmitSample
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -1373,7 +1373,7 @@ Length
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 AudioData
 >
@@ -2160,7 +2160,7 @@ MediaRawData
 aSample
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >

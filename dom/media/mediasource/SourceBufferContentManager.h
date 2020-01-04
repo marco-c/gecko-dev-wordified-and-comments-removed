@@ -116,7 +116,7 @@ aTimestampOffset
 0
 ;
 virtual
-nsRefPtr
+RefPtr
 <
 AppendPromise
 >
@@ -143,7 +143,7 @@ ResetParserState
 0
 ;
 virtual
-nsRefPtr
+RefPtr
 <
 RangeRemovalPromise
 >

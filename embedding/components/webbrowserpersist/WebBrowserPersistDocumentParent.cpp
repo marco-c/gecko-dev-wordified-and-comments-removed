@@ -245,7 +245,7 @@ aAttrs
 postData
 )
 ;
-nsRefPtr
+RefPtr
 <
 WebBrowserPersistRemoteDocument
 >
@@ -356,7 +356,7 @@ PWebBrowserPersistResourcesParent
 aActor
 )
 {
-nsRefPtr
+RefPtr
 <
 WebBrowserPersistResourcesParent
 >

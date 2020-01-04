@@ -139,7 +139,7 @@ mDocument
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 AccEvent
 >

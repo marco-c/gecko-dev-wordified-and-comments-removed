@@ -3118,7 +3118,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 FTPChannelParent
 >

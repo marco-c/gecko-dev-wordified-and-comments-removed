@@ -29,7 +29,7 @@ TestDrawTargetD2D
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 ID3D10Device1
 >

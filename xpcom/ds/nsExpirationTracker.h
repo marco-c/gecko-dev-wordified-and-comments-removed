@@ -971,7 +971,7 @@ private
 class
 ExpirationTrackerObserver
 ;
-nsRefPtr
+RefPtr
 <
 ExpirationTrackerObserver
 >

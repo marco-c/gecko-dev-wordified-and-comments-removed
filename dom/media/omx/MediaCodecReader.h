@@ -216,7 +216,7 @@ MediaCodecReader
 )
 ;
 virtual
-nsRefPtr
+RefPtr
 <
 ShutdownPromise
 >
@@ -247,7 +247,7 @@ ResetDecode
 override
 ;
 virtual
-nsRefPtr
+RefPtr
 <
 VideoDataPromise
 >
@@ -261,7 +261,7 @@ aTimeThreshold
 override
 ;
 virtual
-nsRefPtr
+RefPtr
 <
 AudioDataPromise
 >
@@ -283,7 +283,7 @@ HasVideo
 )
 ;
 virtual
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -296,7 +296,7 @@ AsyncReadMetadata
 override
 ;
 virtual
-nsRefPtr
+RefPtr
 <
 SeekPromise
 >
@@ -526,7 +526,7 @@ mFlushed
 bool
 mDiscontinuity
 ;
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
@@ -840,7 +840,7 @@ VideoDataPromise
 >
 mVideoPromise
 ;
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
@@ -994,7 +994,7 @@ public
 :
 ParseCachedDataRunnable
 (
-nsRefPtr
+RefPtr
 <
 MediaCodecReader
 >
@@ -1007,7 +1007,7 @@ uint32_t
 aLength
 int64_t
 aOffset
-nsRefPtr
+RefPtr
 <
 SignalObject
 >
@@ -1052,7 +1052,7 @@ rhs
 =
 delete
 ;
-nsRefPtr
+RefPtr
 <
 MediaCodecReader
 >
@@ -1071,7 +1071,7 @@ mLength
 int64_t
 mOffset
 ;
-nsRefPtr
+RefPtr
 <
 SignalObject
 >
@@ -1093,7 +1093,7 @@ public
 :
 ProcessCachedDataTask
 (
-nsRefPtr
+RefPtr
 <
 MediaCodecReader
 >
@@ -1140,7 +1140,7 @@ rhs
 =
 delete
 ;
-nsRefPtr
+RefPtr
 <
 MediaCodecReader
 >
@@ -1215,7 +1215,7 @@ DestroyMediaSources
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaResourcePromise
 >
@@ -1476,7 +1476,7 @@ ProcessCachedData
 (
 int64_t
 aOffset
-nsRefPtr
+RefPtr
 <
 SignalObject
 >

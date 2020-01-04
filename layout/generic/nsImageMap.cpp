@@ -3258,7 +3258,7 @@ diameter
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 PathBuilder
 >
@@ -3281,7 +3281,7 @@ diameter
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 Path
 >

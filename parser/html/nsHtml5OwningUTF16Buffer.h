@@ -46,7 +46,7 @@ nsHtml5OwningUTF16Buffer
 ;
 public
 :
-nsRefPtr
+RefPtr
 <
 nsHtml5OwningUTF16Buffer
 >

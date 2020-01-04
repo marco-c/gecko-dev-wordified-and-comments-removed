@@ -102,7 +102,7 @@ aResult
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 nsINIParserImpl
 >

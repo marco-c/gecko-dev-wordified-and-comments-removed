@@ -168,7 +168,7 @@ GstBuffer
 aBuf
 )
 {
-nsRefPtr
+RefPtr
 <
 PlanarYCbCrImage
 >
@@ -206,7 +206,7 @@ GstBuffer
 *
 *
 aBuf
-nsRefPtr
+RefPtr
 <
 PlanarYCbCrImage
 >
@@ -237,7 +237,7 @@ return
 GST_FLOW_ERROR
 ;
 }
-nsRefPtr
+RefPtr
 <
 PlanarYCbCrImage
 >
@@ -501,7 +501,7 @@ aEvent
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 PlanarYCbCrImage
 >
@@ -526,7 +526,7 @@ aBuffer
 return
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 PlanarYCbCrImage
 >
@@ -772,7 +772,7 @@ GstBuffer
 *
 *
 aOutBuffer
-nsRefPtr
+RefPtr
 <
 PlanarYCbCrImage
 >

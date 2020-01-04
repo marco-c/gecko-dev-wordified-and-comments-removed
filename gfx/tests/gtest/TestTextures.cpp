@@ -65,7 +65,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -513,7 +513,7 @@ GetFormat
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -526,7 +526,7 @@ GetDataSurface
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DataSourceSurface
 >
@@ -1115,7 +1115,7 @@ OPEN_READ_WRITE
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -1128,7 +1128,7 @@ BorrowDrawTarget
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1171,7 +1171,7 @@ IntPoint
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1228,7 +1228,7 @@ SurfaceDescriptor
 Tnull_t
 )
 ;
-nsRefPtr
+RefPtr
 <
 TextureHost
 >
@@ -1284,7 +1284,7 @@ Lock
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1303,7 +1303,7 @@ GetAsSurface
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxImageSurface
 >
@@ -1477,7 +1477,7 @@ SurfaceDescriptor
 Tnull_t
 )
 ;
-nsRefPtr
+RefPtr
 <
 TextureHost
 >
@@ -1495,7 +1495,7 @@ GetFlags
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 BufferTextureHost
 >
@@ -1781,7 +1781,7 @@ f
 f
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxImageSurface
 >
@@ -1816,7 +1816,7 @@ surface
 surface
 )
 ;
-nsRefPtr
+RefPtr
 <
 TextureClient
 >
@@ -1868,7 +1868,7 @@ Layers
 TextureYCbCrSerialization
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxImageSurface
 >
@@ -1888,7 +1888,7 @@ gfxImageFormat
 A8
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxImageSurface
 >
@@ -1908,7 +1908,7 @@ gfxImageFormat
 A8
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxImageSurface
 >
@@ -2091,7 +2091,7 @@ mPicX
 =
 0
 ;
-nsRefPtr
+RefPtr
 <
 TextureClient
 >

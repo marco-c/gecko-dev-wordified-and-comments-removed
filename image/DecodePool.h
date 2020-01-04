@@ -55,7 +55,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -189,7 +189,7 @@ static
 uint32_t
 sNumCores
 ;
-nsRefPtr
+RefPtr
 <
 DecodePoolImpl
 >

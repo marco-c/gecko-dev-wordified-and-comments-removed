@@ -633,7 +633,7 @@ std
 pair
 <
 uint32_t
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -662,7 +662,7 @@ AppendElement
 Element
 (
 id
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -706,7 +706,7 @@ first
 aId
 )
 {
-nsRefPtr
+RefPtr
 <
 T
 >

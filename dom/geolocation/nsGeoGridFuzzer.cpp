@@ -591,7 +591,7 @@ rv
 nullptr
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsGeoPosition
 >

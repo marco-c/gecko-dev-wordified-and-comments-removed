@@ -278,7 +278,7 @@ bool
 aIsHttpOnly
 )
 {
-nsRefPtr
+RefPtr
 <
 nsUTF8ConverterService
 >

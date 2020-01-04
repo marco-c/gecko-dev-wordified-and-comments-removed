@@ -124,7 +124,7 @@ SVGAnimatedEnumeration
 {
 }
 ;
-nsRefPtr
+RefPtr
 <
 nsSVGElement
 >

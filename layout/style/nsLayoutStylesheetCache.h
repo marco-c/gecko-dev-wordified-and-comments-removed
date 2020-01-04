@@ -342,7 +342,7 @@ const
 char
 *
 aURL
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -368,7 +368,7 @@ LoadSheetFile
 nsIFile
 *
 aFile
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -394,7 +394,7 @@ LoadSheet
 nsIURI
 *
 aURI
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -417,7 +417,7 @@ static
 void
 InvalidateSheet
 (
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -444,7 +444,7 @@ aData
 void
 BuildPreferenceSheet
 (
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -513,7 +513,7 @@ Loader
 *
 gCSSLoader
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -522,7 +522,7 @@ CSSStyleSheet
 >
 mChromePreferenceSheet
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -531,7 +531,7 @@ CSSStyleSheet
 >
 mContentEditableSheet
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -540,7 +540,7 @@ CSSStyleSheet
 >
 mContentPreferenceSheet
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -549,7 +549,7 @@ CSSStyleSheet
 >
 mCounterStylesSheet
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -558,7 +558,7 @@ CSSStyleSheet
 >
 mDesignModeSheet
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -567,7 +567,7 @@ CSSStyleSheet
 >
 mFormsSheet
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -576,7 +576,7 @@ CSSStyleSheet
 >
 mHTMLSheet
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -585,7 +585,7 @@ CSSStyleSheet
 >
 mMathMLSheet
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -594,7 +594,7 @@ CSSStyleSheet
 >
 mMinimalXULSheet
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -603,7 +603,7 @@ CSSStyleSheet
 >
 mNoFramesSheet
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -612,7 +612,7 @@ CSSStyleSheet
 >
 mNoScriptSheet
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -621,7 +621,7 @@ CSSStyleSheet
 >
 mNumberControlSheet
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -630,7 +630,7 @@ CSSStyleSheet
 >
 mQuirkSheet
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -639,7 +639,7 @@ CSSStyleSheet
 >
 mSVGSheet
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -648,7 +648,7 @@ CSSStyleSheet
 >
 mScrollbarsSheet
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -657,7 +657,7 @@ CSSStyleSheet
 >
 mUASheet
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -666,7 +666,7 @@ CSSStyleSheet
 >
 mUserChromeSheet
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -675,7 +675,7 @@ CSSStyleSheet
 >
 mUserContentSheet
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

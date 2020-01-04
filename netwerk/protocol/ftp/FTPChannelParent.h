@@ -381,13 +381,13 @@ mDivertedOnStartRequest
 bool
 mSuspendedForDiversion
 ;
-nsRefPtr
+RefPtr
 <
 OfflineObserver
 >
 mObserver
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -399,7 +399,7 @@ TabParent
 >
 mTabParent
 ;
-nsRefPtr
+RefPtr
 <
 ChannelEventQueue
 >

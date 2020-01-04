@@ -524,7 +524,7 @@ BackgroundHangThread
 )
 ;
 const
-nsRefPtr
+RefPtr
 <
 BackgroundHangManager
 >
@@ -1887,7 +1887,7 @@ get
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 BackgroundHangManager
 >

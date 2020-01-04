@@ -279,7 +279,7 @@ InternalList
 )
 const
 ;
-nsRefPtr
+RefPtr
 <
 nsSVGElement
 >

@@ -306,7 +306,7 @@ nsSVGElement
 aSVGElement
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMAnimatedString
 >

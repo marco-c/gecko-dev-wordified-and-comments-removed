@@ -194,7 +194,7 @@ mThread
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 DoWorkRunnable
 >

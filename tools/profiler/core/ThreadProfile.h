@@ -279,7 +279,7 @@ ThreadInfo
 mThreadInfo
 ;
 const
-nsRefPtr
+RefPtr
 <
 ProfileBuffer
 >

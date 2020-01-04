@@ -281,7 +281,7 @@ mut
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 AccReorderEvent
 >
@@ -348,7 +348,7 @@ if
 aDoFireEvents
 )
 {
-nsRefPtr
+RefPtr
 <
 AccHideEvent
 >
@@ -459,7 +459,7 @@ GetContent
 areaContent
 )
 {
-nsRefPtr
+RefPtr
 <
 Accessible
 >
@@ -513,7 +513,7 @@ if
 aDoFireEvents
 )
 {
-nsRefPtr
+RefPtr
 <
 AccShowEvent
 >

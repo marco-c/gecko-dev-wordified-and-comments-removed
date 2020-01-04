@@ -127,7 +127,7 @@ aCB
 NS_DECL_NSIRUNNABLE
 private
 :
-nsRefPtr
+RefPtr
 <
 nsUrlClassifierDBServiceWorker
 >
@@ -181,7 +181,7 @@ aCB
 NS_DECL_NSIRUNNABLE
 private
 :
-nsRefPtr
+RefPtr
 <
 nsUrlClassifierDBServiceWorker
 >
@@ -234,7 +234,7 @@ aTables
 NS_DECL_NSIRUNNABLE
 private
 :
-nsRefPtr
+RefPtr
 <
 nsUrlClassifierDBServiceWorker
 >
@@ -283,7 +283,7 @@ aTable
 NS_DECL_NSIRUNNABLE
 private
 :
-nsRefPtr
+RefPtr
 <
 nsUrlClassifierDBServiceWorker
 >
@@ -326,7 +326,7 @@ aUpdateChunk
 NS_DECL_NSIRUNNABLE
 private
 :
-nsRefPtr
+RefPtr
 <
 nsUrlClassifierDBServiceWorker
 >
@@ -374,7 +374,7 @@ aEntries
 NS_DECL_NSIRUNNABLE
 private
 :
-nsRefPtr
+RefPtr
 <
 nsUrlClassifierDBServiceWorker
 >
@@ -429,7 +429,7 @@ aEntries
 NS_DECL_NSIRUNNABLE
 private
 :
-nsRefPtr
+RefPtr
 <
 nsUrlClassifierDBServiceWorker
 >
@@ -500,7 +500,7 @@ results
 NS_DECL_NSIRUNNABLE
 private
 :
-nsRefPtr
+RefPtr
 <
 nsUrlClassifierDBServiceWorker
 >
@@ -562,7 +562,7 @@ updateTime
 NS_DECL_NSIRUNNABLE
 private
 :
-nsRefPtr
+RefPtr
 <
 nsUrlClassifierDBServiceWorker
 >
@@ -608,7 +608,7 @@ UrlClassifierDBServiceWorkerProxy
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 nsUrlClassifierDBServiceWorker
 >

@@ -130,7 +130,7 @@ namespace
 nsresult
 FetchPageInfo
 (
-nsRefPtr
+RefPtr
 <
 Database
 >
@@ -652,7 +652,7 @@ NS_OK
 nsresult
 SetIconInfo
 (
-nsRefPtr
+RefPtr
 <
 Database
 >
@@ -878,7 +878,7 @@ NS_OK
 nsresult
 FetchIconInfo
 (
-nsRefPtr
+RefPtr
 <
 Database
 >
@@ -1225,7 +1225,7 @@ NS_OK
 nsresult
 FetchIconURL
 (
-nsRefPtr
+RefPtr
 <
 Database
 >
@@ -1987,7 +1987,7 @@ callback
 aCallback
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncFetchAndSetIconForPage
 >
@@ -2002,7 +2002,7 @@ aFaviconLoadType
 callback
 )
 ;
-nsRefPtr
+RefPtr
 <
 Database
 >
@@ -2113,7 +2113,7 @@ thread
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 Database
 >
@@ -2202,7 +2202,7 @@ if
 fetchIconFromNetwork
 )
 {
-nsRefPtr
+RefPtr
 <
 AsyncAssociateIconToPage
 >
@@ -2230,7 +2230,7 @@ NS_OK
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 AsyncFetchAndSetIconFromNetwork
 >
@@ -3370,7 +3370,7 @@ status
 =
 ICON_STATUS_CHANGED
 ;
-nsRefPtr
+RefPtr
 <
 Database
 >
@@ -3388,7 +3388,7 @@ NS_ENSURE_STATE
 DB
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncAssociateIconToPage
 >
@@ -3483,7 +3483,7 @@ thread
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 Database
 >
@@ -3937,7 +3937,7 @@ callback
 =
 aCallback
 ;
-nsRefPtr
+RefPtr
 <
 AsyncGetFaviconURLForPage
 >
@@ -3950,7 +3950,7 @@ pageSpec
 callback
 )
 ;
-nsRefPtr
+RefPtr
 <
 Database
 >
@@ -4047,7 +4047,7 @@ thread
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 Database
 >
@@ -4209,7 +4209,7 @@ callback
 =
 aCallback
 ;
-nsRefPtr
+RefPtr
 <
 AsyncGetFaviconDataForPage
 >
@@ -4222,7 +4222,7 @@ pageSpec
 callback
 )
 ;
-nsRefPtr
+RefPtr
 <
 Database
 >
@@ -4319,7 +4319,7 @@ thread
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 Database
 >
@@ -4487,7 +4487,7 @@ nsIFaviconDataCallback
 >
 callback
 ;
-nsRefPtr
+RefPtr
 <
 AsyncReplaceFaviconData
 >
@@ -4501,7 +4501,7 @@ aIcon
 callback
 )
 ;
-nsRefPtr
+RefPtr
 <
 Database
 >
@@ -4593,7 +4593,7 @@ thread
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 Database
 >
@@ -5093,7 +5093,7 @@ mPage
 .
 bookmarkedSpec
 ;
-nsRefPtr
+RefPtr
 <
 Database
 >
@@ -5119,7 +5119,7 @@ nsIFaviconDataCallback
 >
 nullCallback
 ;
-nsRefPtr
+RefPtr
 <
 AsyncAssociateIconToPage
 >

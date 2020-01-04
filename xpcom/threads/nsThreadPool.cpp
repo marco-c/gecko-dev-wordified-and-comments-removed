@@ -1266,7 +1266,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsThreadSyncDispatch
 >

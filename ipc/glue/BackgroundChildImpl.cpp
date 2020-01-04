@@ -835,7 +835,7 @@ AllocPVsyncChild
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -886,7 +886,7 @@ MOZ_ASSERT
 aActor
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1015,7 +1015,7 @@ bool
 aPrivateBrowsing
 )
 {
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -1056,7 +1056,7 @@ PBroadcastChannelChild
 aActor
 )
 {
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -1104,7 +1104,7 @@ AllocPCamerasChild
 #
 ifdef
 MOZ_WEBRTC
-nsRefPtr
+RefPtr
 <
 camera
 :
@@ -1157,7 +1157,7 @@ aActor
 #
 ifdef
 MOZ_WEBRTC
-nsRefPtr
+RefPtr
 <
 camera
 :
@@ -1204,7 +1204,7 @@ AllocPServiceWorkerManagerChild
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -1250,7 +1250,7 @@ PServiceWorkerManagerChild
 aActor
 )
 {
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -1468,7 +1468,7 @@ uint32_t
 aSequenceID
 )
 {
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -1508,7 +1508,7 @@ PMessagePortChild
 aActor
 )
 {
-nsRefPtr
+RefPtr
 <
 dom
 :

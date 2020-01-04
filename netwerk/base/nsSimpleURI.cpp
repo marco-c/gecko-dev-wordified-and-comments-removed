@@ -1619,7 +1619,7 @@ pointer
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsSimpleURI
 >
@@ -1920,7 +1920,7 @@ nsIURI
 result
 )
 {
-nsRefPtr
+RefPtr
 <
 nsSimpleURI
 >

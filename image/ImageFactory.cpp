@@ -407,7 +407,7 @@ const
 char
 *
 aMessage
-nsRefPtr
+RefPtr
 <
 T
 >
@@ -453,7 +453,7 @@ aMimeType
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 RasterImage
 >
@@ -464,7 +464,7 @@ RasterImage
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ProgressTracker
 >
@@ -566,7 +566,7 @@ MOZ_ASSERT
 aProgressTracker
 )
 ;
-nsRefPtr
+RefPtr
 <
 MultipartImage
 >
@@ -834,7 +834,7 @@ aProgressTracker
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 RasterImage
 >
@@ -1163,7 +1163,7 @@ aProgressTracker
 nsresult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 VectorImage
 >

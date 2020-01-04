@@ -470,7 +470,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 Element
 >
@@ -877,7 +877,7 @@ if
 aKeyCausesActivation
 )
 {
-nsRefPtr
+RefPtr
 <
 Element
 >

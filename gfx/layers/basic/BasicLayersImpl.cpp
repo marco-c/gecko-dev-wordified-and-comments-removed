@@ -106,7 +106,7 @@ if
 aMaskLayer
 )
 {
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

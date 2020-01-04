@@ -565,7 +565,7 @@ friend
 class
 WebVTTListener
 ;
-nsRefPtr
+RefPtr
 <
 TextTrack
 >
@@ -577,13 +577,13 @@ nsIChannel
 >
 mChannel
 ;
-nsRefPtr
+RefPtr
 <
 HTMLMediaElement
 >
 mMediaParent
 ;
-nsRefPtr
+RefPtr
 <
 WebVTTListener
 >

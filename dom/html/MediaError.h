@@ -126,7 +126,7 @@ mCode
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 HTMLMediaElement
 >

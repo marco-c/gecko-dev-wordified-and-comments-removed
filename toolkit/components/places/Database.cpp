@@ -1462,7 +1462,7 @@ nsIAsyncShutdownClient
 >
 mParentClient
 ;
-nsRefPtr
+RefPtr
 <
 Database
 >
@@ -1796,7 +1796,7 @@ rv
 return
 rv
 ;
-nsRefPtr
+RefPtr
 <
 nsVariant
 >
@@ -1900,7 +1900,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsVariant
 >
@@ -2826,7 +2826,7 @@ rv
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 PlacesEvent
 >
@@ -2958,7 +2958,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 PlacesEvent
 >
@@ -8767,7 +8767,7 @@ FinalizeStatements
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 FinalizeStatementCacheProxy
 <

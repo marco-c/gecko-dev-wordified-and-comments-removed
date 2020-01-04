@@ -193,7 +193,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 FileReaderSync
 >

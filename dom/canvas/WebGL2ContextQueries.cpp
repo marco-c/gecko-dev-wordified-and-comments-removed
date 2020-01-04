@@ -280,7 +280,7 @@ active
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 WebGLQuery
 >
@@ -909,7 +909,7 @@ GetQuerySlotByTarget
 target
 )
 ;
-nsRefPtr
+RefPtr
 <
 WebGLQuery
 >

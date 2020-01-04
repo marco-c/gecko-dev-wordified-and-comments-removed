@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -150,7 +150,7 @@ aAllocFlags
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 ID3D11Device
 >
@@ -204,7 +204,7 @@ aRegion
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 D3D11RecycleAllocator
 >
@@ -327,7 +327,7 @@ gfx
 IntRect
 mPictureRect
 ;
-nsRefPtr
+RefPtr
 <
 TextureClientD3D11
 >

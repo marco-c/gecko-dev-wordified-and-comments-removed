@@ -227,7 +227,7 @@ DOMSVGTransformList
 *
 mAnimVal
 ;
-nsRefPtr
+RefPtr
 <
 nsSVGElement
 >

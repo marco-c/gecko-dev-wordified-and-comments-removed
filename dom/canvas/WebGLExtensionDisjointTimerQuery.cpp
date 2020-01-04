@@ -127,7 +127,7 @@ mIsLost
 return
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 WebGLTimerQuery
 >

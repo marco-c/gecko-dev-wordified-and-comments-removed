@@ -51,7 +51,7 @@ nsresult
 aStatus
 )
 {
-nsRefPtr
+RefPtr
 <
 OnLookupCompleteRunnable
 >

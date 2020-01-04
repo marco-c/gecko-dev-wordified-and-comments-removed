@@ -462,7 +462,7 @@ nsRunnable
 {
 private
 :
-nsRefPtr
+RefPtr
 <
 nsAppStartup
 >

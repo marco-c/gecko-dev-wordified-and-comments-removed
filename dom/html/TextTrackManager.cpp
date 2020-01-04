@@ -539,7 +539,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 TextTrack
 >
@@ -874,7 +874,7 @@ return
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 TextTrackCue
 >
@@ -900,7 +900,7 @@ Length
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 nsVariantCC
 >

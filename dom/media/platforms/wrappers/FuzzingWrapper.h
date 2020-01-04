@@ -129,7 +129,7 @@ mPreviousOutput
 typedef
 Pair
 <
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -146,7 +146,7 @@ MediaDataAndInputExhausted
 >
 mDelayedOutput
 ;
-nsRefPtr
+RefPtr
 <
 MediaTimer
 >
@@ -155,7 +155,7 @@ mDelayedOutputTimer
 bool
 mDraining
 ;
-nsRefPtr
+RefPtr
 <
 TaskQueue
 >
@@ -215,7 +215,7 @@ DecoderFuzzingWrapper
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -271,13 +271,13 @@ aConfig
 )
 override
 ;
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 >
 mDecoder
 ;
-nsRefPtr
+RefPtr
 <
 DecoderCallbackFuzzingWrapper
 >

@@ -1872,7 +1872,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 mozSpellChecker
 >

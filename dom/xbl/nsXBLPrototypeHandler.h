@@ -923,7 +923,7 @@ nsIAtom
 >
 mEventName
 ;
-nsRefPtr
+RefPtr
 <
 nsXBLEventHandler
 >

@@ -48,7 +48,7 @@ LocationInfo
 aInfo
 )
 {
-nsRefPtr
+RefPtr
 <
 WorkerLocation
 >

@@ -1019,13 +1019,13 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsContentList
 >
 mTBodies
 ;
-nsRefPtr
+RefPtr
 <
 TableRowsCollection
 >

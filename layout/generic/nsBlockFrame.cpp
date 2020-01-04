@@ -2555,7 +2555,7 @@ GetCaretBaseline
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -12720,7 +12720,7 @@ wm
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -31905,7 +31905,7 @@ eMathML
 )
 &
 &
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -32093,7 +32093,7 @@ StyleContext
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >

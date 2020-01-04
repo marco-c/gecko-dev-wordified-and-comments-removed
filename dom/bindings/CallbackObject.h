@@ -1330,7 +1330,7 @@ HasWebIDLCallback
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 XPCOMCallbackT
 >
@@ -1399,7 +1399,7 @@ HasWebIDLCallback
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 WebIDLCallbackT
 >

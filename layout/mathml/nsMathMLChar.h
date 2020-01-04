@@ -662,7 +662,7 @@ aDefaultFamily
 nsFont
 &
 aFont
-nsRefPtr
+RefPtr
 <
 gfxFontGroup
 >

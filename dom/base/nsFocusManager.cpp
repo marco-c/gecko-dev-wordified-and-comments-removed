@@ -3721,7 +3721,7 @@ if
 presShell
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -8011,7 +8011,7 @@ nullptr
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 SelectionCarets
 >
@@ -8042,7 +8042,7 @@ mActiveWindow
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 AccessibleCaretEventHub
 >
@@ -9264,7 +9264,7 @@ nsISupports
 >
 mTarget
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -10223,7 +10223,7 @@ if
 domDoc
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -10406,7 +10406,7 @@ nsIContent
 aContent
 )
 {
-nsRefPtr
+RefPtr
 <
 nsCaret
 >
@@ -10449,7 +10449,7 @@ caretVisible
 return
 NS_OK
 ;
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -10508,7 +10508,7 @@ GetFrameSelection
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -10687,7 +10687,7 @@ null
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >

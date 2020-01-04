@@ -487,7 +487,7 @@ optgroup
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 Accessible
 >

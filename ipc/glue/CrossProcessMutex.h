@@ -224,7 +224,7 @@ defined
 (
 OS_MACOSX
 )
-nsRefPtr
+RefPtr
 <
 mozilla
 :

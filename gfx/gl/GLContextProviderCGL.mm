@@ -1059,7 +1059,7 @@ ContextProfile
 :
 OpenGLCompatibility
 ;
-nsRefPtr
+RefPtr
 <
 GLContextCGL
 >
@@ -1275,7 +1275,7 @@ Any
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 GLContextCGL
 >
@@ -1311,7 +1311,7 @@ CreateContextFlags
 flags
 )
 {
-nsRefPtr
+RefPtr
 <
 GLContextCGL
 >
@@ -1386,7 +1386,7 @@ CreateContextFlags
 flags
 )
 {
-nsRefPtr
+RefPtr
 <
 GLContext
 >
@@ -1429,7 +1429,7 @@ forget
 ;
 }
 static
-nsRefPtr
+RefPtr
 <
 GLContext
 >

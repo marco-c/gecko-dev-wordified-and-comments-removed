@@ -130,7 +130,7 @@ GetSourceEvent
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 Event
 >

@@ -3499,7 +3499,7 @@ gfxSparseBitSet
 aUnicodeRanges
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxUserFontEntry
 >
@@ -3605,7 +3605,7 @@ gfxSparseBitSet
 aUnicodeRanges
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxUserFontEntry
 >
@@ -3690,7 +3690,7 @@ instead
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 gfxFontEntry
 >

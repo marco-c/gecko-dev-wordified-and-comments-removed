@@ -123,7 +123,7 @@ GetDataSurface
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 DataSourceSurfaceD2D
 >
@@ -400,7 +400,7 @@ aRT
 HRESULT
 hr
 ;
-nsRefPtr
+RefPtr
 <
 IDXGISurface
 >
@@ -666,7 +666,7 @@ D3D10_BIND_RENDER_TARGET
 |
 D3D10_BIND_SHADER_RESOURCE
 ;
-nsRefPtr
+RefPtr
 <
 ID3D10Texture2D
 >
@@ -724,7 +724,7 @@ hr
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 IDXGISurface
 >
@@ -800,7 +800,7 @@ D2D1_ALPHA_MODE_PREMULTIPLIED
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 ID2D1RenderTarget
 >
@@ -934,7 +934,7 @@ height
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 ID2D1SolidColorBrush
 >

@@ -515,7 +515,7 @@ float
 aFontSizeInflation
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -555,7 +555,7 @@ float
 aFontSizeInflation
 )
 {
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >

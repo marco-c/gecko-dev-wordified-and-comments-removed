@@ -413,7 +413,7 @@ Shutdown
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 :
@@ -681,7 +681,7 @@ __func__
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 InitPromise
 >
@@ -866,7 +866,7 @@ v
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -1126,7 +1126,7 @@ mInitialFrame
 height
 ;
 }
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -2044,7 +2044,7 @@ Output
 (
 int64_t
 aStreamOffset
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -2102,7 +2102,7 @@ case
 OK
 :
 {
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -2273,7 +2273,7 @@ frame
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -3120,7 +3120,7 @@ i
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 FenceHandle
 :

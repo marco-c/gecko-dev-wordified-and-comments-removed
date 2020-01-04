@@ -35,7 +35,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -567,7 +567,7 @@ uint32_t
 aFlags
 )
 {
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -615,7 +615,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfxContext
 >

@@ -58,7 +58,7 @@ stack
 nullptr
 )
 ;
-nsRefPtr
+RefPtr
 <
 ProfileBuffer
 >
@@ -116,7 +116,7 @@ stack
 nullptr
 )
 ;
-nsRefPtr
+RefPtr
 <
 ProfileBuffer
 >
@@ -235,7 +235,7 @@ stack
 nullptr
 )
 ;
-nsRefPtr
+RefPtr
 <
 ProfileBuffer
 >
@@ -411,7 +411,7 @@ stack
 nullptr
 )
 ;
-nsRefPtr
+RefPtr
 <
 ProfileBuffer
 >

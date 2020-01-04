@@ -1099,7 +1099,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1161,7 +1161,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1687,7 +1687,7 @@ IsValid
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 FenceHandle
 :

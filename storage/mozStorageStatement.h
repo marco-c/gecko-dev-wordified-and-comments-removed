@@ -184,7 +184,7 @@ getParams
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 BindingParamsArray
 >

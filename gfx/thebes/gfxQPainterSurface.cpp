@@ -270,7 +270,7 @@ isurf
 CAIRO_SURFACE_TYPE_IMAGE
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxImageSurface
 >

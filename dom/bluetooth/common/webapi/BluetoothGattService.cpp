@@ -437,7 +437,7 @@ mCharacteristics
 NoIndex
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothGattCharacteristic
 >
@@ -793,7 +793,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 BluetoothGattService
 >
@@ -874,7 +874,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -918,7 +918,7 @@ promise
 NS_ERROR_UNEXPECTED
 )
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothGattCharacteristic
 >
@@ -1007,7 +1007,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >

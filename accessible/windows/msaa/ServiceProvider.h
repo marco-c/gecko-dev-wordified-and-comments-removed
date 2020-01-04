@@ -77,7 +77,7 @@ aInstancePtr
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 AccessibleWrap
 >

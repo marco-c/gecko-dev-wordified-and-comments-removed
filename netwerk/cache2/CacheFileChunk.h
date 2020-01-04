@@ -634,7 +634,7 @@ CacheHash
 Hash16_t
 mReadHash
 ;
-nsRefPtr
+RefPtr
 <
 CacheFile
 >

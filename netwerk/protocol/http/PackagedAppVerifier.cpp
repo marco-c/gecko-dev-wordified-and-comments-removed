@@ -257,7 +257,7 @@ popFirst
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 ResourceCacheInfo
 >
@@ -1659,7 +1659,7 @@ nullptr
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 ResourceCacheInfo
 >
@@ -1786,7 +1786,7 @@ mListener
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 ResourceCacheInfo
 >

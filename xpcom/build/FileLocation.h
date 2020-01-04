@@ -271,7 +271,7 @@ mItem
 ;
 #
 endif
-nsRefPtr
+RefPtr
 <
 nsZipArchive
 >
@@ -308,7 +308,7 @@ defined
 (
 MOZILLA_XPCOMRT_API
 )
-nsRefPtr
+RefPtr
 <
 nsZipArchive
 >

@@ -1348,7 +1348,7 @@ if
 docShell
 )
 {
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -1380,7 +1380,7 @@ errorDepth
 2
 )
 {
-nsRefPtr
+RefPtr
 <
 ErrorEvent
 >
@@ -1552,7 +1552,7 @@ sHandlingScriptError
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 nsPresContext
 >
@@ -1686,7 +1686,7 @@ mLineno
 0
 ;
 }
-nsRefPtr
+RefPtr
 <
 ErrorEvent
 >
@@ -1859,7 +1859,7 @@ nsPIDOMWindow
 >
 mWindow
 ;
-nsRefPtr
+RefPtr
 <
 xpc
 :
@@ -2066,7 +2066,7 @@ if
 globalObject
 )
 {
-nsRefPtr
+RefPtr
 <
 xpc
 :
@@ -9247,7 +9247,7 @@ PR_Now
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 NotifyGCEndRunnable
 >

@@ -270,7 +270,7 @@ true
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 CacheStorage
 >
@@ -324,7 +324,7 @@ NS_ASSERT_OWNINGTHREAD
 CacheStorageChild
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheStorage
 >

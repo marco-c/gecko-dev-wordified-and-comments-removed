@@ -111,7 +111,7 @@ aSample
 GMPErr
 mStatus
 ;
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -374,7 +374,7 @@ nsCString
 aMsg
 )
 ;
-nsRefPtr
+RefPtr
 <
 DecryptPromise
 >
@@ -732,7 +732,7 @@ GMPErr
 aResult
 )
 ;
-nsRefPtr
+RefPtr
 <
 DecryptPromise
 >
@@ -752,7 +752,7 @@ __func__
 uint32_t
 mId
 ;
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -777,7 +777,7 @@ mPromise
 void
 gmp_Decrypt
 (
-nsRefPtr
+RefPtr
 <
 DecryptJob
 >
@@ -846,7 +846,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 CDMProxy
 >
@@ -976,7 +976,7 @@ const
 nsAutoString
 mKeySystem
 ;
-nsRefPtr
+RefPtr
 <
 nsIThread
 >
@@ -1000,7 +1000,7 @@ mCallback
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 DecryptJob
 >

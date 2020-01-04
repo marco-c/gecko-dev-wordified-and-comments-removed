@@ -1804,7 +1804,7 @@ nsIntRegion
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -1913,7 +1913,7 @@ aSize
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -2020,7 +2020,7 @@ nsIWidget
 aWindow
 )
 {
-nsRefPtr
+RefPtr
 <
 GLContext
 >
@@ -2217,7 +2217,7 @@ GetNSOpenGLContext
 }
 protected
 :
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -12918,7 +12918,7 @@ drawTarget
 updateRegion
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -12956,7 +12956,7 @@ mDevPixelCornerRadius
 M_PI
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -14891,7 +14891,7 @@ gl
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -16090,7 +16090,7 @@ if
 mAccessible
 )
 {
-nsRefPtr
+RefPtr
 <
 a11y
 :
@@ -16154,7 +16154,7 @@ in
 our
 weak
 ptr
-nsRefPtr
+RefPtr
 <
 a11y
 :
@@ -16417,7 +16417,7 @@ mInUpdate
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -16539,7 +16539,7 @@ mTextureSize
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -16555,7 +16555,7 @@ Snapshot
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -16659,7 +16659,7 @@ size
 height
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -16706,7 +16706,7 @@ GetUpdateRegion
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -20871,13 +20871,13 @@ Create
 Cairo
 objects
 .
-nsRefPtr
+RefPtr
 <
 gfxQuartzSurface
 >
 targetSurface
 ;
-nsRefPtr
+RefPtr
 <
 gfx
 :
@@ -20932,7 +20932,7 @@ dt
 nullptr
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -35781,7 +35781,7 @@ kungFuDeathGrip2
 mGeckoChild
 )
 ;
-nsRefPtr
+RefPtr
 <
 a11y
 :

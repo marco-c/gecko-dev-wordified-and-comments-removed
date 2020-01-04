@@ -320,7 +320,7 @@ MediaRawData
 aSample
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -433,7 +433,7 @@ Length
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaRawData
 >
@@ -991,7 +991,7 @@ Length
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaData
 >
@@ -1332,7 +1332,7 @@ GonkMediaDataDecoder
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDataDecoder
 :

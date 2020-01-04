@@ -185,7 +185,7 @@ hDst
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 INv3DVStreaming
 >

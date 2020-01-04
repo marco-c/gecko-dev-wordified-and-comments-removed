@@ -381,7 +381,7 @@ if
 aValueExpr
 )
 {
-nsRefPtr
+RefPtr
 <
 txAExprResult
 >

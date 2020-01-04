@@ -538,7 +538,7 @@ mStorageName
 =
 aStorageName
 ;
-nsRefPtr
+RefPtr
 <
 DeviceStorageAreaChangedEvent
 >

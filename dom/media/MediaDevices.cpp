@@ -134,7 +134,7 @@ aStream
 )
 override
 {
-nsRefPtr
+RefPtr
 <
 DOMLocalMediaStream
 >
@@ -176,7 +176,7 @@ GumResolver
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -393,7 +393,7 @@ rawArray
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MediaDeviceInfo
 >
@@ -524,7 +524,7 @@ name
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDeviceInfo
 >
@@ -568,7 +568,7 @@ EnumDevResolver
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -614,7 +614,7 @@ aError
 )
 override
 {
-nsRefPtr
+RefPtr
 <
 MediaStreamError
 >
@@ -656,7 +656,7 @@ GumRejecter
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -725,7 +725,7 @@ do_QueryInterface
 window
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -751,7 +751,7 @@ Failed
 nullptr
 )
 ;
-nsRefPtr
+RefPtr
 <
 GumResolver
 >
@@ -763,7 +763,7 @@ GumResolver
 p
 )
 ;
-nsRefPtr
+RefPtr
 <
 GumRejecter
 >
@@ -834,7 +834,7 @@ do_QueryInterface
 window
 )
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -860,7 +860,7 @@ Failed
 nullptr
 )
 ;
-nsRefPtr
+RefPtr
 <
 EnumDevResolver
 >
@@ -878,7 +878,7 @@ WindowID
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 GumRejecter
 >

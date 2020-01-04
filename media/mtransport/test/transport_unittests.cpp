@@ -2773,7 +2773,7 @@ size
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >
@@ -3719,7 +3719,7 @@ target_
 size_t
 received_
 ;
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
@@ -3745,13 +3745,13 @@ TransportLayerIce
 *
 ice_
 ;
-nsRefPtr
+RefPtr
 <
 DtlsIdentity
 >
 identity_
 ;
-nsRefPtr
+RefPtr
 <
 NrIceCtx
 >
@@ -3762,7 +3762,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 NrIceMediaStream
 >
@@ -5717,7 +5717,7 @@ PushTests
 LayerFail
 )
 {
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >
@@ -5846,7 +5846,7 @@ PushTests
 LayersFail
 )
 {
-nsRefPtr
+RefPtr
 <
 TransportFlow
 >

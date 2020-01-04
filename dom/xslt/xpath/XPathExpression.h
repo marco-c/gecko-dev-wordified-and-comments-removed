@@ -282,7 +282,7 @@ Expr
 >
 mExpression
 ;
-nsRefPtr
+RefPtr
 <
 txResultRecycler
 >

@@ -175,7 +175,7 @@ mClaimed
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 nsAHttpConnection
 >
@@ -187,7 +187,7 @@ nsIInterfaceRequestor
 >
 mCallbacks
 ;
-nsRefPtr
+RefPtr
 <
 nsHttpConnectionInfo
 >

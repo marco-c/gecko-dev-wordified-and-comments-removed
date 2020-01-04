@@ -602,7 +602,7 @@ do_check_success
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 DatabaseLocker
 >
@@ -731,7 +731,7 @@ do_check_success
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 DatabaseTester
 >
@@ -863,7 +863,7 @@ do_check_success
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 DatabaseTester
 >

@@ -1128,7 +1128,7 @@ chunk
 *
 iter
 ;
-nsRefPtr
+RefPtr
 <
 layers
 :

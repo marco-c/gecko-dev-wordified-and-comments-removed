@@ -1089,7 +1089,7 @@ nsACString
 aScope
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMStorageUsage
 >
@@ -1202,7 +1202,7 @@ PutEntry
 aScope
 )
 ;
-nsRefPtr
+RefPtr
 <
 DOMStorageCache
 >
@@ -1389,7 +1389,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMStorageCache
 >
@@ -1670,7 +1670,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMStorage
 >
@@ -1730,7 +1730,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-nsRefPtr
+RefPtr
 <
 DOMStorageCache
 >
@@ -1781,7 +1781,7 @@ bool
 aRetval
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMStorage
 >

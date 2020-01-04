@@ -519,7 +519,7 @@ gfxContentType
 COLOR_ALPHA
 )
 ;
-nsRefPtr
+RefPtr
 <
 DrawTarget
 >
@@ -547,7 +547,7 @@ dt
 return
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -577,7 +577,7 @@ false
 aFilter
 )
 ;
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -595,7 +595,7 @@ if
 surface
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxSurfaceDrawable
 >
@@ -830,7 +830,7 @@ aTransform
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 gfxDrawable
 >
@@ -849,7 +849,7 @@ MakeCallbackDrawable
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxDrawingCallback
 >
@@ -861,7 +861,7 @@ DrawingCallbackFromDrawable
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxCallbackDrawable
 >
@@ -934,7 +934,7 @@ if
 aRepeat
 )
 {
-nsRefPtr
+RefPtr
 <
 gfxCallbackDrawable
 >

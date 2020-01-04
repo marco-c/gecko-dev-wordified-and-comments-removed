@@ -16189,7 +16189,7 @@ GetLineScrollAmount
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 nsFontMetrics
 >
@@ -17788,7 +17788,7 @@ NodeInfoManager
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 NodeInfo
 >
@@ -17824,7 +17824,7 @@ if
 canHaveHorizontal
 )
 {
-nsRefPtr
+RefPtr
 <
 NodeInfo
 >
@@ -17951,7 +17951,7 @@ if
 canHaveVertical
 )
 {
-nsRefPtr
+RefPtr
 <
 NodeInfo
 >
@@ -18078,7 +18078,7 @@ if
 isResizable
 )
 {
-nsRefPtr
+RefPtr
 <
 NodeInfo
 >
@@ -18837,7 +18837,7 @@ if
 mScrollbarActivity
 )
 {
-nsRefPtr
+RefPtr
 <
 ScrollbarActivity
 >
@@ -23545,7 +23545,7 @@ if
 mScrollbarActivity
 )
 {
-nsRefPtr
+RefPtr
 <
 ScrollbarActivity
 >

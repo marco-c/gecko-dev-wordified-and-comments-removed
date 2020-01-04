@@ -296,7 +296,7 @@ aUserFontDataRef
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 FTUserFontData
 >
@@ -493,7 +493,7 @@ FcPattern
 >
 mFontPattern
 ;
-nsRefPtr
+RefPtr
 <
 FTUserFontData
 >

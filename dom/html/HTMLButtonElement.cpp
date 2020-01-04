@@ -1690,7 +1690,7 @@ CheckValidFormSubmission
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 HTMLFormElement
 >

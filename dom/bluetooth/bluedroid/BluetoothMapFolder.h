@@ -111,7 +111,7 @@ BluetoothMapFolder
 nsString
 mName
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothMapFolder
 >

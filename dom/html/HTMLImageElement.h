@@ -1212,7 +1212,7 @@ HTMLFormElement
 *
 mForm
 ;
-nsRefPtr
+RefPtr
 <
 ResponsiveImageSelector
 >

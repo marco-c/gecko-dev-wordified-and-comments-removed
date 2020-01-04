@@ -126,7 +126,7 @@ mPlayState
 PLAY_STATE_ENDED
 )
 {
-nsRefPtr
+RefPtr
 <
 RtspMediaResource
 >

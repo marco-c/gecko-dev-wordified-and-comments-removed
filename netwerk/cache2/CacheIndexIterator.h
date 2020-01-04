@@ -157,7 +157,7 @@ aNewRecord
 nsresult
 mStatus
 ;
-nsRefPtr
+RefPtr
 <
 CacheIndex
 >

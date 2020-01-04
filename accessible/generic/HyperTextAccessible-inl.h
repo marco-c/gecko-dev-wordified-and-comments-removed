@@ -618,7 +618,7 @@ IsCaretAtEndOfLine
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >
@@ -691,7 +691,7 @@ DOMSelection
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 nsFrameSelection
 >

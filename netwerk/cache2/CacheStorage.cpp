@@ -374,7 +374,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 _OldCacheLoad
 >
@@ -430,7 +430,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 CacheEntryHandle
 >
@@ -543,7 +543,7 @@ rv
 rv
 )
 ;
-nsRefPtr
+RefPtr
 <
 CacheEntryHandle
 >

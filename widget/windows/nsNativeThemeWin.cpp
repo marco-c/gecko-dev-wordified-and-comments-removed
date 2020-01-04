@@ -6505,7 +6505,7 @@ ScaleInverse
 p2a
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxContext
 >
@@ -16207,7 +16207,7 @@ ScaleInverse
 p2a
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxContext
 >

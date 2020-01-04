@@ -660,7 +660,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -688,7 +688,7 @@ MediaDecoderReader
 VideoDataPromise
 PromiseType
 ;
-nsRefPtr
+RefPtr
 <
 PromiseType
 :
@@ -706,7 +706,7 @@ Private
 __func__
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 >
@@ -1054,7 +1054,7 @@ Exists
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 >
@@ -1295,7 +1295,7 @@ ToMicroseconds
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -1330,7 +1330,7 @@ AsyncReadMetadata
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 MetadataHolder
 >
@@ -1500,7 +1500,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 >
@@ -1576,7 +1576,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 >
@@ -1584,7 +1584,7 @@ mReader
 ;
 }
 ;
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -1602,7 +1602,7 @@ int64_t
 aTimeThreshold
 )
 {
-nsRefPtr
+RefPtr
 <
 VideoDataPromise
 >
@@ -1669,7 +1669,7 @@ if
 skip
 )
 {
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -1713,7 +1713,7 @@ GetSize
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 VideoData
 >
@@ -1797,7 +1797,7 @@ return
 p
 ;
 }
-nsRefPtr
+RefPtr
 <
 MediaDecoderReader
 :
@@ -1811,7 +1811,7 @@ RequestAudioData
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 AudioDataPromise
 >
@@ -1881,7 +1881,7 @@ GetSize
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 nsIRunnable
 >
@@ -1924,7 +1924,7 @@ GetSize
 0
 )
 {
-nsRefPtr
+RefPtr
 <
 AudioData
 >
@@ -2022,7 +2022,7 @@ BreakCycles
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 ShutdownPromise
 >
@@ -2088,7 +2088,7 @@ Shutdown
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 ShutdownPromise
 >

@@ -147,7 +147,7 @@ DataStoreCursor
 )
 {
 }
-nsRefPtr
+RefPtr
 <
 DataStoreCursorImpl
 >

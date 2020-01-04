@@ -171,7 +171,7 @@ nsSVGBoolean
 *
 mVal
 ;
-nsRefPtr
+RefPtr
 <
 nsSVGElement
 >

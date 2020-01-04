@@ -37,7 +37,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -418,7 +418,7 @@ gfxContext
 aDestinationCtx
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxContext
 >

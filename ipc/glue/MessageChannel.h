@@ -1542,7 +1542,7 @@ Run
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 RefCountedTask
 >
@@ -1564,7 +1564,7 @@ mListener
 ChannelState
 mChannelState
 ;
-nsRefPtr
+RefPtr
 <
 RefCountedMonitor
 >
@@ -1588,7 +1588,7 @@ mChannelErrorTask
 int
 mWorkerLoopID
 ;
-nsRefPtr
+RefPtr
 <
 RefCountedTask
 >
@@ -1973,7 +1973,7 @@ mBlockScripts
 ChannelFlags
 mFlags
 ;
-nsRefPtr
+RefPtr
 <
 RefCountedTask
 >

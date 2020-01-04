@@ -1450,7 +1450,7 @@ false
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -4911,7 +4911,7 @@ GetPrincipal
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 nsNullPrincipal
 >

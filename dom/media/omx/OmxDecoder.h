@@ -588,7 +588,7 @@ EnsureMetadata
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaResourcePromise
 >

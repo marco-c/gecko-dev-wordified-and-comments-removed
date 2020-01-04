@@ -1989,7 +1989,7 @@ return
 true
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsStyleContext
 >
@@ -2408,7 +2408,7 @@ nullptr
 ;
 }
 {
-nsRefPtr
+RefPtr
 <
 nsXBLBinding
 >
@@ -4248,7 +4248,7 @@ GetBoundingClientRect
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMRect
 >
@@ -4332,7 +4332,7 @@ GetClientRects
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 DOMRectList
 >
@@ -4619,7 +4619,7 @@ aError
 nsAutoScriptBlocker
 scriptBlocker
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -4655,7 +4655,7 @@ nsIDOMNode
 DOCUMENT_FRAGMENT_NODE
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsXBLDocumentInfo
 >
@@ -4806,7 +4806,7 @@ shadowroot
 protoBinding
 )
 ;
-nsRefPtr
+RefPtr
 <
 ShadowRoot
 >
@@ -4904,7 +4904,7 @@ false
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsXBLBinding
 >
@@ -5262,7 +5262,7 @@ GetDestinationInsertionPoints
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 DestinationInsertionPointList
 >
@@ -5867,7 +5867,7 @@ ErrorResult
 aError
 )
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -7978,7 +7978,7 @@ GetParent
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsINode
 >
@@ -8817,7 +8817,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -10308,7 +10308,7 @@ aParsedValue
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -10386,7 +10386,7 @@ NODE_FORCE_XBL_BINDINGS
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsXBLBinding
 >
@@ -11343,7 +11343,7 @@ NS_EVENT_BITS_MUTATION_ATTRMODIFIED
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 Attr
 >
@@ -11527,7 +11527,7 @@ NODE_FORCE_XBL_BINDINGS
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsXBLBinding
 >
@@ -14676,7 +14676,7 @@ eDOM_PROPERTIES
 error
 )
 ;
-nsRefPtr
+RefPtr
 <
 AsyncEventDispatcher
 >
@@ -14856,7 +14856,7 @@ GetAnimations
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 Animation
 >
@@ -15012,7 +15012,7 @@ Sort
 (
 AnimationPtrComparator
 <
-nsRefPtr
+RefPtr
 <
 Animation
 >
@@ -15248,7 +15248,7 @@ namespaceID
 kNameSpaceID_XHTML
 ;
 }
-nsRefPtr
+RefPtr
 <
 DocumentFragment
 >
@@ -15361,7 +15361,7 @@ element
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :

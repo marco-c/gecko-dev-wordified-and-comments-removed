@@ -984,7 +984,7 @@ NS_NewListBoxLayout
 (
 )
 {
-nsRefPtr
+RefPtr
 <
 nsBoxLayout
 >

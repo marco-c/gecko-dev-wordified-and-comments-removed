@@ -8028,7 +8028,7 @@ ci_data
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsDOMConstructor
 >
@@ -9729,7 +9729,7 @@ nsGlobalNameStruct
 eTypeInterface
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDOMConstructor
 >
@@ -10277,7 +10277,7 @@ nsGlobalNameStruct
 eTypeExternalConstructor
 )
 {
-nsRefPtr
+RefPtr
 <
 nsDOMConstructor
 >

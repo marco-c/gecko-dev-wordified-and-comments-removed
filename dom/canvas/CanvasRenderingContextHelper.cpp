@@ -320,7 +320,7 @@ Blob
 aBlob
 )
 {
-nsRefPtr
+RefPtr
 <
 Blob
 >
@@ -385,7 +385,7 @@ size
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 Blob
 >
@@ -437,7 +437,7 @@ nsIGlobalObject
 >
 mGlobal
 ;
-nsRefPtr
+RefPtr
 <
 FileCallback
 >
@@ -445,7 +445,7 @@ mFileCallback
 ;
 }
 ;
-nsRefPtr
+RefPtr
 <
 EncodeCompleteCallback
 >
@@ -502,7 +502,7 @@ CanvasContextType
 NoContext
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsICanvasRenderingContextInternal
 >
@@ -693,7 +693,7 @@ if
 mCurrentContext
 )
 {
-nsRefPtr
+RefPtr
 <
 nsICanvasRenderingContextInternal
 >

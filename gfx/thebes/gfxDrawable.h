@@ -352,7 +352,7 @@ gfxMatrix
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -524,13 +524,13 @@ Filter
 LINEAR
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxDrawingCallback
 >
 mCallback
 ;
-nsRefPtr
+RefPtr
 <
 gfxSurfaceDrawable
 >
@@ -617,7 +617,7 @@ MakeCallbackDrawable
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 gfxPattern
 >

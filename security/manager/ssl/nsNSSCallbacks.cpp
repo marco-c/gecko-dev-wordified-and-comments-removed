@@ -228,7 +228,7 @@ nsNSSHttpRequestSession
 *
 mRequestSession
 ;
-nsRefPtr
+RefPtr
 <
 nsHTTPListener
 >
@@ -718,7 +718,7 @@ nsCancelHTTPDownloadEvent
 :
 nsRunnable
 {
-nsRefPtr
+RefPtr
 <
 nsHTTPListener
 >
@@ -1630,7 +1630,7 @@ waitFlag
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 nsHTTPDownloadEvent
 >
@@ -1831,7 +1831,7 @@ request_canceled
 =
 true
 ;
-nsRefPtr
+RefPtr
 <
 nsCancelHTTPDownloadEvent
 >
@@ -3345,7 +3345,7 @@ void
 arg
 )
 {
-nsRefPtr
+RefPtr
 <
 PK11PasswordPromptRunnable
 >
@@ -3480,7 +3480,7 @@ cipherInfo
 SECSuccess
 )
 {
-nsRefPtr
+RefPtr
 <
 nsSSLStatus
 >
@@ -5502,7 +5502,7 @@ SSL
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsSSLStatus
 >
@@ -5592,7 +5592,7 @@ fd
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsNSSCertificate
 >

@@ -545,7 +545,7 @@ enabled
 test
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsGonkCameraControl
 >

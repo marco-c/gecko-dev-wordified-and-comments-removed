@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -420,7 +420,7 @@ mIsAwaitingResetComplete
 bool
 mIsAwaitingDrainComplete
 ;
-nsRefPtr
+RefPtr
 <
 GMPContentParent
 >
@@ -440,7 +440,7 @@ mPluginId
 int32_t
 mFrameCount
 ;
-nsRefPtr
+RefPtr
 <
 SimpleTimer
 >

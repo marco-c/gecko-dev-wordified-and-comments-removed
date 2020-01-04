@@ -1768,7 +1768,7 @@ FilterPrimitiveDescription
 aPrimitiveDescrs
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -1820,7 +1820,7 @@ mFilterSpaceBounds
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsSVGFE
 >
@@ -1855,7 +1855,7 @@ GetNextSibling
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 nsSVGFE
 >

@@ -6012,7 +6012,7 @@ rv
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 nsCORSPreflightListener
 >
@@ -6068,7 +6068,7 @@ preflightListener
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 nsCORSListenerProxy
 >

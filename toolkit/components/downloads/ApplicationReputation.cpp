@@ -779,7 +779,7 @@ mSpec
 bool
 mAllowlistOnly
 ;
-nsRefPtr
+RefPtr
 <
 PendingLookup
 >
@@ -2005,7 +2005,7 @@ RemoveElementAt
 index
 )
 ;
-nsRefPtr
+RefPtr
 <
 PendingDBLookup
 >
@@ -2114,7 +2114,7 @@ RemoveElementAt
 index
 )
 ;
-nsRefPtr
+RefPtr
 <
 PendingDBLookup
 >
@@ -5832,7 +5832,7 @@ NS_ENSURE_STATE
 uri
 )
 ;
-nsRefPtr
+RefPtr
 <
 PendingLookup
 >

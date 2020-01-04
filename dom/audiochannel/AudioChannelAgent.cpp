@@ -588,7 +588,7 @@ return
 NS_OK
 ;
 }
-nsRefPtr
+RefPtr
 <
 AudioChannelService
 >
@@ -685,7 +685,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRefPtr
+RefPtr
 <
 AudioChannelService
 >
@@ -795,7 +795,7 @@ muted
 =
 false
 ;
-nsRefPtr
+RefPtr
 <
 AudioChannelService
 >

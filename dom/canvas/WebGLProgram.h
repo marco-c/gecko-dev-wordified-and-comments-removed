@@ -33,7 +33,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -196,7 +196,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 WebGLActiveInfo
 >
@@ -208,7 +208,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 WebGLActiveInfo
 >
@@ -256,7 +256,7 @@ std
 :
 vector
 <
-nsRefPtr
+RefPtr
 <
 UniformBlockInfo
 >
@@ -391,7 +391,7 @@ const
 nsCString
 &
 baseUserName
-nsRefPtr
+RefPtr
 <
 const
 UniformBlockInfo
@@ -630,7 +630,7 @@ GetAttachedShaders
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 WebGLShader
 >
@@ -987,7 +987,7 @@ mTransformFeedbackBufferMode
 nsCString
 mLinkLog
 ;
-nsRefPtr
+RefPtr
 <
 const
 webgl

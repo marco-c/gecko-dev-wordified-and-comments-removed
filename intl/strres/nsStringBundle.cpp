@@ -2551,7 +2551,7 @@ remove
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 nsStringBundle
 >
@@ -2770,7 +2770,7 @@ aResult
 =
 nullptr
 ;
-nsRefPtr
+RefPtr
 <
 nsExtensibleStringBundle
 >

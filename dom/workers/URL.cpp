@@ -261,7 +261,7 @@ mURL
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -378,7 +378,7 @@ AssertIsOnMainThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -905,7 +905,7 @@ mURL
 nsString
 mBase
 ;
-nsRefPtr
+RefPtr
 <
 URLProxy
 >
@@ -918,7 +918,7 @@ ErrorResult
 &
 mRv
 ;
-nsRefPtr
+RefPtr
 <
 URLProxy
 >
@@ -1060,7 +1060,7 @@ AssertIsOnMainThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -1244,7 +1244,7 @@ NS_OK
 }
 private
 :
-nsRefPtr
+RefPtr
 <
 URLProxy
 >
@@ -1566,7 +1566,7 @@ mValue
 GetterType
 mType
 ;
-nsRefPtr
+RefPtr
 <
 URLProxy
 >
@@ -1866,7 +1866,7 @@ mValue
 SetterType
 mType
 ;
-nsRefPtr
+RefPtr
 <
 URLProxy
 >
@@ -1954,7 +1954,7 @@ GetWorkerPrivateFromContext
 cx
 )
 ;
-nsRefPtr
+RefPtr
 <
 ConstructorRunnable
 >
@@ -2031,7 +2031,7 @@ GetWorkerPrivateFromContext
 cx
 )
 ;
-nsRefPtr
+RefPtr
 <
 ConstructorRunnable
 >
@@ -2112,7 +2112,7 @@ base
 &
 aBase
 ;
-nsRefPtr
+RefPtr
 <
 ConstructorRunnable
 >
@@ -2191,7 +2191,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 URLProxy
 >
@@ -2221,7 +2221,7 @@ return
 nullptr
 ;
 }
-nsRefPtr
+RefPtr
 <
 URL
 >
@@ -2294,7 +2294,7 @@ if
 mURLProxy
 )
 {
-nsRefPtr
+RefPtr
 <
 TeardownURLRunnable
 >
@@ -2384,7 +2384,7 @@ aRv
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 GetterRunnable
 >
@@ -2446,7 +2446,7 @@ ErrorResult
 aRv
 )
 {
-nsRefPtr
+RefPtr
 <
 SetterRunnable
 >
@@ -2513,7 +2513,7 @@ aRv
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 GetterRunnable
 >
@@ -2575,7 +2575,7 @@ aRv
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 GetterRunnable
 >
@@ -2640,7 +2640,7 @@ aRv
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 SetterRunnable
 >
@@ -2703,7 +2703,7 @@ aRv
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 GetterRunnable
 >
@@ -2768,7 +2768,7 @@ aRv
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 SetterRunnable
 >
@@ -2831,7 +2831,7 @@ aRv
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 GetterRunnable
 >
@@ -2896,7 +2896,7 @@ aRv
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 SetterRunnable
 >
@@ -2959,7 +2959,7 @@ aRv
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 GetterRunnable
 >
@@ -3024,7 +3024,7 @@ aRv
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 SetterRunnable
 >
@@ -3087,7 +3087,7 @@ aRv
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 GetterRunnable
 >
@@ -3152,7 +3152,7 @@ aRv
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 SetterRunnable
 >
@@ -3215,7 +3215,7 @@ aRv
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 GetterRunnable
 >
@@ -3280,7 +3280,7 @@ aRv
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 SetterRunnable
 >
@@ -3343,7 +3343,7 @@ aRv
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 GetterRunnable
 >
@@ -3408,7 +3408,7 @@ aRv
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 SetterRunnable
 >
@@ -3471,7 +3471,7 @@ aRv
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 GetterRunnable
 >
@@ -3558,7 +3558,7 @@ aSearch
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 SetterRunnable
 >
@@ -3644,7 +3644,7 @@ aRv
 )
 const
 {
-nsRefPtr
+RefPtr
 <
 GetterRunnable
 >
@@ -3709,7 +3709,7 @@ aRv
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 SetterRunnable
 >
@@ -3810,7 +3810,7 @@ GetWorkerPrivateFromContext
 cx
 )
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >
@@ -3852,7 +3852,7 @@ Failed
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 CreateURLRunnable
 >
@@ -3982,7 +3982,7 @@ GetWorkerPrivateFromContext
 cx
 )
 ;
-nsRefPtr
+RefPtr
 <
 RevokeURLRunnable
 >

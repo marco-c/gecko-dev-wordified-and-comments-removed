@@ -56,7 +56,7 @@ include
 "
 mozilla
 /
-nsRefPtr
+RefPtr
 .
 h
 "
@@ -756,7 +756,7 @@ bool
 aInputsAreTainted
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >
@@ -830,7 +830,7 @@ imageContainer
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 SourceSurface
 >

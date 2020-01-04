@@ -210,7 +210,7 @@ initialized
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 nsZipArchive
 >

@@ -1787,7 +1787,7 @@ ForgetMainThreadObjects
 doomed
 )
 ;
-nsRefPtr
+RefPtr
 <
 MainThreadReleaseRunnable
 >
@@ -2003,7 +2003,7 @@ ForgetMainThreadObjects
 doomed
 )
 ;
-nsRefPtr
+RefPtr
 <
 MainThreadReleaseRunnable
 >
@@ -2536,7 +2536,7 @@ GlobalScope
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -2836,7 +2836,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 MessageEvent
 >
@@ -2880,7 +2880,7 @@ if
 mEventSource
 )
 {
-nsRefPtr
+RefPtr
 <
 ServiceWorkerClient
 >
@@ -2934,7 +2934,7 @@ false
 }
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MessagePort
 >
@@ -3261,7 +3261,7 @@ message
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 MessageEvent
 >
@@ -3916,7 +3916,7 @@ if
 aTarget
 )
 {
-nsRefPtr
+RefPtr
 <
 ErrorEvent
 >
@@ -4134,7 +4134,7 @@ nsIDOMEventTarget
 globalScope
 )
 ;
-nsRefPtr
+RefPtr
 <
 ErrorEvent
 >
@@ -4280,7 +4280,7 @@ if
 aWorkerPrivate
 )
 {
-nsRefPtr
+RefPtr
 <
 ReportErrorRunnable
 >
@@ -4575,7 +4575,7 @@ mFlags
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 ServiceWorkerManager
 >
@@ -4802,7 +4802,7 @@ DebuggerImmediateRunnable
 public
 WorkerRunnable
 {
-nsRefPtr
+RefPtr
 <
 dom
 :
@@ -5172,7 +5172,7 @@ return
 false
 ;
 }
-nsRefPtr
+RefPtr
 <
 KillScriptRunnable
 >
@@ -5184,7 +5184,7 @@ KillScriptRunnable
 mWorkerPrivate
 )
 ;
-nsRefPtr
+RefPtr
 <
 TimerThreadEventTarget
 >
@@ -6790,7 +6790,7 @@ nsIEventTarget
 DISPATCH_NORMAL
 )
 ;
-nsRefPtr
+RefPtr
 <
 TimerThreadEventTarget
 >
@@ -9197,7 +9197,7 @@ nsIEventTarget
 aSyncLoopTarget
 )
 {
-nsRefPtr
+RefPtr
 <
 WorkerRunnable
 >
@@ -9597,7 +9597,7 @@ WorkerControlRunnable
 aWorkerControlRunnable
 )
 {
-nsRefPtr
+RefPtr
 <
 WorkerControlRunnable
 >
@@ -9755,7 +9755,7 @@ WorkerRunnable
 aDebuggerRunnable
 )
 {
-nsRefPtr
+RefPtr
 <
 WorkerRunnable
 >
@@ -9890,7 +9890,7 @@ MOZ_ASSERT
 runnable
 )
 ;
-nsRefPtr
+RefPtr
 <
 WorkerRunnable
 >
@@ -10335,7 +10335,7 @@ Clear
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 NotifyRunnable
 >
@@ -10461,7 +10461,7 @@ GetOwner
 aWindow
 )
 {
-nsRefPtr
+RefPtr
 <
 SharedWorker
 >
@@ -10578,7 +10578,7 @@ DisableDebugger
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 FreezeRunnable
 >
@@ -10728,7 +10728,7 @@ GetOwner
 aWindow
 )
 {
-nsRefPtr
+RefPtr
 <
 SharedWorker
 >
@@ -10930,7 +10930,7 @@ Run
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 ThawRunnable
 >
@@ -11655,7 +11655,7 @@ array
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MessageEventRunnable
 >
@@ -11901,7 +11901,7 @@ runtimeOptions
 aRuntimeOptions
 ;
 }
-nsRefPtr
+RefPtr
 <
 UpdateRuntimeOptionsRunnable
 >
@@ -11988,7 +11988,7 @@ aPref
 WORKERPREF_COUNT
 )
 ;
-nsRefPtr
+RefPtr
 <
 UpdatePreferenceRunnable
 >
@@ -12065,7 +12065,7 @@ AssertIsOnParentThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 UpdateLanguagesRunnable
 >
@@ -12166,7 +12166,7 @@ if
 found
 )
 {
-nsRefPtr
+RefPtr
 <
 UpdateJSWorkerMemoryParameterRunnable
 >
@@ -12264,7 +12264,7 @@ gcZealFrequency
 aFrequency
 ;
 }
-nsRefPtr
+RefPtr
 <
 UpdateGCZealRunnable
 >
@@ -12338,7 +12338,7 @@ AssertIsOnParentThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 GarbageCollectRunnable
 >
@@ -12409,7 +12409,7 @@ AssertIsOnParentThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CycleCollectRunnable
 >
@@ -12479,7 +12479,7 @@ AssertIsOnParentThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 OfflineStatusChangeRunnable
 >
@@ -12602,7 +12602,7 @@ GlobalScope
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 WorkerNavigator
 >
@@ -12659,7 +12659,7 @@ online
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 Event
 >
@@ -12769,7 +12769,7 @@ IsSharedWorker
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 MessagePortRunnable
 >
@@ -12878,7 +12878,7 @@ AssertIsOnMainThread
 ;
 nsAutoTArray
 <
-nsRefPtr
+RefPtr
 <
 SharedWorker
 >
@@ -12933,7 +12933,7 @@ index
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 SharedWorker
 >
@@ -13001,7 +13001,7 @@ mColno
 =
 aColumnNumber
 ;
-nsRefPtr
+RefPtr
 <
 ErrorEvent
 >
@@ -13354,7 +13354,7 @@ GetAllSharedWorkers
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SharedWorker
 >
@@ -14718,7 +14718,7 @@ final
 public
 nsIRunnable
 {
-nsRefPtr
+RefPtr
 <
 WorkerDebugger
 >
@@ -15415,7 +15415,7 @@ if
 mIsInitialized
 )
 {
-nsRefPtr
+RefPtr
 <
 CompileDebuggerScriptRunnable
 >
@@ -15492,7 +15492,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsRefPtr
+RefPtr
 <
 DebuggerMessageEventRunnable
 >
@@ -16749,7 +16749,7 @@ MOZ_ASSERT
 runtimeService
 )
 ;
-nsRefPtr
+RefPtr
 <
 WorkerPrivate
 >
@@ -16799,7 +16799,7 @@ EnableDebugger
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 CompileScriptRunnable
 >
@@ -18910,7 +18910,7 @@ MOZ_ASSERT
 mGCTimer
 )
 ;
-nsRefPtr
+RefPtr
 <
 GarbageCollectRunnable
 >
@@ -19624,7 +19624,7 @@ GetParent
 )
 )
 {
-nsRefPtr
+RefPtr
 <
 WorkerFinishedRunnable
 >
@@ -19664,7 +19664,7 @@ runnable
 }
 else
 {
-nsRefPtr
+RefPtr
 <
 TopLevelWorkerFinishedRunnable
 >
@@ -19940,7 +19940,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 MemoryReporter
 >
@@ -20361,7 +20361,7 @@ index
 +
 )
 {
-nsRefPtr
+RefPtr
 <
 WorkerRunnable
 >
@@ -20726,7 +20726,7 @@ true
 ;
 }
 }
-nsRefPtr
+RefPtr
 <
 ModifyBusyCountRunnable
 >
@@ -21459,7 +21459,7 @@ realEventTarget
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 EventTarget
 >
@@ -22329,7 +22329,7 @@ array
 )
 ;
 }
-nsRefPtr
+RefPtr
 <
 MessageEventRunnable
 >
@@ -22653,7 +22653,7 @@ AssertIsOnWorkerThread
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 DebuggerImmediateRunnable
 >
@@ -22750,7 +22750,7 @@ status
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 EventTarget
 >
@@ -22951,7 +22951,7 @@ mCloseHandlerStarted
 mCloseHandlerFinished
 )
 ;
-nsRefPtr
+RefPtr
 <
 CloseEventRunnable
 >
@@ -22983,7 +22983,7 @@ aStatus
 Closing
 )
 {
-nsRefPtr
+RefPtr
 <
 CloseRunnable
 >
@@ -23175,7 +23175,7 @@ IsNull
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 KillCloseEventRunnable
 >
@@ -24032,7 +24032,7 @@ return
 0
 ;
 }
-nsRefPtr
+RefPtr
 <
 TimerRunnable
 >
@@ -24044,7 +24044,7 @@ TimerRunnable
 this
 )
 ;
-nsRefPtr
+RefPtr
 <
 TimerThreadEventTarget
 >
@@ -25151,7 +25151,7 @@ if
 globalScope
 )
 {
-nsRefPtr
+RefPtr
 <
 WorkerNavigator
 >
@@ -25764,7 +25764,7 @@ const
 WorkerThreadFriendKey
 friendKey
 ;
-nsRefPtr
+RefPtr
 <
 WorkerThread
 >
@@ -26100,7 +26100,7 @@ jsGlobal
 ErrorResult
 rv
 ;
-nsRefPtr
+RefPtr
 <
 MessagePort
 >
@@ -26187,7 +26187,7 @@ SetAsMessagePort
 =
 port
 ;
-nsRefPtr
+RefPtr
 <
 MessageEvent
 >
@@ -26219,7 +26219,7 @@ true
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 MessagePort
 >
@@ -26233,7 +26233,7 @@ AppendElement
 port
 )
 ;
-nsRefPtr
+RefPtr
 <
 MessagePortList
 >
@@ -26315,7 +26315,7 @@ if
 mScope
 )
 {
-nsRefPtr
+RefPtr
 <
 WorkerGlobalScope
 >
@@ -26463,7 +26463,7 @@ MOZ_ASSERT
 mDebuggerScope
 )
 ;
-nsRefPtr
+RefPtr
 <
 WorkerDebuggerGlobalScope
 >
@@ -26835,7 +26835,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-nsRefPtr
+RefPtr
 <
 WorkerRunnable
 >

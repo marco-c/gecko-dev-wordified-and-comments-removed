@@ -370,7 +370,7 @@ true
 return
 ;
 }
-nsRefPtr
+RefPtr
 <
 Cache
 >
@@ -424,7 +424,7 @@ NS_ASSERT_OWNINGTHREAD
 CacheChild
 )
 ;
-nsRefPtr
+RefPtr
 <
 Cache
 >

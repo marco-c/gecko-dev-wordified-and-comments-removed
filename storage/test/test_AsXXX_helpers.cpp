@@ -664,7 +664,7 @@ Finalize
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 Spinner
 >

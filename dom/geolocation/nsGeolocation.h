@@ -645,7 +645,7 @@ aRequest
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsGeolocationRequest
 >
@@ -654,7 +654,7 @@ mPendingCallbacks
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsGeolocationRequest
 >
@@ -670,7 +670,7 @@ nsIPrincipal
 >
 mPrincipal
 ;
-nsRefPtr
+RefPtr
 <
 nsGeolocationService
 >
@@ -681,7 +681,7 @@ mLastWatchId
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 nsGeolocationRequest
 >
@@ -778,7 +778,7 @@ PositionError
 int16_t
 mCode
 ;
-nsRefPtr
+RefPtr
 <
 Geolocation
 >

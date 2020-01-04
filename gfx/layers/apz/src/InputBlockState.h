@@ -76,7 +76,7 @@ explicit
 InputBlockState
 (
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -98,7 +98,7 @@ bool
 SetConfirmedTargetApzc
 (
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -107,7 +107,7 @@ aTargetApzc
 )
 ;
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -118,7 +118,7 @@ GetTargetApzc
 const
 ;
 const
-nsRefPtr
+RefPtr
 <
 const
 OverscrollHandoffChain
@@ -148,7 +148,7 @@ void
 UpdateTargetApzc
 (
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -158,7 +158,7 @@ aTargetApzc
 ;
 private
 :
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -173,7 +173,7 @@ mBlockId
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 const
 OverscrollHandoffChain
@@ -199,7 +199,7 @@ public
 CancelableBlockState
 (
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -362,7 +362,7 @@ public
 WheelBlockState
 (
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -428,7 +428,7 @@ bool
 SetConfirmedTargetApzc
 (
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -522,7 +522,7 @@ void
 UpdateTargetApzc
 (
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -561,7 +561,7 @@ public
 PanGestureBlockState
 (
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -627,7 +627,7 @@ bool
 SetConfirmedTargetApzc
 (
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >
@@ -707,7 +707,7 @@ explicit
 TouchBlockState
 (
 const
-nsRefPtr
+RefPtr
 <
 AsyncPanZoomController
 >

@@ -145,7 +145,7 @@ GetDescriptors
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BluetoothGattDescriptor
 >
@@ -513,7 +513,7 @@ nsPIDOMWindow
 >
 mOwner
 ;
-nsRefPtr
+RefPtr
 <
 BluetoothGattService
 >
@@ -521,7 +521,7 @@ mService
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 BluetoothGattDescriptor
 >
@@ -573,7 +573,7 @@ template
 class
 nsDefaultComparator
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -604,7 +604,7 @@ bool
 Equals
 (
 const
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -655,7 +655,7 @@ template
 class
 nsDefaultComparator
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -686,7 +686,7 @@ bool
 Equals
 (
 const
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -752,7 +752,7 @@ template
 class
 nsDefaultComparator
 <
-nsRefPtr
+RefPtr
 <
 mozilla
 :
@@ -783,7 +783,7 @@ bool
 Equals
 (
 const
-nsRefPtr
+RefPtr
 <
 mozilla
 :

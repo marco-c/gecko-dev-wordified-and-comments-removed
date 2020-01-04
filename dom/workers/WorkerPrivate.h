@@ -310,7 +310,7 @@ RefCountedMutex
 }
 }
 ;
-nsRefPtr
+RefPtr
 <
 RefCountedMutex
 >
@@ -480,7 +480,7 @@ mozilla
 CondVar
 mMemoryReportCondVar
 ;
-nsRefPtr
+RefPtr
 <
 EventTarget
 >
@@ -488,7 +488,7 @@ mEventTarget
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 WorkerRunnable
 >
@@ -533,7 +533,7 @@ mJSSettings
 ;
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SharedWorker
 >
@@ -575,7 +575,7 @@ mNowBaseTimeHighRes
 ;
 protected
 :
-nsRefPtr
+RefPtr
 <
 WorkerPrivate
 >
@@ -2151,7 +2151,7 @@ GetAllSharedWorkers
 (
 nsTArray
 <
-nsRefPtr
+RefPtr
 <
 SharedWorker
 >
@@ -2435,7 +2435,7 @@ IdleTimer
 NoTimer
 }
 ;
-nsRefPtr
+RefPtr
 <
 WorkerDebugger
 >
@@ -2461,7 +2461,7 @@ JSContext
 *
 mJSContext
 ;
-nsRefPtr
+RefPtr
 <
 WorkerCrossThreadDispatcher
 >
@@ -2476,7 +2476,7 @@ nsIRunnable
 >
 mUndispatchedRunnablesForSyncLoop
 ;
-nsRefPtr
+RefPtr
 <
 WorkerThread
 >
@@ -2486,13 +2486,13 @@ PRThread
 *
 mPRThread
 ;
-nsRefPtr
+RefPtr
 <
 WorkerGlobalScope
 >
 mScope
 ;
-nsRefPtr
+RefPtr
 <
 WorkerDebuggerGlobalScope
 >
@@ -2535,7 +2535,7 @@ EventTarget
 aEventTarget
 )
 ;
-nsRefPtr
+RefPtr
 <
 EventTarget
 >
@@ -2590,7 +2590,7 @@ nsIEventTarget
 >
 mIdleGCTimerTarget
 ;
-nsRefPtr
+RefPtr
 <
 MemoryReporter
 >
@@ -4350,7 +4350,7 @@ WorkerPrivate
 *
 mWorkerPrivate
 ;
-nsRefPtr
+RefPtr
 <
 WorkerRunnable
 >

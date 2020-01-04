@@ -146,7 +146,7 @@ DispatchAudioOffloading
 true
 )
 ;
-nsRefPtr
+RefPtr
 <
 MediaOmxCommonDecoder
 >

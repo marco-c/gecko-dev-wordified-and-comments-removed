@@ -398,11 +398,6 @@ Move
 h
 '
 '
-nsRefPtr
-.
-h
-'
-'
 NullPtr
 .
 h
@@ -449,6 +444,11 @@ h
 '
 '
 RefCountType
+.
+h
+'
+'
+RefPtr
 .
 h
 '

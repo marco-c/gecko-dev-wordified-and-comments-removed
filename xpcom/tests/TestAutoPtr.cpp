@@ -1014,7 +1014,7 @@ n
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -1062,7 +1062,7 @@ n
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -1140,7 +1140,7 @@ n
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -1167,7 +1167,7 @@ n
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -1216,7 +1216,7 @@ n
 )
 ;
 {
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -1228,7 +1228,7 @@ TestRefObject
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -1277,7 +1277,7 @@ broken
 }
 {
 const
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -1289,7 +1289,7 @@ TestRefObject
 )
 )
 ;
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -1337,7 +1337,7 @@ broken
 ;
 }
 {
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -1350,7 +1350,7 @@ TestRefObject
 )
 ;
 const
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -1399,7 +1399,7 @@ broken
 }
 {
 const
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -1412,7 +1412,7 @@ TestRefObject
 )
 ;
 const
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -1460,7 +1460,7 @@ broken
 ;
 }
 {
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -1535,7 +1535,7 @@ broken
 }
 {
 const
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -1612,7 +1612,7 @@ broken
 if
 0
 {
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -1688,7 +1688,7 @@ broken
 }
 {
 const
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -1765,7 +1765,7 @@ broken
 #
 endif
 {
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -1841,7 +1841,7 @@ broken
 }
 {
 const
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -1916,7 +1916,7 @@ broken
 ;
 }
 {
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -1993,7 +1993,7 @@ broken
 }
 {
 const
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -2129,7 +2129,7 @@ n
 ;
 }
 {
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -2434,7 +2434,7 @@ broken
 ;
 }
 {
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -2445,7 +2445,7 @@ TestRefObject
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 TestRefObjectBaseB
 >
@@ -2535,7 +2535,7 @@ broken
 ;
 }
 {
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -2639,7 +2639,7 @@ TestRefObject
 (
 )
 ;
-nsRefPtr
+RefPtr
 <
 TestRefObjectBaseB
 >
@@ -2897,7 +2897,7 @@ n
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -2921,7 +2921,7 @@ n
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -3071,7 +3071,7 @@ n
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -3374,7 +3374,7 @@ n
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -3700,7 +3700,7 @@ n
 "
 )
 ;
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -4029,7 +4029,7 @@ n
 )
 ;
 const
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >
@@ -4358,7 +4358,7 @@ n
 )
 ;
 const
-nsRefPtr
+RefPtr
 <
 TestRefObject
 >

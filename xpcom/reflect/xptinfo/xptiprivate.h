@@ -2216,7 +2216,7 @@ xptiInterfaceEntry
 *
 mEntry
 ;
-nsRefPtr
+RefPtr
 <
 xptiInterfaceInfo
 >

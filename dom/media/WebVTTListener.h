@@ -135,7 +135,7 @@ uint32_t
 aWriteCount
 )
 ;
-nsRefPtr
+RefPtr
 <
 HTMLTrackElement
 >

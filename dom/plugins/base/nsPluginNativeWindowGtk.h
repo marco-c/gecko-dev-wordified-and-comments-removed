@@ -104,7 +104,7 @@ virtual
 nsresult
 CallSetWindow
 (
-nsRefPtr
+RefPtr
 <
 nsNPAPIPluginInstance
 >

@@ -181,7 +181,7 @@ static
 uint32_t
 sOutputBufferSize
 ;
-nsRefPtr
+RefPtr
 <
 Promise
 >
@@ -190,7 +190,7 @@ mPromise
 nsString
 mTargetRealPath
 ;
-nsRefPtr
+RefPtr
 <
 Blob
 >
@@ -211,7 +211,7 @@ mArrayData
 bool
 mReplace
 ;
-nsRefPtr
+RefPtr
 <
 BlobImpl
 >

@@ -281,7 +281,7 @@ nsITextServicesFilter
 >
 mFilter
 ;
-nsRefPtr
+RefPtr
 <
 nsRange
 >

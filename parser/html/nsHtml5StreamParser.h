@@ -774,7 +774,7 @@ mCharset
 bool
 mReparseForbidden
 ;
-nsRefPtr
+RefPtr
 <
 nsHtml5OwningUTF16Buffer
 >
@@ -809,7 +809,7 @@ mTokenizerMutex
 nsHtml5AtomTable
 mAtomTable
 ;
-nsRefPtr
+RefPtr
 <
 nsHtml5Parser
 >
