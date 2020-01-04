@@ -2369,6 +2369,11 @@ PUSH_SERVICE_ACTIVATING
 )
 {
 return
+Promise
+.
+reject
+(
+)
 ;
 }
 this
@@ -2406,6 +2411,7 @@ newPushDB
 )
 ;
 }
+return
 this
 .
 _service
@@ -2416,7 +2422,14 @@ options
 this
 serverURI
 )
-;
+.
+then
+(
+(
+)
+=
+>
+{
 this
 .
 _startObservers
@@ -2428,6 +2441,9 @@ this
 .
 _dropExpiredRegistrations
 (
+)
+;
+}
 )
 ;
 }
