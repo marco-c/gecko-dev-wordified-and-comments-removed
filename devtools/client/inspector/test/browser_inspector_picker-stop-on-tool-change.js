@@ -74,12 +74,9 @@ picker
 )
 ;
 yield
-toolbox
-.
-highlighterUtils
-.
 startPicker
 (
+toolbox
 )
 ;
 info

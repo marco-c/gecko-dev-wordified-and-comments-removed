@@ -202,14 +202,11 @@ activate
 )
 ;
 yield
+startPicker
+(
 inspector
 .
 toolbox
-.
-highlighterUtils
-.
-startPicker
-(
 )
 ;
 info
