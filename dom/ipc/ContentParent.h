@@ -4355,16 +4355,6 @@ override
 ;
 virtual
 bool
-RecvGetServiceWorkerConfiguration
-(
-ServiceWorkerConfiguration
-*
-aConfig
-)
-override
-;
-virtual
-bool
 RecvProfile
 (
 const
