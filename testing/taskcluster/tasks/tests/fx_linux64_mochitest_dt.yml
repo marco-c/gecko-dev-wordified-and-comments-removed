@@ -56,6 +56,12 @@ mochitest
 devtools
 -
 chrome
+-
+{
+{
+chunk
+}
+}
 '
 description
 :
