@@ -372,4 +372,9 @@ s_trunc
 .
 cpp
 '
+'
+s_truncf
+.
+cpp
+'
 ]

@@ -30,7 +30,6 @@ lib
 msun
 /
 src
-function
 download_source
 (
 )
@@ -41,6 +40,10 @@ REMOTE_FILENAME
 LOCAL_FILENAME
 =
 2
+while
+true
+;
+do
 curl
 -
 o
@@ -60,6 +63,10 @@ BASE_URL
 REMOTE_FILENAME
 }
 "
+&
+&
+break
+done
 }
 mkdir
 -
@@ -399,6 +406,13 @@ s_trunc
 .
 c
 s_trunc
+.
+cpp
+download_source
+s_truncf
+.
+c
+s_truncf
 .
 cpp
 #
