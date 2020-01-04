@@ -71,7 +71,7 @@ uint8_t
 >
 &
 &
-aAppServerKey
+aRawAppServerKey
 )
 ;
 nsIGlobalObject
@@ -140,6 +140,16 @@ mGlobal
 nsTArray
 <
 uint8_t
+>
+mRawAppServerKey
+;
+JS
+:
+:
+Heap
+<
+JSObject
+*
 >
 mAppServerKey
 ;

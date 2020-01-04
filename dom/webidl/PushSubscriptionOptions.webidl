@@ -135,6 +135,7 @@ interface
 PushSubscriptionOptions
 {
 [
+SameObject
 Throws
 ]
 readonly
