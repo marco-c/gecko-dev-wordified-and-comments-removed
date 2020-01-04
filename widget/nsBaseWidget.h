@@ -199,7 +199,7 @@ namespace
 widget
 {
 class
-CompositorWidget
+CompositorWidgetDelegate
 ;
 class
 InProcessCompositorWidget
@@ -429,8 +429,8 @@ mozilla
 widget
 :
 :
-CompositorWidget
-CompositorWidget
+CompositorWidgetDelegate
+CompositorWidgetDelegate
 ;
 typedef
 mozilla
@@ -2613,11 +2613,9 @@ mPopupType
 SizeConstraints
 mSizeConstraints
 ;
-RefPtr
-<
-CompositorWidget
->
-mCompositorWidget
+CompositorWidgetDelegate
+*
+mCompositorWidgetDelegate
 ;
 bool
 mUpdateCursor
