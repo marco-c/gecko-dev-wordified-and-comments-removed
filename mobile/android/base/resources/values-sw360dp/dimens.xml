@@ -89,7 +89,7 @@ name
 tab_panel_column_width
 "
 >
-176dip
+156dip
 <
 /
 dimen
@@ -102,7 +102,7 @@ name
 tab_thumbnail_height
 "
 >
-120dip
+110dip
 <
 /
 dimen
@@ -115,7 +115,7 @@ name
 tab_thumbnail_width
 "
 >
-168dip
+148dip
 <
 /
 dimen
