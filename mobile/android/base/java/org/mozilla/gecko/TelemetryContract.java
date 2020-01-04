@@ -451,6 +451,12 @@ SUGGESTION
 suggestion
 "
 )
+TABSTRAY
+(
+"
+tabstray
+"
+)
 TOAST
 (
 "
