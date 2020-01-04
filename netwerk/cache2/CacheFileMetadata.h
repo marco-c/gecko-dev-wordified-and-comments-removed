@@ -135,7 +135,7 @@ HalfLifeSeconds
 #
 define
 kCacheEntryVersion
-2
+3
 #
 pragma
 pack
@@ -498,7 +498,7 @@ if
 mVersion
 >
 =
-kCacheEntryVersion
+2
 )
 {
 mFlags
@@ -1087,6 +1087,11 @@ IsKilled
 )
 ;
 }
+void
+InitEmptyMetadata
+(
+)
+;
 size_t
 SizeOfExcludingThis
 (
@@ -1114,11 +1119,6 @@ private
 virtual
 ~
 CacheFileMetadata
-(
-)
-;
-void
-InitEmptyMetadata
 (
 )
 ;
