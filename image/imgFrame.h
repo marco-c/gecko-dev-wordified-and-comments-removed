@@ -892,7 +892,7 @@ already_AddRefed
 <
 SourceSurface
 >
-GetSurface
+GetSourceSurface
 (
 )
 ;
@@ -987,7 +987,7 @@ already_AddRefed
 <
 SourceSurface
 >
-GetSurfaceInternal
+GetSourceSurfaceInternal
 (
 )
 ;

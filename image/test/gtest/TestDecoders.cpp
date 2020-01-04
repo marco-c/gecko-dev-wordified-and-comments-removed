@@ -388,7 +388,7 @@ surface
 currentFrame
 -
 >
-GetSurface
+GetSourceSurface
 (
 )
 ;

@@ -1203,7 +1203,7 @@ surface
 currentFrame
 -
 >
-GetSurface
+GetSourceSurface
 (
 )
 ;
@@ -3342,7 +3342,7 @@ surface
 currentFrame
 -
 >
-GetSurface
+GetSourceSurface
 (
 )
 ;
@@ -3662,7 +3662,7 @@ surface
 currentFrame
 -
 >
-GetSurface
+GetSourceSurface
 (
 )
 ;
@@ -3706,7 +3706,7 @@ surface
 currentFrame
 -
 >
-GetSurface
+GetSourceSurface
 (
 )
 ;
@@ -3825,7 +3825,7 @@ surface
 currentFrame
 -
 >
-GetSurface
+GetSourceSurface
 (
 )
 ;
@@ -4650,7 +4650,7 @@ surface
 currentFrame
 -
 >
-GetSurface
+GetSourceSurface
 (
 )
 ;
@@ -4798,7 +4798,7 @@ surface
 currentFrame
 -
 >
-GetSurface
+GetSourceSurface
 (
 )
 ;
@@ -4842,7 +4842,7 @@ surface
 currentFrame
 -
 >
-GetSurface
+GetSourceSurface
 (
 )
 ;
@@ -5030,7 +5030,7 @@ surface
 currentFrame
 -
 >
-GetSurface
+GetSourceSurface
 (
 )
 ;
@@ -5167,7 +5167,7 @@ surface
 currentFrame
 -
 >
-GetSurface
+GetSourceSurface
 (
 )
 ;
