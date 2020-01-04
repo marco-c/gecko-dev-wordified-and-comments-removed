@@ -494,4 +494,10 @@ hideTooltip
 tooltip
 )
 ;
+tooltip
+.
+destroy
+(
+)
+;
 }

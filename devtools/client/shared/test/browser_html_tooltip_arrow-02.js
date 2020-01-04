@@ -877,4 +877,10 @@ tooltip
 )
 ;
 }
+tooltip
+.
+destroy
+(
+)
+;
 }

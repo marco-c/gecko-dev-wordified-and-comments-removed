@@ -888,6 +888,12 @@ visible
 "
 )
 ;
+tooltip
+.
+destroy
+(
+)
+;
 }
 )
 ;

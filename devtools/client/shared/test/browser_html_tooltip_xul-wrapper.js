@@ -527,6 +527,12 @@ visible
 "
 )
 ;
+tooltip
+.
+destroy
+(
+)
+;
 info
 (
 "

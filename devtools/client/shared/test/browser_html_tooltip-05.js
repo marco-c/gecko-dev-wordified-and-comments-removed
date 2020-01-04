@@ -858,6 +858,12 @@ visible
 "
 )
 ;
+tooltip
+.
+destroy
+(
+)
+;
 }
 )
 ;
