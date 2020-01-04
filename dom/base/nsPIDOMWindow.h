@@ -1175,14 +1175,6 @@ aEventName
 0
 ;
 virtual
-void
-RefreshCompartmentPrincipal
-(
-)
-=
-0
-;
-virtual
 nsresult
 OpenNoNavigate
 (

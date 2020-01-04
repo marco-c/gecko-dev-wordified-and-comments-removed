@@ -1726,12 +1726,10 @@ CSSIntSize
 aSize
 )
 ;
-virtual
 void
 RefreshCompartmentPrincipal
 (
 )
-override
 ;
 friend
 class

@@ -10411,7 +10411,13 @@ GetInnerWindow
 )
 )
 {
+nsGlobalWindow
+:
+:
+Cast
+(
 win
+)
 -
 >
 RefreshCompartmentPrincipal
