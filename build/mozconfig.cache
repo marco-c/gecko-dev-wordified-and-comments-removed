@@ -181,6 +181,13 @@ z
 "
 MOZ_PGO_IS_SET
 "
+-
+a
+-
+z
+"
+MOZ_PGO
+"
 ;
 then
 case
