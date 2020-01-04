@@ -389,6 +389,12 @@ AudioChannelService
 ;
 static
 void
+CreateServiceIfNeeded
+(
+)
+;
+static
+void
 Shutdown
 (
 )
