@@ -293,8 +293,8 @@ unsigned
 rangeIndex
 )
 ;
-float
-m_lowestRequestedFundamentalFrequency
+unsigned
+m_maxPartialsInBandLimitedTable
 ;
 float
 m_normalizationScale
