@@ -887,6 +887,10 @@ projects
 =
 AppProjects
 .
+store
+.
+object
+.
 projects
 .
 map
