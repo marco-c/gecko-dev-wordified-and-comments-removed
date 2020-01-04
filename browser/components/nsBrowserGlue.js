@@ -8451,8 +8451,6 @@ win
 TabView
 .
 firstUseExperienced
-(
-)
 )
 {
 haveTabGroups
@@ -11280,7 +11278,7 @@ BG__migrateUI
 const
 UI_VERSION
 =
-33
+34
 ;
 const
 BROWSER_DOCURL
@@ -13602,7 +13600,7 @@ if
 (
 currentUIVersion
 <
-33
+34
 )
 {
 this
