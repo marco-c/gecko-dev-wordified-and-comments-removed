@@ -882,14 +882,6 @@ sc
 staticScope
 (
 )
-&
-&
-sc
--
->
-staticScope
-(
-)
 -
 >
 is
@@ -947,7 +939,7 @@ StaticBlockObject
 (
 )
 .
-maybeEnclosingEval
+enclosingStaticScope
 (
 )
 =
@@ -3361,7 +3353,7 @@ parser
 ;
 static
 bool
-bindVarOrGlobalConst
+bindVar
 (
 BindData
 <

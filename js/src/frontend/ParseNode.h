@@ -536,11 +536,6 @@ CONST
 \
 F
 (
-GLOBALCONST
-)
-\
-F
-(
 WITH
 )
 \
@@ -5966,7 +5961,6 @@ MISSING
 =
 0
 VAR
-GLOBALCONST
 CONST
 LET
 ARG
@@ -6096,15 +6090,6 @@ isConst
 CONST
 :
 LET
-;
-if
-(
-isConst
-(
-)
-)
-return
-GLOBALCONST
 ;
 return
 VAR

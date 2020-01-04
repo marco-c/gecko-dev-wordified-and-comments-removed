@@ -3217,9 +3217,6 @@ PNK_CONST
 case
 PNK_LET
 :
-case
-PNK_GLOBALCONST
-:
 MOZ_ASSERT
 (
 cur
