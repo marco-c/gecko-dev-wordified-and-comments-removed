@@ -1149,7 +1149,7 @@ IsRequestingAudioData
 const
 ;
 bool
-IsRequestingVidoeData
+IsRequestingVideoData
 (
 )
 const

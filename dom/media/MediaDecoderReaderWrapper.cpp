@@ -1473,7 +1473,7 @@ bool
 MediaDecoderReaderWrapper
 :
 :
-IsRequestingVidoeData
+IsRequestingVideoData
 (
 )
 const
