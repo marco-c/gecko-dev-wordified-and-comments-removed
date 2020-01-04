@@ -297,17 +297,6 @@ chrome
 /
 common
 /
-child_process_info
-.
-cc
-'
-'
-src
-/
-chrome
-/
-common
-/
 child_thread
 .
 cc

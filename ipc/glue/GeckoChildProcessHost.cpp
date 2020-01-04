@@ -408,10 +408,6 @@ ChildPrivileges
 aPrivileges
 )
 :
-ChildProcessHost
-(
-RENDER_PROCESS
-)
 mProcessType
 (
 aProcessType
@@ -5432,11 +5428,6 @@ return
 false
 ;
 }
-SetHandle
-(
-process
-)
-;
 #
 if
 defined
