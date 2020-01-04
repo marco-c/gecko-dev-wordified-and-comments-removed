@@ -298,6 +298,13 @@ SplitView
 jsm
 '
 '
+suggestion
+-
+picker
+.
+js
+'
+'
 telemetry
 .
 js
