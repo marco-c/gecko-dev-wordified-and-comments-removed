@@ -363,12 +363,6 @@ s
 }
     
 "
-purge_minsize
-"
-:
-20
-    
-"
 is_automation
 "
 :

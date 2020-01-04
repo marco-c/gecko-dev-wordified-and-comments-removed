@@ -299,10 +299,4 @@ is_automation
 '
 :
 True
-    
-'
-purge_minsize
-'
-:
-12
 }

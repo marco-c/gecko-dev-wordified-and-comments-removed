@@ -272,10 +272,4 @@ win64
 /
 debug
 '
-    
-'
-purge_minsize
-'
-:
-9
 }

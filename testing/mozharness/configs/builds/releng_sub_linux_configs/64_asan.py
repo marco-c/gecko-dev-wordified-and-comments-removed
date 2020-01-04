@@ -86,12 +86,6 @@ asan
 '
     
 '
-purge_minsize
-'
-:
-12
-    
-'
 tooltool_manifest_src
 '
 :

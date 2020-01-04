@@ -105,12 +105,6 @@ json
 "
     
 "
-purge_minsize
-"
-:
-10
-    
-"
 force_clobber
 "
 :

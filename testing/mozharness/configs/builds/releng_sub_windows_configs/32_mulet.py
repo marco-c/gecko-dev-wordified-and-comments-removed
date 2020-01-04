@@ -330,10 +330,4 @@ win32
 /
 mulet
 '
-    
-'
-purge_minsize
-'
-:
-9
 }
