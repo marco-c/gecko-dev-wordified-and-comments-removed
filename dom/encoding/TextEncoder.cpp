@@ -206,12 +206,9 @@ char16_t
 *
 data
 =
-PromiseFlatString
-(
 aString
-)
 .
-get
+BeginReading
 (
 )
 ;
