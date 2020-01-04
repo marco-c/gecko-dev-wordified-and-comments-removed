@@ -8898,6 +8898,8 @@ SetInvalid
 (
 )
 ;
+MOZ_FALLTHROUGH
+;
 default
 :
 SetLoading

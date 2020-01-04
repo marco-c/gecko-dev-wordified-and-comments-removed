@@ -7094,6 +7094,8 @@ DWRITE_MEASURING_MODE_NATURAL
 return
 ;
 }
+MOZ_FALLTHROUGH
+;
 #
 endif
 case
@@ -7116,11 +7118,15 @@ CAIRO_SURFACE_TYPE_QUARTZ
 return
 ;
 }
+break
+;
 default
 :
 break
 ;
 }
+break
+;
 case
 CAIRO_HINT_METRICS_ON
 :
@@ -7131,7 +7137,5 @@ break
 aRoundX
 =
 true
-;
-return
 ;
 }
