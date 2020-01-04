@@ -9,7 +9,7 @@ by
 import
 By
 class
-TestSelected
+TestCheckbox
 (
 MarionetteTestCase
 )
