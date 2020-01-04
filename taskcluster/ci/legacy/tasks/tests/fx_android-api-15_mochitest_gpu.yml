@@ -31,11 +31,11 @@ test
 -
 suite
 =
-mochitest
--
-plain
--
-gpu
+{
+{
+suite
+}
+}
 metadata
 :
 name
@@ -66,8 +66,7 @@ suite
 name
 :
 mochitest
-flavor
-:
+-
 plain
 -
 gpu

@@ -41,9 +41,11 @@ test
 -
 suite
 =
-mochitest
--
-chrome
+{
+{
+suite
+}
+}
 metadata
 :
 name
@@ -71,8 +73,7 @@ suite
 name
 :
 mochitest
-flavor
-:
+-
 chrome
 treeherder
 :
