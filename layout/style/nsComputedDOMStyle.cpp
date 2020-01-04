@@ -18819,7 +18819,7 @@ nsCSSProps
 :
 ValueToKeywordEnum
 (
-StyleUserInterface
+StyleUIReset
 (
 )
 -

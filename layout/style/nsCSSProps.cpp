@@ -9660,6 +9660,10 @@ kWindowDraggingKTable
 =
 {
 {
+eCSSKeyword_default
+NS_STYLE_WINDOW_DRAGGING_DEFAULT
+}
+{
 eCSSKeyword_drag
 NS_STYLE_WINDOW_DRAGGING_DRAG
 }
