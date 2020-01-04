@@ -10366,6 +10366,11 @@ mClosed
 return
 NS_ERROR_FAILURE
 ;
+auto
+streamOffset
+=
+mStreamOffset
+;
 uint32_t
 count
 =
@@ -10383,7 +10388,7 @@ streamBlock
 =
 uint32_t
 (
-mStreamOffset
+streamOffset
 /
 BLOCK_SIZE
 )
@@ -10393,7 +10398,7 @@ offsetInStreamBlock
 =
 uint32_t
 (
-mStreamOffset
+streamOffset
 -
 streamBlock
 *
@@ -10432,7 +10437,7 @@ bytesRemaining
 =
 mStreamLength
 -
-mStreamOffset
+streamOffset
 ;
 if
 (
@@ -10551,7 +10556,7 @@ BLOCK_SIZE
 streamBlock
 &
 &
-mStreamOffset
+streamOffset
 <
 stream
 -
@@ -10589,7 +10594,7 @@ streamWithPartialBlock
 >
 mChannelOffset
 -
-mStreamOffset
+streamOffset
 )
 ;
 bytes
@@ -10666,7 +10671,7 @@ mMetadataInPartialBlockBuffer
 true
 ;
 }
-mStreamOffset
+streamOffset
 +
 =
 bytes
@@ -10786,7 +10791,7 @@ rv
 break
 ;
 }
-mStreamOffset
+streamOffset
 +
 =
 bytes
@@ -10833,15 +10838,9 @@ count
 d
 "
 this
-(
-long
-long
-)
-(
-mStreamOffset
+streamOffset
 -
 count
-)
 count
 )
 )
@@ -10850,6 +10849,10 @@ count
 aBytes
 =
 count
+;
+mStreamOffset
+=
+streamOffset
 ;
 return
 NS_OK
