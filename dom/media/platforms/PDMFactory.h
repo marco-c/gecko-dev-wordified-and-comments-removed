@@ -109,11 +109,6 @@ CreatePDMs
 (
 )
 ;
-void
-CreateBlankPDM
-(
-)
-;
 bool
 StartupPDM
 (
@@ -167,12 +162,6 @@ RefPtr
 PlatformDecoderModule
 >
 mEMEPDM
-;
-RefPtr
-<
-PlatformDecoderModule
->
-mBlankPDM
 ;
 bool
 mWMFFailedToLoad
