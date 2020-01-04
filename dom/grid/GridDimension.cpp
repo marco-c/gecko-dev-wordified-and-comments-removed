@@ -227,6 +227,18 @@ const
 ComputedGridLineInfo
 *
 aLineInfo
+const
+nsTArray
+<
+RefPtr
+<
+GridArea
+>
+>
+&
+aAreas
+bool
+aIsRow
 )
 {
 mLines
@@ -236,6 +248,8 @@ SetLineInfo
 (
 aTrackInfo
 aLineInfo
+aAreas
+aIsRow
 )
 ;
 }
