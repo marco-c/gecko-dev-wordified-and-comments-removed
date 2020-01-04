@@ -3141,10 +3141,6 @@ DispatchAudioDecodeTaskIfNeeded
 (
 )
 ;
-MaybeStartBuffering
-(
-)
-;
 CheckIsAudible
 (
 aSample
@@ -3196,10 +3192,6 @@ UpdateNextFrameStatus
 )
 ;
 DispatchVideoDecodeTaskIfNeeded
-(
-)
-;
-MaybeStartBuffering
 (
 )
 ;
@@ -9662,6 +9654,10 @@ scheduled
 "
 )
 ;
+MaybeStartBuffering
+(
+)
+;
 return
 NS_OK
 ;
@@ -10862,10 +10858,6 @@ DECODER_STATE_DECODING
 return
 ;
 }
-UpdatePlaybackPositionPeriodically
-(
-)
-;
 if
 (
 IsPlaying
