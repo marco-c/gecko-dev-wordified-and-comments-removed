@@ -5086,7 +5086,7 @@ nsAString
 aSourceToInsert
 )
 {
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -6369,7 +6369,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -8319,7 +8319,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -8717,7 +8717,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -8872,7 +8872,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -9017,7 +9017,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -9420,7 +9420,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -9829,7 +9829,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -19574,7 +19574,7 @@ batchIt
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this

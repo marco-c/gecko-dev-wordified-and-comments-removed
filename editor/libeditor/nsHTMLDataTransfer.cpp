@@ -688,7 +688,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -1116,7 +1116,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -7699,7 +7699,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -8460,7 +8460,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -8834,7 +8834,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this

@@ -642,7 +642,7 @@ batchIt
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -5803,7 +5803,7 @@ batchIt
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -5983,7 +5983,7 @@ batchIt
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -6739,7 +6739,7 @@ batchIt
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this

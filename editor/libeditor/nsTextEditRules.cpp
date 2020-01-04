@@ -4797,7 +4797,7 @@ return
 NS_OK
 ;
 }
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 mEditor

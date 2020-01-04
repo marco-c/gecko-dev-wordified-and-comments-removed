@@ -1812,7 +1812,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -2285,7 +2285,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -2982,7 +2982,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -3706,7 +3706,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -3856,7 +3856,7 @@ aCell
 NS_ERROR_NULL_POINTER
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -4064,7 +4064,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -4753,7 +4753,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -5119,7 +5119,7 @@ res
 =
 NS_OK
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -6986,7 +6986,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -7852,7 +7852,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -8779,7 +8779,7 @@ res
 }
 }
 }
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -9299,7 +9299,7 @@ cellToMerge
 NS_ERROR_NULL_POINTER
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
@@ -10232,7 +10232,7 @@ beginBatching
 this
 )
 ;
-nsAutoRules
+AutoRules
 beginRulesSniffing
 (
 this
