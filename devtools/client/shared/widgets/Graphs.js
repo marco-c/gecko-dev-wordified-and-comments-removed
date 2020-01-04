@@ -652,7 +652,7 @@ this
 .
 _ctx
 .
-mozImageSmoothingEnabled
+imageSmoothingEnabled
 =
 false
 ;

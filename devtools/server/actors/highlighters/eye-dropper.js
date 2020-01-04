@@ -739,7 +739,7 @@ this
 .
 ctx
 .
-mozImageSmoothingEnabled
+imageSmoothingEnabled
 =
 false
 ;

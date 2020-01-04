@@ -204,7 +204,7 @@ true
 ;
 canvas
 .
-mozImageSmoothingEnabled
+imageSmoothingEnabled
 =
 true
 ;
