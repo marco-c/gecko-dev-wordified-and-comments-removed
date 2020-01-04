@@ -328,6 +328,9 @@ static
 void
 MaybeDismissOnScreenKeyboard
 (
+nsWindow
+*
+aWindow
 )
 ;
 static
