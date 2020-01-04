@@ -412,11 +412,6 @@ val
 )
 )
 {
-JS_ReportPendingException
-(
-aCx
-)
-;
 return
 NS_ERROR_FAILURE
 ;
@@ -1129,6 +1124,11 @@ array
 )
 )
 {
+JS_ClearPendingException
+(
+aCx
+)
+;
 return
 NS_ERROR_FAILURE
 ;
@@ -1219,6 +1219,11 @@ onRILMessage
 args
 &
 rval
+)
+;
+JS_ClearPendingException
+(
+aCx
 )
 ;
 return
