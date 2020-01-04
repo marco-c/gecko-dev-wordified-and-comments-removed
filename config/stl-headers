@@ -161,6 +161,7 @@ ostream
 set
 stack
 string
+type_traits
 utility
 vector
 cassert
