@@ -457,6 +457,11 @@ externalLinkTarget
 :
 0
 "
+enhanceTextSelection
+"
+:
+false
+"
 renderInteractiveForms
 "
 :
