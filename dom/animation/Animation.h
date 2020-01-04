@@ -32,6 +32,15 @@ include
 "
 mozilla
 /
+LinkedList
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
@@ -157,6 +166,11 @@ Animation
 :
 public
 DOMEventTargetHelper
+public
+LinkedListElement
+<
+Animation
+>
 {
 protected
 :
