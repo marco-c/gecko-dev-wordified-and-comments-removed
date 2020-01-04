@@ -88,6 +88,7 @@ nsACString
 &
 aMimeType
 )
+const
 ;
 #
 ifdef
@@ -134,6 +135,7 @@ nsACString
 &
 aMimeType
 )
+const
 ;
 already_AddRefed
 <

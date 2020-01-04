@@ -40,6 +40,7 @@ nsACString
 &
 aMimeType
 )
+const
 {
 return
 VPXDecoder

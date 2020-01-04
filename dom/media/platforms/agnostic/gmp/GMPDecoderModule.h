@@ -113,6 +113,7 @@ nsACString
 &
 aMimeType
 )
+const
 override
 ;
 static

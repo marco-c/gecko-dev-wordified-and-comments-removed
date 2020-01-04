@@ -1459,6 +1459,7 @@ nsACString
 &
 aMimeType
 )
+const
 {
 Maybe
 <

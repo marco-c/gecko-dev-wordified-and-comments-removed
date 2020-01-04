@@ -768,6 +768,7 @@ nsACString
 &
 aMimeType
 )
+const
 {
 if
 (

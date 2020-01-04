@@ -1007,6 +1007,7 @@ nsACString
 &
 aMimeType
 )
+const
 {
 if
 (
@@ -1297,6 +1298,7 @@ nsACString
 &
 aMimeType
 )
+const
 {
 RefPtr
 <

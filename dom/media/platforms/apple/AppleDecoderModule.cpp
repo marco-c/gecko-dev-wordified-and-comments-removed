@@ -486,6 +486,7 @@ nsACString
 &
 aMimeType
 )
+const
 {
 return
 (

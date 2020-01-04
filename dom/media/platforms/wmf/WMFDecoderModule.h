@@ -99,6 +99,7 @@ nsACString
 &
 aMimeType
 )
+const
 override
 ;
 ConversionRequired
