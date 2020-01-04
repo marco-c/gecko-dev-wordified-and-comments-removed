@@ -2538,6 +2538,16 @@ HasTransform
 (
 this
 )
+|
+|
+EffectCompositor
+:
+:
+HasAnimationsForCompositor
+(
+this
+eCSSProperty_transform
+)
 )
 {
 mState
