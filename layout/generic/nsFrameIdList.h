@@ -356,7 +356,7 @@ nsMathMLmtableFrame
 )
 FRAME_ID
 (
-nsMathMLmtableOuterFrame
+nsMathMLmtableWrapperFrame
 )
 FRAME_ID
 (
