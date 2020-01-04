@@ -720,7 +720,7 @@ int32_t
 mHTTPSProxyPort
 ;
 nsCString
-mSOCKSProxyHost
+mSOCKSProxyTarget
 ;
 int32_t
 mSOCKSProxyPort
