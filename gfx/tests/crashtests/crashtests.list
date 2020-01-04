@@ -536,11 +536,9 @@ load
 .
 html
 load
-balinese
+557348
 -
-letter
--
-spacing
+1
 .
 html
 load
@@ -773,5 +771,13 @@ load
 1034403
 -
 1
+.
+html
+load
+balinese
+-
+letter
+-
+spacing
 .
 html
