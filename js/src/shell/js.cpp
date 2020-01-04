@@ -16269,7 +16269,7 @@ JS
 :
 SetWarningReporter
 (
-rt
+cx
 WarningReporter
 )
 ;
@@ -45310,7 +45310,7 @@ JS
 :
 SetWarningReporter
 (
-rt
+cx
 WarningReporter
 )
 ;

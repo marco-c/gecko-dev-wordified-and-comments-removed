@@ -1933,10 +1933,7 @@ JS
 :
 SetWarningReporter
 (
-JS_GetRuntime
-(
 cx
-)
 nullptr
 )
 ;
@@ -1971,10 +1968,7 @@ JS
 :
 SetWarningReporter
 (
-JS_GetRuntime
-(
 cx
-)
 older
 )
 ;
@@ -3049,10 +3043,7 @@ JS
 :
 SetWarningReporter
 (
-JS_GetRuntime
-(
 cx
-)
 nullptr
 )
 ;
@@ -3089,10 +3080,7 @@ JS
 :
 SetWarningReporter
 (
-JS_GetRuntime
-(
 cx
-)
 old
 )
 ;

@@ -24806,11 +24806,6 @@ JS
 SetWarningReporter
 (
 cx
--
->
-runtime
-(
-)
 nullptr
 )
 ;
@@ -24848,11 +24843,6 @@ JS
 SetWarningReporter
 (
 cx
--
->
-runtime
-(
-)
 older
 )
 ;
@@ -24886,11 +24876,6 @@ JS
 SetWarningReporter
 (
 cx
--
->
-runtime
-(
-)
 older
 )
 ;

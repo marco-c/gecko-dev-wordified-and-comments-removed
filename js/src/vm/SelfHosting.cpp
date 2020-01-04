@@ -16583,11 +16583,6 @@ JS
 SetWarningReporter
 (
 cx_
--
->
-runtime
-(
-)
 selfHosting_WarningReporter
 )
 ;
@@ -16603,11 +16598,6 @@ JS
 SetWarningReporter
 (
 cx_
--
->
-runtime
-(
-)
 oldReporter_
 )
 ;

@@ -1143,11 +1143,8 @@ JS
 :
 SetWarningReporter
 (
-JS_GetRuntime
-(
 cx
 (
-)
 )
 mOldWarningReporter
 .
@@ -1309,15 +1306,6 @@ Push
 this
 )
 ;
-JSRuntime
-*
-rt
-=
-JS_GetRuntime
-(
-aCx
-)
-;
 mOldWarningReporter
 .
 emplace
@@ -1327,7 +1315,7 @@ JS
 :
 GetWarningReporter
 (
-rt
+aCx
 )
 )
 ;
@@ -1336,7 +1324,7 @@ JS
 :
 SetWarningReporter
 (
-rt
+aCx
 WarningOnlyErrorReporter
 )
 ;

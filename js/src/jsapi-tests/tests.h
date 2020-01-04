@@ -1763,7 +1763,10 @@ JS
 :
 SetWarningReporter
 (
+JS_GetContext
+(
 rt
+)
 &
 reportWarning
 )

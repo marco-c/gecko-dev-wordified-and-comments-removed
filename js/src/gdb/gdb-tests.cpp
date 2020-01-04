@@ -298,7 +298,7 @@ JS
 :
 SetWarningReporter
 (
-runtime
+cx
 reportWarning
 )
 ;
