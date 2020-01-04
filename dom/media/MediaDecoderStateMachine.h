@@ -281,13 +281,6 @@ DispatchShutdown
 (
 )
 {
-mDecodedStream
--
->
-Shutdown
-(
-)
-;
 nsCOMPtr
 <
 nsIRunnable
