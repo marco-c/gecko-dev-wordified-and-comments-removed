@@ -2230,6 +2230,7 @@ mSize
 uint8_t
 mClip
 ;
+MOZ_INIT_OUTSIDE_CTOR
 uint8_t
 mOrigin
 ;
@@ -4901,6 +4902,8 @@ nsBorderColors
 *
 mBorderColors
 ;
+public
+:
 nsStyleCorners
 mBorderRadius
 ;
