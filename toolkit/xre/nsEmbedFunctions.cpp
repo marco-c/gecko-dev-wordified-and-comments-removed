@@ -2814,6 +2814,10 @@ InitLoggingIfRequired
 ;
 #
 endif
+OverrideDefaultLocaleIfNeeded
+(
+)
+;
 uiMessageLoop
 .
 MessageLoop
