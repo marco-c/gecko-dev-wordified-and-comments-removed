@@ -305,6 +305,16 @@ multi
 l10n
 update
 "
+TOOLTOOL_CACHE
+:
+/
+home
+/
+worker
+/
+tooltool
+-
+cache
 MH_CUSTOM_BUILD_VARIANT_CFG
 :
 api
