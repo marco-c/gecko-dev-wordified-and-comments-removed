@@ -1336,6 +1336,11 @@ mXBearing
 #
 endif
 }
+cairo_font_options_destroy
+(
+options
+)
+;
 }
 }
 #
