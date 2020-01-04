@@ -602,17 +602,6 @@ uint32_t
 aOutLen
 )
 ;
-void
-LogToDeveloperConsole
-(
-uint64_t
-aWindowID
-const
-char
-*
-aKey
-)
-;
 }
 }
 }
