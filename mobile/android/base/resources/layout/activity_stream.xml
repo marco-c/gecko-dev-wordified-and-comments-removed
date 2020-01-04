@@ -28,7 +28,7 @@ home
 .
 activitystream
 .
-ActivityStream
+ActivityStreamHomeScreen
 xmlns
 :
 android
@@ -128,5 +128,5 @@ home
 .
 activitystream
 .
-ActivityStream
+ActivityStreamHomeScreen
 >
