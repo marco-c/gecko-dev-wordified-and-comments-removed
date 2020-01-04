@@ -542,7 +542,7 @@ if
 ref
 -
 >
-GetVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .

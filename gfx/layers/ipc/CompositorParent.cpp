@@ -3640,7 +3640,7 @@ GetRoot
 )
 -
 >
-GetVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .

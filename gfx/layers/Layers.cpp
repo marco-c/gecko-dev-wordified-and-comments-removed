@@ -6962,7 +6962,7 @@ if
 child
 -
 >
-GetVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
@@ -7574,7 +7574,7 @@ IsEmpty
 child
 -
 >
-GetVisibleRegion
+GetLocalVisibleRegion
 (
 )
 .
