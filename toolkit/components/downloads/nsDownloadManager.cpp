@@ -2258,6 +2258,8 @@ rv
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 2
 :
@@ -2312,6 +2314,8 @@ rv
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 3
 :
@@ -2366,6 +2370,8 @@ rv
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 4
 :
@@ -2420,6 +2426,8 @@ rv
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 5
 :
@@ -2512,6 +2520,8 @@ rv
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 6
 :
@@ -2628,6 +2638,8 @@ rv
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 7
 :
@@ -2686,6 +2698,8 @@ rv
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 8
 :
@@ -2834,6 +2848,8 @@ rv
 #
 ifndef
 DEBUG
+MOZ_FALLTHROUGH
+;
 case
 DM_SCHEMA_VERSION
 :
@@ -2878,6 +2894,8 @@ rv
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 default
 :
 {
