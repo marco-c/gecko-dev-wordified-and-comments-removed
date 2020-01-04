@@ -635,7 +635,7 @@ it
 should
 display
 the
-StandaloneRoomView
+StandaloneRoomControllerView
 for
 room
 window
@@ -677,7 +677,7 @@ loop
 .
 standaloneRoomViews
 .
-StandaloneRoomView
+StandaloneRoomControllerView
 )
 ;
 }

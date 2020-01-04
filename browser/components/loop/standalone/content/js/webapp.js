@@ -942,7 +942,7 @@ loop
 .
 standaloneRoomViews
 .
-StandaloneRoomView
+StandaloneRoomControllerView
 {
 activeRoomStore
 :
