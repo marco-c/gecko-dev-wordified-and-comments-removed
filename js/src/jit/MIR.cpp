@@ -30820,7 +30820,12 @@ wasm
 CallSiteDesc
 &
 desc
-Callee
+const
+wasm
+:
+:
+CalleeDesc
+&
 callee
 const
 Args
