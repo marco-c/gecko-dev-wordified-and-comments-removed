@@ -185,6 +185,13 @@ jsm
 "
 )
 ;
+Cu
+.
+permitCPOWsInScope
+(
+this
+)
+;
 function
 setDefault
 (
@@ -4424,7 +4431,9 @@ doc
 return
 browser
 .
-contentDocumentAsCPOW
+contentWindowAsCPOW
+.
+document
 ;
 }
 function

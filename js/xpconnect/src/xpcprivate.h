@@ -14065,6 +14065,9 @@ bool
 waiveInterposition
 ;
 bool
+allowCPOWs
+;
+bool
 universalXPConnectEnabled
 ;
 bool
