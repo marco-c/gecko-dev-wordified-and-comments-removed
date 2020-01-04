@@ -10957,6 +10957,10 @@ aScrollbarThumbRatio
 0
 .
 0f
+bool
+aForceActive
+=
+true
 )
 ;
 #
@@ -11006,14 +11010,7 @@ ContainerLayerParameters
 aParameters
 )
 override
-{
-return
-mozilla
-:
-:
-LAYER_ACTIVE_FORCE
 ;
-}
 virtual
 bool
 TryMerge
@@ -11068,6 +11065,9 @@ mScrollTarget
 ;
 float
 mScrollbarThumbRatio
+;
+bool
+mForceActive
 ;
 }
 ;
