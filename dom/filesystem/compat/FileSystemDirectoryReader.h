@@ -126,7 +126,7 @@ virtual
 void
 ReadEntries
 (
-EntriesCallback
+FileSystemEntriesCallback
 &
 aSuccessCallback
 const

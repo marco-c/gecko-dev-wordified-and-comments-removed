@@ -140,6 +140,7 @@ getMetadata
 (
 MetadataCallback
 successCallback
+*
 optional
 ErrorCallback
 errorCallback
@@ -155,9 +156,11 @@ optional
 DOMString
 ?
 name
+*
 optional
-EntryCallback
+FileSystemEntryCallback
 successCallback
+*
 optional
 ErrorCallback
 errorCallback
@@ -173,9 +176,11 @@ optional
 DOMString
 ?
 name
+*
 optional
-EntryCallback
+FileSystemEntryCallback
 successCallback
+*
 optional
 ErrorCallback
 errorCallback
@@ -193,6 +198,7 @@ remove
 (
 VoidCallback
 successCallback
+*
 optional
 ErrorCallback
 errorCallback
@@ -203,8 +209,9 @@ void
 getParent
 (
 optional
-EntryCallback
+FileSystemEntryCallback
 successCallback
+*
 optional
 ErrorCallback
 errorCallback
@@ -231,7 +238,7 @@ false
 ;
 callback
 interface
-EntryCallback
+FileSystemEntryCallback
 {
 void
 handleEvent
@@ -276,7 +283,7 @@ optional
 FileSystemFlags
 options
 optional
-EntryCallback
+FileSystemEntryCallback
 successCallback
 optional
 ErrorCallback
@@ -293,7 +300,7 @@ optional
 FileSystemFlags
 options
 optional
-EntryCallback
+FileSystemEntryCallback
 successCallback
 optional
 ErrorCallback
@@ -312,9 +319,9 @@ ErrorCallback
 will
 be
 called
+/
+/
 with
-/
-/
 NS_ERROR_DOM_NOT_SUPPORTED_ERR
 .
 void
@@ -331,7 +338,7 @@ errorCallback
 ;
 callback
 interface
-EntriesCallback
+FileSystemEntriesCallback
 {
 void
 handleEvent
@@ -404,7 +411,7 @@ Throws
 void
 readEntries
 (
-EntriesCallback
+FileSystemEntriesCallback
 successCallback
 optional
 ErrorCallback

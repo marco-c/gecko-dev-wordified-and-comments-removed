@@ -96,7 +96,7 @@ EntryCallbackRunnable
 :
 EntryCallbackRunnable
 (
-EntryCallback
+FileSystemEntryCallback
 *
 aCallback
 FileSystemEntry
@@ -255,7 +255,7 @@ EmptyEntriesCallbackRunnable
 :
 EmptyEntriesCallbackRunnable
 (
-EntriesCallback
+FileSystemEntriesCallback
 *
 aCallback
 )
@@ -311,7 +311,7 @@ aGlobalObject
 FileSystem
 *
 aFileSystem
-EntryCallback
+FileSystemEntryCallback
 *
 aSuccessCallback
 ErrorCallback

@@ -53,7 +53,7 @@ public
 :
 EntryCallbackRunnable
 (
-EntryCallback
+FileSystemEntryCallback
 *
 aCallback
 FileSystemEntry
@@ -71,7 +71,7 @@ private
 :
 RefPtr
 <
-EntryCallback
+FileSystemEntryCallback
 >
 mCallback
 ;
@@ -141,7 +141,7 @@ public
 explicit
 EmptyEntriesCallbackRunnable
 (
-EntriesCallback
+FileSystemEntriesCallback
 *
 aCallback
 )
@@ -156,7 +156,7 @@ private
 :
 RefPtr
 <
-EntriesCallback
+FileSystemEntriesCallback
 >
 mCallback
 ;
@@ -180,7 +180,7 @@ aGlobalObject
 FileSystem
 *
 aFileSystem
-EntryCallback
+FileSystemEntryCallback
 *
 aSuccessCallback
 ErrorCallback
@@ -263,7 +263,7 @@ mFileSystem
 ;
 RefPtr
 <
-EntryCallback
+FileSystemEntryCallback
 >
 mSuccessCallback
 ;

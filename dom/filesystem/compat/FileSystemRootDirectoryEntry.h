@@ -119,7 +119,7 @@ Optional
 <
 OwningNonNull
 <
-EntryCallback
+FileSystemEntryCallback
 >
 >
 &
