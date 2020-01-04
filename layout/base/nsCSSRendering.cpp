@@ -23036,7 +23036,9 @@ if
 !
 mImageElementSurface
 .
-mSourceSurface
+GetSourceSurface
+(
+)
 )
 {
 mPaintServerFrame
@@ -23364,7 +23366,9 @@ NS_ASSERTION
 (
 mImageElementSurface
 .
-mSourceSurface
+GetSourceSurface
+(
+)
 "
 Surface
 should
@@ -24409,7 +24413,9 @@ NS_ASSERTION
 (
 mImageElementSurface
 .
-mSourceSurface
+GetSourceSurface
+(
+)
 "
 Surface
 should
@@ -24430,7 +24436,13 @@ gfxSurfaceDrawable
 (
 mImageElementSurface
 .
-mSourceSurface
+GetSourceSurface
+(
+)
+.
+get
+(
+)
 mImageElementSurface
 .
 mSize

@@ -2163,9 +2163,6 @@ GLsizei
 depth
 )
 ;
-[
-Throws
-]
 void
 texImage3D
 (
@@ -2199,6 +2196,14 @@ pixels
 [
 Throws
 ]
+/
+/
+Can
+'
+t
+actually
+throw
+.
 void
 texSubImage3D
 (
@@ -2234,6 +2239,14 @@ pixels
 [
 Throws
 ]
+/
+/
+Can
+'
+t
+actually
+throw
+.
 void
 texSubImage3D
 (
@@ -2368,8 +2381,6 @@ GLsizei
 depth
 GLint
 border
-GLsizei
-imageSize
 (
 ArrayBufferView
 or
@@ -2399,8 +2410,6 @@ GLsizei
 depth
 GLenum
 format
-GLsizei
-imageSize
 (
 ArrayBufferView
 or

@@ -45,6 +45,12 @@ FormatUsageAuthority
 >
 CreateFormatUsage
 (
+gl
+:
+:
+GLContext
+*
+gl
 )
 const
 override
