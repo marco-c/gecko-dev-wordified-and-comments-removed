@@ -206,6 +206,17 @@ libxml2
 "
 dosfstools
 "
+"
+java
+-
+1
+.
+6
+.
+0
+-
+openjdk
+"
 ]
 "
 mock_files
