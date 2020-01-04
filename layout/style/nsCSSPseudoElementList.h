@@ -18,6 +18,15 @@ CSS_PSEUDO_ELEMENT_IS_CSS2
 )
 CSS_PSEUDO_ELEMENT
 (
+backdrop
+"
+:
+backdrop
+"
+0
+)
+CSS_PSEUDO_ELEMENT
+(
 firstLetter
 "
 :
