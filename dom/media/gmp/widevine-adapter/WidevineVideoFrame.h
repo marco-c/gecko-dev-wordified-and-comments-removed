@@ -41,6 +41,14 @@ WidevineVideoFrame
 (
 )
 ;
+WidevineVideoFrame
+(
+WidevineVideoFrame
+&
+&
+other
+)
+;
 ~
 WidevineVideoFrame
 (
