@@ -2930,7 +2930,7 @@ interrupt_
 ;
 }
 bool
-handlingSignal
+handlingSegFault
 ;
 JSInterruptCallback
 interruptCallback

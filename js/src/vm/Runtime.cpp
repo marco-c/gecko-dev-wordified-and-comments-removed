@@ -662,7 +662,7 @@ telemetryCallback
 (
 nullptr
 )
-handlingSignal
+handlingSegFault
 (
 false
 )
