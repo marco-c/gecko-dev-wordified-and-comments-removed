@@ -546,7 +546,7 @@ AppUnitsPerCSSPixel
 ;
 if
 (
-StyleSVGReset
+StyleEffects
 (
 )
 -

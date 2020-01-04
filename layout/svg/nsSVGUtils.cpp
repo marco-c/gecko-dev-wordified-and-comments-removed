@@ -5892,7 +5892,7 @@ if
 aFrame
 -
 >
-StyleSVGReset
+StyleEffects
 (
 )
 -

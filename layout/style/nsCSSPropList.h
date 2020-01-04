@@ -8872,7 +8872,7 @@ mFillRule
 )
 eStyleAnimType_EnumU8
 )
-CSS_PROP_SVGRESET
+CSS_PROP_EFFECTS
 (
 filter
 filter

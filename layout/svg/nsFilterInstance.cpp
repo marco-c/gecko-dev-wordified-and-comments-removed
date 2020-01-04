@@ -314,7 +314,7 @@ filterChain
 aFilteredFrame
 -
 >
-StyleSVGReset
+StyleEffects
 (
 )
 -
@@ -416,7 +416,7 @@ filterChain
 aFilteredFrame
 -
 >
-StyleSVGReset
+StyleEffects
 (
 )
 -
@@ -503,7 +503,7 @@ filterChain
 aFilteredFrame
 -
 >
-StyleSVGReset
+StyleEffects
 (
 )
 -
@@ -658,7 +658,7 @@ filterChain
 aFilteredFrame
 -
 >
-StyleSVGReset
+StyleEffects
 (
 )
 -

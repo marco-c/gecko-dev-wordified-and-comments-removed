@@ -18929,14 +18929,14 @@ eCSSProperty_filter
 :
 {
 const
-nsStyleSVGReset
+nsStyleEffects
 *
-svgReset
+effects
 =
 static_cast
 <
 const
-nsStyleSVGReset
+nsStyleEffects
 *
 >
 (
@@ -18951,7 +18951,7 @@ nsStyleFilter
 &
 filters
 =
-svgReset
+effects
 -
 >
 mFilters

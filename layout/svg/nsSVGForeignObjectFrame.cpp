@@ -1844,7 +1844,7 @@ this
 }
 if
 (
-StyleSVGReset
+StyleEffects
 (
 )
 -

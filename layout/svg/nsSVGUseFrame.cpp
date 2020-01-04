@@ -742,7 +742,7 @@ TopLeft
 ;
 if
 (
-StyleSVGReset
+StyleEffects
 (
 )
 -
