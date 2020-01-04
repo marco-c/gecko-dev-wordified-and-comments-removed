@@ -353,6 +353,16 @@ parser
 '
     
 '
+dom
+/
+media
+/
+test
+/
+external
+'
+    
+'
 layout
 /
 tools
@@ -674,6 +684,20 @@ py
 dom
 /
 bindings
+/
+mach_commands
+.
+py
+'
+    
+'
+dom
+/
+media
+/
+test
+/
+external
 /
 mach_commands
 .
