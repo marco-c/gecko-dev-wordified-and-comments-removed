@@ -7735,7 +7735,7 @@ otherFieldValues
 ;
 for
 (
-var
+let
 field
 of
 fieldsToSwap
@@ -7867,7 +7867,7 @@ detachFormFill
 }
 for
 (
-var
+let
 field
 of
 fieldsToSwap

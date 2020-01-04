@@ -671,6 +671,7 @@ re
 )
 {
 return
+undefined
 ;
 }
 let

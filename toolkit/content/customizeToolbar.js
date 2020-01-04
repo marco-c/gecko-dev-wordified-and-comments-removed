@@ -3643,7 +3643,7 @@ if
 draggedPaletteWrapper
 )
 {
-var
+let
 wrapper
 =
 gToolboxDocument
@@ -3749,7 +3749,7 @@ wrapper
 }
 else
 {
-var
+let
 wrapper
 =
 createWrapper

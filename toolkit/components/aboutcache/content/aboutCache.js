@@ -52,7 +52,7 @@ storage
 )
 ;
 var
-context
+cacheContext
 =
 searchParams
 .
@@ -65,7 +65,7 @@ context
 ;
 if
 (
-context
+cacheContext
 )
 var
 [
@@ -76,7 +76,7 @@ appId
 isPrivate
 ]
 =
-context
+cacheContext
 .
 match
 (

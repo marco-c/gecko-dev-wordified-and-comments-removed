@@ -411,7 +411,7 @@ firstBucketCutoff
 "
 )
 {
-var
+let
 points
 =
 Math
@@ -591,7 +591,7 @@ bonusValue
 *
 2
 ;
-var
+let
 points
 =
 Math

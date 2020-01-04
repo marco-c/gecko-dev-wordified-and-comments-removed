@@ -4926,6 +4926,7 @@ children
 length
 )
 return
+undefined
 ;
 children
 .

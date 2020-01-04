@@ -221,7 +221,7 @@ sum
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -321,7 +321,7 @@ sum_squares_hi
 }
 for
 (
-var
+let
 i
 of
 s
@@ -384,7 +384,6 @@ add
 true
 )
 ;
-var
 s
 =
 h
@@ -417,7 +416,6 @@ clear
 (
 )
 ;
-var
 s
 =
 h

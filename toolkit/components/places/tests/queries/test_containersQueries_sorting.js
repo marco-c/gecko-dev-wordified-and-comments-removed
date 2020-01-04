@@ -1371,7 +1371,7 @@ children
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -1690,7 +1690,7 @@ comparator
 ;
 for
 (
-var
+let
 i
 =
 0

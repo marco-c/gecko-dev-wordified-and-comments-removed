@@ -386,7 +386,6 @@ PLACES_ROOTS_COUNT
 1
 )
 ;
-var
 restoreRootIndex
 =
 PLACES_ROOTS_COUNT

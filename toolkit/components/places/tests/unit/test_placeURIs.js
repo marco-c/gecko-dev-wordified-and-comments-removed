@@ -204,7 +204,6 @@ options
 placeURI
 )
 ;
-var
 options
 =
 {

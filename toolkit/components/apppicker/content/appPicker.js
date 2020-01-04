@@ -26,11 +26,6 @@ AppPicker
 {
 }
 ;
-var
-g_dialog
-=
-null
-;
 AppPicker
 .
 prototype

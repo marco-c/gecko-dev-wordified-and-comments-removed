@@ -219,11 +219,13 @@ function
 (
 )
 {
+let
+filter
+;
 if
 (
 aRemoteSearch
 )
-var
 filter
 =
 gManagerWindow
@@ -242,7 +244,6 @@ remote
 )
 ;
 else
-var
 filter
 =
 gManagerWindow

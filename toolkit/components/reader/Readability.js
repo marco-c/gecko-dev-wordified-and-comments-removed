@@ -1913,7 +1913,7 @@ replaced
 =
 true
 ;
-var
+let
 sibling
 =
 next
@@ -2013,7 +2013,7 @@ BR
 break
 ;
 }
-var
+let
 sibling
 =
 next
@@ -5692,6 +5692,7 @@ textLength
 0
 )
 return
+undefined
 ;
 var
 linkLength

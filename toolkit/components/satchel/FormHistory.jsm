@@ -1426,6 +1426,7 @@ if
 queryTerms
 )
 return
+undefined
 ;
 query
 +

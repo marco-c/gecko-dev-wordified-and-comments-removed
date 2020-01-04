@@ -118,7 +118,7 @@ test_execute
 {
 for
 (
-var
+let
 i
 =
 0
@@ -197,7 +197,7 @@ when
 }
 for
 (
-var
+let
 i
 =
 0
@@ -451,7 +451,7 @@ testURI
 }
 for
 (
-var
+let
 i
 =
 0

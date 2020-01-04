@@ -5736,6 +5736,7 @@ _browser
 )
 {
 return
+undefined
 ;
 }
 switch
@@ -7895,6 +7896,7 @@ aFindPrevious
 )
 )
 return
+undefined
 ;
 /
 /

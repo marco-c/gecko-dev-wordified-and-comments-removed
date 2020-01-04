@@ -8011,7 +8011,7 @@ nodePrincipal
 )
 )
 {
-var
+let
 psvc
 =
 Components
@@ -8058,7 +8058,7 @@ pdocEl
 instantApply
 )
 {
-var
+let
 panes
 =
 this
@@ -8067,7 +8067,7 @@ preferencePanes
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -8181,7 +8181,6 @@ if
 childPrefs
 )
 {
-var
 childPrefs
 =
 pdoc
@@ -8207,7 +8206,7 @@ id
 id
 ;
 }
-var
+let
 panes
 =
 this
@@ -8216,7 +8215,7 @@ preferencePanes
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -8490,7 +8489,7 @@ value
 }
 else
 {
-var
+let
 panes
 =
 this
@@ -8524,7 +8523,7 @@ writePreferences
 false
 )
 ;
-var
+let
 psvc
 =
 Components

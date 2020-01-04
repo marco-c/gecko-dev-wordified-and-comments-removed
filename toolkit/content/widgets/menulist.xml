@@ -2012,7 +2012,6 @@ dispatchEvent
 event
 )
 ;
-var
 event
 =
 document
@@ -3767,7 +3766,6 @@ dispatchEvent
 event
 )
 ;
-var
 event
 =
 document

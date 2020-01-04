@@ -2289,6 +2289,7 @@ isDir
 )
 {
 return
+undefined
 ;
 }
 let
@@ -2310,6 +2311,7 @@ match
 )
 {
 return
+undefined
 ;
 }
 return

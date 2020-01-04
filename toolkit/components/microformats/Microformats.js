@@ -133,6 +133,7 @@ rootElement
 )
 {
 return
+undefined
 ;
 }
 targetArray
@@ -405,7 +406,6 @@ getBoundingClientRect
 }
 else
 {
-var
 box
 =
 node
@@ -3456,6 +3456,7 @@ validType
 )
 {
 return
+undefined
 ;
 }
 }
@@ -4137,6 +4138,7 @@ propname
 else
 {
 return
+undefined
 ;
 }
 var
@@ -4626,6 +4628,7 @@ propname
 }
 }
 return
+undefined
 ;
 }
 preProcessMicroformat
@@ -5298,6 +5301,7 @@ dateArray
 )
 {
 return
+undefined
 ;
 }
 if
@@ -8653,6 +8657,7 @@ fns
 }
 }
 return
+undefined
 ;
 }
 }
@@ -9027,6 +9032,7 @@ summary
 ;
 }
 return
+undefined
 ;
 }
 var
@@ -9853,6 +9859,7 @@ latitude
 )
 {
 return
+undefined
 ;
 }
 }
@@ -9897,6 +9904,7 @@ longitude
 )
 {
 return
+undefined
 ;
 }
 }

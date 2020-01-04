@@ -3031,7 +3031,8 @@ this
 .
 TYPE_X_MOZ_URL
 :
-var
+{
+let
 parts
 =
 blob
@@ -3064,7 +3065,7 @@ break
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -3082,7 +3083,7 @@ i
 2
 )
 {
-var
+let
 uriString
 =
 parts
@@ -3090,7 +3091,7 @@ parts
 i
 ]
 ;
-var
+let
 titleString
 =
 "
@@ -3182,12 +3183,14 @@ TYPE_X_MOZ_URL
 }
 break
 ;
+}
 case
 this
 .
 TYPE_UNICODE
 :
-var
+{
+let
 parts
 =
 blob
@@ -3202,7 +3205,7 @@ n
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -3218,7 +3221,7 @@ i
 +
 )
 {
-var
+let
 uriString
 =
 parts
@@ -3282,6 +3285,7 @@ TYPE_X_MOZ_URL
 }
 break
 ;
+}
 default
 :
 throw

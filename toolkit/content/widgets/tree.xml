@@ -6275,7 +6275,7 @@ currentColumn
 )
 )
 {
-var
+let
 col
 =
 this
@@ -6342,7 +6342,7 @@ if
 cellSelType
 )
 {
-var
+let
 col
 =
 this

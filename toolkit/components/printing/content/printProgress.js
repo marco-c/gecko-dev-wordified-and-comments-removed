@@ -123,9 +123,7 @@ fixedLen
 fixedLen
 )
 ;
-var
-str
-=
+return
 "
 .
 .
@@ -133,9 +131,6 @@ str
 "
 +
 endStr
-;
-return
-str
 ;
 }
 else
@@ -151,9 +146,7 @@ substr
 fixedLen
 )
 ;
-var
-str
-=
+return
 frontStr
 +
 "
@@ -161,9 +154,6 @@ frontStr
 .
 .
 "
-;
-return
-str
 ;
 }
 }

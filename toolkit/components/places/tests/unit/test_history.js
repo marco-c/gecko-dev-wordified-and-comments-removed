@@ -1084,7 +1084,6 @@ com
 )
 )
 ;
-var
 options
 =
 histsvc
@@ -1093,7 +1092,6 @@ getNewQueryOptions
 (
 )
 ;
-var
 query
 =
 histsvc
@@ -1110,7 +1108,6 @@ searchTerms
 moz
 "
 ;
-var
 result
 =
 histsvc
@@ -1121,7 +1118,6 @@ query
 options
 )
 ;
-var
 root
 =
 result

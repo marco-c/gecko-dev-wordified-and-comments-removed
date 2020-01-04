@@ -4163,6 +4163,7 @@ this
 _shuttingDown
 )
 return
+undefined
 ;
 let
 interval

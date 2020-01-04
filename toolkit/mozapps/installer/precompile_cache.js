@@ -292,7 +292,7 @@ Ci
 nsIJARURI
 )
 {
-var
+let
 jar
 =
 uri
@@ -304,7 +304,7 @@ Ci
 nsIJARURI
 )
 ;
-var
+let
 jarReader
 =
 Cc
@@ -331,7 +331,7 @@ Ci
 nsIZipReader
 )
 ;
-var
+let
 file
 =
 jar
@@ -354,7 +354,7 @@ file
 file
 )
 ;
-var
+let
 entries
 =
 jar_entries
@@ -419,7 +419,7 @@ Ci
 nsIFileURL
 )
 {
-var
+let
 file
 =
 uri

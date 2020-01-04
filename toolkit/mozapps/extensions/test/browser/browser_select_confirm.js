@@ -707,7 +707,6 @@ name
 "
 )
 ;
-var
 list
 =
 gWin

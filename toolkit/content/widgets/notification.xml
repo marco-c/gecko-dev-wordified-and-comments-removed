@@ -2450,7 +2450,7 @@ only
 xul
 "
 ;
-var
+let
 content
 =
 this
@@ -2677,7 +2677,7 @@ _blockingCanvas
 =
 null
 ;
-var
+let
 content
 =
 this

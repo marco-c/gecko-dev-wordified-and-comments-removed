@@ -3280,6 +3280,7 @@ defaultPrevented
 )
 {
 return
+undefined
 ;
 }
 let
@@ -3300,6 +3301,7 @@ can
 )
 {
 return
+undefined
 ;
 }
 let
@@ -5106,6 +5108,7 @@ if
 topNode
 )
 return
+undefined
 ;
 const
 VIEW_SOURCE_CSS

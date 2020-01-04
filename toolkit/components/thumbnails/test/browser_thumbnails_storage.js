@@ -363,6 +363,7 @@ exists
 )
 {
 return
+undefined
 ;
 }
 yield

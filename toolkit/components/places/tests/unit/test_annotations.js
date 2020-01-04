@@ -944,7 +944,6 @@ annotations
 "
 )
 ;
-var
 annoNames
 =
 annosvc
@@ -1033,7 +1032,6 @@ old
 0
 )
 ;
-var
 annoNames
 =
 annosvc
@@ -1236,7 +1234,6 @@ new
 "
 )
 ;
-var
 newURI
 =
 uri
@@ -1331,7 +1328,6 @@ old
 0
 )
 ;
-var
 annoNames
 =
 annosvc
@@ -1360,7 +1356,6 @@ oldAnno
 "
 )
 ;
-var
 oldAnnoNames
 =
 annosvc
@@ -1378,7 +1373,6 @@ length
 2
 )
 ;
-var
 copiedAnno
 =
 oldAnnoNames
@@ -1395,7 +1389,6 @@ newItemId
 false
 )
 ;
-var
 newAnnoNames
 =
 annosvc
@@ -1573,7 +1566,6 @@ int32Key
 )
 )
 ;
-var
 flags
 =
 {
@@ -2231,7 +2223,6 @@ ex
 {
 }
 }
-var
 itemId
 =
 bmsvc

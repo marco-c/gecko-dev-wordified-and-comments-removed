@@ -351,7 +351,6 @@ searchTerms
 wal
 "
 ;
-var
 result
 =
 histsvc
@@ -362,7 +361,6 @@ query
 options
 )
 ;
-var
 rootNode
 =
 result
@@ -397,7 +395,6 @@ searchTerms
 WALRUS
 "
 ;
-var
 result
 =
 histsvc
@@ -408,7 +405,6 @@ query
 options
 )
 ;
-var
 rootNode
 =
 result
@@ -456,7 +452,6 @@ searchTerms
 baboon
 "
 ;
-var
 result
 =
 histsvc
@@ -467,7 +462,6 @@ query
 options
 )
 ;
-var
 rootNode
 =
 result

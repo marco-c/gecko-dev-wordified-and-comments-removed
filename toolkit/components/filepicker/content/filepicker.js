@@ -1108,7 +1108,7 @@ null
 null
 )
 ;
-var
+let
 fileList
 =
 [

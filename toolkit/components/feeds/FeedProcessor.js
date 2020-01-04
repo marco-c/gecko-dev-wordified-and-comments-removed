@@ -506,7 +506,6 @@ link
 base
 )
 {
-var
 base
 =
 base
@@ -5343,7 +5342,7 @@ startElement
 function
 XH_startElement
 (
-uri
+namespace
 localName
 qName
 attributes
@@ -5391,7 +5390,7 @@ return
 ;
 if
 (
-uri
+namespace
 =
 =
 XHTML_NS
@@ -9464,7 +9463,7 @@ nsIFeedPerson
 else
 return
 ;
-var
+let
 propName
 =
 localName

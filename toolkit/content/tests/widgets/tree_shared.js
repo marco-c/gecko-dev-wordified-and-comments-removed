@@ -3121,7 +3121,7 @@ scroll
 ;
 for
 (
-var
+let
 t
 =
 0
@@ -3135,7 +3135,7 @@ t
 +
 )
 {
-var
+let
 testidmod
 =
 (
@@ -4069,7 +4069,7 @@ rowCount
 ;
 for
 (
-var
+let
 t
 =
 0
@@ -4083,7 +4083,7 @@ t
 +
 )
 {
-var
+let
 testidmod
 =
 (
@@ -6579,7 +6579,6 @@ currentIndex
 =
 1
 ;
-var
 expectedrow
 =
 tree
@@ -8909,7 +8908,7 @@ i
 }
 for
 (
-var
+let
 i
 =
 0
@@ -8960,7 +8959,7 @@ right
 }
 for
 (
-var
+let
 i
 =
 numColumns
@@ -9012,7 +9011,7 @@ left
 }
 for
 (
-var
+let
 i
 =
 1
@@ -9061,7 +9060,7 @@ left
 }
 for
 (
-var
+let
 i
 =
 numColumns
@@ -9113,7 +9112,7 @@ right
 }
 for
 (
-var
+let
 i
 =
 0
@@ -9167,7 +9166,7 @@ right
 }
 for
 (
-var
+let
 i
 =
 numColumns
@@ -9768,7 +9767,7 @@ aMouseDownColumnNumber
 {
 for
 (
-var
+let
 i
 =
 aMouseDownColumnNumber
@@ -9783,7 +9782,7 @@ i
 +
 )
 {
-var
+let
 move
 =
 columns
@@ -9813,7 +9812,7 @@ else
 {
 for
 (
-var
+let
 i
 =
 aMouseDownColumnNumber
@@ -9828,7 +9827,7 @@ i
 -
 )
 {
-var
+let
 move
 =
 columns

@@ -6701,7 +6701,7 @@ if
 newActive
 )
 {
-var
+let
 needsRestart
 =
 !
@@ -6771,7 +6771,7 @@ this
 }
 else
 {
-var
+let
 needsRestart
 =
 !

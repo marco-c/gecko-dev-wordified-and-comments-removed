@@ -228,12 +228,10 @@ value2
 "
 ]
 ;
-var
 testnum
 =
 1
 ;
-var
 testdesc
 =
 "

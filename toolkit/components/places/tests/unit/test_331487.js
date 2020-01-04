@@ -449,7 +449,6 @@ containerOpen
 =
 false
 ;
-var
 options
 =
 histsvc
@@ -474,7 +473,6 @@ maxResults
 =
 10
 ;
-var
 query
 =
 histsvc
@@ -493,7 +491,6 @@ folder
 1
 )
 ;
-var
 result
 =
 histsvc
@@ -504,7 +501,6 @@ query
 options
 )
 ;
-var
 root
 =
 result

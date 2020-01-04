@@ -1105,6 +1105,7 @@ arguments
 )
 {
 return
+undefined
 ;
 }
 if
