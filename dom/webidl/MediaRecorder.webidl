@@ -275,6 +275,14 @@ requestData
 (
 )
 ;
+static
+boolean
+isTypeSupported
+(
+DOMString
+type
+)
+;
 }
 ;
 dictionary
