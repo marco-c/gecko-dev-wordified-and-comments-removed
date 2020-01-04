@@ -327,12 +327,6 @@ cellbroadcast
 ]
 }
 "
-connection
-"
-:
-{
-}
-"
 captive
 -
 portal

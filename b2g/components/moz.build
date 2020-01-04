@@ -156,11 +156,6 @@ HelperAppDialog
 js
 '
 '
-InterAppCommUIGlue
-.
-js
-'
-'
 KillSwitch
 .
 js
