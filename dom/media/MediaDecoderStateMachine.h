@@ -1174,11 +1174,6 @@ DecodeFirstFrame
 )
 ;
 void
-StartDecoding
-(
-)
-;
-void
 DecodeError
 (
 const
