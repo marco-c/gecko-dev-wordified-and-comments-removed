@@ -484,6 +484,11 @@ WidgetTouchEvent
 (
 )
 {
+MOZ_COUNT_CTOR
+(
+WidgetTouchEvent
+)
+;
 }
 WidgetTouchEvent
 (
@@ -509,6 +514,11 @@ widget
 eTouchEventClass
 )
 {
+MOZ_COUNT_CTOR
+(
+WidgetTouchEvent
+)
+;
 modifiers
 =
 aOther
@@ -554,11 +564,6 @@ aOther
 mFlags
 .
 mHandledByAPZ
-;
-MOZ_COUNT_CTOR
-(
-WidgetTouchEvent
-)
 ;
 }
 WidgetTouchEvent
