@@ -37026,12 +37026,7 @@ self
 logMessage
 (
 md
-md
-.
-replyCast
-(
 replyvar
-)
 '
 Sending
 reply
@@ -37276,12 +37271,7 @@ self
 logMessage
 (
 md
-md
-.
-msgCast
-(
 msgexpr
-)
 '
 Received
 '
@@ -37562,12 +37552,7 @@ self
 logMessage
 (
 md
-md
-.
-replyCast
-(
 replyexpr
-)
                                    
 '
 Received
