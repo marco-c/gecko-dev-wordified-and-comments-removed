@@ -283,6 +283,17 @@ mozilla
 /
 dom
 /
+URLSearchParamsBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WebCryptoCommon
 .
 h
