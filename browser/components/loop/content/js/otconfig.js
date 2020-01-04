@@ -52,3 +52,15 @@ min
 js
 "
 ;
+window
+.
+OTProperties
+.
+cssURL
+=
+"
+about
+:
+blank
+"
+;
