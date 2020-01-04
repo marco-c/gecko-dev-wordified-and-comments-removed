@@ -3072,15 +3072,6 @@ Expr
 }
 }
 ;
-typedef
-Vector
-<
-uint32_t
-0
-SystemAllocPolicy
->
-Uint32Vector
-;
 class
 FuncBytecode
 {

@@ -388,6 +388,9 @@ module_
 UniqueStaticLinkData
 link_
 ;
+UniqueExportMap
+exportMap_
+;
 SlowFunctionVector
 slowFuncs_
 ;
@@ -414,9 +417,6 @@ masm_
 ;
 Uint32Vector
 funcEntryOffsets_
-;
-Uint32Vector
-exportFuncIndices_
 ;
 FuncIndexMap
 funcIndexToExport_
@@ -720,11 +720,15 @@ jitExit
 bool
 declareExport
 (
+UniqueChars
+fieldName
 uint32_t
 funcIndex
 uint32_t
 *
 exportIndex
+=
+nullptr
 )
 ;
 uint32_t
@@ -873,6 +877,9 @@ module
 UniqueStaticLinkData
 *
 staticLinkData
+UniqueExportMap
+*
+exportMap
 SlowFunctionVector
 *
 slowFuncs
