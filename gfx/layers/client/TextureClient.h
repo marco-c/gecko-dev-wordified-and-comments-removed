@@ -1248,15 +1248,6 @@ actor
 )
 ;
 static
-bool
-DestroyFallback
-(
-PTextureChild
-*
-actor
-)
-;
-static
 TextureClient
 *
 AsTextureClient

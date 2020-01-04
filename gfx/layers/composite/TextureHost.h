@@ -1215,15 +1215,6 @@ actor
 )
 ;
 static
-void
-ReceivedDestroy
-(
-PTextureParent
-*
-actor
-)
-;
-static
 TextureHost
 *
 AsTextureHost

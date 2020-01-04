@@ -281,10 +281,6 @@ CompositableOperation
 [
 ]
 ops
-OpDestroy
-[
-]
-toDestroy
 )
 returns
 (
@@ -301,10 +297,6 @@ CompositableOperation
 [
 ]
 ops
-OpDestroy
-[
-]
-toDestroy
 )
 ;
 /
