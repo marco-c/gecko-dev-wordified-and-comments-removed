@@ -133,6 +133,13 @@ hudservice
 js
 '
 '
+network
+-
+panel
+.
+js
+'
+'
 panel
 .
 js
