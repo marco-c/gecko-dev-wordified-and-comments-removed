@@ -1121,10 +1121,11 @@ refcount
 0
 )
 ;
-js_free
+js_delete
 (
 static_cast
 <
+const
 ShellPrincipals
 *
 >
