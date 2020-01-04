@@ -101,12 +101,6 @@ nsISupports
 idl
 "
 interface
-nsMenuBarX
-;
-interface
-nsCocoaWindow
-;
-interface
 nsIWidget
 ;
 [
@@ -207,7 +201,7 @@ if
 !
 aShown
 )
-nsCocoaWindow
+nsIWidget
 GetChildSheet
 (
 in
