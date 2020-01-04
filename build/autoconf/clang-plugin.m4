@@ -377,6 +377,7 @@ asmparser
 mcparser
 bitreader
 option
+profiledata
 |
 tr
 '
