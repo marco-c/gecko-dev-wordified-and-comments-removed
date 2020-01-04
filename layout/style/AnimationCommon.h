@@ -1298,12 +1298,6 @@ mManager
 AnimationPtrArray
 mAnimations
 ;
-RefPtr
-<
-AnimValuesStyleRule
->
-mStyleRule
-;
 uint64_t
 mCheckGeneration
 ;
