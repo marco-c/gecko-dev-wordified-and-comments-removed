@@ -338,6 +338,13 @@ cpp
 '
 gonk
 /
+GonkSensorsHelpers
+.
+cpp
+'
+'
+gonk
+/
 GonkSwitch
 .
 cpp
