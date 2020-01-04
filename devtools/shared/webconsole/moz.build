@@ -140,6 +140,15 @@ client
 js
 '
 '
+js
+-
+property
+-
+provider
+.
+js
+'
+'
 network
 -
 helper

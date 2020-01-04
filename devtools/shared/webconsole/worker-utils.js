@@ -44,16 +44,6 @@ function
 ;
 exports
 .
-JSPropertyProvider
-=
-function
-(
-)
-{
-}
-;
-exports
-.
 ConsoleReflowListener
 =
 function
