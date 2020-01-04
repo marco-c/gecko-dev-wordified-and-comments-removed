@@ -3850,6 +3850,14 @@ GetClipRect
 (
 )
 ;
+asyncClip
+=
+IntersectMaybeRects
+(
+asyncClip
+clipDeferredFromChildren
+)
+;
 nsTArray
 <
 Layer
@@ -4453,11 +4461,7 @@ AsLayerComposite
 >
 SetShadowClipRect
 (
-IntersectMaybeRects
-(
 asyncClip
-clipDeferredFromChildren
-)
 )
 ;
 }
