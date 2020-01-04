@@ -1234,6 +1234,13 @@ NameRequired
 AllowDefaultName
 }
 ;
+enum
+TripledotHandling
+{
+TripledotAllowed
+TripledotProhibited
+}
+;
 template
 <
 typename
@@ -2462,6 +2469,8 @@ InHandling
 inHandling
 YieldHandling
 yieldHandling
+TripledotHandling
+tripledotHandling
 InvokedPrediction
 invoked
 =
@@ -2475,6 +2484,8 @@ InHandling
 inHandling
 YieldHandling
 yieldHandling
+TripledotHandling
+tripledotHandling
 InvokedPrediction
 invoked
 =
@@ -2504,6 +2515,8 @@ InHandling
 inHandling
 YieldHandling
 yieldHandling
+TripledotHandling
+tripledotHandling
 InvokedPrediction
 invoked
 =
@@ -2517,6 +2530,8 @@ InHandling
 inHandling
 YieldHandling
 yieldHandling
+TripledotHandling
+tripledotHandling
 InvokedPrediction
 invoked
 =
@@ -2528,6 +2543,8 @@ unaryExpr
 (
 YieldHandling
 yieldHandling
+TripledotHandling
+tripledotHandling
 InvokedPrediction
 invoked
 =
@@ -2539,6 +2556,8 @@ memberExpr
 (
 YieldHandling
 yieldHandling
+TripledotHandling
+tripledotHandling
 TokenKind
 tt
 bool
@@ -2554,6 +2573,8 @@ primaryExpr
 (
 YieldHandling
 yieldHandling
+TripledotHandling
+tripledotHandling
 TokenKind
 tt
 InvokedPrediction

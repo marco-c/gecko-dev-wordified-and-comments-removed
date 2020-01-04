@@ -6248,6 +6248,7 @@ assignExpr
 (
 inHandling
 yieldHandling
+TripledotProhibited
 )
 ;
 if
@@ -11560,6 +11561,7 @@ expr
 (
 InAllowed
 yieldHandling
+TripledotProhibited
 )
 ;
 if
@@ -18882,6 +18884,7 @@ pn
 primaryExpr
 (
 yieldHandling
+TripledotProhibited
 tt
 )
 ;
@@ -20125,6 +20128,7 @@ pn2
 primaryExpr
 (
 yieldHandling
+TripledotProhibited
 tt
 )
 ;
@@ -20265,6 +20269,7 @@ InProhibited
 :
 InAllowed
 yieldHandling
+TripledotProhibited
 )
 ;
 if
@@ -20645,6 +20650,7 @@ InProhibited
 :
 InAllowed
 yieldHandling
+TripledotProhibited
 )
 ;
 if
@@ -24023,6 +24029,7 @@ assignExpr
 (
 InAllowed
 YieldIsKeyword
+TripledotProhibited
 )
 ;
 if
@@ -24203,6 +24210,7 @@ expr
 (
 InAllowed
 yieldHandling
+TripledotProhibited
 invoked
 )
 ;
@@ -25462,6 +25470,7 @@ expr
 (
 InProhibited
 yieldHandling
+TripledotProhibited
 )
 ;
 }
@@ -25877,12 +25886,14 @@ assignExpr
 (
 InAllowed
 yieldHandling
+TripledotProhibited
 )
 :
 expr
 (
 InAllowed
 yieldHandling
+TripledotProhibited
 )
 ;
 if
@@ -26236,6 +26247,7 @@ expr
 (
 InAllowed
 yieldHandling
+TripledotProhibited
 )
 ;
 if
@@ -26311,6 +26323,7 @@ expr
 (
 InAllowed
 yieldHandling
+TripledotProhibited
 )
 ;
 if
@@ -26694,6 +26707,7 @@ expr
 (
 InProhibited
 yieldHandling
+TripledotProhibited
 )
 ;
 }
@@ -26855,20 +26869,24 @@ expr
 (
 InAllowed
 yieldHandling
+TripledotProhibited
 )
 :
 assignExpr
 (
 InAllowed
 yieldHandling
+TripledotProhibited
 )
 )
 )
+{
 return
 null
 (
 )
 ;
+}
 modifier
 =
 TokenStream
@@ -26931,6 +26949,7 @@ expr
 (
 InAllowed
 yieldHandling
+TripledotProhibited
 )
 )
 return
@@ -26995,6 +27014,7 @@ expr
 (
 InAllowed
 yieldHandling
+TripledotProhibited
 )
 )
 return
@@ -27288,6 +27308,7 @@ expr
 (
 InAllowed
 yieldHandling
+TripledotProhibited
 )
 ;
 if
@@ -28264,6 +28285,7 @@ expr
 (
 InAllowed
 yieldHandling
+TripledotProhibited
 )
 ;
 if
@@ -28740,6 +28762,7 @@ assignExpr
 (
 inHandling
 YieldIsKeyword
+TripledotProhibited
 )
 ;
 if
@@ -28995,6 +29018,7 @@ assignExpr
 (
 inHandling
 YieldIsKeyword
+TripledotProhibited
 )
 ;
 if
@@ -29666,6 +29690,7 @@ expr
 (
 InAllowed
 yieldHandling
+TripledotProhibited
 )
 ;
 if
@@ -30185,6 +30210,7 @@ expr
 (
 InAllowed
 yieldHandling
+TripledotProhibited
 )
 ;
 if
@@ -31067,6 +31093,7 @@ classHeritage
 memberExpr
 (
 yieldHandling
+TripledotProhibited
 tt
 true
 )
@@ -32436,6 +32463,8 @@ InHandling
 inHandling
 YieldHandling
 yieldHandling
+TripledotHandling
+tripledotHandling
 InvokedPrediction
 invoked
 )
@@ -32447,6 +32476,7 @@ assignExpr
 (
 inHandling
 yieldHandling
+tripledotHandling
 invoked
 )
 ;
@@ -32544,6 +32574,7 @@ assignExpr
 (
 inHandling
 yieldHandling
+tripledotHandling
 )
 ;
 if
@@ -32797,6 +32828,8 @@ InHandling
 inHandling
 YieldHandling
 yieldHandling
+TripledotHandling
+tripledotHandling
 InvokedPrediction
 invoked
 )
@@ -32832,6 +32865,7 @@ pn
 unaryExpr
 (
 yieldHandling
+tripledotHandling
 invoked
 )
 ;
@@ -33042,6 +33076,8 @@ InHandling
 inHandling
 YieldHandling
 yieldHandling
+TripledotHandling
+tripledotHandling
 InvokedPrediction
 invoked
 )
@@ -33053,6 +33089,7 @@ orExpr1
 (
 inHandling
 yieldHandling
+tripledotHandling
 invoked
 )
 ;
@@ -33080,6 +33117,7 @@ assignExpr
 (
 InAllowed
 yieldHandling
+TripledotProhibited
 )
 ;
 if
@@ -33105,6 +33143,7 @@ assignExpr
 (
 inHandling
 yieldHandling
+TripledotProhibited
 )
 ;
 if
@@ -33333,6 +33372,8 @@ InHandling
 inHandling
 YieldHandling
 yieldHandling
+TripledotHandling
+tripledotHandling
 InvokedPrediction
 invoked
 )
@@ -33528,6 +33569,7 @@ condExpr1
 (
 inHandling
 yieldHandling
+tripledotHandling
 invoked
 )
 ;
@@ -34049,6 +34091,7 @@ assignExpr
 (
 inHandling
 yieldHandling
+TripledotProhibited
 )
 ;
 pc
@@ -34630,6 +34673,7 @@ kid
 unaryExpr
 (
 yieldHandling
+TripledotProhibited
 )
 ;
 if
@@ -34674,6 +34718,8 @@ unaryExpr
 (
 YieldHandling
 yieldHandling
+TripledotHandling
+tripledotHandling
 InvokedPrediction
 invoked
 )
@@ -34794,6 +34840,7 @@ kid
 unaryExpr
 (
 yieldHandling
+TripledotProhibited
 )
 ;
 if
@@ -34852,6 +34899,7 @@ pn2
 memberExpr
 (
 yieldHandling
+TripledotProhibited
 tt2
 true
 )
@@ -34925,6 +34973,7 @@ expr
 unaryExpr
 (
 yieldHandling
+TripledotProhibited
 )
 ;
 if
@@ -35001,6 +35050,7 @@ pn
 memberExpr
 (
 yieldHandling
+tripledotHandling
 tt
 true
 invoked
@@ -36545,6 +36595,7 @@ pn3
 primaryExpr
 (
 YieldIsKeyword
+TripledotProhibited
 tt
 )
 ;
@@ -36734,6 +36785,7 @@ expr
 (
 InAllowed
 YieldIsKeyword
+TripledotProhibited
 )
 ;
 if
@@ -38339,6 +38391,7 @@ assignExpr
 (
 InAllowed
 YieldIsKeyword
+TripledotProhibited
 )
 ;
 if
@@ -38635,6 +38688,7 @@ assignExpr
 (
 InAllowed
 YieldIsKeyword
+TripledotProhibited
 )
 ;
 if
@@ -38826,6 +38880,7 @@ assignExpr
 (
 InAllowed
 YieldIsKeyword
+TripledotProhibited
 )
 ;
 if
@@ -39245,6 +39300,7 @@ assignExpr
 (
 InAllowed
 yieldHandling
+TripledotProhibited
 )
 ;
 if
@@ -39426,6 +39482,7 @@ assignExpr
 (
 InAllowed
 yieldHandling
+TripledotProhibited
 )
 ;
 if
@@ -39802,6 +39859,8 @@ memberExpr
 (
 YieldHandling
 yieldHandling
+TripledotHandling
+tripledotHandling
 TokenKind
 tt
 bool
@@ -39914,6 +39973,7 @@ ctorExpr
 memberExpr
 (
 yieldHandling
+TripledotProhibited
 tt
 false
 PredictInvoked
@@ -40037,6 +40097,7 @@ lhs
 primaryExpr
 (
 yieldHandling
+tripledotHandling
 tt
 invoked
 )
@@ -40245,6 +40306,7 @@ expr
 (
 InAllowed
 yieldHandling
+TripledotProhibited
 )
 ;
 if
@@ -41630,6 +41692,7 @@ assignExpr
 (
 InAllowed
 yieldHandling
+TripledotProhibited
 )
 ;
 if
@@ -41669,6 +41732,7 @@ assignExpr
 (
 InAllowed
 yieldHandling
+TripledotProhibited
 )
 ;
 if
@@ -42842,6 +42906,7 @@ assignExpr
 (
 InAllowed
 yieldHandling
+TripledotProhibited
 )
 ;
 pc
@@ -43060,6 +43125,7 @@ assignExpr
 (
 InAllowed
 yieldHandling
+TripledotProhibited
 )
 ;
 if
@@ -43734,6 +43800,8 @@ primaryExpr
 (
 YieldHandling
 yieldHandling
+TripledotHandling
+tripledotHandling
 TokenKind
 tt
 InvokedPrediction
@@ -44066,6 +44134,37 @@ case
 TOK_TRIPLEDOT
 :
 {
+if
+(
+tripledotHandling
+!
+=
+TripledotAllowed
+)
+{
+report
+(
+ParseError
+false
+null
+(
+)
+JSMSG_UNEXPECTED_TOKEN
+"
+expression
+"
+TokenKindToDesc
+(
+tt
+)
+)
+;
+return
+null
+(
+)
+;
+}
 TokenKind
 next
 ;
@@ -44352,6 +44451,7 @@ expr
 (
 InAllowed
 yieldHandling
+TripledotAllowed
 PredictInvoked
 )
 ;
@@ -44615,6 +44715,7 @@ expr
 (
 inHandling
 yieldHandling
+TripledotProhibited
 PredictInvoked
 )
 ;
