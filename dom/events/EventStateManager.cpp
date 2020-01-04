@@ -18530,10 +18530,6 @@ sLastRefPoint
 =
 mPreLockPoint
 ;
-sSynthCenteringPoint
-=
-kInvalidRefPoint
-;
 if
 (
 aWidget
