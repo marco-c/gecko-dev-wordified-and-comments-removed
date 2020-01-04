@@ -405,7 +405,7 @@ gCOMPtrLog
 nullptr
 ;
 struct
-serialNumberRecord
+SerialNumberRecord
 {
 intptr_t
 serialNumber
@@ -647,7 +647,7 @@ PR_Free
 (
 reinterpret_cast
 <
-serialNumberRecord
+SerialNumberRecord
 *
 >
 (
@@ -1969,13 +1969,13 @@ void
 aClosure
 )
 {
-serialNumberRecord
+SerialNumberRecord
 *
 record
 =
 reinterpret_cast
 <
-serialNumberRecord
+SerialNumberRecord
 *
 >
 (
@@ -2609,7 +2609,7 @@ hep
 return
 reinterpret_cast
 <
-serialNumberRecord
+SerialNumberRecord
 *
 >
 (
@@ -2632,13 +2632,13 @@ if
 aCreate
 )
 {
-serialNumberRecord
+SerialNumberRecord
 *
 record
 =
 PR_NEW
 (
-serialNumberRecord
+SerialNumberRecord
 )
 ;
 record
@@ -2731,7 +2731,7 @@ return
 (
 reinterpret_cast
 <
-serialNumberRecord
+SerialNumberRecord
 *
 >
 (
@@ -2809,7 +2809,7 @@ return
 (
 reinterpret_cast
 <
-serialNumberRecord
+SerialNumberRecord
 *
 >
 (
