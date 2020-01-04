@@ -1344,10 +1344,6 @@ git
 checkout
 -
 b
-your
--
-name
-/
 topic
 .
 *

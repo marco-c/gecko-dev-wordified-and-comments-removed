@@ -249,7 +249,7 @@ function
 result
 )
 {
-assert_object_equals
+assert_response_equals
 (
 result
 response
@@ -630,7 +630,7 @@ function
 result
 )
 {
-assert_object_equals
+assert_response_equals
 (
 result
 response
@@ -975,7 +975,7 @@ function
 result
 )
 {
-assert_object_equals
+assert_response_equals
 (
 result
 response
@@ -1158,7 +1158,7 @@ function
 result
 )
 {
-assert_object_equals
+assert_response_equals
 (
 result
 alternate_response
@@ -1359,7 +1359,7 @@ function
 result
 )
 {
-assert_object_equals
+assert_response_equals
 (
 result
 alternate_response
@@ -2003,7 +2003,7 @@ function
 result
 )
 {
-assert_object_equals
+assert_response_equals
 (
 result
 response

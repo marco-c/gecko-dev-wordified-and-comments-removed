@@ -673,7 +673,7 @@ function
 result
 )
 {
-assert_array_equivalent
+assert_response_array_equivalent
 (
 result
 [
@@ -805,7 +805,7 @@ function
 result
 )
 {
-assert_array_objects_equals
+assert_response_array_equals
 (
 result
 [
@@ -870,7 +870,7 @@ function
 result
 )
 {
-assert_object_equals
+assert_response_equals
 (
 result
 entries
@@ -931,7 +931,7 @@ function
 result
 )
 {
-assert_array_objects_equals
+assert_response_array_equals
 (
 result
 [
@@ -994,7 +994,7 @@ function
 result
 )
 {
-assert_object_equals
+assert_response_equals
 (
 result
 entries
@@ -1061,7 +1061,7 @@ function
 result
 )
 {
-assert_array_objects_equals
+assert_response_array_equals
 (
 result
 [
@@ -1131,7 +1131,7 @@ function
 result
 )
 {
-assert_object_equals
+assert_response_equals
 (
 result
 entries
@@ -1198,7 +1198,7 @@ function
 result
 )
 {
-assert_array_equivalent
+assert_response_array_equivalent
 (
 result
 [
@@ -1291,7 +1291,7 @@ function
 result
 )
 {
-assert_object_in_array
+assert_response_in_array
 (
 result
 [
@@ -1384,7 +1384,7 @@ function
 result
 )
 {
-assert_array_equivalent
+assert_response_array_equivalent
 (
 result
 [
@@ -1472,7 +1472,7 @@ function
 result
 )
 {
-assert_object_in_array
+assert_response_in_array
 (
 result
 [
@@ -1562,7 +1562,7 @@ function
 result
 )
 {
-assert_array_equivalent
+assert_response_array_equivalent
 (
 result
 [
@@ -1634,7 +1634,7 @@ function
 result
 )
 {
-assert_object_equals
+assert_response_equals
 (
 result
 entries
@@ -1695,7 +1695,7 @@ function
 result
 )
 {
-assert_array_equivalent
+assert_response_array_equivalent
 (
 result
 [
@@ -1844,7 +1844,7 @@ function
 result
 )
 {
-assert_array_equivalent
+assert_response_array_equivalent
 (
 result
 [
@@ -1911,7 +1911,7 @@ function
 result
 )
 {
-assert_object_equals
+assert_response_equals
 (
 result
 entries
@@ -1980,7 +1980,7 @@ function
 result
 )
 {
-assert_array_equivalent
+assert_response_array_equivalent
 (
 result
 [
@@ -2084,7 +2084,7 @@ function
 result
 )
 {
-assert_array_equivalent
+assert_response_array_equivalent
 (
 result
 [
@@ -2181,7 +2181,7 @@ function
 result
 )
 {
-assert_array_equivalent
+assert_response_array_equivalent
 (
 result
 [
@@ -2272,7 +2272,7 @@ function
 result
 )
 {
-assert_object_in_array
+assert_response_in_array
 (
 result
 [
@@ -2353,7 +2353,7 @@ function
 result
 )
 {
-assert_array_equivalent
+assert_response_array_equivalent
 (
 result
 [
@@ -2556,7 +2556,7 @@ function
 result
 )
 {
-assert_object_equals
+assert_response_equals
 (
 result
 response
