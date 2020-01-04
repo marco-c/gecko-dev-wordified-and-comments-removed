@@ -50292,7 +50292,7 @@ static
 void
 SetStyleClipPathToCSSValue
 (
-nsStyleClipPath
+StyleClipPath
 *
 aStyleClipPath
 const
@@ -51149,7 +51149,7 @@ svgReset
 >
 mClipPath
 =
-nsStyleClipPath
+StyleClipPath
 (
 )
 ;
@@ -51185,7 +51185,7 @@ svgReset
 >
 mClipPath
 =
-nsStyleClipPath
+StyleClipPath
 (
 )
 ;
@@ -51211,7 +51211,7 @@ svgReset
 >
 mClipPath
 =
-nsStyleClipPath
+StyleClipPath
 (
 )
 ;
