@@ -6407,23 +6407,6 @@ geckomediaplugin
 }
         
 if
-mozinfo
-.
-isMac
-:
-            
-options
-.
-leakThresholds
-[
-"
-tab
-"
-]
-=
-12000
-        
-if
 options
 .
 test_paths
