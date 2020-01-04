@@ -295,6 +295,16 @@ cache
 gradle
 /
 #
+Local
+Gradle
+configuration
+properties
+.
+^
+local
+.
+properties
+#
 Python
 stuff
 installed
