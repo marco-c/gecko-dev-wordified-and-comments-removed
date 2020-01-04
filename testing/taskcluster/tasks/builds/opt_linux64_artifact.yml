@@ -134,6 +134,11 @@ get
 -
 secrets
 build
+generate
+-
+build
+-
+stats
 '
 DIST_UPLOADS
 :
