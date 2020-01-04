@@ -778,8 +778,6 @@ nsPIDOMWindowInner
 aWindow
 TrackID
 aID
-bool
-aIsAudio
 const
 dom
 :
