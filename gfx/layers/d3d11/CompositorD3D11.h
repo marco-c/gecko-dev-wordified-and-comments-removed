@@ -607,17 +607,7 @@ void
 ForcePresent
 (
 )
-{
-mSwapChain
--
->
-Present
-(
-0
-0
-)
 ;
-}
 virtual
 nsIWidget
 *
