@@ -1,9 +1,9 @@
 #
 ifndef
-SelectionState_h
+mozilla_SelectionState_h
 #
 define
-SelectionState_h
+mozilla_SelectionState_h
 #
 include
 "
