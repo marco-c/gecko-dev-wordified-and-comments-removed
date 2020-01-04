@@ -258,16 +258,6 @@ urlparse_unx
 dat
 '
 ]
-USE_LIBS
-+
-=
-[
-'
-static
-:
-js
-'
-]
 CXXFLAGS
 +
 =
