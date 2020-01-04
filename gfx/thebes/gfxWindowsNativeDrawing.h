@@ -130,11 +130,6 @@ ShouldRenderAgain
 (
 )
 ;
-bool
-IsDoublePass
-(
-)
-;
 void
 PaintToContext
 (
