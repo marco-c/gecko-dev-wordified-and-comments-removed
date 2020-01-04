@@ -625,6 +625,11 @@ let
 info
 =
 {
+index
+:
+child
+.
+index
 tagName
 :
 tagName

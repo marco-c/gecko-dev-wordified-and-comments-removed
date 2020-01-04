@@ -302,9 +302,6 @@ menulist
 options
 selectedIndex
 zoom
-startIndex
-=
-0
 isInGroup
 =
 false
@@ -317,11 +314,6 @@ adjustedTextSize
 1
 )
 {
-let
-index
-=
-startIndex
-;
 let
 element
 =
@@ -517,8 +509,6 @@ if
 isOptGroup
 )
 {
-index
-=
 populateChildren
 (
 menulist
@@ -527,7 +517,6 @@ option
 children
 selectedIndex
 zoom
-index
 true
 isDisabled
 adjustedTextSize
@@ -538,6 +527,8 @@ else
 {
 if
 (
+option
+.
 index
 =
 =
@@ -558,9 +549,9 @@ setAttribute
 "
 value
 "
+option
+.
 index
-+
-+
 )
 ;
 if
@@ -583,7 +574,4 @@ ingroup
 }
 }
 }
-return
-index
-;
 }
