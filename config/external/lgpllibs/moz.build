@@ -143,11 +143,14 @@ about
 license
 page
 .
-SharedLibrary
+GeckoSharedLibrary
 (
 '
 lgpllibs
 '
+linkage
+=
+None
 )
 SHARED_LIBRARY_NAME
 =
