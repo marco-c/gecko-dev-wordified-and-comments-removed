@@ -998,7 +998,7 @@ Roland
 {
 rectCount
 :
-2
+1
 insertCalls
 :
 [
@@ -1020,7 +1020,7 @@ ro
 {
 rectCount
 :
-41
+40
 insertCalls
 :
 [
@@ -1042,7 +1042,7 @@ new
 {
 rectCount
 :
-2
+1
 insertCalls
 :
 [
@@ -1064,7 +1064,7 @@ o
 {
 rectCount
 :
-492
+491
 insertCalls
 :
 [
@@ -1274,7 +1274,7 @@ expectedResult
 {
 rectCount
 :
-2
+1
 insertCalls
 :
 [
@@ -1464,7 +1464,7 @@ expectedResult
 {
 rectCount
 :
-2
+1
 insertCalls
 :
 [
@@ -1583,7 +1583,7 @@ expectedResult
 {
 rectCount
 :
-2
+1
 insertCalls
 :
 [
@@ -1826,7 +1826,7 @@ expectedResult
 {
 rectCount
 :
-2
+1
 insertCalls
 :
 [
