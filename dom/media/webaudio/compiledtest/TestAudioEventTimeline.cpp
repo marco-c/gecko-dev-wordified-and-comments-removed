@@ -3,7 +3,7 @@ include
 "
 AudioEventTimeline
 .
-h
+cpp
 "
 #
 include
@@ -357,9 +357,6 @@ mRv
 ;
 typedef
 AudioEventTimeline
-<
-ErrorResultMock
->
 Timeline
 ;
 void

@@ -45,15 +45,9 @@ AudioParamTimeline
 :
 public
 AudioEventTimeline
-<
-ErrorResult
->
 {
 typedef
 AudioEventTimeline
-<
-ErrorResult
->
 BaseClass
 ;
 public

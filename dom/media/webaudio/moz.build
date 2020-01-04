@@ -468,6 +468,11 @@ AudioDestinationNode
 cpp
 '
 '
+AudioEventTimeline
+.
+cpp
+'
+'
 AudioListener
 .
 cpp
