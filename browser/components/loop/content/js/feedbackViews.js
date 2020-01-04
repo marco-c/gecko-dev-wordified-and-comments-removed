@@ -85,13 +85,14 @@ OpenURL
 "
 url
 )
-;
+.
+then
+(
 this
 .
 props
 .
 onAfterFeedbackReceived
-(
 )
 ;
 }
