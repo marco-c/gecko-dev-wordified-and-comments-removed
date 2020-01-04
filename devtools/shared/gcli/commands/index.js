@@ -426,6 +426,17 @@ gcli
 /
 commands
 /
+qsa
+"
+"
+devtools
+/
+shared
+/
+gcli
+/
+commands
+/
 restart
 "
 "
