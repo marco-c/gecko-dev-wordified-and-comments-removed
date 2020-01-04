@@ -19,15 +19,6 @@ nsStringBuffer
 h
 "
 #
-include
-"
-mozilla
-/
-Logging
-.
-h
-"
-#
 define
 NS_STATIC_ATOM
 (
