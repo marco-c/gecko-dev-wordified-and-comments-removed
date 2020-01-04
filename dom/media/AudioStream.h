@@ -172,6 +172,8 @@ const
 int64_t
 GetPositionInFrames
 (
+int64_t
+frames
 )
 const
 ;
