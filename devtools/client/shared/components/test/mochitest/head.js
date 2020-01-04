@@ -388,7 +388,7 @@ var
 {
 require
 :
-bRequire
+browserRequire
 }
 =
 BrowserLoader
@@ -402,7 +402,7 @@ devtools
 /
 client
 /
-memory
+shared
 /
 "
 this
@@ -426,7 +426,7 @@ browser
 /
 devtools
 /
-memory
+shared
 /
 test
 /
