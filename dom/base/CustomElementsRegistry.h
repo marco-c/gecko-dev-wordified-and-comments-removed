@@ -341,9 +341,6 @@ LifecycleCallbacks
 >
 mCallbacks
 ;
-bool
-mElementIsBeingCreated
-;
 uint32_t
 mDocOrder
 ;
