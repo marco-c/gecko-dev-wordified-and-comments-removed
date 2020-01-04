@@ -45,7 +45,14 @@ permissions
 :
 [
 "
-tabs
+http
+:
+/
+/
+mochi
+.
+test
+/
 "
 ]
 }
