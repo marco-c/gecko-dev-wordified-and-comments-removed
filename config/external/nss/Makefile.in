@@ -1854,11 +1854,12 @@ nss
 lib
 /
 ckfw
-nss
-/
-lib
-/
-libpkix
+DEFAULT_GMAKE_FLAGS
++
+=
+NSS_DISABLE_LIBPKIX
+=
+1
 ifeq
 (
 WINNT
