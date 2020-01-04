@@ -1320,7 +1320,7 @@ aDrawBackgroundColor
 ;
 static
 nsRect
-ComputeBackgroundPositioningArea
+ComputeImageLayerPositioningArea
 (
 nsPresContext
 *
@@ -1347,7 +1347,7 @@ aAttachedToFrame
 ;
 static
 nsBackgroundLayerState
-PrepareBackgroundLayer
+PrepareImageLayer
 (
 nsPresContext
 *
@@ -1375,7 +1375,7 @@ aLayer
 )
 ;
 struct
-BackgroundClipState
+ImageLayerClipState
 {
 nsRect
 mBGClipArea
@@ -1411,7 +1411,7 @@ mCustomClip
 ;
 static
 void
-GetBackgroundClip
+GetImageLayerClip
 (
 const
 nsStyleImageLayers
@@ -1439,7 +1439,7 @@ bool
 aWillPaintBorder
 nscoord
 aAppUnitsPerPixel
-BackgroundClipState
+ImageLayerClipState
 *
 aClipState
 )

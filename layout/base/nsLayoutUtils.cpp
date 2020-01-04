@@ -33408,7 +33408,7 @@ BottomLayer
 mClip
 !
 =
-NS_STYLE_BG_CLIP_BORDER
+NS_STYLE_IMAGELAYER_CLIP_BORDER
 )
 return
 eTransparencyTransparent

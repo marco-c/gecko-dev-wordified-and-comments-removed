@@ -7893,7 +7893,7 @@ void
 nsCSSRendering
 :
 :
-GetBackgroundClip
+GetImageLayerClip
 (
 const
 nsStyleImageLayers
@@ -7921,7 +7921,7 @@ bool
 aWillPaintBorder
 nscoord
 aAppUnitsPerPixel
-BackgroundClipState
+ImageLayerClipState
 *
 aClipState
 )
@@ -7991,16 +7991,16 @@ isSolidBorder
 backgroundClip
 =
 =
-NS_STYLE_BG_CLIP_BORDER
+NS_STYLE_IMAGELAYER_CLIP_BORDER
 )
 {
 backgroundClip
 =
 haveRoundedCorners
 ?
-NS_STYLE_BG_CLIP_MOZ_ALMOST_PADDING
+NS_STYLE_IMAGELAYER_CLIP_MOZ_ALMOST_PADDING
 :
-NS_STYLE_BG_CLIP_PADDING
+NS_STYLE_IMAGELAYER_CLIP_PADDING
 ;
 }
 aClipState
@@ -8040,7 +8040,7 @@ nsGkAtoms
 scrollFrame
 &
 &
-NS_STYLE_BG_ATTACHMENT_LOCAL
+NS_STYLE_IMAGELAYER_ATTACHMENT_LOCAL
 =
 =
 aLayer
@@ -8053,7 +8053,7 @@ if
 backgroundClip
 =
 =
-NS_STYLE_BG_CLIP_CONTENT
+NS_STYLE_IMAGELAYER_CLIP_CONTENT
 )
 {
 nsIScrollableFrame
@@ -8158,7 +8158,7 @@ padding
 }
 backgroundClip
 =
-NS_STYLE_BG_CLIP_PADDING
+NS_STYLE_IMAGELAYER_CLIP_PADDING
 ;
 }
 if
@@ -8166,7 +8166,7 @@ if
 backgroundClip
 !
 =
-NS_STYLE_BG_CLIP_BORDER
+NS_STYLE_IMAGELAYER_CLIP_BORDER
 )
 {
 nsMargin
@@ -8184,7 +8184,7 @@ if
 backgroundClip
 =
 =
-NS_STYLE_BG_CLIP_MOZ_ALMOST_PADDING
+NS_STYLE_IMAGELAYER_CLIP_MOZ_ALMOST_PADDING
 )
 {
 border
@@ -8262,7 +8262,7 @@ if
 backgroundClip
 !
 =
-NS_STYLE_BG_CLIP_PADDING
+NS_STYLE_IMAGELAYER_CLIP_PADDING
 )
 {
 NS_ASSERTION
@@ -8270,7 +8270,7 @@ NS_ASSERTION
 backgroundClip
 =
 =
-NS_STYLE_BG_CLIP_CONTENT
+NS_STYLE_IMAGELAYER_CLIP_CONTENT
 "
 unexpected
 background
@@ -8442,12 +8442,12 @@ mDirtyRectGfx
 }
 static
 void
-SetupBackgroundClip
+SetupImageLayerClip
 (
 nsCSSRendering
 :
 :
-BackgroundClipState
+ImageLayerClipState
 &
 aClipState
 gfxContext
@@ -8667,7 +8667,7 @@ DrawBackgroundColor
 nsCSSRendering
 :
 :
-BackgroundClipState
+ImageLayerClipState
 &
 aClipState
 gfxContext
@@ -9111,7 +9111,7 @@ mRepeat
 mXRepeat
 =
 =
-NS_STYLE_BG_REPEAT_REPEAT
+NS_STYLE_IMAGELAYER_REPEAT_REPEAT
 &
 &
 bg
@@ -9126,7 +9126,7 @@ mRepeat
 mYRepeat
 =
 =
-NS_STYLE_BG_REPEAT_REPEAT
+NS_STYLE_IMAGELAYER_REPEAT_REPEAT
 &
 &
 bg
@@ -14139,7 +14139,7 @@ AppUnitsPerDevPixel
 (
 )
 ;
-BackgroundClipState
+ImageLayerClipState
 clipState
 ;
 if
@@ -14186,7 +14186,7 @@ mDirtyRectGfx
 }
 else
 {
-GetBackgroundClip
+GetImageLayerClip
 (
 layers
 .
@@ -14380,7 +14380,7 @@ false
 uint8_t
 currentBackgroundClip
 =
-NS_STYLE_BG_CLIP_BORDER
+NS_STYLE_IMAGELAYER_CLIP_BORDER
 ;
 NS_FOR_VISIBLE_IMAGE_LAYERS_BACK_TO_FRONT_WITH_RANGE
 (
@@ -14456,7 +14456,7 @@ Restore
 (
 )
 ;
-GetBackgroundClip
+GetImageLayerClip
 (
 layer
 aForFrame
@@ -14474,7 +14474,7 @@ clipState
 )
 ;
 }
-SetupBackgroundClip
+SetupImageLayerClip
 (
 clipState
 ctx
@@ -14573,7 +14573,7 @@ IsEmpty
 nsBackgroundLayerState
 state
 =
-PrepareBackgroundLayer
+PrepareImageLayer
 (
 aPresContext
 aForFrame
@@ -14786,7 +14786,7 @@ nsRect
 nsCSSRendering
 :
 :
-ComputeBackgroundPositioningArea
+ComputeImageLayerPositioningArea
 (
 nsPresContext
 *
@@ -14844,7 +14844,7 @@ nsGkAtoms
 scrollFrame
 &
 &
-NS_STYLE_BG_ATTACHMENT_LOCAL
+NS_STYLE_IMAGELAYER_ATTACHMENT_LOCAL
 =
 =
 aLayer
@@ -14907,7 +14907,7 @@ aLayer
 mOrigin
 =
 =
-NS_STYLE_BG_ORIGIN_BORDER
+NS_STYLE_IMAGELAYER_ORIGIN_BORDER
 )
 {
 nsMargin
@@ -14960,7 +14960,7 @@ aLayer
 mOrigin
 !
 =
-NS_STYLE_BG_ORIGIN_PADDING
+NS_STYLE_IMAGELAYER_ORIGIN_PADDING
 )
 {
 nsMargin
@@ -14999,7 +14999,7 @@ aLayer
 mOrigin
 =
 =
-NS_STYLE_BG_ORIGIN_CONTENT
+NS_STYLE_IMAGELAYER_ORIGIN_CONTENT
 "
 unknown
 background
@@ -15084,7 +15084,7 @@ aLayer
 mOrigin
 !
 =
-NS_STYLE_BG_ORIGIN_BORDER
+NS_STYLE_IMAGELAYER_ORIGIN_BORDER
 &
 &
 geometryFrame
@@ -15107,7 +15107,7 @@ aLayer
 mOrigin
 !
 =
-NS_STYLE_BG_ORIGIN_PADDING
+NS_STYLE_IMAGELAYER_ORIGIN_PADDING
 )
 {
 border
@@ -15127,7 +15127,7 @@ aLayer
 mOrigin
 =
 =
-NS_STYLE_BG_ORIGIN_CONTENT
+NS_STYLE_IMAGELAYER_ORIGIN_CONTENT
 "
 unknown
 background
@@ -15154,7 +15154,7 @@ aForFrame
 ;
 if
 (
-NS_STYLE_BG_ATTACHMENT_FIXED
+NS_STYLE_IMAGELAYER_ATTACHMENT_FIXED
 =
 =
 aLayer
@@ -15479,7 +15479,7 @@ nsBackgroundLayerState
 nsCSSRendering
 :
 :
-PrepareBackgroundLayer
+PrepareImageLayer
 (
 nsPresContext
 *
@@ -15585,7 +15585,7 @@ aForFrame
 nsRect
 bgPositioningArea
 =
-ComputeBackgroundPositioningArea
+ComputeImageLayerPositioningArea
 (
 aPresContext
 aForFrame
@@ -15605,7 +15605,7 @@ imageTopLeft
 ;
 if
 (
-NS_STYLE_BG_ATTACHMENT_FIXED
+NS_STYLE_IMAGELAYER_ATTACHMENT_FIXED
 =
 =
 aLayer
@@ -15804,7 +15804,7 @@ if
 repeatX
 =
 =
-NS_STYLE_BG_REPEAT_REPEAT
+NS_STYLE_IMAGELAYER_REPEAT_REPEAT
 )
 {
 state
@@ -15840,7 +15840,7 @@ if
 repeatY
 =
 =
-NS_STYLE_BG_REPEAT_REPEAT
+NS_STYLE_IMAGELAYER_REPEAT_REPEAT
 )
 {
 state
@@ -15985,7 +15985,7 @@ skipSides
 nsBackgroundLayerState
 state
 =
-PrepareBackgroundLayer
+PrepareImageLayer
 (
 aPresContext
 aForFrame
