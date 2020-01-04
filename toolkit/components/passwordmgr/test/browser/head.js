@@ -123,11 +123,9 @@ http
 :
 /
 /
-mochi
+example
 .
-test
-:
-8888
+com
 "
 )
 {
