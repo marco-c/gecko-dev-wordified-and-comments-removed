@@ -1133,7 +1133,10 @@ mLastScrollOffset
 LayerToParentLayerMatrix4x4
 mTransformToCompBounds
 ;
+Maybe
+<
 LayerIntRect
+>
 mCriticalDisplayPort
 ;
 CSSToParentLayerScale2D
