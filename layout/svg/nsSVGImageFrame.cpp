@@ -205,15 +205,11 @@ mFrame
 ;
 }
 ;
-typedef
-nsSVGPathGeometryFrame
-nsSVGImageFrameBase
-;
 class
 nsSVGImageFrame
 :
 public
-nsSVGImageFrameBase
+nsSVGPathGeometryFrame
 public
 nsIReflowCallback
 {
@@ -240,7 +236,7 @@ nsStyleContext
 aContext
 )
 :
-nsSVGImageFrameBase
+nsSVGPathGeometryFrame
 (
 aContext
 )
@@ -603,7 +599,7 @@ image
 "
 )
 ;
-nsSVGImageFrameBase
+nsSVGPathGeometryFrame
 :
 :
 Init
@@ -955,7 +951,7 @@ true
 }
 }
 return
-nsSVGImageFrameBase
+nsSVGPathGeometryFrame
 :
 :
 AttributeChanged
@@ -998,7 +994,7 @@ if
 imageLoader
 )
 {
-nsSVGImageFrameBase
+nsSVGPathGeometryFrame
 :
 :
 OnVisibilityChange
@@ -1019,7 +1015,7 @@ aNewVisibility
 aNonvisibleAction
 )
 ;
-nsSVGImageFrameBase
+nsSVGPathGeometryFrame
 :
 :
 OnVisibilityChange
