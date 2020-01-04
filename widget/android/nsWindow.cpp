@@ -9337,6 +9337,13 @@ InputContextAction
 aAction
 )
 {
+#
+ifdef
+MOZ_B2GDROID
+return
+;
+#
+endif
 nsWindow
 *
 top
