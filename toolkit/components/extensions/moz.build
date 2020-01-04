@@ -95,6 +95,11 @@ Extension
 jsm
 '
 '
+ExtensionAPI
+.
+jsm
+'
+'
 ExtensionContent
 .
 jsm

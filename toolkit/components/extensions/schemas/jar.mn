@@ -107,6 +107,15 @@ extensions
 /
 schemas
 /
+experiments
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 extension
 .
 json

@@ -112,6 +112,11 @@ AddonUpdateChecker
 jsm
 '
 '
+APIExtensionBootstrap
+.
+js
+'
+'
 Content
 .
 js
