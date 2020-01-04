@@ -116,9 +116,6 @@ test
 d
 topsrcdir
 /
-.
-.
-/
 gcc
 /
 bin
@@ -128,9 +125,6 @@ HOST_CC
 =
 "
 topsrcdir
-/
-.
-.
 /
 gcc
 /
@@ -142,9 +136,6 @@ HOST_CXX
 =
 "
 topsrcdir
-/
-.
-.
 /
 gcc
 /
