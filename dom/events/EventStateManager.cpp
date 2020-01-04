@@ -12871,7 +12871,7 @@ mouseEvent
 }
 }
 case
-NS_POINTER_UP
+ePointerUp
 :
 {
 WidgetPointerEvent
@@ -17518,7 +17518,7 @@ targetElement
 break
 ;
 case
-NS_POINTER_UP
+ePointerUp
 :
 {
 nsCOMPtr

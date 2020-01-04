@@ -231,7 +231,7 @@ ePointerEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_POINTER_UP
+ePointerUp
 ePointerEventFirst
 +
 1

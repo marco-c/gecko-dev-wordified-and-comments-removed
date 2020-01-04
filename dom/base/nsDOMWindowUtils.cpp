@@ -3185,7 +3185,7 @@ pointerup
 {
 msg
 =
-NS_POINTER_UP
+ePointerUp
 ;
 }
 else

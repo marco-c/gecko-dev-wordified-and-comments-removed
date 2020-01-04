@@ -28102,7 +28102,7 @@ isPrimary
 break
 ;
 case
-NS_POINTER_UP
+ePointerUp
 :
 if
 (
@@ -29599,7 +29599,7 @@ eMouseUp
 :
 pointerMessage
 =
-NS_POINTER_UP
+ePointerUp
 ;
 break
 ;
@@ -29733,7 +29733,7 @@ NS_TOUCH_END
 :
 pointerMessage
 =
-NS_POINTER_UP
+ePointerUp
 ;
 break
 ;
@@ -33421,7 +33421,7 @@ pointerEvent
 mMessage
 =
 =
-NS_POINTER_UP
+ePointerUp
 |
 |
 pointerEvent
