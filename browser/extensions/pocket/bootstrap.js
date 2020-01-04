@@ -765,6 +765,7 @@ newChannel
 function
 (
 aURI
+aLoadInfo
 )
 {
 let
@@ -774,13 +775,12 @@ Services
 .
 io
 .
-newChannel
+newChannelFromURIWithLoadInfo
 (
 this
 .
 chromeURL
-null
-null
+aLoadInfo
 )
 ;
 channel
