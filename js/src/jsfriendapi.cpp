@@ -5315,7 +5315,10 @@ thing
 cellDesc
 )
 ;
-JS_TraceChildren
+js
+:
+:
+TraceChildren
 (
 dtrc
 thing

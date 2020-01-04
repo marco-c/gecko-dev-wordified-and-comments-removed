@@ -926,7 +926,10 @@ curnode
 =
 child
 ;
-JS_TraceChildren
+js
+:
+:
+TraceChildren
 (
 trc
 e
@@ -1554,7 +1557,10 @@ node
 =
 node
 ;
-JS_TraceChildren
+js
+:
+:
+TraceChildren
 (
 &
 cetrc
