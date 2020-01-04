@@ -195,6 +195,11 @@ inspector
 js
 '
 '
+layout
+.
+js
+'
+'
 node
 .
 js
