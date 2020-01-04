@@ -198,6 +198,15 @@ a2
 ;
 static
 MOZ_CONSTEXPR_VAR
+Register64
+ReturnReg64
+(
+InvalidReg
+InvalidReg
+)
+;
+static
+MOZ_CONSTEXPR_VAR
 FloatRegister
 ReturnFloat32Reg
 =
