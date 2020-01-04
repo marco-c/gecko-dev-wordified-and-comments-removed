@@ -167,12 +167,10 @@ MOZ_SHARED_ICU
 else
 MOZ_ICU_CFLAGS
 =
-'
+"
 -
 I
-(
-topsrcdir
-)
+_topsrcdir
 /
 intl
 /
@@ -183,9 +181,7 @@ source
 common
 -
 I
-(
-topsrcdir
-)
+_topsrcdir
 /
 intl
 /
@@ -194,7 +190,7 @@ icu
 source
 /
 i18n
-'
+"
 AC_SUBST_LIST
 (
 MOZ_ICU_CFLAGS
