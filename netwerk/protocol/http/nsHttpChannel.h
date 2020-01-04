@@ -1465,6 +1465,13 @@ ProcessSecurityHeaders
 (
 )
 ;
+void
+ProcessSecurityReport
+(
+nsresult
+status
+)
+;
 nsresult
 ProcessSingleSecurityHeader
 (
