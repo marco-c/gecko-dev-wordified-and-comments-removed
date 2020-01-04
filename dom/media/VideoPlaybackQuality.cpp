@@ -57,11 +57,11 @@ HTMLMediaElement
 aElement
 DOMHighResTimeStamp
 aCreationTime
-uint64_t
+uint32_t
 aTotalFrames
-uint64_t
+uint32_t
 aDroppedFrames
-uint64_t
+uint32_t
 aCorruptedFrames
 )
 :
