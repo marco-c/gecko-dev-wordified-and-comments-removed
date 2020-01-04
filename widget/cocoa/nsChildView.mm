@@ -9262,7 +9262,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsChildView
 :
 :
@@ -9282,7 +9282,6 @@ mPluginFocused
 )
 {
 return
-NS_OK
 ;
 }
 if
@@ -9319,9 +9318,6 @@ CancelComposition
 mPluginFocused
 =
 aFocused
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP_

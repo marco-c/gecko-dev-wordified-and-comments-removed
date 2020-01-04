@@ -843,7 +843,8 @@ aCommitted
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 SetPluginFocused
 (
 bool

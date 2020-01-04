@@ -3063,7 +3063,8 @@ aCommitted
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 SetPluginFocused
 (
 bool
