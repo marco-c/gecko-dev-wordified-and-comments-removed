@@ -407,6 +407,9 @@ new
 AnimationsTimeline
 (
 gInspector
+AnimationsController
+.
+traits
 )
 ;
 this

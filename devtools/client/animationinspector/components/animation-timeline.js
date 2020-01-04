@@ -108,6 +108,7 @@ function
 AnimationsTimeline
 (
 inspector
+serverTraits
 )
 {
 this
@@ -143,6 +144,12 @@ this
 inspector
 =
 inspector
+;
+this
+.
+serverTraits
+=
+serverTraits
 ;
 this
 .
@@ -611,6 +618,12 @@ null
 this
 .
 inspector
+=
+null
+;
+this
+.
+serverTraits
 =
 null
 ;
@@ -1445,6 +1458,9 @@ details
 new
 AnimationDetails
 (
+this
+.
+serverTraits
 )
 ;
 details

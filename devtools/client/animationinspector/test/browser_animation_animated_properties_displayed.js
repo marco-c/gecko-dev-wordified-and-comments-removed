@@ -219,7 +219,7 @@ propertiesList
 The
 list
 of
-proeprties
+properties
 panel
 contains
 the

@@ -96,7 +96,9 @@ clickKeyframe
 panel
 0
 "
-backgroundColor
+background
+-
+color
 "
 0
 )
