@@ -2647,17 +2647,6 @@ override
 ;
 virtual
 bool
-RecvGamepadUpdate
-(
-const
-GamepadChangeEvent
-&
-aGamepadEvent
-)
-override
-;
-virtual
-bool
 RecvSetAudioSessionData
 (
 const

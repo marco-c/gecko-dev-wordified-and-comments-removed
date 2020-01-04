@@ -102,6 +102,10 @@ PFileSystemRequest
 ;
 include
 protocol
+PGamepadEventChannel
+;
+include
+protocol
 PMessagePort
 ;
 include
@@ -271,6 +275,9 @@ PFileDescriptorSet
 ;
 manages
 PFileSystemRequest
+;
+manages
+PGamepadEventChannel
 ;
 manages
 PMessagePort
@@ -445,6 +452,11 @@ PFileSystemRequest
 (
 FileSystemParams
 params
+)
+;
+async
+PGamepadEventChannel
+(
 )
 ;
 child

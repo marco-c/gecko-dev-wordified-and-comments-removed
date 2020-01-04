@@ -18,7 +18,7 @@ namespace
 dom
 {
 class
-GamepadService
+GamepadManager
 ;
 class
 GamepadServiceTest
@@ -52,7 +52,7 @@ sSingleton
 ;
 RefPtr
 <
-GamepadService
+GamepadManager
 >
 mService
 ;
