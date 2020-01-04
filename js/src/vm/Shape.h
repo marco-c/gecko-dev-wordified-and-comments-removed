@@ -3958,6 +3958,11 @@ JSTracer
 trc
 )
 ;
+void
+updateBaseShapeAfterMovingGC
+(
+)
+;
 static
 inline
 size_t
