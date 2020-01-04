@@ -1819,12 +1819,11 @@ in
 path
         
 if
-self
-.
-copier
+JarFormatter
 .
 contains
 (
+self
 path
 )
 :
