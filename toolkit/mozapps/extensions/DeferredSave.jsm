@@ -62,7 +62,7 @@ jsm
 "
 )
 ;
-let
+var
 MakeTimer
 =
 (
@@ -130,7 +130,7 @@ DEFERREDSAVE_PARENT_LOGGER_ID
 DeferredSave
 "
 ;
-let
+var
 parentLogger
 =
 Log
@@ -152,7 +152,7 @@ Level
 .
 Warn
 ;
-let
+var
 formatter
 =
 new

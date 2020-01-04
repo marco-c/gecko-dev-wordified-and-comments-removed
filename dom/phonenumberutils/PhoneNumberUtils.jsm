@@ -1408,7 +1408,7 @@ name
 }
 }
 ;
-let
+var
 inParent
 =
 Cc

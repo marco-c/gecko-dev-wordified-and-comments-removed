@@ -17,7 +17,7 @@ blocklist
 xul
 "
 ;
-let
+var
 args
 =
 {

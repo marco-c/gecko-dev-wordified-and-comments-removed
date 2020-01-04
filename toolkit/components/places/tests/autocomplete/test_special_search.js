@@ -1,4 +1,4 @@
-let
+var
 kURIs
 =
 [
@@ -130,7 +130,7 @@ tag
 "
 ]
 ;
-let
+var
 kTitles
 =
 [
@@ -265,7 +265,7 @@ markTyped
 1
 )
 ;
-let
+var
 gTests
 =
 [

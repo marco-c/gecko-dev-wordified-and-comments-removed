@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 {
 Class
 }
@@ -19,7 +19,7 @@ heritage
 "
 )
 ;
-let
+var
 StackFrameCache
 =
 Class

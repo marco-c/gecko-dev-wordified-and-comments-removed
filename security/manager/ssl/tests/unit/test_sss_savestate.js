@@ -13,7 +13,7 @@ EXPECTED_HPKP_COLUMNS
 =
 4
 ;
-let
+var
 gProfileDir
 =
 null

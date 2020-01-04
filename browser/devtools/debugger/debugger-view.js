@@ -296,7 +296,7 @@ listeners
 .
 actions
 ;
-let
+var
 DebuggerView
 =
 {

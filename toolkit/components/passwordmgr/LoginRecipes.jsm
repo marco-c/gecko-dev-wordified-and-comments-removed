@@ -990,7 +990,7 @@ hostRecipes
 }
 }
 ;
-let
+var
 LoginRecipesContent
 =
 {

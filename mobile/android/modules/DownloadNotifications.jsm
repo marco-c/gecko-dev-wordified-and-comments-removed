@@ -191,7 +191,7 @@ nsIParentalControlsService
 "
 )
 ;
-let
+var
 Log
 =
 Cu
@@ -354,7 +354,7 @@ alertDownloadsCancel
 )
 }
 ;
-let
+var
 notifications
 =
 new
@@ -1552,7 +1552,7 @@ null
 }
 }
 ;
-let
+var
 ConfirmCancelPrompt
 =
 {

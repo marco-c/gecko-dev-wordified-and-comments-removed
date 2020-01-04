@@ -67,7 +67,7 @@ finishcb
 )
 ;
 }
-let
+var
 gProviders
 =
 [

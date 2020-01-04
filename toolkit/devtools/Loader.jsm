@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 {
 Constructor
 :
@@ -128,7 +128,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 Loader
 }
@@ -158,7 +158,7 @@ js
 }
 )
 ;
-let
+var
 promise
 =
 Cu
@@ -209,7 +209,7 @@ loader
 "
 ]
 ;
-let
+var
 loaderModules
 =
 {
@@ -453,7 +453,7 @@ return
 }
 )
 ;
-let
+var
 sharedGlobalBlacklist
 =
 [

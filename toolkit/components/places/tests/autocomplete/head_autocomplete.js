@@ -87,7 +87,7 @@ this
 )
 ;
 }
-let
+var
 current_test
 =
 0
@@ -228,7 +228,7 @@ aSpec
 )
 ;
 }
-let
+var
 appendTags
 =
 true
@@ -891,7 +891,7 @@ Ci
 nsIPrefBranch
 )
 ;
-let
+var
 gDate
 =
 new
@@ -912,13 +912,13 @@ now
 *
 1000
 ;
-let
+var
 gPages
 =
 [
 ]
 ;
-let
+var
 gNextTestSetupTasks
 =
 [

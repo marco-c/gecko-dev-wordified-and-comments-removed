@@ -10,7 +10,7 @@ head
 js
 '
 ;
-let
+var
 MANIFEST_URL
 =
 "
@@ -29,7 +29,7 @@ manifest
 webapp
 "
 ;
-let
+var
 INCORRECT_MANIFEST_URL
 =
 "
@@ -1017,7 +1017,7 @@ P2P_RE_INDEX_0
 )
 ;
 }
-let
+var
 tests
 =
 [

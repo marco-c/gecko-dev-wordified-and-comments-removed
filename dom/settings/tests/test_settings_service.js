@@ -121,7 +121,7 @@ nsISettingsService
 "
 )
 ;
-let
+var
 tests
 =
 [

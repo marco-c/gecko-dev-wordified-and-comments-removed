@@ -449,13 +449,13 @@ FILE_FOOTER
 n
 "
 ;
-let
+var
 errorTable
 =
 {
 }
 ;
-let
+var
 errorWithoutFallbacks
 =
 {

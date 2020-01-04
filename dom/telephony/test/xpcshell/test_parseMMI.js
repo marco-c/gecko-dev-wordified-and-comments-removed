@@ -1,4 +1,4 @@
-let
+var
 TS
 =
 {
@@ -24,7 +24,7 @@ js
 TS
 )
 ;
-let
+var
 NS
 =
 {

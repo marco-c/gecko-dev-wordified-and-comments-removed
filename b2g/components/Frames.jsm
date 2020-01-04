@@ -699,7 +699,7 @@ n
 }
 }
 ;
-let
+var
 Frames
 =
 this

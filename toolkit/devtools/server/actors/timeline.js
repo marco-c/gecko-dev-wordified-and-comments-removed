@@ -137,7 +137,7 @@ v
 }
 )
 ;
-let
+var
 TimelineActor
 =
 exports

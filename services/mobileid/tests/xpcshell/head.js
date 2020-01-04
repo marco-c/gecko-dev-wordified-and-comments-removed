@@ -754,7 +754,7 @@ MOBILEID_PERM
 )
 ;
 }
-let
+var
 Mock
 =
 function
@@ -1084,7 +1084,7 @@ aMethod
 }
 }
 ;
-let
+var
 MockUi
 =
 function
@@ -1264,7 +1264,7 @@ aCallback
 }
 }
 ;
-let
+var
 MockCredStore
 =
 function
@@ -1557,7 +1557,7 @@ resolve
 }
 }
 ;
-let
+var
 MockClient
 =
 function
@@ -2008,7 +2008,7 @@ glue
 1
 "
 ;
-let
+var
 fakeMobileIdentityUIGlueFactory
 =
 {
@@ -2031,7 +2031,7 @@ aIid
 }
 }
 ;
-let
+var
 MobileIdentityUIGlue
 =
 {
@@ -2123,7 +2123,7 @@ info
 1
 "
 ;
-let
+var
 XULAppInfo
 =
 {
@@ -2206,7 +2206,7 @@ nsIXULRuntime
 )
 }
 ;
-let
+var
 XULAppInfoFactory
 =
 {

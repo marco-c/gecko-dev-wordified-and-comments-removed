@@ -13,7 +13,7 @@ read
 "
 ]
 ;
-let
+var
 {
 results
 :
@@ -28,7 +28,7 @@ Ci
 =
 Components
 ;
-let
+var
 SharedAll
 =
 Cu
@@ -54,7 +54,7 @@ jsm
 }
 )
 ;
-let
+var
 SysAll
 =
 {
@@ -146,7 +146,7 @@ system
 )
 ;
 }
-let
+var
 {
 Promise
 }
@@ -172,7 +172,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 XPCOMUtils
 }

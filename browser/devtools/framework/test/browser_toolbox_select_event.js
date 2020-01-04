@@ -1,4 +1,4 @@
-let
+var
 toolbox
 ;
 function
@@ -52,7 +52,7 @@ testSelect
 )
 ;
 }
-let
+var
 called
 =
 {

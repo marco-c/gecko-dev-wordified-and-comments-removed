@@ -33,7 +33,7 @@ finish
 )
 ;
 }
-let
+var
 telephony
 =
 window

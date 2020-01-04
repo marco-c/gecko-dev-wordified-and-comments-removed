@@ -124,7 +124,7 @@ HealthReport
 Response
 "
 ;
-let
+var
 sharedPrefs
 =
 SharedPreferences
@@ -133,7 +133,7 @@ forApp
 (
 )
 ;
-let
+var
 healthReportWrapper
 =
 {

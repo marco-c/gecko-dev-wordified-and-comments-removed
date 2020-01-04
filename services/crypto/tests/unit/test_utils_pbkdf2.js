@@ -47,7 +47,7 @@ js
 "
 )
 ;
-let
+var
 {
 bytesAsHex
 :

@@ -129,7 +129,7 @@ general
 /
 "
 ;
-let
+var
 changedPrefs
 =
 new
@@ -189,7 +189,7 @@ name
 }
 )
 ;
-let
+var
 gTests
 =
 [

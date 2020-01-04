@@ -59,7 +59,7 @@ jsm
 "
 )
 ;
-let
+var
 RSM
 =
 {
@@ -176,7 +176,7 @@ nsIStkCmdFactory
 "
 )
 ;
-let
+var
 DEBUG
 =
 false

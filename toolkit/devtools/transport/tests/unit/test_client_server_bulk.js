@@ -1,4 +1,4 @@
-let
+var
 {
 FileUtils
 }
@@ -24,7 +24,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 NetUtil
 }
@@ -50,7 +50,7 @@ jsm
 }
 )
 ;
-let
+var
 Pipe
 =
 CC
@@ -577,7 +577,7 @@ TestBulkActor
 )
 ;
 }
-let
+var
 replyHandlers
 =
 {
@@ -761,7 +761,7 @@ promise
 }
 }
 ;
-let
+var
 test_bulk_request_cs
 =
 Task
@@ -1078,7 +1078,7 @@ promise
 }
 )
 ;
-let
+var
 test_json_request_cs
 =
 Task

@@ -37,7 +37,7 @@ dir
 method
 "
 ;
-let
+var
 test
 =
 asyncTest

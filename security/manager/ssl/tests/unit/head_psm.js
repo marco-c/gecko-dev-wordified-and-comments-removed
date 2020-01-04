@@ -29,7 +29,7 @@ Cr
 =
 Components
 ;
-let
+var
 {
 NetUtil
 }
@@ -55,7 +55,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 FileUtils
 }
@@ -81,7 +81,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Services
 }
@@ -107,7 +107,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Promise
 }
@@ -133,7 +133,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 HttpServer
 }
@@ -159,7 +159,7 @@ js
 }
 )
 ;
-let
+var
 {
 ctypes
 }
@@ -183,7 +183,7 @@ jsm
 "
 )
 ;
-let
+var
 gIsWindows
 =
 (
@@ -3416,7 +3416,7 @@ callback
 }
 ;
 }
-let
+var
 FakeSSLStatus
 =
 function

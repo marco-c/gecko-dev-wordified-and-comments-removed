@@ -161,7 +161,7 @@ promise
 "
 )
 ;
-let
+var
 gScratchpadWindow
 ;
 DevToolsUtils

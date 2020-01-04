@@ -278,7 +278,7 @@ xpi
 utils
 "
 ;
-let
+var
 logger
 =
 Log

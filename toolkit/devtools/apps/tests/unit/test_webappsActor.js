@@ -8,7 +8,7 @@ promise
 "
 )
 ;
-let
+var
 gAppId
 =
 "
@@ -795,7 +795,7 @@ run_next_test
 }
 )
 ;
-let
+var
 red1px
 =
 "
@@ -809,7 +809,7 @@ base64
 iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4z8AAAAMBAQAY3Y2wAAAAAElFTkSuQmCC
 "
 ;
-let
+var
 blue1px
 =
 "

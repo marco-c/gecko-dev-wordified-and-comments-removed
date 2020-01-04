@@ -420,7 +420,7 @@ data
 }
 )
 ;
-let
+var
 gUniqueStacks
 =
 new
@@ -445,7 +445,7 @@ s
 )
 ;
 }
-let
+var
 gThread
 =
 RecordingUtils
@@ -618,7 +618,7 @@ markers
 gUniqueStacks
 )
 ;
-let
+var
 gRawSite1
 =
 {
@@ -784,7 +784,7 @@ SomeGetter3
 }
 }
 ;
-let
+var
 gRawSite2
 =
 {

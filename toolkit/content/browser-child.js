@@ -1,18 +1,18 @@
-let
+var
 Cc
 =
 Components
 .
 classes
 ;
-let
+var
 Ci
 =
 Components
 .
 interfaces
 ;
-let
+var
 Cu
 =
 Components
@@ -216,7 +216,7 @@ return
 stream
 ;
 }
-let
+var
 WebProgressListener
 =
 {
@@ -1186,7 +1186,7 @@ uninit
 }
 )
 ;
-let
+var
 WebNavigation
 =
 {
@@ -1739,7 +1739,7 @@ init
 (
 )
 ;
-let
+var
 SecurityUI
 =
 {
@@ -1821,7 +1821,7 @@ null
 }
 }
 ;
-let
+var
 ControllerCommands
 =
 {
@@ -2642,7 +2642,7 @@ result
 }
 )
 ;
-let
+var
 AddonsChild
 =
 RemoteAddonsChild
@@ -2738,7 +2738,7 @@ adjustment
 }
 )
 ;
-let
+var
 AutoCompletePopup
 =
 {
@@ -3101,7 +3101,7 @@ page
 ;
 }
 }
-let
+var
 outerWindowID
 =
 content
@@ -3122,7 +3122,7 @@ nsIDOMWindowUtils
 .
 outerWindowID
 ;
-let
+var
 initData
 =
 sendSyncMessage

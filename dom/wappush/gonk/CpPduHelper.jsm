@@ -21,7 +21,7 @@ Cr
 =
 Components
 ;
-let
+var
 WSP
 =
 {
@@ -47,7 +47,7 @@ jsm
 WSP
 )
 ;
-let
+var
 WBXML
 =
 {
@@ -111,7 +111,7 @@ js
 "
 )
 ;
-let
+var
 DEBUG
 =
 WBXML
@@ -3159,7 +3159,7 @@ names
 (
 )
 ;
-let
+var
 debug
 ;
 if

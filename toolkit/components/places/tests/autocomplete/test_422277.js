@@ -1,4 +1,4 @@
-let
+var
 kURIs
 =
 [
@@ -14,7 +14,7 @@ EAid
 "
 ]
 ;
-let
+var
 kTitles
 =
 [
@@ -29,7 +29,7 @@ addPageBook
 0
 )
 ;
-let
+var
 gTests
 =
 [

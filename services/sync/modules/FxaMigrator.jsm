@@ -185,7 +185,7 @@ js
 "
 )
 ;
-let
+var
 fxAccountsCommon
 =
 {
@@ -2923,7 +2923,7 @@ fxaMigrator
 "
 ]
 ;
-let
+var
 fxaMigrator
 =
 new

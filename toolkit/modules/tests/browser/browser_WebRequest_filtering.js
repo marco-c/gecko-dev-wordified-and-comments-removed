@@ -21,7 +21,7 @@ Cr
 =
 Components
 ;
-let
+var
 {
 WebRequest
 }
@@ -47,7 +47,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 MatchPattern
 }
@@ -108,7 +108,7 @@ file_WebRequest_page2
 html
 "
 ;
-let
+var
 requested
 =
 [
@@ -153,7 +153,7 @@ url
 ;
 }
 }
-let
+var
 sendHeaders
 =
 [
@@ -198,7 +198,7 @@ url
 ;
 }
 }
-let
+var
 completed
 =
 [

@@ -52,7 +52,7 @@ webaudio
 "
 )
 ;
-let
+var
 Promise
 =
 require

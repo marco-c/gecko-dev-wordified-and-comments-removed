@@ -196,7 +196,7 @@ return
 result
 ;
 }
-let
+var
 urls
 =
 [

@@ -38,7 +38,7 @@ injectLoopAPI
 }
 )
 ;
-let
+var
 handlers
 =
 [
@@ -147,7 +147,7 @@ listener
 )
 ;
 }
-let
+var
 createdTabs
 =
 [

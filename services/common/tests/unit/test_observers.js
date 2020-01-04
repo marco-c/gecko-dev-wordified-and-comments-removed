@@ -19,7 +19,7 @@ js
 "
 )
 ;
-let
+var
 gSubject
 =
 {

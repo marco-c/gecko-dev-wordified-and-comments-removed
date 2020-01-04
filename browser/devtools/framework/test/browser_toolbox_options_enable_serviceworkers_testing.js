@@ -62,7 +62,7 @@ enable
 serviceWorkersTesting
 "
 ;
-let
+var
 toolbox
 ;
 function

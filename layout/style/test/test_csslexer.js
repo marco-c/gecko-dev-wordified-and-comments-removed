@@ -148,7 +148,7 @@ cssText
 )
 ;
 }
-let
+var
 LEX_TESTS
 =
 [
@@ -752,7 +752,7 @@ length
 )
 ;
 }
-let
+var
 LINECOL_TESTS
 =
 [

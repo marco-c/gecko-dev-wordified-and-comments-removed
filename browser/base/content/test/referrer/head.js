@@ -126,12 +126,12 @@ file_referrer_policyserver
 sjs
 "
 ;
-let
+var
 gTestWindow
 =
 null
 ;
-let
+var
 _referrerTests
 =
 [

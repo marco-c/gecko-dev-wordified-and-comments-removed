@@ -25,7 +25,7 @@ actor_events_form
 js
 "
 ;
-let
+var
 {
 ActorRegistryFront
 }
@@ -45,7 +45,7 @@ registry
 "
 )
 ;
-let
+var
 {
 EventsFormFront
 }

@@ -29,7 +29,7 @@ jsm
 "
 )
 ;
-let
+var
 gStringBundle
 =
 Services
@@ -542,7 +542,7 @@ state
 }
 }
 ;
-let
+var
 gPermissionObject
 =
 {

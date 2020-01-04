@@ -125,7 +125,7 @@ STATUS_SUCCESS
 =
 200
 ;
-let
+var
 mockResponse
 =
 function
@@ -184,7 +184,7 @@ Request
 ;
 }
 ;
-let
+var
 mockResponseError
 =
 function
@@ -226,7 +226,7 @@ error
 ;
 }
 ;
-let
+var
 mockClient
 =
 function
@@ -321,7 +321,7 @@ ACCOUNT_DATA
 }
 }
 ;
-let
+var
 mockFxa
 =
 function

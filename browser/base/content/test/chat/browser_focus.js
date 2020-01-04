@@ -118,7 +118,7 @@ chat
 content
 ;
 }
-let
+var
 chatbar
 =
 document

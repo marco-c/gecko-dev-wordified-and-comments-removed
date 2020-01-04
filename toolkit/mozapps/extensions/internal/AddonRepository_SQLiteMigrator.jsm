@@ -207,7 +207,7 @@ repository
 sqlmigrator
 "
 ;
-let
+var
 logger
 =
 Log

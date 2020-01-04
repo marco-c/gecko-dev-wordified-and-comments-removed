@@ -24,7 +24,7 @@ directly
 ]
 )
 ;
-let
+var
 p
 =
 document
@@ -89,7 +89,7 @@ expected
 ]
 )
 ;
-let
+var
 div
 =
 document

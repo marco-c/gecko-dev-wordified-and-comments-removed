@@ -455,7 +455,7 @@ OVERDUE_PING_FILE_AGE
 *
 MS_IN_A_MINUTE
 ;
-let
+var
 Policy
 =
 {
@@ -996,7 +996,7 @@ getShutdownState
 }
 }
 ;
-let
+var
 CancellableTimeout
 =
 {
@@ -1143,7 +1143,7 @@ null
 }
 }
 ;
-let
+var
 SendScheduler
 =
 {
@@ -2369,7 +2369,7 @@ _backoffDelay
 }
 }
 ;
-let
+var
 TelemetrySendImpl
 =
 {

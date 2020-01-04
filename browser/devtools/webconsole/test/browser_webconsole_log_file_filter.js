@@ -35,10 +35,10 @@ bug_923281_console_log_filter
 html
 "
 ;
-let
+var
 hud
 ;
-let
+var
 test
 =
 asyncTest

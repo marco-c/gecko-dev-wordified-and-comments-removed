@@ -976,7 +976,7 @@ jsm
 "
 )
 ;
-let
+var
 gDebuggingEnabled
 =
 false
@@ -1638,7 +1638,7 @@ freeze
 SessionStore
 )
 ;
-let
+var
 SessionStoreInternal
 =
 {
@@ -16498,7 +16498,7 @@ permanentKey
 }
 }
 ;
-let
+var
 TabRestoreQueue
 =
 {
@@ -17177,7 +17177,7 @@ found
 }
 }
 ;
-let
+var
 DyingWindowCache
 =
 {
@@ -17261,7 +17261,7 @@ window
 }
 }
 ;
-let
+var
 DirtyWindows
 =
 {
@@ -17343,7 +17343,7 @@ clear
 }
 }
 ;
-let
+var
 LastSession
 =
 {

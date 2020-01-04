@@ -37,7 +37,7 @@ INPUT_HISTORY_COUNT
 =
 10
 ;
-let
+var
 test
 =
 asyncTest

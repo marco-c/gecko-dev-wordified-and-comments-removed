@@ -1,13 +1,13 @@
-let
+var
 gLeftPaneFolderIdGetter
 ;
-let
+var
 gAllBookmarksFolderIdGetter
 ;
-let
+var
 gReferenceHierarchy
 ;
-let
+var
 gLeftPaneFolderId
 ;
 add_task
@@ -295,7 +295,7 @@ test
 }
 )
 ;
-let
+var
 gTests
 =
 [

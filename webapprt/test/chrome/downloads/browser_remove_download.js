@@ -17,14 +17,14 @@ jsm
 "
 )
 ;
-let
+var
 list
 =
 MockDownloadsModule
 (
 )
 ;
-let
+var
 download
 =
 new
@@ -35,7 +35,7 @@ test
 "
 )
 ;
-let
+var
 removedDownload
 =
 new
@@ -46,7 +46,7 @@ removed
 "
 )
 ;
-let
+var
 winObserver
 =
 function

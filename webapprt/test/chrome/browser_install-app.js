@@ -17,7 +17,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 WebappOSUtils
 }
@@ -43,7 +43,7 @@ jsm
 }
 )
 ;
-let
+var
 url
 =
 "

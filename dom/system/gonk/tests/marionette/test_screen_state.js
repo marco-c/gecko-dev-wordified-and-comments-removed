@@ -2,7 +2,7 @@ MARIONETTE_TIMEOUT
 =
 10000
 ;
-let
+var
 Services
 =
 SpecialPowers
@@ -151,7 +151,7 @@ enabled
 )
 ;
 }
-let
+var
 tests
 =
 [

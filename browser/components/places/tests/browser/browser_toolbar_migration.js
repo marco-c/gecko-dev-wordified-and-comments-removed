@@ -1,4 +1,4 @@
-let
+var
 bg
 =
 Cc
@@ -23,7 +23,7 @@ Ci
 nsIObserver
 )
 ;
-let
+var
 gOriginalMigrationVersion
 ;
 const
@@ -33,7 +33,7 @@ getBrowserURL
 (
 )
 ;
-let
+var
 localStore
 =
 {
@@ -133,7 +133,7 @@ aProperty
 }
 }
 ;
-let
+var
 gTests
 =
 [

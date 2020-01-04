@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 os
 =
 require
@@ -15,7 +15,7 @@ os
 "
 )
 ;
-let
+var
 system
 =
 require

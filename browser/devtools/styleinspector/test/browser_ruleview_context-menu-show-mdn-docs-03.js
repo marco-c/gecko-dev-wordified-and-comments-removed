@@ -543,7 +543,7 @@ message
 )
 ;
 }
-let
+var
 rootElement
 =
 view

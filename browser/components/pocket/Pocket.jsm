@@ -111,7 +111,7 @@ jsm
 "
 )
 ;
-let
+var
 Pocket
 =
 {

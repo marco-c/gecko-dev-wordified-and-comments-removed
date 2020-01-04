@@ -41,10 +41,10 @@ jsm
 "
 )
 ;
-let
+var
 numTokenFetches
 ;
-let
+var
 activeTokens
 ;
 function

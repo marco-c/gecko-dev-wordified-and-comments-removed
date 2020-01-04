@@ -48,7 +48,7 @@ filter
 .
 "
 ;
-let
+var
 test
 =
 asyncTest

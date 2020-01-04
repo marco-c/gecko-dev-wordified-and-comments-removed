@@ -46,7 +46,7 @@ tool
 2
 "
 ;
-let
+var
 tempScope
 =
 {
@@ -76,7 +76,7 @@ js
 tempScope
 )
 ;
-let
+var
 EventEmitter
 =
 tempScope

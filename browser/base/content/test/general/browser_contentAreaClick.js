@@ -1,4 +1,4 @@
-let
+var
 gTests
 =
 [
@@ -776,7 +776,7 @@ true
 }
 ]
 ;
-let
+var
 gReplacedMethods
 =
 [
@@ -803,18 +803,18 @@ getShortcutOrURIAndPostData
 "
 ]
 ;
-let
+var
 gTestWin
 =
 null
 ;
-let
+var
 gInvokedMethods
 =
 [
 ]
 ;
-let
+var
 gCurrentTest
 =
 null
@@ -933,7 +933,7 @@ gTestWin
 )
 ;
 }
-let
+var
 gClickHandler
 =
 {

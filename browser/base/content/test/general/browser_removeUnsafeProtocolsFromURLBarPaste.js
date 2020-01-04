@@ -12,7 +12,7 @@ testNext
 )
 ;
 }
-let
+var
 pairs
 =
 [
@@ -250,7 +250,7 @@ hi
 ]
 ]
 ;
-let
+var
 clipboardHelper
 =
 Cc

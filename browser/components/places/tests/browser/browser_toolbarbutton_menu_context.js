@@ -1,4 +1,4 @@
-let
+var
 bookmarksMenuButton
 =
 document
@@ -14,7 +14,7 @@ button
 "
 )
 ;
-let
+var
 BMB_menuPopup
 =
 document
@@ -26,7 +26,7 @@ BMB_bookmarksPopup
 "
 )
 ;
-let
+var
 BMB_showAllBookmarks
 =
 document
@@ -38,7 +38,7 @@ BMB_bookmarksShowAll
 "
 )
 ;
-let
+var
 contextMenu
 =
 document
@@ -50,7 +50,7 @@ placesContext
 "
 )
 ;
-let
+var
 newBookmarkItem
 =
 document

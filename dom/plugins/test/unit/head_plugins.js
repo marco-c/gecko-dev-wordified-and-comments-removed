@@ -802,7 +802,7 @@ return
 null
 ;
 }
-let
+var
 gGlobalScope
 =
 this

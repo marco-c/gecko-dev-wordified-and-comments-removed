@@ -46,7 +46,7 @@ test
 /
 "
 ;
-let
+var
 {
 require
 }
@@ -74,7 +74,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 console
 }
@@ -98,7 +98,7 @@ jsm
 "
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -112,7 +112,7 @@ DevToolsUtils
 "
 )
 ;
-let
+var
 testDir
 =
 gTestPath

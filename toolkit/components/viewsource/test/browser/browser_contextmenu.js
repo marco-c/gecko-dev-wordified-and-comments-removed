@@ -1,4 +1,4 @@
-let
+var
 source
 =
 "
@@ -51,13 +51,13 @@ a
 >
 "
 ;
-let
+var
 gViewSourceWindow
 gContextMenu
 gCopyLinkMenuItem
 gCopyEmailMenuItem
 ;
-let
+var
 expectedData
 =
 [

@@ -87,7 +87,7 @@ js
 "
 )
 ;
-let
+var
 engine
 =
 new
@@ -96,7 +96,7 @@ BookmarksEngine
 Service
 )
 ;
-let
+var
 store
 =
 engine

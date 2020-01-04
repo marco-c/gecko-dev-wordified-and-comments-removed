@@ -128,7 +128,7 @@ extensions
 "
 )
 ;
-let
+var
 addonIDs
 =
 [

@@ -1,4 +1,4 @@
-let
+var
 manifests
 =
 [
@@ -19,7 +19,7 @@ registerManifests
 manifests
 )
 ;
-let
+var
 XULAppInfoFactory
 =
 {

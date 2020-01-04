@@ -313,7 +313,7 @@ environment
 .
 env
 ;
-let
+var
 forcedExit
 =
 false
@@ -468,7 +468,7 @@ E_FORCE
 ;
 }
 ;
-let
+var
 stdout
 =
 Object

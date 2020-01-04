@@ -113,7 +113,7 @@ Langpacks
 "
 ]
 ;
-let
+var
 debug
 ;
 function

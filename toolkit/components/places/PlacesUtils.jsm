@@ -9171,7 +9171,7 @@ conn
 )
 )
 ;
-let
+var
 Keywords
 =
 {
@@ -10143,7 +10143,7 @@ this
 }
 }
 ;
-let
+var
 gIgnoreKeywordNotifications
 =
 false
@@ -10633,7 +10633,7 @@ cache
 )
 )
 ;
-let
+var
 GuidHelper
 =
 {

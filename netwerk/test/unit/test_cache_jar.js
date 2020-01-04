@@ -663,7 +663,7 @@ undefined
 ;
 }
 }
-let
+var
 gTests
 ;
 function

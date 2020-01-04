@@ -119,7 +119,7 @@ Ci
 .
 nsIDownloadManager
 ;
-let
+var
 gTestTargetFile
 =
 FileUtils

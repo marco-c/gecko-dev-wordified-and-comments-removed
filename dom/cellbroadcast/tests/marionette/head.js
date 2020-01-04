@@ -887,7 +887,7 @@ messageClass
 ]
 ;
 }
-let
+var
 cbManager
 ;
 function
@@ -1083,7 +1083,7 @@ deferred
 promise
 ;
 }
-let
+var
 pendingEmulatorCmdCount
 =
 0

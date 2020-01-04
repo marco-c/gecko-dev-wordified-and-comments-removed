@@ -1692,7 +1692,7 @@ inc
 "
 ;
 }
-let
+var
 trustAnchorsFile
 =
 FileUtils
@@ -1707,7 +1707,7 @@ FILENAME_TRUST_ANCHORS
 ]
 )
 ;
-let
+var
 rootHashesFile
 =
 Cc
@@ -1742,7 +1742,7 @@ arguments
 ]
 )
 ;
-let
+var
 gTrustAnchors
 =
 loadTrustAnchors
@@ -1817,7 +1817,7 @@ return
 }
 )
 ;
-let
+var
 rootHashesFileOutputStream
 =
 FileUtils

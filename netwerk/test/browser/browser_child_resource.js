@@ -120,7 +120,7 @@ return
 dir
 ;
 }
-let
+var
 CrashObserver
 =
 {
@@ -765,7 +765,7 @@ uri
 )
 ;
 }
-let
+var
 loadTestTab
 =
 Task
@@ -838,7 +838,7 @@ browser
 }
 )
 ;
-let
+var
 restart
 =
 Task

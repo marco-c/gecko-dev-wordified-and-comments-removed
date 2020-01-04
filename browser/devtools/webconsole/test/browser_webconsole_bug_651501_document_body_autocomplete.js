@@ -31,10 +31,10 @@ document
 body
 "
 ;
-let
+var
 gHUD
 ;
-let
+var
 test
 =
 asyncTest

@@ -1,4 +1,4 @@
-let
+var
 {
 Promise
 :
@@ -48,7 +48,7 @@ test
 /
 "
 ;
-let
+var
 gOldContentCanRecord
 =
 false
@@ -631,7 +631,7 @@ sum
 )
 ;
 }
-let
+var
 check_use_counter_iframe
 =
 Task
@@ -963,7 +963,7 @@ correct
 }
 )
 ;
-let
+var
 check_use_counter_img
 =
 Task
@@ -1284,7 +1284,7 @@ correct
 }
 )
 ;
-let
+var
 check_use_counter_direct
 =
 Task

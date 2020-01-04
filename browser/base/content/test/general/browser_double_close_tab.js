@@ -34,7 +34,7 @@ file_double_close_tab
 html
 "
 ;
-let
+var
 testTab
 ;
 function

@@ -1,4 +1,4 @@
-let
+var
 SocialService
 =
 Cu
@@ -24,7 +24,7 @@ jsm
 .
 SocialService
 ;
-let
+var
 manifest
 =
 {
@@ -130,7 +130,7 @@ png
 "
 }
 ;
-let
+var
 manifest2
 =
 {
@@ -245,7 +245,7 @@ version
 1
 }
 ;
-let
+var
 manifest3
 =
 {

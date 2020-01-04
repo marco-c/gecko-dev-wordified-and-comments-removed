@@ -83,7 +83,7 @@ n
 "
 )
 ;
-let
+var
 workers
 =
 {

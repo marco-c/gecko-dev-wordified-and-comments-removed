@@ -133,7 +133,7 @@ security
 notification_enable_delay
 "
 ;
-let
+var
 popupNotificationsMap
 =
 new
@@ -141,7 +141,7 @@ WeakMap
 (
 )
 ;
-let
+var
 gNotificationParents
 =
 new

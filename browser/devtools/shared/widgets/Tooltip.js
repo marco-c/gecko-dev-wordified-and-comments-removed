@@ -566,7 +566,7 @@ name
 }
 }
 ;
-let
+var
 PanelFactory
 =
 {
@@ -7843,7 +7843,7 @@ prototype
 {
 }
 ;
-let
+var
 l10n
 =
 new

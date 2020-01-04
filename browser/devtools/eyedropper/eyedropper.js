@@ -474,7 +474,7 @@ HSL_BOX_WIDTH
 =
 158
 ;
-let
+var
 EyedropperManager
 =
 {

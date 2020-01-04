@@ -1,4 +1,4 @@
-let
+var
 {
 method
 RetVal
@@ -19,7 +19,7 @@ protocol
 "
 )
 ;
-let
+var
 Services
 =
 require

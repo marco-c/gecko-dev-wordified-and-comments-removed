@@ -12,7 +12,7 @@ PushServiceWebSocket
 =
 serviceExports
 ;
-let
+var
 userAgentID
 =
 '
@@ -27,7 +27,7 @@ a5d9
 9e2b73d30afe
 '
 ;
-let
+var
 channelID
 =
 '

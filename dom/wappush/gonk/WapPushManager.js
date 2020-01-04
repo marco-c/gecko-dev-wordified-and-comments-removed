@@ -910,7 +910,7 @@ options
 }
 }
 ;
-let
+var
 debug
 ;
 if

@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 Preferences
 =
 Cu
@@ -29,7 +29,7 @@ jsm
 .
 Preferences
 ;
-let
+var
 TelemetryReportingPolicy
 =
 Cu
@@ -441,7 +441,7 @@ showInfobarCallback
 )
 ;
 }
-let
+var
 checkInfobarButton
 =
 Task

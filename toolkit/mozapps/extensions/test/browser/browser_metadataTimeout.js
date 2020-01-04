@@ -73,13 +73,13 @@ jsm
 "
 )
 ;
-let
+var
 repo
 =
 {
 }
 ;
-let
+var
 ARContext
 =
 Components
@@ -106,7 +106,7 @@ jsm
 repo
 )
 ;
-let
+var
 pXHRStarted
 =
 Promise
@@ -115,7 +115,7 @@ defer
 (
 )
 ;
-let
+var
 oldXHRConstructor
 =
 ARContext

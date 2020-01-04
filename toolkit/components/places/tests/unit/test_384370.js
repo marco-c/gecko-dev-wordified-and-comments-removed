@@ -16,7 +16,7 @@ bookmarkProperties
 description
 "
 ;
-let
+var
 tagData
 =
 [
@@ -87,7 +87,7 @@ word
 }
 ]
 ;
-let
+var
 bookmarkData
 =
 [

@@ -74,7 +74,7 @@ clearUncaughtErrorObservers
 (
 )
 ;
-let
+var
 run_promise_tests
 =
 function
@@ -224,7 +224,7 @@ loop
 ;
 }
 ;
-let
+var
 make_promise_test
 =
 function
@@ -493,13 +493,13 @@ reject
 ;
 }
 ;
-let
+var
 tests
 =
 [
 ]
 ;
-let
+var
 observe_failures
 =
 function

@@ -891,7 +891,7 @@ name
 }
 ;
 }
-let
+var
 keepAlive
 =
 new

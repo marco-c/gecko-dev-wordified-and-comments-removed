@@ -36,7 +36,7 @@ js
 '
 )
 ;
-let
+var
 modules
 =
 [

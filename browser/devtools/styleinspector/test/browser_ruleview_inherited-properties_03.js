@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 {
 ELEMENT_STYLE
 }

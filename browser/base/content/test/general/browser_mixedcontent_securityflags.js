@@ -53,7 +53,7 @@ mixed_content
 block_active_content
 "
 ;
-let
+var
 gTestBrowser
 =
 null

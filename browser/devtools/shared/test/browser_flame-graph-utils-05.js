@@ -1,4 +1,4 @@
-let
+var
 {
 FlameGraphUtils
 }
@@ -155,7 +155,7 @@ anymore
 )
 ;
 }
-let
+var
 TEST_DATA
 =
 synthesizeProfileForTest

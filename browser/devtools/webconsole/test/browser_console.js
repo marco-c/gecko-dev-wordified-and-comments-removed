@@ -70,7 +70,7 @@ use
 strict
 "
 ;
-let
+var
 test
 =
 asyncTest

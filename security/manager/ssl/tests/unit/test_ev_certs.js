@@ -39,7 +39,7 @@ evrootnick
 evroot
 "
 ;
-let
+var
 certList
 =
 [

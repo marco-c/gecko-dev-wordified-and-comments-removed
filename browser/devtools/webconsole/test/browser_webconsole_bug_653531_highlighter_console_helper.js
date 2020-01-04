@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 inspector
 h1
 outputNode
@@ -399,7 +399,7 @@ runSelectionTests
 )
 ;
 }
-let
+var
 runSelectionTests
 =
 Task

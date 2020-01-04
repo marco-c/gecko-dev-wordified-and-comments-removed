@@ -3,11 +3,11 @@ use
 strict
 "
 ;
-let
+var
 inputNode
 values
 ;
-let
+var
 TEST_URI
 =
 "
@@ -36,7 +36,7 @@ bug
 619598
 "
 ;
-let
+var
 test
 =
 asyncTest

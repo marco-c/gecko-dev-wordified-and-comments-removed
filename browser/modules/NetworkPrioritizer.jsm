@@ -90,12 +90,12 @@ PRIORITY_DELTA
 -
 10
 ;
-let
+var
 _lastFocusedWindow
 =
 null
 ;
-let
+var
 _windows
 =
 [
@@ -202,7 +202,7 @@ break
 ;
 }
 }
-let
+var
 BrowserHelper
 =
 {
@@ -321,7 +321,7 @@ PRIORITY_DELTA
 }
 }
 ;
-let
+var
 WindowHelper
 =
 {

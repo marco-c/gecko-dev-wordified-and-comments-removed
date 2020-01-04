@@ -93,12 +93,12 @@ Ci
 nsIMessageListenerManager
 )
 ;
-let
+var
 gFrameScriptLoaded
 =
 false
 ;
-let
+var
 gPromises
 =
 new
@@ -106,7 +106,7 @@ Map
 (
 )
 ;
-let
+var
 gMessageID
 =
 1
@@ -233,7 +233,7 @@ promise
 }
 }
 ;
-let
+var
 ContentMessageListener
 =
 {

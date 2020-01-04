@@ -307,7 +307,7 @@ stopped
 ]
 )
 ;
-let
+var
 PerformanceActor
 =
 exports

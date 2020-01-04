@@ -7,7 +7,7 @@ do_get_profile
 (
 )
 ;
-let
+var
 certdb
 =
 Cc

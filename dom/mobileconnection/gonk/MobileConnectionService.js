@@ -583,7 +583,7 @@ ril
 }
 )
 ;
-let
+var
 DEBUG
 =
 RIL

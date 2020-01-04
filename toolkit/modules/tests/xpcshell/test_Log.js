@@ -82,7 +82,7 @@ jsm
 "
 )
 ;
-let
+var
 testFormatter
 =
 {

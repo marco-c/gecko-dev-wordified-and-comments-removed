@@ -115,7 +115,7 @@ jsm
 }
 )
 ;
-let
+var
 oldCanRecord
 =
 Services

@@ -111,7 +111,7 @@ upgradeBackup
 maxUpgradeBackups
 "
 ;
-let
+var
 prepareTest
 =
 Task
@@ -179,7 +179,7 @@ result
 }
 )
 ;
-let
+var
 getUpgradeBackups
 =
 Task

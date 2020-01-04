@@ -36,7 +36,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 DOMApplicationRegistry
 }

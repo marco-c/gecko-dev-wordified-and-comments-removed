@@ -1933,7 +1933,7 @@ this
 )
 ;
 }
-let
+var
 RemotePageManagerInternal
 =
 {
@@ -2354,7 +2354,7 @@ RemotePageManagerInternal
 )
 }
 ;
-let
+var
 registeredURLs
 =
 new
@@ -2362,7 +2362,7 @@ Set
 (
 )
 ;
-let
+var
 observer
 =
 (

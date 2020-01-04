@@ -315,7 +315,7 @@ jsm
 "
 )
 ;
-let
+var
 publicProperties
 =
 [
@@ -381,7 +381,7 @@ whenVerified
 "
 ]
 ;
-let
+var
 AccountState
 =
 this

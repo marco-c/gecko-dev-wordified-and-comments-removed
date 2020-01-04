@@ -40,7 +40,7 @@ css
 transform
 highlighter
 ;
-let
+var
 TYPE
 =
 "

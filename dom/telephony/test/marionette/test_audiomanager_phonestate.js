@@ -57,7 +57,7 @@ PHONE_STATE_IN_COMMUNICATION
 =
 3
 ;
-let
+var
 audioManager
 =
 SpecialPowers

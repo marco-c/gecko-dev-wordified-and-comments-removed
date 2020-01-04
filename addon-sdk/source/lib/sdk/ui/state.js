@@ -1283,7 +1283,7 @@ isRegistered
 =
 isRegistered
 ;
-let
+var
 tabSelect
 =
 events
@@ -1305,7 +1305,7 @@ TabSelect
 '
 )
 ;
-let
+var
 tabClose
 =
 events
@@ -1327,7 +1327,7 @@ TabClose
 '
 )
 ;
-let
+var
 windowOpen
 =
 events
@@ -1349,7 +1349,7 @@ load
 '
 )
 ;
-let
+var
 windowClose
 =
 events
@@ -1371,7 +1371,7 @@ close
 '
 )
 ;
-let
+var
 close
 =
 events
@@ -1384,7 +1384,7 @@ windowClose
 ]
 )
 ;
-let
+var
 activate
 =
 events

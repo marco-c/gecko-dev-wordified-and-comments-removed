@@ -1354,7 +1354,7 @@ null
 )
 ;
 }
-let
+var
 _originalTestBlocklistURL
 =
 null

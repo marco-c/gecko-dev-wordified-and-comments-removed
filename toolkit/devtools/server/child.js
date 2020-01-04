@@ -5,7 +5,7 @@ strict
 ;
 try
 {
-let
+var
 chromeGlobal
 =
 this

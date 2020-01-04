@@ -106,7 +106,7 @@ message
 )
 ;
 }
-let
+var
 test
 =
 asyncTest

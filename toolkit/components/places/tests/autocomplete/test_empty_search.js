@@ -1,4 +1,4 @@
-let
+var
 kURIs
 =
 [
@@ -58,7 +58,7 @@ foo
 "
 ]
 ;
-let
+var
 kTitles
 =
 [
@@ -125,7 +125,7 @@ removePages
 ]
 )
 ;
-let
+var
 gTests
 =
 [

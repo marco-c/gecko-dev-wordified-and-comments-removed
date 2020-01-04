@@ -24,13 +24,13 @@ changes
 js
 "
 ;
-let
+var
 gTab
 gPanel
 gDebugger
 gClient
 ;
-let
+var
 gEditor
 gSources
 gControllerSources

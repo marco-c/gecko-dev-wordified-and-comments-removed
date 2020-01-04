@@ -578,7 +578,7 @@ off
 =
 off
 ;
-let
+var
 weakRefs
 =
 new
@@ -586,7 +586,7 @@ WeakMap
 (
 )
 ;
-let
+var
 stillAlive
 =
 new

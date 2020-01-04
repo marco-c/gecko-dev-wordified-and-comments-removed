@@ -1,4 +1,4 @@
-let
+var
 tests
 =
 [
@@ -1191,7 +1191,7 @@ resolve
 }
 }
 ;
-let
+var
 DataHelper
 =
 {

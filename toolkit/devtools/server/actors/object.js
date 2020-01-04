@@ -7626,12 +7626,12 @@ object
 ;
 }
 }
-let
+var
 seen
 =
 null
 ;
-let
+var
 stringifiers
 =
 {

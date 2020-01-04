@@ -7248,7 +7248,7 @@ nsISupportsWeakReference
 )
 }
 ;
-let
+var
 components
 =
 [

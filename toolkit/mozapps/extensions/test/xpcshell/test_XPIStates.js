@@ -339,7 +339,7 @@ js
 "
 )
 ;
-let
+var
 lastTimestamp
 =
 Date

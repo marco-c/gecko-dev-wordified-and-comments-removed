@@ -74,7 +74,7 @@ NO_STYLE
 _nostyle
 "
 ;
-let
+var
 PageStyleInternal
 =
 {

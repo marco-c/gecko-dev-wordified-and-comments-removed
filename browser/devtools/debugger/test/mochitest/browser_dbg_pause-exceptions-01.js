@@ -11,12 +11,12 @@ exceptions
 html
 "
 ;
-let
+var
 gTab
 gPanel
 gDebugger
 ;
-let
+var
 gFrames
 gVariables
 gPrefs

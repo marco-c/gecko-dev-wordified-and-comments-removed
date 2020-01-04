@@ -135,7 +135,7 @@ loadListener
 }
 )
 ;
-let
+var
 WebProgressListener
 =
 {
@@ -468,7 +468,7 @@ NS_ERROR_NO_INTERFACE
 }
 }
 ;
-let
+var
 disabled
 =
 false

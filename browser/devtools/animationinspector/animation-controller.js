@@ -40,7 +40,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 loader
 require
@@ -198,11 +198,11 @@ inspector
 animationInspectorV3
 "
 ;
-let
+var
 gToolbox
 gInspector
 ;
-let
+var
 startup
 =
 Task
@@ -275,7 +275,7 @@ initialize
 }
 )
 ;
-let
+var
 shutdown
 =
 Task
@@ -373,7 +373,7 @@ e
 )
 ;
 }
-let
+var
 getServerTraits
 =
 Task
@@ -546,7 +546,7 @@ traits
 }
 )
 ;
-let
+var
 AnimationsController
 =
 {

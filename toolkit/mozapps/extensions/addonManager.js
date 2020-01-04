@@ -145,12 +145,12 @@ jsm
 "
 )
 ;
-let
+var
 gSingleton
 =
 null
 ;
-let
+var
 gParentMM
 =
 null

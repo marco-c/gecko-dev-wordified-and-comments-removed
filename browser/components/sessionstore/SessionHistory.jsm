@@ -178,7 +178,7 @@ tabData
 }
 )
 ;
-let
+var
 SessionHistoryInternal
 =
 {

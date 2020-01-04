@@ -350,7 +350,7 @@ data
 }
 )
 ;
-let
+var
 FormDataInternal
 =
 {

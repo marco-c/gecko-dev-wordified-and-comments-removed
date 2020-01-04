@@ -78,7 +78,7 @@ settings
 "
 )
 ;
-let
+var
 header
 =
 document
@@ -1043,12 +1043,6 @@ VK_ESCAPE
 ;
 yield
 promise
-;
-yield
-synthesizeNativeMouseMove
-(
-searchbar
-)
 ;
 }
 )

@@ -10,7 +10,7 @@ Components
 .
 utils
 ;
-let
+var
 {
 gDevTools
 }
@@ -37,7 +37,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 require
 }
@@ -65,7 +65,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 TargetFactory
 }
@@ -81,7 +81,7 @@ target
 "
 )
 ;
-let
+var
 {
 CssComputedView
 }
@@ -99,7 +99,7 @@ view
 "
 )
 ;
-let
+var
 {
 CssRuleView
 _ElementStyle
@@ -118,7 +118,7 @@ view
 "
 )
 ;
-let
+var
 {
 CssLogic
 CssSelector
@@ -137,7 +137,7 @@ logic
 "
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -151,7 +151,7 @@ DevToolsUtils
 "
 )
 ;
-let
+var
 promise
 =
 require
@@ -161,7 +161,7 @@ promise
 "
 )
 ;
-let
+var
 {
 editableField
 getInplaceEditorForSpan
@@ -182,7 +182,7 @@ editor
 "
 )
 ;
-let
+var
 {
 console
 }
@@ -614,7 +614,7 @@ selector
 )
 ;
 }
-let
+var
 selectAndHighlightNode
 =
 Task
@@ -688,7 +688,7 @@ updated
 }
 )
 ;
-let
+var
 selectNode
 =
 Task
@@ -820,7 +820,7 @@ return
 updated
 ;
 }
-let
+var
 openInspector
 =
 Task
@@ -1040,7 +1040,7 @@ def
 promise
 ;
 }
-let
+var
 openInspectorSideBar
 =
 Task
@@ -1564,7 +1564,7 @@ name
 )
 ;
 }
-let
+var
 focusEditableField
 =
 Task
@@ -1986,7 +1986,7 @@ def
 promise
 ;
 }
-let
+var
 waitForTab
 =
 Task
@@ -2326,7 +2326,7 @@ id
 )
 ;
 }
-let
+var
 getFontFamilyDataURL
 =
 Task
@@ -2706,7 +2706,7 @@ selectorhighlighter
 )
 ;
 }
-let
+var
 simulateColorPickerChange
 =
 Task
@@ -2989,7 +2989,7 @@ childrenIndex
 _ruleEditor
 ;
 }
-let
+var
 focusNewRuleViewProperty
 =
 Task
@@ -3069,7 +3069,7 @@ editor
 }
 )
 ;
-let
+var
 createNewRuleViewProperty
 =
 Task
@@ -3176,7 +3176,7 @@ onFocus
 }
 )
 ;
-let
+var
 setSearchFilter
 =
 Task
@@ -3387,7 +3387,7 @@ return
 propView
 ;
 }
-let
+var
 getComputedViewMatchedRules
 =
 Task

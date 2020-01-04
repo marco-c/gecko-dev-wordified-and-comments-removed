@@ -475,7 +475,7 @@ nsIDownloadManagerUI
 )
 }
 ;
-let
+var
 components
 =
 [

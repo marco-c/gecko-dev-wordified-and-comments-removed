@@ -17,7 +17,7 @@ Components
 .
 interfaces
 ;
-let
+var
 ppmm
 =
 Cc
@@ -40,7 +40,7 @@ Ci
 nsIMessageListenerManager
 )
 ;
-let
+var
 pickResult
 =
 null

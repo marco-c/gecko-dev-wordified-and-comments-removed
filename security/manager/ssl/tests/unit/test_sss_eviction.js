@@ -1,9 +1,9 @@
-let
+var
 gSSService
 =
 null
 ;
-let
+var
 gProfileDir
 =
 null

@@ -587,7 +587,7 @@ selector
 )
 ;
 }
-let
+var
 selectNode
 =
 Task
@@ -780,7 +780,7 @@ msg
 ;
 }
 }
-let
+var
 waitForAnimationInspectorReady
 =
 Task
@@ -867,7 +867,7 @@ tabReady
 }
 )
 ;
-let
+var
 openAnimationInspector
 =
 Task
@@ -1096,7 +1096,7 @@ openAnimationInspector
 )
 ;
 }
-let
+var
 closeAnimationInspector
 =
 Task
@@ -1131,7 +1131,7 @@ target
 }
 )
 ;
-let
+var
 closeAnimationInspectorAndRestartWithNewUI
 =
 Task
@@ -1582,7 +1582,7 @@ onRefresh
 promise
 ;
 }
-let
+var
 togglePlayPauseButton
 =
 Task
@@ -1675,7 +1675,7 @@ nextState
 }
 )
 ;
-let
+var
 waitForStateCondition
 =
 Task
@@ -1840,7 +1840,7 @@ playState
 )
 ;
 }
-let
+var
 checkPausedAt
 =
 Task
@@ -1988,7 +1988,7 @@ time
 }
 )
 ;
-let
+var
 getAnimationPlayerState
 =
 Task
@@ -2045,7 +2045,7 @@ getClientRects
 length
 ;
 }
-let
+var
 waitForAllAnimationTargets
 =
 Task

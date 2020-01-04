@@ -985,7 +985,7 @@ logger
 }
 )
 ;
-let
+var
 component
 =
 [

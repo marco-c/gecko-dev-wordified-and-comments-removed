@@ -126,7 +126,7 @@ PROGRAM_HIGHLIGHT_TRAIT
 =
 2
 ;
-let
+var
 ShaderActor
 =
 protocol
@@ -338,7 +338,7 @@ json
 }
 )
 ;
-let
+var
 ShaderFront
 =
 protocol
@@ -374,7 +374,7 @@ form
 }
 )
 ;
-let
+var
 ProgramActor
 =
 protocol
@@ -760,7 +760,7 @@ shaderActor
 }
 )
 ;
-let
+var
 ProgramFront
 =
 protocol
@@ -796,7 +796,7 @@ form
 }
 )
 ;
-let
+var
 WebGLActor
 =
 exports
@@ -1682,7 +1682,7 @@ programActor
 }
 )
 ;
-let
+var
 WebGLFront
 =
 exports
@@ -1735,7 +1735,7 @@ this
 }
 )
 ;
-let
+var
 WebGLInstrumenter
 =
 {

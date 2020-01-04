@@ -335,7 +335,7 @@ child
 ;
 }
 }
-let
+var
 rootElement
 =
 view

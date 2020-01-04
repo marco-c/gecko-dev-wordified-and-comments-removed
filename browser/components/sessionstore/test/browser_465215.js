@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 uniqueName
 =
 "
@@ -11,7 +11,7 @@ bug
 465215
 "
 ;
-let
+var
 uniqueValue1
 =
 "
@@ -28,7 +28,7 @@ now
 (
 )
 ;
-let
+var
 uniqueValue2
 =
 "

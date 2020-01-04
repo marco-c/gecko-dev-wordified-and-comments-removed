@@ -1,4 +1,4 @@
-let
+var
 TICKS_DATA
 =
 (
@@ -46,7 +46,7 @@ ticks
 (
 )
 ;
-let
+var
 PROFILER_DATA
 =
 (
@@ -339,7 +339,7 @@ data
 (
 )
 ;
-let
+var
 test
 =
 Task

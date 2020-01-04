@@ -22,7 +22,7 @@ js
 "
 )
 ;
-let
+var
 SharedAll
 =
 require
@@ -44,7 +44,7 @@ jsm
 "
 )
 ;
-let
+var
 path
 ;
 if
@@ -111,7 +111,7 @@ Path
 libxul
 ;
 }
-let
+var
 lib
 ;
 try
@@ -150,14 +150,14 @@ message
 )
 ;
 }
-let
+var
 declareLazyFFI
 =
 SharedAll
 .
 declareLazyFFI
 ;
-let
+var
 Type
 =
 Object
@@ -246,7 +246,7 @@ sqlite3_int64
 "
 )
 ;
-let
+var
 Constants
 =
 {
@@ -297,7 +297,7 @@ SQLITE_DONE
 =
 101
 ;
-let
+var
 Sqlite3
 =
 {

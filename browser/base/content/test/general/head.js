@@ -2538,7 +2538,7 @@ clear
 )
 )
 ;
-let
+var
 FullZoomHelper
 =
 {

@@ -820,7 +820,7 @@ key
 }
 }
 ;
-let
+var
 AllPages
 =
 {
@@ -1224,7 +1224,7 @@ nsISupportsWeakReference
 )
 }
 ;
-let
+var
 GridPrefs
 =
 {
@@ -1391,7 +1391,7 @@ init
 (
 )
 ;
-let
+var
 PinnedLinks
 =
 {
@@ -1788,7 +1788,7 @@ save
 }
 }
 ;
-let
+var
 BlockedLinks
 =
 {
@@ -2091,7 +2091,7 @@ err
 }
 }
 ;
-let
+var
 PlacesProvider
 =
 {
@@ -2736,7 +2736,7 @@ nsISupportsWeakReference
 )
 }
 ;
-let
+var
 Links
 =
 {
@@ -4772,7 +4772,7 @@ bind
 Links
 )
 ;
-let
+var
 Telemetry
 =
 {
@@ -4916,7 +4916,7 @@ _collect
 }
 }
 ;
-let
+var
 LinkChecker
 =
 {
@@ -5024,7 +5024,7 @@ false
 }
 }
 ;
-let
+var
 ExpirationFilter
 =
 {

@@ -19,13 +19,13 @@ jsm
 "
 )
 ;
-let
+var
 scope
 =
 {
 }
 ;
-let
+var
 ctypes
 =
 ctypes

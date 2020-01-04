@@ -1,4 +1,4 @@
-let
+var
 Ci
 =
 Components
@@ -159,7 +159,7 @@ Prompt
 "
 resource
 :
-let
+var
 debug
 =
 Cu
@@ -195,7 +195,7 @@ AboutLogins
 "
 )
 ;
-let
+var
 gStringBundle
 =
 Services
@@ -342,7 +342,7 @@ LOGIN_PW_TOGGLED
 =
 3
 ;
-let
+var
 Logins
 =
 {

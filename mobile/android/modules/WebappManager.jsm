@@ -494,7 +494,7 @@ return
 unescapedString
 ;
 }
-let
+var
 Log
 =
 Cu
@@ -520,7 +520,7 @@ jsm
 .
 AndroidLog
 ;
-let
+var
 debug
 =
 Log

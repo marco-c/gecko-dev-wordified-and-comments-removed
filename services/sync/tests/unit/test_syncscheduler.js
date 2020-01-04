@@ -237,7 +237,7 @@ register
 CatapultEngine
 )
 ;
-let
+var
 scheduler
 =
 new
@@ -246,7 +246,7 @@ SyncScheduler
 Service
 )
 ;
-let
+var
 clientsEngine
 =
 Service

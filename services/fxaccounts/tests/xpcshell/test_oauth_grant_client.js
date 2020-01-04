@@ -76,7 +76,7 @@ STATUS_SUCCESS
 =
 200
 ;
-let
+var
 mockResponse
 =
 function
@@ -123,7 +123,7 @@ onComplete
 ;
 }
 ;
-let
+var
 mockResponseError
 =
 function

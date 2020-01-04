@@ -599,7 +599,7 @@ _checkCert
 }
 }
 ;
-let
+var
 ErrorPage
 =
 {

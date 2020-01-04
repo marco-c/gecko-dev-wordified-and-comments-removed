@@ -13,7 +13,7 @@ FolderCache
 "
 ]
 ;
-let
+var
 FolderCache
 =
 function

@@ -1,4 +1,4 @@
-let
+var
 Cu
 =
 Components
@@ -126,7 +126,7 @@ aTransfer
 )
 ;
 }
-let
+var
 gDash
 =
 DownloadUtils
@@ -154,7 +154,7 @@ bytes
 1
 ]
 ;
-let
+var
 gVals
 =
 [

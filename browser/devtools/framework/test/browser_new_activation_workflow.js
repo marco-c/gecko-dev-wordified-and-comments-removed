@@ -1,8 +1,8 @@
-let
+var
 toolbox
 target
 ;
-let
+var
 tempScope
 =
 {

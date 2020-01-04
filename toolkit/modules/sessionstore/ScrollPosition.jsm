@@ -61,7 +61,7 @@ data
 }
 )
 ;
-let
+var
 ScrollPositionInternal
 =
 {

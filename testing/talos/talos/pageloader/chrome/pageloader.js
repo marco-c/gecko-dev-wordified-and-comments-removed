@@ -1593,7 +1593,7 @@ pageIndex
 flags
 ;
 }
-let
+var
 ContentListener
 =
 {
@@ -2336,7 +2336,7 @@ delay
 ;
 }
 }
-let
+var
 plNextPage
 =
 Task

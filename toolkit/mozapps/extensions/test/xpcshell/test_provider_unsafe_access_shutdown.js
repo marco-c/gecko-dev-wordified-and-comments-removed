@@ -23,7 +23,7 @@ XPCShell
 "
 )
 ;
-let
+var
 shutdownOrder
 =
 [

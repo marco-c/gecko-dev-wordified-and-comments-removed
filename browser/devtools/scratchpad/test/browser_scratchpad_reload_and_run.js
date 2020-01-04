@@ -1,4 +1,4 @@
-let
+var
 DEVTOOLS_CHROME_ENABLED
 =
 "
@@ -9,7 +9,7 @@ chrome
 enabled
 "
 ;
-let
+var
 EDITOR_TEXT
 =
 [

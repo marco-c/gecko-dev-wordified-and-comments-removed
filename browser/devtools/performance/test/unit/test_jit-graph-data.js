@@ -645,7 +645,7 @@ ion
 }
 )
 ;
-let
+var
 gUniqueStacks
 =
 new
@@ -1094,7 +1094,7 @@ return
 sample
 ;
 }
-let
+var
 SAMPLES
 =
 (
@@ -1185,7 +1185,7 @@ samples
 (
 )
 ;
-let
+var
 gThread
 =
 RecordingUtils
@@ -1204,7 +1204,7 @@ markers
 gUniqueStacks
 )
 ;
-let
+var
 gRawSite1
 =
 {

@@ -889,7 +889,7 @@ pushEndpoint
 }
 }
 ;
-let
+var
 principals
 =
 new

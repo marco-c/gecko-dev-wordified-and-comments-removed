@@ -110,7 +110,7 @@ Privacy
 png
 "
 ;
-let
+var
 stringBundle
 =
 Services
@@ -134,7 +134,7 @@ properties
 "
 )
 ;
-let
+var
 prefBranch
 =
 Services
@@ -151,7 +151,7 @@ trackingprotection
 "
 )
 ;
-let
+var
 prefObserver
 =
 {

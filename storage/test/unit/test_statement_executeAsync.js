@@ -4152,7 +4152,7 @@ TEST_PASS_ASYNC
 =
 1
 ;
-let
+var
 testPass
 =
 TEST_PASS_SYNC
@@ -4231,7 +4231,7 @@ test_not_right_owning_statement
 test_multiple_results
 ]
 ;
-let
+var
 index
 =
 0
@@ -4241,7 +4241,7 @@ STARTING_UNIQUE_ID
 =
 2
 ;
-let
+var
 nextUniqueId
 =
 STARTING_UNIQUE_ID

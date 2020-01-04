@@ -463,7 +463,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 MessageBroker
 Messenger
@@ -473,12 +473,12 @@ flushJarCache
 =
 ExtensionUtils
 ;
-let
+var
 scriptScope
 =
 this
 ;
-let
+var
 Management
 =
 {
@@ -821,7 +821,7 @@ callback
 }
 }
 ;
-let
+var
 globalBroker
 =
 new
@@ -1094,7 +1094,7 @@ close
 }
 }
 ;
-let
+var
 GlobalManager
 =
 {

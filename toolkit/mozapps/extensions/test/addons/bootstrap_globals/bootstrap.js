@@ -19,7 +19,7 @@ jsm
 "
 )
 ;
-let
+var
 seenGlobals
 =
 new
@@ -27,7 +27,7 @@ Set
 (
 )
 ;
-let
+var
 scope
 =
 this
@@ -66,7 +66,7 @@ name
 )
 ;
 }
-let
+var
 wrapped
 =
 {

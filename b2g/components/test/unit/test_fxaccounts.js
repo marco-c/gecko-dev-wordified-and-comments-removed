@@ -157,7 +157,7 @@ uri
 "
 )
 ;
-let
+var
 {
 SystemAppProxy
 }
@@ -225,7 +225,7 @@ do_get_profile
 (
 )
 ;
-let
+var
 mockSendCustomEvent
 =
 function

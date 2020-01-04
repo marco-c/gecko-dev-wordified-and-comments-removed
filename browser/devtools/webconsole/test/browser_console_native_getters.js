@@ -44,7 +44,7 @@ getters
 !
 "
 ;
-let
+var
 test
 =
 asyncTest

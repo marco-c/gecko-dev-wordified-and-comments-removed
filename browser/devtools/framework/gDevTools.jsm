@@ -1943,7 +1943,7 @@ toolbox
 }
 }
 ;
-let
+var
 gDevTools
 =
 new
@@ -1957,7 +1957,7 @@ gDevTools
 =
 gDevTools
 ;
-let
+var
 gDevToolsBrowser
 =
 {

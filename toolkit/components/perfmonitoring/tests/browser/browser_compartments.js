@@ -521,7 +521,7 @@ stack
 ;
 }
 }
-let
+var
 SilentAssert
 =
 {
@@ -644,7 +644,7 @@ b
 }
 }
 ;
-let
+var
 isShuttingDown
 =
 false

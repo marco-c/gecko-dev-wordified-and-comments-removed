@@ -106,7 +106,7 @@ hidden
 )
 ;
 }
-let
+var
 _tests
 =
 [
@@ -161,7 +161,7 @@ true
 }
 ]
 ;
-let
+var
 _current_test
 =
 0

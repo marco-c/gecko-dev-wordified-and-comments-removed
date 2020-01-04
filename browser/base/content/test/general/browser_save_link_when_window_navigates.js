@@ -646,7 +646,7 @@ aCallback
 ;
 }
 }
-let
+var
 windowObserver
 =
 {

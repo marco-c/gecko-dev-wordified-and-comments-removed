@@ -677,12 +677,12 @@ ui
 .
 "
 ;
-let
+var
 gToolbox
 gTarget
 gFront
 ;
-let
+var
 startupPerformance
 =
 Task
@@ -711,7 +711,7 @@ initialize
 }
 )
 ;
-let
+var
 shutdownPerformance
 =
 Task
@@ -740,7 +740,7 @@ destroy
 }
 )
 ;
-let
+var
 PerformanceController
 =
 {

@@ -596,7 +596,7 @@ helpInfo
 "
 }
 ;
-let
+var
 components
 =
 [

@@ -165,7 +165,7 @@ bookmarkProperties
 description
 "
 ;
-let
+var
 engine
 =
 Service
@@ -179,14 +179,14 @@ bookmarks
 "
 )
 ;
-let
+var
 store
 =
 engine
 .
 _store
 ;
-let
+var
 record631361
 =
 {

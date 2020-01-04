@@ -162,7 +162,7 @@ presentation
 discoverable
 "
 ;
-let
+var
 registrar
 =
 Cm

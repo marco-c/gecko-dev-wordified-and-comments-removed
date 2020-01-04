@@ -34,10 +34,10 @@ test_967000_charEncoding_page
 html
 "
 ;
-let
+var
 newTab
 ;
-let
+var
 initialLocation
 =
 gBrowser

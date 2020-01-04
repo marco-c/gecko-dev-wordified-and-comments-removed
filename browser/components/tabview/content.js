@@ -3,14 +3,14 @@ use
 strict
 "
 ;
-let
+var
 Cu
 =
 Components
 .
 utils
 ;
-let
+var
 Ci
 =
 Components
@@ -73,7 +73,7 @@ nsIWebProgress
 }
 )
 ;
-let
+var
 WindowEventHandler
 =
 {
@@ -158,7 +158,7 @@ onMozAfterPaint
 false
 )
 ;
-let
+var
 WindowMessageHandler
 =
 {

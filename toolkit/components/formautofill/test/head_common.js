@@ -118,7 +118,7 @@ jsm
 "
 )
 ;
-let
+var
 TestUtils
 =
 {
@@ -456,7 +456,7 @@ path
 )
 }
 ;
-let
+var
 FormAutofillTest
 =
 {
@@ -553,7 +553,7 @@ promiseResult
 )
 }
 ;
-let
+var
 TestData
 =
 {

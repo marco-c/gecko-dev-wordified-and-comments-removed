@@ -1,13 +1,13 @@
-let
+var
 contentWindow
 ;
-let
+var
 appTab
 ;
-let
+var
 originalTab
 ;
-let
+var
 exitButton
 ;
 function

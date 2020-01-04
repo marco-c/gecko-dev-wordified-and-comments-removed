@@ -12,7 +12,7 @@ PushServiceWebSocket
 =
 serviceExports
 ;
-let
+var
 userAgentID
 =
 '

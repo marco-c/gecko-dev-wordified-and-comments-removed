@@ -26,7 +26,7 @@ Components
 .
 results
 ;
-let
+var
 ios
 =
 Cc
@@ -53,7 +53,7 @@ Ci
 nsIIOService
 )
 ;
-let
+var
 resHandler
 =
 ios
@@ -72,7 +72,7 @@ Ci
 nsIResProtocolHandler
 )
 ;
-let
+var
 mozDir
 =
 Cc
@@ -107,7 +107,7 @@ Ci
 nsILocalFile
 )
 ;
-let
+var
 mozDirURI
 =
 ios

@@ -26,12 +26,12 @@ jsm
 "
 )
 ;
-let
+var
 gUseLegacySaver
 =
 false
 ;
-let
+var
 scriptFile
 =
 do_get_file
@@ -502,7 +502,7 @@ becauseBlockedByParentalControls
 }
 )
 ;
-let
+var
 tailFile
 =
 do_get_file

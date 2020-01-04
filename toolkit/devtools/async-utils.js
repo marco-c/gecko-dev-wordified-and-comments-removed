@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 {
 Cu
 }
@@ -15,7 +15,7 @@ chrome
 "
 )
 ;
-let
+var
 {
 Task
 }
@@ -37,7 +37,7 @@ jsm
 "
 )
 ;
-let
+var
 Promise
 =
 require

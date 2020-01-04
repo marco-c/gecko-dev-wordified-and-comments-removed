@@ -78,7 +78,7 @@ jsm
 '
 )
 ;
-let
+var
 PdfjsContentUtils
 =
 {

@@ -1,7 +1,7 @@
-let
+var
 apiPort
 ;
-let
+var
 testerPort
 ;
 onconnect

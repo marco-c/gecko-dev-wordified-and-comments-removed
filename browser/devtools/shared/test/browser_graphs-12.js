@@ -1,4 +1,4 @@
-let
+var
 LineGraphWidget
 =
 require
@@ -14,7 +14,7 @@ LineGraphWidget
 "
 )
 ;
-let
+var
 BarGraphWidget
 =
 require
@@ -30,7 +30,7 @@ BarGraphWidget
 "
 )
 ;
-let
+var
 {
 CanvasGraphUtils
 }

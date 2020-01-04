@@ -119,13 +119,13 @@ jsm
 "
 )
 ;
-let
+var
 defaultSettings
 =
 {
 }
 ;
-let
+var
 settingsFile
 ;
 exports
@@ -399,7 +399,7 @@ getDefaultSettings
 ;
 }
 }
-let
+var
 SettingsActor
 =
 exports
@@ -951,7 +951,7 @@ response
 }
 )
 ;
-let
+var
 SettingsFront
 =
 protocol

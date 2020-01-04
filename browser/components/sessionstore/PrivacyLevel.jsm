@@ -167,7 +167,7 @@ pref
 )
 ;
 }
-let
+var
 PrivacyLevel
 =
 Object

@@ -866,7 +866,7 @@ pos
 "
 )
 ;
-let
+var
 kSpecialIds
 =
 {

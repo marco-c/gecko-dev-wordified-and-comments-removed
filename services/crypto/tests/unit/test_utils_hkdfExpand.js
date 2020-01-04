@@ -36,7 +36,7 @@ js
 "
 )
 ;
-let
+var
 tc1
 =
 {
@@ -82,7 +82,7 @@ OKM
 "
 }
 ;
-let
+var
 tc2
 =
 {
@@ -188,7 +188,7 @@ cc30c58179ec3e87c14c01d5c1f3434f
 "
 }
 ;
-let
+var
 tc3
 =
 {

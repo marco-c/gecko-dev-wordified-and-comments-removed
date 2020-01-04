@@ -1,4 +1,4 @@
-let
+var
 SocialService
 =
 Cu
@@ -24,7 +24,7 @@ jsm
 .
 SocialService
 ;
-let
+var
 manifest
 =
 {

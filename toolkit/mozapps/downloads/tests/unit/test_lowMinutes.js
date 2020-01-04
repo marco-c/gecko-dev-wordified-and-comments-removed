@@ -19,7 +19,7 @@ jsm
 "
 )
 ;
-let
+var
 _
 =
 function
@@ -66,7 +66,7 @@ time
 "
 )
 ;
-let
+var
 expectedTimes
 =
 [

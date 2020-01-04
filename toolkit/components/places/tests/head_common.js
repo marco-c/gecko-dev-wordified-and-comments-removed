@@ -524,14 +524,14 @@ IGhlaWdodD0iNDEuOCIvPg0KPC9zdmc
 }
 )
 ;
-let
+var
 gTestDir
 =
 do_get_cwd
 (
 )
 ;
-let
+var
 gProfD
 =
 do_get_profile
@@ -554,7 +554,7 @@ newURI
 aSpec
 )
 ;
-let
+var
 gDBConn
 ;
 function
@@ -1782,7 +1782,7 @@ false
 )
 ;
 }
-let
+var
 shutdownPlaces
 =
 function

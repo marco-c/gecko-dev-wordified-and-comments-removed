@@ -1,4 +1,4 @@
-let
+var
 VIEW_ID
 =
 "
@@ -13,7 +13,7 @@ mock
 addon
 "
 ;
-let
+var
 LIST_ID
 =
 "
@@ -22,7 +22,7 @@ addon
 list
 "
 ;
-let
+var
 EMPTY_ID
 =
 "
@@ -33,16 +33,16 @@ list
 empty
 "
 ;
-let
+var
 gManagerWindow
 ;
-let
+var
 gProvider
 ;
-let
+var
 gItem
 ;
-let
+var
 gInstallProperties
 =
 {
@@ -63,7 +63,7 @@ addon
 "
 }
 ;
-let
+var
 gAddonProperties
 =
 {
@@ -96,7 +96,7 @@ addon
 "
 }
 ;
-let
+var
 gExtensionProperties
 =
 {

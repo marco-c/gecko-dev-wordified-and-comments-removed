@@ -1,4 +1,4 @@
-let
+var
 TAB_URL
 =
 EXAMPLE_URL
@@ -11,7 +11,7 @@ tab
 html
 "
 ;
-let
+var
 WORKER1_URL
 =
 "
@@ -22,7 +22,7 @@ worker1
 js
 "
 ;
-let
+var
 WORKER2_URL
 =
 "

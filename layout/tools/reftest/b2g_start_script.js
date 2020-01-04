@@ -171,7 +171,7 @@ ALLOW_ACTION
 )
 ;
 }
-let
+var
 cm
 =
 Cc
@@ -232,7 +232,7 @@ false
 )
 ;
 }
-let
+var
 wm
 =
 Cc
@@ -259,7 +259,7 @@ Ci
 nsIWindowMediator
 )
 ;
-let
+var
 win
 =
 wm
@@ -278,7 +278,7 @@ setPermissions
 (
 )
 ;
-let
+var
 reftest
 =
 {

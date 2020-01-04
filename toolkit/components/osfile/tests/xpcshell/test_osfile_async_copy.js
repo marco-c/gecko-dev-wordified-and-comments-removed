@@ -143,7 +143,7 @@ run_next_test
 )
 ;
 }
-let
+var
 EXISTING_FILE
 =
 "
@@ -152,7 +152,7 @@ test_osfile_async_copy
 js
 "
 ;
-let
+var
 reference_fetch_file
 =
 function
@@ -295,7 +295,7 @@ promise
 ;
 }
 ;
-let
+var
 reference_compare_files
 =
 function

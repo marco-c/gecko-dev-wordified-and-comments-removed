@@ -41,7 +41,7 @@ dollar
 html
 "
 ;
-let
+var
 test
 =
 asyncTest

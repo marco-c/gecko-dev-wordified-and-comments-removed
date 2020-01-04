@@ -1,4 +1,4 @@
-let
+var
 {
 FileUtils
 }
@@ -24,7 +24,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 NetUtil
 }
@@ -50,7 +50,7 @@ jsm
 }
 )
 ;
-let
+var
 test
 =
 Task

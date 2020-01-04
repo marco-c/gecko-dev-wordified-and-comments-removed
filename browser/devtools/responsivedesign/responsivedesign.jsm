@@ -136,7 +136,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 require
 }
@@ -164,7 +164,7 @@ jsm
 }
 )
 ;
-let
+var
 Telemetry
 =
 require
@@ -178,7 +178,7 @@ telemetry
 "
 )
 ;
-let
+var
 {
 showDoorhanger
 }
@@ -194,7 +194,7 @@ doorhanger
 "
 )
 ;
-let
+var
 {
 TouchEventSimulator
 }
@@ -212,7 +212,7 @@ simulator
 "
 )
 ;
-let
+var
 {
 Task
 }
@@ -234,7 +234,7 @@ jsm
 "
 )
 ;
-let
+var
 promise
 =
 require
@@ -331,7 +331,7 @@ properties
 "
 )
 ;
-let
+var
 ActiveTabs
 =
 new
@@ -559,7 +559,7 @@ decorate
 ResponsiveUIManager
 )
 ;
-let
+var
 presets
 =
 [

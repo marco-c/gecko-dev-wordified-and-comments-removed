@@ -1,4 +1,4 @@
-let
+var
 ioService
 =
 Cc
@@ -25,7 +25,7 @@ Ci
 nsIIOService
 )
 ;
-let
+var
 resProt
 =
 ioService

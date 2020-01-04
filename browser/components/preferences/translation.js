@@ -454,7 +454,7 @@ this
 .
 _label
 }
-let
+var
 gTranslationExceptions
 =
 {

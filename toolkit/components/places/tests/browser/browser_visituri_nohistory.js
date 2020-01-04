@@ -56,7 +56,7 @@ final
 html
 "
 ;
-let
+var
 gTab
 =
 gBrowser

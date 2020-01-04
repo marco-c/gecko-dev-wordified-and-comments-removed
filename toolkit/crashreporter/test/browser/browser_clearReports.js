@@ -193,7 +193,7 @@ promptShown
 =
 false
 ;
-let
+var
 oldPrompt
 =
 Services

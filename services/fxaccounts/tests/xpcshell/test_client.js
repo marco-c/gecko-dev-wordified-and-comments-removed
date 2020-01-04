@@ -115,7 +115,7 @@ run_next_test
 )
 ;
 }
-let
+var
 ACCOUNT_KEYS
 =
 {

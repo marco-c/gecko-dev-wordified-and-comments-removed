@@ -3,13 +3,13 @@ use
 strict
 "
 ;
-let
+var
 tab
 ;
-let
+var
 notification
 ;
-let
+var
 notificationURL
 =
 "
@@ -38,7 +38,7 @@ file_dom_notifications
 html
 "
 ;
-let
+var
 newWindowOpenedFromTab
 ;
 function

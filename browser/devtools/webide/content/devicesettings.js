@@ -85,7 +85,7 @@ view
 "
 )
 ;
-let
+var
 configView
 =
 new
@@ -428,7 +428,7 @@ event
 )
 ;
 }
-let
+var
 getAllSettings
 ;
 function

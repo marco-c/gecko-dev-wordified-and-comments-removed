@@ -288,7 +288,7 @@ US
 "
 ;
 }
-let
+var
 TYPES
 =
 {
@@ -354,7 +354,7 @@ DEV_EDITION_PROMO_URL
 }
 }
 ;
-let
+var
 panelAttrs
 =
 {

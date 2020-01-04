@@ -457,7 +457,7 @@ nsIContentDispatchChooser
 )
 }
 ;
-let
+var
 components
 =
 [

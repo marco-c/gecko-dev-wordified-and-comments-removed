@@ -389,7 +389,7 @@ destroy
 }
 )
 ;
-let
+var
 UI
 =
 {

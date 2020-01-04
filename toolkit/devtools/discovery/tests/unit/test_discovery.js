@@ -179,7 +179,7 @@ msg
 )
 ;
 }
-let
+var
 gTestTransports
 =
 {

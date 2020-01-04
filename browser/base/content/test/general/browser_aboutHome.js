@@ -106,7 +106,7 @@ aboutHome_content_script
 js
 "
 ;
-let
+var
 gRightsVersion
 =
 Services
@@ -199,7 +199,7 @@ shown
 }
 )
 ;
-let
+var
 gTests
 =
 [
@@ -4025,7 +4025,7 @@ capturing
 )
 ;
 }
-let
+var
 promisePrefsOpen
 =
 Task

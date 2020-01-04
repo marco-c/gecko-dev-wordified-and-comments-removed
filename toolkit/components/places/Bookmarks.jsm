@@ -209,7 +209,7 @@ DB_TITLE_LENGTH_MAX
 =
 4096
 ;
-let
+var
 Bookmarks
 =
 Object
@@ -6463,7 +6463,7 @@ return
 normalizedInput
 ;
 }
-let
+var
 updateFrecency
 =
 Task
@@ -6579,7 +6579,7 @@ frecency
 }
 )
 ;
-let
+var
 removeOrphanAnnotations
 =
 Task
@@ -6690,7 +6690,7 @@ ISNULL
 }
 )
 ;
-let
+var
 removeAnnotationsForItem
 =
 Task
@@ -6783,7 +6783,7 @@ ISNULL
 }
 )
 ;
-let
+var
 setAncestorsLastModified
 =
 Task
@@ -6870,7 +6870,7 @@ time
 }
 )
 ;
-let
+var
 removeFoldersContents
 =
 Task

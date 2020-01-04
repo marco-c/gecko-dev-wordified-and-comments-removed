@@ -115,7 +115,7 @@ pasteafter
 }
 ]
 ;
-let
+var
 clipboard
 =
 require

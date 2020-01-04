@@ -337,7 +337,7 @@ isArguments
 =
 isArguments
 ;
-let
+var
 isMap
 =
 value
@@ -368,7 +368,7 @@ isMap
 =
 isMap
 ;
-let
+var
 isSet
 =
 value

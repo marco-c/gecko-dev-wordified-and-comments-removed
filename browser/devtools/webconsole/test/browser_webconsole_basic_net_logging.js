@@ -47,7 +47,7 @@ now
 (
 )
 ;
-let
+var
 test
 =
 asyncTest

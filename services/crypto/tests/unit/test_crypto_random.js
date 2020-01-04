@@ -1,4 +1,4 @@
-let
+var
 WeaveCryptoModule
 =
 Cu
@@ -20,7 +20,7 @@ js
 "
 )
 ;
-let
+var
 cryptoSvc
 =
 new

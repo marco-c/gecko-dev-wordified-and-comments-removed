@@ -156,7 +156,7 @@ png
 }
 ]
 ;
-let
+var
 clipboardService
 =
 Cc
@@ -181,7 +181,7 @@ Ci
 nsIClipboard
 )
 ;
-let
+var
 clipboardHelper
 =
 Cc
@@ -206,7 +206,7 @@ Ci
 nsIClipboardHelper
 )
 ;
-let
+var
 imageTools
 =
 Cc

@@ -1169,7 +1169,7 @@ n
 )
 )
 ;
-let
+var
 doc
 =
 null

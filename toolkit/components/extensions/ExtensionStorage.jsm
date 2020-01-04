@@ -116,14 +116,14 @@ jsm
 "
 )
 ;
-let
+var
 Path
 =
 OS
 .
 Path
 ;
-let
+var
 profileDir
 =
 OS

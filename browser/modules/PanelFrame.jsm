@@ -120,7 +120,7 @@ PANEL_MIN_WIDTH
 =
 330
 ;
-let
+var
 PanelFrameInternal
 =
 {
@@ -467,7 +467,7 @@ notificationFrameId
 }
 }
 ;
-let
+var
 PanelFrame
 =
 {

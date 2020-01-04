@@ -29,7 +29,7 @@ getCSSKeywords
 (
 )
 ;
-let
+var
 TEST_CASES
 =
 [

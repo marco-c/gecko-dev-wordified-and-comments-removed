@@ -74,7 +74,7 @@ js
 "
 )
 ;
-let
+var
 {
 hexToBytes
 :
@@ -92,7 +92,7 @@ b2h
 =
 CommonUtils
 ;
-let
+var
 vectors
 =
 {

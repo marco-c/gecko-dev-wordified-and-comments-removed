@@ -12,7 +12,7 @@ com
 /
 "
 ;
-let
+var
 state
 =
 {

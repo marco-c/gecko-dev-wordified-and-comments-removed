@@ -152,7 +152,7 @@ png
 }
 ;
 }
-let
+var
 systemNotification
 =
 getNotificationObject
@@ -175,7 +175,7 @@ f54e10372764
 "
 )
 ;
-let
+var
 calendarNotification
 =
 getNotificationObject

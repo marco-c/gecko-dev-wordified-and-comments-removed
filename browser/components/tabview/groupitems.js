@@ -9126,7 +9126,7 @@ _children
 }
 )
 ;
-let
+var
 GroupItems
 =
 {

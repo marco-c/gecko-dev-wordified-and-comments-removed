@@ -17,7 +17,7 @@ Components
 .
 interfaces
 ;
-let
+var
 {
 require
 }
@@ -45,7 +45,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 advanceValidate
 }
@@ -61,7 +61,7 @@ utils
 "
 )
 ;
-let
+var
 sampleInput
 =
 '

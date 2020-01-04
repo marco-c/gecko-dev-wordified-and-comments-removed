@@ -1,4 +1,4 @@
-let
+var
 as
 =
 Cc
@@ -25,7 +25,7 @@ Ci
 nsIAnnotationService
 )
 ;
-let
+var
 now
 =
 Date

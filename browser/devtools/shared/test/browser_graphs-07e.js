@@ -316,7 +316,7 @@ value
 }
 ]
 ;
-let
+var
 LineGraphWidget
 =
 require
@@ -332,7 +332,7 @@ LineGraphWidget
 "
 )
 ;
-let
+var
 CURRENT_ZOOM
 =
 1

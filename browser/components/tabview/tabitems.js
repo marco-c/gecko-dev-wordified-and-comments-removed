@@ -3329,7 +3329,7 @@ hideCachedData
 }
 )
 ;
-let
+var
 TabItems
 =
 {

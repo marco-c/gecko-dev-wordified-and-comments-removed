@@ -25,7 +25,7 @@ test
 var
 popup
 ;
-let
+var
 {
 LoadContextInfo
 }
@@ -50,7 +50,7 @@ jsm
 null
 )
 ;
-let
+var
 {
 Services
 }

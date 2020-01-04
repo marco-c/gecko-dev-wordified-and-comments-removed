@@ -545,7 +545,7 @@ endIp
 "
 }
 ;
-let
+var
 gDebug
 =
 false

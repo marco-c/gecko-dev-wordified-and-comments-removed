@@ -303,7 +303,7 @@ jsm
 "
 )
 ;
-let
+var
 connectionCounters
 =
 new
@@ -311,7 +311,7 @@ Map
 (
 )
 ;
-let
+var
 wrappedConnections
 =
 new
@@ -319,12 +319,12 @@ Set
 (
 )
 ;
-let
+var
 isClosed
 =
 false
 ;
-let
+var
 Debugging
 =
 {

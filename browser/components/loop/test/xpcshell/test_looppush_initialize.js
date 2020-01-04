@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 dummyCallback
 =
 (
@@ -13,7 +13,7 @@ dummyCallback
 {
 }
 ;
-let
+var
 mockWebSocket
 =
 new
@@ -21,7 +21,7 @@ MockWebSocketChannel
 (
 )
 ;
-let
+var
 pushServerRequestCount
 =
 0

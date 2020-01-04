@@ -21,7 +21,7 @@ jsm
 "
 )
 ;
-let
+var
 PERMISSIONS_FILE_NAME
 =
 "

@@ -24,7 +24,7 @@ use
 strict
 "
 ;
-let
+var
 promptService
 =
 {
@@ -49,7 +49,7 @@ function
 }
 }
 ;
-let
+var
 prompt
 =
 {

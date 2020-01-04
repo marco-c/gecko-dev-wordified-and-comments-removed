@@ -1,4 +1,4 @@
-let
+var
 SocialService
 =
 Cu
@@ -24,7 +24,7 @@ jsm
 .
 SocialService
 ;
-let
+var
 baseURL
 =
 "
@@ -50,7 +50,7 @@ social
 /
 "
 ;
-let
+var
 manifest
 =
 {
@@ -154,7 +154,7 @@ html
 "
 }
 ;
-let
+var
 activationPage
 =
 "
@@ -472,7 +472,7 @@ next
 )
 ;
 }
-let
+var
 corpus
 =
 [

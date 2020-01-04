@@ -543,7 +543,7 @@ extensions
 "
 )
 ;
-let
+var
 oldSyncGUIDs
 =
 {

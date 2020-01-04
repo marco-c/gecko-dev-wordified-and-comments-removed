@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 rootDir
 =
 getRootDirectory
@@ -46,7 +46,7 @@ http
 "
 )
 ;
-let
+var
 gTestBrowser
 =
 null

@@ -1,7 +1,7 @@
-let
+var
 gPanelWin
 ;
-let
+var
 gPanelDoc
 ;
 function

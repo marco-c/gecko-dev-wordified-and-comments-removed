@@ -423,7 +423,7 @@ false
 )
 ;
 }
-let
+var
 tests
 =
 [

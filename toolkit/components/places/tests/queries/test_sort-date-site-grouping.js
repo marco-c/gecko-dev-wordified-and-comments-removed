@@ -1,4 +1,4 @@
-let
+var
 testData
 =
 [
@@ -214,7 +214,7 @@ true
 }
 ]
 ;
-let
+var
 domainsInRange
 =
 [
@@ -222,7 +222,7 @@ domainsInRange
 3
 ]
 ;
-let
+var
 leveledTestData
 =
 [
@@ -249,7 +249,7 @@ leveledTestData
 ]
 ]
 ;
-let
+var
 testDataAddedLater
 =
 [

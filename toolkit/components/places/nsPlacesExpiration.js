@@ -4157,7 +4157,7 @@ mozIStorageStatementCallback
 )
 }
 ;
-let
+var
 components
 =
 [

@@ -21,7 +21,7 @@ Cr
 =
 Components
 ;
-let
+var
 {
 WebRequest
 }
@@ -82,12 +82,12 @@ WebRequest_dynamic
 sjs
 "
 ;
-let
+var
 countBefore
 =
 0
 ;
-let
+var
 countAfter
 =
 0

@@ -1,11 +1,11 @@
-let
+var
 Ci
 =
 Components
 .
 interfaces
 ;
-let
+var
 noop
 =
 function
@@ -14,7 +14,7 @@ function
 {
 }
 ;
-let
+var
 endl
 =
 '

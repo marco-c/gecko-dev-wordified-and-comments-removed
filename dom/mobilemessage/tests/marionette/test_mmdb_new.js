@@ -22,7 +22,7 @@ newUUID
 (
 )
 ;
-let
+var
 dbVersion
 =
 0

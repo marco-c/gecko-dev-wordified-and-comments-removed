@@ -24,7 +24,7 @@ jsm
 "
 )
 ;
-let
+var
 GP
 =
 {
@@ -73,7 +73,7 @@ VALID_BYTE_ARR
 0xEF
 ]
 ;
-let
+var
 containerTags
 =
 [

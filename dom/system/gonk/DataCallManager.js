@@ -240,7 +240,7 @@ obj
 }
 )
 ;
-let
+var
 RILQUIRKS_DATA_REGISTRATION_ON_DEMAND
 =
 libcutils
@@ -266,7 +266,7 @@ false
 true
 "
 ;
-let
+var
 RILQUIRKS_SUBSCRIPTION_CONTROL
 =
 libcutils
@@ -292,7 +292,7 @@ false
 true
 "
 ;
-let
+var
 RILQUIRKS_HAVE_IPV6
 =
 libcutils

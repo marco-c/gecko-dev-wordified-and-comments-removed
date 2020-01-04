@@ -314,7 +314,7 @@ null
 }
 }
 ;
-let
+var
 gTrackedMessageManager
 =
 new

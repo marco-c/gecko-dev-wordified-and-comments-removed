@@ -459,7 +459,7 @@ com
 }
 )
 ;
-let
+var
 testCookieCollection
 =
 Task
@@ -717,7 +717,7 @@ removeAll
 }
 )
 ;
-let
+var
 replaceCurrentURI
 =
 Task

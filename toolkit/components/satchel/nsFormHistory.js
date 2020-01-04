@@ -4419,7 +4419,7 @@ false
 }
 }
 ;
-let
+var
 component
 =
 [

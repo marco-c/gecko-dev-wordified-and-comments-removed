@@ -1,4 +1,4 @@
-let
+var
 {
 require
 }
@@ -26,7 +26,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 TargetFactory
 }
@@ -42,7 +42,7 @@ target
 "
 )
 ;
-let
+var
 {
 console
 }
@@ -70,7 +70,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 gDevTools
 }
@@ -686,7 +686,7 @@ false
 )
 ;
 }
-let
+var
 createHost
 =
 Task
@@ -1430,7 +1430,7 @@ return
 onRender
 ;
 }
-let
+var
 showFilterPopupPresetsAndCreatePreset
 =
 Task

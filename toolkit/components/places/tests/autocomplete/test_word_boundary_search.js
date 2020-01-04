@@ -1,4 +1,4 @@
-let
+var
 katakana
 =
 [
@@ -12,7 +12,7 @@ u30c9
 "
 ]
 ;
-let
+var
 ideograph
 =
 [
@@ -30,7 +30,7 @@ u5802
 "
 ]
 ;
-let
+var
 kURIs
 =
 [
@@ -122,7 +122,7 @@ pleaseMatchMe
 "
 ]
 ;
-let
+var
 kTitles
 =
 [
@@ -239,7 +239,7 @@ addPageBook
 0
 )
 ;
-let
+var
 gTests
 =
 [

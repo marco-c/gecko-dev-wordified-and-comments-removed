@@ -240,7 +240,7 @@ TableWidget
 "
 )
 ;
-let
+var
 doc
 table
 ;

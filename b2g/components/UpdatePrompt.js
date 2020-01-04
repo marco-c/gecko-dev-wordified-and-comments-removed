@@ -88,7 +88,7 @@ VERBOSE
 =
 1
 ;
-let
+var
 log
 =
 VERBOSE

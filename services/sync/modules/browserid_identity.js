@@ -414,7 +414,7 @@ log
 }
 )
 ;
-let
+var
 fxAccountsCommon
 =
 {

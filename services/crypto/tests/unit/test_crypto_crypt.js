@@ -17,7 +17,7 @@ js
 "
 )
 ;
-let
+var
 cryptoSvc
 =
 new

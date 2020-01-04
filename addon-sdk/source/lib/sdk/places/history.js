@@ -271,7 +271,7 @@ HISTORY_QUERY
 =
 0
 ;
-let
+var
 search
 =
 function

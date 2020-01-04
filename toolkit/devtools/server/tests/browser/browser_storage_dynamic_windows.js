@@ -21,7 +21,7 @@ storage
 "
 )
 ;
-let
+var
 gFront
 gWindow
 ;

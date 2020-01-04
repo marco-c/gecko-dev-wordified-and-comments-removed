@@ -12,7 +12,7 @@ js
 '
 )
 ;
-let
+var
 samples
 ;
 self

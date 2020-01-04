@@ -127,7 +127,7 @@ Date
 1
 )
 ;
-let
+var
 infoURL
 =
 Services

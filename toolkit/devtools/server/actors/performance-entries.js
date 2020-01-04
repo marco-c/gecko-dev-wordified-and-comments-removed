@@ -35,7 +35,7 @@ core
 "
 )
 ;
-let
+var
 PerformanceEntriesActor
 =
 exports

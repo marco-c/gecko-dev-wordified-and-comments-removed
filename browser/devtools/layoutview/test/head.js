@@ -10,7 +10,7 @@ Components
 .
 utils
 ;
-let
+var
 {
 gDevTools
 }
@@ -37,7 +37,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 require
 }
@@ -65,7 +65,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 console
 }
@@ -93,7 +93,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 TargetFactory
 }
@@ -109,7 +109,7 @@ target
 "
 )
 ;
-let
+var
 promise
 =
 require
@@ -119,7 +119,7 @@ promise
 "
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -593,7 +593,7 @@ return
 updated
 ;
 }
-let
+var
 openInspector
 =
 Task
@@ -886,7 +886,7 @@ id
 )
 ;
 }
-let
+var
 openLayoutView
 =
 Task
@@ -1048,7 +1048,7 @@ func
 ]
 )
 }
-let
+var
 runTests
 =
 Task

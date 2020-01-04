@@ -39,14 +39,14 @@ stackframe
 html
 "
 ;
-let
+var
 gWebConsole
 gJSTerm
 gDebuggerWin
 gThread
 gDebuggerController
 ;
-let
+var
 gStackframes
 ;
 function

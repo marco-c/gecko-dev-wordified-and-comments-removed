@@ -113,7 +113,7 @@ browser_web_channel
 html
 "
 ;
-let
+var
 gTests
 =
 [

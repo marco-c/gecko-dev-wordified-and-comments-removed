@@ -28,11 +28,11 @@ switching
 html
 "
 ;
-let
+var
 gNewTab
 gNewWindow
 ;
-let
+var
 gClient
 ;
 function

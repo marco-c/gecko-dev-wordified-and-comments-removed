@@ -69,7 +69,7 @@ jsm
 "
 )
 ;
-let
+var
 gFakeAppDirectoryProvider
 ;
 this

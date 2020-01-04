@@ -74,12 +74,12 @@ jsm
 '
 )
 ;
-let
+var
 DEBUG
 =
 false
 ;
-let
+var
 VERBOSE
 =
 false

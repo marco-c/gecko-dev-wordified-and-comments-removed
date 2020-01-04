@@ -226,7 +226,7 @@ picker
 }
 ]
 ;
-let
+var
 initialWidth
 ;
 var

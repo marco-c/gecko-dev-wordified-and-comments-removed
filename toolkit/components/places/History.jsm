@@ -965,7 +965,7 @@ join
 )
 ;
 }
-let
+var
 invalidateFrecencies
 =
 Task
@@ -1060,7 +1060,7 @@ frecency
 }
 )
 ;
-let
+var
 clear
 =
 Task
@@ -1160,7 +1160,7 @@ onManyFrecenciesChanged
 }
 )
 ;
-let
+var
 removePagesById
 =
 Task
@@ -1211,7 +1211,7 @@ idList
 }
 )
 ;
-let
+var
 cleanupPages
 =
 Task
@@ -1286,7 +1286,7 @@ hasVisits
 }
 )
 ;
-let
+var
 notifyCleanup
 =
 Task
@@ -1428,7 +1428,7 @@ resolve
 }
 )
 ;
-let
+var
 notifyOnResult
 =
 Task
@@ -1509,7 +1509,7 @@ resolve
 }
 )
 ;
-let
+var
 removeVisitsByFilter
 =
 Task
@@ -1973,7 +1973,7 @@ length
 }
 )
 ;
-let
+var
 remove
 =
 Task

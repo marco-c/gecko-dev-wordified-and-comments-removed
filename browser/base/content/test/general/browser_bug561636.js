@@ -125,7 +125,7 @@ shown
 )
 ;
 }
-let
+var
 gObserver
 =
 {

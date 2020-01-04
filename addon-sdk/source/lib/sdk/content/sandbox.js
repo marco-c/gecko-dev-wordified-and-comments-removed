@@ -290,7 +290,7 @@ WeakMap
 (
 )
 ;
-let
+var
 prefix
 =
 module

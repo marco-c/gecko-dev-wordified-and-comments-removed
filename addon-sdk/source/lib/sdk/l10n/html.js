@@ -48,7 +48,7 @@ html
 "
 )
 ;
-let
+var
 enabled
 =
 false

@@ -98,7 +98,7 @@ O
 +
 ELLIPSIS
 ;
-let
+var
 inputTests
 =
 [

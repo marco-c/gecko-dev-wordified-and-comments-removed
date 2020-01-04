@@ -1,4 +1,4 @@
-let
+var
 gTestRoot
 =
 getRootDirectory
@@ -6,12 +6,12 @@ getRootDirectory
 gTestPath
 )
 ;
-let
+var
 gBugWindow
 =
 null
 ;
-let
+var
 gIterations
 =
 5

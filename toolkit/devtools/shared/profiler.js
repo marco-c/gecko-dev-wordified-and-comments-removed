@@ -212,7 +212,7 @@ nsIProfiler
 }
 )
 ;
-let
+var
 DEFAULT_PROFILER_OPTIONS
 =
 {
@@ -1232,7 +1232,7 @@ arm
 (
 )
 ;
-let
+var
 Profiler
 =
 exports

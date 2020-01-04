@@ -49,7 +49,7 @@ core
 "
 )
 ;
-let
+var
 channel
 =
 {

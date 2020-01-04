@@ -465,7 +465,7 @@ Ci
 nsIIOService
 )
 ;
-let
+var
 gDummyPromise
 ;
 function

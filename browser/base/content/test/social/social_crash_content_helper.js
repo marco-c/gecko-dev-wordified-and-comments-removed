@@ -1,4 +1,4 @@
-let
+var
 Cu
 =
 Components
@@ -24,7 +24,7 @@ jsm
 "
 )
 ;
-let
+var
 crash
 =
 function
@@ -65,7 +65,7 @@ badptr
 contents
 }
 ;
-let
+var
 TestHelper
 =
 {

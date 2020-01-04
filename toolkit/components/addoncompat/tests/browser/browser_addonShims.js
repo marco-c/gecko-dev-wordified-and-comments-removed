@@ -1,4 +1,4 @@
-let
+var
 {
 AddonManager
 }
@@ -24,7 +24,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Services
 }

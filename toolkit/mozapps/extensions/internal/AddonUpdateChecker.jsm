@@ -363,7 +363,7 @@ update
 checker
 "
 ;
-let
+var
 logger
 =
 Log

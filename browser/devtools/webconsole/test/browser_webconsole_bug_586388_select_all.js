@@ -17,7 +17,7 @@ com
 /
 "
 ;
-let
+var
 test
 =
 asyncTest
@@ -55,7 +55,7 @@ hud
 }
 )
 ;
-let
+var
 testSelectionWhenMovingBetweenBoxes
 =
 Task

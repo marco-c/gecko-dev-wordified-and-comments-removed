@@ -1,4 +1,4 @@
-let
+var
 stateBackup
 =
 ss
@@ -7,7 +7,7 @@ getBrowserState
 (
 )
 ;
-let
+var
 state
 =
 {

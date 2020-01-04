@@ -1,4 +1,4 @@
-let
+var
 disableWorkerTest
 =
 "
@@ -14,7 +14,7 @@ a
 worker
 "
 ;
-let
+var
 testGenerator
 =
 testSteps

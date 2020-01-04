@@ -15,7 +15,7 @@ acorn
 "
 )
 ;
-let
+var
 js_beautify
 =
 function

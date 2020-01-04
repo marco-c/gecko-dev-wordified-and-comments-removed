@@ -185,7 +185,7 @@ jsm
 '
 )
 ;
-let
+var
 Svc
 =
 {
@@ -688,7 +688,7 @@ null
 }
 }
 ;
-let
+var
 PdfJs
 =
 {

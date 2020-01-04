@@ -962,12 +962,12 @@ crc
 0
 ;
 }
-let
+var
 gLogger
 =
 null
 ;
-let
+var
 gLogAppenderDump
 =
 null
@@ -1110,7 +1110,7 @@ null
 }
 }
 }
-let
+var
 Policy
 =
 {
@@ -1569,7 +1569,7 @@ promiseInitialized
 }
 )
 ;
-let
+var
 Impl
 =
 {

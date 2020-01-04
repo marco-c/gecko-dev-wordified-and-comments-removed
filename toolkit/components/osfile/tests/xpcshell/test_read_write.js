@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 {
 utils
 :
@@ -12,10 +12,10 @@ Cu
 =
 Components
 ;
-let
+var
 SHARED_PATH
 ;
-let
+var
 EXISTING_FILE
 =
 do_get_file

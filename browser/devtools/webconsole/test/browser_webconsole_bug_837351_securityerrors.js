@@ -41,7 +41,7 @@ errors
 html
 "
 ;
-let
+var
 test
 =
 asyncTest

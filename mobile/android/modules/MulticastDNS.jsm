@@ -66,7 +66,7 @@ jsm
 "
 )
 ;
-let
+var
 log
 =
 Cu

@@ -21,7 +21,7 @@ Cr
 =
 Components
 ;
-let
+var
 {
 Services
 }
@@ -47,7 +47,7 @@ jsm
 }
 )
 ;
-let
+var
 gEnableLogging
 =
 Services
@@ -81,7 +81,7 @@ log
 false
 )
 ;
-let
+var
 {
 Task
 }
@@ -107,7 +107,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 gDevTools
 }
@@ -134,7 +134,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 require
 }
@@ -162,7 +162,7 @@ jsm
 }
 )
 ;
-let
+var
 promise
 =
 require
@@ -172,7 +172,7 @@ promise
 "
 )
 ;
-let
+var
 {
 DebuggerClient
 }
@@ -190,7 +190,7 @@ main
 "
 )
 ;
-let
+var
 {
 DebuggerServer
 }
@@ -206,7 +206,7 @@ main
 "
 )
 ;
-let
+var
 {
 WebGLFront
 }
@@ -224,7 +224,7 @@ webgl
 "
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -238,7 +238,7 @@ DevToolsUtils
 "
 )
 ;
-let
+var
 TiltGL
 =
 require
@@ -254,7 +254,7 @@ gl
 "
 )
 ;
-let
+var
 {
 TargetFactory
 }
@@ -270,7 +270,7 @@ target
 "
 )
 ;
-let
+var
 {
 Toolbox
 }
@@ -286,7 +286,7 @@ toolbox
 "
 )
 ;
-let
+var
 mm
 =
 null
@@ -406,7 +406,7 @@ waitForExplicitFinish
 (
 )
 ;
-let
+var
 gToolEnabled
 =
 Services

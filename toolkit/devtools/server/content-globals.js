@@ -25,7 +25,7 @@ Services
 "
 )
 ;
-let
+var
 globalsCache
 =
 {

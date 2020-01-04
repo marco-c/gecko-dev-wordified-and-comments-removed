@@ -1084,7 +1084,7 @@ nsIDOMGlobalPropertyInitializer
 )
 }
 ;
-let
+var
 downloadsCache
 =
 {

@@ -128,7 +128,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 console
 }
@@ -156,7 +156,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 EventTarget
 }
@@ -314,7 +314,7 @@ LineGraphWidget
 "
 )
 ;
-let
+var
 AUDIO_NODE_DEFINITION
 ;
 const
@@ -413,7 +413,7 @@ UIInspectorResize
 "
 }
 ;
-let
+var
 gToolbox
 gTarget
 gFront

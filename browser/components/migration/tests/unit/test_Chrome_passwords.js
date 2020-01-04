@@ -353,7 +353,7 @@ timesUsed
 }
 ]
 ;
-let
+var
 crypto
 =
 new
@@ -361,7 +361,7 @@ OSCrypto
 (
 )
 ;
-let
+var
 dbConn
 ;
 function

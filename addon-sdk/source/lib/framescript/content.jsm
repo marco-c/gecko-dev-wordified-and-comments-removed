@@ -115,7 +115,7 @@ js
 }
 )
 ;
-let
+var
 addons
 =
 new
@@ -378,7 +378,7 @@ loaderID
 ;
 }
 )
-let
+var
 frames
 =
 new

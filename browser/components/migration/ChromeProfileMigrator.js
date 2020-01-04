@@ -2901,7 +2901,7 @@ b7db
 "
 )
 ;
-let
+var
 componentsArray
 =
 [

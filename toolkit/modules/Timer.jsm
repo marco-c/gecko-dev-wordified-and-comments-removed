@@ -62,12 +62,12 @@ jsm
 "
 )
 ;
-let
+var
 gNextId
 =
 1
 ;
-let
+var
 gTimerTable
 =
 new

@@ -584,13 +584,13 @@ destroy
 }
 )
 ;
-let
+var
 projectList
 ;
-let
+var
 runtimeList
 ;
-let
+var
 UI
 =
 {
@@ -6591,7 +6591,7 @@ decorate
 UI
 )
 ;
-let
+var
 Cmds
 =
 {

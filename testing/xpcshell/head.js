@@ -34,7 +34,7 @@ _register_modules_protocol_handler
 (
 )
 ;
-let
+var
 _Promise
 =
 Components
@@ -62,7 +62,7 @@ jsm
 .
 Promise
 ;
-let
+var
 AssertCls
 =
 Components
@@ -89,7 +89,7 @@ null
 .
 Assert
 ;
-let
+var
 Assert
 =
 new
@@ -132,7 +132,7 @@ stack
 }
 )
 ;
-let
+var
 _add_params
 =
 function
@@ -160,7 +160,7 @@ _XPCSHELL_PROCESS
 }
 }
 ;
-let
+var
 _dumpLog
 =
 function
@@ -184,7 +184,7 @@ n
 )
 ;
 }
-let
+var
 _LoggerClass
 =
 Components
@@ -211,7 +211,7 @@ null
 .
 StructuredLogger
 ;
-let
+var
 _testLogger
 =
 new
@@ -275,7 +275,7 @@ offline
 false
 ;
 }
-let
+var
 runningInParent
 =
 true
@@ -6777,7 +6777,7 @@ name
 )
 ;
 }
-let
+var
 _gTests
 =
 [
@@ -6956,7 +6956,7 @@ function
 ;
 }
 }
-let
+var
 _Task
 =
 Components
@@ -6992,17 +6992,17 @@ maintainStack
 =
 true
 ;
-let
+var
 _gRunningTest
 =
 null
 ;
-let
+var
 _gTestIndex
 =
 0
 ;
-let
+var
 _gTaskRunning
 =
 false

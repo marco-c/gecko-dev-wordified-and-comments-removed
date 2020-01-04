@@ -1,18 +1,18 @@
-let
+var
 Cu
 =
 Components
 .
 utils
 ;
-let
+var
 Cc
 =
 Components
 .
 classes
 ;
-let
+var
 Ci
 =
 Components
@@ -99,7 +99,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 require
 }
@@ -127,7 +127,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 DebuggerClient
 }
@@ -145,7 +145,7 @@ main
 "
 )
 ;
-let
+var
 {
 DebuggerServer
 }
@@ -161,7 +161,7 @@ main
 "
 )
 ;
-let
+var
 {
 MemoryFront
 }

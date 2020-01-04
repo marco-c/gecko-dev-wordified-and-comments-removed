@@ -93,7 +93,7 @@ jsm
 '
 )
 ;
-let
+var
 BlocklistProxy
 =
 {

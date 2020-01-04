@@ -1,4 +1,4 @@
-let
+var
 tempScope
 =
 {
@@ -44,14 +44,14 @@ jsm
 tempScope
 )
 ;
-let
+var
 NetUtil
 =
 tempScope
 .
 NetUtil
 ;
-let
+var
 FileUtils
 =
 tempScope

@@ -58,7 +58,7 @@ headers
 sjs
 "
 ;
-let
+var
 loads
 =
 0
@@ -351,7 +351,7 @@ deferred
 promise
 ;
 }
-let
+var
 test
 =
 asyncTest

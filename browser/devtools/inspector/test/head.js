@@ -31,7 +31,7 @@ Components
 .
 Constructor
 ;
-let
+var
 TEST_URL_ROOT
 =
 "
@@ -55,7 +55,7 @@ test
 /
 "
 ;
-let
+var
 ROOT_TEST_DIR
 =
 getRootDirectory
@@ -67,7 +67,7 @@ waitForExplicitFinish
 (
 )
 ;
-let
+var
 {
 require
 }
@@ -95,7 +95,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 TargetFactory
 }
@@ -111,7 +111,7 @@ target
 "
 )
 ;
-let
+var
 {
 console
 }
@@ -139,7 +139,7 @@ jsm
 }
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -153,7 +153,7 @@ DevToolsUtils
 "
 )
 ;
-let
+var
 promise
 =
 require
@@ -163,7 +163,7 @@ promise
 "
 )
 ;
-let
+var
 testDir
 =
 gTestPath
@@ -369,7 +369,7 @@ removeCurrentTab
 }
 )
 ;
-let
+var
 addTab
 =
 Task
@@ -461,7 +461,7 @@ tab
 }
 )
 ;
-let
+var
 navigateTo
 =
 function
@@ -662,7 +662,7 @@ highlight
 )
 ;
 }
-let
+var
 selectNode
 =
 Task
@@ -738,7 +738,7 @@ updated
 }
 )
 ;
-let
+var
 openInspectorForURL
 =
 Task
@@ -786,7 +786,7 @@ testActor
 }
 )
 ;
-let
+var
 openInspector
 =
 Task
@@ -1095,7 +1095,7 @@ selector
 )
 ;
 }
-let
+var
 getNodeFrontInFrame
 =
 Task
@@ -1338,7 +1338,7 @@ modifiers
 )
 ;
 }
-let
+var
 focusSearchBoxUsingShortcut
 =
 Task
@@ -1438,7 +1438,7 @@ nodeFront
 )
 ;
 }
-let
+var
 getContainerForSelector
 =
 Task
@@ -1504,7 +1504,7 @@ container
 }
 )
 ;
-let
+var
 hoverContainer
 =
 Task
@@ -1598,7 +1598,7 @@ highlit
 }
 )
 ;
-let
+var
 clickContainer
 =
 Task

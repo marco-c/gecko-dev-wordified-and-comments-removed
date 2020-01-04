@@ -3,7 +3,7 @@ ifdef
 0
 #
 endif
-let
+var
 gUpdater
 =
 {

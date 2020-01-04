@@ -832,7 +832,7 @@ close
 }
 }
 ;
-let
+var
 manager
 =
 (

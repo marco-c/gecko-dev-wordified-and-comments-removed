@@ -511,7 +511,7 @@ return
 worker
 ;
 }
-let
+var
 html
 =
 "
@@ -758,7 +758,7 @@ done
 }
 )
 ;
-let
+var
 html
 =
 '
@@ -1003,7 +1003,7 @@ json
 }
 )
 ;
-let
+var
 html
 =
 '
@@ -1393,7 +1393,7 @@ testHost
 }
 )
 ;
-let
+var
 html
 =
 '
@@ -3006,7 +3006,7 @@ done
 }
 )
 ;
-let
+var
 html
 =
 '
@@ -3277,7 +3277,7 @@ done
 }
 )
 ;
-let
+var
 html
 =
 '
@@ -4099,7 +4099,7 @@ done
 }
 )
 ;
-let
+var
 html
 =
 '
@@ -5025,7 +5025,7 @@ serverPort
 }
 )
 ;
-let
+var
 html
 =
 '
@@ -5272,7 +5272,7 @@ bar
 }
 )
 ;
-let
+var
 html
 =
 '

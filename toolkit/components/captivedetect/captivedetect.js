@@ -2424,7 +2424,7 @@ break
 }
 }
 ;
-let
+var
 debug
 ;
 if

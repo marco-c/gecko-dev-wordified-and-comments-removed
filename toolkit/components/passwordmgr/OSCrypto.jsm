@@ -55,7 +55,7 @@ OSCrypto
 "
 ]
 ;
-let
+var
 OSCrypto
 =
 {

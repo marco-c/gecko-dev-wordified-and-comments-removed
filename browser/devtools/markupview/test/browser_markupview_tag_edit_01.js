@@ -23,7 +23,7 @@ doc_markup_edit
 html
 "
 ;
-let
+var
 TEST_DATA
 =
 [

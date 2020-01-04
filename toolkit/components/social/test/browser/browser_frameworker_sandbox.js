@@ -127,7 +127,7 @@ tests
 )
 ;
 }
-let
+var
 tests
 =
 {

@@ -216,7 +216,7 @@ properties
 "
 )
 ;
-let
+var
 RuntimeScanners
 =
 {
@@ -655,7 +655,7 @@ RuntimeScanners
 =
 RuntimeScanners
 ;
-let
+var
 SimulatorScanner
 =
 {
@@ -829,7 +829,7 @@ add
 SimulatorScanner
 )
 ;
-let
+var
 DeprecatedAdbScanner
 =
 {
@@ -1087,7 +1087,7 @@ DeprecatedAdbScanner
 =
 DeprecatedAdbScanner
 ;
-let
+var
 LazyAdbScanner
 =
 {
@@ -1166,7 +1166,7 @@ add
 LazyAdbScanner
 )
 ;
-let
+var
 WiFiScanner
 =
 {
@@ -1532,7 +1532,7 @@ WiFiScanner
 =
 WiFiScanner
 ;
-let
+var
 StaticScanner
 =
 {
@@ -1615,7 +1615,7 @@ add
 StaticScanner
 )
 ;
-let
+var
 RuntimeTypes
 =
 exports
@@ -2501,7 +2501,7 @@ _SimulatorRuntime
 =
 SimulatorRuntime
 ;
-let
+var
 gLocalRuntime
 =
 {
@@ -2605,7 +2605,7 @@ _gLocalRuntime
 =
 gLocalRuntime
 ;
-let
+var
 gRemoteRuntime
 =
 {

@@ -672,7 +672,7 @@ constructor
 =
 PingParseError
 ;
-let
+var
 Policy
 =
 {
@@ -1746,7 +1746,7 @@ _popAndPerformQueuedOperation
 }
 }
 ;
-let
+var
 TelemetryStorageImpl
 =
 {
@@ -7498,7 +7498,7 @@ fileName
 )
 ;
 }
-let
+var
 getArchivedPingSize
 =
 Task
@@ -7574,7 +7574,7 @@ return
 }
 )
 ;
-let
+var
 getPendingPingSize
 =
 Task

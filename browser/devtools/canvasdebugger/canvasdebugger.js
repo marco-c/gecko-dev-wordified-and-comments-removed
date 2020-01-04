@@ -581,7 +581,7 @@ CALLS_LIST_SLOW_SAVE_DELAY
 =
 100
 ;
-let
+var
 gToolbox
 gTarget
 gFront
@@ -646,7 +646,7 @@ destroy
 )
 ;
 }
-let
+var
 EventsHandler
 =
 {
@@ -929,7 +929,7 @@ UI_RESET
 }
 }
 ;
-let
+var
 L10N
 =
 new
@@ -940,7 +940,7 @@ L10N
 STRINGS_URI
 )
 ;
-let
+var
 SHARED_L10N
 =
 new
@@ -958,7 +958,7 @@ decorate
 this
 )
 ;
-let
+var
 =
 (
 selector
@@ -975,7 +975,7 @@ querySelector
 selector
 )
 ;
-let
+var
 all
 =
 (

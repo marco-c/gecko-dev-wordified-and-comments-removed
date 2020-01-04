@@ -461,7 +461,7 @@ TetheringManager
 ]
 )
 ;
-let
+var
 debug
 ;
 if

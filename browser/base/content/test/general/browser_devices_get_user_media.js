@@ -1270,7 +1270,7 @@ operation
 .
 "
 ;
-let
+var
 gTests
 =
 [

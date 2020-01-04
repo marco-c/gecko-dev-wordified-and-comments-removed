@@ -41,7 +41,7 @@ modal
 "
 ]
 ;
-let
+var
 isFirefox
 =
 (

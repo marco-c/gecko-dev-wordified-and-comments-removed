@@ -28,7 +28,7 @@ Cu
 =
 Components
 ;
-let
+var
 DEBUG
 =
 false
@@ -1480,7 +1480,7 @@ _updateTimer
 null
 }
 ;
-let
+var
 debug
 ;
 if

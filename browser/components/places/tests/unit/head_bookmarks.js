@@ -64,7 +64,7 @@ jsm
 "
 )
 ;
-let
+var
 commonFile
 =
 do_get_file
@@ -184,7 +184,7 @@ PlacesOrganizer
 OrganizerQuery
 "
 ;
-let
+var
 XULAppInfo
 =
 {
@@ -267,7 +267,7 @@ nsIXULRuntime
 )
 }
 ;
-let
+var
 XULAppInfoFactory
 =
 {
@@ -302,7 +302,7 @@ iid
 }
 }
 ;
-let
+var
 registrar
 =
 Components
@@ -441,7 +441,7 @@ name
 )
 ;
 }
-let
+var
 createCorruptDB
 =
 Task

@@ -43,7 +43,7 @@ test
 /
 "
 ;
-let
+var
 state
 =
 {

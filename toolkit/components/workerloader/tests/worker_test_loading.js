@@ -48,7 +48,7 @@ imported
 "
 )
 ;
-let
+var
 PATH
 =
 "
@@ -72,13 +72,13 @@ tests
 /
 "
 ;
-let
+var
 tests
 =
 [
 ]
 ;
-let
+var
 add_test
 =
 function

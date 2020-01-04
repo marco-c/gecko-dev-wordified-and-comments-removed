@@ -10,7 +10,7 @@ head
 js
 "
 ;
-let
+var
 networkManager
 =
 Cc

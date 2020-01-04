@@ -1,4 +1,4 @@
-let
+var
 os
 =
 Cc
@@ -23,7 +23,7 @@ Ci
 nsIObserverService
 )
 ;
-let
+var
 gObserver
 =
 {

@@ -172,7 +172,7 @@ nsIMessageListenerManager
 "
 )
 ;
-let
+var
 ContactService
 =
 this

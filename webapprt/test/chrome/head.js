@@ -237,7 +237,7 @@ reject
 )
 ;
 }
-let
+var
 MockDownloadList
 =
 function

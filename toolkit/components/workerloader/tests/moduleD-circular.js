@@ -4,7 +4,7 @@ enteredD
 =
 true
 ;
-let
+var
 C
 =
 require

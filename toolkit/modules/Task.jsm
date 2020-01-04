@@ -78,12 +78,12 @@ TypeError
 "
 ]
 ;
-let
+var
 gCurrentTask
 =
 null
 ;
-let
+var
 gMaintainStack
 =
 false

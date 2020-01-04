@@ -22,7 +22,7 @@ addPermission
 (
 )
 ;
-let
+var
 audioUrl
 =
 '
@@ -51,7 +51,7 @@ audio
 ogg
 '
 ;
-let
+var
 videoUrl
 =
 '

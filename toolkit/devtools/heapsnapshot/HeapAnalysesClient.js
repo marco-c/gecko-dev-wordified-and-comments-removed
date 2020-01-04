@@ -58,7 +58,7 @@ HeapAnalysesWorker
 js
 "
 ;
-let
+var
 workerCounter
 =
 0

@@ -629,7 +629,7 @@ Services
 telemetry
 )
 ;
-let
+var
 messageManager
 =
 Cc
@@ -652,10 +652,10 @@ Ci
 nsIMessageListenerManager
 )
 ;
-let
+var
 gLogger
 ;
-let
+var
 gLogAppenderDump
 =
 null
@@ -3361,7 +3361,7 @@ status
 }
 }
 ;
-let
+var
 GMPProvider
 =
 {

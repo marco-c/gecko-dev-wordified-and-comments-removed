@@ -38,7 +38,7 @@ goNext
 )
 ;
 }
-let
+var
 tests
 =
 [

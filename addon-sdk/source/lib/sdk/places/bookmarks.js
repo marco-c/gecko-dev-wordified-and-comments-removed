@@ -1840,7 +1840,7 @@ item
 null
 ;
 }
-let
+var
 defaultGroupMap
 =
 {
@@ -1861,7 +1861,7 @@ bmsrv
 unfiledBookmarksFolder
 }
 ;
-let
+var
 rootGroups
 =
 new
@@ -1919,7 +1919,7 @@ i
 group
 ;
 }
-let
+var
 defaults
 =
 {

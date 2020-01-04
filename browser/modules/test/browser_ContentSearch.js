@@ -2196,7 +2196,7 @@ deferred
 promise
 ;
 }
-let
+var
 currentStateObj
 =
 Task
@@ -2278,7 +2278,7 @@ state
 }
 )
 ;
-let
+var
 currentEngineObj
 =
 Task

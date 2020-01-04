@@ -244,7 +244,7 @@ tel
 "
 ]
 ;
-let
+var
 mozContactInitWarned
 =
 false

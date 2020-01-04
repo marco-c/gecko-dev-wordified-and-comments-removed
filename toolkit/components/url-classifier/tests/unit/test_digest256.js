@@ -63,12 +63,12 @@ jsm
 "
 )
 ;
-let
+var
 gHttpServ
 =
 null
 ;
-let
+var
 gDbService
 =
 Cc
@@ -95,7 +95,7 @@ Ci
 nsIUrlClassifierDBService
 )
 ;
-let
+var
 gSecMan
 =
 Cc
@@ -118,7 +118,7 @@ Ci
 nsIScriptSecurityManager
 )
 ;
-let
+var
 gTables
 =
 {

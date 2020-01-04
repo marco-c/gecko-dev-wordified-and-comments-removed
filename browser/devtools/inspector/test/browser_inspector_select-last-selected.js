@@ -1,4 +1,4 @@
-let
+var
 PAGE_1
 =
 TEST_URL_ROOT
@@ -15,7 +15,7 @@ selected
 html
 "
 ;
-let
+var
 PAGE_2
 =
 TEST_URL_ROOT
@@ -32,7 +32,7 @@ selected
 html
 "
 ;
-let
+var
 TEST_DATA
 =
 [

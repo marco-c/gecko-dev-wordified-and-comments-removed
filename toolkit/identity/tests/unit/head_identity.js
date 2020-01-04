@@ -1164,7 +1164,7 @@ caller
 )
 ;
 }
-let
+var
 initialPrefDebugValue
 =
 false
@@ -1211,7 +1211,7 @@ debug
 true
 )
 ;
-let
+var
 initialPrefFXAValue
 =
 false

@@ -2738,7 +2738,7 @@ this
 }
 )
 ;
-let
+var
 gCrashManager
 ;
 function

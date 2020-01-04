@@ -180,7 +180,7 @@ js
 "
 )
 ;
-let
+var
 prefs
 =
 new
@@ -228,7 +228,7 @@ startupManager
 (
 )
 ;
-let
+var
 engineManager
 =
 Service
@@ -242,7 +242,7 @@ register
 AddonsEngine
 )
 ;
-let
+var
 engine
 =
 engineManager
@@ -254,14 +254,14 @@ addons
 "
 )
 ;
-let
+var
 reconciler
 =
 engine
 .
 _reconciler
 ;
-let
+var
 tracker
 =
 engine

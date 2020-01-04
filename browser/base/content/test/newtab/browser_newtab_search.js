@@ -254,7 +254,7 @@ next
 yield
 ;
 }
-let
+var
 runTaskifiedTests
 =
 Task
@@ -1646,7 +1646,7 @@ blob
 )
 ;
 }
-let
+var
 checkCurrentEngine
 =
 Task

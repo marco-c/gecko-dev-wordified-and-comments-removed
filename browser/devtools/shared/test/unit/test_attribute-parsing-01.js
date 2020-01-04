@@ -5,7 +5,7 @@ Components
 .
 utils
 ;
-let
+var
 {
 require
 }

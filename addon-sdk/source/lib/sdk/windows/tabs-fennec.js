@@ -702,7 +702,7 @@ tab
 }
 )
 ;
-let
+var
 gTabs
 =
 exports

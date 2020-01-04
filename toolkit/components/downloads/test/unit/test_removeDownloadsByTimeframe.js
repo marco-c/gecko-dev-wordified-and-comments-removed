@@ -1,4 +1,4 @@
-let
+var
 dm
 =
 Cc
@@ -76,7 +76,7 @@ remove
 download
 "
 ;
-let
+var
 id
 =
 1
@@ -606,7 +606,7 @@ REMOVED_TOPIC
 )
 ;
 }
-let
+var
 tests
 =
 [

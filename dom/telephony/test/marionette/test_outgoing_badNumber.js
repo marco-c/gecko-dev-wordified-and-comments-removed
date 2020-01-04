@@ -25,7 +25,7 @@ number
 *
 "
 ;
-let
+var
 outCall
 ;
 function

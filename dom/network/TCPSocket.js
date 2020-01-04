@@ -345,7 +345,7 @@ aErrorName
 )
 ;
 }
-let
+var
 debug
 =
 false

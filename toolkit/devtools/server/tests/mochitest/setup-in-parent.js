@@ -1,4 +1,4 @@
-let
+var
 {
 Ci
 }
@@ -10,7 +10,7 @@ chrome
 "
 )
 ;
-let
+var
 Services
 =
 require

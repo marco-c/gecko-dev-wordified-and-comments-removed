@@ -129,10 +129,10 @@ promises
 true
 )
 ;
-let
+var
 gToolbox
 ;
-let
+var
 startup
 =
 Task
@@ -167,7 +167,7 @@ initialize
 }
 )
 ;
-let
+var
 shutdown
 =
 Task
@@ -256,7 +256,7 @@ e
 )
 ;
 }
-let
+var
 PromisesController
 =
 {

@@ -396,7 +396,7 @@ mod
 "
 )
 ;
-let
+var
 isRect
 =
 (
@@ -434,7 +434,7 @@ value
 )
 )
 ;
-let
+var
 isSDKObj
 =
 obj
@@ -444,7 +444,7 @@ obj
 instanceof
 Class
 ;
-let
+var
 rectContract
 =
 contract
@@ -465,7 +465,7 @@ number
 }
 )
 ;
-let
+var
 position
 =
 {
@@ -578,7 +578,7 @@ left
 .
 '
 }
-let
+var
 displayContract
 =
 contract
@@ -599,7 +599,7 @@ position
 }
 )
 ;
-let
+var
 panelContract
 =
 contract
@@ -701,7 +701,7 @@ has
 panel
 )
 ;
-let
+var
 panels
 =
 new
@@ -709,7 +709,7 @@ WeakMap
 (
 )
 ;
-let
+var
 models
 =
 new
@@ -717,7 +717,7 @@ WeakMap
 (
 )
 ;
-let
+var
 views
 =
 new
@@ -725,7 +725,7 @@ WeakMap
 (
 )
 ;
-let
+var
 workers
 =
 new
@@ -733,7 +733,7 @@ WeakMap
 (
 )
 ;
-let
+var
 styles
 =
 new
@@ -816,7 +816,7 @@ get
 panel
 )
 ;
-let
+var
 setupAutoHide
 =
 new
@@ -1688,7 +1688,7 @@ Panel
 viewFor
 )
 ;
-let
+var
 panelEvents
 =
 filter
@@ -1707,7 +1707,7 @@ target
 )
 )
 ;
-let
+var
 shows
 =
 filter
@@ -1729,7 +1729,7 @@ popupshown
 "
 )
 ;
-let
+var
 hides
 =
 filter
@@ -1751,7 +1751,7 @@ popuphidden
 "
 )
 ;
-let
+var
 ready
 =
 filter
@@ -1781,7 +1781,7 @@ target
 type
 )
 ;
-let
+var
 readyToShow
 =
 filter
@@ -1803,7 +1803,7 @@ DOMContentLoaded
 "
 )
 ;
-let
+var
 start
 =
 filter

@@ -1,4 +1,4 @@
-let
+var
 protocol
 =
 require
@@ -12,7 +12,7 @@ protocol
 "
 )
 ;
-let
+var
 {
 method
 Arg
@@ -44,7 +44,7 @@ root
 "
 )
 ;
-let
+var
 ChildActor
 =
 protocol
@@ -122,7 +122,7 @@ child
 }
 )
 ;
-let
+var
 ChildFront
 =
 protocol
@@ -170,7 +170,7 @@ extra
 }
 )
 ;
-let
+var
 RootActor
 =
 protocol
@@ -451,7 +451,7 @@ unknownDetail
 }
 )
 ;
-let
+var
 RootFront
 =
 protocol

@@ -77,7 +77,7 @@ text
 '
 )
 ;
-let
+var
 defaultGlobals
 =
 override

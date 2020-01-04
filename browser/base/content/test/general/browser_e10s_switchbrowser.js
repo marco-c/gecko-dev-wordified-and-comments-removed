@@ -223,7 +223,7 @@ true
 )
 ;
 }
-let
+var
 check_history
 =
 Task
@@ -387,7 +387,7 @@ entries
 ]
 ;
 }
-let
+var
 waitForLoad
 =
 Task
@@ -464,7 +464,7 @@ contentTitle
 }
 )
 ;
-let
+var
 waitForLoadWithFlags
 =
 Task
@@ -587,7 +587,7 @@ contentTitle
 }
 )
 ;
-let
+var
 back
 =
 Task
@@ -627,7 +627,7 @@ index
 }
 )
 ;
-let
+var
 forward
 =
 Task

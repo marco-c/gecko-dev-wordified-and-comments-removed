@@ -104,7 +104,7 @@ register
 PasswordEngine
 )
 ;
-let
+var
 engine
 =
 Service
@@ -118,14 +118,14 @@ passwords
 "
 )
 ;
-let
+var
 store
 =
 engine
 .
 _store
 ;
-let
+var
 tracker
 =
 engine

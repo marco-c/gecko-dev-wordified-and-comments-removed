@@ -8,7 +8,7 @@ DELAY_REARRANGE_MS
 =
 100
 ;
-let
+var
 gDrop
 =
 {

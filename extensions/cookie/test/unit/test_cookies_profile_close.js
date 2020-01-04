@@ -1,4 +1,4 @@
-let
+var
 test_generator
 =
 do_run_test

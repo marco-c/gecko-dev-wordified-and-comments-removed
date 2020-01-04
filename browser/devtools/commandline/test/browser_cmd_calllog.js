@@ -18,7 +18,7 @@ gcli
 calllog
 "
 ;
-let
+var
 tests
 =
 {

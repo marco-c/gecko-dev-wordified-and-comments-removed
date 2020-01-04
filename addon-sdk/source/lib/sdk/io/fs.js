@@ -524,35 +524,35 @@ fd
 ;
 }
 }
-let
+var
 nsIFile
 =
 accessor
 (
 )
 ;
-let
+var
 nsIFileInputStream
 =
 accessor
 (
 )
 ;
-let
+var
 nsIFileOutputStream
 =
 accessor
 (
 )
 ;
-let
+var
 nsIBinaryInputStream
 =
 accessor
 (
 )
 ;
-let
+var
 nsIBinaryOutputStream
 =
 accessor
@@ -2019,7 +2019,7 @@ renameSync
 =
 renameSync
 ;
-let
+var
 rename
 =
 Async
@@ -2057,7 +2057,7 @@ existsSync
 =
 existsSync
 ;
-let
+var
 exists
 =
 Async
@@ -2279,7 +2279,7 @@ chownSync
 =
 chownSync
 ;
-let
+var
 chown
 =
 Async
@@ -2320,7 +2320,7 @@ lchownSync
 =
 chownSync
 ;
-let
+var
 lchown
 =
 Async
@@ -2390,7 +2390,7 @@ chmodSync
 =
 chmodSync
 ;
-let
+var
 chmod
 =
 Async
@@ -2431,7 +2431,7 @@ fchmodSync
 =
 fchmodSync
 ;
-let
+var
 fchmod
 =
 Async
@@ -2466,7 +2466,7 @@ statSync
 =
 statSync
 ;
-let
+var
 stat
 =
 Async
@@ -2501,7 +2501,7 @@ lstatSync
 =
 lstatSync
 ;
-let
+var
 lstat
 =
 Async
@@ -2536,7 +2536,7 @@ fstatSync
 =
 fstatSync
 ;
-let
+var
 fstat
 =
 Async
@@ -2577,7 +2577,7 @@ linkSync
 =
 linkSync
 ;
-let
+var
 link
 =
 Async
@@ -2618,7 +2618,7 @@ symlinkSync
 =
 symlinkSync
 ;
-let
+var
 symlink
 =
 Async
@@ -2655,7 +2655,7 @@ readlinkSync
 =
 readlinkSync
 ;
-let
+var
 readlink
 =
 Async
@@ -2692,7 +2692,7 @@ realpathSync
 =
 realpathSync
 ;
-let
+var
 realpath
 =
 Async
@@ -2706,7 +2706,7 @@ realpath
 =
 realpath
 ;
-let
+var
 unlinkSync
 =
 remove
@@ -2717,7 +2717,7 @@ unlinkSync
 =
 unlinkSync
 ;
-let
+var
 unlink
 =
 Async
@@ -2731,7 +2731,7 @@ unlink
 =
 unlink
 ;
-let
+var
 rmdirSync
 =
 remove
@@ -2742,7 +2742,7 @@ rmdirSync
 =
 rmdirSync
 ;
-let
+var
 rmdir
 =
 Async
@@ -2836,7 +2836,7 @@ mkdirSync
 =
 mkdirSync
 ;
-let
+var
 mkdir
 =
 Async
@@ -2942,7 +2942,7 @@ readdirSync
 =
 readdirSync
 ;
-let
+var
 readdir
 =
 Async
@@ -3036,7 +3036,7 @@ closeSync
 =
 closeSync
 ;
-let
+var
 close
 =
 Async
@@ -3183,7 +3183,7 @@ openSync
 =
 openSync
 ;
-let
+var
 open
 =
 Async
@@ -4124,7 +4124,7 @@ utimesSync
 =
 utimesSync
 ;
-let
+var
 utimes
 =
 Async
@@ -4163,7 +4163,7 @@ futimesSync
 =
 futimesSync
 ;
-let
+var
 futimes
 =
 Async
@@ -4202,7 +4202,7 @@ fsyncSync
 =
 fsyncSync
 ;
-let
+var
 fsync
 =
 Async

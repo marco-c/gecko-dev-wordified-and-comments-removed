@@ -759,7 +759,7 @@ endif
 #
 ifdef
 MOZ_WIDGET_ANDROID
-let
+var
 debug
 =
 Cu
@@ -797,7 +797,7 @@ Webapps
 ;
 #
 else
-let
+var
 debug
 ;
 function
@@ -25980,7 +25980,7 @@ attributes
 }
 }
 ;
-let
+var
 AppcacheObserver
 =
 function

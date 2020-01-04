@@ -76,7 +76,7 @@ properties
 "
 )
 ;
-let
+var
 ConfigView
 ;
 module

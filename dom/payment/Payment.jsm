@@ -163,7 +163,7 @@ nsIPrefService
 "
 )
 ;
-let
+var
 PaymentManager
 =
 {

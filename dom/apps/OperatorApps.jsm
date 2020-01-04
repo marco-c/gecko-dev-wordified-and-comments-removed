@@ -167,7 +167,7 @@ jsm
 "
 )
 ;
-let
+var
 Path
 =
 OS
@@ -347,7 +347,7 @@ true
 #
 ifdef
 MOZ_B2G_RIL
-let
+var
 iccListener
 =
 {

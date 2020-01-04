@@ -971,7 +971,7 @@ WorkerDebuggerLoader
 =
 WorkerDebuggerLoader
 ;
-let
+var
 PromiseDebugging
 =
 {
@@ -999,7 +999,7 @@ workers
 }
 }
 ;
-let
+var
 chrome
 =
 {
@@ -1029,7 +1029,7 @@ components
 undefined
 }
 ;
-let
+var
 loader
 =
 {
@@ -1184,7 +1184,7 @@ property
 }
 }
 ;
-let
+var
 {
 Debugger
 createSandbox

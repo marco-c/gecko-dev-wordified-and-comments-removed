@@ -15,7 +15,7 @@ context
 ;
 }
 ;
-let
+var
 quickExpr
 =
 /
@@ -54,7 +54,7 @@ w
 )
 /
 ;
-let
+var
 rsingleTag
 =
 /
@@ -3637,7 +3637,7 @@ this
 }
 }
 ;
-let
+var
 events
 =
 [

@@ -19,7 +19,7 @@ Cm
 =
 Components
 ;
-let
+var
 gSyncProfile
 =
 do_get_profile
@@ -45,7 +45,7 @@ jsm
 "
 )
 ;
-let
+var
 XULAppInfo
 =
 {
@@ -131,7 +131,7 @@ invalidateCachesOnRestart
 }
 }
 ;
-let
+var
 XULAppInfoFactory
 =
 {
@@ -166,7 +166,7 @@ iid
 }
 }
 ;
-let
+var
 registrar
 =
 Components

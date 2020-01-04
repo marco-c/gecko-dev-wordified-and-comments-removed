@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 {
 Services
 }
@@ -29,7 +29,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Loader
 }
@@ -59,7 +59,7 @@ js
 }
 )
 ;
-let
+var
 {
 OutputParser
 }
@@ -181,7 +181,7 @@ destroy
 )
 ;
 }
-let
+var
 COLOR_TEST_CLASS
 =
 "

@@ -40,14 +40,14 @@ jsm
 "
 )
 ;
-let
+var
 Cc
 =
 Components
 .
 classes
 ;
-let
+var
 Ci
 =
 Components
@@ -254,7 +254,7 @@ PREF_DISABLE_OPEN_NEW_WINDOW
 }
 )
 ;
-let
+var
 gTests
 =
 [

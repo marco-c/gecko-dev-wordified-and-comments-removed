@@ -573,7 +573,7 @@ err
 }
 ;
 }
-let
+var
 TESTS
 =
 [

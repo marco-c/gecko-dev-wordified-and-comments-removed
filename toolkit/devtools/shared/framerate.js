@@ -38,7 +38,7 @@ heritage
 "
 )
 ;
-let
+var
 Framerate
 =
 exports

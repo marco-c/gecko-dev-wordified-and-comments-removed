@@ -328,7 +328,7 @@ jsm
 "
 )
 ;
-let
+var
 gModuleName
 =
 "
@@ -342,12 +342,12 @@ include
 logging
 .
 js
-let
+var
 gDisableAnimation
 =
 null
 ;
-let
+var
 gDraggingInToolbars
 ;
 function

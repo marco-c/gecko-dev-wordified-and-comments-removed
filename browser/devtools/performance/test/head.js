@@ -21,7 +21,7 @@ Cr
 =
 Components
 ;
-let
+var
 {
 Services
 }
@@ -47,7 +47,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Preferences
 }
@@ -73,7 +73,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Task
 }
@@ -99,7 +99,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 require
 }
@@ -127,7 +127,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 gDevTools
 }
@@ -154,7 +154,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 console
 }
@@ -178,7 +178,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 TargetFactory
 }
@@ -194,7 +194,7 @@ target
 "
 )
 ;
-let
+var
 Promise
 =
 require
@@ -204,7 +204,7 @@ promise
 "
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -218,7 +218,7 @@ DevToolsUtils
 "
 )
 ;
-let
+var
 {
 DebuggerServer
 }
@@ -234,7 +234,7 @@ main
 "
 )
 ;
-let
+var
 {
 merge
 }
@@ -250,7 +250,7 @@ object
 "
 )
 ;
-let
+var
 {
 createPerformanceFront
 }
@@ -268,7 +268,7 @@ performance
 "
 )
 ;
-let
+var
 RecordingUtils
 =
 require
@@ -284,7 +284,7 @@ utils
 "
 )
 ;
-let
+var
 {
 PMM_loadFrameScripts
 PMM_isProfilerActive
@@ -308,7 +308,7 @@ communication
 "
 )
 ;
-let
+var
 mm
 =
 null
@@ -628,7 +628,7 @@ testing
 =
 true
 ;
-let
+var
 DEFAULT_PREFS
 =
 [

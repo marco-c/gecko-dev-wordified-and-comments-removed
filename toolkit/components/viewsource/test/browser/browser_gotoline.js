@@ -18,7 +18,7 @@ jsm
 this
 )
 ;
-let
+var
 content
 =
 "
@@ -109,7 +109,7 @@ win
 }
 )
 ;
-let
+var
 checkViewSource
 =
 Task

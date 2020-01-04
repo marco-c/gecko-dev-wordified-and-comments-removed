@@ -19,7 +19,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 LoadContextInfo
 }
@@ -91,7 +91,7 @@ jsm
 "
 )
 ;
-let
+var
 tempScope
 =
 {
@@ -139,7 +139,7 @@ js
 tempScope
 )
 ;
-let
+var
 Sanitizer
 =
 tempScope
@@ -160,7 +160,7 @@ kUsecPerMin
 *
 1000000
 ;
-let
+var
 formEntries
 downloadIDs
 olderDownloadIDs
@@ -3756,7 +3756,7 @@ gCurrTest
 =
 0
 ;
-let
+var
 now_mSec
 =
 Date
@@ -3765,7 +3765,7 @@ now
 (
 )
 ;
-let
+var
 now_uSec
 =
 now_mSec

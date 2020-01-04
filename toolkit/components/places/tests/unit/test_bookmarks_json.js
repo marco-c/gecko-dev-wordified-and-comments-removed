@@ -45,7 +45,7 @@ bookmarkProperties
 description
 "
 ;
-let
+var
 test_bookmarks
 =
 {
@@ -659,7 +659,7 @@ tld
 ]
 }
 ;
-let
+var
 bookmarksExportedFile
 ;
 add_task

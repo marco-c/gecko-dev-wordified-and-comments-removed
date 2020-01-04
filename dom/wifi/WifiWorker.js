@@ -9558,7 +9558,7 @@ s
 )
 ;
 }
-let
+var
 WifiNetworkInterface
 =
 {
@@ -9809,10 +9809,10 @@ WifiScanResult
 )
 {
 }
-let
+var
 netToDOM
 ;
-let
+var
 netFromDOM
 ;
 function
@@ -20806,7 +20806,7 @@ WifiWorker
 ]
 )
 ;
-let
+var
 debug
 ;
 function

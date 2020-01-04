@@ -130,12 +130,12 @@ DEFAULT_SORT_KEY
 TITLE
 "
 ;
-let
+var
 prevSortDir
 =
 null
 ;
-let
+var
 prevSortKey
 =
 null

@@ -1,4 +1,4 @@
-let
+var
 MAX_TOTAL_VIEWERS
 =
 "
@@ -9,7 +9,7 @@ sessionhistory
 max_total_viewers
 "
 ;
-let
+var
 TAB1_URL
 =
 EXAMPLE_URL
@@ -24,7 +24,7 @@ tab1
 html
 "
 ;
-let
+var
 TAB2_URL
 =
 EXAMPLE_URL
@@ -39,7 +39,7 @@ tab2
 html
 "
 ;
-let
+var
 WORKER1_URL
 =
 "
@@ -52,7 +52,7 @@ worker1
 js
 "
 ;
-let
+var
 WORKER2_URL
 =
 "

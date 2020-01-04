@@ -1,4 +1,4 @@
-let
+var
 originalPolicy
 =
 null
@@ -331,7 +331,7 @@ promise
 ]
 ;
 }
-let
+var
 dumpAppender
 rootLogger
 ;

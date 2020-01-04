@@ -431,7 +431,7 @@ jsm
 }
 )
 ;
-let
+var
 NetMonitorView
 =
 {
@@ -18786,7 +18786,7 @@ count
 }
 }
 ;
-let
+var
 =
 (
 aSelector
@@ -18803,7 +18803,7 @@ querySelector
 aSelector
 )
 ;
-let
+var
 all
 =
 (

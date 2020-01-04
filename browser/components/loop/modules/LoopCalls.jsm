@@ -743,7 +743,7 @@ busy
 }
 }
 ;
-let
+var
 LoopCallsInternal
 =
 {

@@ -1,4 +1,4 @@
-let
+var
 gTestRoot
 =
 getRootDirectory
@@ -36,12 +36,12 @@ http
 "
 )
 ;
-let
+var
 gTestBrowser
 =
 null
 ;
-let
+var
 gNumPluginBindingsAttached
 =
 0

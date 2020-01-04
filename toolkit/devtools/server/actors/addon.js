@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 {
 Ci
 Cu
@@ -16,7 +16,7 @@ chrome
 "
 )
 ;
-let
+var
 Services
 =
 require
@@ -26,7 +26,7 @@ Services
 "
 )
 ;
-let
+var
 {
 ActorPool
 }
@@ -44,7 +44,7 @@ common
 "
 )
 ;
-let
+var
 {
 TabSources
 }
@@ -60,7 +60,7 @@ TabSources
 "
 )
 ;
-let
+var
 makeDebugger
 =
 require
@@ -76,7 +76,7 @@ debugger
 "
 )
 ;
-let
+var
 {
 ConsoleAPIListener
 }
@@ -94,7 +94,7 @@ utils
 "
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -108,7 +108,7 @@ DevToolsUtils
 "
 )
 ;
-let
+var
 {
 dbg_assert
 update

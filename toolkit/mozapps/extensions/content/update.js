@@ -212,7 +212,7 @@ jsm
 "
 )
 ;
-let
+var
 logger
 =
 null
@@ -789,7 +789,7 @@ disabled
 ;
 }
 }
-let
+var
 listener
 =
 {

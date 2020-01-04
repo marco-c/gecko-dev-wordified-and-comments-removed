@@ -236,7 +236,7 @@ freeze
 LightweightThemeImageOptimizer
 )
 ;
-let
+var
 ImageCropper
 =
 {
@@ -554,7 +554,7 @@ resetInProgress
 }
 }
 ;
-let
+var
 ImageFile
 =
 {
@@ -750,7 +750,7 @@ NetUtil
 "
 )
 ;
-let
+var
 ImageTools
 =
 {
@@ -913,7 +913,7 @@ imgITools
 "
 )
 ;
-let
+var
 Utils
 =
 {

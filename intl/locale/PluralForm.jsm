@@ -39,7 +39,7 @@ intl
 properties
 "
 ;
-let
+var
 gFunctions
 =
 [

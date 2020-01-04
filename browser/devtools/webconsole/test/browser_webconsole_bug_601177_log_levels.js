@@ -70,7 +70,7 @@ levels
 html
 "
 ;
-let
+var
 test
 =
 asyncTest

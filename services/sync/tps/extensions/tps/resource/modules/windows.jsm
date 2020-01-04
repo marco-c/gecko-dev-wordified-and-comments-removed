@@ -46,7 +46,7 @@ js
 "
 )
 ;
-let
+var
 BrowserWindows
 =
 {

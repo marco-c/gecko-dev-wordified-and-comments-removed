@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 {
 classes
 :
@@ -21,7 +21,7 @@ Cr
 =
 Components
 ;
-let
+var
 {
 require
 }
@@ -49,7 +49,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 CssLogic
 }
@@ -67,7 +67,7 @@ logic
 "
 )
 ;
-let
+var
 promise
 =
 require
@@ -487,7 +487,7 @@ WaitForComputedStylePropertyValue
 }
 )
 ;
-let
+var
 dumpn
 =
 msg

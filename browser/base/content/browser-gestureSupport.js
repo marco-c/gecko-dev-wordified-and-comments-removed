@@ -53,7 +53,7 @@ MPL
 0
 /
 .
-let
+var
 gGestureSupport
 =
 {
@@ -2110,7 +2110,7 @@ _clearCompleteRotation
 }
 }
 ;
-let
+var
 gHistorySwipeAnimation
 =
 {

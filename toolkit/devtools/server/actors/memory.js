@@ -279,7 +279,7 @@ number
 }
 )
 ;
-let
+var
 MemoryActor
 =
 exports

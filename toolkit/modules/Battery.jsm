@@ -80,7 +80,7 @@ jsm
 "
 )
 ;
-let
+var
 gFakeBattery
 =
 {

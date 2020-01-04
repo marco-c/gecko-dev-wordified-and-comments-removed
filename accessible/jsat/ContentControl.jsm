@@ -1,11 +1,11 @@
-let
+var
 Ci
 =
 Components
 .
 interfaces
 ;
-let
+var
 Cu
 =
 Components

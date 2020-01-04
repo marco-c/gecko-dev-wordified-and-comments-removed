@@ -87,7 +87,7 @@ spec
 this
 )
 ;
-let
+var
 Output
 =
 {
@@ -96,12 +96,12 @@ print
 do_print
 }
 ;
-let
+var
 executeSoon
 =
 do_execute_soon
 ;
-let
+var
 setTimeout
 =
 (
@@ -116,12 +116,12 @@ delay
 fn
 )
 ;
-let
+var
 add_task_in_parent_process
 =
 add_task
 ;
-let
+var
 add_task_in_child_process
 =
 function
@@ -130,7 +130,7 @@ function
 {
 }
 ;
-let
+var
 add_task_in_both_processes
 =
 add_task

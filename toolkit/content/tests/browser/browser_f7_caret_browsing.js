@@ -44,12 +44,12 @@ jsm
 "
 )
 ;
-let
+var
 gTab
 =
 null
 ;
-let
+var
 gListener
 =
 null
@@ -113,7 +113,7 @@ accessibility
 browsewithcaret
 "
 ;
-let
+var
 oldPrefs
 =
 {

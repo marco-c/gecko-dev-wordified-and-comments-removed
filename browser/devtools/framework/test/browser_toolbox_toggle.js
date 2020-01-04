@@ -24,7 +24,7 @@ using
 shortcuts
 "
 ;
-let
+var
 {
 Toolbox
 }

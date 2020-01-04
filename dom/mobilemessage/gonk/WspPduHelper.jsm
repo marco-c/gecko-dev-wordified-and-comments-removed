@@ -52,7 +52,7 @@ js
 this
 )
 ;
-let
+var
 DEBUG
 ;
 const
@@ -10687,7 +10687,7 @@ ids
 (
 )
 ;
-let
+var
 debug
 ;
 if

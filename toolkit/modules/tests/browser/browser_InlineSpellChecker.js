@@ -65,7 +65,7 @@ fname
 ;
 }
 }
-let
+var
 tests
 =
 {

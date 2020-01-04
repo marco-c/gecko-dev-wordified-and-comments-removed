@@ -19,12 +19,12 @@ code_blackboxing_blackboxme
 .
 js
 "
-let
+var
 gTab
 gPanel
 gDebugger
 ;
-let
+var
 gFrames
 gSources
 ;

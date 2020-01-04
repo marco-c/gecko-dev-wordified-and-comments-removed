@@ -163,7 +163,7 @@ properties
 "
 )
 ;
-let
+var
 UI
 =
 {

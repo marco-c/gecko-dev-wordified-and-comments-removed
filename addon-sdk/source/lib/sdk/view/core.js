@@ -47,7 +47,7 @@ core
 "
 )
 ;
-let
+var
 getNodeView
 =
 method
@@ -95,7 +95,7 @@ viewFor
 =
 getNodeView
 ;
-let
+var
 getActiveView
 =
 method

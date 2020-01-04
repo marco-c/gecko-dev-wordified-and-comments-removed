@@ -119,7 +119,7 @@ obj
 }
 )
 ;
-let
+var
 DEBUG
 =
 SE

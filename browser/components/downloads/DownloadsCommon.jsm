@@ -504,7 +504,7 @@ download
 "
 )
 ;
-let
+var
 PrefObserver
 =
 {

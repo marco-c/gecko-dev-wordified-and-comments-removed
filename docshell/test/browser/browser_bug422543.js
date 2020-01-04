@@ -184,7 +184,7 @@ nsISupportsWeakReference
 )
 }
 ;
-let
+var
 gFirstListener
 =
 new
@@ -192,7 +192,7 @@ SHistoryListener
 (
 )
 ;
-let
+var
 gSecondListener
 =
 new
@@ -851,7 +851,7 @@ true
 )
 ;
 }
-let
+var
 TestRunner
 =
 {

@@ -176,7 +176,7 @@ return
 true
 ;
 }
-let
+var
 tests
 =
 [
@@ -381,7 +381,7 @@ true
 }
 ]
 ;
-let
+var
 idx
 =
 -

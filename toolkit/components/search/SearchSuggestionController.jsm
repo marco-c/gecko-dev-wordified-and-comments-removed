@@ -153,7 +153,7 @@ suggest
 enabled
 "
 ;
-let
+var
 gRemoteSuggestionsEnabled
 =
 Services

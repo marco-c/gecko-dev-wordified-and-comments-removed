@@ -465,7 +465,7 @@ boolean
 }
 )
 ;
-let
+var
 toolbars
 =
 new

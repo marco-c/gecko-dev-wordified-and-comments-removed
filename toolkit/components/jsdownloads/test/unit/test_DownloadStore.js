@@ -1857,7 +1857,7 @@ download3saver2
 }
 )
 ;
-let
+var
 tailFile
 =
 do_get_file

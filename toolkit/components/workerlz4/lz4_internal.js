@@ -60,7 +60,7 @@ require
 )
 ;
 }
-let
+var
 SharedAll
 =
 require
@@ -82,7 +82,7 @@ jsm
 "
 )
 ;
-let
+var
 libxul
 =
 new
@@ -102,14 +102,14 @@ Path
 libxul
 )
 ;
-let
+var
 Type
 =
 SharedAll
 .
 Type
 ;
-let
+var
 Primitives
 =
 {

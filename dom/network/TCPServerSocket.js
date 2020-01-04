@@ -106,7 +106,7 @@ Ci
 nsITCPSocketInternal
 )
 ;
-let
+var
 debug
 =
 true

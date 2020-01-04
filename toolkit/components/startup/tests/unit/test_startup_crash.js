@@ -56,14 +56,14 @@ XPCShell
 "
 )
 ;
-let
+var
 prefService
 =
 Services
 .
 prefs
 ;
-let
+var
 appStartup
 =
 Cc

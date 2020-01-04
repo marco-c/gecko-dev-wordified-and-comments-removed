@@ -51,7 +51,7 @@ jsm
 "
 )
 ;
-let
+var
 promise
 =
 require
@@ -61,7 +61,7 @@ promise
 "
 )
 ;
-let
+var
 EventEmitter
 =
 require

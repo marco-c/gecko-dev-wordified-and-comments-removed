@@ -626,7 +626,7 @@ inadjacent
 json
 "
 ;
-let
+var
 DirectoryLinksProvider
 =
 {

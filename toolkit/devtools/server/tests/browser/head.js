@@ -232,7 +232,7 @@ waitForExplicitFinish
 (
 )
 ;
-let
+var
 addTab
 =
 Task

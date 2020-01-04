@@ -20,13 +20,13 @@ code_binary_search
 js
 "
 ;
-let
+var
 gTab
 gPanel
 gDebugger
 gEditor
 ;
-let
+var
 gSources
 gFrames
 gPrefs

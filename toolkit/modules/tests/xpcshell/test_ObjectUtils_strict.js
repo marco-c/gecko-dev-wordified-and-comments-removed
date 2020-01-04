@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 {
 ObjectUtils
 }
@@ -31,7 +31,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Promise
 }

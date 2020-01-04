@@ -15,12 +15,12 @@ EXPECTED_NUMBER_OF_REMOTE_DEVICES
 =
 1
 ;
-let
+var
 hasReceivedUuidsChanged
 =
 false
 ;
-let
+var
 originalUuids
 ;
 startBluetoothTest

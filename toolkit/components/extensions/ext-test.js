@@ -19,14 +19,14 @@ jsm
 "
 )
 ;
-let
+var
 {
 EventManager
 }
 =
 ExtensionUtils
 ;
-let
+var
 messageHandlers
 =
 new

@@ -395,7 +395,7 @@ null
 )
 ;
 }
-let
+var
 TabDestroyObserver
 =
 {

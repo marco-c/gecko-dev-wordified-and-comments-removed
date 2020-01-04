@@ -9,12 +9,12 @@ doc_blackboxing
 html
 "
 ;
-let
+var
 gTab
 gPanel
 gDebugger
 ;
-let
+var
 gEditor
 gSources
 ;

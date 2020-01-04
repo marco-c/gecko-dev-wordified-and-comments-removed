@@ -3,13 +3,13 @@ use
 strict
 "
 ;
-let
+var
 gTestLog
 =
 [
 ]
 ;
-let
+var
 expectedLog
 =
 [

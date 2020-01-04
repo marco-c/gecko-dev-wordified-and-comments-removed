@@ -3,7 +3,7 @@ PERMISSIONS_RWUSR
 =
 0x180
 ;
-let
+var
 gSyncUtils
 =
 {

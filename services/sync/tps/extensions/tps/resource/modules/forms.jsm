@@ -39,7 +39,7 @@ jsm
 "
 )
 ;
-let
+var
 formService
 =
 Cc
@@ -66,7 +66,7 @@ Ci
 nsIFormHistory2
 )
 ;
-let
+var
 FormDB
 =
 {

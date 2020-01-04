@@ -5274,7 +5274,7 @@ reset
 }
 )
 ;
-let
+var
 gDidInitialSetUp
 =
 false

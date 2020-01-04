@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 SharedAll
 ;
 if
@@ -152,7 +152,7 @@ require
 )
 ;
 }
-let
+var
 LOG
 =
 SharedAll
@@ -170,7 +170,7 @@ allthreads
 "
 )
 ;
-let
+var
 Const
 =
 SharedAll
@@ -179,7 +179,7 @@ Constants
 .
 libc
 ;
-let
+var
 libc
 =
 new
@@ -215,7 +215,7 @@ libc
 =
 libc
 ;
-let
+var
 declareFFI
 =
 SharedAll
@@ -234,7 +234,7 @@ declareFFI
 =
 declareFFI
 ;
-let
+var
 LazyBindings
 =
 {
@@ -264,7 +264,7 @@ ctypes
 int
 )
 ;
-let
+var
 OSError
 =
 function
@@ -722,7 +722,7 @@ Error
 =
 OSError
 ;
-let
+var
 AbstractInfo
 =
 function
@@ -925,7 +925,7 @@ AbstractInfo
 =
 AbstractInfo
 ;
-let
+var
 AbstractEntry
 =
 function
@@ -1044,7 +1044,7 @@ Const
 .
 SEEK_END
 ;
-let
+var
 Type
 =
 Object
@@ -1192,7 +1192,7 @@ EINVAL
 ;
 }
 ;
-let
+var
 EXPORTED_SYMBOLS
 =
 [

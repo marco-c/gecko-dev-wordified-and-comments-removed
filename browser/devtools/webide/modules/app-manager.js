@@ -411,7 +411,7 @@ properties
 "
 )
 ;
-let
+var
 AppManager
 =
 exports

@@ -251,7 +251,7 @@ appeared
 )
 ;
 }
-let
+var
 isSidebarLoaded
 =
 false
@@ -400,7 +400,7 @@ init
 )
 ;
 }
-let
+var
 manifest
 =
 {

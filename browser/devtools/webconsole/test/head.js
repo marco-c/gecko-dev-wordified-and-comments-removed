@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 {
 gDevTools
 }
@@ -30,7 +30,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 console
 }
@@ -58,7 +58,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Task
 }
@@ -84,7 +84,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 require
 }
@@ -112,7 +112,7 @@ jsm
 }
 )
 ;
-let
+var
 promise
 =
 require
@@ -122,7 +122,7 @@ promise
 "
 )
 ;
-let
+var
 {
 TargetFactory
 }
@@ -138,7 +138,7 @@ target
 "
 )
 ;
-let
+var
 {
 Utils
 :
@@ -158,7 +158,7 @@ utils
 "
 )
 ;
-let
+var
 {
 Messages
 }
@@ -176,7 +176,7 @@ output
 "
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -208,7 +208,7 @@ storage
 "
 )
 ;
-let
+var
 gPendingOutputTest
 =
 0
@@ -300,7 +300,7 @@ webconsole
 properties
 "
 ;
-let
+var
 WCUL10n
 =
 new
@@ -839,7 +839,7 @@ str
 )
 ;
 }
-let
+var
 openConsole
 =
 function
@@ -923,7 +923,7 @@ promise
 ;
 }
 ;
-let
+var
 closeConsole
 =
 Task
@@ -1143,7 +1143,7 @@ deferred
 promise
 ;
 }
-let
+var
 waitForTab
 =
 Task
@@ -1426,7 +1426,7 @@ text
 )
 ;
 }
-let
+var
 finishTest
 =
 Task
@@ -1730,7 +1730,7 @@ deferred
 promise
 ;
 }
-let
+var
 openInspector
 =
 Task
@@ -3174,7 +3174,7 @@ lastDeferred
 promise
 ;
 }
-let
+var
 updateVariablesViewProperty
 =
 Task

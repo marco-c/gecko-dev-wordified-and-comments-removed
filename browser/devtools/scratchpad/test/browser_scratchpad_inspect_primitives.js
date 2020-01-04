@@ -1,4 +1,4 @@
-let
+var
 {
 Task
 }
@@ -102,7 +102,7 @@ true
 )
 ;
 }
-let
+var
 checkResults
 =
 Task

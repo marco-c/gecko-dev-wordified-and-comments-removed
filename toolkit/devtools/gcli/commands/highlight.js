@@ -43,7 +43,7 @@ server
 /
 actors
 /
-highlighters
+highlighter
 "
 )
 ;
@@ -114,7 +114,7 @@ MAX_HIGHLIGHTED_ELEMENTS
 =
 100
 ;
-let
+var
 highlighterEnv
 ;
 exports

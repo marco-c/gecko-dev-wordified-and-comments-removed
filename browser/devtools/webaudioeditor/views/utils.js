@@ -62,7 +62,7 @@ return
 null
 ;
 }
-let
+var
 ToggleMixin
 =
 {

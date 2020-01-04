@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 passedTests
 =
 0

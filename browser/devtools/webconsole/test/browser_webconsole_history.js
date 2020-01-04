@@ -46,7 +46,7 @@ HISTORY_FORWARD
 =
 1
 ;
-let
+var
 test
 =
 asyncTest

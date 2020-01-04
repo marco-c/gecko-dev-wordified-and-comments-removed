@@ -1,4 +1,4 @@
-let
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -25,7 +25,7 @@ Cu
 =
 Components
 ;
-let
+var
 module
 =
 this
@@ -615,7 +615,7 @@ start
 "
 ]
 ;
-let
+var
 TPS
 =
 {

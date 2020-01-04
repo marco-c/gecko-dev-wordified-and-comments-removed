@@ -348,7 +348,7 @@ deferred
 promise
 ;
 }
-let
+var
 gURLsNotRemembered
 =
 [
@@ -4275,7 +4275,7 @@ selectedChat
 ;
 }
 }
-let
+var
 origProxyType
 =
 Services

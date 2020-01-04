@@ -46,7 +46,7 @@ height
 height
 ;
 }
-let
+var
 TESTS
 =
 [

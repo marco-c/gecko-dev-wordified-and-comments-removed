@@ -357,7 +357,7 @@ return
 null
 ;
 }
-let
+var
 Delta
 =
 {
@@ -589,7 +589,7 @@ POSITIVE_INFINITY
 }
 }
 }
-let
+var
 State
 =
 {
@@ -1469,7 +1469,7 @@ date
 )
 }
 ;
-let
+var
 View
 =
 {
@@ -3896,7 +3896,7 @@ cachedElements
 }
 }
 ;
-let
+var
 Control
 =
 {
@@ -4393,7 +4393,7 @@ _displayMode
 MODE_GLOBAL
 }
 ;
-let
+var
 go
 =
 Task

@@ -1,9 +1,9 @@
-let
+var
 gTestBrowser
 =
 null
 ;
-let
+var
 gTestRoot
 =
 getRootDirectory
@@ -41,7 +41,7 @@ http
 "
 )
 ;
-let
+var
 gChromeRoot
 =
 getRootDirectory

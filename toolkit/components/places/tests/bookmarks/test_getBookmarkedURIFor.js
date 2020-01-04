@@ -1,11 +1,11 @@
-let
+var
 hs
 =
 PlacesUtils
 .
 history
 ;
-let
+var
 bs
 =
 PlacesUtils

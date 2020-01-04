@@ -37,7 +37,7 @@ of
 html
 "
 ;
-let
+var
 test
 =
 asyncTest

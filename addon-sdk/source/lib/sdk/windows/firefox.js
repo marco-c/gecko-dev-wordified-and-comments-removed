@@ -1066,7 +1066,7 @@ window
 )
 ;
 }
-let
+var
 windowEventListener
 =
 (

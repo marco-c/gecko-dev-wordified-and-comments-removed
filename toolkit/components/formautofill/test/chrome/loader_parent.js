@@ -61,7 +61,7 @@ jsm
 this
 )
 ;
-let
+var
 sharedUrl
 =
 "
@@ -103,7 +103,7 @@ sharedUrl
 this
 )
 ;
-let
+var
 Output
 =
 {
@@ -121,7 +121,7 @@ message
 )
 }
 ;
-let
+var
 Assert
 =
 {
@@ -253,7 +253,7 @@ taskId
 )
 ;
 }
-let
+var
 add_task
 =
 function
@@ -262,7 +262,7 @@ function
 {
 }
 ;
-let
+var
 add_task_in_child_process
 =
 function
@@ -271,12 +271,12 @@ function
 {
 }
 ;
-let
+var
 add_task_in_both_processes
 =
 add_task_in_parent_process
 ;
-let
+var
 context
 =
 this

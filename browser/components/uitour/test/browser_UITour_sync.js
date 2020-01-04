@@ -3,13 +3,13 @@ use
 strict
 "
 ;
-let
+var
 gTestTab
 ;
-let
+var
 gContentAPI
 ;
-let
+var
 gContentWindow
 ;
 function
@@ -46,7 +46,7 @@ UITourTest
 )
 ;
 }
-let
+var
 tests
 =
 [

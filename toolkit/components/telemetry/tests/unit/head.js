@@ -320,12 +320,12 @@ f
 /
 i
 ;
-let
+var
 gOldAppInfo
 =
 null
 ;
-let
+var
 gGlobalScope
 =
 this

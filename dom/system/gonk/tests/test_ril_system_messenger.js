@@ -35,7 +35,7 @@ jsm
 "
 )
 ;
-let
+var
 RIL
 =
 {
@@ -85,15 +85,15 @@ nsIStkCmdFactory
 "
 )
 ;
-let
+var
 RSM
 ;
-let
+var
 gReceivedMsgType
 =
 null
 ;
-let
+var
 gReceivedMessage
 =
 null

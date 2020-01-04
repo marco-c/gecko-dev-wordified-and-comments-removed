@@ -20,7 +20,7 @@ addon2
 xpi
 "
 ;
-let
+var
 gAddon1
 gAddon1Actor
 gAddon2

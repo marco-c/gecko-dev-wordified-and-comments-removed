@@ -342,7 +342,7 @@ invoke
 )
 ;
 }
-let
+var
 Record
 =
 function
@@ -598,7 +598,7 @@ version
 DATA_VERSION
 }
 ;
-let
+var
 Bookmarks
 =
 function
@@ -1219,7 +1219,7 @@ Bookmarks
 =
 Bookmarks
 ;
-let
+var
 RootFolder
 =
 function

@@ -262,7 +262,7 @@ EXPORT_INDENT
 "
 "
 ;
-let
+var
 serialNumber
 =
 0

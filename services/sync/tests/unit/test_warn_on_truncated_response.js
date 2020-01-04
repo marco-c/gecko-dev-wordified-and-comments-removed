@@ -77,7 +77,7 @@ run_next_test
 )
 ;
 }
-let
+var
 BODY
 =
 "
@@ -85,7 +85,7 @@ response
 body
 "
 ;
-let
+var
 contentLength
 =
 BODY

@@ -346,7 +346,7 @@ image
 }
 )
 ;
-let
+var
 FrameSnapshotActor
 =
 protocol
@@ -689,7 +689,7 @@ image
 }
 )
 ;
-let
+var
 FrameSnapshotFront
 =
 protocol
@@ -883,7 +883,7 @@ _generateScreenshotFor
 }
 )
 ;
-let
+var
 CanvasActor
 =
 exports
@@ -1882,7 +1882,7 @@ resumeRecording
 }
 )
 ;
-let
+var
 ContextUtils
 =
 {
@@ -3098,7 +3098,7 @@ newViewport
 }
 }
 ;
-let
+var
 CanvasFront
 =
 exports

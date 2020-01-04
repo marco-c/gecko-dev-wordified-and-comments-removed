@@ -180,7 +180,7 @@ healthreport
 uploadEnabled
 "
 ;
-let
+var
 gHttpServer
 =
 null

@@ -173,7 +173,7 @@ DEFAULT_TIMELINE_DATA_PULL_TIMEOUT
 =
 200
 ;
-let
+var
 Timeline
 =
 exports

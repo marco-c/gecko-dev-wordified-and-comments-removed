@@ -75,7 +75,7 @@ MPL
 0
 /
 .
-let
+var
 gEMEHandler
 =
 {

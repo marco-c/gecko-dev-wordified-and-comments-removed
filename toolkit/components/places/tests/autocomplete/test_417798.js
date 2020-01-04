@@ -1,4 +1,4 @@
-let
+var
 kURIs
 =
 [
@@ -18,7 +18,7 @@ javascript
 "
 ]
 ;
-let
+var
 kTitles
 =
 [
@@ -47,7 +47,7 @@ undefined
 true
 )
 ;
-let
+var
 gTests
 =
 [

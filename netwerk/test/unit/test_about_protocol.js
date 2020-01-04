@@ -1,11 +1,11 @@
-let
+var
 Ci
 =
 Components
 .
 interfaces
 ;
-let
+var
 Cc
 =
 Components
@@ -54,7 +54,7 @@ jsm
 "
 )
 ;
-let
+var
 unsafeAboutModule
 =
 {
@@ -142,7 +142,7 @@ URI_SAFE_FOR_UNTRUSTED_CONTENT
 }
 }
 ;
-let
+var
 factory
 =
 {

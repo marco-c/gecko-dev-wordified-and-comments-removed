@@ -153,7 +153,7 @@ nsIAppsService
 }
 )
 ;
-let
+var
 Utils
 =
 {

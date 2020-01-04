@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 {
 Ci
 Cc
@@ -39,7 +39,7 @@ Ci
 nsISupports
 )
 ;
-let
+var
 Services
 =
 require
@@ -49,7 +49,7 @@ Services
 "
 )
 ;
-let
+var
 promise
 =
 require
@@ -59,7 +59,7 @@ promise
 "
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -73,7 +73,7 @@ DevToolsUtils
 "
 )
 ;
-let
+var
 {
 dumpn
 dumpv
@@ -405,7 +405,7 @@ jsm
 "
 )
 ;
-let
+var
 DebuggerSocket
 =
 {
@@ -491,7 +491,7 @@ transport
 }
 )
 ;
-let
+var
 _getTransport
 =
 Task
@@ -606,7 +606,7 @@ override
 }
 )
 ;
-let
+var
 _attemptTransport
 =
 Task
@@ -780,7 +780,7 @@ s
 }
 )
 ;
-let
+var
 _attemptConnect
 =
 Task

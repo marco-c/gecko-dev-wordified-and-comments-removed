@@ -337,7 +337,7 @@ NOTIFICATION_DELAY_NEXT_RUNS_MSEC
 *
 1000
 ;
-let
+var
 Policy
 =
 {
@@ -530,7 +530,7 @@ _infobarShownCallback
 }
 }
 ;
-let
+var
 TelemetryReportingPolicyImpl
 =
 {

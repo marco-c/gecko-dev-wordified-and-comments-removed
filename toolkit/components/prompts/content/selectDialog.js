@@ -26,7 +26,7 @@ Components
 .
 utils
 ;
-let
+var
 gArgs
 listBox
 ;

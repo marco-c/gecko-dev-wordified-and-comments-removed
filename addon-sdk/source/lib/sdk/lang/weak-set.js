@@ -81,7 +81,7 @@ target
 ;
 }
 }
-let
+var
 getLookupFor
 =
 makeGetterFor
@@ -89,7 +89,7 @@ makeGetterFor
 WeakMap
 )
 ;
-let
+var
 getRefsFor
 =
 makeGetterFor

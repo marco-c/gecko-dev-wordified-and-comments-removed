@@ -26,7 +26,7 @@ reportingDisabled
 =
 true
 ;
-let
+var
 gPanel
 gDebugger
 gFrames

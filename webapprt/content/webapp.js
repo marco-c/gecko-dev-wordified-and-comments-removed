@@ -147,7 +147,7 @@ nsICrashReporter
 ;
 #
 endif
-let
+var
 progressListener
 =
 {
@@ -720,7 +720,7 @@ false
 ;
 #
 endif
-let
+var
 updateMenuItems
 =
 Task
@@ -853,7 +853,7 @@ endif
 #
 ifndef
 XP_MACOSX
-let
+var
 gEditUIVisible
 =
 true
@@ -1079,7 +1079,7 @@ spec
 #
 endif
 }
-let
+var
 gContextMenu
 =
 null

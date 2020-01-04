@@ -123,7 +123,7 @@ grip
 }
 )
 ;
-let
+var
 PromisesActor
 =
 protocol

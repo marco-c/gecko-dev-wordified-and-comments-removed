@@ -17,7 +17,7 @@ unstable
 "
 }
 ;
-let
+var
 {
 emit
 on
@@ -35,7 +35,7 @@ core
 "
 )
 ;
-let
+var
 refs
 =
 (

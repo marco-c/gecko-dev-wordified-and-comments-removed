@@ -282,14 +282,14 @@ register
 StirlingEngine
 )
 ;
-let
+var
 collectionsHelper
 =
 track_collections_helper
 (
 )
 ;
-let
+var
 upd
 =
 collectionsHelper

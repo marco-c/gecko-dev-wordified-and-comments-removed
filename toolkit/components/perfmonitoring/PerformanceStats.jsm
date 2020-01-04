@@ -263,7 +263,7 @@ MAX_WAIT_FOR_CHILD_PROCESS_MS
 =
 5000
 ;
-let
+var
 isContent
 =
 Services
@@ -669,7 +669,7 @@ return
 1
 ;
 }
-let
+var
 Probes
 =
 {
@@ -2386,7 +2386,7 @@ probes
 )
 ;
 }
-let
+var
 Process
 =
 {

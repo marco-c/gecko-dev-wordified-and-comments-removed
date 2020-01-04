@@ -1,4 +1,4 @@
-let
+var
 DEVTOOLS_CHROME_ENABLED
 =
 "

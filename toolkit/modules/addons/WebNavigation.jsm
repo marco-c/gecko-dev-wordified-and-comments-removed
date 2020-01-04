@@ -71,7 +71,7 @@ jsm
 "
 )
 ;
-let
+var
 Manager
 =
 {
@@ -773,7 +773,7 @@ onReferenceFragmentUpdated
 "
 ]
 ;
-let
+var
 WebNavigation
 =
 {

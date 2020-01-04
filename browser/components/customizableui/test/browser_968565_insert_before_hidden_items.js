@@ -29,7 +29,7 @@ button
 2
 "
 ;
-let
+var
 navbar
 =
 document

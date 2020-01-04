@@ -1014,12 +1014,12 @@ value
 }
 }
 }
-let
+var
 nextBrokerId
 =
 1
 ;
-let
+var
 MESSAGES
 =
 [

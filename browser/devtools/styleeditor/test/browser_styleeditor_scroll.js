@@ -486,7 +486,7 @@ again
 }
 )
 ;
-let
+var
 waitForEditorToBeSelected
 =
 Task

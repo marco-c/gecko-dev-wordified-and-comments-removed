@@ -54,7 +54,7 @@ jsm
 "
 )
 ;
-let
+var
 Change
 =
 {

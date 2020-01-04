@@ -42,7 +42,7 @@ jsm
 "
 )
 ;
-let
+var
 sessionCheckpointsPath
 ;
 function

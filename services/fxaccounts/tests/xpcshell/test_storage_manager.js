@@ -2368,7 +2368,7 @@ kB
 }
 )
 ;
-let
+var
 setupStorageManagerForQueueTest
 =
 Task

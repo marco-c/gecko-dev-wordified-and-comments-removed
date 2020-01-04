@@ -225,7 +225,7 @@ nsIAboutModule
 )
 }
 ;
-let
+var
 AboutModuleFactory
 =
 {

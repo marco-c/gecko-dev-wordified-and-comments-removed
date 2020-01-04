@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 HiddenFrame
 =
 Cu

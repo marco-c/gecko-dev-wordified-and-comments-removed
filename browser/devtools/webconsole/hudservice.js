@@ -17,7 +17,7 @@ chrome
 "
 )
 ;
-let
+var
 WebConsoleUtils
 =
 require
@@ -35,7 +35,7 @@ utils
 .
 Utils
 ;
-let
+var
 Heritage
 =
 require
@@ -49,7 +49,7 @@ heritage
 "
 )
 ;
-let
+var
 {
 TargetFactory
 }
@@ -65,7 +65,7 @@ target
 "
 )
 ;
-let
+var
 {
 Tools
 }
@@ -77,7 +77,7 @@ definitions
 "
 )
 ;
-let
+var
 promise
 =
 require
@@ -286,7 +286,7 @@ webconsole
 properties
 "
 ;
-let
+var
 l10n
 =
 new
@@ -323,7 +323,7 @@ filter
 .
 "
 ;
-let
+var
 gHudId
 =
 0

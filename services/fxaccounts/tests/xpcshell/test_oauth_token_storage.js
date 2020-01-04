@@ -79,7 +79,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 AccountState
 }

@@ -55,7 +55,7 @@ RECEIVER
 5551117777
 "
 ;
-let
+var
 manager
 =
 window
@@ -64,7 +64,7 @@ navigator
 .
 mozMobileMessage
 ;
-let
+var
 msgText
 =
 "
@@ -74,12 +74,12 @@ OS
 !
 "
 ;
-let
+var
 gotSmsOnsent
 =
 false
 ;
-let
+var
 gotReqOnsuccess
 =
 false

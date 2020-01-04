@@ -1,4 +1,4 @@
-let
+var
 basicCompletionSet
 =
 [
@@ -55,7 +55,7 @@ chunkId
 }
 ]
 ;
-let
+var
 falseCompletionSet
 =
 [
@@ -90,7 +90,7 @@ false
 }
 ]
 ;
-let
+var
 dupedCompletionSet
 =
 [
@@ -168,7 +168,7 @@ chunkId
 }
 ]
 ;
-let
+var
 multipleResponsesCompletionSet
 =
 [
@@ -499,7 +499,7 @@ return
 completionSet
 ;
 }
-let
+var
 completionSets
 =
 [
@@ -509,13 +509,13 @@ dupedCompletionSet
 multipleResponsesCompletionSet
 ]
 ;
-let
+var
 currentCompletionSet
 =
 -
 1
 ;
-let
+var
 finishedCompletions
 =
 0
@@ -535,7 +535,7 @@ hash
 completer
 "
 ;
-let
+var
 server
 ;
 const
@@ -543,7 +543,7 @@ COMPLETE_LENGTH
 =
 32
 ;
-let
+var
 completer
 =
 Cc
@@ -570,15 +570,15 @@ Ci
 nsIUrlClassifierHashCompleter
 )
 ;
-let
+var
 gethashUrl
 ;
-let
+var
 expectedMaxServerCompletionSet
 =
 0
 ;
-let
+var
 maxServerCompletionSet
 =
 0

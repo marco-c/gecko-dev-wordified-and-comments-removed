@@ -1326,7 +1326,7 @@ prototype
 =
 Preferences
 ;
-let
+var
 observers
 =
 [

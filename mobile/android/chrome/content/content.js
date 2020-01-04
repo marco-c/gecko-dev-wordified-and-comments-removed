@@ -1,4 +1,4 @@
-let
+var
 {
 classes
 :
@@ -120,7 +120,7 @@ jsm
 "
 )
 ;
-let
+var
 dump
 =
 Cu
@@ -156,12 +156,12 @@ Content
 "
 )
 ;
-let
+var
 global
 =
 this
 ;
-let
+var
 AboutReaderListener
 =
 {

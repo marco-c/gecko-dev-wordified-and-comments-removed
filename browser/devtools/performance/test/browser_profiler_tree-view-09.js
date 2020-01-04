@@ -1,4 +1,4 @@
-let
+var
 {
 CATEGORY_MASK
 }
@@ -14,7 +14,7 @@ global
 "
 )
 ;
-let
+var
 test
 =
 Task
@@ -189,7 +189,7 @@ finish
 }
 )
 ;
-let
+var
 gSamples
 =
 synthesizeProfileForTest

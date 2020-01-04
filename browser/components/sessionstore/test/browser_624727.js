@@ -1,4 +1,4 @@
-let
+var
 TEST_STATE
 =
 {

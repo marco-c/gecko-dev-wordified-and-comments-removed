@@ -3222,7 +3222,7 @@ Obs
 =
 Observers
 ;
-let
+var
 _sessionCID
 =
 Services

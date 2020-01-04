@@ -3,14 +3,14 @@ use
 strict
 "
 ;
-let
+var
 Cu
 =
 Components
 .
 utils
 ;
-let
+var
 Ci
 =
 Components
@@ -199,7 +199,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 links
 :

@@ -265,13 +265,13 @@ ctime
 ]
 )
 ;
-let
+var
 gRoomsAdded
 =
 [
 ]
 ;
-let
+var
 gRoomsUpdated
 =
 [
@@ -313,7 +313,7 @@ room
 ;
 }
 ;
-let
+var
 gQueryString
 =
 null

@@ -23,7 +23,7 @@ Ci
 nsISessionStore
 )
 ;
-let
+var
 state
 =
 {

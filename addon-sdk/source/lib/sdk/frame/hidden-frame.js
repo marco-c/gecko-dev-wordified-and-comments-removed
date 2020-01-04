@@ -206,7 +206,7 @@ array
 "
 )
 ;
-let
+var
 cache
 =
 new
@@ -214,7 +214,7 @@ Set
 (
 )
 ;
-let
+var
 elements
 =
 new

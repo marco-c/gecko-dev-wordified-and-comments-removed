@@ -17,7 +17,7 @@ chrome
 "
 )
 ;
-let
+var
 TiltUtils
 =
 require
@@ -33,7 +33,7 @@ utils
 "
 )
 ;
-let
+var
 {
 TiltMath
 mat4
@@ -80,7 +80,7 @@ experimental
 webgl
 "
 ;
-let
+var
 TiltGL
 =
 {

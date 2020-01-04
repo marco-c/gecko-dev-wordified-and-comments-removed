@@ -1120,7 +1120,7 @@ onFocus
 =
 onFocus
 ;
-let
+var
 isFocused
 =
 dispatcher

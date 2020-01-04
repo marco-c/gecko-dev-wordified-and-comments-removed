@@ -1,14 +1,14 @@
-let
+var
 testGenerator
 =
 testSteps
 (
 )
 ;
-let
+var
 testResult
 ;
-let
+var
 testException
 ;
 function

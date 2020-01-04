@@ -91,7 +91,7 @@ js
 "
 )
 ;
-let
+var
 Promise
 =
 worker
@@ -103,7 +103,7 @@ promise
 "
 )
 ;
-let
+var
 {
 ActorPool
 }
@@ -123,7 +123,7 @@ common
 "
 )
 ;
-let
+var
 {
 ThreadActor
 }
@@ -143,7 +143,7 @@ script
 "
 )
 ;
-let
+var
 {
 TabSources
 }
@@ -165,7 +165,7 @@ TabSources
 "
 )
 ;
-let
+var
 makeDebugger
 =
 worker
@@ -187,7 +187,7 @@ debugger
 "
 )
 ;
-let
+var
 {
 DebuggerServer
 }
@@ -234,7 +234,7 @@ here
 ;
 }
 ;
-let
+var
 connections
 =
 Object
@@ -244,12 +244,12 @@ create
 null
 )
 ;
-let
+var
 nextId
 =
 0
 ;
-let
+var
 rpcDeferreds
 =
 [

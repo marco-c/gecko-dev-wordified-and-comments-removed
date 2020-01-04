@@ -1,4 +1,4 @@
-let
+var
 kURIs
 =
 [
@@ -52,7 +52,7 @@ framed
 "
 ]
 ;
-let
+var
 kTitles
 =
 [
@@ -142,7 +142,7 @@ undefined
 TRANSITION_FRAMED_LINK
 )
 ;
-let
+var
 gTests
 =
 [

@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 {
 Ci
 Cc
@@ -16,7 +16,7 @@ chrome
 "
 )
 ;
-let
+var
 Services
 =
 require
@@ -26,7 +26,7 @@ Services
 "
 )
 ;
-let
+var
 promise
 =
 require
@@ -36,7 +36,7 @@ promise
 "
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -50,7 +50,7 @@ DevToolsUtils
 "
 )
 ;
-let
+var
 {
 dumpn
 dumpv
@@ -166,7 +166,7 @@ return
 obj
 ;
 }
-let
+var
 AuthenticationResult
 =
 exports
@@ -194,13 +194,13 @@ null
 }
 )
 ;
-let
+var
 Authenticators
 =
 {
 }
 ;
-let
+var
 Prompt
 =
 Authenticators
@@ -363,7 +363,7 @@ Server
 defaultAllowConnection
 }
 ;
-let
+var
 OOBCert
 =
 Authenticators

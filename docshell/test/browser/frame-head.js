@@ -16,7 +16,7 @@ Cr
 =
 Components
 ;
-let
+var
 {
 Task
 }
@@ -42,7 +42,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Promise
 }

@@ -1,4 +1,4 @@
-let
+var
 tempScope
 =
 {
@@ -26,7 +26,7 @@ jsm
 tempScope
 )
 ;
-let
+var
 LightweightThemeManager
 =
 tempScope
@@ -117,7 +117,7 @@ Date
 16
 )
 ;
-let
+var
 infoURL
 =
 Services

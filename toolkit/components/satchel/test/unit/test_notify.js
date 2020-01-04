@@ -140,7 +140,7 @@ null
 }
 }
 ;
-let
+var
 testIterator
 =
 null

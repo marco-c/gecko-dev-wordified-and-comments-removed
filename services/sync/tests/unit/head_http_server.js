@@ -2309,7 +2309,7 @@ update_collection
 }
 ;
 }
-let
+var
 SyncServerCallback
 =
 {

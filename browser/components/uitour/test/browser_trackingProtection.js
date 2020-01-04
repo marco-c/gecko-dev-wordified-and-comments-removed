@@ -133,7 +133,7 @@ icon
 "
 )
 ;
-let
+var
 {
 UrlClassifierTestUtils
 }

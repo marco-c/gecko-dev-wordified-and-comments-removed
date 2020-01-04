@@ -1,4 +1,4 @@
-let
+var
 {
 FileUtils
 }
@@ -24,7 +24,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 NetUtil
 }
@@ -92,7 +92,7 @@ run_next_test
 )
 ;
 }
-let
+var
 test_transport
 =
 Task

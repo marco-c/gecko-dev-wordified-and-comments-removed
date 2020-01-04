@@ -24,7 +24,7 @@ jsm
 "
 )
 ;
-let
+var
 promise
 =
 require

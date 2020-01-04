@@ -52,7 +52,7 @@ AutoCompleteResultBase
 prototype
 )
 ;
-let
+var
 selectByWasCalled
 =
 false

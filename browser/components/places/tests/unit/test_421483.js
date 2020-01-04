@@ -9,7 +9,7 @@ places
 smartBookmarksVersion
 "
 ;
-let
+var
 gluesvc
 =
 Cc

@@ -54,7 +54,7 @@ classes
 :
 undefined
 ;
-let
+var
 Meta
 ;
 if
@@ -168,7 +168,7 @@ js
 Meta
 ;
 }
-let
+var
 EXPORTED_SYMBOLS
 =
 [
@@ -225,7 +225,7 @@ OS
 "
 ]
 ;
-let
+var
 Config
 =
 {
@@ -308,7 +308,7 @@ OS
 .
 Constants
 ;
-let
+var
 defineLazyGetter
 =
 function
@@ -380,7 +380,7 @@ defineLazyGetter
 =
 defineLazyGetter
 ;
-let
+var
 gLogger
 ;
 if
@@ -454,7 +454,7 @@ n
 }
 ;
 }
-let
+var
 stringifyArg
 =
 function
@@ -616,7 +616,7 @@ arg
 ;
 }
 ;
-let
+var
 LOG
 =
 function
@@ -737,7 +737,7 @@ LOG
 =
 LOG
 ;
-let
+var
 clone
 =
 function
@@ -1404,7 +1404,7 @@ size
 }
 }
 ;
-let
+var
 isTypedArray
 =
 function
@@ -1443,7 +1443,7 @@ isTypedArray
 =
 isTypedArray
 ;
-let
+var
 isArrayBuffer
 =
 function
@@ -1863,7 +1863,7 @@ Type
 =
 Type
 ;
-let
+var
 projectLargeInt
 =
 function
@@ -1929,7 +1929,7 @@ rv
 ;
 }
 ;
-let
+var
 projectLargeUInt
 =
 function
@@ -1946,7 +1946,7 @@ x
 ;
 }
 ;
-let
+var
 projectValue
 =
 function
@@ -4017,7 +4017,7 @@ Library
 =
 Library
 ;
-let
+var
 declareFFI
 =
 function

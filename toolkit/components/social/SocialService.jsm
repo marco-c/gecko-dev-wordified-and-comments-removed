@@ -292,7 +292,7 @@ nsIEffectiveTLDService
 "
 )
 ;
-let
+var
 SocialServiceInternal
 =
 {
@@ -1128,7 +1128,7 @@ foreign
 "
 ;
 }
-let
+var
 ActiveProviders
 =
 {

@@ -75,7 +75,7 @@ successfully
 .
 "
 ;
-let
+var
 test
 =
 asyncTest

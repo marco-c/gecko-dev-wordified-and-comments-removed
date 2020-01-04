@@ -267,7 +267,7 @@ promiseTimeout
 )
 ;
 }
-let
+var
 promiseVerifyTarget
 =
 Task
@@ -7092,7 +7092,7 @@ length
 }
 )
 ;
-let
+var
 promiseBlockedDownload
 =
 Task

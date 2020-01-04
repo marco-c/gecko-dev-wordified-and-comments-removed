@@ -1,4 +1,4 @@
-let
+var
 provider
 ;
 function
@@ -115,7 +115,7 @@ finish
 )
 ;
 }
-let
+var
 tests
 =
 {

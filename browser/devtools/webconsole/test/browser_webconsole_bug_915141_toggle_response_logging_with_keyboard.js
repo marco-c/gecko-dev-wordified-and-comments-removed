@@ -36,7 +36,7 @@ with
 keyboard
 "
 ;
-let
+var
 hud
 ;
 function

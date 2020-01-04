@@ -425,7 +425,7 @@ Ci
 nsIDOMHTMLTextAreaElement
 ]
 ;
-let
+var
 editableInputs
 =
 {
@@ -455,13 +455,13 @@ url
 true
 }
 ;
-let
+var
 CONTEXTS
 =
 {
 }
 ;
-let
+var
 Context
 =
 Class
@@ -1064,7 +1064,7 @@ args
 )
 ;
 }
-let
+var
 ContextWorker
 =
 Class
@@ -1261,7 +1261,7 @@ return
 worker
 ;
 }
-let
+var
 RemoteItem
 =
 Class
@@ -1577,7 +1577,7 @@ RemoteItem
 =
 RemoteItem
 ;
-let
+var
 keepAlive
 =
 new
@@ -1699,7 +1699,7 @@ destroy
 }
 )
 ;
-let
+var
 lastPopupNode
 =
 null

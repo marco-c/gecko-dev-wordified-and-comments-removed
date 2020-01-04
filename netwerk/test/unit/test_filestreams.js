@@ -1,11 +1,11 @@
-let
+var
 Cc
 =
 Components
 .
 classes
 ;
-let
+var
 Ci
 =
 Components
@@ -1210,7 +1210,7 @@ true
 )
 ;
 }
-let
+var
 tests
 =
 [

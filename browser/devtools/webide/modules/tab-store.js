@@ -104,7 +104,7 @@ WeakMap
 (
 )
 ;
-let
+var
 TabStore
 ;
 module

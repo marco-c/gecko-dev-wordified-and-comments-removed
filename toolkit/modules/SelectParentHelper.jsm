@@ -13,7 +13,7 @@ SelectParentHelper
 "
 ]
 ;
-let
+var
 currentBrowser
 =
 null

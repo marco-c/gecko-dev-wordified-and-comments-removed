@@ -46,7 +46,7 @@ STATUS_SUCCESS
 =
 200
 ;
-let
+var
 mockResponse
 =
 function
@@ -105,7 +105,7 @@ Request
 ;
 }
 ;
-let
+var
 mockFxa
 =
 {
@@ -159,7 +159,7 @@ fxa
 mockFxa
 }
 ;
-let
+var
 mockResponseError
 =
 function

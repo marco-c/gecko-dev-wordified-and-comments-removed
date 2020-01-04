@@ -1,4 +1,4 @@
-let
+var
 gMimeSvc
 =
 Cc
@@ -21,7 +21,7 @@ Ci
 nsIMIMEService
 )
 ;
-let
+var
 gHandlerSvc
 =
 Cc

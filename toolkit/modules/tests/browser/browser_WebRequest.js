@@ -21,7 +21,7 @@ Cr
 =
 Components
 ;
-let
+var
 {
 WebRequest
 }
@@ -82,7 +82,7 @@ file_WebRequest_page1
 html
 "
 ;
-let
+var
 expected_browser
 ;
 function
@@ -270,7 +270,7 @@ correct
 )
 ;
 }
-let
+var
 windowIDs
 =
 new
@@ -278,7 +278,7 @@ Map
 (
 )
 ;
-let
+var
 requested
 =
 [
@@ -446,7 +446,7 @@ true
 ;
 }
 }
-let
+var
 sendHeaders
 =
 [
@@ -581,7 +581,7 @@ _good
 ;
 }
 }
-let
+var
 headersReceived
 =
 [

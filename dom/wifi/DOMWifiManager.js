@@ -3243,7 +3243,7 @@ MozWifiConnectionInfo
 ]
 )
 ;
-let
+var
 debug
 ;
 if

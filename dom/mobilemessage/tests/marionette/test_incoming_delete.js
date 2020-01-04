@@ -41,7 +41,7 @@ RECEIVER
 15555215554
 "
 ;
-let
+var
 manager
 =
 window
@@ -50,7 +50,7 @@ navigator
 .
 mozMobileMessage
 ;
-let
+var
 msgText
 =
 "

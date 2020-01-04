@@ -30,7 +30,7 @@ null
 )
 ;
 }
-let
+var
 checkExists
 =
 function
@@ -50,7 +50,7 @@ next_test
 )
 ;
 }
-let
+var
 checkNotExists
 =
 function
@@ -171,7 +171,7 @@ do_test_finished
 )
 ;
 }
-let
+var
 iter
 =
 tests

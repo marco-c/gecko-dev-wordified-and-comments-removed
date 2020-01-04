@@ -238,7 +238,7 @@ toLowerCase
 ;
 }
 ;
-let
+var
 Simulators
 =
 {

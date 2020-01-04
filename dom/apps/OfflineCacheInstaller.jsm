@@ -98,7 +98,7 @@ jsm
 "
 )
 ;
-let
+var
 Namespace
 =
 CC
@@ -126,7 +126,7 @@ init
 '
 )
 ;
-let
+var
 makeFile
 =
 CC
@@ -150,7 +150,7 @@ initWithPath
 '
 )
 ;
-let
+var
 MutableArray
 =
 CC
@@ -169,7 +169,7 @@ nsIMutableArray
 '
 )
 ;
-let
+var
 {
 LoadContextInfo
 }

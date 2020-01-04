@@ -1,4 +1,4 @@
-let
+var
 origTab
 =
 gBrowser
@@ -8,7 +8,7 @@ visibleTabs
 0
 ]
 ;
-let
+var
 contentWindow
 ;
 function

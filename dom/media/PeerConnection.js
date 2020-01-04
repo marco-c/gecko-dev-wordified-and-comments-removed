@@ -1772,7 +1772,7 @@ cb
 }
 }
 ;
-let
+var
 _globalPCList
 =
 new

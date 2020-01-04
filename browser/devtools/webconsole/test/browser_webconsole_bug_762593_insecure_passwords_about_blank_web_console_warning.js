@@ -91,7 +91,7 @@ stolen
 .
 "
 ;
-let
+var
 test
 =
 asyncTest

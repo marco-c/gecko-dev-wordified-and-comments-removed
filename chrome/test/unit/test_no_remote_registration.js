@@ -1,4 +1,4 @@
-let
+var
 manifests
 =
 [
@@ -40,7 +40,7 @@ jsm
 "
 )
 ;
-let
+var
 XULAppInfo
 =
 {
@@ -126,7 +126,7 @@ nsIXULRuntime
 )
 }
 ;
-let
+var
 XULAppInfoFactory
 =
 {
@@ -330,7 +330,7 @@ nsIProtocolHandler
 )
 }
 ;
-let
+var
 testProtocols
 =
 [

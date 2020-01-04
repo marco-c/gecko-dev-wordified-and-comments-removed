@@ -120,7 +120,7 @@ xff
 xff
 "
 ;
-let
+var
 basicauth
 =
 {
@@ -163,7 +163,7 @@ jn78
 =
 "
 ;
-let
+var
 server_password
 ;
 function

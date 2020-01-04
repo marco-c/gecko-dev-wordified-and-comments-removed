@@ -36,7 +36,7 @@ sync
 .
 "
 ;
-let
+var
 prefs
 =
 Cc

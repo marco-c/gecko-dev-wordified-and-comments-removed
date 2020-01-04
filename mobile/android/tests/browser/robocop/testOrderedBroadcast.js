@@ -40,7 +40,7 @@ jsm
 "
 )
 ;
-let
+var
 _observerId
 =
 0

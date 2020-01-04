@@ -44,7 +44,7 @@ Thunderbird
 }
 }
 ;
-let
+var
 channel
 =
 {

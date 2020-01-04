@@ -98,7 +98,7 @@ Troubleshoot
 }
 )
 ;
-let
+var
 tests
 =
 [

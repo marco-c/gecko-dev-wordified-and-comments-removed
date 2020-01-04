@@ -51,7 +51,7 @@ SYSTEM_PROPERTY_VALUE_MAX
 =
 92
 ;
-let
+var
 DEBUG
 ;
 this

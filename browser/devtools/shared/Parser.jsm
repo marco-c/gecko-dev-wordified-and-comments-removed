@@ -1392,7 +1392,7 @@ offset
 0
 }
 ;
-let
+var
 ParserHelpers
 =
 {
@@ -2455,7 +2455,7 @@ return
 }
 }
 ;
-let
+var
 SyntaxTreeVisitor
 =
 {

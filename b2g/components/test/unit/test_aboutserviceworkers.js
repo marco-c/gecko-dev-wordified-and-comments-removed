@@ -122,7 +122,7 @@ do_get_profile
 (
 )
 ;
-let
+var
 mockSendResult
 =
 (
@@ -161,7 +161,7 @@ null
 ;
 }
 ;
-let
+var
 mockSendError
 =
 (

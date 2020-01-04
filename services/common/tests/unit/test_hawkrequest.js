@@ -60,7 +60,7 @@ js
 "
 )
 ;
-let
+var
 SESSION_KEYS
 =
 {

@@ -188,7 +188,7 @@ tabs
 instead
 '
 ;
-let
+var
 BrowserWindows
 =
 Class

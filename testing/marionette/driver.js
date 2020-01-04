@@ -162,7 +162,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 devtools
 }
@@ -383,7 +383,7 @@ js
 "
 )
 ;
-let
+var
 utils
 =
 {
@@ -642,7 +642,7 @@ Ci
 nsIMessageBroadcaster
 )
 ;
-let
+var
 systemMessageListenerReady
 =
 false
@@ -674,7 +674,7 @@ ready
 false
 )
 ;
-let
+var
 delayedBrowserStarted
 =
 false
@@ -15477,7 +15477,7 @@ prototype
 sendKeysToDialog
 }
 ;
-let
+var
 BrowserObj
 =
 function

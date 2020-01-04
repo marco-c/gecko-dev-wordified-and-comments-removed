@@ -113,7 +113,7 @@ Ci
 mozIJSSubScriptLoader
 )
 ;
-let
+var
 EventUtils
 =
 {

@@ -96,7 +96,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 require
 }
@@ -124,7 +124,7 @@ jsm
 }
 )
 ;
-let
+var
 promise
 =
 require
@@ -2915,7 +2915,7 @@ aOptions
 ;
 }
 ;
-let
+var
 StackFrameUtils
 =
 {
@@ -3148,7 +3148,7 @@ label
 }
 }
 ;
-let
+var
 L10N
 =
 new

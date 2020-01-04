@@ -210,7 +210,7 @@ isSecure
 "
 ]
 ;
-let
+var
 StorageUI
 =
 this

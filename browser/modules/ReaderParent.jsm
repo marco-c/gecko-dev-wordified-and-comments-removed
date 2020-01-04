@@ -199,7 +199,7 @@ properties
 "
 )
 ;
-let
+var
 ReaderParent
 =
 {

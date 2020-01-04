@@ -24,7 +24,7 @@ bug
 869981
 "
 ;
-let
+var
 test
 =
 asyncTest

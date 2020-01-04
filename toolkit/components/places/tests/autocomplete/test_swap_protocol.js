@@ -1,4 +1,4 @@
-let
+var
 kURIs
 =
 [
@@ -74,7 +74,7 @@ wwwwwwacko
 "
 ]
 ;
-let
+var
 kTitles
 =
 [
@@ -131,7 +131,7 @@ addPageBook
 0
 )
 ;
-let
+var
 allSite
 =
 [
@@ -143,7 +143,7 @@ allSite
 5
 ]
 ;
-let
+var
 gTests
 =
 [

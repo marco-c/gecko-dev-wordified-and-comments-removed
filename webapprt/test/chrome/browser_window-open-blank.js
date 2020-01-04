@@ -17,7 +17,7 @@ jsm
 "
 )
 ;
-let
+var
 HandlerService
 =
 {

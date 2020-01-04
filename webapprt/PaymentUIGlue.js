@@ -163,7 +163,7 @@ aErrorMsg
 }
 ;
 }
-let
+var
 payments
 =
 {

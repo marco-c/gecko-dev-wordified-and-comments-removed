@@ -1,4 +1,4 @@
-let
+var
 ppmm
 =
 Cc
@@ -139,7 +139,7 @@ Loaded
 )
 ;
 }
-let
+var
 processScriptURL
 =
 "
@@ -216,7 +216,7 @@ hi
 )
 ;
 }
-let
+var
 initTestScriptURL
 =
 "
@@ -237,7 +237,7 @@ toString
 )
 "
 ;
-let
+var
 checkProcess
 =
 Task

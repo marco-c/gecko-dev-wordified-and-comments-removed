@@ -1,14 +1,14 @@
-let
+var
 C
 =
 1
 ;
-let
+var
 R
 =
 2
 ;
-let
+var
 S
 =
 4

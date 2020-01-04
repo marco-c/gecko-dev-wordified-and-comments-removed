@@ -53,7 +53,7 @@ n
 )
 ;
 }
-let
+var
 AdbController
 =
 {

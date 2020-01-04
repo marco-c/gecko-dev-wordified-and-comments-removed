@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 {
 require
 }
@@ -30,7 +30,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 TargetFactory
 }
@@ -46,7 +46,7 @@ target
 "
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -60,7 +60,7 @@ DevToolsUtils
 "
 )
 ;
-let
+var
 promise
 =
 require
@@ -70,7 +70,7 @@ promise
 "
 )
 ;
-let
+var
 testDir
 =
 gTestPath
@@ -157,7 +157,7 @@ removeCurrentTab
 }
 )
 ;
-let
+var
 openInspector
 =
 Task
@@ -377,7 +377,7 @@ def
 promise
 ;
 }
-let
+var
 openInspectorSideBar
 =
 Task
@@ -544,7 +544,7 @@ ruleview
 )
 ;
 }
-let
+var
 addTab
 =
 Task

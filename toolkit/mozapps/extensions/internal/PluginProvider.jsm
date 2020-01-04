@@ -153,7 +153,7 @@ addons
 plugins
 "
 ;
-let
+var
 logger
 =
 Log

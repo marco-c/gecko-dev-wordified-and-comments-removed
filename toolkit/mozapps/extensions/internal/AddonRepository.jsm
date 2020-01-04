@@ -548,7 +548,7 @@ addons
 repository
 "
 ;
-let
+var
 logger
 =
 Log
@@ -633,7 +633,7 @@ dailyUsers
 "
 }
 ;
-let
+var
 XHRequest
 =
 Components

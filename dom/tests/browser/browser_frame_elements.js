@@ -23,7 +23,7 @@ browser_frame_elements
 html
 "
 ;
-let
+var
 gWindow
 ;
 function

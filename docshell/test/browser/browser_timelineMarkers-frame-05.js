@@ -148,7 +148,7 @@ resolver
 )
 ;
 }
-let
+var
 TESTS
 =
 [

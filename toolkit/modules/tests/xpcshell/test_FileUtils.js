@@ -596,7 +596,7 @@ run_next_test
 }
 )
 ;
-let
+var
 openFileOutputStream_defaultFlags
 =
 function
@@ -826,7 +826,7 @@ run_next_test
 ;
 }
 ;
-let
+var
 openFileOutputStream_modeFlags
 =
 function
@@ -986,7 +986,7 @@ run_next_test
 ;
 }
 ;
-let
+var
 closeFileOutputStream
 =
 function

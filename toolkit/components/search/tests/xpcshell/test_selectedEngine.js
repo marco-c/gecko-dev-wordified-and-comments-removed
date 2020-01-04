@@ -30,7 +30,7 @@ search
 selectedEngine
 "
 ;
-let
+var
 waitForNotification
 =
 waitForSearchNotification

@@ -1,4 +1,4 @@
-let
+var
 {
 classes
 :
@@ -23,7 +23,7 @@ FrameManager
 "
 ]
 ;
-let
+var
 FRAME_SCRIPT
 =
 "
@@ -78,7 +78,7 @@ jsm
 "
 )
 ;
-let
+var
 loader
 =
 Cc
@@ -105,7 +105,7 @@ Ci
 mozIJSSubScriptLoader
 )
 ;
-let
+var
 remoteFrames
 =
 [

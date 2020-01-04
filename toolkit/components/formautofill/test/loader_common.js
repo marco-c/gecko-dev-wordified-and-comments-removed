@@ -49,7 +49,7 @@ jsm
 "
 )
 ;
-let
+var
 gTerminationTasks
 =
 [
@@ -137,7 +137,7 @@ stackFrame
 lineNumber
 ;
 }
-let
+var
 _mochitestAssert
 =
 {

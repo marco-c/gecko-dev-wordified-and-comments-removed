@@ -185,7 +185,7 @@ URL
 ]
 )
 ;
-let
+var
 TransactionsHistory
 =
 [
@@ -504,7 +504,7 @@ _undoPosition
 }
 }
 ;
-let
+var
 PlacesTransactions
 =
 {
@@ -913,7 +913,7 @@ _promise
 }
 }
 ;
-let
+var
 TransactionsManager
 =
 {
@@ -3764,7 +3764,7 @@ index
 )
 ;
 }
-let
+var
 PT
 =
 PlacesTransactions

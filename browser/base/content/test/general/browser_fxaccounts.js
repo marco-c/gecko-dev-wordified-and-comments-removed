@@ -1,4 +1,4 @@
-let
+var
 {
 Log
 }
@@ -24,7 +24,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Task
 }
@@ -50,7 +50,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 fxAccounts
 }
@@ -76,7 +76,7 @@ jsm
 }
 )
 ;
-let
+var
 FxAccountsCommon
 =
 {
@@ -285,7 +285,7 @@ null
 (
 )
 ;
-let
+var
 newTab
 ;
 Services
@@ -408,7 +408,7 @@ newTab
 }
 )
 ;
-let
+var
 panelUILabel
 =
 document
@@ -424,7 +424,7 @@ label
 "
 )
 ;
-let
+var
 panelUIStatus
 =
 document
@@ -440,7 +440,7 @@ status
 "
 )
 ;
-let
+var
 panelUIFooter
 =
 document
@@ -1243,7 +1243,7 @@ capturing
 )
 ;
 }
-let
+var
 promiseTabOpen
 =
 Task
@@ -1498,7 +1498,7 @@ data
 )
 ;
 }
-let
+var
 signOut
 =
 Task

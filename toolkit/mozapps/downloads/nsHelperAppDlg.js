@@ -244,7 +244,7 @@ interfaces
 .
 nsITimer
 ;
-let
+var
 downloadModule
 =
 {

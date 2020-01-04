@@ -683,7 +683,7 @@ return
 false
 ;
 }
-let
+var
 gEdgeDir
 ;
 function
@@ -3072,7 +3072,7 @@ expireTime
 }
 }
 ;
-let
+var
 MSMigrationUtils
 =
 {

@@ -13,7 +13,7 @@ MARKER_DETAILS_WIDTH
 =
 200
 ;
-let
+var
 WaterfallView
 =
 Heritage

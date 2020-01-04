@@ -108,7 +108,7 @@ PHONE_STATE_IN_CALL
 "
 ]
 ;
-let
+var
 DEBUG
 ;
 function

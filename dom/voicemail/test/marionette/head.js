@@ -21,7 +21,7 @@ Cu
 =
 SpecialPowers
 ;
-let
+var
 RIL
 =
 SpecialPowers
@@ -160,7 +160,7 @@ MWI_TIMESTAMP
 00000000000000
 "
 ;
-let
+var
 PDUBuilder
 =
 {
@@ -1097,7 +1097,7 @@ options
 }
 }
 ;
-let
+var
 pendingEmulatorCmdCount
 =
 0
@@ -1255,7 +1255,7 @@ deferred
 promise
 ;
 }
-let
+var
 voicemail
 ;
 function

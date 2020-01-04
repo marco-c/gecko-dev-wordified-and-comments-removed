@@ -15146,7 +15146,7 @@ AddonThreadActor
 =
 AddonThreadActor
 ;
-let
+var
 oldReportError
 =
 reportError

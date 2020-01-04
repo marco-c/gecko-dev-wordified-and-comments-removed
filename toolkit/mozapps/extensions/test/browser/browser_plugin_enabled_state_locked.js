@@ -80,13 +80,13 @@ in
 Cc
 )
 ;
-let
+var
 gManagerWindow
 ;
-let
+var
 gCategoryUtilities
 ;
-let
+var
 gPluginElement
 ;
 function

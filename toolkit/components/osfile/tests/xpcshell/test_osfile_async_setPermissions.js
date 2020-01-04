@@ -91,7 +91,7 @@ mode
 _umask
 ;
 }
-let
+var
 testSequence
 =
 [

@@ -240,7 +240,7 @@ TableWidget
 "
 )
 ;
-let
+var
 {
 Task
 }
@@ -262,7 +262,7 @@ jsm
 "
 )
 ;
-let
+var
 doc
 table
 ;
@@ -434,7 +434,7 @@ finish
 )
 ;
 }
-let
+var
 startTests
 =
 Task
@@ -803,7 +803,7 @@ defaultView
 ;
 }
 }
-let
+var
 testKeyboardInteraction
 =
 Task

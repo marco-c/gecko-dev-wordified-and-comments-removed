@@ -48,7 +48,7 @@ jsm
 '
 )
 ;
-let
+var
 LOADER_ID
 =
 0

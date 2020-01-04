@@ -219,7 +219,7 @@ reason
 }
 }
 ;
-let
+var
 ContentPrefServiceChild
 =
 {

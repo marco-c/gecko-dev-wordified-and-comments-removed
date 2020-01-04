@@ -126,7 +126,7 @@ MSG_INSTALL_CALLBACK
 WebInstallerInstallCallback
 "
 ;
-let
+var
 log
 =
 Log

@@ -1752,14 +1752,14 @@ com
 "
 ]
 ;
-let
+var
 nsIWindowsRegKey
 =
 Ci
 .
 nsIWindowsRegKey
 ;
-let
+var
 Storage2Key
 ;
 function

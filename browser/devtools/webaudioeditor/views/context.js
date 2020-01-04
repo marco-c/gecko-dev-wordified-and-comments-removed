@@ -85,7 +85,7 @@ remove
 "
 ]
 ;
-let
+var
 ContextView
 =
 {

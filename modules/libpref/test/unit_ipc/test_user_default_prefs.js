@@ -12,7 +12,7 @@ Components
 .
 classes
 ;
-let
+var
 pb
 =
 Cc
@@ -46,7 +46,7 @@ intl
 accept_languages
 '
 ;
-let
+var
 initialValue
 =
 null

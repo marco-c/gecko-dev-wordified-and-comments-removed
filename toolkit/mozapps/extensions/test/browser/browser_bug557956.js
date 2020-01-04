@@ -49,7 +49,7 @@ PREF_STRICT_COMPAT
 true
 )
 ;
-let
+var
 scope
 =
 {
@@ -77,7 +77,7 @@ jsm
 scope
 )
 ;
-let
+var
 TelemetrySession
 =
 scope

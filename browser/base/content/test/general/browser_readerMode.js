@@ -44,7 +44,7 @@ general
 /
 "
 ;
-let
+var
 readerButton
 =
 document

@@ -17,7 +17,7 @@ number
 0900000001
 "
 ;
-let
+var
 outCall
 ;
 function

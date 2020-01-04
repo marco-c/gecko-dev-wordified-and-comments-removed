@@ -25,7 +25,7 @@ gOutCallStrPool
 outNumber
 )
 ;
-let
+var
 outCall
 ;
 const
@@ -43,7 +43,7 @@ gInCallStrPool
 inNumber
 )
 ;
-let
+var
 inCall
 ;
 startTest

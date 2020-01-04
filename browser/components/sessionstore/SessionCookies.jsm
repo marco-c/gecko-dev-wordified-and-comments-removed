@@ -186,7 +186,7 @@ cookies
 }
 )
 ;
-let
+var
 SessionCookiesInternal
 =
 {
@@ -1008,7 +1008,7 @@ rest
 )
 ;
 }
-let
+var
 CookieStore
 =
 {

@@ -39,7 +39,7 @@ getters
 html
 "
 ;
-let
+var
 getterValue
 =
 null

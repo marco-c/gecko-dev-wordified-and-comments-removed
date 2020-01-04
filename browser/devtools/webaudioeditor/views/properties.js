@@ -74,7 +74,7 @@ eval
 }
 }
 ;
-let
+var
 PropertiesView
 =
 {

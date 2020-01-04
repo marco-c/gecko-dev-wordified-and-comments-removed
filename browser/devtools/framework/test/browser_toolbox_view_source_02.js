@@ -1,4 +1,4 @@
-let
+var
 URL
 =
 {
@@ -8,7 +8,7 @@ doc_viewsource
 .
 html
 ;
-let
+var
 JS_URL
 =
 {

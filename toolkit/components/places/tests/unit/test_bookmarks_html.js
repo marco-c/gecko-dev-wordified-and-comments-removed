@@ -16,7 +16,7 @@ bookmarkProperties
 description
 "
 ;
-let
+var
 test_bookmarks
 =
 {
@@ -647,10 +647,10 @@ tld
 ]
 }
 ;
-let
+var
 gBookmarksFileOld
 ;
-let
+var
 gBookmarksFileNew
 ;
 function

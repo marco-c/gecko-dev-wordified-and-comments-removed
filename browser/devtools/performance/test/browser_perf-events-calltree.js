@@ -265,7 +265,7 @@ finish
 ;
 }
 ;
-let
+var
 gProfile
 =
 {

@@ -4701,7 +4701,7 @@ stopPropagation
 }
 }
 ;
-let
+var
 PlacesToolbarHelper
 =
 {
@@ -5323,7 +5323,7 @@ true
 }
 }
 ;
-let
+var
 BookmarkingUI
 =
 {

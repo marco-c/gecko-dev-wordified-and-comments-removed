@@ -40,7 +40,7 @@ privatebrowsing
 autostart
 "
 ;
-let
+var
 gTemporaryAutoStartMode
 =
 false

@@ -113,7 +113,7 @@ ACTION_ADD
 =
 1
 ;
-let
+var
 elementsHeight
 =
 new

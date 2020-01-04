@@ -59,7 +59,7 @@ jsm
 "
 )
 ;
-let
+var
 provider
 =
 {
@@ -143,7 +143,7 @@ registerProvider
 provider
 )
 ;
-let
+var
 gGlobalScope
 =
 this

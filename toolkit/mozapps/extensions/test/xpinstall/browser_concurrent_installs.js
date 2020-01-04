@@ -1,4 +1,4 @@
-let
+var
 {
 Promise
 }
@@ -22,19 +22,19 @@ jsm
 "
 )
 ;
-let
+var
 gConcurrentTabs
 =
 [
 ]
 ;
-let
+var
 gQueuedForInstall
 =
 [
 ]
 ;
-let
+var
 gResults
 =
 [
@@ -127,7 +127,7 @@ true
 )
 ;
 }
-let
+var
 gAddonAndWindowListener
 =
 {

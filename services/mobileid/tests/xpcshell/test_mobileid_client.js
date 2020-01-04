@@ -60,10 +60,10 @@ jsm
 "
 )
 ;
-let
+var
 client
 ;
-let
+var
 server
 =
 new

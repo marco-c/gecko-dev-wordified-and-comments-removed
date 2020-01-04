@@ -215,7 +215,7 @@ on
 =
 on
 ;
-let
+var
 onceWeakMap
 =
 new

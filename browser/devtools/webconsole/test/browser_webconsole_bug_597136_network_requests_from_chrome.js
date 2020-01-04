@@ -17,12 +17,12 @@ com
 /
 "
 ;
-let
+var
 good
 =
 true
 ;
-let
+var
 listener
 =
 {
@@ -86,7 +86,7 @@ false
 }
 }
 ;
-let
+var
 xhr
 ;
 function

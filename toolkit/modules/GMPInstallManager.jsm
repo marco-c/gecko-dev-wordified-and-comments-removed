@@ -50,7 +50,7 @@ DEFAULT_SECONDS_BETWEEN_CHECKS
 *
 24
 ;
-let
+var
 GMPInstallFailureReason
 =
 {

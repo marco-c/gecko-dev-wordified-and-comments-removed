@@ -3,12 +3,12 @@ use
 strict
 "
 ;
-let
+var
 gCurrentOCSPResponse
 =
 null
 ;
-let
+var
 gOCSPRequestCount
 =
 0
@@ -122,7 +122,7 @@ enabled
 1
 )
 ;
-let
+var
 args
 =
 [
@@ -183,7 +183,7 @@ unused
 ]
 ]
 ;
-let
+var
 ocspResponses
 =
 generateOCSPResponses
@@ -194,7 +194,7 @@ tlsserver
 "
 )
 ;
-let
+var
 ocspResponseGood
 =
 ocspResponses
@@ -202,7 +202,7 @@ ocspResponses
 0
 ]
 ;
-let
+var
 expiredOCSPResponseGood
 =
 ocspResponses
@@ -210,7 +210,7 @@ ocspResponses
 1
 ]
 ;
-let
+var
 oldValidityPeriodOCSPResponseGood
 =
 ocspResponses
@@ -218,7 +218,7 @@ ocspResponses
 2
 ]
 ;
-let
+var
 ocspResponseRevoked
 =
 ocspResponses
@@ -226,7 +226,7 @@ ocspResponses
 3
 ]
 ;
-let
+var
 ocspResponseUnknown
 =
 ocspResponses
@@ -234,12 +234,12 @@ ocspResponses
 4
 ]
 ;
-let
+var
 willNotRetry
 =
 1
 ;
-let
+var
 willRetry
 =
 4

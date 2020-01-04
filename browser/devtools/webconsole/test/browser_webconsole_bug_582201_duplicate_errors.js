@@ -54,7 +54,7 @@ error
 html
 "
 ;
-let
+var
 test
 =
 asyncTest

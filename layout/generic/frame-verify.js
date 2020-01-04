@@ -48,7 +48,7 @@ return
 false
 ;
 }
-let
+var
 output
 =
 [
@@ -307,7 +307,7 @@ join
 }
 }
 }
-let
+var
 frameIIDRE
 =
 /
@@ -316,7 +316,7 @@ frameIIDRE
 kFrameIID
 /
 ;
-let
+var
 queryFrameRE
 =
 /
@@ -327,13 +327,13 @@ do_QueryFrame
 operator
 /
 ;
-let
+var
 needIDs
 =
 [
 ]
 ;
-let
+var
 haveIDs
 =
 {

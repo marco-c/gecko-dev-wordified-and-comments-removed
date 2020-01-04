@@ -1,4 +1,4 @@
-let
+var
 {
 OS
 }
@@ -26,7 +26,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Services
 }

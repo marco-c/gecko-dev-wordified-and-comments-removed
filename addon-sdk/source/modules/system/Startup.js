@@ -209,7 +209,7 @@ exports
 =
 Startup
 ;
-let
+var
 gOnceInitializedDeferred
 =
 defer
@@ -224,7 +224,7 @@ gOnceInitializedDeferred
 .
 promise
 ;
-let
+var
 appStartup
 =
 '

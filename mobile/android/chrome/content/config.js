@@ -70,7 +70,7 @@ INNERHTML_VALUE_DELAY
 =
 100
 ;
-let
+var
 gStringBundle
 =
 Services
@@ -94,7 +94,7 @@ properties
 "
 )
 ;
-let
+var
 gClipboardHelper
 =
 Cc

@@ -17,7 +17,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 require
 }
@@ -45,7 +45,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 DebuggerServer
 }
@@ -61,7 +61,7 @@ main
 "
 )
 ;
-let
+var
 {
 DebuggerClient
 }
@@ -79,7 +79,7 @@ main
 "
 )
 ;
-let
+var
 {
 RemoteDebugger
 }

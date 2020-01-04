@@ -94,7 +94,7 @@ jsm
 this
 )
 ;
-let
+var
 eventListenerService
 =
 Cc
@@ -117,7 +117,7 @@ Ci
 nsIEventListenerService
 )
 ;
-let
+var
 focusManager
 =
 Cc
@@ -142,7 +142,7 @@ Ci
 nsIFocusManager
 )
 ;
-let
+var
 windowMediator
 =
 Cc

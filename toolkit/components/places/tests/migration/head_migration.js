@@ -90,7 +90,7 @@ places
 sqlite
 "
 ;
-let
+var
 setupPlacesDatabase
 =
 Task

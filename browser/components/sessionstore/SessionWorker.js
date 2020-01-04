@@ -20,7 +20,7 @@ jsm
 "
 )
 ;
-let
+var
 PromiseWorker
 =
 require
@@ -42,14 +42,14 @@ js
 "
 )
 ;
-let
+var
 File
 =
 OS
 .
 File
 ;
-let
+var
 Encoder
 =
 new
@@ -57,7 +57,7 @@ TextEncoder
 (
 )
 ;
-let
+var
 Decoder
 =
 new
@@ -65,7 +65,7 @@ TextDecoder
 (
 )
 ;
-let
+var
 worker
 =
 new
@@ -197,7 +197,7 @@ STATE_EMPTY
 empty
 "
 ;
-let
+var
 Agent
 =
 {

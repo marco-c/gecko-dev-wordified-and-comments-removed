@@ -231,7 +231,7 @@ load
 }
 )
 ;
-let
+var
 Monitor
 =
 {

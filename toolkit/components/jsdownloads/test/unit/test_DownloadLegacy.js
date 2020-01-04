@@ -3,12 +3,12 @@ use
 strict
 "
 ;
-let
+var
 gUseLegacySaver
 =
 true
 ;
-let
+var
 scriptFile
 =
 do_get_file
@@ -36,7 +36,7 @@ scriptFile
 spec
 )
 ;
-let
+var
 tailFile
 =
 do_get_file

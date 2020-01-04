@@ -1473,7 +1473,7 @@ TYPE_IDREF
 }
 ]
 ;
-let
+var
 parsers
 =
 {

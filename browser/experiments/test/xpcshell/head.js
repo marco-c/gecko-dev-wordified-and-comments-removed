@@ -743,7 +743,7 @@ null
 }
 ]
 ;
-let
+var
 gAppInfo
 =
 null
@@ -891,7 +891,7 @@ getTime
 1000
 ;
 }
-let
+var
 gGlobalScope
 =
 this

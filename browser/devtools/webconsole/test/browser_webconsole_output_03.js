@@ -39,7 +39,7 @@ output
 html
 "
 ;
-let
+var
 inputTests
 =
 [

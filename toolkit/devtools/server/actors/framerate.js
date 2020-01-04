@@ -83,7 +83,7 @@ framerate
 "
 )
 ;
-let
+var
 FramerateActor
 =
 exports
@@ -306,7 +306,7 @@ number
 }
 )
 ;
-let
+var
 FramerateFront
 =
 exports

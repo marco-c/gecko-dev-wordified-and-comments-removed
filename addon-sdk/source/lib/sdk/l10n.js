@@ -85,7 +85,7 @@ rules
 "
 )
 ;
-let
+var
 pluralMappingFunction
 =
 getRulesForLocale

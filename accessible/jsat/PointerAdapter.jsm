@@ -162,7 +162,7 @@ SYNTH_ID
 -
 1
 ;
-let
+var
 PointerRelay
 =
 {

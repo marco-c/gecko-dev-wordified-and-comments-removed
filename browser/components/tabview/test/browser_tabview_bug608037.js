@@ -1,7 +1,7 @@
-let
+var
 tabOne
 ;
-let
+var
 tabTwo
 ;
 function

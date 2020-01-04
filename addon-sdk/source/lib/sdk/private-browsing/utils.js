@@ -99,7 +99,7 @@ dispatcher
 "
 )
 ;
-let
+var
 PrivateBrowsingUtils
 ;
 try
@@ -142,7 +142,7 @@ isGlobalPBSupported
 =
 false
 ;
-let
+var
 isWindowPBSupported
 =
 exports
@@ -161,7 +161,7 @@ Firefox
 '
 )
 ;
-let
+var
 isTabPBSupported
 =
 exports
@@ -227,7 +227,7 @@ ignoreWindow
 =
 ignoreWindow
 ;
-let
+var
 getMode
 =
 function

@@ -35,11 +35,11 @@ console
 html
 "
 ;
-let
+var
 HUD
 outputNode
 ;
-let
+var
 test
 =
 asyncTest

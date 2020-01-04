@@ -64,7 +64,7 @@ progressListener
 )
 ;
 }
-let
+var
 with_new_tab_opened
 =
 Task

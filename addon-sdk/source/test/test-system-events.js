@@ -94,7 +94,7 @@ Ci
 nsIObserverService
 )
 ;
-let
+var
 isConsoleEvent
 =
 (

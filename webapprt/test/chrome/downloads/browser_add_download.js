@@ -17,14 +17,14 @@ jsm
 "
 )
 ;
-let
+var
 list
 =
 MockDownloadsModule
 (
 )
 ;
-let
+var
 downloadsInList
 =
 [
@@ -44,7 +44,7 @@ test2
 )
 ]
 ;
-let
+var
 winObserver
 =
 function

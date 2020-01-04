@@ -211,13 +211,13 @@ true
 )
 ;
 }
-let
+var
 gWin
 ;
-let
+var
 gBrowser
 ;
-let
+var
 ok
 is
 info

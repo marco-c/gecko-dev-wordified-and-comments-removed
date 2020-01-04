@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 overflowPanel
 =
 document
@@ -34,7 +34,7 @@ Darwin
 "
 )
 ;
-let
+var
 originalWindowWidth
 ;
 registerCleanupFunction

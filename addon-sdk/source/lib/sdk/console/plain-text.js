@@ -146,7 +146,7 @@ console
 logLevel
 "
 ;
-let
+var
 logLevel
 =
 DEFAULT_LOG_LEVEL
@@ -177,7 +177,7 @@ setLogLevel
 (
 )
 ;
-let
+var
 logLevelObserver
 =
 {
@@ -247,7 +247,7 @@ setLogLevel
 }
 }
 ;
-let
+var
 branch
 =
 Cc

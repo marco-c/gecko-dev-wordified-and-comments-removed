@@ -220,7 +220,7 @@ CLOSED_STATE
 )
 ;
 }
-let
+var
 CLOSED_STATE
 ;
 add_task

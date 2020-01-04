@@ -356,7 +356,7 @@ return
 resolved
 ;
 }
-let
+var
 fromFilename
 =
 exports
@@ -413,7 +413,7 @@ spec
 ;
 }
 ;
-let
+var
 toFilename
 =
 exports
@@ -1642,7 +1642,7 @@ DataURL
 =
 DataURL
 ;
-let
+var
 getTLD
 =
 exports
@@ -1721,7 +1721,7 @@ tld
 ;
 }
 ;
-let
+var
 isValidURI
 =
 exports

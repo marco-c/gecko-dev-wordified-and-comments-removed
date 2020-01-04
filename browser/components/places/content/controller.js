@@ -6623,7 +6623,7 @@ null
 )
 }
 ;
-let
+var
 PlacesControllerDragHelper
 =
 {

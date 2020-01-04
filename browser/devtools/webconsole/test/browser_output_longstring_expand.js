@@ -37,7 +37,7 @@ output
 .
 "
 ;
-let
+var
 test
 =
 asyncTest

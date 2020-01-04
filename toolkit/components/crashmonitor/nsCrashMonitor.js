@@ -40,7 +40,7 @@ jsm
 "
 )
 ;
-let
+var
 Scope
 =
 {
@@ -67,7 +67,7 @@ jsm
 Scope
 )
 ;
-let
+var
 MonitorAPI
 =
 Scope

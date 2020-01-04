@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 SharedAll
 ;
 if
@@ -152,7 +152,7 @@ require
 )
 ;
 }
-let
+var
 LOG
 =
 SharedAll
@@ -170,7 +170,7 @@ allthreads
 "
 )
 ;
-let
+var
 Const
 =
 SharedAll
@@ -179,7 +179,7 @@ Constants
 .
 Win
 ;
-let
+var
 libc
 =
 new
@@ -203,7 +203,7 @@ libc
 =
 libc
 ;
-let
+var
 declareFFI
 =
 SharedAll
@@ -222,7 +222,7 @@ declareFFI
 =
 declareFFI
 ;
-let
+var
 Scope
 =
 {
@@ -270,7 +270,7 @@ ctypes
 voidptr_t
 )
 ;
-let
+var
 OSError
 =
 function
@@ -823,7 +823,7 @@ Error
 =
 OSError
 ;
-let
+var
 AbstractInfo
 =
 function
@@ -1001,7 +1001,7 @@ AbstractInfo
 =
 AbstractInfo
 ;
-let
+var
 AbstractEntry
 =
 function
@@ -1174,7 +1174,7 @@ Const
 .
 FILE_END
 ;
-let
+var
 Type
 =
 Object
@@ -1322,7 +1322,7 @@ ERROR_NOT_SUPPORTED
 ;
 }
 ;
-let
+var
 EXPORTED_SYMBOLS
 =
 [

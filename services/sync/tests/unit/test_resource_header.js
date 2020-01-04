@@ -58,7 +58,7 @@ run_next_test
 )
 ;
 }
-let
+var
 httpServer
 =
 new
@@ -121,12 +121,12 @@ response
 body
 "
 ;
-let
+var
 auth
 =
 null
 ;
-let
+var
 foo
 =
 null

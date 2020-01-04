@@ -32,7 +32,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 EventManager
 ignoreEvent
@@ -40,7 +40,7 @@ ignoreEvent
 =
 ExtensionUtils
 ;
-let
+var
 notificationsMap
 =
 new
@@ -48,7 +48,7 @@ WeakMap
 (
 )
 ;
-let
+var
 notificationCallbacksMap
 =
 new
@@ -365,7 +365,7 @@ extension
 }
 )
 ;
-let
+var
 nextId
 =
 0

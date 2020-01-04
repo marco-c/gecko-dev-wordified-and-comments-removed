@@ -37,7 +37,7 @@ test
 "
 )
 ;
-let
+var
 gPluginHost
 =
 Components
@@ -66,7 +66,7 @@ interfaces
 nsIPluginHost
 )
 ;
-let
+var
 gTestBrowser
 =
 null

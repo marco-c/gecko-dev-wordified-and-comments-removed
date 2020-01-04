@@ -1,4 +1,4 @@
-let
+var
 CP
 =
 {
@@ -181,7 +181,7 @@ pass
 )
 ;
 }
-let
+var
 text_data_array
 =
 new
@@ -2203,7 +2203,7 @@ Uint8Array
 ]
 )
 ;
-let
+var
 wbxml_data_array
 =
 new
@@ -2686,7 +2686,7 @@ Uint8Array
 ]
 )
 ;
-let
+var
 wbxml_code_page_data_array
 =
 new
@@ -3197,7 +3197,7 @@ Uint8Array
 ]
 )
 ;
-let
+var
 xml_header
 =
 "
@@ -3265,7 +3265,7 @@ dtd
 >
 "
 ;
-let
+var
 xml_body
 =
 "
@@ -4275,7 +4275,7 @@ provisioningdoc
 >
 "
 ;
-let
+var
 wbxml_code_page_content
 =
 "

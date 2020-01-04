@@ -95,7 +95,7 @@ org
 xhtml
 "
 ;
-let
+var
 tests
 =
 [
@@ -1396,7 +1396,7 @@ red
 }
 )
 ;
-let
+var
 maxPixels
 =
 144
@@ -1457,7 +1457,7 @@ fails
 }
 )
 ;
-let
+var
 maxColor
 =
 Math

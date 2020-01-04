@@ -1,4 +1,4 @@
-let
+var
 proxyPrefValue
 ;
 function

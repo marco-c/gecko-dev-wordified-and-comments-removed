@@ -79,7 +79,7 @@ jsm
 "
 )
 ;
-let
+var
 gAppInfo
 =
 null
@@ -266,7 +266,7 @@ XULAppInfoFactory
 )
 ;
 }
-let
+var
 gDirSvc
 =
 Cc
@@ -291,7 +291,7 @@ Ci
 nsIProperties
 )
 ;
-let
+var
 gPluginHost
 =
 null

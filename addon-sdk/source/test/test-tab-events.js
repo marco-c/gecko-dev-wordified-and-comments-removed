@@ -116,7 +116,7 @@ promise
 "
 )
 ;
-let
+var
 isFennec
 =
 require

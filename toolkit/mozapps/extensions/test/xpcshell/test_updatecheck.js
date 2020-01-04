@@ -295,7 +295,7 @@ run_test_2
 )
 ;
 }
-let
+var
 updateKey
 =
 "

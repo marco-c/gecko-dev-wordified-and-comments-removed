@@ -29,7 +29,7 @@ js
 "
 )
 ;
-let
+var
 EventSource
 =
 function

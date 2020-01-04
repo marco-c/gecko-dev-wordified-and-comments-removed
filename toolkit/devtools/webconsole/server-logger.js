@@ -144,7 +144,7 @@ data
 "
 ]
 ;
-let
+var
 ServerLoggingListener
 =
 Class

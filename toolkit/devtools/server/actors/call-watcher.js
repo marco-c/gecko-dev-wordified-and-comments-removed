@@ -149,7 +149,7 @@ item
 }
 )
 ;
-let
+var
 FunctionCallActor
 =
 protocol
@@ -947,7 +947,7 @@ join
 }
 )
 ;
-let
+var
 FunctionCallFront
 =
 protocol
@@ -1055,7 +1055,7 @@ argsPreview
 }
 )
 ;
-let
+var
 CallWatcherActor
 =
 exports
@@ -2568,7 +2568,7 @@ functionCall
 }
 )
 ;
-let
+var
 CallWatcherFront
 =
 exports

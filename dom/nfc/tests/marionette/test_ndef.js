@@ -323,7 +323,7 @@ runNextTest
 )
 ;
 }
-let
+var
 tests
 =
 [

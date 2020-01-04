@@ -67,7 +67,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 gDevTools
 }
@@ -94,7 +94,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 require
 }
@@ -122,7 +122,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 TargetFactory
 }
@@ -138,7 +138,7 @@ target
 "
 )
 ;
-let
+var
 {
 Toolbox
 }
@@ -153,7 +153,7 @@ framework
 toolbox
 "
 )
-let
+var
 promise
 =
 require
@@ -163,7 +163,7 @@ promise
 "
 )
 ;
-let
+var
 {
 DebuggerClient
 }
@@ -181,10 +181,10 @@ main
 "
 )
 ;
-let
+var
 gClient
 ;
-let
+var
 gConnectionTimeout
 ;
 XPCOMUtils
@@ -392,7 +392,7 @@ unexpected
 true
 )
 ;
-let
+var
 submit
 =
 Task
@@ -600,7 +600,7 @@ deferred
 promise
 ;
 }
-let
+var
 onConnectionReady
 =
 Task

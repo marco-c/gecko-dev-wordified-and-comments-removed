@@ -46,7 +46,7 @@ animate_zoom
 "
 )
 ;
-let
+var
 contentWindow
 =
 null

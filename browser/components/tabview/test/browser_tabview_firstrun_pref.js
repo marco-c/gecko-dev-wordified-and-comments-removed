@@ -1,4 +1,4 @@
-let
+var
 prefsBranch
 =
 Cc
@@ -33,7 +33,7 @@ panorama
 "
 )
 ;
-let
+var
 originalPrefState
 ;
 function

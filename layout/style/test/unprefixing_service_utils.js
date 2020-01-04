@@ -1,4 +1,4 @@
-let
+var
 gWhitelistedHosts
 =
 [
@@ -36,7 +36,7 @@ org
 "
 ]
 ;
-let
+var
 gNotWhitelistedHosts
 =
 [
@@ -92,7 +92,7 @@ test
 domains
 "
 ;
-let
+var
 gCounter
 =
 0

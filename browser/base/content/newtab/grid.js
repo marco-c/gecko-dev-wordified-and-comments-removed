@@ -18,7 +18,7 @@ SPONSORED_TAG_BUFFER
 =
 2
 ;
-let
+var
 gGrid
 =
 {

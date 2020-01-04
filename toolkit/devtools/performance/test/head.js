@@ -21,7 +21,7 @@ Cr
 =
 Components
 ;
-let
+var
 {
 require
 }

@@ -1,4 +1,4 @@
-let
+var
 {
 classes
 :
@@ -35,7 +35,7 @@ js
 "
 )
 ;
-let
+var
 loader
 =
 Cc
@@ -62,7 +62,7 @@ Ci
 mozIJSSubScriptLoader
 )
 ;
-let
+var
 utils
 =
 {
@@ -108,7 +108,7 @@ js
 utils
 )
 ;
-let
+var
 keyModifierNames
 =
 {
@@ -142,7 +142,7 @@ metaKey
 '
 }
 ;
-let
+var
 keyCodes
 =
 {

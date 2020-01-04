@@ -27,7 +27,7 @@ enabled
 true
 )
 ;
-let
+var
 manager
 =
 window
@@ -36,12 +36,12 @@ navigator
 .
 mozMobileMessage
 ;
-let
+var
 numberMsgs
 =
 10
 ;
-let
+var
 smsList
 =
 new

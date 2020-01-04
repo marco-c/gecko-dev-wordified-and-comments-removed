@@ -1,4 +1,4 @@
-let
+var
 cwd
 =
 Components
@@ -39,7 +39,7 @@ interfaces
 nsILocalFile
 )
 ;
-let
+var
 env
 =
 Components
@@ -68,7 +68,7 @@ interfaces
 nsIEnvironment
 )
 ;
-let
+var
 _tmpd
 =
 Components
@@ -111,7 +111,7 @@ XPCSHELL_TEST_TEMP_DIR
 )
 )
 ;
-let
+var
 crashReporter
 =
 Components
@@ -148,7 +148,7 @@ UpdateCrashEventsDir
 (
 )
 ;
-let
+var
 processType
 =
 Components
@@ -200,7 +200,7 @@ minidumpPath
 _tmpd
 ;
 }
-let
+var
 ios
 =
 Components
@@ -231,7 +231,7 @@ interfaces
 nsIIOService
 )
 ;
-let
+var
 protocolHandler
 =
 ios
@@ -252,7 +252,7 @@ interfaces
 nsIResProtocolHandler
 )
 ;
-let
+var
 curDirURI
 =
 ios
@@ -291,7 +291,7 @@ jsm
 "
 )
 ;
-let
+var
 crashType
 =
 CrashTestUtils

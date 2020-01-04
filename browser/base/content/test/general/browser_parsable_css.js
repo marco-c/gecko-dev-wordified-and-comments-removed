@@ -157,7 +157,7 @@ i
 }
 ]
 ;
-let
+var
 moduleLocation
 =
 gTestPath
@@ -183,7 +183,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 generateURIsFromDirTree
 }

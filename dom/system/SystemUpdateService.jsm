@@ -103,7 +103,7 @@ PROVIDER_ACTIVITY_APPLYING
 <
 2
 ;
-let
+var
 debug
 =
 Services

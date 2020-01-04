@@ -19,7 +19,7 @@ jsm
 "
 )
 ;
-let
+var
 ContentAreaDownloadsView
 =
 {

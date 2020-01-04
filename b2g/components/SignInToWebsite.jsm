@@ -163,7 +163,7 @@ jsm
 "
 )
 ;
-let
+var
 kPersonaUri
 =
 "

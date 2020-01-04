@@ -8,7 +8,7 @@ MAX_ENTRIES
 =
 10
 ;
-let
+var
 testData
 =
 [

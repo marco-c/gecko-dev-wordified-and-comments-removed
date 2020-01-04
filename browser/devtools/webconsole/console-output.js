@@ -1441,7 +1441,7 @@ null
 }
 }
 ;
-let
+var
 Messages
 =
 {
@@ -8210,7 +8210,7 @@ function
 }
 )
 ;
-let
+var
 Widgets
 =
 {

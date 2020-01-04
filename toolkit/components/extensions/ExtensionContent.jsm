@@ -186,7 +186,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 runSafeWithoutClone
 MessageBroker
@@ -239,7 +239,7 @@ when2
 ]
 ;
 }
-let
+var
 api
 =
 context
@@ -1371,7 +1371,7 @@ sandbox
 }
 }
 ;
-let
+var
 DocumentManager
 =
 {
@@ -2495,7 +2495,7 @@ uuid
 }
 }
 ;
-let
+var
 ExtensionManager
 =
 {

@@ -27,7 +27,7 @@ social_crash_content_helper
 js
 "
 ;
-let
+var
 {
 getFrameWorkerHandle
 }
@@ -53,7 +53,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Promise
 }
@@ -157,7 +157,7 @@ finishcb
 )
 ;
 }
-let
+var
 gProviders
 =
 [
@@ -735,7 +735,7 @@ ping
 }
 )
 }
-let
+var
 crashObserver
 =
 function

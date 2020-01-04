@@ -27,7 +27,7 @@ true
 document
 )
 ;
-let
+var
 manager
 =
 window
@@ -36,12 +36,12 @@ navigator
 .
 mozMobileMessage
 ;
-let
+var
 maxCharsPerSms
 =
 160
 ;
-let
+var
 maxSegments
 =
 10

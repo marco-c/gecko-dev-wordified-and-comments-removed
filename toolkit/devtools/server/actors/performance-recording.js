@@ -155,7 +155,7 @@ common
 true
 )
 ;
-let
+var
 PerformanceRecordingActor
 =
 exports
@@ -715,7 +715,7 @@ PerformanceRecordingCommon
 )
 )
 ;
-let
+var
 PerformanceRecordingFront
 =
 exports

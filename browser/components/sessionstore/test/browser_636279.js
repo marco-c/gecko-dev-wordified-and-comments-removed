@@ -1,4 +1,4 @@
-let
+var
 stateBackup
 =
 ss
@@ -7,7 +7,7 @@ getBrowserState
 (
 )
 ;
-let
+var
 statePinned
 =
 {
@@ -47,7 +47,7 @@ true
 ]
 }
 ;
-let
+var
 state
 =
 {
@@ -442,7 +442,7 @@ isRestoring
 ]
 ;
 }
-let
+var
 TabsProgressListener
 =
 {

@@ -77,7 +77,7 @@ DEVICE_CONNECTED_PAGE
 =
 2
 ;
-let
+var
 gSyncAddDevice
 =
 {

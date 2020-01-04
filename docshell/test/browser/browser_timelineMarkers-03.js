@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 URL
 =
 "
@@ -29,7 +29,7 @@ p
 >
 "
 ;
-let
+var
 test
 =
 makeTimelineTest

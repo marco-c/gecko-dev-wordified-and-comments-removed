@@ -157,7 +157,7 @@ properties
 "
 )
 ;
-let
+var
 SimulatorEditor
 =
 {

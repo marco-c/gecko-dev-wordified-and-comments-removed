@@ -49,7 +49,7 @@ browser
 /
 "
 ;
-let
+var
 ConsoleAPIStorage
 =
 Cc

@@ -207,7 +207,7 @@ BrailleGenerator
 '
 ]
 ;
-let
+var
 OutputGenerator
 =
 {

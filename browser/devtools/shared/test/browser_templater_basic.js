@@ -37,7 +37,7 @@ browser_templater_basic
 html
 "
 ;
-let
+var
 test
 =
 Task

@@ -1,4 +1,4 @@
-let
+var
 schema_version3
 =
 PRAGMA
@@ -375,7 +375,7 @@ true
 )
 ;
 }
-let
+var
 tests
 =
 [

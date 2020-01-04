@@ -94,7 +94,7 @@ jsm
 '
 )
 ;
-let
+var
 Svc
 =
 {
@@ -165,7 +165,7 @@ useOnlyCssZoom
 false
 }
 ;
-let
+var
 PdfjsChromeUtils
 =
 {

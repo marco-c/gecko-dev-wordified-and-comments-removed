@@ -94,7 +94,7 @@ browser
 }
 )
 ;
-let
+var
 TabStateFlusherInternal
 =
 {

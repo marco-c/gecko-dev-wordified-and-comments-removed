@@ -152,7 +152,7 @@ remote
 timeout
 "
 ;
-let
+var
 ConnectionManager
 =
 {
@@ -359,7 +359,7 @@ decorate
 ConnectionManager
 )
 ;
-let
+var
 lastID
 =
 -

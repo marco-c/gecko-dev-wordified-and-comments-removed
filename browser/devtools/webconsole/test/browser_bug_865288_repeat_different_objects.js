@@ -37,7 +37,7 @@ messages
 html
 "
 ;
-let
+var
 test
 =
 asyncTest

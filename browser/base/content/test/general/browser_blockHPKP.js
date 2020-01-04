@@ -265,7 +265,7 @@ valid
 )
 ;
 }
-let
+var
 successfulPinningPageListener
 =
 {
@@ -314,7 +314,7 @@ kBadPinningDomain
 }
 }
 ;
-let
+var
 certErrorProgressListener
 =
 {
@@ -427,7 +427,7 @@ zeromaxagevalid
 }
 }
 ;
-let
+var
 successfulPinningRemovalPageListener
 =
 {
@@ -482,7 +482,7 @@ kBadPinningDomain
 }
 }
 ;
-let
+var
 successfulLoadListener
 =
 {

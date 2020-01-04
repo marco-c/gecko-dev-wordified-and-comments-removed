@@ -27,7 +27,7 @@ enabled
 true
 )
 ;
-let
+var
 manager
 =
 window
@@ -36,7 +36,7 @@ navigator
 .
 mozMobileMessage
 ;
-let
+var
 smsId
 ;
 function

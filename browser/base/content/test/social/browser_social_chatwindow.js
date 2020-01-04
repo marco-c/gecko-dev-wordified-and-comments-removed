@@ -1,4 +1,4 @@
-let
+var
 SocialService
 =
 Cu
@@ -24,7 +24,7 @@ jsm
 .
 SocialService
 ;
-let
+var
 manifests
 =
 [
@@ -316,7 +316,7 @@ png
 }
 ]
 ;
-let
+var
 ports
 =
 [
@@ -359,7 +359,7 @@ return
 port
 ;
 }
-let
+var
 chatId
 =
 0

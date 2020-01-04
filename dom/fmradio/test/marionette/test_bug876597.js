@@ -69,7 +69,7 @@ true
 document
 )
 ;
-let
+var
 FMRadio
 =
 window
@@ -78,7 +78,7 @@ navigator
 .
 mozFMRadio
 ;
-let
+var
 mozSettings
 =
 window
@@ -87,7 +87,7 @@ navigator
 .
 mozSettings
 ;
-let
+var
 KEY
 =
 "

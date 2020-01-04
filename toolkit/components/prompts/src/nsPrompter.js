@@ -645,7 +645,7 @@ checkValue
 }
 }
 ;
-let
+var
 PromptUtilsTemp
 =
 {

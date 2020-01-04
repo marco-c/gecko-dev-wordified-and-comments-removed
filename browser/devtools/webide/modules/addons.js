@@ -111,7 +111,7 @@ webide
 addonsURL
 "
 ;
-let
+var
 SIMULATOR_LINK
 =
 Services
@@ -129,7 +129,7 @@ simulatorAddonsURL
 "
 )
 ;
-let
+var
 ADB_LINK
 =
 Services
@@ -147,7 +147,7 @@ adbAddonURL
 "
 )
 ;
-let
+var
 ADAPTERS_LINK
 =
 Services
@@ -165,7 +165,7 @@ adaptersAddonURL
 "
 )
 ;
-let
+var
 SIMULATOR_ADDON_ID
 =
 Services
@@ -183,7 +183,7 @@ simulatorAddonID
 "
 )
 ;
-let
+var
 ADB_ADDON_ID
 =
 Services
@@ -201,7 +201,7 @@ adbAddonID
 "
 )
 ;
-let
+var
 ADAPTERS_ADDON_ID
 =
 Services
@@ -219,7 +219,7 @@ adaptersAddonID
 "
 )
 ;
-let
+var
 platform
 =
 Services
@@ -232,7 +232,7 @@ navigator
 .
 platform
 ;
-let
+var
 OS
 =
 "
@@ -335,7 +335,7 @@ linux32
 ;
 }
 }
-let
+var
 addonsListener
 =
 {
@@ -425,12 +425,12 @@ addAddonListener
 addonsListener
 )
 ;
-let
+var
 GetAvailableAddons_promise
 =
 null
 ;
-let
+var
 GetAvailableAddons
 =
 exports

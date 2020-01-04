@@ -1,4 +1,4 @@
-let
+var
 scope
 =
 Components
@@ -24,7 +24,7 @@ jsm
 "
 )
 ;
-let
+var
 XPIProvider
 =
 scope

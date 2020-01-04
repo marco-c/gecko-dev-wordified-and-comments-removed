@@ -62,7 +62,7 @@ fontinspector
 test
 /
 "
-let
+var
 openInspector
 =
 Task
@@ -261,7 +261,7 @@ inspector
 }
 )
 ;
-let
+var
 openFontInspectorForURL
 =
 Task
@@ -388,7 +388,7 @@ toolbox
 }
 )
 ;
-let
+var
 selectNode
 =
 Task

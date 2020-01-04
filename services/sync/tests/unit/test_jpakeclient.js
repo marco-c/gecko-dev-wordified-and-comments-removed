@@ -280,10 +280,10 @@ return
 cid
 ;
 }
-let
+var
 server
 ;
-let
+var
 channels
 =
 {
@@ -347,7 +347,7 @@ length
 )
 ;
 }
-let
+var
 error_report
 ;
 function
@@ -461,7 +461,7 @@ OK
 )
 ;
 }
-let
+var
 hooks
 =
 {
@@ -935,7 +935,7 @@ arguments
 }
 }
 ;
-let
+var
 BaseController
 =
 {

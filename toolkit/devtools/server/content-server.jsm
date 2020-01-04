@@ -88,7 +88,7 @@ init
 "
 ]
 ;
-let
+var
 started
 =
 false

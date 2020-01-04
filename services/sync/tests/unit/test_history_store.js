@@ -476,7 +476,7 @@ ex
 }
 ;
 }
-let
+var
 store
 =
 new
@@ -507,7 +507,7 @@ length
 )
 ;
 }
-let
+var
 fxuri
 fxguid
 tburi

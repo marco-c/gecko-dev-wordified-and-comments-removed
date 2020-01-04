@@ -180,7 +180,7 @@ nsIAppsService
 "
 )
 ;
-let
+var
 kMaxPendingMessages
 ;
 try
@@ -277,7 +277,7 @@ aMsg
 )
 {
 }
-let
+var
 defaultMessageConfigurator
 =
 {

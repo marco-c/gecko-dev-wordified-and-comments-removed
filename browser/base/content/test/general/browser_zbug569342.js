@@ -132,7 +132,7 @@ nextTest
 )
 ;
 }
-let
+var
 urls
 =
 [

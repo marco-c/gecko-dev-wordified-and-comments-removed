@@ -199,7 +199,7 @@ download
 pdf
 "
 ;
-let
+var
 gFileCounter
 =
 Math

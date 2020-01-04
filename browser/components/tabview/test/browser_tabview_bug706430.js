@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 state1
 =
 {
@@ -290,7 +290,7 @@ id
 ]
 }
 ;
-let
+var
 state2
 =
 {
@@ -349,7 +349,7 @@ selected
 ]
 }
 ;
-let
+var
 ss
 =
 Cc

@@ -123,7 +123,7 @@ CardDavImporter
 "
 ]
 ;
-let
+var
 log
 =
 Log

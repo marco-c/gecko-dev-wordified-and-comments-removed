@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 {
 Ci
 Cu
@@ -16,7 +16,7 @@ chrome
 "
 )
 ;
-let
+var
 {
 DebuggerServer
 }

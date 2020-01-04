@@ -17,7 +17,7 @@ experimental
 '
 }
 ;
-let
+var
 {
 request
 :
@@ -36,7 +36,7 @@ host
 '
 )
 ;
-let
+var
 {
 defer
 :
@@ -55,7 +55,7 @@ functional
 '
 )
 ;
-let
+var
 {
 defer
 }
@@ -72,7 +72,7 @@ promise
 '
 )
 ;
-let
+var
 {
 emit
 :
@@ -93,7 +93,7 @@ core
 '
 )
 ;
-let
+var
 {
 uuid
 }
@@ -110,7 +110,7 @@ uuid
 '
 )
 ;
-let
+var
 emit
 =
 async
@@ -118,7 +118,7 @@ async
 emitSync
 )
 ;
-let
+var
 requests
 =
 new
@@ -126,7 +126,7 @@ Map
 (
 )
 ;
-let
+var
 receive
 =
 async

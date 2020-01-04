@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 gMessageManager
 ;
 function
@@ -509,7 +509,7 @@ tryResolve
 )
 ;
 }
-let
+var
 gTests
 =
 [

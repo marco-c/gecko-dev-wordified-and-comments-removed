@@ -65,7 +65,7 @@ n
 ;
 }
 }
-let
+var
 scope
 =
 {

@@ -39,7 +39,7 @@ SEC_IN_ONE_DAY
 *
 1000
 ;
-let
+var
 cacheData
 =
 {

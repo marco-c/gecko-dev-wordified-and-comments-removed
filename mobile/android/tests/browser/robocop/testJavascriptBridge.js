@@ -1,4 +1,4 @@
-let
+var
 java
 =
 new
@@ -7,7 +7,7 @@ JavaBridge
 this
 )
 ;
-let
+var
 javaResponded
 =
 false

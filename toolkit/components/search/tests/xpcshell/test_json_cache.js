@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 gMetadata
 =
 {
@@ -30,7 +30,7 @@ true
 }
 }
 ;
-let
+var
 _dirSvc
 =
 null
@@ -126,7 +126,7 @@ null
 )
 ;
 }
-let
+var
 cacheTemplate
 appPluginsPath
 profPlugins
@@ -1375,7 +1375,7 @@ removed
 }
 )
 ;
-let
+var
 EXPECTED_ENGINE
 =
 {

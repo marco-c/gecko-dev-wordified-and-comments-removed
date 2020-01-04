@@ -13,12 +13,12 @@ PromiseMessage
 "
 ]
 ;
-let
+var
 msgId
 =
 0
 ;
-let
+var
 PromiseMessage
 =
 {

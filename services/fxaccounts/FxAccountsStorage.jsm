@@ -2946,7 +2946,7 @@ null
 }
 )
 }
-let
+var
 haveLoginManager
 =
 #

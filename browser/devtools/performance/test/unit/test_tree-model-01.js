@@ -1374,7 +1374,7 @@ youngestFrameSamples
 }
 )
 ;
-let
+var
 gThread
 =
 synthesizeProfileForTest

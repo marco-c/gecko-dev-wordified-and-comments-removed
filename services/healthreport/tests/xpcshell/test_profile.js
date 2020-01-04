@@ -23,7 +23,7 @@ MILLISECONDS_PER_DAY
 *
 1000
 ;
-let
+var
 profile_creation_lower
 =
 Date

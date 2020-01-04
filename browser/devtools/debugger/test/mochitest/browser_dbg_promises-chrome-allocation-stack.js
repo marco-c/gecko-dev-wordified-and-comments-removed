@@ -36,7 +36,7 @@ promises
 "
 )
 ;
-let
+var
 events
 =
 require

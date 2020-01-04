@@ -98,7 +98,7 @@ finish
 ;
 }
 }
-let
+var
 tests
 =
 [

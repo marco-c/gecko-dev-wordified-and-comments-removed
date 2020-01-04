@@ -147,7 +147,7 @@ count
 }
 )
 ;
-let
+var
 gThread
 =
 synthesizeProfileForTest

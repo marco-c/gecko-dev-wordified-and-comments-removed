@@ -126,7 +126,7 @@ PermissionsTable
 jsm
 "
 )
-let
+var
 DeviceActor
 =
 exports
@@ -607,7 +607,7 @@ json
 }
 )
 ;
-let
+var
 DeviceFront
 =
 protocol

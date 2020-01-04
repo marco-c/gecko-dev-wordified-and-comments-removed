@@ -38,7 +38,7 @@ components
 "
 )
 ;
-let
+var
 AnimationsPanel
 =
 {

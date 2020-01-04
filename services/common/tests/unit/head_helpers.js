@@ -97,7 +97,7 @@ jsm
 "
 )
 ;
-let
+var
 btoa
 =
 Cu
@@ -121,7 +121,7 @@ jsm
 .
 btoa
 ;
-let
+var
 atob
 =
 Cu
@@ -296,7 +296,7 @@ thrown
 )
 ;
 }
-let
+var
 _
 =
 function
@@ -693,7 +693,7 @@ ex
 }
 ;
 }
-let
+var
 PACSystemSettings
 =
 {
@@ -731,7 +731,7 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 }
 ;
-let
+var
 fakePACCID
 ;
 function

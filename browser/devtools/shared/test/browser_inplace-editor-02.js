@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 {
 editableField
 getInplaceEditorForSpan
@@ -24,7 +24,7 @@ editor
 "
 )
 ;
-let
+var
 promise
 =
 require

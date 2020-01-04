@@ -42,7 +42,7 @@ jsm
 "
 )
 ;
-let
+var
 DSContext
 =
 Components
@@ -68,7 +68,7 @@ jsm
 }
 )
 ;
-let
+var
 DeferredSave
 =
 DSContext
@@ -2013,7 +2013,7 @@ serialize
 data
 "
 ;
-let
+var
 badDataError
 =
 null

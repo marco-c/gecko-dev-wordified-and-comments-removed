@@ -15,7 +15,7 @@ close
 html
 "
 ;
-let
+var
 gTab
 gDebugger
 gPanel

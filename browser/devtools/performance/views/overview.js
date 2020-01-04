@@ -56,7 +56,7 @@ withMemory
 ]
 }
 }
-let
+var
 OverviewView
 =
 {

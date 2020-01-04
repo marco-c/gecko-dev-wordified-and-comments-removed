@@ -134,7 +134,7 @@ properties
 }
 )
 ;
-let
+var
 ShortcutUtils
 =
 {

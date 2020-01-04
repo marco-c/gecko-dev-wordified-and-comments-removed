@@ -2064,7 +2064,7 @@ return
 testURLs
 ;
 }
-let
+var
 observer
 =
 {

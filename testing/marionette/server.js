@@ -211,7 +211,7 @@ js
 "
 )
 ;
-let
+var
 events
 =
 {

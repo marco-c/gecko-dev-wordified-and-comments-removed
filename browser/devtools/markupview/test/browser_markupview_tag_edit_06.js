@@ -12,7 +12,7 @@ js
 "
 )
 ;
-let
+var
 TEST_URL
 =
 "
@@ -36,7 +36,7 @@ div
 >
 "
 ;
-let
+var
 TEST_DATA
 =
 [

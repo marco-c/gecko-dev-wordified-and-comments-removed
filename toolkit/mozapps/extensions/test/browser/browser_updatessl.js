@@ -1,4 +1,4 @@
-let
+var
 tempScope
 =
 {
@@ -28,7 +28,7 @@ jsm
 tempScope
 )
 ;
-let
+var
 AddonUpdateChecker
 =
 tempScope

@@ -1366,7 +1366,7 @@ this
 }
 }
 ;
-let
+var
 BingTokenManager
 =
 {

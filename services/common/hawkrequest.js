@@ -855,7 +855,7 @@ _accepted
 }
 }
 ;
-let
+var
 intl
 =
 null

@@ -4226,7 +4226,7 @@ refresh
 }
 }
 ;
-let
+var
 FlameGraphUtils
 =
 {

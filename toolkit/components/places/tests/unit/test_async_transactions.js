@@ -46,7 +46,7 @@ URL
 ]
 )
 ;
-let
+var
 observer
 =
 {
@@ -467,7 +467,7 @@ reset
 (
 )
 ;
-let
+var
 bmStartIndex
 =
 0

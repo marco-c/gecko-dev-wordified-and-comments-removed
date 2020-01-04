@@ -32,7 +32,7 @@ Ci
 nsIX509CertDB
 )
 ;
-let
+var
 certList
 =
 [

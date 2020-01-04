@@ -56,7 +56,7 @@ jsm
 "
 )
 ;
-let
+var
 fxAccountsCommon
 =
 {
@@ -616,7 +616,7 @@ email
 ;
 }
 }
-let
+var
 wrapper
 =
 {

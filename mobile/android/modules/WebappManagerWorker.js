@@ -34,7 +34,7 @@ js
 "
 )
 ;
-let
+var
 Log
 =
 require
@@ -54,7 +54,7 @@ jsm
 "
 )
 ;
-let
+var
 log
 =
 Log

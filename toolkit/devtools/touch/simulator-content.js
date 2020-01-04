@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 {
 interfaces
 :
@@ -34,7 +34,7 @@ jsm
 "
 )
 ;
-let
+var
 systemAppOrigin
 =
 (
@@ -92,7 +92,7 @@ systemOrigin
 (
 )
 ;
-let
+var
 threshold
 =
 25
@@ -121,7 +121,7 @@ e
 )
 {
 }
-let
+var
 delay
 =
 500
@@ -152,7 +152,7 @@ e
 )
 {
 }
-let
+var
 simulator
 =
 {

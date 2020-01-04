@@ -231,7 +231,7 @@ true
 }
 }
 ;
-let
+var
 engineObserver
 =
 {

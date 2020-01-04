@@ -13,12 +13,12 @@ variable
 html
 "
 ;
-let
+var
 gTab
 gPanel
 gDebugger
 ;
-let
+var
 gBreakpoints
 gSources
 gVariables

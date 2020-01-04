@@ -195,7 +195,7 @@ addons
 weblistener
 "
 ;
-let
+var
 logger
 =
 Log

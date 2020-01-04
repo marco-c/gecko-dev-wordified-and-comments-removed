@@ -36,7 +36,7 @@ div
 >
 "
 ;
-let
+var
 {
 EyedropperManager
 }

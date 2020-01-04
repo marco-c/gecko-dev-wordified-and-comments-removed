@@ -23,7 +23,7 @@ and
 promises
 "
 ;
-let
+var
 {
 DebuggerServer
 }
@@ -39,14 +39,14 @@ main
 "
 )
 ;
-let
+var
 LONG_STRING_LENGTH
 =
 DebuggerServer
 .
 LONG_STRING_LENGTH
 ;
-let
+var
 LONG_STRING_INITIAL_LENGTH
 =
 DebuggerServer
@@ -65,7 +65,7 @@ LONG_STRING_INITIAL_LENGTH
 =
 50
 ;
-let
+var
 longString
 =
 (
@@ -87,7 +87,7 @@ a
 "
 )
 ;
-let
+var
 initialString
 =
 longString
@@ -100,7 +100,7 @@ DebuggerServer
 LONG_STRING_INITIAL_LENGTH
 )
 ;
-let
+var
 inputTests
 =
 [

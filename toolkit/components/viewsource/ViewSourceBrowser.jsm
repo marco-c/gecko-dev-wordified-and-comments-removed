@@ -124,7 +124,7 @@ ViewSourceBrowser
 "
 ]
 ;
-let
+var
 gKnownBrowsers
 =
 new

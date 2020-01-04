@@ -75,7 +75,7 @@ jsm
 "
 )
 ;
-let
+var
 debug
 =
 Services

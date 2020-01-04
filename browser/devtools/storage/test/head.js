@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 {
 console
 }
@@ -31,7 +31,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 require
 }
@@ -59,7 +59,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 TargetFactory
 }
@@ -75,7 +75,7 @@ target
 "
 )
 ;
-let
+var
 promise
 =
 require
@@ -85,7 +85,7 @@ promise
 "
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -219,7 +219,7 @@ waitForExplicitFinish
 (
 )
 ;
-let
+var
 gToolbox
 gPanelWindow
 gWindow
@@ -661,7 +661,7 @@ openStoragePanel
 )
 ;
 }
-let
+var
 openStoragePanel
 =
 Task

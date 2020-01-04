@@ -64,7 +64,7 @@ jsm
 "
 )
 ;
-let
+var
 propBag
 args
 Dialog

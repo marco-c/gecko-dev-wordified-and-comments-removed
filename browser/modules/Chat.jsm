@@ -234,7 +234,7 @@ nsIDOMWindow
 )
 ;
 }
-let
+var
 Chat
 =
 {

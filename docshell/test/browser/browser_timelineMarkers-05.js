@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 URL
 =
 '
@@ -135,7 +135,7 @@ encodeURIComponent
 URL
 )
 ;
-let
+var
 test
 =
 makeTimelineTest

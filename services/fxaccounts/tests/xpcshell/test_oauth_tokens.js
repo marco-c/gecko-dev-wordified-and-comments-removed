@@ -98,7 +98,7 @@ js
 "
 )
 ;
-let
+var
 {
 AccountState
 }

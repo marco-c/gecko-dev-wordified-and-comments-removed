@@ -101,7 +101,7 @@ offline
 false
 ;
 }
-let
+var
 runningInParent
 =
 true
@@ -3293,7 +3293,7 @@ func
 ;
 }
 }
-let
+var
 _gTests
 =
 [
@@ -3319,7 +3319,7 @@ return
 func
 ;
 }
-let
+var
 _Task
 ;
 function
@@ -3378,12 +3378,12 @@ func
 )
 ;
 }
-let
+var
 _gRunningTest
 =
 null
 ;
-let
+var
 _gTestIndex
 =
 0

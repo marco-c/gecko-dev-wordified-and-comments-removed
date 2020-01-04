@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 L10N
 =
 new

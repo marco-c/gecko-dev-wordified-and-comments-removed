@@ -17,7 +17,7 @@ chrome
 "
 )
 ;
-let
+var
 TiltGL
 =
 require
@@ -33,7 +33,7 @@ gl
 "
 )
 ;
-let
+var
 TiltUtils
 =
 require
@@ -49,7 +49,7 @@ utils
 "
 )
 ;
-let
+var
 TiltVisualizerStyle
 =
 require
@@ -67,7 +67,7 @@ style
 "
 )
 ;
-let
+var
 {
 EPSILON
 TiltMath
@@ -89,7 +89,7 @@ math
 "
 )
 ;
-let
+var
 {
 TargetFactory
 }

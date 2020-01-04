@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 {
 classes
 :
@@ -21,7 +21,7 @@ Cr
 =
 Components
 ;
-let
+var
 {
 SpellCheckHelper
 }

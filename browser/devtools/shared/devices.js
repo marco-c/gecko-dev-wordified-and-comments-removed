@@ -101,7 +101,7 @@ properties
 "
 )
 ;
-let
+var
 localDevices
 =
 {

@@ -59,7 +59,7 @@ jsm
 "
 )
 ;
-let
+var
 MMDB
 =
 {

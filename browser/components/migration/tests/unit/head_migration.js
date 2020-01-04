@@ -133,7 +133,7 @@ jsm
 "
 )
 ;
-let
+var
 gProfD
 =
 do_get_profile

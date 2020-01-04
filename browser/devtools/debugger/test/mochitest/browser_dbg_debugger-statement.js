@@ -13,10 +13,10 @@ statement
 html
 "
 ;
-let
+var
 gClient
 ;
-let
+var
 gTab
 ;
 function

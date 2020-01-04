@@ -28,7 +28,7 @@ e
 )
 {
 }
-let
+var
 acquire
 dispose
 null_dispose

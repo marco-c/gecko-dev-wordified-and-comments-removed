@@ -15,7 +15,7 @@ chrome
 "
 )
 ;
-let
+var
 TiltUtils
 =
 require
@@ -31,7 +31,7 @@ utils
 "
 )
 ;
-let
+var
 EPSILON
 =
 0
@@ -76,7 +76,7 @@ ONE_OVER_255
 /
 255
 ;
-let
+var
 vec3
 =
 {
@@ -1571,7 +1571,7 @@ vec3
 =
 vec3
 ;
-let
+var
 mat3
 =
 {
@@ -2255,7 +2255,7 @@ mat3
 =
 mat3
 ;
-let
+var
 mat4
 =
 {
@@ -8664,7 +8664,7 @@ mat4
 =
 mat4
 ;
-let
+var
 quat4
 =
 {
@@ -10824,7 +10824,7 @@ quat4
 =
 quat4
 ;
-let
+var
 TiltMath
 =
 {

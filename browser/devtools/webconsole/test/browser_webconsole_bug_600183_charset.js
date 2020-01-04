@@ -278,7 +278,7 @@ deferred
 promise
 ;
 }
-let
+var
 test
 =
 asyncTest

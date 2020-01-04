@@ -61,7 +61,7 @@ Security
 MixedContent
 "
 ;
-let
+var
 test
 =
 asyncTest

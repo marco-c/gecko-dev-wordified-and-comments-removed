@@ -54,7 +54,7 @@ jsm
 "
 )
 ;
-let
+var
 gSyncProfile
 ;
 gSyncProfile
@@ -63,7 +63,7 @@ do_get_profile
 (
 )
 ;
-let
+var
 fhs
 =
 Cc
@@ -133,7 +133,7 @@ server
 "
 )
 ;
-let
+var
 OS
 =
 "
@@ -186,7 +186,7 @@ OS
 Linux
 "
 ;
-let
+var
 XULAppInfo
 =
 {
@@ -270,7 +270,7 @@ invalidateCachesOnRestart
 }
 }
 ;
-let
+var
 XULAppInfoFactory
 =
 {
@@ -305,7 +305,7 @@ iid
 }
 }
 ;
-let
+var
 registrar
 =
 Components

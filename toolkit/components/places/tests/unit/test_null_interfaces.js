@@ -1,11 +1,11 @@
-let
+var
 Cr
 =
 Components
 .
 results
 ;
-let
+var
 testServices
 =
 [

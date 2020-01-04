@@ -15,7 +15,7 @@ print
 html
 "
 ;
-let
+var
 {
 RootActor
 }

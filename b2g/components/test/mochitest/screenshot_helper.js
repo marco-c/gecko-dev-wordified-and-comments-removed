@@ -47,7 +47,7 @@ jsm
 "
 )
 ;
-let
+var
 scope
 =
 {
@@ -82,7 +82,7 @@ Screenshot
 =
 scope
 ;
-let
+var
 index
 =
 -
@@ -156,7 +156,7 @@ ex
 ;
 }
 }
-let
+var
 steps
 =
 [

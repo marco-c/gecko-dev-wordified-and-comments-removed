@@ -1,7 +1,7 @@
-let
+var
 prefsBranch
 ;
-let
+var
 currentActiveGroupItemId
 ;
 function

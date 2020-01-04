@@ -381,7 +381,7 @@ escape
 )
 ;
 }
-let
+var
 rootElement
 =
 view

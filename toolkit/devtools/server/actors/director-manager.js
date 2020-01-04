@@ -214,7 +214,7 @@ messageport
 }
 )
 ;
-let
+var
 MessagePortActor
 =
 exports
@@ -597,7 +597,7 @@ messageportevent
 }
 )
 ;
-let
+var
 MessagePortFront
 =
 exports
@@ -754,7 +754,7 @@ number
 }
 )
 ;
-let
+var
 DirectorScriptActor
 =
 exports
@@ -1586,7 +1586,7 @@ _messagePortActor
 }
 )
 ;
-let
+var
 DirectorScriptFront
 =
 exports

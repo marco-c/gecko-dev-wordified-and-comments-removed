@@ -1,4 +1,4 @@
-let
+var
 {
 LoadContextInfo
 }
@@ -23,7 +23,7 @@ jsm
 null
 )
 ;
-let
+var
 tmp
 =
 {
@@ -71,7 +71,7 @@ js
 tmp
 )
 ;
-let
+var
 Sanitizer
 =
 tmp

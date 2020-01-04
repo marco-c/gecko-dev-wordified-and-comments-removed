@@ -199,7 +199,7 @@ resolve
 )
 ;
 }
-let
+var
 numServerRequests
 =
 0

@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 gNavBar
 =
 document
@@ -15,7 +15,7 @@ CustomizableUI
 AREA_NAVBAR
 )
 ;
-let
+var
 gOverflowList
 =
 document

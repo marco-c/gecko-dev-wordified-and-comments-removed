@@ -323,7 +323,7 @@ view
 "
 )
 ;
-let
+var
 AllTabs
 =
 {

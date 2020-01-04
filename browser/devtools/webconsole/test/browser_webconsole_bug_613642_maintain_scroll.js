@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 TEST_URI
 =
 "
@@ -33,7 +33,7 @@ scroll
 location
 "
 ;
-let
+var
 test
 =
 asyncTest

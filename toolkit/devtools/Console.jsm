@@ -73,7 +73,7 @@ jsm
 "
 )
 ;
-let
+var
 gTimerRegistry
 =
 new

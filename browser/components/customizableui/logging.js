@@ -28,7 +28,7 @@ jsm
 "
 )
 ;
-let
+var
 gDebug
 =
 false

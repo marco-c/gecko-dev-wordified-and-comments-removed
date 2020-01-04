@@ -41,7 +41,7 @@ string
 html
 "
 ;
-let
+var
 test
 =
 asyncTest

@@ -359,7 +359,7 @@ labels
 }
 }
 ;
-let
+var
 component
 =
 [

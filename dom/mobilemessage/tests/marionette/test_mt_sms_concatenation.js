@@ -121,7 +121,7 @@ str
 str
 ;
 }
-let
+var
 ref_num
 =
 0

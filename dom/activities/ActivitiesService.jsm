@@ -1344,7 +1344,7 @@ aError
 ;
 }
 }
-let
+var
 Activities
 =
 {

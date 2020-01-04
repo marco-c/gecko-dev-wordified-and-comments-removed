@@ -186,7 +186,7 @@ v
 }
 )
 ;
-let
+var
 ProfilerActor
 =
 exports

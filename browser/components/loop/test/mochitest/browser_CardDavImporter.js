@@ -57,7 +57,7 @@ p455w0rd
 "
 }
 ;
-let
+var
 vcards
 =
 [

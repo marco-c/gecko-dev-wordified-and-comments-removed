@@ -56,7 +56,7 @@ MAX_FOLDER_ITEM_IN_MENU_LIST
 =
 5
 ;
-let
+var
 gEditItemOverlay
 =
 {

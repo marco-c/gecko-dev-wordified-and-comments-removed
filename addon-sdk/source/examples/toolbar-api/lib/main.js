@@ -53,7 +53,7 @@ action
 "
 )
 ;
-let
+var
 button
 =
 new
@@ -104,7 +104,7 @@ content
 }
 )
 ;
-let
+var
 frame
 =
 new
@@ -234,7 +234,7 @@ origin
 }
 )
 ;
-let
+var
 toolbar
 =
 new

@@ -157,7 +157,7 @@ jsm
 this
 )
 ;
-let
+var
 loggingConfigured
 =
 false
@@ -914,7 +914,7 @@ payload
 }
 }
 ;
-let
+var
 DUMMY_DIR_COUNT
 =
 0

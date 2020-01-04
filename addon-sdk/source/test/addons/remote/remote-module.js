@@ -207,7 +207,7 @@ key
 }
 )
 ;
-let
+var
 frameCount
 =
 0

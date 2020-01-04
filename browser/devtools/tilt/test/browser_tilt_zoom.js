@@ -13,7 +13,7 @@ RESIZE
 =
 50
 ;
-let
+var
 tiltOpened
 =
 false

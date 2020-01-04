@@ -23,7 +23,7 @@ toolbox
 switching
 "
 ;
-let
+var
 {
 Toolbox
 }

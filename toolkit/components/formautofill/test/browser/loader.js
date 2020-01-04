@@ -22,7 +22,7 @@ js
 this
 )
 ;
-let
+var
 ChromeUtils
 =
 {
@@ -54,7 +54,7 @@ js
 ChromeUtils
 )
 ;
-let
+var
 Output
 =
 {
@@ -63,7 +63,7 @@ print
 info
 }
 ;
-let
+var
 Assert
 =
 {
@@ -79,12 +79,12 @@ _mochitestAssert
 equal
 }
 ;
-let
+var
 add_task_in_parent_process
 =
 add_task
 ;
-let
+var
 add_task_in_child_process
 =
 function
@@ -93,7 +93,7 @@ function
 {
 }
 ;
-let
+var
 add_task_in_both_processes
 =
 add_task

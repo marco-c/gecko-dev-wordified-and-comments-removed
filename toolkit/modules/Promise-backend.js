@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 Cu
 =
 this
@@ -23,7 +23,7 @@ Components
 .
 utils
 ;
-let
+var
 Cc
 =
 this
@@ -43,7 +43,7 @@ Components
 .
 classes
 ;
-let
+var
 Ci
 =
 this
@@ -63,7 +63,7 @@ Components
 .
 interfaces
 ;
-let
+var
 Components_
 =
 this
@@ -206,7 +206,7 @@ Promise
 :
 null
 ;
-let
+var
 PendingErrors
 =
 {

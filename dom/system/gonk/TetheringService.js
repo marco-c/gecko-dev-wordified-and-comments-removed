@@ -707,7 +707,7 @@ MOBILE_DUN_MAX_RETRIES
 =
 5
 ;
-let
+var
 debug
 ;
 function

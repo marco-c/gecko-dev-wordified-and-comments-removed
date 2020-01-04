@@ -18,7 +18,7 @@ object
 "
 )
 ;
-let
+var
 test
 =
 Task

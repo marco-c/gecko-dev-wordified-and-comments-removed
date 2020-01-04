@@ -766,7 +766,7 @@ cert
 )
 ;
 }
-let
+var
 TESTS
 =
 [

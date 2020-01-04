@@ -25,7 +25,7 @@ newtabpage
 enhanced
 "
 ;
-let
+var
 gIntro
 =
 {

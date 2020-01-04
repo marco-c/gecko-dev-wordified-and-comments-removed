@@ -261,12 +261,12 @@ true
 }
 ]
 ;
-let
+var
 HCIEvtTransactionConfigurator
 =
 null
 ;
-let
+var
 aceAccessAllowed
 =
 true

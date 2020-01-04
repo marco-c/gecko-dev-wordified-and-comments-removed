@@ -1,4 +1,4 @@
-let
+var
 {
 FlameGraphUtils
 }
@@ -16,7 +16,7 @@ FlameGraph
 "
 )
 ;
-let
+var
 test
 =
 Task

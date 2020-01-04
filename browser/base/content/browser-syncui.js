@@ -100,14 +100,14 @@ jsm
 ;
 #
 else
-let
+var
 CloudSync
 =
 null
 ;
 #
 endif
-let
+var
 gSyncUI
 =
 {

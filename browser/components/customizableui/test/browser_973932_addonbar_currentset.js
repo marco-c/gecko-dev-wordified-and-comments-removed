@@ -3,14 +3,14 @@ use
 strict
 "
 ;
-let
+var
 addonbarID
 =
 CustomizableUI
 .
 AREA_ADDONBAR
 ;
-let
+var
 addonbar
 =
 document

@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 someObject
 =
 {
@@ -25,7 +25,7 @@ b
 }
 }
 ;
-let
+var
 anotherObject
 =
 {

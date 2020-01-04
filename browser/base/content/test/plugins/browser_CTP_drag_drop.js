@@ -1,4 +1,4 @@
-let
+var
 gTestRoot
 =
 getRootDirectory
@@ -36,7 +36,7 @@ http
 "
 )
 ;
-let
+var
 gNewWindow
 =
 null

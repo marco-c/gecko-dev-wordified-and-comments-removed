@@ -7,7 +7,7 @@ placesInternal
 GUID
 "
 ;
-let
+var
 getTotalGuidAnnotationsCount
 =
 Task

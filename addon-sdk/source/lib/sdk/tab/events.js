@@ -179,7 +179,7 @@ channels
 )
 ;
 }
-let
+var
 readyEvents
 =
 filter
@@ -200,7 +200,7 @@ DOMContentLoaded
 "
 )
 ;
-let
+var
 futureWindows
 =
 map
@@ -215,7 +215,7 @@ e
 target
 )
 ;
-let
+var
 eventsFromFuture
 =
 expand
@@ -224,7 +224,7 @@ futureWindows
 tabEventsFor
 )
 ;
-let
+var
 interactiveWindows
 =
 windows
@@ -246,7 +246,7 @@ filter
 isInteractive
 )
 ;
-let
+var
 eventsFromInteractive
 =
 merge
@@ -259,7 +259,7 @@ tabEventsFor
 )
 )
 ;
-let
+var
 allEvents
 =
 merge

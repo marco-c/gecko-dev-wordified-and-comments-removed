@@ -14,7 +14,7 @@ browser_toolbox_options_disable_cache
 sjs
 "
 ;
-let
+var
 tabs
 =
 [

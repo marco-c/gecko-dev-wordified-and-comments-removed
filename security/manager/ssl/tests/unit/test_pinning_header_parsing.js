@@ -1,4 +1,4 @@
-let
+var
 profileDir
 =
 do_get_profile
@@ -30,7 +30,7 @@ Ci
 nsIX509CertDB
 )
 ;
-let
+var
 gSSService
 =
 Cc

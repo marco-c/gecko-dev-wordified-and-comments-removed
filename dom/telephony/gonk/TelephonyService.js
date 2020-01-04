@@ -1389,7 +1389,7 @@ ICC_SERVICE_CLASS_PAD
 =
 MMI_KS_SERVICE_CLASS_PAD
 ;
-let
+var
 DEBUG
 ;
 function

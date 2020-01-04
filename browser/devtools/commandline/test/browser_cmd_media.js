@@ -28,7 +28,7 @@ browser_cmd_media
 html
 "
 ;
-let
+var
 tests
 =
 {

@@ -29,7 +29,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Services
 }

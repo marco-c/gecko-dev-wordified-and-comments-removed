@@ -587,7 +587,7 @@ id
 )
 )
 ;
-let
+var
 toggleButtonStateEvents
 =
 events
@@ -605,7 +605,7 @@ instanceof
 ToggleButton
 )
 ;
-let
+var
 toggleButtonViewEvents
 =
 events
@@ -626,7 +626,7 @@ target
 )
 )
 ;
-let
+var
 clickEvents
 =
 events
@@ -648,7 +648,7 @@ click
 '
 )
 ;
-let
+var
 updateEvents
 =
 events

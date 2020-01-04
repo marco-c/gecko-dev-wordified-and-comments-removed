@@ -1,4 +1,4 @@
-let
+var
 OS
 =
 Cu
@@ -24,7 +24,7 @@ jsm
 .
 OS
 ;
-let
+var
 {
 File
 Constants
@@ -51,7 +51,7 @@ SessionFile
 .
 Paths
 ;
-let
+var
 gDecoder
 =
 new
@@ -59,10 +59,10 @@ TextDecoder
 (
 )
 ;
-let
+var
 gSSData
 ;
-let
+var
 gSSBakData
 ;
 function
@@ -882,7 +882,7 @@ wipe
 }
 )
 ;
-let
+var
 promiseSource
 =
 Task

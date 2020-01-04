@@ -67,7 +67,7 @@ Ci
 nsIFactory
 )
 ;
-let
+var
 fakePromptServiceFactory
 =
 {
@@ -102,7 +102,7 @@ aIid
 }
 }
 ;
-let
+var
 promptService
 =
 {

@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 gTeardownAfterClose
 =
 false
@@ -104,7 +104,7 @@ teardown
 )
 ;
 }
-let
+var
 gTests
 =
 [

@@ -1,4 +1,4 @@
-let
+var
 protocol
 =
 require
@@ -12,7 +12,7 @@ protocol
 "
 )
 ;
-let
+var
 {
 method
 Arg
@@ -22,7 +22,7 @@ RetVal
 =
 protocol
 ;
-let
+var
 events
 =
 require
@@ -61,7 +61,7 @@ traits
 ]
 }
 }
-let
+var
 RootActor
 =
 protocol
@@ -151,7 +151,7 @@ RetVal
 }
 )
 ;
-let
+var
 RootFront
 =
 protocol

@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 res1
 =
 [
@@ -245,7 +245,7 @@ value
 }
 ]
 ;
-let
+var
 res2
 =
 [

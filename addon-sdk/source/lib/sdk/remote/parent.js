@@ -299,7 +299,7 @@ utils
 '
 )
 ;
-let
+var
 moduleResolve
 ;
 if
@@ -342,7 +342,7 @@ loaderModule
 resolve
 ;
 }
-let
+var
 pathMapping
 =
 Object
@@ -387,7 +387,7 @@ p
 ]
 )
 ;
-let
+var
 {
 getNewLoaderID
 }
@@ -409,7 +409,7 @@ jsm
 '
 )
 ;
-let
+var
 PATH
 =
 options
@@ -550,7 +550,7 @@ Namespace
 (
 )
 ;
-let
+var
 processMap
 =
 new
@@ -1024,7 +1024,7 @@ id
 }
 )
 ;
-let
+var
 processes
 =
 exports
@@ -1036,7 +1036,7 @@ Processes
 (
 )
 ;
-let
+var
 frameMap
 =
 new
@@ -1559,7 +1559,7 @@ null
 }
 )
 ;
-let
+var
 frames
 =
 exports
@@ -1769,7 +1769,7 @@ response
 )
 ;
 }
-let
+var
 pendingFrames
 =
 new
@@ -1999,7 +1999,7 @@ reason
 }
 )
 ;
-let
+var
 remoteModules
 =
 new

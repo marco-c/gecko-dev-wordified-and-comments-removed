@@ -2,7 +2,7 @@ waitForExplicitFinish
 (
 )
 ;
-let
+var
 pageSource
 =
 '
@@ -48,12 +48,12 @@ html
 >
 '
 ;
-let
+var
 oldDiscardingPref
 oldTab
 newTab
 ;
-let
+var
 prefBranch
 =
 Cc

@@ -60,10 +60,10 @@ this
 )
 ;
 }
-let
+var
 telephony
 ;
-let
+var
 conference
 ;
 const
@@ -77,7 +77,7 @@ debugging
 enabled
 "
 ;
-let
+var
 emulator
 =
 (

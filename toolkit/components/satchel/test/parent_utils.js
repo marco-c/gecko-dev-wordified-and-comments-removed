@@ -70,7 +70,7 @@ jsm
 "
 )
 ;
-let
+var
 gAutocompletePopup
 =
 Services
@@ -100,7 +100,7 @@ popup
 "
 )
 ;
-let
+var
 ParentUtils
 =
 {

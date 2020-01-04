@@ -1,4 +1,4 @@
-let
+var
 mDBConn
 =
 DBConn
@@ -125,7 +125,7 @@ deferred
 promise
 ;
 }
-let
+var
 promiseInit
 ;
 function

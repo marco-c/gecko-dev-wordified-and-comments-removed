@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 {
 Toolbox
 }
@@ -19,7 +19,7 @@ toolbox
 "
 )
 ;
-let
+var
 toolbox
 toolIDs
 idIndex

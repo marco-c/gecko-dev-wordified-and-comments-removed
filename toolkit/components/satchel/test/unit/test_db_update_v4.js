@@ -3,7 +3,7 @@ testnum
 =
 0
 ;
-let
+var
 iter
 ;
 function

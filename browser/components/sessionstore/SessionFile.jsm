@@ -439,14 +439,14 @@ freeze
 SessionFile
 )
 ;
-let
+var
 Path
 =
 OS
 .
 Path
 ;
-let
+var
 profileDir
 =
 OS
@@ -457,7 +457,7 @@ Path
 .
 profileDir
 ;
-let
+var
 SessionFileInternal
 =
 {

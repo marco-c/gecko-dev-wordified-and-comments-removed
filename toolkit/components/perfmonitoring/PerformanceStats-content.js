@@ -116,7 +116,7 @@ jsm
 "
 )
 ;
-let
+var
 gMonitor
 =
 PerformanceStats
@@ -127,7 +127,7 @@ getMonitor
 ]
 )
 ;
-let
+var
 isContent
 =
 Services

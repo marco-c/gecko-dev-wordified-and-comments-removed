@@ -32,7 +32,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 EventManager
 ignoreEvent
@@ -40,7 +40,7 @@ ignoreEvent
 =
 ExtensionUtils
 ;
-let
+var
 alarmsMap
 =
 new
@@ -48,7 +48,7 @@ WeakMap
 (
 )
 ;
-let
+var
 alarmCallbacksMap
 =
 new

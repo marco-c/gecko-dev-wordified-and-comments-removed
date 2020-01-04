@@ -5,7 +5,7 @@ Components
 .
 utils
 ;
-let
+var
 {
 require
 }
@@ -33,7 +33,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 TargetFactory
 }
@@ -49,7 +49,7 @@ target
 "
 )
 ;
-let
+var
 {
 console
 }
@@ -77,7 +77,7 @@ jsm
 }
 )
 ;
-let
+var
 promise
 =
 require
@@ -87,7 +87,7 @@ promise
 "
 )
 ;
-let
+var
 {
 getInplaceEditorForSpan
 :
@@ -107,7 +107,7 @@ editor
 "
 )
 ;
-let
+var
 clipboard
 =
 require
@@ -119,7 +119,7 @@ clipboard
 "
 )
 ;
-let
+var
 {
 setTimeout
 clearTimeout
@@ -134,7 +134,7 @@ timers
 "
 )
 ;
-let
+var
 {
 promiseInvoke
 }
@@ -150,7 +150,7 @@ utils
 "
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -1220,7 +1220,7 @@ return
 updated
 ;
 }
-let
+var
 selectNode
 =
 Task
@@ -1314,7 +1314,7 @@ nodeFront
 )
 ;
 }
-let
+var
 getContainerForSelector
 =
 Task
@@ -1440,7 +1440,7 @@ def
 promise
 ;
 }
-let
+var
 clickContainer
 =
 Task
@@ -1681,7 +1681,7 @@ panelWin
 )
 ;
 }
-let
+var
 addNewAttributes
 =
 Task
@@ -1794,7 +1794,7 @@ nodeMutated
 }
 )
 ;
-let
+var
 assertAttributes
 =
 Task
@@ -2382,7 +2382,7 @@ deferred
 promise
 ;
 }
-let
+var
 isEditingMenuDisabled
 =
 Task
@@ -2584,7 +2584,7 @@ isPasteHTMLMenuDisabled
 }
 )
 ;
-let
+var
 isEditingMenuEnabled
 =
 Task
@@ -2792,7 +2792,7 @@ isPasteHTMLMenuDisabled
 }
 )
 ;
-let
+var
 reopenMenu
 =
 Task

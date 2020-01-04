@@ -83,11 +83,11 @@ limits
 html
 "
 ;
-let
+var
 hud
 outputNode
 ;
-let
+var
 test
 =
 asyncTest
@@ -661,7 +661,7 @@ exception
 )
 ;
 }
-let
+var
 gCounter
 gImage
 ;

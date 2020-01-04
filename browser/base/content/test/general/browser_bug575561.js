@@ -116,7 +116,7 @@ false
 }
 )
 ;
-let
+var
 waitForPageLoad
 =
 Task
@@ -160,7 +160,7 @@ tab
 }
 )
 ;
-let
+var
 waitForTabOpen
 =
 Task
@@ -226,7 +226,7 @@ removeCurrentTab
 }
 )
 ;
-let
+var
 testLink
 =
 Task

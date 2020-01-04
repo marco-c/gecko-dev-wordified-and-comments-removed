@@ -38,7 +38,7 @@ window
 script
 >
 ;
-let
+var
 test
 =
 asyncTest

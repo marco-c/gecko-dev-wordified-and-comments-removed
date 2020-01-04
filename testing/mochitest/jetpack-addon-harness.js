@@ -191,7 +191,7 @@ testInit
 }
 )
 ;
-let
+var
 sdkpath
 =
 null
@@ -704,7 +704,7 @@ false
 )
 ;
 }
-let
+var
 testAddon
 =
 Task

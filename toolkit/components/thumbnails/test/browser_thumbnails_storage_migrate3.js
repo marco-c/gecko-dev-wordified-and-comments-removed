@@ -53,7 +53,7 @@ pagethumbnails
 storage_version
 "
 ;
-let
+var
 tmp
 =
 {
@@ -101,7 +101,7 @@ jsm
 tmp
 )
 ;
-let
+var
 {
 PageThumbsStorageMigrator
 }

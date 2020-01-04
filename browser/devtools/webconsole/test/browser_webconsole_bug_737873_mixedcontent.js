@@ -83,7 +83,7 @@ Security
 MixedContent
 "
 ;
-let
+var
 test
 =
 asyncTest
@@ -178,7 +178,7 @@ block_active_content
 }
 )
 ;
-let
+var
 testMixedContent
 =
 Task

@@ -943,7 +943,7 @@ null
 }
 }
 ;
-let
+var
 clusterlib
 =
 {

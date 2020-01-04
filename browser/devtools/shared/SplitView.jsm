@@ -26,7 +26,7 @@ width
 )
 "
 ;
-let
+var
 bindings
 =
 new

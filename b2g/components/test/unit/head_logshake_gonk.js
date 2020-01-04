@@ -88,7 +88,7 @@ nsIVolumeService
 "
 )
 ;
-let
+var
 sdcard
 ;
 function

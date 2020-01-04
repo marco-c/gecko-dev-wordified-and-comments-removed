@@ -420,7 +420,7 @@ _window
 }
 }
 ;
-let
+var
 PromiseHelpers
 ;
 function

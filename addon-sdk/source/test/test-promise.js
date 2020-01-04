@@ -89,7 +89,7 @@ promise
 js
 '
 ;
-let
+var
 {
 Promise
 defer

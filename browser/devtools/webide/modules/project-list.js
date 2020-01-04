@@ -178,7 +178,7 @@ properties
 "
 )
 ;
-let
+var
 ProjectList
 ;
 module

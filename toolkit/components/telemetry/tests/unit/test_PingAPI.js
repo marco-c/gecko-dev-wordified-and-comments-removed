@@ -252,7 +252,7 @@ getArchiveQuota
 aArchiveQuota
 ;
 }
-let
+var
 getArchivedPingsInfo
 =
 Task

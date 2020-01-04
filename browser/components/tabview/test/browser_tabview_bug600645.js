@@ -25,7 +25,7 @@ Ci
 nsIFaviconService
 )
 ;
-let
+var
 newTab
 ;
 function

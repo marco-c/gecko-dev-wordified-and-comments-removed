@@ -32,7 +32,7 @@ collapseInspector
 "
 )
 ;
-let
+var
 InspectorView
 =
 {
@@ -526,6 +526,7 @@ hidden
 "
 )
 ;
+yield
 this
 .
 _buildToolbar
@@ -582,7 +583,12 @@ hideImmediately
 }
 _buildToolbar
 :
+Task
+.
+async
+(
 function
+*
 (
 )
 {
@@ -605,6 +611,7 @@ bypassable
 let
 bypassed
 =
+yield
 node
 .
 isBypassed
@@ -689,6 +696,7 @@ true
 ;
 }
 }
+)
 _onNodeSelect
 :
 function

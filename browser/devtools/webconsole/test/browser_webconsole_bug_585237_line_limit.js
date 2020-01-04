@@ -22,10 +22,10 @@ bug
 585237
 "
 ;
-let
+var
 outputNode
 ;
-let
+var
 test
 =
 asyncTest

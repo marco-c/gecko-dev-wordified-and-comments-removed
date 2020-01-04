@@ -21,7 +21,7 @@ Cr
 =
 Components
 ;
-let
+var
 {
 Services
 }
@@ -47,7 +47,7 @@ jsm
 }
 )
 ;
-let
+var
 gEnableLogging
 =
 Services
@@ -81,7 +81,7 @@ log
 false
 )
 ;
-let
+var
 {
 generateUUID
 }
@@ -108,7 +108,7 @@ Ci
 nsIUUIDGenerator
 )
 ;
-let
+var
 {
 Task
 }
@@ -134,7 +134,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 gDevTools
 }
@@ -161,7 +161,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 require
 }
@@ -189,7 +189,7 @@ jsm
 }
 )
 ;
-let
+var
 promise
 =
 require
@@ -199,7 +199,7 @@ promise
 "
 )
 ;
-let
+var
 {
 DebuggerClient
 }
@@ -217,7 +217,7 @@ main
 "
 )
 ;
-let
+var
 {
 DebuggerServer
 }
@@ -233,7 +233,7 @@ main
 "
 )
 ;
-let
+var
 {
 CallWatcherFront
 }
@@ -253,7 +253,7 @@ watcher
 "
 )
 ;
-let
+var
 {
 CanvasFront
 }
@@ -271,7 +271,7 @@ canvas
 "
 )
 ;
-let
+var
 {
 setTimeout
 }
@@ -285,7 +285,7 @@ timers
 "
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -299,7 +299,7 @@ DevToolsUtils
 "
 )
 ;
-let
+var
 TiltGL
 =
 require
@@ -315,7 +315,7 @@ gl
 "
 )
 ;
-let
+var
 {
 TargetFactory
 }
@@ -331,7 +331,7 @@ target
 "
 )
 ;
-let
+var
 {
 Toolbox
 }
@@ -347,7 +347,7 @@ toolbox
 "
 )
 ;
-let
+var
 mm
 =
 null
@@ -540,7 +540,7 @@ waitForExplicitFinish
 (
 )
 ;
-let
+var
 gToolEnabled
 =
 Services
@@ -933,7 +933,7 @@ finish
 )
 ;
 }
-let
+var
 gRequiresWebGL
 =
 false

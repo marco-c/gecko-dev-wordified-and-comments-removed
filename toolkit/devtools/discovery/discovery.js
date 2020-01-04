@@ -281,7 +281,7 @@ libcutils
 }
 )
 ;
-let
+var
 logging
 =
 Services
@@ -2477,7 +2477,7 @@ remoteDevice
 }
 }
 ;
-let
+var
 discovery
 =
 new

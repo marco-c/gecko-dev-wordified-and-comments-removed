@@ -332,7 +332,7 @@ xpcom
 shutdown
 "
 ;
-let
+var
 DEBUG
 ;
 function

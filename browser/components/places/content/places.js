@@ -6478,7 +6478,7 @@ sortConst
 ;
 }
 }
-let
+var
 ContentArea
 =
 {
@@ -7043,7 +7043,7 @@ focus
 }
 }
 ;
-let
+var
 ContentTree
 =
 {

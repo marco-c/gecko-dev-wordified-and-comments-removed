@@ -87,7 +87,7 @@ path
 "
 )
 ;
-let
+var
 appConstants
 ;
 try

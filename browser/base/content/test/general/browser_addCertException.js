@@ -46,7 +46,7 @@ com
 )
 ;
 }
-let
+var
 certErrorProgressListener
 =
 {
@@ -167,7 +167,7 @@ exceptionDialog
 xul
 "
 ;
-let
+var
 certExceptionDialogObserver
 =
 {
@@ -273,7 +273,7 @@ click
 }
 }
 ;
-let
+var
 successfulLoadListener
 =
 {

@@ -31,7 +31,7 @@ for
 notifications
 "
 ;
-let
+var
 test
 =
 asyncTest

@@ -831,7 +831,7 @@ getApplicationLocale
 )
 ;
 }
-let
+var
 gTests
 =
 [

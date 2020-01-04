@@ -57,7 +57,7 @@ jsm
 "
 )
 ;
-let
+var
 hs
 =
 Cc
@@ -86,7 +86,7 @@ Ci
 nsINavHistoryService
 )
 ;
-let
+var
 bs
 =
 Cc
@@ -115,7 +115,7 @@ Ci
 nsINavBookmarksService
 )
 ;
-let
+var
 os
 =
 Cc
@@ -140,7 +140,7 @@ Ci
 nsIObserverService
 )
 ;
-let
+var
 ps
 =
 Cc

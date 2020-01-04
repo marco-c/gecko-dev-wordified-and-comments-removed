@@ -89,7 +89,7 @@ return
 dir
 ;
 }
-let
+var
 CrashObserver
 =
 {
@@ -553,7 +553,7 @@ GetIsAppTab
 )
 ;
 }
-let
+var
 restart
 =
 Task

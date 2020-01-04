@@ -1430,7 +1430,7 @@ resolve
 )
 ;
 }
-let
+var
 forceExpiration
 =
 Task
@@ -2055,7 +2055,7 @@ url
 )
 ;
 }
-let
+var
 gDataUrl
 ;
 function
@@ -2137,7 +2137,7 @@ return
 httpServer
 ;
 }
-let
+var
 addTestEngines
 =
 Task

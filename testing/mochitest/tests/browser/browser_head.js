@@ -1,4 +1,4 @@
-let
+var
 testVar
 ;
 registerCleanupFunction

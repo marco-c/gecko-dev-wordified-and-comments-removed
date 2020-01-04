@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 {
 Ci
 Cu
@@ -109,7 +109,7 @@ jsm
 }
 )
 ;
-let
+var
 XMLHttpRequest
 =
 CC
@@ -127,7 +127,7 @@ xmlhttprequest
 "
 )
 ;
-let
+var
 strings
 =
 Services

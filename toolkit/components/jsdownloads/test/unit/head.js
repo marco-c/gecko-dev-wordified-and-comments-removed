@@ -590,7 +590,7 @@ run_next_test
 )
 ;
 }
-let
+var
 gHttpServer
 ;
 function
@@ -622,7 +622,7 @@ primaryPort
 aFileName
 ;
 }
-let
+var
 gFileCounter
 =
 Math
@@ -2245,7 +2245,7 @@ return
 serverSocket
 ;
 }
-let
+var
 _gDeferResponses
 =
 Promise
@@ -2428,7 +2428,7 @@ getTime
 )
 ;
 }
-let
+var
 gMostRecentFirstBytePos
 ;
 add_task

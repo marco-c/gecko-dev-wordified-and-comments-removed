@@ -318,7 +318,7 @@ consoleMsg
 )
 ;
 }
-let
+var
 gOnceInitializedDeferred
 =
 (

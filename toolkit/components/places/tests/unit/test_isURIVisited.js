@@ -146,7 +146,7 @@ TRANSITION_REDIRECT_TEMPORARY
 TRANSITION_DOWNLOAD
 ]
 ;
-let
+var
 gRunner
 ;
 function

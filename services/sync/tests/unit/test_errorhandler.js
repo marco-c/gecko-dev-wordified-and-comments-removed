@@ -194,7 +194,7 @@ jsm
 "
 )
 ;
-let
+var
 fakeServer
 =
 new
@@ -235,7 +235,7 @@ resolve
 }
 )
 ;
-let
+var
 fakeServerUrl
 =
 "
@@ -412,7 +412,7 @@ exception
 }
 }
 ;
-let
+var
 engineManager
 =
 Service
@@ -426,7 +426,7 @@ register
 CatapultEngine
 )
 ;
-let
+var
 errorHandler
 =
 Service

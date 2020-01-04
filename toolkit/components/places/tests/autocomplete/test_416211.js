@@ -1,11 +1,11 @@
-let
+var
 theTag
 =
 "
 superTag
 "
 ;
-let
+var
 kURIs
 =
 [
@@ -19,7 +19,7 @@ theuri
 "
 ]
 ;
-let
+var
 kTitles
 =
 [
@@ -44,7 +44,7 @@ addPageBook
 ]
 )
 ;
-let
+var
 gTests
 =
 [

@@ -109,7 +109,7 @@ KEY_CODE_ENTER
 =
 13
 ;
-let
+var
 handlers
 =
 {

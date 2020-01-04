@@ -102,7 +102,7 @@ KEY_APPDIR
 ]
 )
 ;
-let
+var
 oldAddon
 =
 {
@@ -120,7 +120,7 @@ version
 :
 1
 }
-let
+var
 newAddon
 =
 {
@@ -138,7 +138,7 @@ version
 :
 1
 }
-let
+var
 ancientAddon
 =
 {
@@ -156,7 +156,7 @@ version
 :
 1
 }
-let
+var
 invalidAddon
 =
 {

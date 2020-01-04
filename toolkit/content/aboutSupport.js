@@ -238,7 +238,7 @@ stack
 false
 )
 ;
-let
+var
 snapshotFormatters
 =
 {
@@ -2763,7 +2763,7 @@ key
 endif
 }
 ;
-let
+var
 =
 document
 .

@@ -1,4 +1,4 @@
-let
+var
 tmpScope
 =
 {
@@ -24,7 +24,7 @@ jsm
 tmpScope
 )
 ;
-let
+var
 TelemetryStopwatch
 =
 tmpScope
@@ -45,7 +45,7 @@ HIST_NAME2
 RANGE_CHECKSUM_ERRORS
 "
 ;
-let
+var
 refObj
 =
 {
@@ -55,7 +55,7 @@ refObj2
 {
 }
 ;
-let
+var
 originalCount1
 originalCount2
 ;

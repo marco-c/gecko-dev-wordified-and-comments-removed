@@ -698,7 +698,7 @@ gLastMemoryPoll
 =
 null
 ;
-let
+var
 gWasDebuggerAttached
 =
 false
@@ -1185,7 +1185,7 @@ return
 ;
 }
 }
-let
+var
 Policy
 =
 {
@@ -1478,7 +1478,7 @@ tzOffset
 )
 ;
 }
-let
+var
 processInfo
 =
 {
@@ -2184,7 +2184,7 @@ _popAndPerformQueuedOperation
 }
 }
 ;
-let
+var
 TelemetryScheduler
 =
 {
@@ -3547,7 +3547,7 @@ aData
 }
 )
 ;
-let
+var
 Impl
 =
 {

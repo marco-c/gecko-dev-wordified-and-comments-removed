@@ -62,7 +62,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 EventManager
 DefaultWeakMap
@@ -72,7 +72,7 @@ runSafe
 =
 ExtensionUtils
 ;
-let
+var
 browserActionMap
 =
 new
@@ -132,7 +132,7 @@ _
 )
 ;
 }
-let
+var
 nextActionId
 =
 0

@@ -375,7 +375,7 @@ kMessageAlertNotificationSend
 kMessageAlertNotificationClose
 ]
 ;
-let
+var
 AlertsHelper
 =
 {

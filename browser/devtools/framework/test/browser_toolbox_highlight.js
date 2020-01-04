@@ -1,4 +1,4 @@
-let
+var
 {
 Toolbox
 }
@@ -14,7 +14,7 @@ toolbox
 "
 )
 ;
-let
+var
 toolbox
 =
 null

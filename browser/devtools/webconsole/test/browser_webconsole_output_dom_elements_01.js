@@ -59,7 +59,7 @@ elements
 html
 "
 ;
-let
+var
 inputTests
 =
 [

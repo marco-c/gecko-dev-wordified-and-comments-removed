@@ -177,7 +177,7 @@ HeapSnapshotFileUtils
 "
 )
 ;
-let
+var
 Memory
 =
 exports

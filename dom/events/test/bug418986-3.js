@@ -4,7 +4,7 @@ waitForExplicitFinish
 (
 )
 ;
-let
+var
 test
 =
 function

@@ -119,7 +119,7 @@ D
 }
 )
 ;
-let
+var
 localeNumberFormatCache
 =
 new
@@ -229,7 +229,7 @@ downloads
 properties
 "
 ;
-let
+var
 gStr
 =
 {
@@ -403,7 +403,7 @@ kCachedLastMaxSize
 =
 10
 ;
-let
+var
 gCachedLast
 =
 [

@@ -14,7 +14,7 @@ simple
 html
 "
 ;
-let
+var
 tempScope
 =
 {
@@ -42,7 +42,7 @@ jsm
 tempScope
 )
 ;
-let
+var
 FileUtils
 =
 tempScope

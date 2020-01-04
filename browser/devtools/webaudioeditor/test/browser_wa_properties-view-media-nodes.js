@@ -1,4 +1,4 @@
-let
+var
 MEDIA_PERMISSION
 =
 "

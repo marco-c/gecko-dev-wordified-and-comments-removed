@@ -110,7 +110,7 @@ jsm
 "
 )
 ;
-let
+var
 registrar
 =
 Cm
@@ -122,13 +122,13 @@ Ci
 nsIComponentRegistrar
 )
 ;
-let
+var
 classID
 ;
-let
+var
 oldFactory
 ;
-let
+var
 newFactory
 =
 function

@@ -1,9 +1,9 @@
-let
+var
 time
 =
 1
 ;
-let
+var
 gThread
 =
 synthesizeProfileForTest

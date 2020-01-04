@@ -39,7 +39,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 EventManager
 ignoreEvent

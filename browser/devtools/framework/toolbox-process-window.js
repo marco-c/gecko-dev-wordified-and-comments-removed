@@ -18,7 +18,7 @@ Cu
 =
 Components
 ;
-let
+var
 {
 gDevTools
 }
@@ -45,7 +45,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 require
 }
@@ -73,7 +73,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 TargetFactory
 }
@@ -89,7 +89,7 @@ target
 "
 )
 ;
-let
+var
 {
 Toolbox
 }
@@ -105,7 +105,7 @@ toolbox
 "
 )
 ;
-let
+var
 {
 Services
 }
@@ -131,7 +131,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 DebuggerClient
 }
@@ -149,7 +149,7 @@ main
 "
 )
 ;
-let
+var
 {
 ViewHelpers
 }
@@ -176,7 +176,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Task
 }
@@ -202,7 +202,7 @@ jsm
 }
 )
 ;
-let
+var
 Prefs
 =
 new
@@ -247,11 +247,11 @@ port
 }
 )
 ;
-let
+var
 gToolbox
 gClient
 ;
-let
+var
 connect
 =
 Task

@@ -79,7 +79,7 @@ Cr
 =
 Components
 ;
-let
+var
 {
 NetUtil
 }
@@ -105,7 +105,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 FileUtils
 }
@@ -131,7 +131,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Services
 }
@@ -157,7 +157,7 @@ jsm
 }
 )
 ;
-let
+var
 gCertDB
 =
 Cc
@@ -720,7 +720,7 @@ n
 n
 "
 ;
-let
+var
 gStaticPins
 =
 parseJson
@@ -731,7 +731,7 @@ arguments
 ]
 )
 ;
-let
+var
 gTestCertFile
 =
 arguments
@@ -739,7 +739,7 @@ arguments
 1
 ]
 ;
-let
+var
 file
 =
 Cc
@@ -774,7 +774,7 @@ arguments
 ]
 )
 ;
-let
+var
 gFileOutputStream
 =
 FileUtils
@@ -3931,7 +3931,7 @@ return
 constructedCerts
 ;
 }
-let
+var
 extraCertificates
 =
 loadExtraCertificates
@@ -3941,7 +3941,7 @@ gStaticPins
 extra_certificates
 )
 ;
-let
+var
 [
 certNameToSKD
 certSKDToName
@@ -3953,7 +3953,7 @@ gTestCertFile
 extraCertificates
 )
 ;
-let
+var
 [
 chromeNameToHash
 chromeNameToMozName
@@ -3969,7 +3969,7 @@ cert_file_url
 certSKDToName
 )
 ;
-let
+var
 [
 chromeImportedPinsets
 chromeImportedEntries

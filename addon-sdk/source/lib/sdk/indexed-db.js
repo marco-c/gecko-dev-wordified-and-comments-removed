@@ -44,7 +44,7 @@ self
 "
 )
 ;
-let
+var
 sanitizeId
 =
 function
@@ -180,7 +180,7 @@ sanitizeId
 (
 id
 )
-let
+var
 principaluri
 =
 Cc
@@ -214,7 +214,7 @@ null
 null
 )
 ;
-let
+var
 ssm
 =
 Cc
@@ -237,7 +237,7 @@ Ci
 nsIScriptSecurityManager
 )
 ;
-let
+var
 principal
 =
 ssm

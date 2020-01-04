@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 {
 components
 Cc
@@ -18,7 +18,7 @@ chrome
 "
 )
 ;
-let
+var
 Services
 =
 require
@@ -246,7 +246,7 @@ logic
 CssLogic
 )
 ;
-let
+var
 TRANSITION_CLASS
 =
 "
@@ -257,17 +257,17 @@ styleeditor
 transitioning
 "
 ;
-let
+var
 TRANSITION_DURATION_MS
 =
 500
 ;
-let
+var
 TRANSITION_BUFFER_MS
 =
 1000
 ;
-let
+var
 TRANSITION_RULE_SELECTOR
 =
 "
@@ -290,7 +290,7 @@ root
 *
 "
 ;
-let
+var
 TRANSITION_RULE
 =
 TRANSITION_RULE_SELECTOR
@@ -346,7 +346,7 @@ important
 }
 "
 ;
-let
+var
 LOAD_ERROR
 =
 "
@@ -373,7 +373,7 @@ originalsource
 "
 )
 ;
-let
+var
 StyleSheetsActor
 =
 exports
@@ -1128,7 +1128,7 @@ stylesheet
 }
 )
 ;
-let
+var
 StyleSheetsFront
 =
 protocol
@@ -1178,7 +1178,7 @@ this
 }
 )
 ;
-let
+var
 MediaRuleActor
 =
 protocol
@@ -1528,7 +1528,7 @@ matches
 }
 )
 ;
-let
+var
 MediaRuleFront
 =
 protocol
@@ -1744,7 +1744,7 @@ parentStyleSheet
 }
 )
 ;
-let
+var
 StyleSheetActor
 =
 protocol
@@ -4100,7 +4100,7 @@ ruleCount
 }
 )
 ;
-let
+var
 OriginalSourceActor
 =
 protocol
@@ -4367,7 +4367,7 @@ longstring
 )
 }
 )
-let
+var
 OriginalSourceFront
 =
 protocol

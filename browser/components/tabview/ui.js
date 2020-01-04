@@ -1,4 +1,4 @@
-let
+var
 Keys
 =
 {
@@ -7,7 +7,7 @@ meta
 false
 }
 ;
-let
+var
 UI
 =
 {

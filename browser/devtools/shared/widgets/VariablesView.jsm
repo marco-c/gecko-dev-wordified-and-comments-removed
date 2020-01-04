@@ -15002,7 +15002,7 @@ other
 }
 }
 ;
-let
+var
 generateId
 =
 (

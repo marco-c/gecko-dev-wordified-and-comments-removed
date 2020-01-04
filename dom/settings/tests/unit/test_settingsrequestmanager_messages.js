@@ -70,7 +70,7 @@ nsIMessageSender
 "
 )
 ;
-let
+var
 principal
 =
 Services
@@ -81,7 +81,7 @@ getSystemPrincipal
 (
 )
 ;
-let
+var
 lockID
 =
 "

@@ -63,7 +63,7 @@ BrowserUtils
 jsm
 "
 )
-let
+var
 gImportedPrefBranches
 =
 new

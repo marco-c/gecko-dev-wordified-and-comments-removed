@@ -7,7 +7,7 @@ gThreadClient
 var
 gSource
 ;
-let
+var
 gTab
 gPanel
 gClient

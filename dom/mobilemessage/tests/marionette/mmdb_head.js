@@ -4,7 +4,7 @@ MARIONETTE_CONTEXT
 chrome
 "
 ;
-let
+var
 Promise
 =
 Cu
@@ -28,7 +28,7 @@ jsm
 .
 Promise
 ;
-let
+var
 MMDB
 ;
 function
@@ -943,7 +943,7 @@ createThreadCursor
 )
 ;
 }
-let
+var
 _uuidGenerator
 ;
 function

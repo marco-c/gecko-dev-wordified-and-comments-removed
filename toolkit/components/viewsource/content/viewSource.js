@@ -2387,7 +2387,7 @@ webProgress
 }
 }
 ;
-let
+var
 viewSourceChrome
 =
 new
@@ -2395,7 +2395,7 @@ ViewSourceChrome
 (
 )
 ;
-let
+var
 PrintPreviewListener
 =
 {

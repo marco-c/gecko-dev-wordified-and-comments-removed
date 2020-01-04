@@ -1,4 +1,4 @@
-let
+var
 TabUtils
 =
 {
@@ -1041,7 +1041,7 @@ return
 }
 }
 ;
-let
+var
 TabHandlers
 =
 {
@@ -1482,7 +1482,7 @@ perform
 }
 }
 ;
-let
+var
 Search
 =
 {

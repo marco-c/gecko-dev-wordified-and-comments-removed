@@ -3,12 +3,12 @@ use
 strict
 "
 ;
-let
+var
 openUILinkInCalled
 =
 false
 ;
-let
+var
 expectOpenUILinkInCall
 =
 false

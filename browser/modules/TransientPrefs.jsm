@@ -34,7 +34,7 @@ jsm
 "
 )
 ;
-let
+var
 prefVisibility
 =
 new

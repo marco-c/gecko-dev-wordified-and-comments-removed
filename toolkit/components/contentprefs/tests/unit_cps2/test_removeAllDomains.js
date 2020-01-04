@@ -9,7 +9,7 @@ tests
 )
 ;
 }
-let
+var
 tests
 =
 [

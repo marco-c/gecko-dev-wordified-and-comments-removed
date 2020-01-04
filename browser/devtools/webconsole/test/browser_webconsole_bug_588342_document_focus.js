@@ -26,7 +26,7 @@ bug
 588342
 "
 ;
-let
+var
 fm
 =
 Cc
@@ -51,7 +51,7 @@ Ci
 nsIFocusManager
 )
 ;
-let
+var
 test
 =
 asyncTest

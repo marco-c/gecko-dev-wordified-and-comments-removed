@@ -1,4 +1,4 @@
-let
+var
 {
 XPCOMUtils
 }
@@ -24,7 +24,7 @@ jsm
 }
 )
 ;
-let
+var
 id
 =
 "
@@ -36,21 +36,21 @@ mozilla
 org
 "
 ;
-let
+var
 appName
 =
 "
 XPCShell
 "
 ;
-let
+var
 version
 =
 "
 1
 "
 ;
-let
+var
 platformVersion
 =
 "
@@ -61,7 +61,7 @@ platformVersion
 2
 "
 ;
-let
+var
 appInfo
 =
 {
@@ -171,7 +171,7 @@ nsISupports
 )
 }
 ;
-let
+var
 XULAppInfoFactory
 =
 {
@@ -215,7 +215,7 @@ iid
 }
 }
 ;
-let
+var
 registrar
 =
 Components
@@ -280,14 +280,14 @@ XULAPPINFO_CONTRACTID
 XULAppInfoFactory
 )
 ;
-let
+var
 profile
 =
 do_get_profile
 (
 )
 ;
-let
+var
 revocations
 =
 profile
@@ -345,7 +345,7 @@ txt
 )
 ;
 }
-let
+var
 certDB
 =
 Cc
@@ -370,7 +370,7 @@ Ci
 nsIX509CertDB
 )
 ;
-let
+var
 testserver
 =
 new
@@ -378,7 +378,7 @@ HttpServer
 (
 )
 ;
-let
+var
 blocklist_contents
 =
 "
@@ -708,7 +708,7 @@ start
 1
 )
 ;
-let
+var
 port
 =
 testserver
@@ -717,7 +717,7 @@ identity
 .
 primaryPort
 ;
-let
+var
 addonManager
 =
 Cc
@@ -762,7 +762,7 @@ startup
 null
 )
 ;
-let
+var
 converter
 =
 Cc

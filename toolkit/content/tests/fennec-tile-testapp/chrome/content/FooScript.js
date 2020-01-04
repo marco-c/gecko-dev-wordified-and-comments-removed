@@ -1,4 +1,4 @@
-let
+var
 noop
 =
 function
@@ -15,7 +15,7 @@ updateViewportSize
 noop
 }
 ;
-let
+var
 ws
 =
 {
@@ -30,19 +30,19 @@ endUpdateBatch
 noop
 }
 ;
-let
+var
 Ci
 =
 Components
 .
 interfaces
 ;
-let
+var
 bv
 =
 null
 ;
-let
+var
 endl
 =
 "

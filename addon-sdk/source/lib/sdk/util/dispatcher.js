@@ -29,7 +29,7 @@ core
 "
 )
 ;
-let
+var
 dispatcher
 =
 hint

@@ -234,7 +234,7 @@ wpa_passphrase
 }
 ]
 ;
-let
+var
 gTestSuite
 =
 (

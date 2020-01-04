@@ -29,7 +29,7 @@ TelemetryStopwatch
 "
 ]
 ;
-let
+var
 Telemetry
 =
 Cc
@@ -54,13 +54,13 @@ Ci
 nsITelemetry
 )
 ;
-let
+var
 simpleTimers
 =
 {
 }
 ;
-let
+var
 objectTimers
 =
 new

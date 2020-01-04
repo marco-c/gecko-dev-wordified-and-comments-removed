@@ -168,7 +168,7 @@ jsm
 "
 )
 ;
-let
+var
 gStrings
 =
 Services
@@ -298,7 +298,7 @@ ex
 )
 ;
 }
-let
+var
 contextMenu
 =
 {
@@ -1282,7 +1282,7 @@ path
 }
 }
 ;
-let
+var
 downloadLists
 =
 {

@@ -134,7 +134,7 @@ a406
 "
 )
 ;
-let
+var
 DEBUG
 =
 false

@@ -496,7 +496,7 @@ nsINavBookmarkObserver
 )
 }
 ;
-let
+var
 components
 =
 [

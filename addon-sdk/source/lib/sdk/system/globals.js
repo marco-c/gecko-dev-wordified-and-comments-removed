@@ -17,7 +17,7 @@ unstable
 "
 }
 ;
-let
+var
 {
 Cc
 Ci
@@ -31,7 +31,7 @@ chrome
 '
 )
 ;
-let
+var
 {
 PlainTextConsole
 }
@@ -50,7 +50,7 @@ text
 '
 )
 ;
-let
+var
 {
 stdout
 }
@@ -65,7 +65,7 @@ system
 '
 )
 ;
-let
+var
 ScriptError
 =
 CC
@@ -84,7 +84,7 @@ nsIScriptError
 '
 )
 ;
-let
+var
 consoleService
 =
 Cc

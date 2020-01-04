@@ -85,7 +85,7 @@ hotfix
 id
 "
 ;
-let
+var
 gMenuButton
 =
 null

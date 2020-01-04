@@ -66,7 +66,7 @@ jsm
 "
 )
 ;
-let
+var
 Scope
 =
 Object
@@ -92,7 +92,7 @@ global
 }
 )
 ;
-let
+var
 SharedPreferences
 =
 {

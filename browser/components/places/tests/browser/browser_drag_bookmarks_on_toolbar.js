@@ -1249,7 +1249,7 @@ finish
 }
 }
 }
-let
+var
 toolbar
 =
 document
@@ -1261,7 +1261,7 @@ PersonalToolbar
 "
 )
 ;
-let
+var
 wasCollapsed
 =
 toolbar

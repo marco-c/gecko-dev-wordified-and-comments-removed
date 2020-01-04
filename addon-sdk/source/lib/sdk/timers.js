@@ -145,7 +145,7 @@ Ci
 nsIPrefBranch
 )
 ;
-let
+var
 MIN_DELAY
 =
 4
@@ -169,7 +169,7 @@ min_timeout_value
 finally
 {
 }
-let
+var
 lastID
 =
 0
@@ -304,7 +304,7 @@ cancel
 )
 ;
 }
-let
+var
 immediates
 =
 new
@@ -312,7 +312,7 @@ Map
 (
 )
 ;
-let
+var
 dispatcher
 =
 _

@@ -89,7 +89,7 @@ iframe
 >
 "
 ;
-let
+var
 TEST_DATA
 =
 [

@@ -1,4 +1,4 @@
-let
+var
 SocialService
 =
 Cu
@@ -51,7 +51,7 @@ clear
 )
 ;
 }
-let
+var
 createdWindows
 =
 [
@@ -238,7 +238,7 @@ cb
 )
 ;
 }
-let
+var
 manifest
 =
 {
@@ -342,7 +342,7 @@ png
 "
 }
 ;
-let
+var
 manifest2
 =
 {
@@ -476,7 +476,7 @@ postTestCleanup
 )
 ;
 }
-let
+var
 tests
 =
 {

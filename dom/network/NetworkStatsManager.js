@@ -108,7 +108,7 @@ jsm
 "
 )
 ;
-let
+var
 appInfo
 =
 Cc
@@ -128,7 +128,7 @@ info
 "
 ]
 ;
-let
+var
 isParentProcess
 =
 !

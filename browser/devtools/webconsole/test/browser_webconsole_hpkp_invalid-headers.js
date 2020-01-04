@@ -104,7 +104,7 @@ process_headers_from_
 non_builtin_roots
 "
 ;
-let
+var
 test
 =
 asyncTest

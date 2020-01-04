@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 {
 Toolbox
 }
@@ -19,7 +19,7 @@ toolbox
 "
 )
 ;
-let
+var
 {
 SIDE
 BOTTOM
@@ -30,7 +30,7 @@ Toolbox
 .
 HostType
 ;
-let
+var
 toolbox
 target
 ;

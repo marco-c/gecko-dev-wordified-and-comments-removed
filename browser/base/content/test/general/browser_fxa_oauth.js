@@ -129,7 +129,7 @@ browser_fxa_oauth_with_keys
 html
 "
 ;
-let
+var
 gTests
 =
 [

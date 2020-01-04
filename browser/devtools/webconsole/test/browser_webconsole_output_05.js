@@ -45,13 +45,13 @@ nsIPrefLocalizedString
 .
 data
 ;
-let
+var
 testDate
 =
 -
 310435200000
 ;
-let
+var
 inputTests
 =
 [

@@ -118,7 +118,7 @@ emitter
 "
 )
 ;
-let
+var
 ReflowActor
 =
 exports
@@ -619,7 +619,7 @@ null
 }
 }
 ;
-let
+var
 gIgnoreLayoutChanges
 =
 false
@@ -980,7 +980,7 @@ isInterruptible
 }
 )
 ;
-let
+var
 observedWindows
 =
 new

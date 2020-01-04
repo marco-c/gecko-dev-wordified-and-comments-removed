@@ -41,12 +41,12 @@ errors
 html
 "
 ;
-let
+var
 nodes
 hud
 StyleEditorUI
 ;
-let
+var
 test
 =
 asyncTest

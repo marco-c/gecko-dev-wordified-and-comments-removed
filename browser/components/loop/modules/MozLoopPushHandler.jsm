@@ -1226,7 +1226,7 @@ _pingFunc
 }
 }
 ;
-let
+var
 MozLoopPushHandler
 =
 {

@@ -298,12 +298,12 @@ e
 ;
 }
 }
-let
+var
 errorCount
 =
 0
 ;
-let
+var
 listener
 =
 {
@@ -478,7 +478,7 @@ n
 }
 }
 ;
-let
+var
 consoleService
 =
 Cc
@@ -1201,7 +1201,7 @@ close
 ;
 }
 }
-let
+var
 socket_transport
 =
 Task
@@ -1359,7 +1359,7 @@ connectPipe
 )
 ;
 }
-let
+var
 gReallyLong
 ;
 function

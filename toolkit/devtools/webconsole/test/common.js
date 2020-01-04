@@ -110,7 +110,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 require
 }
@@ -138,7 +138,7 @@ jsm
 }
 )
 ;
-let
+var
 WebConsoleUtils
 =
 require
@@ -156,7 +156,7 @@ utils
 .
 Utils
 ;
-let
+var
 ConsoleAPIStorage
 =
 Cc
@@ -181,7 +181,7 @@ Ci
 nsIConsoleAPIStorage
 )
 ;
-let
+var
 {
 DebuggerServer
 }
@@ -197,7 +197,7 @@ main
 "
 )
 ;
-let
+var
 {
 DebuggerClient
 ObjectClient
@@ -216,7 +216,7 @@ main
 "
 )
 ;
-let
+var
 {
 ConsoleServiceListener
 ConsoleAPIListener

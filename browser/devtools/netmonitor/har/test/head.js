@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 {
 Services
 }
@@ -29,7 +29,7 @@ jsm
 }
 )
 ;
-let
+var
 netMonitorHead
 =
 "

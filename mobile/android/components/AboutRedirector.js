@@ -57,7 +57,7 @@ jsm
 "
 )
 ;
-let
+var
 modules
 =
 {

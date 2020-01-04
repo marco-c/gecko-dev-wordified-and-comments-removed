@@ -21,7 +21,7 @@ Cr
 =
 Components
 ;
-let
+var
 {
 Services
 }
@@ -47,7 +47,7 @@ jsm
 }
 )
 ;
-let
+var
 gEnableLogging
 =
 Services
@@ -81,7 +81,7 @@ log
 false
 )
 ;
-let
+var
 {
 Task
 }
@@ -107,7 +107,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 gDevTools
 }
@@ -134,7 +134,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 require
 }
@@ -162,7 +162,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 TargetFactory
 }
@@ -178,7 +178,7 @@ target
 "
 )
 ;
-let
+var
 {
 DebuggerServer
 }
@@ -194,7 +194,7 @@ main
 "
 )
 ;
-let
+var
 {
 generateUUID
 }
@@ -221,7 +221,7 @@ Ci
 nsIUUIDGenerator
 )
 ;
-let
+var
 Promise
 =
 require
@@ -231,7 +231,7 @@ promise
 "
 )
 ;
-let
+var
 {
 WebAudioFront
 }
@@ -249,7 +249,7 @@ webaudio
 "
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -263,7 +263,7 @@ DevToolsUtils
 "
 )
 ;
-let
+var
 audioNodes
 =
 require
@@ -283,7 +283,7 @@ json
 "
 )
 ;
-let
+var
 mm
 =
 null
@@ -475,7 +475,7 @@ waitForExplicitFinish
 (
 )
 ;
-let
+var
 gToolEnabled
 =
 Services

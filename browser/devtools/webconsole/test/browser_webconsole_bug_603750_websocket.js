@@ -69,7 +69,7 @@ Socket
 errors
 "
 ;
-let
+var
 test
 =
 asyncTest

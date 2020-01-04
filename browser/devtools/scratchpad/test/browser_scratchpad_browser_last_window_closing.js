@@ -217,7 +217,7 @@ finish
 )
 ;
 }
-let
+var
 CloseObserver
 =
 {

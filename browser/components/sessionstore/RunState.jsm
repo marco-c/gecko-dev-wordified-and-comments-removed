@@ -65,7 +65,7 @@ STATE_CLOSED
 =
 4
 ;
-let
+var
 state
 =
 STATE_STOPPED

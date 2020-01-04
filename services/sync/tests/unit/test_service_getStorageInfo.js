@@ -97,7 +97,7 @@ js
 "
 )
 ;
-let
+var
 collections
 =
 {

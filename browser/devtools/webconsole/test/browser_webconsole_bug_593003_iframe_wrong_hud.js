@@ -120,7 +120,7 @@ console
 html
 "
 ;
-let
+var
 tab1
 tab2
 ;

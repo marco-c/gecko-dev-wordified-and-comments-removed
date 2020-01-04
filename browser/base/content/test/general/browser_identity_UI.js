@@ -343,7 +343,7 @@ effectiveHost
 "
 }
 ]
-let
+var
 gCurrentTest
 gCurrentTestIndex
 =
@@ -351,12 +351,12 @@ gCurrentTestIndex
 1
 gTestDesc
 ;
-let
+var
 gForward
 =
 true
 ;
-let
+var
 gCheckETLD
 =
 false

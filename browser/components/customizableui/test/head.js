@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 tmp
 =
 {
@@ -48,7 +48,7 @@ jsm
 tmp
 )
 ;
-let
+var
 {
 Promise
 CustomizableUI
@@ -56,7 +56,7 @@ CustomizableUI
 =
 tmp
 ;
-let
+var
 ChromeUtils
 =
 {
@@ -148,7 +148,7 @@ button
 "
 )
 ;
-let
+var
 {
 synthesizeDragStart
 synthesizeDrop
@@ -257,7 +257,7 @@ return
 btn
 ;
 }
-let
+var
 gAddedToolbars
 =
 new

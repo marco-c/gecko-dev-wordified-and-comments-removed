@@ -44,7 +44,7 @@ ui
 enabled
 "
 ;
-let
+var
 prefs
 =
 [

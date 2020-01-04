@@ -258,7 +258,7 @@ nsIStkCmdFactory
 "
 )
 ;
-let
+var
 DEBUG
 =
 RIL

@@ -3,7 +3,7 @@ EXPECTED_SCHEMA_VERSION
 =
 4
 ;
-let
+var
 dbfile
 ;
 function

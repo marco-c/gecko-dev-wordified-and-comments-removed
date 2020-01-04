@@ -54,12 +54,12 @@ promise
 "
 )
 ;
-let
+var
 AFTER_RUN
 =
 0
 ;
-let
+var
 BEFORE_RUN
 =
 0

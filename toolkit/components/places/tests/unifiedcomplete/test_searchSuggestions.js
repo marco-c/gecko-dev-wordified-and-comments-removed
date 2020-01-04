@@ -65,10 +65,10 @@ SUGGEST_RESTRICT_TOKEN
 "
 "
 ;
-let
+var
 suggestionsFn
 ;
-let
+var
 previousSuggestionsFn
 ;
 function

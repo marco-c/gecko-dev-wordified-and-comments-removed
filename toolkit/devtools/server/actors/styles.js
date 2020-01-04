@@ -666,7 +666,7 @@ string
 }
 )
 ;
-let
+var
 PageStyleActor
 =
 protocol
@@ -4100,7 +4100,7 @@ PageStyleActor
 =
 PageStyleActor
 ;
-let
+var
 PageStyleFront
 =
 protocol
@@ -4387,7 +4387,7 @@ _addNewRule
 }
 )
 ;
-let
+var
 StyleRuleActor
 =
 protocol
@@ -5743,7 +5743,7 @@ modifiedStylesReturn
 }
 )
 ;
-let
+var
 StyleRuleFront
 =
 protocol
@@ -6439,7 +6439,7 @@ _modifySelector
 }
 )
 ;
-let
+var
 RuleModificationList
 =
 Class

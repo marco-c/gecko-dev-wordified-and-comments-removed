@@ -411,7 +411,7 @@ WeakMap
 (
 )
 ;
-let
+var
 styleFor
 =
 (
@@ -426,7 +426,7 @@ get
 mod
 )
 ;
-let
+var
 modMatchesURI
 =
 (

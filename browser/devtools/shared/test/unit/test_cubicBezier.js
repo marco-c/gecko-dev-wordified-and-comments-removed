@@ -10,7 +10,7 @@ Components
 .
 utils
 ;
-let
+var
 {
 require
 }
@@ -38,7 +38,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 CubicBezier
 _parseTimingFunction

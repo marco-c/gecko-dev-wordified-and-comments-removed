@@ -2979,7 +2979,7 @@ length
 )
 ;
 }
-let
+var
 tests
 =
 [

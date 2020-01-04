@@ -113,7 +113,7 @@ PREF_UNIFIED_OPTIN
 false
 )
 ;
-let
+var
 healthReportWrapper
 =
 {

@@ -39,7 +39,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 EventManager
 ignoreEvent
@@ -150,7 +150,7 @@ tabId
 }
 }
 }
-let
+var
 pageDataMap
 =
 new

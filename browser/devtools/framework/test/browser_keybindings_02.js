@@ -20,7 +20,7 @@ test
 page
 "
 ;
-let
+var
 {
 Toolbox
 }

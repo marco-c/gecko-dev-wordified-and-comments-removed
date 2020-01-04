@@ -18,7 +18,7 @@ browser_css_color
 js
 "
 ;
-let
+var
 {
 colorUtils
 }
@@ -34,7 +34,7 @@ color
 "
 )
 ;
-let
+var
 origColorUnit
 ;
 add_task

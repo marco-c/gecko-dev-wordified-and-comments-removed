@@ -178,7 +178,7 @@ debugger
 svg
 "
 ;
-let
+var
 appManagerEditor
 ;
 function

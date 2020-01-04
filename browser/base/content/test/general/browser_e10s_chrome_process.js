@@ -608,7 +608,7 @@ true
 }
 )
 ;
-let
+var
 TESTS
 =
 [
@@ -686,7 +686,7 @@ true
 ]
 ]
 ;
-let
+var
 TRANSITIONS
 =
 [

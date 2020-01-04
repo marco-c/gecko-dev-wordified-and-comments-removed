@@ -122,7 +122,7 @@ TextDecoder
 }
 )
 ;
-let
+var
 SessionMigrationInternal
 =
 {
@@ -527,7 +527,7 @@ tmp
 ;
 }
 }
-let
+var
 SessionMigration
 =
 {

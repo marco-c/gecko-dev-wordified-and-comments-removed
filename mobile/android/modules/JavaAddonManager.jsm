@@ -218,7 +218,7 @@ return
 uri
 ;
 }
-let
+var
 JavaAddonManager
 =
 Object

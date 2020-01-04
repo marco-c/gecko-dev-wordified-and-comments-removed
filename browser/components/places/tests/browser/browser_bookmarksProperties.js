@@ -155,7 +155,7 @@ jsm
 "
 )
 ;
-let
+var
 win
 =
 RecentWindow

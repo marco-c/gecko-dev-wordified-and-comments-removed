@@ -183,7 +183,7 @@ Ci
 nsINavBookmarksService
 )
 ;
-let
+var
 TreeNode
 =
 Class

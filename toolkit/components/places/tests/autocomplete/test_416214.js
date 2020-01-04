@@ -1,11 +1,11 @@
-let
+var
 theTag
 =
 "
 superTag
 "
 ;
-let
+var
 kURIs
 =
 [
@@ -32,7 +32,7 @@ firefox3
 "
 ]
 ;
-let
+var
 kTitles
 =
 [
@@ -62,7 +62,7 @@ addPageBook
 ]
 )
 ;
-let
+var
 gTests
 =
 [

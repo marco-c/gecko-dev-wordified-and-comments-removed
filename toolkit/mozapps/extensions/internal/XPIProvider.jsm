@@ -1793,7 +1793,7 @@ addons
 xpi
 "
 ;
-let
+var
 logger
 =
 Log
@@ -5869,7 +5869,7 @@ true
 )
 ;
 }
-let
+var
 loadManifestFromDir
 =
 Task
@@ -6260,7 +6260,7 @@ close
 }
 )
 ;
-let
+var
 loadManifestFromZipReader
 =
 Task
@@ -6578,7 +6578,7 @@ close
 }
 )
 ;
-let
+var
 loadManifestFromZipFile
 =
 Task
@@ -34864,7 +34864,7 @@ endif
 }
 )
 ;
-let
+var
 addonTypes
 =
 [

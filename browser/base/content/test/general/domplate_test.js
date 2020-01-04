@@ -1,10 +1,10 @@
-let
+var
 doc
 ;
-let
+var
 div
 ;
-let
+var
 plate
 ;
 Components

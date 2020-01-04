@@ -152,7 +152,7 @@ unknown
 "
 }
 ;
-let
+var
 AnimationPlayerActor
 =
 ActorClass
@@ -1464,7 +1464,7 @@ response
 }
 )
 ;
-let
+var
 AnimationPlayerFront
 =
 FrontClass
@@ -2026,7 +2026,7 @@ animationplayer
 }
 )
 ;
-let
+var
 AnimationsActor
 =
 exports
@@ -3299,7 +3299,7 @@ response
 }
 )
 ;
-let
+var
 AnimationsFront
 =
 exports

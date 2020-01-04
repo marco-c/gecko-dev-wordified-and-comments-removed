@@ -669,7 +669,7 @@ stringID
 )
 ;
 }
-let
+var
 mockPushHandler
 =
 {

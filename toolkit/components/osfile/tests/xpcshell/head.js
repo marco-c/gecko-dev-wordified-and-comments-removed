@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 {
 utils
 :
@@ -15,7 +15,7 @@ Ci
 =
 Components
 ;
-let
+var
 {
 XPCOMUtils
 }
@@ -133,7 +133,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 Promise
 }
@@ -159,7 +159,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 Task
 }

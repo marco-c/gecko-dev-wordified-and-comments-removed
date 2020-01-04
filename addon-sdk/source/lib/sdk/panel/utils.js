@@ -2087,7 +2087,7 @@ style
 =
 style
 ;
-let
+var
 getContentFrame
 =
 panel

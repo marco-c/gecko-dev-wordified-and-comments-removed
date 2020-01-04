@@ -33,10 +33,10 @@ dummy
 pdf
 "
 ;
-let
+var
 gLibrary
 ;
-let
+var
 testCases
 =
 [

@@ -183,7 +183,7 @@ complete
 "
 ]
 ;
-let
+var
 CrashMonitorInternal
 =
 {

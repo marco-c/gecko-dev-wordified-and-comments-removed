@@ -447,10 +447,10 @@ weight
 DEFAULT_WEIGHT
 ;
 }
-let
+var
 HomeBannerMessageHandlers
 ;
-let
+var
 HomeBanner
 =
 (
@@ -1001,10 +1001,10 @@ Dismiss
 (
 )
 ;
-let
+var
 HomePanelsMessageHandlers
 ;
-let
+var
 HomePanels
 =
 (

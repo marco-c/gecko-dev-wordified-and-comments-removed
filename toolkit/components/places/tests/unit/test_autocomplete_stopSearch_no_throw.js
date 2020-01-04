@@ -1,4 +1,4 @@
-let
+var
 hs
 =
 Cc
@@ -27,7 +27,7 @@ Ci
 nsINavHistoryService
 )
 ;
-let
+var
 ac
 =
 Cc
@@ -90,7 +90,7 @@ anything
 ;
 }
 }
-let
+var
 tests
 =
 [

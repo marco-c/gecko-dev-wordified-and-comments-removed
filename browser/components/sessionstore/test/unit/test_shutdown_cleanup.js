@@ -176,7 +176,7 @@ com
 #
 "
 ;
-let
+var
 XULAppInfo
 =
 {
@@ -259,7 +259,7 @@ nsIXULRuntime
 )
 }
 ;
-let
+var
 XULAppInfoFactory
 =
 {
@@ -294,7 +294,7 @@ iid
 }
 }
 ;
-let
+var
 registrar
 =
 Components

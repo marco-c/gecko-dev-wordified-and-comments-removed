@@ -120,7 +120,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 SingletonEventManager
 ignoreEvent

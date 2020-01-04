@@ -1,4 +1,4 @@
-let
+var
 test_generator
 =
 do_run_test
@@ -80,12 +80,12 @@ test_generator
 )
 ;
 }
-let
+var
 gPurgeAge
 =
 1
 ;
-let
+var
 gShortExpiry
 =
 2

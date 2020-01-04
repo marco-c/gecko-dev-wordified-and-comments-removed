@@ -17,7 +17,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 AllPossiblePermissions
 }
@@ -43,7 +43,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 AppsUtils
 }
@@ -69,7 +69,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 DOMApplicationRegistry
 }

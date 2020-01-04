@@ -1,4 +1,4 @@
-let
+var
 tmp
 =
 {
@@ -28,7 +28,7 @@ jsm
 tmp
 )
 ;
-let
+var
 AddonRepository
 =
 tmp

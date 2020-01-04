@@ -2,7 +2,7 @@ MARIONETTE_TIMEOUT
 =
 10000
 ;
-let
+var
 battery
 =
 window
@@ -11,14 +11,14 @@ navigator
 .
 battery
 ;
-let
+var
 fromStatus
 =
 "
 discharging
 "
 ;
-let
+var
 fromCharging
 =
 false

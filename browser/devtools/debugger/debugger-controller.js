@@ -829,7 +829,7 @@ true
 }
 )
 ;
-let
+var
 DebuggerController
 =
 {
@@ -8289,7 +8289,7 @@ values
 }
 )
 ;
-let
+var
 L10N
 =
 new
@@ -8300,7 +8300,7 @@ L10N
 DBG_STRINGS_URI
 )
 ;
-let
+var
 Prefs
 =
 new
@@ -8772,7 +8772,7 @@ n
 ;
 }
 }
-let
+var
 wantLogging
 =
 Services

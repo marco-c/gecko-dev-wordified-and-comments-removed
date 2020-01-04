@@ -1185,7 +1185,7 @@ false
 }
 )
 ;
-let
+var
 LoopContactsInternal
 =
 Object

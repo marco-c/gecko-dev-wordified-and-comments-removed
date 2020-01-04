@@ -101,7 +101,7 @@ js
 "
 )
 ;
-let
+var
 hmacErrorCount
 =
 0

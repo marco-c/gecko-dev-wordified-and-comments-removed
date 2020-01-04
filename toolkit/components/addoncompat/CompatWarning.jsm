@@ -154,7 +154,7 @@ url
 }
 ;
 }
-let
+var
 CompatWarning
 =
 {

@@ -1,4 +1,4 @@
-let
+var
 SocialService
 =
 Cu
@@ -92,7 +92,7 @@ jsm
 "
 )
 ;
-let
+var
 snippet
 =
 '
@@ -380,7 +380,7 @@ div
 >
 '
 ;
-let
+var
 snippet2
 =
 '
@@ -676,7 +676,7 @@ div
 >
 '
 ;
-let
+var
 gTests
 =
 [

@@ -341,7 +341,7 @@ xul
 "
 }
 ;
-let
+var
 CACHED_INFO
 =
 null

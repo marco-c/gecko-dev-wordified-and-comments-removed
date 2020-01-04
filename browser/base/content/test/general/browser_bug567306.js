@@ -10,7 +10,7 @@ classes
 =
 Components
 ;
-let
+var
 Clipboard
 =
 Cc
@@ -35,7 +35,7 @@ Ci
 nsIClipboard
 )
 ;
-let
+var
 HasFindClipboard
 =
 Clipboard

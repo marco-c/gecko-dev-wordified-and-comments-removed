@@ -92,7 +92,7 @@ jsm
 "
 )
 ;
-let
+var
 LoginManagerContextMenu
 =
 {

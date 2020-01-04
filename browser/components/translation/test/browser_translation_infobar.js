@@ -1,4 +1,4 @@
-let
+var
 tmp
 =
 {
@@ -25,7 +25,7 @@ jsm
 tmp
 )
 ;
-let
+var
 {
 Translation
 }

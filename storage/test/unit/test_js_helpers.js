@@ -210,7 +210,7 @@ test_params_gets_async
 )
 {
 }
-let
+var
 tests
 =
 [

@@ -3,12 +3,12 @@ use
 strict
 "
 ;
-let
+var
 nodeDeleted
 =
 false
 ;
-let
+var
 presenter
 ;
 function

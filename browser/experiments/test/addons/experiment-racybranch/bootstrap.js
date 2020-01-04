@@ -1,4 +1,4 @@
-let
+var
 {
 classes
 :
@@ -33,7 +33,7 @@ jsm
 "
 )
 ;
-let
+var
 gStarted
 =
 false

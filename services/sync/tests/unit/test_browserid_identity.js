@@ -310,14 +310,14 @@ MINUTE_MS
 *
 60
 ;
-let
+var
 identityConfig
 =
 makeIdentityConfig
 (
 )
 ;
-let
+var
 browseridManager
 =
 new
@@ -331,7 +331,7 @@ browseridManager
 identityConfig
 )
 ;
-let
+var
 MockFxAccountsClient
 =
 function

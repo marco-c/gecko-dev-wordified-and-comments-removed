@@ -154,7 +154,7 @@ init
 "
 )
 ;
-let
+var
 Assert
 =
 null

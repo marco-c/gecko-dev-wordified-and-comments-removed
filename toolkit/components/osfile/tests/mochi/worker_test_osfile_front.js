@@ -26,7 +26,7 @@ js
 "
 )
 ;
-let
+var
 SharedAll
 =
 require

@@ -40,7 +40,7 @@ WeakMap
 (
 )
 ;
-let
+var
 ConnectionStore
 ;
 module

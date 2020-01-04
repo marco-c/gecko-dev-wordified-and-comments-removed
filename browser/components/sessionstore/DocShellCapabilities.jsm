@@ -59,7 +59,7 @@ disallow
 }
 )
 ;
-let
+var
 DocShellCapabilitiesInternal
 =
 {

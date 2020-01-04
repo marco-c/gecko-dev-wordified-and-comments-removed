@@ -916,7 +916,7 @@ scratchpadProps
 )
 )
 ;
-let
+var
 Tools
 =
 {
@@ -3244,7 +3244,7 @@ toolbox
 }
 }
 ;
-let
+var
 defaultTools
 =
 [

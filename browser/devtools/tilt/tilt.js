@@ -15,7 +15,7 @@ chrome
 "
 )
 ;
-let
+var
 {
 TiltVisualizer
 }
@@ -33,7 +33,7 @@ visualizer
 "
 )
 ;
-let
+var
 TiltGL
 =
 require
@@ -49,7 +49,7 @@ gl
 "
 )
 ;
-let
+var
 TiltUtils
 =
 require
@@ -65,7 +65,7 @@ utils
 "
 )
 ;
-let
+var
 EventEmitter
 =
 require
@@ -81,7 +81,7 @@ emitter
 "
 )
 ;
-let
+var
 Telemetry
 =
 require
@@ -201,7 +201,7 @@ removed
 "
 }
 ;
-let
+var
 TiltManager
 =
 {

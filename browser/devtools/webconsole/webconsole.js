@@ -435,7 +435,7 @@ webconsole
 properties
 "
 ;
-let
+var
 l10n
 =
 new

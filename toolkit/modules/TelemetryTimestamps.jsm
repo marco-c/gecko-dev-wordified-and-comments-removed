@@ -15,7 +15,7 @@ Components
 .
 utils
 ;
-let
+var
 timeStamps
 =
 {

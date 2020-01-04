@@ -1,4 +1,4 @@
-let
+var
 {
 CATEGORY_MASK
 }
@@ -378,7 +378,7 @@ view
 }
 )
 ;
-let
+var
 gThread
 =
 synthesizeProfileForTest

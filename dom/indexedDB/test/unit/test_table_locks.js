@@ -83,7 +83,7 @@ loopCount
 =
 100
 ;
-let
+var
 testGenerator
 =
 testSteps

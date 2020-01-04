@@ -1,4 +1,4 @@
-let
+var
 gTabRestrictChar
 =
 "
@@ -46,7 +46,7 @@ openpage
 }
 )
 ;
-let
+var
 kSearchParam
 =
 "
@@ -55,7 +55,7 @@ enable
 actions
 "
 ;
-let
+var
 kURIs
 =
 [
@@ -147,7 +147,7 @@ test
 "
 ]
 ;
-let
+var
 kTitles
 =
 [
@@ -252,7 +252,7 @@ gPages
 3
 ]
 ;
-let
+var
 gTests
 =
 [

@@ -11,13 +11,13 @@ stack
 html
 "
 ;
-let
+var
 gTab
 gDebuggee
 gPanel
 gDebugger
 ;
-let
+var
 gFrames
 gClassicFrames
 gFramesScrollingInterval

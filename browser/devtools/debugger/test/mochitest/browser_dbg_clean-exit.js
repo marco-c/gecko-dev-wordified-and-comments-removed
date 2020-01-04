@@ -1,4 +1,4 @@
-let
+var
 gTab
 gPanel
 gDebugger

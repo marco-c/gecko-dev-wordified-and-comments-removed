@@ -175,7 +175,7 @@ return
 default_
 ;
 }
-let
+var
 NotificationTracker
 =
 {
@@ -804,7 +804,7 @@ length
 }
 }
 ;
-let
+var
 ContentPolicyChild
 =
 {
@@ -1820,7 +1820,7 @@ nsIAboutModule
 )
 }
 ;
-let
+var
 AboutProtocolChild
 =
 {
@@ -2033,7 +2033,7 @@ contractID
 }
 }
 ;
-let
+var
 ObserverChild
 =
 {
@@ -2635,7 +2635,7 @@ nsISupportsWeakReference
 )
 }
 ;
-let
+var
 RemoteAddonsChild
 =
 {

@@ -3,7 +3,7 @@ use
 strict
 '
 ;
-let
+var
 {
 Test
 }
@@ -19,7 +19,7 @@ jsm
 '
 )
 ;
-let
+var
 {
 Test
 :
@@ -67,7 +67,7 @@ function
 (
 )
 {
-let
+var
 {
 Promise
 }
@@ -89,7 +89,7 @@ jsm
 '
 )
 ;
-let
+var
 {
 defer
 }
@@ -166,7 +166,7 @@ function
 (
 )
 {
-let
+var
 {
 Promise
 }
@@ -182,7 +182,7 @@ jsm
 '
 )
 ;
-let
+var
 {
 defer
 }
@@ -253,7 +253,7 @@ function
 (
 )
 {
-let
+var
 {
 defer
 }
@@ -281,7 +281,7 @@ js
 '
 )
 ;
-let
+var
 {
 defer
 :

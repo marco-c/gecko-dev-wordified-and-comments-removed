@@ -218,7 +218,7 @@ return
 default_
 ;
 }
-let
+var
 NotificationTracker
 =
 {
@@ -579,7 +579,7 @@ null
 ;
 }
 }
-let
+var
 ContentPolicyParent
 =
 {
@@ -916,7 +916,7 @@ init
 (
 )
 ;
-let
+var
 CategoryManagerInterposition
 =
 new
@@ -1078,7 +1078,7 @@ persist
 ;
 }
 ;
-let
+var
 AboutProtocolParent
 =
 {
@@ -1601,7 +1601,7 @@ init
 (
 )
 ;
-let
+var
 ComponentRegistrarInterposition
 =
 new
@@ -1757,7 +1757,7 @@ factory
 ;
 }
 ;
-let
+var
 ObserverParent
 =
 {
@@ -2017,7 +2017,7 @@ init
 (
 )
 ;
-let
+var
 TOPIC_WHITELIST
 =
 [
@@ -2069,7 +2069,7 @@ policy
 "
 ]
 ;
-let
+var
 ObserverInterposition
 =
 new
@@ -2201,7 +2201,7 @@ topic
 ;
 }
 ;
-let
+var
 EventTargetParent
 =
 {
@@ -3109,7 +3109,7 @@ init
 (
 )
 ;
-let
+var
 filteringListeners
 =
 new
@@ -3259,7 +3259,7 @@ return
 filter
 ;
 }
-let
+var
 EventTargetInterposition
 =
 new
@@ -3393,7 +3393,7 @@ useCapture
 ;
 }
 ;
-let
+var
 ContentDocShellTreeItemInterposition
 =
 new
@@ -3541,7 +3541,7 @@ nsIContentFrameMessageManager
 )
 ;
 }
-let
+var
 SandboxParent
 =
 {
@@ -3724,7 +3724,7 @@ rest
 }
 }
 ;
-let
+var
 ComponentsUtilsInterposition
 =
 new
@@ -4007,7 +4007,7 @@ rest
 }
 }
 ;
-let
+var
 ContentDocumentInterposition
 =
 new
@@ -4078,7 +4078,7 @@ deep
 ;
 }
 ;
-let
+var
 RemoteBrowserElementInterposition
 =
 new
@@ -4426,7 +4426,7 @@ target
 ;
 }
 ;
-let
+var
 TabBrowserElementInterposition
 =
 new
@@ -4564,7 +4564,7 @@ browser
 ;
 }
 ;
-let
+var
 progressListeners
 =
 {
@@ -4957,7 +4957,7 @@ listener
 ;
 }
 ;
-let
+var
 ChromeWindowInterposition
 =
 new
@@ -5047,7 +5047,7 @@ contentWindowAsCPOW
 ;
 }
 ;
-let
+var
 RemoteAddonsParent
 =
 {

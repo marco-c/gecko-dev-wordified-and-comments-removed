@@ -93,10 +93,10 @@ js
 "
 )
 ;
-let
+var
 logger
 ;
-let
+var
 fetched
 =
 false
@@ -363,7 +363,7 @@ length
 )
 ;
 }
-let
+var
 pacFetched
 =
 false
@@ -457,7 +457,7 @@ length
 )
 ;
 }
-let
+var
 sample_data
 =
 {
@@ -1154,7 +1154,7 @@ length
 )
 ;
 }
-let
+var
 quotaValue
 ;
 Observers
@@ -1635,7 +1635,7 @@ run_next_test
 }
 )
 ;
-let
+var
 server
 ;
 add_test

@@ -109,7 +109,7 @@ js
 "
 )
 ;
-let
+var
 PlacesQueries
 =
 function
@@ -185,7 +185,7 @@ queryString
 }
 }
 ;
-let
+var
 PlacesWrapper
 =
 function

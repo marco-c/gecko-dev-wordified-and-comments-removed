@@ -887,7 +887,7 @@ screenshotnode
 }
 ]
 ;
-let
+var
 clipboard
 =
 require

@@ -41,7 +41,7 @@ Services
 "
 )
 ;
-let
+var
 {
 setTimeout
 clearTimeout
@@ -564,7 +564,7 @@ MonitorActor
 =
 MonitorActor
 ;
-let
+var
 USSAgent
 =
 {

@@ -1,4 +1,4 @@
-let
+var
 SocialService
 =
 Cu
@@ -43,7 +43,7 @@ blocklist
 xul
 "
 ;
-let
+var
 blocklistURL
 =
 "
@@ -72,7 +72,7 @@ blocklist
 xml
 "
 ;
-let
+var
 manifest
 =
 {
@@ -176,7 +176,7 @@ png
 "
 }
 ;
-let
+var
 manifest_bad
 =
 {

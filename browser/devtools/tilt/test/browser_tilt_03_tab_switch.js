@@ -3,12 +3,12 @@ use
 strict
 "
 ;
-let
+var
 tab0
 tab1
 tab2
 ;
-let
+var
 testStep
 =
 -
@@ -248,7 +248,7 @@ cleanup
 )
 ;
 }
-let
+var
 testSteps
 =
 [

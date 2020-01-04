@@ -64,7 +64,7 @@ exceptions
 html
 "
 ;
-let
+var
 test
 =
 asyncTest

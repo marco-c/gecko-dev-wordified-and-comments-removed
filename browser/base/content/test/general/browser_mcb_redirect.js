@@ -72,10 +72,10 @@ general
 /
 "
 ;
-let
+var
 origBlockActive
 ;
-let
+var
 origBlockDisplay
 ;
 var

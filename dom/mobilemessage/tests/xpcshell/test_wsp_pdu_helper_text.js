@@ -1,4 +1,4 @@
-let
+var
 WSP
 =
 {
@@ -464,7 +464,7 @@ run_next_test
 }
 )
 ;
-let
+var
 TOKEN_SEPS
 =
 "

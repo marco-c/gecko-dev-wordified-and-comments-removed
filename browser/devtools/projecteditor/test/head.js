@@ -203,10 +203,10 @@ helper_homepage
 html
 "
 ;
-let
+var
 TEMP_PATH
 ;
-let
+var
 TEMP_FOLDER_NAME
 =
 "

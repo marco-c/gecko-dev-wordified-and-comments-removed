@@ -1,7 +1,7 @@
-let
+var
 contentWindow
 ;
-let
+var
 contentElement
 ;
 function

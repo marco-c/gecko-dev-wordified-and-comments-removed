@@ -1,4 +1,4 @@
-let
+var
 prefBranch
 =
 Cc
@@ -35,7 +35,7 @@ Ci
 nsIPrefBranch2
 )
 ;
-let
+var
 supportsString
 =
 Cc

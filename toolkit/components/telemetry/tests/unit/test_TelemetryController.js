@@ -315,7 +315,7 @@ PREF_BRANCH
 optoutSample
 "
 ;
-let
+var
 gClientID
 =
 null

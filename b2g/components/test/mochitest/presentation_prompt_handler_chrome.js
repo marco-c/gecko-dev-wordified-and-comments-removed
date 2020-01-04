@@ -373,7 +373,7 @@ complete
 }
 )
 ;
-let
+var
 eventHandler
 =
 function

@@ -3821,7 +3821,7 @@ ALLOW_ACTION
 }
 }
 ;
-let
+var
 LightweightThemeListener
 =
 {

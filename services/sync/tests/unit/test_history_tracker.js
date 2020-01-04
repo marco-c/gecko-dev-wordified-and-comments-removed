@@ -216,7 +216,7 @@ register
 HistoryEngine
 )
 ;
-let
+var
 engine
 =
 Service
@@ -230,7 +230,7 @@ history
 "
 )
 ;
-let
+var
 tracker
 =
 engine
@@ -243,7 +243,7 @@ persistChangedIDs
 =
 false
 ;
-let
+var
 _counter
 =
 0

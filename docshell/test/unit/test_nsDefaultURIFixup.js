@@ -1,4 +1,4 @@
-let
+var
 urifixup
 =
 Cc
@@ -23,7 +23,7 @@ Ci
 nsIURIFixup
 )
 ;
-let
+var
 prefs
 =
 Cc
@@ -48,7 +48,7 @@ Ci
 nsIPrefBranch
 )
 ;
-let
+var
 pref
 =
 "
@@ -61,7 +61,7 @@ typo
 scheme
 "
 ;
-let
+var
 data
 =
 [
@@ -343,7 +343,7 @@ html
 }
 ]
 ;
-let
+var
 len
 =
 data

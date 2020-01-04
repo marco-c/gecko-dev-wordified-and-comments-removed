@@ -67,10 +67,10 @@ jsm
 "
 )
 ;
-let
+var
 cachedLeftPaneFolderIdGetter
 ;
-let
+var
 getter
 =
 PlacesUIUtils
@@ -1297,7 +1297,7 @@ hidingValue
 hidingAttribute
 ;
 }
-let
+var
 withBookmarksDialog
 =
 Task
@@ -1613,7 +1613,7 @@ cancelDialog
 }
 )
 ;
-let
+var
 openContextMenuForContentSelector
 =
 Task
@@ -1793,7 +1793,7 @@ popupNode
 }
 )
 ;
-let
+var
 waitForCondition
 =
 Task
@@ -2041,7 +2041,7 @@ blur
 )
 ;
 }
-let
+var
 withSidebarTree
 =
 Task

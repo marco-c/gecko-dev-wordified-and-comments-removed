@@ -508,7 +508,7 @@ finishUpdate
 )
 ;
 }
-let
+var
 BrowserApp
 =
 Services

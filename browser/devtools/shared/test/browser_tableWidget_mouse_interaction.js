@@ -250,7 +250,7 @@ promise
 "
 )
 ;
-let
+var
 doc
 table
 ;
@@ -422,7 +422,7 @@ finish
 )
 ;
 }
-let
+var
 startTests
 =
 Task
@@ -791,7 +791,7 @@ defaultView
 ;
 }
 }
-let
+var
 testMouseInteraction
 =
 Task

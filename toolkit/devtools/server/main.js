@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 {
 Ci
 Cc
@@ -19,7 +19,7 @@ chrome
 "
 )
 ;
-let
+var
 Services
 =
 require
@@ -29,7 +29,7 @@ Services
 "
 )
 ;
-let
+var
 {
 ActorPool
 OriginalLocation
@@ -50,7 +50,7 @@ common
 "
 )
 ;
-let
+var
 {
 LocalDebuggerTransport
 ChildDebuggerTransport
@@ -70,7 +70,7 @@ transport
 "
 )
 ;
-let
+var
 DevToolsUtils
 =
 require
@@ -84,7 +84,7 @@ DevToolsUtils
 "
 )
 ;
-let
+var
 {
 dumpn
 dumpv
@@ -93,7 +93,7 @@ dbg_assert
 =
 DevToolsUtils
 ;
-let
+var
 EventEmitter
 =
 require
@@ -109,7 +109,7 @@ emitter
 "
 )
 ;
-let
+var
 Debugger
 =
 require
@@ -119,7 +119,7 @@ Debugger
 "
 )
 ;
-let
+var
 Promise
 =
 require
@@ -523,7 +523,7 @@ core
 "
 )
 ;
-let
+var
 {
 defer
 resolve
@@ -5375,7 +5375,7 @@ OriginalLocation
 =
 OriginalLocation
 ;
-let
+var
 includes
 =
 [

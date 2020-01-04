@@ -1,4 +1,4 @@
-let
+var
 {
 FileUtils
 }
@@ -24,7 +24,7 @@ jsm
 }
 )
 ;
-let
+var
 {
 NetUtil
 }
@@ -50,7 +50,7 @@ jsm
 }
 )
 ;
-let
+var
 Pipe
 =
 CC
@@ -133,7 +133,7 @@ run_next_test
 )
 ;
 }
-let
+var
 test_bulk_send_error
 =
 Task

@@ -219,7 +219,7 @@ handler
 ;
 }
 ;
-let
+var
 ContentSender
 =
 function

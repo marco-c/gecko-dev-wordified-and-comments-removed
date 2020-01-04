@@ -21,7 +21,7 @@ Cr
 =
 Components
 ;
-let
+var
 WSP
 =
 {
@@ -47,7 +47,7 @@ jsm
 WSP
 )
 ;
-let
+var
 WBXML
 =
 {
@@ -73,7 +73,7 @@ jsm
 WBXML
 )
 ;
-let
+var
 DEBUG
 =
 WBXML

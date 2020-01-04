@@ -3,10 +3,10 @@ use
 strict
 "
 ;
-let
+var
 navbar
 ;
-let
+var
 skippedItem
 ;
 add_task

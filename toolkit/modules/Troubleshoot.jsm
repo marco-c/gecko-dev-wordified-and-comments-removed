@@ -80,7 +80,7 @@ jsm
 "
 )
 ;
-let
+var
 Experiments
 ;
 try
@@ -954,7 +954,7 @@ kMaxCrashAge
 1000
 }
 ;
-let
+var
 dataProviders
 =
 {

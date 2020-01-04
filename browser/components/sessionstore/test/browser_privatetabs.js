@@ -1,4 +1,4 @@
-let
+var
 Imports
 =
 {
@@ -25,7 +25,7 @@ jsm
 Imports
 )
 ;
-let
+var
 {
 SessionSaver
 }

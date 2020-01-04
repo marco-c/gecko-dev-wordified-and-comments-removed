@@ -93,10 +93,10 @@ js
 "
 )
 ;
-let
+var
 logger
 ;
-let
+var
 fetched
 =
 false
@@ -363,7 +363,7 @@ length
 )
 ;
 }
-let
+var
 pacFetched
 =
 false
@@ -447,7 +447,7 @@ length
 )
 ;
 }
-let
+var
 sample_data
 =
 {

@@ -79,7 +79,7 @@ jsm
 "
 )
 ;
-let
+var
 Frames
 =
 {
@@ -288,7 +288,7 @@ init
 (
 )
 ;
-let
+var
 Scripts
 =
 {
@@ -325,7 +325,7 @@ scripts
 }
 }
 ;
-let
+var
 Service
 =
 {

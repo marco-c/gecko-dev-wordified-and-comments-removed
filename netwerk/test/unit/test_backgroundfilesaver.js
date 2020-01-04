@@ -1036,7 +1036,7 @@ deferred
 promise
 ;
 }
-let
+var
 gStillRunning
 =
 true

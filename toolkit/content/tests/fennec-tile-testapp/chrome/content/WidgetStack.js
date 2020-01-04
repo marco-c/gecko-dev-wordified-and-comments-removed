@@ -255,7 +255,7 @@ arguments
 )
 ;
 }
-let
+var
 reportError
 =
 log

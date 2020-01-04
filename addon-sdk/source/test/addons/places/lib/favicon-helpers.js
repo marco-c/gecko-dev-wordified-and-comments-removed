@@ -461,7 +461,7 @@ serve
 =
 serve
 ;
-let
+var
 binFavicon
 =
 exports

@@ -2835,7 +2835,7 @@ nsIAutoCompleteSearch
 )
 }
 ;
-let
+var
 component
 =
 [

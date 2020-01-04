@@ -3,13 +3,13 @@ use
 strict
 "
 ;
-let
+var
 gTestTab
 ;
-let
+var
 gContentAPI
 ;
-let
+var
 gContentWindow
 ;
 requestLongerTimeout
@@ -27,7 +27,7 @@ UITourTest
 )
 ;
 }
-let
+var
 tests
 =
 [

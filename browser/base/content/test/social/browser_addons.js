@@ -1,4 +1,4 @@
-let
+var
 AddonManager
 =
 Cu
@@ -24,7 +24,7 @@ jsm
 .
 AddonManager
 ;
-let
+var
 SocialService
 =
 Cu
@@ -50,7 +50,7 @@ jsm
 .
 SocialService
 ;
-let
+var
 manifest
 =
 {
@@ -127,7 +127,7 @@ png
 "
 }
 ;
-let
+var
 manifest2
 =
 {
@@ -213,7 +213,7 @@ version
 1
 }
 ;
-let
+var
 manifestUpgrade
 =
 {

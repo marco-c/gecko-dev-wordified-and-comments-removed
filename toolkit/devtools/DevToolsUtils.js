@@ -2359,7 +2359,7 @@ promise
 ;
 }
 ;
-let
+var
 testing
 =
 false

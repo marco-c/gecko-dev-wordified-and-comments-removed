@@ -173,7 +173,7 @@ cbPostTest
 )
 ;
 }
-let
+var
 tests
 =
 {

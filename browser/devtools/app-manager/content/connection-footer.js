@@ -272,7 +272,7 @@ destroy
 }
 )
 ;
-let
+var
 UI
 =
 {

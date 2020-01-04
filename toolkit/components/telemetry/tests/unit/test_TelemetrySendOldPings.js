@@ -161,7 +161,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 OS
 :
@@ -297,17 +297,17 @@ healthreport
 uploadEnabled
 "
 ;
-let
+var
 gCreatedPings
 =
 0
 ;
-let
+var
 gSeenPings
 =
 0
 ;
-let
+var
 createSavedPings
 =
 Task
@@ -456,7 +456,7 @@ pingIds
 }
 )
 ;
-let
+var
 clearPings
 =
 Task
@@ -564,7 +564,7 @@ aExpectedNum
 )
 ;
 }
-let
+var
 assertNotSaved
 =
 Task
@@ -653,7 +653,7 @@ gSeenPings
 +
 ;
 }
-let
+var
 clearPendingPings
 =
 Task

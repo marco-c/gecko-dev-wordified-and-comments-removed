@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 Ci
 =
 Components
@@ -97,7 +97,7 @@ logo
 png
 "
 ;
-let
+var
 gStringBundle
 =
 Services

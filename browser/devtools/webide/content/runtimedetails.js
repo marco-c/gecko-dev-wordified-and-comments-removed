@@ -488,7 +488,7 @@ tr
 }
 ;
 }
-let
+var
 getDescriptionPromise
 ;
 function

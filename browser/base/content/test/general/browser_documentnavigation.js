@@ -1,4 +1,4 @@
-let
+var
 testPage1
 =
 "
@@ -47,7 +47,7 @@ html
 >
 "
 ;
-let
+var
 testPage2
 =
 "
@@ -96,7 +96,7 @@ html
 >
 "
 ;
-let
+var
 testPage3
 =
 "
@@ -150,7 +150,7 @@ html
 >
 "
 ;
-let
+var
 fm
 =
 Services

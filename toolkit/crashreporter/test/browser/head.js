@@ -54,7 +54,7 @@ return
 subdir
 ;
 }
-let
+var
 _provider
 =
 null

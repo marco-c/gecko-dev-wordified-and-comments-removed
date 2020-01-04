@@ -606,7 +606,7 @@ nsIObserver
 )
 }
 ;
-let
+var
 gComponentsArray
 =
 [

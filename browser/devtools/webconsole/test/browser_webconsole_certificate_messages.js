@@ -54,7 +54,7 @@ messages
 html
 "
 ;
-let
+var
 gWebconsoleTests
 =
 [
@@ -306,13 +306,13 @@ won
 t
 "
 ;
-let
+var
 gHud
 =
 undefined
 gContentBrowser
 ;
-let
+var
 gCurrentTest
 ;
 function

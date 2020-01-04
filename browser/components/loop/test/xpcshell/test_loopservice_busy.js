@@ -52,12 +52,12 @@ jsm
 "
 )
 ;
-let
+var
 actionReceived
 =
 false
 ;
-let
+var
 openChatOrig
 =
 Chat
@@ -74,7 +74,7 @@ secondCallId
 =
 1001100101
 ;
-let
+var
 msgHandler
 =
 function

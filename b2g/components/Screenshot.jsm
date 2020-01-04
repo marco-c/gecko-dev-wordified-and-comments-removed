@@ -70,7 +70,7 @@ Screenshot
 '
 ]
 ;
-let
+var
 Screenshot
 =
 {

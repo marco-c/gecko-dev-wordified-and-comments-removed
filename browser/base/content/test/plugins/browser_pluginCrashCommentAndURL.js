@@ -45,7 +45,7 @@ crashreport
 sjs
 "
 ;
-let
+var
 gTestRoot
 =
 getRootDirectory
@@ -83,12 +83,12 @@ http
 "
 )
 ;
-let
+var
 gTestBrowser
 =
 null
 ;
-let
+var
 config
 =
 {

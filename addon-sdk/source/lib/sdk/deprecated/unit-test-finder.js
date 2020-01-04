@@ -1024,7 +1024,7 @@ makeFilters
 =
 makeFilters
 ;
-let
+var
 loader
 =
 Loader

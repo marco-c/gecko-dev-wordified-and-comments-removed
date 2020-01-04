@@ -56,7 +56,7 @@ jsm
 "
 )
 ;
-let
+var
 gTimer
 =
 Cc
@@ -297,7 +297,7 @@ PENDING_VISIT_WAIT
 =
 4000
 ;
-let
+var
 gVisitURLs
 =
 [
@@ -346,7 +346,7 @@ spec
 ;
 }
 ;
-let
+var
 gBrowser
 ;
 add_test

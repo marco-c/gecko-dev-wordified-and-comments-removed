@@ -136,12 +136,12 @@ this
 )
 ;
 }
-let
+var
 _pendingEmulatorCmdCount
 =
 0
 ;
-let
+var
 _pendingEmulatorShellCmdCount
 =
 0
@@ -321,7 +321,7 @@ deferred
 promise
 ;
 }
-let
+var
 workingFrame
 ;
 function
@@ -650,7 +650,7 @@ aAllowError
 )
 ;
 }
-let
+var
 mobileConnection
 ;
 function
@@ -3201,7 +3201,7 @@ promises
 )
 ;
 }
-let
+var
 _networkManager
 ;
 function
@@ -3252,7 +3252,7 @@ return
 _networkManager
 ;
 }
-let
+var
 _numOfRadioInterfaces
 ;
 function

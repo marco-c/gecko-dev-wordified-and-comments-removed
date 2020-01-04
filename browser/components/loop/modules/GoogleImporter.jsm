@@ -154,7 +154,7 @@ GoogleImporter
 "
 ]
 ;
-let
+var
 log
 =
 Log
@@ -539,7 +539,7 @@ paramValue
 ;
 }
 ;
-let
+var
 gAuthWindow
 gProfileId
 ;

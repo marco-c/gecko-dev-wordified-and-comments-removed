@@ -112,7 +112,7 @@ OPEN_H264_ID
 EME_ADOBE_ID
 ]
 ;
-let
+var
 GMPPluginUnsupportedReason
 =
 {
@@ -124,7 +124,7 @@ WINDOWS_VERSION
 2
 }
 ;
-let
+var
 GMPPluginHiddenReason
 =
 {

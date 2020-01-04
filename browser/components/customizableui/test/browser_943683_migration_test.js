@@ -25,7 +25,7 @@ addonbar
 migration2
 "
 ;
-let
+var
 addonbar
 =
 document
@@ -37,7 +37,7 @@ CustomizableUI
 AREA_ADDONBAR
 )
 ;
-let
+var
 navbar
 =
 document
@@ -49,10 +49,10 @@ CustomizableUI
 AREA_NAVBAR
 )
 ;
-let
+var
 btn
 ;
-let
+var
 btn2
 ;
 add_task

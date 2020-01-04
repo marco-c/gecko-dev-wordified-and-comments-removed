@@ -306,7 +306,7 @@ replace
 "
 )
 ;
-let
+var
 preferencesBranch
 =
 (

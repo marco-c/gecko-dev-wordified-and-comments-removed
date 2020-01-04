@@ -1,4 +1,4 @@
-let
+var
 testURL
 =
 "
@@ -27,7 +27,7 @@ dummy_page
 html
 "
 ;
-let
+var
 testActionURL
 =
 "
@@ -58,7 +58,7 @@ trimValue
 testURL
 )
 ;
-let
+var
 testTab
 ;
 function
@@ -134,7 +134,7 @@ finish
 )
 ;
 }
-let
+var
 tests
 =
 [

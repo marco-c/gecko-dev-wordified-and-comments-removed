@@ -421,14 +421,14 @@ overflow
 popup
 "
 ;
-let
+var
 internal
 =
 ns
 (
 )
 ;
-let
+var
 lastContextProcessId
 =
 null
@@ -486,7 +486,7 @@ null
 ;
 }
 }
-let
+var
 Context
 =
 Class
@@ -537,7 +537,7 @@ state
 }
 )
 ;
-let
+var
 PageContext
 =
 Class
@@ -582,7 +582,7 @@ PageContext
 =
 PageContext
 ;
-let
+var
 SelectionContext
 =
 Class
@@ -627,7 +627,7 @@ SelectionContext
 =
 SelectionContext
 ;
-let
+var
 SelectorContext
 =
 Class
@@ -744,7 +744,7 @@ SelectorContext
 =
 SelectorContext
 ;
-let
+var
 URLContext
 =
 Class
@@ -913,7 +913,7 @@ URLContext
 =
 URLContext
 ;
-let
+var
 PredicateContext
 =
 Class
@@ -1082,7 +1082,7 @@ val
 :
 val
 ;
-let
+var
 baseItemRules
 =
 {
@@ -1260,7 +1260,7 @@ rules
 contentScriptFile
 }
 ;
-let
+var
 labelledItemRules
 =
 mix
@@ -1431,7 +1431,7 @@ failed
 }
 )
 ;
-let
+var
 itemRules
 =
 mix
@@ -1461,7 +1461,7 @@ null
 }
 )
 ;
-let
+var
 menuRules
 =
 mix
@@ -1858,7 +1858,7 @@ contentScriptFile
 }
 ;
 }
-let
+var
 BaseItem
 =
 Class
@@ -2381,7 +2381,7 @@ args
 )
 ;
 }
-let
+var
 LabelledItem
 =
 Class
@@ -2673,7 +2673,7 @@ val
 }
 )
 ;
-let
+var
 Item
 =
 Class
@@ -2793,7 +2793,7 @@ Item
 =
 Item
 ;
-let
+var
 ItemContainer
 =
 Class
@@ -3119,7 +3119,7 @@ item
 }
 )
 ;
-let
+var
 Menu
 =
 Class
@@ -3278,7 +3278,7 @@ Menu
 =
 Menu
 ;
-let
+var
 Separator
 =
 Class
@@ -3345,7 +3345,7 @@ Separator
 =
 Separator
 ;
-let
+var
 contentContextMenu
 =
 ItemContainer
@@ -3537,7 +3537,7 @@ sum
 )
 ;
 }
-let
+var
 MenuWrapper
 =
 Class
@@ -5594,7 +5594,7 @@ e
 }
 )
 ;
-let
+var
 WindowWrapper
 =
 Class
@@ -5719,7 +5719,7 @@ null
 }
 )
 ;
-let
+var
 MenuManager
 =
 {

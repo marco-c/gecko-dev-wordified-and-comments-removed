@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 gSidebarMenu
 =
 document
@@ -15,12 +15,12 @@ viewSidebarMenu
 "
 )
 ;
-let
+var
 gTestSidebarItem
 =
 null
 ;
-let
+var
 EVENTS
 =
 {
@@ -484,7 +484,7 @@ i
 ;
 }
 }
-let
+var
 showSidebarPopup
 =
 Task

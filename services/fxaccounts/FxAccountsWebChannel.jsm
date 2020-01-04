@@ -1279,7 +1279,7 @@ pressed
 }
 }
 ;
-let
+var
 singleton
 ;
 this

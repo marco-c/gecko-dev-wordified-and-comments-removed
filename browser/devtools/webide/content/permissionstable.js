@@ -462,7 +462,7 @@ tr
 ;
 }
 }
-let
+var
 getRawPermissionsTablePromise
 ;
 function

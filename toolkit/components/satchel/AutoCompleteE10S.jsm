@@ -91,7 +91,7 @@ jsm
 "
 )
 ;
-let
+var
 AutoCompleteE10SView
 =
 {

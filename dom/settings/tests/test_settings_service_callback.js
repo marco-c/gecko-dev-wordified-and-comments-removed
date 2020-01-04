@@ -90,7 +90,7 @@ nsISettingsService
 "
 )
 ;
-let
+var
 tests
 =
 [

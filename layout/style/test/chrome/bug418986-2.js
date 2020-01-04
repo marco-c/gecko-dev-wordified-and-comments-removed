@@ -1,4 +1,4 @@
-let
+var
 expected_values
 =
 [
@@ -282,7 +282,7 @@ portrait
 ]
 ]
 ;
-let
+var
 suppressed_toggles
 =
 [
@@ -392,7 +392,7 @@ glass
 "
 ]
 ;
-let
+var
 windows_versions
 =
 [
@@ -423,7 +423,7 @@ win10
 "
 ]
 ;
-let
+var
 windows_themes
 =
 [
@@ -461,7 +461,7 @@ zune
 "
 ]
 ;
-let
+var
 OS
 =
 SpecialPowers
@@ -498,7 +498,7 @@ classic
 )
 ;
 }
-let
+var
 keyValMatches
 =
 (
@@ -528,7 +528,7 @@ val
 .
 matches
 ;
-let
+var
 testMatch
 =
 function
@@ -641,7 +641,7 @@ val
 }
 }
 ;
-let
+var
 testToggles
 =
 function
@@ -714,7 +714,7 @@ exist
 ;
 }
 ;
-let
+var
 testWindowsSpecific
 =
 function
@@ -822,7 +822,7 @@ queryName
 }
 }
 ;
-let
+var
 generateHtmlLines
 =
 function
@@ -1032,7 +1032,7 @@ lines
 ;
 }
 ;
-let
+var
 cssLine
 =
 function
@@ -1083,7 +1083,7 @@ n
 ;
 }
 ;
-let
+var
 constructQuery
 =
 function
@@ -1158,7 +1158,7 @@ val
 ;
 }
 ;
-let
+var
 mediaQueryCSSLine
 =
 function
@@ -1199,7 +1199,7 @@ color
 ;
 }
 ;
-let
+var
 suppressedMediaQueryCSSLine
 =
 function
@@ -1246,7 +1246,7 @@ color
 ;
 }
 ;
-let
+var
 generateCSSLines
 =
 function
@@ -1554,7 +1554,7 @@ lines
 ;
 }
 ;
-let
+var
 green
 =
 (
@@ -1597,7 +1597,7 @@ backgroundColor
 (
 )
 ;
-let
+var
 testCSS
 =
 function
@@ -1699,7 +1699,7 @@ id
 }
 }
 ;
-let
+var
 testOSXFontSmoothing
 =
 function
@@ -1796,7 +1796,7 @@ smoothing
 ;
 }
 ;
-let
+var
 sleep
 =
 function
@@ -1826,7 +1826,7 @@ resolve
 ;
 }
 ;
-let
+var
 testMediaQueriesInPictureElements
 =
 function
@@ -2080,7 +2080,7 @@ match
 }
 }
 ;
-let
+var
 pushPref
 =
 function
@@ -2123,7 +2123,7 @@ resolve
 ;
 }
 ;
-let
+var
 test
 =
 function

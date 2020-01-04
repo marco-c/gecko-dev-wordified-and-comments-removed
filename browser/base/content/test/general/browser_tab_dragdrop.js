@@ -24,7 +24,7 @@ a
 )
 ;
 }
-let
+var
 getClicks
 =
 function
@@ -57,7 +57,7 @@ clicks
 )
 ;
 }
-let
+var
 clickTest
 =
 Task

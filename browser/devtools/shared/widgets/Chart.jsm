@@ -186,7 +186,7 @@ Chart
 "
 ]
 ;
-let
+var
 L10N
 =
 new
@@ -197,7 +197,7 @@ L10N
 NET_STRINGS_URI
 )
 ;
-let
+var
 Chart
 =
 {

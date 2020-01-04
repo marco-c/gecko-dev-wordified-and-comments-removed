@@ -14,7 +14,7 @@ doc_inspector_search
 html
 "
 ;
-let
+var
 TEST_DATA
 =
 [

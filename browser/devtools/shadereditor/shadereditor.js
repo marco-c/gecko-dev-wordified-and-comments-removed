@@ -364,7 +364,7 @@ showAnnotationRuler
 true
 }
 ;
-let
+var
 gToolbox
 gTarget
 gFront
@@ -429,7 +429,7 @@ destroy
 )
 ;
 }
-let
+var
 EventsHandler
 =
 {
@@ -983,7 +983,7 @@ programActor
 }
 }
 ;
-let
+var
 ShadersListView
 =
 Heritage
@@ -1781,7 +1781,7 @@ stopPropagation
 }
 )
 ;
-let
+var
 ShadersEditorsView
 =
 {
@@ -3025,7 +3025,7 @@ fs
 }
 }
 ;
-let
+var
 L10N
 =
 new
@@ -3043,7 +3043,7 @@ decorate
 this
 )
 ;
-let
+var
 =
 (
 selector

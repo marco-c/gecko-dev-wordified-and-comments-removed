@@ -40,7 +40,7 @@ jsm
 "
 )
 ;
-let
+var
 RIL
 =
 {
@@ -4188,7 +4188,7 @@ StkCommandMessage
 prototype
 )
 ;
-let
+var
 CmdPrototypes
 =
 {
@@ -4401,7 +4401,7 @@ STK_CMD_RECEIVE_DATA
 =
 StkTextMessageCmd
 ;
-let
+var
 MsgPrototypes
 =
 {
@@ -4614,7 +4614,7 @@ STK_CMD_RECEIVE_DATA
 =
 StkTextMessage
 ;
-let
+var
 QueriedIFs
 =
 {
@@ -6601,7 +6601,7 @@ StkEventMessage
 prototype
 )
 ;
-let
+var
 EventPrototypes
 =
 {
@@ -6679,7 +6679,7 @@ STK_EVENT_TYPE_BROWSER_TERMINATION
 =
 StkBrowserTerminationEvent
 ;
-let
+var
 EventMsgPrototypes
 =
 {
@@ -6757,7 +6757,7 @@ STK_EVENT_TYPE_BROWSER_TERMINATION
 =
 StkBrowserTerminationEventMessage
 ;
-let
+var
 QueriedEventIFs
 =
 {

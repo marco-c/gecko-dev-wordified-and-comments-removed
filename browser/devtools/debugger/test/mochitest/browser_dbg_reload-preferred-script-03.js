@@ -43,12 +43,12 @@ switching
 js
 "
 ;
-let
+var
 gTab
 gPanel
 gDebugger
 ;
-let
+var
 gSources
 ;
 function

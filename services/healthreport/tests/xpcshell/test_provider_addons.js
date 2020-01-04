@@ -60,7 +60,7 @@ jsm
 "
 )
 ;
-let
+var
 gGlobalScope
 =
 this

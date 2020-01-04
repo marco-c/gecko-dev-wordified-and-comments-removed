@@ -24,7 +24,7 @@ File
 ]
 )
 ;
-let
+var
 testFile
 =
 Cc

@@ -513,7 +513,7 @@ becauseNoSuchFile
 }
 }
 }
-let
+var
 test_flags
 =
 [

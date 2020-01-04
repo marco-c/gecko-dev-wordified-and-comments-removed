@@ -25,7 +25,7 @@ gOutCallStrPool
 outNumber
 )
 ;
-let
+var
 outCall
 ;
 function

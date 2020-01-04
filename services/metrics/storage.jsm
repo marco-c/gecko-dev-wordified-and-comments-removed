@@ -2973,7 +2973,7 @@ storage
 ;
 }
 ;
-let
+var
 shutdown
 =
 new

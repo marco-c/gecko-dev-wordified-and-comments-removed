@@ -1,13 +1,13 @@
-let
+var
 activeTab
 ;
-let
+var
 testTab
 ;
-let
+var
 testGroup
 ;
-let
+var
 contentWindow
 ;
 function

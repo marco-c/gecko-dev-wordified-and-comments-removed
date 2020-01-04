@@ -168,14 +168,14 @@ false
 true
 "
 ;
-let
+var
 DEBUG
 =
 NFC
 .
 DEBUG_CONTENT_HELPER
 ;
-let
+var
 debug
 ;
 function

@@ -637,7 +637,7 @@ nsINfcRequestCallback
 )
 }
 ;
-let
+var
 TagType
 =
 {
@@ -1782,7 +1782,7 @@ nsIDOMGlobalPropertyInitializer
 )
 }
 ;
-let
+var
 RFState
 =
 {

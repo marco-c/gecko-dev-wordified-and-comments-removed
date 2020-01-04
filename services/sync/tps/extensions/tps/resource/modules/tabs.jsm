@@ -41,7 +41,7 @@ js
 "
 )
 ;
-let
+var
 BrowserTabs
 =
 {

@@ -30,7 +30,7 @@ jsm
 }
 )
 ;
-let
+var
 importer
 =
 new

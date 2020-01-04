@@ -133,7 +133,7 @@ deferred
 promise
 ;
 }
-let
+var
 manager
 ;
 function
@@ -279,7 +279,7 @@ deferred
 promise
 ;
 }
-let
+var
 mobileConnection
 ;
 function
@@ -1199,7 +1199,7 @@ deleteMessages
 )
 ;
 }
-let
+var
 pendingEmulatorCmdCount
 =
 0

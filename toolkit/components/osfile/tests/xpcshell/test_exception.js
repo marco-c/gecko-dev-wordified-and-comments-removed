@@ -3,7 +3,7 @@ use
 strict
 "
 ;
-let
+var
 EXISTING_FILE
 =
 do_get_file

@@ -32,7 +32,7 @@ jsm
 "
 )
 ;
-let
+var
 promise
 =
 require
@@ -42,7 +42,7 @@ promise
 "
 )
 ;
-let
+var
 EventEmitter
 =
 require
@@ -58,7 +58,7 @@ emitter
 "
 )
 ;
-let
+var
 clipboard
 =
 require
@@ -70,7 +70,7 @@ clipboard
 "
 )
 ;
-let
+var
 {
 HostType
 }

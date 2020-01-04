@@ -249,7 +249,7 @@ jsm
 '
 )
 ;
-let
+var
 _telemetryDebug
 =
 true
@@ -291,7 +291,7 @@ args
 ;
 }
 }
-let
+var
 developerHUD
 =
 {
@@ -2013,7 +2013,7 @@ err
 }
 }
 ;
-let
+var
 consoleWatcher
 =
 {
@@ -3317,7 +3317,7 @@ registerWatcher
 consoleWatcher
 )
 ;
-let
+var
 eventLoopLagWatcher
 =
 {
@@ -3602,7 +3602,7 @@ registerWatcher
 eventLoopLagWatcher
 )
 ;
-let
+var
 performanceEntriesWatcher
 =
 {
@@ -4059,7 +4059,7 @@ registerWatcher
 performanceEntriesWatcher
 )
 ;
-let
+var
 memoryWatcher
 =
 {

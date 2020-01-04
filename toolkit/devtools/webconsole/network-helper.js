@@ -63,7 +63,7 @@ Map
 (
 )
 ;
-let
+var
 NetworkHelper
 =
 {

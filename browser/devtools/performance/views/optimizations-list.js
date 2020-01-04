@@ -66,7 +66,7 @@ PROPNAME_MAX_LENGTH
 =
 4
 ;
-let
+var
 OptimizationsListView
 =
 {

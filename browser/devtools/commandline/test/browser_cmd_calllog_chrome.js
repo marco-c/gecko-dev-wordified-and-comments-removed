@@ -20,7 +20,7 @@ calllog
 chrome
 "
 ;
-let
+var
 tests
 =
 {

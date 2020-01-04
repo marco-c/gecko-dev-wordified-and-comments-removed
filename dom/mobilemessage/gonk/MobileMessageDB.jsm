@@ -16648,7 +16648,7 @@ cursor
 }
 }
 ;
-let
+var
 FilterSearcherHelper
 =
 {

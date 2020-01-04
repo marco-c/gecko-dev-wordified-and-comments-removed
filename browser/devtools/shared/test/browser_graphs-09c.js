@@ -4,7 +4,7 @@ TEST_DATA
 [
 ]
 ;
-let
+var
 LineGraphWidget
 =
 require

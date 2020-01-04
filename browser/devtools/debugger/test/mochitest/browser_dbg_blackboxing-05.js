@@ -9,12 +9,12 @@ doc_binary_search
 html
 "
 ;
-let
+var
 gTab
 gPanel
 gDebugger
 ;
-let
+var
 gDeck
 ;
 function

@@ -46,7 +46,7 @@ n
 "
 )
 ;
-let
+var
 {
 classes
 :

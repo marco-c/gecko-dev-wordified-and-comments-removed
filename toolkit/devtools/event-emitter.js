@@ -197,7 +197,7 @@ promise
 "
 )
 ;
-let
+var
 loggingEnabled
 =
 true

@@ -14,7 +14,7 @@ createSandbox_sandbox
 js
 "
 ;
-let
+var
 prototype
 =
 {
@@ -23,7 +23,7 @@ self
 this
 }
 ;
-let
+var
 sandbox
 =
 createSandbox

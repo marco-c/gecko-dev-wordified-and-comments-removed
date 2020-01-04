@@ -52,7 +52,7 @@ js
 "
 )
 ;
-let
+var
 PromiseWorker
 =
 require
@@ -79,7 +79,7 @@ DEBUG
 =
 false
 ;
-let
+var
 worker
 =
 new
@@ -217,7 +217,7 @@ msg
 )
 )
 ;
-let
+var
 Agent
 =
 {

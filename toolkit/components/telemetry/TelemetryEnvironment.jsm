@@ -337,7 +337,7 @@ CHANGE_THROTTLE_INTERVAL_MS
 *
 1000
 ;
-let
+var
 Policy
 =
 {

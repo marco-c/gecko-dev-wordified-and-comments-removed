@@ -24,7 +24,7 @@ jsm
 "
 )
 ;
-let
+var
 {
 require
 }
@@ -54,7 +54,7 @@ jsm
 }
 )
 ;
-let
+var
 promise
 =
 require
@@ -181,7 +181,7 @@ Components
 .
 interfaces
 ;
-let
+var
 tempScope
 =
 {
@@ -231,14 +231,14 @@ jsm
 tempScope
 )
 ;
-let
+var
 FileUtils
 =
 tempScope
 .
 FileUtils
 ;
-let
+var
 NetUtil
 =
 tempScope

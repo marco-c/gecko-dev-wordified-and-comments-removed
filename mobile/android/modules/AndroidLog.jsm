@@ -76,7 +76,7 @@ MAX_TAG_LENGTH
 =
 18
 ;
-let
+var
 liblog
 =
 ctypes
@@ -90,7 +90,7 @@ so
 "
 )
 ;
-let
+var
 __android_log_write
 =
 liblog
@@ -121,7 +121,7 @@ char
 ptr
 )
 ;
-let
+var
 AndroidLog
 =
 {

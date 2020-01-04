@@ -97,7 +97,7 @@ jsm
 "
 )
 ;
-let
+var
 eventHandler
 =
 function

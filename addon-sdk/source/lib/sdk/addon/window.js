@@ -121,7 +121,7 @@ options
 "
 )
 ;
-let
+var
 addonPrincipal
 =
 Cc
@@ -144,7 +144,7 @@ Ci
 nsIPrincipal
 )
 ;
-let
+var
 hiddenWindow
 =
 getHiddenWindow
@@ -197,7 +197,7 @@ readyState
 )
 ;
 }
-let
+var
 frame
 =
 makeFrame
@@ -236,7 +236,7 @@ allowPlugins
 true
 }
 )
-let
+var
 docShell
 =
 getDocShell
@@ -244,7 +244,7 @@ getDocShell
 frame
 )
 ;
-let
+var
 eventTarget
 =
 docShell
@@ -258,7 +258,7 @@ createAboutBlankContentViewer
 addonPrincipal
 )
 ;
-let
+var
 window
 =
 docShell
@@ -297,7 +297,7 @@ window
 >
 "
 ;
-let
+var
 {
 promise
 resolve

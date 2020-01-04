@@ -21,7 +21,7 @@ Cr
 =
 Components
 ;
-let
+var
 imports
 =
 {
@@ -132,7 +132,7 @@ false
 }
 )
 ;
-let
+var
 DEBUG
 =
 false

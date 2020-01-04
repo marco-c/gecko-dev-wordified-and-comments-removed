@@ -1,4 +1,4 @@
-let
+var
 katakana
 =
 [
@@ -12,7 +12,7 @@ u30c9
 "
 ]
 ;
-let
+var
 ideograph
 =
 [

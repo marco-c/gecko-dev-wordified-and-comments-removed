@@ -1,4 +1,4 @@
-let
+var
 urifixup
 =
 Cc
@@ -44,7 +44,7 @@ jsm
 "
 )
 ;
-let
+var
 prefList
 =
 [
@@ -140,7 +140,7 @@ get
 kSearchEngineURL
 )
 ;
-let
+var
 oldDefaultEngine
 =
 Services
@@ -164,7 +164,7 @@ getEngineByName
 kSearchEngineID
 )
 ;
-let
+var
 selectedName
 =
 Services
@@ -281,7 +281,7 @@ kForceHostLookup
 }
 )
 ;
-let
+var
 flagInputs
 =
 [
@@ -345,7 +345,7 @@ flagInputs
 ]
 )
 ;
-let
+var
 testcases
 =
 [
@@ -3636,7 +3636,7 @@ trim
 )
 ;
 }
-let
+var
 gSingleWordHostLookup
 =
 false

@@ -730,10 +730,10 @@ DEBUG_TEST
 =
 false
 ;
-let
+var
 gUTM
 ;
-let
+var
 gNextFunc
 ;
 XPCOMUtils

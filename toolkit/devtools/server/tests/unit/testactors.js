@@ -120,7 +120,7 @@ debugger
 "
 )
 ;
-let
+var
 gTestGlobals
 =
 [

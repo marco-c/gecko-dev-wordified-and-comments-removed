@@ -171,14 +171,14 @@ false
 true
 "
 ;
-let
+var
 DEBUG
 =
 NFC
 .
 DEBUG_NFC
 ;
-let
+var
 debug
 ;
 function
@@ -2439,7 +2439,7 @@ break
 }
 )
 ;
-let
+var
 SessionHelper
 =
 {
