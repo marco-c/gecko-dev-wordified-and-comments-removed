@@ -107,12 +107,6 @@ compileOptions
 override
 ;
 bool
-shouldFlattenPragmaStdglInvariantAll
-(
-)
-override
-;
-bool
 shouldCollectVariables
 (
 int

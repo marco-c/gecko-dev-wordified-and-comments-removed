@@ -1652,13 +1652,7 @@ if
 result
 =
 =
-static_cast
-<
-HRESULT
->
-(
 0x88760873
-)
 )
 {
 return

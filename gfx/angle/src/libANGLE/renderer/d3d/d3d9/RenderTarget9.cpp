@@ -418,14 +418,14 @@ mDepth
 mSwapChain
 -
 >
-getDepthBufferInternalFormat
+GetDepthBufferInternalFormat
 (
 )
 :
 mSwapChain
 -
 >
-getRenderTargetInternalFormat
+GetRenderTargetInternalFormat
 (
 )
 )

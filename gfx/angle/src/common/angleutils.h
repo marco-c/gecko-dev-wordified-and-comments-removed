@@ -106,7 +106,6 @@ T
 size_t
 N
 >
-constexpr
 inline
 size_t
 ArraySize
@@ -651,10 +650,6 @@ snprintf
 _snprintf
 #
 endif
-#
-define
-GL_BGR565_ANGLEX
-0x6ABB
 #
 define
 GL_BGRA4_ANGLEX

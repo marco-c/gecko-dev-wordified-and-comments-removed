@@ -328,7 +328,7 @@ getArraySize
 (
 )
 :
-1u
+1
 )
 ;
 const

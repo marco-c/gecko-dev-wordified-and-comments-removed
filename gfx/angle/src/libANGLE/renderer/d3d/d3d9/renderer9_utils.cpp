@@ -1268,10 +1268,7 @@ GetD3DFormatInfo
 d3dformat
 )
 .
-info
--
->
-glInternalFormat
+internalFormat
 ;
 GLenum
 convertedFormat
@@ -3182,12 +3179,6 @@ workarounds
 useInstancedPointSpriteEmulation
 =
 false
-;
-workarounds
-.
-expandIntegerPowExpressions
-=
-true
 ;
 return
 workarounds

@@ -114,9 +114,6 @@ mFragmentCompiler
 ShHandle
 mVertexCompiler
 ;
-ShHandle
-mComputeCompiler
-;
 }
 ;
 }

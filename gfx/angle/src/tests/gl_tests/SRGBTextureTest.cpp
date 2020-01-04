@@ -103,7 +103,7 @@ GL_EXT_sRGB
 )
 |
 |
-getClientMajorVersion
+getClientVersion
 (
 )
 =
@@ -221,7 +221,7 @@ GL_EXT_sRGB
 )
 |
 |
-getClientMajorVersion
+getClientVersion
 (
 )
 =
@@ -302,7 +302,7 @@ GL_TEXTURE_2D
 ;
 if
 (
-getClientMajorVersion
+getClientVersion
 (
 )
 =
@@ -357,7 +357,7 @@ GL_EXT_sRGB
 )
 |
 |
-getClientMajorVersion
+getClientVersion
 (
 )
 =

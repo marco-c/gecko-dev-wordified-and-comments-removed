@@ -195,15 +195,6 @@ OS_WIN
 elif
 defined
 (
-ANDROID
-)
-#
-define
-OS_ANDROID
-#
-elif
-defined
-(
 __linux__
 )
 #

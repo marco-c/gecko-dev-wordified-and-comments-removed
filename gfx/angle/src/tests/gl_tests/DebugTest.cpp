@@ -2007,7 +2007,7 @@ if
 mDebugExtensionAvailable
 |
 |
-getClientMajorVersion
+getClientVersion
 (
 )
 <

@@ -68,6 +68,8 @@ macroSet
 Diagnostics
 *
 diagnostics
+bool
+parseDefined
 )
 ;
 ~
@@ -317,6 +319,9 @@ mMacroSet
 Diagnostics
 *
 mDiagnostics
+;
+bool
+mParseDefined
 ;
 std
 :

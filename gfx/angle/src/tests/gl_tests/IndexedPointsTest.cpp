@@ -1272,7 +1272,7 @@ UnsignedIntOffset0
 {
 if
 (
-getClientMajorVersion
+getClientVersion
 (
 )
 <
@@ -1305,7 +1305,7 @@ UnsignedIntOffset1
 {
 if
 (
-getClientMajorVersion
+getClientVersion
 (
 )
 <
@@ -1338,7 +1338,7 @@ UnsignedIntOffset2
 {
 if
 (
-getClientMajorVersion
+getClientVersion
 (
 )
 <
@@ -1371,7 +1371,7 @@ UnsignedIntOffset3
 {
 if
 (
-getClientMajorVersion
+getClientVersion
 (
 )
 <
@@ -1404,7 +1404,7 @@ VertexWithColorUnsignedIntOffset0
 {
 if
 (
-getClientMajorVersion
+getClientVersion
 (
 )
 <
@@ -1438,7 +1438,7 @@ VertexWithColorUnsignedIntOffset1
 {
 if
 (
-getClientMajorVersion
+getClientVersion
 (
 )
 <
@@ -1472,7 +1472,7 @@ VertexWithColorUnsignedIntOffset2
 {
 if
 (
-getClientMajorVersion
+getClientVersion
 (
 )
 <
@@ -1506,7 +1506,7 @@ VertexWithColorUnsignedIntOffset3
 {
 if
 (
-getClientMajorVersion
+getClientVersion
 (
 )
 <

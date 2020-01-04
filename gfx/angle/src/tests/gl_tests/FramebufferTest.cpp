@@ -298,7 +298,7 @@ return
 int
 clientVersion
 =
-getClientMajorVersion
+getClientVersion
 (
 )
 ;
@@ -646,7 +646,7 @@ RGB8
 {
 if
 (
-getClientMajorVersion
+getClientVersion
 (
 )
 <
@@ -759,7 +759,7 @@ RGBA8
 {
 if
 (
-getClientMajorVersion
+getClientVersion
 (
 )
 <
@@ -848,7 +848,7 @@ RenderbufferMultisample_DEPTH32F
 {
 if
 (
-getClientMajorVersion
+getClientVersion
 (
 )
 <
@@ -910,7 +910,7 @@ RenderbufferMultisample_DEPTH32F_STENCIL8
 {
 if
 (
-getClientMajorVersion
+getClientVersion
 (
 )
 <
@@ -1244,7 +1244,7 @@ ZeroHeightRenderbuffer
 {
 if
 (
-getClientMajorVersion
+getClientVersion
 (
 )
 <

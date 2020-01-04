@@ -115,9 +115,7 @@ public
 MockValidationContext
 (
 GLint
-majorClientVersion
-GLint
-minorClientVersion
+clientVersion
 State
 *
 state
@@ -164,9 +162,7 @@ MockValidationContext
 MockValidationContext
 (
 GLint
-majorClientVersion
-GLint
-minorClientVersion
+clientVersion
 State
 *
 state
@@ -196,8 +192,7 @@ skipValidation
 :
 ValidationContext
 (
-majorClientVersion
-minorClientVersion
+clientVersion
 state
 caps
 textureCaps
@@ -522,7 +517,6 @@ MockValidationContext
 testContext
 (
 3
-0
 &
 state
 caps

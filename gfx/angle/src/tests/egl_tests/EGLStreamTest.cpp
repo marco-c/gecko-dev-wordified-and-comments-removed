@@ -1370,7 +1370,7 @@ return
 bool
 useESSL3Shaders
 =
-getClientMajorVersion
+getClientVersion
 (
 )
 >

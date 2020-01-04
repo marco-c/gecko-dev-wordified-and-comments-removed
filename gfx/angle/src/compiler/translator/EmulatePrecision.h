@@ -121,10 +121,6 @@ writeEmulationHelpers
 TInfoSinkBase
 &
 sink
-const
-int
-shaderVersion
-const
 ShShaderOutput
 outputLanguage
 )

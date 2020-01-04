@@ -419,7 +419,6 @@ TString
 &
 structAPIName
 const
-unsigned
 int
 arrayOfStructsSize
 TVector
@@ -824,7 +823,6 @@ nullptr
 )
 {
 }
-explicit
 TType
 (
 TBasicType
@@ -978,7 +976,6 @@ TPublicType
 p
 )
 ;
-explicit
 TType
 (
 TStructure
@@ -1212,18 +1209,6 @@ return
 invariant
 ;
 }
-void
-setInvariant
-(
-bool
-i
-)
-{
-invariant
-=
-i
-;
-}
 TLayoutQualifier
 getLayoutQualifier
 (
@@ -1416,10 +1401,9 @@ array
 arraySize
 =
 =
-0u
+0
 ;
 }
-unsigned
 int
 getArraySize
 (
@@ -1433,7 +1417,6 @@ arraySize
 void
 setArraySize
 (
-unsigned
 int
 s
 )
@@ -1480,7 +1463,7 @@ false
 ;
 arraySize
 =
-0u
+0
 ;
 invalidateMangledName
 (
@@ -1971,14 +1954,6 @@ qualifier
 )
 ;
 }
-const
-char
-*
-getBuiltInTypeNameString
-(
-)
-const
-;
 TString
 getCompleteString
 (
@@ -2076,7 +2051,6 @@ TString
 &
 structAPIName
 const
-unsigned
 int
 arrayOfStructsSize
 TVector
@@ -2187,7 +2161,6 @@ secondarySize
 bool
 array
 ;
-unsigned
 int
 arraySize
 ;

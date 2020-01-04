@@ -298,9 +298,6 @@ vertexStaticUse
 bool
 fragmentStaticUse
 ;
-bool
-computeStaticUse
-;
 std
 :
 :
