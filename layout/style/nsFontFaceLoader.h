@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+TimeStamp
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -208,6 +217,9 @@ nsCOMPtr
 nsITimer
 >
 mLoadTimer
+;
+TimeStamp
+mStartTime
 ;
 nsIStreamLoader
 *
