@@ -4071,9 +4071,6 @@ None
 mode
 =
 None
-skip_duplicates
-=
-False
 )
 :
         
@@ -4192,25 +4189,6 @@ jar
 entry
 .
         
-If
-a
-duplicated
-member
-is
-found
-skip_duplicates
-will
-prevent
-raising
-        
-an
-exception
-if
-set
-to
-True
-.
-        
 The
 given
 data
@@ -4264,9 +4242,6 @@ in
 self
 .
 _contents
-and
-not
-skip_duplicates
 :
             
 raise
