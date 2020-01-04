@@ -1003,13 +1003,10 @@ TimeUnit
 >
 mHighestEndTimestamp
 ;
-Maybe
-<
 media
 :
 :
 TimeUnit
->
 mLongestFrameDuration
 ;
 bool
@@ -1122,12 +1119,6 @@ reset
 mNeedRandomAccessPoint
 =
 true
-;
-mLongestFrameDuration
-.
-reset
-(
-)
 ;
 mNextInsertionIndex
 .
