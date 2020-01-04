@@ -3532,6 +3532,13 @@ java
 '
 preferences
 /
+AppCompatPreferenceActivity
+.
+java
+'
+'
+preferences
+/
 ClearOnShutdownPref
 .
 java

@@ -320,15 +320,7 @@ GeckoPreferencesBase
 parent
 =
 "
-android
-:
-style
-/
-Theme
-.
-Holo
-.
-Light
+Gecko
 "
 >
 <
@@ -351,8 +343,6 @@ item
 name
 =
 "
-android
-:
 windowActionBar
 "
 >
@@ -366,8 +356,6 @@ item
 name
 =
 "
-android
-:
 windowNoTitle
 "
 >

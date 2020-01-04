@@ -244,13 +244,7 @@ GeckoPreferencesBase
 parent
 =
 "
-android
-:
-style
-/
-Theme
-.
-Light
+Gecko
 "
 >
 <
