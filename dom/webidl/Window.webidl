@@ -2495,6 +2495,7 @@ CacheStorage
 :
 PrefEnabled
 "
+SameObject
 ]
 readonly
 attribute
