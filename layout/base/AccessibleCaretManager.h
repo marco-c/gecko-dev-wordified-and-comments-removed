@@ -336,6 +336,11 @@ UpdateCaretsHint
 aHint
 )
 ;
+void
+ProvideHapticFeedback
+(
+)
+;
 nsIFrame
 *
 GetFocusableFrame
@@ -637,6 +642,10 @@ kBoundaryAppUnits
 static
 bool
 sCaretsExtendedVisibility
+;
+static
+bool
+sHapticFeedback
 ;
 }
 ;
