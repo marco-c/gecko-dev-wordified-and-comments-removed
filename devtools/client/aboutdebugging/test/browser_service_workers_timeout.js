@@ -302,7 +302,6 @@ then
 (
 function
 (
-registration
 )
 {
 sendAsyncMessage
@@ -640,7 +639,6 @@ then
 (
 function
 (
-success
 )
 {
 sendAsyncMessage

@@ -235,8 +235,8 @@ tab
 function
 addTab
 (
-aUrl
-aWindow
+url
+win
 )
 {
 info
@@ -247,7 +247,7 @@ tab
 :
 "
 +
-aUrl
+url
 )
 ;
 return
@@ -261,7 +261,7 @@ done
 let
 targetWindow
 =
-aWindow
+win
 |
 |
 window
@@ -290,7 +290,7 @@ targetBrowser
 .
 addTab
 (
-aUrl
+url
 )
 ;
 let
@@ -334,7 +334,7 @@ loading
 :
 "
 +
-aUrl
+url
 )
 ;
 done
@@ -353,8 +353,8 @@ true
 function
 removeTab
 (
-aTab
-aWindow
+tab
+win
 )
 {
 info
@@ -377,7 +377,7 @@ done
 let
 targetWindow
 =
-aWindow
+win
 |
 |
 window
@@ -406,7 +406,6 @@ TabClose
 function
 onClose
 (
-aEvent
 )
 {
 tabContainer
@@ -444,7 +443,7 @@ targetBrowser
 .
 removeTab
 (
-aTab
+tab
 )
 ;
 }
@@ -452,7 +451,7 @@ aTab
 ;
 }
 function
-get_supports_file
+getSupportsFile
 (
 path
 )
@@ -485,12 +484,8 @@ nsIChromeRegistry
 )
 ;
 let
-fileurl
+uri
 =
-cr
-.
-convertChromeURL
-(
 Services
 .
 io
@@ -503,6 +498,15 @@ path
 null
 null
 )
+;
+let
+fileurl
+=
+cr
+.
+convertChromeURL
+(
+uri
 )
 ;
 return
@@ -541,7 +545,7 @@ null
 let
 file
 =
-get_supports_file
+getSupportsFile
 (
 path
 )

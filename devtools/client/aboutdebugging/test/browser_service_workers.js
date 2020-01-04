@@ -275,7 +275,6 @@ then
 (
 function
 (
-success
 )
 {
 sendAsyncMessage
