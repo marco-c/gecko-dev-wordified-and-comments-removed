@@ -8705,7 +8705,7 @@ BluetoothAddress
 &
 aRemoteBdAddr
 const
-nsAString
+BluetoothRemoteName
 &
 aBdName
 uint32_t
@@ -8734,10 +8734,13 @@ aRemoteBdAddr
 bdAddr
 )
 ;
-nsString
+nsAutoString
 bdName
+;
+RemoteNameToString
 (
 aBdName
+bdName
 )
 ;
 if
@@ -8848,7 +8851,7 @@ BluetoothAddress
 &
 aRemoteBdAddr
 const
-nsAString
+BluetoothRemoteName
 &
 aBdName
 uint32_t
@@ -8881,10 +8884,13 @@ aRemoteBdAddr
 bdAddr
 )
 ;
-nsString
+nsAutoString
 bdName
+;
+RemoteNameToString
 (
 aBdName
+bdName
 )
 ;
 if

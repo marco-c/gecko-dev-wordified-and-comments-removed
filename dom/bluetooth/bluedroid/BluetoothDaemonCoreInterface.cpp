@@ -3693,7 +3693,7 @@ operator
 BluetoothAddress
 &
 aArg1
-nsString
+BluetoothRemoteName
 &
 aArg2
 uint32_t
@@ -3736,14 +3736,7 @@ rv
 UnpackPDU
 (
 pdu
-UnpackConversion
-<
-BluetoothRemoteName
-nsAString
->
-(
 aArg2
-)
 )
 ;
 if
@@ -3853,7 +3846,7 @@ operator
 BluetoothAddress
 &
 aArg1
-nsString
+BluetoothRemoteName
 &
 aArg2
 uint32_t
@@ -3902,14 +3895,7 @@ rv
 UnpackPDU
 (
 pdu
-UnpackConversion
-<
-BluetoothRemoteName
-nsAString
->
-(
 aArg2
-)
 )
 ;
 if
