@@ -2814,6 +2814,11 @@ JSErrorFormatString
 const
 char
 *
+name
+;
+const
+char
+*
 format
 ;
 uint16_t

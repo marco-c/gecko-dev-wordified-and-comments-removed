@@ -398,6 +398,8 @@ _str
 )
 \
 {
+#
+_name
 _str
 _argc
 _exn
