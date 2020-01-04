@@ -369,7 +369,6 @@ Navigator
 .
 h
 "
-NeedResolve
 ]
 interface
 Navigator

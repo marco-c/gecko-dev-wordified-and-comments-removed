@@ -40,15 +40,4 @@ privileged
 property
 "
 #
-define
-JAVASCRIPT_NAVIGATOR_PROPERTY_CATEGORY
-\
-"
-JavaScript
--
-navigator
--
-property
-"
-#
 endif
