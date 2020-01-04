@@ -1069,6 +1069,11 @@ params
 allocator
 -
 >
+AsClientAllocator
+(
+)
+-
+>
 GetMessageLoop
 (
 )
@@ -2891,6 +2896,11 @@ GetMessageLoop
 =
 =
 mAllocator
+-
+>
+AsClientAllocator
+(
+)
 -
 >
 GetMessageLoop

@@ -3731,6 +3731,11 @@ ISurfaceAllocator
 mDeallocator
 -
 >
+AsShmemAllocator
+(
+)
+-
+>
 DeallocShmem
 (
 *

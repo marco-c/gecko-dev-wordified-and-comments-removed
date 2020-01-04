@@ -2449,7 +2449,7 @@ oldMatrix
 mForwarder
 -
 >
-DestroySharedSurface
+DestroySurfaceDescriptor
 (
 &
 inSnapshot
