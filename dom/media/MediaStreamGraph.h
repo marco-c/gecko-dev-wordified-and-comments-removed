@@ -1195,13 +1195,6 @@ StreamTime
 aTime
 )
 ;
-GraphTime
-StreamTimeToGraphTimeWithBlocking
-(
-StreamTime
-aTime
-)
-;
 bool
 IsFinishedOnGraphThread
 (
