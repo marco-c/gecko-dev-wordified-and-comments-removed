@@ -326,7 +326,7 @@ if
 test
 "
 {
-OS_ARCH
+HOST_OS_ARCH
 }
 "
 =
