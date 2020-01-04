@@ -1172,6 +1172,12 @@ dom
 /
 xul
 '
+'
+/
+editor
+/
+libeditor
+'
 ]
 JAR_MANIFESTS
 +
