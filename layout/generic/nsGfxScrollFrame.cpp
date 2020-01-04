@@ -23164,8 +23164,11 @@ bool
 ScrollFrameHelper
 :
 :
-UpdateOverflow
+ComputeCustomOverflow
 (
+nsOverflowAreas
+&
+aOverflowAreas
 )
 {
 nsIScrollableFrame
@@ -23328,8 +23331,9 @@ mOuter
 nsContainerFrame
 :
 :
-UpdateOverflow
+ComputeCustomOverflow
 (
+aOverflowAreas
 )
 ;
 }

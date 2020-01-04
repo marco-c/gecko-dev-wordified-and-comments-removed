@@ -237,9 +237,12 @@ aStatus
 override
 ;
 virtual
-bool
-UpdateOverflow
+void
+UnionChildOverflow
 (
+nsOverflowAreas
+&
+aOverflowAreas
 )
 override
 ;

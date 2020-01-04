@@ -7045,8 +7045,11 @@ bool
 nsTableRowGroupFrame
 :
 :
-UpdateOverflow
+ComputeCustomOverflow
 (
+nsOverflowAreas
+&
+aOverflowAreas
 )
 {
 ClearRowCursor
@@ -7057,8 +7060,9 @@ return
 nsContainerFrame
 :
 :
-UpdateOverflow
+ComputeCustomOverflow
 (
+aOverflowAreas
 )
 ;
 }

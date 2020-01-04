@@ -1876,8 +1876,11 @@ bool
 ViewportFrame
 :
 :
-UpdateOverflow
+ComputeCustomOverflow
 (
+nsOverflowAreas
+&
+aOverflowAreas
 )
 {
 nsIScrollableFrame
@@ -1917,11 +1920,12 @@ false
 ;
 }
 return
-nsFrame
+nsContainerFrame
 :
 :
-UpdateOverflow
+ComputeCustomOverflow
 (
+aOverflowAreas
 )
 ;
 }

@@ -270,8 +270,11 @@ bool
 nsSVGContainerFrame
 :
 :
-UpdateOverflow
+ComputeCustomOverflow
 (
+nsOverflowAreas
+&
+aOverflowAreas
 )
 {
 if
@@ -289,8 +292,9 @@ return
 nsContainerFrame
 :
 :
-UpdateOverflow
+ComputeCustomOverflow
 (
+aOverflowAreas
 )
 ;
 }

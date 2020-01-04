@@ -1170,12 +1170,9 @@ aIsNoAutoHide
 const
 ;
 virtual
-void
-GetLayoutFlags
-(
 uint32_t
-&
-aFlags
+GetXULLayoutFlags
+(
 )
 override
 ;
