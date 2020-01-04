@@ -3482,6 +3482,12 @@ cancelDragging
 break
 ;
 }
+handled
+=
+false
+;
+break
+;
 }
 default
 :
