@@ -1816,6 +1816,11 @@ TerminateChildProcess
 MessageLoop
 *
 aMsgLoop
+base
+:
+:
+ProcessId
+aContentPid
 const
 nsCString
 &
@@ -2323,7 +2328,7 @@ mozilla
 :
 :
 Mutex
-mHangAnnotatorMutex
+mProtocolCallStackMutex
 ;
 InfallibleTArray
 <
