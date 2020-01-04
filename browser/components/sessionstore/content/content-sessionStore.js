@@ -701,6 +701,7 @@ restoreTabContent
 (
 {
 loadArguments
+isRemotenessUpdate
 }
 )
 {
@@ -731,6 +732,7 @@ restoreTabContentComplete
 "
 {
 epoch
+isRemotenessUpdate
 }
 )
 ;
@@ -764,6 +766,7 @@ restoreTabContentComplete
 "
 {
 epoch
+isRemotenessUpdate
 }
 )
 ;
