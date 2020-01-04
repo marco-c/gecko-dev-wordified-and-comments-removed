@@ -1506,12 +1506,7 @@ eOrientationMask
 uint8_t
 textOrientation
 =
-aStyleContext
--
->
-StyleVisibility
-(
-)
+styleVisibility
 -
 >
 mTextOrientation
@@ -1544,12 +1539,7 @@ eOrientationMask
 uint8_t
 textOrientation
 =
-aStyleContext
--
->
-StyleVisibility
-(
-)
+styleVisibility
 -
 >
 mTextOrientation
