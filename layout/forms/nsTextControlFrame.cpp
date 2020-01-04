@@ -6388,7 +6388,7 @@ nsPoint
 aState
 -
 >
-GetScrollState
+GetScrollPosition
 (
 )
 )

@@ -489,6 +489,16 @@ ScrollToRestoredPosition
 ;
 virtual
 void
+SetRestoringHistoryScrollPosition
+(
+bool
+aValue
+)
+=
+0
+;
+virtual
+void
 AddScrollPositionListener
 (
 nsIScrollPositionListener
