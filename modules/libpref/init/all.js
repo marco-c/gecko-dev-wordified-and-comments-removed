@@ -6240,7 +6240,7 @@ y_stationary_size_multiplier
 "
 1
 .
-8
+5
 "
 )
 ;
