@@ -167,13 +167,5 @@ double
 ?
 currentTime
 ;
-sequence
-<
-Animation
->
-getAnimations
-(
-)
-;
 }
 ;
