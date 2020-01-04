@@ -1414,7 +1414,7 @@ lu
 "
 m
 .
-GetScrollOffsetUpdated
+GetScrollUpdateType
 (
 )
 m
