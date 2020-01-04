@@ -5547,11 +5547,11 @@ out
 ;
 height
 :
-285px
+290px
 ;
 width
 :
-260px
+300px
 ;
 }
 chatbox
@@ -5561,7 +5561,7 @@ customSize
 {
 width
 :
-300px
+350px
 ;
 }
 #
@@ -5576,7 +5576,7 @@ min
 -
 width
 :
-300px
+350px
 ;
 }
 chatbox
@@ -5628,7 +5628,7 @@ loopChatMessageAppended
 {
 height
 :
-445px
+400px
 ;
 }
 #
@@ -5649,7 +5649,7 @@ height
 :
 calc
 (
-445px
+400px
 +
 30px
 )

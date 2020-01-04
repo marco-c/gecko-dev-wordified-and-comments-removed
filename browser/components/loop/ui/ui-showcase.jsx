@@ -7963,7 +7963,7 @@ true
 height
 =
 {
-394
+398
 }
 onContentsRendered
 =
@@ -7986,7 +7986,7 @@ window
 width
 =
 {
-298
+348
 }
 >
 <
@@ -8384,7 +8384,7 @@ true
 height
 =
 {
-394
+398
 }
 onContentsRendered
 =
@@ -8411,7 +8411,7 @@ mute
 width
 =
 {
-298
+348
 }
 >
 <
@@ -8528,7 +8528,7 @@ true
 height
 =
 {
-394
+398
 }
 onContentsRendered
 =
@@ -8555,7 +8555,7 @@ mute
 width
 =
 {
-298
+348
 }
 >
 <
@@ -8696,7 +8696,7 @@ true
 height
 =
 {
-272
+288
 }
 summary
 =
@@ -8710,7 +8710,7 @@ demo
 width
 =
 {
-300
+348
 }
 >
 <
@@ -8772,7 +8772,7 @@ true
 height
 =
 {
-272
+288
 }
 summary
 =
@@ -8783,7 +8783,7 @@ alerts
 width
 =
 {
-300
+348
 }
 >
 <
@@ -9055,7 +9055,7 @@ true
 height
 =
 {
-254
+288
 }
 summary
 =
@@ -9068,7 +9068,7 @@ View
 width
 =
 {
-298
+348
 }
 >
 <
@@ -9166,7 +9166,7 @@ client
 width
 =
 {
-298
+348
 }
 >
 <
@@ -9249,9 +9249,7 @@ FramedExample
 height
 =
 {
-278
-.
-6
+288
 }
 onContentsRendered
 =
@@ -9276,7 +9274,7 @@ Error
 width
 =
 {
-298
+348
 }
 >
 <
@@ -9359,7 +9357,7 @@ true
 height
 =
 {
-394
+398
 }
 onContentsRendered
 =
@@ -9383,7 +9381,7 @@ loading
 width
 =
 {
-298
+348
 }
 >
 {
@@ -9508,7 +9506,7 @@ true
 height
 =
 {
-394
+398
 }
 onContentsRendered
 =
@@ -9529,7 +9527,7 @@ conversation
 width
 =
 {
-298
+348
 }
 >
 <
@@ -9886,7 +9884,7 @@ true
 height
 =
 {
-394
+398
 }
 onContentsRendered
 =
@@ -9911,7 +9909,7 @@ mute
 width
 =
 {
-298
+348
 }
 >
 <
@@ -9992,7 +9990,7 @@ true
 height
 =
 {
-394
+398
 }
 onContentsRendered
 =
@@ -10017,7 +10015,7 @@ mute
 width
 =
 {
-298
+348
 }
 >
 <

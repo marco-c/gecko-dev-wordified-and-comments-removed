@@ -3860,12 +3860,12 @@ transitions
 const
 CHAT_WIDTH_OPEN
 =
-260
+300
 ;
 const
 CHAT_WIDTH_OPEN_ALT
 =
-300
+350
 ;
 const
 CHAT_WIDTH_MINIMIZED
