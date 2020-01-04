@@ -1546,6 +1546,14 @@ mViewer
 mViewer
 -
 >
+Close
+(
+nullptr
+)
+;
+mViewer
+-
+>
 Destroy
 (
 )
