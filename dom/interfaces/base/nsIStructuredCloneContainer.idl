@@ -335,9 +335,6 @@ aData
 .
 *
 /
-[
-implicit_jscontext
-]
 void
 initFromBase64
 (
