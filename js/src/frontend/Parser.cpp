@@ -32128,11 +32128,6 @@ TOK_NAME
 TokenKind
 next
 ;
-TokenKind
-nextSameLine
-=
-TOK_EOF
-;
 #
 ifdef
 JS_HAS_ASYNC_FUNCS
@@ -32155,6 +32150,11 @@ names
 async
 )
 {
+TokenKind
+nextSameLine
+=
+TOK_EOF
+;
 if
 (
 !
@@ -33475,11 +33475,6 @@ tt
 TOK_NAME
 )
 {
-TokenKind
-nextSameLine
-=
-TOK_EOF
-;
 #
 ifdef
 JS_HAS_ASYNC_FUNCS
@@ -33502,6 +33497,11 @@ names
 async
 )
 {
+TokenKind
+nextSameLine
+=
+TOK_EOF
+;
 if
 (
 !
