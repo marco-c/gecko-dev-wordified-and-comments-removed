@@ -166,6 +166,10 @@ tools
 /
 wptserve
 '
+    
+'
+xpcshell
+'
 ]
 MACH_MODULES
 =
@@ -189,6 +193,14 @@ mach
 commands
 /
 commandinfo
+.
+py
+'
+    
+'
+xpcshell
+/
+mach_test_package_commands
 .
 py
 '

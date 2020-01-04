@@ -2132,6 +2132,12 @@ js
 '
                 
 '
+mach_test_package_commands
+.
+py
+'
+                
+'
 moz
 -
 http2
