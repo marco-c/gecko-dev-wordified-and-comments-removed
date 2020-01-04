@@ -360,9 +360,6 @@ TiledContentClient
 >
 mContentClient
 ;
-bool
-mHaveSingleTiledContentClient
-;
 nsIntRegion
 mLowPrecisionValidRegion
 ;
