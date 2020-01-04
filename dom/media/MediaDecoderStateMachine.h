@@ -1535,6 +1535,11 @@ NeedToSkipToNextKeyframe
 (
 )
 ;
+void
+AdjustAudioThresholds
+(
+)
+;
 nsRefPtr
 <
 MediaDecoder
@@ -3285,7 +3290,10 @@ mAudioWaitRequest
 mVideoWaitRequest
 ;
 }
+Watchable
+<
 bool
+>
 mAudioCaptured
 ;
 Watchable
@@ -3370,7 +3378,10 @@ mDecodingFirstFrame
 bool
 mSentLoadedMetadataEvent
 ;
+Watchable
+<
 bool
+>
 mSentFirstFrameLoadedEvent
 ;
 bool
