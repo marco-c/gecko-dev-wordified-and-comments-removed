@@ -2293,6 +2293,9 @@ endif
 bool
 mAbortOnError
 ;
+bool
+mNotifiedChannelDone
+;
 ChannelFlags
 mFlags
 ;
