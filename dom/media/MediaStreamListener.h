@@ -24,6 +24,9 @@ class
 MediaStreamGraph
 ;
 class
+MediaStreamVideoSink
+;
+class
 VideoSegment
 ;
 enum
@@ -352,6 +355,7 @@ InstallationResult
 TRACK_NOT_FOUND_AT_SOURCE
 TRACK_TYPE_NOT_SUPPORTED
 STREAM_NOT_SUPPORTED
+ALREADY_EXISTS
 SUCCESS
 }
 ;
@@ -370,6 +374,17 @@ NotifyDirectListenerUninstalled
 (
 )
 {
+}
+virtual
+MediaStreamVideoSink
+*
+AsMediaStreamVideoSink
+(
+)
+{
+return
+nullptr
+;
 }
 protected
 :
