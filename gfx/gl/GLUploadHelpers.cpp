@@ -1708,7 +1708,7 @@ size_t
 *
 aOutUploadSize
 bool
-aOverwrite
+aNeedInit
 bool
 aPixelBuffer
 GLenum
@@ -1720,7 +1720,7 @@ aTextureTarget
 bool
 textureInited
 =
-aOverwrite
+aNeedInit
 ?
 false
 :
@@ -2463,7 +2463,7 @@ size_t
 *
 aOutUploadSize
 bool
-aOverwrite
+aNeedInit
 const
 gfx
 :
@@ -2535,7 +2535,7 @@ format
 aDstRegion
 aTexture
 aOutUploadSize
-aOverwrite
+aNeedInit
 aPixelBuffer
 aTextureUnit
 aTextureTarget

@@ -968,6 +968,14 @@ region
 aRegion
 ;
 }
+bool
+needInit
+=
+mTextureState
+=
+=
+Created
+;
 size_t
 uploadSize
 =
@@ -983,10 +991,7 @@ region
 mTexture
 &
 uploadSize
-mTextureState
-=
-=
-Created
+needInit
 bounds
 .
 TopLeft
