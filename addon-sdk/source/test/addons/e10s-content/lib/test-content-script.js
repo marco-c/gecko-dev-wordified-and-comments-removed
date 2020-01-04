@@ -1689,7 +1689,11 @@ exports
 [
 "
 test
-MozMatchedSelector
+Element
+.
+matches
+(
+)
 "
 ]
 =
@@ -1726,14 +1730,14 @@ div
 "
 )
 .
-mozMatchesSelector
+matches
 (
 "
 div
 "
 )
 "
-mozMatchesSelector
+matches
 works
 while
 being
@@ -1750,7 +1754,7 @@ document
 .
 documentElement
 .
-mozMatchesSelector
+matches
 .
 call
 (
@@ -1767,7 +1771,7 @@ div
 "
 )
 "
-mozMatchesSelector
+matches
 works
 while
 being
@@ -1787,7 +1791,7 @@ document
 .
 documentElement
 .
-mozMatchesSelector
+matches
 .
 call
 "

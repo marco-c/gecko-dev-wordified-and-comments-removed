@@ -734,7 +734,7 @@ if
 (
 popupNode
 .
-mozMatchesSelector
+matches
 (
 selector
 )
