@@ -454,9 +454,10 @@ this
 ;
 if
 (
+GetModuleEnvironment
+(
 module
-.
-environment
+)
 !
 =
 =
@@ -472,9 +473,10 @@ module
 let
 env
 =
+GetModuleEnvironment
+(
 module
-.
-environment
+)
 ;
 let
 requestedModules
