@@ -3009,6 +3009,7 @@ nullptr
 nullptr
 nullptr
 XPC_WN_JSOp_ThisValue
+nullptr
 }
 }
 }
