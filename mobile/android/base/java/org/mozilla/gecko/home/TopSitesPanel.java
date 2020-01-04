@@ -3295,17 +3295,6 @@ LOADED
 return
 ;
 }
-view
-.
-displayThumbnail
-(
-R
-.
-drawable
-.
-favicon_globe
-)
-;
 listener
 .
 setLoadId

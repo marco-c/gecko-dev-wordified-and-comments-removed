@@ -171,6 +171,13 @@ AttributeSet
 import
 android
 .
+util
+.
+Log
+;
+import
+android
+.
 view
 .
 Gravity
@@ -350,6 +357,7 @@ v
 .
 showDefaultFavicon
 (
+url
 )
 ;
 return
