@@ -3689,9 +3689,6 @@ thread
 "
 )
 ;
-(
-void
-)
 mPlaces
 .
 SwapElements
@@ -3699,9 +3696,6 @@ SwapElements
 aPlaces
 )
 ;
-(
-void
-)
 mReferrers
 .
 SetLength
