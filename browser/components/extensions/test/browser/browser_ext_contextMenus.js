@@ -394,8 +394,6 @@ remove
 parentToDel
 )
 ;
-try
-{
 browser
 .
 contextMenus
@@ -409,7 +407,14 @@ parentId
 child2
 }
 )
-;
+.
+then
+(
+(
+)
+=
+>
+{
 browser
 .
 test
@@ -419,10 +424,10 @@ notifyFail
 )
 ;
 }
-catch
 (
-e
 )
+=
+>
 {
 browser
 .
@@ -433,6 +438,8 @@ notifyPass
 )
 ;
 }
+)
+;
 }
 }
 )
