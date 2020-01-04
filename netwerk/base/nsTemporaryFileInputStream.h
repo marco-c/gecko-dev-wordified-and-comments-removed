@@ -16,6 +16,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIInputStream
 .
 h
@@ -23,7 +30,7 @@ h
 #
 include
 "
-nsAutoPtr
+nsISeekableStream
 .
 h
 "
@@ -39,6 +46,8 @@ nsTemporaryFileInputStream
 :
 public
 nsIInputStream
+public
+nsISeekableStream
 {
 public
 :
@@ -138,6 +147,7 @@ aEndPos
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIINPUTSTREAM
+NS_DECL_NSISEEKABLESTREAM
 private
 :
 virtual
@@ -155,6 +165,9 @@ mFileDescOwner
 ;
 uint64_t
 mStartPos
+;
+uint64_t
+mCurPos
 ;
 uint64_t
 mEndPos
