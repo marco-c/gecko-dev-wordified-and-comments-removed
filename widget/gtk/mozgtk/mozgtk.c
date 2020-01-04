@@ -2088,10 +2088,6 @@ gdk_x11_display_get_type
 )
 STUB
 (
-gtk_box_new
-)
-STUB
-(
 gtk_cairo_should_draw_window
 )
 STUB
@@ -2309,10 +2305,6 @@ gtk_widget_get_state_flags
 STUB
 (
 gtk_widget_get_style_context
-)
-STUB
-(
-gtk_widget_path_append_for_widget
 )
 STUB
 (
