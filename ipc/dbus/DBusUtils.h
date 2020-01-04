@@ -59,6 +59,7 @@ DBusMessageRefPtr
 {
 public
 :
+explicit
 DBusMessageRefPtr
 (
 DBusMessage
