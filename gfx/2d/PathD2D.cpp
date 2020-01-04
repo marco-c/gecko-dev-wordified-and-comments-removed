@@ -1521,9 +1521,7 @@ hr
 )
 )
 {
-gfxDebug
-(
-)
+gfxCriticalNote
 <
 <
 "
