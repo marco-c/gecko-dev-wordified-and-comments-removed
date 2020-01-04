@@ -1311,6 +1311,13 @@ cpp
 '
 asmjs
 /
+WasmCompartment
+.
+cpp
+'
+'
+asmjs
+/
 WasmCompile
 .
 cpp

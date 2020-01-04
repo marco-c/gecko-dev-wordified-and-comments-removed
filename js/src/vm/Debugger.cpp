@@ -21227,7 +21227,11 @@ compartment
 )
 -
 >
-wasmInstances
+wasm
+.
+instances
+(
+)
 ;
 if
 (
