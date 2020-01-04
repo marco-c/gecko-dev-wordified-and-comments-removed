@@ -181,14 +181,14 @@ android
 layout_height
 =
 "
-24dp
+18dp
 "
 android
 :
 scaleType
 =
 "
-fitCenter
+fitXY
 "
 android
 :
