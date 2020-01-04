@@ -5,13 +5,6 @@ UTIL_SSIM_H_
 define
 UTIL_SSIM_H_
 #
-include
-<
-math
-.
-h
->
-#
 ifdef
 __cplusplus
 extern
