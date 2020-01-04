@@ -2511,6 +2511,12 @@ MOZ_APP_NAME
 )
 '
 \
+-
+-
+purge
+-
+old
+\
 '
 (
 ABS_DIST
