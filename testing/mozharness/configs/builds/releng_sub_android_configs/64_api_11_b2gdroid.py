@@ -95,4 +95,10 @@ multi_locale_config_platform
 '
 android
 '
+    
+'
+enable_nightly_promotion
+'
+:
+True
 }

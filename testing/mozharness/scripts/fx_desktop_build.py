@@ -523,6 +523,23 @@ json
 '
                 
 '
+nightly_promotion_branches
+'
+:
+[
+'
+mozilla
+-
+central
+'
+'
+mozilla
+-
+aurora
+'
+]
+                
+'
 clone_with_purge
 '
 :
