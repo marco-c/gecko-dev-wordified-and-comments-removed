@@ -1746,7 +1746,7 @@ applicable
 <
 !
 ENTITY
-pref_search_hint
+pref_search_hint2
 "
 TIP
 :
@@ -1769,7 +1769,7 @@ search
 field
 and
 then
-tapping
+touching
 the
 &
 formatI
@@ -3121,9 +3121,9 @@ Enabled
 <
 !
 ENTITY
-pref_plugins_tap_to_play
+pref_plugins_tap_to_play2
 "
-Tap
+Touch
 to
 play
 "
@@ -4989,7 +4989,7 @@ areas
 <
 !
 ENTITY
-pref_magnifying_glass_enabled_summary
+pref_magnifying_glass_enabled_summary2
 "
 Enlarge
 links
@@ -4997,7 +4997,7 @@ and
 form
 fields
 when
-tapping
+touching
 near
 them
 "
