@@ -1019,11 +1019,6 @@ GetTotalSystemMemory
 (
 )
 ;
-uint32_t
-GetTotalSystemMemoryLevel
-(
-)
-;
 bool
 IsHeadphoneEventFromInputDev
 (
