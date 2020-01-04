@@ -123,6 +123,13 @@ modules
 [
 '
 react
+-
+redux
+.
+js
+'
+'
+react
 .
 js
 '
