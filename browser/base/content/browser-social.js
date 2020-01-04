@@ -1424,6 +1424,8 @@ of
 SocialMarks
 .
 nodes
+(
+)
 )
 {
 if
@@ -7862,7 +7864,7 @@ _receiveMessage
 SocialMarks
 =
 {
-get
+*
 nodes
 (
 )
@@ -7953,6 +7955,8 @@ of
 this
 .
 nodes
+(
+)
 )
 {
 if
