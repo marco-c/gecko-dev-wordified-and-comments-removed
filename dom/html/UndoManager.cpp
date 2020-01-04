@@ -1506,7 +1506,7 @@ GetParentNode
 mContent
 )
 {
-ErrorResult
+IgnoredErrorResult
 error
 ;
 mContent
@@ -1708,7 +1708,7 @@ return
 NS_OK
 ;
 }
-ErrorResult
+IgnoredErrorResult
 error
 ;
 mContent
@@ -1798,7 +1798,7 @@ return
 NS_OK
 ;
 }
-ErrorResult
+IgnoredErrorResult
 error
 ;
 mContent
@@ -2014,7 +2014,7 @@ return
 NS_OK
 ;
 }
-ErrorResult
+IgnoredErrorResult
 error
 ;
 mContent
@@ -2104,7 +2104,7 @@ return
 NS_OK
 ;
 }
-ErrorResult
+IgnoredErrorResult
 error
 ;
 mContent
@@ -2753,7 +2753,7 @@ return
 NS_OK
 ;
 }
-ErrorResult
+IgnoredErrorResult
 rv
 ;
 RefPtr
@@ -2823,7 +2823,7 @@ return
 NS_OK
 ;
 }
-ErrorResult
+IgnoredErrorResult
 rv
 ;
 RefPtr
