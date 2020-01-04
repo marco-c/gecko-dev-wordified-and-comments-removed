@@ -420,7 +420,7 @@ return
 nsBox
 :
 :
-GetChildBox
+GetChildXULBox
 (
 scrolledFrame
 )
@@ -498,7 +498,7 @@ child
 nsBox
 :
 :
-GetChildBox
+GetChildXULBox
 (
 scrolledBox
 )
@@ -788,7 +788,7 @@ child
 nsBox
 :
 :
-GetChildBox
+GetChildXULBox
 (
 scrolledBox
 )

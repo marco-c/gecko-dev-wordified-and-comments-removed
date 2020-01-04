@@ -591,7 +591,7 @@ for
 (
 box
 =
-GetChildBox
+GetChildXULBox
 (
 this
 )
@@ -4099,7 +4099,7 @@ nsIFrame
 nsBox
 :
 :
-GetChildBox
+GetChildXULBox
 (
 const
 nsIFrame
@@ -4286,7 +4286,7 @@ child
 nsBox
 :
 :
-GetChildBox
+GetChildXULBox
 (
 this
 )

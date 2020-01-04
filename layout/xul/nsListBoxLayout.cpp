@@ -737,7 +737,7 @@ box
 nsBox
 :
 :
-GetChildBox
+GetChildXULBox
 (
 body
 )

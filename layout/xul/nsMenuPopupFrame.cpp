@@ -2034,7 +2034,7 @@ do_QueryFrame
 nsBox
 :
 :
-GetChildBox
+GetChildXULBox
 (
 this
 )

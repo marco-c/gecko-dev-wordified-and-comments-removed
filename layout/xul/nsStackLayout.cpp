@@ -203,7 +203,7 @@ child
 nsBox
 :
 :
-GetChildBox
+GetChildXULBox
 (
 aBox
 )
@@ -330,7 +330,7 @@ child
 nsBox
 :
 :
-GetChildBox
+GetChildXULBox
 (
 aBox
 )
@@ -457,7 +457,7 @@ child
 nsBox
 :
 :
-GetChildBox
+GetChildXULBox
 (
 aBox
 )
@@ -604,7 +604,7 @@ child
 nsBox
 :
 :
-GetChildBox
+GetChildXULBox
 (
 aBox
 )
@@ -1224,7 +1224,7 @@ child
 nsBox
 :
 :
-GetChildBox
+GetChildXULBox
 (
 aBox
 )
