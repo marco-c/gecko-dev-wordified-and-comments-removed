@@ -69,6 +69,11 @@ doc
 environment
 data
 <
+.
+.
+/
+data
+/
 environment
 >
 which

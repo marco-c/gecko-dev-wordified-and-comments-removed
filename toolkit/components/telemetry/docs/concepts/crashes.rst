@@ -83,6 +83,11 @@ doc
 main
 ping
 <
+.
+.
+/
+data
+/
 main
 -
 ping
@@ -114,6 +119,11 @@ doc
 crash
 ping
 <
+.
+.
+/
+data
+/
 crash
 -
 ping

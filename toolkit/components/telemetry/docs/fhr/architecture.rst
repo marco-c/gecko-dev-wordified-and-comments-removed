@@ -48,9 +48,6 @@ is
 created
 by
 the
-:
-ref
-:
 data_reporting_service
 .
 providers

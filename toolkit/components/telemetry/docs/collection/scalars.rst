@@ -77,6 +77,11 @@ doc
 main
 pings
 <
+.
+.
+/
+data
+/
 main
 -
 ping

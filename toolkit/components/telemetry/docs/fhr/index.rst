@@ -1,7 +1,3 @@
-.
-.
-_healthreport
-:
 =
 =
 =
@@ -143,9 +139,6 @@ is
 implemented
 in
 the
-:
-ref
-:
 data_reporting_service
 .
 The
