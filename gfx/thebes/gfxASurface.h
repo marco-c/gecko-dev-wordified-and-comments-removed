@@ -219,16 +219,6 @@ GetDeviceOffset
 )
 const
 ;
-virtual
-bool
-GetRotateForLandscape
-(
-)
-{
-return
-false
-;
-}
 void
 Flush
 (

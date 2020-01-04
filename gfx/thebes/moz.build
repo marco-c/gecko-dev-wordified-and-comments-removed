@@ -592,8 +592,17 @@ gfxPlatformGtk
 .
 h
 '
+]
+EXPORTS
+.
+mozilla
+.
+gfx
++
+=
+[
 '
-gfxPSSurface
+PrintTargetPS
 .
 h
 '
@@ -643,7 +652,7 @@ gfxPlatformGtk
 cpp
 '
 '
-gfxPSSurface
+PrintTargetPS
 .
 cpp
 '

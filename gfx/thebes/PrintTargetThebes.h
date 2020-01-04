@@ -96,14 +96,6 @@ Finish
 override
 ;
 virtual
-bool
-RotateNeededForLandscape
-(
-)
-const
-override
-;
-virtual
 already_AddRefed
 <
 DrawTarget
