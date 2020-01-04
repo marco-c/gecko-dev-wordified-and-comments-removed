@@ -585,9 +585,6 @@ bool
 mAtFirstColumn
 ;
 bool
-mDontWrapAnyQuotes
-;
-bool
 mStructs
 ;
 bool

@@ -770,9 +770,6 @@ nsIEditRules
 >
 mRules
 ;
-bool
-mWrapToWindow
-;
 int32_t
 mWrapColumn
 ;
