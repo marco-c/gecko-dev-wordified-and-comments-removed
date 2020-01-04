@@ -283,12 +283,12 @@ GetPositioningArea
 (
 )
 )
-mDestArea
+mDestRect
 (
 aItem
 -
 >
-GetDestArea
+GetDestRect
 (
 )
 )
@@ -321,7 +321,7 @@ MoveBy
 aOffset
 )
 ;
-mDestArea
+mDestRect
 .
 MoveBy
 (

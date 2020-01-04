@@ -654,17 +654,6 @@ IsAnimatedImage
 (
 )
 ;
-bool
-IsContainerAvailable
-(
-LayerManager
-*
-aManager
-nsDisplayListBuilder
-*
-aBuilder
-)
-;
 already_AddRefed
 <
 imgIContainer
