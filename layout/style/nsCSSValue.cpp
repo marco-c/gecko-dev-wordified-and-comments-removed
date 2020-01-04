@@ -5351,7 +5351,7 @@ count
 .
 AppendToString
 (
-eCSSProperty_background_position
+eCSSProperty_object_position
 aResult
 aSerialization
 )
@@ -9133,7 +9133,7 @@ mXValue
 .
 AppendToString
 (
-eCSSProperty_background_position
+eCSSProperty_background_position_x
 aResult
 aSerialization
 )
@@ -9175,7 +9175,7 @@ mYValue
 .
 AppendToString
 (
-eCSSProperty_background_position
+eCSSProperty_background_position_y
 aResult
 aSerialization
 )
@@ -9331,7 +9331,7 @@ mXValue
 .
 AppendToString
 (
-eCSSProperty_background_position
+eCSSProperty_background_position_x
 aResult
 aSerialization
 )
@@ -9371,7 +9371,7 @@ mYValue
 .
 AppendToString
 (
-eCSSProperty_background_position
+eCSSProperty_background_position_y
 aResult
 aSerialization
 )

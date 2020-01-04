@@ -2116,7 +2116,8 @@ shorthand
 color
 image
 repeat
-position
+positionX
+positionY
 clip
 origin
 size
@@ -2754,7 +2755,8 @@ mAttachmentCount
 mClipCount
 mOriginCount
 mRepeatCount
-mPositionCount
+mPositionXCount
+mPositionYCount
 mImageCount
 mSizeCount
 mMaskModeCount
