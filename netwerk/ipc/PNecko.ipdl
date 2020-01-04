@@ -685,10 +685,10 @@ userCancel
 )
 ;
 async
-RemoveSchedulingContext
+RemoveRequestContext
 (
 nsCString
-scid
+rcid
 )
 ;
 child

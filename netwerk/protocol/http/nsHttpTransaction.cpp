@@ -185,7 +185,7 @@ h
 #
 include
 "
-nsISchedulingContext
+nsIRequestContext
 .
 h
 "
@@ -7771,11 +7771,11 @@ void
 nsHttpTransaction
 :
 :
-SetSchedulingContext
+SetRequestContext
 (
-nsISchedulingContext
+nsIRequestContext
 *
-aSchedulingContext
+aRequestContext
 )
 {
 LOG
@@ -7785,20 +7785,20 @@ LOG
 nsHttpTransaction
 %
 p
-SetSchedulingContext
+SetRequestContext
 %
 p
 \
 n
 "
 this
-aSchedulingContext
+aRequestContext
 )
 )
 ;
-mSchedulingContext
+mRequestContext
 =
-aSchedulingContext
+aRequestContext
 ;
 }
 void
@@ -7835,7 +7835,7 @@ this
 if
 (
 !
-mSchedulingContext
+mRequestContext
 )
 return
 ;
@@ -7852,7 +7852,7 @@ p
 from
 "
 "
-scheduling
+request
 context
 %
 p
@@ -7860,7 +7860,7 @@ p
 n
 "
 this
-mSchedulingContext
+mRequestContext
 .
 get
 (
@@ -7868,7 +7868,7 @@ get
 )
 )
 ;
-mSchedulingContext
+mRequestContext
 -
 >
 AddBlockingTransaction
@@ -7891,7 +7891,7 @@ RemoveDispatchedAsBlocking
 if
 (
 !
-mSchedulingContext
+mRequestContext
 |
 |
 !
@@ -7907,7 +7907,7 @@ blockers
 nsresult
 rv
 =
-mSchedulingContext
+mRequestContext
 -
 >
 RemoveBlockingTransaction
@@ -7929,7 +7929,7 @@ p
 from
 "
 "
-scheduling
+request
 context
 %
 p
@@ -7943,7 +7943,7 @@ remain
 n
 "
 this
-mSchedulingContext
+mRequestContext
 .
 get
 (
@@ -7979,7 +7979,7 @@ channels
 "
 "
 with
-scheduling
+request
 context
 =
 %
@@ -7988,7 +7988,7 @@ p
 n
 "
 this
-mSchedulingContext
+mRequestContext
 .
 get
 (
@@ -8033,7 +8033,7 @@ LOG
 nsHttpTransaction
 %
 p
-scheduling
+request
 context
 set
 to
@@ -8052,7 +8052,7 @@ p
 n
 "
 this
-mSchedulingContext
+mRequestContext
 .
 get
 (
@@ -8060,7 +8060,7 @@ get
 )
 )
 ;
-mSchedulingContext
+mRequestContext
 =
 nullptr
 ;

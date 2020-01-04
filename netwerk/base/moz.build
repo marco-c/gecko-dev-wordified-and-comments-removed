@@ -543,6 +543,11 @@ nsIRequest
 idl
 '
 '
+nsIRequestContext
+.
+idl
+'
+'
 nsIRequestObserver
 .
 idl
@@ -559,11 +564,6 @@ idl
 '
 '
 nsIResumableChannel
-.
-idl
-'
-'
-nsISchedulingContext
 .
 idl
 '
@@ -1295,7 +1295,7 @@ RedirectChannelRegistrar
 cpp
 '
 '
-SchedulingContextService
+RequestContextService
 .
 cpp
 '

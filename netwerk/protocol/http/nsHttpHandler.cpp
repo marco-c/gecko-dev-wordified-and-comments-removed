@@ -1858,7 +1858,7 @@ rv
 return
 rv
 ;
-mSchedulingContextService
+mRequestContextService
 =
 do_GetService
 (
@@ -1869,7 +1869,7 @@ org
 /
 network
 /
-scheduling
+request
 -
 context
 -

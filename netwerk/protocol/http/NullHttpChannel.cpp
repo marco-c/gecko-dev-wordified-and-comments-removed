@@ -710,7 +710,7 @@ NS_IMETHODIMP
 NullHttpChannel
 :
 :
-GetSchedulingContextID
+GetRequestContextID
 (
 nsID
 *
@@ -725,11 +725,11 @@ NS_IMETHODIMP
 NullHttpChannel
 :
 :
-SetSchedulingContextID
+SetRequestContextID
 (
 const
 nsID
-scID
+rcID
 )
 {
 return

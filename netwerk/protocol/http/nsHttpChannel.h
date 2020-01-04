@@ -1055,7 +1055,7 @@ SetupTransaction
 )
 ;
 void
-SetupTransactionSchedulingContext
+SetupTransactionRequestContext
 (
 )
 ;
@@ -1725,6 +1725,11 @@ stream
 ;
 void
 MaybeWarnAboutAppCache
+(
+)
+;
+void
+SetLoadGroupUserAgentOverride
 (
 )
 ;

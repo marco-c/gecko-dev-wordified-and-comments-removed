@@ -32,7 +32,7 @@ class
 nsITransport
 ;
 class
-nsISchedulingContext
+nsIRequestContext
 ;
 namespace
 mozilla
@@ -410,9 +410,9 @@ nullptr
 ;
 }
 virtual
-nsISchedulingContext
+nsIRequestContext
 *
-SchedulingContext
+RequestContext
 (
 )
 {

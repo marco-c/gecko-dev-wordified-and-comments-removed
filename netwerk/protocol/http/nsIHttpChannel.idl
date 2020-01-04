@@ -2931,7 +2931,7 @@ aTargetURI
 *
 Identifies
 the
-scheduling
+request
 context
 for
 this
@@ -2944,7 +2944,7 @@ noscript
 ]
 attribute
 nsID
-schedulingContextID
+requestContextID
 ;
 }
 ;

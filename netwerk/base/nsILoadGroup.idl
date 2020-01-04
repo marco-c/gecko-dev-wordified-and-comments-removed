@@ -110,7 +110,7 @@ interface
 nsIInterfaceRequestor
 ;
 interface
-nsISchedulingContext
+nsIRequestContext
 ;
 typedef
 unsigned
@@ -595,7 +595,7 @@ noscript
 readonly
 attribute
 nsID
-schedulingContextID
+requestContextID
 ;
 /
 *
