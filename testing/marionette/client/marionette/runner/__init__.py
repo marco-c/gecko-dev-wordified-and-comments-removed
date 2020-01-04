@@ -1,4 +1,8 @@
 from
+argparse
+import
+ArgumentParser
+from
 base
 import
 (
@@ -11,8 +15,7 @@ Marionette
 MarionetteTest
 MarionetteTestResult
 MarionetteTextTestRunner
-        
-OptionParser
+         
 TestManifest
 TestResult
 TestResultCollection

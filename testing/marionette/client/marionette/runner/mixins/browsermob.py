@@ -76,7 +76,7 @@ group
 =
 self
 .
-add_option_group
+add_argument_group
 (
 '
 Browsermob
@@ -86,7 +86,7 @@ Proxy
         
 group
 .
-add_option
+add_argument
 (
 '
 -
@@ -94,12 +94,6 @@ add_option
 browsermob
 -
 script
-'
-                         
-action
-=
-'
-store
 '
                          
 dest
@@ -133,7 +127,7 @@ file
         
 group
 .
-add_option
+add_argument
 (
 '
 -
@@ -141,12 +135,6 @@ add_option
 browsermob
 -
 port
-'
-                         
-action
-=
-'
-store
 '
                          
 dest

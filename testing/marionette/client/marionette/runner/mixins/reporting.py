@@ -2216,7 +2216,7 @@ group
 =
 self
 .
-add_option_group
+add_argument_group
 (
 '
 htmlreporting
@@ -2225,7 +2225,7 @@ htmlreporting
         
 group
 .
-add_option
+add_argument
 (
 '
 -
@@ -2233,12 +2233,6 @@ add_option
 html
 -
 output
-'
-                         
-action
-=
-'
-store
 '
                          
 dest
