@@ -242,6 +242,10 @@ sFFVPXDecoderEnabled
 =
 false
 ;
+using
+namespace
+ffvpx
+;
 #
 endif
 #
@@ -598,7 +602,7 @@ MOZ_FFVPX
 FFVPXRuntimeLinker
 :
 :
-Init
+Link
 (
 )
 ;
@@ -610,7 +614,7 @@ MOZ_FFMPEG
 FFmpegRuntimeLinker
 :
 :
-Init
+Link
 (
 )
 ;
