@@ -5532,6 +5532,7 @@ NS_IsMainThread
 )
 |
 |
+!
 aStyle
 -
 >
