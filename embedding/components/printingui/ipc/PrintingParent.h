@@ -57,6 +57,10 @@ PPrintingParent
 {
 public
 :
+NS_INLINE_DECL_REFCOUNTING
+(
+PrintingParent
+)
 virtual
 bool
 RecvShowProgress
@@ -177,14 +181,14 @@ PrintingParent
 (
 )
 ;
+private
+:
 virtual
 ~
 PrintingParent
 (
 )
 ;
-private
-:
 nsPIDOMWindowOuter
 *
 DOMWindowFromBrowserParent
