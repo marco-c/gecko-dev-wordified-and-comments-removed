@@ -11165,7 +11165,7 @@ button
 =
 buttonType
 ;
-DispatchAPZAwareEvent
+DispatchInputEvent
 (
 &
 synthEvent
@@ -11649,7 +11649,7 @@ pressure
 =
 mLastMotionPressure
 ;
-DispatchAPZAwareEvent
+DispatchInputEvent
 (
 &
 event
@@ -11857,7 +11857,7 @@ pressure
 :
 mLastMotionPressure
 ;
-DispatchAPZAwareEvent
+DispatchInputEvent
 (
 &
 event
@@ -13458,7 +13458,7 @@ aEvent
 time
 )
 ;
-DispatchAPZAwareEvent
+DispatchInputEvent
 (
 &
 wheelEvent
@@ -14401,7 +14401,7 @@ forget
 )
 ;
 }
-DispatchAPZAwareEvent
+DispatchInputEvent
 (
 &
 event

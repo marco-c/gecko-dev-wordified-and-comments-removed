@@ -519,15 +519,6 @@ aStatus
 override
 ;
 nsEventStatus
-DispatchAPZAwareEvent
-(
-WidgetInputEvent
-*
-aEvent
-)
-override
-;
-nsEventStatus
 DispatchInputEvent
 (
 WidgetInputEvent

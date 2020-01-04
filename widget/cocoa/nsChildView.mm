@@ -26154,7 +26154,7 @@ eLeftButton
 mGeckoChild
 -
 >
-DispatchAPZAwareEvent
+DispatchInputEvent
 (
 &
 geckoEvent
@@ -26280,7 +26280,7 @@ defaultPrevented
 mGeckoChild
 -
 >
-DispatchAPZAwareEvent
+DispatchInputEvent
 (
 &
 geckoEvent
@@ -27142,7 +27142,7 @@ geckoEvent
 mGeckoChild
 -
 >
-DispatchAPZAwareEvent
+DispatchInputEvent
 (
 &
 geckoEvent
@@ -27357,7 +27357,7 @@ clickCount
 mGeckoChild
 -
 >
-DispatchAPZAwareEvent
+DispatchInputEvent
 (
 &
 geckoEvent
@@ -27462,7 +27462,7 @@ self
 mGeckoChild
 -
 >
-DispatchAPZAwareEvent
+DispatchInputEvent
 (
 &
 geckoEvent
@@ -27883,7 +27883,7 @@ eWheelOperationStart
 mGeckoChild
 -
 >
-DispatchAPZAwareEvent
+DispatchInputEvent
 (
 wheelEvent
 .
