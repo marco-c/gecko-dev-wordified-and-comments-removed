@@ -237,6 +237,9 @@ lint
 symbol
 :
 ES
+tier
+:
+1
 treeherderEnv
 :
 -
