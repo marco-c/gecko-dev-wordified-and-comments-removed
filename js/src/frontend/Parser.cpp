@@ -4278,12 +4278,13 @@ JSTracer
 trc
 )
 {
-traceListHead
--
->
-trace
+ObjectBox
+:
+:
+TraceList
 (
 trc
+traceListHead
 )
 ;
 }
