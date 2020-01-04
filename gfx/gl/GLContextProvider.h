@@ -32,6 +32,13 @@ namespace
 mozilla
 {
 namespace
+widget
+{
+class
+CompositorWidget
+;
+}
+namespace
 gl
 {
 #
