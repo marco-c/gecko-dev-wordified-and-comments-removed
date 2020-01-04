@@ -109,9 +109,6 @@ in
 cocoa
 '
 '
-qt
-'
-'
 android
 '
 '
@@ -132,9 +129,6 @@ if
 toolkit
 in
 (
-'
-qt
-'
 '
 android
 '
@@ -1127,9 +1121,6 @@ toolkit
 in
 {
 '
-qt
-'
-'
 gtk2
 '
 '
@@ -1166,9 +1157,6 @@ if
 toolkit
 in
 (
-'
-qt
-'
 '
 gtk2
 '
