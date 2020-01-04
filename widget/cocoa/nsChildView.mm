@@ -14558,7 +14558,7 @@ SwipeTracker
 :
 CreateSwipeGestureEvent
 (
-NS_SIMPLE_GESTURE_SWIPE_START
+NS_SIMPLE_GESTURE_SWIPE_MAY_START
 this
 position
 )
