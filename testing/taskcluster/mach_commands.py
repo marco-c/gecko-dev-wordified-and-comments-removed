@@ -1152,12 +1152,12 @@ n
 return
 None
     
-PushInfo
+VCSInfo
 =
 namedtuple
 (
 '
-PushInfo
+VCSInfo
 '
 [
 '
@@ -1255,7 +1255,7 @@ date
 ]
         
 return
-PushInfo
+VCSInfo
 (
 pushid
 pushdate
@@ -1275,9 +1275,9 @@ write
 "
 Error
 querying
-pushinfo
+VCS
+info
 for
-repository
 '
 %
 s
@@ -2487,7 +2487,7 @@ gmtime
 )
 )
         
-pushinfo
+vcs_info
 =
 query_vcs_info
 (
@@ -2506,7 +2506,7 @@ head_rev
 )
         
 if
-pushinfo
+vcs_info
 :
             
 pushdate
@@ -2533,7 +2533,7 @@ time
 .
 gmtime
 (
-pushinfo
+vcs_info
 .
 pushdate
 )
@@ -4924,7 +4924,7 @@ gmtime
 )
 )
         
-pushinfo
+vcs_info
 =
 query_vcs_info
 (
@@ -4943,7 +4943,7 @@ head_rev
 )
         
 if
-pushinfo
+vcs_info
 :
             
 pushdate
@@ -4970,7 +4970,7 @@ time
 .
 gmtime
 (
-pushinfo
+vcs_info
 .
 pushdate
 )
