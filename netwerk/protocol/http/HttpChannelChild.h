@@ -317,6 +317,15 @@ newURI
 override
 ;
 NS_IMETHOD
+GetProtocolVersion
+(
+nsACString
+&
+aProtocolVersion
+)
+override
+;
+NS_IMETHOD
 SetupFallbackChannel
 (
 const
@@ -860,6 +869,9 @@ nsCOMPtr
 nsISupports
 >
 mCacheKey
+;
+nsCString
+mProtocolVersion
 ;
 bool
 mSendResumeAt

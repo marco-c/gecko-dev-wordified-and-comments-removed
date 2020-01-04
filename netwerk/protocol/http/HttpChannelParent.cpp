@@ -5586,6 +5586,16 @@ timing
 encodedBodySize
 )
 ;
+mChannel
+-
+>
+GetProtocolVersion
+(
+timing
+.
+protocolVersion
+)
+;
 if
 (
 mIPCClosed
