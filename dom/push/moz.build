@@ -217,6 +217,16 @@ PushNotifier
 cpp
 '
 ]
+TEST_DIRS
++
+=
+[
+'
+test
+/
+xpcshell
+'
+]
 include
 (
 '
