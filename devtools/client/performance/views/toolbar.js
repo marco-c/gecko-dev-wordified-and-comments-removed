@@ -776,7 +776,7 @@ emit
 (
 EVENTS
 .
-PREF_CHANGED
+UI_PREF_CHANGED
 prefName
 value
 )

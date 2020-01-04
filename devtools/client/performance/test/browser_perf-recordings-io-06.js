@@ -513,7 +513,7 @@ once
 JsCallTreeView
 EVENTS
 .
-JS_CALL_TREE_RENDERED
+UI_JS_CALL_TREE_RENDERED
 )
 ;
 let

@@ -580,7 +580,7 @@ on
 (
 EVENTS
 .
-PROFILER_STATUS_UPDATED
+RECORDING_PROFILER_STATUS_UPDATE
 this
 .
 _onProfilerStatusUpdated
@@ -604,7 +604,7 @@ on
 (
 EVENTS
 .
-NEW_RECORDING
+RECORDING_ADDED
 this
 .
 _onRecordingStateChange
@@ -616,7 +616,7 @@ on
 (
 EVENTS
 .
-NEW_RECORDING_FAILED
+BACKEND_FAILED_AFTER_RECORDING_START
 this
 .
 _onNewRecordingFailed
@@ -769,7 +769,7 @@ off
 (
 EVENTS
 .
-PROFILER_STATUS_UPDATED
+RECORDING_PROFILER_STATUS_UPDATE
 this
 .
 _onProfilerStatusUpdated
@@ -793,7 +793,7 @@ off
 (
 EVENTS
 .
-NEW_RECORDING
+RECORDING_ADDED
 this
 .
 _onRecordingStateChange
@@ -805,7 +805,7 @@ off
 (
 EVENTS
 .
-NEW_RECORDING_FAILED
+BACKEND_FAILED_AFTER_RECORDING_START
 this
 .
 _onNewRecordingFailed
@@ -1229,7 +1229,7 @@ emit
 (
 EVENTS
 .
-UI_BUFFER_STATUS_UPDATED
+UI_RECORDING_PROFILER_STATUS_RENDERED
 percent
 )
 ;
@@ -1796,16 +1796,16 @@ _onProfilerStatusUpdated
 function
 (
 _
-data
+profilerStatus
 )
 {
 if
 (
 !
-data
+profilerStatus
 |
 |
-data
+profilerStatus
 .
 position
 =

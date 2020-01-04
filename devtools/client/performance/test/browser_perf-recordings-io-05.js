@@ -144,7 +144,7 @@ once
 WaterfallView
 EVENTS
 .
-WATERFALL_RENDERED
+UI_WATERFALL_RENDERED
 )
 ;
 let
