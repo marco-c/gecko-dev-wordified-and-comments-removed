@@ -243,7 +243,7 @@ class
 FloatRegisters
 :
 public
-BaseFloatRegisters
+FloatRegistersMIPSShared
 {
 public
 :
@@ -273,7 +273,7 @@ TotalPhys
 )
 ;
 return
-BaseFloatRegisters
+FloatRegistersMIPSShared
 :
 :
 GetName
@@ -618,7 +618,7 @@ class
 FloatRegister
 :
 public
-BaseFloatRegister
+FloatRegisterMIPSShared
 {
 public
 :

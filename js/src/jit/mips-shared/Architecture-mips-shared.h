@@ -975,7 +975,7 @@ uint32_t
 PackedRegisterMask
 ;
 class
-BaseFloatRegisters
+FloatRegistersMIPSShared
 {
 public
 :
@@ -1182,7 +1182,7 @@ class
 TypedRegisterSet
 ;
 class
-BaseFloatRegister
+FloatRegisterMIPSShared
 {
 public
 :
@@ -1207,7 +1207,7 @@ false
 ;
 }
 typedef
-BaseFloatRegisters
+FloatRegistersMIPSShared
 :
 :
 SetType

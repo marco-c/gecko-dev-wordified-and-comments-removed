@@ -274,7 +274,7 @@ class
 FloatRegisters
 :
 public
-BaseFloatRegisters
+FloatRegistersMIPSShared
 {
 public
 :
@@ -732,7 +732,7 @@ class
 FloatRegister
 :
 public
-BaseFloatRegister
+FloatRegisterMIPSShared
 {
 public
 :
