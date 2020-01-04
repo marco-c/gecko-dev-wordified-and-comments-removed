@@ -332,6 +332,8 @@ const
 nsRect
 &
 aRect
+float
+aZoomLevel
 )
 ;
 void
@@ -341,6 +343,8 @@ const
 nsRect
 &
 aRect
+float
+aZoomLevel
 )
 ;
 float
@@ -547,6 +551,13 @@ mCaretElementHolder
 ;
 nsRect
 mImaginaryCaretRect
+;
+float
+mZoomLevel
+=
+0
+.
+0f
 ;
 RefPtr
 <
