@@ -204,7 +204,6 @@ nsIPresShell
 *
 aPresShell
 )
-CPP_THROW_NEW
 ;
 void
 Delete

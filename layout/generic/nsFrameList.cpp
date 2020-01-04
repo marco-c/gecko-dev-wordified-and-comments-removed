@@ -101,7 +101,6 @@ nsIPresShell
 *
 aPresShell
 )
-CPP_THROW_NEW
 {
 return
 aPresShell

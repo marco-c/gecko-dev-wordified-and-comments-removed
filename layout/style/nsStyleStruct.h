@@ -714,7 +714,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -1611,7 +1610,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -2059,34 +2057,6 @@ aType
 )
 const
 ;
-static
-float
-GetInitialValue
-(
-LayerType
-aType
-)
-{
-return
-(
-aType
-=
-=
-LayerType
-:
-:
-Background
-)
-?
-0
-.
-0f
-:
-0
-.
-5f
-;
-}
 void
 SetInitialPercentValues
 (
@@ -3025,7 +2995,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -3228,7 +3197,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -3428,7 +3396,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -4424,7 +4391,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -5398,7 +5364,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -5736,7 +5701,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -6562,7 +6526,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -7572,7 +7535,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -7915,7 +7877,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -8915,7 +8876,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -10087,7 +10047,7 @@ mFillRule
 StyleFillRule
 :
 :
-Nonzero
+NonZero
 )
 {
 mPosition
@@ -11270,7 +11230,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -12251,7 +12210,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -12399,7 +12357,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -12813,7 +12770,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -13317,7 +13273,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -13578,7 +13533,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -13771,7 +13725,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -13937,7 +13890,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -14281,7 +14233,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -15045,7 +14996,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -15239,7 +15189,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
@@ -15390,7 +15339,6 @@ nsPresContext
 *
 aContext
 )
-CPP_THROW_NEW
 {
 return
 aContext
