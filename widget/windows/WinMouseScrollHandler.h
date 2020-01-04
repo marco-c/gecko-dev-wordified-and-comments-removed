@@ -532,8 +532,11 @@ NotifyUserPrefsMayOverrideSystemSettings
 void
 TrustedScrollSettingsDriver
 (
+)
+;
 bool
-aIsVertical
+IsOverridingSystemScrollSpeedAllowed
+(
 )
 ;
 int32_t
@@ -636,8 +639,6 @@ InitScrollChars
 void
 RefreshCache
 (
-bool
-aForVertical
 )
 ;
 }

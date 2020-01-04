@@ -1477,6 +1477,10 @@ mCanTriggerSwipe
 (
 false
 )
+mAllowToOverrideSystemScrollSpeed
+(
+false
+)
 {
 }
 public
@@ -1583,6 +1587,10 @@ false
 mCanTriggerSwipe
 (
 false
+)
+mAllowToOverrideSystemScrollSpeed
+(
+true
 )
 {
 }
@@ -1818,6 +1826,9 @@ mViewPortIsOverscrolled
 bool
 mCanTriggerSwipe
 ;
+bool
+mAllowToOverrideSystemScrollSpeed
+;
 void
 AssignWheelEventData
 (
@@ -1924,6 +1935,12 @@ mCanTriggerSwipe
 aEvent
 .
 mCanTriggerSwipe
+;
+mAllowToOverrideSystemScrollSpeed
+=
+aEvent
+.
+mAllowToOverrideSystemScrollSpeed
 ;
 }
 double
