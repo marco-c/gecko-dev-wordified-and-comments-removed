@@ -4097,6 +4097,16 @@ property
 eCSSProperty_UNKNOWN
 &
 &
+(
+nsCSSProps
+:
+:
+IsShorthand
+(
+property
+)
+|
+|
 nsCSSProps
 :
 :
@@ -4107,6 +4117,7 @@ property
 !
 =
 eStyleAnimType_None
+)
 )
 {
 AdditionalProperty
