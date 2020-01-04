@@ -7268,12 +7268,8 @@ ToRegister64
 ins
 -
 >
-getInt64Operand
+value
 (
-LWasmStoreGlobalVarI64
-:
-:
-InputIndex
 )
 )
 ;
