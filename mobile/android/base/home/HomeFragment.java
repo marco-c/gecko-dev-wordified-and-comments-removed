@@ -191,7 +191,7 @@ gecko
 .
 restrictions
 .
-Restriction
+Restrictable
 ;
 import
 org
@@ -815,7 +815,7 @@ view
 getContext
 (
 )
-Restriction
+Restrictable
 .
 DISALLOW_PRIVATE_BROWSING
 )

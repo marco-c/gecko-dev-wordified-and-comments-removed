@@ -41,7 +41,7 @@ gecko
 .
 restrictions
 .
-Restriction
+Restrictable
 ;
 import
 org
@@ -76,10 +76,10 @@ blockForReady
 ;
 for
 (
-Restriction
-restriction
+Restrictable
+restrictable
 :
-Restriction
+Restrictable
 .
 values
 (
@@ -100,7 +100,7 @@ is
 not
 enforced
 "
-restriction
+restrictable
 .
 name
 )
@@ -111,7 +111,7 @@ isAllowed
 getActivity
 (
 )
-restriction
+restrictable
 )
 )
 ;

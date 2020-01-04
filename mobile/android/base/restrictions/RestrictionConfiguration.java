@@ -14,8 +14,8 @@ RestrictionConfiguration
 boolean
 isAllowed
 (
-Restriction
-restriction
+Restrictable
+restrictable
 )
 ;
 boolean

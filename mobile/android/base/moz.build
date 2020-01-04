@@ -3341,14 +3341,14 @@ java
 '
 restrictions
 /
-RestrictedProfileConfiguration
+Restrictable
 .
 java
 '
 '
 restrictions
 /
-Restriction
+RestrictedProfileConfiguration
 .
 java
 '

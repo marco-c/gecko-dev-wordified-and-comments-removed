@@ -165,7 +165,7 @@ gecko
 .
 restrictions
 .
-Restriction
+Restrictable
 ;
 import
 org
@@ -515,7 +515,7 @@ Restrictions
 isAllowed
 (
 mContext
-Restriction
+Restrictable
 .
 DISALLOW_MODIFY_ACCOUNTS
 )

@@ -512,7 +512,7 @@ gecko
 .
 restrictions
 .
-Restriction
+Restrictable
 ;
 import
 org
@@ -9926,7 +9926,7 @@ Restrictions
 isAllowed
 (
 this
-Restriction
+Restrictable
 .
 DISALLOW_LOCATION_SERVICE
 )
@@ -16068,7 +16068,7 @@ Restrictions
 isAllowed
 (
 this
-Restriction
+Restrictable
 .
 DISALLOW_SHARE
 )
@@ -16116,7 +16116,7 @@ Restrictions
 isAllowed
 (
 this
-Restriction
+Restrictable
 .
 DISALLOW_DOWNLOADS
 )
@@ -16506,7 +16506,7 @@ Restrictions
 isAllowed
 (
 this
-Restriction
+Restrictable
 .
 DISALLOW_PRIVATE_BROWSING
 )
@@ -16654,7 +16654,7 @@ Restrictions
 isAllowed
 (
 this
-Restriction
+Restrictable
 .
 DISALLOW_GUEST_BROWSING
 )
@@ -16682,7 +16682,7 @@ Restrictions
 isAllowed
 (
 this
-Restriction
+Restrictable
 .
 DISALLOW_INSTALL_EXTENSION
 )

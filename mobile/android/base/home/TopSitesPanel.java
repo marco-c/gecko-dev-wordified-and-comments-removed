@@ -293,7 +293,7 @@ gecko
 .
 restrictions
 .
-Restriction
+Restrictable
 ;
 import
 org
@@ -1954,7 +1954,7 @@ view
 getContext
 (
 )
-Restriction
+Restrictable
 .
 DISALLOW_CLEAR_HISTORY
 )
@@ -2045,7 +2045,7 @@ Restrictions
 isAllowed
 (
 context
-Restriction
+Restrictable
 .
 DISALLOW_CLEAR_HISTORY
 )
@@ -2250,7 +2250,7 @@ Restrictions
 isAllowed
 (
 context
-Restriction
+Restrictable
 .
 DISALLOW_PRIVATE_BROWSING
 )
