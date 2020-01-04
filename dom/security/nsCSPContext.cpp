@@ -1480,6 +1480,8 @@ nsAString
 aPolicyString
 bool
 aReportOnly
+bool
+aDeliveredViaMetaTag
 )
 {
 CSPCONTEXTLOG
@@ -1532,6 +1534,7 @@ aPolicyString
 mSelfURI
 aReportOnly
 this
+aDeliveredViaMetaTag
 )
 ;
 if
@@ -5562,6 +5565,7 @@ policyString
 mSelfURI
 reportOnly
 this
+false
 )
 ;
 if

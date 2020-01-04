@@ -490,6 +490,7 @@ appendPolicy
 (
 policy
 useReportOnlyPolicy
+false
 )
 ;
 var

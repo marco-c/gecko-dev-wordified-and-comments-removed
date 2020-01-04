@@ -309,6 +309,7 @@ AppendPolicy
 (
 policyStr
 false
+false
 )
 ;
 NS_ENSURE_SUCCESS

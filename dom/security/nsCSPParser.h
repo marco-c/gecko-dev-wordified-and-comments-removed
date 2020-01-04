@@ -272,6 +272,8 @@ aReportOnly
 nsCSPContext
 *
 aCSPContext
+bool
+aDeliveredViaMetaTag
 )
 ;
 private
@@ -287,6 +289,8 @@ aSelfURI
 nsCSPContext
 *
 aCSPContext
+bool
+aDeliveredViaMetaTag
 )
 ;
 ~
@@ -743,6 +747,9 @@ mPolicy
 nsCSPContext
 *
 mCSPContext
+;
+bool
+mDeliveredViaMetaTag
 ;
 }
 ;
