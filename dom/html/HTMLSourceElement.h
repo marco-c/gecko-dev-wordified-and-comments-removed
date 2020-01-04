@@ -41,6 +41,9 @@ h
 class
 nsMediaList
 ;
+class
+nsAttrValue
+;
 namespace
 mozilla
 {
@@ -456,6 +459,15 @@ RefPtr
 MediaSource
 >
 mSrcMediaSource
+;
+void
+UpdateMediaList
+(
+const
+nsAttrValue
+*
+aValue
+)
 ;
 }
 ;
