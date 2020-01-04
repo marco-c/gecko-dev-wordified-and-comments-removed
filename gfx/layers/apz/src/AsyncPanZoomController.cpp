@@ -17648,6 +17648,14 @@ AssertOnControllerThread
 ;
 RefPtr
 <
+Runnable
+>
+task
+=
+aTask
+;
+RefPtr
+<
 GeckoContentController
 >
 controller
@@ -17666,9 +17674,10 @@ controller
 >
 PostDelayedTask
 (
-Move
+task
+.
+forget
 (
-aTask
 )
 aDelayMs
 )
