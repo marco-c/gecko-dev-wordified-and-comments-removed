@@ -1208,6 +1208,14 @@ nsAString
 aString
 )
 {
+if
+(
+mReader
+&
+&
+mDemuxer
+)
+{
 mReader
 -
 >
@@ -1224,6 +1232,7 @@ GetMozDebugReaderData
 aString
 )
 ;
+}
 }
 double
 MediaSourceDecoder
