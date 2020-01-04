@@ -868,7 +868,7 @@ result
 TEST_F
 (
 ImageStreamingLexer
-SingleChunkFromSourceBuffer
+SingleChunk
 )
 {
 mSourceBuffer
@@ -931,7 +931,7 @@ result
 TEST_F
 (
 ImageStreamingLexer
-SingleChunkWithUnbufferedFromSourceBuffer
+SingleChunkWithUnbuffered
 )
 {
 Vector
@@ -1023,7 +1023,7 @@ result
 TEST_F
 (
 ImageStreamingLexer
-ChunkPerStateFromSourceBuffer
+ChunkPerState
 )
 {
 for
@@ -1136,7 +1136,7 @@ NS_OK
 TEST_F
 (
 ImageStreamingLexer
-ChunkPerStateWithUnbufferedFromSourceBuffer
+ChunkPerStateWithUnbuffered
 )
 {
 Vector
@@ -1278,7 +1278,7 @@ NS_OK
 TEST_F
 (
 ImageStreamingLexer
-OneByteChunksFromSourceBuffer
+OneByteChunks
 )
 {
 for
@@ -1389,7 +1389,7 @@ NS_OK
 TEST_F
 (
 ImageStreamingLexer
-OneByteChunksWithUnbufferedFromSourceBuffer
+OneByteChunksWithUnbuffered
 )
 {
 Vector
@@ -1697,7 +1697,7 @@ result
 TEST_F
 (
 ImageStreamingLexer
-TerminateSuccessFromSourceBuffer
+TerminateSuccess
 )
 {
 mSourceBuffer
@@ -1872,7 +1872,7 @@ result
 TEST_F
 (
 ImageStreamingLexer
-TerminateFailureFromSourceBuffer
+TerminateFailure
 )
 {
 mSourceBuffer
@@ -2047,7 +2047,7 @@ result
 TEST_F
 (
 ImageStreamingLexer
-TerminateUnbufferedFromSourceBuffer
+TerminateUnbuffered
 )
 {
 for
