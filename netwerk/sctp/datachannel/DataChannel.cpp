@@ -2970,7 +2970,7 @@ paddrparams
 spp_flags
 &
 =
-!
+~
 SPP_PMTUD_ENABLE
 ;
 paddrparams
