@@ -6291,6 +6291,7 @@ bool
 isForEval
 (
 )
+const
 {
 return
 isCachedEval

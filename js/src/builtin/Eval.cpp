@@ -2824,7 +2824,7 @@ scope
 UndefinedValue
 (
 )
-EXECUTE_GLOBAL
+EXECUTE_GLOBAL_OR_MODULE
 NullFramePtr
 (
 )
