@@ -6355,6 +6355,22 @@ iteritems
 )
 :
             
+self
+.
+_no_skip
+[
+'
+misc
+'
+]
+.
+add
+(
+backend_file
+.
+relobjdir
+)
+            
 prefix
 =
 '
@@ -9475,6 +9491,22 @@ walk
 )
 )
 :
+            
+self
+.
+_no_skip
+[
+'
+misc
+'
+]
+.
+add
+(
+backend_file
+.
+relobjdir
+)
             
 for
 f
