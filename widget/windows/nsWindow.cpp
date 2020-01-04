@@ -7149,7 +7149,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -7291,9 +7291,6 @@ behind
 0
 flags
 )
-;
-return
-NS_OK
 ;
 }
 static

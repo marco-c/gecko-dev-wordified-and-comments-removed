@@ -626,7 +626,8 @@ aZIndex
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 PlaceBehind
 (
 nsTopLevelWidgetZPlacement
@@ -638,7 +639,8 @@ bool
 aActivate
 )
 override
-;
+{
+}
 virtual
 void
 SetSizeMode

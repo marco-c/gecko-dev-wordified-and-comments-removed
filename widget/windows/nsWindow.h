@@ -666,7 +666,8 @@ aVertical
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 PlaceBehind
 (
 nsTopLevelWidgetZPlacement
