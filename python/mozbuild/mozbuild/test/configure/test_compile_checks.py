@@ -794,8 +794,8 @@ dedent
 '
 \
             
-depends
-(
+have_fn
+=
 try_compile
 (
 body
@@ -817,24 +817,6 @@ flag
 '
 ]
 )
-)
-            
-def
-have_fn
-(
-value
-)
-:
-                
-if
-value
-is
-not
-None
-:
-                    
-return
-True
             
 set_config
 (
@@ -844,8 +826,8 @@ HAVE_SOMEFN
 have_fn
 )
             
-depends
-(
+have_another
+=
 try_compile
 (
 body
@@ -862,24 +844,6 @@ language
 C
 '
 )
-)
-            
-def
-have_another
-(
-value
-)
-:
-                
-if
-value
-is
-not
-None
-:
-                    
-return
-True
             
 set_config
 (
@@ -947,8 +911,8 @@ dedent
 '
 \
             
-depends
-(
+known_flag
+=
 try_compile
 (
 language
@@ -968,7 +932,7 @@ fknown
 flag
 '
 ]
-                     
+                                     
 check_msg
 =
 '
@@ -980,24 +944,6 @@ flag
 works
 '
 )
-)
-            
-def
-known_flag
-(
-result
-)
-:
-                
-if
-result
-is
-not
-None
-:
-                    
-return
-True
             
 set_config
 (

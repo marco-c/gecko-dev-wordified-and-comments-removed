@@ -360,15 +360,6 @@ return
 checking
 (
 check_msg
-callback
-=
-lambda
-r
-:
-r
-is
-not
-None
 )
 (
 fn
@@ -433,7 +424,7 @@ append
 c
 '
 )
-return
+if
 try_invoke_compiler
 (
 compiler
@@ -458,6 +449,12 @@ onerror
 =
 onerror
 )
+is
+not
+None
+:
+return
+True
 return
 func
 compiler

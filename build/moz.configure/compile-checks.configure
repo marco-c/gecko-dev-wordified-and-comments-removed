@@ -570,14 +570,8 @@ have_header
 value
 )
 :
-if
-value
-is
-not
-None
-:
 return
-True
+value
 header_var
 =
 '
@@ -1164,9 +1158,6 @@ warnings_flags
 :
 if
 result
-is
-not
-None
 :
 warnings_flags
 .
