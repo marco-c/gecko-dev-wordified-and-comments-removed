@@ -1274,11 +1274,6 @@ size_type
 aElemSize
 )
 ;
-template
-<
-typename
-ActualAlloc
->
 void
 ShrinkCapacity
 (
@@ -7455,14 +7450,7 @@ Compact
 (
 )
 {
-this
--
->
-template
 ShrinkCapacity
-<
-Alloc
->
 (
 sizeof
 (

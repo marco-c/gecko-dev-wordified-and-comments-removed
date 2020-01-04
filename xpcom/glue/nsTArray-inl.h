@@ -871,11 +871,6 @@ Alloc
 class
 Copy
 >
-template
-<
-typename
-ActualAlloc
->
 void
 nsTArray_base
 <
@@ -984,7 +979,7 @@ length
 aElemSize
 )
 ;
-ActualAlloc
+nsTArrayFallibleAllocator
 :
 :
 Free
@@ -1023,7 +1018,7 @@ elements
 "
 )
 ;
-ActualAlloc
+nsTArrayFallibleAllocator
 :
 :
 Free
@@ -1056,7 +1051,7 @@ void
 *
 ptr
 =
-ActualAlloc
+nsTArrayFallibleAllocator
 :
 :
 Realloc
@@ -1174,9 +1169,6 @@ mLength
 )
 {
 ShrinkCapacity
-<
-ActualAlloc
->
 (
 aElemSize
 aElemAlign
