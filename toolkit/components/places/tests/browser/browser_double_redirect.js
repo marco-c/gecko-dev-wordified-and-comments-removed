@@ -244,6 +244,16 @@ place_id
 WHERE
 p
 .
+url_hash
+=
+hash
+(
+:
+url
+)
+AND
+p
+.
 url
 =
 :
