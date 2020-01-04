@@ -4137,6 +4137,8 @@ char
 const
 *
 unscopableNames
+bool
+isGlobal
 )
 {
 JS
@@ -4167,6 +4169,11 @@ if
 ourProto
 |
 |
+(
+!
+isGlobal
+&
+&
 !
 DefineProperties
 (
@@ -4174,6 +4181,7 @@ cx
 ourProto
 properties
 chromeOnlyProperties
+)
 )
 )
 {
@@ -4603,6 +4611,8 @@ char
 const
 *
 unscopableNames
+bool
+isGlobal
 )
 {
 MOZ_ASSERT
@@ -4919,6 +4929,7 @@ protoClass
 properties
 chromeOnlyProperties
 unscopableNames
+isGlobal
 )
 ;
 if

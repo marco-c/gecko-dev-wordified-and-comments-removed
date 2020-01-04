@@ -19048,9 +19048,6 @@ not
 None
         
 if
-not
-isGlobal
-and
 self
 .
 properties
@@ -19080,9 +19077,6 @@ nullptr
 "
         
 if
-not
-isGlobal
-and
 self
 .
 properties
@@ -19211,6 +19205,10 @@ aDefineOnGlobal
 {
 unscopableNames
 }
+                                        
+{
+isGlobal
+}
 )
 ;
             
@@ -19301,6 +19299,13 @@ else
 "
 nullptr
 "
+            
+isGlobal
+=
+toStringBool
+(
+isGlobal
+)
 )
         
 failureCode

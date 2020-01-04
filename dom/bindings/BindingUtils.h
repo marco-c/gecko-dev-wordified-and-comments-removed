@@ -2770,6 +2770,8 @@ char
 const
 *
 unscopableNames
+bool
+isGlobal
 )
 ;
 bool
