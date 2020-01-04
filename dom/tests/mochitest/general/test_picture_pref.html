@@ -633,6 +633,13 @@ iframe
 contentDocument
 ;
 var
+win
+=
+iframe
+.
+contentWindow
+;
+var
 img
 =
 doc
@@ -720,6 +727,8 @@ Object
 .
 getOwnPropertyDescriptor
 (
+win
+.
 HTMLImageElement
 .
 prototype
@@ -735,6 +744,8 @@ Object
 .
 getOwnPropertyDescriptor
 (
+win
+.
 HTMLSourceElement
 .
 prototype
@@ -750,6 +761,8 @@ Object
 .
 getOwnPropertyDescriptor
 (
+win
+.
 HTMLSourceElement
 .
 prototype
