@@ -16,15 +16,6 @@ color
 background
 -
 position
--
-x
-"
-"
-background
--
-position
--
-y
 "
 "
 background
