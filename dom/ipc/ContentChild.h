@@ -1876,6 +1876,13 @@ override
 ;
 virtual
 bool
+RecvShutdownA11y
+(
+)
+override
+;
+virtual
+bool
 RecvGarbageCollect
 (
 )
