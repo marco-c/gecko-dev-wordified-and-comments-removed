@@ -38,6 +38,15 @@ CompactBuffer
 .
 h
 "
+#
+include
+"
+jit
+/
+SharedIC
+.
+h
+"
 namespace
 js
 {

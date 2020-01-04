@@ -7,6 +7,15 @@ frontend_NameFunctions_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 js
 /
 TypeDecls
