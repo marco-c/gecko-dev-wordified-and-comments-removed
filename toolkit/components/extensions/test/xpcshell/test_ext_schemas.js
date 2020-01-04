@@ -1750,6 +1750,7 @@ permission
 }
 callFunction
 (
+pathObj
 path
 name
 args
@@ -1780,6 +1781,7 @@ args
 }
 callFunctionNoReturn
 (
+pathObj
 path
 name
 args
@@ -1828,6 +1830,7 @@ inject
 }
 getProperty
 (
+pathObj
 path
 name
 )
@@ -1856,6 +1859,7 @@ name
 }
 setProperty
 (
+pathObj
 path
 name
 value
@@ -1886,6 +1890,7 @@ value
 }
 addListener
 (
+pathObj
 path
 name
 listener
@@ -1920,6 +1925,7 @@ args
 }
 removeListener
 (
+pathObj
 path
 name
 listener
@@ -1952,6 +1958,7 @@ listener
 }
 hasListener
 (
+pathObj
 path
 name
 listener
