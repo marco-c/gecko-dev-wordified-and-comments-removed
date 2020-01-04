@@ -1289,7 +1289,7 @@ static_assert
 mozilla
 :
 :
-IsEnumFittingWithin
+EnumTypeFitsWithin
 <
 T
 int32_t

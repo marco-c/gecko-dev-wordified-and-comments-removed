@@ -290,6 +290,11 @@ EnumSet
 h
 '
 '
+EnumTypeTraits
+.
+h
+'
+'
 FastBernoulliTrial
 .
 h
