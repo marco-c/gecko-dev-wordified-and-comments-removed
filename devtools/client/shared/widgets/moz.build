@@ -219,8 +219,10 @@ VariablesViewController
 jsm
 '
 '
-ViewHelpers
+view
+-
+helpers
 .
-jsm
+js
 '
 )
