@@ -141,11 +141,6 @@ RemoteAboutNewTab
 jsm
 '
 '
-RemoteDirectoryLinksProvider
-.
-jsm
-'
-'
 RemoteNewTabLocation
 .
 jsm
