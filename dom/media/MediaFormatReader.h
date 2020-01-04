@@ -85,16 +85,6 @@ TrackInfo
 TrackType
 TrackType
 ;
-typedef
-media
-:
-:
-Interval
-<
-int64_t
->
-ByteInterval
-;
 public
 :
 MediaFormatReader
