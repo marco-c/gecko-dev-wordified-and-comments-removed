@@ -14,12 +14,14 @@ selfRecUnion
 {
 child
 :
+async
 Test
 (
 R
 r
 )
 ;
+async
 __delete__
 (
 )

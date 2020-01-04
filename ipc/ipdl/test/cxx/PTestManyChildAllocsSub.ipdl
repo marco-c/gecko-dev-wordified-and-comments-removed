@@ -16,12 +16,14 @@ PTestManyChildAllocs
 ;
 child
 :
+async
 __delete__
 (
 )
 ;
 parent
 :
+async
 Hello
 (
 )

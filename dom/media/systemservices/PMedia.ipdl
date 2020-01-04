@@ -225,6 +225,7 @@ ignored
 .
 *
 /
+async
 GetOriginKey
 (
 uint32_t
@@ -303,6 +304,7 @@ Browsing
 .
 *
 /
+async
 SanitizeOriginKeys
 (
 uint64_t
@@ -313,6 +315,7 @@ aOnlyPrivateBrowsing
 ;
 child
 :
+async
 GetOriginKeyResponse
 (
 uint32_t
@@ -321,6 +324,7 @@ nsCString
 key
 )
 ;
+async
 __delete__
 (
 )

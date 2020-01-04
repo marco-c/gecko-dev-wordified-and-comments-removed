@@ -79,12 +79,14 @@ PTestEndpointBridgeSub
 ;
 child
 :
+async
 Start
 (
 )
 ;
 parent
 :
+async
 Bridged
 (
 Endpoint

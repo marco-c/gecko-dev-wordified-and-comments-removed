@@ -286,6 +286,7 @@ success
 ;
 child
 :
+async
 __delete__
 (
 )

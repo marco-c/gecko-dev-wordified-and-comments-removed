@@ -21,6 +21,7 @@ shmem_access_union
 {
 child
 :
+async
 Msg
 (
 Union

@@ -133,6 +133,7 @@ PContent
 ;
 child
 :
+async
 NotifyInfoChanged
 (
 uint32_t
@@ -143,6 +144,7 @@ nsString
 aDisplayName
 )
 ;
+async
 NotifyStatusChanged
 (
 uint32_t
@@ -175,6 +177,7 @@ PVoicemail
 .
 *
 /
+async
 __delete__
 (
 )

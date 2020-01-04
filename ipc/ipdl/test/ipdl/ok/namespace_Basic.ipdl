@@ -13,6 +13,7 @@ namespace_Basic
 {
 child
 :
+async
 Msg
 (
 )

@@ -80,12 +80,14 @@ PContent
 ;
 both
 :
+async
 AddFileDescriptor
 (
 FileDescriptor
 fd
 )
 ;
+async
 __delete__
 (
 )

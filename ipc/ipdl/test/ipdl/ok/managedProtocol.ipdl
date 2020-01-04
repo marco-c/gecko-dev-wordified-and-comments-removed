@@ -10,6 +10,7 @@ managerProtocol
 ;
 child
 :
+async
 __delete__
 (
 )

@@ -22,6 +22,7 @@ PTestFailedCtorSub
 (
 )
 ;
+async
 __delete__
 (
 )

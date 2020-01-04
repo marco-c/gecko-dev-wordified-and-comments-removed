@@ -9,6 +9,7 @@ PTestSanity
 {
 child
 :
+async
 Ping
 (
 int
@@ -19,12 +20,14 @@ int8_t
 dummy
 )
 ;
+async
 __delete__
 (
 )
 ;
 parent
 :
+async
 Pong
 (
 int

@@ -10,6 +10,7 @@ array_OfActorsSub
 ;
 child
 :
+async
 Msg
 (
 array_OfActorsSub

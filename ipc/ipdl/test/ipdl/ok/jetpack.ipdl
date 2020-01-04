@@ -4,6 +4,7 @@ jetpack
 {
 child
 :
+async
 __delete__
 (
 )

@@ -93,6 +93,7 @@ PTestEndpointBridgeMainSub
 {
 child
 :
+async
 Hi
 (
 )
@@ -104,6 +105,7 @@ HiRpc
 ;
 parent
 :
+async
 Hello
 (
 )

@@ -97,12 +97,14 @@ PQuota
 ;
 parent
 :
+async
 Cancel
 (
 )
 ;
 child
 :
+async
 __delete__
 (
 UsageRequestResponse

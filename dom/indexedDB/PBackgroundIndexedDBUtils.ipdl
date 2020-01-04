@@ -115,6 +115,7 @@ PBackground
 ;
 parent
 :
+async
 DeleteMe
 (
 )
@@ -152,6 +153,7 @@ result
 ;
 child
 :
+async
 __delete__
 (
 )

@@ -9,6 +9,7 @@ headerProto
 {
 child
 :
+async
 __delete__
 (
 foo

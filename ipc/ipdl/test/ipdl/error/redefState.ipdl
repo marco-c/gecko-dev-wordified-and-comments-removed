@@ -12,10 +12,12 @@ state
 machine
 child
 :
+async
 Msg
 (
 )
 ;
+async
 __delete__
 (
 )

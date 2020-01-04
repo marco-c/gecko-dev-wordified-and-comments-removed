@@ -134,12 +134,14 @@ PContent
 ;
 parent
 :
+async
 Report
 (
 MemoryReport
 aReport
 )
 ;
+async
 __delete__
 (
 )

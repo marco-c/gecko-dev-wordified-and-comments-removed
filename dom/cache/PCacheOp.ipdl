@@ -112,6 +112,7 @@ PCacheStorage
 ;
 child
 :
+async
 __delete__
 (
 ErrorResult

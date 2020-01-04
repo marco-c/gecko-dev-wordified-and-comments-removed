@@ -201,12 +201,14 @@ PContent
 ;
 parent
 :
+async
 __delete__
 (
 )
 ;
 child
 :
+async
 NotifyStateEvent
 (
 uint32_t
@@ -215,6 +217,7 @@ uint64_t
 byteProgress
 )
 ;
+async
 AssociateDocuments
 (
 nsCString
@@ -223,6 +226,7 @@ nsCString
 cacheClientId
 )
 ;
+async
 Finish
 (
 bool

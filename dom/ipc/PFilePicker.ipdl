@@ -170,6 +170,7 @@ PBrowser
 ;
 parent
 :
+async
 Open
 (
 int16_t
@@ -194,6 +195,7 @@ displayDirectory
 ;
 child
 :
+async
 __delete__
 (
 MaybeInputFiles

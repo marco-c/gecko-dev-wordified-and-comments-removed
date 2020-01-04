@@ -16,6 +16,7 @@ PTestJSON
 ;
 child
 :
+async
 __delete__
 (
 )

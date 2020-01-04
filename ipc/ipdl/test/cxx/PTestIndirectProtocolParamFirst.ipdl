@@ -50,6 +50,7 @@ actor
 ;
 both
 :
+async
 __delete__
 (
 )

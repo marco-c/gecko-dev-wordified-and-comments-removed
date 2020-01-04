@@ -183,12 +183,14 @@ PBackgroundFileHandle
 ;
 child
 :
+async
 __delete__
 (
 FileRequestResponse
 response
 )
 ;
+async
 Progress
 (
 uint64_t

@@ -11,6 +11,7 @@ Nullable2
 {
 child
 :
+async
 Msg
 (
 Union

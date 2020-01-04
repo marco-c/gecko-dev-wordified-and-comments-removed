@@ -3,6 +3,7 @@ actorparam_state
 {
 child
 :
+async
 Msg
 (
 actorparam_state
@@ -11,6 +12,7 @@ S1
 p
 )
 ;
+async
 __delete__
 (
 )

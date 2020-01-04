@@ -139,6 +139,7 @@ PPrinting
 ;
 child
 :
+async
 __delete__
 (
 PrintDataOrNSResult

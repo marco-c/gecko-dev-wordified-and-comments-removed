@@ -15,6 +15,7 @@ E
 (
 )
 ;
+async
 __delete__
 (
 )

@@ -15,10 +15,12 @@ same
 name
 child
 :
+async
 Msg
 (
 )
 ;
+async
 Msg
 (
 )

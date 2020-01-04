@@ -113,12 +113,14 @@ PBlobStream
 ;
 both
 :
+async
 __delete__
 (
 )
 ;
 parent
 :
+async
 PBlobStream
 (
 uint64_t
@@ -127,6 +129,7 @@ uint64_t
 length
 )
 ;
+async
 ResolveMystery
 (
 ResolveMysteryParams
@@ -216,6 +219,7 @@ the
 known
 blob
 .
+async
 CreatedFromKnownBlob
 (
 )

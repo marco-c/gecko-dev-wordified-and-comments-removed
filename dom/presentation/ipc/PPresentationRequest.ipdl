@@ -130,6 +130,7 @@ PPresentation
 ;
 child
 :
+async
 __delete__
 (
 nsresult

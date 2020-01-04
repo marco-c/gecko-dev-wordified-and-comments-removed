@@ -185,6 +185,7 @@ to
 be
 canceled
 .
+async
 CancelDNSRequest
 (
 nsCString
@@ -197,12 +198,14 @@ nsresult
 reason
 )
 ;
+async
 __delete__
 (
 )
 ;
 child
 :
+async
 LookupCompleted
 (
 DNSRequestResponse

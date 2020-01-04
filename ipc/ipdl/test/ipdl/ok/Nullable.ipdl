@@ -16,6 +16,7 @@ Nullable
 {
 child
 :
+async
 Msg
 (
 nullable
@@ -23,6 +24,7 @@ Nullable
 n
 )
 ;
+async
 Msg2
 (
 nullable
@@ -32,6 +34,7 @@ Nullable
 N
 )
 ;
+async
 Msg3
 (
 Union

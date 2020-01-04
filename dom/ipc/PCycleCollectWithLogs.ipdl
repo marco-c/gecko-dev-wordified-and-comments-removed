@@ -111,14 +111,17 @@ PContent
 ;
 parent
 :
+async
 CloseGCLog
 (
 )
 ;
+async
 CloseCCLog
 (
 )
 ;
+async
 __delete__
 (
 )

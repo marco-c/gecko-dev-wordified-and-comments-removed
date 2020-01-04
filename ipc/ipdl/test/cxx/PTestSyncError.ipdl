@@ -10,6 +10,7 @@ PTestSyncError
 {
 child
 :
+async
 Start
 (
 )
@@ -21,6 +22,7 @@ Error
 (
 )
 ;
+async
 __delete__
 (
 )

@@ -19,6 +19,7 @@ manageSelf
 (
 )
 ;
+async
 __delete__
 (
 )

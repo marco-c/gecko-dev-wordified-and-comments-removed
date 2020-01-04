@@ -27,6 +27,7 @@ S
 ss
 )
 ;
+async
 __delete__
 (
 )

@@ -115,6 +115,7 @@ values
 .
 *
 /
+async
 __delete__
 (
 uint32_t

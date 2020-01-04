@@ -86,6 +86,7 @@ PTestEndpointOpensOpened
 {
 child
 :
+async
 Hi
 (
 )
@@ -97,6 +98,7 @@ HiRpc
 ;
 parent
 :
+async
 Hello
 (
 )
@@ -111,6 +113,7 @@ HelloRpc
 (
 )
 ;
+async
 __delete__
 (
 )

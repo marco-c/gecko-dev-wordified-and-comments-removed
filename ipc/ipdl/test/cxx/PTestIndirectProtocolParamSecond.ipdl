@@ -17,6 +17,7 @@ PTestIndirectProtocolParamManage
 ;
 both
 :
+async
 __delete__
 (
 )

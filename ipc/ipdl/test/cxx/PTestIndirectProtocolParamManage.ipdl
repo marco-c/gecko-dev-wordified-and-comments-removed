@@ -24,14 +24,17 @@ PTestIndirectProtocolParamSecond
 ;
 both
 :
+async
 PTestIndirectProtocolParamFirst
 (
 )
 ;
+async
 PTestIndirectProtocolParamSecond
 (
 )
 ;
+async
 __delete__
 (
 )

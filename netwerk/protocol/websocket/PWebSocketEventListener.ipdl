@@ -150,6 +150,7 @@ PNecko
 ;
 child
 :
+async
 WebSocketCreated
 (
 uint32_t
@@ -160,6 +161,7 @@ nsCString
 aProtocols
 )
 ;
+async
 WebSocketOpened
 (
 uint32_t
@@ -172,6 +174,7 @@ nsCString
 aExtensions
 )
 ;
+async
 WebSocketMessageAvailable
 (
 uint32_t
@@ -182,6 +185,7 @@ uint16_t
 aMessageType
 )
 ;
+async
 WebSocketClosed
 (
 uint32_t
@@ -194,6 +198,7 @@ nsString
 aReason
 )
 ;
+async
 FrameReceived
 (
 uint32_t
@@ -202,6 +207,7 @@ WebSocketFrameData
 aFrameData
 )
 ;
+async
 FrameSent
 (
 uint32_t
@@ -210,12 +216,14 @@ WebSocketFrameData
 aFrameData
 )
 ;
+async
 __delete__
 (
 )
 ;
 parent
 :
+async
 Close
 (
 )

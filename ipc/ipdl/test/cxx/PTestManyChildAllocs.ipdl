@@ -16,6 +16,7 @@ PTestManyChildAllocsSub
 ;
 child
 :
+async
 Go
 (
 )
@@ -26,10 +27,12 @@ start
 allocating
 parent
 :
+async
 Done
 (
 )
 ;
+async
 PTestManyChildAllocsSub
 (
 )

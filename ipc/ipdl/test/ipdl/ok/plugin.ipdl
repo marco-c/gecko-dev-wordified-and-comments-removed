@@ -4,6 +4,7 @@ plugin
 {
 child
 :
+async
 __delete__
 (
 )

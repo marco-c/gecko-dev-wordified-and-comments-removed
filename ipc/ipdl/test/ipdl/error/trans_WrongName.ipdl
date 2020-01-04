@@ -3,10 +3,12 @@ trans_WrongName
 {
 child
 :
+async
 Msg
 (
 )
 ;
+async
 __delete__
 (
 )

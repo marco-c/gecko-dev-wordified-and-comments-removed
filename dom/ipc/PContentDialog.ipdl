@@ -132,6 +132,7 @@ PBrowser
 ;
 child
 :
+async
 __delete__
 (
 int32_t

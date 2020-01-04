@@ -10,14 +10,17 @@ PTestLatency
 {
 child
 :
+async
 __delete__
 (
 )
 ;
+async
 Ping
 (
 )
 ;
+async
 Ping5
 (
 )
@@ -27,6 +30,7 @@ Rpc
 (
 )
 ;
+async
 Spam
 (
 )
@@ -36,6 +40,7 @@ Synchro
 (
 )
 ;
+async
 CompressedSpam
 (
 uint32_t
@@ -57,10 +62,12 @@ numMessagesDispatched
 ;
 parent
 :
+async
 Pong
 (
 )
 ;
+async
 Pong5
 (
 )

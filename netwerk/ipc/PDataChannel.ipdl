@@ -157,6 +157,7 @@ see
 PNecko
 .
 ipdl
+async
 __delete__
 (
 )

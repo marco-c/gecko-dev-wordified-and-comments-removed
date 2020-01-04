@@ -71,12 +71,14 @@ PTestEndpointOpens
 {
 child
 :
+async
 Start
 (
 )
 ;
 parent
 :
+async
 StartSubprotocol
 (
 Endpoint
@@ -86,6 +88,7 @@ PTestEndpointOpensOpenedParent
 endpoint
 )
 ;
+async
 __delete__
 (
 )

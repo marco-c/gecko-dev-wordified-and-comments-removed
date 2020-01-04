@@ -3,14 +3,17 @@ unreachedDeleteMultiStart
 {
 child
 :
+async
 M1
 (
 )
 ;
+async
 M2
 (
 )
 ;
+async
 __delete__
 (
 )

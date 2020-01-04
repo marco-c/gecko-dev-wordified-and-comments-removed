@@ -152,6 +152,7 @@ nsCString
 type
 )
 ;
+async
 __delete__
 (
 )

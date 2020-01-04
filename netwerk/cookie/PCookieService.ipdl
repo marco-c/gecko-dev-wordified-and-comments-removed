@@ -676,6 +676,7 @@ SerializedLoadContext
 loadContext
 )
 ;
+async
 __delete__
 (
 )

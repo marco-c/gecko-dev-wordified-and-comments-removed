@@ -1,18 +1,10 @@
 include
 protocol
-"
 multiManager1
-.
-ipdl
-"
 ;
 include
 protocol
-"
 multiManager2
-.
-ipdl
-"
 ;
 protocol
 multiManaged
@@ -24,6 +16,7 @@ multiManager2
 ;
 child
 :
+async
 __delete__
 (
 )

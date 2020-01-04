@@ -98,6 +98,7 @@ PBackgroundIDBDatabase
 ;
 child
 :
+async
 __delete__
 (
 DatabaseRequestResponse

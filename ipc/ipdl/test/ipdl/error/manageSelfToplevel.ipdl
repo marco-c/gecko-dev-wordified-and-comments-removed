@@ -13,6 +13,7 @@ manageSelfToplevel
 (
 )
 ;
+async
 __delete__
 (
 )

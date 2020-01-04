@@ -130,6 +130,7 @@ parent
 >
 child
 messages
+async
 GetStatsRequest
 (
 int
@@ -138,10 +139,12 @@ nsString
 aPcIdFilter
 )
 ;
+async
 ClearStatsRequest
 (
 )
 ;
+async
 GetLogRequest
 (
 int
@@ -150,16 +153,19 @@ nsCString
 aPattern
 )
 ;
+async
 ClearLogRequest
 (
 )
 ;
+async
 SetAecLogging
 (
 bool
 aEnable
 )
 ;
+async
 SetDebugMode
 (
 int
@@ -175,6 +181,7 @@ child
 >
 parent
 messages
+async
 GetStatsResult
 (
 int
@@ -185,6 +192,7 @@ RTCStatsReportInternal
 aStats
 )
 ;
+async
 GetLogResult
 (
 int
@@ -193,6 +201,7 @@ WebrtcGlobalLog
 aLog
 )
 ;
+async
 __delete__
 (
 )

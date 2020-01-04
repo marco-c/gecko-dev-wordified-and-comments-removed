@@ -149,6 +149,7 @@ completed
 .
 *
 /
+async
 __delete__
 (
 BluetoothReply

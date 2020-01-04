@@ -253,6 +253,7 @@ PBrowser
 ;
 parent
 :
+async
 Shutdown
 (
 )
@@ -278,6 +279,7 @@ event
 .
 *
 /
+async
 Event
 (
 uint64_t
@@ -286,18 +288,21 @@ uint32_t
 type
 )
 ;
+async
 ShowEvent
 (
 ShowEventData
 data
 )
 ;
+async
 HideEvent
 (
 uint64_t
 aRootID
 )
 ;
+async
 StateChangeEvent
 (
 uint64_t
@@ -308,6 +313,7 @@ bool
 aEnabled
 )
 ;
+async
 CaretMoveEvent
 (
 uint64_t
@@ -316,6 +322,7 @@ int32_t
 aOffset
 )
 ;
+async
 TextChangeEvent
 (
 uint64_t
@@ -353,6 +360,7 @@ document
 .
 *
 /
+async
 BindChildDoc
 (
 PDocAccessible
@@ -363,6 +371,7 @@ aID
 ;
 child
 :
+async
 __delete__
 (
 )
@@ -996,6 +1005,7 @@ bool
 aSucceeded
 )
 ;
+async
 ScrollSubstringTo
 (
 uint64_t
@@ -1008,6 +1018,7 @@ uint32_t
 aScrollType
 )
 ;
+async
 ScrollSubstringToPoint
 (
 uint64_t

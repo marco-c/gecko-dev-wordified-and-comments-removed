@@ -9,6 +9,7 @@ Msg
 (
 )
 ;
+async
 __delete__
 (
 )

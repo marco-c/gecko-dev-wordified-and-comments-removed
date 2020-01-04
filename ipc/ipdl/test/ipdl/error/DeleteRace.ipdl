@@ -48,12 +48,14 @@ DeleteRace
 {
 parent
 :
+async
 M1
 (
 )
 ;
 child
 :
+async
 __delete__
 (
 )

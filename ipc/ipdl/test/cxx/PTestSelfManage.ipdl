@@ -21,10 +21,12 @@ PTestSelfManage
 ;
 child
 :
+async
 PTestSelfManage
 (
 )
 ;
+async
 __delete__
 (
 )

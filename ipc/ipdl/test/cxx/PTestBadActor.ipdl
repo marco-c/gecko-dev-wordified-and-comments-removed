@@ -44,10 +44,12 @@ PTestBadActorSub
 ;
 child
 :
+async
 PTestBadActorSub
 (
 )
 ;
+async
 __delete__
 (
 )

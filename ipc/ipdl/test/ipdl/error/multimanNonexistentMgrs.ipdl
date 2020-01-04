@@ -8,10 +8,12 @@ Hutch
 ;
 child
 :
+async
 Dummy
 (
 )
 ;
+async
 __delete__
 (
 )

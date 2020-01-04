@@ -60,14 +60,17 @@ answeredParent
 ;
 child
 :
+async
 Start
 (
 )
 ;
+async
 Wakeup
 (
 )
 ;
+async
 Wakeup3
 (
 )
@@ -77,6 +80,7 @@ Child
 (
 )
 ;
+async
 __delete__
 (
 )

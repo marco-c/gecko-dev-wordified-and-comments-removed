@@ -17,6 +17,7 @@ PTestFailedCtorSub
 ;
 parent
 :
+async
 __delete__
 (
 )

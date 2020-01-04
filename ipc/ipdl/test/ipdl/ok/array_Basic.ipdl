@@ -3,6 +3,7 @@ array_Basic
 {
 child
 :
+async
 Msg
 (
 int

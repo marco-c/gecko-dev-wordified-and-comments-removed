@@ -163,6 +163,7 @@ PNecko
 ;
 child
 :
+async
 __delete__
 (
 )

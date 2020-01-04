@@ -16,10 +16,12 @@ PTestActorPunning
 ;
 child
 :
+async
 Bad
 (
 )
 ;
+async
 __delete__
 (
 )

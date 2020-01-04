@@ -112,6 +112,7 @@ PGMP
 ;
 child
 :
+async
 TimerExpired
 (
 uint32_t
@@ -120,6 +121,7 @@ aTimerId
 ;
 parent
 :
+async
 SetTimer
 (
 uint32_t
@@ -128,6 +130,7 @@ uint32_t
 aTimeoutMs
 )
 ;
+async
 __delete__
 (
 )

@@ -419,6 +419,7 @@ child
 parent
 )
 .
+async
 Attributes
 (
 WebBrowserPersistDocumentAttrs
@@ -431,6 +432,7 @@ FileDescriptor
 postFiles
 )
 ;
+async
 InitFailure
 (
 nsresult
@@ -439,16 +441,19 @@ aStatus
 ;
 child
 :
+async
 SetPersistFlags
 (
 uint32_t
 aNewFlags
 )
 ;
+async
 PWebBrowserPersistResources
 (
 )
 ;
+async
 PWebBrowserPersistSerialize
 (
 WebBrowserPersistURIMap
@@ -461,6 +466,7 @@ uint32_t
 aWrapColumn
 )
 ;
+async
 __delete__
 (
 )

@@ -246,6 +246,7 @@ CardState
 .
 *
 /
+async
 NotifyCardStateChanged
 (
 uint32_t
@@ -264,6 +265,7 @@ IccInfo
 .
 *
 /
+async
 NotifyIccInfoChanged
 (
 OptionalIccInfoData
@@ -297,6 +299,7 @@ JSON
 .
 *
 /
+async
 NotifyStkCommand
 (
 nsString
@@ -319,6 +322,7 @@ UICC
 .
 *
 /
+async
 NotifyStkSessionEnd
 (
 )
@@ -342,6 +346,7 @@ PIcc
 .
 *
 /
+async
 __delete__
 (
 )
@@ -364,6 +369,7 @@ parent
 .
 *
 /
+async
 PIccRequest
 (
 IccRequest
@@ -407,6 +413,7 @@ JSON
 .
 *
 /
+async
 StkResponse
 (
 nsString
@@ -430,6 +437,7 @@ UICC
 .
 *
 /
+async
 StkMenuSelection
 (
 uint16_t
@@ -453,6 +461,7 @@ UICC
 .
 *
 /
+async
 StkTimerExpiration
 (
 uint16_t
@@ -488,6 +497,7 @@ JSON
 .
 *
 /
+async
 StkEventDownload
 (
 nsString

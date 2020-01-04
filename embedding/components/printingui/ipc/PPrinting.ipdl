@@ -169,10 +169,12 @@ PrintData
 settings
 )
 ;
+async
 PPrintProgressDialog
 (
 )
 ;
+async
 PPrintSettingsDialog
 (
 )
@@ -200,6 +202,7 @@ PRemotePrintJob
 (
 )
 ;
+async
 __delete__
 (
 )

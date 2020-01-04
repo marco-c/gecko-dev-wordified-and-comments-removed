@@ -195,6 +195,7 @@ changed
 .
 *
 /
+async
 NotifyFrequencyChanged
 (
 double
@@ -219,6 +220,7 @@ changed
 .
 *
 /
+async
 NotifyEnabledChanged
 (
 bool
@@ -241,6 +243,7 @@ disabled
 .
 *
 /
+async
 NotifyRDSEnabledChanged
 (
 bool
@@ -262,6 +265,7 @@ code
 .
 *
 /
+async
 NotifyPIChanged
 (
 bool
@@ -283,6 +287,7 @@ new
 PTY
 *
 /
+async
 NotifyPTYChanged
 (
 bool
@@ -306,6 +311,7 @@ name
 .
 *
 /
+async
 NotifyPSChanged
 (
 nsString
@@ -325,6 +331,7 @@ radiotext
 .
 *
 /
+async
 NotifyRadiotextChanged
 (
 nsString
@@ -346,12 +353,14 @@ received
 .
 *
 /
+async
 NotifyNewRDSGroup
 (
 uint64_t
 data
 )
 ;
+async
 __delete__
 (
 )
@@ -477,6 +486,7 @@ prone
 .
 *
 /
+async
 PFMRadioRequest
 (
 FMRadioRequestArgs
@@ -493,6 +503,7 @@ Disable
 audio
 *
 /
+async
 EnableAudio
 (
 bool
@@ -509,6 +520,7 @@ group
 mask
 *
 /
+async
 SetRDSGroupMask
 (
 uint32_t

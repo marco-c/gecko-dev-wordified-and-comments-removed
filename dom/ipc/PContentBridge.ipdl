@@ -408,6 +408,7 @@ BlobConstructorParams
 params
 )
 ;
+async
 AsyncMessage
 (
 nsString

@@ -18,6 +18,7 @@ subprotocolOpens
 (
 )
 ;
+async
 __delete__
 (
 )

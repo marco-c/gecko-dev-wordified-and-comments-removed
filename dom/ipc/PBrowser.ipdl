@@ -979,6 +979,7 @@ PPluginWidget
 ;
 both
 :
+async
 AsyncMessage
 (
 nsString
@@ -1024,6 +1025,7 @@ browser
 .
 *
 /
+async
 PRenderFrame
 (
 )
@@ -1081,6 +1083,7 @@ of
 .
 *
 /
+async
 PDocAccessible
 (
 nullable
@@ -1267,6 +1270,7 @@ document
 .
 *
 /
+async
 MoveFocus
 (
 bool
@@ -1275,6 +1279,7 @@ bool
 forDocumentNavigation
 )
 ;
+async
 Event
 (
 RemoteDOMEvent
@@ -2076,6 +2081,7 @@ inactive
 .
 *
 /
+async
 RequestFocus
 (
 bool
@@ -2105,6 +2111,7 @@ disabled
 .
 *
 /
+async
 EnableDisableCommands
 (
 nsString
@@ -2286,6 +2293,7 @@ update
 .
 *
 /
+async
 SetCursor
 (
 uint32_t
@@ -2411,6 +2419,7 @@ update
 .
 *
 /
+async
 SetCustomCursor
 (
 nsCString
@@ -2460,6 +2469,7 @@ hover
 .
 *
 /
+async
 SetStatus
 (
 uint32_t
@@ -2492,6 +2502,7 @@ document
 .
 *
 /
+async
 ShowTooltip
 (
 uint32_t
@@ -2502,6 +2513,7 @@ nsString
 tooltip
 )
 ;
+async
 HideTooltip
 (
 )
@@ -2530,6 +2542,7 @@ yet
 .
 *
 /
+async
 PColorPicker
 (
 nsString
@@ -2538,6 +2551,7 @@ nsString
 initialColor
 )
 ;
+async
 PFilePicker
 (
 nsString
@@ -2607,6 +2621,7 @@ provided
 .
 *
 /
+async
 PIndexedDBPermissionRequest
 (
 Principal
@@ -2758,6 +2773,7 @@ document
 .
 *
 /
+async
 ZoomToRect
 (
 uint32_t
@@ -2832,6 +2848,7 @@ preventDefault
 .
 *
 /
+async
 ContentReceivedInputBlock
 (
 ScrollableLayerGuid
@@ -2881,6 +2898,7 @@ event
 .
 *
 /
+async
 SetTargetAPZC
 (
 uint64_t
@@ -2931,6 +2949,7 @@ event
 .
 *
 /
+async
 SetAllowedTouchBehavior
 (
 uint64_t
@@ -2985,6 +3004,7 @@ constraints
 .
 *
 /
+async
 UpdateZoomConstraints
 (
 uint32_t
@@ -3034,6 +3054,7 @@ it
 .
 *
 /
+async
 RespondStartSwipeEvent
 (
 uint64_t
@@ -3100,6 +3121,7 @@ message
 .
 *
 /
+async
 AsyncAuthPrompt
 (
 nsCString
@@ -3110,16 +3132,19 @@ uint64_t
 aCallbackId
 )
 ;
+async
 __delete__
 (
 )
 ;
+async
 ReplyKeyEvent
 (
 WidgetKeyboardEvent
 event
 )
 ;
+async
 DispatchAfterKeyboardEvent
 (
 WidgetKeyboardEvent
@@ -3138,6 +3163,7 @@ MaybeNativeKeyBinding
 bindings
 )
 ;
+async
 SynthesizeNativeKeyEvent
 (
 int32_t
@@ -3154,6 +3180,7 @@ uint64_t
 aObserverId
 )
 ;
+async
 SynthesizeNativeMouseEvent
 (
 LayoutDeviceIntPoint
@@ -3166,6 +3193,7 @@ uint64_t
 aObserverId
 )
 ;
+async
 SynthesizeNativeMouseMove
 (
 LayoutDeviceIntPoint
@@ -3174,6 +3202,7 @@ uint64_t
 aObserverId
 )
 ;
+async
 SynthesizeNativeMouseScrollEvent
 (
 LayoutDeviceIntPoint
@@ -3194,6 +3223,7 @@ uint64_t
 aObserverId
 )
 ;
+async
 SynthesizeNativeTouchPoint
 (
 uint32_t
@@ -3210,6 +3240,7 @@ uint64_t
 aObserverId
 )
 ;
+async
 SynthesizeNativeTouchTap
 (
 ScreenIntPoint
@@ -3220,6 +3251,7 @@ uint64_t
 aObserverId
 )
 ;
+async
 ClearNativeTouchSequence
 (
 uint64_t
@@ -3228,6 +3260,7 @@ aObserverId
 ;
 child
 :
+async
 NativeSynthesisResponse
 (
 uint64_t
@@ -3405,6 +3438,7 @@ AsyncDragMetrics
 aDragMetrics
 )
 ;
+async
 InvokeDragSession
 (
 IPCDataTransfer
@@ -3524,6 +3558,7 @@ point
 .
 *
 /
+async
 Show
 (
 ScreenIntSize
@@ -3541,6 +3576,7 @@ bool
 parentIsActive
 )
 ;
+async
 LoadURL
 (
 nsCString
@@ -3551,6 +3587,7 @@ ShowInfo
 info
 )
 ;
+async
 OpenURI
 (
 URIParams
@@ -3559,6 +3596,7 @@ uint32_t
 flags
 )
 ;
+async
 CacheFileDescriptor
 (
 nsString
@@ -3567,6 +3605,7 @@ FileDescriptor
 fd
 )
 ;
+async
 UpdateDimensions
 (
 CSSRect
@@ -3582,6 +3621,7 @@ chromeDisp
 )
 compressall
 ;
+async
 UpdateFrame
 (
 FrameMetrics
@@ -3627,6 +3667,7 @@ for
 these
 functions
 .
+async
 RequestFlingSnap
 (
 ViewID
@@ -3635,6 +3676,7 @@ CSSPoint
 aDestination
 )
 ;
+async
 AcknowledgeScrollUpdate
 (
 ViewID
@@ -3643,6 +3685,7 @@ uint32_t
 aScrollGeneration
 )
 ;
+async
 HandleDoubleTap
 (
 CSSPoint
@@ -3653,6 +3696,7 @@ ScrollableLayerGuid
 aGuid
 )
 ;
+async
 HandleSingleTap
 (
 CSSPoint
@@ -3663,6 +3707,7 @@ ScrollableLayerGuid
 aGuid
 )
 ;
+async
 HandleLongTap
 (
 CSSPoint
@@ -3675,6 +3720,7 @@ uint64_t
 aInputBlockId
 )
 ;
+async
 NotifyAPZStateChange
 (
 ViewID
@@ -3685,6 +3731,7 @@ int
 aArg
 )
 ;
+async
 NotifyFlushComplete
 (
 )
@@ -3705,14 +3752,17 @@ child
 .
 *
 /
+async
 Activate
 (
 )
 ;
+async
 Deactivate
 (
 )
 ;
+async
 ParentActivated
 (
 bool
@@ -3743,6 +3793,7 @@ state
 .
 *
 /
+async
 StopIMEStateManagement
 (
 )
@@ -3770,6 +3821,7 @@ process
 .
 *
 /
+async
 MenuKeyboardListenerInstalled
 (
 bool
@@ -3786,6 +3838,7 @@ sendMouseEvent
 .
 *
 /
+async
 MouseEvent
 (
 nsString
@@ -3835,6 +3888,7 @@ one
 .
 *
 /
+async
 RealMouseMoveEvent
 (
 WidgetMouseEvent
@@ -3925,6 +3979,7 @@ lost
 .
 *
 /
+async
 SynthMouseMoveEvent
 (
 WidgetMouseEvent
@@ -3935,6 +3990,7 @@ uint64_t
 aInputBlockId
 )
 ;
+async
 RealMouseButtonEvent
 (
 WidgetMouseEvent
@@ -3945,6 +4001,7 @@ uint64_t
 aInputBlockId
 )
 ;
+async
 RealKeyEvent
 (
 WidgetKeyboardEvent
@@ -3953,6 +4010,7 @@ MaybeNativeKeyBinding
 keyBinding
 )
 ;
+async
 MouseWheelEvent
 (
 WidgetWheelEvent
@@ -3963,6 +4021,7 @@ uint64_t
 aInputBlockId
 )
 ;
+async
 RealTouchEvent
 (
 WidgetTouchEvent
@@ -3975,6 +4034,7 @@ nsEventStatus
 aApzResponse
 )
 ;
+async
 RealTouchMoveEvent
 (
 WidgetTouchEvent
@@ -3987,6 +4047,7 @@ nsEventStatus
 aApzResponse
 )
 ;
+async
 RealDragEvent
 (
 WidgetDragEvent
@@ -3997,6 +4058,7 @@ uint32_t
 aDropEffect
 )
 ;
+async
 PluginEvent
 (
 WidgetPluginEvent
@@ -4013,6 +4075,7 @@ sendKeyEvent
 .
 *
 /
+async
 KeyEvent
 (
 nsString
@@ -4041,6 +4104,7 @@ events
 .
 *
 /
+async
 MouseScrollTestEvent
 (
 ViewID
@@ -4049,12 +4113,14 @@ nsString
 aEvent
 )
 ;
+async
 CompositionEvent
 (
 WidgetCompositionEvent
 event
 )
 ;
+async
 SelectionEvent
 (
 WidgetSelectionEvent
@@ -4075,6 +4141,7 @@ parent
 .
 *
 /
+async
 ActivateFrameEvent
 (
 nsString
@@ -4083,6 +4150,7 @@ bool
 capture
 )
 ;
+async
 LoadRemoteScript
 (
 nsString
@@ -4217,6 +4285,7 @@ renderSize
 .
 *
 /
+async
 PDocumentRenderer
 (
 nsRect
@@ -4279,6 +4348,7 @@ parent
 .
 *
 /
+async
 Destroy
 (
 )
@@ -4308,6 +4378,7 @@ parent
 .
 *
 /
+async
 SetUpdateHitRegion
 (
 bool
@@ -4332,6 +4403,7 @@ state
 .
 *
 /
+async
 SetDocShellIsActive
 (
 bool
@@ -4442,6 +4514,7 @@ f6
 .
 *
 /
+async
 NavigateByKey
 (
 bool
@@ -4578,6 +4651,7 @@ parent
 .
 *
 /
+async
 UIResolutionChanged
 (
 float
@@ -4609,6 +4683,7 @@ necessary
 .
 *
 /
+async
 ThemeChanged
 (
 LookAndFeelInt
@@ -4633,6 +4708,7 @@ offline
 status
 *
 /
+async
 AppOfflineStatus
 (
 uint32_t
@@ -4661,6 +4737,7 @@ another
 .
 *
 /
+async
 SwappedWithOtherRemoteLoader
 (
 )
@@ -4719,6 +4796,7 @@ are
 pressed
 *
 /
+async
 HandleAccessKey
 (
 uint32_t
@@ -4744,6 +4822,7 @@ child
 process
 *
 /
+async
 AudioChannelChangeNotification
 (
 uint32_t

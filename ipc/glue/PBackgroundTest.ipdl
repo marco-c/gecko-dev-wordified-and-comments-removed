@@ -90,6 +90,7 @@ PBackground
 ;
 child
 :
+async
 __delete__
 (
 nsCString

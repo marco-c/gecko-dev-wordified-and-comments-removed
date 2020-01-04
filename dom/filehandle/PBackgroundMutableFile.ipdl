@@ -114,10 +114,12 @@ PBackgroundFileHandle
 ;
 parent
 :
+async
 DeleteMe
 (
 )
 ;
+async
 PBackgroundFileHandle
 (
 FileMode
@@ -143,6 +145,7 @@ fileId
 ;
 child
 :
+async
 __delete__
 (
 )

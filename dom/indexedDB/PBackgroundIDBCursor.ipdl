@@ -241,10 +241,12 @@ PBackgroundIDBVersionChangeTransaction
 ;
 parent
 :
+async
 DeleteMe
 (
 )
 ;
+async
 Continue
 (
 CursorRequestParams
@@ -255,10 +257,12 @@ key
 ;
 child
 :
+async
 __delete__
 (
 )
 ;
+async
 Response
 (
 CursorResponse

@@ -25,12 +25,14 @@ PTestBridgeMainSub
 ;
 child
 :
+async
 Start
 (
 )
 ;
 parent
 :
+async
 __delete__
 (
 )

@@ -156,6 +156,7 @@ PGMP
 ;
 parent
 :
+async
 AnnotateCrashReport
 (
 nsCString
@@ -164,12 +165,14 @@ nsCString
 data
 )
 ;
+async
 AppendAppNotes
 (
 nsCString
 data
 )
 ;
+async
 __delete__
 (
 )

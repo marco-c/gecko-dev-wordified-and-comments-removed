@@ -350,6 +350,7 @@ PTelephonyRequest
 ;
 child
 :
+async
 NotifyCallStateChanged
 (
 nsTelephonyCallInfo
@@ -358,6 +359,7 @@ nsTelephonyCallInfo
 aAllInfo
 )
 ;
+async
 NotifyCdmaCallWaiting
 (
 uint32_t
@@ -366,6 +368,7 @@ IPCCdmaWaitingCallData
 aData
 )
 ;
+async
 NotifyConferenceError
 (
 nsString
@@ -374,6 +377,7 @@ nsString
 aMessage
 )
 ;
+async
 NotifySupplementaryService
 (
 uint32_t
@@ -403,6 +407,7 @@ PTelephony
 .
 *
 /
+async
 __delete__
 (
 )
@@ -425,20 +430,24 @@ parent
 .
 *
 /
+async
 PTelephonyRequest
 (
 IPCTelephonyRequest
 request
 )
 ;
+async
 RegisterListener
 (
 )
 ;
+async
 UnregisterListener
 (
 )
 ;
+async
 StartTone
 (
 uint32_t
@@ -447,6 +456,7 @@ nsString
 aTone
 )
 ;
+async
 StopTone
 (
 uint32_t
@@ -463,6 +473,7 @@ bool
 aMuted
 )
 ;
+async
 SetMicrophoneMuted
 (
 bool
@@ -479,6 +490,7 @@ bool
 aEnabled
 )
 ;
+async
 SetSpeakerEnabled
 (
 bool

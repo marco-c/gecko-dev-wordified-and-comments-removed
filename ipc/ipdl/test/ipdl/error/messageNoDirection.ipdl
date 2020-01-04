@@ -1,6 +1,7 @@
 protocol
 messageNoDirection
 {
+async
 NoDirection
 (
 )

@@ -102,12 +102,14 @@ PContent
 ;
 parent
 :
+async
 OnStartRequest
 (
 uint32_t
 contentLength
 )
 ;
+async
 OnDataAvailable
 (
 nsCString
@@ -118,12 +120,14 @@ uint32_t
 count
 )
 ;
+async
 OnStopRequest
 (
 nsresult
 code
 )
 ;
+async
 DivertToParentUsing
 (
 PChannelDiverter
@@ -132,6 +136,7 @@ diverter
 ;
 child
 :
+async
 __delete__
 (
 )

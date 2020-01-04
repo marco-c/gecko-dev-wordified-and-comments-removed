@@ -3,10 +3,12 @@ trans_WrongDirection2
 {
 parent
 :
+async
 Msg
 (
 )
 ;
+async
 __delete__
 (
 )

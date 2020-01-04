@@ -303,6 +303,7 @@ TCPOption
 binaryType
 )
 .
+async
 Open
 (
 nsString
@@ -346,6 +347,7 @@ and
 localPort
 |
 .
+async
 OpenBind
 (
 nsCString
@@ -389,6 +391,7 @@ it
 s
 trackingNumber
 .
+async
 Data
 (
 SendableData
@@ -412,6 +415,7 @@ method
 to
 parent
 .
+async
 StartTLS
 (
 )
@@ -431,6 +435,7 @@ method
 to
 parent
 .
+async
 Suspend
 (
 )
@@ -450,6 +455,7 @@ method
 to
 parent
 .
+async
 Resume
 (
 )
@@ -469,6 +475,7 @@ method
 to
 parent
 .
+async
 Close
 (
 )
@@ -485,6 +492,7 @@ dispatched
 by
 parent
 .
+async
 Callback
 (
 nsString
@@ -535,6 +543,7 @@ send
 (
 )
 .
+async
 UpdateBufferedAmount
 (
 uint32_t
@@ -545,10 +554,12 @@ trackingNumber
 ;
 both
 :
+async
 RequestDelete
 (
 )
 ;
+async
 __delete__
 (
 )

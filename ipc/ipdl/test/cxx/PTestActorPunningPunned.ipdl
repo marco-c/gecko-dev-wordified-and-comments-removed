@@ -16,6 +16,7 @@ PTestActorPunning
 ;
 child
 :
+async
 __delete__
 (
 )

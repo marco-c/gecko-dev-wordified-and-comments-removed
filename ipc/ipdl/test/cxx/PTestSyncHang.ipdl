@@ -9,6 +9,7 @@ PTestSyncHang
 {
 child
 :
+async
 __delete__
 (
 )

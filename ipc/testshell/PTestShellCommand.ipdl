@@ -111,6 +111,7 @@ PTestShell
 ;
 parent
 :
+async
 __delete__
 (
 nsString

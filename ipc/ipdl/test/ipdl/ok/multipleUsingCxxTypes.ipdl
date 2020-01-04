@@ -33,6 +33,7 @@ multipleUsingCxxTypes
 {
 child
 :
+async
 Msg
 (
 void_t

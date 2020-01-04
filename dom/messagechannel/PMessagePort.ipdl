@@ -223,6 +223,7 @@ Recv__delete__
 /
 parent
 :
+async
 PostMessages
 (
 MessagePortMessage
@@ -231,6 +232,7 @@ MessagePortMessage
 messages
 )
 ;
+async
 Disentangle
 (
 MessagePortMessage
@@ -239,16 +241,19 @@ MessagePortMessage
 messages
 )
 ;
+async
 StopSendingData
 (
 )
 ;
+async
 Close
 (
 )
 ;
 child
 :
+async
 Entangled
 (
 MessagePortMessage
@@ -257,6 +262,7 @@ MessagePortMessage
 messages
 )
 ;
+async
 ReceiveData
 (
 MessagePortMessage
@@ -265,10 +271,12 @@ MessagePortMessage
 messages
 )
 ;
+async
 StopSendingDataConfirmed
 (
 )
 ;
+async
 __delete__
 (
 )

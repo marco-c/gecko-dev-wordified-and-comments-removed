@@ -167,6 +167,7 @@ SelectCacheFileToRead
 .
 child
 :
+async
 OnOpenMetadataForRead
 (
 Metadata
@@ -175,12 +176,14 @@ metadata
 ;
 parent
 :
+async
 SelectCacheFileToRead
 (
 uint32_t
 moduleIndex
 )
 ;
+async
 CacheMiss
 (
 )
@@ -209,6 +212,7 @@ open
 file
 descriptor
 .
+async
 OnOpenCacheFile
 (
 int64_t
@@ -219,6 +223,7 @@ fileDesc
 ;
 both
 :
+async
 __delete__
 (
 AsmJSCacheResult

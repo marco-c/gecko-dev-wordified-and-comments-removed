@@ -170,10 +170,12 @@ PGMPContent
 ;
 child
 :
+async
 Init
 (
 )
 ;
+async
 CreateSession
 (
 uint32_t
@@ -190,6 +192,7 @@ GMPSessionType
 aSessionType
 )
 ;
+async
 LoadSession
 (
 uint32_t
@@ -198,6 +201,7 @@ nsCString
 aSessionId
 )
 ;
+async
 UpdateSession
 (
 uint32_t
@@ -210,6 +214,7 @@ uint8_t
 aResponse
 )
 ;
+async
 CloseSession
 (
 uint32_t
@@ -218,6 +223,7 @@ nsCString
 aSessionId
 )
 ;
+async
 RemoveSession
 (
 uint32_t
@@ -226,6 +232,7 @@ nsCString
 aSessionId
 )
 ;
+async
 SetServerCertificate
 (
 uint32_t
@@ -236,6 +243,7 @@ uint8_t
 aServerCert
 )
 ;
+async
 Decrypt
 (
 uint32_t
@@ -248,16 +256,19 @@ GMPDecryptionData
 aMetadata
 )
 ;
+async
 DecryptingComplete
 (
 )
 ;
 parent
 :
+async
 __delete__
 (
 )
 ;
+async
 SetSessionId
 (
 uint32_t
@@ -266,6 +277,7 @@ nsCString
 aSessionId
 )
 ;
+async
 ResolveLoadSessionPromise
 (
 uint32_t
@@ -274,12 +286,14 @@ bool
 aSuccess
 )
 ;
+async
 ResolvePromise
 (
 uint32_t
 aPromiseId
 )
 ;
+async
 RejectPromise
 (
 uint32_t
@@ -290,6 +304,7 @@ nsCString
 aMessage
 )
 ;
+async
 SessionMessage
 (
 nsCString
@@ -302,6 +317,7 @@ uint8_t
 aMessage
 )
 ;
+async
 ExpirationChange
 (
 nsCString
@@ -310,12 +326,14 @@ double
 aExpiryTime
 )
 ;
+async
 SessionClosed
 (
 nsCString
 aSessionId
 )
 ;
+async
 SessionError
 (
 nsCString
@@ -328,6 +346,7 @@ nsCString
 aMessage
 )
 ;
+async
 KeyStatusChanged
 (
 nsCString
@@ -340,12 +359,14 @@ GMPMediaKeyStatus
 aStatus
 )
 ;
+async
 SetCaps
 (
 uint64_t
 aCaps
 )
 ;
+async
 Decrypted
 (
 uint32_t

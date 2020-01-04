@@ -236,12 +236,14 @@ PTelephony
 ;
 child
 :
+async
 NotifyEnumerateCallState
 (
 nsTelephonyCallInfo
 aInfo
 )
 ;
+async
 NotifyDialMMI
 (
 nsString
@@ -262,6 +264,7 @@ completed
 .
 *
 /
+async
 __delete__
 (
 IPCTelephonyResponse

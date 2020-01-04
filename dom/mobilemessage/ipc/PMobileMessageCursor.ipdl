@@ -139,6 +139,7 @@ PSms
 ;
 child
 :
+async
 NotifyResult
 (
 MobileMessageCursorData
@@ -160,6 +161,7 @@ completed
 .
 *
 /
+async
 __delete__
 (
 int32_t
@@ -168,6 +170,7 @@ aError
 ;
 parent
 :
+async
 Continue
 (
 )

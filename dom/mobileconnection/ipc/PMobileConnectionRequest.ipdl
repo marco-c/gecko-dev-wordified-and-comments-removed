@@ -148,6 +148,7 @@ completed
 .
 *
 /
+async
 __delete__
 (
 MobileConnectionReply

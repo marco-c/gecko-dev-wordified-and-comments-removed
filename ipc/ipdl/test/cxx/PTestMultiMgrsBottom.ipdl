@@ -1,18 +1,10 @@
 include
 protocol
-"
 PTestMultiMgrsLeft
-.
-ipdl
-"
 ;
 include
 protocol
-"
 PTestMultiMgrsRight
-.
-ipdl
-"
 ;
 namespace
 mozilla
@@ -30,6 +22,7 @@ PTestMultiMgrsRight
 ;
 child
 :
+async
 __delete__
 (
 )

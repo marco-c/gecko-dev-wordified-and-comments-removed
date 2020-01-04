@@ -24,6 +24,7 @@ PTestDescSubsub
 ;
 child
 :
+async
 __delete__
 (
 )

@@ -1,10 +1,6 @@
 include
 protocol
-"
 multimanDupMgrsMgr
-.
-ipdl
-"
 ;
 protocol
 multimanDupMgrs
@@ -16,6 +12,7 @@ multimanDupMgrsMgr
 ;
 child
 :
+async
 __delete__
 (
 )

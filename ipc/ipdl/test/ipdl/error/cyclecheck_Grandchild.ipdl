@@ -21,6 +21,7 @@ cyclecheck_Parent
 (
 )
 ;
+async
 __delete__
 (
 )

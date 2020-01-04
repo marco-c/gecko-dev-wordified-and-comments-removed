@@ -210,6 +210,7 @@ RenderViewImpl
 :
 didSerializeDataForFrame
 .
+async
 WriteData
 (
 uint8_t
@@ -226,6 +227,7 @@ the
 onFinish
 method
 .
+async
 __delete__
 (
 nsCString

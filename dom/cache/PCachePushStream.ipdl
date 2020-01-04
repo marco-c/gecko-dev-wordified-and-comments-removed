@@ -77,12 +77,14 @@ PCache
 ;
 parent
 :
+async
 Buffer
 (
 nsCString
 aBuffer
 )
 ;
+async
 Close
 (
 nsresult
@@ -133,6 +135,7 @@ SendClose
 (
 )
 .
+async
 __delete__
 (
 )

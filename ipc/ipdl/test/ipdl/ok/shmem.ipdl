@@ -13,6 +13,7 @@ shmem
 {
 parent
 :
+async
 Msg
 (
 Shmem

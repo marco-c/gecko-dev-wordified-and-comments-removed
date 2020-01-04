@@ -16,12 +16,14 @@ return
 names
 child
 :
+async
 Msg1
 (
 int
 f
 )
 ;
+async
 Msg2
 (
 int

@@ -3,6 +3,7 @@ Nullable
 {
 child
 :
+async
 Msg
 (
 nullable

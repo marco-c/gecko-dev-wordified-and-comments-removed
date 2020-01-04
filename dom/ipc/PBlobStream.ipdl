@@ -81,6 +81,7 @@ PBlob
 ;
 child
 :
+async
 __delete__
 (
 InputStreamParams

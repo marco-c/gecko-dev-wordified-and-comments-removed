@@ -18,6 +18,7 @@ subprotocolSpawns
 (
 )
 ;
+async
 __delete__
 (
 )

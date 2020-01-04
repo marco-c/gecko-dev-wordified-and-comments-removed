@@ -3,6 +3,7 @@ actorparam_badState
 {
 child
 :
+async
 Msg
 (
 actorparam_badState
@@ -11,6 +12,7 @@ FARGEL
 p
 )
 ;
+async
 __delete__
 (
 )

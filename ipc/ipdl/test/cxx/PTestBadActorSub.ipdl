@@ -24,6 +24,7 @@ __delete__
 ;
 parent
 :
+async
 Ping
 (
 )

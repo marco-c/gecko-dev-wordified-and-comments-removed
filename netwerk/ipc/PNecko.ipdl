@@ -395,6 +395,7 @@ PChannelDiverter
 ;
 parent
 :
+async
 __delete__
 (
 )
@@ -408,6 +409,7 @@ PCookieService
 (
 )
 ;
+async
 PHttpChannel
 (
 PBrowserOrId
@@ -418,10 +420,12 @@ HttpChannelCreationArgs
 args
 )
 ;
+async
 PWyciwygChannel
 (
 )
 ;
+async
 PFTPChannel
 (
 PBrowserOrId
@@ -432,6 +436,7 @@ FTPChannelCreationArgs
 args
 )
 ;
+async
 PWebSocket
 (
 PBrowserOrId
@@ -442,6 +447,7 @@ uint32_t
 aSerialID
 )
 ;
+async
 PTCPServerSocket
 (
 uint16_t
@@ -452,6 +458,7 @@ bool
 useArrayBuffers
 )
 ;
+async
 PUDPSocket
 (
 Principal
@@ -460,6 +467,7 @@ nsCString
 filter
 )
 ;
+async
 PDNSRequest
 (
 nsCString
@@ -470,6 +478,7 @@ nsCString
 networkInterface
 )
 ;
+async
 PWebSocketEventListener
 (
 uint64_t
@@ -482,6 +491,7 @@ Predictor
 Methods
 *
 /
+async
 PredPredict
 (
 OptionalURIParams
@@ -496,6 +506,7 @@ bool
 hasVerifier
 )
 ;
+async
 PredLearn
 (
 URIParams
@@ -508,10 +519,12 @@ SerializedLoadContext
 loadContext
 )
 ;
+async
 PredReset
 (
 )
 ;
+async
 PRemoteOpenFile
 (
 SerializedLoadContext
@@ -522,6 +535,7 @@ OptionalURIParams
 appuri
 )
 ;
+async
 SpeculativeConnect
 (
 URIParams
@@ -530,6 +544,7 @@ bool
 anonymous
 )
 ;
+async
 HTMLDNSPrefetch
 (
 nsString
@@ -538,6 +553,7 @@ uint16_t
 flags
 )
 ;
+async
 CancelHTMLDNSPrefetch
 (
 nsString
@@ -582,22 +598,26 @@ URI
 .
 *
 /
+async
 PDataChannel
 (
 uint32_t
 channelId
 )
 ;
+async
 PRtspController
 (
 )
 ;
+async
 PRtspChannel
 (
 RtspChannelConnectArgs
 args
 )
 ;
+async
 PChannelDiverter
 (
 ChannelDiverterArgs
@@ -642,6 +662,7 @@ an
 nsIAuthPromptCallback
 *
 /
+async
 OnAuthAvailable
 (
 uint64_t
@@ -654,6 +675,7 @@ nsString
 domain
 )
 ;
+async
 OnAuthCancelled
 (
 uint64_t
@@ -662,6 +684,7 @@ bool
 userCancel
 )
 ;
+async
 RemoveSchedulingContext
 (
 nsCString
@@ -715,6 +738,7 @@ PHttpChannel
 constructor
 *
 /
+async
 AsyncAuthPromptForNestedFrame
 (
 TabId
@@ -742,6 +766,7 @@ offline
 or
 online
 )
+async
 AppOfflineStatus
 (
 uint32_t
@@ -756,12 +781,14 @@ Predictor
 Methods
 *
 /
+async
 PredOnPredictPreconnect
 (
 URIParams
 uri
 )
 ;
+async
 PredOnPredictDNS
 (
 URIParams
@@ -812,6 +839,7 @@ host
 port
 unused
 .
+async
 PTCPSocket
 (
 nsString

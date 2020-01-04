@@ -32,6 +32,7 @@ mutualRecUnion
 {
 child
 :
+async
 Test
 (
 X
@@ -42,6 +43,7 @@ Z
 z
 )
 ;
+async
 __delete__
 (
 )

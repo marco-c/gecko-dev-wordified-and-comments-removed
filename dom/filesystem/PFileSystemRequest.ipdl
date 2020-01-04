@@ -191,6 +191,7 @@ PContent
 ;
 child
 :
+async
 __delete__
 (
 FileSystemResponseValue

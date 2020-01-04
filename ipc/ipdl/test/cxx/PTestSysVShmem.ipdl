@@ -9,6 +9,7 @@ PTestSysVShmem
 {
 child
 :
+async
 Give
 (
 Shmem
@@ -21,6 +22,7 @@ expectedSize
 ;
 parent
 :
+async
 Take
 (
 Shmem
@@ -31,6 +33,7 @@ size_t
 expectedSize
 )
 ;
+async
 __delete__
 (
 )

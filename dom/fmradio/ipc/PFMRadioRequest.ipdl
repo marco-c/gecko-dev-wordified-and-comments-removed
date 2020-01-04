@@ -160,6 +160,7 @@ PFMRadio
 ;
 child
 :
+async
 __delete__
 (
 FMRadioResponseType

@@ -157,6 +157,7 @@ OpenHeapSnapshotTempFileResponse
 response
 )
 ;
+async
 __delete__
 (
 )

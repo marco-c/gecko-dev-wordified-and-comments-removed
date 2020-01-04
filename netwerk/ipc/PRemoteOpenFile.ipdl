@@ -180,6 +180,7 @@ Sir
 .
 .
 .
+async
 __delete__
 (
 FileDescriptor

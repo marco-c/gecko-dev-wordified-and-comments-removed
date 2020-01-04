@@ -133,6 +133,7 @@ PContent
 ;
 child
 :
+async
 NotifyReceivedMessage
 (
 uint32_t
@@ -182,6 +183,7 @@ cellbroadcast
 .
 *
 /
+async
 __delete__
 (
 )

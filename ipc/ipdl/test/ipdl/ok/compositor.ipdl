@@ -12,6 +12,7 @@ content
 ;
 child
 :
+async
 __delete__
 (
 )
