@@ -146,8 +146,10 @@ mHasGamepadListener
 false
 )
 {
+RefPtr
+<
 GamepadPlatformService
-*
+>
 service
 =
 GamepadPlatformService
@@ -228,8 +230,10 @@ mHasGamepadListener
 =
 false
 ;
+RefPtr
+<
 GamepadPlatformService
-*
+>
 service
 =
 GamepadPlatformService
@@ -287,8 +291,10 @@ mHasGamepadListener
 =
 false
 ;
+RefPtr
+<
 GamepadPlatformService
-*
+>
 service
 =
 GamepadPlatformService

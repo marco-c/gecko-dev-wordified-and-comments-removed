@@ -57,8 +57,10 @@ AssertIsOnBackgroundThread
 (
 )
 ;
+RefPtr
+<
 GamepadPlatformService
-*
+>
 service
 =
 GamepadPlatformService
