@@ -298,10 +298,11 @@ AudioData
 >
 mCurrentData
 ;
-uint32_t
-mFramesPopped
-=
-0
+UniquePtr
+<
+AudioBufferCursor
+>
+mCursor
 ;
 bool
 mErrored
