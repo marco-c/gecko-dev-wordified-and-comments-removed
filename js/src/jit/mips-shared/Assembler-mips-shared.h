@@ -815,13 +815,6 @@ a1
 static
 constexpr
 Register
-AsmJSIonExitRegE2
-=
-a2
-;
-static
-constexpr
-Register
 AsmJSIonExitRegD0
 =
 a0

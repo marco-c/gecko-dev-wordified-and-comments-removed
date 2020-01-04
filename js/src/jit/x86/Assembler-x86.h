@@ -691,13 +691,6 @@ eax
 static
 constexpr
 Register
-AsmJSIonExitRegE2
-=
-ebx
-;
-static
-constexpr
-Register
 AsmJSIonExitRegReturnData
 =
 edx

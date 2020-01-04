@@ -874,13 +874,6 @@ r1
 static
 constexpr
 Register
-AsmJSIonExitRegE2
-=
-r2
-;
-static
-constexpr
-Register
 AsmJSIonExitRegReturnData
 =
 r2

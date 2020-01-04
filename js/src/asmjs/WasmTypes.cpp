@@ -1128,13 +1128,13 @@ case
 SymbolicAddress
 :
 :
-Runtime
+Context
 :
 return
 cx
 -
 >
-runtimeAddressForJit
+contextAddressForJit
 (
 )
 ;
@@ -1142,7 +1142,7 @@ case
 SymbolicAddress
 :
 :
-RuntimeInterruptUint32
+InterruptUint32
 :
 return
 cx

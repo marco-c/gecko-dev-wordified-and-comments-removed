@@ -72142,7 +72142,7 @@ wasm
 SymbolicAddress
 :
 :
-RuntimeInterruptUint32
+InterruptUint32
 Imm32
 (
 0
