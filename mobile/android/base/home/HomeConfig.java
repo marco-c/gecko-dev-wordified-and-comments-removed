@@ -161,6 +161,13 @@ text
 .
 TextUtils
 ;
+import
+android
+.
+util
+.
+Log
+;
 public
 final
 class
@@ -5648,10 +5655,9 @@ for
 PanelConfig
 panelConfig
 :
-mConfigMap
-.
-values
+makeOrderedCopy
 (
+false
 )
 )
 {
