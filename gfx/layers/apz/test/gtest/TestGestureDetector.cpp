@@ -1131,7 +1131,6 @@ touchEnd
 Pan
 (
 apzc
-mcc
 touchStart
 touchEnd
 )
@@ -1207,7 +1206,6 @@ ScreenIntPoint
 10
 10
 )
-mcc
 0
 )
 ;
@@ -1229,7 +1227,6 @@ ScreenIntPoint
 100
 100
 )
-mcc
 0
 )
 ;
@@ -1313,7 +1310,6 @@ blockId
 Pan
 (
 apzc
-mcc
 touchStart
 touchEnd
 false
@@ -1665,7 +1661,6 @@ ScreenIntPoint
 10
 10
 )
-mcc
 TimeDuration
 :
 :
@@ -1793,7 +1788,6 @@ ScreenIntPoint
 10
 10
 )
-mcc
 TimeDuration
 :
 :
@@ -2755,7 +2749,6 @@ ScreenIntPoint
 10
 10
 )
-mcc
 &
 blockIds
 )
@@ -2872,7 +2865,6 @@ ScreenIntPoint
 10
 10
 )
-mcc
 &
 blockIds
 )
@@ -2989,7 +2981,6 @@ ScreenIntPoint
 10
 10
 )
-mcc
 &
 blockIds
 )
@@ -3106,7 +3097,6 @@ ScreenIntPoint
 10
 10
 )
-mcc
 &
 blockIds
 )
@@ -3187,7 +3177,6 @@ ScreenIntPoint
 10
 10
 )
-mcc
 TimeDuration
 :
 :
@@ -3407,7 +3396,6 @@ ScreenIntPoint
 10
 10
 )
-mcc
 TimeDuration
 :
 :
@@ -3785,7 +3773,6 @@ ScreenIntPoint
 10
 10
 )
-mcc
 TimeDuration
 :
 :

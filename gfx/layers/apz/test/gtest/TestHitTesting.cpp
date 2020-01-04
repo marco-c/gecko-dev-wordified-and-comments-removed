@@ -1566,7 +1566,6 @@ Times
 ApzcPanNoFling
 (
 apzcroot
-mcc
 100
 50
 )
@@ -1699,7 +1698,6 @@ Times
 ApzcPanNoFling
 (
 apzcroot
-mcc
 100
 50
 )
@@ -2722,7 +2720,6 @@ start
 ApzcPanNoFling
 (
 apzcroot
-mcc
 100
 50
 )
@@ -2843,7 +2840,6 @@ AdvanceByMillis
 ApzcPanNoFling
 (
 apzcroot
-mcc
 100
 50
 )
@@ -2864,7 +2860,6 @@ fling
 ApzcPanNoFling
 (
 apzcroot
-mcc
 100
 50
 )
@@ -3603,7 +3598,6 @@ ScreenIntPoint
 100
 100
 )
-mcc
 TimeDuration
 :
 :
@@ -3984,7 +3978,6 @@ false
 Pan
 (
 manager
-mcc
 120
 110
 )

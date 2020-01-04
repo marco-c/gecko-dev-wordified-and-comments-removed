@@ -109,7 +109,6 @@ aBehavior
 PanAndCheckStatus
 (
 apzc
-mcc
 touchStart
 touchEnd
 aShouldBeConsumed
@@ -185,7 +184,6 @@ CancelAnimation
 PanAndCheckStatus
 (
 apzc
-mcc
 touchEnd
 touchStart
 aShouldBeConsumed
@@ -275,7 +273,6 @@ VERTICAL_PAN
 PanAndCheckStatus
 (
 apzc
-mcc
 touchStart
 touchEnd
 true

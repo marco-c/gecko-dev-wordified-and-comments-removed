@@ -913,7 +913,6 @@ viewTransformOut
 Pan
 (
 apzc
-mcc
 touchStart
 touchEnd
 )
@@ -987,7 +986,6 @@ true
 ApzcPanNoFling
 (
 apzc
-mcc
 50
 25
 )
@@ -995,7 +993,6 @@ mcc
 Pan
 (
 apzc
-mcc
 25
 45
 )
@@ -1405,7 +1402,6 @@ pan
 ApzcPanNoFling
 (
 apzc
-mcc
 50
 25
 )
@@ -1423,7 +1419,6 @@ pan
 Pan
 (
 apzc
-mcc
 25
 45
 )
@@ -1466,7 +1461,6 @@ touchEnd
 Pan
 (
 apzc
-mcc
 touchStart
 touchEnd
 )
@@ -1677,7 +1671,6 @@ touchEnd
 Pan
 (
 apzc
-mcc
 touchStart
 touchEnd
 )
@@ -1776,7 +1769,6 @@ touchEnd
 Pan
 (
 apzc
-mcc
 touchStart
 touchEnd
 true
