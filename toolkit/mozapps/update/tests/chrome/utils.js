@@ -2773,7 +2773,7 @@ setupFiles
 let
 baseAppDir
 =
-getAppBaseDir
+getGREDir
 (
 )
 ;
@@ -3446,7 +3446,7 @@ resetFiles
 let
 baseAppDir
 =
-getAppBaseDir
+getGREDir
 (
 )
 ;
