@@ -121,6 +121,11 @@ ServiceWorkerEvents
 h
 '
 '
+ServiceWorkerMessageEvent
+.
+h
+'
+'
 ServiceWorkerRegistrar
 .
 h
@@ -397,6 +402,11 @@ cpp
 '
 '
 ServiceWorkerManagerService
+.
+cpp
+'
+'
+ServiceWorkerMessageEvent
 .
 cpp
 '
