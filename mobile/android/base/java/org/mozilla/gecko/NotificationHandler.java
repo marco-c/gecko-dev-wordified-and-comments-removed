@@ -162,6 +162,8 @@ String
 aAlertText
 PendingIntent
 contentIntent
+PendingIntent
+deleteIntent
 )
 {
 remove
@@ -205,6 +207,11 @@ ic_status_logo
 setContentIntent
 (
 contentIntent
+)
+.
+setDeleteIntent
+(
+deleteIntent
 )
 .
 setAutoCancel
