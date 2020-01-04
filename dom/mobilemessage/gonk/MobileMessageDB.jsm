@@ -15512,6 +15512,7 @@ aNumbersCount
 aDelivery
 aHasRead
 aRead
+aHasThreadId
 aThreadId
 aReverse
 aCallback
@@ -15614,7 +15615,17 @@ threadId
 :
 "
 +
+(
+aHasThreadId
+?
 aThreadId
+:
+"
+(
+null
+)
+"
+)
 +
 "
 reverse
@@ -15701,7 +15712,7 @@ aRead
 }
 if
 (
-aThreadId
+aHasThreadId
 )
 {
 filter

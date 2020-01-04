@@ -958,6 +958,8 @@ bool
 aHasRead
 bool
 aRead
+bool
+aHasThreadId
 uint64_t
 aThreadId
 bool
@@ -1080,6 +1082,14 @@ read
 )
 =
 aRead
+;
+data
+.
+hasThreadId
+(
+)
+=
+aHasThreadId
 ;
 data
 .

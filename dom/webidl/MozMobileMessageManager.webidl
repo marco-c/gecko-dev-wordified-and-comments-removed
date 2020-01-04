@@ -466,7 +466,7 @@ long
 ?
 threadId
 =
-0
+null
 ;
 }
 ;
