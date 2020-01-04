@@ -364,7 +364,6 @@ function
 *
 test_modal_dialog_while_opening_tooltip
 (
-done
 )
 {
 let

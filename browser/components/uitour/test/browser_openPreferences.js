@@ -30,21 +30,12 @@ gContentAPI
 var
 gContentWindow
 ;
-function
-test
+add_task
 (
-)
-{
-UITourTest
-(
+setup_UITourTest
 )
 ;
-}
-var
-tests
-=
-[
-taskify
+add_UITour_task
 (
 function
 *
@@ -67,6 +58,7 @@ preferences
 "
 )
 ;
+yield
 gContentAPI
 .
 openPreferences
@@ -89,7 +81,8 @@ tab
 ;
 }
 )
-taskify
+;
+add_UITour_task
 (
 function
 *
@@ -97,6 +90,7 @@ test_openInvalidPreferences
 (
 )
 {
+yield
 gContentAPI
 .
 openPreferences
@@ -183,7 +177,8 @@ ex
 }
 }
 )
-taskify
+;
+add_UITour_task
 (
 function
 *
@@ -208,6 +203,7 @@ privacy
 "
 )
 ;
+yield
 gContentAPI
 .
 openPreferences
@@ -233,5 +229,4 @@ tab
 ;
 }
 )
-]
 ;

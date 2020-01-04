@@ -48,7 +48,6 @@ function
 *
 test_move_tab_to_new_window
 (
-done
 )
 {
 let

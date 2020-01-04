@@ -3194,7 +3194,6 @@ function
 *
 test_treatment_tag
 (
-done
 )
 {
 let
@@ -3214,6 +3213,7 @@ promiseInit
 (
 )
 ;
+yield
 gContentAPI
 .
 setTreatmentTag
@@ -3226,6 +3226,16 @@ baz
 "
 )
 ;
+yield
+new
+Promise
+(
+(
+resolve
+)
+=
+>
+{
 gContentAPI
 .
 getTreatmentTag
@@ -3314,7 +3324,7 @@ setTreatmentTag
 "
 )
 ;
-done
+resolve
 (
 )
 ;
@@ -3329,7 +3339,7 @@ ok
 (
 false
 "
-Exeption
+Exception
 finding
 uitour
 telemetry
@@ -3340,8 +3350,11 @@ ping
 err
 )
 ;
-done
+resolve
 (
+)
+;
+}
 )
 ;
 }
