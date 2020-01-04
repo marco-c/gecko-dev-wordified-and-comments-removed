@@ -344,11 +344,13 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 skin
 /
-devtools
+themes
+/
+images
 /
 filters
 .
@@ -379,11 +381,13 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 skin
 /
-devtools
+themes
+/
+images
 /
 filters
 .
@@ -572,6 +576,8 @@ image
 :
 url
 (
+images
+/
 alerticon
 -
 warning
@@ -637,6 +643,8 @@ image
 :
 url
 (
+images
+/
 debugger
 -
 collapse
@@ -701,6 +709,8 @@ image
 :
 url
 (
+images
+/
 debugger
 -
 expand
@@ -824,6 +834,8 @@ image
 :
 url
 (
+images
+/
 debugger
 -
 collapse
@@ -868,6 +880,8 @@ image
 :
 url
 (
+images
+/
 debugger
 -
 expand
@@ -917,6 +931,8 @@ image
 :
 url
 (
+images
+/
 alerticon
 -
 warning
@@ -944,6 +960,8 @@ image
 :
 url
 (
+images
+/
 power
 .
 svg

@@ -91,11 +91,11 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 skin
 /
-devtools
+themes
 /
 light
 -
@@ -110,11 +110,11 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 skin
 /
-devtools
+themes
 /
 dark
 -

@@ -61,11 +61,11 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 skin
 /
-devtools
+themes
 /
 common
 .

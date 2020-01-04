@@ -5549,11 +5549,13 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 skin
 /
-devtools
+themes
+/
+images
 /
 tool
 -

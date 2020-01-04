@@ -146,6 +146,8 @@ image
 :
 url
 (
+images
+/
 profiler
 -
 stopwatch
@@ -310,11 +312,13 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 skin
 /
-devtools
+themes
+/
+images
 /
 profiler
 -
@@ -346,11 +350,13 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 skin
 /
-devtools
+themes
+/
+images
 /
 profiler
 -
@@ -672,6 +678,8 @@ image
 :
 url
 (
+images
+/
 debugger
 -
 play
@@ -708,6 +716,8 @@ image
 :
 url
 (
+images
+/
 debugger
 -
 step
@@ -731,6 +741,8 @@ image
 :
 url
 (
+images
+/
 debugger
 -
 step
@@ -754,6 +766,8 @@ image
 :
 url
 (
+images
+/
 debugger
 -
 step
@@ -786,6 +800,8 @@ image
 :
 url
 (
+images
+/
 debugger
 -
 play
@@ -823,6 +839,8 @@ image
 :
 url
 (
+images
+/
 debugger
 -
 step
@@ -847,6 +865,8 @@ image
 :
 url
 (
+images
+/
 debugger
 -
 step
@@ -871,6 +891,8 @@ image
 :
 url
 (
+images
+/
 debugger
 -
 step
@@ -1333,6 +1355,8 @@ image
 url
 (
 "
+images
+/
 editor
 -
 debug
@@ -1392,6 +1416,8 @@ image
 url
 (
 "
+images
+/
 editor
 -
 debug

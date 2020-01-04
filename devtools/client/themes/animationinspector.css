@@ -446,11 +446,13 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 skin
 /
-devtools
+themes
+/
+images
 /
 command
 -
@@ -476,6 +478,8 @@ image
 url
 (
 "
+images
+/
 debugger
 -
 pause
@@ -526,6 +530,8 @@ image
 url
 (
 "
+images
+/
 debugger
 -
 play
@@ -565,11 +571,13 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 skin
 /
-devtools
+themes
+/
+images
 /
 command
 -
@@ -602,6 +610,8 @@ image
 url
 (
 "
+images
+/
 debugger
 -
 pause
@@ -629,6 +639,8 @@ image
 url
 (
 "
+images
+/
 debugger
 -
 play
@@ -1776,11 +1788,13 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 skin
 /
-devtools
+themes
+/
+images
 /
 vview
 -
@@ -1960,6 +1974,8 @@ image
 url
 (
 "
+images
+/
 animation
 -
 fast
@@ -2100,6 +2116,8 @@ image
 :
 url
 (
+images
+/
 debugger
 -
 pause
@@ -2133,6 +2151,8 @@ image
 :
 url
 (
+images
+/
 debugger
 -
 play
@@ -2155,6 +2175,8 @@ image
 :
 url
 (
+images
+/
 fast
 -
 forward
@@ -2177,6 +2199,8 @@ image
 :
 url
 (
+images
+/
 rewind
 .
 png
@@ -2208,6 +2232,8 @@ image
 :
 url
 (
+images
+/
 debugger
 -
 pause
@@ -2242,6 +2268,8 @@ image
 :
 url
 (
+images
+/
 debugger
 -
 play
@@ -2265,6 +2293,8 @@ image
 :
 url
 (
+images
+/
 fast
 -
 forward
@@ -2288,6 +2318,8 @@ image
 :
 url
 (
+images
+/
 rewind
 2x
 .
