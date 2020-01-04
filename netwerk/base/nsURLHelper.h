@@ -210,13 +210,13 @@ Length
 )
 ;
 }
-bool
+void
 net_FilterURIString
 (
 const
-char
-*
-str
+nsACString
+&
+input
 nsACString
 &
 result
