@@ -3887,7 +3887,7 @@ observes
 "
 Social
 :
-PageShareOrMark
+PageShareable
 "
 )
 ;
