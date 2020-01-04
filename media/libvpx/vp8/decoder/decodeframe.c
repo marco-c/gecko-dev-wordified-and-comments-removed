@@ -470,7 +470,6 @@ segment_id
 ]
 ;
 else
-{
 QIndex
 =
 pc
@@ -516,7 +515,6 @@ MAXQ
 :
 0
 ;
-}
 }
 else
 QIndex
