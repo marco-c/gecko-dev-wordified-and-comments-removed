@@ -25,6 +25,16 @@ promise
 "
 )
 ;
+var
+Services
+=
+require
+(
+"
+Services
+"
+)
+;
 const
 FRAME_SCRIPT
 =

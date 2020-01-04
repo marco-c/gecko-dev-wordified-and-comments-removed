@@ -197,6 +197,16 @@ promise
 )
 ;
 const
+Services
+=
+require
+(
+"
+Services
+"
+)
+;
+const
 SimulatorRegExp
 =
 new
