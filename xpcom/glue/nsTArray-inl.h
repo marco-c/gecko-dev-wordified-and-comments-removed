@@ -128,7 +128,7 @@ autoBuf
 reinterpret_cast
 <
 const
-nsAutoArrayBase
+AutoTArray
 <
 nsTArray
 <
@@ -1805,7 +1805,7 @@ Hdr
 1
 ;
 }
-nsAutoArrayBase
+AutoTArray
 <
 nsTArray_Impl
 <
