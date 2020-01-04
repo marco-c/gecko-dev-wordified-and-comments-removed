@@ -388,6 +388,12 @@ aInitDataType
 "
 webm
 "
+&
+&
+aInitDataSize
+=
+=
+16
 )
 {
 vector
