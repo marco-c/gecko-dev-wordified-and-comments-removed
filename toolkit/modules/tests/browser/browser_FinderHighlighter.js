@@ -347,7 +347,7 @@ document
 createEvent
 (
 "
-KeyEvents
+KeyboardEvent
 "
 )
 ;

@@ -878,7 +878,7 @@ document
 createEvent
 (
 "
-KeyEvents
+KeyboardEvent
 "
 )
 ;
