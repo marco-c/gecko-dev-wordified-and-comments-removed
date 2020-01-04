@@ -1137,6 +1137,9 @@ filesystem
 nsString
 realPath
 ;
+bool
+isRoot
+;
 /
 /
 '
@@ -1274,6 +1277,9 @@ filesystem
 ;
 nsString
 realPath
+;
+bool
+isRoot
 ;
 }
 ;
