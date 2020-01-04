@@ -12198,6 +12198,8 @@ kill_and_get_minidump
 (
 processPID
 minidump_path
+                                               
+utilityPath
 )
             
 except

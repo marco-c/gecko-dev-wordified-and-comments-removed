@@ -248,6 +248,11 @@ crashinjectdll
 DLL_SUFFIX
 )
 \
+minidumpwriter
+(
+BIN_SUFFIX
+)
+\
 (
 NULL
 )
