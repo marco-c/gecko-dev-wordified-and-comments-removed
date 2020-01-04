@@ -633,13 +633,13 @@ open
 function
 (
 contentWindow
-origin
-title
-url
+options
 )
 {
 openedUrl
 =
+options
+.
 url
 ;
 }

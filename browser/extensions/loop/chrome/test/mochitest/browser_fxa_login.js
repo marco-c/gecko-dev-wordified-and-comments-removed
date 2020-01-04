@@ -348,7 +348,7 @@ LoopAPI
 stubMessageHandlers
 (
 {
-IsMultiProcessEnabled
+IsMultiProcessActive
 :
 function
 (
