@@ -643,6 +643,10 @@ sSelectionBarEnabled
 ;
 static
 bool
+sCaretShownWhenLongTappingOnEmptyContent
+;
+static
+bool
 sCaretsExtendedVisibility
 ;
 static

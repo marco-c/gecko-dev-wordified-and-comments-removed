@@ -1347,7 +1347,7 @@ signatures
 .
 required
 "
-true
+false
 )
 ;
 pref
@@ -7823,6 +7823,18 @@ false
 ;
 #
 endif
+pref
+(
+"
+layout
+.
+accessiblecaret
+.
+caret_shown_when_long_tapping_on_empty_content
+"
+true
+)
+;
 pref
 (
 "
