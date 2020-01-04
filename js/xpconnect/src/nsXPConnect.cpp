@@ -1809,9 +1809,9 @@ clasp
 )
 -
 >
-ext
-.
-isWrappedNative
+extIsWrappedNative
+(
+)
 )
 {
 VerifyTraceProtoAndIfaceCacheCalledTracer

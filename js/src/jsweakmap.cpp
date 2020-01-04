@@ -769,9 +769,9 @@ getClass
 )
 -
 >
-ext
-.
-weakmapKeyDelegateOp
+extWeakmapKeyDelegateOp
+(
+)
 ;
 if
 (
