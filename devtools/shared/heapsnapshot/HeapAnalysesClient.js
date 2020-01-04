@@ -94,7 +94,7 @@ DevToolsUtils
 .
 dumpv
 .
-wantLogging
+wantVerbose
 }
 )
 ;

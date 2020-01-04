@@ -1446,10 +1446,7 @@ child
 )
 ]
 =
-getId
-(
 node
-)
 ;
 createParentMap
 (
