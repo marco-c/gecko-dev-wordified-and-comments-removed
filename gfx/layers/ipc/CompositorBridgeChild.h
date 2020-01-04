@@ -596,7 +596,7 @@ SendRequestNotifyAfterRemotePaint
 )
 ;
 bool
-SendClearVisibleRegions
+SendClearApproximatelyVisibleRegions
 (
 uint64_t
 aLayersId
@@ -605,10 +605,8 @@ aPresShellId
 )
 ;
 bool
-SendUpdateVisibleRegion
+SendNotifyApproximatelyVisibleRegion
 (
-VisibilityCounter
-aCounter
 const
 ScrollableLayerGuid
 &
