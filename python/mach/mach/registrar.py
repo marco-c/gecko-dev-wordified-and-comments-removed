@@ -588,6 +588,34 @@ long
 )
 )
         
+if
+context
+:
+            
+postrun
+=
+getattr
+(
+context
+'
+post_dispatch_handler
+'
+None
+)
+            
+if
+postrun
+:
+                
+postrun
+(
+context
+handler
+args
+=
+kwargs
+)
+        
 return
 result
     
