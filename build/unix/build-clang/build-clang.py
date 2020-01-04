@@ -139,6 +139,7 @@ def
 build_package
 (
 package_build_dir
+run_cmake
 cmake_args
 )
 :
@@ -162,6 +163,10 @@ mkdir
 package_build_dir
 )
     
+if
+run_cmake
+:
+        
 run_in
 (
 package_build_dir
@@ -884,6 +889,18 @@ build_libcxx
 )
 :
     
+if
+not
+os
+.
+path
+.
+exists
+(
+stage_dir
+)
+:
+        
 os
 .
 mkdir
@@ -946,6 +963,25 @@ python2
 .
 7
 "
+    
+run_cmake
+=
+True
+    
+if
+os
+.
+path
+.
+exists
+(
+build_dir
+)
+:
+        
+run_cmake
+=
+False
     
 cmake_args
 =
@@ -1025,6 +1061,7 @@ src_dir
 build_package
 (
 build_dir
+run_cmake
 cmake_args
 )
 if
@@ -1432,6 +1469,7 @@ source_dir
 )
     
 if
+not
 os
 .
 path
@@ -1442,13 +1480,6 @@ build_dir
 )
 :
         
-shutil
-.
-rmtree
-(
-build_dir
-)
-    
 os
 .
 makedirs
