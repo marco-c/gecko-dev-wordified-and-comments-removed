@@ -207,7 +207,11 @@ revision
 "
 :
 "
-default
+%
+(
+revision
+)
+s
 "
         
 "
