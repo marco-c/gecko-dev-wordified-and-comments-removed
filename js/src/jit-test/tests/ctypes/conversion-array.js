@@ -143,7 +143,7 @@ foo
 does
 not
 fit
-to
+in
 the
 length
 of
@@ -203,7 +203,7 @@ foo
 does
 not
 fit
-to
+in
 the
 length
 of
