@@ -996,10 +996,15 @@ data
 {
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 geckoEvent
 data
+)
 )
 ;
 }

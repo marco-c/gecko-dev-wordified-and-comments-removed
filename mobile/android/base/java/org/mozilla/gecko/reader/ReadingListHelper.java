@@ -1387,7 +1387,11 @@ URL
 ;
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Reader
@@ -1398,6 +1402,7 @@ json
 .
 toString
 (
+)
 )
 )
 ;

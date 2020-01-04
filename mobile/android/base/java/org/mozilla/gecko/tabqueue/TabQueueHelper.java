@@ -1327,7 +1327,11 @@ shouldPerformJavaScriptCallback
 ;
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Tabs
@@ -1338,6 +1342,7 @@ data
 .
 toString
 (
+)
 )
 )
 ;

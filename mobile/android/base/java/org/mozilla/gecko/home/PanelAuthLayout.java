@@ -290,7 +290,11 @@ v
 {
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 HomePanels
@@ -298,6 +302,7 @@ HomePanels
 Authenticate
 "
 panelId
+)
 )
 ;
 }

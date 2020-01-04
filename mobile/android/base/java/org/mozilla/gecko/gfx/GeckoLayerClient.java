@@ -1186,7 +1186,11 @@ e
 }
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Window
@@ -1194,6 +1198,7 @@ Window
 Resize
 "
 json
+)
 )
 ;
 }

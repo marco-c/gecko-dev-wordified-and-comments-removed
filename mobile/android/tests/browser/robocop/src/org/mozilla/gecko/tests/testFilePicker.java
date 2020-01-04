@@ -180,9 +180,13 @@ TEST_FILENAME
 )
 ;
 }
-mActions
+GeckoAppShell
 .
-sendGeckoEvent
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 FilePicker
@@ -193,6 +197,7 @@ message
 .
 toString
 (
+)
 )
 )
 ;

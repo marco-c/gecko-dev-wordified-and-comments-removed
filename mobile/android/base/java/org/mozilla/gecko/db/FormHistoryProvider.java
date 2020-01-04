@@ -604,7 +604,11 @@ initGecko
 {
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 FormHistory
@@ -612,6 +616,7 @@ FormHistory
 Init
 "
 null
+)
 )
 ;
 }

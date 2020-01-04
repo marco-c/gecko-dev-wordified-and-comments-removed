@@ -1028,7 +1028,11 @@ distributionSet
 {
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Distribution
@@ -1037,6 +1041,7 @@ Set
 "
 "
 "
+)
 )
 ;
 }
@@ -1334,7 +1339,11 @@ runLateReadyQueue
 ;
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Distribution
@@ -1343,6 +1352,7 @@ Changed
 "
 "
 "
+)
 )
 ;
 }

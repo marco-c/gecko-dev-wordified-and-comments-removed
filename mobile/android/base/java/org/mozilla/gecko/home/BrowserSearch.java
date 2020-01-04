@@ -1096,7 +1096,11 @@ LOADER_ID_SUGGESTION
 }
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 SearchEngines
@@ -1104,6 +1108,7 @@ SearchEngines
 GetVisible
 "
 null
+)
 )
 ;
 }
@@ -1177,7 +1182,11 @@ mLastLocale
 {
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 SearchEngines
@@ -1185,6 +1194,7 @@ SearchEngines
 GetVisible
 "
 null
+)
 )
 ;
 }
@@ -1899,7 +1909,11 @@ return
 }
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Session
@@ -1914,6 +1928,7 @@ http
 "
 +
 autocompletion
+)
 )
 ;
 mAutocompleteHandler
@@ -2330,7 +2345,11 @@ searchCount
 {
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Session
@@ -2338,6 +2357,7 @@ Session
 Prefetch
 "
 url
+)
 )
 ;
 }

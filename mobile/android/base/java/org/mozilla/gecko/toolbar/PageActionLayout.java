@@ -585,7 +585,11 @@ id
 {
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 PageActions
@@ -593,6 +597,7 @@ PageActions
 Clicked
 "
 id
+)
 )
 ;
 }
@@ -607,7 +612,11 @@ id
 {
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 PageActions
@@ -615,6 +624,7 @@ PageActions
 LongClicked
 "
 id
+)
 )
 ;
 return

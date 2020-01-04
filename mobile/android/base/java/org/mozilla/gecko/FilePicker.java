@@ -432,7 +432,11 @@ filename
 }
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 FilePicker
@@ -443,6 +447,7 @@ message
 .
 toString
 (
+)
 )
 )
 ;

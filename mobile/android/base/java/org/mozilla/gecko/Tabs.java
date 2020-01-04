@@ -1383,7 +1383,11 @@ UNSELECTED
 }
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Tab
@@ -1398,6 +1402,7 @@ tab
 .
 getId
 (
+)
 )
 )
 )
@@ -1937,7 +1942,11 @@ e
 }
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Tab
@@ -1948,6 +1957,7 @@ args
 .
 toString
 (
+)
 )
 )
 ;
@@ -4533,7 +4543,11 @@ e
 }
 GeckoAppShell
 .
-notifyObservers
+sendEventToGecko
+(
+GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Tab
@@ -4544,6 +4558,7 @@ args
 .
 toString
 (
+)
 )
 )
 ;
