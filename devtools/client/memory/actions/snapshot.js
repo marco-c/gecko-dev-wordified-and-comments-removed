@@ -653,6 +653,7 @@ state
 ;
 let
 report
+parentMap
 ;
 let
 inverted
@@ -766,7 +767,11 @@ null
 ;
 try
 {
+(
+{
 report
+parentMap
+}
 =
 yield
 heapWorker
@@ -780,6 +785,7 @@ path
 breakdown
 }
 opts
+)
 )
 ;
 }
@@ -862,6 +868,7 @@ breakdown
 inverted
 filter
 report
+parentMap
 }
 )
 ;

@@ -298,7 +298,9 @@ snapshot
 )
 ;
 const
+{
 report
+}
 =
 yield
 client
@@ -314,7 +316,11 @@ BREAKDOWN
 )
 ;
 const
+{
+report
+:
 treeNode
+}
 =
 yield
 client

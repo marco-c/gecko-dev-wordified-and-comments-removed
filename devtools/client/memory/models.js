@@ -180,6 +180,11 @@ report
 PropTypes
 .
 object
+parentMap
+:
+PropTypes
+.
+object
 breakdown
 :
 breakdownModel

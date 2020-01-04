@@ -228,6 +228,7 @@ state
 ;
 let
 report
+parentMap
 ;
 let
 inverted
@@ -389,7 +390,13 @@ null
 ;
 try
 {
+(
+{
+delta
+:
 report
+parentMap
+}
 =
 yield
 heapWorker
@@ -406,6 +413,7 @@ path
 breakdown
 }
 opts
+)
 )
 ;
 }
@@ -489,6 +497,7 @@ TAKE_CENSUS_DIFF_END
 first
 second
 report
+parentMap
 inverted
 filter
 breakdown

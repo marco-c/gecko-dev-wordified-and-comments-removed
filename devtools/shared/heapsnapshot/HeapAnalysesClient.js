@@ -92,7 +92,7 @@ verbose
 :
 DevToolsUtils
 .
-dumpn
+dumpv
 .
 wantLogging
 }
