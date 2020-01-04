@@ -7901,6 +7901,17 @@ Settings
 >
 <
 !
+ENTITY
+restriction_disallow_camera_microphone_title
+"
+Block
+camera
+and
+microphone
+"
+>
+<
+!
 -
 -
 Default
