@@ -2581,6 +2581,9 @@ endif
 case
 __NR_mlock
 :
+case
+__NR_munlock
+:
 return
 Allow
 (
