@@ -49,6 +49,10 @@ mIsLost
 =
 true
 ;
+OnMarkLost
+(
+)
+;
 }
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_0
 (
