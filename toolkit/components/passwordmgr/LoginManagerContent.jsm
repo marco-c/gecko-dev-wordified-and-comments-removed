@@ -12,6 +12,9 @@ EXPORTED_SYMBOLS
 LoginManagerContent
 "
 "
+FormLikeFactory
+"
+"
 UserAutoCompleteResult
 "
 ]
