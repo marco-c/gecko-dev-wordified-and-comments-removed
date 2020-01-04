@@ -545,6 +545,16 @@ scriptp
 override
 ;
 void
+onLazyScriptEdge
+(
+LazyScript
+*
+*
+lazyp
+)
+override
+;
+void
 onChild
 (
 const
