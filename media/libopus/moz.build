@@ -529,6 +529,10 @@ UNIFIED_SOURCES
 +
 =
 opus_sources
+SOURCES
++
+=
+opus_nonunified_sources
 if
 CONFIG
 [
