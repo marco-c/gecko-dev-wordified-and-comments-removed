@@ -1341,6 +1341,8 @@ const
 ContainerLayerParameters
 &
 aContainerParameters
+bool
+aIsClipFixed
 )
 ;
 static

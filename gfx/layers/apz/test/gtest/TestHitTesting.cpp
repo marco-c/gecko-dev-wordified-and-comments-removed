@@ -3898,11 +3898,9 @@ ParentLayerRect
 ;
 subframeMetadata
 .
-SetScrollClip
+SetClipRect
 (
 Some
-(
-LayerClip
 (
 ParentLayerIntRect
 (
@@ -3910,7 +3908,6 @@ ParentLayerIntRect
 0
 200
 100
-)
 )
 )
 )
