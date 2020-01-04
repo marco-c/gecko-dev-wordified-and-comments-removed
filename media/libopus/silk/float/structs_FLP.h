@@ -255,6 +255,9 @@ stereo_enc_state
 sStereo
 ;
 opus_int32
+nBitsUsedLBRR
+;
+opus_int32
 nBitsExceeded
 ;
 opus_int

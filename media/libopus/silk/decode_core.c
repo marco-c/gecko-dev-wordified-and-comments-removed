@@ -38,11 +38,13 @@ xq
 [
 ]
 const
-opus_int
+opus_int16
 pulses
 [
 MAX_FRAME_LENGTH
 ]
+int
+arch
 )
 {
 opus_int
@@ -825,6 +827,7 @@ psDec
 -
 >
 LPC_order
+arch
 )
 ;
 if

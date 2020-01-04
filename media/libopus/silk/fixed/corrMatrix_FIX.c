@@ -40,6 +40,8 @@ Xt
 const
 opus_int
 rshifts
+int
+arch
 )
 {
 opus_int
@@ -179,6 +181,7 @@ silk_inner_prod_aligned
 ptr1
 ptr2
 L
+arch
 )
 ;
 ptr1
@@ -210,6 +213,8 @@ XX
 opus_int
 *
 rshifts
+int
+arch
 )
 {
 opus_int
@@ -642,6 +647,7 @@ silk_inner_prod_aligned
 ptr1
 ptr2
 L
+arch
 )
 ;
 matrix_ptr

@@ -321,6 +321,7 @@ k
 3
 xcorr_kernel_neon
 PROC
+xcorr_kernel_neon_start
 ;
 input
 :
@@ -1469,7 +1470,7 @@ other
 registers
 .
 BL
-xcorr_kernel_neon
+xcorr_kernel_neon_start
 SUBS
 r6
 r6
@@ -1897,6 +1898,7 @@ possible
 .
 xcorr_kernel_edsp
 PROC
+xcorr_kernel_edsp_start
 ;
 input
 :
@@ -2571,7 +2573,7 @@ sum
 x
 y_0
 )
-LDRGTH
+LDRHGT
 r14
 [
 r4
@@ -2732,7 +2734,7 @@ sum
 x
 y_3
 )
-LDRGTH
+LDRHGT
 r12
 [
 r4
@@ -2852,7 +2854,7 @@ sum
 tmp
 y_4
 )
-LDRGTH
+LDRHGT
 r14
 [
 r4
@@ -3283,7 +3285,7 @@ r12
 #
 4
 celt_pitch_xcorr_edsp_process1u_loop1
-LDRGEH
+LDRHGE
 r6
 [
 r4
@@ -3308,12 +3310,12 @@ x
 *
 y
 )
-SUBGES
+SUBSGE
 r12
 r12
 #
 1
-LDRGTH
+LDRHGT
 r8
 [
 r5
@@ -3450,7 +3452,7 @@ r9
 #
 0
 BL
-xcorr_kernel_edsp
+xcorr_kernel_edsp_start
 ;
 xcorr_kernel_edsp
 (
@@ -3852,7 +3854,7 @@ sum0
 x_0
 y_0
 )
-LDRGTH
+LDRHGT
 r7
 [
 r4
@@ -4202,14 +4204,14 @@ r12
 r12
 #
 1
-LDRGEH
+LDRHGE
 r6
 [
 r4
 ]
 #
 2
-LDRGEH
+LDRHGE
 r8
 [
 r5

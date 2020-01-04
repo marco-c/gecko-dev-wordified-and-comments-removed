@@ -30,6 +30,11 @@ weights
 }
 MLP
 ;
+extern
+const
+MLP
+net
+;
 void
 mlp_process
 (

@@ -833,6 +833,12 @@ psEncCtrl
 pitchL
 Lambda_Q10
 LTP_scale_Q14
+psEnc
+-
+>
+sCmn
+.
+arch
 )
 ;
 }
@@ -865,6 +871,12 @@ psEncCtrl
 pitchL
 Lambda_Q10
 LTP_scale_Q14
+psEnc
+-
+>
+sCmn
+.
+arch
 )
 ;
 }
@@ -909,6 +921,8 @@ lowComplexity
 const
 opus_int
 nb_subfr
+int
+arch
 )
 {
 opus_int
@@ -1020,6 +1034,7 @@ W_Q18
 mu_Q10
 lowComplexity
 nb_subfr
+arch
 )
 ;
 for

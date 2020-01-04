@@ -244,7 +244,7 @@ silk_decode_signs
 ec_dec
 *
 psRangeDec
-opus_int
+opus_int16
 pulses
 [
 ]
@@ -275,7 +275,7 @@ icdf
 2
 ]
 ;
-opus_int
+opus_int16
 *
 q_ptr
 ;

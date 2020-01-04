@@ -289,6 +289,12 @@ psEnc
 sCmn
 .
 nb_subfr
+psEnc
+-
+>
+sCmn
+.
+arch
 )
 ;
 silk_LTP_scale_ctrl_FLP

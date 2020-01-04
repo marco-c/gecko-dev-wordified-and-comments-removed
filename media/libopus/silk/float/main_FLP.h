@@ -477,6 +477,8 @@ lowComplexity
 const
 opus_int
 nb_subfr
+int
+arch
 )
 ;
 silk_float

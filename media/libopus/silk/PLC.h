@@ -127,6 +127,8 @@ frame
 ]
 opus_int
 lost
+int
+arch
 )
 ;
 void

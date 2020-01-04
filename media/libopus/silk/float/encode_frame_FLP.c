@@ -67,6 +67,12 @@ sCmn
 inputBuf
 +
 1
+psEnc
+-
+>
+sCmn
+.
+arch
 )
 ;
 if

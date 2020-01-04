@@ -156,6 +156,8 @@ samplesOut
 opus_int32
 *
 nSamplesOut
+int
+arch
 )
 ;
 #

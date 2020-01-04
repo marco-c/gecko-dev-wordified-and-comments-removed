@@ -65,6 +65,8 @@ nb_subfr
 const
 opus_int
 LPC_order
+int
+arch
 )
 {
 opus_int
@@ -174,6 +176,7 @@ MAX_NB_SUBFR
 *
 offset
 LPC_order
+arch
 )
 ;
 LPC_res_ptr

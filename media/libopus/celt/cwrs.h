@@ -76,7 +76,7 @@ ec_enc
 enc
 )
 ;
-void
+opus_val32
 decode_pulses
 (
 int

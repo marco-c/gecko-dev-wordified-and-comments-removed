@@ -44,6 +44,8 @@ len
 const
 opus_int32
 d
+int
+arch
 )
 {
 opus_int
@@ -190,6 +192,7 @@ len
 d
 d
 mem
+arch
 )
 ;
 for
@@ -217,6 +220,11 @@ j
 }
 #
 else
+(
+void
+)
+arch
+;
 for
 (
 ix

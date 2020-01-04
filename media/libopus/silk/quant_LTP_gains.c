@@ -62,6 +62,8 @@ lowComplexity
 const
 opus_int
 nb_subfr
+int
+arch
 )
 {
 opus_int
@@ -251,6 +253,7 @@ cl_ptr_Q5
 mu_Q9
 max_gain_Q7
 cbk_size
+arch
 )
 ;
 rate_dist_Q14

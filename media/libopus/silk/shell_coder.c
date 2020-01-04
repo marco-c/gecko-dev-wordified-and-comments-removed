@@ -124,10 +124,10 @@ OPUS_INLINE
 void
 decode_split
 (
-opus_int
+opus_int16
 *
 p_child1
-opus_int
+opus_int16
 *
 p_child2
 ec_dec
@@ -479,7 +479,7 @@ silk_shell_code_table0
 void
 silk_shell_decoder
 (
-opus_int
+opus_int16
 *
 pulses0
 ec_dec
@@ -490,7 +490,7 @@ opus_int
 pulses4
 )
 {
-opus_int
+opus_int16
 pulses3
 [
 2

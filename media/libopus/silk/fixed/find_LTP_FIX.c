@@ -96,6 +96,8 @@ corr_rshifts
 [
 MAX_NB_SUBFR
 ]
+int
+arch
 )
 {
 opus_int
@@ -302,6 +304,7 @@ corr_rshifts
 [
 k
 ]
+arch
 )
 ;
 silk_corrVector_FIX
@@ -315,6 +318,7 @@ corr_rshifts
 [
 k
 ]
+arch
 )
 ;
 if
