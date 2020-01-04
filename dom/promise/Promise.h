@@ -870,6 +870,9 @@ aRunnable
 ;
 protected
 :
+struct
+PromiseCapability
+;
 explicit
 Promise
 (
