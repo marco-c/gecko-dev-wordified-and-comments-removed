@@ -4623,6 +4623,8 @@ mData
 nullptr
 )
 {
+mGetFontFileDataSucceeded
+=
 aScaledFont
 -
 >
@@ -4739,6 +4741,11 @@ mGlyphSize
 ;
 uint32_t
 mIndex
+;
+bool
+mGetFontFileDataSucceeded
+=
+false
 ;
 MOZ_IMPLICIT
 RecordedScaledFontCreation
