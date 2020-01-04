@@ -1437,15 +1437,6 @@ ComputeShouldAccelerate
 )
 override
 ;
-static
-void
-ClearCompositor
-(
-nsWindow
-*
-aWindow
-)
-;
 void
 ForcePresent
 (

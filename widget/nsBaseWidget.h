@@ -2305,6 +2305,11 @@ GetDocument
 )
 const
 ;
+void
+OnRenderingDeviceReset
+(
+)
+;
 protected
 :
 virtual

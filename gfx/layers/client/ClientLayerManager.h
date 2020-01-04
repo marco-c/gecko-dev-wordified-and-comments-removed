@@ -500,6 +500,15 @@ CreateRefLayer
 )
 override
 ;
+void
+UpdateTextureFactoryIdentifier
+(
+const
+TextureFactoryIdentifier
+&
+aNewIdentifier
+)
+;
 TextureFactoryIdentifier
 GetTextureFactoryIdentifier
 (
