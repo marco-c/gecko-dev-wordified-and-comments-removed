@@ -111,6 +111,11 @@ testBuiltin
 URIError
 )
 ;
+testBuiltin
+(
+Number
+)
+;
 ;
 if
 (

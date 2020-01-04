@@ -52,6 +52,10 @@ JSContext
 cx
 double
 d
+HandleObject
+proto
+=
+nullptr
 )
 ;
 double
