@@ -1692,8 +1692,8 @@ kMinCapacity
 ;
 }
 #
-ifndef
-MOZ_WIDGET_ANDROID
+ifdef
+HAVE_64BIT_BUILD
 TEST
 (
 PLDHashTableTest
