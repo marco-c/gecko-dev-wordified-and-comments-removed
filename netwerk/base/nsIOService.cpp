@@ -2347,9 +2347,6 @@ return
 net_ExtractURLScheme
 (
 inURI
-nullptr
-nullptr
-&
 scheme
 )
 ;

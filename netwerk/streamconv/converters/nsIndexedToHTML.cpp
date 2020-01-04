@@ -5441,6 +5441,9 @@ Append
 uint32_t
 escFlags
 ;
+nsAutoCString
+scheme
+;
 if
 (
 mExpectAbsLoc
@@ -5451,9 +5454,7 @@ NS_SUCCEEDED
 net_ExtractURLScheme
 (
 loc
-nullptr
-nullptr
-nullptr
+scheme
 )
 )
 )

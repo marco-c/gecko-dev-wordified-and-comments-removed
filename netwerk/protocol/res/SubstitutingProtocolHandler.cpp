@@ -228,9 +228,6 @@ rv
 net_ExtractURLScheme
 (
 spec
-nullptr
-nullptr
-&
 scheme
 )
 ;
