@@ -2652,6 +2652,15 @@ nsIDocument
 aDocument
 )
 ;
+void
+DispatchFullscreenError
+(
+const
+char
+*
+aMessage
+)
+;
 virtual
 void
 RequestPointerLock
