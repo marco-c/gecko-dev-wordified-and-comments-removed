@@ -2031,6 +2031,26 @@ printDeviceInfo
 =
 False
         
+from
+mozrunner
+.
+devices
+.
+android_device
+import
+grant_runtime_permissions
+        
+grant_runtime_permissions
+(
+self
+kwargs
+[
+'
+app
+'
+]
+)
+        
 if
 kwargs
 [
