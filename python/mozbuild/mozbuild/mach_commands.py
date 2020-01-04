@@ -1865,7 +1865,13 @@ mozbuild
 .
 util
 import
+(
+            
+mkdir
+            
 resolve_target_to_make
+        
+)
         
 self
 .
@@ -1918,6 +1924,16 @@ monitor
 .
 ccache_stats
 (
+)
+        
+mkdir
+(
+self
+.
+topobjdir
+not_indexed
+=
+True
 )
         
 with
