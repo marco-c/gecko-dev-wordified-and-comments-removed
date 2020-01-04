@@ -152,6 +152,12 @@ selectionEditable
 =
 false
 ;
+DOMString
+selectedTextContent
+=
+"
+"
+;
 }
 ;
 [
@@ -200,6 +206,11 @@ readonly
 attribute
 boolean
 selectionEditable
+;
+readonly
+attribute
+DOMString
+selectedTextContent
 ;
 }
 ;
