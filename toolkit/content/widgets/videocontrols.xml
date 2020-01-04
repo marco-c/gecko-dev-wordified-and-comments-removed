@@ -10678,7 +10678,7 @@ _overlayPlayButtonHeight
 _overlayPlayButtonWidth
 :
 64
-_volumeStackMarginEnd
+_controlBarPaddingEnd
 :
 8
 adjustControlSize
@@ -10801,7 +10801,7 @@ _fullscreenButtonWidth
 -
 this
 .
-_volumeStackMarginEnd
+_controlBarPaddingEnd
 ;
 }
 let
