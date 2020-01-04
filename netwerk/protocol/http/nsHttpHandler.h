@@ -184,7 +184,7 @@ Init
 nsresult
 AddStandardRequestHeaders
 (
-nsHttpHeaderArray
+nsHttpRequestHead
 *
 bool
 isSecure
@@ -193,7 +193,7 @@ isSecure
 nsresult
 AddConnectionHeader
 (
-nsHttpHeaderArray
+nsHttpRequestHead
 *
 uint32_t
 capabilities

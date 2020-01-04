@@ -11963,10 +11963,6 @@ return
 NS_OK
 ;
 }
-origin
-.
-Assign
-(
 self
 -
 >
@@ -11985,7 +11981,7 @@ RequestHead
 >
 Origin
 (
-)
+origin
 )
 ;
 }

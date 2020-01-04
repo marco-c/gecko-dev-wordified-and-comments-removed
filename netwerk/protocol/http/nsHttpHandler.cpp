@@ -2598,7 +2598,7 @@ nsHttpHandler
 :
 AddStandardRequestHeaders
 (
-nsHttpHeaderArray
+nsHttpRequestHead
 *
 request
 bool
@@ -2858,7 +2858,7 @@ nsHttpHandler
 :
 AddConnectionHeader
 (
-nsHttpHeaderArray
+nsHttpRequestHead
 *
 request
 uint32_t

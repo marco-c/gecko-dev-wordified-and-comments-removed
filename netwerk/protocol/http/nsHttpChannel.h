@@ -1657,7 +1657,6 @@ nsICacheEntry
 *
 entry
 )
-const
 ;
 bool
 IsResumable

@@ -11484,14 +11484,14 @@ if
 self
 )
 {
-const
-nsCString
+nsAutoCString
 method
-=
+;
 requestHead
 .
 Method
 (
+method
 )
 ;
 self
