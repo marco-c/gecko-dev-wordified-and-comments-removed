@@ -204,7 +204,7 @@ android
 :
 IGraphicBufferProducer
 *
-aProducer
+aSink
 =
 nullptr
 )

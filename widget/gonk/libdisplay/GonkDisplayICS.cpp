@@ -812,7 +812,7 @@ android
 :
 IGraphicBufferProducer
 *
-aProducer
+aSink
 )
 {
 MOZ_ASSERT
