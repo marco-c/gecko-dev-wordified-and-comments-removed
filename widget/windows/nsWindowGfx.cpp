@@ -1151,6 +1151,15 @@ region
 )
 ;
 }
+RefPtr
+<
+nsWindow
+>
+strongThis
+(
+this
+)
+;
 nsIWidgetListener
 *
 listener

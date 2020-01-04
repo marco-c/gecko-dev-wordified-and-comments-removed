@@ -4312,6 +4312,15 @@ Revoke
 (
 )
 ;
+RefPtr
+<
+PuppetWidget
+>
+strongThis
+(
+this
+)
+;
 GetCurrentWidgetListener
 (
 )

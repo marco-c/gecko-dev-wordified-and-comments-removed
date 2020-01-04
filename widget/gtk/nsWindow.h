@@ -1968,6 +1968,12 @@ ClearCachedResources
 (
 )
 ;
+nsIWidgetListener
+*
+GetListener
+(
+)
+;
 GtkWidget
 *
 mShell

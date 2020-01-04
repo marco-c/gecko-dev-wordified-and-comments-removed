@@ -22826,6 +22826,12 @@ void
 )
 viewWillDraw
 {
+nsAutoRetainCocoaObject
+kungFuDeathGrip
+(
+self
+)
+;
 if
 (
 mGeckoChild
