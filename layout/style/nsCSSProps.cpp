@@ -4721,8 +4721,8 @@ eCSSKeyword_luminance
 NS_STYLE_MASK_MODE_LUMINANCE
 }
 {
-eCSSKeyword_auto
-NS_STYLE_MASK_MODE_AUTO
+eCSSKeyword_match_source
+NS_STYLE_MASK_MODE_MATCH_SOURCE
 }
 {
 eCSSKeyword_UNKNOWN
