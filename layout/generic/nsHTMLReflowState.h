@@ -735,6 +735,7 @@ nsStyleCoord
 &
 aCoord
 )
+const
 ;
 nscoord
 ComputeISizeValue
@@ -751,6 +752,7 @@ nsStyleCoord
 &
 aCoord
 )
+const
 ;
 nscoord
 ComputeBSizeValue
@@ -767,6 +769,7 @@ nsStyleCoord
 &
 aCoord
 )
+const
 ;
 }
 ;
@@ -3055,6 +3058,7 @@ LogicalSize
 &
 aCBSize
 )
+const
 ;
 void
 CalculateHypotheticalPosition
@@ -3076,6 +3080,7 @@ nsIAtom
 *
 aFrameType
 )
+const
 ;
 void
 InitAbsoluteConstraints
@@ -3128,6 +3133,7 @@ nscoord
 *
 aOutsideBoxSizing
 )
+const
 ;
 void
 CalculateBlockSideMargins
