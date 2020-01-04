@@ -32814,10 +32814,10 @@ return
 true
 ;
 }
-JSFunction
-*
+RootedFunction
 fun
-=
+(
+cx
 sc
 -
 >
@@ -32828,6 +32828,7 @@ asFunctionBox
 >
 function
 (
+)
 )
 ;
 if
