@@ -175,9 +175,6 @@ bool
 useD3D11
 ;
 bool
-useD3D11WARP
-;
-bool
 d3d11TextureSharingWorks
 ;
 bool
