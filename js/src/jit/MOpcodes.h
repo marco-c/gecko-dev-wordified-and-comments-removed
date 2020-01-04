@@ -554,6 +554,11 @@ TruncateToInt32
 \
 _
 (
+TruncateToInt64
+)
+\
+_
+(
 WrapInt64ToInt32
 )
 \

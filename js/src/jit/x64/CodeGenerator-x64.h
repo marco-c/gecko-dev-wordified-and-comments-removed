@@ -325,6 +325,14 @@ lir
 )
 ;
 void
+visitTruncateToInt64
+(
+LTruncateToInt64
+*
+lir
+)
+;
+void
 visitLoadTypedArrayElementStatic
 (
 LLoadTypedArrayElementStatic

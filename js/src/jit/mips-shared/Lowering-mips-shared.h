@@ -586,6 +586,14 @@ MSubstr
 ins
 )
 ;
+void
+visitTruncateToInt64
+(
+MTruncateToInt64
+*
+ins
+)
+;
 }
 ;
 }
