@@ -247,6 +247,15 @@ content
 permissions
 '
 '
+content
+-
+script
+-
+messages
+-
+latency
+'
+'
 contributors
 '
 '
