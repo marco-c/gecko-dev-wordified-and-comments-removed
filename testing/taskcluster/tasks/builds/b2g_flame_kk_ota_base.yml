@@ -15,9 +15,7 @@ task
 :
 workerType
 :
-flame
--
-kk
+balrog
 payload
 :
 env
