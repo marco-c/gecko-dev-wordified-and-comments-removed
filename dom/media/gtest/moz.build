@@ -290,6 +290,11 @@ dash_dashinit
 mp4
 '
 '
+id3v2header
+.
+mp3
+'
+'
 mediasource_test
 .
 mp4
