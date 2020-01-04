@@ -524,6 +524,9 @@ False
 log
 =
 None
+usingTSan
+=
+False
 *
 *
 kwargs
@@ -854,6 +857,12 @@ self
 log
 =
 log
+        
+self
+.
+usingTSan
+=
+usingTSan
         
 self
 .
@@ -4890,6 +4899,32 @@ getReturnCode
 proc
 )
             
+TSAN_EXIT_CODE_WITH_RACES
+=
+66
+            
+return_code_ok
+=
+(
+return_code
+=
+=
+0
+or
+                              
+(
+self
+.
+usingTSan
+and
+                               
+return_code
+=
+=
+TSAN_EXIT_CODE_WITH_RACES
+)
+)
+            
 passed
 =
 (
@@ -4899,12 +4934,7 @@ self
 has_failure_output
 )
 and
-(
-return_code
-=
-=
-0
-)
+return_code_ok
             
 status
 =
@@ -5108,6 +5138,26 @@ v
             
 else
 :
+                
+if
+self
+.
+usingTSan
+and
+return_code
+=
+=
+TSAN_EXIT_CODE_WITH_RACES
+:
+                    
+self
+.
+log_full_output
+(
+self
+.
+output_lines
+)
                 
 self
 .
@@ -6717,6 +6767,21 @@ llvmsym
 else
 :
                     
+oldTSanOptions
+=
+self
+.
+env
+.
+get
+(
+"
+TSAN_OPTIONS
+"
+"
+"
+)
+                    
 self
 .
 env
@@ -6729,11 +6794,17 @@ TSAN_OPTIONS
 "
 external_symbolizer_path
 =
-%
-s
+{
+}
+{
+}
 "
-%
+.
+format
+(
 llvmsym
+oldTSanOptions
+)
                 
 self
 .
@@ -9309,6 +9380,25 @@ test
 return
 False
         
+usingTSan
+=
+"
+tsan
+"
+in
+self
+.
+mozInfo
+and
+self
+.
+mozInfo
+[
+"
+tsan
+"
+]
+        
 tests_queue
 =
 deque
@@ -9429,6 +9519,9 @@ log
 self
 .
 log
+usingTSan
+=
+usingTSan
                     
 mobileArgs
 =
