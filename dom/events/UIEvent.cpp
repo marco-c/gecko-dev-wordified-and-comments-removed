@@ -627,7 +627,7 @@ DevPixelsToCSSPixels
 mEvent
 -
 >
-lastRefPoint
+mLastRefPoint
 mPresContext
 )
 ;

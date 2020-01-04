@@ -17897,7 +17897,7 @@ mWidget
 aMouseEvent
 -
 >
-lastRefPoint
+mLastRefPoint
 =
 center
 ;
@@ -17976,7 +17976,7 @@ kInvalidRefPoint
 aMouseEvent
 -
 >
-lastRefPoint
+mLastRefPoint
 =
 aMouseEvent
 -
@@ -17989,7 +17989,7 @@ else
 aMouseEvent
 -
 >
-lastRefPoint
+mLastRefPoint
 =
 sLastRefPoint
 ;

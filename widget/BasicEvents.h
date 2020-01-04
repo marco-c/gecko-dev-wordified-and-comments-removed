@@ -614,7 +614,7 @@ mRefPoint
 0
 0
 )
-lastRefPoint
+mLastRefPoint
 (
 0
 0
@@ -694,7 +694,7 @@ mRefPoint
 0
 0
 )
-lastRefPoint
+mLastRefPoint
 (
 0
 0
@@ -834,7 +834,7 @@ LayoutDeviceIntPoint
 mRefPoint
 ;
 LayoutDeviceIntPoint
-lastRefPoint
+mLastRefPoint
 ;
 BaseEventFlags
 mFlags
