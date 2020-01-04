@@ -79,6 +79,8 @@ intl
 /
 hyphenation
 /
+hyphen
+/
 intl
 /
 icu
