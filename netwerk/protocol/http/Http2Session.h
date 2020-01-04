@@ -1154,6 +1154,9 @@ uint32_t
 mNextStreamID
 ;
 uint32_t
+mLastPushedID
+;
+uint32_t
 mConcurrentHighWater
 ;
 uint32_t
