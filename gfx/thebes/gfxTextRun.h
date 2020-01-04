@@ -793,15 +793,6 @@ aBreakPriority
 )
 ;
 void
-SetContext
-(
-gfxContext
-*
-aContext
-)
-{
-}
-void
 *
 GetUserData
 (
