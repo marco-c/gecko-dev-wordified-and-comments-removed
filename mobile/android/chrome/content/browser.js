@@ -1449,6 +1449,11 @@ FetchContent
 "
 Reader
 :
+AddToCache
+"
+"
+Reader
+:
 Removed
 "
 ]
@@ -1727,6 +1732,14 @@ false
 Reader
 "
 [
+[
+"
+Reader
+:
+AddToCache
+"
+false
+]
 [
 "
 Reader
