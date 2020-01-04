@@ -327,6 +327,9 @@ HTMLTooltip
 doc
 }
 {
+useXulWrapper
+:
+false
 }
 )
 ;
@@ -490,9 +493,13 @@ showTooltip
 (
 tooltip
 box1
+{
+position
+:
 "
 top
 "
+}
 )
 ;
 expectedTooltipGeometry

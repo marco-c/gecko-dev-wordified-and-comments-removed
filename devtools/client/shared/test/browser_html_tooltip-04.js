@@ -370,6 +370,9 @@ HTMLTooltip
 doc
 }
 {
+useXulWrapper
+:
+false
 }
 )
 ;

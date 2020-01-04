@@ -292,16 +292,6 @@ function
 (
 )
 {
-yield
-addTab
-(
-"
-about
-:
-blank
-"
-)
-;
 let
 [
 doc
@@ -382,6 +372,9 @@ HTMLTooltip
 doc
 }
 {
+useXulWrapper
+:
+false
 }
 )
 ;
