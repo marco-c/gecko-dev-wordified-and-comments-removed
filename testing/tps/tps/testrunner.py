@@ -959,6 +959,10 @@ json
 testfile
 =
 None
+                 
+stop_on_error
+=
+False
 )
 :
         
@@ -1034,6 +1038,12 @@ self
 testfile
 =
 testfile
+        
+self
+.
+stop_on_error
+=
+stop_on_error
         
 self
 .
@@ -3403,6 +3413,39 @@ numfailed
 +
 =
 1
+                
+if
+self
+.
+stop_on_error
+:
+                    
+print
+'
+\
+nTest
+failed
+with
+-
+-
+stop
+-
+on
+-
+error
+specified
+;
+not
+running
+any
+more
+tests
+.
+\
+n
+'
+                    
+break
         
 self
 .
