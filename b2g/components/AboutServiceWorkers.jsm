@@ -775,7 +775,7 @@ Services
 .
 scriptSecurityManager
 .
-getAppCodebasePrincipal
+createCodebasePrincipal
 (
 Services
 .
@@ -796,15 +796,6 @@ message
 principal
 .
 originAttributes
-.
-appId
-message
-.
-principal
-.
-originAttributes
-.
-inBrowser
 )
 ;
 if

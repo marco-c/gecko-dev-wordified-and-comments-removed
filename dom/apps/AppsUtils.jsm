@@ -472,7 +472,7 @@ Services
 .
 scriptSecurityManager
 .
-getAppCodebasePrincipal
+createCodebasePrincipal
 (
 Services
 .
@@ -486,10 +486,13 @@ origin
 null
 null
 )
+{
+appId
+:
 this
 .
 localId
-false
+}
 )
 ;
 }
