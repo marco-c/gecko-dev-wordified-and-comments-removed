@@ -280,6 +280,12 @@ release
 ]
     
 "
+use_vcs_unique_share
+"
+:
+True
+    
+"
 vcs_share_base
 "
 :
