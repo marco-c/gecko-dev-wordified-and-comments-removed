@@ -12707,7 +12707,7 @@ GDK_Redo
 return
 DispatchContentCommandEvent
 (
-NS_CONTENT_COMMAND_REDO
+eContentCommandRedo
 )
 ;
 case

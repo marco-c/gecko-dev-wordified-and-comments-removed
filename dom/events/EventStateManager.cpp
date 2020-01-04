@@ -3304,7 +3304,7 @@ case
 eContentCommandUndo
 :
 case
-NS_CONTENT_COMMAND_REDO
+eContentCommandRedo
 :
 case
 eContentCommandPasteTransferable
@@ -21157,7 +21157,7 @@ cmd_undo
 break
 ;
 case
-NS_CONTENT_COMMAND_REDO
+eContentCommandRedo
 :
 cmd
 =
