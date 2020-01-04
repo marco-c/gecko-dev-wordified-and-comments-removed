@@ -101,7 +101,7 @@ ok
 !
 gBrowser
 .
-docShell
+selectedTab
 .
 mayEnableCharacterEncodingMenu
 "
@@ -195,7 +195,7 @@ ok
 !
 gBrowser
 .
-docShell
+selectedTab
 .
 mayEnableCharacterEncodingMenu
 "
