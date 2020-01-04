@@ -1123,6 +1123,7 @@ PropertyProvider
 *
 aProvider
 )
+const
 {
 NS_ASSERTION
 (
@@ -1163,6 +1164,7 @@ overflow
 LigatureData
 result
 ;
+const
 CompressedGlyph
 *
 charGlyphs
@@ -1608,6 +1610,7 @@ PropertyProvider
 *
 aProvider
 )
+const
 {
 if
 (
@@ -1647,6 +1650,7 @@ GetAdvanceForGlyphs
 Range
 aRange
 )
+const
 {
 int32_t
 advance
@@ -1690,6 +1694,7 @@ static
 void
 GetAdjustedSpacing
 (
+const
 gfxTextRun
 *
 aTextRun
@@ -1890,6 +1895,7 @@ Spacing
 *
 aSpacing
 )
+const
 {
 if
 (
@@ -2024,6 +2030,7 @@ Range
 *
 aRange
 )
+const
 {
 if
 (
@@ -2040,6 +2047,7 @@ end
 )
 return
 ;
+const
 CompressedGlyph
 *
 charGlyphs
@@ -2155,6 +2163,7 @@ aParams
 uint16_t
 aOrientation
 )
+const
 {
 AutoTArray
 <
@@ -2373,6 +2382,7 @@ aParams
 uint16_t
 aOrientation
 )
+const
 {
 if
 (
@@ -2706,6 +2716,7 @@ static
 bool
 HasSyntheticBoldOrColor
 (
+const
 gfxTextRun
 *
 aRun
@@ -3069,6 +3080,7 @@ DrawParams
 &
 aParams
 )
+const
 {
 NS_ASSERTION
 (
@@ -3774,6 +3786,7 @@ PropertyProvider
 *
 aProvider
 )
+const
 {
 MOZ_ASSERT
 (
@@ -4028,6 +4041,7 @@ Metrics
 *
 aMetrics
 )
+const
 {
 AutoTArray
 <
@@ -4120,6 +4134,7 @@ Metrics
 *
 aMetrics
 )
+const
 {
 if
 (
@@ -4302,6 +4317,7 @@ PropertyProvider
 *
 aProvider
 )
+const
 {
 NS_ASSERTION
 (
@@ -5351,6 +5367,7 @@ Spacing
 *
 aSpacing
 )
+const
 {
 NS_ASSERTION
 (
@@ -5613,6 +5630,7 @@ FindFirstGlyphRunContaining
 uint32_t
 aOffset
 )
+const
 {
 NS_ASSERTION
 (
@@ -6424,6 +6442,7 @@ gfxTextRun
 CountMissingGlyphs
 (
 )
+const
 {
 uint32_t
 i
@@ -6913,6 +6932,7 @@ aRange
 #
 ifdef
 DEBUG
+const
 GlyphRun
 *
 prevRun

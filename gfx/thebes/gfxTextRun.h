@@ -506,6 +506,7 @@ aEnd
 explicit
 Range
 (
+const
 gfxTextRun
 *
 aTextRun
@@ -752,6 +753,7 @@ DrawParams
 &
 aParams
 )
+const
 ;
 void
 DrawEmphasisMarks
@@ -772,6 +774,7 @@ PropertyProvider
 *
 aProvider
 )
+const
 ;
 Metrics
 MeasureText
@@ -790,6 +793,7 @@ PropertyProvider
 *
 aProvider
 )
+const
 ;
 Metrics
 MeasureText
@@ -808,6 +812,7 @@ aProvider
 =
 nullptr
 )
+const
 {
 return
 MeasureText
@@ -839,11 +844,13 @@ aSpacing
 =
 nullptr
 )
+const
 ;
 gfxFloat
 GetAdvanceWidth
 (
 )
+const
 {
 return
 GetAdvanceWidth
@@ -1093,6 +1100,7 @@ public
 :
 GlyphRunIterator
 (
+const
 gfxTextRun
 *
 aTextRun
@@ -1135,11 +1143,13 @@ NextRun
 (
 )
 ;
+const
 GlyphRun
 *
 GetGlyphRun
 (
 )
+const
 {
 return
 mGlyphRun
@@ -1149,6 +1159,7 @@ uint32_t
 GetStringStart
 (
 )
+const
 {
 return
 mStringStart
@@ -1158,6 +1169,7 @@ uint32_t
 GetStringEnd
 (
 )
+const
 {
 return
 mStringEnd
@@ -1165,10 +1177,12 @@ mStringEnd
 }
 private
 :
+const
 gfxTextRun
 *
 mTextRun
 ;
+const
 GlyphRun
 *
 mGlyphRun
@@ -1292,6 +1306,30 @@ SanitizeGlyphRuns
 (
 )
 ;
+const
+CompressedGlyph
+*
+GetCharacterGlyphs
+(
+)
+const
+final
+{
+MOZ_ASSERT
+(
+mCharacterGlyphs
+"
+failed
+to
+initialize
+mCharacterGlyphs
+"
+)
+;
+return
+mCharacterGlyphs
+;
+}
 CompressedGlyph
 *
 GetCharacterGlyphs
@@ -1411,6 +1449,7 @@ uint32_t
 CountMissingGlyphs
 (
 )
+const
 ;
 const
 GlyphRun
@@ -1445,6 +1484,7 @@ FindFirstGlyphRunContaining
 uint32_t
 aOffset
 )
+const
 ;
 void
 CopyGlyphDataFrom
@@ -1609,6 +1649,7 @@ GetAdvanceForGlyph
 uint32_t
 aIndex
 )
+const
 {
 const
 CompressedGlyph
@@ -1759,6 +1800,7 @@ GetAdvanceForGlyphs
 Range
 aRange
 )
+const
 ;
 bool
 GetAdjustedSpacingArray
@@ -1780,6 +1822,7 @@ Spacing
 *
 aSpacing
 )
+const
 ;
 CompressedGlyph
 &
@@ -1817,6 +1860,7 @@ PropertyProvider
 *
 aProvider
 )
+const
 ;
 gfxFloat
 ComputePartialLigatureWidth
@@ -1827,6 +1871,7 @@ PropertyProvider
 *
 aProvider
 )
+const
 ;
 void
 DrawPartialLigature
@@ -1848,6 +1893,7 @@ aParams
 uint16_t
 aOrientation
 )
+const
 ;
 void
 ShrinkToLigatureBoundaries
@@ -1856,6 +1902,7 @@ Range
 *
 aRange
 )
+const
 ;
 gfxFloat
 GetPartialLigatureWidth
@@ -1866,6 +1913,7 @@ PropertyProvider
 *
 aProvider
 )
+const
 ;
 void
 AccumulatePartialLigatureMetrics
@@ -1892,6 +1940,7 @@ Metrics
 *
 aMetrics
 )
+const
 ;
 void
 AccumulateMetricsForRun
@@ -1920,6 +1969,7 @@ Metrics
 *
 aMetrics
 )
+const
 ;
 void
 DrawGlyphs
@@ -1943,6 +1993,7 @@ aParams
 uint16_t
 aOrientation
 )
+const
 ;
 AutoTArray
 <

@@ -515,6 +515,7 @@ gfxGDIFont
 :
 Measure
 (
+const
 gfxTextRun
 *
 aTextRun
