@@ -7307,6 +7307,9 @@ gl
 RGBA
 gl
 .
+DEPTH_STENCIL
+gl
+.
 DEPTH_COMPONENT16
 gl
 .
