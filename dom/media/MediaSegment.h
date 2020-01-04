@@ -157,13 +157,10 @@ holder
 )
 ;
 }
-const
-PrincipalHandle
+#
+define
 PRINCIPAL_HANDLE_NONE
-(
 nullptr
-)
-;
 inline
 nsIPrincipal
 *
