@@ -924,10 +924,6 @@ buildid
 ACDEFINES
 )
 \
-(
-MOZ_DEBUG_DEFINES
-)
-\
 install_
 (
 subst

@@ -147,6 +147,14 @@ NDEBUG
 ]
 =
 True
+DEFINES
+[
+'
+DEBUG
+'
+]
+=
+False
 #
 Use
 locking

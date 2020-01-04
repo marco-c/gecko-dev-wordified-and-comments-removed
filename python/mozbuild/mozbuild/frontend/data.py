@@ -366,13 +366,11 @@ defines
 self
 .
 _context
-.
-get
-(
+[
 '
 DEFINES
 '
-)
+]
         
 return
 Defines
@@ -429,13 +427,11 @@ defines
 self
 .
 _context
-.
-get
-(
+[
 '
 HOST_DEFINES
 '
-)
+]
         
 return
 HostDefines
