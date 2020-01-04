@@ -3829,10 +3829,12 @@ _repeatID
 .
 messagePieces
 =
+JSON
+.
+stringify
+(
 messagePieces
-+
-"
-"
+)
 ;
 this
 .
