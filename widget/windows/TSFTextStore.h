@@ -1367,8 +1367,11 @@ NotifyTSFOfSelectionChange
 bool
 NotifyTSFOfLayoutChange
 (
-bool
-aFlush
+)
+;
+void
+NotifyTSFOfLayoutChangeAgain
+(
 )
 ;
 HRESULT
@@ -3053,7 +3056,10 @@ bool
 mPendingOnSelectionChange
 ;
 bool
-mPendingOnLayoutChange
+mHasReturnedNoLayoutError
+;
+bool
+mWaitingQueryLayout
 ;
 bool
 mPendingDestroy
