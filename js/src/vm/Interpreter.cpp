@@ -923,7 +923,8 @@ DEBUG
 MOZ_CRASH
 (
 "
-Self
+self
+-
 hosted
 checks
 should
