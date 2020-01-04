@@ -386,6 +386,10 @@ task
 forget
 (
 )
+AbstractThread
+:
+:
+DontAssertDispatchSuccess
 )
 ;
 }
