@@ -482,15 +482,9 @@ SrcNotesVector
 enum
 VarEmitOption
 {
-DefineVars
-=
-0
-PushInitialValues
-=
-1
 InitializeVars
-=
-2
+DefineVars
+PushInitialValues
 }
 ;
 struct
