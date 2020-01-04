@@ -2702,8 +2702,7 @@ if
 clientStatus
 .
 tlsVersionUsed
-!
-=
+<
 Ci
 .
 nsITLSClientStatus
