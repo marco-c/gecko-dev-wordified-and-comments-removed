@@ -45,6 +45,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ComputedTimingFunction
 .
 h
@@ -348,6 +357,8 @@ Nothing
 )
 ;
 }
+MOZ_FALLTHROUGH
+;
 case
 eCSSUnit_Cubic_Bezier
 :
