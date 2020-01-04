@@ -261,7 +261,7 @@ FileSystemDirectoryEntry
 :
 FileSystemEntry
 {
-DirectoryReader
+FileSystemDirectoryReader
 createReader
 (
 )
@@ -379,7 +379,7 @@ error
 NoInterfaceObject
 ]
 interface
-DirectoryReader
+FileSystemDirectoryReader
 {
 /
 /

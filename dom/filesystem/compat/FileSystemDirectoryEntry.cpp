@@ -15,7 +15,7 @@ h
 #
 include
 "
-DirectoryReader
+FileSystemDirectoryReader
 .
 h
 "
@@ -207,7 +207,7 @@ aRv
 }
 already_AddRefed
 <
-DirectoryReader
+FileSystemDirectoryReader
 >
 FileSystemDirectoryEntry
 :
@@ -224,12 +224,12 @@ mDirectory
 ;
 RefPtr
 <
-DirectoryReader
+FileSystemDirectoryReader
 >
 reader
 =
 new
-DirectoryReader
+FileSystemDirectoryReader
 (
 GetParentObject
 (
