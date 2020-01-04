@@ -831,6 +831,11 @@ CreateTable
 )
 ;
 nsresult
+CreateTableForSchemaVersion6
+(
+)
+;
+nsresult
 CreateTableForSchemaVersion5
 (
 )
