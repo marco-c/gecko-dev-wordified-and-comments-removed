@@ -875,7 +875,7 @@ GetPlatform
 )
 -
 >
-GetD3D11Device
+GetD3D11DeviceForCurrentThread
 (
 &
 device
@@ -1128,7 +1128,7 @@ GetPlatform
 )
 -
 >
-GetD3D11Device
+GetD3D11DeviceForCurrentThread
 (
 &
 device
