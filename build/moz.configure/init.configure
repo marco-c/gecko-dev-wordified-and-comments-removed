@@ -1259,12 +1259,12 @@ mozbuild
 .
 configure
 import
-DummyFunction
+DependsFunction
 assert
 isinstance
 (
 value_func
-DummyFunction
+DependsFunction
 )
 depends
 (
