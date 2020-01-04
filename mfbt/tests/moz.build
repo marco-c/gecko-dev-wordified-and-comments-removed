@@ -109,6 +109,9 @@ TestBinarySearch
 TestBloomFilter
 '
 '
+TestBufferList
+'
+'
 TestCasting
 '
 '
