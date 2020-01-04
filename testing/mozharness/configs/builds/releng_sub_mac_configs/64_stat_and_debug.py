@@ -48,12 +48,6 @@ sendchange
 '
         
 '
-check
--
-test
-'
-        
-'
 update
 '
     
