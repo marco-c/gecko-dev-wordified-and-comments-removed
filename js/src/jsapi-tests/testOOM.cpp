@@ -115,7 +115,10 @@ nullptr
 ;
 JS_SetGCParameter
 (
+JS_GetContext
+(
 rt
+)
 JSGC_MAX_BYTES
 (
 uint32_t

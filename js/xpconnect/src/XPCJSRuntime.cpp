@@ -18254,7 +18254,7 @@ rtPrivate
 ;
 JS_SetGCParameter
 (
-runtime
+cx
 JSGC_MAX_BYTES
 0xffffffff
 )

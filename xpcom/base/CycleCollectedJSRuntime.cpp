@@ -2189,7 +2189,7 @@ this
 ;
 JS_SetGCCallback
 (
-mJSRuntime
+mJSContext
 GCCallback
 this
 )
@@ -2246,7 +2246,7 @@ JS
 :
 SetLargeAllocationFailureCallback
 (
-mJSRuntime
+mJSContext
 LargeAllocationFailureCallback
 this
 )

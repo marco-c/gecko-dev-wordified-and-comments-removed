@@ -16362,7 +16362,7 @@ JS
 :
 SetLargeAllocationFailureCallback
 (
-rt
+cx
 my_LargeAllocFailCallback
 (
 void
@@ -16503,7 +16503,7 @@ JS
 :
 SetLargeAllocationFailureCallback
 (
-rt
+cx
 nullptr
 nullptr
 )
@@ -45328,7 +45328,7 @@ return
 ;
 JS_SetGCParameter
 (
-rt
+cx
 JSGC_MAX_BYTES
 0xffffffff
 )
@@ -45355,7 +45355,7 @@ availMem
 )
 JS_SetGCParametersBasedOnAvailableMemory
 (
-rt
+cx
 availMem
 )
 ;
@@ -45492,7 +45492,7 @@ cx
 ;
 JS_SetGCParameter
 (
-rt
+cx
 JSGC_MODE
 JSGC_MODE_INCREMENTAL
 )
@@ -45502,7 +45502,7 @@ JS
 :
 SetLargeAllocationFailureCallback
 (
-rt
+cx
 my_LargeAllocFailCallback
 (
 void
@@ -45533,21 +45533,21 @@ gc
 {
 JS_SetGCParameter
 (
-rt
+cx
 JSGC_DYNAMIC_HEAP_GROWTH
 1
 )
 ;
 JS_SetGCParameter
 (
-rt
+cx
 JSGC_DYNAMIC_MARK_SLICE
 1
 )
 ;
 JS_SetGCParameter
 (
-rt
+cx
 JSGC_SLICE_TIME_BUDGET
 10
 )
@@ -45611,7 +45611,7 @@ JS
 :
 SetLargeAllocationFailureCallback
 (
-rt
+cx
 nullptr
 nullptr
 )
