@@ -2322,6 +2322,12 @@ nsXHTMLContentSerializer
 :
 CheckElementEnd
 (
+mozilla
+:
+:
+dom
+:
+:
 Element
 *
 aElement
