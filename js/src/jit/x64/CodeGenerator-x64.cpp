@@ -7750,9 +7750,9 @@ void
 CodeGeneratorX64
 :
 :
-visitTruncateToInt64
+visitWasmTruncateToInt64
 (
-LTruncateToInt64
+LWasmTruncateToInt64
 *
 lir
 )
@@ -7783,7 +7783,7 @@ output
 )
 )
 ;
-MTruncateToInt64
+MWasmTruncateToInt64
 *
 mir
 =

@@ -325,9 +325,9 @@ lir
 )
 ;
 void
-visitTruncateToInt64
+visitWasmTruncateToInt64
 (
-LTruncateToInt64
+LWasmTruncateToInt64
 *
 lir
 )

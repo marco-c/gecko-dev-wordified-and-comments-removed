@@ -2005,9 +2005,9 @@ void
 LIRGeneratorX64
 :
 :
-visitTruncateToInt64
+visitWasmTruncateToInt64
 (
-MTruncateToInt64
+MWasmTruncateToInt64
 *
 ins
 )
@@ -2082,7 +2082,7 @@ alloc
 (
 )
 )
-LTruncateToInt64
+LWasmTruncateToInt64
 (
 useRegister
 (

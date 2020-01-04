@@ -559,7 +559,7 @@ TruncateToInt32
 \
 _
 (
-TruncateToInt64
+WasmTruncateToInt64
 )
 \
 _

@@ -41,7 +41,7 @@ UDivOrMod64
 \
 _
 (
-TruncateToInt64
+WasmTruncateToInt64
 )
 \
 _
