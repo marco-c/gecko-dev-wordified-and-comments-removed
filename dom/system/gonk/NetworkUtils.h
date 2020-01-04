@@ -566,13 +566,6 @@ mPrefixLength
 )
 COPY_OPT_STRING_FIELD
 (
-mOldIfname
-EmptyString
-(
-)
-)
-COPY_OPT_STRING_FIELD
-(
 mMode
 EmptyString
 (
@@ -831,9 +824,6 @@ mIp
 ;
 uint32_t
 mPrefixLength
-;
-nsString
-mOldIfname
 ;
 nsString
 mMode

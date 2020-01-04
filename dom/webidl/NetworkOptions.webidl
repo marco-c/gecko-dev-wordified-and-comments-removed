@@ -182,16 +182,6 @@ setDefaultRouteAndDNS
 "
 .
 DOMString
-oldIfname
-;
-/
-/
-for
-"
-setDefaultRouteAndDNS
-"
-.
-DOMString
 gateway
 ;
 /
