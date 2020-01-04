@@ -1300,6 +1300,9 @@ errorType
 mGoAwayReason
 ;
 int32_t
+mClientGoAwayReason
+;
+int32_t
 mPeerGoAwayReason
 ;
 uint32_t
