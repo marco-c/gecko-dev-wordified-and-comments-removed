@@ -441,9 +441,6 @@ rotation
 "
 )
 ;
-return
-aRect
-;
 }
 }
 namespace

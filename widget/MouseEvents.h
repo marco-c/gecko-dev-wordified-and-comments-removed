@@ -280,9 +280,6 @@ subclass
 "
 )
 ;
-return
-nullptr
-;
 }
 nsCOMPtr
 <
