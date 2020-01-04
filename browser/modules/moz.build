@@ -150,6 +150,11 @@ BrowserUITelemetry
 jsm
 '
 '
+CaptivePortalWatcher
+.
+jsm
+'
+'
 CastingApps
 .
 jsm
