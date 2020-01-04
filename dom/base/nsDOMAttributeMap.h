@@ -568,6 +568,7 @@ void
 GetSupportedNames
 (
 unsigned
+aFlags
 nsTArray
 <
 nsString
@@ -575,8 +576,7 @@ nsString
 &
 aNames
 )
-{
-}
+;
 size_t
 SizeOfIncludingThis
 (
