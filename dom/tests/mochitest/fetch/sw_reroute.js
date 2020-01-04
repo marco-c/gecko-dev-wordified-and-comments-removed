@@ -76,16 +76,6 @@ set
 "
 dom
 .
-requestcache
-.
-enabled
-"
-true
-]
-[
-"
-dom
-.
 serviceWorkers
 .
 enabled
