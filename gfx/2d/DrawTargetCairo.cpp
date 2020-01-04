@@ -2038,11 +2038,11 @@ mMatrix
 cairo_pattern_set_filter
 (
 pat
-GfxFilterToCairoFilter
+GfxSamplingFilterToCairoFilter
 (
 pattern
 .
-mFilter
+mSamplingFilter
 )
 )
 ;
@@ -3637,11 +3637,11 @@ src_mat
 cairo_pattern_set_filter
 (
 pat
-GfxFilterToCairoFilter
+GfxSamplingFilterToCairoFilter
 (
 aSurfOptions
 .
-mFilter
+mSamplingFilter
 )
 )
 ;

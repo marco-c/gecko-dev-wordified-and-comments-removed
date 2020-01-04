@@ -589,8 +589,8 @@ SurfacePatternStorage
 ExtendMode
 mExtend
 ;
-Filter
-mFilter
+SamplingFilter
+mSamplingFilter
 ;
 ReferencePtr
 mSurface

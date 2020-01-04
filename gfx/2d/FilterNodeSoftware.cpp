@@ -5952,9 +5952,9 @@ FilterNodeTransformSoftware
 (
 )
 :
-mFilter
+mSamplingFilter
 (
-Filter
+SamplingFilter
 :
 :
 GOOD
@@ -6010,11 +6010,11 @@ aIndex
 ATT_TRANSFORM_FILTER
 )
 ;
-mFilter
+mSamplingFilter
 =
 static_cast
 <
-Filter
+SamplingFilter
 >
 (
 aFilter
@@ -6434,7 +6434,7 @@ r
 r
 DrawSurfaceOptions
 (
-mFilter
+mSamplingFilter
 )
 )
 ;

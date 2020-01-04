@@ -518,8 +518,8 @@ private
 Matrix
 mMatrix
 ;
-Filter
-mFilter
+SamplingFilter
+mSamplingFilter
 ;
 }
 ;

@@ -756,7 +756,7 @@ D2DFilter
 (
 aSurfOptions
 .
-mFilter
+mSamplingFilter
 )
 D2DRect
 (
@@ -801,7 +801,7 @@ D2DInterpolationMode
 (
 aSurfOptions
 .
-mFilter
+mSamplingFilter
 )
 )
 D2D1
@@ -9795,7 +9795,7 @@ D2DFilter
 pat
 -
 >
-mFilter
+mSamplingFilter
 )
 )
 D2D1
@@ -10033,7 +10033,7 @@ D2DInterpolationMode
 pat
 -
 >
-mFilter
+mSamplingFilter
 )
 )
 D2D1

@@ -1762,10 +1762,10 @@ if
 (
 pat
 .
-mFilter
+mSamplingFilter
 =
 =
-Filter
+SamplingFilter
 :
 :
 POINT
@@ -2309,10 +2309,10 @@ if
 (
 aSurfOptions
 .
-mFilter
+mSamplingFilter
 =
 =
-Filter
+SamplingFilter
 :
 :
 POINT

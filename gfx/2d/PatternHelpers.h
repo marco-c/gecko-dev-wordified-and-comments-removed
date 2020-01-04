@@ -421,10 +421,10 @@ aMatrix
 Matrix
 (
 )
-Filter
-aFilter
+SamplingFilter
+aSamplingFilter
 =
-Filter
+SamplingFilter
 :
 :
 GOOD
@@ -459,7 +459,7 @@ SurfacePattern
 aSourceSurface
 aExtendMode
 aMatrix
-aFilter
+aSamplingFilter
 aSamplingRect
 )
 ;

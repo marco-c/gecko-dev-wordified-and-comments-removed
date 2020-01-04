@@ -383,7 +383,7 @@ DEFAULT
 ;
 enum
 class
-Filter
+SamplingFilter
 :
 int8_t
 {

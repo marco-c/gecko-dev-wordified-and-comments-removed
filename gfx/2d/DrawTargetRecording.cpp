@@ -1293,7 +1293,7 @@ mMatrix
 surfPat
 -
 >
-mFilter
+mSamplingFilter
 )
 ;
 return
