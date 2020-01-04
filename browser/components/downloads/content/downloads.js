@@ -2332,6 +2332,14 @@ hasdownloads
 )
 ;
 }
+DownloadsBlockedSubview
+.
+view
+.
+setHeightToFit
+(
+)
+;
 DownloadsSummary
 .
 active
