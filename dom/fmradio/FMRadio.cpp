@@ -1396,6 +1396,11 @@ JS
 AutoCheckCannotGC
 nogc
 ;
+bool
+isShared
+=
+false
+;
 uint16_t
 *
 data
@@ -1403,7 +1408,15 @@ data
 JS_GetUint16ArrayData
 (
 rdsgroup
+&
+isShared
 nogc
+)
+;
+MOZ_ASSERT
+(
+!
+isShared
 )
 ;
 data

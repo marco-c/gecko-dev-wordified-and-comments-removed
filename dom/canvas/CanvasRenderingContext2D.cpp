@@ -25332,6 +25332,9 @@ JS
 AutoCheckCannotGC
 nogc
 ;
+bool
+isShared
+;
 uint8_t
 *
 data
@@ -25339,7 +25342,15 @@ data
 JS_GetUint8ClampedArrayData
 (
 darray
+&
+isShared
 nogc
+)
+;
+MOZ_ASSERT
+(
+!
+isShared
 )
 ;
 if
