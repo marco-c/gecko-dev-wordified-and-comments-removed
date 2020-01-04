@@ -900,6 +900,16 @@ mOriginAttributes
 .
 mPrivateBrowsingId
 ;
+aAttrs
+.
+mFirstPartyDomain
+=
+aSerialized
+.
+mOriginAttributes
+.
+mFirstPartyDomain
+;
 return
 nullptr
 ;

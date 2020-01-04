@@ -554,6 +554,12 @@ privateBrowsingId
 =
 0
 ;
+DOMString
+firstPartyDomain
+=
+"
+"
+;
 }
 ;
 dictionary
@@ -579,6 +585,9 @@ signedPkg
 unsigned
 long
 privateBrowsingId
+;
+DOMString
+firstPartyDomain
 ;
 }
 ;
