@@ -153,7 +153,7 @@ NotificationPermissionRequest
 ;
 friend
 class
-NotificationObserver
+MainThreadNotificationObserver
 ;
 friend
 class
