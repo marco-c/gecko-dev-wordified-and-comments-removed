@@ -1269,9 +1269,12 @@ eCSSUnit_Centimeter
 eCSSUnit_Pica
 =
 904
-eCSSUnit_Pixel
+eCSSUnit_Quarter
 =
 905
+eCSSUnit_Pixel
+=
+906
 eCSSUnit_Degree
 =
 1000
