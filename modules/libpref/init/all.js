@@ -6850,6 +6850,16 @@ pref
 "
 dom
 .
+require_user_interaction_for_beforeunload
+"
+true
+)
+;
+pref
+(
+"
+dom
+.
 disable_open_during_load
 "
 false
