@@ -878,17 +878,13 @@ http
 :
 /
 /
-stage
+archive
 .
 mozilla
 .
 org
 /
 pub
-/
-mozilla
-.
-org
 "
         
 We

@@ -37,19 +37,17 @@ UPLOAD_HOST
 "
 :
 "
-dev
--
-stage01
+upload
 .
-srv
+ffxbld
 .
-releng
+productdelivery
 .
-scl3
+stage
 .
-mozilla
+mozaws
 .
-com
+net
 "
         
 "

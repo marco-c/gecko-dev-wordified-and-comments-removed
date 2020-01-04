@@ -42,17 +42,13 @@ http
 :
 /
 /
-ftp
+archive
 .
 mozilla
 .
 org
 /
 pub
-/
-mozilla
-.
-org
 '
 '
 http
@@ -68,10 +64,6 @@ mozilla
 net
 /
 pub
-/
-mozilla
-.
-org
 '
 )
             
