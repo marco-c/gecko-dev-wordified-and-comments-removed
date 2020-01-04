@@ -70,7 +70,7 @@ interface
 nsISocketTransport
 ;
 interface
-mozIDOMWindow
+nsIDOMWindow
 ;
 interface
 nsIPresentationControlChannel
@@ -360,7 +360,7 @@ in
 uint8_t
 aType
 in
-mozIDOMWindow
+nsIDOMWindow
 aWindow
 in
 nsIPresentationControlChannel

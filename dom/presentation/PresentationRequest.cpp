@@ -626,14 +626,6 @@ mUrl
 id
 origin
 aDeviceId
-GetOwner
-(
-)
--
->
-WindowID
-(
-)
 callback
 )
 ;
