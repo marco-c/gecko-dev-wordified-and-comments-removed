@@ -216,6 +216,9 @@ dataset
 [
 GetterThrows
 Pure
+TreatNullAs
+=
+EmptyString
 ]
 attribute
 DOMString
