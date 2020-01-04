@@ -429,9 +429,6 @@ MOCHITESTROOT
 /
 data
 /
-updater
-.
-app
 else
 cp
 (
