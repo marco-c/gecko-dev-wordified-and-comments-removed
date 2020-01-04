@@ -231,6 +231,17 @@ browser
 .
 ini
 '
+'
+content
+/
+test
+/
+urlbar
+/
+browser
+.
+ini
+'
 ]
 DEFINES
 [
