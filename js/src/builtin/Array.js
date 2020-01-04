@@ -3106,6 +3106,14 @@ ITEM_KIND_VALUE
 )
 ;
 }
+_SetCanonicalName
+(
+ArrayValues
+"
+values
+"
+)
+;
 function
 ArrayEntries
 (

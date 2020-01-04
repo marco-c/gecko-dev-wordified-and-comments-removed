@@ -108,6 +108,15 @@ return
 result
 ;
 }
+_SetCanonicalName
+(
+RegExpFlagsGetter
+"
+get
+flags
+"
+)
+;
 function
 RegExpToString
 (
@@ -171,3 +180,11 @@ pattern
 flags
 ;
 }
+_SetCanonicalName
+(
+RegExpToString
+"
+toString
+"
+)
+;
