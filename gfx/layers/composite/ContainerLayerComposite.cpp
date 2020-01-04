@@ -38,6 +38,13 @@ h
 #
 include
 "
+CompositableHost
+.
+h
+"
+#
+include
+"
 gfxEnv
 .
 h
@@ -239,6 +246,11 @@ nsTArray
 .
 h
 "
+#
+include
+<
+stack
+>
 #
 include
 "

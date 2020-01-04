@@ -66,6 +66,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+AsyncDragMetrics
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h

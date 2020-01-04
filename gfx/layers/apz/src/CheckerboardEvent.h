@@ -34,6 +34,11 @@ Units
 .
 h
 "
+#
+include
+<
+vector
+>
 namespace
 mozilla
 {

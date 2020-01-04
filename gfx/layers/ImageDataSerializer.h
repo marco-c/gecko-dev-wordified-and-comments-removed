@@ -51,6 +51,17 @@ Types
 .
 h
 "
+#
+include
+"
+mozilla
+/
+layers
+/
+LayersSurfaces
+.
+h
+"
 namespace
 mozilla
 {
