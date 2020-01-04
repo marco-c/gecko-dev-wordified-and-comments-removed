@@ -291,6 +291,17 @@ cursor
 }
 Override
 public
+boolean
+hasStableIds
+(
+)
+{
+return
+false
+;
+}
+Override
+public
 final
 View
 newView
