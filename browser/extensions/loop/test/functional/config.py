@@ -137,7 +137,7 @@ gettingStarted
 latestFTUVersion
 "
 :
-0
+1
     
 "
 media
