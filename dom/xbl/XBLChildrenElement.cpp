@@ -191,7 +191,7 @@ mIncludes
 .
 AppendElement
 (
-do_GetAtom
+NS_Atomize
 (
 tok
 .

@@ -2320,7 +2320,7 @@ nsIAtom
 >
 axis
 =
-do_GetAtom
+NS_Atomize
 (
 tok
 -
@@ -4289,7 +4289,7 @@ idx
 *
 aPrefix
 =
-NS_NewAtom
+NS_Atomize
 (
 StringHead
 (
@@ -4319,7 +4319,7 @@ NS_ERROR_OUT_OF_MEMORY
 *
 aLocalName
 =
-NS_NewAtom
+NS_Atomize
 (
 Substring
 (
@@ -4410,7 +4410,7 @@ lcname
 *
 aLocalName
 =
-NS_NewAtom
+NS_Atomize
 (
 lcname
 )
@@ -4425,7 +4425,7 @@ else
 *
 aLocalName
 =
-NS_NewAtom
+NS_Atomize
 (
 aQName
 )

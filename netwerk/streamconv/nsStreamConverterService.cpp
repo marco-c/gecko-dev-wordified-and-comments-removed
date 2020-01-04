@@ -466,7 +466,7 @@ nsIAtom
 >
 vertex
 =
-do_GetAtom
+NS_Atomize
 (
 toStr
 )

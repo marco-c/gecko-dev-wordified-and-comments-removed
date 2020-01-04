@@ -558,7 +558,7 @@ GetAttrNameAtom
 const
 {
 return
-do_GetAtom
+NS_Atomize
 (
 nsCSSProps
 :

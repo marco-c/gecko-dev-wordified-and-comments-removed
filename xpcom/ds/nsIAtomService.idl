@@ -220,7 +220,7 @@ nsISupports
 *
 Version
 of
-NS_NewAtom
+NS_Atomize
 that
 doesn
 '

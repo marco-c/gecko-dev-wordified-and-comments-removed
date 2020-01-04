@@ -1035,7 +1035,7 @@ nsIAtom
 >
 onEventAtom
 =
-do_GetAtom
+NS_Atomize
 (
 NS_LITERAL_STRING
 (
@@ -3502,7 +3502,7 @@ return
 }
 mEventName
 =
-do_GetAtom
+NS_Atomize
 (
 event
 )
@@ -4755,7 +4755,7 @@ rv
 ;
 mEventName
 =
-do_GetAtom
+NS_Atomize
 (
 name
 )

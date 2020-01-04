@@ -6780,7 +6780,7 @@ char16_t
 )
 {
 return
-do_GetAtom
+NS_Atomize
 (
 language
 )
@@ -8691,7 +8691,7 @@ mediaType
 ;
 mMediaEmulated
 =
-do_GetAtom
+NS_Atomize
 (
 mediaType
 )

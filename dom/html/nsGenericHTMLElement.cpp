@@ -11604,7 +11604,7 @@ nsIAtom
 >
 atom
 =
-do_GetAtom
+NS_Atomize
 (
 formId
 )
@@ -11687,7 +11687,7 @@ nsIAtom
 >
 atom
 =
-do_GetAtom
+NS_Atomize
 (
 formId
 )

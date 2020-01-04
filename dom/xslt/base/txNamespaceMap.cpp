@@ -353,7 +353,7 @@ nsIAtom
 >
 prefix
 =
-do_GetAtom
+NS_Atomize
 (
 aPrefix
 )

@@ -1037,7 +1037,7 @@ NS_OK
 ;
 mSortVariable
 =
-do_GetAtom
+NS_Atomize
 (
 sort
 )
@@ -5522,7 +5522,7 @@ IsEmpty
 {
 mSortVariable
 =
-do_GetAtom
+NS_Atomize
 (
 sort
 )

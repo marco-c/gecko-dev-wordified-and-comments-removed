@@ -1360,7 +1360,7 @@ nsIAtom
 >
 truncatedLang
 =
-do_GetAtom
+NS_Atomize
 (
 langStr
 )

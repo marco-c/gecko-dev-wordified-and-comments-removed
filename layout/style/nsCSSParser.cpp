@@ -13376,7 +13376,7 @@ mIdent
 ;
 mediaType
 =
-do_GetAtom
+NS_Atomize
 (
 mToken
 .
@@ -14174,7 +14174,7 @@ nsIAtom
 >
 mediaFeatureAtom
 =
-do_GetAtom
+NS_Atomize
 (
 featureString
 )
@@ -16009,7 +16009,7 @@ IsEmpty
 {
 prefix
 =
-do_GetAtom
+NS_Atomize
 (
 aPrefix
 )
@@ -24122,7 +24122,7 @@ nsIAtom
 >
 pseudo
 =
-do_GetAtom
+NS_Atomize
 (
 buffer
 )
@@ -70117,7 +70117,7 @@ nsIAtom
 >
 prefix
 =
-do_GetAtom
+NS_Atomize
 (
 aPrefix
 )

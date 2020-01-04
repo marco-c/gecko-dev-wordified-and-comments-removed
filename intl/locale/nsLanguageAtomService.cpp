@@ -143,7 +143,7 @@ nsIAtom
 >
 lang
 =
-do_GetAtom
+NS_Atomize
 (
 lowered
 )
@@ -190,7 +190,7 @@ group
 )
 ;
 return
-do_GetAtom
+NS_Atomize
 (
 group
 )
@@ -308,7 +308,7 @@ loc
 ;
 mLocaleLanguage
 =
-do_GetAtom
+NS_Atomize
 (
 loc
 )
@@ -474,7 +474,7 @@ nsIAtom
 >
 langGroup
 =
-do_GetAtom
+NS_Atomize
 (
 langGroupStr
 )

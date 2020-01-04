@@ -184,7 +184,7 @@ nsIAtom
 >
 type
 =
-do_GetAtom
+NS_Atomize
 (
 aType
 )

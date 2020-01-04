@@ -1146,7 +1146,7 @@ IsEmpty
 {
 mAtom
 =
-do_GetAtom
+NS_Atomize
 (
 mId
 )

@@ -220,7 +220,7 @@ lowered
 ;
 langGroupAtom
 =
-do_GetAtom
+NS_Atomize
 (
 lowered
 )

@@ -1631,7 +1631,7 @@ target
 )
 ;
 return
-NS_NewAtom
+NS_Atomize
 (
 target
 )

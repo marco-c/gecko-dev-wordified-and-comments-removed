@@ -3706,7 +3706,7 @@ nsIAtom
 tag
 hrefAtom
 (
-do_GetAtom
+NS_Atomize
 (
 "
 href
@@ -3720,7 +3720,7 @@ nsIAtom
 >
 typeAtom
 (
-do_GetAtom
+NS_Atomize
 (
 "
 type

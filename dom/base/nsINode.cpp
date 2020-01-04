@@ -3729,7 +3729,7 @@ nsIAtom
 >
 key
 =
-do_GetAtom
+NS_Atomize
 (
 aKey
 )
@@ -4001,7 +4001,7 @@ nsIAtom
 >
 key
 =
-do_GetAtom
+NS_Atomize
 (
 aKey
 )

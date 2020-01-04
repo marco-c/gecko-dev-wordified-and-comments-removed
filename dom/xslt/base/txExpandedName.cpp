@@ -106,7 +106,7 @@ nsIAtom
 >
 prefix
 =
-do_GetAtom
+NS_Atomize
 (
 Substring
 (
@@ -158,7 +158,7 @@ end
 ;
 mLocalName
 =
-do_GetAtom
+NS_Atomize
 (
 Substring
 (
@@ -188,7 +188,7 @@ kNameSpaceID_None
 ;
 mLocalName
 =
-do_GetAtom
+NS_Atomize
 (
 aQName
 )

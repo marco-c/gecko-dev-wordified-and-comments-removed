@@ -645,7 +645,7 @@ lnameStr
 ;
 lname
 =
-do_GetAtom
+NS_Atomize
 (
 lnameStr
 )
@@ -655,7 +655,7 @@ else
 {
 lname
 =
-do_GetAtom
+NS_Atomize
 (
 aLocalName
 )
@@ -2083,7 +2083,7 @@ lnameStr
 ;
 lname
 =
-do_GetAtom
+NS_Atomize
 (
 lnameStr
 )
@@ -2093,7 +2093,7 @@ else
 {
 lname
 =
-do_GetAtom
+NS_Atomize
 (
 aLocalName
 )
@@ -3516,7 +3516,7 @@ nsIAtom
 >
 header
 =
-do_GetAtom
+NS_Atomize
 (
 httpEquiv
 )
@@ -4113,7 +4113,7 @@ nsIAtom
 >
 doctypeName
 =
-do_GetAtom
+NS_Atomize
 (
 qName
 )

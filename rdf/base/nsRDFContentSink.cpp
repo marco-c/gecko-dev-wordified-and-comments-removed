@@ -4891,7 +4891,7 @@ nsIAtom
 >
 preferred
 =
-do_GetAtom
+NS_Atomize
 (
 lname
 )
@@ -5022,7 +5022,7 @@ uriEnd
 *
 aLocalName
 =
-NS_NewAtom
+NS_Atomize
 (
 Substring
 (

@@ -409,7 +409,7 @@ nsIAtom
 >
 attrAtom
 =
-do_GetAtom
+NS_Atomize
 (
 attr
 )
@@ -507,7 +507,7 @@ nsIAtom
 >
 attrAtom
 =
-do_GetAtom
+NS_Atomize
 (
 attr
 )

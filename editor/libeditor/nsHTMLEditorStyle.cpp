@@ -1337,7 +1337,7 @@ nsIAtom
 >
 atom
 =
-do_GetAtom
+NS_Atomize
 (
 *
 aAttribute
@@ -1824,7 +1824,7 @@ attrAtom
 =
 aAttribute
 ?
-do_GetAtom
+NS_Atomize
 (
 *
 aAttribute
@@ -4047,7 +4047,7 @@ nsIAtom
 >
 attribute
 =
-do_GetAtom
+NS_Atomize
 (
 *
 aAttribute
@@ -4516,7 +4516,7 @@ nsIAtom
 >
 atom
 =
-do_GetAtom
+NS_Atomize
 (
 *
 aAttribute

@@ -112,7 +112,7 @@ nsIAtom
 >
 atom
 =
-do_GetAtom
+NS_Atomize
 (
 str16
 )
@@ -261,7 +261,7 @@ nsIAtom
 >
 atom16
 =
-do_GetAtom
+NS_Atomize
 (
 ValidStrings
 [
@@ -277,7 +277,7 @@ nsIAtom
 >
 atom8
 =
-do_GetAtom
+NS_Atomize
 (
 ValidStrings
 [
@@ -325,7 +325,7 @@ nsIAtom
 >
 atom
 =
-do_GetAtom
+NS_Atomize
 (
 unique
 )
@@ -394,7 +394,7 @@ nsIAtom
 >
 atomCut
 =
-do_GetAtom
+NS_Atomize
 (
 strCut
 )
@@ -405,7 +405,7 @@ nsIAtom
 >
 atom
 =
-do_GetAtom
+NS_Atomize
 (
 str
 )
@@ -494,7 +494,7 @@ nsIAtom
 >
 atom16
 =
-do_GetAtom
+NS_Atomize
 (
 Invalid16Strings
 [
@@ -567,7 +567,7 @@ nsIAtom
 >
 atom8
 =
-do_GetAtom
+NS_Atomize
 (
 Invalid8Strings
 [
@@ -583,7 +583,7 @@ nsIAtom
 >
 atom16
 =
-do_GetAtom
+NS_Atomize
 (
 Invalid8Strings
 [
@@ -637,7 +637,7 @@ nsIAtom
 >
 emptyAtom
 =
-do_GetAtom
+NS_Atomize
 (
 "
 "
@@ -676,7 +676,7 @@ nsIAtom
 >
 atom8
 =
-do_GetAtom
+NS_Atomize
 (
 Malformed8Strings
 [
@@ -919,7 +919,7 @@ nsIAtom
 >
 thirdNonPerm
 =
-do_GetAtom
+NS_Atomize
 (
 THIRD_ATOM_STR
 )

@@ -3502,7 +3502,7 @@ nsIAtom
 >
 fieldAtom
 (
-do_GetAtom
+NS_Atomize
 (
 header
 )

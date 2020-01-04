@@ -68,7 +68,7 @@ nsIAtom
 >
 atom
 =
-do_GetAtom
+NS_Atomize
 (
 "
 foo
@@ -231,7 +231,7 @@ staticAtom
 passed
 (
 "
-do_GetAtom
+NS_Atomize
 and
 NS_GetStaticAtom
 returned
@@ -248,7 +248,7 @@ else
 fail
 (
 "
-do_GetAtom
+NS_Atomize
 and
 NS_GetStaticAtom
 returned
@@ -271,7 +271,7 @@ AddRefAtoms
 ;
 atom
 =
-do_GetAtom
+NS_Atomize
 (
 "
 qux

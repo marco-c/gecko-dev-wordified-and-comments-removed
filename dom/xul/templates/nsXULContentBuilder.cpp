@@ -2367,7 +2367,7 @@ else
 {
 tag
 =
-do_GetAtom
+NS_Atomize
 (
 attribute
 )

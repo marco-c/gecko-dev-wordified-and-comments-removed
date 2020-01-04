@@ -1169,7 +1169,7 @@ IsEmpty
 {
 pseudoElt
 =
-do_GetAtom
+NS_Atomize
 (
 aPseudo
 )
@@ -2246,7 +2246,7 @@ nsIAtom
 >
 pseudoElt
 =
-do_GetAtom
+NS_Atomize
 (
 aPseudo
 )
@@ -5636,7 +5636,7 @@ nsIAtom
 >
 atom
 =
-do_GetAtom
+NS_Atomize
 (
 aStatePseudo
 )

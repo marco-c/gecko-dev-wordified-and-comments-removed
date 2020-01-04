@@ -4225,7 +4225,7 @@ DefaultTooltipTextProvider
 {
 mTag_dialogHeader
 =
-do_GetAtom
+NS_Atomize
 (
 "
 dialogheader
@@ -4399,7 +4399,7 @@ nsIAtom
 >
 titleAtom
 =
-do_GetAtom
+NS_Atomize
 (
 "
 title
@@ -4450,7 +4450,7 @@ nsIAtom
 >
 noValidateAtom
 =
-do_GetAtom
+NS_Atomize
 (
 "
 novalidate

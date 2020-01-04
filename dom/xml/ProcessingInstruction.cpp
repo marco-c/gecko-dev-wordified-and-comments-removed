@@ -120,7 +120,7 @@ nsIAtom
 >
 target
 =
-do_GetAtom
+NS_Atomize
 (
 aTarget
 )

@@ -3334,7 +3334,7 @@ aValue
 *
 aUnit
 =
-NS_NewAtom
+NS_Atomize
 (
 aString
 )
@@ -3689,7 +3689,7 @@ sign
 *
 aUnit
 =
-NS_NewAtom
+NS_Atomize
 (
 StringTail
 (

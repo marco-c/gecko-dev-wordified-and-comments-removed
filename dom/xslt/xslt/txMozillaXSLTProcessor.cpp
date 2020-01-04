@@ -1550,7 +1550,7 @@ nsIAtom
 >
 pre
 =
-do_GetAtom
+NS_Atomize
 (
 aPrefix
 )
@@ -1962,7 +1962,7 @@ nsIAtom
 >
 name
 =
-do_GetAtom
+NS_Atomize
 (
 aName
 )
@@ -3841,7 +3841,7 @@ nsIAtom
 >
 localName
 =
-do_GetAtom
+NS_Atomize
 (
 aLocalName
 )
@@ -3960,7 +3960,7 @@ nsIAtom
 >
 localName
 =
-do_GetAtom
+NS_Atomize
 (
 aLocalName
 )
@@ -4059,7 +4059,7 @@ nsIAtom
 >
 localName
 =
-do_GetAtom
+NS_Atomize
 (
 aLocalName
 )

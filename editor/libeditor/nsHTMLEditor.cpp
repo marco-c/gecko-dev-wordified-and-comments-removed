@@ -8558,7 +8558,7 @@ nsIAtom
 >
 listAtom
 =
-do_GetAtom
+NS_Atomize
 (
 aListType
 )
@@ -9243,7 +9243,7 @@ nsIAtom
 >
 blockAtom
 =
-do_GetAtom
+NS_Atomize
 (
 aBlockType
 )
@@ -11458,7 +11458,7 @@ nsCOMPtr
 nsIAtom
 >
 (
-do_GetAtom
+NS_Atomize
 (
 realTagName
 )
@@ -19419,7 +19419,7 @@ nsIAtom
 >
 attribute
 =
-do_GetAtom
+NS_Atomize
 (
 aAttribute
 )

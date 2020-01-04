@@ -4844,7 +4844,7 @@ nsIAtom
 >
 name
 =
-do_GetAtom
+NS_Atomize
 (
 aName
 )

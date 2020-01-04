@@ -2986,7 +2986,7 @@ case
 eString
 :
 return
-do_GetAtom
+NS_Atomize
 (
 GetStringValue
 (
@@ -3027,7 +3027,7 @@ val
 )
 ;
 return
-do_GetAtom
+NS_Atomize
 (
 val
 )
@@ -5178,7 +5178,7 @@ nsIAtom
 >
 atom
 =
-NS_NewAtom
+NS_Atomize
 (
 aValue
 )
@@ -5326,7 +5326,7 @@ nsIAtom
 >
 classAtom
 =
-do_GetAtom
+NS_Atomize
 (
 Substring
 (
@@ -5491,7 +5491,7 @@ iter
 ;
 classAtom
 =
-do_GetAtom
+NS_Atomize
 (
 Substring
 (
@@ -7460,7 +7460,7 @@ nsIAtom
 >
 atom
 =
-NS_NewAtom
+NS_Atomize
 (
 *
 aValue

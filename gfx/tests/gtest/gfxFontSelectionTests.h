@@ -31,7 +31,7 @@ NORMAL
 16
 .
 0
-NS_NewAtom
+NS_Atomize
 (
 NS_LITERAL_STRING
 (
@@ -70,7 +70,7 @@ NORMAL
 16
 .
 0
-NS_NewAtom
+NS_Atomize
 (
 NS_LITERAL_STRING
 (

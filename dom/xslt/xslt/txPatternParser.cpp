@@ -591,7 +591,7 @@ nsIAtom
 >
 nameAtom
 =
-do_GetAtom
+NS_Atomize
 (
 aLexer
 .

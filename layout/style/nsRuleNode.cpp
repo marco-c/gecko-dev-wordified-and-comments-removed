@@ -15717,7 +15717,7 @@ aFont
 >
 mLanguage
 =
-do_GetAtom
+NS_Atomize
 (
 lang
 )

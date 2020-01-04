@@ -14460,7 +14460,7 @@ nsIAtom
 >
 listType
 =
-do_GetAtom
+NS_Atomize
 (
 *
 aListType
@@ -14504,7 +14504,7 @@ aItemType
 {
 itemType
 =
-do_GetAtom
+NS_Atomize
 (
 *
 aItemType
@@ -16253,7 +16253,7 @@ nsIAtom
 >
 blockType
 =
-do_GetAtom
+NS_Atomize
 (
 *
 aBlockType
@@ -41306,7 +41306,7 @@ defaultLengthUnit
 ;
 unit
 =
-do_GetAtom
+NS_Atomize
 (
 defaultLengthUnit
 )

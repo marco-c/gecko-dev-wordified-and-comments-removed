@@ -740,7 +740,7 @@ tmp
 }
 prefix
 =
-do_GetAtom
+NS_Atomize
 (
 prefixStr
 )
