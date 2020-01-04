@@ -245,6 +245,17 @@ NS_ERROR_FAILURE
 ;
 }
 virtual
+bool
+ClonableToDifferentThreadOrProcess
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
 void
 Unlink
 (
