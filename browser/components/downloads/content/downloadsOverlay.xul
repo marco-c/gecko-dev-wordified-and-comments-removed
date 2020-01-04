@@ -1182,6 +1182,11 @@ id
 "
 downloadsFooter
 "
+class
+=
+"
+downloadsPanelFooter
+"
 >
 <
 hbox
@@ -1335,6 +1340,7 @@ class
 =
 "
 plain
+downloadsPanelFooterButton
 "
 label
 =
@@ -1453,6 +1459,11 @@ blockedSubview
 -
 buttons
 "
+class
+=
+"
+downloadsPanelFooter
+"
 align
 =
 "
@@ -1474,6 +1485,7 @@ class
 =
 "
 plain
+downloadsPanelFooterButton
 "
 command
 =
@@ -1485,6 +1497,10 @@ flex
 "
 1
 "
+/
+>
+<
+toolbarseparator
 /
 >
 <
@@ -1502,6 +1518,7 @@ class
 =
 "
 plain
+downloadsPanelFooterButton
 "
 oncommand
 =
