@@ -1271,11 +1271,6 @@ const
 nsIFrame
 *
 aFrame
-nsRect
-*
-aDisplayPort
-=
-nullptr
 )
 ;
 static
