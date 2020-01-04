@@ -2019,10 +2019,6 @@ rawNode
 attributes
 ]
 .
-reverse
-(
-)
-.
 map
 (
 attr

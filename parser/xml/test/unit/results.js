@@ -800,13 +800,6 @@ body
 >
 <
 video
-controls
-=
-\
-"
-controls
-\
-"
 poster
 =
 \
@@ -819,6 +812,13 @@ alert
 )
 /
 /
+\
+"
+controls
+=
+\
+"
+controls
 \
 "
 >
