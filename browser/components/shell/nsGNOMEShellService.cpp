@@ -1701,7 +1701,7 @@ if
 (
 defaultBrowserCheckCount
 <
-3
+4
 )
 {
 *
