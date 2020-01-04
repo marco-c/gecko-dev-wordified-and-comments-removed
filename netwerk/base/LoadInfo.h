@@ -49,9 +49,6 @@ h
 class
 nsINode
 ;
-class
-nsXMLHttpRequest
-;
 namespace
 mozilla
 {
@@ -199,17 +196,6 @@ LoadInfo
 (
 )
 ;
-void
-SetWithCredentialsSecFlag
-(
-)
-;
-friend
-class
-:
-:
-nsXMLHttpRequest
-;
 nsCOMPtr
 <
 nsIPrincipal
@@ -229,7 +215,7 @@ nsSecurityFlags
 mSecurityFlags
 ;
 nsContentPolicyType
-mInternalContentPolicyType
+mContentPolicyType
 ;
 bool
 mUpgradeInsecureRequests

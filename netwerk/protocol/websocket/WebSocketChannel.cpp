@@ -15468,7 +15468,7 @@ GetSecurityFlags
 mLoadInfo
 -
 >
-InternalContentPolicyType
+GetContentPolicyType
 (
 )
 getter_AddRefs

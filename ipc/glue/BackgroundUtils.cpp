@@ -1123,7 +1123,7 @@ GetSecurityFlags
 aLoadInfo
 -
 >
-InternalContentPolicyType
+GetContentPolicyType
 (
 )
 aLoadInfo

@@ -2466,7 +2466,7 @@ ChangeStateToDone
 (
 )
 ;
-void
+nsresult
 CheckChannelForCrossSiteRequest
 (
 nsIChannel
