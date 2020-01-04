@@ -4465,6 +4465,10 @@ microtaskQueue
 front
 (
 )
+.
+forget
+(
+)
 ;
 MOZ_ASSERT
 (
@@ -4634,6 +4638,10 @@ microtaskQueue
 front
 (
 )
+.
+forget
+(
+)
 ;
 MOZ_ASSERT
 (
@@ -4762,6 +4770,10 @@ microtaskQueue
 -
 >
 front
+(
+)
+.
+forget
 (
 )
 ;
