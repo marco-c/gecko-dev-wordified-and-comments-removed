@@ -135,8 +135,6 @@ AtomicsExchange
 AtomicsLoad
 AtomicsStore
 AtomicsBinOp
-I32X4SignMask
-F32X4SignMask
 I32X4ExtractLane
 Id
 Bad
@@ -257,7 +255,6 @@ FromF32X4Bits
 Swizzle
 Shuffle
 Select
-BitSelect
 Splat
 Load
 Store
@@ -284,14 +281,12 @@ Literal
 Ctor
 Unary
 Binary
-BinaryBitwise
 ReplaceLane
 FromI32X4
 FromI32X4Bits
 Swizzle
 Shuffle
 Select
-BitSelect
 Splat
 Load
 Store

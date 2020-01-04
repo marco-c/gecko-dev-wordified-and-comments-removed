@@ -123,11 +123,6 @@ SimdInsertElementF
 \
 _
 (
-SimdSignMaskX4
-)
-\
-_
-(
 SimdGeneralShuffleI
 )
 \

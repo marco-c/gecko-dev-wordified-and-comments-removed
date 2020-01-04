@@ -69,11 +69,6 @@ SimdInsertElement
 \
 _
 (
-SimdSignMask
-)
-\
-_
-(
 SimdSwizzle
 )
 \
