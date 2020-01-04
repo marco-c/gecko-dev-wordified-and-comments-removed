@@ -1137,6 +1137,7 @@ error
 libpng
 requires
 8
+-
 bit
 bytes
 "
@@ -1186,6 +1187,7 @@ requires
 a
 signed
 16
+-
 bit
 type
 "
@@ -1223,6 +1225,7 @@ requires
 an
 unsigned
 16
+-
 bit
 type
 "
@@ -1269,6 +1272,7 @@ requires
 a
 signed
 32
+-
 bit
 (
 or
@@ -1309,6 +1313,7 @@ requires
 an
 unsigned
 32
+-
 bit
 (
 or

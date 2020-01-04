@@ -815,7 +815,6 @@ num_palette
 else
 if
 (
-(
 info_ptr
 -
 >
@@ -823,10 +822,6 @@ color_type
 =
 =
 PNG_COLOR_TYPE_PALETTE
-)
-!
-=
-0
 )
 png_error
 (
