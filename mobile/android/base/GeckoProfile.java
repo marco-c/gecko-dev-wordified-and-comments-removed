@@ -2180,6 +2180,16 @@ mDB
 }
 public
 boolean
+isWebAppProfile
+(
+)
+{
+return
+mIsWebAppProfile
+;
+}
+public
+boolean
 locked
 (
 )
