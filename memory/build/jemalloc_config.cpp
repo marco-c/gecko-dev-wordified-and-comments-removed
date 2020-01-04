@@ -1,6 +1,6 @@
 #
 ifdef
-MOZ_JEMALLOC3
+MOZ_JEMALLOC4
 #
 define
 MOZ_JEMALLOC_IMPL

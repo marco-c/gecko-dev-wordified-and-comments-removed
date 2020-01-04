@@ -198,7 +198,7 @@ jemalloc
 DEFINES
 [
 '
-MOZ_JEMALLOC3
+MOZ_JEMALLOC4
 '
 ]
 =

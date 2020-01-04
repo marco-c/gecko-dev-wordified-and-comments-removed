@@ -1,6 +1,6 @@
 #
 ifndef
-MOZ_JEMALLOC3
+MOZ_JEMALLOC4
 #
 error
 Should

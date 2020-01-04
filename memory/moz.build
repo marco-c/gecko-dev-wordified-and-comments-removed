@@ -144,7 +144,7 @@ if
 CONFIG
 [
 '
-MOZ_JEMALLOC3
+MOZ_JEMALLOC4
 '
 ]
 or
