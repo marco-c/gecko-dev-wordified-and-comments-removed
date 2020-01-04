@@ -4913,6 +4913,12 @@ nsACString
 aValue
 )
 {
+aValue
+.
+Truncate
+(
+)
+;
 nsHttpAtom
 atom
 =
@@ -5259,6 +5265,12 @@ nsACString
 value
 )
 {
+value
+.
+Truncate
+(
+)
+;
 if
 (
 !
