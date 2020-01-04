@@ -1617,7 +1617,7 @@ mp_err
 mask
 ;
 }
-mp_size
+mp_err
 mpl_significant_bits
 (
 const
@@ -1626,7 +1626,7 @@ mp_int
 a
 )
 {
-mp_size
+mp_err
 bits
 =
 0

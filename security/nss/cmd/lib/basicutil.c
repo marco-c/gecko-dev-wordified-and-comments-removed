@@ -3885,7 +3885,6 @@ SECItem
 srcdest
 )
 {
-unsigned
 int
 i
 ;

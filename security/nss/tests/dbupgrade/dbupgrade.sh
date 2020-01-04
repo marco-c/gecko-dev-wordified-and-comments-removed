@@ -975,7 +975,7 @@ certutil
 S
 -
 g
-1024
+512
 -
 n
 tmprsa

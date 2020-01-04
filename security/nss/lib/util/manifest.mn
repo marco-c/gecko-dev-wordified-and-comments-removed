@@ -210,10 +210,6 @@ NULL
 PRIVATE_EXPORTS
 =
 \
-verref
-.
-h
-\
 templates
 .
 c

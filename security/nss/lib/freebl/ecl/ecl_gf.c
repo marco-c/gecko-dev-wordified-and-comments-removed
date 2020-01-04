@@ -1211,15 +1211,12 @@ b
 #
 ifndef
 MPI_AMD64_ADD
-carry
-=
-0
-;
 MP_ADD_CARRY
 (
 a0
 r0
 r0
+0
 carry
 )
 ;
@@ -1229,6 +1226,7 @@ a1
 r1
 r1
 carry
+carry
 )
 ;
 MP_ADD_CARRY
@@ -1236,6 +1234,7 @@ MP_ADD_CARRY
 a2
 r2
 r2
+carry
 carry
 )
 ;
@@ -1492,15 +1491,12 @@ irr
 #
 ifndef
 MPI_AMD64_ADD
-carry
-=
-0
-;
 MP_SUB_BORROW
 (
 r0
 a0
 r0
+0
 carry
 )
 ;
@@ -1510,6 +1506,7 @@ r1
 a1
 r1
 carry
+carry
 )
 ;
 MP_SUB_BORROW
@@ -1517,6 +1514,7 @@ MP_SUB_BORROW
 r2
 a2
 r2
+carry
 carry
 )
 ;
@@ -1826,15 +1824,12 @@ b
 #
 ifndef
 MPI_AMD64_ADD
-carry
-=
-0
-;
 MP_ADD_CARRY
 (
 a0
 r0
 r0
+0
 carry
 )
 ;
@@ -1844,6 +1839,7 @@ a1
 r1
 r1
 carry
+carry
 )
 ;
 MP_ADD_CARRY
@@ -1852,6 +1848,7 @@ a2
 r2
 r2
 carry
+carry
 )
 ;
 MP_ADD_CARRY
@@ -1859,6 +1856,7 @@ MP_ADD_CARRY
 a3
 r3
 r3
+carry
 carry
 )
 ;
@@ -2165,15 +2163,12 @@ irr
 #
 ifndef
 MPI_AMD64_ADD
-carry
-=
-0
-;
 MP_SUB_BORROW
 (
 r0
 a0
 r0
+0
 carry
 )
 ;
@@ -2183,6 +2178,7 @@ r1
 a1
 r1
 carry
+carry
 )
 ;
 MP_SUB_BORROW
@@ -2191,6 +2187,7 @@ r2
 a2
 r2
 carry
+carry
 )
 ;
 MP_SUB_BORROW
@@ -2198,6 +2195,7 @@ MP_SUB_BORROW
 r3
 a3
 r3
+carry
 carry
 )
 ;
@@ -2570,15 +2568,12 @@ b
 )
 ;
 }
-carry
-=
-0
-;
 MP_ADD_CARRY
 (
 a0
 r0
 r0
+0
 carry
 )
 ;
@@ -2588,6 +2583,7 @@ a1
 r1
 r1
 carry
+carry
 )
 ;
 MP_ADD_CARRY
@@ -2595,6 +2591,7 @@ MP_ADD_CARRY
 a2
 r2
 r2
+carry
 carry
 )
 ;
@@ -2604,6 +2601,7 @@ a3
 r3
 r3
 carry
+carry
 )
 ;
 MP_ADD_CARRY
@@ -2611,6 +2609,7 @@ MP_ADD_CARRY
 a4
 r4
 r4
+carry
 carry
 )
 ;
@@ -2771,15 +2770,12 @@ irr
 0
 )
 ;
-carry
-=
-0
-;
 MP_SUB_BORROW
 (
 r0
 a0
 r0
+0
 carry
 )
 ;
@@ -2789,6 +2785,7 @@ r1
 a1
 r1
 carry
+carry
 )
 ;
 MP_SUB_BORROW
@@ -2796,6 +2793,7 @@ MP_SUB_BORROW
 r2
 a2
 r2
+carry
 carry
 )
 ;
@@ -2805,6 +2803,7 @@ r3
 a3
 r3
 carry
+carry
 )
 ;
 MP_SUB_BORROW
@@ -2812,6 +2811,7 @@ MP_SUB_BORROW
 r4
 a4
 r4
+carry
 carry
 )
 ;
@@ -3085,15 +3085,12 @@ b
 )
 ;
 }
-carry
-=
-0
-;
 MP_ADD_CARRY
 (
 a0
 r0
 r0
+0
 carry
 )
 ;
@@ -3103,6 +3100,7 @@ a1
 r1
 r1
 carry
+carry
 )
 ;
 MP_ADD_CARRY
@@ -3110,6 +3108,7 @@ MP_ADD_CARRY
 a2
 r2
 r2
+carry
 carry
 )
 ;
@@ -3119,6 +3118,7 @@ a3
 r3
 r3
 carry
+carry
 )
 ;
 MP_ADD_CARRY
@@ -3127,6 +3127,7 @@ a4
 r4
 r4
 carry
+carry
 )
 ;
 MP_ADD_CARRY
@@ -3134,6 +3135,7 @@ MP_ADD_CARRY
 a5
 r5
 r5
+carry
 carry
 )
 ;
@@ -3314,15 +3316,12 @@ irr
 0
 )
 ;
-carry
-=
-0
-;
 MP_SUB_BORROW
 (
 r0
 a0
 r0
+0
 carry
 )
 ;
@@ -3332,6 +3331,7 @@ r1
 a1
 r1
 carry
+carry
 )
 ;
 MP_SUB_BORROW
@@ -3339,6 +3339,7 @@ MP_SUB_BORROW
 r2
 a2
 r2
+carry
 carry
 )
 ;
@@ -3348,6 +3349,7 @@ r3
 a3
 r3
 carry
+carry
 )
 ;
 MP_SUB_BORROW
@@ -3356,6 +3358,7 @@ r4
 a4
 r4
 carry
+carry
 )
 ;
 MP_SUB_BORROW
@@ -3363,6 +3366,7 @@ MP_SUB_BORROW
 r5
 a5
 r5
+carry
 carry
 )
 ;
@@ -3563,15 +3567,12 @@ b
 #
 ifndef
 MPI_AMD64_ADD
-borrow
-=
-0
-;
 MP_SUB_BORROW
 (
 r0
 b0
 r0
+0
 borrow
 )
 ;
@@ -3581,6 +3582,7 @@ r1
 b1
 r1
 borrow
+borrow
 )
 ;
 MP_SUB_BORROW
@@ -3588,6 +3590,7 @@ MP_SUB_BORROW
 r2
 b2
 r2
+borrow
 borrow
 )
 ;
@@ -3768,15 +3771,12 @@ irr
 #
 ifndef
 MPI_AMD64_ADD
-borrow
-=
-0
-;
 MP_ADD_CARRY
 (
 b0
 r0
 r0
+0
 borrow
 )
 ;
@@ -3786,6 +3786,7 @@ b1
 r1
 r1
 borrow
+borrow
 )
 ;
 MP_ADD_CARRY
@@ -3793,6 +3794,7 @@ MP_ADD_CARRY
 b2
 r2
 r2
+borrow
 borrow
 )
 ;
@@ -4166,15 +4168,12 @@ b
 #
 ifndef
 MPI_AMD64_ADD
-borrow
-=
-0
-;
 MP_SUB_BORROW
 (
 r0
 b0
 r0
+0
 borrow
 )
 ;
@@ -4184,6 +4183,7 @@ r1
 b1
 r1
 borrow
+borrow
 )
 ;
 MP_SUB_BORROW
@@ -4192,6 +4192,7 @@ r2
 b2
 r2
 borrow
+borrow
 )
 ;
 MP_SUB_BORROW
@@ -4199,6 +4200,7 @@ MP_SUB_BORROW
 r3
 b3
 r3
+borrow
 borrow
 )
 ;
@@ -4421,15 +4423,12 @@ irr
 #
 ifndef
 MPI_AMD64_ADD
-borrow
-=
-0
-;
 MP_ADD_CARRY
 (
 b0
 r0
 r0
+0
 borrow
 )
 ;
@@ -4439,6 +4438,7 @@ b1
 r1
 r1
 borrow
+borrow
 )
 ;
 MP_ADD_CARRY
@@ -4447,6 +4447,7 @@ b2
 r2
 r2
 borrow
+borrow
 )
 ;
 MP_ADD_CARRY
@@ -4454,6 +4455,7 @@ MP_ADD_CARRY
 b3
 r3
 r3
+borrow
 borrow
 )
 ;
@@ -4890,15 +4892,12 @@ b
 )
 ;
 }
-borrow
-=
-0
-;
 MP_SUB_BORROW
 (
 r0
 b0
 r0
+0
 borrow
 )
 ;
@@ -4908,6 +4907,7 @@ r1
 b1
 r1
 borrow
+borrow
 )
 ;
 MP_SUB_BORROW
@@ -4915,6 +4915,7 @@ MP_SUB_BORROW
 r2
 b2
 r2
+borrow
 borrow
 )
 ;
@@ -4924,6 +4925,7 @@ r3
 b3
 r3
 borrow
+borrow
 )
 ;
 MP_SUB_BORROW
@@ -4931,6 +4933,7 @@ MP_SUB_BORROW
 r4
 b4
 r4
+borrow
 borrow
 )
 ;
@@ -4999,15 +5002,12 @@ irr
 0
 )
 ;
-borrow
-=
-0
-;
 MP_ADD_CARRY
 (
 b0
 r0
 r0
+0
 borrow
 )
 ;
@@ -5017,6 +5017,7 @@ b1
 r1
 r1
 borrow
+borrow
 )
 ;
 MP_ADD_CARRY
@@ -5025,6 +5026,7 @@ b2
 r2
 r2
 borrow
+borrow
 )
 ;
 MP_ADD_CARRY
@@ -5032,6 +5034,7 @@ MP_ADD_CARRY
 b3
 r3
 r3
+borrow
 borrow
 )
 ;
@@ -5328,15 +5331,12 @@ b
 )
 ;
 }
-borrow
-=
-0
-;
 MP_SUB_BORROW
 (
 r0
 b0
 r0
+0
 borrow
 )
 ;
@@ -5346,6 +5346,7 @@ r1
 b1
 r1
 borrow
+borrow
 )
 ;
 MP_SUB_BORROW
@@ -5353,6 +5354,7 @@ MP_SUB_BORROW
 r2
 b2
 r2
+borrow
 borrow
 )
 ;
@@ -5362,6 +5364,7 @@ r3
 b3
 r3
 borrow
+borrow
 )
 ;
 MP_SUB_BORROW
@@ -5370,6 +5373,7 @@ r4
 b4
 r4
 borrow
+borrow
 )
 ;
 MP_SUB_BORROW
@@ -5377,6 +5381,7 @@ MP_SUB_BORROW
 r5
 b5
 r5
+borrow
 borrow
 )
 ;
@@ -5457,15 +5462,12 @@ irr
 0
 )
 ;
-borrow
-=
-0
-;
 MP_ADD_CARRY
 (
 b0
 r0
 r0
+0
 borrow
 )
 ;
@@ -5475,6 +5477,7 @@ b1
 r1
 r1
 borrow
+borrow
 )
 ;
 MP_ADD_CARRY
@@ -5482,6 +5485,7 @@ MP_ADD_CARRY
 b2
 r2
 r2
+borrow
 borrow
 )
 ;
@@ -5491,6 +5495,7 @@ b3
 r3
 r3
 borrow
+borrow
 )
 ;
 MP_ADD_CARRY
@@ -5498,6 +5503,7 @@ MP_ADD_CARRY
 b4
 r4
 r4
+borrow
 borrow
 )
 ;

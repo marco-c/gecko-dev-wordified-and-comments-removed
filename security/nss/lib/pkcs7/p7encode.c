@@ -208,6 +208,8 @@ bulkkey
 void
 *
 mark
+*
+wincx
 ;
 int
 i
@@ -217,6 +219,13 @@ PLArenaPool
 arena
 =
 NULL
+;
+wincx
+=
+cinfo
+-
+>
+pwfn_arg
 ;
 kind
 =

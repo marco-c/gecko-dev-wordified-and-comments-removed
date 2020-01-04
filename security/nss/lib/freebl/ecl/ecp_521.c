@@ -65,7 +65,6 @@ mpl_significant_bits
 a
 )
 ;
-unsigned
 int
 i
 ;

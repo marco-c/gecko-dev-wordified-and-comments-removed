@@ -4606,8 +4606,6 @@ register
 BUFHEAD
 *
 bufp
-=
-NULL
 ;
 HTAB
 *

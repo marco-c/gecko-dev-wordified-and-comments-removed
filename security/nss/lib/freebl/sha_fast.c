@@ -649,6 +649,12 @@ register
 PRUint32
 lenB
 ;
+PRUint32
+tmpbuf
+[
+5
+]
+;
 static
 const
 unsigned
@@ -899,6 +905,12 @@ tmp
 ;
 #
 endif
+PRUint32
+tmpbuf
+[
+5
+]
+;
 PORT_Assert
 (
 maxDigestLen

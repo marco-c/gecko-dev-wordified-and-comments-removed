@@ -117,10 +117,6 @@ DEFINES
 =
 -
 DNSPR20
--
-DYY_NO_UNPUT
--
-DYY_NO_INPUT
 #
 sigh
 #

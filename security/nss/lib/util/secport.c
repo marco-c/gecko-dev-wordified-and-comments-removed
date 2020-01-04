@@ -1686,6 +1686,8 @@ threadmark_mark
 *
 *
 pw
+*
+tm
 ;
 if
 (
@@ -1789,6 +1791,11 @@ PORT_Assert
 return
 ;
 }
+tm
+=
+*
+pw
+;
 *
 pw
 =
@@ -1968,6 +1975,8 @@ threadmark_mark
 *
 *
 pw
+*
+tm
 ;
 PZ_Lock
 (
@@ -2094,6 +2103,11 @@ PORT_Assert
 return
 ;
 }
+tm
+=
+*
+pw
+;
 *
 pw
 =

@@ -669,6 +669,10 @@ inFile
 *
 outFile
 ;
+char
+*
+certName
+;
 CERTCertDBHandle
 *
 certHandle
@@ -721,6 +725,10 @@ inFile
 NULL
 ;
 outFile
+=
+NULL
+;
+certName
 =
 NULL
 ;

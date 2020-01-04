@@ -3222,6 +3222,9 @@ NSSCertificate
 *
 cert
 ;
+PRStatus
+nssrv
+;
 certs
 =
 nssList_CreateIterator
@@ -3273,9 +3276,8 @@ certs
 )
 )
 {
-(
-void
-)
+nssrv
+=
 (
 *
 callback

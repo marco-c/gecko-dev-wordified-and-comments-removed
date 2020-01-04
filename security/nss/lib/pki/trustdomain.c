@@ -3193,6 +3193,11 @@ void
 arg
 )
 {
+PRStatus
+status
+=
+PR_FAILURE
+;
 NSSToken
 *
 token
@@ -3366,9 +3371,8 @@ if
 session
 )
 {
-(
-void
-)
+status
+=
 nssToken_TraverseCertificates
 (
 token
@@ -3400,9 +3404,8 @@ arg
 =
 arg
 ;
-(
-void
-)
+status
+=
 nssPKIObjectCollection_Traverse
 (
 collection

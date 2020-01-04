@@ -2779,9 +2779,6 @@ cert_label
 level
 +
 1
-(
-SECU_PPFunc
-)
 SECU_PrintCertificate
 )
 ;
@@ -4746,8 +4743,6 @@ NULL
 ;
 SECCertUsage
 cert_usage
-=
-certUsageSSLClient
 ;
 PRTime
 verify_time

@@ -1872,6 +1872,10 @@ pResultCode
 =
 *
 (
+char
+*
+)
+(
 resultMsg
 -
 >

@@ -1893,7 +1893,6 @@ if
 raw
 )
 {
-unsigned
 int
 i
 ;
@@ -2171,7 +2170,6 @@ data
 slen
 )
 >
-=
 end
 )
 {

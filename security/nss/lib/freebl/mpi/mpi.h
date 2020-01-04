@@ -1619,7 +1619,6 @@ mp_size
 len
 )
 ;
-unsigned
 int
 mp_unsigned_octet_size
 (

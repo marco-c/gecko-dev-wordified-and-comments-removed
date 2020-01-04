@@ -2934,6 +2934,14 @@ SECItem
 newKey
 )
 {
+CK_RV
+crv
+=
+CKR_OK
+;
+CK_RV
+crv2
+;
 CK_ATTRIBUTE
 authAttrs
 [
@@ -3005,7 +3013,6 @@ sizeof
 CK_ATTRIBUTE
 )
 ;
-unsigned
 int
 i
 count
@@ -3084,9 +3091,8 @@ return
 CKR_OK
 ;
 }
-(
-void
-)
+crv2
+=
 sftkdb_GetAttributeValue
 (
 handle
@@ -3181,6 +3187,10 @@ pValue
 NULL
 )
 {
+crv
+=
+CKR_HOST_MEMORY
+;
 break
 ;
 }
@@ -3197,9 +3207,8 @@ return
 CKR_OK
 ;
 }
-(
-void
-)
+crv
+=
 sftkdb_GetAttributeValue
 (
 handle
@@ -3438,7 +3447,6 @@ sizeof
 CK_ATTRIBUTE
 )
 ;
-unsigned
 int
 i
 count
@@ -3979,7 +3987,6 @@ CK_RV
 crv
 crv2
 ;
-unsigned
 int
 i
 ;

@@ -788,13 +788,6 @@ SHA_STORE
 else
 {
 \
-PRUint32
-tmpbuf
-[
-5
-]
-;
-\
 tmpbuf
 [
 0

@@ -3799,9 +3799,6 @@ yy_cp
 #
 endif
 #
-ifndef
-YY_NO_INPUT
-#
 ifdef
 __cplusplus
 static
@@ -3966,8 +3963,6 @@ return
 c
 ;
 }
-#
-endif
 #
 ifdef
 YY_USE_PROTOS

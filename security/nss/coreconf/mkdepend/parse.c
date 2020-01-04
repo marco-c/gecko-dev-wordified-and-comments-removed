@@ -1881,12 +1881,10 @@ register
 int
 middle
 =
+(
 first
 +
-(
 last
--
-first
 )
 /
 2
@@ -2366,12 +2364,10 @@ register
 int
 middle
 =
+(
 first
 +
-(
 last
--
-first
 )
 /
 2

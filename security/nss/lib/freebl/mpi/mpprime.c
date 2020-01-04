@@ -1235,7 +1235,6 @@ np
 mp_err
 res
 ;
-unsigned
 int
 i
 =
