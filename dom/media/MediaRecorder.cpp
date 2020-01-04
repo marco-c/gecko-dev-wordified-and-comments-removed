@@ -3418,12 +3418,6 @@ MediaStreamGraph
 :
 :
 EXTERNAL_STREAM
-ctx
--
->
-SampleRate
-(
-)
 )
 ;
 AudioNodeStream

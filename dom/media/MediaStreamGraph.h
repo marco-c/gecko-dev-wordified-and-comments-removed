@@ -2989,10 +2989,6 @@ AudioNodeEngine
 aEngine
 AudioNodeStreamKind
 aKind
-TrackRate
-aSampleRate
-=
-0
 )
 ;
 AudioNodeExternalInputStream
@@ -3002,10 +2998,6 @@ CreateAudioNodeExternalInputStream
 AudioNodeEngine
 *
 aEngine
-TrackRate
-aSampleRate
-=
-0
 )
 ;
 void
