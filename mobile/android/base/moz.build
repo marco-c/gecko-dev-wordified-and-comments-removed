@@ -3781,6 +3781,13 @@ java
 '
 widget
 /
+ExternalIntentDuringPrivateBrowsingPromptFragment
+.
+java
+'
+'
+widget
+/
 FadedMultiColorTextView
 .
 java
