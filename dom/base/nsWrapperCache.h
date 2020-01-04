@@ -685,10 +685,7 @@ if
 mWrapper
 )
 {
-js
-:
-:
-UnsafeTraceManuallyBarrieredEdge
+JS_CallUnbarrieredObjectTracer
 (
 aTrc
 &

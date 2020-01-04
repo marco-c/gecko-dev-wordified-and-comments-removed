@@ -927,10 +927,12 @@ JSTracer
 aTrc
 )
 {
-JS
-:
-:
-TraceNullableEdge
+if
+(
+mScriptObject
+)
+{
+JS_CallScriptTracer
 (
 aTrc
 &
@@ -944,6 +946,7 @@ script
 "
 )
 ;
+}
 }
 void
 Trace

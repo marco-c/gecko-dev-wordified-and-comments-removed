@@ -2350,10 +2350,7 @@ popFront
 (
 )
 )
-JS
-:
-:
-TraceEdge
+JS_CallObjectTracer
 (
 trc
 &

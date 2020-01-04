@@ -248,10 +248,7 @@ isMarkable
 )
 )
 ;
-JS
-:
-:
-TraceEdge
+JS_CallValueTracer
 (
 trc
 &
