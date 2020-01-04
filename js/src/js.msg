@@ -4837,9 +4837,8 @@ JSMSG_WASM_UNREACHABLE
 0
 JSEXN_ERR
 "
-reached
 unreachable
-trap
+executed
 "
 )
 MSG_DEF
