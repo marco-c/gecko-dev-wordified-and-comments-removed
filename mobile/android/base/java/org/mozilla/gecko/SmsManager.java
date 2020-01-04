@@ -92,6 +92,8 @@ String
 aMessage
 int
 aRequestId
+boolean
+aShouldNotify
 )
 ;
 void
