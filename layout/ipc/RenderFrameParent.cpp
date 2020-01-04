@@ -2611,13 +2611,7 @@ GetApzcTreeManager
 )
 setTargetApzcFunc
 aInputBlockId
-nsTArray
-<
-ScrollableLayerGuid
->
-(
 aTargets
-)
 )
 )
 ;
@@ -2663,13 +2657,7 @@ APZCTreeManager
 :
 SetAllowedTouchBehavior
 aInputBlockId
-nsTArray
-<
-TouchBehaviorFlags
->
-(
 aFlags
-)
 )
 )
 ;
