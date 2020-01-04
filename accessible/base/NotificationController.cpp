@@ -1902,6 +1902,11 @@ GetDocShell
 )
 )
 ;
+if
+(
+tabChild
+)
+{
 static_cast
 <
 TabChild
@@ -1923,6 +1928,7 @@ parentIPCDoc
 id
 )
 ;
+}
 }
 }
 mObservingState
