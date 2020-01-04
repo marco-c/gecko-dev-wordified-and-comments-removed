@@ -276,6 +276,10 @@ permissions
 AddonManager
 .
 PERM_CAN_UNINSTALL
++
+AddonManager
+.
+PERM_CAN_ENABLE
 "
 Permissions
 are
