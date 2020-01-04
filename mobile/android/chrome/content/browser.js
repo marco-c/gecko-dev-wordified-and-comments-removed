@@ -1498,13 +1498,6 @@ js
 ]
 ]
 ;
-if
-(
-AppConstants
-.
-NIGHTLY_BUILD
-)
-{
 lazilyLoadedObserverScripts
 .
 push
@@ -1546,7 +1539,6 @@ js
 ]
 )
 ;
-}
 if
 (
 AppConstants
@@ -4528,13 +4520,6 @@ LoginManagerParent
 false
 )
 ;
-if
-(
-AppConstants
-.
-NIGHTLY_BUILD
-)
-{
 window
 .
 addEventListener
@@ -4558,7 +4543,6 @@ true
 false
 )
 ;
-}
 }
 get
 _startupStatus
