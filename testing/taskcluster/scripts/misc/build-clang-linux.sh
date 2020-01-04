@@ -130,8 +130,6 @@ x
 cd
 build
 /
-unix
-/
 build
 -
 clang
