@@ -2484,6 +2484,12 @@ kImageLayerModeKTable
 ]
 ;
 static
+KTableEntry
+kBackgroundClipKTable
+[
+]
+;
+static
 const
 KTableEntry
 kBlendModeKTable
