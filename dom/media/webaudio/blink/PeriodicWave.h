@@ -289,10 +289,15 @@ createBandLimitedTables
 (
 float
 fundamentalFrequency
+unsigned
+rangeIndex
 )
 ;
 float
 m_lowestRequestedFundamentalFrequency
+;
+float
+m_normalizationScale
 ;
 nsTArray
 <
