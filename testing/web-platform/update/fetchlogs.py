@@ -364,12 +364,12 @@ job
 )
 :
     
-job_id
+job_guid
 =
 job
 [
 "
-id
+job_guid
 "
 ]
     
@@ -384,16 +384,9 @@ treeherder_base
 /
 api
 /
-project
-/
-%
-s
-/
-artifact
+jobdetail
 /
 "
-%
-branch
 )
     
 artifact_params
@@ -401,19 +394,10 @@ artifact_params
 {
         
 '
-job_id
+job_guid
 '
 :
-job_id
-        
-'
-name
-'
-:
-'
-Job
-Info
-'
+job_guid
     
 }
     
@@ -431,43 +415,18 @@ if
 job_data
 :
         
-assert
-len
-(
-job_data
-)
-=
-=
-1
-        
-job_data
-=
-job_data
-[
-0
-]
-        
 try
 :
-            
-details
-=
-job_data
-[
-"
-blob
-"
-]
-[
-"
-job_details
-"
-]
             
 for
 item
 in
-details
+job_data
+[
+"
+results
+"
+]
 :
                 
 if
