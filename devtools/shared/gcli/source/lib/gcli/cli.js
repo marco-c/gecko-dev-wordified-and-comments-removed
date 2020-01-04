@@ -4877,6 +4877,14 @@ part
 '
 text
 '
+&
+&
+arg
+.
+assignment
+!
+=
+null
 )
 {
 status

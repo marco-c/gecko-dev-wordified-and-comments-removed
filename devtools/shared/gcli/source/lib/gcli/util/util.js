@@ -616,6 +616,7 @@ handler
 )
 ;
 }
+;
 event
 .
 holdFire

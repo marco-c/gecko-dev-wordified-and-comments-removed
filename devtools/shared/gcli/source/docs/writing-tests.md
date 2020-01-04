@@ -65,7 +65,6 @@ in
 Firefox
 Chrome
 Opera
-PhantomJS
 and
 NodeJS
 /
