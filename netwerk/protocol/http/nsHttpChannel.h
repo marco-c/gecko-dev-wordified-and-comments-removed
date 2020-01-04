@@ -433,6 +433,14 @@ Http2PushedStream
 pushedStream
 )
 ;
+static
+bool
+IsRedirectStatus
+(
+uint32_t
+status
+)
+;
 NS_IMETHOD
 Cancel
 (

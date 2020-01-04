@@ -270,9 +270,6 @@ mDocument
 bool
 mHasBeenCrossSite
 ;
-bool
-mFoundOpaqueRedirect
-;
 DebugOnly
 <
 bool
@@ -349,6 +346,8 @@ aResponse
 nsIURI
 *
 aFinalURI
+bool
+aFoundOpaqueRedirect
 )
 ;
 nsresult
