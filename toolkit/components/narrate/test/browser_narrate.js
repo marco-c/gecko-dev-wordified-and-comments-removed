@@ -569,7 +569,7 @@ eventUtils
 sendKey
 (
 "
-PAGE_UP
+UP
 "
 content
 )
