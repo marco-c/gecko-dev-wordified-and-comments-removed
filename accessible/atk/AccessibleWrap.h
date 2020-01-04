@@ -245,6 +245,9 @@ FireAtkShowHideEvent
 AtkObject
 *
 aObject
+AtkObject
+*
+aParent
 bool
 aIsAdded
 bool
