@@ -297,13 +297,7 @@ Ci
 nsIFile
 .
 DIRECTORY_TYPE
-parseInt
-(
-"
-0755
-"
-8
-)
+0o755
 )
 ;
 }

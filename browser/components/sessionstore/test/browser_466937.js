@@ -81,13 +81,7 @@ Ci
 nsIFile
 .
 NORMAL_FILE_TYPE
-parseInt
-(
-"
-666
-"
-8
-)
+0o666
 )
 ;
 let
