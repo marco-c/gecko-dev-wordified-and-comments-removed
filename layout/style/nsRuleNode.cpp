@@ -5689,8 +5689,13 @@ aResult
 .
 SetCropRect
 (
-&
+MakeUnique
+<
+nsStyleSides
+>
+(
 cropRect
+)
 )
 ;
 }

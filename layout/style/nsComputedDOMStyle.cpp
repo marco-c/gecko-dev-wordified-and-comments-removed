@@ -9522,8 +9522,11 @@ uri
 )
 ;
 const
+UniquePtr
+<
 nsStyleSides
-*
+>
+&
 cropRect
 =
 aStyleImage
