@@ -733,8 +733,6 @@ StopTrack
 (
 TrackID
 aID
-bool
-aIsAudio
 )
 ;
 typedef
@@ -1129,7 +1127,7 @@ Browser
 ;
 }
 void
-Invalidate
+Stop
 (
 )
 ;
