@@ -10923,7 +10923,10 @@ JS
 :
 MutableHandle
 <
-JSPropertyDescriptor
+JS
+:
+:
+PropertyDescriptor
 >
 desc
 bool
@@ -10968,7 +10971,10 @@ JS
 :
 Handle
 <
-JSPropertyDescriptor
+JS
+:
+:
+PropertyDescriptor
 >
 desc
 JS

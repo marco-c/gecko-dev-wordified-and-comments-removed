@@ -381,9 +381,6 @@ class
 nsIWindowProvider
 ;
 struct
-JSPropertyDescriptor
-;
-struct
 JSRuntime
 ;
 template
@@ -738,7 +735,10 @@ JS
 :
 MutableHandle
 <
-JSPropertyDescriptor
+JS
+:
+:
+PropertyDescriptor
 >
 aDesc
 )

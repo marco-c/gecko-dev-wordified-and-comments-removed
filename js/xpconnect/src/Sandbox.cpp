@@ -3890,7 +3890,7 @@ const
 {
 Rooted
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 (

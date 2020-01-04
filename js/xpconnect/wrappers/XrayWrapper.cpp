@@ -11135,7 +11135,7 @@ wrapper
 ;
 Rooted
 <
-JSPropertyDescriptor
+PropertyDescriptor
 >
 desc
 (

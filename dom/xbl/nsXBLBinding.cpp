@@ -3598,7 +3598,10 @@ JS
 :
 Rooted
 <
-JSPropertyDescriptor
+JS
+:
+:
+PropertyDescriptor
 >
 desc
 (
@@ -4247,7 +4250,10 @@ JS
 :
 Rooted
 <
-JSPropertyDescriptor
+JS
+:
+:
+PropertyDescriptor
 >
 desc
 (
@@ -4603,7 +4609,10 @@ JS
 :
 MutableHandle
 <
-JSPropertyDescriptor
+JS
+:
+:
+PropertyDescriptor
 >
 aDesc
 )
@@ -4828,7 +4837,10 @@ JS
 :
 MutableHandle
 <
-JSPropertyDescriptor
+JS
+:
+:
+PropertyDescriptor
 >
 aDesc
 JS

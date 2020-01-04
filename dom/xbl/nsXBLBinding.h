@@ -230,7 +230,10 @@ JS
 :
 MutableHandle
 <
-JSPropertyDescriptor
+JS
+:
+:
+PropertyDescriptor
 >
 aDesc
 )
@@ -272,7 +275,10 @@ JS
 :
 MutableHandle
 <
-JSPropertyDescriptor
+JS
+:
+:
+PropertyDescriptor
 >
 aDesc
 JS
