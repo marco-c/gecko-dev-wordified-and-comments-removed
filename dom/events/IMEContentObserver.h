@@ -405,6 +405,11 @@ mEditor
 ;
 }
 void
+OnIMEReceivedFocus
+(
+)
+;
+void
 Clear
 (
 )
