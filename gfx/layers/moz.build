@@ -2612,6 +2612,8 @@ apz
 test
 /
 mochitest
+/
+mochitest
 .
 ini
 '
@@ -2624,6 +2626,8 @@ MOCHITEST_CHROME_MANIFESTS
 apz
 /
 test
+/
+mochitest
 /
 chrome
 .
