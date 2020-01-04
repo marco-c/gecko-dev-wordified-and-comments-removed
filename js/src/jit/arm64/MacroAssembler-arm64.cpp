@@ -395,8 +395,6 @@ dest
 )
 ;
 return
-armbuffer_
-.
 allocEntry
 (
 numInst
@@ -478,8 +476,6 @@ dest
 )
 ;
 return
-armbuffer_
-.
 allocEntry
 (
 numInst

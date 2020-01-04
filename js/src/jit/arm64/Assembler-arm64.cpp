@@ -900,8 +900,6 @@ value
 sizeOfPoolEntryInBytes
 ;
 return
-armbuffer_
-.
 allocEntry
 (
 numInst
@@ -1033,8 +1031,6 @@ size
 sizeOfPoolEntryInBits
 ;
 return
-armbuffer_
-.
 allocEntry
 (
 numInst
