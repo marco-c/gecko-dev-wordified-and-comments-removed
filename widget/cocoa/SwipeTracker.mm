@@ -423,7 +423,7 @@ false
 {
 SendSwipeEvent
 (
-NS_SIMPLE_GESTURE_SWIPE_START
+eSwipeGestureStart
 0
 0
 .

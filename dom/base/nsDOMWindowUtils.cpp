@@ -5802,10 +5802,12 @@ MozSwipeGestureStart
 "
 )
 )
+{
 msg
 =
-NS_SIMPLE_GESTURE_SWIPE_START
+eSwipeGestureStart
 ;
+}
 else
 if
 (
