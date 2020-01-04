@@ -178,7 +178,7 @@ false
 /
 >
 <
-CheckBoxPreference
+SwitchPreference
 android
 :
 key
@@ -217,7 +217,7 @@ pref_zoom_force_enabled_summary
 /
 >
 <
-CheckBoxPreference
+SwitchPreference
 android
 :
 key
@@ -250,7 +250,7 @@ pref_magnifying_glass_enabled_summary
 /
 >
 <
-CheckBoxPreference
+SwitchPreference
 android
 :
 key
@@ -290,7 +290,7 @@ true
 /
 >
 <
-CheckBoxPreference
+SwitchPreference
 android
 :
 key

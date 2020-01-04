@@ -140,7 +140,7 @@ false
 "
 >
 <
-CheckBoxPreference
+SwitchPreference
 android
 :
 key

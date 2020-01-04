@@ -456,7 +456,7 @@ false
 /
 >
 <
-CheckBoxPreference
+SwitchPreference
 android
 :
 key
@@ -538,7 +538,7 @@ false
 /
 >
 <
-CheckBoxPreference
+SwitchPreference
 android
 :
 key
@@ -564,7 +564,7 @@ pref_developer_remotedebugging_usb
 /
 >
 <
-CheckBoxPreference
+SwitchPreference
 android
 :
 key

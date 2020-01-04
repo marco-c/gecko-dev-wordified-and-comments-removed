@@ -617,6 +617,13 @@ android
 .
 preference
 .
+SwitchPreference
+;
+import
+android
+.
+preference
+.
 TwoStatePreference
 ;
 import
@@ -1429,7 +1436,7 @@ REQUEST_CODE_TAB_QUEUE
 8
 ;
 private
-CheckBoxPreference
+SwitchPreference
 tabQueuePreference
 ;
 private
@@ -4311,7 +4318,7 @@ key
 tabQueuePreference
 =
 (
-CheckBoxPreference
+SwitchPreference
 )
 pref
 ;

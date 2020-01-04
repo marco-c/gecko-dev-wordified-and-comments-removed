@@ -333,7 +333,7 @@ preferences_locale
 PreferenceScreen
 >
 <
-CheckBoxPreference
+SwitchPreference
 android
 :
 key
@@ -366,7 +366,7 @@ pref_scroll_title_bar_summary
 /
 >
 <
-CheckBoxPreference
+SwitchPreference
 android
 :
 key
