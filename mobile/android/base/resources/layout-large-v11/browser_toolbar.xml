@@ -1153,13 +1153,6 @@ drawable
 /
 browser_toolbar_action_bar_button
 "
-android
-:
-visibility
-=
-"
-gone
-"
 >
 <
 org
