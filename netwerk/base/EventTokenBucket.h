@@ -141,6 +141,11 @@ EventTokenBucket
 (
 )
 ;
+void
+CleanupTimers
+(
+)
+;
 friend
 class
 RunNotifyEvent
