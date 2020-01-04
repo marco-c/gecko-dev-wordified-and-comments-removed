@@ -353,6 +353,9 @@ slowAssertions
 bool
 enter
 (
+JSContext
+*
+cx
 JSScript
 *
 script

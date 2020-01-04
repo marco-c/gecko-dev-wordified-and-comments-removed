@@ -130,6 +130,7 @@ spsProfiler
 .
 enter
 (
+cx
 script
 maybeFun
 )
