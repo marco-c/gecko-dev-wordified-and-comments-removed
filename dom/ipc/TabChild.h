@@ -2385,6 +2385,17 @@ aIsConsumed
 )
 override
 ;
+virtual
+bool
+RecvPrint
+(
+const
+PrintData
+&
+aPrintData
+)
+override
+;
 PPluginWidgetChild
 *
 AllocPPluginWidgetChild
