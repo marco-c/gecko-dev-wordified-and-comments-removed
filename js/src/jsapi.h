@@ -15322,6 +15322,7 @@ JS_FRIEND_API
 (
 CompileOptions
 )
+final
 :
 public
 ReadOnlyCompileOptions
