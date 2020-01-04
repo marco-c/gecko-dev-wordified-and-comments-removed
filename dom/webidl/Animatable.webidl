@@ -183,7 +183,7 @@ Func
 nsDocument
 :
 :
-IsWebAnimationsEnabled
+IsElementAnimateEnabled
 "
 Throws
 ]
