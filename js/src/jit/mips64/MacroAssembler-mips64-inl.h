@@ -1499,8 +1499,8 @@ ImmWord
 (
 magic
 )
-cond
 label
+cond
 )
 ;
 }
