@@ -302,7 +302,11 @@ get
 isCurrent
 (
 )
+{
+return
 true
+;
+}
 }
 getSignedInUser
 :
