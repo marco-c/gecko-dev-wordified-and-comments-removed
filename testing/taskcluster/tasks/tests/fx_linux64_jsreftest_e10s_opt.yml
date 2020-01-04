@@ -28,3 +28,10 @@ download
 symbols
 =
 ondemand
+extra
+:
+treeherder
+:
+tier
+:
+2
