@@ -980,12 +980,11 @@ with_iframe
 (
 origin
 +
+base_path
+(
+)
++
 '
-/
-service
--
-worker
-/
 resources
 /
 fetch
