@@ -965,6 +965,11 @@ x64
 '
 linux64
 '
+'
+linux64
+-
+asan
+'
 ]
 }
 RIDEALONG_BUILDS
