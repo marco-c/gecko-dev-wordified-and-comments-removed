@@ -11,12 +11,6 @@ init
 (
 )
 {
-AddonWatcher
-.
-uninit
-(
-)
-;
 let
 service
 =
