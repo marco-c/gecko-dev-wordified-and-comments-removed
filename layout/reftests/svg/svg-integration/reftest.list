@@ -481,6 +481,9 @@ B2G
 |
 |
 Mulet
+|
+|
+Android
 )
 =
 =
@@ -516,6 +519,11 @@ B2G
 /
 B2G
 Desktop
+#
+Android
+:
+bug
+1198380
 =
 =
 filter
