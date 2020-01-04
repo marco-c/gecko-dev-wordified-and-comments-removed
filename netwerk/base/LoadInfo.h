@@ -215,7 +215,7 @@ nsSecurityFlags
 mSecurityFlags
 ;
 nsContentPolicyType
-mContentPolicyType
+mInternalContentPolicyType
 ;
 bool
 mUpgradeInsecureRequests

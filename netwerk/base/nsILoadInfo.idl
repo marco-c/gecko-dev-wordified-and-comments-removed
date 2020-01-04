@@ -192,15 +192,15 @@ scriptable
 builtinclass
 uuid
 (
-ef0080f3
+07f52282
 -
-33f5
+ab00
 -
-475f
+4888
 -
-a3d6
+b45a
 -
-9fd3be0612e3
+48675ce4a4f5
 )
 ]
 interface
@@ -1863,7 +1863,7 @@ attribute
 readonly
 attribute
 nsContentPolicyType
-contentPolicyType
+externalContentPolicyType
 ;
 %
 {
@@ -1872,7 +1872,7 @@ C
 +
 inline
 nsContentPolicyType
-GetContentPolicyType
+GetExternalContentPolicyType
 (
 )
 {
@@ -1888,7 +1888,7 @@ nsresult
 >
 rv
 =
-GetContentPolicyType
+GetExternalContentPolicyType
 (
 &
 result
