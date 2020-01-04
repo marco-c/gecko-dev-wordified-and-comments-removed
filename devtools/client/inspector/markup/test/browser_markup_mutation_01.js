@@ -658,7 +658,7 @@ ok
 (
 container
 .
-inlineTextChild
+singleTextChild
 "
 Has
 single
@@ -731,7 +731,7 @@ ok
 (
 container
 .
-inlineTextChild
+singleTextChild
 "
 Has
 single
@@ -754,7 +754,7 @@ t
 expand
 container
 with
-inlineTextChild
+singleTextChild
 .
 "
 )
@@ -764,7 +764,7 @@ ok
 !
 container
 .
-inlineTextChild
+singleTextChild
 .
 canExpand
 "
@@ -772,7 +772,7 @@ Can
 '
 t
 expand
-inlineTextChild
+singleTextChild
 .
 "
 )
@@ -901,7 +901,7 @@ ok
 !
 container
 .
-inlineTextChild
+singleTextChild
 "
 Does
 not
@@ -1022,7 +1022,7 @@ ok
 (
 container
 .
-inlineTextChild
+singleTextChild
 "
 Has
 single
@@ -1045,7 +1045,7 @@ t
 expand
 container
 with
-inlineTextChild
+singleTextChild
 .
 "
 )
@@ -1055,7 +1055,7 @@ ok
 !
 container
 .
-inlineTextChild
+singleTextChild
 .
 canExpand
 "
@@ -1063,7 +1063,7 @@ Can
 '
 t
 expand
-inlineTextChild
+singleTextChild
 .
 "
 )
@@ -1165,7 +1165,7 @@ ok
 !
 container
 .
-inlineTextChild
+singleTextChild
 "
 Does
 not
@@ -1287,7 +1287,7 @@ ok
 (
 container
 .
-inlineTextChild
+singleTextChild
 "
 Has
 single
@@ -1310,7 +1310,7 @@ t
 expand
 container
 with
-inlineTextChild
+singleTextChild
 .
 "
 )
@@ -1320,7 +1320,7 @@ ok
 !
 container
 .
-inlineTextChild
+singleTextChild
 .
 canExpand
 "
@@ -1328,7 +1328,7 @@ Can
 '
 t
 expand
-inlineTextChild
+singleTextChild
 .
 "
 )
