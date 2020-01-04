@@ -188,6 +188,11 @@ EditTxn
 cpp
 '
 '
+HTMLEditUtils
+.
+cpp
+'
+'
 IMETextTxn
 .
 cpp
@@ -264,11 +269,6 @@ cpp
 '
 '
 nsHTMLEditRules
-.
-cpp
-'
-'
-nsHTMLEditUtils
 .
 cpp
 '

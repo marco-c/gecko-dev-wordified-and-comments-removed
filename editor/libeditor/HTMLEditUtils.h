@@ -1,9 +1,9 @@
 #
 ifndef
-nsHTMLEditUtils_h__
+HTMLEditUtils_h
 #
 define
-nsHTMLEditUtils_h__
+HTMLEditUtils_h
 #
 include
 <
@@ -17,8 +17,12 @@ nsIDOMNode
 class
 nsINode
 ;
+namespace
+mozilla
+{
 class
-nsHTMLEditUtils
+HTMLEditUtils
+final
 {
 public
 :
@@ -420,5 +424,6 @@ aTag
 ;
 }
 ;
+}
 #
 endif

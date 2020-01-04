@@ -15,6 +15,13 @@ h
 #
 include
 "
+HTMLEditUtils
+.
+h
+"
+#
+include
+"
 TextEditUtils
 .
 h
@@ -133,13 +140,6 @@ h
 include
 "
 nsHTMLEditRules
-.
-h
-"
-#
-include
-"
-nsHTMLEditUtils
 .
 h
 "
@@ -2486,7 +2486,7 @@ EmptyString
 if
 (
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsImage

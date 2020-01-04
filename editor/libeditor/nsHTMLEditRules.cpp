@@ -22,6 +22,13 @@ h
 #
 include
 "
+HTMLEditUtils
+.
+h
+"
+#
+include
+"
 TextEditUtils
 .
 h
@@ -174,13 +181,6 @@ h
 include
 "
 nsHTMLCSSUtils
-.
-h
-"
-#
-include
-"
-nsHTMLEditUtils
 .
 h
 "
@@ -561,34 +561,23 @@ aNode
 )
 const
 {
-if
-(
-nsHTMLEditUtils
+return
+HTMLEditUtils
 :
 :
 IsTableCell
 (
 aNode
 )
-)
-return
-true
-;
-if
-(
-nsHTMLEditUtils
+|
+|
+HTMLEditUtils
 :
 :
 IsListItem
 (
 aNode
 )
-)
-return
-true
-;
-return
-false
 ;
 }
 }
@@ -689,7 +678,7 @@ aNode
 &
 &
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -698,7 +687,7 @@ aNode
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableCellOrCaption
@@ -4683,7 +4672,7 @@ NS_OK
 }
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 SupportsAlignAttr
@@ -4995,7 +4984,7 @@ arrayOfNodes
 {
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsNodeThatCanOutdent
@@ -5215,7 +5204,7 @@ root
 {
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsNodeThatCanOutdent
@@ -5290,7 +5279,7 @@ root
 {
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsNodeThatCanOutdent
@@ -5447,7 +5436,7 @@ curNode
 &
 &
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsFormatNode
@@ -5600,7 +5589,7 @@ format
 ;
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsFormatNode
@@ -5682,7 +5671,7 @@ break
 else
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsFormatNode
@@ -5829,7 +5818,7 @@ child
 bool
 isFormat
 =
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsFormatNode
@@ -5915,7 +5904,7 @@ NS_ERROR_NULL_POINTER
 ;
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsFormatNode
@@ -7680,7 +7669,7 @@ NS_OK
 else
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsHeader
@@ -10346,7 +10335,7 @@ otherBlock
 {
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableElement
@@ -10729,7 +10718,7 @@ thisBlock
 {
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableElement
@@ -11447,7 +11436,7 @@ NS_OK
 }
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -11456,7 +11445,7 @@ leftParent
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsHeader
@@ -12529,7 +12518,7 @@ rightBlock
 ;
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableElement
@@ -12538,7 +12527,7 @@ leftBlock
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableElement
@@ -12633,7 +12622,7 @@ NS_OK
 }
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -12642,7 +12631,7 @@ leftBlock
 )
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -12692,7 +12681,7 @@ rightList
 ;
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -12701,7 +12690,7 @@ leftBlock
 )
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -13960,7 +13949,7 @@ aNode
 if
 (
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableElementButNotTable
@@ -14904,7 +14893,7 @@ continue
 }
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -15040,7 +15029,7 @@ continue
 }
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -15566,7 +15555,7 @@ listItem
 if
 (
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -15952,7 +15941,7 @@ arrayOfNodes
 {
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -15995,7 +15984,7 @@ bOutOfList
 else
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -16366,7 +16355,7 @@ parent
 ;
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsFormatNode
@@ -17092,7 +17081,7 @@ if
 block
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -17100,10 +17089,12 @@ IsListItem
 block
 )
 )
+{
 liNode
 =
 block
 ;
+}
 }
 if
 (
@@ -17457,7 +17448,7 @@ curNode
 ;
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -17490,7 +17481,7 @@ if
 sibling
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -17600,7 +17591,7 @@ if
 sibling
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -18425,7 +18416,7 @@ curNode
 ;
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -18458,7 +18449,7 @@ if
 sibling
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -18565,7 +18556,7 @@ if
 sibling
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -19501,7 +19492,7 @@ continue
 }
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -19704,7 +19695,7 @@ table
 |
 |
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableElement
@@ -19844,7 +19835,7 @@ f
 &
 !
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -19853,7 +19844,7 @@ curParent
 )
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -19897,7 +19888,7 @@ curBlockQuote
 {
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -19908,7 +19899,7 @@ curParent
 {
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -19938,7 +19929,7 @@ res
 else
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -19967,7 +19958,7 @@ child
 {
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -20001,7 +19992,7 @@ res
 else
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -20876,7 +20867,7 @@ AsElement
 ;
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -20915,7 +20906,7 @@ child
 else
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -21863,7 +21854,7 @@ nodeArray
 ;
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 SupportsAlignAttr
@@ -21959,7 +21950,7 @@ GetStartParent
 emptyDiv
 =
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableElement
@@ -21968,7 +21959,7 @@ parent
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableCellOrCaption
@@ -22295,7 +22286,7 @@ continue
 }
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 SupportsAlignAttr
@@ -22384,7 +22375,7 @@ GetAsText
 &
 (
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableElement
@@ -22394,7 +22385,7 @@ curParent
 &
 &
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableCellOrCaption
@@ -22405,7 +22396,7 @@ curParent
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -22439,7 +22430,7 @@ continue
 }
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -22448,7 +22439,7 @@ curNode
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -22517,7 +22508,7 @@ continue
 else
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -23224,7 +23215,7 @@ bIsEmptyNode
 &
 &
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableElement
@@ -23326,7 +23317,7 @@ emptyBlock
 ;
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -23402,7 +23393,7 @@ blockParent
 if
 (
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -23866,7 +23857,7 @@ yes
 &
 &
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -23875,7 +23866,7 @@ node
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -23896,7 +23887,7 @@ Tables
 yes
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableElement
@@ -24176,7 +24167,7 @@ break
 }
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableElement
@@ -24365,7 +24356,7 @@ thisBlock
 {
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableElement
@@ -27352,7 +27343,7 @@ i
 ;
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -27451,7 +27442,7 @@ i
 ;
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableElementButNotTable
@@ -27951,7 +27942,7 @@ GetParentNode
 {
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -28074,7 +28065,7 @@ continue
 }
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableElementButNotTable
@@ -28195,7 +28186,7 @@ div
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -28267,7 +28258,7 @@ div
 &
 &
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -28611,7 +28602,7 @@ continue
 }
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableElement
@@ -28620,7 +28611,7 @@ testNode
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -28629,7 +28620,7 @@ testNode
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -29565,7 +29556,7 @@ nullptr
 ;
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -29612,7 +29603,7 @@ parent
 &
 &
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableElement
@@ -29623,7 +29614,7 @@ parent
 {
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -29790,7 +29781,7 @@ if
 prevItem
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsHeader
@@ -31064,7 +31055,7 @@ aOffset
 {
 MOZ_ASSERT
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -31259,7 +31250,7 @@ StealNSResult
 }
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -31470,7 +31461,7 @@ if
 prevItem
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -32011,7 +32002,7 @@ IsContent
 ;
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableElementButNotTable
@@ -32020,7 +32011,7 @@ curNode
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -32284,7 +32275,7 @@ aNodeArray
 {
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsFormatNode
@@ -32387,7 +32378,7 @@ div
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -32541,7 +32532,7 @@ if
 curBlock
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsFormatNode
@@ -32795,7 +32786,7 @@ continue
 }
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsMozDiv
@@ -32804,7 +32795,7 @@ curNode
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsFormatNode
@@ -32849,7 +32840,7 @@ newBlock
 else
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTable
@@ -32858,7 +32849,7 @@ curNode
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -33577,7 +33568,7 @@ Length
 ;
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -33864,7 +33855,7 @@ pre
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsMailCite
@@ -35729,7 +35720,7 @@ nearNode
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsImage
@@ -36194,7 +36185,7 @@ nearNode
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsImage
@@ -36376,7 +36367,7 @@ aNode1
 &
 &
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableElement
@@ -36401,7 +36392,7 @@ aNode2
 &
 &
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTableElement
@@ -36601,7 +36592,7 @@ if
 (
 bIsMailCite
 =
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsMailCite
@@ -36623,7 +36614,7 @@ a
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsInlineStyle
@@ -36632,7 +36623,7 @@ node
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -36661,7 +36652,7 @@ true
 else
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsFormatNode
@@ -36670,7 +36661,7 @@ node
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -37444,7 +37435,7 @@ listItem
 if
 (
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -37620,7 +37611,7 @@ res
 if
 (
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -37629,7 +37620,7 @@ curParPar
 )
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -37722,7 +37713,7 @@ GetFirstChild
 ;
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsListItem
@@ -37767,7 +37758,7 @@ isOutOfList
 else
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
@@ -39277,7 +39268,7 @@ aNode
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTable
@@ -39285,9 +39276,11 @@ IsTable
 aNode
 )
 )
+{
 return
 NS_OK
 ;
+}
 nsresult
 res
 =
@@ -39476,7 +39469,7 @@ if
 isBlock
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsHR
@@ -39498,7 +39491,7 @@ child
 ;
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 SupportsAlignAttr
@@ -39542,7 +39535,7 @@ useCSS
 {
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTable
@@ -39551,7 +39544,7 @@ child
 )
 |
 |
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsHR
@@ -39623,7 +39616,7 @@ res
 if
 (
 !
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsTable
@@ -40173,7 +40166,7 @@ else
 {
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 SupportsAlignAttr
@@ -40733,7 +40726,7 @@ if
 focusElement
 &
 &
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsImage
@@ -41117,7 +41110,7 @@ curNode
 ;
 if
 (
-nsHTMLEditUtils
+HTMLEditUtils
 :
 :
 IsList
