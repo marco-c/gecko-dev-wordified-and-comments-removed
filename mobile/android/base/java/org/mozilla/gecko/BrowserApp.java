@@ -13480,6 +13480,10 @@ View
 VISIBLE
 )
 ;
+hideWebContent
+(
+)
+;
 mHomePagerContainer
 .
 setVisibility
