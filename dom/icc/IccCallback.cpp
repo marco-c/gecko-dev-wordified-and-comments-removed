@@ -813,9 +813,10 @@ jsResult
 )
 )
 {
-JS_ClearPendingException
+jsapi
+.
+ClearException
 (
-cx
 )
 ;
 return
@@ -988,9 +989,10 @@ jsResult
 )
 )
 {
-JS_ClearPendingException
+jsapi
+.
+ClearException
 (
-cx
 )
 ;
 return

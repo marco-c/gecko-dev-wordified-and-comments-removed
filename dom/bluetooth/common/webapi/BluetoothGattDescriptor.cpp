@@ -849,9 +849,10 @@ aValue
 )
 )
 {
-JS_ClearPendingException
+jsapi
+.
+ClearException
 (
-cx
 )
 ;
 return
