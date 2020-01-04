@@ -1,3 +1,14 @@
+if
+(
+typeof
+oomTest
+=
+=
+=
+'
+function
+'
+)
 oomTest
 (
 Function
