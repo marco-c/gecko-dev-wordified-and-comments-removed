@@ -510,6 +510,12 @@ mWidget
 ;
 nsCOMPtr
 <
+nsIWidget
+>
+mFocusedWidget
+;
+nsCOMPtr
+<
 nsISelection
 >
 mSelection
