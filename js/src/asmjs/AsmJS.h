@@ -119,6 +119,15 @@ fun
 ;
 extern
 bool
+IsAsmJSStrictModeModuleOrFunction
+(
+JSFunction
+*
+fun
+)
+;
+extern
+bool
 IsAsmJSCompilationAvailable
 (
 JSContext
