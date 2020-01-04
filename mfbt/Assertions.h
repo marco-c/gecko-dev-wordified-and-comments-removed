@@ -130,8 +130,6 @@ CrashReporter
 :
 AnnotateMozCrashReason
 (
-"
-"
 __VA_ARGS__
 )
 #
