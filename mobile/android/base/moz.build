@@ -778,7 +778,7 @@ java
 '
 mozglue
 /
-SafeIntentUtils
+SafeIntent
 .
 java
 '
@@ -1081,13 +1081,6 @@ java
 util
 /
 RawResource
-.
-java
-'
-'
-util
-/
-SafeIntent
 .
 java
 '

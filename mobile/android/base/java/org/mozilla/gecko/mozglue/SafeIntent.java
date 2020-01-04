@@ -5,7 +5,7 @@ mozilla
 .
 gecko
 .
-util
+mozglue
 ;
 import
 android

@@ -98,7 +98,7 @@ mozilla
 .
 gecko
 .
-util
+mozglue
 .
 SafeIntent
 ;
