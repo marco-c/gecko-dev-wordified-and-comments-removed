@@ -2308,6 +2308,11 @@ inSnapshot
 )
 )
 {
+SurfaceDescriptor
+outSnapshot
+=
+inSnapshot
+;
 if
 (
 remoteRenderer
@@ -2328,7 +2333,7 @@ surf
 =
 GetSurfaceForDescriptor
 (
-inSnapshot
+outSnapshot
 )
 ;
 DrawTarget
@@ -2449,7 +2454,7 @@ mForwarder
 DestroySurfaceDescriptor
 (
 &
-inSnapshot
+outSnapshot
 )
 ;
 }
