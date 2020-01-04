@@ -777,6 +777,9 @@ aMustPassThrough
 nsIFrame
 *
 aSourceFrame
+bool
+*
+aDidPassThrough
 )
 ;
 typedef
