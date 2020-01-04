@@ -7530,9 +7530,6 @@ nsChangeHint_ReflowChangesSizeOrPosition
 nsChangeHint_ClearAncestorIntrinsics
 ;
 }
-nsStyleCoord
-mVerticalAlign
-;
 nsStyleTextOverflow
 mTextOverflow
 ;
@@ -10126,6 +10123,9 @@ mPerspectiveOrigin
 [
 2
 ]
+;
+nsStyleCoord
+mVerticalAlign
 ;
 AutoTArray
 <

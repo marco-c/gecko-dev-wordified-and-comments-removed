@@ -8124,7 +8124,7 @@ kUserSelectKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
-CSS_PROP_TEXTRESET
+CSS_PROP_DISPLAY
 (
 vertical
 -
@@ -8150,7 +8150,7 @@ VARIANT_CALC
 kVerticalAlignKTable
 offsetof
 (
-nsStyleTextReset
+nsStyleDisplay
 mVerticalAlign
 )
 eStyleAnimType_Coord

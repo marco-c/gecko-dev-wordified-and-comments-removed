@@ -9928,7 +9928,7 @@ verticalAlign
 frame
 -
 >
-StyleTextReset
+StyleDisplay
 (
 )
 -
