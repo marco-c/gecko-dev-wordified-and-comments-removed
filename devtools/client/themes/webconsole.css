@@ -2811,8 +2811,14 @@ middle
 margin
 :
 3px
-3px
 0
+0
+0
+;
+flex
+-
+shrink
+:
 0
 ;
 }
