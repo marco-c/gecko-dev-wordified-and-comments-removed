@@ -5329,6 +5329,15 @@ aRepaintMode
 )
 ;
 static
+void
+ExpireDisplayPortOnAsyncScrollableAncestor
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 bool
 IsOutlineStyleAutoEnabled
 (

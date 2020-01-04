@@ -10414,6 +10414,17 @@ GetContent
 )
 )
 ;
+nsLayoutUtils
+:
+:
+ExpireDisplayPortOnAsyncScrollableAncestor
+(
+helper
+-
+>
+mOuter
+)
+;
 helper
 -
 >
