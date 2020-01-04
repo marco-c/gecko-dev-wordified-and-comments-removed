@@ -70,13 +70,6 @@ NS_IsMainThread
 )
 ;
 mGlobalDisplay
--
->
-Shutdown
-(
-)
-;
-mGlobalDisplay
 =
 nullptr
 ;

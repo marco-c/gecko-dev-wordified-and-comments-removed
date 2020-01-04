@@ -164,6 +164,14 @@ IsVsyncEnabled
 =
 0
 ;
+virtual
+void
+Shutdown
+(
+)
+=
+0
+;
 private
 :
 void
@@ -226,6 +234,11 @@ GetGlobalDisplay
 )
 =
 0
+;
+void
+Shutdown
+(
+)
 ;
 protected
 :
