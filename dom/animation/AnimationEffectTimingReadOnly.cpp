@@ -185,10 +185,6 @@ if
 mTiming
 .
 mFunction
-.
-isSome
-(
-)
 )
 {
 mTiming

@@ -230,10 +230,6 @@ aPortion
 {
 return
 aFunction
-.
-isSome
-(
-)
 ?
 aFunction
 -
