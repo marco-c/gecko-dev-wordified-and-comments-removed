@@ -1263,7 +1263,7 @@ int64_t
 aTime
 )
 ;
-bool
+void
 CheckFrameValidity
 (
 VideoData
