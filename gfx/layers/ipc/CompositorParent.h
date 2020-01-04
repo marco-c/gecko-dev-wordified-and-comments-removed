@@ -1801,6 +1801,9 @@ mPluginUpdateResponsePending
 bool
 mDeferPluginWindows
 ;
+bool
+mPluginWindowsHidden
+;
 #
 endif
 DISALLOW_EVIL_CONSTRUCTORS
