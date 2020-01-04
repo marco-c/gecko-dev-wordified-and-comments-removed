@@ -328,6 +328,15 @@ cx
 extern
 JS_FRIEND_API
 (
+bool
+)
+JS_ImmutablePrototypesEnabled
+(
+)
+;
+extern
+JS_FRIEND_API
+(
 size_t
 )
 JS_GetCustomIteratorCount
