@@ -790,6 +790,7 @@ bool
 IsWARP
 (
 )
+const
 {
 return
 mIsWARP
@@ -1256,7 +1257,13 @@ DeviceManagerD3D9
 >
 mDeviceManager
 ;
+mozilla
+:
+:
+Atomic
+<
 bool
+>
 mIsWARP
 ;
 bool
@@ -1265,7 +1272,13 @@ mHasDeviceReset
 bool
 mHasFakeDeviceReset
 ;
+mozilla
+:
+:
+Atomic
+<
 bool
+>
 mCompositorD3D11TextureSharingWorks
 ;
 mozilla
