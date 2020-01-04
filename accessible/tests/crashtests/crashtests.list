@@ -1,8 +1,8 @@
 #
 Disabled
 because
-it
-causes
+they
+cause
 assertions
 /
 crashes
@@ -12,6 +12,11 @@ crashtests
 see
 bug
 918246
+skip
+load
+448064
+.
+xhtml
 skip
 load
 471493
