@@ -1922,13 +1922,6 @@ profilelocking
 -
 enable
 -
-profiling
-'
-'
--
--
-enable
--
 pulseaudio
 '
 '
@@ -2259,13 +2252,6 @@ enable
 verify
 -
 mar
-'
-'
--
--
-enable
--
-vtune
 '
 '
 -
