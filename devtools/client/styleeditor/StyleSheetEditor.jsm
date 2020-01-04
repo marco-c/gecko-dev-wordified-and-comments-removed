@@ -2470,11 +2470,6 @@ y
 )
 {
 let
-info
-;
-try
-{
-let
 pos
 =
 this
@@ -2493,6 +2488,7 @@ y
 }
 )
 ;
+let
 info
 =
 this
@@ -2504,13 +2500,6 @@ getInfoAt
 pos
 )
 ;
-}
-catch
-(
-e
-)
-{
-}
 if
 (
 !
