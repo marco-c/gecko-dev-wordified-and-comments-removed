@@ -19,7 +19,7 @@ android
 class
 DataSource
 ;
-class
+struct
 MediaSource
 ;
 class

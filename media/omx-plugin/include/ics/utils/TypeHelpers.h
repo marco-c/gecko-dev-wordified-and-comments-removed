@@ -1148,9 +1148,6 @@ key
 ;
 template
 <
->
-template
-<
 typename
 K
 typename
@@ -1182,9 +1179,6 @@ has_trivial_ctor
 ;
 }
 ;
-template
-<
->
 template
 <
 typename
@@ -1220,9 +1214,6 @@ has_trivial_dtor
 ;
 template
 <
->
-template
-<
 typename
 K
 typename
@@ -1254,9 +1245,6 @@ has_trivial_copy
 ;
 }
 ;
-template
-<
->
 template
 <
 typename
