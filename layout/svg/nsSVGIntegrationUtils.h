@@ -203,6 +203,10 @@ const
 nsRect
 &
 aDirtyRect
+const
+nsRect
+&
+aBorderArea
 nsDisplayListBuilder
 *
 aBuilder
