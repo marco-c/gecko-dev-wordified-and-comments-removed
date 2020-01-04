@@ -1394,6 +1394,16 @@ content
 .
 size
 ;
+content
+.
+encoding
+=
+responseContent
+.
+content
+.
+encoding
+;
 }
 let
 includeBodies
