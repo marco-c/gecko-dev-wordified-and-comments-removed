@@ -149,6 +149,13 @@ js
 '
 '
 chrome
+-
+debugger
+.
+js
+'
+'
+chrome
 .
 js
 '
