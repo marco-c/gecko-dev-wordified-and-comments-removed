@@ -643,6 +643,11 @@ RecentTabsAdapter
 getContext
 (
 )
+mHistoryAdapter
+.
+getRecentTabsUpdateHandler
+(
+)
 getPanelStateUpdateHandler
 (
 )
