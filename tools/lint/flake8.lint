@@ -839,6 +839,13 @@ client
 '
 testing
 /
+marionette
+/
+harness
+'
+'
+testing
+/
 puppeteer
 '
 '

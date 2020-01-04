@@ -178,6 +178,7 @@ self
 .
 _parser_class
 (
+            
 usage
 =
 '
@@ -213,7 +214,7 @@ action
 '
 version
 '
-            
+                            
 help
 =
 "
@@ -222,7 +223,7 @@ version
 information
 .
 "
-            
+                            
 version
 =
 "
@@ -235,7 +236,7 @@ s
 version
 }
 "
-                    
+                            
 "
 (
 using
@@ -250,15 +251,15 @@ driver_version
 .
 format
 (
-                        
+                                
 version
 =
 __version__
-                        
+                                
 driver_version
 =
 driver_version
-                    
+                            
 )
 )
         

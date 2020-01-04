@@ -11,8 +11,9 @@ utf
 *
 -
 import
-sys
 os
+import
+sys
 here
 =
 os
@@ -178,7 +179,7 @@ latex_elements
 latex_documents
 =
 [
-  
+    
 (
 '
 index
@@ -195,7 +196,7 @@ Python
 Client
 Documentation
 '
-   
+     
 u
 '
 Mozilla
@@ -244,7 +245,7 @@ team
 texinfo_documents
 =
 [
-  
+    
 (
 '
 index
@@ -252,15 +253,13 @@ index
 '
 MarionettePythonClient
 '
-u
 '
 Marionette
 Python
 Client
 Documentation
 '
-   
-u
+     
 '
 Mozilla
 Automation
@@ -271,6 +270,7 @@ team
 '
 MarionettePythonClient
 '
+     
 '
 One
 line
@@ -279,7 +279,6 @@ of
 project
 .
 '
-   
 '
 Miscellaneous
 '
