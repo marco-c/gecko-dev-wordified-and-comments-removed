@@ -709,6 +709,11 @@ DivertComplete
 )
 ;
 void
+MaybeFlushPendingDiversion
+(
+)
+;
+void
 SynthesizeResponse
 (
 nsIInterceptedChannel
@@ -840,6 +845,9 @@ mDivertListener
 ;
 nsresult
 mStatus
+;
+bool
+mPendingDiversion
 ;
 bool
 mDivertingFromChild

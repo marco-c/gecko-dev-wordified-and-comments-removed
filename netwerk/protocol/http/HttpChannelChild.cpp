@@ -9647,6 +9647,10 @@ return
 mStatus
 ;
 }
+mDivertingToParent
+=
+true
+;
 rv
 =
 Suspend
@@ -9668,10 +9672,6 @@ return
 rv
 ;
 }
-mDivertingToParent
-=
-true
-;
 HttpChannelDiverterArgs
 args
 ;
