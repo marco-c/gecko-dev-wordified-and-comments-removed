@@ -470,6 +470,16 @@ interface
 ;
 const
 char
+js_new_str
+[
+]
+=
+"
+new
+"
+;
+const
+char
 js_package_str
 [
 ]
