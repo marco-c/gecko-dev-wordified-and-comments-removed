@@ -117,7 +117,7 @@ gecko
 .
 fxa
 .
-AccountLoaderNative
+AccountLoader
 ;
 import
 org
@@ -1287,7 +1287,7 @@ args
 {
 return
 new
-AccountLoaderNative
+AccountLoader
 (
 getActivity
 (
