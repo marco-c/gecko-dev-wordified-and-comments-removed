@@ -151,9 +151,7 @@ android
 minHeight
 =
 "
-dimen
-/
-firstrun_min_height
+248dp
 "
 android
 :
@@ -221,9 +219,7 @@ android
 layout_height
 =
 "
-dimen
-/
-firstrun_background_height
+248dp
 "
 android
 :
