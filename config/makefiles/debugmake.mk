@@ -609,8 +609,6 @@ MKCSHLIB
 \
 RC
 \
-MC
-\
 CFLAGS
 \
 OS_CFLAGS
