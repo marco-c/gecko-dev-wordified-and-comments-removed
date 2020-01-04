@@ -678,12 +678,10 @@ title
 #
 ifndef
 XP_MACOSX
-style
+hidden
 =
 "
-display
-:
-none
+true
 "
 #
 else
