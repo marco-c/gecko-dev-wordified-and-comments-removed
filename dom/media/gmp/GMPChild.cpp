@@ -2121,7 +2121,7 @@ bool
 GMPChild
 :
 :
-RecvStartPlugin
+AnswerStartPlugin
 (
 )
 {

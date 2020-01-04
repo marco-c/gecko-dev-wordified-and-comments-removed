@@ -197,7 +197,7 @@ CrashPluginNow
 (
 )
 ;
-async
+intr
 StartPlugin
 (
 )
