@@ -1812,16 +1812,6 @@ Get
 if
 (
 !
-dm
-)
-{
-return
-false
-;
-}
-if
-(
-!
 gfxPrefs
 :
 :
@@ -9626,10 +9616,6 @@ FEATURE_FAILURE_D2D_D3D11_COMP
 ;
 }
 }
-UpdateCanUseHardareVideoDecoding
-(
-)
-;
 UpdateANGLEConfig
 (
 )
