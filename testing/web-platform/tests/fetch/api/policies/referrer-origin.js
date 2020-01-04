@@ -37,7 +37,7 @@ js
 ;
 }
 var
-origin
+referrerOrigin
 =
 "
 http
@@ -61,6 +61,7 @@ http
 ]
 }
 }
+/
 "
 ;
 var
@@ -148,7 +149,7 @@ request
 referer
 "
 )
-origin
+referrerOrigin
 "
 request
 '
@@ -157,7 +158,7 @@ referrer
 is
 "
 +
-origin
+referrerOrigin
 )
 ;
 }
