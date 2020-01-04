@@ -99,6 +99,8 @@ info
 +
 '
 expected
+GL
+error
 0x
 '
 +
@@ -163,6 +165,10 @@ ok
 (
 ext
 '
+When
+pref
+enabled
+:
 Should
 have
 access
@@ -212,6 +218,10 @@ ok
 (
 renderer
 '
+When
+pref
+enabled
+:
 UNMASKED_RENDERER_WEBGL
 value
 should
@@ -256,6 +266,10 @@ ok
 (
 vendor
 '
+When
+pref
+enabled
+:
 UNMASKED_VENDOR_WEBGL
 value
 should
@@ -346,6 +360,10 @@ ok
 (
 ext
 '
+When
+overrides
+set
+:
 Should
 have
 access
@@ -398,6 +416,10 @@ renderer
 =
 RENDERER_OVERRIDE
 '
+When
+overrides
+set
+:
 UNMASKED_RENDERER_WEBGL
 value
 should
@@ -452,6 +474,10 @@ vendor
 =
 VENDOR_OVERRIDE
 '
+When
+overrides
+set
+:
 UNMASKED_VENDOR_WEBGL
 value
 should
@@ -486,7 +512,7 @@ prefArrArr
 '
 webgl
 .
-disable
+enable
 -
 debug
 -
@@ -494,7 +520,7 @@ renderer
 -
 info
 '
-true
+false
 ]
 ]
 ;
@@ -540,6 +566,10 @@ ok
 !
 ext
 '
+When
+pref
+disabled
+:
 Should
 not
 have
@@ -647,7 +677,7 @@ prefArrArr
 '
 webgl
 .
-disable
+enable
 -
 debug
 -
@@ -655,7 +685,7 @@ renderer
 -
 info
 '
-false
+true
 ]
 ]
 ;
