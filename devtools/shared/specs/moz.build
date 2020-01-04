@@ -137,6 +137,11 @@ properties
 js
 '
 '
+frame
+.
+js
+'
+'
 heap
 -
 snapshot
