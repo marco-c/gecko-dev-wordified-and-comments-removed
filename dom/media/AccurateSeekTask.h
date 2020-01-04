@@ -211,6 +211,14 @@ CancelCallbacks
 (
 )
 ;
+void
+AdjustFastSeekIfNeeded
+(
+MediaData
+*
+aSample
+)
+;
 const
 int64_t
 mCurrentTimeBeforeSeek
