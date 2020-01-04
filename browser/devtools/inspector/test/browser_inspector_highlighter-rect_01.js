@@ -34,6 +34,7 @@ let
 {
 inspector
 toolbox
+testActor
 }
 =
 yield
@@ -159,9 +160,10 @@ let
 hidden
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighter
 "
 highlighted
 -
@@ -170,6 +172,7 @@ rect
 "
 hidden
 "
+highlighter
 )
 ;
 is
@@ -215,9 +218,10 @@ body
 hidden
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighter
 "
 highlighted
 -
@@ -226,6 +230,7 @@ rect
 "
 hidden
 "
+highlighter
 )
 ;
 is
@@ -287,9 +292,10 @@ y
 hidden
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighter
 "
 highlighted
 -
@@ -298,6 +304,7 @@ rect
 "
 hidden
 "
+highlighter
 )
 ;
 is
@@ -349,9 +356,10 @@ height
 hidden
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighter
 "
 highlighted
 -
@@ -360,6 +368,7 @@ rect
 "
 hidden
 "
+highlighter
 )
 ;
 is
@@ -414,9 +423,10 @@ height
 hidden
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighter
 "
 highlighted
 -
@@ -425,6 +435,7 @@ rect
 "
 hidden
 "
+highlighter
 )
 ;
 is
@@ -480,9 +491,10 @@ height
 hidden
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighter
 "
 highlighted
 -
@@ -491,6 +503,7 @@ rect
 "
 hidden
 "
+highlighter
 )
 ;
 is
@@ -561,9 +574,10 @@ height
 hidden
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighter
 "
 highlighted
 -
@@ -572,6 +586,7 @@ rect
 "
 hidden
 "
+highlighter
 )
 ;
 ok
@@ -590,9 +605,10 @@ let
 style
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighter
 "
 highlighted
 -
@@ -601,6 +617,7 @@ rect
 "
 style
 "
+highlighter
 )
 ;
 is
@@ -682,9 +699,10 @@ height
 hidden
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighter
 "
 highlighted
 -
@@ -693,6 +711,7 @@ rect
 "
 hidden
 "
+highlighter
 )
 ;
 ok
@@ -718,9 +737,10 @@ y
 style
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighter
 "
 highlighted
 -
@@ -729,6 +749,7 @@ rect
 "
 style
 "
+highlighter
 )
 ;
 is
@@ -806,9 +827,10 @@ height
 hidden
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighter
 "
 highlighted
 -
@@ -817,6 +839,7 @@ rect
 "
 hidden
 "
+highlighter
 )
 ;
 is
@@ -886,9 +909,10 @@ red
 hidden
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighter
 "
 highlighted
 -
@@ -897,6 +921,7 @@ rect
 "
 hidden
 "
+highlighter
 )
 ;
 ok
@@ -914,9 +939,10 @@ displayed
 style
 =
 yield
+testActor
+.
 getHighlighterNodeAttribute
 (
-highlighter
 "
 highlighted
 -
@@ -925,6 +951,7 @@ rect
 "
 style
 "
+highlighter
 )
 ;
 is
