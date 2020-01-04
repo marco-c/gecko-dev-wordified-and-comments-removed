@@ -531,10 +531,6 @@ mName
 (
 nullptr
 )
-mNameLen
-(
-0
-)
 {
 NS_ASSERTION
 (
