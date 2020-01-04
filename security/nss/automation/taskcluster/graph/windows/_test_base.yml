@@ -25,7 +25,7 @@ provisioner
 v1
 workerType
 :
-ttaubert
+nss
 -
 win2012r2
 schedulerId
@@ -56,11 +56,6 @@ command
 :
 -
 "
-time
-/
-t
-&
-&
 hg
 clone
 -
@@ -75,11 +70,6 @@ nss
 "
 -
 "
-time
-/
-t
-&
-&
 bash
 -
 c

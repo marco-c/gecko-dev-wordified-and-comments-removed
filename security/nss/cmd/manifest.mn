@@ -144,6 +144,8 @@ digest
 \
 ecperf
 \
+ectest
+\
 httpserv
 \
 listsuites

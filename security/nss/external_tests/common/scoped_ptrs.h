@@ -6,6 +6,11 @@ define
 scoped_ptrs_h__
 #
 include
+<
+memory
+>
+#
+include
 "
 cert
 .
