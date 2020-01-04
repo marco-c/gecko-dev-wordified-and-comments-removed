@@ -15691,6 +15691,11 @@ invalid_values
 :
 [
 "
+padding
+-
+box
+"
+"
 margin
 -
 box

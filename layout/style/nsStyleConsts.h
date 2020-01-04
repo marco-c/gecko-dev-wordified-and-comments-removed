@@ -322,7 +322,6 @@ StyleBoxSizing
 uint8_t
 {
 Content
-Padding
 Border
 }
 ;
