@@ -1159,6 +1159,15 @@ CSS_PROPERTY_ABSPOS_CB
 <
 30
 )
+#
+define
+CSS_PROPERTY_LOGICAL_SINGLE_CUSTOM_VALMAPPING
+(
+1u
+<
+<
+31
+)
 enum
 nsStyleAnimType
 {
