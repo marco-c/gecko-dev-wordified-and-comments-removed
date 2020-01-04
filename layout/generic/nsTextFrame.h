@@ -1377,8 +1377,7 @@ DrawTarget
 &
 aDrawTarget
 )
-{
-}
+;
 virtual
 void
 PaintDecorationLine
