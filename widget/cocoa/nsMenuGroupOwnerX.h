@@ -131,14 +131,6 @@ uint32_t
 inCommandID
 )
 ;
-void
-AddMenuItemInfoToSet
-(
-MenuItemInfo
-*
-info
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIMUTATIONOBSERVER
 protected
@@ -179,10 +171,6 @@ nsMenuItemX
 *
 >
 mCommandToMenuObjectTable
-;
-NSMutableSet
-*
-mInfoSet
 ;
 }
 ;
