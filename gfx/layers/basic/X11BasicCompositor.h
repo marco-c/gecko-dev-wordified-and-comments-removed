@@ -200,6 +200,9 @@ public
 explicit
 X11BasicCompositor
 (
+CompositorBridgeParent
+*
+aParent
 nsIWidget
 *
 aWidget
@@ -207,6 +210,7 @@ aWidget
 :
 BasicCompositor
 (
+aParent
 aWidget
 )
 {
