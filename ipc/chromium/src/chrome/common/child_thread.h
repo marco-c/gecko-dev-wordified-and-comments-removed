@@ -20,7 +20,7 @@ chrome
 /
 common
 /
-message_router
+ipc_channel
 .
 h
 "
@@ -267,9 +267,6 @@ IPC
 Channel
 >
 channel_
-;
-MessageRouter
-router_
 ;
 Thread
 :
