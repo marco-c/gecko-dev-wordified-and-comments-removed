@@ -140,6 +140,11 @@ ObservedDocShell
 h
 '
 '
+OTMTMarkerReceiver
+.
+h
+'
+'
 RestyleTimelineMarker
 .
 h

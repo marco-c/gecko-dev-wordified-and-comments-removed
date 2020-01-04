@@ -7,13 +7,6 @@ mozilla_TimelineMarker_h_
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 AbstractTimelineMarker
 .
 h
@@ -94,11 +87,13 @@ aMarker
 )
 override
 ;
+virtual
 JSObject
 *
 GetStack
 (
 )
+override
 ;
 protected
 :
