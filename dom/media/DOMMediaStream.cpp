@@ -3415,10 +3415,10 @@ aEnabled
 {
 if
 (
-mOwnedStream
+mInputStream
 )
 {
-mOwnedStream
+mInputStream
 -
 >
 SetTrackEnabled
