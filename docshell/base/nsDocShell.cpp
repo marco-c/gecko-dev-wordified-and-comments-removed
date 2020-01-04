@@ -24243,6 +24243,12 @@ GetExtantDoc
 if
 (
 aIsActive
+&
+&
+!
+GetIsApp
+(
+)
 )
 {
 nsCOMPtr
@@ -39330,6 +39336,12 @@ OrientationLock
 !
 =
 eScreenOrientation_None
+&
+&
+!
+GetIsApp
+(
+)
 )
 {
 #
