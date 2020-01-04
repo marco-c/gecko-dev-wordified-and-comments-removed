@@ -423,16 +423,6 @@ override
 ;
 virtual
 void
-RemoveTexture
-(
-TextureClient
-*
-aTexture
-)
-override
-;
-virtual
-void
 UpdateTextureRegion
 (
 CompositableClient

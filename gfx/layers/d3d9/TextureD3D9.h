@@ -818,16 +818,6 @@ aAllocator
 }
 protected
 :
-virtual
-void
-FinalizeOnIPDLThread
-(
-TextureClient
-*
-aWrapper
-)
-override
-;
 D3D9TextureData
 (
 gfx
