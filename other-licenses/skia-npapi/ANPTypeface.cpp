@@ -19,6 +19,13 @@ SkStream
 .
 h
 "
+#
+include
+<
+stdlib
+.
+h
+>
 static
 ANPTypeface
 *
