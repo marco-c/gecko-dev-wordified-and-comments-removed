@@ -5163,17 +5163,6 @@ aSize
 )
 ;
 static
-void
-SetCSSViewport
-(
-nsIPresShell
-*
-aPresShell
-CSSSize
-aSize
-)
-;
-static
 FrameMetrics
 ComputeFrameMetrics
 (
