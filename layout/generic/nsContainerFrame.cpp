@@ -2527,6 +2527,12 @@ eWindowType_dialog
 windowType
 =
 =
+eWindowType_popup
+|
+|
+windowType
+=
+=
 eWindowType_sheet
 ;
 }
