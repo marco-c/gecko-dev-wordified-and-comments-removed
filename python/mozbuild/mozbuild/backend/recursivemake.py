@@ -6172,6 +6172,13 @@ defines
 .
 join
 (
+shell_quote
+(
+d
+)
+for
+d
+in
 defines
 )
             

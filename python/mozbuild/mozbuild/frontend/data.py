@@ -96,14 +96,6 @@ util
 import
 StrictOrderingOnAppendList
 from
-mozbuild
-.
-shellutil
-import
-quote
-as
-shell_quote
-from
 mozpack
 .
 chrome
@@ -1042,10 +1034,7 @@ s
 %
 (
 define
-shell_quote
-(
 value
-)
 )
 )
     
