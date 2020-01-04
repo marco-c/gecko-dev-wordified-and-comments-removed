@@ -177,6 +177,8 @@ NotifyVsync
 (
 TimeStamp
 vsyncTimeStamp
+uint64_t
+layersId
 )
 ;
 }

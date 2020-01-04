@@ -145,6 +145,11 @@ CompositorWidgetParent
 h
 '
 '
+InProcessWinCompositorWidget
+.
+h
+'
+'
 WinCompositorWidget
 .
 h
@@ -201,6 +206,11 @@ cpp
 '
 '
 InkCollector
+.
+cpp
+'
+'
+InProcessWinCompositorWidget
 .
 cpp
 '

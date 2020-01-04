@@ -613,7 +613,7 @@ h
 #
 include
 "
-WinCompositorWidget
+InProcessWinCompositorWidget
 .
 h
 "
@@ -14574,7 +14574,7 @@ mTransparencyMode
 mBasicLayersSurface
 =
 new
-WinCompositorWidget
+InProcessWinCompositorWidget
 (
 initData
 this

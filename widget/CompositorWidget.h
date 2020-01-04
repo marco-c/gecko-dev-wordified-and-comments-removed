@@ -398,6 +398,16 @@ aObserver
 0
 ;
 virtual
+RefPtr
+<
+VsyncObserver
+>
+GetVsyncObserver
+(
+)
+const
+;
+virtual
 WinCompositorWidget
 *
 AsWindows

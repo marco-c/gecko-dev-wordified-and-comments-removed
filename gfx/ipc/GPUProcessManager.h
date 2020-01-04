@@ -113,6 +113,16 @@ nsIObserverService
 .
 h
 "
+#
+include
+"
+nsThreadUtils
+.
+h
+"
+class
+nsBaseWidget
+;
 namespace
 mozilla
 {
@@ -261,7 +271,7 @@ CompositorSession
 >
 CreateTopLevelCompositor
 (
-nsIWidget
+nsBaseWidget
 *
 aWidget
 ClientLayerManager
@@ -463,7 +473,7 @@ CompositorSession
 >
 CreateRemoteSession
 (
-nsIWidget
+nsBaseWidget
 *
 aWidget
 ClientLayerManager
