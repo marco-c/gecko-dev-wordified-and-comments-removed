@@ -1596,7 +1596,7 @@ eTransitionEventClass
 NON_IDL_EVENT
 (
 animationstart
-NS_ANIMATION_START
+eAnimationStart
 EventNameType_None
 eAnimationEventClass
 )
