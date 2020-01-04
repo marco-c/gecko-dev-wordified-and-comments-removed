@@ -661,6 +661,11 @@ RestyleLogging
 .
 h
 '
+'
+RestyleManager
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
