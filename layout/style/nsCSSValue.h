@@ -516,6 +516,16 @@ aOther
 )
 const
 ;
+bool
+MaybeUnresolvedURIEquals
+(
+const
+URLValueData
+&
+aOther
+)
+const
+;
 nsIURI
 *
 GetURI
