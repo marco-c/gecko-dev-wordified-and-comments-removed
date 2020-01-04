@@ -898,10 +898,14 @@ NS_IMETHOD
 OnDefaultButtonLoaded
 (
 const
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 &
 aButtonRect
 )
+override
 ;
 NS_IMETHOD
 OverrideSystemMouseScrollSpeed

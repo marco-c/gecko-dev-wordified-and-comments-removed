@@ -3403,7 +3403,10 @@ NS_IMETHOD
 OnDefaultButtonLoaded
 (
 const
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 &
 aButtonRect
 )
