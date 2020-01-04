@@ -7141,7 +7141,7 @@ InternalEditorInputEvent
 inputEvent
 (
 true
-NS_EDITOR_INPUT
+eEditorInput
 widget
 )
 ;
