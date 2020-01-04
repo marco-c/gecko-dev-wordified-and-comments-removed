@@ -2359,6 +2359,12 @@ ret
 =
 =
 Z_STREAM_END
+|
+|
+ret
+=
+=
+Z_OK
 )
 ;
 ret
