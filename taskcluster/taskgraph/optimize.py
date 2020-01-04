@@ -15,7 +15,7 @@ import
 Graph
 from
 .
-taskgraph
+types
 import
 TaskGraph
 from
@@ -500,8 +500,12 @@ replacement_task_id
 =
 task
 .
-optimize
+kind
+.
+optimize_task
 (
+task
+named_task_dependencies
 )
         
 task

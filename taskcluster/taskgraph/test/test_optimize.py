@@ -23,19 +23,13 @@ get_subgraph
 from
 .
 .
-taskgraph
 import
-TaskGraph
+types
 from
 .
 .
 import
 graph
-from
-.
-util
-import
-TestTask
 class
 TestResolveTaskReferences
 (
@@ -485,16 +479,28 @@ such
 {
 }
 )
-        
+            
 )
 class
-OptimizingTask
+FakeKind
 (
-TestTask
+object
 )
 :
     
-pass
+def
+__init__
+(
+self
+optimize_task
+)
+:
+        
+self
+.
+optimize_task
+=
+optimize_task
 class
 TestOptimize
 (
@@ -507,6 +513,23 @@ TestCase
 kind
 =
 None
+    
+def
+make_kind
+(
+self
+optimize_task
+)
+:
+        
+self
+.
+kind
+=
+FakeKind
+(
+optimize_task
+)
     
 def
 make_task
@@ -543,8 +566,13 @@ def
         
 task
 =
-OptimizingTask
+types
+.
+Task
 (
+self
+.
+kind
 label
 =
 label
@@ -593,7 +621,9 @@ if
 isinstance
 (
 t
-OptimizingTask
+types
+.
+Task
 )
 }
         
@@ -610,11 +640,15 @@ not
 isinstance
 (
 e
-OptimizingTask
+types
+.
+Task
 )
 }
         
 return
+types
+.
 TaskGraph
 (
 tasks
@@ -694,7 +728,7 @@ tasks
 itervalues
 (
 )
-        
+            
 }
         
 self
@@ -727,16 +761,18 @@ returns
 that
 "
         
-OptimizingTask
-.
-optimize
-=
-lambda
 self
+.
+make_kind
+(
+lambda
+task
+deps
 :
 (
 False
 None
+)
 )
         
 graph
@@ -843,7 +879,7 @@ task3
 False
 None
 )
-        
+            
 )
     
 def
@@ -865,12 +901,13 @@ without
 optimizing
 "
         
-OptimizingTask
-.
-optimize
-=
-lambda
 self
+.
+make_kind
+(
+lambda
+task
+deps
 :
 (
 False
@@ -879,6 +916,7 @@ some
 -
 taskid
 '
+)
 )
         
 graph
@@ -922,7 +960,7 @@ named_links_dict
 {
 }
 )
-        
+            
 )
     
 def
@@ -947,21 +985,20 @@ another
 depends
 "
         
-OptimizingTask
-.
-optimize
-=
-\
-            
-lambda
 self
+.
+make_kind
+(
+lambda
+task
+deps
 :
 (
 True
 None
 )
 if
-self
+task
 .
 label
 =
@@ -973,6 +1010,7 @@ else
 (
 False
 None
+)
 )
         
 graph
@@ -1039,7 +1077,7 @@ named_links_dict
 {
 }
 )
-        
+            
 )
     
 def
@@ -1062,18 +1100,20 @@ in
 do_not_optimize
 "
         
-OptimizingTask
-.
-optimize
-=
-lambda
 self
+.
+make_kind
+(
+lambda
+task
+deps
 :
 (
 True
 '
 taskid
 '
+)
 )
         
 graph
@@ -1162,7 +1202,7 @@ task2
 False
 None
 )
-        
+            
 )
         
 self
@@ -1193,21 +1233,21 @@ non
 optimized
 "
         
-OptimizingTask
+self
 .
-optimize
-=
-\
+make_kind
+(
             
 lambda
-self
+task
+deps
 :
 (
 False
 None
 )
 if
-self
+task
 .
 label
 =
@@ -1221,6 +1261,8 @@ True
 '
 taskid
 '
+)
+            
 )
         
 graph
@@ -1330,7 +1372,7 @@ True
 taskid
 '
 )
-        
+            
 )
     
 def
@@ -2060,7 +2102,7 @@ test
 '
 }
 }
-            
+                
 )
             
 (
@@ -2291,14 +2333,14 @@ simple
 graph
 "
         
-OptimizingTask
+self
 .
-optimize
-=
-\
+make_kind
+(
             
 lambda
-self
+task
+deps
 :
 (
 True
@@ -2307,7 +2349,7 @@ dep1
 '
 )
 if
-self
+task
 .
 label
 =
@@ -2319,6 +2361,8 @@ else
 (
 False
 None
+)
+            
 )
         
 input

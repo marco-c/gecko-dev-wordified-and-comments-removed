@@ -62,7 +62,7 @@ kind
 .
 legacy
 :
-LegacyTask
+LegacyKind
 '
 legacy_path
 :

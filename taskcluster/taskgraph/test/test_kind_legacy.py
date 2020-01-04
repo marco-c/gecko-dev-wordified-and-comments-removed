@@ -15,6 +15,8 @@ legacy
 import
 (
     
+LegacyKind
+    
 validate_build_task
     
 BuildTaskValidationException
@@ -23,6 +25,35 @@ from
 mozunit
 import
 main
+class
+TestLegacyKind
+(
+unittest
+.
+TestCase
+)
+:
+    
+def
+setUp
+(
+self
+)
+:
+        
+self
+.
+kind
+=
+LegacyKind
+(
+'
+/
+root
+'
+{
+}
+)
 class
 TestValidateBuildTask
 (
