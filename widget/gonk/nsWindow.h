@@ -382,7 +382,8 @@ nsIWidget
 aNewParent
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 MakeFullScreen
 (
 bool
@@ -393,6 +394,7 @@ aTargetScreen
 =
 nullptr
 )
+override
 ;
 virtual
 already_AddRefed

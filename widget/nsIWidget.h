@@ -2140,7 +2140,8 @@ GetWidgetScreen
 (
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 MakeFullScreen
 (
 bool
@@ -2154,7 +2155,8 @@ nullptr
 =
 0
 ;
-NS_IMETHOD
+virtual
+nsresult
 MakeFullScreenWithNativeTransition
 (
 bool

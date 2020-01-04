@@ -8746,7 +8746,7 @@ return
 nsEventStatus_eIgnore
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :

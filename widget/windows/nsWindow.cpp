@@ -12711,7 +12711,7 @@ aDuration
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
@@ -12804,13 +12804,10 @@ mSizeMode
 aFullScreen
 )
 ;
-nsresult
-rv
-=
 nsBaseWidget
 :
 :
-MakeFullScreen
+InfallibleMakeFullScreen
 (
 aFullScreen
 aTargetScreen
@@ -12879,7 +12876,7 @@ aFullScreen
 ;
 }
 return
-rv
+NS_OK
 ;
 }
 void

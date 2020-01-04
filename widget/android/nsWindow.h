@@ -698,7 +698,8 @@ WidgetGUIEvent
 aEvent
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 MakeFullScreen
 (
 bool

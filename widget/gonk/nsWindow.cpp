@@ -2215,7 +2215,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsWindow
 :
 :
@@ -2251,14 +2251,16 @@ widget
 "
 )
 ;
-return
 nsBaseWidget
 :
 :
-MakeFullScreen
+InfallibleMakeFullScreen
 (
 aFullScreen
 )
+;
+return
+NS_OK
 ;
 }
 if

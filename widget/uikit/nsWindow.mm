@@ -4394,11 +4394,6 @@ return
 NS_OK
 ;
 }
-nsresult
-rv
-=
-NS_OK
-;
 mSizeMode
 =
 static_cast
@@ -4429,12 +4424,10 @@ Resize
 to
 fill
 screen
-rv
-=
 nsBaseWidget
 :
 :
-MakeFullScreen
+InfallibleMakeFullScreen
 (
 true
 )
@@ -4446,7 +4439,7 @@ aMode
 )
 ;
 return
-rv
+NS_OK
 ;
 }
 NS_IMETHODIMP
