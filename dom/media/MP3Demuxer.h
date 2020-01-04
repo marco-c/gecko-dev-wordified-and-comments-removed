@@ -531,6 +531,12 @@ IsTOCPresent
 )
 const
 ;
+bool
+IsValid
+(
+)
+const
+;
 int64_t
 Offset
 (
