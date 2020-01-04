@@ -380,7 +380,7 @@ InnerImage
 )
 -
 >
-IsOpaque
+WillDrawOpaqueNow
 (
 )
 )

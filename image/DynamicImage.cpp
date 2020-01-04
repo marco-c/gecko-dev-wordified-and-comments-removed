@@ -694,7 +694,7 @@ bool
 DynamicImage
 :
 :
-IsOpaque
+WillDrawOpaqueNow
 (
 )
 {
