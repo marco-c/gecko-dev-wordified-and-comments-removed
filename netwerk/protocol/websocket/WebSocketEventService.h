@@ -194,8 +194,10 @@ uint32_t
 aWebSocketSerialID
 uint64_t
 aInnerWindowID
+already_AddRefed
+<
 WebSocketFrame
-*
+>
 aFrame
 )
 ;
@@ -206,8 +208,10 @@ uint32_t
 aWebSocketSerialID
 uint64_t
 aInnerWindowID
+already_AddRefed
+<
 WebSocketFrame
-*
+>
 aFrame
 )
 ;
