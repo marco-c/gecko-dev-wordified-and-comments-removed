@@ -609,14 +609,6 @@ NS_OK
 ;
 }
 virtual
-JSContext
-*
-GetJSContextForEventHandlers
-(
-)
-override
-;
-virtual
 nsIPrincipal
 *
 GetPrincipal
