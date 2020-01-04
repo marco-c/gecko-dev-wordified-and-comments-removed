@@ -2644,14 +2644,6 @@ int32_t
 mCachedHitTestResult
 ;
 static
-DWORD
-sFirstEventTime
-;
-static
-TimeStamp
-sFirstEventTimeStamp
-;
-static
 bool
 sNeedsToInitMouseWheelSettings
 ;
