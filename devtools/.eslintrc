@@ -1436,6 +1436,8 @@ no
 -
 empty
 -
+character
+-
 class
 "
 :
@@ -3329,8 +3331,6 @@ comment
 .
 "
 spaced
--
-line
 -
 comment
 "
