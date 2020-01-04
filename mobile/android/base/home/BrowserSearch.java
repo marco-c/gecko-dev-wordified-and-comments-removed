@@ -1320,6 +1320,9 @@ TelemetryContract
 Method
 .
 LIST_ITEM
+"
+frecency
+"
 )
 ;
 mUrlOpenListener
