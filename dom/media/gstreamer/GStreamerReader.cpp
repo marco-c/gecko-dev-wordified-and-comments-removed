@@ -119,8 +119,7 @@ namespace
 media
 ;
 extern
-PRLogModuleInfo
-*
+LazyLogModule
 gMediaDecoderLog
 ;
 #

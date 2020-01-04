@@ -127,13 +127,11 @@ class
 TaskQueue
 ;
 extern
-PRLogModuleInfo
-*
+LazyLogModule
 gMediaDecoderLog
 ;
 extern
-PRLogModuleInfo
-*
+LazyLogModule
 gMediaSampleLog
 ;
 class

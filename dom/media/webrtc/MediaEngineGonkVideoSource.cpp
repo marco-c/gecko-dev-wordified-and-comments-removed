@@ -114,7 +114,7 @@ android
 undef
 LOG
 extern
-PRLogModuleInfo
+LogModule
 *
 GetMediaManagerLog
 (

@@ -39,7 +39,10 @@ h
 undef
 LOG
 extern
-PRLogModuleInfo
+mozilla
+:
+:
+LogModule
 *
 GetPDMLog
 (

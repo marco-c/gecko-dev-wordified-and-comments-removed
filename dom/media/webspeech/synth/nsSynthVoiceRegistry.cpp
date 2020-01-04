@@ -121,7 +121,10 @@ h
 undef
 LOG
 extern
-PRLogModuleInfo
+mozilla
+:
+:
+LogModule
 *
 GetSpeechSynthLog
 (

@@ -265,7 +265,7 @@ MediaTrackConstraintSet
 ;
 }
 extern
-PRLogModuleInfo
+LogModule
 *
 GetMediaManagerLog
 (

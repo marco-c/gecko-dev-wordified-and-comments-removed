@@ -102,7 +102,10 @@ SourceBufferResource
 h
 "
 extern
-PRLogModuleInfo
+mozilla
+:
+:
+LogModule
 *
 GetMediaSourceSamplesLog
 (
