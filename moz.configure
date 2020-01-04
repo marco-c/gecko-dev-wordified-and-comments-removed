@@ -372,9 +372,7 @@ add_old_configure_assignment
 '
 COMPILE_ENVIRONMENT
 '
-'
-1
-'
+True
 )
 return
 bool
@@ -1338,9 +1336,7 @@ add_old_configure_assignment
 '
 YASM
 '
-'
-1
-'
+True
 )
 return
 asflags

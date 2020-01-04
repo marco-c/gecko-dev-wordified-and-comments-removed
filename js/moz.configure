@@ -299,9 +299,7 @@ add_old_configure_assignment
 '
 JS_STANDALONE
 '
-'
-1
-'
+True
 )
 js_option
 (
@@ -672,9 +670,7 @@ add_old_configure_assignment
 '
 JS_SHARED_LIBRARY
 '
-'
-1
-'
+True
 )
 else
 :
@@ -1034,9 +1030,7 @@ add_old_configure_assignment
 '
 MOZ_INSTRUMENTS
 '
-'
-1
-'
+True
 )
 imply_option
 (
@@ -1192,9 +1186,7 @@ add_old_configure_assignment
 '
 MOZ_PROFILING
 '
-'
-1
-'
+True
 )
 if
 target

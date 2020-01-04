@@ -4951,9 +4951,7 @@ add_old_configure_assignment
 '
 NIGHTLY_BUILD
 '
-'
-1
-'
+True
 )
 is_nightly
 =
@@ -4985,9 +4983,7 @@ add_old_configure_assignment
 '
 RELEASE_BUILD
 '
-'
-1
-'
+True
 )
 is_release
 =
