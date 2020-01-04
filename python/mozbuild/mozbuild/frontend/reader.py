@@ -7954,6 +7954,9 @@ Context
 (
 VARIABLES
 config
+self
+.
+_finder
 )
         
 sandbox
