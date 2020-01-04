@@ -9738,7 +9738,7 @@ break
 endif
 endif
 endif
-libs
+misc
 realchrome
 :
 :
