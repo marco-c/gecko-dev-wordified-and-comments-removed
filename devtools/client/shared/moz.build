@@ -280,6 +280,13 @@ Jsbeautify
 jsm
 '
 '
+key
+-
+shortcuts
+.
+js
+'
+'
 l10n
 .
 js
