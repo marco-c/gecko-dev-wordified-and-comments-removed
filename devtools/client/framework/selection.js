@@ -298,7 +298,7 @@ parentNode
 &
 parentNode
 .
-isLocal_toBeDeprecated
+isLocalToBeDeprecated
 (
 )
 )
@@ -583,7 +583,7 @@ value
 &
 value
 .
-isLocal_toBeDeprecated
+isLocalToBeDeprecated
 (
 )
 )
@@ -840,7 +840,7 @@ if
 (
 node
 .
-isLocal_toBeDeprecated
+isLocalToBeDeprecated
 (
 )
 )
