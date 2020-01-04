@@ -2449,15 +2449,6 @@ peek
 {
 if
 (
-!
-ch
-)
-{
-break
-}
-else
-if
-(
 ch
 =
 =
