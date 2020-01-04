@@ -222,11 +222,6 @@ SharedMemoryBasic
 h
 '
 '
-SharedMemorySysV
-.
-h
-'
-'
 Shmem
 .
 h
