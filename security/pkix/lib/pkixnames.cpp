@@ -5531,13 +5531,11 @@ componentsToMove
 2u
 )
 ;
-std
-:
-:
-fill_n
+memset
 (
 address
 +
+(
 2u
 *
 static_cast
@@ -5547,6 +5545,9 @@ size_t
 (
 contractionIndex
 )
+)
+0u
+(
 8u
 -
 static_cast
@@ -5556,9 +5557,9 @@ size_t
 (
 numComponents
 )
+)
 *
 2u
-0u
 )
 ;
 return
