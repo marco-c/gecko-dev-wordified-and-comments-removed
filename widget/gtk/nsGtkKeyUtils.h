@@ -171,15 +171,6 @@ aGdkKeyEvent
 )
 ;
 static
-bool
-IsKeyPressEventNecessary
-(
-GdkEventKey
-*
-aGdkKeyEvent
-)
-;
-static
 void
 Shutdown
 (

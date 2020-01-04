@@ -309,6 +309,13 @@ nsBaseWidget
 {
 public
 :
+typedef
+mozilla
+:
+:
+WidgetEventTime
+WidgetEventTime
+;
 nsWindow
 (
 )
@@ -1327,6 +1334,13 @@ aEvent
 bool
 *
 aIsCancelled
+)
+;
+WidgetEventTime
+GetWidgetEventTime
+(
+guint32
+aEventTime
 )
 ;
 mozilla
