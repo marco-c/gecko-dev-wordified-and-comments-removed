@@ -1088,7 +1088,7 @@ eMutationEventClass
 NON_IDL_EVENT
 (
 DOMCharacterDataModified
-NS_MUTATION_CHARACTERDATAMODIFIED
+eLegacyCharacterDataModified
 EventNameType_HTMLXUL
 eMutationEventClass
 )

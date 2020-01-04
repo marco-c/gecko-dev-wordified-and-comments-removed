@@ -1747,7 +1747,7 @@ InternalMutationEvent
 mutation
 (
 true
-NS_MUTATION_CHARACTERDATAMODIFIED
+eLegacyCharacterDataModified
 )
 ;
 mutation
