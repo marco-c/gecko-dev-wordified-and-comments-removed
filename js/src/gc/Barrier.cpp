@@ -996,6 +996,14 @@ ScopeObject
 *
 >
 ;
+template
+struct
+MovableCellHasher
+<
+JSScript
+*
+>
+;
 }
 JS_PUBLIC_API
 (
