@@ -71,6 +71,15 @@ extensions
 /
 schemas
 /
+alarms
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 cookies
 .
 json
