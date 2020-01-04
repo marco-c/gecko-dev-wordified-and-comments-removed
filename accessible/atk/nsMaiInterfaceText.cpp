@@ -3258,8 +3258,6 @@ aText
 )
 )
 {
-if
-(
 proxy
 -
 >
@@ -3267,12 +3265,10 @@ SetCaretOffset
 (
 aOffset
 )
-)
-{
+;
 return
 TRUE
 ;
-}
 }
 return
 FALSE
