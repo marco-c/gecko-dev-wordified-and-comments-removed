@@ -1211,9 +1211,6 @@ path
 }
 else
 {
-nsAutoCString
-spec
-;
 rv
 =
 uri
