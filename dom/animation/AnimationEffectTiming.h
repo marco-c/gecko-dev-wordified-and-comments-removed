@@ -120,11 +120,6 @@ aRv
 ;
 private
 :
-void
-NotifyTimingUpdate
-(
-)
-;
 KeyframeEffect
 *
 MOZ_NON_OWNING_REF
