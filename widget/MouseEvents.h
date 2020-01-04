@@ -1415,6 +1415,10 @@ customizedByUserPrefs
 (
 false
 )
+mayHaveMomentum
+(
+false
+)
 isMomentum
 (
 false
@@ -1556,6 +1560,9 @@ deltaMode
 ;
 bool
 customizedByUserPrefs
+;
+bool
+mayHaveMomentum
 ;
 bool
 isMomentum
@@ -1732,6 +1739,12 @@ customizedByUserPrefs
 aEvent
 .
 customizedByUserPrefs
+;
+mayHaveMomentum
+=
+aEvent
+.
+mayHaveMomentum
 ;
 isMomentum
 =

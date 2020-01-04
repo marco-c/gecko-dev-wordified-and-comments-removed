@@ -1222,6 +1222,10 @@ mUserDeltaMultiplierY
 .
 0
 )
+mMayHaveMomentum
+(
+false
+)
 mIsMomentum
 (
 false
@@ -1296,6 +1300,9 @@ mUserDeltaMultiplierX
 ;
 double
 mUserDeltaMultiplierY
+;
+bool
+mMayHaveMomentum
 ;
 bool
 mIsMomentum
