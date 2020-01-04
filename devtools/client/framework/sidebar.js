@@ -472,7 +472,7 @@ _allTabsBtn
 setAttribute
 (
 "
-right
+end
 "
 "
 0
