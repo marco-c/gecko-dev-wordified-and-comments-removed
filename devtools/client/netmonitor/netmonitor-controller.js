@@ -1229,6 +1229,16 @@ defer
 (
 )
 ;
+if
+(
+!
+this
+.
+isConnected
+(
+)
+)
+{
 yield
 this
 .
@@ -1236,6 +1246,7 @@ _connection
 .
 promise
 ;
+}
 this
 .
 tabClient
