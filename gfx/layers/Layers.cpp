@@ -10251,11 +10251,9 @@ get
 }
 if
 (
-GetContentFlags
+IsOpaque
 (
 )
-&
-CONTENT_OPAQUE
 )
 {
 aStream

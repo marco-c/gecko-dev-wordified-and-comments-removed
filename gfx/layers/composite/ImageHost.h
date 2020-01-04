@@ -558,6 +558,11 @@ BIAS_NEGATIVE
 BIAS_POSITIVE
 }
 ;
+bool
+IsOpaque
+(
+)
+;
 protected
 :
 struct

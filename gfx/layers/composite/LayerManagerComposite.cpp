@@ -1697,14 +1697,9 @@ if
 aLayer
 -
 >
-GetContentFlags
+IsOpaque
 (
 )
-&
-Layer
-:
-:
-CONTENT_OPAQUE
 )
 {
 localOpaque
