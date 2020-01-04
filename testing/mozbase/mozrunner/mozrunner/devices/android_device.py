@@ -3058,34 +3058,26 @@ remove
 ini_file
 )
             
-url
+path
 =
-'
-%
-s
-/
-%
-s
-'
-%
-(
-TRY_URL
 self
 .
 avd_info
 .
 tooltool_manifest
-)
             
-_download_file
+_get_tooltool_manifest
 (
-url
+self
+.
+substs
+path
+EMULATOR_HOME_DIR
 '
 releng
 .
 manifest
 '
-EMULATOR_HOME_DIR
 )
             
 _tooltool_fetch
