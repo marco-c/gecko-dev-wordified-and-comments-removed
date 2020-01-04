@@ -738,6 +738,17 @@ aNewPluginEpoch
 )
 override
 ;
+virtual
+bool
+RecvUngrabPointer
+(
+const
+uint32_t
+&
+aTime
+)
+override
+;
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
 ContentParent
