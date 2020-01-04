@@ -3644,13 +3644,13 @@ loadWasmGlobalPtr
 (
 fi
 .
-exitGlobalDataOffset
+tlsDataOffset
 (
 )
 +
 offsetof
 (
-FuncImportExit
+FuncImportTls
 fun
 )
 callee

@@ -87,9 +87,9 @@ sigId
 )
 const
 ;
-FuncImportExit
+FuncImportTls
 &
-funcImportToExit
+funcImportTls
 (
 const
 FuncImport
