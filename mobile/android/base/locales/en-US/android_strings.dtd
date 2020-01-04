@@ -3716,6 +3716,14 @@ PDF
 <
 !
 ENTITY
+print
+"
+Print
+"
+>
+<
+!
+ENTITY
 find_in_page
 "
 Find

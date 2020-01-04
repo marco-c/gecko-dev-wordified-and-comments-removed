@@ -2870,6 +2870,11 @@ PrefsHelper
 java
 '
 '
+PrintHelper
+.
+java
+'
+'
 PrivateTab
 .
 java
