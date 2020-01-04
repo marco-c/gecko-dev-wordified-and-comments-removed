@@ -1187,8 +1187,9 @@ kwargs
 extraProfileFiles
 "
 ]
-=
-[
+.
+append
+(
 os
 .
 path
@@ -1205,7 +1206,7 @@ dist
 plugins
 "
 )
-]
+)
         
 kwargs
 [
