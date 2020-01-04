@@ -8879,9 +8879,6 @@ if
 clientLayers
 &
 &
-mCompositorBridgeParent
-&
-&
 clientLayers
 -
 >
@@ -8890,10 +8887,10 @@ NeedsComposite
 )
 )
 {
-mCompositorBridgeParent
+clientLayers
 -
 >
-ScheduleRenderOnCompositorThread
+Composite
 (
 )
 ;
