@@ -450,6 +450,9 @@ test
 changing
 char
 pref
+using
+the
+Promise
 is
 (
 SpecialPowers
@@ -559,6 +562,10 @@ test2
 ]
 ]
 }
+)
+.
+then
+(
 test4
 )
 ;
@@ -1296,6 +1303,10 @@ throw
 SpecialPowers
 .
 flushPrefEnv
+(
+)
+.
+then
 (
 test8
 )
