@@ -81,6 +81,9 @@ IMPORT_SETTINGS
 Restrictable
 .
 BLOCK_LIST
+Restrictable
+.
+DATA_CHOICES
 )
 ;
 SuppressWarnings
