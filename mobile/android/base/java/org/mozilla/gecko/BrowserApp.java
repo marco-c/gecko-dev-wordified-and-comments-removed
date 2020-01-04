@@ -1926,7 +1926,7 @@ mTabsPanel
 ;
 private
 ViewGroup
-mHomePagerContainer
+mHomeScreenContainer
 ;
 private
 ActionModeCompat
@@ -3838,7 +3838,7 @@ false
 }
 )
 ;
-mHomePagerContainer
+mHomeScreenContainer
 =
 (
 ViewGroup
@@ -3849,7 +3849,7 @@ R
 .
 id
 .
-home_pager_container
+home_screen_container
 )
 ;
 mBrowserSearchContainer
@@ -4302,7 +4302,7 @@ onRestoreInstanceState
 savedInstanceState
 )
 ;
-mHomePagerContainer
+mHomeScreenContainer
 .
 setPadding
 (
@@ -6345,7 +6345,7 @@ setToolbarMargin
 0
 )
 ;
-mHomePagerContainer
+mHomeScreenContainer
 .
 setPadding
 (
@@ -6382,7 +6382,7 @@ this
 )
 ;
 }
-mHomePagerContainer
+mHomeScreenContainer
 .
 setPadding
 (
@@ -8099,7 +8099,7 @@ isEnabled
 )
 )
 {
-mHomePagerContainer
+mHomeScreenContainer
 .
 setPadding
 (
@@ -11784,7 +11784,7 @@ outState
 putInt
 (
 STATE_ABOUT_HOME_TOP_PADDING
-mHomePagerContainer
+mHomeScreenContainer
 .
 getPaddingTop
 (
@@ -12157,13 +12157,13 @@ isVisible
 )
 &
 &
-mHomePagerContainer
+mHomeScreenContainer
 !
 =
 null
 &
 &
-mHomePagerContainer
+mHomeScreenContainer
 .
 getVisibility
 (
@@ -12197,13 +12197,13 @@ isVisible
 )
 &
 &
-mHomePagerContainer
+mHomeScreenContainer
 !
 =
 null
 &
 &
-mHomePagerContainer
+mHomeScreenContainer
 .
 getVisibility
 (
@@ -13739,7 +13739,7 @@ enterEditingMode
 )
 ;
 }
-mHomePagerContainer
+mHomeScreenContainer
 .
 setVisibility
 (
@@ -14047,7 +14047,7 @@ setBanner
 null
 )
 ;
-mHomePagerContainer
+mHomeScreenContainer
 .
 removeView
 (
@@ -14060,7 +14060,7 @@ homeBanner
 ;
 }
 }
-mHomePagerContainer
+mHomeScreenContainer
 .
 setVisibility
 (
@@ -14317,7 +14317,7 @@ View
 VISIBLE
 )
 ;
-mHomePagerContainer
+mHomeScreenContainer
 .
 setVisibility
 (
@@ -14446,7 +14446,7 @@ hideWebContent
 (
 )
 ;
-mHomePagerContainer
+mHomeScreenContainer
 .
 setVisibility
 (
