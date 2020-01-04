@@ -445,12 +445,6 @@ T
 )
 ;
 }
-int
-GetSysVID
-(
-)
-const
-;
 id_t
 Id
 (
