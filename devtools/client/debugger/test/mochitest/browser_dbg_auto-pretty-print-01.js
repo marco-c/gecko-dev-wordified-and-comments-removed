@@ -28,8 +28,10 @@ gOptions
 gView
 ;
 var
-gFirstSourceLabel
+gFirstSource
 =
+EXAMPLE_URL
++
 "
 code_ugly
 -
@@ -39,8 +41,10 @@ js
 "
 ;
 var
-gSecondSourceLabel
+gSecondSource
 =
+EXAMPLE_URL
++
 "
 code_ugly
 -
@@ -82,7 +86,7 @@ options
 {
 source
 :
-gFirstSourceLabel
+gFirstSource
 line
 :
 1
@@ -185,7 +189,7 @@ yield
 waitForSourceShown
 (
 gPanel
-gFirstSourceLabel
+gFirstSource
 )
 ;
 testSourceIsUgly
@@ -196,7 +200,7 @@ yield
 waitForSourceShown
 (
 gPanel
-gFirstSourceLabel
+gFirstSource
 )
 ;
 testSourceIsPretty
@@ -318,9 +322,7 @@ url
 =
 =
 =
-EXAMPLE_URL
-+
-gSecondSourceLabel
+gSecondSource
 "
 Second
 source
