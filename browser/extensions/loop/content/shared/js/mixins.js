@@ -1493,6 +1493,15 @@ error
 return
 ;
 }
+if
+(
+!
+blob
+)
+{
+return
+;
+}
 var
 url
 =
@@ -1610,6 +1619,9 @@ result
 {
 if
 (
+result
+&
+&
 result
 .
 isError
