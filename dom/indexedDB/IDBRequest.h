@@ -666,7 +666,7 @@ public
 IDBRequest
 {
 class
-WorkerFeature
+WorkerHolder
 ;
 RefPtr
 <
@@ -676,9 +676,9 @@ mFactory
 ;
 nsAutoPtr
 <
-WorkerFeature
+WorkerHolder
 >
-mWorkerFeature
+mWorkerHolder
 ;
 const
 bool

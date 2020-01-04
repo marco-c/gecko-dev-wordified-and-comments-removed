@@ -266,7 +266,7 @@ URL
 h
 '
 '
-WorkerFeature
+WorkerHolder
 .
 h
 '
@@ -457,6 +457,11 @@ cpp
 '
 '
 WorkerDebuggerManager
+.
+cpp
+'
+'
+WorkerHolder
 .
 cpp
 '

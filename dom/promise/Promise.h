@@ -141,7 +141,7 @@ workers
 /
 bindings
 /
-WorkerFeature
+WorkerHolder
 .
 h
 "
@@ -187,13 +187,13 @@ defined
 DOM_PROMISE_DEPRECATED_REPORTING
 )
 class
-PromiseReportRejectFeature
+PromiseReportRejectWorkerHolder
 :
 public
 workers
 :
 :
-WorkerFeature
+WorkerHolder
 {
 Promise
 *
@@ -203,7 +203,7 @@ mPromise
 public
 :
 explicit
-PromiseReportRejectFeature
+PromiseReportRejectWorkerHolder
 (
 Promise
 *
@@ -299,7 +299,7 @@ DOM_PROMISE_DEPRECATED_REPORTING
 )
 friend
 class
-PromiseReportRejectFeature
+PromiseReportRejectWorkerHolder
 ;
 #
 endif
@@ -1571,7 +1571,7 @@ MaybeReportRejected
 (
 )
 ;
-RemoveFeature
+RemoveWorkerHolder
 (
 )
 ;
@@ -1869,7 +1869,7 @@ defined
 DOM_PROMISE_DEPRECATED_REPORTING
 )
 void
-RemoveFeature
+RemoveWorkerHolder
 (
 )
 ;
@@ -1986,9 +1986,9 @@ mHadRejectCallback
 ;
 nsAutoPtr
 <
-PromiseReportRejectFeature
+PromiseReportRejectWorkerHolder
 >
-mFeature
+mWorkerHolder
 ;
 #
 endif
