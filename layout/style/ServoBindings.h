@@ -909,6 +909,17 @@ RawServoStyleSet
 set
 )
 ;
+void
+Servo_RestyleSubtree
+(
+RawGeckoNode
+*
+node
+RawServoStyleSet
+*
+set
+)
+;
 #
 define
 STYLE_STRUCT

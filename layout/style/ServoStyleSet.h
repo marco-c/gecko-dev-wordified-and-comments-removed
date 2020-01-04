@@ -475,6 +475,14 @@ EventStates
 aStateMask
 )
 ;
+void
+RestyleSubtree
+(
+nsINode
+*
+aNode
+)
+;
 private
 :
 already_AddRefed
