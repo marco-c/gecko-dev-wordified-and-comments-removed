@@ -406,14 +406,6 @@ assertEqual
 y_offset
 )
     
-skip
-(
-"
-Bug
-1003688
-"
-)
-    
 def
 test_should_not_scroll_if_already_scrolled_and_element_is_in_view
 (
