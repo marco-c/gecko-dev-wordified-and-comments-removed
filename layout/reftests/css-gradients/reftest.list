@@ -3409,6 +3409,9 @@ azureSkiaGL
 |
 |
 skiaContent
+&
+&
+layersGPUAccelerated
 8
 20000
 )
@@ -3870,6 +3873,15 @@ if
 (
 !
 d2d
+&
+&
+!
+(
+skiaContent
+&
+&
+winWidget
+)
 )
 fuzzy
 -

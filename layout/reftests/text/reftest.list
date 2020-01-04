@@ -553,6 +553,9 @@ winWidget
 &
 &
 skiaContent
+&
+&
+layersGPUAccelerated
 )
 )
 HTTP
