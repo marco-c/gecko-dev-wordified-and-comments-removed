@@ -900,11 +900,10 @@ Lookup
 Lookup
 ;
 typedef
-PointerHasher
+MovableCellHasher
 <
 SavedFrame
 *
-3
 >
 SavedFramePtrHasher
 ;
