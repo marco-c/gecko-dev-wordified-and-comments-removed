@@ -11677,8 +11677,14 @@ STATE_TRANSFERRING
 ;
 if
 (
+(
 aStateFlags
 &
+transferStart
+)
+=
+=
+=
 transferStart
 )
 this
