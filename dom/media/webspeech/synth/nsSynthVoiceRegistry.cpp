@@ -3753,6 +3753,14 @@ MediaStreamGraph
 :
 GetInstance
 (
+MediaStreamGraph
+:
+:
+AUDIO_THREAD_DRIVER
+AudioChannel
+:
+:
+Normal
 )
 -
 >

@@ -517,10 +517,10 @@ aStream
 {
 mStream
 =
-MediaStreamGraph
-:
-:
-GetInstance
+aStream
+-
+>
+Graph
 (
 )
 -
