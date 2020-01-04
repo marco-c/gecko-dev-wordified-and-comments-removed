@@ -661,6 +661,7 @@ Exposed
 (
 Window
 Worker
+WorkerDebugger
 System
 )
 ]
