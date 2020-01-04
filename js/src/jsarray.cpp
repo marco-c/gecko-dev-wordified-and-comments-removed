@@ -14399,8 +14399,10 @@ toObject
 )
 ;
 }
-static
 bool
+js
+:
+:
 array_isArray
 (
 JSContext

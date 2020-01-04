@@ -3757,6 +3757,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineArrayIsArray
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineArrayPopShift
 (
 CallInfo
