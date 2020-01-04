@@ -59,6 +59,9 @@ class
 MP4MetadataStagefright
 ;
 class
+MP4MetadataRust
+;
+class
 MP4Metadata
 {
 public
@@ -180,6 +183,17 @@ MP4MetadataStagefright
 >
 mStagefright
 ;
+#
+ifdef
+MOZ_RUST_MP4PARSE
+UniquePtr
+<
+MP4MetadataRust
+>
+mRust
+;
+#
+endif
 }
 ;
 }
