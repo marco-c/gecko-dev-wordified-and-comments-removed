@@ -5081,6 +5081,7 @@ devinfo
 sizeof
 (
 cubeb_device_info
+*
 )
 *
 list_data
