@@ -13,6 +13,13 @@ CameraCommon
 h
 "
 #
+include
+"
+MediaStreamListener
+.
+h
+"
+#
 define
 MAX_INVALIDATE_PENDING
 4
@@ -318,7 +325,7 @@ listener
 NotifyEvent
 (
 mFakeMediaStreamGraph
-MediaStreamListener
+MediaStreamGraphEvent
 :
 :
 EVENT_REMOVED
@@ -396,7 +403,7 @@ NotifyQueuedTrackChanges
 mFakeMediaStreamGraph
 TRACK_VIDEO
 0
-MediaStreamListener
+TrackEventCommand
 :
 :
 TRACK_EVENT_CREATED

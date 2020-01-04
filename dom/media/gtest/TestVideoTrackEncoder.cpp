@@ -45,6 +45,13 @@ h
 #
 include
 "
+MediaStreamListener
+.
+h
+"
+#
+include
+"
 WebMWriter
 .
 h
@@ -1452,7 +1459,7 @@ NotifyQueuedTrackChanges
 nullptr
 0
 0
-MediaStreamListener
+TrackEventCommand
 :
 :
 TRACK_EVENT_ENDED

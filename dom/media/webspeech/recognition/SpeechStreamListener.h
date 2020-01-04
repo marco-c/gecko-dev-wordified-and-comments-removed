@@ -14,6 +14,13 @@ h
 #
 include
 "
+MediaStreamListener
+.
+h
+"
+#
+include
+"
 AudioSegment
 .
 h
@@ -79,9 +86,6 @@ NotifyEvent
 MediaStreamGraph
 *
 aGraph
-MediaStreamListener
-:
-:
 MediaStreamGraphEvent
 event
 )

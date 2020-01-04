@@ -445,7 +445,7 @@ TrackID
 aID
 StreamTime
 aTrackOffset
-uint32_t
+TrackEventCommand
 aTrackEvents
 const
 MediaSegment
@@ -463,6 +463,9 @@ if
 (
 aTrackEvents
 &
+TrackEventCommand
+:
+:
 TRACK_EVENT_CREATED
 )
 {

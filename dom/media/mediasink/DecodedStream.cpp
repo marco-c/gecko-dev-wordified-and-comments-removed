@@ -65,6 +65,13 @@ h
 #
 include
 "
+MediaStreamListener
+.
+h
+"
+#
+include
+"
 OutputStreamManager
 .
 h
@@ -110,13 +117,6 @@ DecodedStreamGraphListener
 public
 MediaStreamListener
 {
-typedef
-MediaStreamListener
-:
-:
-MediaStreamGraphEvent
-MediaStreamGraphEvent
-;
 public
 :
 DecodedStreamGraphListener
@@ -226,6 +226,9 @@ if
 event
 =
 =
+MediaStreamGraphEvent
+:
+:
 EVENT_FINISHED
 )
 {

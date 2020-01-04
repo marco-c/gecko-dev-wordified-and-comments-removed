@@ -37,6 +37,13 @@ h
 #
 include
 "
+MediaStreamListener
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
@@ -238,7 +245,7 @@ TrackID
 aID
 StreamTime
 aTrackOffset
-uint32_t
+TrackEventCommand
 aTrackEvents
 const
 MediaSegment
@@ -280,9 +287,6 @@ NotifyEvent
 MediaStreamGraph
 *
 aGraph
-MediaStreamListener
-:
-:
 MediaStreamGraphEvent
 event
 )

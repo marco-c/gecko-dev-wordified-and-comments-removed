@@ -8,6 +8,13 @@ h
 #
 include
 "
+MediaStreamListener
+.
+h
+"
+#
+include
+"
 mozilla
 /
 MathAlgorithms
@@ -1309,7 +1316,7 @@ Graph
 )
 id
 outputStart
-MediaStreamListener
+TrackEventCommand
 :
 :
 TRACK_EVENT_CREATED
@@ -1834,7 +1841,7 @@ GetID
 (
 )
 offset
-MediaStreamListener
+TrackEventCommand
 :
 :
 TRACK_EVENT_ENDED
@@ -2430,7 +2437,10 @@ GetID
 (
 )
 outputStart
-0
+TrackEventCommand
+:
+:
+TRACK_EVENT_NONE
 *
 segment
 map

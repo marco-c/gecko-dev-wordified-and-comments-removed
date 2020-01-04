@@ -22,6 +22,13 @@ h
 #
 include
 "
+MediaStreamListener
+.
+h
+"
+#
+include
+"
 nsSpeechTask
 .
 h
@@ -30,6 +37,13 @@ h
 include
 "
 nsSynthVoiceRegistry
+.
+h
+"
+#
+include
+"
+SharedBuffer
 .
 h
 "
@@ -175,9 +189,6 @@ NotifyEvent
 MediaStreamGraph
 *
 aGraph
-MediaStreamListener
-:
-:
 MediaStreamGraphEvent
 event
 )
@@ -189,6 +200,9 @@ event
 )
 {
 case
+MediaStreamGraphEvent
+:
+:
 EVENT_FINISHED
 :
 {
@@ -263,6 +277,9 @@ forget
 break
 ;
 case
+MediaStreamGraphEvent
+:
+:
 EVENT_REMOVED
 :
 mSpeechTask

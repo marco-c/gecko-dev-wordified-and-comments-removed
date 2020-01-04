@@ -626,7 +626,16 @@ NotifyQueuedTrackChanges
 nullptr
 0
 0
+static_cast
+<
+mozilla
+:
+:
+TrackEventCommand
+>
+(
 0
+)
 segment
 nullptr
 -

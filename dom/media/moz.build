@@ -693,6 +693,11 @@ MediaStreamGraph
 h
 '
 '
+MediaStreamListener
+.
+h
+'
+'
 MediaTimer
 .
 h
@@ -1211,6 +1216,11 @@ cpp
 '
 '
 MediaStreamGraph
+.
+cpp
+'
+'
+MediaStreamListener
 .
 cpp
 '
