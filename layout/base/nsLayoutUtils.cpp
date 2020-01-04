@@ -4364,11 +4364,7 @@ frame
 )
 ;
 return
-ApplyRectMultiplier
-(
 base
-aMultiplier
-)
 ;
 }
 bool
@@ -4420,11 +4416,7 @@ frame
 )
 {
 return
-ApplyRectMultiplier
-(
 base
-aMultiplier
-)
 ;
 }
 isRoot
