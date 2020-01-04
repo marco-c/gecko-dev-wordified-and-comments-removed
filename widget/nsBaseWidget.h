@@ -2103,6 +2103,12 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
+void
+*
+GetPseudoIMEContext
+(
+)
+;
 protected
 :
 bool
