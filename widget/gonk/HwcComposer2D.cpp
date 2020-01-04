@@ -748,14 +748,6 @@ RegisterHwcEventCallback
 (
 cHWCProcs
 )
-&
-&
-gfxPrefs
-:
-:
-HardwareVsyncEnabled
-(
-)
 ;
 return
 mHasHWVsync

@@ -4135,16 +4135,6 @@ CreateCompositorVsyncDispatcher
 {
 if
 (
-gfxPrefs
-:
-:
-HardwareVsyncEnabled
-(
-)
-)
-{
-if
-(
 XRE_IsParentProcess
 (
 )
@@ -4157,7 +4147,6 @@ CompositorVsyncDispatcher
 (
 )
 ;
-}
 }
 }
 CompositorVsyncDispatcher

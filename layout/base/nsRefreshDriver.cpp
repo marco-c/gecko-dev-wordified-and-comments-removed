@@ -2676,15 +2676,6 @@ VsyncAlignedRefreshDriver
 )
 |
 |
-!
-gfxPrefs
-:
-:
-HardwareVsyncEnabled
-(
-)
-|
-|
 gfxPlatform
 :
 :
