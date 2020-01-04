@@ -67,14 +67,6 @@ DebuggerView
 .
 Sources
 ;
-gBreakpoints
-=
-gDebugger
-.
-DebuggerController
-.
-Breakpoints
-;
 gTarget
 =
 gDebugger
