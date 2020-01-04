@@ -6181,6 +6181,11 @@ nodes
 [
 0
 ]
+"
+node
+-
+inserted
+"
 )
 ;
 }
