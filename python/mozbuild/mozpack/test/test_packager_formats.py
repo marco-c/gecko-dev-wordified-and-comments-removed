@@ -2165,8 +2165,16 @@ platform
 ini
 '
 )
+                         
+(
 '
 '
+'
+platform
+.
+ini
+'
+)
 )
         
 self
@@ -2186,9 +2194,16 @@ ini
 '
 )
                          
+(
 '
 browser
 '
+'
+application
+.
+ini
+'
+)
 )
         
 self
@@ -2208,9 +2223,16 @@ ini
 '
 )
                          
+(
 '
 webapprt
 '
+'
+webapprt
+.
+ini
+'
+)
 )
         
 self
@@ -2230,9 +2252,16 @@ rdf
 '
 )
                          
+(
 '
 addon0
 '
+'
+install
+.
+rdf
+'
+)
 )
     
 def
