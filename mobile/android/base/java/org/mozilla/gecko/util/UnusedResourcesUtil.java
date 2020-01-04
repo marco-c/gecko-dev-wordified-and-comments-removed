@@ -81,16 +81,6 @@ R
 .
 drawable
 .
-alert_app
-R
-.
-drawable
-.
-alert_app_animation
-R
-.
-drawable
-.
 alert_camera
 R
 .
