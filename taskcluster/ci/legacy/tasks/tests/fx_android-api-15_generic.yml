@@ -10,7 +10,7 @@ tasks
 /
 tests
 /
-fx_docker_desktop_generic
+fx_docker_android_generic
 .
 yml
 '
@@ -197,9 +197,6 @@ get
 -
 secrets
 '
-MOZ_NODE_PATH
-:
-None
 features
 :
 relengAPIProxy
