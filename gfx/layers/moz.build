@@ -699,6 +699,11 @@ InputAPZContext
 h
 '
 '
+AsyncCanvasRenderer
+.
+h
+'
+'
 AtomicRefCountedWithFinalize
 .
 h
@@ -1639,6 +1644,11 @@ apz
 util
 /
 InputAPZContext
+.
+cpp
+'
+'
+AsyncCanvasRenderer
 .
 cpp
 '
