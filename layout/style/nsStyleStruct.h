@@ -838,7 +838,6 @@ aContext
 ~
 nsStyleFont
 (
-void
 )
 {
 MOZ_COUNT_DTOR
@@ -1657,7 +1656,6 @@ aOther
 ~
 nsStyleColor
 (
-void
 )
 {
 MOZ_COUNT_DTOR
@@ -3231,7 +3229,6 @@ aMargin
 ~
 nsStyleMargin
 (
-void
 )
 {
 MOZ_COUNT_DTOR
@@ -3411,7 +3408,6 @@ aPadding
 ~
 nsStylePadding
 (
-void
 )
 {
 MOZ_COUNT_DTOR
@@ -5333,7 +5329,6 @@ aOutline
 ~
 nsStyleOutline
 (
-void
 )
 {
 MOZ_COUNT_DTOR
@@ -5500,7 +5495,6 @@ mCachedOutlineWidth
 uint8_t
 GetOutlineStyle
 (
-void
 )
 const
 {
@@ -5688,7 +5682,6 @@ aStyleList
 ~
 nsStyleList
 (
-void
 )
 ;
 void
@@ -6505,7 +6498,6 @@ aOther
 ~
 nsStylePosition
 (
-void
 )
 ;
 void
@@ -7521,7 +7513,6 @@ aOther
 ~
 nsStyleTextReset
 (
-void
 )
 ;
 void
@@ -7859,7 +7850,6 @@ aOther
 ~
 nsStyleText
 (
-void
 )
 ;
 void
@@ -11100,7 +11090,6 @@ aOther
 ~
 nsStyleTable
 (
-void
 )
 ;
 void
@@ -11250,7 +11239,6 @@ aOther
 ~
 nsStyleTableBorder
 (
-void
 )
 ;
 void
@@ -11663,7 +11651,6 @@ aContent
 ~
 nsStyleContent
 (
-void
 )
 ;
 void
@@ -11760,7 +11747,6 @@ nsChangeHint_ClearAncestorIntrinsics
 uint32_t
 ContentCount
 (
-void
 )
 const
 {
@@ -11834,7 +11820,6 @@ aCount
 uint32_t
 CounterIncrementCount
 (
-void
 )
 const
 {
@@ -11978,7 +11963,6 @@ NS_ERROR_ILLEGAL_VALUE
 uint32_t
 CounterResetCount
 (
-void
 )
 const
 {
@@ -12169,7 +12153,6 @@ aOther
 ~
 nsStyleUIReset
 (
-void
 )
 ;
 void
@@ -12422,7 +12405,6 @@ aOther
 ~
 nsStyleUserInterface
 (
-void
 )
 ;
 void
