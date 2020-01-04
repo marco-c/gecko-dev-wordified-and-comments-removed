@@ -3118,6 +3118,14 @@ sDocumentColorsSetting
 =
 =
 1
+|
+|
+mDocument
+-
+>
+IsBeingUsedAsImage
+(
+)
 )
 {
 mUseDocumentColors
