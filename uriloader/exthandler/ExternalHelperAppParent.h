@@ -260,12 +260,14 @@ mURI
 bool
 mPending
 ;
-DebugOnly
-<
+#
+ifdef
+DEBUG
 bool
->
 mDiverted
 ;
+#
+endif
 bool
 mIPCClosed
 ;
