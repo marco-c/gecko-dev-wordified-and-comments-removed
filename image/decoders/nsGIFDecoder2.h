@@ -54,6 +54,8 @@ nsGIFDecoder2
 (
 )
 ;
+protected
+:
 LexerResult
 DoDecode
 (
@@ -72,14 +74,17 @@ FinishInternal
 )
 override
 ;
-virtual
+Maybe
+<
 Telemetry
 :
 :
 ID
+>
 SpeedHistogram
 (
 )
+const
 override
 ;
 private
