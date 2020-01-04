@@ -92,7 +92,7 @@ multi_monitor_screenshare
 %
 '
 :
-0
+1
 }
 '
 targets
