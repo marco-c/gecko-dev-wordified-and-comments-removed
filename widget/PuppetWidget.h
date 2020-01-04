@@ -665,6 +665,15 @@ LAYER_MANAGER_CURRENT
 )
 override
 ;
+LayerManager
+*
+RecreateLayerManager
+(
+PLayerTransactionChild
+*
+aShadowManager
+)
+;
 NS_IMETHOD_
 (
 void

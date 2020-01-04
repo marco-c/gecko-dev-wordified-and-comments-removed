@@ -2328,6 +2328,12 @@ uint64_t
 aLayersId
 )
 ;
+bool
+RecvEnsureLayersConnected
+(
+)
+override
+;
 protected
 :
 bool
