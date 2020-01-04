@@ -72,6 +72,15 @@ mozilla
 .
 gecko
 .
+Locales
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 sync
 .
 ExtendedJSONObject
@@ -1522,7 +1531,7 @@ addHeader
 HttpHeaders
 .
 ACCEPT_LANGUAGE
-Utils
+Locales
 .
 getLanguageTag
 (
