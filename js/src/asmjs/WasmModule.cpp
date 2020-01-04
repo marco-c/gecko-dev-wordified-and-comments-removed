@@ -1525,6 +1525,8 @@ initialHeapLength
 metadata_
 -
 >
+assumptions
+.
 usesSignal
 .
 forOOB

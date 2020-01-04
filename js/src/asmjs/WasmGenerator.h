@@ -192,9 +192,8 @@ begin
 explicit
 ModuleGeneratorData
 (
-ExclusiveContext
-*
-cx
+SignalUsage
+usesSignal
 ModuleKind
 kind
 =
@@ -210,7 +209,7 @@ kind
 )
 usesSignal
 (
-cx
+usesSignal
 )
 minHeapLength
 (
@@ -437,6 +436,10 @@ UniqueModuleGeneratorData
 shared
 UniqueChars
 filename
+Assumptions
+&
+&
+assumptions
 Metadata
 *
 maybeMetadata
@@ -473,6 +476,8 @@ return
 metadata_
 -
 >
+assumptions
+.
 usesSignal
 ;
 }

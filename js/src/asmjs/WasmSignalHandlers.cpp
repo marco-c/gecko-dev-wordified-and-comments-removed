@@ -4745,6 +4745,8 @@ metadata
 (
 )
 .
+assumptions
+.
 usesSignal
 .
 forOOB
