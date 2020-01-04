@@ -88,6 +88,7 @@ DevToolsUtils
 ;
 var
 {
+assert
 dbg_assert
 }
 =
@@ -2880,7 +2881,7 @@ BTA_form
 (
 )
 {
-dbg_assert
+assert
 (
 !
 this
@@ -2903,7 +2904,7 @@ actor
 "
 )
 ;
-dbg_assert
+assert
 (
 this
 .
@@ -3308,7 +3309,7 @@ _attached
 return
 ;
 }
-dbg_assert
+assert
 (
 !
 this
@@ -4437,7 +4438,7 @@ BTA_pushContext
 (
 )
 {
-dbg_assert
+assert
 (
 !
 this
@@ -4508,7 +4509,7 @@ BTA_popContext
 (
 )
 {
-dbg_assert
+assert
 (
 !
 !
