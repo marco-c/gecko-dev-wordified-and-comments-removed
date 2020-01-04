@@ -260,6 +260,13 @@ uint32_t
 level
 )
 ;
+void
+AnnotateTexturesSize
+(
+size_t
+size
+)
+;
 nsresult
 SetRestartArgs
 (
