@@ -23841,7 +23841,7 @@ if
 !
 emitCall
 (
-JSOP_CALL
+JSOP_CALLITER
 0
 )
 )
@@ -23850,7 +23850,7 @@ false
 ;
 checkTypeSet
 (
-JSOP_CALL
+JSOP_CALLITER
 )
 ;
 return

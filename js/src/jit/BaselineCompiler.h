@@ -802,6 +802,11 @@ JSOP_CALL
 \
 _
 (
+JSOP_CALLITER
+)
+\
+_
+(
 JSOP_FUNCALL
 )
 \
