@@ -249,7 +249,7 @@ rx
 d3d11
 :
 :
-TextureFormat
+Format
 &
 formatInfo
 =
@@ -259,7 +259,10 @@ rx
 d3d11
 :
 :
-GetTextureFormatInfo
+Format
+:
+:
+Get
 (
 internalFormat
 renderer
@@ -359,9 +362,6 @@ CheckFormatSupport
 (
 formatInfo
 .
-formatSet
--
->
 texFormat
 &
 texSupport
@@ -408,9 +408,6 @@ CheckFormatSupport
 (
 formatInfo
 .
-formatSet
--
->
 srvFormat
 &
 filterSupport
@@ -477,9 +474,6 @@ renderFormat
 =
 formatInfo
 .
-formatSet
--
->
 dsvFormat
 ;
 bool
@@ -494,9 +488,6 @@ CheckFormatSupport
 (
 formatInfo
 .
-formatSet
--
->
 dsvFormat
 &
 renderSupport
@@ -529,9 +520,6 @@ EXPECT_NE
 DXGI_FORMAT_UNKNOWN
 formatInfo
 .
-formatSet
--
->
 dsvFormat
 )
 ;
@@ -543,9 +531,6 @@ renderFormat
 =
 formatInfo
 .
-formatSet
--
->
 rtvFormat
 ;
 bool
@@ -560,9 +545,6 @@ CheckFormatSupport
 (
 formatInfo
 .
-formatSet
--
->
 rtvFormat
 &
 renderSupport
@@ -595,9 +577,6 @@ EXPECT_NE
 DXGI_FORMAT_UNKNOWN
 formatInfo
 .
-formatSet
--
->
 rtvFormat
 )
 ;

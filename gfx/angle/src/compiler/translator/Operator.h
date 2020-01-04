@@ -179,5 +179,12 @@ TOperator
 op
 )
 ;
+bool
+IsAssignment
+(
+TOperator
+op
+)
+;
 #
 endif

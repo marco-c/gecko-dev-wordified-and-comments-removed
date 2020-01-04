@@ -51,7 +51,7 @@ IWindowSizeChangedEventHandler
 namespace
 rx
 {
-long
+float
 ConvertDipsToPixels
 (
 float
@@ -122,7 +122,7 @@ HRESULT
 scaleSwapChain
 (
 const
-SIZE
+Size
 &
 windowSize
 const
@@ -342,7 +342,7 @@ windowSize
 )
 )
 {
-SIZE
+Size
 windowSizeInPixels
 =
 {
@@ -409,7 +409,7 @@ ICoreWindow
 >
 &
 coreWindow
-SIZE
+Size
 *
 windowSize
 )

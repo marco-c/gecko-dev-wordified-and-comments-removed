@@ -108,7 +108,6 @@ directiveParser
 &
 macroSet
 diag
-false
 )
 {
 }

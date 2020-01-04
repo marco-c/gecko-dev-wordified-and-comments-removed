@@ -31,6 +31,15 @@ gl3
 .
 h
 >
+#
+include
+<
+GLES3
+/
+gl31
+.
+h
+>
 namespace
 egl
 {
@@ -46,6 +55,9 @@ gl
 {
 class
 Context
+;
+struct
+Format
 ;
 class
 Program
@@ -674,9 +686,9 @@ GLsizei
 height
 GLint
 border
-GLenum
+Format
 *
-textureInternalFormatOut
+textureFormatOut
 )
 ;
 bool

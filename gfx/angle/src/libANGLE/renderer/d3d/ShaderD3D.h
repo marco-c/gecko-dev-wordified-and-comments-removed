@@ -35,6 +35,9 @@ D3DCompilerWorkarounds
 struct
 D3DUniform
 ;
+struct
+WorkaroundsD3D
+;
 class
 ShaderD3D
 :
@@ -52,6 +55,10 @@ gl
 ShaderState
 &
 data
+const
+WorkaroundsD3D
+&
+workarounds
 )
 ;
 virtual
@@ -348,6 +355,9 @@ unsigned
 int
 >
 mInterfaceBlockRegisterMap
+;
+int
+mAdditionalOptions
 ;
 }
 ;

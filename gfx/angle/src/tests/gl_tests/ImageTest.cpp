@@ -3035,7 +3035,7 @@ EGL_KHR_gl_texture_3D_image
 )
 &
 &
-getClientVersion
+getClientMajorVersion
 (
 )
 >
@@ -3242,7 +3242,7 @@ EGL_BAD_PARAMETER
 }
 if
 (
-getClientVersion
+getClientMajorVersion
 (
 )
 >
@@ -4056,7 +4056,7 @@ return
 }
 ASSERT_GE
 (
-getClientVersion
+getClientMajorVersion
 (
 )
 3
@@ -5769,7 +5769,7 @@ return
 }
 if
 (
-getClientVersion
+getClientMajorVersion
 (
 )
 <
@@ -6011,7 +6011,7 @@ return
 }
 if
 (
-getClientVersion
+getClientMajorVersion
 (
 )
 <
@@ -6263,7 +6263,7 @@ return
 }
 if
 (
-getClientVersion
+getClientMajorVersion
 (
 )
 <
@@ -6517,7 +6517,7 @@ return
 }
 if
 (
-getClientVersion
+getClientMajorVersion
 (
 )
 <
