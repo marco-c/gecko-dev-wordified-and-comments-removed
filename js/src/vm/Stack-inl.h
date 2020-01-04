@@ -1173,7 +1173,7 @@ fun
 )
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 )
@@ -1202,7 +1202,7 @@ fun
 )
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 )

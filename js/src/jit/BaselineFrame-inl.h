@@ -420,7 +420,7 @@ fun
 )
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 )

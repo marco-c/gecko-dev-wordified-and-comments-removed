@@ -6544,7 +6544,7 @@ if
 fun
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 &

@@ -453,7 +453,7 @@ atom_
 public
 :
 bool
-isHeavyweight
+needsCallObject
 (
 )
 const

@@ -10728,7 +10728,7 @@ if
 fun
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 )
@@ -10736,7 +10736,7 @@ Sprint
 (
 sp
 "
-HEAVYWEIGHT
+NEEDS_CALLOBJECT
 "
 )
 ;

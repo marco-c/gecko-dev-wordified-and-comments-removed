@@ -1496,7 +1496,7 @@ fun
 )
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 &
@@ -1765,7 +1765,7 @@ fun
 )
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 )
@@ -6419,7 +6419,7 @@ calleeTemplate
 )
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 )

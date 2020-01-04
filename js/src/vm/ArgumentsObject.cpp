@@ -215,7 +215,7 @@ fun
 )
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 &
@@ -336,7 +336,7 @@ if
 callee
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 &

@@ -190,7 +190,7 @@ functionDelazifying
 )
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 )

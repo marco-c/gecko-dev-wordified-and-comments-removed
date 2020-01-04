@@ -1193,15 +1193,7 @@ cx
 )
 ;
 bool
-strictEvalPrologue
-(
-JSContext
-*
-cx
-)
-;
-bool
-heavyweightFunPrologue
+initStrictEvalScopeObjects
 (
 JSContext
 *

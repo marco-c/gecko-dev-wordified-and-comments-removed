@@ -2903,7 +2903,7 @@ fun
 fun
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 )

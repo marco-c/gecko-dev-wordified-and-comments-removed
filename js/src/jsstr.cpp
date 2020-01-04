@@ -18214,7 +18214,7 @@ JSOP_GETALIASEDVAR
 fun
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 )

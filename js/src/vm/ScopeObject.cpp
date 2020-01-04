@@ -1694,7 +1694,7 @@ MOZ_ASSERT
 callee
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 )
@@ -5860,7 +5860,7 @@ fun
 )
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 &
@@ -10019,7 +10019,7 @@ callee
 (
 )
 .
-isHeavyweight
+needsCallObject
 (
 )
 &
@@ -11298,7 +11298,7 @@ fun
 )
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 )
@@ -15335,7 +15335,7 @@ functionDelazifying
 )
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 )

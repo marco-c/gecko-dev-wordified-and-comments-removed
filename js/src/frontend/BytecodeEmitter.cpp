@@ -8233,7 +8233,7 @@ asFunctionBox
 )
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 )
@@ -15948,7 +15948,7 @@ asFunctionBox
 )
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 )

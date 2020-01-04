@@ -1877,7 +1877,7 @@ funMaybeLazy
 )
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 &

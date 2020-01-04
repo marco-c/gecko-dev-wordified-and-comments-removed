@@ -682,14 +682,14 @@ functionBox
 )
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 ;
 return
 fun
 .
-isHeavyweight
+needsCallObject
 (
 )
 ;

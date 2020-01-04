@@ -12980,7 +12980,7 @@ fallback
 )
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 ;
@@ -13010,7 +13010,7 @@ fallback
 )
 -
 >
-isHeavyweight
+needsCallObject
 (
 )
 ;

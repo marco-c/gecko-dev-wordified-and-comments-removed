@@ -1424,7 +1424,7 @@ getColumn
 ;
 }
 bool
-isHeavyweight
+needsCallObject
 (
 )
 {
