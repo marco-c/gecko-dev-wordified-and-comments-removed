@@ -18041,7 +18041,7 @@ async
 function
 *
 (
-aDirectory
+aFile
 )
 {
 let
@@ -18050,7 +18050,7 @@ addon
 yield
 loadManifestFromFile
 (
-aDirectory
+aFile
 TemporaryInstallLocation
 )
 ;
@@ -18401,7 +18401,7 @@ addon
 in
 "
 +
-aDirectory
+aFile
 .
 path
 +
