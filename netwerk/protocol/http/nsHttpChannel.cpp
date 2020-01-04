@@ -1106,6 +1106,7 @@ mChannel
 GetURIPrincipal
 (
 )
+false
 )
 ;
 }
