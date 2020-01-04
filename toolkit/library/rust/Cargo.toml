@@ -143,6 +143,11 @@ codegen
 units
 =
 1
+panic
+=
+"
+abort
+"
 [
 profile
 .
@@ -167,3 +172,8 @@ debug
 assertions
 =
 false
+panic
+=
+"
+abort
+"

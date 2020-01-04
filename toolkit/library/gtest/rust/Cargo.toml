@@ -148,6 +148,11 @@ codegen
 units
 =
 1
+panic
+=
+"
+abort
+"
 [
 profile
 .
@@ -244,3 +249,8 @@ codegen
 units
 =
 1
+panic
+=
+"
+abort
+"
