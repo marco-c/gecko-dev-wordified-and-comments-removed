@@ -7265,9 +7265,9 @@ margin
 {
 (
 (
-RelativeLayout
+ViewGroup
 .
-LayoutParams
+MarginLayoutParams
 )
 mGeckoLayout
 .
