@@ -1220,10 +1220,10 @@ findTokenByName
 "
 )
 ;
-ok
+info
 (
-true
 "
+MP
 change
 from
 "
