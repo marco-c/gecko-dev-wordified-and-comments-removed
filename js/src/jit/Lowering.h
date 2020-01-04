@@ -2265,6 +2265,14 @@ MCheckReturn
 ins
 )
 ;
+void
+visitCheckObjCoercible
+(
+MCheckObjCoercible
+*
+ins
+)
+;
 }
 ;
 }

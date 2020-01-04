@@ -3841,6 +3841,11 @@ jsop_newtarget
 (
 )
 ;
+bool
+jsop_checkobjcoercible
+(
+)
+;
 enum
 InliningStatus
 {

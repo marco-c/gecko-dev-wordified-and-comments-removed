@@ -1119,6 +1119,11 @@ _
 (
 JSOP_INITHIDDENELEM_SETTER
 )
+\
+_
+(
+JSOP_CHECKOBJCOERCIBLE
+)
 class
 BaselineCompiler
 :

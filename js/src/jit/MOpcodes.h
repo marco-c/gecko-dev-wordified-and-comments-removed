@@ -1361,6 +1361,11 @@ _
 (
 CheckReturn
 )
+\
+_
+(
+CheckObjCoercible
+)
 #
 define
 FORWARD_DECLARE

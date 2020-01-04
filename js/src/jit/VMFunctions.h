@@ -4465,6 +4465,16 @@ v
 )
 ;
 bool
+ThrowObjectCoercible
+(
+JSContext
+*
+cx
+HandleValue
+v
+)
+;
+bool
 BaselineGetFunctionThis
 (
 JSContext
