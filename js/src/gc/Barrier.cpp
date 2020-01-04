@@ -972,6 +972,14 @@ template
 struct
 MovableCellHasher
 <
+WasmModuleObject
+*
+>
+;
+template
+struct
+MovableCellHasher
+<
 JSScript
 *
 >
