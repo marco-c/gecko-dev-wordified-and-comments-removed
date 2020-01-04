@@ -173,6 +173,11 @@ Argument
 "
 )
 ;
+testBuiltin
+(
+Map
+)
+;
 ;
 if
 (
