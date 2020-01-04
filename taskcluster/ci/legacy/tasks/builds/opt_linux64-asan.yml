@@ -151,6 +151,9 @@ linux64
 symbol
 :
 Bo
+tier
+:
+1
 collection
 :
 asan

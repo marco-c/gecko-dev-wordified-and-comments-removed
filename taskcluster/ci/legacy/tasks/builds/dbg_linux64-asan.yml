@@ -155,6 +155,9 @@ js
 platform
 :
 linux64
+tier
+:
+1
 collection
 :
 asan
