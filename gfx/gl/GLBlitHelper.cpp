@@ -4268,7 +4268,7 @@ mGL
 >
 fBindTexture
 (
-LOCAL_GL_TEXTURE_EXTERNAL_OES
+LOCAL_GL_TEXTURE_2D
 oldBinding
 )
 ;
