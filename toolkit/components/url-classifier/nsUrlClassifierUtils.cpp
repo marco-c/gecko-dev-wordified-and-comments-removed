@@ -878,7 +878,7 @@ MALWARE_THREAT
 }
 {
 "
-goog
+googpub
 -
 phish
 -
@@ -895,6 +895,16 @@ unwanted
 proto
 "
 UNWANTED_SOFTWARE
+}
+{
+"
+goog
+-
+phish
+-
+proto
+"
+SOCIAL_ENGINEERING
 }
 }
 ;
