@@ -125,7 +125,7 @@ cpp
 .
 .
 /
-FFmpegVideoDecoder
+FFmpegH264Decoder
 .
 cpp
 '

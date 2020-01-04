@@ -1,9 +1,9 @@
 #
 ifndef
-__FFmpegVideoDecoder_h__
+__FFmpegH264Decoder_h__
 #
 define
-__FFmpegVideoDecoder_h__
+__FFmpegH264Decoder_h__
 #
 include
 "
@@ -36,7 +36,7 @@ int
 V
 >
 class
-FFmpegVideoDecoder
+FFmpegH264Decoder
 :
 public
 FFmpegDataDecoder
@@ -50,7 +50,7 @@ template
 <
 >
 class
-FFmpegVideoDecoder
+FFmpegH264Decoder
 <
 LIBAV_VER
 >
@@ -91,7 +91,7 @@ DECODE_ERROR
 ;
 public
 :
-FFmpegVideoDecoder
+FFmpegH264Decoder
 (
 FlushableTaskQueue
 *
@@ -110,7 +110,7 @@ aImageContainer
 ;
 virtual
 ~
-FFmpegVideoDecoder
+FFmpegH264Decoder
 (
 )
 ;
