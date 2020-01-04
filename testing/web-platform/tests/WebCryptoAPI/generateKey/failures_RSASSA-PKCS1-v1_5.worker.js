@@ -27,7 +27,7 @@ js
 importScripts
 (
 "
-successes
+failures
 .
 js
 "
@@ -35,6 +35,15 @@ js
 ;
 run_test
 (
+[
+"
+RSASSA
+-
+PKCS1
+-
+v1_5
+"
+]
 )
 ;
 done

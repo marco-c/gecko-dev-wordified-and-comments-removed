@@ -27,7 +27,7 @@ js
 importScripts
 (
 "
-failures
+successes
 .
 js
 "
@@ -35,6 +35,13 @@ js
 ;
 run_test
 (
+[
+"
+AES
+-
+CTR
+"
+]
 )
 ;
 done
