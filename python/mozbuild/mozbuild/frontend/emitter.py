@@ -4620,25 +4620,6 @@ path
 )
 :
         
-if
-os
-.
-path
-.
-isabs
-(
-path
-)
-:
-            
-path
-=
-path
-[
-1
-:
-]
-        
 sub
 =
 cls
@@ -4650,13 +4631,6 @@ sub
 .
 input_path
 =
-mozpath
-.
-join
-(
-context
-.
-srcdir
 '
 %
 s
@@ -4665,21 +4639,16 @@ in
 '
 %
 path
-)
+.
+full_path
         
 sub
 .
 output_path
 =
-mozpath
-.
-join
-(
-context
-.
-objdir
 path
-)
+.
+translated
         
 sub
 .
