@@ -155,6 +155,14 @@ Shutdown
 (
 )
 ;
+nsresult
+FindCorrectWindow
+(
+nsIDOMWindow
+*
+aWindow
+)
+;
 nsCOMPtr
 <
 nsPIDOMWindow
