@@ -1449,10 +1449,9 @@ uris
 .
 forEach
 (
-function
-(
 u
-)
+=
+>
 bmsvc
 .
 insertBookmark

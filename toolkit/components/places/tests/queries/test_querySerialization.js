@@ -1724,10 +1724,9 @@ aSequences
 .
 map
 (
-function
-(
 i
-)
+=
+>
 0
 )
 ;
@@ -1930,10 +1929,9 @@ ptrs
 .
 map
 (
-function
-(
 p
-)
+=
+>
 aSet
 [
 p

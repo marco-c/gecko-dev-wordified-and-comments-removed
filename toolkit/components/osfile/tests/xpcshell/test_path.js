@@ -522,9 +522,10 @@ f
 ;
 do_check_fail
 (
-function
 (
 )
+=
+>
 Win
 .
 normalize
@@ -1311,9 +1312,10 @@ f
 ;
 do_check_fail
 (
-function
 (
 )
+=
+>
 Win
 .
 normalize
@@ -2521,9 +2523,10 @@ f
 ;
 do_check_fail
 (
-function
 (
 )
+=
+>
 Win
 .
 normalize
@@ -3071,9 +3074,10 @@ f
 ;
 do_check_fail
 (
-function
 (
 )
+=
+>
 Unix
 .
 normalize

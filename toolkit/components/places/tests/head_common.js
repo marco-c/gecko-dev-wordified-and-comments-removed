@@ -547,6 +547,8 @@ uri
 (
 aSpec
 )
+{
+return
 NetUtil
 .
 newURI
@@ -554,6 +556,7 @@ newURI
 aSpec
 )
 ;
+}
 var
 gDBConn
 ;
@@ -3136,11 +3139,12 @@ a1
 .
 every
 (
-function
 (
 e
 i
 )
+=
+>
 e
 =
 =
@@ -3158,10 +3162,9 @@ a1
 .
 filter
 (
-function
-(
 e
-)
+=
+>
 a2
 .
 indexOf
@@ -3184,10 +3187,9 @@ a2
 .
 filter
 (
-function
-(
 e
-)
+=
+>
 a1
 .
 indexOf

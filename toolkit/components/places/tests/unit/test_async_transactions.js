@@ -7669,6 +7669,8 @@ b
 =
 null
 )
+{
+return
 [
 new
 AnnoObj
@@ -7687,6 +7689,8 @@ B
 b
 )
 ]
+;
+}
 function
 verifyAnnoValues
 (
