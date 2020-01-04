@@ -14874,15 +14874,6 @@ mIsAsyncScrollable
 )
 ;
 }
-aBuilder
--
->
-StoreDirtyRectForScrolledContents
-(
-mOuter
-dirtyRect
-)
-;
 mOuter
 -
 >
