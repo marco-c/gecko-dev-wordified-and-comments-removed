@@ -120,12 +120,7 @@ void
 Stop
 (
 )
-{
-mStopped
-=
-true
 ;
-}
 nsresult
 SubmitEvent
 (
