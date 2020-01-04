@@ -824,9 +824,8 @@ get
 context
 )
 .
-readSessionFile
+readPreviousSessionFile
 (
-true
 )
 ;
 if
