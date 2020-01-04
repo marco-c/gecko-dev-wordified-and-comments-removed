@@ -7498,17 +7498,6 @@ property
 mProperties
 )
 {
-if
-(
-!
-property
-.
-mWinsInCascade
-)
-{
-continue
-;
-}
 AnimationPropertyDetails
 propertyDetails
 ;
