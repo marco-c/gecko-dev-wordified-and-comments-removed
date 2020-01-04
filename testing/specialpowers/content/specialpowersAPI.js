@@ -9803,8 +9803,15 @@ loadExtension
 :
 function
 (
+id
 ext
 handler
+)
+{
+if
+(
+!
+id
 )
 {
 let
@@ -9832,7 +9839,6 @@ Ci
 nsIUUIDGenerator
 )
 ;
-let
 id
 =
 uuidGenerator
@@ -9843,6 +9849,7 @@ generateUUID
 .
 number
 ;
+}
 let
 resolveStartup
 resolveUnload
