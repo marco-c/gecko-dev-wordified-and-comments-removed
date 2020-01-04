@@ -2631,7 +2631,7 @@ WidgetContentCommandEvent
 commandEvent
 (
 true
-NS_CONTENT_COMMAND_SCROLL
+eContentCommandScroll
 aWidget
 )
 ;

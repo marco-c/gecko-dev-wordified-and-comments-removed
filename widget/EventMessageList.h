@@ -1211,7 +1211,7 @@ eContentCommandEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_CONTENT_COMMAND_SCROLL
+eContentCommandScroll
 eContentCommandEventFirst
 +
 7
