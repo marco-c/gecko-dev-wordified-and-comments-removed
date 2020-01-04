@@ -759,7 +759,7 @@ return
 }
 already_AddRefed
 <
-BufferTextureClient
+TextureClient
 >
 CompositableClient
 :

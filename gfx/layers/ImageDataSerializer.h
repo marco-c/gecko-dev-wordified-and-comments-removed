@@ -159,6 +159,16 @@ SurfaceFormat
 aFormat
 )
 ;
+size_t
+GetBufferSize
+(
+)
+const
+{
+return
+mDataSize
+;
+}
 protected
 :
 ImageDataSerializerBase
