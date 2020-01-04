@@ -119,7 +119,9 @@ null
 null
 )
 ;
-return
+var
+ssm
+=
 Cc
 [
 "
@@ -139,10 +141,15 @@ Ci
 .
 nsIScriptSecurityManager
 )
+;
+return
+ssm
 .
-getNoAppCodebasePrincipal
+createCodebasePrincipal
 (
 uri
+{
+}
 )
 ;
 }
