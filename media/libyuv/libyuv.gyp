@@ -335,6 +335,7 @@ without
 external
 dependencies
 .
+#
 '
 standalone_static_library
 '
@@ -543,6 +544,11 @@ ios
 "
 and
 libyuv_disable_jpeg
+!
+=
+1
+and
+build_with_mozilla
 !
 =
 1
