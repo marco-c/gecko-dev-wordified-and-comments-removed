@@ -493,13 +493,11 @@ CompositorOGL
 *
 compositorOGL
 =
-static_cast
-<
-CompositorOGL
-*
->
-(
 aCompositor
+-
+>
+AsCompositorOGL
+(
 )
 ;
 return
