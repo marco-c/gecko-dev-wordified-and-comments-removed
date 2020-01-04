@@ -30,10 +30,9 @@ dom
 node
 -
 constants
-.
-js
 "
 )
+;
 const
 {
 getRootBindingParent
@@ -654,13 +653,6 @@ this
 .
 _node
 ;
-let
-previousFront
-=
-this
-.
-_nodeFront
-;
 this
 .
 _node
@@ -979,7 +971,7 @@ function
 )
 {
 let
-xhtml_ns
+xhtmlNs
 =
 "
 http
@@ -1012,7 +1004,7 @@ nodeFront
 namespaceURI
 =
 =
-xhtml_ns
+xhtmlNs
 ;
 }
 isElementNode
