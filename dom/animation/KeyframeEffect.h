@@ -1097,6 +1097,15 @@ GetAnimationFrame
 )
 const
 ;
+bool
+CanThrottleTransformChanges
+(
+nsIFrame
+&
+aFrame
+)
+const
+;
 static
 bool
 CanAnimateTransformOnCompositor
