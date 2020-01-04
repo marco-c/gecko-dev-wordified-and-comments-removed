@@ -88,6 +88,8 @@ protected
 DrawableFrameRef
 DrawableRef
 (
+size_t
+aFrame
 )
 override
 ;
