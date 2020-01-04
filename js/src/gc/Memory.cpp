@@ -1894,6 +1894,7 @@ __aarch64__
 )
 MOZ_ASSERT
 (
+(
 0xffff800000000000ULL
 &
 (
@@ -1905,6 +1906,7 @@ desired
 length
 -
 1
+)
 )
 =
 =
