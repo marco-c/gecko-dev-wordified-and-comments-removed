@@ -12080,9 +12080,9 @@ NS_DND_EXIT
 ;
 _ASSIGN_eventName
 (
-NS_DRAGDROP_OVER
+eDragOver
 "
-NS_DND_OVER
+eDragOver
 "
 )
 ;

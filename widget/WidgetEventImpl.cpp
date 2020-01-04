@@ -307,7 +307,7 @@ case
 NS_DRAGDROP_ENTER
 :
 case
-NS_DRAGDROP_OVER
+eDragOver
 :
 case
 NS_DRAGDROP_EXIT

@@ -1734,7 +1734,7 @@ dragEvent
 ;
 }
 case
-NS_DRAGDROP_OVER
+eDragOver
 :
 {
 nsCOMPtr

@@ -8009,7 +8009,7 @@ ievent
 mMessage
 !
 =
-NS_DRAGDROP_OVER
+eDragOver
 )
 {
 aEvent

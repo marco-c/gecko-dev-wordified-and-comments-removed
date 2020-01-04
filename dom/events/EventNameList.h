@@ -401,7 +401,7 @@ eDragEventClass
 EVENT
 (
 dragover
-NS_DRAGDROP_OVER
+eDragOver
 EventNameType_HTMLXUL
 eDragEventClass
 )

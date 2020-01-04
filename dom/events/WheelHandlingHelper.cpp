@@ -788,7 +788,7 @@ case
 eMouseMove
 :
 case
-NS_DRAGDROP_OVER
+eDragOver
 :
 {
 WidgetMouseEvent

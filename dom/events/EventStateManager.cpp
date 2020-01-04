@@ -2905,7 +2905,7 @@ KillClickHoldTimer
 break
 ;
 case
-NS_DRAGDROP_OVER
+eDragOver
 :
 GenerateDragDropEnterExit
 (
@@ -5361,7 +5361,7 @@ mMessage
 )
 {
 case
-NS_DRAGDROP_OVER
+eDragOver
 :
 case
 NS_DRAGDROP_EXIT
@@ -13573,7 +13573,7 @@ case
 NS_DRAGDROP_ENTER
 :
 case
-NS_DRAGDROP_OVER
+eDragOver
 :
 {
 NS_ASSERTION
@@ -13852,7 +13852,7 @@ aEvent
 mMessage
 =
 =
-NS_DRAGDROP_OVER
+eDragOver
 &
 &
 !
@@ -13882,7 +13882,7 @@ aEvent
 mMessage
 =
 =
-NS_DRAGDROP_OVER
+eDragOver
 &
 &
 !
@@ -17975,7 +17975,7 @@ mMessage
 )
 {
 case
-NS_DRAGDROP_OVER
+eDragOver
 :
 {
 if

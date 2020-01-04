@@ -32908,7 +32908,7 @@ if
 aMessage
 =
 =
-NS_DRAGDROP_OVER
+eDragOver
 )
 {
 /
@@ -33250,7 +33250,7 @@ case
 NS_DRAGDROP_ENTER
 :
 case
-NS_DRAGDROP_OVER
+eDragOver
 :
 {
 uint32_t
@@ -33654,7 +33654,7 @@ return
 self
 doDragAction
 :
-NS_DRAGDROP_OVER
+eDragOver
 sender
 :
 sender

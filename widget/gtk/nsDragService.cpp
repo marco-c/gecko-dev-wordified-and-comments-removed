@@ -8764,7 +8764,7 @@ mTargetWindow
 >
 DispatchDragEvent
 (
-NS_DRAGDROP_OVER
+eDragOver
 mTargetWindowPoint
 mTargetTime
 )
