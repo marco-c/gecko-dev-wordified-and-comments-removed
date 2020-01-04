@@ -48,6 +48,12 @@ bdef
 }
 \
 }
+namespace
+mozilla
+{
+namespace
+image
+{
 class
 imgTools
 final
@@ -73,5 +79,7 @@ imgTools
 ;
 }
 ;
+}
+}
 #
 endif
