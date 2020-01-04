@@ -1282,10 +1282,6 @@ Lock
 )
 ;
 }
-mReadLock
-=
-nullptr
-;
 CancelWaitFenceHandleOnImageBridge
 (
 )
