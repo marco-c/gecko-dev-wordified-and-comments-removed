@@ -131,7 +131,7 @@ toConstant
 )
 -
 >
-toNumber
+numberToDouble
 (
 )
 ;

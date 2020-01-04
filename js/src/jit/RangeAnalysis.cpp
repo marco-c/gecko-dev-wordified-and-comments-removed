@@ -870,7 +870,7 @@ leftConst
 leftConst
 -
 >
-isNumber
+isTypeRepresentableAsDouble
 (
 )
 )
@@ -880,7 +880,7 @@ bound
 leftConst
 -
 >
-toNumber
+numberToDouble
 (
 )
 ;
@@ -905,7 +905,7 @@ rightConst
 rightConst
 -
 >
-isNumber
+isTypeRepresentableAsDouble
 (
 )
 )
@@ -915,7 +915,7 @@ bound
 rightConst
 -
 >
-toNumber
+numberToDouble
 (
 )
 ;
@@ -6746,7 +6746,7 @@ alloc
 {
 if
 (
-isNumber
+isTypeRepresentableAsDouble
 (
 )
 )
@@ -6754,7 +6754,7 @@ isNumber
 double
 d
 =
-toNumber
+numberToDouble
 (
 )
 ;
@@ -12373,7 +12373,7 @@ res
 =
 ToInt32
 (
-toNumber
+numberToDouble
 (
 )
 )

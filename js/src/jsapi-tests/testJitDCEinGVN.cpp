@@ -912,7 +912,7 @@ toConstant
 )
 -
 >
-toNumber
+numberToDouble
 (
 )
 !

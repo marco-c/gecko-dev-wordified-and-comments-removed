@@ -6165,13 +6165,13 @@ MIRType_Float32
 else
 if
 (
-IsNumberType
+IsTypeRepresentableAsDouble
 (
 type
 )
 &
 &
-IsNumberType
+IsTypeRepresentableAsDouble
 (
 in
 -
@@ -6491,7 +6491,7 @@ continue
 }
 if
 (
-IsNumberType
+IsTypeRepresentableAsDouble
 (
 use
 -
@@ -6502,7 +6502,7 @@ type
 )
 &
 &
-IsNumberType
+IsTypeRepresentableAsDouble
 (
 phi
 -
@@ -13053,6 +13053,9 @@ MIRType_Doublex2
 :
 case
 MIRType_SinCosDouble
+:
+case
+MIRType_Int64
 :
 return
 false

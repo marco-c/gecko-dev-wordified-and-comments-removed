@@ -7356,7 +7356,7 @@ toConstant
 )
 -
 >
-toNumber
+numberToDouble
 (
 )
 ;
@@ -8559,7 +8559,7 @@ toConstant
 )
 -
 >
-toNumber
+numberToDouble
 (
 )
 ;

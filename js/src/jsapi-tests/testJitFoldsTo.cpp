@@ -293,7 +293,7 @@ toConstant
 )
 -
 >
-toNumber
+numberToDouble
 (
 )
 =
@@ -1603,7 +1603,7 @@ NumbersAreIdentical
 op
 -
 >
-toNumber
+numberToDouble
 (
 )
 0
@@ -1778,7 +1778,7 @@ NumbersAreIdentical
 op
 -
 >
-toNumber
+numberToDouble
 (
 )
 1
