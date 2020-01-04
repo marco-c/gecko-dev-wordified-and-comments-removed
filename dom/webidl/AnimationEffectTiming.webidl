@@ -191,16 +191,6 @@ attribute
 FillMode
 fill
 ;
-/
-/
-Bug
-1244638
--
-implement
-AnimationEffectTiming
-iterationStart
-/
-/
 inherit
 attribute
 double

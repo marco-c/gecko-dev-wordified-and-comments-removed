@@ -97,6 +97,13 @@ aEndDelay
 )
 ;
 void
+SetIterationStart
+(
+double
+aIterationStart
+)
+;
+void
 SetDuration
 (
 const
