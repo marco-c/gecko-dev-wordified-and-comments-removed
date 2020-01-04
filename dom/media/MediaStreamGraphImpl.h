@@ -567,10 +567,6 @@ uint32_t
 aStreamIndex
 TrackRate
 aSampleRate
-GraphTime
-aFrom
-GraphTime
-aTo
 )
 ;
 GraphTime

@@ -5372,10 +5372,6 @@ uint32_t
 aStreamIndex
 TrackRate
 aSampleRate
-GraphTime
-aFrom
-GraphTime
-aTo
 )
 {
 MOZ_ASSERT
@@ -5397,13 +5393,13 @@ AudioNodeStream
 GraphTime
 t
 =
-aFrom
+mProcessedTime
 ;
 while
 (
 t
 <
-aTo
+mStateComputedTime
 )
 {
 GraphTime
@@ -5518,7 +5514,7 @@ next
 next
 =
 =
-aTo
+mStateComputedTime
 )
 ?
 ProcessedMediaStream
@@ -5541,7 +5537,7 @@ NS_ASSERTION
 t
 =
 =
-aTo
+mStateComputedTime
 "
 Something
 went
@@ -6102,8 +6098,6 @@ n
 SampleRate
 (
 )
-mProcessedTime
-mStateComputedTime
 )
 ;
 doneAllProducing
