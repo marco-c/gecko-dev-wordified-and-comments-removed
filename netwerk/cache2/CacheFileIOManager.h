@@ -1588,6 +1588,10 @@ ReleaseNSPRHandleInternal
 CacheFileHandle
 *
 aHandle
+bool
+aIgnoreShutdownLag
+=
+false
 )
 ;
 nsresult
@@ -1858,6 +1862,11 @@ int64_t
 aFreeSpace
 )
 ;
+bool
+IsPastShutdownIOLag
+(
+)
+;
 size_t
 SizeOfExcludingThisInternal
 (
@@ -1876,6 +1885,9 @@ gInstance
 ;
 TimeStamp
 mStartTime
+;
+TimeStamp
+mShutdownDemandedTime
 ;
 bool
 mShuttingDown
