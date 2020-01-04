@@ -664,6 +664,11 @@ Rule
 h
 '
 '
+SheetParsingMode
+.
+h
+'
+'
 StyleRule
 .
 h
