@@ -53,11 +53,6 @@ MaxNumberOfChannels
 (
 )
 ;
-void
-InitPreferredSampleRate
-(
-)
-;
 uint32_t
 PreferredSampleRate
 (

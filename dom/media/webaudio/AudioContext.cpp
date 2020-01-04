@@ -436,13 +436,6 @@ aSampleRate
 }
 else
 {
-CubebUtils
-:
-:
-InitPreferredSampleRate
-(
-)
-;
 return
 static_cast
 <

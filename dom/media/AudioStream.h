@@ -657,13 +657,6 @@ GetPreferredRate
 (
 )
 {
-CubebUtils
-:
-:
-InitPreferredSampleRate
-(
-)
-;
 return
 CubebUtils
 :
