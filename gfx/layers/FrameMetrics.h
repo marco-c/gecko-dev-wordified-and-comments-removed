@@ -85,6 +85,15 @@ include
 "
 mozilla
 /
+StaticPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
@@ -2000,8 +2009,11 @@ ScrollMetadata
 public
 :
 static
+StaticAutoPtr
+<
 const
 ScrollMetadata
+>
 sNullMetadata
 ;
 ScrollMetadata
