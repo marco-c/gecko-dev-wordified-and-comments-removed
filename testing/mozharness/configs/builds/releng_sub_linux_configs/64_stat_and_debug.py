@@ -54,12 +54,6 @@ sendchange
 '
         
 '
-check
--
-test
-'
-        
-'
 update
 '
     
