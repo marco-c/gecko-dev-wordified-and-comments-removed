@@ -1983,7 +1983,7 @@ mHasQueryString
 1
 ;
 uint32_t
-mConcurentCacheAccess
+mConcurrentCacheAccess
 :
 1
 ;
