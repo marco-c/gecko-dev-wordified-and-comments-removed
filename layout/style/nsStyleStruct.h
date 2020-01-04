@@ -4969,7 +4969,10 @@ mBorderImageRepeatH
 uint8_t
 mBorderImageRepeatV
 ;
-uint8_t
+mozilla
+:
+:
+StyleFloatEdge
 mFloatEdge
 ;
 uint8_t

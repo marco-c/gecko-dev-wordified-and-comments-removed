@@ -6103,6 +6103,12 @@ StyleBoxSizing
 Content
 Border
 )
+DEFINE_ENUM_CLASS_SETTER
+(
+StyleFloatEdge
+ContentBox
+MarginBox
+)
 #
 undef
 DEF_SET_ENUMERATED_VALUE
@@ -38833,7 +38839,10 @@ parentBorder
 -
 >
 mFloatEdge
-NS_STYLE_FLOAT_EDGE_CONTENT_BOX
+StyleFloatEdge
+:
+:
+ContentBox
 )
 ;
 const
