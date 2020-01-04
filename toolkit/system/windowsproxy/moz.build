@@ -102,6 +102,11 @@ nsWindowsSystemProxySettings
 .
 cpp
 '
+'
+ProxyUtils
+.
+cpp
+'
 ]
 FINAL_LIBRARY
 =
