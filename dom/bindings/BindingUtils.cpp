@@ -1189,6 +1189,10 @@ ClearMessage
 (
 )
 ;
+mResult
+=
+NS_OK
+;
 }
 void
 ErrorResult
@@ -1412,7 +1416,7 @@ mJSException
 ;
 mResult
 =
-NS_ERROR_FAILURE
+NS_OK
 ;
 #
 ifdef
@@ -1696,6 +1700,10 @@ ClearDOMExceptionInfo
 (
 )
 ;
+mResult
+=
+NS_OK
+;
 }
 void
 ErrorResult
@@ -1870,6 +1878,10 @@ ErrorCode
 (
 )
 )
+;
+mResult
+=
+NS_OK
 ;
 }
 ErrorResult
@@ -2317,6 +2329,10 @@ JS_ClearPendingException
 cx
 )
 ;
+mResult
+=
+NS_OK
+;
 return
 ;
 }
@@ -2327,6 +2343,10 @@ IsJSContextException
 )
 )
 {
+mResult
+=
+NS_OK
+;
 return
 ;
 }
