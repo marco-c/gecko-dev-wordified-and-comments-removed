@@ -594,7 +594,7 @@ WasmTableObject
 *
 create
 (
-ExclusiveContext
+JSContext
 *
 cx
 wasm
@@ -603,8 +603,6 @@ wasm
 Table
 &
 table
-HandleObject
-proto
 )
 ;
 wasm
@@ -634,6 +632,14 @@ WasmTableObject
 *
 >
 HandleWasmTableObject
+;
+typedef
+MutableHandle
+<
+WasmTableObject
+*
+>
+MutableHandleWasmTableObject
 ;
 }
 #
