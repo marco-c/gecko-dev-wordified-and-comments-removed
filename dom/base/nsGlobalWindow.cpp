@@ -59683,6 +59683,12 @@ global
 "
 )
 ;
+aes
+.
+TakeOwnershipOfErrorReporting
+(
+)
+;
 JS
 :
 :
