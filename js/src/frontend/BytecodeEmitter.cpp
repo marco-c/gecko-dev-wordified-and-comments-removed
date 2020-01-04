@@ -19011,10 +19011,9 @@ InitializeVars
 )
 continue
 ;
-goto
-emit_pop
-;
 }
+else
+{
 initializer
 =
 binding
@@ -19355,8 +19354,7 @@ return
 false
 ;
 }
-emit_pop
-:
+}
 if
 (
 next
