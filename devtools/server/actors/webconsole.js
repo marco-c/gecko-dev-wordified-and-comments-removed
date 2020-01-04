@@ -2071,6 +2071,11 @@ new
 NetworkMonitorChild
 (
 appId
+this
+.
+parentActor
+.
+outerWindowID
 messageManager
 this
 .

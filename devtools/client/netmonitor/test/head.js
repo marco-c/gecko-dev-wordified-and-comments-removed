@@ -1130,6 +1130,18 @@ if
 aEnableCache
 )
 {
+info
+(
+"
+Disabling
+cache
+and
+reloading
+page
+.
+"
+)
+;
 yield
 toggleCache
 (
@@ -1210,7 +1222,7 @@ netmonitor
 info
 (
 "
-Netork
+Network
 monitor
 pane
 shown
