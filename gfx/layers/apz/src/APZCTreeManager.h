@@ -661,6 +661,15 @@ aApzc
 )
 const
 ;
+void
+ProcessTouchVelocity
+(
+uint32_t
+aTimestampMs
+float
+aSpeedY
+)
+;
 private
 :
 typedef
