@@ -200,13 +200,13 @@ Thread
 SamplerThread
 "
 )
-interval_
-(
-interval
-)
 sampler_
 (
 sampler
+)
+interval_
+(
+interval
 )
 {
 interval_
