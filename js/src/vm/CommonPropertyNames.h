@@ -951,15 +951,6 @@ format
 \
 macro
 (
-formatToParts
-formatToParts
-"
-formatToParts
-"
-)
-\
-macro
-(
 frame
 frame
 "
