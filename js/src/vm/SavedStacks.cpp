@@ -7252,7 +7252,7 @@ probability
 }
 JSObject
 *
-SavedStacksMetadataCallback
+SavedStacksMetadataBuilder
 (
 JSContext
 *
@@ -7324,7 +7324,7 @@ oomUnsafe
 crash
 (
 "
-SavedStacksMetadataCallback
+SavedStacksMetadataBuilder
 "
 )
 ;
@@ -7349,7 +7349,7 @@ oomUnsafe
 crash
 (
 "
-SavedStacksMetadataCallback
+SavedStacksMetadataBuilder
 "
 )
 ;

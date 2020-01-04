@@ -12345,7 +12345,7 @@ compartment
 )
 -
 >
-getObjectMetadataCallback
+getAllocationMetadataBuilder
 (
 )
 ;
@@ -12356,7 +12356,7 @@ existingCallback
 existingCallback
 !
 =
-SavedStacksMetadataCallback
+SavedStacksMetadataBuilder
 ;
 }
 bool
@@ -12499,9 +12499,9 @@ compartment
 )
 -
 >
-setObjectMetadataCallback
+setAllocationMetadataBuilder
 (
-SavedStacksMetadataCallback
+SavedStacksMetadataBuilder
 )
 ;
 debuggee
@@ -12560,7 +12560,7 @@ compartment
 )
 -
 >
-forgetObjectMetadataCallback
+forgetAllocationMetadataBuilder
 (
 )
 ;
@@ -43115,7 +43115,7 @@ JSObject
 *
 metadata
 =
-GetObjectMetadata
+GetAllocationMetadata
 (
 &
 obj

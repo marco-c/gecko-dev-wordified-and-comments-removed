@@ -4111,7 +4111,7 @@ GetJitContext
 compartment
 -
 >
-hasObjectMetadataCallback
+hasAllocationMetadataBuilder
 (
 )
 )

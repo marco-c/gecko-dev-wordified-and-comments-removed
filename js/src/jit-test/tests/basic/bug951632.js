@@ -1,4 +1,4 @@
-enableShellObjectMetadataCallback
+enableShellAllocationMetadataBuilder
 (
 )
 ;
@@ -48,7 +48,7 @@ return
 var
 o
 =
-getObjectMetadata
+getAllocationMetadata
 (
 g
 .

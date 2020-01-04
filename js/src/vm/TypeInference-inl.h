@@ -1212,7 +1212,7 @@ pendingRecompiles
 js
 :
 :
-AutoSuppressObjectMetadataCallback
+AutoSuppressAllocationMetadataBuilder
 suppressMetadata
 ;
 FreeOp

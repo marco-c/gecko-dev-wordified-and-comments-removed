@@ -342,7 +342,7 @@ jitCompartment
 )
 ;
 bool
-hasObjectMetadataCallback
+hasAllocationMetadataBuilder
 (
 )
 ;

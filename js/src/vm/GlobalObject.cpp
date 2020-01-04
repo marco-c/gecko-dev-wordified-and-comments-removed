@@ -664,7 +664,7 @@ key
 )
 )
 ;
-AutoSuppressObjectMetadataCallback
+AutoSuppressAllocationMetadataBuilder
 suppressMetadata
 (
 cx

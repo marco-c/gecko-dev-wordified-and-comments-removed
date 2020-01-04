@@ -88,7 +88,7 @@ gczeal
 1000
 )
 ;
-enableShellObjectMetadataCallback
+enableShellAllocationMetadataBuilder
 (
 )
 ;

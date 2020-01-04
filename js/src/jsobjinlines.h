@@ -1595,7 +1595,7 @@ compartment
 )
 -
 >
-hasObjectMetadataCallback
+hasAllocationMetadataBuilder
 (
 )
 )
@@ -1610,10 +1610,10 @@ zone
 )
 -
 >
-suppressObjectMetadataCallback
+suppressAllocationMetadataBuilder
 )
 {
-AutoSuppressObjectMetadataCallback
+AutoSuppressAllocationMetadataBuilder
 suppressMetadata
 (
 cx
@@ -2291,7 +2291,7 @@ clasp
 )
 -
 >
-shouldDelayMetadataCallback
+shouldDelayMetadataBuilder
 (
 )
 )

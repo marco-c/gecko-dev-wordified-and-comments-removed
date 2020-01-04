@@ -227,7 +227,7 @@ clasp
 )
 -
 >
-shouldDelayMetadataCallback
+shouldDelayMetadataBuilder
 (
 )
 )

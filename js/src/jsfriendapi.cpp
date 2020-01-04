@@ -586,7 +586,7 @@ JSObject
 proto
 )
 {
-AutoSuppressObjectMetadataCallback
+AutoSuppressAllocationMetadataBuilder
 suppressMetadata
 (
 cx
@@ -6773,12 +6773,12 @@ void
 js
 :
 :
-SetObjectMetadataCallback
+SetAllocationMetadataBuilder
 (
 JSContext
 *
 cx
-ObjectMetadataCallback
+AllocationMetadataBuilder
 callback
 )
 {
@@ -6790,7 +6790,7 @@ compartment
 )
 -
 >
-setObjectMetadataCallback
+setAllocationMetadataBuilder
 (
 callback
 )
@@ -6804,7 +6804,7 @@ JSObject
 js
 :
 :
-GetObjectMetadata
+GetAllocationMetadata
 (
 JSObject
 *

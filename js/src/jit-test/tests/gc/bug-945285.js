@@ -10,7 +10,7 @@ obj
 )
 {
 }
-enableShellObjectMetadataCallback
+enableShellAllocationMetadataBuilder
 (
 )
 ;

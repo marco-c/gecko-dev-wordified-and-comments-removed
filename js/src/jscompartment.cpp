@@ -331,7 +331,7 @@ data
 (
 nullptr
 )
-objectMetadataCallback
+allocationMetadataBuilder
 (
 nullptr
 )
@@ -4366,12 +4366,12 @@ void
 JSCompartment
 :
 :
-setObjectMetadataCallback
+setAllocationMetadataBuilder
 (
 js
 :
 :
-ObjectMetadataCallback
+AllocationMetadataBuilder
 callback
 )
 {
@@ -4385,7 +4385,7 @@ defaultFreeOp
 )
 )
 ;
-objectMetadataCallback
+allocationMetadataBuilder
 =
 callback
 ;
@@ -4434,7 +4434,7 @@ JSObject
 *
 metadata
 =
-objectMetadataCallback
+allocationMetadataBuilder
 (
 cx
 obj

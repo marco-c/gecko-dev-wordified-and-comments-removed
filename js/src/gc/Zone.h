@@ -1220,7 +1220,7 @@ cx
 )
 ;
 bool
-suppressObjectMetadataCallback
+suppressAllocationMetadataBuilder
 ;
 js
 :

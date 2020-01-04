@@ -1,4 +1,4 @@
-enableShellObjectMetadataCallback
+enableShellAllocationMetadataBuilder
 (
 )
 ;
@@ -81,7 +81,7 @@ hello
 var
 wc
 =
-getObjectMetadata
+getAllocationMetadata
 (
 w
 )
@@ -91,7 +91,7 @@ index
 var
 xc
 =
-getObjectMetadata
+getAllocationMetadata
 (
 x
 )
@@ -101,7 +101,7 @@ index
 var
 yc
 =
-getObjectMetadata
+getAllocationMetadata
 (
 y
 )
@@ -111,7 +111,7 @@ index
 var
 zc
 =
-getObjectMetadata
+getAllocationMetadata
 (
 z
 )
@@ -144,7 +144,7 @@ true
 ;
 assertEq
 (
-getObjectMetadata
+getAllocationMetadata
 (
 x
 )
@@ -158,7 +158,7 @@ callee
 ;
 assertEq
 (
-getObjectMetadata
+getAllocationMetadata
 (
 x
 )

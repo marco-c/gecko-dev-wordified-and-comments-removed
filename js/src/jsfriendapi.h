@@ -1222,7 +1222,7 @@ NON_NATIVE
 JSCLASS_IS_PROXY
 |
 \
-JSCLASS_DELAY_METADATA_CALLBACK
+JSCLASS_DELAY_METADATA_BUILDER
 |
 \
 flags
@@ -9926,7 +9926,7 @@ JSObject
 *
 (
 *
-ObjectMetadataCallback
+AllocationMetadataBuilder
 )
 (
 JSContext
@@ -9943,12 +9943,12 @@ JS_FRIEND_API
 (
 void
 )
-SetObjectMetadataCallback
+SetAllocationMetadataBuilder
 (
 JSContext
 *
 cx
-ObjectMetadataCallback
+AllocationMetadataBuilder
 callback
 )
 ;
@@ -9957,7 +9957,7 @@ JS_FRIEND_API
 JSObject
 *
 )
-GetObjectMetadata
+GetAllocationMetadata
 (
 JSObject
 *

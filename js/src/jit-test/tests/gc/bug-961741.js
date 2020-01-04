@@ -13,7 +13,7 @@ undefined
 {
 }
 }
-enableShellObjectMetadataCallback
+enableShellAllocationMetadataBuilder
 (
 )
 ;

@@ -3,7 +3,7 @@ gczeal
 14
 )
 ;
-enableShellObjectMetadataCallback
+enableShellAllocationMetadataBuilder
 (
 function
 (
@@ -66,7 +66,7 @@ x
 =
 true
 ;
-enableShellObjectMetadataCallback
+enableShellAllocationMetadataBuilder
 (
 function
 (

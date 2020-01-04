@@ -191,7 +191,7 @@ name
 let
 allocationSite
 =
-getObjectMetadata
+getAllocationMetadata
 (
 object
 )
