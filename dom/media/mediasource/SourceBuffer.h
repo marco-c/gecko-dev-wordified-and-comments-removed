@@ -477,6 +477,11 @@ HighestStartTime
 (
 )
 ;
+double
+HighestEndTime
+(
+)
+;
 void
 RangeRemoval
 (

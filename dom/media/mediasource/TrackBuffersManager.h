@@ -438,6 +438,14 @@ HighestStartTime
 (
 )
 ;
+media
+:
+:
+TimeUnit
+HighestEndTime
+(
+)
+;
 int64_t
 GetSize
 (
