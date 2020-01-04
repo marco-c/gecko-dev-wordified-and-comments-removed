@@ -462,7 +462,7 @@ out
 -
 arch
 :
-IA32
+%
 (
 CXXFLAGS
 )
