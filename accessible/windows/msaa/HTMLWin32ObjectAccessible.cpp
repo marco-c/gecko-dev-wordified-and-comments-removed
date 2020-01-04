@@ -56,6 +56,7 @@ if
 (
 mHwnd
 )
+{
 mNativeAccessible
 =
 new
@@ -65,6 +66,12 @@ mHwnd
 aDoc
 )
 ;
+AppendChild
+(
+mNativeAccessible
+)
+;
+}
 }
 void
 HTMLWin32ObjectOwnerAccessible
@@ -123,15 +130,6 @@ CacheChildren
 (
 )
 {
-if
-(
-mNativeAccessible
-)
-AppendChild
-(
-mNativeAccessible
-)
-;
 }
 HTMLWin32ObjectAccessible
 :
