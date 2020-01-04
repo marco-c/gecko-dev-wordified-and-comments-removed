@@ -1285,14 +1285,14 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
+if
 (
 !
 IsShutdown
 (
 )
 )
-;
+{
 mOwner
 -
 >
@@ -1300,6 +1300,7 @@ UpdateReadyState
 (
 )
 ;
+}
 }
 virtual
 MediaDecoderOwner
