@@ -735,7 +735,7 @@ eSVGEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_SVG_LOAD
+eSVGLoad
 eSVGEventFirst
 )
 NS_EVENT_MESSAGE

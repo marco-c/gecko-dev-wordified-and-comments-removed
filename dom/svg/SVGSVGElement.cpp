@@ -2336,7 +2336,7 @@ mEvent
 mMessage
 =
 =
-NS_SVG_LOAD
+eSVGLoad
 )
 {
 if

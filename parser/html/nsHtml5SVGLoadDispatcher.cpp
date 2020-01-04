@@ -92,7 +92,7 @@ WidgetEvent
 event
 (
 true
-NS_SVG_LOAD
+eSVGLoad
 )
 ;
 event
