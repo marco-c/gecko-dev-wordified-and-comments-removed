@@ -851,8 +851,12 @@ MOZ_ASSERT
 zone
 )
 ;
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+IsNurseryAllocable
+(
+kind
+)
 rt
 -
 >
@@ -1155,6 +1159,13 @@ isHeapBusy
 )
 )
 {
+if
+(
+IsNurseryAllocable
+(
+kind
+)
+)
 rt
 -
 >
