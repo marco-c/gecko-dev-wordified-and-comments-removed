@@ -158,6 +158,8 @@ AST_LIFO_DEFAULT_CHUNK_SIZE
 =
 4096
 ;
+namespace
+{
 class
 WasmAstExpr
 ;
@@ -2078,6 +2080,9 @@ op_
 }
 }
 ;
+}
+namespace
+{
 class
 WasmToken
 {
@@ -9199,6 +9204,9 @@ begin
 )
 ;
 }
+}
+namespace
+{
 struct
 WasmParseContext
 {
@@ -13534,6 +13542,7 @@ nullptr
 return
 module
 ;
+}
 }
 static
 bool
