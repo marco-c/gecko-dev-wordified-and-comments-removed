@@ -39423,7 +39423,7 @@ accessiblecaret
 .
 timeout_ms
 "
-3000
+0
 )
 ;
 pref
