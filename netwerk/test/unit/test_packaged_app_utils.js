@@ -714,6 +714,7 @@ verifyManifest
 aHeader
 aManifest
 fakeVerifier
+false
 )
 ;
 }
