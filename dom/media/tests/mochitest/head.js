@@ -1572,7 +1572,6 @@ catch
 e
 =
 >
-{
 ok
 (
 false
@@ -1629,14 +1628,6 @@ join
 '
 )
 )
-;
-SimpleTest
-.
-finish
-(
-)
-;
-}
 )
 ;
 }
