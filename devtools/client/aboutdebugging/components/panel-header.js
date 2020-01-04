@@ -36,7 +36,7 @@ createClass
 displayName
 :
 "
-TabHeader
+PanelHeader
 "
 render
 (

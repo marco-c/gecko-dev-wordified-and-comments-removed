@@ -50,6 +50,9 @@ require
 .
 .
 /
+.
+.
+/
 modules
 /
 worker
@@ -67,7 +70,7 @@ Services
 )
 ;
 const
-TabHeader
+PanelHeader
 =
 createFactory
 (
@@ -75,8 +78,9 @@ require
 (
 "
 .
+.
 /
-tab
+panel
 -
 header
 "
@@ -91,6 +95,7 @@ createFactory
 require
 (
 "
+.
 .
 /
 target
@@ -110,8 +115,6 @@ require
 "
 .
 /
-worker
--
 target
 "
 )
@@ -191,7 +194,7 @@ createClass
 displayName
 :
 "
-WorkersTab
+WorkersPanel
 "
 getInitialState
 (
@@ -602,12 +605,10 @@ div
 (
 {
 id
-:
-id
 className
 :
 "
-tab
+panel
 "
 role
 :
@@ -621,7 +622,7 @@ labelledby
 "
 :
 "
-tab
+panel
 -
 workers
 -
@@ -630,15 +631,15 @@ header
 name
 "
 }
-TabHeader
+PanelHeader
 (
 {
 id
 :
 "
-tab
--
 workers
+-
+panel
 -
 header
 -

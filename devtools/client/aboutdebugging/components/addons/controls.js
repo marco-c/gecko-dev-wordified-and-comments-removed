@@ -84,8 +84,6 @@ require
 "
 .
 /
-addons
--
 install
 -
 error
