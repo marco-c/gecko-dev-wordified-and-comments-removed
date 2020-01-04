@@ -590,6 +590,14 @@ MediaSource
 ?
 mozMediaSourceObject
 ;
+[
+ChromeOnly
+]
+readonly
+attribute
+DOMString
+mozDebugReaderData
+;
 attribute
 MediaStream
 ?
