@@ -739,8 +739,11 @@ cairo_t
 gfxContext
 :
 :
-GetCairo
+RefCairo
 (
+DrawTarget
+*
+aDT
 )
 {
 static
@@ -755,7 +758,7 @@ nullptr
 ;
 if
 (
-mDT
+aDT
 -
 >
 GetBackendType
@@ -777,7 +780,7 @@ cairo_t
 *
 >
 (
-mDT
+aDT
 -
 >
 GetNativeSurface
@@ -807,7 +810,7 @@ cairo_t
 *
 >
 (
-mDT
+aDT
 -
 >
 GetUserData
@@ -845,7 +848,7 @@ CairoSurface
 )
 )
 ;
-mDT
+aDT
 -
 >
 AddUserData
@@ -6810,8 +6813,14 @@ cairo_t
 *
 cr
 =
-GetCairo
+gfxContext
+:
+:
+RefCairo
 (
+GetDrawTarget
+(
+)
 )
 ;
 cairo_scaled_font_t

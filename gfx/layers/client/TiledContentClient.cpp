@@ -351,10 +351,12 @@ cairo_t
 *
 cr
 =
-c
-.
-GetCairo
+gfxContext
+:
+:
+RefCairo
 (
+dt
 )
 ;
 cairo_set_font_size
