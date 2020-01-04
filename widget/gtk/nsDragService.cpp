@@ -1689,7 +1689,7 @@ GDK_DRAWABLE
 (
 pixmap
 )
-IntRect
+IntSize
 (
 dragRect
 .
