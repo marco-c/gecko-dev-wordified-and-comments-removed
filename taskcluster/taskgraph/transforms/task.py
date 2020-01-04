@@ -314,12 +314,6 @@ mobile
 '
 b2g
 '
-'
-lint
-'
-'
-harness_test
-'
 )
         
 '
