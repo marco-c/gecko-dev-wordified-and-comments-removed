@@ -861,6 +861,14 @@ css
 lexer
 .
 js
+!
+devtools
+/
+shared
+/
+task
+.
+js
 devtools
 /
 shared

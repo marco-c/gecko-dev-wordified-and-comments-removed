@@ -325,6 +325,11 @@ system
 js
 '
 '
+task
+.
+js
+'
+'
 ThreadSafeDevToolsUtils
 .
 js
