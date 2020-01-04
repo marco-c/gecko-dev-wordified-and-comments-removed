@@ -105,6 +105,9 @@ FileSystemRequestParent
 h
 "
 #
+ifdef
+MOZ_GAMEPAD
+#
 include
 "
 mozilla
@@ -126,6 +129,8 @@ GamepadTestChannelParent
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -3740,6 +3745,9 @@ AllocPGamepadEventChannelParent
 (
 )
 {
+#
+ifdef
+MOZ_GAMEPAD
 RefPtr
 <
 dom
@@ -3768,6 +3776,13 @@ take
 (
 )
 ;
+#
+else
+return
+nullptr
+;
+#
+endif
 }
 bool
 BackgroundParentImpl
@@ -3783,6 +3798,9 @@ PGamepadEventChannelParent
 aActor
 )
 {
+#
+ifdef
+MOZ_GAMEPAD
 MOZ_ASSERT
 (
 aActor
@@ -3812,6 +3830,8 @@ aActor
 )
 )
 ;
+#
+endif
 return
 true
 ;
@@ -3828,6 +3848,9 @@ AllocPGamepadTestChannelParent
 (
 )
 {
+#
+ifdef
+MOZ_GAMEPAD
 RefPtr
 <
 dom
@@ -3856,6 +3879,13 @@ take
 (
 )
 ;
+#
+else
+return
+nullptr
+;
+#
+endif
 }
 bool
 BackgroundParentImpl
@@ -3871,6 +3901,9 @@ PGamepadTestChannelParent
 aActor
 )
 {
+#
+ifdef
+MOZ_GAMEPAD
 MOZ_ASSERT
 (
 aActor
@@ -3900,6 +3933,8 @@ aActor
 )
 )
 ;
+#
+endif
 return
 true
 ;

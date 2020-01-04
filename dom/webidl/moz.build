@@ -910,11 +910,6 @@ GainNode
 webidl
 '
 '
-GamepadServiceTest
-.
-webidl
-'
-'
 Geolocation
 .
 webidl
@@ -3318,6 +3313,11 @@ WEBIDL_FILES
 [
 '
 Gamepad
+.
+webidl
+'
+'
+GamepadServiceTest
 .
 webidl
 '
