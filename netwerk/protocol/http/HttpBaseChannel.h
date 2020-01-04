@@ -1850,6 +1850,15 @@ ReleaseListeners
 (
 )
 ;
+void
+NotifySetCookie
+(
+char
+const
+*
+aCookie
+)
+;
 mozilla
 :
 :
