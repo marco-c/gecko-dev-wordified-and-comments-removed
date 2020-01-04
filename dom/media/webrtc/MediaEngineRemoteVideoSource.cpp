@@ -553,7 +553,7 @@ mOverconstrained
 )
 {
 return
-NS_ERROR_NOT_AVAILABLE
+NS_ERROR_FAILURE
 ;
 }
 if
@@ -568,7 +568,7 @@ aDeviceId
 )
 {
 return
-NS_ERROR_NOT_AVAILABLE
+NS_ERROR_FAILURE
 ;
 }
 if
