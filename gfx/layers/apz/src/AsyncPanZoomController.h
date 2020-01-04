@@ -615,7 +615,7 @@ bool
 CanScrollWithWheel
 (
 const
-LayoutDevicePoint
+ParentLayerPoint
 &
 aDelta
 )
@@ -798,7 +798,7 @@ ScrollWheelInput
 aEvent
 )
 ;
-LayoutDevicePoint
+ParentLayerPoint
 GetScrollWheelDelta
 (
 const

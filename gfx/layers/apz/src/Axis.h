@@ -221,7 +221,7 @@ const
 bool
 CanScroll
 (
-double
+ParentLayerCoord
 aDelta
 )
 const
