@@ -192,7 +192,7 @@ mState
 nsIPresentationSessionListener
 :
 :
-STATE_CLOSED
+STATE_CONNECTING
 )
 mCallback
 (

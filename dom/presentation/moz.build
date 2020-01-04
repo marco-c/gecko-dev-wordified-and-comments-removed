@@ -196,6 +196,11 @@ PresentationConnection
 h
 '
 '
+PresentationConnectionList
+.
+h
+'
+'
 PresentationDeviceManager
 .
 h
@@ -273,6 +278,11 @@ cpp
 '
 '
 PresentationConnection
+.
+cpp
+'
+'
+PresentationConnectionList
 .
 cpp
 '

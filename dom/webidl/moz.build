@@ -1940,6 +1940,11 @@ PresentationConnection
 webidl
 '
 '
+PresentationConnectionList
+.
+webidl
+'
+'
 PresentationDeviceInfoManager
 .
 webidl
