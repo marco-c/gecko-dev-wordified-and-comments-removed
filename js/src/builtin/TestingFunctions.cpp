@@ -30,7 +30,7 @@ include
 "
 mozilla
 /
-Snprintf
+Sprintf
 .
 h
 "
@@ -1665,7 +1665,7 @@ buf
 #
 ifndef
 JS_MORE_DETERMINISTIC
-snprintf_literal
+SprintfLiteral
 (
 buf
 "
@@ -13820,7 +13820,7 @@ buffer
 64
 ]
 ;
-snprintf_literal
+SprintfLiteral
 (
 buffer
 "
@@ -14072,7 +14072,7 @@ buffer
 uint32_t
 nchar
 =
-snprintf_literal
+SprintfLiteral
 (
 buffer
 "

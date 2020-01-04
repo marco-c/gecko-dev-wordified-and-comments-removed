@@ -28361,7 +28361,6 @@ message
 ;
 }
 else
-{
 if
 (
 aRequest
@@ -28370,6 +28369,7 @@ Ci
 .
 nsIHttpChannel
 )
+{
 this
 .
 downloadFailed
@@ -28389,7 +28389,9 @@ aRequest
 responseStatusText
 )
 ;
+}
 else
+{
 this
 .
 downloadFailed
@@ -35318,7 +35320,6 @@ val
 }
 }
 else
-{
 if
 (
 !
@@ -35326,6 +35327,7 @@ addon
 .
 userDisabled
 )
+{
 addon
 .
 softDisabled
