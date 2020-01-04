@@ -59,11 +59,6 @@ StaticPtr
 .
 h
 "
-extern
-PRThread
-*
-gSocketThread
-;
 namespace
 mozilla
 {

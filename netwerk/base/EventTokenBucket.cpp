@@ -57,11 +57,6 @@ h
 >
 #
 endif
-extern
-PRThread
-*
-gSocketThread
-;
 namespace
 mozilla
 {

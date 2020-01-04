@@ -204,11 +204,6 @@ Telemetry
 .
 h
 "
-extern
-PRThread
-*
-gSocketThread
-;
 namespace
 mozilla
 {

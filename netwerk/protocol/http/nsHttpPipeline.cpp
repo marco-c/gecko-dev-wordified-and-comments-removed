@@ -49,6 +49,13 @@ h
 "
 #
 include
+"
+nsSocketTransportService2
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -62,11 +69,6 @@ prthread
 .
 h
 "
-extern
-PRThread
-*
-gSocketThread
-;
 #
 endif
 namespace

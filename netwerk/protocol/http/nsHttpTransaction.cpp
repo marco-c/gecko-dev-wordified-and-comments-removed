@@ -206,16 +206,6 @@ h
 "
 #
 endif
-#
-ifdef
-DEBUG
-extern
-PRThread
-*
-gSocketThread
-;
-#
-endif
 static
 NS_DEFINE_CID
 (
