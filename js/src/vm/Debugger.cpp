@@ -6244,7 +6244,6 @@ ac
 frame
 thisVForCheck
 rv
-&
 status
 *
 vp
@@ -6775,8 +6774,8 @@ name
 JSTrapStatus
 status
 JSTrapStatus
-*
-statusOut
+&
+statusp
 MutableHandleValue
 vp
 int
@@ -6812,8 +6811,7 @@ found
 *
 hits
 ;
-*
-statusOut
+statusp
 =
 status
 ;
@@ -6847,7 +6845,7 @@ cx
 HandleValue
 rv
 JSTrapStatus
-*
+&
 statusp
 MutableHandleValue
 vp
@@ -6964,7 +6962,7 @@ cx
 HandleValue
 rval
 JSTrapStatus
-*
+&
 statusp
 MutableHandleValue
 vp
@@ -6979,7 +6977,6 @@ isUndefined
 )
 )
 {
-*
 statusp
 =
 JSTRAP_CONTINUE
@@ -7003,7 +7000,6 @@ isNull
 )
 )
 {
-*
 statusp
 =
 JSTRAP_ERROR
@@ -7165,7 +7161,7 @@ maybeThisv
 HandleValue
 rval
 JSTrapStatus
-*
+&
 statusp
 MutableHandleValue
 vp
@@ -7213,7 +7209,6 @@ CheckResumptionValue
 cx
 frame
 maybeThisv
-*
 statusp
 vp
 )
@@ -7247,7 +7242,6 @@ vp
 )
 )
 {
-*
 statusp
 =
 JSTRAP_ERROR
@@ -7352,7 +7346,6 @@ ac
 frame
 thisVForCheck
 rvRoot
-&
 status
 &
 v
