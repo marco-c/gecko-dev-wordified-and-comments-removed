@@ -15,7 +15,7 @@ this
 var
 len
 =
-TO_UINT32
+ToLength
 (
 O
 .
@@ -244,7 +244,7 @@ this
 var
 len
 =
-TO_UINT32
+ToLength
 (
 O
 .
@@ -458,7 +458,7 @@ list
 var
 len
 =
-TO_UINT32
+ToLength
 (
 O
 .
@@ -499,7 +499,7 @@ this
 var
 len
 =
-TO_UINT32
+ToLength
 (
 O
 .
@@ -699,7 +699,7 @@ this
 var
 len
 =
-TO_UINT32
+ToLength
 (
 O
 .
@@ -898,7 +898,7 @@ this
 var
 len
 =
-TO_UINT32
+ToLength
 (
 O
 .
@@ -1004,7 +1004,7 @@ this
 var
 len
 =
-TO_UINT32
+ToLength
 (
 O
 .
@@ -1198,7 +1198,7 @@ this
 var
 len
 =
-TO_UINT32
+ToLength
 (
 O
 .
@@ -1411,7 +1411,7 @@ this
 var
 len
 =
-ToInteger
+ToLength
 (
 O
 .
@@ -1638,7 +1638,7 @@ this
 var
 len
 =
-TO_UINT32
+ToLength
 (
 O
 .
@@ -1930,7 +1930,7 @@ this
 var
 len
 =
-TO_UINT32
+ToLength
 (
 O
 .
@@ -2226,7 +2226,7 @@ this
 var
 len
 =
-ToInteger
+ToLength
 (
 O
 .
@@ -2350,7 +2350,7 @@ this
 var
 len
 =
-ToInteger
+ToLength
 (
 O
 .
@@ -2474,7 +2474,7 @@ this
 var
 len
 =
-ToInteger
+ToLength
 (
 O
 .
@@ -2738,7 +2738,7 @@ this
 var
 len
 =
-ToInteger
+ToLength
 (
 O
 .
@@ -3113,7 +3113,7 @@ PossiblyWrappedTypedArrayLength
 a
 )
 :
-TO_UINT32
+ToLength
 (
 a
 .
