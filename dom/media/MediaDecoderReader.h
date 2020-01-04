@@ -310,12 +310,6 @@ ReleaseMediaResources
 {
 }
 virtual
-void
-BreakCycles
-(
-)
-;
-virtual
 RefPtr
 <
 ShutdownPromise

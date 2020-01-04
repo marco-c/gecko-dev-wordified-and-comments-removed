@@ -576,13 +576,6 @@ NS_IsMainThread
 )
 ;
 mDecoderReader
--
->
-BreakCycles
-(
-)
-;
-mDecoderReader
 =
 nullptr
 ;

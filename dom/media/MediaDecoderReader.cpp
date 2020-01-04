@@ -1732,15 +1732,6 @@ return
 p
 ;
 }
-void
-MediaDecoderReader
-:
-:
-BreakCycles
-(
-)
-{
-}
 RefPtr
 <
 ShutdownPromise

@@ -495,13 +495,6 @@ NS_IsMainThread
 )
 )
 ;
-mReader
--
->
-BreakCycles
-(
-)
-;
 mResource
 =
 nullptr
