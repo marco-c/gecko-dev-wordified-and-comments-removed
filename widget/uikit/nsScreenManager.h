@@ -189,7 +189,7 @@ UIKitScreenManager
 NS_DECL_ISUPPORTS
 NS_DECL_NSISCREENMANAGER
 static
-nsIntRect
+LayoutDeviceIntRect
 GetBounds
 (
 )

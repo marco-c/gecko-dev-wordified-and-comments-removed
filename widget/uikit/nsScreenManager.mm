@@ -124,7 +124,7 @@ nsAppShell
 h
 "
 static
-nsIntRect
+LayoutDeviceIntRect
 gScreenBounds
 ;
 static
@@ -448,7 +448,7 @@ mainScreen
 )
 {
 }
-nsIntRect
+LayoutDeviceIntRect
 UIKitScreenManager
 :
 :

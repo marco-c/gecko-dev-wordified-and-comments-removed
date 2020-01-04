@@ -293,10 +293,6 @@ aInitData
 mBounds
 =
 aRect
-.
-ToUnknownRect
-(
-)
 ;
 mEnabled
 =

@@ -2772,7 +2772,7 @@ mPaintDC
 HDC
 mCompositeDC
 ;
-nsIntRect
+LayoutDeviceIntRect
 mLastPaintBounds
 ;
 enum

@@ -5743,13 +5743,7 @@ aRect
 {
 aRect
 =
-LayoutDeviceIntRect
-:
-:
-FromUnknownRect
-(
 mBounds
-)
 ;
 return
 NS_OK

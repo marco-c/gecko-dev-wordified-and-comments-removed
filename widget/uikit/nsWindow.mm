@@ -384,7 +384,7 @@ CGRect
 DevPixelsToUIKitPoints
 (
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aRect
 CGFloat
@@ -3388,10 +3388,6 @@ else
 mBounds
 =
 aRect
-.
-ToUnknownRect
-(
-)
 ;
 }
 ALOG
