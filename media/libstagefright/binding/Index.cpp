@@ -1309,6 +1309,9 @@ if
 indice
 .
 sync
+|
+|
+mIsAudio
 )
 {
 haveSync
@@ -1374,6 +1377,9 @@ mSync
 indice
 .
 sync
+|
+|
+mIsAudio
 ;
 MOZ_ALWAYS_TRUE
 (
