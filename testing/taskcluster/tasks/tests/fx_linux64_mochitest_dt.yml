@@ -109,6 +109,8 @@ mochitest
 devtools
 -
 chrome
+-
+chunked
 treeherder
 :
 groupName
