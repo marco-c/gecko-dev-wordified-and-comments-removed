@@ -500,7 +500,6 @@ aCallback
 this
 aContext
 aExtendedRegionToDraw
-&
 aExtendedRegionToDraw
 aClip
 aRegionToInvalidate

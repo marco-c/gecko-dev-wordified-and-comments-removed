@@ -641,7 +641,7 @@ nsIntRegion
 aRegionToDraw
 const
 nsIntRegion
-*
+&
 aDirtyRegion
 mozilla
 :

@@ -464,7 +464,9 @@ ctx
 iter
 .
 mDrawRegion
-nullptr
+iter
+.
+mDrawRegion
 state
 .
 mClip
