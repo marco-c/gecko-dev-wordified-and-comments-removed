@@ -168,6 +168,13 @@ common
 js
 '
 '
+css
+-
+properties
+.
+js
+'
+'
 csscoverage
 .
 js

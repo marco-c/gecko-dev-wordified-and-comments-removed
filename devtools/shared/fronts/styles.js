@@ -613,6 +613,7 @@ startModifyingProperties
 :
 function
 (
+cssProperties
 )
 {
 if
@@ -626,6 +627,9 @@ return
 new
 RuleRewriter
 (
+cssProperties
+.
+isKnown
 this
 this
 .
