@@ -1186,6 +1186,14 @@ arm
 "
 ;
 then
+NEON_FLAGS
+=
+"
+-
+mfpu
+=
+neon
+"
 AC_MSG_CHECKING
 (
 for
@@ -1529,6 +1537,10 @@ BUILD_ARM_NEON
 AC_SUBST
 (
 ARM_ARCH
+)
+AC_SUBST_LIST
+(
+NEON_FLAGS
 )
 ]
 )
