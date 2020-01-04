@@ -156,6 +156,9 @@ MediaByteBuffer
 >
 mExtraData
 ;
+AVCodecID
+mCodecID
+;
 private
 :
 static
@@ -165,9 +168,6 @@ sFFmpegInitDone
 static
 StaticMutex
 sMonitor
-;
-AVCodecID
-mCodecID
 ;
 }
 ;
