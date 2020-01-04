@@ -171,6 +171,16 @@ aPresShell
 )
 ;
 static
+nsPresContext
+*
+GetPresContextForContent
+(
+nsIContent
+*
+aContent
+)
+;
+static
 nsIPresShell
 *
 GetRootContentDocumentPresShellForContent
