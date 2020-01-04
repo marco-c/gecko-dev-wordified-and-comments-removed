@@ -5153,7 +5153,7 @@ capturestream
 .
 enabled
 "
-false
+true
 )
 ;
 pref
