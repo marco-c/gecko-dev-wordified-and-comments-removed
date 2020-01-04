@@ -5466,8 +5466,7 @@ serverPort
 var
 portSelection
 =
--
-1
+0
 ;
 var
 envport
