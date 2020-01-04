@@ -121,6 +121,13 @@ Addresses
 for
 TCP
 channel
+(
+as
+a
+list
+of
+nsISupportsCString
+)
 .
 /
 /
