@@ -503,6 +503,7 @@ aOutBadConstraint
 )
 override
 {
+*
 aOutHandle
 =
 nullptr

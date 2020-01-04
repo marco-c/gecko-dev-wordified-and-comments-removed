@@ -731,6 +731,7 @@ Value
 -
 1
 ;
+*
 aOutHandle
 =
 nullptr

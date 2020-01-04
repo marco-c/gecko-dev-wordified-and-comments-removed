@@ -474,6 +474,7 @@ mState
 =
 kAllocated
 ;
+*
 aOutHandle
 =
 nullptr
@@ -1796,6 +1797,7 @@ mFreq
 )
 )
 ;
+*
 aOutHandle
 =
 nullptr
