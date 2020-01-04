@@ -281,6 +281,7 @@ correct
 .
 "
 )
+yield
 resumeDebuggerThenCloseAndFinish
 (
 gPanel

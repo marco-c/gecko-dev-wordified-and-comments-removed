@@ -3878,6 +3878,15 @@ getCurrentPanel
 )
 ;
 yield
+waitForSourceShown
+(
+this
+.
+debuggerPanel
+'
+'
+)
+;
 prepareDebugger
 (
 this
