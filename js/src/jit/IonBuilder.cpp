@@ -3215,6 +3215,9 @@ true
 ;
 }
 }
+if
+(
+!
 loopHeaders_
 .
 append
@@ -3225,6 +3228,9 @@ start
 entry
 )
 )
+)
+return
+false
 ;
 jsbytecode
 *
@@ -26840,7 +26846,7 @@ false
 }
 choiceSet
 .
-append
+infallibleAppend
 (
 inlineable
 )
