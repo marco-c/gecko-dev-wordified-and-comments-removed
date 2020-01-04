@@ -2130,6 +2130,14 @@ push
 promise
 )
 ;
+data
+.
+currentAudioBackend
+=
+winUtils
+.
+currentAudioBackend
+;
 if
 (
 !

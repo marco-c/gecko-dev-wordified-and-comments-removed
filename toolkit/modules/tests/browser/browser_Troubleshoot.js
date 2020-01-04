@@ -933,6 +933,15 @@ type
 string
 "
 }
+currentAudioBackend
+:
+{
+type
+:
+"
+string
+"
+}
 numAcceleratedWindowsMessage
 :
 {

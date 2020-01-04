@@ -143,6 +143,14 @@ aChannel
 ;
 #
 endif
+void
+GetCurrentBackend
+(
+nsAString
+&
+aBackend
+)
+;
 }
 }
 #
