@@ -1460,12 +1460,6 @@ IsOmxEnabled
 (
 )
 ;
-static
-bool
-IsOmxAsyncEnabled
-(
-)
-;
 #
 endif
 #
