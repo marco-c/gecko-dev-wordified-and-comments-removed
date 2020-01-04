@@ -54,7 +54,7 @@ NoticeProxyDestruction
 {
 mProxy
 =
-0
+nullptr
 ;
 }
 nsWeakReference
@@ -76,10 +76,9 @@ HasWeakReferences
 const
 {
 return
-mProxy
 !
-=
-0
+!
+mProxy
 ;
 }
 }
