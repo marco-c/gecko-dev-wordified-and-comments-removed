@@ -217,9 +217,6 @@ partial
 interface
 ServiceWorkerRegistration
 {
-#
-ifndef
-MOZ_SIMPLEPUSH
 [
 Throws
 Exposed
@@ -242,7 +239,5 @@ attribute
 PushManager
 pushManager
 ;
-#
-endif
 }
 ;

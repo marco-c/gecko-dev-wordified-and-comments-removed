@@ -3579,18 +3579,6 @@ components
 Push
 .
 manifest
-#
-ifdef
-MOZ_SIMPLEPUSH
-RESPATH
-/
-components
-/
-PushServiceLauncher
-.
-js
-#
-else
 RESPATH
 /
 components
@@ -3598,8 +3586,6 @@ components
 PushComponents
 .
 js
-#
-endif
 RESPATH
 /
 components
