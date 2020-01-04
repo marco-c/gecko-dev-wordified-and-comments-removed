@@ -18052,7 +18052,7 @@ const
 size_t
 kStackQuota
 =
-900
+980
 *
 1024
 ;
