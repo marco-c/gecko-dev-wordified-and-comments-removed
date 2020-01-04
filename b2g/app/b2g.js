@@ -6976,6 +6976,16 @@ true
 pref
 (
 "
+apz
+.
+displayport_expiry_ms
+"
+0
+)
+;
+pref
+(
+"
 layout
 .
 event
