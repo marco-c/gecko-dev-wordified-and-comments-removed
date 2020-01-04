@@ -701,6 +701,10 @@ worker
 clients
 -
 get
+-
+cross
+-
+origin
 .
 https
 .
@@ -725,6 +729,10 @@ worker
 clients
 -
 get
+-
+cross
+-
+origin
 .
 https
 .
@@ -749,6 +757,10 @@ worker
 clients
 -
 get
+-
+cross
+-
+origin
 .
 https
 .
@@ -768,10 +780,6 @@ worker
 clients
 -
 get
--
-cross
--
-origin
 .
 https
 .
@@ -796,10 +804,6 @@ worker
 clients
 -
 get
--
-cross
--
-origin
 .
 https
 .
@@ -824,10 +828,6 @@ worker
 clients
 -
 get
--
-cross
--
-origin
 .
 https
 .
