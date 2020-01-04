@@ -451,6 +451,7 @@ ImageBridgeChild
 }
 protected
 :
+MOZ_IS_CLASS_INIT
 void
 Init
 (
