@@ -3484,6 +3484,17 @@ devPixelsPerPx
 prefs
 [
 "
+apz
+.
+allow_zooming
+"
+]
+=
+False
+        
+prefs
+[
+"
 gfx
 .
 canvas
