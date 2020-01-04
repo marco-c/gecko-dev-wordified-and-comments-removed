@@ -90,6 +90,9 @@ Element
 class
 ImageData
 ;
+class
+ArrayBufferViewOrSharedArrayBufferView
+;
 }
 inline
 bool
@@ -380,7 +383,7 @@ const
 dom
 :
 :
-ArrayBufferView
+ArrayBufferViewOrSharedArrayBufferView
 &
 view
 )
@@ -408,7 +411,7 @@ const
 dom
 :
 :
-ArrayBufferView
+ArrayBufferViewOrSharedArrayBufferView
 &
 view
 )
@@ -434,7 +437,7 @@ const
 dom
 :
 :
-ArrayBufferView
+ArrayBufferViewOrSharedArrayBufferView
 &
 view
 )
@@ -466,7 +469,7 @@ const
 dom
 :
 :
-ArrayBufferView
+ArrayBufferViewOrSharedArrayBufferView
 &
 view
 )
@@ -564,7 +567,7 @@ Nullable
 dom
 :
 :
-ArrayBufferView
+ArrayBufferViewOrSharedArrayBufferView
 >
 &
 maybeView
@@ -654,7 +657,7 @@ Nullable
 dom
 :
 :
-ArrayBufferView
+ArrayBufferViewOrSharedArrayBufferView
 >
 &
 maybeView
@@ -724,7 +727,7 @@ Nullable
 dom
 :
 :
-ArrayBufferView
+ArrayBufferViewOrSharedArrayBufferView
 >
 &
 maybeView
@@ -820,7 +823,7 @@ Nullable
 dom
 :
 :
-ArrayBufferView
+ArrayBufferViewOrSharedArrayBufferView
 >
 &
 maybeView
