@@ -1714,11 +1714,6 @@ BinaryName
 "
 fullscreen
 "
-Deprecated
-=
-"
-PrefixedFullscreenAPI
-"
 ]
 readonly
 attribute
@@ -1746,11 +1741,6 @@ BinaryName
 =
 "
 fullscreenEnabled
-"
-Deprecated
-=
-"
-PrefixedFullscreenAPI
 "
 ]
 readonly
@@ -1781,11 +1771,6 @@ BinaryName
 "
 fullscreenElement
 "
-Deprecated
-=
-"
-PrefixedFullscreenAPI
-"
 ]
 readonly
 attribute
@@ -1813,11 +1798,6 @@ BinaryName
 =
 "
 exitFullscreen
-"
-Deprecated
-=
-"
-PrefixedFullscreenAPI
 "
 ]
 void

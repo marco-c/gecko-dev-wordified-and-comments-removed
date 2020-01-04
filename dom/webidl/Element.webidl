@@ -1777,11 +1777,6 @@ BinaryName
 "
 requestFullscreen
 "
-Deprecated
-=
-"
-PrefixedFullscreenAPI
-"
 ]
 void
 mozRequestFullScreen
