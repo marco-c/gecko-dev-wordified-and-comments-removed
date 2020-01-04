@@ -1,4 +1,4 @@
-;
+#
 This
 Source
 Code
@@ -12,7 +12,7 @@ of
 the
 Mozilla
 Public
-;
+#
 License
 v
 .
@@ -31,7 +31,7 @@ not
 distributed
 with
 this
-;
+#
 file
 You
 can
@@ -53,11 +53,6 @@ MPL
 0
 /
 .
-LIBRARY
-mozsqlite3
-.
-dll
-EXPORTS
 sqlite3_aggregate_context
 sqlite3_aggregate_count
 sqlite3_auto_extension
