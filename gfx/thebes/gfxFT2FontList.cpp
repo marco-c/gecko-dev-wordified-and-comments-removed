@@ -5436,9 +5436,7 @@ AgeAllGenerations
 (
 )
 ;
-mPrefFonts
-.
-Clear
+ClearLangGroupPrefFonts
 (
 )
 ;
