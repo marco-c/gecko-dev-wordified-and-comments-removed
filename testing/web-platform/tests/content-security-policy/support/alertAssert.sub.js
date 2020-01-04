@@ -91,7 +91,7 @@ alerts
 '
 )
 ;
-setTimeout
+step_timeout
 (
 function
 (
@@ -149,7 +149,7 @@ done
 }
 timeout
 *
-100
+1000
 )
 ;
 var
