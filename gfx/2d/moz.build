@@ -388,6 +388,11 @@ DrawTargetCG
 cpp
 '
 '
+NativeFontResourceMac
+.
+cpp
+'
+'
 PathCG
 .
 cpp

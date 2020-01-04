@@ -157,6 +157,17 @@ void
 aBaton
 )
 ;
+#
+ifdef
+USE_CAIRO_SCALED_FONT
+cairo_font_face_t
+*
+GetCairoFontFace
+(
+)
+;
+#
+endif
 private
 :
 friend

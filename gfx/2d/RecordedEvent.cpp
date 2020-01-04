@@ -7992,6 +7992,16 @@ GetDesiredFontType
 )
 )
 ;
+if
+(
+!
+fontResource
+)
+{
+return
+false
+;
+}
 aTranslator
 -
 >
