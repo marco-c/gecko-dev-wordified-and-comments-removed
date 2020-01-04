@@ -857,7 +857,7 @@ aCallback
 CDMProxy
 *
 aProxy
-FlushableTaskQueue
+TaskQueue
 *
 aTaskQueue
 )
@@ -1068,7 +1068,7 @@ aCallback
 CDMProxy
 *
 aProxy
-FlushableTaskQueue
+TaskQueue
 *
 aTaskQueue
 )
