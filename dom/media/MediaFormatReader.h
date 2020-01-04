@@ -458,7 +458,7 @@ TrackType
 aTrack
 )
 ;
-bool
+MediaResult
 EnsureDecoderCreated
 (
 TrackType
@@ -677,11 +677,6 @@ const
 MediaResult
 &
 aError
-=
-MediaResult
-(
-NS_ERROR_DOM_MEDIA_FATAL_ERR
-)
 )
 ;
 void
