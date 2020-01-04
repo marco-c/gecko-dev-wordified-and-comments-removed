@@ -69,7 +69,7 @@ txt
 define
 SERVICEWORKERREGISTRAR_VERSION
 "
-2
+3
 "
 #
 define

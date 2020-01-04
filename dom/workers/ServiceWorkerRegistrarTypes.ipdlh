@@ -130,9 +130,6 @@ nsCString
 scope
 ;
 nsCString
-scriptSpec
-;
-nsCString
 currentWorkerURL
 ;
 nsString

@@ -632,17 +632,6 @@ IsEmpty
 |
 aData
 .
-scriptSpec
-(
-)
-.
-IsEmpty
-(
-)
-|
-|
-aData
-.
 principal
 (
 )
