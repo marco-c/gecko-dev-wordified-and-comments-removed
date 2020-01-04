@@ -103,14 +103,6 @@ jar
 mn
 '
 ]
-DIRS
-+
-=
-[
-'
-schemas
-'
-]
 BROWSER_CHROME_MANIFESTS
 +
 =
