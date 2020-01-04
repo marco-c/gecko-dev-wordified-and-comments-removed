@@ -3074,10 +3074,6 @@ debuggerList
 JSCList
 onNewGlobalObjectWatchers
 ;
-void
-*
-data
-;
 #
 if
 defined

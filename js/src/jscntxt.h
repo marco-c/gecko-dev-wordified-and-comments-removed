@@ -1499,6 +1499,10 @@ AutoCycleDetector
 Set
 cycleDetectorSet
 ;
+void
+*
+data
+;
 public
 :
 JSVersion
