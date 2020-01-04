@@ -245,6 +245,11 @@ EditTransactionBase
 cpp
 '
 '
+HTMLEditorEventListener
+.
+cpp
+'
+'
 HTMLEditRules
 .
 cpp
@@ -306,11 +311,6 @@ cpp
 '
 '
 nsHTMLEditor
-.
-cpp
-'
-'
-nsHTMLEditorEventListener
 .
 cpp
 '

@@ -1,7 +1,7 @@
 #
 include
 "
-nsHTMLEditorEventListener
+HTMLEditorEventListener
 .
 h
 "
@@ -160,22 +160,18 @@ nsRange
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 using
 namespace
-mozilla
-:
-:
 dom
 ;
 #
 ifdef
 DEBUG
 nsresult
-nsHTMLEditorEventListener
+HTMLEditorEventListener
 :
 :
 Connect
@@ -237,7 +233,7 @@ aEditor
 endif
 nsHTMLEditor
 *
-nsHTMLEditorEventListener
+HTMLEditorEventListener
 :
 :
 GetHTMLEditor
@@ -256,7 +252,7 @@ mEditor
 ;
 }
 nsresult
-nsHTMLEditorEventListener
+HTMLEditorEventListener
 :
 :
 MouseUp
@@ -365,7 +361,7 @@ aMouseEvent
 ;
 }
 nsresult
-nsHTMLEditorEventListener
+HTMLEditorEventListener
 :
 :
 MouseDown
@@ -973,7 +969,7 @@ aMouseEvent
 ;
 }
 nsresult
-nsHTMLEditorEventListener
+HTMLEditorEventListener
 :
 :
 MouseClick
@@ -1050,4 +1046,5 @@ MouseClick
 aMouseEvent
 )
 ;
+}
 }
