@@ -314,14 +314,6 @@ lir
 )
 ;
 void
-visitMulI64
-(
-LMulI64
-*
-lir
-)
-;
-void
 visitDivOrModI64
 (
 LDivOrModI64
