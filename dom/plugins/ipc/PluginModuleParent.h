@@ -2581,7 +2581,7 @@ nsCOMPtr
 <
 nsIObserver
 >
-mOfflineObserver
+mPluginOfflineObserver
 ;
 #
 ifdef

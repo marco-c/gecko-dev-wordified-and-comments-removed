@@ -9144,7 +9144,7 @@ Clear
 }
 }
 class
-OfflineObserver
+PluginOfflineObserver
 final
 :
 public
@@ -9155,7 +9155,7 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
 explicit
-OfflineObserver
+PluginOfflineObserver
 (
 PluginModuleChromeParent
 *
@@ -9171,7 +9171,7 @@ pmp
 private
 :
 ~
-OfflineObserver
+PluginOfflineObserver
 (
 )
 {
@@ -9184,11 +9184,11 @@ mPmp
 ;
 NS_IMPL_ISUPPORTS
 (
-OfflineObserver
+PluginOfflineObserver
 nsIObserver
 )
 NS_IMETHODIMP
-OfflineObserver
+PluginOfflineObserver
 :
 :
 Observe
@@ -9322,10 +9322,10 @@ if
 observerService
 )
 {
-mOfflineObserver
+mPluginOfflineObserver
 =
 new
-OfflineObserver
+PluginOfflineObserver
 (
 this
 )
@@ -9335,7 +9335,7 @@ observerService
 >
 AddObserver
 (
-mOfflineObserver
+mPluginOfflineObserver
 "
 ipc
 :
@@ -9417,7 +9417,7 @@ observerService
 >
 RemoveObserver
 (
-mOfflineObserver
+mPluginOfflineObserver
 "
 ipc
 :
@@ -9429,7 +9429,7 @@ offline
 "
 )
 ;
-mOfflineObserver
+mPluginOfflineObserver
 =
 nullptr
 ;
