@@ -3012,8 +3012,10 @@ NO_CONSTRUCT
 )
 ;
 }
-static
 bool
+js
+:
+:
 CallFromStack
 (
 JSContext

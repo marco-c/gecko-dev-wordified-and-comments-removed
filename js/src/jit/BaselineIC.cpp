@@ -33416,7 +33416,7 @@ false
 if
 (
 !
-InternalInvoke
+CallFromStack
 (
 cx
 callArgs
