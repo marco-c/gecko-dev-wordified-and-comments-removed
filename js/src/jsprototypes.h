@@ -785,6 +785,14 @@ dummy
 dummy
 )
 \
+imaginary
+(
+WasmTable
+52
+dummy
+dummy
+)
+\
 IF_PROMISE
 (
 real
@@ -792,7 +800,7 @@ imaginary
 )
 (
 Promise
-52
+53
 InitViaClassSpec
 OCLASP
 (

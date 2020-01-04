@@ -42,6 +42,13 @@ WebAssembly
 Memory
 ;
 const
+Table
+=
+WebAssembly
+.
+Table
+;
+const
 mem1Page
 =
 new
