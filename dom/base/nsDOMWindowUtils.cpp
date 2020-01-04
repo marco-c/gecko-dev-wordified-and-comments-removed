@@ -5818,10 +5818,12 @@ MozSwipeGestureUpdate
 "
 )
 )
+{
 msg
 =
-NS_SIMPLE_GESTURE_SWIPE_UPDATE
+eSwipeGestureUpdate
 ;
+}
 else
 if
 (

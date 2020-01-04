@@ -800,7 +800,7 @@ delta
 ;
 SendSwipeEvent
 (
-NS_SIMPLE_GESTURE_SWIPE_UPDATE
+eSwipeGestureUpdate
 0
 mGestureAmount
 )
@@ -1076,7 +1076,7 @@ GetPosition
 ;
 SendSwipeEvent
 (
-NS_SIMPLE_GESTURE_SWIPE_UPDATE
+eSwipeGestureUpdate
 0
 mGestureAmount
 )
