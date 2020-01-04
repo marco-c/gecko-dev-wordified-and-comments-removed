@@ -292,17 +292,5 @@ Default
 encoding
 mimeType
 .
-unsigned
-long
-audioBitsPerSecond
-;
-unsigned
-long
-videoBitsPerSecond
-;
-unsigned
-long
-bitsPerSecond
-;
 }
 ;
