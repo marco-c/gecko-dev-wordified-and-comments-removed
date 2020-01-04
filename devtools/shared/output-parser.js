@@ -341,6 +341,11 @@ TYPE_GRADIENT
 ;
 if
 (
+options
+.
+expectFilter
+|
+|
 this
 .
 _cssPropertySupportsValue
