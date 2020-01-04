@@ -445,6 +445,12 @@ IsDisplayportSuppressed
 (
 )
 ;
+private
+:
+static
+uint64_t
+sLastTargetAPZCNotificationInputBlock
+;
 }
 ;
 }
