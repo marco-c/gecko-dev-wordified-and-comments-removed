@@ -5155,10 +5155,12 @@ JSEXN_INTERNALERR
 "
 cannot
 transfer
-buffer
-aliasing
 WebAssembly
-Memory
+/
+asm
+.
+js
+ArrayBuffer
 "
 )
 /
