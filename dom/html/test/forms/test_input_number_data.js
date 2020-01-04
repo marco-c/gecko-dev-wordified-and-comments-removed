@@ -190,3 +190,9 @@ value
 }
 ]
 ;
+var
+invalidTests
+=
+[
+]
+;
