@@ -4098,10 +4098,6 @@ ConstructMediaTracks
 (
 )
 ;
-Invalidate
-(
-)
-;
 if
 (
 aEventVisibility
@@ -4138,6 +4134,10 @@ forget
 )
 ;
 }
+Invalidate
+(
+)
+;
 EnsureTelemetryReported
 (
 )
