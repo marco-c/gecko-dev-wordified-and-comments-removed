@@ -1256,11 +1256,6 @@ ViewportHasDisplayPort
 nsPresContext
 *
 aPresContext
-nsRect
-*
-aDisplayPort
-=
-nullptr
 )
 ;
 static
