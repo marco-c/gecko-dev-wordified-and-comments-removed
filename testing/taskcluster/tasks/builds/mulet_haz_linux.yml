@@ -328,6 +328,9 @@ symbol
 "
 H
 "
+tier
+:
+3
 machine
 :
 platform
