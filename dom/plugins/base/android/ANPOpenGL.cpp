@@ -178,9 +178,7 @@ context
 )
 -
 >
-GetEGLContext
-(
-)
+mContext
 ;
 }
 static

@@ -1248,10 +1248,6 @@ mTopError
 (
 LOCAL_GL_NO_ERROR
 )
-mLocalErrorScope
-(
-nullptr
-)
 mSharedContext
 (
 sharedContext
