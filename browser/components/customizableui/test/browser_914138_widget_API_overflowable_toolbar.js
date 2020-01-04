@@ -109,6 +109,7 @@ originalWindowWidth
 add_task
 (
 function
+*
 (
 )
 {
@@ -684,6 +685,7 @@ outerHeight
 add_task
 (
 function
+*
 (
 )
 {
@@ -1037,6 +1039,7 @@ outerHeight
 add_task
 (
 function
+*
 (
 )
 {
@@ -1437,6 +1440,7 @@ outerHeight
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

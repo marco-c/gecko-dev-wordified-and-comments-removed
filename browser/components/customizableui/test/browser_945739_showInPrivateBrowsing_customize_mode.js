@@ -23,6 +23,7 @@ widget
 add_task
 (
 function
+*
 testPrivateBrowsingCustomizeModeWidget
 (
 )
@@ -179,6 +180,7 @@ kWidgetId
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

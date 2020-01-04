@@ -6,6 +6,7 @@ strict
 add_task
 (
 function
+*
 (
 )
 {
@@ -250,6 +251,7 @@ toolbar
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

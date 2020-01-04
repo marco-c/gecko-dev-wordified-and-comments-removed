@@ -6,6 +6,7 @@ strict
 add_task
 (
 function
+*
 (
 )
 {
@@ -110,6 +111,7 @@ displayed
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

@@ -22,6 +22,7 @@ spec
 add_task
 (
 function
+*
 (
 )
 {
@@ -263,6 +264,7 @@ addonButtonInPanel
 add_task
 (
 function
+*
 asyncCleanup
 (
 )
@@ -347,6 +349,7 @@ selectedTab
 ;
 }
 function
+*
 checkButtonFunctionality
 (
 aButton

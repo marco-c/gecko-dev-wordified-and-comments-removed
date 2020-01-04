@@ -10,6 +10,7 @@ menuButton
 add_task
 (
 function
+*
 (
 )
 {
@@ -92,6 +93,7 @@ remove
 add_task
 (
 function
+*
 (
 )
 {

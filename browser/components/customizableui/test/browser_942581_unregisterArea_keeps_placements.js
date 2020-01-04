@@ -45,6 +45,7 @@ removeCustomToolbars
 add_task
 (
 function
+*
 (
 )
 {
@@ -571,6 +572,7 @@ palette
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

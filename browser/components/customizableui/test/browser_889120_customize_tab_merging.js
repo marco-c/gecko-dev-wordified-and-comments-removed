@@ -17,6 +17,7 @@ drag
 add_task
 (
 function
+*
 CheckBasicCustomizeMode
 (
 )
@@ -73,6 +74,7 @@ mode
 add_task
 (
 function
+*
 CheckQuickCustomizeModeSwitch
 (
 )
@@ -261,6 +263,7 @@ tab3
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

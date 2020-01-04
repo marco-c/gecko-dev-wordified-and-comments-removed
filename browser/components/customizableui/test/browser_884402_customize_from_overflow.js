@@ -68,6 +68,7 @@ outerHeight
 add_task
 (
 function
+*
 (
 )
 {

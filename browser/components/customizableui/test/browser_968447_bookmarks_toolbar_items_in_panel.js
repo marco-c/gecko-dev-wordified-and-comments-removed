@@ -6,6 +6,7 @@ strict
 add_task
 (
 function
+*
 (
 )
 {
@@ -398,6 +399,7 @@ newWin
 add_task
 (
 function
+*
 asyncCleanUp
 (
 )

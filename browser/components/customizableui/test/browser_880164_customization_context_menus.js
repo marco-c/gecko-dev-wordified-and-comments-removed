@@ -28,6 +28,7 @@ Darwin
 add_task
 (
 function
+*
 (
 )
 {
@@ -204,6 +205,7 @@ hiddenPromise
 add_task
 (
 function
+*
 (
 )
 {
@@ -465,6 +467,7 @@ extraTab
 add_task
 (
 function
+*
 (
 )
 {
@@ -680,6 +683,7 @@ removeCustomToolbars
 add_task
 (
 function
+*
 (
 )
 {
@@ -865,6 +869,7 @@ hiddenPromise
 add_task
 (
 function
+*
 (
 )
 {
@@ -1074,6 +1079,7 @@ navbar
 add_task
 (
 function
+*
 (
 )
 {
@@ -1289,6 +1295,7 @@ hiddenPromise
 add_task
 (
 function
+*
 (
 )
 {
@@ -1472,6 +1479,7 @@ hiddenContextPromise
 add_task
 (
 function
+*
 (
 )
 {
@@ -1592,6 +1600,7 @@ hiddenContextPromise
 add_task
 (
 function
+*
 (
 )
 {
@@ -1731,6 +1740,7 @@ endCustomizing
 add_task
 (
 function
+*
 (
 )
 {
@@ -1950,6 +1960,7 @@ window
 add_task
 (
 function
+*
 (
 )
 {
@@ -2253,6 +2264,7 @@ resetCustomization
 add_task
 (
 function
+*
 (
 )
 {
@@ -2454,6 +2466,7 @@ hiddenPromise
 add_task
 (
 function
+*
 (
 )
 {

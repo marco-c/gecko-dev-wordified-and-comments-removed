@@ -6,6 +6,7 @@ strict
 add_task
 (
 function
+*
 (
 )
 {
@@ -157,6 +158,7 @@ kWidgetId
 add_task
 (
 function
+*
 (
 )
 {

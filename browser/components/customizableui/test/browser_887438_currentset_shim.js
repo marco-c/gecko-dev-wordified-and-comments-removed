@@ -638,6 +638,7 @@ state
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

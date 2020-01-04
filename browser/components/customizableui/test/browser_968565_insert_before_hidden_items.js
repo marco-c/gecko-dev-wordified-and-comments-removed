@@ -44,6 +44,7 @@ AREA_NAVBAR
 add_task
 (
 function
+*
 (
 )
 {

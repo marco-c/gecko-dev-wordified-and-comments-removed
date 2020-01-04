@@ -49,6 +49,7 @@ TabsToolbar
 add_task
 (
 function
+*
 (
 )
 {
@@ -118,6 +119,7 @@ navbar
 add_task
 (
 function
+*
 (
 )
 {
@@ -361,6 +363,7 @@ state
 add_task
 (
 function
+*
 (
 )
 {
@@ -599,6 +602,7 @@ reset
 add_task
 (
 function
+*
 (
 )
 {
@@ -833,6 +837,7 @@ endCustomizing
 add_task
 (
 function
+*
 (
 )
 {

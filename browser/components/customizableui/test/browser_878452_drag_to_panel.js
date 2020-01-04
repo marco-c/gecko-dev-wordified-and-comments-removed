@@ -6,6 +6,7 @@ strict
 add_task
 (
 function
+*
 (
 )
 {
@@ -174,6 +175,7 @@ again
 add_task
 (
 function
+*
 (
 )
 {
@@ -308,6 +310,7 @@ again
 add_task
 (
 function
+*
 (
 )
 {
@@ -458,6 +461,7 @@ id
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

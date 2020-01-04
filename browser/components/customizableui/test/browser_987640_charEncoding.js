@@ -42,6 +42,7 @@ null
 add_task
 (
 function
+*
 (
 )
 {
@@ -396,6 +397,7 @@ Unicode
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

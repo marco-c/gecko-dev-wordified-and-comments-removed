@@ -36,6 +36,7 @@ destroy2
 add_task
 (
 function
+*
 testWrapUnwrap
 (
 )
@@ -220,6 +221,7 @@ item
 add_task
 (
 function
+*
 testPanelPlaceholders
 (
 )
@@ -500,6 +502,7 @@ endCustomizing
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

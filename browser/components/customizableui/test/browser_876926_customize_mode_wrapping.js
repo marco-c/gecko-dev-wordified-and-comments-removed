@@ -1239,6 +1239,7 @@ otherWin
 add_task
 (
 function
+*
 MoveWidgetsInTwoWindows
 (
 )
@@ -1399,6 +1400,7 @@ window
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

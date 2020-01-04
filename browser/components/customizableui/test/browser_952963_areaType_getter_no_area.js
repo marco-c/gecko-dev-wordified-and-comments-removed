@@ -108,6 +108,7 @@ throw
 add_task
 (
 function
+*
 (
 )
 {
@@ -264,6 +265,7 @@ kToolbarName
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

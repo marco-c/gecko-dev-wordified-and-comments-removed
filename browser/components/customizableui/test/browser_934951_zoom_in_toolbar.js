@@ -11,6 +11,7 @@ kTimeoutInMS
 add_task
 (
 function
+*
 (
 )
 {

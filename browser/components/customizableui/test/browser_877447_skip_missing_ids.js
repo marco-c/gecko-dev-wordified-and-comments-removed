@@ -169,6 +169,7 @@ placements
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

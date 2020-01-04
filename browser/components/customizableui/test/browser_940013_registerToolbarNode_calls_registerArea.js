@@ -33,6 +33,7 @@ cleanup
 add_task
 (
 function
+*
 (
 )
 {
@@ -225,6 +226,7 @@ remove
 add_task
 (
 function
+*
 (
 )
 {
@@ -448,6 +450,7 @@ remove
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

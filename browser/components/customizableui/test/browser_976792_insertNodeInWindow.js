@@ -35,6 +35,7 @@ placements
 add_task
 (
 function
+*
 (
 )
 {
@@ -260,6 +261,7 @@ resetCustomization
 add_task
 (
 function
+*
 (
 )
 {
@@ -607,6 +609,7 @@ overflowing
 add_task
 (
 function
+*
 (
 )
 {
@@ -963,6 +966,7 @@ overflowing
 add_task
 (
 function
+*
 (
 )
 {
@@ -1324,6 +1328,7 @@ overflowing
 add_task
 (
 function
+*
 (
 )
 {
@@ -1782,6 +1787,7 @@ overflowing
 add_task
 (
 function
+*
 (
 )
 {
@@ -2199,6 +2205,7 @@ resetCustomization
 add_task
 (
 function
+*
 (
 )
 {
@@ -2525,6 +2532,7 @@ resetCustomization
 add_task
 (
 function
+*
 (
 )
 {
@@ -2886,6 +2894,7 @@ resetCustomization
 add_task
 (
 function
+*
 asyncCleanUp
 (
 )

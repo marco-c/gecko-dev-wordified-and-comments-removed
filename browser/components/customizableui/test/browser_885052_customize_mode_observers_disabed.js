@@ -34,6 +34,7 @@ fullscreen
 add_task
 (
 function
+*
 (
 )
 {

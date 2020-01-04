@@ -19,6 +19,7 @@ defaultPlacement
 add_task
 (
 function
+*
 (
 )
 {
@@ -92,6 +93,7 @@ finish
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

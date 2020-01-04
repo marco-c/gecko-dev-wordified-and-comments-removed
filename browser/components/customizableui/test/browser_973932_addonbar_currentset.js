@@ -23,6 +23,7 @@ addonbarID
 add_task
 (
 function
+*
 (
 )
 {

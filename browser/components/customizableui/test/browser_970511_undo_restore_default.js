@@ -11,6 +11,7 @@ requestLongerTimeout
 add_task
 (
 function
+*
 (
 )
 {
@@ -232,6 +233,7 @@ reset
 add_task
 (
 function
+*
 (
 )
 {
@@ -393,6 +395,7 @@ change
 add_task
 (
 function
+*
 (
 )
 {
@@ -512,6 +515,7 @@ mode
 add_task
 (
 function
+*
 (
 )
 {
@@ -1070,6 +1074,7 @@ test
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

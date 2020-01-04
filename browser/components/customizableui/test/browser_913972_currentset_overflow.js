@@ -18,6 +18,7 @@ AREA_NAVBAR
 add_task
 (
 function
+*
 (
 )
 {
@@ -392,6 +393,7 @@ match
 add_task
 (
 function
+*
 (
 )
 {
@@ -507,6 +509,7 @@ mode
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

@@ -22,6 +22,7 @@ removeCustomToolbars
 add_task
 (
 function
+*
 addToolbarWith2SpringsAndDownloadsButton
 (
 )
@@ -172,6 +173,7 @@ removeCustomToolbars
 add_task
 (
 function
+*
 addSeparatorsAroundDownloadsButton
 (
 )
@@ -322,6 +324,7 @@ removeCustomToolbars
 add_task
 (
 function
+*
 addSpacersAroundDownloadsButton
 (
 )
@@ -472,6 +475,7 @@ removeCustomToolbars
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

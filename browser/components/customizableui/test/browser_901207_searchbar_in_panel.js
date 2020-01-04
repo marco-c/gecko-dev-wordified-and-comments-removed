@@ -153,6 +153,7 @@ inputField
 add_task
 (
 function
+*
 (
 )
 {
@@ -259,6 +260,7 @@ reset
 add_task
 (
 function
+*
 (
 )
 {
@@ -378,6 +380,7 @@ reset
 add_task
 (
 function
+*
 (
 )
 {
@@ -636,6 +639,7 @@ toolbar
 add_task
 (
 function
+*
 (
 )
 {
@@ -686,6 +690,7 @@ waitForSearchBarFocus
 add_task
 (
 function
+*
 (
 )
 {

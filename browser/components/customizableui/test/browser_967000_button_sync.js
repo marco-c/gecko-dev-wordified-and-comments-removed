@@ -200,6 +200,7 @@ oldInternal
 )
 ;
 function
+*
 openPrefsFromMenuPanel
 (
 expectedPanelId
@@ -614,6 +615,7 @@ panelHidePromise
 }
 }
 function
+*
 asyncCleanup
 (
 )

@@ -1,6 +1,7 @@
 add_task
 (
 function
+*
 (
 )
 {

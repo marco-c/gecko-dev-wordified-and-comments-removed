@@ -18,6 +18,7 @@ globalClipboard
 add_task
 (
 function
+*
 (
 )
 {
@@ -334,6 +335,7 @@ clipboard
 add_task
 (
 function
+*
 asyncCleanup
 (
 )

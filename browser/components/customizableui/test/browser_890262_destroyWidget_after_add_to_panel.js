@@ -225,6 +225,7 @@ area
 add_task
 (
 function
+*
 asyncCleanup
 (
 )
