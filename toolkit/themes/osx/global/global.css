@@ -87,7 +87,9 @@ root
 {
 -
 -
-arrowpanel
+panel
+-
+arrowcontent
 -
 padding
 :
@@ -95,7 +97,9 @@ padding
 ;
 -
 -
-arrowpanel
+panel
+-
+arrowcontent
 -
 background
 :
@@ -138,7 +142,9 @@ hsla
 ;
 -
 -
-arrowpanel
+panel
+-
+arrowcontent
 -
 color
 :
@@ -153,7 +159,9 @@ hsl
 ;
 -
 -
-arrowpanel
+panel
+-
+arrowcontent
 -
 border
 -
@@ -172,7 +180,9 @@ hsla
 ;
 -
 -
-arrowpanel
+panel
+-
+arrowcontent
 -
 border
 -
