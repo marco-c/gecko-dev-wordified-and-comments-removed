@@ -4473,9 +4473,9 @@ comp
 explicit
 AutoSuppressGC
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 ~
