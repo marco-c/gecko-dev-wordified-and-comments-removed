@@ -547,6 +547,15 @@ false
 ;
 if
 (
+!
+*
+isOrdinary
+)
+return
+true
+;
+if
+(
 protop
 )
 {
