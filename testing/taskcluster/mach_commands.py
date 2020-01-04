@@ -2265,10 +2265,10 @@ import
 parse_commit
         
 from
-taskcluster_graph
-.
 slugid
 import
+nice
+as
 slugid
         
 from

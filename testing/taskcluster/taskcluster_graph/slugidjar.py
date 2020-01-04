@@ -1,8 +1,8 @@
 from
-taskcluster_graph
-.
 slugid
 import
+nice
+as
 slugid
 class
 SlugidJar

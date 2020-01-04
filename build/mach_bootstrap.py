@@ -441,6 +441,12 @@ requests
 '
     
 '
+python
+/
+slugid
+'
+    
+'
 build
 '
     
