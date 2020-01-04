@@ -493,7 +493,9 @@ join
 (
 base_dir
 '
-compilechecks
+compile
+-
+checks
 .
 configure
 '

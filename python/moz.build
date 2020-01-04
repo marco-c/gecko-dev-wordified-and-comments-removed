@@ -388,7 +388,7 @@ test
 /
 configure
 /
-test_configure
+test_compile_checks
 .
 py
 '
@@ -401,7 +401,7 @@ test
 /
 configure
 /
-test_header_checks
+test_configure
 .
 py
 '
