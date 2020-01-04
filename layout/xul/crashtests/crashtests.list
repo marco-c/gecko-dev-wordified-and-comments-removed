@@ -93,12 +93,6 @@ load
 .
 xhtml
 load
-326834
--
-1
-.
-html
-load
 322786
 -
 1
@@ -108,6 +102,12 @@ load
 325377
 .
 xul
+load
+326834
+-
+1
+.
+html
 load
 326879
 -
@@ -192,7 +192,7 @@ asserts
 (
 0
 -
-42
+50
 )
 load
 366203
@@ -579,12 +579,6 @@ load
 .
 xml
 load
-menulist
--
-focused
-.
-xhtml
-load
 564705
 -
 1
@@ -600,3 +594,9 @@ load
 617089
 .
 html
+load
+menulist
+-
+focused
+.
+xhtml

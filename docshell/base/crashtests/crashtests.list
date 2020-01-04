@@ -50,7 +50,7 @@ asserts
 (
 0
 -
-3
+1
 )
 load
 436900
@@ -93,9 +93,6 @@ Android
 |
 |
 B2G
-|
-|
-browserIsRemote
 )
 pref
 (
