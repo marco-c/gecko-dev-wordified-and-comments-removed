@@ -1707,6 +1707,7 @@ subject
 eventName
 capture
 checkFn
+wantsUntrusted
 )
 {
 return
@@ -1794,6 +1795,7 @@ ex
 }
 }
 capture
+wantsUntrusted
 )
 ;
 }
