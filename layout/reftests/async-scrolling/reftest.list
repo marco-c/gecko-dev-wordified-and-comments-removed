@@ -623,11 +623,6 @@ fuzzy
 if
 (
 Android
-&
-&
-AndroidVersion
-<
-15
 5
 4
 )

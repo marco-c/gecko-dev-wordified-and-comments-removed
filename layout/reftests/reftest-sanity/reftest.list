@@ -1241,11 +1241,6 @@ random
 if
 (
 Android
-&
-&
-AndroidVersion
-<
-15
 )
 random
 -
