@@ -371,3 +371,11 @@ zlib
 .
 mk
 endif
+ifdef
+NSS_DISABLE_TLS_1_3
+DEFINES
++
+=
+-
+DNSS_DISABLE_TLS_1_3
+endif

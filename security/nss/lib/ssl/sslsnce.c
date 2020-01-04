@@ -2401,7 +2401,7 @@ namedCurve
 ssl_LookupNamedGroup
 (
 (
-NamedGroup
+SSLNamedGroup
 )
 from
 -

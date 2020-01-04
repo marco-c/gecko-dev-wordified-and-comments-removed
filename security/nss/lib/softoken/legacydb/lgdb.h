@@ -747,11 +747,13 @@ SKIP_AFTER_FORK
 (
 x
 )
+\
 if
 (
 !
 lg_parentForkedAfterC_Initialize
 )
+\
 x
 #
 else

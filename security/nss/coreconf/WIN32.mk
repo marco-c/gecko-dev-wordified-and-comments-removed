@@ -82,7 +82,7 @@ CCC
 g
 +
 +
-LINK
+LD
 =
 ld
 AR
@@ -131,7 +131,7 @@ cl
 CCC
 =
 cl
-LINK
+LD
 =
 link
 LDFLAGS
@@ -1410,6 +1410,9 @@ CONSOLE
 .
 02
 endif
+CPU_ARCH
+=
+x86_64
 else
 DEFINES
 +
@@ -1520,6 +1523,9 @@ CONSOLE
 .
 01
 endif
+CPU_ARCH
+=
+x386
 endif
 endif
 ifeq

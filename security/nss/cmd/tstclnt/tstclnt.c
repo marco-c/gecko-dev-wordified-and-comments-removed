@@ -7148,6 +7148,13 @@ goto
 done
 ;
 }
+SSL_SetPKCS11PinArg
+(
+s
+&
+pwdata
+)
+;
 rv
 =
 SSL_OptionSet
@@ -7866,13 +7873,6 @@ goto
 done
 ;
 }
-SSL_SetPKCS11PinArg
-(
-s
-&
-pwdata
-)
-;
 serverCertAuth
 .
 dbHandle

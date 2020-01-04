@@ -16,6 +16,9 @@ Chains
 tests
 payload
 :
+maxRunTime
+:
+14400
 env
 :
 NSS_TESTS

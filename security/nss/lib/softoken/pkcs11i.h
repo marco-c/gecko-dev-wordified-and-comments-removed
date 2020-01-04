@@ -73,6 +73,7 @@ attributes
 to
 preallocate
 in
+\
 *
 the
 object
@@ -98,6 +99,7 @@ attribute
 data
 before
 extra
+\
 *
 data
 needs
@@ -109,6 +111,7 @@ This
 is
 set
 to
+\
 *
 enough
 space
@@ -133,6 +136,7 @@ to
 do
 strict
 template
+\
 *
 matching
 when
@@ -140,6 +144,7 @@ doing
 C_FindObject
 on
 token
+\
 *
 objects
 .
@@ -149,6 +154,7 @@ slow
 down
 search
 in
+\
 *
 NSS
 .
@@ -1257,6 +1263,7 @@ hash_size
 )
 \
 {
+\
 int
 tmp
 =
@@ -1301,6 +1308,7 @@ head
 tmp
 ]
 )
+\
 (
 head
 )
@@ -1327,6 +1335,7 @@ tmp
 element
 )
 ;
+\
 }
 #
 define
@@ -1391,9 +1400,12 @@ id
 )
 )
 {
+\
 break
 ;
+\
 }
+\
 }
 #
 define
@@ -1464,6 +1476,7 @@ element
 >
 next
 )
+\
 (
 element
 )
@@ -1491,6 +1504,7 @@ element
 >
 prev
 )
+\
 (
 element
 )
@@ -1510,6 +1524,7 @@ next
 ;
 \
 else
+\
 (
 head
 )
@@ -1550,7 +1565,6 @@ prev
 =
 NULL
 ;
-\
 #
 define
 sftkqueue_init_element
@@ -1692,8 +1706,10 @@ id
 )
 )
 {
+\
 break
 ;
+\
 }
 \
 }
@@ -1716,6 +1732,7 @@ element
 >
 next
 )
+\
 (
 element
 )
@@ -1743,6 +1760,7 @@ element
 >
 prev
 )
+\
 (
 element
 )
@@ -1762,6 +1780,7 @@ next
 ;
 \
 else
+\
 (
 head
 )
@@ -1804,7 +1823,6 @@ prev
 =
 NULL
 ;
-\
 #
 ifdef
 NOSPREAD
@@ -1832,7 +1850,6 @@ handle
 >
 LOG2_BUCKETS_PER_SESSION_LOCK
 )
-\
 &
 (
 slot

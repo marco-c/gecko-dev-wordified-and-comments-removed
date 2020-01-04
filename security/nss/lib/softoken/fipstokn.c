@@ -795,6 +795,7 @@ sftk_fipsCheck
 =
 CKR_OK
 )
+\
 return
 rv
 ;
@@ -808,6 +809,7 @@ if
 (
 sftk_fatalError
 )
+\
 return
 CKR_DEVICE_ERROR
 ;
@@ -961,11 +963,13 @@ CK_PKCS11_FUNCTION_INFO
 (
 name
 )
+\
 __PASTE
 (
 F
 name
 )
+\
 #
 include
 "

@@ -1,6 +1,13 @@
 #
 include
 "
+ssl
+.
+h
+"
+#
+include
+"
 secerr
 .
 h
@@ -8,7 +15,7 @@ h
 #
 include
 "
-ssl
+gtest_utils
 .
 h
 "
@@ -22,7 +29,7 @@ h
 #
 include
 "
-tls_parser
+tls_connect
 .
 h
 "
@@ -36,14 +43,7 @@ h
 #
 include
 "
-tls_connect
-.
-h
-"
-#
-include
-"
-gtest_utils
+tls_parser
 .
 h
 "

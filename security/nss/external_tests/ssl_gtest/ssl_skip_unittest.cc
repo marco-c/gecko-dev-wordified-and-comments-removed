@@ -8,7 +8,7 @@ h
 #
 include
 "
-tls_parser
+tls_connect
 .
 h
 "
@@ -22,7 +22,7 @@ h
 #
 include
 "
-tls_connect
+tls_parser
 .
 h
 "
@@ -522,7 +522,7 @@ Reset
 TlsAgent
 :
 :
-kServerEcdsa
+kServerEcdsa256
 )
 ;
 ServerSkipTest
@@ -578,7 +578,7 @@ Reset
 TlsAgent
 :
 :
-kServerEcdsa
+kServerEcdsa256
 )
 ;
 ServerSkipTest
@@ -662,7 +662,7 @@ Reset
 TlsAgent
 :
 :
-kServerEcdsa
+kServerEcdsa256
 )
 ;
 auto

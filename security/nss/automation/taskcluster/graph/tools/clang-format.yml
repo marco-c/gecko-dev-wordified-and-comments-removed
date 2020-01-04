@@ -60,11 +60,6 @@ scripts
 run_clang_format
 .
 sh
-nss
-/
-lib
-/
-ssl
 "
 extra
 :

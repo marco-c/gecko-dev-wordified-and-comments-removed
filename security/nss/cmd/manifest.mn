@@ -98,6 +98,14 @@ BLTEST_SRCDIR
 )
 \
 (
+ECPERF_SRCDIR
+)
+\
+(
+ECTEST_SRCDIR
+)
+\
+(
 FIPSTEST_SRCDIR
 )
 \
@@ -141,10 +149,6 @@ dbtest
 derdump
 \
 digest
-\
-ecperf
-\
-ectest
 \
 httpserv
 \

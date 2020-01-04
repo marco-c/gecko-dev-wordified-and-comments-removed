@@ -104,7 +104,15 @@ ssl_auth_unittest
 .
 cc
 \
+ssl_cert_ext_unittest
+.
+cc
+\
 ssl_ciphersuite_unittest
+.
+cc
+\
+ssl_damage_unittest
 .
 cc
 \
@@ -113,6 +121,10 @@ ssl_dhe_unittest
 cc
 \
 ssl_drop_unittest
+.
+cc
+\
+ssl_ecdh_unittest
 .
 cc
 \
@@ -129,6 +141,10 @@ ssl_gtest
 cc
 \
 ssl_loopback_unittest
+.
+cc
+\
+ssl_record_unittest
 .
 cc
 \

@@ -127,7 +127,7 @@ exe
 CCC
 =
 gcc
-LINK
+LD
 =
 gcc
 AR

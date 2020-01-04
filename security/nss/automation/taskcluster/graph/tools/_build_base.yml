@@ -54,17 +54,9 @@ maxRunTime
 3600
 image
 :
-ttaubert
-/
-nss
--
-ci
-:
-0
-.
-0
-.
-17
+!
+env
+TC_IMAGE
 env
 :
 NSS_HEAD_REPOSITORY
@@ -95,3 +87,6 @@ platform
 nss
 -
 tools
+jobKind
+:
+test

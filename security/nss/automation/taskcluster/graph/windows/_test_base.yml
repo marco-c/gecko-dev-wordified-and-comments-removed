@@ -85,3 +85,10 @@ run_tests
 .
 sh
 "
+extra
+:
+treeherder
+:
+jobKind
+:
+test
