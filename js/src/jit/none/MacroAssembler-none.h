@@ -152,7 +152,7 @@ invalid_reg
 static
 MOZ_CONSTEXPR_VAR
 FloatRegister
-ScratchSimdReg
+ScratchSimd128Reg
 =
 {
 FloatRegisters
