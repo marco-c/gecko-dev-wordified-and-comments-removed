@@ -1,4 +1,8 @@
 #
+define
+SIGNALING_UNITTEST_STANDALONE
+1
+#
 include
 "
 .
