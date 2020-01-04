@@ -625,6 +625,14 @@ this
 _tabs
 )
 {
+if
+(
+!
+tab
+.
+hidden
+)
+{
 this
 .
 _addItemToAllTabsMenu
@@ -641,6 +649,7 @@ selected
 )
 )
 ;
+}
 }
 }
 removeAllTabsMenu
