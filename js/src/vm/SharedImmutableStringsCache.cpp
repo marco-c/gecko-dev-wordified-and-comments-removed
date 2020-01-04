@@ -616,6 +616,11 @@ chars
 )
 )
 ;
+MOZ_ASSERT
+(
+owned
+)
+;
 return
 getOrCreate
 (
@@ -718,6 +723,11 @@ Move
 (
 chars
 )
+)
+;
+MOZ_ASSERT
+(
+owned
 )
 ;
 return
