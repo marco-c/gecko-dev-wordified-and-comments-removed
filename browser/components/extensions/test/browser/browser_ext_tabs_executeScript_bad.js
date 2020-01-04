@@ -117,7 +117,7 @@ tabs
 query
 (
 {
-activeWindow
+currentWindow
 :
 true
 }
