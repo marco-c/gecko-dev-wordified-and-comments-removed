@@ -546,11 +546,7 @@ position
 ;
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 Session
@@ -558,7 +554,6 @@ Session
 Navigate
 "
 index
-)
 )
 ;
 dismiss

@@ -647,11 +647,7 @@ default
 }
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 Memory
@@ -659,7 +655,6 @@ Memory
 Dump
 "
 label
-)
 )
 ;
 }

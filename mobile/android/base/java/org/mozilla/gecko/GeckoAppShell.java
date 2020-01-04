@@ -1978,11 +1978,7 @@ GECKOREQUEST_RESPONSE_KEY
 responseMessage
 )
 ;
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 request
 .
@@ -1993,7 +1989,6 @@ request
 .
 getData
 (
-)
 )
 )
 ;
@@ -2041,6 +2036,7 @@ String
 data
 )
 ;
+RobocopTarget
 public
 static
 void
@@ -13341,11 +13337,7 @@ imeIsEnabled
 sImeWasEnabledOnLastResize
 )
 {
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 ScrollTo
@@ -13354,7 +13346,6 @@ FocusedInput
 "
 "
 "
-)
 )
 ;
 }

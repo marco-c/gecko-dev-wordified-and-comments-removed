@@ -419,11 +419,7 @@ media_play
 {
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 Casting
@@ -432,7 +428,6 @@ Play
 "
 "
 "
-)
 )
 ;
 mMediaPlay
@@ -465,11 +460,7 @@ media_pause
 {
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 Casting
@@ -478,7 +469,6 @@ Pause
 "
 "
 "
-)
 )
 ;
 mMediaPause
@@ -511,11 +501,7 @@ media_stop
 {
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 Casting
@@ -524,7 +510,6 @@ Stop
 "
 "
 "
-)
 )
 ;
 }

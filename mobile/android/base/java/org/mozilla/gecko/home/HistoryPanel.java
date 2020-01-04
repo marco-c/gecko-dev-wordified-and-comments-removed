@@ -1164,11 +1164,7 @@ e
 }
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 Sanitize
@@ -1179,7 +1175,6 @@ json
 .
 toString
 (
-)
 )
 )
 ;

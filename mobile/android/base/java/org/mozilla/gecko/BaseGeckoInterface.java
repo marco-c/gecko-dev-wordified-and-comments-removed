@@ -438,11 +438,7 @@ result
 {
 GeckoAppShell
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+notifyObservers
 (
 "
 Update
@@ -450,7 +446,6 @@ Update
 CheckResult
 "
 result
-)
 )
 ;
 }

@@ -1003,13 +1003,9 @@ quit
 "
 )
 ;
-GeckoAppShell
+mActions
 .
-sendEventToGecko
-(
-GeckoEvent
-.
-createBroadcastEvent
+sendGeckoEvent
 (
 "
 Robocop
@@ -1017,7 +1013,6 @@ Robocop
 Quit
 "
 null
-)
 )
 ;
 mSolo
