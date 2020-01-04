@@ -2607,6 +2607,14 @@ plugins
 \
 -
 -
+xpcshell
+=
+(
+xpcshell_path
+)
+\
+-
+-
 testing
 -
 modules
@@ -2629,10 +2637,6 @@ TEST_PATH_ARG
 )
 (
 EXTRA_TEST_ARGS
-)
-\
-(
-xpcshell_path
 )
 B2G_XPCSHELL
 =
