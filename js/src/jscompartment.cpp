@@ -306,10 +306,6 @@ warnedAboutExprClosure
 (
 false
 )
-warnedAboutRegExpMultiline
-(
-false
-)
 #
 ifdef
 DEBUG

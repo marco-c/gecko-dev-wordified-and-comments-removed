@@ -969,9 +969,6 @@ warnedAboutFlagsArgument
 bool
 warnedAboutExprClosure
 ;
-bool
-warnedAboutRegExpMultiline
-;
 #
 ifdef
 DEBUG
