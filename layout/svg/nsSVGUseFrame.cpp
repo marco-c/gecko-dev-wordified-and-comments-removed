@@ -37,10 +37,6 @@ nsContentList
 .
 h
 "
-typedef
-nsSVGGFrame
-nsSVGUseFrameBase
-;
 using
 namespace
 mozilla
@@ -52,7 +48,7 @@ class
 nsSVGUseFrame
 :
 public
-nsSVGUseFrameBase
+nsSVGGFrame
 public
 nsIAnonymousContentCreator
 {
@@ -79,7 +75,7 @@ nsStyleContext
 aContext
 )
 :
-nsSVGUseFrameBase
+nsSVGGFrame
 (
 aContext
 )
@@ -285,7 +281,7 @@ nsIAnonymousContentCreator
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsSVGUseFrameBase
+nsSVGGFrame
 )
 void
 nsSVGUseFrame
@@ -343,7 +339,7 @@ HasValidDimensions
 (
 )
 ;
-nsSVGUseFrameBase
+nsSVGGFrame
 :
 :
 Init
@@ -608,7 +604,7 @@ TriggerReclone
 ;
 }
 return
-nsSVGUseFrameBase
+nsSVGGFrame
 :
 :
 AttributeChanged
@@ -645,7 +641,7 @@ SVGUseElement
 mContent
 )
 ;
-nsSVGUseFrameBase
+nsSVGGFrame
 :
 :
 DestroyFrom
@@ -757,7 +753,7 @@ InvalidateFrame
 )
 ;
 }
-nsSVGUseFrameBase
+nsSVGGFrame
 :
 :
 ReflowSVG
@@ -852,7 +848,7 @@ this
 ;
 }
 }
-nsSVGUseFrameBase
+nsSVGGFrame
 :
 :
 NotifySVGChanged
