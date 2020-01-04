@@ -139,6 +139,10 @@ aVideoQueue
 OutputStreamManager
 *
 aOutputStreamManager
+const
+bool
+&
+aSameOrigin
 )
 ;
 const
@@ -405,7 +409,9 @@ mFinishPromise
 bool
 mPlaying
 ;
+const
 bool
+&
 mSameOrigin
 ;
 PlaybackParams

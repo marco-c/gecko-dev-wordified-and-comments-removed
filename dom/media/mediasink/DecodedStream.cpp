@@ -693,6 +693,10 @@ aVideoQueue
 OutputStreamManager
 *
 aOutputStreamManager
+const
+bool
+&
+aSameOrigin
 )
 :
 mOwnerThread
@@ -709,7 +713,7 @@ false
 )
 mSameOrigin
 (
-false
+aSameOrigin
 )
 mAudioQueue
 (
