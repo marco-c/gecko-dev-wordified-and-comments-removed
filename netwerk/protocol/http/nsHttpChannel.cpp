@@ -23558,6 +23558,15 @@ NS_CompareLoadInfoAndLoadContext
 this
 )
 ;
+#
+ifdef
+DEBUG
+CheckPrivateBrowsing
+(
+)
+;
+#
+endif
 NS_ENSURE_ARG_POINTER
 (
 listener

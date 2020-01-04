@@ -1916,6 +1916,11 @@ aURI
 nullptr
 )
 ;
+void
+CheckPrivateBrowsing
+(
+)
+;
 friend
 class
 PrivateBrowsingChannel
