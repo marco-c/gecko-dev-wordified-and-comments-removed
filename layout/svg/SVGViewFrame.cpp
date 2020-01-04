@@ -41,10 +41,6 @@ SVGViewElement
 .
 h
 "
-typedef
-nsFrame
-SVGViewFrameBase
-;
 using
 namespace
 mozilla
@@ -56,7 +52,7 @@ class
 SVGViewFrame
 :
 public
-SVGViewFrameBase
+nsFrame
 {
 friend
 nsIFrame
@@ -81,7 +77,7 @@ nsStyleContext
 aContext
 )
 :
-SVGViewFrameBase
+nsFrame
 (
 aContext
 )
@@ -127,7 +123,7 @@ const
 override
 {
 return
-SVGViewFrameBase
+nsFrame
 :
 :
 IsFrameOfType
@@ -278,7 +274,7 @@ view
 "
 )
 ;
-SVGViewFrameBase
+nsFrame
 :
 :
 Init
@@ -457,7 +453,7 @@ aModType
 }
 }
 return
-SVGViewFrameBase
+nsFrame
 :
 :
 AttributeChanged
