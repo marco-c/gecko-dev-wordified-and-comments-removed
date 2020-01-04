@@ -108,13 +108,13 @@ const
 const
 nsAString
 &
-GetLocalRootPath
+LocalOrDeviceStorageRootPath
 (
 )
 const
 {
 return
-mLocalRootPath
+mLocalOrDeviceStorageRootPath
 ;
 }
 bool
@@ -208,7 +208,7 @@ FileSystemBase
 )
 ;
 nsString
-mLocalRootPath
+mLocalOrDeviceStorageRootPath
 ;
 bool
 mShutdown

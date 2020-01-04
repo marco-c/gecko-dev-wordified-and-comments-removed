@@ -87,7 +87,7 @@ nsAString
 aRootDir
 )
 {
-mLocalRootPath
+mLocalOrDeviceStorageRootPath
 =
 aRootDir
 ;
@@ -132,7 +132,7 @@ fs
 new
 OSFileSystem
 (
-mLocalRootPath
+mLocalOrDeviceStorageRootPath
 )
 ;
 if
@@ -391,7 +391,7 @@ const
 {
 aOutput
 =
-mLocalRootPath
+mLocalOrDeviceStorageRootPath
 ;
 }
 }

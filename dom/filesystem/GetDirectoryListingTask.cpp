@@ -1926,7 +1926,7 @@ NS_NewLocalFile
 mFileSystem
 -
 >
-GetLocalRootPath
+LocalOrDeviceStorageRootPath
 (
 )
 false

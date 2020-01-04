@@ -224,7 +224,7 @@ rootFile
 >
 GetPath
 (
-mLocalRootPath
+mLocalOrDeviceStorageRootPath
 )
 )
 )
@@ -517,7 +517,7 @@ rv
 =
 NS_NewLocalFile
 (
-GetLocalRootPath
+LocalOrDeviceStorageRootPath
 (
 )
 false
