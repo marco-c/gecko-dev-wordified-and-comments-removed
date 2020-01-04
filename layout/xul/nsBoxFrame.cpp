@@ -637,13 +637,12 @@ mState
 &
 NS_STATE_IS_ROOT
 )
+{
 GetDebugPref
 (
-GetPresContext
-(
-)
 )
 ;
+}
 #
 endif
 UpdateMouseThrough
@@ -5345,9 +5344,6 @@ nsBoxFrame
 :
 GetDebugPref
 (
-nsPresContext
-*
-aPresContext
 )
 {
 gDebug
@@ -5991,9 +5987,6 @@ debugBorder
 ;
 PixelMarginToTwips
 (
-GetPresContext
-(
-)
 debugBorder
 )
 ;
@@ -6004,9 +5997,6 @@ debugMargin
 ;
 PixelMarginToTwips
 (
-GetPresContext
-(
-)
 debugMargin
 )
 ;
@@ -6017,9 +6007,6 @@ debugPadding
 ;
 PixelMarginToTwips
 (
-GetPresContext
-(
-)
 debugPadding
 )
 ;
@@ -6330,9 +6317,6 @@ debugMargin
 ;
 PixelMarginToTwips
 (
-GetPresContext
-(
-)
 debugMargin
 )
 ;
@@ -7172,9 +7156,6 @@ nsBoxFrame
 :
 PixelMarginToTwips
 (
-nsPresContext
-*
-aPresContext
 nsMargin
 &
 aMarginPixels
@@ -7573,7 +7554,6 @@ m
 ;
 PixelMarginToTwips
 (
-aPresContext
 m
 )
 ;
@@ -7584,7 +7564,6 @@ m2
 ;
 PixelMarginToTwips
 (
-aPresContext
 m2
 )
 ;

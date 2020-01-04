@@ -2375,8 +2375,6 @@ canvas
 return
 DrawDragForImage
 (
-*
-aPresContext
 nullptr
 canvas
 sx
@@ -2405,8 +2403,6 @@ imageLoader
 return
 DrawDragForImage
 (
-*
-aPresContext
 imageLoader
 nullptr
 sx
@@ -2555,9 +2551,6 @@ nsBaseDragService
 :
 DrawDragForImage
 (
-nsPresContext
-*
-aPresContext
 nsIImageLoadingContent
 *
 aImageLoader

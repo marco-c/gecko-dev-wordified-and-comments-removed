@@ -149,7 +149,6 @@ mSqrChar
 .
 SetData
 (
-presContext
 sqrChar
 )
 ;

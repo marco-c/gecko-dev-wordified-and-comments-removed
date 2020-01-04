@@ -7590,9 +7590,6 @@ GetInsideClipRegion
 nsDisplayItem
 *
 aItem
-nsPresContext
-*
-aPresContext
 uint8_t
 aClip
 const

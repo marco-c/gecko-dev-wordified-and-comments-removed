@@ -107,9 +107,6 @@ static
 nsresult
 GetChildWithTag
 (
-nsPresContext
-*
-aPresContext
 nsIAtom
 *
 atom

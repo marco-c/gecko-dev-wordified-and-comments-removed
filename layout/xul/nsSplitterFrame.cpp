@@ -363,9 +363,6 @@ aSpaceLeft
 void
 ResizeChildTo
 (
-nsPresContext
-*
-aPresContext
 nscoord
 &
 aDiff
@@ -391,9 +388,6 @@ UpdateState
 void
 AddListener
 (
-nsPresContext
-*
-aPresContext
 )
 ;
 void
@@ -1030,9 +1024,6 @@ nsScrollbarButtonFrame
 :
 GetChildWithTag
 (
-PresContext
-(
-)
 nsGkAtoms
 :
 :
@@ -1268,9 +1259,6 @@ mInner
 >
 AddListener
 (
-PresContext
-(
-)
 )
 ;
 mInner
@@ -1689,7 +1677,6 @@ aPresContext
 ;
 AddListener
 (
-aPresContext
 )
 ;
 nsIPresShell
@@ -1952,7 +1939,6 @@ pos
 ;
 ResizeChildTo
 (
-aPresContext
 pos
 mChildInfosBefore
 .
@@ -2260,9 +2246,6 @@ nsSplitterFrameInner
 :
 AddListener
 (
-nsPresContext
-*
-aPresContext
 )
 {
 mOuter
@@ -4606,9 +4589,6 @@ nsSplitterFrameInner
 :
 ResizeChildTo
 (
-nsPresContext
-*
-aPresContext
 nscoord
 &
 aDiff

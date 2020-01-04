@@ -247,9 +247,6 @@ nsIFrame
 *
 GetCaptionBox
 (
-nsPresContext
-*
-aPresContext
 nsRect
 &
 aCaptionRect
@@ -704,7 +701,6 @@ groupBox
 =
 GetCaptionBox
 (
-presContext
 groupRect
 )
 ;
@@ -1109,9 +1105,6 @@ nsGroupBoxFrame
 :
 GetCaptionBox
 (
-nsPresContext
-*
-aPresContext
 nsRect
 &
 aCaptionRect

@@ -3566,9 +3566,6 @@ nsMathMLmtableOuterFrame
 :
 GetRowFrameAt
 (
-nsPresContext
-*
-aPresContext
 int32_t
 aRowIndex
 )
@@ -3897,7 +3894,6 @@ rowFrame
 =
 GetRowFrameAt
 (
-aPresContext
 rowIndex
 )
 ;

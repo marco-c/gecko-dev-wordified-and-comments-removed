@@ -325,7 +325,6 @@ mOpenChar
 >
 SetData
 (
-aPresContext
 value
 )
 ;
@@ -394,7 +393,6 @@ mCloseChar
 >
 SetData
 (
-aPresContext
 value
 )
 ;
@@ -536,7 +534,6 @@ i
 .
 SetData
 (
-aPresContext
 sepChar
 )
 ;

@@ -14505,7 +14505,6 @@ PeekBackwardAndForward
 aBeginAmountType
 aEndAmountType
 offset
-aPresContext
 aBeginAmountType
 !
 =
@@ -14723,9 +14722,6 @@ nsSelectionAmount
 aAmountForward
 int32_t
 aStartPos
-nsPresContext
-*
-aPresContext
 bool
 aJumpLines
 uint32_t

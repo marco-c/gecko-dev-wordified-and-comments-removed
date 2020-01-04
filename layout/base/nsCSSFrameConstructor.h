@@ -601,9 +601,6 @@ aChild
 nsresult
 CreateListBoxContent
 (
-nsPresContext
-*
-aPresContext
 nsContainerFrame
 *
 aParentFrame
@@ -691,9 +688,6 @@ ConstructPageFrame
 nsIPresShell
 *
 aPresShell
-nsPresContext
-*
-aPresContext
 nsContainerFrame
 *
 aParentFrame
@@ -4174,9 +4168,6 @@ CreateContinuingTableFrame
 nsIPresShell
 *
 aPresShell
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aFrame
@@ -4501,9 +4492,6 @@ aBlockFrame
 nsresult
 RemoveLetterFrames
 (
-nsPresContext
-*
-aPresContext
 nsIPresShell
 *
 aPresShell
@@ -4515,9 +4503,6 @@ aBlockFrame
 nsresult
 RemoveFirstLetterFrames
 (
-nsPresContext
-*
-aPresContext
 nsIPresShell
 *
 aPresShell
@@ -4535,9 +4520,6 @@ aStopLooking
 nsresult
 RemoveFloatingFirstLetterFrames
 (
-nsPresContext
-*
-aPresContext
 nsIPresShell
 *
 aPresShell

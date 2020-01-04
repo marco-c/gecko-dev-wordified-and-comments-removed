@@ -10738,7 +10738,6 @@ if
 (
 IsValidMenuItem
 (
-presContext
 currFrameContent
 aIsPopup
 )
@@ -10876,7 +10875,6 @@ if
 (
 IsValidMenuItem
 (
-presContext
 currFrameContent
 aIsPopup
 )
@@ -11165,7 +11163,6 @@ if
 (
 IsValidMenuItem
 (
-presContext
 currFrameContent
 aIsPopup
 )
@@ -11316,7 +11313,6 @@ if
 (
 IsValidMenuItem
 (
-presContext
 currFrameContent
 aIsPopup
 )
@@ -11443,9 +11439,6 @@ nsXULPopupManager
 :
 IsValidMenuItem
 (
-nsPresContext
-*
-aPresContext
 nsIContent
 *
 aContent

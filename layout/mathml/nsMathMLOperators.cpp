@@ -1658,7 +1658,7 @@ NS_OK
 }
 static
 nsresult
-InitGlobals
+InitOperatorGlobals
 (
 )
 {
@@ -1855,7 +1855,7 @@ if
 gGlobalsInitialized
 )
 {
-InitGlobals
+InitOperatorGlobals
 (
 )
 ;
@@ -2078,7 +2078,7 @@ if
 gGlobalsInitialized
 )
 {
-InitGlobals
+InitOperatorGlobals
 (
 )
 ;

@@ -3535,9 +3535,6 @@ static
 nscoord
 CalcBSizeFromUnpaginatedBSize
 (
-nsPresContext
-*
-aPresContext
 nsTableRowFrame
 &
 aRow
@@ -3584,7 +3581,6 @@ firstInFlow
 >
 GetUnpaginatedBSize
 (
-aPresContext
 )
 ;
 for
@@ -4787,7 +4783,6 @@ bsize
 =
 CalcBSizeFromUnpaginatedBSize
 (
-aPresContext
 *
 this
 wm
@@ -4874,7 +4869,6 @@ wm
 )
 GetUnpaginatedBSize
 (
-aPresContext
 )
 )
 ;
@@ -4888,7 +4882,6 @@ styleBSize
 =
 CalcBSizeFromUnpaginatedBSize
 (
-aPresContext
 *
 this
 wm
@@ -6816,9 +6809,6 @@ nsTableRowFrame
 :
 GetUnpaginatedBSize
 (
-nsPresContext
-*
-aPresContext
 )
 {
 FrameProperties

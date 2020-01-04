@@ -349,9 +349,6 @@ aContext
 nscoord
 CalculateTitleForWidth
 (
-nsPresContext
-*
-aPresContext
 nsRenderingContext
 &
 aRenderingContext
@@ -362,9 +359,6 @@ aWidth
 void
 GetTextSize
 (
-nsPresContext
-*
-aPresContext
 nsRenderingContext
 &
 aRenderingContext

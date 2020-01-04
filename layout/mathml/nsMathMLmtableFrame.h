@@ -161,9 +161,6 @@ nsIFrame
 *
 GetRowFrameAt
 (
-nsPresContext
-*
-aPresContext
 int32_t
 aRowIndex
 )

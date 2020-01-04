@@ -7840,9 +7840,6 @@ nsXULPopupManager
 :
 IsValidMenuItem
 (
-PresContext
-(
-)
 menuFrame
 -
 >

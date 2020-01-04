@@ -392,9 +392,6 @@ aResult
 nsresult
 ClassicGetMinimumWidgetSize
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aFrame
@@ -414,9 +411,6 @@ aIsOverridable
 bool
 ClassicThemeSupportsWidget
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aFrame

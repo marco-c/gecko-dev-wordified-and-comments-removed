@@ -961,9 +961,6 @@ nsScrollbarButtonFrame
 :
 GetChildWithTag
 (
-nsPresContext
-*
-aPresContext
 nsIAtom
 *
 atom
@@ -1033,7 +1030,6 @@ NS_OK
 }
 GetChildWithTag
 (
-aPresContext
 atom
 childFrame
 result

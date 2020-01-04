@@ -5716,9 +5716,6 @@ static
 void
 MoveChildrenTo
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aOldParent
@@ -11385,7 +11382,6 @@ pageFrame
 ConstructPageFrame
 (
 mPresShell
-presContext
 rootFrame
 nullptr
 canvasFrame
@@ -11566,9 +11562,6 @@ ConstructPageFrame
 nsIPresShell
 *
 aPresShell
-nsPresContext
-*
-aPresContext
 nsContainerFrame
 *
 aParentFrame
@@ -25822,9 +25815,6 @@ here
 ;
 MoveChildrenTo
 (
-aState
-.
-mPresContext
 aParentFrame
 prevBlock
 blockKids
@@ -29828,9 +29818,6 @@ RemoveLetterFrames
 (
 state
 .
-mPresContext
-state
-.
 mPresShell
 containingBlock
 )
@@ -30397,7 +30384,6 @@ listBoxBodyFrame
 >
 OnContentInserted
 (
-aPresContext
 aChild
 )
 ;
@@ -31694,9 +31680,6 @@ GetParent
 }
 RemoveLetterFrames
 (
-state
-.
-mPresContext
 mPresShell
 state
 .
@@ -33866,7 +33849,6 @@ n
 endif
 RemoveLetterFrames
 (
-presContext
 mPresShell
 containingBlock
 )
@@ -34686,12 +34668,6 @@ haveFirstLetterStyle
 RemoveLetterFrames
 (
 mPresShell
--
->
-GetPresContext
-(
-)
-mPresShell
 block
 )
 ;
@@ -35227,9 +35203,6 @@ CreateContinuingTableFrame
 nsIPresShell
 *
 aPresShell
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aFrame
@@ -35491,7 +35464,6 @@ headerFooterFrame
 >
 InitRepeatedFrame
 (
-aPresContext
 rowGroupFrame
 )
 ;
@@ -35857,7 +35829,6 @@ newFrame
 ConstructPageFrame
 (
 shell
-aPresContext
 aParentFrame
 aFrame
 canvasFrame
@@ -35906,7 +35877,6 @@ newFrame
 CreateContinuingTableFrame
 (
 shell
-aPresContext
 aFrame
 aParentFrame
 content
@@ -46092,9 +46062,6 @@ nsCSSFrameConstructor
 :
 RemoveFloatingFirstLetterFrames
 (
-nsPresContext
-*
-aPresContext
 nsIPresShell
 *
 aPresShell
@@ -46457,9 +46424,6 @@ nsCSSFrameConstructor
 :
 RemoveFirstLetterFrames
 (
-nsPresContext
-*
-aPresContext
 nsIPresShell
 *
 aPresShell
@@ -46747,7 +46711,6 @@ kidAsContainerFrame
 {
 RemoveFirstLetterFrames
 (
-aPresContext
 aPresShell
 kidAsContainerFrame
 aBlockFrame
@@ -46789,9 +46752,6 @@ nsCSSFrameConstructor
 :
 RemoveLetterFrames
 (
-nsPresContext
-*
-aPresContext
 nsIPresShell
 *
 aPresShell
@@ -46836,7 +46796,6 @@ rv
 =
 RemoveFloatingFirstLetterFrames
 (
-aPresContext
 aPresShell
 continuation
 &
@@ -46859,7 +46818,6 @@ rv
 =
 RemoveFirstLetterFrames
 (
-aPresContext
 aPresShell
 continuation
 aBlockFrame
@@ -47052,9 +47010,6 @@ nsCSSFrameConstructor
 :
 CreateListBoxContent
 (
-nsPresContext
-*
-aPresContext
 nsContainerFrame
 *
 aParentFrame
@@ -48050,9 +48005,6 @@ firstNonBlock
 ;
 MoveChildrenTo
 (
-aState
-.
-mPresContext
 aInitialInline
 blockFrame
 blockKids
@@ -48148,9 +48100,6 @@ firstBlock
 ;
 MoveChildrenTo
 (
-aState
-.
-mPresContext
 aInitialInline
 inlineFrame
 inlineKids

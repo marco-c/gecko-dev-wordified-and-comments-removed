@@ -481,9 +481,6 @@ nsTableRowGroupFrame
 :
 InitRepeatedFrame
 (
-nsPresContext
-*
-aPresContext
 nsTableRowGroupFrame
 *
 aHeaderFooterFrame

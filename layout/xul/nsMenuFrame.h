@@ -726,17 +726,11 @@ DestroyPopupList
 void
 UpdateMenuType
 (
-nsPresContext
-*
-aPresContext
 )
 ;
 void
 UpdateMenuSpecialState
 (
-nsPresContext
-*
-aPresContext
 )
 ;
 void

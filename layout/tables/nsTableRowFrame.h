@@ -596,9 +596,6 @@ aValue
 nscoord
 GetUnpaginatedBSize
 (
-nsPresContext
-*
-aPresContext
 )
 ;
 void

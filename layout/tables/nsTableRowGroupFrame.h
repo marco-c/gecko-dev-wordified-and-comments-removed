@@ -434,9 +434,6 @@ anAdjustment
 nsresult
 InitRepeatedFrame
 (
-nsPresContext
-*
-aPresContext
 nsTableRowGroupFrame
 *
 aHeaderFooterFrame
