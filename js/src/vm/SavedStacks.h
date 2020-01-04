@@ -507,7 +507,6 @@ source
 )
 ;
 return
-!
 IsAboutToBeFinalized
 (
 &
