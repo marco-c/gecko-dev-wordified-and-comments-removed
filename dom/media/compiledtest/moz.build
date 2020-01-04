@@ -105,6 +105,9 @@ TestAudioMixer
 '
 TestAudioPacketizer
 '
+'
+TestAudioSegment
+'
 ]
 )
 LOCAL_INCLUDES
