@@ -238,9 +238,6 @@ EventTarget
 File
 "
 "
-FileReader
-"
-"
 FileReaderSync
 "
 "
