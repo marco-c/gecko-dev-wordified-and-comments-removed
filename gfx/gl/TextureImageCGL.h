@@ -80,10 +80,13 @@ TextureImage
 ImageFormat
 aImageFormat
 =
-gfxImageFormat
+gfx
 :
 :
-Unknown
+SurfaceFormat
+:
+:
+UNKNOWN
 )
 ;
 ~

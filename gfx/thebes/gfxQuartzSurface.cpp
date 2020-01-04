@@ -22,6 +22,17 @@ h
 #
 include
 "
+mozilla
+/
+gfx
+/
+HelpersCairo
+.
+h
+"
+#
+include
+"
 cairo
 -
 quartz
@@ -151,7 +162,7 @@ height
 cairo_format_t
 cformat
 =
-gfxImageFormatToCairoFormat
+GfxFormatToCairoFormat
 (
 format
 )
@@ -602,7 +613,7 @@ height
 cairo_format_t
 cformat
 =
-gfxImageFormatToCairoFormat
+GfxFormatToCairoFormat
 (
 format
 )
@@ -712,7 +723,7 @@ MakeInvalid
 cairo_format_t
 cformat
 =
-gfxImageFormatToCairoFormat
+GfxFormatToCairoFormat
 (
 format
 )

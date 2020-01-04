@@ -84,7 +84,7 @@ format
 cairo_format_t
 cformat
 =
-gfxImageFormatToCairoFormat
+GfxFormatToCairoFormat
 (
 format
 )

@@ -7,13 +7,6 @@ h
 "
 #
 include
-<
-string
-.
-h
->
-#
-include
 "
 gfx2DGlue
 .

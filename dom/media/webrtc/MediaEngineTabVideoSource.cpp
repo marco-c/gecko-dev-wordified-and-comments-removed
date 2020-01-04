@@ -1249,10 +1249,10 @@ deviceHeight
 gfxImageFormat
 format
 =
-gfxImageFormat
+SurfaceFormat
 :
 :
-RGB24
+X8R8G8B8_UINT32
 ;
 uint32_t
 stride

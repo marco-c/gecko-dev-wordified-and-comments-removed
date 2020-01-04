@@ -939,6 +939,16 @@ Error
 ;
 }
 }
+typedef
+mozilla
+:
+:
+gfx
+:
+:
+SurfaceFormat
+gfxImageFormat
+;
 #
 if
 defined

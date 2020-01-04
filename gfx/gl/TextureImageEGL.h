@@ -61,10 +61,10 @@ TextureImage
 ImageFormat
 aImageFormat
 =
-gfxImageFormat
+SurfaceFormat
 :
 :
-Unknown
+UNKNOWN
 )
 ;
 virtual

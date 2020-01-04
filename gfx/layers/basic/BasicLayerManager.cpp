@@ -4042,10 +4042,10 @@ Format
 )
 =
 =
-gfxImageFormat
+SurfaceFormat
 :
 :
-ARGB32
+A8R8G8B8_UINT32
 ?
 PIXMAN_a8r8g8b8
 :
@@ -4321,10 +4321,10 @@ aDestRect
 .
 height
 )
-gfxImageFormat
+SurfaceFormat
 :
 :
-ARGB32
+A8R8G8B8_UINT32
 )
 ;
 gfxPoint

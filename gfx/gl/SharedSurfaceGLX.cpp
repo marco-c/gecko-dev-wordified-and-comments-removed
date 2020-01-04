@@ -161,10 +161,13 @@ gfxXlibSurface
 FindVisual
 (
 screen
-gfxImageFormat
+gfx
 :
 :
-ARGB32
+SurfaceFormat
+:
+:
+A8R8G8B8_UINT32
 )
 ;
 RefPtr

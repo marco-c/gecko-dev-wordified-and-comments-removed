@@ -200,10 +200,10 @@ IntSize
 10
 10
 )
-gfxImageFormat
+SurfaceFormat
 :
 :
-ARGB32
+A8R8G8B8_UINT32
 )
 ;
 cairo_surface_t

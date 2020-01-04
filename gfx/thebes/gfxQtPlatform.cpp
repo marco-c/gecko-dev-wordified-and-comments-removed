@@ -193,10 +193,10 @@ static
 gfxImageFormat
 sOffscreenFormat
 =
-gfxImageFormat
+SurfaceFormat
 :
 :
-RGB24
+X8R8G8B8_UINT32
 ;
 gfxQtPlatform
 :
@@ -236,10 +236,10 @@ depth
 {
 sOffscreenFormat
 =
-gfxImageFormat
+SurfaceFormat
 :
 :
-RGB16_565
+R5G6B5_UINT16
 ;
 }
 uint32_t
