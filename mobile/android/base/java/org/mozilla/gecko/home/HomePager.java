@@ -353,16 +353,6 @@ public
 static
 final
 String
-LIST_TAG_READING_LIST
-=
-"
-reading_list
-"
-;
-public
-static
-final
-String
 LIST_TAG_TOP_SITES
 =
 "
