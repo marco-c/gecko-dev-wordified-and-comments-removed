@@ -5923,7 +5923,6 @@ PORT_ZFree
 offer
 sizeof
 (
-*
 offer
 )
 )

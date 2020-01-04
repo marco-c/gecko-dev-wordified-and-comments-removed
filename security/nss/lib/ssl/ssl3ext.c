@@ -1398,11 +1398,6 @@ ssl_server_name_xtn
 ssl3_SendServerNameXtn
 }
 {
-ssl_extended_master_secret_xtn
-&
-ssl3_SendExtendedMasterSecretXtn
-}
-{
 ssl_renegotiation_info_xtn
 &
 ssl3_SendRenegotiationInfoXtn
@@ -1456,6 +1451,11 @@ ssl3_ClientSendSigAlgsXtn
 ssl_tls13_draft_version_xtn
 &
 ssl3_ClientSendDraftVersionXtn
+}
+{
+ssl_extended_master_secret_xtn
+&
+ssl3_SendExtendedMasterSecretXtn
 }
 {
 ssl_signed_cert_timestamp_xtn

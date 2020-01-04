@@ -544,6 +544,7 @@ listp
 *
 listp
 ?
+\
 nss_ZREALLOCARRAY
 (
 *
@@ -560,6 +561,7 @@ CKAPI_ITEM_CHUNK
 )
 \
 :
+\
 nss_ZNEWARRAY
 (
 NULL
