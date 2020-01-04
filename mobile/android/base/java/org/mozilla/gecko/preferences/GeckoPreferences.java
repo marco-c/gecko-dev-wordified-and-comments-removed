@@ -4846,14 +4846,11 @@ key
 if
 (
 !
-SwitchBoard
+FeedService
 .
 isInExperiment
 (
 this
-Experiments
-.
-CONTENT_NOTIFICATIONS
 )
 )
 {
