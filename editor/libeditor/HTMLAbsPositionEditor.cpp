@@ -127,13 +127,6 @@ h
 #
 include
 "
-nsEditor
-.
-h
-"
-#
-include
-"
 nsError
 .
 h

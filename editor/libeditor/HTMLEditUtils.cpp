@@ -35,6 +35,15 @@ include
 "
 mozilla
 /
+EditorBase
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Element
@@ -66,13 +75,6 @@ h
 include
 "
 nsDebug
-.
-h
-"
-#
-include
-"
-nsEditor
 .
 h
 "
@@ -368,7 +370,7 @@ nsIAtom
 >
 nodeAtom
 =
-nsEditor
+EditorBase
 :
 :
 GetTag
@@ -549,7 +551,7 @@ aNode
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 NodeIsType
@@ -574,7 +576,7 @@ aNode
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 NodeIsType
@@ -857,7 +859,7 @@ aNode
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 NodeIsType
@@ -909,7 +911,7 @@ aNode
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 NodeIsType
@@ -1109,7 +1111,7 @@ aNode
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 NodeIsType
@@ -1134,7 +1136,7 @@ aNode
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 NodeIsType
@@ -1159,7 +1161,7 @@ aNode
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 NodeIsType
@@ -1184,7 +1186,7 @@ aNode
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 NodeIsType
@@ -1236,7 +1238,7 @@ aNode
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 NodeIsType
@@ -1457,7 +1459,7 @@ aNode
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 NodeIsType
@@ -1789,7 +1791,7 @@ nsIAtom
 >
 nodeAtom
 =
-nsEditor
+EditorBase
 :
 :
 GetTag

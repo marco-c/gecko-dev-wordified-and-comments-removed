@@ -877,13 +877,6 @@ h
 #
 include
 "
-nsEditor
-.
-h
-"
-#
-include
-"
 mozilla
 /
 EditorController

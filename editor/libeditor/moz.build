@@ -143,11 +143,6 @@ EXPORTS
 =
 [
 '
-nsEditor
-.
-h
-'
-'
 nsIEditRules
 .
 h
@@ -159,6 +154,11 @@ mozilla
 +
 =
 [
+'
+EditorBase
+.
+h
+'
 '
 EditorController
 .
@@ -231,6 +231,11 @@ cpp
 '
 '
 EditAggregateTransaction
+.
+cpp
+'
+'
+EditorBase
 .
 cpp
 '
@@ -336,11 +341,6 @@ cpp
 '
 '
 JoinNodeTransaction
-.
-cpp
-'
-'
-nsEditor
 .
 cpp
 '

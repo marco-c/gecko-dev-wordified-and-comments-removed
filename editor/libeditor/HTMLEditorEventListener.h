@@ -18,12 +18,12 @@ nscore
 .
 h
 "
-class
-nsEditor
-;
 namespace
 mozilla
 {
+class
+EditorBase
+;
 class
 HTMLEditor
 ;
@@ -55,9 +55,9 @@ virtual
 nsresult
 Connect
 (
-nsEditor
+EditorBase
 *
-aEditor
+aEditorBase
 )
 override
 ;

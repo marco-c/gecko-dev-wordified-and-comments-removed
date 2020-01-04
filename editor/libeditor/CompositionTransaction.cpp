@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+EditorBase
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Selection
@@ -38,13 +47,6 @@ h
 include
 "
 nsDebug
-.
-h
-"
-#
-include
-"
-nsEditor
 .
 h
 "
@@ -102,9 +104,9 @@ const
 nsAString
 &
 aStringToInsert
-nsEditor
+EditorBase
 &
-aEditor
+aEditorBase
 )
 :
 mTextNode
@@ -128,9 +130,9 @@ mStringToInsert
 (
 aStringToInsert
 )
-mEditor
+mEditorBase
 (
-aEditor
+aEditorBase
 )
 mFixed
 (
@@ -211,7 +213,7 @@ nsISelectionController
 >
 selCon
 ;
-mEditor
+mEditorBase
 .
 GetSelectionController
 (
@@ -301,7 +303,7 @@ Selection
 >
 selection
 =
-mEditor
+mEditorBase
 .
 GetSelection
 (
@@ -515,7 +517,7 @@ SetSelectionForRanges
 return
 SetIMESelection
 (
-mEditor
+mEditorBase
 mTextNode
 mOffset
 mStringToInsert
@@ -533,9 +535,9 @@ CompositionTransaction
 :
 SetIMESelection
 (
-nsEditor
+EditorBase
 &
-aEditor
+aEditorBase
 Text
 *
 aTextNode
@@ -555,7 +557,7 @@ Selection
 >
 selection
 =
-aEditor
+aEditorBase
 .
 GetSelection
 (
@@ -615,7 +617,7 @@ nsISelectionController
 >
 selCon
 ;
-aEditor
+aEditorBase
 .
 GetSelectionController
 (
@@ -807,7 +809,7 @@ Length
 (
 )
 "
-nsEditor
+EditorBase
 doesn
 '
 t
@@ -892,7 +894,7 @@ setCaret
 continue
 ;
 }
-aEditor
+aEditorBase
 .
 HideCaret
 (
@@ -1285,7 +1287,7 @@ string
 "
 )
 ;
-aEditor
+aEditorBase
 .
 HideCaret
 (

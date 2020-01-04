@@ -117,9 +117,9 @@ aName
 SelectionState
 *
 aSelState
-nsEditor
+EditorBase
 *
-aEditor
+aEditorBase
 )
 override
 ;
@@ -204,9 +204,9 @@ mStartSel
 SelectionState
 mEndSel
 ;
-nsEditor
+EditorBase
 *
-mEditor
+mEditorBase
 ;
 }
 ;

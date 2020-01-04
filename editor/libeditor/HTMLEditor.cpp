@@ -1005,12 +1005,12 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_ADDREF_INHERITED
 (
 HTMLEditor
-nsEditor
+EditorBase
 )
 NS_IMPL_RELEASE_INHERITED
 (
 HTMLEditor
-nsEditor
+EditorBase
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
@@ -1486,7 +1486,7 @@ mRootElement
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 GetRootElement
@@ -2468,7 +2468,7 @@ IsDisabled
 )
 {
 return
-nsEditor
+EditorBase
 :
 :
 HandleKeyPressEvent
@@ -2553,7 +2553,7 @@ case
 NS_VK_DELETE
 :
 return
-nsEditor
+EditorBase
 :
 :
 HandleKeyPressEvent
@@ -3624,7 +3624,7 @@ this
 )
 ;
 return
-nsEditor
+EditorBase
 :
 :
 DoTransaction
@@ -13707,7 +13707,7 @@ eNoStrip
 nsresult
 res
 =
-nsEditor
+EditorBase
 :
 :
 DeleteSelectionImpl
@@ -14081,7 +14081,7 @@ NS_ERROR_FAILURE
 ;
 }
 return
-nsEditor
+EditorBase
 :
 :
 DeleteNode
@@ -14120,7 +14120,7 @@ NS_ERROR_FAILURE
 ;
 }
 return
-nsEditor
+EditorBase
 :
 :
 DeleteText
@@ -14170,7 +14170,7 @@ NS_ERROR_FAILURE
 ;
 }
 return
-nsEditor
+EditorBase
 :
 :
 InsertTextImpl
@@ -15290,7 +15290,7 @@ kungFuDeathGrip
 mRules
 )
 ;
-nsEditor
+EditorBase
 :
 :
 StartOperation
@@ -15354,7 +15354,7 @@ mAction
 mDirection
 )
 ;
-nsEditor
+EditorBase
 :
 :
 EndOperation
@@ -15642,7 +15642,7 @@ rootElement
 ;
 }
 return
-nsEditor
+EditorBase
 :
 :
 SelectEntireDocument
@@ -18831,7 +18831,7 @@ GetNextSibling
 {
 if
 (
-nsEditor
+EditorBase
 :
 :
 IsEditable
@@ -20927,7 +20927,7 @@ EndUpdateViewBatch
 nsresult
 res
 =
-nsEditor
+EditorBase
 :
 :
 EndUpdateViewBatch
@@ -22468,7 +22468,7 @@ aEvent
 if
 (
 !
-nsEditor
+EditorBase
 :
 :
 IsAcceptableInputEvent

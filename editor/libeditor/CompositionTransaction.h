@@ -25,9 +25,6 @@ nsString
 .
 h
 "
-class
-nsEditor
-;
 #
 define
 NS_IMETEXTTXN_IID
@@ -51,6 +48,9 @@ NS_IMETEXTTXN_IID
 namespace
 mozilla
 {
+class
+EditorBase
+;
 class
 TextRangeArray
 ;
@@ -93,9 +93,9 @@ const
 nsAString
 &
 aString
-nsEditor
+EditorBase
 &
-aEditor
+aEditorBase
 )
 ;
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
@@ -126,9 +126,9 @@ static
 nsresult
 SetIMESelection
 (
-nsEditor
+EditorBase
 &
-aEditor
+aEditorBase
 dom
 :
 :
@@ -181,9 +181,9 @@ mRanges
 nsString
 mStringToInsert
 ;
-nsEditor
+EditorBase
 &
-mEditor
+mEditorBase
 ;
 bool
 mFixed

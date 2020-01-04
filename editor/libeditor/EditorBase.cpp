@@ -1,7 +1,9 @@
 #
 include
 "
-nsEditor
+mozilla
+/
+EditorBase
 .
 h
 "
@@ -744,33 +746,26 @@ h
 "
 #
 endif
-using
-namespace
-mozilla
-;
-using
-namespace
-mozilla
-:
-:
-dom
-;
-using
-namespace
-mozilla
-:
-:
-widget
-;
 extern
 nsIParserService
 *
 sParserService
 ;
-nsEditor
+namespace
+mozilla
+{
+using
+namespace
+dom
+;
+using
+namespace
+widget
+;
+EditorBase
 :
 :
-nsEditor
+EditorBase
 (
 )
 :
@@ -856,11 +851,11 @@ false
 )
 {
 }
-nsEditor
+EditorBase
 :
 :
 ~
-nsEditor
+EditorBase
 (
 )
 {
@@ -915,11 +910,11 @@ mPhonetic
 }
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
-nsEditor
+EditorBase
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
-nsEditor
+EditorBase
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
@@ -970,7 +965,7 @@ mRangeUpdater
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN
 (
-nsEditor
+EditorBase
 )
 nsIDocument
 *
@@ -1066,7 +1061,7 @@ mRangeUpdater
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
-nsEditor
+EditorBase
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -1092,14 +1087,14 @@ nsIEditor
 NS_INTERFACE_MAP_END
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
-nsEditor
+EditorBase
 )
 NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
-nsEditor
+EditorBase
 )
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 Init
@@ -1316,7 +1311,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 PostCreate
@@ -1496,7 +1491,7 @@ NS_OK
 ;
 }
 void
-nsEditor
+EditorBase
 :
 :
 CreateEventListeners
@@ -1519,7 +1514,7 @@ EditorEventListener
 }
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 InstallEventListeners
@@ -1616,7 +1611,7 @@ rv
 ;
 }
 void
-nsEditor
+EditorBase
 :
 :
 RemoveEventListeners
@@ -1674,7 +1669,7 @@ nullptr
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 GetDesiredSpellCheckState
@@ -1877,7 +1872,7 @@ enable
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 PreDestroy
@@ -1966,7 +1961,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 GetFlags
@@ -1986,7 +1981,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 SetFlags
@@ -2124,7 +2119,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 GetIsSelectionEditable
@@ -2184,7 +2179,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 GetIsDocumentEditable
@@ -2224,7 +2219,7 @@ already_AddRefed
 <
 nsIDocument
 >
-nsEditor
+EditorBase
 :
 :
 GetDocument
@@ -2268,7 +2263,7 @@ already_AddRefed
 <
 nsIDOMDocument
 >
-nsEditor
+EditorBase
 :
 :
 GetDOMDocument
@@ -2309,7 +2304,7 @@ forget
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 GetDocument
@@ -2344,7 +2339,7 @@ already_AddRefed
 <
 nsIPresShell
 >
-nsEditor
+EditorBase
 :
 :
 GetPresShell
@@ -2404,7 +2399,7 @@ already_AddRefed
 <
 nsIWidget
 >
-nsEditor
+EditorBase
 :
 :
 GetWidget
@@ -2476,7 +2471,7 @@ forget
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 GetContentsMIMEType
@@ -2505,7 +2500,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 SetContentsMIMEType
@@ -2533,7 +2528,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 GetSelectionController
@@ -2617,7 +2612,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 DeleteSelection
@@ -2651,7 +2646,7 @@ aStripWrappers
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 GetSelection
@@ -2674,7 +2669,7 @@ aSelection
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 GetSelection
@@ -2738,7 +2733,7 @@ aSelection
 }
 Selection
 *
-nsEditor
+EditorBase
 :
 :
 GetSelection
@@ -2797,7 +2792,7 @@ AsSelection
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 DoTransaction
@@ -3002,7 +2997,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 EnableUndo
@@ -3067,7 +3062,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 GetNumberOfUndoItems
@@ -3097,7 +3092,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 GetNumberOfRedoItems
@@ -3127,7 +3122,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 GetTransactionManager
@@ -3167,7 +3162,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 SetTransactionManager
@@ -3199,7 +3194,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 Undo
@@ -3298,7 +3293,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 CanUndo
@@ -3368,7 +3363,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 Redo
@@ -3463,7 +3458,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 CanRedo
@@ -3533,7 +3528,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 BeginTransaction
@@ -3563,7 +3558,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 EndTransaction
@@ -3593,7 +3588,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 BeginPlaceHolderTransaction
@@ -3682,7 +3677,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 EndPlaceHolderTransaction
@@ -3870,7 +3865,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 ShouldTxnSetSelection
@@ -3896,7 +3891,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 SetShouldTxnSetSelection
@@ -3914,7 +3909,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 GetDocumentIsEmpty
@@ -3962,7 +3957,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 SelectAll
@@ -4007,7 +4002,7 @@ selection
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 BeginningOfDocument
@@ -4158,7 +4153,7 @@ offsetInParent
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 EndOfDocument
@@ -4267,7 +4262,7 @@ length
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 GetDocumentModified
@@ -4309,7 +4304,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 GetDocumentCharacterSet
@@ -4350,7 +4345,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 SetDocumentCharacterSet
@@ -4391,7 +4386,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 Cut
@@ -4403,7 +4398,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 CanCut
@@ -4418,7 +4413,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 Copy
@@ -4430,7 +4425,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 CanCopy
@@ -4445,7 +4440,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 CanDelete
@@ -4460,7 +4455,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 Paste
@@ -4474,7 +4469,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 PasteTransferable
@@ -4489,7 +4484,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 CanPaste
@@ -4506,7 +4501,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 CanPasteTransferable
@@ -4524,7 +4519,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 SetAttribute
@@ -4593,7 +4588,7 @@ transaction
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 GetAttributeValue
@@ -4679,7 +4674,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 RemoveAttribute
@@ -4743,7 +4738,7 @@ transaction
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 OutputsMozDirty
@@ -4773,7 +4768,7 @@ eEditorMailMask
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 MarkNodeDirty
@@ -4836,7 +4831,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 GetInlineSpellChecker
@@ -4971,7 +4966,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 SyncRealTimeSpell
@@ -5022,7 +5017,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 SetSpellcheckUserOverride
@@ -5046,7 +5041,7 @@ SyncRealTimeSpell
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 CreateNode
@@ -5124,7 +5119,7 @@ already_AddRefed
 <
 Element
 >
-nsEditor
+EditorBase
 :
 :
 CreateNode
@@ -5287,7 +5282,7 @@ forget
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 InsertNode
@@ -5345,7 +5340,7 @@ aPosition
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 InsertNode
@@ -5469,7 +5464,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 SplitNode
@@ -5544,7 +5539,7 @@ StealNSResult
 }
 nsIContent
 *
-nsEditor
+EditorBase
 :
 :
 SplitNode
@@ -5691,7 +5686,7 @@ newNode
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 JoinNodes
@@ -5755,7 +5750,7 @@ rightNode
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 JoinNodes
@@ -5937,7 +5932,7 @@ result
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 DeleteNode
@@ -5971,7 +5966,7 @@ node
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 DeleteNode
@@ -6090,7 +6085,7 @@ already_AddRefed
 <
 Element
 >
-nsEditor
+EditorBase
 :
 :
 ReplaceContainer
@@ -6333,7 +6328,7 @@ forget
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 RemoveContainer
@@ -6463,7 +6458,7 @@ already_AddRefed
 <
 Element
 >
-nsEditor
+EditorBase
 :
 :
 InsertContainerAbove
@@ -6649,7 +6644,7 @@ forget
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 MoveNode
@@ -6842,7 +6837,7 @@ aOffset
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 AddEditorObserver
@@ -6883,7 +6878,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 RemoveEditorObserver
@@ -6912,6 +6907,7 @@ NS_OK
 }
 class
 EditorInputEventDispatcher
+final
 :
 public
 Runnable
@@ -6920,9 +6916,9 @@ public
 :
 EditorInputEventDispatcher
 (
-nsEditor
+EditorBase
 *
-aEditor
+aEditorBase
 nsIContent
 *
 aTarget
@@ -6930,9 +6926,9 @@ bool
 aIsComposing
 )
 :
-mEditor
+mEditorBase
 (
-aEditor
+aEditorBase
 )
 mTarget
 (
@@ -6970,7 +6966,7 @@ nsIPresShell
 >
 ps
 =
-mEditor
+mEditorBase
 -
 >
 GetPresShell
@@ -6993,7 +6989,7 @@ nsIWidget
 >
 widget
 =
-mEditor
+mEditorBase
 -
 >
 GetWidget
@@ -7075,9 +7071,9 @@ private
 :
 RefPtr
 <
-nsEditor
+EditorBase
 >
-mEditor
+mEditorBase
 ;
 nsCOMPtr
 <
@@ -7091,7 +7087,7 @@ mIsComposing
 }
 ;
 void
-nsEditor
+EditorBase
 :
 :
 NotifyEditorObservers
@@ -7239,7 +7235,7 @@ break
 }
 }
 void
-nsEditor
+EditorBase
 :
 :
 FireInputEvent
@@ -7281,7 +7277,7 @@ GetComposition
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 AddEditActionListener
@@ -7322,7 +7318,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 RemoveEditActionListener
@@ -7350,7 +7346,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 AddDocumentStateListener
@@ -7391,7 +7387,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 RemoveDocumentStateListener
@@ -7419,7 +7415,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 OutputToString
@@ -7440,7 +7436,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 OutputToStream
@@ -7465,7 +7461,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 DumpContentTree
@@ -7496,7 +7492,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 DebugDumpContent
@@ -7569,7 +7565,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 DebugUnitTests
@@ -7607,7 +7603,7 @@ NS_OK
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 ArePreservingSelection
@@ -7626,7 +7622,7 @@ IsEmpty
 ;
 }
 void
-nsEditor
+EditorBase
 :
 :
 PreserveSelectionAcrossActions
@@ -7652,7 +7648,7 @@ mSavedSel
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 RestorePreservedSelection
@@ -7689,7 +7685,7 @@ NS_OK
 ;
 }
 void
-nsEditor
+EditorBase
 :
 :
 StopPreservingSelection
@@ -7711,14 +7707,11 @@ MakeEmpty
 ;
 }
 void
-nsEditor
+EditorBase
 :
 :
 EnsureComposition
 (
-mozilla
-:
-:
 WidgetCompositionEvent
 *
 aCompositionEvent
@@ -7772,7 +7765,7 @@ this
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 BeginIMEComposition
@@ -7818,7 +7811,7 @@ NS_OK
 ;
 }
 void
-nsEditor
+EditorBase
 :
 :
 EndIMEComposition
@@ -7932,7 +7925,7 @@ eNotifyEditorObserversOfEnd
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 GetPhonetic
@@ -7964,7 +7957,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 ForceCompositionEnd
@@ -8028,7 +8021,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 GetPreferredIMEState
@@ -8207,7 +8200,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 GetComposing
@@ -8234,7 +8227,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 GetRootElement
@@ -8279,7 +8272,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 StartOperation
@@ -8306,7 +8299,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 EndOperation
@@ -8329,7 +8322,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 CloneAttribute
@@ -8437,7 +8430,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 CloneAttributes
@@ -8501,7 +8494,7 @@ NS_OK
 ;
 }
 void
-nsEditor
+EditorBase
 :
 :
 CloneAttributes
@@ -8748,7 +8741,7 @@ true
 }
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 ScrollSelectionIntoView
@@ -8821,7 +8814,7 @@ NS_OK
 ;
 }
 void
-nsEditor
+EditorBase
 :
 :
 FindBetterInsertionPoint
@@ -9149,7 +9142,7 @@ return
 }
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 InsertTextImpl
@@ -9505,7 +9498,7 @@ NS_OK
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 InsertTextIntoTextNodeImpl
@@ -9896,7 +9889,7 @@ rv
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 SelectEntireDocument
@@ -9951,7 +9944,7 @@ rootElement
 }
 nsINode
 *
-nsEditor
+EditorBase
 :
 :
 GetFirstEditableNode
@@ -10010,7 +10003,7 @@ nullptr
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 NotifyDocumentListeners
@@ -10213,7 +10206,7 @@ already_AddRefed
 <
 InsertTextTransaction
 >
-nsEditor
+EditorBase
 :
 :
 CreateTxnForInsertText
@@ -10254,7 +10247,7 @@ forget
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 DeleteText
@@ -10379,7 +10372,7 @@ already_AddRefed
 <
 DeleteTextTransaction
 >
-nsEditor
+EditorBase
 :
 :
 CreateTxnForDeleteText
@@ -10439,7 +10432,7 @@ already_AddRefed
 <
 SplitNodeTransaction
 >
-nsEditor
+EditorBase
 :
 :
 CreateTxnForSplitNode
@@ -10478,7 +10471,7 @@ already_AddRefed
 <
 JoinNodeTransaction
 >
-nsEditor
+EditorBase
 :
 :
 CreateTxnForJoinNode
@@ -10527,6 +10520,7 @@ forget
 }
 struct
 SavedRange
+final
 {
 RefPtr
 <
@@ -10555,7 +10549,7 @@ mEndOffset
 }
 ;
 nsresult
-nsEditor
+EditorBase
 :
 :
 SplitNodeImpl
@@ -11274,7 +11268,7 @@ NS_OK
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 JoinNodesImpl
@@ -12076,7 +12070,7 @@ StealNSResult
 ;
 }
 int32_t
-nsEditor
+EditorBase
 :
 :
 GetChildOffset
@@ -12155,7 +12149,7 @@ already_AddRefed
 <
 nsIDOMNode
 >
-nsEditor
+EditorBase
 :
 :
 GetNodeLocation
@@ -12236,7 +12230,7 @@ forget
 }
 nsINode
 *
-nsEditor
+EditorBase
 :
 :
 GetNodeLocation
@@ -12311,7 +12305,7 @@ parent
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 GetLengthOfDOMNode
@@ -12360,7 +12354,7 @@ NS_OK
 }
 nsIContent
 *
-nsEditor
+EditorBase
 :
 :
 GetPriorNode
@@ -12490,7 +12484,7 @@ aNoBlockCrossing
 }
 nsIContent
 *
-nsEditor
+EditorBase
 :
 :
 GetNextNode
@@ -12677,7 +12671,7 @@ aNoBlockCrossing
 }
 nsIContent
 *
-nsEditor
+EditorBase
 :
 :
 GetPriorNode
@@ -12721,7 +12715,7 @@ aNoBlockCrossing
 }
 nsIContent
 *
-nsEditor
+EditorBase
 :
 :
 FindNextLeafNode
@@ -12953,7 +12947,7 @@ nullptr
 }
 nsIContent
 *
-nsEditor
+EditorBase
 :
 :
 GetNextNode
@@ -12997,7 +12991,7 @@ bNoBlockCrossing
 }
 nsIContent
 *
-nsEditor
+EditorBase
 :
 :
 FindNode
@@ -13076,7 +13070,7 @@ bNoBlockCrossing
 }
 nsIContent
 *
-nsEditor
+EditorBase
 :
 :
 GetRightmostChild
@@ -13187,7 +13181,7 @@ nullptr
 }
 nsIContent
 *
-nsEditor
+EditorBase
 :
 :
 GetLeftmostChild
@@ -13297,7 +13291,7 @@ nullptr
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 IsBlockNode
@@ -13312,7 +13306,7 @@ false
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 CanContain
@@ -13369,7 +13363,7 @@ false
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 CanContainTag
@@ -13426,7 +13420,7 @@ false
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 TagCanContain
@@ -13489,7 +13483,7 @@ false
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 TagCanContainTag
@@ -13507,7 +13501,7 @@ true
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 IsRoot
@@ -13544,7 +13538,7 @@ rootNode
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 IsRoot
@@ -13578,7 +13572,7 @@ rootNode
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 IsEditorRoot
@@ -13612,7 +13606,7 @@ rootNode
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 IsDescendantOfRoot
@@ -13641,7 +13635,7 @@ node
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 IsDescendantOfRoot
@@ -13685,7 +13679,7 @@ root
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 IsDescendantOfEditorRoot
@@ -13729,7 +13723,7 @@ root
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 IsContainer
@@ -13748,7 +13742,7 @@ false
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 IsContainer
@@ -13771,9 +13765,6 @@ inline
 bool
 IsElementVisible
 (
-dom
-:
-:
 Element
 *
 aElement
@@ -13928,7 +13919,7 @@ false
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 IsEditable
@@ -13957,7 +13948,7 @@ content
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 IsEditable
@@ -14064,7 +14055,7 @@ false
 }
 }
 bool
-nsEditor
+EditorBase
 :
 :
 IsMozEditorBogusNode
@@ -14104,7 +14095,7 @@ eCaseMatters
 ;
 }
 uint32_t
-nsEditor
+EditorBase
 :
 :
 CountEditableChildren
@@ -14168,7 +14159,7 @@ count
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 IncrementModificationCount
@@ -14226,7 +14217,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 GetModificationCount
@@ -14251,7 +14242,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 ResetModificationCount
@@ -14287,7 +14278,7 @@ NS_OK
 }
 nsIAtom
 *
-nsEditor
+EditorBase
 :
 :
 GetTag
@@ -14322,7 +14313,7 @@ null
 node
 passed
 to
-nsEditor
+EditorBase
 :
 :
 GetTag
@@ -14350,7 +14341,7 @@ NameAtom
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 GetTagString
@@ -14376,7 +14367,7 @@ null
 node
 passed
 to
-nsEditor
+EditorBase
 :
 :
 GetTagString
@@ -14421,7 +14412,7 @@ NS_OK
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 NodesSameType
@@ -14451,7 +14442,7 @@ null
 node
 passed
 to
-nsEditor
+EditorBase
 :
 :
 NodesSameType
@@ -14507,7 +14498,7 @@ content2
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 AreNodesSameType
@@ -14558,7 +14549,7 @@ NameAtom
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 IsTextNode
@@ -14616,7 +14607,7 @@ TEXT_NODE
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 IsTextNode
@@ -14645,7 +14636,7 @@ nsCOMPtr
 <
 nsIDOMNode
 >
-nsEditor
+EditorBase
 :
 :
 GetChildAt
@@ -14699,7 +14690,7 @@ resultNode
 }
 nsIContent
 *
-nsEditor
+EditorBase
 :
 :
 GetNodeAtRangeOffsetPoint
@@ -14762,7 +14753,7 @@ aOffset
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 GetStartNodeAndOffset
@@ -14854,7 +14845,7 @@ NS_OK
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 GetStartNodeAndOffset
@@ -14969,7 +14960,7 @@ NS_OK
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 GetEndNodeAndOffset
@@ -15055,7 +15046,7 @@ NS_OK
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 GetEndNodeAndOffset
@@ -15166,7 +15157,7 @@ NS_OK
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 IsPreformatted
@@ -15315,7 +15306,7 @@ NS_OK
 ;
 }
 int32_t
-nsEditor
+EditorBase
 :
 :
 SplitNodeDeep
@@ -15594,7 +15585,7 @@ offset
 ;
 }
 EditorDOMPoint
-nsEditor
+EditorBase
 :
 :
 JoinNodeDeep
@@ -15809,7 +15800,7 @@ ret
 ;
 }
 void
-nsEditor
+EditorBase
 :
 :
 BeginUpdateViewBatch
@@ -15866,7 +15857,7 @@ mUpdateCount
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 EndUpdateViewBatch
@@ -15941,7 +15932,7 @@ NS_OK
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 GetShouldTxnSetSelection
@@ -15953,7 +15944,7 @@ mShouldTxnSetSelection
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 DeleteSelectionImpl
@@ -16238,7 +16229,7 @@ already_AddRefed
 <
 Element
 >
-nsEditor
+EditorBase
 :
 :
 DeleteSelectionAndCreateElement
@@ -16343,7 +16334,7 @@ forget
 }
 TextComposition
 *
-nsEditor
+EditorBase
 :
 :
 GetComposition
@@ -16356,7 +16347,7 @@ mComposition
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 IsIMEComposing
@@ -16377,7 +16368,7 @@ IsComposing
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 ShouldHandleIMEComposition
@@ -16393,7 +16384,7 @@ mDidPostCreate
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 DeleteSelectionAndPrepareToCreateNode
@@ -16776,7 +16767,7 @@ NS_OK
 ;
 }
 void
-nsEditor
+EditorBase
 :
 :
 DoAfterDoTransaction
@@ -16838,7 +16829,7 @@ IncrementModificationCount
 }
 }
 void
-nsEditor
+EditorBase
 :
 :
 DoAfterUndoTransaction
@@ -16856,7 +16847,7 @@ IncrementModificationCount
 ;
 }
 void
-nsEditor
+EditorBase
 :
 :
 DoAfterRedoTransaction
@@ -16876,7 +16867,7 @@ already_AddRefed
 <
 ChangeAttributeTransaction
 >
-nsEditor
+EditorBase
 :
 :
 CreateTxnForSetAttribute
@@ -16920,7 +16911,7 @@ already_AddRefed
 <
 ChangeAttributeTransaction
 >
-nsEditor
+EditorBase
 :
 :
 CreateTxnForRemoveAttribute
@@ -16959,7 +16950,7 @@ already_AddRefed
 <
 CreateElementTransaction
 >
-nsEditor
+EditorBase
 :
 :
 CreateTxnForCreateElement
@@ -17002,7 +16993,7 @@ already_AddRefed
 <
 InsertNodeTransaction
 >
-nsEditor
+EditorBase
 :
 :
 CreateTxnForInsertNode
@@ -17042,7 +17033,7 @@ forget
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 CreateTxnForDeleteNode
@@ -17108,7 +17099,7 @@ already_AddRefed
 <
 CompositionTransaction
 >
-nsEditor
+EditorBase
 :
 :
 CreateTxnForComposition
@@ -17157,7 +17148,7 @@ forget
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 CreateTxnForAddStyleSheet
@@ -17214,7 +17205,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 CreateTxnForRemoveStyleSheet
@@ -17271,7 +17262,7 @@ rv
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 CreateTxnForDeleteSelection
@@ -17477,7 +17468,7 @@ already_AddRefed
 <
 DeleteTextTransaction
 >
-nsEditor
+EditorBase
 :
 :
 CreateTxnForDeleteCharacter
@@ -17669,7 +17660,7 @@ segLength
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 CreateTxnForDeleteInsertionPoint
@@ -18466,7 +18457,7 @@ NS_OK
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 CreateRange
@@ -18502,7 +18493,7 @@ aRange
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 AppendNodeToSelectionAsRange
@@ -18620,7 +18611,7 @@ range
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 ClearSelection
@@ -18656,7 +18647,7 @@ already_AddRefed
 <
 Element
 >
-nsEditor
+EditorBase
 :
 :
 CreateHTMLContent
@@ -18713,7 +18704,7 @@ an
 empty
 tag
 to
-nsEditor
+EditorBase
 :
 :
 CreateHTMLContent
@@ -18745,7 +18736,7 @@ kNameSpaceID_XHTML
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 SetAttributeOrEquivalent
@@ -18775,7 +18766,7 @@ aValue
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 RemoveAttributeOrEquivalent
@@ -18800,7 +18791,7 @@ aAttribute
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 HandleKeyPressEvent
@@ -19084,7 +19075,7 @@ NS_OK
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 HandleInlineSpellCheck
@@ -19139,7 +19130,7 @@ already_AddRefed
 <
 nsIContent
 >
-nsEditor
+EditorBase
 :
 :
 FindSelectionRoot
@@ -19168,7 +19159,7 @@ forget
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 InitializeSelection
@@ -19587,7 +19578,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 FinalizeSelection
@@ -19821,12 +19812,9 @@ return
 NS_OK
 ;
 }
-dom
-:
-:
 Element
 *
-nsEditor
+EditorBase
 :
 :
 GetRoot
@@ -19858,12 +19846,9 @@ return
 mRootElement
 ;
 }
-dom
-:
-:
 Element
 *
-nsEditor
+EditorBase
 :
 :
 GetEditorRoot
@@ -19878,7 +19863,7 @@ GetRoot
 }
 Element
 *
-nsEditor
+EditorBase
 :
 :
 GetExposedRoot
@@ -19926,7 +19911,7 @@ rootElement
 ;
 }
 nsresult
-nsEditor
+EditorBase
 :
 :
 DetermineCurrentDirection
@@ -20026,7 +20011,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 SwitchTextDirection
@@ -20209,7 +20194,7 @@ rv
 ;
 }
 void
-nsEditor
+EditorBase
 :
 :
 SwitchTextDirectionTo
@@ -20415,7 +20400,7 @@ FireInputEvent
 if
 DEBUG_JOE
 void
-nsEditor
+EditorBase
 :
 :
 DumpNode
@@ -20700,7 +20685,7 @@ get
 #
 endif
 bool
-nsEditor
+EditorBase
 :
 :
 IsModifiableNode
@@ -20715,7 +20700,7 @@ true
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 IsModifiableNode
@@ -20733,7 +20718,7 @@ already_AddRefed
 <
 nsIContent
 >
-nsEditor
+EditorBase
 :
 :
 GetFocusedContent
@@ -20810,7 +20795,7 @@ already_AddRefed
 <
 nsIContent
 >
-nsEditor
+EditorBase
 :
 :
 GetFocusedContentForIME
@@ -20824,7 +20809,7 @@ GetFocusedContent
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 IsActiveInDOMWindow
@@ -20922,7 +20907,7 @@ piTarget
 ;
 }
 bool
-nsEditor
+EditorBase
 :
 :
 IsAcceptableInputEvent
@@ -21115,7 +21100,7 @@ IsActiveInDOMWindow
 ;
 }
 void
-nsEditor
+EditorBase
 :
 :
 OnFocus
@@ -21145,7 +21130,7 @@ UpdateCurrentDictionary
 }
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 GetSuppressDispatchingInputEvent
@@ -21171,7 +21156,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 SetSuppressDispatchingInputEvent
@@ -21190,7 +21175,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsEditor
+EditorBase
 :
 :
 GetIsInEditAction
@@ -21222,7 +21207,7 @@ NS_OK
 ;
 }
 int32_t
-nsEditor
+EditorBase
 :
 :
 GetIMESelectionStartOffsetIn
@@ -21511,7 +21496,7 @@ minOffset
 ;
 }
 void
-nsEditor
+EditorBase
 :
 :
 HideCaret
@@ -21590,5 +21575,6 @@ RemoveForceHide
 (
 )
 ;
+}
 }
 }

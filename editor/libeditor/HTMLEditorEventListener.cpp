@@ -60,13 +60,6 @@ h
 #
 include
 "
-nsEditor
-.
-h
-"
-#
-include
-"
 nsError
 .
 h
@@ -171,9 +164,9 @@ HTMLEditorEventListener
 :
 Connect
 (
-nsEditor
+EditorBase
 *
-aEditor
+aEditorBase
 )
 {
 nsCOMPtr
@@ -184,7 +177,7 @@ htmlEditor
 =
 do_QueryObject
 (
-aEditor
+aEditorBase
 )
 ;
 nsCOMPtr
@@ -195,7 +188,7 @@ htmlInlineTableEditor
 =
 do_QueryObject
 (
-aEditor
+aEditorBase
 )
 ;
 NS_PRECONDITION
@@ -220,7 +213,7 @@ EditorEventListener
 :
 Connect
 (
-aEditor
+aEditorBase
 )
 ;
 }
@@ -242,7 +235,7 @@ HTMLEditor
 *
 >
 (
-mEditor
+mEditorBase
 )
 ;
 }
@@ -522,7 +515,7 @@ Selection
 >
 selection
 =
-mEditor
+mEditorBase
 -
 >
 GetSelection

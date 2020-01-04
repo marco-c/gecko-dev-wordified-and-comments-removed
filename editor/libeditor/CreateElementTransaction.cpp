@@ -51,6 +51,15 @@ h
 #
 include
 "
+mozilla
+/
+EditorBase
+.
+h
+"
+#
+include
+"
 nsAlgorithm
 .
 h
@@ -66,13 +75,6 @@ h
 include
 "
 nsDebug
-.
-h
-"
-#
-include
-"
-nsEditor
 .
 h
 "
@@ -158,9 +160,9 @@ CreateElementTransaction
 :
 CreateElementTransaction
 (
-nsEditor
+EditorBase
 &
-aEditor
+aEditorBase
 nsIAtom
 &
 aTag
@@ -174,10 +176,10 @@ aOffsetInParent
 EditTransactionBase
 (
 )
-mEditor
+mEditorBase
 (
 &
-aEditor
+aEditorBase
 )
 mTag
 (
@@ -240,7 +242,7 @@ DoTransaction
 {
 MOZ_ASSERT
 (
-mEditor
+mEditorBase
 &
 &
 mTag
@@ -251,7 +253,7 @@ mParent
 ;
 mNewNode
 =
-mEditor
+mEditorBase
 -
 >
 CreateHTMLContent
@@ -264,7 +266,7 @@ NS_ENSURE_STATE
 mNewNode
 )
 ;
-mEditor
+mEditorBase
 -
 >
 MarkNodeDirty
@@ -366,7 +368,7 @@ StealNSResult
 if
 (
 !
-mEditor
+mEditorBase
 -
 >
 GetShouldTxnSetSelection
@@ -384,7 +386,7 @@ Selection
 >
 selection
 =
-mEditor
+mEditorBase
 -
 >
 GetSelection
@@ -449,7 +451,7 @@ UndoTransaction
 {
 MOZ_ASSERT
 (
-mEditor
+mEditorBase
 &
 &
 mParent
@@ -486,7 +488,7 @@ RedoTransaction
 {
 MOZ_ASSERT
 (
-mEditor
+mEditorBase
 &
 &
 mParent

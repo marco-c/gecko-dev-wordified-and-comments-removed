@@ -61,9 +61,6 @@ class
 nsIPresShell
 ;
 class
-nsEditor
-;
-class
 nsPresContext
 ;
 #
@@ -86,6 +83,9 @@ namespace
 mozilla
 {
 class
+EditorBase
+;
+class
 EditorEventListener
 :
 public
@@ -101,9 +101,9 @@ virtual
 nsresult
 Connect
 (
-nsEditor
+EditorBase
 *
-aEditor
+aEditorBase
 )
 ;
 void
@@ -343,9 +343,9 @@ nsIDOMMouseEvent
 aMouseEvent
 )
 ;
-nsEditor
+EditorBase
 *
-mEditor
+mEditorBase
 ;
 RefPtr
 <

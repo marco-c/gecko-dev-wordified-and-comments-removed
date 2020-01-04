@@ -488,7 +488,7 @@ aNode
 override
 ;
 using
-nsEditor
+EditorBase
 :
 :
 IsEditable
@@ -1169,7 +1169,7 @@ HTMLEditor
 )
 ;
 using
-nsEditor
+EditorBase
 :
 :
 IsBlockNode

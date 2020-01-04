@@ -33,9 +33,6 @@ nsISupportsImpl
 h
 "
 class
-nsEditor
-;
-class
 nsIAtom
 ;
 class
@@ -47,6 +44,9 @@ nsINode
 namespace
 mozilla
 {
+class
+EditorBase
+;
 namespace
 dom
 {
@@ -65,9 +65,9 @@ public
 :
 CreateElementTransaction
 (
-nsEditor
+EditorBase
 &
-aEditor
+aEditorBase
 nsIAtom
 &
 aTag
@@ -110,9 +110,9 @@ CreateElementTransaction
 (
 )
 ;
-nsEditor
+EditorBase
 *
-mEditor
+mEditorBase
 ;
 nsCOMPtr
 <

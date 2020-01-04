@@ -7,6 +7,15 @@ mozilla_TextEditor_h
 #
 include
 "
+mozilla
+/
+EditorBase
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -15,13 +24,6 @@ h
 include
 "
 nsCycleCollectionParticipant
-.
-h
-"
-#
-include
-"
-nsEditor
 .
 h
 "
@@ -116,7 +118,7 @@ class
 TextEditor
 :
 public
-nsEditor
+EditorBase
 public
 nsIPlaintextEditor
 public
@@ -128,7 +130,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 TextEditor
-nsEditor
+EditorBase
 )
 enum
 ETypingAction

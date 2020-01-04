@@ -40,9 +40,6 @@ nscore
 h
 "
 class
-nsEditor
-;
-class
 nsIContent
 ;
 class
@@ -51,6 +48,9 @@ nsINode
 namespace
 mozilla
 {
+class
+EditorBase
+;
 class
 SplitNodeTransaction
 final
@@ -62,9 +62,9 @@ public
 :
 SplitNodeTransaction
 (
-nsEditor
+EditorBase
 &
-aEditor
+aEditorBase
 nsIContent
 &
 aNode
@@ -99,9 +99,9 @@ SplitNodeTransaction
 (
 )
 ;
-nsEditor
+EditorBase
 &
-mEditor
+mEditorBase
 ;
 nsCOMPtr
 <
