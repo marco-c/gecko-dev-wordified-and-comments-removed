@@ -755,9 +755,6 @@ aContext
 bool
 ShouldInterceptURI
 (
-nsIChannel
-*
-aChannel
 nsIURI
 *
 aURI
