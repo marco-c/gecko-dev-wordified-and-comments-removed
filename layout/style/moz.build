@@ -413,11 +413,6 @@ nsIStyleRuleProcessor
 h
 '
 '
-nsIStyleSheet
-.
-h
-'
-'
 nsLayoutStylesheetCache
 .
 h

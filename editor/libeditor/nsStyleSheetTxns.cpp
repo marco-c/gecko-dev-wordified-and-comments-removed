@@ -81,9 +81,6 @@ using
 namespace
 mozilla
 ;
-class
-nsIStyleSheet
-;
 static
 void
 AddStyleSheet
@@ -91,7 +88,7 @@ AddStyleSheet
 nsIEditor
 *
 aEditor
-nsIStyleSheet
+CSSStyleSheet
 *
 aSheet
 )
@@ -162,7 +159,7 @@ RemoveStyleSheet
 nsIEditor
 *
 aEditor
-nsIStyleSheet
+CSSStyleSheet
 *
 aSheet
 )
