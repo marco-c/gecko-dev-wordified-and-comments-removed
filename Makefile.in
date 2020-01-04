@@ -113,6 +113,8 @@ TOPLEVEL_BUILD
 default
 :
 :
+ifndef
+TEST_MOZBUILD
 ifdef
 MOZ_BUILD_APP
 include
@@ -127,6 +129,7 @@ MOZ_BUILD_APP
 build
 .
 mk
+endif
 endif
 include
 (
@@ -200,6 +203,14 @@ h
 mozconfig
 .
 mk
+ifndef
+MOZ_PROFILE_USE
+buildid
+.
+h
+:
+FORCE
+endif
 ifdef
 JS_STANDALONE
 configure_dir

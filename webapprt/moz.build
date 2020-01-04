@@ -357,3 +357,11 @@ webapprt
 ini
 '
 ]
+DEFINES
+[
+'
+TOPOBJDIR
+'
+]
+=
+TOPOBJDIR

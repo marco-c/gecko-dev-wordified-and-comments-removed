@@ -7743,3 +7743,11 @@ txt
 in
 '
 ]
+DEFINES
+[
+'
+TOPOBJDIR
+'
+]
+=
+TOPOBJDIR

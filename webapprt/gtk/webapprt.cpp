@@ -70,6 +70,13 @@ BinaryPath
 .
 h
 "
+#
+include
+"
+buildid
+.
+h
+"
 const
 char
 kAPP_INI
