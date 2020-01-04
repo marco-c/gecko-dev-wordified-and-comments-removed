@@ -227,6 +227,15 @@ mp4parse
 mod
 .
 patch
+patch
+-
+p4
+<
+mp4parse
+-
+thread
+.
+patch
 echo
 "
 Cleaning
