@@ -1144,8 +1144,8 @@ fuzzy
 if
 (
 skiaContent
-16
-27
+19
+29
 )
 =
 =
@@ -1645,6 +1645,10 @@ fuzzy
 if
 (
 skiaContent
+&
+&
+!
+Android
 1
 50
 )

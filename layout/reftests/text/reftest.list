@@ -3321,12 +3321,7 @@ fails
 -
 if
 (
-!
-winWidget
-&
-&
-!
-gtkWidget
+Android
 )
 skip
 -
@@ -3342,6 +3337,10 @@ fuzzy
 if
 (
 skiaContent
+&
+&
+!
+Android
 89
 3100
 )

@@ -503,6 +503,10 @@ fuzzy
 if
 (
 skiaContent
+&
+&
+!
+Android
 1
 1000
 )
@@ -579,6 +583,10 @@ fuzzy
 if
 (
 skiaContent
+&
+&
+!
+Android
 1
 1400
 )

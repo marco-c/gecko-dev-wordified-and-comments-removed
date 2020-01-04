@@ -247,6 +247,10 @@ fuzzy
 if
 (
 skiaContent
+&
+&
+!
+Android
 1
 3
 )
@@ -302,6 +306,10 @@ fuzzy
 if
 (
 skiaContent
+&
+&
+!
+Android
 2
 3
 )

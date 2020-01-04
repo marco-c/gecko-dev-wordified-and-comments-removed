@@ -3821,6 +3821,9 @@ fuzzy
 if
 (
 azureSkiaGL
+|
+|
+skiaContent
 8
 20000
 )
