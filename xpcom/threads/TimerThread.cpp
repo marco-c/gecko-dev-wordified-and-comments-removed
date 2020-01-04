@@ -413,6 +413,7 @@ aPtr
 }
 class
 nsTimerEvent
+final
 :
 public
 CancelableRunnable
