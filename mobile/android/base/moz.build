@@ -4174,13 +4174,6 @@ java
 '
 widget
 /
-ButtonToast
-.
-java
-'
-'
-widget
-/
 CheckableLinearLayout
 .
 java
