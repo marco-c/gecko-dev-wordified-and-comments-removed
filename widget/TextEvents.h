@@ -850,6 +850,7 @@ static
 const
 char16_t
 *
+const
 kKeyNames
 [
 ]
@@ -858,6 +859,7 @@ static
 const
 char16_t
 *
+const
 kCodeNames
 [
 ]
