@@ -743,7 +743,11 @@ getViewportMessageManager
 =
 >
 {
-return
+let
+{
+messageManager
+}
+=
 document
 .
 querySelector
@@ -756,6 +760,11 @@ browser
 )
 .
 frameLoader
+;
+return
+{
+messageManager
+}
 ;
 }
 ;
