@@ -5939,7 +5939,7 @@ UnboxedArrayObject
 (
 )
 .
-length
+initializedLength
 (
 )
 )
