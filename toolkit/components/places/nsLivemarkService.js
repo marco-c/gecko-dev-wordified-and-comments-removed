@@ -3392,10 +3392,12 @@ of
 nodes
 )
 {
+let
 localObserver
 =
 observer
 ;
+let
 localNode
 =
 node
