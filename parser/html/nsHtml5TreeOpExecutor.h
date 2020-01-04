@@ -734,6 +734,15 @@ aReferrerPolicy
 )
 ;
 void
+AddSpeculationCSP
+(
+const
+nsAString
+&
+aCSP
+)
+;
+void
 AddBase
 (
 const
