@@ -170,6 +170,9 @@ StartRecordingHelper
 class
 RecorderPosterHelper
 ;
+class
+TrackCreatedListener
+;
 #
 define
 NS_DOM_CAMERA_CONTROL_CID
@@ -268,6 +271,13 @@ GetCameraStream
 )
 const
 override
+;
+void
+TrackCreated
+(
+TrackID
+aTrackID
+)
 ;
 void
 GetEffect
@@ -1354,6 +1364,12 @@ RefPtr
 CameraPreviewMediaStream
 >
 mInput
+;
+RefPtr
+<
+TrackCreatedListener
+>
+mTrackCreatedListener
 ;
 nsCOMPtr
 <

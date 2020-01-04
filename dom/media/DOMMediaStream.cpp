@@ -247,11 +247,6 @@ aOwnership
 {
 MOZ_ASSERT
 (
-mInputPort
-)
-;
-MOZ_ASSERT
-(
 mTrack
 )
 ;
