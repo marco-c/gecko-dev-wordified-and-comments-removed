@@ -6,8 +6,6 @@ mozilla
 gecko
 .
 telemetry
-.
-pings
 ;
 import
 org

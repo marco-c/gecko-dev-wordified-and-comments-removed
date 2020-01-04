@@ -6,8 +6,6 @@ mozilla
 gecko
 .
 telemetry
-.
-pings
 ;
 import
 org
@@ -43,6 +41,7 @@ util
 .
 UUID
 ;
+public
 abstract
 class
 TelemetryPingBuilder
@@ -95,12 +94,14 @@ ExtendedJSONObject
 )
 ;
 }
+public
 abstract
 String
 getDocType
 (
 )
 ;
+public
 abstract
 String
 [

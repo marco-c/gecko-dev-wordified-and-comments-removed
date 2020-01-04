@@ -6,8 +6,6 @@ mozilla
 gecko
 .
 telemetry
-.
-pings
 ;
 import
 org
@@ -205,6 +203,7 @@ super
 ;
 }
 Override
+public
 String
 getDocType
 (
@@ -216,6 +215,7 @@ return
 ;
 }
 Override
+public
 String
 [
 ]
@@ -286,6 +286,7 @@ super
 ;
 }
 Override
+public
 String
 getDocType
 (
@@ -297,6 +298,7 @@ return
 ;
 }
 Override
+public
 String
 [
 ]
