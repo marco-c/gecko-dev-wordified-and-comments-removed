@@ -12834,7 +12834,7 @@ IsIMEComposing
 return
 ;
 }
-uint32_t
+EventMessage
 message
 =
 aDispatchKeyDown
@@ -17678,7 +17678,7 @@ kungFuDeathGrip
 this
 )
 ;
-uint32_t
+EventMessage
 message
 =
 aCommitString

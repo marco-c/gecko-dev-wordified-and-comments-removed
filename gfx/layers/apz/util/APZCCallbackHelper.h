@@ -300,7 +300,7 @@ static
 nsEventStatus
 DispatchSynthesizedMouseEvent
 (
-uint32_t
+EventMessage
 aMsg
 uint64_t
 aTime

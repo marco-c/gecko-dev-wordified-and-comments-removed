@@ -428,6 +428,10 @@ aEventStatus
 break
 ;
 }
+default
+:
+break
+;
 }
 return
 nsButtonBoxFrame

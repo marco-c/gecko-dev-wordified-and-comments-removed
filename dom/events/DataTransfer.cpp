@@ -687,13 +687,13 @@ return
 nullptr
 ;
 }
-uint32_t
-eventType
+EventMessage
+eventMessage
 =
 nsContentUtils
 :
 :
-GetEventId
+GetEventMessage
 (
 eventTypeAtom
 )
@@ -712,7 +712,7 @@ aGlobal
 GetAsSupports
 (
 )
-eventType
+eventMessage
 aIsExternal
 -
 1

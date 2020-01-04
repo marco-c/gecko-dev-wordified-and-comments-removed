@@ -107,7 +107,7 @@ InternalScrollPortEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -241,7 +241,7 @@ InternalScrollAreaEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -371,7 +371,7 @@ InternalFormEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 )
 :
@@ -495,7 +495,7 @@ InternalClipboardEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 )
 :
@@ -626,7 +626,7 @@ InternalFocusEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 )
 :
@@ -787,7 +787,7 @@ InternalTransitionEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 )
 :
@@ -942,7 +942,7 @@ InternalAnimationEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 )
 :
@@ -1097,7 +1097,7 @@ InternalSVGZoomEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 )
 :
@@ -1220,7 +1220,7 @@ InternalSMILTimeEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 )
 :

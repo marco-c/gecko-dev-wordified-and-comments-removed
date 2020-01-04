@@ -28183,6 +28183,10 @@ pointerId
 }
 break
 ;
+default
+:
+break
+;
 }
 }
 nsIContent
@@ -29486,10 +29490,10 @@ nsIContent
 aTargetContent
 )
 {
-uint32_t
+EventMessage
 pointerMessage
 =
-0
+NS_EVENT_NULL
 ;
 if
 (
@@ -30427,7 +30431,7 @@ length
 return
 ;
 }
-uint32_t
+EventMessage
 message
 =
 (
@@ -30612,7 +30616,7 @@ length
 return
 ;
 }
-uint32_t
+EventMessage
 message
 =
 (
@@ -33725,6 +33729,10 @@ break
 break
 ;
 }
+default
+:
+break
+;
 }
 if
 (
@@ -35307,6 +35315,7 @@ break
 case
 NS_DRAGDROP_DROP
 :
+{
 nsCOMPtr
 <
 nsIDragSession
@@ -35355,6 +35364,11 @@ true
 ;
 }
 }
+break
+;
+}
+default
+:
 break
 ;
 }
@@ -35779,6 +35793,10 @@ AllowMouseCapture
 false
 )
 ;
+break
+;
+default
+:
 break
 ;
 }

@@ -1156,8 +1156,11 @@ virtual
 bool
 DispatchMouseEvent
 (
-uint32_t
-aEventType
+mozilla
+:
+:
+EventMessage
+aEventMessage
 WPARAM
 wParam
 LPARAM
@@ -1830,7 +1833,10 @@ aIsActivate
 bool
 DispatchStandardEvent
 (
-uint32_t
+mozilla
+:
+:
+EventMessage
 aMsg
 )
 ;

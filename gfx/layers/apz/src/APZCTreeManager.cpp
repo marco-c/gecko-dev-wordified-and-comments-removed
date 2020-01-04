@@ -3958,6 +3958,10 @@ EndTransaction
 ;
 return
 ;
+default
+:
+break
+;
 }
 }
 nsEventStatus

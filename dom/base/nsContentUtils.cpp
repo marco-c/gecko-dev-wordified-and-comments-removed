@@ -3594,7 +3594,7 @@ switch
 (
 aMapping
 .
-mId
+mMessage
 )
 {
 #
@@ -3602,13 +3602,13 @@ define
 ID_TO_EVENT
 (
 name_
-id_
+message_
 type_
 struct_
 )
 \
 case
-id_
+message_
 :
 return
 nsGkAtoms
@@ -3690,7 +3690,7 @@ define
 EVENT
 (
 name_
-_id
+_message
 _type
 _class
 )
@@ -3703,8 +3703,8 @@ on
 #
 #
 name_
-_id
 _type
+_message
 _class
 }
 #
@@ -3901,7 +3901,7 @@ define
 EVENT
 (
 name_
-_id
+_message
 _type
 _class
 )
@@ -3910,7 +3910,7 @@ define
 TOUCH_EVENT
 (
 name_
-_id
+_message
 _type
 _class
 )
@@ -3923,8 +3923,8 @@ on
 #
 #
 name_
-_id
 _type
+_message
 _class
 }
 #
@@ -16432,11 +16432,11 @@ aType
 )
 ;
 }
-uint32_t
+EventMessage
 nsContentUtils
 :
 :
-GetEventId
+GetEventMessage
 (
 nsIAtom
 *
@@ -16467,7 +16467,7 @@ mapping
 return
 mapping
 .
-mId
+mMessage
 ;
 }
 }
@@ -16519,7 +16519,7 @@ nsIAtom
 nsContentUtils
 :
 :
-GetEventIdAndAtom
+GetEventMessageAndAtom
 (
 const
 nsAString
@@ -16530,9 +16530,9 @@ mozilla
 :
 EventClassID
 aEventClassID
-uint32_t
+EventMessage
 *
-aEventID
+aEventMessage
 )
 {
 EventNameMapping
@@ -16552,7 +16552,7 @@ mapping
 )
 {
 *
-aEventID
+aEventMessage
 =
 mapping
 .
@@ -16563,7 +16563,7 @@ aEventClassID
 ?
 mapping
 .
-mId
+mMessage
 :
 NS_USER_DEFINED_EVENT
 ;
@@ -16635,7 +16635,7 @@ RemoveObjectAt
 }
 }
 *
-aEventID
+aEventMessage
 =
 NS_USER_DEFINED_EVENT
 ;
@@ -16673,7 +16673,7 @@ atom
 ;
 mapping
 .
-mId
+mMessage
 =
 NS_USER_DEFINED_EVENT
 ;
@@ -35204,7 +35204,7 @@ aWidget
 return
 NS_ERROR_FAILURE
 ;
-int32_t
+EventMessage
 msg
 ;
 if
@@ -35759,7 +35759,7 @@ widget
 return
 NS_ERROR_FAILURE
 ;
-int32_t
+EventMessage
 msg
 ;
 bool

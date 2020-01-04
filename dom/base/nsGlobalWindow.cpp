@@ -13702,7 +13702,7 @@ count
 =
 0
 ;
-uint32_t
+EventMessage
 msg
 =
 aVisitor
@@ -61128,8 +61128,8 @@ nsGlobalWindow
 :
 EnableNetworkEvent
 (
-uint32_t
-aType
+EventMessage
+aEventMessage
 )
 {
 MOZ_ASSERT
@@ -61248,7 +61248,7 @@ return
 }
 switch
 (
-aType
+aEventMessage
 )
 {
 case
@@ -61303,6 +61303,10 @@ false
 }
 break
 ;
+default
+:
+break
+;
 }
 }
 void
@@ -61311,8 +61315,8 @@ nsGlobalWindow
 :
 DisableNetworkEvent
 (
-uint32_t
-aType
+EventMessage
+aEventMessage
 )
 {
 MOZ_ASSERT
@@ -61349,7 +61353,7 @@ return
 }
 switch
 (
-aType
+aEventMessage
 )
 {
 case
@@ -61398,6 +61402,10 @@ NS_NETWORK_ACTIVITY_BLIP_DOWNLOAD_TOPIC
 )
 ;
 }
+break
+;
+default
+:
 break
 ;
 }

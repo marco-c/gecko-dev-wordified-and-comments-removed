@@ -1438,7 +1438,13 @@ WidgetDragEvent
 event
 (
 true
+static_cast
+<
+EventMessage
+>
+(
 aMsg
+)
 nullptr
 )
 ;

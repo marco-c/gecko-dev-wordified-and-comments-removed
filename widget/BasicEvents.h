@@ -377,7 +377,7 @@ WidgetEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 EventClassID
 aEventClassID
@@ -465,7 +465,7 @@ WidgetEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 )
 :
@@ -628,7 +628,7 @@ result
 EventClassID
 mClass
 ;
-uint32_t
+EventMessage
 mMessage
 ;
 LayoutDeviceIntPoint
@@ -919,7 +919,7 @@ WidgetGUIEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -963,7 +963,7 @@ WidgetGUIEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -1377,7 +1377,7 @@ WidgetInputEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -1422,7 +1422,7 @@ WidgetInputEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -1904,7 +1904,7 @@ InternalUIEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -1934,7 +1934,7 @@ InternalUIEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 EventClassID
 aEventClassID
@@ -1975,7 +1975,7 @@ InternalUIEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 const
 WidgetEvent

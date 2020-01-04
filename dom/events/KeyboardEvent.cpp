@@ -59,7 +59,7 @@ new
 WidgetKeyboardEvent
 (
 false
-0
+NS_EVENT_NULL
 nullptr
 )
 )
@@ -576,6 +576,10 @@ AsKeyboardEvent
 >
 charCode
 ;
+default
+:
+break
+;
 }
 return
 0
@@ -748,6 +752,10 @@ CharCode
 )
 ;
 }
+default
+:
+break
+;
 }
 return
 0

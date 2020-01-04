@@ -6728,7 +6728,7 @@ mNativeCaretIsCreated
 false
 ;
 }
-uint32_t
+EventMessage
 message
 =
 aCommitString

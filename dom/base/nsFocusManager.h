@@ -436,8 +436,11 @@ aAdjustWidget
 void
 SendFocusOrBlurEvent
 (
-uint32_t
-aType
+mozilla
+:
+:
+EventMessage
+aEventMessage
 nsIPresShell
 *
 aPresShell

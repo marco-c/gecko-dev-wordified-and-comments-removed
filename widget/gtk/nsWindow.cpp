@@ -12118,7 +12118,7 @@ nsWindow
 :
 DispatchContentCommandEvent
 (
-int32_t
+EventMessage
 aMsg
 )
 {
@@ -13920,7 +13920,7 @@ nsWindow
 :
 DispatchDragEvent
 (
-uint32_t
+EventMessage
 aMsg
 const
 nsIntPoint

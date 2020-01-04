@@ -7,6 +7,15 @@ nsIFormControl_h___
 #
 include
 "
+mozilla
+/
+EventForwards
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -351,7 +360,10 @@ virtual
 bool
 IsDisabledForEvents
 (
-uint32_t
+mozilla
+:
+:
+EventMessage
 aMessage
 )
 {

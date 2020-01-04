@@ -522,7 +522,7 @@ WidgetEvent
 >
 CreateMouseEvent
 (
-uint32_t
+EventMessage
 aMessage
 nscoord
 aX
@@ -670,7 +670,7 @@ WidgetEvent
 >
 CreateTouchEvent
 (
-uint32_t
+EventMessage
 aMessage
 nscoord
 aX
@@ -833,7 +833,7 @@ WidgetEvent
 >
 CreateWheelEvent
 (
-uint32_t
+EventMessage
 aMessage
 )
 {

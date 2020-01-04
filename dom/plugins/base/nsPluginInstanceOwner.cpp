@@ -10125,6 +10125,10 @@ pluginEvent
 ;
 break
 ;
+default
+:
+break
+;
 }
 }
 if
@@ -10252,6 +10256,10 @@ NS_MOUSE_DOUBLECLICK
 :
 return
 rv
+;
+default
+:
+break
 ;
 }
 const
@@ -10758,6 +10766,10 @@ True
 }
 break
 ;
+default
+:
+break
+;
 }
 }
 break
@@ -10881,6 +10893,10 @@ KeyRelease
 ;
 break
 ;
+default
+:
+break
+;
 }
 #
 endif
@@ -10994,6 +11010,10 @@ detail
 NotifyDetailNone
 ;
 }
+break
+;
+default
+:
 break
 ;
 }
@@ -11157,6 +11177,10 @@ NS_MOUSE_DOUBLECLICK
 :
 return
 rv
+;
+default
+:
+break
 ;
 }
 const
@@ -11370,6 +11394,10 @@ NS_PLUGIN_CALL_SAFE_TO_REENTER_GECKO
 )
 ;
 }
+break
+;
+default
+:
 break
 ;
 }

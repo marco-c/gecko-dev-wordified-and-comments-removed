@@ -68,7 +68,7 @@ WidgetContentCommandEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -407,7 +407,7 @@ WidgetPluginEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *

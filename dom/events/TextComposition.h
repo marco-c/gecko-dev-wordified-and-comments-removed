@@ -600,7 +600,7 @@ const
 WidgetCompositionEvent
 *
 aCompositionEvent
-uint32_t
+EventMessage
 aMessage
 nsEventStatus
 *
@@ -657,7 +657,7 @@ aTextComposition
 nsINode
 *
 aEventTarget
-uint32_t
+EventMessage
 aEventMessage
 const
 nsAString
@@ -689,11 +689,11 @@ nsINode
 >
 mEventTarget
 ;
-uint32_t
-mEventMessage
-;
 nsString
 mData
+;
+EventMessage
+mEventMessage
 ;
 bool
 mIsSynthesizedEvent
@@ -709,7 +709,7 @@ CompositionEventDispatcher
 void
 DispatchCompositionEventRunnable
 (
-uint32_t
+EventMessage
 aEventMessage
 const
 nsAString

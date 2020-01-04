@@ -1059,7 +1059,7 @@ virtual
 bool
 IsDisabledForEvents
 (
-uint32_t
+EventMessage
 aMessage
 )
 override

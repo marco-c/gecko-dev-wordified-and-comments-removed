@@ -146,6 +146,15 @@ Attributes
 h
 "
 #
+include
+"
+mozilla
+/
+EventForwards
+.
+h
+"
+#
 define
 NS_INLINE_DECL_IUNKNOWN_REFCOUNTING
 (
@@ -885,7 +894,7 @@ static
 bool
 GetIsMouseFromTouch
 (
-uint32_t
+EventMessage
 aEventType
 )
 ;

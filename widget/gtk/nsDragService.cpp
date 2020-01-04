@@ -8790,7 +8790,7 @@ IsDestroyed
 return
 FALSE
 ;
-uint32_t
+EventMessage
 msg
 =
 mCanDrop

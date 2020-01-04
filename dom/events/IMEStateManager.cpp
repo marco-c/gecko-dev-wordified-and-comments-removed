@@ -564,7 +564,7 @@ char
 *
 GetEventMessageName
 (
-uint32_t
+EventMessage
 aMessage
 )
 {

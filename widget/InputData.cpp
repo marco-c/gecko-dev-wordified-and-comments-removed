@@ -397,8 +397,8 @@ thread
 "
 )
 ;
-uint32_t
-touchType
+EventMessage
+touchEventMessage
 =
 NS_EVENT_NULL
 ;
@@ -410,7 +410,7 @@ mType
 case
 MULTITOUCH_START
 :
-touchType
+touchEventMessage
 =
 NS_TOUCH_START
 ;
@@ -419,7 +419,7 @@ break
 case
 MULTITOUCH_MOVE
 :
-touchType
+touchEventMessage
 =
 NS_TOUCH_MOVE
 ;
@@ -428,7 +428,7 @@ break
 case
 MULTITOUCH_END
 :
-touchType
+touchEventMessage
 =
 NS_TOUCH_END
 ;
@@ -437,7 +437,7 @@ break
 case
 MULTITOUCH_CANCEL
 :
-touchType
+touchEventMessage
 =
 NS_TOUCH_CANCEL
 ;
@@ -467,13 +467,13 @@ WidgetTouchEvent
 event
 (
 true
-touchType
+touchEventMessage
 aWidget
 )
 ;
 if
 (
-touchType
+touchEventMessage
 =
 =
 NS_EVENT_NULL
@@ -582,8 +582,8 @@ thread
 "
 )
 ;
-uint32_t
-mouseEventType
+EventMessage
+mouseEventMessage
 =
 NS_EVENT_NULL
 ;
@@ -598,7 +598,7 @@ MultiTouchInput
 :
 MULTITOUCH_START
 :
-mouseEventType
+mouseEventMessage
 =
 NS_MOUSE_BUTTON_DOWN
 ;
@@ -610,7 +610,7 @@ MultiTouchInput
 :
 MULTITOUCH_MOVE
 :
-mouseEventType
+mouseEventMessage
 =
 NS_MOUSE_MOVE
 ;
@@ -628,7 +628,7 @@ MultiTouchInput
 :
 MULTITOUCH_END
 :
-mouseEventType
+mouseEventMessage
 =
 NS_MOUSE_BUTTON_UP
 ;
@@ -656,7 +656,7 @@ WidgetMouseEvent
 event
 (
 true
-mouseEventType
+mouseEventMessage
 aWidget
 WidgetMouseEvent
 :
@@ -734,7 +734,7 @@ modifiers
 ;
 if
 (
-mouseEventType
+mouseEventMessage
 !
 =
 NS_MOUSE_MOVE

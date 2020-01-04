@@ -433,7 +433,7 @@ const
 WidgetCompositionEvent
 *
 aCompositionEvent
-uint32_t
+EventMessage
 aMessage
 nsEventStatus
 *
@@ -1814,7 +1814,7 @@ TextComposition
 :
 DispatchCompositionEventRunnable
 (
-uint32_t
+EventMessage
 aEventMessage
 const
 nsAString
@@ -2349,7 +2349,7 @@ aComposition
 nsINode
 *
 aEventTarget
-uint32_t
+EventMessage
 aEventMessage
 const
 nsAString
@@ -2367,13 +2367,13 @@ mEventTarget
 (
 aEventTarget
 )
-mEventMessage
-(
-aEventMessage
-)
 mData
 (
 aData
+)
+mEventMessage
+(
+aEventMessage
 )
 mIsSynthesizedEvent
 (

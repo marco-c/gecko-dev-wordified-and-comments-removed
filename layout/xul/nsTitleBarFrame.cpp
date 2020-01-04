@@ -652,6 +652,10 @@ mouseEvent
 break
 ;
 }
+default
+:
+break
+;
 }
 if
 (

@@ -6264,7 +6264,7 @@ lastFocusedWindow
 mLastFocusedWindow
 )
 ;
-uint32_t
+EventMessage
 message
 =
 aCommitString

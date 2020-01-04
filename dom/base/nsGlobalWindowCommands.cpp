@@ -2631,8 +2631,8 @@ presShell
 NS_ERROR_FAILURE
 )
 ;
-int32_t
-eventType
+EventMessage
+eventMessage
 =
 NS_COPY
 ;
@@ -2650,7 +2650,7 @@ cmd_cut
 0
 )
 {
-eventType
+eventMessage
 =
 NS_CUT
 ;
@@ -2665,7 +2665,7 @@ nsCopySupport
 :
 FireClipboardEvent
 (
-eventType
+eventMessage
 nsIClipboard
 :
 :

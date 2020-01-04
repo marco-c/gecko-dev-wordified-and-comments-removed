@@ -20,7 +20,17 @@ nsEventStatus_eConsumeDoDefault
 nsEventStatus_eSentinel
 }
 ;
+namespace
+mozilla
+{
+typedef
+uint16_t
+EventMessageType
+;
 enum
+EventMessage
+:
+EventMessageType
 {
 #
 define
@@ -47,9 +57,6 @@ NS_EVENT_MESSAGE
 eEventMessage_MaxValue
 }
 ;
-namespace
-mozilla
-{
 typedef
 uint8_t
 EventClassIDType

@@ -1231,7 +1231,10 @@ mIsDestroyed
 void
 DispatchDragEvent
 (
-uint32_t
+mozilla
+:
+:
+EventMessage
 aMsg
 const
 nsIntPoint
@@ -1696,7 +1699,10 @@ aCommand
 bool
 DispatchContentCommandEvent
 (
-int32_t
+mozilla
+:
+:
+EventMessage
 aMsg
 )
 ;

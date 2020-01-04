@@ -94,7 +94,7 @@ char
 *
 GetEventMessageName
 (
-uint32_t
+EventMessage
 aMessage
 )
 {
@@ -4369,6 +4369,10 @@ get
 ;
 break
 ;
+default
+:
+break
+;
 }
 aEvent
 .
@@ -5762,7 +5766,7 @@ OnEventNeedingAckHandled
 nsIWidget
 *
 aWidget
-uint32_t
+EventMessage
 aMessage
 )
 {

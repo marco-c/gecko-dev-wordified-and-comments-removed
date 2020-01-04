@@ -450,7 +450,7 @@ char
 *
 GetEventName
 (
-uint32_t
+EventMessage
 aEventType
 )
 ;

@@ -910,6 +910,10 @@ EndTransaction
 ;
 return
 ;
+default
+:
+break
+;
 }
 }
 void

@@ -1021,7 +1021,7 @@ DispatchKeyUpEvent
 nsEventStatus
 DispatchKeyEventInternal
 (
-uint32_t
+EventMessage
 aEventMessage
 )
 ;
@@ -1261,7 +1261,7 @@ KeyEventDispatcher
 :
 DispatchKeyEventInternal
 (
-uint32_t
+EventMessage
 aEventMessage
 )
 {

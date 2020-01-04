@@ -2353,6 +2353,10 @@ aEventStatus
 )
 ;
 }
+default
+:
+break
+;
 }
 return
 NS_OK

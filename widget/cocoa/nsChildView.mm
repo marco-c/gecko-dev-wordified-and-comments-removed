@@ -18125,9 +18125,9 @@ void
 sendFocusEvent
 :
 (
-uint32_t
+EventMessage
 )
-eventType
+eventMessage
 {
 if
 (
@@ -18145,7 +18145,7 @@ WidgetGUIEvent
 focusGuiEvent
 (
 true
-eventType
+eventMessage
 mGeckoChild
 )
 ;
@@ -22957,7 +22957,7 @@ anEvent
 deltaZ
 ]
 ;
-uint32_t
+EventMessage
 msg
 ;
 switch
@@ -23201,7 +23201,7 @@ anEvent
 rotation
 ]
 ;
-uint32_t
+EventMessage
 msg
 ;
 switch
@@ -23730,7 +23730,7 @@ aEvent
 withKind
 :
 (
-uint32_t
+EventMessage
 )
 aMsg
 allowedDirections
@@ -26600,7 +26600,7 @@ fromView
 nil
 ]
 ;
-uint32_t
+EventMessage
 msg
 =
 aEnter
@@ -27920,7 +27920,7 @@ void
 sendWheelStartOrStop
 :
 (
-uint32_t
+EventMessage
 )
 msg
 forEvent
@@ -27985,13 +27985,13 @@ condition
 first
 :
 (
-uint32_t
+EventMessage
 )
 first
 second
 :
 (
-uint32_t
+EventMessage
 )
 second
 forEvent
@@ -32851,7 +32851,7 @@ NSDragOperation
 doDragAction
 :
 (
-uint32_t
+EventMessage
 )
 aMessage
 sender
@@ -33516,6 +33516,10 @@ false
 ;
 }
 }
+default
+:
+break
+;
 }
 }
 return

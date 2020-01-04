@@ -79,7 +79,7 @@ WidgetGestureNotifyEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -235,7 +235,7 @@ WidgetSimpleGestureEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -555,7 +555,7 @@ WidgetTouchEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *

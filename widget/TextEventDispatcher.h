@@ -278,7 +278,7 @@ eDispatchToCurrentProcess
 bool
 DispatchKeyboardEvent
 (
-uint32_t
+EventMessage
 aMessage
 const
 WidgetKeyboardEvent
@@ -467,7 +467,7 @@ aStatus
 bool
 DispatchKeyboardEventInternal
 (
-uint32_t
+EventMessage
 aMessage
 const
 WidgetKeyboardEvent

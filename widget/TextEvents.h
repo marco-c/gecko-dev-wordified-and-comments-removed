@@ -264,7 +264,7 @@ WidgetKeyboardEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -874,7 +874,7 @@ InternalBeforeAfterKeyboardEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -1046,7 +1046,7 @@ WidgetCompositionEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -1368,7 +1368,7 @@ WidgetQueryContentEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -1991,7 +1991,7 @@ WidgetSelectionEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *
@@ -2131,7 +2131,7 @@ InternalEditorInputEvent
 (
 bool
 aIsTrusted
-uint32_t
+EventMessage
 aMessage
 nsIWidget
 *

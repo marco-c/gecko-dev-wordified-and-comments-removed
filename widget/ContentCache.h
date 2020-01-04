@@ -1058,7 +1058,7 @@ OnEventNeedingAckHandled
 nsIWidget
 *
 aWidget
-uint32_t
+EventMessage
 aMessage
 )
 ;

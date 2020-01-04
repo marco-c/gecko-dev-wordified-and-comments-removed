@@ -3203,6 +3203,10 @@ aPresContext
 }
 break
 ;
+default
+:
+break
+;
 }
 *
 aEventStatus

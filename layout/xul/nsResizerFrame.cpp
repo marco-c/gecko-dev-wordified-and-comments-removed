@@ -1573,6 +1573,10 @@ contentToResize
 }
 break
 ;
+default
+:
+break
+;
 }
 if
 (

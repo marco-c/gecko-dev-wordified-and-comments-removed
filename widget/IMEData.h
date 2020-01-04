@@ -712,7 +712,7 @@ mMouseButtonEventData
 .
 mEventMessage
 =
-0
+NS_EVENT_NULL
 ;
 mMouseButtonEventData
 .
@@ -1781,7 +1781,7 @@ aCausedByComposition
 struct
 MouseButtonEventData
 {
-uint32_t
+EventMessage
 mEventMessage
 ;
 uint32_t
