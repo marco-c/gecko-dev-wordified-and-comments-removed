@@ -1525,6 +1525,16 @@ artifacts
 values
 (
 )
+if
+hasattr
+(
+artifacts
+"
+values
+"
+)
+else
+artifacts
 :
         
 artifact
