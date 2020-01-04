@@ -676,16 +676,6 @@ icon
 .
 svg
 )
-*
-skin
-/
-classic
-/
-browser
-/
-engineManager
-.
-css
 skin
 /
 classic
