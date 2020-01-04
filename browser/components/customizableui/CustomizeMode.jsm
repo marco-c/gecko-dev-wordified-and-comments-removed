@@ -1291,6 +1291,8 @@ selectedTab
 =
 gTab
 ;
+return
+;
 }
 gTab
 .
