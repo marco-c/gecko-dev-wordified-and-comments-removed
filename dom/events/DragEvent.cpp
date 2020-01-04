@@ -234,7 +234,7 @@ AsDragEvent
 )
 -
 >
-dataTransfer
+mDataTransfer
 =
 aDataTransfer
 ;
@@ -349,7 +349,7 @@ return
 dragEvent
 -
 >
-dataTransfer
+mDataTransfer
 ;
 }
 already_AddRefed

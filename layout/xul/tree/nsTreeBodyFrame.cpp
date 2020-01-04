@@ -11672,12 +11672,13 @@ if
 dragEvent
 -
 >
-dataTransfer
+mDataTransfer
 )
+{
 dragEvent
 -
 >
-dataTransfer
+mDataTransfer
 -
 >
 GetDropEffectInt
@@ -11686,6 +11687,7 @@ GetDropEffectInt
 action
 )
 ;
+}
 return
 action
 ;
@@ -12325,7 +12327,7 @@ AsDragEvent
 )
 -
 >
-dataTransfer
+mDataTransfer
 &
 canDropAtNewLocation
 )
@@ -12497,7 +12499,7 @@ mDropOrient
 dragEvent
 -
 >
-dataTransfer
+mDataTransfer
 )
 ;
 mSlots

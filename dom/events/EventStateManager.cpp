@@ -7429,11 +7429,11 @@ gestureEvent
 ;
 startEvent
 .
-dataTransfer
+mDataTransfer
 =
 gestureEvent
 .
-dataTransfer
+mDataTransfer
 =
 dataTransfer
 ;
@@ -14429,7 +14429,7 @@ if
 dragEvent
 -
 >
-dataTransfer
+mDataTransfer
 )
 {
 dataTransfer
@@ -14439,7 +14439,7 @@ do_QueryInterface
 dragEvent
 -
 >
-dataTransfer
+mDataTransfer
 )
 ;
 dataTransfer
@@ -18984,10 +18984,12 @@ if
 dragEvent
 -
 >
-dataTransfer
+mDataTransfer
 )
+{
 return
 ;
+}
 nsCOMPtr
 <
 nsIDragSession
@@ -19034,7 +19036,7 @@ mozCursor
 dragEvent
 -
 >
-dataTransfer
+mDataTransfer
 -
 >
 GetMozCursor

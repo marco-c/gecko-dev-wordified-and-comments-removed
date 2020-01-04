@@ -1169,7 +1169,7 @@ dom
 :
 DataTransfer
 >
-dataTransfer
+mDataTransfer
 ;
 bool
 userCancelled
@@ -1194,11 +1194,11 @@ aEvent
 aCopyTargets
 )
 ;
-dataTransfer
+mDataTransfer
 =
 aEvent
 .
-dataTransfer
+mDataTransfer
 ;
 userCancelled
 =
