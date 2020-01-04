@@ -310,6 +310,16 @@ return
 mIsDoomed
 ;
 }
+bool
+IsPinned
+(
+)
+const
+{
+return
+mPinned
+;
+}
 double
 GetFrecency
 (

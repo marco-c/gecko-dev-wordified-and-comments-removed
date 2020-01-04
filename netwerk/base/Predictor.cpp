@@ -8722,6 +8722,8 @@ uint32_t
 lastModifiedTime
 uint32_t
 expirationTime
+bool
+aPinned
 )
 {
 MOZ_ASSERT

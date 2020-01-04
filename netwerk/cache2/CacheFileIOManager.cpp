@@ -11222,6 +11222,12 @@ dataSize
 fetchCount
 lastModified
 expirationTime
+metadata
+-
+>
+Pinned
+(
+)
 )
 ;
 return

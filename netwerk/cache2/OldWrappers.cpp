@@ -1104,6 +1104,7 @@ dataSize
 fetchCount
 lastModified
 expirationTime
+false
 )
 ;
 *
