@@ -294,14 +294,6 @@ LINUX
 ]
 =
 True
-DEFINES
-[
-'
-USE_INTERFACE_PRIORITIZER
-'
-]
-=
-True
 LOCAL_INCLUDES
 +
 =
