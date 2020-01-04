@@ -40,7 +40,7 @@ namespace
 layers
 {
 class
-APZCTreeManager
+IAPZCTreeManager
 ;
 class
 RemoteContentController
@@ -343,7 +343,7 @@ mBrowserParent
 }
 already_AddRefed
 <
-APZCTreeManager
+IAPZCTreeManager
 >
 GetApzcTreeManager
 (
@@ -373,7 +373,7 @@ mMutex
 ;
 RefPtr
 <
-APZCTreeManager
+IAPZCTreeManager
 >
 mApzcTreeManager
 ;
