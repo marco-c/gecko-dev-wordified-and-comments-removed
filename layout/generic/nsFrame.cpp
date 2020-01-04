@@ -18862,16 +18862,6 @@ floats_cur_right
 =
 0
 ;
-WritingMode
-wm
-=
-lineContainer
--
->
-GetWritingMode
-(
-)
-;
 for
 (
 uint32_t
@@ -18930,7 +18920,7 @@ floatDisp
 >
 PhysicalBreakType
 (
-wm
+lineContainerWM
 )
 ;
 if
@@ -19009,7 +18999,7 @@ floatDisp
 >
 PhysicalFloats
 (
-wm
+lineContainerWM
 )
 ;
 nscoord

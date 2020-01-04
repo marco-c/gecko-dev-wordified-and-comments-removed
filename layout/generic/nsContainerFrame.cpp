@@ -3746,7 +3746,9 @@ savedLineContainer
 aData
 -
 >
-lineContainer
+LineContainer
+(
+)
 ;
 nsContainerFrame
 *
@@ -3864,9 +3866,10 @@ nullptr
 aData
 -
 >
-lineContainer
-=
+SetLineContainer
+(
 nullptr
+)
 ;
 lastInFlow
 =
@@ -3883,9 +3886,10 @@ savedLine
 aData
 -
 >
-lineContainer
-=
+SetLineContainer
+(
 savedLineContainer
+)
 ;
 if
 (
