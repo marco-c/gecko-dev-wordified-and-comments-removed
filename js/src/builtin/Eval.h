@@ -22,6 +22,7 @@ namespace
 js
 {
 extern
+MOZ_MUST_USE
 bool
 IndirectEval
 (
@@ -36,6 +37,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 DirectEval
 (
@@ -49,6 +51,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 DirectEvalStringFromIon
 (

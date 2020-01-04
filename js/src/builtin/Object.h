@@ -33,6 +33,7 @@ Value
 namespace
 js
 {
+MOZ_MUST_USE
 bool
 obj_construct
 (
@@ -49,6 +50,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 obj_propertyIsEnumerable
 (
@@ -62,6 +64,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 obj_valueOf
 (
@@ -108,6 +111,7 @@ HandlePlainObject
 templateObj
 )
 ;
+MOZ_MUST_USE
 bool
 obj_create
 (
@@ -124,6 +128,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 obj_defineProperty
 (
@@ -140,6 +145,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 obj_getOwnPropertyNames
 (
@@ -156,6 +162,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 obj_getOwnPropertyDescriptor
 (
@@ -172,6 +179,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 obj_getPrototypeOf
 (
@@ -188,6 +196,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 obj_hasOwnProperty
 (
@@ -204,6 +213,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 obj_isExtensible
 (
@@ -220,6 +230,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 obj_toString
 (
@@ -236,6 +247,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 GetOwnPropertyKeys
 (
@@ -253,6 +265,7 @@ unsigned
 flags
 )
 ;
+MOZ_MUST_USE
 bool
 IdToStringOrSymbol
 (
@@ -291,6 +304,7 @@ obj
 #
 endif
 extern
+MOZ_MUST_USE
 bool
 WatchHandler
 (

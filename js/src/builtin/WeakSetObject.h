@@ -80,6 +80,7 @@ nullptr
 )
 ;
 static
+MOZ_MUST_USE
 bool
 construct
 (

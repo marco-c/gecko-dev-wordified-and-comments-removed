@@ -34,6 +34,7 @@ UpdateRegExpStatics
 DontUpdateRegExpStatics
 }
 ;
+MOZ_MUST_USE
 bool
 ExecuteRegExpLegacy
 (
@@ -57,6 +58,7 @@ MutableHandleValue
 rval
 )
 ;
+MOZ_MUST_USE
 bool
 CreateRegExpMatchResult
 (
@@ -74,6 +76,7 @@ rval
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 RegExpMatcher
 (
@@ -88,6 +91,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 RegExpMatcherRaw
 (
@@ -108,6 +112,7 @@ output
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 RegExpSearcher
 (
@@ -122,6 +127,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 RegExpSearcherRaw
 (
@@ -143,6 +149,7 @@ result
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 RegExpTester
 (
@@ -157,6 +164,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 RegExpTesterRaw
 (
@@ -175,6 +183,7 @@ endIndex
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 intrinsic_GetElemBaseForLambda
 (
@@ -189,6 +198,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 intrinsic_GetStringDataProperty
 (
@@ -203,6 +213,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 regexp_exec_no_statics
 (
@@ -217,6 +228,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 regexp_test_no_statics
 (
@@ -231,6 +243,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 regexp_construct_no_sticky
 (
@@ -245,6 +258,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 IsRegExp
 (
@@ -259,6 +273,7 @@ result
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 RegExpCreate
 (
@@ -274,6 +289,7 @@ rval
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 RegExpPrototypeOptimizable
 (
@@ -288,6 +304,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 RegExpPrototypeOptimizableRaw
 (
@@ -303,6 +320,7 @@ result
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 RegExpInstanceOptimizable
 (
@@ -317,6 +335,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 RegExpInstanceOptimizableRaw
 (
@@ -335,6 +354,7 @@ result
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 RegExpGetSubstitution
 (
@@ -358,6 +378,7 @@ rval
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 GetFirstDollarIndex
 (
@@ -372,6 +393,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 GetFirstDollarIndexRaw
 (
@@ -395,6 +417,7 @@ text
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 regexp_construct
 (
@@ -430,6 +453,7 @@ regexp_methods
 ]
 ;
 extern
+MOZ_MUST_USE
 bool
 regexp_global
 (
@@ -447,6 +471,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 regexp_ignoreCase
 (
@@ -464,6 +489,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 regexp_multiline
 (
@@ -481,6 +507,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 regexp_sticky
 (
@@ -498,6 +525,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 regexp_unicode
 (

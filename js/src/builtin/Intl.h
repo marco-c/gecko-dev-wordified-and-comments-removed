@@ -36,6 +36,7 @@ obj
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 intl_Collator
 (
@@ -50,6 +51,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 intl_Collator_availableLocales
 (
@@ -64,6 +66,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 intl_availableCollations
 (
@@ -78,6 +81,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 intl_CompareStrings
 (
@@ -92,6 +96,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 intl_NumberFormat
 (
@@ -106,6 +111,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 intl_NumberFormat_availableLocales
 (
@@ -120,6 +126,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 intl_numberingSystem
 (
@@ -134,6 +141,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 intl_FormatNumber
 (
@@ -148,6 +156,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 intl_DateTimeFormat
 (
@@ -162,6 +171,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 intl_DateTimeFormat_availableLocales
 (
@@ -176,6 +186,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 intl_availableCalendars
 (
@@ -190,6 +201,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 intl_patternForSkeleton
 (
@@ -204,6 +216,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 intl_FormatDateTime
 (

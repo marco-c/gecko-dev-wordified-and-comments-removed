@@ -6225,6 +6225,7 @@ Class
 class_
 ;
 static
+MOZ_MUST_USE
 bool
 toString
 (
@@ -6240,6 +6241,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 resolve
 (
@@ -6287,6 +6289,7 @@ SimdType
 Float32x4
 ;
 static
+MOZ_MUST_USE
 bool
 Cast
 (
@@ -6380,6 +6383,7 @@ SimdType
 Float64x2
 ;
 static
+MOZ_MUST_USE
 bool
 Cast
 (
@@ -6453,6 +6457,7 @@ SimdType
 Int8x16
 ;
 static
+MOZ_MUST_USE
 bool
 Cast
 (
@@ -6520,6 +6525,7 @@ SimdType
 Int16x8
 ;
 static
+MOZ_MUST_USE
 bool
 Cast
 (
@@ -6587,6 +6593,7 @@ SimdType
 Int32x4
 ;
 static
+MOZ_MUST_USE
 bool
 Cast
 (
@@ -6654,6 +6661,7 @@ SimdType
 Uint8x16
 ;
 static
+MOZ_MUST_USE
 bool
 Cast
 (
@@ -6721,6 +6729,7 @@ SimdType
 Uint16x8
 ;
 static
+MOZ_MUST_USE
 bool
 Cast
 (
@@ -6788,6 +6797,7 @@ SimdType
 Uint32x4
 ;
 static
+MOZ_MUST_USE
 bool
 Cast
 (
@@ -6855,6 +6865,7 @@ SimdType
 Bool8x16
 ;
 static
+MOZ_MUST_USE
 bool
 Cast
 (
@@ -6930,6 +6941,7 @@ SimdType
 Bool16x8
 ;
 static
+MOZ_MUST_USE
 bool
 Cast
 (
@@ -7005,6 +7017,7 @@ SimdType
 Bool32x4
 ;
 static
+MOZ_MUST_USE
 bool
 Cast
 (
@@ -7080,6 +7093,7 @@ SimdType
 Bool64x2
 ;
 static
+MOZ_MUST_USE
 bool
 Cast
 (
@@ -7206,6 +7220,7 @@ template
 typename
 V
 >
+MOZ_MUST_USE
 bool
 ToSimdConstant
 (
@@ -7257,6 +7272,7 @@ Operands
 )
 \
 extern
+MOZ_MUST_USE
 bool
 \
 simd_float32x4_
@@ -7291,6 +7307,7 @@ Operands
 )
 \
 extern
+MOZ_MUST_USE
 bool
 \
 simd_float64x2_
@@ -7325,6 +7342,7 @@ Operands
 )
 \
 extern
+MOZ_MUST_USE
 bool
 \
 simd_int8x16_
@@ -7359,6 +7377,7 @@ Operands
 )
 \
 extern
+MOZ_MUST_USE
 bool
 \
 simd_int16x8_
@@ -7393,6 +7412,7 @@ Operands
 )
 \
 extern
+MOZ_MUST_USE
 bool
 \
 simd_int32x4_
@@ -7427,6 +7447,7 @@ Operands
 )
 \
 extern
+MOZ_MUST_USE
 bool
 \
 simd_uint8x16_
@@ -7461,6 +7482,7 @@ Operands
 )
 \
 extern
+MOZ_MUST_USE
 bool
 \
 simd_uint16x8_
@@ -7495,6 +7517,7 @@ Operands
 )
 \
 extern
+MOZ_MUST_USE
 bool
 \
 simd_uint32x4_
@@ -7529,6 +7552,7 @@ Operands
 )
 \
 extern
+MOZ_MUST_USE
 bool
 \
 simd_bool8x16_
@@ -7563,6 +7587,7 @@ Operands
 )
 \
 extern
+MOZ_MUST_USE
 bool
 \
 simd_bool16x8_
@@ -7597,6 +7622,7 @@ Operands
 )
 \
 extern
+MOZ_MUST_USE
 bool
 \
 simd_bool32x4_
@@ -7631,6 +7657,7 @@ Operands
 )
 \
 extern
+MOZ_MUST_USE
 bool
 \
 simd_bool64x2_

@@ -328,6 +328,7 @@ toInt32
 )
 ;
 }
+MOZ_MUST_USE
 bool
 hasProperty
 (
@@ -339,6 +340,7 @@ jsid
 id
 )
 ;
+MOZ_MUST_USE
 bool
 hasTraceList
 (
@@ -805,6 +807,7 @@ toInt32
 ;
 }
 static
+MOZ_MUST_USE
 bool
 call
 (
@@ -1060,6 +1063,7 @@ type
 ;
 }
 static
+MOZ_MUST_USE
 bool
 call
 (
@@ -1202,6 +1206,7 @@ t
 )
 ;
 static
+MOZ_MUST_USE
 bool
 call
 (
@@ -1250,6 +1255,7 @@ JSObject
 obj
 )
 ;
+MOZ_MUST_USE
 bool
 CreateUserSizeAndAlignmentProperties
 (
@@ -1322,6 +1328,7 @@ typedObjectMethods
 ]
 ;
 static
+MOZ_MUST_USE
 bool
 construct
 (
@@ -1473,6 +1480,7 @@ typedObjectMethods
 ]
 ;
 static
+MOZ_MUST_USE
 bool
 construct
 (
@@ -1507,6 +1515,7 @@ fieldCount
 )
 const
 ;
+MOZ_MUST_USE
 bool
 fieldIndex
 (
@@ -1620,6 +1629,7 @@ IsTypedObjectClass
 true
 ;
 static
+MOZ_MUST_USE
 bool
 obj_getArrayElement
 (
@@ -1655,6 +1665,7 @@ HeapPtrShape
 shape_
 ;
 static
+MOZ_MUST_USE
 bool
 obj_lookupProperty
 (
@@ -1672,6 +1683,7 @@ propp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 obj_defineProperty
 (
@@ -1693,6 +1705,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 obj_hasProperty
 (
@@ -1709,6 +1722,7 @@ foundp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 obj_getProperty
 (
@@ -1726,6 +1740,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 obj_getElement
 (
@@ -1743,6 +1758,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 obj_setProperty
 (
@@ -1763,6 +1779,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 obj_getOwnPropertyDescriptor
 (
@@ -1781,6 +1798,7 @@ desc
 )
 ;
 static
+MOZ_MUST_USE
 bool
 obj_deleteProperty
 (
@@ -1797,6 +1815,7 @@ result
 )
 ;
 static
+MOZ_MUST_USE
 bool
 obj_enumerate
 (
@@ -1932,6 +1951,7 @@ offset
 ;
 }
 inline
+MOZ_MUST_USE
 bool
 opaque
 (
@@ -1963,6 +1983,7 @@ DefaultHeap
 )
 ;
 static
+MOZ_MUST_USE
 bool
 construct
 (
@@ -1977,6 +1998,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 GetBuffer
 (
@@ -1991,6 +2013,7 @@ vp
 )
 ;
 static
+MOZ_MUST_USE
 bool
 GetByteOffset
 (
@@ -2510,6 +2533,7 @@ class_
 ;
 }
 ;
+MOZ_MUST_USE
 bool
 NewOpaqueTypedObject
 (
@@ -2523,6 +2547,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 NewDerivedTypedObject
 (
@@ -2536,6 +2561,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 AttachTypedObject
 (
@@ -2549,6 +2575,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 SetTypedObjectOffset
 (
@@ -2561,6 +2588,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 ObjectIsTypeDescr
 (
@@ -2574,6 +2602,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 ObjectIsTypedObject
 (
@@ -2587,6 +2616,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 ObjectIsOpaqueTypedObject
 (
@@ -2600,6 +2630,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 ObjectIsTransparentTypedObject
 (
@@ -2613,6 +2644,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 TypeDescrIsSimpleType
 (
@@ -2625,6 +2657,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 TypeDescrIsArrayType
 (
@@ -2637,6 +2670,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 TypedObjectIsAttached
 (
@@ -2650,6 +2684,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 TypedObjectTypeDescr
 (
@@ -2663,6 +2698,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 ClampToUint8
 (
@@ -2676,6 +2712,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 GetTypedObjectModule
 (
@@ -2689,6 +2726,7 @@ Value
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 GetSimdTypeDescr
 (
@@ -2722,6 +2760,7 @@ public
 :
 \
 static
+MOZ_MUST_USE
 bool
 Func
 (
@@ -2764,6 +2803,7 @@ private
 :
 \
 static
+MOZ_MUST_USE
 bool
 store
 (
@@ -2791,6 +2831,7 @@ public
 :
 \
 static
+MOZ_MUST_USE
 bool
 Func
 (
@@ -2833,6 +2874,7 @@ public
 :
 \
 static
+MOZ_MUST_USE
 bool
 Func
 (
@@ -2891,6 +2933,7 @@ public
 :
 \
 static
+MOZ_MUST_USE
 bool
 Func
 (
