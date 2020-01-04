@@ -683,7 +683,7 @@ inliningRecompileThresholdFactor_
 }
 ;
 class
-OptimizationInfos
+OptimizationLevelInfo
 {
 private
 :
@@ -703,7 +703,7 @@ infos_
 ;
 public
 :
-OptimizationInfos
+OptimizationLevelInfo
 (
 )
 ;
@@ -764,7 +764,7 @@ const
 }
 ;
 extern
-OptimizationInfos
+OptimizationLevelInfo
 IonOptimizations
 ;
 }

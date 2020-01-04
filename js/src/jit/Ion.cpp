@@ -10976,17 +10976,6 @@ logger
 TraceLogger_IonCompilation
 )
 ;
-MOZ_ASSERT
-(
-optimizationLevel
-!
-=
-OptimizationLevel
-:
-:
-DontCompile
-)
-;
 script
 -
 >
