@@ -209,6 +209,7 @@ ToolbarButton
 className
 :
 "
+btn
 copy
 "
 onClick

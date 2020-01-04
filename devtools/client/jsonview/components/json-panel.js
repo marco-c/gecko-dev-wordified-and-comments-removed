@@ -361,6 +361,7 @@ ToolbarButton
 className
 :
 "
+btn
 save
 "
 onClick
@@ -386,6 +387,7 @@ ToolbarButton
 className
 :
 "
+btn
 copy
 "
 onClick
