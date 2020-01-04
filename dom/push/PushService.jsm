@@ -3264,7 +3264,9 @@ if
 (
 record
 .
-authenticationSecret
+hasAuthenticationSecret
+(
+)
 &
 &
 record
@@ -3378,7 +3380,9 @@ if
 !
 record
 .
-authenticationSecret
+hasAuthenticationSecret
+(
+)
 )
 {
 record
@@ -3858,15 +3862,9 @@ salt
 cryptoParams
 .
 rs
-cryptoParams
-.
-auth
-?
 record
 .
 authenticationSecret
-:
-null
 cryptoParams
 .
 padSize
