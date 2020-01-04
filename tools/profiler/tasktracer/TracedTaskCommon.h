@@ -116,8 +116,12 @@ public
 NS_DECL_NSIRUNNABLE
 TracedRunnable
 (
+already_AddRefed
+<
 nsIRunnable
-*
+>
+&
+&
 aOriginalObj
 )
 ;

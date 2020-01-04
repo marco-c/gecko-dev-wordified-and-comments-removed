@@ -146,8 +146,12 @@ nsIRunnable
 >
 CreateTracedRunnable
 (
+already_AddRefed
+<
 nsIRunnable
-*
+>
+&
+&
 aRunnable
 )
 ;
