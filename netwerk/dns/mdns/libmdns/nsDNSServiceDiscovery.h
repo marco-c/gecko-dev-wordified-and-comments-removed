@@ -92,8 +92,6 @@ virtual
 nsDNSServiceDiscovery
 (
 )
-=
-default
 ;
 nsRefPtrHashtable
 <
