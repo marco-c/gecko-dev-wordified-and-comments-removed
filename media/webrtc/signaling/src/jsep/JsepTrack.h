@@ -1017,12 +1017,6 @@ JsepCodecDescription
 >
 *
 codecs
-const
-SdpMediaSection
-*
-answer
-=
-nullptr
 std
 :
 :
