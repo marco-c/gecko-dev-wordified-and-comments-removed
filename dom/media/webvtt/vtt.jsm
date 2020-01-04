@@ -1059,7 +1059,7 @@ vals
 start
 "
 "
-middle
+center
 "
 "
 end
@@ -6627,7 +6627,7 @@ lineAlign
 {
 case
 "
-middle
+center
 "
 :
 linePos
