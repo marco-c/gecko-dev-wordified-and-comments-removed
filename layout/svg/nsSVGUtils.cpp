@@ -8314,7 +8314,11 @@ count
 style
 -
 >
-mStrokeDasharrayLength
+mStrokeDasharray
+.
+Length
+(
+)
 ;
 if
 (
@@ -8391,8 +8395,11 @@ false
 }
 }
 const
+nsTArray
+<
 nsStyleCoord
-*
+>
+&
 dasharray
 =
 style

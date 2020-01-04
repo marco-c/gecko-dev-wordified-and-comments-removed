@@ -530,8 +530,11 @@ i
 else
 {
 const
+nsTArray
+<
 nsStyleCoord
-*
+>
+&
 dasharray
 =
 aStyleSVG
@@ -544,7 +547,11 @@ dashArrayLength
 aStyleSVG
 -
 >
-mStrokeDasharrayLength
+mStrokeDasharray
+.
+Length
+(
+)
 ;
 if
 (

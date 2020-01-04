@@ -12857,8 +12857,10 @@ nsIURI
 >
 mMarkerStart
 ;
+nsTArray
+<
 nsStyleCoord
-*
+>
 mStrokeDasharray
 ;
 nsStyleCoord
@@ -12875,9 +12877,6 @@ mStrokeMiterlimit
 ;
 float
 mStrokeOpacity
-;
-uint32_t
-mStrokeDasharrayLength
 ;
 uint8_t
 mClipRule
