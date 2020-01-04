@@ -523,10 +523,6 @@ create
 JSContext
 *
 cx
-HandleObject
-proto
-=
-nullptr
 )
 ;
 static
@@ -1231,10 +1227,6 @@ create
 JSContext
 *
 cx
-HandleObject
-proto
-=
-nullptr
 )
 ;
 static
