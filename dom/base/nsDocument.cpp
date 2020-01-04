@@ -34655,7 +34655,6 @@ CSSToScreenScale
 scaleToFit
 )
 true
-true
 )
 ;
 }
@@ -34676,7 +34675,6 @@ nsViewportInfo
 aDisplaySize
 defaultScale
 false
-false
 )
 ;
 }
@@ -34693,7 +34691,6 @@ nsViewportInfo
 (
 aDisplaySize
 defaultScale
-true
 true
 )
 ;
@@ -34831,7 +34828,6 @@ nsViewportInfo
 aDisplaySize
 defaultScale
 true
-true
 )
 ;
 }
@@ -34870,7 +34866,6 @@ nsViewportInfo
 (
 aDisplaySize
 defaultScale
-true
 true
 )
 ;
@@ -35230,10 +35225,6 @@ mAllowZoom
 false
 ;
 }
-mAllowDoubleTapZoom
-=
-mAllowZoom
-;
 mScaleStrEmpty
 =
 scaleStr
@@ -35310,11 +35301,6 @@ effectiveAllowZoom
 =
 mAllowZoom
 ;
-bool
-effectiveAllowDoubleTapZoom
-=
-mAllowDoubleTapZoom
-;
 if
 (
 gfxPrefs
@@ -35338,10 +35324,6 @@ effectiveValidMaxScale
 true
 ;
 effectiveAllowZoom
-=
-true
-;
-effectiveAllowDoubleTapZoom
 =
 true
 ;
@@ -35690,7 +35672,6 @@ scaleMaxFloat
 size
 mAutoSize
 effectiveAllowZoom
-effectiveAllowDoubleTapZoom
 )
 ;
 }
