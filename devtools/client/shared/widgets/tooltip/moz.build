@@ -107,4 +107,9 @@ TooltipToggle
 .
 js
 '
+'
+VariableContentHelper
+.
+js
+'
 )
