@@ -3017,6 +3017,10 @@ script
 global
 (
 )
+.
+lexicalScope
+(
+)
 )
 ;
 }

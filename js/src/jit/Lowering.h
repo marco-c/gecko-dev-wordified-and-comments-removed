@@ -487,6 +487,14 @@ ins
 )
 ;
 void
+visitDefLexical
+(
+MDefLexical
+*
+ins
+)
+;
+void
 visitDefFun
 (
 MDefFun

@@ -63,7 +63,7 @@ nfixed
 )
 size_t
 (
-2
+MinJITStackSize
 )
 )
 ;

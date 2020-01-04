@@ -933,12 +933,6 @@ JSOP_DEFFUN
 case
 JSOP_DEFVAR
 :
-case
-JSOP_DEFCONST
-:
-case
-JSOP_SETCONST
-:
 usesScopeChain_
 =
 true

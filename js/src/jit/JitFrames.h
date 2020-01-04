@@ -3381,6 +3381,13 @@ CalleeToken
 token
 )
 ;
+static
+const
+uint32_t
+MinJITStackSize
+=
+2
+;
 }
 }
 #

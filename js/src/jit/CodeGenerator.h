@@ -371,6 +371,14 @@ lir
 )
 ;
 void
+visitDefLexical
+(
+LDefLexical
+*
+lir
+)
+;
+void
 visitDefFun
 (
 LDefFun
