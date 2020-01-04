@@ -3837,7 +3837,7 @@ proto
 obj
 -
 >
-getProto
+staticPrototype
 (
 )
 ;
@@ -3848,7 +3848,7 @@ proto
 proto
 -
 >
-getProto
+staticPrototype
 (
 )
 )
@@ -3869,6 +3869,16 @@ isNative
 )
 return
 false
+;
+MOZ_ASSERT
+(
+proto
+-
+>
+hasStaticPrototype
+(
+)
+)
 ;
 Shape
 *
@@ -12550,7 +12560,7 @@ proto
 obj
 -
 >
-getProto
+staticPrototype
 (
 )
 ;
@@ -12623,7 +12633,7 @@ proto
 obj
 -
 >
-getProto
+staticPrototype
 (
 )
 ;
@@ -13266,7 +13276,7 @@ curObj
 obj
 -
 >
-getProto
+staticPrototype
 (
 )
 ;
@@ -13306,7 +13316,7 @@ curObj
 curObj
 -
 >
-getProto
+staticPrototype
 (
 )
 ;
@@ -20035,7 +20045,7 @@ proto
 current
 -
 >
-getProto
+staticPrototype
 (
 )
 ;
@@ -20446,7 +20456,7 @@ proto
 current
 -
 >
-getProto
+staticPrototype
 (
 )
 ;

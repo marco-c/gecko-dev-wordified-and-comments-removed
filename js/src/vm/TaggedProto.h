@@ -65,7 +65,7 @@ proto
 ;
 }
 bool
-isLazy
+isDynamic
 (
 )
 const
@@ -364,7 +364,7 @@ toWord
 }
 inline
 bool
-isLazy
+isDynamic
 (
 )
 const
@@ -374,7 +374,7 @@ value
 (
 )
 .
-isLazy
+isDynamic
 (
 )
 ;

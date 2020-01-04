@@ -31988,7 +31988,7 @@ proto
 (
 )
 .
-isLazy
+isDynamic
 (
 )
 ?
@@ -32163,7 +32163,7 @@ obj
 obj
 -
 >
-getProto
+staticPrototype
 (
 )
 ;
@@ -33375,7 +33375,7 @@ obj
 obj
 -
 >
-getProto
+staticPrototype
 (
 )
 ;

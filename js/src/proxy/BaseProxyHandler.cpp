@@ -1728,7 +1728,7 @@ must
 override
 getPrototype
 with
-lazy
+dynamic
 prototype
 "
 )
@@ -1795,7 +1795,7 @@ must
 override
 getPrototypeIfOrdinary
 with
-lazy
+dynamic
 prototype
 "
 )
