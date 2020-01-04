@@ -722,7 +722,7 @@ null
 ?
 debuggeeGlobalWrapper
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 (
 rest
 debuggeeValues

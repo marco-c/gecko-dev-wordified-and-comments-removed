@@ -687,7 +687,7 @@ log
 ;
 gDO
 .
-evalInGlobal
+executeInGlobal
 (
 '
 debugger
@@ -743,7 +743,7 @@ log
 ;
 gDO
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 (
 '
 debugger

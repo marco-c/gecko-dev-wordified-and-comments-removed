@@ -72,7 +72,7 @@ assertEq
 (
 gw
 .
-evalInGlobal
+executeInGlobal
 (
 '
 y
@@ -90,7 +90,7 @@ assertEq
 (
 hw
 .
-evalInGlobal
+executeInGlobal
 (
 '
 y

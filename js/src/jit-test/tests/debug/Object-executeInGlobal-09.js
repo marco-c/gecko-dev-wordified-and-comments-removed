@@ -28,7 +28,7 @@ g
 ;
 gw
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 (
 "
 eval

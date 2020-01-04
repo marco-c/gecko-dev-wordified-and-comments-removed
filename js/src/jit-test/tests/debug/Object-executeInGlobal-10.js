@@ -5,7 +5,6 @@ newGlobal
 (
 )
 ;
-r
 var
 dbg
 =
@@ -26,7 +25,7 @@ assertEq
 (
 gw
 .
-evalInGlobal
+executeInGlobal
 (
 let
 x
@@ -45,7 +44,7 @@ assertEq
 (
 gw
 .
-evalInGlobal
+executeInGlobal
 (
 x
 ;
@@ -87,15 +86,17 @@ debugger
 ;
 assertEq
 (
+!
+!
 gw
 .
-evalInGlobal
+executeInGlobal
 (
 y
 ;
 )
 .
-return
-undefined
+throw
+true
 )
 ;

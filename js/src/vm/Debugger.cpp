@@ -39817,7 +39817,7 @@ true
 }
 static
 bool
-DebuggerObject_evalInGlobal
+DebuggerObject_executeInGlobal
 (
 JSContext
 *
@@ -39835,7 +39835,7 @@ cx
 argc
 vp
 "
-evalInGlobal
+executeInGlobal
 "
 args
 dbg
@@ -39857,7 +39857,7 @@ Object
 .
 prototype
 .
-evalInGlobal
+executeInGlobal
 "
 1
 )
@@ -39893,7 +39893,7 @@ Object
 .
 prototype
 .
-evalInGlobal
+executeInGlobal
 "
 args
 [
@@ -39923,7 +39923,7 @@ nullptr
 }
 static
 bool
-DebuggerObject_evalInGlobalWithBindings
+DebuggerObject_executeInGlobalWithBindings
 (
 JSContext
 *
@@ -39941,7 +39941,7 @@ cx
 argc
 vp
 "
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 "
 args
 dbg
@@ -39963,7 +39963,7 @@ Object
 .
 prototype
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 "
 2
 )
@@ -39999,7 +39999,7 @@ Object
 .
 prototype
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 "
 args
 [
@@ -40516,18 +40516,18 @@ DebuggerObject_makeDebuggeeValue
 JS_FN
 (
 "
-evalInGlobal
+executeInGlobal
 "
-DebuggerObject_evalInGlobal
+DebuggerObject_executeInGlobal
 1
 0
 )
 JS_FN
 (
 "
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 "
-DebuggerObject_evalInGlobalWithBindings
+DebuggerObject_executeInGlobalWithBindings
 2
 0
 )

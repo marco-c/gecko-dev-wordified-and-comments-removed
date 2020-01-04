@@ -34,7 +34,7 @@ f
 {
 gw
 .
-evalInGlobal
+executeInGlobal
 (
 "
 eval

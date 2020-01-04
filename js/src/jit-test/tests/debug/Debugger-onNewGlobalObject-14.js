@@ -55,7 +55,7 @@ assertEq
 (
 gw
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 (
 '
 Math
@@ -83,7 +83,7 @@ assertEq
 (
 gw
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 (
 '
 x

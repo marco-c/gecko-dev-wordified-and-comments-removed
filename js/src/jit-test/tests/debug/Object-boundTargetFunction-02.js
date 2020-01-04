@@ -26,7 +26,7 @@ fw
 =
 gw
 .
-evalInGlobal
+executeInGlobal
 (
 "
 function
@@ -79,7 +79,7 @@ nw
 =
 gw
 .
-evalInGlobal
+executeInGlobal
 (
 "
 var
@@ -132,7 +132,7 @@ ow
 =
 gw
 .
-evalInGlobal
+executeInGlobal
 (
 "
 var

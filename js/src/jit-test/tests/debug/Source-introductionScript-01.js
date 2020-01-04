@@ -604,7 +604,7 @@ fDO
 =
 gDO
 .
-evalInGlobal
+executeInGlobal
 (
 '
 debugger

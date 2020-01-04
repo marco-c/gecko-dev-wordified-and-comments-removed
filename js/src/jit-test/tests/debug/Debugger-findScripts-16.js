@@ -69,7 +69,7 @@ true
 ;
 gw
 .
-evalInGlobal
+executeInGlobal
 (
 "
 debugger

@@ -25,7 +25,7 @@ assertEq
 (
 gw
 .
-evalInGlobal
+executeInGlobal
 (
 "
 eval
@@ -74,7 +74,7 @@ assertEq
 (
 gw
 .
-evalInGlobal
+executeInGlobal
 (
 "
 eval
@@ -179,7 +179,7 @@ assertEq
 (
 gw
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 (
 "
 eval
@@ -283,7 +283,7 @@ assertEq
 (
 gw
 .
-evalInGlobal
+executeInGlobal
 (
 "
 \
@@ -366,11 +366,9 @@ g
 .
 y
 "
-The
-Milk
--
-Eyed
-Mender
+Merriweather
+Post
+Pavilion
 "
 )
 ;
@@ -400,7 +398,7 @@ assertEq
 (
 gw
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 (
 "
 '
@@ -473,11 +471,9 @@ g
 .
 y
 "
-The
-Milk
--
-Eyed
-Mender
+Merriweather
+Post
+Pavilion
 "
 )
 ;

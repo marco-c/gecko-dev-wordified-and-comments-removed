@@ -4262,7 +4262,7 @@ result
 =
 dbgWindow
 .
-evalInGlobalWithBindings
+executeInGlobalWithBindings
 (
 aString
 bindings

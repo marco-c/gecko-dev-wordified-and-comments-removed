@@ -115,7 +115,7 @@ assertEq
 (
 gw
 .
-evalInGlobal
+executeInGlobal
 (
 "
 it
