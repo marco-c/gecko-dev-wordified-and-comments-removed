@@ -656,9 +656,6 @@ CurrentFrame
 )
 const
 ;
-#
-ifdef
-ENABLE_TESTS
 const
 Frame
 &
@@ -667,8 +664,6 @@ PrevFrame
 )
 const
 ;
-#
-endif
 const
 Frame
 &
@@ -745,14 +740,9 @@ mFirstFrame
 Frame
 mFrame
 ;
-#
-ifdef
-ENABLE_TESTS
 Frame
 mPrevFrame
 ;
-#
-endif
 }
 ;
 class
@@ -811,9 +801,6 @@ SeekPosition
 )
 const
 ;
-#
-ifdef
-ENABLE_TESTS
 const
 FrameParser
 :
@@ -833,8 +820,6 @@ DemuxSample
 (
 )
 ;
-#
-endif
 const
 ID3Parser
 :
