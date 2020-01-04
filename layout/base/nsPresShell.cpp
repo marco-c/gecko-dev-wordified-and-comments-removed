@@ -34206,7 +34206,7 @@ doc
 aContent
 -
 >
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 ;
@@ -34260,7 +34260,7 @@ aContent
 aContent
 -
 >
-GetCrossShadowCurrentDoc
+GetComposedDoc
 (
 )
 =
