@@ -822,7 +822,7 @@ lr
 ;
 masm
 .
-Push
+push
 (
 ICTailCallReg
 )
@@ -944,7 +944,7 @@ ICStubReg
 ;
 masm
 .
-Pop
+pop
 (
 ICTailCallReg
 )
