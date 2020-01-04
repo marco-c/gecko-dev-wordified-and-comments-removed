@@ -124,6 +124,13 @@ IPC
 Message
 Message
 ;
+typedef
+IPC
+:
+:
+MessageInfo
+MessageInfo
+;
 virtual
 ~
 MessageListener
@@ -383,11 +390,11 @@ RacyInterruptPolicy
 MediateInterruptRace
 (
 const
-Message
+MessageInfo
 &
 parent
 const
-Message
+MessageInfo
 &
 child
 )

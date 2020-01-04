@@ -5614,8 +5614,11 @@ mInterruptStack
 .
 push
 (
+MessageInfo
+(
 *
 msg
+)
 )
 ;
 mLink
@@ -5902,7 +5905,7 @@ stack
 ;
 {
 const
-Message
+MessageInfo
 &
 outcall
 =
@@ -7326,9 +7329,8 @@ char
 winner
 ;
 const
-Message
-&
-parentMsg
+MessageInfo
+parentMsgInfo
 =
 (
 mSide
@@ -7337,7 +7339,10 @@ mSide
 ChildSide
 )
 ?
+MessageInfo
+(
 aMsg
+)
 :
 mInterruptStack
 .
@@ -7346,9 +7351,8 @@ top
 )
 ;
 const
-Message
-&
-childMsg
+MessageInfo
+childMsgInfo
 =
 (
 mSide
@@ -7363,7 +7367,10 @@ top
 (
 )
 :
+MessageInfo
+(
 aMsg
+)
 ;
 switch
 (
@@ -7372,8 +7379,8 @@ mListener
 >
 MediateInterruptRace
 (
-parentMsg
-childMsg
+parentMsgInfo
+childMsgInfo
 )
 )
 {

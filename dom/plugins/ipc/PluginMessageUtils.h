@@ -199,7 +199,7 @@ ipc
 MessageChannel
 :
 :
-Message
+MessageInfo
 &
 parent
 const
@@ -212,7 +212,7 @@ ipc
 MessageChannel
 :
 :
-Message
+MessageInfo
 &
 child
 )

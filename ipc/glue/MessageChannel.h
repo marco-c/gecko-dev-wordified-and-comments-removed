@@ -238,6 +238,13 @@ Message
 Message
 ;
 typedef
+IPC
+:
+:
+MessageInfo
+MessageInfo
+;
+typedef
 mozilla
 :
 :
@@ -1749,7 +1756,7 @@ std
 :
 stack
 <
-Message
+MessageInfo
 >
 mInterruptStack
 ;
