@@ -2476,14 +2476,12 @@ GetOrCreate
 (
 )
 ;
-MOZ_ASSERT
-(
-service
-)
-;
 bool
 telephonyChannelIsActive
 =
+service
+&
+&
 service
 -
 >

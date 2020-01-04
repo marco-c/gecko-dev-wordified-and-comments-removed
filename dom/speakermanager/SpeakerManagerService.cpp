@@ -843,6 +843,11 @@ GetOrCreate
 (
 )
 ;
+if
+(
+audioChannelService
+)
+{
 audioChannelService
 -
 >
@@ -851,6 +856,7 @@ UnregisterSpeakerManager
 this
 )
 ;
+}
 nsCOMPtr
 <
 nsIObserverService
@@ -1008,6 +1014,11 @@ GetOrCreate
 (
 )
 ;
+if
+(
+audioChannelService
+)
+{
 audioChannelService
 -
 >
@@ -1016,6 +1027,7 @@ RegisterSpeakerManager
 this
 )
 ;
+}
 }
 SpeakerManagerService
 :

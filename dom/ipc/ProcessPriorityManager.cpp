@@ -4560,6 +4560,9 @@ GetOrCreate
 if
 (
 service
+&
+&
+service
 -
 >
 ProcessContentOrNormalChannelIsActive
