@@ -834,7 +834,6 @@ SpecialPowers
 .
 exactGC
 (
-null
 continueToNextStep
 )
 ;
@@ -2452,7 +2451,6 @@ exactGC
 :
 function
 (
-win
 callback
 )
 {

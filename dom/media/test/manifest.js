@@ -12354,7 +12354,6 @@ SpecialPowers
 .
 exactGC
 (
-window
 callback
 )
 ;

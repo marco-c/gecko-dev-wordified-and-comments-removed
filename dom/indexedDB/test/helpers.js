@@ -1609,7 +1609,6 @@ SpecialPowers
 .
 exactGC
 (
-window
 continueToNextStep
 )
 ;

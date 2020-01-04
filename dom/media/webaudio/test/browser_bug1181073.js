@@ -410,9 +410,6 @@ SpecialPowers
 .
 exactGC
 (
-browser
-.
-contentWindow
 resolve
 )
 )

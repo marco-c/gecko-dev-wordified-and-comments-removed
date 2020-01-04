@@ -1503,7 +1503,6 @@ SpecialPowers
 .
 exactGC
 (
-window
 )
 ;
 }
