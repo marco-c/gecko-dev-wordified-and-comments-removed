@@ -613,9 +613,6 @@ QuotaManager
 :
 kRunningXPCShellTests
 =
-#
-ifdef
-ENABLE_TESTS
 !
 !
 PR_GetEnv
@@ -624,11 +621,6 @@ PR_GetEnv
 XPCSHELL_TEST_PROFILE_DIR
 "
 )
-#
-else
-false
-#
-endif
 ;
 const
 char
