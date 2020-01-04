@@ -2389,6 +2389,10 @@ GraphDriver
 (
 aGraphImpl
 )
+mSampleRate
+(
+0
+)
 mIterationDurationMS
 (
 MEDIA_GRAPH_TARGET_PERIOD_MS
@@ -2411,6 +2415,10 @@ mInCallback
 false
 )
 mPauseRequested
+(
+false
+)
+mMicrophoneActive
 (
 false
 )
