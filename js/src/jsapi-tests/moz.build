@@ -369,6 +369,11 @@ testMutedErrors
 cpp
 '
 '
+testMutex
+.
+cpp
+'
+'
 testNewObject
 .
 cpp
