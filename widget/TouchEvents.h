@@ -545,6 +545,16 @@ mMessage
 =
 eTouchCancel
 ;
+mFlags
+.
+mHandledByAPZ
+=
+aOther
+.
+mFlags
+.
+mHandledByAPZ
+;
 MOZ_COUNT_CTOR
 (
 WidgetTouchEvent
