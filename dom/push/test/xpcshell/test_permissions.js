@@ -241,13 +241,9 @@ subChangePromise
 =
 promiseObserverNotification
 (
-'
-push
--
-subscription
--
-change
-'
+PushServiceComponent
+.
+subscriptionChangeTopic
 (
 subject
 data

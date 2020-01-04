@@ -909,11 +909,7 @@ obsService
 NotifyObservers
 (
 message
-"
-push
--
-message
-"
+OBSERVER_TOPIC_PUSH
 NS_ConvertUTF8toUTF16
 (
 aScope
@@ -970,13 +966,7 @@ obsService
 NotifyObservers
 (
 nullptr
-"
-push
--
-subscription
--
-change
-"
+OBSERVER_TOPIC_SUBSCRIPTION_CHANGE
 NS_ConvertUTF8toUTF16
 (
 aScope
