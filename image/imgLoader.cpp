@@ -135,7 +135,7 @@ h
 #
 include
 "
-nsICachingChannel
+nsICacheInfoChannel
 .
 h
 "
@@ -10379,7 +10379,7 @@ else
 {
 nsCOMPtr
 <
-nsICachingChannel
+nsICacheInfoChannel
 >
 cacheChan
 (
@@ -11902,7 +11902,7 @@ NS_ERROR_FAILURE
 }
 nsCOMPtr
 <
-nsICachingChannel
+nsICacheInfoChannel
 >
 cacheChan
 (
