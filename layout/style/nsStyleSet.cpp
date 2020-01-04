@@ -11371,7 +11371,10 @@ Destroy
 )
 ;
 }
-MOZ_ASSERT
+#
+ifdef
+DEBUG
+NS_ASSERTION
 (
 !
 mOldRootNode
@@ -11385,6 +11388,12 @@ node
 "
 )
 ;
+mOldRootNode
+=
+nullptr
+;
+#
+endif
 mUnusedRuleNodeCount
 =
 0
