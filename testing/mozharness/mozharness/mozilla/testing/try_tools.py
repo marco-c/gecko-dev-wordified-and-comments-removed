@@ -476,6 +476,27 @@ try_message
 ]
         
 elif
+'
+TRY_COMMIT_MSG
+'
+in
+os
+.
+environ
+:
+            
+msg
+=
+os
+.
+environ
+[
+'
+TRY_COMMIT_MSG
+'
+]
+        
+elif
 self
 .
 _is_try
@@ -1119,6 +1140,7 @@ branch
 )
         
 return
+(
 self
 .
 config
@@ -1135,6 +1157,16 @@ repo_path
 '
 try
 '
+or
+                
+'
+TRY_COMMIT_MSG
+'
+in
+os
+.
+environ
+)
     
 PostScriptAction
 (
