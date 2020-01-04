@@ -10012,7 +10012,7 @@ loadExtension
 :
 function
 (
-name
+ext
 handler
 )
 {
@@ -10107,6 +10107,15 @@ waiveXrays
 handler
 )
 ;
+ext
+=
+Cu
+.
+waiveXrays
+(
+ext
+)
+;
 let
 sp
 =
@@ -10188,7 +10197,7 @@ _sendAsyncMessage
 SPLoadExtension
 "
 {
-name
+ext
 id
 }
 )
@@ -10233,6 +10242,7 @@ resolveStartup
 )
 ;
 }
+else
 if
 (
 msg

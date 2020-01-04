@@ -10,7 +10,7 @@ loadExtension
 =
 function
 (
-name
+ext
 )
 {
 var
@@ -239,7 +239,7 @@ SpecialPowers
 .
 loadExtension
 (
-name
+ext
 handler
 )
 ;
