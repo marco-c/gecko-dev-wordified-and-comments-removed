@@ -10319,10 +10319,9 @@ mTopLayer
 uint8_t
 mWillChangeBitField
 ;
-AutoTArray
+nsTArray
 <
 nsString
-1
 >
 mWillChange
 ;
