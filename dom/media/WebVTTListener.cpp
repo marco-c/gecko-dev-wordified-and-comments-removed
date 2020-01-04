@@ -738,6 +738,8 @@ NS_ERROR_FAILURE
 TextTrackCue
 *
 cue
+=
+nullptr
 ;
 nsresult
 rv
