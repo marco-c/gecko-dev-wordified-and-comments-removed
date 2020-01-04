@@ -213,6 +213,9 @@ def
 __init__
 (
 self
+finder
+=
+None
 )
 :
         
@@ -253,6 +256,12 @@ tests
 set
 (
 )
+        
+self
+.
+finder
+=
+finder
     
 def
 load
@@ -335,6 +344,34 @@ add
 mdir
 )
         
+if
+self
+.
+finder
+:
+            
+lines
+=
+self
+.
+finder
+.
+get
+(
+path
+)
+.
+read
+(
+)
+.
+splitlines
+(
+)
+        
+else
+:
+            
 with
 open
 (
@@ -346,18 +383,30 @@ r
 as
 fh
 :
-            
+                
+lines
+=
+fh
+.
+read
+(
+)
+.
+splitlines
+(
+)
+        
 urlprefix
 =
 '
 '
-            
+        
 for
 line
 in
-fh
+lines
 :
-                
+            
 line
 =
 line
@@ -370,7 +419,7 @@ utf
 8
 '
 )
-                
+            
 if
 line
 .
@@ -381,9 +430,9 @@ startswith
 '
 )
 :
-                    
-continue
                 
+continue
+            
 m
 =
 RE_COMMENT
@@ -392,11 +441,11 @@ search
 (
 line
 )
-                
+            
 if
 m
 :
-                    
+                
 line
 =
 line
@@ -408,7 +457,7 @@ start
 (
 )
 ]
-                
+            
 line
 =
 line
@@ -416,14 +465,14 @@ line
 strip
 (
 )
-                
+            
 if
 not
 line
 :
-                    
-continue
                 
+continue
+            
 items
 =
 line
@@ -431,12 +480,12 @@ line
 split
 (
 )
-                
+            
 tests
 =
 [
 ]
-                
+            
 for
 i
 in
@@ -448,14 +497,14 @@ items
 )
 )
 :
-                    
+                
 item
 =
 items
 [
 i
 ]
-                    
+                
 if
 item
 .
@@ -464,9 +513,9 @@ startswith
 FAILURE_TYPES
 )
 :
-                        
-continue
                     
+continue
+                
 if
 item
 .
@@ -475,9 +524,9 @@ startswith
 PREF_ITEMS
 )
 :
-                        
-continue
                     
+continue
+                
 if
 item
 =
@@ -486,9 +535,9 @@ item
 HTTP
 '
 :
-                        
-continue
                     
+continue
+                
 m
 =
 RE_HTTP
@@ -497,11 +546,11 @@ match
 (
 item
 )
-                    
+                
 if
 m
 :
-                        
+                    
 self
 .
 dirs
@@ -520,7 +569,7 @@ path
 .
 join
 (
-                            
+                        
 mdir
 m
 .
@@ -531,9 +580,9 @@ group
 )
 )
 )
-                        
-continue
                     
+continue
+                
 if
 item
 =
@@ -544,7 +593,7 @@ url
 prefix
 '
 :
-                        
+                    
 urlprefix
 =
 items
@@ -553,9 +602,9 @@ i
 +
 1
 ]
-                        
-break
                     
+break
+                
 if
 item
 =
@@ -566,9 +615,9 @@ default
 preferences
 '
 :
-                        
-break
                     
+break
+                
 if
 item
 =
@@ -577,7 +626,7 @@ item
 include
 '
 :
-                        
+                    
 self
 .
 load
@@ -597,9 +646,9 @@ i
 ]
 )
 )
-                        
-break
                     
+break
+                
 if
 item
 =
@@ -615,7 +664,7 @@ item
 script
 '
 :
-                        
+                    
 tests
 .
 append
@@ -627,9 +676,9 @@ i
 1
 ]
 )
-                        
-break
                     
+break
+                
 if
 item
 =
@@ -647,7 +696,7 @@ item
 =
 '
 :
-                        
+                    
 tests
 .
 extend
@@ -663,15 +712,15 @@ i
 3
 ]
 )
-                        
+                    
 break
-                
+            
 for
 f
 in
 tests
 :
-                    
+                
 if
 RE_PROTOCOL
 .
@@ -680,9 +729,9 @@ match
 f
 )
 :
-                        
-continue
                     
+continue
+                
 test
 =
 os
@@ -703,7 +752,7 @@ urlprefix
 f
 )
 )
-                    
+                
 self
 .
 files
@@ -712,7 +761,7 @@ add
 (
 test
 )
-                    
+                
 self
 .
 dirs
@@ -728,7 +777,7 @@ dirname
 test
 )
 )
-                    
+                
 self
 .
 tests
