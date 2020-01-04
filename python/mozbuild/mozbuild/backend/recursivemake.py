@@ -88,8 +88,6 @@ AndroidExtraPackages
     
 AndroidEclipseProjectData
     
-BrandingFiles
-    
 ChromeManifestEntry
     
 ConfigFileSubstitution
@@ -101,8 +99,6 @@ ContextWrapped
 Defines
     
 DirectoryTraversal
-    
-Exports
     
 ExternalLibrary
     
@@ -8965,6 +8961,12 @@ include
 dist
 /
 branding
+'
+            
+'
+dist
+/
+sdk
 '
         
 )
