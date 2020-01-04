@@ -52,13 +52,13 @@ nsIWebBrowser
 aOwner
 )
 ;
-NS_METHOD
+nsresult
 Init
 (
 void
 )
 ;
-NS_METHOD
+nsresult
 OpenStream
 (
 nsIURI
@@ -70,7 +70,7 @@ nsACString
 aContentType
 )
 ;
-NS_METHOD
+nsresult
 AppendToStream
 (
 const
@@ -81,7 +81,7 @@ uint32_t
 aLen
 )
 ;
-NS_METHOD
+nsresult
 CloseStream
 (
 void
