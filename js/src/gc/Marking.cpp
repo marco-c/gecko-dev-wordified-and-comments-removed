@@ -1687,6 +1687,12 @@ ImportEntryObject
 \
 D
 (
+ExportEntryObject
+*
+)
+\
+D
+(
 JSScript
 *
 )
