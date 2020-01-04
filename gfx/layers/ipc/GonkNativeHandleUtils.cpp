@@ -208,7 +208,7 @@ nbytes
 aMsg
 -
 >
-ReadBytesInto
+ReadBytes
 (
 aIter
 &
