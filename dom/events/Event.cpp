@@ -1202,7 +1202,7 @@ eUnidentifiedEvent
 mEvent
 -
 >
-userType
+mSpecifiedEventType
 )
 {
 aType
@@ -1214,7 +1214,7 @@ nsDependentAtomString
 mEvent
 -
 >
-userType
+mSpecifiedEventType
 )
 2
 )
@@ -2332,7 +2332,7 @@ Truncate
 mEvent
 -
 >
-userType
+mSpecifiedEventType
 =
 nsContentUtils
 :
@@ -2359,7 +2359,7 @@ else
 mEvent
 -
 >
-userType
+mSpecifiedEventType
 =
 nullptr
 ;

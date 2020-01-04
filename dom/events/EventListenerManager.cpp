@@ -3270,7 +3270,7 @@ mTypeAtom
 aEvent
 -
 >
-userType
+mSpecifiedEventType
 ;
 }
 return
@@ -6296,7 +6296,7 @@ mNoListenerForEventAtom
 aEvent
 -
 >
-userType
+mSpecifiedEventType
 ;
 }
 if

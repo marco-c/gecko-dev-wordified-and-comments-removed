@@ -619,7 +619,7 @@ mLastRefPoint
 0
 0
 )
-userType
+mSpecifiedEventType
 (
 nullptr
 )
@@ -699,7 +699,7 @@ mLastRefPoint
 0
 0
 )
-userType
+mSpecifiedEventType
 (
 nullptr
 )
@@ -843,7 +843,7 @@ nsCOMPtr
 <
 nsIAtom
 >
-userType
+mSpecifiedEventType
 ;
 nsString
 typeString
@@ -897,11 +897,11 @@ AssignEventTime
 aEvent
 )
 ;
-userType
+mSpecifiedEventType
 =
 aEvent
 .
-userType
+mSpecifiedEventType
 ;
 target
 =
