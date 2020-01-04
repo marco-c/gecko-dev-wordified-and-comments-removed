@@ -3702,6 +3702,13 @@ java
 '
 promotion
 /
+ReaderViewBookmarkPromotion
+.
+java
+'
+'
+promotion
+/
 SimpleHelperUI
 .
 java

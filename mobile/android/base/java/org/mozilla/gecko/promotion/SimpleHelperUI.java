@@ -173,6 +173,16 @@ FIRST_RVBP_SHOWN_TELEMETRYEXTRA
 first_readerview_bookmark_prompt
 "
 ;
+public
+static
+final
+String
+TRIPLE_READERVIEW_OPEN_TELEMETRYEXTRA
+=
+"
+third_readerview_open_prompt
+"
+;
 private
 View
 containerView

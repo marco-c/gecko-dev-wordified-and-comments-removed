@@ -603,7 +603,7 @@ R
 .
 drawable
 .
-helper_first_readerview_bookmark
+helper_readerview_bookmark
 R
 .
 string
