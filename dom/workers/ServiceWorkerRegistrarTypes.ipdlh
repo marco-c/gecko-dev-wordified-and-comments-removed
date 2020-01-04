@@ -133,10 +133,7 @@ nsCString
 currentWorkerURL
 ;
 nsString
-activeCacheName
-;
-nsString
-waitingCacheName
+cacheName
 ;
 PrincipalInfo
 principal
