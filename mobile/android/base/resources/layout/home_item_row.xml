@@ -109,6 +109,15 @@ res
 /
 android
 "
+style
+=
+"
+style
+/
+Widget
+.
+TwoLinePageRow
+"
 android
 :
 layout_width
