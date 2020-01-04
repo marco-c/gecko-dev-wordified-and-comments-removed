@@ -780,11 +780,8 @@ mReceivedFds
 .
 AppendElement
 (
-ScopedClose
-(
 *
 receivedFd
-)
 )
 ;
 }
