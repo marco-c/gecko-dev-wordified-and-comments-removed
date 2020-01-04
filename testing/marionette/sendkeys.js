@@ -857,9 +857,6 @@ sendKeysToElement
 document
 element
 keysToSend
-successCallback
-errorCallback
-command_id
 ignoreVisibility
 )
 {
@@ -944,16 +941,10 @@ document
 )
 ;
 }
-successCallback
-(
-command_id
-)
-;
 }
 else
 {
-errorCallback
-(
+throw
 new
 ElementNotVisibleError
 (
@@ -963,8 +954,6 @@ is
 not
 visible
 "
-)
-command_id
 )
 ;
 }
