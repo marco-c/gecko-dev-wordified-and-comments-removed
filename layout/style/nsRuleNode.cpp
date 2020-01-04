@@ -34089,7 +34089,7 @@ aOffset
 Position
 :
 :
-PositionCoord
+Coord
 *
 aResult
 RuleNodeCacheConditions
@@ -34632,7 +34632,7 @@ aValue
 Position
 :
 :
-PositionCoord
+Coord
 &
 aComputedValue
 RuleNodeCacheConditions
@@ -35987,7 +35987,7 @@ aParentLayers
 Position
 :
 :
-PositionCoord
+Coord
 Position
 :
 :
@@ -35996,7 +35996,7 @@ aResultLocation
 Position
 :
 :
-PositionCoord
+Coord
 aInitialValue
 uint32_t
 aParentItemCount
@@ -36728,7 +36728,7 @@ aLayers
 Position
 :
 :
-PositionCoord
+Coord
 Position
 :
 :
@@ -37262,7 +37262,7 @@ conditions
 Position
 :
 :
-PositionCoord
+Coord
 initialPositionCoord
 ;
 initialPositionCoord
@@ -51752,7 +51752,7 @@ conditions
 Position
 :
 :
-PositionCoord
+Coord
 initialPositionCoord
 ;
 initialPositionCoord

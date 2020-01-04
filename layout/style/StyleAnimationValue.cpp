@@ -18156,7 +18156,7 @@ const
 Position
 :
 :
-PositionCoord
+Coord
 &
 aPosCoord
 nsCSSValue
