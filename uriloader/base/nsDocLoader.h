@@ -216,6 +216,7 @@ nsDocLoader
 )
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 Init
 (
@@ -255,6 +256,7 @@ aDocLoader
 ;
 }
 static
+MOZ_MUST_USE
 nsresult
 AddDocLoaderAsChildOfRoot
 (
@@ -272,6 +274,7 @@ NS_DECL_NSIWEBPROGRESS
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSICHANNELEVENTSINK
 NS_DECL_NSISUPPORTSPRIORITY
+MOZ_MUST_USE
 nsresult
 RemoveChildLoader
 (
@@ -280,6 +283,7 @@ nsDocLoader
 aChild
 )
 ;
+MOZ_MUST_USE
 nsresult
 AddChildLoader
 (
@@ -340,6 +344,7 @@ nsDocLoader
 )
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 SetDocLoaderParent
 (
@@ -489,6 +494,7 @@ uint32_t
 aFlags
 )
 ;
+MOZ_MUST_USE
 bool
 RefreshAttempted
 (
@@ -554,6 +560,7 @@ nsresult
 aStatus
 )
 ;
+MOZ_MUST_USE
 bool
 ChildEnteringOnload
 (

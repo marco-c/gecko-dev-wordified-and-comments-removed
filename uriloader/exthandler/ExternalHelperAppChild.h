@@ -87,6 +87,7 @@ ExternalHelperAppChild
 (
 )
 ;
+MOZ_MUST_USE
 nsresult
 DivertToParent
 (

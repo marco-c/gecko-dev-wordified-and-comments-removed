@@ -115,6 +115,7 @@ _retval
 )
 ;
 virtual
+MOZ_MUST_USE
 nsresult
 GetFileTokenForPath
 (
@@ -128,6 +129,7 @@ nsIFile
 aFile
 )
 ;
+MOZ_MUST_USE
 nsresult
 OSProtocolHandlerExists
 (
