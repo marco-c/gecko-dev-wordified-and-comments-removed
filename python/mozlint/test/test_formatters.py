@@ -271,8 +271,6 @@ c
 txt
   
 1
-:
-1
 error
 oh
 no
@@ -282,8 +280,6 @@ foo
 )
   
 4
-:
-1
 error
 oh
 no
@@ -386,8 +382,6 @@ c
 txt
 :
 1
-:
-1
 |
 oh
 no
@@ -410,8 +404,6 @@ c
 txt
 :
 4
-:
-1
 |
 oh
 no
