@@ -397,7 +397,7 @@ getBoolPref
 "
 services
 .
-kinto
+blocklist
 .
 update_enabled
 "

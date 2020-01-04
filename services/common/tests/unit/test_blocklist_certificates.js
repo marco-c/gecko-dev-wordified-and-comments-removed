@@ -241,9 +241,9 @@ setCharPref
 "
 services
 .
-kinto
+settings
 .
-base
+server
 "
 http
 :
@@ -563,9 +563,9 @@ clearUserPref
 "
 services
 .
-kinto
+settings
 .
-base
+server
 "
 )
 ;
@@ -604,7 +604,7 @@ setIntPref
 "
 services
 .
-kinto
+blocklist
 .
 onecrl
 .
@@ -638,7 +638,7 @@ getIntPref
 "
 services
 .
-kinto
+blocklist
 .
 onecrl
 .
@@ -928,8 +928,6 @@ settings
 :
 {
 "
-cliquet
-.
 batch_max_requests
 "
 :
