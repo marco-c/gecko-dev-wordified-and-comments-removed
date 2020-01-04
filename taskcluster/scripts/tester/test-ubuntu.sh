@@ -813,6 +813,10 @@ config
 file
 WORKSPACE
 /
+mozharness
+/
+configs
+/
 {
 cfg
 }
