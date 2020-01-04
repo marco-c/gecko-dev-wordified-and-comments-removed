@@ -8,7 +8,7 @@ exports
 openVariablesView
 =
 (
-objectActor
+object
 )
 =
 >
@@ -21,6 +21,8 @@ openVariablesView
 (
 {
 objectActor
+:
+object
 }
 )
 ;
