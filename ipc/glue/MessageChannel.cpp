@@ -3484,8 +3484,8 @@ MessageChannel
 :
 OnMessageReceivedFromLink
 (
-const
 Message
+&
 &
 aMsg
 )
@@ -3939,7 +3939,10 @@ mPending
 .
 push_back
 (
+Move
+(
 aMsg
+)
 )
 ;
 if

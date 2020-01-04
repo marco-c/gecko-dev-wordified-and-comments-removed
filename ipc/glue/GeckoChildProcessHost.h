@@ -331,11 +331,11 @@ virtual
 void
 OnMessageReceived
 (
-const
 IPC
 :
 :
 Message
+&
 &
 aMsg
 )

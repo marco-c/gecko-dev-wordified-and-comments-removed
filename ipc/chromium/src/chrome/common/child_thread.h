@@ -220,11 +220,11 @@ virtual
 void
 OnMessageReceived
 (
-const
 IPC
 :
 :
 Message
+&
 &
 msg
 )

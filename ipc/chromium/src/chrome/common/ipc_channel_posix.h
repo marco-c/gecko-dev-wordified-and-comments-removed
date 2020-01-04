@@ -49,6 +49,15 @@ include
 "
 base
 /
+buffer
+.
+h
+"
+#
+include
+"
+base
+/
 message_loop
 .
 h
@@ -385,10 +394,7 @@ kReadBufferSize
 kControlBufferSlopBytes
 ]
 ;
-std
-:
-:
-string
+Buffer
 input_overflow_buf_
 ;
 std

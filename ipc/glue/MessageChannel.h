@@ -1322,8 +1322,8 @@ aMsg
 void
 OnMessageReceivedFromLink
 (
-const
 Message
+&
 &
 aMsg
 )

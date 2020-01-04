@@ -5351,11 +5351,11 @@ GeckoChildProcessHost
 :
 OnMessageReceived
 (
-const
 IPC
 :
 :
 Message
+&
 &
 aMsg
 )
@@ -5364,7 +5364,10 @@ mQueue
 .
 push
 (
+Move
+(
 aMsg
+)
 )
 ;
 }

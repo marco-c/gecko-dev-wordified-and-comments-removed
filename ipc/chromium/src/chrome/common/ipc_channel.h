@@ -59,8 +59,8 @@ virtual
 void
 OnMessageReceived
 (
-const
 Message
+&
 &
 message
 )
@@ -120,6 +120,11 @@ kMaximumMessageSize
 kReadBufferSize
 =
 4
+*
+1024
+kMaxCopySize
+=
+32
 *
 1024
 }
