@@ -252,8 +252,10 @@ ClearStorage
 (
 )
 ;
+already_AddRefed
+<
 GMPParent
-*
+>
 SelectPluginForAPI
 (
 const
@@ -273,8 +275,10 @@ nsCString
 aTags
 )
 ;
+already_AddRefed
+<
 GMPParent
-*
+>
 FindPluginForAPIFrom
 (
 size_t
@@ -511,8 +515,10 @@ override
 ;
 private
 :
+already_AddRefed
+<
 GMPParent
-*
+>
 ClonePlugin
 (
 const
