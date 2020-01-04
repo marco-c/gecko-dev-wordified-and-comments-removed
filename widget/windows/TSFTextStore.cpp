@@ -27921,17 +27921,6 @@ return
 NS_OK
 ;
 }
-if
-(
-IsReadLocked
-(
-)
-)
-{
-return
-NS_OK
-;
-}
 mSelection
 .
 SetSelection
