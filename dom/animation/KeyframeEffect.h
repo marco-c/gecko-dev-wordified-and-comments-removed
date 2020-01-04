@@ -1234,6 +1234,11 @@ ResetIsRunningOnCompositor
 )
 ;
 void
+ResetWinsInCascade
+(
+)
+;
+void
 UpdateTargetRegistration
 (
 )
@@ -1489,6 +1494,11 @@ KeyframeEffect
 (
 )
 override
+;
+void
+MaybeUpdateProperties
+(
+)
 ;
 }
 ;
