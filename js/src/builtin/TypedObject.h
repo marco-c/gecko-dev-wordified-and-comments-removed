@@ -1822,7 +1822,7 @@ typedProto
 const
 {
 return
-staticPrototype
+getProto
 (
 )
 -

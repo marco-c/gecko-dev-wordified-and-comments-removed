@@ -2328,10 +2328,15 @@ existing
 {
 if
 (
+!
 existing
 -
 >
-hasStaticPrototype
+getTaggedProto
+(
+)
+.
+isLazy
 (
 )
 |

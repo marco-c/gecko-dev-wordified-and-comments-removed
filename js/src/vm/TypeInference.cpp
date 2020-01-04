@@ -6350,7 +6350,7 @@ singleton
 )
 -
 >
-taggedProto
+getTaggedProto
 (
 )
 ;
@@ -12526,7 +12526,7 @@ if
 (
 nproto
 .
-isDynamic
+isLazy
 (
 )
 )
@@ -15812,15 +15812,16 @@ toObject
 )
 )
 :
+(
 tagged
 .
-isDynamic
+isLazy
 (
 )
 ?
 "
 (
-dynamic
+lazy
 )
 "
 :
@@ -15829,6 +15830,7 @@ dynamic
 null
 )
 "
+)
 )
 ;
 if
@@ -16438,7 +16440,7 @@ proto
 proto
 -
 >
-staticPrototype
+getProto
 (
 )
 ;
@@ -17572,7 +17574,7 @@ cx
 fun
 -
 >
-staticPrototype
+getProto
 (
 )
 )
@@ -19018,7 +19020,7 @@ lastProperty
 obj
 -
 >
-taggedProto
+getTaggedProto
 (
 )
 allocKind

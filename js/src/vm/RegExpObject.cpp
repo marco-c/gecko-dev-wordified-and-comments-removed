@@ -4187,7 +4187,7 @@ cx
 templateObject
 -
 >
-taggedProto
+getTaggedProto
 (
 )
 )

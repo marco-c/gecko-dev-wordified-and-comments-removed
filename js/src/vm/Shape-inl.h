@@ -613,7 +613,7 @@ cx
 obj
 -
 >
-staticPrototype
+getProto
 (
 )
 )

@@ -7860,11 +7860,10 @@ true
 }
 if
 (
-!
 rx
 -
 >
-hasStaticPrototype
+hasLazyPrototype
 (
 )
 )
@@ -7883,7 +7882,11 @@ if
 rx
 -
 >
-staticPrototype
+getTaggedProto
+(
+)
+.
+toObjectOrNull
 (
 )
 !

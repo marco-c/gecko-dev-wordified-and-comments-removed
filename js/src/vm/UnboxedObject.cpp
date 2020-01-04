@@ -4179,7 +4179,7 @@ cx
 obj
 -
 >
-staticPrototype
+getProto
 (
 )
 )
@@ -4468,7 +4468,7 @@ cx
 obj
 -
 >
-staticPrototype
+getProto
 (
 )
 )
@@ -4638,7 +4638,7 @@ cx
 obj
 -
 >
-staticPrototype
+getProto
 (
 )
 )
@@ -7931,7 +7931,7 @@ cx
 obj
 -
 >
-staticPrototype
+getProto
 (
 )
 )
@@ -8285,7 +8285,7 @@ cx
 obj
 -
 >
-staticPrototype
+getProto
 (
 )
 )
@@ -8417,7 +8417,7 @@ cx
 obj
 -
 >
-staticPrototype
+getProto
 (
 )
 )

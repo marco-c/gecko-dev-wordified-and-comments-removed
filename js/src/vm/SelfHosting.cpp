@@ -2796,7 +2796,7 @@ if
 bound
 -
 >
-staticPrototype
+getProto
 (
 )
 !

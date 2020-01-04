@@ -598,6 +598,7 @@ true
 ;
 if
 (
+(
 pobj
 -
 >
@@ -612,7 +613,7 @@ ProxyObject
 pobj
 -
 >
-staticPrototype
+getProto
 (
 )
 |
@@ -624,9 +625,8 @@ getOpsEnumerate
 (
 )
 )
-{
-if
-(
+&
+&
 !
 ht
 -
@@ -640,7 +640,6 @@ id
 return
 false
 ;
-}
 }
 if
 (
@@ -3931,7 +3930,7 @@ pobj
 pobj
 -
 >
-staticPrototype
+getProto
 (
 )
 ;
@@ -4703,7 +4702,7 @@ proto
 obj
 -
 >
-staticPrototype
+getProto
 (
 )
 ;
@@ -4734,7 +4733,7 @@ guard_array
 proto
 -
 >
-staticPrototype
+getProto
 (
 )
 )
@@ -4837,7 +4836,7 @@ pobj
 pobj
 -
 >
-staticPrototype
+getProto
 (
 )
 ;

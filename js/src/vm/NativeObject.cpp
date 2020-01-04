@@ -5603,7 +5603,7 @@ obj
 obj
 -
 >
-staticPrototype
+getProto
 (
 )
 ;
@@ -5671,7 +5671,7 @@ cx
 obj
 -
 >
-staticPrototype
+getProto
 (
 )
 id
@@ -8557,7 +8557,7 @@ nullptr
 pobj
 -
 >
-staticPrototype
+getProto
 (
 )
 )
@@ -10173,7 +10173,7 @@ nullptr
 pobj
 -
 >
-staticPrototype
+getProto
 (
 )
 )
@@ -11109,7 +11109,7 @@ cx
 obj
 -
 >
-staticPrototype
+getProto
 (
 )
 )
@@ -11888,7 +11888,7 @@ nullptr
 pobj
 -
 >
-staticPrototype
+getProto
 (
 )
 )

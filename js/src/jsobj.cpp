@@ -2722,7 +2722,7 @@ getClass
 nobj
 -
 >
-taggedProto
+getTaggedProto
 (
 )
 nobj
@@ -3745,7 +3745,7 @@ MOZ_ASSERT
 obj
 -
 >
-taggedProto
+getTaggedProto
 (
 )
 =
@@ -5151,7 +5151,7 @@ TaggedProto
 templateObject
 -
 >
-staticPrototype
+getProto
 (
 )
 )
@@ -7967,7 +7967,7 @@ if
 src
 -
 >
-staticPrototype
+getProto
 (
 )
 =
@@ -7975,7 +7975,7 @@ staticPrototype
 dst
 -
 >
-staticPrototype
+getProto
 (
 )
 )
@@ -8009,7 +8009,7 @@ getClass
 dst
 -
 >
-taggedProto
+getTaggedProto
 (
 )
 dst
@@ -11269,7 +11269,7 @@ oldproto
 oldproto
 -
 >
-staticPrototype
+getProto
 (
 )
 ;
@@ -11482,7 +11482,7 @@ getClass
 obj
 -
 >
-taggedProto
+getTaggedProto
 (
 )
 )
@@ -13146,7 +13146,7 @@ obj
 obj
 -
 >
-staticPrototype
+getProto
 (
 )
 ;
@@ -14234,7 +14234,11 @@ if
 obj
 -
 >
-hasDynamicPrototype
+getTaggedProto
+(
+)
+.
+isLazy
 (
 )
 )
@@ -14283,7 +14287,11 @@ set
 obj
 -
 >
-staticPrototype
+getTaggedProto
+(
+)
+.
+toObjectOrNull
 (
 )
 )
@@ -14337,7 +14345,7 @@ if
 obj
 -
 >
-hasDynamicPrototype
+hasLazyPrototype
 (
 )
 )
@@ -14373,7 +14381,7 @@ if
 obj
 -
 >
-staticPrototypeIsImmutable
+nonLazyPrototypeIsImmutable
 (
 )
 &
@@ -14491,7 +14499,7 @@ proto
 obj
 -
 >
-staticPrototype
+getProto
 (
 )
 )
@@ -15594,7 +15602,7 @@ if
 obj
 -
 >
-hasDynamicPrototype
+hasLazyPrototype
 (
 )
 )
@@ -19886,10 +19894,11 @@ new_script_cleared
 ;
 if
 (
+!
 obj
 -
 >
-hasStaticPrototype
+hasLazyPrototype
 (
 )
 &
@@ -19897,7 +19906,7 @@ hasStaticPrototype
 obj
 -
 >
-staticPrototypeIsImmutable
+nonLazyPrototypeIsImmutable
 (
 )
 )
@@ -20097,7 +20106,7 @@ proto
 obj
 -
 >
-taggedProto
+getTaggedProto
 (
 )
 ;
@@ -20105,7 +20114,7 @@ if
 (
 proto
 .
-isDynamic
+isLazy
 (
 )
 )
@@ -20114,7 +20123,7 @@ fprintf
 stderr
 "
 <
-dynamic
+lazy
 >
 "
 )
