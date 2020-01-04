@@ -152,6 +152,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+css
+;
 static
 bool
 sNumberControlEnabled
@@ -346,7 +353,7 @@ gStyleCache
 -
 >
 mScrollbarsSheet
-false
+eAuthorSheetFeatures
 )
 ;
 }
@@ -398,7 +405,7 @@ gStyleCache
 -
 >
 mFormsSheet
-true
+eAgentSheetFeatures
 )
 ;
 }
@@ -462,7 +469,7 @@ gStyleCache
 -
 >
 mNumberControlSheet
-true
+eAgentSheetFeatures
 )
 ;
 }
@@ -554,7 +561,7 @@ gStyleCache
 -
 >
 mUASheet
-true
+eAgentSheetFeatures
 )
 ;
 }
@@ -606,7 +613,7 @@ gStyleCache
 -
 >
 mHTMLSheet
-true
+eAgentSheetFeatures
 )
 ;
 }
@@ -738,7 +745,7 @@ gStyleCache
 -
 >
 mMathMLSheet
-true
+eAgentSheetFeatures
 )
 ;
 }
@@ -835,7 +842,7 @@ gStyleCache
 -
 >
 mNoScriptSheet
-true
+eAgentSheetFeatures
 )
 ;
 }
@@ -929,7 +936,7 @@ gStyleCache
 -
 >
 mNoFramesSheet
-true
+eAgentSheetFeatures
 )
 ;
 }
@@ -1071,7 +1078,7 @@ gStyleCache
 -
 >
 mContentEditableSheet
-true
+eAgentSheetFeatures
 )
 ;
 }
@@ -1123,7 +1130,7 @@ gStyleCache
 -
 >
 mDesignModeSheet
-true
+eAgentSheetFeatures
 )
 ;
 }
@@ -1476,7 +1483,7 @@ counterstyles
 css
 "
 mCounterStylesSheet
-true
+eAgentSheetFeatures
 )
 ;
 LoadSheetURL
@@ -1497,7 +1504,7 @@ xul
 css
 "
 mMinimalXULSheet
-true
+eAgentSheetFeatures
 )
 ;
 LoadSheetURL
@@ -1516,7 +1523,7 @@ quirk
 css
 "
 mQuirkSheet
-true
+eAgentSheetFeatures
 )
 ;
 LoadSheetURL
@@ -1535,7 +1542,7 @@ svg
 css
 "
 mSVGSheet
-true
+eAgentSheetFeatures
 )
 ;
 LoadSheetURL
@@ -1554,7 +1561,7 @@ xul
 css
 "
 mXULSheet
-true
+eAgentSheetFeatures
 )
 ;
 }
@@ -1802,12 +1809,14 @@ LoadSheetFile
 (
 contentFile
 mUserContentSheet
+eUserSheetFeatures
 )
 ;
 LoadSheetFile
 (
 chromeFile
 mUserChromeSheet
+eUserSheetFeatures
 )
 ;
 }
@@ -1827,8 +1836,8 @@ CSSStyleSheet
 >
 &
 aSheet
-bool
-aEnableUnsafeRules
+SheetParsingMode
+aParsingMode
 )
 {
 nsCOMPtr
@@ -1850,7 +1859,7 @@ LoadSheet
 (
 uri
 aSheet
-aEnableUnsafeRules
+aParsingMode
 )
 ;
 if
@@ -1895,6 +1904,8 @@ CSSStyleSheet
 >
 &
 aSheet
+SheetParsingMode
+aParsingMode
 )
 {
 bool
@@ -1937,7 +1948,7 @@ LoadSheet
 (
 uri
 aSheet
-false
+aParsingMode
 )
 ;
 }
@@ -3486,8 +3497,8 @@ CSSStyleSheet
 >
 &
 aSheet
-bool
-aEnableUnsafeRules
+SheetParsingMode
+aParsingMode
 )
 {
 if
@@ -3560,7 +3571,7 @@ gCSSLoader
 LoadSheetSync
 (
 aURI
-aEnableUnsafeRules
+aParsingMode
 true
 getter_AddRefs
 (
