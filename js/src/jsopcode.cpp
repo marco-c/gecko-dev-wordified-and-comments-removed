@@ -9041,6 +9041,9 @@ line
 return
 nullptr
 ;
+if
+(
+!
 NumberValueToStringBuffer
 (
 cx
@@ -9055,7 +9058,12 @@ lineno
 )
 buf
 )
+)
+{
+return
+nullptr
 ;
+}
 if
 (
 script

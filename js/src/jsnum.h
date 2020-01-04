@@ -89,6 +89,7 @@ class
 StringBuffer
 ;
 extern
+MOZ_MUST_USE
 bool
 InitRuntimeNumberState
 (
@@ -218,6 +219,7 @@ si
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 JS_FASTCALL
 NumberValueToStringBuffer
@@ -347,6 +349,7 @@ typename
 CharT
 >
 extern
+MOZ_MUST_USE
 bool
 GetPrefixInteger
 (
@@ -374,6 +377,7 @@ dp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 GetDecimalInteger
 (
@@ -394,6 +398,7 @@ dp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 StringToNumber
 (
@@ -409,6 +414,7 @@ result
 )
 ;
 MOZ_ALWAYS_INLINE
+MOZ_MUST_USE
 bool
 ToNumber
 (
@@ -478,6 +484,7 @@ return
 true
 ;
 }
+MOZ_MUST_USE
 bool
 num_parseInt
 (
@@ -498,6 +505,7 @@ typename
 CharT
 >
 extern
+MOZ_MUST_USE
 bool
 js_strtod
 (
@@ -529,6 +537,7 @@ namespace
 js
 {
 extern
+MOZ_MUST_USE
 bool
 num_toString
 (
@@ -543,6 +552,7 @@ vp
 )
 ;
 extern
+MOZ_MUST_USE
 bool
 num_valueOf
 (
@@ -710,6 +720,7 @@ false
 ;
 }
 static
+MOZ_MUST_USE
 inline
 bool
 ToInteger
@@ -819,6 +830,7 @@ template
 typename
 T
 >
+MOZ_MUST_USE
 bool
 ToLengthClamped
 (
@@ -835,6 +847,7 @@ bool
 overflow
 )
 ;
+MOZ_MUST_USE
 bool
 ToIntegerIndex
 (
@@ -851,6 +864,7 @@ uint64_t
 index
 )
 ;
+MOZ_MUST_USE
 inline
 bool
 SafeAdd
@@ -920,6 +934,7 @@ res
 #
 endif
 }
+MOZ_MUST_USE
 inline
 bool
 SafeSub
@@ -989,6 +1004,7 @@ res
 #
 endif
 }
+MOZ_MUST_USE
 inline
 bool
 SafeMul
@@ -1059,6 +1075,7 @@ res
 endif
 }
 extern
+MOZ_MUST_USE
 bool
 ToNumberSlow
 (
@@ -1073,6 +1090,7 @@ dp
 )
 ;
 MOZ_ALWAYS_INLINE
+MOZ_MUST_USE
 bool
 ToNumber
 (
