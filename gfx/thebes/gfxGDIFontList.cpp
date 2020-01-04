@@ -4424,7 +4424,7 @@ e
 uint32_t
 nameSize
 ;
-AutoFallibleTArray
+AutoTArray
 <
 uint8_t
 1024
@@ -4678,7 +4678,7 @@ p
 uint32_t
 cmapSize
 ;
-AutoFallibleTArray
+AutoTArray
 <
 uint8_t
 1024

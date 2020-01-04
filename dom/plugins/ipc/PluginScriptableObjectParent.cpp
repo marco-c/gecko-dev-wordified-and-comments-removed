@@ -4086,7 +4086,7 @@ return
 true
 ;
 }
-AutoFallibleTArray
+AutoTArray
 <
 NPVariant
 10
@@ -4514,7 +4514,7 @@ return
 true
 ;
 }
-AutoFallibleTArray
+AutoTArray
 <
 NPVariant
 10
@@ -6133,7 +6133,7 @@ return
 true
 ;
 }
-AutoFallibleTArray
+AutoTArray
 <
 NPVariant
 10
