@@ -1327,7 +1327,7 @@ ZoneStatsExtras
 )
 {
 }
-nsAutoCString
+nsCString
 pathPrefix
 ;
 private
@@ -1372,10 +1372,10 @@ sizeOfXPCPrivate
 )
 {
 }
-nsAutoCString
+nsCString
 jsPathPrefix
 ;
-nsAutoCString
+nsCString
 domPathPrefix
 ;
 nsCOMPtr
