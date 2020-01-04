@@ -47,6 +47,12 @@ config
 {
     
 '
+developer_mode
+'
+:
+True
+    
+'
 env
 '
 :
@@ -68,13 +74,6 @@ mozilla
 org
 '
     
-}
-    
-'
-proxxy
-'
-:
-{
 }
     
 '
