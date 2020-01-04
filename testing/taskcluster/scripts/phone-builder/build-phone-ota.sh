@@ -312,6 +312,15 @@ gecko_objdir
 \
 -
 -
+branch
+=
+(
+basename
+GECKO_HEAD_REPOSITORY
+)
+\
+-
+-
 complete
 -
 mar

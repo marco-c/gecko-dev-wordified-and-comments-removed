@@ -774,6 +774,39 @@ directory
         
 }
 ]
+        
+[
+[
+"
+-
+-
+branch
+"
+]
+{
+            
+"
+dest
+"
+:
+"
+branch
+"
+            
+"
+help
+"
+:
+"
+Specifies
+the
+branch
+name
+.
+"
+        
+}
+]
     
 ]
     
@@ -1369,6 +1402,15 @@ else
 :
             
 return
+self
+.
+config
+.
+get
+(
+'
+branch
+'
 os
 .
 path
@@ -1386,6 +1428,7 @@ rstrip
 '
 /
 '
+)
 )
 )
     
