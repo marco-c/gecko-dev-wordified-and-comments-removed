@@ -201,6 +201,8 @@ nsString
 filterNames
 nsString
 displayDirectory
+nsString
+okButtonLabel
 )
 ;
 child
