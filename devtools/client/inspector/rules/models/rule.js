@@ -1841,6 +1841,15 @@ prop
 .
 name
 ;
+if
+(
+!
+name
+)
+{
+continue
+;
+}
 let
 invisible
 =
