@@ -1047,6 +1047,15 @@ override
 ;
 virtual
 void
+SetRestoreResolution
+(
+float
+aResolution
+)
+override
+;
+virtual
+void
 Paint
 (
 nsView

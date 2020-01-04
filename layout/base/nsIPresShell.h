@@ -3073,6 +3073,16 @@ const
 =
 0
 ;
+virtual
+void
+SetRestoreResolution
+(
+float
+aResolution
+)
+=
+0
+;
 bool
 InDrawWindowNotFlushing
 (
