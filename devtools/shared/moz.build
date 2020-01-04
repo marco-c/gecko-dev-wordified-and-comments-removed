@@ -344,6 +344,15 @@ indentation
 js
 '
 '
+loader
+-
+plugin
+-
+raw
+.
+jsm
+'
+'
 Loader
 .
 jsm
