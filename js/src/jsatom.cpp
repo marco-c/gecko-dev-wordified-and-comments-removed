@@ -1956,6 +1956,8 @@ atomsCompartment
 (
 lock
 )
+&
+lock
 )
 ;
 JSFlatString

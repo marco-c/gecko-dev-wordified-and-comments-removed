@@ -136,6 +136,12 @@ cx
 JSObject
 *
 target
+js
+:
+:
+AutoLockForExclusiveAccess
+*
+maybeLock
 )
 :
 cx_
@@ -149,6 +155,10 @@ cx
 >
 compartment_
 )
+maybeLock_
+(
+maybeLock
+)
 {
 cx_
 -
@@ -161,6 +171,7 @@ target
 compartment
 (
 )
+maybeLock
 )
 ;
 }
@@ -178,6 +189,12 @@ cx
 JSCompartment
 *
 target
+js
+:
+:
+AutoLockForExclusiveAccess
+*
+maybeLock
 )
 :
 cx_
@@ -191,6 +208,10 @@ cx_
 >
 compartment_
 )
+maybeLock_
+(
+maybeLock
+)
 {
 cx_
 -
@@ -198,6 +219,7 @@ cx_
 enterCompartment
 (
 target
+maybeLock
 )
 ;
 }
@@ -218,6 +240,7 @@ cx_
 leaveCompartment
 (
 origin_
+maybeLock_
 )
 ;
 }

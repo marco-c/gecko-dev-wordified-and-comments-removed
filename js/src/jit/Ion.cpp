@@ -1107,6 +1107,8 @@ atomsCompartment
 (
 lock
 )
+&
+lock
 )
 ;
 JitContext
@@ -1887,6 +1889,8 @@ atomsCompartment
 (
 lock
 )
+&
+lock
 )
 ;
 debugTrapHandler_

@@ -224,6 +224,8 @@ atomsCompartment
 (
 lock
 )
+&
+lock
 )
 ;
 return
@@ -321,6 +323,8 @@ atomsCompartment
 (
 lock
 )
+&
+lock
 )
 ;
 Symbol

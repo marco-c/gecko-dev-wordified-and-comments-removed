@@ -4509,6 +4509,8 @@ atomsCompartment
 (
 lock
 )
+&
+lock
 )
 ;
 static_assert
