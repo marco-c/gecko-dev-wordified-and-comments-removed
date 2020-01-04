@@ -1596,9 +1596,7 @@ aParent
 )
 mObserver
 (
-aOther
-.
-mObserver
+nullptr
 )
 {
 }
