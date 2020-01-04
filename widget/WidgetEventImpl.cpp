@@ -1974,6 +1974,12 @@ key
 }
 if
 (
+mKeyNameIndex
+=
+=
+KEY_NAME_INDEX_USE_STRING
+&
+&
 mCodeNameIndex
 =
 =
@@ -2218,6 +2224,12 @@ j
 }
 if
 (
+mKeyNameIndex
+=
+=
+KEY_NAME_INDEX_USE_STRING
+&
+&
 mCodeNameIndex
 =
 =
