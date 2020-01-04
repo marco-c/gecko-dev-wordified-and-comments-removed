@@ -41,6 +41,7 @@ def
 __init__
 (
 self
+                 
 topsrcdir
 =
 '
@@ -51,10 +52,16 @@ to
 /
 topsrcdir
 '
+                 
 extra_substs
 =
 {
 }
+                 
+error_is_fatal
+=
+True
+             
 )
 :
         
@@ -242,3 +249,9 @@ dll_suffix
 .
 so
 '
+        
+self
+.
+error_is_fatal
+=
+error_is_fatal
