@@ -13760,6 +13760,8 @@ I32x4
 FORALL_INT32X4_ASMJS_OP
 I32CASE
 )
+break
+;
 }
 case
 SimdType
@@ -13774,6 +13776,8 @@ F32x4
 FORALL_FLOAT32X4_ASMJS_OP
 F32CASE
 )
+break
+;
 }
 case
 SimdType
@@ -13788,6 +13792,8 @@ B32x4
 FORALL_BOOL_SIMD_OP
 B32CASE
 )
+break
+;
 }
 default
 :
