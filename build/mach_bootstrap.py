@@ -1011,6 +1011,16 @@ py
 '
     
 '
+tools
+/
+power
+/
+mach_commands
+.
+py
+'
+    
+'
 mobile
 /
 android
