@@ -111,6 +111,11 @@ Grid
 h
 '
 '
+GridArea
+.
+h
+'
+'
 GridDimension
 .
 h
@@ -142,6 +147,11 @@ UNIFIED_SOURCES
 [
 '
 Grid
+.
+cpp
+'
+'
+GridArea
 .
 cpp
 '
