@@ -11884,7 +11884,7 @@ SizeOfExcludingThis
 (
 aMallocSizeOf
 )
-;
++
 mLangGroupFontPrefs
 .
 SizeOfExcludingThis
