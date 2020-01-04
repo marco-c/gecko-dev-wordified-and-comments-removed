@@ -2189,6 +2189,14 @@ aType
 )
 ;
 static
+nsContentPolicyType
+InternalContentPolicyTypeToExternalOrPreload
+(
+nsContentPolicyType
+aType
+)
+;
+static
 bool
 HasMutationListeners
 (
