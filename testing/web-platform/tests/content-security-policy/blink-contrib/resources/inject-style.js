@@ -35,7 +35,7 @@ style
 ;
 s
 .
-innerText
+textContent
 =
 "
 #

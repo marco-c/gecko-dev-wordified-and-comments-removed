@@ -86,12 +86,7 @@ Policy
 connect
 -
 src
-'
-self
-'
-'
-none
-'
+*
 ;
 script
 -

@@ -37,7 +37,7 @@ script
 ;
 s
 .
-innerText
+textContent
 =
 "
 alert_assert

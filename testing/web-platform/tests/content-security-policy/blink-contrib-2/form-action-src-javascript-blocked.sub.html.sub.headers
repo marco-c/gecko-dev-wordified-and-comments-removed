@@ -101,9 +101,9 @@ src
 self
 '
 '
-unsafe
+nonce
 -
-inline
+noncynonce
 '
 ;
 connect

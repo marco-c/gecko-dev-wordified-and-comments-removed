@@ -1,7 +1,0 @@
-alert_assert
-(
-'
-FAIL
-'
-)
-;

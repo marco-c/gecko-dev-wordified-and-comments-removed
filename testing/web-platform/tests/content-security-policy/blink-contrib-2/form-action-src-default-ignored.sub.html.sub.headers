@@ -105,11 +105,6 @@ unsafe
 -
 inline
 '
-'
-unsafe
--
-inline
-'
 ;
 connect
 -
@@ -119,6 +114,13 @@ self
 '
 ;
 style
+-
+src
+'
+self
+'
+;
+frame
 -
 src
 '

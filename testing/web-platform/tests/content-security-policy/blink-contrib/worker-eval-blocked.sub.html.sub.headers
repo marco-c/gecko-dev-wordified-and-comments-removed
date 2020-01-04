@@ -92,14 +92,6 @@ unsafe
 -
 inline
 '
-'
-self
-'
-'
-unsafe
--
-inline
-'
 ;
 connect
 -
