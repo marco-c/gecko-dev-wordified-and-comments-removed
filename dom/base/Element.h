@@ -2315,7 +2315,6 @@ nsIPresShell
 ReleasePointerCapturingContent
 (
 aPointerId
-this
 )
 ;
 }
@@ -2337,7 +2336,6 @@ nsIPresShell
 ReleasePointerCapturingContent
 (
 aPointerId
-this
 )
 ;
 }
