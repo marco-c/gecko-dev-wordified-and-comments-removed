@@ -1185,6 +1185,15 @@ copy_key
 )
 :
                 
+source_key
+=
+bucket
+.
+get_key
+(
+source
+)
+                
 dest_key
 =
 bucket
@@ -1194,14 +1203,48 @@ get_key
 destination
 )
                 
-source_key
+source_md5
 =
-bucket
+source_key
 .
-get_key
+etag
+.
+split
 (
-source
+"
+-
+"
 )
+[
+0
+]
+                
+if
+dest_key
+:
+                    
+dest_md5
+=
+dest_key
+.
+etag
+.
+split
+(
+"
+-
+"
+)
+[
+0
+]
+                
+else
+:
+                    
+dest_md5
+=
+None
                 
 if
 not
@@ -1246,14 +1289,10 @@ source
 )
                 
 elif
-source_key
-.
-etag
+source_md5
 =
 =
-dest_key
-.
-etag
+dest_md5
 :
                     
 self
@@ -1282,9 +1321,7 @@ format
 (
                             
 destination
-dest_key
-.
-etag
+dest_md5
 )
 )
                 
@@ -1307,10 +1344,12 @@ different
 content
 (
 src
+ETag
 :
 {
 }
 dest
+ETag
 :
 {
 }
