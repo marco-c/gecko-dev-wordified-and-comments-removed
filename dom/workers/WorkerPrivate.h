@@ -3822,7 +3822,16 @@ ScheduleKillCloseEventRunnable
 (
 )
 ;
-bool
+enum
+class
+ProcessAllControlRunnablesResult
+{
+Nothing
+MayContinue
+Abort
+}
+;
+ProcessAllControlRunnablesResult
 ProcessAllControlRunnables
 (
 )
@@ -3839,7 +3848,7 @@ ProcessAllControlRunnablesLocked
 )
 ;
 }
-bool
+ProcessAllControlRunnablesResult
 ProcessAllControlRunnablesLocked
 (
 )
