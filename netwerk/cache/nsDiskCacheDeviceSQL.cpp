@@ -5992,6 +5992,15 @@ _result
 .
 Append
 (
+'
+#
+'
+)
+;
+_result
+.
+Append
+(
 suffix
 )
 ;
