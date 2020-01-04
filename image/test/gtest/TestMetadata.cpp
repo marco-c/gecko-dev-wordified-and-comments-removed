@@ -985,7 +985,7 @@ ImageFactory
 :
 CreateAnonymousImage
 (
-nsAutoCString
+nsDependentCString
 (
 testCase
 .
