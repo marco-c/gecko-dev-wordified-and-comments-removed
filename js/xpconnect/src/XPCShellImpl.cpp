@@ -2294,10 +2294,7 @@ false
 ;
 JS_SetGCZeal
 (
-JS_GetRuntime
-(
 cx
-)
 uint8_t
 (
 zeal

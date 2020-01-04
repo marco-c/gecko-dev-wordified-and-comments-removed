@@ -503,7 +503,7 @@ ifdef
 JS_GC_ZEAL
 JS_SetGCZeal
 (
-rt
+cx
 0
 100
 )

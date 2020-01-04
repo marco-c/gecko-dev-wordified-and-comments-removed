@@ -26150,10 +26150,7 @@ AssertIsOnWorkerThread
 ;
 JS_SetGCZeal
 (
-JS_GetRuntime
-(
 aCx
-)
 aGCZeal
 aFrequency
 )

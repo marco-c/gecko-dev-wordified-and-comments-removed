@@ -6623,6 +6623,17 @@ Runtime
 (
 )
 ;
+JSContext
+*
+cx
+=
+runtime
+-
+>
+Context
+(
+)
+;
 bool
 safeMode
 =
@@ -7010,7 +7021,7 @@ zeal
 {
 JS_SetGCZeal
 (
-rt
+cx
 (
 uint8_t
 )

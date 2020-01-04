@@ -4209,11 +4209,6 @@ false
 JS_SetGCZeal
 (
 cx
--
->
-runtime
-(
-)
 (
 uint8_t
 )
@@ -7789,11 +7784,6 @@ false
 JS_SetGCZeal
 (
 cx
--
->
-runtime
-(
-)
 0
 JS_DEFAULT_ZEAL_FREQ
 )

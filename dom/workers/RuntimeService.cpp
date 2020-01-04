@@ -3694,7 +3694,7 @@ ifdef
 JS_GC_ZEAL
 JS_SetGCZeal
 (
-aRuntime
+workerCx
 settings
 .
 gcZeal
