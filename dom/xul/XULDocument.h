@@ -109,6 +109,13 @@ h
 #
 include
 "
+nsIStreamLoader
+.
+h
+"
+#
+include
+"
 nsICSSLoaderObserver
 .
 h

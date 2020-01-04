@@ -31,7 +31,7 @@ class
 nsIDocument
 ;
 class
-nsIStreamLoader
+nsIIncrementalStreamLoader
 ;
 class
 nsIUnicharStreamLoader
@@ -113,7 +113,7 @@ const
 SRIMetadata
 &
 aMetadata
-nsIStreamLoader
+nsIIncrementalStreamLoader
 *
 aLoader
 const

@@ -313,6 +313,11 @@ nsIIncrementalDownload
 idl
 '
 '
+nsIIncrementalStreamLoader
+.
+idl
+'
+'
 nsIInputStreamChannel
 .
 idl
@@ -1081,6 +1086,11 @@ cpp
 '
 '
 nsIncrementalDownload
+.
+cpp
+'
+'
+nsIncrementalStreamLoader
 .
 cpp
 '

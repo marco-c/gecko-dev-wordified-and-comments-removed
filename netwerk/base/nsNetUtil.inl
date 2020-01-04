@@ -228,6 +228,13 @@ h
 #
 include
 "
+nsIIncrementalStreamLoader
+.
+h
+"
+#
+include
+"
 nsIURI
 .
 h
