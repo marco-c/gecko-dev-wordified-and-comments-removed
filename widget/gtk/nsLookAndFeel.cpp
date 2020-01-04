@@ -438,6 +438,14 @@ aValue
 ;
 if
 (
+!
+pattern
+)
+return
+false
+;
+if
+(
 CAIRO_STATUS_SUCCESS
 !
 =
