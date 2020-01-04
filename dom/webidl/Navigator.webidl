@@ -2893,11 +2893,6 @@ CheckAnyPermissions
 "
 presentation
 "
-AvailableIn
-=
-"
-PrivilegedApps
-"
 SameObject
 ]
 readonly

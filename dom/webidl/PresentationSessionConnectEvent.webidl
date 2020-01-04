@@ -114,11 +114,6 @@ CheckAnyPermissions
 "
 presentation
 "
-AvailableIn
-=
-"
-PrivilegedApps
-"
 ]
 interface
 PresentationSessionConnectEvent

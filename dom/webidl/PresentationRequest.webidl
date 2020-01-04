@@ -111,11 +111,6 @@ CheckAnyPermissions
 "
 presentation
 "
-AvailableIn
-=
-"
-PrivilegedApps
-"
 ]
 interface
 PresentationRequest

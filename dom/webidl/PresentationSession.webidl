@@ -169,11 +169,6 @@ CheckAnyPermissions
 "
 presentation
 "
-AvailableIn
-=
-"
-PrivilegedApps
-"
 ]
 interface
 PresentationSession

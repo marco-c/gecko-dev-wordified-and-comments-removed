@@ -106,11 +106,6 @@ CheckAnyPermissions
 "
 presentation
 "
-AvailableIn
-=
-"
-PrivilegedApps
-"
 ]
 interface
 PresentationAvailability
