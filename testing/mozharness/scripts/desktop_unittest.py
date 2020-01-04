@@ -77,7 +77,6 @@ log
 import
 INFO
 ERROR
-WARNING
 from
 mozharness
 .
@@ -4734,12 +4733,6 @@ suites
 )
 :
         
-c
-=
-self
-.
-config
-        
 dirs
 =
 self
@@ -4917,12 +4910,6 @@ category
 "
 "
 "
-        
-c
-=
-self
-.
-config
         
 dirs
 =

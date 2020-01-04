@@ -26,6 +26,9 @@ errors
 import
 HgErrorList
 BaseErrorList
+TarErrorList
+\
+    
 ZipErrorList
 from
 mozharness

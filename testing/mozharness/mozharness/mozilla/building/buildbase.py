@@ -15018,12 +15018,6 @@ steps
 "
 "
         
-c
-=
-self
-.
-config
-        
 if
 not
 self

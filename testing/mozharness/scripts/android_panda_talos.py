@@ -1633,12 +1633,6 @@ abs_base_cmd
 :
 ]
                 
-tbpl_status
-log_level
-=
-None
-None
-                
 c
 =
 self

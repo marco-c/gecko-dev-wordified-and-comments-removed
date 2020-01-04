@@ -114,16 +114,6 @@ testing
 unittest
 import
 EmulatorMixin
-from
-mozharness
-.
-mozilla
-.
-testing
-.
-device
-import
-ADBDeviceHandler
 class
 AndroidEmulatorTest
 (
@@ -3985,14 +3975,6 @@ associated
 "
 "
 "
-        
-dirs
-=
-self
-.
-query_abs_dirs
-(
-)
         
 cmd
 =

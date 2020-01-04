@@ -12,10 +12,6 @@ Polk
 "
 "
 import
-copy
-import
-glob
-import
 os
 import
 sys
@@ -40,14 +36,6 @@ path
 ]
 )
 )
-from
-mozharness
-.
-base
-.
-script
-import
-PreScriptAction
 from
 mozharness
 .

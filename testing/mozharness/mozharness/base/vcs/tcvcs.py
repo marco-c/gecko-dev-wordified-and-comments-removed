@@ -18,15 +18,6 @@ base
 log
 import
 LogMixin
-OutputParser
-from
-mozharness
-.
-base
-.
-errors
-import
-VCSException
 class
 TcVCS
 (

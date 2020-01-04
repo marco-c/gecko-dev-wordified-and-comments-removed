@@ -15,8 +15,6 @@ G
 "
 import
 os
-import
-stat
 from
 mozharness
 .
@@ -103,14 +101,6 @@ self
 action
 )
 :
-        
-dirs
-=
-self
-.
-query_abs_dirs
-(
-)
         
 if
 self

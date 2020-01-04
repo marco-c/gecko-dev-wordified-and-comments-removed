@@ -1365,8 +1365,6 @@ long_desc
 "
 )
                 
-listing_response
-=
 service
 .
 edits

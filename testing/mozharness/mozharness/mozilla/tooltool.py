@@ -37,16 +37,6 @@ mozilla
 proxxy
 import
 Proxxy
-from
-mozharness
-.
-lib
-.
-python
-.
-authentication
-import
-get_credentials_path
 TooltoolErrorList
 =
 PythonErrorList

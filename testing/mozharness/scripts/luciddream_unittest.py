@@ -34,7 +34,6 @@ errors
 import
 BaseErrorList
 TarErrorList
-ZipErrorList
 from
 mozharness
 .
@@ -43,7 +42,6 @@ base
 log
 import
 ERROR
-WARNING
 FATAL
 INFO
 from

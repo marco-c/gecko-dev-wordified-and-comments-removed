@@ -3,8 +3,6 @@ copy
 import
 os
 import
-re
-import
 sys
 import
 time
@@ -36,15 +34,6 @@ path
 )
 )
 )
-from
-mozharness
-.
-base
-.
-errors
-import
-TarErrorList
-ZipErrorList
 from
 mozharness
 .
