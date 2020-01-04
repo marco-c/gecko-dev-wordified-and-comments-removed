@@ -125,6 +125,7 @@ template
 size_t
 Length
 >
+explicit
 AstName
 (
 const
