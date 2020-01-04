@@ -2638,6 +2638,10 @@ mWidget
 GetClientSize
 (
 )
+.
+ToUnknownSize
+(
+)
 ;
 IntRect
 intRect

@@ -6198,10 +6198,7 @@ return
 NS_OK
 ;
 }
-gfx
-:
-:
-IntSize
+LayoutDeviceIntSize
 nsWindow
 :
 :
@@ -6210,10 +6207,7 @@ GetClientSize
 )
 {
 return
-gfx
-:
-:
-IntSize
+LayoutDeviceIntSize
 (
 mBounds
 .
