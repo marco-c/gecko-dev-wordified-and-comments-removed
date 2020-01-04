@@ -59,6 +59,18 @@ public
 static
 final
 String
+ACCOUNTS
+=
+"
+about
+:
+accounts
+"
+;
+public
+static
+final
+String
 ADDONS
 =
 "
@@ -439,6 +451,7 @@ String
 [
 ]
 {
+ACCOUNTS
 ADDONS
 CONFIG
 DOWNLOADS
