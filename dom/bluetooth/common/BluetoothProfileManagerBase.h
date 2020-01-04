@@ -133,11 +133,11 @@ void
 OnGetServiceChannel
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 const
-BluetoothUuid
+nsAString
 &
 aServiceUuid
 int
@@ -151,7 +151,7 @@ void
 OnUpdateSdpRecords
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 )
@@ -162,7 +162,7 @@ virtual
 void
 GetAddress
 (
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 )
@@ -182,7 +182,7 @@ void
 Connect
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 BluetoothProfileController
@@ -264,12 +264,12 @@ void
 OnGetServiceChannel
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 \
 const
-BluetoothUuid
+nsAString
 &
 aServiceUuid
 \
@@ -283,9 +283,8 @@ virtual
 void
 OnUpdateSdpRecords
 (
-\
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 )
@@ -296,7 +295,7 @@ virtual
 void
 GetAddress
 (
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 )
@@ -316,7 +315,7 @@ void
 Connect
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 \

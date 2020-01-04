@@ -612,7 +612,7 @@ mMnsConnected
 bool
 mNtfRequired
 ;
-BluetoothAddress
+nsString
 mDeviceAddress
 ;
 unsigned

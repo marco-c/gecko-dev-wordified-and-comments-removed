@@ -633,7 +633,7 @@ mDialingRequestProcessed
 ;
 #
 endif
-BluetoothAddress
+nsString
 mDeviceAddress
 ;
 #

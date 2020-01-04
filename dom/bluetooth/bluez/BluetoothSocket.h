@@ -88,7 +88,7 @@ nsresult
 Connect
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 const
@@ -205,7 +205,7 @@ aConnector
 void
 GetAddress
 (
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 )

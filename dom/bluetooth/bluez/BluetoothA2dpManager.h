@@ -114,7 +114,7 @@ NotifyConnectionStatusChanged
 (
 )
 ;
-BluetoothAddress
+nsString
 mDeviceAddress
 ;
 RefPtr

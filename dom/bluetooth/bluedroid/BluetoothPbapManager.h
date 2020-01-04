@@ -408,7 +408,7 @@ mPhonebookSizeRequired
 bool
 mConnected
 ;
-BluetoothAddress
+nsString
 mDeviceAddress
 ;
 nsString

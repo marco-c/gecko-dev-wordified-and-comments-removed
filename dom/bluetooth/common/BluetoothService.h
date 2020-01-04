@@ -427,11 +427,11 @@ nsresult
 GetServiceChannel
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 const
-BluetoothUuid
+nsAString
 &
 aServiceUuid
 BluetoothProfileManagerBase
@@ -446,7 +446,7 @@ bool
 UpdateSdpRecords
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 BluetoothProfileManagerBase

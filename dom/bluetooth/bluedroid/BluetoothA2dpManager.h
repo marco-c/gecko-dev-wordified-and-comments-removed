@@ -193,7 +193,7 @@ aBdAddr
 )
 override
 ;
-BluetoothAddress
+nsString
 mDeviceAddress
 ;
 RefPtr

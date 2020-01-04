@@ -396,6 +396,13 @@ mRemoteMaxPacketLength
 0
 )
 {
+mDeviceAddress
+.
+AssignLiteral
+(
+BLUETOOTH_ADDRESS_NONE
+)
+;
 mCurrentPath
 .
 AssignLiteral
@@ -2804,7 +2811,7 @@ BluetoothPbapManager
 :
 GetAddress
 (
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 )
@@ -4043,8 +4050,9 @@ AfterPbapDisconnected
 ;
 mDeviceAddress
 .
-Clear
+AssignLiteral
 (
+BLUETOOTH_ADDRESS_NONE
 )
 ;
 mSocket
@@ -4107,7 +4115,7 @@ BluetoothPbapManager
 Connect
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 BluetoothProfileController
@@ -4128,11 +4136,11 @@ BluetoothPbapManager
 OnGetServiceChannel
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 const
-BluetoothUuid
+nsAString
 &
 aServiceUuid
 int
@@ -4152,7 +4160,7 @@ BluetoothPbapManager
 OnUpdateSdpRecords
 (
 const
-BluetoothAddress
+nsAString
 &
 aDeviceAddress
 )

@@ -21,6 +21,17 @@ BluetoothUuidHelper
 public
 :
 static
+void
+GetString
+(
+BluetoothServiceClass
+aServiceClassUuid
+nsAString
+&
+aRetUuidStr
+)
+;
+static
 BluetoothServiceClass
 GetBluetoothServiceClass
 (
