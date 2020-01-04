@@ -93,7 +93,7 @@ aLayoutManager
 }
 virtual
 nsresult
-GetBorderAndPadding
+GetXULBorderAndPadding
 (
 nsMargin
 &

@@ -6477,7 +6477,7 @@ aBoxLayoutState
 ;
 virtual
 nsresult
-GetBorderAndPadding
+GetXULBorderAndPadding
 (
 nsMargin
 &

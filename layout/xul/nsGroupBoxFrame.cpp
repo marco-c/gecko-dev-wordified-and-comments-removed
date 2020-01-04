@@ -94,7 +94,7 @@ aContext
 }
 virtual
 nsresult
-GetBorderAndPadding
+GetXULBorderAndPadding
 (
 nsMargin
 &
@@ -1212,7 +1212,7 @@ nsresult
 nsGroupBoxFrame
 :
 :
-GetBorderAndPadding
+GetXULBorderAndPadding
 (
 nsMargin
 &

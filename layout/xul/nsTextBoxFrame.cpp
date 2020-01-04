@@ -4700,7 +4700,7 @@ wm
 nsMargin
 borderPadding
 ;
-GetBorderAndPadding
+GetXULBorderAndPadding
 (
 borderPadding
 )
@@ -5089,7 +5089,7 @@ m
 0
 )
 ;
-GetBorderAndPadding
+GetXULBorderAndPadding
 (
 m
 )

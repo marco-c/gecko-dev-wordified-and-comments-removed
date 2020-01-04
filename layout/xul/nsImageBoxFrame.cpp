@@ -2402,7 +2402,7 @@ borderPadding
 0
 )
 ;
-GetBorderAndPadding
+GetXULBorderAndPadding
 (
 borderPadding
 )

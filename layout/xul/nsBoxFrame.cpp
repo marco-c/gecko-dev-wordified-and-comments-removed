@@ -2383,7 +2383,7 @@ state
 nsMargin
 bp
 ;
-GetBorderAndPadding
+GetXULBorderAndPadding
 (
 bp
 )
@@ -2455,7 +2455,7 @@ state
 nsMargin
 bp
 ;
-GetBorderAndPadding
+GetXULBorderAndPadding
 (
 bp
 )
@@ -7460,7 +7460,7 @@ border
 aBox
 -
 >
-GetBorderAndPadding
+GetXULBorderAndPadding
 (
 border
 )

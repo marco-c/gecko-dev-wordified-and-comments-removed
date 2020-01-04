@@ -1005,7 +1005,7 @@ borderPadding
 aBox
 -
 >
-GetBorderAndPadding
+GetXULBorderAndPadding
 (
 borderPadding
 )

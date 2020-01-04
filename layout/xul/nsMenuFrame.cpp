@@ -6111,7 +6111,7 @@ aState
 nsMargin
 borderPadding
 ;
-GetBorderAndPadding
+GetXULBorderAndPadding
 (
 borderPadding
 )
