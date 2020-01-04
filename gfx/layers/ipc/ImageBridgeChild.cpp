@@ -1388,6 +1388,8 @@ NS_IsMainThread
 )
 )
 ;
+return
+;
 #
 ifdef
 MOZ_WIDGET_GONK
@@ -1461,6 +1463,8 @@ FenceHandle
 aReleaseFenceHandle
 )
 {
+return
+;
 #
 ifdef
 MOZ_WIDGET_GONK
@@ -1540,6 +1544,8 @@ uint64_t
 aTransactionId
 )
 {
+return
+;
 #
 ifdef
 MOZ_WIDGET_GONK
@@ -1691,6 +1697,8 @@ TextureClient
 aClient
 )
 {
+return
+;
 #
 ifdef
 MOZ_WIDGET_GONK

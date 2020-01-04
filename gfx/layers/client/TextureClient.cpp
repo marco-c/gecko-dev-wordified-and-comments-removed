@@ -3034,13 +3034,6 @@ Mutex
 aMutex
 )
 {
-MOZ_ASSERT
-(
-InImageBridgeChildThread
-(
-)
-)
-;
 aMutex
 .
 AssertCurrentThreadOwns
