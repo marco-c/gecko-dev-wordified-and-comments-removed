@@ -2932,10 +2932,7 @@ JS
 AutoCheckCannotGC
 nogc
 (
-JS_GetRuntime
-(
 cx
-)
 )
 ;
 maybeTree
@@ -3233,10 +3230,7 @@ JS
 AutoCheckCannotGC
 nogc
 (
-JS_GetRuntime
-(
 cx
-)
 )
 ;
 maybeShortestPaths
