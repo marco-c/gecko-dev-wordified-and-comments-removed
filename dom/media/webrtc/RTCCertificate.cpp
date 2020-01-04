@@ -544,7 +544,8 @@ ScopedSECKEYPublicKey
 publicKey
 (
 mKeyPair
-.
+-
+>
 mPublicKey
 .
 get
@@ -830,7 +831,8 @@ ScopedSECKEYPrivateKey
 privateKey
 (
 mKeyPair
-.
+-
+>
 mPrivateKey
 .
 get
@@ -1024,7 +1026,8 @@ SECKEYPrivateKey
 key
 =
 mKeyPair
-.
+-
+>
 mPrivateKey
 .
 get

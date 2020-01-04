@@ -525,10 +525,10 @@ Create
 size
 )
 surfaceFormat
-GraphicsFilter
+Filter
 :
 :
-FILTER_FAST
+LINEAR
 )
 ;
 return
@@ -1134,7 +1134,7 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-GraphicsFilter
+Filter
 aFilter
 const
 Maybe
@@ -1282,7 +1282,7 @@ gfxSize
 aDest
 uint32_t
 aWhichFrame
-GraphicsFilter
+Filter
 aFilter
 uint32_t
 aFlags

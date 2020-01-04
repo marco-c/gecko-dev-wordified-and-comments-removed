@@ -1086,7 +1086,7 @@ aSize
 const
 SurfaceFormat
 aFormat
-GraphicsFilter
+Filter
 aFilter
 uint32_t
 aImageFlags
@@ -2528,7 +2528,7 @@ const
 ImageRegion
 &
 aRegion
-GraphicsFilter
+Filter
 aFilter
 uint32_t
 aImageFlags

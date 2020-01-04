@@ -443,7 +443,7 @@ gfxRect
 &
 aFillRect
 const
-GraphicsFilter
+Filter
 &
 aFilter
 const
@@ -1286,10 +1286,10 @@ SurfaceFormat
 :
 :
 B8G8R8A8
-GraphicsFilter
+Filter
 :
 :
-FILTER_FAST
+LINEAR
 imgIContainer
 :
 :
@@ -1563,7 +1563,7 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-GraphicsFilter
+Filter
 aFilter
 const
 Maybe
@@ -1822,7 +1822,7 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-GraphicsFilter
+Filter
 aFilter
 const
 Maybe
@@ -2130,7 +2130,7 @@ gfxSize
 aDest
 uint32_t
 aWhichFrame
-GraphicsFilter
+Filter
 aFilter
 uint32_t
 aFlags

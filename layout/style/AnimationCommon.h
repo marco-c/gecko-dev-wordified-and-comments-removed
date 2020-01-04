@@ -850,7 +850,7 @@ mCheckGeneration
 (
 0
 )
-mNeedsRefreshes
+mStyleChanging
 (
 true
 )
@@ -1407,7 +1407,7 @@ TimeStamp
 mStyleRuleRefreshTime
 ;
 bool
-mNeedsRefreshes
+mStyleChanging
 ;
 private
 :

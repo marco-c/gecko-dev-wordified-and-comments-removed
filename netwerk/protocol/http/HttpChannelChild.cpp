@@ -8848,9 +8848,10 @@ mInterceptListener
 =
 nullptr
 ;
-ForceNoIntercept
-(
-)
+mLoadFlags
+|
+=
+LOAD_BYPASS_SERVICE_WORKER
 ;
 nsresult
 rv

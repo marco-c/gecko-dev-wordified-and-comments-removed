@@ -455,10 +455,7 @@ size
 height
 )
 surface
-ToFilter
-(
 mFilter
-)
 DrawOptions
 (
 GetEffectiveOpacity

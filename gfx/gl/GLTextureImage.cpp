@@ -1198,10 +1198,10 @@ aContentType
 )
 mFilter
 (
-GraphicsFilter
+Filter
 :
 :
-FILTER_GOOD
+GOOD
 )
 mFlags
 (

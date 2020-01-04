@@ -43,13 +43,6 @@ h
 #
 include
 "
-GraphicsFilter
-.
-h
-"
-#
-include
-"
 gfxRect
 .
 h
@@ -2305,7 +2298,7 @@ ImageHost
 >
 mImageHost
 ;
-GraphicsFilter
+Filter
 mFilter
 ;
 gfx

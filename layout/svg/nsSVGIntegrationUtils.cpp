@@ -2591,7 +2591,7 @@ gfxRect
 &
 aFillRect
 const
-GraphicsFilter
+Filter
 &
 aFilter
 const
@@ -2634,7 +2634,7 @@ gfxRect
 &
 aFillRect
 const
-GraphicsFilter
+Filter
 &
 aFilter
 const

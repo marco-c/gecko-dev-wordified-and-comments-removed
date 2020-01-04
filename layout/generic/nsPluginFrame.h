@@ -81,6 +81,9 @@ GetBinaryType
 undef
 RemoveDirectory
 #
+undef
+LoadIcon
+#
 endif
 class
 nsPresContext
@@ -648,6 +651,13 @@ nsPluginInstanceOwner
 aOwner
 )
 ;
+void
+SetScrollVisibility
+(
+bool
+aState
+)
+;
 protected
 :
 explicit
@@ -942,6 +952,9 @@ nsRefPtr
 nsRootPresContext
 >
 mRootPresContextRegisteredWith
+;
+bool
+mIsHiddenDueToScroll
 ;
 }
 ;

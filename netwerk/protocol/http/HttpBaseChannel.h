@@ -1250,12 +1250,6 @@ lastModifiedTime
 override
 ;
 NS_IMETHOD
-ForceNoIntercept
-(
-)
-override
-;
-NS_IMETHOD
 GetCorsIncludeCredentials
 (
 bool
@@ -1678,6 +1672,12 @@ GetURIPrincipal
 )
 ;
 bool
+BypassServiceWorker
+(
+)
+const
+;
+bool
 ShouldIntercept
 (
 )
@@ -1953,11 +1953,6 @@ mAllRedirectsSameOrigin
 ;
 uint32_t
 mAllRedirectsPassTimingAllowCheck
-:
-1
-;
-uint32_t
-mForceNoIntercept
 :
 1
 ;

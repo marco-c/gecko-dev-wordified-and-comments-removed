@@ -9793,6 +9793,9 @@ window
 >
 SuspendTimeouts
 (
+1
+true
+false
 )
 ;
 return
@@ -9829,6 +9832,8 @@ window
 >
 ResumeTimeouts
 (
+true
+false
 )
 ;
 return

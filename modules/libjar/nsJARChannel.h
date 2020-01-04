@@ -322,6 +322,12 @@ aData
 override
 ;
 bool
+BypassServiceWorker
+(
+)
+const
+;
+bool
 ShouldIntercept
 (
 )
@@ -505,9 +511,6 @@ mSynthesizedResponsePump
 ;
 int64_t
 mSynthesizedStreamLength
-;
-bool
-mForceNoIntercept
 ;
 bool
 mBlockRemoteFiles

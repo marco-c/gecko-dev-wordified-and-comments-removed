@@ -5484,7 +5484,7 @@ const
 ImageRegion
 &
 aRegion
-GraphicsFilter
+Filter
 aFilter
 uint32_t
 aFlags
@@ -5693,7 +5693,7 @@ ImageRegion
 aRegion
 uint32_t
 aWhichFrame
-GraphicsFilter
+Filter
 aFilter
 const
 Maybe
@@ -5788,10 +5788,10 @@ flags
 aFilter
 =
 =
-GraphicsFilter
+Filter
 :
 :
-FILTER_GOOD
+GOOD
 ?
 aFlags
 :
@@ -7124,7 +7124,7 @@ gfxSize
 aDest
 uint32_t
 aWhichFrame
-GraphicsFilter
+Filter
 aFilter
 uint32_t
 aFlags
@@ -7221,10 +7221,10 @@ if
 aFilter
 =
 =
-GraphicsFilter
+Filter
 :
 :
-FILTER_GOOD
+GOOD
 &
 &
 CanDownscaleDuringDecode

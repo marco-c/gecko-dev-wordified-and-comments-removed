@@ -1571,9 +1571,6 @@ MediaDecoderStateMachine
 >
 mDecoderStateMachine
 ;
-ReentrantMonitor
-mReentrantMonitor
-;
 #
 ifdef
 MOZ_EME

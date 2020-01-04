@@ -8074,6 +8074,15 @@ cx
 glob
 )
 ;
+JS_SetAllNonReservedSlotsToUndefined
+(
+cx
+JS_GlobalLexicalScope
+(
+glob
+)
+)
+;
 JS_GC
 (
 rt

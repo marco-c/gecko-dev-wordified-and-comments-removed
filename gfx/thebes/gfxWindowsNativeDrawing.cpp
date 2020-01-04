@@ -1418,10 +1418,10 @@ pat
 >
 SetFilter
 (
-GraphicsFilter
+Filter
 :
 :
-FILTER_FAST
+LINEAR
 )
 ;
 pat

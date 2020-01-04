@@ -32488,7 +32488,7 @@ unused
 nsresult
 rv
 =
-NS_ParseContentType
+NS_ParseRequestContentType
 (
 aHeaderValue
 contentType

@@ -8682,6 +8682,9 @@ uint8_t
 mIsolation
 ;
 uint8_t
+mTopLayer
+;
+uint8_t
 mWillChangeBitField
 ;
 nsAutoTArray

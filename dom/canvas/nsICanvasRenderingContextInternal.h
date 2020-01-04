@@ -57,13 +57,6 @@ h
 #
 include
 "
-GraphicsFilter
-.
-h
-"
-#
-include
-"
 mozilla
 /
 RefPtr

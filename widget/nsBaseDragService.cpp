@@ -2773,10 +2773,10 @@ imgIContainer
 :
 :
 FRAME_CURRENT
-GraphicsFilter
+Filter
 :
 :
-FILTER_GOOD
+GOOD
 Nothing
 (
 )

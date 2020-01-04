@@ -22453,10 +22453,10 @@ height
 image
 .
 mWhichFrame
-GraphicsFilter
+Filter
 :
 :
-FILTER_GOOD
+GOOD
 Some
 (
 svgContext
