@@ -20,16 +20,8 @@ TextureForwarder
 :
 TextureForwarder
 (
-const
-char
-*
-aName
 )
 :
-ClientIPCAllocator
-(
-aName
-)
 mSectionAllocator
 (
 nullptr

@@ -741,12 +741,6 @@ uint64_t
 aId
 )
 :
-CompositableParentManager
-(
-"
-LayerTransactionParent
-"
-)
 mLayerManager
 (
 aManager

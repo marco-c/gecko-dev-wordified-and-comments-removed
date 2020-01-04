@@ -1021,12 +1021,6 @@ ClientLayerManager
 aClientLayerManager
 )
 :
-CompositableForwarder
-(
-"
-ShadowLayerForwarder
-"
-)
 mClientLayerManager
 (
 aClientLayerManager
