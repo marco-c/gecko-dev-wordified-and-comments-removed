@@ -970,16 +970,6 @@ do_GetService
 NS_PREFSERVICE_CONTRACTID
 )
 ;
-prefs
--
->
-GetBoolPref
-(
-kPrefNameDisablePrefetch
-&
-disablePrefetch
-)
-;
 if
 (
 prefs
