@@ -1,7 +1,4 @@
 #
-define
-_ISOC99_SOURCE
-#
 include
 <
 math
@@ -43,19 +40,6 @@ matrix
 .
 h
 "
-#
-if
-!
-defined
-(
-INFINITY
-)
-#
-define
-INFINITY
-HUGE_VAL
-#
-endif
 #
 define
 PARAMETRIC_CURVE_TYPE
@@ -669,7 +653,7 @@ f
 interval
 =
 -
-INFINITY
+1
 ;
 }
 else
@@ -920,7 +904,7 @@ f
 interval
 =
 -
-INFINITY
+1
 ;
 }
 for
