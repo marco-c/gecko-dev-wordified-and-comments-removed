@@ -305,6 +305,11 @@ HandleShape
 shape
 )
 {
+MOZ_ASSERT
+(
+shape
+)
+;
 if
 (
 obj
@@ -322,10 +327,6 @@ false
 ;
 if
 (
-!
-shape
-|
-|
 IsImplicitDenseOrTypedArrayElement
 (
 shape
