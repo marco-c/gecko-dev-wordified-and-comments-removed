@@ -391,6 +391,9 @@ nsIGfxInfo
 :
 FEATURE_STATUS_UNKNOWN
 ;
+nsCString
+discardFailureId
+;
 if
 (
 !
@@ -405,6 +408,7 @@ gfxInfo
 GetFeatureStatus
 (
 aFeature
+discardFailureId
 &
 status
 )

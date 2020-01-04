@@ -1898,6 +1898,9 @@ feature
 int32_t
 status
 ;
+nsCString
+discardFailureId
+;
 if
 (
 !
@@ -1910,6 +1913,7 @@ ThreadSafeGetFeatureStatus
 (
 gfxInfo
 feature
+discardFailureId
 &
 status
 )
@@ -1944,6 +1948,9 @@ gfxInfo
 int32_t
 status
 ;
+nsCString
+discardFailureId
+;
 gfxUtils
 :
 :
@@ -1954,6 +1961,7 @@ nsIGfxInfo
 :
 :
 FEATURE_DIRECT3D_9_LAYERS
+discardFailureId
 &
 status
 )
@@ -1975,6 +1983,7 @@ nsIGfxInfo
 :
 :
 FEATURE_DIRECT3D_10_LAYERS
+discardFailureId
 &
 status
 )
@@ -1996,6 +2005,7 @@ nsIGfxInfo
 :
 :
 FEATURE_DIRECT3D_10_1_LAYERS
+discardFailureId
 &
 status
 )
@@ -2017,6 +2027,7 @@ nsIGfxInfo
 :
 :
 FEATURE_DIRECT3D_11_LAYERS
+discardFailureId
 &
 status
 )
@@ -2038,6 +2049,7 @@ nsIGfxInfo
 :
 :
 FEATURE_OPENGL_LAYERS
+discardFailureId
 &
 status
 )

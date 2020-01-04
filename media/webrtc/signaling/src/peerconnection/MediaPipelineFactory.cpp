@@ -4977,6 +4977,9 @@ gfxInfo
 int32_t
 status
 ;
+nsCString
+discardFailureId
+;
 if
 (
 NS_SUCCEEDED
@@ -4990,6 +4993,7 @@ nsIGfxInfo
 :
 :
 FEATURE_WEBRTC_HW_ACCELERATION_ENCODE
+discardFailureId
 &
 status
 )
@@ -5148,6 +5152,9 @@ gfxInfo
 int32_t
 status
 ;
+nsCString
+discardFailureId
+;
 if
 (
 NS_SUCCEEDED
@@ -5161,6 +5168,7 @@ nsIGfxInfo
 :
 :
 FEATURE_WEBRTC_HW_ACCELERATION_DECODE
+discardFailureId
 &
 status
 )

@@ -22632,6 +22632,9 @@ aFeature
 int32_t
 *
 aStatus
+nsCString
+*
+aFailureId
 bool
 *
 aSuccess
@@ -22676,6 +22679,8 @@ gfxInfo
 GetFeatureStatus
 (
 aFeature
+*
+aFailureId
 aStatus
 )
 )

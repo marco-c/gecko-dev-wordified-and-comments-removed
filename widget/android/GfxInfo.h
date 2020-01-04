@@ -334,6 +334,9 @@ GfxDriverInfo
 >
 &
 aDriverInfo
+nsACString
+&
+aFailureId
 OperatingSystem
 *
 aOS

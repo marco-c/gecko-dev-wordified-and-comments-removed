@@ -44,6 +44,11 @@ gfxItems
 >
 <
 gfxBlacklistEntry
+blockID
+=
+"
+g1
+"
 >
 <
 os
@@ -132,6 +137,11 @@ gfxBlacklistEntry
 >
 <
 gfxBlacklistEntry
+blockID
+=
+"
+g2
+"
 >
 <
 os
@@ -477,6 +487,11 @@ gfxBlacklistEntry
 >
 <
 gfxBlacklistEntry
+blockID
+=
+"
+g11
+"
 >
 <
 os

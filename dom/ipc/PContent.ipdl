@@ -4689,6 +4689,8 @@ returns
 (
 int32_t
 aStatus
+nsCString
+aFailureCode
 bool
 aSuccess
 )

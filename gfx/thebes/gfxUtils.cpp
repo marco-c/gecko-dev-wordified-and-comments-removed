@@ -7877,6 +7877,9 @@ nsIGfxInfo
 gfxInfo
 int32_t
 feature
+nsACString
+&
+failureId
 int32_t
 *
 status
@@ -7897,6 +7900,10 @@ feature
 mStatus
 (
 status
+)
+mFailureId
+(
+failureId
 )
 mNSResult
 (
@@ -7923,6 +7930,7 @@ mGfxInfo
 GetFeatureStatus
 (
 mFeature
+mFailureId
 mStatus
 )
 ;
@@ -7964,6 +7972,10 @@ int32_t
 *
 mStatus
 ;
+nsACString
+&
+mFailureId
+;
 nsresult
 mNSResult
 ;
@@ -7984,6 +7996,9 @@ nsIGfxInfo
 gfxInfo
 int32_t
 feature
+nsACString
+&
+failureId
 int32_t
 *
 status
@@ -8029,6 +8044,7 @@ GetFeatureStatusRunnable
 workerPrivate
 gfxInfo
 feature
+failureId
 status
 )
 ;
@@ -8076,6 +8092,7 @@ gfxInfo
 GetFeatureStatus
 (
 feature
+failureId
 status
 )
 ;

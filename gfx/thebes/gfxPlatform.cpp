@@ -5643,6 +5643,9 @@ info
 int32_t
 status
 ;
+nsCString
+discardFailureId
+;
 return
 !
 gfxInfo
@@ -5660,6 +5663,7 @@ nsIGfxInfo
 :
 :
 FEATURE_CANVAS2D_ACCELERATION
+discardFailureId
 &
 status
 )
@@ -9011,6 +9015,9 @@ GetGfxInfo
 (
 )
 ;
+nsCString
+discardFailureId
+;
 int32_t
 status
 ;
@@ -9064,6 +9071,7 @@ nsIGfxInfo
 :
 :
 FEATURE_DIRECT3D_9_LAYERS
+discardFailureId
 &
 status
 )
@@ -9111,6 +9119,7 @@ nsIGfxInfo
 :
 :
 FEATURE_DIRECT3D_11_LAYERS
+discardFailureId
 &
 status
 )
@@ -9163,6 +9172,7 @@ nsIGfxInfo
 :
 :
 FEATURE_DIRECT3D_11_ANGLE
+discardFailureId
 &
 status
 )
@@ -9249,6 +9259,7 @@ nsIGfxInfo
 :
 :
 FEATURE_HARDWARE_VIDEO_DECODING
+discardFailureId
 &
 status
 )
@@ -10119,6 +10130,9 @@ GetData
 int32_t
 status
 ;
+nsCString
+discardFailureId
+;
 if
 (
 NS_SUCCEEDED
@@ -10132,6 +10146,7 @@ nsIGfxInfo
 :
 :
 FEATURE_OPENGL_LAYERS
+discardFailureId
 &
 status
 )

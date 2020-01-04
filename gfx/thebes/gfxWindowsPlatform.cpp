@@ -9404,6 +9404,9 @@ GetGfxInfo
 int32_t
 status
 ;
+nsCString
+discardFailureId
+;
 if
 (
 NS_SUCCEEDED
@@ -9417,6 +9420,7 @@ nsIGfxInfo
 :
 :
 FEATURE_DIRECT3D_11_LAYERS
+discardFailureId
 &
 status
 )
@@ -11269,6 +11273,9 @@ gfxInfo
 int32_t
 status
 ;
+nsCString
+discardFailureId
+;
 if
 (
 NS_SUCCEEDED
@@ -11282,6 +11289,7 @@ nsIGfxInfo
 :
 :
 FEATURE_DIRECT2D
+discardFailureId
 &
 status
 )

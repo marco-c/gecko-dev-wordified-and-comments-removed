@@ -22,6 +22,7 @@ feature
 featureStatus
 driverComparator
 driverVersion
+ruleId
 suggestedVersion
 )
 \
@@ -39,6 +40,7 @@ feature
 featureStatus
 driverComparator
 driverVersion
+ruleId
 suggestedVersion
 )
 )
@@ -53,6 +55,7 @@ feature
 featureStatus
 driverComparator
 driverVersion
+ruleId
 )
 \
 mDriverInfo
@@ -69,6 +72,7 @@ feature
 featureStatus
 driverComparator
 driverVersion
+ruleId
 )
 )
 #
@@ -83,6 +87,7 @@ featureStatus
 driverComparator
 driverVersion
 driverVersionMax
+ruleId
 suggestedVersion
 )
 \
@@ -122,6 +127,7 @@ feature
 featureStatus
 driverComparator
 driverVersion
+ruleId
 suggestedVersion
 )
 ;
@@ -159,6 +165,7 @@ featureStatus
 driverComparator
 driverVersion
 driverVersionMax
+ruleId
 suggestedVersion
 )
 \
@@ -198,6 +205,7 @@ feature
 featureStatus
 driverComparator
 driverVersion
+ruleId
 suggestedVersion
 false
 true
@@ -340,6 +348,10 @@ driverVersion
 const
 char
 *
+ruleId
+const
+char
+*
 suggestedVersion
 =
 nullptr
@@ -418,6 +430,9 @@ const
 char
 *
 mSuggestedVersion
+;
+nsCString
+mRuleId
 ;
 static
 const
