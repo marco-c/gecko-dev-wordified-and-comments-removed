@@ -546,6 +546,15 @@ _UNICODE
 =
 True
     
+DEFINES
+[
+'
+SK_FONT_HOST_USE_SYSTEM_SETTINGS
+'
+]
+=
+1
+    
 UNIFIED_SOURCES
 +
 =
