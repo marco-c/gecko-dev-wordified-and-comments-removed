@@ -24,6 +24,15 @@ TVTunerBinding
 .
 h
 "
+#
+define
+VIDEO_TAG
+NS_LITERAL_STRING
+(
+"
+video
+"
+)
 class
 nsITVService
 ;
@@ -189,6 +198,11 @@ const
 IMPL_EVENT_HANDLER
 (
 currentsourcechanged
+)
+;
+nsresult
+ReloadMediaStream
+(
 )
 ;
 private
