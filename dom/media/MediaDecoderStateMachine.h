@@ -779,12 +779,7 @@ nullptr
 ;
 }
 void
-SendStreamData
-(
-)
-;
-void
-FinishStreamData
+DiscardStreamData
 (
 )
 ;
