@@ -3438,7 +3438,7 @@ SigSet
 ;
 static
 bool
-DecodeSignatures
+DecodeTypeSection
 (
 JSContext
 *
@@ -3462,7 +3462,7 @@ d
 .
 startSection
 (
-SignaturesId
+TypeSectionId
 &
 sectionStart
 &
@@ -3961,7 +3961,7 @@ true
 }
 static
 bool
-DecodeFunctionSignatures
+DecodeFunctionSection
 (
 JSContext
 *
@@ -3985,7 +3985,7 @@ d
 .
 startSection
 (
-FunctionSignaturesId
+FunctionSectionId
 &
 sectionStart
 &
@@ -4149,7 +4149,7 @@ true
 }
 static
 bool
-DecodeFunctionTable
+DecodeTableSection
 (
 JSContext
 *
@@ -4173,7 +4173,7 @@ d
 .
 startSection
 (
-FunctionTableId
+TableSectionId
 &
 sectionStart
 &
@@ -4925,7 +4925,7 @@ funcName
 }
 static
 bool
-DecodeImportTable
+DecodeImportSection
 (
 JSContext
 *
@@ -4952,7 +4952,7 @@ d
 .
 startSection
 (
-ImportTableId
+ImportSectionId
 &
 sectionStart
 &
@@ -5094,7 +5094,7 @@ true
 }
 static
 bool
-DecodeMemory
+DecodeMemorySection
 (
 JSContext
 *
@@ -5124,7 +5124,7 @@ d
 .
 startSection
 (
-MemoryId
+MemorySectionId
 &
 sectionStart
 &
@@ -5733,7 +5733,7 @@ funcIndex
 }
 static
 bool
-DecodeExportTable
+DecodeExportSection
 (
 JSContext
 *
@@ -5757,7 +5757,7 @@ d
 .
 startSection
 (
-ExportTableId
+ExportSectionId
 &
 sectionStart
 &
@@ -6267,7 +6267,7 @@ fg
 }
 static
 bool
-DecodeFunctionBodies
+DecodeCodeSection
 (
 JSContext
 *
@@ -6303,7 +6303,7 @@ d
 .
 startSection
 (
-FunctionBodiesId
+CodeSectionId
 &
 sectionStart
 &
@@ -6487,7 +6487,7 @@ finishFuncDefs
 }
 static
 bool
-DecodeDataSegments
+DecodeDataSection
 (
 JSContext
 *
@@ -6514,7 +6514,7 @@ d
 .
 startSection
 (
-DataSegmentsId
+DataSectionId
 &
 sectionStart
 &
@@ -6955,7 +6955,7 @@ false
 if
 (
 !
-DecodeSignatures
+DecodeTypeSection
 (
 cx
 d
@@ -6972,7 +6972,7 @@ false
 if
 (
 !
-DecodeImportTable
+DecodeImportSection
 (
 cx
 d
@@ -6990,7 +6990,7 @@ false
 if
 (
 !
-DecodeFunctionSignatures
+DecodeFunctionSection
 (
 cx
 d
@@ -7007,7 +7007,7 @@ false
 if
 (
 !
-DecodeFunctionTable
+DecodeTableSection
 (
 cx
 d
@@ -7050,7 +7050,7 @@ false
 if
 (
 !
-DecodeMemory
+DecodeMemorySection
 (
 cx
 d
@@ -7064,7 +7064,7 @@ false
 if
 (
 !
-DecodeExportTable
+DecodeExportSection
 (
 cx
 d
@@ -7077,7 +7077,7 @@ false
 if
 (
 !
-DecodeFunctionBodies
+DecodeCodeSection
 (
 cx
 d
@@ -7090,7 +7090,7 @@ false
 if
 (
 !
-DecodeDataSegments
+DecodeDataSection
 (
 cx
 d

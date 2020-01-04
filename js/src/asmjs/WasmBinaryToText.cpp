@@ -9250,7 +9250,7 @@ true
 }
 static
 bool
-RenderSignatures
+RenderTypeSection
 (
 WasmRenderContext
 &
@@ -9270,7 +9270,7 @@ d
 .
 startSection
 (
-SignaturesId
+TypeSectionId
 &
 sectionStart
 &
@@ -9631,7 +9631,7 @@ true
 }
 static
 bool
-RenderFunctionSignatures
+RenderFunctionSection
 (
 WasmRenderContext
 &
@@ -9651,7 +9651,7 @@ d
 .
 startSection
 (
-FunctionSignaturesId
+FunctionSectionId
 &
 sectionStart
 &
@@ -9811,7 +9811,7 @@ true
 }
 static
 bool
-RenderFunctionTable
+RenderTableSection
 (
 WasmRenderContext
 &
@@ -9831,7 +9831,7 @@ d
 .
 startSection
 (
-FunctionTableId
+TableSectionId
 &
 sectionStart
 &
@@ -10336,7 +10336,7 @@ true
 }
 static
 bool
-RenderImportTable
+RenderImportSection
 (
 WasmRenderContext
 &
@@ -10356,7 +10356,7 @@ d
 .
 startSection
 (
-ImportTableId
+ImportSectionId
 &
 sectionStart
 &
@@ -10494,7 +10494,7 @@ true
 }
 static
 bool
-RenderMemory
+RenderMemorySection
 (
 WasmRenderContext
 &
@@ -10530,7 +10530,7 @@ d
 .
 startSection
 (
-MemoryId
+MemorySectionId
 &
 sectionStart
 &
@@ -10956,7 +10956,7 @@ true
 }
 static
 bool
-RenderExportTable
+RenderExportSection
 (
 WasmRenderContext
 &
@@ -10976,7 +10976,7 @@ d
 .
 startSection
 (
-ExportTableId
+ExportSectionId
 &
 sectionStart
 &
@@ -11486,7 +11486,7 @@ true
 }
 static
 bool
-RenderFunctionBodies
+RenderCodeSection
 (
 WasmRenderContext
 &
@@ -11506,7 +11506,7 @@ d
 .
 startSection
 (
-FunctionBodiesId
+CodeSectionId
 &
 sectionStart
 &
@@ -11814,7 +11814,7 @@ true
 }
 static
 bool
-RenderDataSegments
+RenderDataSection
 (
 WasmRenderContext
 &
@@ -11931,7 +11931,7 @@ d
 .
 startSection
 (
-DataSegmentsId
+DataSectionId
 &
 sectionStart
 &
@@ -12384,7 +12384,7 @@ indent
 if
 (
 !
-RenderSignatures
+RenderTypeSection
 (
 c
 )
@@ -12395,7 +12395,7 @@ false
 if
 (
 !
-RenderImportTable
+RenderImportSection
 (
 c
 )
@@ -12406,7 +12406,7 @@ false
 if
 (
 !
-RenderFunctionSignatures
+RenderFunctionSection
 (
 c
 )
@@ -12417,7 +12417,7 @@ false
 if
 (
 !
-RenderFunctionTable
+RenderTableSection
 (
 c
 )
@@ -12432,7 +12432,7 @@ memMax
 if
 (
 !
-RenderMemory
+RenderMemorySection
 (
 c
 &
@@ -12447,7 +12447,7 @@ false
 if
 (
 !
-RenderExportTable
+RenderExportSection
 (
 c
 )
@@ -12458,7 +12458,7 @@ false
 if
 (
 !
-RenderFunctionBodies
+RenderCodeSection
 (
 c
 )
@@ -12469,7 +12469,7 @@ false
 if
 (
 !
-RenderDataSegments
+RenderDataSection
 (
 c
 memInitial

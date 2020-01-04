@@ -23901,7 +23901,7 @@ kind
 }
 static
 bool
-EncodeSignatures
+EncodeTypeSection
 (
 Encoder
 &
@@ -23936,7 +23936,7 @@ e
 .
 startSection
 (
-SignaturesId
+TypeSectionId
 &
 offset
 )
@@ -24059,7 +24059,7 @@ true
 }
 static
 bool
-EncodeFunctionSignatures
+EncodeFunctionSection
 (
 Encoder
 &
@@ -24094,7 +24094,7 @@ e
 .
 startSection
 (
-FunctionSignaturesId
+FunctionSectionId
 &
 offset
 )
@@ -24304,7 +24304,7 @@ true
 }
 static
 bool
-EncodeImportTable
+EncodeImportSection
 (
 Encoder
 &
@@ -24339,7 +24339,7 @@ e
 .
 startSection
 (
-ImportTableId
+ImportSectionId
 &
 offset
 )
@@ -24408,7 +24408,7 @@ true
 }
 static
 bool
-EncodeMemory
+EncodeMemorySection
 (
 Encoder
 &
@@ -24440,7 +24440,7 @@ e
 .
 startSection
 (
-MemoryId
+MemorySectionId
 &
 offset
 )
@@ -24632,7 +24632,7 @@ true
 }
 static
 bool
-EncodeExportTable
+EncodeExportSection
 (
 Encoder
 &
@@ -24698,7 +24698,7 @@ e
 .
 startSection
 (
-ExportTableId
+ExportSectionId
 &
 offset
 )
@@ -24786,7 +24786,7 @@ true
 }
 static
 bool
-EncodeFunctionTable
+EncodeTableSection
 (
 Encoder
 &
@@ -24818,7 +24818,7 @@ e
 .
 startSection
 (
-FunctionTableId
+TableSectionId
 &
 offset
 )
@@ -25016,7 +25016,7 @@ true
 }
 static
 bool
-EncodeFunctionBodies
+EncodeCodeSection
 (
 Encoder
 &
@@ -25051,7 +25051,7 @@ e
 .
 startSection
 (
-FunctionBodiesId
+CodeSectionId
 &
 offset
 )
@@ -25262,7 +25262,7 @@ true
 }
 static
 bool
-EncodeDataSegments
+EncodeDataSection
 (
 Encoder
 &
@@ -25326,7 +25326,7 @@ e
 .
 startSection
 (
-DataSegmentsId
+DataSectionId
 &
 offset
 )
@@ -25433,7 +25433,7 @@ false
 if
 (
 !
-EncodeSignatures
+EncodeTypeSection
 (
 e
 module
@@ -25445,7 +25445,7 @@ false
 if
 (
 !
-EncodeImportTable
+EncodeImportSection
 (
 e
 module
@@ -25457,7 +25457,7 @@ false
 if
 (
 !
-EncodeFunctionSignatures
+EncodeFunctionSection
 (
 e
 module
@@ -25469,7 +25469,7 @@ false
 if
 (
 !
-EncodeFunctionTable
+EncodeTableSection
 (
 e
 module
@@ -25481,7 +25481,7 @@ false
 if
 (
 !
-EncodeMemory
+EncodeMemorySection
 (
 e
 module
@@ -25493,7 +25493,7 @@ false
 if
 (
 !
-EncodeExportTable
+EncodeExportSection
 (
 e
 module
@@ -25505,7 +25505,7 @@ false
 if
 (
 !
-EncodeFunctionBodies
+EncodeCodeSection
 (
 e
 module
@@ -25517,7 +25517,7 @@ false
 if
 (
 !
-EncodeDataSegments
+EncodeDataSection
 (
 e
 module
