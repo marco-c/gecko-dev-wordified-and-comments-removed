@@ -706,6 +706,17 @@ else
 false
 #
 endif
+HAVE_USR_LIB64_DIR
+:
+#
+ifdef
+HAVE_USR_LIB64_DIR
+true
+#
+else
+false
+#
+endif
 }
 )
 ;
