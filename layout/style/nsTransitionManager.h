@@ -531,13 +531,6 @@ QueueEvents
 (
 )
 ;
-bool
-HasEndEventToQueue
-(
-)
-const
-override
-;
 OwningElementRef
 mOwningElement
 ;
@@ -553,7 +546,7 @@ mNeedsNewAnimationIndexWhenRun
 struct
 TransitionEventInfo
 {
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -562,7 +555,7 @@ Element
 >
 mElement
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -768,7 +761,7 @@ aElement
 nsStyleContext
 *
 aOldStyleContext
-RefPtr
+nsRefPtr
 <
 nsStyleContext
 >

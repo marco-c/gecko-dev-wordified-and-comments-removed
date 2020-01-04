@@ -100,7 +100,7 @@ Promise
 struct
 AnimationEventInfo
 {
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -109,7 +109,7 @@ Element
 >
 mElement
 ;
-RefPtr
+nsRefPtr
 <
 dom
 :
@@ -497,13 +497,6 @@ void
 QueueEvents
 (
 )
-;
-bool
-HasEndEventToQueue
-(
-)
-const
-override
 ;
 bool
 IsStylePaused
