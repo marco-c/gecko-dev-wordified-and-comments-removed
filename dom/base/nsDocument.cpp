@@ -7203,6 +7203,15 @@ MIXED_CONTENT_PAGE_LOAD
 mixedContentLevel
 )
 ;
+Accumulate
+(
+Telemetry
+:
+:
+SCROLL_LINKED_EFFECT_FOUND
+mHasScrollLinkedEffect
+)
+;
 }
 }
 ReportUseCounters
