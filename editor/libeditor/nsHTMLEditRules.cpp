@@ -31516,6 +31516,10 @@ mHTMLEditor
 ;
 if
 (
+!
+mHTMLEditor
+|
+|
 mHTMLEditor
 -
 >
@@ -31523,10 +31527,6 @@ IsTextNode
 (
 child
 )
-|
-|
-!
-mHTMLEditor
 |
 |
 mHTMLEditor
@@ -35426,6 +35426,10 @@ mHTMLEditor
 ;
 if
 (
+!
+mHTMLEditor
+|
+|
 mHTMLEditor
 -
 >
@@ -35433,10 +35437,6 @@ IsTextNode
 (
 tmp
 )
-|
-|
-!
-mHTMLEditor
 |
 |
 mHTMLEditor
@@ -35542,6 +35542,9 @@ offset
 ;
 if
 (
+mHTMLEditor
+&
+&
 !
 (
 mHTMLEditor
@@ -35551,10 +35554,6 @@ IsTextNode
 (
 tmp
 )
-|
-|
-!
-mHTMLEditor
 |
 |
 mHTMLEditor
