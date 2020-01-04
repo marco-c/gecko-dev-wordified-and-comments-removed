@@ -166,7 +166,6 @@ NS_IMPL_ISUPPORTS
 (
 SecretDecoderRing
 nsISecretDecoderRing
-nsISecretDecoderRingConfig
 )
 SecretDecoderRing
 :
@@ -203,7 +202,7 @@ calledFromObject
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 SecretDecoderRing
 :
 :
@@ -222,7 +221,7 @@ char
 result
 uint32_t
 *
-_retval
+resultLen
 )
 {
 nsNSSShutDownPreventionLock
@@ -389,7 +388,7 @@ reply
 data
 ;
 *
-_retval
+resultLen
 =
 reply
 .
@@ -399,7 +398,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 SecretDecoderRing
 :
 :
@@ -418,7 +417,7 @@ char
 result
 uint32_t
 *
-_retval
+resultLen
 )
 {
 nsNSSShutDownPreventionLock
@@ -452,7 +451,7 @@ result
 nullptr
 ;
 *
-_retval
+resultLen
 =
 0
 ;
@@ -552,7 +551,7 @@ reply
 data
 ;
 *
-_retval
+resultLen
 =
 reply
 .
@@ -1178,19 +1177,5 @@ nullptr
 ;
 return
 rv
-;
-}
-NS_IMETHODIMP
-SecretDecoderRing
-:
-:
-SetWindow
-(
-nsISupports
-*
-)
-{
-return
-NS_ERROR_NOT_IMPLEMENTED
 ;
 }
