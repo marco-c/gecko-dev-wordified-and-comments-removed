@@ -5334,7 +5334,9 @@ totalTime
 ]
 ]
 of
-Iterator
+Object
+.
+entries
 (
 aSql
 )
@@ -8542,7 +8544,9 @@ key
 value
 ]
 of
-Iterator
+Object
+.
+entries
 (
 aMeasurements
 )
@@ -8774,7 +8778,9 @@ name
 hgram
 ]
 of
-Iterator
+Object
+.
+entries
 (
 keyedHistogram
 )
@@ -10860,7 +10866,9 @@ name
 hgram
 ]
 of
-Iterator
+Object
+.
+entries
 (
 histograms
 )
@@ -11001,7 +11009,9 @@ id
 keyed
 ]
 of
-Iterator
+Object
+.
+entries
 (
 keyedHistograms
 )
@@ -11098,7 +11108,9 @@ addon
 histograms
 ]
 of
-Iterator
+Object
+.
+entries
 (
 addonData
 )
@@ -11112,7 +11124,9 @@ name
 hgram
 ]
 of
-Iterator
+Object
+.
+entries
 (
 histograms
 )

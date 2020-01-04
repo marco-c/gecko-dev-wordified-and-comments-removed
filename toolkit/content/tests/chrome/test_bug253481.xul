@@ -823,8 +823,10 @@ let
 item
 expected
 ]
-in
-Iterator
+of
+Object
+.
+entries
 (
 expectedResults
 )

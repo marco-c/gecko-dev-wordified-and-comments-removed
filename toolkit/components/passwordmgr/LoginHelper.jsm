@@ -683,7 +683,9 @@ name
 value
 ]
 of
-Iterator
+Object
+.
+entries
 (
 aProperties
 )

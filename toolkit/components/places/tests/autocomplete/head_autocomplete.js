@@ -1357,16 +1357,11 @@ for
 (
 let
 [
-[
 fn
 args
 ]
-]
-in
-Iterator
-(
+of
 gNextTestSetupTasks
-)
 )
 {
 yield

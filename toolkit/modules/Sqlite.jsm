@@ -3065,7 +3065,9 @@ key
 value
 ]
 of
-Iterator
+Object
+.
+entries
 (
 p
 )

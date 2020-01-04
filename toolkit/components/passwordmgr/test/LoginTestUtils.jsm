@@ -449,7 +449,9 @@ name
 value
 ]
 of
-Iterator
+Object
+.
+entries
 (
 modifications
 )
@@ -532,7 +534,9 @@ name
 value
 ]
 of
-Iterator
+Object
+.
+entries
 (
 modifications
 )

@@ -1397,8 +1397,10 @@ let
 i
 session
 ]
-in
-Iterator
+of
+Object
+.
+entries
 (
 sessions
 )

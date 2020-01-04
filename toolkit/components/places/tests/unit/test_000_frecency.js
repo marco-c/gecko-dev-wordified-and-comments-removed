@@ -354,8 +354,10 @@ let
 bonusName
 visitType
 ]
-in
-Iterator
+of
+Object
+.
+entries
 (
 bonusPrefs
 )

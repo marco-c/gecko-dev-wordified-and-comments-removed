@@ -6038,14 +6038,9 @@ test_sorting
 for
 (
 let
-[
 test
-]
-in
-Iterator
-(
+of
 tests
-)
 )
 {
 yield

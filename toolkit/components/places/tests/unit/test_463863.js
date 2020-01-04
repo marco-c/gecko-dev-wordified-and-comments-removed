@@ -162,14 +162,9 @@ test_execute
 for
 (
 let
-[
 transition
-]
-in
-Iterator
-(
+of
 transitions
-)
 )
 {
 yield
