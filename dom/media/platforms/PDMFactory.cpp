@@ -177,6 +177,9 @@ sUseBlankDecoder
 =
 false
 ;
+#
+ifdef
+MOZ_GONK_MEDIACODEC
 bool
 PDMFactory
 :
@@ -185,6 +188,11 @@ sGonkDecoderEnabled
 =
 false
 ;
+#
+endif
+#
+ifdef
+MOZ_WIDGET_ANDROID
 bool
 PDMFactory
 :
@@ -201,6 +209,8 @@ sAndroidMCDecoderPreferred
 =
 false
 ;
+#
+endif
 bool
 PDMFactory
 :
@@ -209,6 +219,9 @@ sGMPDecoderEnabled
 =
 false
 ;
+#
+ifdef
+MOZ_FFMPEG
 bool
 PDMFactory
 :
@@ -217,6 +230,8 @@ sFFmpegDecoderEnabled
 =
 false
 ;
+#
+endif
 bool
 PDMFactory
 :
@@ -380,6 +395,9 @@ enabled
 false
 )
 ;
+#
+ifdef
+MOZ_FFMPEG
 Preferences
 :
 :
@@ -397,6 +415,8 @@ enabled
 false
 )
 ;
+#
+endif
 Preferences
 :
 :
