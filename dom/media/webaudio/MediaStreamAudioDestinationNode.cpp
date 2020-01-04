@@ -171,7 +171,7 @@ AudioCapture
 mDOMStream
 -
 >
-CreateOwnDOMTrack
+CreateDOMTrack
 (
 AudioNodeStream
 :

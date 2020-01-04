@@ -1118,7 +1118,7 @@ aTime
 }
 MediaStreamTrack
 *
-CreateOwnDOMTrack
+CreateDOMTrack
 (
 TrackID
 aTrackID
@@ -1140,7 +1140,7 @@ already_AddRefed
 <
 MediaStreamTrack
 >
-CreateClonedDOMTrack
+CloneDOMTrack
 (
 MediaStreamTrack
 &

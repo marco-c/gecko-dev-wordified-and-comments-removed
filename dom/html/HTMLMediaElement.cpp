@@ -8526,7 +8526,7 @@ out
 mStream
 -
 >
-CreateOwnDOMTrack
+CreateDOMTrack
 (
 audioTrackId
 MediaSegment
@@ -8576,7 +8576,7 @@ out
 mStream
 -
 >
-CreateOwnDOMTrack
+CreateDOMTrack
 (
 videoTrackId
 MediaSegment

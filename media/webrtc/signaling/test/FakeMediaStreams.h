@@ -1900,7 +1900,7 @@ aEnabled
 }
 Fake_MediaStreamTrack
 *
-CreateOwnDOMTrack
+CreateDOMTrack
 (
 mozilla
 :

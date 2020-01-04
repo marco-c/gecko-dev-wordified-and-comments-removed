@@ -3946,7 +3946,7 @@ kAudioTrack
 domStream
 -
 >
-CreateOwnDOMTrack
+CreateDOMTrack
 (
 kAudioTrack
 MediaSegment
@@ -4008,7 +4008,7 @@ kVideoTrack
 domStream
 -
 >
-CreateOwnDOMTrack
+CreateDOMTrack
 (
 kVideoTrack
 MediaSegment
