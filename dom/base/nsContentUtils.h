@@ -4899,6 +4899,16 @@ nsIChannel
 aChannel
 )
 ;
+static
+uint32_t
+CookiesBehavior
+(
+)
+{
+return
+sCookiesBehavior
+;
+}
 enum
 class
 StorageAccess
