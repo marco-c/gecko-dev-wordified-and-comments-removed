@@ -43,16 +43,13 @@ chunk
 }
 payload
 :
-maxRunTime
-:
-7200
 extra
 :
 chunks
 :
 total
 :
-2
+6
 suite
 :
 name
