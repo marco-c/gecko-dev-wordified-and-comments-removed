@@ -450,6 +450,11 @@ DisplayItemClip
 h
 '
 '
+DisplayItemScrollClip
+.
+h
+'
+'
 DisplayListClipState
 .
 h
@@ -698,6 +703,11 @@ cpp
 '
 '
 DisplayItemClip
+.
+cpp
+'
+'
+DisplayItemScrollClip
 .
 cpp
 '
