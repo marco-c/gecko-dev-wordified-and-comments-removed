@@ -2958,6 +2958,15 @@ PER_ARCH
 ;
 inline
 void
+neg32
+(
+Register
+reg
+)
+PER_SHARED_ARCH
+;
+inline
+void
 lshiftPtr
 (
 Imm32
