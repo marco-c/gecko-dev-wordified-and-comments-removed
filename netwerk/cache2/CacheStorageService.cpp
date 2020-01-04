@@ -2982,6 +2982,14 @@ UseNewCache
 )
 )
 {
+CacheIndex
+:
+:
+OnAsyncEviction
+(
+true
+)
+;
 {
 mozilla
 :

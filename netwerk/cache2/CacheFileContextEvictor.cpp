@@ -2906,6 +2906,14 @@ evict
 )
 )
 ;
+CacheIndex
+:
+:
+OnAsyncEviction
+(
+false
+)
+;
 return
 NS_OK
 ;

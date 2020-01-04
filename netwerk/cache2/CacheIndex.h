@@ -3226,6 +3226,14 @@ _retval
 )
 ;
 static
+void
+OnAsyncEviction
+(
+bool
+aEvicting
+)
+;
+static
 size_t
 SizeOfExcludingThis
 (
@@ -3637,6 +3645,11 @@ aNewState
 )
 ;
 void
+NotifyAsyncGetDiskConsumptionCallbacks
+(
+)
+;
+void
 AllocBuffer
 (
 )
@@ -3860,6 +3873,9 @@ CacheIndexIterator
 *
 >
 mIterators
+;
+bool
+mAsyncGetDiskConsumptionBlocked
 ;
 class
 DiskConsumptionObserver
