@@ -377,7 +377,6 @@ global
 buildconfig
 .
 html
-*
 content
 /
 global
