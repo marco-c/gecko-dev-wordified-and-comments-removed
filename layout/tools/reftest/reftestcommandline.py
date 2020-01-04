@@ -571,9 +571,17 @@ utilityPath
                           
 default
 =
-"
+self
+.
+build_obj
+.
 bindir
-"
+if
+self
+.
+build_obj
+else
+None
                           
 help
 =
