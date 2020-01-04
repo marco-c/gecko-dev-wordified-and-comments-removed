@@ -901,6 +901,9 @@ isPrivate
 bool
 fakeShowInfo
 ;
+bool
+isTransparent
+;
 float
 dpi
 ;

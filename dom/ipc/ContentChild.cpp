@@ -4318,6 +4318,7 @@ EmptyString
 false
 false
 true
+false
 0
 0
 )
@@ -4381,6 +4382,7 @@ UsePrivateBrowsing
 (
 )
 true
+false
 aTabOpener
 -
 >
