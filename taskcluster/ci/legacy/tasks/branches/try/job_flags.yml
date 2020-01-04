@@ -700,16 +700,6 @@ tasks
 /
 builds
 /
-opt_linux64_st
--
-an
-.
-yml
--
-tasks
-/
-builds
-/
 dbg_linux64
 .
 yml
