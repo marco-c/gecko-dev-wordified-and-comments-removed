@@ -474,10 +474,10 @@ minIndent
 Math
 .
 min
+.
+apply
 (
-.
-.
-.
+null
 indents
 )
 ;
