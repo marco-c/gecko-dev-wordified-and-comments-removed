@@ -650,13 +650,6 @@ TempAllocator
 *
 alloc_
 ;
-JSFunction
-*
-fun_
-;
-uint32_t
-nslots_
-;
 MIRGraph
 *
 graph_
