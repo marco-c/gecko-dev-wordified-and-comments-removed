@@ -44,15 +44,11 @@ mozilla
 :
 gfx
 ;
-typedef
-nsSVGGFrame
-nsSVGSwitchFrameBase
-;
 class
 nsSVGSwitchFrame
 :
 public
-nsSVGSwitchFrameBase
+nsSVGGFrame
 {
 friend
 nsIFrame
@@ -77,7 +73,7 @@ nsStyleContext
 aContext
 )
 :
-nsSVGSwitchFrameBase
+nsSVGGFrame
 (
 aContext
 )
@@ -299,7 +295,7 @@ switch
 "
 )
 ;
-nsSVGSwitchFrameBase
+nsSVGGFrame
 :
 :
 Init
