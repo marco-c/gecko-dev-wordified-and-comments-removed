@@ -560,6 +560,7 @@ DispatchInternal
 (
 )
 override
+final
 ;
 }
 ;
@@ -625,6 +626,7 @@ WorkerPrivate
 aWorkerPrivate
 )
 override
+final
 {
 AssertIsOnMainThread
 (
