@@ -1990,6 +1990,11 @@ nsMediaFeature
 :
 :
 eHasWebkitPrefix
+|
+nsMediaFeature
+:
+:
+eWebkitDevicePixelRatioPrefEnabled
 {
 nullptr
 }

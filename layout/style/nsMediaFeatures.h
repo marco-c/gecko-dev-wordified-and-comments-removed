@@ -87,6 +87,15 @@ eNoRequirements
 eHasWebkitPrefix
 =
 1
+<
+<
+0
+eWebkitDevicePixelRatioPrefEnabled
+=
+1
+<
+<
+1
 }
 ;
 uint8_t
