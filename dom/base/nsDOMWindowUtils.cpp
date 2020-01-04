@@ -5834,10 +5834,12 @@ MozSwipeGestureEnd
 "
 )
 )
+{
 msg
 =
-NS_SIMPLE_GESTURE_SWIPE_END
+eSwipeGestureEnd
 ;
+}
 else
 if
 (

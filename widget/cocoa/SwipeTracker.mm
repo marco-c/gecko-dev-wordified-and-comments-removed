@@ -1106,7 +1106,7 @@ CancelSwipe
 {
 SendSwipeEvent
 (
-NS_SIMPLE_GESTURE_SWIPE_END
+eSwipeGestureEnd
 0
 0
 .
@@ -1124,7 +1124,7 @@ SwipeFinished
 {
 SendSwipeEvent
 (
-NS_SIMPLE_GESTURE_SWIPE_END
+eSwipeGestureEnd
 0
 0
 .

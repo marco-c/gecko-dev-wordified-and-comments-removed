@@ -1512,7 +1512,7 @@ eSimpleGestureEventClass
 NON_IDL_EVENT
 (
 MozSwipeGestureEnd
-NS_SIMPLE_GESTURE_SWIPE_END
+eSwipeGestureEnd
 EventNameType_None
 eSimpleGestureEventClass
 )
