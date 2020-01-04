@@ -1898,6 +1898,15 @@ return
 mShadowTransform
 ;
 }
+const
+gfx
+:
+:
+Matrix4x4
+GetShadowTransform
+(
+)
+;
 bool
 GetShadowTransformSetByAnimation
 (
