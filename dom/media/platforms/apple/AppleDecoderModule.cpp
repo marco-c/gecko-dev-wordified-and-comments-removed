@@ -190,6 +190,13 @@ forcevda
 false
 )
 ;
+MacIOSurfaceLib
+:
+:
+LoadLibrary
+(
+)
+;
 sIsVDAAvailable
 =
 AppleVDALinker
