@@ -223,6 +223,11 @@ nsIChannelEventSink
 idl
 '
 '
+nsIChannelWithDivertableParentListener
+.
+idl
+'
+'
 nsIChildChannel
 .
 idl
