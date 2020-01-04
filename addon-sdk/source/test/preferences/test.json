@@ -393,6 +393,15 @@ enabled
 :
 true
 "
+media
+.
+eme
+.
+apiVisible
+"
+:
+true
+"
 dom
 .
 ipc

@@ -168,6 +168,17 @@ persistent
 "
 }
 ;
+[
+Pref
+=
+"
+media
+.
+eme
+.
+apiVisible
+"
+]
 interface
 MediaKeys
 {

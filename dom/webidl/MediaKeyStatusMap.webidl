@@ -191,6 +191,17 @@ error
 "
 }
 ;
+[
+Pref
+=
+"
+media
+.
+eme
+.
+apiVisible
+"
+]
 interface
 MediaKeyStatusMap
 {

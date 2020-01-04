@@ -243,6 +243,17 @@ videoType
 ;
 }
 ;
+[
+Pref
+=
+"
+media
+.
+eme
+.
+apiVisible
+"
+]
 interface
 MediaKeySystemAccess
 {

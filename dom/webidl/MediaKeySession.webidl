@@ -157,6 +157,17 @@ apply
 .
 *
 /
+[
+Pref
+=
+"
+media
+.
+eme
+.
+apiVisible
+"
+]
 interface
 MediaKeySession
 :

@@ -183,6 +183,15 @@ request
 }
 ;
 [
+Pref
+=
+"
+media
+.
+eme
+.
+apiVisible
+"
 Constructor
 (
 DOMString
