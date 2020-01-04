@@ -402,6 +402,36 @@ mEntryCount
 '
 ]
         
+if
+entryCount
+=
+=
+0
+:
+            
+return
+        
+capacity
+=
+1
+<
+<
+(
+table
+[
+'
+kHashBits
+'
+]
+-
+table
+[
+'
+mHashShift
+'
+]
+)
+        
 store
 =
 table
@@ -421,6 +451,10 @@ key_field_name
 self
 .
 key_field_name
+        
+seenCount
+=
+0
         
 pEntry
 =
@@ -445,7 +479,7 @@ range
 0
 int
 (
-entryCount
+capacity
 )
 )
 :
@@ -511,6 +545,20 @@ mData
 '
 ]
 )
+            
+seenCount
++
+=
+1
+            
+if
+seenCount
+>
+=
+entryCount
+:
+                
+break
     
 def
 to_string
