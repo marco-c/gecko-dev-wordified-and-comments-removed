@@ -1611,12 +1611,11 @@ HTMLObjectElement
 Border
 border
 )
-NS_IMPL_URI_ATTR_WITH_BASE
+NS_IMPL_STRING_ATTR
 (
 HTMLObjectElement
 Code
 code
-codebase
 )
 NS_IMPL_URI_ATTR
 (
