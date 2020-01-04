@@ -163,6 +163,11 @@ EXPORTS
 =
 [
 '
+nsCORSListenerProxy
+.
+h
+'
+'
 nsHttp
 .
 h
@@ -351,6 +356,11 @@ cpp
 '
 '
 InterceptedChannel
+.
+cpp
+'
+'
+nsCORSListenerProxy
 .
 cpp
 '

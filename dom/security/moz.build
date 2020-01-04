@@ -154,11 +154,6 @@ nsContentSecurityManager
 .
 h
 '
-'
-nsCORSListenerProxy
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +
@@ -166,11 +161,6 @@ UNIFIED_SOURCES
 [
 '
 nsContentSecurityManager
-.
-cpp
-'
-'
-nsCORSListenerProxy
 .
 cpp
 '

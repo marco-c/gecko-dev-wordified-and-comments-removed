@@ -176,6 +176,13 @@ h
 #
 include
 "
+nsMimeTypes
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h
@@ -212,6 +219,13 @@ h
 include
 "
 nsString
+.
+h
+"
+#
+include
+"
+nsStringStream
 .
 h
 "
