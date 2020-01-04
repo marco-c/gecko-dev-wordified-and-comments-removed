@@ -1170,13 +1170,6 @@ SharedRGBImage
 h
 '
 '
-ipc
-/
-TextureForwarder
-.
-h
-'
-'
 LayerMetricsWrapper
 .
 h
@@ -2392,13 +2385,6 @@ cpp
 ipc
 /
 SharedRGBImage
-.
-cpp
-'
-'
-ipc
-/
-TextureForwarder
 .
 cpp
 '
