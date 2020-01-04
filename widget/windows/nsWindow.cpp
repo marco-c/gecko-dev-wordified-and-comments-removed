@@ -27291,6 +27291,17 @@ height
 {
 if
 (
+mWindowType
+=
+=
+eWindowType_popup
+)
+{
+return
+;
+}
+if
+(
 DefaultScaleOverride
 (
 )
