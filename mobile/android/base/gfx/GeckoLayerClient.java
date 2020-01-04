@@ -823,7 +823,7 @@ mViewportMetrics
 =
 mViewportMetrics
 .
-offsetViewportBy
+offsetViewportByAndClamp
 (
 scrollChange
 .
