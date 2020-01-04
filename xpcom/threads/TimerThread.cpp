@@ -451,11 +451,6 @@ mGeneration
 0
 )
 {
-MOZ_COUNT_CTOR
-(
-nsTimerEvent
-)
-;
 sAllocatorUsers
 +
 +
@@ -606,11 +601,6 @@ nsTimerEvent
 (
 )
 {
-MOZ_COUNT_DTOR
-(
-nsTimerEvent
-)
-;
 MOZ_ASSERT
 (
 !
