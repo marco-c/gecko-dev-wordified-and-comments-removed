@@ -244,11 +244,8 @@ path
 join
 (
 build_env
-[
-'
-TOPSRCDIR
-'
-]
+.
+topsrcdir
 '
 gradlew
 '
