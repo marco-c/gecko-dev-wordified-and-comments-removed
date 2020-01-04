@@ -537,12 +537,6 @@ case
 MDefinition
 :
 :
-Op_FallibleStoreElement
-:
-case
-MDefinition
-:
-:
 Op_TypedObjectDescr
 :
 case
