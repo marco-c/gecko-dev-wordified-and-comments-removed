@@ -779,13 +779,9 @@ mDocViewer
 (
 nullptr
 )
-mGotSelectionState
-(
-false
-)
 mSelectionWasCollapsed
 (
-false
+true
 )
 {
 }
@@ -809,9 +805,6 @@ nsDocViewerSelectionListener
 nsDocumentViewer
 *
 mDocViewer
-;
-bool
-mGotSelectionState
 ;
 bool
 mSelectionWasCollapsed
@@ -13504,10 +13497,6 @@ selectionCollapsed
 ;
 if
 (
-!
-mGotSelectionState
-|
-|
 mSelectionWasCollapsed
 !
 =
@@ -13528,10 +13517,6 @@ select
 selection
 aReason
 )
-;
-mGotSelectionState
-=
-true
 ;
 mSelectionWasCollapsed
 =
