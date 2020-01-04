@@ -670,7 +670,7 @@ EvictData
 uint64_t
 aPlaybackOffset
 int64_t
-aThreshold
+aThresholdReduct
 ErrorResult
 &
 aRv

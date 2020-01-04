@@ -890,9 +890,6 @@ MediaSource
 >
 mMediaSource
 ;
-uint32_t
-mEvictionThreshold
-;
 RefPtr
 <
 SourceBufferContentManager

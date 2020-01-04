@@ -300,6 +300,15 @@ GroupEndTimestamp
 =
 0
 ;
+virtual
+int64_t
+EvictionThreshold
+(
+)
+const
+=
+0
+;
 protected
 :
 virtual
