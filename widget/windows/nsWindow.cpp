@@ -31168,6 +31168,15 @@ mWnd
 return
 ;
 }
+IMEHandler
+:
+:
+DefaultProcOfPluginEvent
+(
+this
+pPluginEvent
+)
+;
 CallWindowProcW
 (
 GetPrevWindowProc
