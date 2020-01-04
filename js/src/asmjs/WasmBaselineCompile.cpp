@@ -11365,6 +11365,8 @@ shll
 Imm32
 (
 count
+&
+31
 )
 srcDest
 .
@@ -11528,6 +11530,8 @@ sarl
 Imm32
 (
 count
+&
+31
 )
 srcDest
 .
@@ -11691,6 +11695,8 @@ shrl
 Imm32
 (
 count
+&
+31
 )
 srcDest
 .
