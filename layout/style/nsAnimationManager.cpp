@@ -1912,6 +1912,7 @@ CascadeLevel
 :
 :
 Animations
+aStyleContext
 )
 ;
 if

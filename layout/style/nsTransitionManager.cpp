@@ -2061,6 +2061,7 @@ MaybeUpdateAnimationRule
 aElement
 pseudoType
 cascadeLevel
+newStyleContext
 )
 ;
 }

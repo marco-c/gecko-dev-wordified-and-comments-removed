@@ -310,6 +310,9 @@ CSSPseudoElementType
 aPseudoType
 CascadeLevel
 aCascadeLevel
+nsStyleContext
+*
+aStyleContext
 )
 ;
 nsIStyleRule
@@ -326,6 +329,9 @@ CSSPseudoElementType
 aPseudoType
 CascadeLevel
 aCascadeLevel
+nsStyleContext
+*
+aStyleContext
 )
 ;
 bool
