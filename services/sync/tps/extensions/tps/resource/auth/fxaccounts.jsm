@@ -296,11 +296,6 @@ account
 username
 "
 ]
-+
-'
-\
-n
-'
 )
 ;
 let
@@ -327,6 +322,7 @@ account
 password
 "
 ]
+true
 )
 .
 then
