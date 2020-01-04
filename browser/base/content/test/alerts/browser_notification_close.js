@@ -231,6 +231,7 @@ textContent
 "
 Test
 body
+2
 "
 "
 Body
