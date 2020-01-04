@@ -13783,16 +13783,6 @@ Value
 rval
 )
 ;
-inline
-bool
-GlobalPropertiesAreOwn
-(
-)
-{
-return
-true
-;
-}
 #
 ifdef
 DEBUG
