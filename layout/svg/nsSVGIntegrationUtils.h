@@ -306,6 +306,16 @@ aParams
 )
 ;
 static
+DrawResult
+PaintFilter
+(
+const
+PaintFramesParams
+&
+aParams
+)
+;
+static
 gfxMatrix
 GetCSSPxToDevPxMatrix
 (
