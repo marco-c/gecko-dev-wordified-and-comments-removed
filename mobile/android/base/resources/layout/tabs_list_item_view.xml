@@ -439,6 +439,13 @@ maxLines
 "
 android
 :
+drawablePadding
+=
+"
+6dp
+"
+android
+:
 duplicateParentState
 =
 "
