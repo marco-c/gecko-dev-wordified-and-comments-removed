@@ -176,11 +176,6 @@ nsIDroppedLinkHandler
 idl
 '
 '
-nsIEntropyCollector
-.
-idl
-'
-'
 nsIFrameLoader
 .
 idl

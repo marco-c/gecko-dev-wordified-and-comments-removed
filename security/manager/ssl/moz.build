@@ -131,11 +131,6 @@ nsIBadCertListener2
 idl
 '
 '
-nsIBufEntropyCollector
-.
-idl
-'
-'
 nsICertBlocklist
 .
 idl
@@ -503,11 +498,6 @@ cpp
 '
 '
 nsDataSignatureVerifier
-.
-cpp
-'
-'
-nsEntropyCollector
 .
 cpp
 '
