@@ -3866,6 +3866,7 @@ expr_
 }
 }
 ;
+}
 static
 bool
 IsWasmNewLine
@@ -4849,6 +4850,8 @@ return
 true
 ;
 }
+namespace
+{
 class
 WasmTokenStream
 {
@@ -5490,6 +5493,7 @@ error
 }
 }
 ;
+}
 WasmToken
 WasmTokenStream
 :
@@ -11287,7 +11291,6 @@ begin
 )
 ;
 }
-}
 namespace
 {
 struct
@@ -11380,6 +11383,7 @@ dtoaState
 }
 }
 ;
+}
 static
 WasmAstExpr
 *
@@ -16976,7 +16980,6 @@ nullptr
 return
 module
 ;
-}
 }
 namespace
 {
