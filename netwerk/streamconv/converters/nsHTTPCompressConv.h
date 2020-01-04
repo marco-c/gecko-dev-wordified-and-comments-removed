@@ -117,6 +117,12 @@ HTTP_UNCOMPRESSED_TYPE
 "
 uncompressed
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 typedef
 enum
 {
@@ -246,5 +252,7 @@ rv
 ;
 }
 ;
+}
+}
 #
 endif
