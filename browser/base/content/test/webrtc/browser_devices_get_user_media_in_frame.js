@@ -1785,6 +1785,13 @@ ex
 =
 >
 {
+Cu
+.
+reportError
+(
+ex
+)
+;
 ok
 (
 false
