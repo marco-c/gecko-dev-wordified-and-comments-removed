@@ -7075,7 +7075,7 @@ Cancel
 (
 )
 ;
-mKeepAliveToken
+mIdleKeepAliveToken
 =
 nullptr
 ;
@@ -7557,7 +7557,7 @@ timer
 swp
 -
 >
-mKeepAliveToken
+mIdleKeepAliveToken
 =
 nullptr
 ;
@@ -7750,10 +7750,10 @@ ResetIdleTimeout
 if
 (
 !
-mKeepAliveToken
+mIdleKeepAliveToken
 )
 {
-mKeepAliveToken
+mIdleKeepAliveToken
 =
 new
 KeepAliveToken
@@ -7894,7 +7894,7 @@ mWorkerPrivate
 ;
 MOZ_ASSERT
 (
-mKeepAliveToken
+mIdleKeepAliveToken
 )
 ;
 RefPtr
