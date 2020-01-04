@@ -5254,9 +5254,11 @@ update
 >
 mNextMainThreadCurrentTime
 =
-GraphTimeToStreamTimeWithBlocking
-(
 stream
+-
+>
+GraphTimeToStreamTime
+(
 mProcessedTime
 )
 ;
