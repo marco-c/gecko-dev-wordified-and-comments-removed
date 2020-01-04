@@ -993,6 +993,9 @@ mChannel
 >
 FinishSynthesizedResponse
 (
+EmptyCString
+(
+)
 )
 ;
 return
