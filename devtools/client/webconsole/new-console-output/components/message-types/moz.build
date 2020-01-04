@@ -73,6 +73,13 @@ call
 js
 '
 '
+console
+-
+command
+.
+js
+'
+'
 default
 -
 renderer
