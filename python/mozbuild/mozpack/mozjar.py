@@ -4345,6 +4345,16 @@ read
 )
 :
                 
+if
+hasattr
+(
+data
+'
+seek
+'
+)
+:
+                    
 data
 .
 seek
