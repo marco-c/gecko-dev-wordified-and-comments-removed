@@ -188,7 +188,7 @@ EditorUtils
 cpp
 '
 '
-EditTxn
+EditTransactionBase
 .
 cpp
 '

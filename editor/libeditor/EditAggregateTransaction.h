@@ -7,7 +7,7 @@ EditAggregateTransaction_h
 #
 include
 "
-EditTxn
+EditTransactionBase
 .
 h
 "
@@ -63,7 +63,7 @@ class
 EditAggregateTransaction
 :
 public
-EditTxn
+EditTransactionBase
 {
 public
 :
@@ -75,9 +75,9 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 EditAggregateTransaction
-EditTxn
+EditTransactionBase
 )
-NS_DECL_EDITTXN
+NS_DECL_EDITTRANSACTIONBASE
 NS_IMETHOD
 RedoTransaction
 (
@@ -99,9 +99,9 @@ override
 NS_IMETHOD
 AppendChild
 (
-EditTxn
+EditTransactionBase
 *
-aTxn
+aTransaction
 )
 ;
 NS_IMETHOD
@@ -125,7 +125,7 @@ nsTArray
 <
 RefPtr
 <
-EditTxn
+EditTransactionBase
 >
 >
 mChildren

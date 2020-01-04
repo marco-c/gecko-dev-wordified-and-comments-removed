@@ -7,7 +7,7 @@ SetDocumentTitleTransaction_h
 #
 include
 "
-EditTxn
+EditTransactionBase
 .
 h
 "
@@ -36,7 +36,7 @@ SetDocumentTitleTransaction
 final
 :
 public
-EditTxn
+EditTransactionBase
 {
 public
 :
@@ -69,7 +69,7 @@ aTitle
 ;
 public
 :
-NS_DECL_EDITTXN
+NS_DECL_EDITTRANSACTIONBASE
 NS_IMETHOD
 RedoTransaction
 (

@@ -7,7 +7,7 @@ InsertNodeTransaction_h
 #
 include
 "
-EditTxn
+EditTransactionBase
 .
 h
 "
@@ -50,7 +50,7 @@ InsertNodeTransaction
 final
 :
 public
-EditTxn
+EditTransactionBase
 {
 public
 :
@@ -73,9 +73,9 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 InsertNodeTransaction
-EditTxn
+EditTransactionBase
 )
-NS_DECL_EDITTXN
+NS_DECL_EDITTRANSACTIONBASE
 protected
 :
 virtual

@@ -87,7 +87,7 @@ h
 #
 include
 "
-EditTxn
+EditTransactionBase
 .
 h
 "
@@ -9525,9 +9525,9 @@ aSuppressIME
 {
 RefPtr
 <
-EditTxn
+EditTransactionBase
 >
-txn
+transaction
 ;
 bool
 isIMETransaction
@@ -9684,7 +9684,7 @@ Length
 )
 ;
 }
-txn
+transaction
 =
 CreateTxnForComposition
 (
@@ -9714,7 +9714,7 @@ Length
 }
 else
 {
-txn
+transaction
 =
 CreateTxnForInsertText
 (
@@ -9760,11 +9760,11 @@ BeginUpdateViewBatch
 )
 ;
 nsresult
-res
+rv
 =
 DoTransaction
 (
-txn
+transaction
 )
 ;
 EndUpdateViewBatch
@@ -9834,7 +9834,7 @@ AsDOMNode
 )
 aOffset
 aStringToInsert
-res
+rv
 )
 ;
 }
@@ -9877,7 +9877,7 @@ CompositionTransaction
 *
 >
 (
-txn
+transaction
 .
 get
 (
@@ -9892,7 +9892,7 @@ MarkFixed
 }
 }
 return
-res
+rv
 ;
 }
 nsresult

@@ -7,7 +7,7 @@ JoinNodeTransaction_h
 #
 include
 "
-EditTxn
+EditTransactionBase
 .
 h
 "
@@ -53,7 +53,7 @@ JoinNodeTransaction
 final
 :
 public
-EditTxn
+EditTransactionBase
 {
 public
 :
@@ -78,7 +78,7 @@ CheckValidity
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 JoinNodeTransaction
-EditTxn
+EditTransactionBase
 )
 NS_IMETHOD
 QueryInterface
@@ -92,7 +92,7 @@ aInstancePtr
 )
 override
 ;
-NS_DECL_EDITTXN
+NS_DECL_EDITTRANSACTIONBASE
 protected
 :
 nsEditor

@@ -89,7 +89,7 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 PlaceholderTransaction
 EditAggregateTransaction
 )
-NS_DECL_EDITTXN
+NS_DECL_EDITTRANSACTIONBASE
 NS_IMETHOD
 RedoTransaction
 (

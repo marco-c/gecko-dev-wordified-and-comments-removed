@@ -171,7 +171,7 @@ int32_t
 aOffsetInParent
 )
 :
-EditTxn
+EditTransactionBase
 (
 )
 mEditor
@@ -207,7 +207,7 @@ CreateElementTransaction
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 CreateElementTransaction
-EditTxn
+EditTransactionBase
 mParent
 mNewNode
 mRefNode
@@ -215,12 +215,12 @@ mRefNode
 NS_IMPL_ADDREF_INHERITED
 (
 CreateElementTransaction
-EditTxn
+EditTransactionBase
 )
 NS_IMPL_RELEASE_INHERITED
 (
 CreateElementTransaction
-EditTxn
+EditTransactionBase
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
@@ -228,7 +228,7 @@ CreateElementTransaction
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-EditTxn
+EditTransactionBase
 )
 NS_IMETHODIMP
 CreateElementTransaction

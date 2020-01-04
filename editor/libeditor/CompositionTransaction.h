@@ -7,7 +7,7 @@ CompositionTransaction_h
 #
 include
 "
-EditTxn
+EditTransactionBase
 .
 h
 "
@@ -66,7 +66,7 @@ CompositionTransaction
 final
 :
 public
-EditTxn
+EditTransactionBase
 {
 public
 :
@@ -101,10 +101,10 @@ aEditor
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 CompositionTransaction
-EditTxn
+EditTransactionBase
 )
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_EDITTXN
+NS_DECL_EDITTRANSACTIONBASE
 NS_IMETHOD
 Merge
 (

@@ -107,7 +107,7 @@ mOffset
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 JoinNodeTransaction
-EditTxn
+EditTransactionBase
 mLeftNode
 mRightNode
 mParent
@@ -118,7 +118,7 @@ JoinNodeTransaction
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-EditTxn
+EditTransactionBase
 )
 nsresult
 JoinNodeTransaction

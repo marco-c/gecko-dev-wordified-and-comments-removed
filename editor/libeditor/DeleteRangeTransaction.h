@@ -14,13 +14,6 @@ h
 #
 include
 "
-EditTxn
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
@@ -116,7 +109,7 @@ aInstancePtr
 )
 override
 ;
-NS_DECL_EDITTXN
+NS_DECL_EDITTRANSACTIONBASE
 NS_IMETHOD
 RedoTransaction
 (
