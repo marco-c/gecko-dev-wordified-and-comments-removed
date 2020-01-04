@@ -91,14 +91,6 @@ MOZILLA_INTERNAL_API
 &
 &
 \
-!
-defined
-(
-MOZILLA_XPCOMRT_API
-)
-&
-&
-\
 (
 defined
 (

@@ -522,13 +522,6 @@ defined
 (
 MOZ_DUMP_ASSERTION_STACK
 )
-&
-&
-!
-defined
-(
-MOZILLA_XPCOMRT_API
-)
 nsTraceRefcnt
 :
 :
@@ -627,13 +620,6 @@ if
 defined
 (
 MOZ_DUMP_ASSERTION_STACK
-)
-&
-&
-!
-defined
-(
-MOZILLA_XPCOMRT_API
 )
 nsTraceRefcnt
 :
