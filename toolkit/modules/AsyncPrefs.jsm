@@ -153,6 +153,11 @@ reader
 .
 color_scheme
 "
+"
+reader
+.
+content_width
+"
 ]
 )
 ;
