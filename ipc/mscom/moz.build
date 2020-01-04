@@ -119,6 +119,11 @@ ProxyStream
 h
 '
 '
+Registration
+.
+h
+'
+'
 Utils
 .
 h
@@ -128,6 +133,11 @@ SOURCES
 +
 =
 [
+'
+Registration
+.
+cpp
+'
 '
 Utils
 .
