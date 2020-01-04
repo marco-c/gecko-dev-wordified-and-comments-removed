@@ -3104,12 +3104,8 @@ pattern
 new
 gfxPattern
 (
-gfxRGBA
+Color
 (
-0
-0
-0
-0
 )
 )
 ;

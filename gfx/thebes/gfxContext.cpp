@@ -3935,12 +3935,9 @@ pat
 new
 gfxPattern
 (
-ThebesRGBA
-(
 state
 .
 color
-)
 )
 ;
 }

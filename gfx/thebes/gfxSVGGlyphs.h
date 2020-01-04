@@ -671,7 +671,13 @@ private
 :
 static
 const
-gfxRGBA
+mozilla
+:
+:
+gfx
+:
+:
+Color
 sZero
 ;
 public
