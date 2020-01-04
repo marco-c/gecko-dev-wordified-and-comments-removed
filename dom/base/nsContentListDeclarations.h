@@ -18,13 +18,6 @@ nsCOMPtr
 .
 h
 "
-#
-include
-"
-nsStringFwd
-.
-h
-"
 class
 nsContentList
 ;
@@ -36,6 +29,12 @@ nsIContent
 ;
 class
 nsINode
+;
+class
+nsString
+;
+class
+nsAString
 ;
 #
 define
