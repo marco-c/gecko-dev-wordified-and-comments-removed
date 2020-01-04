@@ -1624,6 +1624,13 @@ cpp
 '
 jit
 /
+BaselineCacheIR
+.
+cpp
+'
+'
+jit
+/
 BaselineCompiler
 .
 cpp
@@ -1688,6 +1695,13 @@ cpp
 jit
 /
 C1Spewer
+.
+cpp
+'
+'
+jit
+/
+CacheIR
 .
 cpp
 '
