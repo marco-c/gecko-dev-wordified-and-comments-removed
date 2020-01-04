@@ -11446,6 +11446,15 @@ StyleEffects
 HasFilters
 (
 )
+&
+&
+!
+aBuilder
+-
+>
+IsForGenerateGlyphMask
+(
+)
 )
 {
 resultList
