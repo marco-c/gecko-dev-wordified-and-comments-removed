@@ -22,14 +22,14 @@ jsm
 var
 _
 =
+function
 (
 some
 debug
 text
 to
 )
-=
->
+{
 print
 (
 Array
@@ -45,6 +45,8 @@ join
 "
 )
 )
+;
+}
 ;
 _
 (
