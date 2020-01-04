@@ -278,6 +278,16 @@ GetImageMetadata
 (
 )
 ;
+DecoderTelemetry
+telemetry
+=
+aDecoder
+-
+>
+Telemetry
+(
+)
+;
 Progress
 progress
 =
@@ -351,6 +361,7 @@ FinalizeDecoder
 (
 aDecoder
 metadata
+telemetry
 progress
 invalidRect
 frameCount
@@ -406,6 +417,7 @@ get
 (
 )
 metadata
+telemetry
 progress
 invalidRect
 frameCount

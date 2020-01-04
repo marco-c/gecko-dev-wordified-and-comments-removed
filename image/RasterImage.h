@@ -255,6 +255,9 @@ image
 class
 Decoder
 ;
+struct
+DecoderTelemetry
+;
 class
 ImageMetadata
 ;
@@ -400,6 +403,10 @@ const
 ImageMetadata
 &
 aMetadata
+const
+DecoderTelemetry
+&
+aTelemetry
 Progress
 aProgress
 const
