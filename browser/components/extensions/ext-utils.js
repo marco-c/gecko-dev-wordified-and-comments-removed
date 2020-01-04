@@ -954,9 +954,7 @@ removeProperty
 "
 -
 -
-panel
--
-arrowcontent
+arrowpanel
 -
 background
 "
