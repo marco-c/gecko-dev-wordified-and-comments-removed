@@ -981,6 +981,16 @@ LocationValue
 {
 }
 ;
+UTF8CharsZ
+BuildUTF8StackString
+(
+JSContext
+*
+cx
+HandleObject
+stack
+)
+;
 }
 #
 endif
