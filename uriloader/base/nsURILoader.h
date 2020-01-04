@@ -129,10 +129,8 @@ nsIWeakReference
 m_listeners
 ;
 static
-mozilla
-:
-:
-LazyLogModule
+PRLogModuleInfo
+*
 mLog
 ;
 friend

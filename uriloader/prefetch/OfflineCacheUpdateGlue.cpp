@@ -66,10 +66,8 @@ Logging
 h
 "
 extern
-mozilla
-:
-:
-LazyLogModule
+PRLogModuleInfo
+*
 gOfflineCacheUpdateLog
 ;
 #
