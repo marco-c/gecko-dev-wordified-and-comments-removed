@@ -939,6 +939,9 @@ if
 aPaintTableBackground
 )
 {
+result
+&
+=
 PaintTableFrame
 (
 aTableFrame
