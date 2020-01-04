@@ -16061,8 +16061,9 @@ GetMetrics
 (
 )
 .
-Height
+BSize
 (
+wm
 )
 &
 floatManagerState
