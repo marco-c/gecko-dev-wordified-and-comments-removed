@@ -203,10 +203,6 @@ Config
 config
 )
 :
-config_
-(
-config
-)
 instance_id_
 (
 instance_id
@@ -224,6 +220,10 @@ CriticalSectionWrapper
 CreateCriticalSection
 (
 )
+)
+config_
+(
+config
 )
 {
 }

@@ -2170,14 +2170,6 @@ AudioProcessing
 :
 Create
 (
-_shared
--
->
-channel_manager
-(
-)
-.
-config_
 )
 ;
 if

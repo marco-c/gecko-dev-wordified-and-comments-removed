@@ -302,11 +302,6 @@ NumOfChannels
 )
 const
 ;
-const
-Config
-&
-config_
-;
 private
 :
 ChannelOwner
@@ -341,6 +336,11 @@ vector
 ChannelOwner
 >
 channels_
+;
+const
+Config
+&
+config_
 ;
 DISALLOW_COPY_AND_ASSIGN
 (

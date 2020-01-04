@@ -416,10 +416,13 @@ endif
 }
 AecmCore
 ;
-AecmCore
-*
+int
 WebRtcAecm_CreateCore
 (
+AecmCore
+*
+*
+aecm
 )
 ;
 int
@@ -433,7 +436,7 @@ int
 samplingFreq
 )
 ;
-void
+int
 WebRtcAecm_FreeCore
 (
 AecmCore
