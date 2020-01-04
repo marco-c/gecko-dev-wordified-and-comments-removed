@@ -42,7 +42,7 @@ mozilla
 /
 layers
 /
-CompositorBridgeParent
+CompositorThread
 .
 h
 "
@@ -356,10 +356,10 @@ mozilla
 layers
 :
 :
-CompositorBridgeParent
+CompositorThreadHolder
 :
 :
-CompositorLoop
+Loop
 (
 )
 mozilla

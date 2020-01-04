@@ -998,10 +998,10 @@ MessageLoop
 *
 loop
 =
-CompositorBridgeParent
+CompositorThreadHolder
 :
 :
-CompositorLoop
+Loop
 (
 )
 ;

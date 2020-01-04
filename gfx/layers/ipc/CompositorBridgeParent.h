@@ -1458,13 +1458,6 @@ id
 )
 ;
 static
-MessageLoop
-*
-CompositorLoop
-(
-)
-;
-static
 uint64_t
 AllocateLayerTreeId
 (

@@ -194,7 +194,7 @@ mozilla
 /
 layers
 /
-CompositorBridgeParent
+CompositorThread
 .
 h
 "
@@ -3823,10 +3823,10 @@ sImageBridgeParentSingleton
 new
 ImageBridgeParent
 (
-CompositorBridgeParent
+CompositorThreadHolder
 :
 :
-CompositorLoop
+Loop
 (
 )
 nullptr
