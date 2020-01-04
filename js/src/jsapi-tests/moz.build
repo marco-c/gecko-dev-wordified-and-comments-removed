@@ -194,6 +194,11 @@ testDefinePropertyIgnoredAttributes
 cpp
 '
 '
+testDeflateStringToUTF8Buffer
+.
+cpp
+'
+'
 testDifferentNewTargetInvokeConstructor
 .
 cpp
