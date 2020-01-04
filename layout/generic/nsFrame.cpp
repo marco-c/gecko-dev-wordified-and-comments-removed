@@ -25453,6 +25453,16 @@ NS_FRAME_DESCENDANT_NEEDS_PAINT
 if
 (
 aHasDisplayItem
+&
+&
+!
+parent
+-
+>
+HasAnyStateBits
+(
+NS_FRAME_IS_NONDISPLAY
+)
 )
 {
 parent
@@ -44693,6 +44703,8 @@ f
 HasAnyStateBits
 (
 NS_FRAME_DESCENDANT_NEEDS_PAINT
+|
+NS_FRAME_IS_NONDISPLAY
 )
 ;
 f
