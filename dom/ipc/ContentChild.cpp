@@ -4087,7 +4087,6 @@ aChromeFlags
 aCalledFromJS
 aPositionSpecified
 aSizeSpecified
-name
 features
 baseURIString
 openerDocShell
