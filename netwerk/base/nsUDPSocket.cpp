@@ -2877,7 +2877,7 @@ if
 gSocketTransportService
 -
 >
-IsTelemetryEnabled
+IsTelemetryEnabledAndNotSleepPhase
 (
 )
 )
@@ -2899,7 +2899,7 @@ if
 gSocketTransportService
 -
 >
-IsTelemetryEnabled
+IsTelemetryEnabledAndNotSleepPhase
 (
 )
 )
