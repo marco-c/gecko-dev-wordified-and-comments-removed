@@ -1935,7 +1935,10 @@ than
 1
 client
 .
-Syncing
+Will
+sync
+in
+5s
 .
 "
 )
@@ -1944,7 +1947,7 @@ this
 .
 scheduleNextSync
 (
-0
+5000
 )
 ;
 }
