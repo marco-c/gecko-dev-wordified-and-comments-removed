@@ -454,6 +454,8 @@ ensureInit
 (
 null
 null
+null
+false
 )
 ;
 GeckoThread
