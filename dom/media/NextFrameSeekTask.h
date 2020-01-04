@@ -136,6 +136,18 @@ RequestVideoData
 )
 ;
 bool
+NeedMoreVideo
+(
+)
+const
+;
+bool
+IsVideoRequestPending
+(
+)
+const
+;
+bool
 IsAudioSeekComplete
 (
 )
@@ -145,6 +157,7 @@ bool
 IsVideoSeekComplete
 (
 )
+const
 ;
 void
 CheckIfSeekComplete
