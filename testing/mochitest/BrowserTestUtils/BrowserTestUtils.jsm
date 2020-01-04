@@ -2477,7 +2477,7 @@ browser
 addEventListener
 (
 "
-AboutTabCrashedLoad
+AboutTabCrashedReady
 "
 function
 onCrash
@@ -2489,7 +2489,7 @@ browser
 removeEventListener
 (
 "
-AboutTabCrashedLoad
+AboutTabCrashedReady
 "
 onCrash
 false
@@ -2503,6 +2503,8 @@ nabout
 :
 tabcrashed
 loaded
+and
+ready
 \
 n
 "
