@@ -84,7 +84,7 @@ assertIsNone
 (
 exc
 .
-msg
+message
 )
         
 self
@@ -136,7 +136,7 @@ assertEquals
 (
 exc
 .
-msg
+message
 message
 )
         
@@ -234,8 +234,6 @@ tfirst
 n
 \
 tsecond
-\
-n
 "
 r
 )

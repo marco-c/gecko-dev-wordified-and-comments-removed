@@ -150,21 +150,26 @@ representation
         
 self
 .
-msg
+cause
 =
+cause
+        
+self
+.
+stacktrace
+=
+stacktrace
+        
+super
+(
+MarionetteException
+self
+)
+.
+__init__
+(
 message
-        
-self
-.
-cause
-=
-cause
-        
-self
-.
-stacktrace
-=
-stacktrace
+)
     
 def
 __str__
@@ -179,7 +184,7 @@ str
 (
 self
 .
-msg
+message
 )
         
 tb
@@ -314,6 +319,10 @@ __class__
 msg
 tb
 )
+)
+.
+strip
+(
 )
 class
 ElementNotSelectableException
