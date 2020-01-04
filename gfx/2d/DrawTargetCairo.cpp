@@ -5910,9 +5910,6 @@ mNumGlyphs
 ;
 if
 (
-mContext
-&
-&
 cairo_surface_status
 (
 cairo_get_group_target
