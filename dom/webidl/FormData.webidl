@@ -116,6 +116,8 @@ typedef
 (
 Blob
 or
+Directory
+or
 USVString
 )
 FormDataEntryValue
