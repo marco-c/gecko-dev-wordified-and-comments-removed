@@ -10486,17 +10486,6 @@ aFullscreenAllowed
 =
 false
 ;
-if
-(
-mSandboxFlags
-&
-SANDBOXED_FULLSCREEN
-)
-{
-return
-NS_OK
-;
-}
 nsCOMPtr
 <
 nsPIDOMWindowOuter
