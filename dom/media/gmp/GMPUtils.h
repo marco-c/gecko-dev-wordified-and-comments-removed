@@ -131,6 +131,14 @@ kGmpApiTimeout
 kInvalid
 }
 ;
+bool
+FileExists
+(
+nsIFile
+*
+aFile
+)
+;
 }
 #
 endif
