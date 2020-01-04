@@ -4745,9 +4745,9 @@ metadata
 (
 )
 .
-compileArgs
+usesSignal
 .
-useSignalHandlersForOOB
+forOOB
 )
 ;
 MOZ_RELEASE_ASSERT

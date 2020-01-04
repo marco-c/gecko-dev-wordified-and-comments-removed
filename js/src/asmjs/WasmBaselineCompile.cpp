@@ -9024,9 +9024,9 @@ if
 (
 mg_
 .
-args
+usesSignal
 .
-useSignalHandlersForInterrupt
+forInterrupt
 )
 return
 ;
@@ -12770,9 +12770,9 @@ if
 (
 mg_
 .
-args
+usesSignal
 .
-useSignalHandlersForOOB
+forOOB
 &
 &
 !
