@@ -456,14 +456,20 @@ join
 (
 self
 .
-distdir
+topsrcdir
 '
-xpi
--
-stage
+tools
 '
 '
 quitter
+'
+'
+quitter
+mozilla
+.
+org
+.
+xpi
 '
 )
             
