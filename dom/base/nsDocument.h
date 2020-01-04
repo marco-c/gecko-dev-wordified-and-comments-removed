@@ -3224,6 +3224,7 @@ nsIAtom
 aPrefix
 int32_t
 aNamespaceID
+const
 nsAString
 *
 aIs
@@ -5329,6 +5330,7 @@ Value
 aVp
 )
 ;
+const
 nsString
 *
 CheckCustomElementName

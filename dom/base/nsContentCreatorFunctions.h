@@ -86,6 +86,7 @@ dom
 :
 FromParser
 aFromParser
+const
 nsAString
 *
 aIs
@@ -155,6 +156,7 @@ dom
 :
 FromParser
 aFromParser
+const
 nsAString
 *
 aIs

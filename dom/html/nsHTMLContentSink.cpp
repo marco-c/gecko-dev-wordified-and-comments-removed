@@ -961,6 +961,7 @@ NodeInfo
 aNodeInfo
 FromParser
 aFromParser
+const
 nsAString
 *
 aIs
