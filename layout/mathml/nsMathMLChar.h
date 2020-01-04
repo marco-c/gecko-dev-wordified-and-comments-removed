@@ -609,7 +609,10 @@ nsStyleContext
 *
 mStyleContext
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 gfxTextRun
 >

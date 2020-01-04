@@ -30,6 +30,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -1254,7 +1263,7 @@ nullptr
 0
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 gfxTextRun
 >

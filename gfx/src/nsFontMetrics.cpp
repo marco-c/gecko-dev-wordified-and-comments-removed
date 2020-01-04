@@ -167,9 +167,7 @@ aLength
 )
 {
 mTextRun
-.
-reset
-(
+=
 aMetrics
 -
 >
@@ -203,7 +201,6 @@ aMetrics
 )
 nullptr
 )
-)
 ;
 }
 AutoTextRun
@@ -223,9 +220,7 @@ aLength
 )
 {
 mTextRun
-.
-reset
-(
+=
 aMetrics
 -
 >
@@ -250,7 +245,6 @@ ComputeFlags
 aMetrics
 )
 nullptr
-)
 )
 ;
 }

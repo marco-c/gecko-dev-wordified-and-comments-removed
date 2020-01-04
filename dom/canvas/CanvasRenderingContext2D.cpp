@@ -18151,7 +18151,7 @@ mGlyphs
 }
 }
 }
-nsAutoPtr
+UniquePtr
 <
 gfxTextRun
 >

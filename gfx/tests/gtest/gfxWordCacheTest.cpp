@@ -244,7 +244,7 @@ uint32_t
 aFlags
 )
 {
-nsAutoPtr
+UniquePtr
 <
 gfxTextRun
 >
@@ -322,6 +322,10 @@ gTextRuns
 AddObject
 (
 textRun
+.
+get
+(
+)
 )
 ;
 if
@@ -338,6 +342,10 @@ gTextRuns
 RemoveFromCache
 (
 textRun
+.
+get
+(
+)
 )
 ;
 return
@@ -347,7 +355,7 @@ nullptr
 return
 textRun
 .
-forget
+release
 (
 )
 ;
