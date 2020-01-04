@@ -1084,7 +1084,7 @@ CalcStyleDifference
 (
 nsStyleContext
 *
-aOther
+aNewContext
 nsChangeHint
 aParentHintsNotHandledForDescendants
 uint32_t

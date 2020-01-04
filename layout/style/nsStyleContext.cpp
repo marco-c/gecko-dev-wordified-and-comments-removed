@@ -4184,7 +4184,7 @@ CalcStyleDifference
 (
 nsStyleContext
 *
-aOther
+aNewContext
 nsChangeHint
 aParentHintsNotHandledForDescendants
 uint32_t
@@ -4263,7 +4263,7 @@ NS_STYLE_HINT_NONE
 ;
 NS_ENSURE_TRUE
 (
-aOther
+aNewContext
 hint
 )
 ;
@@ -4273,7 +4273,7 @@ compare
 mSource
 !
 =
-aOther
+aNewContext
 -
 >
 mSource
@@ -4313,7 +4313,7 @@ nsStyleVariables
 *
 otherVariables
 =
-aOther
+aNewContext
 -
 >
 StyleVariables
@@ -4429,7 +4429,7 @@ other
 #
 struct_
 =
-aOther
+aNewContext
 -
 >
 Style
@@ -4997,7 +4997,7 @@ data
 data
 =
 =
-aOther
+aNewContext
 -
 >
 Style
@@ -5042,7 +5042,7 @@ GetStyleIfVisited
 *
 otherVis
 =
-aOther
+aNewContext
 -
 >
 GetStyleIfVisited

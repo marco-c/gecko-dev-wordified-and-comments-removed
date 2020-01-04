@@ -445,7 +445,7 @@ CalcDifference
 const
 nsStyleFont
 &
-aOther
+aNewData
 )
 const
 ;
@@ -1261,7 +1261,7 @@ CalcDifference
 const
 nsStyleColor
 &
-aOther
+aNewData
 )
 const
 ;
@@ -2330,7 +2330,7 @@ CalcDifference
 const
 Layer
 &
-aOther
+aNewLayer
 nsChangeHint
 aPositionChangeHint
 )
@@ -2485,7 +2485,7 @@ CalcDifference
 const
 nsStyleImageLayers
 &
-aOther
+aNewLayers
 nsChangeHint
 aPositionChangeHint
 )
@@ -2731,7 +2731,7 @@ CalcDifference
 const
 nsStyleBackground
 &
-aOther
+aNewData
 )
 const
 ;
@@ -2927,7 +2927,7 @@ CalcDifference
 const
 nsStyleMargin
 &
-aOther
+aNewData
 )
 const
 ;
@@ -3127,7 +3127,7 @@ CalcDifference
 const
 nsStylePadding
 &
-aOther
+aNewData
 )
 const
 ;
@@ -4113,7 +4113,7 @@ CalcDifference
 const
 nsStyleBorder
 &
-aOther
+aNewData
 )
 const
 ;
@@ -5097,7 +5097,7 @@ CalcDifference
 const
 nsStyleOutline
 &
-aOther
+aNewData
 )
 const
 ;
@@ -5430,7 +5430,7 @@ CalcDifference
 const
 nsStyleList
 &
-aOther
+aNewData
 )
 const
 ;
@@ -6252,7 +6252,7 @@ CalcDifference
 const
 nsStylePosition
 &
-aOther
+aNewData
 const
 nsStyleVisibility
 *
@@ -7434,7 +7434,7 @@ CalcDifference
 const
 nsStyleTextReset
 &
-aOther
+aNewData
 )
 const
 ;
@@ -7599,7 +7599,7 @@ CalcDifference
 const
 nsStyleText
 &
-aOther
+aNewData
 )
 const
 ;
@@ -8585,7 +8585,7 @@ CalcDifference
 const
 nsStyleVisibility
 &
-aOther
+aNewData
 )
 const
 ;
@@ -9881,7 +9881,7 @@ CalcDifference
 const
 nsStyleDisplay
 &
-aOther
+aNewData
 )
 const
 ;
@@ -10839,7 +10839,7 @@ CalcDifference
 const
 nsStyleTable
 &
-aOther
+aNewData
 )
 const
 ;
@@ -10988,7 +10988,7 @@ CalcDifference
 const
 nsStyleTableBorder
 &
-aOther
+aNewData
 )
 const
 ;
@@ -11374,7 +11374,7 @@ CalcDifference
 const
 nsStyleContent
 &
-aOther
+aNewData
 )
 const
 ;
@@ -11902,7 +11902,7 @@ CalcDifference
 const
 nsStyleUIReset
 &
-aOther
+aNewData
 )
 const
 ;
@@ -12154,7 +12154,7 @@ CalcDifference
 const
 nsStyleUserInterface
 &
-aOther
+aNewData
 )
 const
 ;
@@ -12342,7 +12342,7 @@ CalcDifference
 const
 nsStyleXUL
 &
-aOther
+aNewData
 )
 const
 ;
@@ -12506,7 +12506,7 @@ CalcDifference
 const
 nsStyleColumn
 &
-aOther
+aNewData
 )
 const
 ;
@@ -12848,7 +12848,7 @@ CalcDifference
 const
 nsStyleSVG
 &
-aOther
+aNewData
 )
 const
 ;
@@ -14167,7 +14167,7 @@ CalcDifference
 const
 nsStyleSVGReset
 &
-aOther
+aNewData
 )
 const
 ;
@@ -14378,7 +14378,7 @@ CalcDifference
 const
 nsStyleVariables
 &
-aOther
+aNewData
 )
 const
 ;
@@ -14529,7 +14529,7 @@ CalcDifference
 const
 nsStyleEffects
 &
-aOther
+aNewData
 )
 const
 ;
