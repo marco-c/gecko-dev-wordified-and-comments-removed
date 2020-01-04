@@ -147,8 +147,7 @@ the
 javaparser
 sources
 from
-Google
-Code
+GitHub
 .
 sync
 :
@@ -297,7 +296,7 @@ September
 Henri
 Sivonen
 (
-21
-April
-2010
+11
+August
+2016
 )
