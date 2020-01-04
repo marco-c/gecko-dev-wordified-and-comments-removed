@@ -407,12 +407,6 @@ Id
 )
 const
 ;
-uint16_t
-Stream
-(
-)
-const
-;
 nsresult
 DoOnMessageAvailable
 (
