@@ -1,7 +1,11 @@
 #
 include
 "
-Location
+mozilla
+/
+dom
+/
+WorkerLocation
 .
 h
 "
@@ -16,7 +20,12 @@ WorkerLocationBinding
 .
 h
 "
-BEGIN_WORKERS_NAMESPACE
+namespace
+mozilla
+{
+namespace
+dom
+{
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_0
 (
 WorkerLocation
@@ -40,6 +49,9 @@ WorkerLocation
 :
 Create
 (
+workers
+:
+:
 WorkerPrivate
 :
 :
@@ -140,7 +152,7 @@ aGivenProto
 )
 {
 return
-WorkerLocationBinding_workers
+WorkerLocationBinding
 :
 :
 Wrap
@@ -151,4 +163,5 @@ aGivenProto
 )
 ;
 }
-END_WORKERS_NAMESPACE
+}
+}

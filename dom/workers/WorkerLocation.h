@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_workers_location_h__
+mozilla_dom_location_h__
 #
 define
-mozilla_dom_workers_location_h__
+mozilla_dom_location_h__
 #
 include
 "
@@ -25,7 +25,12 @@ nsWrapperCache
 .
 h
 "
-BEGIN_WORKERS_NAMESPACE
+namespace
+mozilla
+{
+namespace
+dom
+{
 class
 WorkerLocation
 final
@@ -171,6 +176,9 @@ WorkerLocation
 >
 Create
 (
+workers
+:
+:
 WorkerPrivate
 :
 :
@@ -352,6 +360,7 @@ mOrigin
 }
 }
 ;
-END_WORKERS_NAMESPACE
+}
+}
 #
 endif
