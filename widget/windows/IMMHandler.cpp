@@ -8059,6 +8059,8 @@ str
 RFind
 (
 "
+\
+n
 "
 false
 targetOffset
