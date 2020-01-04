@@ -96,11 +96,6 @@ MPL
 DevToolsModules
 (
 '
-tabs
-.
-js
-'
-'
 toolbar
 .
 js
