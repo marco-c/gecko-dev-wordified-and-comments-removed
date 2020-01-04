@@ -98,7 +98,7 @@ milestone
 .
 txt
 endif
-APP_BUILDID
+MOZ_APP_BUILDID
 :
 =
 (
@@ -126,10 +126,10 @@ DEFINES
 +
 =
 -
-DAPP_BUILDID
+DMOZ_APP_BUILDID
 =
 (
-APP_BUILDID
+MOZ_APP_BUILDID
 )
 APP_INI_DEPS
 +

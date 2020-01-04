@@ -837,7 +837,7 @@ because
 of
 things
 like
-APP_BUILDID
+MOZ_APP_BUILDID
 or
 #
 nsURLFormatter
@@ -1917,7 +1917,7 @@ defines
 =
 \
 -
-DAPP_BUILDID
+DMOZ_APP_BUILDID
 =
 (
 shell
