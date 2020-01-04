@@ -148,7 +148,7 @@ assertEq
 (
 order
 "
-ba
+ab
 "
 )
 ;
