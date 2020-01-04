@@ -2912,6 +2912,16 @@ originAttributes
 :
 {
 }
+isContentWindowPrivate
+:
+PrivateBrowsingUtils
+.
+isContentWindowPrivate
+(
+ownerDoc
+.
+defaultView
+)
 }
 ;
 if
