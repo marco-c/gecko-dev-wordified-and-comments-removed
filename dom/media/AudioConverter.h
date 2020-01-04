@@ -920,6 +920,8 @@ Rate
 )
 )
 {
+MOZ_ALWAYS_TRUE
+(
 temp1
 .
 SetLength
@@ -927,6 +929,7 @@ SetLength
 FramesOutToSamples
 (
 frames
+)
 )
 )
 ;
@@ -979,6 +982,9 @@ Rate
 )
 )
 {
+if
+(
+!
 temp2
 .
 SetLength
@@ -991,7 +997,22 @@ frames
 )
 )
 )
+)
+{
+return
+AudioDataBuffer
+<
+Format
+Value
+>
+(
+Move
+(
+temp2
+)
+)
 ;
+}
 outputBuffer
 =
 &
@@ -1038,6 +1059,8 @@ frames
 )
 ;
 }
+MOZ_ALWAYS_TRUE
+(
 outputBuffer
 -
 >
@@ -1046,6 +1069,7 @@ SetLength
 FramesOutToSamples
 (
 frames
+)
 )
 )
 ;
