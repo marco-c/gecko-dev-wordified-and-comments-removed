@@ -609,6 +609,15 @@ additional_source_tarballs
 "
 :
 [
+"
+backup
+-
+aries
+.
+tar
+.
+xz
+"
 ]
 "
 gecko_l10n_root
