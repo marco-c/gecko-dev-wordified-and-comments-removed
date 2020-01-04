@@ -350,7 +350,7 @@ addonID
 )
 {
 let
-job
+deferred
 =
 promise
 .
@@ -382,7 +382,7 @@ options
 .
 addonID
 ;
-job
+deferred
 .
 resolve
 (
@@ -395,7 +395,9 @@ jobs
 .
 push
 (
-job
+deferred
+.
+promise
 )
 ;
 }
@@ -1188,6 +1190,15 @@ emit
 "
 updated
 "
+{
+length
+:
+this
+.
+_simulators
+.
+length
+}
 )
 ;
 this
