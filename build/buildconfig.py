@@ -12,7 +12,9 @@ path
 .
 dirname
 (
-__file__
+sys
+.
+executable
 )
 while
 not

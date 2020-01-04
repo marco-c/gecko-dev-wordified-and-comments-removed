@@ -222,13 +222,6 @@ pth
 tools
 /
 docs
-copy
-:
-build
-/
-buildconfig
-.
-py
 packages
 .
 txt
