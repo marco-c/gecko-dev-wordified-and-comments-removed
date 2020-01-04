@@ -968,6 +968,16 @@ mReadBufferMode
 readBufferMode
 ;
 }
+GLenum
+ReadBufferMode
+(
+)
+const
+{
+return
+mReadBufferMode
+;
+}
 protected
 :
 WebGLFBAttachPoint
