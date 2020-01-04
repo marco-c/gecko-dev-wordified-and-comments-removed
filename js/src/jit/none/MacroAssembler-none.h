@@ -4045,17 +4045,6 @@ MOZ_CRASH
 )
 ;
 }
-void
-clampIntToUint8
-(
-Register
-)
-{
-MOZ_CRASH
-(
-)
-;
-}
 Register
 splitTagForTest
 (

@@ -5354,7 +5354,7 @@ int32_t
 ;
 }
 void
-MacroAssemblerX86Shared
+MacroAssembler
 :
 :
 clampIntToUint8
@@ -5366,10 +5366,6 @@ reg
 Label
 inRange
 ;
-asMasm
-(
-)
-.
 branchTest32
 (
 Assembler

@@ -7127,6 +7127,17 @@ builtin
 ;
 public
 :
+inline
+void
+clampIntToUint8
+(
+Register
+reg
+)
+PER_SHARED_ARCH
+;
+public
+:
 template
 <
 typename
