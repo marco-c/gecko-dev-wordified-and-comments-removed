@@ -866,7 +866,7 @@ HTMLEditor
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 HTMLEditor
-nsPlaintextEditor
+TextEditor
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
@@ -887,7 +887,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 HTMLEditor
-nsPlaintextEditor
+TextEditor
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -1050,7 +1050,7 @@ nsIMutationObserver
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsPlaintextEditor
+TextEditor
 )
 NS_IMETHODIMP
 HTMLEditor
@@ -1134,7 +1134,7 @@ rulesRes
 ;
 result
 =
-nsPlaintextEditor
+TextEditor
 :
 :
 Init
@@ -1454,7 +1454,7 @@ HideAnonymousEditingUIs
 )
 ;
 return
-nsPlaintextEditor
+TextEditor
 :
 :
 PreDestroy
@@ -1988,7 +1988,7 @@ mResizeEventListenerP
 =
 nullptr
 ;
-nsPlaintextEditor
+TextEditor
 :
 :
 RemoveEventListeners
@@ -2009,7 +2009,7 @@ aFlags
 nsresult
 rv
 =
-nsPlaintextEditor
+TextEditor
 :
 :
 SetFlags
@@ -2070,7 +2070,7 @@ Init
 (
 static_cast
 <
-nsPlaintextEditor
+TextEditor
 *
 >
 (
@@ -2573,7 +2573,7 @@ IsPlaintextEditor
 )
 {
 return
-nsPlaintextEditor
+TextEditor
 :
 :
 HandleKeyPressEvent
@@ -4511,7 +4511,7 @@ brNode
 ;
 }
 return
-nsPlaintextEditor
+TextEditor
 :
 :
 TypedText
@@ -22871,7 +22871,7 @@ aNode
 if
 (
 !
-nsPlaintextEditor
+TextEditor
 :
 :
 IsEditable

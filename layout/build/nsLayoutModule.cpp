@@ -884,13 +884,6 @@ h
 #
 include
 "
-nsPlaintextEditor
-.
-h
-"
-#
-include
-"
 mozilla
 /
 EditorController
@@ -1690,7 +1683,7 @@ NS_HAPTICFEEDBACK_CID
 }
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
-nsPlaintextEditor
+TextEditor
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
@@ -5212,7 +5205,7 @@ NS_NewJSON
 kNS_TEXTEDITOR_CID
 false
 nullptr
-nsPlaintextEditorConstructor
+TextEditorConstructor
 }
 {
 &

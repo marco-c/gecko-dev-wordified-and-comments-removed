@@ -107,9 +107,6 @@ class
 nsINode
 ;
 class
-nsPlaintextEditor
-;
-class
 nsRange
 ;
 namespace
@@ -120,6 +117,9 @@ HTMLEditor
 ;
 class
 RulesInfo
+;
+class
+TextEditor
 ;
 struct
 EditorDOMPoint
@@ -234,7 +234,7 @@ HTMLEditRules
 NS_IMETHOD
 Init
 (
-nsPlaintextEditor
+TextEditor
 *
 aTextEditor
 )

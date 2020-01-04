@@ -294,13 +294,6 @@ h
 #
 include
 "
-nsPlaintextEditor
-.
-h
-"
-#
-include
-"
 nsRange
 .
 h
@@ -1258,7 +1251,7 @@ HTMLEditRules
 :
 Init
 (
-nsPlaintextEditor
+TextEditor
 *
 aTextEditor
 )
@@ -7201,7 +7194,7 @@ if
 mBogusNode
 )
 {
-mEditor
+mTextEditor
 -
 >
 DeleteNode
@@ -12041,7 +12034,7 @@ offset
 nsresult
 res
 =
-mEditor
+mTextEditor
 -
 >
 GetStartNodeAndOffset
@@ -13980,7 +13973,7 @@ startOffset
 nsresult
 res
 =
-mEditor
+mTextEditor
 -
 >
 GetStartNodeAndOffset
@@ -17779,7 +17772,7 @@ curQuote
 if
 (
 !
-mEditor
+mTextEditor
 -
 >
 CanContainTag
@@ -18902,7 +18895,7 @@ curQuote
 if
 (
 !
-mEditor
+mTextEditor
 -
 >
 CanContainTag
@@ -22470,7 +22463,7 @@ i
 if
 (
 !
-mEditor
+mTextEditor
 -
 >
 CanContainTag
@@ -30337,7 +30330,7 @@ tmp
 ;
 res
 =
-mEditor
+mTextEditor
 -
 >
 SplitNode
@@ -31568,7 +31561,7 @@ newListItem
 ;
 res
 =
-mEditor
+mTextEditor
 -
 >
 DeleteNode
@@ -41909,7 +41902,7 @@ if
 mBogusNode
 )
 {
-mEditor
+mTextEditor
 -
 >
 DeleteNode

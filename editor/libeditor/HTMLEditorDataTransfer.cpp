@@ -493,13 +493,6 @@ h
 #
 include
 "
-nsPlaintextEditor
-.
-h
-"
-#
-include
-"
 nsRange
 .
 h
@@ -7242,7 +7235,7 @@ trans
 ;
 rv
 =
-nsPlaintextEditor
+TextEditor
 :
 :
 PrepareTransferable
@@ -8605,7 +8598,7 @@ aAddCites
 )
 rv
 =
-nsPlaintextEditor
+TextEditor
 :
 :
 InsertAsQuotation
@@ -8617,7 +8610,7 @@ aNodeInserted
 else
 rv
 =
-nsPlaintextEditor
+TextEditor
 :
 :
 InsertText
@@ -8722,7 +8715,7 @@ StripCites
 )
 {
 return
-nsPlaintextEditor
+TextEditor
 :
 :
 StripCites
@@ -8741,7 +8734,7 @@ aRespectNewlines
 )
 {
 return
-nsPlaintextEditor
+TextEditor
 :
 :
 Rewrap

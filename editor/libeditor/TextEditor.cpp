@@ -1,7 +1,9 @@
 #
 include
 "
-nsPlaintextEditor
+mozilla
+/
+TextEditor
 .
 h
 "
@@ -402,31 +404,20 @@ nsISupports
 class
 nsISupportsArray
 ;
-using
 namespace
 mozilla
-;
+{
 using
 namespace
-mozilla
-:
-:
 dom
 ;
-nsPlaintextEditor
+TextEditor
 :
 :
-nsPlaintextEditor
+TextEditor
 (
 )
 :
-nsEditor
-(
-)
-mRules
-(
-nullptr
-)
 mWrapColumn
 (
 0
@@ -470,11 +461,11 @@ mCaretStyle
 )
 ;
 }
-nsPlaintextEditor
+TextEditor
 :
 :
 ~
-nsPlaintextEditor
+TextEditor
 (
 )
 {
@@ -496,11 +487,11 @@ DetachEditor
 }
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
-nsPlaintextEditor
+TextEditor
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
-nsPlaintextEditor
+TextEditor
 nsEditor
 )
 if
@@ -527,7 +518,7 @@ mRules
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
-nsPlaintextEditor
+TextEditor
 nsEditor
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
@@ -537,17 +528,17 @@ mRules
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_ADDREF_INHERITED
 (
-nsPlaintextEditor
+TextEditor
 nsEditor
 )
 NS_IMPL_RELEASE_INHERITED
 (
-nsPlaintextEditor
+TextEditor
 nsEditor
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
-nsPlaintextEditor
+TextEditor
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -562,7 +553,7 @@ NS_INTERFACE_MAP_END_INHERITING
 nsEditor
 )
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 Init
@@ -795,7 +786,7 @@ endif
 }
 }
 void
-nsPlaintextEditor
+TextEditor
 :
 :
 GetDefaultEditorPrefs
@@ -882,7 +873,7 @@ sCaretStylePref
 ;
 }
 void
-nsPlaintextEditor
+TextEditor
 :
 :
 BeginEditorInit
@@ -895,7 +886,7 @@ mInitTriggerCounter
 ;
 }
 nsresult
-nsPlaintextEditor
+TextEditor
 :
 :
 EndEditorInit
@@ -966,7 +957,7 @@ res
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 SetDocumentCharacterSet
@@ -1212,7 +1203,7 @@ NS_OK
 ;
 }
 bool
-nsPlaintextEditor
+TextEditor
 :
 :
 UpdateMetaCharset
@@ -1501,7 +1492,7 @@ false
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 InitRules
@@ -1533,7 +1524,7 @@ this
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 GetIsDocumentEditable
@@ -1573,7 +1564,7 @@ NS_OK
 ;
 }
 bool
-nsPlaintextEditor
+TextEditor
 :
 :
 IsModifiable
@@ -1588,7 +1579,7 @@ IsReadonly
 ;
 }
 nsresult
-nsPlaintextEditor
+TextEditor
 :
 :
 HandleKeyPressEvent
@@ -1934,7 +1925,7 @@ eTypedText
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 TypedText
@@ -1988,7 +1979,7 @@ NS_ERROR_FAILURE
 }
 Element
 *
-nsPlaintextEditor
+TextEditor
 :
 :
 CreateBRImpl
@@ -2064,7 +2055,7 @@ ret
 ;
 }
 nsresult
-nsPlaintextEditor
+TextEditor
 :
 :
 CreateBRImpl
@@ -2422,7 +2413,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 CreateBR
@@ -2470,7 +2461,7 @@ aSelect
 ;
 }
 nsresult
-nsPlaintextEditor
+TextEditor
 :
 :
 InsertBR
@@ -2633,7 +2624,7 @@ selOffset
 ;
 }
 nsresult
-nsPlaintextEditor
+TextEditor
 :
 :
 ExtendSelectionForDelete
@@ -3012,7 +3003,7 @@ result
 ;
 }
 nsresult
-nsPlaintextEditor
+TextEditor
 :
 :
 DeleteSelection
@@ -3256,7 +3247,7 @@ result
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 InsertText
@@ -3435,7 +3426,7 @@ res
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 InsertLineBreak
@@ -3786,7 +3777,7 @@ res
 ;
 }
 nsresult
-nsPlaintextEditor
+TextEditor
 :
 :
 BeginIMEComposition
@@ -3861,7 +3852,7 @@ aEvent
 ;
 }
 nsresult
-nsPlaintextEditor
+TextEditor
 :
 :
 UpdateIMEComposition
@@ -4070,7 +4061,7 @@ already_AddRefed
 <
 nsIContent
 >
-nsPlaintextEditor
+TextEditor
 :
 :
 GetInputEventTargetContent
@@ -4097,7 +4088,7 @@ forget
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 GetDocumentIsEmpty
@@ -4139,7 +4130,7 @@ aDocumentIsEmpty
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 GetTextLength
@@ -4337,7 +4328,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 SetMaxTextLength
@@ -4355,7 +4346,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 GetMaxTextLength
@@ -4381,7 +4372,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 GetWrapWidth
@@ -4488,7 +4479,7 @@ styleStart
 }
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 SetWrapWidth
@@ -4738,7 +4729,7 @@ true
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 SetWrapColumn
@@ -4756,7 +4747,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 GetNewlineHandling
@@ -4781,7 +4772,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 SetNewlineHandling
@@ -4799,7 +4790,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 Undo
@@ -4932,7 +4923,7 @@ result
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 Redo
@@ -5065,7 +5056,7 @@ result
 ;
 }
 bool
-nsPlaintextEditor
+TextEditor
 :
 :
 CanCutOrCopy
@@ -5120,7 +5111,7 @@ Collapsed
 ;
 }
 bool
-nsPlaintextEditor
+TextEditor
 :
 :
 FireClipboardEvent
@@ -5209,7 +5200,7 @@ mDidPreDestroy
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 Cut
@@ -5251,7 +5242,7 @@ NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 CanCut
@@ -5309,7 +5300,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 Copy
@@ -5341,7 +5332,7 @@ NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 CanCopy
@@ -5392,7 +5383,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 CanDelete
@@ -5425,7 +5416,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 GetAndInitDocEncoder
@@ -5692,7 +5683,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 OutputToString
@@ -5879,7 +5870,7 @@ aOutputString
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 OutputToStream
@@ -5977,7 +5968,7 @@ aOutputStream
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 InsertTextWithQuotations
@@ -5996,7 +5987,7 @@ aStringToInsert
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 PasteAsQuotation
@@ -6210,7 +6201,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 InsertAsQuotation
@@ -6409,7 +6400,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 PasteAsCitedQuotation
@@ -6427,7 +6418,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 InsertAsCitedQuotation
@@ -6457,7 +6448,7 @@ aNodeInserted
 ;
 }
 nsresult
-nsPlaintextEditor
+TextEditor
 :
 :
 SharedOutputString
@@ -6529,7 +6520,7 @@ aResult
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 Rewrap
@@ -6641,7 +6632,7 @@ wrapped
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 StripCites
@@ -6720,7 +6711,7 @@ stripped
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 GetEmbeddedObjects
@@ -6741,7 +6732,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 StartOperation
@@ -6792,7 +6783,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPlaintextEditor
+TextEditor
 :
 :
 EndOperation
@@ -6840,7 +6831,7 @@ res
 ;
 }
 nsresult
-nsPlaintextEditor
+TextEditor
 :
 :
 SelectEntireDocument
@@ -7036,15 +7027,9 @@ NS_OK
 }
 already_AddRefed
 <
-mozilla
-:
-:
-dom
-:
-:
 EventTarget
 >
-nsPlaintextEditor
+TextEditor
 :
 :
 GetDOMEventTarget
@@ -7053,12 +7038,6 @@ GetDOMEventTarget
 {
 nsCOMPtr
 <
-mozilla
-:
-:
-dom
-:
-:
 EventTarget
 >
 copy
@@ -7074,7 +7053,7 @@ forget
 ;
 }
 nsresult
-nsPlaintextEditor
+TextEditor
 :
 :
 SetAttributeOrEquivalent
@@ -7107,7 +7086,7 @@ aValue
 ;
 }
 nsresult
-nsPlaintextEditor
+TextEditor
 :
 :
 RemoveAttributeOrEquivalent
@@ -7133,4 +7112,5 @@ aElement
 aAttribute
 )
 ;
+}
 }
