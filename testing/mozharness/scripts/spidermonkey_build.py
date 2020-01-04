@@ -1204,6 +1204,22 @@ dirs
 abs_blob_upload_dir
 '
 ]
+        
+self
+.
+env
+[
+'
+TOOLTOOL_DIR
+'
+]
+=
+dirs
+[
+'
+abs_work_dir
+'
+]
     
 def
 query_abs_dirs

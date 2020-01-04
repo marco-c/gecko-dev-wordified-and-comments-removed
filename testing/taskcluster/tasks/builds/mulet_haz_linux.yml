@@ -237,6 +237,8 @@ hazards
 TOOLTOOL_MANIFEST
 :
 '
+gecko
+/
 b2g
 /
 dev

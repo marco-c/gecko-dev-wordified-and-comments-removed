@@ -62,7 +62,7 @@ export
 CC
 =
 "
-GECKO_DIR
+TOOLTOOL_DIR
 /
 gcc
 /
@@ -74,7 +74,7 @@ export
 CXX
 =
 "
-GECKO_DIR
+TOOLTOOL_DIR
 /
 gcc
 /
@@ -212,7 +212,7 @@ GECKO_DIR
 sixgill
 =
 "
-GECKO_DIR
+TOOLTOOL_DIR
 /
 sixgill
 /
@@ -225,7 +225,7 @@ sixgill
 sixgill_bin
 =
 "
-GECKO_DIR
+TOOLTOOL_DIR
 /
 sixgill
 /

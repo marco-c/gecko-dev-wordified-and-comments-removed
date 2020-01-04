@@ -104,7 +104,12 @@ install
 packages
 .
 sh
+{
+TOOLTOOL_DIR
+:
+-
 GECKO_DIR
+}
 #
 Ensure
 object

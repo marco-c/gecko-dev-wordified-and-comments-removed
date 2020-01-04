@@ -43,9 +43,7 @@ compiler
 -
 wrapper
 =
-(
-cd
-topsrcdir
+TOOLTOOL_DIR
 /
 sixgill
 /
@@ -58,11 +56,6 @@ sixgill
 scripts
 /
 wrap_gcc
-&
-&
-echo
-PWD
-)
 /
 basecc
 ac_add_options
