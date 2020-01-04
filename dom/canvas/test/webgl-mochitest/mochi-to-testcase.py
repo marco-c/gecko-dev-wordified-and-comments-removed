@@ -146,8 +146,6 @@ kSimpleTestReplacement
 '
 '
 '
-\
-n
 <
 script
 >
@@ -358,6 +356,14 @@ function
 )
 {
 }
+  
+requestFlakyTimeout
+:
+function
+(
+)
+{
+}
 }
 ;
 <
@@ -382,8 +388,6 @@ output
 /
 div
 >
-\
-n
 '
 '
 '
