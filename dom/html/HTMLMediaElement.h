@@ -2685,7 +2685,7 @@ ReportEMETelemetry
 #
 endif
 void
-ReportMSETelemetry
+ReportTelemetry
 (
 )
 ;
