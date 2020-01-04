@@ -235,3 +235,17 @@ printUtils
 .
 js
 )
+content
+/
+global
+/
+simplifyMode
+.
+css
+(
+content
+/
+simplifyMode
+.
+css
+)

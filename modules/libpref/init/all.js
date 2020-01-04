@@ -1342,6 +1342,16 @@ percent
 pref
 (
 "
+print
+.
+use_simplify_page
+"
+false
+)
+;
+pref
+(
+"
 mathml
 .
 scale_stretchy_operators
