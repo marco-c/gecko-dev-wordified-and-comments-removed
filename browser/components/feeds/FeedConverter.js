@@ -1127,8 +1127,9 @@ scriptSecurityManager
 createCodebasePrincipal
 (
 aboutFeedsURI
-{
-}
+loadInfo
+.
+originAttributes
 )
 ;
 }
