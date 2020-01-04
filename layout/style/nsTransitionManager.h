@@ -134,6 +134,10 @@ const
 TimingParams
 &
 aTiming
+StyleAnimationValue
+aStartForReversingTest
+double
+aReversePortion
 )
 :
 dom
@@ -145,6 +149,14 @@ aDocument
 aTarget
 aPseudoType
 aTiming
+)
+mStartForReversingTest
+(
+aStartForReversingTest
+)
+mReversePortion
+(
+aReversePortion
 )
 {
 }
