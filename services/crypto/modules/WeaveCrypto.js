@@ -3085,6 +3085,8 @@ generateRandomIV
 function
 (
 )
+{
+return
 this
 .
 generateRandomBytes
@@ -3093,6 +3095,8 @@ this
 .
 ivLength
 )
+;
+}
 generateRandomBytes
 :
 function
