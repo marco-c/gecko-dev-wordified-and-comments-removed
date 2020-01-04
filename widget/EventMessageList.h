@@ -875,6 +875,14 @@ ePointerLockError
 )
 NS_EVENT_MESSAGE
 (
+eMozPointerLockChange
+)
+NS_EVENT_MESSAGE
+(
+eMozPointerLockError
+)
+NS_EVENT_MESSAGE
+(
 eWheel
 )
 NS_EVENT_MESSAGE

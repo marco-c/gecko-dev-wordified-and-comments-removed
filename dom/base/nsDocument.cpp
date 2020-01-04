@@ -41635,7 +41635,7 @@ false
 )
 ;
 }
-MozExitPointerLock
+ExitPointerLock
 (
 )
 ;
@@ -53669,7 +53669,7 @@ aTarget
 NS_LITERAL_STRING
 (
 "
-mozpointerlockchange
+pointerlockchange
 "
 )
 true
@@ -53719,7 +53719,7 @@ aTarget
 NS_LITERAL_STRING
 (
 "
-mozpointerlockerror
+pointerlockerror
 "
 )
 true
@@ -55087,7 +55087,7 @@ MozExitPointerLock
 nsIDocument
 :
 :
-MozExitPointerLock
+ExitPointerLock
 (
 )
 ;
@@ -55114,7 +55114,7 @@ el
 nsIDocument
 :
 :
-GetMozPointerLockElement
+GetPointerLockElement
 (
 )
 ;
@@ -55145,7 +55145,7 @@ Element
 nsIDocument
 :
 :
-GetMozPointerLockElement
+GetPointerLockElement
 (
 )
 {

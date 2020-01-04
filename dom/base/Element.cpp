@@ -14913,7 +14913,7 @@ void
 Element
 :
 :
-MozRequestPointerLock
+RequestPointerLock
 (
 )
 {
