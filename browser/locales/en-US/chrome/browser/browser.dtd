@@ -1812,11 +1812,14 @@ r
 <
 !
 ENTITY
-feedsMenu
+feedsMenu2
 .
 label
 "
 Subscribe
+to
+This
+Page
 "
 >
 <
