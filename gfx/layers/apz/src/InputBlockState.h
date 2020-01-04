@@ -988,6 +988,8 @@ const
 MultiTouchInput
 &
 aInput
+bool
+aApzcCanConsumeEvents
 )
 ;
 bool
