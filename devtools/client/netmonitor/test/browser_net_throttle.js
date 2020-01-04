@@ -51,6 +51,7 @@ SIMPLE_URL
 const
 {
 ACTIVITY_TYPE
+EVENTS
 NetMonitorController
 NetMonitorView
 }
@@ -180,10 +181,6 @@ panelWin
 .
 once
 (
-monitor
-.
-panelWin
-.
 EVENTS
 .
 RECEIVED_EVENT_TIMINGS
