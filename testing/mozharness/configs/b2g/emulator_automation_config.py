@@ -666,21 +666,6 @@ s
 "
                 
 "
--
--
-suite
-=
-crashtest
-"
-            
-]
-            
-"
-tests
-"
-:
-[
-"
 tests
 /
 testing
@@ -691,6 +676,7 @@ crashtests
 .
 list
 "
+            
 ]
             
 "
@@ -892,14 +878,7 @@ user
 .
 js
 "
-            
-]
-            
-"
-tests
-"
-:
-[
+                
 "
 jsreftest
 /
@@ -909,6 +888,7 @@ jstests
 .
 list
 "
+            
 ]
             
 "
@@ -1596,14 +1576,7 @@ enable
 -
 oop
 "
-            
-]
-            
-"
-tests
-"
-:
-[
+                
 "
 tests
 /
@@ -1615,6 +1588,7 @@ reftest
 .
 list
 "
+            
 ]
             
 "

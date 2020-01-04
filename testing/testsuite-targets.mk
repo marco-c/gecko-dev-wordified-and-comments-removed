@@ -1454,9 +1454,11 @@ SYMBOLS_PATH
 (
 EXTRA_TEST_ARGS
 )
+'
 (
 1
 )
+'
 |
 tee
 .
@@ -1862,13 +1864,11 @@ tests
 (
 call
 REMOTE_REFTEST
-'
 tests
 /
 (
 TEST_PATH
 )
-'
 )
 ;
 \
