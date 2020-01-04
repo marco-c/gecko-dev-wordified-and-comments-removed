@@ -735,14 +735,6 @@ WidgetToScreenOffset
 override
 ;
 NS_IMETHOD
-EnableDragDrop
-(
-bool
-aEnable
-)
-override
-;
-NS_IMETHOD
 CaptureMouse
 (
 bool

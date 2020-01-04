@@ -1077,13 +1077,16 @@ GetClientOffset
 )
 override
 ;
-NS_IMETHOD
+virtual
+void
 EnableDragDrop
 (
 bool
 aEnable
 )
 override
+{
+}
 ;
 NS_IMETHOD
 GetAttention
