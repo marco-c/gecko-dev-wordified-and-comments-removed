@@ -498,12 +498,12 @@ contentType
 )
 ;
 nsContentPolicyType
-externalTypeOrPreload
+externalTypeOrCSPInternal
 =
 nsContentUtils
 :
 :
-InternalContentPolicyTypeToExternalOrPreload
+InternalContentPolicyTypeToExternalOrCSPInternal
 (
 contentType
 )
@@ -615,7 +615,7 @@ isCSP
 {
 type
 =
-externalTypeOrPreload
+externalTypeOrCSPInternal
 ;
 }
 rv
