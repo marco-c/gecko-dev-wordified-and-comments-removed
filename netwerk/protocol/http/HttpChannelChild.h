@@ -751,6 +751,8 @@ DoOnStopRequest
 nsIRequest
 *
 aRequest
+nsresult
+aChannelStatus
 nsISupports
 *
 aContext

@@ -660,6 +660,7 @@ mOwner
 DoOnStopRequest
 (
 mOwner
+aStatusCode
 mContext
 )
 ;
@@ -3592,6 +3593,7 @@ mEventQ
 DoOnStopRequest
 (
 this
+channelStatus
 mListenerContext
 )
 ;
@@ -3695,6 +3697,8 @@ DoOnStopRequest
 nsIRequest
 *
 aRequest
+nsresult
+aChannelStatus
 nsISupports
 *
 aContext
@@ -3729,7 +3733,7 @@ mIsPending
 ;
 if
 (
-mStatus
+aChannelStatus
 =
 =
 NS_ERROR_TRACKING_URI
