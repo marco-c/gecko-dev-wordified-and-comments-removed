@@ -3048,6 +3048,7 @@ json
 .
 message
 ;
+return
 this
 .
 _chromeScriptListeners
@@ -3075,7 +3076,7 @@ id
 )
 )
 .
-forEach
+map
 (
 o
 =
@@ -3087,9 +3088,6 @@ listener
 message
 )
 )
-;
-return
-undefined
 ;
 }
 case
