@@ -4573,7 +4573,7 @@ info
 >
 var1
 .
-u32
+i32
 =
 x_offset
 ;
@@ -4582,7 +4582,7 @@ info
 >
 var2
 .
-u32
+i32
 =
 y_offset
 ;
@@ -5044,7 +5044,7 @@ info
 >
 var1
 .
-u32
+i32
 =
 x_offset
 ;
@@ -5053,7 +5053,7 @@ info
 >
 var2
 .
-u32
+i32
 =
 positions
 [
@@ -5172,7 +5172,7 @@ info
 >
 var1
 .
-u32
+i32
 =
 positions
 [
@@ -5188,7 +5188,7 @@ info
 >
 var2
 .
-u32
+i32
 =
 y_offset
 ;
@@ -5229,6 +5229,11 @@ len
 num_glyphs
 ;
 }
+if
+(
+0
+)
+{
 bool
 backward
 =
@@ -5268,6 +5273,7 @@ kCTRunStatusRightToLeft
 backward
 )
 ;
+}
 buffer
 -
 >
@@ -5351,7 +5357,7 @@ info
 >
 var1
 .
-u32
+i32
 ;
 pos
 -
@@ -5363,7 +5369,7 @@ info
 >
 var2
 .
-u32
+i32
 ;
 info
 +
@@ -5411,7 +5417,7 @@ info
 >
 var1
 .
-u32
+i32
 ;
 pos
 -
@@ -5423,7 +5429,7 @@ info
 >
 var2
 .
-u32
+i32
 ;
 info
 +

@@ -292,7 +292,7 @@ num_glyphs
 return
 NULL
 ;
-hb_bubble_sort
+hb_stable_sort
 (
 &
 glyphs
@@ -624,7 +624,7 @@ num_first_glyphs
 +
 ;
 }
-hb_bubble_sort
+hb_stable_sort
 (
 &
 first_glyphs

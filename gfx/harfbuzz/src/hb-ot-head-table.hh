@@ -166,14 +166,14 @@ lowestRecPPEM
 SHORT
 fontDirectionHint
 ;
+public
+:
 SHORT
 indexToLocFormat
 ;
 SHORT
 glyphDataFormat
 ;
-public
-:
 DEFINE_SIZE_STATIC
 (
 54

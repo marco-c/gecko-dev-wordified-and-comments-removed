@@ -1315,6 +1315,15 @@ else
 if
 (
 start
+&
+&
+buffer
+-
+>
+cluster_level
+=
+=
+HB_BUFFER_CLUSTER_LEVEL_MONOTONE_GRAPHEMES
 )
 buffer
 -
