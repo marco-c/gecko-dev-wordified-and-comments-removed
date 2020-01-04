@@ -875,6 +875,16 @@ color
 ;
 }
 ;
+enum
+class
+JobStatus
+{
+Complete
+Wait
+Yield
+Error
+}
+;
 }
 }
 #
