@@ -200,6 +200,17 @@ const
 ;
 #
 endif
+RawServoStyleSheet
+*
+RawSheet
+(
+)
+const
+{
+return
+mSheet
+;
+}
 protected
 :
 ~
