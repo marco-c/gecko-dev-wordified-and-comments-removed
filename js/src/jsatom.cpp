@@ -2152,7 +2152,7 @@ lookup
 atom
 )
 ;
-MOZ_ASSERT
+if
 (
 cx
 -
@@ -2161,7 +2161,7 @@ isPermanentAtomsInitialized
 (
 )
 )
-;
+{
 AtomSet
 :
 :
@@ -2188,12 +2188,17 @@ return
 &
 atom
 ;
+}
 AutoLockForExclusiveAccess
 lock
 (
 cx
 )
 ;
+AtomSet
+:
+:
+Ptr
 p
 =
 cx
