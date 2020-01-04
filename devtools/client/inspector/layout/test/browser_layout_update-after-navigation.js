@@ -16,7 +16,7 @@ addTab
 TEST_URL_ROOT
 +
 "
-doc_layoutview_iframe1
+doc_layout_iframe1
 .
 html
 "
@@ -237,7 +237,7 @@ navigateTo
 TEST_URL_ROOT
 +
 "
-doc_layoutview_iframe2
+doc_layout_iframe2
 .
 html
 "
