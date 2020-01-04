@@ -3316,8 +3316,14 @@ it
 allocIndex
 )
 ;
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+!
+snapshots_
+.
+oom
+(
+)
 allocWritten
 +
 1

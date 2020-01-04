@@ -2536,9 +2536,17 @@ alloc
 offset
 )
 )
+{
+allocWriter_
+.
+setOOM
+(
+)
+;
 return
 false
 ;
+}
 }
 else
 {
