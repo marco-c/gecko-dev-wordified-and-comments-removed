@@ -495,24 +495,6 @@ optimized
 False
         
 elif
-any
-(
-not
-t
-.
-optimized
-for
-t
-in
-dependencies
-)
-:
-            
-optimized
-=
-False
-        
-elif
 existing_tasks
 is
 not

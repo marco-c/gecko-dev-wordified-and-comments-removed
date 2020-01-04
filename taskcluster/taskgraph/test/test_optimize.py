@@ -1174,15 +1174,13 @@ self
 assertEqual
     
 def
-test_annotate_task_graph_nos_propagate
+test_annotate_task_graph_nos_do_not_propagate
 (
 self
 )
 :
         
 "
-annotating
-marks
 a
 task
 with
@@ -1191,9 +1189,8 @@ non
 -
 optimized
 dependency
-as
-non
--
+can
+be
 optimized
 "
         
@@ -1323,8 +1320,10 @@ None
 task2
 =
 (
-False
-None
+True
+'
+taskid
+'
 )
             
 task3
