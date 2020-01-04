@@ -132,6 +132,12 @@ mozilla
 =
 [
 '
+!
+TelemetryHistogramEnums
+.
+h
+'
+'
 ProcessedStack
 .
 h

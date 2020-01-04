@@ -248,6 +248,12 @@ EXPORTS
 =
 [
 '
+!
+nsStyleStructList
+.
+h
+'
+'
 AnimationCommon
 .
 h
