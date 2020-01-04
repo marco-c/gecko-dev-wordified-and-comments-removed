@@ -108,6 +108,7 @@ util
 .
 List
 ;
+public
 class
 HomeAdapter
 extends
@@ -143,10 +144,10 @@ private
 OnAddPanelListener
 mAddPanelListener
 ;
+public
 interface
 OnAddPanelListener
 {
-public
 void
 onAddPanel
 (
