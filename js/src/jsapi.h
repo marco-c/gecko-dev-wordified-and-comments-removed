@@ -18564,6 +18564,11 @@ macro
 \
 macro
 (
+isConcatSpreadable
+)
+\
+macro
+(
 iterator
 )
 \
