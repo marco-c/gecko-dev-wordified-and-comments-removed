@@ -2618,6 +2618,15 @@ as
 <
 !
 ENTITY
+fxaccount_status_manage_account
+'
+Manage
+account
+'
+>
+<
+!
+ENTITY
 fxaccount_status_auth_server
 '
 Account
