@@ -183,6 +183,9 @@ string
 >
 mCcmFbTypes
 ;
+bool
+mRembFbSet
+;
 EncodingConstraints
 mEncodingConstraints
 ;
@@ -504,6 +507,16 @@ true
 }
 return
 false
+;
+}
+bool
+RtcpFbRembIsSet
+(
+)
+const
+{
+return
+mRembFbSet
 ;
 }
 }

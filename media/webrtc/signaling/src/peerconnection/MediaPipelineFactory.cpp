@@ -763,6 +763,17 @@ desc
 .
 mCcmFbTypes
 ;
+configRaw
+-
+>
+mRembFbSet
+=
+desc
+.
+RtcpFbRembIsSet
+(
+)
+;
 *
 aConfig
 =
