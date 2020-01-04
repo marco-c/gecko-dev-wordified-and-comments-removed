@@ -39,11 +39,17 @@ JSContext
 cx
 unsigned
 argc
+JS
+:
+:
 Value
 *
 vp
 )
 {
+JS
+:
+:
 CallArgs
 args
 =

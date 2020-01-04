@@ -49,6 +49,17 @@ include
 "
 vm
 /
+NativeObject
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 Shape
 -
 inl

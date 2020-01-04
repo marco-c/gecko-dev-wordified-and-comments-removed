@@ -199,6 +199,9 @@ xc7X
 "
 }
 ;
+JS
+:
+:
 RootedObject
 badClassName
 (
