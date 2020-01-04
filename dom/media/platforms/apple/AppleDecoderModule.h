@@ -117,10 +117,6 @@ static
 bool
 sIsVTHWAvailable
 ;
-static
-bool
-sIsVDAAvailable
-;
 }
 ;
 }
