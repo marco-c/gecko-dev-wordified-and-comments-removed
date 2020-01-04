@@ -772,10 +772,6 @@ mVisible
 true
 )
 {
-ResetPermissionManagerStatus
-(
-)
-;
 mRemoteFrame
 =
 ShouldUseRemoteProcess
@@ -1900,6 +1896,10 @@ NS_ENSURE_SUCCESS
 (
 rv
 rv
+)
+;
+ResetPermissionManagerStatus
+(
 )
 ;
 return
@@ -11787,6 +11787,9 @@ if
 XRE_IsContentProcess
 (
 )
+|
+|
+mRemoteFrame
 )
 {
 return
