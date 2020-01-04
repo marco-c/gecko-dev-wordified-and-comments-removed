@@ -14898,13 +14898,6 @@ restylableAnonymousNode
 )
 GK_ATOM
 (
-paintRequestTime
-"
-PaintRequestTime
-"
-)
-GK_ATOM
-(
 Japanese
 "
 ja

@@ -1593,15 +1593,6 @@ apz
 /
 src
 /
-CheckerboardEvent
-.
-cpp
-'
-'
-apz
-/
-src
-/
 GestureEventListener
 .
 cpp

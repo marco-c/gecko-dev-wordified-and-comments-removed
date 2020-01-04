@@ -229,9 +229,6 @@ class
 StateChangeNotificationBlocker
 ;
 class
-CheckerboardEvent
-;
-class
 AsyncPanZoomController
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -382,8 +379,6 @@ FrameMetrics
 aLayerMetrics
 bool
 aIsFirstPaint
-bool
-aThisLayerTreeUpdated
 )
 ;
 void
@@ -1014,10 +1009,6 @@ const
 FrameMetrics
 &
 aFrameMetrics
-const
-ParentLayerPoint
-&
-aVelocity
 )
 ;
 const
@@ -1785,14 +1776,6 @@ mTestAsyncZoom
 ;
 bool
 mAsyncTransformAppliedToContent
-;
-private
-:
-UniquePtr
-<
-CheckerboardEvent
->
-mCheckerboardEvent
 ;
 }
 ;
