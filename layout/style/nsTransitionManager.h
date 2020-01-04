@@ -549,14 +549,6 @@ destroyed
 )
 ;
 }
-CommonAnimationManager
-*
-GetAnimationManager
-(
-)
-const
-override
-;
 void
 UpdateTiming
 (
