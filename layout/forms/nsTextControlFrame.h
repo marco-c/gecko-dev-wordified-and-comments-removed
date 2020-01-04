@@ -590,11 +590,6 @@ aPos
 override
 ;
 NS_DECL_QUERYFRAME
-NS_DECLARE_FRAME_PROPERTY
-(
-TextControlInitializer
-nullptr
-)
 protected
 :
 void
@@ -796,6 +791,11 @@ friend
 class
 nsTextEditorState
 ;
+NS_DECLARE_FRAME_PROPERTY_WITHOUT_DTOR
+(
+TextControlInitializer
+EditorInitializer
+)
 class
 EditorInitializer
 :

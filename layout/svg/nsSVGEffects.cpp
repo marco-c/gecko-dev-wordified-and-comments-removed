@@ -1858,12 +1858,6 @@ nsSVGFilterProperty
 *
 prop
 =
-static_cast
-<
-nsSVGFilterProperty
-*
->
-(
 props
 .
 Get
@@ -1873,7 +1867,6 @@ nsSVGEffects
 :
 FilterProperty
 (
-)
 )
 )
 ;
@@ -1919,14 +1912,7 @@ nsSVGEffects
 FilterProperty
 (
 )
-static_cast
-<
-nsISupports
-*
->
-(
 prop
-)
 )
 ;
 return

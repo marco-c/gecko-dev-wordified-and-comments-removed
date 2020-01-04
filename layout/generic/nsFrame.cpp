@@ -22239,10 +22239,10 @@ return
 frame
 ;
 }
-NS_DECLARE_FRAME_PROPERTY
+NS_DECLARE_FRAME_PROPERTY_WITHOUT_DTOR
 (
 ViewProperty
-nullptr
+nsView
 )
 nsView
 *
@@ -22268,7 +22268,7 @@ NS_FRAME_HAS_VIEW
 return
 nullptr
 ;
-void
+nsView
 *
 value
 =
@@ -22301,14 +22301,7 @@ view
 )
 ;
 return
-static_cast
-<
-nsView
-*
->
-(
 value
-)
 ;
 }
 nsView

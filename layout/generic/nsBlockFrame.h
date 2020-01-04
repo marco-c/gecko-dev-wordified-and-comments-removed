@@ -1072,10 +1072,10 @@ mStyleContext
 }
 #
 endif
-NS_DECLARE_FRAME_PROPERTY
+NS_DECLARE_FRAME_PROPERTY_WITHOUT_DTOR
 (
 LineCursorProperty
-nullptr
+nsLineBox
 )
 nsLineBox
 *
@@ -1092,12 +1092,6 @@ GetStateBits
 NS_BLOCK_HAS_LINE_CURSOR
 )
 ?
-static_cast
-<
-nsLineBox
-*
->
-(
 Properties
 (
 )
@@ -1106,7 +1100,6 @@ Get
 (
 LineCursorProperty
 (
-)
 )
 )
 :
