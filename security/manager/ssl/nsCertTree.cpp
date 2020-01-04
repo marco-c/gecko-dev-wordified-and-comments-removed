@@ -4442,6 +4442,8 @@ NS_ERROR_NOT_INITIALIZED
 ;
 nsresult
 rv
+=
+NS_OK
 ;
 _retval
 .
