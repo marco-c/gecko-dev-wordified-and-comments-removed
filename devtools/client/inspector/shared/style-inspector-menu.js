@@ -1590,6 +1590,16 @@ nodeName
 "
 input
 "
+|
+|
+node
+.
+nodeName
+=
+=
+"
+textarea
+"
 )
 {
 let
