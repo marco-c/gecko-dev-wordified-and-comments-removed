@@ -381,3 +381,16 @@ remove
 ;
 }
 ;
+partial
+interface
+HTMLSelectElement
+{
+[
+ChromeOnly
+]
+attribute
+boolean
+openInParentProcess
+;
+}
+;
