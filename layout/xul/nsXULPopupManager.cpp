@@ -5130,7 +5130,7 @@ WidgetMouseEvent
 event
 (
 true
-NS_XUL_POPUP_HIDDEN
+eXULPopupHidden
 nullptr
 WidgetMouseEvent
 :

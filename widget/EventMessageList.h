@@ -525,7 +525,7 @@ eXULEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_XUL_POPUP_HIDDEN
+eXULPopupHidden
 eXULEventFirst
 +
 3
