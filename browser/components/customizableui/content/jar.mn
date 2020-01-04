@@ -63,15 +63,6 @@ browser
 /
 customizableui
 /
-aboutCustomizing
-.
-xul
-content
-/
-browser
-/
-customizableui
-/
 panelUI
 .
 css
