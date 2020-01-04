@@ -336,7 +336,7 @@ nsIFile
 >
 mTargetDir
 ;
-nsAutoString
+nsString
 mLeafName
 ;
 }

@@ -997,7 +997,7 @@ AUTO_RESUME
 AutoResume
 mAutoResume
 ;
-nsAutoCString
+nsCString
 mHash
 ;
 nsCOMPtr

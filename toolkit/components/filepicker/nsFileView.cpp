@@ -232,7 +232,7 @@ nsString
 >
 mValues
 ;
-nsAutoString
+nsString
 mSearchString
 ;
 uint16_t
