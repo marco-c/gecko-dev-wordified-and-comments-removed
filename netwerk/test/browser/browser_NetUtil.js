@@ -207,12 +207,16 @@ function
 (
 aIID
 )
+{
+return
 this
 .
 QueryInterface
 (
 aIID
 )
+;
+}
 onProgress
 :
 function

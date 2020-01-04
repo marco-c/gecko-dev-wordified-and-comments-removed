@@ -214,10 +214,9 @@ data
 .
 map
 (
-function
-(
 v
-)
+=
+>
 String
 .
 fromCharCode
