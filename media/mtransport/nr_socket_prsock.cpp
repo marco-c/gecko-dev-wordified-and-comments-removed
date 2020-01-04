@@ -8530,17 +8530,6 @@ child
 socket_child_
 -
 >
-SetFilterName
-(
-nsCString
-(
-NS_NETWORK_SOCKET_FILTER_HANDLER_STUN_SUFFIX
-)
-)
-;
-socket_child_
--
->
 SendWindowlessOpenBind
 (
 this
