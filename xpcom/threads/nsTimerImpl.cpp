@@ -1547,13 +1547,6 @@ mCanceled
 return
 ;
 }
-#
-if
-!
-defined
-(
-MOZILLA_XPCOMRT_API
-)
 PROFILER_LABEL
 (
 "
@@ -1574,8 +1567,6 @@ Category
 OTHER
 )
 ;
-#
-endif
 TimeStamp
 now
 =

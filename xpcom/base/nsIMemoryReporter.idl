@@ -3648,13 +3648,6 @@ defined
 (
 MOZ_DMD
 )
-&
-&
-!
-defined
-(
-MOZILLA_XPCOMRT_API
-)
 #
 if
 !
