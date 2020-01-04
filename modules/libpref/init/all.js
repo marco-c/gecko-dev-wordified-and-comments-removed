@@ -19538,6 +19538,13 @@ defined
 (
 MOZ_VALGRIND
 )
+&
+&
+!
+defined
+(
+MOZ_TSAN
+)
 pref
 (
 "
