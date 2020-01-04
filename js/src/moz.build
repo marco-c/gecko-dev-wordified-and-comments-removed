@@ -2162,13 +2162,6 @@ cpp
 '
 proxy
 /
-ScriptedIndirectProxyHandler
-.
-cpp
-'
-'
-proxy
-/
 SecurityWrapper
 .
 cpp
