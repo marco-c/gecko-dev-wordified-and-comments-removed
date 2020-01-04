@@ -628,7 +628,7 @@ OpenAudioInputImpl
 char
 *
 aName
-AudioDataListener
+MediaStreamListener
 *
 aListener
 )
@@ -640,7 +640,7 @@ OpenAudioInput
 char
 *
 aName
-AudioDataListener
+MediaStreamListener
 *
 aListener
 )
@@ -649,7 +649,7 @@ override
 void
 CloseAudioInputImpl
 (
-AudioDataListener
+MediaStreamListener
 *
 aListener
 )
@@ -658,7 +658,7 @@ virtual
 void
 CloseAudioInput
 (
-AudioDataListener
+MediaStreamListener
 *
 aListener
 )

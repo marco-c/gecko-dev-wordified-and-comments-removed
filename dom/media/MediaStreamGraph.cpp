@@ -5197,7 +5197,7 @@ OpenAudioInputImpl
 char
 *
 aName
-AudioDataListener
+MediaStreamListener
 *
 aListener
 )
@@ -5245,7 +5245,7 @@ OpenAudioInput
 char
 *
 aName
-AudioDataListener
+MediaStreamListener
 *
 aListener
 )
@@ -5293,7 +5293,7 @@ aGraph
 char
 *
 aName
-AudioDataListener
+MediaStreamListener
 *
 aListener
 )
@@ -5340,10 +5340,8 @@ char
 *
 mName
 ;
-RefPtr
-<
-AudioDataListener
->
+MediaStreamListener
+*
 mListener
 ;
 }
@@ -5372,7 +5370,7 @@ MediaStreamGraphImpl
 :
 CloseAudioInputImpl
 (
-AudioDataListener
+MediaStreamListener
 *
 aListener
 )
@@ -5401,7 +5399,7 @@ MediaStreamGraphImpl
 :
 CloseAudioInput
 (
-AudioDataListener
+MediaStreamListener
 *
 aListener
 )
@@ -5444,7 +5442,7 @@ Message
 MediaStreamGraphImpl
 *
 aGraph
-AudioDataListener
+MediaStreamListener
 *
 aListener
 )
@@ -5482,10 +5480,8 @@ MediaStreamGraphImpl
 *
 mGraph
 ;
-RefPtr
-<
-AudioDataListener
->
+MediaStreamListener
+*
 mListener
 ;
 }
@@ -5508,7 +5504,7 @@ void
 MediaStreamGraph
 :
 :
-NotifyOutputData
+NotifySpeakerData
 (
 AudioDataValue
 *
@@ -5531,7 +5527,7 @@ mAudioInputs
 listener
 -
 >
-NotifyOutputData
+NotifySpeakerData
 (
 this
 aBuffer
