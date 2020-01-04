@@ -317,6 +317,13 @@ name
 ]
 ;
 }
+SimpleTest
+.
+requestLongerTimeout
+(
+2
+)
+;
 function
 startTest
 (

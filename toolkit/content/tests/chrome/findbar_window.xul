@@ -534,6 +534,13 @@ name
 ]
 ;
 }
+SimpleTest
+.
+requestLongerTimeout
+(
+2
+)
+;
 function
 onLoad
 (
@@ -2346,6 +2353,11 @@ doCommand
 )
 ;
 return
+gFindBar
+.
+_startFindDeferred
+&
+&
 gFindBar
 .
 _startFindDeferred
