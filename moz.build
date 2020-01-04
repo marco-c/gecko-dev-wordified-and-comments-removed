@@ -317,13 +317,6 @@ config
 /
 external
 /
-fdlibm
-'
-'
-config
-/
-external
-/
 zlib
 '
 '
