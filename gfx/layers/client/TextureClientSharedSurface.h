@@ -265,7 +265,7 @@ class
 SharedSurfaceTextureClient
 :
 public
-ClientTexture
+TextureClient
 {
 public
 :
