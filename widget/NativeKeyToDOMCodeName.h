@@ -84,12 +84,6 @@ defined
 (
 MOZ_WIDGET_GTK
 )
-|
-|
-defined
-(
-MOZ_WIDGET_QT
-)
 #
 undef
 CODE_MAP_X11

@@ -103,14 +103,6 @@ h
 "
 #
 ifdef
-MOZ_WIDGET_QT
-#
-undef
-slots
-#
-endif
-#
-ifdef
 min
 #
 undef

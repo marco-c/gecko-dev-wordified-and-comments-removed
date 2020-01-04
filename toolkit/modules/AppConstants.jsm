@@ -313,12 +313,6 @@ linux
 "
 #
 elif
-MOZ_WIDGET_QT
-"
-linux
-"
-#
-elif
 XP_WIN
 "
 win
