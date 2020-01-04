@@ -72,7 +72,7 @@ animations
 :
 [
 {
-startTime
+previousStartTime
 :
 500
 delay
@@ -89,7 +89,7 @@ playbackRate
 1
 }
 {
-startTime
+previousStartTime
 :
 400
 delay
@@ -106,7 +106,7 @@ playbackRate
 1
 }
 {
-startTime
+previousStartTime
 :
 50
 delay
@@ -146,7 +146,7 @@ animations
 :
 [
 {
-startTime
+previousStartTime
 :
 100
 delay
@@ -191,7 +191,7 @@ animations
 :
 [
 {
-startTime
+previousStartTime
 :
 3500
 delay
