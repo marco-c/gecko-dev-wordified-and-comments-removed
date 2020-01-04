@@ -8421,7 +8421,7 @@ DISPATCH_NORMAL
 }
 E10SAccessibilityCheck
 .
-onWindowRestored
+onWindowsRestored
 (
 )
 ;
@@ -17787,7 +17787,7 @@ break
 ;
 }
 }
-onWindowRestored
+onWindowsRestored
 :
 function
 (
