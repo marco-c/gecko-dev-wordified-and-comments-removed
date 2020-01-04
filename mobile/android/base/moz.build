@@ -4121,6 +4121,13 @@ java
 '
 telemetry
 /
+TelemetryCorePingBuilder
+.
+java
+'
+'
+telemetry
+/
 TelemetryPing
 .
 java
@@ -4128,7 +4135,7 @@ java
 '
 telemetry
 /
-TelemetryPingGenerator
+TelemetryPingBuilder
 .
 java
 '
