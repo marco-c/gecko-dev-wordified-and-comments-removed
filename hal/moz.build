@@ -144,14 +144,6 @@ HalWakeLock
 h
 '
 ]
-TEST_DIRS
-+
-=
-[
-'
-tests
-'
-]
 UNIFIED_SOURCES
 +
 =
