@@ -342,7 +342,7 @@ firefox_media_rev
 "
 :
 '
-82c45fba24457b5fe447e967bbcaaec5eb14e3ee
+b11d6c3d7f6af166be314d2ac6673e78c1edb566
 '
     
 "
@@ -374,7 +374,9 @@ firefox_ui_branch
 "
 :
 '
-master
+mozilla
+-
+central
 '
     
 "
