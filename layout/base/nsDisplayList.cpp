@@ -3282,17 +3282,7 @@ nsIFrame
 RefusedAsyncAnimationProperty
 (
 )
-reinterpret_cast
-<
-void
-*
->
-(
-intptr_t
-(
 true
-)
-)
 )
 ;
 aFrame

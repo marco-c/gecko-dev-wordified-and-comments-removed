@@ -1478,10 +1478,10 @@ NS_DECLARE_FRAME_PROPERTY
 InsideBulletProperty
 nullptr
 )
-NS_DECLARE_FRAME_PROPERTY
+NS_DECLARE_FRAME_PROPERTY_SMALL_VALUE
 (
 BlockEndEdgeOfChildrenProperty
-nullptr
+nscoord
 )
 nsBlockFrame
 *
@@ -7969,10 +7969,7 @@ Set
 BlockEndEdgeOfChildrenProperty
 (
 )
-NS_INT32_TO_PTR
-(
 blockEndEdgeOfChildren
-)
 )
 ;
 }
@@ -8595,8 +8592,6 @@ found
 nscoord
 blockEndEdgeOfChildren
 =
-NS_PTR_TO_INT32
-(
 Properties
 (
 )
@@ -8608,7 +8603,6 @@ BlockEndEdgeOfChildrenProperty
 )
 &
 found
-)
 )
 ;
 if

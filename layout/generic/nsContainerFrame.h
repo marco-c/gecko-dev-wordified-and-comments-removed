@@ -871,10 +871,10 @@ BackdropProperty
 #
 ifdef
 DEBUG
-NS_DECLARE_FRAME_PROPERTY
+NS_DECLARE_FRAME_PROPERTY_SMALL_VALUE
 (
 DebugReflowingWithInfiniteISize
-nullptr
+bool
 )
 bool
 IsCrazySizeAssertSuppressed
@@ -893,9 +893,6 @@ DebugReflowingWithInfiniteISize
 (
 )
 )
-!
-=
-nullptr
 ;
 }
 #

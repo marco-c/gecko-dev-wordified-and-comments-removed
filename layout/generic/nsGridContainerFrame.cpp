@@ -11682,7 +11682,7 @@ nsContainerFrame
 DebugReflowingWithInfiniteISize
 (
 )
-parent
+true
 )
 ;
 #

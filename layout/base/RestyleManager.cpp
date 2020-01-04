@@ -3005,10 +3005,10 @@ child
 }
 }
 }
-NS_DECLARE_FRAME_PROPERTY
+NS_DECLARE_FRAME_PROPERTY_SMALL_VALUE
 (
 ChangeListProperty
-nullptr
+bool
 )
 static
 bool
@@ -3459,10 +3459,7 @@ mFrame
 ChangeListProperty
 (
 )
-NS_INT32_TO_PTR
-(
-1
-)
+true
 )
 ;
 }
