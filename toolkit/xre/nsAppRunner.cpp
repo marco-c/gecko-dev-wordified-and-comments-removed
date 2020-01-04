@@ -19416,6 +19416,13 @@ defined
 (
 XP_LINUX
 )
+&
+&
+!
+defined
+(
+ANDROID
+)
 SandboxInfo
 :
 :
