@@ -4524,9 +4524,9 @@ Register
 ptrReg
 bool
 boundsCheck
-int32_t
+uint32_t
 offset
-int32_t
+uint32_t
 endOffset
 )
 {

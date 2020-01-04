@@ -57715,7 +57715,7 @@ type
 class
 MAsmJSHeapAccess
 {
-int32_t
+uint32_t
 offset_
 ;
 Scalar
@@ -57799,7 +57799,7 @@ accessType
 )
 ;
 }
-int32_t
+uint32_t
 offset
 (
 )
@@ -57809,7 +57809,7 @@ return
 offset_
 ;
 }
-int32_t
+uint32_t
 endOffset
 (
 )
@@ -57921,7 +57921,7 @@ numSimdElems_
 void
 setOffset
 (
-int32_t
+uint32_t
 o
 )
 {
