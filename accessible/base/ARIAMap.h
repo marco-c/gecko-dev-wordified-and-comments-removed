@@ -287,9 +287,12 @@ nsRoleMapEntry
 *
 GetRoleMap
 (
-nsINode
+dom
+:
+:
+Element
 *
-aNode
+aEl
 )
 ;
 uint64_t

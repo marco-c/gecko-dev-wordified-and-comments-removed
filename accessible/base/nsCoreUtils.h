@@ -207,7 +207,13 @@ aOffset
 )
 ;
 static
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
 GetRoleContent
 (
