@@ -458,6 +458,10 @@ numNurseryChunks_
 (
 0
 )
+previousPromotionRate_
+(
+0
+)
 profileThreshold_
 (
 0
@@ -1042,6 +1046,9 @@ numActiveChunks_
 ;
 int
 numNurseryChunks_
+;
+double
+previousPromotionRate_
 ;
 int64_t
 profileThreshold_
