@@ -16,6 +16,13 @@ h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 js
 /
 UbiNode
