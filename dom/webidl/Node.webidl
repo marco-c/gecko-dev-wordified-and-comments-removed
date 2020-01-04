@@ -283,17 +283,6 @@ baseURI
 ;
 [
 Pure
-BinaryName
-=
-getComposedDoc
-]
-readonly
-attribute
-boolean
-isConnected
-;
-[
-Pure
 ]
 readonly
 attribute
