@@ -1512,11 +1512,16 @@ request
 MSG_DEF
 (
 MSG_INVALID_DURATION_ERROR
-0
+1
 JSEXN_TYPEERR
 "
 Invalid
 duration
+'
+{
+0
+}
+'
 .
 "
 )

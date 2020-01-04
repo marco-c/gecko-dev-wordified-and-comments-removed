@@ -267,6 +267,11 @@ dom
 MSG_INVALID_DURATION_ERROR
 >
 (
+aDuration
+.
+GetAsString
+(
+)
 )
 ;
 }
