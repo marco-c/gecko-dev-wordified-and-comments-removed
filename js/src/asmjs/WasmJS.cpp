@@ -224,6 +224,12 @@ defined
 (
 JS_CODEGEN_X86
 )
+|
+|
+defined
+(
+JS_CODEGEN_ARM
+)
 return
 true
 ;
