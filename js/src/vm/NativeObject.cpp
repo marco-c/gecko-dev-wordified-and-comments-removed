@@ -468,6 +468,13 @@ getElementsHeader
 (
 )
 ;
+header
+-
+>
+clearInWholeCellBuffer
+(
+)
+;
 MOZ_ASSERT
 (
 !
