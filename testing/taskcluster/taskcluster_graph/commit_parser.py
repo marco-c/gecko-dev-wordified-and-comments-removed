@@ -60,14 +60,6 @@ d
 debug
 '
 }
-class
-InvalidCommitException
-(
-Exception
-)
-:
-    
-pass
 def
 escape_whitespace_in_brackets
 (
@@ -1510,19 +1502,10 @@ is
 None
 :
         
-raise
-InvalidCommitException
-(
-'
-Invalid
-commit
-format
-contain
-'
-+
-                
-TRY_DELIMITER
-)
+return
+[
+]
+0
     
 parser
 =
