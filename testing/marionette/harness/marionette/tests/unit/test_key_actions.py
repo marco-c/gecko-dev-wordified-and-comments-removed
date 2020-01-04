@@ -608,6 +608,14 @@ self
 )
 :
         
+start_win
+=
+self
+.
+marionette
+.
+current_chrome_window_handle
+        
 el
 =
 self
@@ -624,13 +632,28 @@ updatediv
 "
 )
         
-start_win
-=
 self
 .
 marionette
 .
-current_chrome_window_handle
+execute_script
+(
+'
+arguments
+[
+0
+]
+.
+scrollIntoView
+(
+)
+'
+script_args
+=
+[
+el
+]
+)
         
 (
 self
