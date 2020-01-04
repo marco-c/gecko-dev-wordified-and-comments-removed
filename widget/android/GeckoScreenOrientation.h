@@ -70,8 +70,6 @@ Natives
 <
 GeckoScreenOrientation
 >
-public
-UsesGeckoThreadProxy
 {
 GeckoScreenOrientation
 (

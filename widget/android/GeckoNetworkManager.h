@@ -59,8 +59,6 @@ Natives
 <
 GeckoNetworkManager
 >
-public
-UsesGeckoThreadProxy
 {
 GeckoNetworkManager
 (
