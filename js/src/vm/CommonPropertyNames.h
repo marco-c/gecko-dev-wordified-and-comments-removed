@@ -1660,6 +1660,15 @@ revoke
 \
 macro
 (
+script
+script
+"
+script
+"
+)
+\
+macro
+(
 scripts
 scripts
 "

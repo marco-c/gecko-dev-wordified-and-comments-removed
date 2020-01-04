@@ -499,11 +499,6 @@ ModuleObject
 (
 )
 .
-script
-(
-)
--
->
 enclosingStaticScope
 (
 )

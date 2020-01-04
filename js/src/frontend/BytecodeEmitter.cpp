@@ -1618,16 +1618,6 @@ finally
 block
 "
 ;
-const
-char
-js_script_str
-[
-]
-=
-"
-script
-"
-;
 static
 const
 char

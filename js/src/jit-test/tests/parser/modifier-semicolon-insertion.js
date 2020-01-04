@@ -49,6 +49,13 @@ a
 f2
 (
 )
+{
+target
+:
+"
+module
+"
+}
 )
 ;
 Reflect
@@ -66,6 +73,13 @@ a
 f2
 (
 )
+{
+target
+:
+"
+module
+"
+}
 )
 ;
 Reflect
