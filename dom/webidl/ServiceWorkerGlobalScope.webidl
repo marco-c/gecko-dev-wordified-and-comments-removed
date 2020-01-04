@@ -155,11 +155,17 @@ ServiceWorkerGlobalScope
 :
 WorkerGlobalScope
 {
+[
+SameObject
+]
 readonly
 attribute
 Clients
 clients
 ;
+[
+SameObject
+]
 readonly
 attribute
 ServiceWorkerRegistration
@@ -167,6 +173,7 @@ registration
 ;
 [
 Throws
+NewObject
 ]
 Promise
 <
