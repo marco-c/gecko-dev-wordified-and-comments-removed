@@ -1183,12 +1183,9 @@ getActivity
 ;
 FirefoxAccounts
 .
-requestSync
+requestImmediateSync
 (
 account
-FirefoxAccounts
-.
-FORCE
 STAGES_TO_SYNC_ON_REFRESH
 null
 )
