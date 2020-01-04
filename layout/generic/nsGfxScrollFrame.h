@@ -1901,6 +1901,11 @@ mWillBuildScrollableLayer
 1
 ;
 bool
+mIsScrollParent
+:
+1
+;
+bool
 mIsScrollableLayerInRootContainer
 :
 1
