@@ -14872,10 +14872,6 @@ mPingForced
 =
 0
 ;
-GeneratePing
-(
-)
-;
 mPingTimer
 -
 >
@@ -14887,6 +14883,10 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
+)
+;
+GeneratePing
+(
 )
 ;
 }
