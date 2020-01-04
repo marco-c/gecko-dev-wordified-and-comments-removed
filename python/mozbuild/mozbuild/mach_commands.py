@@ -10892,11 +10892,37 @@ False
 )
 :
         
+original_path
+=
+os
+.
+environ
+.
+get
+(
+'
+PATH
+'
+'
+'
+)
+        
 self
 .
 _activate_virtualenv
 (
 )
+        
+os
+.
+environ
+[
+'
+PATH
+'
+]
+=
+original_path
         
 self
 .

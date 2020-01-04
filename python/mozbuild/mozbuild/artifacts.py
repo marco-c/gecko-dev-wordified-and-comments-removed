@@ -5355,30 +5355,6 @@ _git
 =
 git
         
-if
-self
-.
-_git
-:
-            
-import
-which
-            
-self
-.
-_cinnabar
-=
-which
-.
-which
-(
-'
-git
--
-cinnabar
-'
-)
-        
 self
 .
 _cache_dir
@@ -6098,7 +6074,10 @@ check_output
             
 self
 .
-_cinnabar
+_git
+'
+cinnabar
+'
 '
 git2hg
 '
@@ -7381,7 +7360,10 @@ check_output
 [
 self
 .
-_cinnabar
+_git
+'
+cinnabar
+'
 '
 git2hg
 '
