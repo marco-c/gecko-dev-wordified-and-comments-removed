@@ -706,7 +706,6 @@ WindowListManager
 addOpenListener
 (
 windowListener
-false
 )
 ;
 AllWindowEvents
@@ -1167,6 +1166,11 @@ status
 }
 )
 ;
+if
+(
+needed
+)
+{
 fire
 (
 tabId
@@ -1180,6 +1184,7 @@ tab
 )
 )
 ;
+}
 }
 onLocationChange
 (
