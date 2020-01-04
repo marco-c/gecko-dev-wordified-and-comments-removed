@@ -404,9 +404,7 @@ data
 return
 p
 .
-wait
-(
-)
+returncode
 def
 vcs_checkout
 (
