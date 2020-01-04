@@ -870,6 +870,16 @@ h
 /
 public
 /
+GCVariant
+.
+h
+'
+'
+.
+.
+/
+public
+/
 GCVector
 .
 h
