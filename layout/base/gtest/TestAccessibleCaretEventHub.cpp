@@ -657,7 +657,7 @@ aY
 return
 CreateMouseEvent
 (
-NS_MOUSE_MOZLONGTAP
+eMouseLongTap
 aX
 aY
 )

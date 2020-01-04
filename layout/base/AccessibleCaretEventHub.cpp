@@ -2159,13 +2159,13 @@ rv
 break
 ;
 case
-NS_MOUSE_MOZLONGTAP
+eMouseLongTap
 :
 AC_LOGV
 (
 "
 Before
-NS_MOUSE_MOZLONGTAP
+eMouseLongTap
 state
 :
 %
@@ -2194,7 +2194,7 @@ AC_LOGV
 (
 "
 After
-NS_MOUSE_MOZLONGTAP
+eMouseLongTap
 state
 :
 %

@@ -2042,7 +2042,7 @@ eMouseUp
 aMsg
 =
 =
-NS_MOUSE_MOZLONGTAP
+eMouseLongTap
 )
 ;
 WidgetMouseEvent

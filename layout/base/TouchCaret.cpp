@@ -3544,7 +3544,7 @@ false
 break
 ;
 case
-NS_MOUSE_MOZLONGTAP
+eMouseLongTap
 :
 if
 (
