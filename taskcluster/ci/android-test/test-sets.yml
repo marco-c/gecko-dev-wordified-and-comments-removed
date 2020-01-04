@@ -162,6 +162,16 @@ reftest
 robocop
 -
 xpcshell
+gradle
+-
+tests
+:
+-
+robocop
+-
+mochitest
+-
+chrome
 x86
 -
 tests
