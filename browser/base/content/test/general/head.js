@@ -6007,7 +6007,7 @@ open
 return
 Promise
 .
-resolved
+resolve
 (
 )
 ;
