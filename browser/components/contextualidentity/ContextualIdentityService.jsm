@@ -531,6 +531,15 @@ if
 (
 !
 identity
+)
+{
+return
+;
+}
+if
+(
+!
+identity
 .
 alreadyOpened
 )
