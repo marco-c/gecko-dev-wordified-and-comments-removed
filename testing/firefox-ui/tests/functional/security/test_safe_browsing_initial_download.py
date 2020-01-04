@@ -436,6 +436,12 @@ self
 browser
 .
 timeout_page_load
+                    
+ignored_exceptions
+=
+[
+OSError
+]
 )
         
 for
