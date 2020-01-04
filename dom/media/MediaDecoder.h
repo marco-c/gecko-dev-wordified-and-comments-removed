@@ -1675,7 +1675,6 @@ FrameStatistics
 >
 mFrameStats
 ;
-const
 RefPtr
 <
 VideoFrameContainer

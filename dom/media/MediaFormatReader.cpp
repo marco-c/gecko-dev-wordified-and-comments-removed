@@ -806,6 +806,10 @@ mPlatform
 =
 nullptr
 ;
+mVideoFrameContainer
+=
+nullptr
+;
 return
 MediaDecoderReader
 :

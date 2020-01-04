@@ -3146,6 +3146,13 @@ self
 (
 )
 {
+self
+-
+>
+mVideoFrameContainer
+=
+nullptr
+;
 MediaShutdownManager
 :
 :
@@ -3348,6 +3355,10 @@ SetStateMachine
 (
 nullptr
 )
+;
+mVideoFrameContainer
+=
+nullptr
 ;
 MediaShutdownManager
 :

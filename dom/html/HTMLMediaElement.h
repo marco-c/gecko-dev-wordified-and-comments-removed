@@ -276,8 +276,6 @@ nsGenericHTMLElement
 public
 nsIDOMHTMLMediaElement
 public
-nsIObserver
-public
 MediaDecoderOwner
 public
 nsIAudioChannelAgentCallback
@@ -383,7 +381,6 @@ aListener
 )
 ;
 NS_DECL_NSIDOMHTMLMEDIAELEMENT
-NS_DECL_NSIOBSERVER
 NS_DECL_NSIAUDIOCHANNELAGENTCALLBACK
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
@@ -2102,6 +2099,9 @@ StreamListener
 class
 StreamSizeListener
 ;
+class
+ShutdownObserver
+;
 MediaDecoderOwner
 :
 :
@@ -2534,6 +2534,11 @@ DoRemoveSelfReference
 (
 )
 ;
+void
+NotifyShutdownEvent
+(
+)
+;
 enum
 PreloadAttrValue
 {
@@ -2936,6 +2941,13 @@ RefPtr
 StreamSizeListener
 >
 mMediaStreamSizeListener
+;
+const
+RefPtr
+<
+ShutdownObserver
+>
+mShutdownObserver
 ;
 RefPtr
 <
