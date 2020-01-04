@@ -56,6 +56,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Sprintf
+.
+h
+"
+#
+include
 <
 string
 .
@@ -22948,10 +22957,8 @@ numBuf
 12
 ]
 ;
-snprintf
+SprintfLiteral
 (
-numBuf
-sizeof
 numBuf
 "
 %

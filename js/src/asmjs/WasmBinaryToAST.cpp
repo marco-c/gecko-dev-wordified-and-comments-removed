@@ -28,6 +28,15 @@ h
 #
 include
 "
+mozilla
+/
+Sprintf
+.
+h
+"
+#
+include
+"
 asmjs
 /
 WasmBinaryIterator
@@ -445,10 +454,8 @@ sizeof
 "
 ]
 ;
-snprintf
+SprintfLiteral
 (
-offsetStr
-sizeof
 offsetStr
 "
 %
