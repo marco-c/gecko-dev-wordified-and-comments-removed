@@ -689,6 +689,13 @@ static
 nsWeakPtr
 sPointerLockedDoc
 ;
+enum
+{
+MIN_MULTIPLIER_VALUE_ALLOWING_OVER_ONE_PAGE_SCROLL
+=
+1000
+}
+;
 protected
 :
 class
@@ -1194,13 +1201,6 @@ void
 Reset
 (
 )
-;
-enum
-{
-MIN_MULTIPLIER_VALUE_ALLOWING_OVER_ONE_PAGE_SCROLL
-=
-1000
-}
 ;
 bool
 mInit
