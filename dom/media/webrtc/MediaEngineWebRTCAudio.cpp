@@ -988,7 +988,7 @@ const
 nsACString
 &
 aOrigin
-BaseAllocationHandle
+AllocationHandle
 *
 *
 aOutHandle
@@ -1227,7 +1227,7 @@ MediaEngineWebRTCMicrophoneSource
 :
 Restart
 (
-BaseAllocationHandle
+AllocationHandle
 *
 aHandle
 const
@@ -1598,7 +1598,7 @@ MediaEngineWebRTCMicrophoneSource
 :
 Deallocate
 (
-BaseAllocationHandle
+AllocationHandle
 *
 aHandle
 )
@@ -3934,7 +3934,7 @@ MediaEngineWebRTCAudioCaptureSource
 :
 Restart
 (
-BaseAllocationHandle
+AllocationHandle
 *
 aHandle
 const
