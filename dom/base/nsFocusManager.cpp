@@ -12750,6 +12750,10 @@ aNextContent
 )
 ;
 }
+mayFocusRoot
+=
+true
+;
 startContent
 =
 rootContent
