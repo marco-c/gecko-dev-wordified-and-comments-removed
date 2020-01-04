@@ -200,11 +200,6 @@ nsIDOMCSSValueList
 idl
 '
 '
-nsIDOMElementCSSInlineStyle
-.
-idl
-'
-'
 nsIDOMRect
 .
 idl
