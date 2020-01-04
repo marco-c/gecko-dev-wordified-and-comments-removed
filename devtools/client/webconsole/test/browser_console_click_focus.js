@@ -226,6 +226,7 @@ re
 focus
 "
 )
+;
 let
 selection
 =
