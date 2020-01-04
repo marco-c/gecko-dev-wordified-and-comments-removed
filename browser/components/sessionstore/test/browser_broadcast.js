@@ -477,9 +477,9 @@ state
 }
 )
 ;
-TabStateFlusher
+TabState
 .
-flush
+flushAsync
 (
 browser
 )
@@ -605,9 +605,9 @@ racy
 }
 )
 ;
-TabStateFlusher
+TabState
 .
-flush
+flushAsync
 (
 browser
 )
