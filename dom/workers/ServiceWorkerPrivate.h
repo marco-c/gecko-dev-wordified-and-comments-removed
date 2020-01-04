@@ -390,6 +390,14 @@ ServiceWorkerPrivate
 (
 )
 ;
+already_AddRefed
+<
+KeepAliveToken
+>
+CreateEventKeepAliveToken
+(
+)
+;
 ServiceWorkerInfo
 *
 MOZ_NON_OWNING_REF
