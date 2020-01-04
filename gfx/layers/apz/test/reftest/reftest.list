@@ -19,9 +19,6 @@ scrollbar
 with
 async
 scrolling
-chaos
--
-mode
 skip
 -
 if
@@ -59,9 +56,6 @@ v
 ref
 .
 html
-chaos
--
-mode
 skip
 -
 if
@@ -99,9 +93,6 @@ h
 ref
 .
 html
-chaos
--
-mode
 skip
 -
 if
@@ -139,9 +130,6 @@ vh
 ref
 .
 html
-chaos
--
-mode
 skip
 -
 if
@@ -183,9 +171,6 @@ rtl
 ref
 .
 html
-chaos
--
-mode
 skip
 -
 if
@@ -227,9 +212,6 @@ rtl
 ref
 .
 html
-chaos
--
-mode
 skip
 -
 if
@@ -311,9 +293,6 @@ fuzzy
 if
 clauses
 .
-chaos
--
-mode
 skip
 -
 if
@@ -351,9 +330,6 @@ zoom
 ref
 .
 html
-chaos
--
-mode
 skip
 -
 if
@@ -397,9 +373,6 @@ Meta
 viewport
 tag
 support
-chaos
--
-mode
 skip
 -
 if
