@@ -10590,9 +10590,6 @@ nullptr
 ;
 if
 (
-fun
-&
-&
 funp
 )
 *
