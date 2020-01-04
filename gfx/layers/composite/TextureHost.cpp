@@ -3001,14 +3001,7 @@ nullptr
 }
 else
 {
-RefPtr
-<
-gfx
-:
-:
-DataSourceSurface
->
-surf
+result
 =
 gfx
 :
