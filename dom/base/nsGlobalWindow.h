@@ -1691,7 +1691,7 @@ aIsFullscreen
 override
 final
 ;
-void
+bool
 SetWidgetFullscreen
 (
 FullscreenReason
