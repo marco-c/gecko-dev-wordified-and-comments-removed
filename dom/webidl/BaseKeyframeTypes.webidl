@@ -268,10 +268,7 @@ linear
 "
 ;
 CompositeOperation
-?
 composite
-=
-null
 ;
 }
 ;
@@ -292,10 +289,7 @@ linear
 "
 ;
 CompositeOperation
-?
 composite
-=
-null
 ;
 }
 ;
