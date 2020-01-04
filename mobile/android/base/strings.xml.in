@@ -2601,7 +2601,7 @@ pref_tracking_protection_title
 "
 >
 &
-pref_tracking_protection_title
+pref_tracking_protection_title2
 ;
 <
 /
@@ -2751,7 +2751,7 @@ pref_clear_private_data_now
 "
 >
 &
-pref_clear_private_data
+pref_clear_private_data2
 ;
 <
 /
@@ -6292,7 +6292,7 @@ doorhanger_tracking_title
 "
 >
 &
-doorhanger_tracking_title
+doorhanger_tracking_title2
 ;
 <
 /
