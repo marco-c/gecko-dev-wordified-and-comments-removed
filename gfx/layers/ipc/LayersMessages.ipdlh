@@ -1703,6 +1703,11 @@ diagnostics
 }
 ;
 struct
+OpWindowOverlayChanged
+{
+}
+;
+struct
 ShmemSection
 {
 Shmem
@@ -2150,6 +2155,8 @@ OpCreateRefLayer
 OpSetLayerAttributes
 ;
 OpSetDiagnosticTypes
+;
+OpWindowOverlayChanged
 ;
 OpSetRoot
 ;

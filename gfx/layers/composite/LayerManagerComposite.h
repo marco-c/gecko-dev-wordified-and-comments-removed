@@ -1080,6 +1080,16 @@ mImageCompositeNotifications
 )
 ;
 }
+void
+SetWindowOverlayChanged
+(
+)
+{
+mWindowOverlayChanged
+=
+true
+;
+}
 private
 :
 nsIntRegion
@@ -1286,6 +1296,9 @@ mGeometryChanged
 ;
 bool
 mLastFrameMissedHWC
+;
+bool
+mWindowOverlayChanged
 ;
 }
 ;
