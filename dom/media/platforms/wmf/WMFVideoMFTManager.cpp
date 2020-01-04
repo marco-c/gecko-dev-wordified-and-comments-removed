@@ -995,6 +995,16 @@ GetNumDecoderThreads
 )
 )
 ;
+if
+(
+WMFDecoderModule
+:
+:
+LowLatencyMFTEnabled
+(
+)
+)
+{
 hr
 =
 attr
@@ -1040,6 +1050,7 @@ Mode
 "
 )
 ;
+}
 }
 }
 if
