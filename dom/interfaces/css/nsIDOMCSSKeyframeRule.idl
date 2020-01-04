@@ -114,7 +114,7 @@ acc2814a57c9
 )
 ]
 interface
-nsIDOMMozCSSKeyframeRule
+nsIDOMCSSKeyframeRule
 :
 nsIDOMCSSRule
 {

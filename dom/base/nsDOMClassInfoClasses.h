@@ -91,11 +91,11 @@ ChromeMessageSender
 )
 DOMCI_CLASS
 (
-MozCSSKeyframeRule
+CSSKeyframeRule
 )
 DOMCI_CLASS
 (
-MozCSSKeyframesRule
+CSSKeyframesRule
 )
 DOMCI_CLASS
 (

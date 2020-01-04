@@ -177,14 +177,14 @@ h
 #
 include
 "
-nsIDOMMozCSSKeyframeRule
+nsIDOMCSSKeyframeRule
 .
 h
 "
 #
 include
 "
-nsIDOMMozCSSKeyframesRule
+nsIDOMCSSKeyframesRule
 .
 h
 "
@@ -1474,7 +1474,7 @@ css
 :
 Rule
 public
-nsIDOMMozCSSKeyframeRule
+nsIDOMCSSKeyframeRule
 {
 public
 :
@@ -1625,7 +1625,7 @@ const
 override
 ;
 NS_DECL_NSIDOMCSSRULE
-NS_DECL_NSIDOMMOZCSSKEYFRAMERULE
+NS_DECL_NSIDOMCSSKEYFRAMERULE
 const
 nsTArray
 <
@@ -1734,7 +1734,7 @@ css
 :
 GroupRule
 public
-nsIDOMMozCSSKeyframesRule
+nsIDOMCSSKeyframesRule
 {
 public
 :
@@ -1857,7 +1857,7 @@ this
 ;
 }
 NS_DECL_NSIDOMCSSRULE
-NS_DECL_NSIDOMMOZCSSKEYFRAMESRULE
+NS_DECL_NSIDOMCSSKEYFRAMESRULE
 virtual
 bool
 UseForPresentation
