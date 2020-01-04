@@ -853,7 +853,7 @@ mBuffer
 .
 AdvanceKnownTracksTime
 (
-GraphTimeToStreamTime
+GraphTimeToStreamTimeWithBlocking
 (
 aTo
 )
@@ -1035,7 +1035,7 @@ break
 StreamTime
 outputStart
 =
-GraphTimeToStreamTime
+GraphTimeToStreamTimeWithBlocking
 (
 aFrom
 )
@@ -1576,7 +1576,7 @@ inputEnd
 source
 -
 >
-GraphTimeToStreamTime
+GraphTimeToStreamTimeWithBlocking
 (
 interval
 .
@@ -1772,7 +1772,7 @@ GetEnd
 )
 =
 =
-GraphTimeToStreamTime
+GraphTimeToStreamTimeWithBlocking
 (
 interval
 .
@@ -1790,7 +1790,7 @@ inputStart
 source
 -
 >
-GraphTimeToStreamTime
+GraphTimeToStreamTimeWithBlocking
 (
 interval
 .

@@ -728,7 +728,7 @@ IsEmpty
 StreamTime
 t
 =
-GraphTimeToStreamTime
+GraphTimeToStreamTimeWithBlocking
 (
 aStream
 mStateComputedTime
@@ -1470,7 +1470,7 @@ StreamTime
 MediaStreamGraphImpl
 :
 :
-GraphTimeToStreamTime
+GraphTimeToStreamTimeWithBlocking
 (
 MediaStream
 *
@@ -1561,7 +1561,7 @@ aTime
 StreamTime
 s
 =
-GraphTimeToStreamTime
+GraphTimeToStreamTimeWithBlocking
 (
 aStream
 computedUpToTime
@@ -1581,7 +1581,7 @@ GraphTime
 MediaStreamGraphImpl
 :
 :
-StreamTimeToGraphTime
+StreamTimeToGraphTimeWithBlocking
 (
 MediaStream
 *
@@ -2016,7 +2016,7 @@ mProcessedTime
 stream
 -
 >
-StreamTimeToGraphTime
+StreamTimeToGraphTimeWithBlocking
 (
 stream
 -
@@ -3787,7 +3787,7 @@ output
 StreamTime
 offset
 =
-GraphTimeToStreamTime
+GraphTimeToStreamTimeWithBlocking
 (
 aStream
 aFrom
@@ -4443,7 +4443,7 @@ buffer
 StreamTime
 frameBufferTime
 =
-GraphTimeToStreamTime
+GraphTimeToStreamTimeWithBlocking
 (
 aStream
 mProcessedTime
@@ -4452,7 +4452,7 @@ mProcessedTime
 StreamTime
 bufferEndTime
 =
-GraphTimeToStreamTime
+GraphTimeToStreamTimeWithBlocking
 (
 aStream
 mStateComputedTime
@@ -4671,7 +4671,7 @@ height
 GraphTime
 frameTime
 =
-StreamTimeToGraphTime
+StreamTimeToGraphTimeWithBlocking
 (
 aStream
 frameBufferTime
@@ -5317,7 +5317,7 @@ update
 >
 mNextMainThreadCurrentTime
 =
-GraphTimeToStreamTime
+GraphTimeToStreamTimeWithBlocking
 (
 stream
 mProcessedTime
@@ -6205,7 +6205,7 @@ GetEnd
 )
 >
 =
-GraphTimeToStreamTime
+GraphTimeToStreamTimeWithBlocking
 (
 stream
 aTo
@@ -8489,7 +8489,7 @@ StreamTime
 MediaStream
 :
 :
-GraphTimeToStreamTime
+GraphTimeToStreamTimeWithBlocking
 (
 GraphTime
 aTime
@@ -8501,7 +8501,7 @@ GraphImpl
 )
 -
 >
-GraphTimeToStreamTime
+GraphTimeToStreamTimeWithBlocking
 (
 this
 aTime
@@ -8535,7 +8535,7 @@ GraphTime
 MediaStream
 :
 :
-StreamTimeToGraphTime
+StreamTimeToGraphTimeWithBlocking
 (
 StreamTime
 aTime
@@ -8547,7 +8547,7 @@ GraphImpl
 )
 -
 >
-StreamTimeToGraphTime
+StreamTimeToGraphTimeWithBlocking
 (
 this
 aTime

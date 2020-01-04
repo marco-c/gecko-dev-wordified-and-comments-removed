@@ -862,7 +862,7 @@ mEnd
 StreamTime
 outputStart
 =
-GraphTimeToStreamTime
+GraphTimeToStreamTimeWithBlocking
 (
 interval
 .
@@ -872,7 +872,7 @@ mStart
 StreamTime
 outputEnd
 =
-GraphTimeToStreamTime
+GraphTimeToStreamTimeWithBlocking
 (
 interval
 .
@@ -919,7 +919,7 @@ GetDuration
 source
 -
 >
-GraphTimeToStreamTime
+GraphTimeToStreamTimeWithBlocking
 (
 interval
 .
@@ -943,7 +943,7 @@ GetDuration
 source
 -
 >
-GraphTimeToStreamTime
+GraphTimeToStreamTimeWithBlocking
 (
 interval
 .

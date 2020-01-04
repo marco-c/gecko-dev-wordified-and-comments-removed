@@ -1175,7 +1175,7 @@ aTicks
 ;
 }
 StreamTime
-GraphTimeToStreamTime
+GraphTimeToStreamTimeWithBlocking
 (
 GraphTime
 aTime
@@ -1189,7 +1189,7 @@ aTime
 )
 ;
 GraphTime
-StreamTimeToGraphTime
+StreamTimeToGraphTimeWithBlocking
 (
 StreamTime
 aTime
