@@ -25,6 +25,13 @@ FFmpegH264Decoder
 .
 h
 "
+#
+include
+"
+FFmpegRuntimeLinker
+.
+h
+"
 namespace
 mozilla
 {
@@ -68,6 +75,9 @@ major
 &
 &
 !
+FFmpegRuntimeLinker
+:
+:
 sFFmpegDecoderEnabled
 )
 {
