@@ -4510,7 +4510,7 @@ aRequest
 )
 ;
 static
-void
+nsresult
 GetHostOrIPv6WithBrackets
 (
 nsIURI
@@ -4522,7 +4522,7 @@ aHost
 )
 ;
 static
-void
+nsresult
 GetHostOrIPv6WithBrackets
 (
 nsIURI
