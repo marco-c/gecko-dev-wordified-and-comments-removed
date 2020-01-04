@@ -2015,10 +2015,14 @@ LayerManager
 >
 lm
 =
+mFrameLoader
+?
 GetFrom
 (
 mFrameLoader
 )
+:
+nullptr
 ;
 if
 (
