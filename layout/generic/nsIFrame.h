@@ -2964,11 +2964,6 @@ nscoord
 )
 NS_DECLARE_FRAME_PROPERTY_RELEASABLE
 (
-CachedBackgroundImage
-gfxASurface
-)
-NS_DECLARE_FRAME_PROPERTY_RELEASABLE
-(
 CachedBackgroundImageDT
 DrawTarget
 )
