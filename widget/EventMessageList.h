@@ -958,7 +958,7 @@ eMediaEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_CANPLAYTHROUGH
+eCanPlayThrough
 eMediaEventFirst
 +
 12
