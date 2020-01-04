@@ -26,6 +26,17 @@ classes
 ;
 Cu
 .
+importGlobalProperties
+(
+[
+'
+FileReader
+'
+]
+)
+;
+Cu
+.
 import
 (
 "

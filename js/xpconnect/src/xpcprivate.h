@@ -12918,6 +12918,11 @@ caches
 :
 1
 ;
+bool
+fileReader
+:
+1
+;
 }
 ;
 already_AddRefed

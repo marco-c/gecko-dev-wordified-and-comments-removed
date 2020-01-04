@@ -42,6 +42,9 @@ importGlobalProperties
 '
 File
 '
+'
+FileReader
+'
 ]
 )
 ;
