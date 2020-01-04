@@ -349,6 +349,13 @@ vp8
 .
 ivf
 '
+'
+test_case_1224369
+.
+vp8
+.
+ivf
+'
 ]
 include
 (
