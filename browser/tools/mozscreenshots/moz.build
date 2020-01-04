@@ -136,6 +136,13 @@ browser
 ini
 '
 '
+permissionPrompts
+/
+browser
+.
+ini
+'
+'
 preferences
 /
 browser
