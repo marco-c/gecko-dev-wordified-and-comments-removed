@@ -84,13 +84,12 @@ JSContext
 *
 cx
 const
-nsAString
-&
-filePath
-const
 HeapSnapshotBoundaries
 &
 boundaries
+nsAString
+&
+filePath
 ErrorResult
 &
 rv
