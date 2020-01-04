@@ -1972,6 +1972,9 @@ case
 SYS_BIND
 :
 case
+SYS_LISTEN
+:
+case
 SYS_SETSOCKOPT
 :
 case
