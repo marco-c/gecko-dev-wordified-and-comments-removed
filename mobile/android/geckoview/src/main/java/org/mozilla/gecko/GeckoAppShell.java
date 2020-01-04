@@ -1314,14 +1314,6 @@ int
 id
 )
 ;
-public
-static
-native
-void
-dispatchMemoryPressure
-(
-)
-;
 private
 static
 native
