@@ -2279,8 +2279,10 @@ COLOR_ALPHA
 &
 inSnapshot
 )
-&
-&
+)
+{
+if
+(
 remoteRenderer
 -
 >
@@ -2423,6 +2425,7 @@ DestroySharedSurface
 inSnapshot
 )
 ;
+}
 }
 }
 mShadowTarget
