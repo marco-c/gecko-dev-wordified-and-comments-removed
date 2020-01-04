@@ -1362,7 +1362,7 @@ eOpenCloseEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_OPEN
+eOpen
 eOpenCloseEventFirst
 )
 NS_EVENT_MESSAGE
