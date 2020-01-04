@@ -53,6 +53,10 @@ i
 )
 {
 return
+(
+char
+*
+)
 SECU_Strerror
 (
 i

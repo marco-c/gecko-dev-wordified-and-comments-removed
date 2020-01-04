@@ -1,0 +1,12 @@
+#
+define
+SSL_RSA_MIN_MODULUS_BITS
+1023
+#
+define
+SSL_DH_MIN_P_BITS
+1023
+#
+define
+SSL_DSA_MIN_P_BITS
+1023

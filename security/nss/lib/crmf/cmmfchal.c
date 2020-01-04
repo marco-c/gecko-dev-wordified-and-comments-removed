@@ -148,9 +148,6 @@ symKey
 =
 NULL
 ;
-CK_OBJECT_HANDLE
-id
-;
 CERTSubjectPublicKeyInfo
 *
 spki
@@ -401,8 +398,9 @@ goto
 loser
 ;
 }
-id
-=
+(
+void
+)
 PK11_ImportPublicKey
 (
 slot

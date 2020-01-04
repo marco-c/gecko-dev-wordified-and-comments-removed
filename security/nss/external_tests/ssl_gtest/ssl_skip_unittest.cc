@@ -454,7 +454,7 @@ TlsSkipTest
 SkipCertificateRsa
 )
 {
-DisableDheCiphers
+DisableDheAndEcdheCiphers
 (
 )
 ;
@@ -506,10 +506,6 @@ TlsSkipTest
 SkipCertificateEcdhe
 )
 {
-EnableSomeEcdheCiphers
-(
-)
-;
 ServerSkipTest
 (
 new
@@ -562,10 +558,6 @@ TlsSkipTest
 SkipServerKeyExchange
 )
 {
-EnableSomeEcdheCiphers
-(
-)
-;
 ServerSkipTest
 (
 new

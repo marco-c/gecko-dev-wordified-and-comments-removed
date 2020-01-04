@@ -79,6 +79,13 @@ g_working_dir_path
 .
 "
 ;
+unsetenv
+(
+"
+NSS_STRICT_SHUTDOWN
+"
+)
+;
 char
 *
 workdir

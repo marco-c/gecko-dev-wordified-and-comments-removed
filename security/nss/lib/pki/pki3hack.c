@@ -5848,6 +5848,7 @@ failureCount
 =
 0
 ;
+unsigned
 int
 index
 ;
@@ -6095,6 +6096,7 @@ c
 >
 object
 ;
+unsigned
 int
 i
 ;

@@ -382,6 +382,7 @@ SFTKHash
 (
 void
 *
+const
 void
 *
 unsigned
@@ -2970,6 +2971,7 @@ sftk_HMACConstantTime_Update
 void
 *
 pctx
+const
 void
 *
 data
@@ -2984,6 +2986,7 @@ sftk_SSLv3MACConstantTime_Update
 void
 *
 pctx
+const
 void
 *
 data
@@ -3033,6 +3036,9 @@ CK_KEY_TYPE
 key_type
 HASH_HashType
 hash_alg
+unsigned
+int
+out_len
 )
 ;
 SEC_END_PROTOS

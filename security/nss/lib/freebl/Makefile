@@ -4524,6 +4524,8 @@ SINGLE_SHLIB_DIR
 :
 -
 mkdir
+-
+p
 (
 SINGLE_SHLIB_DIR
 )

@@ -4650,6 +4650,9 @@ CLIENT_OPTIONS
 echo
 "
 -
+c
+v
+-
 T
 -
 O
@@ -4712,6 +4715,9 @@ d
 P_R_CLIENTDIR
 }
 -
+v
+-
+c
 v
 -
 T

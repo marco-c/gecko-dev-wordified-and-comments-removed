@@ -410,6 +410,7 @@ SECItem
 result
 )
 {
+unsigned
 int
 bufsize
 =
@@ -418,10 +419,11 @@ bufsize
 int
 cc
 ;
+unsigned
 int
 wanted
 =
-8192
+8192U
 ;
 result
 -

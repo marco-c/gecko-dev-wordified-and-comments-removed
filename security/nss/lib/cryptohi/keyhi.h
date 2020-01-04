@@ -601,6 +601,15 @@ SECItem
 params
 )
 ;
+SECOidTag
+SECKEY_GetECCOid
+(
+const
+SECKEYECParams
+*
+params
+)
+;
 SEC_END_PROTOS
 #
 endif

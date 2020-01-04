@@ -68,6 +68,10 @@ nssrenam
 .
 h
 \
+nssoptions
+.
+h
+\
 (
 NULL
 )
@@ -88,6 +92,10 @@ CSRCS
 =
 \
 nssinit
+.
+c
+\
+nssoptions
 .
 c
 \

@@ -3713,6 +3713,9 @@ key
 "
 "
 0
+(
+SECU_PPFunc
+)
 SECU_PrintCertificate
 )
 !

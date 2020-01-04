@@ -60,7 +60,7 @@ chainVerificationState
 PKIX_RevocationStatus
 *
 pRevStatus
-PKIX_UInt32
+CERTCRLEntryReasonCode
 *
 reasonCode
 void
@@ -93,7 +93,7 @@ methodFlags
 PKIX_RevocationStatus
 *
 pRevStatus
-PKIX_UInt32
+CERTCRLEntryReasonCode
 *
 reasonCode
 void

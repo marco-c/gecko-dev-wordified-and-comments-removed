@@ -419,11 +419,6 @@ SECFailure
 ;
 break
 ;
-case
-0
-:
-break
-;
 default
 :
 PORT_SetError

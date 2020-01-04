@@ -1742,6 +1742,7 @@ prime
 SECItem
 *
 prime_seed
+unsigned
 int
 *
 prime_gen_counter
@@ -2661,6 +2662,7 @@ prime
 SECItem
 *
 prime_seed
+unsigned
 int
 *
 prime_gen_counter
@@ -3248,6 +3250,7 @@ Q
 mp_int
 *
 Q_
+unsigned
 int
 *
 qseed_len
@@ -3507,6 +3510,7 @@ hashtype
 )
 )
 {
+unsigned
 int
 count
 ;
@@ -4388,6 +4392,8 @@ const
 SECHashObject
 *
 hashobj
+=
+NULL
 ;
 void
 *
@@ -4785,10 +4791,6 @@ pVfy
 unsigned
 int
 n
-;
-unsigned
-int
-b
 ;
 unsigned
 int
@@ -5212,16 +5214,6 @@ L
 /
 outlen
 ;
-b
-=
-(
-L
--
-1
-)
-%
-outlen
-;
 seedlen
 =
 seedBytes
@@ -5311,6 +5303,7 @@ Q
 }
 else
 {
+unsigned
 int
 qgen_counter
 pgen_counter
@@ -6324,6 +6317,7 @@ counter_max
 =
 0
 ;
+unsigned
 int
 qseed_len
 ;
@@ -6963,9 +6957,11 @@ pseed
 0
 }
 ;
+unsigned
 int
 first_seed_len
 ;
+unsigned
 int
 pgen_counter
 =

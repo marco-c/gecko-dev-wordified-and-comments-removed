@@ -4729,6 +4729,7 @@ void
 plContext
 )
 {
+unsigned
 int
 anchorIndex
 =

@@ -4291,9 +4291,6 @@ NULL
 PKIX_UInt32
 derLength
 ;
-PKIX_Boolean
-copyDER
-;
 PKIX_PL_Cert
 *
 cert
@@ -4377,10 +4374,6 @@ data
 derBytes
 derLength
 )
-;
-copyDER
-=
-PKIX_TRUE
 ;
 handle
 =
