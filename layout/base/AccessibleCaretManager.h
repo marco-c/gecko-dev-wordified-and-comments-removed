@@ -470,7 +470,7 @@ GetFrameSelection
 const
 ;
 nsRect
-GetContentBoundaryForFrame
+GetAllChildFrameRectsUnion
 (
 nsIFrame
 *
