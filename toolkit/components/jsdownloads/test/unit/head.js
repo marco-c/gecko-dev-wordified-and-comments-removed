@@ -1979,6 +1979,7 @@ Task
 spawn
 (
 function
+*
 (
 )
 {

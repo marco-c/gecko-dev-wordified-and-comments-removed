@@ -6,6 +6,7 @@ strict
 add_task
 (
 function
+*
 test_private_temp
 (
 )

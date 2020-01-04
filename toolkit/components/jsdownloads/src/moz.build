@@ -147,6 +147,11 @@ DownloadStore
 .
 jsm
 '
+'
+DownloadUIHelper
+.
+jsm
+'
 ]
 EXTRA_PP_JS_MODULES
 +
@@ -154,11 +159,6 @@ EXTRA_PP_JS_MODULES
 [
 '
 DownloadIntegration
-.
-jsm
-'
-'
-DownloadUIHelper
 .
 jsm
 '

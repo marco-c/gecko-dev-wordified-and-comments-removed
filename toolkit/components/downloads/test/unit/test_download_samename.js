@@ -583,9 +583,12 @@ path
 catch
 (
 ex
+)
+{
 if
+(
 ex
-=
+!
 =
 Components
 .
@@ -593,7 +596,9 @@ results
 .
 NS_ERROR_ABORT
 )
-{
+throw
+ex
+;
 }
 }
 }

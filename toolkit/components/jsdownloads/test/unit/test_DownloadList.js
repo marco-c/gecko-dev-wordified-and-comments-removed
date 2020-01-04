@@ -199,6 +199,7 @@ promise
 add_task
 (
 function
+*
 test_construction
 (
 )
@@ -261,6 +262,7 @@ privateDownloadListOne
 add_task
 (
 function
+*
 test_add_getAll
 (
 )
@@ -382,6 +384,7 @@ length
 add_task
 (
 function
+*
 test_remove
 (
 )
@@ -471,6 +474,7 @@ length
 add_task
 (
 function
+*
 test_DownloadCombinedList_add_remove_getAll
 (
 )
@@ -714,6 +718,7 @@ length
 add_task
 (
 function
+*
 test_notifications_add_remove
 (
 )
@@ -1006,6 +1011,7 @@ addNotifications
 add_task
 (
 function
+*
 test_notifications_change
 (
 )
@@ -1183,6 +1189,7 @@ receivedOnDownloadChanged
 add_task
 (
 function
+*
 test_notifications_this
 (
 )
@@ -1334,6 +1341,7 @@ receivedOnDownloadRemoved
 add_task
 (
 function
+*
 test_history_expiration
 (
 )
@@ -1587,6 +1595,7 @@ cleanup
 add_task
 (
 function
+*
 test_history_clear
 (
 )
@@ -1716,6 +1725,7 @@ promise
 add_task
 (
 function
+*
 test_removeFinished
 (
 )
@@ -1933,6 +1943,7 @@ length
 add_task
 (
 function
+*
 test_DownloadSummary
 (
 )
@@ -2419,6 +2430,7 @@ progressCurrentBytes
 add_task
 (
 function
+*
 test_DownloadSummary_notifications
 (
 )

@@ -102,6 +102,7 @@ store
 add_task
 (
 function
+*
 test_save_reload
 (
 )
@@ -427,6 +428,7 @@ toSerializable
 add_task
 (
 function
+*
 test_save_empty
 (
 )
@@ -504,6 +506,7 @@ save
 add_task
 (
 function
+*
 test_load_empty
 (
 )
@@ -565,6 +568,7 @@ length
 add_task
 (
 function
+*
 test_load_string_predefined
 (
 )
@@ -882,6 +886,7 @@ targetPath
 add_task
 (
 function
+*
 test_load_string_unrecognized
 (
 )
@@ -1134,6 +1139,7 @@ targetPath
 add_task
 (
 function
+*
 test_load_string_malformed
 (
 )
@@ -1266,17 +1272,24 @@ malformed
 catch
 (
 ex
+)
+{
 if
+(
 ex
 .
 name
-=
+!
 =
 "
 SyntaxError
 "
 )
 {
+throw
+ex
+;
+}
 do_print
 (
 "
@@ -1315,6 +1328,7 @@ length
 add_task
 (
 function
+*
 test_save_reload_unknownProperties
 (
 )

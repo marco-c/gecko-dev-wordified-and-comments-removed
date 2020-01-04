@@ -778,6 +778,7 @@ run_next_test
 add_task
 (
 function
+*
 test_setup
 (
 )
@@ -1726,6 +1727,7 @@ promise
 add_task
 (
 function
+*
 (
 )
 {
@@ -1740,6 +1742,7 @@ waitForUpdates
 add_task
 (
 function
+*
 test_signature_whitelists
 (
 )
@@ -1905,6 +1908,7 @@ false
 add_task
 (
 function
+*
 test_blocked_binary
 (
 )
@@ -1993,6 +1997,7 @@ true
 add_task
 (
 function
+*
 test_non_binary
 (
 )
@@ -2081,6 +2086,7 @@ false
 add_task
 (
 function
+*
 test_good_binary
 (
 )
@@ -2169,6 +2175,7 @@ false
 add_task
 (
 function
+*
 test_disabled
 (
 )
@@ -2304,6 +2311,7 @@ promise
 add_task
 (
 function
+*
 test_disabled_through_lists
 (
 )
@@ -2454,6 +2462,7 @@ promise
 add_task
 (
 function
+*
 test_teardown
 (
 )

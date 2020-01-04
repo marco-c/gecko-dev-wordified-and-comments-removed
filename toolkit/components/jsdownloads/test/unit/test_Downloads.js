@@ -6,6 +6,7 @@ strict
 add_task
 (
 function
+*
 test_createDownload
 (
 )
@@ -57,6 +58,7 @@ copy
 add_task
 (
 function
+*
 test_createDownload_private
 (
 )
@@ -123,6 +125,7 @@ isPrivate
 add_task
 (
 function
+*
 test_createDownload_public
 (
 )
@@ -241,6 +244,7 @@ isPrivate
 add_task
 (
 function
+*
 test_createDownload_pdf
 (
 )
@@ -314,19 +318,30 @@ failed
 catch
 (
 ex
+)
+{
 if
+(
+!
+(
 ex
 instanceof
 Downloads
 .
 Error
-&
-&
+)
+|
+|
+!
 ex
 .
 becauseSourceFailed
 )
 {
+throw
+ex
+;
+}
 }
 do_check_false
 (
@@ -401,6 +416,7 @@ path
 add_task
 (
 function
+*
 test_fetch_uri_file_arguments
 (
 )
@@ -449,6 +465,7 @@ TEST_DATA_SHORT
 add_task
 (
 function
+*
 test_fetch_object_arguments
 (
 )
@@ -500,6 +517,7 @@ TEST_DATA_SHORT
 add_task
 (
 function
+*
 test_fetch_string_arguments
 (
 )
@@ -583,6 +601,7 @@ TEST_DATA_SHORT
 add_task
 (
 function
+*
 test_getList
 (
 )
@@ -663,6 +682,7 @@ privateListOne
 add_task
 (
 function
+*
 test_getSummary
 (
 )
@@ -743,6 +763,7 @@ privateSummaryOne
 add_task
 (
 function
+*
 test_getSystemDownloadsDirectory
 (
 )
@@ -770,6 +791,7 @@ downloadDir
 add_task
 (
 function
+*
 test_getPreferredDownloadsDirectory
 (
 )
@@ -797,6 +819,7 @@ downloadDir
 add_task
 (
 function
+*
 test_getTemporaryDownloadsDirectory
 (
 )
