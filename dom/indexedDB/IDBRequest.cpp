@@ -1448,7 +1448,7 @@ if
 !
 autoJS
 .
-InitWithLegacyErrorReporting
+Init
 (
 GetOwner
 (
@@ -1476,6 +1476,12 @@ return
 ;
 }
 }
+autoJS
+.
+TakeOwnershipOfErrorReporting
+(
+)
+;
 JSContext
 *
 cx

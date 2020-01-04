@@ -595,7 +595,7 @@ NS_WARN_IF
 !
 jsapi
 .
-InitWithLegacyErrorReporting
+Init
 (
 aWindow
 )
