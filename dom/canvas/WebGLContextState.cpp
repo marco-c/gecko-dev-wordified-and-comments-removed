@@ -1531,6 +1531,17 @@ i
 LOCAL_GL_RGBA
 ;
 }
+if
+(
+i
+=
+=
+LOCAL_GL_SRGB_ALPHA
+)
+i
+=
+LOCAL_GL_RGBA
+;
 return
 JS
 :
