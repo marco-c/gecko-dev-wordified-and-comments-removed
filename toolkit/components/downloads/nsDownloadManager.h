@@ -109,6 +109,13 @@ h
 #
 include
 "
+mozIDOMWindow
+.
+h
+"
+#
+include
+"
 mozStorageHelper
 .
 h
