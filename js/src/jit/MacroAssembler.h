@@ -4102,7 +4102,7 @@ label
 )
 ;
 void
-branchEqualTypeIfNeeded
+maybeBranchTestType
 (
 MIRType
 type
