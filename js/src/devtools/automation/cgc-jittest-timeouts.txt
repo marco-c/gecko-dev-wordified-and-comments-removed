@@ -176,6 +176,17 @@ test
 assertDeepEq
 .
 js
+sunspider
+/
+check
+-
+string
+-
+unpack
+-
+code
+.
+js
 v8
 -
 v5
