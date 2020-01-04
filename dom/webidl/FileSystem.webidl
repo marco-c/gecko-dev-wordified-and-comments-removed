@@ -95,7 +95,7 @@ MPL
 NoInterfaceObject
 ]
 interface
-Entry
+FileSystemEntry
 {
 readonly
 attribute
@@ -236,7 +236,7 @@ EntryCallback
 void
 handleEvent
 (
-Entry
+FileSystemEntry
 entry
 )
 ;
@@ -259,7 +259,7 @@ NoInterfaceObject
 interface
 DirectoryEntry
 :
-Entry
+FileSystemEntry
 {
 DirectoryReader
 createReader
@@ -338,7 +338,7 @@ handleEvent
 (
 sequence
 <
-Entry
+FileSystemEntry
 >
 entries
 )
@@ -433,7 +433,7 @@ NoInterfaceObject
 interface
 FileEntry
 :
-Entry
+FileSystemEntry
 {
 /
 /

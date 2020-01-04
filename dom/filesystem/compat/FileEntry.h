@@ -11,7 +11,7 @@ mozilla
 /
 dom
 /
-Entry
+FileSystemEntry
 .
 h
 "
@@ -29,7 +29,7 @@ FileEntry
 final
 :
 public
-Entry
+FileSystemEntry
 {
 public
 :
@@ -37,7 +37,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 FileEntry
-Entry
+FileSystemEntry
 )
 FileEntry
 (

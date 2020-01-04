@@ -1281,7 +1281,7 @@ readonly
 attribute
 sequence
 <
-Entry
+FileSystemEntry
 >
 webkitEntries
 ;

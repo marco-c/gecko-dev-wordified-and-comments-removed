@@ -506,7 +506,7 @@ mozilla
 /
 dom
 /
-Entry
+FileSystemEntry
 .
 h
 "
@@ -35473,7 +35473,7 @@ Sequence
 <
 RefPtr
 <
-Entry
+FileSystemEntry
 >
 >
 entries
@@ -35500,11 +35500,11 @@ i
 {
 RefPtr
 <
-Entry
+FileSystemEntry
 >
 entry
 =
-Entry
+FileSystemEntry
 :
 :
 Create
@@ -35564,7 +35564,7 @@ nsTArray
 <
 RefPtr
 <
-Entry
+FileSystemEntry
 >
 >
 &

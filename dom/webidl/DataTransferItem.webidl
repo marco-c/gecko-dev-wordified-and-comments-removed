@@ -192,7 +192,7 @@ getAsEntry
 "
 Throws
 ]
-Entry
+FileSystemEntry
 ?
 webkitGetAsEntry
 (

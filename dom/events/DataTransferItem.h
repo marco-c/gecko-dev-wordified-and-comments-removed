@@ -53,7 +53,7 @@ namespace
 dom
 {
 class
-Entry
+FileSystemEntry
 ;
 class
 FunctionStringCallback
@@ -276,7 +276,7 @@ aRv
 ;
 already_AddRefed
 <
-Entry
+FileSystemEntry
 >
 GetAsEntry
 (
