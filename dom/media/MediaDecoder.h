@@ -1071,13 +1071,6 @@ mLogicallySeeking
 void
 SeekingStarted
 (
-MediaDecoderEventVisibility
-aEventVisibility
-=
-MediaDecoderEventVisibility
-:
-:
-Observable
 )
 ;
 void
@@ -1801,9 +1794,6 @@ mFirstFrameLoadedListener
 ;
 MediaEventListener
 mOnPlaybackEvent
-;
-MediaEventListener
-mOnSeekingStart
 ;
 MediaEventListener
 mOnMediaNotSeekable
