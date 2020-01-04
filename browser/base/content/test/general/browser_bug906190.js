@@ -122,6 +122,11 @@ origBlockActive
 }
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 function
 waitForCondition
 (
