@@ -436,7 +436,7 @@ eBasicEventClass
 EVENT
 (
 ended
-NS_ENDED
+eEnded
 EventNameType_HTML
 eBasicEventClass
 )
