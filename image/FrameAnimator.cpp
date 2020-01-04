@@ -377,6 +377,16 @@ nextFrameIndex
 {
 if
 (
+!
+mDoneDecoding
+)
+{
+return
+ret
+;
+}
+if
+(
 mLoopRemainingCount
 <
 0
