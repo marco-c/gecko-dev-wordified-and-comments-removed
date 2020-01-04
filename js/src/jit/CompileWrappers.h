@@ -353,6 +353,13 @@ jitCompartment
 (
 )
 ;
+const
+GlobalObject
+*
+maybeGlobal
+(
+)
+;
 bool
 hasAllocationMetadataBuilder
 (
