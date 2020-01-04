@@ -663,14 +663,6 @@ result
 }
 #
 define
-NS_STYLE_HINT_NONE
-\
-nsChangeHint
-(
-0
-)
-#
-define
 NS_STYLE_HINT_VISUAL
 \
 nsChangeHint
