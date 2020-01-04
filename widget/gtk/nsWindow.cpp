@@ -9713,6 +9713,10 @@ GetPlatform
 CreateDrawTargetForData
 (
 imageBuffer
+.
+get
+(
+)
 aBoundsRect
 .
 Size
