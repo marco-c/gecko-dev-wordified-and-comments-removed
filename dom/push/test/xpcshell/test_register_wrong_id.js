@@ -256,13 +256,10 @@ serverChannelID
 yield
 rejects
 (
-PushService
+PushNotificationService
 .
 register
 (
-{
-scope
-:
 '
 https
 :
@@ -274,8 +271,6 @@ com
 /
 mismatched
 '
-originAttributes
-:
 ChromeUtils
 .
 originAttributesToSuffix
@@ -293,7 +288,6 @@ inBrowser
 false
 }
 )
-}
 )
 '
 Expected

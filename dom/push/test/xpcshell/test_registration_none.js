@@ -100,13 +100,10 @@ let
 registration
 =
 yield
-PushService
+PushNotificationService
 .
 registration
 (
-{
-scope
-:
 '
 https
 :
@@ -118,8 +115,6 @@ net
 /
 1
 '
-originAttributes
-:
 ChromeUtils
 .
 originAttributesToSuffix
@@ -137,7 +132,6 @@ inBrowser
 false
 }
 )
-}
 )
 ;
 ok

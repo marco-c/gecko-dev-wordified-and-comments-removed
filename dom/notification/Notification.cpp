@@ -335,7 +335,7 @@ MOZ_SIMPLEPUSH
 #
 include
 "
-nsIPushService
+nsIPushNotificationService
 .
 h
 "
@@ -4683,7 +4683,7 @@ org
 /
 push
 /
-Service
+NotificationService
 ;
 1
 "

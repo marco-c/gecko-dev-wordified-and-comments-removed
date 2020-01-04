@@ -247,13 +247,10 @@ type
 yield
 rejects
 (
-PushService
+PushNotificationService
 .
 register
 (
-{
-scope
-:
 '
 https
 :
@@ -265,8 +262,6 @@ com
 /
 mistyped
 '
-originAttributes
-:
 ChromeUtils
 .
 originAttributesToSuffix
@@ -284,7 +279,6 @@ inBrowser
 false
 }
 )
-}
 )
 '
 Expected

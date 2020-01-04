@@ -3412,7 +3412,14 @@ RESPATH
 /
 components
 /
-PushComponents
+PushClient
+.
+js
+RESPATH
+/
+components
+/
+PushNotificationService
 .
 js
 RESPATH

@@ -399,13 +399,10 @@ registers
 yield
 rejects
 (
-PushService
+PushNotificationService
 .
 register
 (
-{
-scope
-:
 '
 https
 :
@@ -419,8 +416,6 @@ page
 /
 timeout
 '
-originAttributes
-:
 ChromeUtils
 .
 originAttributesToSuffix
@@ -438,7 +433,6 @@ inBrowser
 false
 }
 )
-}
 )
 '
 Expected
