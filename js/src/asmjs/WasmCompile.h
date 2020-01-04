@@ -63,10 +63,10 @@ cx
 SharedModule
 Compile
 (
-Bytes
+const
+ShareableBytes
 &
-&
-code
+bytecode
 CompileArgs
 &
 &
