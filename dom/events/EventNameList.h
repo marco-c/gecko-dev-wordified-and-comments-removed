@@ -874,7 +874,7 @@ eBasicEventClass
 WINDOW_EVENT
 (
 afterprint
-NS_AFTERPRINT
+eAfterPrint
 EventNameType_XUL
 |
 EventNameType_HTMLBodyOrFramesetOnly
