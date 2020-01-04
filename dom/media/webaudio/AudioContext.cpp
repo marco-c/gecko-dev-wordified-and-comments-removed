@@ -2205,15 +2205,6 @@ Length
 =
 =
 0
-|
-|
-aRealData
-.
-Length
-(
-)
->
-4096
 )
 {
 aRv

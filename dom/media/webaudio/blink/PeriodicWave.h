@@ -205,6 +205,8 @@ PeriodicWave
 (
 float
 sampleRate
+size_t
+numberOfComponents
 )
 ;
 ~

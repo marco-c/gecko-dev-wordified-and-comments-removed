@@ -85,14 +85,6 @@ aLength
 0
 )
 ;
-MOZ_ASSERT
-(
-aLength
-<
-=
-4096
-)
-;
 mLength
 =
 aLength
