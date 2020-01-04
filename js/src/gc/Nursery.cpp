@@ -3708,7 +3708,6 @@ freeMallocedBuffersTask
 >
 startWithLockHeld
 (
-lock
 )
 ;
 }

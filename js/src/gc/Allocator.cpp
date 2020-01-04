@@ -1588,7 +1588,6 @@ allocTask
 .
 startWithLockHeld
 (
-helperLock
 )
 ;
 }
@@ -2070,6 +2069,17 @@ arena
 )
 return
 nullptr
+;
+MOZ_ASSERT
+(
+!
+maybeLock
+-
+>
+wasUnlocked
+(
+)
+)
 ;
 MOZ_ASSERT
 (

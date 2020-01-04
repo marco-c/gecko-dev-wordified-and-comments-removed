@@ -543,10 +543,6 @@ runtime
 IonBuilder
 *
 builder
-const
-AutoLockHelperThreadState
-&
-lock
 )
 ;
 void
