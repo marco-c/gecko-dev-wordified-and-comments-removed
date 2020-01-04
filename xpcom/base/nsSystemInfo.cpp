@@ -916,12 +916,10 @@ status
 RegQueryValueExW
 (
 hKey
-MOZ_UTF16
-(
+L
 "
 InstallDate
 "
-)
 nullptr
 &
 type
