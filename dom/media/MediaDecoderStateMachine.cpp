@@ -1543,10 +1543,6 @@ MOZ_COUNT_DTOR
 MediaDecoderStateMachine
 )
 ;
-mReader
-=
-nullptr
-;
 #
 ifdef
 XP_WIN
