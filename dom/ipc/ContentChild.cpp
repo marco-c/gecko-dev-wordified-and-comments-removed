@@ -9729,6 +9729,13 @@ Cancel
 )
 ;
 }
+nsHostObjectProtocolHandler
+:
+:
+RemoveDataEntries
+(
+)
+;
 mAlertObservers
 .
 Clear

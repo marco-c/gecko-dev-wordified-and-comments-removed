@@ -252,6 +252,12 @@ true
 )
 ;
 static
+void
+RemoveDataEntries
+(
+)
+;
+static
 nsIPrincipal
 *
 GetDataEntryPrincipal
