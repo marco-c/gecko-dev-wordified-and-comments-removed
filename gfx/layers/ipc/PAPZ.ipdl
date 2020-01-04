@@ -115,7 +115,7 @@ h
 ;
 include
 protocol
-PContent
+PCompositorBridge
 ;
 using
 mozilla
@@ -451,7 +451,7 @@ protocol
 PAPZ
 {
 manager
-PContent
+PCompositorBridge
 ;
 parent
 :
@@ -530,6 +530,17 @@ uint64_t
 aInputBlockId
 bool
 aCallTakeFocusForClickFromTap
+)
+;
+async
+NotifyMozMouseScrollEvent
+(
+uint64_t
+aLayersId
+ViewID
+aScrollId
+nsString
+aEvent
 )
 ;
 async
