@@ -35217,7 +35217,7 @@ WidgetQueryContentEvent
 event
 (
 true
-NS_QUERY_SELECTION_AS_TRANSFERABLE
+eQuerySelectionAsTransferable
 mGeckoChild
 )
 ;

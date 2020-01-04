@@ -320,11 +320,11 @@ NS_QUERY_CONTENT_STATE
 "
 ;
 case
-NS_QUERY_SELECTION_AS_TRANSFERABLE
+eQuerySelectionAsTransferable
 :
 return
 "
-NS_QUERY_SELECTION_AS_TRANSFERABLE
+eQuerySelectionAsTransferable
 "
 ;
 case
