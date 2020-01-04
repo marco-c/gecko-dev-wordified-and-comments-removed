@@ -50530,10 +50530,13 @@ alloc
 (
 )
 obj
+size_t
+(
 ArrayBufferObject
 :
 :
 BYTE_LENGTH_SLOT
+)
 )
 ;
 current
