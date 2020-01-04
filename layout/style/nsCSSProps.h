@@ -1141,6 +1141,15 @@ CSS_PROPERTY_INTERNAL
 <
 28
 )
+#
+define
+CSS_PROPERTY_FIXPOS_CB
+(
+1
+<
+<
+29
+)
 enum
 nsStyleAnimType
 {
