@@ -216,7 +216,7 @@ nsSVGPathGeometryFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsSVGPathGeometryFrameBase
+nsFrame
 )
 class
 nsDisplaySVGPathGeometry
@@ -560,7 +560,7 @@ GetStateBits
 NS_STATE_SVG_CLIPPATH_CHILD
 )
 ;
-nsSVGPathGeometryFrameBase
+nsFrame
 :
 :
 Init
@@ -654,7 +654,7 @@ nsStyleContext
 aOldStyleContext
 )
 {
-nsSVGPathGeometryFrameBase
+nsFrame
 :
 :
 DidSetStyleContext
