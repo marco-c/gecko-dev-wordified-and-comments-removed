@@ -1271,16 +1271,11 @@ js
 TypeZone
 types
 ;
-mozilla
-:
-:
-LinkedList
-<
 js
 :
 :
 WeakMapBase
->
+*
 gcWeakMapList
 ;
 typedef
