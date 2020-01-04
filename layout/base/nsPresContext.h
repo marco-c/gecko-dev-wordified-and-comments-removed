@@ -3328,6 +3328,13 @@ UIResolutionChangedInternal
 (
 )
 ;
+void
+UIResolutionChangedInternalScale
+(
+double
+aScale
+)
+;
 static
 bool
 UIResolutionChangedSubdocumentCallback

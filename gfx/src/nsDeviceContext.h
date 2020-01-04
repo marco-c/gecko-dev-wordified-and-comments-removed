@@ -391,6 +391,11 @@ EndPage
 bool
 CheckDPIChange
 (
+double
+*
+aScale
+=
+nullptr
 )
 ;
 bool
@@ -433,6 +438,11 @@ nsDeviceContext
 void
 SetDPI
 (
+double
+*
+aScale
+=
+nullptr
 )
 ;
 void
