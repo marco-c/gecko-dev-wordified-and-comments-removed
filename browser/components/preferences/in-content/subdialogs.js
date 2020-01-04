@@ -1890,7 +1890,7 @@ persistedAttributes
 !
 persistedAttributes
 .
-contains
+includes
 (
 "
 width
@@ -1901,7 +1901,7 @@ width
 !
 persistedAttributes
 .
-contains
+includes
 (
 "
 height
