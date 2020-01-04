@@ -30,7 +30,7 @@ gecko
 .
 annotation
 .
-WrapForJNI
+JNITarget
 ;
 import
 org
@@ -103,7 +103,7 @@ Object
 ]
 data
 ;
-WrapForJNI
+JNITarget
 public
 MatrixBlobCursor
 (
@@ -174,7 +174,7 @@ allocationStack
 ;
 }
 }
-WrapForJNI
+JNITarget
 public
 MatrixBlobCursor
 (
@@ -350,7 +350,7 @@ endIndex
 )
 ;
 }
-WrapForJNI
+JNITarget
 public
 void
 addRow
@@ -425,7 +425,7 @@ columnCount
 )
 ;
 }
-WrapForJNI
+JNITarget
 public
 void
 addRow
@@ -571,7 +571,7 @@ rowCount
 +
 ;
 }
-WrapForJNI
+JNITarget
 private
 void
 addRow

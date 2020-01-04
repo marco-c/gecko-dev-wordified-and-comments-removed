@@ -48,6 +48,13 @@ os
 Bundle
 ;
 WrapForJNI
+(
+calledFrom
+=
+"
+gecko
+"
+)
 public
 class
 NativeJSObject

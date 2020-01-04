@@ -188,9 +188,11 @@ false
 }
 WrapForJNI
 (
-allowMultithread
+calledFrom
 =
-true
+"
+gecko
+"
 )
 public
 ImmutableViewportMetrics

@@ -169,7 +169,7 @@ java
 Clipboard
 :
 :
-SetClipboardText
+SetText
 (
 buffer
 )

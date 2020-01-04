@@ -448,6 +448,13 @@ getRotation
 ;
 }
 WrapForJNI
+(
+dispatchTo
+=
+"
+gecko
+"
+)
 private
 static
 native

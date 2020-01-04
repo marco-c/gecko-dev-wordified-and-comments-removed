@@ -3775,7 +3775,7 @@ java
 GeckoJavaSampler
 :
 :
-StartJavaProfiling
+Start
 (
 javaInterval
 1000

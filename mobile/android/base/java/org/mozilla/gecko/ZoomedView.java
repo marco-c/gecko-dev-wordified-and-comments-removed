@@ -4373,6 +4373,13 @@ MINIMUM_DELAY_BETWEEN_TWO_RENDER_CALLS_NS
 ;
 }
 WrapForJNI
+(
+dispatchTo
+=
+"
+gecko
+"
+)
 private
 static
 native

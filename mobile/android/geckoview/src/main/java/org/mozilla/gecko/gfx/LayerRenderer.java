@@ -2178,11 +2178,6 @@ pageRect
 ;
 }
 WrapForJNI
-(
-allowMultithread
-=
-true
-)
 public
 void
 beginDrawing
@@ -2492,11 +2487,6 @@ GL_DEPTH_BUFFER_BIT
 ;
 }
 WrapForJNI
-(
-allowMultithread
-=
-true
-)
 public
 void
 drawBackground
@@ -2527,11 +2517,6 @@ mBackgroundColor
 ;
 }
 WrapForJNI
-(
-allowMultithread
-=
-true
-)
 public
 void
 drawForeground
@@ -2759,11 +2744,6 @@ requestZoomedViewRender
 ;
 }
 WrapForJNI
-(
-allowMultithread
-=
-true
-)
 public
 void
 endDrawing

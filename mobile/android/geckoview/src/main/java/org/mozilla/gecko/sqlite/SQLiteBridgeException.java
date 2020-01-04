@@ -16,9 +16,9 @@ gecko
 .
 annotation
 .
-WrapForJNI
+JNITarget
 ;
-WrapForJNI
+JNITarget
 public
 class
 SQLiteBridgeException

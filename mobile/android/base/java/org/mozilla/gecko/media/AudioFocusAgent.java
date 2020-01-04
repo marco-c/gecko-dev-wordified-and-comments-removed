@@ -148,6 +148,13 @@ mAudioFocusState
 LOST_FOCUS
 ;
 WrapForJNI
+(
+calledFrom
+=
+"
+gecko
+"
+)
 public
 static
 void
@@ -188,6 +195,13 @@ requestAudioFocusIfNeeded
 ;
 }
 WrapForJNI
+(
+calledFrom
+=
+"
+gecko
+"
+)
 public
 static
 void

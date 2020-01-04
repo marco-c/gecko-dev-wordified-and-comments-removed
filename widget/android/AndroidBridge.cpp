@@ -2203,7 +2203,7 @@ arr
 GeckoAppShell
 :
 :
-GetHandlersForMimeTypeWrapper
+GetHandlersForMimeType
 (
 aMimeType
 aAction
@@ -2378,7 +2378,7 @@ arr
 GeckoAppShell
 :
 :
-GetHandlersForURLWrapper
+GetHandlersForURL
 (
 aURL
 aAction
@@ -2477,7 +2477,7 @@ jstrType
 GeckoAppShell
 :
 :
-GetMimeTypeFromExtensionsWrapper
+GetMimeTypeFromExtensions
 (
 aFileExt
 )
@@ -2529,7 +2529,7 @@ jstrExt
 GeckoAppShell
 :
 :
-GetExtensionFromMimeTypeWrapper
+GetExtensionFromMimeType
 (
 aMimeType
 )
@@ -2577,7 +2577,7 @@ text
 Clipboard
 :
 :
-GetClipboardTextWrapper
+GetText
 (
 )
 ;
@@ -2634,7 +2634,7 @@ sDPI
 GeckoAppShell
 :
 :
-GetDpiWrapper
+GetDpi
 (
 )
 ;
@@ -2703,7 +2703,7 @@ sDepth
 GeckoAppShell
 :
 :
-GetScreenDepthWrapper
+GetScreenDepth
 (
 )
 ;
@@ -2813,7 +2813,7 @@ return
 GeckoAppShell
 :
 :
-Vibrate1
+Vibrate
 (
 d
 )
@@ -2974,7 +2974,7 @@ elts
 GeckoAppShell
 :
 :
-VibrateA
+Vibrate
 (
 LongArray
 :
@@ -3034,7 +3034,7 @@ arr
 GeckoAppShell
 :
 :
-GetSystemColoursWrapper
+GetSystemColors
 (
 )
 ;
@@ -3274,7 +3274,7 @@ arr
 GeckoAppShell
 :
 :
-GetIconForExtensionWrapper
+GetIconForExtension
 (
 NS_ConvertUTF8toUTF16
 (
@@ -4062,7 +4062,7 @@ arr
 GeckoAppShell
 :
 :
-InitCameraWrapper
+InitCamera
 (
 NS_ConvertUTF8toUTF16
 (
@@ -4203,7 +4203,7 @@ arr
 GeckoAppShell
 :
 :
-GetCurrentBatteryInformationWrapper
+GetCurrentBatteryInformation
 (
 )
 ;
@@ -4356,7 +4356,7 @@ object
 GeckoAppShell
 :
 :
-HandleGeckoMessageWrapper
+HandleGeckoMessage
 (
 message
 )
@@ -4602,7 +4602,7 @@ return
 GeckoAppShell
 :
 :
-SendMessageWrapper
+SendMessage
 (
 aNumber
 aMessage
@@ -4651,7 +4651,7 @@ return
 GeckoAppShell
 :
 :
-GetMessageWrapper
+GetMessage
 (
 aMessageId
 requestId
@@ -4699,7 +4699,7 @@ return
 GeckoAppShell
 :
 :
-DeleteMessageWrapper
+DeleteMessage
 (
 aMessageId
 requestId
@@ -4777,7 +4777,7 @@ HandleContinue
 GeckoAppShell
 :
 :
-GetNextMessageWrapper
+GetNextMessage
 (
 mRequestId
 )
@@ -4971,7 +4971,7 @@ aEndDate
 GeckoAppShell
 :
 :
-CreateMessageCursorWrapper
+CreateMessageCursor
 (
 startDate
 endDate
@@ -5030,7 +5030,7 @@ HandleContinue
 GeckoAppShell
 :
 :
-GetNextThreadWrapper
+GetNextThread
 (
 mRequestId
 )
@@ -5084,7 +5084,7 @@ nullptr
 GeckoAppShell
 :
 :
-CreateThreadCursorWrapper
+CreateThreadCursor
 (
 requestId
 )
@@ -5536,7 +5536,7 @@ arr
 GeckoAppShell
 :
 :
-GetCurrentNetworkInformationWrapper
+GetCurrentNetworkInformation
 (
 )
 ;
@@ -7140,7 +7140,7 @@ orientation
 GeckoAppShell
 :
 :
-GetScreenOrientationWrapper
+GetScreenOrientation
 (
 )
 ;
@@ -7248,7 +7248,7 @@ jstrRet
 GeckoAppShell
 :
 :
-GetProxyForURIWrapper
+GetProxyForURI
 (
 aSpec
 aScheme
@@ -7518,7 +7518,7 @@ GetDefaultScale
 GeckoAppShell
 :
 :
-AddPluginViewWrapper
+AddPluginView
 (
 Object
 :
@@ -7592,7 +7592,7 @@ jstrThreadName
 GeckoJavaSampler
 :
 :
-GetThreadNameJavaProfilingWrapper
+GetThreadName
 (
 aThreadId
 )
@@ -7641,7 +7641,7 @@ jstrSampleName
 GeckoJavaSampler
 :
 :
-GetFrameNameJavaProfilingWrapper
+GetFrameName
 (
 aThreadId
 aSampleId

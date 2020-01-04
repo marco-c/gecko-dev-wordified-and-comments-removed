@@ -687,6 +687,13 @@ mHeight
 ;
 }
 WrapForJNI
+(
+dispatchTo
+=
+"
+proxy
+"
+)
 private
 static
 native
@@ -709,6 +716,11 @@ stubName
 =
 "
 SendThumbnail
+"
+calledFrom
+=
+"
+gecko
 "
 )
 public

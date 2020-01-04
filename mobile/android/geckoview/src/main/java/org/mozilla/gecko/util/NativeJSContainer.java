@@ -19,6 +19,13 @@ annotation
 WrapForJNI
 ;
 WrapForJNI
+(
+calledFrom
+=
+"
+gecko
+"
+)
 public
 final
 class

@@ -230,7 +230,7 @@ java
 GeckoAppShell
 :
 :
-NetworkLinkType
+GetNetworkLinkType
 (
 )
 ;
