@@ -203,10 +203,7 @@ CompositorSession
 >
 CreateTopLevelCompositor
 (
-widget
-:
-:
-CompositorWidget
+nsIWidget
 *
 aWidget
 layers

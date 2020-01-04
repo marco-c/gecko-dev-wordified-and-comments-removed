@@ -528,10 +528,7 @@ GPUProcessManager
 :
 CreateTopLevelCompositor
 (
-widget
-:
-:
-CompositorWidget
+nsIWidget
 *
 aWidget
 ClientLayerManager
