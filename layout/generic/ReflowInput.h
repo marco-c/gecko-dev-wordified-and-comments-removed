@@ -293,7 +293,7 @@ LogicalMargin
 ;
 nsIFrame
 *
-frame
+mFrame
 ;
 nsRenderingContext
 *
@@ -566,7 +566,7 @@ nsRenderingContext
 aRenderingContext
 )
 :
-frame
+mFrame
 (
 aFrame
 )
@@ -2658,7 +2658,7 @@ const
 {
 return
 (
-frame
+mFrame
 -
 >
 GetStateBits
@@ -2681,7 +2681,7 @@ IsBResize
 &
 &
 (
-frame
+mFrame
 -
 >
 GetStateBits
@@ -2861,7 +2861,7 @@ const
 {
 ApplyRelativePositioning
 (
-frame
+mFrame
 ComputedPhysicalOffsets
 (
 )
@@ -2971,7 +2971,7 @@ const
 {
 ApplyRelativePositioning
 (
-frame
+mFrame
 mWritingMode
 ComputedLogicalOffsets
 (

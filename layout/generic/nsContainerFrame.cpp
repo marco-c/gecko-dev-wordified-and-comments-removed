@@ -4635,7 +4635,7 @@ NS_PRECONDITION
 (
 aReflowState
 .
-frame
+mFrame
 =
 =
 aKidFrame
@@ -4847,7 +4847,7 @@ NS_PRECONDITION
 (
 aReflowState
 .
-frame
+mFrame
 =
 =
 aKidFrame

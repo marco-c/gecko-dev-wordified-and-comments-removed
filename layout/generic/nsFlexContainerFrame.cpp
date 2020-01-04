@@ -5744,7 +5744,7 @@ mFrame
 (
 aFlexItemReflowState
 .
-frame
+mFrame
 )
 mFlexGrow
 (
@@ -5941,7 +5941,7 @@ mStyleDisplay
 containerRS
 -
 >
-frame
+mFrame
 -
 >
 StyleContext
@@ -5958,7 +5958,7 @@ containerStyleXUL
 containerRS
 -
 >
-frame
+mFrame
 -
 >
 StyleXUL

@@ -340,7 +340,7 @@ mSuppressLineWrap
 aOuterReflowState
 -
 >
-frame
+mFrame
 -
 >
 IsSVGText
@@ -368,7 +368,7 @@ aFloatManager
 aOuterReflowState
 -
 >
-frame
+mFrame
 -
 >
 GetType
@@ -402,7 +402,7 @@ mBaseLineLayout
 aOuterReflowState
 -
 >
-frame
+mFrame
 -
 >
 GetType
@@ -446,7 +446,7 @@ do_QueryFrame
 aOuterReflowState
 -
 >
-frame
+mFrame
 )
 ;
 if
@@ -468,7 +468,7 @@ mStyleText
 aOuterReflowState
 -
 >
-frame
+mFrame
 -
 >
 StyleText
@@ -501,7 +501,7 @@ InflationMinFontSizeFor
 aOuterReflowState
 -
 >
-frame
+mFrame
 )
 ;
 PL_INIT_ARENA_POOL
@@ -725,7 +725,7 @@ stdout
 mBlockReflowState
 -
 >
-frame
+mFrame
 )
 ;
 printf
@@ -795,7 +795,7 @@ stdout
 mBlockReflowState
 -
 >
-frame
+mFrame
 )
 ;
 printf
@@ -838,7 +838,7 @@ stdout
 mBlockReflowState
 -
 >
-frame
+mFrame
 )
 ;
 printf
@@ -1066,7 +1066,7 @@ HasPrevInFlow
 mBlockReflowState
 -
 >
-frame
+mFrame
 )
 )
 {
@@ -1139,7 +1139,7 @@ NewPerFrameData
 mBlockReflowState
 -
 >
-frame
+mFrame
 )
 ;
 pfd
@@ -1170,7 +1170,7 @@ frame
 mBlockReflowState
 -
 >
-frame
+mFrame
 ;
 if
 (
@@ -1288,7 +1288,7 @@ stdout
 mBlockReflowState
 -
 >
-frame
+mFrame
 )
 ;
 printf
@@ -1655,7 +1655,7 @@ stdout
 mBlockReflowState
 -
 >
-frame
+mFrame
 )
 ;
 printf
@@ -1745,7 +1745,7 @@ stdout
 mBlockReflowState
 -
 >
-frame
+mFrame
 )
 ;
 printf
@@ -1882,7 +1882,7 @@ stdout
 mBlockReflowState
 -
 >
-frame
+mFrame
 )
 ;
 printf
@@ -2483,7 +2483,7 @@ frame
 aSpanReflowState
 -
 >
-frame
+mFrame
 ;
 psd
 -
@@ -7352,7 +7352,7 @@ blockFrame
 mBlockReflowState
 -
 >
-frame
+mFrame
 ;
 NS_ASSERTION
 (
@@ -9952,7 +9952,7 @@ nsFrame
 ListTag
 (
 stdout
-frame
+mFrame
 )
 ;
 printf
@@ -15310,7 +15310,7 @@ stdout
 mBlockReflowState
 -
 >
-frame
+mFrame
 )
 ;
 printf
@@ -15431,7 +15431,7 @@ isSVG
 mBlockReflowState
 -
 >
-frame
+mFrame
 -
 >
 IsSVGText
@@ -16568,7 +16568,7 @@ RecomputeOverflow
 mBlockReflowState
 -
 >
-frame
+mFrame
 )
 ;
 }

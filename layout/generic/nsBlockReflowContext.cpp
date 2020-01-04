@@ -273,7 +273,7 @@ ListTag
 stdout
 aRS
 .
-frame
+mFrame
 )
 ;
 printf
@@ -327,7 +327,7 @@ DescendIntoBlockLevelFrame
 (
 aRS
 .
-frame
+mFrame
 )
 ;
 nsPresContext
@@ -696,7 +696,7 @@ frame
 =
 aRS
 .
-frame
+mFrame
 )
 {
 NS_ASSERTION
@@ -711,7 +711,7 @@ GetParent
 =
 aRS
 .
-frame
+mFrame
 "
 Can
 only
@@ -949,7 +949,7 @@ aBlockIsEmpty
 =
 aRS
 .
-frame
+mFrame
 -
 >
 IsSelfEmpty
@@ -975,7 +975,7 @@ aBlockIsEmpty
 =
 aRS
 .
-frame
+mFrame
 -
 >
 IsEmpty
@@ -994,7 +994,7 @@ ListTag
 stdout
 aRS
 .
-frame
+mFrame
 )
 ;
 printf
@@ -1059,7 +1059,7 @@ mFrame
 =
 aFrameRS
 .
-frame
+mFrame
 ;
 mWritingMode
 =
@@ -1118,7 +1118,7 @@ ListTag
 stdout
 mOuterReflowState
 .
-frame
+mFrame
 )
 ;
 printf
@@ -1897,7 +1897,7 @@ ListTag
 stdout
 mOuterReflowState
 .
-frame
+mFrame
 )
 ;
 printf
