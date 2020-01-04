@@ -352,10 +352,6 @@ False
 preprocess
 =
 False
-                 
-overwrite
-=
-False
 )
 :
         
@@ -382,12 +378,6 @@ self
 preprocess
 =
 preprocess
-        
-self
-.
-overwrite
-=
-overwrite
 class
 JarInfo
 (
@@ -503,6 +493,13 @@ entries
 =
 [
 ]
+class
+DeprecatedJarManifest
+(
+Exception
+)
+:
+pass
 class
 JarManifestParser
 (
@@ -1080,6 +1077,34 @@ if
 m
 :
             
+if
+m
+.
+group
+(
+'
+optOverwrite
+'
+)
+:
+                
+raise
+DeprecatedJarManifest
+(
+                    
+'
+The
+"
++
+"
+prefix
+is
+not
+supported
+anymore
+'
+)
+            
 self
 .
 _current_jar
@@ -1147,20 +1172,6 @@ group
 (
 '
 optPreprocess
-'
-)
-)
-                
-overwrite
-=
-bool
-(
-m
-.
-group
-(
-'
-optOverwrite
 '
 )
 )
@@ -3033,12 +3044,6 @@ preprocess
 e
 .
 preprocess
-                        
-overwrite
-=
-e
-.
-overwrite
                     
 )
                     
@@ -3268,16 +3273,10 @@ close
 return
         
 if
-e
-.
-overwrite
-or
 getModTime
 (
 realsrc
 )
-\
-            
 >
 outHelper
 .
