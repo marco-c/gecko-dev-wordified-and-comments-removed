@@ -114,6 +114,13 @@ is
 (
 url
 base
++
+"
+&
+form
+=
+MOZSBR
+"
 "
 Check
 search
