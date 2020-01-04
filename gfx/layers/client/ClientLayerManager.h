@@ -1222,6 +1222,12 @@ aCallbackData
 EndTransactionFlags
 )
 ;
+bool
+DependsOnStaleDevice
+(
+)
+const
+;
 LayerRefArray
 mKeepAlive
 ;
@@ -1320,6 +1326,9 @@ RefPtr
 MemoryPressureObserver
 >
 mMemoryPressureObserver
+;
+uint64_t
+mDeviceCounter
 ;
 }
 ;
