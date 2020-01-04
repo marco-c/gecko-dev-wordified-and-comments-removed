@@ -483,6 +483,16 @@ password_reset
 ;
 exports
 .
+ON_COLLECTION_CHANGED_NOTIFICATION
+=
+"
+sync
+:
+collection_changed
+"
+;
+exports
+.
 FXA_PUSH_SCOPE_ACCOUNT_UPDATE
 =
 "
