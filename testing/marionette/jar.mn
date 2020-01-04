@@ -267,6 +267,16 @@ cookies
 .
 js
 )
+content
+/
+atom
+.
+js
+(
+atom
+.
+js
+)
 #
 ifdef
 ENABLE_TESTS
