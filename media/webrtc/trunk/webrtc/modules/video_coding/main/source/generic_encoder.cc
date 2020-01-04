@@ -543,6 +543,14 @@ frame_rate_
 =
 0
 ;
+encoder_
+-
+>
+RegisterEncodeCompleteCallback
+(
+nullptr
+)
+;
 vcm_encoded_frame_callback_
 =
 nullptr
