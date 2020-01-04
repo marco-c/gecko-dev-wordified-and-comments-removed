@@ -272,6 +272,14 @@ mParent
 (
 aParent
 )
+mPixelsPerFrame
+(
+0
+)
+mPixelsFilled
+(
+0
+)
 mScreenRotation
 (
 ROTATION_0
