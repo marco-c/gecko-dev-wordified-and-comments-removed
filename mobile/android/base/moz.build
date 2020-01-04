@@ -2912,6 +2912,13 @@ java
 '
 gfx
 /
+StackScroller
+.
+java
+'
+'
+gfx
+/
 SubdocumentScrollHelper
 .
 java

@@ -25,13 +25,6 @@ GeneratedJNIWrappers
 .
 h
 "
-#
-include
-"
-OverScroller
-.
-h
-"
 namespace
 mozilla
 {
@@ -65,10 +58,7 @@ this
 widget
 :
 :
-sdk
-:
-:
-OverScroller
+StackScroller
 :
 :
 GlobalRef
@@ -158,10 +148,7 @@ mApzc
 widget
 :
 :
-sdk
-:
-:
-OverScroller
+StackScroller
 :
 :
 GlobalRef
@@ -186,6 +173,9 @@ mSentBounceX
 ;
 bool
 mSentBounceY
+;
+long
+mFlingDuration
 ;
 ParentLayerPoint
 mStartOffset

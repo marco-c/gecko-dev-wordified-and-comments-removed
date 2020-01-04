@@ -151,9 +151,6 @@ MediaCodec
 MotionEvent
 '
 '
-OverScroller
-'
-'
 SurfaceTexture
 '
 '
