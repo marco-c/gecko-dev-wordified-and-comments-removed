@@ -11178,8 +11178,6 @@ Compiler
 JSContext
 *
 cx
-Engine
-engine
 ICStub
 *
 firstMonitorStub
@@ -11203,7 +11201,10 @@ ICStub
 :
 :
 GetProp_CallScripted
-engine
+Engine
+:
+:
+Baseline
 firstMonitorStub
 obj
 holder
