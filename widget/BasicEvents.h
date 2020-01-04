@@ -855,7 +855,7 @@ dom
 :
 EventTarget
 >
-target
+mTarget
 ;
 nsCOMPtr
 <
@@ -903,13 +903,13 @@ aEvent
 .
 mSpecifiedEventType
 ;
-target
+mTarget
 =
 aCopyTargets
 ?
 aEvent
 .
-target
+mTarget
 :
 nullptr
 ;

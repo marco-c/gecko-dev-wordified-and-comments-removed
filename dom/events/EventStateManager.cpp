@@ -12695,7 +12695,7 @@ do_QueryInterface
 aEvent
 -
 >
-target
+mTarget
 )
 ;
 suppressBlur
@@ -12733,7 +12733,7 @@ do_QueryInterface
 aEvent
 -
 >
-target
+mTarget
 )
 ;
 if
