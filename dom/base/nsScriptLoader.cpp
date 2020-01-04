@@ -4393,6 +4393,11 @@ MasterDocument
 (
 )
 ;
+{
+nsAutoMicroTask
+mt
+;
+}
 nsPIDOMWindow
 *
 pwin
