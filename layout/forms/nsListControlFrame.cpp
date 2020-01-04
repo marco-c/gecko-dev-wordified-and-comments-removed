@@ -1113,6 +1113,11 @@ optionBSize
 GetMaxOptionBSize
 (
 option
+-
+>
+GetContentInsertionFrame
+(
+)
 aWM
 )
 ;
