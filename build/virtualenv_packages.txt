@@ -325,3 +325,10 @@ python
 pyyaml
 /
 lib
+pytoml
+.
+pth
+:
+python
+/
+pytoml
