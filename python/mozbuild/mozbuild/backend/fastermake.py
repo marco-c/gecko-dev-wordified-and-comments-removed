@@ -1235,6 +1235,14 @@ ACDEFINES
 '
 MOZ_CHROME_FILE_FORMAT
 '
+            
+'
+MOZ_BUILD_APP
+'
+            
+'
+MOZ_WIDGET_TOOLKIT
+'
         
 )
 :
