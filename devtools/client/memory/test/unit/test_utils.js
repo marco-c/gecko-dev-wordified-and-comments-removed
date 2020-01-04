@@ -281,7 +281,7 @@ createSnapshot
 (
 )
 ;
-ok
+equal
 (
 s1
 .

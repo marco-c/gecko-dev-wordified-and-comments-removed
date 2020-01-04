@@ -96,6 +96,11 @@ MPL
 DevToolsModules
 (
 '
+history
+.
+js
+'
+'
 log
 .
 js

@@ -107,6 +107,15 @@ index
 return
 Item
 (
+Object
+.
+assign
+(
+{
+}
+this
+.
+props
 {
 key
 :
@@ -124,6 +133,7 @@ onClick
 item
 )
 }
+)
 )
 ;
 }
