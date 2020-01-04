@@ -12905,7 +12905,7 @@ mMessage
 )
 {
 case
-NS_MOUSE_MOVE
+eMouseMove
 :
 case
 NS_MOUSE_ENTER_WIDGET
@@ -13464,7 +13464,7 @@ mEvent
 mMessage
 =
 =
-NS_MOUSE_MOVE
+eMouseMove
 )
 {
 bool
@@ -17648,7 +17648,7 @@ true
 break
 ;
 case
-NS_MOUSE_MOVE
+eMouseMove
 :
 case
 NS_TOUCH_MOVE

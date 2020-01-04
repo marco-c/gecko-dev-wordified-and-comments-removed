@@ -2024,7 +2024,7 @@ MOZ_ASSERT
 aMsg
 =
 =
-NS_MOUSE_MOVE
+eMouseMove
 |
 |
 aMsg
@@ -2110,7 +2110,7 @@ if
 aMsg
 !
 =
-NS_MOUSE_MOVE
+eMouseMove
 )
 {
 event
@@ -2275,7 +2275,7 @@ time
 ;
 DispatchSynthesizedMouseEvent
 (
-NS_MOUSE_MOVE
+eMouseMove
 time
 aPoint
 aModifiers

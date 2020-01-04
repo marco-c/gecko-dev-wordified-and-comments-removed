@@ -4020,7 +4020,7 @@ mMessage
 )
 {
 case
-NS_MOUSE_MOVE
+eMouseMove
 :
 case
 NS_DRAGDROP_OVER

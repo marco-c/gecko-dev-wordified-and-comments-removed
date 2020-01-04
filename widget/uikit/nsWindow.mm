@@ -1073,7 +1073,7 @@ contentScaleFactor
 self
 sendMouseEvent
 :
-NS_MOUSE_MOVE
+eMouseMove
 point
 :
 lp

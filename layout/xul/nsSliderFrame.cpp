@@ -2102,7 +2102,7 @@ case
 NS_TOUCH_MOVE
 :
 case
-NS_MOUSE_MOVE
+eMouseMove
 :
 {
 nsPoint

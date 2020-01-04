@@ -8984,7 +8984,7 @@ APZCCallbackHelper
 :
 DispatchSynthesizedMouseEvent
 (
-NS_MOUSE_MOVE
+eMouseMove
 time
 currentPoint
 0

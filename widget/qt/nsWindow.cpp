@@ -8650,7 +8650,7 @@ WidgetMouseEvent
 event
 (
 true
-NS_MOUSE_MOVE
+eMouseMove
 this
 WidgetMouseEvent
 :

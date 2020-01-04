@@ -35904,7 +35904,7 @@ mousemove
 )
 msg
 =
-NS_MOUSE_MOVE
+eMouseMove
 ;
 else
 if

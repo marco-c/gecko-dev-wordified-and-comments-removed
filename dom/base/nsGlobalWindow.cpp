@@ -13780,12 +13780,10 @@ true
 ;
 if
 (
-(
 msg
 =
 =
-NS_MOUSE_MOVE
-)
+eMouseMove
 &
 &
 gEntropyCollector

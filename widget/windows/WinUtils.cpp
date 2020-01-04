@@ -4073,7 +4073,7 @@ return
 aEventMessage
 =
 =
-NS_MOUSE_MOVE
+eMouseMove
 |
 |
 aEventMessage

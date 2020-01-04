@@ -24140,7 +24140,7 @@ WidgetMouseEvent
 event
 (
 true
-NS_MOUSE_MOVE
+eMouseMove
 view
 -
 >
@@ -28994,7 +28994,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_MOVE
+eMouseMove
 &
 &
 aEvent
@@ -29569,7 +29569,7 @@ mMessage
 )
 {
 case
-NS_MOUSE_MOVE
+eMouseMove
 :
 if
 (
@@ -35515,7 +35515,7 @@ aEvent
 mMessage
 =
 =
-NS_MOUSE_MOVE
+eMouseMove
 )
 {
 nsIPresShell
@@ -35805,7 +35805,7 @@ nullptr
 break
 ;
 case
-NS_MOUSE_MOVE
+eMouseMove
 :
 nsIPresShell
 :

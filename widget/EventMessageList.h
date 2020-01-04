@@ -125,7 +125,7 @@ eMouseEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_MOUSE_MOVE
+eMouseMove
 eMouseEventFirst
 )
 NS_EVENT_MESSAGE

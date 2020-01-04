@@ -277,7 +277,7 @@ case
 NS_MOUSE_MOZHITTEST
 :
 case
-NS_MOUSE_MOVE
+eMouseMove
 :
 return
 true

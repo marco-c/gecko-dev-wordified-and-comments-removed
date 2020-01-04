@@ -6242,7 +6242,7 @@ false
 }
 if
 (
-NS_MOUSE_MOVE
+eMouseMove
 =
 =
 event

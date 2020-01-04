@@ -27596,7 +27596,7 @@ WidgetMouseEvent
 geckoEvent
 (
 true
-NS_MOUSE_MOVE
+eMouseMove
 mGeckoChild
 WidgetMouseEvent
 :
@@ -27656,7 +27656,7 @@ WidgetMouseEvent
 geckoEvent
 (
 true
-NS_MOUSE_MOVE
+eMouseMove
 mGeckoChild
 WidgetMouseEvent
 :
@@ -27970,7 +27970,7 @@ WidgetMouseEvent
 geckoEvent
 (
 true
-NS_MOUSE_MOVE
+eMouseMove
 mGeckoChild
 WidgetMouseEvent
 :
@@ -28220,7 +28220,7 @@ WidgetMouseEvent
 geckoEvent
 (
 true
-NS_MOUSE_MOVE
+eMouseMove
 mGeckoChild
 WidgetMouseEvent
 :

@@ -2046,13 +2046,13 @@ rv
 break
 ;
 case
-NS_MOUSE_MOVE
+eMouseMove
 :
 AC_LOGV
 (
 "
 Before
-NS_MOUSE_MOVE
+eMouseMove
 state
 :
 %
@@ -2081,7 +2081,7 @@ AC_LOGV
 (
 "
 After
-NS_MOUSE_MOVE
+eMouseMove
 state
 :
 %

@@ -214,7 +214,7 @@ false
 break
 ;
 case
-NS_MOUSE_MOVE
+eMouseMove
 :
 {
 nsPoint

@@ -548,7 +548,7 @@ eMouseEventClass
 EVENT
 (
 mousemove
-NS_MOUSE_MOVE
+eMouseMove
 EventNameType_All
 eMouseEventClass
 )
