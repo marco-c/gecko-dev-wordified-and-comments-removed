@@ -4204,11 +4204,37 @@ CLOBBER_CHOICES
 )
 )
     
+CommandArgument
+(
+'
+-
+-
+full
+'
+action
+=
+'
+store_true
+'
+        
+help
+=
+'
+Perform
+a
+full
+clobber
+'
+)
+    
 def
 clobber
 (
 self
 what
+full
+=
+False
 )
 :
         
@@ -4278,6 +4304,9 @@ self
 .
 remove_objdir
 (
+full
+=
+full
 )
             
 except
