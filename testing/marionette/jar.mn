@@ -263,6 +263,16 @@ atom
 .
 js
 )
+content
+/
+evaluate
+.
+js
+(
+evaluate
+.
+js
+)
 #
 ifdef
 ENABLE_TESTS
