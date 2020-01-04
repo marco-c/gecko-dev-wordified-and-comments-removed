@@ -194,7 +194,7 @@ VisibleRegions
 #
 define
 PAINTLOCK_EVENT_DELAY
-250
+5
 class
 PresShell
 final
