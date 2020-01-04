@@ -1644,7 +1644,9 @@ _resolver
 =
 self
 .
-resolver_func
+_resolver_func
+(
+)
         
 return
 self
