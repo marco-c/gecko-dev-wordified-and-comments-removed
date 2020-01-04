@@ -102,7 +102,7 @@ interface
 nsIPKCS11Slot
 ;
 interface
-nsIEnumerator
+nsISimpleEnumerator
 ;
 [
 scriptable
@@ -142,7 +142,7 @@ wstring
 name
 )
 ;
-nsIEnumerator
+nsISimpleEnumerator
 listSlots
 (
 )

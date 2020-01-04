@@ -105,7 +105,7 @@ interface
 nsIPKCS11Slot
 ;
 interface
-nsIEnumerator
+nsISimpleEnumerator
 ;
 %
 {
@@ -174,7 +174,7 @@ wstring
 name
 )
 ;
-nsIEnumerator
+nsISimpleEnumerator
 listModules
 (
 )
