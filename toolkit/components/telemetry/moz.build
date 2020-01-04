@@ -227,6 +227,11 @@ TelemetryStorage
 jsm
 '
 '
+TelemetryTimestamps
+.
+jsm
+'
+'
 TelemetryUtils
 .
 jsm

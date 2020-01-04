@@ -206,6 +206,9 @@ head
 .
 .
 /
+.
+.
+/
 mozapps
 /
 extensions

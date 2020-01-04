@@ -493,11 +493,6 @@ Task
 jsm
 '
 '
-TelemetryTimestamps
-.
-jsm
-'
-'
 Timer
 .
 jsm
