@@ -1486,7 +1486,7 @@ m
 thumb
 -
 >
-GetMargin
+GetXULMargin
 (
 m
 )

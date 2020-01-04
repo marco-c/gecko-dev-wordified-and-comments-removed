@@ -631,7 +631,7 @@ margin
 child
 -
 >
-GetMargin
+GetXULMargin
 (
 margin
 )
@@ -1244,7 +1244,7 @@ margin
 child
 -
 >
-GetMargin
+GetXULMargin
 (
 margin
 )
@@ -1329,7 +1329,7 @@ margin
 child
 -
 >
-GetMargin
+GetXULMargin
 (
 margin
 )

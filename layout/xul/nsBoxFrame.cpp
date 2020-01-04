@@ -6387,7 +6387,7 @@ margin
 kid
 -
 >
-GetMargin
+GetXULMargin
 (
 margin
 )
@@ -8128,7 +8128,7 @@ margin
 aBox
 -
 >
-GetMargin
+GetXULMargin
 (
 margin
 )

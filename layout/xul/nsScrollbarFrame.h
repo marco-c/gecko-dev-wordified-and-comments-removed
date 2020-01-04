@@ -256,7 +256,7 @@ true
 }
 virtual
 nsresult
-GetMargin
+GetXULMargin
 (
 nsMargin
 &

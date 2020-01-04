@@ -145,7 +145,7 @@ override
 ;
 virtual
 nsresult
-GetMargin
+GetXULMargin
 (
 nsMargin
 &
