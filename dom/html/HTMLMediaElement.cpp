@@ -21426,7 +21426,7 @@ mTextTrackManager
 mTextTrackManager
 -
 >
-UpdateCueDisplay
+TimeMarchesOn
 (
 )
 ;

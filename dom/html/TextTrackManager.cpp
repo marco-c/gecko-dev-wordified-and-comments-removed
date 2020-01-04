@@ -1138,10 +1138,6 @@ true
 )
 ;
 }
-TimeMarchesOn
-(
-)
-;
 }
 void
 TextTrackManager
@@ -3488,6 +3484,10 @@ currentPlaybackTime
 mLastActiveCues
 =
 currentCues
+;
+UpdateCueDisplay
+(
+)
 ;
 }
 }

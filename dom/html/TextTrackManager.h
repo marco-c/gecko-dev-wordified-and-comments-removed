@@ -232,11 +232,6 @@ aCue
 )
 ;
 void
-UpdateCueDisplay
-(
-)
-;
-void
 PopulatePendingList
 (
 )
@@ -258,6 +253,11 @@ DispatchTimeMarchesOn
 )
 ;
 void
+TimeMarchesOn
+(
+)
+;
+void
 NotifyShutdown
 (
 )
@@ -270,7 +270,7 @@ true
 private
 :
 void
-TimeMarchesOn
+UpdateCueDisplay
 (
 )
 ;
