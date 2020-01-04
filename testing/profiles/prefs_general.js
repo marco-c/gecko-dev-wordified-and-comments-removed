@@ -2317,6 +2317,16 @@ s
 user_pref
 (
 "
+apz
+.
+content_response_timeout
+"
+15000
+)
+;
+user_pref
+(
+"
 security
 .
 ssl
