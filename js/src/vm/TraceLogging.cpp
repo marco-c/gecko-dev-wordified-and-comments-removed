@@ -2520,6 +2520,14 @@ if
 enabled_
 >
 0
+&
+&
+!
+graphStack
+.
+empty
+(
+)
 )
 {
 uint32_t
