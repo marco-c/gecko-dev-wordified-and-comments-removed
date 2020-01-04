@@ -831,7 +831,16 @@ SendEventToEngine
 event
 )
 ;
+CleanupOldEvents
+(
+)
+;
 }
+void
+CleanupOldEvents
+(
+)
+;
 void
 SendEventToEngine
 (
