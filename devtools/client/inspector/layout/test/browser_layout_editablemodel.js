@@ -240,10 +240,7 @@ element
 yield
 selectNode
 (
-"
-#
-div1
-"
+node
 inspector
 )
 ;
@@ -534,10 +531,7 @@ element
 yield
 selectNode
 (
-"
-#
-div1
-"
+node
 inspector
 )
 ;
@@ -984,10 +978,7 @@ element
 yield
 selectNode
 (
-"
-#
-div1
-"
+node
 inspector
 )
 ;
@@ -1285,10 +1276,7 @@ inspector
 yield
 selectNode
 (
-"
-#
-div1
-"
+node
 inspector
 )
 ;
