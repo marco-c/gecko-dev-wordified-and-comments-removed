@@ -1876,7 +1876,7 @@ MustUse
 CustomTypeAnnotation
 (
 "
-moz_must_use
+moz_must_use_type
 "
 "
 must

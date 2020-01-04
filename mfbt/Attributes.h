@@ -876,14 +876,14 @@ moz_no_addref_release_on_return
 )
 #
 define
-MOZ_MUST_USE
+MOZ_MUST_USE_TYPE
 __attribute__
 (
 (
 annotate
 (
 "
-moz_must_use
+moz_must_use_type
 "
 )
 )
@@ -1072,7 +1072,7 @@ define
 MOZ_NO_ADDREF_RELEASE_ON_RETURN
 #
 define
-MOZ_MUST_USE
+MOZ_MUST_USE_TYPE
 #
 define
 MOZ_NEEDS_NO_VTABLE_TYPE

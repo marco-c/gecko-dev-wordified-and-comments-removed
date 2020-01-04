@@ -1,13 +1,13 @@
 #
 define
-MOZ_MUST_USE
+MOZ_MUST_USE_TYPE
 __attribute__
 (
 (
 annotate
 (
 "
-moz_must_use
+moz_must_use_type
 "
 )
 )
@@ -27,7 +27,7 @@ moz_stack_class
 )
 )
 class
-MOZ_MUST_USE
+MOZ_MUST_USE_TYPE
 MOZ_STACK_CLASS
 TestClass
 {

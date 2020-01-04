@@ -1,13 +1,13 @@
 #
 define
-MOZ_MUST_USE
+MOZ_MUST_USE_TYPE
 __attribute__
 (
 (
 annotate
 (
 "
-moz_must_use
+moz_must_use_type
 "
 )
 )
@@ -23,7 +23,7 @@ Temporary
 }
 ;
 class
-MOZ_MUST_USE
+MOZ_MUST_USE_TYPE
 MustUse
 {
 }
