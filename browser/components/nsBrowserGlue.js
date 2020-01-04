@@ -13187,7 +13187,7 @@ hidden
 }
 if
 (
-currentVersion
+currentUIVersion
 <
 37
 )
