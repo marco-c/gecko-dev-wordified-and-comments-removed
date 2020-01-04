@@ -1329,11 +1329,13 @@ nsIXULAppInfo
 )
 ;
 var
-xulVersion
+buildId
 =
-appInfo
+Services
 .
-version
+appinfo
+.
+platformBuildID
 ;
 var
 gfxinfo
@@ -1471,7 +1473,7 @@ REASON_DEVICE_CHANGED
 checkPref
 (
 VERSION_PREF
-xulVersion
+buildId
 REASON_FIREFOX_CHANGED
 )
 )
@@ -1513,7 +1515,7 @@ Preferences
 set
 (
 VERSION_PREF
-xulVersion
+buildId
 )
 ;
 Preferences
