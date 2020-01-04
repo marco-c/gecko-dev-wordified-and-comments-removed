@@ -87,6 +87,9 @@ aTargetWindow
 nsIPrincipal
 *
 aProvidedPrincipal
+nsIDocument
+*
+aSourceDocument
 bool
 aTrustedCaller
 )
@@ -118,6 +121,12 @@ nsCOMPtr
 nsIPrincipal
 >
 mProvidedPrincipal
+;
+nsCOMPtr
+<
+nsIDocument
+>
+mSourceDocument
 ;
 bool
 mTrustedCaller
