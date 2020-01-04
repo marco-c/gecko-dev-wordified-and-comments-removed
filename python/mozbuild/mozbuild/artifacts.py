@@ -4815,7 +4815,7 @@ android
 :
             
 if
-self
+buildconfig
 .
 substs
 [
