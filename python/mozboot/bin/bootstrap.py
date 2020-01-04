@@ -54,16 +54,6 @@ py
 mozboot
 /
 android
--
-ndk
-.
-rb
-'
-    
-'
-mozboot
-/
-android
 .
 py
 '
