@@ -706,6 +706,11 @@ aContextFrame
 ;
 return
 (
+IsContainPaint
+(
+)
+|
+|
 HasTransform
 (
 aContextFrame

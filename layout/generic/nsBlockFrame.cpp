@@ -31615,6 +31615,7 @@ NS_BLOCK_NEEDS_BIDI_RESOLUTION
 }
 if
 (
+(
 GetParent
 (
 )
@@ -31639,6 +31640,17 @@ StyleVisibility
 -
 >
 mWritingMode
+)
+|
+|
+StyleDisplay
+(
+)
+-
+>
+IsContainPaint
+(
+)
 )
 {
 AddStateBits
