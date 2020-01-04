@@ -105,7 +105,7 @@ add
 f1
 f2
 )
-binaryX4
+binaryX
 (
 (
 x
@@ -132,7 +132,7 @@ sub
 f1
 f2
 )
-binaryX4
+binaryX
 (
 (
 x
@@ -159,7 +159,7 @@ mul
 f1
 f2
 )
-binaryX4
+binaryX
 (
 (
 x
@@ -186,7 +186,7 @@ add
 i1
 i2
 )
-binaryX4
+binaryX
 (
 (
 x
@@ -213,7 +213,7 @@ sub
 i1
 i2
 )
-binaryX4
+binaryX
 (
 (
 x
@@ -240,7 +240,7 @@ mul
 i1
 i2
 )
-binaryX4
+binaryX
 (
 (
 x

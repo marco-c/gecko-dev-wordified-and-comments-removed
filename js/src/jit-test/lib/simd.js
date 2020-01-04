@@ -82,7 +82,7 @@ arr
 ;
 }
 function
-binaryX4
+binaryX
 (
 op
 v
@@ -145,7 +145,9 @@ i
 ;
 i
 <
-4
+varr
+.
+length
 ;
 i
 +
