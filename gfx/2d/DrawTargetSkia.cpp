@@ -3111,6 +3111,10 @@ IsEmpty
 return
 ;
 }
+MarkChanged
+(
+)
+;
 SkBitmap
 bitmap
 =
@@ -3131,10 +3135,6 @@ empty
 return
 ;
 }
-MarkChanged
-(
-)
-;
 SkRect
 destRect
 =
@@ -3351,6 +3351,10 @@ IsEmpty
 return
 ;
 }
+MarkChanged
+(
+)
+;
 SkBitmap
 bitmap
 =
@@ -3371,10 +3375,6 @@ empty
 return
 ;
 }
-MarkChanged
-(
-)
-;
 mCanvas
 -
 >
@@ -7378,6 +7378,10 @@ return
 false
 ;
 }
+MarkChanged
+(
+)
+;
 SkBitmap
 bitmap
 =
@@ -7399,10 +7403,6 @@ return
 true
 ;
 }
-MarkChanged
-(
-)
-;
 mCanvas
 -
 >
@@ -8318,6 +8318,10 @@ IntPoint
 aDestination
 )
 {
+MarkChanged
+(
+)
+;
 SkBitmap
 bitmap
 =
@@ -8338,10 +8342,6 @@ empty
 return
 ;
 }
-MarkChanged
-(
-)
-;
 mCanvas
 -
 >
