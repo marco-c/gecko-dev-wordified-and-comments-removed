@@ -51,15 +51,11 @@ h
 class
 gfxContext
 ;
-typedef
-nsContainerFrame
-nsSVGForeignObjectFrameBase
-;
 class
 nsSVGForeignObjectFrame
 :
 public
-nsSVGForeignObjectFrameBase
+nsContainerFrame
 public
 nsISVGChildFrame
 {
@@ -211,7 +207,7 @@ const
 override
 {
 return
-nsSVGForeignObjectFrameBase
+nsContainerFrame
 :
 :
 IsFrameOfType
