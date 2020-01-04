@@ -171,6 +171,11 @@ inverted
 PropTypes
 .
 bool
+filter
+:
+PropTypes
+.
+string
 error
 :
 PropTypes
@@ -464,5 +469,10 @@ PropTypes
 bool
 .
 isRequired
+filter
+:
+PropTypes
+.
+string
 }
 ;

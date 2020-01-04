@@ -305,6 +305,10 @@ items
 :
 center
 ;
+flex
+:
+1
+;
 margin
 -
 inline
@@ -505,6 +509,14 @@ png
 )
 ;
 }
+}
+.
+spacer
+{
+flex
+:
+1
+;
 }
 .
 theme

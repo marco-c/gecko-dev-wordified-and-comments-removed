@@ -79,6 +79,11 @@ errors
 js
 '
 '
+filter
+.
+js
+'
+'
 inverted
 .
 js
