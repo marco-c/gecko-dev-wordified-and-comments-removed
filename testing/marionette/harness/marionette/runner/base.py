@@ -6067,7 +6067,7 @@ appName
 !
 =
 '
-Fennec
+fennec
 '
 :
                 
