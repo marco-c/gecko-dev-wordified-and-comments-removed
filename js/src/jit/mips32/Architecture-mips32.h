@@ -296,6 +296,9 @@ Total
 )
 ;
 return
+BaseFloatRegisters
+:
+:
 GetName
 (
 Code
