@@ -375,11 +375,6 @@ Destroy
 )
 override
 ;
-bool
-Initialize
-(
-)
-;
 void
 SetClippingRegion
 (
