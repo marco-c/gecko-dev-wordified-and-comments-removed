@@ -26552,7 +26552,7 @@ this
 NS_LITERAL_STRING
 (
 "
-OpenMediaWithExtenalApp
+OpenMediaWithExternalApp
 "
 )
 true

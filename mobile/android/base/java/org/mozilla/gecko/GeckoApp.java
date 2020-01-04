@@ -4757,7 +4757,6 @@ false
 )
 ;
 }
-private
 void
 addFullScreenPluginView
 (
@@ -5031,7 +5030,6 @@ layer
 )
 ;
 }
-private
 void
 removeFullScreenPluginView
 (
@@ -13255,6 +13253,11 @@ ctx
 super
 (
 ctx
+)
+;
+setBackgroundColor
+(
+0xff000000
 )
 ;
 }
