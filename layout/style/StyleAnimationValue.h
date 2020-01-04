@@ -139,6 +139,16 @@ aDest
 ;
 }
 static
+double
+ComputeColorDistance
+(
+nscolor
+aStartColor
+nscolor
+aEndColor
+)
+;
+static
 MOZ_MUST_USE
 bool
 ComputeDistance
