@@ -3378,9 +3378,6 @@ private
 TimeDurationAccumulator
 mPlayTime
 ;
-TimeDurationAccumulator
-mJoinLatency
-;
 bool
 mHasUserInteraction
 ;
