@@ -259,13 +259,12 @@ define
 CERTIFICATE_ISSUER
 "
 DigiCert
+SHA2
 Assured
 ID
 Code
 Signing
 CA
--
-1
 "
 #
 LSP_CATEGORIES
