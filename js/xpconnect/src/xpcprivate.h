@@ -5097,7 +5097,10 @@ inline
 bool
 FindMember
 (
-jsid
+JS
+:
+:
+HandleId
 name
 XPCNativeMember
 *
