@@ -654,9 +654,22 @@ aStrokeOptions
 const
 Matrix
 &
-aTransform
+aToBoundsSpace
+const
+Matrix
+*
+aToNonScalingStrokeSpace
 )
 {
+if
+(
+aToNonScalingStrokeSpace
+)
+{
+return
+false
+;
+}
 float
 x1
 y1
@@ -691,7 +704,7 @@ aBounds
 =
 Rect
 (
-aTransform
+aToBoundsSpace
 *
 Point
 (
@@ -708,7 +721,7 @@ aBounds
 >
 ExpandToEnclose
 (
-aTransform
+aToBoundsSpace
 *
 Point
 (
@@ -737,7 +750,7 @@ ROUND
 if
 (
 !
-aTransform
+aToBoundsSpace
 .
 IsRectilinear
 (
@@ -788,7 +801,7 @@ f
 *
 aBounds
 =
-aTransform
+aToBoundsSpace
 .
 TransformBounds
 (
@@ -1038,7 +1051,7 @@ aBounds
 =
 Rect
 (
-aTransform
+aToBoundsSpace
 *
 points
 [
@@ -1070,7 +1083,7 @@ aBounds
 >
 ExpandToEnclose
 (
-aTransform
+aToBoundsSpace
 *
 points
 [

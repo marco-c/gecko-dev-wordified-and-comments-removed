@@ -857,7 +857,11 @@ aStrokeOptions
 const
 Matrix
 &
-aTransform
+aToBoundsSpace
+const
+Matrix
+*
+aToNonScalingStrokeSpace
 )
 {
 Rect
@@ -903,7 +907,7 @@ SetEmpty
 *
 aBounds
 =
-aTransform
+aToBoundsSpace
 .
 TransformBounds
 (
