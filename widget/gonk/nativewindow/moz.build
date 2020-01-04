@@ -647,14 +647,6 @@ include
 '
 ]
 ]
-DEFINES
-[
-'
-HAVE_ANDROID_OS
-'
-]
-=
-True
 #
 Suppress
 some
