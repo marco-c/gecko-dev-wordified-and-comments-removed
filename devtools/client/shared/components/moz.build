@@ -138,6 +138,13 @@ box
 js
 '
 '
+stack
+-
+trace
+.
+js
+'
+'
 tree
 .
 js
