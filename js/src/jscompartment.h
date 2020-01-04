@@ -1406,13 +1406,6 @@ JSObject
 *
 gcIncomingGrayPointers
 ;
-js
-:
-:
-WeakMapBase
-*
-gcWeakMapList
-;
 private
 :
 bool
@@ -1869,11 +1862,6 @@ sweepRegExps
 ;
 void
 sweepDebugScopes
-(
-)
-;
-void
-sweepWeakMaps
 (
 )
 ;

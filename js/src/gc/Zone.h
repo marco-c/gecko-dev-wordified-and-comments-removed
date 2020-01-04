@@ -1033,6 +1033,11 @@ fop
 )
 ;
 void
+sweepWeakMaps
+(
+)
+;
+void
 sweepCompartments
 (
 js
@@ -1187,6 +1192,13 @@ js
 :
 TypeZone
 types
+;
+js
+:
+:
+WeakMapBase
+*
+gcWeakMapList
 ;
 typedef
 js

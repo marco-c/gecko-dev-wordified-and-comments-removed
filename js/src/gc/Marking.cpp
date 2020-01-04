@@ -9526,8 +9526,8 @@ WeakMarking
 ;
 for
 (
-GCCompartmentGroupIter
-c
+GCZoneGroupIter
+zone
 (
 runtime
 (
@@ -9535,13 +9535,13 @@ runtime
 )
 ;
 !
-c
+zone
 .
 done
 (
 )
 ;
-c
+zone
 .
 next
 (
@@ -9554,7 +9554,7 @@ WeakMapBase
 *
 m
 =
-c
+zone
 -
 >
 gcWeakMapList
