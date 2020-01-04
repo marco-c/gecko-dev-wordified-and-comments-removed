@@ -3185,7 +3185,7 @@ mIsTemporary
 }
 ;
 class
-BlobImplEmptyFile
+EmptyBlobImpl
 final
 :
 public
@@ -3195,7 +3195,7 @@ public
 :
 NS_DECL_ISUPPORTS_INHERITED
 explicit
-BlobImplEmptyFile
+EmptyBlobImpl
 (
 const
 nsAString
@@ -3205,9 +3205,6 @@ aContentType
 :
 BlobImplBase
 (
-EmptyString
-(
-)
 aContentType
 0
 )
@@ -3263,7 +3260,7 @@ true
 private
 :
 ~
-BlobImplEmptyFile
+EmptyBlobImpl
 (
 )
 {

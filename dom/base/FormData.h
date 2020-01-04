@@ -129,7 +129,7 @@ FormDataTuple
 nsString
 name
 ;
-OwningFileOrUSVString
+OwningBlobOrUSVString
 value
 ;
 }
@@ -161,7 +161,7 @@ aValue
 )
 ;
 void
-SetNameFilePair
+SetNameBlobPair
 (
 FormDataTuple
 *
@@ -170,9 +170,9 @@ const
 nsAString
 &
 aName
-File
+Blob
 *
-aFile
+aBlob
 )
 ;
 public
@@ -308,7 +308,7 @@ nsAString
 aName
 Nullable
 <
-OwningFileOrUSVString
+OwningBlobOrUSVString
 >
 &
 aOutValue
@@ -323,7 +323,7 @@ nsAString
 aName
 nsTArray
 <
-OwningFileOrUSVString
+OwningBlobOrUSVString
 >
 &
 aValues
@@ -393,7 +393,7 @@ aIndex
 const
 ;
 const
-OwningFileOrUSVString
+OwningBlobOrUSVString
 &
 GetValueAtIndex
 (
@@ -454,15 +454,15 @@ NS_OK
 }
 virtual
 nsresult
-AddNameFilePair
+AddNameBlobPair
 (
 const
 nsAString
 &
 aName
-File
+Blob
 *
-aFile
+aBlob
 )
 override
 ;
@@ -478,7 +478,7 @@ nsString
 &
 aName
 const
-OwningFileOrUSVString
+OwningBlobOrUSVString
 &
 aValue
 void

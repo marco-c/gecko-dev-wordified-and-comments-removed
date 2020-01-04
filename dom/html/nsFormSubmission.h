@@ -60,7 +60,7 @@ namespace
 dom
 {
 class
-File
+Blob
 ;
 }
 }
@@ -99,7 +99,7 @@ aValue
 ;
 virtual
 nsresult
-AddNameFilePair
+AddNameBlobPair
 (
 const
 nsAString
@@ -111,9 +111,9 @@ mozilla
 dom
 :
 :
-File
+Blob
 *
-aFile
+aBlob
 )
 =
 0
@@ -322,7 +322,7 @@ override
 ;
 virtual
 nsresult
-AddNameFilePair
+AddNameBlobPair
 (
 const
 nsAString
@@ -334,9 +334,9 @@ mozilla
 dom
 :
 :
-File
+Blob
 *
-aFile
+aBlob
 )
 override
 ;

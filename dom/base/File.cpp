@@ -4315,14 +4315,14 @@ eIsNotDir
 }
 NS_IMPL_ISUPPORTS_INHERITED0
 (
-BlobImplEmptyFile
+EmptyBlobImpl
 BlobImpl
 )
 already_AddRefed
 <
 BlobImpl
 >
-BlobImplEmptyFile
+EmptyBlobImpl
 :
 :
 CreateSlice
@@ -4357,7 +4357,7 @@ BlobImpl
 impl
 =
 new
-BlobImplEmptyFile
+EmptyBlobImpl
 (
 aContentType
 )
@@ -4371,7 +4371,7 @@ forget
 ;
 }
 void
-BlobImplEmptyFile
+EmptyBlobImpl
 :
 :
 GetInternalStream

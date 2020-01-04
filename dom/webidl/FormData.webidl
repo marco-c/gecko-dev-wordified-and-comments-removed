@@ -114,7 +114,7 @@ org
 /
 typedef
 (
-File
+Blob
 or
 USVString
 )
