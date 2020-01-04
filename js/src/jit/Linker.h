@@ -147,7 +147,7 @@ MOZ_ASSERT
 (
 masm
 .
-numAsmJSAbsoluteLinks
+numAsmJSAbsoluteAddresses
 (
 )
 =

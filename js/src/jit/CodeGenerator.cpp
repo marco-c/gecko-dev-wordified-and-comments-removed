@@ -845,7 +845,7 @@ compilingAsmJS
 )
 masm
 .
-numAsmJSAbsoluteLinks
+numAsmJSAbsoluteAddresses
 (
 )
 =
@@ -49387,7 +49387,10 @@ CodeGenerator
 :
 generateAsmJS
 (
-AsmJSFunctionOffsets
+wasm
+:
+:
+FuncOffsets
 *
 offsets
 )
@@ -49405,7 +49408,10 @@ code
 "
 )
 ;
-GenerateAsmJSFunctionPrologue
+wasm
+:
+:
+GenerateFunctionPrologue
 (
 masm
 frameSize
@@ -49486,7 +49492,10 @@ bind
 returnLabel_
 )
 ;
-GenerateAsmJSFunctionEpilogue
+wasm
+:
+:
+GenerateFunctionEpilogue
 (
 masm
 frameSize

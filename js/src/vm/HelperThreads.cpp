@@ -302,7 +302,7 @@ cx
 wasm
 :
 :
-CompileTask
+IonCompileTask
 *
 task
 )
@@ -3317,7 +3317,7 @@ checkTaskThreadLimit
 wasm
 :
 :
-CompileTask
+IonCompileTask
 *
 >
 (
@@ -5376,7 +5376,7 @@ false
 wasm
 :
 :
-CompileTask
+IonCompileTask
 *
 task
 =
@@ -5402,11 +5402,9 @@ ptr
 task
 -
 >
-args
+runtime
 (
 )
-.
-runtime
 )
 ;
 success
@@ -5414,7 +5412,7 @@ success
 wasm
 :
 :
-CompileFunction
+IonCompileFunction
 (
 task
 )

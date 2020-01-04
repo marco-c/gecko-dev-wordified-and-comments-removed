@@ -286,7 +286,10 @@ generate
 bool
 generateAsmJS
 (
-AsmJSFunctionOffsets
+wasm
+:
+:
+FuncOffsets
 *
 offsets
 )

@@ -8009,13 +8009,10 @@ masm
 .
 call
 (
-BuiltinToImmediate
-(
 callee
 .
 builtin
 (
-)
 )
 )
 ;

@@ -16,6 +16,15 @@ h
 #
 include
 "
+builtin
+/
+ModuleObject
+.
+h
+"
+#
+include
+"
 frontend
 /
 TokenStream

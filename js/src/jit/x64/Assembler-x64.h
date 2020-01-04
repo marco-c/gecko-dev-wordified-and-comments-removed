@@ -3873,7 +3873,7 @@ encoding
 ;
 append
 (
-AsmJSAbsoluteLink
+AsmJSAbsoluteAddress
 (
 CodeOffset
 (
