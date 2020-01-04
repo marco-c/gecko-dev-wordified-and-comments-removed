@@ -256,6 +256,15 @@ LCompareBitwiseAndBranch
 lir
 )
 ;
+virtual
+void
+visitAsmSelectI64
+(
+LAsmSelectI64
+*
+ins
+)
+;
 void
 visitOutOfLineBailout
 (
