@@ -84,6 +84,12 @@ T
 >
 base_type
 ;
+using
+base_type
+:
+:
+IsEmpty
+;
 nsClassHashtable
 (
 )
