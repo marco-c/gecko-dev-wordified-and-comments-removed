@@ -376,16 +376,6 @@ Directory
 (
 )
 ;
-static
-bool
-IsValidRelativePath
-(
-const
-nsString
-&
-aPath
-)
-;
 nsresult
 DOMPathToRealPath
 (
