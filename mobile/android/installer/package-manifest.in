@@ -549,13 +549,6 @@ BINPATH
 /
 components
 /
-devtools_security
-.
-xpt
-BINPATH
-/
-components
-/
 directory
 .
 xpt

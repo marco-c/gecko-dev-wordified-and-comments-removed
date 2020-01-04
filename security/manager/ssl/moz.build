@@ -186,6 +186,11 @@ nsIKeyModule
 idl
 '
 '
+nsILocalCertService
+.
+idl
+'
+'
 nsINSSU2FToken
 .
 idl
@@ -458,6 +463,11 @@ cpp
 '
 '
 DataStorage
+.
+cpp
+'
+'
+LocalCertService
 .
 cpp
 '

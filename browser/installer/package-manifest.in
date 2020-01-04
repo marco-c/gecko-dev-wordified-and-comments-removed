@@ -833,15 +833,6 @@ cookie
 xpt
 RESPATH
 /
-browser
-/
-components
-/
-devtools_security
-.
-xpt
-RESPATH
-/
 components
 /
 directory

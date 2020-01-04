@@ -682,13 +682,6 @@ RESPATH
 /
 components
 /
-devtools_security
-.
-xpt
-RESPATH
-/
-components
-/
 directory
 .
 xpt
