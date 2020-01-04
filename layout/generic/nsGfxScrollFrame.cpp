@@ -15402,6 +15402,14 @@ destinationList
 =
 positionedDescendants
 ;
+inactiveRegionItem
+-
+>
+SetOverrideZIndex
+(
+zindex
+)
+;
 }
 else
 {
