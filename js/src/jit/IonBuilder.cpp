@@ -4544,10 +4544,6 @@ New
 alloc
 (
 )
-MStart
-:
-:
-StartType_Default
 )
 )
 ;
@@ -39033,10 +39029,6 @@ New
 alloc
 (
 )
-MStart
-:
-:
-StartType_Osr
 )
 ;
 osrBlock

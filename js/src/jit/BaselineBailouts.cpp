@@ -8929,9 +8929,6 @@ case
 Bailout_NonSharedTypedArrayInput
 :
 case
-Bailout_InitialState
-:
-case
 Bailout_Debugger
 :
 case

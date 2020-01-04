@@ -125,7 +125,6 @@ Bailout_NonSimdBool32x4Input
 Bailout_NonSimdInt32x4Input
 Bailout_NonSimdFloat32x4Input
 Bailout_NonSharedTypedArrayInput
-Bailout_InitialState
 Bailout_Debugger
 Bailout_UninitializedThis
 Bailout_BadDerivedConstructorReturn
@@ -354,14 +353,6 @@ Bailout_NonSharedTypedArrayInput
 return
 "
 Bailout_NonSharedTypedArrayInput
-"
-;
-case
-Bailout_InitialState
-:
-return
-"
-Bailout_InitialState
 "
 ;
 case
