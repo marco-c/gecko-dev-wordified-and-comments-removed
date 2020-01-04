@@ -60,6 +60,10 @@ mTexture
 (
 0
 )
+mUpdated
+(
+false
+)
 {
 }
 X11TextureSourceOGL
@@ -234,6 +238,11 @@ LOCAL_GL_TEXTURE_2D
 mTexture
 )
 ;
+if
+(
+mUpdated
+)
+{
 gl
 :
 :
@@ -255,6 +264,11 @@ GetGLXPixmap
 )
 )
 ;
+mUpdated
+=
+false
+;
+}
 }
 ApplyFilterToBoundTexture
 (
