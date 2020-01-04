@@ -3763,6 +3763,9 @@ arm
 (
 )
 ;
+return
+undefined
+;
 }
 openRequestInTab
 :
@@ -6864,7 +6867,7 @@ return
 false
 ;
 }
-var
+let
 upgradeHeader
 =
 requestHeaders
@@ -7908,6 +7911,9 @@ _flushRequestsTask
 arm
 (
 )
+;
+return
+undefined
 ;
 }
 _flushRequests
@@ -11726,6 +11732,9 @@ anchor
 )
 ;
 }
+return
+undefined
+;
 }
 _onSecurityIconClick
 :
@@ -12196,12 +12205,15 @@ separators
 separator
 =
 >
+{
 separator
 .
 hidden
 =
 !
 selectedItem
+;
+}
 )
 ;
 let
@@ -18055,6 +18067,9 @@ EVENTS
 .
 RESPONSE_HTML_PREVIEW_DISPLAYED
 )
+;
+return
+undefined
 ;
 }
 )

@@ -1030,9 +1030,12 @@ changed
 )
 =
 >
+{
 hasMoved
 =
 true
+;
+}
 )
 ;
 yield

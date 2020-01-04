@@ -1321,6 +1321,9 @@ domRule
 nodeHref
 ;
 }
+return
+undefined
+;
 }
 get
 sheetURI

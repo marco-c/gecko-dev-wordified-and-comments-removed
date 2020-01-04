@@ -2279,6 +2279,9 @@ tooltip
 )
 ;
 }
+return
+undefined
+;
 }
 _shouldNewSelectionBeHighlighted
 :
@@ -2527,6 +2530,9 @@ this
 maybeFocusNewSelection
 (
 )
+;
+return
+undefined
 ;
 }
 )
@@ -10293,6 +10299,9 @@ return
 true
 ;
 }
+return
+undefined
+;
 }
 _getPreview
 :

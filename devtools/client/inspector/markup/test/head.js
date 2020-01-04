@@ -107,11 +107,14 @@ registerCleanupFunction
 )
 =
 >
+{
 DevToolsUtils
 .
 testing
 =
 false
+;
+}
 )
 ;
 registerCleanupFunction
@@ -1926,6 +1929,9 @@ inspector
 )
 ;
 }
+return
+undefined
+;
 }
 function
 createTestHTTPServer

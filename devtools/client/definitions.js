@@ -1559,6 +1559,9 @@ focusInput
 (
 )
 ;
+return
+undefined
+;
 }
 isTargetSupported
 :

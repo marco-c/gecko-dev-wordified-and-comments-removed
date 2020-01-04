@@ -643,6 +643,9 @@ reportError
 err
 )
 ;
+return
+undefined
+;
 }
 }
 }

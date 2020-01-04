@@ -1534,11 +1534,14 @@ then
 )
 =
 >
+{
 this
 .
 setCurrentTimeAllPromise
 =
 null
+;
+}
 )
 ;
 }

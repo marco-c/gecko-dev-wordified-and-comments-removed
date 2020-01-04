@@ -486,6 +486,9 @@ destroy
 ;
 }
 }
+return
+undefined
+;
 }
 )
 .

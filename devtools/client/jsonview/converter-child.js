@@ -586,6 +586,9 @@ reportError
 err
 )
 ;
+return
+undefined
+;
 }
 }
 }
