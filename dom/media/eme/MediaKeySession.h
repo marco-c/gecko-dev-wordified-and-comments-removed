@@ -380,6 +380,13 @@ IsClosed
 )
 const
 ;
+void
+SetExpiration
+(
+double
+aExpiry
+)
+;
 uint32_t
 Token
 (
@@ -461,6 +468,9 @@ RefPtr
 MediaKeyStatusMap
 >
 mKeyStatusMap
+;
+double
+mExpiration
 ;
 }
 ;
