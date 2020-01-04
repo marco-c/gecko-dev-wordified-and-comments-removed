@@ -71,6 +71,8 @@ public
 :
 enum
 Flags
+:
+uint32_t
 {
 IS_CPP_ENTRY
 =
