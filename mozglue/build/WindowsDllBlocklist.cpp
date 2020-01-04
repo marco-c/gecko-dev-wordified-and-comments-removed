@@ -147,6 +147,13 @@ nsWindowsHelpers
 .
 h
 "
+#
+include
+"
+WindowsDllBlocklist
+.
+h
+"
 using
 namespace
 mozilla
@@ -3348,7 +3355,7 @@ WindowsDllInterceptor
 NtDllIntercept
 ;
 }
-NS_EXPORT
+MFBT_API
 void
 DllBlocklist_Initialize
 (
@@ -3531,7 +3538,7 @@ n
 endif
 }
 }
-NS_EXPORT
+MFBT_API
 void
 DllBlocklist_SetInXPCOMLoadOnMainThread
 (
@@ -3576,7 +3583,7 @@ sThreadLoadingXPCOMModule
 ;
 }
 }
-NS_EXPORT
+MFBT_API
 void
 DllBlocklist_WriteNotes
 (
