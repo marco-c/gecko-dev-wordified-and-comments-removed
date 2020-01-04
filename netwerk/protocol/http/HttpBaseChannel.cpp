@@ -1169,11 +1169,8 @@ mProgressSink
 =
 nullptr
 ;
-mPrivateBrowsing
-=
-NS_UsePrivateBrowsing
+UpdatePrivateBrowsing
 (
-this
 )
 ;
 return
@@ -1694,11 +1691,8 @@ mProgressSink
 =
 nullptr
 ;
-mPrivateBrowsing
-=
-NS_UsePrivateBrowsing
+UpdatePrivateBrowsing
 (
-this
 )
 ;
 return

@@ -1578,6 +1578,10 @@ CallbacksChanged
 (
 )
 ;
+UpdatePrivateBrowsing
+(
+)
+;
 return
 NS_OK
 ;
@@ -1798,6 +1802,10 @@ mCallbacks
 aCallbacks
 ;
 CallbacksChanged
+(
+)
+;
+UpdatePrivateBrowsing
 (
 )
 ;
