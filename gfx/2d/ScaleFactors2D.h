@@ -11,11 +11,6 @@ ostream
 >
 #
 include
-<
-iomanip
->
-#
-include
 "
 mozilla
 /
