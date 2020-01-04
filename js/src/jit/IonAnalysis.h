@@ -174,6 +174,10 @@ MIRGraph
 graph
 bool
 updateAliasAnalysis
+bool
+underValueNumberer
+=
+false
 )
 ;
 bool
@@ -235,6 +239,10 @@ AssertExtendedGraphCoherency
 MIRGraph
 &
 graph
+bool
+underValueNumberer
+=
+false
 )
 ;
 bool
