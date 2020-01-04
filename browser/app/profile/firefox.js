@@ -12218,6 +12218,9 @@ links
 "
 )
 ;
+#
+ifndef
+RELEASE_BUILD
 pref
 (
 "
@@ -12230,6 +12233,8 @@ remote
 false
 )
 ;
+#
+endif
 pref
 (
 "

@@ -93,6 +93,15 @@ MPL
 0
 /
 .
+if
+not
+CONFIG
+[
+'
+RELEASE_BUILD
+'
+]
+:
 BROWSER_CHROME_MANIFESTS
 +
 =

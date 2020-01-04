@@ -531,6 +531,9 @@ nsIAboutModule
 :
 ALLOW_SCRIPT
 }
+#
+ifndef
+RELEASE_BUILD
 {
 "
 remote
@@ -564,6 +567,8 @@ nsIAboutModule
 :
 ALLOW_SCRIPT
 }
+#
+endif
 {
 "
 preferences
