@@ -5258,7 +5258,6 @@ return
 kMediaConduitNoError
 ;
 }
-else
 if
 (
 aConfig
@@ -5276,7 +5275,6 @@ return
 kMediaConduitNoError
 ;
 }
-else
 if
 (
 aConfig
