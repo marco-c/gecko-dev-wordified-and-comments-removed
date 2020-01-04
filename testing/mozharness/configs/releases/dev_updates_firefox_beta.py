@@ -7,7 +7,7 @@ log_name
 "
 :
 "
-bump_date
+bump_beta_dev
 "
     
 "
@@ -302,7 +302,9 @@ update_channels
 {
         
 "
-date
+beta
+-
+dev
 "
 :
 {
@@ -358,7 +360,9 @@ update_verify_channel
 "
 :
 "
-date
+beta
+-
+dev
 -
 localtest
 "
@@ -376,15 +380,21 @@ channel_names
 :
 [
 "
-date
+beta
+-
+dev
 "
 "
-date
+beta
+-
+dev
 -
 localtest
 "
 "
-date
+beta
+-
+dev
 -
 cdntest
 "
@@ -398,14 +408,18 @@ rules_to_update
 "
 firefox
 -
-date
+beta
+-
+dev
 -
 cdntest
 "
 "
 firefox
 -
-date
+beta
+-
+dev
 -
 localtest
 "

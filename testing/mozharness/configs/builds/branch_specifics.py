@@ -1431,6 +1431,16 @@ date
 {
         
 '
+update_channel
+'
+:
+'
+beta
+-
+dev
+'
+        
+'
 enable_release_promotion
 '
 :
