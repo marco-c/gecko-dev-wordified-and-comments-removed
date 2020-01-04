@@ -158,11 +158,6 @@ XPCCallContext
 cpp
 '
 '
-XPCContext
-.
-cpp
-'
-'
 XPCConvert
 .
 cpp
