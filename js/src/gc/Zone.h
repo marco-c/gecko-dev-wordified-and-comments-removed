@@ -1354,6 +1354,15 @@ SystemAllocPolicy
 WeakEdges
 gcWeakRefs
 ;
+js
+:
+:
+gc
+:
+:
+WeakKeyTable
+gcWeakKeys
+;
 ZoneSet
 gcZoneGroupEdges
 ;
