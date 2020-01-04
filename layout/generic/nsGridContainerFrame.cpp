@@ -6784,11 +6784,11 @@ if
 (
 r
 .
-second
-<
+first
+>
 r
 .
-first
+second
 )
 {
 Swap
