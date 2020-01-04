@@ -2851,6 +2851,17 @@ true
 ;
 }
 get
+name
+(
+)
+{
+return
+"
+Worker
+"
+;
+}
+get
 url
 (
 )
