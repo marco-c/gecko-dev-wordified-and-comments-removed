@@ -110,6 +110,11 @@ store
 .
 js
 '
+'
+utils
+.
+js
+'
 )
 BROWSER_CHROME_MANIFESTS
 +

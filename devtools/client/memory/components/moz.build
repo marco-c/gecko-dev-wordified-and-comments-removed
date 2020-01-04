@@ -64,6 +64,11 @@ MPL
 DevToolsModules
 (
 '
+heap
+.
+js
+'
+'
 list
 .
 js

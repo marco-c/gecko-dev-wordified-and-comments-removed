@@ -186,11 +186,7 @@ var
 gToolbox
 gTarget
 gFront
-;
-var
-gToolbox
-gTarget
-gFront
+gHeapAnalysesClient
 ;
 function
 initialize
@@ -237,6 +233,9 @@ App
 front
 :
 gFront
+heapWorker
+:
+gHeapAnalysesClient
 }
 )
 ;
