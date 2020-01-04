@@ -1808,6 +1808,16 @@ aBytes
 ;
 }
 else
+{
+aBytes
+=
+aBytes
+.
+toFixed
+(
+fractionDigits
+)
+;
 if
 (
 gDecimalSymbol
@@ -1822,11 +1832,6 @@ aBytes
 =
 aBytes
 .
-toFixed
-(
-fractionDigits
-)
-.
 replace
 (
 "
@@ -1835,6 +1840,7 @@ replace
 gDecimalSymbol
 )
 ;
+}
 }
 }
 return
