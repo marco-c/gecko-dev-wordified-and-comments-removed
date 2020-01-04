@@ -1218,8 +1218,10 @@ aSize
 aRv
 .
 ThrowTypeError
-(
+<
 MSG_INVALID_READ_SIZE
+>
+(
 )
 ;
 return
