@@ -212,6 +212,10 @@ XSLT
 stylesheet
 .
 *
+*
+exception
+nsIXSLTException
+*
 /
 void
 importStylesheet
@@ -284,6 +288,10 @@ of
 the
 transformation
 *
+*
+exception
+nsIXSLTException
+*
 /
 nsIDOMDocumentFragment
 transformToFragment
@@ -333,6 +341,10 @@ result
 of
 the
 transformation
+*
+*
+exception
+nsIXSLTException
 *
 /
 nsIDOMDocument
