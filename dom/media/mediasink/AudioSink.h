@@ -13,6 +13,15 @@ include
 "
 mozilla
 /
+MozPromise
+.
+h
+"
+#
+include
+"
+mozilla
+/
 nsRefPtr
 .
 h

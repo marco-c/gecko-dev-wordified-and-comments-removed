@@ -201,6 +201,15 @@ true
 )
 {
 }
+DecodedAudioDataSink
+:
+:
+~
+DecodedAudioDataSink
+(
+)
+{
+}
 void
 DecodedAudioDataSink
 :

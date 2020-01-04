@@ -18,6 +18,13 @@ h
 #
 include
 "
+MediaEventSource
+.
+h
+"
+#
+include
+"
 MediaInfo
 .
 h
@@ -88,6 +95,9 @@ h
 namespace
 mozilla
 {
+class
+AudioStream
+;
 namespace
 media
 {
@@ -203,8 +213,7 @@ virtual
 DecodedAudioDataSink
 (
 )
-{
-}
+;
 void
 DispatchTask
 (
