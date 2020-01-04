@@ -12402,6 +12402,14 @@ Missing
 }
 }
 ;
+MOZ_ASSERT
+(
+refs
+=
+=
+0
+)
+;
 MOZ_ASSERT_IF
 (
 inCompressedSourceSet
