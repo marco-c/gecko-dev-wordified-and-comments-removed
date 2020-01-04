@@ -925,8 +925,10 @@ ShouldContinueFromTimeout
 )
 ;
 void
-CancelCurrentTransactionInternal
+CancelTransaction
 (
+int
+transaction
 )
 ;
 size_t
