@@ -6726,6 +6726,17 @@ str
 ;
 }
 case
+JSOP_CHECKISOBJ
+:
+return
+decompilePCForStackOperand
+(
+pc
+-
+1
+)
+;
+case
 JSOP_VOID
 :
 return
