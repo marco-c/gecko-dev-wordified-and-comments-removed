@@ -164,15 +164,6 @@ aGivenProto
 )
 override
 ;
-static
-uint8_t
-*
-GetRandomValues
-(
-uint32_t
-aLength
-)
-;
 private
 :
 nsCOMPtr
