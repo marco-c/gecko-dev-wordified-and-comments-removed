@@ -630,6 +630,9 @@ mScriptFile
 uint32_t
 mScriptLine
 ;
+uint32_t
+mScriptColumn
+;
 uint64_t
 mInnerWindowID
 ;

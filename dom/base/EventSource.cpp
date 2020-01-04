@@ -378,6 +378,10 @@ mScriptLine
 (
 0
 )
+mScriptColumn
+(
+0
+)
 mInnerWindowID
 (
 0
@@ -884,6 +888,8 @@ cx
 mScriptFile
 &
 mScriptLine
+&
+mScriptColumn
 )
 ;
 mInnerWindowID
@@ -4089,7 +4095,7 @@ EmptyString
 (
 )
 mScriptLine
-0
+mScriptColumn
 nsIScriptError
 :
 :
