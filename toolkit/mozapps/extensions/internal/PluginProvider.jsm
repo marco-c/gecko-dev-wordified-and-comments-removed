@@ -3012,7 +3012,7 @@ isCompatibleWith
 :
 function
 (
-aAppVerison
+aAppVersion
 aPlatformVersion
 )
 {
