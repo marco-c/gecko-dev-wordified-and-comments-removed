@@ -111,6 +111,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

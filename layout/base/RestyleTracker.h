@@ -48,6 +48,13 @@ h
 #
 include
 "
+nsIContentInlines
+.
+h
+"
+#
+include
+"
 mozilla
 /
 SplayTree

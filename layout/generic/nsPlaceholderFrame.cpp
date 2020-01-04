@@ -65,6 +65,13 @@ nsIFrameInlines
 .
 h
 "
+#
+include
+"
+nsIContentInlines
+.
+h
+"
 using
 namespace
 mozilla

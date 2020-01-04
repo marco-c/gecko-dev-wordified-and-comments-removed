@@ -2252,6 +2252,14 @@ return
 mParent
 ;
 }
+inline
+nsINode
+*
+GetFlattenedTreeParentNode
+(
+)
+const
+;
 mozilla
 :
 :

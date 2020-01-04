@@ -1476,9 +1476,17 @@ aContent
 =
 0
 ;
+inline
 nsIContent
 *
 GetFlattenedTreeParent
+(
+)
+const
+;
+nsINode
+*
+GetFlattenedTreeParentNodeInternal
 (
 )
 const
