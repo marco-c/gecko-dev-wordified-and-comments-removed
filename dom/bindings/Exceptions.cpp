@@ -884,17 +884,11 @@ protected
 int32_t
 GetLineno
 (
-JSContext
-*
-aCx
 )
 ;
 int32_t
 GetColNo
 (
-JSContext
-*
-aCx
 )
 ;
 private
@@ -1604,9 +1598,6 @@ JSStackFrame
 :
 GetLineno
 (
-JSContext
-*
-aCx
 )
 {
 if
@@ -1619,6 +1610,9 @@ return
 0
 ;
 }
+ThreadsafeAutoJSContext
+cx
+;
 uint32_t
 line
 ;
@@ -1632,7 +1626,7 @@ false
 ;
 GetValueIfNotCached
 (
-aCx
+cx
 mStack
 JS
 :
@@ -1680,9 +1674,6 @@ JSStackFrame
 :
 GetLineNumber
 (
-JSContext
-*
-aCx
 int32_t
 *
 aLineNumber
@@ -1693,7 +1684,6 @@ aLineNumber
 =
 GetLineno
 (
-aCx
 )
 ;
 return
@@ -1706,9 +1696,6 @@ JSStackFrame
 :
 GetColNo
 (
-JSContext
-*
-aCx
 )
 {
 if
@@ -1721,6 +1708,9 @@ return
 0
 ;
 }
+ThreadsafeAutoJSContext
+cx
+;
 uint32_t
 col
 ;
@@ -1734,7 +1724,7 @@ false
 ;
 GetValueIfNotCached
 (
-aCx
+cx
 mStack
 JS
 :
@@ -1782,9 +1772,6 @@ JSStackFrame
 :
 GetColumnNumber
 (
-JSContext
-*
-aCx
 int32_t
 *
 aColumnNumber
@@ -1795,7 +1782,6 @@ aColumnNumber
 =
 GetColNo
 (
-aCx
 )
 ;
 return
@@ -2542,7 +2528,6 @@ lineno
 =
 GetLineno
 (
-aCx
 )
 ;
 static

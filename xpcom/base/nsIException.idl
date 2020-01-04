@@ -189,17 +189,11 @@ at
 indicates
 unknown
 .
-[
-implicit_jscontext
-]
 readonly
 attribute
 int32_t
 lineNumber
 ;
-[
-implicit_jscontext
-]
 readonly
 attribute
 int32_t
@@ -486,9 +480,6 @@ at
 indicates
 unknown
 .
-[
-implicit_jscontext
-]
 readonly
 attribute
 uint32_t

@@ -267,9 +267,6 @@ retval
 uint32_t
 LineNumber
 (
-JSContext
-*
-aCx
 )
 const
 ;
