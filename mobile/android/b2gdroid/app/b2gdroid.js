@@ -8101,7 +8101,7 @@ tabs
 .
 disabled
 "
-true
+false
 )
 ;
 pref
@@ -8127,7 +8127,7 @@ processPrelaunch
 .
 enabled
 "
-false
+true
 )
 ;
 pref
