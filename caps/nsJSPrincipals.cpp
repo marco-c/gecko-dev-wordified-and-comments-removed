@@ -362,7 +362,7 @@ Release
 #
 ifdef
 DEBUG
-JS_EXPORT_API
+JS_PUBLIC_API
 (
 void
 )
