@@ -30435,7 +30435,6 @@ names
 )
 .
 prototype
-false
 )
 ;
 callGetProp
@@ -55079,11 +55078,6 @@ alloc
 )
 obj
 name
-*
-pc
-=
-=
-JSOP_CALLPROP
 )
 ;
 current
@@ -55415,11 +55409,6 @@ alloc
 )
 obj
 name
-*
-pc
-=
-=
-JSOP_CALLPROP
 )
 ;
 current

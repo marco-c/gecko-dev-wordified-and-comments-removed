@@ -893,9 +893,6 @@ bool
 marked
 ;
 bool
-warnedAboutNoSuchMethod
-;
-bool
 warnedAboutFlagsArgument
 ;
 bool
@@ -2480,9 +2477,6 @@ DeprecatedLegacyGenerator
 DeprecatedExpressionClosure
 =
 3
-DeprecatedNoSuchMethod
-=
-6
 DeprecatedFlagsArgument
 =
 7
