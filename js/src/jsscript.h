@@ -6168,6 +6168,11 @@ return
 enclosingStaticScope_
 ;
 }
+void
+fixEnclosingStaticGlobalLexicalScope
+(
+)
+;
 private
 :
 bool
@@ -8928,6 +8933,11 @@ return
 enclosingScope_
 ;
 }
+void
+fixEnclosingStaticGlobalLexicalScope
+(
+)
+;
 ScriptSourceObject
 *
 sourceObject

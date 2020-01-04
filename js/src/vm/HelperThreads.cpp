@@ -6381,7 +6381,7 @@ ExclusiveContext
 *
 parseCx
 =
-parseTask
+task
 -
 >
 cx
@@ -6437,14 +6437,14 @@ CompileScript
 (
 parseCx
 &
-parseTask
+task
 -
 >
 alloc
 globalLexical
 staticScope
 nullptr
-parseTask
+task
 -
 >
 options
