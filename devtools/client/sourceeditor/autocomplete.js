@@ -2145,6 +2145,16 @@ ed
 caret
 )
 {
+if
+(
+autocompleteMap
+.
+has
+(
+ed
+)
+)
+{
 let
 completer
 =
@@ -2180,6 +2190,7 @@ getText
 caret
 )
 ;
+}
 }
 return
 null
