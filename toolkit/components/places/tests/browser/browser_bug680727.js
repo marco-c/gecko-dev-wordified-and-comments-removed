@@ -167,6 +167,7 @@ linkedBrowser
 "
 DOMContentLoaded
 "
+)
 .
 then
 (
