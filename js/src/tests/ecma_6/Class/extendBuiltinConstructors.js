@@ -178,6 +178,11 @@ testBuiltin
 Map
 )
 ;
+testBuiltin
+(
+Set
+)
+;
 ;
 if
 (
