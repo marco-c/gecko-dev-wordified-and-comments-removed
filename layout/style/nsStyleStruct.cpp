@@ -3769,7 +3769,10 @@ Normal
 )
 mBoxOrient
 (
-NS_STYLE_BOX_ORIENT_HORIZONTAL
+StyleBoxOrient
+:
+:
+Horizontal
 )
 mBoxPack
 (

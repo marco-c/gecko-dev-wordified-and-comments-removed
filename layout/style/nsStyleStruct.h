@@ -13756,7 +13756,10 @@ mozilla
 StyleBoxDirection
 mBoxDirection
 ;
-uint8_t
+mozilla
+:
+:
+StyleBoxOrient
 mBoxOrient
 ;
 mozilla

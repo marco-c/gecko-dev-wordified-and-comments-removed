@@ -2312,7 +2312,10 @@ xulStyle
 mBoxOrient
 =
 =
-NS_STYLE_BOX_ORIENT_VERTICAL
+StyleBoxOrient
+:
+:
+Vertical
 )
 state
 |

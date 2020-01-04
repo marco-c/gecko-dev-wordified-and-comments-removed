@@ -6210,6 +6210,12 @@ Reverse
 )
 DEFINE_ENUM_CLASS_SETTER
 (
+StyleBoxOrient
+Horizontal
+Vertical
+)
+DEFINE_ENUM_CLASS_SETTER
+(
 StyleBoxPack
 Start
 Justify
@@ -46533,7 +46539,10 @@ parentXUL
 -
 >
 mBoxOrient
-NS_STYLE_BOX_ORIENT_HORIZONTAL
+StyleBoxOrient
+:
+:
+Horizontal
 )
 ;
 SetValue
