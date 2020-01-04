@@ -653,6 +653,9 @@ i
 )
 ;
 }
+mozilla
+:
+:
 PodArrayZero
 (
 sStyleStorage
@@ -673,6 +676,9 @@ MOZ_GTK_WINDOW
 ]
 )
 ;
+mozilla
+:
+:
 PodArrayZero
 (
 sWidgetStorage
