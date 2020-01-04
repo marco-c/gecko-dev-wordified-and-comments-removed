@@ -6365,6 +6365,9 @@ srcWidth
 uint32_t
 srcHeight
 ;
+GLenum
+srcMode
+;
 if
 (
 !
@@ -6379,6 +6382,8 @@ srcFormat
 srcWidth
 &
 srcHeight
+&
+srcMode
 )
 )
 return
