@@ -66,6 +66,8 @@ mozilla
 .
 gecko
 .
+reader
+.
 ReaderModeUtils
 ;
 import
