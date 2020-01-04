@@ -549,11 +549,6 @@ testUbiNode
 cpp
 '
 '
-testUncaughtError
-.
-cpp
-'
-'
 testUncaughtSymbol
 .
 cpp

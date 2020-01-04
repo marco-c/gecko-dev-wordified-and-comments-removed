@@ -74,15 +74,6 @@ userRef
 )
 ;
 extern
-bool
-ReportUncaughtException
-(
-JSContext
-*
-cx
-)
-;
-extern
 JSErrorReport
 *
 ErrorFromException
