@@ -4103,7 +4103,7 @@ case
 eContextMenu
 :
 case
-NS_DRAGDROP_DROP
+eDrop
 :
 txn
 -

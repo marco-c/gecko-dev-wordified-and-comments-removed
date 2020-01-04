@@ -8795,7 +8795,7 @@ msg
 =
 mCanDrop
 ?
-NS_DRAGDROP_DROP
+eDrop
 :
 NS_DRAGDROP_EXIT
 ;

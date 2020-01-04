@@ -1149,7 +1149,7 @@ if
 mEventMessage
 !
 =
-NS_DRAGDROP_DROP
+eDrop
 &
 &
 mEventMessage
@@ -2656,7 +2656,7 @@ mIsCrossDomainSubFrameDrop
 mEventMessage
 !
 =
-NS_DRAGDROP_DROP
+eDrop
 &
 &
 mEventMessage

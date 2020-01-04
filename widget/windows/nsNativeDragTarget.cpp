@@ -916,7 +916,7 @@ if
 aEventMessage
 !
 =
-NS_DRAGDROP_DROP
+eDrop
 )
 {
 bool
@@ -1632,7 +1632,7 @@ mDragService
 ;
 ProcessDrag
 (
-NS_DRAGDROP_DROP
+eDrop
 grfKeyState
 aPT
 pdwEffect

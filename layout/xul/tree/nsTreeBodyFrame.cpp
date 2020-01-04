@@ -12348,7 +12348,7 @@ aEvent
 mMessage
 =
 =
-NS_DRAGDROP_DROP
+eDrop
 )
 {
 if

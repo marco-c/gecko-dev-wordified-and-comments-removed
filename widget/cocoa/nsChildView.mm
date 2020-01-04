@@ -32966,7 +32966,7 @@ if
 aMessage
 =
 =
-NS_DRAGDROP_DROP
+eDrop
 )
 {
 /
@@ -33368,7 +33368,7 @@ case
 NS_DRAGDROP_EXIT
 :
 case
-NS_DRAGDROP_DROP
+eDrop
 :
 {
 nsCOMPtr
@@ -33743,7 +33743,7 @@ handled
 self
 doDragAction
 :
-NS_DRAGDROP_DROP
+eDrop
 sender
 :
 sender

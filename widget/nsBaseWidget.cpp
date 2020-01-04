@@ -12056,9 +12056,9 @@ NS_DND_GESTURE
 ;
 _ASSIGN_eventName
 (
-NS_DRAGDROP_DROP
+eDrop
 "
-NS_DND_DROP
+eDrop
 "
 )
 ;

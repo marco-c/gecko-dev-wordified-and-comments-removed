@@ -24738,7 +24738,7 @@ aDragEvent
 mMessage
 =
 =
-NS_DRAGDROP_DROP
+eDrop
 |
 |
 aDragEvent
@@ -24865,7 +24865,7 @@ aDragEvent
 mMessage
 =
 =
-NS_DRAGDROP_DROP
+eDrop
 |
 |
 aDragEvent

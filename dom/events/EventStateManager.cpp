@@ -5367,7 +5367,7 @@ case
 NS_DRAGDROP_EXIT
 :
 case
-NS_DRAGDROP_DROP
+eDrop
 :
 return
 true
@@ -13955,7 +13955,7 @@ dropEffect
 break
 ;
 case
-NS_DRAGDROP_DROP
+eDrop
 :
 {
 if
