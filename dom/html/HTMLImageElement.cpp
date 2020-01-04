@@ -3965,6 +3965,11 @@ if
 (
 !
 mInDocResponsiveContent
+&
+&
+IsInComposedDoc
+(
+)
 )
 {
 nsIDocument
