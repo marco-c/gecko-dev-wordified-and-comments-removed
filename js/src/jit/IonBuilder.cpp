@@ -11930,6 +11930,15 @@ CFGState
 state
 )
 {
+AutoTraceLog
+logCompile
+(
+traceLogger
+(
+)
+TraceLogger_IonBuilderRestartLoop
+)
+;
 spew
 (
 "
