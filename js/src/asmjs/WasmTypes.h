@@ -175,6 +175,12 @@ using
 mozilla
 :
 :
+PodCopy
+;
+using
+mozilla
+:
+:
 RefCounted
 ;
 typedef
