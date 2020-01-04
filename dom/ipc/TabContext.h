@@ -189,6 +189,8 @@ SetTabContext
 (
 bool
 aIsMozBrowserElement
+bool
+aIsPrerendered
 mozIApplication
 *
 aOwnApp
@@ -213,6 +215,9 @@ TabContext
 &
 aContext
 )
+;
+bool
+mIsPrerendered
 ;
 private
 :
@@ -277,6 +282,8 @@ SetTabContext
 (
 bool
 aIsMozBrowserElement
+bool
+aIsPrerendered
 mozIApplication
 *
 aOwnApp
@@ -304,6 +311,7 @@ TabContext
 SetTabContext
 (
 aIsMozBrowserElement
+aIsPrerendered
 aOwnApp
 aAppFrameOwnerApp
 aOriginAttributes

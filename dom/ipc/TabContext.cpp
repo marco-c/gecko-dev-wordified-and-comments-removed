@@ -102,6 +102,10 @@ TabContext
 (
 )
 :
+mIsPrerendered
+(
+false
+)
 mInitialized
 (
 false
@@ -643,6 +647,8 @@ SetTabContext
 (
 bool
 aIsMozBrowserElement
+bool
+aIsPrerendered
 mozIApplication
 *
 aOwnApp
@@ -785,6 +791,10 @@ mIsMozBrowserElement
 =
 aIsMozBrowserElement
 ;
+mIsPrerendered
+=
+aIsPrerendered
+;
 mOriginAttributes
 =
 aOriginAttributes
@@ -837,6 +847,7 @@ originSuffix
 mContainingAppId
 mSignedPkgOriginNoSuffix
 mIsMozBrowserElement
+mIsPrerendered
 )
 )
 ;
@@ -913,6 +924,11 @@ nullptr
 {
 bool
 isMozBrowserElement
+=
+false
+;
+bool
+isPrerendered
 =
 false
 ;
@@ -1239,6 +1255,14 @@ isMozBrowserElement
 (
 )
 ;
+isPrerendered
+=
+ipcContext
+.
+isPrerendered
+(
+)
+;
 containingAppId
 =
 ipcContext
@@ -1469,6 +1493,7 @@ mTabContext
 SetTabContext
 (
 isMozBrowserElement
+isPrerendered
 ownApp
 containingApp
 originAttributes
