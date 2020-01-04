@@ -63,11 +63,6 @@ foo
 )
 ;
 }
-var
-ieval
-=
-eval
-;
 {
 class
 PermanentBinding
@@ -107,7 +102,7 @@ function
 {
 try
 {
-ieval
+evaluate
 (
 \
 class
