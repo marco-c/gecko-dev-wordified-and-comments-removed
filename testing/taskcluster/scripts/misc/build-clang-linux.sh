@@ -149,8 +149,6 @@ static
 analysis
 -
 linux64
--
-centos6
 .
 json
 set
