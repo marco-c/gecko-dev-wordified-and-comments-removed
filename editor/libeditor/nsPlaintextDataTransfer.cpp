@@ -754,10 +754,16 @@ nsIVariant
 >
 data
 ;
+DataTransfer
+:
+:
+Cast
+(
 aDataTransfer
+)
 -
 >
-MozGetDataAt
+GetDataAtNoSecurityCheck
 (
 NS_LITERAL_STRING
 (
