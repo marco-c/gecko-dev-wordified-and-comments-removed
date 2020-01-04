@@ -1140,6 +1140,11 @@ WindowShadow
 )
 COMPUTED_STYLE_PROP
 (
+_webkit_text_fill_color
+WebkitTextFillColor
+)
+COMPUTED_STYLE_PROP
+(
 clip_path
 ClipPath
 )

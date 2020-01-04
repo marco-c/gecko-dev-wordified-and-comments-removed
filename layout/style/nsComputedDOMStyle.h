@@ -2340,6 +2340,14 @@ already_AddRefed
 <
 CSSValue
 >
+DoGetWebkitTextFillColor
+(
+)
+;
+already_AddRefed
+<
+CSSValue
+>
 DoGetOpacity
 (
 )

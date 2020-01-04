@@ -6949,6 +6949,11 @@ mTextEmphasisColorForeground
 :
 1
 ;
+bool
+mWebkitTextFillColorForeground
+:
+1
+;
 uint8_t
 mTextTransform
 ;
@@ -6990,6 +6995,9 @@ mTabSize
 ;
 nscolor
 mTextEmphasisColor
+;
+nscolor
+mWebkitTextFillColor
 ;
 nsStyleCoord
 mWordSpacing
