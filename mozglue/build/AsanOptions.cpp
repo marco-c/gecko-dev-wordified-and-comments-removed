@@ -31,6 +31,10 @@ allow_user_segv_handler
 alloc_dealloc_mismatch
 =
 0
+:
+detect_leaks
+=
+0
 "
 ;
 }
