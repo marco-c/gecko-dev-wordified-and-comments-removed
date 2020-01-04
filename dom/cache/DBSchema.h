@@ -84,7 +84,7 @@ namespace
 db
 {
 nsresult
-CreateSchema
+CreateOrMigrateSchema
 (
 mozIStorageConnection
 *
