@@ -18162,7 +18162,7 @@ ActivityCallback
 this
 )
 ;
-JS_AddInterruptCallback
+JS_SetInterruptCallback
 (
 cx
 InterruptCallback
