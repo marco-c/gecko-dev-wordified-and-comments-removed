@@ -255,6 +255,9 @@ int32_t
 mSubRequestsNoSecurity
 ;
 bool
+mCertUserOverridden
+;
+bool
 mRestoreSubrequests
 ;
 bool
