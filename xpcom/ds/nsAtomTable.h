@@ -21,7 +21,12 @@ stddef
 h
 >
 void
-NS_PurgeAtomTable
+NS_InitAtomTable
+(
+)
+;
+void
+NS_ShutdownAtomTable
 (
 )
 ;
