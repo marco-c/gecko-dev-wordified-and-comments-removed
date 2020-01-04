@@ -1164,7 +1164,7 @@ succeed
 .
 '
 )
-assert_rejects
+assert_resolves
 (
 iframe_test
 (
@@ -1189,12 +1189,6 @@ mode
 =
 follow
 '
-true
-/
-*
-timeout_enabled
-*
-/
 )
 '
 Redirected
@@ -1210,7 +1204,7 @@ should
 '
 +
 '
-fail
+succeed
 .
 '
 )

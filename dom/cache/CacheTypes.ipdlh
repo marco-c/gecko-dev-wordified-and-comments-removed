@@ -339,9 +339,7 @@ ResponseType
 type
 ;
 nsCString
-[
-]
-urlList
+url
 ;
 uint32_t
 status

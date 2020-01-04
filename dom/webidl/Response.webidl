@@ -176,11 +176,6 @@ url
 ;
 readonly
 attribute
-boolean
-redirected
-;
-readonly
-attribute
 unsigned
 short
 status
