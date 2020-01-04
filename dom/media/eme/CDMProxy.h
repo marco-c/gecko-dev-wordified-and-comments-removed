@@ -178,6 +178,10 @@ const
 nsAString
 &
 aTopLevelOrigin
+const
+nsAString
+&
+aGMPName
 bool
 aInPrivateBrowsing
 )
@@ -493,6 +497,9 @@ mOrigin
 ;
 nsAutoString
 mTopLevelOrigin
+;
+nsString
+mGMPName
 ;
 bool
 mInPrivateBrowsing

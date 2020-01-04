@@ -629,6 +629,10 @@ const
 nsAString
 &
 aTopLevelOrigin
+const
+nsAString
+&
+aGMPName
 bool
 aInPrivateBrowsing
 UniquePtr
@@ -647,6 +651,10 @@ aOrigin
 mTopLevelOrigin
 (
 aTopLevelOrigin
+)
+mGMPName
+(
+aGMPName
 )
 mInPrivateBrowsing
 (
@@ -703,6 +711,7 @@ SendGetGMPNodeId
 (
 mOrigin
 mTopLevelOrigin
+mGMPName
 mInPrivateBrowsing
 &
 outId
@@ -741,6 +750,9 @@ mOrigin
 nsString
 mTopLevelOrigin
 ;
+nsString
+mGMPName
+;
 bool
 mInPrivateBrowsing
 ;
@@ -766,6 +778,10 @@ const
 nsAString
 &
 aTopLevelOrigin
+const
+nsAString
+&
+aGMPName
 bool
 aInPrivateBrowsing
 UniquePtr
@@ -788,6 +804,7 @@ GetNodeIdDone
 (
 aOrigin
 aTopLevelOrigin
+aGMPName
 aInPrivateBrowsing
 Move
 (

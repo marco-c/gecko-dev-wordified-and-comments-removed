@@ -2173,6 +2173,14 @@ GetNodeId
 (
 aOrigin
 aTopLevelOrigin
+NS_LITERAL_STRING
+(
+"
+gmp
+-
+fake
+"
+)
 aInPBMode
 Move
 (

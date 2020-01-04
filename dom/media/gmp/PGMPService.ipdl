@@ -162,6 +162,8 @@ nsString
 origin
 nsString
 topLevelOrigin
+nsString
+gmpName
 bool
 inPrivateBrowsing
 )

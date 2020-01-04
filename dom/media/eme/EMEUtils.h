@@ -314,6 +314,15 @@ ArrayBufferViewOrArrayBuffer
 aBufferOrView
 )
 ;
+nsString
+KeySystemToGMPName
+(
+const
+nsAString
+&
+aKeySystem
+)
+;
 }
 #
 endif
