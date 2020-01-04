@@ -1233,12 +1233,17 @@ buffer
 )
 )
 ;
+data
+=
 mAudioConverter
 -
 >
 Process
 (
+Move
+(
 data
+)
 )
 ;
 aTotalFrames
