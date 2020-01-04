@@ -4035,7 +4035,8 @@ these
 (
 3
 )
-symbols
+symbol
+versions
 to
 be
 used
