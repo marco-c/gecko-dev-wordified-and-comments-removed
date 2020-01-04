@@ -937,7 +937,7 @@ eMediaEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_WAITING
+eWaiting
 eMediaEventFirst
 +
 9
