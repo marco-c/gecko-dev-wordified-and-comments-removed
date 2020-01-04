@@ -996,9 +996,6 @@ def
 XPCOMBinaryComponent
 (
 name
-*
-*
-kwargs
 )
 :
 '
@@ -1027,9 +1024,6 @@ component
 GeckoSharedLibrary
 (
 name
-*
-*
-kwargs
 )
 IS_COMPONENT
 =
