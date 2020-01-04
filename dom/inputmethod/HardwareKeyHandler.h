@@ -86,6 +86,10 @@ RefCounted
 KeyboardInfo
 >
 {
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+KeyboardInfo
+)
 nsINode
 *
 mTarget
