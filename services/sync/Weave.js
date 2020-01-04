@@ -806,8 +806,9 @@ ssm
 createCodebasePrincipal
 (
 uri
-{
-}
+aLoadInfo
+.
+originAttributes
 )
 ;
 channel
