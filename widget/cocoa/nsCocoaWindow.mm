@@ -7813,7 +7813,7 @@ nsCocoaWindow
 :
 SetSizeMode
 (
-int32_t
+nsSizeMode
 aMode
 )
 {

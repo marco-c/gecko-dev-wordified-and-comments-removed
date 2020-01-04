@@ -473,13 +473,13 @@ override
 NS_IMETHOD
 SetSizeMode
 (
-int32_t
+nsSizeMode
 aMode
 )
 override
 ;
 virtual
-int32_t
+nsSizeMode
 SizeMode
 (
 )

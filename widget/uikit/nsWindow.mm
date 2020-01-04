@@ -4283,7 +4283,7 @@ nsWindow
 :
 SetSizeMode
 (
-int32_t
+nsSizeMode
 aMode
 )
 {
@@ -4563,7 +4563,7 @@ nsWindow
 :
 ReportSizeModeEvent
 (
-int32_t
+nsSizeMode
 aMode
 )
 {
