@@ -75,16 +75,6 @@ close
 (
 )
 {
-mBuf
-=
-null
-;
-mNativeRef
-.
-release
-(
-)
-;
 }
 Override
 public
