@@ -9,6 +9,17 @@ include
 "
 mozilla
 /
+dom
+/
+PTVTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 GonkNativeHandle
