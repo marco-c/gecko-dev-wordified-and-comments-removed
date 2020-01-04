@@ -260,13 +260,12 @@ define
 CertIssuerDownload
 "
 DigiCert
+SHA2
 Assured
 ID
 Code
 Signing
 CA
--
-1
 "
 #
 Dialog
