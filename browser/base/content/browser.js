@@ -39041,13 +39041,6 @@ this
 false
 )
 ;
-gFxAccounts
-.
-updateTabContextMenu
-(
-aPopupMenu
-)
-;
 }
 handleEvent
 (
