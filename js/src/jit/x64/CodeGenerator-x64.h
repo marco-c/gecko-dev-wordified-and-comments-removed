@@ -45,6 +45,15 @@ this
 }
 protected
 :
+Operand
+ToOperand64
+(
+const
+LInt64Allocation
+&
+a
+)
+;
 ValueOperand
 ToValue
 (
