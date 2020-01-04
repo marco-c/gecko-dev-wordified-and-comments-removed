@@ -112,6 +112,9 @@ return
 open
 (
 srcpath
+"
+r
+"
 )
 .
 read
