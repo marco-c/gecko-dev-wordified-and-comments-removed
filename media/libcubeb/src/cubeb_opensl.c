@@ -952,6 +952,9 @@ defined
 __ANDROID__
 )
 #
+ifndef
+MOZ_WIDGET_GONK
+#
 if
 (
 __ANDROID_API__
@@ -1067,6 +1070,8 @@ return
 ret
 ;
 }
+#
+endif
 #
 endif
 static
