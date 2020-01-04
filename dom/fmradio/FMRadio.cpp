@@ -101,6 +101,13 @@ h
 #
 include
 "
+AudioChannelService
+.
+h
+"
+#
+include
+"
 DOMRequest
 .
 h
@@ -2053,6 +2060,13 @@ NotifyStartedPlaying
 (
 &
 config
+AudioChannelService
+:
+:
+AudibleState
+:
+:
+eAudible
 )
 ;
 if

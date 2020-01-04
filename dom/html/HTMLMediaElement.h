@@ -1148,6 +1148,11 @@ final
 override
 ;
 void
+NotifyAudioPlaybackChanged
+(
+)
+;
+void
 SetPreload
 (
 const

@@ -2724,6 +2724,13 @@ NotifyStartedPlaying
 (
 &
 config
+AudioChannelService
+:
+:
+AudibleState
+:
+:
+eAudible
 )
 ;
 if
