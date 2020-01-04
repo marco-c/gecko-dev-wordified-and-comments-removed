@@ -665,7 +665,6 @@ CreateCodebasePrincipal
 nsIURI
 *
 aURI
-const
 OriginAttributes
 &
 aAttrs
