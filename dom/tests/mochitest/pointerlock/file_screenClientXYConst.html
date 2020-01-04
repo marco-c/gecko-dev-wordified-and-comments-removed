@@ -462,11 +462,11 @@ isUnlocked
 !
 document
 .
-mozPointerLockElement
+pointerLockElement
 ;
 div
 .
-mozRequestPointerLock
+requestPointerLock
 (
 )
 ;
@@ -504,7 +504,7 @@ isLocked
 !
 document
 .
-mozPointerLockElement
+pointerLockElement
 ;
 lockedCoords
 =
@@ -575,7 +575,7 @@ document
 addEventListener
 (
 "
-mozpointerlockchange
+pointerlockchange
 "
 function
 (
@@ -586,7 +586,7 @@ if
 (
 document
 .
-mozPointerLockElement
+pointerLockElement
 =
 =
 =
@@ -597,7 +597,7 @@ info
 (
 "
 Got
-mozpointerlockchange
+pointerlockchange
 for
 entering
 "
@@ -663,7 +663,7 @@ info
 (
 "
 Got
-mozpointerlockchange
+pointerlockchange
 for
 exiting
 "
