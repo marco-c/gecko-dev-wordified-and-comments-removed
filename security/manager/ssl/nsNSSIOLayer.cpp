@@ -8440,13 +8440,13 @@ secret
 )
 )
 ;
-CERTCertificate
-*
+ScopedCERTCertificate
 serverCert
-=
+(
 SSL_PeerCertificate
 (
 socket
+)
 )
 ;
 if
