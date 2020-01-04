@@ -6477,7 +6477,7 @@ migration
 .
 warnings
 "
-true
+false
 )
 ;
 pref
@@ -12767,6 +12767,18 @@ stricttransportsecurity
 preloadlist
 "
 true
+)
+;
+pref
+(
+"
+network
+.
+mdns
+.
+use_js_fallback
+"
+false
 )
 ;
 pref
