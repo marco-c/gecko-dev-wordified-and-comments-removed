@@ -273,6 +273,16 @@ logging
 .
 js
 )
+content
+/
+navigate
+.
+js
+(
+navigate
+.
+js
+)
 #
 ifdef
 ENABLE_TESTS
