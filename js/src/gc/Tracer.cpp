@@ -708,17 +708,12 @@ compartments
 )
 {
 }
-using
-ReturnType
-=
-void
-;
 template
 <
 typename
 T
 >
-ReturnType
+void
 operator
 (
 )
@@ -760,7 +755,7 @@ wrapper
 )
 ;
 }
-ReturnType
+void
 operator
 (
 )
