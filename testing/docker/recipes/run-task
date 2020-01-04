@@ -179,6 +179,7 @@ utcnow
 )
 print
 (
+b
 '
 [
 %
@@ -201,6 +202,7 @@ m
 )
 end
 =
+b
 '
 '
 )
@@ -237,6 +239,7 @@ code
 print_line
 (
 prefix
+b
 '
 executing
 %
@@ -394,6 +397,7 @@ if
 data
 =
 =
+b
 '
 '
 :
@@ -794,9 +798,11 @@ args
 :
 print_line
 (
+b
 '
 setup
 '
+b
 '
 run
 -
@@ -1240,9 +1246,11 @@ limits
 .
 print_line
 (
+b
 '
 setup
 '
+b
 '
 running
 as
@@ -1385,6 +1393,7 @@ return
 return
 run_and_prefix_output
 (
+b
 '
 task
 '
