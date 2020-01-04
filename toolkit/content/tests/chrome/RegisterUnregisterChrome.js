@@ -195,6 +195,7 @@ tmpf
 ;
 }
 function
+*
 dirIter
 (
 directory
@@ -459,12 +460,10 @@ tmpdir
 var
 files
 =
-[
-file
-for
+Array
+.
+from
 (
-file
-in
 dirIter
 (
 '
@@ -477,7 +476,6 @@ file
 rootDir
 )
 )
-]
 ;
 for
 (
