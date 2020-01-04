@@ -1876,6 +1876,9 @@ fh
 optimize
 =
 False
+compress_level
+=
+5
 )
 as
 writer
