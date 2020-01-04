@@ -240,8 +240,6 @@ getClient
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -311,8 +309,6 @@ client
 let
 deferred
 =
-promise
-.
 defer
 (
 )

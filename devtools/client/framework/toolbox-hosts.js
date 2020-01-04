@@ -30,6 +30,20 @@ promise
 )
 ;
 const
+defer
+=
+require
+(
+"
+devtools
+/
+shared
+/
+defer
+"
+)
+;
+const
 Services
 =
 require
@@ -162,8 +176,6 @@ function
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -799,8 +811,6 @@ function
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1196,8 +1206,6 @@ function
 let
 deferred
 =
-promise
-.
 defer
 (
 )

@@ -834,8 +834,6 @@ continue
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -973,8 +971,6 @@ prefValue
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1473,8 +1469,6 @@ node
 let
 deferred
 =
-promise
-.
 defer
 (
 )

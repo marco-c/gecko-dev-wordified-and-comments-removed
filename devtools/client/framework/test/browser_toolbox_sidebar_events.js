@@ -261,8 +261,6 @@ toolbox
 let
 deferred
 =
-promise
-.
 defer
 (
 )

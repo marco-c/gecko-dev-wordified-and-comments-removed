@@ -23,12 +23,16 @@ Services
 )
 ;
 const
-promise
+defer
 =
 require
 (
 "
-promise
+devtools
+/
+shared
+/
+defer
 "
 )
 ;
@@ -252,8 +256,6 @@ toolbox
 let
 deferred
 =
-promise
-.
 defer
 (
 )

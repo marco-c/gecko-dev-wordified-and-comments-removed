@@ -446,8 +446,6 @@ reload
 let
 deferred
 =
-promise
-.
 defer
 (
 )

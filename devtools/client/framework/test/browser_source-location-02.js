@@ -622,8 +622,6 @@ debuggerPanel
 let
 deferred
 =
-promise
-.
 defer
 (
 )

@@ -1117,8 +1117,6 @@ target
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1332,8 +1330,6 @@ waitForTick
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1360,8 +1356,6 @@ ms
 let
 def
 =
-promise
-.
 defer
 (
 )
@@ -1839,8 +1833,6 @@ onHidden
 let
 deferred
 =
-promise
-.
 defer
 (
 )

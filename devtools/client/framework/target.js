@@ -26,6 +26,20 @@ promise
 )
 ;
 const
+defer
+=
+require
+(
+"
+devtools
+/
+shared
+/
+defer
+"
+)
+;
+const
 EventEmitter
 =
 require
@@ -512,8 +526,6 @@ tabs
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -1215,8 +1227,6 @@ this
 .
 _remote
 =
-promise
-.
 defer
 (
 )
@@ -2183,8 +2193,6 @@ this
 .
 _destroyer
 =
-promise
-.
 defer
 (
 )
@@ -2447,8 +2455,6 @@ loc
 let
 deferred
 =
-promise
-.
 defer
 (
 )

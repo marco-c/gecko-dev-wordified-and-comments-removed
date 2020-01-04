@@ -69,8 +69,6 @@ predicate
 let
 deferred
 =
-promise
-.
 defer
 (
 )
@@ -159,8 +157,6 @@ actionType
 let
 deferred
 =
-promise
-.
 defer
 (
 )
