@@ -132,6 +132,19 @@ CallObject
 >
 (
 )
+&
+&
+!
+obj
+-
+>
+is
+<
+ModuleEnvironmentObject
+>
+(
+)
+)
 |
 |
 obj
@@ -153,7 +166,6 @@ is
 DeclEnvObject
 >
 (
-)
 )
 ;
 MOZ_ASSERT_IF
