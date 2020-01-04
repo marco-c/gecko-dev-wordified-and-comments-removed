@@ -21,7 +21,9 @@ MediaDataDecoderCallbackProxy
 :
 Error
 (
-MediaDataDecoderError
+const
+MediaResult
+&
 aError
 )
 {

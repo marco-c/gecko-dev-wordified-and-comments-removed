@@ -2024,7 +2024,9 @@ const
 char
 *
 aLine
-MediaDataDecoderError
+const
+MediaResult
+&
 aError
 )
 {
@@ -2044,6 +2046,10 @@ s
 "
 aOmxError
 aError
+.
+Code
+(
+)
 aLine
 )
 ;
@@ -3478,10 +3484,11 @@ OMX_ERRORTYPE
 )
 aData1
 __func__
-MediaDataDecoderError
-:
-:
-DECODE_ERROR
+MediaResult
+(
+NS_ERROR_DOM_MEDIA_DECODE_ERR
+__func__
+)
 )
 ;
 return

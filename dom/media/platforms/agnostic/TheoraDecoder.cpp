@@ -1202,10 +1202,11 @@ mCallback
 >
 Error
 (
-MediaDataDecoderError
-:
-:
-DECODE_ERROR
+MediaResult
+(
+NS_ERROR_DOM_MEDIA_FATAL_ERR
+__func__
+)
 )
 ;
 }

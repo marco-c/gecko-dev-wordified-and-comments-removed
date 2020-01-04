@@ -86,7 +86,9 @@ override
 void
 Error
 (
-MediaDataDecoderError
+const
+MediaResult
+&
 aError
 )
 override
