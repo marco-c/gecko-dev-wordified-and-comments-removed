@@ -2376,7 +2376,7 @@ GetType
 )
 =
 =
-StyleShapeSourceType
+StyleClipPathType
 :
 :
 URL
@@ -4339,7 +4339,7 @@ GetType
 )
 =
 =
-StyleShapeSourceType
+StyleClipPathType
 :
 :
 URL
