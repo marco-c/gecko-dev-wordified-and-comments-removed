@@ -215,9 +215,6 @@ Gamepad
 ;
 #
 endif
-#
-ifdef
-MOZ_MEDIA_NAVIGATOR
 class
 NavigatorUserMediaSuccessCallback
 ;
@@ -227,8 +224,6 @@ NavigatorUserMediaErrorCallback
 class
 MozGetUserMediaDevicesSuccessCallback
 ;
-#
-endif
 namespace
 network
 {
@@ -1160,9 +1155,6 @@ ErrorResult
 aRv
 )
 ;
-#
-ifdef
-MOZ_MEDIA_NAVIGATOR
 void
 MozGetUserMedia
 (
@@ -1205,8 +1197,6 @@ ErrorResult
 aRv
 )
 ;
-#
-endif
 already_AddRefed
 <
 ServiceWorkerContainer
@@ -1321,9 +1311,6 @@ aGlobal
 ;
 #
 endif
-#
-ifdef
-MOZ_MEDIA_NAVIGATOR
 static
 bool
 HasUserMediaSupport
@@ -1334,8 +1321,6 @@ JSObject
 *
 )
 ;
-#
-endif
 static
 bool
 HasDataStoreSupport

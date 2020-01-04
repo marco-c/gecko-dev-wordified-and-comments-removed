@@ -2641,9 +2641,6 @@ endif
 /
 /
 MOZ_AUDIO_CHANNEL_MANAGER
-#
-ifdef
-MOZ_MEDIA_NAVIGATOR
 callback
 NavigatorUserMediaSuccessCallback
 =
@@ -2848,11 +2845,6 @@ callID
 ;
 }
 ;
-#
-endif
-/
-/
-MOZ_MEDIA_NAVIGATOR
 /
 /
 Service
