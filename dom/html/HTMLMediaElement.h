@@ -617,6 +617,10 @@ virtual
 void
 DecodeError
 (
+const
+MediaResult
+&
+aError
 )
 final
 override
@@ -2735,6 +2739,12 @@ Error
 (
 uint16_t
 aErrorCode
+const
+MediaResult
+&
+aErrorDetails
+=
+NS_OK
 )
 ;
 void
