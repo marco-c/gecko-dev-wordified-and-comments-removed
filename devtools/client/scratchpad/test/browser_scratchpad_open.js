@@ -417,9 +417,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 scratchpad
 /

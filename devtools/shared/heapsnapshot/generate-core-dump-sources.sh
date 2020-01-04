@@ -12,8 +12,6 @@ A
 script
 to
 generate
-toolkit
-/
 devtools
 /
 server
@@ -28,8 +26,6 @@ cc
 }
 from
 #
-toolkit
-/
 devtools
 /
 server

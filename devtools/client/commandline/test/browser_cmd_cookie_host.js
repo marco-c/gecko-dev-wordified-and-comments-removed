@@ -14,9 +14,9 @@ test
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 commandline
 /

@@ -3426,9 +3426,9 @@ in
 :
 /
 /
-browser
-/
 devtools
+/
+client
 /
 webconsole
 /

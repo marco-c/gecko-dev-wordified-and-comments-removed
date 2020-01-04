@@ -333,9 +333,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 webaudioeditor
 /

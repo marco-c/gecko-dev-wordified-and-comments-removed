@@ -230,8 +230,6 @@ or
 addTabActors
 in
 /
-toolkit
-/
 devtools
 /
 server

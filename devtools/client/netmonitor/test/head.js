@@ -257,9 +257,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 netmonitor
 /
@@ -760,9 +760,9 @@ CORS_SJS_PATH
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 netmonitor
 /

@@ -75,9 +75,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 webconsole
 /

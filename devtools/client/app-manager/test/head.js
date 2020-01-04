@@ -145,9 +145,9 @@ content
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 app
 -

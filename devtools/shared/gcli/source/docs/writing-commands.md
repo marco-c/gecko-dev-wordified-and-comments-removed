@@ -677,9 +677,9 @@ take
 a
 look
 in
-browser
-/
 devtools
+/
+client
 /
 webconsole
 /

@@ -11,8 +11,6 @@ are
 living
 within
 /
-toolkit
-/
 devtools
 /
 server

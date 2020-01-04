@@ -400,9 +400,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 canvasdebugger
 /

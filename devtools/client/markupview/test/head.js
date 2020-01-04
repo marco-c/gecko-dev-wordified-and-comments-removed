@@ -382,9 +382,9 @@ test
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 markupview
 /
@@ -406,9 +406,9 @@ content
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 markupview
 /

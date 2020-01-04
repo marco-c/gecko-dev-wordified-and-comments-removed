@@ -20,9 +20,9 @@ content
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 framework
 /
@@ -53,9 +53,9 @@ test
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 fontinspector
 /

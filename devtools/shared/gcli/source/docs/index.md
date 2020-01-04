@@ -623,9 +623,9 @@ file
 /
 tip
 /
-browser
-/
 devtools
+/
+client
 /
 commandline
 )

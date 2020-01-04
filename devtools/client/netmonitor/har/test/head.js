@@ -43,9 +43,9 @@ content
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 netmonitor
 /
@@ -80,9 +80,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 netmonitor
 /

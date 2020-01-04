@@ -278,8 +278,6 @@ path
 /
 browser
 /
-toolkit
-/
 devtools
 /
 server

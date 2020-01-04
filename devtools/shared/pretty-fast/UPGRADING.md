@@ -32,9 +32,9 @@ fast
 .
 js
 to
-toolkit
-/
 devtools
+/
+shared
 /
 pretty
 -
@@ -56,9 +56,9 @@ test
 .
 js
 to
-toolkit
-/
 devtools
+/
+shared
 /
 pretty
 -

@@ -9,9 +9,9 @@ TEST_URL_FILE
 "
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 inspector
 /

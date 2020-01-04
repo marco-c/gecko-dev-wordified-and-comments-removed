@@ -34,9 +34,9 @@ content
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 styleeditor
 /
@@ -58,9 +58,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 styleeditor
 /
@@ -82,9 +82,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 styleeditor
 /

@@ -110,9 +110,9 @@ mozilla
 -
 central
 /
-toolkit
-/
 devtools
+/
+shared
 /
 acorn
 /
@@ -142,9 +142,9 @@ mozilla
 -
 central
 /
-toolkit
-/
 devtools
+/
+shared
 /
 acorn
 /
@@ -178,9 +178,9 @@ mozilla
 -
 central
 /
-toolkit
-/
 devtools
+/
+shared
 /
 acorn
 /

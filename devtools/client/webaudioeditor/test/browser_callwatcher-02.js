@@ -218,9 +218,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 webaudioeditor
 /
@@ -395,9 +395,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 webaudioeditor
 /

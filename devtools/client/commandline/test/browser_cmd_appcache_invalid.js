@@ -16,9 +16,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 commandline
 /
@@ -692,9 +692,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 '
 +
@@ -726,9 +726,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 '
 +

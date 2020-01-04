@@ -248,9 +248,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 styleinspector
 /
@@ -272,9 +272,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 styleinspector
 /

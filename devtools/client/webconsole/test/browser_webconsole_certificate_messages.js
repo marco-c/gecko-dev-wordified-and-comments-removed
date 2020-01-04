@@ -34,9 +34,9 @@ TEST_URI_PATH
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 webconsole
 /

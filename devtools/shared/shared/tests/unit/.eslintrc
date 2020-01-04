@@ -30,9 +30,9 @@ extends
 .
 .
 /
-browser
-/
 devtools
+/
+client
 /
 .
 eslintrc

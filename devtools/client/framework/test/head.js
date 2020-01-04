@@ -15,9 +15,9 @@ content
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 framework
 /

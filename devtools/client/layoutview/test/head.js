@@ -161,9 +161,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 layoutview
 /

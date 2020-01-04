@@ -27,9 +27,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 webconsole
 /
@@ -59,9 +59,9 @@ org
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 webconsole
 /

@@ -102,9 +102,9 @@ mozilla
 -
 central
 /
-toolkit
-/
 devtools
+/
+shared
 /
 sourcemap
 /
@@ -128,9 +128,9 @@ mozilla
 -
 central
 /
-toolkit
-/
 devtools
+/
+shared
 /
 sourcemap
 /

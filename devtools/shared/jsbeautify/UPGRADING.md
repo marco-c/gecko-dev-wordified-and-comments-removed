@@ -32,9 +32,9 @@ beautify
 .
 js
 to
-toolkit
-/
 devtools
+/
+shared
 /
 jsbeautify
 /
@@ -102,9 +102,9 @@ html
 .
 js
 to
-toolkit
-/
 devtools
+/
+shared
 /
 jsbeautify
 /
@@ -179,9 +179,9 @@ css
 .
 js
 to
-toolkit
-/
 devtools
+/
+shared
 /
 jsbeautify
 /
@@ -226,9 +226,9 @@ tests
 .
 js
 to
-toolkit
-/
 devtools
+/
+shared
 /
 jsbeautify
 /

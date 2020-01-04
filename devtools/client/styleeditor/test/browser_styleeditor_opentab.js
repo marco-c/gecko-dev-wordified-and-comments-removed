@@ -108,9 +108,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 styleeditor
 /

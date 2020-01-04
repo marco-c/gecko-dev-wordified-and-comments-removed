@@ -97,9 +97,9 @@ base
 browser
 /
 components
-browser
-/
 devtools
+/
+client
 browser
 /
 locales
@@ -124,9 +124,9 @@ content
 toolkit
 /
 crashreporter
-toolkit
-/
 devtools
+/
+shared
 toolkit
 /
 forgetaboutsite

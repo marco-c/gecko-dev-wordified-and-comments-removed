@@ -86,9 +86,9 @@ test
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 sourceeditor
 "
@@ -118,9 +118,9 @@ test
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 sourceeditor
 "

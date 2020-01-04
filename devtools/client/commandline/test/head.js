@@ -12,9 +12,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 commandline
 /
@@ -36,9 +36,9 @@ com
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 commandline
 /

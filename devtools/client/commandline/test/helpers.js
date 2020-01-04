@@ -1764,9 +1764,9 @@ content
 /
 browser
 /
-browser
-/
 devtools
+/
+client
 /
 commandline
 /

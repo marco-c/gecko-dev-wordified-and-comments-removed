@@ -96,9 +96,9 @@ CodeMirror
 plugin
 found
 in
-browser
-/
 devtools
+/
+client
 /
 sourceeditor
 /
