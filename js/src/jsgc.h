@@ -2990,6 +2990,12 @@ startBackgroundThread
 (
 State
 newState
+const
+js
+:
+:
+AutoLockGC
+&
 )
 ;
 void
@@ -3006,6 +3012,9 @@ lock
 State
 state
 (
+const
+AutoLockGC
+&
 )
 ;
 void
@@ -3013,6 +3022,9 @@ setState
 (
 State
 state
+const
+AutoLockGC
+&
 )
 ;
 friend
