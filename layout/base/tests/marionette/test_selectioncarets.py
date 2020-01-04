@@ -4396,6 +4396,16 @@ enabled
 :
 False
             
+'
+layout
+.
+accessiblecaret
+.
+use_long_tap_injector
+'
+:
+False
+            
 self
 .
 carets_tested_pref
