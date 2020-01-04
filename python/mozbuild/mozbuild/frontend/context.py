@@ -9629,7 +9629,7 @@ jar_manifests
 "
 "
 '
-misc
+libs
 '
 )
     
