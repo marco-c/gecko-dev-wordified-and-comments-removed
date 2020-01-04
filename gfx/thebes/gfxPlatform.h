@@ -1109,8 +1109,6 @@ nsAString
 &
 aFamilyName
 )
-=
-0
 ;
 virtual
 gfxFontGroup
@@ -1156,11 +1154,7 @@ aStretch
 uint8_t
 aStyle
 )
-{
-return
-nullptr
 ;
-}
 virtual
 gfxFontEntry
 *
