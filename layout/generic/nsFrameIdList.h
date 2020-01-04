@@ -696,5 +696,9 @@ nsXULScrollFrame
 )
 FRAME_ID
 (
+SummaryFrame
+)
+FRAME_ID
+(
 ViewportFrame
 )

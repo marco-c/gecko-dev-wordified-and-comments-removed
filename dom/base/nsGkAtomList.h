@@ -14141,6 +14141,13 @@ sliderFrame
 )
 GK_ATOM
 (
+summaryFrame
+"
+SummaryFrame
+"
+)
+GK_ATOM
+(
 tableCellFrame
 "
 TableCellFrame
