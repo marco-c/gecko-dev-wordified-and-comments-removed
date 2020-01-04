@@ -137,10 +137,11 @@ TaskQueue
 :
 DispatchLocked
 (
-already_AddRefed
+nsCOMPtr
 <
 nsIRunnable
 >
+&
 aRunnable
 DispatchMode
 aMode
@@ -150,14 +151,6 @@ DispatchReason
 aReason
 )
 {
-nsCOMPtr
-<
-nsIRunnable
->
-r
-=
-aRunnable
-;
 AbstractThread
 *
 currentThread
@@ -195,7 +188,7 @@ TailDispatcher
 AddTask
 (
 this
-r
+aRunnable
 .
 forget
 (
@@ -241,7 +234,7 @@ mTasks
 .
 push
 (
-r
+aRunnable
 .
 forget
 (
