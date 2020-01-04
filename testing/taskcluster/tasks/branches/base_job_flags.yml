@@ -546,17 +546,6 @@ webgl
 /
 mochitest
 -
-jetpack
-:
-/
-mochitest
--
-jetpack
-.
-*
-/
-mochitest
--
 push
 :
 /
