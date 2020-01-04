@@ -442,6 +442,13 @@ h
 #
 include
 "
+DOMMediaStream
+.
+h
+"
+#
+include
+"
 AudioStreamTrack
 .
 h
