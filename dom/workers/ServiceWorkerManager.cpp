@@ -16145,7 +16145,7 @@ rv
 httpChannel
 -
 >
-VisitRequestHeaders
+VisitNonDefaultRequestHeaders
 (
 this
 )

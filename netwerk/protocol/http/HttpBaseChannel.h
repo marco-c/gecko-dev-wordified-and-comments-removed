@@ -753,6 +753,15 @@ visitor
 override
 ;
 NS_IMETHOD
+VisitNonDefaultRequestHeaders
+(
+nsIHttpHeaderVisitor
+*
+visitor
+)
+override
+;
+NS_IMETHOD
 GetResponseHeader
 (
 const
