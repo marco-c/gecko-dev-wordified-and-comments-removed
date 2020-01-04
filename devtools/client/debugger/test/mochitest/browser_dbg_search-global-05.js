@@ -274,6 +274,9 @@ matching
 line
 yet
 .
+(
+1
+)
 "
 )
 ;
@@ -307,6 +310,9 @@ a
 global
 search
 .
+(
+2
+)
 "
 )
 ;
@@ -330,6 +336,9 @@ the
 global
 search
 .
+(
+3
+)
 "
 )
 ;
@@ -501,6 +510,9 @@ collapsed
 on
 click
 .
+(
+2
+)
 "
 )
 is
@@ -522,6 +534,9 @@ collapsed
 on
 click
 .
+(
+2
+)
 "
 )
 EventUtils
@@ -573,6 +588,9 @@ an
 additional
 click
 .
+(
+3
+)
 "
 )
 ;
@@ -597,6 +615,9 @@ an
 additional
 click
 .
+(
+3
+)
 "
 )
 ;
@@ -751,7 +772,7 @@ the
 correct
 line
 (
-1
+4
 )
 .
 "
@@ -778,7 +799,7 @@ the
 correct
 text
 (
-1
+4
 )
 .
 "
@@ -808,7 +829,7 @@ source
 is
 incorrect
 (
-1
+4
 )
 .
 "
@@ -834,7 +855,7 @@ the
 global
 search
 (
-1
+4
 )
 .
 "
@@ -974,8 +995,8 @@ gPanel
 .
 js
 "
-1
-1
+13
+3
 )
 .
 then
@@ -1040,7 +1061,7 @@ the
 correct
 line
 (
-2
+5
 )
 .
 "
@@ -1067,7 +1088,7 @@ the
 correct
 text
 (
-2
+5
 )
 .
 "
@@ -1097,7 +1118,7 @@ source
 is
 incorrect
 (
-2
+5
 )
 .
 "
@@ -1123,7 +1144,7 @@ the
 global
 search
 (
-2
+5
 )
 .
 "

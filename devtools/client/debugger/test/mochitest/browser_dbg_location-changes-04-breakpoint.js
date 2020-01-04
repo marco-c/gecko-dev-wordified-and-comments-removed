@@ -1176,7 +1176,7 @@ yield
 ensureCaretAt
 (
 gPanel
-1
+6
 1
 true
 )
