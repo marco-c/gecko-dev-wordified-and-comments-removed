@@ -689,9 +689,6 @@ dom
 GlobalObject
 &
 aGlobal
-JSContext
-*
-aCx
 const
 mozilla
 :
@@ -821,9 +818,6 @@ dom
 GlobalObject
 &
 aGlobal
-JSContext
-*
-aCx
 const
 nsAString
 &
@@ -849,7 +843,11 @@ params
 .
 Init
 (
-aCx
+aGlobal
+.
+Context
+(
+)
 JS
 :
 :
@@ -872,7 +870,6 @@ return
 Constructor
 (
 aGlobal
-aCx
 params
 aRv
 )
