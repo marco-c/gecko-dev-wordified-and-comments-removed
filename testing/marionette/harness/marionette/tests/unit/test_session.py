@@ -145,8 +145,6 @@ self
 )
 :
         
-caps
-=
 self
 .
 marionette
@@ -191,8 +189,6 @@ self
 )
 :
         
-caps
-=
 self
 .
 marionette
