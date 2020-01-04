@@ -27078,11 +27078,6 @@ UntransformRect
 r
 overflow
 child
-nsPoint
-(
-0
-0
-)
 &
 out
 )
