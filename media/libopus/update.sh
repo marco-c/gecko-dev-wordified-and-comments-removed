@@ -748,3 +748,12 @@ gcc
 ICE
 .
 patch
+patch
+-
+p1
+<
+.
+/
+tonality_init
+.
+patch
