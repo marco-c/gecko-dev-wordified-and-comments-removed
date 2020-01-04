@@ -743,14 +743,6 @@ ShouldSuppressLineBreak
 aData
 -
 >
-currentLine
-+
-=
-1
-;
-aData
--
->
 ForceBreak
 (
 )
