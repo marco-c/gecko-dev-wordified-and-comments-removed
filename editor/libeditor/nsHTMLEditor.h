@@ -2985,8 +2985,8 @@ aAttribute
 bool
 NodeIsProperty
 (
-nsIDOMNode
-*
+nsINode
+&
 aNode
 )
 ;
