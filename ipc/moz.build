@@ -130,13 +130,6 @@ if
 CONFIG
 [
 '
-MOZ_ENABLE_DBUS
-'
-]
-or
-CONFIG
-[
-'
 MOZ_B2G_BT_BLUEZ
 '
 ]
