@@ -239,7 +239,8 @@ txLoadedDocumentsHash
 (
 )
 ;
-void
+MOZ_MUST_USE
+nsresult
 init
 (
 txXPathNode

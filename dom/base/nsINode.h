@@ -5475,7 +5475,8 @@ Length
 )
 ;
 }
-void
+MOZ_MUST_USE
+nsresult
 GetBaseURI
 (
 nsAString
@@ -7579,6 +7580,7 @@ override
 \
 {
 \
+return
 nsINode
 :
 :
@@ -7586,10 +7588,6 @@ GetBaseURI
 (
 aBaseURI
 )
-;
-\
-return
-NS_OK
 ;
 \
 }

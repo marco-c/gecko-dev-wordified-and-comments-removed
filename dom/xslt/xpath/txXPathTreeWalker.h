@@ -475,7 +475,7 @@ aNode
 )
 ;
 static
-void
+nsresult
 getBaseURI
 (
 const
