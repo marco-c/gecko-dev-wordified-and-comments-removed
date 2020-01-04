@@ -398,6 +398,10 @@ const
 nsCString
 &
 aSchedulingContextID
+const
+OptionalCorsPreflightArgs
+&
+aCorsPreflightArgs
 )
 ;
 virtual
