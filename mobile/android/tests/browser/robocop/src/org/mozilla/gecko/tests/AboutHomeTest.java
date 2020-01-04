@@ -128,7 +128,6 @@ RECENT_TABS
 HISTORY
 TOP_SITES
 BOOKMARKS
-READING_LIST
 }
 ;
 private
@@ -159,13 +158,6 @@ add
 (
 "
 BOOKMARKS
-"
-)
-;
-add
-(
-"
-READING_LIST
 "
 )
 ;
