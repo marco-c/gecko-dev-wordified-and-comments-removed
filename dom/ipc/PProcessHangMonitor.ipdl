@@ -188,6 +188,11 @@ HangData
 data
 )
 ;
+async
+ClearHang
+(
+)
+;
 child
 :
 async
