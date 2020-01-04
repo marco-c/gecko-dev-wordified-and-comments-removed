@@ -176,7 +176,7 @@ openAboutHomeTab
 (
 AboutHomeTabs
 .
-READING_LIST
+HISTORY
 )
 ;
 inputAndLoadUrl
