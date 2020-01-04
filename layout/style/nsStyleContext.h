@@ -815,11 +815,6 @@ mBits
 aBit
 ;
 }
-void
-Mark
-(
-)
-;
 const
 void
 *
@@ -1720,9 +1715,11 @@ nsIAtom
 >
 mPseudoTag
 ;
-nsRuleNode
-*
 const
+RefPtr
+<
+nsRuleNode
+>
 mRuleNode
 ;
 nsResetStyleData
