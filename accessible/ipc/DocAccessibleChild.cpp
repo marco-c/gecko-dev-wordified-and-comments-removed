@@ -811,12 +811,7 @@ idxInParent
 aShowEvent
 -
 >
-GetAccessible
-(
-)
--
->
-IndexInParent
+InsertionIndex
 (
 )
 ;
