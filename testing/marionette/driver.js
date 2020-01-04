@@ -9356,17 +9356,9 @@ listener
 .
 singleTap
 (
-{
 id
-:
-id
-corx
-:
 x
-cory
-:
 y
-}
 )
 ;
 break
