@@ -100,6 +100,12 @@ displayPort
 ;
 public
 boolean
+isGeckoReady
+(
+)
+;
+public
+boolean
 post
 (
 Runnable

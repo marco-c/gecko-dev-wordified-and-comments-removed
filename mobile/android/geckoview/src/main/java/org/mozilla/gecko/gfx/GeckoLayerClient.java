@@ -576,6 +576,8 @@ listener
 )
 ;
 }
+Override
+public
 boolean
 isGeckoReady
 (
