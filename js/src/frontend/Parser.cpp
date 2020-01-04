@@ -13698,6 +13698,8 @@ Node
 pn
 FunctionSyntaxKind
 kind
+GeneratorKind
+generatorKind
 bool
 *
 tryAnnexB
@@ -13901,6 +13903,12 @@ sc
 strict
 (
 )
+&
+&
+generatorKind
+=
+=
+NotGenerator
 )
 {
 if
@@ -14632,6 +14640,7 @@ checkFunctionDefinition
 funName
 pn
 kind
+generatorKind
 &
 tryAnnexB
 )
