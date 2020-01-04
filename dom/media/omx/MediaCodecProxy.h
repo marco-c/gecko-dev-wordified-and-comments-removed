@@ -63,7 +63,7 @@ include
 "
 mozilla
 /
-RefPtr
+nsRefPtr
 .
 h
 "
@@ -422,6 +422,10 @@ int64_t
 aTimestampUsecs
 uint64_t
 flags
+int64_t
+aTimeoutUs
+=
+0
 )
 ;
 status_t
@@ -571,7 +575,7 @@ CodecResourceListener
 >
 mListener
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :
