@@ -282,8 +282,7 @@ convert
 (
 dest
 source
-sourceKey
-destKey
+key
 fields
 )
 {
@@ -303,7 +302,7 @@ field
 {
 dest
 [
-destKey
+key
 ]
 [
 field
@@ -311,7 +310,7 @@ field
 =
 source
 [
-sourceKey
+key
 ]
 [
 i
@@ -387,8 +386,6 @@ field
 =
 data
 .
-overall
-.
 io
 [
 i
@@ -408,7 +405,7 @@ this
 ;
 data
 .
-samples
+resources
 .
 forEach
 (
@@ -444,7 +441,7 @@ cpu_percent
 :
 sample
 .
-cpu_percent_mean
+cpu_percent
 cpu_times
 :
 {
@@ -472,9 +469,6 @@ convert
 entry
 sample
 "
-cpu_times_sum
-"
-"
 cpu_times
 "
 cpu_fields
@@ -484,9 +478,6 @@ convert
 (
 entry
 sample
-"
-io
-"
 "
 io
 "
@@ -500,9 +491,6 @@ sample
 "
 virt
 "
-"
-virt
-"
 virt_fields
 )
 ;
@@ -510,9 +498,6 @@ convert
 (
 entry
 sample
-"
-swap
-"
 "
 swap
 "
@@ -873,9 +858,7 @@ this
 .
 data
 .
-overall
-.
-cpu_percent_mean
+cpu_percent
 ;
 }
 get
@@ -893,7 +876,7 @@ this
 .
 data
 .
-phases
+tiers
 .
 forEach
 (
@@ -938,7 +921,7 @@ this
 .
 data
 .
-phases
+tiers
 .
 length
 ;
@@ -954,7 +937,7 @@ this
 .
 data
 .
-phases
+tiers
 [
 i
 ]
@@ -2634,7 +2617,7 @@ html
 (
 entry
 .
-cpu_percent_mean
+cpu_percent
 |
 |
 "
