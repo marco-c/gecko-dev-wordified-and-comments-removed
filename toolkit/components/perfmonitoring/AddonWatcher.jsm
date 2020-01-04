@@ -285,6 +285,9 @@ Date
 now
 (
 )
+_latestSnapshot
+:
+null
 init
 :
 function
@@ -621,7 +624,7 @@ true
 let
 diff
 =
-snapshot
+currentSnapshot
 .
 processData
 .
@@ -895,7 +898,7 @@ if
 isSystemTooBusy
 )
 {
-continue
+return
 ;
 }
 let
