@@ -2677,9 +2677,6 @@ mBlankTiming
 uint32_t
 mFrameType
 ;
-bool
-mIsInIsolatedMozBrowser
-;
 nsString
 mPaymentRequestId
 ;

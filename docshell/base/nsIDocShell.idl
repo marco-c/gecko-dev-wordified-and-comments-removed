@@ -5204,6 +5204,7 @@ true
 [
 infallible
 ]
+readonly
 attribute
 boolean
 isInIsolatedMozBrowserElement

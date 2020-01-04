@@ -8417,16 +8417,6 @@ nsIDocShell
 FRAME_TYPE_BROWSER
 )
 ;
-mDocShell
--
->
-SetIsInIsolatedMozBrowserElement
-(
-OwnerIsIsolatedMozBrowserFrame
-(
-)
-)
-;
 }
 nsAutoString
 userContextIdStr
