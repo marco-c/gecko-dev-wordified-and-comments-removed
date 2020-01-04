@@ -64,11 +64,6 @@ enable
 gcgenerational
 -
 -
-enable
--
-threadsafe
--
--
 with
 -
 system
