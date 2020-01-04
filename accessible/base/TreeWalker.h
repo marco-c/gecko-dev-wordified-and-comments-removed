@@ -71,6 +71,14 @@ eWalkContextTree
 eWalkCache
 }
 ;
+explicit
+TreeWalker
+(
+Accessible
+*
+aContext
+)
+;
 TreeWalker
 (
 Accessible
@@ -78,7 +86,7 @@ Accessible
 aContext
 nsIContent
 *
-aNode
+aAnchorNode
 uint32_t
 aFlags
 =
