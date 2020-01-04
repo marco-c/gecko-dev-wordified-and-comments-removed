@@ -208,7 +208,7 @@ DidSeek
 )
 ;
 void
-AddCue
+NotifyCueAdded
 (
 TextTrackCue
 &

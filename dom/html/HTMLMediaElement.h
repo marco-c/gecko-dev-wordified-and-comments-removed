@@ -1950,7 +1950,7 @@ aPendingListOnly
 }
 }
 void
-AddCue
+NotifyCueAdded
 (
 TextTrackCue
 &
@@ -1965,7 +1965,7 @@ mTextTrackManager
 mTextTrackManager
 -
 >
-AddCue
+NotifyCueAdded
 (
 aCue
 )
