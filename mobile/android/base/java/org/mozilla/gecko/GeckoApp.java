@@ -23,17 +23,6 @@ mozilla
 .
 gecko
 .
-GeckoProfileDirectories
-.
-NoMozillaDirectoryException
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 db
 .
 BrowserDB

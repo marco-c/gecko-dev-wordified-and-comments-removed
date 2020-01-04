@@ -51,15 +51,6 @@ mozilla
 .
 gecko
 .
-GeckoProfile
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
 R
 ;
 import
