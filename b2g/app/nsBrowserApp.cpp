@@ -696,7 +696,10 @@ if
 (
 putenv
 (
+strdup
+(
 appEnv
+)
 )
 )
 {
