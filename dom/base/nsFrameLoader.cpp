@@ -1853,7 +1853,7 @@ NS_ERROR_FAILURE
 loadInfo
 -
 >
-SetOwner
+SetTriggeringPrincipal
 (
 mOwnerContent
 -
@@ -2129,7 +2129,7 @@ LOAD_FLAGS_ALLOW_THIRD_PARTY_FIXUP
 nsIWebNavigation
 :
 :
-LOAD_FLAGS_DISALLOW_INHERIT_OWNER
+LOAD_FLAGS_DISALLOW_INHERIT_PRINCIPAL
 ;
 }
 bool

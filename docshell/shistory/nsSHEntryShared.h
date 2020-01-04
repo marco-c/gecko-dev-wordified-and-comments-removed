@@ -208,9 +208,9 @@ mChildShells
 ;
 nsCOMPtr
 <
-nsISupports
+nsIPrincipal
 >
-mOwner
+mTriggeringPrincipal
 ;
 nsCString
 mContentType

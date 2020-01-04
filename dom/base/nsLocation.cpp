@@ -455,9 +455,9 @@ NS_ERROR_NOT_AVAILABLE
 ;
 nsCOMPtr
 <
-nsISupports
+nsIPrincipal
 >
-owner
+triggeringPrincipal
 ;
 nsCOMPtr
 <
@@ -615,7 +615,7 @@ rv
 rv
 )
 ;
-owner
+triggeringPrincipal
 =
 doc
 -
@@ -714,7 +714,7 @@ principalURI
 }
 else
 {
-owner
+triggeringPrincipal
 =
 nsContentUtils
 :
@@ -751,9 +751,9 @@ NS_ERROR_FAILURE
 loadInfo
 -
 >
-SetOwner
+SetTriggeringPrincipal
 (
-owner
+triggeringPrincipal
 )
 ;
 if

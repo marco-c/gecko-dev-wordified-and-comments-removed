@@ -1251,9 +1251,9 @@ bool
 aSendReferrer
 uint32_t
 aReferrerPolicy
-nsISupports
+nsIPrincipal
 *
-aOwner
+aTriggeringPrincipal
 const
 char
 *
@@ -1356,9 +1356,9 @@ aURI
 nsIChannel
 *
 aChannel
-nsISupports
+nsIPrincipal
 *
-aOwner
+aTriggeringPrincipal
 uint32_t
 aLoadType
 bool
@@ -1401,9 +1401,9 @@ aURI
 nsIChannel
 *
 aChannel
-nsISupports
+nsIPrincipal
 *
-aOwner
+aTriggeringPrincipal
 bool
 aCloneChildren
 nsISHEntry
