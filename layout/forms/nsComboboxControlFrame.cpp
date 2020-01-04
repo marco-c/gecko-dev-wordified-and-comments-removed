@@ -1362,7 +1362,7 @@ event
 true
 aShowPopup
 ?
-NS_XUL_POPUP_SHOWING
+eXULPopupShowing
 :
 NS_XUL_POPUP_HIDING
 nullptr
