@@ -36,7 +36,9 @@ utils
 Utils
 ;
 var
-Heritage
+{
+extend
+}
 =
 require
 (
@@ -2064,8 +2066,6 @@ BrowserConsole
 .
 prototype
 =
-Heritage
-.
 extend
 (
 WebConsole

@@ -177,7 +177,9 @@ true
 )
 ;
 const
-Heritage
+{
+extend
+}
 =
 require
 (
@@ -1949,8 +1951,6 @@ NavigationMarker
 .
 prototype
 =
-Heritage
-.
 extend
 (
 Messages
@@ -2336,8 +2336,6 @@ Simple
 .
 prototype
 =
-Heritage
-.
 extend
 (
 Messages
@@ -3856,8 +3854,6 @@ Extended
 .
 prototype
 =
-Heritage
-.
 extend
 (
 Messages
@@ -5144,8 +5140,6 @@ ConsoleGeneric
 .
 prototype
 =
-Heritage
-.
 extend
 (
 Messages
@@ -5977,8 +5971,6 @@ ConsoleTrace
 .
 prototype
 =
-Heritage
-.
 extend
 (
 Messages
@@ -6626,8 +6618,6 @@ ConsoleTable
 .
 prototype
 =
-Heritage
-.
 extend
 (
 Messages
@@ -8613,8 +8603,6 @@ MessageTimestamp
 .
 prototype
 =
-Heritage
-.
 extend
 (
 Widgets
@@ -8738,8 +8726,6 @@ URLString
 .
 prototype
 =
-Heritage
-.
 extend
 (
 Widgets
@@ -9251,8 +9237,6 @@ JSObject
 .
 prototype
 =
-Heritage
-.
 extend
 (
 Widgets
@@ -10600,8 +10584,6 @@ constructor
 .
 prototype
 =
-Heritage
-.
 extend
 (
 extendObj
@@ -15066,8 +15048,6 @@ LongString
 .
 prototype
 =
-Heritage
-.
 extend
 (
 Widgets
@@ -15531,8 +15511,6 @@ Stacktrace
 .
 prototype
 =
-Heritage
-.
 extend
 (
 Widgets
@@ -15923,8 +15901,6 @@ Table
 .
 prototype
 =
-Heritage
-.
 extend
 (
 Widgets
