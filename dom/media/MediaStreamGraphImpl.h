@@ -440,11 +440,6 @@ aShutdownTicket
 )
 ;
 void
-ShutdownThreads
-(
-)
-;
-void
 Init
 (
 )
