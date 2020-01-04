@@ -2180,7 +2180,7 @@ continueY
 {
 mApzc
 .
-OverscrollAnimationEnding
+RequestSnap
 (
 )
 ;
@@ -16286,7 +16286,7 @@ void
 AsyncPanZoomController
 :
 :
-OverscrollAnimationEnding
+RequestSnap
 (
 )
 {

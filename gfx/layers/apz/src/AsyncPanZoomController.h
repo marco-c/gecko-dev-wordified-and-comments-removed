@@ -1099,7 +1099,7 @@ OnTouchEndOrCancel
 )
 ;
 void
-OverscrollAnimationEnding
+RequestSnap
 (
 )
 ;
