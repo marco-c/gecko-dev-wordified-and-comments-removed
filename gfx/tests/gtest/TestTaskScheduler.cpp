@@ -121,6 +121,7 @@ gfx
 CriticalSection
 mSection
 ;
+explicit
 SanityChecker
 (
 uint64_t
@@ -203,6 +204,7 @@ SanityChecker
 bool
 mSpecialTaskHasRun
 ;
+explicit
 JoinTestSanityCheck
 (
 uint64_t

@@ -136,6 +136,7 @@ return
 this
 ;
 }
+explicit
 A
 (
 uint64_t
@@ -183,6 +184,7 @@ return
 this
 ;
 }
+explicit
 B
 (
 const
@@ -227,6 +229,7 @@ data
 120
 ]
 ;
+explicit
 BigStruct
 (
 uint64_t
