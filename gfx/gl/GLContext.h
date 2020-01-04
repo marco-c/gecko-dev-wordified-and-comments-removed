@@ -728,7 +728,7 @@ OpenGL
 )
 {
 return
-profile
+mProfile
 =
 =
 ContextProfile
@@ -737,7 +737,7 @@ ContextProfile
 OpenGLCore
 |
 |
-profile
+mProfile
 =
 =
 ContextProfile
