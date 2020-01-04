@@ -15,7 +15,7 @@ PACKAGE_VERSION
 '
 6
 .
-10
+9
 '
 desc
 =
@@ -94,7 +94,7 @@ mozprocess
 =
 0
 .
-22
+17
 '
         
 '
