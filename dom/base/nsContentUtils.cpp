@@ -13071,6 +13071,12 @@ NameSpaceManager
 GetNameSpaceID
 (
 nameSpace
+aNamespaceResolver
+-
+>
+OwnerDoc
+(
+)
 )
 ;
 if

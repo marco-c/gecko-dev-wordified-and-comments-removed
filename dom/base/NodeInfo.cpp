@@ -910,6 +910,12 @@ NameSpaceManager
 GetNameSpaceID
 (
 aNamespaceURI
+mOwnerManager
+-
+>
+GetDocument
+(
+)
 )
 ;
 return
