@@ -261,3 +261,16 @@ private
 h
 '
 ]
+EXPORTS
++
+=
+[
+'
+!
+xpcom
+-
+config
+.
+h
+'
+]
