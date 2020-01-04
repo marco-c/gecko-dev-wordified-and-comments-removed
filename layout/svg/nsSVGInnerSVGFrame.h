@@ -30,15 +30,11 @@ h
 class
 gfxContext
 ;
-typedef
-nsSVGDisplayContainerFrame
-nsSVGInnerSVGFrameBase
-;
 class
 nsSVGInnerSVGFrame
 :
 public
-nsSVGInnerSVGFrameBase
+nsSVGDisplayContainerFrame
 public
 nsISVGSVGFrame
 {
@@ -65,7 +61,7 @@ nsStyleContext
 aContext
 )
 :
-nsSVGInnerSVGFrameBase
+nsSVGDisplayContainerFrame
 (
 aContext
 )
