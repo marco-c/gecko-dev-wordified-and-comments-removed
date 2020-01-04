@@ -687,7 +687,7 @@ clipboard
 )
 ;
 yield
-waitForClipboard
+waitForClipboardPromise
 (
 (
 )
@@ -722,7 +722,7 @@ clipboard
 )
 ;
 yield
-waitForClipboard
+waitForClipboardPromise
 (
 (
 )

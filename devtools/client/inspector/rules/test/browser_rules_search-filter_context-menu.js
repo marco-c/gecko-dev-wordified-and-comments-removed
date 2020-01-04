@@ -455,7 +455,7 @@ yield
 onContextMenuPopup
 ;
 yield
-waitForClipboard
+waitForClipboardPromise
 (
 (
 )

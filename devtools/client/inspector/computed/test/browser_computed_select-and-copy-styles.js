@@ -533,7 +533,7 @@ n
 try
 {
 yield
-waitForClipboard
+waitForClipboardPromise
 (
 (
 )
@@ -730,7 +730,7 @@ n
 try
 {
 yield
-waitForClipboard
+waitForClipboardPromise
 (
 (
 )
