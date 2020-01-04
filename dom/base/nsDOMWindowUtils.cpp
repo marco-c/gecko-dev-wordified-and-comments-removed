@@ -5962,10 +5962,12 @@ MozTapGesture
 "
 )
 )
+{
 msg
 =
-NS_SIMPLE_GESTURE_TAP
+eTapGesture
 ;
+}
 else
 if
 (

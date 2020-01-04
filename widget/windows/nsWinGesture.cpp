@@ -1794,12 +1794,11 @@ break
 case
 GID_TWOFINGERTAP
 :
-{
 evt
 .
 mMessage
 =
-NS_SIMPLE_GESTURE_TAP
+eTapGesture
 ;
 evt
 .
@@ -1807,7 +1806,6 @@ clickCount
 =
 1
 ;
-}
 break
 ;
 case

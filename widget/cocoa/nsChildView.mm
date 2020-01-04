@@ -24452,7 +24452,7 @@ WidgetSimpleGestureEvent
 geckoEvent
 (
 true
-NS_SIMPLE_GESTURE_TAP
+eTapGesture
 mGeckoChild
 )
 ;
