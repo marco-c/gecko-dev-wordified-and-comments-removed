@@ -112,6 +112,9 @@ presscaret
 "
 releasecaret
 "
+"
+scroll
+"
 }
 ;
 dictionary
