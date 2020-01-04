@@ -524,7 +524,7 @@ void
 minMaxDouble
 (
 FloatRegister
-first
+srcDest
 FloatRegister
 second
 bool
@@ -537,7 +537,7 @@ void
 minMaxFloat32
 (
 FloatRegister
-first
+srcDest
 FloatRegister
 second
 bool
