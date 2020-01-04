@@ -644,6 +644,9 @@ this
 bool
 NotifyPrivate
 (
+JSContext
+*
+aCx
 Status
 aStatus
 )
@@ -659,6 +662,7 @@ aCx
 return
 NotifyPrivate
 (
+aCx
 Terminating
 )
 ;
@@ -855,6 +859,9 @@ Start
 bool
 Notify
 (
+JSContext
+*
+aCx
 Status
 aStatus
 )
@@ -862,6 +869,7 @@ aStatus
 return
 NotifyPrivate
 (
+aCx
 aStatus
 )
 ;
@@ -869,11 +877,15 @@ aStatus
 bool
 Cancel
 (
+JSContext
+*
+aCx
 )
 {
 return
 Notify
 (
+aCx
 Canceling
 )
 ;
@@ -889,6 +901,7 @@ aCx
 return
 Notify
 (
+aCx
 Killing
 )
 ;
@@ -952,6 +965,9 @@ Close
 bool
 ModifyBusyCount
 (
+JSContext
+*
+aCx
 bool
 aIncrease
 )
