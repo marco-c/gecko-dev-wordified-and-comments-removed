@@ -152,7 +152,7 @@ aSample
 )
 ;
 void
-CheckIfSeekComplete
+MaybeFinishSeek
 (
 )
 ;
