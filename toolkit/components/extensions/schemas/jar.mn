@@ -98,6 +98,15 @@ extensions
 /
 schemas
 /
+events
+.
+json
+content
+/
+extensions
+/
+schemas
+/
 extension
 .
 json
