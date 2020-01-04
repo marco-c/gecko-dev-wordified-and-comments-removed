@@ -1159,6 +1159,7 @@ Ci
 .
 nsIPK11TokenDB
 )
+;
 var
 token
 =
