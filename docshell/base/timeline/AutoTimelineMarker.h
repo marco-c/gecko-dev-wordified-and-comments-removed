@@ -47,7 +47,6 @@ mDocShell
 ;
 public
 :
-explicit
 AutoTimelineMarker
 (
 nsIDocShell

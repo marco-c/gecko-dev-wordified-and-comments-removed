@@ -88,7 +88,6 @@ delete
 ;
 public
 :
-explicit
 AbstractTimelineMarker
 (
 const
@@ -99,7 +98,6 @@ MarkerTracingType
 aTracingType
 )
 ;
-explicit
 AbstractTimelineMarker
 (
 const

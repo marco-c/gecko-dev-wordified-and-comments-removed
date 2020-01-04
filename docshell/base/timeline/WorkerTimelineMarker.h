@@ -33,7 +33,6 @@ TimelineMarker
 {
 public
 :
-explicit
 WorkerTimelineMarker
 (
 ProfileTimelineWorkerOperationType

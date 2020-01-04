@@ -31,7 +31,6 @@ AbstractTimelineMarker
 {
 public
 :
-explicit
 TimelineMarker
 (
 const
@@ -49,7 +48,6 @@ MarkerStackRequest
 STACK
 )
 ;
-explicit
 TimelineMarker
 (
 const
