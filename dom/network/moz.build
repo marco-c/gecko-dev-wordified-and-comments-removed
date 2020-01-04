@@ -167,6 +167,11 @@ dom
 =
 [
 '
+TCPServerSocket
+.
+h
+'
+'
 TCPSocket
 .
 h
@@ -239,6 +244,11 @@ UNIFIED_SOURCES
 [
 '
 Connection
+.
+cpp
+'
+'
+TCPServerSocket
 .
 cpp
 '
