@@ -227,7 +227,7 @@ encoding
 FloatRegisters
 :
 :
-Simd128
+Int32x4
 )
 ;
 vmovd
@@ -243,12 +243,12 @@ vmovd
 src
 .
 high
-ScratchSimd128Reg
+ScratchInt32x4Reg
 )
 ;
 vpunpckldq
 (
-ScratchSimd128Reg
+ScratchInt32x4Reg
 dest128
 dest128
 )

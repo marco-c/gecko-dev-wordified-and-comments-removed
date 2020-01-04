@@ -6751,7 +6751,7 @@ fpuReg
 (
 )
 .
-isSimd128
+isInt32x4
 (
 )
 )
@@ -6805,7 +6805,7 @@ fpuReg
 (
 )
 .
-isSimd128
+isFloat32x4
 (
 )
 )
