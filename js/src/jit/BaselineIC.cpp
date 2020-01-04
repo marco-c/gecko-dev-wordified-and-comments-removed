@@ -1252,6 +1252,12 @@ HandleValue
 value
 )
 {
+JS
+:
+:
+AutoCheckCannotGC
+nogc
+;
 FallbackICSpew
 (
 cx
