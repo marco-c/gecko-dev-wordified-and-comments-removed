@@ -19,11 +19,6 @@ gSecurityDisabled
 =
 true
 ;
-bool
-gRegisteredBool
-=
-false
-;
 }
 }
 }
