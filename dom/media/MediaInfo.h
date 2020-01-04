@@ -1380,6 +1380,11 @@ mMediaSeekable
 =
 true
 ;
+bool
+mMediaSeekableOnlyInBufferedRanges
+=
+false
+;
 EncryptionInfo
 mCrypto
 ;

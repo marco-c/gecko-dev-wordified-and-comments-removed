@@ -177,6 +177,17 @@ const
 0
 ;
 virtual
+bool
+IsSeekableOnlyInBufferedRanges
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
 UniquePtr
 <
 EncryptionInfo

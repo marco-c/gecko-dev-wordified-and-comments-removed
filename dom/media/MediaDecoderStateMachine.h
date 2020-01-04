@@ -3391,6 +3391,12 @@ bool
 >
 mMediaSeekable
 ;
+Mirror
+<
+bool
+>
+mMediaSeekableOnlyInBufferedRanges
+;
 Canonical
 <
 media
