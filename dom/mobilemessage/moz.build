@@ -425,7 +425,7 @@ SmsParent
 cpp
 '
 '
-MmsMessage
+MmsMessageInternal
 .
 cpp
 '
@@ -450,12 +450,12 @@ MobileMessageService
 cpp
 '
 '
-MobileMessageThread
+MobileMessageThreadInternal
 .
 cpp
 '
 '
-SmsMessage
+SmsMessageInternal
 .
 cpp
 '
