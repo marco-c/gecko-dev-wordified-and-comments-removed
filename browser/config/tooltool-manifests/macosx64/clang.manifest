@@ -37,7 +37,7 @@ clang
 .
 tar
 .
-xz
+bz2
 "
 "
 unpack
