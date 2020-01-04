@@ -956,10 +956,6 @@ TextTrackMode
 Disabled
 )
 {
-UpdateActiveCueList
-(
-)
-;
 return
 mActiveCueList
 ;
@@ -996,10 +992,6 @@ TextTrackMode
 Disabled
 )
 {
-UpdateActiveCueList
-(
-)
-;
 mActiveCueList
 -
 >

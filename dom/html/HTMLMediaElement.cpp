@@ -11265,6 +11265,11 @@ nsIDOMHTMLMediaElement
 :
 HAVE_ENOUGH_DATA
 :
+FireTimeUpdate
+(
+false
+)
+;
 DispatchAsyncEvent
 (
 NS_LITERAL_STRING
