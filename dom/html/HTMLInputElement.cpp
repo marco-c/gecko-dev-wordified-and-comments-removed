@@ -13077,7 +13077,7 @@ mEvent
 mMessage
 =
 =
-NS_UI_ACTIVATE
+eLegacyDOMActivate
 &
 &
 !
@@ -15264,7 +15264,7 @@ InternalUIEvent
 actEvent
 (
 true
-NS_UI_ACTIVATE
+eLegacyDOMActivate
 mouseEvent
 )
 ;

@@ -689,7 +689,7 @@ eLegacyUIEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_UI_ACTIVATE
+eLegacyDOMActivate
 eLegacyUIEventFirst
 )
 NS_EVENT_MESSAGE
