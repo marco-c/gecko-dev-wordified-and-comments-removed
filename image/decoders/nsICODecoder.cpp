@@ -2850,7 +2850,7 @@ if
 mContainedDecoder
 -
 >
-HasDataError
+HasError
 (
 )
 )
