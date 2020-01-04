@@ -156,7 +156,7 @@ Compositor
 widget
 :
 :
-CompositorWidgetProxy
+CompositorWidget
 *
 aWidget
 CompositorBridgeParent

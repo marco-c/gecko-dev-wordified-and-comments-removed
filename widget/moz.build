@@ -536,11 +536,6 @@ EXPORTS
 =
 [
 '
-CompositorWidgetProxy
-.
-h
-'
-'
 GfxDriverInfo
 .
 h
@@ -727,6 +722,11 @@ widget
 =
 [
 '
+CompositorWidget
+.
+h
+'
+'
 IMEData
 .
 h
@@ -747,7 +747,7 @@ UNIFIED_SOURCES
 =
 [
 '
-CompositorWidgetProxy
+CompositorWidget
 .
 cpp
 '

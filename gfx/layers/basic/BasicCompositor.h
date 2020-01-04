@@ -196,7 +196,7 @@ aParent
 widget
 :
 :
-CompositorWidgetProxy
+CompositorWidget
 *
 aWidget
 )

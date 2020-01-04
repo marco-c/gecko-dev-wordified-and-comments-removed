@@ -246,7 +246,7 @@ struct
 MSGResult
 ;
 class
-WinCompositorWidgetProxy
+WinCompositorWidget
 ;
 }
 }
@@ -1608,9 +1608,9 @@ mozilla
 widget
 :
 :
-CompositorWidgetProxy
+CompositorWidget
 *
-NewCompositorWidgetProxy
+NewCompositorWidget
 (
 )
 override
@@ -2471,9 +2471,9 @@ mozilla
 widget
 :
 :
-WinCompositorWidgetProxy
+WinCompositorWidget
 *
-GetCompositorWidgetProxy
+GetCompositorWidget
 (
 )
 ;

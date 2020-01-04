@@ -1166,9 +1166,9 @@ aCompositorBridgeParent
 widget
 :
 :
-CompositorWidgetProxy
+CompositorWidget
 *
-aWidgetProxy
+aWidget
 )
 :
 mCompositorBridgeParent
@@ -1198,7 +1198,7 @@ mVsyncNotificationsSkipped
 )
 mCompositorVsyncDispatcher
 (
-aWidgetProxy
+aWidget
 -
 >
 GetCompositorVsyncDispatcher
@@ -2491,7 +2491,7 @@ CompositorBridgeParent
 widget
 :
 :
-CompositorWidgetProxy
+CompositorWidget
 *
 aWidget
 CSSToLayoutDeviceScale
@@ -2515,7 +2515,7 @@ CompositorBridgeParentIPCAllocator
 CompositorBridgeParent
 "
 )
-mWidgetProxy
+mWidget
 (
 aWidget
 )
@@ -2986,7 +2986,7 @@ mCompositor
 nullptr
 ;
 }
-mWidgetProxy
+mWidget
 =
 nullptr
 ;
@@ -4715,7 +4715,7 @@ Unused
 <
 SendHideAllPlugins
 (
-GetWidgetProxy
+GetWidget
 (
 )
 -
@@ -6246,7 +6246,7 @@ new
 CompositorOGL
 (
 this
-mWidgetProxy
+mWidget
 mEGLSurfaceSize
 .
 width
@@ -6296,7 +6296,7 @@ new
 X11BasicCompositor
 (
 this
-mWidgetProxy
+mWidget
 )
 ;
 }
@@ -6310,7 +6310,7 @@ new
 BasicCompositor
 (
 this
-mWidgetProxy
+mWidget
 )
 ;
 }
@@ -6339,7 +6339,7 @@ new
 CompositorD3D11
 (
 this
-mWidgetProxy
+mWidget
 )
 ;
 }
@@ -6364,7 +6364,7 @@ new
 CompositorD3D9
 (
 this
-mWidgetProxy
+mWidget
 )
 ;
 #
@@ -10709,7 +10709,7 @@ false
 uintptr_t
 parentWidget
 =
-GetWidgetProxy
+GetWidget
 (
 )
 -
@@ -11095,7 +11095,7 @@ return
 uintptr_t
 parentWidget
 =
-GetWidgetProxy
+GetWidget
 (
 )
 -

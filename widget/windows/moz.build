@@ -135,7 +135,7 @@ AudioSession
 h
 '
 '
-WinCompositorWidgetProxy
+WinCompositorWidget
 .
 h
 '
@@ -330,7 +330,7 @@ WidgetTraceEvent
 cpp
 '
 '
-WinCompositorWidgetProxy
+WinCompositorWidget
 .
 cpp
 '
