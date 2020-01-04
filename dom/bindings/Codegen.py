@@ -6477,21 +6477,7 @@ descriptor
     
 return
 [
-        
 config
-.
-getDescriptorProvider
-(
-False
-)
-        
-config
-.
-getDescriptorProvider
-(
-True
-)
-    
 ]
 class
 CGHeaders
@@ -93677,15 +93663,6 @@ jsImplemented
 or
 callbackDescriptors
         
-provider
-=
-config
-.
-getDescriptorProvider
-(
-False
-)
-        
 def
 descriptorClearsPropsInSlots
 (
@@ -94249,11 +94226,6 @@ CGDictionary
 (
 t
 config
-.
-getDescriptorProvider
-(
-False
-)
 )
 )
             
@@ -94275,11 +94247,6 @@ CGUnionStruct
 (
 t
 config
-.
-getDescriptorProvider
-(
-False
-)
 )
 )
                 
@@ -94291,11 +94258,6 @@ CGUnionStruct
 (
 t
 config
-.
-getDescriptorProvider
-(
-False
-)
 True
 )
 )
@@ -94308,13 +94270,7 @@ CGCallbackFunction
 (
 c
 config
-.
-getDescriptorProvider
-(
-False
 )
-)
-                        
 for
 c
 in
@@ -94352,11 +94308,6 @@ CGCallbackFunction
 (
 c
 config
-.
-getDescriptorProvider
-(
-True
-)
 )
                         
 for
@@ -114080,11 +114031,6 @@ CGUnionStruct
 (
 t
 config
-.
-getDescriptorProvider
-(
-False
-)
 )
 for
 t
@@ -114098,11 +114044,6 @@ CGUnionStruct
 (
 t
 config
-.
-getDescriptorProvider
-(
-False
-)
 True
 )
 for
