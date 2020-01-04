@@ -42,10 +42,10 @@ DirectEval
 JSContext
 *
 cx
-const
-CallArgs
-&
-args
+HandleValue
+v
+MutableHandleValue
+vp
 )
 ;
 extern

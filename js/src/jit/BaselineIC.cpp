@@ -33256,6 +33256,17 @@ callArgs
 return
 false
 ;
+res
+.
+set
+(
+callArgs
+.
+rval
+(
+)
+)
+;
 }
 else
 if
@@ -33299,6 +33310,12 @@ DirectEval
 (
 cx
 callArgs
+.
+get
+(
+0
+)
+res
 )
 )
 return
@@ -33408,7 +33425,6 @@ callArgs
 return
 false
 ;
-}
 res
 .
 set
@@ -33420,6 +33436,7 @@ rval
 )
 )
 ;
+}
 TypeScript
 :
 :
