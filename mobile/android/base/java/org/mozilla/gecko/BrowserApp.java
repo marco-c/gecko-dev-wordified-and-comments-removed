@@ -3235,6 +3235,8 @@ savedInstanceState
 if
 (
 !
+HardwareUtils
+.
 isSupportedSystem
 (
 )
@@ -7211,6 +7213,8 @@ onDestroy
 if
 (
 !
+HardwareUtils
+.
 isSupportedSystem
 (
 )
