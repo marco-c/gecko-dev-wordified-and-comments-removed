@@ -248,6 +248,18 @@ slugid
 '
 python
 /
+py
+'
+    
+'
+python
+/
+pytest
+'
+    
+'
+python
+/
 voluptuous
 '
     
