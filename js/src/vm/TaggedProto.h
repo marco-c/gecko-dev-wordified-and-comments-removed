@@ -268,6 +268,16 @@ next
 )
 ;
 static
+void
+readBarrier
+(
+const
+TaggedProto
+&
+proto
+)
+;
+static
 bool
 isMarkableTaggedPointer
 (
