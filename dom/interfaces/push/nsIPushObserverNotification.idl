@@ -108,14 +108,14 @@ message
 received
 by
 an
-nsIPushNotificationService
+nsIPushService
 used
 as
 the
-*
 subject
 of
 a
+*
 push
 -
 notification

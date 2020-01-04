@@ -76,12 +76,7 @@ Push
 manifest
 '
 '
-PushClient
-.
-js
-'
-'
-PushNotificationService
+PushComponents
 .
 js
 '
