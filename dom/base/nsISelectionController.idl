@@ -2162,7 +2162,7 @@ nsISelectionController
 :
 :
 SELECTION_IME_CONVERTEDTEXT
-SELECTION_IME_SELECTEDCONVERTEDTEXT
+eIMESelectedClause
 =
 nsISelectionController
 :

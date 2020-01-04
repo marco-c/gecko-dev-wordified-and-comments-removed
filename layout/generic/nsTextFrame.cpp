@@ -1195,7 +1195,7 @@ case
 SelectionType
 :
 :
-SELECTION_IME_SELECTEDCONVERTEDTEXT
+eIMESelectedClause
 :
 return
 eIndexSelConvText
@@ -27453,7 +27453,7 @@ case
 SelectionType
 :
 :
-SELECTION_IME_SELECTEDCONVERTEDTEXT
+eIMESelectedClause
 :
 return
 aFontMetrics
@@ -27996,7 +27996,7 @@ case
 SelectionType
 :
 :
-SELECTION_IME_SELECTEDCONVERTEDTEXT
+eIMESelectedClause
 :
 {
 params
@@ -28454,7 +28454,7 @@ case
 SelectionType
 :
 :
-SELECTION_IME_SELECTEDCONVERTEDTEXT
+eIMESelectedClause
 :
 if
 (
