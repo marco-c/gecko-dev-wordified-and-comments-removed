@@ -943,6 +943,9 @@ mIsPrintableKey
 bool
 mIsOverridingKeyboardLayout
 ;
+bool
+mIsFollowedByNonControlCharMessage
+;
 nsTArray
 <
 FakeCharMsg
@@ -1345,6 +1348,12 @@ const
 MSG
 &
 aCharMsg2
+)
+const
+;
+bool
+IsFollowedByNonControlCharMessage
+(
 )
 const
 ;
