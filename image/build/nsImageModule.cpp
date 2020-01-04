@@ -751,7 +751,7 @@ mozilla
 image
 :
 :
-InitModule
+EnsureModuleInitialized
 (
 )
 {
@@ -762,6 +762,15 @@ NS_IsMainThread
 )
 )
 ;
+if
+(
+sInitialized
+)
+{
+return
+NS_OK
+;
+}
 gfxPrefs
 :
 :
@@ -920,7 +929,7 @@ mozilla
 image
 :
 :
-InitModule
+EnsureModuleInitialized
 nullptr
 }
 ;
