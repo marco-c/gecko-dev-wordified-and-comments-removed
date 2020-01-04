@@ -53,9 +53,17 @@ class
 gfxImageFormat
 {
 ARGB32
+=
+0
 RGB24
+=
+1
 A8
+=
+2
 RGB16_565
+=
+4
 Unknown
 }
 ;
