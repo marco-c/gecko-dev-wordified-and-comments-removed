@@ -821,6 +821,10 @@ nsString
 >
 &
 aLineNames
+bool
+aSuppressEmptyList
+=
+true
 )
 ;
 void
