@@ -14927,7 +14927,7 @@ if
 successor
 )
 return
-ControlStatus_Ended
+ControlStatus_Error
 ;
 if
 (
