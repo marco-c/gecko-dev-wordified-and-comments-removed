@@ -2082,12 +2082,18 @@ resources
                                 
 '
 Contact
-:
-vladan
-or
 the
-Perf
+Telemetry
 team
+(
+e
+.
+g
+.
+in
+#
+telemetry
+)
 if
 you
 think
