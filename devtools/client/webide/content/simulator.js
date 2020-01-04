@@ -153,9 +153,11 @@ chrome
 :
 /
 /
-devtools
+browser
 /
 locale
+/
+devtools
 /
 webide
 .
@@ -287,12 +289,9 @@ this
 .
 _deviceOptions
 =
-[
-]
+Array
 .
 map
-.
-call
 (
 deviceFields
 field
@@ -1044,7 +1043,7 @@ name
 .
 value
 .
-contains
+includes
 (
 oldVer
 )
