@@ -52,8 +52,6 @@ require
 "
 devtools
 /
-client
-/
 shared
 /
 l10n
