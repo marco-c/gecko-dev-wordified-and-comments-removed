@@ -4790,12 +4790,6 @@ defined
 (
 ANDROID
 )
-|
-|
-defined
-(
-GONK
-)
 return
 false
 ;
