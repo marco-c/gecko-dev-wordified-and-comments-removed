@@ -123,6 +123,7 @@ MARK
 SWEEP
 FINALIZE
 COMPACT
+NUM_STATES
 }
 ;
 template
@@ -4667,6 +4668,15 @@ rt
 #
 endif
 }
+;
+const
+char
+*
+StateName
+(
+State
+state
+)
 ;
 }
 #
