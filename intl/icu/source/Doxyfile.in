@@ -86,7 +86,7 @@ c
 )
 2004
 -
-2014
+2015
 International
 Business
 Machines
@@ -3146,6 +3146,9 @@ U_OVERRIDE
 =
 U_FINAL
 =
+UCONFIG_ENABLE_PLUGINS
+=
+1
 EXPAND_AS_DEFINED
 =
 SKIP_FUNCTION_MACROS

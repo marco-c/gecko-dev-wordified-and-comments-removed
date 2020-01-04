@@ -220,9 +220,9 @@ Version
 .
 1
 .
-13
+19
 .
-46
+77
 "
 }
 zoneStrings
@@ -4403,10 +4403,6 @@ ec
 {
 "
 Nepoznati
-ili
-neva
-e
-i
 grad
 "
 }

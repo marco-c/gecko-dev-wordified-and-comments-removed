@@ -453,9 +453,6 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 void
 adoptNumberFormat
 (
@@ -489,8 +486,6 @@ field
 )
 const
 ;
-#
-endif
 #
 ifndef
 U_HIDE_INTERNAL_API

@@ -8,6 +8,9 @@ icuplug
 h
 "
 #
+if
+UCONFIG_ENABLE_PLUGINS
+#
 include
 <
 stdio
@@ -1023,3 +1026,5 @@ return
 UPLUG_TOKEN
 ;
 }
+#
+endif

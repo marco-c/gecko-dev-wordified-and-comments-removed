@@ -216,7 +216,7 @@ internal
 #
 define
 U_USE_USRDATA
-1
+0
 /
 *
 *

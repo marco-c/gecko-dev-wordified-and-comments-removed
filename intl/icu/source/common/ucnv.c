@@ -1186,11 +1186,7 @@ cnv
 sharedData
 -
 >
-referenceCounter
-!
-=
-~
-0
+isReferenceCounted
 )
 {
 ucnv_incrementRefCount
@@ -1534,11 +1530,7 @@ converter
 sharedData
 -
 >
-referenceCounter
-!
-=
-~
-0
+isReferenceCounted
 )
 {
 ucnv_unloadSharedDataIfReady

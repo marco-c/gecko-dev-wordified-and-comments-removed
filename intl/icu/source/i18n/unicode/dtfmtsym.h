@@ -514,9 +514,6 @@ newTimeSeparator
 ;
 #
 endif
-#
-ifndef
-U_HIDE_DRAFT_API
 const
 UnicodeString
 *
@@ -577,8 +574,6 @@ DtWidthType
 width
 )
 ;
-#
-endif
 #
 ifndef
 U_HIDE_INTERNAL_API

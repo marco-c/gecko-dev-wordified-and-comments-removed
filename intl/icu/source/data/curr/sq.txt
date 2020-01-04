@@ -401,7 +401,7 @@ BMD
 "
 "
 Dollari
-e
+i
 Bermudeve
 "
 }
@@ -465,7 +465,7 @@ BWP
 "
 "
 Pula
-botsvane
+botsuane
 "
 }
 BYR
@@ -567,7 +567,7 @@ CUC
 "
 "
 Pezoja
-kubane
+kubaneze
 e
 shk
 mbyeshme
@@ -580,7 +580,7 @@ CUP
 "
 "
 Pezoja
-kubane
+kubaneze
 "
 }
 CVE
@@ -1061,6 +1061,7 @@ LKR
 Rupia
 e
 Sri
+-
 Lank
 s
 "
@@ -1485,8 +1486,7 @@ SCR
 Rupia
 e
 Ishujve
-Sej
-el
+Sishel
 "
 }
 SDG
@@ -1534,6 +1534,7 @@ Ishullit
 t
 Sh
 n
+-
 Helen
 s
 "
@@ -1547,6 +1548,7 @@ SLL
 Leoni
 i
 Sierra
+-
 Leones
 "
 }
@@ -1593,6 +1595,7 @@ STD
 Dobra
 e
 Sao
+-
 Tomes
 dhe
 Prinsipes
@@ -1616,7 +1619,8 @@ SZL
 "
 Lilangeni
 i
-Svazilandit
+Suaziland
+s
 "
 }
 THB
@@ -2308,14 +2312,14 @@ one
 {
 "
 pul
-botsvane
+botsuane
 "
 }
 other
 {
 "
 pula
-botsvane
+botsuane
 "
 }
 }
@@ -2479,7 +2483,7 @@ one
 {
 "
 pezo
-kubane
+kubaneze
 e
 shk
 mbyeshme
@@ -2489,7 +2493,7 @@ other
 {
 "
 pezo
-kubane
+kubaneze
 t
 shk
 mbyeshme
@@ -2502,14 +2506,14 @@ one
 {
 "
 pezo
-kubane
+kubaneze
 "
 }
 other
 {
 "
 pezo
-kubane
+kubaneze
 "
 }
 }
@@ -2984,7 +2988,7 @@ other
 {
 "
 shekel
-izrealite
+izrealit
 "
 }
 }
@@ -4028,8 +4032,7 @@ one
 rupi
 e
 Ishujve
-Sej
-el
+Sishel
 "
 }
 other
@@ -4038,8 +4041,7 @@ other
 rupi
 t
 Ishujve
-Sej
-el
+Sishel
 "
 }
 }
@@ -4108,6 +4110,7 @@ Ishullit
 t
 Sh
 n
+-
 Helen
 s
 "
@@ -4122,6 +4125,7 @@ Ishullit
 t
 Sh
 n
+-
 Helen
 s
 "
@@ -4135,6 +4139,7 @@ one
 leon
 i
 Sierra
+-
 Leones
 "
 }
@@ -4144,6 +4149,7 @@ other
 leon
 t
 Sierra
+-
 Leones
 "
 }
@@ -4216,6 +4222,7 @@ dob
 r
 e
 Sao
+-
 Tomes
 dhe
 Prinsipes
@@ -4227,6 +4234,7 @@ other
 dobra
 t
 Sao
+-
 Tomes
 dhe
 Prinsipes
@@ -4256,14 +4264,14 @@ one
 {
 "
 lilangen
-svazilandi
+suazilande
 "
 }
 other
 {
 "
 lilangen
-svazilandi
+suazilande
 "
 }
 }
@@ -4671,7 +4679,7 @@ nj
 si
 e
 panjohur
-valute
+valutore
 )
 "
 }
@@ -4683,7 +4691,7 @@ nj
 si
 t
 panjohura
-valute
+valutore
 )
 "
 }
@@ -4777,9 +4785,9 @@ Version
 .
 1
 .
-12
+19
 .
-94
+14
 "
 }
 }

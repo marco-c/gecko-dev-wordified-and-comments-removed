@@ -13,6 +13,9 @@ icuplug
 .
 h
 "
+#
+if
+UCONFIG_ENABLE_PLUGINS
 U_INTERNAL
 void
 *
@@ -85,5 +88,7 @@ uplug_getPluginFile
 void
 )
 ;
+#
+endif
 #
 endif

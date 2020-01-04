@@ -231,7 +231,7 @@ AED
 AED
 "
 "
-Arab
+arab
 skt
 d
 rham
@@ -243,7 +243,7 @@ AFN
 AFN
 "
 "
-Afgani
+afgani
 "
 }
 ALL
@@ -252,7 +252,7 @@ ALL
 ALL
 "
 "
-Albanskt
+albanskt
 lek
 "
 }
@@ -262,7 +262,7 @@ AMD
 AMD
 "
 "
-Armenskt
+armenskt
 dramm
 "
 }
@@ -272,7 +272,7 @@ ANG
 ANG
 "
 "
-Hollenskt
+hollenskt
 Antillugyllini
 "
 }
@@ -282,7 +282,7 @@ AOA
 AOA
 "
 "
-Ang
+ang
 lsk
 kvansa
 "
@@ -318,7 +318,7 @@ ARS
 ARS
 "
 "
-Argent
+argent
 nskur
 pesi
 "
@@ -350,7 +350,7 @@ AWG
 AWG
 "
 "
-Ar
+ar
 b
 nsk
 fl
@@ -364,7 +364,7 @@ AZN
 AZN
 "
 "
-Aserskt
+aserskt
 manat
 "
 }
@@ -374,7 +374,7 @@ BAM
 BAM
 "
 "
-Skiptanlegt
+skiptanlegt
 Bosn
 u
 og
@@ -391,7 +391,7 @@ BBD
 BBD
 "
 "
-Barbadoskur
+barbadoskur
 dalur
 "
 }
@@ -401,7 +401,7 @@ BDT
 BDT
 "
 "
-Bangladessk
+bangladessk
 taka
 "
 }
@@ -431,7 +431,7 @@ BGN
 BGN
 "
 "
-B
+b
 lgarskt
 lef
 "
@@ -442,7 +442,7 @@ BHD
 BHD
 "
 "
-Bareinskur
+bareinskur
 denari
 "
 }
@@ -452,7 +452,7 @@ BIF
 BIF
 "
 "
-B
+b
 r
 nd
 skur
@@ -475,7 +475,7 @@ BND
 BND
 "
 "
-Br
+br
 neiskur
 dalur
 "
@@ -486,7 +486,7 @@ BOB
 BOB
 "
 "
-B
+b
 liv
 ani
 "
@@ -519,7 +519,7 @@ BRL
 BRL
 "
 "
-Brasil
+brasil
 skt
 r
 al
@@ -540,7 +540,7 @@ BTN
 BTN
 "
 "
-B
+b
 tanskt
 n
 ltrum
@@ -563,7 +563,7 @@ BWP
 BWP
 "
 "
-Botsv
+botsv
 nsk
 p
 la
@@ -575,7 +575,7 @@ BYR
 BYR
 "
 "
-Hv
+hv
 tr
 ssnesk
 r
@@ -588,7 +588,7 @@ BZD
 BZD
 "
 "
-Bel
+bel
 skur
 dalur
 "
@@ -599,9 +599,7 @@ CAD
 CAD
 "
 "
-Kanad
-skur
-dalur
+Kanadadalur
 "
 }
 CDF
@@ -610,7 +608,7 @@ CDF
 CDF
 "
 "
-Kong
+kong
 skur
 franki
 "
@@ -621,7 +619,7 @@ CHF
 CHF
 "
 "
-Svissneskur
+svissneskur
 franki
 "
 }
@@ -643,7 +641,7 @@ CLP
 CLP
 "
 "
-S
+s
 leskur
 pesi
 "
@@ -654,7 +652,7 @@ CNY
 CN
 "
 "
-K
+k
 nverskt
 j
 an
@@ -666,7 +664,7 @@ COP
 COP
 "
 "
-K
+k
 lumb
 skur
 pesi
@@ -678,7 +676,7 @@ CRC
 CRC
 "
 "
-Kostar
+kostar
 skt
 k
 lon
@@ -703,7 +701,7 @@ CUC
 CUC
 "
 "
-K
+k
 bverskur
 skiptanlegur
 pesi
@@ -715,7 +713,7 @@ CUP
 CUP
 "
 "
-K
+k
 bverskur
 pesi
 "
@@ -726,7 +724,7 @@ CVE
 CVE
 "
 "
-Gr
+gr
 nh
 f
 eyskur
@@ -751,7 +749,7 @@ CZK
 CZK
 "
 "
-T
+t
 kknesk
 kr
 na
@@ -784,7 +782,7 @@ DJF
 DJF
 "
 "
-Dj
+dj
 b
 t
 skur
@@ -797,7 +795,7 @@ DKK
 DKK
 "
 "
-D
+d
 nsk
 kr
 na
@@ -809,7 +807,7 @@ DOP
 DOP
 "
 "
-D
+d
 min
 skur
 pesi
@@ -821,7 +819,7 @@ DZD
 DZD
 "
 "
-Als
+als
 rskur
 denari
 "
@@ -853,7 +851,7 @@ EGP
 EGP
 "
 "
-Egypskt
+egypskt
 pund
 "
 }
@@ -863,7 +861,7 @@ ERN
 ERN
 "
 "
-Er
+er
 tresk
 nakfa
 "
@@ -885,7 +883,7 @@ ETB
 ETB
 "
 "
-E
+e
 p
 skt
 birr
@@ -897,7 +895,7 @@ EUR
 EUR
 "
 "
-Evra
+evra
 "
 }
 FIM
@@ -916,8 +914,7 @@ FJD
 FJD
 "
 "
-F
-djeyskur
+fidjeyskur
 dalur
 "
 }
@@ -927,7 +924,7 @@ FKP
 FKP
 "
 "
-Falklenskt
+falklenskt
 pund
 "
 }
@@ -947,7 +944,7 @@ GBP
 GBP
 "
 "
-Sterlingspund
+sterlingspund
 "
 }
 GEL
@@ -956,7 +953,7 @@ GEL
 GEL
 "
 "
-Georg
+georg
 skur
 lari
 "
@@ -967,7 +964,7 @@ GHS
 GHS
 "
 "
-Ganverskur
+ganverskur
 sedi
 "
 }
@@ -987,7 +984,7 @@ GMD
 GMD
 "
 "
-Gamb
+gamb
 skur
 dalasi
 "
@@ -1017,7 +1014,7 @@ GTQ
 GTQ
 "
 "
-Gvatemalskt
+gvatemalskt
 kvesal
 "
 }
@@ -1041,7 +1038,7 @@ GYD
 GYD
 "
 "
-Gv
+gv
 janskur
 dalur
 "
@@ -1064,7 +1061,7 @@ HNL
 HNL
 "
 "
-Hond
+hond
 rsk
 lemp
 ra
@@ -1076,7 +1073,7 @@ HRK
 HRK
 "
 "
-Kr
+kr
 at
 sk
 k
@@ -1089,7 +1086,7 @@ HTG
 HTG
 "
 "
-Ha
+ha
 t
 skur
 g
@@ -1102,7 +1099,7 @@ HUF
 HUF
 "
 "
-Ungversk
+ungversk
 f
 rinta
 "
@@ -1113,7 +1110,7 @@ IDR
 IDR
 "
 "
-Ind
+ind
 nes
 sk
 r
@@ -1146,7 +1143,7 @@ ILS
 "
 "
 "
-N
+n
 r
 sraelskur
 sikill
@@ -1158,7 +1155,7 @@ INR
 INR
 "
 "
-Indversk
+indversk
 r
 p
 a
@@ -1214,7 +1211,7 @@ JMD
 JMD
 "
 "
-Jama
+jama
 skur
 dalur
 "
@@ -1225,7 +1222,7 @@ JOD
 JOD
 "
 "
-J
+j
 rdanskur
 denari
 "
@@ -1236,7 +1233,7 @@ JPY
 JP
 "
 "
-Japanskt
+japanskt
 jen
 "
 }
@@ -1246,7 +1243,7 @@ KES
 KES
 "
 "
-Ken
+ken
 skur
 skildingur
 "
@@ -1257,7 +1254,7 @@ KGS
 KGS
 "
 "
-Kirgiskt
+kirgiskt
 som
 "
 }
@@ -1267,7 +1264,7 @@ KHR
 KHR
 "
 "
-Kamb
+kamb
 d
 skt
 r
@@ -1280,7 +1277,7 @@ KMF
 KMF
 "
 "
-K
+k
 moreyskur
 franki
 "
@@ -1291,7 +1288,7 @@ KPW
 KPW
 "
 "
-Nor
+nor
 urk
 reskt
 vonn
@@ -1303,7 +1300,7 @@ KRW
 KRW
 "
 "
-Su
+su
 urk
 reskt
 vonn
@@ -1315,7 +1312,7 @@ KWD
 KWD
 "
 "
-K
+k
 veiskur
 denari
 "
@@ -1326,7 +1323,7 @@ KYD
 KYD
 "
 "
-Caymaneyskur
+caymaneyskur
 dalur
 "
 }
@@ -1336,7 +1333,7 @@ KZT
 KZT
 "
 "
-Kasakst
+kasakst
 tengi
 "
 }
@@ -1346,7 +1343,7 @@ LAK
 LAK
 "
 "
-Laoskt
+laoskt
 kip
 "
 }
@@ -1356,7 +1353,7 @@ LBP
 LBP
 "
 "
-L
+l
 banskt
 pund
 "
@@ -1367,7 +1364,7 @@ LKR
 LKR
 "
 "
-Sr
+sr
 l
 nsk
 r
@@ -1381,7 +1378,7 @@ LRD
 LRD
 "
 "
-L
+l
 ber
 skur
 dalur
@@ -1456,7 +1453,7 @@ LYD
 LYD
 "
 "
-L
+l
 b
 skur
 denari
@@ -1468,7 +1465,7 @@ MAD
 MAD
 "
 "
-Marokk
+marokk
 skt
 d
 rham
@@ -1491,7 +1488,7 @@ MDL
 MDL
 "
 "
-Moldav
+moldav
 skt
 lei
 "
@@ -1521,7 +1518,7 @@ MKD
 MKD
 "
 "
-Maked
+maked
 nskur
 denari
 "
@@ -1543,7 +1540,7 @@ MMK
 MMK
 "
 "
-Mjanmarskt
+mjanmarskt
 kjat
 "
 }
@@ -1553,7 +1550,7 @@ MNT
 MNT
 "
 "
-Mong
+mong
 lskur
 t
 r
@@ -1566,7 +1563,8 @@ MOP
 MOP
 "
 "
-Maka
+maka
+sk
 pataka
 "
 }
@@ -1576,8 +1574,9 @@ MRO
 MRO
 "
 "
-M
-rit
+m
+r
+t
 nsk
 g
 a
@@ -1610,7 +1609,7 @@ MUR
 MUR
 "
 "
-M
+m
 rit
 sk
 r
@@ -1624,7 +1623,7 @@ MVR
 MVR
 "
 "
-Mald
+mald
 veysk
 r
 p
@@ -1637,7 +1636,7 @@ MWK
 MWK
 "
 "
-Malav
+malav
 sk
 kvaka
 "
@@ -1648,7 +1647,7 @@ MXN
 MXN
 "
 "
-Mex
+mex
 k
 skur
 pesi
@@ -1689,7 +1688,7 @@ MYR
 MYR
 "
 "
-Malas
+malas
 skt
 ringit
 "
@@ -1713,7 +1712,7 @@ MZN
 MZN
 "
 "
-M
+m
 samb
 skt
 metikal
@@ -1725,7 +1724,7 @@ NAD
 NAD
 "
 "
-Namib
+namib
 skur
 dalur
 "
@@ -1736,7 +1735,7 @@ NGN
 NGN
 "
 "
-N
+n
 ger
 sk
 n
@@ -1749,8 +1748,8 @@ NIO
 NIO
 "
 "
-N
-kar
+n
+kara
 gsk
 kord
 va
@@ -1772,7 +1771,7 @@ NOK
 NOK
 "
 "
-Norsk
+norsk
 kr
 na
 "
@@ -1783,7 +1782,7 @@ NPR
 NPR
 "
 "
-Nep
+nep
 lsk
 r
 p
@@ -1796,7 +1795,7 @@ NZD
 NZD
 "
 "
-N
+n
 sj
 lenskur
 dalur
@@ -1819,7 +1818,7 @@ PAB
 PAB
 "
 "
-Balb
+balb
 i
 "
 }
@@ -1829,7 +1828,7 @@ PEN
 PEN
 "
 "
-Per
+per
 skt
 s
 l
@@ -1841,7 +1840,7 @@ PGK
 PGK
 "
 "
-Pap
+pap
 sk
 k
 na
@@ -1853,7 +1852,7 @@ PHP
 PHP
 "
 "
-Filippseyskur
+filippseyskur
 pesi
 "
 }
@@ -1863,7 +1862,7 @@ PKR
 PKR
 "
 "
-Pakist
+pakist
 nsk
 r
 p
@@ -1876,7 +1875,7 @@ PLN
 PLN
 "
 "
-P
+p
 lskt
 slot
 "
@@ -1908,7 +1907,7 @@ PYG
 PYG
 "
 "
-Paragv
+paragv
 skt
 gvaran
 "
@@ -1919,7 +1918,7 @@ QAR
 QAR
 "
 "
-Katarskt
+katarskt
 r
 al
 "
@@ -1945,7 +1944,7 @@ RON
 RON
 "
 "
-R
+r
 menskt
 lei
 "
@@ -1956,7 +1955,7 @@ RSD
 RSD
 "
 "
-Serbneskur
+serbneskur
 denari
 "
 }
@@ -1966,7 +1965,7 @@ RUB
 RUB
 "
 "
-R
+r
 ssnesk
 r
 bla
@@ -1994,7 +1993,7 @@ RWF
 RWF
 "
 "
-R
+r
 andskur
 franki
 "
@@ -2005,8 +2004,9 @@ SAR
 SAR
 "
 "
-S
-diarab
+s
+d
+arab
 skt
 r
 al
@@ -2018,7 +2018,7 @@ SBD
 SBD
 "
 "
-Sal
+sal
 monseyskur
 dalur
 "
@@ -2051,7 +2051,7 @@ SDG
 SDG
 "
 "
-S
+s
 danskt
 pund
 "
@@ -2077,7 +2077,7 @@ SEK
 SEK
 "
 "
-S
+s
 nsk
 kr
 na
@@ -2089,7 +2089,7 @@ SGD
 SGD
 "
 "
-Singap
+singap
 rskur
 dalur
 "
@@ -2100,7 +2100,7 @@ SHP
 SHP
 "
 "
-Helenskt
+helenskt
 pund
 "
 }
@@ -2134,7 +2134,7 @@ SLL
 SLL
 "
 "
-S
+s
 errale
 nsk
 lj
@@ -2147,7 +2147,7 @@ SOS
 SOS
 "
 "
-S
+s
 mal
 skur
 skildingur
@@ -2180,7 +2180,7 @@ SSP
 SSP
 "
 "
-Su
+su
 urs
 danskt
 pund
@@ -2230,7 +2230,7 @@ SYP
 SYP
 "
 "
-S
+s
 rlenskt
 pund
 "
@@ -2241,7 +2241,7 @@ SZL
 SZL
 "
 "
-Svas
+svas
 lenskur
 l
 langeni
@@ -2253,7 +2253,7 @@ THB
 THB
 "
 "
-Ta
+ta
 lenskt
 bat
 "
@@ -2275,7 +2275,7 @@ TJS
 TJS
 "
 "
-Tadsjikskur
+tadsjikskur
 s
 m
 ni
@@ -2302,7 +2302,7 @@ TMT
 TMT
 "
 "
-T
+t
 rkmenskt
 manat
 "
@@ -2313,8 +2313,9 @@ TND
 TND
 "
 "
-T
-niskur
+t
+n
+skur
 denari
 "
 }
@@ -2360,7 +2361,7 @@ TRY
 TRY
 "
 "
-Tyrknesk
+tyrknesk
 l
 ra
 "
@@ -2386,7 +2387,7 @@ TWD
 TWD
 "
 "
-Ta
+ta
 vanskur
 dalur
 "
@@ -2397,7 +2398,7 @@ TZS
 TZS
 "
 "
-Tansan
+tansan
 skur
 skildingur
 "
@@ -2517,7 +2518,7 @@ VEF
 VEF
 "
 "
-Venes
+venes
 elskur
 b
 l
@@ -2530,7 +2531,7 @@ VND
 VND
 "
 "
-V
+v
 etnamskt
 dong
 "
@@ -2541,7 +2542,7 @@ VUV
 VUV
 "
 "
-Van
+van
 at
 skt
 vat
@@ -2563,7 +2564,7 @@ XAF
 FCFA
 "
 "
-Mi
+mi
 afr
 skur
 franki
@@ -2575,7 +2576,7 @@ XCD
 EC
 "
 "
-Austurkarab
+austurkarab
 skur
 dalur
 "
@@ -2621,7 +2622,7 @@ XOF
 CFA
 "
 "
-Vesturafr
+vesturafr
 skur
 franki
 "
@@ -2632,7 +2633,7 @@ XPF
 CFPF
 "
 "
-P
+p
 lines
 skur
 franki
@@ -2665,7 +2666,7 @@ YER
 YER
 "
 "
-Jemenskt
+jemenskt
 r
 al
 "
@@ -2701,7 +2702,7 @@ ZAR
 ZAR
 "
 "
-Su
+su
 urafr
 skt
 rand
@@ -2727,7 +2728,7 @@ ZMW
 ZMW
 "
 "
-Samb
+samb
 sk
 kvaka
 "
@@ -2864,6 +2865,12 @@ HKD
 "
 "
 }
+IDR
+{
+"
+Rp
+"
+}
 ILS
 {
 "
@@ -2969,6 +2976,17 @@ SSP
 "
 "
 }
+THB
+{
+"
+"
+}
+TOP
+{
+"
+T
+"
+}
 TRY
 {
 "
@@ -3001,6 +3019,16 @@ UYU
 "
 }
 VND
+{
+"
+"
+}
+}
+Currencies
+%
+variant
+{
+GEL
 {
 "
 "
@@ -3503,17 +3531,13 @@ CAD
 one
 {
 "
-kanad
-skur
-dalur
+Kanadadalur
 "
 }
 other
 {
 "
-kanad
-skir
-dalir
+Kanadadalir
 "
 }
 }
@@ -3643,7 +3667,8 @@ one
 k
 bverskur
 skiptanlegur
-pesi
+pes
+i
 "
 }
 other
@@ -3652,7 +3677,8 @@ other
 k
 bverskir
 skiptanlegir
-pesar
+pes
+ar
 "
 }
 }
@@ -3882,16 +3908,14 @@ FJD
 one
 {
 "
-f
-djeyskur
+fidjeyskur
 dalur
 "
 }
 other
 {
 "
-f
-djeyskir
+fidjeyskir
 dalir
 "
 }
@@ -3970,7 +3994,7 @@ one
 {
 "
 G
-braltarspund
+braltarpund
 "
 }
 other
@@ -4779,14 +4803,16 @@ MOP
 one
 {
 "
-Maka
+maka
+sk
 pataka
 "
 }
 other
 {
 "
-Maka
+maka
+skar
 pat
 kur
 "
@@ -5901,7 +5927,7 @@ other
 {
 "
 gandskir
-skildingur
+skildingar
 "
 }
 }
@@ -6130,9 +6156,10 @@ one
 {
 "
 (
-ekktur
+ekkt
+mynteining
 gjaldmi
-ill
+ils
 )
 "
 }
@@ -6241,9 +6268,9 @@ Version
 .
 1
 .
-12
+19
 .
-94
+17
 "
 }
 }

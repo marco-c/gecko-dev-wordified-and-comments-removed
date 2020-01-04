@@ -55,6 +55,9 @@ class
 FixedDecimal
 ;
 class
+VisibleDigitsWithExponent
+;
+class
 RuleChain
 ;
 class
@@ -259,6 +262,16 @@ select
 (
 const
 FixedDecimal
+&
+number
+)
+const
+;
+UnicodeString
+select
+(
+const
+VisibleDigitsWithExponent
 &
 number
 )

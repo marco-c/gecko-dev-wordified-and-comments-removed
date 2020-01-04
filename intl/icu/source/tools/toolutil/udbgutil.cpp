@@ -557,6 +557,9 @@ UCOL_UPPER_FIRST
 #
 endif
 #
+if
+UCONFIG_ENABLE_PLUGINS
+#
 include
 "
 unicode
@@ -653,6 +656,8 @@ UPLUG_LEVEL_HIGH
 }
 ;
 #
+endif
+#
 define
 LEN_UDBG
 5
@@ -704,6 +709,9 @@ UDBG_UDateFormatStyle
 )
 #
 endif
+#
+if
+UCONFIG_ENABLE_PLUGINS
 FIELD_NAME_STR
 (
 LEN_UDBG
@@ -714,6 +722,8 @@ FIELD_NAME_STR
 LEN_UDBG
 UDBG_UPlugLevel
 )
+#
+endif
 FIELD_NAME_STR
 (
 LEN_UDBG
@@ -848,6 +858,9 @@ UDateFormatStyle
 )
 #
 endif
+#
+if
+UCONFIG_ENABLE_PLUGINS
 COUNT_CASE
 (
 UPlugReason
@@ -856,6 +869,8 @@ COUNT_CASE
 (
 UPlugLevel
 )
+#
+endif
 COUNT_CASE
 (
 UAcceptResult
@@ -915,6 +930,9 @@ UDateFormatStyle
 )
 #
 endif
+#
+if
+UCONFIG_ENABLE_PLUGINS
 FIELD_CASE
 (
 UPlugReason
@@ -923,6 +941,8 @@ FIELD_CASE
 (
 UPlugLevel
 )
+#
+endif
 FIELD_CASE
 (
 UAcceptResult
@@ -1162,6 +1182,14 @@ _udbg_enumFields
 type
 )
 ;
+if
+(
+fields
+!
+=
+NULL
+)
+{
 for
 (
 int32_t
@@ -1257,6 +1285,7 @@ field
 .
 num
 ;
+}
 }
 }
 return

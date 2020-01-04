@@ -711,10 +711,7 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
-U_DRAFT
+U_STABLE
 UBool
 U_EXPORT2
 uloc_isRightToLeft
@@ -725,8 +722,6 @@ char
 locale
 )
 ;
-#
-endif
 typedef
 enum
 {
@@ -940,10 +935,7 @@ UErrorCode
 err
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
-U_DRAFT
+U_STABLE
 const
 char
 *
@@ -956,7 +948,7 @@ char
 keyword
 )
 ;
-U_DRAFT
+U_STABLE
 const
 char
 *
@@ -973,7 +965,7 @@ char
 value
 )
 ;
-U_DRAFT
+U_STABLE
 const
 char
 *
@@ -986,7 +978,7 @@ char
 keyword
 )
 ;
-U_DRAFT
+U_STABLE
 const
 char
 *
@@ -1003,7 +995,5 @@ char
 value
 )
 ;
-#
-endif
 #
 endif

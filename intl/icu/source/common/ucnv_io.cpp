@@ -2810,8 +2810,8 @@ aliasTmp
 '
 x
 '
-|
-|
+&
+&
 aliasTmp
 [
 1

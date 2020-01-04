@@ -198,6 +198,11 @@ f
 #
 if
 U_PLATFORM_USES_ONLY_WIN32_API
+&
+&
+_MSC_VER
+<
+1900
 if
 (
 0

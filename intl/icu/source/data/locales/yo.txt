@@ -280,7 +280,6 @@ ExemplarCharactersIndex
 [
 A
 B
-C
 D
 E
 F
@@ -294,16 +293,12 @@ M
 N
 O
 P
-Q
 R
 S
 T
 U
-V
 W
-X
 Y
-Z
 ]
 "
 }
@@ -354,9 +349,9 @@ Version
 .
 1
 .
-6
+19
 .
-69
+80
 "
 }
 calendar

@@ -264,6 +264,14 @@ currencyFormat
 "
 }
 }
+symbols
+{
+group
+{
+"
+"
+}
+}
 }
 }
 Version
@@ -273,9 +281,9 @@ Version
 .
 1
 .
-12
+19
 .
-50
+14
 "
 }
 calendar

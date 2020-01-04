@@ -142,11 +142,6 @@ anyVariable
 =
 FALSE
 ;
-U_ALIGN_CODE
-(
-16
-)
-;
 for
 (
 ;

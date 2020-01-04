@@ -236,7 +236,7 @@ udatpg_getSkeleton
 (
 UDateTimePatternGenerator
 *
-dtpg
+unusedDtpg
 const
 UChar
 *
@@ -260,7 +260,7 @@ udatpg_getBaseSkeleton
 (
 UDateTimePatternGenerator
 *
-dtpg
+unusedDtpg
 const
 UChar
 *

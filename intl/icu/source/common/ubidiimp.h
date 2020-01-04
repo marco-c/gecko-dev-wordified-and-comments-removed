@@ -5,9 +5,6 @@ UBIDIIMP_H
 define
 UBIDIIMP_H
 #
-ifdef
-U_COMMON_IMPLEMENTATION
-#
 include
 "
 unicode
@@ -1894,7 +1891,5 @@ sizeof
 Isolate
 )
 )
-#
-endif
 #
 endif

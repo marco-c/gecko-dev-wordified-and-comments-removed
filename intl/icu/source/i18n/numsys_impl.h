@@ -55,7 +55,7 @@ NumsysNameEnumeration
 (
 UVector
 *
-fNumsysNames
+numsysNames
 UErrorCode
 &
 status

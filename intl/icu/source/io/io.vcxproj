@@ -1621,7 +1621,7 @@ OutputFile
 \
 bin
 \
-icuio55
+icuio56
 .
 dll
 <
@@ -2051,7 +2051,7 @@ OutputFile
 \
 bin
 \
-icuio55d
+icuio56d
 .
 dll
 <
@@ -2459,7 +2459,7 @@ OutputFile
 \
 bin64
 \
-icuio55
+icuio56
 .
 dll
 <
@@ -2884,7 +2884,7 @@ OutputFile
 \
 bin64
 \
-icuio55d
+icuio56d
 .
 dll
 <

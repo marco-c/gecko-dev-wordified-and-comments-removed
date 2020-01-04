@@ -85,7 +85,7 @@ C
 )
 1998
 -
-2014
+2015
 International
 Business
 Machines
@@ -3436,15 +3436,6 @@ icu
 config
 -
 bottom
->
->
-echo
-"
-#
-Rebuilt
-on
-"
-date
 >
 >
 chmod

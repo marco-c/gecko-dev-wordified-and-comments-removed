@@ -274,7 +274,7 @@ Include
 "
 makeconv
 .
-c
+cpp
 "
 >
 <

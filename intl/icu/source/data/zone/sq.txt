@@ -220,9 +220,9 @@ Version
 .
 1
 .
-12
+19
 .
-94
+14
 "
 }
 zoneStrings
@@ -263,6 +263,7 @@ ec
 {
 "
 Adis
+-
 Abab
 "
 }
@@ -459,7 +460,9 @@ ec
 {
 "
 Dar
+-
 es
+-
 Salam
 "
 }
@@ -870,6 +873,7 @@ ec
 {
 "
 Sao
+-
 Tome
 "
 }
@@ -1007,6 +1011,7 @@ ec
 {
 "
 Rio
+-
 Galegos
 "
 }
@@ -1038,6 +1043,7 @@ ec
 {
 "
 San
+-
 Huan
 "
 }
@@ -1055,6 +1061,7 @@ ec
 "
 Sh
 n
+-
 Luis
 "
 }
@@ -1138,6 +1145,7 @@ ec
 {
 "
 Bahia
+-
 Banderas
 "
 }
@@ -1208,6 +1216,7 @@ ec
 {
 "
 Boa
+-
 Vista
 "
 }
@@ -1248,7 +1257,8 @@ ec
 {
 "
 Buenos
-Aires
+-
+Ajres
 "
 }
 }
@@ -1277,6 +1287,7 @@ ec
 {
 "
 Kampo
+-
 Grande
 "
 }
@@ -1408,6 +1419,7 @@ ec
 {
 "
 Kosta
+-
 Rik
 "
 }
@@ -1810,6 +1822,7 @@ ec
 {
 "
 Tell
+-
 Siti
 Indiana
 "
@@ -2036,7 +2049,9 @@ ec
 {
 "
 Louer
+-
 Prinsis
+-
 Kuort
 r
 "
@@ -2289,6 +2304,7 @@ ec
 {
 "
 Nju
+-
 Jork
 "
 }
@@ -2381,6 +2397,7 @@ ec
 {
 "
 Nju
+-
 Salem
 Dakota
 e
@@ -2500,6 +2517,7 @@ ec
 {
 "
 Porto
+-
 Velho
 "
 }
@@ -2514,6 +2532,7 @@ ec
 {
 "
 Porto
+-
 Riko
 "
 }
@@ -2596,6 +2615,7 @@ ec
 {
 "
 Rio
+-
 Branko
 "
 }
@@ -2610,6 +2630,7 @@ ec
 {
 "
 Santa
+-
 Izabela
 "
 }
@@ -2650,6 +2671,7 @@ ec
 {
 "
 Santo
+-
 Domingo
 "
 }
@@ -2664,6 +2686,7 @@ ec
 {
 "
 Sao
+-
 Paulo
 "
 }
@@ -2705,6 +2728,7 @@ ec
 "
 Sh
 n
+-
 Bartolemeo
 "
 }
@@ -2720,6 +2744,7 @@ ec
 "
 Sh
 n
+-
 Gjon
 "
 }
@@ -2735,6 +2760,7 @@ ec
 "
 Sh
 n
+-
 Kits
 "
 }
@@ -2750,6 +2776,7 @@ ec
 "
 Sh
 n
+-
 Lu
 ia
 "
@@ -2766,6 +2793,7 @@ ec
 "
 Sh
 n
+-
 Tomas
 "
 }
@@ -2781,6 +2809,7 @@ ec
 "
 Sh
 n
+-
 Vinsent
 "
 }
@@ -2983,8 +3012,9 @@ ec
 {
 "
 Dumont
+-
 d
-Urvill
+Urvil
 "
 }
 }
@@ -3305,6 +3335,19 @@ Kalkut
 "
 Asia
 :
+Chita
+"
+{
+ec
+{
+"
+ita
+"
+}
+}
+"
+Asia
+:
 Choibalsan
 "
 {
@@ -3429,6 +3472,7 @@ ec
 {
 "
 Hong
+-
 Kong
 "
 }
@@ -3588,6 +3632,7 @@ ec
 {
 "
 Kuala
+-
 Lumpur
 "
 }
@@ -3759,6 +3804,7 @@ ec
 {
 "
 Pnom
+-
 Pen
 "
 }
@@ -3851,7 +3897,9 @@ ec
 {
 "
 Ho
+-
 i
+-
 Min
 "
 }
@@ -3918,6 +3966,19 @@ ec
 {
 "
 Singapor
+"
+}
+}
+"
+Asia
+:
+Srednekolymsk
+"
+{
+ec
+{
+"
+Srednekolimsk
 "
 }
 }
@@ -4051,7 +4112,7 @@ Vientiane
 ec
 {
 "
-Vjentjan
+Vjentian
 "
 }
 }
@@ -4225,6 +4286,7 @@ ec
 "
 Sh
 n
+-
 Helen
 "
 }
@@ -4279,6 +4341,7 @@ ec
 "
 Brok
 n
+-
 Hill
 "
 }
@@ -4943,6 +5006,7 @@ ec
 {
 "
 San
+-
 Marino
 "
 }
@@ -5340,6 +5404,19 @@ Okland
 "
 Pacific
 :
+Bougainville
+"
+{
+ec
+{
+"
+Bunganvil
+"
+}
+}
+"
+Pacific
+:
 Chatham
 "
 {
@@ -5646,6 +5723,7 @@ ec
 {
 "
 Pago
+-
 Pago
 "
 }
@@ -5699,6 +5777,7 @@ ec
 {
 "
 Port
+-
 Moresbi
 "
 }
@@ -6586,7 +6665,7 @@ Ora
 verore
 e
 Australis
-Qendrore
+Qendroro
 -
 Per
 ndimore
@@ -6598,7 +6677,7 @@ lg
 Ora
 e
 Australis
-Qendrore
+Qendroro
 -
 Per
 ndimore
@@ -6611,7 +6690,7 @@ Ora
 standarde
 e
 Australis
-Qendrore
+Qendroro
 -
 Per
 ndimore
@@ -6870,6 +6949,7 @@ ls
 Ora
 e
 Brunei
+-
 Durasalamit
 "
 }
@@ -7849,6 +7929,7 @@ Ora
 verore
 e
 Hong
+-
 Kongut
 "
 }
@@ -7858,6 +7939,7 @@ lg
 Ora
 e
 Hong
+-
 Kongut
 "
 }
@@ -7868,6 +7950,7 @@ Ora
 standarde
 e
 Hong
+-
 Kongut
 "
 }
@@ -8047,7 +8130,7 @@ ld
 Ora
 verore
 e
-Irkutskit
+Irkutskut
 "
 }
 lg
@@ -8055,7 +8138,7 @@ lg
 "
 Ora
 e
-Irkutskit
+Irkutskut
 "
 }
 ls
@@ -8064,7 +8147,7 @@ ls
 Ora
 standarde
 e
-Irkutskit
+Irkutskut
 "
 }
 }
@@ -8351,6 +8434,7 @@ Ora
 verore
 e
 Lord
+-
 Houit
 "
 }
@@ -8360,6 +8444,7 @@ lg
 Ora
 e
 Lord
+-
 Houit
 "
 }
@@ -8370,6 +8455,7 @@ Ora
 standarde
 e
 Lord
+-
 Houit
 "
 }
@@ -8666,6 +8752,7 @@ Ora
 verore
 e
 Ulan
+-
 Batorit
 "
 }
@@ -8675,6 +8762,7 @@ lg
 Ora
 e
 Ulan
+-
 Batorit
 "
 }
@@ -8685,6 +8773,7 @@ Ora
 standarde
 e
 Ulan
+-
 Batorit
 "
 }
@@ -8946,7 +9035,9 @@ Ora
 verore
 e
 Fernando
+-
 de
+-
 Noronj
 s
 "
@@ -8957,7 +9048,9 @@ lg
 Ora
 e
 Fernando
+-
 de
+-
 Noronj
 s
 "
@@ -8969,7 +9062,9 @@ Ora
 standarde
 e
 Fernando
+-
 de
+-
 Noronj
 s
 "
@@ -9257,7 +9352,8 @@ verore
 e
 Sh
 n
-Pierr
+-
+Pier
 dhe
 Mikuelon
 "
@@ -9269,7 +9365,8 @@ Ora
 e
 Sh
 n
-Pierr
+-
+Pier
 dhe
 Mikuelon
 "
@@ -9282,7 +9379,8 @@ standarde
 e
 Sh
 n
-Pierr
+-
+Pier
 dhe
 Mikuelon
 "
@@ -9495,8 +9593,7 @@ ls
 "
 Ora
 e
-Sej
-el
+Sishel
 s
 "
 }
@@ -10068,7 +10165,11 @@ fallbackFormat
 gmtFormat
 {
 "
-GMT
+Ora
+e
+Grenui
+it
+:
 {
 0
 }
@@ -10077,7 +10178,10 @@ GMT
 gmtZeroFormat
 {
 "
-GMT
+Ora
+e
+Grenui
+it
 "
 }
 hourFormat

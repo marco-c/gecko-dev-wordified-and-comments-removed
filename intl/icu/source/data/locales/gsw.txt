@@ -369,9 +369,9 @@ Version
 .
 1
 .
-10
+19
 .
-93
+74
 "
 }
 calendar
@@ -599,7 +599,7 @@ H
 H
 "
 }
-HHmm
+Hm
 {
 "
 HH
@@ -607,7 +607,7 @@ HH
 mm
 "
 }
-HHmmss
+Hms
 {
 "
 HH
@@ -615,14 +615,6 @@ HH
 mm
 :
 ss
-"
-}
-Hm
-{
-"
-H
-:
-mm
 "
 }
 M
@@ -1574,7 +1566,7 @@ H
 H
 "
 }
-HHmm
+Hm
 {
 "
 HH
@@ -1582,7 +1574,7 @@ HH
 mm
 "
 }
-HHmmss
+Hms
 {
 "
 HH
@@ -1590,14 +1582,6 @@ HH
 mm
 :
 ss
-"
-}
-Hm
-{
-"
-H
-:
-mm
 "
 }
 M

@@ -124,17 +124,6 @@ TimeZoneInformation
 static
 const
 char
-STANDARD_NAME_REGKEY
-[
-]
-=
-"
-StandardName
-"
-;
-static
-const
-char
 STANDARD_TIME_REGKEY
 [
 ]

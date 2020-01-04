@@ -29,7 +29,7 @@ Reserved
 #
 define
 U_ICU_VERSION_MAJOR_NUM
-55
+56
 #
 define
 U_ICU_VERSION_MINOR_NUM
@@ -50,7 +50,7 @@ endif
 #
 define
 U_ICU_VERSION_SUFFIX
-_55
+_56
 #
 ifndef
 U_ICU_ENTRY_POINT_RENAME
@@ -142,7 +142,7 @@ endif
 define
 U_ICU_VERSION
 "
-55
+56
 .
 1
 "
@@ -150,7 +150,7 @@ U_ICU_VERSION
 define
 U_ICU_VERSION_SHORT
 "
-55
+56
 "
 #
 ifndef
@@ -159,7 +159,7 @@ U_HIDE_INTERNAL_API
 define
 U_ICU_DATA_VERSION
 "
-55
+56
 .
 1
 "

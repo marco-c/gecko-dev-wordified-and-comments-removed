@@ -220,9 +220,9 @@ Version
 .
 1
 .
-12
+19
 .
-94
+96
 "
 }
 zoneStrings
@@ -3296,6 +3296,19 @@ Calcutta
 "
 Asia
 :
+Chita
+"
+{
+ec
+{
+"
+Chita
+"
+}
+}
+"
+Asia
+:
 Choibalsan
 "
 {
@@ -3906,6 +3919,19 @@ ec
 {
 "
 Singapore
+"
+}
+}
+"
+Asia
+:
+Srednekolymsk
+"
+{
+ec
+{
+"
+Srednekolymsk
 "
 }
 }
@@ -5316,6 +5342,19 @@ ec
 {
 "
 Auckland
+"
+}
+}
+"
+Pacific
+:
+Bougainville
+"
+{
+ec
+{
+"
+Bougainville
 "
 }
 }
@@ -6780,6 +6819,7 @@ ld
 {
 "
 Chatham
+-
 zomertijd
 "
 }
@@ -6787,6 +6827,7 @@ lg
 {
 "
 Chatham
+-
 tijd
 "
 }
@@ -6794,6 +6835,7 @@ ls
 {
 "
 Chatham
+-
 standaardtijd
 "
 }
@@ -6864,6 +6906,7 @@ ld
 {
 "
 Tsjojbalsan
+-
 zomertijd
 "
 }
@@ -6871,6 +6914,7 @@ lg
 {
 "
 Tsjojbalsan
+-
 tijd
 "
 }
@@ -6878,6 +6922,7 @@ ls
 {
 "
 Tsjojbalsan
+-
 standaardtijd
 "
 }
@@ -7005,6 +7050,7 @@ ls
 {
 "
 Davis
+-
 tijd
 "
 }
@@ -7022,6 +7068,7 @@ Dumont
 -
 d
 Urville
+-
 tijd
 "
 }
@@ -7524,6 +7571,7 @@ ls
 {
 "
 Golf
+-
 standaardtijd
 "
 }
@@ -7614,6 +7662,7 @@ ld
 {
 "
 Hovd
+-
 zomertijd
 "
 }
@@ -7621,6 +7670,7 @@ lg
 {
 "
 Hovd
+-
 tijd
 "
 }
@@ -7628,6 +7678,7 @@ ls
 {
 "
 Hovd
+-
 standaardtijd
 "
 }
@@ -8235,6 +8286,7 @@ ls
 {
 "
 Mawson
+-
 tijd
 "
 }
@@ -8317,6 +8369,7 @@ ld
 {
 "
 Ulaanbaatar
+-
 zomertijd
 "
 }
@@ -8324,6 +8377,7 @@ lg
 {
 "
 Ulaanbaatar
+-
 tijd
 "
 }
@@ -8331,6 +8385,7 @@ ls
 {
 "
 Ulaanbaatar
+-
 standaardtijd
 "
 }
@@ -8871,6 +8926,7 @@ ls
 {
 "
 Pohnpei
+-
 tijd
 "
 }
@@ -8931,6 +8987,7 @@ ls
 {
 "
 Rothera
+-
 tijd
 "
 }
@@ -9107,6 +9164,7 @@ ls
 {
 "
 Syowa
+-
 tijd
 "
 }
@@ -9135,6 +9193,7 @@ ld
 {
 "
 Taipei
+-
 zomertijd
 "
 }
@@ -9142,6 +9201,7 @@ lg
 {
 "
 Taipei
+-
 tijd
 "
 }
@@ -9149,6 +9209,7 @@ ls
 {
 "
 Taipei
+-
 standaardtijd
 "
 }
@@ -9437,6 +9498,7 @@ ls
 {
 "
 Vostok
+-
 tijd
 "
 }

@@ -2934,7 +2934,7 @@ Include
 "
 genrb
 .
-c
+cpp
 "
 /
 >
@@ -3000,7 +3000,7 @@ Include
 "
 reslist
 .
-c
+cpp
 "
 /
 >
@@ -3033,7 +3033,7 @@ Include
 "
 wrtjava
 .
-c
+cpp
 "
 /
 >

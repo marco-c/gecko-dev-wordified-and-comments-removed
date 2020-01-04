@@ -220,9 +220,9 @@ Version
 .
 1
 .
-6
+19
 .
-34
+14
 "
 }
 collations
@@ -262,11 +262,7 @@ UE
 Version
 {
 "
-27
-.
-0
-.
-1
+28
 "
 }
 }
@@ -285,6 +281,8 @@ co
 -
 search
 ]
+"
+"
 [
 import
 de
@@ -300,11 +298,7 @@ phonebk
 Version
 {
 "
-27
-.
-0
-.
-1
+28
 "
 }
 }

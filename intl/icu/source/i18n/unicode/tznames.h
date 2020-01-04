@@ -152,9 +152,6 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 static
 TimeZoneNames
 *
@@ -170,8 +167,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 virtual
 StringEnumeration
 *

@@ -807,6 +807,11 @@ PYG
 "
 "
 }
+RUB
+{
+"
+"
+}
 RUR
 {
 "
@@ -885,7 +890,6 @@ TTD
 TWD
 {
 "
-NT
 "
 }
 UAH
@@ -936,7 +940,7 @@ Currencies
 %
 variant
 {
-RUB
+GEL
 {
 "
 "
@@ -969,9 +973,9 @@ Version
 .
 1
 .
-12
+19
 .
-90
+19
 "
 }
 currencySpacing

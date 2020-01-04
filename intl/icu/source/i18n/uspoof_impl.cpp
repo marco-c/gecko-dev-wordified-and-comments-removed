@@ -138,7 +138,7 @@ USPOOF_ALL_CHECKS
 )
 fSpoofData
 (
-NULL
+data
 )
 fAllowedCharsSet
 (
@@ -164,10 +164,6 @@ status
 return
 ;
 }
-fSpoofData
-=
-data
-;
 fRestrictionLevel
 =
 USPOOF_HIGHLY_RESTRICTIVE
@@ -2645,10 +2641,6 @@ return
 fDataOwned
 =
 true
-;
-fRefCount
-=
-1
 ;
 uint32_t
 initialSize

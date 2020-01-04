@@ -209,6 +209,10 @@ friend
 class
 DecimalFormat
 ;
+friend
+class
+DecimalFormatImpl
+;
 void
 initialize
 (

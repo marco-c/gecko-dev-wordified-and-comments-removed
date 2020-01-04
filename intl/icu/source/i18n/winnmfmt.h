@@ -172,6 +172,12 @@ pos
 )
 const
 ;
+using
+NumberFormat
+:
+:
+format
+;
 virtual
 void
 parse

@@ -10992,6 +10992,13 @@ uspoof_getSkeletonUnicodeString
 )
 #
 define
+uspoof_internalInitStatics
+U_ICU_ENTRY_POINT_RENAME
+(
+uspoof_internalInitStatics
+)
+#
+define
 uspoof_open
 U_ICU_ENTRY_POINT_RENAME
 (

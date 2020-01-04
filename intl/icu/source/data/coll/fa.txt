@@ -218,11 +218,11 @@ Version
 "
 2
 .
-0
+1
 .
-97
+19
 .
-64
+14
 "
 }
 collations
@@ -236,6 +236,8 @@ Sequence
 normalization
 on
 ]
+"
+"
 [
 reorder
 Arab
@@ -322,11 +324,7 @@ before
 Version
 {
 "
-27
-.
-0
-.
-1
+28
 "
 }
 }

@@ -2699,6 +2699,11 @@ SSP
 "
 "
 }
+THB
+{
+"
+"
+}
 TRY
 {
 "
@@ -2731,6 +2736,16 @@ UYU
 "
 }
 VND
+{
+"
+"
+}
+}
+Currencies
+%
+variant
+{
+GEL
 {
 "
 "
@@ -5125,7 +5140,7 @@ PYG
 one
 {
 "
-Guaran
+guaran
 paraguaio
 "
 }
@@ -5628,7 +5643,7 @@ Tonga
 other
 {
 "
-Pa
+pa
 anga
 de
 Tonga
@@ -6095,7 +6110,7 @@ Version
 .
 1
 .
-12
+19
 .
 94
 "

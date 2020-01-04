@@ -35,8 +35,13 @@ UDBG_UCalendarMonths
 UDBG_UDateFormatStyle
 #
 endif
+#
+if
+UCONFIG_ENABLE_PLUGINS
 UDBG_UPlugReason
 UDBG_UPlugLevel
+#
+endif
 UDBG_UAcceptResult
 #
 if

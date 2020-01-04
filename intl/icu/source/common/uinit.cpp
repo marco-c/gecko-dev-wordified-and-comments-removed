@@ -101,12 +101,17 @@ UErrorCode
 status
 )
 {
+#
+if
+UCONFIG_ENABLE_PLUGINS
 uplug_init
 (
 &
 status
 )
 ;
+#
+endif
 #
 if
 !

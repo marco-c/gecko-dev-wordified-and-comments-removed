@@ -2352,14 +2352,6 @@ Asia
 Seoul
 "
 }
-KP
-{
-"
-Asia
-/
-Pyongyang
-"
-}
 KR
 {
 "

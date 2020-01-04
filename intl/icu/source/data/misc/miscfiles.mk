@@ -6,7 +6,7 @@ C
 )
 2003
 -
-2012
+2015
 International
 Business
 Machines
@@ -206,9 +206,6 @@ currencyNumericCodes
 txt
 \
 genderList
-.
-txt
-postalCodeData
 .
 txt
 dayPeriods

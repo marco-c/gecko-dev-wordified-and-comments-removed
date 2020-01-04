@@ -709,13 +709,13 @@ fCurrency
 (
 currency
 )
-fFractionDigitsSet
-(
-FALSE
-)
 fFormatInfo
 (
 NULL
+)
+fFractionDigitsSet
+(
+FALSE
 )
 {
 if

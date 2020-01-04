@@ -65,6 +65,7 @@ isRecording
 (
 void
 )
+const
 {
 return
 FALSE
@@ -215,6 +216,7 @@ isRecording
 (
 void
 )
+const
 {
 return
 pos
@@ -486,6 +488,7 @@ isRecording
 (
 void
 )
+const
 {
 return
 U_SUCCESS

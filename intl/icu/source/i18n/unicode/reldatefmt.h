@@ -48,9 +48,6 @@ UCONFIG_NO_FORMATTING
 &
 !
 UCONFIG_NO_BREAK_ITERATION
-#
-ifndef
-U_HIDE_DRAFT_API
 typedef
 enum
 UDateRelativeDateTimeFormatterStyle
@@ -62,8 +59,6 @@ UDAT_STYLE_COUNT
 }
 UDateRelativeDateTimeFormatterStyle
 ;
-#
-endif
 typedef
 enum
 UDateRelativeUnit
@@ -173,9 +168,6 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 RelativeDateTimeFormatter
 (
 const
@@ -194,8 +186,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 RelativeDateTimeFormatter
 (
 const
@@ -286,9 +276,6 @@ getNumberFormat
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 UDisplayContext
 getCapitalizationContext
 (
@@ -301,8 +288,6 @@ getFormatStyle
 )
 const
 ;
-#
-endif
 private
 :
 const

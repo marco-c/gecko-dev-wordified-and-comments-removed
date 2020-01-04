@@ -137,6 +137,15 @@ U_ENABLE_TRACING
 endif
 #
 ifndef
+UCONFIG_ENABLE_PLUGINS
+#
+define
+UCONFIG_ENABLE_PLUGINS
+0
+#
+endif
+#
+ifndef
 U_ENABLE_DYLOAD
 #
 define

@@ -1007,6 +1007,9 @@ UErrorCode
 status
 )
 ;
+#
+ifndef
+U_HIDE_DEPRECATED_API
 U_DEPRECATED
 void
 U_EXPORT2
@@ -1023,6 +1026,8 @@ UErrorCode
 status
 )
 ;
+#
+endif
 U_STABLE
 UCollator
 *

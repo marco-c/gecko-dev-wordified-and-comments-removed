@@ -551,17 +551,12 @@ void
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 UBool
 isRightToLeft
 (
 )
 const
 ;
-#
-endif
 UnicodeString
 &
 getDisplayLanguage

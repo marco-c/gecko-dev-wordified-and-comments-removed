@@ -115,10 +115,7 @@ char
 codepage
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
-U_DRAFT
+U_STABLE
 UFILE
 *
 U_EXPORT2
@@ -142,8 +139,6 @@ char
 codepage
 )
 ;
-#
-endif
 U_STABLE
 UFILE
 *

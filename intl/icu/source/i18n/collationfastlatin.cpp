@@ -44,13 +44,6 @@ h
 #
 include
 "
-putilimp
-.
-h
-"
-#
-include
-"
 uassert
 .
 h
@@ -617,11 +610,6 @@ options
 &
 =
 0xffff
-;
-U_ALIGN_CODE
-(
-16
-)
 ;
 int32_t
 leftIndex
@@ -2601,11 +2589,6 @@ options
 &
 =
 0xffff
-;
-U_ALIGN_CODE
-(
-16
-)
 ;
 int32_t
 leftIndex

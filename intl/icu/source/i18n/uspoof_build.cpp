@@ -104,6 +104,15 @@ if
 !
 UCONFIG_NO_NORMALIZATION
 U_NAMESPACE_USE
+U_CFUNC
+void
+uspoof_internalInitStatics
+(
+UErrorCode
+*
+status
+)
+;
 U_CAPI
 USpoofChecker
 *
@@ -133,6 +142,11 @@ UErrorCode
 status
 )
 {
+uspoof_internalInitStatics
+(
+status
+)
+;
 if
 (
 U_FAILURE

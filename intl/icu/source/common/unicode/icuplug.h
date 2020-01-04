@@ -14,6 +14,9 @@ utypes
 h
 "
 #
+if
+UCONFIG_ENABLE_PLUGINS
+#
 ifndef
 U_HIDE_INTERNAL_API
 struct
@@ -305,6 +308,8 @@ UErrorCode
 status
 )
 ;
+#
+endif
 #
 endif
 #

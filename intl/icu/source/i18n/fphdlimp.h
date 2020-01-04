@@ -37,6 +37,7 @@ h
 "
 U_NAMESPACE_BEGIN
 class
+U_I18N_API
 FieldPositionHandler
 :
 public
@@ -76,6 +77,7 @@ isRecording
 (
 void
 )
+const
 ;
 }
 ;
@@ -130,6 +132,7 @@ isRecording
 (
 void
 )
+const
 ;
 }
 ;
@@ -213,6 +216,7 @@ isRecording
 (
 void
 )
+const
 ;
 }
 ;

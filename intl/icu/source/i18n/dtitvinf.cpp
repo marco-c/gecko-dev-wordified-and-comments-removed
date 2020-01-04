@@ -2721,6 +2721,15 @@ kIPI_MINUTE
 ;
 break
 ;
+case
+UCAL_SECOND
+:
+index
+=
+kIPI_SECOND
+;
+break
+;
 default
 :
 status

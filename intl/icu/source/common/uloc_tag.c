@@ -8306,6 +8306,11 @@ status
 =
 U_MEMORY_ALLOCATION_ERROR
 ;
+ultag_close
+(
+t
+)
+;
 return
 NULL
 ;
@@ -9460,7 +9465,7 @@ t
 ;
 error
 :
-uprv_free
+ultag_close
 (
 t
 )
