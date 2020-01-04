@@ -719,6 +719,9 @@ PrefChanged
 PREF_CUBEB_LATENCY
 )
 ;
+#
+ifndef
+MOZ_WIDGET_ANDROID
 NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
@@ -728,6 +731,8 @@ InitBrandName
 )
 )
 ;
+#
+endif
 }
 void
 ShutdownLibrary
