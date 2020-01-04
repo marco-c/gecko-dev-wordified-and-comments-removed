@@ -140,7 +140,7 @@ nsICacheEntry
 >
 mEntry
 ;
-NS_METHOD
+nsresult
 ConsumeData
 (
 const

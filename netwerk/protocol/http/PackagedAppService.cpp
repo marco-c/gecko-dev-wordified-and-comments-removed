@@ -1134,7 +1134,7 @@ headerCopier
 )
 ;
 }
-NS_METHOD
+nsresult
 PackagedAppService
 :
 :
