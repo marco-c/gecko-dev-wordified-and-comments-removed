@@ -315,7 +315,7 @@ _RUSTC_MINOR_VERSION
 "
 -
 lt
-5
+4
 \
 )
 ;
@@ -344,7 +344,7 @@ least
 version
 1
 .
-5
+4
 of
 the
 '
