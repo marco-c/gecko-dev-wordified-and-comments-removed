@@ -15,6 +15,13 @@ h
 #
 include
 "
+TextEditUtils
+.
+h
+"
+#
+include
+"
 gfxFontUtils
 .
 h
@@ -367,13 +374,6 @@ h
 include
 "
 nsTextEditRules
-.
-h
-"
-#
-include
-"
-nsTextEditUtils
 .
 h
 "
@@ -6992,7 +6992,7 @@ if
 childNode
 &
 &
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsMozBR

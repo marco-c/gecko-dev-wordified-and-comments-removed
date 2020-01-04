@@ -1,9 +1,9 @@
 #
 ifndef
-nsTextEditUtils_h__
+TextEditUtils_h
 #
 define
-nsTextEditUtils_h__
+TextEditUtils_h
 #
 include
 "
@@ -20,8 +20,12 @@ nsINode
 class
 nsPlaintextEditor
 ;
+namespace
+mozilla
+{
 class
-nsTextEditUtils
+TextEditUtils
+final
 {
 public
 :
@@ -81,6 +85,7 @@ aNode
 ;
 }
 ;
+}
 class
 nsAutoEditInitRulesTrigger
 {

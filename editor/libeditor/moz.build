@@ -328,11 +328,6 @@ nsTextEditRulesBidi
 cpp
 '
 '
-nsTextEditUtils
-.
-cpp
-'
-'
 nsWSRunObject
 .
 cpp
@@ -354,6 +349,11 @@ cpp
 '
 '
 TextEditorTest
+.
+cpp
+'
+'
+TextEditUtils
 .
 cpp
 '

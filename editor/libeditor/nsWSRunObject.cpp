@@ -15,6 +15,13 @@ h
 #
 include
 "
+TextEditUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 OwningNonNull
@@ -136,13 +143,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-nsTextEditUtils
 .
 h
 "
@@ -3308,7 +3308,7 @@ offset
 ;
 if
 (
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsBreak
@@ -3835,7 +3835,7 @@ offset
 ;
 if
 (
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsBreak

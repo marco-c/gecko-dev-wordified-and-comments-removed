@@ -22,6 +22,13 @@ h
 #
 include
 "
+TextEditUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -314,13 +321,6 @@ h
 include
 "
 nsTArray
-.
-h
-"
-#
-include
-"
-nsTextEditUtils
 .
 h
 "
@@ -6090,7 +6090,7 @@ if
 priorNode
 &
 &
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsMozBR
@@ -14470,7 +14470,7 @@ arrayOfNodes
 if
 (
 !
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsBreak
@@ -14832,7 +14832,7 @@ nullptr
 }
 if
 (
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsBreak
@@ -21905,7 +21905,7 @@ NS_OK
 }
 if
 (
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsBreak
@@ -22069,7 +22069,7 @@ if
 brContent
 &
 &
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsBreak
@@ -30322,7 +30322,7 @@ sibling
 )
 |
 |
-nsTextEditUtils
+TextEditUtils
 :
 :
 HasMozAttr
@@ -30392,7 +30392,7 @@ sibling
 )
 |
 |
-nsTextEditUtils
+TextEditUtils
 :
 :
 HasMozAttr
@@ -30513,7 +30513,7 @@ nearNode
 )
 |
 |
-nsTextEditUtils
+TextEditUtils
 :
 :
 HasMozAttr
@@ -30562,7 +30562,7 @@ nearNode
 )
 |
 |
-nsTextEditUtils
+TextEditUtils
 :
 :
 HasMozAttr
@@ -35544,7 +35544,7 @@ if
 nearNode
 &
 &
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsBreak
@@ -35666,7 +35666,7 @@ if
 nextNode
 &
 &
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsMozBR
@@ -35711,7 +35711,7 @@ nearNode
 &
 &
 (
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsBreak
@@ -35778,7 +35778,7 @@ nearNode
 &
 &
 (
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsBreak
@@ -36185,7 +36185,7 @@ nearNode
 )
 |
 |
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsBreak
@@ -37329,7 +37329,7 @@ continue
 }
 if
 (
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsBreak
@@ -37949,7 +37949,7 @@ temp
 &
 &
 !
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsBody
@@ -38029,7 +38029,7 @@ temp
 &
 &
 !
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsBody
@@ -39786,7 +39786,7 @@ if
 isChildBlock
 |
 |
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsBreak
@@ -39897,7 +39897,7 @@ if
 isBlock
 |
 |
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsBreak

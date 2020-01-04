@@ -49,14 +49,14 @@ h
 #
 include
 "
-nsHTMLEditRules
+TextEditUtils
 .
 h
 "
 #
 include
 "
-nsTextEditUtils
+nsHTMLEditRules
 .
 h
 "
@@ -4163,7 +4163,7 @@ aNode
 if
 (
 !
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsBreak
@@ -4193,7 +4193,7 @@ if
 priorNode
 &
 &
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsBreak
@@ -4223,7 +4223,7 @@ if
 nextNode
 &
 &
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsBreak
@@ -20541,7 +20541,7 @@ while
 child
 &
 &
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsBreak

@@ -129,6 +129,13 @@ h
 #
 include
 "
+TextEditUtils
+.
+h
+"
+#
+include
+"
 mozFlushType
 .
 h
@@ -685,13 +692,6 @@ h
 include
 "
 nsStyleStructFwd
-.
-h
-"
-#
-include
-"
-nsTextEditUtils
 .
 h
 "
@@ -9029,7 +9029,7 @@ return
 }
 if
 (
-nsTextEditUtils
+TextEditUtils
 :
 :
 IsMozBR
