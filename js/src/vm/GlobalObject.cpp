@@ -613,6 +613,12 @@ suppressMetadata
 cx
 )
 ;
+AutoSuppressDebuggeeNoExecuteChecks
+suppressNX
+(
+cx
+)
+;
 ClassInitializerOp
 init
 =
