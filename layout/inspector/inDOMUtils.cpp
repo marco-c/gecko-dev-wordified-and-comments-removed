@@ -2785,7 +2785,7 @@ const
 nsCSSProps
 :
 :
-KTableValue
+KTableEntry
 *
 keywordTable
 =

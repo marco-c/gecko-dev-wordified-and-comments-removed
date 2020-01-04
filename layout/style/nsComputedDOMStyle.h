@@ -180,8 +180,8 @@ typedef
 nsCSSProps
 :
 :
-KTableValue
-KTableValue
+KTableEntry
+KTableEntry
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS_AMBIGUOUS
@@ -499,7 +499,7 @@ aAlign
 bool
 aAlignTrue
 const
-KTableValue
+KTableEntry
 aTable
 [
 ]
@@ -967,7 +967,7 @@ nsStyleBackground
 *
 aCount
 const
-KTableValue
+KTableEntry
 aTable
 [
 ]
@@ -4246,7 +4246,7 @@ aPercentageBaseGetter
 =
 nullptr
 const
-KTableValue
+KTableEntry
 aTable
 [
 ]
