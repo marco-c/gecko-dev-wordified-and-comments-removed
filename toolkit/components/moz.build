@@ -244,6 +244,9 @@ remotebrowserutils
 reflect
 '
 '
+securityreporter
+'
+'
 sqlite
 '
 '
