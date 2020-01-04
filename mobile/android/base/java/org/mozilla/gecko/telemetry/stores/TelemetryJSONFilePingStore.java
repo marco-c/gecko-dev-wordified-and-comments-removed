@@ -652,6 +652,17 @@ uuidFilenameFilter
 if
 (
 files
+=
+=
+null
+)
+{
+return
+;
+}
+if
+(
+files
 .
 length
 <
