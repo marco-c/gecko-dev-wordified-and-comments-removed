@@ -474,12 +474,24 @@ self
         
 self
 .
-apt_install
+ensure_browser_packages
 (
-*
+)
+    
+def
+install_browser_artifact_mode_packages
+(
+self
+)
+:
+        
 self
 .
-browser_packages
+ensure_browser_packages
+(
+artifact_mode
+=
+True
 )
     
 def
@@ -509,6 +521,26 @@ ensure_mobile_android_packages
 artifact_mode
 =
 True
+)
+    
+def
+ensure_browser_packages
+(
+self
+artifact_mode
+=
+False
+)
+:
+        
+self
+.
+apt_install
+(
+*
+self
+.
+browser_packages
 )
     
 def

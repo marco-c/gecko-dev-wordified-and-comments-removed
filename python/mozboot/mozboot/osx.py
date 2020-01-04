@@ -1476,6 +1476,32 @@ package_manager
 )
     
 def
+install_browser_artifact_mode_packages
+(
+self
+)
+:
+        
+getattr
+(
+self
+'
+ensure_
+%
+s_browser_packages
+'
+%
+self
+.
+package_manager
+)
+(
+artifact_mode
+=
+True
+)
+    
+def
 install_mobile_android_packages
 (
 self
@@ -2296,6 +2322,9 @@ def
 ensure_homebrew_browser_packages
 (
 self
+artifact_mode
+=
+False
 )
 :
         
@@ -2949,6 +2978,9 @@ def
 ensure_macports_browser_packages
 (
 self
+artifact_mode
+=
+False
 )
 :
         
