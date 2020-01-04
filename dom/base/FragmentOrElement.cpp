@@ -3853,7 +3853,7 @@ case
 eScroll
 :
 case
-NS_SELECT_START
+eSelectStart
 :
 stopEvent
 =
