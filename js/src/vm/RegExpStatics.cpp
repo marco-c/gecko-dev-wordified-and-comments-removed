@@ -107,15 +107,10 @@ getPrivate
 (
 )
 ;
-MOZ_ASSERT
+if
 (
 pdata
 )
-;
-RegExpStatics
-*
-res
-=
 static_cast
 <
 RegExpStatics
@@ -124,8 +119,6 @@ RegExpStatics
 (
 pdata
 )
-;
-res
 -
 >
 mark
