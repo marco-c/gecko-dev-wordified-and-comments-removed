@@ -2034,13 +2034,6 @@ View
 VISIBLE
 )
 ;
-mAddTab
-.
-setImageLevel
-(
-index
-)
-;
 if
 (
 !
