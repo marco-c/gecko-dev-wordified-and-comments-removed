@@ -1779,7 +1779,17 @@ nullptr
 nsILoadInfo
 :
 :
-SEC_NORMAL
+SEC_ALLOW_CROSS_ORIGIN_DATA_INHERITS
+|
+nsILoadInfo
+:
+:
+SEC_ALLOW_CHROME
+|
+nsILoadInfo
+:
+:
+SEC_DISALLOW_SCRIPT
 nsIContentPolicy
 :
 :
@@ -1824,7 +1834,7 @@ rv
 channel
 -
 >
-Open
+Open2
 (
 getter_AddRefs
 (
