@@ -134,6 +134,11 @@ testArrayBufferView
 cpp
 '
 '
+testBoundFunction
+.
+cpp
+'
+'
 testBug604087
 .
 cpp
