@@ -21898,6 +21898,15 @@ names
 .
 String
 1
+AllocKind
+:
+:
+FUNCTION
+&
+jit
+:
+:
+JitInfo_String
 )
 ;
 if

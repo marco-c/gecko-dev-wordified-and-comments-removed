@@ -360,6 +360,15 @@ include
 "
 jit
 /
+InlinableNatives
+.
+h
+"
+#
+include
+"
+jit
+/
 Ion
 .
 h
@@ -28527,7 +28536,7 @@ etc
 .
 "
 )
-JS_FN_HELP
+JS_INLINABLE_FN_HELP
 (
 "
 assertFloat32
@@ -28535,6 +28544,7 @@ assertFloat32
 testingFunc_assertFloat32
 2
 0
+TestAssertFloat32
 "
 assertFloat32
 (
@@ -28571,7 +28581,7 @@ false
 .
 "
 )
-JS_FN_HELP
+JS_INLINABLE_FN_HELP
 (
 "
 assertRecoveredOnBailout
@@ -28579,6 +28589,7 @@ assertRecoveredOnBailout
 testingFunc_assertRecoveredOnBailout
 2
 0
+TestAssertRecoveredOnBailout
 "
 assertRecoveredOnBailout
 (
