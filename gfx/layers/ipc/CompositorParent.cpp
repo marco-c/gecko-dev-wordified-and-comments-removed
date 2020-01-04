@@ -4676,7 +4676,7 @@ AsLayerComposite
 layerComposite
 -
 >
-SetShadowTransform
+SetShadowBaseTransform
 (
 aLayer
 -
