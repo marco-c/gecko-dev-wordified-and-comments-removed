@@ -571,16 +571,6 @@ download
 start
 (
 )
-.
-catch
-(
-(
-)
-=
->
-{
-}
-)
 ;
 yield
 download
