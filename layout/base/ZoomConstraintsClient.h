@@ -100,6 +100,11 @@ Destroy
 (
 )
 ;
+void
+ScreenSizeChanged
+(
+)
+;
 private
 :
 void
