@@ -279,6 +279,9 @@ indexId
 Key
 value
 ;
+Key
+localizedValue
+;
 }
 ;
 union
