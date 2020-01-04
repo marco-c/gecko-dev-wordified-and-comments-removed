@@ -3126,6 +3126,10 @@ time
 let
 title
 =
+state
+.
+type
+?
 L10N
 .
 getFormatStr
@@ -3147,6 +3151,10 @@ state
 .
 name
 )
+:
+state
+.
+name
 ;
 let
 delay
