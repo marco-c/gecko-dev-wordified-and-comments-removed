@@ -36,15 +36,6 @@ h
 #
 include
 "
-mozilla
-/
-Constants
-.
-h
-"
-#
-include
-"
 2D
 .
 h

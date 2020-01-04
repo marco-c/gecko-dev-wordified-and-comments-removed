@@ -5,9 +5,6 @@ nsMathUtils_h__
 define
 nsMathUtils_h__
 #
-define
-_USE_MATH_DEFINES
-#
 include
 "
 nscore

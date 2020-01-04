@@ -38,15 +38,6 @@ include
 "
 mozilla
 /
-Constants
-.
-h
-"
-#
-include
-"
-mozilla
-/
 MouseEvents
 .
 h
@@ -69,6 +60,11 @@ TouchEvents
 .
 h
 "
+#
+include
+<
+cmath
+>
 using
 namespace
 mozilla

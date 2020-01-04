@@ -5,9 +5,6 @@ MOZILLA_SVGCONTENTUTILS_H
 define
 MOZILLA_SVGCONTENTUTILS_H
 #
-define
-_USE_MATH_DEFINES
-#
 include
 <
 math

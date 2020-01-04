@@ -8,6 +8,11 @@ h
 #
 include
 <
+cmath
+>
+#
+include
+<
 pthread
 .
 h
@@ -34,15 +39,6 @@ include
 mozstumbler
 /
 MozStumbler
-.
-h
-"
-#
-include
-"
-mozilla
-/
-Constants
 .
 h
 "

@@ -7,6 +7,11 @@ GFX_PREFS_H
 #
 include
 <
+cmath
+>
+#
+include
+<
 stdint
 .
 h
@@ -17,15 +22,6 @@ include
 mozilla
 /
 Assertions
-.
-h
-"
-#
-include
-"
-mozilla
-/
-Constants
 .
 h
 "

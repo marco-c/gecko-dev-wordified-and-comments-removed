@@ -10,15 +10,6 @@ include
 "
 mozilla
 /
-Constants
-.
-h
-"
-#
-include
-"
-mozilla
-/
 FloatingPoint
 .
 h
