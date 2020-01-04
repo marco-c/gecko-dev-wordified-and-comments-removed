@@ -294,6 +294,7 @@ InvalidFont
 PAllocTextureBackendMismatch
 GetFontFileDataFailed
 MessageChannelCloseFailure
+MessageChannelInvalidHandle
 TextureAliveAfterShutdown
 InvalidContext
 InvalidCommandList
