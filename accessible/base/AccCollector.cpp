@@ -117,7 +117,7 @@ aIndex
 }
 Accessible
 *
-AccCollector
+EmbeddedObjCollector
 :
 :
 EnsureNGetObject
