@@ -1413,7 +1413,6 @@ IsShared
 )
 ;
 mStoredChangeHint
-|
 =
 aHint
 ;
