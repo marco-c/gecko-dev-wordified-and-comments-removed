@@ -370,6 +370,8 @@ nsRect
 aDirtyRect
 uint32_t
 aFlags
+bool
+aDisableSubpixelAA
 )
 ;
 virtual
