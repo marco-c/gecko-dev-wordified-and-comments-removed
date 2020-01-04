@@ -78,9 +78,9 @@ tests
 /
 dom
 /
-base
+xhr
 /
-test
+tests
 /
 test_XHR_system
 .

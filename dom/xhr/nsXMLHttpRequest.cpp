@@ -570,6 +570,13 @@ mozilla
 :
 dom
 ;
+using
+namespace
+mozilla
+:
+:
+net
+;
 #
 define
 XML_HTTP_REQUEST_ARRAYBUFFER_MAX_GROWTH

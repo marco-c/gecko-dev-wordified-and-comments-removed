@@ -16,9 +16,9 @@ tests
 /
 dom
 /
-base
+xhr
 /
-test
+tests
 /
 file_XHR_pass2
 .

@@ -245,11 +245,6 @@ nsISlowScriptDebug
 .
 idl
 '
-'
-nsIXMLHttpRequest
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
@@ -1632,11 +1627,6 @@ cpp
 '
 '
 nsXMLContentSerializer
-.
-cpp
-'
-'
-nsXMLHttpRequest
 .
 cpp
 '

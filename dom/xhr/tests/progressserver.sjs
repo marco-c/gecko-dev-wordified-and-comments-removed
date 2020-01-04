@@ -38,9 +38,9 @@ setObjectState
 "
 dom
 /
-base
+xhr
 /
-test
+tests
 /
 progressserver
 "
@@ -61,9 +61,9 @@ getObjectState
 "
 dom
 /
-base
+xhr
 /
-test
+tests
 /
 progressserver
 "

@@ -804,6 +804,13 @@ BINPATH
 /
 components
 /
+dom_xhr
+.
+xpt
+BINPATH
+/
+components
+/
 dom_xpath
 .
 xpt

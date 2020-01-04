@@ -14,7 +14,7 @@ open
 GET
 "
 "
-testXHR
+worker_testXHR
 .
 txt
 "
@@ -35,7 +35,7 @@ open
 GET
 "
 "
-testXHR
+worker_testXHR
 .
 txt
 "

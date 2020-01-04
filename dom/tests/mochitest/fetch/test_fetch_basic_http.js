@@ -7,9 +7,9 @@ tests
 /
 dom
 /
-base
+xhr
 /
-test
+tests
 /
 "
 ;

@@ -58,7 +58,7 @@ setHeader
 Location
 "
 "
-xhr_cors_redirect
+worker_xhr_cors_redirect
 .
 sjs
 "
