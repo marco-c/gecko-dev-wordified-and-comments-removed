@@ -41,7 +41,7 @@ defaultConfig
 targetSdkVersion
 22
 minSdkVersion
-14
+9
 applicationId
 mozconfig
 .
