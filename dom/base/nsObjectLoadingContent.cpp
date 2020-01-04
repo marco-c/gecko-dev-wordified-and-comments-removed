@@ -12782,6 +12782,7 @@ eFallbackAlternate
 }
 if
 (
+(
 thisContent
 -
 >
@@ -12791,6 +12792,19 @@ nsGkAtoms
 :
 :
 object
+)
+|
+|
+thisContent
+-
+>
+IsHTMLElement
+(
+nsGkAtoms
+:
+:
+applet
+)
 )
 &
 &
