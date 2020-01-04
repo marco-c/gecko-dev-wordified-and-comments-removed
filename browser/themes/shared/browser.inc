@@ -118,10 +118,6 @@ feed
 -
 button
 #
-tabview
--
-button
-#
 social
 -
 share
