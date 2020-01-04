@@ -1114,7 +1114,7 @@ nsZipHandle
 (
 )
 ;
-void
+nsresult
 findDataStart
 (
 )
