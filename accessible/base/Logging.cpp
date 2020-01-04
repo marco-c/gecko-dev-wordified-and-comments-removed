@@ -3793,6 +3793,8 @@ Accessible
 acc
 =
 aAcc
+?
+aAcc
 -
 >
 Document
@@ -3804,6 +3806,8 @@ GetAccessible
 (
 aNode
 )
+:
+nullptr
 ;
 if
 (
