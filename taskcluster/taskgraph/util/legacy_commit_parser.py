@@ -2120,10 +2120,9 @@ add
 base
 )
         
-platforms
-.
-update
-(
+for
+extra_build
+in
 jobs
 [
 '
@@ -2144,6 +2143,29 @@ builds
 [
 ]
 )
+:
+            
+if
+extra_build
+not
+in
+jobs
+[
+'
+builds
+'
+]
+:
+                
+continue
+            
+platforms
+.
+update
+(
+[
+extra_build
+]
 )
     
 tests
