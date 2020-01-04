@@ -143,6 +143,15 @@ include
 "
 vm
 /
+Debugger
+.
+h
+"
+#
+include
+"
+vm
+/
 ScopeObject
 .
 h

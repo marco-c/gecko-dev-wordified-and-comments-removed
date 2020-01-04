@@ -4064,7 +4064,11 @@ i
 +
 )
 {
-HandleNativeObject
+Handle
+<
+DebuggerFrame
+*
+>
 frameobj
 =
 frames
@@ -9562,7 +9566,11 @@ i
 +
 )
 {
-HandleNativeObject
+Handle
+<
+DebuggerFrame
+*
+>
 frame
 =
 frames
@@ -12352,7 +12360,7 @@ frame
 &
 ]
 (
-NativeObject
+DebuggerFrame
 *
 frameobj
 )
@@ -14546,7 +14554,7 @@ popFront
 {
 HeapPtr
 <
-NativeObject
+DebuggerFrame
 *
 >
 &
@@ -31659,7 +31667,11 @@ i
 +
 )
 {
-HandleNativeObject
+Handle
+<
+DebuggerFrame
+*
+>
 frameobj
 =
 frames

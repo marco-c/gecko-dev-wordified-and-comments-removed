@@ -74,6 +74,9 @@ class
 DebugScopeObject
 ;
 class
+DebuggerFrame
+;
+class
 ExportEntryObject
 ;
 class
@@ -316,6 +319,15 @@ js
 :
 :
 DebugScopeObject
+*
+)
+\
+D
+(
+js
+:
+:
+DebuggerFrame
 *
 )
 \
