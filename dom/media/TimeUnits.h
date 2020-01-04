@@ -383,12 +383,7 @@ FromInfinity
 double
 val
 =
-(
 aValue
-+
-.
-0000005
-)
 *
 USECS_PER_S
 ;
