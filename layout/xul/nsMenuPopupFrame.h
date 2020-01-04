@@ -744,6 +744,11 @@ ePopupShown
 ;
 }
 bool
+IsMenuList
+(
+)
+;
+bool
 IsMouseTransparent
 (
 )
