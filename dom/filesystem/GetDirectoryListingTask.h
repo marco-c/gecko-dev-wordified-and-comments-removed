@@ -244,7 +244,7 @@ Directory
 DirectoryType
 mType
 ;
-nsTArray
+FallibleTArray
 <
 Directory
 :
