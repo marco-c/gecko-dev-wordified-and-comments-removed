@@ -98,3 +98,9 @@ echo
 (
 DLL_SUFFIX
 )
+freebl_lowhash
+:
+echo
+(
+FREEBL_LOWHASH
+)

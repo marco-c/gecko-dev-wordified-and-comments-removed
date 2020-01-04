@@ -123,7 +123,7 @@ blockSize
 ;
 extern
 CK_RV
-sftk_fipsPowerUpSelfTest
+sftk_FIPSEntryOK
 (
 void
 )

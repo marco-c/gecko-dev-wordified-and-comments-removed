@@ -29,6 +29,11 @@ CIPHER_FAMILY_SSL2
 "
 SSLv2
 "
+/
+*
+deprecated
+*
+/
 #
 define
 CIPHER_FAMILY_SSL3
