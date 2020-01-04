@@ -7510,6 +7510,11 @@ bool
 aSnap
 )
 {
+*
+aSnap
+=
+false
+;
 if
 (
 mImage

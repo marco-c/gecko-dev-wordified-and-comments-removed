@@ -17081,6 +17081,11 @@ bool
 aSnap
 )
 {
+*
+aSnap
+=
+false
+;
 if
 (
 mColor
