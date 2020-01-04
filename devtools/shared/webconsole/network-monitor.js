@@ -2649,7 +2649,7 @@ aChannel
 .
 loadInfo
 .
-contentPolicyType
+externalContentPolicyType
 =
 =
 Ci
@@ -2956,7 +2956,7 @@ aChannel
 .
 loadInfo
 .
-contentPolicyType
+externalContentPolicyType
 =
 =
 =

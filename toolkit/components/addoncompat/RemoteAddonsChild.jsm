@@ -1268,7 +1268,7 @@ _contentPolicyType
 =
 loadInfo
 .
-contentPolicyType
+externalContentPolicyType
 ;
 }
 AboutProtocolChannel

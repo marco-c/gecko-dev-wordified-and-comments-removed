@@ -483,7 +483,7 @@ policyType
 mLoadInfo
 -
 >
-GetContentPolicyType
+InternalContentPolicyType
 (
 )
 ;
