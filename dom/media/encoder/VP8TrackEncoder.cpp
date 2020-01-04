@@ -148,10 +148,13 @@ VP8TrackEncoder
 :
 VP8TrackEncoder
 (
+TrackRate
+aTrackRate
 )
 :
 VideoTrackEncoder
 (
+aTrackRate
 )
 mEncodedFrameDuration
 (
@@ -236,8 +239,6 @@ int32_t
 aDisplayWidth
 int32_t
 aDisplayHeight
-TrackRate
-aTrackRate
 )
 {
 if
@@ -260,12 +261,6 @@ aDisplayWidth
 aDisplayHeight
 <
 1
-|
-|
-aTrackRate
-<
-=
-0
 )
 {
 return
@@ -277,10 +272,6 @@ mon
 (
 mReentrantMonitor
 )
-;
-mTrackRate
-=
-aTrackRate
 ;
 mEncodedFrameRate
 =

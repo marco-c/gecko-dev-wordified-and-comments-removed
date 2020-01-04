@@ -106,6 +106,21 @@ VP8TrackEncoder
 {
 public
 :
+explicit
+WebMVP8TrackEncoder
+(
+TrackRate
+aTrackRate
+=
+90000
+)
+:
+VP8TrackEncoder
+(
+aTrackRate
+)
+{
+}
 bool
 TestVP8Creation
 (
@@ -117,8 +132,6 @@ int32_t
 aDisplayWidth
 int32_t
 aDisplayHeight
-TrackRate
-aTrackRate
 )
 {
 if
@@ -131,7 +144,6 @@ aWidth
 aHeight
 aDisplayWidth
 aDisplayHeight
-aTrackRate
 )
 )
 )
@@ -252,7 +264,6 @@ aWidth
 aHeight
 aDisplayWidth
 aDisplayHeight
-aTrackRate
 )
 )
 ;
