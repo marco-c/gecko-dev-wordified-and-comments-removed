@@ -14531,11 +14531,7 @@ OS_TARGET
 }
 "
 in
-WINNT
-|
 Darwin
-|
-Android
 )
 ;
 ;
