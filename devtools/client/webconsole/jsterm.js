@@ -966,9 +966,7 @@ this
 .
 hud
 .
-owner
-.
-_browserConsole
+isBrowserConsole
 &
 &
 !
@@ -3238,9 +3236,7 @@ this
 .
 hud
 .
-owner
-.
-_browserConsole
+isBrowserConsole
 |
 |
 Services
