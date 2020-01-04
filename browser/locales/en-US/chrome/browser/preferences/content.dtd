@@ -119,7 +119,7 @@ more
 <
 !
 ENTITY
-notificationsPolicyDesc2
+notificationsPolicyDesc3
 .
 label
 "
@@ -129,7 +129,8 @@ sites
 are
 allowed
 to
-receive
+send
+you
 notifications
 "
 >
