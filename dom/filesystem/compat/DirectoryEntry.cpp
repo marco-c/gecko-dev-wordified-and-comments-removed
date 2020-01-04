@@ -82,7 +82,7 @@ aGlobal
 Directory
 *
 aDirectory
-DOMFileSystem
+FileSystem
 *
 aFileSystem
 )

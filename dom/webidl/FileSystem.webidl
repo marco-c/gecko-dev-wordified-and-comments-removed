@@ -125,7 +125,7 @@ fullPath
 ;
 readonly
 attribute
-DOMFileSystem
+FileSystem
 filesystem
 ;
 /
@@ -494,7 +494,7 @@ errorCallback
 NoInterfaceObject
 ]
 interface
-DOMFileSystem
+FileSystem
 {
 readonly
 attribute

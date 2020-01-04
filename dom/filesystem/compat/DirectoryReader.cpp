@@ -104,7 +104,7 @@ PromiseHandler
 nsIGlobalObject
 *
 aGlobalObject
-DOMFileSystem
+FileSystem
 *
 aFileSystem
 EntriesCallback
@@ -510,7 +510,7 @@ mGlobal
 ;
 RefPtr
 <
-DOMFileSystem
+FileSystem
 >
 mFileSystem
 ;
@@ -567,7 +567,7 @@ DirectoryReader
 nsIGlobalObject
 *
 aGlobal
-DOMFileSystem
+FileSystem
 *
 aFileSystem
 Directory

@@ -682,11 +682,6 @@ DOMException
 webidl
 '
 '
-DOMFileSystem
-.
-webidl
-'
-'
 DOMImplementation
 .
 webidl
@@ -848,6 +843,11 @@ webidl
 '
 '
 FileReaderSync
+.
+webidl
+'
+'
+FileSystem
 .
 webidl
 '

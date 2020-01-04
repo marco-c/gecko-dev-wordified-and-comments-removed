@@ -61,7 +61,7 @@ namespace
 dom
 {
 class
-DOMFileSystem
+FileSystem
 ;
 class
 OwningFileOrDirectory
@@ -95,7 +95,7 @@ const
 OwningFileOrDirectory
 &
 aFileOrDirectory
-DOMFileSystem
+FileSystem
 *
 aFileSystem
 )
@@ -183,7 +183,7 @@ const
 =
 0
 ;
-DOMFileSystem
+FileSystem
 *
 Filesystem
 (
@@ -201,7 +201,7 @@ Entry
 nsIGlobalObject
 *
 aGlobalObject
-DOMFileSystem
+FileSystem
 *
 aFileSystem
 )
@@ -222,7 +222,7 @@ mParent
 ;
 RefPtr
 <
-DOMFileSystem
+FileSystem
 >
 mFileSystem
 ;

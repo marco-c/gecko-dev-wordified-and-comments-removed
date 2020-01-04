@@ -177,7 +177,7 @@ GetEntryHelper
 nsIGlobalObject
 *
 aGlobalObject
-DOMFileSystem
+FileSystem
 *
 aFileSystem
 EntryCallback
@@ -257,7 +257,7 @@ mGlobal
 ;
 RefPtr
 <
-DOMFileSystem
+FileSystem
 >
 mFileSystem
 ;

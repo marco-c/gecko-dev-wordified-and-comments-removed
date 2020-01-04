@@ -60,7 +60,7 @@ class
 Directory
 ;
 class
-DOMFileSystem
+FileSystem
 ;
 class
 DirectoryReader
@@ -83,7 +83,7 @@ DirectoryReader
 nsIGlobalObject
 *
 aGlobalObject
-DOMFileSystem
+FileSystem
 *
 aFileSystem
 Directory
@@ -162,7 +162,7 @@ mParent
 ;
 RefPtr
 <
-DOMFileSystem
+FileSystem
 >
 mFileSystem
 ;

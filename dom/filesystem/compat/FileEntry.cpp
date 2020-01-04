@@ -140,7 +140,7 @@ aGlobal
 File
 *
 aFile
-DOMFileSystem
+FileSystem
 *
 aFileSystem
 )

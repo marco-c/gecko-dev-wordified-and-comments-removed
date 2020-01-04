@@ -47,7 +47,7 @@ aGlobalObject
 File
 *
 aFile
-DOMFileSystem
+FileSystem
 *
 aFileSystem
 )

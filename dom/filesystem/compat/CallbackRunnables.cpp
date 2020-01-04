@@ -308,7 +308,7 @@ GetEntryHelper
 nsIGlobalObject
 *
 aGlobalObject
-DOMFileSystem
+FileSystem
 *
 aFileSystem
 EntryCallback
