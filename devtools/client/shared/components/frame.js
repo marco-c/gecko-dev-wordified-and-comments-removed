@@ -183,8 +183,6 @@ column
 PropTypes
 .
 number
-.
-isRequired
 }
 )
 .
@@ -273,9 +271,7 @@ let
 sourceString
 =
 {
-frame
-.
-source
+long
 }
 :
 {
