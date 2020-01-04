@@ -2318,14 +2318,6 @@ B2G
 |
 Mulet
 )
-fuzzy
--
-if
-(
-skiaContent
-1
-5
-)
 =
 =
 caret_on_presshell_reinit
