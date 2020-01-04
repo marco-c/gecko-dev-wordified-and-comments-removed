@@ -298,6 +298,14 @@ const
 YCbCrDescriptor
 &
 aDescriptor
+gfx
+:
+:
+DataSourceSurface
+*
+aSurface
+=
+nullptr
 )
 ;
 }

@@ -486,6 +486,9 @@ crOffset
 StereoMode
 stereoMode
 ;
+bool
+hasIntermediateBuffer
+;
 }
 ;
 union
