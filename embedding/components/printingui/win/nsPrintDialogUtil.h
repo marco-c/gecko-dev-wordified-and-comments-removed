@@ -17,5 +17,17 @@ nsIPrintSettings
 aPrintSettings
 )
 ;
+HGLOBAL
+CreateGlobalDevModeAndInit
+(
+const
+nsXPIDLString
+&
+aPrintName
+nsIPrintSettings
+*
+aPS
+)
+;
 #
 endif
