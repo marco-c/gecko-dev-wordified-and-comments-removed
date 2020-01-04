@@ -4793,7 +4793,7 @@ return
 SECFailure
 ;
 }
-ScopedSECMODModule
+UniqueSECMODModule
 rootsModule
 (
 SECMOD_LoadUserModule
@@ -4855,7 +4855,7 @@ PR_ASSERT
 modNameUTF8
 )
 ;
-ScopedSECMODModule
+UniqueSECMODModule
 rootsModule
 (
 SECMOD_FindModule

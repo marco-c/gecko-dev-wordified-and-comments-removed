@@ -4517,7 +4517,7 @@ SSL_SERVER_AUTH_EKU
 return
 ;
 }
-ScopedCERTOidSequence
+UniqueCERTOidSequence
 ekuSequence
 (
 CERT_DecodeOidSequence

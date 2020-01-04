@@ -8669,7 +8669,7 @@ CERTCertListNode
 *
 node
 ;
-ScopedCERTCertNicknames
+UniqueCERTCertNicknames
 nicknames
 ;
 int
@@ -9476,13 +9476,16 @@ noCert
 ;
 }
 nicknames
-=
+.
+reset
+(
 getNSSCertNicknamesFromCertList
 (
 certList
 .
 get
 (
+)
 )
 )
 ;
