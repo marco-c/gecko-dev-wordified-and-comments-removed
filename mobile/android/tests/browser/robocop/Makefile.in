@@ -77,6 +77,8 @@ ANDROID_EXTRA_JARS
 srcdir
 )
 /
+libs
+/
 robotium
 -
 solo
