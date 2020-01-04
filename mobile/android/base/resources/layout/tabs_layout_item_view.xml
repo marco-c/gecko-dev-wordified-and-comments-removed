@@ -213,7 +213,7 @@ paddingLeft
 "
 dimen
 /
-tablet_tab_highlight_stroke_width
+tab_highlight_stroke_width
 "
 android
 :
@@ -222,7 +222,7 @@ paddingRight
 "
 dimen
 /
-tablet_tab_highlight_stroke_width
+tab_highlight_stroke_width
 "
 android
 :
@@ -231,7 +231,7 @@ paddingBottom
 "
 dimen
 /
-tablet_tab_highlight_stroke_width
+tab_highlight_stroke_width
 "
 >
 <
@@ -593,7 +593,7 @@ padding
 "
 dimen
 /
-tablet_tab_highlight_stroke_width
+tab_highlight_stroke_width
 "
 android
 :
@@ -639,7 +639,7 @@ layout_width
 "
 dimen
 /
-tablet_tab_thumbnail_width
+tab_thumbnail_width
 "
 android
 :
@@ -648,7 +648,7 @@ layout_height
 "
 dimen
 /
-tablet_tab_thumbnail_height
+tab_thumbnail_height
 "
 /
 >

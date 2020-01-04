@@ -132,7 +132,7 @@ dimen
 name
 =
 "
-tablet_tab_panel_grid_padding
+tab_panel_grid_padding
 "
 >
 48dp
