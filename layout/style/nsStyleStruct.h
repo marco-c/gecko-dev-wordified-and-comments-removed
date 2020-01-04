@@ -474,6 +474,9 @@ mMathVariant
 uint8_t
 mMathDisplay
 ;
+uint8_t
+mMinFontSizeRatio
+;
 bool
 mExplicitLanguage
 ;
