@@ -10881,6 +10881,9 @@ rec
 .
 close
 (
+GeckoApp
+.
+this
 )
 ;
 }
