@@ -2548,15 +2548,6 @@ self
 subject
 )
         
-hasher
-.
-update
-(
-self
-.
-signature
-)
-        
 if
 self
 .
