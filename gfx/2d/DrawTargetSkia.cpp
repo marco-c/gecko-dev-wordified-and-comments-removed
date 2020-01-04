@@ -1482,6 +1482,11 @@ info
 colorType
 (
 )
+info
+.
+alphaType
+(
+)
 )
 ;
 if
