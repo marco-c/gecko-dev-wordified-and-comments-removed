@@ -421,6 +421,14 @@ IsPrinterSurface
 (
 )
 ;
+mozilla
+:
+:
+DesktopToLayoutDeviceScale
+GetDesktopToDeviceScale
+(
+)
+;
 private
 :
 ~
