@@ -6579,7 +6579,7 @@ nullptr
 )
 ;
 }
-nsAutoInsertContainerSelNotify
+AutoInsertContainerSelNotify
 selNotify
 (
 mRangeUpdater
