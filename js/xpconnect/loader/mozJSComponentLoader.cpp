@@ -1447,6 +1447,13 @@ MOZ_MULET
 !
 defined
 (
+MOZ_B2GDROID
+)
+&
+&
+!
+defined
+(
 DEBUG
 )
 mReuseLoaderGlobal
@@ -3270,6 +3277,11 @@ else
 writeToCache
 =
 true
+;
+JS_ClearPendingException
+(
+cx
+)
 ;
 }
 }
