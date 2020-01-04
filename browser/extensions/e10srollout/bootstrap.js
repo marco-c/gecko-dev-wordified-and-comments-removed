@@ -577,7 +577,7 @@ instance
 (
 )
 .
-getActiveExperiment
+getActiveExperimentID
 (
 )
 !
