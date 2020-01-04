@@ -8653,6 +8653,13 @@ this
 node
 .
 tagName
+&
+&
+this
+.
+node
+.
+tagName
 .
 toLowerCase
 (
