@@ -549,6 +549,10 @@ nsSocketTransportService
 mEventQueueLock
 "
 )
+mPendingSocketQ
+(
+mEventQueueLock
+)
 mSendBufferSize
 (
 0
