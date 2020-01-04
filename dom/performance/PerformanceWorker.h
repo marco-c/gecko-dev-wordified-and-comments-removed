@@ -33,6 +33,7 @@ Performance
 {
 public
 :
+explicit
 PerformanceWorker
 (
 workers
