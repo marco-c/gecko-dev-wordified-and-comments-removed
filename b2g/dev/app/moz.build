@@ -69,8 +69,11 @@ JS_PREFERENCE_PP_FILES
 =
 [
 '
+.
+.
 /
-b2g
+.
+.
 /
 app
 /
@@ -84,13 +87,6 @@ JS_PREFERENCE_FILES
 =
 [
 '
-/
-b2g
-/
-dev
-/
-app
-/
 mulet
 .
 js
