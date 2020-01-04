@@ -4465,6 +4465,7 @@ function
 (
 objectActor
 grip
+rawObj
 )
 {
 return
@@ -4476,6 +4477,7 @@ String
 String
 objectActor
 grip
+rawObj
 )
 ;
 }
@@ -4487,6 +4489,7 @@ function
 (
 objectActor
 grip
+rawObj
 )
 {
 return
@@ -4498,6 +4501,7 @@ Boolean
 Boolean
 objectActor
 grip
+rawObj
 )
 ;
 }
@@ -4509,6 +4513,7 @@ function
 (
 objectActor
 grip
+rawObj
 )
 {
 return
@@ -4520,6 +4525,7 @@ Number
 Number
 objectActor
 grip
+rawObj
 )
 ;
 }
@@ -5705,6 +5711,7 @@ className
 classObj
 objectActor
 grip
+rawObj
 )
 {
 let
@@ -5738,15 +5745,6 @@ false
 ;
 }
 let
-raw
-=
-obj
-.
-unsafeDereference
-(
-)
-;
-let
 v
 =
 null
@@ -5763,7 +5761,7 @@ valueOf
 .
 call
 (
-raw
+rawObj
 )
 ;
 }
@@ -5796,6 +5794,7 @@ GenericObject
 (
 objectActor
 grip
+rawObj
 className
 =
 =
@@ -5841,6 +5840,7 @@ GenericObject
 (
 objectActor
 grip
+rawObj
 specialStringBehavior
 =
 false
@@ -8401,7 +8401,24 @@ return
 true
 ;
 }
+function
+Object
+(
+objectActor
+grip
+rawObj
+)
+{
+return
 GenericObject
+(
+objectActor
+grip
+rawObj
+false
+)
+;
+}
 ]
 ;
 function
