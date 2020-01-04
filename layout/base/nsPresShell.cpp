@@ -34211,14 +34211,6 @@ releasePointerCaptureCaller
 ;
 if
 (
-nsLayoutUtils
-:
-:
-AreAsyncAnimationsEnabled
-(
-)
-&
-&
 mDocument
 )
 {
