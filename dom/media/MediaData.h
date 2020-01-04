@@ -1053,10 +1053,6 @@ mKeyframe
 (
 false
 )
-mDiscontinuity
-(
-false
-)
 {
 }
 const
@@ -1081,9 +1077,6 @@ mFrames
 ;
 bool
 mKeyframe
-;
-bool
-mDiscontinuity
 ;
 int64_t
 GetEndTime
@@ -1227,10 +1220,6 @@ mFrames
 aFrames
 )
 mKeyframe
-(
-false
-)
-mDiscontinuity
 (
 false
 )

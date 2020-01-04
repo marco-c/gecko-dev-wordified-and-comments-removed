@@ -654,10 +654,6 @@ lld
 %
 lld
 ]
-disc
-=
-%
-d
 "
 aAudioSample
 -
@@ -669,10 +665,6 @@ aAudioSample
 GetEndTime
 (
 )
-aAudioSample
--
->
-mDiscontinuity
 )
 ;
 mSeekedAudioData
@@ -786,10 +778,6 @@ lld
 %
 lld
 ]
-disc
-=
-%
-d
 "
 aVideoSample
 -
@@ -801,10 +789,6 @@ aVideoSample
 GetEndTime
 (
 )
-aVideoSample
--
->
-mDiscontinuity
 )
 ;
 if

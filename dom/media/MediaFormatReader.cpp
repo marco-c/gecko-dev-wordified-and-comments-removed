@@ -7620,13 +7620,6 @@ mDiscontinuity
 =
 false
 ;
-aData
--
->
-mDiscontinuity
-=
-true
-;
 }
 LOG
 (
