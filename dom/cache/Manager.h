@@ -279,13 +279,13 @@ aManagerId
 ;
 static
 void
-ShutdownAllOnMainThread
+ShutdownAll
 (
 )
 ;
 static
 void
-AbortOnMainThread
+Abort
 (
 const
 nsACString
