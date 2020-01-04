@@ -194,7 +194,9 @@ k
 v
 ]
 of
-Iterator
+Object
+.
+entries
 (
 this
 .
