@@ -211,6 +211,13 @@ js
 '
 '
 performance
+-
+recording
+.
+js
+'
+'
+performance
 .
 js
 '
