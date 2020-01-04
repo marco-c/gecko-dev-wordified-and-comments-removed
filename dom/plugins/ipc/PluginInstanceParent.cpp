@@ -303,7 +303,7 @@ mozilla
 /
 gfx
 /
-DeviceManagerDx
+DeviceManagerD3D11
 .
 h
 "
@@ -1726,7 +1726,7 @@ ID3D11Device
 >
 device
 =
-DeviceManagerDx
+DeviceManagerD3D11
 :
 :
 Get
@@ -2860,7 +2860,7 @@ ID3D11Device
 >
 d3d11
 =
-DeviceManagerDx
+DeviceManagerD3D11
 :
 :
 Get

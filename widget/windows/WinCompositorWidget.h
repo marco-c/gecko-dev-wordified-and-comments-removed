@@ -172,12 +172,6 @@ EndRemoteDrawing
 )
 override
 ;
-bool
-NeedsToDeferEndRemoteDrawing
-(
-)
-override
-;
 LayoutDeviceIntSize
 GetClientSize
 (
@@ -374,9 +368,6 @@ mCompositeDC
 uint8_t
 *
 mLockedBackBufferData
-;
-bool
-mNotDeferEndRemoteDrawing
 ;
 }
 ;

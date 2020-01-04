@@ -273,16 +273,6 @@ EndRemoteDrawing
 ;
 }
 virtual
-bool
-NeedsToDeferEndRemoteDrawing
-(
-)
-{
-return
-false
-;
-}
-virtual
 void
 CleanupWindowEffects
 (

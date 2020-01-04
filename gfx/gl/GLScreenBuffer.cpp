@@ -126,7 +126,7 @@ mozilla
 /
 gfx
 /
-DeviceManagerDx
+DeviceManagerD3D11
 .
 h
 "
@@ -605,14 +605,14 @@ XP_WIN
 gfx
 :
 :
-DeviceManagerDx
+DeviceManagerD3D11
 *
 dm
 =
 gfx
 :
 :
-DeviceManagerDx
+DeviceManagerD3D11
 :
 :
 Get
