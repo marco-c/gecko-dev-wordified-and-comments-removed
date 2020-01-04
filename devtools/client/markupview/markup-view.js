@@ -126,9 +126,7 @@ devtools
 /
 client
 /
-inspector
-/
-markup
+markupview
 /
 html
 -

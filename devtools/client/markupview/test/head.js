@@ -212,9 +212,6 @@ testDir
 .
 .
 /
-.
-.
-/
 shared
 /
 test
@@ -420,9 +417,11 @@ http
 :
 /
 /
-example
+mochi
 .
-com
+test
+:
+8888
 /
 browser
 /
@@ -430,9 +429,7 @@ devtools
 /
 client
 /
-inspector
-/
-markup
+markupview
 /
 test
 /
@@ -456,9 +453,7 @@ devtools
 /
 client
 /
-inspector
-/
-markup
+markupview
 /
 test
 /
