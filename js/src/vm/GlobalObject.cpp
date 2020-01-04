@@ -136,6 +136,15 @@ include
 "
 builtin
 /
+SelfHostingDefines
+.
+h
+"
+#
+include
+"
+builtin
+/
 SymbolObject
 .
 h

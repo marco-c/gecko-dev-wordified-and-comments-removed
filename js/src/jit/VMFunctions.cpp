@@ -2818,10 +2818,10 @@ JSFunction
 )
 )
 {
-JSFunction
-*
+RootedFunction
 fun
-=
+(
+cx
 &
 callee
 -
@@ -2831,6 +2831,7 @@ as
 JSFunction
 >
 (
+)
 )
 ;
 if
@@ -2883,6 +2884,14 @@ false
 ;
 if
 (
+fun
+-
+>
+isBoundFunction
+(
+)
+|
+|
 script
 -
 >
