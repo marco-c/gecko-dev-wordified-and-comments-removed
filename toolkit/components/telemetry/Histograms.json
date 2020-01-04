@@ -3804,7 +3804,7 @@ disabled
 "
 }
 "
-MEMORY_RESIDENT
+MEMORY_RESIDENT_FAST
 "
 :
 {
@@ -3862,12 +3862,14 @@ high
 n_buckets
 "
 :
-200
+100
 "
-extended_statistics_ok
+bug_numbers
 "
 :
-true
+[
+1226196
+]
 "
 description
 "
