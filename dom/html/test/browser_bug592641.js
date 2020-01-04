@@ -176,11 +176,7 @@ ctx
 .
 tab1Browser
 .
-contentWindow
-.
-document
-.
-title
+contentTitle
 ;
 checkTitle
 (
@@ -267,11 +263,7 @@ ctx
 .
 tab2Browser
 .
-contentWindow
-.
-document
-.
-title
+contentTitle
 ;
 checkTitle
 (
