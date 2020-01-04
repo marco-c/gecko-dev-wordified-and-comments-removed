@@ -103,6 +103,13 @@ jsol
 .
 js
 '
+'
+node
+-
+properties
+.
+js
+'
 ]
 #
 react
@@ -188,6 +195,11 @@ js
 seamless
 -
 immutable
+.
+js
+'
+'
+sprintf
 .
 js
 '

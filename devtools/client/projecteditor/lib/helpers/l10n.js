@@ -1,16 +1,7 @@
-const
-{
-Cu
-Cc
-Ci
-}
-=
-require
-(
 "
-chrome
+use
+strict
 "
-)
 ;
 const
 {
@@ -55,8 +46,6 @@ LocalizationHelper
 (
 ITCHPAD_STRINGS_URI
 )
-.
-stringBundle
 ;
 function
 getLocalizedString
@@ -69,7 +58,7 @@ try
 return
 L10N
 .
-GetStringFromName
+getStr
 (
 name
 )
