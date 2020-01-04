@@ -713,10 +713,8 @@ Args
 aArgs
 )
 {
-*
-aDst
-=
 T
+temp
 (
 Forward
 <
@@ -729,6 +727,11 @@ aArgs
 .
 .
 )
+;
+*
+aDst
+=
+temp
 ;
 }
 static
