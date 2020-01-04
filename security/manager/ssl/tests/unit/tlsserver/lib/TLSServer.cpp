@@ -39,6 +39,15 @@ h
 #
 include
 "
+mozilla
+/
+Snprintf
+.
+h
+"
+#
+include
+"
 nspr
 .
 h
@@ -312,7 +321,7 @@ ReadFileToBuffer
 ;
 if
 (
-PR_snprintf
+snprintf
 (
 buf
 N
@@ -336,7 +345,7 @@ filename
 PrintPRError
 (
 "
-PR_snprintf
+snprintf
 failed
 "
 )
