@@ -30,7 +30,7 @@ GK_ATOM
 (
 _moz_abspos
 "
-_moz_activated
+_moz_abspos
 "
 )
 GK_ATOM
