@@ -155,4 +155,9 @@ RemoteNewTabUtils
 .
 jsm
 '
+'
+SearchProvider
+.
+jsm
+'
 ]
