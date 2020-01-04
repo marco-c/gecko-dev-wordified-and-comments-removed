@@ -18,15 +18,6 @@ arm
 h
 "
 #
-include
-"
-jit
-/
-AtomicOperations
-.
-h
-"
-#
 if
 defined
 (

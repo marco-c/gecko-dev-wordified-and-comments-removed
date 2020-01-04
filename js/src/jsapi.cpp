@@ -608,17 +608,6 @@ h
 #
 include
 "
-jit
-/
-AtomicOperations
--
-inl
-.
-h
-"
-#
-include
-"
 vm
 /
 Interpreter
@@ -1732,6 +1721,9 @@ cx
 compartment
 )
 ;
+mozilla
+:
+:
 RefPtr
 <
 PerformanceGroup
@@ -1901,6 +1893,9 @@ cx
 compartment
 )
 ;
+mozilla
+:
+:
 RefPtr
 <
 PerformanceGroup
@@ -1932,6 +1927,9 @@ ticks
 continue
 ;
 }
+mozilla
+:
+:
 RefPtr
 <
 PerformanceGroup
