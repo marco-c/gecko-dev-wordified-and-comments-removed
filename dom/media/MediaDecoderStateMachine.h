@@ -3117,6 +3117,15 @@ uint32_t
 >
 mCorruptFrames
 ;
+MozPromiseRequestHolder
+<
+MediaDecoderReader
+:
+:
+BufferedUpdatePromise
+>
+mBufferedUpdateRequest
+;
 bool
 mDecodingFirstFrame
 ;
