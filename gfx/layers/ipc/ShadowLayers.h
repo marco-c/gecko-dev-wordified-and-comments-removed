@@ -231,14 +231,6 @@ this
 ;
 }
 virtual
-TextureForwarder
-*
-AsTextureForwarder
-(
-)
-override
-;
-virtual
 LegacySurfaceDescriptorAllocator
 *
 AsLegacySurfaceDescriptorAllocator
