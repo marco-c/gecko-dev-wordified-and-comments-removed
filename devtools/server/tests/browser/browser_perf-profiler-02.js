@@ -18,9 +18,9 @@ performance
 ;
 const
 {
-PMM_isProfilerActive
-PMM_stopProfiler
-PMM_loadFrameScripts
+pmmIsProfilerActive
+pmmStopProfiler
+pmmLoadFrameScripts
 }
 =
 require
@@ -105,7 +105,7 @@ connect
 (
 )
 ;
-PMM_loadFrameScripts
+pmmLoadFrameScripts
 (
 gBrowser
 )
@@ -167,7 +167,7 @@ connect
 (
 )
 ;
-PMM_loadFrameScripts
+pmmLoadFrameScripts
 (
 gBrowser
 )
@@ -196,7 +196,7 @@ ok
 (
 (
 yield
-PMM_isProfilerActive
+pmmIsProfilerActive
 (
 )
 )
@@ -233,7 +233,7 @@ ok
 !
 (
 yield
-PMM_isProfilerActive
+pmmIsProfilerActive
 (
 )
 )

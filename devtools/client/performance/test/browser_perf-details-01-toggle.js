@@ -225,7 +225,6 @@ calltree
 ;
 let
 [
-_
 viewName
 ]
 =
@@ -295,7 +294,6 @@ flamegraph
 )
 ;
 [
-_
 viewName
 ]
 =
@@ -363,7 +361,6 @@ waterfall
 )
 ;
 [
-_
 viewName
 ]
 =

@@ -5,9 +5,9 @@ strict
 ;
 const
 {
-PMM_loadFrameScripts
-PMM_isProfilerActive
-PMM_clearFrameScripts
+pmmLoadFrameScripts
+pmmIsProfilerActive
+pmmClearFrameScripts
 }
 =
 require
@@ -126,7 +126,7 @@ window
 }
 )
 ;
-PMM_loadFrameScripts
+pmmLoadFrameScripts
 (
 gBrowser
 )
@@ -136,7 +136,7 @@ ok
 !
 (
 yield
-PMM_isProfilerActive
+pmmIsProfilerActive
 (
 )
 )
@@ -167,7 +167,7 @@ ok
 (
 (
 yield
-PMM_isProfilerActive
+pmmIsProfilerActive
 (
 )
 )
@@ -196,7 +196,7 @@ ok
 (
 (
 yield
-PMM_isProfilerActive
+pmmIsProfilerActive
 (
 )
 )
@@ -221,7 +221,7 @@ teardownToolboxAndRemoveTab
 panel
 )
 ;
-PMM_clearFrameScripts
+pmmClearFrameScripts
 (
 )
 ;

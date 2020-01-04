@@ -250,11 +250,8 @@ ok
 DetailsView
 .
 components
-[
-"
+.
 waterfall
-"
-]
 .
 initialized
 "

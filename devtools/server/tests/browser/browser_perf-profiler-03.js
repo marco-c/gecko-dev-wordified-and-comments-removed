@@ -18,11 +18,11 @@ performance
 ;
 const
 {
-PMM_isProfilerActive
-PMM_startProfiler
-PMM_stopProfiler
-PMM_loadFrameScripts
-PMM_clearFrameScripts
+pmmIsProfilerActive
+pmmStartProfiler
+pmmStopProfiler
+pmmLoadFrameScripts
+pmmClearFrameScripts
 }
 =
 require
@@ -53,7 +53,7 @@ function
 (
 )
 {
-PMM_loadFrameScripts
+pmmLoadFrameScripts
 (
 gBrowser
 )
@@ -78,7 +78,7 @@ js
 ]
 ;
 yield
-PMM_startProfiler
+pmmStartProfiler
 (
 {
 entries
@@ -91,7 +91,7 @@ ok
 (
 (
 yield
-PMM_isProfilerActive
+pmmIsProfilerActive
 (
 )
 )
@@ -241,7 +241,7 @@ ok
 (
 (
 yield
-PMM_isProfilerActive
+pmmIsProfilerActive
 (
 )
 )
@@ -278,7 +278,7 @@ ok
 !
 (
 yield
-PMM_isProfilerActive
+pmmIsProfilerActive
 (
 )
 )
@@ -298,7 +298,7 @@ stopped
 "
 )
 ;
-PMM_clearFrameScripts
+pmmClearFrameScripts
 (
 )
 ;

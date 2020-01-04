@@ -127,5 +127,8 @@ appendChild
 element
 )
 ;
+return
+null
+;
 }
 ;

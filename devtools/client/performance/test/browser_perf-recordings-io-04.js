@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 TICKS_DATA
 =

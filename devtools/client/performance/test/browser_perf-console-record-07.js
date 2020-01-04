@@ -528,6 +528,9 @@ recording
 should
 not
 stop
+"
++
+"
 when
 calling
 console
@@ -560,6 +563,9 @@ recording
 should
 not
 stop
+"
++
+"
 when
 calling
 console
@@ -591,6 +597,9 @@ recent
 recording
 should
 stop
+"
++
+"
 when
 calling
 console
@@ -1096,6 +1105,9 @@ and
 no
 pending
 recordings
+"
++
+"
 does
 not
 throw

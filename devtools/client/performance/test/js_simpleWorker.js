@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 self
 .
 addEventListener
