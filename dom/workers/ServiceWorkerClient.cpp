@@ -1251,16 +1251,9 @@ return
 }
 aRv
 =
-workerPrivate
--
->
-DispatchToMainThread
+NS_DispatchToMainThread
 (
 runnable
-.
-forget
-(
-)
 )
 ;
 if
