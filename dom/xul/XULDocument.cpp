@@ -529,6 +529,13 @@ nsIContentPolicy
 .
 h
 "
+#
+include
+"
+mozAutoDocUpdate
+.
+h
+"
 using
 namespace
 mozilla
@@ -12032,6 +12039,15 @@ done
 "
 )
 ;
+{
+mozAutoDocUpdate
+updateBatch
+(
+this
+UPDATE_STYLE
+true
+)
+;
 uint32_t
 count
 =
@@ -12065,6 +12081,7 @@ i
 ]
 )
 ;
+}
 }
 mOverlaySheets
 .
