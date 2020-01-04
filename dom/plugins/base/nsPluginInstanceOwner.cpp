@@ -815,8 +815,6 @@ content
 false
 )
 ;
-mWaitingForPaint
-=
 nsContentUtils
 :
 :
@@ -824,6 +822,10 @@ AddScriptRunner
 (
 event
 )
+;
+mWaitingForPaint
+=
+true
 ;
 }
 }

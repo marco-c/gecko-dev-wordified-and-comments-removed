@@ -3033,7 +3033,7 @@ RemoveScriptBlocker
 )
 ;
 static
-bool
+void
 AddScriptRunner
 (
 already_AddRefed
@@ -3044,7 +3044,7 @@ aRunnable
 )
 ;
 static
-bool
+void
 AddScriptRunner
 (
 nsIRunnable

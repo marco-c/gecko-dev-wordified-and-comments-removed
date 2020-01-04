@@ -4598,9 +4598,6 @@ false
 else
 {
 }
-if
-(
-!
 nsContentUtils
 :
 :
@@ -4615,9 +4612,6 @@ content
 currentValue
 )
 )
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 return

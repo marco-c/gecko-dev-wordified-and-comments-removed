@@ -22637,7 +22637,7 @@ DOM
 )
 ;
 }
-bool
+void
 nsContentUtils
 :
 :
@@ -22665,7 +22665,6 @@ runnable
 )
 {
 return
-false
 ;
 }
 if
@@ -22673,7 +22672,6 @@ if
 sScriptBlockerCount
 )
 {
-return
 sBlockedScriptRunners
 -
 >
@@ -22685,9 +22683,8 @@ forget
 (
 )
 )
-!
-=
-nullptr
+;
+return
 ;
 }
 runnable
@@ -22697,11 +22694,8 @@ Run
 (
 )
 ;
-return
-true
-;
 }
-bool
+void
 nsContentUtils
 :
 :
@@ -22720,7 +22714,6 @@ runnable
 =
 aRunnable
 ;
-return
 AddScriptRunner
 (
 runnable
