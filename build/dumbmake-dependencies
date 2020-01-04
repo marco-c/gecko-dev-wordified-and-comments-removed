@@ -88,6 +88,12 @@ media
 profile
 services
 startupcache
+devtools
+/
+server
+devtools
+/
+shared
 browser
 /
 app
@@ -124,9 +130,6 @@ content
 toolkit
 /
 crashreporter
-devtools
-/
-shared
 toolkit
 /
 forgetaboutsite
