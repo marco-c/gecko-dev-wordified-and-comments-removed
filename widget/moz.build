@@ -531,6 +531,11 @@ EXPORTS
 =
 [
 '
+CompositorWidgetProxy
+.
+h
+'
+'
 ContentHelper
 .
 h
