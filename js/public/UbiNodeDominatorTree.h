@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DebugOnly
 .
 h
@@ -1180,6 +1189,7 @@ finger1
 ;
 }
 static
+MOZ_MUST_USE
 bool
 doTraversal
 (
@@ -1409,6 +1419,7 @@ onEdge
 ;
 }
 static
+MOZ_MUST_USE
 bool
 mapNodesToTheirIndices
 (
@@ -1500,6 +1511,7 @@ true
 ;
 }
 static
+MOZ_MUST_USE
 bool
 convertPredecessorSetsToVectors
 (
@@ -1781,6 +1793,7 @@ true
 ;
 }
 static
+MOZ_MUST_USE
 bool
 initializeDominators
 (
@@ -1922,6 +1935,7 @@ length
 )
 ;
 }
+MOZ_MUST_USE
 bool
 computeRetainedSizes
 (
@@ -2905,6 +2919,7 @@ idx
 )
 ;
 }
+MOZ_MUST_USE
 bool
 getRetainedSize
 (
