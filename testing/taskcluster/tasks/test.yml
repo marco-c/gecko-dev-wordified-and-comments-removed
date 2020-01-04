@@ -130,6 +130,16 @@ c4
 -
 2xlarge
 '
+-
+'
+docker
+-
+worker
+:
+feature
+:
+allowPtrace
+'
 payload
 :
 image

@@ -110,6 +110,11 @@ from_now
 }
 }
 '
+features
+:
+allowPtrace
+:
+true
 extra
 :
 treeherder
