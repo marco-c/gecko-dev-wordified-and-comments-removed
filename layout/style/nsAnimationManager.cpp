@@ -2206,6 +2206,14 @@ SetNeedStyleFlush
 ;
 }
 return
+mPresContext
+-
+>
+EffectCompositor
+(
+)
+-
+>
 GetAnimationRule
 (
 aElement
@@ -2215,6 +2223,7 @@ aStyleContext
 GetPseudoType
 (
 )
+cascadeLevel
 )
 ;
 }
