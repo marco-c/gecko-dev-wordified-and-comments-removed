@@ -2450,6 +2450,9 @@ bool
 mAudioEngineInit
 ;
 bool
+mFullDuplex
+;
+bool
 mHasTabVideoSource
 ;
 nsRefPtrHashtable
