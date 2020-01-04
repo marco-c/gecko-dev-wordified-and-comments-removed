@@ -123,17 +123,6 @@ gecko
 .
 util
 .
-Experiments
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-util
-.
 ThreadUtils
 ;
 import

@@ -71,8 +71,6 @@ mozilla
 .
 gecko
 .
-util
-.
 Experiments
 ;
 import

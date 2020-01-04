@@ -101,8 +101,6 @@ mozilla
 .
 gecko
 .
-util
-.
 Experiments
 ;
 public

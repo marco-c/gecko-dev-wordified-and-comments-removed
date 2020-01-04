@@ -4,8 +4,6 @@ org
 mozilla
 .
 gecko
-.
-util
 ;
 import
 android
@@ -45,15 +43,6 @@ keepsafe
 switchboard
 .
 SwitchBoard
-;
-import
-org
-.
-mozilla
-.
-gecko
-.
-GeckoSharedPrefs
 ;
 import
 java

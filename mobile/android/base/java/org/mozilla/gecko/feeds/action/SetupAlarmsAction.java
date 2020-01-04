@@ -93,8 +93,6 @@ mozilla
 .
 gecko
 .
-util
-.
 Experiments
 ;
 import
@@ -103,13 +101,6 @@ java
 text
 .
 DateFormat
-;
-import
-java
-.
-text
-.
-SimpleDateFormat
 ;
 import
 java
