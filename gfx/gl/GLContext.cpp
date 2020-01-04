@@ -11793,6 +11793,8 @@ start
 GLubyte
 *
 where
+;
+GLubyte
 *
 terminator
 ;
