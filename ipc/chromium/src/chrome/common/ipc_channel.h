@@ -30,12 +30,6 @@ IPC
 {
 class
 Channel
-:
-public
-Message
-:
-:
-Sender
 {
 friend
 class
@@ -213,7 +207,6 @@ Listener
 listener
 )
 ;
-virtual
 bool
 Send
 (
@@ -221,7 +214,6 @@ Message
 *
 message
 )
-override
 ;
 bool
 Unsound_IsClosed
