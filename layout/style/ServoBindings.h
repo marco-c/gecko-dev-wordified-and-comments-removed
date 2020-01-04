@@ -1266,6 +1266,9 @@ Gecko_GetStyleContext
 RawGeckoNode
 *
 node
+nsIAtom
+*
+aPseudoTagOrNull
 )
 ;
 nsChangeHint
@@ -1310,6 +1313,14 @@ size_t
 elem_size
 size_t
 elem_align
+)
+;
+void
+Gecko_ClearStyleContents
+(
+nsStyleContent
+*
+content
 )
 ;
 void
