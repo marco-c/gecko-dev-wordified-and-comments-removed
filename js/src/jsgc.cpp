@@ -6341,7 +6341,13 @@ roots
 .
 heapRoots_
 [
-THING_ROOT_TRACEABLE
+JS
+:
+:
+RootKind
+:
+:
+Traceable
 ]
 )
 ;
