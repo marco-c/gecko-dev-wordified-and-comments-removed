@@ -7468,6 +7468,7 @@ MOZ_ASSERT
 (
 aContent
 )
+;
 if
 (
 aContent
