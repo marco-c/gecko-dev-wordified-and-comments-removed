@@ -324,7 +324,7 @@ nsRefPtrHashtable
 nsPtrHashKey
 <
 const
-Accessible
+void
 >
 xpcAccessibleGeneric
 >
