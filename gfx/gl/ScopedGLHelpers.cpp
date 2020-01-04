@@ -207,7 +207,7 @@ IsSupported
 GLFeature
 :
 :
-framebuffer_blit
+split_framebuffer
 )
 )
 {
