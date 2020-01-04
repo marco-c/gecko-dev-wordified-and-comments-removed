@@ -51,7 +51,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -3057,7 +3059,7 @@ friend
 class
 TreeMutation
 ;
-nsAutoPtr
+UniquePtr
 <
 mozilla
 :
