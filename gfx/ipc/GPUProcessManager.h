@@ -234,12 +234,6 @@ base
 :
 ProcessId
 aOtherProcess
-ipc
-:
-:
-GeckoChildProcessHost
-*
-aSubprocess
 )
 ;
 already_AddRefed

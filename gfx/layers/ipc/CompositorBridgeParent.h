@@ -240,9 +240,6 @@ namespace
 ipc
 {
 class
-GeckoChildProcessHost
-;
-class
 Shmem
 ;
 }
@@ -1538,15 +1535,6 @@ Transport
 aTransport
 ProcessId
 aOtherProcess
-mozilla
-:
-:
-ipc
-:
-:
-GeckoChildProcessHost
-*
-aProcessHost
 )
 ;
 struct

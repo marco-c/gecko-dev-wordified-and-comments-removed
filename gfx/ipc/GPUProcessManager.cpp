@@ -581,12 +581,6 @@ base
 :
 ProcessId
 aOtherProcess
-ipc
-:
-:
-GeckoChildProcessHost
-*
-aSubprocess
 )
 {
 return
@@ -597,7 +591,6 @@ Create
 (
 aTransport
 aOtherProcess
-aSubprocess
 )
 ;
 }
