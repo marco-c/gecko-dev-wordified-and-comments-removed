@@ -3038,7 +3038,7 @@ attachment
 )
 {
 case
-LOCAL_GL_COLOR
+LOCAL_GL_BACK
 :
 case
 LOCAL_GL_DEPTH
@@ -3125,7 +3125,7 @@ if
 attachment
 =
 =
-LOCAL_GL_COLOR
+LOCAL_GL_BACK
 )
 return
 JS
@@ -3153,7 +3153,7 @@ if
 attachment
 =
 =
-LOCAL_GL_COLOR
+LOCAL_GL_BACK
 )
 return
 JS
