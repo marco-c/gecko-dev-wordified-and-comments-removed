@@ -1207,6 +1207,10 @@ mLineOrPageDeltaY
 (
 0
 )
+mScrollSeriesNumber
+(
+0
+)
 mIsMomentum
 (
 false
@@ -1269,6 +1273,9 @@ mLineOrPageDeltaX
 ;
 int32_t
 mLineOrPageDeltaY
+;
+uint32_t
+mScrollSeriesNumber
 ;
 bool
 mIsMomentum
