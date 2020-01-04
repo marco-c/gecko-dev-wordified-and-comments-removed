@@ -2706,6 +2706,16 @@ iterations
 ;
 timing
 .
+mIterationStart
+=
+animation
+.
+iterationStart
+(
+)
+;
+timing
+.
 mDirection
 =
 static_cast

@@ -232,6 +232,13 @@ mIterations
 .
 0
 ;
+double
+mIterationStart
+=
+0
+.
+0
+;
 StickyTimeDuration
 mDuration
 ;

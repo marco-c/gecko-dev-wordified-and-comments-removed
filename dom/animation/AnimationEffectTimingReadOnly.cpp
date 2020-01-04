@@ -110,6 +110,12 @@ aRhs
 .
 mIterations
 )
+mIterationStart
+(
+aRhs
+.
+mIterationStart
+)
 mDirection
 (
 aRhs
@@ -550,6 +556,14 @@ mIterations
 aOther
 .
 mIterations
+&
+&
+mIterationStart
+=
+=
+aOther
+.
+mIterationStart
 &
 &
 mDirection

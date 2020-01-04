@@ -204,6 +204,13 @@ mIterations
 .
 0
 ;
+double
+mIterationStart
+=
+0
+.
+0
+;
 dom
 :
 :
@@ -404,9 +411,9 @@ IterationStart
 const
 {
 return
-0
+mTiming
 .
-0
+mIterationStart
 ;
 }
 double

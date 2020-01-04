@@ -2583,6 +2583,17 @@ mIterations
 animation
 -
 >
+iterationStart
+(
+)
+=
+computedTiming
+.
+mIterationStart
+;
+animation
+-
+>
 direction
 (
 )
