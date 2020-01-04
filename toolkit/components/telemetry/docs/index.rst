@@ -81,6 +81,10 @@ Performance
 Adding_a_new_Telemetry_probe
 >
 _
+:
+doc
+:
+scalars
 and
 other
 data
@@ -157,6 +161,7 @@ common
 -
 ping
 environment
+scalars
 main
 -
 ping
