@@ -99,13 +99,6 @@ this
 ;
 }
 inline
-bool
-isDetached
-(
-)
-const
-;
-inline
 SharedMem
 <
 uint8_t
