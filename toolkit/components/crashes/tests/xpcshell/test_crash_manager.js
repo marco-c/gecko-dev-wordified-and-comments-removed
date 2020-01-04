@@ -1644,6 +1644,16 @@ TelemetryEnvironment
 .
 currentEnvironment
 ;
+theEnvironment
+.
+testValue
+=
+"
+MyValue
+\
+"
+"
+;
 let
 m
 =
