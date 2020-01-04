@@ -89,6 +89,11 @@ mType
 =
 eHTMLBRType
 ;
+mGenericTypes
+|
+=
+eText
+;
 }
 virtual
 a11y

@@ -1904,6 +1904,18 @@ eHTMLTextFieldType
 ;
 }
 bool
+IsText
+(
+)
+const
+{
+return
+mGenericTypes
+&
+eText
+;
+}
+bool
 IsTextLeaf
 (
 )
@@ -2913,7 +2925,7 @@ const
 uint8_t
 kGenericTypesBits
 =
-15
+16
 ;
 uint32_t
 mStateFlags

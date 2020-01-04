@@ -148,9 +148,15 @@ eTableRow
 <
 <
 14
+eText
+=
+1
+<
+<
+15
 eLastAccGenericType
 =
-eTableRow
+eText
 }
 ;
 }

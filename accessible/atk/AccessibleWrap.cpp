@@ -1038,13 +1038,8 @@ IsDefunct
 )
 |
 |
-!
-nsAccUtils
-:
-:
-IsEmbeddedObject
+IsText
 (
-this
 )
 )
 {
