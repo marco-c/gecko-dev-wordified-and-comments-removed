@@ -104,6 +104,14 @@ Shutdown
 (
 )
 {
+MOZ_DIAGNOSTIC_ASSERT
+(
+!
+IsDoc
+(
+)
+)
+;
 NS_ASSERTION
 (
 !
