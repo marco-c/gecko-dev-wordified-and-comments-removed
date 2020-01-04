@@ -53,14 +53,6 @@ upload
 ]
     
 "
-balrog_credentials_file
-"
-:
-"
-balrog_credentials
-"
-    
-"
 nightly_build
 "
 :
