@@ -44,6 +44,12 @@ class
 PathRecording
 ;
 const
+uint32_t
+kMagicInt
+=
+0xc001feed
+;
+const
 uint16_t
 kMajorRevision
 =
