@@ -661,6 +661,9 @@ getBoundMutationObservers
 (
 )
 ;
+#
+ifdef
+ACCESSIBILITY
 [
 Pref
 =
@@ -678,5 +681,7 @@ AccessibleNode
 ?
 accessibleNode
 ;
+#
+endif
 }
 ;
