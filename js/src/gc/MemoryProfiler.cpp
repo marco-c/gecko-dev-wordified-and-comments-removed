@@ -28,7 +28,11 @@ mozilla
 :
 Atomic
 <
-int
+uint32_t
+mozilla
+:
+:
+Relaxed
 >
 MemProfiler
 :

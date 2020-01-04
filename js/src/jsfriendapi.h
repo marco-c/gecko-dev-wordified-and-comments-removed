@@ -11270,7 +11270,11 @@ mozilla
 :
 Atomic
 <
-int
+uint32_t
+mozilla
+:
+:
+Relaxed
 >
 sActiveProfilerCount
 ;
@@ -11363,6 +11367,7 @@ mGCHeapProfiler
 ;
 }
 static
+MOZ_ALWAYS_INLINE
 bool
 enabled
 (
@@ -11399,6 +11404,7 @@ aProfiler
 ;
 }
 static
+MOZ_ALWAYS_INLINE
 void
 SampleNative
 (
@@ -11450,6 +11456,7 @@ size
 ;
 }
 static
+MOZ_ALWAYS_INLINE
 void
 SampleTenured
 (
@@ -11502,6 +11509,7 @@ size
 ;
 }
 static
+MOZ_ALWAYS_INLINE
 void
 SampleNursery
 (
@@ -11554,6 +11562,7 @@ size
 ;
 }
 static
+MOZ_ALWAYS_INLINE
 void
 RemoveNative
 (
@@ -11602,6 +11611,7 @@ addr
 ;
 }
 static
+MOZ_ALWAYS_INLINE
 void
 MarkTenuredStart
 (
@@ -11650,6 +11660,7 @@ markTenuredStart
 ;
 }
 static
+MOZ_ALWAYS_INLINE
 void
 MarkTenured
 (
@@ -11699,6 +11710,7 @@ addr
 ;
 }
 static
+MOZ_ALWAYS_INLINE
 void
 SweepTenured
 (
@@ -11747,6 +11759,7 @@ sweepTenured
 ;
 }
 static
+MOZ_ALWAYS_INLINE
 void
 SweepNursery
 (
@@ -11795,6 +11808,7 @@ sweepNursery
 ;
 }
 static
+MOZ_ALWAYS_INLINE
 void
 MoveNurseryToTenured
 (
