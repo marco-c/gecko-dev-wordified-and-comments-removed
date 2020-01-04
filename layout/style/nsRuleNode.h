@@ -4439,6 +4439,17 @@ nsTimingFunction
 aResult
 )
 ;
+static
+void
+FillAllBackgroundLists
+(
+nsStyleImageLayers
+&
+aLayers
+uint32_t
+aMaxItemCount
+)
+;
 private
 :
 #
