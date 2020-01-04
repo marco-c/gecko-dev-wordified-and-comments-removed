@@ -34223,8 +34223,6 @@ constraints
 RegExpObject
 *
 source
-bool
-mustClone
 )
 :
 source_
@@ -34233,7 +34231,7 @@ source
 )
 mustClone_
 (
-mustClone
+true
 )
 {
 setResultType
@@ -34274,8 +34272,6 @@ constraints
 RegExpObject
 *
 source
-bool
-mustClone
 )
 {
 return
@@ -34287,8 +34283,17 @@ MRegExp
 (
 constraints
 source
-mustClone
 )
+;
+}
+void
+setDoNotClone
+(
+)
+{
+mustClone_
+=
+false
 ;
 }
 bool
