@@ -4845,6 +4845,15 @@ fontData
 ;
 }
 return
+famData
+-
+>
+mFontInfo
+.
+mCanceled
+?
+0
+:
 1
 ;
 }
