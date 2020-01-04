@@ -505,6 +505,15 @@ default
 \
 macro
 (
+DefaultBaseClassConstructor
+DefaultBaseClassConstructor
+"
+DefaultBaseClassConstructor
+"
+)
+\
+macro
+(
 DefaultDerivedClassConstructor
 DefaultDerivedClassConstructor
 "
