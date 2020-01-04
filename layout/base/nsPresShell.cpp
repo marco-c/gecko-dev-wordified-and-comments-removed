@@ -1762,10 +1762,6 @@ aStr
 void
 DisplayDiffsInTotals
 (
-const
-char
-*
-aStr
 )
 ;
 void
@@ -44573,9 +44569,6 @@ mReflowCountMgr
 >
 DisplayDiffsInTotals
 (
-"
-Differences
-"
 )
 ;
 }
@@ -47713,10 +47706,6 @@ ReflowCountMgr
 :
 DisplayDiffsInTotals
 (
-const
-char
-*
-aStr
 )
 {
 if

@@ -1102,7 +1102,6 @@ presContext
 aRenderingContext
 this
 rect
-aDirtyRect
 )
 ;
 if

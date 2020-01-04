@@ -616,11 +616,6 @@ nsIFrame
 aResult
 bool
 aIsAppend
-bool
-aIsScrollbar
-nsILayoutHistoryState
-*
-aFrameState
 )
 ;
 nsContainerFrame
@@ -4256,10 +4251,6 @@ ConstructBlock
 nsFrameConstructorState
 &
 aState
-const
-nsStyleDisplay
-*
-aDisplay
 nsIContent
 *
 aContent

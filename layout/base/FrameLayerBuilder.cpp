@@ -3865,10 +3865,6 @@ DisplayItemClip
 &
 aClip
 const
-nsIntRegion
-&
-aLayerVisibleRegion
-const
 Maybe
 <
 size_t
@@ -20790,10 +20786,6 @@ aEntry
 mLayer
 *
 clip
-aEntry
--
->
-mVisibleRegion
 nextIndex
 clip
 -
@@ -27211,7 +27203,6 @@ CreateMaskLayer
 (
 aLayer
 aClip
-aLayerVisibleRegion
 Nothing
 (
 )
@@ -27264,10 +27255,6 @@ const
 DisplayItemClip
 &
 aClip
-const
-nsIntRegion
-&
-aLayerVisibleRegion
 const
 Maybe
 <

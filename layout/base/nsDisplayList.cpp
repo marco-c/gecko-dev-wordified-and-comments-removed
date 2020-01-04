@@ -6844,9 +6844,6 @@ static
 uint32_t
 GetWillChangeCost
 (
-nsIFrame
-*
-aFrame
 const
 nsSize
 &
@@ -7011,7 +7008,6 @@ cost
 =
 GetWillChangeCost
 (
-aFrame
 aSize
 )
 ;
@@ -7101,7 +7097,6 @@ AppendInt
 (
 GetWillChangeCost
 (
-aFrame
 aSize
 )
 )
@@ -18358,7 +18353,6 @@ mCaret
 >
 PaintCaret
 (
-aBuilder
 *
 aCtx
 -
@@ -19969,10 +19963,6 @@ presContext
 aCtx
 mFrame
 borderRect
-rects
-[
-i
-]
 )
 ;
 gfx

@@ -989,10 +989,6 @@ const
 nsRect
 &
 aFrameArea
-const
-nsRect
-&
-aDirtyRect
 )
 ;
 static

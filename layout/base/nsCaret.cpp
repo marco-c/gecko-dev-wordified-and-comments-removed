@@ -2496,9 +2496,6 @@ nsCaret
 :
 PaintCaret
 (
-nsDisplayListBuilder
-*
-aBuilder
 DrawTarget
 &
 aDrawTarget

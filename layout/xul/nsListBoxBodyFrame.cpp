@@ -4701,8 +4701,6 @@ startContent
 &
 topFrame
 isAppend
-false
-nullptr
 )
 ;
 mTopFrame
@@ -4976,8 +4974,6 @@ nextContent
 &
 result
 isAppend
-false
-nullptr
 )
 ;
 if

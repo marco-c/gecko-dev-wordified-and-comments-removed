@@ -10503,7 +10503,6 @@ frameItems
 ConstructBlock
 (
 state
-display
 aDocElement
 state
 .
@@ -19297,12 +19296,6 @@ blockItem
 ConstructBlock
 (
 aState
-scrolledContentStyle
--
->
-StyleDisplay
-(
-)
 content
 newFrame
 newFrame
@@ -19493,7 +19486,6 @@ styleContext
 ConstructBlock
 (
 aState
-aDisplay
 aItem
 .
 mContent
@@ -47274,11 +47266,6 @@ nsIFrame
 aNewFrame
 bool
 aIsAppend
-bool
-aIsScrollbar
-nsILayoutHistoryState
-*
-aFrameState
 )
 {
 #
@@ -47553,10 +47540,6 @@ ConstructBlock
 nsFrameConstructorState
 &
 aState
-const
-nsStyleDisplay
-*
-aDisplay
 nsIContent
 *
 aContent

@@ -254,9 +254,6 @@ aRect
 void
 PaintCaret
 (
-nsDisplayListBuilder
-*
-aBuilder
 DrawTarget
 &
 aDrawTarget
