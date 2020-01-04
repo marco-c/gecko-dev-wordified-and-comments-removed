@@ -3535,6 +3535,11 @@ explicit
 HitTestState
 (
 )
+:
+mInPreserves3D
+(
+false
+)
 {
 }
 ~
@@ -3562,6 +3567,9 @@ cleared
 )
 ;
 }
+bool
+mInPreserves3D
+;
 nsAutoTArray
 <
 nsDisplayItem
@@ -11935,6 +11943,9 @@ Matrix4x4
 &
 GetAccumulatedPreserved3DTransform
 (
+nsDisplayListBuilder
+*
+aBuilder
 )
 ;
 float
