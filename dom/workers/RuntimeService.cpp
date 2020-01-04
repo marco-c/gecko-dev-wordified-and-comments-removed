@@ -7166,11 +7166,6 @@ aCx
 queuedWorker
 )
 ;
-JS_ClearPendingException
-(
-aCx
-)
-;
 }
 }
 bool

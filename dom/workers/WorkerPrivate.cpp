@@ -5196,6 +5196,13 @@ args
 &
 rval
 )
+&
+&
+!
+JS_ReportPendingException
+(
+aCx
+)
 )
 {
 return
