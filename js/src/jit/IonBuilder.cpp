@@ -20387,6 +20387,7 @@ peek
 ;
 if
 (
+!
 jsop_compare
 (
 JSOP_STRICTEQ
