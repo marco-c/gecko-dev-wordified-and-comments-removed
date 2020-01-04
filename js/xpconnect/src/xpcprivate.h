@@ -8662,10 +8662,12 @@ JSTracer
 trc
 )
 {
-JS
-:
-:
-TraceNullableEdge
+if
+(
+mFlatJSObject
+)
+{
+JS_CallTenuredObjectTracer
 (
 trc
 &
@@ -8678,6 +8680,7 @@ mFlatJSObject
 "
 )
 ;
+}
 }
 static
 void

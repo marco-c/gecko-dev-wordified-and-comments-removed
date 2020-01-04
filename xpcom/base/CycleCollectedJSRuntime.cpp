@@ -3526,10 +3526,7 @@ aClosure
 const
 override
 {
-js
-:
-:
-UnsafeTraceManuallyBarrieredEdge
+JS_CallUnbarrieredObjectTracer
 (
 static_cast
 <
@@ -3569,10 +3566,7 @@ aClosure
 const
 override
 {
-JS
-:
-:
-TraceNullableEdge
+JS_CallTenuredObjectTracer
 (
 static_cast
 <
