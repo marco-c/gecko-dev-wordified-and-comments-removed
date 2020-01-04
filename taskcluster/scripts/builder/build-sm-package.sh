@@ -159,5 +159,7 @@ js
 gdb
 .
 py
+libmozjs
+*
 }
 UPLOAD_DIR
