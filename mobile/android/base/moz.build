@@ -3604,13 +3604,6 @@ TwoLinePageRow
 java
 '
 '
-home
-/
-UpdateViewFaviconLoadedListener
-.
-java
-'
-'
 icons
 /
 decoders
