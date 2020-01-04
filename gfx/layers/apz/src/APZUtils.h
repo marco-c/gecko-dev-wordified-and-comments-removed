@@ -70,7 +70,7 @@ Default
 ExcludeOverscroll
 =
 0x1
-RequestSnap
+ScrollSnap
 =
 0x2
 }
