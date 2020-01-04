@@ -18174,6 +18174,8 @@ PROFILE_GEN_LDFLAGS
 LTCG
 :
 PGINSTRUMENT
+-
+PogoSafeMode
 cgthreads
 "
 dnl
