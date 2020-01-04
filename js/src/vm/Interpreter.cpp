@@ -3055,7 +3055,7 @@ JSContext
 *
 cx
 const
-CallArgs
+AnyConstructArgs
 &
 args
 )
@@ -3136,6 +3136,9 @@ IsConstructor
 (
 args
 .
+CallArgs
+:
+:
 newTarget
 (
 )
@@ -3229,6 +3232,9 @@ MOZ_ASSERT
 (
 args
 .
+CallArgs
+:
+:
 rval
 (
 )
@@ -3371,7 +3377,15 @@ return
 InternalConstruct
 (
 cx
+static_cast
+<
+const
+AnyConstructArgs
+&
+>
+(
 args
+)
 )
 ;
 }
@@ -3387,7 +3401,7 @@ cx
 HandleValue
 fval
 const
-ConstructArgs
+AnyConstructArgs
 &
 args
 HandleValue
@@ -3398,6 +3412,9 @@ objp
 {
 args
 .
+CallArgs
+:
+:
 setCallee
 (
 fval
@@ -3405,6 +3422,9 @@ fval
 ;
 args
 .
+CallArgs
+:
+:
 setThis
 (
 MagicValue
@@ -3415,6 +3435,9 @@ JS_IS_CONSTRUCTING
 ;
 args
 .
+CallArgs
+:
+:
 newTarget
 (
 )
@@ -3440,6 +3463,9 @@ MOZ_ASSERT
 (
 args
 .
+CallArgs
+:
+:
 rval
 (
 )
@@ -3456,6 +3482,9 @@ set
 &
 args
 .
+CallArgs
+:
+:
 rval
 (
 )
@@ -3483,7 +3512,7 @@ fval
 HandleValue
 thisv
 const
-ConstructArgs
+AnyConstructArgs
 &
 args
 HandleValue
@@ -3494,6 +3523,9 @@ rval
 {
 args
 .
+CallArgs
+:
+:
 setCallee
 (
 fval
@@ -3510,6 +3542,9 @@ isObject
 ;
 args
 .
+CallArgs
+:
+:
 setThis
 (
 thisv
@@ -3517,6 +3552,9 @@ thisv
 ;
 args
 .
+CallArgs
+:
+:
 newTarget
 (
 )
@@ -3544,6 +3582,9 @@ set
 (
 args
 .
+CallArgs
+:
+:
 rval
 (
 )
