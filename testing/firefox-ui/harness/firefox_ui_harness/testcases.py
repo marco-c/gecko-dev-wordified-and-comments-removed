@@ -17,6 +17,12 @@ marionette_driver
 import
 Wait
 from
+marionette_driver
+.
+errors
+import
+NoSuchWindowException
+from
 firefox_puppeteer
 .
 api
@@ -1933,6 +1939,24 @@ self
         
 dialog
 =
+Wait
+(
+self
+.
+marionette
+ignored_exceptions
+=
+[
+NoSuchWindowException
+]
+)
+.
+until
+(
+            
+lambda
+_
+:
 self
 .
 windows
@@ -1948,6 +1972,8 @@ win
 )
 is
 UpdateWizardDialog
+)
+        
 )
         
 if
