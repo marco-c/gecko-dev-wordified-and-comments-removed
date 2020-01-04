@@ -3113,10 +3113,6 @@ c
 c
 .
 expires
-.
-getTime
-(
-)
 >
 Date
 .

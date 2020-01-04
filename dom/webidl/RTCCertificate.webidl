@@ -129,7 +129,7 @@ RTCCertificate
 {
 readonly
 attribute
-Date
+DOMTimeStamp
 expires
 ;
 }
