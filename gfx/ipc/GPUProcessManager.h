@@ -520,6 +520,11 @@ EnsureImageBridgeChild
 (
 )
 ;
+void
+EnsureVRManager
+(
+)
+;
 RefPtr
 <
 CompositorSession

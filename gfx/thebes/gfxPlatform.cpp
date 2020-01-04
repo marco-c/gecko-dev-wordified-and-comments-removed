@@ -4227,16 +4227,6 @@ StartUp
 ;
 #
 endif
-gfx
-:
-:
-VRManagerChild
-:
-:
-StartUpSameProcess
-(
-)
-;
 }
 }
 void

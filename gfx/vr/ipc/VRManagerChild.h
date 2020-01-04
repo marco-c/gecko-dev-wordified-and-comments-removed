@@ -85,7 +85,7 @@ aNavigator
 ;
 static
 void
-StartUpSameProcess
+InitSameProcess
 (
 )
 ;
