@@ -92,7 +92,6 @@ CameraPreviewMediaStream
 (
 )
 ;
-virtual
 void
 AddAudioOutput
 (
@@ -102,7 +101,6 @@ aKey
 )
 override
 ;
-virtual
 void
 SetAudioOutputVolume
 (
@@ -114,7 +112,6 @@ aVolume
 )
 override
 ;
-virtual
 void
 RemoveAudioOutput
 (
@@ -124,27 +121,28 @@ aKey
 )
 override
 ;
-virtual
 void
 AddVideoOutput
 (
 MediaStreamVideoSink
 *
 aSink
+TrackID
+aID
 )
 override
 ;
-virtual
 void
 RemoveVideoOutput
 (
 MediaStreamVideoSink
 *
 aSink
+TrackID
+aID
 )
 override
 ;
-virtual
 void
 Suspend
 (
@@ -152,7 +150,6 @@ Suspend
 override
 {
 }
-virtual
 void
 Resume
 (
@@ -160,7 +157,6 @@ Resume
 override
 {
 }
-virtual
 void
 AddListener
 (
@@ -170,7 +166,6 @@ aListener
 )
 override
 ;
-virtual
 void
 RemoveListener
 (
@@ -180,7 +175,6 @@ aListener
 )
 override
 ;
-virtual
 void
 Destroy
 (
