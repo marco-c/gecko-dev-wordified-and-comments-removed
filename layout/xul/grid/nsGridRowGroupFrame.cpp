@@ -147,7 +147,7 @@ GetXULFlex
 ;
 child
 =
-GetNextBox
+GetNextXULBox
 (
 child
 )

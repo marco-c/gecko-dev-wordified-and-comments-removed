@@ -760,7 +760,7 @@ box
 ;
 box
 =
-GetNextBox
+GetNextXULBox
 (
 box
 )

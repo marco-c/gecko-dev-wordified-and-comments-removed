@@ -600,7 +600,7 @@ box
 ;
 box
 =
-GetNextBox
+GetNextXULBox
 (
 box
 )
@@ -4134,7 +4134,7 @@ nsIFrame
 nsBox
 :
 :
-GetNextBox
+GetNextXULBox
 (
 const
 nsIFrame
@@ -4350,7 +4350,7 @@ hit
 }
 child
 =
-GetNextBox
+GetNextXULBox
 (
 child
 )

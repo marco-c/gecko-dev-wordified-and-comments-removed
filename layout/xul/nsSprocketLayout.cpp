@@ -680,7 +680,7 @@ child
 nsBox
 :
 :
-GetNextBox
+GetNextXULBox
 (
 child
 )
@@ -2144,7 +2144,7 @@ child
 nsBox
 :
 :
-GetNextBox
+GetNextXULBox
 (
 child
 )
@@ -2442,7 +2442,7 @@ child
 nsBox
 :
 :
-GetNextBox
+GetNextXULBox
 (
 child
 )
@@ -2702,7 +2702,7 @@ aFlexes
 ;
 child
 =
-GetNextBox
+GetNextXULBox
 (
 child
 )
@@ -3225,7 +3225,7 @@ child
 nsBox
 :
 :
-GetNextBox
+GetNextXULBox
 (
 child
 )
@@ -3983,7 +3983,7 @@ child
 nsBox
 :
 :
-GetNextBox
+GetNextXULBox
 (
 child
 )
@@ -5325,7 +5325,7 @@ child
 nsBox
 :
 :
-GetNextBox
+GetNextXULBox
 (
 child
 )
@@ -5589,7 +5589,7 @@ child
 nsBox
 :
 :
-GetNextBox
+GetNextXULBox
 (
 child
 )
@@ -5819,7 +5819,7 @@ child
 nsBox
 :
 :
-GetNextBox
+GetNextXULBox
 (
 child
 )
@@ -6002,7 +6002,7 @@ child
 nsBox
 :
 :
-GetNextBox
+GetNextXULBox
 (
 child
 )
