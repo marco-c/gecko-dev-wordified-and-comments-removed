@@ -296,7 +296,7 @@ Total
 )
 ;
 return
-BaseFloatRegisters
+FloatRegistersMIPSShared
 :
 :
 GetName
