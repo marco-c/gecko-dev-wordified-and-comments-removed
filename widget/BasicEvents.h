@@ -1238,7 +1238,7 @@ aIsTrusted
 aMessage
 aEventClassID
 )
-widget
+mWidget
 (
 aWidget
 )
@@ -1280,7 +1280,7 @@ aIsTrusted
 aMessage
 eGUIEventClass
 )
-widget
+mWidget
 (
 aWidget
 )
@@ -1351,7 +1351,7 @@ nsCOMPtr
 <
 nsIWidget
 >
-widget
+mWidget
 ;
 class
 PluginEvent

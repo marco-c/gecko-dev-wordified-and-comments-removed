@@ -5608,7 +5608,7 @@ aEvent
 ;
 localEvent
 .
-widget
+mWidget
 =
 widget
 ;
@@ -5677,7 +5677,7 @@ aEvent
 ;
 localEvent
 .
-widget
+mWidget
 =
 widget
 ;
@@ -5746,7 +5746,7 @@ aEvent
 ;
 localEvent
 .
-widget
+mWidget
 =
 widget
 ;
@@ -9231,7 +9231,7 @@ aEvent
 ;
 localEvent
 .
-widget
+mWidget
 =
 GetWidget
 (

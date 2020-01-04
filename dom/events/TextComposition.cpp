@@ -401,7 +401,7 @@ IsValidStateForComposition
 aCompositionEvent
 -
 >
-widget
+mWidget
 )
 )
 {
@@ -436,7 +436,7 @@ IsValidStateForComposition
 aCompositionEvent
 -
 >
-widget
+mWidget
 )
 ;
 }
@@ -473,7 +473,7 @@ IsValidStateForComposition
 aCompositionEvent
 -
 >
-widget
+mWidget
 )
 "
 Should
@@ -505,7 +505,7 @@ aMessage
 aCompositionEvent
 -
 >
-widget
+mWidget
 )
 ;
 compositionEvent
@@ -1242,7 +1242,7 @@ IsValidStateForComposition
 aCompositionEvent
 -
 >
-widget
+mWidget
 )
 )
 {
@@ -1579,7 +1579,7 @@ IsValidStateForComposition
 aCompositionEvent
 -
 >
-widget
+mWidget
 )
 )
 {

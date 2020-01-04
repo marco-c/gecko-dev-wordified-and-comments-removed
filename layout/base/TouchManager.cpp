@@ -334,12 +334,6 @@ widget
 ;
 event
 .
-widget
-=
-widget
-;
-event
-.
 mTime
 =
 PR_IntervalNow

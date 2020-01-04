@@ -3660,7 +3660,7 @@ eQuerySelectedText
 compositionEvent
 -
 >
-widget
+mWidget
 )
 ;
 HandleQueryContentEvent
@@ -6808,10 +6808,12 @@ if
 inDownEvent
 -
 >
-widget
+mWidget
 )
+{
 return
 ;
+}
 mGestureDownPoint
 =
 inDownEvent
@@ -6822,7 +6824,7 @@ refPoint
 inDownEvent
 -
 >
-widget
+mWidget
 -
 >
 WidgetToScreenOffset
@@ -6953,7 +6955,7 @@ NS_ASSERTION
 aEvent
 -
 >
-widget
+mWidget
 =
 =
 mCurrentTarget
@@ -6980,7 +6982,7 @@ mGestureDownPoint
 aEvent
 -
 >
-widget
+mWidget
 -
 >
 WidgetToScreenOffset
@@ -7199,7 +7201,7 @@ refPoint
 aEvent
 -
 >
-widget
+mWidget
 -
 >
 WidgetToScreenOffset
@@ -9730,7 +9732,7 @@ eLegacyMouseLineOrPageScroll
 aEvent
 -
 >
-widget
+mWidget
 )
 ;
 event
@@ -9761,15 +9763,6 @@ aEvent
 -
 >
 refPoint
-;
-event
-.
-widget
-=
-aEvent
--
->
-widget
 ;
 event
 .
@@ -9975,7 +9968,7 @@ eLegacyMousePixelScroll
 aEvent
 -
 >
-widget
+mWidget
 )
 ;
 event
@@ -10006,15 +9999,6 @@ aEvent
 -
 >
 refPoint
-;
-event
-.
-widget
-=
-aEvent
--
->
-widget
 ;
 event
 .
@@ -14703,7 +14687,7 @@ if
 mouseEvent
 -
 >
-widget
+mWidget
 )
 {
 event
@@ -14714,7 +14698,7 @@ refPoint
 mouseEvent
 -
 >
-widget
+mWidget
 -
 >
 WidgetToScreenOffset
@@ -16344,7 +16328,7 @@ aMessage
 aMouseEvent
 -
 >
-widget
+mWidget
 )
 ;
 newPointerEvent
@@ -16443,7 +16427,7 @@ aMessage
 aMouseEvent
 -
 >
-widget
+mWidget
 WidgetMouseEvent
 :
 :
@@ -17896,7 +17880,7 @@ sIsPointerLocked
 aMouseEvent
 -
 >
-widget
+mWidget
 )
 {
 LayoutDeviceIntPoint
@@ -17907,7 +17891,7 @@ GetWindowClientRectCenter
 aMouseEvent
 -
 >
-widget
+mWidget
 )
 ;
 aMouseEvent
@@ -17935,7 +17919,7 @@ center
 aMouseEvent
 -
 >
-widget
+mWidget
 -
 >
 SynthesizeNativeMouseMove
@@ -17945,7 +17929,7 @@ center
 aMouseEvent
 -
 >
-widget
+mWidget
 -
 >
 WidgetToScreenOffset
@@ -18172,7 +18156,7 @@ GetTopLevelWidget
 aMouseEvent
 -
 >
-widget
+mWidget
 )
 !
 =
@@ -18757,7 +18741,7 @@ aMessage
 aDragEvent
 -
 >
-widget
+mWidget
 )
 ;
 event
@@ -18940,7 +18924,7 @@ aMessage
 aDragEvent
 -
 >
-widget
+mWidget
 )
 ;
 remoteEvent
@@ -19482,14 +19466,14 @@ if
 aEvent
 -
 >
-widget
+mWidget
 &
 &
 !
 aEvent
 -
 >
-widget
+mWidget
 -
 >
 IsEnabled
@@ -19542,7 +19526,7 @@ eMouseClick
 aEvent
 -
 >
-widget
+mWidget
 WidgetMouseEvent
 :
 :
@@ -19756,7 +19740,7 @@ eMouseDoubleClick
 aEvent
 -
 >
-widget
+mWidget
 WidgetMouseEvent
 :
 :

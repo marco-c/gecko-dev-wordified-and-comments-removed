@@ -482,7 +482,7 @@ rv
 aEvent
 -
 >
-widget
+mWidget
 -
 >
 BeginResizeDrag
@@ -551,7 +551,7 @@ refPoint
 aEvent
 -
 >
-widget
+mWidget
 -
 >
 WidgetToScreenOffset
@@ -735,7 +735,7 @@ refPoint
 aEvent
 -
 >
-widget
+mWidget
 -
 >
 WidgetToScreenOffset

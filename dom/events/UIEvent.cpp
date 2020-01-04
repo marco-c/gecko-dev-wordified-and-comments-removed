@@ -596,7 +596,7 @@ AsGUIEvent
 )
 -
 >
-widget
+mWidget
 )
 {
 return

@@ -1484,7 +1484,7 @@ stdout
 event
 -
 >
-widget
+mWidget
 event
 "
 PuppetWidget

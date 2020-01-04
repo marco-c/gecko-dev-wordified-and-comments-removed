@@ -2199,12 +2199,12 @@ if
 (
 aEvent
 .
-widget
+mWidget
 )
 {
 aEvent
 .
-widget
+mWidget
 -
 >
 DispatchEvent
@@ -2271,7 +2271,7 @@ event
 (
 true
 aMsg
-nullptr
+aWidget
 WidgetMouseEvent
 :
 :
@@ -2346,12 +2346,6 @@ event
 mModifiers
 =
 aModifiers
-;
-event
-.
-widget
-=
-aWidget
 ;
 return
 DispatchWidgetEvent

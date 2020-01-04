@@ -4945,13 +4945,11 @@ nsCOMPtr
 nsIWidget
 >
 kungFuDeathGrip
-=
-do_QueryInterface
 (
 aEvent
 -
 >
-widget
+mWidget
 )
 ;
 if

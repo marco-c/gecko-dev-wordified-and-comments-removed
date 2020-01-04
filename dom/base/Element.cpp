@@ -9319,7 +9319,7 @@ eMouseClick
 aSourceEvent
 -
 >
-widget
+mWidget
 WidgetMouseEvent
 :
 :

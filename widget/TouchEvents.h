@@ -289,7 +289,7 @@ aOther
 mMessage
 aOther
 .
-widget
+mWidget
 eSimpleGestureEventClass
 )
 allowedDirections
@@ -510,7 +510,7 @@ aOther
 mMessage
 aOther
 .
-widget
+mWidget
 eTouchEventClass
 )
 {

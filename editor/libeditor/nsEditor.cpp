@@ -21116,7 +21116,7 @@ widgetGUIEvent
 widgetGUIEvent
 -
 >
-widget
+mWidget
 )
 )
 {

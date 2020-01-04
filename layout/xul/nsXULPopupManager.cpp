@@ -3052,7 +3052,7 @@ AsGUIEvent
 )
 -
 >
-widget
+mWidget
 )
 {
 nsCOMPtr
@@ -6516,7 +6516,7 @@ getter_AddRefs
 (
 event
 .
-widget
+mWidget
 )
 )
 ;
@@ -6525,7 +6525,7 @@ else
 {
 event
 .
-widget
+mWidget
 =
 nullptr
 ;

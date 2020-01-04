@@ -3137,7 +3137,7 @@ DefaultPrevented
 aMouseEvent
 -
 >
-widget
+mWidget
 )
 {
 return
@@ -3207,7 +3207,7 @@ eQueryCharacterAtPoint
 aMouseEvent
 -
 >
-widget
+mWidget
 )
 ;
 charAtPt
@@ -3333,7 +3333,7 @@ if
 aMouseEvent
 -
 >
-widget
+mWidget
 !
 =
 mWidget
@@ -3347,7 +3347,7 @@ refPoint
 aMouseEvent
 -
 >
-widget
+mWidget
 -
 >
 WidgetToScreenOffset

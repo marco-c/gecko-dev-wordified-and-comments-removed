@@ -16010,7 +16010,7 @@ GetViewFor
 aEvent
 -
 >
-widget
+mWidget
 )
 ;
 if
@@ -30210,7 +30210,7 @@ mPresContext
 aEvent
 -
 >
-widget
+mWidget
 aEvent
 -
 >
@@ -30287,7 +30287,7 @@ this
 aEvent
 -
 >
-widget
+mWidget
 )
 ;
 }
@@ -30396,7 +30396,7 @@ this
 aEvent
 -
 >
-widget
+mWidget
 )
 ;
 printf
@@ -30938,7 +30938,7 @@ pointerMessage
 touchEvent
 -
 >
-widget
+mWidget
 )
 ;
 event
@@ -31600,7 +31600,7 @@ IsTrusted
 message
 aEvent
 .
-widget
+mWidget
 )
 ;
 beforeEvent
@@ -31783,7 +31783,7 @@ IsTrusted
 message
 aEvent
 .
-widget
+mWidget
 )
 ;
 afterEvent
@@ -31955,14 +31955,14 @@ aEvent
 aEvent
 -
 >
-widget
+mWidget
 &
 &
 !
 aEvent
 -
 >
-widget
+mWidget
 -
 >
 Destroyed
@@ -37624,7 +37624,7 @@ mMessage
 touchEvent
 -
 >
-widget
+mWidget
 )
 ;
 newEvent
@@ -38049,7 +38049,7 @@ GetNearestWidget
 aEvent
 -
 >
-widget
+mWidget
 =
 widget
 ;
@@ -38161,7 +38161,7 @@ getter_AddRefs
 aEvent
 -
 >
-widget
+mWidget
 )
 )
 ;
@@ -38170,7 +38170,7 @@ if
 aEvent
 -
 >
-widget
+mWidget
 )
 {
 nsPoint
@@ -38220,7 +38220,7 @@ GetOffsetToWidget
 aEvent
 -
 >
-widget
+mWidget
 )
 ;
 aEvent
@@ -38250,7 +38250,7 @@ else
 aEvent
 -
 >
-widget
+mWidget
 =
 nullptr
 ;
@@ -38265,7 +38265,7 @@ PrepareToUseCaretPosition
 aEvent
 -
 >
-widget
+mWidget
 caretPoint
 )
 )
@@ -38338,7 +38338,7 @@ refPoint
 aEvent
 -
 >
-widget
+mWidget
 )
 ;
 if
@@ -43770,7 +43770,7 @@ mEvent
 mEvent
 -
 >
-widget
+mWidget
 )
 {
 return
@@ -43785,7 +43785,7 @@ widget
 mEvent
 -
 >
-widget
+mWidget
 ;
 nsEventStatus
 status
@@ -43837,7 +43837,7 @@ mMessage
 aEvent
 -
 >
-widget
+mWidget
 aEvent
 -
 >
@@ -43900,7 +43900,7 @@ mMessage
 aEvent
 -
 >
-widget
+mWidget
 )
 ;
 keyEvent

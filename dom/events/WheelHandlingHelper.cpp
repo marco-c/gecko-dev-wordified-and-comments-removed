@@ -1397,11 +1397,11 @@ NS_ASSERTION
 aEvent
 -
 >
-widget
+mWidget
 "
 aEvent
 -
-widget
+mWidget
 is
 null
 "
@@ -1417,7 +1417,7 @@ refPoint
 aEvent
 -
 >
-widget
+mWidget
 -
 >
 WidgetToScreenOffset

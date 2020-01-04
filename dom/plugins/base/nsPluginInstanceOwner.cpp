@@ -11763,7 +11763,7 @@ widget
 =
 anEvent
 .
-widget
+mWidget
 ;
 XEvent
 pluginEvent

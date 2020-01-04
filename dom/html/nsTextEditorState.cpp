@@ -3470,7 +3470,7 @@ widget
 keyEvent
 -
 >
-widget
+mWidget
 ;
 if
 (

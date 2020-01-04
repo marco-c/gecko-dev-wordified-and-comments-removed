@@ -5523,12 +5523,12 @@ if
 (
 aEvent
 .
-widget
+mWidget
 &
 &
 aEvent
 .
-widget
+mWidget
 -
 >
 PluginHasFocus
