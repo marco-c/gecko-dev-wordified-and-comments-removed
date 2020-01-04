@@ -189,6 +189,16 @@ gl
 :
 GLContext
 >
+mGL_OnlyClearInDestroyResourcesAndContext
+;
+public
+:
+const
+decltype
+(
+mGL_OnlyClearInDestroyResourcesAndContext
+)
+&
 gl
 ;
 }
