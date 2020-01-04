@@ -148,7 +148,7 @@ h
 #
 include
 "
-SourceBufferContentManager
+TrackBuffersManager
 .
 h
 "
@@ -183,9 +183,6 @@ T
 >
 class
 AsyncEventRunner
-;
-class
-TrackBuffersManager
 ;
 namespace
 dom
@@ -892,9 +889,9 @@ mMediaSource
 ;
 RefPtr
 <
-SourceBufferContentManager
+TrackBuffersManager
 >
-mContentManager
+mTrackBuffersManager
 ;
 RefPtr
 <
@@ -916,7 +913,7 @@ mActive
 ;
 MozPromiseRequestHolder
 <
-SourceBufferContentManager
+TrackBuffersManager
 :
 :
 AppendPromise

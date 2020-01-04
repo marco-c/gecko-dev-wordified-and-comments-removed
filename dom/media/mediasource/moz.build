@@ -93,7 +93,7 @@ MediaSourceDemuxer
 h
 '
 '
-SourceBufferContentManager
+TrackBuffersManager
 .
 h
 '
@@ -158,11 +158,6 @@ cpp
 '
 '
 SourceBuffer
-.
-cpp
-'
-'
-SourceBufferContentManager
 .
 cpp
 '
