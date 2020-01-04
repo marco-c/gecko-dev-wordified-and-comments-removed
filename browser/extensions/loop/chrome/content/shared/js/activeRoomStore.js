@@ -127,6 +127,7 @@ ActiveRoomStore
 (
 function
 (
+mozL10n
 )
 {
 "
@@ -2519,6 +2520,14 @@ this
 _storeState
 .
 roomToken
+mozL10n
+.
+get
+(
+"
+display_name_guest
+"
+)
 )
 .
 then
@@ -4415,5 +4424,13 @@ ActiveRoomStore
 }
 )
 (
+navigator
+.
+mozL10n
+|
+|
+document
+.
+mozL10n
 )
 ;

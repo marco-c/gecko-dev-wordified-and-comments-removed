@@ -101,9 +101,9 @@ equal
 pageListeners2
 .
 length
-2
+3
 "
-Two
+Three
 page
 listeners
 should
