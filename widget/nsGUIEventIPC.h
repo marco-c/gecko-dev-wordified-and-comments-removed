@@ -981,7 +981,7 @@ WriteParam
 aMsg
 aParam
 .
-deltaMode
+mDeltaMode
 )
 ;
 WriteParam
@@ -1174,7 +1174,7 @@ aIter
 aResult
 -
 >
-deltaMode
+mDeltaMode
 )
 &
 &

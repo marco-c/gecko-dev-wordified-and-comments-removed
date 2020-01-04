@@ -3385,7 +3385,7 @@ SB_PAGEDOWN
 :
 wheelEvent
 .
-deltaMode
+mDeltaMode
 =
 nsIDOMWheelEvent
 :
@@ -3414,7 +3414,7 @@ SB_LINEDOWN
 :
 wheelEvent
 .
-deltaMode
+mDeltaMode
 =
 nsIDOMWheelEvent
 :
@@ -4100,7 +4100,7 @@ mIsVertical
 ;
 aWheelEvent
 .
-deltaMode
+mDeltaMode
 =
 mIsPage
 ?
@@ -4213,7 +4213,7 @@ if
 (
 aWheelEvent
 .
-deltaMode
+mDeltaMode
 !
 =
 nsIDOMWheelEvent

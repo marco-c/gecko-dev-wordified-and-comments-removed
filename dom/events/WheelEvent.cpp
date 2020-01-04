@@ -82,7 +82,7 @@ if
 aWheelEvent
 -
 >
-deltaMode
+mDeltaMode
 =
 =
 nsIDOMWheelEvent
@@ -268,7 +268,7 @@ aDeltaZ
 wheelEvent
 -
 >
-deltaMode
+mDeltaMode
 =
 aDeltaMode
 ;
@@ -431,7 +431,7 @@ AsWheelEvent
 )
 -
 >
-deltaMode
+mDeltaMode
 ;
 }
 already_AddRefed

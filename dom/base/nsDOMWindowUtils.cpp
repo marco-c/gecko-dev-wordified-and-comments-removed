@@ -3571,7 +3571,7 @@ aDeltaZ
 ;
 wheelEvent
 .
-deltaMode
+mDeltaMode
 =
 aDeltaMode
 ;

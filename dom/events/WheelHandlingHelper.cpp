@@ -1504,7 +1504,7 @@ if
 aEvent
 -
 >
-deltaMode
+mDeltaMode
 !
 =
 nsIDOMWheelEvent
@@ -1702,7 +1702,7 @@ MOZ_ASSERT
 aEvent
 -
 >
-deltaMode
+mDeltaMode
 =
 =
 nsIDOMWheelEvent

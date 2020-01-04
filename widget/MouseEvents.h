@@ -1426,7 +1426,7 @@ mDeltaZ
 .
 0
 )
-deltaMode
+mDeltaMode
 (
 nsIDOMWheelEvent
 :
@@ -1533,7 +1533,7 @@ mDeltaZ
 .
 0
 )
-deltaMode
+mDeltaMode
 (
 nsIDOMWheelEvent
 :
@@ -1689,7 +1689,7 @@ double
 mDeltaZ
 ;
 uint32_t
-deltaMode
+mDeltaMode
 ;
 bool
 customizedByUserPrefs
@@ -1864,11 +1864,11 @@ aEvent
 .
 mDeltaZ
 ;
-deltaMode
+mDeltaMode
 =
 aEvent
 .
-deltaMode
+mDeltaMode
 ;
 customizedByUserPrefs
 =

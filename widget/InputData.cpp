@@ -1709,7 +1709,7 @@ buttons
 ;
 wheelEvent
 .
-deltaMode
+mDeltaMode
 =
 nsIDOMWheelEvent
 :
@@ -2013,7 +2013,7 @@ DeltaTypeForDeltaMode
 (
 aWheelEvent
 .
-deltaMode
+mDeltaMode
 )
 )
 mScrollMode
@@ -2175,7 +2175,7 @@ buttons
 ;
 wheelEvent
 .
-deltaMode
+mDeltaMode
 =
 DeltaModeForDeltaType
 (
