@@ -1133,6 +1133,9 @@ mResizeSuppressed
 int64_t
 mMostRecentRefreshEpochTime
 ;
+uint64_t
+mWarningThreshold
+;
 mozilla
 :
 :
