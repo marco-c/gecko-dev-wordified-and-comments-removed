@@ -22104,6 +22104,14 @@ value
 isObject
 (
 )
+&
+&
+!
+value
+.
+isSymbol
+(
+)
 ;
 }
 static
