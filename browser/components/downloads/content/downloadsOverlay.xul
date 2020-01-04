@@ -1189,6 +1189,9 @@ downloadsPanelFooter
 "
 >
 <
+stack
+>
+<
 hbox
 id
 =
@@ -1523,6 +1526,10 @@ button
 <
 /
 hbox
+>
+<
+/
+stack
 >
 <
 /
