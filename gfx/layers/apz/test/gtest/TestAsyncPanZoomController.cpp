@@ -4972,6 +4972,9 @@ scale
 ;
 EXPECT_LT
 (
+std
+:
+:
 abs
 (
 fm
@@ -4989,6 +4992,9 @@ x
 ;
 EXPECT_LT
 (
+std
+:
+:
 abs
 (
 fm
