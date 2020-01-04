@@ -303,6 +303,13 @@ private
 void
 Process
 (
+const
+RefPtr
+<
+DocAccessible
+>
+&
+aDeathGrip
 )
 ;
 EventTree
