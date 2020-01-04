@@ -1241,8 +1241,13 @@ JUMP_OFFSET_LEN
 MOZ_ASSERT
 (
 high
->
+-
 low
++
+1
+>
+=
+0
 )
 ;
 size_t
