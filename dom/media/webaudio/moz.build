@@ -176,11 +176,6 @@ AudioBlock
 h
 '
 '
-AudioContext
-.
-h
-'
-'
 AudioEventTimeline
 .
 h

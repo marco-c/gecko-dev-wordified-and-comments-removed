@@ -14094,6 +14094,9 @@ aOperation
 )
 {
 case
+AudioContextOperation
+:
+:
 Suspend
 :
 state
@@ -14106,6 +14109,9 @@ Suspended
 break
 ;
 case
+AudioContextOperation
+:
+:
 Resume
 :
 state
@@ -14118,6 +14124,9 @@ Running
 break
 ;
 case
+AudioContextOperation
+:
+:
 Close
 :
 state
