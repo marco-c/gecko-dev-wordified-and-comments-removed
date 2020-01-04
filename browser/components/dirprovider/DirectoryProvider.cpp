@@ -559,6 +559,7 @@ rv
 &
 exists
 )
+{
 array
 .
 AppendObject
@@ -568,6 +569,7 @@ defLocalePlugins
 ;
 return
 ;
+}
 }
 }
 nsCString
