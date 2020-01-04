@@ -559,6 +559,9 @@ override
 nsresult
 Restart
 (
+BaseAllocationHandle
+*
+aHandle
 const
 dom
 :
@@ -2097,6 +2100,9 @@ override
 nsresult
 Restart
 (
+BaseAllocationHandle
+*
+aHandle
 const
 dom
 :
