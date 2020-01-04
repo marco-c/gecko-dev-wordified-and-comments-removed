@@ -109,11 +109,13 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 content
 /
-devtools
+shared
+/
+widgets
 /
 widgets
 .
@@ -290,11 +292,11 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 content
 /
-devtools
+shared
 /
 theme
 -
@@ -334,8 +336,6 @@ javascript
 src
 =
 "
-canvasdebugger
-/
 callslist
 .
 js
@@ -354,8 +354,6 @@ javascript
 src
 =
 "
-canvasdebugger
-/
 snapshotslist
 .
 js

@@ -2802,11 +2802,13 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 content
 /
-devtools
+framework
+/
+connect
 /
 connect
 .

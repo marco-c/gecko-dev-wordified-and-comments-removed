@@ -355,11 +355,11 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 content
 /
-devtools
+shared
 /
 theme
 -
@@ -411,11 +411,11 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 content
 /
-devtools
+scratchpad
 /
 scratchpad
 .

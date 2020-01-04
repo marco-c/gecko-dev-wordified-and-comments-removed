@@ -116,11 +116,13 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 content
 /
-devtools
+shared
+/
+widgets
 /
 widgets
 .
@@ -297,11 +299,11 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 content
 /
-devtools
+shared
 /
 theme
 -
@@ -324,8 +326,6 @@ src
 =
 "
 performance
-/
-performance
 -
 controller
 .
@@ -346,8 +346,6 @@ src
 =
 "
 performance
-/
-performance
 -
 view
 .
@@ -367,8 +365,6 @@ javascript
 src
 =
 "
-performance
-/
 views
 /
 overview
@@ -389,8 +385,6 @@ javascript
 src
 =
 "
-performance
-/
 views
 /
 toolbar
@@ -411,11 +405,11 @@ javascript
 src
 =
 "
-performance
-/
 views
 /
 details
+-
+abstract
 -
 subview
 .
@@ -435,8 +429,6 @@ javascript
 src
 =
 "
-performance
-/
 views
 /
 details
@@ -459,8 +451,6 @@ javascript
 src
 =
 "
-performance
-/
 views
 /
 details
@@ -487,8 +477,6 @@ javascript
 src
 =
 "
-performance
-/
 views
 /
 details
@@ -513,8 +501,6 @@ javascript
 src
 =
 "
-performance
-/
 views
 /
 details
@@ -541,8 +527,6 @@ javascript
 src
 =
 "
-performance
-/
 views
 /
 details
@@ -567,8 +551,6 @@ javascript
 src
 =
 "
-performance
-/
 views
 /
 details
@@ -589,8 +571,6 @@ javascript
 src
 =
 "
-performance
-/
 views
 /
 recordings
@@ -611,8 +591,6 @@ javascript
 src
 =
 "
-performance
-/
 views
 /
 optimizations

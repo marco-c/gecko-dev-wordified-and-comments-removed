@@ -153,11 +153,9 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 content
-/
-devtools
 /
 framework
 /
@@ -226,11 +224,11 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 content
 /
-devtools
+shared
 /
 theme
 -

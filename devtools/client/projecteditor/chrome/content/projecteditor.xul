@@ -149,11 +149,11 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 content
 /
-devtools
+debugger
 /
 debugger
 .
@@ -211,11 +211,11 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 content
 /
-devtools
+markupview
 /
 markup
 -

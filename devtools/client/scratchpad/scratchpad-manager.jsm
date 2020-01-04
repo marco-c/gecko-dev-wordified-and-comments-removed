@@ -42,11 +42,11 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 content
 /
-devtools
+scratchpad
 /
 scratchpad
 .

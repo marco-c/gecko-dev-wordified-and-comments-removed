@@ -414,11 +414,11 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 content
 /
-devtools
+shared
 /
 frame
 -

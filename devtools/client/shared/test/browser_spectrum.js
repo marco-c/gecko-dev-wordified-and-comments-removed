@@ -6,11 +6,13 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 content
 /
-devtools
+shared
+/
+widgets
 /
 spectrum
 -

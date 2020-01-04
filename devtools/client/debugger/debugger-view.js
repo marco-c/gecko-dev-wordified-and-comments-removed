@@ -172,11 +172,9 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 content
-/
-devtools
 /
 promisedebugger
 /

@@ -4247,11 +4247,11 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 content
 /
-devtools
+commandline
 /
 commandlineoutput
 .
@@ -5760,11 +5760,11 @@ chrome
 :
 /
 /
-browser
+devtools
 /
 content
 /
-devtools
+commandline
 /
 commandlinetooltip
 .
