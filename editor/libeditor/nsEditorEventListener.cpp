@@ -2039,7 +2039,7 @@ aEvent
 )
 ;
 case
-NS_COMPOSITION_END
+eCompositionEnd
 :
 HandleEndComposition
 (

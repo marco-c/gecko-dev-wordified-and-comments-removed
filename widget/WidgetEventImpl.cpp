@@ -406,7 +406,7 @@ case
 eCompositionStart
 :
 case
-NS_COMPOSITION_END
+eCompositionEnd
 :
 case
 NS_COMPOSITION_UPDATE

@@ -1221,7 +1221,7 @@ eCompositionEventClass
 NON_IDL_EVENT
 (
 compositionend
-NS_COMPOSITION_END
+eCompositionEnd
 EventNameType_XUL
 eCompositionEventClass
 )

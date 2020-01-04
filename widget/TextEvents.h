@@ -1307,7 +1307,7 @@ return
 mMessage
 =
 =
-NS_COMPOSITION_END
+eCompositionEnd
 |
 |
 mMessage

@@ -1223,7 +1223,7 @@ mMessage
 )
 {
 case
-NS_COMPOSITION_END
+eCompositionEnd
 :
 case
 NS_COMPOSITION_CHANGE
@@ -1554,13 +1554,13 @@ aCompositionEvent
 mMessage
 !
 =
-NS_COMPOSITION_END
+eCompositionEnd
 )
 {
 CloneAndDispatchAs
 (
 aCompositionEvent
-NS_COMPOSITION_END
+eCompositionEnd
 )
 ;
 }
