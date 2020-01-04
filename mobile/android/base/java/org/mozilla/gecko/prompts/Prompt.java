@@ -2395,17 +2395,6 @@ this
 )
 ;
 }
-GeckoAppShell
-.
-sendEventToGecko
-(
-GeckoEvent
-.
-createNoOpEvent
-(
-)
-)
-;
 if
 (
 mCallback
