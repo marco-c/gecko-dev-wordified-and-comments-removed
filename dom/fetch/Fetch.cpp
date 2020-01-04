@@ -2200,10 +2200,13 @@ UTF
 )
 ;
 return
-NS_NewStringInputStream
+NS_NewCStringInputStream
 (
 aStream
+NS_ConvertUTF16toUTF8
+(
 serialized
+)
 )
 ;
 }
