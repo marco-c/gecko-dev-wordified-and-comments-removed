@@ -12287,9 +12287,9 @@ eReadyStateChange
 ;
 _ASSIGN_eventName
 (
-NS_XUL_BROADCAST
+eXULBroadcast
 "
-NS_XUL_BROADCAST
+eXULBroadcast
 "
 )
 ;

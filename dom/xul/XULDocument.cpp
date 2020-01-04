@@ -3692,7 +3692,7 @@ WidgetEvent
 event
 (
 true
-NS_XUL_BROADCAST
+eXULBroadcast
 )
 ;
 nsCOMPtr

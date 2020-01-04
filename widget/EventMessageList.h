@@ -532,7 +532,7 @@ eXULEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_XUL_BROADCAST
+eXULBroadcast
 eXULEventFirst
 +
 5
