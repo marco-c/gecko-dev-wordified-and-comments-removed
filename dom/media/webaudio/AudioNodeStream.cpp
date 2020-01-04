@@ -2997,6 +2997,17 @@ if
 mFlags
 &
 EXTERNAL_OUTPUT
+&
+&
+!
+mLastChunks
+[
+0
+]
+.
+IsNull
+(
+)
 )
 {
 segment
