@@ -13,6 +13,13 @@ GuardObjects
 .
 h
 "
+#
+include
+"
+TimelineMarkerEnums
+.
+h
+"
 namespace
 mozilla
 {
@@ -27,6 +34,9 @@ char
 *
 mName
 ;
+MarkerStackRequest
+mStackRequest
+;
 public
 :
 explicit
@@ -36,6 +46,13 @@ const
 char
 *
 aName
+MarkerStackRequest
+aStackRequest
+=
+MarkerStackRequest
+:
+:
+STACK
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;

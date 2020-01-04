@@ -271,6 +271,13 @@ char
 aName
 MarkerTracingType
 aTracingType
+MarkerStackRequest
+aStackRequest
+=
+MarkerStackRequest
+:
+:
+STACK
 )
 ;
 void
@@ -286,6 +293,13 @@ TimeStamp
 aTime
 MarkerTracingType
 aTracingType
+MarkerStackRequest
+aStackRequest
+=
+MarkerStackRequest
+:
+:
+STACK
 )
 ;
 void
