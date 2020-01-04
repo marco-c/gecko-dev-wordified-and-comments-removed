@@ -3213,6 +3213,9 @@ mHasUserInteraction
 bool
 mFirstFrameLoaded
 ;
+double
+mDefaultPlaybackStartPosition
+;
 }
 ;
 }
