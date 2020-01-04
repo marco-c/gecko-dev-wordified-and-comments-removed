@@ -5952,12 +5952,6 @@ STRIP
 STRIP_FLAGS
 )
 endif
-ifdef
-MOZ_POST_DSO_LIB_COMMAND
-(
-MOZ_POST_DSO_LIB_COMMAND
-)
-endif
 ifeq
 (
 (
