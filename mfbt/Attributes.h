@@ -127,17 +127,6 @@ __clang__
 if
 __has_extension
 (
-cxx_constexpr
-)
-#
-define
-MOZ_HAVE_CXX11_CONSTEXPR
-#
-endif
-#
-if
-__has_extension
-(
 cxx_explicit_conversions
 )
 #
