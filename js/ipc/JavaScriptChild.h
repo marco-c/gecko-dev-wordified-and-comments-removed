@@ -39,14 +39,6 @@ PJavaScriptChild
 {
 public
 :
-explicit
-JavaScriptChild
-(
-JSContext
-*
-cx
-)
-;
 virtual
 ~
 JavaScriptChild

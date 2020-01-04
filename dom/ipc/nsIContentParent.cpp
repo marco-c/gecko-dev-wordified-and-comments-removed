@@ -295,12 +295,6 @@ AllocPJavaScriptParent
 return
 NewJavaScriptParent
 (
-danger
-:
-:
-GetJSContext
-(
-)
 )
 ;
 }

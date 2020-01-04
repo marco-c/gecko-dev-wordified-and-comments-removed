@@ -88,12 +88,8 @@ IProtocol
 ActorDestroyReason
 ActorDestroyReason
 ;
-explicit
 WrapperOwner
 (
-JSContext
-*
-cx
 )
 ;
 bool

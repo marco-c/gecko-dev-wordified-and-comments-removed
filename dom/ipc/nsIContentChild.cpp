@@ -143,12 +143,6 @@ AllocPJavaScriptChild
 return
 NewJavaScriptChild
 (
-danger
-:
-:
-GetJSContext
-(
-)
 )
 ;
 }
