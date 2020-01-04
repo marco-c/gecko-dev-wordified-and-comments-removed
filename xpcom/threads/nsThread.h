@@ -649,6 +649,9 @@ mEventsAreDoomed
 MainThreadFlag
 mIsMainThread
 ;
+bool
+mCanInvokeJS
+;
 }
 ;
 #
