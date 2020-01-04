@@ -7456,13 +7456,6 @@ init
 (
 )
 ;
-gDevToolsBrowser
-.
-registerBrowserWindow
-(
-window
-)
-;
 gMenuButtonBadgeManager
 .
 init
@@ -8031,13 +8024,6 @@ this
 _loadHandled
 )
 return
-;
-gDevToolsBrowser
-.
-forgetBrowserWindow
-(
-window
-)
 ;
 let
 desc
