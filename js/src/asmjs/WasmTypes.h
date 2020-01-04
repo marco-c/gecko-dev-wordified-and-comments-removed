@@ -4673,14 +4673,14 @@ BaselineScript
 *
 baselineScript
 ;
-GCPtrFunction
-fun
+GCPtrObject
+obj
 ;
 static_assert
 (
 sizeof
 (
-GCPtrFunction
+GCPtrObject
 )
 =
 =

@@ -20085,6 +20085,11 @@ length
 )
 ;
 size_t
+lastFuncImportIndex
+=
+0
+;
+size_t
 lastGlobalIndex
 =
 0
@@ -20148,7 +20153,9 @@ imp
 name
 (
 )
-i
+lastFuncImportIndex
++
++
 )
 )
 return
