@@ -148,6 +148,9 @@ KeyEvent
 MediaCodec
 '
 '
+MotionEvent
+'
+'
 SurfaceTexture
 '
 ]

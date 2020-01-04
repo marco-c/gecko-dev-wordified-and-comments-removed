@@ -285,6 +285,10 @@ MediaCodec
 .
 h
 \
+MotionEvent
+.
+h
+\
 SurfaceTexture
 .
 h
