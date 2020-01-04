@@ -2803,6 +2803,11 @@ fatalAlertSent
 PRBool
 dheWeakGroupEnabled
 ;
+const
+namedGroupDef
+*
+dhePreferredGroup
+;
 SSLSignatureAndHashAlg
 signatureAlgorithms
 [

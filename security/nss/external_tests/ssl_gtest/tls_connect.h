@@ -382,9 +382,13 @@ void
 CheckKeys
 (
 SSLKEAType
-akeyType
+kea_type
 SSLAuthType
-authType
+auth_type
+size_t
+kea_size
+=
+0
 )
 const
 ;
