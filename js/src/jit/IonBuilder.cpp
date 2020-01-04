@@ -1021,6 +1021,15 @@ script
 (
 )
 ;
+scriptHasIonScript_
+=
+script_
+-
+>
+hasIonScript
+(
+)
+;
 pc
 =
 info

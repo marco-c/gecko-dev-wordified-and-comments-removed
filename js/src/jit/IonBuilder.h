@@ -5434,6 +5434,9 @@ JSScript
 *
 script_
 ;
+bool
+scriptHasIonScript_
+;
 CodeGenerator
 *
 backgroundCodegen_
@@ -5476,6 +5479,16 @@ const
 {
 return
 script_
+;
+}
+bool
+scriptHasIonScript
+(
+)
+const
+{
+return
+scriptHasIonScript_
 ;
 }
 CodeGenerator
