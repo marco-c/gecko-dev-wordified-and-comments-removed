@@ -6497,7 +6497,7 @@ aBorder
 ;
 virtual
 nsresult
-GetPadding
+GetXULPadding
 (
 nsMargin
 &

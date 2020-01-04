@@ -135,7 +135,7 @@ override
 ;
 virtual
 nsresult
-GetPadding
+GetXULPadding
 (
 nsMargin
 &

@@ -42818,7 +42818,7 @@ SizeTo
 parentFrame
 -
 >
-GetPadding
+GetXULPadding
 (
 parentReflowState
 .

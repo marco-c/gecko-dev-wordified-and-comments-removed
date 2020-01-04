@@ -1104,7 +1104,7 @@ padding
 ;
 rv
 =
-GetPadding
+GetXULPadding
 (
 padding
 )
@@ -1302,7 +1302,7 @@ nsresult
 nsBox
 :
 :
-GetPadding
+GetXULPadding
 (
 nsMargin
 &
