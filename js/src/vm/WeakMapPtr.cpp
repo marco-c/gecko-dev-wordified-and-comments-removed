@@ -43,7 +43,11 @@ JSObject
 using
 BarrieredType
 =
-RelocatablePtrObject
+HeapPtr
+<
+JSObject
+*
+>
 ;
 using
 HasherType
@@ -81,7 +85,7 @@ Value
 using
 BarrieredType
 =
-RelocatablePtr
+HeapPtr
 <
 Value
 >

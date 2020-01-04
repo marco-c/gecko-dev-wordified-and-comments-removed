@@ -1673,7 +1673,11 @@ SystemAllocPolicy
 FuncLabelVector
 ;
 typedef
-RelocatablePtrArrayBufferObjectMaybeShared
+HeapPtr
+<
+ArrayBufferObjectMaybeShared
+*
+>
 BufferPtr
 ;
 typedef

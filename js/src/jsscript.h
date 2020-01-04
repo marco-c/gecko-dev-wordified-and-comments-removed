@@ -730,7 +730,11 @@ friend
 class
 MutableBindingsOperations
 ;
-RelocatablePtrShape
+HeapPtr
+<
+Shape
+*
+>
 callObjShape_
 ;
 uintptr_t
@@ -1363,7 +1367,11 @@ get
 public
 :
 const
-RelocatablePtrShape
+HeapPtr
+<
+Shape
+*
+>
 &
 callObjShape
 (

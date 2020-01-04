@@ -2458,7 +2458,10 @@ k
 return
 false
 ;
-RelocatableValue
+HeapPtr
+<
+Value
+>
 rval
 (
 v
@@ -3039,7 +3042,10 @@ key
 return
 false
 ;
-RelocatableValue
+HeapPtr
+<
+Value
+>
 rval
 (
 val
@@ -3949,7 +3955,10 @@ args
 key
 )
 ;
-RelocatableValue
+HeapPtr
+<
+Value
+>
 rval
 (
 args

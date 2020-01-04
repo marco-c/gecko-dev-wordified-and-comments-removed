@@ -246,11 +246,7 @@ obj
 js
 :
 :
-GCPtr
-<
-JSObject
-*
->
+GCPtrObject
 heapptr
 (
 obj
@@ -259,7 +255,7 @@ obj
 js
 :
 :
-RelocatablePtr
+HeapPtr
 <
 JSObject
 *
@@ -319,7 +315,10 @@ obj
 js
 :
 :
-RelocatableValue
+HeapPtr
+<
+Value
+>
 relocatableValue
 (
 JS

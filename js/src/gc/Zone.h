@@ -1415,7 +1415,11 @@ GCHashSet
 js
 :
 :
-RelocatablePtrObject
+HeapPtr
+<
+JSObject
+*
+>
 js
 :
 :
@@ -1424,7 +1428,11 @@ MovableCellHasher
 js
 :
 :
-RelocatablePtrObject
+HeapPtr
+<
+JSObject
+*
+>
 >
 js
 :

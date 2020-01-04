@@ -423,7 +423,11 @@ pc
 )
 {
 }
-RelocatablePtrScript
+HeapPtr
+<
+JSScript
+*
+>
 script
 ;
 jsbytecode
@@ -551,7 +555,11 @@ return
 true
 ;
 }
-RelocatablePtrAtom
+HeapPtr
+<
+JSAtom
+*
+>
 source
 ;
 size_t

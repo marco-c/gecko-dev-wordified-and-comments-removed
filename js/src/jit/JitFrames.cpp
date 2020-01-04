@@ -8754,7 +8754,10 @@ return
 fp_
 ;
 }
-RelocatableValue
+HeapPtr
+<
+Value
+>
 &
 RInstructionResults
 :

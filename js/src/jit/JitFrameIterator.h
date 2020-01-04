@@ -985,7 +985,10 @@ mozilla
 :
 Vector
 <
-RelocatableValue
+HeapPtr
+<
+Value
+>
 1
 SystemAllocPolicy
 >
@@ -1072,7 +1075,10 @@ frame
 )
 const
 ;
-RelocatableValue
+HeapPtr
+<
+Value
+>
 &
 operator
 [

@@ -728,7 +728,7 @@ GCPolicy
 js
 :
 :
-RelocatablePtr
+HeapPtr
 <
 T
 >
@@ -744,7 +744,7 @@ trc
 js
 :
 :
-RelocatablePtr
+HeapPtr
 <
 T
 >
@@ -774,7 +774,7 @@ needsSweep
 js
 :
 :
-RelocatablePtr
+HeapPtr
 <
 T
 >
