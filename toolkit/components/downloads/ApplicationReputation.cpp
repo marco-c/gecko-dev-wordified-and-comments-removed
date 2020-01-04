@@ -2892,7 +2892,6 @@ rv
 rv
 )
 ;
-nsresult
 rv
 =
 GenerateWhitelistStringsForPair
@@ -3430,14 +3429,14 @@ rv
 )
 ;
 nsCString
-spec
+sourceSpec
 ;
 rv
 =
 GetStrippedSpec
 (
 uri
-spec
+sourceSpec
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3450,7 +3449,7 @@ mAnylistSpecs
 .
 AppendElement
 (
-spec
+sourceSpec
 )
 ;
 ClientDownloadRequest_Resource
@@ -3468,7 +3467,7 @@ resource
 >
 set_url
 (
-spec
+sourceSpec
 .
 get
 (
@@ -3513,14 +3512,14 @@ referrer
 )
 {
 nsCString
-spec
+referrerSpec
 ;
 rv
 =
 GetStrippedSpec
 (
 referrer
-spec
+referrerSpec
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3533,7 +3532,7 @@ mAnylistSpecs
 .
 AppendElement
 (
-spec
+referrerSpec
 )
 ;
 resource
@@ -3541,7 +3540,7 @@ resource
 >
 set_referrer
 (
-spec
+referrerSpec
 .
 get
 (
@@ -3874,7 +3873,7 @@ nsCOMPtr
 <
 nsISupports
 >
-supports
+chainSupports
 ;
 rv
 =
@@ -3885,7 +3884,7 @@ GetNext
 (
 getter_AddRefs
 (
-supports
+chainSupports
 )
 )
 ;
@@ -3903,7 +3902,7 @@ certList
 =
 do_QueryInterface
 (
-supports
+chainSupports
 &
 rv
 )
@@ -3982,7 +3981,7 @@ nsCOMPtr
 <
 nsISupports
 >
-supports
+certSupports
 ;
 rv
 =
@@ -3993,7 +3992,7 @@ GetNext
 (
 getter_AddRefs
 (
-supports
+certSupports
 )
 )
 ;
@@ -4011,7 +4010,7 @@ cert
 =
 do_QueryInterface
 (
-supports
+certSupports
 &
 rv
 )
