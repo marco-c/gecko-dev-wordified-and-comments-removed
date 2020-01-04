@@ -912,6 +912,16 @@ loc
 -
 1
 )
+{
+if
+(
+mappedName
+!
+=
+"
+gl_InstanceID
+"
+)
 MOZ_CRASH
 (
 "
@@ -924,6 +934,9 @@ location
 "
 )
 ;
+}
+else
+{
 info
 -
 >
@@ -934,6 +947,7 @@ insert
 loc
 )
 ;
+}
 }
 const
 bool
