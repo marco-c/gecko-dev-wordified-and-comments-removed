@@ -430,14 +430,6 @@ moz
 -
 window
 -
-dragging
-"
-"
--
-moz
--
-window
--
 shadow
 "
 }
