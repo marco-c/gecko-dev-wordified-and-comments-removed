@@ -235,7 +235,7 @@ if
 (
 permission
 .
-mUserVisible
+mUserVisibleOnly
 )
 {
 aRv

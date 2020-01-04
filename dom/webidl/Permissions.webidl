@@ -153,7 +153,7 @@ PushPermissionDescriptor
 PermissionDescriptor
 {
 boolean
-userVisible
+userVisibleOnly
 =
 false
 ;

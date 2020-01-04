@@ -451,7 +451,7 @@ name
 ;
 }
 function
-revokeUserVisiblePushPermission
+revokeUserVisibleOnlyPushPermission
 (
 )
 {
@@ -468,7 +468,7 @@ name
 '
 push
 '
-userVisible
+userVisibleOnly
 :
 true
 }
@@ -488,7 +488,7 @@ not
 have
 resolved
 for
-userVisible
+userVisibleOnly
 push
 )
 error
@@ -502,7 +502,7 @@ should
 have
 rejected
 for
-userVisible
+userVisibleOnly
 push
 )
 )
@@ -678,7 +678,7 @@ name
 ;
 }
 function
-checkUserVisiblePushPermission
+checkUserVisibleOnlyPushPermission
 (
 )
 {
@@ -695,7 +695,7 @@ name
 '
 push
 '
-userVisible
+userVisibleOnly
 :
 true
 }
@@ -715,7 +715,7 @@ not
 have
 resolved
 for
-userVisible
+userVisibleOnly
 push
 )
 error
@@ -729,7 +729,7 @@ should
 have
 rejected
 for
-userVisible
+userVisibleOnly
 push
 )
 )
@@ -1044,7 +1044,7 @@ checkUnsupportedPermissions
 .
 then
 (
-checkUserVisiblePushPermission
+checkUserVisibleOnlyPushPermission
 )
 .
 then
@@ -1168,7 +1168,7 @@ revokeUnsupportedPermissions
 .
 then
 (
-revokeUserVisiblePushPermission
+revokeUserVisibleOnlyPushPermission
 )
 .
 then
