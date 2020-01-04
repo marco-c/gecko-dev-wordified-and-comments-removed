@@ -24863,6 +24863,11 @@ localtime_r
 arc4random
 arc4random_buf
 mallinfo
+gettid
+lchown
+setpriority
+strerror
+syscall
 )
 dnl
 check
@@ -79678,9 +79683,6 @@ COMPILE_ENVIRONMENT
 then
 export
 WRAP_LDFLAGS
-MOZ_SUBCONFIGURE_NSPR
-(
-)
 dnl
 =
 =
