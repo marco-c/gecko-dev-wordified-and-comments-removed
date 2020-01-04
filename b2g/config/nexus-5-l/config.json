@@ -373,6 +373,15 @@ update
 .
 mar
 "
+"
+{
+workdir
+}
+/
+hammerhead
+.
+zip
+"
 ]
 "
 zip_files

@@ -373,6 +373,15 @@ update
 .
 mar
 "
+"
+{
+workdir
+}
+/
+mako
+.
+zip
+"
 ]
 "
 zip_files
