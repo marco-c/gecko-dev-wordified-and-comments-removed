@@ -1877,6 +1877,11 @@ mProxyAuthPending
 1
 ;
 uint32_t
+mCustomAuthHeader
+:
+1
+;
+uint32_t
 mResuming
 :
 1
