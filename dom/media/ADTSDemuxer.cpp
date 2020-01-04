@@ -121,7 +121,7 @@ false
 )
 #
 define
-ADTSLOG
+ADTSLOGV
 (
 msg
 .
