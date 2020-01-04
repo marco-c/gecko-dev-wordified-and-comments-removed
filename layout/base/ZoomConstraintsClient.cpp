@@ -244,6 +244,16 @@ aShell
 {
 if
 (
+!
+aShell
+)
+{
+return
+nullptr
+;
+}
+if
+(
 nsIFrame
 *
 rootFrame
