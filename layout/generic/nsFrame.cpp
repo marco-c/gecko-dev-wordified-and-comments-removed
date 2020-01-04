@@ -4981,6 +4981,16 @@ mBoxDecorationBreak
 =
 NS_STYLE_BOX_DECORATION_BREAK_CLONE
 )
+&
+&
+!
+(
+GetStateBits
+(
+)
+&
+NS_FRAME_IS_OVERFLOW_CONTAINER
+)
 )
 {
 return
