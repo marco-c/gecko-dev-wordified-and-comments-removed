@@ -377,8 +377,6 @@ attributeOldValue
 boolean
 characterDataOldValue
 ;
-/
-/
 [
 ChromeOnly
 ]
@@ -387,13 +385,13 @@ nativeAnonymousChildList
 =
 false
 ;
-/
-/
 [
 ChromeOnly
 ]
 boolean
 animations
+=
+false
 ;
 sequence
 <
