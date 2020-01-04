@@ -3054,9 +3054,8 @@ isUsingRemoteTabs
 }
 window
 .
-swap
+forget
 (
-*
 aResult
 )
 ;

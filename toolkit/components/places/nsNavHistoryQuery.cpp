@@ -6957,14 +6957,6 @@ nsNavHistoryQueryOptions
 (
 )
 ;
-if
-(
-!
-result
-)
-return
-NS_ERROR_OUT_OF_MEMORY
-;
 RefPtr
 <
 nsNavHistoryQueryOptions
@@ -7039,9 +7031,8 @@ mAsyncEnabled
 ;
 resultHolder
 .
-swap
+forget
 (
-*
 aResult
 )
 ;
