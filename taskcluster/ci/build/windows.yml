@@ -80,10 +80,6 @@ using
 mozharness
 script
 :
-mozharness
-/
-scripts
-/
 fx_desktop_build
 .
 py
@@ -177,10 +173,6 @@ using
 mozharness
 script
 :
-mozharness
-/
-scripts
-/
 fx_desktop_build
 .
 py
@@ -276,10 +268,6 @@ using
 mozharness
 script
 :
-mozharness
-/
-scripts
-/
 fx_desktop_build
 .
 py
@@ -375,10 +363,6 @@ using
 mozharness
 script
 :
-mozharness
-/
-scripts
-/
 fx_desktop_build
 .
 py

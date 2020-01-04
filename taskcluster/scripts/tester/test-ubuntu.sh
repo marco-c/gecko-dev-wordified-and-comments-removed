@@ -877,6 +877,10 @@ python2
 7
 WORKSPACE
 /
+mozharness
+/
+scripts
+/
 {
 MOZHARNESS_SCRIPT
 }
