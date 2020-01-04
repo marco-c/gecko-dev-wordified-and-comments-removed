@@ -400,6 +400,11 @@ int32_t
 status
 )
 ;
+nsresult
+RecheckCaptivePortal
+(
+)
+;
 private
 :
 nsIOService
