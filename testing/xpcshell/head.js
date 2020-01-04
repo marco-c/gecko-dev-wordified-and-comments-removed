@@ -3065,6 +3065,9 @@ coverageCollector
 recordTestCoverage
 (
 _TEST_FILE
+[
+0
+]
 )
 ;
 }
@@ -3109,6 +3112,9 @@ coverageCollector
 recordTestCoverage
 (
 _TEST_FILE
+[
+0
+]
 )
 ;
 }
