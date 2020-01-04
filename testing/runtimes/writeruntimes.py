@@ -435,7 +435,7 @@ PERCENTILE
 )
 ]
     
-ommitted
+omitted
 =
 [
 ]
@@ -495,7 +495,7 @@ duration
 threshold
 :
             
-ommitted
+omitted
 .
 append
 (
@@ -608,12 +608,12 @@ int
 (
 sum
 (
-ommitted
+omitted
 )
 /
 len
 (
-ommitted
+omitted
 )
 )
     
@@ -853,7 +853,7 @@ suite
 with
 the
 -
-u
+s
 argument
 "
 )
