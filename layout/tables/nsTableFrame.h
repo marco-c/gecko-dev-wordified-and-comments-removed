@@ -234,6 +234,10 @@ aBuilder
 nsIFrame
 *
 aFrame
+bool
+aDrawsBackground
+=
+true
 )
 :
 nsDisplayItem
@@ -244,6 +248,10 @@ aFrame
 mPartHasFixedBackground
 (
 false
+)
+mDrawsBackground
+(
+aDrawsBackground
 )
 {
 }
@@ -300,6 +308,9 @@ private
 :
 bool
 mPartHasFixedBackground
+;
+bool
+mDrawsBackground
 ;
 }
 ;
