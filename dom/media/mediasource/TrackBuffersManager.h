@@ -1443,12 +1443,6 @@ mEnded
 ;
 Atomic
 <
-bool
->
-mDetached
-;
-Atomic
-<
 int64_t
 >
 mSizeSourceBuffer
