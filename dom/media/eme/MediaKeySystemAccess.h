@@ -81,6 +81,9 @@ h
 namespace
 mozilla
 {
+class
+DecoderDoctorDiagnostics
+;
 namespace
 dom
 {
@@ -218,6 +221,9 @@ MediaKeySystemConfiguration
 >
 &
 aConfigs
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 ;
 static
@@ -270,6 +276,9 @@ aConfigs
 MediaKeySystemConfiguration
 &
 aOutConfig
+DecoderDoctorDiagnostics
+*
+aDiagnostics
 )
 ;
 private
