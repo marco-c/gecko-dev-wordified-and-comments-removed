@@ -6779,8 +6779,11 @@ mozilla
 :
 DebugOnly
 <
+ReadBarriered
+<
 Debugger
 *
+>
 *
 >
 begin
@@ -6810,9 +6813,7 @@ probability
 ;
 for
 (
-Debugger
-*
-*
+auto
 dbgp
 =
 dbgs
