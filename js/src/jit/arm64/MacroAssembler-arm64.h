@@ -7565,16 +7565,6 @@ label
 )
 ;
 }
-inline
-void
-lshift64
-(
-Imm32
-imm
-Register64
-dest
-)
-;
 void
 testPtr
 (

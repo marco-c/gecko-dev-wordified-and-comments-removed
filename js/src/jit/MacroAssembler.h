@@ -2340,6 +2340,17 @@ PER_ARCH
 ;
 inline
 void
+lshift64
+(
+Imm32
+imm
+Register64
+dest
+)
+PER_ARCH
+;
+inline
+void
 rshiftPtr
 (
 Imm32
