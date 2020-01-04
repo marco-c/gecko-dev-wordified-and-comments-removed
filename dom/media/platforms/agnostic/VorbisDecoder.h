@@ -242,6 +242,12 @@ AudioConverter
 >
 mAudioConverter
 ;
+Atomic
+<
+bool
+>
+mIsFlushing
+;
 }
 ;
 }
