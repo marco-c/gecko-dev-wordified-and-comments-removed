@@ -5021,9 +5021,6 @@ element
 isVisible
 (
 el
-curContainer
-.
-frame
 corx
 cory
 )

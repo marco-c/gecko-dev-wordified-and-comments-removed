@@ -3151,7 +3151,6 @@ isVisible
 function
 (
 el
-win
 x
 =
 undefined
@@ -3160,6 +3159,15 @@ y
 undefined
 )
 {
+let
+win
+=
+el
+.
+ownerDocument
+.
+defaultView
+;
 let
 ns
 =
