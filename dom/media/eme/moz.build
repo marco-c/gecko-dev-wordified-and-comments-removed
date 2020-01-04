@@ -102,11 +102,6 @@ dom
 =
 [
 '
-GMPVideoDecoderTrialCreator
-.
-h
-'
-'
 MediaEncryptedEvent
 .
 h
@@ -205,11 +200,6 @@ cpp
 '
 '
 EMEUtils
-.
-cpp
-'
-'
-GMPVideoDecoderTrialCreator
 .
 cpp
 '
