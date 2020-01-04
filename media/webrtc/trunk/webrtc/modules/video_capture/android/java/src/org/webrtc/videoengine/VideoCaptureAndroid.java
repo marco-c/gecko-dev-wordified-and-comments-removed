@@ -1314,10 +1314,11 @@ int
 >
 supportedFpsRanges
 =
-parameters
+VideoCaptureDeviceInfoAndroid
 .
-getSupportedPreviewFpsRange
+getFpsRangesRobust
 (
+parameters
 )
 ;
 frameDropRatio
