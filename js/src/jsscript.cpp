@@ -21505,6 +21505,11 @@ isCollecting
 )
 )
 ;
+if
+(
+atoms
+)
+{
 for
 (
 uint32_t
@@ -21543,6 +21548,7 @@ atom
 "
 )
 ;
+}
 }
 if
 (
