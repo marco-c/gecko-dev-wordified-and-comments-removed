@@ -307,6 +307,14 @@ ins
 )
 ;
 void
+visitInt64ToFloatingPoint
+(
+MInt64ToFloatingPoint
+*
+ins
+)
+;
+void
 lowerPhi
 (
 MPhi
