@@ -524,7 +524,7 @@ NS_CheckContentProcessPolicy
 nsIContentPolicy
 :
 :
-TYPE_IMAGE
+TYPE_INTERNAL_IMAGE
 channelURI
 channelPrincipal
 domWindow

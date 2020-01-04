@@ -1615,7 +1615,7 @@ aContentPolicyType
 nsIContentPolicy
 :
 :
-TYPE_IMAGE
+TYPE_INTERNAL_IMAGE
 )
 ;
 static
@@ -1670,7 +1670,7 @@ aContentPolicyType
 nsIContentPolicy
 :
 :
-TYPE_IMAGE
+TYPE_INTERNAL_IMAGE
 )
 ;
 static
