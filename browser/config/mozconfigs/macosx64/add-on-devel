@@ -35,6 +35,16 @@ browser
 branding
 /
 unofficial
+ac_add_options
+-
+-
+enable
+-
+update
+-
+channel
+=
+default
 #
 Need
 this
