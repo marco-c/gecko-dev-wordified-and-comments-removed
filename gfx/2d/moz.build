@@ -154,11 +154,6 @@ BaseSize
 h
 '
 '
-BezierUtils
-.
-h
-'
-'
 Blur
 .
 h
@@ -896,11 +891,6 @@ UNIFIED_SOURCES
 +
 =
 [
-'
-BezierUtils
-.
-cpp
-'
 '
 Blur
 .
