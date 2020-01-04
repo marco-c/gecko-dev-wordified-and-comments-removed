@@ -5978,7 +5978,10 @@ void
 arg
 )
 {
-PR_SetCurrentThreadName
+ThisThread
+:
+:
+SetName
 (
 "
 JS
