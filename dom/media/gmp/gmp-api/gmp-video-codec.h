@@ -128,6 +128,7 @@ GMPVideoCodecType
 {
 kGMPVideoCodecVP8
 kGMPVideoCodecH264
+kGMPVideoCodecVP9
 kGMPVideoCodecInvalid
 }
 ;

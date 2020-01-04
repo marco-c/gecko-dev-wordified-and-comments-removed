@@ -264,6 +264,9 @@ mFrameDurations
 bool
 mSentInput
 ;
+GMPVideoCodecType
+mCodecType
+;
 std
 :
 :
