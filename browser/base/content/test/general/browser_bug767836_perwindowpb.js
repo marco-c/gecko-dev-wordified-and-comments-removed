@@ -1,8 +1,3 @@
-"
-use
-strict
-"
-;
 function
 test
 (
@@ -61,13 +56,6 @@ com
 "
 ;
 let
-defaultURL
-=
-aboutNewTabService
-.
-newTabURL
-;
-let
 mode
 ;
 function
@@ -118,11 +106,9 @@ normal
 ;
 newTabURL
 =
-"
-about
-:
-newtab
-"
+aboutNewTabService
+.
+newTabURL
 ;
 }
 is
@@ -221,7 +207,11 @@ is
 aboutNewTabService
 .
 newTabURL
-defaultURL
+"
+about
+:
+newtab
+"
 "
 No
 custom
@@ -267,7 +257,6 @@ close
 aCallback
 (
 )
-;
 }
 )
 ;
@@ -404,7 +393,6 @@ browser
 contentDocument
 .
 readyState
-=
 =
 =
 "

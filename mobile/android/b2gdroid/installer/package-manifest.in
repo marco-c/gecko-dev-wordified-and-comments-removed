@@ -608,15 +608,6 @@ BINPATH
 /
 components
 /
-browser
--
-newtab
-.
-xpt
-BINPATH
-/
-components
-/
 caps
 .
 xpt
