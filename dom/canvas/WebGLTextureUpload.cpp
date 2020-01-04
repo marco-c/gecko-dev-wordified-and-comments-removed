@@ -6256,6 +6256,10 @@ mImmutable
 =
 true
 ;
+mImmutableLevelCount
+=
+levels
+;
 }
 void
 WebGLTexture
