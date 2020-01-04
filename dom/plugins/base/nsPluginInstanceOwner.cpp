@@ -8336,7 +8336,7 @@ return
 NPCocoaEventKeyUp
 ;
 case
-NS_FOCUS_CONTENT
+eFocus
 :
 case
 NS_BLUR_CONTENT
@@ -9039,7 +9039,7 @@ break
 ;
 }
 case
-NS_FOCUS_CONTENT
+eFocus
 :
 case
 NS_BLUR_CONTENT
@@ -9059,7 +9059,7 @@ anEvent
 mMessage
 =
 =
-NS_FOCUS_CONTENT
+eFocus
 )
 ;
 break
@@ -9236,7 +9236,7 @@ anEvent
 mMessage
 =
 =
-NS_FOCUS_CONTENT
+eFocus
 &
 &
 mLastContentFocused
@@ -9260,7 +9260,7 @@ anEvent
 mMessage
 =
 =
-NS_FOCUS_CONTENT
+eFocus
 |
 |
 anEvent
@@ -9279,7 +9279,7 @@ anEvent
 mMessage
 =
 =
-NS_FOCUS_CONTENT
+eFocus
 )
 ;
 mShouldBlurOnActivate
@@ -10070,7 +10070,7 @@ mMessage
 )
 {
 case
-NS_FOCUS_CONTENT
+eFocus
 :
 pluginEvent
 .
@@ -10967,7 +10967,7 @@ mMessage
 )
 {
 case
-NS_FOCUS_CONTENT
+eFocus
 :
 case
 NS_BLUR_CONTENT
@@ -10990,7 +10990,7 @@ anEvent
 mMessage
 =
 =
-NS_FOCUS_CONTENT
+eFocus
 ?
 FocusIn
 :

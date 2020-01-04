@@ -2003,7 +2003,7 @@ mouseEvent
 ;
 }
 case
-NS_FOCUS_CONTENT
+eFocus
 :
 return
 Focus

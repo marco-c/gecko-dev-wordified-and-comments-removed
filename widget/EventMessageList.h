@@ -411,7 +411,7 @@ eFocusEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_FOCUS_CONTENT
+eFocus
 eFocusEventFirst
 )
 NS_EVENT_MESSAGE

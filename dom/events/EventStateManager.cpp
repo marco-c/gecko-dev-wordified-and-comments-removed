@@ -19346,7 +19346,7 @@ aEvent
 mMessage
 =
 =
-NS_FOCUS_CONTENT
+eFocus
 |
 |
 aEvent

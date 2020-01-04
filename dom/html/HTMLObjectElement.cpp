@@ -771,7 +771,7 @@ mMessage
 )
 {
 case
-NS_FOCUS_CONTENT
+eFocus
 :
 {
 OnFocusBlurPlugin

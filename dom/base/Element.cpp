@@ -13021,7 +13021,7 @@ case
 eMouseOver
 :
 case
-NS_FOCUS_CONTENT
+eFocus
 :
 case
 eMouseOut
@@ -13085,7 +13085,7 @@ mEventStatus
 nsEventStatus_eConsumeNoDefault
 ;
 case
-NS_FOCUS_CONTENT
+eFocus
 :
 {
 InternalFocusEvent

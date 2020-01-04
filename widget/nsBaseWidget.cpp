@@ -12096,9 +12096,9 @@ NS_EDITOR_INPUT
 ;
 _ASSIGN_eventName
 (
-NS_FOCUS_CONTENT
+eFocus
 "
-NS_FOCUS_CONTENT
+eFocus
 "
 )
 ;

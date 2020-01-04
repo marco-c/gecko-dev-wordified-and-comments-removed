@@ -2097,7 +2097,7 @@ mEvent
 mMessage
 =
 =
-NS_FOCUS_CONTENT
+eFocus
 |
 |
 aVisitor
@@ -2121,7 +2121,7 @@ mEvent
 mMessage
 =
 =
-NS_FOCUS_CONTENT
+eFocus
 )
 {
 GetValueInternal

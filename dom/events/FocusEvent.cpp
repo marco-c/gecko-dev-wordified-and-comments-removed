@@ -65,7 +65,7 @@ new
 InternalFocusEvent
 (
 false
-NS_FOCUS_CONTENT
+eFocus
 )
 )
 {
