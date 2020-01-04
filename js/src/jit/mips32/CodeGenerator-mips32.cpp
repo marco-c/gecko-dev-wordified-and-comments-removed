@@ -1676,7 +1676,7 @@ loadConstantFloat32
 (
 0
 .
-0
+0f
 ScratchFloat32Reg
 )
 ;
@@ -6768,7 +6768,7 @@ loadConstantFloat32
 (
 0
 .
-0
+0f
 scratch
 )
 ;
@@ -7732,7 +7732,7 @@ loadConstantFloat32
 (
 0
 .
-0
+0f
 scratch
 )
 ;
@@ -8880,7 +8880,7 @@ loadConstantFloat32
 (
 0
 .
-0
+0f
 ScratchFloat32Reg
 )
 ;
@@ -10566,7 +10566,7 @@ loadConstantFloat32
 (
 0
 .
-0
+0f
 ScratchFloat32Reg
 )
 ;
