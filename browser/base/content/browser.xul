@@ -8102,6 +8102,11 @@ recentBookmarks
 label
 ;
 "
+id
+=
+"
+BMB_recentBookmarks
+"
 disabled
 =
 "
@@ -8111,15 +8116,6 @@ class
 =
 "
 subviewbutton
-"
-/
->
-<
-vbox
-id
-=
-"
-BMB_recentBookmarks
 "
 /
 >
