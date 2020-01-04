@@ -5692,17 +5692,6 @@ r
 new
 AsyncErrorReporter
 (
-CycleCollectedJSRuntime
-:
-:
-Get
-(
-)
--
->
-Runtime
-(
-)
 xpcReport
 )
 ;

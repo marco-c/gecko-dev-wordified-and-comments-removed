@@ -1292,17 +1292,6 @@ aer
 new
 AsyncErrorReporter
 (
-CycleCollectedJSRuntime
-:
-:
-Get
-(
-)
--
->
-Runtime
-(
-)
 xpcReport
 )
 ;
