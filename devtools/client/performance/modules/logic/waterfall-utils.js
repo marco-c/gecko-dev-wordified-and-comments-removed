@@ -20,7 +20,9 @@ object
 )
 ;
 const
-MarkerUtils
+{
+MarkerBlueprintUtils
+}
 =
 require
 (
@@ -33,9 +35,9 @@ performance
 /
 modules
 /
-logic
-/
 marker
+-
+blueprint
 -
 utils
 "
@@ -114,9 +116,9 @@ i
 if
 (
 !
-MarkerUtils
+MarkerBlueprintUtils
 .
-isMarkerValid
+shouldDisplayMarker
 (
 curr
 filter
@@ -136,7 +138,7 @@ getCurrentParentNode
 let
 blueprint
 =
-MarkerUtils
+MarkerBlueprintUtils
 .
 getBlueprintFor
 (

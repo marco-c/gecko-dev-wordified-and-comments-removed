@@ -71,7 +71,9 @@ jsm
 )
 ;
 const
-MarkerUtils
+{
+MarkerBlueprintUtils
+}
 =
 require
 (
@@ -84,9 +86,9 @@ performance
 /
 modules
 /
-logic
-/
 marker
+-
+blueprint
 -
 utils
 "
@@ -562,9 +564,9 @@ i
 if
 (
 !
-MarkerUtils
+MarkerBlueprintUtils
 .
-isMarkerValid
+shouldDisplayMarker
 (
 marker
 this
@@ -641,7 +643,7 @@ marker
 let
 blueprint
 =
-MarkerUtils
+MarkerBlueprintUtils
 .
 getBlueprintFor
 (
@@ -915,7 +917,7 @@ description
 let
 label
 =
-MarkerUtils
+MarkerBlueprintUtils
 .
 getMarkerLabel
 (

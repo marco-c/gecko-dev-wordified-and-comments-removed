@@ -48,7 +48,7 @@ global
 ;
 let
 {
-getMarkerLabel
+MarkerBlueprintUtils
 }
 =
 require
@@ -62,9 +62,9 @@ performance
 /
 modules
 /
-logic
-/
 marker
+-
+blueprint
 -
 utils
 "
@@ -557,6 +557,8 @@ innerHTML
 is
 (
 type
+MarkerBlueprintUtils
+.
 getMarkerLabel
 (
 mkr

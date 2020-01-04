@@ -369,9 +369,9 @@ setAttribute
 "
 label
 "
-MarkerUtils
+MarkerBlueprintUtils
 .
-getMarkerClassName
+getMarkerGenericName
 (
 markerName
 )
