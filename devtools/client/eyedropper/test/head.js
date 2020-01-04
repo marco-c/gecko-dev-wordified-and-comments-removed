@@ -90,8 +90,6 @@ expected
 let
 deferred
 =
-promise
-.
 defer
 (
 )
