@@ -150,7 +150,11 @@ refreshed
 "
 )
 ;
-getNode
+content
+.
+document
+.
+querySelector
 (
 "
 #

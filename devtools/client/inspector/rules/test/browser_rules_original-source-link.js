@@ -6,7 +6,7 @@ strict
 const
 TESTCASE_URI
 =
-TEST_URL_ROOT
+URL_ROOT
 +
 "
 doc_sourcemaps
