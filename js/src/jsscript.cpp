@@ -18667,6 +18667,17 @@ IsStaticGlobalLexicalScope
 (
 scriptStaticScope
 )
+|
+|
+scriptStaticScope
+-
+>
+is
+<
+StaticNonSyntacticScopeObjects
+>
+(
+)
 )
 ;
 enclosingScope

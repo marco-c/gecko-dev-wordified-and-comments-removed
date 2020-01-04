@@ -17167,7 +17167,7 @@ StaticEvalObject
 (
 )
 .
-isDirect
+isNonGlobal
 (
 )
 ;
