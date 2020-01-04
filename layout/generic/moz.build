@@ -696,6 +696,11 @@ ScrollbarActivity
 h
 '
 '
+ScrollSnap
+.
+h
+'
+'
 Visibility
 .
 h
@@ -1012,6 +1017,11 @@ cpp
 '
 '
 ScrollbarActivity
+.
+cpp
+'
+'
+ScrollSnap
 .
 cpp
 '
