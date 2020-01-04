@@ -366,10 +366,6 @@ Thread
 *
 mThread
 ;
-MessageLoop
-*
-mMainMessageLoop
-;
 bool
 mDestroyed
 ;

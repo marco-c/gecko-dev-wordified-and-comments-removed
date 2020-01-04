@@ -806,15 +806,6 @@ mThread
 (
 aThread
 )
-mMainMessageLoop
-(
-MessageLoop
-:
-:
-current
-(
-)
-)
 mDestroyed
 (
 false
@@ -1050,10 +1041,7 @@ this
 )
 )
 ;
-mMainMessageLoop
--
->
-PostTask
+NS_DispatchToMainThread
 (
 task
 .
