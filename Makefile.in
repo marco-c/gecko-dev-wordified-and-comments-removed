@@ -119,6 +119,8 @@ ifdef
 MOZ_BUILD_APP
 include
 (
+wildcard
+(
 topsrcdir
 )
 /
@@ -129,6 +131,7 @@ MOZ_BUILD_APP
 build
 .
 mk
+)
 endif
 endif
 include
