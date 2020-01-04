@@ -10195,7 +10195,17 @@ if
 nsContentUtils
 :
 :
-IsSystemOrExpandedPrincipal
+IsExpandedPrincipal
+(
+newWindowPrincipal
+)
+|
+|
+(
+nsContentUtils
+:
+:
+IsSystemPrincipal
 (
 newWindowPrincipal
 )
@@ -10215,6 +10225,7 @@ nsIDocShellTreeItem
 :
 :
 typeChrome
+)
 )
 {
 newWindowPrincipal
