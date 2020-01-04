@@ -3593,6 +3593,7 @@ new
 WebMDemuxer
 (
 mCurrentInputBuffer
+true
 )
 ;
 return
