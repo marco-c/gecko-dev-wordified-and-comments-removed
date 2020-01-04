@@ -41,8 +41,6 @@ run
 chunk
 }
 }
-payload
-:
 extra
 :
 chunks
