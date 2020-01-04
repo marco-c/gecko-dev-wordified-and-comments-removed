@@ -5948,6 +5948,15 @@ aOutAllowed
 *
 aOutAllowed
 =
+!
+aNodeId
+.
+Equals
+(
+SHARED_GMP_DECODING_NODE_ID
+)
+&
+&
 mPersistentStorageAllowed
 .
 Get
