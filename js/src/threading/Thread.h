@@ -737,16 +737,6 @@ char
 name
 )
 ;
-void
-GetName
-(
-char
-*
-nameBuffer
-size_t
-len
-)
-;
 }
 namespace
 detail
