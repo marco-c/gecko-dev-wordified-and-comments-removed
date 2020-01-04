@@ -785,6 +785,17 @@ aInputTrackID
 )
 const
 ;
+TrackPort
+*
+FindOwnedTrackPort
+(
+const
+MediaStreamTrack
+&
+aTrack
+)
+const
+;
 MediaStreamTrack
 *
 FindPlaybackDOMTrack
