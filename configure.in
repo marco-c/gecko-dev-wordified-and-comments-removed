@@ -16994,6 +16994,9 @@ cairo
 -
 uikit
 '
+direct_nspr_config
+=
+1
 else
 AC_DEFINE
 (
