@@ -1319,8 +1319,6 @@ arguments
 ]
 .
 linkedBrowser
-.
-contentWindowAsCPOW
 ;
           
 if
@@ -1338,26 +1336,6 @@ null
           
 return
 win
-.
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIInterfaceRequestor
-)
-                    
-.
-getInterface
-(
-Components
-.
-interfaces
-.
-nsIDOMWindowUtils
-)
-                    
 .
 outerWindowID
 .
