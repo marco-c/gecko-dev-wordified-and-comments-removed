@@ -1295,6 +1295,10 @@ margin
 auto
 1em
 ;
+width
+:
+290px
+;
 }
 .
 room
@@ -1408,8 +1412,7 @@ height
 ;
 width
 :
-100
-%
+290px
 ;
 }
 .
