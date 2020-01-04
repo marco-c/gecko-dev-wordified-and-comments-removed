@@ -96,6 +96,11 @@ MPL
 DevToolsModules
 (
 '
+common
+.
+css
+'
+'
 variables
 .
 css
