@@ -207,14 +207,6 @@ attribute
 EventHandler
 onfetch
 ;
-attribute
-EventHandler
-onbeforeevicted
-;
-attribute
-EventHandler
-onevicted
-;
 /
 /
 The
