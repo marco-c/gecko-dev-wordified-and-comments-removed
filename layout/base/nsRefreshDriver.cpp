@@ -4397,7 +4397,7 @@ mActiveTimer
 (
 aFlags
 &
-eForceAdjustTimer
+eAdjustingTimer
 )
 )
 return
@@ -4525,16 +4525,6 @@ AddRefreshDriver
 (
 this
 )
-;
-}
-if
-(
-aFlags
-&
-eNeverAdjustTimer
-)
-{
-return
 ;
 }
 mMostRecentRefresh
@@ -8351,7 +8341,7 @@ mActiveTimer
 {
 EnsureTimerStarted
 (
-eForceAdjustTimer
+eAdjustingTimer
 )
 ;
 }
@@ -8514,7 +8504,6 @@ true
 ;
 EnsureTimerStarted
 (
-eNeverAdjustTimer
 )
 ;
 }
