@@ -1779,14 +1779,6 @@ kind_
 =
 =
 ImportInterpExit
-|
-|
-u
-.
-kind_
-=
-=
-Interrupt
 )
 ;
 }
