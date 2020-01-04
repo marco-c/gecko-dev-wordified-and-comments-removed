@@ -69,7 +69,7 @@ FFmpegDataDecoder
 FFmpegLibWrapper
 *
 aLib
-FlushableTaskQueue
+TaskQueue
 *
 aTaskQueue
 MediaDataDecoderCallback
@@ -242,7 +242,7 @@ sMonitor
 const
 RefPtr
 <
-FlushableTaskQueue
+TaskQueue
 >
 mTaskQueue
 ;
