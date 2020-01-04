@@ -164,11 +164,6 @@ SVGAElement
 h
 '
 '
-SVGAltGlyphElement
-.
-h
-'
-'
 SVGAngle
 .
 h
@@ -740,11 +735,6 @@ cpp
 '
 '
 SVGAElement
-.
-cpp
-'
-'
-SVGAltGlyphElement
 .
 cpp
 '
