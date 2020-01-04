@@ -29359,7 +29359,7 @@ uint32_t
 jit
 :
 :
-JitOptions
+DefaultJitOptions
 defaultValues
 ;
 value
@@ -29372,7 +29372,7 @@ baselineWarmUpThreshold
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 baselineWarmUpThreshold
 =
@@ -29398,7 +29398,7 @@ uint32_t
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 resetCompilerWarmUpThreshold
 (
@@ -29410,7 +29410,7 @@ break
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 setCompilerWarmUpThreshold
 (
@@ -29427,7 +29427,7 @@ value
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 setEagerCompilation
 (
@@ -29449,7 +29449,7 @@ value
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 enableGvn
 (
@@ -29480,7 +29480,7 @@ else
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 enableGvn
 (
@@ -29522,7 +29522,7 @@ value
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 forceInlineCaches
 =
@@ -29555,7 +29555,7 @@ else
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 forceInlineCaches
 =
@@ -29941,7 +29941,7 @@ return
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 baselineWarmUpThreshold
 ;
@@ -29952,7 +29952,7 @@ return
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 forcedDefaultIonWarmUpThreshold
 .
@@ -29963,7 +29963,7 @@ isSome
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 forcedDefaultIonWarmUpThreshold
 .
@@ -29986,7 +29986,7 @@ return
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 forceInlineCaches
 ;

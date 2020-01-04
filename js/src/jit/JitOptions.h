@@ -148,7 +148,7 @@ Nothing
 ;
 }
 struct
-JitOptions
+DefaultJitOptions
 {
 bool
 checkGraphConsistency
@@ -263,7 +263,7 @@ forcedRegisterAllocator
 bool
 disableUnboxedObjects
 ;
-JitOptions
+DefaultJitOptions
 (
 )
 ;
@@ -303,8 +303,8 @@ val
 }
 ;
 extern
+DefaultJitOptions
 JitOptions
-js_JitOptions
 ;
 }
 }

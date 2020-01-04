@@ -12846,7 +12846,7 @@ DEBUG
 if
 (
 !
-js_JitOptions
+JitOptions
 .
 checkGraphConsistency
 )
@@ -13193,7 +13193,7 @@ DEBUG
 if
 (
 !
-js_JitOptions
+JitOptions
 .
 checkGraphConsistency
 )

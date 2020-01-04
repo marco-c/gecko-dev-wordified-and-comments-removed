@@ -7922,7 +7922,7 @@ false
 if
 (
 !
-js_JitOptions
+JitOptions
 .
 disablePgo
 &
@@ -12151,7 +12151,7 @@ script
 if
 (
 !
-js_JitOptions
+JitOptions
 .
 limitScriptSize
 )
@@ -12887,7 +12887,7 @@ Method_Skipped
 if
 (
 !
-js_JitOptions
+JitOptions
 .
 osr
 )
@@ -12985,7 +12985,7 @@ if
 count
 <
 =
-js_JitOptions
+JitOptions
 .
 osrPcMismatchesBeforeRecompile
 )
@@ -13316,7 +13316,7 @@ Method_Error
 }
 if
 (
-js_JitOptions
+JitOptions
 .
 eagerCompilation
 &
@@ -15036,7 +15036,7 @@ ifdef
 CHECK_OSIPOINT_REGISTERS
 if
 (
-js_JitOptions
+JitOptions
 .
 checkOsiPointRegisters
 )

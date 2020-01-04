@@ -36287,7 +36287,7 @@ objects
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 disableUnboxedObjects
 =
@@ -36330,7 +36330,7 @@ on
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 disableScalarReplacement
 =
@@ -36353,7 +36353,7 @@ off
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 disableScalarReplacement
 =
@@ -36411,7 +36411,7 @@ on
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 disableSharedStubs
 =
@@ -36434,7 +36434,7 @@ off
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 disableSharedStubs
 =
@@ -36491,7 +36491,7 @@ off
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 disableGvn
 =
@@ -36585,7 +36585,7 @@ on
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 disableLicm
 =
@@ -36608,7 +36608,7 @@ off
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 disableLicm
 =
@@ -36664,7 +36664,7 @@ on
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 disableEdgeCaseAnalysis
 =
@@ -36687,7 +36687,7 @@ off
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 disableEdgeCaseAnalysis
 =
@@ -36743,7 +36743,7 @@ on
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 disablePgo
 =
@@ -36766,7 +36766,7 @@ off
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 disablePgo
 =
@@ -36822,7 +36822,7 @@ on
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 disableRangeAnalysis
 =
@@ -36845,7 +36845,7 @@ off
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 disableRangeAnalysis
 =
@@ -36901,7 +36901,7 @@ on
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 disableSincos
 =
@@ -36924,7 +36924,7 @@ off
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 disableSincos
 =
@@ -36978,7 +36978,7 @@ on
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 disableSink
 =
@@ -37001,7 +37001,7 @@ off
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 disableSink
 =
@@ -37057,7 +37057,7 @@ on
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 disableLoopUnrolling
 =
@@ -37080,7 +37080,7 @@ off
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 disableLoopUnrolling
 =
@@ -37138,7 +37138,7 @@ on
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 disableInstructionReordering
 =
@@ -37161,7 +37161,7 @@ off
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 disableInstructionReordering
 =
@@ -37202,7 +37202,7 @@ analysis
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 checkRangeAnalysis
 =
@@ -37226,7 +37226,7 @@ checks
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 runExtraChecks
 =
@@ -37267,7 +37267,7 @@ on
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 disableInlining
 =
@@ -37290,7 +37290,7 @@ off
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 disableInlining
 =
@@ -37344,7 +37344,7 @@ on
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 osr
 =
@@ -37367,7 +37367,7 @@ off
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 osr
 =
@@ -37425,7 +37425,7 @@ on
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 limitScriptSize
 =
@@ -37448,7 +37448,7 @@ off
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 limitScriptSize
 =
@@ -37497,7 +37497,7 @@ warmUpThreshold
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 setCompilerWarmUpThreshold
 (
@@ -37529,7 +37529,7 @@ warmUpThreshold
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 baselineWarmUpThreshold
 =
@@ -37551,7 +37551,7 @@ eager
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 baselineWarmUpThreshold
 =
@@ -37579,7 +37579,7 @@ regalloc
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 forcedRegisterAllocator
 =
@@ -37597,7 +37597,7 @@ if
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 forcedRegisterAllocator
 .
@@ -37633,7 +37633,7 @@ eager
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 setEagerCompilation
 (

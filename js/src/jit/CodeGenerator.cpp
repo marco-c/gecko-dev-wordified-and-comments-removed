@@ -21335,7 +21335,7 @@ Above
 tmp
 Imm32
 (
-js_JitOptions
+JitOptions
 .
 maxStackArgs
 )

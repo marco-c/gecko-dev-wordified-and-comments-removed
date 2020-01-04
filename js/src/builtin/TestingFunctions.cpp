@@ -8417,7 +8417,7 @@ CHECK_OSIPOINT_REGISTERS
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 checkOsiPointRegisters
 =
@@ -10041,7 +10041,7 @@ vp
 jit
 :
 :
-js_JitOptions
+JitOptions
 .
 checkGraphConsistency
 =

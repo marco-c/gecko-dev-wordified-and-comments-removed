@@ -11716,7 +11716,7 @@ body
 ;
 if
 (
-js_JitOptions
+JitOptions
 .
 limitScriptSize
 )
@@ -23781,7 +23781,7 @@ pc
 ;
 if
 (
-js_JitOptions
+JitOptions
 .
 disableSharedStubs
 )
@@ -26254,7 +26254,7 @@ maxInlineDepth
 ;
 if
 (
-js_JitOptions
+JitOptions
 .
 isSmallFunction
 (
@@ -35672,7 +35672,7 @@ false
 ;
 if
 (
-js_JitOptions
+JitOptions
 .
 disableSharedStubs
 )
@@ -60519,7 +60519,7 @@ false
 ;
 if
 (
-js_JitOptions
+JitOptions
 .
 disableSharedStubs
 )
