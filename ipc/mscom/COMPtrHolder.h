@@ -560,6 +560,7 @@ return
 false
 ;
 }
+typename
 paramType
 :
 :
