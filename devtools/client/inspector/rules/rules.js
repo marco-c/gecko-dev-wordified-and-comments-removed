@@ -49,7 +49,7 @@ devtools
 /
 client
 /
-main
+definitions
 "
 )
 ;

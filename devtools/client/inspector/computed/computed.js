@@ -27,7 +27,7 @@ devtools
 /
 client
 /
-main
+definitions
 "
 )
 .

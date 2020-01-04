@@ -70,7 +70,7 @@ devtools
 /
 client
 /
-main
+definitions
 "
 )
 ;
