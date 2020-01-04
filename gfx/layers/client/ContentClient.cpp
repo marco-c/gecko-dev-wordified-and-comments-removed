@@ -1671,6 +1671,10 @@ aDidSelfCopy
 updatedRegion
 =
 aVisibleRegion
+.
+GetBounds
+(
+)
 ;
 mIsNewBuffer
 =
