@@ -1565,6 +1565,14 @@ ins
 )
 ;
 void
+visitFloat32x4ToUint32x4
+(
+LFloat32x4ToUint32x4
+*
+ins
+)
+;
+void
 visitSimdReinterpretCast
 (
 LSimdReinterpretCast

@@ -892,6 +892,13 @@ SimdMemoryAlignment
 ;
 static
 MOZ_CONSTEXPR_VAR
+bool
+SupportsUint32x4FloatConversions
+=
+false
+;
+static
+MOZ_CONSTEXPR_VAR
 Scale
 ScalePointer
 =

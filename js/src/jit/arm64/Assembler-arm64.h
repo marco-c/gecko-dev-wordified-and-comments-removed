@@ -1168,6 +1168,13 @@ AsmJSGlobalRegBias
 =
 1024
 ;
+static
+MOZ_CONSTEXPR_VAR
+bool
+SupportsUint32x4FloatConversions
+=
+false
+;
 class
 Assembler
 :

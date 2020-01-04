@@ -1377,6 +1377,13 @@ AsmJSStackAlignment
 SimdMemoryAlignment
 ;
 static
+MOZ_CONSTEXPR_VAR
+bool
+SupportsUint32x4FloatConversions
+=
+false
+;
+static
 const
 Scale
 ScalePointer

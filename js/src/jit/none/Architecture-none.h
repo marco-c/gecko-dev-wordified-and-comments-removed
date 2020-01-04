@@ -40,6 +40,13 @@ AsmJSStackAlignment
 =
 8
 ;
+static
+MOZ_CONSTEXPR_VAR
+bool
+SupportsUint32x4FloatConversions
+=
+false
+;
 class
 Registers
 {

@@ -66,6 +66,13 @@ js
 namespace
 jit
 {
+static
+const
+bool
+SupportsUint32x4FloatConversions
+=
+false
+;
 #
 if
 defined

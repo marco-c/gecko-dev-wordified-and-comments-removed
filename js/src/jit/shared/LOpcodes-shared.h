@@ -898,6 +898,11 @@ Float32x4ToInt32x4
 \
 _
 (
+Float32x4ToUint32x4
+)
+\
+_
+(
 Start
 )
 \
