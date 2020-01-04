@@ -30,13 +30,13 @@ queryState
 function
 (
 detectionIntervalInSeconds
-callback
 )
 {
-runSafe
+return
+Promise
+.
+resolve
 (
-context
-callback
 "
 active
 "
