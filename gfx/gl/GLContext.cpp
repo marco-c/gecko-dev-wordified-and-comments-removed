@@ -522,6 +522,9 @@ GL_ARB_texture_non_power_of_two
 GL_ARB_texture_rectangle
 "
 "
+GL_ARB_texture_rg
+"
+"
 GL_ARB_texture_storage
 "
 "

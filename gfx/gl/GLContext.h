@@ -345,6 +345,7 @@ texture_float_linear
 texture_half_float
 texture_half_float_linear
 texture_non_power_of_two
+texture_rg
 texture_storage
 texture_swizzle
 transform_feedback2
@@ -1010,6 +1011,7 @@ ARB_texture_compression
 ARB_texture_float
 ARB_texture_non_power_of_two
 ARB_texture_rectangle
+ARB_texture_rg
 ARB_texture_storage
 ARB_texture_swizzle
 ARB_timer_query
