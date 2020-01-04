@@ -205,6 +205,17 @@ const
 ;
 virtual
 const
+SdpDtlsMessageAttribute
+&
+GetDtlsMessage
+(
+)
+const
+=
+0
+;
+virtual
+const
 std
 :
 :
