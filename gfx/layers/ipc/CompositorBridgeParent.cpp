@@ -1661,6 +1661,14 @@ mCurrentCompositeTask
 =
 =
 nullptr
+&
+&
+CompositorThreadHolder
+:
+:
+Loop
+(
+)
 )
 {
 RefPtr
