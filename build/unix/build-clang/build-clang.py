@@ -821,6 +821,8 @@ stage_dir
 build_libcxx
 build_type
 assertions
+                    
+python_path
 )
 :
     
@@ -837,7 +839,9 @@ src_dir
 stage_dir
 build_libcxx
 build_type
+                            
 assertions
+python_path
 )
 def
 get_platform
@@ -937,8 +941,10 @@ build_one_stage_aux
 src_dir
 stage_dir
 build_libcxx
+                        
 build_type
 assertions
+python_path
 )
 :
     
@@ -977,44 +983,6 @@ stage_dir
 "
 /
 clang
-"
-    
-global
-centOS6
-    
-if
-centOS6
-:
-        
-python_path
-=
-"
-/
-usr
-/
-bin
-/
-python2
-.
-7
-"
-    
-else
-:
-        
-python_path
-=
-"
-/
-usr
-/
-local
-/
-bin
-/
-python2
-.
-7
 "
     
 run_cmake
@@ -1643,6 +1611,41 @@ assertions
 "
 )
     
+python_path
+=
+None
+    
+if
+"
+python_path
+"
+not
+in
+config
+:
+        
+raise
+ValueError
+(
+"
+Config
+file
+needs
+to
+set
+python_path
+"
+)
+    
+python_path
+=
+config
+[
+"
+python_path
+"
+]
+    
 if
 not
 os
@@ -2115,6 +2118,7 @@ build_libcxx
         
 build_type
 assertions
+python_path
 )
     
 if
@@ -2192,6 +2196,7 @@ build_libcxx
             
 build_type
 assertions
+python_path
 )
         
 if
@@ -2260,6 +2265,7 @@ build_libcxx
                 
 build_type
 assertions
+python_path
 )
     
 if
