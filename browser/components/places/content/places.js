@@ -1807,6 +1807,11 @@ MigrationUtils
 showMigrationWizard
 (
 window
+[
+MigrationUtils
+.
+MIGRATION_ENTRYPOINT_PLACES
+]
 )
 ;
 }
