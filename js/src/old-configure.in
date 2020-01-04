@@ -19246,6 +19246,10 @@ AC_DEFINE
 (
 MOZ_MEMORY_WINDOWS
 )
+export
+MOZ_NO_DEBUG_RTL
+=
+1
 ;
 ;
 *
