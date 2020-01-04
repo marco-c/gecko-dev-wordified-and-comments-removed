@@ -889,6 +889,11 @@ aLayer
 NS_DECLARE_FRAME_PROPERTY_WITH_FRAME_IN_DTOR
 (
 LayerManagerDataProperty
+nsTArray
+<
+DisplayItemData
+*
+>
 RemoveFrameFromLayerManager
 )
 class
@@ -1119,9 +1124,13 @@ const
 nsIFrame
 *
 aFrame
-void
+nsTArray
+<
+DisplayItemData
 *
-aPropertyValue
+>
+*
+aArray
 )
 ;
 DisplayItemData
