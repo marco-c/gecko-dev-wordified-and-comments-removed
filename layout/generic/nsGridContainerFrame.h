@@ -739,6 +739,14 @@ GridItemInfo
 aGridItemInfo
 nsSize
 aContainerSize
+mozilla
+:
+:
+Maybe
+<
+nscoord
+>
+aStretchBSize
 const
 Fragmentainer
 *

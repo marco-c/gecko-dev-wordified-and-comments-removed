@@ -2982,6 +2982,11 @@ NS_DECLARE_FRAME_PROPERTY_SMALL_VALUE
 RefusedAsyncAnimationProperty
 bool
 )
+NS_DECLARE_FRAME_PROPERTY_SMALL_VALUE
+(
+FragStretchBSizeProperty
+nscoord
+)
 NS_DECLARE_FRAME_PROPERTY_WITH_DTOR
 (
 GenConProperty
