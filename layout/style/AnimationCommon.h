@@ -620,10 +620,6 @@ mCheckGeneration
 (
 0
 )
-mHasPendingAnimationRestyle
-(
-false
-)
 #
 ifdef
 DEBUG
@@ -1004,9 +1000,6 @@ aPresContext
 ;
 private
 :
-bool
-mHasPendingAnimationRestyle
-;
 #
 ifdef
 DEBUG
