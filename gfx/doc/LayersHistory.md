@@ -329,7 +329,7 @@ Bug
 825928
 )
 The
-planing
+planning
 for
 this
 started
