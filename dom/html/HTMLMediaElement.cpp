@@ -16969,6 +16969,9 @@ mDecoder
 IsEndedOrShutdown
 (
 )
+&
+&
+mFirstFrameLoaded
 )
 {
 LOG
@@ -17097,6 +17100,15 @@ mWaitingFired
 true
 ;
 }
+return
+;
+}
+if
+(
+!
+mFirstFrameLoaded
+)
+{
 return
 ;
 }
