@@ -197,9 +197,13 @@ WebMDemuxer
 "
 )
 ;
-extern
 LazyLogModule
 gNesteggLog
+(
+"
+Nestegg
+"
+)
 ;
 #
 define
