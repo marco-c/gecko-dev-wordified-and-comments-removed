@@ -798,15 +798,11 @@ bundle
 >
 GetStringFromName
 (
-NS_LITERAL_STRING
+MOZ_UTF16
 (
 "
 formatLabel
 "
-)
-.
-get
-(
 )
 getter_Copies
 (
