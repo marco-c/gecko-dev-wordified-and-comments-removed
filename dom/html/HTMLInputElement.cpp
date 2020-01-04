@@ -6755,6 +6755,10 @@ nsGkAtoms
 :
 :
 pattern
+&
+&
+!
+mParserCreating
 )
 {
 UpdatePatternMismatchValidityState
