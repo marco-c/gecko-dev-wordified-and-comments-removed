@@ -877,9 +877,9 @@ StackForUntrustedScript
 StackKindCount
 }
 ;
-class
-RootLists
-{
+using
+RootedListHeads
+=
 mozilla
 :
 :
@@ -906,6 +906,11 @@ void
 >
 *
 >
+;
+class
+RootLists
+{
+RootedListHeads
 stackRoots_
 ;
 template
