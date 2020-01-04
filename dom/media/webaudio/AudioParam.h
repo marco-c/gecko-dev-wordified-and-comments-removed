@@ -649,11 +649,6 @@ AppendElement
 )
 ;
 }
-void
-DisconnectFromGraphAndDestroyStream
-(
-)
-;
 MediaStream
 *
 Stream
@@ -824,6 +819,11 @@ const
 AudioTimelineEvent
 &
 aEvent
+)
+;
+void
+DisconnectFromGraphAndDestroyStream
+(
 )
 ;
 nsCycleCollectingAutoRefCnt
