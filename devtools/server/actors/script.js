@@ -8532,6 +8532,13 @@ of
 bpActors
 )
 {
+if
+(
+actor
+.
+isPending
+)
+{
 actor
 .
 originalLocation
@@ -8543,6 +8550,7 @@ _setBreakpoint
 actor
 )
 ;
+}
 }
 }
 this
