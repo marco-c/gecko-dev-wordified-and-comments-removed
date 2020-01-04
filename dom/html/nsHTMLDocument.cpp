@@ -5485,7 +5485,7 @@ this
 nsILoadInfo
 :
 :
-SEC_NORMAL
+SEC_REQUIRE_SAME_ORIGIN_DATA_IS_BLOCKED
 nsIContentPolicy
 :
 :
