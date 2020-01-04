@@ -81,16 +81,6 @@ category
 "
 paneSync
 "
-onchange
-=
-"
-gSyncPane
-.
-onPreferenceChanged
-(
-)
-;
-"
 >
 <
 preference
