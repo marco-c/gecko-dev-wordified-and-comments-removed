@@ -1209,13 +1209,6 @@ GetDownloadPosition
 (
 )
 ;
-void
-UpdatePlaybackOffset
-(
-int64_t
-aOffset
-)
-;
 MediaDecoderStateMachine
 *
 GetStateMachine
@@ -1787,9 +1780,6 @@ DurationChanged
 bool
 mDormantSupported
 ;
-int64_t
-mPlaybackPosition
-;
 double
 mLogicalPosition
 ;
@@ -2008,6 +1998,12 @@ media
 NullableTimeUnit
 >
 mStateMachineDuration
+;
+Mirror
+<
+int64_t
+>
+mPlaybackPosition
 ;
 Canonical
 <
