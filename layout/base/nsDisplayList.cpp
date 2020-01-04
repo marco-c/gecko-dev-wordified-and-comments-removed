@@ -33121,7 +33121,8 @@ GetSize
 nsSVGIntegrationUtils
 :
 :
-PaintFramesWithEffects
+PaintFramesParams
+params
 (
 *
 aCtx
@@ -33135,6 +33136,14 @@ mVisibleRect
 borderArea
 aBuilder
 aManager
+)
+;
+nsSVGIntegrationUtils
+:
+:
+PaintFramesWithEffects
+(
+params
 )
 ;
 }
