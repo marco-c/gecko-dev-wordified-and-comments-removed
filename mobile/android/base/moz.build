@@ -3688,6 +3688,13 @@ java
 '
 promotion
 /
+BookmarkStateChangeDelegate
+.
+java
+'
+'
+promotion
+/
 HomeScreenPrompt
 .
 java
