@@ -186,12 +186,6 @@ extra
         
 self
 .
-optimization_key
-=
-None
-        
-self
-.
 task_id
 =
 None

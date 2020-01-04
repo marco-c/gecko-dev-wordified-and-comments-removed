@@ -82,6 +82,12 @@ target_tasks_method
 '
 try_option_syntax
 '
+        
+'
+optimize_target_tasks
+'
+:
+False
     
 }
     
@@ -96,8 +102,14 @@ target_tasks_method
 '
 :
 '
-all_tasks
+all_builds_and_tests
 '
+        
+'
+optimize_target_tasks
+'
+:
+True
     
 }
 }
@@ -305,11 +317,30 @@ optimized_task_graph
 )
 )
     
+write_artifact
+(
+'
+label
+-
+to
+-
+taskid
+.
+json
+'
+tgg
+.
+label_to_taskid
+)
+    
 create_tasks
 (
 tgg
 .
 optimized_task_graph
+tgg
+.
+label_to_taskid
 )
 def
 get_decision_parameters
@@ -524,6 +555,14 @@ task
         
 return
 {
+            
+'
+label
+'
+:
+task
+.
+label
             
 '
 task
