@@ -2387,11 +2387,15 @@ extract_tests_from_platform
 (
                     
 jobs
-[
+.
+get
+(
 '
 tests
 '
-]
+{
+}
+)
 platform_builds
 build_task
 tests
