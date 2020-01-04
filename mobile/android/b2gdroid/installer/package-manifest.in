@@ -143,15 +143,6 @@ BINPATH
 searchplugins
 /
 *
-BINPATH
-/
-defaults
-/
-profile
-/
-bookmarks
-.
-html
 #
 ifdef
 MOZ_UPDATER

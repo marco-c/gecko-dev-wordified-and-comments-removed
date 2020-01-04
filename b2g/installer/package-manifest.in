@@ -184,15 +184,6 @@ RESPATH
 searchplugins
 /
 *
-RESPATH
-/
-defaults
-/
-profile
-/
-bookmarks
-.
-html
 #
 ifdef
 MOZ_UPDATER
