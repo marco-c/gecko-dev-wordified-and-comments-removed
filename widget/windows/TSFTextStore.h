@@ -1678,6 +1678,12 @@ End
 Composition
 mComposition
 ;
+bool
+IsComposingInContent
+(
+)
+const
+;
 class
 Selection
 {
