@@ -3649,7 +3649,7 @@ domStream
 DOMMediaStream
 :
 :
-CreateAudioCaptureStream
+CreateAudioCaptureStreamAsInput
 (
 window
 principal
@@ -4049,7 +4049,7 @@ domStream
 DOMLocalMediaStream
 :
 :
-CreateSourceStream
+CreateSourceStreamAsInput
 (
 window
 msg

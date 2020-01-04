@@ -2394,7 +2394,7 @@ stream
 DOMMediaStream
 :
 :
-CreateSourceStream
+CreateSourceStreamAsInput
 (
 GetWindow
 (

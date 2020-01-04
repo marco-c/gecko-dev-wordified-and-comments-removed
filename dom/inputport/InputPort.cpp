@@ -273,7 +273,7 @@ mStream
 DOMMediaStream
 :
 :
-CreateSourceStream
+CreateSourceStreamAsInput
 (
 GetOwner
 (

@@ -4081,7 +4081,7 @@ DOMMediaStream
 DOMMediaStream
 :
 :
-CreateSourceStream
+CreateSourceStreamAsInput
 (
 nsPIDOMWindowInner
 *
@@ -4130,7 +4130,7 @@ DOMMediaStream
 DOMMediaStream
 :
 :
-CreateTrackUnionStream
+CreateTrackUnionStreamAsInput
 (
 nsPIDOMWindowInner
 *
@@ -4179,7 +4179,7 @@ DOMMediaStream
 DOMMediaStream
 :
 :
-CreateAudioCaptureStream
+CreateAudioCaptureStreamAsInput
 (
 nsPIDOMWindowInner
 *
@@ -6365,7 +6365,7 @@ DOMLocalMediaStream
 DOMLocalMediaStream
 :
 :
-CreateSourceStream
+CreateSourceStreamAsInput
 (
 nsPIDOMWindowInner
 *
@@ -6414,7 +6414,7 @@ DOMLocalMediaStream
 DOMLocalMediaStream
 :
 :
-CreateTrackUnionStream
+CreateTrackUnionStreamAsInput
 (
 nsPIDOMWindowInner
 *
@@ -6496,7 +6496,7 @@ DOMAudioNodeMediaStream
 DOMAudioNodeMediaStream
 :
 :
-CreateTrackUnionStream
+CreateTrackUnionStreamAsInput
 (
 nsPIDOMWindowInner
 *

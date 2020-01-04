@@ -8591,7 +8591,7 @@ mStream
 DOMMediaStream
 :
 :
-CreateTrackUnionStream
+CreateTrackUnionStreamAsInput
 (
 window
 aGraph
