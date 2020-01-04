@@ -349,7 +349,7 @@ e6e6e6
 ;
 float
 :
-right
+left
 ;
 margin
 -
@@ -359,7 +359,7 @@ left
 ;
 height
 :
-240px
+220px
 }
 div
 .
@@ -368,7 +368,7 @@ img
 {
 height
 :
-240px
+220px
 }
 .
 passed
