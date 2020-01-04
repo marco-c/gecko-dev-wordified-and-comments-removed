@@ -19120,7 +19120,7 @@ func
 )
 )
 return
-false
+nullptr
 ;
 }
 if
