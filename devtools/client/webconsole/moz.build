@@ -127,6 +127,11 @@ hudservice
 js
 '
 '
+jsterm
+.
+js
+'
+'
 panel
 .
 js
