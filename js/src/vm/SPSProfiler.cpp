@@ -1784,9 +1784,16 @@ if
 !
 atomStr
 )
+{
+js_free
+(
+cstr
+)
+;
 return
 nullptr
 ;
+}
 ret
 =
 JS_snprintf
