@@ -299,17 +299,6 @@ return
 }
 ;
 }
-GetConversationWindowData
-:
-function
-(
-)
-{
-return
-{
-}
-;
-}
 }
 )
 ;
