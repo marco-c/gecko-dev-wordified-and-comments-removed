@@ -2759,8 +2759,9 @@ tasks
 scopes
 '
 :
-[
-]
+set
+(
+)
         
 }
         
@@ -2815,7 +2816,7 @@ scopes
 '
 ]
 .
-append
+add
 (
 route
 )
@@ -3391,7 +3392,7 @@ scopes
 '
 ]
 .
-append
+add
 (
 define_task
 )
@@ -3402,8 +3403,9 @@ graph
 scopes
 '
 ]
-.
-extend
+|
+=
+set
 (
 build_task
 [
@@ -3460,8 +3462,9 @@ graph
 scopes
 '
 ]
-.
-extend
+|
+=
+set
 (
 route_scopes
 )
@@ -4102,7 +4105,7 @@ scopes
 '
 ]
 .
-append
+add
 (
 define_task
 )
@@ -4113,8 +4116,9 @@ graph
 scopes
 '
 ]
-.
-extend
+|
+=
+set
 (
 test_task
 [
@@ -4140,9 +4144,7 @@ scopes
 '
 ]
 =
-list
-(
-set
+sorted
 (
 graph
 [
@@ -4150,7 +4152,6 @@ graph
 scopes
 '
 ]
-)
 )
         
 if
