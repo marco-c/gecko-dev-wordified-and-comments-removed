@@ -560,7 +560,7 @@ editor
 }
 =
 yield
-getContainerForSelector
+focusNode
 (
 container
 inspector
