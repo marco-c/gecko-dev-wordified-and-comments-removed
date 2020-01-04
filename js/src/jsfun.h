@@ -3811,8 +3811,10 @@ ReportIncompatibleMethod
 JSContext
 *
 cx
-CallReceiver
-call
+const
+CallArgs
+&
+args
 const
 Class
 *
@@ -3826,8 +3828,10 @@ ReportIncompatible
 JSContext
 *
 cx
-CallReceiver
-call
+const
+CallArgs
+&
+args
 )
 ;
 extern

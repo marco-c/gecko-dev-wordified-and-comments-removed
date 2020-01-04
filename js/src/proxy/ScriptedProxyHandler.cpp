@@ -6424,11 +6424,12 @@ Value
 vp
 )
 {
-CallReceiver
-rec
+CallArgs
+args
 =
-CallReceiverFromVp
+CallArgsFromVp
 (
+argc
 vp
 )
 ;
@@ -6437,7 +6438,7 @@ func
 (
 cx
 &
-rec
+args
 .
 callee
 (
@@ -6542,7 +6543,7 @@ NullValue
 )
 ;
 }
-rec
+args
 .
 rval
 (
