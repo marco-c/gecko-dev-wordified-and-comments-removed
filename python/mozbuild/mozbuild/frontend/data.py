@@ -927,7 +927,7 @@ FINAL_TARGET
 '
 ]
 class
-Defines
+BaseDefines
 (
 ContextDerived
 )
@@ -942,10 +942,12 @@ container
 object
 for
 DEFINES
+/
+HOST_DEFINES
+    
 which
-is
-an
-OrderedDict
+are
+OrderedDicts
 .
     
 "
@@ -1101,6 +1103,22 @@ update
 (
 more_defines
 )
+class
+Defines
+(
+BaseDefines
+)
+:
+    
+pass
+class
+HostDefines
+(
+BaseDefines
+)
+:
+    
+pass
 class
 Exports
 (

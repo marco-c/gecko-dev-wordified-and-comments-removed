@@ -103,6 +103,8 @@ GeneratedInclude
     
 GeneratedSources
     
+HostDefines
+    
 HostLibrary
     
 HostProgram
@@ -3019,6 +3021,27 @@ n
 k
 v
 )
+)
+        
+elif
+isinstance
+(
+obj
+HostDefines
+)
+:
+            
+self
+.
+_process_defines
+(
+obj
+backend_file
+which
+=
+'
+HOST_DEFINES
+'
 )
         
 elif
@@ -6293,6 +6316,11 @@ _process_defines
 self
 obj
 backend_file
+which
+=
+'
+DEFINES
+'
 )
 :
         
@@ -6332,8 +6360,9 @@ backend_file
 .
 write
 (
+which
++
 '
-DEFINES
 +
 =
 '

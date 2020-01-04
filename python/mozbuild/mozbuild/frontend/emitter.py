@@ -99,6 +99,8 @@ ExternalSharedLibrary
     
 HeaderFileSubstitution
     
+HostDefines
+    
 HostLibrary
     
 HostProgram
@@ -3577,6 +3579,12 @@ ASFLAGS
 '
 LDFLAGS
 '
+'
+HOST_CFLAGS
+'
+'
+HOST_CXXFLAGS
+'
 ]
 :
             
@@ -3791,6 +3799,28 @@ Defines
 (
 context
 defines
+)
+        
+host_defines
+=
+context
+.
+get
+(
+'
+HOST_DEFINES
+'
+)
+        
+if
+host_defines
+:
+            
+yield
+HostDefines
+(
+context
+host_defines
 )
         
 resources
