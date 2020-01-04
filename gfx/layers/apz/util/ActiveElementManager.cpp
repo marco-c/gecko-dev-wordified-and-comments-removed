@@ -391,7 +391,7 @@ CancelableRunnable
 >
 task
 =
-NewCancelableRunnableMethod
+NS_NewCancelableRunnableMethodWithArgs
 <
 nsCOMPtr
 <

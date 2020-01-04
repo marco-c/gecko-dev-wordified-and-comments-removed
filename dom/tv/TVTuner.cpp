@@ -1453,7 +1453,7 @@ nsIRunnable
 >
 runnable
 =
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 nsCOMPtr
 <

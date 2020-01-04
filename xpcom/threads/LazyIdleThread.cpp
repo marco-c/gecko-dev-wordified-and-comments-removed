@@ -676,7 +676,7 @@ nsIRunnable
 >
 runnable
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &
@@ -1218,7 +1218,7 @@ nsIRunnable
 >
 runnable
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &
@@ -1547,7 +1547,7 @@ nsIRunnable
 >
 runnable
 =
-NewNonOwningRunnableMethod
+NS_NewNonOwningRunnableMethod
 (
 this
 &
@@ -2168,7 +2168,7 @@ nsIRunnable
 >
 runnable
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &

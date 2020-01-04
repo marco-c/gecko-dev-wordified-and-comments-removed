@@ -19410,9 +19410,13 @@ DwmCompositionEnabled
 )
 )
 {
-NS_DispatchToMainThread
-(
-NewRunnableMethod
+nsCOMPtr
+<
+nsIRunnable
+>
+event
+=
+NS_NewRunnableMethod
 (
 this
 &
@@ -19421,6 +19425,10 @@ nsWindow
 :
 ForcePresent
 )
+;
+NS_DispatchToMainThread
+(
+event
 )
 ;
 }

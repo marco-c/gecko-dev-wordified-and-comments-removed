@@ -3032,7 +3032,7 @@ aListener
 ;
 NS_DispatchToCurrentThread
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &

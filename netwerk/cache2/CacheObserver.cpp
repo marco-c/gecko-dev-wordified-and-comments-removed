@@ -1643,7 +1643,7 @@ nsIRunnable
 >
 event
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 sSelf
 &
@@ -1733,7 +1733,7 @@ nsIRunnable
 >
 event
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 sSelf
 &
@@ -1823,7 +1823,7 @@ nsIRunnable
 >
 event
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 sSelf
 &

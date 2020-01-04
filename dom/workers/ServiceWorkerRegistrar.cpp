@@ -2243,7 +2243,7 @@ Runnable
 >
 runnable
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 service
 &
@@ -2516,7 +2516,7 @@ Runnable
 >
 runnable
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &
@@ -3196,7 +3196,7 @@ nsIRunnable
 >
 runnable
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &

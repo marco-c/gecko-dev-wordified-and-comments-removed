@@ -4288,7 +4288,7 @@ nsIRunnable
 >
 frameCallback
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &

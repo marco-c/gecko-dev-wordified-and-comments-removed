@@ -11460,7 +11460,7 @@ nsContentUtils
 :
 AddScriptRunner
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &
@@ -12893,7 +12893,7 @@ nsContentUtils
 :
 AddScriptRunner
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 newInnerWindow
 &
@@ -12966,7 +12966,7 @@ nsContentUtils
 :
 AddScriptRunner
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &
@@ -49348,7 +49348,7 @@ UnblockScriptedClosing
 ;
 NS_DispatchToCurrentThread
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 mWin
 run

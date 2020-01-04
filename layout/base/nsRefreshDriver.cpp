@@ -1766,7 +1766,7 @@ nsIRunnable
 >
 vsyncEvent
 =
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 TimeStamp
 >
@@ -7996,7 +7996,7 @@ ImageRequestCount
 {
 NS_DispatchToCurrentThread
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &

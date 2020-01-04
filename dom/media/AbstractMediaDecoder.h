@@ -209,9 +209,13 @@ int64_t
 aDuration
 )
 {
-NS_DispatchToMainThread
-(
-NewRunnableMethod
+nsCOMPtr
+<
+nsIRunnable
+>
+r
+=
+NS_NewRunnableMethodWithArg
 <
 int64_t
 >
@@ -224,6 +228,10 @@ AbstractMediaDecoder
 UpdateEstimatedMediaDuration
 aDuration
 )
+;
+NS_DispatchToMainThread
+(
+r
 )
 ;
 }

@@ -447,7 +447,7 @@ mFunc
 ;
 NS_DispatchToMainThread
 (
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 nsCString
 >
@@ -1804,7 +1804,7 @@ ips
 ;
 NS_DispatchToMainThread
 (
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 nsCString
 >
@@ -1889,7 +1889,7 @@ MOZ_MULET
 )
 NS_DispatchToMainThread
 (
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 nsCString
 >
@@ -1916,7 +1916,7 @@ OnGetAddress
 else
 NS_DispatchToMainThread
 (
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 nsCString
 >

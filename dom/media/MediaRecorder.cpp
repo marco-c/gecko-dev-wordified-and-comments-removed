@@ -3900,9 +3900,13 @@ rv
 )
 )
 {
-NS_DispatchToMainThread
-(
-NewRunnableMethod
+nsCOMPtr
+<
+nsIRunnable
+>
+runnable
+=
+NS_NewRunnableMethodWithArg
 <
 nsresult
 >
@@ -3915,6 +3919,10 @@ MediaRecorder
 NotifyError
 rv
 )
+;
+NS_DispatchToMainThread
+(
+runnable
 )
 ;
 }

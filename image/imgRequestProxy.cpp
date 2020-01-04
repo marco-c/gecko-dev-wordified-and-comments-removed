@@ -1114,9 +1114,13 @@ if
 mIsInLoadGroup
 )
 {
-NS_DispatchToCurrentThread
-(
-NewRunnableMethod
+nsCOMPtr
+<
+nsIRunnable
+>
+ev
+=
+NS_NewRunnableMethod
 (
 this
 &
@@ -1125,6 +1129,10 @@ imgRequestProxy
 :
 DoRemoveFromLoadGroup
 )
+;
+NS_DispatchToCurrentThread
+(
+ev
 )
 ;
 }

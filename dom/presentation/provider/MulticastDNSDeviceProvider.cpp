@@ -2856,7 +2856,7 @@ ERROR_SERVICE_NOT_RUNNING
 return
 NS_DispatchToMainThread
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &

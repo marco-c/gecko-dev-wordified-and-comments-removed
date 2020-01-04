@@ -278,7 +278,7 @@ nsIRunnable
 >
 runnable
 =
-NewRunnableMethod
+NS_NewRunnableMethodWithArgs
 <
 StoreCopyPassByConstLRef
 <

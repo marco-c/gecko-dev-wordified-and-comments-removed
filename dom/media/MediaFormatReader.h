@@ -330,7 +330,7 @@ nsIRunnable
 >
 r
 =
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 bool
 >

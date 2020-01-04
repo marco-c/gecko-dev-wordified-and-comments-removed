@@ -2622,10 +2622,7 @@ aNew
 {
 NS_DispatchToCurrentThread
 (
-mozilla
-:
-:
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &

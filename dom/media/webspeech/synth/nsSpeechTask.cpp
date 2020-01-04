@@ -208,7 +208,7 @@ nsIRunnable
 >
 startRunnable
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &
@@ -237,7 +237,7 @@ nsIRunnable
 >
 endRunnable
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &
@@ -317,7 +317,7 @@ nsIRunnable
 >
 event
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &

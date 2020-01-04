@@ -7215,7 +7215,7 @@ nsIRunnable
 >
 checkTask
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &

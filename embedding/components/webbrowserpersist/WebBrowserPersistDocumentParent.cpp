@@ -138,7 +138,7 @@ nsIRunnable
 >
 errorLater
 =
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 nsresult
 >

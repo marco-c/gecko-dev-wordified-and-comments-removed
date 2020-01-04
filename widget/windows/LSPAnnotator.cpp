@@ -761,7 +761,7 @@ str
 ;
 NS_DispatchToMainThread
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &

@@ -688,7 +688,7 @@ nsContentUtils
 :
 AddScriptRunner
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 update
@@ -717,7 +717,7 @@ nsContentUtils
 :
 AddScriptRunner
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 updateImport

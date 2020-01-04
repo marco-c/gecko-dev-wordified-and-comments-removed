@@ -3915,7 +3915,7 @@ mIOThread
 >
 Dispatch
 (
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 PathRunnablesParametersWrapper
 *
@@ -4089,7 +4089,7 @@ mIOThread
 >
 Dispatch
 (
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 PathRunnablesParametersWrapper
 *
@@ -4189,7 +4189,7 @@ ioThread
 >
 Dispatch
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 static_cast
 <

@@ -2615,7 +2615,7 @@ T
 >
 event
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 mThis
 funcPtr

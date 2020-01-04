@@ -670,9 +670,13 @@ mName
 )
 )
 ;
-NS_DispatchToMainThread
-(
-NewRunnableMethod
+nsCOMPtr
+<
+nsIRunnable
+>
+r
+=
+NS_NewRunnableMethod
 (
 mPool
 &
@@ -681,6 +685,10 @@ nsIThreadPool
 :
 Shutdown
 )
+;
+NS_DispatchToMainThread
+(
+r
 )
 ;
 mRefCnt

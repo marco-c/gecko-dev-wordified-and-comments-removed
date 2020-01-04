@@ -4618,9 +4618,13 @@ count
 }
 else
 {
-NS_DispatchToMainThread
-(
-NewRunnableMethod
+nsCOMPtr
+<
+nsIRunnable
+>
+runnable
+=
+NS_NewRunnableMethodWithArg
 <
 uint64_t
 >
@@ -4635,6 +4639,10 @@ offset
 +
 count
 )
+;
+NS_DispatchToMainThread
+(
+runnable
 )
 ;
 }

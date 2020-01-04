@@ -1598,7 +1598,7 @@ nsIRunnable
 >
 event
 =
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 const
 nsCString
@@ -2655,7 +2655,7 @@ nsIRunnable
 >
 closeRunnable
 =
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 mozIStorageCompletionCallback
 *

@@ -296,7 +296,7 @@ nsIRunnable
 >
 errorLater
 =
-NewRunnableMethod
+NS_NewRunnableMethodWithArgs
 <
 nsCOMPtr
 <

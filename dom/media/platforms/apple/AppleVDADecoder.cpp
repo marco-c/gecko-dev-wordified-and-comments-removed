@@ -453,7 +453,7 @@ nsIRunnable
 >
 runnable
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &
@@ -607,7 +607,7 @@ nsIRunnable
 >
 runnable
 =
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 RefPtr
 <
@@ -681,7 +681,7 @@ nsIRunnable
 >
 runnable
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &
@@ -753,7 +753,7 @@ nsIRunnable
 >
 runnable
 =
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 this
 &

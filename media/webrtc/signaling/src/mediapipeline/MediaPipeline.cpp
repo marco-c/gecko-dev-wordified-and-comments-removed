@@ -852,7 +852,7 @@ nsIRunnable
 >
 runnable
 =
-NewRunnableMethod
+NS_NewRunnableMethodWithArgs
 <
 StorensRefPtrPassByPtr
 <

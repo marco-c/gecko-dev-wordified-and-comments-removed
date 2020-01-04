@@ -2201,7 +2201,7 @@ IsEmpty
 {
 NS_DispatchToMainThread
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 sInstance
 .
@@ -2359,7 +2359,7 @@ IsEmpty
 {
 NS_DispatchToMainThread
 (
-NewRunnableMethod
+NS_NewRunnableMethod
 (
 sInstance
 .

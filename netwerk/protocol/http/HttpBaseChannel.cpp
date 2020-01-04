@@ -2570,7 +2570,7 @@ nsIRunnable
 >
 runnable
 =
-NewRunnableMethod
+NS_NewRunnableMethodWithArg
 <
 nsresult
 >
