@@ -439,13 +439,7 @@ InitCertVerifierLog
 (
 )
 ;
-mozilla
-:
-:
-pkix
-:
-:
-Result
+SECStatus
 IsCertBuiltInRoot
 (
 CERTCertificate

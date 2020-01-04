@@ -97,9 +97,6 @@ CppUnitTests
 (
 [
 '
-TestIsCertBuiltInRoot
-'
-'
 TestSTSParser
 '
 ]
@@ -129,11 +126,3 @@ TestMD4
 '
 ]
 )
-USE_LIBS
-+
-=
-[
-'
-nss
-'
-]

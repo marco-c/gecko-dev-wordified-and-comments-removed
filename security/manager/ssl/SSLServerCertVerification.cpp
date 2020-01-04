@@ -3331,8 +3331,8 @@ isBuiltIn
 =
 false
 ;
-Result
-result
+SECStatus
+rv
 =
 IsCertBuiltInRoot
 (
@@ -3342,10 +3342,10 @@ isBuiltIn
 ;
 if
 (
-result
+rv
 !
 =
-Success
+SECSuccess
 |
 |
 !
@@ -3402,7 +3402,6 @@ return
 SECItem
 altNameExtension
 ;
-SECStatus
 rv
 =
 CERT_FindCertExtension
@@ -4392,7 +4391,7 @@ isBuiltIn
 =
 false
 ;
-Result
+SECStatus
 rv
 =
 IsCertBuiltInRoot
@@ -4406,7 +4405,7 @@ if
 rv
 !
 =
-Success
+SECSuccess
 |
 |
 !
