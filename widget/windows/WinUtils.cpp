@@ -5274,15 +5274,6 @@ size
 .
 width
 ;
-int32_t
-dataLength
-=
-stride
-*
-size
-.
-height
-;
 nsCOMPtr
 <
 nsIRunnable
@@ -5297,7 +5288,6 @@ Move
 (
 data
 )
-dataLength
 stride
 size
 .
@@ -5340,8 +5330,6 @@ uint8_t
 >
 aBuffer
 uint32_t
-aBufferLength
-uint32_t
 aStride
 uint32_t
 aWidth
@@ -5366,10 +5354,6 @@ Move
 (
 aBuffer
 )
-)
-mBufferLength
-(
-aBufferLength
 )
 mStride
 (
