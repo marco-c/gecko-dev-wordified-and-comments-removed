@@ -177,12 +177,6 @@ ServiceWorkerRegistrationInfo
 >
 mRegistration
 ;
-RefPtr
-<
-ServiceWorkerInfo
->
-mServiceWorker
-;
 }
 ;
 }
