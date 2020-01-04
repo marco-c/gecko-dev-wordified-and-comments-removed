@@ -3,7 +3,7 @@ marionette
 import
 MarionetteTestCase
 from
-marionette_driver
+marionette
 .
 marionette
 import
