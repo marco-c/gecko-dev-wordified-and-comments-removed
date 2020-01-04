@@ -11036,7 +11036,7 @@ if
 yuvImage
 -
 >
-SetData
+CopyData
 (
 yuvData
 )

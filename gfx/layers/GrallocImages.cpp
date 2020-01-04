@@ -771,7 +771,7 @@ void
 GrallocImage
 :
 :
-SetData
+AdoptData
 (
 TextureClient
 *

@@ -3339,7 +3339,7 @@ AsGrallocImage
 )
 -
 >
-SetData
+AdoptData
 (
 textureClient
 gfx
@@ -3579,7 +3579,7 @@ AsPlanarYCbCrImage
 )
 -
 >
-SetDataNoCopy
+AdoptData
 (
 data
 )

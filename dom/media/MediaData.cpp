@@ -1293,7 +1293,7 @@ return
 aVideoImage
 -
 >
-SetData
+CopyData
 (
 data
 )
@@ -1305,7 +1305,7 @@ return
 aVideoImage
 -
 >
-SetDataNoCopy
+AdoptData
 (
 data
 )
@@ -2352,7 +2352,7 @@ GrallocImage
 image
 -
 >
-SetData
+AdoptData
 (
 aBuffer
 aPicture

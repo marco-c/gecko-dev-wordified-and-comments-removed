@@ -11421,7 +11421,7 @@ height
 frame
 -
 >
-SetData
+AdoptData
 (
 aBuffer
 picSize

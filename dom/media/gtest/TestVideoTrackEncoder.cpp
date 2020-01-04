@@ -419,7 +419,7 @@ halfHeight
 image
 -
 >
-SetData
+CopyData
 (
 data
 )
@@ -615,7 +615,7 @@ halfHeight
 image
 -
 >
-SetData
+CopyData
 (
 data
 )
@@ -811,7 +811,7 @@ halfHeight
 image
 -
 >
-SetData
+CopyData
 (
 data
 )

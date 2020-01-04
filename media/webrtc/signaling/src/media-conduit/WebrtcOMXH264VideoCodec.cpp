@@ -2544,7 +2544,7 @@ GrallocImage
 grallocImage
 -
 >
-SetData
+AdoptData
 (
 buffer
 picSize
@@ -5119,7 +5119,7 @@ nullptr
 ;
 img
 .
-SetDataNoCopy
+AdoptData
 (
 yuvData
 )

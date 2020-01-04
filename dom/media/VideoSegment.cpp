@@ -499,7 +499,7 @@ if
 image
 -
 >
-SetData
+CopyData
 (
 data
 )

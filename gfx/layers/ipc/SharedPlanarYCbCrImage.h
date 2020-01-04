@@ -139,7 +139,7 @@ override
 ;
 virtual
 bool
-SetData
+CopyData
 (
 const
 PlanarYCbCrData
@@ -150,7 +150,7 @@ override
 ;
 virtual
 bool
-SetDataNoCopy
+AdoptData
 (
 const
 Data

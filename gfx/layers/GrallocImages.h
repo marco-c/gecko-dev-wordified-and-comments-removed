@@ -156,8 +156,14 @@ Data
 aData
 )
 ;
+using
+RecyclingPlanarYCbCrImage
+:
+:
+AdoptData
+;
 void
-SetData
+AdoptData
 (
 TextureClient
 *

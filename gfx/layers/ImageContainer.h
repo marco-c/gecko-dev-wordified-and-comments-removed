@@ -1877,7 +1877,7 @@ PlanarYCbCrImage
 }
 virtual
 bool
-SetData
+CopyData
 (
 const
 Data
@@ -1889,7 +1889,7 @@ aData
 ;
 virtual
 bool
-SetDataNoCopy
+AdoptData
 (
 const
 Data
@@ -2107,7 +2107,7 @@ override
 ;
 virtual
 bool
-SetData
+CopyData
 (
 const
 Data
@@ -2138,15 +2138,6 @@ override
 ;
 protected
 :
-bool
-CopyData
-(
-const
-Data
-&
-aData
-)
-;
 mozilla
 :
 :

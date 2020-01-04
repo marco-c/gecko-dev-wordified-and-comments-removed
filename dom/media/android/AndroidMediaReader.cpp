@@ -2183,7 +2183,7 @@ aHeight
 yuvImage
 -
 >
-SetDataNoCopy
+AdoptData
 (
 frameDesc
 )
