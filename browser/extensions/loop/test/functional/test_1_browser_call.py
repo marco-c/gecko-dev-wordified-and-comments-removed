@@ -770,7 +770,7 @@ navigate
 url
 )
         
-join_button
+tour_close_button
 =
 self
 .
@@ -779,15 +779,15 @@ wait_for_element_displayed
 By
 .
 CLASS_NAME
-                                                      
+                                                            
 "
-btn
+button
 -
-join
+close
 "
 )
         
-join_button
+tour_close_button
 .
 click
 (

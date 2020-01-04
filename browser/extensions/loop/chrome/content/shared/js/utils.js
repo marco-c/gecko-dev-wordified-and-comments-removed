@@ -1677,6 +1677,11 @@ urlObject
 .
 href
 )
+protocol
+:
+urlObject
+.
+protocol
 }
 ;
 }
