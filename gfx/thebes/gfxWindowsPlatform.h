@@ -552,10 +552,14 @@ const
 gfxFontStyle
 *
 aStyle
+gfxTextPerfMetrics
+*
+aTextPerf
 gfxUserFontSet
 *
 aUserFontSet
 )
+override
 ;
 virtual
 gfxFontEntry

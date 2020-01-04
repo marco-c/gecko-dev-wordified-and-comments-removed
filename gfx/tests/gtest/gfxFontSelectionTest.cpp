@@ -1246,6 +1246,7 @@ test
 >
 fontStyle
 nullptr
+nullptr
 )
 ;
 nsAutoPtr
