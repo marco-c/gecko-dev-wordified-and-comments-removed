@@ -859,6 +859,9 @@ mHeight
 uint32_t
 mNumberAudioTracks
 ;
+bool
+mHasCrypto
+;
 }
 ;
 static
@@ -879,6 +882,7 @@ mp4
 0
 0
 0
+false
 }
 {
 "
@@ -890,6 +894,7 @@ mp4
 0
 0
 0
+false
 }
 {
 "
@@ -901,6 +906,7 @@ mp4
 0
 0
 0
+false
 }
 {
 "
@@ -912,6 +918,7 @@ mp4
 0
 0
 0
+false
 }
 {
 "
@@ -923,6 +930,7 @@ mp4
 0
 0
 0
+false
 }
 {
 "
@@ -934,6 +942,7 @@ mp4
 0
 0
 0
+false
 }
 {
 "
@@ -945,6 +954,7 @@ mp4
 320
 240
 1
+false
 }
 {
 "
@@ -956,6 +966,7 @@ mp4
 160
 90
 0
+false
 }
 {
 "
@@ -967,6 +978,7 @@ mp4
 0
 0
 0
+false
 }
 {
 "
@@ -978,6 +990,7 @@ mp4
 320
 180
 0
+false
 }
 {
 "
@@ -989,6 +1002,7 @@ mp4
 0
 0
 0
+false
 }
 {
 "
@@ -1000,6 +1014,7 @@ mp4
 0
 0
 0
+false
 }
 }
 ;
@@ -1589,8 +1604,14 @@ CanSeek
 )
 )
 ;
-EXPECT_FALSE
+EXPECT_EQ
 (
+testFiles
+[
+test
+]
+.
+mHasCrypto
 metadata
 .
 Crypto
