@@ -30,6 +30,17 @@ as
 conditions
 )
 from
+mozbuild
+.
+shellutil
+import
+(
+    
+split
+as
+shell_split
+)
+from
 mach
 .
 decorators
@@ -306,6 +317,24 @@ JAVA
 )
 )
         
+gradle_flags
+=
+shell_split
+(
+self
+.
+substs
+.
+get
+(
+'
+GRADLE_FLAGS
+'
+'
+'
+)
+)
+        
 return
 self
 .
@@ -321,6 +350,8 @@ GRADLE
 '
 ]
 ]
++
+gradle_flags
 +
 args
             

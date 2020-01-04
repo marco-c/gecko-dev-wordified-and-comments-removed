@@ -109,3 +109,11 @@ moz
 configure
 '
 )
+include
+(
+'
+gradle
+.
+configure
+'
+)
