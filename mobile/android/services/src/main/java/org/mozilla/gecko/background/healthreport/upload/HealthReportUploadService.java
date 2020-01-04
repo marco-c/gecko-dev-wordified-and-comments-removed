@@ -356,15 +356,7 @@ return
 boolean
 uploadEnabled
 =
-intent
-.
-getBooleanExtra
-(
-"
-uploadEnabled
-"
 false
-)
 ;
 if
 (
