@@ -5319,8 +5319,8 @@ aRepaintMode
 )
 ;
 static
-bool
-GetOrMaybeCreateDisplayPort
+void
+MaybeCreateDisplayPort
 (
 nsDisplayListBuilder
 &
@@ -5330,9 +5330,6 @@ nsIFrame
 aScrollFrame
 nsRect
 aDisplayPortBase
-nsRect
-*
-aOutDisplayport
 )
 ;
 static
