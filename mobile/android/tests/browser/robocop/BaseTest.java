@@ -5100,6 +5100,10 @@ JSONObject
 jsonPref
 )
 {
+blockForGeckoReady
+(
+)
+;
 mActions
 .
 sendGeckoEvent
