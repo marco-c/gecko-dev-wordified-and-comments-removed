@@ -2256,6 +2256,9 @@ PERL
 RPMBUILD
 '
 '
+TAR
+'
+'
 UNZIP
 '
 '
