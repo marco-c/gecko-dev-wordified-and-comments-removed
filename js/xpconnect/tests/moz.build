@@ -197,4 +197,13 @@ xpctest_returncode_child
 .
 js
 '
+'
+components
+/
+js
+/
+xpctest_utils
+.
+js
+'
 ]
