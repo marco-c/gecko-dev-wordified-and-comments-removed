@@ -87,8 +87,6 @@ require
 "
 devtools
 /
-client
-/
 shared
 /
 css
@@ -106,8 +104,6 @@ require
 (
 "
 devtools
-/
-client
 /
 shared
 /

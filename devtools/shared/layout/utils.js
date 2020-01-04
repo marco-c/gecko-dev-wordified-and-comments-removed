@@ -559,6 +559,12 @@ scale
 ]
 ;
 }
+exports
+.
+getFrameOffsets
+=
+getFrameOffsets
+;
 function
 getAdjustedQuads
 (

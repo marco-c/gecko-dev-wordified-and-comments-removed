@@ -166,8 +166,6 @@ require
 "
 devtools
 /
-client
-/
 shared
 /
 css
