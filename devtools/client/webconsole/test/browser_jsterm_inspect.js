@@ -119,8 +119,7 @@ getScopeAtIndex
 .
 get
 (
-"
-"
+undefined
 )
 ;
 ok
