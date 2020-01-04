@@ -14234,7 +14234,6 @@ Mode
 {
 ObjectLiteral
 ObjectCreate
-TypedArray
 }
 ;
 private
