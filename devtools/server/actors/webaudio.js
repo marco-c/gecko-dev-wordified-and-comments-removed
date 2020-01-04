@@ -282,7 +282,7 @@ AudioNodeActor
 =
 protocol
 .
-ActorClassWithSpec
+ActorClass
 (
 audionodeSpec
 {
@@ -1513,7 +1513,7 @@ WebAudioActor
 =
 protocol
 .
-ActorClassWithSpec
+ActorClass
 (
 webAudioSpec
 {
