@@ -37,15 +37,6 @@ ArrayUtils
 .
 h
 "
-#
-define
-UNKNOWN_ROOT
-0
-#
-define
-HASH_FAILURE
--
-1
 namespace
 mozilla
 {
@@ -176,7 +167,7 @@ rv
 )
 {
 return
-HASH_FAILURE
+ROOT_CERTIFICATE_HASH_FAILURE
 ;
 }
 size_t
@@ -338,7 +329,7 @@ binNumber
 ;
 }
 return
-UNKNOWN_ROOT
+ROOT_CERTIFICATE_UNKNOWN
 ;
 }
 void
@@ -375,7 +366,7 @@ if
 binId
 !
 =
-HASH_FAILURE
+ROOT_CERTIFICATE_HASH_FAILURE
 )
 {
 Accumulate

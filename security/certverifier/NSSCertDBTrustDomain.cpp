@@ -235,6 +235,9 @@ ValidityCheckingMode
 validityCheckingMode
 SignatureDigestOption
 signatureDigestOption
+PinningTelemetryInfo
+*
+pinningTelemetryInfo
 const
 char
 *
@@ -283,6 +286,10 @@ validityCheckingMode
 mSignatureDigestOption
 (
 signatureDigestOption
+)
+mPinningTelemetryInfo
+(
+pinningTelemetryInfo
 )
 mHostname
 (
@@ -3882,6 +3889,7 @@ mHostname
 time
 enforceTestMode
 chainHasValidPins
+mPinningTelemetryInfo
 )
 ;
 if

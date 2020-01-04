@@ -14,6 +14,13 @@ h
 #
 include
 "
+CertVerifier
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -70,6 +77,9 @@ enforceTestMode
 bool
 &
 chainHasValidPins
+PinningTelemetryInfo
+*
+pinningTelemetryInfo
 )
 ;
 static

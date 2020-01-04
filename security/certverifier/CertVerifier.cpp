@@ -574,6 +574,9 @@ keySizeStatus
 SignatureDigestStatus
 *
 sigDigestStatus
+PinningTelemetryInfo
+*
+pinningTelemetryInfo
 )
 {
 MOZ_LOG
@@ -968,6 +971,7 @@ ValidityCheckingMode
 CheckingOff
 AcceptAllAlgorithms
 nullptr
+nullptr
 builtChain
 )
 ;
@@ -1152,6 +1156,19 @@ i
 +
 )
 {
+if
+(
+pinningTelemetryInfo
+)
+{
+pinningTelemetryInfo
+-
+>
+Reset
+(
+)
+;
+}
 NSSCertDBTrustDomain
 trustDomain
 (
@@ -1171,6 +1188,7 @@ digestAlgorithmOptions
 [
 i
 ]
+pinningTelemetryInfo
 hostname
 builtChain
 )
@@ -1393,6 +1411,19 @@ j
 +
 )
 {
+if
+(
+pinningTelemetryInfo
+)
+{
+pinningTelemetryInfo
+-
+>
+Reset
+(
+)
+;
+}
 NSSCertDBTrustDomain
 trustDomain
 (
@@ -1415,6 +1446,7 @@ digestAlgorithmOptions
 [
 j
 ]
+pinningTelemetryInfo
 hostname
 builtChain
 )
@@ -1552,6 +1584,7 @@ ValidityCheckingMode
 CheckingOff
 AcceptAllAlgorithms
 nullptr
+nullptr
 builtChain
 )
 ;
@@ -1604,6 +1637,7 @@ ValidityCheckingMode
 :
 CheckingOff
 AcceptAllAlgorithms
+nullptr
 nullptr
 builtChain
 )
@@ -1696,6 +1730,7 @@ ValidityCheckingMode
 CheckingOff
 AcceptAllAlgorithms
 nullptr
+nullptr
 builtChain
 )
 ;
@@ -1786,6 +1821,7 @@ ValidityCheckingMode
 :
 CheckingOff
 AcceptAllAlgorithms
+nullptr
 nullptr
 builtChain
 )
@@ -1918,6 +1954,7 @@ ValidityCheckingMode
 CheckingOff
 AcceptAllAlgorithms
 nullptr
+nullptr
 builtChain
 )
 ;
@@ -1966,6 +2003,7 @@ ValidityCheckingMode
 CheckingOff
 AcceptAllAlgorithms
 nullptr
+nullptr
 builtChain
 )
 ;
@@ -2013,6 +2051,7 @@ ValidityCheckingMode
 :
 CheckingOff
 AcceptAllAlgorithms
+nullptr
 nullptr
 builtChain
 )
@@ -2115,6 +2154,9 @@ keySizeStatus
 SignatureDigestStatus
 *
 sigDigestStatus
+PinningTelemetryInfo
+*
+pinningTelemetryInfo
 )
 {
 PR_ASSERT
@@ -2201,6 +2243,7 @@ evOidPolicy
 ocspStaplingStatus
 keySizeStatus
 sigDigestStatus
+pinningTelemetryInfo
 )
 ;
 if
