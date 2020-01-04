@@ -1124,6 +1124,41 @@ DeviceRunner
 )
 :
     
+def
+__init__
+(
+self
+cmdargs
+=
+None
+*
+*
+kwargs
+)
+:
+        
+super
+(
+FennecRunner
+self
+)
+.
+__init__
+(
+*
+*
+kwargs
+)
+        
+self
+.
+cmdargs
+=
+cmdargs
+or
+[
+]
+    
 property
     
 def
@@ -1251,6 +1286,15 @@ app_ctx
 .
 remote_profile
 ]
+        
+params
+.
+extend
+(
+self
+.
+cmdargs
+)
         
 cmd
 .

@@ -948,6 +948,17 @@ fennec
 '
     
 :
+param
+cmdargs
+:
+Arguments
+to
+pass
+into
+binary
+.
+    
+:
 returns
 :
 A
