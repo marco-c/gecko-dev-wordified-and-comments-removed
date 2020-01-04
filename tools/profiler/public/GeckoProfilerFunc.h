@@ -418,6 +418,11 @@ mozilla_sampler_sleep_end
 (
 )
 ;
+bool
+mozilla_sampler_is_sleeping
+(
+)
+;
 double
 mozilla_sampler_time
 (
