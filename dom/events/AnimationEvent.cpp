@@ -218,7 +218,7 @@ mAnimationName
 internalEvent
 -
 >
-elapsedTime
+mElapsedTime
 =
 aParam
 .
@@ -315,7 +315,7 @@ AsAnimationEvent
 )
 -
 >
-elapsedTime
+mElapsedTime
 ;
 }
 NS_IMETHODIMP

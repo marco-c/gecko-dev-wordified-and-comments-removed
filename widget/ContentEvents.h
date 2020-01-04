@@ -952,7 +952,7 @@ aIsTrusted
 aMessage
 eAnimationEventClass
 )
-elapsedTime
+mElapsedTime
 (
 0
 .
@@ -1030,7 +1030,7 @@ nsString
 mAnimationName
 ;
 float
-elapsedTime
+mElapsedTime
 ;
 nsString
 pseudoElement
@@ -1058,11 +1058,11 @@ aEvent
 .
 mAnimationName
 ;
-elapsedTime
+mElapsedTime
 =
 aEvent
 .
-elapsedTime
+mElapsedTime
 ;
 pseudoElement
 =

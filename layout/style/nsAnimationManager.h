@@ -184,7 +184,7 @@ aAnimationName
 ;
 mEvent
 .
-elapsedTime
+mElapsedTime
 =
 aElapsedTime
 .
