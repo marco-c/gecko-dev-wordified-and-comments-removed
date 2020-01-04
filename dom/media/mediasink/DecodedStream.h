@@ -85,6 +85,9 @@ MediaStream
 class
 OutputStreamManager
 ;
+struct
+PlaybackInfoInit
+;
 class
 ProcessedMediaStream
 ;
@@ -286,6 +289,10 @@ private
 void
 CreateData
 (
+PlaybackInfoInit
+&
+&
+aInit
 MozPromiseHolder
 <
 GenericPromise
@@ -313,11 +320,6 @@ UniquePtr
 DecodedStreamData
 >
 aData
-)
-;
-void
-InitTracks
-(
 )
 ;
 void
