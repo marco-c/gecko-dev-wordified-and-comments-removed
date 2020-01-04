@@ -1210,7 +1210,7 @@ range
 .
 length
 ;
-nsIntRect
+DesktopIntRect
 bounds
 ;
 if
@@ -1220,6 +1220,11 @@ textAcc
 {
 bounds
 =
+DesktopIntRect
+:
+:
+FromUnknownRect
+(
 textAcc
 -
 >
@@ -1227,6 +1232,7 @@ TextBounds
 (
 start
 end
+)
 )
 ;
 }
@@ -1238,6 +1244,11 @@ proxy
 {
 bounds
 =
+DesktopIntRect
+:
+:
+FromUnknownRect
+(
 proxy
 -
 >
@@ -1245,6 +1256,7 @@ TextBounds
 (
 start
 end
+)
 )
 ;
 }

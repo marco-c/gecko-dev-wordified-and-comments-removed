@@ -366,7 +366,7 @@ mScreen
 frame
 ]
 ;
-nsIntRect
+DesktopIntRect
 r
 =
 nsCocoaUtils
@@ -437,7 +437,7 @@ mScreen
 visibleFrame
 ]
 ;
-nsIntRect
+DesktopIntRect
 r
 =
 nsCocoaUtils

@@ -121,6 +121,10 @@ nsCocoaUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 NS_IMPL_ISUPPORTS
 (
 nsScreenManagerCocoa
@@ -388,7 +392,7 @@ nsCocoaUtils
 :
 GeckoRectToCocoaRect
 (
-nsIntRect
+DesktopIntRect
 (
 aX
 aY

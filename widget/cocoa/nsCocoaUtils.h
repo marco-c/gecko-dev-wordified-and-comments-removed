@@ -723,7 +723,10 @@ NSRect
 GeckoRectToCocoaRect
 (
 const
-nsIntRect
+mozilla
+:
+:
+DesktopIntRect
 &
 geckoRect
 )
@@ -733,7 +736,10 @@ NSRect
 GeckoRectToCocoaRectDevPix
 (
 const
-nsIntRect
+mozilla
+:
+:
+LayoutDeviceIntRect
 &
 aGeckoRect
 CGFloat
@@ -741,7 +747,10 @@ aBackingScale
 )
 ;
 static
-nsIntRect
+mozilla
+:
+:
+DesktopIntRect
 CocoaRectToGeckoRect
 (
 const

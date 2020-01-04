@@ -457,7 +457,7 @@ nsCocoaUtils
 GeckoRectToCocoaRect
 (
 const
-nsIntRect
+DesktopIntRect
 &
 geckoRect
 )
@@ -525,7 +525,7 @@ nsCocoaUtils
 GeckoRectToCocoaRectDevPix
 (
 const
-nsIntRect
+LayoutDeviceIntRect
 &
 aGeckoRect
 CGFloat
@@ -564,7 +564,7 @@ aBackingScale
 )
 ;
 }
-nsIntRect
+DesktopIntRect
 nsCocoaUtils
 :
 :
@@ -612,7 +612,7 @@ the
 cocoa
 rect
 .
-nsIntRect
+DesktopIntRect
 rect
 ;
 rect
