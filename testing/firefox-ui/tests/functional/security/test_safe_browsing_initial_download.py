@@ -51,6 +51,16 @@ badbinurl
 -
 shavar
 .
+cache
+"
+                
+"
+goog
+-
+badbinurl
+-
+shavar
+.
 pset
 "
                 
@@ -71,6 +81,16 @@ malware
 -
 shavar
 .
+cache
+"
+                
+"
+goog
+-
+malware
+-
+shavar
+.
 pset
 "
                 
@@ -91,6 +111,16 @@ phish
 -
 shavar
 .
+cache
+"
+                
+"
+goog
+-
+phish
+-
+shavar
+.
 pset
 "
                 
@@ -111,6 +141,16 @@ unwanted
 -
 shavar
 .
+cache
+"
+                
+"
+goog
+-
+unwanted
+-
+shavar
+.
 pset
 "
                 
@@ -131,6 +171,16 @@ track
 -
 digest256
 .
+cache
+"
+                
+"
+mozstd
+-
+track
+-
+digest256
+.
 pset
 "
                 
@@ -142,6 +192,16 @@ track
 digest256
 .
 sbstore
+"
+                
+"
+mozstd
+-
+trackwhite
+-
+digest256
+.
+cache
 "
                 
 "
@@ -185,6 +245,16 @@ files
 '
 :
 [
+                
+"
+goog
+-
+downloadwhite
+-
+digest256
+.
+cache
+"
                 
 "
 goog
