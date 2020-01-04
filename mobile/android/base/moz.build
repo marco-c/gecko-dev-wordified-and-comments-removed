@@ -3885,6 +3885,13 @@ TelemetryPingGenerator
 java
 '
 '
+telemetry
+/
+TelemetryUploadService
+.
+java
+'
+'
 TelemetryContract
 .
 java
