@@ -63,6 +63,8 @@ config
 rules
 .
 mk
+ifndef
+MOZ_EXCLUDE_HYPHENATION_DICTIONARIES
 PATTERN_FILES
 =
 (
@@ -103,3 +105,6 @@ FINAL_TARGET
 /
 hyphenation
 endif
+endif
+#
+MOZ_EXCLUDE_HYPHENATION_DICTIONARIES
