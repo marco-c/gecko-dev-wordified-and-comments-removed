@@ -14,6 +14,13 @@ h
 #
 include
 "
+DragTracker
+.
+h
+"
+#
+include
+"
 InputData
 .
 h
@@ -449,6 +456,9 @@ mLastActiveApzc
 ;
 TouchCounter
 mTouchCounter
+;
+DragTracker
+mDragTracker
 ;
 }
 ;
