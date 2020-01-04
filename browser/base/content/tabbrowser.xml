@@ -44029,6 +44029,7 @@ inherits
 "
 pinned
 selected
+=
 visuallyselected
 fadein
 "
@@ -44051,6 +44052,7 @@ inherits
 "
 pinned
 selected
+=
 visuallyselected
 "
 class
@@ -44075,6 +44077,7 @@ inherits
 "
 pinned
 selected
+=
 visuallyselected
 "
 class
@@ -44099,6 +44102,7 @@ inherits
 "
 pinned
 selected
+=
 visuallyselected
 "
 class
@@ -44129,6 +44133,7 @@ inherits
 "
 pinned
 selected
+=
 visuallyselected
 titlechanged
 attention
@@ -44160,6 +44165,7 @@ pinned
 busy
 progress
 selected
+=
 visuallyselected
 "
 class
@@ -44196,6 +44202,7 @@ image
 fadein
 pinned
 selected
+=
 visuallyselected
 busy
 crashed
@@ -44242,6 +44249,8 @@ inherits
 "
 sharing
 selected
+=
+visuallyselected
 "
 anonid
 =
@@ -44282,6 +44291,8 @@ busy
 soundplaying
 pinned
 muted
+selected
+=
 visuallyselected
 "
 anonid
@@ -44329,6 +44340,7 @@ accesskey
 fadein
 pinned
 selected
+=
 visuallyselected
 attention
 "
@@ -44361,6 +44373,8 @@ inherits
 soundplaying
 pinned
 muted
+selected
+=
 visuallyselected
 "
 anonid
@@ -44405,6 +44419,7 @@ inherits
 fadein
 pinned
 selected
+=
 visuallyselected
 "
 class
