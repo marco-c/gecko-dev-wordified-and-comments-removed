@@ -121,7 +121,7 @@ nsIFrame
 aPrevInFlow
 )
 {
-Super
+nsContainerFrame
 :
 :
 Init
