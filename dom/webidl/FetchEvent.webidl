@@ -126,7 +126,6 @@ Constructor
 (
 DOMString
 type
-optional
 FetchEventInit
 eventInitDict
 )
