@@ -151,17 +151,6 @@ aStart
 )
 const
 ;
-void
-RequestSnapOnLock
-(
-Layer
-:
-:
-ScrollDirection
-aAxis
-)
-const
-;
 bool
 CanBePanned
 (
