@@ -58,6 +58,9 @@ headers
 {
 }
 ;
+var
+errorNameWhileAppendingHeader
+;
 for
 (
 var

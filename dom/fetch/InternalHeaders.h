@@ -147,9 +147,10 @@ aOther
 :
 mGuard
 (
-aOther
-.
-mGuard
+HeadersGuardEnum
+:
+:
+None
 )
 {
 ErrorResult
@@ -170,6 +171,12 @@ Failed
 (
 )
 )
+;
+mGuard
+=
+aOther
+.
+mGuard
 ;
 }
 explicit
