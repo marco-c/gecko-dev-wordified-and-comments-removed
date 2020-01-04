@@ -7570,13 +7570,10 @@ offsetToPC
 curBc
 )
 ;
-mozilla
-:
-:
-DebugOnly
-<
+#
+ifdef
+JS_JITSPEW
 JSOp
->
 op
 =
 JSOp
@@ -7598,6 +7595,8 @@ op
 ]
 )
 ;
+#
+endif
 curBc
 +
 =
