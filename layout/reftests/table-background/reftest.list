@@ -1118,13 +1118,8 @@ fuzzy
 if
 (
 d2d
-1
-29973
-)
-fuzzy
--
-if
-(
+|
+|
 skiaContent
 1
 60000
@@ -1418,6 +1413,9 @@ fuzzy
 -
 if
 (
+d2d
+|
+|
 skiaContent
 1
 95000
