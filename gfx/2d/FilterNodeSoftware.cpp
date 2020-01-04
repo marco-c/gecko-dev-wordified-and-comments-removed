@@ -4453,6 +4453,7 @@ GetAlignedStride
 map
 .
 mStride
+1
 )
 |
 |

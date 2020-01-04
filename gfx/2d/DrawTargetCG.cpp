@@ -9066,7 +9066,6 @@ GetAlignedStride
 aSize
 .
 width
-*
 BytesPerPixel
 (
 aFormat
