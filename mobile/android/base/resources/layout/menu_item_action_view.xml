@@ -184,7 +184,7 @@ background
 "
 drawable
 /
-action_bar_button
+menu_item_action_bar_bg
 "
 android
 :
@@ -244,15 +244,6 @@ layout_height
 =
 "
 match_parent
-"
-android
-:
-background
-=
-"
-drawable
-/
-action_bar_button
 "
 android
 :
