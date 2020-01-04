@@ -250,11 +250,10 @@ finish
 )
 {
 for
-each
 (
 let
 eventType
-in
+of
 LISTEN_EVENTS
 )
 {
@@ -304,11 +303,10 @@ content
 )
 ;
 for
-each
 (
 let
 eventType
-in
+of
 LISTEN_EVENTS
 )
 {
