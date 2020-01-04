@@ -434,6 +434,9 @@ isinstance
 __import__
 =
 forbidden_import
+str
+=
+unicode
 )
     
 OS
