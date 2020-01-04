@@ -312,9 +312,7 @@ null
 location
 .
 origin
-"
-0
-"
+null
 )
 ;
 requestHeaders
