@@ -2918,13 +2918,17 @@ options
 debug
 :
         
-if
-len
-(
+tests
+=
 list
 (
 test_gen
 )
+        
+if
+len
+(
+tests
 )
 >
 1
@@ -2953,7 +2957,7 @@ one
 for
 tc
 in
-test_gen
+tests
 :
                 
 print
@@ -2976,16 +2980,14 @@ return
         
 cmd
 =
-test_gen
+tests
 [
 0
 ]
 .
 get_command
 (
-RefTestCase
-.
-js_cmd_prefix
+prefix
 )
         
 if
