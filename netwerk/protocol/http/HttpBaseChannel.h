@@ -1678,6 +1678,12 @@ GetURIPrincipal
 )
 ;
 bool
+BypassServiceWorker
+(
+)
+const
+;
+bool
 ShouldIntercept
 (
 )
@@ -1782,7 +1788,7 @@ nsHttpResponseHead
 >
 mResponseHead
 ;
-RefPtr
+nsRefPtr
 <
 nsHttpConnectionInfo
 >
@@ -1957,11 +1963,6 @@ mAllRedirectsPassTimingAllowCheck
 1
 ;
 uint32_t
-mForceNoIntercept
-:
-1
-;
-uint32_t
 mResponseCouldBeSynthesized
 :
 1
@@ -2005,7 +2006,7 @@ nsString
 >
 mContentDispositionFilename
 ;
-RefPtr
+nsRefPtr
 <
 nsHttpHandler
 >
@@ -2409,7 +2410,7 @@ retval
 nsresult
 rv
 ;
-RefPtr
+nsRefPtr
 <
 nsRunnableMethod
 <
