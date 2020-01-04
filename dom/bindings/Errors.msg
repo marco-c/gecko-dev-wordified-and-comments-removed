@@ -1523,11 +1523,16 @@ duration
 MSG_DEF
 (
 MSG_INVALID_EASING_ERROR
-0
+1
 JSEXN_TYPEERR
 "
 Invalid
 easing
+'
+{
+0
+}
+'
 .
 "
 )
