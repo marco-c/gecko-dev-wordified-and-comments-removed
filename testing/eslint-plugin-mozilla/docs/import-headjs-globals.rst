@@ -130,6 +130,13 @@ loadHelperScript
 (
 path
 )
+-
+import
+-
+globals
+-
+from
+path
 If
 path
 does
