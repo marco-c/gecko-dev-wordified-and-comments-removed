@@ -503,9 +503,6 @@ skip
 if
 (
 B2G
-|
-|
-browserIsRemote
 )
 HTTP
 =
