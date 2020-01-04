@@ -73,6 +73,15 @@ include
 "
 mozilla
 /
+OwningNonNull
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ScriptSettings
