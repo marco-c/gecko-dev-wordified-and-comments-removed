@@ -1141,6 +1141,12 @@ None
         
 self
 .
+browser_started
+=
+False
+        
+self
+.
 parent_stop_flag
 =
 stop_flag
@@ -1624,6 +1630,46 @@ else
 :
                         
 if
+(
+self
+.
+debug_info
+and
+self
+.
+debug_info
+.
+interactive
+and
+                            
+self
+.
+browser_started
+and
+not
+browser
+.
+is_alive
+(
+)
+)
+:
+                            
+self
+.
+logger
+.
+debug
+(
+"
+Debugger
+exited
+"
+)
+                            
+break
+                        
+if
 not
 self
 .
@@ -2099,6 +2145,12 @@ else
 :
                 
 succeeded
+=
+True
+                
+self
+.
+browser_started
 =
 True
         
@@ -2777,6 +2829,12 @@ browser
 stop
 (
 )
+            
+self
+.
+browser_started
+=
+False
             
 if
 self
