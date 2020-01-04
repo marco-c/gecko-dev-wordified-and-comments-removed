@@ -1124,7 +1124,8 @@ addSyntheticLine
 }
 addSyntheticLine
 (
-var
+this
+.
 bindings
 =
 {
