@@ -517,10 +517,16 @@ mCodecDelay
 uint64_t
 mSeekPreroll
 ;
+Maybe
+<
 int64_t
+>
 mLastAudioFrameTime
 ;
+Maybe
+<
 int64_t
+>
 mLastVideoFrameTime
 ;
 int
