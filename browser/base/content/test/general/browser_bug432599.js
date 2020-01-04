@@ -532,16 +532,8 @@ else
 {
 gBrowser
 .
-removeTab
+removeCurrentTab
 (
-gBrowser
-.
-selectedTab
-{
-skipPermitUnload
-:
-true
-}
 )
 ;
 PlacesUtils

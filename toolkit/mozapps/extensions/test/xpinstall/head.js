@@ -929,16 +929,9 @@ if
 (
 callback
 )
-executeSoon
-(
-(
-)
-=
->
 callback
 (
 count
-)
 )
 ;
 }

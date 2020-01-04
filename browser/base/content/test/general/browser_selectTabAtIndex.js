@@ -188,16 +188,8 @@ i
 )
 gBrowser
 .
-removeTab
+removeCurrentTab
 (
-gBrowser
-.
-selectedTab
-{
-skipPermitUnload
-:
-true
-}
 )
 ;
 }

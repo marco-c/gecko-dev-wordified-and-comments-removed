@@ -176,13 +176,13 @@ function
 ignore
 )
 {
-gBrowser
-.
-removeCurrentTab
+finish
 (
 )
 ;
-finish
+gBrowser
+.
+removeCurrentTab
 (
 )
 ;
