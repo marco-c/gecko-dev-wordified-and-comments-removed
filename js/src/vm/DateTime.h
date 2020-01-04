@@ -249,10 +249,15 @@ friend
 const
 char
 *
+JS
 :
 :
-JS_InitWithFailureDiagnostic
+detail
+:
+:
+InitWithFailureDiagnostic
 (
+bool
 )
 ;
 static
