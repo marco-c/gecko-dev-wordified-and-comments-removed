@@ -843,7 +843,7 @@ eQueryContentEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_QUERY_CONTENT_STATE
+eQueryContentState
 eQueryContentEventFirst
 +
 6

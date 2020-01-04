@@ -34949,7 +34949,7 @@ WidgetQueryContentEvent
 event
 (
 true
-NS_QUERY_CONTENT_STATE
+eQueryContentState
 mGeckoChild
 )
 ;

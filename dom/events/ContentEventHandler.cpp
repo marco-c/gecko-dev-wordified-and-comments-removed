@@ -4213,7 +4213,7 @@ aEvent
 )
 ;
 case
-NS_QUERY_CONTENT_STATE
+eQueryContentState
 :
 return
 OnQueryContentState
