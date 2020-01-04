@@ -167,6 +167,9 @@ aDirection
 void
 SetEasing
 (
+JSContext
+*
+aCx
 const
 nsAString
 &
