@@ -2479,8 +2479,11 @@ mask
 0x7f
 &
 (
+uint8_t
+(
 -
 1
+)
 <
 <
 remainderBits
