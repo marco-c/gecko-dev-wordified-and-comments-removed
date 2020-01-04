@@ -968,7 +968,7 @@ NS_DRAGDROP_EXIT
 aMessage
 !
 =
-NS_DRAGDROP_LEAVE
+eDragLeave
 &
 &
 aMessage

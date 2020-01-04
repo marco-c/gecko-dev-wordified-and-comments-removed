@@ -394,7 +394,7 @@ eDragEventClass
 EVENT
 (
 dragleave
-NS_DRAGDROP_LEAVE
+eDragLeave
 EventNameType_HTMLXUL
 eDragEventClass
 )
