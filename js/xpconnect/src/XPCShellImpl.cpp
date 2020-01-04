@@ -2518,10 +2518,10 @@ argc
 vp
 )
 ;
-RuntimeOptions
-oldRuntimeOptions
+ContextOptions
+oldContextOptions
 =
-RuntimeOptionsRef
+ContextOptionsRef
 (
 cx
 )
@@ -2599,7 +2599,7 @@ strict
 =
 0
 )
-RuntimeOptionsRef
+ContextOptionsRef
 (
 cx
 )
@@ -2626,7 +2626,7 @@ werror
 =
 0
 )
-RuntimeOptionsRef
+ContextOptionsRef
 (
 cx
 )
@@ -2653,7 +2653,7 @@ strict_mode
 =
 0
 )
-RuntimeOptionsRef
+ContextOptionsRef
 (
 cx
 )
@@ -2708,7 +2708,7 @@ nullptr
 ;
 if
 (
-oldRuntimeOptions
+oldContextOptions
 .
 extraWarnings
 (
@@ -2747,7 +2747,7 @@ false
 }
 if
 (
-oldRuntimeOptions
+oldContextOptions
 .
 werror
 (
@@ -2798,7 +2798,7 @@ if
 names
 &
 &
-oldRuntimeOptions
+oldContextOptions
 .
 strictMode
 (
@@ -5144,7 +5144,7 @@ case
 S
 '
 :
-RuntimeOptionsRef
+ContextOptionsRef
 (
 cx
 )
@@ -5160,7 +5160,7 @@ case
 s
 '
 :
-RuntimeOptionsRef
+ContextOptionsRef
 (
 cx
 )
@@ -5176,7 +5176,7 @@ case
 I
 '
 :
-RuntimeOptionsRef
+ContextOptionsRef
 (
 cx
 )

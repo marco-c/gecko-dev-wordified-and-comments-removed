@@ -4442,12 +4442,12 @@ JS
 class
 JS_PUBLIC_API
 (
-RuntimeOptions
+ContextOptions
 )
 {
 public
 :
-RuntimeOptions
+ContextOptions
 (
 )
 :
@@ -4519,7 +4519,7 @@ return
 baseline_
 ;
 }
-RuntimeOptions
+ContextOptions
 &
 setBaseline
 (
@@ -4536,7 +4536,7 @@ return
 this
 ;
 }
-RuntimeOptions
+ContextOptions
 &
 toggleBaseline
 (
@@ -4562,7 +4562,7 @@ return
 ion_
 ;
 }
-RuntimeOptions
+ContextOptions
 &
 setIon
 (
@@ -4579,7 +4579,7 @@ return
 this
 ;
 }
-RuntimeOptions
+ContextOptions
 &
 toggleIon
 (
@@ -4605,7 +4605,7 @@ return
 asmJS_
 ;
 }
-RuntimeOptions
+ContextOptions
 &
 setAsmJS
 (
@@ -4622,7 +4622,7 @@ return
 this
 ;
 }
-RuntimeOptions
+ContextOptions
 &
 toggleAsmJS
 (
@@ -4648,7 +4648,7 @@ return
 wasm_
 ;
 }
-RuntimeOptions
+ContextOptions
 &
 setWasm
 (
@@ -4665,7 +4665,7 @@ return
 this
 ;
 }
-RuntimeOptions
+ContextOptions
 &
 toggleWasm
 (
@@ -4691,7 +4691,7 @@ return
 wasmAlwaysBaseline_
 ;
 }
-RuntimeOptions
+ContextOptions
 &
 setWasmAlwaysBaseline
 (
@@ -4708,7 +4708,7 @@ return
 this
 ;
 }
-RuntimeOptions
+ContextOptions
 &
 toggleWasmAlwaysBaseline
 (
@@ -4734,7 +4734,7 @@ return
 throwOnAsmJSValidationFailure_
 ;
 }
-RuntimeOptions
+ContextOptions
 &
 setThrowOnAsmJSValidationFailure
 (
@@ -4751,7 +4751,7 @@ return
 this
 ;
 }
-RuntimeOptions
+ContextOptions
 &
 toggleThrowOnAsmJSValidationFailure
 (
@@ -4777,7 +4777,7 @@ return
 nativeRegExp_
 ;
 }
-RuntimeOptions
+ContextOptions
 &
 setNativeRegExp
 (
@@ -4804,7 +4804,7 @@ return
 unboxedArrays_
 ;
 }
-RuntimeOptions
+ContextOptions
 &
 setUnboxedArrays
 (
@@ -4831,7 +4831,7 @@ return
 asyncStack_
 ;
 }
-RuntimeOptions
+ContextOptions
 &
 setAsyncStack
 (
@@ -4858,7 +4858,7 @@ return
 throwOnDebuggeeWouldRun_
 ;
 }
-RuntimeOptions
+ContextOptions
 &
 setThrowOnDebuggeeWouldRun
 (
@@ -4885,7 +4885,7 @@ return
 dumpStackOnDebuggeeWouldRun_
 ;
 }
-RuntimeOptions
+ContextOptions
 &
 setDumpStackOnDebuggeeWouldRun
 (
@@ -4912,7 +4912,7 @@ return
 werror_
 ;
 }
-RuntimeOptions
+ContextOptions
 &
 setWerror
 (
@@ -4929,7 +4929,7 @@ return
 this
 ;
 }
-RuntimeOptions
+ContextOptions
 &
 toggleWerror
 (
@@ -4955,7 +4955,7 @@ return
 strictMode_
 ;
 }
-RuntimeOptions
+ContextOptions
 &
 setStrictMode
 (
@@ -4972,7 +4972,7 @@ return
 this
 ;
 }
-RuntimeOptions
+ContextOptions
 &
 toggleStrictMode
 (
@@ -4998,7 +4998,7 @@ return
 extraWarnings_
 ;
 }
-RuntimeOptions
+ContextOptions
 &
 setExtraWarnings
 (
@@ -5015,7 +5015,7 @@ return
 this
 ;
 }
-RuntimeOptions
+ContextOptions
 &
 toggleExtraWarnings
 (
@@ -5107,22 +5107,10 @@ extraWarnings_
 ;
 JS_PUBLIC_API
 (
-RuntimeOptions
+ContextOptions
 &
 )
-RuntimeOptionsRef
-(
-JSRuntime
-*
-rt
-)
-;
-JS_PUBLIC_API
-(
-RuntimeOptions
-&
-)
-RuntimeOptionsRef
+ContextOptionsRef
 (
 JSContext
 *
@@ -8615,9 +8603,9 @@ this
 bool
 extraWarnings
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 const
 ;

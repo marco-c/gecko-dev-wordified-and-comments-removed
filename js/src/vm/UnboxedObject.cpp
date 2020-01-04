@@ -10953,12 +10953,7 @@ JS_OPTION_USE_UNBOXED_ARRAYS
 if
 (
 !
-group
--
->
-runtimeFromAnyThread
-(
-)
+cx
 -
 >
 options

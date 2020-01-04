@@ -399,8 +399,8 @@ gcSettings
 JS
 :
 :
-RuntimeOptions
-runtimeOptions
+ContextOptions
+contextOptions
 ;
 #
 ifdef

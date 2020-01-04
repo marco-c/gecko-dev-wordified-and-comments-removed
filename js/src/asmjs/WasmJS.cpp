@@ -746,11 +746,6 @@ MOZ_ASSERT
 cx
 -
 >
-runtime
-(
-)
--
->
 options
 (
 )
@@ -1054,11 +1049,6 @@ global
 MOZ_ASSERT
 (
 cx
--
->
-runtime
-(
-)
 -
 >
 options
@@ -3369,11 +3359,6 @@ global
 MOZ_ASSERT
 (
 cx
--
->
-runtime
-(
-)
 -
 >
 options
