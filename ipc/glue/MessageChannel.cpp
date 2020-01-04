@@ -3090,8 +3090,6 @@ NotifyWorkerThread
 )
 ;
 }
-else
-{
 if
 (
 !
@@ -3113,7 +3111,6 @@ mDequeueOneTask
 ;
 }
 }
-}
 void
 MessageChannel
 :
@@ -3130,7 +3127,18 @@ IPC_LOG
 (
 "
 ProcessPendingRequests
+for
+seqno
+=
+%
+d
+xid
+=
+%
+d
 "
+seqno
+transaction
 )
 ;
 for
