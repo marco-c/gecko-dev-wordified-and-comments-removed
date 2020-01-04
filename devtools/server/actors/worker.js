@@ -223,6 +223,11 @@ actor
 this
 .
 actorID
+consoleActor
+:
+this
+.
+_consoleActor
 url
 :
 this
@@ -422,6 +427,7 @@ then
 {
 threadActor
 transport
+consoleActor
 }
 )
 =
@@ -439,6 +445,12 @@ _transport
 =
 transport
 ;
+this
+.
+_consoleActor
+=
+consoleActor
+;
 return
 {
 type
@@ -451,6 +463,11 @@ threadActor
 this
 .
 _threadActor
+consoleActor
+:
+this
+.
+_consoleActor
 }
 ;
 }

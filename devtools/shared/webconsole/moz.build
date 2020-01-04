@@ -174,4 +174,11 @@ utils
 .
 js
 '
+'
+worker
+-
+utils
+.
+js
+'
 )
