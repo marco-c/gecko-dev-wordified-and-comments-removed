@@ -5671,6 +5671,10 @@ spewNodes_
 uint32_t
 spewNext_
 ;
+Sprinter
+*
+printer_
+;
 bool
 spewDisabled
 (
@@ -5752,6 +5756,10 @@ JS_DISASM_ARM
 spewNext_
 (
 1000
+)
+printer_
+(
+nullptr
 )
 #
 endif
@@ -5963,6 +5971,10 @@ Sprinter
 sp
 )
 {
+printer_
+=
+sp
+;
 }
 static
 const
