@@ -727,7 +727,6 @@ ThrowTypeError
 MSG_INVALID_URL
 >
 (
-&
 aScriptURL
 )
 ;
@@ -833,9 +832,7 @@ ThrowTypeError
 MSG_INVALID_SCOPE
 >
 (
-&
 defaultScope
-&
 wSpec
 )
 ;
@@ -900,7 +897,6 @@ ThrowTypeError
 MSG_INVALID_SCOPE
 >
 (
-&
 aOptions
 .
 mScope
@@ -908,7 +904,6 @@ mScope
 Value
 (
 )
-&
 wSpec
 )
 ;

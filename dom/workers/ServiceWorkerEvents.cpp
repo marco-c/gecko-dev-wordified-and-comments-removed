@@ -692,7 +692,13 @@ const
 nsACString
 &
 aMessageName
+const
+nsAString
+&
+aFirstParam
 Params
+&
+&
 .
 .
 .
@@ -712,6 +718,8 @@ sizeof
 (
 Params
 )
++
+1
 )
 ;
 StringArrayAppender
@@ -727,7 +735,16 @@ sizeof
 (
 Params
 )
++
+1
+aFirstParam
+Forward
+<
+Params
+>
+(
 aParams
+)
 .
 .
 .
@@ -1477,7 +1494,6 @@ NS_LITERAL_CSTRING
 InterceptionFailedWithURL
 "
 )
-&
 mRequestURL
 )
 ;
@@ -1703,7 +1719,6 @@ NS_LITERAL_CSTRING
 InterceptionFailedWithURL
 "
 )
-&
 data
 -
 >
@@ -2192,6 +2207,8 @@ nsACString
 &
 aMessageName
 Params
+&
+&
 .
 .
 .
@@ -2250,7 +2267,13 @@ sizeof
 (
 Params
 )
+Forward
+<
+Params
+>
+(
 aParams
+)
 .
 .
 .
@@ -2281,6 +2304,8 @@ nsACString
 &
 aMessageName
 Params
+&
+&
 .
 .
 .
@@ -2351,7 +2376,13 @@ sizeof
 (
 Params
 )
+Forward
+<
+Params
+>
+(
 aParams
+)
 .
 .
 .
@@ -2475,9 +2506,7 @@ NS_LITERAL_CSTRING
 InterceptedNonResponseWithURL
 "
 )
-&
 mRequestURL
-&
 valueString
 )
 ;
@@ -2554,9 +2583,7 @@ NS_LITERAL_CSTRING
 InterceptedNonResponseWithURL
 "
 )
-&
 mRequestURL
-&
 valueString
 )
 ;
@@ -2618,7 +2645,6 @@ NS_LITERAL_CSTRING
 OpaqueInterceptionDisabledWithURL
 "
 )
-&
 mRequestURL
 )
 ;
@@ -2651,7 +2677,6 @@ NS_LITERAL_CSTRING
 InterceptedErrorResponseWithURL
 "
 )
-&
 mRequestURL
 )
 ;
@@ -2739,9 +2764,7 @@ NS_LITERAL_CSTRING
 BadOpaqueInterceptionRequestModeWithURL
 "
 )
-&
 mRequestURL
-&
 modeString
 )
 ;
@@ -2778,7 +2801,6 @@ NS_LITERAL_CSTRING
 BadOpaqueRedirectInterceptionWithURL
 "
 )
-&
 mRequestURL
 )
 ;
@@ -2808,7 +2830,6 @@ NS_LITERAL_CSTRING
 InterceptedUsedResponseWithURL
 "
 )
-&
 mRequestURL
 )
 ;
@@ -3124,9 +3145,7 @@ NS_LITERAL_CSTRING
 InterceptionRejectedResponseWithURL
 "
 )
-&
 mRequestURL
-&
 valueString
 )
 ;
@@ -3439,7 +3458,6 @@ NS_LITERAL_CSTRING
 InterceptionCanceledWithURL
 "
 )
-&
 requestURL
 )
 ;

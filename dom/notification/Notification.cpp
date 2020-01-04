@@ -9828,12 +9828,6 @@ Result
 NS_ERROR_NOT_AVAILABLE
 )
 {
-nsAutoString
-scope
-(
-aScope
-)
-;
 aRv
 .
 ThrowTypeError
@@ -9841,8 +9835,7 @@ ThrowTypeError
 MSG_NO_ACTIVE_WORKER
 >
 (
-&
-scope
+aScope
 )
 ;
 }

@@ -139,6 +139,8 @@ nsACString
 &
 aMessageName
 Params
+&
+&
 .
 .
 .
@@ -170,7 +172,16 @@ sizeof
 (
 Params
 )
+mozilla
+:
+:
+Forward
+<
+Params
+>
+(
 aParams
+)
 .
 .
 .

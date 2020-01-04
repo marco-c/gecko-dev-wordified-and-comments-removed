@@ -2792,7 +2792,6 @@ ThrowTypeError
 MSG_NO_ACTIVE_WORKER
 >
 (
-&
 mScope
 )
 ;

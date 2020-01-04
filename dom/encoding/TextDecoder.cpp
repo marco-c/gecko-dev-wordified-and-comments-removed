@@ -119,7 +119,6 @@ ThrowRangeError
 MSG_ENCODING_NOT_SUPPORTED
 >
 (
-&
 label
 )
 ;

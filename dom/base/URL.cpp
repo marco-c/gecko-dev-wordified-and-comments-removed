@@ -418,7 +418,6 @@ ThrowTypeError
 MSG_INVALID_URL
 >
 (
-&
 aBase
 )
 ;
@@ -504,7 +503,6 @@ ThrowTypeError
 MSG_INVALID_URL
 >
 (
-&
 aUrl
 )
 ;
@@ -1146,12 +1144,6 @@ rv
 )
 )
 {
-nsAutoString
-label
-(
-aHref
-)
-;
 aRv
 .
 ThrowTypeError
@@ -1159,8 +1151,7 @@ ThrowTypeError
 MSG_INVALID_URL
 >
 (
-&
-label
+aHref
 )
 ;
 return

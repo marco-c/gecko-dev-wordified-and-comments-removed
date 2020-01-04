@@ -4790,9 +4790,7 @@ ThrowTypeError
 MSG_SW_INSTALL_ERROR
 >
 (
-&
 scriptSpec
-&
 scope
 )
 ;
@@ -11157,9 +11155,7 @@ ThrowTypeError
 MSG_SW_SCRIPT_THREW
 >
 (
-&
 aWorkerURL
-&
 scope
 )
 ;
