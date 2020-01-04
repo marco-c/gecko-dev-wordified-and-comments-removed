@@ -39,9 +39,7 @@ else
 if
 (
 typeof
-"
 module
-"
 =
 =
 "
@@ -50,9 +48,7 @@ undefined
 |
 |
 typeof
-"
 exports
-"
 =
 =
 "
