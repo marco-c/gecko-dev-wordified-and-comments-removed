@@ -19,6 +19,13 @@ SharedSSLState
 .
 h
 "
+#
+include
+"
+nss
+.
+h
+"
 using
 namespace
 mozilla
@@ -204,6 +211,10 @@ removeInsecureFallbackSite
 (
 host
 aPort
+)
+;
+SSL_ClearSessionCache
+(
 )
 ;
 return
