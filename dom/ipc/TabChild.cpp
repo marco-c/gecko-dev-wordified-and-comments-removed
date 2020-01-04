@@ -6478,6 +6478,16 @@ MaybeRequestPreinitCamera
 (
 )
 {
+if
+(
+IsBrowserElement
+(
+)
+)
+{
+return
+;
+}
 nsCOMPtr
 <
 nsIAppsService
