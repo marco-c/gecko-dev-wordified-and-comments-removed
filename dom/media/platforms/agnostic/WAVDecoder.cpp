@@ -319,14 +319,8 @@ this
 WaveDataDecoder
 :
 :
-Decode
-RefPtr
-<
-MediaRawData
->
-(
+ProcessDecode
 aSample
-)
 )
 )
 ;
@@ -338,7 +332,7 @@ void
 WaveDataDecoder
 :
 :
-Decode
+ProcessDecode
 (
 MediaRawData
 *
@@ -795,7 +789,7 @@ void
 WaveDataDecoder
 :
 :
-DoDrain
+ProcessDrain
 (
 )
 {
@@ -847,7 +841,7 @@ this
 WaveDataDecoder
 :
 :
-DoDrain
+ProcessDrain
 )
 )
 ;
