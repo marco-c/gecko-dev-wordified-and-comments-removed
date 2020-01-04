@@ -333,11 +333,17 @@ name
 KeyPath
 keyPath
 ;
+nsCString
+locale
+;
 bool
 unique
 ;
 bool
 multiEntry
+;
+bool
+autoLocale
 ;
 }
 ;

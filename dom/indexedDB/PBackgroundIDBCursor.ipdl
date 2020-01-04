@@ -184,6 +184,9 @@ Key
 key
 ;
 Key
+sortKey
+;
+Key
 objectKey
 ;
 SerializedStructuredCloneReadInfo
@@ -196,6 +199,9 @@ IndexKeyCursorResponse
 {
 Key
 key
+;
+Key
+sortKey
 ;
 Key
 objectKey
