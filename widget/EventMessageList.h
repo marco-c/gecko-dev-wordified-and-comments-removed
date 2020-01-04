@@ -697,6 +697,10 @@ eContentCommandPasteTransferable
 )
 NS_EVENT_MESSAGE
 (
+eContentCommandLookUpDictionary
+)
+NS_EVENT_MESSAGE
+(
 eContentCommandScroll
 )
 NS_EVENT_MESSAGE
