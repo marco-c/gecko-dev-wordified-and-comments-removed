@@ -975,7 +975,7 @@ test
 ]
 )
         
-time_msg
+duration_msg
 =
 "
 "
@@ -1010,7 +1010,7 @@ time
 -
 start_time
             
-time_msg
+duration_msg
 =
 "
 took
@@ -1138,7 +1138,12 @@ data
 status
 "
 ]
+self
+.
+id_str
+(
 test_id
+)
 message
 )
             
@@ -1201,7 +1206,7 @@ n
 %
 (
 expected_msg
-time_msg
+duration_msg
 )
             
 return
@@ -1209,33 +1214,55 @@ failure_line
 +
 info_line
         
-return
+sections
+=
+[
 "
 TEST
 -
 %
 s
-|
-%
-s
-|
-%
-s
-\
-n
 "
 %
-(
-            
 data
 [
-"
+'
 status
-"
+'
 ]
+self
+.
+id_str
+(
 test_id
-time_msg
 )
+]
+        
+if
+duration_msg
+:
+            
+sections
+.
+append
+(
+duration_msg
+)
+        
+return
+'
+|
+'
+.
+join
+(
+sections
+)
++
+'
+\
+n
+'
     
 def
 suite_end
