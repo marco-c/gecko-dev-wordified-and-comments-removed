@@ -1339,6 +1339,7 @@ nsRect
 GetVisibleArea
 (
 )
+const
 {
 return
 mVisibleArea
