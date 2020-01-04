@@ -3166,7 +3166,7 @@ gl
 CreateContextFlags
 :
 :
-NONE
+NO_VALIDATION
 ;
 if
 (
