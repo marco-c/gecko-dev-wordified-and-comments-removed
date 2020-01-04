@@ -1,3 +1,6 @@
+var
+test
+=
 async
 function
 test
@@ -31,6 +34,18 @@ anon
 name
 "
 "
+)
+;
+;
+if
+(
+asyncFunctionsEnabled
+(
+)
+)
+eval
+(
+test
 )
 ;
 if
