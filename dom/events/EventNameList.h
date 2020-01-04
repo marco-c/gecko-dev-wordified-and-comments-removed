@@ -1631,7 +1631,7 @@ eAnimationEventClass
 NON_IDL_EVENT
 (
 audioprocess
-NS_AUDIO_PROCESS
+eAudioProcess
 EventNameType_None
 eBasicEventClass
 )

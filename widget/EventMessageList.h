@@ -1296,7 +1296,7 @@ eAudioEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_AUDIO_PROCESS
+eAudioProcess
 eAudioEventFirst
 )
 NS_EVENT_MESSAGE
