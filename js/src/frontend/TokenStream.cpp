@@ -8705,7 +8705,7 @@ peekRawChar
 n
 '
 )
-skipChars
+skipCharsIgnoreEOL
 (
 1
 )
