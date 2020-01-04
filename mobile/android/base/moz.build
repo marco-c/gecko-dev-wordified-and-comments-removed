@@ -4283,13 +4283,6 @@ java
 '
 widget
 /
-FloatingHintEditText
-.
-java
-'
-'
-widget
-/
 FlowLayout
 .
 java
