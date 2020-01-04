@@ -1114,9 +1114,6 @@ VideoDataPromise
 mBaseVideoPromise
 ;
 bool
-mTaskQueueIsBorrowed
-;
-bool
 mAudioDiscontinuity
 ;
 bool
