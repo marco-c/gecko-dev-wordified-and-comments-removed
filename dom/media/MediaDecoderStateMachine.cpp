@@ -1124,10 +1124,6 @@ mNotifyMetadataBeforeFirstFrame
 (
 false
 )
-mDispatchedEventToDecode
-(
-false
-)
 mQuickBuffering
 (
 false

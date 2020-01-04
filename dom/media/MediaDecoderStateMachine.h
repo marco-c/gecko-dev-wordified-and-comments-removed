@@ -1920,9 +1920,6 @@ bool
 mNotifyMetadataBeforeFirstFrame
 ;
 bool
-mDispatchedEventToDecode
-;
-bool
 mQuickBuffering
 ;
 bool
