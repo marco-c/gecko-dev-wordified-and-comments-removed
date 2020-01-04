@@ -75,15 +75,6 @@ public
 explicit
 AsyncPanZoomAnimation
 (
-const
-TimeDuration
-&
-aRepaintInterval
-)
-:
-mRepaintInterval
-(
-aRepaintInterval
 )
 {
 }
@@ -154,9 +145,6 @@ mDeferredTasks
 )
 ;
 }
-TimeDuration
-mRepaintInterval
-;
 public
 :
 virtual
