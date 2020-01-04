@@ -90,7 +90,7 @@ gre
 /
 modules
 /
-UpdateUtils
+UpdateChannel
 .
 jsm
 "
@@ -192,9 +192,9 @@ channel
 -
 "
 +
-UpdateUtils
+UpdateChannel
 .
-getUpdateChannel
+get
 (
 false
 )

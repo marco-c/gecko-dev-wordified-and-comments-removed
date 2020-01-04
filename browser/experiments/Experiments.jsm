@@ -189,7 +189,7 @@ defineLazyModuleGetter
 (
 this
 "
-UpdateUtils
+UpdateChannel
 "
 "
 resource
@@ -200,7 +200,7 @@ gre
 /
 modules
 /
-UpdateUtils
+UpdateChannel
 .
 jsm
 "
@@ -1417,9 +1417,11 @@ function
 )
 {
 return
-UpdateUtils
-.
 UpdateChannel
+.
+get
+(
+)
 ;
 }
 locale

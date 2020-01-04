@@ -236,7 +236,7 @@ gre
 /
 modules
 /
-UpdateUtils
+UpdateChannel
 .
 jsm
 "
@@ -1086,9 +1086,11 @@ channel
 "
 ]
 =
-UpdateUtils
-.
 UpdateChannel
+.
+get
+(
+)
 ;
 let
 getParam

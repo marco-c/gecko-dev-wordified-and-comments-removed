@@ -243,7 +243,7 @@ defineLazyModuleGetter
 (
 this
 "
-UpdateUtils
+UpdateChannel
 "
 "
 resource
@@ -254,7 +254,7 @@ gre
 /
 modules
 /
-UpdateUtils
+UpdateChannel
 .
 jsm
 "
@@ -1638,9 +1638,11 @@ setLastText
 "
 updateChannel
 "
-UpdateUtils
-.
 UpdateChannel
+.
+get
+(
+)
 )
 ;
 }

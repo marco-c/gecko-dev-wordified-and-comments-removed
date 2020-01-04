@@ -128,7 +128,7 @@ gre
 /
 modules
 /
-UpdateUtils
+UpdateChannel
 .
 jsm
 "
@@ -1044,9 +1044,9 @@ minimumPolicyVersion
 let
 channel
 =
-UpdateUtils
+UpdateChannel
 .
-getUpdateChannel
+get
 (
 false
 )

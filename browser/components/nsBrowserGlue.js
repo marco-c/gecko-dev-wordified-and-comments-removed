@@ -978,7 +978,7 @@ defineLazyModuleGetter
 (
 this
 "
-UpdateUtils
+UpdateChannel
 "
 "
 resource
@@ -989,7 +989,7 @@ gre
 /
 modules
 /
-UpdateUtils
+UpdateChannel
 .
 jsm
 "
@@ -17188,9 +17188,11 @@ try
 let
 updateChannel
 =
-UpdateUtils
-.
 UpdateChannel
+.
+get
+(
+)
 ;
 let
 channelAuthorized
