@@ -4579,12 +4579,6 @@ ClearPendingRecords
 (
 )
 ;
-mozilla
-:
-:
-ErrorResult
-rv
-;
 mCallback
 -
 >
@@ -4594,7 +4588,6 @@ this
 mutations
 *
 this
-rv
 )
 ;
 }
