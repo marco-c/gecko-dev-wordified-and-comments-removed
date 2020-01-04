@@ -1556,13 +1556,6 @@ cpp
 '
 frontend
 /
-ParseMaps
-.
-cpp
-'
-'
-frontend
-/
 ParseNode
 .
 cpp
@@ -2441,6 +2434,13 @@ cpp
 '
 vm
 /
+EnvironmentObject
+.
+cpp
+'
+'
+vm
+/
 ErrorObject
 .
 cpp
@@ -2588,7 +2588,7 @@ cpp
 '
 vm
 /
-ScopeObject
+Scope
 .
 cpp
 '

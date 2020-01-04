@@ -32,8 +32,6 @@ environment
 .
 parent
 .
-parent
-.
 object
 .
 label

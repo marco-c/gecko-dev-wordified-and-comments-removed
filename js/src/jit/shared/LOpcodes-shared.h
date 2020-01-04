@@ -333,7 +333,7 @@ NewTypedObject
 \
 _
 (
-NewDeclEnvObject
+NewNamedLambdaObject
 )
 \
 _
@@ -1088,7 +1088,7 @@ OsrValue
 \
 _
 (
-OsrScopeChain
+OsrEnvironmentChain
 )
 \
 _

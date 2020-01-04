@@ -41,8 +41,6 @@ getNewestFrame
 environment
 .
 parent
-.
-parent
 ;
 assertEq
 (

@@ -52,15 +52,6 @@ include
 "
 vm
 /
-ScopeObject
-.
-h
-"
-#
-include
-"
-vm
-/
 TypedArrayCommon
 .
 h

@@ -28,8 +28,6 @@ environment
 .
 parent
 .
-parent
-.
 setVariable
 (
 "

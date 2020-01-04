@@ -104,8 +104,10 @@ undefined
 )
 ;
 }
-f2
+assertThrowsInstanceOf
 (
+f2
+ReferenceError
 )
 ;
 function
@@ -141,14 +143,10 @@ rest
 )
 ;
 }
-f3
+assertThrowsInstanceOf
 (
-[
-1
-]
-2
-3
-4
+f3
+ReferenceError
 )
 ;
 function
@@ -169,6 +167,6 @@ rest
 assertThrowsInstanceOf
 (
 f4
-TypeError
+ReferenceError
 )
 ;

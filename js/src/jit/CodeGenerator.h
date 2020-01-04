@@ -452,9 +452,9 @@ lir
 )
 ;
 void
-visitOsrScopeChain
+visitOsrEnvironmentChain
 (
-LOsrScopeChain
+LOsrEnvironmentChain
 *
 lir
 )
@@ -1404,9 +1404,9 @@ lir
 )
 ;
 void
-visitNewDeclEnvObject
+visitNewNamedLambdaObject
 (
-LNewDeclEnvObject
+LNewNamedLambdaObject
 *
 lir
 )
@@ -3251,7 +3251,7 @@ emitLambdaInit
 Register
 resultReg
 Register
-scopeChainReg
+envChainReg
 const
 LambdaFunctionInfo
 &

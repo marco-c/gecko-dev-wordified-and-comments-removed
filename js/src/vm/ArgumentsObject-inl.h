@@ -18,7 +18,7 @@ include
 "
 vm
 /
-ScopeObject
+EnvironmentObject
 .
 h
 "
@@ -34,7 +34,7 @@ include
 "
 vm
 /
-ScopeObject
+EnvironmentObject
 -
 inl
 .
@@ -112,7 +112,7 @@ CallObject
 return
 callobj
 .
-aliasedVarFromArguments
+aliasedFormalFromArguments
 (
 v
 )
@@ -249,7 +249,7 @@ slot
 {
 callobj
 .
-setAliasedVarFromArguments
+setAliasedFormalFromArguments
 (
 cx
 lhs

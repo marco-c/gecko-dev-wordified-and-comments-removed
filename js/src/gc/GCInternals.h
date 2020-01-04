@@ -606,6 +606,16 @@ basep
 override
 ;
 void
+onScopeEdge
+(
+Scope
+*
+*
+basep
+)
+override
+;
+void
 onChild
 (
 const

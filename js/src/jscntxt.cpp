@@ -5563,7 +5563,7 @@ check
 fp
 -
 >
-scopeChain
+environmentChain
 (
 )
 )
@@ -5587,7 +5587,7 @@ check
 (
 frame
 .
-scopeChain
+environmentChain
 (
 )
 )

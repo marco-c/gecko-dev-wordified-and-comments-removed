@@ -267,6 +267,12 @@ using
 JS
 :
 :
+PrivateGCThingValue
+;
+using
+JS
+:
+:
 StringValue
 ;
 using

@@ -114,7 +114,7 @@ JitAllocPolicy
 infos_
 ;
 bool
-usesScopeChain_
+usesEnvironmentChain_
 ;
 bool
 hasTryFinally_
@@ -227,13 +227,13 @@ nullptr
 ;
 }
 bool
-usesScopeChain
+usesEnvironmentChain
 (
 )
 const
 {
 return
-usesScopeChain_
+usesEnvironmentChain_
 ;
 }
 bool

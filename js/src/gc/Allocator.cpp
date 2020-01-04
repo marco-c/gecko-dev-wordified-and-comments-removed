@@ -1209,6 +1209,15 @@ AllocKind
 :
 :
 JITCODE
+|
+|
+kind
+=
+=
+AllocKind
+:
+:
+SCOPE
 )
 ;
 MOZ_ASSERT

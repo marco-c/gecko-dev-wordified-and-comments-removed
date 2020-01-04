@@ -183,7 +183,7 @@ x
 }
 )
 ;
-expectError
+eval
 (
 for
 (
@@ -227,7 +227,7 @@ x
 }
 )
 ;
-expectError
+eval
 (
 for
 (
@@ -327,7 +327,7 @@ of
 }
 )
 ;
-expectError
+eval
 (
 for
 (

@@ -920,7 +920,6 @@ enum
 ScriptSlot
 =
 0
-StaticScopeSlot
 InitialEnvironmentSlot
 EnvironmentSlot
 NamespaceSlot
@@ -976,8 +975,6 @@ create
 ExclusiveContext
 *
 cx
-HandleObject
-enclosingStaticScope
 )
 ;
 void
@@ -1041,7 +1038,7 @@ self
 #
 endif
 void
-fixScopesAfterCompartmentMerge
+fixEnvironmentsAfterCompartmentMerge
 (
 JSContext
 *
@@ -1055,9 +1052,9 @@ script
 )
 const
 ;
-JSObject
+Scope
 *
-enclosingStaticScope
+enclosingScope
 (
 )
 const

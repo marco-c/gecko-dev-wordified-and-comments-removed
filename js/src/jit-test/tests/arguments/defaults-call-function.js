@@ -29,7 +29,7 @@ g
 assertThrowsInstanceOf
 (
 f1
-TypeError
+ReferenceError
 )
 ;
 function

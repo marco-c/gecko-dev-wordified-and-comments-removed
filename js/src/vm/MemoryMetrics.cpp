@@ -1879,6 +1879,10 @@ savedStacksSet
 &
 cStats
 .
+varNamesSet
+&
+cStats
+.
 nonSyntacticLexicalScopesTable
 &
 cStats

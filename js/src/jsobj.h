@@ -1756,7 +1756,7 @@ cx
 inline
 JSObject
 *
-enclosingScope
+enclosingEnvironment
 (
 )
 const

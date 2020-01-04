@@ -1239,7 +1239,7 @@ INITIAL_LENGTH_SLOT
 }
 static
 Value
-MagicScopeSlotValue
+MagicEnvSlotValue
 (
 uint32_t
 slot

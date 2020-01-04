@@ -10479,7 +10479,7 @@ JS_FRIEND_API
 JSObject
 *
 )
-GetNearestEnclosingWithScopeObjectForFunction
+GetNearestEnclosingWithEnvironmentObjectForFunction
 (
 JSFunction
 *
