@@ -2700,14 +2700,6 @@ ANGLE_ENABLE_D3D9
 ]
 =
 True
-DEFINES
-[
-'
-ANGLE_SKIP_DXGI_1_2_CHECK
-'
-]
-=
-True
 if
 CONFIG
 [
