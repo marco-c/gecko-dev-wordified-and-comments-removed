@@ -288,7 +288,7 @@ mAnimationGeneration
 }
 static
 uint64_t
-GetMaxAnimationGenerationForFrame
+GetAnimationGenerationForFrame
 (
 nsIFrame
 *

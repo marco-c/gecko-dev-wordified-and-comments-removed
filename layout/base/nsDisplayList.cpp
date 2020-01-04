@@ -3186,7 +3186,7 @@ animationGeneration
 RestyleManager
 :
 :
-GetMaxAnimationGenerationForFrame
+GetAnimationGenerationForFrame
 (
 aFrame
 )
