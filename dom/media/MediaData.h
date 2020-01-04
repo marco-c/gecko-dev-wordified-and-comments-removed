@@ -1164,9 +1164,11 @@ mData
 size_t
 mSize
 ;
-nsAutoArrayPtr
+UniquePtr
 <
 uint8_t
+[
+]
 >
 mBuffer
 ;
