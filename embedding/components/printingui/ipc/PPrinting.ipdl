@@ -147,6 +147,7 @@ PBrowser
 browser
 PPrintProgressDialog
 printProgressDialog
+nullable
 PRemotePrintJob
 remotePrintJob
 bool
