@@ -16,6 +16,15 @@ include
 "
 js
 /
+GCHashTable
+.
+h
+"
+#
+include
+"
+js
+/
 UbiNode
 .
 h
@@ -687,7 +696,7 @@ struct
 HashPolicy
 ;
 typedef
-HashSet
+GCHashSet
 <
 js
 :
