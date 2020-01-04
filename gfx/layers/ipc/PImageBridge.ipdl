@@ -437,7 +437,6 @@ PCompositable
 (
 TextureInfo
 aInfo
-nullable
 PImageContainer
 aImageContainer
 )

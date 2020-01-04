@@ -64,9 +64,6 @@ namespace
 layers
 {
 class
-AsyncCanvasRenderer
-;
-class
 Image
 ;
 }
@@ -101,12 +98,6 @@ aSize
 nsICanvasRenderingContextInternal
 *
 aContext
-layers
-:
-:
-AsyncCanvasRenderer
-*
-aRenderer
 nsIInputStream
 *
 *
@@ -220,12 +211,6 @@ aImage
 nsICanvasRenderingContextInternal
 *
 aContext
-layers
-:
-:
-AsyncCanvasRenderer
-*
-aRenderer
 nsIInputStream
 *
 *
