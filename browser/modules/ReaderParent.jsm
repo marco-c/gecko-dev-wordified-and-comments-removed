@@ -215,11 +215,6 @@ RemoveFromList
 "
 Reader
 :
-Share
-"
-"
-Reader
-:
 SystemUIVisibility
 "
 "
@@ -525,15 +520,6 @@ reportError
 break
 ;
 }
-case
-"
-Reader
-:
-Share
-"
-:
-break
-;
 case
 "
 Reader

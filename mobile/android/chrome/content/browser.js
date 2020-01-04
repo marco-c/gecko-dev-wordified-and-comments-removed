@@ -1796,14 +1796,6 @@ false
 "
 Reader
 :
-Share
-"
-false
-]
-[
-"
-Reader
-:
 ToolbarHidden
 "
 false
