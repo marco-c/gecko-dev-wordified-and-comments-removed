@@ -132,10 +132,7 @@ condvar
 )
 ;
 return
-sMutex
-&
-&
-sCondVar
+true
 ;
 }
 void
