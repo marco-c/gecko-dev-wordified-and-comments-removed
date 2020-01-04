@@ -5198,6 +5198,9 @@ framePushed
 )
 )
 ;
+#
+ifdef
+USES_O32_ABI
 masm
 .
 subFromStackPtr
@@ -5213,6 +5216,8 @@ intptr_t
 )
 )
 ;
+#
+endif
 masm
 .
 assertStackAlignment
@@ -5230,6 +5235,9 @@ SymbolicAddress
 HandleExecutionInterrupt
 )
 ;
+#
+ifdef
+USES_O32_ABI
 masm
 .
 addToStackPtr
@@ -5245,6 +5253,8 @@ intptr_t
 )
 )
 ;
+#
+endif
 masm
 .
 branchIfFalseBool
