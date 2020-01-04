@@ -86,8 +86,8 @@ mk_add_options
 MOZ_BUILD_PROJECTS
 =
 "
-i386
 x86_64
+i386
 "
 .
 topsrcdir
