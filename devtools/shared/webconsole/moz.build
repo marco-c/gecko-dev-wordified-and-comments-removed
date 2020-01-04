@@ -170,16 +170,4 @@ logger
 .
 js
 '
-'
-utils
-.
-js
-'
-'
-worker
--
-utils
-.
-js
-'
 )

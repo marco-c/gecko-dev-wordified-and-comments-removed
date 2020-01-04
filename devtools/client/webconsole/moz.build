@@ -144,6 +144,11 @@ panel
 js
 '
 '
+utils
+.
+js
+'
+'
 webconsole
 .
 js

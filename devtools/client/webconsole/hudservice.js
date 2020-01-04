@@ -25,7 +25,7 @@ require
 "
 devtools
 /
-shared
+client
 /
 webconsole
 /
