@@ -330,7 +330,9 @@ null
 return
 Collections
 .
-EMPTY_MAP
+emptyMap
+(
+)
 ;
 }
 return
