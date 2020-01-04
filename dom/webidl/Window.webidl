@@ -1012,9 +1012,6 @@ any
 unused
 )
 ;
-[
-Throws
-]
 void
 clearTimeout
 (
@@ -1061,9 +1058,6 @@ any
 unused
 )
 ;
-[
-Throws
-]
 void
 clearInterval
 (

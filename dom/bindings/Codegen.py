@@ -105421,9 +105421,9 @@ rval
               
 aRv
 .
-Throw
+NoteJSContextException
 (
-NS_ERROR_UNEXPECTED
+cx
 )
 ;
               

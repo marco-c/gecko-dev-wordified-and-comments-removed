@@ -719,13 +719,11 @@ NS_ERROR_DOM_DOMEXCEPTION
 void
 NoteJSContextException
 (
+JSContext
+*
+aCx
 )
-{
-mResult
-=
-NS_ERROR_DOM_EXCEPTION_ON_JSCONTEXT
 ;
-}
 bool
 IsJSContextException
 (

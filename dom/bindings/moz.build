@@ -664,6 +664,13 @@ dom
 "
 test
 /
+TestFunctions
+.
+h
+"
+"
+test
+/
 TestInterfaceIterableDouble
 .
 h
@@ -708,6 +715,13 @@ UNIFIED_SOURCES
 +
 =
 [
+"
+test
+/
+TestFunctions
+.
+cpp
+"
 "
 test
 /

@@ -3460,6 +3460,11 @@ WEBIDL_FILES
 =
 [
 '
+TestFunctions
+.
+webidl
+'
+'
 TestInterfaceJS
 .
 webidl
