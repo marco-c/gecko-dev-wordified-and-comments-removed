@@ -3119,12 +3119,7 @@ clipboardData
 new
 DataTransfer
 (
-doc
--
->
-GetScopeObject
-(
-)
+piWindow
 aEventMessage
 aEventMessage
 =
