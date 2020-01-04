@@ -2705,7 +2705,7 @@ rootLists
 js
 :
 :
-ContextFriendFields
+RootingContext
 *
 cx
 )
@@ -4166,7 +4166,7 @@ rootLists
 js
 :
 :
-ContextFriendFields
+RootingContext
 *
 cx
 )
@@ -4638,6 +4638,14 @@ finalize
 JSRuntime
 *
 rt
+)
+;
+void
+finalize
+(
+JSContext
+*
+cx
 )
 ;
 void

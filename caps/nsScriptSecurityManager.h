@@ -457,9 +457,9 @@ nsIStringBundle
 sStrBundle
 ;
 static
-JSRuntime
+JSContext
 *
-sRuntime
+sContext
 ;
 }
 ;

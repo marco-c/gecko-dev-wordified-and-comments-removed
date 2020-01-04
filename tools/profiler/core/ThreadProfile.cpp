@@ -246,7 +246,7 @@ emplace
 mPseudoStack
 -
 >
-mRuntime
+mContext
 )
 ;
 #
@@ -733,7 +733,7 @@ SPS_STANDALONE
 mPseudoStack
 -
 >
-mRuntime
+mContext
 #
 else
 nullptr
@@ -881,7 +881,7 @@ MOZ_ASSERT
 mPseudoStack
 -
 >
-mRuntime
+mContext
 )
 ;
 #
@@ -894,7 +894,7 @@ emplace
 mPseudoStack
 -
 >
-mRuntime
+mContext
 )
 ;
 #
@@ -933,7 +933,7 @@ SPS_STANDALONE
 mPseudoStack
 -
 >
-mRuntime
+mContext
 #
 else
 nullptr

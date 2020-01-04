@@ -1959,10 +1959,7 @@ isWrappedNative
 VerifyTraceProtoAndIfaceCacheCalledTracer
 trc
 (
-JS_GetRuntime
-(
 cx
-)
 )
 ;
 TraceChildren

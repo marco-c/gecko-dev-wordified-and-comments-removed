@@ -836,7 +836,7 @@ error
 .
 Construct
 (
-GetJSRuntime
+RootingCx
 (
 )
 )
@@ -1127,15 +1127,7 @@ Value
 >
 retval
 (
-CycleCollectedJSRuntime
-:
-:
-Get
-(
-)
--
->
-Runtime
+RootingCx
 (
 )
 )

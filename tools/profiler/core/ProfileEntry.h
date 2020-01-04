@@ -1149,9 +1149,9 @@ mStack
 explicit
 UniqueStacks
 (
-JSRuntime
+JSContext
 *
-aRuntime
+aContext
 )
 ;
 Stack
@@ -1242,9 +1242,9 @@ mUniqueStrings
 ;
 private
 :
-JSRuntime
+JSContext
 *
-mRuntime
+mContext
 ;
 std
 :

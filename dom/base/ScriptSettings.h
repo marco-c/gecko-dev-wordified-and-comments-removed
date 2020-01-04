@@ -160,9 +160,12 @@ GetJSContext
 )
 ;
 }
-JSRuntime
+js
+:
+:
+RootingContext
 *
-GetJSRuntime
+RootingCx
 (
 )
 ;

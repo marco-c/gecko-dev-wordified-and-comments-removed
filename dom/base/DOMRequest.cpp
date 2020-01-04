@@ -152,7 +152,7 @@ mozilla
 dom
 :
 :
-GetJSRuntime
+RootingCx
 ;
 DOMRequest
 :
@@ -1437,7 +1437,7 @@ aRequest
 )
 mResult
 (
-GetJSRuntime
+RootingCx
 (
 )
 aResult

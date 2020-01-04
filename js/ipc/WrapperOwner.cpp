@@ -168,14 +168,14 @@ WrapperOwner
 :
 WrapperOwner
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 :
 JavaScriptShared
 (
-rt
+cx
 )
 inactive_
 (

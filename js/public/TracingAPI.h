@@ -369,6 +369,17 @@ nullptr
 )
 {
 }
+CallbackTracer
+(
+JSContext
+*
+cx
+WeakMapTraceKind
+weakTraceKind
+=
+TraceWeakMapValues
+)
+;
 virtual
 void
 onObjectEdge

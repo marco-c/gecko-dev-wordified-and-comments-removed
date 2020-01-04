@@ -1664,7 +1664,7 @@ NS_OK
 )
 mScopeObj
 (
-GetJSRuntime
+RootingCx
 (
 )
 aScopeObj
@@ -1773,7 +1773,7 @@ NS_OK
 )
 mScopeObj
 (
-GetJSRuntime
+RootingCx
 (
 )
 aScopeObj

@@ -3318,9 +3318,9 @@ size_t
 )
 SystemCompartmentCount
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 extern
@@ -3330,9 +3330,9 @@ size_t
 )
 UserCompartmentCount
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 extern
@@ -3343,9 +3343,9 @@ size_t
 PeakSizeOfTemporary
 (
 const
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 extern

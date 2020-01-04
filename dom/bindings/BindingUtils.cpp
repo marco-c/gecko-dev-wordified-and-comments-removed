@@ -12323,7 +12323,7 @@ Value
 >
 initReturn
 (
-GetJSRuntime
+RootingCx
 (
 )
 )

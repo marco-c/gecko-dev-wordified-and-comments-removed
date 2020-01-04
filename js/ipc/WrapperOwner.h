@@ -91,9 +91,9 @@ ActorDestroyReason
 explicit
 WrapperOwner
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
 bool

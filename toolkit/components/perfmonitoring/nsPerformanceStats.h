@@ -239,10 +239,10 @@ const
 uint64_t
 mProcessId
 ;
-JSRuntime
+JSContext
 *
 const
-mRuntime
+mContext
 ;
 uint64_t
 GetNextId
@@ -831,9 +831,9 @@ nsPerformanceGroup
 *
 Make
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 nsPerformanceStatsService
 *
 service

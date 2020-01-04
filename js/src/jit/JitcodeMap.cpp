@@ -8871,9 +8871,9 @@ JS
 :
 ForEachProfiledFrame
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 void
 *
 addr
@@ -8892,7 +8892,7 @@ JitcodeGlobalTable
 *
 table
 =
-rt
+cx
 -
 >
 jitRuntime
@@ -8937,7 +8937,7 @@ entry
 .
 callStackAtAddr
 (
-rt
+cx
 addr
 labels
 64
@@ -8976,7 +8976,7 @@ ForEachProfiledFrameOp
 FrameHandle
 handle
 (
-rt
+cx
 entry
 addr
 labels

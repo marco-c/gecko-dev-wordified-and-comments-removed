@@ -1106,9 +1106,12 @@ Context
 ;
 }
 }
-JSRuntime
+js
+:
+:
+RootingContext
 *
-GetJSRuntime
+RootingCx
 (
 )
 {
@@ -1121,7 +1124,7 @@ Get
 )
 -
 >
-Runtime
+RootingCx
 (
 )
 ;
@@ -2599,11 +2602,8 @@ JSMSG_OUT_OF_MEMORY
 DispatchScriptErrorEvent
 (
 inner
-JS_GetRuntime
-(
 cx
 (
-)
 )
 xpcReport
 exn

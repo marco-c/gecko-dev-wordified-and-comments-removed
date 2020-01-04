@@ -17628,7 +17628,7 @@ JS
 RootedValue
 value
 (
-GetJSRuntime
+RootingCx
 (
 )
 JS_NumberValue

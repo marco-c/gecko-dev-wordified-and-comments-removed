@@ -9049,9 +9049,9 @@ ProfilingFrameIterator
 :
 ProfilingFrameIterator
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 const
 RegisterState
 &
@@ -9062,7 +9062,7 @@ sampleBufferGen
 :
 rt_
 (
-rt
+cx
 )
 sampleBufferGen_
 (
@@ -9080,7 +9080,7 @@ nullptr
 if
 (
 !
-rt
+cx
 -
 >
 spsProfiler
@@ -9107,7 +9107,7 @@ runtime
 if
 (
 !
-rt
+cx
 -
 >
 profilingActivation
@@ -9119,7 +9119,7 @@ return
 if
 (
 !
-rt_
+cx
 -
 >
 isProfilerSamplingEnabled
@@ -9130,7 +9130,7 @@ return
 ;
 activation_
 =
-rt
+cx
 -
 >
 profilingActivation

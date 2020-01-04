@@ -4006,7 +4006,7 @@ mozilla_get_pseudo_stack
 stack
 -
 >
-sampleRuntime
+sampleContext
 (
 nullptr
 )

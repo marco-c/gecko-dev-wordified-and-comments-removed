@@ -36,14 +36,14 @@ public
 explicit
 WrapperAnswer
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 :
 JavaScriptShared
 (
-rt
+cx
 )
 {
 }
