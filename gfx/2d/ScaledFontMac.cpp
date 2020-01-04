@@ -492,9 +492,12 @@ else
 MOZ_CRASH
 (
 "
+GFX
+:
 This
 needs
 implemented
+1
 "
 )
 ;
@@ -689,9 +692,12 @@ else
 MOZ_CRASH
 (
 "
+GFX
+:
 This
 needs
 implemented
+2
 "
 )
 ;

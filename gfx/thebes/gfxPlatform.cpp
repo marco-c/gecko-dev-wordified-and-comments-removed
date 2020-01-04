@@ -3750,6 +3750,8 @@ endif
 MOZ_CRASH
 (
 "
+GFX
+:
 unused
 function
 "

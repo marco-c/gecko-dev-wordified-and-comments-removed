@@ -564,8 +564,15 @@ if
 surf
 )
 {
-MOZ_CRASH
+gfxDevCrash
 (
+LogReason
+:
+:
+SourceSurfaceIncompatible
+)
+<
+<
 "
 Non
 -
@@ -576,7 +583,9 @@ to
 be
 DataSourceSurfaces
 "
-)
+;
+return
+result
 ;
 }
 SkAlphaType

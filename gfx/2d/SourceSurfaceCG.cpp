@@ -335,6 +335,11 @@ default
 :
 MOZ_CRASH
 (
+"
+GFX
+:
+CreateCGImage
+"
 )
 ;
 }
