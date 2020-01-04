@@ -1404,6 +1404,10 @@ bidikeyboard
 "
 &
 kNS_BIDIKEYBOARD_CID
+Module
+:
+:
+MAIN_PROCESS_ONLY
 }
 {
 "
