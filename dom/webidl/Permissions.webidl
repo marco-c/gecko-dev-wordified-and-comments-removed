@@ -129,6 +129,10 @@ notifications
 "
 push
 "
+/
+/
+Unsupported
+:
 "
 midi
 "

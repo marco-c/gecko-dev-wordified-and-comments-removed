@@ -32,9 +32,6 @@ desktop
 -
 notification
 "
-"
-midi
-"
 }
 ;
 const
