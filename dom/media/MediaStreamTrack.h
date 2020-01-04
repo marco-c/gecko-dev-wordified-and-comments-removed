@@ -76,6 +76,9 @@ class
 MediaStreamGraph
 ;
 class
+MediaStreamGraphImpl
+;
+class
 MediaStreamTrackListener
 ;
 class
@@ -83,6 +86,9 @@ MediaStreamTrackDirectListener
 ;
 class
 PeerConnectionImpl
+;
+class
+PeerConnectionMedia
 ;
 class
 PeerIdentity
@@ -492,6 +498,13 @@ class
 mozilla
 :
 :
+PeerConnectionMedia
+;
+friend
+class
+mozilla
+:
+:
 RemoteSourceStreamInfo
 ;
 public
@@ -754,6 +767,12 @@ GetPeerIdentity
 MediaStreamGraph
 *
 Graph
+(
+)
+;
+MediaStreamGraphImpl
+*
+GraphImpl
 (
 )
 ;
