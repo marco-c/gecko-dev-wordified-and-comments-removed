@@ -184,10 +184,6 @@ mobile_android_packages
 [
             
 '
-ant
-'
-            
-'
 ncurses
 -
 devel
