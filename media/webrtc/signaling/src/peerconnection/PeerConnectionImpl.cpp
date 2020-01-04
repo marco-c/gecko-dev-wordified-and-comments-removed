@@ -530,6 +530,17 @@ mozilla
 /
 dom
 /
+PerformanceTiming
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 PluginCrashedEvent
 .
 h

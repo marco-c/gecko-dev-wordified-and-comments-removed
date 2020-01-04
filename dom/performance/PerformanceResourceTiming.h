@@ -46,6 +46,13 @@ PerformanceEntry
 .
 h
 "
+#
+include
+"
+PerformanceTiming
+.
+h
+"
 namespace
 mozilla
 {

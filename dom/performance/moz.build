@@ -141,6 +141,11 @@ PerformanceResourceTiming
 .
 h
 '
+'
+PerformanceTiming
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -178,6 +183,11 @@ cpp
 '
 '
 PerformanceResourceTiming
+.
+cpp
+'
+'
+PerformanceTiming
 .
 cpp
 '
