@@ -3214,6 +3214,9 @@ handlingJitInterrupt_
 JSInterruptCallback
 interruptCallback
 ;
+JSGetIncumbentGlobalCallback
+getIncumbentGlobalCallback
+;
 JSEnqueuePromiseJobCallback
 enqueuePromiseJobCallback
 ;
@@ -3588,6 +3591,15 @@ contextFromMainThread
 (
 )
 ;
+JSObject
+*
+getIncumbentGlobal
+(
+JSContext
+*
+cx
+)
+;
 bool
 enqueuePromiseJob
 (
@@ -3604,6 +3616,11 @@ js
 :
 HandleObject
 promise
+js
+:
+:
+HandleObject
+incumbentGlobal
 )
 ;
 void
