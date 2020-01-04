@@ -228,7 +228,7 @@ void
 DumpLocalizedMessage
 (
 const
-nsCString
+nsACString
 &
 aMessageName
 const
@@ -284,7 +284,7 @@ nsContentUtils
 eDOM_PROPERTIES
 aMessageName
 .
-get
+BeginReading
 (
 )
 localizedMessage
@@ -680,10 +680,7 @@ ScriptErrorRunnable
 :
 DumpLocalizedMessage
 (
-nsAutoCString
-(
 aMessageName
-)
 aFilename
 aLineNumber
 aColumnNumber
