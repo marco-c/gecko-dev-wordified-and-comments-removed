@@ -5810,7 +5810,7 @@ Value
 (
 )
 .
-IsServiceWorker
+IsMessagePort
 (
 )
 )
