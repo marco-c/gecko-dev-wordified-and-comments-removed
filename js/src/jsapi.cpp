@@ -4080,7 +4080,17 @@ newIdentity
 cx
 )
 ;
-{
+AutoDisableCompactingGC
+nocgc
+(
+cx
+-
+>
+runtime
+(
+)
+)
+;
 AutoDisableProxyCheck
 adpc
 (
@@ -4317,7 +4327,6 @@ newIdentity
 origv
 )
 ;
-}
 }
 return
 newIdentity
