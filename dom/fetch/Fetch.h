@@ -104,7 +104,7 @@ workers
 /
 bindings
 /
-WorkerHolder
+WorkerFeature
 .
 h
 "
@@ -213,7 +213,7 @@ class
 Derived
 >
 class
-FetchBodyWorkerHolder
+FetchBodyFeature
 ;
 template
 <
@@ -374,9 +374,9 @@ nsAutoPtr
 workers
 :
 :
-WorkerHolder
+WorkerFeature
 >
-mWorkerHolder
+mFeature
 ;
 protected
 :
@@ -461,12 +461,12 @@ ReleaseObject
 )
 ;
 bool
-RegisterWorkerHolder
+RegisterFeature
 (
 )
 ;
 void
-UnregisterWorkerHolder
+UnregisterFeature
 (
 )
 ;

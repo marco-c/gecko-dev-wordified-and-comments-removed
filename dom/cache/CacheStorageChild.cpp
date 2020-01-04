@@ -88,9 +88,9 @@ CacheStorageChild
 CacheStorage
 *
 aListener
-CacheWorkerHolder
+Feature
 *
-aWorkerHolder
+aFeature
 )
 :
 mListener
@@ -119,9 +119,9 @@ MOZ_ASSERT
 mListener
 )
 ;
-SetWorkerHolder
+SetFeature
 (
-aWorkerHolder
+aFeature
 )
 ;
 }
@@ -210,7 +210,7 @@ SendPCacheOpConstructor
 new
 CacheOpChild
 (
-GetWorkerHolder
+GetFeature
 (
 )
 aGlobal
@@ -352,7 +352,7 @@ mListener
 )
 ;
 }
-RemoveWorkerHolder
+RemoveFeature
 (
 )
 ;

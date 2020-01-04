@@ -46,7 +46,7 @@ workers
 /
 bindings
 /
-WorkerHolder
+WorkerFeature
 .
 h
 "

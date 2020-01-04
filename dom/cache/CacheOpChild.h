@@ -90,9 +90,9 @@ private
 :
 CacheOpChild
 (
-CacheWorkerHolder
+Feature
 *
-aWorkerHolder
+aFeature
 nsIGlobalObject
 *
 aGlobal

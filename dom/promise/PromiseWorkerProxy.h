@@ -48,7 +48,7 @@ workers
 /
 bindings
 /
-WorkerHolder
+WorkerFeature
 .
 h
 "
@@ -91,7 +91,7 @@ public
 workers
 :
 :
-WorkerHolder
+WorkerFeature
 public
 StructuredCloneHolderBase
 {
@@ -453,7 +453,7 @@ mCleanUpLock
 ifdef
 DEBUG
 bool
-mWorkerHolderAdded
+mFeatureAdded
 ;
 #
 endif

@@ -60,7 +60,7 @@ h
 #
 include
 "
-WorkerHolder
+WorkerFeature
 .
 h
 "
@@ -119,7 +119,7 @@ public
 workers
 :
 :
-WorkerHolder
+WorkerFeature
 {
 friend
 class
