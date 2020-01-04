@@ -32838,7 +32838,7 @@ writeExpr
 Expr
 :
 :
-I32Not
+I32Eqz
 )
 )
 return
