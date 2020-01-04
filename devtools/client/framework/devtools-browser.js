@@ -2867,7 +2867,7 @@ win
 )
 ;
 let
-broadcaster
+menu
 =
 win
 .
@@ -2885,7 +2885,7 @@ if
 hasToolbox
 )
 {
-broadcaster
+menu
 .
 setAttribute
 (
@@ -2900,7 +2900,7 @@ true
 }
 else
 {
-broadcaster
+menu
 .
 removeAttribute
 (
