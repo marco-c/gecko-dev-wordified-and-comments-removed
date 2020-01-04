@@ -382,12 +382,6 @@ major
 =
 =
 53
-&
-&
-minor
-<
-=
-34
 ?
 AV_SAMPLE_FMT_S16
 :
