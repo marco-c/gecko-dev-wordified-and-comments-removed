@@ -3890,6 +3890,16 @@ tabs
 <
 !
 ENTITY
+pref_default_browser
+"
+Make
+default
+browser
+"
+>
+<
+!
+ENTITY
 pref_about_firefox
 "
 About
