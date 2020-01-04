@@ -7,7 +7,6 @@ const
 {
 Cc
 Ci
-Cu
 }
 =
 require
@@ -1073,7 +1072,6 @@ isTargetSupported
 :
 function
 (
-target
 )
 {
 return
@@ -1098,6 +1096,7 @@ toolbox
 ;
 }
 }
+;
 Tools
 .
 inspector
@@ -1540,6 +1539,7 @@ toolbox
 .
 splitConsole
 )
+{
 return
 toolbox
 .
@@ -1547,6 +1547,7 @@ focusConsoleInput
 (
 )
 ;
+}
 panel
 .
 focusInput
@@ -1558,7 +1559,6 @@ isTargetSupported
 :
 function
 (
-target
 )
 {
 return
@@ -1782,7 +1782,6 @@ isTargetSupported
 :
 function
 (
-target
 )
 {
 return

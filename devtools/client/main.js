@@ -229,8 +229,6 @@ observe
 function
 (
 subject
-topic
-data
 )
 {
 if
