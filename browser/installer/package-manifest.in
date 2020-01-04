@@ -958,6 +958,8 @@ cookie
 xpt
 RESPATH
 /
+browser
+/
 components
 /
 devtools_security
@@ -1467,6 +1469,8 @@ jsdownloads
 .
 xpt
 RESPATH
+/
+browser
 /
 components
 /
