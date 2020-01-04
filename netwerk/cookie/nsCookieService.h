@@ -1302,7 +1302,6 @@ nsListIter
 aIter
 )
 ;
-static
 void
 FindStaleCookie
 (
@@ -1311,6 +1310,9 @@ nsCookieEntry
 aEntry
 int64_t
 aCurrentTime
+nsIURI
+*
+aSource
 nsListIter
 &
 aIter
