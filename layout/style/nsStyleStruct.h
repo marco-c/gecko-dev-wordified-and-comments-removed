@@ -2786,6 +2786,13 @@ aFrame
 )
 const
 ;
+inline
+bool
+HasLocalBackground
+(
+)
+const
+;
 const
 nsStyleImageLayers
 :
