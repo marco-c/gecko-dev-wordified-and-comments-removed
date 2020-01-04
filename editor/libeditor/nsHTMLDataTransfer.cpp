@@ -10182,7 +10182,7 @@ rv
 TrivialFunctor
 functor
 ;
-nsDOMSubtreeIterator
+DOMSubtreeIterator
 iter
 ;
 rv
