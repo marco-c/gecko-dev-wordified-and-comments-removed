@@ -1058,6 +1058,13 @@ mContent
 HasValidDimensions
 (
 )
+|
+|
+!
+IsVisibleForPainting
+(
+aBuilder
+)
 )
 {
 return
