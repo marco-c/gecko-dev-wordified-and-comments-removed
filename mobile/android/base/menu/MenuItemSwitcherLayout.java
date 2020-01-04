@@ -181,7 +181,7 @@ R
 .
 attr
 .
-menuItemActionViewStyle
+menuItemSwitcherLayoutStyle
 )
 ;
 }
