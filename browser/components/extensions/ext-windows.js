@@ -387,7 +387,7 @@ getAll
 :
 function
 (
-getAll
+getInfo
 callback
 )
 {
@@ -915,6 +915,11 @@ activeWindow
 window
 ;
 }
+if
+(
+callback
+)
+{
 runSafe
 (
 context
@@ -928,6 +933,7 @@ window
 )
 )
 ;
+}
 }
 remove
 :
