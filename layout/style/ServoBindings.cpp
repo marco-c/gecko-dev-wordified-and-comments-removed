@@ -1113,6 +1113,15 @@ css
 :
 SheetParsingMode
 mode
+ThreadSafeURIHolder
+*
+base
+ThreadSafeURIHolder
+*
+referrer
+ThreadSafePrincipalHolder
+*
+principal
 )
 {
 MOZ_CRASH

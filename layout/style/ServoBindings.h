@@ -692,6 +692,15 @@ css
 :
 SheetParsingMode
 parsing_mode
+ThreadSafeURIHolder
+*
+base
+ThreadSafeURIHolder
+*
+referrer
+ThreadSafePrincipalHolder
+*
+principal
 )
 ;
 void
