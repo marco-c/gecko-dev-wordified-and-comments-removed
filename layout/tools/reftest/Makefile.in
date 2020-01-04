@@ -91,6 +91,14 @@ py
 srcdir
 )
 /
+reftestcommandline
+.
+py
+\
+(
+srcdir
+)
+/
 remotereftest
 .
 py
