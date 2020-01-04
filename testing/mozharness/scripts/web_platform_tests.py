@@ -1036,18 +1036,6 @@ options
 ]
 )
 )
-+
-list
-(
-self
-.
-tree_config
-[
-"
-options
-"
-]
-)
         
 str_format_values
 =

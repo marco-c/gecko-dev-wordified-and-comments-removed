@@ -348,19 +348,6 @@ _query_abs_dir
 .
 "
 )
-        
-if
-not
-self
-.
-tree_config
-:
-            
-self
-.
-_read_tree_config
-(
-)
     
 def
 run_tests
