@@ -588,11 +588,10 @@ values
 }
 ;
 for
-each
 (
 let
 pref
-in
+of
 this
 .
 _getSyncPrefs

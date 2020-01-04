@@ -383,11 +383,10 @@ nsIResProtocolHandler
 )
 ;
 for
-each
 (
 let
 s
-in
+of
 [
 "
 common

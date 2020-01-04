@@ -650,11 +650,10 @@ Bookmark
 )
 ;
 for
-each
 (
 let
 property
-in
+of
 [
 "
 type
@@ -1545,11 +1544,10 @@ BookmarkFolder
 )
 ;
 for
-each
 (
 let
 property
-in
+of
 [
 "
 title

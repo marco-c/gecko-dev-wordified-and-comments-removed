@@ -279,11 +279,10 @@ crypto
 ]
 ;
 for
-each
 (
 let
 module
-in
+of
 modules
 )
 {

@@ -1087,11 +1087,10 @@ headers
 }
 ;
 for
-each
 (
 let
 header
-in
+of
 header_names
 )
 {

@@ -560,11 +560,10 @@ item
 }
 ;
 for
-each
 (
 let
 name
-in
+of
 this
 .
 names

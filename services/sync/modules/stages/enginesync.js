@@ -1631,11 +1631,10 @@ engineName
 }
 }
 for
-each
 (
 let
 engineName
-in
+of
 enabled
 )
 {

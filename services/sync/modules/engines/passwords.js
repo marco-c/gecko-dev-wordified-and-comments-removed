@@ -557,11 +557,10 @@ _sleep
 )
 ;
 for
-each
 (
 let
 local
-in
+of
 logins
 )
 {

@@ -518,11 +518,10 @@ foreignInstall
 ]
 ;
 for
-each
 (
 let
 key
-in
+of
 KEYS
 )
 {

@@ -446,11 +446,10 @@ null
 ]
 ;
 for
-each
 (
 let
 arg
-in
+of
 args
 )
 {
