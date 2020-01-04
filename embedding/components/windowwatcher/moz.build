@@ -205,6 +205,12 @@ LOCAL_INCLUDES
 [
 '
 /
+docshell
+/
+base
+'
+'
+/
 dom
 /
 base
