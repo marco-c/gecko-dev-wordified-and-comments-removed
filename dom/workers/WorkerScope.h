@@ -1177,9 +1177,6 @@ message
 void
 SetImmediate
 (
-JSContext
-*
-aCx
 Function
 &
 aHandler

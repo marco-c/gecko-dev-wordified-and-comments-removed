@@ -150,9 +150,6 @@ unsigned
 long
 serviceWorkerID
 ;
-[
-implicit_jscontext
-]
 void
 initialize
 (
@@ -162,7 +159,6 @@ url
 )
 ;
 [
-implicit_jscontext
 binaryname
 (
 PostMessageMoz

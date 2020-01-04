@@ -15648,9 +15648,6 @@ const
 nsAString
 &
 aURL
-JSContext
-*
-aCx
 )
 {
 AssertIsOnMainThread
@@ -15720,9 +15717,6 @@ const
 nsAString
 &
 aMessage
-JSContext
-*
-aCx
 )
 {
 AssertIsOnMainThread
@@ -22816,9 +22810,6 @@ WorkerPrivate
 :
 SetDebuggerImmediate
 (
-JSContext
-*
-aCx
 dom
 :
 :

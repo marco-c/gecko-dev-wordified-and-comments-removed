@@ -3163,9 +3163,6 @@ aMessage
 void
 SetDebuggerImmediate
 (
-JSContext
-*
-aCx
 Function
 &
 aHandler
