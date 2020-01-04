@@ -29,6 +29,15 @@ unset
 -
 f
 pydoc
+>
+/
+dev
+/
+null
+2
+>
+&
+1
 #
 reset
 old
