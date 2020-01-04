@@ -461,6 +461,16 @@ CC
 DEFAULT_GMAKE_FLAGS
 +
 =
+MT
+=
+'
+(
+MT
+)
+'
+DEFAULT_GMAKE_FLAGS
++
+=
 SOURCE_MD_DIR
 =
 (
