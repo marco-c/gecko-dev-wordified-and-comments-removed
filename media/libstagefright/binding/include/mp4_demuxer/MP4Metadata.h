@@ -192,6 +192,10 @@ MP4MetadataRust
 >
 mRust
 ;
+mutable
+bool
+mReportedTelemetry
+;
 #
 endif
 }
