@@ -170,11 +170,8 @@ asyncParent
 =
 null
 ;
-object
-?
+DOMString
 asyncCause
-=
-null
 ;
 }
 ;
