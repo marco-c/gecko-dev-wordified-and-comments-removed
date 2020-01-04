@@ -426,7 +426,7 @@ olddecl
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_NOT_AVAILABLE
 ;
 }
 CSSParsingEnvironment
@@ -1284,7 +1284,7 @@ olddecl
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_NOT_AVAILABLE
 ;
 }
 CSSParsingEnvironment
@@ -1429,7 +1429,7 @@ olddecl
 )
 {
 return
-NS_ERROR_FAILURE
+NS_ERROR_NOT_AVAILABLE
 ;
 }
 CSSParsingEnvironment
