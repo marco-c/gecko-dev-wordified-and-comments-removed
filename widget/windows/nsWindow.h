@@ -1446,6 +1446,11 @@ nsWindow
 aWindow
 )
 ;
+void
+ForcePresent
+(
+)
+;
 bool
 AssociateDefaultIMC
 (
