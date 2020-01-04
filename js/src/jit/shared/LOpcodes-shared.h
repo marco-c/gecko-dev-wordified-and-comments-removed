@@ -1973,6 +1973,11 @@ AsmJSReturn
 \
 _
 (
+AsmJSReturnI64
+)
+\
+_
+(
 AsmJSVoidReturn
 )
 \

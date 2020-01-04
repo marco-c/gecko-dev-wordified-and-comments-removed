@@ -2727,6 +2727,14 @@ ret
 )
 ;
 void
+visitAsmJSReturnI64
+(
+LAsmJSReturnI64
+*
+ret
+)
+;
+void
 visitAsmJSVoidReturn
 (
 LAsmJSVoidReturn
