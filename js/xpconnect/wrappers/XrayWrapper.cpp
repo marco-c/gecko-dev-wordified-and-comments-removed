@@ -12324,8 +12324,4 @@ template
 class
 PermissiveXrayOpaque
 ;
-template
-class
-SCSecurityXrayXPCWN
-;
 }
