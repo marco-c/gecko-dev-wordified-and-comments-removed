@@ -4009,12 +4009,6 @@ aFrame
 ;
 private
 :
-nsIContent
-*
-PropagateScrollToViewport
-(
-)
-;
 void
 BuildScrollFrame
 (

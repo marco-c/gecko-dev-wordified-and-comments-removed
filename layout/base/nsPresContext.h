@@ -2123,6 +2123,12 @@ return
 mViewportStyleScrollbar
 ;
 }
+nsIContent
+*
+PropagateScrollToViewport
+(
+)
+;
 bool
 GetBackgroundImageDraw
 (
