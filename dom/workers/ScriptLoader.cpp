@@ -658,11 +658,6 @@ return
 NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
-if
-(
-parentDoc
-)
-{
 int16_t
 shouldLoad
 =
@@ -741,7 +736,6 @@ rv
 =
 NS_ERROR_CONTENT_BLOCKED_SHOW_ALT
 ;
-}
 }
 if
 (
