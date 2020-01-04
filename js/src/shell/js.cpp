@@ -14292,7 +14292,7 @@ compartmentOptions
 .
 setVersion
 (
-JSVERSION_LATEST
+JSVERSION_DEFAULT
 )
 ;
 RootedObject
@@ -20682,7 +20682,7 @@ options
 .
 setVersion
 (
-JSVERSION_LATEST
+JSVERSION_DEFAULT
 )
 ;
 CallArgs
@@ -37156,7 +37156,7 @@ options
 .
 setVersion
 (
-JSVERSION_LATEST
+JSVERSION_DEFAULT
 )
 ;
 glob
