@@ -327,7 +327,10 @@ AutoDropPrincipals
 {
 JS_DropPrincipals
 (
+JS_GetContext
+(
 rt
+)
 principals
 )
 ;

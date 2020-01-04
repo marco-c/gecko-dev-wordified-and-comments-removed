@@ -1803,6 +1803,11 @@ runtimeFromMainThread
 JS_DropPrincipals
 (
 rt
+-
+>
+contextFromMainThread
+(
+)
 p
 )
 ;

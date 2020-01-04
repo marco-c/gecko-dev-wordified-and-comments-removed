@@ -16251,6 +16251,11 @@ principals
 JS_DropPrincipals
 (
 rt
+-
+>
+contextFromMainThread
+(
+)
 comp
 -
 >
