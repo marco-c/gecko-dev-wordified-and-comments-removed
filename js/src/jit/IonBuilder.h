@@ -2162,6 +2162,9 @@ emitted
 MDefinition
 *
 obj
+TemporaryTypeSet
+*
+types
 )
 ;
 bool
