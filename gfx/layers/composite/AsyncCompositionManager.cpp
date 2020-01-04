@@ -3843,7 +3843,7 @@ hasAsyncTransform
 =
 true
 ;
-ViewTransform
+AsyncTransform
 asyncTransformWithoutOverscroll
 ;
 ParentLayerPoint
@@ -5635,7 +5635,7 @@ geckoScroll
 Matrix4x4
 treeTransform
 =
-ViewTransform
+AsyncTransform
 (
 asyncZoom
 -

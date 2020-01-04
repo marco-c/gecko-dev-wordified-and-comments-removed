@@ -757,7 +757,7 @@ b
 ;
 }
 static
-ViewTransform
+AsyncTransform
 ComputeViewTransform
 (
 const
@@ -794,7 +794,7 @@ GetZoom
 )
 ;
 return
-ViewTransform
+AsyncTransform
 (
 aCompositorMetrics
 .
@@ -820,7 +820,7 @@ bool
 aHasPendingNewThebesContent
 bool
 aLowPrecision
-ViewTransform
+AsyncTransform
 &
 aViewTransform
 )
@@ -7760,7 +7760,7 @@ LayerToParentLayerMatrix4x4
 &
 aTransformToCompBounds
 const
-ViewTransform
+AsyncTransform
 &
 aAPZTransform
 const
@@ -7913,7 +7913,7 @@ nullptr
 nullptr
 )
 ;
-ViewTransform
+AsyncTransform
 viewTransform
 ;
 #

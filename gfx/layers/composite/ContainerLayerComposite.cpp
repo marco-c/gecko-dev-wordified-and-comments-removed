@@ -2742,7 +2742,7 @@ controller
 return
 ;
 }
-ViewTransform
+AsyncTransform
 asyncTransformWithoutOverscroll
 ;
 ParentLayerPoint

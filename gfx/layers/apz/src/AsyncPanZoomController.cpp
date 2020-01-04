@@ -13437,7 +13437,7 @@ AsyncPanZoomController
 :
 SampleContentTransformForFrame
 (
-ViewTransform
+AsyncTransform
 *
 aOutTransform
 ParentLayerPoint
@@ -13473,7 +13473,7 @@ GetCurrentAsyncTransform
 )
 ;
 }
-ViewTransform
+AsyncTransform
 AsyncPanZoomController
 :
 :
@@ -13681,7 +13681,7 @@ mTestAsyncZoom
 scale
 ;
 return
-ViewTransform
+AsyncTransform
 (
 LayerToParentLayerScale
 (

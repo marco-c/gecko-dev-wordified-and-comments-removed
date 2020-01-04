@@ -205,7 +205,7 @@ class
 PCompositorParent
 ;
 struct
-ViewTransform
+AsyncTransform
 ;
 class
 AsyncPanZoomAnimation
@@ -356,7 +356,7 @@ aOutDeferredTasks
 void
 SampleContentTransformForFrame
 (
-ViewTransform
+AsyncTransform
 *
 aOutTransform
 ParentLayerPoint
@@ -405,7 +405,7 @@ IsDestroyed
 )
 const
 ;
-ViewTransform
+AsyncTransform
 GetCurrentAsyncTransform
 (
 )

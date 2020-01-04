@@ -142,10 +142,10 @@ class
 CompositorParent
 ;
 struct
-ViewTransform
+AsyncTransform
 {
 explicit
-ViewTransform
+AsyncTransform
 (
 LayerToParentLayerScale
 aScale
@@ -219,11 +219,11 @@ operator
 *
 (
 const
-ViewTransform
+AsyncTransform
 &
 a
 const
-ViewTransform
+AsyncTransform
 &
 b
 )
@@ -252,7 +252,7 @@ operator
 =
 (
 const
-ViewTransform
+AsyncTransform
 &
 rhs
 )
@@ -281,7 +281,7 @@ operator
 =
 (
 const
-ViewTransform
+AsyncTransform
 &
 rhs
 )
