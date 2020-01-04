@@ -1232,12 +1232,7 @@ MOZ_ASSERT
 aAllocator
 -
 >
-AsLayerForwarder
-(
-)
--
->
-GetParentPid
+ParentPid
 (
 )
 !
@@ -1628,12 +1623,7 @@ fileMapping
 aAllocator
 -
 >
-AsLayerForwarder
-(
-)
--
->
-GetParentPid
+ParentPid
 (
 )
 &

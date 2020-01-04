@@ -8493,7 +8493,7 @@ dt
 forwarder
 -
 >
-DestroySurfaceDescriptor
+DestroySharedSurface
 (
 &
 surface
@@ -8565,7 +8565,7 @@ POINT
 forwarder
 -
 >
-DestroySurfaceDescriptor
+DestroySharedSurface
 (
 &
 surface

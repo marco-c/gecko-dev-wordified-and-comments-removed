@@ -201,8 +201,6 @@ public
 CompositableForwarder
 public
 AsyncTransactionTrackersHolder
-public
-ShmemAllocator
 {
 friend
 class
@@ -217,18 +215,6 @@ AsyncParentMessageArray
 ;
 public
 :
-virtual
-ShmemAllocator
-*
-AsShmemAllocator
-(
-)
-override
-{
-return
-this
-;
-}
 static
 void
 StartUp
@@ -614,7 +600,7 @@ override
 ;
 virtual
 bool
-UsesImageBridge
+IsImageBridgeChild
 (
 )
 const
@@ -803,7 +789,7 @@ SharedMemory
 :
 :
 SharedMemoryType
-aShmType
+aType
 mozilla
 :
 :
@@ -832,7 +818,7 @@ SharedMemory
 :
 :
 SharedMemoryType
-aShmType
+aType
 mozilla
 :
 :

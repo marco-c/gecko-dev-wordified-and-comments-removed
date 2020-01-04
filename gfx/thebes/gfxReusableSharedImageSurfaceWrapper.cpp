@@ -157,11 +157,6 @@ readCount
 mAllocator
 -
 >
-AsShmemAllocator
-(
-)
--
->
 DeallocShmem
 (
 mSurface
@@ -248,9 +243,8 @@ gfxSharedImageSurface
 CreateUnsafe
 (
 mAllocator
--
->
-AsShmemAllocator
+.
+get
 (
 )
 mSurface

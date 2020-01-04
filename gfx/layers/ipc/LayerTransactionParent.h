@@ -113,8 +113,6 @@ public
 PLayerTransactionParent
 public
 CompositableParentManager
-public
-ShmemAllocator
 {
 typedef
 mozilla
@@ -219,18 +217,6 @@ const
 {
 return
 mRoot
-;
-}
-virtual
-ShmemAllocator
-*
-AsShmemAllocator
-(
-)
-override
-{
-return
-this
 ;
 }
 virtual
