@@ -733,6 +733,11 @@ getConfiguration
 ;
 [
 UnsafeInPrerendering
+Deprecated
+=
+"
+RTCPeerConnectionGetStreams
+"
 ]
 sequence
 <
@@ -744,6 +749,11 @@ getLocalStreams
 ;
 [
 UnsafeInPrerendering
+Deprecated
+=
+"
+RTCPeerConnectionGetStreams
+"
 ]
 sequence
 <
