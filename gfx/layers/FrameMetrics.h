@@ -262,10 +262,6 @@ mExtraResolution
 )
 mBackgroundColor
 (
-0
-0
-0
-0
 )
 mLineScrollAmount
 (
@@ -1527,7 +1523,10 @@ mExtraResolution
 ;
 }
 const
-gfxRGBA
+gfx
+:
+:
+Color
 &
 GetBackgroundColor
 (
@@ -1542,7 +1541,10 @@ void
 SetBackgroundColor
 (
 const
-gfxRGBA
+gfx
+:
+:
+Color
 &
 aBackgroundColor
 )
@@ -1880,7 +1882,10 @@ mViewport
 ScreenToLayerScale2D
 mExtraResolution
 ;
-gfxRGBA
+gfx
+:
+:
+Color
 mBackgroundColor
 ;
 nsCString
