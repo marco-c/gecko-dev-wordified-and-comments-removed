@@ -8498,11 +8498,6 @@ file
 )
 ;
 }
-if
-(
-mShouldRestore
-)
-{
 final
 JSONArray
 tabs
@@ -8651,7 +8646,6 @@ file
 "
 )
 ;
-}
 }
 JSONObject
 restoreData
@@ -12609,10 +12603,6 @@ newWakeLock
 PowerManager
 .
 SCREEN_BRIGHT_WAKE_LOCK
-|
-PowerManager
-.
-ON_AFTER_RELEASE
 topic
 )
 ;
