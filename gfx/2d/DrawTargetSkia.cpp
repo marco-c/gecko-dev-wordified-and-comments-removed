@@ -6567,6 +6567,9 @@ if
 (
 !
 shouldLCDRenderText
+&
+&
+aaEnabled
 )
 {
 paint
