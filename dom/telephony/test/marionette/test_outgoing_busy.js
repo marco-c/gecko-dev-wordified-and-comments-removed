@@ -142,7 +142,7 @@ emulator
 runCmd
 (
 "
-gsm
+telephony
 busy
 "
 +

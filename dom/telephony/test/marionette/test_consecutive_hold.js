@@ -163,7 +163,7 @@ emulator
 runCmd
 (
 "
-gsm
+telephony
 disable
 hold
 "
@@ -270,7 +270,7 @@ emulator
 runCmd
 (
 "
-gsm
+telephony
 enable
 hold
 "
@@ -444,7 +444,7 @@ emulator
 runCmd
 (
 "
-gsm
+telephony
 enable
 hold
 "
