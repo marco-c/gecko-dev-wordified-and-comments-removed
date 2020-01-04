@@ -3139,6 +3139,12 @@ _initialized
 =
 true
 ;
+TelemetryEnvironment
+.
+delayedInit
+(
+)
+;
 yield
 TelemetrySend
 .
