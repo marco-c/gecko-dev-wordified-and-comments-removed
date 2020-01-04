@@ -78,7 +78,7 @@ i32
 new
 Int32Array
 (
-4096
+65536
 )
 ;
 var
