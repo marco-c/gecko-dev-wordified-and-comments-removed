@@ -32,6 +32,7 @@ content
 .
 AsyncTaskLoader
 ;
+Deprecated
 abstract
 class
 SimpleCursorLoader
