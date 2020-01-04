@@ -193,6 +193,11 @@ TestNonMemMovable
 cpp
 '
 '
+TestNonTemporaryClass
+.
+cpp
+'
+'
 TestNoRefcountedInsideLambdas
 .
 cpp
