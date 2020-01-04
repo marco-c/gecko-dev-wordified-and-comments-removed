@@ -111,6 +111,11 @@ Common
 cpp
 '
 '
+TestCopyOnWrite
+.
+cpp
+'
+'
 TestDecoders
 .
 cpp
