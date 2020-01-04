@@ -985,6 +985,17 @@ rv
 !
 =
 SECSuccess
+|
+|
+pki
+-
+>
+privateKey
+.
+data
+=
+=
+NULL
 )
 {
 PORT_FreeArena

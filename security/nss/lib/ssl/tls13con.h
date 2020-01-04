@@ -169,6 +169,14 @@ ssl3CipherSuiteDef
 cipher_def
 )
 ;
+PRBool
+tls13_PskSuiteEnabled
+(
+sslSocket
+*
+ss
+)
+;
 SECStatus
 tls13_HandleClientHelloPart2
 (

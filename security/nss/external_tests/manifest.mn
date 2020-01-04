@@ -67,6 +67,8 @@ DIRS
 \
 google_test
 \
+common
+\
 der_gtest
 \
 util_gtest

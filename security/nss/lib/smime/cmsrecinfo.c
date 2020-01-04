@@ -545,6 +545,8 @@ SEC_ERROR_NO_MEMORY
 break
 ;
 }
+rv
+=
 SECITEM_CopyItem
 (
 poolp
@@ -559,6 +561,12 @@ subjKeyID
 ;
 if
 (
+rv
+!
+=
+SECSuccess
+|
+|
 rid
 -
 >

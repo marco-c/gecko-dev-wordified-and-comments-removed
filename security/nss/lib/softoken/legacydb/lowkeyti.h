@@ -170,13 +170,6 @@ C
 extern
 const
 SEC_ASN1Template
-lg_nsslowkey_ECParamsTemplate
-[
-]
-;
-extern
-const
-SEC_ASN1Template
 lg_nsslowkey_ECPrivateKeyTemplate
 [
 ]

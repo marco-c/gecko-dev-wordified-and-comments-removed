@@ -58,11 +58,9 @@ MPL
 /
 .
 include
-.
-.
-/
-.
-.
+(
+CORE_DEPTH
+)
 /
 cmd
 /

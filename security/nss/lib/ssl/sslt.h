@@ -292,6 +292,9 @@ ssl_hmac_sha256
 ssl_mac_aead
 =
 6
+ssl_hmac_sha384
+=
+7
 }
 SSLMACAlgorithm
 ;
@@ -557,17 +560,12 @@ ssl_server_name_xtn
 ssl_cert_status_xtn
 =
 5
-#
-ifndef
-NSS_DISABLE_ECC
 ssl_elliptic_curves_xtn
 =
 10
 ssl_ec_point_formats_xtn
 =
 11
-#
-endif
 ssl_signature_algorithms_xtn
 =
 13

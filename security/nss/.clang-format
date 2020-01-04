@@ -53,7 +53,7 @@ AlwaysBreakBeforeMultilineStrings
 false
 BreakBeforeBinaryOperators
 :
-None
+false
 BreakBeforeTernaryOperators
 :
 true

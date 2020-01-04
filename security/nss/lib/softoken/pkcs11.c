@@ -10229,10 +10229,6 @@ CK_FUNCTION_LIST_PTR
 pFunctionList
 )
 {
-CHECK_FORK
-(
-)
-;
 *
 pFunctionList
 =
@@ -10254,10 +10250,6 @@ CK_FUNCTION_LIST_PTR
 pFunctionList
 )
 {
-CHECK_FORK
-(
-)
-;
 return
 NSC_GetFunctionList
 (

@@ -418,7 +418,7 @@ NULL
 PRUint8
 info
 [
-100
+110
 ]
 ;
 PRUint8

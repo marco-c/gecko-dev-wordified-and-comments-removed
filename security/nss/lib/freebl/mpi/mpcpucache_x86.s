@@ -1821,6 +1821,11 @@ APP
 pushl
 %
 ebx
+xorl
+%
+ecx
+%
+ecx
 cpuid
 mov
 %

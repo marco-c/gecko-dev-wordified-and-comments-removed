@@ -1287,6 +1287,11 @@ entry
 .
 list
 ;
+if
+(
+subjects
+)
+{
 nssList_Remove
 (
 subjects
@@ -1392,6 +1397,7 @@ email
 ;
 #
 endif
+}
 }
 nssrv
 =

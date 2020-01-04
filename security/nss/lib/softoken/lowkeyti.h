@@ -110,13 +110,6 @@ C
 extern
 const
 SEC_ASN1Template
-nsslowkey_ECParamsTemplate
-[
-]
-;
-extern
-const
-SEC_ASN1Template
 nsslowkey_ECPrivateKeyTemplate
 [
 ]

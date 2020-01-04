@@ -1782,9 +1782,6 @@ from
 authType
 )
 {
-#
-ifndef
-NSS_DISABLE_ECC
 case
 ssl_auth_ecdsa
 :
@@ -1817,8 +1814,6 @@ namedCurve
 ;
 break
 ;
-#
-endif
 default
 :
 break
@@ -2376,9 +2371,6 @@ from
 authType
 )
 {
-#
-ifndef
-NSS_DISABLE_ECC
 case
 ssl_auth_ecdsa
 :
@@ -2411,8 +2403,6 @@ certTypeArgs
 ;
 break
 ;
-#
-endif
 default
 :
 break

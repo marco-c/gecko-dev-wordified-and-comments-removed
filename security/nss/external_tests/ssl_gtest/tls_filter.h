@@ -758,8 +758,6 @@ FindServerHelloExtensions
 TlsParser
 *
 parser
-uint16_t
-version
 )
 ;
 private

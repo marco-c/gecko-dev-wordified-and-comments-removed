@@ -98,5 +98,15 @@ PRFileDesc
 fd
 )
 ;
+SECStatus
+SSLInt_SetMTU
+(
+PRFileDesc
+*
+fd
+PRUint16
+mtu
+)
+;
 #
 endif
