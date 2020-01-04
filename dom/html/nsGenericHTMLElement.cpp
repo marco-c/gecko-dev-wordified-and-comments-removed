@@ -6683,7 +6683,10 @@ cssFloat
 >
 SetIntValue
 (
-NS_STYLE_FLOAT_LEFT
+StyleFloat
+:
+:
+Left
 eCSSUnit_Enumerated
 )
 ;
@@ -6702,7 +6705,10 @@ cssFloat
 >
 SetIntValue
 (
-NS_STYLE_FLOAT_RIGHT
+StyleFloat
+:
+:
+Right
 eCSSUnit_Enumerated
 )
 ;
