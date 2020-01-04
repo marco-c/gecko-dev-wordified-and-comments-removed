@@ -4420,9 +4420,6 @@ endif
 #
 endif
 }
-cairo_user_data_key_t
-kDrawTarget
-;
 already_AddRefed
 <
 DrawTarget
@@ -4498,17 +4495,6 @@ return
 nullptr
 ;
 }
-aSurface
--
->
-SetData
-(
-&
-kDrawTarget
-drawTarget
-nullptr
-)
-;
 return
 drawTarget
 .

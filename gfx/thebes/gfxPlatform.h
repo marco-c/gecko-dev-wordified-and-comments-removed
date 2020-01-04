@@ -251,10 +251,6 @@ while
 (
 0
 )
-extern
-cairo_user_data_key_t
-kDrawTarget
-;
 enum
 eCMSMode
 {

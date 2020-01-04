@@ -686,17 +686,6 @@ plugin
 )
 ;
 }
-aSurface
--
->
-SetData
-(
-&
-kDrawTarget
-drawTarget
-nullptr
-)
-;
 return
 drawTarget
 ;
