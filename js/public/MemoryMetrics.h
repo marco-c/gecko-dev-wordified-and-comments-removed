@@ -1626,13 +1626,6 @@ macro
 (
 _
 MallocHeap
-dtoa
-)
-\
-macro
-(
-_
-MallocHeap
 temporary
 )
 \
