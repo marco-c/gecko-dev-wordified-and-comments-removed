@@ -787,6 +787,13 @@ forceLoad
 (
 )
 ;
+mList
+.
+smoothScrollToPosition
+(
+0
+)
+;
 }
 }
 }
