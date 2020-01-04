@@ -976,7 +976,7 @@ should
 be
 predictable
 :
-echo
+hello
 .
 echo
 (
