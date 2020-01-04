@@ -3824,10 +3824,6 @@ SetState
 DECODER_STATE_COMPLETED
 )
 ;
-DispatchDecodeTasksIfNeeded
-(
-)
-;
 ScheduleStateMachine
 (
 )
