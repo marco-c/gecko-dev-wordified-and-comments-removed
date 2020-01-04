@@ -504,11 +504,9 @@ props
 let
 mode
 =
-this
-.
-props
-.
-mode
+"
+tiny
+"
 ;
 try
 {
