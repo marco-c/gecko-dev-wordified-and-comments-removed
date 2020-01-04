@@ -4102,6 +4102,10 @@ page
 load
 '
     
+DEFAULT_STARTUP_TIMEOUT
+=
+60
+    
 def
 __init__
 (
@@ -4200,7 +4204,7 @@ prefs
 None
 startup_timeout
 =
-60
+None
 )
 :
         
@@ -4334,6 +4338,14 @@ self
 adb_port
 =
 adb_port
+        
+startup_timeout
+=
+startup_timeout
+or
+self
+.
+DEFAULT_STARTUP_TIMEOUT
         
 if
 bin
