@@ -12,6 +12,9 @@ CHANGE_LOCATION
 "
 ADD_VIEWPORT
 "
+"
+ROTATE_VIEWPORT
+"
 ]
 module
 .

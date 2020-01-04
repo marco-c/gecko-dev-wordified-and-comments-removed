@@ -104,6 +104,9 @@ actions
 components
 '
 '
+images
+'
+'
 reducers
 '
 ]

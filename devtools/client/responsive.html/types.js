@@ -28,6 +28,13 @@ exports
 viewport
 =
 {
+id
+:
+PropTypes
+.
+number
+.
+isRequired
 width
 :
 PropTypes
