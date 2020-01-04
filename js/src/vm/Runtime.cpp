@@ -2236,7 +2236,7 @@ object
 =
 mallocSizeOf
 (
-this
+context_
 )
 ;
 rtSizes
@@ -2307,7 +2307,7 @@ contexts
 context_
 -
 >
-sizeOfIncludingThis
+sizeOfExcludingThis
 (
 mallocSizeOf
 )
