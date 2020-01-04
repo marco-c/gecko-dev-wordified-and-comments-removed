@@ -3550,7 +3550,7 @@ kThebesSurface
 struct
 DependentSourceSurfaceUserData
 {
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -4196,7 +4196,7 @@ gfxASurface
 aSurface
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxImageSurface
 >
@@ -4965,7 +4965,7 @@ if
 mSkiaGlue
 )
 {
-RefPtr
+nsRefPtr
 <
 GLContext
 >
@@ -5166,7 +5166,7 @@ BackendType
 CAIRO
 )
 {
-RefPtr
+nsRefPtr
 <
 gfxASurface
 >
@@ -6592,7 +6592,7 @@ packed
 =
 in
 .
-ToARGB
+UnusualToARGB
 (
 )
 ;
@@ -6623,7 +6623,7 @@ out
 Color
 :
 :
-FromARGB
+UnusualFromARGB
 (
 packed
 )
@@ -8733,7 +8733,7 @@ timers
 "
 )
 ;
-RefPtr
+nsRefPtr
 <
 mozilla
 :

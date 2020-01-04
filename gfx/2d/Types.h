@@ -568,7 +568,7 @@ newColor
 }
 static
 Color
-FromARGB
+UnusualFromARGB
 (
 uint32_t
 aColor
@@ -717,7 +717,7 @@ a
 ;
 }
 uint32_t
-ToARGB
+UnusualToARGB
 (
 )
 const
