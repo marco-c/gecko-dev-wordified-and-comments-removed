@@ -563,13 +563,3 @@ framework
 MOZ_SWITCHBOARD
 =
 1
-#
-Disable
-GeckoView
-by
-default
-.
-export
-MOZ_DISABLE_GECKOVIEW
-=
-1
