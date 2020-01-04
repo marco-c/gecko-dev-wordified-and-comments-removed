@@ -563,13 +563,6 @@ UpdateStreamOrder
 (
 )
 ;
-void
-RecomputeBlocking
-(
-GraphTime
-aEndBlockingDecisions
-)
-;
 GraphTime
 ComputeStreamBlockTime
 (
