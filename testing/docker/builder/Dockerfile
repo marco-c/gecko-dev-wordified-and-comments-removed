@@ -26,6 +26,11 @@ mozilla
 com
 >
 ENV
+VERSION
+1
+.
+2
+ENV
 PYTHONPATH
 /
 tools
