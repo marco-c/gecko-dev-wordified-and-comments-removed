@@ -692,6 +692,16 @@ webconsole
 panel
 .
 js
+!
+devtools
+/
+client
+/
+webconsole
+/
+jsterm
+.
+js
 devtools
 /
 client

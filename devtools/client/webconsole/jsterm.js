@@ -5,7 +5,6 @@ strict
 ;
 const
 {
-Cc
 Ci
 Cu
 }
@@ -22,7 +21,6 @@ const
 Utils
 :
 WebConsoleUtils
-CONSOLE_WORKER_IDS
 }
 =
 require
@@ -1309,10 +1307,8 @@ errorDocLink
 .
 textContent
 =
-"
 [
-"
-+
+{
 l10n
 .
 getStr
@@ -1321,10 +1317,8 @@ getStr
 webConsoleMoreInfoLabel
 "
 )
-+
-"
+}
 ]
-"
 ;
 errorDocLink
 .
@@ -1376,11 +1370,9 @@ errorDocURL
 if
 (
 typeof
-(
 response
 .
 exception
-)
 =
 =
 =
@@ -1827,6 +1819,7 @@ executeString
 )
 {
 return
+null
 ;
 }
 let
@@ -5123,7 +5116,6 @@ nsIDOMKeyEvent
 .
 DOM_VK_RIGHT
 :
-{
 let
 cursorAtTheEnd
 =
@@ -5235,7 +5227,6 @@ clearCompletion
 }
 break
 ;
-}
 case
 Ci
 .
