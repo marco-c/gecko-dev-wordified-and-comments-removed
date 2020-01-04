@@ -351,8 +351,6 @@ superSelector
 )
 ;
 }
-else
-{
 let
 rootSelector
 =
@@ -420,5 +418,4 @@ contentWindow
 document
 )
 ;
-}
 }

@@ -260,9 +260,6 @@ getAnimationDimensions
 animation
 )
 ;
-let
-iterations
-=
 createNode
 (
 {

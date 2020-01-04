@@ -1564,13 +1564,6 @@ panel
 .
 animationsTimelineComponent
 ;
-let
-scrubberEl
-=
-timeline
-.
-scrubberEl
-;
 if
 (
 isMoving
