@@ -2106,6 +2106,13 @@ IsEqual
 (
 aRegion
 )
+|
+|
+aRegion
+.
+IsEmpty
+(
+)
 )
 {
 MOZ_LAYERS_LOG_IF_SHADOWABLE
