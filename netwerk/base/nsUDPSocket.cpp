@@ -1630,9 +1630,7 @@ count
 char
 buff
 [
-8
-*
-1024
+9216
 ]
 ;
 count
