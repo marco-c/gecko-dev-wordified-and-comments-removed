@@ -217,6 +217,14 @@ aTextTrack
 )
 ;
 void
+NotifyCueRemoved
+(
+TextTrackCue
+&
+aCue
+)
+;
+void
 UpdateCueDisplay
 (
 )
