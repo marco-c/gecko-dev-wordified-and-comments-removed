@@ -5391,6 +5391,9 @@ MediaRawData
 >
 sample
 ;
+int64_t
+sampleTime
+;
 WEBM_DEBUG
 (
 "
@@ -5425,6 +5428,13 @@ parsed
 +
 +
 ;
+sampleTime
+=
+sample
+-
+>
+mTime
+;
 if
 (
 sample
@@ -5433,10 +5443,7 @@ sample
 mKeyframe
 &
 &
-sample
--
->
-mTime
+sampleTime
 >
 =
 aTimeThreshold
@@ -5501,10 +5508,7 @@ TimeUnit
 :
 FromMicroseconds
 (
-sample
--
->
-mTime
+sampleTime
 )
 .
 ToSeconds
