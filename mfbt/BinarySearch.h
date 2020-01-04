@@ -190,7 +190,7 @@ operator
 const
 U
 &
-val
+aVal
 )
 const
 {
@@ -199,7 +199,7 @@ if
 mTarget
 =
 =
-val
+aVal
 )
 {
 return
@@ -210,7 +210,7 @@ if
 (
 mTarget
 <
-val
+aVal
 )
 {
 return
