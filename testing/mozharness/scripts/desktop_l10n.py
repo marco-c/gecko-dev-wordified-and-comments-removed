@@ -1211,6 +1211,12 @@ pull
 "
                 
 "
+clone
+-
+locales
+"
+                
+"
 list
 -
 locales
@@ -3197,6 +3203,7 @@ arg
 revision
 (
 development
+taskcluster
 )
               
 *
@@ -4510,6 +4517,13 @@ tag_override
 '
 )
 )
+    
+def
+clone_locales
+(
+self
+)
+:
         
 self
 .
