@@ -10870,12 +10870,16 @@ if
 viewport
 -
 >
-GetFirstChild
+GetChildList
 (
 nsIFrame
 :
 :
 kFixedList
+)
+.
+FirstChild
+(
 )
 )
 {

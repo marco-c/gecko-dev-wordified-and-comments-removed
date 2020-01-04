@@ -5000,12 +5000,16 @@ mOverflowFrameToScan
 aFrame
 -
 >
-GetFirstChild
+GetChildList
 (
 nsIFrame
 :
 :
 kOverflowList
+)
+.
+FirstChild
+(
 )
 ;
 NS_WARN_IF_FALSE
