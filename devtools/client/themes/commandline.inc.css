@@ -116,7 +116,7 @@ background
 color
 :
 #
-343c45
+272b35
 ;
 -
 -
@@ -126,14 +126,8 @@ input
 -
 background
 :
-rgba
-(
-37
-44
-51
-.
-6
-)
+#
+272b35
 ;
 -
 -
@@ -146,7 +140,7 @@ focused
 background
 :
 #
-252c33
+272b35
 ;
 -
 -
@@ -167,7 +161,8 @@ border
 -
 color
 :
-black
+#
+454d5d
 ;
 -
 -
@@ -176,7 +171,7 @@ selection
 background
 :
 #
-1d4f73
+5675b9
 ;
 -
 -
