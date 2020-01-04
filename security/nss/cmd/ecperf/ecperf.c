@@ -1125,6 +1125,7 @@ name
 ECCurve_pastLastCurve
 )
 )
+\
 goto
 cleanup
 ;
@@ -1446,6 +1447,7 @@ rv
 =
 SECSuccess
 )
+\
 goto
 cleanup
 ;
@@ -1508,6 +1510,7 @@ rv
 =
 SECSuccess
 )
+\
 goto
 cleanup
 ;
@@ -1848,6 +1851,7 @@ id
 v
 l
 )
+\
 (
 x
 )
@@ -1871,6 +1875,7 @@ pValue
 v
 )
 ;
+\
 (
 x
 )

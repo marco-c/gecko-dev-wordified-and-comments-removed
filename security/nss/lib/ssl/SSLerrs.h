@@ -1828,9 +1828,8 @@ used
 with
 the
 selected
-key
-exchange
-algorithm
+authentication
+type
 .
 "
 )
