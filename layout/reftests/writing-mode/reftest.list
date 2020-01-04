@@ -4151,7 +4151,6 @@ overline
 ref
 .
 html
-fails
 =
 =
 1188061
@@ -4170,7 +4169,6 @@ nsChangeHint_ClearAncestorIntrinsics
 ref
 .
 html
-fails
 =
 =
 1188061
