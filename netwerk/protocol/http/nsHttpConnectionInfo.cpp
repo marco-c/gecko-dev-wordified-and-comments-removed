@@ -239,6 +239,10 @@ username
 nsProxyInfo
 *
 proxyInfo
+const
+NeckoOriginAttributes
+&
+originAttributes
 bool
 endToEndSSL
 )
@@ -255,6 +259,7 @@ originPort
 npnToken
 username
 proxyInfo
+originAttributes
 endToEndSSL
 )
 ;
@@ -281,6 +286,10 @@ username
 nsProxyInfo
 *
 proxyInfo
+const
+NeckoOriginAttributes
+&
+originAttributes
 const
 nsACString
 &
@@ -338,6 +347,7 @@ originPort
 npnToken
 username
 proxyInfo
+originAttributes
 true
 )
 ;
@@ -365,6 +375,10 @@ username
 nsProxyInfo
 *
 proxyInfo
+const
+NeckoOriginAttributes
+&
+originAttributes
 bool
 e2eSSL
 )
@@ -403,6 +417,10 @@ false
 mNPNToken
 =
 npnToken
+;
+mOriginAttributes
+=
+originAttributes
 ;
 mUsingHttpsProxy
 =
@@ -980,6 +998,23 @@ AppendLiteral
 )
 ;
 }
+nsAutoCString
+originAttributes
+;
+mOriginAttributes
+.
+CreateSuffix
+(
+originAttributes
+)
+;
+mHashKey
+.
+Append
+(
+originAttributes
+)
+;
 }
 void
 nsHttpConnectionInfo
@@ -1051,6 +1086,7 @@ mOriginPort
 mNPNToken
 mUsername
 mProxyInfo
+mOriginAttributes
 mEndToEndSSL
 )
 ;
@@ -1072,6 +1108,7 @@ mOriginPort
 mNPNToken
 mUsername
 mProxyInfo
+mOriginAttributes
 mRoutedHost
 mRoutedPort
 )
@@ -1198,6 +1235,7 @@ EmptyCString
 )
 mUsername
 mProxyInfo
+mOriginAttributes
 mEndToEndSSL
 )
 ;
@@ -1316,6 +1354,7 @@ NS_LITERAL_CSTRING
 mNPNToken
 mUsername
 mProxyInfo
+mOriginAttributes
 true
 )
 ;
