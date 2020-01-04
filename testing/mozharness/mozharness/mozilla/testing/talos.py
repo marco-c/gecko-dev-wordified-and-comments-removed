@@ -2329,7 +2329,7 @@ tests
             
 self
 .
-download_unpack
+download_unzip
 (
 self
 .
@@ -2341,7 +2341,7 @@ def
 download_and_extract
 (
 self
-extract_dirs
+target_unzip_dirs
 =
 None
 suite_categories

@@ -3069,7 +3069,7 @@ hostutils_url
         
 self
 .
-download_unpack
+download_unzip
 (
 self
 .

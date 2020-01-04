@@ -1728,7 +1728,7 @@ fatal_exit_code
         
 self
 .
-download_unpack
+download_unzip
 (
 self
 .
