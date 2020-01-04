@@ -676,6 +676,7 @@ tests
 =
 [
 testNfcNotEnabledError
+testNfcBadSessionIdError
 testNoErrorInTechMsg
 ]
 ;
