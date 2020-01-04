@@ -52,12 +52,6 @@ function
 resolve
 )
 {
-var
-headers
-=
-new
-Headers
-;
 resolve
 (
 new
