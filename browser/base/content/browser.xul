@@ -10434,6 +10434,11 @@ global
 -
 notificationbox
 "
+notificationside
+=
+"
+top
+"
 /
 >
 <
@@ -11187,6 +11192,11 @@ id
 global
 -
 notificationbox
+"
+notificationside
+=
+"
+bottom
 "
 /
 >
