@@ -4,6 +4,15 @@ mozilla_layers_LayerAnimationUtils_h
 #
 define
 mozilla_layers_LayerAnimationUtils_h
+#
+include
+"
+mozilla
+/
+Maybe
+.
+h
+"
 namespace
 mozilla
 {
@@ -13,6 +22,9 @@ ComputedTimingFunction
 namespace
 layers
 {
+class
+TimingFunction
+;
 class
 AnimationUtils
 {
