@@ -107,6 +107,10 @@ mSample
 ;
 }
 ;
+typedef
+int64_t
+UnixTime
+;
 class
 CDMProxy
 {
@@ -405,7 +409,7 @@ const
 nsAString
 &
 aSessionId
-int64_t
+UnixTime
 aExpiryTime
 )
 =

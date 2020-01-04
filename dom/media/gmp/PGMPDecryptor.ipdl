@@ -364,6 +364,17 @@ aStatus
 )
 ;
 async
+ForgetKeyStatus
+(
+nsCString
+aSessionId
+uint8_t
+[
+]
+aKey
+)
+;
+async
 Decrypted
 (
 uint32_t
