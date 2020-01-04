@@ -250,7 +250,7 @@ uint8_t
 sSharedSurfaceData
 ;
 static
-gfxIntSize
+IntSize
 sSharedSurfaceSize
 ;
 struct
@@ -493,11 +493,11 @@ static
 bool
 EnsureSharedSurfaceSize
 (
-gfxIntSize
+IntSize
 size
 )
 {
-gfxIntSize
+IntSize
 screenSize
 ;
 screenSize
@@ -1401,7 +1401,7 @@ RENDER_IMAGE_STRETCH24
 )
 )
 {
-gfxIntSize
+IntSize
 surfaceSize
 (
 ps
@@ -1830,7 +1830,7 @@ RENDER_IMAGE_STRETCH32
 )
 )
 {
-gfxIntSize
+IntSize
 surfaceSize
 =
 targetSurfaceImage
@@ -2509,7 +2509,7 @@ return
 result
 ;
 }
-gfxIntSize
+IntSize
 nsWindowGfx
 :
 :
@@ -2576,7 +2576,7 @@ defaultSize
 ;
 }
 return
-gfxIntSize
+IntSize
 (
 width
 height
@@ -2598,7 +2598,7 @@ uint32_t
 aHotspotX
 uint32_t
 aHotspotY
-gfxIntSize
+IntSize
 aScaledSize
 HICON
 *

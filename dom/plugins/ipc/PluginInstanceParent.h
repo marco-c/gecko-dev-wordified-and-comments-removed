@@ -667,7 +667,13 @@ WindowsSharedMemoryHandle
 &
 handle
 const
-gfxIntSize
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
 &
 size
 const

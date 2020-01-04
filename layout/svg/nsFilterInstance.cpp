@@ -2363,7 +2363,7 @@ PrimitiveSubregion
 bool
 overflow
 ;
-gfxIntSize
+IntSize
 surfaceSize
 =
 nsSVGUtils

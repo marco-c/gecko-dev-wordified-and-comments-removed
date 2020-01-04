@@ -3462,7 +3462,7 @@ winId
 (
 )
 defaultVisual
-gfxIntSize
+IntSize
 (
 mWidget
 -

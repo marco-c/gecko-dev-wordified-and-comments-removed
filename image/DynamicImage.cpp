@@ -372,7 +372,7 @@ nsSize
 aSize
 )
 {
-gfxIntSize
+IntSize
 intSize
 (
 mDrawable
@@ -411,7 +411,7 @@ nsSize
 aSize
 )
 {
-gfxIntSize
+IntSize
 intSize
 (
 mDrawable
@@ -517,7 +517,7 @@ uint32_t
 aFlags
 )
 {
-gfxIntSize
+IntSize
 size
 (
 mDrawable
@@ -779,7 +779,7 @@ size
 "
 )
 ;
-gfxIntSize
+IntSize
 drawableSize
 (
 mDrawable
@@ -1132,7 +1132,7 @@ uint32_t
 aFlags
 )
 {
-gfxIntSize
+IntSize
 size
 (
 mDrawable

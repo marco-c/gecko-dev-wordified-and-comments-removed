@@ -12393,7 +12393,7 @@ Create
 (
 screen
 defaultVisual
-gfxIntSize
+IntSize
 (
 mWindow
 .
@@ -12453,7 +12453,7 @@ Create
 (
 screen
 xfmt
-gfxIntSize
+IntSize
 (
 mWindow
 .
@@ -12567,7 +12567,7 @@ gfxSharedImageSurface
 CreateUnsafe
 (
 this
-gfxIntSize
+IntSize
 (
 mWindow
 .
@@ -12919,10 +12919,10 @@ toInvalidate
 0
 )
 ;
-gfxIntSize
+IntSize
 winSize
 =
-gfxIntSize
+IntSize
 (
 mWindow
 .
@@ -12976,7 +12976,7 @@ if
 mCurrentSurface
 )
 {
-gfxIntSize
+IntSize
 surfSize
 =
 mCurrentSurface
@@ -14733,7 +14733,7 @@ rect
 height
 )
 ;
-gfxIntSize
+IntSize
 targetSize
 (
 rect
@@ -15531,7 +15531,7 @@ SetEmpty
 (
 )
 ;
-gfxIntSize
+IntSize
 surfaceSize
 =
 mCurrentSurface
@@ -16891,7 +16891,7 @@ return
 false
 ;
 }
-gfxIntSize
+IntSize
 bgSize
 =
 mBackground
@@ -16975,7 +16975,7 @@ if
 mBackground
 )
 {
-gfxIntSize
+IntSize
 bgsize
 =
 mBackground

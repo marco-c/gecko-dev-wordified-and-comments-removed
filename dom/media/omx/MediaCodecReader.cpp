@@ -3535,7 +3535,10 @@ container
 >
 ClearCurrentFrame
 (
-gfxIntSize
+gfx
+:
+:
+IntSize
 (
 mInfo
 .

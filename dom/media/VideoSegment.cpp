@@ -45,7 +45,10 @@ Image
 &
 aImage
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aIntrinsicSize
 )
@@ -105,7 +108,10 @@ nullptr
 ;
 mIntrinsicSize
 =
-gfxIntSize
+gfx
+:
+:
+IntSize
 (
 0
 0
@@ -168,7 +174,10 @@ VideoFrame
 CreateBlackImage
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 )

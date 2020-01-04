@@ -1204,7 +1204,10 @@ mStream
 >
 SetCurrentFrame
 (
-gfxIntSize
+gfx
+:
+:
+IntSize
 (
 aWidth
 aHeight

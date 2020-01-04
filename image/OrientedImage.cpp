@@ -322,7 +322,7 @@ aFlags
 )
 ;
 }
-gfxIntSize
+IntSize
 size
 ;
 rv

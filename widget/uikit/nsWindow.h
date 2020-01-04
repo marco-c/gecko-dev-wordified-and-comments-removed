@@ -518,7 +518,13 @@ void
 OnSizeChanged
 (
 const
-gfxIntSize
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
 &
 aSize
 )

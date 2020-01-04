@@ -159,7 +159,7 @@ nsShmImage
 Create
 (
 const
-gfxIntSize
+IntSize
 &
 aSize
 Display
@@ -942,7 +942,7 @@ nsShmImage
 EnsureShmImage
 (
 const
-gfxIntSize
+IntSize
 &
 aSize
 Display

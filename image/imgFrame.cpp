@@ -2491,7 +2491,7 @@ mSize
 height
 )
 ;
-gfxIntSize
+IntSize
 availableSize
 (
 mDecoded

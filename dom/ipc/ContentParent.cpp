@@ -12476,7 +12476,10 @@ imageDetails
 )
 ;
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 size
 (
 imageDetails

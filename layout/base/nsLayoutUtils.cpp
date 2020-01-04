@@ -33773,7 +33773,7 @@ result
 .
 mSize
 =
-gfxIntSize
+IntSize
 (
 imgWidth
 imgHeight
@@ -33887,7 +33887,7 @@ result
 mIsPremultiplied
 ;
 }
-gfxIntSize
+IntSize
 size
 =
 aElement

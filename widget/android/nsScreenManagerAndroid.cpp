@@ -86,7 +86,10 @@ int32_t
 outHeight
 )
 {
-gfxIntSize
+gfx
+:
+:
+IntSize
 sz
 =
 nsWindow

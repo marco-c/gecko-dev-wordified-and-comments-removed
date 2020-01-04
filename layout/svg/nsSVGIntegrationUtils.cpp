@@ -2553,7 +2553,7 @@ const
 nsSize
 aPaintServerSize
 const
-gfxIntSize
+IntSize
 aRenderSize
 uint32_t
 aFlags
@@ -2610,7 +2610,7 @@ mFrame
 nsSize
 mPaintServerSize
 ;
-gfxIntSize
+IntSize
 mRenderSize
 ;
 uint32_t
@@ -2950,7 +2950,7 @@ nsSize
 &
 aPaintServerSize
 const
-gfxIntSize
+IntSize
 &
 aRenderSize
 const

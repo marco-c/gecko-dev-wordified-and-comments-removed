@@ -265,7 +265,7 @@ SourceSurface
 >
 mSourceSurface
 ;
-gfxIntSize
+IntSize
 mSize
 ;
 nsExpirationState
@@ -1014,7 +1014,7 @@ SourceSurface
 *
 aSource
 const
-gfxIntSize
+IntSize
 &
 aSize
 )

@@ -4207,7 +4207,13 @@ mSourceSurface
 DirectDrawInfo
 mDrawInfo
 ;
-gfxIntSize
+mozilla
+:
+:
+gfx
+:
+:
+IntSize
 mSize
 ;
 nsCOMPtr

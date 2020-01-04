@@ -1313,7 +1313,7 @@ container
 >
 ClearCurrentFrame
 (
-gfxIntSize
+IntSize
 (
 displaySize
 .

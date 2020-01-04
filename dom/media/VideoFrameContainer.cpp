@@ -133,7 +133,10 @@ VideoFrameContainer
 SetCurrentFrame
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aIntrinsicSize
 Image
@@ -206,7 +209,10 @@ VideoFrameContainer
 SetCurrentFrames
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aIntrinsicSize
 const
@@ -241,7 +247,10 @@ VideoFrameContainer
 SetCurrentFramesLocked
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aIntrinsicSize
 const

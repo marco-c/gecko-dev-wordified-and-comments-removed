@@ -907,7 +907,7 @@ mIsInset
 bool
 mHasBorderRadius
 ;
-gfxIntSize
+IntSize
 mSpreadRadius
 ;
 IntSize
@@ -917,7 +917,7 @@ BlurCacheKey
 (
 IntSize
 aMinSize
-gfxIntSize
+IntSize
 aBlurRadius
 RectCornerRadii
 *
@@ -1031,9 +1031,9 @@ IntSize
 aOuterMinSize
 IntSize
 aInnerMinSize
-gfxIntSize
+IntSize
 aBlurRadius
-gfxIntSize
+IntSize
 aSpreadRadius
 const
 RectCornerRadii
@@ -1622,7 +1622,7 @@ const
 IntSize
 aMinSize
 const
-gfxIntSize
+IntSize
 &
 aBlurRadius
 RectCornerRadii
@@ -1680,11 +1680,11 @@ const
 IntSize
 aInnerMinSize
 const
-gfxIntSize
+IntSize
 &
 aBlurRadius
 const
-gfxIntSize
+IntSize
 &
 aSpreadRadius
 const
@@ -1818,7 +1818,7 @@ ComputeMinSizeForShadowShape
 RectCornerRadii
 *
 aCornerRadii
-gfxIntSize
+IntSize
 aBlurRadius
 IntMargin
 &
@@ -2064,7 +2064,7 @@ IntSize
 &
 aMinSize
 const
-gfxIntSize
+IntSize
 &
 aBlurRadius
 RectCornerRadii
@@ -2138,7 +2138,7 @@ aRectSize
 RectCornerRadii
 *
 aCornerRadii
-gfxIntSize
+IntSize
 aBlurRadius
 IntMargin
 &
@@ -2192,7 +2192,7 @@ Rect
 minRect
 )
 )
-gfxIntSize
+IntSize
 (
 )
 aBlurRadius
@@ -2488,7 +2488,7 @@ IntSize
 &
 aRectSize
 const
-gfxIntSize
+IntSize
 &
 aBlurRadius
 RectCornerRadii
@@ -3682,9 +3682,9 @@ static
 void
 ComputeRectsForInsetBoxShadow
 (
-gfxIntSize
+IntSize
 aBlurRadius
-gfxIntSize
+IntSize
 aSpreadRadius
 Rect
 &
@@ -3705,7 +3705,7 @@ Rect
 aShadowClipRect
 )
 {
-gfxIntSize
+IntSize
 marginSize
 =
 aBlurRadius
@@ -3998,11 +3998,11 @@ const
 IntSize
 aMinInnerSize
 const
-gfxIntSize
+IntSize
 &
 aBlurRadius
 const
-gfxIntSize
+IntSize
 &
 aSpreadRadius
 const
@@ -4091,11 +4091,11 @@ Rect
 &
 aInnerRect
 const
-gfxIntSize
+IntSize
 &
 aBlurRadius
 const
-gfxIntSize
+IntSize
 &
 aSpreadRadius
 const
@@ -4132,7 +4132,7 @@ BlurCache
 )
 ;
 }
-gfxIntSize
+IntSize
 outerRectSize
 =
 RoundedToInt
@@ -4144,7 +4144,7 @@ Size
 (
 )
 ;
-gfxIntSize
+IntSize
 innerRectSize
 =
 RoundedToInt
@@ -4243,7 +4243,7 @@ forget
 )
 ;
 }
-gfxIntSize
+IntSize
 zeroSpread
 (
 0
@@ -4436,10 +4436,10 @@ const
 Rect
 aShadowClipRect
 const
-gfxIntSize
+IntSize
 aBlurRadius
 const
-gfxIntSize
+IntSize
 aSpreadRadius
 const
 Color

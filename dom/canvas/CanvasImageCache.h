@@ -76,7 +76,10 @@ SourceSurface
 *
 aSource
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 aSize
 )

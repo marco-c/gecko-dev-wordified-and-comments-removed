@@ -8955,7 +8955,10 @@ mTabSetsCursor
 )
 {
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 size
 (
 aWidth

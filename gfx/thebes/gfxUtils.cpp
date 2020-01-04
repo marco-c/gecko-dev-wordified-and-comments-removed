@@ -3184,7 +3184,7 @@ return
 false
 ;
 }
-gfxIntSize
+IntSize
 scaledImageSize
 (
 (

@@ -3018,7 +3018,7 @@ scaleFactor
 0f
 )
 {
-gfxIntSize
+IntSize
 scaledSize
 (
 ceil

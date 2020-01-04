@@ -1635,7 +1635,10 @@ bool
 RecvScreenSizeChanged
 (
 const
-gfxIntSize
+gfx
+:
+:
+IntSize
 &
 size
 )
@@ -2085,7 +2088,10 @@ override
 #
 ifdef
 ANDROID
-gfxIntSize
+gfx
+:
+:
+IntSize
 GetScreenSize
 (
 )
@@ -2430,7 +2436,10 @@ mAppInfo
 #
 ifdef
 ANDROID
-gfxIntSize
+gfx
+:
+:
+IntSize
 mScreenSize
 ;
 #

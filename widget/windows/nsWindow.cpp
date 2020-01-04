@@ -10007,7 +10007,7 @@ NS_ERROR_NOT_AVAILABLE
 HCURSOR
 cursor
 ;
-gfxIntSize
+IntSize
 size
 (
 0
@@ -27664,7 +27664,7 @@ newSurface
 new
 gfxWindowsSurface
 (
-gfxIntSize
+IntSize
 (
 aNewWidth
 aNewHeight
