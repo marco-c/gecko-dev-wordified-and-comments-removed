@@ -5255,10 +5255,6 @@ lock
 (
 nullptr
 )
-lockOwner
-(
-nullptr
-)
 allocTask
 (
 rt
@@ -16115,6 +16111,8 @@ rt
 gc
 .
 lockOwner
+.
+value
 =
 nullptr
 ;
@@ -16135,6 +16133,8 @@ rt
 gc
 .
 lockOwner
+.
+value
 =
 PR_GetCurrentThread
 (

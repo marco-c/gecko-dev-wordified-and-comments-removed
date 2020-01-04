@@ -2378,15 +2378,6 @@ helperLock
 (
 nullptr
 )
-#
-ifdef
-DEBUG
-lockOwner
-(
-nullptr
-)
-#
-endif
 consumerWakeup
 (
 nullptr
@@ -2588,6 +2579,8 @@ helperLock
 ifdef
 DEBUG
 lockOwner
+.
+value
 =
 PR_GetCurrentThread
 (
@@ -2615,6 +2608,8 @@ isLocked
 ifdef
 DEBUG
 lockOwner
+.
+value
 =
 nullptr
 ;
@@ -2639,6 +2634,8 @@ isLocked
 {
 return
 lockOwner
+.
+value
 =
 =
 PR_GetCurrentThread
@@ -2671,6 +2668,8 @@ isLocked
 ifdef
 DEBUG
 lockOwner
+.
+value
 =
 nullptr
 ;
@@ -2710,6 +2709,8 @@ PR_SUCCESS
 ifdef
 DEBUG
 lockOwner
+.
+value
 =
 PR_GetCurrentThread
 (
