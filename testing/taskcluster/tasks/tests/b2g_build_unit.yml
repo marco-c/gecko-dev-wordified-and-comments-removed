@@ -6,9 +6,7 @@ inherits
 from
 :
 '
-tasks
-/
-test
+b2g_unittest_base
 .
 yml
 '
