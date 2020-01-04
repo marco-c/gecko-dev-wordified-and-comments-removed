@@ -74,7 +74,7 @@ extensions
 /
 extensionGeneric
 .
-svg
+png
 '
 ;
 exports
