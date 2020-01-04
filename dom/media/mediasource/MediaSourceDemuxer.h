@@ -225,6 +225,14 @@ ResourceSizes
 aSizes
 )
 ;
+static
+const
+media
+:
+:
+TimeUnit
+EOS_FUZZ
+;
 private
 :
 ~
