@@ -14296,25 +14296,6 @@ in
 signatures
 )
 def
-isMaybeExposedIn
-(
-member
-descriptor
-)
-:
-    
-return
-not
-descriptor
-.
-workers
-or
-member
-.
-isExposedInAnyWorker
-(
-)
-def
 clearableCachedAttrs
 (
 descriptor
@@ -14528,13 +14509,6 @@ m
 .
 isIdentifierLess
 (
-)
-and
-                       
-isMaybeExposedIn
-(
-m
-descriptor
 )
 ]
         
@@ -15147,20 +15121,6 @@ descriptor
 supportsIndexedProperties
 (
 )
-and
-            
-isMaybeExposedIn
-(
-descriptor
-.
-operations
-[
-'
-IndexedGetter
-'
-]
-descriptor
-)
 )
 :
             
@@ -15582,13 +15542,6 @@ MemberIsUnforgeable
 stringifier
 descriptor
 )
-and
-                
-isMaybeExposedIn
-(
-stringifier
-descriptor
-)
 )
 :
                 
@@ -15690,13 +15643,6 @@ unforgeable
 =
 =
 MemberIsUnforgeable
-(
-jsonifier
-descriptor
-)
-and
-                
-isMaybeExposedIn
 (
 jsonifier
 descriptor
@@ -16834,13 +16780,6 @@ descriptor
 unforgeable
 and
                           
-isMaybeExposedIn
-(
-m
-descriptor
-)
-and
-                          
 not
 isNonExposedNavigatorObjectGetter
 (
@@ -17486,13 +17425,6 @@ m
 .
 isConst
 (
-)
-and
-                     
-isMaybeExposedIn
-(
-m
-descriptor
 )
 ]
         
@@ -82444,13 +82376,6 @@ isMethod
 (
 )
 and
-isMaybeExposedIn
-(
-m
-descriptor
-)
-and
-                       
 len
 (
 m
@@ -82733,17 +82658,6 @@ name
 '
 queryInterface
 '
-:
-                
-continue
-            
-if
-not
-isMaybeExposedIn
-(
-m
-descriptor
-)
 :
                 
 continue
