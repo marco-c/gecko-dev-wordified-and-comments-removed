@@ -117,11 +117,6 @@ FetchDriver
 h
 '
 '
-FetchIPCTypes
-.
-h
-'
-'
 FetchUtil
 .
 h
@@ -218,11 +213,6 @@ IPDL_SOURCES
 [
 '
 ChannelInfo
-.
-ipdlh
-'
-'
-FetchTypes
 .
 ipdlh
 '
