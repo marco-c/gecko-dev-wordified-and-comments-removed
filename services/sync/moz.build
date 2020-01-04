@@ -293,6 +293,13 @@ jsm
 '
 modules
 /
+telemetry
+.
+js
+'
+'
+modules
+/
 userapi
 .
 js
