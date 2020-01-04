@@ -392,7 +392,7 @@ bool
 nsFont
 :
 :
-BaseEquals
+Equals
 (
 const
 nsFont
