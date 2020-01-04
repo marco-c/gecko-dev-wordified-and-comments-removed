@@ -2475,6 +2475,8 @@ MediaPlayer
 \
 ShimInclusionList
 \
+firefox
+-
 plugin
 -
 container

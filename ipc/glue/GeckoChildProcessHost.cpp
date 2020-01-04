@@ -586,8 +586,6 @@ GetPathToBinary
 FilePath
 &
 exePath
-GeckoProcessType
-processType
 )
 {
 if
@@ -852,13 +850,17 @@ ifdef
 OS_WIN
 if
 (
-processType
+XRE_GetProcessType
+(
+)
 =
 =
 GeckoProcessType_Plugin
 |
 |
-processType
+XRE_GetProcessType
+(
+)
 =
 =
 GeckoProcessType_GMPlugin
@@ -1194,7 +1196,6 @@ exePath
 GetPathToBinary
 (
 exePath
-type
 )
 ;
 nsresult
@@ -3312,7 +3313,6 @@ exePath
 GetPathToBinary
 (
 exePath
-mProcessType
 )
 ;
 #
@@ -4394,7 +4394,6 @@ exePath
 GetPathToBinary
 (
 exePath
-mProcessType
 )
 ;
 CommandLine

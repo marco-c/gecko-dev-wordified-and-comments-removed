@@ -86,6 +86,8 @@ is
 the
 directory
 where
+firefox
+-
 plugin
 -
 container
@@ -128,9 +130,13 @@ input
 1
 )
 /
-(
-MOZ_PLUGIN_PROCESS_NAME
-)
+firefox
+-
+plugin
+-
+container
+.
+exe
 -
 output
 (
