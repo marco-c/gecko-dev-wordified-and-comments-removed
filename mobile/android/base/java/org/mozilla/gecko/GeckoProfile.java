@@ -3409,7 +3409,7 @@ null
 ;
 }
 WorkerThread
-public
+protected
 boolean
 ensureParentDirs
 (
