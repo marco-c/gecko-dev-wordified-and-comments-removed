@@ -3651,7 +3651,7 @@ code
 +
 codeRange
 .
-functionProfilingJump
+funcProfilingJump
 (
 )
 ;
