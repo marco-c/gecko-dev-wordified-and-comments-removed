@@ -515,6 +515,16 @@ objp
 override
 ;
 void
+onShapeEdge
+(
+Shape
+*
+*
+shapep
+)
+override
+;
+void
 onChild
 (
 const

@@ -5316,6 +5316,11 @@ HandleNativeObject
 templateObject
 )
 ;
+void
+updateShapeAfterMovingGC
+(
+)
+;
 static
 size_t
 offsetOfElements

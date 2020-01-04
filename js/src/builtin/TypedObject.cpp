@@ -4904,11 +4904,7 @@ getDenseInitializedLength
 )
 )
 ;
-JSObject
-&
-descr
-=
-*
+return
 MaybeForwarded
 (
 &
@@ -4923,10 +4919,8 @@ toObject
 (
 )
 )
-;
-return
-descr
-.
+-
+>
 as
 <
 TypeDescr
@@ -7678,6 +7672,11 @@ uint8_t
 newData
 =
 oldData
+;
+MakeAccessibleAfterMovingGC
+(
+owner
+)
 ;
 MOZ_ASSERT_IF
 (
