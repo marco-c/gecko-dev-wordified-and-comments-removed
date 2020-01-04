@@ -313,6 +313,7 @@ ptr
 (
 )
 ;
+}
 const
 gFactoryResetFile
 =
@@ -320,7 +321,6 @@ gFactoryResetFile
 __post_reset_cmd__
 "
 ;
-}
 function
 RecoveryService
 (
