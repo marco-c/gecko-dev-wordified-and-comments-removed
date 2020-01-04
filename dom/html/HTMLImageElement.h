@@ -1012,6 +1012,8 @@ HTMLImageElement
 void
 QueueImageLoadTask
 (
+bool
+aAlwaysLoad
 )
 ;
 bool
@@ -1031,6 +1033,8 @@ bool
 aForce
 bool
 aNotify
+bool
+aAlwaysLoad
 )
 ;
 static
@@ -1097,7 +1101,7 @@ nsIContent
 aSourceNode
 )
 ;
-void
+bool
 UpdateResponsiveSource
 (
 )
@@ -1240,6 +1244,9 @@ nsRuleData
 *
 aData
 )
+;
+bool
+mInDocResponsiveContent
 ;
 nsCOMPtr
 <
