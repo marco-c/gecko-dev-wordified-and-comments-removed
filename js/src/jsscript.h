@@ -1984,6 +1984,7 @@ HashMap
 JSScript
 *
 ScriptCounts
+*
 DefaultHasher
 <
 JSScript

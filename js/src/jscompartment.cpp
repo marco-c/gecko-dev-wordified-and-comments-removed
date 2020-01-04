@@ -5350,7 +5350,6 @@ ScriptCounts
 *
 value
 =
-&
 r
 .
 front
@@ -5373,6 +5372,11 @@ key
 -
 >
 takeOverScriptCountsMapEntry
+(
+value
+)
+;
+js_delete
 (
 value
 )
