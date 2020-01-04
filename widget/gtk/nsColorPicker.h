@@ -34,6 +34,9 @@ nsString
 .
 h
 "
+#
+undef
+ACTIVATE_GTK3_COLOR_PICKER
 class
 nsIWidget
 ;
@@ -97,6 +100,12 @@ user_data
 ;
 #
 if
+defined
+(
+ACTIVATE_GTK3_COLOR_PICKER
+)
+&
+&
 GTK_CHECK_VERSION
 (
 3
