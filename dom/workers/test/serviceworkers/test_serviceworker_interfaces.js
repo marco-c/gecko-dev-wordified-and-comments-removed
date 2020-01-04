@@ -514,15 +514,6 @@ TextDecoder
 TextEncoder
 "
 "
-XMLHttpRequest
-"
-"
-XMLHttpRequestEventTarget
-"
-"
-XMLHttpRequestUpload
-"
-"
 URL
 "
 "
