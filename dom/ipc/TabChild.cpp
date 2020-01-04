@@ -2497,6 +2497,7 @@ child
 >
 NotifyTabContextUpdated
 (
+true
 )
 ;
 return
@@ -3511,6 +3512,16 @@ SetContainerWindow
 this
 )
 ;
+webBrowser
+-
+>
+SetOriginAttributes
+(
+OriginAttributesRef
+(
+)
+)
+;
 mWebNav
 =
 do_QueryInterface
@@ -3683,6 +3694,7 @@ Create
 ;
 NotifyTabContextUpdated
 (
+false
 )
 ;
 nsCOMPtr
@@ -4026,6 +4038,8 @@ TabChild
 :
 NotifyTabContextUpdated
 (
+bool
+aIsPreallocated
 )
 {
 nsCOMPtr
@@ -4059,6 +4073,11 @@ UpdateFrameType
 (
 )
 ;
+if
+(
+aIsPreallocated
+)
+{
 nsDocShell
 :
 :
@@ -4075,6 +4094,7 @@ OriginAttributesRef
 )
 )
 ;
+}
 if
 (
 !
