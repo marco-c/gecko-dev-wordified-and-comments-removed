@@ -70,6 +70,8 @@ public
 :
 enum
 ColorID
+:
+uint8_t
 {
 eColorID_WindowBackground
 eColorID_WindowForeground
