@@ -706,6 +706,11 @@ aMessageCategory
 )
 override
 ;
+bool
+DoSendDeleteSelf
+(
+)
+;
 private
 :
 void
