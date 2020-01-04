@@ -1373,11 +1373,11 @@ generateInvalidateEpilogue
 )
 ;
 void
-setReturnDoubleRegs
+visitRandom
 (
-LiveRegisterSet
+LRandom
 *
-regs
+ins
 )
 ;
 protected
