@@ -778,13 +778,12 @@ else
 {
 nsCString
 spec
-;
+=
 uri
 -
 >
-GetSpec
+GetSpecOrDefault
 (
-spec
 )
 ;
 spec

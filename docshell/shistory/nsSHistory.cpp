@@ -314,12 +314,13 @@ uri
 )
 {
 \
+_specStr
+=
 uri
 -
 >
-GetSpec
+GetSpecOrDefault
 (
-_specStr
 )
 ;
 \
