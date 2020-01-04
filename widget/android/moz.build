@@ -311,14 +311,6 @@ cache
 /
 widget
 '
-'
-/
-widget
-/
-android
-/
-android
-'
 ]
 CXXFLAGS
 +
