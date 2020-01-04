@@ -694,6 +694,12 @@ GetSpec
 spec
 )
 ;
+NS_ConvertUTF8toUTF16
+wSpec
+(
+spec
+)
+;
 aRv
 .
 ThrowTypeError
@@ -702,7 +708,7 @@ MSG_INVALID_SCOPE
 &
 defaultScope
 &
-spec
+wSpec
 )
 ;
 return
@@ -753,6 +759,12 @@ GetSpec
 spec
 )
 ;
+NS_ConvertUTF8toUTF16
+wSpec
+(
+spec
+)
+;
 aRv
 .
 ThrowTypeError
@@ -767,7 +779,7 @@ Value
 (
 )
 &
-spec
+wSpec
 )
 ;
 return
