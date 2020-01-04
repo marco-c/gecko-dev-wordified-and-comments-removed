@@ -486,6 +486,8 @@ container
 view
 .
 element
+.
+parentNode
 ;
 let
 onScroll
