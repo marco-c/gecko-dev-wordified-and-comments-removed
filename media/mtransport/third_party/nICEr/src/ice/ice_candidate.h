@@ -141,6 +141,10 @@ void
 *
 stun_handle
 ;
+nr_ice_candidate
+*
+relay_candidate
+;
 }
 srvrflx
 ;
