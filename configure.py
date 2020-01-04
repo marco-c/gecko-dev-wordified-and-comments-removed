@@ -423,19 +423,15 @@ substs
 )
         
 if
+not
 config
 .
 get
 (
 '
-MOZ_BUILD_APP
+BUILDING_JS
 '
 )
-!
-=
-'
-js
-'
 or
 config
 .
@@ -515,19 +511,15 @@ status
 )
     
 if
+not
 config
 .
 get
 (
 '
-MOZ_BUILD_APP
+BUILDING_JS
 '
 )
-!
-=
-'
-js
-'
 or
 config
 .
