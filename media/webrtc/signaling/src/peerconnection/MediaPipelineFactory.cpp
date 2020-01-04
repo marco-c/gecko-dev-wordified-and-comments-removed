@@ -2670,10 +2670,10 @@ GetTrackId
 ;
 MOZ_ASSERT
 (
+IsTrackIDExplicit
+(
 numericTrackId
-!
-=
-TRACK_INVALID
+)
 )
 ;
 bool
