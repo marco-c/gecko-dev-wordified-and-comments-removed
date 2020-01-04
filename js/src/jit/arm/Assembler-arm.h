@@ -5913,7 +5913,6 @@ finish
 bool
 asmMergeWith
 (
-const
 Assembler
 &
 other

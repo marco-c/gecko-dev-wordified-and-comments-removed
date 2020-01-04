@@ -6716,7 +6716,6 @@ asmOnConversionErrorLabel_
 bool
 asmMergeWith
 (
-const
 MacroAssembler
 &
 masm
