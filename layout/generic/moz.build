@@ -761,6 +761,11 @@ AsyncScrollBase
 cpp
 '
 '
+BlockReflowInput
+.
+cpp
+'
+'
 DetailsFrame
 .
 cpp
@@ -792,11 +797,6 @@ cpp
 '
 '
 nsBlockReflowContext
-.
-cpp
-'
-'
-nsBlockReflowState
 .
 cpp
 '

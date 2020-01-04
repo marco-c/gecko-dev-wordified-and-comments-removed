@@ -1,7 +1,7 @@
 #
 include
 "
-nsBlockReflowState
+BlockReflowInput
 .
 h
 "
