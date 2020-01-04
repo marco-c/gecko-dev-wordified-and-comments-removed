@@ -1323,6 +1323,8 @@ const
 nsACString
 &
 aData
+bool
+aIsBinary
 )
 {
 if
@@ -1343,6 +1345,7 @@ nsCString
 (
 aData
 )
+aIsBinary
 )
 )
 )

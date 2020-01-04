@@ -102,6 +102,10 @@ const
 nsACString
 &
 aData
+const
+bool
+&
+aIsBinary
 )
 ;
 nsresult

@@ -301,6 +301,8 @@ nsString
 aSessionId
 nsCString
 aData
+bool
+aIsBinary
 )
 ;
 async

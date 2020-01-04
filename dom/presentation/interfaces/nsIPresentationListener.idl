@@ -197,6 +197,9 @@ sessionId
 in
 ACString
 data
+in
+boolean
+isBinary
 )
 ;
 /

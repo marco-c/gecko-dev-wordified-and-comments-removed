@@ -182,6 +182,10 @@ const
 nsCString
 &
 aData
+const
+bool
+&
+aIsBinary
 )
 override
 ;
