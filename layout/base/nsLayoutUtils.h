@@ -5153,9 +5153,9 @@ void
 TransformToAncestorAndCombineRegions
 (
 const
-nsRect
+nsRegion
 &
-aBounds
+aRegion
 nsIFrame
 *
 aFrame
