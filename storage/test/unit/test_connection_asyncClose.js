@@ -74,6 +74,7 @@ REASON_FINISHED
 add_task
 (
 function
+*
 test_double_asyncClose_throws
 (
 )
@@ -262,6 +263,7 @@ happen
 add_task
 (
 function
+*
 test_asyncClose_does_not_throw_without_callback
 (
 )
