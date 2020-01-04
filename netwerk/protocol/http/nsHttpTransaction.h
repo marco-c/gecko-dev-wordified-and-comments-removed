@@ -1113,6 +1113,9 @@ bool
 mContentDecodingCheck
 ;
 bool
+mDeferredSendProgress
+;
+bool
 mReportedStart
 ;
 bool

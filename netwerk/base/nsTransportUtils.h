@@ -24,10 +24,6 @@ aSink
 nsIEventTarget
 *
 aTarget
-bool
-aCoalesceAllEvents
-=
-false
 )
 ;
 #

@@ -74,8 +74,6 @@ sink
 nsIEventTarget
 *
 target
-bool
-coalesceAll
 )
 :
 mSink
@@ -97,10 +95,6 @@ mLock
 mLastEvent
 (
 nullptr
-)
-mCoalesceAll
-(
-coalesceAll
 )
 {
 NS_ADDREF
@@ -142,9 +136,6 @@ mLock
 nsTransportStatusEvent
 *
 mLastEvent
-;
-bool
-mCoalesceAll
 ;
 }
 ;
@@ -320,9 +311,6 @@ mLastEvent
 &
 &
 (
-mCoalesceAll
-|
-|
 mLastEvent
 -
 >
@@ -449,8 +437,6 @@ sink
 nsIEventTarget
 *
 target
-bool
-coalesceAll
 )
 {
 *
@@ -461,7 +447,6 @@ nsTransportEventSinkProxy
 (
 sink
 target
-coalesceAll
 )
 ;
 if
