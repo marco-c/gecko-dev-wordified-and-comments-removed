@@ -28,7 +28,7 @@ performance
 /
 modules
 /
-global
+categories
 "
 )
 ;

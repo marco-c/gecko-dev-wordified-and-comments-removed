@@ -75,6 +75,11 @@ widgets
 DevToolsModules
 (
 '
+categories
+.
+js
+'
+'
 constants
 .
 js

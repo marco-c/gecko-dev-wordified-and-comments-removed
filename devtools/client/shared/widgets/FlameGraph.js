@@ -144,7 +144,7 @@ performance
 /
 modules
 /
-global
+categories
 "
 true
 )
