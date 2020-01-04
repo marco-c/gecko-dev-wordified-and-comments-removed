@@ -8014,9 +8014,6 @@ else
 {
 status
 =
-status
-&
-&
 buf
 .
 append
@@ -8036,10 +8033,6 @@ code
 0xD800
 )
 )
-;
-status
-=
-status
 &
 &
 buf
