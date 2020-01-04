@@ -180,7 +180,7 @@ scopeChain
 {
 flags_
 =
-HAS_SCOPECHAIN
+0
 ;
 script_
 =
@@ -2068,13 +2068,6 @@ JSContext
 cx
 )
 {
-MOZ_ASSERT
-(
-flags_
-&
-HAS_SCOPECHAIN
-)
-;
 Rooted
 <
 ClonedBlockObject
@@ -2222,12 +2215,6 @@ JSTracer
 trc
 )
 {
-if
-(
-flags_
-&
-HAS_SCOPECHAIN
-)
 TraceManuallyBarrieredEdge
 (
 trc
