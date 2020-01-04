@@ -2899,7 +2899,7 @@ actualLength
 =
 buffer
 .
-wasmActualByteLength
+byteLength
 (
 )
 ;

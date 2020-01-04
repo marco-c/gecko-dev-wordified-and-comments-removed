@@ -3931,6 +3931,8 @@ ExclusiveContext
 cx
 HandleObject
 proto
+=
+nullptr
 NewObjectKind
 newKind
 =
