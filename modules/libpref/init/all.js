@@ -4862,7 +4862,7 @@ azure
 .
 accelerated
 "
-true
+false
 )
 ;
 #
@@ -6133,18 +6133,6 @@ fullyLoaded
 mediaEnumerated
 scanEnd
 "
-)
-;
-pref
-(
-"
-devtools
-.
-migration
-.
-warnings
-"
-false
 )
 ;
 pref

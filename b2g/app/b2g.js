@@ -6522,7 +6522,7 @@ azure
 .
 accelerated
 "
-true
+false
 )
 ;
 #

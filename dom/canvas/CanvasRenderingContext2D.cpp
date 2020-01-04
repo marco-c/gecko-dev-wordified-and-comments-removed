@@ -6539,6 +6539,14 @@ AddDemotableContext
 this
 )
 ;
+mBufferProvider
+=
+new
+PersistentBufferProviderBasic
+(
+mTarget
+)
+;
 }
 else
 {
