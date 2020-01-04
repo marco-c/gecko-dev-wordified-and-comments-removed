@@ -2877,6 +2877,8 @@ rgba
 =
 FC_RGBA_NONE
 ;
+MOZ_FALLTHROUGH
+;
 case
 FC_RGBA_RGB
 :

@@ -4125,9 +4125,14 @@ ExtendMode
 :
 REFLECT
 :
-assert
+MOZ_FALLTHROUGH_ASSERT
 (
-0
+"
+ExtendMode
+:
+:
+REFLECT
+"
 )
 ;
 case
