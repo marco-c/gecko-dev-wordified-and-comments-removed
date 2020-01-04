@@ -337,7 +337,7 @@ nullptr
 )
 ;
 }
-UniquePtr
+RefPtr
 <
 gfxTextRun
 >
