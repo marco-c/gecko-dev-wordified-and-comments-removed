@@ -481,13 +481,6 @@ nsXULAppAPI
 h
 "
 #
-include
-"
-nsIXULRuntime
-.
-h
-"
-#
 ifdef
 XP_WIN
 #
@@ -4942,6 +4935,9 @@ if
 hasRemoteContent
 &
 &
+gfxVars
+:
+:
 BrowserTabsRemoteAutostart
 (
 )
