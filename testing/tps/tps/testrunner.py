@@ -2675,28 +2675,7 @@ mobile
 }
 )
         
-dummy
-=
-{
-'
-fx_account
-'
-:
-'
-dummy
-somewhere
-'
-'
-sync_account
-'
-:
-'
-dummy
-'
-}
-        
-auth_type
-=
+if
 self
 .
 config
@@ -2710,7 +2689,13 @@ auth_type
 fx_account
 '
 )
-        
+!
+=
+"
+fx_account
+"
+:
+            
 self
 .
 preferences
@@ -2726,10 +2711,9 @@ sync
 username
 '
 :
+"
 dummy
-[
-auth_type
-]
+"
 }
 )
         
