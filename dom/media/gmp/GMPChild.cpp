@@ -148,6 +148,15 @@ prio
 h
 "
 #
+include
+"
+base
+/
+task
+.
+h
+"
+#
 ifdef
 MOZ_WIDEVINE_EME
 #
