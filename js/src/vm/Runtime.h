@@ -3277,15 +3277,6 @@ char
 filename
 )
 ;
-bool
-addSelfHostingIntrinsics
-(
-const
-JSFunctionSpec
-*
-intrinsicFunctions
-)
-;
 void
 finishSelfHosting
 (
