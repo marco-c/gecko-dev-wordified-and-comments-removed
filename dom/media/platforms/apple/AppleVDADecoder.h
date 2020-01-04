@@ -516,10 +516,6 @@ const
 bool
 mUseSoftwareImages
 ;
-const
-bool
-mIs106
-;
 Monitor
 mMonitor
 ;
