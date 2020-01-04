@@ -188,10 +188,7 @@ javascript
 src
 =
 "
-.
-.
-/
-test_bug357450
+file_bug357450
 .
 js
 "
