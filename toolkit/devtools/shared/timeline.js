@@ -1070,6 +1070,7 @@ function
 (
 {
 collections
+gcCycleNumber
 reason
 nonincrementalReason
 }
@@ -1146,11 +1147,10 @@ reason
 nonincrementalReason
 :
 nonincrementalReason
-start
+cycle
 :
+gcCycleNumber
 start
-end
-:
 end
 }
 ;
