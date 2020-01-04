@@ -916,6 +916,9 @@ warnedAboutFlagsArgument
 bool
 warnedAboutExprClosure
 ;
+bool
+warnedAboutRegExpMultiline
+;
 JSAddonId
 *
 const
