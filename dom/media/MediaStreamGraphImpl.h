@@ -589,16 +589,6 @@ GraphTime
 aTime
 )
 ;
-GraphTime
-StreamTimeToGraphTimeWithBlocking
-(
-MediaStream
-*
-aStream
-StreamTime
-aTime
-)
-;
 void
 NotifyHasCurrentData
 (
