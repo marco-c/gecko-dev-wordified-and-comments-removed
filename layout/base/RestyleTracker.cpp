@@ -90,9 +90,12 @@ aDocument
 nsCString
 result
 ;
-nsString
+nsAutoString
 url
 ;
+nsresult
+rv
+=
 aDocument
 -
 >
@@ -101,6 +104,14 @@ GetDocumentURI
 url
 )
 ;
+if
+(
+NS_SUCCEEDED
+(
+rv
+)
+)
+{
 result
 .
 Append
@@ -115,6 +126,7 @@ get
 )
 )
 ;
+}
 return
 result
 ;
