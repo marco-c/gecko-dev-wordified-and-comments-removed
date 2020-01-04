@@ -11837,6 +11837,15 @@ fxa
 /
 activities
 /
+CustomColorPreference
+.
+java
+'
+'
+fxa
+/
+activities
+/
 FxAccountAbstractActivity
 .
 java
