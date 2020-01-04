@@ -17,6 +17,12 @@ MigrationUtils
 .
 resourceTypes
 .
+HISTORY
+|
+MigrationUtils
+.
+resourceTypes
+.
 PASSWORDS
 ;
 add_task
