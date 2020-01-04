@@ -2902,8 +2902,9 @@ SetBResize
 mCBReflowState
 -
 >
-IsBResize
+IsBResizeForWM
 (
+wm
 )
 )
 ;
@@ -2929,8 +2930,9 @@ SetBResize
 mCBReflowState
 -
 >
-IsBResize
+IsBResizeForWM
 (
+wm
 )
 )
 ;
@@ -2991,8 +2993,9 @@ SetBResize
 mCBReflowState
 -
 >
-IsBResize
+IsBResizeForWM
 (
+wm
 )
 )
 ;

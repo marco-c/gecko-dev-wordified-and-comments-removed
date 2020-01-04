@@ -2712,8 +2712,13 @@ aState
 >
 mReflowState
 .
-IsBResize
+IsBResizeForWM
 (
+kidReflowState
+.
+GetWritingMode
+(
+)
 )
 )
 {
