@@ -3792,6 +3792,9 @@ CacheHash
 mRWHash
 ;
 bool
+mRWPending
+;
+bool
 mJournalReadSuccessfully
 ;
 RefPtr
