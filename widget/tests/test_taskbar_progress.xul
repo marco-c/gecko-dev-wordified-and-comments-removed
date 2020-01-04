@@ -497,6 +497,8 @@ s
 c
 m
 )
+{
+return
 !
 shouldThrow
 (
@@ -504,6 +506,8 @@ s
 c
 m
 )
+;
+}
 ok
 (
 doesntThrow

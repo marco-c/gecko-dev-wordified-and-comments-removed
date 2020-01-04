@@ -513,11 +513,15 @@ doesntThrowException
 (
 fun
 )
+{
+return
 !
 shouldThrowException
 (
 fun
 )
+;
+}
 var
 baseWindow
 =
