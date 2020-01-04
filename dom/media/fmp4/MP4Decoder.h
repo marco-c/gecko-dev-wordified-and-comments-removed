@@ -34,7 +34,6 @@ MediaDecoderOwner
 aOwner
 )
 ;
-virtual
 MediaDecoder
 *
 Clone
@@ -65,7 +64,6 @@ aOwner
 )
 ;
 }
-virtual
 MediaDecoderStateMachine
 *
 CreateStateMachine

@@ -75,7 +75,6 @@ MediaResource
 aResource
 )
 ;
-virtual
 RefPtr
 <
 InitPromise
@@ -85,7 +84,6 @@ Init
 )
 override
 ;
-virtual
 bool
 HasTrackType
 (
@@ -98,7 +96,6 @@ aType
 const
 override
 ;
-virtual
 uint32_t
 GetNumberTracks
 (
@@ -111,7 +108,6 @@ aType
 const
 override
 ;
-virtual
 already_AddRefed
 <
 MediaTrackDemuxer
@@ -128,7 +124,6 @@ aTrackNumber
 )
 override
 ;
-virtual
 bool
 IsSeekable
 (
@@ -136,7 +131,6 @@ IsSeekable
 const
 override
 ;
-virtual
 UniquePtr
 <
 EncryptionInfo
@@ -146,14 +140,12 @@ GetCrypto
 )
 override
 ;
-virtual
 void
 NotifyDataArrived
 (
 )
 override
 ;
-virtual
 void
 NotifyDataRemoved
 (

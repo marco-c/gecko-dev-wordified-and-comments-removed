@@ -451,7 +451,6 @@ Reset
 (
 )
 ;
-virtual
 void
 PushAudioPacket
 (
@@ -460,7 +459,6 @@ NesteggPacketHolder
 aItem
 )
 ;
-virtual
 void
 PushVideoPacket
 (
@@ -567,7 +565,6 @@ GetBuffered
 (
 )
 ;
-virtual
 nsresult
 SeekInternal
 (

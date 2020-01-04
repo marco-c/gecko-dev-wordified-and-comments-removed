@@ -90,7 +90,6 @@ Monitor
 aToUnlock
 )
 ;
-virtual
 bool
 ReadAt
 (
@@ -107,7 +106,6 @@ aBytesRead
 )
 override
 ;
-virtual
 bool
 CachedReadAt
 (
@@ -124,7 +122,6 @@ aBytesRead
 )
 override
 ;
-virtual
 bool
 Length
 (
