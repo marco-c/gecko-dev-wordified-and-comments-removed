@@ -93,16 +93,4 @@ telemetry
 serverUrl
 "
 ;
-public
-static
-final
-String
-PREF_SEQ_COUNT
-=
-"
-telemetry
--
-seqCount
-"
-;
 }
