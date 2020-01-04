@@ -2078,6 +2078,10 @@ mLayersId
 )
 ;
 }
+mApzcTreeManager
+=
+nullptr
+;
 }
 void
 RenderFrameParent
