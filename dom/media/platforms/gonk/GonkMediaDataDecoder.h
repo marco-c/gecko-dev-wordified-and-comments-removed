@@ -103,7 +103,6 @@ MediaRawData
 aSample
 )
 ;
-virtual
 nsresult
 Flush
 (
@@ -225,6 +224,7 @@ bool
 aEndOfStream
 )
 ;
+virtual
 void
 ProcessFlush
 (
