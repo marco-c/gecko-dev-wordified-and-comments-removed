@@ -5932,8 +5932,6 @@ JSContext
 cx
 HandleObject
 obj
-DetachDataDisposition
-changeData
 )
 {
 if

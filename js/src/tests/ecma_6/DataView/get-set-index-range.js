@@ -208,11 +208,6 @@ this
 detachArrayBuffer
 (
 buffer
-'
-same
--
-data
-'
 )
 ;
 check

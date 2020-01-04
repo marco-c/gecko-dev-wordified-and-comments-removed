@@ -539,7 +539,6 @@ JS_DetachArrayBuffer
 (
 cx
 obj
-ChangeData
 )
 ;
 CHECK

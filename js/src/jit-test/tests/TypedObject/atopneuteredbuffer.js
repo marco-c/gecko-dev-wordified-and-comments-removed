@@ -38,7 +38,6 @@ TypedObject
 function
 main
 (
-variant
 )
 {
 var
@@ -82,7 +81,6 @@ buffer
 detachArrayBuffer
 (
 buffer
-variant
 )
 ;
 assertThrowsInstanceOf
@@ -132,19 +130,5 @@ buffer
 }
 main
 (
-"
-same
--
-data
-"
-)
-;
-main
-(
-"
-change
--
-data
-"
 )
 ;

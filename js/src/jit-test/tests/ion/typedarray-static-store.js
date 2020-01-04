@@ -46,11 +46,6 @@ store
 detachArrayBuffer
 (
 buffer
-"
-change
--
-data
-"
 )
 ;
 store

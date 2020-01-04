@@ -19,11 +19,6 @@ buffer
 detachArrayBuffer
 (
 buffer
-"
-change
--
-data
-"
 )
 ;
 var

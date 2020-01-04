@@ -45,11 +45,6 @@ load
 detachArrayBuffer
 (
 buffer
-"
-change
--
-data
-"
 )
 ;
 load

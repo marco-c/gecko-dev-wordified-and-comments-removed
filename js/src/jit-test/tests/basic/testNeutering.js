@@ -1,22 +1,3 @@
-for
-(
-var
-variant
-of
-[
-"
-same
--
-data
-"
-"
-change
--
-data
-"
-]
-)
-{
 var
 ab
 =
@@ -45,7 +26,6 @@ i32
 detachArrayBuffer
 (
 ab
-variant
 )
 ;
 assertEq
@@ -101,7 +81,6 @@ i32
 detachArrayBuffer
 (
 ab
-variant
 )
 ;
 assertEq
@@ -157,7 +136,6 @@ i32
 detachArrayBuffer
 (
 ab
-variant
 )
 ;
 assertEq
@@ -185,4 +163,3 @@ i32
 undefined
 )
 ;
-}

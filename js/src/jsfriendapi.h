@@ -8417,13 +8417,6 @@ bool
 isSharedMemory
 )
 ;
-enum
-DetachDataDisposition
-{
-ChangeData
-KeepData
-}
-;
 extern
 JS_FRIEND_API
 (
@@ -8439,8 +8432,6 @@ JS
 :
 HandleObject
 obj
-DetachDataDisposition
-changeData
 )
 ;
 extern

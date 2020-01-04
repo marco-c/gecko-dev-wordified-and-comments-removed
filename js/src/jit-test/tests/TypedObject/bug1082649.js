@@ -41,7 +41,6 @@ uint32
 function
 main
 (
-variant
 )
 {
 var
@@ -68,7 +67,6 @@ s
 )
 .
 buffer
-variant
 )
 ;
 print
@@ -86,11 +84,6 @@ try
 {
 main
 (
-"
-same
--
-data
-"
 )
 ;
 assertEq
