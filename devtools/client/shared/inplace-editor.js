@@ -3890,6 +3890,17 @@ selectionStart
 input
 .
 selectionEnd
+|
+|
+this
+.
+contentType
+!
+=
+=
+CONTENT_TYPES
+.
+CSS_MIXED
 )
 {
 pre
