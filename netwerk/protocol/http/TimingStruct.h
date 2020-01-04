@@ -68,6 +68,12 @@ encodedBodySize
 nsCString
 protocolVersion
 ;
+TimeStamp
+cacheReadStart
+;
+TimeStamp
+cacheReadEnd
+;
 }
 ;
 }
