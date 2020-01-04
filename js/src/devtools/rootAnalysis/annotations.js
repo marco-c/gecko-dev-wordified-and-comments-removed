@@ -369,6 +369,13 @@ zfree
 :
 true
 "
+z_stream_s
+.
+zalloc
+"
+:
+true
+"
 GrGLInterface
 .
 fCallback
