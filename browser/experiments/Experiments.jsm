@@ -11035,10 +11035,8 @@ Object
 freeze
 (
 {
-get
 name
-(
-)
+:
 "
 PreviousExperimentProvider
 "
