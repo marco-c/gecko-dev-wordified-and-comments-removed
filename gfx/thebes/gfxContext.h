@@ -72,14 +72,6 @@ cairo_t
 class
 GlyphBufferAzure
 ;
-template
-<
-typename
-T
->
-class
-FallibleTArray
-;
 namespace
 mozilla
 {
