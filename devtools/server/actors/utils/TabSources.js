@@ -1044,6 +1044,16 @@ function
 aURL
 )
 {
+if
+(
+!
+aURL
+)
+{
+return
+false
+;
+}
 try
 {
 let
