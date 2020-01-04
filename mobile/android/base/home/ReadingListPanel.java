@@ -705,6 +705,13 @@ onDestroyView
 )
 ;
 mList
+.
+setOnItemClickListener
+(
+null
+)
+;
+mList
 =
 null
 ;
