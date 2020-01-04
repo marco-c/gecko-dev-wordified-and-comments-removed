@@ -213,6 +213,7 @@ Kind_Op
 Kind_NonOp
 Kind_CallVM
 Kind_NonOpCallVM
+Kind_WarmupCounter
 Kind_StackCheck
 Kind_EarlyStackCheck
 Kind_DebugTrap

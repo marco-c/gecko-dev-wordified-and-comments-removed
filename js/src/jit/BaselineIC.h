@@ -14810,6 +14810,9 @@ GetDOMProxyHandlerFamily
 )
 ;
 }
+struct
+IonOsrTempData
+;
 }
 }
 #
