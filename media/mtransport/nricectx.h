@@ -767,15 +767,11 @@ GetNewPwd
 bool
 Initialize
 (
-bool
-hide_non_default
 )
 ;
 bool
 Initialize
 (
-bool
-hide_non_default
 const
 std
 :
@@ -1060,6 +1056,8 @@ proxy_server
 nsresult
 StartGathering
 (
+bool
+default_route_only
 )
 ;
 nsresult

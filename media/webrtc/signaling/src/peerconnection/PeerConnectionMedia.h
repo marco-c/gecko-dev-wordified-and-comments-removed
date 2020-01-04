@@ -2240,6 +2240,8 @@ runnable
 void
 EnsureIceGathering_s
 (
+bool
+aDefaultRouteOnly
 )
 ;
 void
