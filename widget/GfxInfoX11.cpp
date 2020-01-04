@@ -1427,6 +1427,15 @@ mIsLlvmpipe
 |
 mIsOldSwrast
 )
+&
+&
+!
+PR_GetEnv
+(
+"
+MOZ_LAYERS_ALLOW_SOFTWARE_GL
+"
+)
 )
 {
 *
