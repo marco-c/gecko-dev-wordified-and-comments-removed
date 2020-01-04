@@ -560,6 +560,9 @@ aEdts
 Sinf
 &
 aSinf
+uint64_t
+*
+aDecoderTime
 bool
 aIsAudio
 )
@@ -645,6 +648,9 @@ aEdts
 Sinf
 &
 aSinf
+uint64_t
+*
+aDecodeTime
 bool
 aIsAudio
 )
@@ -731,6 +737,10 @@ aTrackId
 mIsAudio
 (
 aIsAudio
+)
+mLastDecodeTime
+(
+0
 )
 {
 }
@@ -965,6 +975,9 @@ mMediaRanges
 ;
 bool
 mIsAudio
+;
+uint64_t
+mLastDecodeTime
 ;
 }
 ;
