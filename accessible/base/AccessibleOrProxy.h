@@ -387,6 +387,12 @@ Role
 )
 ;
 }
+AccessibleOrProxy
+Parent
+(
+)
+const
+;
 uintptr_t
 Bits
 (
