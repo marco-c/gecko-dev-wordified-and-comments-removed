@@ -210,7 +210,9 @@ environment
 .
 target
 ;
-return
+let
+toolboxOpened
+=
 gDevTools
 .
 showToolbox
@@ -220,6 +222,9 @@ target
 styleeditor
 "
 )
+;
+return
+toolboxOpened
 .
 then
 (
