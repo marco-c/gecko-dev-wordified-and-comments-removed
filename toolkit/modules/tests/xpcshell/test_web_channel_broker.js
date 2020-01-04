@@ -312,6 +312,12 @@ hello
 "
 )
 ;
+do_check_neq
+(
+sender
+undefined
+)
+;
 WebChannelBroker
 .
 unregisterChannel
