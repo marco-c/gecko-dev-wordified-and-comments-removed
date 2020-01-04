@@ -261,6 +261,19 @@ nsTArray_base
 }
 )
     
+appendExpectedLeakCounts
+(
+{
+        
+'
+SyncObject
+'
+:
+1
+    
+}
+)
+    
 return
 leaks
 def
