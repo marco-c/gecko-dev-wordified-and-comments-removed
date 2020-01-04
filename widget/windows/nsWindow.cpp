@@ -21632,7 +21632,7 @@ WidgetGestureNotifyEvent
 gestureNotifyEvent
 (
 true
-NS_GESTURENOTIFY_EVENT_START
+eGestureNotify
 this
 )
 ;
