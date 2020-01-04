@@ -883,14 +883,6 @@ api
 -
 android
 -
-api
--
-15
--
-frontend
--
-android
--
 partner
 -
 sample1
@@ -916,10 +908,6 @@ macosx64
 st
 -
 an
--
-eslint
--
-gecko
 tests
 :
 -
