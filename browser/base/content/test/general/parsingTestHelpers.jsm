@@ -359,6 +359,15 @@ entry
 name
 )
 ;
+if
+(
+file
+.
+exists
+(
+)
+)
+{
 let
 uriSpec
 =
@@ -383,6 +392,7 @@ null
 )
 )
 ;
+}
 }
 else
 if
