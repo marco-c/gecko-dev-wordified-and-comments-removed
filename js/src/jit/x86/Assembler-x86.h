@@ -2551,7 +2551,7 @@ dest
 {
 MOZ_ASSERT
 (
-HasSSE2
+HasSSE3
 (
 )
 )
