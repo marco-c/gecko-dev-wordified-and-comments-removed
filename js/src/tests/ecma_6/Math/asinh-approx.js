@@ -2476,6 +2476,11 @@ sinh_data
 ]
 ]
 ;
+var
+sloppy_tolerance
+=
+1000
+;
 for
 (
 var
@@ -2495,6 +2500,7 @@ asinh
 x
 )
 y
+sloppy_tolerance
 )
 ;
 assertNear
@@ -2508,6 +2514,7 @@ asinh
 691
 .
 4686750787737
+sloppy_tolerance
 )
 ;
 assertNear
@@ -2523,6 +2530,7 @@ asinh
 1e
 -
 300
+sloppy_tolerance
 )
 ;
 assertNear
@@ -2538,6 +2546,7 @@ asinh
 0
 .
 000009999999999833334
+sloppy_tolerance
 )
 ;
 assertNear
@@ -2553,6 +2562,7 @@ asinh
 0
 .
 29567304756342244
+sloppy_tolerance
 )
 ;
 assertNear
@@ -2566,6 +2576,7 @@ asinh
 0
 .
 881373587019543
+sloppy_tolerance
 )
 ;
 for
@@ -2610,6 +2621,7 @@ x
 )
 )
 x
+sloppy_tolerance
 )
 ;
 }
@@ -2643,6 +2655,7 @@ i
 )
 )
 i
+sloppy_tolerance
 )
 ;
 reportCompare

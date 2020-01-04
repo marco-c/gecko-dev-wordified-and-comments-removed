@@ -1,3 +1,8 @@
+var
+sloppy_tolerance
+=
+100
+;
 for
 (
 var
@@ -40,6 +45,7 @@ i
 )
 /
 2
+sloppy_tolerance
 )
 ;
 assertEq
@@ -79,6 +85,7 @@ sinh
 1e
 -
 30
+sloppy_tolerance
 )
 ;
 assertNear
@@ -94,6 +101,7 @@ sinh
 1e
 -
 10
+sloppy_tolerance
 )
 ;
 var
@@ -2633,6 +2641,7 @@ sinh
 x
 )
 y
+sloppy_tolerance
 )
 ;
 reportCompare
