@@ -16,14 +16,14 @@ h
 #
 include
 "
-nsTArray
+nsCOMPtr
 .
 h
 "
 #
 include
 "
-nsCOMPtr
+nsTArray
 .
 h
 "
