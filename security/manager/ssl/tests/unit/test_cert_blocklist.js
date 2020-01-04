@@ -253,12 +253,12 @@ close
 )
 ;
 const
-PREF_BLOCKLIST_UPDATE_ENABLED
+PREF_KINTO_UPDATE_ENABLED
 =
 "
 services
 .
-blocklist
+kinto
 .
 update_enabled
 "
@@ -1576,7 +1576,7 @@ prefs
 .
 setBoolPref
 (
-PREF_BLOCKLIST_UPDATE_ENABLED
+PREF_KINTO_UPDATE_ENABLED
 false
 )
 ;
