@@ -771,7 +771,7 @@ StylePadding
 )
 -
 >
-GetPaddingNoPercentage
+GetPadding
 (
 aMargin
 )
