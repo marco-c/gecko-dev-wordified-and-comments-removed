@@ -548,7 +548,7 @@ gittool_base_mirror_urls
 ]
     
 "
-hgtool_share_base
+vcs_share_base
 "
 :
 "
@@ -559,36 +559,6 @@ hg
 -
 shared
 "
-    
-"
-hgtool_base_bundle_urls
-"
-:
-[
-"
-https
-:
-/
-/
-ftp
--
-ssl
-.
-mozilla
-.
-org
-/
-pub
-/
-mozilla
-.
-org
-/
-firefox
-/
-bundles
-"
-]
     
 "
 exes

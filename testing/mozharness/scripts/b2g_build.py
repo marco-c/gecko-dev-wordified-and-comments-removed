@@ -840,7 +840,7 @@ default_vcs
 '
 :
 '
-hgtool
+hg
 '
             
 '
@@ -965,7 +965,7 @@ compare_locales_vcs
 '
 :
 '
-hgtool
+hg
 '
             
 '
