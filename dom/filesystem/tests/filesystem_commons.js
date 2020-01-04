@@ -39,6 +39,13 @@ setup_tests
 aNext
 )
 {
+SimpleTest
+.
+requestLongerTimeout
+(
+2
+)
+;
 SpecialPowers
 .
 pushPrefEnv
