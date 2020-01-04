@@ -390,6 +390,17 @@ RemoveChild
 child
 )
 ;
+if
+(
+!
+mDoc
+-
+>
+IsDefunct
+(
+)
+)
+{
 mDoc
 -
 >
@@ -403,6 +414,7 @@ AsDoc
 )
 )
 ;
+}
 }
 AccessibleWrap
 :

@@ -1939,6 +1939,11 @@ this
 ;
 #
 endif
+mStateFlags
+|
+=
+eIsDefunct
+;
 if
 (
 mNotificationController
@@ -1959,11 +1964,6 @@ nullptr
 RemoveEventListeners
 (
 )
-;
-mStateFlags
-|
-=
-eIsDefunct
 ;
 nsCOMPtr
 <
