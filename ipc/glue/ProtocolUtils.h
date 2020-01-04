@@ -635,7 +635,7 @@ ProtocolId
 class
 IProtocol
 :
-protected
+public
 MessageListener
 {
 public
