@@ -860,7 +860,7 @@ panelId
 is
 (
 panel
-undefined
+null
 "
 panel
 successfully
@@ -934,7 +934,7 @@ panelId
 is
 (
 panel
-undefined
+null
 "
 browserAction
 panel
