@@ -35027,7 +35027,7 @@ WidgetContentCommandEvent
 command
 (
 true
-NS_CONTENT_COMMAND_PASTE_TRANSFERABLE
+eContentCommandPasteTransferable
 mGeckoChild
 true
 )
@@ -35606,7 +35606,7 @@ WidgetContentCommandEvent
 command
 (
 true
-NS_CONTENT_COMMAND_PASTE_TRANSFERABLE
+eContentCommandPasteTransferable
 mGeckoChild
 )
 ;
