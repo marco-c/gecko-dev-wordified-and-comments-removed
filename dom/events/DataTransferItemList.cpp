@@ -1021,6 +1021,7 @@ SubjectPrincipal
 (
 )
 true
+false
 aRv
 )
 ;
@@ -1154,6 +1155,7 @@ SubjectPrincipal
 (
 )
 true
+false
 aRv
 )
 ;
@@ -1564,6 +1566,8 @@ nsIPrincipal
 aPrincipal
 bool
 aInsertOnly
+bool
+aHidden
 ErrorResult
 &
 aRv
@@ -1894,6 +1898,7 @@ aIndex
 aType
 aData
 aPrincipal
+aHidden
 )
 ;
 if
@@ -1944,6 +1949,8 @@ aData
 nsIPrincipal
 *
 aPrincipal
+bool
+aHidden
 )
 {
 if
@@ -2014,6 +2021,14 @@ SetData
 aData
 )
 ;
+item
+-
+>
+SetChromeOnly
+(
+aHidden
+)
+;
 mIndexedItems
 [
 aIndex
@@ -2025,6 +2040,11 @@ item
 )
 ;
 if
+(
+!
+aHidden
+&
+&
 (
 item
 -
@@ -2044,6 +2064,7 @@ aIndex
 =
 =
 0
+)
 )
 {
 mItems
