@@ -671,7 +671,7 @@ LayoutDeviceIsScreenForUntransformedEvent
 ;
 event
 .
-clickCount
+mClickCount
 =
 clickCount
 ;
@@ -1313,7 +1313,7 @@ eMouseMove
 {
 event
 .
-clickCount
+mClickCount
 =
 1
 ;

@@ -9975,7 +9975,7 @@ clickCount
 mouseEvent
 -
 >
-clickCount
+mClickCount
 ;
 }
 else
@@ -11006,7 +11006,7 @@ if
 mouseEvent
 -
 >
-clickCount
+mClickCount
 =
 =
 2

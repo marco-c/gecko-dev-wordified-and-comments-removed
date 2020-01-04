@@ -15961,7 +15961,7 @@ break
 }
 event
 .
-clickCount
+mClickCount
 =
 sLastClickCount
 ;
@@ -15993,7 +15993,7 @@ n
 curMsgTime
 event
 .
-clickCount
+mClickCount
 )
 )
 ;

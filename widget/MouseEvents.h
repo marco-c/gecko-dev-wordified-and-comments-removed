@@ -618,7 +618,7 @@ mIgnoreRootScrollFrame
 (
 false
 )
-clickCount
+mClickCount
 (
 0
 )
@@ -662,7 +662,7 @@ mIgnoreRootScrollFrame
 (
 false
 )
-clickCount
+mClickCount
 (
 0
 )
@@ -722,7 +722,7 @@ mIgnoreRootScrollFrame
 (
 false
 )
-clickCount
+mClickCount
 (
 0
 )
@@ -872,7 +872,7 @@ bool
 mIgnoreRootScrollFrame
 ;
 uint32_t
-clickCount
+mClickCount
 ;
 void
 AssignMouseEventData
@@ -902,11 +902,11 @@ aEvent
 .
 mIgnoreRootScrollFrame
 ;
-clickCount
+mClickCount
 =
 aEvent
 .
-clickCount
+mClickCount
 ;
 }
 bool

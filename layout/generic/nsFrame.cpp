@@ -15003,7 +15003,7 @@ if
 mouseEvent
 -
 >
-clickCount
+mClickCount
 >
 1
 )
@@ -15720,7 +15720,7 @@ if
 mouseEvent
 -
 >
-clickCount
+mClickCount
 =
 =
 4
@@ -15739,7 +15739,7 @@ if
 mouseEvent
 -
 >
-clickCount
+mClickCount
 =
 =
 3
@@ -15785,7 +15785,7 @@ if
 mouseEvent
 -
 >
-clickCount
+mClickCount
 =
 =
 2

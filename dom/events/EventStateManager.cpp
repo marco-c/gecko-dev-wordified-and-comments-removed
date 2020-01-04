@@ -2927,7 +2927,7 @@ mLClickCount
 mouseEvent
 -
 >
-clickCount
+mClickCount
 ;
 SetClickCount
 (
@@ -2952,7 +2952,7 @@ mMClickCount
 mouseEvent
 -
 >
-clickCount
+mClickCount
 ;
 SetClickCount
 (
@@ -2973,7 +2973,7 @@ mRClickCount
 mouseEvent
 -
 >
-clickCount
+mClickCount
 ;
 SetClickCount
 (
@@ -6737,7 +6737,7 @@ eReal
 ;
 event
 .
-clickCount
+mClickCount
 =
 1
 ;
@@ -19234,7 +19234,7 @@ mouseContentParent
 aEvent
 -
 >
-clickCount
+mClickCount
 =
 mLClickCount
 ;
@@ -19248,7 +19248,7 @@ else
 aEvent
 -
 >
-clickCount
+mClickCount
 =
 0
 ;
@@ -19325,7 +19325,7 @@ mouseContentParent
 aEvent
 -
 >
-clickCount
+mClickCount
 =
 mMClickCount
 ;
@@ -19339,7 +19339,7 @@ else
 aEvent
 -
 >
-clickCount
+mClickCount
 =
 0
 ;
@@ -19416,7 +19416,7 @@ mouseContentParent
 aEvent
 -
 >
-clickCount
+mClickCount
 =
 mRClickCount
 ;
@@ -19430,7 +19430,7 @@ else
 aEvent
 -
 >
-clickCount
+mClickCount
 =
 0
 ;
@@ -19472,13 +19472,10 @@ NS_OK
 ;
 if
 (
-0
-!
-=
 aEvent
 -
 >
-clickCount
+mClickCount
 )
 {
 if
@@ -19564,12 +19561,12 @@ mRefPoint
 ;
 event
 .
-clickCount
+mClickCount
 =
 aEvent
 -
 >
-clickCount
+mClickCount
 ;
 event
 .
@@ -19730,7 +19727,7 @@ ret
 aEvent
 -
 >
-clickCount
+mClickCount
 =
 =
 2
@@ -19778,12 +19775,12 @@ mRefPoint
 ;
 event2
 .
-clickCount
+mClickCount
 =
 aEvent
 -
 >
-clickCount
+mClickCount
 ;
 event2
 .

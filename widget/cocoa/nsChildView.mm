@@ -26148,7 +26148,7 @@ clickCount
 }
 geckoEvent
 .
-clickCount
+mClickCount
 =
 clickCount
 ;
@@ -27429,7 +27429,7 @@ eRightButton
 ;
 geckoEvent
 .
-clickCount
+mClickCount
 =
 [
 theEvent
@@ -27542,7 +27542,7 @@ eRightButton
 ;
 geckoEvent
 .
-clickCount
+mClickCount
 =
 [
 theEvent
@@ -27759,7 +27759,7 @@ eMiddleButton
 ;
 geckoEvent
 .
-clickCount
+mClickCount
 =
 [
 theEvent

@@ -6204,7 +6204,7 @@ FireOnChange
 mouseEvent
 -
 >
-clickCount
+mClickCount
 =
 1
 ;
@@ -6214,7 +6214,7 @@ else
 mouseEvent
 -
 >
-clickCount
+mClickCount
 =
 IgnoreMouseEventForSelection
 (

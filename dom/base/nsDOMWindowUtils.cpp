@@ -3131,7 +3131,7 @@ aIsPrimary
 ;
 event
 .
-clickCount
+mClickCount
 =
 aClickCount
 ;

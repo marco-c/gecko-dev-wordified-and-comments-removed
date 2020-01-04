@@ -13608,7 +13608,7 @@ mDelayedMouseEventClickCount
 aMouseEvent
 -
 >
-clickCount
+mClickCount
 ;
 }
 else

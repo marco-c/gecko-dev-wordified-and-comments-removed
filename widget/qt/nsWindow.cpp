@@ -4220,7 +4220,7 @@ MetaModifier
 ;
 aMouseEvent
 .
-clickCount
+mClickCount
 =
 aClickCount
 ;
@@ -8787,7 +8787,7 @@ MetaModifier
 ;
 event
 .
-clickCount
+mClickCount
 =
 0
 ;

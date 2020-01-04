@@ -735,7 +735,7 @@ aY
 ;
 event
 .
-clickCount
+mClickCount
 =
 1
 ;

@@ -971,7 +971,7 @@ aPoint
 ;
 event
 .
-clickCount
+mClickCount
 =
 1
 ;
