@@ -7774,10 +7774,7 @@ transform
 =
 aTransformToCompBounds
 *
-ViewAs
-<
-ParentLayerToParentLayerMatrix4x4
->
+AsyncTransformComponentMatrix
 (
 aAPZTransform
 )

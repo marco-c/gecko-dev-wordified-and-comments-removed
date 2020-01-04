@@ -364,7 +364,7 @@ ParentLayerPoint
 aScrollOffset
 )
 ;
-Matrix4x4
+AsyncTransformComponentMatrix
 GetOverscrollTransform
 (
 )
@@ -411,7 +411,7 @@ GetCurrentAsyncTransform
 )
 const
 ;
-Matrix4x4
+AsyncTransformComponentMatrix
 GetCurrentAsyncTransformWithOverscroll
 (
 )

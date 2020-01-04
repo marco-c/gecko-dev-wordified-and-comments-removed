@@ -210,10 +210,7 @@ EventRegions
 &
 aRegions
 const
-gfx
-:
-:
-Matrix4x4
+CSSTransformMatrix
 &
 aTransform
 const
@@ -372,10 +369,7 @@ mScrollSize
 EventRegions
 mEventRegions
 ;
-gfx
-:
-:
-Matrix4x4
+CSSTransformMatrix
 mTransform
 ;
 Maybe

@@ -1622,7 +1622,7 @@ aLayer
 )
 aLayer
 .
-GetTransform
+GetTransformTyped
 (
 )
 aLayer
@@ -2159,7 +2159,7 @@ aLayer
 )
 aLayer
 .
-GetTransform
+GetTransformTyped
 (
 )
 Some
@@ -2412,7 +2412,7 @@ aLayer
 )
 aLayer
 .
-GetTransform
+GetTransformTyped
 (
 )
 Some
@@ -7745,6 +7745,10 @@ GetCurrentAsyncTransformWithOverscroll
 Inverse
 (
 )
+.
+ToUnknownMatrix
+(
+)
 ;
 Matrix4x4
 untransformSinceLastApzc
@@ -7803,6 +7807,10 @@ GetCurrentAsyncTransformWithOverscroll
 )
 .
 Inverse
+(
+)
+.
+ToUnknownMatrix
 (
 )
 ;

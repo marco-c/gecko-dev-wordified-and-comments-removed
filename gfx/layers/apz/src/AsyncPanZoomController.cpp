@@ -13087,7 +13087,7 @@ return
 false
 ;
 }
-Matrix4x4
+AsyncTransformComponentMatrix
 AsyncPanZoomController
 :
 :
@@ -13111,7 +13111,7 @@ IsOverscrolled
 )
 {
 return
-Matrix4x4
+AsyncTransformComponentMatrix
 (
 )
 ;
@@ -13274,7 +13274,7 @@ extraCompositionHeight
 ;
 }
 return
-Matrix4x4
+AsyncTransformComponentMatrix
 :
 :
 Scaling
@@ -13702,7 +13702,7 @@ translation
 )
 ;
 }
-Matrix4x4
+AsyncTransformComponentMatrix
 AsyncPanZoomController
 :
 :
@@ -13712,7 +13712,7 @@ GetCurrentAsyncTransformWithOverscroll
 const
 {
 return
-Matrix4x4
+AsyncTransformComponentMatrix
 (
 GetCurrentAsyncTransform
 (
