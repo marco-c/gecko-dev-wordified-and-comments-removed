@@ -1721,7 +1721,11 @@ h
 #
 include
 "
-nsLocation
+mozilla
+/
+dom
+/
+Location
 .
 h
 "
@@ -28850,7 +28854,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsLocation
+Location
 >
 nsIDocument
 :
@@ -28898,7 +28902,7 @@ dummy
 ;
 RefPtr
 <
-nsLocation
+Location
 >
 loc
 =

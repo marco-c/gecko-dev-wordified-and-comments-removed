@@ -953,6 +953,11 @@ Link
 h
 '
 '
+Location
+.
+h
+'
+'
 NameSpaceConstants
 .
 h
@@ -1238,6 +1243,11 @@ Link
 cpp
 '
 '
+Location
+.
+cpp
+'
+'
 MultipartBlobImpl
 .
 cpp
@@ -1454,11 +1464,6 @@ cpp
 '
 '
 nsLineBreaker
-.
-cpp
-'
-'
-nsLocation
 .
 cpp
 '

@@ -1303,7 +1303,11 @@ h
 #
 include
 "
-nsLocation
+mozilla
+/
+dom
+/
+Location
 .
 h
 "
@@ -41559,7 +41563,7 @@ return
 top
 ;
 }
-nsLocation
+Location
 *
 nsGlobalWindow
 :
@@ -41598,7 +41602,7 @@ docShell
 mLocation
 =
 new
-nsLocation
+Location
 (
 AsInner
 (

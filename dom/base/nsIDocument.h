@@ -372,9 +372,6 @@ class
 nsIVariant
 ;
 class
-nsLocation
-;
-class
 nsViewManager
 ;
 class
@@ -522,6 +519,9 @@ LifecycleCallbackArgs
 ;
 class
 Link
+;
+class
+Location
 ;
 class
 MediaQueryList
@@ -6334,7 +6334,13 @@ const
 ;
 already_AddRefed
 <
-nsLocation
+mozilla
+:
+:
+dom
+:
+:
+Location
 >
 GetLocation
 (

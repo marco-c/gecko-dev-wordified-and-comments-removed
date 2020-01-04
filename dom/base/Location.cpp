@@ -1,7 +1,7 @@
 #
 include
 "
-nsLocation
+Location
 .
 h
 "
@@ -214,17 +214,12 @@ LocationBinding
 .
 h
 "
-using
 namespace
 mozilla
-;
-using
+{
 namespace
-mozilla
-:
-:
 dom
-;
+{
 static
 nsresult
 GetDocumentCharacterSetForURI
@@ -269,10 +264,10 @@ return
 NS_OK
 ;
 }
-nsLocation
+Location
 :
 :
-nsLocation
+Location
 (
 nsPIDOMWindowInner
 *
@@ -310,18 +305,18 @@ aDocShell
 )
 ;
 }
-nsLocation
+Location
 :
 :
 ~
-nsLocation
+Location
 (
 )
 {
 }
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
-nsLocation
+Location
 )
 NS_WRAPPERCACHE_INTERFACE_MAP_ENTRY
 NS_INTERFACE_MAP_ENTRY
@@ -336,11 +331,11 @@ nsIDOMLocation
 NS_INTERFACE_MAP_END
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
-nsLocation
+Location
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
-nsLocation
+Location
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
@@ -351,7 +346,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_PRESERVED_WRAPPER
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN
 (
-nsLocation
+Location
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -361,18 +356,18 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_SCRIPT_OBJECTS
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_TRACE_WRAPPERCACHE
 (
-nsLocation
+Location
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
-nsLocation
+Location
 )
 NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
-nsLocation
+Location
 )
 void
-nsLocation
+Location
 :
 :
 SetDocShell
@@ -392,7 +387,7 @@ aDocShell
 }
 nsIDocShell
 *
-nsLocation
+Location
 :
 :
 GetDocShell
@@ -416,7 +411,7 @@ docshell
 ;
 }
 nsresult
-nsLocation
+Location
 :
 :
 CheckURL
@@ -791,7 +786,7 @@ NS_OK
 ;
 }
 nsresult
-nsLocation
+Location
 :
 :
 GetURI
@@ -970,7 +965,7 @@ aURI
 ;
 }
 nsresult
-nsLocation
+Location
 :
 :
 GetWritableURI
@@ -1052,7 +1047,7 @@ aURI
 ;
 }
 nsresult
-nsLocation
+Location
 :
 :
 SetURI
@@ -1194,7 +1189,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsLocation
+Location
 :
 :
 GetHash
@@ -1449,7 +1444,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsLocation
+Location
 :
 :
 SetHash
@@ -1547,7 +1542,7 @@ uri
 ;
 }
 NS_IMETHODIMP
-nsLocation
+Location
 :
 :
 GetHost
@@ -1622,7 +1617,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsLocation
+Location
 :
 :
 SetHost
@@ -1705,7 +1700,7 @@ uri
 ;
 }
 NS_IMETHODIMP
-nsLocation
+Location
 :
 :
 GetHostname
@@ -1756,7 +1751,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsLocation
+Location
 :
 :
 SetHostname
@@ -1839,7 +1834,7 @@ uri
 ;
 }
 NS_IMETHODIMP
-nsLocation
+Location
 :
 :
 GetHref
@@ -1913,7 +1908,7 @@ result
 ;
 }
 NS_IMETHODIMP
-nsLocation
+Location
 :
 :
 SetHref
@@ -2014,7 +2009,7 @@ rv
 ;
 }
 nsresult
-nsLocation
+Location
 :
 :
 SetHrefWithContext
@@ -2070,7 +2065,7 @@ aReplace
 ;
 }
 nsresult
-nsLocation
+Location
 :
 :
 SetHrefWithBase
@@ -2266,7 +2261,7 @@ result
 ;
 }
 NS_IMETHODIMP
-nsLocation
+Location
 :
 :
 GetOrigin
@@ -2341,7 +2336,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsLocation
+Location
 :
 :
 GetPathname
@@ -2429,7 +2424,7 @@ result
 ;
 }
 NS_IMETHODIMP
-nsLocation
+Location
 :
 :
 SetPathname
@@ -2512,7 +2507,7 @@ uri
 ;
 }
 NS_IMETHODIMP
-nsLocation
+Location
 :
 :
 GetPort
@@ -2613,7 +2608,7 @@ result
 ;
 }
 NS_IMETHODIMP
-nsLocation
+Location
 :
 :
 SetPort
@@ -2761,7 +2756,7 @@ uri
 ;
 }
 NS_IMETHODIMP
-nsLocation
+Location
 :
 :
 GetProtocol
@@ -2850,7 +2845,7 @@ result
 ;
 }
 NS_IMETHODIMP
-nsLocation
+Location
 :
 :
 SetProtocol
@@ -2981,7 +2976,7 @@ uri
 ;
 }
 void
-nsLocation
+Location
 :
 :
 GetUsername
@@ -3057,7 +3052,7 @@ aUsername
 }
 }
 void
-nsLocation
+Location
 :
 :
 SetUsername
@@ -3165,7 +3160,7 @@ uri
 ;
 }
 void
-nsLocation
+Location
 :
 :
 GetPassword
@@ -3241,7 +3236,7 @@ aPassword
 }
 }
 void
-nsLocation
+Location
 :
 :
 SetPassword
@@ -3349,7 +3344,7 @@ uri
 ;
 }
 NS_IMETHODIMP
-nsLocation
+Location
 :
 :
 GetSearch
@@ -3458,7 +3453,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsLocation
+Location
 :
 :
 SetSearch
@@ -3494,7 +3489,7 @@ NS_OK
 ;
 }
 nsresult
-nsLocation
+Location
 :
 :
 SetSearchInternal
@@ -3589,7 +3584,7 @@ uri
 ;
 }
 NS_IMETHODIMP
-nsLocation
+Location
 :
 :
 Reload
@@ -3786,7 +3781,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsLocation
+Location
 :
 :
 Replace
@@ -3874,7 +3869,7 @@ true
 ;
 }
 NS_IMETHODIMP
-nsLocation
+Location
 :
 :
 Assign
@@ -3969,7 +3964,7 @@ result
 ;
 }
 NS_IMETHODIMP
-nsLocation
+Location
 :
 :
 ToString
@@ -3987,7 +3982,7 @@ aReturn
 ;
 }
 NS_IMETHODIMP
-nsLocation
+Location
 :
 :
 ValueOf
@@ -4019,7 +4014,7 @@ NS_OK
 ;
 }
 nsresult
-nsLocation
+Location
 :
 :
 GetSourceBaseURL
@@ -4116,7 +4111,7 @@ NS_OK
 ;
 }
 bool
-nsLocation
+Location
 :
 :
 CallerSubsumes
@@ -4198,7 +4193,7 @@ subsumes
 }
 JSObject
 *
-nsLocation
+Location
 :
 :
 WrapObject
@@ -4228,4 +4223,6 @@ this
 aGivenProto
 )
 ;
+}
+}
 }

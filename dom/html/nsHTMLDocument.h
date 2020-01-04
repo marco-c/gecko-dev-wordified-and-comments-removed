@@ -1144,7 +1144,13 @@ aRv
 ;
 already_AddRefed
 <
-nsLocation
+mozilla
+:
+:
+dom
+:
+:
+Location
 >
 GetLocation
 (
