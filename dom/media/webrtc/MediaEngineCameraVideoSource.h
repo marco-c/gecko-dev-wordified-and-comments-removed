@@ -109,7 +109,6 @@ mTrackID
 )
 {
 }
-virtual
 void
 GetName
 (
@@ -119,7 +118,6 @@ aName
 )
 override
 ;
-virtual
 void
 GetUUID
 (
@@ -129,7 +127,6 @@ aUUID
 )
 override
 ;
-virtual
 void
 SetDirectListeners
 (
@@ -138,7 +135,6 @@ aHasListeners
 )
 override
 ;
-virtual
 nsresult
 Config
 (
@@ -164,7 +160,6 @@ NS_OK
 ;
 }
 ;
-virtual
 bool
 IsFake
 (
@@ -175,7 +170,6 @@ return
 false
 ;
 }
-virtual
 nsresult
 TakePhoto
 (
@@ -211,7 +205,6 @@ aDeviceId
 )
 override
 ;
-virtual
 void
 Shutdown
 (

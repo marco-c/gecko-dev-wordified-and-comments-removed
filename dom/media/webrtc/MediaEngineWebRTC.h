@@ -770,7 +770,6 @@ Init
 )
 ;
 }
-virtual
 void
 GetName
 (
@@ -780,7 +779,6 @@ aName
 )
 override
 ;
-virtual
 void
 GetUUID
 (
@@ -790,7 +788,6 @@ aUUID
 )
 override
 ;
-virtual
 nsresult
 Allocate
 (
@@ -812,14 +809,12 @@ aDeviceId
 )
 override
 ;
-virtual
 nsresult
 Deallocate
 (
 )
 override
 ;
-virtual
 nsresult
 Start
 (
@@ -831,7 +826,6 @@ aID
 )
 override
 ;
-virtual
 nsresult
 Stop
 (
@@ -843,7 +837,6 @@ aID
 )
 override
 ;
-virtual
 nsresult
 Restart
 (
@@ -865,7 +858,6 @@ aDeviceId
 )
 override
 ;
-virtual
 void
 SetDirectListeners
 (
@@ -876,7 +868,6 @@ override
 {
 }
 ;
-virtual
 nsresult
 Config
 (
@@ -897,7 +888,6 @@ aPlayoutDelay
 )
 override
 ;
-virtual
 void
 NotifyPull
 (
@@ -914,7 +904,6 @@ aDesiredTime
 )
 override
 ;
-virtual
 bool
 IsFake
 (
@@ -925,7 +914,6 @@ return
 false
 ;
 }
-virtual
 dom
 :
 :
@@ -946,7 +934,6 @@ MediaSourceEnum
 Microphone
 ;
 }
-virtual
 nsresult
 TakePhoto
 (
@@ -960,7 +947,6 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-virtual
 uint32_t
 GetBestFitnessDistance
 (
@@ -1006,7 +992,6 @@ isStereo
 )
 override
 ;
-virtual
 void
 Shutdown
 (
@@ -1175,7 +1160,6 @@ Shutdown
 )
 override
 ;
-virtual
 void
 EnumerateVideoDevices
 (
@@ -1194,7 +1178,6 @@ MediaEngineVideoSource
 )
 override
 ;
-virtual
 void
 EnumerateAudioDevices
 (
