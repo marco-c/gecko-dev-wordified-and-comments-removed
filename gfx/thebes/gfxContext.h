@@ -1566,10 +1566,6 @@ Length
 ]
 ;
 }
-cairo_t
-*
-mRefCairo
-;
 RefPtr
 <
 DrawTarget
