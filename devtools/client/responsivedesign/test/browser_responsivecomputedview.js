@@ -242,14 +242,9 @@ inspector
 rdm
 )
 ;
-yield
-closeRDM
-(
-rdm
-)
-;
-yield
-closeToolbox
+gBrowser
+.
+removeCurrentTab
 (
 )
 ;

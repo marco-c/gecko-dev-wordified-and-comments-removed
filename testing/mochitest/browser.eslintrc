@@ -210,11 +210,6 @@ SpecialPowers
 :
 false
 "
-thisTestLeaksUncaughtRejectionsAndShouldBeFixed
-"
-:
-false
-"
 todo
 "
 :
