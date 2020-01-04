@@ -274,6 +274,12 @@ CONFIG
 ANDROID_SUPPORT_V4_AAR_INTERNAL_LIB
 '
 ]
+CONFIG
+[
+'
+ANDROID_APPCOMPAT_V7_AAR_LIB
+'
+]
 ]
 if
 CONFIG
@@ -317,6 +323,7 @@ java
 constants_jar
 .
 extra_jars
++
 =
 [
 '
