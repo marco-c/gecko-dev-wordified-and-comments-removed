@@ -916,6 +916,11 @@ DOMStringList
 h
 '
 '
+DOMTokenListSupportedTokens
+.
+h
+'
+'
 Element
 .
 h

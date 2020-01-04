@@ -79,6 +79,9 @@ aElement
 nsIAtom
 *
 aAttrAtom
+const
+DOMTokenListSupportedTokenArray
+aSupportedTokens
 )
 :
 mElement
@@ -88,6 +91,10 @@ aElement
 mAttrAtom
 (
 aAttrAtom
+)
+mSupportedTokens
+(
+aSupportedTokens
 )
 {
 }
