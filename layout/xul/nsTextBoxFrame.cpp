@@ -1930,6 +1930,9 @@ getter_AddRefs
 (
 fontMet
 )
+1
+.
+0f
 )
 ;
 fontMet
@@ -2877,6 +2880,9 @@ getter_AddRefs
 (
 fm
 )
+1
+.
+0f
 )
 ;
 nscoord
@@ -4221,6 +4227,9 @@ getter_AddRefs
 (
 fontMet
 )
+1
+.
+0f
 )
 ;
 nsBoundingMetrics
@@ -4500,6 +4509,9 @@ getter_AddRefs
 (
 fontMet
 )
+1
+.
+0f
 )
 ;
 aSize

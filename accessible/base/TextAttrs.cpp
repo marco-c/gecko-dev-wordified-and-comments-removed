@@ -2006,6 +2006,9 @@ getter_AddRefs
 (
 fm
 )
+1
+.
+0f
 )
 ;
 gfxFontGroup
@@ -2657,6 +2660,9 @@ getter_AddRefs
 (
 fm
 )
+1
+.
+0f
 )
 ;
 gfxFontGroup
