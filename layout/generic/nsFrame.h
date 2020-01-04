@@ -2306,6 +2306,11 @@ nsBoxLayoutState
 aState
 )
 ;
+bool
+HasCSSAnimations
+(
+)
+;
 #
 ifdef
 DEBUG_FRAME_DUMP
