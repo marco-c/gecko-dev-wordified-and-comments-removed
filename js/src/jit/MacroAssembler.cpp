@@ -11906,6 +11906,13 @@ profilerCallSites_
 i
 ]
 ;
+offset
+.
+fixup
+(
+this
+)
+;
 CodeLocationLabel
 location
 (
@@ -13710,6 +13717,13 @@ hasSelfReference
 )
 )
 {
+selfReferencePatch_
+.
+fixup
+(
+this
+)
+;
 PatchDataWithValueCheck
 (
 CodeLocationLabel
