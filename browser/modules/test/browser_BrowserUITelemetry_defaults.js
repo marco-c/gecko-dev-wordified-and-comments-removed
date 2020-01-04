@@ -55,6 +55,14 @@ BrowserUITelemetry
 =
 s
 ;
+if
+(
+!
+AppConstants
+.
+MOZ_DEV_EDITION
+)
+{
 Assert
 .
 ok
@@ -78,6 +86,7 @@ state
 "
 )
 ;
+}
 let
 result
 =
@@ -89,6 +98,14 @@ window
 0
 )
 ;
+if
+(
+!
+AppConstants
+.
+MOZ_DEV_EDITION
+)
+{
 Assert
 .
 deepEqual
@@ -100,6 +117,7 @@ defaultMoved
 ]
 )
 ;
+}
 Assert
 .
 deepEqual
