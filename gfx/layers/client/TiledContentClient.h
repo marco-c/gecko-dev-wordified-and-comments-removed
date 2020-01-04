@@ -147,6 +147,17 @@ mozilla
 /
 layers
 /
+LayersTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 TextureClient
 .
 h
@@ -891,6 +902,8 @@ std
 stringstream
 &
 aStream
+TextureDumpMode
+aCompress
 )
 {
 CompositableClient
@@ -900,6 +913,7 @@ DumpTextureClient
 (
 aStream
 mFrontBuffer
+aCompress
 )
 ;
 }
@@ -1338,6 +1352,8 @@ char
 aPrefix
 bool
 aDumpHtml
+TextureDumpMode
+aCompress
 )
 {
 }
@@ -1661,6 +1677,8 @@ char
 aPrefix
 bool
 aDumpHtml
+TextureDumpMode
+aCompress
 )
 override
 {
@@ -1672,6 +1690,7 @@ Dump
 aStream
 aPrefix
 aDumpHtml
+aCompress
 )
 ;
 }
@@ -1938,7 +1957,15 @@ bool
 aDumpHtml
 =
 false
+TextureDumpMode
+aCompress
+=
+TextureDumpMode
+:
+:
+Compress
 )
+override
 ;
 virtual
 TextureInfo

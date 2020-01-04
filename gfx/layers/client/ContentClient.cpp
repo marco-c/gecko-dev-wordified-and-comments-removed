@@ -1903,6 +1903,14 @@ char
 aPrefix
 bool
 aDumpHtml
+TextureDumpMode
+aCompress
+)
+{
+if
+(
+!
+aDumpHtml
 )
 {
 aStream
@@ -1922,6 +1930,7 @@ Surface
 :
 "
 ;
+}
 CompositableClient
 :
 :
@@ -1929,6 +1938,7 @@ DumpTextureClient
 (
 aStream
 mTextureClient
+aCompress
 )
 ;
 }
@@ -1950,6 +1960,8 @@ char
 aPrefix
 bool
 aDumpHtml
+TextureDumpMode
+aCompress
 )
 {
 if
@@ -1983,6 +1995,7 @@ DumpTextureClient
 (
 aStream
 mFrontClient
+aCompress
 )
 ;
 }

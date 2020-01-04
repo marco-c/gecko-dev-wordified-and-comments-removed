@@ -3027,6 +3027,10 @@ Dump
 aStream
 aPrefix
 aDumpHtml
+TextureDumpMode
+:
+:
+DoNotCompress
 )
 ;
 }

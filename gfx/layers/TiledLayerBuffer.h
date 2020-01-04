@@ -48,6 +48,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+LayersTypes
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h
@@ -724,6 +735,8 @@ char
 aPrefix
 bool
 aDumpHtml
+TextureDumpMode
+aCompress
 )
 ;
 protected
@@ -789,6 +802,8 @@ char
 aPrefix
 bool
 aDumpHtml
+TextureDumpMode
+aCompress
 )
 {
 for
@@ -895,6 +910,7 @@ i
 DumpTexture
 (
 aStream
+aCompress
 )
 ;
 }

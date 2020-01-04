@@ -967,6 +967,13 @@ return
 a
 ;
 }
+enum
+TextureDumpMode
+{
+Compress
+DoNotCompress
+}
+;
 }
 }
 #

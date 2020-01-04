@@ -506,6 +506,7 @@ std
 stringstream
 &
 aStream
+TextureDumpMode
 )
 {
 CompositableHost
