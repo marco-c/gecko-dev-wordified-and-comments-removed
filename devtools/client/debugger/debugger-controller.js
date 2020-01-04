@@ -1628,6 +1628,15 @@ fetchEventListeners
 }
 )
 ;
+if
+(
+this
+.
+_target
+.
+isTabActor
+)
+{
 this
 .
 Workers
@@ -1636,6 +1645,7 @@ connect
 (
 )
 ;
+}
 this
 .
 ThreadState
