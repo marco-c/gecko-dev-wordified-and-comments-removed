@@ -476,6 +476,11 @@ nsIAttribute
 h
 '
 '
+nsIConsoleReportCollector
+.
+h
+'
+'
 nsIContent
 .
 h
@@ -750,6 +755,11 @@ mozilla
 +
 =
 [
+'
+ConsoleReportCollector
+.
+h
+'
 '
 CORSMode
 .
@@ -1131,6 +1141,11 @@ cpp
 '
 '
 Console
+.
+cpp
+'
+'
+ConsoleReportCollector
 .
 cpp
 '
