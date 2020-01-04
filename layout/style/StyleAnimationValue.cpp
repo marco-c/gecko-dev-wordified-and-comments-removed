@@ -1568,12 +1568,6 @@ GetSourceURL
 (
 )
 uriStringBuffer
-aUrl
--
->
-GetSourceURL
-(
-)
 aDoc
 -
 >

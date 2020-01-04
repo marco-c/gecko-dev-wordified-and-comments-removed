@@ -483,14 +483,6 @@ PtrHolder
 nsIURI
 >
 >
-aBaseURI
-already_AddRefed
-<
-PtrHolder
-<
-nsIURI
->
->
 aReferrer
 already_AddRefed
 <
@@ -515,7 +507,7 @@ aOther
 const
 ;
 bool
-DefinitelyEqualURIs
+URIEquals
 (
 const
 URLValueData
@@ -525,7 +517,7 @@ aOther
 const
 ;
 bool
-DefinitelyEqualURIsAndPrincipal
+MaybeUnresolvedURIEquals
 (
 const
 URLValueData
@@ -573,12 +565,6 @@ mURI
 ;
 public
 :
-PtrHandle
-<
-nsIURI
->
-mBaseURI
-;
 RefPtr
 <
 nsStringBuffer
@@ -661,9 +647,6 @@ aURI
 nsStringBuffer
 *
 aString
-nsIURI
-*
-aBaseURI
 nsIURI
 *
 aReferrer
@@ -783,9 +766,6 @@ aURI
 nsStringBuffer
 *
 aString
-nsIURI
-*
-aBaseURI
 nsIURI
 *
 aReferrer
