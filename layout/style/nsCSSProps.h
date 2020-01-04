@@ -963,6 +963,15 @@ CSS_PROPERTY_CAN_ANIMATE_ON_COMPOSITOR
 <
 27
 )
+#
+define
+CSS_PROPERTY_INTERNAL
+(
+1
+<
+<
+28
+)
 enum
 nsStyleAnimType
 {
