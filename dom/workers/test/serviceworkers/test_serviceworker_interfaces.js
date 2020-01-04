@@ -310,13 +310,7 @@ Notification
 nonReleaseB2G
 :
 true
-nonReleaseAndroid
-:
-true
 b2g
-:
-false
-android
 :
 false
 }
@@ -329,13 +323,7 @@ NotificationEvent
 nonReleaseB2G
 :
 true
-nonReleaseAndroid
-:
-true
 b2g
-:
-false
-android
 :
 false
 }
