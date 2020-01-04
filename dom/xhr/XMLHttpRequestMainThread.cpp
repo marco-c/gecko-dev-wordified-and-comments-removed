@@ -867,9 +867,9 @@ State
 :
 unsent
 )
-mFlagAsynchronous
+mFlagSynchronous
 (
-true
+false
 )
 mFlagAborted
 (
@@ -3070,8 +3070,7 @@ State
 unsent
 &
 &
-!
-mFlagAsynchronous
+mFlagSynchronous
 )
 {
 LogMessage
@@ -3096,8 +3095,7 @@ return
 }
 if
 (
-!
-mFlagAsynchronous
+mFlagSynchronous
 &
 &
 (
@@ -6020,8 +6018,9 @@ mFlagTimedOut
 =
 false
 ;
-mFlagAsynchronous
+mFlagSynchronous
 =
+!
 async
 ;
 nsCOMPtr
@@ -7505,7 +7504,8 @@ mUploadComplete
 mErrorLoad
 &
 &
-mFlagAsynchronous
+!
+mFlagSynchronous
 )
 {
 if
@@ -8019,8 +8019,7 @@ html
 {
 if
 (
-!
-mFlagAsynchronous
+mFlagSynchronous
 )
 {
 mWarnAboutSyncHtml
@@ -8475,7 +8474,8 @@ rv
 )
 &
 &
-mFlagAsynchronous
+!
+mFlagSynchronous
 &
 &
 HasListenersFor
@@ -11844,8 +11844,7 @@ true
 ;
 if
 (
-!
-mFlagAsynchronous
+mFlagSynchronous
 )
 {
 mFlagSyncLooping
@@ -12554,8 +12553,7 @@ aRv
 {
 if
 (
-!
-mFlagAsynchronous
+mFlagSynchronous
 &
 &
 mState
@@ -13231,7 +13229,8 @@ aBroadcast
 &
 &
 (
-mFlagAsynchronous
+!
+mFlagSynchronous
 |
 |
 aState
@@ -13569,8 +13568,7 @@ mProgressSinceLastProgressEvent
 mErrorLoad
 |
 |
-!
-mFlagAsynchronous
+mFlagSynchronous
 )
 {
 return
