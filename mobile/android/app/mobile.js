@@ -99,7 +99,7 @@ tabs
 .
 useCache
 "
-true
+false
 )
 ;
 pref
