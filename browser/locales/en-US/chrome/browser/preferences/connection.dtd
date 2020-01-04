@@ -378,10 +378,14 @@ v
 ENTITY
 socksRemoteDNS
 .
-label
+label2
 "
-Remote
+Proxy
 DNS
+when
+using
+SOCKS
+v5
 "
 >
 <
