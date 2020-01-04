@@ -328,13 +328,6 @@ indicator
 -
 anchor
 "
-class
-=
-"
-toolbarbutton
--
-icon
-"
 consumeanchor
 =
 "

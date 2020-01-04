@@ -8863,6 +8863,9 @@ chromeclass
 toolbar
 -
 additional
+badged
+-
+button
 "
 key
 =
