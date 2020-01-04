@@ -1757,13 +1757,12 @@ and
 FasterMake
 .
 if
-[
+test
 -
 n
 "
 MOZ_ARTIFACT_BUILDS
 "
-]
 ;
 then
 BUILD_BACKENDS
