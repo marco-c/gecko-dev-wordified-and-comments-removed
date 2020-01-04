@@ -482,17 +482,6 @@ bool
 aEnabled
 )
 ;
-bool
-IsComplete
-(
-)
-const
-;
-void
-SetComplete
-(
-)
-;
 CSSStyleSheet
 *
 GetParentSheet

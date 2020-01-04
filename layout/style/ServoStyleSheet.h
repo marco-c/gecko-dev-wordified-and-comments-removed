@@ -108,11 +108,6 @@ IsApplicable
 )
 const
 ;
-void
-SetComplete
-(
-)
-;
 bool
 HasRules
 (

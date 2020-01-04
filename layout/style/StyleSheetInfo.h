@@ -257,6 +257,10 @@ mPrincipalSet
 ;
 #
 endif
+friend
+class
+StyleSheet
+;
 }
 ;
 }
