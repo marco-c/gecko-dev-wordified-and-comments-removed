@@ -1616,7 +1616,7 @@ RefPtr
 <
 MediaDecoderReaderWrapper
 >
-mReaderWrapper
+mReader
 ;
 int64_t
 AudioEndTime
