@@ -222,14 +222,12 @@ MOZ_B2G
 BUILD_GTEST
 =
 endif
-ifeq
+ifneq
 (
+browser
 (
 MOZ_BUILD_APP
 )
-mobile
-/
-android
 )
 BUILD_GTEST
 =
