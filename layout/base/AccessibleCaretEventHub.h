@@ -408,11 +408,6 @@ mInitialized
 =
 false
 ;
-bool
-mUseAsyncPanZoom
-=
-false
-;
 State
 *
 mState
@@ -463,6 +458,10 @@ int32_t
 mActiveTouchId
 =
 kInvalidTouchId
+;
+static
+bool
+sUseLongTapInjector
 ;
 static
 const
