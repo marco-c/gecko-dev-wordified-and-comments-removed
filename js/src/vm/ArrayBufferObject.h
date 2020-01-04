@@ -2014,7 +2014,7 @@ HashMap
 JSObject
 *
 ViewVector
-DefaultHasher
+MovableCellHasher
 <
 JSObject
 *
