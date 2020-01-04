@@ -1667,7 +1667,7 @@ have
 a
 transition
 /
-animations
+animation
 collection
 for
 an
