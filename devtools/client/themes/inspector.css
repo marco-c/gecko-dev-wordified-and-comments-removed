@@ -341,11 +341,9 @@ inspector
 pane
 -
 toggle
->
-.
-toolbarbutton
--
-icon
+:
+:
+before
 {
 transform
 :
