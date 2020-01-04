@@ -1086,6 +1086,9 @@ PNK_YIELD_STAR
 case
 PNK_YIELD
 :
+case
+PNK_AWAIT
+:
 {
 MOZ_ASSERT
 (
@@ -2883,6 +2886,15 @@ pn_funbox
 -
 >
 generatorKind
+(
+)
+opn
+-
+>
+pn_funbox
+-
+>
+asyncKind
 (
 )
 )
