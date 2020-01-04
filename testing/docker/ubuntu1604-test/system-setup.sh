@@ -817,6 +817,15 @@ manifest
 .
 tt
 }
+.
+/
+setup
+/
+install
+-
+mercurial
+.
+sh
 pip
 install
 -
@@ -826,9 +835,6 @@ pip
 pip
 install
 virtualenv
-pip
-install
-mercurial
 #
 Install
 node
