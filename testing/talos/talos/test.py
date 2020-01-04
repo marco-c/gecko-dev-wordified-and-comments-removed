@@ -4108,10 +4108,6 @@ tppagecycles
 =
 25
     
-tpmozafterpaint
-=
-True
-    
 sps_profile_interval
 =
 1
