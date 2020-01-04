@@ -300,6 +300,12 @@ PROT_READ
 |
 PROT_EXEC
 ;
+#
+if
+defined
+(
+NON_WRITABLE_JIT_CODE
+)
 bool
 ExecutableAllocator
 :
@@ -315,11 +321,6 @@ ProtectionSetting
 setting
 )
 {
-MOZ_ASSERT
-(
-NON_WRITABLE_JIT_CODE
-)
-;
 MOZ_ASSERT
 (
 pageSize
@@ -408,6 +409,8 @@ FLAGS_RX
 )
 ;
 }
+#
+endif
 unsigned
 ExecutableAllocator
 :

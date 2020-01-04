@@ -1370,6 +1370,9 @@ ExecutableAllocator
 =
 delete
 ;
+#
+ifdef
+NON_WRITABLE_JIT_CODE
 MOZ_WARN_UNUSED_RESULT
 static
 bool
@@ -1381,6 +1384,8 @@ size_t
 ProtectionSetting
 )
 ;
+#
+endif
 void
 reprotectAll
 (

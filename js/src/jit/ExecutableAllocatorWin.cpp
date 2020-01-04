@@ -895,6 +895,12 @@ pageSize
 )
 ;
 }
+#
+if
+defined
+(
+NON_WRITABLE_JIT_CODE
+)
 bool
 ExecutableAllocator
 :
@@ -910,11 +916,6 @@ ProtectionSetting
 setting
 )
 {
-MOZ_ASSERT
-(
-NON_WRITABLE_JIT_CODE
-)
-;
 MOZ_ASSERT
 (
 pageSize
@@ -1012,6 +1013,8 @@ oldProtect
 )
 ;
 }
+#
+endif
 unsigned
 ExecutableAllocator
 :
