@@ -937,8 +937,6 @@ balrog_rules_to_lock
 10
         
 18
-        
-106
     
 ]
     
