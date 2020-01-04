@@ -109,7 +109,7 @@ box
 -
 model
 -
-infobar
+nodeinfobar
 -
 container
 "
@@ -172,7 +172,7 @@ box
 -
 model
 -
-infobar
+nodeinfobar
 -
 container
 "
