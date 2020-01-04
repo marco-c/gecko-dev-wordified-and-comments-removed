@@ -465,6 +465,8 @@ AccessibleCaretManager
 :
 UpdateCarets
 (
+UpdateCaretsHint
+aHint
 )
 {
 mCaretMode
@@ -498,6 +500,7 @@ Cursor
 :
 UpdateCaretsForCursorMode
 (
+aHint
 )
 ;
 break
@@ -510,6 +513,7 @@ Selection
 :
 UpdateCaretsForSelectionMode
 (
+aHint
 )
 ;
 break
@@ -522,6 +526,8 @@ AccessibleCaretManager
 :
 UpdateCaretsForCursorMode
 (
+UpdateCaretsHint
+aHint
 )
 {
 AC_LOG
@@ -681,6 +687,17 @@ PositionChangedResult
 :
 Changed
 :
+switch
+(
+aHint
+)
+{
+case
+UpdateCaretsHint
+:
+:
+Default
+:
 if
 (
 nsContentUtils
@@ -720,6 +737,17 @@ Appearance
 :
 NormalNotShown
 )
+;
+}
+break
+;
+case
+UpdateCaretsHint
+:
+:
+RespectOldAppearance
+:
+break
 ;
 }
 break
@@ -803,6 +831,8 @@ AccessibleCaretManager
 :
 UpdateCaretsForSelectionMode
 (
+UpdateCaretsHint
+aHint
 )
 {
 AC_LOG
@@ -2013,6 +2043,7 @@ s
 :
 UpdateCarets
 (
+RespectOldAppearance
 )
 "
 __FUNCTION__
@@ -2020,6 +2051,10 @@ __FUNCTION__
 ;
 UpdateCarets
 (
+UpdateCaretsHint
+:
+:
+RespectOldAppearance
 )
 ;
 }
