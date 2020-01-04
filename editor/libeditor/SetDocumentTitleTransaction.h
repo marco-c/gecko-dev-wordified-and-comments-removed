@@ -1,9 +1,9 @@
 #
 ifndef
-SetDocTitleTxn_h__
+SetDocumentTitleTransaction_h
 #
 define
-SetDocTitleTxn_h__
+SetDocumentTitleTransaction_h
 #
 include
 "
@@ -28,8 +28,12 @@ h
 class
 nsIHTMLEditor
 ;
+namespace
+mozilla
+{
 class
-SetDocTitleTxn
+SetDocumentTitleTransaction
+final
 :
 public
 EditTxn
@@ -48,7 +52,7 @@ nsAString
 aValue
 )
 ;
-SetDocTitleTxn
+SetDocumentTitleTransaction
 (
 )
 ;
@@ -98,5 +102,6 @@ mIsTransient
 ;
 }
 ;
+}
 #
 endif

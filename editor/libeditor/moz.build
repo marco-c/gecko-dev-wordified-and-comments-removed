@@ -338,7 +338,7 @@ PlaceholderTransaction
 cpp
 '
 '
-SetDocTitleTxn
+SetDocumentTitleTransaction
 .
 cpp
 '
