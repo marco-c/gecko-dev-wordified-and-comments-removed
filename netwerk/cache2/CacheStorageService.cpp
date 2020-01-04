@@ -580,6 +580,7 @@ Dispatch
 event
 )
 ;
+{
 mozilla
 :
 :
@@ -589,6 +590,9 @@ lock
 mLock
 )
 ;
+#
+ifdef
+NS_FREE_PERMANENT_DATA
 sGlobalEntryTables
 -
 >
@@ -599,10 +603,13 @@ Clear
 delete
 sGlobalEntryTables
 ;
+#
+endif
 sGlobalEntryTables
 =
 nullptr
 ;
+}
 LOG
 (
 (
@@ -646,6 +653,9 @@ Cancel
 )
 ;
 }
+#
+ifdef
+NS_FREE_PERMANENT_DATA
 Pool
 (
 false
@@ -690,6 +700,8 @@ Clear
 (
 )
 ;
+#
+endif
 }
 namespace
 {
