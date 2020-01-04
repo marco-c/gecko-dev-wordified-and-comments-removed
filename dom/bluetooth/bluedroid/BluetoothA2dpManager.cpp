@@ -2598,7 +2598,7 @@ NS_LITERAL_STRING
 (
 A2DP_STATUS_CHANGED_ID
 )
-deviceAddressStr
+mDeviceAddress
 mA2dpConnected
 )
 ;

@@ -749,7 +749,7 @@ type
 BluetoothValue
 :
 :
-TnsString
+TBluetoothAddress
 )
 ;
 MOZ_ASSERT
@@ -761,11 +761,15 @@ DefaultAdapterExists
 ;
 nsString
 addressToRemove
-=
+;
+AddressToString
+(
 aValue
 .
-get_nsString
+get_BluetoothAddress
 (
+)
+addressToRemove
 )
 ;
 uint32_t

@@ -65,7 +65,7 @@ nsAString
 &
 aName
 const
-nsAString
+BluetoothAddress
 &
 aAddress
 const
