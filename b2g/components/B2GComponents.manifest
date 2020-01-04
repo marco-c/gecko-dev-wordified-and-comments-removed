@@ -881,6 +881,9 @@ a9c4
 441417b15134
 }
 #
+ifndef
+MOZ_GRAPHENE
+#
 FilePicker
 .
 js
@@ -918,6 +921,8 @@ filepicker
 -
 e293efba3141
 }
+#
+endif
 #
 WebappsUpdateTimer
 .
