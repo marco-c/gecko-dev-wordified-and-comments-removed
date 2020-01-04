@@ -287,7 +287,12 @@ const
 void
 createBandLimitedTables
 (
+float
+fundamentalFrequency
 )
+;
+float
+m_lowestRequestedFundamentalFrequency
 ;
 nsTArray
 <
