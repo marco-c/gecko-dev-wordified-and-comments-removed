@@ -148,7 +148,7 @@ msvcrt
 static
 '
 )
-JS_PREFERENCE_FILES
+JS_PREFERENCE_PP_FILES
 +
 =
 [

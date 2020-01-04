@@ -64,7 +64,7 @@ export
 DIST_SUBDIR
 '
 )
-JS_PREFERENCE_FILES
+JS_PREFERENCE_PP_FILES
 +
 =
 [
@@ -78,6 +78,11 @@ b2g
 .
 js
 '
+]
+JS_PREFERENCE_FILES
++
+=
+[
 '
 /
 b2g
