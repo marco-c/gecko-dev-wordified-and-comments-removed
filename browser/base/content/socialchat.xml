@@ -852,6 +852,8 @@ mm
 addMessageListener
 (
 "
+Social
+:
 DOMTitleChanged
 "
 this
@@ -1870,6 +1872,8 @@ messageManager
 addMessageListener
 (
 "
+Social
+:
 DOMTitleChanged
 "
 content
@@ -2636,6 +2640,8 @@ name
 {
 case
 "
+Social
+:
 DOMTitleChanged
 "
 :
