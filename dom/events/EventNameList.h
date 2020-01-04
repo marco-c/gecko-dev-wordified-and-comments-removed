@@ -1347,7 +1347,7 @@ eBasicEventClass
 NON_IDL_EVENT
 (
 SVGZoom
-NS_SVG_ZOOM
+eSVGZoom
 EventNameType_None
 eSVGZoomEventClass
 )
@@ -1357,7 +1357,7 @@ MESSAGE_TO_EVENT
 NON_IDL_EVENT
 (
 zoom
-NS_SVG_ZOOM
+eSVGZoom
 EventNameType_SVGSVG
 eBasicEventClass
 )

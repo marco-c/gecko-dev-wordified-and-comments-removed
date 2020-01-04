@@ -2114,7 +2114,7 @@ InternalSVGZoomEvent
 svgZoomEvent
 (
 true
-NS_SVG_ZOOM
+eSVGZoom
 )
 ;
 presShell
