@@ -568,8 +568,6 @@ PrincipalHandle
 aPrincipalHandle
 bool
 aForceBlack
-TimeStamp
-aTimeStamp
 )
 {
 VideoChunk
@@ -580,13 +578,6 @@ AppendChunk
 (
 aDuration
 )
-;
-chunk
--
->
-mTimeStamp
-=
-aTimeStamp
 ;
 VideoFrame
 frame
