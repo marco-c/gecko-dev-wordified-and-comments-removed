@@ -541,6 +541,17 @@ profiling
 '
 dmd
 )
+imply_option
+(
+'
+-
+-
+enable
+-
+jemalloc
+'
+dmd
+)
 #
 Javascript
 engine

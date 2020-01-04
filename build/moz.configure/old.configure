@@ -1659,13 +1659,6 @@ tests
 -
 enable
 -
-jemalloc
-'
-'
--
--
-enable
--
 jitspew
 '
 '
