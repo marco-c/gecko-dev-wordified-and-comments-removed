@@ -184,6 +184,7 @@ focused
 ;
 [
 Throws
+NewObject
 ]
 Promise
 <
