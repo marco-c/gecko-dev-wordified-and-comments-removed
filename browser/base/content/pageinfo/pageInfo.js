@@ -2367,6 +2367,13 @@ documentURIObject
 originCharset
 )
 ;
+let
+principal
+=
+docInfo
+.
+principal
+;
 gDocInfo
 =
 docInfo
@@ -2455,6 +2462,7 @@ feeds
 onLoadPermission
 (
 uri
+principal
 )
 ;
 securityOnLoad
