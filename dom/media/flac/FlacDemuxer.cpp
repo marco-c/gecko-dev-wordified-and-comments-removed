@@ -2915,10 +2915,7 @@ InitPromise
 :
 CreateAndReject
 (
-DemuxerFailureReason
-:
-:
-DEMUXER_ERROR
+NS_ERROR_DOM_MEDIA_DEMUXER_ERR
 __func__
 )
 ;
@@ -4326,10 +4323,7 @@ SamplesPromise
 :
 CreateAndReject
 (
-DemuxerFailureReason
-:
-:
-DEMUXER_ERROR
+NS_ERROR_DOM_MEDIA_DEMUXER_ERR
 __func__
 )
 ;
@@ -4454,10 +4448,7 @@ SamplesPromise
 :
 CreateAndReject
 (
-DemuxerFailureReason
-:
-:
-END_OF_STREAM
+NS_ERROR_DOM_MEDIA_END_OF_STREAM
 __func__
 )
 ;
@@ -4570,10 +4561,7 @@ CreateAndReject
 (
 SkipFailureHolder
 (
-DemuxerFailureReason
-:
-:
-DEMUXER_ERROR
+NS_ERROR_DOM_MEDIA_DEMUXER_ERR
 0
 )
 __func__

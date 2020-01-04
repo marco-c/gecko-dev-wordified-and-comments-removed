@@ -125,6 +125,9 @@ class
 MediaRawData
 ;
 class
+MediaResult
+;
+class
 MediaSourceDemuxer
 ;
 class
@@ -921,7 +924,9 @@ nsresult
 void
 OnDemuxerInitFailed
 (
-DemuxerFailureReason
+const
+MediaResult
+&
 aFailure
 )
 ;
@@ -948,8 +953,10 @@ OnDemuxFailed
 (
 TrackType
 aTrack
-DemuxerFailureReason
-aFailure
+const
+MediaResult
+&
+aError
 )
 ;
 void
@@ -973,8 +980,10 @@ aSamples
 void
 OnVideoDemuxFailed
 (
-DemuxerFailureReason
-aFailure
+const
+MediaResult
+&
+aError
 )
 {
 mVideoTracks
@@ -991,7 +1000,7 @@ TrackType
 :
 :
 kVideoTrack
-aFailure
+aError
 )
 ;
 }
@@ -1016,8 +1025,10 @@ aSamples
 void
 OnAudioDemuxFailed
 (
-DemuxerFailureReason
-aFailure
+const
+MediaResult
+&
+aError
 )
 {
 mAudioTracks
@@ -1034,7 +1045,7 @@ TrackType
 :
 :
 kAudioTrack
-aFailure
+aError
 )
 ;
 }
