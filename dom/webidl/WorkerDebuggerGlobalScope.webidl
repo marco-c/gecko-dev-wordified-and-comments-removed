@@ -114,6 +114,9 @@ attribute
 object
 global
 ;
+[
+Throws
+]
 object
 createSandbox
 (

@@ -1119,6 +1119,9 @@ JSObject
 *
 >
 aResult
+ErrorResult
+&
+aRv
 )
 ;
 void
