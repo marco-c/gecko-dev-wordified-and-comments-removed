@@ -40542,6 +40542,16 @@ pref
 "
 reader
 .
+line_height
+"
+4
+)
+;
+pref
+(
+"
+reader
+.
 color_scheme
 "
 "

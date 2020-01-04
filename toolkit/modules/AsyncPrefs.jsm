@@ -158,6 +158,11 @@ reader
 .
 content_width
 "
+"
+reader
+.
+line_height
+"
 ]
 )
 ;
