@@ -2437,6 +2437,9 @@ mFlagDeleted
 bool
 mFlagSend
 ;
+bool
+mSendExtraLoadingEvents
+;
 RefPtr
 <
 XMLHttpRequestUpload

@@ -40180,6 +40180,16 @@ true
 pref
 (
 "
+dom
+.
+fire_extra_xhr_loading_readystatechanges
+"
+false
+)
+;
+pref
+(
+"
 urlclassifier
 .
 malwareTable
