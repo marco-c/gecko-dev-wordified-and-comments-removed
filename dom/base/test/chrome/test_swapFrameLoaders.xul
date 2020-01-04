@@ -273,13 +273,6 @@ waitForExplicitFinish
 (
 )
 ;
-SimpleTest
-.
-requestLongerTimeout
-(
-100
-)
-;
 window
 .
 open

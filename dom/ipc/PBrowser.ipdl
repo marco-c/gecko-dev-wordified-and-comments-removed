@@ -166,6 +166,9 @@ URIParams
 include
 BrowserConfiguration
 ;
+include
+PTabContext
+;
 using
 class
 IPC
@@ -4407,6 +4410,8 @@ another
 async
 SwappedWithOtherRemoteLoader
 (
+IPCTabContext
+context
 )
 ;
 /

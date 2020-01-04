@@ -205,6 +205,15 @@ nsACString
 aSignedPkgOriginNoSuffix
 )
 ;
+bool
+UpdateTabContextAfterSwap
+(
+const
+TabContext
+&
+aContext
+)
+;
 private
 :
 bool
