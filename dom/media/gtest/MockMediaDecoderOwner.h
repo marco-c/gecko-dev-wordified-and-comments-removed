@@ -230,6 +230,15 @@ ResetConnectionState
 override
 {
 }
+void
+NotifyAudibleStateChanged
+(
+bool
+aAudible
+)
+override
+{
+}
 }
 ;
 }
