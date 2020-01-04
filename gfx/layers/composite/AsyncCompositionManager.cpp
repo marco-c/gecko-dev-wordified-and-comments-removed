@@ -3772,9 +3772,6 @@ aLayer
 bool
 *
 aOutFoundRoot
-ClipPartsCache
-&
-aClipPartsCache
 )
 {
 bool
@@ -3793,6 +3790,9 @@ ParentLayerIntRect
 >
 >
 stackDeferredClips
+;
+ClipPartsCache
+clipPartsCache
 ;
 ForEachNode
 <
@@ -3832,7 +3832,7 @@ stackDeferredClips
 &
 appliedTransform
 &
-aClipPartsCache
+clipPartsCache
 ]
 (
 Layer
@@ -3887,7 +3887,7 @@ ClipParts
 &
 clipParts
 =
-aClipPartsCache
+clipPartsCache
 [
 layer
 ]
@@ -4345,12 +4345,11 @@ clipParts
 mFixedClip
 )
 {
+*
 clipParts
 .
 mFixedClip
 =
-Some
-(
 TransformBy
 (
 asyncTransform
@@ -4358,7 +4357,6 @@ asyncTransform
 clipParts
 .
 mFixedClip
-)
 )
 ;
 }
@@ -4369,12 +4367,11 @@ clipParts
 mScrolledClip
 )
 {
+*
 clipParts
 .
 mScrolledClip
 =
-Some
-(
 TransformBy
 (
 asyncTransform
@@ -4382,7 +4379,6 @@ asyncTransform
 clipParts
 .
 mScrolledClip
-)
 )
 ;
 }
@@ -4423,7 +4419,7 @@ oldTransform
 transformWithoutOverscrollOrOmta
 fixedLayerMargins
 &
-aClipPartsCache
+clipPartsCache
 )
 ;
 if
@@ -6322,9 +6318,6 @@ APZ
 )
 )
 {
-ClipPartsCache
-clipPartsCache
-;
 bool
 foundRoot
 =
@@ -6337,7 +6330,6 @@ ApplyAsyncContentTransformToTree
 root
 &
 foundRoot
-clipPartsCache
 )
 )
 {

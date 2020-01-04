@@ -487,9 +487,6 @@ aLayer
 bool
 *
 aOutFoundRoot
-ClipPartsCache
-&
-aClipPartsCache
 )
 ;
 void
