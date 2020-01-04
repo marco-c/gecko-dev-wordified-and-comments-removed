@@ -340,7 +340,7 @@ appContext
 FragmentManager
 fm
 final
-FirstrunPane
+FirstrunAnimationContainer
 .
 OnFinishListener
 onFinishListener

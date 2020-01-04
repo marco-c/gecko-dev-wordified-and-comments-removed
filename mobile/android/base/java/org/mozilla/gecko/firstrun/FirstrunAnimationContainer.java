@@ -113,7 +113,7 @@ TransitionsTracker
 ;
 public
 class
-FirstrunPane
+FirstrunAnimationContainer
 extends
 LinearLayout
 {
@@ -152,7 +152,7 @@ OnFinishListener
 onFinishListener
 ;
 public
-FirstrunPane
+FirstrunAnimationContainer
 (
 Context
 context
@@ -166,7 +166,7 @@ null
 ;
 }
 public
-FirstrunPane
+FirstrunAnimationContainer
 (
 Context
 context
@@ -350,7 +350,7 @@ Animator
 animation
 )
 {
-FirstrunPane
+FirstrunAnimationContainer
 .
 this
 .

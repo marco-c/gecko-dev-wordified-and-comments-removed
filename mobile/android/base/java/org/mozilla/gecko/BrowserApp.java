@@ -227,7 +227,7 @@ gecko
 .
 firstrun
 .
-FirstrunPane
+FirstrunAnimationContainer
 ;
 import
 org
@@ -1566,8 +1566,8 @@ ToolbarProgressView
 mProgressView
 ;
 private
-FirstrunPane
-mFirstrunPane
+FirstrunAnimationContainer
+mFirstrunAnimationContainer
 ;
 private
 HomePager
@@ -4524,7 +4524,7 @@ prefs
 .
 getBoolean
 (
-FirstrunPane
+FirstrunAnimationContainer
 .
 PREF_FIRSTRUN_ENABLED
 false
@@ -4561,7 +4561,7 @@ edit
 .
 putBoolean
 (
-FirstrunPane
+FirstrunAnimationContainer
 .
 PREF_FIRSTRUN_ENABLED
 false
@@ -11436,13 +11436,13 @@ isFirstrunVisible
 {
 return
 (
-mFirstrunPane
+mFirstrunAnimationContainer
 !
 =
 null
 &
 &
-mFirstrunPane
+mFirstrunAnimationContainer
 .
 isVisible
 (
@@ -12754,7 +12754,7 @@ showFirstrunPager
 {
 if
 (
-mFirstrunPane
+mFirstrunAnimationContainer
 =
 =
 null
@@ -12776,10 +12776,10 @@ id
 firstrun_pager_stub
 )
 ;
-mFirstrunPane
+mFirstrunAnimationContainer
 =
 (
-FirstrunPane
+FirstrunAnimationContainer
 )
 firstrunPagerStub
 .
@@ -12787,7 +12787,7 @@ inflate
 (
 )
 ;
-mFirstrunPane
+mFirstrunAnimationContainer
 .
 load
 (
@@ -12799,12 +12799,12 @@ getSupportFragmentManager
 )
 )
 ;
-mFirstrunPane
+mFirstrunAnimationContainer
 .
 registerOnFinishListener
 (
 new
-FirstrunPane
+FirstrunAnimationContainer
 .
 OnFinishListener
 (
@@ -12819,7 +12819,7 @@ onFinish
 {
 if
 (
-mFirstrunPane
+mFirstrunAnimationContainer
 .
 showBrowserHint
 (
@@ -13229,7 +13229,7 @@ return
 false
 ;
 }
-mFirstrunPane
+mFirstrunAnimationContainer
 .
 hide
 (

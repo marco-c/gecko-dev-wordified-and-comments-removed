@@ -2074,6 +2074,13 @@ java
 '
 firstrun
 /
+FirstrunAnimationContainer
+.
+java
+'
+'
+firstrun
+/
 FirstrunPager
 .
 java
@@ -2082,13 +2089,6 @@ java
 firstrun
 /
 FirstrunPagerConfig
-.
-java
-'
-'
-firstrun
-/
-FirstrunPane
 .
 java
 '

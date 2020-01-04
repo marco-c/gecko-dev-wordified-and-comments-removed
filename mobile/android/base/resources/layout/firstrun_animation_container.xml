@@ -87,7 +87,7 @@ gecko
 .
 firstrun
 .
-FirstrunPane
+FirstrunAnimationContainer
 xmlns
 :
 android
@@ -307,5 +307,5 @@ gecko
 .
 firstrun
 .
-FirstrunPane
+FirstrunAnimationContainer
 >

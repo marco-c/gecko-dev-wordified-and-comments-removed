@@ -213,7 +213,7 @@ gecko
 .
 firstrun
 .
-FirstrunPane
+FirstrunAnimationContainer
 ;
 import
 org
@@ -4092,7 +4092,7 @@ edit
 .
 putBoolean
 (
-FirstrunPane
+FirstrunAnimationContainer
 .
 PREF_FIRSTRUN_ENABLED
 true
