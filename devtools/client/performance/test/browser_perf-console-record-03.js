@@ -1,8 +1,3 @@
-var
-WAIT_TIME
-=
-10
-;
 function
 *
 spawnTest
@@ -117,9 +112,14 @@ performance
 let
 panel
 =
+yield
 toolbox
 .
 getCurrentPanel
+(
+)
+.
+open
 (
 )
 ;

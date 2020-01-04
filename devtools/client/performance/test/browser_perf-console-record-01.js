@@ -98,9 +98,14 @@ performance
 let
 panel
 =
+yield
 toolbox
 .
 getCurrentPanel
+(
+)
+.
+open
 (
 )
 ;
