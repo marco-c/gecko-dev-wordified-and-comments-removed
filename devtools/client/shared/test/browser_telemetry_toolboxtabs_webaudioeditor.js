@@ -81,7 +81,7 @@ true
 )
 ;
 yield
-promiseTab
+addTab
 (
 TEST_URI
 )

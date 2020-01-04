@@ -112,13 +112,16 @@ ignoreAllUncaughtExceptions
 addTab
 (
 TEST_URI
+)
+.
+then
+(
 openToolbar
 )
 ;
 function
 openToolbar
 (
-browser
 tab
 )
 {
@@ -297,6 +300,10 @@ ignoreAllUncaughtExceptions
 addTab
 (
 TEST_URI
+)
+.
+then
+(
 onOpenSecondTab
 )
 ;
@@ -308,7 +315,6 @@ onOpenSecondTab
 function
 onOpenSecondTab
 (
-browser
 tab
 )
 {

@@ -45,16 +45,6 @@ MdnDocsWidget
 )
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 MDN_DOCS_TOOLTIP_FRAME
 =
 "
@@ -250,7 +240,7 @@ TEST_URI_ROOT
 )
 ;
 yield
-promiseTab
+addTab
 (
 "
 about

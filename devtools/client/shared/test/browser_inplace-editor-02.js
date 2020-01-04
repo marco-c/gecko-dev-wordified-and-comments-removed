@@ -26,16 +26,6 @@ editor
 "
 )
 ;
-var
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
 add_task
 (
 function
@@ -44,7 +34,7 @@ function
 )
 {
 yield
-promiseTab
+addTab
 (
 "
 data
