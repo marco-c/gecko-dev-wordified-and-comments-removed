@@ -218,11 +218,6 @@ convolverRenderPhase
 +
 stagePhase
 ;
-bool
-useDirectConvolver
-=
-false
-;
 nsAutoPtr
 <
 ReverbConvolverStage
@@ -241,7 +236,6 @@ fftSize
 renderPhase
 &
 m_accumulationBuffer
-useDirectConvolver
 )
 )
 ;

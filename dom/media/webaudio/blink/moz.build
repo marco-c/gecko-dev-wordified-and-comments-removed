@@ -103,11 +103,6 @@ Biquad
 cpp
 '
 '
-DirectConvolver
-.
-cpp
-'
-'
 DynamicsCompressor
 .
 cpp
