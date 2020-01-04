@@ -5721,10 +5721,8 @@ NPN_ReleaseObject
 scriptableObject
 )
 ;
-free
-(
+delete
 instanceData
-)
 ;
 return
 err
