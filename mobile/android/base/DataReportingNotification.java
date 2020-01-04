@@ -391,7 +391,7 @@ setResourceToOpen
 (
 prefIntent
 "
-preferences_vendor
+preferences_privacy
 "
 )
 ;

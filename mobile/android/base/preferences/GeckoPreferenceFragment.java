@@ -486,7 +486,7 @@ R
 .
 xml
 .
-preferences_vendor
+preferences_privacy
 )
 {
 return
@@ -496,7 +496,7 @@ R
 .
 string
 .
-pref_category_vendor
+pref_category_privacy_short
 )
 ;
 }
