@@ -1361,13 +1361,8 @@ flex
 tree
 -
 node
-:
-nth
 -
-child
-(
-2n
-)
+odd
 {
 background
 -
