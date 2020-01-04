@@ -81,6 +81,8 @@ commonjs
 node
 /
 os
+.
+js
 "
 )
 ;
@@ -736,6 +738,8 @@ getProfileLocation
 (
 )
 {
+try
+{
 let
 profd
 =
@@ -840,6 +844,17 @@ profd
 .
 leafName
 ;
+}
+catch
+(
+e
+)
+{
+return
+"
+"
+;
+}
 }
 function
 getAppIniString
