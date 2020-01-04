@@ -959,6 +959,17 @@ bottom
 )
 ;
 }
+let
+minTitlebarOrTabsHeight
+=
+Math
+.
+min
+(
+titlebarContentHeight
+tabAndMenuHeight
+)
+;
 titlebar
 .
 style
@@ -969,7 +980,7 @@ marginBottom
 -
 "
 +
-titlebarContentHeight
+minTitlebarOrTabsHeight
 +
 "
 px
