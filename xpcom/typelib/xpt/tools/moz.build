@@ -103,3 +103,15 @@ runtests
 py
 '
 ]
+SDK_FILES
+.
+bin
++
+=
+[
+'
+xpt
+.
+py
+'
+]
