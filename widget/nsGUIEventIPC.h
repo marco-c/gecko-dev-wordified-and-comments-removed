@@ -1885,7 +1885,7 @@ WriteParam
 aMsg
 aParam
 .
-isPrimary
+mIsPrimary
 )
 ;
 }
@@ -1994,7 +1994,7 @@ aIter
 aResult
 -
 >
-isPrimary
+mIsPrimary
 )
 ;
 return

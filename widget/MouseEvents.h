@@ -1954,7 +1954,7 @@ mHeight
 (
 0
 )
-isPrimary
+mIsPrimary
 (
 true
 )
@@ -2001,7 +2001,7 @@ mHeight
 (
 0
 )
-isPrimary
+mIsPrimary
 (
 true
 )
@@ -2028,7 +2028,7 @@ mHeight
 (
 0
 )
-isPrimary
+mIsPrimary
 (
 true
 )
@@ -2106,7 +2106,7 @@ uint32_t
 mHeight
 ;
 bool
-isPrimary
+mIsPrimary
 ;
 void
 AssignPointerEventData
@@ -2137,11 +2137,11 @@ aEvent
 .
 mHeight
 ;
-isPrimary
+mIsPrimary
 =
 aEvent
 .
-isPrimary
+mIsPrimary
 ;
 }
 }

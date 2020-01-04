@@ -16207,12 +16207,12 @@ mWidget
 newPointerEvent
 -
 >
-isPrimary
+mIsPrimary
 =
 sourcePointer
 -
 >
-isPrimary
+mIsPrimary
 ;
 newPointerEvent
 -

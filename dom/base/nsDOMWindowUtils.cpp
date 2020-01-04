@@ -3466,7 +3466,7 @@ aTiltY
 ;
 event
 .
-isPrimary
+mIsPrimary
 =
 (
 nsIDOMMouseEvent

@@ -30301,7 +30301,7 @@ inputSource
 pointerEvent
 -
 >
-isPrimary
+mIsPrimary
 )
 )
 ;
@@ -30359,7 +30359,7 @@ inputSource
 pointerEvent
 -
 >
-isPrimary
+mIsPrimary
 )
 )
 ;
@@ -32024,7 +32024,7 @@ mWidget
 ;
 event
 .
-isPrimary
+mIsPrimary
 =
 i
 =
