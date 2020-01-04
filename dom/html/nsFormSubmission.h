@@ -99,7 +99,7 @@ aValue
 ;
 virtual
 nsresult
-AddNameBlobOrNullPair
+AddNameBlobPair
 (
 const
 nsAString
@@ -322,7 +322,7 @@ override
 ;
 virtual
 nsresult
-AddNameBlobOrNullPair
+AddNameBlobPair
 (
 const
 nsAString
