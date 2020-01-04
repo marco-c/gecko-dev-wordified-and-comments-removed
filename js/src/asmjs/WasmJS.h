@@ -118,7 +118,7 @@ fun
 ;
 extern
 uint32_t
-ExportedFunctionToExportIndex
+ExportedFunctionToIndex
 (
 JSFunction
 *
@@ -441,7 +441,7 @@ WasmInstanceObject
 >
 instanceObj
 uint32_t
-funcExportIndex
+funcIndex
 MutableHandleFunction
 fun
 )

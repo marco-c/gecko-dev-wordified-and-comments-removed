@@ -2594,7 +2594,7 @@ JSContext
 *
 cx
 uint32_t
-funcExportIndex
+funcIndex
 CallArgs
 args
 )
@@ -2602,15 +2602,15 @@ args
 const
 FuncExport
 &
-fe
+func
 =
 metadata_
 -
 >
-funcExports
-[
-funcExportIndex
-]
+lookupFuncExport
+(
+funcIndex
+)
 ;
 if
 (
@@ -2675,7 +2675,7 @@ size_t
 >
 (
 1
-fe
+func
 .
 sig
 (
@@ -2709,7 +2709,7 @@ i
 ;
 i
 <
-fe
+func
 .
 sig
 (
@@ -2749,7 +2749,7 @@ UndefinedValue
 ;
 switch
 (
-fe
+func
 .
 sig
 (
@@ -3253,7 +3253,7 @@ code
 (
 )
 +
-fe
+func
 .
 stubOffset
 (
@@ -3349,7 +3349,7 @@ nullptr
 ;
 switch
 (
-fe
+func
 .
 sig
 (

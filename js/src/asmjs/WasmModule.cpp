@@ -651,7 +651,7 @@ Export
 UniqueChars
 fieldName
 uint32_t
-funcExportIndex
+funcIndex
 )
 :
 fieldName_
@@ -673,9 +673,9 @@ Function
 ;
 pod
 .
-funcExportIndex_
+funcIndex_
 =
-funcExportIndex
+funcIndex
 ;
 }
 Export
@@ -705,7 +705,7 @@ kind
 ;
 pod
 .
-funcExportIndex_
+funcIndex_
 =
 0
 ;
@@ -714,7 +714,7 @@ uint32_t
 Export
 :
 :
-funcExportIndex
+funcIndex
 (
 )
 const
@@ -735,7 +735,7 @@ Function
 return
 pod
 .
-funcExportIndex_
+funcIndex_
 ;
 }
 size_t
@@ -2177,7 +2177,7 @@ exports
 0
 ]
 .
-funcExportIndex
+funcIndex
 (
 )
 &
@@ -2312,7 +2312,7 @@ cx
 instanceObj
 exp
 .
-funcExportIndex
+funcIndex
 (
 )
 &
@@ -2790,7 +2790,7 @@ cx
 metadata_
 -
 >
-startFuncExportIndex
+startFuncIndex
 (
 )
 args
