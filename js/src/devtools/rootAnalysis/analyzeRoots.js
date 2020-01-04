@@ -4034,7 +4034,6 @@ id
 of
 allRAIIGuardedCallPoints
 (
-functionBodies
 body
 isSuppressConstructor
 )

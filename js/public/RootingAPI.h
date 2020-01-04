@@ -70,15 +70,6 @@ include
 "
 js
 /
-GCAnnotations
-.
-h
-"
-#
-include
-"
-js
-/
 GCAPI
 .
 h
@@ -2890,7 +2881,6 @@ Rooted
 delete
 ;
 }
-JS_HAZ_ROOTED
 ;
 }
 namespace
@@ -4395,7 +4385,6 @@ MaybeWrapped
 ptr
 ;
 }
-JS_HAZ_ROOTED
 ;
 class
 JS_PUBLIC_API
