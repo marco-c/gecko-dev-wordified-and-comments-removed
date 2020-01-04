@@ -3852,14 +3852,6 @@ isVerifyPreBarriersEnabled
 zone
 -
 >
-isGCScheduled
-(
-)
-|
-|
-zone
--
->
 wasGCStarted
 (
 )
