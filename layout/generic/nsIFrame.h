@@ -6582,7 +6582,7 @@ NS_STATE_IS_HORIZONTAL
 ;
 }
 bool
-IsNormalDirection
+IsXULNormalDirection
 (
 )
 const

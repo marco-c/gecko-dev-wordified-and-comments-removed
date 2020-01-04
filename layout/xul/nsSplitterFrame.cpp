@@ -3352,7 +3352,7 @@ if
 mParentBox
 -
 >
-IsNormalDirection
+IsXULNormalDirection
 (
 )
 )
