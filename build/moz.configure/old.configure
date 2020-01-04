@@ -2175,11 +2175,6 @@ zipwriter
 '
 -
 -
-host
-'
-'
--
--
 no
 -
 create
@@ -2188,11 +2183,6 @@ create
 -
 -
 prefix
-'
-'
--
--
-target
 '
 '
 -
