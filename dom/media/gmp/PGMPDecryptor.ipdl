@@ -173,6 +173,10 @@ child
 async
 Init
 (
+bool
+aDistinctiveIdentifierRequired
+bool
+aPersistentStateRequired
 )
 ;
 async
