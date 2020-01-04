@@ -1812,6 +1812,12 @@ Layer
 nsStyleImage
 mImage
 ;
+nsCOMPtr
+<
+nsIURI
+>
+mSourceURI
+;
 Position
 mPosition
 ;
@@ -13463,12 +13469,6 @@ nsTArray
 nsStyleFilter
 >
 mFilters
-;
-nsCOMPtr
-<
-nsIURI
->
-mMask
 ;
 nscolor
 mStopColor

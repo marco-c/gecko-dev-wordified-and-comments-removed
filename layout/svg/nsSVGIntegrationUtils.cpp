@@ -516,10 +516,7 @@ HasFilters
 )
 |
 |
-style
--
->
-mMask
+hasValidLayers
 |
 |
 (
@@ -535,9 +532,6 @@ GetType
 =
 NS_STYLE_CLIP_PATH_NONE
 )
-|
-|
-hasValidLayers
 )
 ;
 }
