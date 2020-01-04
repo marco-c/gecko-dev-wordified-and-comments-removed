@@ -3664,6 +3664,12 @@ _addObservers
 (
 )
 ;
+this
+.
+_updateGraphicsFeatures
+(
+)
+;
 return
 this
 .
@@ -4394,7 +4400,7 @@ COMPOSITOR_CREATED_TOPIC
 :
 this
 .
-_onCompositorCreated
+_updateGraphicsFeatures
 (
 )
 ;
@@ -4680,7 +4686,7 @@ oldEnvironment
 )
 ;
 }
-_onCompositorCreated
+_updateGraphicsFeatures
 :
 function
 (
