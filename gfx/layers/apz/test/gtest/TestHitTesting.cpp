@@ -1169,6 +1169,15 @@ APZHitTestingTester
 HitTesting2
 )
 {
+SCOPED_GFX_PREF
+(
+APZVelocityBias
+float
+0
+.
+0
+)
+;
 CreateHitTesting2LayerTree
 (
 )

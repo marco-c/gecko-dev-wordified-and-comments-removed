@@ -12704,11 +12704,6 @@ height
 displayPort
 =
 displayPort
-.
-MoveInsideAndClamp
-(
-scrollableRect
-)
 -
 scrollOffset
 ;
