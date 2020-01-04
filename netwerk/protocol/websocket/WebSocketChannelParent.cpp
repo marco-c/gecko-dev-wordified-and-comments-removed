@@ -354,6 +354,11 @@ goto
 fail
 ;
 }
+if
+(
+loadInfo
+)
+{
 rv
 =
 loadInfo
@@ -383,6 +388,14 @@ attrs
 .
 mAppId
 ;
+}
+else
+{
+appId
+=
+NECKO_UNKNOWN_APP_ID
+;
+}
 if
 (
 appId
