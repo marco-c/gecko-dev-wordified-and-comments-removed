@@ -23094,11 +23094,14 @@ spec
 catch
 (
 ex
+)
+{
 if
+(
 ex
 .
 result
-=
+!
 =
 Components
 .
@@ -23107,6 +23110,10 @@ results
 NS_ERROR_NOT_INITIALIZED
 )
 {
+throw
+ex
+;
+}
 }
 }
 }

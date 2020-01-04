@@ -913,6 +913,7 @@ aEvent
 _power
 :
 function
+*
 GS__power
 (
 aArray
