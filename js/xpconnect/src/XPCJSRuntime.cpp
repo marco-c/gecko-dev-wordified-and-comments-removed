@@ -2530,6 +2530,9 @@ FastGetGlobalJSObject
 ;
 if
 (
+reflector
+&
+&
 JS
 :
 :
