@@ -278,6 +278,11 @@ mFFmpegFailedToLoad
 =
 false
 ;
+bool
+mGMPPDMFailedToStartup
+=
+false
+;
 }
 ;
 }
