@@ -55,9 +55,6 @@ define
 XRE_DONT_PROTECT_DLL_LOAD
 #
 define
-XRE_DONT_SUPPORT_XPSP2
-#
-define
 XRE_WANT_ENVIRON
 #
 include
