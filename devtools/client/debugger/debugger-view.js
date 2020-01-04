@@ -160,6 +160,14 @@ bottomleft
 "
 ;
 const
+FUNCTION_SEARCH_POPUP_POSITION
+=
+"
+topcenter
+bottomleft
+"
+;
+const
 RESIZE_REFRESH_RATE
 =
 50
