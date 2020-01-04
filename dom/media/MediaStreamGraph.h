@@ -2338,6 +2338,9 @@ aSourceTrack
 ProcessedMediaStream
 *
 aDest
+TrackID
+&
+aDestTrack
 uint16_t
 aInputNumber
 uint16_t
@@ -2355,6 +2358,10 @@ aSourceTrack
 mDest
 (
 aDest
+)
+mDestTrack
+(
+aDestTrack
 )
 mInputNumber
 (
@@ -2434,6 +2441,15 @@ GetDestination
 {
 return
 mDest
+;
+}
+TrackID
+GetDestinationTrackId
+(
+)
+{
+return
+mDestTrack
 ;
 }
 void
@@ -2608,6 +2624,9 @@ ProcessedMediaStream
 *
 mDest
 ;
+TrackID
+mDestTrack
+;
 const
 uint16_t
 mInputNumber
@@ -2669,6 +2688,10 @@ MediaStream
 aStream
 TrackID
 aTrackID
+=
+TRACK_ANY
+TrackID
+aDestTrackID
 =
 TRACK_ANY
 uint16_t
