@@ -10637,14 +10637,8 @@ listener
 .
 getElementValueOfCssProperty
 (
-{
 id
-:
-id
-propertyName
-:
 prop
-}
 )
 ;
 break
