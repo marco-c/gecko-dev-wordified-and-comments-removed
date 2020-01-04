@@ -20,11 +20,6 @@ Components
 utils
 ;
 const
-MAX_TIME_DIFFERENCE
-=
-3000
-;
-const
 ADDON1_SIZE
 =
 705
