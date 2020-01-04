@@ -540,11 +540,7 @@ plugins
 ;
 gTestBrowser
 .
-contentWindow
-.
-history
-.
-back
+goBack
 (
 )
 ;
