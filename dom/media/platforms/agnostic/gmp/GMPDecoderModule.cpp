@@ -345,6 +345,7 @@ wrapper
 Callback
 (
 )
+nullptr
 )
 )
 ;
@@ -479,6 +480,7 @@ wrapper
 Callback
 (
 )
+nullptr
 )
 )
 ;
