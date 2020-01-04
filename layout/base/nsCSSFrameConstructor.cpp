@@ -5879,15 +5879,11 @@ aDocument
 nsIPresShell
 *
 aPresShell
-nsStyleSet
-*
-aStyleSet
 )
 :
 nsFrameManager
 (
 aPresShell
-aStyleSet
 )
 mDocument
 (

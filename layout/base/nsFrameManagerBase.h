@@ -111,10 +111,6 @@ nsIPresShell
 MOZ_NON_OWNING_REF
 mPresShell
 ;
-nsStyleSet
-*
-mStyleSet
-;
 nsIFrame
 *
 mRootFrame

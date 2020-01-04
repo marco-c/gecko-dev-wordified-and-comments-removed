@@ -3901,7 +3901,6 @@ nsCSSFrameConstructor
 (
 mDocument
 this
-aStyleSet
 )
 ;
 mFrameManager
