@@ -415,6 +415,15 @@ imm
 )
 ;
 void
+ma_ctz
+(
+Register
+rd
+Register
+rs
+)
+;
+void
 ma_load
 (
 Register
