@@ -2193,7 +2193,7 @@ newCount
 ;
 static
 bool
-growSlotsStatic
+growSlotsDontReportOOM
 (
 ExclusiveContext
 *
