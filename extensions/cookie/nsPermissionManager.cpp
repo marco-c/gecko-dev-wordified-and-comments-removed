@@ -591,6 +591,15 @@ mPrivateBrowsingId
 ;
 attrs
 .
+mUserContextId
+=
+nsIScriptSecurityManager
+:
+:
+DEFAULT_USER_CONTEXT_ID
+;
+attrs
+.
 CreateSuffix
 (
 suffix
