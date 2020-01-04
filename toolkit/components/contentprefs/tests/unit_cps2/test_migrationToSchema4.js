@@ -380,6 +380,7 @@ tests
 =
 [
 function
+*
 testMigration
 (
 )

@@ -14,6 +14,7 @@ tests
 =
 [
 function
+*
 nonexistent
 (
 )
@@ -52,6 +53,7 @@ foo
 ;
 }
 function
+*
 domainsAll
 (
 )
@@ -251,6 +253,7 @@ undefined
 ;
 }
 function
+*
 domainsWithDate
 (
 )
@@ -431,6 +434,7 @@ foobar
 ;
 }
 function
+*
 privateBrowsing
 (
 )
@@ -709,6 +713,7 @@ undefined
 ;
 }
 function
+*
 erroneous
 (
 )
@@ -735,6 +740,7 @@ true
 ;
 }
 function
+*
 invalidateCache
 (
 )

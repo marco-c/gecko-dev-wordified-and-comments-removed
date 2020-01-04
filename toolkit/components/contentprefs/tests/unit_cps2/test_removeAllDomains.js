@@ -14,6 +14,7 @@ tests
 =
 [
 function
+*
 nonexistent
 (
 )
@@ -65,6 +66,7 @@ foo
 ;
 }
 function
+*
 domains
 (
 )
@@ -263,6 +265,7 @@ undefined
 ;
 }
 function
+*
 privateBrowsing
 (
 )
@@ -540,6 +543,7 @@ undefined
 ;
 }
 function
+*
 erroneous
 (
 )
@@ -566,6 +570,7 @@ true
 ;
 }
 function
+*
 invalidateCache
 (
 )

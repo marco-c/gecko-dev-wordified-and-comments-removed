@@ -14,6 +14,7 @@ tests
 =
 [
 function
+*
 observerForName_set
 (
 )
@@ -172,6 +173,7 @@ bar
 ;
 }
 function
+*
 observerForName_remove
 (
 )
@@ -424,6 +426,7 @@ bar
 ;
 }
 function
+*
 observerForName_removeByDomain
 (
 )
@@ -705,6 +708,7 @@ bar
 ;
 }
 function
+*
 observerForName_removeAllDomainsSince
 (
 )
@@ -929,6 +933,7 @@ foo
 ;
 }
 function
+*
 observerForName_removeAllDomains
 (
 )
@@ -1070,6 +1075,7 @@ bar
 ;
 }
 function
+*
 observerForName_removeByName
 (
 )
@@ -1266,6 +1272,7 @@ bar
 ;
 }
 function
+*
 removeObserverForName
 (
 )

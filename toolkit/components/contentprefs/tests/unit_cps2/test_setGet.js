@@ -14,6 +14,7 @@ tests
 =
 [
 function
+*
 get_nonexistent
 (
 )
@@ -47,6 +48,7 @@ undefined
 ;
 }
 function
+*
 isomorphicDomains
 (
 )
@@ -209,6 +211,7 @@ com
 ;
 }
 function
+*
 names
 (
 )
@@ -532,6 +535,7 @@ bar
 ;
 }
 function
+*
 subdomains
 (
 )
@@ -633,6 +637,7 @@ foo
 ;
 }
 function
+*
 privateBrowsing
 (
 )
@@ -937,6 +942,7 @@ foo
 ;
 }
 function
+*
 set_erroneous
 (
 )
@@ -1149,6 +1155,7 @@ true
 ;
 }
 function
+*
 get_erroneous
 (
 )
@@ -1320,6 +1327,7 @@ true
 ;
 }
 function
+*
 set_invalidateCache
 (
 )
@@ -1472,6 +1480,7 @@ yield
 ;
 }
 function
+*
 get_nameOnly
 (
 )
@@ -1715,6 +1724,7 @@ value
 ;
 }
 function
+*
 setSetsCurrentDate
 (
 )

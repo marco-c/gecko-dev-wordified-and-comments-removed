@@ -14,6 +14,7 @@ tests
 =
 [
 function
+*
 get_nonexistent
 (
 )
@@ -37,6 +38,7 @@ foo
 ;
 }
 function
+*
 isomorphicDomains
 (
 )
@@ -113,6 +115,7 @@ com
 ;
 }
 function
+*
 names
 (
 )
@@ -281,6 +284,7 @@ com
 ;
 }
 function
+*
 subdomains
 (
 )
@@ -381,6 +385,7 @@ com
 ;
 }
 function
+*
 privateBrowsing
 (
 )
@@ -634,6 +639,7 @@ com
 ;
 }
 function
+*
 erroneous
 (
 )
