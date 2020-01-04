@@ -7998,7 +7998,7 @@ if
 defaultPrevented
 )
 {
-DispatchPluginEventsAndDiscardsCharMessages
+MaybeDispatchPluginEventsForRemovedCharMessages
 (
 )
 ;
@@ -8015,7 +8015,7 @@ NeedsToHandleWithoutFollowingCharMessages
 {
 return
 (
-DispatchPluginEventsAndDiscardsCharMessages
+MaybeDispatchPluginEventsForRemovedCharMessages
 (
 )
 |
@@ -10678,7 +10678,7 @@ bool
 NativeKey
 :
 :
-DispatchPluginEventsAndDiscardsCharMessages
+MaybeDispatchPluginEventsForRemovedCharMessages
 (
 )
 const
@@ -10710,6 +10710,14 @@ i
 mFollowingCharMsgs
 .
 Length
+(
+)
+&
+&
+mWidget
+-
+>
+ShouldDispatchPluginEvent
 (
 )
 ;
@@ -10784,6 +10792,14 @@ i
 mRemovedOddCharMsgs
 .
 Length
+(
+)
+&
+&
+mWidget
+-
+>
+ShouldDispatchPluginEvent
 (
 )
 ;

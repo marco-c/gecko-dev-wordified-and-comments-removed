@@ -1513,7 +1513,7 @@ DispatchKeyPressEventsWithoutCharMessage
 const
 ;
 bool
-DispatchPluginEventsAndDiscardsCharMessages
+MaybeDispatchPluginEventsForRemovedCharMessages
 (
 )
 const
