@@ -1044,7 +1044,7 @@ target
 if
 target
 .
-os
+kernel
 =
 =
 '
