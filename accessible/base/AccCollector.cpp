@@ -80,7 +80,7 @@ Length
 }
 Accessible
 *
-AccCollector
+EmbeddedObjCollector
 :
 :
 GetAccessibleAt
