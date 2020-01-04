@@ -2163,7 +2163,7 @@ to
 nasty
 /
 /
-wierdness
+weirdness
 like
 bmo
 bug
