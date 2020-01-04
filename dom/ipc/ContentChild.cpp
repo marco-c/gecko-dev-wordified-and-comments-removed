@@ -11473,12 +11473,12 @@ registration
 url
 (
 )
-blobImpl
 registration
 .
 principal
 (
 )
+blobImpl
 )
 ;
 }
@@ -15128,8 +15128,8 @@ nsHostObjectProtocolHandler
 AddDataEntry
 (
 aURI
-blobImpl
 aPrincipal
+blobImpl
 )
 ;
 return
