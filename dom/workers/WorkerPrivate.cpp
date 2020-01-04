@@ -21443,7 +21443,7 @@ HasMore
 {
 WorkerHolder
 *
-feature
+holder
 =
 iter
 .
@@ -21454,7 +21454,7 @@ GetNext
 if
 (
 !
-feature
+holder
 -
 >
 Notify
@@ -21469,7 +21469,7 @@ NS_WARNING
 Failed
 to
 notify
-feature
+holder
 !
 "
 )
