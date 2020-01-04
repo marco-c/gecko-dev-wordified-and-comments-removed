@@ -3448,17 +3448,6 @@ service
 /
 sharemethods
 /
-AddToReadingList
-.
-java
-'
-'
-overlays
-/
-service
-/
-sharemethods
-/
 SendTab
 .
 java
