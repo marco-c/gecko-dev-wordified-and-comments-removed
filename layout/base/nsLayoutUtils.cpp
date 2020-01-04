@@ -4547,6 +4547,12 @@ alignment
 =
 ScreenSize
 (
+std
+:
+:
+min
+(
+256
 gfxPlatform
 :
 :
@@ -4558,6 +4564,13 @@ GetPlatform
 GetTileWidth
 (
 )
+)
+std
+:
+:
+min
+(
+256
 gfxPlatform
 :
 :
@@ -4568,6 +4581,7 @@ GetPlatform
 >
 GetTileHeight
 (
+)
 )
 )
 ;
