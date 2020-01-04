@@ -7556,10 +7556,6 @@ GetSingleton
 if
 (
 vs
-&
-&
-!
-mIsForBrowser
 )
 {
 vs
