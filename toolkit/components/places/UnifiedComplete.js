@@ -3108,6 +3108,8 @@ fixupSearchText
 (
 spec
 )
+{
+return
 textURIService
 .
 unEscapeURIForUI
@@ -3123,11 +3125,14 @@ spec
 )
 )
 ;
+}
 function
 getUnfilteredSearchTokens
 (
 searchString
 )
+{
+return
 searchString
 .
 length
@@ -3142,6 +3147,7 @@ REGEXP_SPACES
 [
 ]
 ;
+}
 function
 stripPrefix
 (
@@ -7519,6 +7525,8 @@ get
 _switchToTabQuery
 (
 )
+{
+return
 [
 SQL_SWITCHTAB_QUERY
 {
@@ -7553,10 +7561,14 @@ Prefs
 maxRichResults
 }
 ]
+;
+}
 get
 _adaptiveQuery
 (
 )
+{
+return
 [
 SQL_ADAPTIVE_QUERY
 {
@@ -7585,6 +7597,8 @@ this
 _behavior
 }
 ]
+;
+}
 get
 _shouldAutofill
 (

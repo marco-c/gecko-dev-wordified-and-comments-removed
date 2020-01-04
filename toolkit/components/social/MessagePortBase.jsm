@@ -148,12 +148,16 @@ fw_AbstractPort_JSONParse
 (
 data
 )
+{
+return
 JSON
 .
 parse
 (
 data
 )
+;
+}
 _postControlMessage
 :
 function
