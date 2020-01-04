@@ -1511,7 +1511,7 @@ InvalidateRemoteLayers
 static
 CompositorBridgeParent
 *
-GetCompositor
+GetCompositorBridgeParent
 (
 uint64_t
 id
