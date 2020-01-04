@@ -338,7 +338,7 @@ aHeader
 )
 ;
 void
-AppendBtNamedValueByTagId
+AppendNamedValueByTagId
 (
 const
 ObexHeaderSet

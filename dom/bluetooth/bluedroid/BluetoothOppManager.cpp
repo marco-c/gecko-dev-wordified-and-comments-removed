@@ -5623,7 +5623,7 @@ BluetoothNamedValue
 >
 parameters
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 parameters
 "
@@ -5632,7 +5632,7 @@ address
 mDeviceAddress
 )
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 parameters
 "
@@ -5641,7 +5641,7 @@ success
 mSuccessFlag
 )
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 parameters
 "
@@ -5650,7 +5650,7 @@ received
 mIsServer
 )
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 parameters
 "
@@ -5659,7 +5659,7 @@ fileName
 mFileName
 )
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 parameters
 "
@@ -5668,7 +5668,7 @@ fileLength
 mSentFileLength
 )
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 parameters
 "
@@ -5716,7 +5716,7 @@ BluetoothNamedValue
 >
 parameters
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 parameters
 "
@@ -5725,7 +5725,7 @@ address
 mDeviceAddress
 )
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 parameters
 "
@@ -5734,7 +5734,7 @@ received
 mIsServer
 )
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 parameters
 "
@@ -5743,7 +5743,7 @@ fileName
 mFileName
 )
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 parameters
 "
@@ -5752,7 +5752,7 @@ fileLength
 mFileLength
 )
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 parameters
 "
@@ -5800,7 +5800,7 @@ BluetoothNamedValue
 >
 parameters
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 parameters
 "
@@ -5809,7 +5809,7 @@ address
 mDeviceAddress
 )
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 parameters
 "
@@ -5818,7 +5818,7 @@ received
 mIsServer
 )
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 parameters
 "
@@ -5827,7 +5827,7 @@ processedLength
 mSentFileLength
 )
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 parameters
 "
@@ -5873,7 +5873,7 @@ BluetoothNamedValue
 >
 parameters
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 parameters
 "
@@ -5882,7 +5882,7 @@ address
 mDeviceAddress
 )
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 parameters
 "
@@ -5891,7 +5891,7 @@ fileName
 mFileName
 )
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 parameters
 "
@@ -5900,7 +5900,7 @@ fileLength
 mFileLength
 )
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 parameters
 "

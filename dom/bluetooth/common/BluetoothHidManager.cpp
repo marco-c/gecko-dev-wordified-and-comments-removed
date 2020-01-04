@@ -973,7 +973,7 @@ BluetoothNamedValue
 >
 parameters
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 parameters
 "
@@ -982,7 +982,7 @@ connected
 mConnected
 )
 ;
-BT_APPEND_NAMED_VALUE
+AppendNamedValue
 (
 parameters
 "
