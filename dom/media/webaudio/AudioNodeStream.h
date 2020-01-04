@@ -302,6 +302,13 @@ mAudioParamStream
 true
 ;
 }
+void
+AdvanceAndResume
+(
+StreamTime
+aAdvance
+)
+;
 virtual
 AudioNodeStream
 *
@@ -518,6 +525,9 @@ CheckForInactive
 ;
 protected
 :
+class
+AdvanceAndResumeMessage
+;
 virtual
 void
 DestroyImpl

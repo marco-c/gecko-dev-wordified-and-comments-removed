@@ -366,9 +366,6 @@ TimeStamp
 mStartedBlockingDueToBeingOnlyNode
 ;
 StreamTime
-mExtraCurrentTime
-;
-StreamTime
 mExtraCurrentTimeSinceLastStartedBlocking
 ;
 bool

@@ -1040,10 +1040,6 @@ const
 {
 return
 aTime
--
-ExtraCurrentTime
-(
-)
 ;
 }
 double
@@ -1056,10 +1052,6 @@ const
 {
 return
 aTime
-+
-ExtraCurrentTime
-(
-)
 ;
 }
 void
@@ -1088,12 +1080,6 @@ mozinterruptend
 )
 private
 :
-double
-ExtraCurrentTime
-(
-)
-const
-;
 void
 RemoveFromDecodeQueue
 (
