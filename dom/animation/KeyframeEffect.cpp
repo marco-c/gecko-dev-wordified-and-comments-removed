@@ -2108,9 +2108,13 @@ aKeyframes
 KeyframeUtils
 :
 :
-ApplyDistributeSpacing
+ApplySpacing
 (
 mKeyframes
+SpacingMode
+:
+:
+distribute
 )
 ;
 if

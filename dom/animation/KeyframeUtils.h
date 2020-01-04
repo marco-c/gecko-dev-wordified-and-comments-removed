@@ -86,7 +86,7 @@ aRv
 ;
 static
 void
-ApplyDistributeSpacing
+ApplySpacing
 (
 nsTArray
 <
@@ -94,6 +94,8 @@ Keyframe
 >
 &
 aKeyframes
+SpacingMode
+aSpacingMode
 )
 ;
 static
