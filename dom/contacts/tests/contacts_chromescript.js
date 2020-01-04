@@ -1,13 +1,3 @@
-this
-.
-EXPORTED_SYMBOLS
-=
-[
-"
-ImportTesting
-"
-]
-;
 Components
 .
 utils
@@ -23,7 +13,7 @@ gre
 /
 modules
 /
-XPCOMUtils
+ContactService
 .
 jsm
 "
