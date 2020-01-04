@@ -385,7 +385,7 @@ range
 :
 [
 0
-360
+Infinity
 ]
 "
 type
