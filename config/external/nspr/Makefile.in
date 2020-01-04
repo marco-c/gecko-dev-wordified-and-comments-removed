@@ -72,14 +72,6 @@ NSPR
 to
 the
 SDK
-ABS_DIST
-=
-(
-abspath
-(
-DIST
-)
-)
 ifdef
 MOZ_FOLD_LIBS
 #

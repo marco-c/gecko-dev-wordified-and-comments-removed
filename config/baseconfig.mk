@@ -131,6 +131,13 @@ DEPTH
 /
 dist
 endif
+ABS_DIST
+=
+(
+topobjdir
+)
+/
+dist
 #
 We
 do

@@ -575,10 +575,7 @@ JSSHELL_BINS
 _ABS_DIST
 =
 (
-abspath
-(
-DIST
-)
+ABS_DIST
 )
 JARLOG_DIR
 =
