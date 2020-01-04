@@ -169,6 +169,11 @@ attribute
 long
 quota
 ;
+readonly
+attribute
+bool
+isSystemSubscription
+;
 bool
 quotaApplies
 (
