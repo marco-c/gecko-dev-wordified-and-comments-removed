@@ -3004,6 +3004,23 @@ FLASHW_TIMERNOFG
 =
 0x0C
                 
+console
+=
+windll
+.
+kernel32
+.
+GetConsoleWindow
+(
+)
+                
+if
+not
+console
+:
+                    
+return
+                
 params
 =
 FLASHWINDOW
@@ -3013,13 +3030,7 @@ sizeof
 FLASHWINDOW
 )
                                     
-windll
-.
-kernel32
-.
-GetConsoleWindow
-(
-)
+console
                                     
 FLASHW_CAPTION
 |
