@@ -2174,7 +2174,6 @@ nsCORSListenerProxy
 StartCORSPreflight
 (
 this
-mListener
 mPreflightPrincipal
 this
 mWithCredentials
