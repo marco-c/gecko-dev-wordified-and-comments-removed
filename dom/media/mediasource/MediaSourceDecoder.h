@@ -273,6 +273,12 @@ NextFrameBufferedStatus
 )
 override
 ;
+bool
+CanPlayThrough
+(
+)
+override
+;
 private
 :
 void

@@ -1054,6 +1054,7 @@ ComputePlaybackRate
 (
 )
 ;
+virtual
 bool
 CanPlayThrough
 (
