@@ -459,9 +459,6 @@ ServiceWorkerRegistration
 b2g
 :
 false
-release
-:
-false
 }
 "
 TextDecoder
