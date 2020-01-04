@@ -48,7 +48,6 @@ aResult
 {
 ok
 (
-!
 aResult
 .
 success
@@ -78,7 +77,6 @@ aResult
 .
 statusMessage
 "
-RequestNotSupported
 "
 "
 Check
