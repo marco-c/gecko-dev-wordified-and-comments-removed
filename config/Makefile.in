@@ -267,6 +267,10 @@ build
 export
 :
 :
+buildid
+buildid
+:
+FORCE
 ifdef
 MOZ_BUILD_DATE
 printf
