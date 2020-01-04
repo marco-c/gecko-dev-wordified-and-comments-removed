@@ -10534,7 +10534,7 @@ InternalMutationEvent
 mutation
 (
 true
-NS_MUTATION_ATTRMODIFIED
+eLegacyAttrModified
 )
 ;
 nsAutoString
@@ -11636,7 +11636,7 @@ InternalMutationEvent
 mutation
 (
 true
-NS_MUTATION_ATTRMODIFIED
+eLegacyAttrModified
 )
 ;
 mutation

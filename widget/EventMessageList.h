@@ -618,7 +618,7 @@ eLegacyMutationEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_MUTATION_ATTRMODIFIED
+eLegacyAttrModified
 eLegacyMutationEventFirst
 +
 5
