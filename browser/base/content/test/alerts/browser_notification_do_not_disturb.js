@@ -442,6 +442,7 @@ disturb
 menuitem
 "
 )
+;
 }
 function
 onAlertClosing

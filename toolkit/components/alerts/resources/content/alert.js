@@ -862,7 +862,7 @@ animationName
 "
 alert
 -
-zoom
+clicked
 -
 animation
 "
@@ -876,7 +876,7 @@ animationName
 "
 alert
 -
-fadeout
+closing
 -
 animation
 "
