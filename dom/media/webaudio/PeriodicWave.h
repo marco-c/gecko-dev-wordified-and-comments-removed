@@ -72,6 +72,9 @@ aImagData
 const
 uint32_t
 aLength
+const
+bool
+aDisableNormalization
 ErrorResult
 &
 aRv
@@ -125,6 +128,16 @@ return
 mLength
 ;
 }
+bool
+DisableNormalization
+(
+)
+const
+{
+return
+mDisableNormalization
+;
+}
 ThreadSharedFloatArrayBufferList
 *
 GetThreadSharedBuffer
@@ -174,6 +187,9 @@ mCoefficients
 ;
 uint32_t
 mLength
+;
+bool
+mDisableNormalization
 ;
 }
 ;

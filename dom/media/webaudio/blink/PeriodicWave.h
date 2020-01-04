@@ -138,6 +138,8 @@ float
 imag
 size_t
 numberOfComponents
+bool
+disableNormalization
 )
 ;
 void
@@ -207,6 +209,8 @@ float
 sampleRate
 size_t
 numberOfComponents
+bool
+disableNormalization
 )
 ;
 ~
@@ -298,6 +302,9 @@ m_maxPartialsInBandLimitedTable
 ;
 float
 m_normalizationScale
+;
+bool
+m_disableNormalization
 ;
 nsTArray
 <
