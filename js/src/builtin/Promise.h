@@ -31,6 +31,15 @@ NativeObject
 .
 h
 "
+#
+include
+"
+vm
+/
+Time
+.
+h
+"
 namespace
 js
 {
