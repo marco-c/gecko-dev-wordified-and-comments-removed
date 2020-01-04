@@ -513,7 +513,7 @@ ITERATOR_SLOT_TARGET
 let
 index
 =
-UnsafeGetInt32FromReservedSlot
+UnsafeGetReservedSlot
 (
 this
 ITERATOR_SLOT_NEXT_INDEX
