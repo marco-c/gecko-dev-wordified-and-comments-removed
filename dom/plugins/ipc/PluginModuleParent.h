@@ -1493,6 +1493,9 @@ mPluginName
 nsCString
 mPluginVersion
 ;
+int32_t
+mSandboxLevel
+;
 bool
 mIsFlashPlugin
 ;
@@ -2316,9 +2319,6 @@ mHangUIEnabled
 ;
 bool
 mIsTimerReset
-;
-int32_t
-mSandboxLevel
 ;
 #
 ifdef
