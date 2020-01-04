@@ -498,7 +498,7 @@ aParent
 widget
 :
 :
-CompositorWidget
+CompositorWidgetProxy
 *
 aWidget
 int
@@ -3063,7 +3063,7 @@ mozilla
 widget
 :
 :
-CompositorWidget
+CompositorWidgetProxy
 *
 aWidget
 )

@@ -528,9 +528,12 @@ GPUProcessManager
 :
 CreateTopLevelCompositor
 (
-nsIWidget
+widget
+:
+:
+CompositorWidgetProxy
 *
-aWidget
+aProxy
 ClientLayerManager
 *
 aLayerManager
@@ -555,7 +558,7 @@ CompositorSession
 :
 CreateInProcess
 (
-aWidget
+aProxy
 aLayerManager
 aScale
 aUseAPZ

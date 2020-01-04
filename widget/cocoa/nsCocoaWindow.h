@@ -1647,6 +1647,17 @@ aNewParent
 )
 override
 ;
+CompositorWidgetProxy
+*
+NewCompositorWidgetProxy
+(
+)
+override
+{
+return
+nullptr
+;
+}
 protected
 :
 virtual
