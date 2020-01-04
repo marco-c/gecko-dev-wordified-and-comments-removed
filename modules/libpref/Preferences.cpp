@@ -1214,14 +1214,6 @@ gObserverTable
 n
 +
 =
-aMallocSizeOf
-(
-gObserverTable
-)
-;
-n
-+
-=
 gObserverTable
 -
 >
