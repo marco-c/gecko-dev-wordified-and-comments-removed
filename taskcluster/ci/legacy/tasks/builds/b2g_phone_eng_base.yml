@@ -18,6 +18,13 @@ workerType
 flame
 -
 kk
+extra
+:
+treeherder
+:
+tier
+:
+3
 payload
 :
 env
