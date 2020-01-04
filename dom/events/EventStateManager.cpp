@@ -3337,12 +3337,11 @@ uint32_t
 >
 accessCharCodes
 ;
-nsContentUtils
-:
-:
+keyEvent
+-
+>
 GetAccessKeyCandidates
 (
-keyEvent
 accessCharCodes
 )
 ;
