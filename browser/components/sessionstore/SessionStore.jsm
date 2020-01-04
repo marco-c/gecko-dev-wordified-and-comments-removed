@@ -3605,9 +3605,11 @@ didStartLoad
 {
 browser
 .
-userTypedClear
-+
-+
+urlbarChangeTracker
+.
+startedLoad
+(
+)
 ;
 }
 win

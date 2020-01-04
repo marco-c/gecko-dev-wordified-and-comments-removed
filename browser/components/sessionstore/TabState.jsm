@@ -513,7 +513,13 @@ userTypedClear
 =
 browser
 .
-userTypedClear
+didStartLoadSinceLastUserTyping
+(
+)
+?
+1
+:
+0
 ;
 }
 return
