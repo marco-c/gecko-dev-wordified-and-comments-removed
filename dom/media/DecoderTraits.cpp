@@ -709,6 +709,13 @@ apple
 mpegurl
 "
 "
+application
+/
+x
+-
+mpegurl
+"
+"
 audio
 /
 x
