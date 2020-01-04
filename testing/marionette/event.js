@@ -3453,7 +3453,7 @@ ignoreVisibility
 |
 element
 .
-checkVisible
+isVisible
 (
 el
 window

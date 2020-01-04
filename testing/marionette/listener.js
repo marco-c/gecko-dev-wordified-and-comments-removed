@@ -5018,7 +5018,7 @@ visible
 =
 element
 .
-checkVisible
+isVisible
 (
 el
 curContainer

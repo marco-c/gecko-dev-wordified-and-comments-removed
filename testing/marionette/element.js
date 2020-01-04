@@ -3146,7 +3146,7 @@ bottom
 ;
 element
 .
-checkVisible
+isVisible
 =
 function
 (
