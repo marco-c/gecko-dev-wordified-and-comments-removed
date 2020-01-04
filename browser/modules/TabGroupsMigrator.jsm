@@ -248,6 +248,15 @@ stateAsSupportsString
 .
 data
 ;
+if
+(
+!
+stateStr
+)
+{
+return
+;
+}
 let
 state
 ;
