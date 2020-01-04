@@ -556,7 +556,6 @@ bar
 examplesite
 .
 com
-/
 "
 )
 ;
@@ -577,7 +576,6 @@ bar
 example
 .
 com
-/
 "
 )
 ;

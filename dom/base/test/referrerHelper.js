@@ -765,7 +765,6 @@ http
 example
 .
 com
-/
 '
 '
 origin
@@ -785,7 +784,6 @@ http
 example
 .
 com
-/
 '
 '
 no
@@ -1057,7 +1055,6 @@ http
 example
 .
 com
-/
 '
 '
 origin
@@ -1282,7 +1279,6 @@ http
 example
 .
 com
-/
 '
 '
 origin
@@ -1302,7 +1298,6 @@ http
 example
 .
 com
-/
 '
 '
 no
@@ -1460,7 +1455,6 @@ https
 example
 .
 com
-/
 '
 '
 origin
@@ -1480,7 +1474,6 @@ https
 example
 .
 com
-/
 '
 '
 no
@@ -1583,7 +1576,6 @@ https
 example
 .
 com
-/
 '
 '
 origin
@@ -1818,7 +1810,6 @@ http
 example
 .
 com
-/
 '
 '
 origin
@@ -2049,7 +2040,6 @@ http
 example
 .
 com
-/
 '
 '
 origin
@@ -2069,7 +2059,6 @@ http
 example
 .
 com
-/
 '
 '
 no
@@ -2231,7 +2220,6 @@ https
 example
 .
 com
-/
 '
 '
 origin
@@ -2251,7 +2239,6 @@ https
 example
 .
 com
-/
 '
 '
 no
@@ -2356,7 +2343,6 @@ https
 example
 .
 com
-/
 '
 '
 origin
@@ -2587,7 +2573,6 @@ http
 example
 .
 com
-/
 '
 '
 origin
@@ -2800,7 +2785,6 @@ http
 example
 .
 com
-/
 '
 '
 origin
@@ -2820,7 +2804,6 @@ http
 example
 .
 com
-/
 '
 '
 no
@@ -2970,7 +2953,6 @@ https
 example
 .
 com
-/
 '
 '
 origin
@@ -2990,7 +2972,6 @@ https
 example
 .
 com
-/
 '
 '
 no
@@ -3089,7 +3070,6 @@ https
 example
 .
 com
-/
 '
 '
 origin
