@@ -574,7 +574,7 @@ subscriptionChangeTopic
 readonly
 attribute
 DOMString
-subscriptionLostTopic
+subscriptionModifiedTopic
 ;
 /
 *

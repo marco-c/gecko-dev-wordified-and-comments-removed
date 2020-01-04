@@ -5813,7 +5813,7 @@ push
 -
 subscription
 -
-lost
+modified
 observers
 in
 the
@@ -5822,12 +5822,12 @@ parent
 *
 /
 async
-NotifyPushSubscriptionLostObservers
+NotifyPushSubscriptionModifiedObservers
 (
 nsCString
 scope
-uint16_t
-reason
+Principal
+principal
 )
 ;
 both
