@@ -347,3 +347,13 @@ prefs
 js
 '
 ]
+DIST_FILES
++
+=
+[
+'
+webapprt
+.
+ini
+'
+]
