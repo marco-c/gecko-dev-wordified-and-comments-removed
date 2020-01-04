@@ -602,11 +602,16 @@ mWaitToRespond
 }
 Request
 *
-GetRequest_
+Request_
 (
 )
 const
 {
+MOZ_ASSERT
+(
+mRequest
+)
+;
 return
 mRequest
 ;

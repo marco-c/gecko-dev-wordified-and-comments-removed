@@ -161,7 +161,6 @@ SameObject
 readonly
 attribute
 Request
-?
 request
 ;
 readonly
@@ -195,6 +194,7 @@ FetchEventInit
 :
 EventInit
 {
+required
 Request
 request
 ;
