@@ -3560,6 +3560,9 @@ nsIThreadInternal
 thread
 )
 {
+#
+ifndef
+XP_WIN
 if
 (
 PR_GetCurrentThread
@@ -3589,6 +3592,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 MutexAutoLock
 lock
 (
