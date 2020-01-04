@@ -978,17 +978,6 @@ aContent
 )
 ;
 static
-nsIFrame
-*
-GetRealPrimaryFrameFor
-(
-const
-nsIContent
-*
-aContent
-)
-;
-static
 bool
 IsGeneratedContentFor
 (
