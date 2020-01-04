@@ -1485,6 +1485,7 @@ JSObject
 enclosingScope
 (
 )
+const
 {
 if
 (
