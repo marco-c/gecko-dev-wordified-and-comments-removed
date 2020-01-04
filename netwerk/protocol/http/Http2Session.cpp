@@ -3404,6 +3404,8 @@ Http2Session
 :
 UncompressAndDiscard
 (
+bool
+isPush
 )
 {
 nsresult
@@ -3437,7 +3439,7 @@ Length
 (
 )
 trash
-false
+isPush
 )
 ;
 mDecompressBuffer
@@ -6321,6 +6323,7 @@ self
 >
 UncompressAndDiscard
 (
+false
 )
 ;
 if
@@ -6663,6 +6666,7 @@ rv
 =
 UncompressAndDiscard
 (
+false
 )
 ;
 if
@@ -8637,6 +8641,7 @@ self
 >
 UncompressAndDiscard
 (
+true
 )
 ;
 if

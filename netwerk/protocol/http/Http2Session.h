@@ -879,6 +879,7 @@ internalStateType
 nsresult
 UncompressAndDiscard
 (
+bool
 )
 ;
 void
