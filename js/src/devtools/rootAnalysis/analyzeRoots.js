@@ -2688,7 +2688,7 @@ null
 ;
 }
 function
-computePrintedLines
+loadPrintedLines
 (
 functionName
 )
@@ -3040,7 +3040,7 @@ functionBodies
 .
 lines
 )
-computePrintedLines
+loadPrintedLines
 (
 functionName
 )
@@ -3149,8 +3149,6 @@ match
 \
 d
 +
-)
-(
 \
 d
 +
@@ -3167,14 +3165,6 @@ table
 match
 [
 1
-]
-+
-"
-"
-+
-match
-[
-2
 ]
 ]
 =
