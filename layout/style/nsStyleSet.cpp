@@ -7842,9 +7842,10 @@ bits
 "
 )
 ;
-nsTArray
+nsAutoTArray
 <
 RuleNodeInfo
+30
 >
 rules
 ;
