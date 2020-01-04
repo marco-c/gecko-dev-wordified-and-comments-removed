@@ -441,8 +441,10 @@ aTrack
 )
 ;
 bool
-EnsureDecodersCreated
+EnsureDecoderCreated
 (
+TrackType
+aTrack
 )
 ;
 bool
