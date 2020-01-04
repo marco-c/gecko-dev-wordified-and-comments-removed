@@ -1072,6 +1072,15 @@ mTimer
 ;
 }
 ;
+void
+LogToBrowserConsole
+(
+const
+nsAString
+&
+aMsg
+)
+;
 }
 #
 endif
