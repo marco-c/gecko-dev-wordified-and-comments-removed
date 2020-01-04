@@ -392,6 +392,16 @@ getRemoteStreams
 (
 )
 ;
+void
+selectSsrc
+(
+MediaStreamTrack
+recvTrack
+unsigned
+short
+ssrcIndex
+)
+;
 /
 *
 As
