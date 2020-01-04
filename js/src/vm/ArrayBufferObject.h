@@ -819,7 +819,7 @@ newContents
 static
 MOZ_WARN_UNUSED_RESULT
 bool
-neuter
+detach
 (
 JSContext
 *

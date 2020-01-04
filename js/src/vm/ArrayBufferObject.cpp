@@ -1084,7 +1084,7 @@ bool
 ArrayBufferObject
 :
 :
-neuter
+detach
 (
 JSContext
 *
@@ -1181,7 +1181,7 @@ crash
 ArrayBufferObject
 :
 :
-neuter
+detach
 "
 )
 ;
@@ -3350,7 +3350,7 @@ if
 ArrayBufferObject
 :
 :
-neuter
+detach
 (
 cx
 buffer
@@ -3407,7 +3407,7 @@ if
 ArrayBufferObject
 :
 :
-neuter
+detach
 (
 cx
 buffer
@@ -5783,7 +5783,7 @@ if
 ArrayBufferObject
 :
 :
-neuter
+detach
 (
 cx
 buffer
@@ -5813,7 +5813,7 @@ if
 ArrayBufferObject
 :
 :
-neuter
+detach
 (
 cx
 buffer
