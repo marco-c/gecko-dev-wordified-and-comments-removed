@@ -13435,11 +13435,8 @@ MakeUnique
 nsCSSValuePair
 >
 (
+*
 result
-.
-ref
-(
-)
 )
 ;
 aResultValue
