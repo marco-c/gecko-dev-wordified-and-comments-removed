@@ -1005,6 +1005,30 @@ request
 attribute
 :
 :
+url_base
+    
+The
+prefix
+part
+of
+the
+path
+;
+typically
+/
+unless
+the
+handler
+has
+a
+url_base
+set
+    
+.
+.
+attribute
+:
+:
 url
     
 Absolute
@@ -1384,6 +1408,14 @@ request_path
 request_handler
 .
 path
+        
+self
+.
+url_base
+=
+"
+/
+"
         
 if
 self

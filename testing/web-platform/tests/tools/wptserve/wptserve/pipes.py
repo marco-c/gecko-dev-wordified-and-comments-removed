@@ -2073,12 +2073,22 @@ return
 "
 pipe
 (
+opt
+(
+nullable
+(
+boolean
+)
+)
 )
 def
 sub
 (
 request
 response
+escape_quote
+=
+False
 )
 :
     
@@ -2430,6 +2440,9 @@ template
 (
 request
 content
+escape_quote
+=
+escape_quote
 )
     
 response
@@ -2445,6 +2458,9 @@ template
 (
 request
 content
+escape_quote
+=
+False
 )
 :
     
@@ -2796,6 +2812,21 @@ uuid4
 )
 )
         
+elif
+field
+=
+=
+"
+url_base
+"
+:
+            
+value
+=
+request
+.
+url_base
+        
 else
 :
             
@@ -2868,6 +2899,9 @@ unicode
 (
 value
 )
+quote
+=
+escape_quote
 )
 .
 encode
