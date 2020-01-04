@@ -5651,6 +5651,16 @@ dispatchEvent
 event
 )
 ;
+this
+.
+browser
+.
+finder
+.
+onFindbarOpen
+(
+)
+;
 return
 true
 ;
