@@ -100,6 +100,15 @@ string
 parameters
 )
 ;
+static
+bool
+CheckCurlLib
+(
+void
+*
+curl_lib
+)
+;
 HTTPUpload
 (
 )

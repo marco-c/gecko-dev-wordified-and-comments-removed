@@ -2333,12 +2333,12 @@ HandleUncaughtException
 exception
 )
 ;
-}
 BreakpadRelease
 (
 current_breakpad_
 )
 ;
+}
 }
 /
 /
