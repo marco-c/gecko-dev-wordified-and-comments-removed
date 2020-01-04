@@ -1129,6 +1129,13 @@ nsCSSProperty
 aProperty
 )
 ;
+static
+const
+TimeDuration
+OverflowRegionRefreshInterval
+(
+)
+;
 }
 ;
 }
