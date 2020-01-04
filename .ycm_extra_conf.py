@@ -180,6 +180,15 @@ StringIO
     
 out
 .
+fileno
+=
+lambda
+:
+-
+1
+    
+out
+.
 encoding
 =
 None
