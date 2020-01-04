@@ -2333,7 +2333,12 @@ documentElement
 }
 _isImagePreviewTarget
 :
+Task
+.
+async
+(
 function
+*
 (
 target
 )
@@ -2346,12 +2351,7 @@ isDragging
 )
 {
 return
-promise
-.
-reject
-(
 false
-)
 ;
 }
 let
@@ -2416,9 +2416,10 @@ tooltip
 ;
 }
 return
-undefined
+false
 ;
 }
+)
 _shouldNewSelectionBeHighlighted
 :
 function
