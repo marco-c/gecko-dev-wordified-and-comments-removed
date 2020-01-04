@@ -1247,6 +1247,11 @@ UNIFIED_SOURCES
 =
 [
 '
+D3D11Checks
+.
+cpp
+'
+'
 DeviceManagerD3D11
 .
 cpp
