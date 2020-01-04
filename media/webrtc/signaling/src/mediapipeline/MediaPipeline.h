@@ -1426,7 +1426,6 @@ domtrack
 )
 {
 }
-virtual
 nsresult
 Init
 (
@@ -1446,7 +1445,6 @@ string
 track_id
 )
 ;
-virtual
 bool
 IsVideo
 (
@@ -1482,14 +1480,12 @@ sinkIdentity
 ;
 #
 endif
-virtual
 void
 DetachMedia
 (
 )
 override
 ;
-virtual
 nsresult
 TransportReady_s
 (
@@ -2113,7 +2109,6 @@ queue_track
 )
 {
 }
-virtual
 void
 DetachMedia
 (
@@ -2144,14 +2139,12 @@ nullptr
 ;
 }
 }
-virtual
 nsresult
 Init
 (
 )
 override
 ;
-virtual
 bool
 IsVideo
 (
@@ -2284,7 +2277,6 @@ nullptr
 ;
 }
 }
-virtual
 void
 NotifyQueuedTrackChanges
 (
@@ -2310,7 +2302,6 @@ input_tid
 override
 {
 }
-virtual
 void
 NotifyPull
 (
@@ -2438,7 +2429,6 @@ queue_track
 )
 {
 }
-virtual
 void
 DetachMedia
 (
@@ -2494,14 +2484,12 @@ nullptr
 ;
 }
 }
-virtual
 nsresult
 Init
 (
 )
 override
 ;
-virtual
 bool
 IsVideo
 (
@@ -2571,7 +2559,6 @@ pipeline_
 nullptr
 ;
 }
-virtual
 void
 FrameSizeChange
 (
@@ -2601,7 +2588,6 @@ number_of_streams
 )
 ;
 }
-virtual
 void
 RenderVideoFrame
 (
@@ -2643,7 +2629,6 @@ GetImage
 )
 ;
 }
-virtual
 void
 RenderVideoFrame
 (
@@ -2718,7 +2703,6 @@ bool
 queue_track
 )
 ;
-virtual
 void
 NotifyQueuedTrackChanges
 (
@@ -2744,7 +2728,6 @@ input_tid
 override
 {
 }
-virtual
 void
 NotifyPull
 (
