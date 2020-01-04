@@ -465,11 +465,6 @@ _
 IntrinsicDefineDataProperty
 )
 \
-_
-(
-IntrinsicObjectHasPrototype
-)
-\
 \
 _
 (
