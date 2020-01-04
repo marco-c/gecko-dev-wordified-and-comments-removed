@@ -5197,17 +5197,6 @@ if
 self
 .
 instance
-and
-not
-hasattr
-(
-self
-.
-instance
-'
-detached
-'
-)
 :
                 
 returncode
@@ -7933,19 +7922,9 @@ restart_flags
             
 self
 .
-client
-.
-close
+delete_session
 (
 )
-            
-self
-.
-instance
-.
-detached
-=
-True
         
 else
 :
@@ -7993,6 +7972,30 @@ self
 .
 _reset_timeouts
 (
+)
+        
+if
+in_app
+:
+            
+self
+.
+instance
+.
+runner
+.
+process_handler
+.
+check_for_detached
+(
+self
+.
+session
+[
+'
+processId
+'
+]
 )
     
 def
