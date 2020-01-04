@@ -3579,6 +3579,8 @@ totalTimeDelta
 userTimeDelta
 +
 systemTimeDelta
++
+cpowTimeDelta
 ;
 uint64_t
 duration
