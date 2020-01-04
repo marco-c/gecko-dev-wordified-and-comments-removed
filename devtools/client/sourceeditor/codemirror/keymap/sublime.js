@@ -1216,11 +1216,8 @@ map
 "
 Shift
 -
-"
-+
-ctrl
-+
-"
+Ctrl
+-
 K
 "
 ]
