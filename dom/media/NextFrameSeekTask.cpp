@@ -1475,10 +1475,6 @@ MediaData
 VIDEO_DATA
 )
 ;
-mNeedToStopPrerollingVideo
-=
-true
-;
 return
 ;
 }
