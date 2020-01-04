@@ -1113,6 +1113,17 @@ dirname
 \
 ;
 pwd
+-
+W
+2
+>
+/
+dev
+/
+null
+|
+|
+pwd
 _objdir
 =
 pwd
