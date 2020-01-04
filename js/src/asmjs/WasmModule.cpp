@@ -463,7 +463,7 @@ size
 for
 (
 const
-OffsetVector
+Uint32Vector
 &
 offsets
 :
@@ -501,7 +501,7 @@ const
 for
 (
 const
-OffsetVector
+Uint32Vector
 &
 offsets
 :
@@ -542,7 +542,7 @@ cursor
 {
 for
 (
-OffsetVector
+Uint32Vector
 &
 offsets
 :
@@ -658,7 +658,7 @@ size
 for
 (
 const
-OffsetVector
+Uint32Vector
 &
 offsets
 :
@@ -1116,7 +1116,7 @@ mallocSizeOf
 for
 (
 const
-OffsetVector
+Uint32Vector
 &
 offsets
 :
@@ -4527,10 +4527,7 @@ cx
 )
 ;
 const
-StaticLinkData
-:
-:
-OffsetVector
+Uint32Vector
 &
 offsets
 =
@@ -5579,10 +5576,7 @@ Limit
 )
 {
 const
-StaticLinkData
-:
-:
-OffsetVector
+Uint32Vector
 &
 offsets
 =
