@@ -7097,16 +7097,6 @@ this
 _tooltip
 .
 eventEditors
-.
-clear
-(
-)
-;
-this
-.
-_tooltip
-.
-eventEditors
 =
 null
 ;

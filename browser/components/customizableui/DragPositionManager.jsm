@@ -1973,8 +1973,9 @@ function
 )
 {
 gManagers
-.
-clear
+=
+new
+WeakMap
 (
 )
 ;

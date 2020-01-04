@@ -771,8 +771,9 @@ length
 this
 .
 _itemsByElement
-.
-clear
+=
+new
+WeakMap
 (
 )
 ;

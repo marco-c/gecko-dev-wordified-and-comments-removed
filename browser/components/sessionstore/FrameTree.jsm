@@ -612,8 +612,9 @@ STATE_START
 this
 .
 _frames
-.
-clear
+=
+new
+WeakMap
 (
 )
 ;
