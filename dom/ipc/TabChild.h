@@ -284,9 +284,6 @@ class
 AsyncDragMetrics
 ;
 class
-IAPZCTreeManager
-;
-class
 ImageCompositeNotification
 ;
 }
@@ -3114,15 +3111,6 @@ bool
 NUMBER_OF_AUDIO_CHANNELS
 >
 mAudioChannelsActive
-;
-RefPtr
-<
-layers
-:
-:
-IAPZCTreeManager
->
-mApzcTreeManager
 ;
 layers
 :

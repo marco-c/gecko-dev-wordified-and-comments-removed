@@ -74,6 +74,9 @@ namespace
 layers
 {
 class
+APZCTreeManager
+;
+class
 AsyncDragMetrics
 ;
 class
