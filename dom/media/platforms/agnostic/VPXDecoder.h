@@ -218,6 +218,12 @@ MediaDataDecoderCallback
 *
 mCallback
 ;
+Atomic
+<
+bool
+>
+mIsFlushing
+;
 vpx_codec_ctx_t
 mVPX
 ;
