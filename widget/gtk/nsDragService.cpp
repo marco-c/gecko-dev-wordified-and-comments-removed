@@ -1227,13 +1227,6 @@ nsIScriptableRegion
 aRegion
 uint32_t
 aActionType
-nsContentPolicyType
-aContentPolicyType
-=
-nsIContentPolicy
-:
-:
-TYPE_OTHER
 )
 {
 MOZ_LOG
@@ -1270,7 +1263,6 @@ aDOMNode
 aArrayTransferables
 aRegion
 aActionType
-aContentPolicyType
 )
 ;
 }
