@@ -985,6 +985,9 @@ mozilla
 .
 dtd
 )
+#
+ifndef
+MOZ_FENNEC
 locale
 /
 AB_CD
@@ -1004,6 +1007,8 @@ narrate
 .
 properties
 )
+#
+endif
 locale
 /
 AB_CD
@@ -1042,6 +1047,9 @@ preferences
 .
 dtd
 )
+#
+ifndef
+MOZ_FENNEC
 locale
 /
 AB_CD
@@ -1175,6 +1183,8 @@ printProgress
 .
 dtd
 )
+#
+endif
 locale
 /
 AB_CD
