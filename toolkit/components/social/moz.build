@@ -119,11 +119,6 @@ EXTRA_JS_MODULES
 =
 [
 '
-MozSocialAPI
-.
-jsm
-'
-'
 SocialService
 .
 jsm
