@@ -1996,9 +1996,17 @@ kwargs
 def
 run_test_harness
 (
+parser
 options
 )
 :
+    
+parser
+.
+validate
+(
+options
+)
     
 message_logger
 =
@@ -2600,6 +2608,7 @@ args
 return
 run_test_harness
 (
+parser
 options
 )
 if

@@ -2234,9 +2234,17 @@ local_log
 def
 run_test_harness
 (
+parser
 options
 )
 :
+    
+parser
+.
+validate
+(
+options
+)
     
 marionette_args
 =
@@ -2531,6 +2539,7 @@ parse_args
 return
 run_test_harness
 (
+parser
 options
 )
 if

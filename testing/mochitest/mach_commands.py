@@ -802,6 +802,9 @@ values
 )
 ]
 )
+parser
+=
+None
 class
 MochitestRunner
 (
@@ -1256,6 +1259,7 @@ mochitest
 .
 run_test_harness
 (
+parser
 options
 )
     
@@ -1533,6 +1537,7 @@ mochitest
 .
 run_test_harness
 (
+parser
 options
 )
         
@@ -1682,6 +1687,7 @@ runtestsremote
 .
 run_test_harness
 (
+parser
 options
 )
     
@@ -1820,6 +1826,7 @@ runrobocop
 .
 run_test_harness
 (
+parser
 options
 )
 def
@@ -2004,10 +2011,17 @@ xre
 True
 )
     
-return
+global
+parser
+    
+parser
+=
 MochitestArgumentParser
 (
 )
+    
+return
+parser
 def
 is_buildapp_in
 (
