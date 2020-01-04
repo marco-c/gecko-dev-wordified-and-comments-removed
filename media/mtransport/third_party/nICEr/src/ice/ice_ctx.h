@@ -396,6 +396,9 @@ gather_rto
 UINT4
 stun_delay
 ;
+UINT4
+test_timer_divider
+;
 nr_ice_peer_ctx_head
 peers
 ;

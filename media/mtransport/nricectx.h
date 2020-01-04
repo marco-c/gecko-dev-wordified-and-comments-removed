@@ -809,6 +809,13 @@ internal_DeinitializeGlobal
 (
 )
 ;
+void
+internal_SetTimerAccelarator
+(
+int
+divider
+)
+;
 nr_ice_ctx
 *
 ctx
