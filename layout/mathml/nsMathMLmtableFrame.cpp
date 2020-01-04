@@ -5516,6 +5516,7 @@ error
 |
 colspan
 <
+=
 0
 |
 |
