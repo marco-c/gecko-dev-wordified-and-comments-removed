@@ -1984,6 +1984,11 @@ no_clobber
 {
             
 '
+.
+mozbuild
+'
+            
+'
 msvc
 '
         
