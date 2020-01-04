@@ -134,6 +134,9 @@ ipc
 class
 Shmem
 ;
+class
+GeckoChildProcessHost
+;
 }
 namespace
 layers
@@ -227,6 +230,12 @@ Transport
 aTransport
 ProcessId
 aChildProcessId
+ipc
+:
+:
+GeckoChildProcessHost
+*
+aProcessHost
 )
 ;
 virtual
@@ -684,6 +693,13 @@ mSetChildThreadPriority
 ;
 bool
 mClosed
+;
+ipc
+:
+:
+GeckoChildProcessHost
+*
+mSubprocess
 ;
 static
 std
