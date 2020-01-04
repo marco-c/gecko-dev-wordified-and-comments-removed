@@ -2084,6 +2084,8 @@ static
 final
 class
 Clients
+implements
+CommonColumns
 {
 private
 Clients
@@ -2157,16 +2159,6 @@ cursor
 item
 /
 client
-"
-;
-public
-static
-final
-String
-ROWID
-=
-"
-rowid
 "
 ;
 public
