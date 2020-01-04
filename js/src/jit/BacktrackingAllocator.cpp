@@ -13206,7 +13206,7 @@ static
 char
 buf
 [
-2000
+10000
 ]
 ;
 char
@@ -13508,7 +13508,7 @@ static
 char
 buf
 [
-2000
+10000
 ]
 ;
 char
