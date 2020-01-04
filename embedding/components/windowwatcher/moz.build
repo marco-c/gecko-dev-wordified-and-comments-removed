@@ -93,6 +93,14 @@ MPL
 0
 /
 .
+TEST_DIRS
++
+=
+[
+'
+test
+'
+]
 XPIDL_SOURCES
 +
 =
