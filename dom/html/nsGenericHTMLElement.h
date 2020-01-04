@@ -409,14 +409,6 @@ aError
 )
 ;
 }
-already_AddRefed
-<
-nsDOMStringMap
->
-Dataset
-(
-)
-;
 bool
 Hidden
 (
@@ -1345,11 +1337,6 @@ ErrorResult
 aError
 )
 override
-;
-nsresult
-ClearDataset
-(
-)
 ;
 nsSize
 GetWidthHeightForImage

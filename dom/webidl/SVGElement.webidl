@@ -157,6 +157,14 @@ SVGAnimatedString
 className
 ;
 [
+SameObject
+]
+readonly
+attribute
+DOMStringMap
+dataset
+;
+[
 PutForwards
 =
 cssText
