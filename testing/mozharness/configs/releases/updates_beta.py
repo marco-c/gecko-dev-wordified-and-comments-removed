@@ -177,6 +177,8 @@ archive
 mozilla
 .
 org
+/
+pub
 "
     
 "
@@ -193,6 +195,8 @@ archive
 mozilla
 .
 org
+/
+pub
 "
     
 "
