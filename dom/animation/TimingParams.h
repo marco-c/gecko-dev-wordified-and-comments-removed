@@ -56,6 +56,15 @@ include
 "
 mozilla
 /
+StickyTimeDuration
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
