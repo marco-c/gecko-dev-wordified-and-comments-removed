@@ -1206,6 +1206,15 @@ isTimelineRecording
 )
 ;
 }
+RestyleManager
+:
+:
+AnimationsWithDestroyedFrame
+animationsWithDestroyedFrame
+(
+mRestyleManager
+)
+;
 {
 RestyleManager
 :
