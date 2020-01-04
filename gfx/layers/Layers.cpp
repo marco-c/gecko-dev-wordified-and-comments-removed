@@ -1273,10 +1273,15 @@ mIsScrollbarContainer
 (
 false
 )
+#
+ifdef
+DEBUG
 mDebugColorIndex
 (
 0
 )
+#
+endif
 mAnimationGeneration
 (
 0

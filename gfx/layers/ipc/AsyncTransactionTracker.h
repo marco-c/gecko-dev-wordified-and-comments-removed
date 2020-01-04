@@ -327,12 +327,14 @@ AsyncTransactionWaiter
 >
 mWaiter
 ;
-DebugOnly
-<
+#
+ifdef
+DEBUG
 bool
->
 mCompleted
 ;
+#
+endif
 static
 uint64_t
 sSerialCounter
