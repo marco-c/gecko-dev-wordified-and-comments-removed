@@ -31,10 +31,9 @@ exception
 endif
 #
 if
-!
 defined
 (
-_MSC_VER
+__GLIBCXX__
 )
 namespace
 std

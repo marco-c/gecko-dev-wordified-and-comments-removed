@@ -19,10 +19,9 @@ if
 UCONFIG_NO_CONVERSION
 #
 if
-!
 defined
 (
-_MSC_VER
+__GLIBCXX__
 )
 namespace
 std
