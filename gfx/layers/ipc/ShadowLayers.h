@@ -855,13 +855,6 @@ mPaintSyncId
 aSyncId
 ;
 }
-void
-SetLayerObserverEpoch
-(
-uint64_t
-aLayerObserverEpoch
-)
-;
 static
 void
 PlatformSyncBeforeUpdate

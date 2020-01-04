@@ -210,15 +210,6 @@ EndStartingDebugger
 (
 )
 ;
-async
-ForcePaint
-(
-TabId
-tabId
-uint64_t
-aLayerObserverEpoch
-)
-;
 }
 ;
 }

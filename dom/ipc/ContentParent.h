@@ -2002,16 +2002,6 @@ Pid
 const
 override
 ;
-void
-ForceTabPaint
-(
-TabParent
-*
-aTabParent
-uint64_t
-aLayerObserverEpoch
-)
-;
 protected
 :
 void
