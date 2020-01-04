@@ -609,6 +609,12 @@ ShutdownLayersIPC
 (
 )
 ;
+static
+void
+InitNullMetadata
+(
+)
+;
 virtual
 already_AddRefed
 <
