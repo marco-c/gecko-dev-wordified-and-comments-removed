@@ -123,6 +123,8 @@ viewDoc
 getElementById
 (
 "
+font
+-
 showall
 "
 )

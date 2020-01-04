@@ -806,6 +806,8 @@ querySelector
 (
 "
 #
+font
+-
 showall
 "
 )
