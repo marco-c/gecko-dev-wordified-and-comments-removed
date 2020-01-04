@@ -525,6 +525,7 @@ val
 nsresult
 DecodeHuffmanCharacter
 (
+const
 HuffmanIncomingTable
 *
 table
@@ -542,6 +543,7 @@ bitsLeft
 nsresult
 DecodeFinalHuffmanCharacter
 (
+const
 HuffmanIncomingTable
 *
 table
