@@ -741,7 +741,7 @@ runtime
 )
 -
 >
-isHeapBusy
+isHeapCollecting
 (
 )
 &

@@ -14890,7 +14890,7 @@ MOZ_ASSERT
 rt
 -
 >
-isHeapBusy
+isHeapCollecting
 (
 )
 )

@@ -811,17 +811,6 @@ JSIterateCompartmentCallback
 compartmentCallback
 )
 {
-MOZ_ASSERT
-(
-!
-rt
--
->
-isHeapBusy
-(
-)
-)
-;
 AutoTraceSession
 session
 (
