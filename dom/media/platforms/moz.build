@@ -270,6 +270,17 @@ MOZ_FFMPEG
 '
 ]
 :
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+xpcom
+/
+build
+'
+]
 EXPORTS
 +
 =
