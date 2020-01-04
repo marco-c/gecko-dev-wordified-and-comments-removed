@@ -7846,6 +7846,14 @@ y
 if
 (
 mDragPopup
+&
+&
+gtk_check_version
+(
+3
+19
+4
+)
 )
 {
 GtkWidget
