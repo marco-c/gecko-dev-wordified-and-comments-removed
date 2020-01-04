@@ -47,7 +47,7 @@ js
 ;
 const
 {
-censusReportToCensusTreeNode
+CensusTreeNode
 }
 =
 require
@@ -209,7 +209,8 @@ requestOptions
 .
 asTreeNode
 ?
-censusReportToCensusTreeNode
+new
+CensusTreeNode
 (
 censusOptions
 .
@@ -341,7 +342,8 @@ requestOptions
 .
 asTreeNode
 ?
-censusReportToCensusTreeNode
+new
+CensusTreeNode
 (
 censusOptions
 .
