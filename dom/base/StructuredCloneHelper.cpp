@@ -4878,7 +4878,7 @@ false
 ;
 }
 {
-MessagePortBase
+MessagePort
 *
 port
 =
@@ -4921,9 +4921,6 @@ AppendElement
 (
 )
 ;
-if
-(
-!
 port
 -
 >
@@ -4932,12 +4929,7 @@ CloneAndDisentangle
 *
 identifier
 )
-)
-{
-return
-false
 ;
-}
 *
 aTag
 =
