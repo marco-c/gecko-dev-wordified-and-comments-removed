@@ -17088,6 +17088,10 @@ n
 aState
 .
 mPrevBEndMargin
+.
+get
+(
+)
 )
 ;
 #
@@ -17231,6 +17235,10 @@ n
 aState
 .
 mPrevBEndMargin
+.
+get
+(
+)
 collapsedBEndMargin
 .
 get
@@ -17294,6 +17302,10 @@ n
 aState
 .
 mPrevBEndMargin
+.
+get
+(
+)
 collapsedBEndMargin
 .
 get
@@ -17359,6 +17371,10 @@ brc
 GetCarriedOutBEndMargin
 (
 )
+.
+get
+(
+)
 collapsedBEndMargin
 .
 get
@@ -17367,6 +17383,10 @@ get
 aState
 .
 mPrevBEndMargin
+.
+get
+(
+)
 )
 ;
 #
