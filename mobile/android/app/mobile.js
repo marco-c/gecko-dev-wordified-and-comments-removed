@@ -5035,7 +5035,7 @@ true
 )
 ;
 #
-ifdef
+ifndef
 MOZ_ANDROID_APZ
 pref
 (
@@ -5050,9 +5050,11 @@ zoom
 .
 enabled
 "
-true
+false
 )
 ;
+#
+endif
 pref
 (
 "
@@ -5249,8 +5251,6 @@ enabled
 true
 )
 ;
-#
-endif
 pref
 (
 "
@@ -7452,16 +7452,6 @@ dom
 audiochannel
 .
 mediaControl
-"
-true
-)
-;
-pref
-(
-"
-media
-.
-openUnsupportedTypeWithExternalApp
 "
 true
 )
