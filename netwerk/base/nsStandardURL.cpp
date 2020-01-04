@@ -1228,6 +1228,17 @@ net_GetStdURLParser
 #
 ifdef
 DEBUG_DUMP_URLS_AT_SHUTDOWN
+memset
+(
+&
+mDebugCList
+0
+sizeof
+(
+mDebugCList
+)
+)
+;
 if
 (
 NS_IsMainThread
