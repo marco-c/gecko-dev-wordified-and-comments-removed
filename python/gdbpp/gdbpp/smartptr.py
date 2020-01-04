@@ -148,6 +148,7 @@ GeckoPrettyPrinter
 nsAutoPtr
 '
 '
+^
 nsAutoPtr
 <
 .
@@ -161,6 +162,7 @@ GeckoPrettyPrinter
 nsCOMPtr
 '
 '
+^
 nsCOMPtr
 <
 .
@@ -174,6 +176,7 @@ GeckoPrettyPrinter
 RefPtr
 '
 '
+^
 RefPtr
 <
 .
