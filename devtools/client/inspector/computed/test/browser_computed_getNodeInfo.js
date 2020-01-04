@@ -18,9 +18,7 @@ devtools
 /
 client
 /
-inspector
-/
-shared
+styleinspector
 /
 style
 -

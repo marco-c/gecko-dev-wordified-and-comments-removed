@@ -127,9 +127,6 @@ gcli
 heapsnapshot
 '
 '
-inspector
-'
-'
 jsbeautify
 '
 '
@@ -157,6 +154,9 @@ sourcemap
 '
 '
 shims
+'
+'
+styleinspector
 '
 '
 touch

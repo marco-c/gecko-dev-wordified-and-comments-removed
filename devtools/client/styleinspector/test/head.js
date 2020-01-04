@@ -116,7 +116,7 @@ devtools
 /
 shared
 /
-inspector
+styleinspector
 /
 css
 -
@@ -221,9 +221,7 @@ devtools
 /
 client
 /
-inspector
-/
-shared
+styleinspector
 /
 test
 /
@@ -247,9 +245,7 @@ devtools
 /
 client
 /
-inspector
-/
-shared
+styleinspector
 /
 test
 /
