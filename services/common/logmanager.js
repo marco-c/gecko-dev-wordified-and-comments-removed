@@ -1762,6 +1762,12 @@ this
 )
 )
 ;
+iterator
+.
+close
+(
+)
+;
 this
 .
 _cleaningUpFileLogs

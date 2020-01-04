@@ -370,6 +370,8 @@ DirectoryIterator
 path
 )
 ;
+try
+{
 if
 (
 !
@@ -445,6 +447,16 @@ entry
 return
 entries
 ;
+}
+finally
+{
+iter
+.
+close
+(
+)
+;
+}
 }
 moveOrDeleteAllThumbnails
 :

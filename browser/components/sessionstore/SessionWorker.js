@@ -1227,6 +1227,8 @@ DirectoryIterator
 path
 )
 ;
+try
+{
 if
 (
 !
@@ -1308,6 +1310,16 @@ exn
 {
 throw
 exn
+;
+}
+}
+finally
+{
+iterator
+.
+close
+(
+)
 ;
 }
 }
