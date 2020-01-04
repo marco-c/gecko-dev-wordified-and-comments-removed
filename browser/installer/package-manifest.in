@@ -857,15 +857,6 @@ feeds
 xpt
 RESPATH
 /
-browser
-/
-components
-/
-browsermodules
-.
-manifest
-RESPATH
-/
 components
 /
 caps

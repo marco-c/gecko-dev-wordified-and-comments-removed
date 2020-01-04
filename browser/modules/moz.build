@@ -356,13 +356,3 @@ SignInToWebsite
 jsm
 '
 ]
-EXTRA_PP_COMPONENTS
-+
-=
-[
-'
-browsermodules
-.
-manifest
-'
-]
