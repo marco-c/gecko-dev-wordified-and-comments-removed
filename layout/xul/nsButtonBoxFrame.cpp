@@ -573,7 +573,6 @@ buttonEl
 {
 MouseClicked
 (
-aPresContext
 aEvent
 )
 ;
@@ -707,7 +706,6 @@ NS_EVENT_STATE_HOVER
 ;
 MouseClicked
 (
-aPresContext
 aEvent
 )
 ;
@@ -743,7 +741,6 @@ IsLeftClickEvent
 {
 MouseClicked
 (
-aPresContext
 mouseEvent
 )
 ;

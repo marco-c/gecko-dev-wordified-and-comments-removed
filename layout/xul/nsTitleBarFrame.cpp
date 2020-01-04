@@ -632,7 +632,6 @@ IsLeftClickEvent
 {
 MouseClicked
 (
-aPresContext
 mouseEvent
 )
 ;
@@ -671,9 +670,6 @@ nsTitleBarFrame
 :
 MouseClicked
 (
-nsPresContext
-*
-aPresContext
 WidgetMouseEvent
 *
 aEvent

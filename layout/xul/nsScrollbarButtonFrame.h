@@ -222,9 +222,6 @@ virtual
 void
 MouseClicked
 (
-nsPresContext
-*
-aPresContext
 mozilla
 :
 :

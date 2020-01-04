@@ -1473,7 +1473,6 @@ IsLeftClickEvent
 {
 MouseClicked
 (
-aPresContext
 mouseEvent
 )
 ;
@@ -2760,9 +2759,6 @@ nsResizerFrame
 :
 MouseClicked
 (
-nsPresContext
-*
-aPresContext
 WidgetMouseEvent
 *
 aEvent
