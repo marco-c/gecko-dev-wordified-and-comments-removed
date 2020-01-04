@@ -12,8 +12,7 @@ addEventListener
 "
 TalosQuitApplication
 "
-(
-)
+event
 =
 >
 {
@@ -59,6 +58,9 @@ Talos
 :
 ForceQuit
 "
+event
+.
+detail
 )
 ;
 }
