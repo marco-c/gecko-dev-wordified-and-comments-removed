@@ -21107,15 +21107,6 @@ return
 true
 ;
 }
-if
-(
-mSrcAttrStream
-)
-{
-return
-true
-;
-}
 return
 false
 ;
