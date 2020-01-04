@@ -8453,7 +8453,7 @@ data
 mDeclaration
 -
 >
-MapNormalRuleInfoInto
+MapRuleInfoInto
 (
 aRuleData
 )
@@ -10816,7 +10816,7 @@ aRuleData
 mDeclaration
 -
 >
-MapNormalRuleInfoInto
+MapRuleInfoInto
 (
 aRuleData
 )
