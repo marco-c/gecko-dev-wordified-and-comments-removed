@@ -7772,9 +7772,11 @@ abs_mozilla_dir
 ]
                                    
 '
-testing
-/
 taskcluster
+/
+ci
+/
+legacy
 /
 routes
 .

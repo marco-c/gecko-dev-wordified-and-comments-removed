@@ -9880,9 +9880,11 @@ abs_src_dir
 ]
                                    
 '
-testing
-/
 taskcluster
+/
+ci
+/
+legacy
 /
 routes
 .
