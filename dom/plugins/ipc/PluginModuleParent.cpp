@@ -7002,6 +7002,13 @@ GenerateChildData
 notes
 )
 ;
+crashReporter
+-
+>
+FinalizeChildData
+(
+)
+;
 return
 ;
 }
