@@ -117,11 +117,17 @@ GAIA_OPTIONS
 (
 if
 MOZ_B2GDROID
+\
 GAIA_DISTRIBUTION_DIR
 =
 distros
 /
 b2gdroid
+\
+NO_LOCK_SCREEN
+=
+1
+\
 )
 GENERATED_DIRS
 +
