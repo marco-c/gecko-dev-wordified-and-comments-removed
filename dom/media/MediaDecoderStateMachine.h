@@ -1259,11 +1259,6 @@ int64_t
 aUsecs
 )
 ;
-int64_t
-AudioDecodedUsecs
-(
-)
-;
 bool
 HasFutureAudio
 (
