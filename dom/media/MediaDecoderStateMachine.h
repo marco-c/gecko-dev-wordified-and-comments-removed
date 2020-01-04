@@ -1245,11 +1245,6 @@ SeekJob
 aSeekJob
 )
 ;
-void
-InitiateDecodeRecoverySeek
-(
-)
-;
 nsresult
 DispatchAudioDecodeTaskIfNeeded
 (
