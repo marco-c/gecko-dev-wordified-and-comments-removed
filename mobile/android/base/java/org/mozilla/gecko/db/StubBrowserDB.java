@@ -1436,6 +1436,16 @@ suggestedSites
 {
 }
 public
+SuggestedSites
+getSuggestedSites
+(
+)
+{
+return
+null
+;
+}
+public
 boolean
 hasSuggestedImageUrl
 (

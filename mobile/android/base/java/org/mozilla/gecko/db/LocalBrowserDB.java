@@ -8654,6 +8654,17 @@ suggestedSites
 }
 Override
 public
+SuggestedSites
+getSuggestedSites
+(
+)
+{
+return
+mSuggestedSites
+;
+}
+Override
+public
 boolean
 hasSuggestedImageUrl
 (
