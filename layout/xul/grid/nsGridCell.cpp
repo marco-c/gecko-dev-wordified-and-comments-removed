@@ -396,7 +396,7 @@ bool
 nsGridCell
 :
 :
-IsCollapsed
+IsXULCollapsed
 (
 )
 {
@@ -409,7 +409,7 @@ mBoxInColumn
 mBoxInColumn
 -
 >
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -422,7 +422,7 @@ mBoxInRow
 mBoxInRow
 -
 >
-IsCollapsed
+IsXULCollapsed
 (
 )
 )

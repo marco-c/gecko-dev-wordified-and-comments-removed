@@ -27237,7 +27237,7 @@ DoesClipChildren
 &
 !
 (
-IsCollapsed
+IsXULCollapsed
 (
 )
 &
@@ -41472,7 +41472,7 @@ mPrefSize
 }
 if
 (
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -41611,7 +41611,7 @@ size
 }
 if
 (
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -41751,7 +41751,7 @@ size
 }
 if
 (
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -41869,7 +41869,7 @@ mAscent
 ;
 if
 (
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -42015,7 +42015,7 @@ height
 ;
 if
 (
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -43302,7 +43302,7 @@ NS_FRAME_NO_MOVE_FRAME
 ;
 if
 (
-IsCollapsed
+IsXULCollapsed
 (
 )
 )

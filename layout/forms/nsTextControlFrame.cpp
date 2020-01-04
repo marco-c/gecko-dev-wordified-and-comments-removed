@@ -2616,7 +2616,7 @@ bool
 nsTextControlFrame
 :
 :
-IsCollapsed
+IsXULCollapsed
 (
 )
 {

@@ -636,7 +636,7 @@ collapsed
 box
 -
 >
-IsCollapsed
+IsXULCollapsed
 (
 )
 ;

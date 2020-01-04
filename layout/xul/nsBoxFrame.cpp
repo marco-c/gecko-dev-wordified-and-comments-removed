@@ -3194,7 +3194,7 @@ aBoxLayoutState
 endif
 if
 (
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -3341,7 +3341,7 @@ aBoxLayoutState
 endif
 if
 (
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -3442,7 +3442,7 @@ aBoxLayoutState
 endif
 if
 (
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -3599,7 +3599,7 @@ aBoxLayoutState
 endif
 if
 (
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -6488,7 +6488,7 @@ if
 kid
 -
 >
-IsCollapsed
+IsXULCollapsed
 (
 )
 )

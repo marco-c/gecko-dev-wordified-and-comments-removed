@@ -6040,7 +6040,7 @@ aSize
 if
 (
 !
-IsCollapsed
+IsXULCollapsed
 (
 )
 )

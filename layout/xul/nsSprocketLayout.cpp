@@ -637,7 +637,7 @@ if
 aBox
 -
 >
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -2668,7 +2668,7 @@ collapsed
 child
 -
 >
-IsCollapsed
+IsXULCollapsed
 (
 )
 ;
@@ -2804,7 +2804,7 @@ collapsed
 child
 -
 >
-IsCollapsed
+IsXULCollapsed
 (
 )
 ;
@@ -5243,7 +5243,7 @@ if
 child
 -
 >
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -5455,7 +5455,7 @@ if
 child
 -
 >
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -5719,7 +5719,7 @@ if
 child
 -
 >
-IsCollapsed
+IsXULCollapsed
 (
 )
 )

@@ -1780,7 +1780,7 @@ if
 row
 -
 >
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -1831,7 +1831,7 @@ if
 row
 -
 >
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -1982,7 +1982,7 @@ if
 box
 -
 >
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -2224,7 +2224,7 @@ if
 box
 -
 >
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -2482,7 +2482,7 @@ if
 row
 -
 >
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -2714,7 +2714,7 @@ if
 child
 -
 >
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -2798,7 +2798,7 @@ if
 row
 -
 >
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -3035,7 +3035,7 @@ if
 child
 -
 >
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -3115,7 +3115,7 @@ if
 row
 -
 >
-IsCollapsed
+IsXULCollapsed
 (
 )
 )
@@ -3347,7 +3347,7 @@ if
 child
 -
 >
-IsCollapsed
+IsXULCollapsed
 (
 )
 )

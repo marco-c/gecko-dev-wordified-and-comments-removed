@@ -3697,7 +3697,7 @@ bool
 nsHTMLScrollFrame
 :
 :
-IsCollapsed
+IsXULCollapsed
 (
 )
 {

@@ -131,7 +131,7 @@ mBottom
 ;
 }
 bool
-IsCollapsed
+IsXULCollapsed
 (
 )
 ;
