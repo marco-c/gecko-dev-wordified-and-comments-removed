@@ -1083,14 +1083,13 @@ mStorageID
 bool
 const
 mUseDisk
-:
-1
 ;
 bool
 const
 mSkipSizeCheck
-:
-1
+;
+bool
+mIsDoomed
 ;
 bool
 mSecurityInfoLoaded
@@ -1116,9 +1115,6 @@ bool
 mPinningKnown
 :
 1
-;
-bool
-mIsDoomed
 ;
 static
 char
