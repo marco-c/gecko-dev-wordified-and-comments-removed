@@ -461,6 +461,16 @@ size_t
 count
 )
 {
+BROTLI_UNUSED
+(
+data
+)
+;
+BROTLI_UNUSED
+(
+buf
+)
+;
 return
 (
 int
@@ -471,6 +481,7 @@ count
 BrotliOutput
 BrotliNullOutput
 (
+void
 )
 {
 BrotliOutput

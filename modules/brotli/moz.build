@@ -135,13 +135,6 @@ h
 '
 dec
 /
-streams
-.
-h
-'
-'
-dec
-/
 types
 .
 h
@@ -183,13 +176,6 @@ c
 dec
 /
 state
-.
-c
-'
-'
-dec
-/
-streams
 .
 c
 '

@@ -311,6 +311,7 @@ count
 BrotliOutput
 BrotliNullOutput
 (
+void
 )
 ;
 #

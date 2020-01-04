@@ -31,9 +31,6 @@ o
 state
 .
 o
-streams
-.
-o
 all
 :
 (

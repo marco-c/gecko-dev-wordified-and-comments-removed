@@ -42,6 +42,8 @@ d
 -
 t
 brotli_update
+.
+XXXXXX
 |
 |
 exit
