@@ -8360,21 +8360,6 @@ DIRS
         
 o
 .
-test_dirs
-=
-context
-.
-get
-(
-'
-TEST_DIRS
-'
-[
-]
-)
-        
-o
-.
 affected_tiers
 =
 context

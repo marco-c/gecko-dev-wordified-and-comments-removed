@@ -490,10 +490,6 @@ __slots__
 '
 dirs
 '
-        
-'
-test_dirs
-'
     
 )
     
@@ -516,13 +512,6 @@ context
 self
 .
 dirs
-=
-[
-]
-        
-self
-.
-test_dirs
 =
 [
 ]
