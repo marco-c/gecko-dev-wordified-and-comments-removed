@@ -38,6 +38,16 @@ jsm
 }
 )
 ;
+const
+Services
+=
+require
+(
+"
+Services
+"
+)
+;
 var
 DevToolsUtils
 =
