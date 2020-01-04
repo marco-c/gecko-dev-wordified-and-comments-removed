@@ -177,6 +177,11 @@ URI_CAN_LOAD_IN_CHILD
 nsIAboutModule
 :
 :
+MAKE_LINKABLE
+|
+nsIAboutModule
+:
+:
 HIDE_FROM_ABOUTABOUT
 ;
 return

@@ -498,6 +498,11 @@ ALLOW_SCRIPT
 nsIAboutModule
 :
 :
+MAKE_LINKABLE
+|
+nsIAboutModule
+:
+:
 ENABLE_INDEXED_DB
 }
 {
@@ -656,6 +661,11 @@ HIDE_FROM_ABOUTABOUT
 nsIAboutModule
 :
 :
+MAKE_LINKABLE
+|
+nsIAboutModule
+:
+:
 ENABLE_INDEXED_DB
 }
 {
@@ -691,6 +701,11 @@ nsIAboutModule
 :
 :
 HIDE_FROM_ABOUTABOUT
+|
+nsIAboutModule
+:
+:
+MAKE_LINKABLE
 |
 nsIAboutModule
 :
@@ -733,11 +748,6 @@ nsIAboutModule
 :
 :
 URI_MUST_LOAD_IN_CHILD
-|
-nsIAboutModule
-:
-:
-MAKE_UNLINKABLE
 |
 nsIAboutModule
 :
