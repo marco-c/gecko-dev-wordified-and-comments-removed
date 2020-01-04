@@ -3488,7 +3488,7 @@ if
 frame
 -
 >
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )

@@ -5625,7 +5625,7 @@ displayAtom
 =
 iter
 .
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 ?

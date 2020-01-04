@@ -158,7 +158,7 @@ calleeToken
 ;
 if
 (
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )
@@ -646,7 +646,7 @@ cx
 {
 MOZ_ASSERT
 (
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )

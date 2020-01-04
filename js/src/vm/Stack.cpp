@@ -1405,7 +1405,7 @@ this
 ;
 MOZ_ASSERT
 (
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )
@@ -1756,7 +1756,7 @@ return
 ;
 MOZ_ASSERT
 (
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )
@@ -1921,7 +1921,7 @@ isDerivedClassConstructor
 ;
 MOZ_ASSERT
 (
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )
@@ -4769,7 +4769,7 @@ bool
 FrameIter
 :
 :
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 const
@@ -4803,7 +4803,7 @@ interpFrame
 )
 -
 >
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 ;
@@ -4830,7 +4830,7 @@ baselineFrame
 )
 -
 >
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 ;
@@ -4872,7 +4872,7 @@ const
 {
 MOZ_ASSERT
 (
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )
@@ -5874,7 +5874,7 @@ INTERP
 :
 MOZ_ASSERT
 (
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )
@@ -6228,7 +6228,7 @@ INTERP
 :
 MOZ_ASSERT
 (
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )
@@ -6580,7 +6580,7 @@ const
 {
 MOZ_ASSERT
 (
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )
@@ -7510,7 +7510,7 @@ if
 entryFrame
 -
 >
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )

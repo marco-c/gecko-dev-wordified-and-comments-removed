@@ -23620,7 +23620,7 @@ if
 (
 frame
 .
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 &

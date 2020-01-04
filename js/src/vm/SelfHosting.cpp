@@ -3814,7 +3814,7 @@ MOZ_ASSERT
 (
 iter
 .
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )

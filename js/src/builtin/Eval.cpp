@@ -1439,7 +1439,7 @@ DIRECT_EVAL
 &
 caller
 .
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )

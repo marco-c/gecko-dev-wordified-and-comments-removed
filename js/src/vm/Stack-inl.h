@@ -191,7 +191,7 @@ flags_
 &
 HAS_SCOPECHAIN
 )
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )
@@ -382,8 +382,6 @@ script
 ;
 flags_
 =
-FUNCTION
-|
 HAS_SCOPECHAIN
 |
 flagsArg
@@ -3566,7 +3564,7 @@ hasArgs
 const
 {
 return
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 ;
@@ -3738,7 +3736,7 @@ bool
 AbstractFramePtr
 :
 :
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 const
@@ -3755,7 +3753,7 @@ asInterpreterFrame
 )
 -
 >
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 ;
@@ -3771,7 +3769,7 @@ asBaselineFrame
 )
 -
 >
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 ;
@@ -3781,7 +3779,7 @@ asRematerializedFrame
 )
 -
 >
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 ;

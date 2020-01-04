@@ -1377,7 +1377,7 @@ if
 (
 fp
 .
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 &

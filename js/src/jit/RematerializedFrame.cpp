@@ -787,14 +787,14 @@ cx
 {
 MOZ_ASSERT
 (
-isNonEvalFunctionFrame
+isFunctionFrame
 (
 )
 )
 ;
 MOZ_ASSERT
 (
-fun
+callee
 (
 )
 -
