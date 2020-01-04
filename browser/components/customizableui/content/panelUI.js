@@ -771,6 +771,7 @@ popupshown
 function
 onPopupShown
 (
+event
 )
 {
 this
