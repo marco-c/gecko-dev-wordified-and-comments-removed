@@ -233,6 +233,13 @@ wrap_content
 "
 android
 :
+layout_marginRight
+=
+"
+15dp
+"
+android
+:
 duplicateParentState
 =
 "
