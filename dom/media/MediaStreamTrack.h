@@ -1076,6 +1076,10 @@ ForwardTrackContentsTo
 ProcessedMediaStream
 *
 aStream
+TrackID
+aDestinationTrackID
+=
+TRACK_ANY
 )
 ;
 bool
