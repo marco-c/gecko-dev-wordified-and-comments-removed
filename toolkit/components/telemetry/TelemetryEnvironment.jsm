@@ -2985,6 +2985,16 @@ result
 changed
 :
 !
+this
+.
+_environment
+.
+_currentEnvironment
+.
+addons
+|
+|
+!
 ObjectUtils
 .
 deepEqual
