@@ -3677,7 +3677,7 @@ null
 Node
 pn
 =
-statements
+statementList
 (
 YieldIsName
 )
@@ -8752,7 +8752,7 @@ ParseNode
 *
 body
 =
-statements
+statementList
 (
 YieldIsName
 )
@@ -9118,7 +9118,7 @@ ParseNode
 *
 body
 =
-statements
+statementList
 (
 YieldIsName
 )
@@ -9299,7 +9299,7 @@ ParseNode
 *
 pn
 =
-statements
+statementList
 (
 YieldIsKeyword
 )
@@ -11380,7 +11380,7 @@ StatementListBody
 {
 pn
 =
-statements
+statementList
 (
 yieldHandling
 )
@@ -17127,7 +17127,7 @@ ParseHandler
 >
 :
 :
-statements
+statementList
 (
 YieldHandling
 yieldHandling
@@ -18995,7 +18995,7 @@ null
 Node
 list
 =
-statements
+statementList
 (
 yieldHandling
 )
@@ -27716,7 +27716,7 @@ null
 ;
 innerBlock
 =
-statements
+statementList
 (
 yieldHandling
 )
@@ -28308,7 +28308,7 @@ null
 ;
 finallyBlock
 =
-statements
+statementList
 (
 yieldHandling
 )
@@ -28491,7 +28491,7 @@ null
 Node
 list
 =
-statements
+statementList
 (
 yieldHandling
 )
@@ -28527,7 +28527,7 @@ else
 {
 body
 =
-statements
+statementList
 (
 yieldHandling
 )
