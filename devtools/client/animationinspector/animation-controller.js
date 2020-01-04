@@ -102,9 +102,9 @@ AnimationsFront
 "
 devtools
 /
-server
+shared
 /
-actors
+fronts
 /
 animation
 "
