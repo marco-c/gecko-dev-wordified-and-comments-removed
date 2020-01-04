@@ -2406,7 +2406,7 @@ test
 /
 general
 /
-pinning_reports
+ssl_error_reports
 .
 sjs
 ?

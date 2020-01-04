@@ -2055,16 +2055,6 @@ sent
 ENTITY
 errorReporting
 .
-report
-"
-Report
-"
->
-<
-!
-ENTITY
-errorReporting
-.
 tryAgain
 "
 Try
