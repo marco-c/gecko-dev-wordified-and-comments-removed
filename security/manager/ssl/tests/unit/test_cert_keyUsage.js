@@ -411,7 +411,6 @@ certdb
 .
 findCertByNickname
 (
-null
 ca
 )
 ;

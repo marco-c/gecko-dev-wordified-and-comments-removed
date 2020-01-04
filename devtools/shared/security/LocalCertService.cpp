@@ -1132,7 +1132,6 @@ certDB
 >
 FindCertByNickname
 (
-nullptr
 NS_ConvertASCIItoUTF16
 (
 mNickname

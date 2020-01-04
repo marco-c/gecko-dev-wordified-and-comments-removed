@@ -723,7 +723,6 @@ certdb
 .
 findCertByNickname
 (
-null
 '
 ca
 '
@@ -752,7 +751,6 @@ certdb
 .
 findCertByNickname
 (
-null
 '
 int
 '
@@ -781,7 +779,6 @@ certdb
 .
 findCertByNickname
 (
-null
 '
 ee
 '

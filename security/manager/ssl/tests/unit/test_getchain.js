@@ -361,7 +361,6 @@ certdb
 .
 findCertByNickname
 (
-null
 '
 ee
 '

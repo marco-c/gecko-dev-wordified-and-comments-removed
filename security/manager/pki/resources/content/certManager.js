@@ -3136,7 +3136,6 @@ certdb
 .
 importCertsFromFile
 (
-null
 fp
 .
 file
@@ -3361,7 +3360,6 @@ certdb
 .
 importCertsFromFile
 (
-null
 fp
 .
 file
@@ -3509,7 +3507,6 @@ certdb
 .
 importCertsFromFile
 (
-null
 fp
 .
 file

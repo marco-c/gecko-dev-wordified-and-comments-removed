@@ -222,7 +222,6 @@ certDB
 findCertByDBKey
 (
 dbKey
-null
 )
 ;
 }
@@ -271,7 +270,6 @@ certDB
 findCertByDBKey
 (
 dbKey
-null
 )
 ;
 ok
@@ -552,7 +550,6 @@ certDB
 findCertByDBKey
 (
 expectedDbKey
-null
 )
 ;
 ok
@@ -658,7 +655,6 @@ certDB
 findCertByDBKey
 (
 expectedDbKeyWithCRLF
-null
 )
 ;
 ok
@@ -736,7 +732,6 @@ certDB
 findCertByDBKey
 (
 expectedDbKeyWithSpaces
-null
 )
 ;
 ok
