@@ -2118,9 +2118,10 @@ const
 nsAString
 &
 aSessionId
-nsIInputStream
-*
-aStream
+const
+nsAString
+&
+aData
 )
 {
 MOZ_ASSERT
@@ -2132,7 +2133,12 @@ NS_IsMainThread
 ;
 MOZ_ASSERT
 (
-aStream
+!
+aData
+.
+IsEmpty
+(
+)
 )
 ;
 MOZ_ASSERT
@@ -2175,7 +2181,7 @@ info
 >
 Send
 (
-aStream
+aData
 )
 ;
 }
