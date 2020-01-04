@@ -703,6 +703,7 @@ IsVisible
 )
 {
 result
+&
 =
 nsCSSRendering
 :
@@ -911,6 +912,9 @@ if
 aPaintTableBackground
 )
 {
+result
+&
+=
 PaintTableFrame
 (
 aTableFrame
