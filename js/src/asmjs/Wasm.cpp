@@ -84,6 +84,13 @@ namespace
 js
 :
 :
+jit
+;
+using
+namespace
+js
+:
+:
 wasm
 ;
 using

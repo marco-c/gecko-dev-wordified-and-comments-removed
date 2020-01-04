@@ -4546,6 +4546,9 @@ JSObject
 *
 unwrapped
 =
+js
+:
+:
 CheckedUnwrap
 (
 obj
