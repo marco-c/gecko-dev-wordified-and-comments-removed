@@ -14814,6 +14814,13 @@ SetIsResizeSuppressed
 (
 )
 ;
+rd
+-
+>
+ScheduleViewManagerFlush
+(
+)
+;
 }
 if
 (
