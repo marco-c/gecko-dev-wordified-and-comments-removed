@@ -2838,6 +2838,13 @@ java
 '
 home
 /
+ClientsAdapter
+.
+java
+'
+'
+home
+/
 CombinedHistoryAdapter
 .
 java

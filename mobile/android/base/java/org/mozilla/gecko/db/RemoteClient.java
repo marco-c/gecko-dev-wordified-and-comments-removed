@@ -106,7 +106,6 @@ tabs
 new
 ArrayList
 <
-RemoteTab
 >
 (
 )
