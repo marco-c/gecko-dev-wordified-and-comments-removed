@@ -1296,13 +1296,6 @@ lint
 *
 *
 '
--
-'
-taskcluster
-/
-*
-*
-'
 taskgraph
 -
 tests
