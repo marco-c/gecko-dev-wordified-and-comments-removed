@@ -2997,7 +2997,7 @@ YieldHandling
 yieldHandling
 PropertyType
 propType
-HandleAtom
+HandlePropertyName
 funName
 )
 ;
@@ -3022,7 +3022,7 @@ InHandling
 inHandling
 YieldHandling
 uieldHandling
-HandleAtom
+HandlePropertyName
 name
 FunctionSyntaxKind
 kind
@@ -3353,8 +3353,8 @@ pn
 bool
 checkFunctionDefinition
 (
-HandleAtom
-funAtom
+HandlePropertyName
+funName
 Node
 *
 pn
@@ -3955,16 +3955,6 @@ FunctionSyntaxKind
 kind
 =
 Expression
-)
-;
-JSAtom
-*
-prefixAccessorName
-(
-PropertyType
-propType
-HandleAtom
-propAtom
 )
 ;
 TokenPos
