@@ -9006,6 +9006,7 @@ workerHolder
 HoldWorker
 (
 aWorkerPrivate
+Terminating
 )
 )
 )

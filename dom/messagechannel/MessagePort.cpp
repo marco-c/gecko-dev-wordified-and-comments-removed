@@ -1590,6 +1590,7 @@ workerHolder
 HoldWorker
 (
 workerPrivate
+Closing
 )
 )
 )
