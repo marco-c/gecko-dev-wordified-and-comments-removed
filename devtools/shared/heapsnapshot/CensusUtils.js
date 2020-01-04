@@ -20,6 +20,7 @@ enter
 function
 (
 breakdown
+report
 edge
 )
 {
@@ -34,6 +35,8 @@ exit
 function
 (
 breakdown
+report
+edge
 )
 {
 }
@@ -382,6 +385,7 @@ visitor
 enter
 (
 breakdown
+report
 edge
 )
 ;
@@ -399,6 +403,7 @@ visitor
 exit
 (
 breakdown
+report
 edge
 )
 ;
@@ -410,6 +415,7 @@ visitor
 enter
 (
 breakdown
+report
 edge
 )
 ;
@@ -443,6 +449,7 @@ visitor
 exit
 (
 breakdown
+report
 edge
 )
 ;
@@ -651,6 +658,7 @@ enter
 function
 (
 breakdown
+report
 edge
 )
 {
@@ -828,6 +836,8 @@ exit
 function
 (
 breakdown
+report
+edge
 )
 {
 const
