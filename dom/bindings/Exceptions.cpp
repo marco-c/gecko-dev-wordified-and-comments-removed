@@ -2105,6 +2105,9 @@ JSStackFrame
 :
 GetCaller
 (
+JSContext
+*
+aCx
 nsIStackFrame
 *
 *
@@ -2126,9 +2129,6 @@ return
 NS_OK
 ;
 }
-ThreadsafeAutoJSContext
-cx
-;
 JS
 :
 :
@@ -2139,7 +2139,7 @@ JSObject
 >
 callerObj
 (
-cx
+aCx
 )
 ;
 bool
@@ -2152,7 +2152,7 @@ false
 ;
 GetValueIfNotCached
 (
-cx
+aCx
 mStack
 JS
 :
@@ -2232,6 +2232,9 @@ JSStackFrame
 :
 GetFormattedStack
 (
+JSContext
+*
+aCx
 nsAString
 &
 aStack
@@ -2253,9 +2256,6 @@ return
 NS_OK
 ;
 }
-ThreadsafeAutoJSContext
-cx
-;
 bool
 canCache
 =
@@ -2264,7 +2264,7 @@ js
 :
 GetContextCompartment
 (
-cx
+aCx
 )
 =
 =
@@ -2310,7 +2310,7 @@ JSObject
 >
 stack
 (
-cx
+aCx
 mStack
 )
 ;
@@ -2324,7 +2324,7 @@ JSString
 >
 formattedStack
 (
-cx
+aCx
 )
 ;
 if
@@ -2335,7 +2335,7 @@ JS
 :
 BuildStackString
 (
-cx
+aCx
 stack
 &
 formattedStack
@@ -2344,7 +2344,7 @@ formattedStack
 {
 JS_ClearPendingException
 (
-cx
+aCx
 )
 ;
 aStack
@@ -2367,14 +2367,14 @@ str
 .
 init
 (
-cx
+aCx
 formattedStack
 )
 )
 {
 JS_ClearPendingException
 (
-cx
+aCx
 )
 ;
 aStack
