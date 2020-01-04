@@ -3577,8 +3577,6 @@ PlayAudio
 MediaStream
 *
 aStream
-GraphTime
-aTo
 )
 {
 MOZ_ASSERT
@@ -3742,7 +3740,7 @@ while
 (
 t
 <
-aTo
+mStateComputedTime
 )
 {
 bool
@@ -3761,7 +3759,7 @@ end
 =
 blocked
 ?
-aTo
+mStateComputedTime
 :
 aStream
 -
@@ -3773,7 +3771,7 @@ NS_ASSERTION
 end
 <
 =
-aTo
+mStateComputedTime
 "
 mStartBlocking
 is
@@ -5926,8 +5924,6 @@ MediaStreamGraphImpl
 :
 Process
 (
-GraphTime
-aTo
 )
 {
 bool
@@ -6107,7 +6103,7 @@ SampleRate
 (
 )
 mProcessedTime
-aTo
+mStateComputedTime
 )
 ;
 doneAllProducing
@@ -6123,7 +6119,7 @@ ps
 ProcessInput
 (
 mProcessedTime
-aTo
+mStateComputedTime
 ProcessedMediaStream
 :
 :
@@ -6145,7 +6141,7 @@ GetEnd
 GraphTimeToStreamTimeWithBlocking
 (
 stream
-aTo
+mStateComputedTime
 )
 "
 Stream
@@ -6193,7 +6189,6 @@ ticksPlayedForThisStream
 PlayAudio
 (
 stream
-aTo
 )
 ;
 if
@@ -6579,7 +6574,6 @@ stateEnd
 ;
 Process
 (
-stateEnd
 )
 ;
 GraphTime

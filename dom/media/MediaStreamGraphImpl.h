@@ -443,8 +443,6 @@ mBackMessageQueue
 void
 Process
 (
-GraphTime
-aTo
 )
 ;
 void
@@ -627,8 +625,6 @@ PlayAudio
 MediaStream
 *
 aStream
-GraphTime
-aTo
 )
 ;
 void
