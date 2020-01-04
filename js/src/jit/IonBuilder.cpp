@@ -56153,6 +56153,9 @@ maybeUnboxedLayout
 )
 )
 {
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 if
 (
 layout
@@ -56176,7 +56179,9 @@ group
 )
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 IonBuilder

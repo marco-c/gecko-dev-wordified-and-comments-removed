@@ -2171,6 +2171,9 @@ initializeSlotRange
 oldSpan
 )
 ;
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 if
 (
 oldSpan
@@ -2187,7 +2190,9 @@ oldSpan
 newSpan
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 NativeObject

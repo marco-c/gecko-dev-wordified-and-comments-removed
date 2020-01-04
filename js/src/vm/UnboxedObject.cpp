@@ -7241,6 +7241,9 @@ AllocKind
 OBJECT0
 )
 ;
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 uint8_t
 *
 data
@@ -7266,7 +7269,9 @@ if
 !
 data
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 Failed
@@ -10869,6 +10874,9 @@ initlen
 )
 return
 ;
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 if
 (
 !
@@ -10878,7 +10886,9 @@ cx
 initlen
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 UnboxedArrayObject

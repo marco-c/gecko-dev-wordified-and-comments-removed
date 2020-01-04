@@ -568,6 +568,9 @@ fixup
 )
 )
 {
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 if
 (
 !
@@ -584,7 +587,9 @@ t
 )
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 js

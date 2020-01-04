@@ -1685,7 +1685,7 @@ double
 when
 )
 ;
-bool
+void
 recomputeDebuggeeZoneSet
 (
 )

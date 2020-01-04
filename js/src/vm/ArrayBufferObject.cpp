@@ -2464,6 +2464,9 @@ hasTypedObjectViews
 )
 )
 {
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 if
 (
 !
@@ -2480,7 +2483,9 @@ getGroup
 cx
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 ArrayBufferObject

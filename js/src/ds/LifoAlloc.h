@@ -1180,6 +1180,9 @@ size_t
 n
 )
 {
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 if
 (
 void
@@ -1194,7 +1197,9 @@ n
 return
 result
 ;
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 LifoAlloc

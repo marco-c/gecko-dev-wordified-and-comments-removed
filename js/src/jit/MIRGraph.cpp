@@ -444,6 +444,9 @@ i
 return
 ;
 }
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 if
 (
 !
@@ -454,7 +457,9 @@ append
 group
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 addAbortedPreliminaryGroup
@@ -5502,6 +5507,9 @@ successorWithPhis
 )
 )
 ;
+AutoEnterOOMUnsafeRegion
+oomUnsafe
+;
 if
 (
 !
@@ -5556,7 +5564,9 @@ existingPosition
 )
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 MBasicBlock
@@ -5578,7 +5588,9 @@ append
 pred
 )
 )
-CrashAtUnhandlableOOM
+oomUnsafe
+.
+crash
 (
 "
 MBasicBlock
