@@ -793,6 +793,13 @@ IsAbsolutelyPositionedStyle
 IsRelativelyPositionedStyle
 (
 )
+|
+|
+(
+mWillChangeBitField
+&
+NS_STYLE_WILL_CHANGE_ABSPOS_CB
+)
 )
 &
 &
