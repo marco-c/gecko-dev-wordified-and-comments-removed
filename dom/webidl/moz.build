@@ -600,6 +600,16 @@ DataTransfer
 webidl
 '
 '
+DataTransferItem
+.
+webidl
+'
+'
+DataTransferItemList
+.
+webidl
+'
+'
 DecoderDoctorNotification
 .
 webidl

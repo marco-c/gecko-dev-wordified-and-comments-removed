@@ -148,8 +148,6 @@ attribute
 DOMString
 effectAllowed
 ;
-/
-/
 readonly
 attribute
 DataTransferItemList
@@ -169,6 +167,9 @@ long
 y
 )
 ;
+[
+Throws
+]
 readonly
 attribute
 DOMStringList
