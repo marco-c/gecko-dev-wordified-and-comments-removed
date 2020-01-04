@@ -20949,6 +20949,7 @@ PresShell
 :
 PaintRangePaintInfo
 (
+const
 nsTArray
 <
 UniquePtr
@@ -20956,7 +20957,7 @@ UniquePtr
 RangePaintInfo
 >
 >
-*
+&
 aItems
 nsISelection
 *
@@ -21608,6 +21609,7 @@ SELECTION_HIDDEN
 ;
 for
 (
+const
 UniquePtr
 <
 RangePaintInfo
@@ -21615,7 +21617,6 @@ RangePaintInfo
 &
 rangeInfo
 :
-*
 aItems
 )
 {
@@ -21947,7 +21948,6 @@ y
 return
 PaintRangePaintInfo
 (
-&
 rangeItems
 nullptr
 aRegion
@@ -22090,7 +22090,6 @@ nullptr
 return
 PaintRangePaintInfo
 (
-&
 rangeItems
 aSelection
 nullptr

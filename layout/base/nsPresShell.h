@@ -2191,6 +2191,7 @@ SourceSurface
 >
 PaintRangePaintInfo
 (
+const
 nsTArray
 <
 mozilla
@@ -2201,7 +2202,7 @@ UniquePtr
 RangePaintInfo
 >
 >
-*
+&
 aItems
 nsISelection
 *
