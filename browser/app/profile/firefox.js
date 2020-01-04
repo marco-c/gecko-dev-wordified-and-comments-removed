@@ -14482,6 +14482,9 @@ tab
 true
 )
 ;
+#
+ifndef
+RELEASE_BUILD
 pref
 (
 "
@@ -14494,9 +14497,6 @@ enabled
 true
 )
 ;
-#
-ifndef
-RELEASE_BUILD
 pref
 (
 "
@@ -14511,8 +14511,6 @@ enabled
 true
 )
 ;
-#
-endif
 pref
 (
 "
@@ -14525,6 +14523,8 @@ enabled
 true
 )
 ;
+#
+endif
 pref
 (
 "

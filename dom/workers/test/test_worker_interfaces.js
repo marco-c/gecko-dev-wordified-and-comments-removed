@@ -424,6 +424,9 @@ false
 android
 :
 false
+release
+:
+false
 }
 {
 name
@@ -435,6 +438,9 @@ b2g
 :
 false
 android
+:
+false
+release
 :
 false
 }
@@ -457,6 +463,9 @@ nightlyAndroid
 :
 true
 android
+:
+false
+release
 :
 false
 }
