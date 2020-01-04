@@ -1806,12 +1806,6 @@ clear
 )
 ;
 }
-LoadFaviconTask
-.
-closeHTTPClient
-(
-)
-;
 }
 public
 static
