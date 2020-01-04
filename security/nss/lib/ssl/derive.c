@@ -2967,6 +2967,12 @@ csdef
 !
 =
 SECSuccess
+|
+|
+SSL_IS_SSL2_CIPHER
+(
+suite
+)
 )
 continue
 ;

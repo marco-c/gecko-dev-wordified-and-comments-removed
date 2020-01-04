@@ -6990,7 +6990,7 @@ int
 *
 newInit
 int
-inFlags
+flags
 PRUint32
 accessOps
 SDB
@@ -7067,13 +7067,6 @@ PR_FALSE
 ;
 PRBool
 create
-;
-int
-flags
-=
-inFlags
-&
-0x7
 ;
 *
 pSdb
@@ -7948,7 +7941,7 @@ sdb
 >
 sdb_flags
 =
-inFlags
+flags
 |
 SDB_HAS_META
 ;

@@ -92,10 +92,6 @@ NULL
 CPPSRCS
 =
 \
-ssl_v2_client_hello_unittest
-.
-cc
-\
 ssl_agent_unittest
 .
 cc

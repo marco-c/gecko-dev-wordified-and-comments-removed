@@ -100,10 +100,6 @@ PR_Assert
 PR_Assert_stub
 #
 define
-PR_Access
-PR_Access_stub
-#
-define
 PR_CallOnce
 PR_CallOnce_stub
 #

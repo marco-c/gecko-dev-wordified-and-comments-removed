@@ -125,9 +125,6 @@ ssl_sign_dsa
 ssl_sign_ecdsa
 =
 3
-ssl_sign_psk
-=
-4
 }
 SSLSignType
 ;
@@ -189,9 +186,6 @@ ssl_auth_kea
 ssl_auth_ecdsa
 =
 4
-ssl_auth_psk
-=
-5
 }
 SSLAuthType
 ;
@@ -533,9 +527,6 @@ ssl_session_ticket_xtn
 ssl_tls13_key_share_xtn
 =
 40
-ssl_tls13_pre_shared_key_xtn
-=
-41
 ssl_next_proto_nego_xtn
 =
 13172
@@ -551,7 +542,7 @@ SSLExtensionType
 #
 define
 SSL_MAX_EXTENSIONS
-15
+14
 /
 *
 doesn

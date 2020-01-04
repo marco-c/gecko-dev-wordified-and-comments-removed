@@ -177,12 +177,6 @@ kTlsAlertNoApplicationProtocol
 ;
 const
 uint8_t
-kTlsExtensionPreSharedKey
-=
-41
-;
-const
-uint8_t
 kTlsFakeChangeCipherSpec
 [
 ]

@@ -676,9 +676,6 @@ Pk11Install_Info_new
 void
 Pk11Install_Info_init
 (
-Pk11Install_Info
-*
-_this
 )
 ;
 void

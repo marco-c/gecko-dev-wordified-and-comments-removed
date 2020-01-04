@@ -328,12 +328,6 @@ char
 domain
 )
 ;
-PRBool
-lg_FIPSEntryOK
-(
-void
-)
-;
 #
 define
 LG_TOKEN_MASK

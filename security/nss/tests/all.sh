@@ -727,13 +727,6 @@ use
 32bit
 build
 #
-USE_ASAN
--
-use
-Address
-Sanitizer
-build
-#
 #
 Optional
 environment
@@ -1957,7 +1950,6 @@ crmf
 smime
 merge
 multinit
-util_gtests
 "
 echo
 "
@@ -2370,7 +2362,6 @@ chains
 ssl_gtests
 pk11_gtests
 der_gtests
-util_gtests
 "
 echo
 "
@@ -2709,7 +2700,6 @@ pkits
 ssl_gtests
 pk11_gtests
 der_gtests
-util_gtests
 "
 echo
 "
@@ -3124,7 +3114,6 @@ chains
 ssl_gtests
 pk11_gtests
 der_gtests
-util_gtests
 "
 TESTS
 =

@@ -122,6 +122,8 @@ OS_CFLAGS
 DSO_CFLAGS
 )
 -
+ansi
+-
 Wall
 -
 Wno
