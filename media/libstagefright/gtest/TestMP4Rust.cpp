@@ -251,7 +251,7 @@ fclose
 f
 )
 ;
-int32_t
+bool
 rv
 =
 read_box_from_buffer
@@ -271,7 +271,7 @@ size
 EXPECT_EQ
 (
 rv
-2
+0
 )
 ;
 }
