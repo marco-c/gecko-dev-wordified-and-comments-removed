@@ -41,7 +41,7 @@ android
 .
 widget
 .
-ImageButton
+ImageView
 ;
 public
 class
@@ -783,11 +783,11 @@ isSatisfied
 (
 )
 {
-ImageButton
+ImageView
 btn
 =
 (
-ImageButton
+ImageView
 )
 mSolo
 .
