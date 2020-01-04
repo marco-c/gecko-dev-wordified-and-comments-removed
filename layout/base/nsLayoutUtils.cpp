@@ -9649,8 +9649,6 @@ const
 ContainerLayerParameters
 &
 aContainerParameters
-bool
-aIsClipFixed
 )
 {
 float
@@ -10017,7 +10015,6 @@ SetFixedPositionData
 id
 anchor
 sides
-aIsClipFixed
 )
 ;
 }
