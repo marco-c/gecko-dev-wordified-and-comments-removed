@@ -291,7 +291,7 @@ c_str
 line_
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 timer
 =
