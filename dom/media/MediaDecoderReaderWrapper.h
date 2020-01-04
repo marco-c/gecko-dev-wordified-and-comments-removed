@@ -632,13 +632,6 @@ aProxy
 }
 #
 endif
-void
-SetVideoBlankDecode
-(
-bool
-aIsBlankDecode
-)
-;
 private
 :
 ~
