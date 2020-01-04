@@ -613,6 +613,14 @@ return
 nsContentUtils
 :
 :
+IsCallerChrome
+(
+)
+|
+|
+nsContentUtils
+:
+:
 IsSpecificAboutPage
 (
 aGlobal
