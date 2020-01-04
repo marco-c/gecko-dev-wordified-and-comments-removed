@@ -674,7 +674,6 @@ F64Exp
 F64Log
 F64Pow
 F64Atan2
-AtomicsFence
 I32AtomicsCompareExchange
 I32AtomicsExchange
 I32AtomicsLoad

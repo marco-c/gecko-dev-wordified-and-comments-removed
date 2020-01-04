@@ -1364,11 +1364,6 @@ RecompileCheck
 \
 _
 (
-MemoryBarrier
-)
-\
-_
-(
 AsmJSCompareExchangeHeap
 )
 \

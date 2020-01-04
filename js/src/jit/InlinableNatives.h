@@ -79,11 +79,6 @@ AtomicsStore
 \
 _
 (
-AtomicsFence
-)
-\
-_
-(
 AtomicsAdd
 )
 \

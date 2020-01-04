@@ -351,12 +351,6 @@ x
 0
 )
 ;
-Atomics
-.
-fence
-(
-)
-;
 assertEq
 (
 Atomics
@@ -745,10 +739,6 @@ gAtomics_store
 a
 x
 0
-)
-;
-gAtomics_fence
-(
 )
 ;
 assertEq
@@ -3178,12 +3168,6 @@ gAtomics_store
 Atomics
 .
 store
-;
-gAtomics_fence
-=
-Atomics
-.
-fence
 ;
 gAtomics_add
 =
