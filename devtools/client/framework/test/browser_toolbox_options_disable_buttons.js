@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 doc
 =
@@ -117,6 +122,9 @@ utf8
 test
 for
 dynamically
+"
++
+"
 registering
 and
 unregistering
@@ -177,7 +185,7 @@ then
 >
 {
 let
-target
+tabTarget
 =
 TargetFactory
 .
@@ -192,7 +200,7 @@ gDevTools
 .
 showToolbox
 (
-target
+tabTarget
 )
 .
 then
@@ -247,7 +255,7 @@ promise
 function
 testSelectTool
 (
-aToolbox
+devtoolsToolbox
 )
 {
 let
@@ -271,7 +279,7 @@ panel
 ;
 toolbox
 =
-aToolbox
+devtoolsToolbox
 ;
 doc
 =
@@ -468,10 +476,10 @@ toolboxButtonNodes
 .
 filter
 (
-button
+toolboxButton
 =
 >
-button
+toolboxButton
 .
 id
 =
@@ -917,10 +925,10 @@ toggleableTools
 .
 filter
 (
-tool
+toggleableTool
 =
 >
-tool
+toggleableTool
 .
 id
 =

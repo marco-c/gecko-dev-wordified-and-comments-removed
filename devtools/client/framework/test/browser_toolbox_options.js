@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 doc
 =
@@ -37,6 +42,9 @@ test
 for
 dynamically
 registering
+"
++
+"
 and
 unregistering
 tools
@@ -1365,6 +1373,8 @@ toolNodes
 [
 0
 ]
+;
+let
 middleTool
 =
 toolNodes
@@ -1379,6 +1389,8 @@ length
 |
 0
 ]
+;
+let
 lastTool
 =
 toolNodes
@@ -1454,9 +1466,6 @@ getAttribute
 id
 "
 )
-;
-let
-onRegistrationChange
 ;
 if
 (

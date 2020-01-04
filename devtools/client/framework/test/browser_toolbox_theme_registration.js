@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 CHROME_URL
 =
@@ -94,14 +99,14 @@ registered
 "
 (
 e
-themeId
+registeredThemeId
 )
 =
 >
 {
 resolve
 (
-themeId
+registeredThemeId
 )
 ;
 }
