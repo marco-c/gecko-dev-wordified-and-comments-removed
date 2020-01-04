@@ -1897,7 +1897,6 @@ tab
 getFaviconAsImage
 (
 null
-null
 PrivateBrowsingUtils
 .
 isWindowPrivate
