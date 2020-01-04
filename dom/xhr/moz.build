@@ -132,11 +132,6 @@ bindings
 =
 [
 '
-XMLHttpRequestUploadWorker
-.
-h
-'
-'
 XMLHttpRequestWorker
 .
 h
@@ -152,6 +147,11 @@ dom
 [
 '
 XMLHttpRequestEventTarget
+.
+h
+'
+'
+XMLHttpRequestUpload
 .
 h
 '
@@ -181,7 +181,7 @@ XMLHttpRequestEventTarget
 cpp
 '
 '
-XMLHttpRequestUploadWorker
+XMLHttpRequestUpload
 .
 cpp
 '
