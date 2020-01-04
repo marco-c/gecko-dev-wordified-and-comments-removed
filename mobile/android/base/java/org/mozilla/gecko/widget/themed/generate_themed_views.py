@@ -51,6 +51,16 @@ and
 run
 the
 script
+using
+'
+mach
+python
+<
+script
+.
+py
+>
+'
 .
 Use
 version
@@ -214,6 +224,10 @@ STYLE_CONSTRUCTOR
 1
          
 TINT_FOREGROUND_DRAWABLE
+=
+1
+         
+BOOKMARK_NO_TINT
 =
 1
 )
