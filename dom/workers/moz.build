@@ -177,11 +177,6 @@ workers
 =
 [
 '
-RuntimeService
-.
-h
-'
-'
 ServiceWorkerManager
 .
 h

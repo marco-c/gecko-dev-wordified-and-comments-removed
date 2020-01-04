@@ -39,9 +39,6 @@ language
 "
 languages
 "
-"
-hardwareConcurrency
-"
 ]
 ;
 self
