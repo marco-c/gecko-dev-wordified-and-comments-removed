@@ -390,53 +390,153 @@ test_artifact_patterns
 =
 {
         
+(
 '
 bin
 /
 BadCertServer
 '
+(
+'
+bin
+'
+'
+bin
+'
+)
+)
         
+(
 '
 bin
 /
 GenerateOCSPResponse
 '
+(
+'
+bin
+'
+'
+bin
+'
+)
+)
         
+(
 '
 bin
 /
 OCSPStaplingServer
 '
+(
+'
+bin
+'
+'
+bin
+'
+)
+)
         
+(
 '
 bin
 /
 certutil
 '
+(
+'
+bin
+'
+'
+bin
+'
+)
+)
         
+(
 '
 bin
 /
 fileid
 '
+(
+'
+bin
+'
+'
+bin
+'
+)
+)
         
+(
 '
 bin
 /
 pk12util
 '
+(
+'
+bin
+'
+'
+bin
+'
+)
+)
         
+(
 '
 bin
 /
 ssltunnel
 '
+(
+'
+bin
+'
+'
+bin
+'
+)
+)
         
+(
 '
 bin
 /
 xpcshell
 '
+(
+'
+bin
+'
+'
+bin
+'
+)
+)
+        
+(
+'
+bin
+/
+plugins
+/
+*
+'
+(
+'
+bin
+/
+plugins
+'
+'
+plugins
+'
+)
+)
     
 }
     
@@ -788,21 +888,49 @@ iteritems
 )
 :
                 
-if
-filename
+for
+pattern
+(
+src_prefix
+dest_prefix
+)
 in
 self
 .
 test_artifact_patterns
 :
                     
-basename
+if
+not
+mozpath
+.
+match
+(
+filename
+pattern
+)
+:
+                        
+continue
+                    
+destpath
 =
 mozpath
 .
-basename
+relpath
 (
 filename
+src_prefix
+)
+                    
+destpath
+=
+mozpath
+.
+join
+(
+dest_prefix
+destpath
 )
                     
 self
@@ -818,16 +946,16 @@ artifact
                              
 {
 '
-basename
+destpath
 '
 :
-basename
+destpath
 }
                              
 '
 Adding
 {
-basename
+destpath
 }
 to
 processed
@@ -851,7 +979,7 @@ writer
 .
 add
 (
-basename
+destpath
 .
 encode
 (
@@ -1035,6 +1163,18 @@ to
 processed
 archive
 '
+)
+                
+basename
+=
+mozpath
+.
+join
+(
+'
+bin
+'
+basename
 )
                 
 writer
@@ -1229,6 +1369,14 @@ destpath
 =
 mozpath
 .
+join
+(
+'
+bin
+'
+                                            
+mozpath
+.
 relpath
 (
 f
@@ -1237,6 +1385,7 @@ name
 "
 firefox
 "
+)
 )
                     
 self
@@ -1670,10 +1819,15 @@ archive
 '
 )
                         
-writer
+destpath
+=
+mozpath
 .
-add
+join
 (
+'
+bin
+'
 os
 .
 path
@@ -1682,6 +1836,13 @@ basename
 (
 p
 )
+)
+                        
+writer
+.
+add
+(
+destpath
 .
 encode
 (
@@ -1778,11 +1939,23 @@ archive
 '
 )
                         
+destpath
+=
+mozpath
+.
+join
+(
+'
+bin
+'
+p
+)
+                        
 writer
 .
 add
 (
-p
+destpath
 .
 encode
 (
@@ -1923,6 +2096,7 @@ test_artifact_patterns
 =
 {
         
+(
 '
 bin
 /
@@ -1930,7 +2104,17 @@ BadCertServer
 .
 exe
 '
+(
+'
+bin
+'
+'
+bin
+'
+)
+)
         
+(
 '
 bin
 /
@@ -1938,7 +2122,17 @@ GenerateOCSPResponse
 .
 exe
 '
+(
+'
+bin
+'
+'
+bin
+'
+)
+)
         
+(
 '
 bin
 /
@@ -1946,7 +2140,17 @@ OCSPStaplingServer
 .
 exe
 '
+(
+'
+bin
+'
+'
+bin
+'
+)
+)
         
+(
 '
 bin
 /
@@ -1954,7 +2158,17 @@ certutil
 .
 exe
 '
+(
+'
+bin
+'
+'
+bin
+'
+)
+)
         
+(
 '
 bin
 /
@@ -1962,7 +2176,17 @@ fileid
 .
 exe
 '
+(
+'
+bin
+'
+'
+bin
+'
+)
+)
         
+(
 '
 bin
 /
@@ -1970,7 +2194,17 @@ pk12util
 .
 exe
 '
+(
+'
+bin
+'
+'
+bin
+'
+)
+)
         
+(
 '
 bin
 /
@@ -1978,7 +2212,17 @@ ssltunnel
 .
 exe
 '
+(
+'
+bin
+'
+'
+bin
+'
+)
+)
         
+(
 '
 bin
 /
@@ -1986,6 +2230,35 @@ xpcshell
 .
 exe
 '
+(
+'
+bin
+'
+'
+bin
+'
+)
+)
+        
+(
+'
+bin
+/
+plugins
+/
+*
+'
+(
+'
+bin
+/
+plugins
+'
+'
+plugins
+'
+)
+)
     
 }
     
@@ -2064,6 +2337,18 @@ filename
 "
 firefox
 "
+)
+                
+basename
+=
+mozpath
+.
+join
+(
+'
+bin
+'
+basename
 )
                 
 self
@@ -4691,7 +4976,7 @@ install_from_file
 (
 self
 filename
-bindir
+distdir
 install_callback
 =
 None
@@ -4846,7 +5131,7 @@ mozpath
 .
 join
 (
-bindir
+distdir
 '
 .
 dummy
@@ -4897,7 +5182,7 @@ mozpath
 .
 join
 (
-bindir
+distdir
 info
 .
 filename
@@ -5044,7 +5329,7 @@ install_from_url
 (
 self
 url
-bindir
+distdir
 install_callback
 =
 None
@@ -5102,7 +5387,7 @@ self
 install_from_file
 (
 filename
-bindir
+distdir
 install_callback
 =
 install_callback
@@ -5113,7 +5398,7 @@ install_from_hg
 (
 self
 revset
-bindir
+distdir
 install_callback
 =
 None
@@ -5378,7 +5663,7 @@ self
 install_from_url
 (
 url
-bindir
+distdir
 install_callback
 =
 install_callback
@@ -5431,7 +5716,7 @@ install_from
 (
 self
 source
-bindir
+distdir
 install_callback
 =
 None
@@ -5449,7 +5734,7 @@ source
 into
 the
 given
-bindir
+distdir
 .
         
 If
@@ -5478,7 +5763,7 @@ written
 relative
         
 to
-bindir
+distdir
 ;
 existed
 is
@@ -5528,7 +5813,7 @@ self
 install_from_file
 (
 source
-bindir
+distdir
 install_callback
 =
 install_callback
@@ -5553,7 +5838,7 @@ self
 install_from_url
 (
 source
-bindir
+distdir
 install_callback
 =
 install_callback
@@ -5568,7 +5853,7 @@ self
 install_from_hg
 (
 source
-bindir
+distdir
 install_callback
 =
 install_callback
