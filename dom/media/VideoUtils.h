@@ -1038,6 +1038,12 @@ override
 ;
 private
 :
+~
+SimpleTimer
+(
+)
+{
+}
 nsresult
 Init
 (
