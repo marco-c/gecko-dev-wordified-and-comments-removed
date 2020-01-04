@@ -59,9 +59,10 @@ box
 )
 .
 className
-gIdentityHandler
-.
-IDENTITY_MODE_MIXED_DISPLAY_LOADED
+"
+unknownIdentity
+mixedDisplayContent
+"
 "
 identity
 box

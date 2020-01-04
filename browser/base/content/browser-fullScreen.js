@@ -2014,9 +2014,7 @@ className
 =
 gIdentityHandler
 .
-getMode
-(
-)
+fullscreenWarningClassName
 ;
 if
 (

@@ -78,9 +78,9 @@ is
 identityBox
 .
 className
-gIdentityHandler
-.
-IDENTITY_MODE_CHROMEUI
+"
+chromeUI
+"
 "
 Should
 know
