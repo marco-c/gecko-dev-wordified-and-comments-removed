@@ -172,9 +172,6 @@ AudioTimelineEvent
 aEvent
 AudioNodeStream
 *
-aSource
-AudioNodeStream
-*
 aDest
 )
 ;
