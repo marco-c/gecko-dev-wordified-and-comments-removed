@@ -3676,6 +3676,13 @@ mStartTime
 IsNull
 (
 )
+&
+&
+mHoldTime
+.
+IsNull
+(
+)
 )
 {
 mHoldTime
