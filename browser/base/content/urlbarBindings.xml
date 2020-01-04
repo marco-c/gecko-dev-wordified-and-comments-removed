@@ -3091,7 +3091,7 @@ popup
 .
 oneOffSearchButtons
 .
-visuallySelectedButton
+selectedButton
 ;
 if
 (
@@ -3372,6 +3372,8 @@ params
 .
 engineName
 =
+selectedOneOff
+.
 engine
 .
 name
@@ -12222,7 +12224,7 @@ method
 name
 =
 "
-_visuallySelectedOneOffChanged
+_selectedOneOffChanged
 "
 >
 <
@@ -12682,14 +12684,14 @@ this
 .
 oneOffSearchButtons
 .
-visuallySelectedButton
+selectedButton
 &
 &
 this
 .
 oneOffSearchButtons
 .
-visuallySelectedButton
+selectedButton
 .
 engine
 )
@@ -13171,7 +13173,7 @@ handler
 event
 =
 "
-OneOffsVisuallySelectedButtonChanged
+SelectedOneOffButtonChanged
 "
 >
 <
@@ -13181,7 +13183,7 @@ CDATA
 [
 this
 .
-_visuallySelectedOneOffChanged
+_selectedOneOffChanged
 (
 )
 ;

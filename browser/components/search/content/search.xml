@@ -12635,7 +12635,6 @@ selectedIndex
 1
 ;
 }
-}
 let
 event
 =
@@ -12653,7 +12652,7 @@ event
 initEvent
 (
 "
-OneOffsVisuallySelectedButtonChanged
+SelectedOneOffButtonChanged
 "
 true
 false
@@ -12666,6 +12665,7 @@ dispatchEvent
 event
 )
 ;
+}
 ]
 ]
 >
@@ -15047,7 +15047,7 @@ handler
 event
 =
 "
-mouseover
+mousemove
 "
 >
 <
