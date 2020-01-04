@@ -1344,3 +1344,10 @@ POPCNTBit
 )
 ;
 }
+volatile
+uintptr_t
+*
+blackbox
+=
+nullptr
+;
