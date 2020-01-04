@@ -50,7 +50,7 @@ eWindowEventFirst
 )
 NS_EVENT_MESSAGE
 (
-NS_KEY_AFTER_DOWN
+eAfterKeyDown
 eWindowEventFirst
 +
 35

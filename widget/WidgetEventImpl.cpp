@@ -373,7 +373,7 @@ case
 NS_KEY_BEFORE_UP
 :
 case
-NS_KEY_AFTER_DOWN
+eAfterKeyDown
 :
 case
 NS_KEY_AFTER_UP

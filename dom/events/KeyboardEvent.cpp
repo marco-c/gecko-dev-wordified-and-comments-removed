@@ -548,7 +548,7 @@ case
 eKeyDown
 :
 case
-NS_KEY_AFTER_DOWN
+eAfterKeyDown
 :
 case
 NS_KEY_BEFORE_UP
@@ -695,7 +695,7 @@ case
 eKeyDown
 :
 case
-NS_KEY_AFTER_DOWN
+eAfterKeyDown
 :
 case
 NS_KEY_BEFORE_UP
