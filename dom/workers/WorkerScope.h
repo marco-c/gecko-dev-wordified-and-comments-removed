@@ -885,6 +885,10 @@ IMPL_EVENT_HANDLER
 (
 notificationclick
 )
+IMPL_EVENT_HANDLER
+(
+notificationclose
+)
 ServiceWorkerGlobalScope
 (
 WorkerPrivate

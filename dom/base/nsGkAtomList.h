@@ -6000,6 +6000,13 @@ onnotificationclick
 )
 GK_ATOM
 (
+onnotificationclose
+"
+onnotificationclose
+"
+)
+GK_ATOM
+(
 onnoupdate
 "
 onnoupdate

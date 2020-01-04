@@ -197,5 +197,9 @@ attribute
 EventHandler
 onnotificationclick
 ;
+attribute
+EventHandler
+onnotificationclose
+;
 }
 ;
