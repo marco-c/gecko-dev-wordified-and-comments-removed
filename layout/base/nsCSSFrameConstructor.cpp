@@ -13525,13 +13525,10 @@ columnSetFrame
 }
 contentFrame
 =
-NS_NewBlockFrame
+NS_NewBlockFormattingContext
 (
 mPresShell
 innerSC
-NS_BLOCK_FLOAT_MGR
-|
-NS_BLOCK_MARGIN_ROOT
 )
 ;
 if
