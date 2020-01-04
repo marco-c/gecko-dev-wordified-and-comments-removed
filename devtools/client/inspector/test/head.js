@@ -2195,9 +2195,6 @@ finalize
 )
 ;
 }
-testActor
-:
-testActor
 }
 ;
 }
