@@ -112,14 +112,6 @@ return
 true
 ;
 }
-NS_IMETHOD
-SetModal
-(
-bool
-aState
-)
-override
-;
 virtual
 bool
 IsVisible

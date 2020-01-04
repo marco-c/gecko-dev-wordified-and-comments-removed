@@ -1494,7 +1494,8 @@ aState
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 SetModal
 (
 bool
@@ -1503,14 +1504,14 @@ aModal
 =
 0
 ;
-NS_IMETHOD
+virtual
+void
 SetFakeModal
 (
 bool
 aModal
 )
 {
-return
 SetModal
 (
 aModal

@@ -3865,7 +3865,7 @@ parentHasMappedToplevel
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -3906,11 +3906,6 @@ if
 mIsDestroyed
 )
 return
-aModal
-?
-NS_ERROR_NOT_AVAILABLE
-:
-NS_OK
 ;
 if
 (
@@ -3922,7 +3917,6 @@ mIsTopLevel
 mShell
 )
 return
-NS_ERROR_FAILURE
 ;
 gtk_window_set_modal
 (
@@ -3936,9 +3930,6 @@ TRUE
 :
 FALSE
 )
-;
-return
-NS_OK
 ;
 }
 bool

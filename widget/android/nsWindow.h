@@ -528,14 +528,6 @@ aState
 )
 override
 ;
-NS_IMETHOD
-SetModal
-(
-bool
-aModal
-)
-override
-;
 virtual
 bool
 IsVisible

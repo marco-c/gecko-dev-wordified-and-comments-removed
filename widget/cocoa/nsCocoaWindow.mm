@@ -4056,7 +4056,7 @@ false
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsCocoaWindow
 :
 :
@@ -4066,13 +4066,14 @@ bool
 aState
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 !
 mWindow
 )
 return
-NS_OK
 ;
 /
 /
@@ -4637,11 +4638,10 @@ NSNormalWindowLevel
 ;
 }
 }
-return
-NS_OK
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
-NS_IMETHODIMP
+void
 nsCocoaWindow
 :
 :
@@ -4655,7 +4655,6 @@ mFakeModal
 =
 aState
 ;
-return
 SetModal
 (
 aState
