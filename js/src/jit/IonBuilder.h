@@ -3725,6 +3725,11 @@ jsop_functionthis
 )
 ;
 bool
+jsop_globalthis
+(
+)
+;
+bool
 jsop_typeof
 (
 )
