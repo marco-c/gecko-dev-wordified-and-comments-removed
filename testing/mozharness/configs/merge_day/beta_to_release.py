@@ -11,14 +11,15 @@ beta_to_release
 "
     
 "
-version_files
+copy_files
 "
 :
 [
         
 {
+            
 "
-file
+src
 "
 :
 "
@@ -30,17 +31,9 @@ version
 .
 txt
 "
+            
 "
-suffix
-"
-:
-"
-"
-}
-        
-{
-"
-file
+dst
 "
 :
 "
@@ -52,32 +45,7 @@ version_display
 .
 txt
 "
-"
-suffix
-"
-:
-"
-"
-}
         
-{
-"
-file
-"
-:
-"
-config
-/
-milestone
-.
-txt
-"
-"
-suffix
-"
-:
-"
-"
 }
     
 ]
@@ -155,7 +123,7 @@ android
 -
 api
 -
-11
+15
 /
 "
                   
