@@ -21529,7 +21529,7 @@ I32Const
 &
 e
 .
-writeVarU32
+writeVarS32
 (
 c
 .
@@ -21562,7 +21562,7 @@ I64Const
 &
 e
 .
-writeVarU64
+writeVarS64
 (
 c
 .

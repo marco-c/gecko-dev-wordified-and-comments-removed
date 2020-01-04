@@ -1194,7 +1194,7 @@ ExprType
 type
 )
 {
-uint32_t
+int32_t
 _
 ;
 if
@@ -1206,7 +1206,7 @@ d
 (
 )
 .
-readVarU32
+readVarS32
 (
 &
 _
@@ -1252,7 +1252,7 @@ ExprType
 type
 )
 {
-uint64_t
+int64_t
 _
 ;
 if
@@ -1264,7 +1264,7 @@ d
 (
 )
 .
-readVarU64
+readVarS64
 (
 &
 _
