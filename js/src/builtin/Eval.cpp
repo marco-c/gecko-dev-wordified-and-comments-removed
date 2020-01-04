@@ -477,6 +477,10 @@ IsEvalCacheCandidate
 script_
 )
 )
+{
+bool
+ok
+=
 cx_
 -
 >
@@ -494,6 +498,12 @@ lookup_
 cacheEntry
 )
 ;
+(
+void
+)
+ok
+;
+}
 }
 }
 void

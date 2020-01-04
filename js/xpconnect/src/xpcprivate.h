@@ -4275,6 +4275,9 @@ DOMExpandoSet
 (
 )
 ;
+if
+(
+!
 mDOMExpandoSet
 -
 >
@@ -4282,6 +4285,9 @@ init
 (
 8
 )
+)
+return
+false
 ;
 }
 return

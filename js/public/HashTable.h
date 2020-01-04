@@ -288,6 +288,7 @@ a
 )
 {
 }
+MOZ_WARN_UNUSED_RESULT
 bool
 init
 (
@@ -415,6 +416,7 @@ KeyInput
 typename
 ValueInput
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 add
 (
@@ -465,6 +467,7 @@ template
 typename
 KeyInput
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 add
 (
@@ -506,6 +509,7 @@ KeyInput
 typename
 ValueInput
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 relookupOrAdd
 (
@@ -737,6 +741,7 @@ KeyInput
 typename
 ValueInput
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 put
 (
@@ -819,6 +824,7 @@ KeyInput
 typename
 ValueInput
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 putNew
 (
@@ -937,15 +943,28 @@ p
 return
 p
 ;
-(
-void
-)
+bool
+ok
+=
 add
 (
 p
 k
 defaultValue
 )
+;
+MOZ_ASSERT_IF
+(
+!
+ok
+!
+p
+)
+;
+(
+void
+)
+ok
 ;
 return
 p
@@ -1260,6 +1279,7 @@ a
 )
 {
 }
+MOZ_WARN_UNUSED_RESULT
 bool
 init
 (
@@ -1385,6 +1405,7 @@ template
 typename
 U
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 add
 (
@@ -1421,6 +1442,7 @@ template
 typename
 U
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 relookupOrAdd
 (
@@ -1640,6 +1662,7 @@ template
 typename
 U
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 put
 (
@@ -1683,6 +1706,7 @@ template
 typename
 U
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 putNew
 (
@@ -1716,6 +1740,7 @@ template
 typename
 U
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 putNew
 (
@@ -7101,6 +7126,7 @@ typename
 .
 Args
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 add
 (
@@ -7431,6 +7457,7 @@ typename
 .
 Args
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 putNew
 (
@@ -7502,6 +7529,7 @@ typename
 .
 Args
 >
+MOZ_WARN_UNUSED_RESULT
 bool
 relookupOrAdd
 (
