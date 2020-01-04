@@ -2049,6 +2049,9 @@ gIsWindows
 |
 |
 gIsMac
+|
+|
+gIsLinux
 )
 {
 let
@@ -2081,6 +2084,9 @@ speedMHz
 if
 (
 gIsMac
+|
+|
+gIsLinux
 )
 {
 EXTRA_CPU_FIELDS
@@ -2213,9 +2219,6 @@ of
 "
 cores
 "
-"
-speedMHz
-"
 ]
 )
 {
@@ -2283,6 +2286,9 @@ l2cacheKB
 "
 "
 l3cacheKB
+"
+"
+speedMHz
 "
 ]
 )
