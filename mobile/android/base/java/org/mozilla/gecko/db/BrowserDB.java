@@ -736,4 +736,13 @@ String
 url
 )
 ;
+CursorLoader
+getHighlights
+(
+Context
+context
+int
+limit
+)
+;
 }

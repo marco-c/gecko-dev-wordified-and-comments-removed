@@ -81,7 +81,9 @@ final
 int
 TABLE_ID_NUMBER
 =
-1200
+BrowserProvider
+.
+METADATA
 ;
 public
 static
