@@ -730,6 +730,17 @@ buildbot_json_path
 )
 )
             
+props
+=
+self
+.
+buildbot_config
+[
+"
+properties
+"
+]
+            
 for
 prop
 in
@@ -756,9 +767,7 @@ partner
 :
                 
 if
-self
-.
-buildbot_config
+props
 .
 get
 (
@@ -781,9 +790,7 @@ s
 %
 (
 prop
-self
-.
-buildbot_config
+props
 [
 prop
 ]
@@ -797,9 +804,7 @@ config
 prop
 ]
 =
-self
-.
-buildbot_config
+props
 .
 get
 (
