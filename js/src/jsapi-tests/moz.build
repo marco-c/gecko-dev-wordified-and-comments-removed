@@ -369,11 +369,6 @@ testMutedErrors
 cpp
 '
 '
-testMutex
-.
-cpp
-'
-'
 testNewObject
 .
 cpp
@@ -485,6 +480,11 @@ cpp
 '
 '
 testSymbol
+.
+cpp
+'
+'
+testThreadingExclusiveData
 .
 cpp
 '
