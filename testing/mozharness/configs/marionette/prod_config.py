@@ -391,9 +391,9 @@ s
 "
 -
 -
-xml
+log
 -
-output
+xunit
 =
 %
 (
@@ -597,9 +597,9 @@ s
 "
 -
 -
-xml
+log
 -
-output
+xunit
 =
 %
 (
