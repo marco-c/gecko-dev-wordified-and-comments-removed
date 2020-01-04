@@ -8663,6 +8663,9 @@ uint8_t
 mPointerEvents
 ;
 uint8_t
+mImageRendering
+;
+uint8_t
 mWritingMode
 ;
 uint8_t
@@ -12986,9 +12989,6 @@ mColorInterpolationFilters
 ;
 uint8_t
 mFillRule
-;
-uint8_t
-mImageRendering
 ;
 uint8_t
 mPaintOrder

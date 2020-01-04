@@ -30550,7 +30550,7 @@ switch
 sc
 -
 >
-StyleSVG
+StyleVisibility
 (
 )
 -

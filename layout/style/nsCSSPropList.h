@@ -8878,7 +8878,7 @@ mFloodOpacity
 )
 eStyleAnimType_float
 )
-CSS_PROP_SVG
+CSS_PROP_VISIBILITY
 (
 image
 -
@@ -8892,7 +8892,7 @@ VARIANT_HK
 kImageRenderingKTable
 offsetof
 (
-nsStyleSVG
+nsStyleVisibility
 mImageRendering
 )
 eStyleAnimType_EnumU8
