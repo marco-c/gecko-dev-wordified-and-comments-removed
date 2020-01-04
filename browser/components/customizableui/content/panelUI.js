@@ -96,6 +96,8 @@ get
 kEvents
 (
 )
+{
+return
 [
 "
 popupshowing
@@ -110,6 +112,8 @@ popuphiding
 popuphidden
 "
 ]
+;
+}
 get
 kElements
 (
