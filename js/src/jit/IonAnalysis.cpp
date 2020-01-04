@@ -15266,7 +15266,10 @@ AssertDominatorTree
 graph
 )
 ;
+DebugOnly
+<
 uint32_t
+>
 idx
 =
 0
@@ -15308,9 +15311,11 @@ id
 =
 =
 idx
-+
-+
 )
+;
++
++
+idx
 ;
 if
 (
