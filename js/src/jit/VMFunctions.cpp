@@ -3320,7 +3320,7 @@ compartment
 >
 globalWriteBarriered
 =
-true
+1
 ;
 }
 }
