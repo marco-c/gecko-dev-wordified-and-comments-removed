@@ -274,7 +274,7 @@ override
 ;
 protected
 :
-nsIContent
+Element
 *
 GetSelect
 (
