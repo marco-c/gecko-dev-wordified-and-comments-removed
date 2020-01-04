@@ -674,7 +674,7 @@ cx
 GlobalObject
 :
 :
-getOrCreateIteratorPrototype
+getOrCreateLegacyIteratorPrototype
 (
 cx
 global
@@ -4846,7 +4846,7 @@ cx
 GlobalObject
 :
 :
-getOrCreateIteratorPrototype
+getOrCreateLegacyIteratorPrototype
 (
 cx
 global

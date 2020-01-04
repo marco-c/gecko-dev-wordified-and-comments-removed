@@ -723,7 +723,7 @@ done
 extern
 JSObject
 *
-InitIteratorClass
+InitLegacyIteratorClass
 (
 JSContext
 *

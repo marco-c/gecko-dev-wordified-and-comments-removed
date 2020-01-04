@@ -1984,7 +1984,7 @@ const
 ;
 JSObject
 *
-getIteratorPrototype
+getLegacyIteratorPrototype
 (
 )
 {
@@ -2299,7 +2299,7 @@ public
 static
 NativeObject
 *
-getOrCreateIteratorPrototype
+getOrCreateLegacyIteratorPrototype
 (
 JSContext
 *
