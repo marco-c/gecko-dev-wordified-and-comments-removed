@@ -32,10 +32,8 @@ options
 {
 source
 :
-EXAMPLE_URL
-+
 "
-doc_inline
+inline
 -
 debugger
 -

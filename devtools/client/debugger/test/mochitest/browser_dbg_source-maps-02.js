@@ -43,10 +43,7 @@ options
 {
 source
 :
-EXAMPLE_URL
-+
 "
-code_binary_search
 .
 coffee
 "

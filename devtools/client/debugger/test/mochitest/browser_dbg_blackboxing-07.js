@@ -25,10 +25,7 @@ options
 {
 source
 :
-EXAMPLE_URL
-+
 "
-code_blackboxing_unblackbox
 .
 min
 .
