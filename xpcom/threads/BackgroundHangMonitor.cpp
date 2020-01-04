@@ -168,7 +168,7 @@ const
 size_t
 kMaxThreadHangStackDepth
 =
-11
+30
 ;
 bool
 StackScriptEntriesCollapser
