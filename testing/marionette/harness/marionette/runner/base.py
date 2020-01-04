@@ -6226,20 +6226,9 @@ start_marionette
 )
             
 if
-not
-self
-.
-_capabilities
-:
-                
 self
 .
 capabilities
-            
-if
-self
-.
-_capabilities
 [
 '
 device
