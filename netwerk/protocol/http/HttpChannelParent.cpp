@@ -791,6 +791,11 @@ a
 suspendAfterSynthesizeResponse
 (
 )
+a
+.
+allowStaleCacheContent
+(
+)
 )
 ;
 }
@@ -1346,6 +1351,10 @@ const
 bool
 &
 aSuspendAfterSynthesizeResponse
+const
+bool
+&
+aAllowStaleCacheContent
 )
 {
 nsCOMPtr
@@ -2238,6 +2247,14 @@ mChannel
 SetCacheKey
 (
 cacheKey
+)
+;
+mChannel
+-
+>
+SetAllowStaleCacheContent
+(
+aAllowStaleCacheContent
 )
 ;
 if

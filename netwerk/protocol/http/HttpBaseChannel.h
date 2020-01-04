@@ -2108,6 +2108,11 @@ mResponseCouldBeSynthesized
 1
 ;
 uint32_t
+mAllowStaleCacheContent
+:
+1
+;
+uint32_t
 mSuspendCount
 ;
 uint32_t

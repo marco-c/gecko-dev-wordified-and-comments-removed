@@ -802,6 +802,9 @@ initialRwin
 bool
 suspendAfterSynthesizeResponse
 ;
+bool
+allowStaleCacheContent
+;
 }
 ;
 struct

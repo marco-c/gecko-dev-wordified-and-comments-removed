@@ -447,6 +447,10 @@ const
 bool
 &
 aSuspendAfterSynthesizeResponse
+const
+bool
+&
+aAllowStaleCacheContent
 )
 ;
 virtual
