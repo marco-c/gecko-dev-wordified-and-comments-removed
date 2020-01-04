@@ -1494,6 +1494,9 @@ platformBuildID
 "
 2007010101
 "
+browserTabsRemoteAutostart
+:
+false
 inSafeMode
 :
 false
