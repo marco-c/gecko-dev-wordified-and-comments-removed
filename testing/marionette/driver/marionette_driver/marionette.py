@@ -4223,6 +4223,9 @@ None
 workspace
 =
 None
+verbose
+=
+0
 )
 :
         
@@ -4625,6 +4628,10 @@ addons
 workspace
 =
 workspace
+                                           
+verbose
+=
+verbose
 )
             
 self
