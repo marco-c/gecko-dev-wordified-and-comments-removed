@@ -1471,6 +1471,40 @@ json_path
     
 return
 None
+def
+output_to_file
+(
+path
+)
+:
+    
+import
+json
+    
+with
+open
+(
+path
+'
+w
+'
+)
+as
+f
+:
+        
+f
+.
+write
+(
+json
+.
+dumps
+(
+info
+)
+)
+;
 update
 (
 {
@@ -1533,6 +1567,10 @@ update
     
 '
 find_and_update_from_json
+'
+    
+'
+output_to_file
 '
     
 '
