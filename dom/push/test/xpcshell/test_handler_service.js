@@ -67,6 +67,10 @@ let
 scope
 =
 "
+chrome
+:
+/
+/
 test
 -
 scope

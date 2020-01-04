@@ -40,6 +40,10 @@ c0f7
 }
 category
 push
+chrome
+:
+/
+/
 test
 -
 scope
