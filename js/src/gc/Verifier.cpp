@@ -2275,6 +2275,15 @@ check
 (
 )
 {
+JS
+:
+:
+AutoSuppressGCAnalysis
+nogc
+(
+rt
+)
+;
 rt
 -
 >
