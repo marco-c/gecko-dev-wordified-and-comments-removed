@@ -11392,7 +11392,7 @@ addressOfProfilingActivation
 )
 )
 ;
-CodeOffsetLabel
+CodeOffset
 label
 =
 masm
@@ -11488,7 +11488,7 @@ i
 +
 )
 {
-CodeOffsetLabel
+CodeOffset
 offset
 =
 profilerCallSites_

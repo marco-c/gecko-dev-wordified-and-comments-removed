@@ -1265,7 +1265,7 @@ entry
 .
 nativeOffset
 =
-CodeOffsetLabel
+CodeOffset
 (
 nativeOffset
 )
@@ -1787,7 +1787,7 @@ entry
 .
 startOffset
 =
-CodeOffsetLabel
+CodeOffset
 (
 nativeOffset
 )
@@ -1796,7 +1796,7 @@ entry
 .
 endOffset
 =
-CodeOffsetLabel
+CodeOffset
 (
 nativeOffset
 )
@@ -1890,7 +1890,7 @@ entry
 .
 endOffset
 =
-CodeOffsetLabel
+CodeOffset
 (
 nativeOffset
 )
@@ -8853,7 +8853,7 @@ Push
 logger
 )
 ;
-CodeOffsetLabel
+CodeOffset
 patchLogger
 =
 masm
@@ -8915,7 +8915,7 @@ Push
 script
 )
 ;
-CodeOffsetLabel
+CodeOffset
 patchScript
 =
 masm
@@ -9037,7 +9037,7 @@ Push
 logger
 )
 ;
-CodeOffsetLabel
+CodeOffset
 patchLocation
 =
 masm

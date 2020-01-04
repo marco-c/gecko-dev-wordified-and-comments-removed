@@ -3194,7 +3194,7 @@ temp
 ;
 Vector
 <
-CodeOffsetLabel
+CodeOffset
 0
 JitAllocPolicy
 >
@@ -3212,7 +3212,7 @@ kind
 IonICEntry
 entry
 ;
-CodeOffsetLabel
+CodeOffset
 label
 ;
 SharedStub
@@ -3224,7 +3224,7 @@ Kind
 kind
 IonICEntry
 entry
-CodeOffsetLabel
+CodeOffset
 label
 )
 :

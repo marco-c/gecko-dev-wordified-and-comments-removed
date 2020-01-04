@@ -1383,7 +1383,7 @@ i
 +
 )
 {
-CodeOffsetLabel
+CodeOffset
 label
 =
 icLoadLabels_
@@ -2151,7 +2151,7 @@ false
 endif
 prologueOffset_
 =
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -2228,7 +2228,7 @@ emitEpilogue
 {
 epilogueOffset_
 =
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -2501,7 +2501,7 @@ entry
 return
 false
 ;
-CodeOffsetLabel
+CodeOffset
 patchOffset
 ;
 EmitCallIC
@@ -2516,7 +2516,7 @@ entry
 >
 setReturnOffset
 (
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -3072,7 +3072,7 @@ done
 }
 postDebugPrologueOffset_
 =
-CodeOffsetLabel
+CodeOffset
 (
 masm
 .
@@ -3958,7 +3958,7 @@ mozilla
 :
 DebugOnly
 <
-CodeOffsetLabel
+CodeOffset
 >
 offset
 =
@@ -4377,7 +4377,7 @@ emitProfilerEnterFrame
 Label
 noInstrument
 ;
-CodeOffsetLabel
+CodeOffset
 toggleOffset
 =
 masm
@@ -4438,7 +4438,7 @@ emitProfilerExitFrame
 Label
 noInstrument
 ;
-CodeOffsetLabel
+CodeOffset
 toggleOffset
 =
 masm

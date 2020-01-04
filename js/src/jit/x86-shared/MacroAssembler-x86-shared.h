@@ -200,7 +200,7 @@ public
 typedef
 Vector
 <
-CodeOffsetLabel
+CodeOffset
 0
 SystemAllocPolicy
 >
@@ -1059,7 +1059,7 @@ lhs
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 cmp32WithPatch
 (
 Register
@@ -8714,7 +8714,7 @@ dest
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 toggledJump
 (
 Label
@@ -8722,7 +8722,7 @@ Label
 label
 )
 {
-CodeOffsetLabel
+CodeOffset
 offset
 (
 size
@@ -8771,13 +8771,13 @@ checkStackAlignment
 )
 {
 }
-CodeOffsetLabel
+CodeOffset
 labelForPatch
 (
 )
 {
 return
-CodeOffsetLabel
+CodeOffset
 (
 size
 (

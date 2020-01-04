@@ -190,10 +190,10 @@ shiftAmount
 struct
 NativeToTrackedOptimizations
 {
-CodeOffsetLabel
+CodeOffset
 startOffset
 ;
-CodeOffsetLabel
+CodeOffset
 endOffset
 ;
 const
@@ -286,7 +286,7 @@ safepoints_
 Label
 invalidate_
 ;
-CodeOffsetLabel
+CodeOffset
 invalidateEpilogueData_
 ;
 NonAssertingLabel
@@ -366,7 +366,7 @@ js
 :
 Vector
 <
-CodeOffsetLabel
+CodeOffset
 0
 SystemAllocPolicy
 >
@@ -377,7 +377,7 @@ js
 :
 Vector
 <
-CodeOffsetLabel
+CodeOffset
 0
 SystemAllocPolicy
 >
@@ -390,7 +390,7 @@ public
 struct
 NativeToBytecode
 {
-CodeOffsetLabel
+CodeOffset
 nativeOffset
 ;
 InlineScriptTree

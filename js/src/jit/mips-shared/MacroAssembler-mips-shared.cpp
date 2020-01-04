@@ -4702,7 +4702,7 @@ Value
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 MacroAssembler
 :
 :
@@ -4722,7 +4722,7 @@ as_nop
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 currentOffset
 (
@@ -4730,7 +4730,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 MacroAssembler
 :
 :
@@ -4747,7 +4747,7 @@ label
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 currentOffset
 (
@@ -4755,7 +4755,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 MacroAssembler
 :
 :

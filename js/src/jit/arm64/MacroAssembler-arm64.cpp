@@ -2960,7 +2960,7 @@ amount
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 MacroAssembler
 :
 :
@@ -2984,7 +2984,7 @@ reg
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 currentOffset
 (
@@ -2992,7 +2992,7 @@ currentOffset
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 MacroAssembler
 :
 :
@@ -3013,7 +3013,7 @@ label
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 currentOffset
 (
@@ -3199,7 +3199,7 @@ scratch64
 )
 ;
 }
-CodeOffsetLabel
+CodeOffset
 MacroAssembler
 :
 :
@@ -3215,7 +3215,7 @@ NYI
 )
 ;
 return
-CodeOffsetLabel
+CodeOffset
 (
 )
 ;

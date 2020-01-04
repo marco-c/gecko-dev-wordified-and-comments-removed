@@ -3439,7 +3439,7 @@ getOffset
 void
 writePrebarrierOffset
 (
-CodeOffsetLabel
+CodeOffset
 label
 )
 {
@@ -5268,7 +5268,7 @@ NYI
 size_t
 labelToPatchOffset
 (
-CodeOffsetLabel
+CodeOffset
 label
 )
 {
