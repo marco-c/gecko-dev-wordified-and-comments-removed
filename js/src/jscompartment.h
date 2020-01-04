@@ -2506,9 +2506,6 @@ DeprecatedExpressionClosure
 DeprecatedFlagsArgument
 =
 7
-DeprecatedBlockScopeFunRedecl
-=
-10
 DeprecatedLanguageExtensionCount
 }
 ;
