@@ -1078,12 +1078,11 @@ return
 nsViewportInfo
 viewportInfo
 =
-nsContentUtils
-:
-:
+mDocument
+-
+>
 GetViewportInfo
 (
-mDocument
 ViewAs
 <
 ScreenPixel
