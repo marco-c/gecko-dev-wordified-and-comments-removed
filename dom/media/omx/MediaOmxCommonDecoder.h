@@ -79,6 +79,12 @@ const
 SeekTarget
 &
 aTarget
+dom
+:
+:
+Promise
+*
+aPromise
 )
 override
 ;
