@@ -49,6 +49,10 @@ mCount
 (
 0
 )
+mStreamType
+(
+0
+)
 {
 }
 TVTunerData
@@ -853,6 +857,14 @@ TVProgramData
 (
 )
 :
+mStartTime
+(
+0
+)
+mDuration
+(
+0
+)
 mAudioLanguages
 (
 nullptr

@@ -146,6 +146,13 @@ HeadersGuardEnum
 None
 )
 )
+mContentPolicyType
+(
+nsIContentPolicy
+:
+:
+TYPE_FETCH
+)
 mReferrer
 (
 NS_LITERAL_STRING
@@ -994,9 +1001,6 @@ mPreserveContentCodings
 ;
 bool
 mSameOriginDataURL
-;
-bool
-mSandboxedStorageAreaURLs
 ;
 bool
 mSkipServiceWorker
