@@ -63,6 +63,13 @@ JS
 :
 ClippedTime
 t
+JS
+:
+:
+HandleObject
+proto
+=
+nullptr
 )
 ;
 extern
