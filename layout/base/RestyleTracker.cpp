@@ -2142,6 +2142,14 @@ eRestyle_LaterSiblings
 {
 NS_ASSERTION
 (
+mRestyleManager
+-
+>
+InRebuildAllStyleData
+(
+)
+|
+|
 aData
 -
 >
