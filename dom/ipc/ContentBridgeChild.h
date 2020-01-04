@@ -169,6 +169,10 @@ aIsForBrowser
 )
 override
 ;
+FORWARD_SHMEM_ALLOCATOR_TO
+(
+PContentBridgeChild
+)
 protected
 :
 virtual

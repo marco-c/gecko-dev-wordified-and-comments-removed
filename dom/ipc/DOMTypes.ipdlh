@@ -552,11 +552,13 @@ nsString
 /
 /
 text
-nsCString
+Shmem
 ;
 /
 /
 images
+using
+Shmem
 PBlob
 ;
 /
