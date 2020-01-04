@@ -379,11 +379,6 @@ testOOM
 cpp
 '
 '
-testOps
-.
-cpp
-'
-'
 testParseJSON
 .
 cpp

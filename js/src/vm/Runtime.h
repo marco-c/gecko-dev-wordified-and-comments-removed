@@ -1827,6 +1827,12 @@ js
 ImmutableSymbolPtr
 species
 ;
+js
+:
+:
+ImmutableSymbolPtr
+toPrimitive
+;
 const
 ImmutableSymbolPtr
 &
