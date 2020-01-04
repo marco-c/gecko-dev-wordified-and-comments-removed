@@ -1037,6 +1037,7 @@ HandleKeyMessage
 aWidget
 msg
 wParam
+lParam
 )
 )
 {
@@ -5809,6 +5810,8 @@ UINT
 aMsg
 WPARAM
 aWParam
+LPARAM
+aLParam
 )
 {
 if
@@ -5828,6 +5831,18 @@ aWParam
 =
 VK_PRIOR
 )
+&
+&
+WinUtils
+:
+:
+GetScanCode
+(
+aLParam
+)
+=
+=
+0
 &
 &
 (
