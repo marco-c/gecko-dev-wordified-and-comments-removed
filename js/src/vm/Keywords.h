@@ -16,7 +16,6 @@ macro
 false
 false_
 TOK_FALSE
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -24,7 +23,6 @@ macro
 true
 true_
 TOK_TRUE
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -32,7 +30,6 @@ macro
 null
 null
 TOK_NULL
-JSVERSION_DEFAULT
 )
 \
 /
@@ -47,7 +44,6 @@ macro
 break
 break_
 TOK_BREAK
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -55,7 +51,6 @@ macro
 case
 case_
 TOK_CASE
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -63,7 +58,6 @@ macro
 catch
 catch_
 TOK_CATCH
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -71,7 +65,6 @@ macro
 const
 const_
 TOK_CONST
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -79,7 +72,6 @@ macro
 continue
 continue_
 TOK_CONTINUE
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -87,7 +79,6 @@ macro
 debugger
 debugger
 TOK_DEBUGGER
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -95,7 +86,6 @@ macro
 default
 default_
 TOK_DEFAULT
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -103,7 +93,6 @@ macro
 delete
 delete_
 TOK_DELETE
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -111,7 +100,6 @@ macro
 do
 do_
 TOK_DO
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -119,7 +107,6 @@ macro
 else
 else_
 TOK_ELSE
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -127,7 +114,6 @@ macro
 finally
 finally_
 TOK_FINALLY
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -135,7 +121,6 @@ macro
 for
 for_
 TOK_FOR
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -143,7 +128,6 @@ macro
 function
 function
 TOK_FUNCTION
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -151,7 +135,6 @@ macro
 if
 if_
 TOK_IF
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -159,7 +142,6 @@ macro
 in
 in
 TOK_IN
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -167,7 +149,6 @@ macro
 instanceof
 instanceof
 TOK_INSTANCEOF
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -175,7 +156,6 @@ macro
 new
 new_
 TOK_NEW
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -183,7 +163,6 @@ macro
 return
 return_
 TOK_RETURN
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -191,7 +170,6 @@ macro
 switch
 switch_
 TOK_SWITCH
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -199,7 +177,6 @@ macro
 this
 this_
 TOK_THIS
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -207,7 +184,6 @@ macro
 throw
 throw_
 TOK_THROW
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -215,7 +191,6 @@ macro
 try
 try_
 TOK_TRY
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -223,7 +198,6 @@ macro
 typeof
 typeof
 TOK_TYPEOF
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -231,7 +205,6 @@ macro
 var
 var
 TOK_VAR
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -239,7 +212,6 @@ macro
 void
 void_
 TOK_VOID
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -247,7 +219,6 @@ macro
 while
 while_
 TOK_WHILE
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -255,7 +226,6 @@ macro
 with
 with
 TOK_WITH
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -263,7 +233,6 @@ macro
 import
 import
 TOK_IMPORT
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -271,7 +240,6 @@ macro
 export
 export
 TOK_EXPORT
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -279,7 +247,6 @@ macro
 class
 class_
 TOK_CLASS
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -287,7 +254,6 @@ macro
 extends
 extends
 TOK_EXTENDS
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -295,7 +261,6 @@ macro
 super
 super
 TOK_SUPER
-JSVERSION_DEFAULT
 )
 \
 /
@@ -311,7 +276,6 @@ macro
 enum
 enum_
 TOK_RESERVED
-JSVERSION_DEFAULT
 )
 \
 /
@@ -333,7 +297,6 @@ macro
 implements
 implements
 TOK_STRICT_RESERVED
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -341,7 +304,6 @@ macro
 interface
 interface
 TOK_STRICT_RESERVED
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -349,7 +311,6 @@ macro
 package
 package
 TOK_STRICT_RESERVED
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -357,7 +318,6 @@ macro
 private
 private_
 TOK_STRICT_RESERVED
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -365,7 +325,6 @@ macro
 protected
 protected_
 TOK_STRICT_RESERVED
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -373,7 +332,6 @@ macro
 public
 public_
 TOK_STRICT_RESERVED
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -381,7 +339,6 @@ macro
 static
 static_
 TOK_STRICT_RESERVED
-JSVERSION_DEFAULT
 )
 \
 /
@@ -439,7 +396,6 @@ macro
 yield
 yield
 TOK_YIELD
-JSVERSION_DEFAULT
 )
 \
 macro
@@ -447,7 +403,6 @@ macro
 let
 let
 TOK_LET
-JSVERSION_DEFAULT
 )
 #
 endif

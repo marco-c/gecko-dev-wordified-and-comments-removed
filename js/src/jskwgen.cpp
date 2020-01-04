@@ -66,7 +66,6 @@ KEYWORD_STRING
 keyword
 name
 type
-version
 )
 #
 keyword
