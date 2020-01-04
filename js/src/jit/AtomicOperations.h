@@ -996,12 +996,7 @@ case
 8
 :
 return
-AtomicOperations
-:
-:
-isLockfree8
-(
-)
+false
 ;
 default
 :
