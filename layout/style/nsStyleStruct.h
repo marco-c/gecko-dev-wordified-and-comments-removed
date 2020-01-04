@@ -8004,6 +8004,11 @@ mWebkitTextFillColorForeground
 :
 1
 ;
+bool
+mWebkitTextStrokeColorForeground
+:
+1
+;
 uint8_t
 mTextTransform
 ;
@@ -8052,6 +8057,9 @@ mTextEmphasisColor
 nscolor
 mWebkitTextFillColor
 ;
+nscolor
+mWebkitTextStrokeColor
+;
 nsStyleCoord
 mWordSpacing
 ;
@@ -8063,6 +8071,9 @@ mLineHeight
 ;
 nsStyleCoord
 mTextIndent
+;
+nsStyleCoord
+mWebkitTextStrokeWidth
 ;
 RefPtr
 <

@@ -1150,6 +1150,16 @@ WebkitTextFillColor
 )
 COMPUTED_STYLE_PROP
 (
+_webkit_text_stroke_color
+WebkitTextStrokeColor
+)
+COMPUTED_STYLE_PROP
+(
+_webkit_text_stroke_width
+WebkitTextStrokeWidth
+)
+COMPUTED_STYLE_PROP
+(
 clip_path
 ClipPath
 )
