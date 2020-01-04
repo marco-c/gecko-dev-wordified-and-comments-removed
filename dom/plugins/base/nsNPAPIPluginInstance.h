@@ -520,9 +520,6 @@ aContext
 nsresult
 EndUpdateBackground
 (
-gfxContext
-*
-aContext
 nsIntRect
 *
 aRect

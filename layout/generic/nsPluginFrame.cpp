@@ -593,9 +593,6 @@ virtual
 void
 EndUpdate
 (
-gfxContext
-*
-aContext
 const
 nsIntRect
 &
@@ -611,7 +608,6 @@ mInstanceOwner
 >
 EndUpdateBackground
 (
-aContext
 aRect
 )
 ;

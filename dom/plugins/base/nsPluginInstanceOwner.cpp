@@ -1312,9 +1312,6 @@ nsPluginInstanceOwner
 :
 EndUpdateBackground
 (
-gfxContext
-*
-aContext
 const
 nsIntRect
 &
@@ -1336,7 +1333,6 @@ mInstance
 >
 EndUpdateBackground
 (
-aContext
 &
 rect
 )

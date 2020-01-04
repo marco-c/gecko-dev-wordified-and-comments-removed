@@ -926,9 +926,6 @@ aRect
 void
 EndUpdateBackground
 (
-gfxContext
-*
-aContext
 const
 nsIntRect
 &

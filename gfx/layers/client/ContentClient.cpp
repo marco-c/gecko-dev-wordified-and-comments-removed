@@ -1028,7 +1028,6 @@ GetSink
 >
 EndUpdate
 (
-ctx
 update
 .
 mUpdateRect

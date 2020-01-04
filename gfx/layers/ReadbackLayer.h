@@ -154,9 +154,6 @@ virtual
 void
 EndUpdate
 (
-gfxContext
-*
-aContext
 const
 gfx
 :

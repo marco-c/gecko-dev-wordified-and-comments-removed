@@ -5332,9 +5332,6 @@ PluginInstanceParent
 :
 EndUpdateBackground
 (
-gfxContext
-*
-aCtx
 const
 nsIntRect
 &

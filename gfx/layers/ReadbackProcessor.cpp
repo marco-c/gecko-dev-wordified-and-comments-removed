@@ -824,7 +824,6 @@ mSink
 >
 EndUpdate
 (
-ctx
 aLayer
 -
 >
