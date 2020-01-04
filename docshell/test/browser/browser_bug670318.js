@@ -72,6 +72,13 @@ history
 =
 docShell
 .
+QueryInterface
+(
+Ci
+.
+nsIWebNavigation
+)
+.
 sessionHistory
 ;
 let
