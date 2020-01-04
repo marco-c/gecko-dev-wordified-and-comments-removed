@@ -16334,7 +16334,7 @@ get
 JS
 :
 :
-UniqueChars
+AutoFilename
 filename
 ;
 unsigned
@@ -16825,7 +16825,7 @@ get
 JS
 :
 :
-UniqueChars
+AutoFilename
 filename
 ;
 unsigned

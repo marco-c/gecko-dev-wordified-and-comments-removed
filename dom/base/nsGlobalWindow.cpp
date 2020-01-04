@@ -45680,7 +45680,7 @@ KillSlowScript
 JS
 :
 :
-UniqueChars
+AutoFilename
 filename
 ;
 unsigned

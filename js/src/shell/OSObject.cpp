@@ -400,7 +400,7 @@ filenameStr
 JS
 :
 :
-UniqueChars
+AutoFilename
 scriptFilename
 ;
 if

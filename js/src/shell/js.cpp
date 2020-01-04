@@ -15119,7 +15119,7 @@ true
 JS
 :
 :
-UniqueChars
+AutoFilename
 filename
 ;
 unsigned
@@ -22673,7 +22673,7 @@ vp
 JS
 :
 :
-UniqueChars
+AutoFilename
 filename
 ;
 if

@@ -676,7 +676,7 @@ else
 JS
 :
 :
-UniqueChars
+AutoFilename
 filename
 ;
 if

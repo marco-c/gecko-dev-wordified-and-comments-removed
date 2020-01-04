@@ -2143,7 +2143,7 @@ CSP
 JS
 :
 :
-UniqueChars
+AutoFilename
 scriptFilename
 ;
 if

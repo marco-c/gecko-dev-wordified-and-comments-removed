@@ -5970,6 +5970,13 @@ setHasCachedSavedFrame
 (
 )
 ;
+ScriptSource
+*
+scriptSource
+(
+)
+const
+;
 const
 char
 *
