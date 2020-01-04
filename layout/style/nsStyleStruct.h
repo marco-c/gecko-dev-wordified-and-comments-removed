@@ -11393,7 +11393,10 @@ mozilla
 StyleFloat
 mOriginalFloat
 ;
-uint8_t
+mozilla
+:
+:
+StyleClear
 mBreakType
 ;
 uint8_t
@@ -12467,7 +12470,10 @@ aWM
 const
 ;
 inline
-uint8_t
+mozilla
+:
+:
+StyleClear
 PhysicalBreakType
 (
 mozilla

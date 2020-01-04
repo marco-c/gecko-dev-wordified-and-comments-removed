@@ -541,7 +541,10 @@ ClearFloats
 (
 nscoord
 aBCoord
-uint8_t
+mozilla
+:
+:
+StyleClear
 aBreakType
 uint32_t
 aFlags
@@ -553,7 +556,10 @@ const
 bool
 ClearContinues
 (
-uint8_t
+mozilla
+:
+:
+StyleClear
 aBreakType
 )
 const

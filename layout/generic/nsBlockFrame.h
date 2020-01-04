@@ -1651,7 +1651,10 @@ nsReflowStatus
 aStatus
 )
 ;
-uint8_t
+mozilla
+:
+:
+StyleClear
 FindTrailingClear
 (
 )

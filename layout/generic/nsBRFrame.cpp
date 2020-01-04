@@ -567,7 +567,7 @@ wm
 1
 ;
 }
-uint32_t
+StyleClear
 breakType
 =
 aReflowInput
@@ -582,7 +582,10 @@ wm
 ;
 if
 (
-NS_STYLE_CLEAR_NONE
+StyleClear
+:
+:
+None_
 =
 =
 breakType
@@ -590,7 +593,10 @@ breakType
 {
 breakType
 =
-NS_STYLE_CLEAR_LINE
+StyleClear
+:
+:
+Line
 ;
 }
 aStatus

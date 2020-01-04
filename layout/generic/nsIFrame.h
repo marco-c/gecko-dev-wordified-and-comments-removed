@@ -708,6 +708,12 @@ NS_INLINE_GET_BREAK_TYPE
 (
 _status
 )
+\
+(
+static_cast
+<
+StyleClear
+>
 (
 (
 (
@@ -720,6 +726,7 @@ _status
 &
 0xF
 )
+)
 #
 define
 NS_INLINE_MAKE_BREAK_TYPE
@@ -727,6 +734,10 @@ NS_INLINE_MAKE_BREAK_TYPE
 _type
 )
 (
+static_cast
+<
+int
+>
 (
 _type
 )
@@ -748,7 +759,10 @@ NS_INLINE_BREAK_BEFORE
 \
 NS_INLINE_MAKE_BREAK_TYPE
 (
-NS_STYLE_CLEAR_LINE
+StyleClear
+:
+:
+Line
 )
 )
 #
@@ -770,7 +784,10 @@ NS_INLINE_BREAK_AFTER
 \
 NS_INLINE_MAKE_BREAK_TYPE
 (
-NS_STYLE_CLEAR_LINE
+StyleClear
+:
+:
+Line
 )
 )
 #
