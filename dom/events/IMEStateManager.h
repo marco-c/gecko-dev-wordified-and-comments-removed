@@ -493,6 +493,13 @@ nsIContent
 aContent
 )
 ;
+static
+IMEContentObserver
+*
+GetActiveContentObserver
+(
+)
+;
 protected
 :
 static

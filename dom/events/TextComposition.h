@@ -727,7 +727,7 @@ aCompositionEvent
 )
 ;
 void
-NotityUpdateComposition
+OnCompositionEventHandled
 (
 const
 WidgetCompositionEvent
