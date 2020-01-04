@@ -3666,13 +3666,12 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
 Destroy
 (
-void
 )
 {
 for

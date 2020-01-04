@@ -7488,13 +7488,12 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
 Destroy
 (
-void
 )
 {
 nsBaseWidget
@@ -7621,9 +7620,6 @@ DumpWindows
 ;
 #
 endif
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 nsWindow

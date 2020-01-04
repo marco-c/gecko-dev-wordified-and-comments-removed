@@ -3394,7 +3394,7 @@ NS_OK
 NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
-NS_IMETHODIMP
+void
 nsCocoaWindow
 :
 :
@@ -3407,7 +3407,6 @@ if
 mOnDestroyCalled
 )
 return
-NS_OK
 ;
 mOnDestroyCalled
 =
@@ -3727,9 +3726,6 @@ false
 ;
 }
 }
-return
-NS_OK
-;
 }
 nsIWidget
 *

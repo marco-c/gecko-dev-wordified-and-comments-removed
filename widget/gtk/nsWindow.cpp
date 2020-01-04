@@ -2885,13 +2885,12 @@ data
 }
 }
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
 Destroy
 (
-void
 )
 {
 if
@@ -2903,7 +2902,6 @@ mIsDestroyed
 mCreated
 )
 return
-NS_OK
 ;
 LOG
 (
@@ -3295,9 +3293,6 @@ endif
 OnDestroy
 (
 )
-;
-return
-NS_OK
 ;
 }
 nsIWidget

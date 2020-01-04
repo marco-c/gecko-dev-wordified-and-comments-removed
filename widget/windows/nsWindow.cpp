@@ -2761,7 +2761,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
@@ -2774,7 +2774,6 @@ if
 mOnDestroyCalled
 )
 return
-NS_OK
 ;
 mDestroyCalled
 =
@@ -2785,7 +2784,6 @@ if
 mPickerDisplayCount
 )
 return
-NS_OK
 ;
 nsCOMPtr
 <
@@ -2841,9 +2839,6 @@ OnDestroy
 )
 ;
 }
-return
-NS_OK
-;
 }
 const
 wchar_t

@@ -1374,13 +1374,12 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsWindow
 :
 :
 Destroy
 (
-void
 )
 {
 mOnDestroyCalled
@@ -1414,9 +1413,6 @@ nsBaseWidget
 OnDestroy
 (
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
