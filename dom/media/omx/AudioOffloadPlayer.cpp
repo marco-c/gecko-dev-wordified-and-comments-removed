@@ -1510,7 +1510,6 @@ LogLevel
 :
 :
 Debug
-(
 "
 DoSeek
 (
@@ -1521,7 +1520,6 @@ lld
 mSeekTarget
 .
 mTime
-)
 )
 ;
 mReachedEOS

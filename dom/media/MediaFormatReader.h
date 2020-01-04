@@ -195,8 +195,8 @@ SeekPromise
 >
 Seek
 (
-int64_t
-aTime
+SeekTarget
+aTarget
 int64_t
 aUnused
 )
@@ -512,9 +512,9 @@ aSample
 )
 ;
 struct
-SeekTarget
+InternalSeekTarget
 {
-SeekTarget
+InternalSeekTarget
 (
 const
 media
@@ -561,7 +561,7 @@ InternalSeek
 TrackType
 aTrack
 const
-SeekTarget
+InternalSeekTarget
 &
 aTarget
 )
@@ -1145,7 +1145,7 @@ mDrainComplete
 ;
 Maybe
 <
-SeekTarget
+InternalSeekTarget
 >
 mTimeThreshold
 ;

@@ -1137,8 +1137,8 @@ RawReader
 :
 Seek
 (
-int64_t
-aTime
+SeekTarget
+aTarget
 int64_t
 aEndTime
 )
@@ -1157,7 +1157,9 @@ mCurrentFrame
 ;
 if
 (
-aTime
+aTarget
+.
+mTime
 >
 =
 UINT_MAX
@@ -1174,7 +1176,9 @@ __func__
 ;
 mCurrentFrame
 =
-aTime
+aTarget
+.
+mTime
 *
 mFrameRate
 /
@@ -1324,7 +1328,7 @@ skip
 }
 [
 self
-aTime
+aTarget
 ]
 (
 )
@@ -1365,7 +1369,9 @@ GetEndTime
 )
 >
 =
-aTime
+aTarget
+.
+mTime
 ;
 }
 )
@@ -1380,7 +1386,7 @@ __func__
 [
 self
 p
-aTime
+aTarget
 ]
 (
 )
@@ -1421,7 +1427,9 @@ p
 >
 Resolve
 (
-aTime
+aTarget
+.
+mTime
 __func__
 )
 ;

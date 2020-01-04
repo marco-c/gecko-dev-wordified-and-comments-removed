@@ -5084,7 +5084,7 @@ aTrack
 }
 else
 {
-SeekTarget
+InternalSeekTarget
 seekTarget
 =
 decoder
@@ -5093,7 +5093,7 @@ mTimeThreshold
 .
 refOr
 (
-SeekTarget
+InternalSeekTarget
 (
 TimeUnit
 :
@@ -5283,7 +5283,7 @@ InternalSeek
 TrackType
 aTrack
 const
-SeekTarget
+InternalSeekTarget
 &
 aTarget
 )
@@ -5746,7 +5746,7 @@ mOutput
 0
 ]
 ;
-SeekTarget
+InternalSeekTarget
 target
 =
 decoder
@@ -6168,7 +6168,7 @@ ToMicroseconds
 InternalSeek
 (
 aTrack
-SeekTarget
+InternalSeekTarget
 (
 decoder
 .
@@ -7841,8 +7841,8 @@ MediaFormatReader
 :
 Seek
 (
-int64_t
-aTime
+SeekTarget
+aTarget
 int64_t
 aUnused
 )
@@ -7857,14 +7857,16 @@ OnTaskQueue
 LOG
 (
 "
-aTime
+aTarget
 =
 (
 %
 lld
 )
 "
-aTime
+aTarget
+.
+mTime
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
@@ -7987,7 +7989,9 @@ TimeUnit
 :
 FromMicroseconds
 (
-aTime
+aTarget
+.
+mTime
 )
 )
 ;

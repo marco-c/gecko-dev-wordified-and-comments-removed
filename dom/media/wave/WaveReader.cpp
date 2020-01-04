@@ -1351,7 +1351,7 @@ WaveReader
 :
 Seek
 (
-int64_t
+SeekTarget
 aTarget
 int64_t
 aEndTime
@@ -1383,6 +1383,8 @@ lld
 "
 mDecoder
 aTarget
+.
+mTime
 )
 )
 ;
@@ -1452,6 +1454,8 @@ std
 min
 (
 aTarget
+.
+mTime
 duration
 )
 /
@@ -1543,6 +1547,8 @@ SeekPromise
 CreateAndResolve
 (
 aTarget
+.
+mTime
 __func__
 )
 ;

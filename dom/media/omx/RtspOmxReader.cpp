@@ -158,8 +158,8 @@ RtspOmxReader
 :
 Seek
 (
-int64_t
-aTime
+SeekTarget
+aTarget
 int64_t
 aEndTime
 )
@@ -174,7 +174,9 @@ mRtspResource
 >
 SeekTime
 (
-aTime
+aTarget
+.
+mTime
 )
 ;
 mRtspResource
@@ -195,7 +197,7 @@ MediaOmxReader
 :
 Seek
 (
-aTime
+aTarget
 aEndTime
 )
 ;

@@ -1619,8 +1619,8 @@ DirectShowReader
 :
 Seek
 (
-int64_t
-aTargetUs
+SeekTarget
+aTarget
 int64_t
 aEndTime
 )
@@ -1630,7 +1630,9 @@ res
 =
 SeekInternal
 (
-aTargetUs
+aTarget
+.
+mTime
 )
 ;
 if
@@ -1660,7 +1662,9 @@ SeekPromise
 :
 CreateAndResolve
 (
-aTargetUs
+aTarget
+.
+mTime
 __func__
 )
 ;
