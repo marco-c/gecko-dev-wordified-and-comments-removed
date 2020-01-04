@@ -544,16 +544,6 @@ return
 mDecodeAborted
 ;
 }
-void
-Abort
-(
-)
-{
-mDecodeAborted
-=
-true
-;
-}
 enum
 DecodeStyle
 {
