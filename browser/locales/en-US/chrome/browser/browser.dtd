@@ -7314,7 +7314,7 @@ computer
 ENTITY
 identity
 .
-connectionVerified1
+connectionVerified2
 "
 You
 are
@@ -7323,7 +7323,7 @@ connected
 to
 this
 site
-run
+owned
 by
 :
 "
