@@ -54,7 +54,12 @@ mozbuild
 .
 util
 import
+(
+    
+ensureParentDir
+    
 lock_file
+)
 def
 addEntriesToListFile
 (
@@ -98,6 +103,11 @@ present
 "
 "
 "
+  
+ensureParentDir
+(
+listFile
+)
   
 lock
 =
