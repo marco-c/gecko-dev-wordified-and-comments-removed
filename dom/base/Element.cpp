@@ -14679,7 +14679,7 @@ void
 Element
 :
 :
-MozRequestFullScreen
+RequestFullscreen
 (
 JSContext
 *

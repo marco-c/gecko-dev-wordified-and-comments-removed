@@ -7413,7 +7413,7 @@ fullscreenElement
 document
 -
 >
-GetFullScreenElement
+GetFullscreenElement
 (
 )
 )

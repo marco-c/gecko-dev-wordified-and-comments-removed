@@ -48441,7 +48441,7 @@ MozCancelFullScreen
 nsIDocument
 :
 :
-MozCancelFullScreen
+ExitFullscreen
 (
 )
 ;
@@ -48453,7 +48453,7 @@ void
 nsIDocument
 :
 :
-MozCancelFullScreen
+ExitFullscreen
 (
 )
 {
@@ -49745,7 +49745,7 @@ IsFullScreenDoc
 )
 {
 return
-GetFullScreenElement
+GetFullscreenElement
 (
 )
 !
@@ -50194,7 +50194,7 @@ aElement
 ;
 NS_ASSERTION
 (
-GetFullScreenElement
+GetFullscreenElement
 (
 )
 =
@@ -50859,7 +50859,7 @@ aElement
 aElement
 =
 =
-GetFullScreenElement
+GetFullscreenElement
 (
 )
 )
@@ -50955,7 +50955,7 @@ false
 }
 if
 (
-GetFullScreenElement
+GetFullscreenElement
 (
 )
 &
@@ -50967,7 +50967,7 @@ nsContentUtils
 ContentIsDescendantOf
 (
 aElement
-GetFullScreenElement
+GetFullscreenElement
 (
 )
 )
@@ -52425,7 +52425,7 @@ Element
 *
 el
 =
-GetMozFullScreenElement
+GetFullscreenElement
 (
 )
 ;
@@ -52456,7 +52456,7 @@ Element
 nsDocument
 :
 :
-GetFullScreenElement
+GetFullscreenElement
 (
 )
 {
@@ -52536,7 +52536,7 @@ aFullScreen
 *
 aFullScreen
 =
-MozFullScreenEnabled
+FullscreenEnabled
 (
 )
 ;
@@ -52548,7 +52548,7 @@ bool
 nsDocument
 :
 :
-MozFullScreenEnabled
+FullscreenEnabled
 (
 )
 {

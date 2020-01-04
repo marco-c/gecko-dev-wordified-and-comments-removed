@@ -2532,15 +2532,6 @@ aName
 0
 ;
 virtual
-Element
-*
-GetFullScreenElement
-(
-)
-=
-0
-;
-virtual
 nsTArray
 <
 Element
@@ -6329,7 +6320,7 @@ const
 ;
 virtual
 bool
-MozFullScreenEnabled
+FullscreenEnabled
 (
 )
 =
@@ -6338,7 +6329,7 @@ MozFullScreenEnabled
 virtual
 Element
 *
-GetMozFullScreenElement
+GetFullscreenElement
 (
 )
 =
@@ -6356,7 +6347,7 @@ IsFullScreenDoc
 ;
 }
 void
-MozCancelFullScreen
+ExitFullscreen
 (
 )
 ;
