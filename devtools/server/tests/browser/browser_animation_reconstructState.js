@@ -126,13 +126,10 @@ i
 +
 )
 {
-let
-state
-=
 yield
 player
 .
-getCurrentState
+refreshState
 (
 )
 ;
@@ -147,6 +144,8 @@ key
 ok
 (
 typeof
+player
+.
 state
 [
 key
