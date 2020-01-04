@@ -550,15 +550,6 @@ desktop_mode
 "
 android
 :
-icon
-=
-"
-drawable
-/
-ic_menu_desktop_mode_off
-"
-android
-:
 title
 =
 "
