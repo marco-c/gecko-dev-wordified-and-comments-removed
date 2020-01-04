@@ -5154,6 +5154,14 @@ verbose
 self
 .
 verbose
+            
+'
+symbols_path
+'
+:
+self
+.
+symbols_path
         
 }
         
