@@ -1828,6 +1828,16 @@ DeviceInitData
 aOut
 )
 ;
+virtual
+bool
+SupportsPluginDirectBitmapDrawing
+(
+)
+{
+return
+false
+;
+}
 protected
 :
 gfxPlatform

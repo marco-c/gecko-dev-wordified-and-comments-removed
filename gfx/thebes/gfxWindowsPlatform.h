@@ -1031,6 +1031,11 @@ aOut
 )
 override
 ;
+bool
+SupportsPluginDirectDXGIDrawing
+(
+)
+;
 protected
 :
 bool
