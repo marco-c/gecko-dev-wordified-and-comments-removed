@@ -716,6 +716,16 @@ server
 /
 *
 *
+!
+devtools
+/
+server
+/
+actors
+/
+webbrowser
+.
+js
 devtools
 /
 shared
