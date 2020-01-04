@@ -270,6 +270,14 @@ p256dhPrivateKey
 ;
 this
 .
+authenticationSecret
+=
+props
+.
+authenticationSecret
+;
+this
+.
 setQuota
 (
 props
@@ -1124,6 +1132,11 @@ p256dhKey
 this
 .
 p256dhPublicKey
+authenticationSecret
+:
+this
+.
+authenticationSecret
 }
 ;
 }

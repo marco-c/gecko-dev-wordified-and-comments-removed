@@ -124,6 +124,9 @@ PushEncryptionKeyName
 "
 p256dh
 "
+"
+auth
+"
 }
 ;
 [
@@ -150,6 +153,9 @@ scope
 ArrayBuffer
 ?
 key
+ArrayBuffer
+?
+authSecret
 )
 ]
 interface
