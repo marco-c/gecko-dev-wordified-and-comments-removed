@@ -3831,6 +3831,7 @@ JSVersion
 defaultVersion
 (
 )
+const
 {
 return
 defaultVersion_
