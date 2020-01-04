@@ -1784,7 +1784,7 @@ int32_t
 aY
 )
 ;
-sync
+async
 RequestCommitOrCancel
 (
 bool
