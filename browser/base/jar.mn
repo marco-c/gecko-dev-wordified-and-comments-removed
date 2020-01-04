@@ -1584,7 +1584,6 @@ social
 .
 js
 )
-*
 content
 /
 browser
@@ -2600,7 +2599,6 @@ aboutSyncTabs
 .
 xul
 )
-*
 content
 /
 browser
