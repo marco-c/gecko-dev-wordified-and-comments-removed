@@ -29,13 +29,11 @@ android
 compileSdkVersion
 23
 buildToolsVersion
-"
-23
+mozconfig
 .
-0
+substs
 .
-1
-"
+ANDROID_BUILD_TOOLS_VERSION
 defaultConfig
 {
 targetSdkVersion
