@@ -293,10 +293,6 @@ toConstant
 )
 -
 >
-value
-(
-)
-.
 toNumber
 (
 )
@@ -1607,10 +1603,6 @@ NumbersAreIdentical
 op
 -
 >
-value
-(
-)
-.
 toNumber
 (
 )
@@ -1786,10 +1778,6 @@ NumbersAreIdentical
 op
 -
 >
-value
-(
-)
-.
 toNumber
 (
 )

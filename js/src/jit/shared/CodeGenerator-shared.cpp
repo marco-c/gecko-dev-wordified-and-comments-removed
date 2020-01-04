@@ -2200,7 +2200,7 @@ addConstantToPool
 constant
 -
 >
-value
+toJSValue
 (
 )
 &
@@ -2333,7 +2333,7 @@ addConstantToPool
 constant
 -
 >
-value
+toJSValue
 (
 )
 &
@@ -2523,7 +2523,7 @@ addConstantToPool
 constant
 -
 >
-value
+toJSValue
 (
 )
 &

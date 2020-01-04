@@ -9565,10 +9565,6 @@ toConstant
 )
 -
 >
-value
-(
-)
-.
 toInt32
 (
 )
@@ -9659,10 +9655,6 @@ toConstant
 )
 -
 >
-value
-(
-)
-.
 toDouble
 (
 )
@@ -9765,11 +9757,7 @@ toConstant
 )
 -
 >
-value
-(
-)
-.
-toDouble
+toFloat32
 (
 )
 =
@@ -9777,7 +9765,7 @@ toDouble
 -
 1
 .
-0
+0f
 )
 defineReuseInput
 (
@@ -14869,7 +14857,7 @@ toConstant
 )
 -
 >
-value
+toJSValue
 (
 )
 ;
@@ -15209,10 +15197,6 @@ toConstant
 )
 -
 >
-value
-(
-)
-.
 toObject
 (
 )
