@@ -185,6 +185,15 @@ nsMimeType
 >
 mMimeTypes
 ;
+nsTArray
+<
+RefPtr
+<
+nsMimeType
+>
+>
+mCTPMimeTypes
+;
 }
 ;
 class
