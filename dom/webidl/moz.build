@@ -1770,6 +1770,11 @@ OfflineResourceList
 webidl
 '
 '
+OffscreenCanvas
+.
+webidl
+'
+'
 OscillatorNode
 .
 webidl
