@@ -6477,7 +6477,7 @@ value
 /
 aHgram
 .
-sum
+sample_count
 )
 +
 "
