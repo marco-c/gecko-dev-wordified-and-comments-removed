@@ -229,6 +229,11 @@ RootedDictionary
 h
 '
 '
+SimpleGlobalObject
+.
+h
+'
+'
 StructuredClone
 .
 h
@@ -552,6 +557,11 @@ cpp
 '
 '
 IterableIterator
+.
+cpp
+'
+'
+SimpleGlobalObject
 .
 cpp
 '
