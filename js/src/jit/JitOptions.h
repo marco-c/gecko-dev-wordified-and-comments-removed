@@ -201,6 +201,9 @@ bool
 disableRangeAnalysis
 ;
 bool
+disableRecoverIns
+;
+bool
 disableScalarReplacement
 ;
 bool

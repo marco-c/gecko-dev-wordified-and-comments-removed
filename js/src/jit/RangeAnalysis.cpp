@@ -14775,6 +14775,12 @@ safeToConvert
 {
 if
 (
+!
+JitOptions
+.
+disableRecoverIns
+&
+&
 isRecoverableResult
 &
 &

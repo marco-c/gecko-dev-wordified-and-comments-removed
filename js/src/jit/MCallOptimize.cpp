@@ -16384,6 +16384,15 @@ if
 (
 JitOptions
 .
+disableRecoverIns
+)
+return
+InliningStatus_NotInlined
+;
+if
+(
+JitOptions
+.
 checkRangeAnalysis
 )
 {

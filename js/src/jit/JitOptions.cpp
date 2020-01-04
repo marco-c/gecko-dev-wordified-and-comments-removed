@@ -446,6 +446,12 @@ false
 ;
 SET_DEFAULT
 (
+disableRecoverIns
+false
+)
+;
+SET_DEFAULT
+(
 disableScalarReplacement
 false
 )
