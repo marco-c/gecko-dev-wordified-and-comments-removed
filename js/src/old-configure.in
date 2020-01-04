@@ -1005,11 +1005,11 @@ P
 MOZ_DEFAULT_COMPILER
 if
 test
+-
+z
 "
 JS_STANDALONE
 "
-=
-no
 ;
 then
 autoconfmk
@@ -1019,8 +1019,6 @@ autoconf
 js
 .
 mk
-JS_STANDALONE
-=
 #
 DIST
 is
@@ -1031,13 +1029,6 @@ top
 level
 configure
 else
-JS_STANDALONE
-=
-1
-AC_DEFINE
-(
-JS_STANDALONE
-)
 DIST
 =
 "
@@ -1046,10 +1037,6 @@ MOZ_BUILD_ROOT
 dist
 "
 fi
-AC_SUBST
-(
-JS_STANDALONE
-)
 AC_SUBST
 (
 autoconfmk

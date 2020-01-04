@@ -70667,7 +70667,6 @@ STLPORT_LIBS
 export
 JS_STANDALONE
 =
-no
 export
 DIST
 export
