@@ -89,10 +89,11 @@ Direct2D
 \
 _
 (
-D3D11_ANGLE
+D3D11_HW_ANGLE
 Feature
 "
 Direct3D11
+hardware
 ANGLE
 "
 )

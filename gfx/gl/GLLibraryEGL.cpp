@@ -740,7 +740,7 @@ GetFeature
 Feature
 :
 :
-D3D11_ANGLE
+D3D11_HW_ANGLE
 )
 ;
 if
@@ -803,7 +803,7 @@ IsForcedOnByUser
 Feature
 :
 :
-D3D11_ANGLE
+D3D11_HW_ANGLE
 )
 )
 return
