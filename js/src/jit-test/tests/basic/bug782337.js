@@ -44,11 +44,6 @@ Object
 )
 ;
 }
-validategc
-(
-false
-)
-;
 gcslice
 (
 1

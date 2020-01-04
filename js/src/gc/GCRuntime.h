@@ -2181,13 +2181,6 @@ callback
 )
 ;
 void
-setValidate
-(
-bool
-enable
-)
-;
-void
 setFullCompartmentChecks
 (
 bool
@@ -4066,9 +4059,6 @@ selectedForMarking
 ;
 #
 endif
-bool
-validate
-;
 bool
 fullCompartmentChecks
 ;

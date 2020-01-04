@@ -5000,6 +5000,12 @@ ZealIncrementalMultipleSlices
 ;
 const
 int
+ZealIncrementalMarkingValidator
+=
+11
+;
+const
+int
 ZealCheckHashTablesOnMinorGC
 =
 13
