@@ -2196,6 +2196,7 @@ n
 if
 (
 (
+(
 void
 *
 )
@@ -2204,8 +2205,10 @@ TestObject
 *
 )
 0x1000
+)
 =
 =
+(
 (
 void
 *
@@ -2219,6 +2222,7 @@ TestObject
 *
 )
 0x1000
+)
 )
 printf
 (

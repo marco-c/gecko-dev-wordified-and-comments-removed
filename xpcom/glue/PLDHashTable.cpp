@@ -1768,9 +1768,6 @@ entry
 ;
 }
 }
-return
-nullptr
-;
 }
 bool
 PLDHashTable

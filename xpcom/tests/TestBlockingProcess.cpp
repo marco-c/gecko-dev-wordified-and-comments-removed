@@ -22,7 +22,4 @@ PR_SecondsToInterval
 )
 )
 ;
-return
-0
-;
 }
