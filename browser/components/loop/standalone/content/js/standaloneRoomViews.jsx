@@ -3799,6 +3799,11 @@ this
 .
 publishStream
 }
+show
+=
+{
+true
+}
 video
 =
 {

@@ -4384,6 +4384,10 @@ screenShareData
 settingsMenuItems
 :
 settingsMenuItems
+show
+:
+!
+shouldRenderEditContextView
 video
 :
 {

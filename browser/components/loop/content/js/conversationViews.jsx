@@ -4456,6 +4456,11 @@ settingsMenuItems
 {
 settingsMenuItems
 }
+show
+=
+{
+true
+}
 video
 =
 {

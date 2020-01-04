@@ -6354,6 +6354,9 @@ feedback
 "
 }
 ]
+show
+:
+true
 video
 :
 {
@@ -6457,6 +6460,9 @@ feedback
 "
 }
 ]
+show
+:
+true
 video
 :
 {
@@ -6560,6 +6566,9 @@ feedback
 "
 }
 ]
+show
+:
+true
 video
 :
 {

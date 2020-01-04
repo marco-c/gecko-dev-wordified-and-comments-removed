@@ -2995,6 +2995,9 @@ publishStream
 this
 .
 publishStream
+show
+:
+true
 video
 :
 {
