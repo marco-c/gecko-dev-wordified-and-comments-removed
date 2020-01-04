@@ -3844,7 +3844,7 @@ little
 '
 if
 '
-le
+el
 '
 in
 cpu
@@ -3876,7 +3876,7 @@ little
 '
 if
 '
-le
+el
 '
 in
 cpu
