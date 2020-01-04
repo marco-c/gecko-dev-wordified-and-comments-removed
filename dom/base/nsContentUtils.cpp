@@ -35176,7 +35176,7 @@ KEY_FLAG_LOCATION_STANDARD
 :
 event
 .
-location
+mLocation
 =
 nsIDOMKeyEvent
 :
@@ -35193,7 +35193,7 @@ KEY_FLAG_LOCATION_LEFT
 :
 event
 .
-location
+mLocation
 =
 nsIDOMKeyEvent
 :
@@ -35210,7 +35210,7 @@ KEY_FLAG_LOCATION_RIGHT
 :
 event
 .
-location
+mLocation
 =
 nsIDOMKeyEvent
 :
@@ -35227,7 +35227,7 @@ KEY_FLAG_LOCATION_NUMPAD
 :
 event
 .
-location
+mLocation
 =
 nsIDOMKeyEvent
 :
@@ -35353,7 +35353,7 @@ DOM_VK_DIVIDE
 :
 event
 .
-location
+mLocation
 =
 nsIDOMKeyEvent
 :
@@ -35388,7 +35388,7 @@ DOM_VK_META
 :
 event
 .
-location
+mLocation
 =
 nsIDOMKeyEvent
 :
@@ -35401,7 +35401,7 @@ default
 :
 event
 .
-location
+mLocation
 =
 nsIDOMKeyEvent
 :

@@ -5482,7 +5482,7 @@ kVK_Control
 :
 aKeyEvent
 .
-location
+mLocation
 =
 nsIDOMKeyEvent
 :
@@ -5505,7 +5505,7 @@ kVK_RightControl
 :
 aKeyEvent
 .
-location
+mLocation
 =
 nsIDOMKeyEvent
 :
@@ -5573,7 +5573,7 @@ kVK_Powerbook_KeypadEnter
 :
 aKeyEvent
 .
-location
+mLocation
 =
 nsIDOMKeyEvent
 :
@@ -5586,7 +5586,7 @@ default
 :
 aKeyEvent
 .
-location
+mLocation
 =
 nsIDOMKeyEvent
 :

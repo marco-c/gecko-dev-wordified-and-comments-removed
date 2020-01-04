@@ -2931,7 +2931,7 @@ NS_WARN_IF
 (
 aKeyboardEvent
 .
-location
+mLocation
 )
 )
 {
@@ -2946,12 +2946,12 @@ if
 !
 aKeyboardEvent
 .
-location
+mLocation
 )
 {
 aKeyboardEvent
 .
-location
+mLocation
 =
 WidgetKeyboardEvent
 :

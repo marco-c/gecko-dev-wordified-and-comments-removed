@@ -5343,7 +5343,7 @@ CODE_NAME_INDEX_USE_STRING
 ;
 aKeyEvent
 .
-location
+mLocation
 =
 GetKeyLocation
 (

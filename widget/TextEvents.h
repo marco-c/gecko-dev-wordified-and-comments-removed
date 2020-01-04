@@ -293,7 +293,7 @@ mPseudoCharCode
 (
 0
 )
-location
+mLocation
 (
 nsIDOMKeyEvent
 :
@@ -410,7 +410,7 @@ mPseudoCharCode
 (
 0
 )
-location
+mLocation
 (
 nsIDOMKeyEvent
 :
@@ -664,7 +664,7 @@ uint32_t
 mPseudoCharCode
 ;
 uint32_t
-location
+mLocation
 ;
 nsTArray
 <
@@ -1017,11 +1017,11 @@ aEvent
 .
 mPseudoCharCode
 ;
-location
+mLocation
 =
 aEvent
 .
-location
+mLocation
 ;
 mAlternativeCharCodes
 =

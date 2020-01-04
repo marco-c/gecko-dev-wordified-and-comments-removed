@@ -1058,7 +1058,7 @@ AsKeyboardEvent
 )
 -
 >
-location
+mLocation
 ;
 }
 already_AddRefed
@@ -1229,7 +1229,7 @@ AsKeyboardEvent
 internalEvent
 -
 >
-location
+mLocation
 =
 aParam
 .
