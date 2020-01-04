@@ -118,7 +118,7 @@ IsVideoDecoding
 )
 const
 ;
-nsresult
+void
 EnsureVideoDecodeTaskQueued
 (
 )
