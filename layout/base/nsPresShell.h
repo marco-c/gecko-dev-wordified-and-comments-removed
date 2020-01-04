@@ -1805,6 +1805,13 @@ ReportAnyBadState
 (
 )
 ;
+void
+SetInImageVisibility
+(
+bool
+aState
+)
+;
 protected
 :
 virtual
@@ -3383,6 +3390,11 @@ mIsLastChromeOnlyEscapeKeyConsumed
 ;
 bool
 mHasReceivedPaintMessage
+:
+1
+;
+bool
+mInImageVisibility
 :
 1
 ;
