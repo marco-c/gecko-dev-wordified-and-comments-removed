@@ -770,6 +770,9 @@ VP8
 decoding
 is
 supported
+starting
+in
+48
 .
 *
 /
@@ -787,6 +790,9 @@ VP9
 decoding
 is
 supported
+starting
+in
+48
 .
 *
 /
