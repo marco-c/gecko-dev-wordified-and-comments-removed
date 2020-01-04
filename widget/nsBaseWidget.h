@@ -2558,6 +2558,13 @@ MultiTouchInput
 *
 aState
 uint32_t
+aTime
+mozilla
+:
+:
+TimeStamp
+aTimeStamp
+uint32_t
 aPointerId
 TouchPointerState
 aPointerState

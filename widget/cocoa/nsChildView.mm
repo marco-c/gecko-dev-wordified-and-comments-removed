@@ -6415,6 +6415,15 @@ mSynthesizedTouchInput
 get
 (
 )
+PR_IntervalNow
+(
+)
+TimeStamp
+:
+:
+Now
+(
+)
 aPointerId
 aPointerState
 pointInWindow
