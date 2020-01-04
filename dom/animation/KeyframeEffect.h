@@ -1413,6 +1413,11 @@ aRv
 )
 ;
 }
+void
+NotifySpecifiedTimingUpdated
+(
+)
+;
 protected
 :
 ~
