@@ -4297,15 +4297,30 @@ in
 what
 :
             
+from
+mozbuild
+.
+controller
+.
+clobber
+import
+Clobberer
+            
 try
 :
                 
+Clobberer
+(
 self
+.
+topsrcdir
+self
+.
+topobjdir
+)
 .
 remove_objdir
 (
-full
-=
 full
 )
             
