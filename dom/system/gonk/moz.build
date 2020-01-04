@@ -263,6 +263,11 @@ nsVolumeService
 .
 h
 '
+'
+SystemProperty
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -350,6 +355,11 @@ cpp
 '
 '
 OpenFileFinder
+.
+cpp
+'
+'
+SystemProperty
 .
 cpp
 '
