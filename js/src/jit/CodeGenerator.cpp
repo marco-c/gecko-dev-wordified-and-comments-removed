@@ -22869,6 +22869,7 @@ GetJitContext
 -
 >
 cx
+false
 )
 {
 }
@@ -22995,6 +22996,15 @@ setPrinter
 nullptr
 )
 ;
+if
+(
+!
+printer
+.
+hadOutOfMemory
+(
+)
+)
 block
 .
 setCode
