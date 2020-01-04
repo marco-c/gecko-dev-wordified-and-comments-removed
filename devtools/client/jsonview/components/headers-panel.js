@@ -111,6 +111,11 @@ HeadersPanel
 createClass
 (
 {
+displayName
+:
+"
+HeadersPanel
+"
 propTypes
 :
 {
@@ -125,11 +130,6 @@ PropTypes
 .
 object
 }
-displayName
-:
-"
-HeadersPanel
-"
 getInitialState
 :
 function
@@ -216,6 +216,11 @@ createFactory
 createClass
 (
 {
+displayName
+:
+"
+HeadersToolbar
+"
 propTypes
 :
 {
@@ -225,11 +230,6 @@ PropTypes
 .
 object
 }
-displayName
-:
-"
-HeadersToolbar
-"
 onCopy
 :
 function

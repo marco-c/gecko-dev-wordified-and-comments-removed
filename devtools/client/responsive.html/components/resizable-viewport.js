@@ -107,6 +107,11 @@ exports
 createClass
 (
 {
+displayName
+:
+"
+ResizableViewport
+"
 propTypes
 :
 {
@@ -196,11 +201,6 @@ func
 .
 isRequired
 }
-displayName
-:
-"
-ResizableViewport
-"
 getInitialState
 (
 )

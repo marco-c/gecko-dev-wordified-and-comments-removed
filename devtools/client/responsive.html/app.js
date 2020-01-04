@@ -206,6 +206,11 @@ App
 createClass
 (
 {
+displayName
+:
+"
+App
+"
 propTypes
 :
 {
@@ -270,11 +275,6 @@ viewport
 .
 isRequired
 }
-displayName
-:
-"
-App
-"
 onBrowserMounted
 (
 )

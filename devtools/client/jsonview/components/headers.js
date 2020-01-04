@@ -56,6 +56,11 @@ Headers
 createClass
 (
 {
+displayName
+:
+"
+Headers
+"
 propTypes
 :
 {
@@ -65,11 +70,6 @@ PropTypes
 .
 object
 }
-displayName
-:
-"
-Headers
-"
 getInitialState
 :
 function
@@ -224,6 +224,11 @@ createFactory
 createClass
 (
 {
+displayName
+:
+"
+HeaderList
+"
 propTypes
 :
 {
@@ -252,11 +257,6 @@ string
 )
 )
 }
-displayName
-:
-"
-HeaderList
-"
 getInitialState
 :
 function

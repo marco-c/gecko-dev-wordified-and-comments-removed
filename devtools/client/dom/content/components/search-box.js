@@ -65,6 +65,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+SearchBox
+"
 propTypes
 :
 {
@@ -74,11 +79,6 @@ PropTypes
 .
 func
 }
-displayName
-:
-"
-SearchBox
-"
 componentWillUnmount
 :
 function

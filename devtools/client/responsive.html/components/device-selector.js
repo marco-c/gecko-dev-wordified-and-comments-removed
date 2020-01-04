@@ -72,6 +72,11 @@ exports
 createClass
 (
 {
+displayName
+:
+"
+DeviceSelector
+"
 propTypes
 :
 {
@@ -116,11 +121,6 @@ func
 .
 isRequired
 }
-displayName
-:
-"
-DeviceSelector
-"
 mixins
 :
 [

@@ -54,6 +54,11 @@ SearchBox
 createClass
 (
 {
+displayName
+:
+"
+SearchBox
+"
 propTypes
 :
 {
@@ -63,11 +68,6 @@ PropTypes
 .
 object
 }
-displayName
-:
-"
-SearchBox
-"
 onSearch
 :
 function

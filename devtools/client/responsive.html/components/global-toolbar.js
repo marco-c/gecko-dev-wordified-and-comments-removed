@@ -65,6 +65,11 @@ exports
 createClass
 (
 {
+displayName
+:
+"
+GlobalToolbar
+"
 propTypes
 :
 {
@@ -114,11 +119,6 @@ func
 .
 isRequired
 }
-displayName
-:
-"
-GlobalToolbar
-"
 mixins
 :
 [

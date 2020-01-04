@@ -140,6 +140,11 @@ MainTabbedArea
 createClass
 (
 {
+displayName
+:
+"
+MainTabbedArea
+"
 propTypes
 :
 {
@@ -187,11 +192,6 @@ array
 ]
 )
 }
-displayName
-:
-"
-MainTabbedArea
-"
 getInitialState
 :
 function

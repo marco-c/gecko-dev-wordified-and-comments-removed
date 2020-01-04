@@ -66,6 +66,11 @@ exports
 createClass
 (
 {
+displayName
+:
+"
+ViewportToolbar
+"
 propTypes
 :
 {
@@ -117,11 +122,6 @@ func
 .
 isRequired
 }
-displayName
-:
-"
-ViewportToolbar
-"
 mixins
 :
 [

@@ -105,6 +105,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+MainFrame
+"
 propTypes
 :
 {
@@ -126,11 +131,6 @@ func
 .
 isRequired
 }
-displayName
-:
-"
-MainFrame
-"
 render
 :
 function

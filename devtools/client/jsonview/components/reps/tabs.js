@@ -45,6 +45,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+Tabs
+"
 propTypes
 :
 {
@@ -126,11 +131,6 @@ element
 .
 isRequired
 }
-displayName
-:
-"
-Tabs
-"
 getDefaultProps
 :
 function
@@ -715,6 +715,11 @@ React
 createClass
 (
 {
+displayName
+:
+"
+Panel
+"
 propTypes
 :
 {
@@ -751,11 +756,6 @@ element
 .
 isRequired
 }
-displayName
-:
-"
-Panel
-"
 render
 :
 function

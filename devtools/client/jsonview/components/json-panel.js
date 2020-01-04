@@ -175,6 +175,11 @@ JsonPanel
 createClass
 (
 {
+displayName
+:
+"
+JsonPanel
+"
 propTypes
 :
 {
@@ -212,11 +217,6 @@ PropTypes
 .
 object
 }
-displayName
-:
-"
-JsonPanel
-"
 getInitialState
 :
 function
@@ -716,6 +716,11 @@ createFactory
 createClass
 (
 {
+displayName
+:
+"
+JsonToolbar
+"
 propTypes
 :
 {
@@ -725,11 +730,6 @@ PropTypes
 .
 object
 }
-displayName
-:
-"
-JsonToolbar
-"
 onSave
 :
 function
