@@ -7,6 +7,13 @@ Ion
 .
 h
 "
+#
+include
+"
+jscompartmentinlines
+.
+h
+"
 using
 namespace
 js
