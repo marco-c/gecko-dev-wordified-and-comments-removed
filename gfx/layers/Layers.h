@@ -6730,6 +6730,10 @@ mGLContext
 (
 nullptr
 )
+mRenderer
+(
+nullptr
+)
 mFrontbufferGLTex
 (
 0
@@ -6762,6 +6766,10 @@ gl
 GLContext
 *
 mGLContext
+;
+AsyncCanvasRenderer
+*
+mRenderer
 ;
 uint32_t
 mFrontbufferGLTex
@@ -7077,14 +7085,6 @@ return
 mAsyncRenderer
 ;
 }
-void
-SetAsyncRenderer
-(
-AsyncCanvasRenderer
-*
-aAsyncRenderer
-)
-;
 protected
 :
 CanvasLayer
