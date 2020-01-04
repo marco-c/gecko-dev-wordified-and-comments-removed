@@ -576,11 +576,6 @@ nsHTMLParts
 h
 '
 '
-nsHTMLReflowMetrics
-.
-h
-'
-'
 nsIAnonymousContentCreator
 .
 h
@@ -714,6 +709,11 @@ mozilla
 [
 '
 ReflowInput
+.
+h
+'
+'
+ReflowOutput
 .
 h
 '
@@ -886,11 +886,6 @@ nsHTMLCanvasFrame
 cpp
 '
 '
-nsHTMLReflowMetrics
-.
-cpp
-'
-'
 nsImageFrame
 .
 cpp
@@ -1012,6 +1007,11 @@ cpp
 '
 '
 ReflowInput
+.
+cpp
+'
+'
+ReflowOutput
 .
 cpp
 '

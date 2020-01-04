@@ -172,7 +172,9 @@ h
 #
 include
 "
-nsHTMLReflowMetrics
+mozilla
+/
+ReflowOutput
 .
 h
 "

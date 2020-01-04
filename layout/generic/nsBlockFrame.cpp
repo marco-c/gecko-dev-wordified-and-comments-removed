@@ -359,6 +359,13 @@ namespace
 mozilla
 :
 :
+dom
+;
+using
+namespace
+mozilla
+:
+:
 layout
 ;
 typedef
